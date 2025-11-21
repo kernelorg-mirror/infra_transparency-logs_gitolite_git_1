@@ -1,58 +1,58 @@
-Content-Type: multipart/mixed; boundary="===============0989389880132851755=="
+Content-Type: multipart/mixed; boundary="===============7998375943460781114=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Fri, 21 Nov 2025 22:09:45 -0000
-Message-Id: <176376298547.2743897.14414802932488908253@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Fri, 21 Nov 2025 22:09:48 -0000
+Message-Id: <176376298895.2744179.9123027843963402938@gitolite.kernel.org>
 
---===============0989389880132851755==
+--===============7998375943460781114==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.18
+  - ref: refs/heads/asoc-6.18
     old: 2bae7beda19f3b2dc6ab2062c94df19c27923712
     new: a3d8f733d453ed4d4eb1f0e894eec787777465a2
     log: |
          a3d8f733d453ed4d4eb1f0e894eec787777465a2 ASoC: codecs: wcd934x: add explicit soundwire depenency
          
-  - ref: refs/heads/for-6.19
+  - ref: refs/heads/asoc-6.19
     old: df919994d323c7c86e32fa2745730136d58ada12
     new: 172e22180212092b2aecac172ede3d07c013e22f
     log: revlist-df919994d323-172e22180212.txt
 
---===============0989389880132851755==
+--===============7998375943460781114==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1763763055 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1763762983-58904cebe113f91366d718d9689f6d20dacc3086
+pusher C3F436CA30F5D8EB 1763763059 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1763762986-e6cb9b06898e969f414ead536d59f76c8290f0c8
 
-2bae7beda19f3b2dc6ab2062c94df19c27923712 a3d8f733d453ed4d4eb1f0e894eec787777465a2 refs/heads/for-6.18
-df919994d323c7c86e32fa2745730136d58ada12 172e22180212092b2aecac172ede3d07c013e22f refs/heads/for-6.19
+2bae7beda19f3b2dc6ab2062c94df19c27923712 a3d8f733d453ed4d4eb1f0e894eec787777465a2 refs/heads/asoc-6.18
+df919994d323c7c86e32fa2745730136d58ada12 172e22180212092b2aecac172ede3d07c013e22f refs/heads/asoc-6.19
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmkg428ACgkQJNaLcl1U
-h9Afswf/TmYLl1VJFlYJ5h+mDykOFotykOh+3dpDtpY2oFv/fLfXIS4RNS73mcQI
-cY7H7ZtXVphVvpLI0J8vbfBydHwQMibYsRc0pd1/2uSEgXoafR2cbCEuIk+/uRVP
-6XJj2ferPhkWwYUsaGQL6JJMH+BYx7xzB4Aaqaoi+KdRdKuKdDa8r6Jlo/1+j9om
-I98/DarI9+xvjuAdOohY4tcZwB6vG1CBAGidSnNg2bfXAkC5a0Pqi1WwOHkZcwpG
-pb62gyqoBgtdIszyTjIxs11OZt+0aPh3v0Uz2SlU8J8lyXeuAddE1I030ZP6pGJl
-ryZe/qkj8+eTGS+OITooXUAClPXJwQ==
-=bVG5
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmkg43MACgkQJNaLcl1U
+h9CXBQf/cXuE59xn2QbO3PcsgD3W5HN84aOpkU9kPBqRI8/koybMbx4bQ8wfCnfu
+EbhSjTqGqwBQCLybcPvLLfSOo9ddF8+ZR1IJY51wVhGD4wbiLLuoVlCyjsTTqizz
+3Dj01C58WbSXDjHZuKOJPwMH+mcd4yn2BTz/3y8hA2ftzqErrCid6d8ryDabxxBt
+wzRTxowyHnV1t5eY3+RpsK0GvFBj9++e2ccjy3dG4xEkkYzSBvzqcaW2iTpFegzF
+DKuZg8SKM4eLwhiQASQDaF3SHlbhccgSdA8zvaNFUeUrVpXrlbsQdBe/1Jv9cSmw
+zbWGx+CQ43g/ccq+G09BooJY4iqYWw==
+=nWm3
 -----END PGP SIGNATURE-----
 
---===============0989389880132851755==
+--===============7998375943460781114==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -78,4 +78,4 @@ fb62da31fad29fe3c9844ba217b9bc99820d4622 ASoC: SDCA: Use helper macros for contr
 d4a3411ca31337f369e5600270138165e8eb57c0 Add SDCA class driver
 172e22180212092b2aecac172ede3d07c013e22f ASoC: cs35l56: Set access permissions on volatile
 
---===============0989389880132851755==--
+--===============7998375943460781114==--
