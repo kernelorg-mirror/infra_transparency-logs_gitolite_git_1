@@ -1,24 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
-Date: Sat, 22 Nov 2025 23:46:53 -0000
-Message-Id: <176385521330.4050787.11718584251932206081@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Sat, 22 Nov 2025 23:54:01 -0000
+Message-Id: <176385564162.4056458.5842103436467539890@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/25-new
-user: akpm
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
   - ref: refs/heads/master
-    old: 9bd280c182f2b07492838388107267b3a082eb3e
-    new: 07b8858d1ec5a68362de3241760aeb0a2773e675
+    old: 89edd36fd801efdb3d2f38bbf7791a293c24bb45
+    new: d13f3ac64efb868d09cb2726b1e84929afe90235
     log: |
-         0ddee148dff0715302b59e14ca726a58ea721c90 foo
-         339f7d53c868e2b2fec83f11a7939eb37aae277a foo
-         1339772c3011c3dc1f0737e9782abc4212480ce0 foo
-         4b5b0a782d821f9e8bfc82b13e58753d1bf65f7a foo
-         af3da98f71617b1a4c575a90f1406d8d94b02918 foo
-         07b8858d1ec5a68362de3241760aeb0a2773e675 foo
+         ebd729fef31620e0bf74cbf8a4c7fda73a2a4e7e MIPS: Malta: Fix !EVA SOC-it PCI MMIO
+         09782e72eec451fa14d327595f86cdc338ebe53c mips: dts: econet: fix EN751221 core type
+         9f048fa487409e364cf866c957cf0b0d782ca5a3 MIPS: mm: Prevent a TLB shutdown on initial uniquification
+         14b46ba92bf547508b4a49370c99aba76cb53b53 MIPS: kernel: Fix random segmentation faults
+         141fbbecec0e71fa6b35d08c7d3dba2f9853a4ee lib/crypto: tests: Fix KMSAN warning in test_sha256_finup_2x()
+         0629dcf772e66ff9b81822af0e29ae2c7d03068f Merge tag 'libcrypto-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/ebiggers/linux
+         d13f3ac64efb868d09cb2726b1e84929afe90235 Merge tag 'mips-fixes_6.18_1' of git://git.kernel.org/pub/scm/linux/kernel/git/mips/linux
          
