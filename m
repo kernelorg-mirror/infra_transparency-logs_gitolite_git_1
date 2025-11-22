@@ -1,54 +1,99 @@
-Content-Type: multipart/mixed; boundary="===============4618019202436904739=="
+Content-Type: multipart/mixed; boundary="===============4614136928331080724=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Sat, 22 Nov 2025 16:27:46 -0000
-Message-Id: <176382886697.3691739.2530180659463616943@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux
+Date: Sat, 22 Nov 2025 16:45:22 -0000
+Message-Id: <176382992243.3707119.14591289229981951970@gitolite.kernel.org>
 
---===============4618019202436904739==
+--===============4614136928331080724==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/cel/linux
-user: cel
+repo: pub/scm/linux/kernel/git/axboe/linux
+user: axboe
 changes:
-  - ref: refs/heads/nfsd-testing
-    old: 76f3e033168efac2b7345bee0203844852be6e21
-    new: d214e4cd058f18a9f6e0796ef0e3da118825b8c7
-    log: revlist-76f3e033168e-d214e4cd058f.txt
+  - ref: refs/heads/master
+    old: fd95357fd8c6778ac7dea6c57a19b8b182b6e91f
+    new: 2eba5e05d9bcf4cdea995ed51b0f07ba0275794a
+    log: revlist-fd95357fd8c6-2eba5e05d9bc.txt
 
---===============4618019202436904739==
+--===============4614136928331080724==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-76f3e033168e-d214e4cd058f.txt
+Content-Disposition: attachment; filename=revlist-fd95357fd8c6-2eba5e05d9bc.txt
 
-3940d4191528e2b2704a35eb78b1ea5d6860de3b NFSD: don't start nfsd if sv_permsocks is empty
-5e694cee003cbb7683f9ca7ba3b46cd7306ca11a xdrgen: Fix union declarations
-9dc2f7674072599277ed40c48f63b15988a5d850 xdrgen: Don't generate unnecessary semicolon
-c03423e51c7a86ebcffcf6e3ebe2671dd8772f92 NFSD: use correct reservation type in nfsd4_scsi_fence_client
-b91dc24aad453a79c14f895622e45f3f16eb1ad9 NFSD: Add trace point for SCSI fencing operation.
-7d328354855da78a245baa71db5925b04f7bcf00 SUNRPC: svcauth_gss: avoid NULL deref on zero length gss_token in gss_read_proxy_verf
-9cd58c1284fde88836a22404fb7aea0b9f895320 svcrdma: use rc_pageoff for memcpy byte offset
-c2123e86598cc468f0b750e8327abc65c54fc8a5 svcrdma: return 0 on success from svc_rdma_copy_inline_range
-e026f8f05d7488aee9eca1f86f6d083d03f0b8d8 svcrdma: bound check rq_pages index in inline path
-8c336a5a8c120a1c3e32adf7a68e56f9e5c0b047 NFSD: Make FILE_SYNC WRITEs comply with spec
-5d8a17efc66631f7dfbe74a741bb37e216a8a41d NFSD: Implement NFSD_IO_DIRECT for NFS WRITE
-592be01133ce095f983a513ebaa99a3038320541 NFSD: add Documentation/filesystems/nfs/nfsd-io-modes.rst
-ea03e441c279ef6a78f4e76a5320178513fc1f08 nfsd: Mark variable __maybe_unused to avoid W=1 build break
-247cb5eed9e569a512c38492021d8ae22d359cfc nfsd: fix memory leak in nfsd_create_serv error paths
-7c0d0fdae7b21f71110fe43e3723acd184eb58c0 NFSD: Clear SECLABEL in the suppattr_exclcreat bitmap
-802db152a98a6ee2bc038fafeb26e6e498a4d237 NFSD: Clear TIME_DELEG in the suppattr_exclcreat bitmap
-a2cd840d7bf40a661b0c11ce5f3565ecbc6c7571 NFSD: Clean up nfsd4_check_open_attributes()
-210d3c597523e44f60f9f21bf389c2cbc9f77e3a NFSD: NFSv4 file creation neglects setting ACL
-9aa8e21f4da7d737653c08c26a2f844a442e585f xdrgen: improve error reporting for invalid void declarations
-6d55787184b0c71c15ac416305d2b6a290712969 NFSD: Add instructions on how to deal with xdrgen files
-f698b778ea02fafd41ada545585ce3de820345b6 xdrgen: Generate "if" instead of "switch" for boolean union enumerators
-bc99611cfa1b1cf67a17718feca65e43eeed3118 lockd: fix vfs_test_lock() calls
-569ad3b4cf6ae8d71bf73ad13079e7b88d26b339 locks: ensure vfs_test_lock() never returns FILE_LOCK_DEFERRED
-d214e4cd058f18a9f6e0796ef0e3da118825b8c7 siw: Enable try_gso
+404ee89b4008cf2130554dac2c64cd8412601356 pinctrl: mediatek: mt8196: align register base names to dt-bindings ones
+518919276c4119e34e24334003af70ab12477f00 pinctrl: mediatek: mt8189: align register base names to dt-bindings ones
+369f772299821f93f872bf1b4d7d7ed2fc50243b pinctrl: realtek: Select REGMAP_MMIO for RTD driver
+316e361b5d2cdeb8d778983794a1c6eadcb26814 dt-bindings: pinctrl: toshiba,visconti: Fix number of items in groups
+03b3bcd319b3ab5182bc9aaa0421351572c78ac0 nvme: fix admin request_queue lifetime
+9b07cdf86a0b90556f5b68a6b20b35833b558df3 pinctrl: cirrus: Fix fwnode leak in cs42l43_pin_probe()
+1c2e70397b4125022dba80f6111271a37fb36bae pinctrl: qcom: msm: Fix deadlock in pinmux configuration
+4c5376b4b143c4834ebd392aef2215847752b16a drm/tegra: dc: Fix reference leak in tegra_dc_couple()
+6cbab9f0da72b4dc3c3f9161197aa3b9daa1fa3a drm/tegra: Add call to put_pid()
+660b299bed2a2a55a1f9102d029549d0235f881c Revert "drm/tegra: dsi: Clear enable register if powered by bootloader"
+159de7a825aea4242d3f8d32de5853d269dbe72f nvmet-auth: update sc_c in target host hash calculation
+6d87cd5335784351280f82c47cc8a657271929c3 nvme-multipath: fix lockdep WARN due to partition scan work
+ea3442efabd0aa3930c5bab73c3901ef38ef6ac3 nvme: nvme-fc: move tagset removal to nvme_fc_delete_ctrl()
+0a2c5495b6d1ecb0fa18ef6631450f391a888256 nvme: nvme-fc: Ensure ->ioerr_work is cancelled in nvme_fc_delete_ctrl()
+fa766e759ff7b128ab77323d9d9c232434621bb6 drm/i915/xe3lpd: Load DMC for Xe3_LPD version 30.02
+949f1fd2225baefbea2995afa807dba5cbdb6bd3 nouveau/firmware: Add missing kfree() of nvkm_falcon_fw::boot
+6eb2e056b0e418718fc5a3cfe79bdb41d9a2851d drm/pcids: Split PTL pciids group to make wcl subplatform
+913253ed47b9925454cbb17faa3e350015b3d67a drm/i915/display: Add definition for wcl as subplatform
+5474560381775bc70cc90ed2acefad48ffd6ee07 drm/i915/xe3: Restrict PTL intel_encoder_is_c10phy() to only PHY A
+cfa0904a35fd0231f4d05da0190f0a22ed881cce drm/amd/display: Prevent Gating DTBCLK before It Is Properly Latched
+71ad9054c1f241be63f9d11df8cbd0aa0352fe16 drm/amd/display: Move sleep into each retry for retrieve_link_cap()
+8612badc331bcab2068baefa69e1458085ed89e3 drm/amd/display: Increase DPCD read retries
+c97da4785b3bbc60c24cfd1ffea1d7c8b90ed743 drm/amd/display: Add an HPD filter for HDMI
+5bab4c89390f32b2f491f49a151948cd226dd909 drm/amd/display: Clear the CUR_ENABLE register on DCN20 on DPP5
+1788ef30725da53face7e311cdf62ad65fababcd drm/amd/display: Fix pbn to kbps Conversion
+9eb00b5f5697bd56baa3222c7a1426fa15bacfb5 drm/radeon: delete radeon_fence_process in is_signaled, no deadlock
+d52dea485cd3c98cfeeb474cf66cf95df2ab142f drm/xe: Prevent BIT() overflow when handling invalid prefetch region
+905a3468ec679293949438393de7e61310432662 drm/xe/kunit: Fix forcewake assertion in mocs test
+27c0a54e48c658eb12fa3bcbb2892a3fa17b72af drm/xe: Remove duplicate DRM_EXEC selection from Kconfig
+5b38c22687d9287d85dd3bef2fa708bf62cf3895 drm/xe/irq: Handle msix vector0 interrupt
+97ea34defbb57bfaf71ce487b1b0865ffd186e81 pinctrl: s32cc: fix uninitialized memory in s32_pinctrl_desc
+6010d4d8b55b5d3ae1efb5502c54312e15c14f21 pinctrl: s32cc: initialize gpio_pin_config::list after kmalloc()
+d4cd0902c156b2ca60fdda8cd8b5bcb4b0e9ed64 gpio: cdev: make sure the cdev fd is still active before emitting events
+2b6d546ba83e8332870741eca469aed662d819ff MAINTAINERS: update my email address
+79afd3c5edac93b684393ec84185b2776d0630ef dt-bindings: pinctrl: xlnx,versal-pinctrl: Add missing unevaluatedProperties on '^conf' nodes
+d4f14fa5c6c4d39b5187e1f410d59e38d76f283f Merge drm/drm-fixes into drm-misc-fixes
+cead55e24cf9e092890cf51c0548eccd7569defa drm/plane: Fix create_in_format_blob() return value
+31ab31433c9bd2f255c48dc6cb9a99845c58b1e4 drm/amd: Skip power ungate during suspend for VPE
+80d8a9ad1587b64c545d515ab6cb7ecb9908e1b3 drm/amdgpu: Skip emit de meta data on gfx11 with rs64 enabled
+a44592339397bc6715917997c6869bdedd1a7256 drm/amdgpu/vm: Check PRT uAPI flag instead of PTE flag
+21f46f54769c45ac8ca0dbaa977bc1b436ffdee2 drm/amdgpu/ttm: Fix crash when handling MMIO_REMAP in PDE flags
+c156c7f27ecdb7b89dbbeaaa1f40d9fadc3c1680 drm/amdgpu: Add sriov vf check for VCN per queue reset support.
+20d7338f2d3bcb570068dd6d39b16f1a909fe976 LoongArch: Use UAPI types in ptrace UAPI header
+1c004609fdefb48888ef98bc6e3b8fe78ae4e088 LoongArch: Consolidate CPU names in /proc/cpuinfo
+acf5de1b23b0275eb69f235c8e9f2cef19fa39a1 LoongArch: Fix NUMA node parsing with numa_memblks
+863a320dc6fd7c855f47da4bb82a8de2d9102ea2 LoongArch: Mask all interrupts during kexec/kdump
+a6b533adfc05ba15360631e019d3e18275080275 LoongArch: Don't panic if no valid cache info for PCI
+677e6123e3d24adaa252697dc89740f2ac07664e LoongArch: BPF: Disable trampoline for kernel module function trace
+a9d1f38df7ecd0e21233447c9cc6fa1799eddaf3 smb: client: introduce close_cached_dir_locked()
+7e4d9120cfa413dd34f4f434befc5dbe6c38b2e5 cifs: fix memory leak in smb3_fs_context_parse_param error path
+d5227c88174c384d83d9176bd4315ef13dce306c cifs: Add the smb3_read_* tracepoints to SMB1
+b32cc17d607e8ae7af037303fe101368cb4dc44c ata: libata-scsi: Add missing scsi_device_put() in ata_scsi_dev_rescan()
+b11890683380a36b8488229f818d5e76e8204587 ata: libata-scsi: Fix system suspend for a security locked drive
+91842ed844a068a41a38f97a1ac5535b909279cd ata: libata-core: Set capacity to zero for a security locked drive
+49c2d5941c89060342c65997de91859e5830dee5 Merge tag 'nvme-6.18-2025-11-20' of git://git.infradead.org/nvme into block-6.18
+46447367a52965e9d35f112f5b26fc8ff8ec443d io_uring/cmd_net: fix wrong argument types for skb_queue_splice()
+9b571b32313f01dd7017562a79df59ef2cdb4ba6 Merge tag 'drm-intel-fixes-2025-11-20' of https://gitlab.freedesktop.org/drm/i915/kernel into drm-fixes
+201a32e61b5171e41e6e2839e5053e3ed0192b34 Merge tag 'drm-misc-fixes-2025-11-20' of https://gitlab.freedesktop.org/drm/misc/kernel into drm-fixes
+4e9fd472d1b951abda236cd4099088f8a97a05ac Merge tag 'amd-drm-fixes-6.18-2025-11-20' of https://gitlab.freedesktop.org/agd5f/linux into drm-fixes
+40b53db87c998b36649292a3b0daff4fa65cf481 Merge tag 'drm-xe-fixes-2025-11-21' of https://gitlab.freedesktop.org/drm/xe/kernel into drm-fixes
+a48f822908982353c3256e35a089e9e7d0d61580 samples: work around glibc redefining some of our defines wrong
+c6d732c3bd41375d176447b043274396268aa6ab Merge tag 'drm-fixes-2025-11-21' of https://gitlab.freedesktop.org/drm/kernel
+2c26574cc4ea41266d9a09441d0e05a9f09192de Merge tag 'gpio-fixes-for-v6.18-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux
+68d804c64a595dd7f885759f3c3bd51ca893deb4 Merge tag 'pinctrl-v6.18-2' of git://git.kernel.org/pub/scm/linux/kernel/git/linusw/linux-pinctrl
+317c4d8a2a320a58997f30a5b2a8eca57e0990fc Merge tag 'ata-6.18-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/libata/linux
+a4165ffc835fcf738c2ff41ce8305b04454c07d0 Merge tag 'block-6.18-20251120' of git://git.kernel.org/pub/scm/linux/kernel/git/axboe/linux
+a07a003ce6d475014e71e1c4f52f4ed7146dd35e Merge tag 'io_uring-6.18-20251120' of git://git.kernel.org/pub/scm/linux/kernel/git/axboe/linux
+e3fe48f9bdf47e0de91ffb7ba10d94a6a7598e8f Merge tag 'v6.18-rc6-smb3-client-fixes' of git://git.samba.org/sfrench/cifs-2.6
+2eba5e05d9bcf4cdea995ed51b0f07ba0275794a Merge tag 'loongarch-fixes-6.18-2' of git://git.kernel.org/pub/scm/linux/kernel/git/chenhuacai/linux-loongson
 
---===============4618019202436904739==--
+--===============4614136928331080724==--
