@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jarkko/tpm2sh
-Date: Sat, 22 Nov 2025 13:29:06 -0000
-Message-Id: <176381814630.3537379.14423839076984835910@gitolite.kernel.org>
+Date: Sat, 22 Nov 2025 13:37:57 -0000
+Message-Id: <176381867786.3544738.1215366907447578129@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/jarkko/tpm2sh
 user: jarkko
 changes:
   - ref: refs/heads/main
-    old: 9522fe8626baac95600c419f02c8db7bb4352d7c
-    new: 23cc00a73903d438e4cc95e0c2673e377acb41a1
+    old: 23cc00a73903d438e4cc95e0c2673e377acb41a1
+    new: 3e1416b98186a9292691a555279eda5124b81e72
     log: |
-         23cc00a73903d438e4cc95e0c2673e377acb41a1 feat(alg): new_{rsa,ecc}
+         3e1416b98186a9292691a555279eda5124b81e72 refactor: rename Alg to TpmPublicTemplate
          
