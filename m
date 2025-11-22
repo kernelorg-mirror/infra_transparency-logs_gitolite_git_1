@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
-Date: Sat, 22 Nov 2025 07:21:21 -0000
-Message-Id: <176379608134.3214943.4229094811653917511@gitolite.kernel.org>
+Date: Sat, 22 Nov 2025 07:22:30 -0000
+Message-Id: <176379615087.3215714.10488512919863703785@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/xiang/erofs-utils
 user: xiang
 changes:
   - ref: refs/heads/experimental
-    old: 3804d3d745491ae42534fe1f4808de7270cf3a58
-    new: a482ef7d1fdfd390aa76f5869bfc30318009d068
+    old: a482ef7d1fdfd390aa76f5869bfc30318009d068
+    new: 3493841d8cfe1df19754ebe64daf9f8afa0d3427
     log: |
-         a482ef7d1fdfd390aa76f5869bfc30318009d068 erofs-utils: mkfs: fix memleak in error exit path
+         3493841d8cfe1df19754ebe64daf9f8afa0d3427 erofs-utils: mkfs: add support to issue directory data separately
          
