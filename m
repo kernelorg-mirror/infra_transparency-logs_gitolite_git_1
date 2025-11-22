@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/tpm2sh
-Date: Sat, 22 Nov 2025 14:46:15 -0000
-Message-Id: <176382277502.3604002.6078876049890211769@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/tpm2-crypto
+Date: Sat, 22 Nov 2025 14:54:56 -0000
+Message-Id: <176382329655.3610334.10626412352904612092@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/tpm2sh
+repo: pub/scm/linux/kernel/git/jarkko/tpm2-crypto
 user: jarkko
 changes:
   - ref: refs/heads/main
-    old: dda70df995dce1e5f52d36033247e45d305007ef
-    new: 2549b3b1f795806a7b0b7f74608fb8008f5a0954
+    old: 5cbfc7f4a0ecc7132a977ead7efeb09e6737d72d
+    new: 03f906d5c47b308385d3bc0b33f40a8bfd5b430c
     log: |
-         2549b3b1f795806a7b0b7f74608fb8008f5a0954 refactor: migrate to tpm2_crypto::TpmPublicTemplate
+         03f906d5c47b308385d3bc0b33f40a8bfd5b430c refactor: rename TpmObjectType as TpmPublicTemplateType
          
