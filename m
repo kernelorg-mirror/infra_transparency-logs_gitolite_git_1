@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5654060911736266695=="
+Content-Type: multipart/mixed; boundary="===============6063719713757508875=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Sat, 22 Nov 2025 22:18:36 -0000
-Message-Id: <176384991660.3978222.14635251858792481484@gitolite.kernel.org>
+Date: Sat, 22 Nov 2025 22:18:43 -0000
+Message-Id: <176384992331.3978409.4214318669676506908@gitolite.kernel.org>
 
---===============5654060911736266695==
+--===============6063719713757508875==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,38 +15,37 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/damon/next
-    old: 9285c5b651b18f4fb50cc568bdd449014d5968fc
-    new: 000d3872899afed252f27ac93143bc8757d15e60
-    log: revlist-9285c5b651b1-000d3872899a.txt
+  - ref: refs/heads/master
+    old: 2eba5e05d9bcf4cdea995ed51b0f07ba0275794a
+    new: 89edd36fd801efdb3d2f38bbf7791a293c24bb45
+    log: revlist-2eba5e05d9bc-89edd36fd801.txt
 
---===============5654060911736266695==
+--===============6063719713757508875==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9285c5b651b1-000d3872899a.txt
+Content-Disposition: attachment; filename=revlist-2eba5e05d9bc-89edd36fd801.txt
 
-294d3eabe842fd9c31a3455230493eec009d30d8 ==== nr_snapshots damos stat ====
-3a2d84627ebe0359672cb17dc45e467465ff3bb5 mm/damon/core: implement nr_snapshots damos stat
-ec357392bd6e9dfcd1bf278fa2d5418e94edd7a3 mm/damon/sysfs-schemes: add nr_snapshots file
-c99505513eb4b1f6e8a1d8701d0b1f1c7e3a1058 Docs/mm/damon/design: update for nr_snapshots damos stat
-3eda84be24ad8e9ffeaf2ab22d237bf8b6f9f521 Docs/admin-guide/mm/damon/usage: update for nr_snapshots damos stat
-88f498ab0e144e299741db895b763e2c2e0ca472 Docs/ABI/damon: update for nr_snapshots damos stat
-9a6a77c635a9f69df3501e5d6fbe2f81ebc1a8c2 ==== max_stat ====
-09a13e3cf0d70c334d9142fbef8657d54f97afb9 mm/damon: update damos kerneldoc for stat field
-fb5fc1e44b87a88758614141f7753fa7b944e87c mm/damon/core: implement stat based damos stop
-3991c58b8bb8affa9efca523c9de54b15ee4b236 mm/damon/core: commit max_stat
-c4c6e99da95487294555f03c2062a6c7d2a21e2a mm/damon/sysfs-schemes: implement max stat files
-84441a44f68365438626b29c79b688347a300775 ==== uncategorized ====
-b18a36db8f4ff7b525803cce27bf975c7e3debd0 mm/damon/core: add an hacking idea concept interface prototype
-92d035d24471411d6cfa1e6120c9262b3b67b709 mm/damon/core: restrict total_charged_{sz,ns} to avoid overflows
-f7a09bafac6320db4e425b8e233412e959730c6d Docs: submitting-patches: suggest adding previous version links
-cccda644d22de90814733fcbc32417f93196a96d selftests/damon/sysfs_memcg_path_leak.sh: use kmemleak
-32a68a598ee4d1a4ac46accc53b41918eded4172 mm/memory: implement functions and data structures for page faults monitoring
-54a9f0d03b11f2f8bfb77d44101141c188df0866 mm/memory: introduce do_{,huge_pmd_}faults_monitor_page()
-aa023d05d520a4429d1dfd2057bfa2dd80d6e663 mm/damon/core: rename damos_filter_out() to damos_core_filter_out()
-4a33f0b9b26f7396fa9a68afb7c8be9e4a1acc3c mm/damon/core: set score histogram without filters-excluding regions
-9ebf7dff0da2eb07b25adfdf2a31e942bdf4c182 selftests/damon/wss_estimation: increase allowed error rate
-000d3872899afed252f27ac93143bc8757d15e60 mm/damon/core: add trace point for damos stat per apply interval
+c6d99e488117201c63efd747ce17b80687c3f5a9 Input: goodix - add support for ACPI ID GDIX1003
+7363096a5a08f8740c9075ecfc51945375c304bc Input: goodix - remove setting of RST pin to input
+69aeb507312306f73495598a055293fa749d454e Input: pegasus-notetaker - fix potential out-of-bounds access
+d83f1512758f4ef6fc5e83219fe7eeeb6b428ea4 Input: imx_sc_key - fix memory corruption on unload
+e08969c4d65ac31297fcb4d31d4808c789152f68 Input: cros_ec_keyb - fix an invalid memory access
+e6965188f84a7883e6a0d3448e86b0cf29b24dfc scsi: target: tcm_loop: Fix segfault in tcm_loop_tpg_address_show()
+91f815b7073d8f1abb5f3a3a7bf6b9466a6e5e8f riscv: Update MIPS vendor id to 0x127
+7b090e7b910cafd245f23e56f3257a151ca0a289 riscv: sbi: Prefer SRST shutdown over legacy
+e2cb69263e797c0aa6676bcef23e9e27e44c83b0 tools: riscv: Fixed misalignment of CSR related definitions
+f39b6c468c52745dbca9a842d91c8373fda208ab Merge tag 'v6.18-rc6' into for-linus
+ae8966b7b5bd69b86209cc34bcca1ba9f18b68e6 Input: rename INPUT_PROP_HAPTIC_TOUCHPAD to INPUT_PROP_PRESSUREPAD
+90449f2d1e1f020835cba5417234636937dd657e scsi: sg: Do not sleep in atomic context
+678e1cc2f482e0985a0613ab4a5bf89c497e5acc xfs: fix out of bounds memory read error in symlink repair
+75f72fe289a7f76204a728668edcf20e4a2a6097 selinux: rename task_security_struct to cred_security_struct
+dde3a5d0f4dce1d1a6095e6b8eeb59b75d28fb3b selinux: move avdcache to per-task security struct
+3ded250b97c3ae94a642bc2e710a95700e72dfb0 selinux: rename the cred_security_struct variables to "crsec"
+5703357ede59ce8b0af11e02c374a3db73c55ee8 Merge tag 'selinux-pr-20251121' of git://git.kernel.org/pub/scm/linux/kernel/git/pcmoore/selinux
+a6ff0d85ebf0d4033c9850bf7f77fdaf472191a1 Merge tag 'riscv-for-linus-6.18-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/riscv/linux
+ebd975458deada5eadcc9f4e0f63fc4ce6aa90ea Merge tag 'input-for-v6.18-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/dtor/input
+7e29f077609413f94f70d4da4d7602a59abad991 Merge tag 'scsi-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
+89edd36fd801efdb3d2f38bbf7791a293c24bb45 Merge tag 'xfs-fixes-6.18-rc7' of git://git.kernel.org/pub/scm/fs/xfs/xfs-linux
 
---===============5654060911736266695==--
+--===============6063719713757508875==--
