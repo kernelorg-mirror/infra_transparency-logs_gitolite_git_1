@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6026048965996664858=="
+Content-Type: multipart/mixed; boundary="===============4336403088240185482=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
-Date: Sat, 22 Nov 2025 16:11:35 -0000
-Message-Id: <176382789590.3678242.4702267836772184825@gitolite.kernel.org>
+Date: Sat, 22 Nov 2025 16:12:00 -0000
+Message-Id: <176382792065.3678566.13672802638291648561@gitolite.kernel.org>
 
---===============6026048965996664858==
+--===============4336403088240185482==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/groeck/linux-staging
 user: groeck
 changes:
-  - ref: refs/heads/testing
-    old: 536b024fc158f85c6bf837014526da32c9d2f21b
-    new: 21d0537510583449302e6daa9523910e3c95cef1
-    log: revlist-536b024fc158-21d053751058.txt
+  - ref: refs/heads/hwmon-staging
+    old: 17ba319e3d8b3df917a5d0109f118fbdac7a73b2
+    new: 1222e1b531227d82a38579d10d9c616bd09fbb54
+    log: revlist-17ba319e3d8b-1222e1b53122.txt
 
---===============6026048965996664858==
+--===============4336403088240185482==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-536b024fc158-21d053751058.txt
+Content-Disposition: attachment; filename=revlist-17ba319e3d8b-1222e1b53122.txt
 
 404ee89b4008cf2130554dac2c64cd8412601356 pinctrl: mediatek: mt8196: align register base names to dt-bindings ones
 518919276c4119e34e24334003af70ab12477f00 pinctrl: mediatek: mt8189: align register base names to dt-bindings ones
@@ -457,9 +457,6 @@ e3fe48f9bdf47e0de91ffb7ba10d94a6a7598e8f Merge tag 'v6.18-rc6-smb3-client-fixes'
 48593957a016cf32274e935f4346d0580271a61f hwmon: (asus-ec-sensors) add ROG STRIX X470-I GAMING
 cefb89592e3217884138d4450ad14bc3415e1d76 dt-bindings: hwmon: Add AST2700 compatible
 edbce49ea6535a56aac3a5e211cf7af873d7221d hwmon: (aspeed-g6-pwm-tach): Add AST2700 compatible string
-5ecd8cefc35ff039ccb89ed8ff24605b81331fca possible circular locking dependency backtrace seen when enabling PREEMPT_RT
-0457430b3d5c224d91d6e90ccc9d2d66b8e71633 of: Skip devicetree kunit tests when RISCV+ACPI doesn't populate root node
-7c02462678eda60acb980369002d497328e5d074 power: supply: use ktime_divns() to avoid 64-bit division
 895b2e9ffab084a96b8834b38dea852b79dd590c hwmon: (g762) Simplify clock initialization
 a1f5adb62b19c46afed6ad63119bb27634fc80d3 hwmon: (g762) Drop platform data support
 f77650c63f94bf1c2cfca526aad8ff18a6cc355a hwmon: (g762) Reorder include files to be in alphabetic order
@@ -500,7 +497,5 @@ abcfd11142e47de78c4be03d26e8151610acfe48 Merge branch 'hwmon-emc2103' into hwmon
 22feebfba4c7b038f3a481bfce7b903a810d08de Merge branch 'hwmon-max16065' into hwmon-staging
 68469e1d9a815a2eb66f3b80479493a4d5dcde51 Merge branch 'hwmon-fixes' into hwmon-staging
 1222e1b531227d82a38579d10d9c616bd09fbb54 Merge branch 'hwmon-lock' into hwmon-staging
-79211df3062c0bf12669206930924520da0d6217 Merge branch 'hwmon-staging' into testing
-21d0537510583449302e6daa9523910e3c95cef1 Merge branch 'fixes-v6.18' into testing
 
---===============6026048965996664858==--
+--===============4336403088240185482==--
