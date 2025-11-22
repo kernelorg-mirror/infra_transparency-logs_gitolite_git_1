@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6600857054658469457=="
+Content-Type: multipart/mixed; boundary="===============8439532169787822996=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Sat, 22 Nov 2025 08:27:49 -0000
-Message-Id: <176380006913.3268472.2828186324140132955@gitolite.kernel.org>
+Date: Sat, 22 Nov 2025 08:28:21 -0000
+Message-Id: <176380010173.3268931.11204965909484317551@gitolite.kernel.org>
 
---===============6600857054658469457==
+--===============8439532169787822996==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,15 +16,55 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: c4ce736c24f6fca2b73845022e9e80e5b5bedc83
-    new: c9669f8317461f64f68e6435166c9cf7238f56a7
-    log: revlist-c4ce736c24f6-c9669f831746.txt
+    old: c9669f8317461f64f68e6435166c9cf7238f56a7
+    new: a8cd2af2e931614a3188c8bb5101b3766345c6be
+    log: revlist-c9669f831746-a8cd2af2e931.txt
+  - ref: refs/heads/tip/urgent
+    old: 5bb6c69797c6ec1c420773ad9bef2efd87652513
+    new: b399e4225d40a8a7610ffad20096a35cb5d1b5bb
+    log: revlist-5bb6c69797c6-b399e4225d40.txt
 
---===============6600857054658469457==
+--===============8439532169787822996==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c4ce736c24f6-c9669f831746.txt
+Content-Disposition: attachment; filename=revlist-c9669f831746-a8cd2af2e931.txt
+
+211a0c36c4515654fb0735463fb0cd4097f3cef0 Merge branch into tip/master: 'perf/urgent'
+b399e4225d40a8a7610ffad20096a35cb5d1b5bb Merge branch into tip/master: 'timers/urgent'
+000e7e3146cb9f9c1dc079ddea81503ca950076f Merge branch into tip/master: 'core/bugs'
+1cfa7dab9376e8141ae07ebbf67921fd7845c9ae Merge branch into tip/master: 'core/core'
+794d32615dd601004833cbb2cf71b982b007ef96 Merge branch into tip/master: 'core/rseq'
+98a7575b91cf54169cdf47bc50bdbd24316b2efb Merge branch into tip/master: 'core/uaccess'
+3a99ac6e261bbb7ce9d43d4933e2f5881e7ef528 Merge branch into tip/master: 'irq/core'
+7cd7991d02cca078c04cfb1ef7a8a327bf8cf9bc Merge branch into tip/master: 'irq/drivers'
+5c09ee0115eb11c3f2da3ae66278185daa37b881 Merge branch into tip/master: 'irq/msi'
+8c18a664aa978413c5fcbae4698ab5d157675b8d Merge branch into tip/master: 'locking/core'
+a2793005c681ff6eef3d69df346b61f6876d1160 Merge branch into tip/master: 'locking/futex'
+84df481816eec8a3568338edd0207d154f6d01e4 Merge branch into tip/master: 'perf/core'
+3644bbdeb47f76dfc081aa0260942937cb9e6627 Merge branch into tip/master: 'ras/core'
+41a79b4258b636e3ae902cff3e529e4b8a24ea61 Merge branch into tip/master: 'sched/core'
+70baa28ef65ce1dce58530dcee7713087d35ef59 Merge branch into tip/master: 'timers/core'
+91755758ac01095ec03134d1e364f99fb3453e79 Merge branch into tip/master: 'x86/apic'
+505e0a661df2488cf56c1728fa7ec31dc278b71a Merge branch into tip/master: 'x86/boot'
+536b2f971da0582008e845c0213d939d0a7e75d8 Merge branch into tip/master: 'x86/bugs'
+91b6c85140478da73c2ccfd7bbe795f0c72a25c9 Merge branch into tip/master: 'x86/build'
+5ed0811a7cd3890a6d5ba593e744bef584e0577c Merge branch into tip/master: 'x86/cache'
+ba17e383708d51f078ce95e1b005c07d3fc3e1d1 Merge branch into tip/master: 'x86/cleanups'
+65d7cc64681f355a076521383b562cca8dbcf7e8 Merge branch into tip/master: 'x86/core'
+78fd473ba09e91f917f14292bf63beb1c23374b1 Merge branch into tip/master: 'x86/cpu'
+1fab338500d5d828fb84fe7f80eaf1d07ef0fd41 Merge branch into tip/master: 'x86/entry'
+7f5424f77ab686838fed98280aa55eeb88fc4d4a Merge branch into tip/master: 'x86/microcode'
+e93156856e260cedd452f1755c8898d2de25925b Merge branch into tip/master: 'x86/misc'
+874091b2e7dd40066c4f86a419d3fe31a88872ad Merge branch into tip/master: 'x86/mm'
+8e2cd25d3653f5248da6a4c9ca7685c2662f32e8 Merge branch into tip/master: 'x86/sev'
+a8cd2af2e931614a3188c8bb5101b3766345c6be Merge branch into tip/master: 'x86/sgx'
+
+--===============8439532169787822996==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-5bb6c69797c6-b399e4225d40.txt
 
 404ee89b4008cf2130554dac2c64cd8412601356 pinctrl: mediatek: mt8196: align register base names to dt-bindings ones
 518919276c4119e34e24334003af70ab12477f00 pinctrl: mediatek: mt8189: align register base names to dt-bindings ones
@@ -95,13 +135,7 @@ a4165ffc835fcf738c2ff41ce8305b04454c07d0 Merge tag 'block-6.18-20251120' of git:
 a07a003ce6d475014e71e1c4f52f4ed7146dd35e Merge tag 'io_uring-6.18-20251120' of git://git.kernel.org/pub/scm/linux/kernel/git/axboe/linux
 e3fe48f9bdf47e0de91ffb7ba10d94a6a7598e8f Merge tag 'v6.18-rc6-smb3-client-fixes' of git://git.samba.org/sfrench/cifs-2.6
 2eba5e05d9bcf4cdea995ed51b0f07ba0275794a Merge tag 'loongarch-fixes-6.18-2' of git://git.kernel.org/pub/scm/linux/kernel/git/chenhuacai/linux-loongson
-d7ac083f095d894a0b8ac0573516bfd035e6b25a x86/mce: Do not clear bank's poll bit in mce_poll_banks on AMD SMCA systems
-5c4663ed1eac01987a1421f059380db48ab7b1a3 x86/mce: Handle AMD threshold interrupt storms
-68775ca79af3b8d4c147598983ece012d7007bac genirq: Prevent early spurious wake-ups of interrupt threads
-801afdfbfcd90ff62a4b2469bbda1d958f7a5353 genirq: Fix interrupt threads affinity vs. cpuset isolated partitions
-3de5e46e50abc01a1cee7e12b657e083fc5ed638 genirq: Remove cpumask availability check on kthread affinity setting
-3954361b19bb6f54fdf0766f3a84b71cc05e12cd Merge branch into tip/master: 'irq/core'
-949b7ac1fe3349d968cd1a1700a33367a9b6a29a Merge branch into tip/master: 'ras/core'
-c9669f8317461f64f68e6435166c9cf7238f56a7 Merge branch 'linus'
+211a0c36c4515654fb0735463fb0cd4097f3cef0 Merge branch into tip/master: 'perf/urgent'
+b399e4225d40a8a7610ffad20096a35cb5d1b5bb Merge branch into tip/master: 'timers/urgent'
 
---===============6600857054658469457==--
+--===============8439532169787822996==--
