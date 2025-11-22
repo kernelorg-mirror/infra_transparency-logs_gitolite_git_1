@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/tpm2sh
-Date: Sat, 22 Nov 2025 13:37:57 -0000
-Message-Id: <176381867786.3544738.1215366907447578129@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/tpm2-tpmkey
+Date: Sat, 22 Nov 2025 13:39:39 -0000
+Message-Id: <176381877903.3546084.1107557177435826866@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/tpm2sh
+repo: pub/scm/linux/kernel/git/jarkko/tpm2-tpmkey
 user: jarkko
 changes:
   - ref: refs/heads/main
-    old: 23cc00a73903d438e4cc95e0c2673e377acb41a1
-    new: 3e1416b98186a9292691a555279eda5124b81e72
+    old: fd268262f82496b28a590ff2be4e060313a23673
+    new: 45db0a5f35fdf826c6e6ed36fd0a40b5ebd9f7c2
     log: |
-         3e1416b98186a9292691a555279eda5124b81e72 refactor: rename Alg to TpmPublicTemplate
+         45db0a5f35fdf826c6e6ed36fd0a40b5ebd9f7c2 refactor: rename TpmKey to TpmKeyFile
          
