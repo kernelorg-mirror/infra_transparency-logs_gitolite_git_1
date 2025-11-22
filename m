@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tglx/devel
-Date: Sat, 22 Nov 2025 20:08:03 -0000
-Message-Id: <176384208329.3873016.8853623121186301352@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Sat, 22 Nov 2025 20:32:54 -0000
+Message-Id: <176384357440.3893426.1826521758717395755@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tglx/devel
-user: tglx
+repo: pub/scm/linux/kernel/git/tip/tip
+user: bp
 changes:
-  - ref: refs/heads/rseq/cid
-    old: 2635fb0f0973c57c45f03708d52e827ec99ac78e
-    new: bad9b9153d7c865137863f86ec4935ec64dced83
+  - ref: refs/heads/x86/cleanups
+    old: fd4e0255269bca311c90f0d0c1d5bd53c8846a59
+    new: e6a11a526ec63e456d725f67cebcf4f42b2ec2aa
     log: |
-         e2e2aaec3d3df707bcfd69a43dc75808a612e706 sched/mmcid: Ensure that per CPU threshold is > 0
-         bad9b9153d7c865137863f86ec4935ec64dced83 cpu: Initialize __num_possible_cpus correctly
+         e6a11a526ec63e456d725f67cebcf4f42b2ec2aa x86/{boot,mtrr}: Remove unused function declarations
          
