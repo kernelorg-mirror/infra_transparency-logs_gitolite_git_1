@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4375247920412310950=="
+Content-Type: multipart/mixed; boundary="===============8477397528971826359=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/vkoul/dmaengine
-Date: Sat, 22 Nov 2025 09:19:00 -0000
-Message-Id: <176380314030.3330083.4957507907230854259@gitolite.kernel.org>
+Date: Sat, 22 Nov 2025 09:29:41 -0000
+Message-Id: <176380378171.3338957.11100769351929126748@gitolite.kernel.org>
 
---===============4375247920412310950==
+--===============8477397528971826359==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,31 +15,31 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/vkoul/dmaengine
 user: vkoul
 changes:
-  - ref: refs/heads/fixes
-    old: 81935b90b6fc9cd2dbef823a1fc0a92c00f0c6ea
-    new: f52c6c5eb159538efa4bfa1c8cbf0f5a4c72dd67
-    log: revlist-81935b90b6fc-f52c6c5eb159.txt
+  - ref: refs/heads/next
+    old: 398035178503bf662281bbffb4bebce1460a4bc5
+    new: 2b11e7403a8ed816fce38b57cb88e04d997aa7af
+    log: revlist-398035178503-2b11e7403a8e.txt
 
---===============4375247920412310950==
+--===============8477397528971826359==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-81935b90b6fc-f52c6c5eb159.txt
+Content-Disposition: attachment; filename=revlist-398035178503-2b11e7403a8e.txt
 
-49666b531e6a9634c9d03837181550eaa6513ab5 dmaengine: at_hdmac: fix device leak on of_dma_xlate()
-8a119f3ca54ba1cc319f539ea5733fd46bbb7d5d dmaengine: bcm-sba-raid: fix device leak on probe
-83629a1eaced9a35ecfb0df5749b89f83d20e5a8 dmaengine: cv1800b-dmamux: fix device leak on route allocation
-730230e8e25dfb81b2b730d37f625888cf8fe85d dmaengine: dw: dmamux: fix OF node leak on route allocation failure
-861963d0f4d4170ce2c7b5f47068c4bceeffdd98 dmaengine: idxd: fix device leaks on compat bind and unbind
-ecbae1f5585c93c66c4bed7a32de682866f4a173 dmaengine: lpc18xx-dmamux: fix device leak on route allocation
-c95b3d85b2c11e2ba3679dfb7ab812128d49d950 dmaengine: lpc32xx-dmamux: fix device leak on route allocation
-c7a5177c23d0397c553a92d173df830c50dd955e dmaengine: sh: rz-dmac: fix device leak on probe failure
-f3f5133adc5983698461e84046dba120f7be9c1d dmaengine: stm32: dmamux: fix device leak on route allocation
-eb6315b2241505a61fff9c10b51ac7175d1ced54 dmaengine: stm32: dmamux: fix OF node leak on route allocation failure
-cebd473711149cac5b034a7cdfb6b2b528730d6c dmaengine: stm32: dmamux: clean up route allocation error labels
-1da9ece9dbbbb6cf19e2b0a3f52e9e58402253f2 dmaengine: ti: dma-crossbar: fix device leak on dra7x route allocation
-a382c1f38337e8e0a415942bf2e802cb93f32c65 dmaengine: ti: dma-crossbar: fix device leak on am335x route allocation
-de02f170031e14c21dca33832c26dceb86b5e86f dmaengine: ti: dma-crossbar: clean up dra7x route allocation error paths
-f52c6c5eb159538efa4bfa1c8cbf0f5a4c72dd67 dmaengine: ti: k3-udma: fix device leak on udma lookup
+938eae912ac52f8e9e5f2463e2db30cfe6f895d5 dmaengine: at_hdmac: fix formats under 64-bit
+5d8c5bea0da97809813b5f702700019cfffb6085 dmaengine: at_hdmac: add COMPILE_TEST support
+bfab38bee5652f335c5d693d54eb61bc25850518 dmaengine: bcm2835: drop unused module alias
+660c40702d9073035c61a9573b299481b9c7f3cd dmaengine: dw: drop unused module alias
+03adb0eb0ed64a1e13e04c0fb57a073896efe6ca dmaengine: fsl-edma: drop unused module alias
+9180a66fb43214ae02311176e43eec361ff80d67 dmaengine: fsl-qdma: drop unused module alias
+73b77c3d80031b4636a24912962ffeb295438b0a dmaengine: k3dma: drop unused module alias
+73391fecf23860804bceb6670cef74a3626ecf92 dmaengine: mmp_tdma: drop unused module alias
+3b7b0bbdcba984287225bb373e52845c23dadb93 dmaengine: mmp_tdma: drop unnecessary OF node check in remove
+1911f507a54b42bd01ae30590c06d8140beee424 dmaengine: sprd: drop unused module alias
+e0aef2a5c33680bbd332e5b5f64afc8dde8d46f6 dmaengine: tegra210-adma: drop unused module alias
+d3e1935fba8d71ef1889cbc2d6e2447cb829070f dmaengine: bcm2835: enable compile testing
+cd3ba117688f7694f000293fd5c034f9f842dbb2 dmaengine: st_fdma: drop unused module alias
+1ecd8b6016c07da162175c708666762e058a0b29 dmaengine: fsl-edma: configure tcd attr with separate src and dst settings
+2b11e7403a8ed816fce38b57cb88e04d997aa7af dt-bindings: dma: xilinx: Simplify dma-coherent property
 
---===============4375247920412310950==--
+--===============8477397528971826359==--
