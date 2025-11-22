@@ -1,22 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Sat, 22 Nov 2025 01:52:58 -0000
-Message-Id: <176377637811.2937449.1342360536090319370@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Sat, 22 Nov 2025 02:12:00 -0000
+Message-Id: <176377752075.2953172.13904932253762566852@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: ast
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
-  - ref: refs/heads/master
-    old: 4dd3a48d13a3bbe7a48e0ab3f7362be26f534de8
-    new: 8f7cf305a15eec663d5084e417f4773f1ef24e23
+  - ref: refs/heads/main
+    old: e2c20036a8879476c88002730d8a27f4e3c32d4b
+    new: 501253b61d843745e6e1f1fd3b39a49785ffcbf4
     log: |
-         e3245f8990431950d20631c72236d4e8cb2dcde8 bpf: properly verify tail call behavior
-         978da762ea4517da1f4c270eb95bc289f81c176a bpf: test the proper verification of tail calls
-         e40f5a6bf88a781d5f81bc6b8aab9ac31d8c98dd bpf: correct stack liveness for tail calls
-         8f7cf305a15eec663d5084e417f4773f1ef24e23 bpf: test the correct stack liveness of tail calls
+         501253b61d843745e6e1f1fd3b39a49785ffcbf4 net: wwan: t7xx: Make local function static
          
