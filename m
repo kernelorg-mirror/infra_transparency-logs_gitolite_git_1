@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============9220596340274210217=="
+Content-Type: multipart/mixed; boundary="===============3959908951218410896=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Sat, 22 Nov 2025 02:33:05 -0000
-Message-Id: <176377878514.2972092.12391652902059606383@gitolite.kernel.org>
+Date: Sat, 22 Nov 2025 02:33:06 -0000
+Message-Id: <176377878651.2972268.16052999305799803981@gitolite.kernel.org>
 
---===============9220596340274210217==
+--===============3959908951218410896==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/mm-new
-    old: 7f1dae318f81e508ef59835bc82bdf33e4cb1021
-    new: 341b9bef208222587f6bfa7b5b347a9ce980179e
-    log: revlist-7f1dae318f81-341b9bef2082.txt
+  - ref: refs/heads/mm-unstable
+    old: 3cc7f0cba07e37ecdac77d144fb8b58eca60e164
+    new: a95449b18e60e10d8393ce0d745acdf580e4d74a
+    log: revlist-3cc7f0cba07e-a95449b18e60.txt
 
---===============9220596340274210217==
+--===============3959908951218410896==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7f1dae318f81-341b9bef2082.txt
+Content-Disposition: attachment; filename=revlist-3cc7f0cba07e-a95449b18e60.txt
 
 d809e63d4d0913bb56a2c8731c7bad3a68e7a0b5 mm: swap: remove duplicate nr_swap_pages decrement in get_swap_page_of_type()
 270dc68274b8850bb2c4f28b9b4f1d5a0f6e56fa kernel/kexec: change the prototype of kimage_map_segment()
@@ -135,12 +135,5 @@ a2833c66e2a002bf0646c3897c1c94eede0ccc31 mm/swap: fix wrong plist empty check in
 a8bfe6cf22061813f3b5a8ca9c14f6e13a9c38a7 zram: fix the issue that the write - back limits might overflow
 e012033472a6d505841bafa0992c165d2e572b30 tools/testing/vma: add missing stub
 a95449b18e60e10d8393ce0d745acdf580e4d74a hugetlb: add __read_mostly to sysctl_hugetlb_shm_group
-3c29437aa14ae50e6f8784b561945c1ccedde643 mm/page_alloc: optimize lowmem_reserve max lookup using its semantic monotonicity
-9a220e5467ac9cd09a921832a13c0b3f95188ee0 mm, swap: fix memory leak in setup_clusters() error path
-938fc3b58061728150ee25e71b20ef268b952322 mm, swap: use SWP_SOLIDSTATE to determine if swap is rotational
-2833daa4e85f8d6dfcc43de01331e4e5af83fd84 mm, swap: remove redundant comment for read_swap_cache_async
-14282752e409c3964537038d16da9e18c632777f mm: swap: change swap_alloc_slow() to void
-a9921cf61ea2c928b2f1fa02953b1b46e0008f74 mm: swap: remove scan_swap_map_slots() references from comments
-341b9bef208222587f6bfa7b5b347a9ce980179e mm/damon/tests/sysfs-kunit: fix use after free on error path
 
---===============9220596340274210217==--
+--===============3959908951218410896==--
