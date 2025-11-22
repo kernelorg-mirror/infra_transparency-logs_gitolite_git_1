@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/tpm2sh
-Date: Sat, 22 Nov 2025 05:19:56 -0000
-Message-Id: <176378879608.3116806.14956982232340624546@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/superm1/amd-debug-tools
+Date: Sat, 22 Nov 2025 06:04:10 -0000
+Message-Id: <176379145000.3152162.7639957763832974377@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/tpm2sh
-user: jarkko
+repo: pub/scm/linux/kernel/git/superm1/amd-debug-tools
+user: superm1
 changes:
-  - ref: refs/heads/main
-    old: 25f191324d455df61da3601f75b3c84a3c7fb774
-    new: f031bd238fd18a7b1225f53a8d3faf782e094827
+  - ref: refs/heads/master
+    old: 65a2dcdd95224424e8e444a0a65a7b5c3ec40ad2
+    new: 36a5ff7f820fc4ea83d3e444207729ec25efb4a4
     log: |
-         f031bd238fd18a7b1225f53a8d3faf782e094827 refactor(task): clean up redundant code
+         36a5ff7f820fc4ea83d3e444207729ec25efb4a4 Don't require CPU topology
          
