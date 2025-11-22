@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
-Date: Sat, 22 Nov 2025 07:22:30 -0000
-Message-Id: <176379615087.3215714.10488512919863703785@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/chleroy/linux
+Date: Sat, 22 Nov 2025 07:51:14 -0000
+Message-Id: <176379787469.3239327.14315523869138479691@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/xiang/erofs-utils
-user: xiang
+repo: pub/scm/linux/kernel/git/chleroy/linux
+user: chleroy
 changes:
-  - ref: refs/heads/experimental
-    old: a482ef7d1fdfd390aa76f5869bfc30318009d068
-    new: 3493841d8cfe1df19754ebe64daf9f8afa0d3427
-    log: |
-         3493841d8cfe1df19754ebe64daf9f8afa0d3427 erofs-utils: mkfs: add support to issue directory data separately
-         
+  - ref: refs/heads/soc_fsl
+    old: 0000000000000000000000000000000000000000
+    new: 0d3d44a140ee722d3cf708f24e76f1bfbba156ea
