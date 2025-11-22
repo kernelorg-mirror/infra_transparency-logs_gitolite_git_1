@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/tpm2-crypto
-Date: Sat, 22 Nov 2025 13:22:04 -0000
-Message-Id: <176381772402.3531409.1616626813602920654@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/tpm2sh
+Date: Sat, 22 Nov 2025 13:25:37 -0000
+Message-Id: <176381793700.3535278.8354292641142173804@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/tpm2-crypto
+repo: pub/scm/linux/kernel/git/jarkko/tpm2sh
 user: jarkko
 changes:
   - ref: refs/heads/main
-    old: 5a07c38ca026d1e34da469d7a7a545456f1afc62
-    new: 25a0acbc2a226e2a6369301dd4f8606fce10089e
+    old: e7c189d39af074e24ab213c77450410d0d41357a
+    new: 9522fe8626baac95600c419f02c8db7bb4352d7c
     log: |
-         25a0acbc2a226e2a6369301dd4f8606fce10089e refactor: s/PublicKey/ExternalKey/g
+         9522fe8626baac95600c419f02c8db7bb4352d7c feat(alg): new_{rsa,ecc}
          
