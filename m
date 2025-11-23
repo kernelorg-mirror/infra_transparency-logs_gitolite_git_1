@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/docs/man-pages/man-pages
-Date: Sun, 23 Nov 2025 22:16:45 -0000
-Message-Id: <176393620552.960220.14500797341671975809@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/tpm2sh
+Date: Sun, 23 Nov 2025 22:25:45 -0000
+Message-Id: <176393674568.968094.3548526039373622139@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/docs/man-pages/man-pages
-user: alx
+repo: pub/scm/linux/kernel/git/jarkko/tpm2sh
+user: jarkko
 changes:
-  - ref: refs/heads/ip
-    old: 7d14ee324f2d6398b3704ea80602fe09b7aa6762
-    new: d44bc9f156975c9f69af9487064f2cf8fd495653
+  - ref: refs/heads/main
+    old: 21451e047679d6e67846401b6b0dba4966669501
+    new: 463a65b432b0f06ea0a1d141acc676953b2a6193
     log: |
-         1bc60dd683c31dbe42debf3e2ace5b790235d7db man/man2const/{IPPROTO_IP,IP_HDRINCL}.2const: Split IP_HDRINCL from IPPROTO_IP(2const)
-         d44bc9f156975c9f69af9487064f2cf8fd495653 man/man2const/IP_HDRINCL.2const: Tweak after split
+         c23a11a70b7905aa66b958c27dfd4a74efb269ad refactor(command): consolidate tpmkey file creation
+         463a65b432b0f06ea0a1d141acc676953b2a6193 refactor(task): don't expose session creation
          
