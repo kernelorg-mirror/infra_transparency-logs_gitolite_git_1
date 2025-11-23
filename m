@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Sun, 23 Nov 2025 09:12:10 -0000
-Message-Id: <176388913006.313823.2472391865253516560@gitolite.kernel.org>
+Date: Sun, 23 Nov 2025 10:22:57 -0000
+Message-Id: <176389337772.369609.10138465252964861230@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,9 @@ repo: pub/scm/linux/kernel/git/rdma/rdma
 user: leon
 changes:
   - ref: refs/heads/wip/leon-for-next
-    old: 9384e9a6e726cf7d33a5552c2666bc6f15e7574f
-    new: 4bf35d1d17c8d57f4adc18b7b16d527714490788
+    old: 4bf35d1d17c8d57f4adc18b7b16d527714490788
+    new: 45085ad3b2a35868e6b6852657f892abb631b8a8
     log: |
-         4bf35d1d17c8d57f4adc18b7b16d527714490788 IB/mlx5: Reduce IMR KSM size when 5-level paging is enabled
+         9e119870a99e509a043f1f00c9d5b47538a73607 RDMA/core: Add new IB rate for XDR (8x) support
+         45085ad3b2a35868e6b6852657f892abb631b8a8 RDMA/mlx5: Add support for 1600_8x lane speed
          
