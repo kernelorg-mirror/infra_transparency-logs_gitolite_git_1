@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ebiggers/linux
-Date: Sun, 23 Nov 2025 04:09:15 -0000
-Message-Id: <176387095560.68356.16441939461161296960@gitolite.kernel.org>
+Subject: post-receive: pub/scm/docs/man-pages/man-pages
+Date: Sun, 23 Nov 2025 06:55:01 -0000
+Message-Id: <176388090114.200634.14391648636161070365@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ebiggers/linux
-user: ebiggers
+repo: pub/scm/docs/man-pages/man-pages
+user: alx
 changes:
-  - ref: refs/heads/libcrypto-at-least
-    old: 68be0bdc75c1579ea07fe74f477567ddf0ab1f54
-    new: 86d930bb1c19ec798fd432c5b8f25912373c98b2
+  - ref: refs/heads/ip
+    old: df51ea5930347b54dea6bfd876b74cf5592e7114
+    new: 4a749fe8077973060c9eaea237d3f7f8a803a124
+    log: |
+         4a749fe8077973060c9eaea237d3f7f8a803a124 man/man7/ip.7, man/man2const/IP_FREEBIND.2const: Split IP_FREEBIND from ip(7)
+         
