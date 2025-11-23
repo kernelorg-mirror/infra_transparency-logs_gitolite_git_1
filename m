@@ -1,20 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/docs/man-pages/man-pages
-Date: Sun, 23 Nov 2025 22:51:29 -0000
-Message-Id: <176393828926.989863.13959652964796475414@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Sun, 23 Nov 2025 22:53:35 -0000
+Message-Id: <176393841537.990943.209458357473120672@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/docs/man-pages/man-pages
-user: alx
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
-  - ref: refs/heads/ip
-    old: 39b3fc2d28a3223631dffb246bf4a6858c628d0a
-    new: 93a7a70ca10a51224bfd3d006f22ff003ef29067
+  - ref: refs/heads/master
+    old: d0e88704d96ca0df77717320fec4ebabe42c8a94
+    new: ac3fd01e4c1efce8f2c054cdeb2ddd2fc0fb150d
     log: |
-         ca73e142a37a6eda1398b1f52e5a135ba944ff4c man/man2const/{IPPROTO_IP,IP_MSFILTER}.2const: Split IP_MSFILTER from IPPROTO_IP(2const)
-         93a7a70ca10a51224bfd3d006f22ff003ef29067 man/man2const/IP_MSFILTER.2const: Tweak after split
+         ac3fd01e4c1efce8f2c054cdeb2ddd2fc0fb150d Linux 6.18-rc7
          
+  - ref: refs/tags/v6.18-rc7
+    old: 0000000000000000000000000000000000000000
+    new: c4508223b80908ac095e50f731e68c4387951f0f
