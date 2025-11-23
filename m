@@ -1,22 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Sun, 23 Nov 2025 22:53:35 -0000
-Message-Id: <176393841537.990943.209458357473120672@gitolite.kernel.org>
+Subject: post-receive: pub/scm/docs/man-pages/man-pages
+Date: Sun, 23 Nov 2025 22:54:48 -0000
+Message-Id: <176393848854.992225.8942307358750051713@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/docs/man-pages/man-pages
+user: alx
 changes:
-  - ref: refs/heads/master
-    old: d0e88704d96ca0df77717320fec4ebabe42c8a94
-    new: ac3fd01e4c1efce8f2c054cdeb2ddd2fc0fb150d
+  - ref: refs/heads/ip
+    old: 93a7a70ca10a51224bfd3d006f22ff003ef29067
+    new: e367fe4191f70a6e3ffdecc4e8cedac407d3176e
     log: |
-         ac3fd01e4c1efce8f2c054cdeb2ddd2fc0fb150d Linux 6.18-rc7
+         e367fe4191f70a6e3ffdecc4e8cedac407d3176e man/man2const/IP_MSFILTER.2const: Tweak after split
          
-  - ref: refs/tags/v6.18-rc7
-    old: 0000000000000000000000000000000000000000
-    new: c4508223b80908ac095e50f731e68c4387951f0f
