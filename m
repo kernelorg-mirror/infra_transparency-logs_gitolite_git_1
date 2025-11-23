@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2950695072422722320=="
+Content-Type: multipart/mixed; boundary="===============0555822118216094071=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Sun, 23 Nov 2025 08:17:54 -0000
-Message-Id: <176388587435.269107.5698173591078669060@gitolite.kernel.org>
+Date: Sun, 23 Nov 2025 08:17:59 -0000
+Message-Id: <176388587924.269283.11893325423253632814@gitolite.kernel.org>
 
---===============2950695072422722320==
+--===============0555822118216094071==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/rdma/rdma
 user: leon
 changes:
-  - ref: refs/heads/wip/leon-for-rc
+  - ref: refs/heads/for-rc
     old: da32d155f4a8937952ca6fd55d3270fec1c3799f
     new: 2eba5e05d9bcf4cdea995ed51b0f07ba0275794a
     log: revlist-da32d155f4a8-2eba5e05d9bc.txt
 
---===============2950695072422722320==
+--===============0555822118216094071==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -716,4 +716,4 @@ a07a003ce6d475014e71e1c4f52f4ed7146dd35e Merge tag 'io_uring-6.18-20251120' of g
 e3fe48f9bdf47e0de91ffb7ba10d94a6a7598e8f Merge tag 'v6.18-rc6-smb3-client-fixes' of git://git.samba.org/sfrench/cifs-2.6
 2eba5e05d9bcf4cdea995ed51b0f07ba0275794a Merge tag 'loongarch-fixes-6.18-2' of git://git.kernel.org/pub/scm/linux/kernel/git/chenhuacai/linux-loongson
 
---===============2950695072422722320==--
+--===============0555822118216094071==--
