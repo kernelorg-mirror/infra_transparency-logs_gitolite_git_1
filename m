@@ -1,49 +1,61 @@
-Content-Type: multipart/mixed; boundary="===============0750023366602382670=="
+Content-Type: multipart/mixed; boundary="===============0790759221892681738=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/docs/man-pages/man-pages
-Date: Sun, 23 Nov 2025 21:10:02 -0000
-Message-Id: <176393220219.900994.16539724267465610616@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sj/damo
+Date: Sun, 23 Nov 2025 21:13:45 -0000
+Message-Id: <176393242578.903645.1834520168352263629@gitolite.kernel.org>
 
---===============0750023366602382670==
+--===============0790759221892681738==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/docs/man-pages/man-pages
-user: alx
+repo: pub/scm/linux/kernel/git/sj/damo
+user: sj
 changes:
-  - ref: refs/heads/ip
-    old: 2d3f8c6be27e42d848616a16492a9629c13903ad
-    new: 2f889e67c7d390cb655a37c603d02835a80e18d3
-    log: revlist-2d3f8c6be27e-2f889e67c7d3.txt
+  - ref: refs/heads/next
+    old: fae0d86a71900a30e31255fd7069df4f9416b056
+    new: cc4e007a6462ddbc0373bc26d5f698f7cd98abaf
+    log: revlist-fae0d86a7190-cc4e007a6462.txt
 
---===============0750023366602382670==
+--===============0790759221892681738==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2d3f8c6be27e-2f889e67c7d3.txt
+Content-Disposition: attachment; filename=revlist-fae0d86a7190-cc4e007a6462.txt
 
-5371611c51af96f144ebbfa029d6b05016308d67 man/man7/ip.7, man/man2const/IPPROTO_IP.2const: Split IPPROTO_IP from ip(7)
-e1654380b943a916cba99cb063ede8ee2165a4a5 man/man5/proc_sys_net_ipv4.5: Tweak after split
-f0efd85adf5669008c35814789492fadbbd91000 man/man5/proc_sys_net.5: Add reference to proc_sys_net_ipv4(5)
-30feedcfcdbae03303cee84f78ed93791624696f man/man2const/{IPPROTO_IP,IP_ADD_MEMBERSHIP}.2const: Split IP_ADD_MEMBERSHIP from IPPROTO_IP(2const)
-683780b249ebfb5602c8102934a4b8401f8d8888 man/man2const/IP_ADD_MEMBERSHIP.2const: Tweak after split
-f0bb93fa77b54bf74429cda1140be4f95b866b0d man/man2const/{IPPROTO_IP,IP_ADD_MEMBERSHIP}.2const, man/man2type/ip_mreqn.2type: Split struct ip_mreqn from IP_ADD_MEMBERSHIP(2const)
-296634e79030c80401df98dc66db3133fd6df5d7 man/man2type/ip_mreq.2type: Add link page
-75909180a1c1938e95c12489d7fd01c9cf669f82 man/man2const/{IPPROTO_IP,IP_ADD_SOURCE_MEMBERSHIP}.2const: Split IP_ADD_SOURCE_MEMBERSHIP from IPPROTO_IP(2const)
-e021b306592b00e2c03780502a78b6c4120bfaba man/man2const/IP_ADD_SOURCE_MEMBERSHIP.2const: Tweak after split
-221a211f90cdf1e58c6cf56f7de2d23b75780d88 man/man2const/{IPPROTO_IP,IP_ADD_SOURCE_MEMBERSHIP}.2const, man/man2type/ip_mreq_source.2type: Split struct ip_mreq_source from IP_ADD_SOURCE_MEMBERSHIP(2const)
-db45960e08c7b114adf3d430514f6a399e408dd9 man/man2const/{IPPROTO_IP,IP_BIND_ADDRESS_NO_PORT}.2const: Split IP_BIND_ADDRESS_NO_PORT from IPPROTO_IP(2const)
-95405833901cefdc951f65ea20f537cef5607a7b man/man2const/IP_BIND_ADDRESS_NO_PORT.2const: Tweak after split
-0d0679dec07b5e645185cadb1567ec8194a10f39 man/man2const/{IPPROTO_IP,IP_BLOCK_SOURCE}.2const: Split IP_BLOCK_SOURCE from IPPROTO_IP(2const)
-68216d4442c023e41d35048e45315d8af1d7da90 man/man2const/IP_BLOCK_SOURCE.2const: Tweak after split
-d464e2775e82efdbdfa71652a6ddd2222ec467c8 man/man2const/{IPPROTO_IP,IP_DROP_MEMBERSHIP}.2const: Split IP_DROP_MEMBERSHIP from IPPROTO_IP(2const)
-fc7a0caa29591c2c814683bbe5a24ae547f48455 man/man2const/IP_DROP_MEMBERSHIP.2const: Tweak after split
-5004c5d6b11cb87aa001b9cddf3c3d242dc3ee21 man/man2const/{IPPROTO_IP,IP_DROP_SOURCE_MEMBERSHIP}.2const: Split IP_DROP_SOURCE_MEMBERSHIP from IPPROTO_IP(2const)
-54907150a741d64708635b4f03784acad33309e6 man/man2const/IP_DROP_SOURCE_MEMBERSHIP.2const: Tweak after split
-2f889e67c7d390cb655a37c603d02835a80e18d3 man/man2const/{IPPROTO_IP,IP_FREEBIND}.2const: Split IP_FREEBIND from IPPROTO_IP(2const)
+a6b113f83ce1a7a269091bd4c0222b8f6c32e930 release_note: update for next release
+32cae2bc209d470bf36a090df33cb3eea3f9090a TODO: add an item for git commit info based damo version
+6aedf119d794c4a7eaf8e05a0ef7728ef9a6dbb4 damo_version: handle 'damo version' command
+657953fa69e18e8cb962c16e4292d465e4dd9e9e damo_version: implement a function for reading the version
+008f0947cb531fdf1be2a0d066d3f859bf03fe14 packaging/setup: use damo_version.get_release_version()
+463c9fb2b33591330006ab13696125ec01ee4f37 damo_version: use get_release_version()
+1a7cd2c7ab8b5443d0c532df4760aef844eae10f _damo_sysinfo: use damo_version.get_release_version()
+d8e35cb7c0f7fdc46e576ffb85f98f4015106125 _damon: remove unused import of damo_version
+40390617118aa35e906e3b8339e6894243be68fa damo_version: implement a function for git-based version
+8c921ae09e44ed931d088eee0873c72c3ab3c6a7 _damo_sysinfo: use damo_version.get_real_version()
+2851e533e296f84b6721734328abb8f12fe5e047 damo_version: remove todo item for git-based version
+84beba82a931c7da340bcd2cd560cd5e46bf89e2 TODO,release_note: update for git-based damo version on sysinfo
+f95417f2a5d5f4153fcb46dd1aec91c062b207ff _damo_sysinfo: implement damon version inferrence function
+2972ad15fae1abd90552a8cfbb639ffe0cd0c0c3 damo_features: use SystemInfo.infer_damon_version()
+58741579e1637f3aee269188a89631aa9d8a1d1c damo_report_sysinfo: print inferred DAMON version
+68c389c428637d0767101cbf25e764a138dbb6fb damo_report_sysinfo: add --print option to control what to print
+68774bef3c747f6000cac61205d6e7ade5a9f070 damo_report_sysinfo: print only versions by default
+735a17404034d238193957adc22827663559a6d7 _damo_sysinfo: add three DAMON features for nr_snapshots patch series
+e94a2daf882042b7fbdca267490beb8e52187118 _damon_sysfs: detect damos/stat/nr_snapshots and damos/max_nr_snapshots features
+b8c066fb6e982d350074e0b2b6192eea2ccf74f5 _damo_sysinfo: support trace/damos_stat_after_apply_interval feature detection
+3b1c78bd1554ce9a563728b4f446407220917135 _damon: add DamosStats.nr_snapshots
+af5190254fa426356daa753a191752a6dd9f237c _damon/DamosStats.to_str(): support raw for qt_exceeds
+bdba6a7f599b8ffad22ec8895e3555723a7ebec9 _damon_sysfs: support nr_snapshots reading
+d678af471b0cac9468ef2bbef906a89f0fb2079d _damon: add DamosStats.max_nr_snapshots
+84ea5884060b31792898c42a60a1cb9eef788282 _damon_sysfs: support max_nr_snapshots reading
+627c30ef0f3fc8ed2cc2fc17e3d56cbbf280fdc1 _damon_sysfs: support max_nr_snapshots writing
+c8ef21f928bd544243d35397f6c64e87a5a82f93 _damon_args: add --damos_max_nr_snapshots
+3df973f8cf869abaa560b6434f4aa6a445514b10 release_note: update for [max_]nr_snapshots support
+7ed4bfbdcc096eaa4f600ba530c45cb9c8ba739b damo_report_damon: suppress --json help message
+cb6bb896ce95e9b8ab15d3e9ed57c568b925c82f damo_version: use '--git-dir' insted of '-C' for git
+cc4e007a6462ddbc0373bc26d5f698f7cd98abaf TODO: add an item for --perf_path handling with _damo_sysinfo
 
---===============0750023366602382670==--
+--===============0790759221892681738==--
