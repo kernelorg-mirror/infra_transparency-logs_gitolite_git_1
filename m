@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/chanwoo/linux
-Date: Sun, 23 Nov 2025 15:08:15 -0000
-Message-Id: <176391049504.600570.10042901778210392694@gitolite.kernel.org>
+Date: Sun, 23 Nov 2025 15:15:32 -0000
+Message-Id: <176391093287.607809.3834462092619889128@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,5 +12,8 @@ repo: pub/scm/linux/kernel/git/chanwoo/linux
 user: chanwoo
 changes:
   - ref: refs/heads/devfreq-next
-    old: e60c9d849004a0661cbd82494d531ad71e3ce7a3
-    new: a5aca75b173ed9db38150b499aa770c7d4664046
+    old: a5aca75b173ed9db38150b499aa770c7d4664046
+    new: 9d1876aa0845e9798c825cbebca283ef0549ac56
+    log: |
+         9d1876aa0845e9798c825cbebca283ef0549ac56 PM: devfreq: Fix typo in DFSO_DOWNDIFFERENTIAL macro name
+         
