@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs
-Date: Sun, 23 Nov 2025 23:36:10 -0000
-Message-Id: <176394097022.1028499.13749408487344897315@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/tpm2sh
+Date: Sun, 23 Nov 2025 23:36:38 -0000
+Message-Id: <176394099881.1028800.17775277739653326821@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/xiang/erofs
-user: xiang
+repo: pub/scm/linux/kernel/git/jarkko/tpm2sh
+user: jarkko
 changes:
-  - ref: refs/heads/dev
-    old: ea2972e1c7891f7c4190a002952fbf8798e66a24
-    new: fbf8f2df5224481a8537924d893642a34aac7595
-    log: |
-         fbf8f2df5224481a8537924d893642a34aac7595 erofs: limit the level of fs stacking for file-backed mounts
-         
+  - ref: refs/tags/0.15.25
+    old: 0000000000000000000000000000000000000000
+    new: 57c3cdaf8e5bde363c1d0d812f4270f5e93d0c85
