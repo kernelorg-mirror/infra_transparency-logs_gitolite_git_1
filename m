@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jarkko/tpm2-policy-language
-Date: Sun, 23 Nov 2025 00:29:13 -0000
-Message-Id: <176385775359.4086122.5619669879746756606@gitolite.kernel.org>
+Date: Sun, 23 Nov 2025 00:30:23 -0000
+Message-Id: <176385782302.4088570.8466544087522229331@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/jarkko/tpm2-policy-language
 user: jarkko
 changes:
   - ref: refs/heads/main
-    old: 7bc870eea0db8678bdf8bb90bd22a0d0926327f0
-    new: e4589492853ae4a6526f4221f6ca7b4d597d7916
+    old: e4589492853ae4a6526f4221f6ca7b4d597d7916
+    new: 54a3518e48bdabd65f2f1d742559baaa06a7a289
     log: |
-         e4589492853ae4a6526f4221f6ca7b4d597d7916 feat: improve policy state to populate digests
+         54a3518e48bdabd65f2f1d742559baaa06a7a289 chore: bump version to 0.9.7
          
