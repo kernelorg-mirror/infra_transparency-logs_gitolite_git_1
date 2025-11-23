@@ -1,42 +1,27 @@
-Content-Type: multipart/mixed; boundary="===============6107674425839884543=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Sun, 23 Nov 2025 21:20:02 -0000
-Message-Id: <176393280242.909663.17500786208268352871@gitolite.kernel.org>
-
---===============6107674425839884543==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/sj/damon-hack
+Date: Sun, 23 Nov 2025 21:20:27 -0000
+Message-Id: <176393282711.911274.9443384324685985261@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/linux
+repo: pub/scm/linux/kernel/git/sj/damon-hack
 user: sj
 changes:
   - ref: refs/heads/master
-    old: d13f3ac64efb868d09cb2726b1e84929afe90235
-    new: d0e88704d96ca0df77717320fec4ebabe42c8a94
-    log: revlist-d13f3ac64efb-d0e88704d96c.txt
-
---===============6107674425839884543==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d13f3ac64efb-d0e88704d96c.txt
-
-1dba74abf3e2fa4484b924d8ba6e54e64ebb8c82 clk: sunxi-ng: Mark A523 bus-r-cpucfg clock as critical
-5888533c6011de319c5f23ae147f1f291ce81582 clk: sunxi-ng: sun55i-a523-r-ccu: Mark bus-r-dma as critical
-2050280a4bb660b47f8cccf75a69293ae7cbb087 clk: sunxi-ng: sun55i-a523-ccu: Lower audio0 pll minimum rate
-a24074ca8840cf28fa50c40e957fdc50f29971b3 perf/x86/intel/uncore: Remove superfluous check
-3c493b524ffdb3fae7f0d9dc6b887359ce13cd34 Merge tag 'sunxi-clk-fixes-for-6.18' of https://git.kernel.org/pub/scm/linux/kernel/git/sunxi/linux into clk-fixes
-807e0d187da4c0b22036b5e34000f7a8c52f6e50 tick/sched: Fix bogus condition in report_idle_softirq()
-f1f96511b1c4c33e53f05909dd267878e0643a9a perf: Fix 0 count issue of cpu-clock
-7b5ab04f035f829ed6008e4685501ec00b3e73c9 timekeeping: Fix resource leak in tk_aux_sysfs_init() error paths
-20739af07383e6eb1ec59dcd70b72ebfa9ac362c timers: Fix NULL function pointer race in timer_shutdown_sync()
-e624f7377599d1f82190b17bdf7d8e735c0576ee Merge tag 'perf-urgent-2025-11-23' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-1af5c1d3a90246a15225fc7de0ed7e5f9b2f3f98 Merge tag 'timers-urgent-2025-11-23' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-d0e88704d96ca0df77717320fec4ebabe42c8a94 Merge tag 'clk-fixes-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/clk/linux
-
---===============6107674425839884543==--
+    old: a87e924fbc7c848bf229540d77a5c13422c053e4
+    new: 2fc501d684c976b7ff5da535825927a43421074c
+    log: |
+         fc9972ac51336bb4db21b8799a9360ea924dc198 patches/next: more works on stat tracepoint and max_nr_snapshots
+         1f441b3b53d5db8239992a8d5ba5101a511dbab1 patches/next: collapse stat changes into one series
+         e5298918965d8b011e699f06f49abd617a9363e3 patches/next: squash and rearrange patches
+         1a5c437c6fc4c9bc25044fd75b600d36475b1372 patches/next: write commit messages for damos_stat series
+         98905fd416a1a651b57c1fb873d9eaf402b93d27 patches/next: add a patch for document cleanup of damos stat periodic update
+         ae32b7120b9bc15652fa1705e7eb9677694d9408 patches/next: move damos_stat three changes series to head of the patches queue
+         3fb3fad10262b00287d3a8a8bc3ea590b4fb3323 patches/next: wordsmith damos stat three changes series
+         fc1ab5baf67ddad84cb8fcc87b9b02363104598f patches/posted: add damos_stat three changes series
+         2fc501d684c976b7ff5da535825927a43421074c patches/posted: add msgids for damos stat three changes series
+         
