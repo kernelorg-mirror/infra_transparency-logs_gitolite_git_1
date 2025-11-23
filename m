@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/tpm2sh
-Date: Sun, 23 Nov 2025 22:12:07 -0000
-Message-Id: <176393592744.955724.10006703772908253702@gitolite.kernel.org>
+Subject: post-receive: pub/scm/docs/man-pages/man-pages
+Date: Sun, 23 Nov 2025 22:12:56 -0000
+Message-Id: <176393597679.956335.13505311385296700692@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/tpm2sh
-user: jarkko
+repo: pub/scm/docs/man-pages/man-pages
+user: alx
 changes:
-  - ref: refs/heads/main
-    old: 11a4ec3302e5e9070015d65cde5717225d56d8f3
-    new: 21451e047679d6e67846401b6b0dba4966669501
+  - ref: refs/heads/ip
+    old: 4caafc6799c6f995447cba83c803f3bf9ee64732
+    new: 7d14ee324f2d6398b3704ea80602fe09b7aa6762
     log: |
-         d10e9d1d989de38567f44eb497c59d0bce4f193e refactor(command): consolidate tpmkey file creation
-         21451e047679d6e67846401b6b0dba4966669501 refactor(task): don't expose session creation
+         4f2130ba5d71b8261b3be23706be94f65ee6c3b0 man/man2const/IP_FREEBIND.2const: Tweak after split
+         7d14ee324f2d6398b3704ea80602fe09b7aa6762 man/man2const/{IPPROTO_IP,IP_HDRINCL}.2const: Split IP_HDRINCL from IPPROTO_IP(2const)
          
