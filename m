@@ -1,32 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/docs/tab/tab
-Date: Sun, 23 Nov 2025 16:16:48 -0000
-Message-Id: <176391460892.660338.13359377014861564547@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Sun, 23 Nov 2025 16:24:48 -0000
+Message-Id: <176391508816.667098.4917774231762187137@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/docs/tab/tab
-user: sashal
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
   - ref: refs/heads/master
-    old: 6d9684273e4319354a45895a31b1b84b8a9e8ab3
-    new: 7f66c6d7cf24c6b08b3ebd9324d4eee29fd5c9b5
+    old: d13f3ac64efb868d09cb2726b1e84929afe90235
+    new: 1af5c1d3a90246a15225fc7de0ed7e5f9b2f3f98
     log: |
-         fb46c91958218d001302de690682b5b050a7ccb0 Minutes - August 14th, 2024
-         922e6165499f65685d53bd549157d757780d9dd7 Minutes - September 11th, 2024
-         e803d1041b02bcaf6d6a4b3d0ef3c96f161ac410 Minutes - November 14th, 2024
-         7ca63b6fff7955f81e04658ebb1781f989cb1003 Minutes - December 12th, 2024
-         1f209055823cb15bba4a1e560f0658ba25041025 Minutes - January 9th, 2025
-         ec7f24b2055f8fbcfa0ab5c0356f98a9c4ce6af2 Minutes - February 13th, 2025
-         5851f9bcaf7a846539c2d3cbdf38cc45addda710 Minutes - March 13th, 2025
-         d36bc7240ae7b04e2124f4089e4ee5d790c743e5 Minutes - April 10th, 2025
-         d139f465b3aa34e9ce97c2ea22487035e137a9e7 Minutes - May 8th, 2025
-         811d7e234a456d38580397f3b47debf3a4ad8727 Minutes - June 12th, 2025
-         9a8560bead8c406a71b32272d7e9e2101bfa12a3 Minutes - July 10th, 2025
-         4ccfb1b6b689effa02ec4666bf3b0d6a261d3041 Minutes - August 14th, 2025
-         31c2666378b8e81e4455879db9b6ad87c5f60dc0 Minutes - September 11th, 2025
-         7f66c6d7cf24c6b08b3ebd9324d4eee29fd5c9b5 Minutes - October 9th, 2025
+         a24074ca8840cf28fa50c40e957fdc50f29971b3 perf/x86/intel/uncore: Remove superfluous check
+         807e0d187da4c0b22036b5e34000f7a8c52f6e50 tick/sched: Fix bogus condition in report_idle_softirq()
+         f1f96511b1c4c33e53f05909dd267878e0643a9a perf: Fix 0 count issue of cpu-clock
+         7b5ab04f035f829ed6008e4685501ec00b3e73c9 timekeeping: Fix resource leak in tk_aux_sysfs_init() error paths
+         20739af07383e6eb1ec59dcd70b72ebfa9ac362c timers: Fix NULL function pointer race in timer_shutdown_sync()
+         e624f7377599d1f82190b17bdf7d8e735c0576ee Merge tag 'perf-urgent-2025-11-23' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+         1af5c1d3a90246a15225fc7de0ed7e5f9b2f3f98 Merge tag 'timers-urgent-2025-11-23' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
          
