@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8971353210910532782=="
+Content-Type: multipart/mixed; boundary="===============6790026427706341270=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/docs/man-pages/man-pages
-Date: Sun, 23 Nov 2025 22:07:10 -0000
-Message-Id: <176393563074.951209.11656187282209054186@gitolite.kernel.org>
+Date: Sun, 23 Nov 2025 22:09:32 -0000
+Message-Id: <176393577204.953007.12513548057276832018@gitolite.kernel.org>
 
---===============8971353210910532782==
+--===============6790026427706341270==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,30 +16,25 @@ repo: pub/scm/docs/man-pages/man-pages
 user: alx
 changes:
   - ref: refs/heads/ip
-    old: c5d3275655b9d3d0e9cbd93b40f9fb73bdf918ef
-    new: 409d70779c870106f3a0f9b13ebec86e65f204e8
-    log: revlist-c5d3275655b9-409d70779c87.txt
+    old: 409d70779c870106f3a0f9b13ebec86e65f204e8
+    new: 4caafc6799c6f995447cba83c803f3bf9ee64732
+    log: revlist-409d70779c87-4caafc6799c6.txt
 
---===============8971353210910532782==
+--===============6790026427706341270==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c5d3275655b9-409d70779c87.txt
+Content-Disposition: attachment; filename=revlist-409d70779c87-4caafc6799c6.txt
 
-b5e3f9f64a3a8f6ff4875a85ec0cc95abdafa657 man/man2const/{IPPROTO_IP,IP_ADD_MEMBERSHIP}.2const, man/man2type/ip_mreqn.2type: Split struct ip_mreqn from IP_ADD_MEMBERSHIP(2const)
-05fdcf71c184d19d92517d534c7715c025564c21 man/man2type/ip_mreq.2type: Add link page
-03f5e0682c6f7522b62d8c35c7fa6302ed838477 man/man2const/{IPPROTO_IP,IP_ADD_SOURCE_MEMBERSHIP}.2const: Split IP_ADD_SOURCE_MEMBERSHIP from IPPROTO_IP(2const)
-46bb57d5719ac40985519df277352fb76e05e4f7 man/man2const/IP_ADD_SOURCE_MEMBERSHIP.2const: Tweak after split
-de53284d7f07063653dbf54aca131732e88ff713 man/man2const/{IPPROTO_IP,IP_ADD_SOURCE_MEMBERSHIP}.2const, man/man2type/ip_mreq_source.2type: Split struct ip_mreq_source from IP_ADD_SOURCE_MEMBERSHIP(2const)
-b9e37b3839ffd1186fc4cd8a8292f47d93c2ae4e man/man2const/{IPPROTO_IP,IP_BIND_ADDRESS_NO_PORT}.2const: Split IP_BIND_ADDRESS_NO_PORT from IPPROTO_IP(2const)
-5be1873d9262728579f508a62bcbdb92a348a87c man/man2const/IP_BIND_ADDRESS_NO_PORT.2const: Tweak after split
-404712225a69de4b87b8d5fa5956b21cbdbf6cca man/man2const/{IPPROTO_IP,IP_BLOCK_SOURCE}.2const: Split IP_BLOCK_SOURCE from IPPROTO_IP(2const)
-3ccb545d247f1354d054829d85aff8d9e7086ead man/man2const/IP_BLOCK_SOURCE.2const: Tweak after split
-d191893fdf9565016827bb0788bdba0fbbff0a8e man/man2const/{IPPROTO_IP,IP_DROP_MEMBERSHIP}.2const: Split IP_DROP_MEMBERSHIP from IPPROTO_IP(2const)
-e4a7155b4d2e9dbf4877c02e76e4dec1641ebcdb man/man2const/IP_DROP_MEMBERSHIP.2const: Tweak after split
-d28a73b22f3be50c9fcb768ac4b39e220d637c37 man/man2const/{IPPROTO_IP,IP_DROP_SOURCE_MEMBERSHIP}.2const: Split IP_DROP_SOURCE_MEMBERSHIP from IPPROTO_IP(2const)
-028f266213e3d07e3057af1dd17394057a3b4904 man/man2const/IP_DROP_SOURCE_MEMBERSHIP.2const: Tweak after split
-40b2ca583bc37ba70c7d15180d7f3824d03985ad man/man2const/{IPPROTO_IP,IP_FREEBIND}.2const: Split IP_FREEBIND from IPPROTO_IP(2const)
-409d70779c870106f3a0f9b13ebec86e65f204e8 man/man2const/{IPPROTO_IP,IP_HDRINCL}.2const: Split IP_HDRINCL from IPPROTO_IP(2const)
+02034b03944d36c47693a0c6f59fd61aae85a09d man/man2const/{IPPROTO_IP,IP_BIND_ADDRESS_NO_PORT}.2const: Split IP_BIND_ADDRESS_NO_PORT from IPPROTO_IP(2const)
+3aa23e3a09c9b28a41ed97a00054b62f14871cab man/man2const/IP_BIND_ADDRESS_NO_PORT.2const: Tweak after split
+d20b294c81fcd6c1999c889ca7debc799ac6bbd0 man/man2const/{IPPROTO_IP,IP_BLOCK_SOURCE}.2const: Split IP_BLOCK_SOURCE from IPPROTO_IP(2const)
+fbf9cbf184e2af12aa2d42ae1100854d31f79a93 man/man2const/IP_BLOCK_SOURCE.2const: Tweak after split
+3d19c3475c896cd1575816fda5e037b6811cac5d man/man2const/{IPPROTO_IP,IP_DROP_MEMBERSHIP}.2const: Split IP_DROP_MEMBERSHIP from IPPROTO_IP(2const)
+8d4d3f515b06f53dbb2f893bbc60b7aaf4a306a5 man/man2const/IP_DROP_MEMBERSHIP.2const: Tweak after split
+4e70d97db59336d73c924f40f01c364a1a72cd9e man/man2const/{IPPROTO_IP,IP_DROP_SOURCE_MEMBERSHIP}.2const: Split IP_DROP_SOURCE_MEMBERSHIP from IPPROTO_IP(2const)
+c0dad4ea39e5e552f07ec3ff73553bd4c1271c3c man/man2const/IP_DROP_SOURCE_MEMBERSHIP.2const: Tweak after split
+c93a18acf6e1a46c98a88d2c8d6aec0a55384282 man/man2const/{IPPROTO_IP,IP_FREEBIND}.2const: Split IP_FREEBIND from IPPROTO_IP(2const)
+4caafc6799c6f995447cba83c803f3bf9ee64732 man/man2const/{IPPROTO_IP,IP_HDRINCL}.2const: Split IP_HDRINCL from IPPROTO_IP(2const)
 
---===============8971353210910532782==--
+--===============6790026427706341270==--
