@@ -1,20 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/docs/man-pages/man-pages
-Date: Mon, 24 Nov 2025 18:20:58 -0000
-Message-Id: <176400845895.2281708.2711660824073307291@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Mon, 24 Nov 2025 18:24:24 -0000
+Message-Id: <176400866426.2283906.16744604084585661758@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/docs/man-pages/man-pages
-user: alx
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: ast
 changes:
-  - ref: refs/heads/ip
-    old: 4f1223e3509b442ca973e8999b6e72cd3fa2a484
-    new: d549019995bbe6c85c39f00719d846e3ae9d5c78
+  - ref: refs/heads/master
+    old: acf8726466a6254617ade092bb3eded8c04947f7
+    new: 4617b3069af411ce64a0c876b1b4964a3ea2b3f4
     log: |
-         6fb9b71a2f9b1d3bdf43bf502394aaa4ebcd8797 man/man2const/{IPPROTO_IP,IP_PKTINFO}.2const: Split IP_PKTINFO from IPPROTO_IP(2const)
-         d549019995bbe6c85c39f00719d846e3ae9d5c78 man/man2const/IP_PKTINFO.2const: Tweak after split
+         90ae54b4c7eca42d5ce006dd0a8cb0b5bfbf80d0 bpftool: Allow bpftool to build with openssl < 3
+         ad93ba02678eda5fc8e259cf4b52997e6fa570cf selftests/bpf: Allow selftests to build with older xxd
+         4617b3069af411ce64a0c876b1b4964a3ea2b3f4 Merge branch 'ease-bpf-signing-build-requirements'
          
