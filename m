@@ -1,26 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Mon, 24 Nov 2025 15:31:02 -0000
-Message-Id: <176399826239.2127925.4441187151262463759@gitolite.kernel.org>
+Subject: post-receive: pub/scm/docs/man-pages/man-pages
+Date: Mon, 24 Nov 2025 15:58:34 -0000
+Message-Id: <176399991438.2148928.3548436980151949831@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
-user: broonie
+repo: pub/scm/docs/man-pages/man-pages
+user: alx
 changes:
-  - ref: refs/heads/for-linus
-    old: 9f0c21bac5a8089e74b21d007e26fb4594b10d73
-    new: a90903c2a3c38bce475f46ea3f93dbf6a9971553
+  - ref: refs/heads/ip
+    old: 8ae812e798515b7027dfd0b09a2d4b0a61cc0b35
+    new: e4d1a4bffe038dd1bcb5dc47cf65568d45c48438
     log: |
-         a90903c2a3c38bce475f46ea3f93dbf6a9971553 spi: amlogic-spifc-a1: Handle devm_pm_runtime_enable() errors
-         
-  - ref: refs/heads/for-next
-    old: 00652711e24839daab6e42d8eff2d9a4e4165034
-    new: 3949031ea23bead5db3da4ddddd20a2a03da6426
-    log: |
-         a90903c2a3c38bce475f46ea3f93dbf6a9971553 spi: amlogic-spifc-a1: Handle devm_pm_runtime_enable() errors
-         3949031ea23bead5db3da4ddddd20a2a03da6426 Merge remote-tracking branch 'spi/for-6.19' into spi-next
+         e80115b51f2ec6df56639d26f3c49dde0c222abb man/man2const/{IPPROTO_IP,IP_OPTIONS}.2const: Split IP_OPTIONS from IPPROTO_IP(2const)
+         e4d1a4bffe038dd1bcb5dc47cf65568d45c48438 man/man2const/IP_OPTIONS.2const: Tweak after split
          
