@@ -1,74 +1,118 @@
-Content-Type: multipart/mixed; boundary="===============4909097875264102407=="
+Content-Type: multipart/mixed; boundary="===============2103823018784379353=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/docs/man-pages/man-pages
-Date: Mon, 24 Nov 2025 16:25:40 -0000
-Message-Id: <176400154038.2173737.10050559634573058240@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
+Date: Mon, 24 Nov 2025 16:29:53 -0000
+Message-Id: <176400179356.2176406.16618866566165883173@gitolite.kernel.org>
 
---===============4909097875264102407==
+--===============2103823018784379353==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/docs/man-pages/man-pages
-user: alx
+repo: pub/scm/linux/kernel/git/vfs/vfs
+user: brauner
 changes:
-  - ref: refs/heads/ip
-    old: e4d1a4bffe038dd1bcb5dc47cf65568d45c48438
-    new: 896beab265a479f05662543d528114fa186c8305
-    log: revlist-e4d1a4bffe03-896beab265a4.txt
+  - ref: refs/heads/namespace-6.19
+    old: cc7d6c65b8df0587de7541031dd91b7ee751a4b6
+    new: a71e4f103aed69e7a11ea913312726bb194c76ee
+    log: |
+         a71e4f103aed69e7a11ea913312726bb194c76ee pidfs: simplify PIDFD_GET_<type>_NAMESPACE ioctls
+         
+  - ref: refs/heads/vfs-6.19.iomap
+    old: d9b964dbfd3e15635eae30da757e91c70f9d4628
+    new: 2e7278a6e9512e84012fc56b0d073a1fab302fc1
+    log: |
+         2e7278a6e9512e84012fc56b0d073a1fab302fc1 iomap: fix iomap_read_end() for already uptodate folios
+         
+  - ref: refs/heads/vfs-6.19.misc
+    old: 030e86dfdaa789dd2e2e481d7118979a9d1f8f4e
+    new: bfef6e1f3488fc09ae966cb4dd2cb09f73cff791
+    log: |
+         c29383a874ee86af1c68488f15f88544140414fe watch_queue: Use local kmap in post_one_notification()
+         6d228c181ed27957100bb1e77ccbb8078a22a8c1 fs: remove spurious exports in fs/file_attr.c
+         bfef6e1f3488fc09ae966cb4dd2cb09f73cff791 fs: move mntput_no_expire() slowpath into a dedicated routine
+         
+  - ref: refs/heads/vfs.all
+    old: e72adadba24a58aa067622e4aa8c2eb00b38e124
+    new: 4d8cb2518d6f29e24b1df6609ee32cab7e76aa7c
+    log: revlist-e72adadba24a-4d8cb2518d6f.txt
+  - ref: refs/heads/vfs-6.19.autofs
+    old: 0000000000000000000000000000000000000000
+    new: 922a6f34c1756d2b0c35d9b2d915b8af19e85965
 
---===============4909097875264102407==
+--===============2103823018784379353==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e4d1a4bffe03-896beab265a4.txt
+Content-Disposition: attachment; filename=revlist-e72adadba24a-4d8cb2518d6f.txt
 
-466c43360f3874a890e910610d4d01ea135d020c man/man2/mremap.2: Fix incorrect reference to VM_MIXEDMAP
-3ff72827508e19ad103127208cfd5115962f22c4 man/man7/ip.7, man/man5/proc_sys_net_ipv4.5: Split /proc/sys/net/ipv4/ from ip(7)
-cad3ab7b0832b392b7ca9997ae4e7933a151e170 man/man7/ip.7, man/man2const/IPPROTO_IP.2const: Split IPPROTO_IP from ip(7)
-f7449fdc209e8ae1ef323693de4eb4fcd62957b7 man/man5/proc_sys_net_ipv4.5: Tweak after split
-9c8ae846ac221b8068c35e4115ecfd076bc72767 man/man5/proc_sys_net.5: Add reference to proc_sys_net_ipv4(5)
-a25481e6c54744606fbb7f5bdfe27028b05e80f1 man/man2const/{IPPROTO_IP,IP_ADD_MEMBERSHIP}.2const: Split IP_ADD_MEMBERSHIP from IPPROTO_IP(2const)
-b8282e72428df2f23ca917bcade8be81a157dc8b man/man2const/IP_ADD_MEMBERSHIP.2const: Tweak after split
-f7452e5b63c69c16dd9ff2b3b8662240e39a20c7 man/man2const/{IPPROTO_IP,IP_ADD_MEMBERSHIP}.2const, man/man2type/ip_mreqn.2type: Split struct ip_mreqn from IP_ADD_MEMBERSHIP(2const)
-eefc5530d94eeea9a5a30c2ce3fd5f0ff9a61fef man/man2type/ip_mreq.2type: Add link page
-400d3351f0c951f869fa5a17c0718987b0bdf2a4 man/man2const/{IPPROTO_IP,IP_ADD_SOURCE_MEMBERSHIP}.2const: Split IP_ADD_SOURCE_MEMBERSHIP from IPPROTO_IP(2const)
-48a8c7a455e54c141a22afc9c14a1bc100c0f7c7 man/man2const/IP_ADD_SOURCE_MEMBERSHIP.2const: Tweak after split
-80b1307d12e8743e80e9e8c0021ad1ab4bce9baf man/man2const/{IPPROTO_IP,IP_ADD_SOURCE_MEMBERSHIP}.2const, man/man2type/ip_mreq_source.2type: Split struct ip_mreq_source from IP_ADD_SOURCE_MEMBERSHIP(2const)
-70b5a5f9aa1577ed8b68c932ed5b71bc3ab78cda man/man2const/{IPPROTO_IP,IP_BIND_ADDRESS_NO_PORT}.2const: Split IP_BIND_ADDRESS_NO_PORT from IPPROTO_IP(2const)
-b125766d6a1eb7f0e59fee7b1808e75a95e0e2c5 man/man2const/IP_BIND_ADDRESS_NO_PORT.2const: Tweak after split
-ee234be90a0fcbaf2dc07b0ddf444091c54145ad man/man2const/{IPPROTO_IP,IP_BLOCK_SOURCE}.2const: Split IP_BLOCK_SOURCE from IPPROTO_IP(2const)
-6b1e63141942b2b3f02d5e45b33d04e04eae7d2d man/man2const/IP_BLOCK_SOURCE.2const: Tweak after split
-b4d12e51f524ea2b97d51dede13a454ec42c9a64 man/man2const/{IPPROTO_IP,IP_DROP_MEMBERSHIP}.2const: Split IP_DROP_MEMBERSHIP from IPPROTO_IP(2const)
-52251a811e42cb29797d3b8f014d2a253fc8eebc man/man2const/IP_DROP_MEMBERSHIP.2const: Tweak after split
-a914ae2a5144134f7e0edec286dd8d5329808b6c man/man2const/{IPPROTO_IP,IP_DROP_SOURCE_MEMBERSHIP}.2const: Split IP_DROP_SOURCE_MEMBERSHIP from IPPROTO_IP(2const)
-03ce13fa17e9b934935b2bcb2f8618da3cd6de67 man/man2const/IP_DROP_SOURCE_MEMBERSHIP.2const: Tweak after split
-bed964373951ccd20405e9d52aef8d000b903c43 man/man2const/{IPPROTO_IP,IP_FREEBIND}.2const: Split IP_FREEBIND from IPPROTO_IP(2const)
-c2d3ab3a328a0c1485cf850057fa54d9efca80ba man/man2const/IP_FREEBIND.2const: Tweak after split
-88e788f9deff0dc6d1c430f7803efbce8fbfa0eb man/man2const/{IPPROTO_IP,IP_HDRINCL}.2const: Split IP_HDRINCL from IPPROTO_IP(2const)
-7efd7f89a108652e77c103cbdce41e25c3e82632 man/man2const/IP_HDRINCL.2const: Tweak after split
-6061a7abcc6eb9916f119908e0f62744559ab186 man/man2const/{IPPROTO_IP,IP_LOCAL_PORT_RANGE}.2const: Split IP_LOCAL_PORT_RANGE from IPPROTO_IP(2const)
-f216ade53dbce205b5a12a5c02de097087663440 man/man2const/IP_LOCAL_PORT_RANGE.2const: Tweak after split
-2fd9373c7970a9c5239c78caa799ce1ed786651a man/man2const/{IPPROTO_IP,IP_MSFILTER}.2const: Split IP_MSFILTER from IPPROTO_IP(2const)
-56f24698071a83d04e40c4b308d8fa97e8db776b man/man2const/IP_MSFILTER.2const: Tweak after split
-a9ae15d428b79707cae2ac837c7bb40656df3777 man/man2const/{IPPROTO_IP,IP_MTU}.2const: Split IP_MTU from IPPROTO_IP(2const)
-a9b76c7a9822e2b45c995cf921ccc8491edf6db0 man/man2const/IP_MTU.2const: Tweak after split
-7f1f992fe6cac4cc0e593f4d39186e4b39bc24b6 man/man2const/{IPPROTO_IP,IP_MTU_DISCOVER}.2const: Split IP_MTU_DISCOVER from IPPROTO_IP(2const)
-955c0bda4292fa9a4b526c68e8b1b2c78b74bab8 man/man2const/IP_MTU_DISCOVER.2const: Tweak after split
-d009de445120a6be176dedf35ae710a3ead76222 man/man2const/{IPPROTO_IP,IP_MULTICAST_ALL}.2const: Split IP_MULTICAST_ALL from IPPROTO_IP(2const)
-393d102684d514bc3c407c0dfead909e24b2983a man/man2const/IP_MULTICAST_ALL.2const: Tweak after split
-5943b314102203f8fd2ddabe7bb0722150195356 man/man2const/{IPPROTO_IP,IP_MULTICAST_IF}.2const: Split IP_MULTICAST_IF from IPPROTO_IP(2const)
-765292c2db51aae4315568fd62cbebcf98aed5f8 man/man2const/IP_MULTICAST_IF.2const: Tweak after split
-9b37b5a71e9c71039eb95b2baff8bd01ec9b72ca man/man2const/{IPPROTO_IP,IP_MULTICAST_LOOP}.2const: Split IP_MULTICAST_LOOP from IPPROTO_IP(2const)
-a404ee327a991ce381c718eed7cb6814eeec8d3f man/man2const/IP_MULTICAST_LOOP.2const: Tweak after split
-9dca2225a94b2c7b4ffe2585881fef6460961587 man/man2const/{IPPROTO_IP,IP_MULTICAST_TTL}.2const: Split IP_MULTICAST_TTL from IPPROTO_IP(2const)
-f63a7bddddfb9e03d6ffaa15fbcf47eb6917f383 man/man2const/IP_MULTICAST_TTL.2: Tweak after split
-df7fae4f4fd6bfd440ad9e7496037535b706cafe man/man2const/{IPPROTO_IP,IP_NODEFRAG}.2const: Split IP_NODEFRAG from IPPROTO_IP(2const)
-501edcf6a73437ccdf9378884a3a3ef35332ef03 man/man2const/IP_NODEFRAG.2const: Tweak after split
-427f47028df12907d2c0363965d5dedf03740f7a man/man2const/{IPPROTO_IP,IP_OPTIONS}.2const: Split IP_OPTIONS from IPPROTO_IP(2const)
-896beab265a479f05662543d528114fa186c8305 man/man2const/IP_OPTIONS.2const: Tweak after split
+2c8a1b292e2c0b953c215dca8ed177105308c3c5 file: add FD_{ADD,PREPARE}()
+f785c4f5fef0e0eeb50b75e73aac371e3846a68f anon_inodes: convert to FD_ADD()
+e87386d58571695857a4806b327bef8671912af5 eventfd: convert do_eventfd() to FD_PREPARE()
+f8e5aad2c2394baa22cd46be8aefa9852042d723 fhandle: convert do_handle_open() to FD_ADD()
+d61405ca6a0ec9f4fc878a1ad2d8734532b55c5b namespace: convert open_tree() to FD_ADD()
+946c61cab279f34eeb6bbfb98b04d8b4acfcc851 namespace: convert open_tree_attr() to FD_PREPARE()
+c6c34614c72690260fa8b9fbd995344eb151e6c5 namespace: convert fsmount() to FD_PREPARE()
+11dfe5bae7a3447ac97354d89275a9ac2c4a3daa fanotify: convert fanotify_init() to FD_PREPARE()
+7a5c35183eeb7b71e7162a241da5ed1c732d4409 nsfs: convert open_namespace() to FD_PREPARE()
+1e8e918ee023be5ee6adf5ebbb656b5f0aff9b6d nsfs: convert ns_ioctl() to FD_PREPARE()
+d57ad8bcca6d4097908c37da366fa89ba48eab9a autofs: convert autofs_dev_ioctl_open_mountpoint() to FD_ADD()
+8f12d71dacf019549133766d9996a9fdcd32e8ed eventpoll: convert do_epoll_create() to FD_PREPARE()
+eda9250c3be7521f65f4f2189d823e28d1fb5c93 open: convert do_sys_openat2() to FD_ADD()
+4ef5e7be13bc5b0036cf6805242bb85fd6c2f05b signalfd: convert do_signalfd4() to FD_ADD()
+0017743ba44734b84f84d7790db5b6379b8776af timerfd: convert timerfd_create() to FD_ADD()
+6d6454e55b4c84edf4a7914dd0d7033a7b5d0839 userfaultfd: convert new_userfaultfd() to FD_PREPARE()
+40aa32ed2fa0f533b0839f2af596a4ca411dc0ee xfs: convert xfs_open_by_handle() to FD_PREPARE()
+3438627a55e10e90d536ad5ad394f30363d92b2c dma: convert dma_buf_fd() to FD_ADD()
+21f445821c0c812a55a9b600031c9fb29c8d6961 af_unix: convert unix_file_open() to FD_ADD()
+d67145b51ed0f07a9f68dfe82ec1543c930f2762 dma: convert sync_file_ioctl_merge() to FD_PREPARE()
+fe3e2fc8236bff97cfd5eb8e69350c0b8567bed2 exec: convert begin_new_exec() to FD_PREPARE()
+a8dc46d4c3038aaa6f6fee37e7a938bda1967abf ipc: convert do_mq_open() to FD_ADD()
+7218ddbf607d071748fcd7dbad20785d1b0f6052 bpf: convert bpf_iter_new_fd() to FD_PREPARE()
+ea66cee99ff4a3e43a9a2356e018473f5dc69872 bpf: convert bpf_token_create() to FD_PREPARE()
+ffc85015a3aea46ba384b6bcf5f8ffe9d7915159 memfd: convert memfd_create() to FD_ADD()
+1011f385f49212bdfcbfd1f31960fca4053a0095 secretmem: convert memfd_secret() to FD_ADD()
+214ab7edf5540b50a6ecf52ea6b21640a2fb57cd net/handshake: convert handshake_nl_accept_doit() to FD_PREPARE()
+535a9c9e1aca733df4cf144c3f1aa8f4f5e5de88 net/kcm: convert kcm_ioctl() to FD_PREPARE()
+859ceac7309085d718f2cb7c77ff2f882f22d2c4 net/sctp: convert sctp_getsockopt_peeloff_common() to FD_PREPARE()
+c1d8bc762d4b023da5fd737a42b32f427eb93bbd net/socket: convert sock_map_fd() to FD_ADD()
+feda8ef6d8e8f50bfd38701e66a694afcc12ca72 net/socket: convert __sys_accept4_file() to FD_ADD()
+b27548e6abcc0d771eda10b8ed5aaac5d53ef421 spufs: convert spufs_context_open() to FD_PREPARE()
+5f41b20c082df48d6d1120076d3a778f5be8e3af papr-hvpipe: convert papr_hvpipe_dev_create_handle() to FD_PREPARE()
+3d095001d804473b2c0bc265dbd727b1e6cbe7d2 spufs: convert spufs_gang_open() to FD_PREPARE()
+a640ffc1ea6ec2b2ba172f96c276f98116a872e8 pseries: convert papr_platform_dump_create_handle() to FD_ADD()
+c46d22698300dacef070e414cfbd88393d63a38a pseries: port papr_rtas_setup_file_interface() to FD_ADD()
+8459303c886151b71e8de08b73e384fd2bb7499c dma: port sw_sync_ioctl_create_fence() to FD_PREPARE()
+c2466393755ac0a59a489f8c320b13756691897b gpio: convert linehandle_create() to FD_PREPARE()
+12692f6b76899515f208e72a36fd04b30444c986 hv: convert mshv_ioctl_create_partition() to FD_ADD()
+c2d378132453fd94cec4e3cde29e768b698fb388 media: convert media_request_alloc() to FD_PREPARE()
+aa24d422e21f64f006988ad1f6a39013d7d085f5 ntsync: convert ntsync_obj_get_fd() to FD_PREPARE()
+d624684412e7f1530950d4ca9aa792d55a83c381 tty: convert ptm_open_peer() to FD_ADD()
+46f0c48f33b4b870a647687f974969345c7e2920 vfio: convert vfio_group_ioctl_get_device_fd() to FD_ADD()
+ce7194bb784d673e916315e1610d444d6dd03f10 file: convert replace_fd() to FD_PREPARE()
+8c84eebcd6ca8739b2217c5a3f9a599170504614 io_uring: convert io_create_mock_file() to FD_PREPARE()
+ca3f437d9769d181e6bb8ff279f605586a374bef kvm: convert kvm_arch_supports_gmem_init_shared() to FD_PREPARE()
+c1eefcd0e1d196098fba354af774561e24df3937 kvm: convert kvm_vcpu_ioctl_get_stats_fd() to FD_PREPARE()
+fd9bdc258e6208fb635c3d4a9980c143f77121f1 Merge patch series "file: FD_{ADD,PREPARE}()"
+267b769e8dfe1eefcd859d817588044697d54498 Merge branch 'vfs.fixes' into vfs.all
+241c1e91236ac563a7065ba1ef06398a9d355ddc Merge branch 'vfs-6.19.iomap' into vfs.all
+da96c3a2f0c55cb73263715ca7c3eb2aa04a6882 Merge branch 'vfs-6.19.misc' into vfs.all
+2fb372f0031ad29e95f5b67390a6fd2a4dda3b31 Merge branch 'vfs-6.19.inode' into vfs.all
+09b07024426b69424baa6048bb0864dad5226cb9 Merge branch 'vfs-6.19.writeback' into vfs.all
+fbcf11d2838ae1df75ef10856e31fbbdd001baa5 Merge branch 'namespace-6.19' into vfs.all
+47e556c3791dcc5cc27279fa357c1f5cd9343dcf Merge branch 'vfs-6.19.coredump' into vfs.all
+7abbe0c3bc2c3ef62235b1bb370a17cce3359007 Merge branch 'vfs-6.19.folio' into vfs.all
+79a58bab96bf68d5b2d702c8500abd2c47b39d5c Merge branch 'kernel-6.19.cred' into vfs.all
+035219161310bb7928124ad6fbc09bafba34d786 Merge branch 'vfs-6.19.fs_header' into vfs.all
+6d9b468ce12ae437642efe11e8ef61f48be8f722 Merge branch 'vfs-6.19.guards' into vfs.all
+bfa4aedc02523b48c8642570d478102fb7f08843 Merge branch 'vfs-6.19.minix' into vfs.all
+5d1eb038b7d7bc0262cb153f84a6cdec4b95ba16 Merge branch 'vfs-6.19.directory.delegations' into vfs.all
+fbbd598c04a6e0c65d1b455e1a4402b78dfd28f6 Merge branch 'vfs-6.19.directory.locking' into vfs.all
+f0d3b3ec3f48921bade523f6957385d05850f29a Merge branch 'vfs-6.19.ovl' into vfs.all
+833094aafdf23a419844f8304e6a677bb63d7f87 Merge branch 'vfs-6.19.autofs' into vfs.all
+4d8cb2518d6f29e24b1df6609ee32cab7e76aa7c Merge branch 'vfs-6.19.fd_prepare' into vfs.all
 
---===============4909097875264102407==--
+--===============2103823018784379353==--
