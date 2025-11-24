@@ -1,20 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
-Date: Mon, 24 Nov 2025 19:48:52 -0000
-Message-Id: <176401373214.2356621.16433713097864105586@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
+Date: Mon, 24 Nov 2025 19:49:35 -0000
+Message-Id: <176401377588.2357237.7757953748104555928@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/groeck/linux-staging
-user: groeck
+repo: pub/scm/linux/kernel/git/rafael/linux-pm
+user: rafael
 changes:
-  - ref: refs/heads/hwmon-next
-    old: edbce49ea6535a56aac3a5e211cf7af873d7221d
-    new: fe598ab37e472514e769d3eeb0456cddb3b8ba9f
+  - ref: refs/heads/bleeding-edge
+    old: ada0b9b7f183a4fde0e74de31dbaed63efefeda3
+    new: ef5d37d52c8cd76c7a436dff6798d610a991367a
     log: |
-         4faaa77d6b32347ea6af74d5fd2f34c3922aeee6 hwmon: (emc2103) Add locking to avoid TOCTOU
-         fe598ab37e472514e769d3eeb0456cddb3b8ba9f hwmon: (vt8231) Convert macros to functions to avoid TOCTOU
+         c964081d602f96f8811f99a938e5f8a164060bd7 ACPI: property: use min() instead of min_t()
+         4911d9b78a3c39abc2a0d12ee302381507437110 Merge branch 'acpi-property' into bleeding-edge
+         8974573ba45493af6120093cdf88ce5511aff935 ACPI: tools: pfrut: fix memory leak and resource leak in pfrut.c
+         ef5d37d52c8cd76c7a436dff6798d610a991367a Merge branch 'acpi-tools' into bleeding-edge
          
