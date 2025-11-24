@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7442153437533058736=="
+Content-Type: multipart/mixed; boundary="===============2331936596133047585=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mips/linux
-Date: Mon, 24 Nov 2025 09:17:20 -0000
-Message-Id: <176397584052.1516693.16269603678551539416@gitolite.kernel.org>
+Date: Mon, 24 Nov 2025 09:17:34 -0000
+Message-Id: <176397585426.1517000.9351799606449275984@gitolite.kernel.org>
 
---===============7442153437533058736==
+--===============2331936596133047585==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/mips/linux
 user: tsbogend
 changes:
-  - ref: refs/heads/mips-fixes
-    old: 14b46ba92bf547508b4a49370c99aba76cb53b53
+  - ref: refs/heads/mips-next
+    old: e9a6fb0bcdd7609be6969112f3fbfcce3b1d4a7c
     new: ac3fd01e4c1efce8f2c054cdeb2ddd2fc0fb150d
-    log: revlist-14b46ba92bf5-ac3fd01e4c1e.txt
+    log: revlist-e9a6fb0bcdd7-ac3fd01e4c1e.txt
 
---===============7442153437533058736==
+--===============2331936596133047585==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-14b46ba92bf5-ac3fd01e4c1e.txt
+Content-Disposition: attachment; filename=revlist-e9a6fb0bcdd7-ac3fd01e4c1e.txt
 
 404ee89b4008cf2130554dac2c64cd8412601356 pinctrl: mediatek: mt8196: align register base names to dt-bindings ones
 518919276c4119e34e24334003af70ab12477f00 pinctrl: mediatek: mt8189: align register base names to dt-bindings ones
@@ -334,6 +334,8 @@ e6ca8f533ed41129fcf052297718f417f021cc7d net: mdio: fix resource leak in mdiobus
 7fe0d21f5633af8c3fab9f0ef0706c6156623484 wifi: mac80211: skip rate verification for not captured PSDUs
 eaa7ce66c3e2ccda035022b5e8af09caabecd635 wifi: mac80211_hwsim: Fix possible NULL dereference
 c4e1ac09ee1c750890e36cb1f841f25518f23589 wifi: mwl8k: inject DSSS Parameter Set element into beacons if missing
+ebd729fef31620e0bf74cbf8a4c7fda73a2a4e7e MIPS: Malta: Fix !EVA SOC-it PCI MMIO
+09782e72eec451fa14d327595f86cdc338ebe53c mips: dts: econet: fix EN751221 core type
 0f559cd91e37b7978e4198ca2fbf7eb95df11361 KVM: arm64: Finalize ID registers only once per VM
 60e6489f8e3b086bd1130ad4450a2c112e863791 af_unix: Initialise scc_index in unix_add_edge().
 fd3ecda38fe0cb713d167b5477d25f6b350f0514 EDAC/altera: Handle OCRAM ECC enable after warm reset
@@ -657,6 +659,8 @@ dde3a5d0f4dce1d1a6095e6b8eeb59b75d28fb3b selinux: move avdcache to per-task secu
 201a32e61b5171e41e6e2839e5053e3ed0192b34 Merge tag 'drm-misc-fixes-2025-11-20' of https://gitlab.freedesktop.org/drm/misc/kernel into drm-fixes
 4e9fd472d1b951abda236cd4099088f8a97a05ac Merge tag 'amd-drm-fixes-6.18-2025-11-20' of https://gitlab.freedesktop.org/agd5f/linux into drm-fixes
 40b53db87c998b36649292a3b0daff4fa65cf481 Merge tag 'drm-xe-fixes-2025-11-21' of https://gitlab.freedesktop.org/drm/xe/kernel into drm-fixes
+9f048fa487409e364cf866c957cf0b0d782ca5a3 MIPS: mm: Prevent a TLB shutdown on initial uniquification
+14b46ba92bf547508b4a49370c99aba76cb53b53 MIPS: kernel: Fix random segmentation faults
 a48f822908982353c3256e35a089e9e7d0d61580 samples: work around glibc redefining some of our defines wrong
 c6d732c3bd41375d176447b043274396268aa6ab Merge tag 'drm-fixes-2025-11-21' of https://gitlab.freedesktop.org/drm/kernel
 141fbbecec0e71fa6b35d08c7d3dba2f9853a4ee lib/crypto: tests: Fix KMSAN warning in test_sha256_finup_2x()
@@ -680,4 +684,4 @@ e624f7377599d1f82190b17bdf7d8e735c0576ee Merge tag 'perf-urgent-2025-11-23' of g
 d0e88704d96ca0df77717320fec4ebabe42c8a94 Merge tag 'clk-fixes-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/clk/linux
 ac3fd01e4c1efce8f2c054cdeb2ddd2fc0fb150d Linux 6.18-rc7
 
---===============7442153437533058736==--
+--===============2331936596133047585==--
