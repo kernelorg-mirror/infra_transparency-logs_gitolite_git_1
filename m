@@ -1,47 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============5092382275915426746=="
+Content-Type: multipart/mixed; boundary="===============1064528015914851092=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-Date: Mon, 24 Nov 2025 17:06:59 -0000
-Message-Id: <176400401932.2213079.15458145627683884593@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
+Date: Mon, 24 Nov 2025 17:07:12 -0000
+Message-Id: <176400403219.2213324.15772742003344702564@gitolite.kernel.org>
 
---===============5092382275915426746==
+--===============1064528015914851092==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-user: ij
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/gregkh/char-misc
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/review-ilpo-next
-    old: 3c79c2e28a24a86199fa83bb80dc1a1c33f996c5
-    new: 5c14bff570dc5a756d90f7a5bc665cbbe604db8b
+  - ref: refs/heads/char-misc-linus
+    old: d6b9ce75e87c5f4bfbc0f7bba4f4f7cbf942f98a
+    new: 03bc4831ef064e114328dea906101cff7c6fb8b3
     log: |
-         3330367128f54142e5cfd568fc44c48da2036536 platform/x86/uniwill: Handle more WMI events required for TUXEDO devices
-         5c14bff570dc5a756d90f7a5bc665cbbe604db8b platform/x86/uniwill: Add TUXEDO devices
+         03bc4831ef064e114328dea906101cff7c6fb8b3 nvmem: layouts: fix nvmem_layout_bus_uevent
          
 
---===============5092382275915426746==
+--===============1064528015914851092==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1764004089 +0200
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86.git
-nonce 1764004016-dfae336d4f1d90d696879e93b94150d15786577c
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1764004103 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
+nonce 1764004029-53b7ffe2956887b9360286d69adf7fa742d79ff4
 
-3c79c2e28a24a86199fa83bb80dc1a1c33f996c5 5c14bff570dc5a756d90f7a5bc665cbbe604db8b refs/heads/review-ilpo-next
+d6b9ce75e87c5f4bfbc0f7bba4f4f7cbf942f98a 03bc4831ef064e114328dea906101cff7c6fb8b3 refs/heads/char-misc-linus
 -----BEGIN PGP SIGNATURE-----
 
-iHUEABYIAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCaSSQ+wAKCRBZrE9hU+XO
-MbGHAP9dSu+sJgEhNLuKmbCkSHpKF81/aW/BaTQWnOZrxmpm4QD9GbjUr1r5uK7q
-RMl8FX/trDw3tcmWqTxwHyp0l29R4Qo=
-=XvDB
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmkkkQcbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+xloP/i5L8mt/Q4hSRwtLCLte
+NZ+NpaxBVPFZGfDBIs0lvUauyADK6aWE7w8bvYd3rS8lT3azyhssqCioS1EFwfuZ
+ZEM+E/F7EVHmQeH5Pqw0vJiJ1y5tkakVCex3cJNLsdvzRTIobT5J6VtCGig3S8Xa
+yFRiSXt0wvZnj7dptsxSIpM2q2Fw5h+y4zSUV9gld/dO7I4jdKMgIjLUjFQjX54b
+BJF3vZkn9bspAZPlij2Hmviu9FHR0xi25kF6Aw+UB+Jg8z1wMwvmdDddIEIkm2Fc
+20VbLd6oASmRDOA/ulV5iFZwd45Q9tDWPqVWC8CffFHfK+bZeKqmlPyEmxSeqM1k
+3oQM7OyegQIvZBVkEwTNdRgLWNsekL8O7UQ4BCOT1pPTxJHRhzqtjZoBLVRP6FUk
+lHRCyKRE/wI+t39l9KM+ozesHxArS0zrARLEkvEaocMWouyu3q1raShHnoT2SfAz
+DlNyuA72jmSe0AKbDjCpbGLpSDUexdIYrT4OynZ6NvTD+7QNBnpb8Rjh4QfU3dko
+0D3tU1SWi0Yxj+Rg9VRX4nskYxAgf5tUzN7f69GVED2GPw8XXG0AweAC4VTZDIST
+4NICbladrbDZzWg4krmidE3ReEhRhuXE9g2oj8Uh7LSkFonCw5qoUM65meoHSCxL
+nXSrhE7SAsgohfEwTu0zYrhj
+=UCQv
 -----END PGP SIGNATURE-----
 
---===============5092382275915426746==--
+--===============1064528015914851092==--
