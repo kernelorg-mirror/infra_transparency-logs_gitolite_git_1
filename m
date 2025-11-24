@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============5199244766194313247=="
+Content-Type: multipart/mixed; boundary="===============3259961325000899013=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/leon/linux-rdma
-Date: Mon, 24 Nov 2025 11:30:06 -0000
-Message-Id: <176398380693.1914817.5291318046831521945@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mellanox/linux
+Date: Mon, 24 Nov 2025 11:30:22 -0000
+Message-Id: <176398382210.1915059.15918172430410619996@gitolite.kernel.org>
 
---===============5199244766194313247==
+--===============3259961325000899013==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/leon/linux-rdma
+repo: pub/scm/linux/kernel/git/mellanox/linux
 user: leon
 changes:
   - ref: refs/heads/master
@@ -20,7 +20,7 @@ changes:
     new: ac3fd01e4c1efce8f2c054cdeb2ddd2fc0fb150d
     log: revlist-6a23ae0a96a6-ac3fd01e4c1e.txt
 
---===============5199244766194313247==
+--===============3259961325000899013==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -317,4 +317,4 @@ e624f7377599d1f82190b17bdf7d8e735c0576ee Merge tag 'perf-urgent-2025-11-23' of g
 d0e88704d96ca0df77717320fec4ebabe42c8a94 Merge tag 'clk-fixes-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/clk/linux
 ac3fd01e4c1efce8f2c054cdeb2ddd2fc0fb150d Linux 6.18-rc7
 
---===============5199244766194313247==--
+--===============3259961325000899013==--
