@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jarkko/tpm2-policy-language
-Date: Mon, 24 Nov 2025 03:11:50 -0000
-Message-Id: <176395391004.1212743.3979050960099368330@gitolite.kernel.org>
+Date: Mon, 24 Nov 2025 03:12:27 -0000
+Message-Id: <176395394739.1213175.12327252971797614034@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/jarkko/tpm2-policy-language
 user: jarkko
 changes:
   - ref: refs/heads/main
-    old: 54a3518e48bdabd65f2f1d742559baaa06a7a289
-    new: 5ebbc068373523dfda03615a0c36e92ab1b9f3c3
+    old: 5ebbc068373523dfda03615a0c36e92ab1b9f3c3
+    new: a261154c308828c537e3a4055f412e9980077a6f
     log: |
-         5ebbc068373523dfda03615a0c36e92ab1b9f3c3 build: bump tpm2-crypto to 0.8.2
+         a261154c308828c537e3a4055f412e9980077a6f chore: bump version to 0.9.8
          
