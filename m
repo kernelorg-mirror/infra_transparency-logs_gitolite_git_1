@@ -1,22 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
-Date: Mon, 24 Nov 2025 19:49:35 -0000
-Message-Id: <176401377588.2357237.7757953748104555928@gitolite.kernel.org>
+Subject: post-receive: pub/scm/docs/man-pages/man-pages
+Date: Mon, 24 Nov 2025 19:53:51 -0000
+Message-Id: <176401403105.2361149.4215229973209438017@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rafael/linux-pm
-user: rafael
+repo: pub/scm/docs/man-pages/man-pages
+user: alx
 changes:
-  - ref: refs/heads/bleeding-edge
-    old: ada0b9b7f183a4fde0e74de31dbaed63efefeda3
-    new: ef5d37d52c8cd76c7a436dff6798d610a991367a
+  - ref: refs/heads/ip
+    old: e41abb3fd97f1180b3270e9fc7a412fdb3155317
+    new: d753746b79f067d389a7a21c95bd99d34b2a7c70
     log: |
-         c964081d602f96f8811f99a938e5f8a164060bd7 ACPI: property: use min() instead of min_t()
-         4911d9b78a3c39abc2a0d12ee302381507437110 Merge branch 'acpi-property' into bleeding-edge
-         8974573ba45493af6120093cdf88ce5511aff935 ACPI: tools: pfrut: fix memory leak and resource leak in pfrut.c
-         ef5d37d52c8cd76c7a436dff6798d610a991367a Merge branch 'acpi-tools' into bleeding-edge
+         e27eb75e8feaf40330c25144c89040bf9bcc7aa4 man/man2const/{IPPROTO_IP,IP_RECVTOS}.2const: Split IP_RECVTOS from IPPROTO_IP(2const)
+         d753746b79f067d389a7a21c95bd99d34b2a7c70 man/man2const/IP_RECVTOS.2const: Tweak after split
          
