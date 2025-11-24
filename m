@@ -1,23 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Mon, 24 Nov 2025 10:38:35 -0000
-Message-Id: <176398071583.1869120.9361282940433142925@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============3867385270512995014=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Mon, 24 Nov 2025 10:52:26 -0000
+Message-Id: <176398154601.1881231.13404272235382335336@gitolite.kernel.org>
+
+--===============3867385270512995014==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: peterz
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/objtool/core
-    old: 5cabd49ced8a968e200397715477d7c563009d3e
-    new: 81dbe4067f3c923b5771fd8c8d97cdcca62e401d
+  - ref: refs/heads/master
+    old: b83e6deb9b74a50655b27e8197ba9193dbbd5596
+    new: c2a99e1c441a5ba1990552f19b1fe4943c25a720
     log: |
-         afff4e5820e9a0d609740a83c366f3f0335db342 objtool: Function to get the name of a CPU feature
-         47793c0677e11bef7eb546d90e73f1d51e6eb22b objtool: Improve naming of group alternatives
-         59736d6418ace7537e10aaf9b28b671a100abe45 objtool: Compact output for alternatives with one instruction
-         5c2ae4f240fe1b3f6d96f54397d3a14f070c84c3 objtool: Add wide output for disassembly
-         81dbe4067f3c923b5771fd8c8d97cdcca62e401d objtool: Trim trailing NOPs in alternative
+         c2a99e1c441a5ba1990552f19b1fe4943c25a720 6.6-stable patches
          
+
+--===============3867385270512995014==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1763981616 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1763981542-62000c0ba079946201f372d3aac7fa0ebf61b731
+
+b83e6deb9b74a50655b27e8197ba9193dbbd5596 c2a99e1c441a5ba1990552f19b1fe4943c25a720 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmkkOTAbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+KXQP/0aFLvfKLPB1DVSRsHQr
+VsFW9rOO9029JamrCROImKxKkC5tug9zTyw9lCjRqe64Gh6sPnbAPJ2jATj1JXC8
+m2KE87i942RH5pcuqRZjiU6vuaBpIOg80cFj2fGEjMmFFSKgLCa2w4+SxO9BlAWg
+eTlA1NpGwXYS85LgsEtIB75GgEMjtTm2TZMP1ZCMAH14VpLTK3dmK4sop5E0y4Gk
+ZS2LliUx7Wlgc5BDzsyhbFsasGWFc5FbXiEEWObFYV6dw/pmTxYwsclK2Dm76q7b
+vBfbZeP8qIsuvIV7DoXO0/8E4xqtDnIyqDWSgORDeUkUP6iiR2kKP7src4RUBMUm
+8wSJM3CfjgWFVwNR/mHZOuzb+GNKSWdNXgPB0vqfm935eRJaxrYSZDcZE3uKVdnj
+EWPSfwXFccpF8jy7RW9pbV701WoQbWBPkFZ+13uNPTI1Ccj207rNJSfjdVt7fh1e
+Lj8uHX6B10YPj6jCzu7AkXsWBa53lyrRq0i0UGOLL88B7e4UhpW9MndBEqqvPh2E
+uyZaM7QYKmH7bOG9IMNsvhEfOW3G0TCzRpx8yK8UbIIzwNJ+wMTa8u9aWZnTSyoe
+FKB9a7uuUnA1okiaYdBQbHZvo4Yb9nkAqOXeHsEoqzxA+TVXSL+v3AM1os9HHxXX
+gc3Rt3I1b5Atc3pDatOXBcIX
+=curf
+-----END PGP SIGNATURE-----
+
+--===============3867385270512995014==--
