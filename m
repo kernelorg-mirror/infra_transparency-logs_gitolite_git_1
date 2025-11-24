@@ -1,23 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Mon, 24 Nov 2025 19:31:34 -0000
-Message-Id: <176401269462.2342510.7963619752817117423@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
+Date: Mon, 24 Nov 2025 19:42:46 -0000
+Message-Id: <176401336683.2351125.18225958371823065740@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: peterz
+repo: pub/scm/linux/kernel/git/rafael/linux-pm
+user: rafael
 changes:
-  - ref: refs/heads/core/bugs
-    old: ac662411b075f1fb6608cd0af4f0cb0c26d9b4b9
-    new: 860238af7a3348225de228dc0f33a7d631638333
+  - ref: refs/heads/bleeding-edge
+    old: 7992bcfd4c12211dfe2ea2ef909069e3efc43ab4
+    new: ada0b9b7f183a4fde0e74de31dbaed63efefeda3
     log: |
-         0a52d339d35df80d65706263dc55542dd795a115 x86/bug: Add BUG_FORMAT basics
-         4f1b701f24bea0900e349aa1c860db24ba0150aa x86/bug: Use BUG_FORMAT for DEBUG_BUGVERBOSE_DETAILED
-         5b472b6e5bd951b208fbbe373892891398eb5ad1 x86_64/bug: Implement __WARN_printf()
-         11bb4944f014d756f35261f5afcb346901ef1efa x86/bug: Implement WARN_ONCE()
-         860238af7a3348225de228dc0f33a7d631638333 x86_64/bug: Inline the UD1
+         c03aef8833597f184cc3439d2d336596f63bd709 PM: hibernate: Extra cleanup of comments in swap handling code
+         b39faeeeef5bc8404bfda2849facb397e3d6f1c7 Merge branch 'pm-sleep' into bleeding-edge
+         15bfdadd617ec5363802f7cb6a0385b6569f374e cpuidle: governors: teo: Add missing space to the description
+         ada0b9b7f183a4fde0e74de31dbaed63efefeda3 Merge branch 'pm-cpuidle' into bleeding-edge
          
