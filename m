@@ -1,59 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============7703821080516290607=="
+Content-Type: multipart/mixed; boundary="===============5453706542922411810=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/dhowells/linux-fs
-Date: Mon, 24 Nov 2025 09:49:45 -0000
-Message-Id: <176397778586.1754109.10203287882234143427@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/security/vulns
+Date: Mon, 24 Nov 2025 09:50:08 -0000
+Message-Id: <176397780888.1754570.16256397678618695403@gitolite.kernel.org>
 
---===============7703821080516290607==
+--===============5453706542922411810==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/dhowells/linux-fs
-user: dhowells
+repo: pub/scm/linux/security/vulns
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/keys-pqc
-    old: 0baca2aa9ee7559c68e1631bb8a9be65fc4a99dc
-    new: 860d83b88f8a97f8a3adb4fd8284b101e9713464
+  - ref: refs/heads/master
+    old: 59297f3d8fb3081d755a1d27b66809075b835762
+    new: 583952c25e715e5de997c9f56d3d80319f00a63a
     log: |
-         12f565fc99ac9652a8e84dcea989662b2c7b3705 crypto: Add ML-DSA crypto_sig support
-         0cd485cbffaa4dda9de64a4969c119f558e2baf3 pkcs7: Allow the signing algo to calculate the digest itself
-         9c003338dc48755e846db558e1c48cea16f1b5d7 pkcs7, x509: Add ML-DSA support
-         860d83b88f8a97f8a3adb4fd8284b101e9713464 modsign: Enable ML-DSA module signing
+         583952c25e715e5de997c9f56d3d80319f00a63a updates due to new stable kernel releases
          
-  - ref: refs/remotes/linus/HEAD
-    old: d13f3ac64efb868d09cb2726b1e84929afe90235
-    new: ac3fd01e4c1efce8f2c054cdeb2ddd2fc0fb150d
-    log: revlist-d13f3ac64efb-ac3fd01e4c1e.txt
-  - ref: refs/remotes/linus/master
-    old: d13f3ac64efb868d09cb2726b1e84929afe90235
-    new: ac3fd01e4c1efce8f2c054cdeb2ddd2fc0fb150d
-    log: revlist-d13f3ac64efb-ac3fd01e4c1e.txt
-  - ref: refs/tags/v6.18-rc7
-    old: 0000000000000000000000000000000000000000
-    new: c4508223b80908ac095e50f731e68c4387951f0f
 
---===============7703821080516290607==
+--===============5453706542922411810==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d13f3ac64efb-ac3fd01e4c1e.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-1dba74abf3e2fa4484b924d8ba6e54e64ebb8c82 clk: sunxi-ng: Mark A523 bus-r-cpucfg clock as critical
-5888533c6011de319c5f23ae147f1f291ce81582 clk: sunxi-ng: sun55i-a523-r-ccu: Mark bus-r-dma as critical
-2050280a4bb660b47f8cccf75a69293ae7cbb087 clk: sunxi-ng: sun55i-a523-ccu: Lower audio0 pll minimum rate
-a24074ca8840cf28fa50c40e957fdc50f29971b3 perf/x86/intel/uncore: Remove superfluous check
-3c493b524ffdb3fae7f0d9dc6b887359ce13cd34 Merge tag 'sunxi-clk-fixes-for-6.18' of https://git.kernel.org/pub/scm/linux/kernel/git/sunxi/linux into clk-fixes
-807e0d187da4c0b22036b5e34000f7a8c52f6e50 tick/sched: Fix bogus condition in report_idle_softirq()
-f1f96511b1c4c33e53f05909dd267878e0643a9a perf: Fix 0 count issue of cpu-clock
-7b5ab04f035f829ed6008e4685501ec00b3e73c9 timekeeping: Fix resource leak in tk_aux_sysfs_init() error paths
-20739af07383e6eb1ec59dcd70b72ebfa9ac362c timers: Fix NULL function pointer race in timer_shutdown_sync()
-e624f7377599d1f82190b17bdf7d8e735c0576ee Merge tag 'perf-urgent-2025-11-23' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-1af5c1d3a90246a15225fc7de0ed7e5f9b2f3f98 Merge tag 'timers-urgent-2025-11-23' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-d0e88704d96ca0df77717320fec4ebabe42c8a94 Merge tag 'clk-fixes-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/clk/linux
-ac3fd01e4c1efce8f2c054cdeb2ddd2fc0fb150d Linux 6.18-rc7
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1763977879 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
+nonce 1763977807-2b67f01e394595cb4dfa76617dcbc99aba2e6747
 
---===============7703821080516290607==--
+59297f3d8fb3081d755a1d27b66809075b835762 583952c25e715e5de997c9f56d3d80319f00a63a refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmkkKpcbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+UdQP/2djwMIKsE1JmwpBaB2a
+PcB9TK1GjjeG4h7XQP/gbQnvorTWX1kkk6TxTUB1ghswQ81uOzSpUWbNi3nXzjdt
+SXucufkK0M/+SX7nlrBi6FnuT1Ekh144pRsWDZCnb6tohF3E44uYXdIiUmF2pefA
+jHoEhq4/ssoLS+JcC38hKe5p2ib7vScn3xuEMNTa+olgNNy+/ebqSrs8IpepK360
+BGC1+/LAorMXrmosPKe7mNLMMFyoFKpFXpg9hkHmiZwMBzY2qBQj2WFGVTgYAgEr
+gwsBMs/OTMbkGtTZC4Y+WG+mRFjTBOYgTeHpTCmWtX+kW5h92SGG2a5ERGY94Hq4
+rB5O4ShAVt/+YUn7YZS9XEW8EyPK/qECgeIE6RMzoP5QkZ4d212hzSjmE5tzutcf
+8HkHPGHULu9wIlzdS9SQKoKVE8hrPYsiIKkAcM5pwzV2xA6Hn4ist7q7yFDqd+ZI
+cx/KAGei1/oFcL3hMmbt/8Du83o5CQvciib7KbwzUNba18t9JBcnjSxHzmsXQHnd
+KoU4MDY8+lAXIfA47rW03tGuPAXBmINHbwl4lZpQqG5c6+BonuzoJh7COyGnQyHL
+3Gh/HIh1mApIDwP7jPEQKyFi2aRk52Qldrt+LZmJ0tj1K/6qIWS9EQMRAUlTSsLO
+DaXjZYhsnzesxJud3QhlO6xk
+=X3eT
+-----END PGP SIGNATURE-----
+
+--===============5453706542922411810==--
