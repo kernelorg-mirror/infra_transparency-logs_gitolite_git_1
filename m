@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1533127029309964683=="
+Content-Type: multipart/mixed; boundary="===============7103728744764834546=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Mon, 24 Nov 2025 07:57:34 -0000
-Message-Id: <176397105484.1445529.1097024404853104605@gitolite.kernel.org>
+Date: Mon, 24 Nov 2025 07:57:45 -0000
+Message-Id: <176397106540.1445758.16937143388458942369@gitolite.kernel.org>
 
---===============1533127029309964683==
+--===============7103728744764834546==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/rdma/rdma
 user: leon
 changes:
-  - ref: refs/heads/wip/leon-for-next
-    old: 45085ad3b2a35868e6b6852657f892abb631b8a8
+  - ref: refs/heads/for-next
+    old: 6641fb4af3d007618f7185c0e4ef2e96fa8612d7
     new: 4022c7b6342a4d9a97e1e974e27efca95e79ed20
-    log: revlist-45085ad3b2a3-4022c7b6342a.txt
+    log: revlist-6641fb4af3d0-4022c7b6342a.txt
 
---===============1533127029309964683==
+--===============7103728744764834546==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-45085ad3b2a3-4022c7b6342a.txt
+Content-Disposition: attachment; filename=revlist-6641fb4af3d0-4022c7b6342a.txt
 
 d0da769c19d0b2da5146cad226e16ab7f282adde RDMA/bng_re: Add Auxiliary interface
 745065770c2dc9636f33ec5fb065ffb7d227f4ad RDMA/bng_re: Register and get the resources from bnge driver
@@ -47,4 +47,4 @@ a26c4c7cdb50247b8486f1caa1ea8ab5e5c37edf RDMA/bnxt_re: Pass correct flag for dma
 0f1f9b5e47cec229dc2127481807823b75e933b0 RDMA/core: Add new IB rate for XDR (8x) support
 4022c7b6342a4d9a97e1e974e27efca95e79ed20 RDMA/mlx5: Add support for 1600_8x lane speed
 
---===============1533127029309964683==--
+--===============7103728744764834546==--
