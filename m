@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
-Date: Mon, 24 Nov 2025 22:46:19 -0000
-Message-Id: <176402437930.2510853.11932977633319587033@gitolite.kernel.org>
+Date: Mon, 24 Nov 2025 23:00:38 -0000
+Message-Id: <176402523829.2522891.2038393280056165087@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,12 +11,13 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/pci/pci
 user: helgaas
 changes:
-  - ref: refs/heads/controller/dwc
-    old: f994ca5a3c812db6896ff04a5cf1fbd286d88799
-    new: b5e719f26107f4a7f82946dc5be92dceb9b443cb
+  - ref: refs/heads/err
+    old: 73f1f9b0a2c9fc054597a6c35e0add09afec9d8c
+    new: 5e09895b4063e9f57c6fc416cf30cd0c6ca7ec74
     log: |
-         bcc9a4a0bca3aee4303fa4a20302e57b24ac8f68 PCI: dwc: Fix wrong PORT_LOGIC_LTSSM_STATE_MASK definition
-         a00bba406b5a682764ecb507e580ca8159196aa3 PCI: dwc: Advertise L1 PM Substates only if driver requests it
-         07c99eac0bc2c1fe962e56d8b5dc5b1152d421bf PCI: tegra194: Remove unnecessary L1SS disable code
-         b5e719f26107f4a7f82946dc5be92dceb9b443cb PCI: dw-rockchip: Configure L1SS support
+         894f475f88e06c0f352c829849560790dbdedbe5 PCI/PM: Reinstate clearing state_saved in legacy and !PM codepaths
+         be9edde43d85d301a9b9d9678f34b3c111b85ead PCI/PM: Stop needlessly clearing state_saved on enumeration and thaw
+         a2f1e22390ac2ca7ac8d77aa0f78c068b6dd2208 PCI/ERR: Ensure error recoverability at all times
+         383d89699c5028de510a6667f674ed38585f77fc treewide: Drop pci_save_state() after pci_restore_state()
+         5e09895b4063e9f57c6fc416cf30cd0c6ca7ec74 Documentation: PCI: Amend error recovery doc with pci_save_state() rules
          
