@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/iommu/linux
-Date: Mon, 24 Nov 2025 18:46:38 -0000
-Message-Id: <176400999822.2303583.9766988443256784750@gitolite.kernel.org>
+Date: Mon, 24 Nov 2025 18:51:24 -0000
+Message-Id: <176401028460.2307950.7419474327811980999@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,9 +11,9 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/iommu/linux
 user: will
 changes:
-  - ref: refs/heads/arm/smmu/bindings
-    old: 45859c059c208a71eb9d45d3519593ba0a17c5ff
-    new: fe6262910cd3fefe8a23d5f59a701085f7adad6b
+  - ref: refs/heads/arm/smmu/updates
+    old: 617937d4d55337475a1d4fc7e3cee1cb3d2f0052
+    new: 5941f0e0c1e0be03ebc15b461f64208f5250d3d9
     log: |
-         fe6262910cd3fefe8a23d5f59a701085f7adad6b dt-bindings: iommu: qcom_iommu: Allow 'tbu' clock
+         5941f0e0c1e0be03ebc15b461f64208f5250d3d9 iommu/arm-smmu-v3: Fix error check in arm_smmu_alloc_cd_tables
          
