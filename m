@@ -1,73 +1,66 @@
-Content-Type: multipart/mixed; boundary="===============7487652222283171154=="
+Content-Type: multipart/mixed; boundary="===============3180623713712098966=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Mon, 24 Nov 2025 06:31:39 -0000
-Message-Id: <176396589999.1373957.5656935216567496911@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/devicetree/devicetree-rebasing
+Date: Mon, 24 Nov 2025 06:34:29 -0000
+Message-Id: <176396606942.1375915.7904313785298630900@gitolite.kernel.org>
 
---===============7487652222283171154==
+--===============3180623713712098966==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: mingo
+repo: pub/scm/linux/kernel/git/devicetree/devicetree-rebasing
+user: ijc
 changes:
   - ref: refs/heads/master
-    old: 733ff247bea52402acdd597c841af17d4f4c8ca7
-    new: 460e6601d14e897c547e290267bedc78539428ea
-    log: revlist-733ff247bea5-460e6601d14e.txt
-  - ref: refs/heads/tip/urgent
-    old: 85ccd62a04087abc2ee0baeb267dd8f22f3b5ed3
-    new: ac3fd01e4c1efce8f2c054cdeb2ddd2fc0fb150d
-    log: |
-         1dba74abf3e2fa4484b924d8ba6e54e64ebb8c82 clk: sunxi-ng: Mark A523 bus-r-cpucfg clock as critical
-         5888533c6011de319c5f23ae147f1f291ce81582 clk: sunxi-ng: sun55i-a523-r-ccu: Mark bus-r-dma as critical
-         2050280a4bb660b47f8cccf75a69293ae7cbb087 clk: sunxi-ng: sun55i-a523-ccu: Lower audio0 pll minimum rate
-         3c493b524ffdb3fae7f0d9dc6b887359ce13cd34 Merge tag 'sunxi-clk-fixes-for-6.18' of https://git.kernel.org/pub/scm/linux/kernel/git/sunxi/linux into clk-fixes
-         e624f7377599d1f82190b17bdf7d8e735c0576ee Merge tag 'perf-urgent-2025-11-23' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-         1af5c1d3a90246a15225fc7de0ed7e5f9b2f3f98 Merge tag 'timers-urgent-2025-11-23' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-         d0e88704d96ca0df77717320fec4ebabe42c8a94 Merge tag 'clk-fixes-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/clk/linux
-         ac3fd01e4c1efce8f2c054cdeb2ddd2fc0fb150d Linux 6.18-rc7
-         
-  - ref: refs/tags/v6.18-rc7
-    old: 0000000000000000000000000000000000000000
-    new: c4508223b80908ac095e50f731e68c4387951f0f
+    old: 3269d1383f31264bf0b56c1d009e07c6c3f146e9
+    new: e9f0786f8e53430231dcdb18b21a9f0b4bda56fd
+    log: revlist-3269d1383f31-e9f0786f8e53.txt
 
---===============7487652222283171154==
+--===============3180623713712098966==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-733ff247bea5-460e6601d14e.txt
+Content-Disposition: attachment; filename=revlist-3269d1383f31-e9f0786f8e53.txt
 
-d2ae86eda64601409c346d8cc9c806b3083e863c Merge branch into tip/master: 'core/bugs'
-e07e602834b6e46c8f24b0b80954449d73442c9a Merge branch into tip/master: 'core/core'
-ead4d949b36cb7fa240f69bfa55a6048e17f70fc Merge branch into tip/master: 'core/rseq'
-67fe3872f8f48d8e44b3fcac062c62c0d0336a91 Merge branch into tip/master: 'core/uaccess'
-0b91e6a21d8d1a7d1706636a2403619addaac4bc Merge branch into tip/master: 'irq/core'
-025b89608fae6a5c2df23480b489bc1016474b46 Merge branch into tip/master: 'irq/drivers'
-53ee2b0014200dec811eb51f8aee9bf16c39f089 Merge branch into tip/master: 'irq/msi'
-3a15cc6969a21545d8a2b18f76fa0b381961d43e Merge branch into tip/master: 'locking/core'
-db942f8e2dda7f914dcbab3c449a4a9f718c5a3b Merge branch into tip/master: 'locking/futex'
-6b410336f767498b72527baf893d4a9d56ae5b64 Merge branch into tip/master: 'perf/core'
-749eedb309d2763ab919d1f3eaec04ebcda04e7d Merge branch into tip/master: 'ras/core'
-e118932d8be3ac5b1de09e4951eae021cb50a2a4 Merge branch into tip/master: 'sched/core'
-8ab6dd7722f39ef0969285ed37bb67e28f064238 Merge branch into tip/master: 'timers/core'
-aa241ee13ba968bb84e6aeaeeaadc31e5ade1088 Merge branch into tip/master: 'x86/apic'
-2a655eba7c544d77f85d8adf86b382b2b13dc1fa Merge branch into tip/master: 'x86/boot'
-7d8a117d0d7c0cff715e886292b2ae38a8c74d23 Merge branch into tip/master: 'x86/bugs'
-7aba15d8f67d3a81e9d2514c5a3acf11a327b1d9 Merge branch into tip/master: 'x86/build'
-ea472fbe6de7ce018308364d920b1533527bad0f Merge branch into tip/master: 'x86/cache'
-fecfd83ebacf47916beb74676bd044ed4b5e2437 Merge branch into tip/master: 'x86/cleanups'
-c9d084ac89b30c1847938cf15d9ab3d8b5440a4a Merge branch into tip/master: 'x86/core'
-b54bc412b601f8366eac0467ee4aa9bde64e94f7 Merge branch into tip/master: 'x86/cpu'
-bff65c70771049224556a5526dd11f09cd47ea53 Merge branch into tip/master: 'x86/entry'
-6db09fef964739a747fe2b004cc06b3a6e4a3a00 Merge branch into tip/master: 'x86/microcode'
-93fc24f2ae9ce2955493811d93294c448e113b66 Merge branch into tip/master: 'x86/misc'
-ba35093c65b9f77486d7ead950942ad28c2b887b Merge branch into tip/master: 'x86/mm'
-665d16085749fe7b0c7ef349c3efc623d7ba9783 Merge branch into tip/master: 'x86/sev'
-460e6601d14e897c547e290267bedc78539428ea Merge branch into tip/master: 'x86/sgx'
+7d90aff77c4e3761b7d4d4d20303ba56919c67c1 arm64: dts: rockchip: Set correct pinctrl for I2S1 8ch TX on odroid-m1
+7b953f6f3a03933400396a67f8f933e2dba79ce7 arm64: dts: rockchip: Fix PCIe power enable pin for BigTreeTech CB2 and Pi2
+b2c138ea1248b65555a82372008e6d8f370962f4 arm64: dts: rockchip: Remove non-functioning CPU OPPs from RK3576
+7ad1203e7d2b724aa398bb13fe983ae6b2eda78d arm64: dts: rockchip: Drop 'rockchip,grf' prop from tsadc on rk3328
+d727c37c3ab7a858f1c8ae77ec7a0377af3937ca arm64: dts: rockchip: Make RK3588 GPU OPP table naming less generic
+e8de45bae3eb8b4aedf35c3a7975e178a13e6a37 arm64: tegra: Mark Jetson Xavier NX's PHY as a wakeup source
+d85a0ded19410e93260c2379250c53036936c8c8 ARM: dts: aspeed: fuji-data64: Enable mac3 controller
+b32a6608545575c05a0643ff117f819ca9a08d8e ARM: dts: imx6ull-engicam-microgea-rmm: fix report-rate-hz value
+25599cc3738d9b161f7bdf4c6cf8249fc136c10b ARM: dts: imx51-zii-rdu1: Fix audmux node names
+2759bbffd9d260409c296eb448e629cd89fc9c53 arm64: dts: rockchip: Fix indentation on rk3399 haikou demo dtso
+98469e86b44f28fbc5c4ba6f6bcc0c0193f292c3 dt-bindings: pinctrl: toshiba,visconti: Fix number of items in groups
+c568a74a3e4dd9cb31a3c73a31fe9b9e15b0a06c arm64: dts: imx8-ss-img: Avoid gpio0_mipi_csi GPIOs being deferred
+4ee9a255dc0622dd6f298aa2bd040740ddf6a1a8 arm64: dts: imx95: Fix MSI mapping for PCIe endpoint nodes
+322f4f061398fd0d8db740b2b3e29171eda28034 arm64: dts: imx8mp-kontron: Fix USB OTG role switching
+8b15ff90ce9335406671ab4539a73c0ecee6aaa4 arm64: dts: rockchip: include rk3399-base instead of rk3399 in rk3399-op1
+4151b923683318041e147d67007a7cc0aa9c7b82 arm64: dts: rockchip: Fix vccio4-supply on rk3566-pinetab2
+94b152a741e819815de4314c64788102c1918d2f ARM: dts: BCM53573: Fix address of Luxul XAP-1440's Ethernet PHY
+3fc465e4809dbc91e6c5efd033664d45e04d6885 arm64: dts: broadcom: Assign clock rates in eth node for RPi5
+bbb189420a69fc5ab2a2ccea2bc3b0caf91e7d4a arm64: dts: broadcom: bcm2712: rpi-5: Add ethernet0 alias
+244da4da7149fc70ea1d7bd0c4cac99643ec1580 arm64: dts: rockchip: Fix USB power enable pin for BTT CB2 and Pi2
+7871010daca0cca76d6ead3d1a4c15b6b81ff9fe mips: dts: econet: fix EN751221 core type
+894188faaba0f0205f832405bf685f272d7f4482 arm64: dts: rockchip: drop reset from rk3576 i2c9 node
+5499e2a55d2acb352efdf1e01c29a241a037759b arm64: dts: rockchip: disable HS400 on RK3588 Tiger
+8159bf6bc30773772c11500070f2a4badee20a9e arm64: dts: rockchip: fix PCIe 3.3V regulator voltage on orangepi-5
+54903efc29cc815a36d8ea411daee11a6bba2b28 Merge tag 'tegra-for-6.18-arm64-dt-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/tegra/linux into arm/fixes
+a33786d352e13ffce9c5326686f74bc8039f4aa8 Merge tag 'aspeed-6.18-fixes-0' of https://git.kernel.org/pub/scm/linux/kernel/git/bmc/linux into arm/fixes
+686012a81a6713c1285be17cc92b31ba40c8f236 Merge tag 'imx-fixes-6.18' of https://git.kernel.org/pub/scm/linux/kernel/git/shawnguo/linux into arm/fixes
+7243a2ca6f7939377378593833c72316fb29cddf Merge tag 'arm-soc/for-6.18/devicetree-fixes-part2' of https://github.com/Broadcom/stblinux into arm/fixes
+b78811c3f8ffdcd78bfa093cfbd087f906e0436c Merge tag 'arm-soc/for-6.18/devicetree-arm64-fixes-v2' of https://github.com/Broadcom/stblinux into arm/fixes
+cdcd6bfe37368b6cb3d199ff4d614352494a89e3 Input: rename INPUT_PROP_HAPTIC_TOUCHPAD to INPUT_PROP_PRESSUREPAD
+e0fd60dd80bf98fe3e76419b3f1177269df3008d Merge tag 'v6.18-rockchip-dtsfixes1' of git://git.kernel.org/pub/scm/linux/kernel/git/mmind/linux-rockchip into arm/fixes
+16355683758e0102a610432b1528546984d94b39 dt-bindings: pinctrl: xlnx,versal-pinctrl: Add missing unevaluatedProperties on '^conf' nodes
+1fa9bb6519ee88ce9be51538b4867a6cf30a2f6c Merge tag 'pinctrl-v6.18-2' of git://git.kernel.org/pub/scm/linux/kernel/git/linusw/linux-pinctrl
+c619d09bc2a65b21cae4396ccaca6d50f0efb85f Merge tag 'input-for-v6.18-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/dtor/input
+5abff9069f15399fc379e3435e9e3c04da3f5df0 Merge tag 'mips-fixes_6.18_1' of git://git.kernel.org/pub/scm/linux/kernel/git/mips/linux
+e9f0786f8e53430231dcdb18b21a9f0b4bda56fd Merge tag 'v6.18-rc7-dts-raw'
 
---===============7487652222283171154==--
+--===============3180623713712098966==--
