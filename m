@@ -1,22 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netfilter/nf-next
-Date: Mon, 24 Nov 2025 22:23:16 -0000
-Message-Id: <176402299605.2490138.7736511353314626169@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rcu/linux
+Date: Mon, 24 Nov 2025 22:27:20 -0000
+Message-Id: <176402324024.2494036.6022791552794726884@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netfilter/nf-next
-user: pablo
+repo: pub/scm/linux/kernel/git/rcu/linux
+user: frederic
 changes:
-  - ref: refs/heads/nf-next
-    old: aa7ece8adbea8cca27594a0f80c68f6cb708326d
-    new: f8156ef0fd8232055396ebf1e044fa06fb8bc388
+  - ref: refs/heads/rcu/srcu
+    old: 030d1d51539413ae3fc1eb03b31eba574f3a232e
+    new: 779b12a5d8ed6337fb5db1aa0fd8ba34da4d92c3
     log: |
-         b2e0016db6eb2574172e3f3791cd6311c60d9670 netfilter: nft_connlimit: add support to object update operation
-         059caa3a6e5c5515c132053b828693531ac5b1b4 selftests: netfilter: nft_flowtable.sh: Add the capability to send IPv6 TCP traffic
-         464620fde1d0522f86c6c847438153b1ec227d0a netfilter: ip6t_srh: fix UAPI kernel-doc comments format
-         f8156ef0fd8232055396ebf1e044fa06fb8bc388 netfilter: nf_tables: improve UAPI kernel-doc comments
+         d167e5453b73c97a73943b217d5e05ff763d3eda rcutorture: Make srcu{,d}_torture_init() announce the SRCU type
+         dfe79044417d8da4c378431c5da78dfe00ecff18 refscale: Exercise DEFINE_STATIC_SRCU_FAST() and init_srcu_struct_fast()
+         779b12a5d8ed6337fb5db1aa0fd8ba34da4d92c3 refscale: Add SRCU-fast-updown readers
          
