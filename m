@@ -1,20 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/andrea/ripgrep-edit
-Date: Mon, 24 Nov 2025 17:59:42 -0000
-Message-Id: <176400718242.2258500.1661660493755587508@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
+Date: Mon, 24 Nov 2025 18:00:36 -0000
+Message-Id: <176400723604.2260613.9464645365416089637@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/andrea/ripgrep-edit
-user: andrea
+repo: pub/scm/linux/kernel/git/pci/pci
+user: helgaas
 changes:
-  - ref: refs/heads/main
-    old: 48d3ed725f92f61395465ebe80280e94b561c53b
-    new: 9cca35a82d55256b56ae66db70f010e9fffe7ae6
+  - ref: refs/heads/controller/sky1
+    old: 2aeedd614dd166316b2d5f2e7a91c55c1faa968a
+    new: 108ea9c894c61436c2ec330bf452ab85ca4089f5
     log: |
-         3840cea988e90e8d1be01dc7e2ede4a371b347af Package license files
-         9cca35a82d55256b56ae66db70f010e9fffe7ae6 Initial packaging for Fedora Copr
+         e748f7511e0c697cc269cd97c61b28b7fc5aae09 PCI: cadence: Add support for High Perf Architecture (HPA) controller
+         a5c37798512b4c3c590cd5cda73444caab4cd4e0 dt-bindings: PCI: Add CIX Sky1 PCIe Root Complex bindings
+         60bddbf1ac6f9c55f59dd6f657cae0858579ffa7 PCI: sky1: Add PCIe host support for CIX Sky1
+         108ea9c894c61436c2ec330bf452ab85ca4089f5 MAINTAINERS: Add entry for CIX Sky1 PCIe driver
          
