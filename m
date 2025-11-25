@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Tue, 25 Nov 2025 18:37:55 -0000
-Message-Id: <176409587561.3569701.11616237707531024774@gitolite.kernel.org>
+Date: Tue, 25 Nov 2025 18:37:59 -0000
+Message-Id: <176409587998.3569885.7869410698126208653@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,6 +11,13 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/broonie/ci
 user: broonie
 changes:
-  - ref: refs/heads/20251124_johan_asoc_stm32_sai_fix_device_and_of_node_leaks_on_probe
-    old: 3a03de362975398b39d4c6df7325ccb982026a8f
-    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/spi-6.19
+    old: 84b7344c05c5e48db4cf75cd3e91aef8d553d88e
+    new: b442e7c4052fc7684350d1075e6e7655ef30bb57
+    log: |
+         e26ff429eaf10c4ef1bc3dabd9bf27eb54b7e1f4 ASoC: stm32: sai: fix device leak on probe
+         312ec2f0d9d1a5656f76d770bbf1d967e9289aa7 ASoC: stm32: sai: fix clk prepare imbalance on probe failure
+         23261f0de09427367e99f39f588e31e2856a690e ASoC: stm32: sai: fix OF node leak on probe
+         3a03de362975398b39d4c6df7325ccb982026a8f ASoC: stm32: sai: clean up probe error path
+         b442e7c4052fc7684350d1075e6e7655ef30bb57 ASoC: stm32: sai: fix device and OF node leaks on
+         
