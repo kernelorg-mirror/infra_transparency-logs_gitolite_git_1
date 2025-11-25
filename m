@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Tue, 25 Nov 2025 11:40:24 -0000
-Message-Id: <176407082427.3182705.13010575973352098527@gitolite.kernel.org>
+Date: Tue, 25 Nov 2025 11:47:40 -0000
+Message-Id: <176407126081.3187734.9361741730378828277@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/netdev/net
 user: pabeni
 changes:
   - ref: refs/heads/main
-    old: f98e3ca2e4306a0c9deba1769248b25859db8a3d
-    new: 82fca3d8a4a34667f01ec2351a607135249c9cff
+    old: 82fca3d8a4a34667f01ec2351a607135249c9cff
+    new: 081156ce13f8fa4e97b5148dc54d8c0ddf02117b
     log: |
-         82fca3d8a4a34667f01ec2351a607135249c9cff atm/fore200e: Fix possible data race in fore200e_open()
+         081156ce13f8fa4e97b5148dc54d8c0ddf02117b net: phy: mxl-gpy: fix link properties on USXGMII and internal PHYs
          
