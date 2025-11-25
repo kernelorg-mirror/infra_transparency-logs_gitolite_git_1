@@ -1,33 +1,33 @@
-Content-Type: multipart/mixed; boundary="===============8130607218055342842=="
+Content-Type: multipart/mixed; boundary="===============4382019656093137077=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/geert/renesas-drivers
-Date: Tue, 25 Nov 2025 09:05:56 -0000
-Message-Id: <176406155608.3033260.17486779206623343125@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/geert/renesas-devel
+Date: Tue, 25 Nov 2025 09:07:02 -0000
+Message-Id: <176406162294.3033842.16162937108337569162@gitolite.kernel.org>
 
---===============8130607218055342842==
+--===============4382019656093137077==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/geert/renesas-drivers
+repo: pub/scm/linux/kernel/git/geert/renesas-devel
 user: geert
 changes:
   - ref: refs/heads/renesas-r9a09g077-dt-binding-defs
-    old: 0dcfb6fcdd085bbfcdfdcf64a7d4a75c63c108af
+    old: 5293e8f2a854344ef9aba2391b44c7a437889ebb
     new: 7c0b8360a4e2892bc1748aca77c0825af82f3dcd
-    log: revlist-0dcfb6fcdd08-7c0b8360a4e2.txt
+    log: revlist-5293e8f2a854-7c0b8360a4e2.txt
   - ref: refs/tags/renesas-r9a09g077-dt-binding-defs-tag5
     old: 0000000000000000000000000000000000000000
     new: 675a7df70bd0f99f829ec30b220d651f38708680
 
---===============8130607218055342842==
+--===============4382019656093137077==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0dcfb6fcdd08-7c0b8360a4e2.txt
+Content-Disposition: attachment; filename=revlist-5293e8f2a854-7c0b8360a4e2.txt
 
 e51d05f523e43ce5d2bad957943a2b14f68078cd PCI: keystone: Use devm_request_irq() to free "ks-pcie-error-irq" on exit
 3a2a5b278fb8d4cdb3154b8e4a38352b945f96fd Merge tag 'vfs-6.18-rc1.mount' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
@@ -1054,4 +1054,4 @@ c04022dccb2f9cf2b1cfe65807149500d1fc080a Merge tag 'kbuild-fixes-6.18-1' of git:
 3a8660878839faadb4f1a6dd72c3179c1df56787 Linux 6.18-rc1
 7c0b8360a4e2892bc1748aca77c0825af82f3dcd dt-bindings: clock: renesas,r9a09g077/87: Add XSPI0/1 IDs
 
---===============8130607218055342842==--
+--===============4382019656093137077==--
