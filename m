@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4139887194034167507=="
+Content-Type: multipart/mixed; boundary="===============7841440844706944893=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Tue, 25 Nov 2025 17:54:18 -0000
-Message-Id: <176409325850.3529717.7484427745450687366@gitolite.kernel.org>
+Date: Tue, 25 Nov 2025 17:54:23 -0000
+Message-Id: <176409326347.3529878.13388038572136896992@gitolite.kernel.org>
 
---===============4139887194034167507==
+--===============7841440844706944893==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/40GbE
+  - ref: refs/heads/200GbE
     old: e2c20036a8879476c88002730d8a27f4e3c32d4b
     new: 61e628023d79386e93d2d64f8b7af439d27617a6
     log: revlist-e2c20036a887-61e628023d79.txt
 
---===============4139887194034167507==
+--===============7841440844706944893==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -77,4 +77,4 @@ b2e9821cff6c3c9ac107fce5327070f4462bf8a7 net: prefech skb->priority in __dev_xmi
 a6efc273ab8245722eee2150fa12cf75781dc410 net_sched: use qdisc_dequeue_drop() in cake, codel, fq_codel
 61e628023d79386e93d2d64f8b7af439d27617a6 Merge branch 'net_sched-speedup-qdisc-dequeue'
 
---===============4139887194034167507==--
+--===============7841440844706944893==--
