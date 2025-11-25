@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Tue, 25 Nov 2025 22:45:07 -0000
-Message-Id: <176411070765.3783814.1642508791505648138@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
+Date: Tue, 25 Nov 2025 22:46:49 -0000
+Message-Id: <176411080934.3784577.17761653592049028757@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/next-queue
+repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
   - ref: refs/heads/dev-queue
-    old: a284c7da838919a49fe031a783dc3156c36b8274
-    new: d3b972a04b5bf630b57b48a652e91f9860f18004
+    old: da95fefd257f95fc412f71c6f7dfddbbd75d7267
+    new: e2cedb8386f079af01cd659c22bb43f1acf4d1b1
     log: |
-         592d0be51051dff8063dbf3902ae30d9cf3585cc i40e: fix scheduling in set_rx_mode
-         d3b972a04b5bf630b57b48a652e91f9860f18004 igc: Restore default Qbv schedule when changing channels
+         bf43c571eb78e599c8eff0b09691111c813a5985 i40e: fix scheduling in set_rx_mode
+         e2cedb8386f079af01cd659c22bb43f1acf4d1b1 igc: Restore default Qbv schedule when changing channels
          
