@@ -1,83 +1,74 @@
-Content-Type: multipart/mixed; boundary="===============0925131947121030730=="
+Content-Type: multipart/mixed; boundary="===============2491422893183430427=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/git/git
-Date: Tue, 25 Nov 2025 01:32:28 -0000
-Message-Id: <176403434862.2655642.10895309612147507633@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sj/damo
+Date: Tue, 25 Nov 2025 01:33:15 -0000
+Message-Id: <176403439595.2657430.3933316984296752238@gitolite.kernel.org>
 
---===============0925131947121030730==
+--===============2491422893183430427==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/git/git
-user: junio
+repo: pub/scm/linux/kernel/git/sj/damo
+user: sj
 changes:
-  - ref: refs/heads/seen
-    old: 485dc0196e0743c4bb8f2e6e7905dfd3482f7254
-    new: f8f9bfac5861bdeaf437a1669d3672b56a4979f3
-    log: revlist-485dc0196e07-f8f9bfac5861.txt
-  - ref: refs/notes/amlog
-    old: 78abfde0033fabec40ff9d925a3cd6864fb21fba
-    new: 754d20fd63a06e8ae7ad721714d63e7dcef63d11
+  - ref: refs/heads/master
+    old: 03b830ceac72ddd59fabb292ef5f5d9df7c1bd42
+    new: 32c7ab3ca43175d320c482bbc3bfaa8038968a86
+    log: revlist-03b830ceac72-32c7ab3ca431.txt
+  - ref: refs/heads/next
+    old: cc4e007a6462ddbc0373bc26d5f698f7cd98abaf
+    new: 32c7ab3ca43175d320c482bbc3bfaa8038968a86
     log: |
-         45fe87290be256b2e4fbb8b0a8118e3a9221c906 Notes added by 'git commit --amend'
-         754d20fd63a06e8ae7ad721714d63e7dcef63d11 Notes added by 'git notes copy'
+         32c7ab3ca43175d320c482bbc3bfaa8038968a86 Update the version
          
+  - ref: refs/tags/v3.0.6
+    old: 0000000000000000000000000000000000000000
+    new: b92a97ffc0a7b3c98481f939ef29adbd950c9300
 
---===============0925131947121030730==
+--===============2491422893183430427==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-485dc0196e07-f8f9bfac5861.txt
+Content-Disposition: attachment; filename=revlist-03b830ceac72-32c7ab3ca431.txt
 
-df963f0df4756fa751bfbb39e104d004e3f7d60b config: fix suggestion for failed set of multi-valued option
-18bf67b7537f8ff0cd772847aa03f9cc319b1346 config: fix short help of unset flags
-ce1a5a22a5beefac8a52da518855b5aecc562874 config: really pretend missing :(optional) value is not there
-0bd16856ffb3968de73699ad0555d1fae6c45406 config: really treat missing optional path as not configured
-635e400bc724f975943f17a934ebfbc1276abd0f Merge branch 'en/ort-rename-another-fix' into jch
-9fd246244984af3c4dbd465aba9947a73990e96f Merge branch 'ad/blame-diff-algorithm' into jch
-15597894ea80d559442f15cf8439f1322f2edb9b Merge branch 'rs/xmkstemp-simplify' into jch
-35e55cfb38433598b347de58f967b6a17293ad7c Merge branch 'jk/test-mktemp-leakfix' into jch
-272538c56502f5b420aabd7961aff71cd765de46 Merge branch 'js/ci-github-setup-go-update' into jch
-d10365f67a66606d9859a63871ce78ad1a625a8c Merge branch 'js/mingw-assign-comma-fix' into jch
-efa4008f15a69bd9acb301f66234f7b70b05cae5 Merge branch 'js/cmake-libgit-fix' into jch
-275a39fb003b40463f8975b2ab9a7c97d13ce47b Merge branch 'js/wincred-get-credential-alloc-fix' into jch
-5551a2fc5a42953903d50745472bc86111cdc968 Merge branch 'pw/worktree-list-display-width-fix' into jch
-667b8cccfe768c7695127f93410e8e720b3ff7b6 Merge branch 'jk/ci-windows-meson-test-fix' into jch
-323c89655b93fb57eee2708c6d9c9b4afbb6e9cc Merge branch 'lo/repo-info-all' into jch
-d691e78ce478fc06c47974830f6434aa0d5cb7c2 Merge branch 'gf/win32-pthread-cond-wait-err' into jch
-1867c6d683fae47070cef3276b65fb812f1086a0 Merge branch 'ja/doc-synopsis-style' into jch
-442d07e8bd98fd8b59ef659cff909aed4a1572aa Merge branch 'jc/whitespace-incomplete-line' into jch
-22f8eb190d670b5abd76c00c30f6ce106af4d42e Merge branch 'je/doc-data-model' into jch
-31a1c876cdc1a457268c2382c8dafd92fd1b37fe Merge branch 'jk/asan-bonanza' into jch
-6a0db6e122529b472db5b99c1a33567ebd5a8167 ### match next
-2a062dc1514a23a1d98f30ea03322866432a485b Merge branch 'en/xdiff-cleanup-2' into jch
-51c77aaed2749b7d3ceaa5a76c5c39857c0cf50d Merge branch 'kn/fix-fetch-backfill-tag-with-batched-ref-updates' into jch
-1f3ca7cb41621c86ee236b254cdd71c6b40a4c0f Merge branch 'js/strip-scalar-too' into jch
-e2f985f7135d0656e49b09605af5bc201a09526d Merge branch 'js/ci-show-breakage-in-dockerized-jobs' into jch
-4a108dc2c860451c09df24567d4254c612e9bb8b Merge branch 'jc/optional-path' into jch
-624639b674c92ad66de41e447c660a7f7bc71a63 Merge branch 'kh/doc-committer-date-is-author-date' into jch
-1a68bcfe50aa2a7db82dee2518bdb9d770530db1 Merge branch 'rs/config-unset-opthelp-fix' into jch
-a9f3ffde9e1942046d0ce6c6404648232a9f0e3d Merge branch 'rs/config-set-multi-error-message-fix' into jch
-237e7aed033f7e844a47ce714840152ce3a3a749 Merge branch 'jc/exclude-with-gitignore' into seen
-0040be0740a885f2b442a9d62a6cc7bf5d174560 Merge branch 'ms/doc-worktree-side-by-side' into seen
-991ea26288704819dfe6c1dafbee8d70b926b993 Merge branch 'ps/history' into seen
-4a371f2179dacdb25d7ac9a5d20f9aee8cee3e53 Merge branch 'lc/rebase-trailer' into seen
-142b602ed8bd284e622b5ef2680bb1739c4483a7 Merge branch 'je/doc-reset' into seen
-6592b76795787a2962943d1e01458a14cb65e464 Merge branch 'jc/submodule-add' into seen
-f762444fe3e4fcc1dd546d606dcca56c0be78471 Merge branch 'cc/fast-import-strip-if-invalid' into seen
-94600f9b511d55dab32d89c15a2c94c711e45525 Merge branch 'ar/submodule-gitdir-tweak' into seen
-0a9e5e13b9ebb90a97aff7b1cd63e2a8fb4aaa5e Merge branch 'ps/object-source-management' into seen
-f532e05cfcc7231632336335dea450b64611b40e Merge branch 'ps/object-read-stream' into seen
-32cdc679da3539e61610f602af1a70eac9173ec1 Merge branch 'dw/config-global-list' into seen
-6d839ca3fc09708268030b4ca725fb9075c0de9a Merge branch 'gf/win32-pthread-cond-init' into seen
-95acaf213797524800d34fd4c08aeed12aae8142 Merge branch 'kn/ref-location' into seen
-7871fbac43982fc593deba7adf8fb3f5004bd2be ### CI
-331fe433fd40607f6d0a773407dbc762d38f0b28 Merge branch 'bc/sha1-256-interop-02' into seen
-c58b3e56bab5cedd1fc5d504f8134fb4bc2737ae Merge branch 'ar/run-command-hook' into seen
-f8f9bfac5861bdeaf437a1669d3672b56a4979f3 Merge branch 'sp/shallow-time-boundary' into seen
+95ae39aae130efed746f4a2c66f9c5fd6e59733a _damon: fix a typo: s/DAmonNrRegionsRange/DamonNrRegionsRange/
+0b08aac30e9dd55bfefbe9063236163df3340d46 damo_report_damon: add --format option
+fae0d86a71900a30e31255fd7069df4f9416b056 _damon_args: provide more information on wrong memcg path of DAMOS filters
+a6b113f83ce1a7a269091bd4c0222b8f6c32e930 release_note: update for next release
+32cae2bc209d470bf36a090df33cb3eea3f9090a TODO: add an item for git commit info based damo version
+6aedf119d794c4a7eaf8e05a0ef7728ef9a6dbb4 damo_version: handle 'damo version' command
+657953fa69e18e8cb962c16e4292d465e4dd9e9e damo_version: implement a function for reading the version
+008f0947cb531fdf1be2a0d066d3f859bf03fe14 packaging/setup: use damo_version.get_release_version()
+463c9fb2b33591330006ab13696125ec01ee4f37 damo_version: use get_release_version()
+1a7cd2c7ab8b5443d0c532df4760aef844eae10f _damo_sysinfo: use damo_version.get_release_version()
+d8e35cb7c0f7fdc46e576ffb85f98f4015106125 _damon: remove unused import of damo_version
+40390617118aa35e906e3b8339e6894243be68fa damo_version: implement a function for git-based version
+8c921ae09e44ed931d088eee0873c72c3ab3c6a7 _damo_sysinfo: use damo_version.get_real_version()
+2851e533e296f84b6721734328abb8f12fe5e047 damo_version: remove todo item for git-based version
+84beba82a931c7da340bcd2cd560cd5e46bf89e2 TODO,release_note: update for git-based damo version on sysinfo
+f95417f2a5d5f4153fcb46dd1aec91c062b207ff _damo_sysinfo: implement damon version inferrence function
+2972ad15fae1abd90552a8cfbb639ffe0cd0c0c3 damo_features: use SystemInfo.infer_damon_version()
+58741579e1637f3aee269188a89631aa9d8a1d1c damo_report_sysinfo: print inferred DAMON version
+68c389c428637d0767101cbf25e764a138dbb6fb damo_report_sysinfo: add --print option to control what to print
+68774bef3c747f6000cac61205d6e7ade5a9f070 damo_report_sysinfo: print only versions by default
+735a17404034d238193957adc22827663559a6d7 _damo_sysinfo: add three DAMON features for nr_snapshots patch series
+e94a2daf882042b7fbdca267490beb8e52187118 _damon_sysfs: detect damos/stat/nr_snapshots and damos/max_nr_snapshots features
+b8c066fb6e982d350074e0b2b6192eea2ccf74f5 _damo_sysinfo: support trace/damos_stat_after_apply_interval feature detection
+3b1c78bd1554ce9a563728b4f446407220917135 _damon: add DamosStats.nr_snapshots
+af5190254fa426356daa753a191752a6dd9f237c _damon/DamosStats.to_str(): support raw for qt_exceeds
+bdba6a7f599b8ffad22ec8895e3555723a7ebec9 _damon_sysfs: support nr_snapshots reading
+d678af471b0cac9468ef2bbef906a89f0fb2079d _damon: add DamosStats.max_nr_snapshots
+84ea5884060b31792898c42a60a1cb9eef788282 _damon_sysfs: support max_nr_snapshots reading
+627c30ef0f3fc8ed2cc2fc17e3d56cbbf280fdc1 _damon_sysfs: support max_nr_snapshots writing
+c8ef21f928bd544243d35397f6c64e87a5a82f93 _damon_args: add --damos_max_nr_snapshots
+3df973f8cf869abaa560b6434f4aa6a445514b10 release_note: update for [max_]nr_snapshots support
+7ed4bfbdcc096eaa4f600ba530c45cb9c8ba739b damo_report_damon: suppress --json help message
+cb6bb896ce95e9b8ab15d3e9ed57c568b925c82f damo_version: use '--git-dir' insted of '-C' for git
+cc4e007a6462ddbc0373bc26d5f698f7cd98abaf TODO: add an item for --perf_path handling with _damo_sysinfo
+32c7ab3ca43175d320c482bbc3bfaa8038968a86 Update the version
 
---===============0925131947121030730==--
+--===============2491422893183430427==--
