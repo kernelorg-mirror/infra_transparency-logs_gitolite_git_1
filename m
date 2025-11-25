@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1141711116357938019=="
+Content-Type: multipart/mixed; boundary="===============3807489674329698384=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Tue, 25 Nov 2025 16:55:23 -0000
-Message-Id: <176408972355.3480381.4126926414960252402@gitolite.kernel.org>
+Date: Tue, 25 Nov 2025 16:55:26 -0000
+Message-Id: <176408972607.3480484.14594507210712731148@gitolite.kernel.org>
 
---===============1141711116357938019==
+--===============3807489674329698384==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
+  - ref: refs/heads/10GbE
     old: a14602fcae17a3f1cb8a8521bedf31728f9e7e39
     new: 9780f535f8e0f20b4632b5a173ead71aa8f095d2
     log: revlist-a14602fcae17-9780f535f8e0.txt
 
---===============1141711116357938019==
+--===============3807489674329698384==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -46,4 +46,4 @@ f98e3ca2e4306a0c9deba1769248b25859db8a3d Merge branch 'net-dsa-microchip-fix-res
 081156ce13f8fa4e97b5148dc54d8c0ddf02117b net: phy: mxl-gpy: fix link properties on USXGMII and internal PHYs
 9780f535f8e0f20b4632b5a173ead71aa8f095d2 net: lan966x: Fix the initialization of taprio
 
---===============1141711116357938019==--
+--===============3807489674329698384==--
