@@ -1,24 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/s390/linux
-Date: Tue, 25 Nov 2025 15:12:36 -0000
-Message-Id: <176408355636.3383813.10664279734093557886@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/conor/linux
+Date: Tue, 25 Nov 2025 15:14:05 -0000
+Message-Id: <176408364551.3385238.2609332303737432065@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/s390/linux
-user: heiko
+repo: pub/scm/linux/kernel/git/conor/linux
+user: conor
 changes:
-  - ref: refs/heads/for-next
-    old: bd46534c5026a51ec345a9d6bf0d543b9ff4b9ae
-    new: 276d86f70d3da43079b1cddda1e6a13a3cd09486
+  - ref: refs/heads/tsu
+    old: 91333932635645503d24890a875e2a1a0ca8d0a9
+    new: ee448f4b363d21bc51b5945c31c12fc7a8810df4
     log: |
-         5e811b922ec91cef7b6b2647e93b0c64e626251b s390/vdso: Use common STABS_DEBUG and DWARF_DEBUG macros
-         b3bdfdf1f93c38ea54b93421efc413e91e61f6b3 s390: Rename head64.S to head.S
-         c0087d807ae86cc82cc356e366d2dccf0e3bb225 s390/vdso: Rename vdso64 to vdso
-         509c34924d5a89a73c1470e9265be86baffd1286 s390/vdso: Get rid of -m64 flag handling
-         2f909255c64d552afc8656ebb5751ce2cd758f6a Merge branch 'fixes' into for-next
-         276d86f70d3da43079b1cddda1e6a13a3cd09486 Merge branch 'features' into for-next
+         ee448f4b363d21bc51b5945c31c12fc7a8810df4 net: macb: clean up tsu clk rate acquisition
          
