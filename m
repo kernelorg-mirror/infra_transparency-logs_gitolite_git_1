@@ -1,25 +1,50 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/wsa/linux
-Date: Tue, 25 Nov 2025 15:04:20 -0000
-Message-Id: <176408306066.3375723.11926370534156383423@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
+Date: Tue, 25 Nov 2025 15:09:34 -0000
+Message-Id: <176408337449.3380393.15130987392069960744@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/wsa/linux
-user: wsa
+repo: pub/scm/linux/kernel/git/rafael/linux-pm
+user: rafael
 changes:
-  - ref: refs/heads/renesas/x5h/mfis-mfd-experimental
-    old: d69811bf5db4de882861764ef0d2055b0ba58b90
-    new: 89d1b016f914d569a4fb279313f3ceb223aa7e15
+  - ref: refs/heads/bleeding-edge
+    old: 02ed59395996e849338df68e1302d69e66314051
+    new: 790d789d1d3595e339a899c12e8f26d2edc6127c
     log: |
-         ba5dde68d3773ba782f68ae5fcdb92b0bc1610e9 Revert "FIXME: firmware: arm_scmi: Print shortname-to-ID mapping"
-         7164e5c3ebbcefa2f6e221abc7b2180b4607ae81 WIP DT regmap
-         11cd20476660f8e7c057a4c06933fdb0d138b39b MFD regmap WIP
-         07a479132c3b6be4b207dab095e42fd64ec37673 WIP mbox
-         62dfd26376bfb6d6b1739291bda2c442db4287ad mailbox hack
-         77814a81b1fa60bf09c125e3f1aa9773ceffc38c WIP hwspinlock
-         89d1b016f914d569a4fb279313f3ceb223aa7e15 HACK: scif: abuse to test spinlocks
+         43ff36c4a5a574ee83b4b0d3f3d74f09a3a8c2d3 Revert "ACPI: processor: idle: Optimize ACPI idle driver registration"
+         f06ad625deff6c704a9d9ff8d003a880ec5d380f Merge branch 'acpi-processor-fixes' into fixes
+         4b9e2641430f627975edd6813efac5fd5eb56d38 Merge branches 'pm-sleep' and 'pm-cpuidle' into linux-next
+         3af5b5715f84722d9e9ddfbfe0bdd5c24842ca2e Merge branches 'acpi-property' and 'acpi-tools' into linux-next
+         790d789d1d3595e339a899c12e8f26d2edc6127c Merge branch 'fixes' into linux-next
+         
+  - ref: refs/heads/fixes
+    old: dec961b92e70ce34fb169cca5ce8cc8c5944e79e
+    new: f06ad625deff6c704a9d9ff8d003a880ec5d380f
+    log: |
+         43ff36c4a5a574ee83b4b0d3f3d74f09a3a8c2d3 Revert "ACPI: processor: idle: Optimize ACPI idle driver registration"
+         f06ad625deff6c704a9d9ff8d003a880ec5d380f Merge branch 'acpi-processor-fixes' into fixes
+         
+  - ref: refs/heads/linux-next
+    old: 02ed59395996e849338df68e1302d69e66314051
+    new: 790d789d1d3595e339a899c12e8f26d2edc6127c
+    log: |
+         43ff36c4a5a574ee83b4b0d3f3d74f09a3a8c2d3 Revert "ACPI: processor: idle: Optimize ACPI idle driver registration"
+         f06ad625deff6c704a9d9ff8d003a880ec5d380f Merge branch 'acpi-processor-fixes' into fixes
+         4b9e2641430f627975edd6813efac5fd5eb56d38 Merge branches 'pm-sleep' and 'pm-cpuidle' into linux-next
+         3af5b5715f84722d9e9ddfbfe0bdd5c24842ca2e Merge branches 'acpi-property' and 'acpi-tools' into linux-next
+         790d789d1d3595e339a899c12e8f26d2edc6127c Merge branch 'fixes' into linux-next
+         
+  - ref: refs/heads/testing
+    old: 02ed59395996e849338df68e1302d69e66314051
+    new: 790d789d1d3595e339a899c12e8f26d2edc6127c
+    log: |
+         43ff36c4a5a574ee83b4b0d3f3d74f09a3a8c2d3 Revert "ACPI: processor: idle: Optimize ACPI idle driver registration"
+         f06ad625deff6c704a9d9ff8d003a880ec5d380f Merge branch 'acpi-processor-fixes' into fixes
+         4b9e2641430f627975edd6813efac5fd5eb56d38 Merge branches 'pm-sleep' and 'pm-cpuidle' into linux-next
+         3af5b5715f84722d9e9ddfbfe0bdd5c24842ca2e Merge branches 'acpi-property' and 'acpi-tools' into linux-next
+         790d789d1d3595e339a899c12e8f26d2edc6127c Merge branch 'fixes' into linux-next
          
