@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1497215560429889310=="
+Content-Type: multipart/mixed; boundary="===============6684905039968578370=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Tue, 25 Nov 2025 01:02:22 -0000
-Message-Id: <176403254289.2629911.5322270596268387972@gitolite.kernel.org>
+Date: Tue, 25 Nov 2025 01:02:24 -0000
+Message-Id: <176403254416.2630006.15713381581869941714@gitolite.kernel.org>
 
---===============1497215560429889310==
+--===============6684905039968578370==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/mm-unstable
-    old: 1f1edd95f9231ba58a1e535b10200cb1eeaf1f67
-    new: d35f85cae927a6a4b9d7af2dabd68d973a48d645
-    log: revlist-1f1edd95f923-d35f85cae927.txt
+  - ref: refs/heads/mm-stable
+    old: c5c67c1de357a67374cbfea16eda846d5daaa581
+    new: 84a8d467cc426eb3c9eb34092423dcc54493dd7e
+    log: revlist-c5c67c1de357-84a8d467cc42.txt
 
---===============1497215560429889310==
+--===============6684905039968578370==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1f1edd95f923-d35f85cae927.txt
+Content-Disposition: attachment; filename=revlist-c5c67c1de357-84a8d467cc42.txt
 
 f5e31a196edcd1f1bb44f26b6f9299b9a5b9b3c4 mm: swap: remove duplicate nr_swap_pages decrement in get_swap_page_of_type()
 de8798965fd0d9a6c47fc2ac57767ec32de12b49 mm/memfd: fix information leak in hugetlb folios
@@ -121,14 +121,5 @@ f1bae15c6ad59870eca7824c66e40ee7469ee0fd mm, swap: remove redundant comment for 
 4c239d5f594e81f05a78d7a6c8b80a039e393970 mm: swap: change swap_alloc_slow() to void
 b7dd80f8f92848fa26518119f2c378dad8b7c0da mm: swap: remove scan_swap_map_slots() references from comments
 84a8d467cc426eb3c9eb34092423dcc54493dd7e pagemap: update BUDDY flag documentation
-99d6c386549763842b9f8fe4b5867de51c01efe6 kernel/kexec: change the prototype of kimage_map_segment()
-3fc7196f07e262c23a714ce208335f6338a58261 kernel/kexec: fix IMA when allocation happens in CMA area
-fb88fad7a953b8cb23701c6d4ff7a1c27088a704 mm/huge_memory: Fix initialization of huge zero folio
-8e8163165c157d7c18ca96e204725bab28a6720e foo
-99a6246fa1a37cec7a01a0cb38c8b2a5272c8be6 mm/vmscan: skip increasing kswapd_failures when reclaim was boosted
-c0fc66e6e430477f68322f8ac7b1e6d0897a3001 mm/huge_memory: change folio_split_supported() to folio_check_splittable()
-2d2facea9361e552a757c2a8e17e9464cda8ab0a mm/huge_memory: replace can_split_folio() with direct refcount calculation
-a6789c75489d1aca4dda7a5e0da50d723574c666 mm/huge_memory: make min_order_for_split() always return an order
-d35f85cae927a6a4b9d7af2dabd68d973a48d645 mm/huge_memory: fix folio split stats counting
 
---===============1497215560429889310==--
+--===============6684905039968578370==--
