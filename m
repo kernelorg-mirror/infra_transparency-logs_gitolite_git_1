@@ -1,20 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/tpm2-protocol
-Date: Tue, 25 Nov 2025 17:04:49 -0000
-Message-Id: <176409028958.3487723.4510979357456982682@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Tue, 25 Nov 2025 17:10:13 -0000
+Message-Id: <176409061302.3493673.16529900821668846710@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/tpm2-protocol
-user: jarkko
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/main
-    old: fa1e8facb24b689341fb3d536e2461dd965a4ff2
-    new: a95046e7583d5dc14179bfe4c9fdcbcd4ff16e1e
-    log: |
-         e2fc34765aff8bc0f76941c5ff3033f63caaf2d6 fix: use checked_add in write_bytes
-         a95046e7583d5dc14179bfe4c9fdcbcd4ff16e1e fix(marshal): use checked_add to sum up the lengths
-         
+  - ref: refs/heads/v6_20251125_haibo_chen_add_support_for_nxp_xspi
+    old: 0000000000000000000000000000000000000000
+    new: 4105df382bd80d3ea5431c6065afe270a55a6dda
