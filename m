@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/tpm2-vtpm
-Date: Tue, 25 Nov 2025 01:47:16 -0000
-Message-Id: <176403523607.2670457.13179232030602198312@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sj/damo
+Date: Tue, 25 Nov 2025 01:48:51 -0000
+Message-Id: <176403533140.2671776.13057971476536547303@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/tpm2-vtpm
-user: jarkko
+repo: pub/scm/linux/kernel/git/sj/damo
+user: sj
 changes:
-  - ref: refs/heads/main
-    old: abd839a413774cf4b6b240d34498e7118715d998
-    new: 750e275d859c3e60d82cf0b6454d2ae7abcb3f88
+  - ref: refs/heads/next
+    old: 1c32bc27ec5231e6c32ec269b2655ee415e6fc57
+    new: b5fb5e57ba15658f04a5ba6a5157af3060c3ea2f
     log: |
-         750e275d859c3e60d82cf0b6454d2ae7abcb3f88 fix(error): remove vtpm prefix from HandleNotFound
+         b5fb5e57ba15658f04a5ba6a5157af3060c3ea2f TODO: add an item for --perf_path handling with _damo_sysinfo
          
