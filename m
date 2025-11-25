@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Tue, 25 Nov 2025 22:31:27 -0000
-Message-Id: <176410988733.3769094.1397100685952612287@gitolite.kernel.org>
+Date: Tue, 25 Nov 2025 22:31:40 -0000
+Message-Id: <176410990088.3769371.17859522506999741721@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: andrii
 changes:
   - ref: refs/heads/master
-    old: 590699d85823f38b74d52a0811ef22ebb61afddc
-    new: 44bf4611827b7477db188ec932b827e1fabd3ee1
+    old: 44bf4611827b7477db188ec932b827e1fabd3ee1
+    new: f2cb0660ac99b093d833ddff46a0d046396d3d4c
     log: |
-         44bf4611827b7477db188ec932b827e1fabd3ee1 docs: bpf: map_array: Specify BPF_MAP_TYPE_PERCPU_ARRAY value size limit
+         f2cb0660ac99b093d833ddff46a0d046396d3d4c selftests/bpf: Call bpf_get_numa_node_id() in trigger_count()
          
