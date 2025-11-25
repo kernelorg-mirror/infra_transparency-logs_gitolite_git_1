@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/conor/linux
-Date: Tue, 25 Nov 2025 15:14:05 -0000
-Message-Id: <176408364551.3385238.2609332303737432065@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Tue, 25 Nov 2025 15:17:17 -0000
+Message-Id: <176408383775.3388378.802663745122525892@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/conor/linux
-user: conor
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/tsu
-    old: 91333932635645503d24890a875e2a1a0ca8d0a9
-    new: ee448f4b363d21bc51b5945c31c12fc7a8810df4
-    log: |
-         ee448f4b363d21bc51b5945c31c12fc7a8810df4 net: macb: clean up tsu clk rate acquisition
-         
+  - ref: refs/heads/filea9ChVL
+    old: 0000000000000000000000000000000000000000
+    new: 80339b3823bb76d383c82186b55ac836fed3f586
