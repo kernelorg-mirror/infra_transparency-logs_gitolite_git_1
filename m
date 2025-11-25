@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8339381362548053063=="
+Content-Type: multipart/mixed; boundary="===============1497215560429889310=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Tue, 25 Nov 2025 01:02:21 -0000
-Message-Id: <176403254157.2629780.16057454364365300208@gitolite.kernel.org>
+Date: Tue, 25 Nov 2025 01:02:22 -0000
+Message-Id: <176403254289.2629911.5322270596268387972@gitolite.kernel.org>
 
---===============8339381362548053063==
+--===============1497215560429889310==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/mm-new
-    old: 1fa8c5771a65fc5a56f6e39825561cdc8fa91e14
-    new: 4c5609ae9427bc266a9463a4fbf97e6612a0c419
-    log: revlist-1fa8c5771a65-4c5609ae9427.txt
+  - ref: refs/heads/mm-unstable
+    old: 1f1edd95f9231ba58a1e535b10200cb1eeaf1f67
+    new: d35f85cae927a6a4b9d7af2dabd68d973a48d645
+    log: revlist-1f1edd95f923-d35f85cae927.txt
 
---===============8339381362548053063==
+--===============1497215560429889310==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1fa8c5771a65-4c5609ae9427.txt
+Content-Disposition: attachment; filename=revlist-1f1edd95f923-d35f85cae927.txt
 
 f5e31a196edcd1f1bb44f26b6f9299b9a5b9b3c4 mm: swap: remove duplicate nr_swap_pages decrement in get_swap_page_of_type()
 de8798965fd0d9a6c47fc2ac57767ec32de12b49 mm/memfd: fix information leak in hugetlb folios
@@ -130,6 +130,5 @@ c0fc66e6e430477f68322f8ac7b1e6d0897a3001 mm/huge_memory: change folio_split_supp
 2d2facea9361e552a757c2a8e17e9464cda8ab0a mm/huge_memory: replace can_split_folio() with direct refcount calculation
 a6789c75489d1aca4dda7a5e0da50d723574c666 mm/huge_memory: make min_order_for_split() always return an order
 d35f85cae927a6a4b9d7af2dabd68d973a48d645 mm/huge_memory: fix folio split stats counting
-4c5609ae9427bc266a9463a4fbf97e6612a0c419 mm/page_alloc: optimize lowmem_reserve max lookup using its semantic monotonicity
 
---===============8339381362548053063==--
+--===============1497215560429889310==--
