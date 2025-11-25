@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4782946573583329664=="
+Content-Type: multipart/mixed; boundary="===============1912348983179006630=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Tue, 25 Nov 2025 14:20:46 -0000
-Message-Id: <176408044687.3338669.1122191269571532174@gitolite.kernel.org>
+Date: Tue, 25 Nov 2025 14:20:58 -0000
+Message-Id: <176408045808.3338997.6968833989898977431@gitolite.kernel.org>
 
---===============4782946573583329664==
+--===============1912348983179006630==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/rdma/rdma
 user: jgg
 changes:
-  - ref: refs/heads/wip/for-testing
-    old: 2d9d2f24649e7f651ac7b9dff5a580f924a19eb4
+  - ref: refs/heads/wip/jgg-for-rc
+    old: 85fe9f565d2d5af95ac2bbaa5082b8ce62b039f5
     new: ac3fd01e4c1efce8f2c054cdeb2ddd2fc0fb150d
-    log: revlist-2d9d2f24649e-ac3fd01e4c1e.txt
+    log: revlist-85fe9f565d2d-ac3fd01e4c1e.txt
 
---===============4782946573583329664==
+--===============1912348983179006630==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2d9d2f24649e-ac3fd01e4c1e.txt
+Content-Disposition: attachment; filename=revlist-85fe9f565d2d-ac3fd01e4c1e.txt
 
 dc131bcd8d9219f7da533918abcb0d32951b7702 ACPI: MRRM: Check revision of MRRM table
 543d35004007a06ef247acf2fc55efa8388aa741 ACPI: SPCR: Check for table version when using precise baudrate
@@ -1051,4 +1051,4 @@ e624f7377599d1f82190b17bdf7d8e735c0576ee Merge tag 'perf-urgent-2025-11-23' of g
 d0e88704d96ca0df77717320fec4ebabe42c8a94 Merge tag 'clk-fixes-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/clk/linux
 ac3fd01e4c1efce8f2c054cdeb2ddd2fc0fb150d Linux 6.18-rc7
 
---===============4782946573583329664==--
+--===============1912348983179006630==--
