@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============8892210951308392367=="
+Content-Type: multipart/mixed; boundary="===============7895243794622477943=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Tue, 25 Nov 2025 14:03:53 -0000
-Message-Id: <176407943389.3321850.13797275661241702174@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jgg/iommufd
+Date: Tue, 25 Nov 2025 14:04:10 -0000
+Message-Id: <176407945019.3322362.13068276385249000923@gitolite.kernel.org>
 
---===============8892210951308392367==
+--===============7895243794622477943==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rdma/rdma
+repo: pub/scm/linux/kernel/git/jgg/iommufd
 user: jgg
 changes:
   - ref: refs/heads/linus
@@ -23,7 +23,7 @@ changes:
     old: 0000000000000000000000000000000000000000
     new: c4508223b80908ac095e50f731e68c4387951f0f
 
---===============8892210951308392367==
+--===============7895243794622477943==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -71,4 +71,4 @@ e624f7377599d1f82190b17bdf7d8e735c0576ee Merge tag 'perf-urgent-2025-11-23' of g
 d0e88704d96ca0df77717320fec4ebabe42c8a94 Merge tag 'clk-fixes-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/clk/linux
 ac3fd01e4c1efce8f2c054cdeb2ddd2fc0fb150d Linux 6.18-rc7
 
---===============8892210951308392367==--
+--===============7895243794622477943==--
