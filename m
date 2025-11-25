@@ -1,46 +1,73 @@
-Content-Type: multipart/mixed; boundary="===============3370053268981813800=="
+Content-Type: multipart/mixed; boundary="===============5532306418890096744=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
-Date: Tue, 25 Nov 2025 13:11:38 -0000
-Message-Id: <176407629886.3277524.14065910314461553393@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vbabka/slab
+Date: Tue, 25 Nov 2025 13:13:06 -0000
+Message-Id: <176407638687.3278497.8618951591637011898@gitolite.kernel.org>
 
---===============3370053268981813800==
+--===============5532306418890096744==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/brgl/linux
-user: brgl
+repo: pub/scm/linux/kernel/git/vbabka/slab
+user: vbabka
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/gpio/for-next
-    old: 194832dcb13b0d02fce0df887235b7e6d1ef0121
-    new: 23ac52a4a2dceb704d8dc1674abb8beefd93bf1a
-    log: revlist-194832dcb13b-23ac52a4a2dc.txt
+  - ref: refs/heads/slab/for-6.19/memdesc_prep
+    old: 6ce774837d4dfe4748d0dc156e625d5e27636913
+    new: b55590558ff7c66c4a494af8ea08999c27594bc8
+    log: revlist-6ce774837d4d-b55590558ff7.txt
 
---===============3370053268981813800==
+--===============5532306418890096744==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-194832dcb13b-23ac52a4a2dc.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-b2a186cced1199bb2777e229dc37a04d33507c6d gpiolib: acpi: use min() instead of min_t()
-4cfe6cdba5f8a05ef87e50dac264255f1520c47b Merge tag 'intel-gpio-v6.19-1' of git://git.kernel.org/pub/scm/linux/kernel/git/andy/linux-gpio-intel into gpio/for-next
-3f19e57cbfb55d743d60aeebf5d5c48cc7fd5d4e gpio: dwapb: Use modern PM macros
-56f3a6d7538d2e0dfb8d9df7871d2a9aec3115ac gpio: brcmstb: Use modern PM macros
-2557b1f4f21a75650a03c74a56ea30bd4214866e gpio: htc-egpio: Use modern PM macros
-b40c4dacf48a42ddcd701552575945e90f5c8060 gpio: pl061: Use modern PM macros
-1f37a9f7d1fa582833cc8e226d77e5b2397df9fa gpio: ml-ioh: Use modern PM macros
-a92f492a1473eb2255be9b7b767d0720c5c3b2a9 gpio: mlxbf2: Use modern PM macros
-07a251bfe3b690ebfaef7c46f6ce25ea9ccba8da gpio: msc313: Use modern PM macros
-2b3c8bd8e13bd101fe8833b1f02ef5e5a6e9920b gpio: omap: Use modern PM macros
-0ed358a87d6ef9782dca161ef3f1311d21f257d2 gpio: pch: Use modern PM macros
-75ff16234bf3af747b9c77b81d7ce3df5c09df8c gpio: tqmx86: Use modern PM macros
-46e90d3924cb58b161c2dd57ba05f3a706c1c0e2 gpio: uniphier: Use modern PM macros
-353fdaebdc6991f1cf03ae3aaec266ad0516859b gpio: xgene: Use modern PM macros
-dbedf93d1082b4e755eb62338e5f6566f4e31fb8 gpio: xilinx: Use modern PM macros
-23ac52a4a2dceb704d8dc1674abb8beefd93bf1a gpio: zynq: Use modern PM macros
+certificate version 0.1
+pusher A940D434992C2E8E99103D50224FA7E7CC82A664 1764076455 +0100
+pushee gitolite.kernel.org:pub/scm/linux/kernel/git/vbabka/slab.git
+nonce 1764076381-5c6d6eea2baa4a525d9d36f623f5c036e09e7cfd
 
---===============3370053268981813800==--
+6ce774837d4dfe4748d0dc156e625d5e27636913 b55590558ff7c66c4a494af8ea08999c27594bc8 refs/heads/slab/for-6.19/memdesc_prep
+-----BEGIN PGP SIGNATURE-----
+
+iQFPBAABCAA5FiEEe7vIQRWZI0iWSE3xu+CwddJFiJoFAmklq6cbFIAAAAAABAAO
+bWFudTIsMi41KzEuMTEsMiwyAAoJELvgsHXSRYiaAIsH/RDliiXmHz42JWcfxzt+
+ro/XPrk3hRurcm4mWVjF8ONHvPOem+opqRRSenN+RCJ+UBF6tqjbmaIKCT/QLMbW
+PE5/V9WzY8PRYAC8XT/VM4GyuCYwSojqbyiKkuZUO1dTAywmwbAJCKBuK+zkeCoH
+I8qEXk5z9z6p9jETyzGgiN8+PuYC4bPtD5eR3FPbQTAnuUE2etsOM1Vkffk12B//
+HfzDeAwX1VYD438YykCE6RbcSO+PW+PdeI930N0myRPBz8UPHkTvmKJKz5DskfEH
+thusuuEgXXCRTYODo92DZNLPt5aj1D6QW9L9taoreP5Lt8f0VzDucdmq+CSXpZy/
+Yso=
+=hEpg
+-----END PGP SIGNATURE-----
+
+--===============5532306418890096744==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-6ce774837d4d-b55590558ff7.txt
+
+2bcd3800f2da1be13b972858f63c66d035b1ec6d slab: Reimplement page_slab()
+ee1ee8abc4197e21594ca29348629ccbfff4daec slab: Remove folio references from __ksize()
+ea4702b1708ee3df8da06f07ce41fea84e6ed81d slab: Remove folio references in memcg_slab_post_charge()
+09fa19e2f3a512310bf4287546fc0f2b10a63e5a slab: Remove folio references in slab alloc/free
+f9395bf5db450ccbf58eb737c227485df6aab26c slab: Remove folio references from ___kmalloc_large_node()
+0bdfdd6a05aa51fa66bae15af79dba977eeaffe9 slab: Remove folio references from free_large_kmalloc()
+f262cfd75d52eb285d696d0c7357dc853d7bc7ea slab: Remove folio references from kvfree_rcu_cb()
+e4090216859054043f8ba50866a2fb9c8e6d6b5b slab: Remove folio references from kfree()
+5db009dc10b16056ed340a488e948855def63fca slab: Remove folio references from __do_krealloc()
+4a2c2110a343b7c8762982c355ba34acf563b08a slab: Remove folio references from build_detached_freelist()
+7d26842fd43cb0f7e29c9f8e98af9091ccb0aef5 slab: Remove folio references from kfree_rcu_sheaf()
+025f5b870b2c4f30cbf452c5b07f9ab249cf73ec slab: Remove folio references from kfree_nolock()
+5934b1be8dbe67fa728eff0e68cbafb958c55aa5 usercopy: Remove folio references from check_heap_object()
+b8557d109e7de6962ad4fe217b93316f4e659130 memcg: Convert mem_cgroup_from_obj_folio() to mem_cgroup_from_obj_slab()
+bbe711730515f688a0bf4ab76a2639bcede933f9 kasan: Remove references to folio in __kasan_mempool_poison_object()
+76ade2443397ef7612c978f92858d525e5b2eeab slab: Remove references to folios from virt_to_slab()
+b55590558ff7c66c4a494af8ea08999c27594bc8 slab: Remove unnecessary call to compound_head() in alloc_from_pcs()
+
+--===============5532306418890096744==--
