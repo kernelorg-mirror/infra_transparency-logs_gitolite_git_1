@@ -1,30 +1,24 @@
-Content-Type: multipart/mixed; boundary="===============6191592907925704876=="
+Content-Type: multipart/mixed; boundary="===============3031894725723577314=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next
-Date: Tue, 25 Nov 2025 09:03:08 -0000
-Message-Id: <176406138840.3029425.11580460421442535737@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next-history
+Date: Tue, 25 Nov 2025 09:03:20 -0000
+Message-Id: <176406140013.3029689.542185316913704801@gitolite.kernel.org>
 
---===============6191592907925704876==
+--===============3031894725723577314==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/next/linux-next
+repo: pub/scm/linux/kernel/git/next/linux-next-history
 user: sfr
 changes:
   - ref: refs/heads/master
     old: 422f3140bbcb657e1b86c484296972ab76f6d1ff
     new: 92fd6e84175befa1775e5c0ab682938eca27c0b2
     log: revlist-422f3140bbcb-92fd6e84175b.txt
-  - ref: refs/heads/stable
-    old: d0e88704d96ca0df77717320fec4ebabe42c8a94
-    new: ac3fd01e4c1efce8f2c054cdeb2ddd2fc0fb150d
-    log: |
-         ac3fd01e4c1efce8f2c054cdeb2ddd2fc0fb150d Linux 6.18-rc7
-         
   - ref: refs/tags/next-20251125
     old: 0000000000000000000000000000000000000000
     new: acb2ca6959161544908b4ad1537b0b70c80f052f
@@ -32,7 +26,7 @@ changes:
     old: 0000000000000000000000000000000000000000
     new: c4508223b80908ac095e50f731e68c4387951f0f
 
---===============6191592907925704876==
+--===============3031894725723577314==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1063,4 +1057,4 @@ b578a6a67c5c963e586dcea9868a8a4ae741330c Merge branch 'next' of https://git.kern
 3eb1867c8a0b035dc4ab3cf85af96e2c87af2747 Merge branch 'for-next' of https://github.com/hisilicon/linux-hisi.git
 92fd6e84175befa1775e5c0ab682938eca27c0b2 Add linux-next specific files for 20251125
 
---===============6191592907925704876==--
+--===============3031894725723577314==--
