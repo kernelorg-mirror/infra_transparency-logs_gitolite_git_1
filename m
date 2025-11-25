@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
-Date: Tue, 25 Nov 2025 13:00:43 -0000
-Message-Id: <176407564359.3268144.15020119646391550322@gitolite.kernel.org>
+Date: Tue, 25 Nov 2025 13:02:36 -0000
+Message-Id: <176407575649.3269221.10426186716638608444@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,6 +11,6 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/soc/soc
 user: arnd
 changes:
-  - ref: refs/heads/qcom/drivers
+  - ref: refs/heads/rockchip/drivers
     old: 0000000000000000000000000000000000000000
-    new: 186b8f8fcc86949eaf0c3bd11a47048ec4c78b5b
+    new: 048213a38e7ac1591f725e370c152cc80dd84105
