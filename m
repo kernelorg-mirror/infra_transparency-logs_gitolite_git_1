@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Tue, 25 Nov 2025 05:18:54 -0000
-Message-Id: <176404793494.2846593.6694415114597003348@gitolite.kernel.org>
+Date: Tue, 25 Nov 2025 05:18:56 -0000
+Message-Id: <176404793618.2846668.16199957805128490625@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,9 +11,9 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/mm-new
-    old: 4c5609ae9427bc266a9463a4fbf97e6612a0c419
-    new: 624c4d7b8fac3fdf9894a5f89f84709771db4dbb
+  - ref: refs/heads/mm-unstable
+    old: d35f85cae927a6a4b9d7af2dabd68d973a48d645
+    new: 4cc4fd0b92efc6d4bf6dd78c410c5607707765b5
     log: |
          16f80617262d4b08c9a344b0fb72d269388b6e67 kernel/kexec: change the prototype of kimage_map_segment()
          68c8d583879f149b989ec61158ee6d9f0fa2829d kernel/kexec: fix IMA when allocation happens in CMA area
@@ -24,5 +24,4 @@ changes:
          d867017e5df6fcf4e19aee5d86582ed9670ff441 mm/huge_memory: replace can_split_folio() with direct refcount calculation
          ee91dac95ed8fe18533003affce8269a89aaf951 mm/huge_memory: make min_order_for_split() always return an order
          4cc4fd0b92efc6d4bf6dd78c410c5607707765b5 mm/huge_memory: fix folio split stats counting
-         624c4d7b8fac3fdf9894a5f89f84709771db4dbb mm/page_alloc: optimize lowmem_reserve max lookup using its semantic monotonicity
          
