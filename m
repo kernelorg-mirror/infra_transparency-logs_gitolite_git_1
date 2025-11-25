@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4995879483688948530=="
+Content-Type: multipart/mixed; boundary="===============8474013572719607263=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Tue, 25 Nov 2025 16:51:25 -0000
-Message-Id: <176408948570.3475969.8099321544796809599@gitolite.kernel.org>
+Date: Tue, 25 Nov 2025 16:51:34 -0000
+Message-Id: <176408949484.3476211.12200692766815756604@gitolite.kernel.org>
 
---===============4995879483688948530==
+--===============8474013572719607263==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/main
-    old: a14602fcae17a3f1cb8a8521bedf31728f9e7e39
-    new: 9780f535f8e0f20b4632b5a173ead71aa8f095d2
-    log: revlist-a14602fcae17-9780f535f8e0.txt
+  - ref: refs/heads/dev-queue
+    old: 6228a4ab27f51d261f5693b9320d41122051f786
+    new: da95fefd257f95fc412f71c6f7dfddbbd75d7267
+    log: revlist-6228a4ab27f5-da95fefd257f.txt
 
---===============4995879483688948530==
+--===============8474013572719607263==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a14602fcae17-9780f535f8e0.txt
+Content-Disposition: attachment; filename=revlist-6228a4ab27f5-da95fefd257f.txt
 
 4015b979767125cf8a2233a145a3b3af78bfd8fb Bluetooth: btusb: mediatek: Fix kernel crash when releasing mtk iso interface
 275ddfeb3fdc274050c2173ffd985b1e80a9aa37 Bluetooth: hci_core: Fix triggering cmd_timer for HCI_OP_NOP
@@ -45,5 +45,21 @@ f98e3ca2e4306a0c9deba1769248b25859db8a3d Merge branch 'net-dsa-microchip-fix-res
 82fca3d8a4a34667f01ec2351a607135249c9cff atm/fore200e: Fix possible data race in fore200e_open()
 081156ce13f8fa4e97b5148dc54d8c0ddf02117b net: phy: mxl-gpy: fix link properties on USXGMII and internal PHYs
 9780f535f8e0f20b4632b5a173ead71aa8f095d2 net: lan966x: Fix the initialization of taprio
+56ad19203e0cab56672bada42d19eacf74a54c2d ice: fix fwlog after driver reinit
+057d524145f15f688957f4de3a9a4dd78983e90e ice: Fix enable_cnt imbalance on resume
+f265f43eb347d5907b62b69834abdc507a1c7637 ice: Fix enable_cnt imbalance on PCIe error recovery
+e9e8d68607f80a7c14980867270b603b2ab7537f i40e: Fix enable_cnt imbalance on PCIe error recovery
+f98be2936a1918d276c7a36d1f5502f6fb10eaca idpf: fix memory leak of flow steer list on rmmod
+8f80544c70e9e4142715d8ec512050c9342b5186 idpf: fix issue with ethtool -n command display
+0aaccba295a2cfdd672b7f693225ca6c624d6317 idpf: fix LAN memory regions command on some NVMs
+4fd52ec15722b454079c0e05ae8be7574afd6462 iavf: fix off-by-one issues in iavf_config_rss_reg()
+e7cae748fe1ed1f091b4efef7f6f8b3af7a57cbc idpf: cap maximum Rx buffer size
+7a1598a48f961296d79b7f1f663e79b343959e01 idpf: keep the netdev when a reset fails
+e445b8cf36e93779835c10c978d71ce04d39b985 idpf: detach and close netdevs while handling a reset
+21def1e2d1002639c916392a7034118cb7d34eee idpf: fix memory leak in idpf_vport_rel()
+f80973841f7ac22f4d13733147b19a0c935bc8a5 idpf: fix memory leak in idpf_vc_core_deinit()
+fad2aebbe690e32cc54a14c8958111f520f6280a i40e: fix src IP mask checks and memcpy argument names in cloud filter
+34f1554d9c8f339c52e36a1cbb1aafaff1103558 i40e: validate ring_len parameter against hardware-specific values
+da95fefd257f95fc412f71c6f7dfddbbd75d7267 idpf: fix aux device unplugging when rdma is not supported by vport
 
---===============4995879483688948530==--
+--===============8474013572719607263==--
