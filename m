@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
-Date: Wed, 26 Nov 2025 08:00:02 -0000
-Message-Id: <176414400220.61931.15436527190305619294@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
+Date: Wed, 26 Nov 2025 08:14:37 -0000
+Message-Id: <176414487750.73241.10420840722810479662@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tiwai/sound
-user: tiwai
+repo: pub/scm/linux/kernel/git/rdma/rdma
+user: leon
 changes:
-  - ref: refs/tags/sound-6.18
-    old: 0000000000000000000000000000000000000000
-    new: a4683d3490324d72bf689bdbdea35b0975cce568
+  - ref: refs/heads/wip/leon-for-next
+    old: 01dad9ca37c60d08f71e2ef639875ae895deede6
+    new: f37e2868792335f2e8bbdcc02ebbb4830453f83c
+    log: |
+         f37e2868792335f2e8bbdcc02ebbb4830453f83c RDMA/core: Reduce cond_resched() frequency in __ib_umem_release
+         
