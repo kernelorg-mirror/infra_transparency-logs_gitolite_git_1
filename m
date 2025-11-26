@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/driver-core/driver-core
-Date: Wed, 26 Nov 2025 09:03:41 -0000
-Message-Id: <176414782101.116031.1899762854907514696@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/westeri/thunderbolt
+Date: Wed, 26 Nov 2025 09:07:06 -0000
+Message-Id: <176414802637.119581.13627057982163005634@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/driver-core/driver-core
-user: dakr
+repo: pub/scm/linux/kernel/git/westeri/thunderbolt
+user: westeri
 changes:
-  - ref: refs/tags/driver-core-6.19-rc1
+  - ref: refs/tags/thunderbolt-for-v6.19-rc1
     old: 0000000000000000000000000000000000000000
-    new: 16f92dfc981a039cd6121b1d66d6e6c880f3f32a
+    new: f72dfe1aac775a2b5f24f5a5c0dcd3756b38e45d
