@@ -1,30 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux
-Date: Wed, 26 Nov 2025 21:46:05 -0000
-Message-Id: <176419356532.777938.3156006691867584315@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mszyprowski/linux
+Date: Wed, 26 Nov 2025 21:50:57 -0000
+Message-Id: <176419385735.782222.5682875909827736918@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux
-user: axboe
+repo: pub/scm/linux/kernel/git/mszyprowski/linux
+user: mszyprowski
 changes:
-  - ref: refs/heads/for-6.19/io_uring
-    old: 1e93de9205b4d5c0f06507e9e1c398574a07fb80
-    new: 5d24321e4c159088604512d7a5c5cf634d23e01a
+  - ref: refs/heads/dma-mapping-fixes
+    old: 1a96f3a22fd88b8ea217233d359e0334981b0384
+    new: d0d08f4bd7f667dc7a65cd7133c0a94a6f02aca3
     log: |
-         4677e78800bbde62a9edce0eb3b40c775ec55e0d socket: Unify getsockname and getpeername implementation
-         d73c1677087391379441c0bb444c7fb4238fc6e7 socket: Split out a getsockname helper for io_uring
-         5d24321e4c159088604512d7a5c5cf634d23e01a io_uring: Introduce getsockname io_uring cmd
-         
-  - ref: refs/heads/for-next
-    old: 89cc9eeaf54d6651ab02086b82cc1b99e2585140
-    new: e8a31aa2e00a3edf5c9f198a22e2f43fa4f13ab6
-    log: |
-         4677e78800bbde62a9edce0eb3b40c775ec55e0d socket: Unify getsockname and getpeername implementation
-         d73c1677087391379441c0bb444c7fb4238fc6e7 socket: Split out a getsockname helper for io_uring
-         5d24321e4c159088604512d7a5c5cf634d23e01a io_uring: Introduce getsockname io_uring cmd
-         e8a31aa2e00a3edf5c9f198a22e2f43fa4f13ab6 Merge branch 'for-6.19/io_uring' into for-next
+         d0d08f4bd7f667dc7a65cd7133c0a94a6f02aca3 dma-direct: Fix missing sg_dma_len assignment in P2PDMA bus mappings
          
