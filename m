@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Wed, 26 Nov 2025 08:14:37 -0000
-Message-Id: <176414487750.73241.10420840722810479662@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/amlogic/linux
+Date: Wed, 26 Nov 2025 08:32:52 -0000
+Message-Id: <176414597292.88065.9234857889645244235@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rdma/rdma
-user: leon
+repo: pub/scm/linux/kernel/git/amlogic/linux
+user: narmstrong
 changes:
-  - ref: refs/heads/wip/leon-for-next
-    old: 01dad9ca37c60d08f71e2ef639875ae895deede6
-    new: f37e2868792335f2e8bbdcc02ebbb4830453f83c
-    log: |
-         f37e2868792335f2e8bbdcc02ebbb4830453f83c RDMA/core: Reduce cond_resched() frequency in __ib_umem_release
-         
+  - ref: refs/tags/amlogic-arm64-dt-for-v6.19
+    old: 0000000000000000000000000000000000000000
+    new: e798d763fa2b26e305e84d072b9f216a2c7d59e9
