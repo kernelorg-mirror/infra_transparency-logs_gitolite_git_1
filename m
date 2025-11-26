@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4978088976333200897=="
+Content-Type: multipart/mixed; boundary="===============2430134207781569603=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Wed, 26 Nov 2025 00:36:55 -0000
-Message-Id: <176411741501.3880479.7858956998361514475@gitolite.kernel.org>
+Date: Wed, 26 Nov 2025 00:36:56 -0000
+Message-Id: <176411741626.3880554.14532852853300040696@gitolite.kernel.org>
 
---===============4978088976333200897==
+--===============2430134207781569603==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,29 +15,34 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/master
-    old: ac3fd01e4c1efce8f2c054cdeb2ddd2fc0fb150d
-    new: 30f09200cc4aefbd8385b01e41bde2e4565a6f0e
-    log: revlist-ac3fd01e4c1e-30f09200cc4a.txt
+  - ref: refs/heads/mm-new
+    old: 624c4d7b8fac3fdf9894a5f89f84709771db4dbb
+    new: c982b3547f979451e07fc80a3031fcfdfa86cb1a
+    log: revlist-624c4d7b8fac-c982b3547f97.txt
 
---===============4978088976333200897==
+--===============2430134207781569603==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ac3fd01e4c1e-30f09200cc4a.txt
+Content-Disposition: attachment; filename=revlist-624c4d7b8fac-c982b3547f97.txt
 
-341d14bd69d05b1c30bd83c5056730ba6d78b83d dm-pcache: allow built-in build and rename flush helper
-840b80af74fda9672f111023ca17ad7875427f13 dm-pcache: reuse meta_addr in pcache_meta_find_latest
-a6ee8422b4f2a591de010f4e60471060b13d4170 dm-pcache: zero cache_info before default init
-a612d24e850b28c16384cf071636034935447e43 dm: fix failure when empty flush's bi_sector points beyond the device end
-fe680d8c747f4e676ac835c8c7fb0f287cd98758 dm-verity: fix unreliable memory allocation
-ac84ff453305d12bc799074a9f9af30ff97fff70 iommufd/driver: Fix counter initialization for counted_by annotation
-b07bf253ef8e48e7ff0b378f441a180a8ad37124 iommufd/iommufd_private.h: Avoid -Wflex-array-member-not-at-end warning
-9238fa35a3c04835a77988a14e1397763cf0eabe Revert "arm64: acpi: Enable ACPI CCEL support"
-7c16c02e86081355a54c50c045b0caa172e72028 ACPI: GTDT: Correctly number platform devices for MMIO timers
-165eb13e485c5c25c7cb276ac85f788a2bd200cb arm64: proton-pack: Fix hard lockup when !MITIGATE_SPECTRE_BRANCH_HISTORY
-8a2bcda5e139064b255531eb5889ff826a8b6995 Merge tag 'for-6.18/dm-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/device-mapper/linux-dm
-5f8a6c70afc58d4be849407658f27f47f006a3c7 Merge tag 'for-linus-iommufd' of git://git.kernel.org/pub/scm/linux/kernel/git/jgg/iommufd
-30f09200cc4aefbd8385b01e41bde2e4565a6f0e Merge tag 'arm64-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/arm64/linux
+c6444e4c7ddba071cf8b7b8b778aeb19ef560671 mm/huge_memory: Fix initialization of huge zero folio
+c856b20656906218cb73b64534544ca07a043a0a MAINTAINERS: add Mike Rapoport as maintainer for userfaultfd
+b7271d4b451b45ffc2e8e6df0e8569aaba6335ca foo
+68645c416069e35369a74c6a2f762131c4584dff mm/vmscan: skip increasing kswapd_failures when reclaim was boosted
+8cec0575cd26660711326a8744e18eda79d6d88b mm/huge_memory: change folio_split_supported() to folio_check_splittable()
+bae55a55c44b3fa9f52e9f97a4e9ad081d1f49ed mm-huge_memory-change-folio_split_supported-to-folio_check_splittable-fix
+c1436ffde0fd1109384aaa58c76e7630d59346a8 mm/huge_memory: replace can_split_folio() with direct refcount calculation
+b59752855c7b126c59a68c06e7a431a67f6ee134 mm/huge_memory: make min_order_for_split() always return an order
+e83b4098480728f0ac47b051bb1d37baacb0aa1c mm/huge_memory: fix folio split stats counting
+d5c87d83dce4f2ab12e8bfcbde3406c9f214e8c1 mm/page_alloc: optimize lowmem_reserve max lookup using its semantic monotonicity
+97322893d61573d2a2e9b9ce0ed3d4c669ef6b85 zram: fix a spelling mistake
+478a0cc458225a566c0df2e673517fdaa5a6e8cb mm: declare VMA flags by bit
+1d7be5405786bb59054df0c02c087fe61511cc9c mm: simplify and rename mm flags function for clarity
+698b14ec516357ad1d649404abca1ee843dc6a59 tools/testing/vma: eliminate dependency on vma->__vm_flags
+64a2b416ac0da0067ebd473cbfdc99345ccd2d68 mm: introduce VMA flags bitmap type
+e102c6caf6a8f1ebaf8a6d44600eef812fc1c6d3 mm: fix DEBUG_RODATA_TEST indentation in Kconfig
+894b95bc560282a691b6822be8c8e6a0fe4099f9 mm/swapfile: fix list iteration in swap_sync_discard
+c982b3547f979451e07fc80a3031fcfdfa86cb1a mm/swapfile: use plist_for_each_entry in __folio_throttle_swaprate
 
---===============4978088976333200897==--
+--===============2430134207781569603==--
