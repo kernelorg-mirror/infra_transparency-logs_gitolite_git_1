@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1515969236808450921=="
+Content-Type: multipart/mixed; boundary="===============3701280568766175837=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Wed, 26 Nov 2025 12:31:32 -0000
-Message-Id: <176416029269.292556.14351306510737487009@gitolite.kernel.org>
+Date: Wed, 26 Nov 2025 12:34:45 -0000
+Message-Id: <176416048507.294822.15852231977890794233@gitolite.kernel.org>
 
---===============1515969236808450921==
+--===============3701280568766175837==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,47 +17,40 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/char-misc-testing
-    old: c938fdd82fac65dfb64cf92e3825f125af7ab315
-    new: a6dab2f61d23c1eb32f1d08fa7b4919a2478950b
+    old: a6dab2f61d23c1eb32f1d08fa7b4919a2478950b
+    new: f0a40fe2fc2c07827dfcee5ab070f3fe30413ed5
     log: |
-         77198581e0d05aae08a06f471e21a19ab0edaea2 android: binderfs: add missing parameters in binder_ctl_ioctl()'s doc
-         1e9a37d35a0ea658df7b5d64889ec2bd529f46d6 android: binder: add missing return value documentation for binder_apply_fd_fixups()
-         3e0ae02ba831da2b707905f4e602e43f8507b8cc rust_binder: fix race condition on death_list
-         6c37bebd8c926ad01ef157c0d123633a203e5c0d rust_binder: avoid mem::take on delivered_deaths
-         2c8ad5cfc22dba7d0b3b3ddfec0a75d8ea4169c3 rust: list: add warning to List::remove docs about mem::take
-         58796560642a6e3148661a4df9da342a9a301748 mei: Remove redundant pm_runtime_mark_last_busy() calls
-         5d92c3b41f0bddfa416130c6e1b424414f3d2acf mei: gsc: add dependency on Xe driver
-         a6dab2f61d23c1eb32f1d08fa7b4919a2478950b mei: Fix error handling in mei_register
+         f0a40fe2fc2c07827dfcee5ab070f3fe30413ed5 MAINTAINERS: Downgrade ocxl to Odd Fixes
          
 
---===============1515969236808450921==
+--===============3701280568766175837==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1764160362 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1764160553 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1764160288-d84abe32f32955b94bb38e8859560dbcbebef156
+nonce 1764160480-778def3c8073ec0981df5471e188078754b52981
 
-c938fdd82fac65dfb64cf92e3825f125af7ab315 a6dab2f61d23c1eb32f1d08fa7b4919a2478950b refs/heads/char-misc-testing
+a6dab2f61d23c1eb32f1d08fa7b4919a2478950b f0a40fe2fc2c07827dfcee5ab070f3fe30413ed5 refs/heads/char-misc-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmkm82obHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+xvMP/0QVaARGvCjotV+0g3f7
-VSMzmxPw6tTgn1QXq6G8mq7kcYHp8a2RZSnZ+hrSd4927lsJmkdC1XYEAQGofXdB
-B9P/MYtPz2vE6/TL4xAsWiTO5vfQDSHXWZ7DAJc0y2st5LYQUCgPmvxfeE+8t0tz
-AYTBb2fdodNIFSNUCbXG6tCoJsdJO+MXq0rShppT1GbpsoahXh87zToiRl3pRWa3
-U/1baeRxpuintq0bB5iOLYWP2kTgc/X7/DRHziMJk8u48qdG3EyKDttsIy1w2Dkw
-u4MkGkBuGggyzMcyqAztXjojfSVeZkln6U/PHywqd/+EgV8eBc5fnlvSwovvG7Fl
-m26RZs6hEhCK2Fb8D2AXexFOvx+QlC5daazc+BFTgrf10rG5gX1/PnXGDF3Hh91r
-qse07ICoWoSG5fmA6o27n3oAArPYJbQFPqgZ3fe8O+S9Isp4h529fQabvght9eqb
-VIasXVrF7+0I+BN8H6Gu2QXIEJbtWvCQeETPKzQq6Yll7tk328KMg3U7T/nfESh1
-XApoQYQn4epeziLo+DBIyiFETq6bEVPKxM5DfLiI0/JiTotjgyeHWSraEm+sFUCc
-XX8Mg7FBnujO5gyEvTkL3kBuBTvyijsv5RfD832vuirZB/5qnO1O2bBVajq14q7q
-LaoZrk7q4yYpf2KtzyMJ9Itf
-=C0f1
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmkm9CkbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+QqwP/RCYZVnyLRbpPxPjC1hX
++5+nhx8RMUYgMjohIaxOI5vBDS0S174m31a+affhi/sTFOfEMeQ85RcWC0sf9R9c
+1cdC2oHx2w6SMwRLa00sYh1xLQ+dOsxvyTYJHEa7Zd2vqvOecwOy7CK8OFWCsgqb
+vOflH8AGSHWoBJqap8pshWYQLVSm4YqsJrr552LO3KQDl1jUsRlhAqcPlbaCl5GB
+gLXao1Ox+kiM9H0xLSmSYwtrZPeOhts15bbJrHUBG/uwtZHP3qAPZl9LL4IF6DL7
+QVMSSsUqjjPkpspL+PQnPQhAYTK7juCDwnr1ludwov8dBQibMJpTLWBVLWDTFkPx
+lBv+3EYV57jW/Qx8PVCVRE8RVMTwti/ojzKAgcn16QIkmxjURFw4FVTCSSw0cCj7
+j9hyvDgUbIQ8+s3q3ByJI1Zckh4chESrnwebk0jko+u6pWEuGvfH9bYtxChvswF3
+lzFtzXnOPYE3lQE8bXMU8dfl/E/In4ycvk1gyoOvJLosriSjE8N7/F4hWQbFjItS
+Pv8LEEnpZZsM9tbTZfkQJjZDO4+81ff8yZolaKnM5xqjZbZK1mU3aT5LxteSBh7v
+ZsZix107xKjnN5C82fANacs+NnmVTSoUieqwQNEJGNqDEX/6HAgLu0DU38wPnrYq
+B+s9VpZ5XcmZtkWfisFr0SYz
+=G/PR
 -----END PGP SIGNATURE-----
 
---===============1515969236808450921==--
+--===============3701280568766175837==--
