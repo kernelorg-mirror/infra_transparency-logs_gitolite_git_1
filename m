@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2430134207781569603=="
+Content-Type: multipart/mixed; boundary="===============2178281693453568751=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Wed, 26 Nov 2025 00:36:56 -0000
-Message-Id: <176411741626.3880554.14532852853300040696@gitolite.kernel.org>
+Date: Wed, 26 Nov 2025 00:36:57 -0000
+Message-Id: <176411741760.3880728.13188392296207357508@gitolite.kernel.org>
 
---===============2430134207781569603==
+--===============2178281693453568751==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/mm-new
-    old: 624c4d7b8fac3fdf9894a5f89f84709771db4dbb
-    new: c982b3547f979451e07fc80a3031fcfdfa86cb1a
-    log: revlist-624c4d7b8fac-c982b3547f97.txt
+  - ref: refs/heads/mm-unstable
+    old: 4cc4fd0b92efc6d4bf6dd78c410c5607707765b5
+    new: e102c6caf6a8f1ebaf8a6d44600eef812fc1c6d3
+    log: revlist-4cc4fd0b92ef-e102c6caf6a8.txt
 
---===============2430134207781569603==
+--===============2178281693453568751==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-624c4d7b8fac-c982b3547f97.txt
+Content-Disposition: attachment; filename=revlist-4cc4fd0b92ef-e102c6caf6a8.txt
 
 c6444e4c7ddba071cf8b7b8b778aeb19ef560671 mm/huge_memory: Fix initialization of huge zero folio
 c856b20656906218cb73b64534544ca07a043a0a MAINTAINERS: add Mike Rapoport as maintainer for userfaultfd
@@ -42,7 +42,5 @@ d5c87d83dce4f2ab12e8bfcbde3406c9f214e8c1 mm/page_alloc: optimize lowmem_reserve 
 698b14ec516357ad1d649404abca1ee843dc6a59 tools/testing/vma: eliminate dependency on vma->__vm_flags
 64a2b416ac0da0067ebd473cbfdc99345ccd2d68 mm: introduce VMA flags bitmap type
 e102c6caf6a8f1ebaf8a6d44600eef812fc1c6d3 mm: fix DEBUG_RODATA_TEST indentation in Kconfig
-894b95bc560282a691b6822be8c8e6a0fe4099f9 mm/swapfile: fix list iteration in swap_sync_discard
-c982b3547f979451e07fc80a3031fcfdfa86cb1a mm/swapfile: use plist_for_each_entry in __folio_throttle_swaprate
 
---===============2430134207781569603==--
+--===============2178281693453568751==--
