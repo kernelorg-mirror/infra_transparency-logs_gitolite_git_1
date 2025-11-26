@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/chanwoo/linux
-Date: Wed, 26 Nov 2025 04:58:06 -0000
-Message-Id: <176413308652.4106737.4677924270421363841@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
+Date: Wed, 26 Nov 2025 06:06:14 -0000
+Message-Id: <176413717479.4161643.14388362068294831033@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/chanwoo/linux
-user: chanwoo
+repo: pub/scm/linux/kernel/git/snitzer/linux
+user: snitzer
 changes:
-  - ref: refs/heads/devfreq-next
-    old: 25cee0b9a50969cfdde531406363365cc6b51846
-    new: d9600d57668c49308f705a660c5ad17fa3a53f73
+  - ref: refs/heads/kernel-6.12.53/nfs-testing-snitm
+    old: 35f7d8553503f391aa5f49f3b6d1709e9f55e8cf
+    new: 4c727d688101c6f53eb2ae7d586eae9cea6dc74e
     log: |
-         d9600d57668c49308f705a660c5ad17fa3a53f73 PM / devfreq: Fix typo in DFSO_DOWNDIFFERENTIAL macro name
+         0f769a75a749e263fac6d16244a0ca69475e44e8 nfs/localio: fix regression due to out-of-order __put_cred
+         f418cf592ebcd740efb24985571a68272bd08eb7 nfs/localio: remove alignment size checking in nfs_is_local_dio_possible
+         4c727d688101c6f53eb2ae7d586eae9cea6dc74e nfs/localio: remove 61 byte hole from needless ____cacheline_aligned
          
