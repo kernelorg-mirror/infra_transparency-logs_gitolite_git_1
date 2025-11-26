@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Wed, 26 Nov 2025 03:12:50 -0000
-Message-Id: <176412677004.4020357.6600790139332969713@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Wed, 26 Nov 2025 03:14:30 -0000
+Message-Id: <176412687056.4021678.5659409033558298525@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
+repo: pub/scm/linux/kernel/git/netdev/net-next
 user: kuba
 changes:
   - ref: refs/heads/main
-    old: f5bce28f6b9125502abec4a67d68eabcd24b3b17
-    new: ae1737e7339b513f8c2fc21b500a0fc215d155c3
+    old: ce28e333d6286cd10a27c8f22d3ac2b758f5fa0c
+    new: 87ad869feaedb0ebd61b2d254f6952f7e4ceb624
     log: |
-         ae1737e7339b513f8c2fc21b500a0fc215d155c3 r8169: fix RTL8127 hang on suspend/shutdown
+         9d844da693d6d0813714d9b5b7a58ac05c4cf7f0 net: phy: mxl-gpy: add support for MxL86211C
+         de1e5c9333f426348571f7a3b034f99490d3f926 net: phy: mxl-gpy: add support for MxL86252 and MxL86282
+         87ad869feaedb0ebd61b2d254f6952f7e4ceb624 r8169: improve MAC EEE handling
          
