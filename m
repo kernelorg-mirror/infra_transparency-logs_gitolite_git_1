@@ -1,56 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============6373562054092435237=="
+Content-Type: multipart/mixed; boundary="===============7204919946190438717=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
-Date: Wed, 26 Nov 2025 22:03:20 -0000
-Message-Id: <176419460077.791948.6538849881354410422@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Wed, 26 Nov 2025 22:03:24 -0000
+Message-Id: <176419460452.792101.2595935627112332777@gitolite.kernel.org>
 
---===============6373562054092435237==
+--===============7204919946190438717==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regulator
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.18
+  - ref: refs/heads/regulator-6.18
     old: 6a23ae0a96a600d1d12557add110e0bb6e32730c
     new: ac3fd01e4c1efce8f2c054cdeb2ddd2fc0fb150d
     log: revlist-6a23ae0a96a6-ac3fd01e4c1e.txt
-  - ref: refs/heads/for-6.19
+  - ref: refs/heads/regulator-6.19
     old: fba27fe5aaf14e2aae1649a14309b77de2c9546c
     new: c67bb84434b024fa2ae83f91bbd02457f2d2c8a6
     log: revlist-fba27fe5aaf1-c67bb84434b0.txt
 
---===============6373562054092435237==
+--===============7204919946190438717==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1764194671 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/regulator.git
-nonce 1764194598-04acf79a4a89e077dfbec23b4e713ce727f9e181
+pusher C3F436CA30F5D8EB 1764194675 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1764194601-7de8431e3c891e98d364401272c319c0d3735b55
 
-6a23ae0a96a600d1d12557add110e0bb6e32730c ac3fd01e4c1efce8f2c054cdeb2ddd2fc0fb150d refs/heads/for-6.18
-fba27fe5aaf14e2aae1649a14309b77de2c9546c c67bb84434b024fa2ae83f91bbd02457f2d2c8a6 refs/heads/for-6.19
+6a23ae0a96a600d1d12557add110e0bb6e32730c ac3fd01e4c1efce8f2c054cdeb2ddd2fc0fb150d refs/heads/regulator-6.18
+fba27fe5aaf14e2aae1649a14309b77de2c9546c c67bb84434b024fa2ae83f91bbd02457f2d2c8a6 refs/heads/regulator-6.19
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmkneW8ACgkQJNaLcl1U
-h9AErwf/bWsZeMPuKiXjW5BD4yUePc6OebqPdrLNGVc5YhtPXb1SJSu8IvTWevDY
-uUSh1eSYjbiKQ9jzlQkyarI6x9Iq+k6k9ENrhHSWydeiDrNUUtCKHfRdGZdGF7Mb
-UBEbWa4YZHfYSs30jFKJN3jq6NIrbOgAEoEfHx8FQIPnET05MYmbVoLVum4LtxJD
-1n4qWbi80PHbPdIdZNxwNxZ9fhJq+w1HWCdXEwxOM4ecZLRdCaPLVCXR32WU0Ntk
-0ByfXsyVvlT7FWoFw+GsrNzBuxbFbSvgd4wLHKcNbb6JkEJmBpO8/P6DK7yqwnHe
-iP/IGJFCQxyIDGW4J6GGpN9a4mcVEg==
-=DzQq
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmkneXMACgkQJNaLcl1U
+h9C5wwf/domWmijHzCc1PviH2nEG/vR2p0I7xAJ5HxhSchxQ3/VNfQNhVbftCPBM
+Gd1mxqgf9bzEFmJy2b2bYQl5vqhXy+HCuEnmn65n3d+rsU07ZkXRa5olflzYWBtJ
+fbrRaHDJ5nJgy68/RXl4SJ9TZLwfJXsMB2xY1IrP3W26XHTRcnS+CgJhrRXaHrJ3
+oBaq1uA1oTKYTdiL84/TY8t39K5ja0ujDmekcu+zVUlwdRDA4kO/PiSeaEf+KovG
+ikEuErMYCi6NMc9Gzxjv8kz15hBRLwYA/lZkhNE7Zcd2pz5w3vMF6RsitDoUHkT9
+aLoiL9PyprZx9pcwiloT6X0gZE6EAw==
+=cmzB
 -----END PGP SIGNATURE-----
 
---===============6373562054092435237==
+--===============7204919946190438717==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -347,7 +347,7 @@ e624f7377599d1f82190b17bdf7d8e735c0576ee Merge tag 'perf-urgent-2025-11-23' of g
 d0e88704d96ca0df77717320fec4ebabe42c8a94 Merge tag 'clk-fixes-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/clk/linux
 ac3fd01e4c1efce8f2c054cdeb2ddd2fc0fb150d Linux 6.18-rc7
 
---===============6373562054092435237==
+--===============7204919946190438717==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -369,4 +369,4 @@ d02ea816cccae6c02c7c026b5a74bf99a784c9c8 regulator: bd71828: Constify pointers t
 6341646f7225343f57c8cbcb6a4d25b3270f4111 regulator: pf9453: Constify pointers to 'regulator_desc' wrap struct
 c67bb84434b024fa2ae83f91bbd02457f2d2c8a6 regulator: Use container_of_const() when all types are
 
---===============6373562054092435237==--
+--===============7204919946190438717==--
