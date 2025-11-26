@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd-test
-Date: Wed, 26 Nov 2025 00:38:53 -0000
-Message-Id: <176411753325.3882587.16778860746622522299@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Wed, 26 Nov 2025 00:40:50 -0000
+Message-Id: <176411765072.3885305.744187782693220338@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd-test
-user: jarkko
+repo: pub/scm/linux/kernel/git/netdev/net
+user: kuba
 changes:
   - ref: refs/heads/main
-    old: b41bdd8d5c86c9ba44e45d947af6a9793fa21717
-    new: 92741c73a97f2bc8e34475757801f224a8081709
+    old: 9780f535f8e0f20b4632b5a173ead71aa8f095d2
+    new: d2099d9f16dbfa1c5266d4230ff7860047bb0b68
     log: |
-         92741c73a97f2bc8e34475757801f224a8081709 Upgrade build to Makefile based build
+         d2099d9f16dbfa1c5266d4230ff7860047bb0b68 net/mlx5e: Fix validation logic in rate limiting
          
