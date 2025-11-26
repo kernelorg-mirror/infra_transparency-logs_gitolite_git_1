@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
-Date: Wed, 26 Nov 2025 18:39:29 -0000
-Message-Id: <176418236999.609424.6593949992289075282@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Wed, 26 Nov 2025 18:44:16 -0000
+Message-Id: <176418265699.613570.3532807545761814442@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pci/pci
-user: helgaas
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/controller/dw-rockchip-pend
-    old: 7ad31f88429369ada44710176e176256a2812c3f
-    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/20251126_krzysztof_kozlowski_regulator_use_container_of_const_when_all_types_are_const
+    old: 0000000000000000000000000000000000000000
+    new: 6341646f7225343f57c8cbcb6a4d25b3270f4111
