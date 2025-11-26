@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/damon-hack
-Date: Wed, 26 Nov 2025 00:37:24 -0000
-Message-Id: <176411744461.3881242.17237730243351999925@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd-test
+Date: Wed, 26 Nov 2025 00:38:53 -0000
+Message-Id: <176411753325.3882587.16778860746622522299@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/damon-hack
-user: sj
+repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd-test
+user: jarkko
 changes:
-  - ref: refs/heads/master
-    old: 015b9f8f58f9cf099d16e63117710893da8deef7
-    new: 8ec072502f34bd3a14e973e98a924057ed0b172c
+  - ref: refs/heads/main
+    old: b41bdd8d5c86c9ba44e45d947af6a9793fa21717
+    new: 92741c73a97f2bc8e34475757801f224a8081709
     log: |
-         8ec072502f34bd3a14e973e98a924057ed0b172c patches/next: rebase to latest mm-new
+         92741c73a97f2bc8e34475757801f224a8081709 Upgrade build to Makefile based build
          
