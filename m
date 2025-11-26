@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jarkko/tpm2-tpmkey
-Date: Wed, 26 Nov 2025 18:06:43 -0000
-Message-Id: <176418040322.582752.2603443126693058123@gitolite.kernel.org>
+Date: Wed, 26 Nov 2025 18:10:09 -0000
+Message-Id: <176418060934.586655.4591193539816385249@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/jarkko/tpm2-tpmkey
 user: jarkko
 changes:
   - ref: refs/heads/main
-    old: 5405554a962fb7b27d362ad466f0893b95adac1c
-    new: faeb38399f39d69a26277a5b779b1358fc30aaea
+    old: faeb38399f39d69a26277a5b779b1358fc30aaea
+    new: 89902ad0be70c3bc86a7c20fa42af1802e2b9e69
     log: |
-         faeb38399f39d69a26277a5b779b1358fc30aaea refactor: explicit rsaParent field in TpmKeyFile
+         89902ad0be70c3bc86a7c20fa42af1802e2b9e69 refactor: drop parentPublic field from ASN.1 definition
          
