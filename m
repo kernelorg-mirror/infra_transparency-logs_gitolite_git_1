@@ -1,73 +1,64 @@
-Content-Type: multipart/mixed; boundary="===============5967770995805660971=="
+Content-Type: multipart/mixed; boundary="===============6713567557770081068=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Wed, 26 Nov 2025 14:10:38 -0000
-Message-Id: <176416623811.377895.5592728925758184181@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/driver-core/driver-core
+Date: Wed, 26 Nov 2025 14:17:22 -0000
+Message-Id: <176416664214.382924.2054553466937361696@gitolite.kernel.org>
 
---===============5967770995805660971==
+--===============6713567557770081068==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/char-misc
+repo: pub/scm/linux/kernel/git/driver-core/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/char-misc-testing
-    old: e6df0f649cff08da7a2feb6d963b39076ca129f9
-    new: cbe1d77ed84ae9ab3355d61aca0c30d561a61d5a
-    log: revlist-e6df0f649cff-cbe1d77ed84a.txt
+  - ref: refs/heads/driver-core-testing
+    old: a762f883ecf6eed3c0c57e7afa97fba09287a40a
+    new: 2467f9928c9824e52718f977009ed3a0cee83dc5
+    log: |
+         f85d90dd8d0efbc75e79698e147c6e682df22e1a sysfs: attribute_group: allow registration of const attribute
+         964c93b1eef37e3bbe0edb37346c076217d71fe7 sysfs: transparently handle const pointers in ATTRIBUTE_GROUPS()
+         02ac5335a55111d87a7a618355261b4407ed0f7f sysfs: introduce __SYSFS_FUNCTION_ALTERNATIVE()
+         7dd9fdb4939b972c1d0523e94fb3f70789653f0c sysfs: attribute_group: enable const variants of is_visible()
+         c301a2e2d78c2c20d466c7e38568406471ede17d samples/kobject: add is_visible() callback to attribute group
+         2d76fdc1c91a95c23cd3e47a4fd4315f1633019b samples/kobject: constify 'struct foo_attribute'
+         71464949b1f5f8b8599d057fea525a2a520f84d8 sysfs: simplify attribute definition macros
+         d3d25f430cadc59d42965f54f54a8c0050931860 mod_devicetable: Bump auxiliary_device_id name size
+         2467f9928c9824e52718f977009ed3a0cee83dc5 fs/kernfs: raise sb->maxbytes to MAX_LFS_FILESIZE
+         
 
---===============5967770995805660971==
+--===============6713567557770081068==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1764166308 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1764166234-b61876a400b23bdb1ad42e42cffd28081c46aa1e
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1764166713 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/driver-core/driver-core.git
+nonce 1764166639-ecef0f29a61cf73e1b733db96660dc2e56ee3c81
 
-e6df0f649cff08da7a2feb6d963b39076ca129f9 cbe1d77ed84ae9ab3355d61aca0c30d561a61d5a refs/heads/char-misc-testing
+a762f883ecf6eed3c0c57e7afa97fba09287a40a 2467f9928c9824e52718f977009ed3a0cee83dc5 refs/heads/driver-core-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmknCqQbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+YcoQAM8c6Kyela3fSalpwalZ
-PPrux4aPbTqKvbIpLngny8DnjSlAvOlm/p/HZygVXg1qbFadhXrmVTpZ5Fu/9l4c
-RPo5yMfKL8+v4N1QRrFUYDKyMtqvkBclQunx1RpVoWTit8lNeuEXKhHw87A2HKVq
-xaa/YxZpOtR4RWZaRI5Rta/mS3Qe7KlxNs82NE+zVUuXT6423GS/A0RH5EhEhH80
-z0n0TNUUa9XeB03f4wR0li7Qp7BVay/uU6r/QELYokVezYcme5rCotIHZQM4xOYE
-ka3apZSAu3dUddNtoCgFasj8cb5vDMkjg8Y1pNH4rc2W6k5Hk/6KgmLjkjWfuVs6
-RBwiYByY6+565+2JfrSByFgILSTE/O6RFUtGDkd4FzBI/oCj2nmK8F/m5wYbTHgq
-ltf+WhLwiog94gZSZN3mqozGw6ep/6/is0O6g1Z5H98mqX0SpxUSPFlgYemPYv3P
-WKXK+RfQ+dCfXQG3EyLrye63hnL+BvW35rC5xYX+UiE2XCZ4SHuIDEh7piL9C8Nc
-fRw05Nf3x7Sw2rNVmmXEcsptFY4eQb+meVBMyunV24yiUynKVJedx9+3EnyWMrd2
-zhS95kiZ0ClvtZnlaDfS2/339Di7IjOM4R0TEWM4rYo062ny7p7T1tyLv5ucsr84
-84BQsiDZa2d9qXl0DtatghtQ
-=fCuf
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmknDDkbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+8G0P/3mY8m9gYqJH4wLbwLzD
+4HRi8ESFamLN1GPpMsQvz8dcBL3fNSp/8RpP8c1AEOkZuiyGEq2HoKO6EisGgdk9
+1rBOxhF5+9DG4IdDYGfok5EiZ+KgIWRnQxJMri/x9qt8N+5XTxVXZ9H7tVFAwSKV
+DzdZxcGG42D8nc0eCuqjnDX+8EZPIQ+97/+elpoU9LwEOdAIKW+/TRvIp8mnjCwp
+0wTPd96X589j2OiUjUofm2nX2b1GxFkt7QlKQYPwcFNnoQ/et4SDQSCeil9CJBEB
+ak2b9PrrLo0gvVJcndaheASGpmpAbTWDNjguNQWA5DZp6NKjBGnLFLQ+HlzHjrWr
+9I4ezaPs+3qK8tXiNLM1kAxvDJpfr8U0z4VWk6f7H3mEWoDhclJgHofAT+7I2B9N
+zRJXUr14asJ4Kht+XMcP7mltyNu4d0wh7U/Y52PnYO6NWz3qfEA0pH1EHLUWKXX3
+wc9eMm88h7yHcT/T0pDQJKqlwdQSBL9dqp/xn5BqGXZTrKTuVrzUbdJ9aB7IQ2fZ
+4WpOqDN5F+181ZKa7T0p+X1EiHJnGJUbLAXmrmw1sRRH6sQN+MkL4yHzpzo+XsUP
+R5CHdF4IGzfnGVvSdDZ3sOS9C1RRSR5v/ksdX3jl4+RJ8lp7uuvq4mTv+LviNFDs
+lHdRqZmJm2vxmmdwhzN0u5OA
+=T2mS
 -----END PGP SIGNATURE-----
 
---===============5967770995805660971==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e6df0f649cff-cbe1d77ed84a.txt
-
-f0fdaa4ad55b7c6e46a5ccb9102bc9a96cad360f virt: acrn: split acrn_mmio_dev_res out of acrn_mmiodev
-4863cb2b0f505c77f7b4632246d4de4859b86ed2 mux: mmio: Add suspend and resume support
-05d36a5931d92310819e64fdee0cc1a35e14944c misc: cb710: Fix a NULL vs IS_ERR() check in probe()
-ef48f0f19ec9d77888a23ab62fd2c9e409d81a3e misc: bh1770glc: use pm_runtime_resume_and_get() in power_state_store
-85e83789582ff478888b9c9f904a9203660544af char: xillybus: add WQ_UNBOUND to alloc_workqueue users
-43cd4b634ef90c4e2ff75eaeb361786fa04c8874 misc: rp1: Fix an error handling path in rp1_probe()
-6d5925b667e4ed9e77c8278cc215191d29454a3f intel_th: Fix error handling in intel_th_output_open
-4d4e746aa9f0f07261dcb41e4f51edb98723dcaa dt-bindings: slimbus: fix warning from example
-3397c3cd859a2c51962ad032dcf97961d42f9db2 uio: Add SVA support for PCI devices via uio_pci_generic_sva.c
-75d19e368640f69a3c8532001ec99685d0e2ce89 hangcheck-timer: replace printk(KERN_CRIT) with pr_crit
-e03a2f7df72e8b7b56cdd0e19c295bf7633ed4ea hangcheck-timer: Replace %Ld with %lld
-cbe1d77ed84ae9ab3355d61aca0c30d561a61d5a hangcheck-timer: fix coding style spacing
-
---===============5967770995805660971==--
+--===============6713567557770081068==--
