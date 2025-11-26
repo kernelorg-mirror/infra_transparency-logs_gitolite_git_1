@@ -1,36 +1,29 @@
-Content-Type: multipart/mixed; boundary="===============6018447210841907681=="
+Content-Type: multipart/mixed; boundary="===============6298636397680766254=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next
-Date: Wed, 26 Nov 2025 02:49:34 -0000
-Message-Id: <176412537458.4000578.5835662306450810049@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next-history
+Date: Wed, 26 Nov 2025 02:49:47 -0000
+Message-Id: <176412538745.4001058.8400698842621952738@gitolite.kernel.org>
 
---===============6018447210841907681==
+--===============6298636397680766254==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/next/linux-next
+repo: pub/scm/linux/kernel/git/next/linux-next-history
 user: sfr
 changes:
   - ref: refs/heads/master
     old: 92fd6e84175befa1775e5c0ab682938eca27c0b2
     new: 663d0d1af3faefe673cabf4b6b077149a87ad71f
     log: revlist-92fd6e84175b-663d0d1af3fa.txt
-  - ref: refs/heads/stable
-    old: ac3fd01e4c1efce8f2c054cdeb2ddd2fc0fb150d
-    new: 30f09200cc4aefbd8385b01e41bde2e4565a6f0e
-    log: revlist-ac3fd01e4c1e-30f09200cc4a.txt
-  - ref: refs/tags/next-20250826
-    old: b6347279a8db405a1aa29193766dbb7842f048fe
-    new: 0000000000000000000000000000000000000000
   - ref: refs/tags/next-20251126
     old: 0000000000000000000000000000000000000000
     new: 14509f7d56d42d8847353fe483f84091be5199a9
 
---===============6018447210841907681==
+--===============6298636397680766254==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -979,24 +972,4 @@ d99673c0a9bca583ab1f389a8d6b2cf194e337ed Merge branch 'next' of https://git.kern
 58b5223a20c1a9a5cae5aa59e0da8f51b691bebf Merge branch 'for-next' of https://github.com/hisilicon/linux-hisi.git
 663d0d1af3faefe673cabf4b6b077149a87ad71f Add linux-next specific files for 20251126
 
---===============6018447210841907681==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ac3fd01e4c1e-30f09200cc4a.txt
-
-341d14bd69d05b1c30bd83c5056730ba6d78b83d dm-pcache: allow built-in build and rename flush helper
-840b80af74fda9672f111023ca17ad7875427f13 dm-pcache: reuse meta_addr in pcache_meta_find_latest
-a6ee8422b4f2a591de010f4e60471060b13d4170 dm-pcache: zero cache_info before default init
-a612d24e850b28c16384cf071636034935447e43 dm: fix failure when empty flush's bi_sector points beyond the device end
-fe680d8c747f4e676ac835c8c7fb0f287cd98758 dm-verity: fix unreliable memory allocation
-ac84ff453305d12bc799074a9f9af30ff97fff70 iommufd/driver: Fix counter initialization for counted_by annotation
-b07bf253ef8e48e7ff0b378f441a180a8ad37124 iommufd/iommufd_private.h: Avoid -Wflex-array-member-not-at-end warning
-9238fa35a3c04835a77988a14e1397763cf0eabe Revert "arm64: acpi: Enable ACPI CCEL support"
-7c16c02e86081355a54c50c045b0caa172e72028 ACPI: GTDT: Correctly number platform devices for MMIO timers
-165eb13e485c5c25c7cb276ac85f788a2bd200cb arm64: proton-pack: Fix hard lockup when !MITIGATE_SPECTRE_BRANCH_HISTORY
-8a2bcda5e139064b255531eb5889ff826a8b6995 Merge tag 'for-6.18/dm-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/device-mapper/linux-dm
-5f8a6c70afc58d4be849407658f27f47f006a3c7 Merge tag 'for-linus-iommufd' of git://git.kernel.org/pub/scm/linux/kernel/git/jgg/iommufd
-30f09200cc4aefbd8385b01e41bde2e4565a6f0e Merge tag 'arm64-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/arm64/linux
-
---===============6018447210841907681==--
+--===============6298636397680766254==--
