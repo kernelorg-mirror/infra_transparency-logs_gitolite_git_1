@@ -1,21 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Wed, 26 Nov 2025 19:11:58 -0000
-Message-Id: <176418431853.639074.9105974974576245857@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
+Date: Wed, 26 Nov 2025 19:20:28 -0000
+Message-Id: <176418482876.647426.7391382346270368762@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/perf/perf-tools-next
+user: namhyung
 changes:
-  - ref: refs/heads/asoc-6.19
-    old: 9d3fcd0ebe91c2079b4aeaffc7493a0bb2ad45f2
-    new: 994a0b2eb605144871a85fac29a2c4bdbac07131
+  - ref: refs/heads/tmp.perf-tools-next
+    old: 5accdaec526ed8708ec64cf027a5e75aa83eb504
+    new: 834ebb5678d75d844f5d4f44ede78724d8c96630
     log: |
-         b4d072c98e47c562834f2a050ca98a1c709ef4f9 ASoC: nau8325: use simple i2c probe function
-         cd41d3420ef658b2ca902d7677536ec8e25b610a ASoC: nau8325: add missing build config
-         994a0b2eb605144871a85fac29a2c4bdbac07131 nau8325 build fixes
+         87c75fa75559f5501b5a03caf442f18899e388be perf pmu: fix duplicate conditional statement
+         c9573287729bc5ed3d2adbc028fe33d265917ae5 perf vendor events riscv: add T-HEAD C920V2 JSON support
+         834ebb5678d75d844f5d4f44ede78724d8c96630 perf tools: Don't read build-ids from non-regular files
          
