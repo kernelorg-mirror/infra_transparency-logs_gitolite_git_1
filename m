@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Wed, 26 Nov 2025 03:09:54 -0000
-Message-Id: <176412659447.4017448.4508173864087378404@gitolite.kernel.org>
+Date: Wed, 26 Nov 2025 03:12:50 -0000
+Message-Id: <176412677004.4020357.6600790139332969713@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/netdev/net
 user: kuba
 changes:
   - ref: refs/heads/main
-    old: 0ae9cfc454ea5ead5f3ddbdfe2e70270d8e2c8ef
-    new: f5bce28f6b9125502abec4a67d68eabcd24b3b17
+    old: f5bce28f6b9125502abec4a67d68eabcd24b3b17
+    new: ae1737e7339b513f8c2fc21b500a0fc215d155c3
     log: |
-         f5bce28f6b9125502abec4a67d68eabcd24b3b17 net: sxgbe: fix potential NULL dereference in sxgbe_rx()
+         ae1737e7339b513f8c2fc21b500a0fc215d155c3 r8169: fix RTL8127 hang on suspend/shutdown
          
