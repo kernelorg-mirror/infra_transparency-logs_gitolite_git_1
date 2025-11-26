@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jarkko/tpm2-vtpm
-Date: Wed, 26 Nov 2025 22:29:15 -0000
-Message-Id: <176419615512.813972.15280199509338169054@gitolite.kernel.org>
+Date: Wed, 26 Nov 2025 22:41:48 -0000
+Message-Id: <176419690870.824539.8294347231312546007@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,9 @@ repo: pub/scm/linux/kernel/git/jarkko/tpm2-vtpm
 user: jarkko
 changes:
   - ref: refs/heads/main
-    old: 7a98e9a18483448eb199e0fe6b7bcc96d2ab9a0b
-    new: 2f6a329fc799768e542e255e7bc619c3d65c50e9
+    old: 2f6a329fc799768e542e255e7bc619c3d65c50e9
+    new: 50269a427a93c901fbdd7064fa1adc4cae3b34fd
     log: |
-         2f6a329fc799768e542e255e7bc619c3d65c50e9 fix(tests): load_removes_stale_transient_entries
+         d6c8dd71c210fb15f48cee14d9bd95b6d4747afe refactor: remove tpm_marshal_array
+         50269a427a93c901fbdd7064fa1adc4cae3b34fd chore: bump version to 0.5.1
          
