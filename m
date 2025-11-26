@@ -1,52 +1,28 @@
-Content-Type: multipart/mixed; boundary="===============2570594331691038325=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux
-Date: Wed, 26 Nov 2025 17:47:53 -0000
-Message-Id: <176417927383.565714.9492190485610708563@gitolite.kernel.org>
-
---===============2570594331691038325==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/zx2c4/wireguard-linux
+Date: Wed, 26 Nov 2025 17:56:26 -0000
+Message-Id: <176417978609.573533.13191977183006792233@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux
-user: axboe
+repo: pub/scm/linux/kernel/git/zx2c4/wireguard-linux
+user: zx2c4
 changes:
-  - ref: refs/heads/for-6.19/io_uring
-    old: 1e93de9205b4d5c0f06507e9e1c398574a07fb80
-    new: 0d3d971d9800dda1b5a78510da1ecf079fad0bfc
+  - ref: refs/heads/devel
+    old: 9ee1ec5a1c8d011d5c502571887b251e6223d2be
+    new: 596c550288bd00912cda35be8baaa46d9704ab6e
     log: |
-         96f6362f3981088dac64d00f6f6442a325939b29 io_uring: clear IORING_SETUP_SINGLE_ISSUER for IORING_SETUP_SQPOLL
-         fbd8984a54af9af36a136c9964377fd73ad2bd05 io_uring: use io_ring_submit_lock() in io_iopoll_req_issued()
-         aacb1b4e89b24e0188b553d70baade1b45da18b8 io_uring: factor out uring_lock helpers
-         0d3d971d9800dda1b5a78510da1ecf079fad0bfc io_uring: avoid uring_lock for IORING_SETUP_SINGLE_ISSUER
+         30a17e18f7e1687c7c5884e9fce7524f5f325bce wireguard: netlink: validate nested arrays in policy
+         4ec7e81a656a0e97ef3578315e20d61dd94590b0 wireguard: netlink: use WG_KEY_LEN in policies
+         e67f37abb24166d2cb00a700f9fc387c4323bd0a wireguard: netlink: convert to split ops
+         55daa53ef67588e1586d6a7d8faa8b4155e95e65 wireguard: netlink: lower .maxattr for WG_CMD_GET_DEVICE
+         72da8da2e295a45c86ee713fc7a2e3b4127864b5 netlink: specs: add specification for wireguard
+         6e4317404908e43d91dfc737820d8f3885fe7b05 wireguard: uapi: move enum wg_cmd
+         4d501ddf99ba349a97e2fd2f705f21b058b81105 wireguard: uapi: move flag enums
+         032ecb63bbaef04166b93e33326b976e75907df9 wireguard: uapi: generate header with ynl-gen
+         ec53ddf0d7b39aaad633391bb40bfcabbe2e1975 tools: ynl: add sample for wireguard
+         596c550288bd00912cda35be8baaa46d9704ab6e wireguard: netlink: generate netlink code
          
-  - ref: refs/heads/master
-    old: ac3fd01e4c1efce8f2c054cdeb2ddd2fc0fb150d
-    new: 30f09200cc4aefbd8385b01e41bde2e4565a6f0e
-    log: revlist-ac3fd01e4c1e-30f09200cc4a.txt
-
---===============2570594331691038325==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ac3fd01e4c1e-30f09200cc4a.txt
-
-341d14bd69d05b1c30bd83c5056730ba6d78b83d dm-pcache: allow built-in build and rename flush helper
-840b80af74fda9672f111023ca17ad7875427f13 dm-pcache: reuse meta_addr in pcache_meta_find_latest
-a6ee8422b4f2a591de010f4e60471060b13d4170 dm-pcache: zero cache_info before default init
-a612d24e850b28c16384cf071636034935447e43 dm: fix failure when empty flush's bi_sector points beyond the device end
-fe680d8c747f4e676ac835c8c7fb0f287cd98758 dm-verity: fix unreliable memory allocation
-ac84ff453305d12bc799074a9f9af30ff97fff70 iommufd/driver: Fix counter initialization for counted_by annotation
-b07bf253ef8e48e7ff0b378f441a180a8ad37124 iommufd/iommufd_private.h: Avoid -Wflex-array-member-not-at-end warning
-9238fa35a3c04835a77988a14e1397763cf0eabe Revert "arm64: acpi: Enable ACPI CCEL support"
-7c16c02e86081355a54c50c045b0caa172e72028 ACPI: GTDT: Correctly number platform devices for MMIO timers
-165eb13e485c5c25c7cb276ac85f788a2bd200cb arm64: proton-pack: Fix hard lockup when !MITIGATE_SPECTRE_BRANCH_HISTORY
-8a2bcda5e139064b255531eb5889ff826a8b6995 Merge tag 'for-6.18/dm-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/device-mapper/linux-dm
-5f8a6c70afc58d4be849407658f27f47f006a3c7 Merge tag 'for-linus-iommufd' of git://git.kernel.org/pub/scm/linux/kernel/git/jgg/iommufd
-30f09200cc4aefbd8385b01e41bde2e4565a6f0e Merge tag 'arm64-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/arm64/linux
-
---===============2570594331691038325==--
