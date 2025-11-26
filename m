@@ -1,22 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
-Date: Wed, 26 Nov 2025 15:53:54 -0000
-Message-Id: <176417243490.466691.9413295564334797154@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/johan/usb-serial
+Date: Wed, 26 Nov 2025 16:12:58 -0000
+Message-Id: <176417357824.482166.17076720838061604481@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/maz/arm-platforms
-user: maz
+repo: pub/scm/linux/kernel/git/johan/usb-serial
+user: johan
 changes:
-  - ref: refs/heads/kvm-arm64/feat_idst
-    old: bf1ae76d4f1b3ab4238995aea2305e1ebc1fe8d9
-    new: c433e08e59bcc10c932ac58acf73761225070e5c
+  - ref: refs/heads/usb-next
+    old: 7970b4969c4c99bcdaf105f9f39c6d2021f6d244
+    new: 072f2c49572547f4b0776fe2da6b8f61e4b34699
     log: |
-         39f2bbca1c8eb8e5cb6d384849efefe2ad589976 KVM: arm64: Force trap of GMID_EL1 when the guest doesn't have MTE
-         2d4426d117d62c2644d5dacbfac5d22ba908bc2b KVM: arm64: Add a generic synchronous exception injection primitive
-         9e9599bc512380b52a07e4961357255b63872d03 KVM: arm64: Report optional ID register traps with a 0x18 syndrome
-         c433e08e59bcc10c932ac58acf73761225070e5c KVM: arm64: selftests: Add a test for FEAT_IDST
+         c908039a29aa70870871f4848125b3d743f929bf USB: serial: option: add Telit Cinterion FE910C04 new compositions
+         072f2c49572547f4b0776fe2da6b8f61e4b34699 USB: serial: option: move Telit 0x10c7 composition in the right place
          
