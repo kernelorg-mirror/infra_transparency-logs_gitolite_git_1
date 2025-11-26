@@ -1,55 +1,43 @@
-Content-Type: multipart/mixed; boundary="===============0187637811935623308=="
+Content-Type: multipart/mixed; boundary="===============3003129439750252411=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/wireless/wireless-next
-Date: Wed, 26 Nov 2025 10:08:42 -0000
-Message-Id: <176415172219.169693.9236606823003535433@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/daniel.lezcano/linux
+Date: Wed, 26 Nov 2025 10:24:27 -0000
+Message-Id: <176415266760.182780.6437789757656664713@gitolite.kernel.org>
 
---===============0187637811935623308==
+--===============3003129439750252411==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/wireless/wireless-next
-user: jberg
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/daniel.lezcano/linux
+user: daniel.lezcano
 changes:
-  - ref: refs/heads/main
-    old: 1c6a92a5a5de7ebf94526dee7068926e6d5b1b01
-    new: f9e788c5fd3a23edecd808ebb354e2cb1aef87c3
-    log: |
-         f9e788c5fd3a23edecd808ebb354e2cb1aef87c3 wifi: mac80211: allow sharing identical chanctx for S1G interfaces
-         
+  - ref: refs/heads/timers/drivers/next
+    old: 534633aa8b7b87d280cd610a54101061b4ee80e0
+    new: d1780dce9575072303b9c574614b72b5c8c5c44c
+    log: revlist-534633aa8b7b-d1780dce9575.txt
 
---===============0187637811935623308==
+--===============3003129439750252411==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-534633aa8b7b-d1780dce9575.txt
 
-certificate version 0.1
-pusher 7BF9099A 1764151756 +0100
-pushee ssh+git://korg/pub/scm/linux/kernel/git/wireless/wireless-next.git
-nonce 1764151683-3c7a20c8fc4fd48c2b080209273f6c0801e00e32
+576c564ec3bb60e571c705a71907d7c0c039e6c0 clocksource/drivers/sprd: Enable register for timer counter from 32 bit to 64 bit
+640594a04f119338019b0aeed70c7301216595b3 clocksource/drivers/timer-sp804: Fix read_current_timer() issue when clock source is not registered
+2ba8e2aae1324704565a7d4d66f199d056c9e3c6 clocksource/drivers/ralink: Fix resource leaks in init error path
+6b38a8b31e2c5c2c3fd5f9848850788c190f216d clocksource/drivers/stm: Fix double deregistration on probe failure
+62524f285c11d6e6168ad31b586143755b27b2e5 clocksource/drivers/sh_cmt: Always leave device running after probe
+b452d2c97eeccbf9c7ac5b3d2d9e80bf6d8a23db clocksource/drivers/nxp-stm: Fix section mismatches
+6aa10f0e2ef9eba1955be6a9d0a8eaecf6bdb7ae clocksource/drivers/arm_arch_timer_mmio: Prevent driver unbind
+e25f964cf414dafa6bee5c9c2c0b1d1fb041dc92 clocksource/drivers/nxp-pit: Prevent driver unbind
+6a2416892e8942f5e2bfe9b85c0164f410a53a2d clocksource/drivers/nxp-stm: Prevent driver unbind
+627f3f3716a3591f5e6a6bd124c95eef85444080 clocksource/drivers/rda: Add sched_clock_register for RDA8810PL SoC
+ed92a968a967042a7c7eb4c938e640b4deb79fe2 clocksource/drivers/stm32-lp: Drop unused module alias
+40caba2bd027ab57c196b690e4e7f3c1746acb96 dt-bindings: timer: Add Realtek SYSTIMER
+d1780dce9575072303b9c574614b72b5c8c5c44c clocksource/drivers: Add Realtek system timer driver
 
-1c6a92a5a5de7ebf94526dee7068926e6d5b1b01 f9e788c5fd3a23edecd808ebb354e2cb1aef87c3 refs/heads/main
------BEGIN PGP SIGNATURE-----
-
-iQIzBAABCgAdFiEEpeA8sTs3M8SN2hR410qiO8sPaAAFAmkm0cwACgkQ10qiO8sP
-aAA4+w/9GaN43dRGUvH54tN2+KIMNCJ9USZa2gMuWDcU0g0kONhA47mQChSggIdJ
-qGFrQgUywj6OGXKTkdNooLOn0WUjayrhWZKyYNh+bEUUa3KcfKmts+5TUo9lvCyp
-8ciyelH9v7vmY3ZkCceSU1xXhO/IOQisAwHlAIPN+hBkRsivZSmoilehEMTOTzTI
-/n2rs1GZPGQo402XWWBdelU/RnwpdcgPeB6PsVeEWH/SDd3p3qBfDKsIOcK5znn2
-PPDykQDZiV8AX+xU32+T03zNU3Ve72KdiVCRP2c0OvwHSgpwpFK4WYi9/SC2i2UE
-FZv1k0SCs5LqKzX0XjDEsCFIRNgV76ih9z2tQR2gufcPSfByYVhT+wq5oFnbZkis
-HyWDrp4U8JhwpbezE1grHFtkLKTjRvfxvk0zBUC/kBnsAsjhSXe7NJpSXt+x43KA
-xetM4lAwz55oCSls0moAE7tv6QMFlhZ0y4fbK49jWTUWWdmSbv+5HV/zRPhnjdUq
-WHz6YK89APYMl8YYN5moWZnMtd3fghgXFW+MdaPsi8c9ZiSKIcAhZW1OMjSMjF3p
-pxD3iCI5yttC5OEXXlpyvwVjZutbmjDSQ4c2fW4J/H4feSTwoYdHaA3NCZ4ShloC
-4RVjt1l4ShGKu1K8amjMqUKPmgEP8jOemfz6+cMw6PUdwcq/x9E=
-=6ydc
------END PGP SIGNATURE-----
-
---===============0187637811935623308==--
+--===============3003129439750252411==--
