@@ -1,23 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Thu, 27 Nov 2025 10:58:01 -0000
-Message-Id: <176424108167.1496394.7742873394661494059@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/conor/linux
+Date: Thu, 27 Nov 2025 11:05:43 -0000
+Message-Id: <176424154385.1503698.8166491041525934072@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: pabeni
+repo: pub/scm/linux/kernel/git/conor/linux
+user: conor
 changes:
-  - ref: refs/heads/main
-    old: b3e528a5811bbc8246dbdb962f0812dc9b721681
-    new: 36d747866445a362d486028792e56dbe04fc16fb
+  - ref: refs/heads/tsu
+    old: ee448f4b363d21bc51b5945c31c12fc7a8810df4
+    new: 3b97eb8f28369bc484fbff6bc899deb807220b3d
     log: |
-         50caa744689e505414673c20359b04aa918439e3 net: fec: cancel perout_timer when PEROUT is disabled
-         e97faa0c20ea8840f45569ba434e30538fff8fc9 net: fec: do not update PEROUT if it is enabled
-         c0a1f3d7e128e8d1b6c0fe09c68eac5ebcf677c8 net: fec: do not allow enabling PPS and PEROUT simultaneously
-         9a060d0fac9e75524f72864adec6d8cdb70a5bca net: fec: do not register PPS event for PEROUT
-         36d747866445a362d486028792e56dbe04fc16fb Merge branch 'net-fec-fix-some-ptp-related-issues'
+         9aae49b58253040631834cda755541ae882940ff net: macb: rename macb_default_usrio to at91_default_usrio as not all platforms have mii mode control in usrio
+         9808ffadc07d5bc46b8c665740c3034d6666cf90 net: macb: np4 doesn't need a usrio pointer
+         e7137606f1ee596358e2e5b699044e6390043ee8 dt-bindings: net: macb: add property indicating timer adjust mode
+         64e3a6b20f7fc6b4e2b115c229af700d5c582154 net: macb: afaict, the driver doesn't support tsu timer adjust mode
+         db24794d16c02c781c4112c19e7cc5b4848395df net: macb: add mpfs specific usrio configuration
+         3b97eb8f28369bc484fbff6bc899deb807220b3d net: macb: clean up tsu clk rate acquisition
          
