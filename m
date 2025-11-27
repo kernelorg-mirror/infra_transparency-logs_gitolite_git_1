@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============6877775883564528108=="
+Content-Type: multipart/mixed; boundary="===============3489418717719944472=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/a.hindborg/linux
-Date: Thu, 27 Nov 2025 11:06:49 -0000
-Message-Id: <176424160954.1504445.528537692520891258@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/a.hindborg/configfs
+Date: Thu, 27 Nov 2025 11:07:38 -0000
+Message-Id: <176424165885.1505224.2041169487707984575@gitolite.kernel.org>
 
---===============6877775883564528108==
+--===============3489418717719944472==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/a.hindborg/linux
+repo: pub/scm/linux/kernel/git/a.hindborg/configfs
 user: a.hindborg
 changes:
   - ref: refs/heads/configfs-next
@@ -20,7 +20,7 @@ changes:
     new: f7f78098690d60a03b47942ac7d73ea17b42239e
     log: revlist-462272dd734b-f7f78098690d.txt
 
---===============6877775883564528108==
+--===============3489418717719944472==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ ac3fd01e4c1efce8f2c054cdeb2ddd2fc0fb150d Linux 6.18-rc7
 f2f36500a63b73a8be90127322ad740253cf89c0 configfs: Constify ct_group_ops in struct config_item_type
 f7f78098690d60a03b47942ac7d73ea17b42239e configfs: Constify ct_item_ops in struct config_item_type
 
---===============6877775883564528108==--
+--===============3489418717719944472==--
