@@ -1,56 +1,58 @@
-Content-Type: multipart/mixed; boundary="===============1147495047871641291=="
+Content-Type: multipart/mixed; boundary="===============1587338194066946855=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Thu, 27 Nov 2025 14:11:09 -0000
-Message-Id: <176425266901.1669792.14659477452832806171@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
+Date: Thu, 27 Nov 2025 14:15:43 -0000
+Message-Id: <176425294322.1674031.14472550939193507595@gitolite.kernel.org>
 
---===============1147495047871641291==
+--===============1587338194066946855==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
+repo: pub/scm/linux/kernel/git/gregkh/staging
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/master
-    old: bf07704355800ce7f76a3b3974706b479d39d0a0
-    new: 7055388384a5f063d86c73fa007f8386d4f9aff9
+  - ref: refs/heads/staging-testing
+    old: 1520007aa361cd97067364d8c6fc1bbc14e93f08
+    new: 502ddcc405b69fa92e0add6c1714d654504f6fd7
     log: |
-         7055388384a5f063d86c73fa007f8386d4f9aff9 6.17-stable patches
+         154828bf9559b9c8421fc2f0d7f7f76b3683aaed staging: rtl8723bs: fix out-of-bounds read in rtw_get_ie() parser
+         6ef0e1c10455927867cac8f0ed6b49f328f8cf95 staging: rtl8723bs: fix stack buffer overflow in OnAssocReq IE parsing
+         502ddcc405b69fa92e0add6c1714d654504f6fd7 staging: rtl8723bs: fix out-of-bounds read in OnBeacon ESR IE parsing
          
 
---===============1147495047871641291==
+--===============1587338194066946855==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1764252741 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1764252667-d989d938e8de15420973e31aa034f02a08864863
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1764253014 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
+nonce 1764252940-6c391730bf0aca53a5720b742ba6c3fe379959ba
 
-bf07704355800ce7f76a3b3974706b479d39d0a0 7055388384a5f063d86c73fa007f8386d4f9aff9 refs/heads/master
+1520007aa361cd97067364d8c6fc1bbc14e93f08 502ddcc405b69fa92e0add6c1714d654504f6fd7 refs/heads/staging-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmkoXEUbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+EsUQAJpLsLRY1gnyxqXTZE/B
-3y9ACQrPwhdqSaVVLjOwb0Q0Ista+qQyMfqtGfpzT+tdz0YFSt1ufuSICrHClyxf
-ql3stWLhS+OBb+e6a2YiJYD1xJpw64FEabeLLncMl/bkfYjNi5Xsdr/Q7qBClzMu
-fHAWWk8f2KX1Bxh27tUoBKYSjsOx3d8WkAGsQiG5eKa6NDOMoKe9xbZtJeI4bMLH
-a0MhdfkyK9P4p6pu/02zbWCsXMFroEsEcRXa9QMQ67tv6CivbuvP6sD7/K0RCF+G
-c8KziO6hGuc1f/sSz+XsqWap8w3JIieJXN2QZIDin9WnM75Kg1Gz4zXZZKdACW4/
-F0RmiTzzpO8626PZwx7aZCUMgsro7fujR0+tM1dUcSJBVlag8n4BndVKV7JbRXIq
-/8UwvjhdEWyLJoSE4TyaKlm9ix17qEchLd9sE/q5wB4ZBVbkPwvFMaq7PQ23w7AA
-I85cacwEVQpNK9ez7SdWgtKaK2jnQnh9225csA9nDs78SxCgO9WUpCTLi2gSICwF
-nIH8HIKubOi481GSjwcLG/FKWGOaQdrLNTwE58cSU6x+RDCHW5fKq/WvR5anQ9bZ
-3XFq8aZ+Jrw8mwUjOhyN5pQRoVEvTpO3QcIiYZYTDwpFNh8r84BuD2Tz1N7GBPrx
-0vblX2y0JMT4c5vDVhB3Vpzh
-=8rTQ
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmkoXVYbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+CHsQAMeIl0/d4LN0rfqY805u
+pXrbK3AQjMFm/ixFxwsPGeglJP23pRMvsxqdgaE57oCr084uaCxHsc3I69Fdib1P
+IXQxcXPhZpQ/1bm9R5Xy9bPUqpG3xkaaKB1mrZAb/TO3l9eC88H1Pp/vHgO3nEPB
+3/XcjQeJRz6e1gpaSK7C/XL6O9ZfhgnLxmvo6nvOoQiIseIGX7sQbjd2sAsMfQC4
+v8LPSuOIb0q44qK5gPbeVhgeAjlcuYXHNxLU4h+Tw1MTvmfIpoOqpQHHo7+R3XCU
+lPxQttk7NuwGW/p7W5jCPFu/gToocPq71sMVgzwAYaFXlyUB6C8BOey0UdazqW9S
+3ki/rw7/gbPHoOxTzAnrU6CbdR9bc43vG1zJ2ZMKucIiRbl8SGyVrgA/7E/QGq4n
+G/TCvtw0ZdlzKGkSdcuEmwtDPAJcoh0HLbK4kDOp7A22rqm/+JzWNKk9lQmMrc5j
+AxaUMuAAVJSkElB59VHEXYhH0sZM5//tkQ1CAtl78k4NakDsX64lvfB9bm1HdHf+
+g4/FRlYPde4rV1QOwEvJow0Mn+mHgSXYBxMfs9iumS5O68VXNHAgfadqy1vn/Gk8
+ewVBbWtBqR+E92GqZHXaabpjNeU3KdJM8WJjEMU4Nw/8Q5uluvnESwLGpzni/Rhb
+5iyNqxhFbcE8M7hlctK9IdJa
+=F2Ei
 -----END PGP SIGNATURE-----
 
---===============1147495047871641291==--
+--===============1587338194066946855==--
