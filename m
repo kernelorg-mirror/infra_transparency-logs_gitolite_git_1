@@ -1,27 +1,63 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Thu, 27 Nov 2025 19:02:37 -0000
-Message-Id: <176427015700.111700.10361025548532771528@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============7464208807380239235=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/arm64/linux
+Date: Thu, 27 Nov 2025 19:15:12 -0000
+Message-Id: <176427091284.130251.14106495894130353272@gitolite.kernel.org>
+
+--===============7464208807380239235==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-user: jarkko
+repo: pub/scm/linux/kernel/git/arm64/linux
+user: cmarinas
 changes:
-  - ref: refs/heads/tpm2-session
-    old: cac7ffdd0075ec42f98a5dc5e7d6162bd2be6895
-    new: e1b2c8584dd78d2618999a08ac30966683cd7c6a
+  - ref: refs/heads/for-kernelci
+    old: b5fb0949b675629d2b5adcaf1ddc87ebd50e4612
+    new: 56b28b3bf0f5599df0e2913a9871dcc3db455538
+    log: revlist-b5fb0949b675-56b28b3bf0f5.txt
+  - ref: refs/heads/for-next/core
+    old: 2d4f8aad4a52e18c1c8d5d1acb895b57f622a416
+    new: c203c24f85a3c76cbd341fd05bdd4b95f9fc7c0d
     log: |
-         bb78ec5255c9862458c51e2d6c46169d6265e40b KEYS: trusted: remove redundant instance of tpm2_hash_map
-         18e615963ce64e33086d127f0a3f01afe0ec7368 KEYS: trusted: Fix memory leak in tpm2_load()
-         2d5c792ceafb46e633ff5e48adb94689e2bdb172 KEYS: trusted: Use tpm_ret_to_err() in trusted_tpm2
-         acf4e8eca2b4580e96ed27f04872f79b259fbfa9 tpm2-sessions: Remove 'attributes' from tpm_buf_append_auth
-         98956480239b3f690d74bc9225a5a99b279fae6e tpm2-sessions: Unmask tpm_buf_append_hmac_session()
-         954aca8b82fcae4329c8aa7e9eb8388a608c2b0b KEYS: trusted: Open code tpm2_buf_append()
-         f68c7dd9caa356e6cf6d7e2a940f95063df69cc5 tpm-buf: unify TPM_BUF_BOUNDARY_ERROR and TPM_BUF_OVERFLOW
-         d456332ac12d8373e89f8dd20e1baaa8b5beb52d tpm-buf: Remove chip parameter from tpm_buf_append_handle
-         e1b2c8584dd78d2618999a08ac30966683cd7c6a tpm-buf: Enable managed and stack allocations.
+         c86d9f8764ba2ffa4e19cca40918c12ccc3ad909 arm64: atomics: lse: Remove unused parameters from ATOMIC_FETCH_OP_AND macros
+         bf09ee918053edec7efeb2f9977b53b02e029553 KVM: arm64: selftests: Remove ARM64_FEATURE_FIELD_BITS and its last user
+         4138cc63d3efdd77de799aafb0bd183e1d655a0f KVM: arm64: selftests: Consider all 7 possible levels of cache
+         27abb1ee5a4e02a5314423371dafaf41499314a5 arm64/sysreg: Remove unused define ARM64_FEATURE_FIELD_BITS
+         5ece69007f8eeb7e31eabfbb837ca06abea874a9 Merge branches 'for-next/misc', 'for-next/kselftest', 'for-next/efi-preempt', 'for-next/assembler-macro', 'for-next/typos', 'for-next/sme-ptrace-disable', 'for-next/local-tlbi-page-reused', 'for-next/mpam', 'for-next/topology', 'for-next/acpi' and 'for-next/documentation', remote-tracking branch 'arm64/for-next/perf' into for-next/core
+         c203c24f85a3c76cbd341fd05bdd4b95f9fc7c0d Merge branch 'for-next/sysreg' into for-next/core
          
+  - ref: refs/heads/for-next/misc
+    old: f20810157f6e971e0faca77b5c53c59f188b6ed8
+    new: c86d9f8764ba2ffa4e19cca40918c12ccc3ad909
+    log: |
+         c86d9f8764ba2ffa4e19cca40918c12ccc3ad909 arm64: atomics: lse: Remove unused parameters from ATOMIC_FETCH_OP_AND macros
+         
+  - ref: refs/heads/for-next/sysreg
+    old: a04fbfb8a175d4904727048b97fcdef12e392ed1
+    new: 27abb1ee5a4e02a5314423371dafaf41499314a5
+    log: |
+         bf09ee918053edec7efeb2f9977b53b02e029553 KVM: arm64: selftests: Remove ARM64_FEATURE_FIELD_BITS and its last user
+         4138cc63d3efdd77de799aafb0bd183e1d655a0f KVM: arm64: selftests: Consider all 7 possible levels of cache
+         27abb1ee5a4e02a5314423371dafaf41499314a5 arm64/sysreg: Remove unused define ARM64_FEATURE_FIELD_BITS
+         
+
+--===============7464208807380239235==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-b5fb0949b675-56b28b3bf0f5.txt
+
+c86d9f8764ba2ffa4e19cca40918c12ccc3ad909 arm64: atomics: lse: Remove unused parameters from ATOMIC_FETCH_OP_AND macros
+bf09ee918053edec7efeb2f9977b53b02e029553 KVM: arm64: selftests: Remove ARM64_FEATURE_FIELD_BITS and its last user
+4138cc63d3efdd77de799aafb0bd183e1d655a0f KVM: arm64: selftests: Consider all 7 possible levels of cache
+27abb1ee5a4e02a5314423371dafaf41499314a5 arm64/sysreg: Remove unused define ARM64_FEATURE_FIELD_BITS
+5ece69007f8eeb7e31eabfbb837ca06abea874a9 Merge branches 'for-next/misc', 'for-next/kselftest', 'for-next/efi-preempt', 'for-next/assembler-macro', 'for-next/typos', 'for-next/sme-ptrace-disable', 'for-next/local-tlbi-page-reused', 'for-next/mpam', 'for-next/topology', 'for-next/acpi' and 'for-next/documentation', remote-tracking branch 'arm64/for-next/perf' into for-next/core
+c203c24f85a3c76cbd341fd05bdd4b95f9fc7c0d Merge branch 'for-next/sysreg' into for-next/core
+1f758e8ac19329659ad6e8e463f7b845e3a57724 Merge remote-tracking branch 'arm64/for-next/fixes' into for-kernelci
+56b28b3bf0f5599df0e2913a9871dcc3db455538 Merge branch 'for-next/core' into for-kernelci
+
+--===============7464208807380239235==--
