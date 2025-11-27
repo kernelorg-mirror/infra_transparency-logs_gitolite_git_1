@@ -1,55 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============5701391550273447896=="
+Content-Type: multipart/mixed; boundary="===============0789753469577466815=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Thu, 27 Nov 2025 11:42:34 -0000
-Message-Id: <176424375458.1534379.5748684530674776054@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Thu, 27 Nov 2025 11:42:45 -0000
+Message-Id: <176424376587.1534734.2487327067978858386@gitolite.kernel.org>
 
---===============5701391550273447896==
+--===============0789753469577466815==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/asoc-6.19
-    old: 994a0b2eb605144871a85fac29a2c4bdbac07131
-    new: 5d0cad409099798462d8a46756be537730bd8a22
-    log: revlist-994a0b2eb605-5d0cad409099.txt
+  - ref: refs/heads/for-next
+    old: 9e0310ca8140ad0ba44042696794f11247891ac3
+    new: a51da8684c72707a8abfab2e0ae06a02c4bc1934
+    log: revlist-9e0310ca8140-a51da8684c72.txt
 
---===============5701391550273447896==
+--===============0789753469577466815==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1764243826 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1764243752-ab3ad4fa82d44541d4288379e786fddc576890d8
-
-994a0b2eb605144871a85fac29a2c4bdbac07131 5d0cad409099798462d8a46756be537730bd8a22 refs/heads/asoc-6.19
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmkoOXIACgkQJNaLcl1U
-h9ApMAf8DGMMGmaZqI/waJKf/iEIMT6fyEdBycDOcMbsosayAF3qEk4YyA3Lt80S
-J+M5N2Whoma86/nvNVxhgBEotUj5UTa5oDiWpbMKHCZUP0SZAxBO0xWN5M3um/kD
-DC07zFv1SiovnwyvBtaR/YGvWhhIIWsVNAF5t5qZphf7SvpLtcJkCqF+3o6WFrHt
-7hJ6eybridMTonHWy5gIBzzXfMgCJE8huS9VIc9c5tYCt6BOPg1gMH3DV4crIKhA
-FCD84LyxIV5ErW+3v2NR6xnEBMfj1LYE2TCdO2XaGvYDBnr8z+9OlOjCiMRhRDLP
-AcuDbbbUlBT/uUN22Cqi7pcBC5UGEg==
-=Yfwc
------END PGP SIGNATURE-----
-
---===============5701391550273447896==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-994a0b2eb605-5d0cad409099.txt
+Content-Disposition: attachment; filename=revlist-9e0310ca8140-a51da8684c72.txt
 
 404ee89b4008cf2130554dac2c64cd8412601356 pinctrl: mediatek: mt8196: align register base names to dt-bindings ones
 518919276c4119e34e24334003af70ab12477f00 pinctrl: mediatek: mt8189: align register base names to dt-bindings ones
@@ -346,5 +321,6 @@ e26ff429eaf10c4ef1bc3dabd9bf27eb54b7e1f4 ASoC: stm32: sai: fix device leak on pr
 23261f0de09427367e99f39f588e31e2856a690e ASoC: stm32: sai: fix OF node leak on probe
 3a03de362975398b39d4c6df7325ccb982026a8f ASoC: stm32: sai: clean up probe error path
 5d0cad409099798462d8a46756be537730bd8a22 ASoC: stm32: sai: fix device and OF node leaks on
+a51da8684c72707a8abfab2e0ae06a02c4bc1934 Merge remote-tracking branch 'asoc/for-6.19' into asoc-next
 
---===============5701391550273447896==--
+--===============0789753469577466815==--
