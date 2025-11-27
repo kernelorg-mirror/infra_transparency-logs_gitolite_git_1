@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Thu, 27 Nov 2025 00:29:09 -0000
-Message-Id: <176420334938.917477.9397104443639034902@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/tpm2-tpmkey
+Date: Thu, 27 Nov 2025 00:34:34 -0000
+Message-Id: <176420367447.922101.7301774977708517766@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: kuba
+repo: pub/scm/linux/kernel/git/jarkko/tpm2-tpmkey
+user: jarkko
 changes:
   - ref: refs/heads/main
-    old: ab084f0b8d6d2ee4b1c6a28f39a2a7430bdfa7f0
-    new: c01a6e5b2e4f21d31cf725b9f3803cb0280b1b8d
+    old: fcc4a2acc7134968ce3e69323a8b5ab272bdc511
+    new: cc86b3eb1e776c51353dff8973c18d2cabd4e308
     log: |
-         af7273cc7ae01f5b3e34e62f59588ce79fe50f79 selftests/net: initialize char variable to null
-         c01a6e5b2e4f21d31cf725b9f3803cb0280b1b8d selftests/net: packetdrill: pass send_omit_free to MSG_ZEROCOPY tests
+         cc86b3eb1e776c51353dff8973c18d2cabd4e308 fix: tweak builder api
          
