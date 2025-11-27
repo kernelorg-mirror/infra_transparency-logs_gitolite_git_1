@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/tpm2sh
-Date: Thu, 27 Nov 2025 21:19:49 -0000
-Message-Id: <176427838918.248645.6958496735591752303@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Thu, 27 Nov 2025 21:19:53 -0000
+Message-Id: <176427839300.248908.15702966785116309447@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/tpm2sh
-user: jarkko
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/main
-    old: c0923b78135a6b2bb017bdb8df78b7a886ff7c1f
-    new: bc893769e938d73f3cc885dc0c374d5e2ad4ca52
+  - ref: refs/heads/spi-6.18
+    old: 3dcf44ab56e1d3ca3532083c0d5390b758e45b45
+    new: 40ad64ac25bb736740f895d99a4aebbda9b80991
     log: |
-         bc893769e938d73f3cc885dc0c374d5e2ad4ca52 build: bump tpm2-vtpm version to 0.6.0
+         40ad64ac25bb736740f895d99a4aebbda9b80991 spi: nxp-fspi: Propagate fwnode in ACPI case as well
          
