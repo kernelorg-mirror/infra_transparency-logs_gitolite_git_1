@@ -1,19 +1,43 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
-Date: Thu, 27 Nov 2025 09:34:18 -0000
-Message-Id: <176423605822.1407281.9684190183271703560@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============8064780075587783630=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+Date: Thu, 27 Nov 2025 09:34:31 -0000
+Message-Id: <176423607136.1407508.6574093480292184124@gitolite.kernel.org>
+
+--===============8064780075587783630==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vfs/vfs
-user: brauner
+repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+user: ij
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/vfs-6.19.fd_prepare
-    old: 138027e74e9f602e3bb91112dd38840c7a5007e4
-    new: 8bbf3b8d2618db7e9e15c924fa0deba653016a44
-    log: |
-         8bbf3b8d2618db7e9e15c924fa0deba653016a44 dma: return zero after fd_publish()
-         
+  - ref: refs/tags/platform-drivers-x86-v6.18-5
+    old: 0000000000000000000000000000000000000000
+    new: 065065a858cfeda23295d15999736cb86c1e230c
+
+--===============8064780075587783630==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1764236142 +0200
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86.git
+nonce 1764236068-c90782606532d52763231ac0051e2c96428e1ebe
+
+0000000000000000000000000000000000000000 065065a858cfeda23295d15999736cb86c1e230c refs/tags/platform-drivers-x86-v6.18-5
+-----BEGIN PGP SIGNATURE-----
+
+iHUEABYIAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCaSgbcAAKCRBZrE9hU+XO
+MdLPAQC15Ua+rbJ0OZgwOhmrNYlRou/vD6AIotwFl+tgpnBa6gD+PT/vW/bdyche
+gmLgVLQZvCyBbvgho62OmixLB8Hn+wo=
+=4axj
+-----END PGP SIGNATURE-----
+
+--===============8064780075587783630==--
