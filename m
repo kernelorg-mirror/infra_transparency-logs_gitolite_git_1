@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3323500418618804522=="
+Content-Type: multipart/mixed; boundary="===============5525238703484192091=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/chenhuacai/linux-loongson
-Date: Thu, 27 Nov 2025 02:59:40 -0000
-Message-Id: <176421238082.1058258.5316756269441693130@gitolite.kernel.org>
+Date: Thu, 27 Nov 2025 02:59:50 -0000
+Message-Id: <176421239045.1058732.13822213580399338087@gitolite.kernel.org>
 
---===============3323500418618804522==
+--===============5525238703484192091==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/chenhuacai/linux-loongson
 user: chenhuacai
 changes:
-  - ref: refs/heads/loongarch-kvm
+  - ref: refs/heads/loongarch-next
     old: 94744e1021061b39e1d9ed694ce54ff663de98d0
     new: b1ca4204c312c6ce9b25c0cbe351ddf79606f85c
     log: revlist-94744e102106-b1ca4204c312.txt
 
---===============3323500418618804522==
+--===============5525238703484192091==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -77,4 +77,4 @@ a05123efda85031162cef84e744b1ce056c5881b KVM: LoongArch: selftests: Add timer in
 213247074a0b24ce0cab7febc07712072d611492 KVM: LoongArch: selftests: Add SW emulated timer test case
 b1ca4204c312c6ce9b25c0cbe351ddf79606f85c KVM: LoongArch: selftests: Add time counter test case
 
---===============3323500418618804522==--
+--===============5525238703484192091==--
