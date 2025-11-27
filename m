@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1951265321984423488=="
+Content-Type: multipart/mixed; boundary="===============5776104731010320463=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/trace/linux-trace
-Date: Thu, 27 Nov 2025 01:31:17 -0000
-Message-Id: <176420707710.980592.5942352588382510060@gitolite.kernel.org>
+Date: Thu, 27 Nov 2025 01:36:19 -0000
+Message-Id: <176420737941.984824.14527835141102439358@gitolite.kernel.org>
 
---===============1951265321984423488==
+--===============5776104731010320463==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,18 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/trace/linux-trace
 user: rostedt
 changes:
-  - ref: refs/heads/ftrace/fixes
-    old: 327e28664307d49ce3fa71ba30dcc0007c270974
-    new: 1650a1b6cb1ae6cb99bb4fce21b30ebdf9fc238e
-    log: revlist-327e28664307-1650a1b6cb1a.txt
+  - ref: refs/heads/ftrace/for-next
+    old: 4d6d0a6263babf7c43faa55de4fa3c6637dec624
+    new: c264534c394a291495168dbf70094a89717e9023
+    log: revlist-4d6d0a6263ba-c264534c394a.txt
 
---===============1951265321984423488==
+--===============5776104731010320463==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-327e28664307-1650a1b6cb1a.txt
+Content-Disposition: attachment; filename=revlist-4d6d0a6263ba-c264534c394a.txt
 
-c4c8bcab18821e0c2852c38dece918512c60c732 Merge tag 'sparc-for-6.18-tag1' of git://git.kernel.org/pub/scm/linux/kernel/git/alarsson/linux-sparc
 b41048485ee395edbbb69fc83491d314268f7bdb Merge tag 'memblock-v6.18-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/rppt/memblock
 48e3694ae7fae347c1193c84f384f4ea41086075 Merge tag 'printk-for-6.18' of git://git.kernel.org/pub/scm/linux/kernel/git/printk/linux
 67da125e30ab17b5b8874eb32882e81cdec17ec8 Merge tag 'rcu.2025.09.26a' of git://git.kernel.org/pub/scm/linux/kernel/git/rcu/linux
@@ -1050,5 +1049,6 @@ aa6085a06716dbfa9b01c0235cc36f1e9b3e1e3e Merge tag 'tty-6.18-rc3' of git://git.k
 dcb6fa37fd7bc9c3d2b066329b0d27dedf8becaa Linux 6.18-rc3
 b5d6d3f73d0bac4a7e3a061372f6da166fc6ee5c fgraph: Initialize ftrace_ops->private for function graph ops
 1650a1b6cb1ae6cb99bb4fce21b30ebdf9fc238e fgraph: Check ftrace_pids_enabled on registration for early filtering
+c264534c394a291495168dbf70094a89717e9023 fgraph: Remove coarse PID filtering from graph_entry()
 
---===============1951265321984423488==--
+--===============5776104731010320463==--
