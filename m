@@ -1,28 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Thu, 27 Nov 2025 17:52:34 -0000
-Message-Id: <176426595421.1882557.16752970604369144172@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
+Date: Thu, 27 Nov 2025 17:57:22 -0000
+Message-Id: <176426624274.1949446.9595168208241235642@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
-user: broonie
+repo: pub/scm/linux/kernel/git/maz/arm-platforms
+user: maz
 changes:
-  - ref: refs/heads/for-next
-    old: 8278c5a85ea1920ac2d26be839d4ef3be05a7ec3
-    new: 6d96eabbc1f3433ec6903db1c0dcf5d690eed533
+  - ref: refs/heads/kvm-arm64/feat_idst
+    old: dea87ca552f4052af5f5433a55c582591a7531db
+    new: 7263b5f35571276870f34723630864923f60a63d
     log: |
-         e26ff429eaf10c4ef1bc3dabd9bf27eb54b7e1f4 ASoC: stm32: sai: fix device leak on probe
-         312ec2f0d9d1a5656f76d770bbf1d967e9289aa7 ASoC: stm32: sai: fix clk prepare imbalance on probe failure
-         23261f0de09427367e99f39f588e31e2856a690e ASoC: stm32: sai: fix OF node leak on probe
-         3a03de362975398b39d4c6df7325ccb982026a8f ASoC: stm32: sai: clean up probe error path
-         b442e7c4052fc7684350d1075e6e7655ef30bb57 ASoC: stm32: sai: fix device and OF node leaks on
-         043cc033451530f81d7fe791dcc29874f6a147fd spi: dt-bindings: renesas,rzv2h-rspi: Document RZ/V2N SoC support
-         061795b345aff371df8f71d54ae7c7dc8ae630d0 spi: airoha-snfi: en7523: workaround flash damaging if UART_TXD was short to GND
-         de59a8a3a1aab3a6608777f62fa098b5abb2704a spi: dt-bindings: airoha: add compatible for EN7523
-         a9277a860a1635b91fc2cc314ac1d04d7d3971c5 spi: airoha: add support of en7523 SoC (for 6.19)
-         6d96eabbc1f3433ec6903db1c0dcf5d690eed533 Merge remote-tracking branch 'spi/for-6.19' into spi-next
+         bc00b21e262b303a6a9928e97bdf7ed6c1ae9205 KVM: arm64: Report optional ID register traps with a 0x18 syndrome
+         d372104fb73cf6cb584385a80761e2863a3308b2 KVM: arm64: pkvm: Add a generic synchronous exception injection primitive
+         8dacb05fdf3cbd401cc872eb94409d76b764685d KVM: arm64: pkvm: Report optional ID register traps with a 0x18 syndrome
+         7263b5f35571276870f34723630864923f60a63d KVM: arm64: selftests: Add a test for FEAT_IDST
          
