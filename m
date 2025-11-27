@@ -1,19 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/tpm2sh
-Date: Thu, 27 Nov 2025 23:26:46 -0000
-Message-Id: <176428600659.390165.16816405115880923028@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sj/damo
+Date: Thu, 27 Nov 2025 23:34:31 -0000
+Message-Id: <176428647187.396243.16582391547397466481@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/tpm2sh
-user: jarkko
+repo: pub/scm/linux/kernel/git/sj/damo
+user: sj
 changes:
-  - ref: refs/heads/main
-    old: e3a74cdff03d2c0e9ed8586aee624068c86ad346
-    new: ecc98b13f0119e8b52d6ee4da13eefac692ca15d
+  - ref: refs/heads/next
+    old: 9dc4932ff4b87cfc40da0466184f0b3970b35c23
+    new: a2248e408e6e5fe3c156020e282244c5ea5248df
     log: |
-         ecc98b13f0119e8b52d6ee4da13eefac692ca15d refactor(command): split CreationArgs::parse to CreationArgs::parse_{password,attributes}
+         bad3e2992bb32cf14137c1920bec3b3d84ecce53 _damo_sysinfo: infer <5.15 and >=5.15 DAMON versions
+         c5f8dfe412bc7c5795cc66329edd64f131676e4b README: remove awslabs repo related information
+         cc1473a8201acb61fafafe249809534a8d97c0ed README: wordsmith
+         a2248e408e6e5fe3c156020e282244c5ea5248df release_note: update for sysinfo's <5.15 DAMON version inferring
          
