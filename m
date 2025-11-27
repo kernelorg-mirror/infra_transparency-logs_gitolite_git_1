@@ -1,21 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ardb/linux
-Date: Thu, 27 Nov 2025 08:54:04 -0000
-Message-Id: <176423364412.1349885.2051739744554109015@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ukleinek/linux
+Date: Thu, 27 Nov 2025 08:59:36 -0000
+Message-Id: <176423397647.1354614.18279811248448966465@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ardb/linux
-user: ardb
+repo: pub/scm/linux/kernel/git/ukleinek/linux
+user: ukleinek
 changes:
-  - ref: refs/heads/lockless-random
-    old: bd37bf8584d66fc827c6c892dc9540e0631a5f69
-    new: 05894b44c19c9050c63946f12c5755389c79c80b
+  - ref: refs/heads/pwm/for-next
+    old: cda323dbda76600bf9761970d58517648f0de67d
+    new: fae00ea9f00367771003ace78f29549dead58fc7
     log: |
-         c0aebac6f39092e97ad08db32f80ccbc27049097 random: Use a lockless fast path for get_random_uXX()
-         7492bfcc5b0908ca6a0e11af3bda49d5ac801e1d random: Plug race in preceding patch
-         05894b44c19c9050c63946f12c5755389c79c80b randomize_kstack: Use get_random_u8() at entry for entropy
+         fae00ea9f00367771003ace78f29549dead58fc7 pwm: rzg2l-gpt: Allow checking period_tick cache value only if sibling channel is enabled
+         
+  - ref: refs/heads/pwm/for-nexxt
+    old: cbcc555a816d156e0ac7036ebf9c0d43620eeec0
+    new: 0b1a7512a12a0b9011ce3ad241e68c36028aa011
+    log: |
+         fae00ea9f00367771003ace78f29549dead58fc7 pwm: rzg2l-gpt: Allow checking period_tick cache value only if sibling channel is enabled
+         0b1a7512a12a0b9011ce3ad241e68c36028aa011 rust: pwm: Update ARef and AlwaysRefCounted imports to use sync::aref
          
