@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8767624216274047540=="
+Content-Type: multipart/mixed; boundary="===============6031013903972688269=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux
-Date: Thu, 27 Nov 2025 15:55:46 -0000
-Message-Id: <176425894600.1768717.4020184565310366349@gitolite.kernel.org>
+Date: Thu, 27 Nov 2025 15:55:51 -0000
+Message-Id: <176425895119.1769021.9384120918970893547@gitolite.kernel.org>
 
---===============8767624216274047540==
+--===============6031013903972688269==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,41 @@ repo: pub/scm/linux/kernel/git/krzk/linux
 user: krzk
 git_push_cert_status: Y
 changes:
-  - ref: refs/heads/for-next
-    old: 3acf0b2735b611bf182c66a9eab083ddf5c00c52
-    new: bca42080637ce3a21092fc0f7d5411e853b0c3b3
+  - ref: refs/heads/next/drivers-late
+    old: 2224ea67c75d0a0b9eaf803d0dfdab8d0c601c35
+    new: 990eb9a8eb4540ab90c7b34bb07b87ff13881cad
     log: |
          990eb9a8eb4540ab90c7b34bb07b87ff13881cad soc: samsung: exynos-pmu: fix device leak on regmap lookup
-         bca42080637ce3a21092fc0f7d5411e853b0c3b3 Merge branch 'next/drivers-late' into for-next
          
 
---===============8767624216274047540==
+--===============6031013903972688269==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher krzk@kernel.org 1764259017 +0100
+pusher krzk@kernel.org 1764259023 +0100
 pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux.git
-nonce 1764258943-1367de10129b5b78f53b8bf43147b772ffe13483
+nonce 1764258949-0a662ac2c0ed06ab08aea0a64bd0a65c1bfa9fef
 
-3acf0b2735b611bf182c66a9eab083ddf5c00c52 bca42080637ce3a21092fc0f7d5411e853b0c3b3 refs/heads/for-next
+2224ea67c75d0a0b9eaf803d0dfdab8d0c601c35 990eb9a8eb4540ab90c7b34bb07b87ff13881cad refs/heads/next/drivers-late
 -----BEGIN PGP SIGNATURE-----
 
-iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmkodMkQHGtyemtAa2Vy
-bmVsLm9yZwAKCRDBN2bmhouD137gD/9WfqxogUCGIecHOj6pR+PndD97WCL0wgky
-58QFM0uiF0k65EM78zVDy8x8n8gLZMMfQoBAYxmuoGJd1o/rzxT6oOh5/Ud2MVPC
-jMxeLWj3JQgkyfAPvVJHxS456eN+LY98Wy4xmjZDGvTNLQk4f3iULR3dNzoOt8tn
-mlTcjR7kC19MyMNay6Im4jFojOJ6DlSTOjlCJwrHbyb/f9OWfiAcIV67D7U2fDR9
-7GvDNLa7e5TbNBcKJ4N9bJNKGp6TgaYFn3LPYwV78RLHKpA9cxAkn/LJRa3+gm/8
-P0GkYX0hSEMrWtDSOVWlB3TPTnLSefiAVN9Ygl37Mg6cxQC78grhIgvSfo0IFMyf
-39qAjZR2NSBYROWEowPaYb4Q0k1PKT3k1l7we+BafVioJPQThYGxjtWGgBQNFhCH
-4u4MhCF0D1g8vLO3Uc9vf/IJ+ErfRR6IPjgCgfqOrglogkqFC2d13R6hE+rblPi6
-dnYosvfxQz97QTl2Kf05OgHGTvPs99Ueke7VdPEZTB5FI5B7w70VO30NvbDFWM5G
-dJdyhWDheZQKf5UaAKcO1SJLsJF+doaGTrTWzgqQBrHoaNleSfopGmtpHuGSNi4x
-G5+PFpkEt8MZCAyk+ced05JLwD0D76TFsylLxjx8Oum+lQGOJ+RFLyxuWZpy7q/1
-4mb/5kqAwA==
-=tUh3
+iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmkodM8QHGtyemtAa2Vy
+bmVsLm9yZwAKCRDBN2bmhouD19zCD/4kdPOmX+PDanVJ4CHTC9BL5APe2yYo+OV0
+uXZ+WyhrNItC60Z7E+lF9EBFybGbsYE+pwNkOt6WCEWK6tMB9vxe4GIfjsbUsXko
+klPy+W/Vn3yzacENgPOlDfNaGoe99SUqMqO5KypnN1sGDmyN9JImI4bmdZ0QntrS
+JbGOii/QEaAUftdzkZWgXTASnkG08+/5VT4pJGys2bdGmXD6BdYwPsytjq+bMUxJ
+2l6XPq/nF9FKscKCnjnN/Z8extYQDaQO2MfdWW8mJ09ZWpFpkWzIKhos6UTZgR2+
+jEPJcGpnr0gjEZ73nGjFcX1q98M4fhK2xyvq78haFsVgCsKPt0MSdfXQxD+9k/tL
+MLl/D9Yh1VJ5QDsqarX0CJk9e3XC45Up15XE+zDJszAzPrkDs5IcVzodQUu8joA1
+7N5AU282Ay0DkeDTvApvo8BKBqST0W1guSGxGT7jEJzeMQVxK5CNNSgN/dCtKAxq
+Rn26a9iRn/0GEDrWLShzdmXdfz9LgiFZVHAt1/j/IB8Dh/g7SuRx3DoqLhdfDHld
+QtlBdN/B/H+ACW0G5IKpvv0OB+cBD8S48w7AjS4iJI4HuSfEvUWaBk9U3Ugbony7
+GI+UsvlhJxrtutcwgJ38l1iBEDciS/2owcGouv0sZRZI+u5Vi/wz65hnYLsLsT+A
+ogaf/50oaQ==
+=stYi
 -----END PGP SIGNATURE-----
 
---===============8767624216274047540==--
+--===============6031013903972688269==--
