@@ -1,85 +1,77 @@
-Content-Type: multipart/mixed; boundary="===============6292087384668038489=="
+Content-Type: multipart/mixed; boundary="===============9080399300862967909=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Thu, 27 Nov 2025 09:09:30 -0000
-Message-Id: <176423457029.1363824.1619737298405489133@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/driver-core/driver-core
+Date: Thu, 27 Nov 2025 09:09:50 -0000
+Message-Id: <176423459085.1364505.5342995545491043566@gitolite.kernel.org>
 
---===============6292087384668038489==
+--===============9080399300862967909==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/usb
+repo: pub/scm/linux/kernel/git/driver-core/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/usb-next
-    old: c77a6544d8a2364e4bee1b52890f577be27b7296
-    new: c7bbc43a17697edb463ee57cff44fc00c107c72a
-    log: revlist-c77a6544d8a2-c7bbc43a1769.txt
+  - ref: refs/heads/driver-core-next
+    old: a762f883ecf6eed3c0c57e7afa97fba09287a40a
+    new: ea34511aaf755349999a1067b2984a541bee1492
+    log: revlist-a762f883ecf6-ea34511aaf75.txt
 
---===============6292087384668038489==
+--===============9080399300862967909==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1764234642 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1764234569-55a509be732c7a85f6ac69fc64c5e877e8d0e6df
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1764234663 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/driver-core/driver-core.git
+nonce 1764234589-738ea509a7e721bef0dfb6803248e5306d57016f
 
-c77a6544d8a2364e4bee1b52890f577be27b7296 c7bbc43a17697edb463ee57cff44fc00c107c72a refs/heads/usb-next
+a762f883ecf6eed3c0c57e7afa97fba09287a40a ea34511aaf755349999a1067b2984a541bee1492 refs/heads/driver-core-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmkoFZMbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+vLQQAJMx6S8oun4hcqzvLM9m
-G6y62YX2Vj3/ADPVBC3K9raBpvgLju+DOzRrtY9pcP6Y2Vb456+orOTReo2rPcct
-ygQNy5eD9ZUSEmJ3HlMF/IXA7BwcdoljI37BGAWbpGVMJe2b1cEDQaDRnnHR7ul9
-VdXs0BamSCc8c4QdOr1c5+sqwSFIL+Z/YxAJPTroYOuHrvr91IWR1UOKEztfjXGr
-E3LrdPi64TN9AEaPvgwVpN9SIr2dlbRubr0mbYmqy5TYVCdT0mNUDm4I0rAa130N
-6iv34JSFQI8OE4hB8UXybKsBWa5d0sPJm3aPgY/2irSwo97uViSmmTxY/GnmDDEm
-j9QFa7CQ3ZlpPwo50XTcDMxZNKNAj0U4JM8Cue03fbJz3+YQIij5fpwszv+gZnnd
-3opHbOPcqNaz7uOblCkVlxV4N8iRffAQ5N6Jx3N5E0ehyQDi4QDggQco/bbHSGcN
-PKI7UBCYjgFvyE8LARuhk8l/JZfNPVwKygk534S2qFDycb3nZd2B+JAn5gbR0qv/
-hVy58GZLzn1X46/VR34DmLlBY9ZYucNDZJVgj4TuInPSrgeyb6QHh+Nw06qeKvt6
-xd4oyjfpVxRFtJKD7OBAusfM9nYZCWYz+ybTFtS0EVKEeb7B2rWBqYm1sQ9HAUKN
-A8D2Xnw8afkSo695JhPgbVr/
-=NwkO
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmkoFacbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+ZmMQAMXUxSxqxbf2Mkg1BHou
+br6OJ/czmctgIvaunzbg1gm7sTIdfXkYXbHRDQMNsJVPN4PdmVjv3wLAefo8jxum
+3vAsNTB9MBwl3GjpKahdNnvuQMsRE3CJJ4spJW0flbZUpzG/YMUGL7ic0a03Ziac
+UDPBYk8PEgYL2Yj5uS5eAKxJ/r0WTNyukarbjl90BNuzITh1MK/naqhPtIn1SOm4
+v1A8YAOZ7BaInifSlhLmTxr+UNTpMwKRiV6x4enEvixyxBZ7Rw4YmQczW3tfnCkT
+TuCze4xyEvFny2wp6wvlwiL70NrCWSO825nNv435FiFXSGpl7uEfo10CAmcEpUVL
+L43YpjNRBTZvQfxZmMpcwhkARdouLuHscdwG73LhpBoLuVYCY4Q1++zB4xo9UWdB
+0yRctlp47WIui4+5iEhcbLji4mqmwZAY/8+JZss500SiXTl5eo1NXCnszIgb6GZA
+AQdU2DTWgIrh3Fi3QrGgQFFS4nJRHJJ1/fl35VRNbvggU3C62+vSwtDLamn70yAu
+2qr7KflIoSEdYPx/gGAh8/dikFGtS2MN2RIW6RkDbs1P47Ge9WCozZo/UGZZCZOR
+UdXYsitEZaorGzewzIKATtLcMIjWT7BlixX4Q68OimOh+9KPj9POpnoB2fSP6cou
+vKPJnaXbOz7zJOK8SYTFtrmb
+=cxVl
 -----END PGP SIGNATURE-----
 
---===============6292087384668038489==
+--===============9080399300862967909==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c77a6544d8a2-c7bbc43a1769.txt
+Content-Disposition: attachment; filename=revlist-a762f883ecf6-ea34511aaf75.txt
 
-b6e0b3016187446ddef9edac03cd9d544ac63f11 USB: serial: belkin_sa: fix TIOCMBIS and TIOCMBIC
-d432df758f92c4c28aac409bc807fd1716167577 USB: serial: kobil_sct: fix TIOCMBIS and TIOCMBIC
-66b1c554a83dbe30db382c527890fead49e777f5 USB: serial: belkin_sa: clean up tiocmset()
-ddf81605809652228469275f8598cf7d55450bdc USB: serial: kobil_sct: clean up tiocmset()
-e41de6124e0aac03e7c83f6972810e59ccb27fba USB: serial: kobil_sct: clean up device type checks
-754640d85566ffccfae489cd0c16de57bdf88140 USB: serial: kobil_sct: add control request helpers
-d99bdbb0d3e4928dfc5c8dfd017483055ed792c1 USB: serial: kobil_sct: clean up set_termios()
-53002803832be8cfea1466ce8d568014e9de29d6 USB: serial: kobil_sct: drop unnecessary initialisations
-4e31a5d0a9ee672f708fc993c1d5520643f769fd USB: serial: ftdi_sio: match on interface number for jtag
-448016e3265410ee61006da1ffa3478854baba4b USB: serial: ftdi_sio: silence jtag probe
-73de1ddaf4e6f851eb3f67751c3aadb62229094b USB: serial: ftdi_sio: rewrite 8u2232c quirk
-47ed918ececc7cad21268ae32bf69be80014e04f USB: serial: ftdi_sio: clean up quirk comments
-f5fef0c5f641435dbd69b9b1f1795ceec67cfe06 USB: serial: ftdi_sio: rename quirk symbols
-96e5d1b1e69097cb89f8002770cccf464c0dfa1c USB: serial: ftdi_sio: enable NDI speed hack consistently
-cde24373724bd3a0937b7af9453dfc6d7433c726 USB: serial: ftdi_sio: clean up NDI speed hack
-4d822b0a4a272902039c77e68c9b12bdb20c233f USB: serial: ftdi_sio: drop NDI quirk module parameter
-7970b4969c4c99bcdaf105f9f39c6d2021f6d244 USB: serial: option: add Foxconn T99W760
-c69ff68b097b0f53333114f1b2c3dc128f389596 usb: phy: Initialize struct usb_phy list_head
-6d935ce213bd9d3760947e0743f30bfa63c8404f usb: dwc3: core: Remove redundant comment in core init
-6b120ef99fbcba9e413783561f8cc160719db589 usb: typec: ucsi: fix probe failure in gaokun_ucsi_probe()
-2b7a0f47aaf2439d517ba0a6b29c66a535302154 usb: typec: ucsi: fix use-after-free caused by uec->work
-c908039a29aa70870871f4848125b3d743f929bf USB: serial: option: add Telit Cinterion FE910C04 new compositions
-072f2c49572547f4b0776fe2da6b8f61e4b34699 USB: serial: option: move Telit 0x10c7 composition in the right place
-c7bbc43a17697edb463ee57cff44fc00c107c72a Merge tag 'usb-serial-6.19-rc1' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/johan/usb-serial into usb-next
+f85d90dd8d0efbc75e79698e147c6e682df22e1a sysfs: attribute_group: allow registration of const attribute
+964c93b1eef37e3bbe0edb37346c076217d71fe7 sysfs: transparently handle const pointers in ATTRIBUTE_GROUPS()
+02ac5335a55111d87a7a618355261b4407ed0f7f sysfs: introduce __SYSFS_FUNCTION_ALTERNATIVE()
+7dd9fdb4939b972c1d0523e94fb3f70789653f0c sysfs: attribute_group: enable const variants of is_visible()
+c301a2e2d78c2c20d466c7e38568406471ede17d samples/kobject: add is_visible() callback to attribute group
+2d76fdc1c91a95c23cd3e47a4fd4315f1633019b samples/kobject: constify 'struct foo_attribute'
+71464949b1f5f8b8599d057fea525a2a520f84d8 sysfs: simplify attribute definition macros
+d3d25f430cadc59d42965f54f54a8c0050931860 mod_devicetable: Bump auxiliary_device_id name size
+2467f9928c9824e52718f977009ed3a0cee83dc5 fs/kernfs: raise sb->maxbytes to MAX_LFS_FILESIZE
+382b1e8f30f779af8d6d33268e53df7de579ef3c kernfs: fix memory leak of kernfs_iattrs in __kernfs_new_node
+76987bac71d5349a62f312ca1cd92de73778a652 sysfs/cpu: Use DEVICE_ATTR_RO for nohz_full attribute
+f10c23fa159c5481dfe0025e619dc5ef844f6ce1 tick/nohz: avoid showing '(null)' if nohz_full= not set
+cd22926af45400093738c758b6749de8035ed5a8 tick/nohz: Expose housekeeping CPUs in sysfs
+e40ad215cea21464d516790f263dc3df69174efe driver core: replace use of system_unbound_wq with system_dfl_wq
+ac1ab906d7a98e34be95ef63b81ff828cc432346 driver core: WQ_PERCPU added to alloc_workqueue users
+ea34511aaf755349999a1067b2984a541bee1492 driver core: Check drivers_autoprobe for all added devices
 
---===============6292087384668038489==--
+--===============9080399300862967909==--
