@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/tpm2sh
-Date: Thu, 27 Nov 2025 17:46:15 -0000
-Message-Id: <176426557510.1869049.6818757058530420951@gitolite.kernel.org>
+Subject: post-receive: pub/scm/libs/liba2i/liba2i
+Date: Thu, 27 Nov 2025 17:51:18 -0000
+Message-Id: <176426587855.1873970.7428536892390106152@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/tpm2sh
-user: jarkko
+repo: pub/scm/libs/liba2i/liba2i
+user: alx
 changes:
-  - ref: refs/heads/main
-    old: 2d3c35efcbeff685f6658cd314ec13e7a4c6f6b7
-    new: 1a95c237fdbe8df4dc53c57343aa16d6d09f6bc4
+  - ref: refs/heads/master
+    old: 7c9abfebbe2ff55cbe9a0cf3876df42e650c4857
+    new: ee0fd595242627d9bdb71825cf55d6da0e18b271
     log: |
-         1a95c237fdbe8df4dc53c57343aa16d6d09f6bc4 refactor(task): encapsulate run_policy
+         ee0fd595242627d9bdb71825cf55d6da0e18b271 include/, src/: Rename strto[iu]2() => ato[su]imax()
          
