@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Thu, 27 Nov 2025 21:52:57 -0000
-Message-Id: <176428037796.287884.14771902028935597557@gitolite.kernel.org>
+Date: Thu, 27 Nov 2025 21:54:15 -0000
+Message-Id: <176428045529.289181.4310953910683921152@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,9 @@ repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
 user: jarkko
 changes:
   - ref: refs/heads/master
-    old: 4beb40443dbfe24e0672825e7a4649ee1cecc6b7
-    new: f5b09c53f77fb42a6658a9afe0d349b447317cf6
+    old: f5b09c53f77fb42a6658a9afe0d349b447317cf6
+    new: 44d56c51594bfa799ef801336889b80c159dfae6
     log: |
-         f5b09c53f77fb42a6658a9afe0d349b447317cf6 tpm: Remove tpm_find_get_ops
+         564dffbb98bd58069b168f75280651247cec232f Documentation: tpm-security.rst: change title to section heading
+         44d56c51594bfa799ef801336889b80c159dfae6 tpm: Remove tpm_find_get_ops
          
