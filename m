@@ -1,22 +1,46 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
-Date: Thu, 27 Nov 2025 17:57:22 -0000
-Message-Id: <176426624274.1949446.9595168208241235642@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============8319058899296409325=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mricon/hook-test
+Date: Thu, 27 Nov 2025 18:11:05 -0000
+Message-Id: <176426706516.42271.14784642209146904279@gitolite.kernel.org>
+
+--===============8319058899296409325==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/maz/arm-platforms
-user: maz
+repo: pub/scm/linux/kernel/git/mricon/hook-test
+user: mricon
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/kvm-arm64/feat_idst
-    old: dea87ca552f4052af5f5433a55c582591a7531db
-    new: 7263b5f35571276870f34723630864923f60a63d
+  - ref: refs/heads/main
+    old: dd6a86b79ffc805cb6c984996a15c5fecfa762b3
+    new: c7cdaf0f3cac4193a1ba61130bbcfea41ead24b2
     log: |
-         bc00b21e262b303a6a9928e97bdf7ed6c1ae9205 KVM: arm64: Report optional ID register traps with a 0x18 syndrome
-         d372104fb73cf6cb584385a80761e2863a3308b2 KVM: arm64: pkvm: Add a generic synchronous exception injection primitive
-         8dacb05fdf3cbd401cc872eb94409d76b764685d KVM: arm64: pkvm: Report optional ID register traps with a 0x18 syndrome
-         7263b5f35571276870f34723630864923f60a63d KVM: arm64: selftests: Add a test for FEAT_IDST
+         c7cdaf0f3cac4193a1ba61130bbcfea41ead24b2 Test replication after updates
          
+
+--===============8319058899296409325==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher B6C41CE35664996C! 1764267064 -0500
+pushee gitolite.kernel.org:pub/scm/linux/kernel/git/mricon/hook-test
+nonce 1764267064-62c7f233c0ce990220097b6a9e5e25b542f7bbd5
+
+dd6a86b79ffc805cb6c984996a15c5fecfa762b3 c7cdaf0f3cac4193a1ba61130bbcfea41ead24b2 refs/heads/main
+-----BEGIN PGP SIGNATURE-----
+
+iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCaSiUOAAKCRC2xBzjVmSZ
+bPDlAP4xMblYPyBr9zfOZsaktm0b63s9dlwCLF9Dm6KqVor9NAD/buP2ZVl7qB0y
+nXX8e7SfcN1wx20h8s4UmXj7+nitow0=
+=J6dC
+-----END PGP SIGNATURE-----
+
+--===============8319058899296409325==--
