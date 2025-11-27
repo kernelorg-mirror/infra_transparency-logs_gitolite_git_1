@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2869216622584951509=="
+Content-Type: multipart/mixed; boundary="===============8103446044883120787=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Thu, 27 Nov 2025 00:37:21 -0000
-Message-Id: <176420384193.925974.6510752178520797561@gitolite.kernel.org>
+Date: Thu, 27 Nov 2025 00:37:23 -0000
+Message-Id: <176420384323.926164.17402101427284251590@gitolite.kernel.org>
 
---===============2869216622584951509==
+--===============8103446044883120787==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/mm-new
-    old: c982b3547f979451e07fc80a3031fcfdfa86cb1a
-    new: 1fbcf8e802146b064140721c15ad012abc3c9088
-    log: revlist-c982b3547f97-1fbcf8e80214.txt
+  - ref: refs/heads/mm-unstable
+    old: e102c6caf6a8f1ebaf8a6d44600eef812fc1c6d3
+    new: 61495b6cd2acda1bd0f732e3c309d51eb2d2ba01
+    log: revlist-e102c6caf6a8-61495b6cd2ac.txt
 
---===============2869216622584951509==
+--===============8103446044883120787==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c982b3547f97-1fbcf8e80214.txt
+Content-Disposition: attachment; filename=revlist-e102c6caf6a8-61495b6cd2ac.txt
 
 612851b9dc1742bd3e622aed427dfab157d0a06e mm/huge_memory: fix initialization of huge zero folio
 41b338c0bc26dd4ee99a4db1c1a00329e9db8d49 MAINTAINERS: add Mike Rapoport as maintainer for userfaultfd
@@ -45,9 +45,5 @@ e1ce6f615ce5afed67e466a4b52d2e5ffd9f140b mm: introduce VMA flags bitmap type
 501bd9c6e65888b25278902906dfc2c233acd25f selftests/mm/uffd: initialize char variable to Null
 16a31d25c61e67762ad893410be8c3df548a77a7 memcg: remove inc/dec_lruvec_kmem_state helpers
 61495b6cd2acda1bd0f732e3c309d51eb2d2ba01 mm/kfence: add reboot notifier to disable KFENCE on shutdown
-282ea01635ee6d0b7c9a957120eaaec9fff1f5ab mm/swapfile: fix list iteration in swap_sync_discard
-ae8dfeb13f09bd7de8aa12e06bfbec51f4f177d7 mm/swapfile: use plist_for_each_entry in __folio_throttle_swaprate
-1513ffe1ccd619f47df6cb4e97039cbb62cc5c0e powerpc/pseries/cmm: call balloon_devinfo_init() also without CONFIG_BALLOON_COMPACTION
-1fbcf8e802146b064140721c15ad012abc3c9088 powerpc/pseries/cmm: adjust BALLOON_MIGRATE when migrating pages
 
---===============2869216622584951509==--
+--===============8103446044883120787==--
