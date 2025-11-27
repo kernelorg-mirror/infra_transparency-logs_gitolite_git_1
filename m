@@ -1,77 +1,61 @@
-Content-Type: multipart/mixed; boundary="===============7618342869735429504=="
+Content-Type: multipart/mixed; boundary="===============4930186994821129364=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Thu, 27 Nov 2025 09:15:27 -0000
-Message-Id: <176423492726.1371582.10772213517339077593@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
+Date: Thu, 27 Nov 2025 09:15:30 -0000
+Message-Id: <176423493050.1371696.5999244167035586919@gitolite.kernel.org>
 
---===============7618342869735429504==
+--===============4930186994821129364==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/tty
+repo: pub/scm/linux/kernel/git/gregkh/staging
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/tty-next
-    old: da218406dd50e0ac96bb383de4edd208286efe70
-    new: 75a9f4c54770f062f4b3813a83667452b326dda3
-    log: revlist-da218406dd50-75a9f4c54770.txt
+  - ref: refs/heads/staging-next
+    old: 39781cc3d54bd493c53c0f0244a116f2faa39037
+    new: 1520007aa361cd97067364d8c6fc1bbc14e93f08
+    log: |
+         e09748f874422f71b21cc1c0628743d445b2b2c6 staging: rtl8723bs: remove unused registry and BSSID offset macros
+         6ddb173fcf34f4b9351a20f29e31aa2bc3f90574 staging: rtl8723bs: use standard offsetof in cfg80211 operations
+         2cbcfd3fce6f80374bfab1288d1f77eabb0bf48f staging: rtl8723bs: remove dead commented code from odm.c
+         d82c5681dfe6392a26719b6a7bb53bd86f6db063 staging: rtl8723bs: replace FIELD_OFFSET usage with offsetof in rtw_mlme_ext.c
+         ea39cd0e42a2475fe273ac34579c98db732eefa4 staging: rtl8723bs: remove custom FIELD_OFFSET macro
+         1520007aa361cd97067364d8c6fc1bbc14e93f08 staging: gpib: Clean-up commented-out code
+         
 
---===============7618342869735429504==
+--===============4930186994821129364==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1764234999 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1764234926-81eb34b4ca0a5f8f85ecdac593e91217d6a150c0
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1764235003 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
+nonce 1764234929-84b82520c314d2503fe2c3fc15d2992121a63139
 
-da218406dd50e0ac96bb383de4edd208286efe70 75a9f4c54770f062f4b3813a83667452b326dda3 refs/heads/tty-next
+39781cc3d54bd493c53c0f0244a116f2faa39037 1520007aa361cd97067364d8c6fc1bbc14e93f08 refs/heads/staging-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmkoFvgbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+ZYcQAMSO87H1hn9pRwVA//pQ
-0on9VP2RxCgpu+CC/oml1N1haCoeJ6K1GfCGIpX6ebWF0qXCg8SPhMwaXBe6wEuh
-E384i3c3mDrJRjoP+0TgfzK6o0JRwhB5ORE7f47V5/9zlwKqTUSmZAa8yU0KPMCF
-alOtHMDLjHDbZT88sM8PV/qTJlV+qvc8tZb0r0NPmx9KmR7Zunq3yT4vc1dLv9Ch
-h5sJQQdlPJtYeECdzxn498hVzXw+jiax52u54FczVQZVYe8N3nScr3OebhqSvDiC
-fH+Why3cmgvstscLoXKXO95Ti/T/6YwaHD6sEshgghk9LivygAhQ3/hdtQxEQ67T
-bv0dtaSWyGdLFuzOPa2u0rs4UM12+Dec/0M+UdmAyNOnZUvdzucOW5cp89s/THq8
-W+FoiKcjU8sS98nwzMJs1U8bb2UprIEnlLWVtOuZypDXt1Lzc5gvPu9PxJnJzgqs
-0GFSp7KIJgwNNX3UpSr1uLAqA2LaNaizLO1p8IgcQHIMSI0UmyYRPRw3t9UdrZWf
-4iXmpFlqvRZxUT8a4FjpG3fA4FPp9+EqHS4N39hKLHtdf3dbvQAQExqypiMdhajh
-mOoDB7TJ6+rsEBYW/oVbMX2yMVDrkEtyrKSgOgDEnh+SgZILjKk4VD04EZJNOLTn
-BM+X6LSd9NKGAgpN+QQhksoT
-=8VIy
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmkoFvsbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+3MwP+gPOoRbXOFJLnx2UZj9S
+oQhV5Wu16dlV0TxaH7VbotOrjnxH3ZHDU0VHHof8JmSE5G5Nyxc1VkylAHzhmuQA
+6ETv6BDAxsn/j6GwVEKtfv0iV/rTfR7u+7EMGT+79aB9RYJOPogL4iUz5YI0QUqb
+LQP+lfsQBhSxXLpq8k9epg/nFhCWhM479f4o6AdRk9i5WDaAuo0D8CypC1YUernz
+MDoknf3Y1P0oCBO8YrIRmkmzjmr1k2zU+VupJWLYCU/kh07/Y/oeV+U1bwaZk3tF
+1Nyo76Fw0XegpHmBXTAQRmj2pDtbe7V7tVebNdrBblNHjiVXLIiYBFgU0J9NQqet
+Zw4I7LVZAso15LFVNhDQBimRwSdvKODcnkvFWsID49bPlPDjidJHPpG76lD2hXDI
+UwJXULkisehly9I7gm7d1boOL2cL3i6Y47V6gwM+WFzqLDzC2dNtKpc8bh9cZLM2
+sDgvi+sxfZqTkzppkyXbcP25agNTcqilqQdqQyPDaTTNKamfY9PNHvjaQKr1B950
+NSKGZIcP0+f5ejxShq0T2CnzQAmeT9PibfE9nle8tLGT1oRUt9Jugs5Giz0C/Vth
+mmfd0rX1V2fSpOb4mKLSv90vqlvj+ojxdNlWK2zvVsVSh6spXJDHHSUorie8wNUV
+hXg0v7FD7iTlJLEKTraF0YjA
+=ny7p
 -----END PGP SIGNATURE-----
 
---===============7618342869735429504==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-da218406dd50-75a9f4c54770.txt
-
-1879c2e44651d0854d3615590a638a88c5e292ad tty: replace use of system_unbound_wq with system_dfl_wq
-ae333a91006c7f13a921688546a09afa9bf05236 serial: mux: Fix kernel doc for mux_poll()
-0e5a99e0e5f50353b86939ff6e424800d769c818 serial: add support of CPCI cards
-d3210c8e88ee4132a5bb316ee96b09472db90572 serial: 8250-of: Fix style issues in 8250_of.c
-57c8794693368a5df8014e4bbb7ef4016be119ed serial: icom: Convert PCIBIOS_* return codes to errnos
-f0a6e936eb9ca1cfb1c58239ef22e50e761a7a06 tty: serial: samsung: Declare earlycon for Exynos850
-29e8a0c587e328ed458380a45d6028adf64d7487 serial: sprd: Return -EPROBE_DEFER when uart clock is not ready
-10904d725f6e382376266a679ff425af488fcbcd serial: qcom-geni: Enable PM runtime for serial driver
-abffd1e6c4f1c9746ffd3fb5c659668efc221714 serial: qcom-geni: Enable Serial on SA8255p Qualcomm platforms
-6974711cf770557e3b56b97999724618d72a48a0 serial: Keep rs485 settings for devices without firmware node
-ab9a30d6febf768c057fcde74a46597862db443e serial: 8250: add driver for KEBA UART
-7cf86b66e5628c55899e7b00ce5015b3f2750f35 dt-bindings: serial: 8250: Add Loongson uart compatible
-25e95d763176854e961aaf0f8a76f435f2dab974 serial: 8250: Add Loongson uart driver support
-13532b5186a7aa4dfd9885355c6af7562b75dd7f LoongArch: dts: Add uart new compatible string
-a6cdfd69ad38997108b862f9aafc547891506701 dt-bindings: serial: rsci: Drop "uart-has-rtscts: false"
-75a9f4c54770f062f4b3813a83667452b326dda3 serial: sh-sci: Fix deadlock during RSCI FIFO overrun error
-
---===============7618342869735429504==--
+--===============4930186994821129364==--
