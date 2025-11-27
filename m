@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/conor/linux
-Date: Thu, 27 Nov 2025 17:06:10 -0000
-Message-Id: <176426317024.1834814.8332166754659914355@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Thu, 27 Nov 2025 17:07:48 -0000
+Message-Id: <176426326859.1835686.9775978517129245044@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/conor/linux
-user: conor
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/tags/cache-for-v6.19
-    old: 0000000000000000000000000000000000000000
-    new: bf6896e155b1994acbcd73a986303020ceb334e0
+  - ref: refs/heads/v6_20251126_mikhail_kshevetskiy_spi_airoha_add_support_of_en7523_soc_for_6_19
+    old: de59a8a3a1aab3a6608777f62fa098b5abb2704a
+    new: 0000000000000000000000000000000000000000
