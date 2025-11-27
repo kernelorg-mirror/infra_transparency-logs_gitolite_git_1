@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
-Date: Thu, 27 Nov 2025 21:48:06 -0000
-Message-Id: <176428008664.279332.16774114406462998606@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Thu, 27 Nov 2025 21:49:58 -0000
+Message-Id: <176428019848.280579.2113334134216991462@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/soc/soc
-user: arnd
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/amlogic/dt
-    old: 0000000000000000000000000000000000000000
-    new: a7ab6f946683e065fa22db1cc2f2748d4584178a
+  - ref: refs/heads/filen1yEbI
+    old: 86dc090f737953f16f8dc60c546ae7854690d4f6
+    new: 0000000000000000000000000000000000000000
