@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ardb/linux
-Date: Thu, 27 Nov 2025 08:51:29 -0000
-Message-Id: <176423348968.1348151.729490182755453720@gitolite.kernel.org>
+Date: Thu, 27 Nov 2025 08:54:04 -0000
+Message-Id: <176423364412.1349885.2051739744554109015@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,9 +12,10 @@ repo: pub/scm/linux/kernel/git/ardb/linux
 user: ardb
 changes:
   - ref: refs/heads/lockless-random
-    old: de2d8d8c37de9c563b4502c239681992973f6050
-    new: bd37bf8584d66fc827c6c892dc9540e0631a5f69
+    old: bd37bf8584d66fc827c6c892dc9540e0631a5f69
+    new: 05894b44c19c9050c63946f12c5755389c79c80b
     log: |
-         9858b596f088adc148ee78dcff0ee70598c4f8a9 random: Plug race in preceding patch
-         bd37bf8584d66fc827c6c892dc9540e0631a5f69 randomize_kstack: Use get_random_u8() at entry for entropy
+         c0aebac6f39092e97ad08db32f80ccbc27049097 random: Use a lockless fast path for get_random_uXX()
+         7492bfcc5b0908ca6a0e11af3bda49d5ac801e1d random: Plug race in preceding patch
+         05894b44c19c9050c63946f12c5755389c79c80b randomize_kstack: Use get_random_u8() at entry for entropy
          
