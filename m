@@ -1,22 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/printk/linux
-Date: Thu, 27 Nov 2025 15:13:40 -0000
-Message-Id: <176425642041.1728666.15207341668406943763@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/tpm2-tpmkey
+Date: Thu, 27 Nov 2025 15:15:10 -0000
+Message-Id: <176425651077.1731707.12205741834360782185@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/printk/linux
-user: pmladek
+repo: pub/scm/linux/kernel/git/jarkko/tpm2-tpmkey
+user: jarkko
 changes:
-  - ref: refs/heads/for-next
-    old: 714159ee0f072556687f81c539a0ec69427317d4
-    new: 322530a9c2ab1da67e5b0988fa29aca64d96ec8f
+  - ref: refs/heads/main
+    old: 40c6eba18b71fde07e08320f6321e8841e6fe176
+    new: d1c93a5aed5962efea82e6b2cd672ef84b221de9
     log: |
-         822e2bb0d6dd792b95da2d4f420eb3dac5af95a7 drivers: serial: kgdboc: Drop checks for CON_ENABLED and CON_BOOT
-         4c70ab110bdd6513f3cac6b9eb01ac3b7f0d23a2 arch: um: kmsg_dump: Use console_is_usable
-         466348abb0c364cfaf01c6a1142e32cb0d704980 printk: Use console_is_usable on console_unblank
-         322530a9c2ab1da67e5b0988fa29aca64d96ec8f Merge branch 'rework/nbcon-in-kdb' into for-next
+         d1c93a5aed5962efea82e6b2cd672ef84b221de9 fix(builder): fill the values to final key
          
