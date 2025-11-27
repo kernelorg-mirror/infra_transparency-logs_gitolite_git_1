@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/conor/linux
-Date: Thu, 27 Nov 2025 16:04:42 -0000
-Message-Id: <176425948263.1775973.17973176803432940961@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Thu, 27 Nov 2025 16:06:09 -0000
+Message-Id: <176425956961.1778226.13447575172006875869@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/conor/linux
-user: conor
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/tags/soc-drivers-for-v6.19
-    old: 0000000000000000000000000000000000000000
-    new: 2eecba332ca7b6a71b15df329fff8f1dc193b267
+  - ref: refs/heads/v2_20251126_andriy_shevchenko_spi_microchip_core_code_improvements
+    old: 495c4d380e328bd0923a027a60da1f865b8f11bb
+    new: 0000000000000000000000000000000000000000
