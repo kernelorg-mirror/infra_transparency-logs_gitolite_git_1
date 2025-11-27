@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Thu, 27 Nov 2025 01:13:35 -0000
-Message-Id: <176420601527.963251.14697574586773412197@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Thu, 27 Nov 2025 01:16:01 -0000
+Message-Id: <176420616136.966502.9708786401575098231@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
+repo: pub/scm/linux/kernel/git/netdev/net-next
 user: kuba
 changes:
   - ref: refs/heads/main
-    old: 4fcb8ab4a09b1855dbfd7062605dd13abd64c086
-    new: b9ba6338bc6e0e97dee30fa705f40950ed556729
+    old: a8080c2f0e50f7d209fe95edaaec516b3db586f2
+    new: 651765e8d527427e1d91fb7f606c5506f437f622
     log: |
-         b9ba6338bc6e0e97dee30fa705f40950ed556729 s390/net: list Aswin Karuvally as maintainer
+         651765e8d527427e1d91fb7f606c5506f437f622 netlink: specs: add big-endian byte-order for u32 IPv4 addresses
          
