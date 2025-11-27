@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Thu, 27 Nov 2025 08:40:53 -0000
-Message-Id: <176423285311.1339714.10752368348689813937@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ardb/linux
+Date: Thu, 27 Nov 2025 08:51:29 -0000
+Message-Id: <176423348968.1348151.729490182755453720@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rdma/rdma
-user: leon
+repo: pub/scm/linux/kernel/git/ardb/linux
+user: ardb
 changes:
-  - ref: refs/heads/wip/leon-for-next
-    old: f37e2868792335f2e8bbdcc02ebbb4830453f83c
-    new: 155c9971fa88a6655431476f024566fcd9ddcdb6
+  - ref: refs/heads/lockless-random
+    old: de2d8d8c37de9c563b4502c239681992973f6050
+    new: bd37bf8584d66fc827c6c892dc9540e0631a5f69
     log: |
-         155c9971fa88a6655431476f024566fcd9ddcdb6 RDMA/bng_re: Remove prefetch instruction
+         9858b596f088adc148ee78dcff0ee70598c4f8a9 random: Plug race in preceding patch
+         bd37bf8584d66fc827c6c892dc9540e0631a5f69 randomize_kstack: Use get_random_u8() at entry for entropy
          
