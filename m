@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Thu, 27 Nov 2025 21:50:08 -0000
-Message-Id: <176428020808.283139.15818699730606481428@gitolite.kernel.org>
+Date: Thu, 27 Nov 2025 21:50:12 -0000
+Message-Id: <176428021243.283412.17961081132388251744@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,10 +11,9 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/broonie/ci
 user: broonie
 changes:
-  - ref: refs/heads/asoc-6.19
-    old: c45d5d9803a4fb7d3e7f590094b7a2abcfe74ef6
-    new: 86dc090f737953f16f8dc60c546ae7854690d4f6
+  - ref: refs/heads/regulator-6.19
+    old: c67bb84434b024fa2ae83f91bbd02457f2d2c8a6
+    new: 0cc15a10c3b4ab14cd71b779fd5c9ca0cb2bc30d
     log: |
-         6797540c8b76dd847466b9a8d6e635e6a2ac95d3 ASoC: cs-amp-lib: Use __free(kfree) instead of manual freeing
-         86dc090f737953f16f8dc60c546ae7854690d4f6 ASoC: codecs: wcd939x: fix regmap leak on probe failure
+         0cc15a10c3b4ab14cd71b779fd5c9ca0cb2bc30d regulator: core: Protect regulator_supply_alias_list with regulator_list_mutex
          
