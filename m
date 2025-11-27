@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7377030441223015548=="
+Content-Type: multipart/mixed; boundary="===============7934254635041039446=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Thu, 27 Nov 2025 22:53:06 -0000
-Message-Id: <176428398613.354840.762841165097363451@gitolite.kernel.org>
+Date: Thu, 27 Nov 2025 22:53:07 -0000
+Message-Id: <176428398738.355008.4786383334637776902@gitolite.kernel.org>
 
---===============7377030441223015548==
+--===============7934254635041039446==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/mm-new
-    old: 1fbcf8e802146b064140721c15ad012abc3c9088
-    new: 6946a3180c6d25b8a1069bf4e7338099cf1044f1
-    log: revlist-1fbcf8e80214-6946a3180c6d.txt
+  - ref: refs/heads/mm-unstable
+    old: 61495b6cd2acda1bd0f732e3c309d51eb2d2ba01
+    new: f74b906e6ae706f34bf90e2935b8118a97892633
+    log: revlist-61495b6cd2ac-f74b906e6ae7.txt
 
---===============7377030441223015548==
+--===============7934254635041039446==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1fbcf8e80214-6946a3180c6d.txt
+Content-Disposition: attachment; filename=revlist-61495b6cd2ac-f74b906e6ae7.txt
 
 ffa176bb0715040134df24ca1b808e79309fcc29 mm/huge_memory: fix initialization of huge zero folio
 3827287a209ecc11dfd8f298f63e63dd6bcc68bc MAINTAINERS: add Mike Rapoport as maintainer for userfaultfd
@@ -45,12 +45,5 @@ b4d207bb48c0a61a03a1a4b85cf54f64a240748b mm/kfence: add reboot notifier to disab
 54b864e5c8502f1a77cc8984a3f9cff4fd6ef9ac fs/proc/task_mmu.c: fix make_uffd_wp_huge_pte() huge pte handling
 15ebfea6250ff3447ed919d9cd49943a313c263c mm/swapfile: fix list iteration when next node is removed during discard
 f74b906e6ae706f34bf90e2935b8118a97892633 mm/swapfile: use plist_for_each_entry in __folio_throttle_swaprate
-ec57769f82dd103410b9c61eec496859070243ab powerpc/pseries/cmm: call balloon_devinfo_init() also without CONFIG_BALLOON_COMPACTION
-abf9f8825f000b0219cf09e40a7c1fc209d0d4da powerpc/pseries/cmm: adjust BALLOON_MIGRATE when migrating pages
-97bb0eff1481da2742ce3d7e2b714564d43becae mm/sparse: fix sparse_vmemmap_init_nid_early definition without CONFIG_SPARSEMEM
-bb41976f9056b772e507c829b08b978f9d2d81ee mm/huge_memory: change folio_split_supported() to folio_check_splittable()
-1b6e9652b2237a3b009ddb4fcd335d8aed3d8e85 mm/huge_memory: replace can_split_folio() with direct refcount calculation
-9db8cd3038a4637a9e513f4022d4700f0ae13e8b mm/huge_memory: make min_order_for_split() always return an order
-6946a3180c6d25b8a1069bf4e7338099cf1044f1 mm/huge_memory: fix folio split stats counting
 
---===============7377030441223015548==--
+--===============7934254635041039446==--
