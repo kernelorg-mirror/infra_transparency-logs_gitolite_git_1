@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
-Date: Thu, 27 Nov 2025 21:50:44 -0000
-Message-Id: <176428024454.285173.13121470492663844813@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Thu, 27 Nov 2025 21:50:46 -0000
+Message-Id: <176428024608.285276.10365309596517969433@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/soc/soc
-user: arnd
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/riscv/dt
-    old: 0000000000000000000000000000000000000000
-    new: 5b70764e10190d57e6cd3287d3a3b06f8c89f69c
+  - ref: refs/heads/20251127_ckeepax_add_support_for_cs42l45_into_the_intel_machine_driver
+    old: 1e645bca9d1e4c5970778114d2d9fc247fe12e7b
+    new: 0000000000000000000000000000000000000000
