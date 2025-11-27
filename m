@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/linkinjeon/ntfs
-Date: Thu, 27 Nov 2025 03:09:54 -0000
-Message-Id: <176421299489.1067527.12491117023255871128@gitolite.kernel.org>
+Date: Thu, 27 Nov 2025 03:15:16 -0000
+Message-Id: <176421331657.1073382.3949736226937780123@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,18 +12,18 @@ repo: pub/scm/linux/kernel/git/linkinjeon/ntfs
 user: linkinjeon
 changes:
   - ref: refs/heads/ntfs-next
-    old: 39602c413fb0be850e697034246556c1bee36c6c
-    new: 17ff28dcdf0ba8e74806f1ffc099898ba711f0b3
+    old: 17ff28dcdf0ba8e74806f1ffc099898ba711f0b3
+    new: 0993cd1c45262be0d0af2d0cb5db420ddd657491
     log: |
-         d1c765acd6a060befa78954fcd2430b194154fbd ntfsplus: in-memory, on-disk structures and headers
-         54217c12f41a85132ec3a27caa7e110a633c2cf9 ntfsplus: add super block operations
-         aab09199bb070e786ae1e4b0b92289d8c640f15d ntfsplus: add inode operations
-         392be78b6642d0198ed063a8d41fa992536f330f ntfsplus: add directory operations
-         52f3cab461ffd129ad63770b168692247737f515 ntfsplus: add file operations
-         5fb5e18383879dd2d6d5e7bd2fdb67938bc34e25 ntfsplus: add iomap and address space operations
-         14510cbd1fb6f6094628003afd4c643d7e97276e ntfsplus: add attrib operatrions
-         c33973231e1ce09851257c149a45b33c5ec527b7 ntfsplus: add runlist handling and cluster allocator
-         06800cf206f19d679c06495ed58a33dd817e3eaf ntfsplus: add reparse and ea operations
-         1fd8878fddc7ce035d199fd177e4167269e828c1 ntfsplus: add misc operations
-         17ff28dcdf0ba8e74806f1ffc099898ba711f0b3 ntfsplus: add Kconfig and Makefile
+         24def8614d31c488495c0cbc43fd4dc19cadf8c3 ntfsplus: in-memory, on-disk structures and headers
+         583f35fc1cb2acc966717bbf5e75b82773f52886 ntfsplus: add super block operations
+         6cc5da33c60fbf29ad47537aa0b7fb1f9c196afa ntfsplus: add inode operations
+         e1c87b356ef38e8d055fac0ebd8c444aa8c994d8 ntfsplus: add directory operations
+         7a35fc2385f87cbf91703b952a8c9d7240548b3e ntfsplus: add file operations
+         f40348e68044bc5d26615537eab81e06c96b2310 ntfsplus: add iomap and address space operations
+         6cfbed5895603cf86409b830ef7f4703f92e1c98 ntfsplus: add attrib operatrions
+         d66b21590f8f1febff6b24bfbb8736d48e68002a ntfsplus: add runlist handling and cluster allocator
+         4360fef7cf78cc92cb172ef258c2f763c918b2ef ntfsplus: add reparse and ea operations
+         fed3b378eedd68f55d17f61da6d7ef05fbe3fdf8 ntfsplus: add misc operations
+         0993cd1c45262be0d0af2d0cb5db420ddd657491 ntfsplus: add Kconfig and Makefile
          
