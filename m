@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3501801281993940888=="
+Content-Type: multipart/mixed; boundary="===============7397128327059820523=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/robh/linux
-Date: Thu, 27 Nov 2025 01:45:40 -0000
-Message-Id: <176420794027.992880.842228215160395592@gitolite.kernel.org>
+Date: Thu, 27 Nov 2025 01:45:46 -0000
+Message-Id: <176420794670.993067.16294122541989495392@gitolite.kernel.org>
 
---===============3501801281993940888==
+--===============7397128327059820523==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/robh/linux
 user: robh
 changes:
-  - ref: refs/heads/dt/next
+  - ref: refs/heads/for-next
     old: df2602e1c68af8ea5e6e91da9e48a4312b88e943
     new: 546dbb0223102813ffb5bbcb9443a47c3183f195
     log: revlist-df2602e1c68a-546dbb022310.txt
 
---===============3501801281993940888==
+--===============7397128327059820523==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -39,4 +39,4 @@ fa622c9e9ba7ed0f95c66fd246b1ed14316cbb0e platform: surface: Simplify with of_mac
 d08989276a4ba82478613787e96791b234e953ba soc: tegra: Simplify with of_machine_device_match()
 546dbb0223102813ffb5bbcb9443a47c3183f195 of: Skip devicetree kunit tests when RISCV+ACPI doesn't populate root node
 
---===============3501801281993940888==--
+--===============7397128327059820523==--
