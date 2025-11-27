@@ -1,22 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Thu, 27 Nov 2025 02:25:14 -0000
-Message-Id: <176421031409.1026486.14918963788499605766@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/tpm2sh
+Date: Thu, 27 Nov 2025 02:25:51 -0000
+Message-Id: <176421035192.1027854.9744596457405673933@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: kuba
+repo: pub/scm/linux/kernel/git/jarkko/tpm2sh
+user: jarkko
 changes:
   - ref: refs/heads/main
-    old: 37a96c2009f75d25c33b81edcb016a48e1342846
-    new: ce69978ae8b760a98e459ad7f6a788c2f01b5166
+    old: 3de04dbabde7e8fbdf7c6e9cbad3e84856a25a27
+    new: 51e30287f88807256db01542af366df0da1fa54e
     log: |
-         91f3305b97fc41b42b67b9ff58441aa4d72cde2e net: hibmcge: add support for tracepoint to dump some fields of rx_desc
-         2e68bb2e0f7712239711cabc22ceeb56c011c69d net: hibmcge: reduce packet drop under stress testing
-         c305959175856b40dea4d9ec10bb2c72add22910 net: hibmcge: add support for pagepool on rx
-         ce69978ae8b760a98e459ad7f6a788c2f01b5166 Merge branch 'net-hibmcge-add-support-for-tracepoint-and-pagepool-on-hibmcge-driver'
+         d1e5aec611b66e56b9f1fabf49966795317dc1fa refactor: migrate to tpm2-protocol 0.16.2
+         51e30287f88807256db01542af366df0da1fa54e chore: bump version to 0.16.3
          
