@@ -1,24 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/hkml
-Date: Thu, 27 Nov 2025 22:06:58 -0000
-Message-Id: <176428121846.306988.14887916063715470189@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+Date: Thu, 27 Nov 2025 22:07:02 -0000
+Message-Id: <176428122208.307204.13878740643775047107@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/hkml
-user: sj
+repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+user: jarkko
 changes:
   - ref: refs/heads/master
-    old: e19ef14c174349e3943dfd2782b27f9ba58fa016
-    new: 5fd14162fe9da1aac14369c9452382ed93e87a0f
+    old: a0eef4f8b1d757a1f943890291f7c943f5eb1949
+    new: 1f7c77458e47320b773b91907ad8490825169068
     log: |
-         fd0e89ed5552d933f856a239e314ead976a146dd _hkml_list_cache: implement a function for getting last cursor position
-         8daf1489c5318e969b3d42154e2664616f4feabd hkml_view_mails: use _hml_list_cache.get_last_cursor_position()
-         e63c08648c029be617f84f26a808c795bbb0574d hkml_list: implement --history option
-         e56f920993948ee21ec2d42b2793e6ca876f9725 release_note: update for 'hkml list --history'
-         9b1c6c87801a77e634553c1ff4d8618bd94d5fa3 hkml_cache: print max active cache file size in human-readable form
-         5fd14162fe9da1aac14369c9452382ed93e87a0f TODO: mark history item as completed
+         5293dbbf8810d2564ad68152361c5444bfb5474e tpm: Remove tpm_find_get_ops
+         ec0d77cbdedb62106826ac86e6c3906a5fc00b1f tpm: Cap the number of PCR banks
+         1f7c77458e47320b773b91907ad8490825169068 tpm: Use -EPERM as fallback error code in tpm_ret_to_err
          
