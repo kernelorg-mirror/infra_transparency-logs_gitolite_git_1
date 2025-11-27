@@ -1,26 +1,57 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
-Date: Thu, 27 Nov 2025 15:55:26 -0000
-Message-Id: <176425892642.1768462.5306820926314414146@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============8767624216274047540=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux
+Date: Thu, 27 Nov 2025 15:55:46 -0000
+Message-Id: <176425894600.1768717.4020184565310366349@gitolite.kernel.org>
+
+--===============8767624216274047540==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/maz/arm-platforms
-user: maz
+repo: pub/scm/linux/kernel/git/krzk/linux
+user: krzk
+git_push_cert_status: Y
 changes:
-  - ref: refs/heads/kvm-arm64/feat_idst
-    old: c433e08e59bcc10c932ac58acf73761225070e5c
-    new: 456a106cce011b2c1ec2142c8856ea1916404655
+  - ref: refs/heads/for-next
+    old: 3acf0b2735b611bf182c66a9eab083ddf5c00c52
+    new: bca42080637ce3a21092fc0f7d5411e853b0c3b3
     log: |
-         cfdc6d7e7e00bbe689ba0352a7aaf961d91eb77f arm64: Repaint ID_AA64MMFR2_EL1.IDS description
-         fea4bf06c18a9bbdb5dca03baa641a4c28d19fbe KVM: arm64: Add routing/handling for GMID_EL1
-         516670a65b60a4faa950d5c1fffa3c08a145002d KVM: arm64: Force trap of GMID_EL1 when the guest doesn't have MTE
-         9f8ceb994ead57d2979f1388788b25c633eb4c69 KVM: arm64: Add a generic synchronous exception injection primitive
-         112a6a8095085c149d9930581f315167a725fc76 KVM: arm64: Report optional ID register traps with a 0x18 syndrome
-         6361eaa6d77af80db1deda2dada080eb8c0ea26b KVM: arm64: pkvm: Add a generic synchronous exception injection primitive
-         3883ca7e7e06206e03e7ba77d865b85e4a8a333c KVM: arm64: pkvm: Report optional ID register traps with a 0x18 syndrome
-         456a106cce011b2c1ec2142c8856ea1916404655 KVM: arm64: selftests: Add a test for FEAT_IDST
+         990eb9a8eb4540ab90c7b34bb07b87ff13881cad soc: samsung: exynos-pmu: fix device leak on regmap lookup
+         bca42080637ce3a21092fc0f7d5411e853b0c3b3 Merge branch 'next/drivers-late' into for-next
          
+
+--===============8767624216274047540==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher krzk@kernel.org 1764259017 +0100
+pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux.git
+nonce 1764258943-1367de10129b5b78f53b8bf43147b772ffe13483
+
+3acf0b2735b611bf182c66a9eab083ddf5c00c52 bca42080637ce3a21092fc0f7d5411e853b0c3b3 refs/heads/for-next
+-----BEGIN PGP SIGNATURE-----
+
+iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmkodMkQHGtyemtAa2Vy
+bmVsLm9yZwAKCRDBN2bmhouD137gD/9WfqxogUCGIecHOj6pR+PndD97WCL0wgky
+58QFM0uiF0k65EM78zVDy8x8n8gLZMMfQoBAYxmuoGJd1o/rzxT6oOh5/Ud2MVPC
+jMxeLWj3JQgkyfAPvVJHxS456eN+LY98Wy4xmjZDGvTNLQk4f3iULR3dNzoOt8tn
+mlTcjR7kC19MyMNay6Im4jFojOJ6DlSTOjlCJwrHbyb/f9OWfiAcIV67D7U2fDR9
+7GvDNLa7e5TbNBcKJ4N9bJNKGp6TgaYFn3LPYwV78RLHKpA9cxAkn/LJRa3+gm/8
+P0GkYX0hSEMrWtDSOVWlB3TPTnLSefiAVN9Ygl37Mg6cxQC78grhIgvSfo0IFMyf
+39qAjZR2NSBYROWEowPaYb4Q0k1PKT3k1l7we+BafVioJPQThYGxjtWGgBQNFhCH
+4u4MhCF0D1g8vLO3Uc9vf/IJ+ErfRR6IPjgCgfqOrglogkqFC2d13R6hE+rblPi6
+dnYosvfxQz97QTl2Kf05OgHGTvPs99Ueke7VdPEZTB5FI5B7w70VO30NvbDFWM5G
+dJdyhWDheZQKf5UaAKcO1SJLsJF+doaGTrTWzgqQBrHoaNleSfopGmtpHuGSNi4x
+G5+PFpkEt8MZCAyk+ced05JLwD0D76TFsylLxjx8Oum+lQGOJ+RFLyxuWZpy7q/1
+4mb/5kqAwA==
+=tUh3
+-----END PGP SIGNATURE-----
+
+--===============8767624216274047540==--
