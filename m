@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netfilter/nf-next
-Date: Fri, 28 Nov 2025 00:18:10 -0000
-Message-Id: <176428909049.437588.1605236912804243151@gitolite.kernel.org>
+Subject: post-receive: pub/scm/libs/liba2i/liba2i
+Date: Fri, 28 Nov 2025 00:19:36 -0000
+Message-Id: <176428917652.438657.3728682475880454443@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netfilter/nf-next
-user: pablo
+repo: pub/scm/libs/liba2i/liba2i
+user: alx
 changes:
-  - ref: refs/tags/nf-next-25-11-28
-    old: 0000000000000000000000000000000000000000
-    new: 71eb69efe04a32b11ad9f073d60ebcfa3daef04e
-  - ref: refs/tags/v6.18-rc7
-    old: 0000000000000000000000000000000000000000
-    new: c4508223b80908ac095e50f731e68c4387951f0f
+  - ref: refs/heads/master
+    old: fa62b15b8a9aaf41f327db458ba53af129b7ddd8
+    new: f3b7daee6e0dca7a4cf131af3ddc427f62438b0a
+    log: |
+         f3b7daee6e0dca7a4cf131af3ddc427f62438b0a src/: wsfix
+         
