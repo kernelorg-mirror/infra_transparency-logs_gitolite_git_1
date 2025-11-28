@@ -1,46 +1,67 @@
-Content-Type: multipart/mixed; boundary="===============1140235901428407112=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-Date: Fri, 28 Nov 2025 11:56:14 -0000
-Message-Id: <176433097427.1090476.6718206779968037347@gitolite.kernel.org>
-
---===============1140235901428407112==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
+Date: Fri, 28 Nov 2025 11:59:10 -0000
+Message-Id: <176433115086.1092020.17164459619289276469@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-user: ij
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/vfs/vfs
+user: brauner
 changes:
-  - ref: refs/heads/review-ilpo-next
-    old: f720239ca39d72657e1bbf9c4c6270c78f548e43
-    new: b169e1733cadb614e87f69d7a5ae1b186c50d313
-    log: |
-         b169e1733cadb614e87f69d7a5ae1b186c50d313 platform/x86/intel/hid: Add Dell Pro Rugged 10/12 tablet to VGBS DMI quirks
-         
-
---===============1140235901428407112==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1764330971 +0200
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86.git
-nonce 1764330971-91a395705f5c7f97e098dbfec4a125022c14e625
-
-f720239ca39d72657e1bbf9c4c6270c78f548e43 b169e1733cadb614e87f69d7a5ae1b186c50d313 refs/heads/review-ilpo-next
------BEGIN PGP SIGNATURE-----
-
-iHQEABYIAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCaSmN3wAKCRBZrE9hU+XO
-MbFTAPiR+1OXk6w7H0ihPDYAVIBpgVh5s/kDUeZmnhG+j/sYAQCpxdFZpaU5R02J
-ItCCBNGs/B1z9jQkR66NZzvTuXx4Cg==
-=BFvp
------END PGP SIGNATURE-----
-
---===============1140235901428407112==--
+  - ref: refs/tags/vfs-6.18-rc8.fixes
+    old: 0000000000000000000000000000000000000000
+    new: 9f3f2581c6d5c3cf4724b00be484788a8ff3c0b4
+  - ref: refs/tags/vfs-6.19-rc1.iomap
+    old: 0000000000000000000000000000000000000000
+    new: 3c20f6c1127bcf0faeed9865b989a2e2a81df6a8
+  - ref: refs/tags/vfs-6.19-rc1.misc
+    old: 0000000000000000000000000000000000000000
+    new: adcffca4cee7bee4017200d1fa2b1dd714134f8a
+  - ref: refs/tags/vfs-6.19-rc1.inode
+    old: 0000000000000000000000000000000000000000
+    new: e549053f95fd84ded2622f51cd31a448ed264fee
+  - ref: refs/tags/vfs-6.19-rc1.writeback
+    old: 0000000000000000000000000000000000000000
+    new: a3821679d1acb30a83c3757dd88a47188fa4403c
+  - ref: refs/tags/namespace-6.19-rc1
+    old: 0000000000000000000000000000000000000000
+    new: 19ca3f4c419fe89beda6d67629a3a35f9b319d08
+  - ref: refs/tags/vfs-6.19-rc1.coredump
+    old: 0000000000000000000000000000000000000000
+    new: 02859de05dfaa424189fbbcf749a4537868aeb9c
+  - ref: refs/tags/vfs-6.19-rc1.folio
+    old: 0000000000000000000000000000000000000000
+    new: 5aef026e3314edd3f52f3bffded54719c0a1a03f
+  - ref: refs/tags/kernel-6.19-rc1.cred
+    old: 0000000000000000000000000000000000000000
+    new: 28347147be607d87a7c452580ca9c2c747fb4c58
+  - ref: refs/tags/vfs-6.19-rc1.fs_header
+    old: 0000000000000000000000000000000000000000
+    new: fd998799271e6e230d310cf7347c9d8e0a9d310c
+  - ref: refs/tags/vfs-6.19-rc1.guards
+    old: 0000000000000000000000000000000000000000
+    new: 47bc1288bb43dbd1015e14e71f9622fd84bd2e6c
+  - ref: refs/tags/vfs-6.19-rc1.minix
+    old: 0000000000000000000000000000000000000000
+    new: 28f4d048048808e51b78c4d0dc850ba17ce04608
+  - ref: refs/tags/vfs-6.19-rc1.directory.delegations
+    old: 0000000000000000000000000000000000000000
+    new: 9402f6d5ee9d60eb362fb3898a9ed3848004171f
+  - ref: refs/tags/vfs-6.19-rc1.directory.locking
+    old: 0000000000000000000000000000000000000000
+    new: baeca7abffa1fffd72acd0fff6d751eda61e7fcc
+  - ref: refs/tags/vfs-6.19-rc1.ovl
+    old: 0000000000000000000000000000000000000000
+    new: 95d79144e9c9304493727a47e1db0e22accd1426
+  - ref: refs/tags/vfs-6.19-rc1.autofs
+    old: 0000000000000000000000000000000000000000
+    new: e5990bdeedd53afe8d7c378fec0c3ff3bb391e83
+  - ref: refs/tags/vfs-6.19-rc1.fd_prepare
+    old: 0000000000000000000000000000000000000000
+    new: 402a280c3b13ce652e45b2581b10d1fb17d69000
+  - ref: refs/tags/vfs-6.19-rc1.fd_prepare.fs
+    old: 0000000000000000000000000000000000000000
+    new: 9a1976a0e93c268d300eaa01a2ba7978d13a3db0
