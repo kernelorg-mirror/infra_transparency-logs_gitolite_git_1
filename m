@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/chao/linux
-Date: Fri, 28 Nov 2025 09:25:49 -0000
-Message-Id: <176432194981.951933.16963821168948366841@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kvms390/linux
+Date: Fri, 28 Nov 2025 09:46:28 -0000
+Message-Id: <176432318845.970188.17622730427378449514@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/chao/linux
-user: chao
+repo: pub/scm/linux/kernel/git/kvms390/linux
+user: frankja
 changes:
-  - ref: refs/heads/bugfix/common
-    old: a2bc47be9d4b99459d62dc4da62628acebe46bb3
-    new: 5820576d90660389ac5a62697b2f1383a8aa8b5d
+  - ref: refs/heads/next
+    old: 98afdebb1543b06831b24b7931c00dbeeac2ccf5
+    new: 2bd1337a1295e012e60008ee21a64375e5234e12
     log: |
-         a6cf6b13245e2a16d4408456951473ae51babe5f f2fs: fix to not account invalid blocks in get_left_section_blocks()
-         5820576d90660389ac5a62697b2f1383a8aa8b5d f2fs: support to show curseg.next_blkoff in debugfs
+         2bd1337a1295e012e60008ee21a64375e5234e12 KVM: s390: Use generic VIRT_XFER_TO_GUEST_WORK functions
          
