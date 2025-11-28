@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6532501095326476721=="
+Content-Type: multipart/mixed; boundary="===============4695902072178197915=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-Date: Fri, 28 Nov 2025 10:21:59 -0000
-Message-Id: <176432531954.1004847.17879008701485854946@gitolite.kernel.org>
+Date: Fri, 28 Nov 2025 10:32:00 -0000
+Message-Id: <176432592060.1014136.5581905107258238280@gitolite.kernel.org>
 
---===============6532501095326476721==
+--===============4695902072178197915==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,36 +16,34 @@ repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
 user: ij
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/review-ilpo-next
-    old: 0b39ce8f71c92c72681d9a678298a9a59ff9b5d3
-    new: f720239ca39d72657e1bbf9c4c6270c78f548e43
+  - ref: refs/heads/for-next
+    old: 5c14bff570dc5a756d90f7a5bc665cbbe604db8b
+    new: 0b39ce8f71c92c72681d9a678298a9a59ff9b5d3
     log: |
-         5aefbf5b68794870ccec126cd68bbfd1ee09283a acpi: platform_profile - Add max-power profile option
-         8d0aef2b3a17e5ed3afc8c9a2e71f22ac41a799f platform/x86: lenovo-wmi-gamezone Use max-power rather than balanced-performance
-         55715d7ad5e772d621c3201da3895f250591bce8 platform/x86: wmi-gamezone: Add Legion Go 2 Quirks
-         f03dd5dd736d6aea94406a273be2a10f84bc60e1 platform/surface: acpi-notify: add WQ_PERCPU to alloc_workqueue users
-         db4399501c58ad1225105224e7c9f03bc3d4fe39 platform: x86: replace use of system_wq with system_percpu_wq
-         f720239ca39d72657e1bbf9c4c6270c78f548e43 platform: surface: replace use of system_wq with system_percpu_wq
+         278ff7048466349e32d85afd62a4fcaf398ac23e platform/x86/amd/pmf: Refactor repetitive BIOS output handling
+         1d1b8b0734af5149946e687415bf6be05ae55bd6 platform/x86: serial-multi-instantiate: Add IRQ_RESOURCE_OPT for IRQ missing projects
+         2bd038de12e6e5168b64a0063ac8e6bd0a047133 platform/x86/amd/pmf: Add BIOS_INPUTS_MAX macro to replace hardcoded array size
+         0b39ce8f71c92c72681d9a678298a9a59ff9b5d3 platform/x86/amd/pmf: Use devm_mutex_init() for mutex initialization
          
 
---===============6532501095326476721==
+--===============4695902072178197915==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1764325315 +0200
+pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1764325916 +0200
 pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86.git
-nonce 1764325314-25ff6a9f188d417f66da172ec0dcdc88bddfa073
+nonce 1764325916-1e87a389af783d06edd2d70b2489372c2b1a717d
 
-0b39ce8f71c92c72681d9a678298a9a59ff9b5d3 f720239ca39d72657e1bbf9c4c6270c78f548e43 refs/heads/review-ilpo-next
+5c14bff570dc5a756d90f7a5bc665cbbe604db8b 0b39ce8f71c92c72681d9a678298a9a59ff9b5d3 refs/heads/for-next
 -----BEGIN PGP SIGNATURE-----
 
-iHUEABYIAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCaSl3xwAKCRBZrE9hU+XO
-MY2mAQDhjFQ12Iw8gBGNnmkSCfER69A67SkporQx8ZJ9ERU+DAEAtaG6xwoJ1Kd5
-uPAU2xLw3IOX4XCCTeD1ua4AvaiFowM=
-=srZW
+iHUEABYIAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCaSl6IQAKCRBZrE9hU+XO
+MdqpAQC04U5/aOuxCngo1HMB0DCmio65NjwyW2FWukWSJNpIiQEA9Su/hdhqiSBJ
+ZLvSxhYSvqEPMr4aTZ19hPX4I9ODKA0=
+=5/o3
 -----END PGP SIGNATURE-----
 
---===============6532501095326476721==--
+--===============4695902072178197915==--
