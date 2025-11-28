@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd-test
-Date: Fri, 28 Nov 2025 01:33:16 -0000
-Message-Id: <176429359610.519006.714782473109884491@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
+Date: Fri, 28 Nov 2025 01:34:25 -0000
+Message-Id: <176429366565.520012.13820079265035610853@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd-test
-user: jarkko
+repo: pub/scm/linux/kernel/git/kdave/linux
+user: kdave
 changes:
-  - ref: refs/heads/main
-    old: 92741c73a97f2bc8e34475757801f224a8081709
-    new: 87438d044faa09a3ead450e9d2819cdba26ecc01
-    log: |
-         87438d044faa09a3ead450e9d2819cdba26ecc01 Create keys for TPM 1.2
-         
+  - ref: refs/heads/for-6.19
+    old: 0000000000000000000000000000000000000000
+    new: 9e0e6577b3e5e5cf7c1acd178eb648e8f830ba17
