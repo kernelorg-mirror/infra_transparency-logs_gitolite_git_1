@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Fri, 28 Nov 2025 23:20:38 -0000
-Message-Id: <176437203832.1811117.4608071464145450375@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/i3c/linux
+Date: Fri, 28 Nov 2025 23:26:57 -0000
+Message-Id: <176437241786.1816375.570601897476449294@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: ast
+repo: pub/scm/linux/kernel/git/i3c/linux
+user: abelloni
 changes:
-  - ref: refs/heads/master
-    old: a3a60cc120d68d95a1cef3dccdc8932c63c16560
-    new: bd5bdd200c9e981cd5e2495966968cb26010573c
+  - ref: refs/heads/i3c/next
+    old: a54b1aeb61de63250ee608040a89bed8d1aa1e20
+    new: 5b9481a4157198b93cd6a5e7ad2603682202149d
     log: |
-         bd5bdd200c9e981cd5e2495966968cb26010573c bpf: Remove runqslower tool
+         5b9481a4157198b93cd6a5e7ad2603682202149d i3c: master: Remove i3c_device_free_ibi from i3c_device_remove
          
