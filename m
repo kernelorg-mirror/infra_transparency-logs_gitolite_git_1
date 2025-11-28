@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/linkinjeon/exfat
-Date: Fri, 28 Nov 2025 12:43:20 -0000
-Message-Id: <176433380096.1140982.3443600824867944412@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ulfh/linux-pm
+Date: Fri, 28 Nov 2025 13:07:37 -0000
+Message-Id: <176433525725.1163387.10067598990916620143@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/linkinjeon/exfat
-user: linkinjeon
+repo: pub/scm/linux/kernel/git/ulfh/linux-pm
+user: ulfh
 changes:
-  - ref: refs/heads/dev
-    old: dad91ba1e070a321b36f342106f45aba83d50dce
-    new: 2ee6b07dc79539461b4689eb76ea9fcf44c043a4
-    log: |
-         2ee6b07dc79539461b4689eb76ea9fcf44c043a4 exfat: fix remount failure in different process environments
-         
+  - ref: refs/tags/pmdomain-v6.18-rc6
+    old: 0000000000000000000000000000000000000000
+    new: 67dd813738d7b44447441b2179545456ddb44f7a
+  - ref: refs/tags/v6.18-rc7
+    old: 0000000000000000000000000000000000000000
+    new: c4508223b80908ac095e50f731e68c4387951f0f
