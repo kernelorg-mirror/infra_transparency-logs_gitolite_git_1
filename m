@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rcu/linux
-Date: Fri, 28 Nov 2025 14:24:54 -0000
-Message-Id: <176433989448.1233350.12209961922779273990@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/legion/kbd
+Date: Fri, 28 Nov 2025 14:45:19 -0000
+Message-Id: <176434111955.1254748.17651068519245853222@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rcu/linux
-user: frederic
+repo: pub/scm/linux/kernel/git/legion/kbd
+user: legion
 changes:
-  - ref: refs/heads/rcu/srcu
-    old: acfb85a5b3aaafc965d35e7d3a5256ab6a763179
-    new: bfad33230a5db723d703ea9448591659bda402b0
+  - ref: refs/heads/master
+    old: c5473634bbb653f0b61bd237d0e4bdfc9cfe3650
+    new: 60d9a8aebef1447a7056944a510c2995dd53c92b
     log: |
-         bfad33230a5db723d703ea9448591659bda402b0 refscale: Add SRCU-fast-updown readers
+         60d9a8aebef1447a7056944a510c2995dd53c92b Swiss german keyboard adjustements
          
