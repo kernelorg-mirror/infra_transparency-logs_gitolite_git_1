@@ -1,25 +1,46 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Fri, 28 Nov 2025 11:48:34 -0000
-Message-Id: <176433051455.1081875.13130755775052049340@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============1140235901428407112=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+Date: Fri, 28 Nov 2025 11:56:14 -0000
+Message-Id: <176433097427.1090476.6718206779968037347@gitolite.kernel.org>
+
+--===============1140235901428407112==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+user: ij
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/20251128_rf_firmware_cs_dsp_remove_need_for_clients_to_supply_dummy_cs_dsp_client_ops
-    old: 0000000000000000000000000000000000000000
-    new: 479b1f8d416501cc3c18b743b1cf63776934ada9
-  - ref: refs/heads/file60bEVr
-    old: 0000000000000000000000000000000000000000
-    new: b025f01ee952593d583716505764f116a9d578e0
-  - ref: refs/heads/filekpQC8r
-    old: 0000000000000000000000000000000000000000
-    new: 545d1287e40a55242f6ab68bcc1ba3b74088b1bc
-  - ref: refs/heads/v2_20251127_chancel_liu_asoc_fsl_micfil_set_default_quality_and_channel_range_control
-    old: 0000000000000000000000000000000000000000
-    new: ef1a7e02fdb7526e8d7c75e744f1f5b2acd7100b
+  - ref: refs/heads/review-ilpo-next
+    old: f720239ca39d72657e1bbf9c4c6270c78f548e43
+    new: b169e1733cadb614e87f69d7a5ae1b186c50d313
+    log: |
+         b169e1733cadb614e87f69d7a5ae1b186c50d313 platform/x86/intel/hid: Add Dell Pro Rugged 10/12 tablet to VGBS DMI quirks
+         
+
+--===============1140235901428407112==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1764330971 +0200
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86.git
+nonce 1764330971-91a395705f5c7f97e098dbfec4a125022c14e625
+
+f720239ca39d72657e1bbf9c4c6270c78f548e43 b169e1733cadb614e87f69d7a5ae1b186c50d313 refs/heads/review-ilpo-next
+-----BEGIN PGP SIGNATURE-----
+
+iHQEABYIAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCaSmN3wAKCRBZrE9hU+XO
+MbFTAPiR+1OXk6w7H0ihPDYAVIBpgVh5s/kDUeZmnhG+j/sYAQCpxdFZpaU5R02J
+ItCCBNGs/B1z9jQkR66NZzvTuXx4Cg==
+=BFvp
+-----END PGP SIGNATURE-----
+
+--===============1140235901428407112==--
