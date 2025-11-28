@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Fri, 28 Nov 2025 02:27:36 -0000
-Message-Id: <176429685690.571285.9928953885215663031@gitolite.kernel.org>
+Date: Fri, 28 Nov 2025 02:33:02 -0000
+Message-Id: <176429718233.576485.1875436344882969354@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,14 +12,13 @@ repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
 user: jarkko
 changes:
   - ref: refs/heads/tpm2-session
-    old: ca3c074b66fd7346e34fbb4c27f470ef997dcf82
-    new: 801c4ad501609778ddca4a27009b0d7040a95367
+    old: 801c4ad501609778ddca4a27009b0d7040a95367
+    new: 1c47f715edd5aae51f4483eb7377b412cd21b884
     log: |
-         ccc87db717fe34ec08030e1be4ee7339db39f076 tpm2-sessions: Open code tpm_buf_append_hmac_session()
-         d3419d5034397ebcbd06868fbed00d0790a2e575 KEYS: trusted: remove redundant instance of tpm2_hash_map
-         a3432b47302bec96b161250d2ebd37d954dc1ff0 KEYS: trusted: Fix memory leak in tpm2_load()
-         da89fe115d8b133fccdb4743f4f31a0c45bf6233 KEYS: trusted: Open code tpm2_buf_append()
-         4b6942c5594857ee028883e51ef319df4d9984bd tpm-buf: unify TPM_BUF_BOUNDARY_ERROR and TPM_BUF_OVERFLOW
-         da32af85a6612bb0e9c375736f8af4f319bd33b9 tpm-buf: Remove chip parameter from tpm_buf_append_handle
-         801c4ad501609778ddca4a27009b0d7040a95367 tpm-buf: Enable managed and stack allocations.
+         e735139fa1960ba38507666ea42f8e6a98ed044d KEYS: trusted: replace a redundant instance of tpm2_hash_map
+         83314e65d565eb6ea44ee803c1e3b582c77e1d1f KEYS: trusted: Fix memory leak in tpm2_load()
+         58c83ea0ec1ee3121061c0604f700e83f651101d KEYS: trusted: Open code tpm2_buf_append()
+         dcf3a9a4fbd5c3db6ffbe6e6cae9b7dd9e60216f tpm-buf: unify TPM_BUF_BOUNDARY_ERROR and TPM_BUF_OVERFLOW
+         fa547fe9cebfc78269004b804d165670911162c8 tpm-buf: Remove chip parameter from tpm_buf_append_handle
+         1c47f715edd5aae51f4483eb7377b412cd21b884 tpm-buf: Enable managed and stack allocations.
          
