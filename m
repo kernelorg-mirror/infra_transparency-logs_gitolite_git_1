@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7611588700229143161=="
+Content-Type: multipart/mixed; boundary="===============4309434060651463499=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Fri, 28 Nov 2025 07:22:59 -0000
-Message-Id: <176431457931.839795.7264715915463596941@gitolite.kernel.org>
+Date: Fri, 28 Nov 2025 07:23:28 -0000
+Message-Id: <176431460811.840314.2776831008370730567@gitolite.kernel.org>
 
---===============7611588700229143161==
+--===============4309434060651463499==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,15 +16,56 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: 3fde0f05218cfe3b759f316c57c197cc13b7caff
-    new: 0e3bdf0c8d45272e05279c2febe10461f3c6b990
-    log: revlist-3fde0f05218c-0e3bdf0c8d45.txt
+    old: 0e3bdf0c8d45272e05279c2febe10461f3c6b990
+    new: f520b74684e802873e7600ac20b891e5fe4176f3
+    log: revlist-0e3bdf0c8d45-f520b74684e8.txt
+  - ref: refs/heads/tip/urgent
+    old: a1ef372dbe4b489f4ed41db0af2558c9b284b817
+    new: 69c4f72276a4fafa110f51f7c5e33655397a1ca5
+    log: revlist-a1ef372dbe4b-69c4f72276a4.txt
 
---===============7611588700229143161==
+--===============4309434060651463499==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3fde0f05218c-0e3bdf0c8d45.txt
+Content-Disposition: attachment; filename=revlist-0e3bdf0c8d45-f520b74684e8.txt
+
+69c4f72276a4fafa110f51f7c5e33655397a1ca5 Merge branch into tip/master: 'timers/urgent'
+29be20b46cb61bfec6a95c7e491bbbb622d2046e Merge branch into tip/master: 'core/merge'
+bb7dc500177827839a269c92f0e5e4915acf96b1 Merge branch into tip/master: 'core/bugs'
+e0bc63308d5a31609758a30824b94da205254c47 Merge branch into tip/master: 'core/core'
+1b0ecc3ef60e73b905ceaf7ae3493a1b1eacb8f9 Merge branch into tip/master: 'core/debugobjects'
+ecdbca09ee7899ce34d476face4946f667f0523f Merge branch into tip/master: 'core/uaccess'
+6ce7a8f8449f8bdd6a0cd6f0e2e08136fd323154 Merge branch into tip/master: 'irq/core'
+f454ac18e4f4eaaac7626d0f9af0c1396d3db9ff Merge branch into tip/master: 'irq/drivers'
+722cfc165199316eb3019dc5927984af2c4338c9 Merge branch into tip/master: 'irq/msi'
+93bc1dd44b5e49036bbb39475f3e13d157c2a3f3 Merge branch into tip/master: 'locking/core'
+df96ba54f9ab41fbcc6e2bcec6feef9db1a0839e Merge branch into tip/master: 'locking/futex'
+cf64775f1b32732290e3525e673c69a0b02e85d4 Merge branch into tip/master: 'objtool/core'
+c2f01efcbf905d89b3bf0ddabe3597fe993bfd3d Merge branch into tip/master: 'perf/core'
+48f8ce68b5f36ed25fc53b0ca811cfb53a7a4675 Merge branch into tip/master: 'ras/core'
+8580086024d02978467c7abc1f312f20e1851b94 Merge branch into tip/master: 'timers/clocksource'
+781d6be3cf367365bbae3603bc6fe6f699e2f954 Merge branch into tip/master: 'timers/core'
+dbdb824719890e6dae372e4e97d2b4e91ce35925 Merge branch into tip/master: 'x86/apic'
+d008ccf7af0eb3da5964e7f263b43d54db7225e1 Merge branch into tip/master: 'x86/boot'
+1236e1d934511a1728e103ea8c920e16bacaa5c5 Merge branch into tip/master: 'x86/bugs'
+4b0053974119faaaa585e3cb9013fbf47d5461a5 Merge branch into tip/master: 'x86/build'
+cc9edca0d9594ab195ecaa6f6c3f107cec5d8ca4 Merge branch into tip/master: 'x86/cache'
+57a23ca8c58bbfbbe1d87a6516d9e2bdccf7ea8e Merge branch into tip/master: 'x86/cleanups'
+bfd8cfb571049eb24d4d90e78efd2aea7bf3fa55 Merge branch into tip/master: 'x86/core'
+e49bdb95b2a52b86806a0037b32cacba3f6ecd24 Merge branch into tip/master: 'x86/cpu'
+1c42519bd29681be70516391fc1797db94c3d3f8 Merge branch into tip/master: 'x86/entry'
+43cc9b43b930cfba51d52ff4405315c6e7385b16 Merge branch into tip/master: 'x86/microcode'
+2d6d499ded7ca574b3a267ed99b50198cc18b834 Merge branch into tip/master: 'x86/misc'
+653698cd10be1d5ca845210884a0d1a779e8aa4f Merge branch into tip/master: 'x86/mm'
+f0912fd6b32a995bd994514792189f0d3e75d7ca Merge branch into tip/master: 'x86/sev'
+f520b74684e802873e7600ac20b891e5fe4176f3 Merge branch into tip/master: 'x86/sgx'
+
+--===============4309434060651463499==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-a1ef372dbe4b-69c4f72276a4.txt
 
 0c73772cd2b8cc108d5f5334de89ad648d89b9ec can: kvaser_usb: leaf: Fix potential infinite loop in command parsers
 30db4451c7f6aabcada029b15859a76962ec0cf8 can: sja1000: fix max irq loop handling
@@ -103,9 +144,6 @@ c0a1f3d7e128e8d1b6c0fe09c68eac5ebcf677c8 net: fec: do not allow enabling PPS and
 9a060d0fac9e75524f72864adec6d8cdb70a5bca net: fec: do not register PPS event for PEROUT
 36d747866445a362d486028792e56dbe04fc16fb Merge branch 'net-fec-fix-some-ptp-related-issues'
 f07f4ea53e22429c84b20832fa098b5ecc0d4e35 mptcp: Initialise rcv_mss before calling tcp_send_active_reset() in mptcp_do_fastclose().
-3d1f1088455d9a9bce51f0c1e6a81f518a5cb468 x86/mm: Delete disabled debug code
-06e0ae988f6e3499785c407429953ade19c1096b debugobjects: Allow to refill the pool before SYSTEM_SCHEDULING
-37de2dbc318ee10577c1c2704de5a803e75e55a2 debugobjects: Use LD_WAIT_CONFIG instead of LD_WAIT_SLEEP
 a76dce0e54091556c0981375859d6cb60d2f7bfa Merge tag 'platform-drivers-x86-v6.18-5' of git://git.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
 1f5e808aa63af61ec0d6a14909056d6668813e86 Merge tag 'net-6.18-rc8' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 e1afacb68573c3cd0a3785c6b0508876cd3423bc Merge tag 'ceph-for-6.18-rc8' of https://github.com/ceph/ceph-client
@@ -117,8 +155,6 @@ aa7243aaf1947a0cb54c44337795d6759493fe02 Merge tag 'dma-mapping-6.18-2025-11-27'
 26c7a181fdb873297d3424794762e5c4f4ef7227 Merge tag 'drm-misc-fixes-2025-11-27' of https://gitlab.freedesktop.org/drm/misc/kernel into drm-fixes
 6dbcb801e1eb1b1764fd0012918225b60dd7916c Merge tag 'drm-xe-fixes-2025-11-27' of https://gitlab.freedesktop.org/drm/xe/kernel into drm-fixes
 e538109ac71d801d26776af5f3c54f548296c29c Merge tag 'drm-fixes-2025-11-28' of https://gitlab.freedesktop.org/drm/kernel
-8e17b44f074138abf6d0d222c7ca7ecdaf27379c Merge branch into tip/master: 'core/debugobjects'
-974527c43d792523f6e02be4572346d67a4ab53d Merge branch into tip/master: 'x86/cleanups'
-0e3bdf0c8d45272e05279c2febe10461f3c6b990 Merge branch 'linus'
+69c4f72276a4fafa110f51f7c5e33655397a1ca5 Merge branch into tip/master: 'timers/urgent'
 
---===============7611588700229143161==--
+--===============4309434060651463499==--
