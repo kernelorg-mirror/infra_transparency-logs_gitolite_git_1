@@ -1,21 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Fri, 28 Nov 2025 16:34:52 -0000
-Message-Id: <176434769233.1365580.11248157015007345732@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Fri, 28 Nov 2025 16:35:05 -0000
+Message-Id: <176434770582.1368090.9441925520147569560@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-user: jarkko
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
   - ref: refs/heads/master
-    old: e83c8f17070efb9234d126f4ceb9e332c428d864
-    new: 6bd23dd7108d4729a14f4dc287671bc55c462ba0
+    old: e538109ac71d801d26776af5f3c54f548296c29c
+    new: 4331989728da4e868fcda75bde872d032f5ce6ac
     log: |
-         22bc3b9f8062186c8a1be16528f3ac55a07314a9 tpm: Cap the number of PCR banks
-         ae1c1fe243ec0a08132efd10b43f89e974f4c206 tpm: Use -EPERM as fallback error code in tpm_ret_to_err
-         6bd23dd7108d4729a14f4dc287671bc55c462ba0 KEYS: trusted: Use tpm_ret_to_err() in trusted_tpm2
+         c1bac49fe91f7c10fec95e6ef8304062202d5263 pmdomains: mtk-pm-domains: Fix spinlock recursion in probe
+         c98c99d5dbdf9fb0063650594edfd7d49b5f4e29 pmdomain: tegra: Add GENPD_FLAG_NO_STAY_ON flag
+         747528729c9b6733839f9c95f300d5bef95ee52c mmc: sdhci-of-dwcmshc: Promote the th1520 reset handling to ip level
+         f849f26f77205e25f6ad0b9011b1b68a560d35ff Merge tag 'pmdomain-v6.18-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/ulfh/linux-pm
+         4331989728da4e868fcda75bde872d032f5ce6ac Merge tag 'mmc-v6.18-rc2-2' of git://git.kernel.org/pub/scm/linux/kernel/git/ulfh/mmc
          
