@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5823362248630538206=="
+Content-Type: multipart/mixed; boundary="===============0913758970889422837=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gmonaco/linux
-Date: Fri, 28 Nov 2025 15:24:43 -0000
-Message-Id: <176434348394.1290771.10959385653633077642@gitolite.kernel.org>
+Date: Fri, 28 Nov 2025 15:25:19 -0000
+Message-Id: <176434351958.1293492.10466029342075595894@gitolite.kernel.org>
 
---===============5823362248630538206==
+--===============0913758970889422837==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/gmonaco/linux
 user: gmonaco
 changes:
-  - ref: refs/heads/rv_hybrid_automata
-    old: fe5daf85f210fb8a0029aaebe632541fe419a959
-    new: 0ea0c73c571d1a27d19413168ebffd7b032403ba
-    log: revlist-fe5daf85f210-0ea0c73c571d.txt
+  - ref: refs/heads/rv_dl_server
+    old: 6a5a47d0c597efe1c426b1642b4a05e3d4d26e33
+    new: 7aa305cf2f2e949ed55dcb3b13520a4c2ff192a8
+    log: revlist-6a5a47d0c597-7aa305cf2f2e.txt
 
---===============5823362248630538206==
+--===============0913758970889422837==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-fe5daf85f210-0ea0c73c571d.txt
+Content-Disposition: attachment; filename=revlist-6a5a47d0c597-7aa305cf2f2e.txt
 
 404ee89b4008cf2130554dac2c64cd8412601356 pinctrl: mediatek: mt8196: align register base names to dt-bindings ones
 518919276c4119e34e24334003af70ab12477f00 pinctrl: mediatek: mt8189: align register base names to dt-bindings ones
@@ -349,5 +349,10 @@ f6b4098302c38aa7517afc13af4bb21527c4d5e7 sched: Export hidden tracepoints to mod
 d37cb01d2dc3556a37d1f5c9a65ed956ef8c26bd rv: Add support for per-object monitors in DA/HA
 fd5f7578c21a742812672db541f875ca4da9054d verification/rvgen: Add support for per-obj monitors
 0ea0c73c571d1a27d19413168ebffd7b032403ba rv: Add deadline monitors
+ad9979502e9dd05d0462db2de0406bc342a3f929 sched/deadline: Fix dl_server time accounting
+5a9f36a4f97e86823084e58edbbb4716c2ab128d sched/deadline: Fix dl_server stop condition
+791d8e56c50fa3e131a2ef5233371bd4cd6a6441 sched/deadline: Document dl_server
+63a057f086ae3fa999d753320c0fdce8690dd969 rv: Add boost monitor
+7aa305cf2f2e949ed55dcb3b13520a4c2ff192a8 rv: Add laxity monitor
 
---===============5823362248630538206==--
+--===============0913758970889422837==--
