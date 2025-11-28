@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============4043421257212023583=="
+Content-Type: multipart/mixed; boundary="===============7036610752100561745=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jgg/iommufd
-Date: Fri, 28 Nov 2025 17:20:47 -0000
-Message-Id: <176435044779.1463830.2651420212316698543@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/fwctl/fwctl
+Date: Fri, 28 Nov 2025 17:21:04 -0000
+Message-Id: <176435046488.1464206.14544196913238286849@gitolite.kernel.org>
 
---===============4043421257212023583==
+--===============7036610752100561745==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jgg/iommufd
+repo: pub/scm/linux/kernel/git/fwctl/fwctl
 user: jgg
 changes:
   - ref: refs/heads/linus
@@ -20,7 +20,7 @@ changes:
     new: 4331989728da4e868fcda75bde872d032f5ce6ac
     log: revlist-ac3fd01e4c1e-4331989728da.txt
 
---===============4043421257212023583==
+--===============7036610752100561745==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -161,4 +161,4 @@ e538109ac71d801d26776af5f3c54f548296c29c Merge tag 'drm-fixes-2025-11-28' of htt
 f849f26f77205e25f6ad0b9011b1b68a560d35ff Merge tag 'pmdomain-v6.18-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/ulfh/linux-pm
 4331989728da4e868fcda75bde872d032f5ce6ac Merge tag 'mmc-v6.18-rc2-2' of git://git.kernel.org/pub/scm/linux/kernel/git/ulfh/mmc
 
---===============4043421257212023583==--
+--===============7036610752100561745==--
