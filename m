@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============4407714870735364749=="
+Content-Type: multipart/mixed; boundary="===============4520257351130335082=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools
-Date: Fri, 28 Nov 2025 18:42:10 -0000
-Message-Id: <176435533071.1540487.14540928055280152362@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
+Date: Fri, 28 Nov 2025 18:43:09 -0000
+Message-Id: <176435538965.1541222.7210588248934568728@gitolite.kernel.org>
 
---===============4407714870735364749==
+--===============4520257351130335082==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/perf/perf-tools
+repo: pub/scm/linux/kernel/git/acme/linux
 user: acme
 changes:
   - ref: refs/heads/tmp.perf-tools
@@ -20,7 +20,7 @@ changes:
     new: 6cf62f0174de64e4161e301bb0ed52e198ce25dc
     log: revlist-6a23ae0a96a6-6cf62f0174de.txt
 
---===============4407714870735364749==
+--===============4520257351130335082==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -512,4 +512,4 @@ f849f26f77205e25f6ad0b9011b1b68a560d35ff Merge tag 'pmdomain-v6.18-rc6' of git:/
 dabf127d641e43d5fbb72a1f48209818349db7ef Merge tag 'tty-6.18-rc8' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/tty
 6cf62f0174de64e4161e301bb0ed52e198ce25dc Merge tag 'char-misc-6.18-rc8' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/char-misc
 
---===============4407714870735364749==--
+--===============4520257351130335082==--
