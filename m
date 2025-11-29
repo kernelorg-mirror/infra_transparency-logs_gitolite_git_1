@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/andrea/ripgrep-edit
-Date: Sat, 29 Nov 2025 03:52:58 -0000
-Message-Id: <176438837876.2071649.102117169539559544@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/tpm2-crypto
+Date: Sat, 29 Nov 2025 03:55:04 -0000
+Message-Id: <176438850437.2074551.8636176140145563181@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/andrea/ripgrep-edit
-user: andrea
+repo: pub/scm/linux/kernel/git/jarkko/tpm2-crypto
+user: jarkko
 changes:
   - ref: refs/heads/main
-    old: 25f4a06e754cf843fb3e383b8e581a39d7d3832d
-    new: 0cfc8e1ad4554e1b293b070bd28477b51266b5bd
+    old: 013fb7e26e6e808c8097b87b1e59d2dab78c0d75
+    new: db05eadad4a988312944719df2d1c2a5728ad372
     log: |
-         f0918caa12bfcf65853a492218d6291db77a2139 version
-         0cfc8e1ad4554e1b293b070bd28477b51266b5bd Copr: set pakage version to what is in Cargo.toml automatically
+         db05eadad4a988312944719df2d1c2a5728ad372 refactor: simplify TpmRsaExternalKey
          
