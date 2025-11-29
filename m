@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Sat, 29 Nov 2025 11:43:37 -0000
-Message-Id: <176441661794.2516323.16341540220845584438@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mips/linux
+Date: Sat, 29 Nov 2025 12:36:49 -0000
+Message-Id: <176441980989.2565731.2289289390213647319@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: peterz
+repo: pub/scm/linux/kernel/git/mips/linux
+user: tsbogend
 changes:
-  - ref: refs/heads/locking/core
-    old: 01f38611a451da4d7f0ad0261367310f931622d6
-    new: e7194ffe9a0411122980b031c0bbb455a5106266
+  - ref: refs/heads/mips-fixes
+    old: ac3fd01e4c1efce8f2c054cdeb2ddd2fc0fb150d
+    new: 841ecc979b18d3227fad5e2d6a1e6f92688776b5
     log: |
-         477ee187604d2169f52e570dc04dadb33ea78c59 locking: Add local_locks to MAINTAINERS
-         4b9405200ced4d5c90d3dfe61036833ed6fb439c locking/local_lock: s/l/__l/ and s/tl/__tl/ to reduce risk of shadowing
-         e7194ffe9a0411122980b031c0bbb455a5106266 local_lock: fix all kernel-doc warnings
+         841ecc979b18d3227fad5e2d6a1e6f92688776b5 MIPS: mm: kmalloc tlb_vpn array to avoid stack overflow
          
