@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/viro/vfs
-Date: Sat, 29 Nov 2025 05:19:30 -0000
-Message-Id: <176439357060.2162805.7242718704573024839@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/tpm2-device
+Date: Sat, 29 Nov 2025 05:28:48 -0000
+Message-Id: <176439412845.2172001.8233011396231199499@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/viro/vfs
-user: viro
+repo: pub/scm/linux/kernel/git/jarkko/tpm2-device
+user: jarkko
 changes:
-  - ref: refs/heads/v1.filename-refcnt
-    old: 0000000000000000000000000000000000000000
-    new: 199922acb0d863af84246c55c70d5e62e0305feb
+  - ref: refs/heads/main
+    old: f5c5df543e63a212cf42affd4b6a239ef25ba927
+    new: af3bc1f5a332622b72b319cefb2e18e86ca165df
+    log: |
+         af3bc1f5a332622b72b319cefb2e18e86ca165df refactor(error): refine and document
+         
