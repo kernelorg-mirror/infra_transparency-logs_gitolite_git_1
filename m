@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/lindholm/alpha
-Date: Sat, 29 Nov 2025 13:01:14 -0000
-Message-Id: <176442127427.2589855.6252237541722233511@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mtd/linux
+Date: Sat, 29 Nov 2025 13:04:07 -0000
+Message-Id: <176442144726.2591282.13878912037955058418@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/lindholm/alpha
-user: lindholm
+repo: pub/scm/linux/kernel/git/mtd/linux
+user: mraynal
 changes:
-  - ref: refs/heads/fixes
+  - ref: refs/tags/nand/for-6.19
     old: 0000000000000000000000000000000000000000
-    new: 19eef1d98eeda3745df35839190b7d4a4adea656
+    new: 62418571b5fee0093851b87ec7b1ce7ae83abac5
