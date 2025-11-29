@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/lindholm/alpha
-Date: Sat, 29 Nov 2025 23:05:15 -0000
-Message-Id: <176445751543.3156369.6961183209058307739@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/sysdarch
+Date: Sat, 29 Nov 2025 23:18:54 -0000
+Message-Id: <176445833480.3167297.5574704689475142458@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/lindholm/alpha
-user: lindholm
+repo: pub/scm/linux/kernel/git/jarkko/sysdarch
+user: jarkko
 changes:
-  - ref: refs/heads/for-next
-    old: bb39a9700eac9897c65cb2dddf6d8d45bfca2a01
-    new: dc4ac96eaafc1447dd612192c0ef61b54ffa9170
+  - ref: refs/heads/main
+    old: 72341204868d3fdc1e807ac108935b70d6c52dbe
+    new: 9b5b93bf4d534ae977104b21b3851a98c2fda4e4
     log: |
-         dc4ac96eaafc1447dd612192c0ef61b54ffa9170 alpha: Replace __ASSEMBLY__ with __ASSEMBLER__ in the alpha headers
+         9b5b93bf4d534ae977104b21b3851a98c2fda4e4 Add 'htop'
          
