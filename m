@@ -1,21 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/firmware/linux-firmware
-Date: Sat, 29 Nov 2025 17:00:08 -0000
-Message-Id: <176443560856.2812371.17827241533069059567@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/tpm2-tpmkey
+Date: Sat, 29 Nov 2025 17:01:37 -0000
+Message-Id: <176443569771.2813355.1631713093039666123@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/firmware/linux-firmware
-user: jwboyer
+repo: pub/scm/linux/kernel/git/jarkko/tpm2-tpmkey
+user: jarkko
 changes:
   - ref: refs/heads/main
-    old: cf5db46334caf2d33a477893db7b30cc8d9444db
-    new: 01006f5dea2d88d758aeba6de4e030d65b7be881
+    old: ab678b2e1145fcda8c975d7be92954fb03a2e04e
+    new: 67a6ad39cabebcd82adbe7c1b41bf4a730010c72
     log: |
-         474cca8b3fd34d9ae094ecad61f6a57d85fd23a4 mediatek MT7925: update bluetooth firmware to 20251124093155
-         5b890c92e78b16bc5f89604ab2be1cd6aeba5daa linux-firmware: update firmware for MT7925 WiFi device
-         01006f5dea2d88d758aeba6de4e030d65b7be881 Merge branch 'mt7925' into 'main'
+         91aa011e6b3278edb07f643ced94e3b810af1f9b build: bump tpm2-protocol to 0.16.4
+         67a6ad39cabebcd82adbe7c1b41bf4a730010c72 chore: bump version to 0.11.2
          
