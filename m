@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0947504165024325624=="
+Content-Type: multipart/mixed; boundary="===============3254102119758291220=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Sat, 29 Nov 2025 03:27:42 -0000
-Message-Id: <176438686218.2046036.10465923300210667192@gitolite.kernel.org>
+Date: Sat, 29 Nov 2025 03:28:05 -0000
+Message-Id: <176438688585.2046523.16701156868361255866@gitolite.kernel.org>
 
---===============0947504165024325624==
+--===============3254102119758291220==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,45 +16,45 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-queue
-    old: eb62238e5c1e750dba06418fc4d5259ffd45f656
-    new: bef30777f7dff3327e3d66dcf2867fab465254b2
-    log: revlist-eb62238e5c1e-bef30777f7df.txt
+  - ref: refs/heads/6.19/scsi-queue
+    old: e360bb6dc843ffa59283705dd167478ea317567c
+    new: 82f78acd5a9270370ef4aa3f032ede25f3dc91ee
+    log: revlist-e360bb6dc843-82f78acd5a92.txt
 
---===============0947504165024325624==
+--===============3254102119758291220==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1764386836 -0500
+pusher 75C5DE3D 1764386865 -0500
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1764386835-5a6308158dc28579bd2b845ce4fd364cb5696320
+nonce 1764386864-918b35120486ec727c688b7d109d73bc44cdc0be
 
-eb62238e5c1e750dba06418fc4d5259ffd45f656 bef30777f7dff3327e3d66dcf2867fab465254b2 refs/tags/mkp-scsi-queue
+e360bb6dc843ffa59283705dd167478ea317567c 82f78acd5a9270370ef4aa3f032ede25f3dc91ee refs/heads/6.19/scsi-queue
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmkqaBQACgkQ7ulgGnXF
-3j2g4w/9GSGF/eW/Fvoctk4yMCeaSyhXDjtBZPnVI+O7idM8YFU5RggYcQviWv4J
-SU7Lg9lcRXBggBe3Sq8SulteSu786Bkhjb2b/cIj/OgPFcE0RwVots3MTzpYUS9g
-RFfIYqtAmlgJKH5rttVbR7O+zs28TtEwmNY+09WIC+GqvuF0l9vj/tN1hCNHerJj
-K0VrCusWGOFoi3Yay8bR3hOkAdvuSStxUVev+lHr7JW4fC2+j2yUH9hdPyR2jECO
-cvsgrxoTp3Mr81li6yhqZOcoXYt52qClsG+0jMp5s/DGC7biD2w1yUby01QPF7o6
-y6Sgva01eQjg8AYNgKiheAtYBp6eOQ1HbC4kdUEKm9BBkU8Hf5CsfjK6YbobvyS/
-RtiuNiRwgeTkVG+GOQonFN8vpqWPgxMhrhIJq9X9L9BSJMQnIafSnQIPQzRc0jxs
-542UNil9StvMEumTvOz+Xjnm/yJzm+yRVN8qT7zdlbHh6qHd4173PdFK9Y0giTOO
-0B6GmbGwE/26cBQrgcSwQlvOhO/gcNkbLGRDnmF7OZYMiMxPZxsOZqR2wHZpBl+3
-cZt08VYDEjM5hf4j5YIcVrx3aipXTryFGtMStZqKt+FGOJDWl8wPycemPKMOaDm/
-VcZZ//A9oL8UwN5FNCUkri5nUq7cS/n+EnRqSqakiIPS1cBwrJ8=
-=89Qk
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmkqaDEACgkQ7ulgGnXF
+3j3yvRAAlTEe0tC76MdTGBd19d1zPRCDRP/T2JO7TREjDuQJCTnGvm7Bu1cQbt+D
+fcBPpHOxxT5J6f4jLiIFP4SUOEARzgb2d6YJGonVXBLA0+48oUy94/JnE+agtg+C
+lf+89l1gT7lZeFvWhm+SvMBWEeg0281YGOHRE3kEo5G7WXmLjXaMgeYZ2x6mt4bG
+KWRSw3IjxD5K12Q128JK4pWtkTlHrP6L19MJrvE2A6PrPnAKcI0VLx3xcDZljiXS
+qtsRhwJc3D/rse9j95+QowIXY9ZHQYM+0vJSLCi3FO9UsxpeRQFkSoUrQlct5uLG
+uGxy7nPZhTX0CpS/GjXnm+Q/Sm1FijMNw9AqedwpDsAzy8tWhSUieBcuNLr+8fdc
+A6R/wmC2BPnI2d1mijlXAtmFdF60jsCmf83Bvm/uuqG8O6tGUl/CxUslA87nthHQ
+wGvoHUXI9SwNDu9+O6TY0b55hbDjcj2AsGyxQZvZw7dDTcOnkQAVIxfQL4sah+Js
+l8ALpb3MSYETApLxiJMSvMDHqcMNjYAAA9h5yvp3L0tSSBVEal6FlNRLsH9lskZa
+DRATaia1uG9nzeKhOPGPqpdhLUrukHWwNCczZsI3B8Sy1Zw6b2wLRwg5xCDHaSBb
+6wMbEnHsNu7E4FMhNObnKJDnoK0Do4nUcul+JSpglk0xFzOJfWE=
+=3lh5
 -----END PGP SIGNATURE-----
 
---===============0947504165024325624==
+--===============3254102119758291220==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-eb62238e5c1e-bef30777f7df.txt
+Content-Disposition: attachment; filename=revlist-e360bb6dc843-82f78acd5a92.txt
 
 0892507f4a0b76eb897afc2bacca85e172512379 mfd: ls2kbmc: Fix an IS_ERR() vs NULL check in probe()
 4af66c2bcab06e6e515b23139122e745d7619680 mfd: ls2kbmc: check for devm_mfd_add_devices() failure
@@ -451,4 +451,4 @@ e54f7b4b8159d76d601788ca61267247fac67abf Merge branch 6.18/scsi-fixes into 6.19/
 38725491e7665640545c8155db53a7b21bcdf886 scsi: MAINTAINERS: Add the UFS include directory
 82f78acd5a9270370ef4aa3f032ede25f3dc91ee Merge patch series "Add OP-TEE based RPMB driver for UFS devices"
 
---===============0947504165024325624==--
+--===============3254102119758291220==--
