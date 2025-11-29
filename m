@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-pull-request
-Date: Sat, 29 Nov 2025 20:49:41 -0000
-Message-Id: <176444938131.3029123.1642564420869324997@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mips/linux
+Date: Sat, 29 Nov 2025 20:50:06 -0000
+Message-Id: <176444940621.3031776.10534454559903028242@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/linux-pull-request
-user: jarkko
+repo: pub/scm/linux/kernel/git/mips/linux
+user: tsbogend
 changes:
-  - ref: refs/heads/main
-    old: 17b09646b69545eb4c70906763038c06932ed824
-    new: 72c11c9dd870cf1ea7a2515dc3c1de44343c840f
-    log: |
-         72c11c9dd870cf1ea7a2515dc3c1de44343c840f Add keys-trusted.mbox.in
-         
+  - ref: refs/tags/mips-fixes_6.18_2
+    old: 0000000000000000000000000000000000000000
+    new: 43156da946a4ec5c2a586d8936ba989444dcfce6
