@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jarkko/tpm2-protocol
-Date: Sat, 29 Nov 2025 15:52:06 -0000
-Message-Id: <176443152609.2744081.286827950177534809@gitolite.kernel.org>
+Date: Sat, 29 Nov 2025 15:58:11 -0000
+Message-Id: <176443189112.2749284.17987188555374073114@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/jarkko/tpm2-protocol
 user: jarkko
 changes:
   - ref: refs/heads/main
-    old: f7f43ca28fedd2c15d3b91706d3d059b3ef0e06e
-    new: 9cfd7945c6101af27f120982669ef78d4741a267
+    old: 9cfd7945c6101af27f120982669ef78d4741a267
+    new: d64d76493496e9669a2d331d5495c1b711f0029f
     log: |
-         9cfd7945c6101af27f120982669ef78d4741a267 refactor: migrate fully to typed integers
+         d64d76493496e9669a2d331d5495c1b711f0029f perf(buffer): avoid unnecessary zero fill
          
