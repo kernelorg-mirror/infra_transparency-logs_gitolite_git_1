@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jarkko/tpm2-device
-Date: Sat, 29 Nov 2025 05:46:43 -0000
-Message-Id: <176439520361.2191018.16659776135983324860@gitolite.kernel.org>
+Date: Sat, 29 Nov 2025 05:47:04 -0000
+Message-Id: <176439522446.2191470.16315942627122594244@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/jarkko/tpm2-device
 user: jarkko
 changes:
   - ref: refs/heads/main
-    old: af3bc1f5a332622b72b319cefb2e18e86ca165df
-    new: 96ecfbaa91430f792c825ac5e8015d02e59bd558
+    old: 96ecfbaa91430f792c825ac5e8015d02e59bd558
+    new: 1a9b6654508ef7ccf8ea772e5782d5f0220dfb18
     log: |
-         96ecfbaa91430f792c825ac5e8015d02e59bd558 refactor: remove name cache
+         1a9b6654508ef7ccf8ea772e5782d5f0220dfb18 chore: bump version to 0.5.6
          
