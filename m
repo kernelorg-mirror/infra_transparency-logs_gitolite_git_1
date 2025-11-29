@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/driver-core/driver-core
-Date: Sat, 29 Nov 2025 05:28:58 -0000
-Message-Id: <176439413860.2172263.13755180503967456352@gitolite.kernel.org>
+Date: Sat, 29 Nov 2025 05:36:32 -0000
+Message-Id: <176439459267.2180906.3750868121180913626@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,5 +12,5 @@ repo: pub/scm/linux/kernel/git/driver-core/driver-core
 user: dakr
 changes:
   - ref: refs/tags/driver-core-6.19-rc1
-    old: fc6764810c9f8b92958a7a2e731965654e653ce3
-    new: 0000000000000000000000000000000000000000
+    old: 0000000000000000000000000000000000000000
+    new: 241acf45176c1ab42383dbfba55a2655ad1b6906
