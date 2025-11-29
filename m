@@ -1,52 +1,46 @@
-Content-Type: multipart/mixed; boundary="===============3245403610967901591=="
+Content-Type: multipart/mixed; boundary="===============8018237055036748496=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/git/git
-Date: Sat, 29 Nov 2025 07:59:07 -0000
-Message-Id: <176440314733.2314308.3794589039389275914@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/wsa/linux
+Date: Sat, 29 Nov 2025 08:04:21 -0000
+Message-Id: <176440346111.2319540.2412136038790700099@gitolite.kernel.org>
 
---===============3245403610967901591==
+--===============8018237055036748496==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/git/git
-user: junio
+repo: pub/scm/linux/kernel/git/wsa/linux
+user: wsa
 changes:
-  - ref: refs/heads/seen
-    old: ba87ce1cae4fd50d84d329d6e164c07cbb5862f2
-    new: 80a06b88c8e913f1a1292a8637e91651ac3cb717
-    log: revlist-ba87ce1cae4f-80a06b88c8e9.txt
-  - ref: refs/notes/amlog
-    old: 0330d33c55937717f4399b4e2f8beb5eedb5c363
-    new: de22d9d0b7c4bc228a47cda7b9bcec95ff597538
-    log: |
-         226ffa90b2df8f51c0fd42fcd5217290a38bbcfb amlog
-         de22d9d0b7c4bc228a47cda7b9bcec95ff597538 Notes added by 'git notes add'
-         
+  - ref: refs/heads/renesas/x5h/mfis-mfd-experimental
+    old: 0c6b9ab70690d985efaf5c19bc17e594dab6f694
+    new: 8d1186decd858cae78f3c8abc700829114cb8ff4
+    log: revlist-0c6b9ab70690-8d1186decd85.txt
 
---===============3245403610967901591==
+--===============8018237055036748496==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ba87ce1cae4f-80a06b88c8e9.txt
+Content-Disposition: attachment; filename=revlist-0c6b9ab70690-8d1186decd85.txt
 
-c32b95992e6dc56ad7ed81fb56fb0b6655a5a48a last-modified: fix bug caused by inproper initialized memory
-fc74610586550df6fac627bb21dac0f680716653 Merge branch 'tc/last-modified-active-paths-optimization' into jch
-175d67a4ff65def3da66b9da1cfe18f042621d86 Merge branch 'ds/doc-scalar-config' into seen
-b194ee0783a604a4f70cea136f4d4ae2fcf063f6 Merge branch 'jc/exclude-with-gitignore' into seen
-eb258366fff1077eb71766b755c66e3036ce9ccb Merge branch 'ms/doc-worktree-side-by-side' into seen
-40c21c2c2218313db215023eaabe0e20d2a53a4f Merge branch 'ps/history' into seen
-da831f4b1703bfd03a3dfffc58417f4ac34c5359 Merge branch 'lc/rebase-trailer' into seen
-3fde1f072a2dc09327fd3ddda8055fcb5662f71b Merge branch 'pw/replay-drop-empty' into seen
-136f86abc052ef6186d9985fc26833ffc0484888 Documentation/git-replay.adoc: fix errors around revision range
-831985c5e6c97fb7656818ed7262100ee60ab643 Merge branch 'en/replay-doc-revision-range' into seen
-f78f71a071ed3cfeff8fb848170be678d0693214 Merge branch 'je/doc-reset' into seen
-fff66a4596be94581fe8db8aa5d17bdd68ec0955 Merge branch 'dw/config-global-list' into seen
-40232be90705ae76f8cdbd364eeac129fc700d6b Merge branch 'sp/shallow-time-boundary' into seen
-5665365a85fe86cb9a5df492c16503ccfbf96ae6 ### CI
-80a06b88c8e913f1a1292a8637e91651ac3cb717 Merge branch 'bc/sha1-256-interop-02' into seen
+65edc811cd4a8c6562b434cfe70fb885205f0fe6 mfd: Add driver for Renesas R-Car MFIS module
+2f7d709319d9bcf7aeeafca02fa99944b84ea7a3 hwspinlock: add driver for Renesas MFIS
+26517edbf7b49de2470200fe34f63f703883377f soc: renesas: add X5H PRR support
+d8a9b8b1bfabbeec0a8c05260112e84b947f3ecf arm64: renesas: r8a78000: enable to use SCP
+ba711815174be1f2a28d347fbc2c875a0ebf8889 arm64: renesas: r8a78000-ironhide: enable to use SCP
+d56c9a60657f87e8d5c698d9fa5dd844fced812a arm64: renesas: r8a78000: use polling with SCMI
+04794a47f49e664f3160abc6360339a6f11a33b2 arm64: renesas: r8a779g0: add MFIS node
+d9195781b20ca0aeaba47376c8f3c87d2441304b WIP: arm64: renesas: sparrow-hawk: enable MFIS
+1895f7dc916a063eb71e27ff1ceb67f6c92015fd HACK: scif: abuse to test spinlocks
+d46b094da3774efc0cd7ac716a94a3dbe1cd0153 dt-bindings: mailbox: Add Renesas MFIS[-SCP] Mailbox
+dadf3322a863f6a911b7950f33c6bc2553a1e17a mailbox: add new {fw/of}_xlate_with_name()
+f861eedb3195693a00ceb57345ba31806354427e mailbox: renesas: Support MFIS mailbox driver
+d86a1fc5eed44b2a622a1a6b1d06b9e1389b01b1 REMOVE ME: arm64: defconfig: disable ARM64_SVE to avoid exceptions
+47e2925d5c36115ad5fdbf1c38da760c9986923b REMOVE ME: arm64: defconfig: disable ARM64_PTR_AUTH to avoid exceptions
+c21557476f1054b2966f0cfddeae0104a0e0e51d REMOVE ME: arm64: defconfig: disable ARM64_AMU_EXTN to avoid exceptions
+8d1186decd858cae78f3c8abc700829114cb8ff4 REMOVE ME: arm64: renesas: defconfig: Disable ARM64_SVE to avoid exceptions
 
---===============3245403610967901591==--
+--===============8018237055036748496==--
