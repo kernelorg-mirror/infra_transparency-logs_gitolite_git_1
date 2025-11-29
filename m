@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6705001157125139265=="
+Content-Type: multipart/mixed; boundary="===============6678919953921853951=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Sat, 29 Nov 2025 03:28:35 -0000
-Message-Id: <176438691505.2047106.11652768981205760825@gitolite.kernel.org>
+Date: Sat, 29 Nov 2025 03:28:39 -0000
+Message-Id: <176438691954.2047439.10948030965917615787@gitolite.kernel.org>
 
---===============6705001157125139265==
+--===============6678919953921853951==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,45 +16,45 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-staging
-    old: bd11c74ca42b7712ca62479b4f8413f2fb67cd2d
-    new: 20a5cb553c2ed492d62a91d9ae0f5e3a37ad1285
-    log: revlist-bd11c74ca42b-20a5cb553c2e.txt
+  - ref: refs/heads/6.19/scsi-staging
+    old: 38725491e7665640545c8155db53a7b21bcdf886
+    new: 82f78acd5a9270370ef4aa3f032ede25f3dc91ee
+    log: revlist-38725491e766-82f78acd5a92.txt
 
---===============6705001157125139265==
+--===============6678919953921853951==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1764386894 -0500
+pusher 75C5DE3D 1764386918 -0500
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1764386894-38b94bca32d30d88f407b122fdcc16beb992c943
+nonce 1764386917-c2722566f804341854ec867b372cb7ac83a94aa3
 
-bd11c74ca42b7712ca62479b4f8413f2fb67cd2d 20a5cb553c2ed492d62a91d9ae0f5e3a37ad1285 refs/tags/mkp-scsi-staging
+38725491e7665640545c8155db53a7b21bcdf886 82f78acd5a9270370ef4aa3f032ede25f3dc91ee refs/heads/6.19/scsi-staging
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmkqaE4ACgkQ7ulgGnXF
-3j1i2Q//dXWJhHPULippy2cYG+jeumX5wu4YwgSZnfkv086+66TfCrwIpzVActfa
-DgUdP3Vv282KuZY0hMIzDhPWp03dWAfHo5ZVUPhkTDOjN8Idjdb3aVNfD+W8jp6v
-fF0dt9OLZ2IQK/OKVwLydtA5o7iEESnX/6TS+T57inpaWu2U2ucCDX3NbOABe0so
-LVi/ru7vdGiUSnLzif3bQAdh40IQq+qUEOqSV6JOFbfrWl9FpiQslBpPGdztLvHh
-cRTaDbfPYP2WCsLvxgD+WnZVZCu4bdE+JISh/ZUsT/PzSfzPbJGSPwyGaTJfl7hq
-d8S7OdUzo+S3EjAAY3+U5C21VyPw7KiqB5Jq0K1Pr8X8V/GZF67e6ZSD8zkY48nr
-OgmGe3fQrY46jIZD+XBj9FR53GdPfyqzkKkkh9NPH2zEGzy55upO9BOvps2fc01U
-MZrN6dpL5IcGd6ejfqEdlGSwiHy4qzRijv4vd7fr2KUvS3CUOfPZqTk22xeTnFma
-inyNr9kZbWkaTnsSAHO7uJnBLiNovO3sfltQU+aF9YWCsmbV8/XXd7IJ/RCQvb44
-E/KhZvrIgbNXitPi8rkNvOlgJf91lxGVYPhfoQgWPxIkB8tTrxu5TfBzhoUUKZNm
-81ObTUqMtG0r48zZTclpZTW+Rq5pUQlroY900Sw3/GUw/PTtxUc=
-=xq2U
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmkqaGYACgkQ7ulgGnXF
+3j0f7g//UZvxe8dG2k3S2sD9NFPeM+GLptf5cD9UBNM2PHMfHtNCWfUuwAdR5Go6
+tWQ/lyUAEuPkthx1G2mhBRyPHIslWXblEq7b8n0v1WtFBA9NcuGVVFMdoYOdFHpu
+zGfXx9jeutAP4rFcF8kcJeq/xcHQbe7zf9wQojeakhN7wbAELHHk1FZoXci26zx0
+RlVmWgbq66VkEpC4kYVN/z+HtUaZd4S1MhCcQEJH3rfAb+19ajLwuAbofFoQpSnp
+8Ptc8CFU08bQ4ofx2TjrGSb2kmOAfHuMR9o2KlHf82U1VpyygvmeAdPQhyzMrsca
+Tu1NgouHIGRgwHYiz868j0Sn18ozwcXS4OfWb7G5wdJ/TI/r8h6PT22VHj+6PSXd
+PgMMOZKvK6G8U55xqRqQ3piZfhiNsJ0XrBDJB402nxm9HjgfPZAGFn+RMhVw4T2l
+TJlYO1nQyCqyOs2ztV72RDYvVGtw0Gpm0kdwsXR3YNQ28Jli2lVJxZyeUYC3hJEI
+Te3KSRfK3gK6YipNWBCEHpd6npdz1kYc9UedRGf/Mv3dkvDCVD+1ia+D4nu1epL3
+YqBas4LQlS2D7MXtAOCGq/3/hthZl5nMuPgyP1WFbGFKwLywvpOKYs0PdRB/MjOc
+98g0jS7230O+riD1vPR/n/XLV3bM+Lr9zDVQd5FQEAeaBZM5ITo=
+=O/Mj
 -----END PGP SIGNATURE-----
 
---===============6705001157125139265==
+--===============6678919953921853951==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-bd11c74ca42b-20a5cb553c2e.txt
+Content-Disposition: attachment; filename=revlist-38725491e766-82f78acd5a92.txt
 
 0892507f4a0b76eb897afc2bacca85e172512379 mfd: ls2kbmc: Fix an IS_ERR() vs NULL check in probe()
 4af66c2bcab06e6e515b23139122e745d7619680 mfd: ls2kbmc: check for devm_mfd_add_devices() failure
@@ -424,4 +424,4 @@ d794b499f948801f54d67ddbc34a6eac5a6d150a scsi: ufs: core: fix incorrect buffer d
 b06b8c421485e0e96d7fd6aa614fb0b6f2778a03 scsi: ufs: core: Add OP-TEE based RPMB driver for UFS devices
 82f78acd5a9270370ef4aa3f032ede25f3dc91ee Merge patch series "Add OP-TEE based RPMB driver for UFS devices"
 
---===============6705001157125139265==--
+--===============6678919953921853951==--
