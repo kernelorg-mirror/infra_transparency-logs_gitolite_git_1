@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2186559113553012477=="
+Content-Type: multipart/mixed; boundary="===============0440523740683272942=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Sat, 29 Nov 2025 22:21:25 -0000
-Message-Id: <176445488589.3116257.473196390402753961@gitolite.kernel.org>
+Date: Sat, 29 Nov 2025 22:21:49 -0000
+Message-Id: <176445490962.3116573.11117445385608310242@gitolite.kernel.org>
 
---===============2186559113553012477==
+--===============0440523740683272942==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,9 +16,9 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-staging
-    old: 20a5cb553c2ed492d62a91d9ae0f5e3a37ad1285
-    new: f5989facef2e969969e20d112fc133c63fb9aa13
+  - ref: refs/heads/6.19/scsi-staging
+    old: 82f78acd5a9270370ef4aa3f032ede25f3dc91ee
+    new: 9086cac895c3bfd9bdd9a4d850da1749e447ed32
     log: |
          b4bb6daf4ac4d4560044ecdd81e93aa2f6acbb06 scsi: ufs: core: Fix EH failure after W-LUN resume error
          5053eab38a4c4543522d0c320c639c56a8b59908 scsi: target: Reset t_task_cdb pointer in error case
@@ -31,33 +31,33 @@ changes:
          9086cac895c3bfd9bdd9a4d850da1749e447ed32 scsi: qla4xxx: Use time conversion macros
          
 
---===============2186559113553012477==
+--===============0440523740683272942==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1764454857 -0500
+pusher 75C5DE3D 1764454888 -0500
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1764454857-48400fc889e1fecda3e5a3b0a9988417529f8e1b
+nonce 1764454888-8ca5e1d65c3ae4156a2f1927a4e5507ac20774c3
 
-20a5cb553c2ed492d62a91d9ae0f5e3a37ad1285 f5989facef2e969969e20d112fc133c63fb9aa13 refs/tags/mkp-scsi-staging
+82f78acd5a9270370ef4aa3f032ede25f3dc91ee 9086cac895c3bfd9bdd9a4d850da1749e447ed32 refs/heads/6.19/scsi-staging
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmkrcckACgkQ7ulgGnXF
-3j2Pgg//axsD1MTIqMsFcAEh1Hb143J6R27E/qoiGkcf2/4gSj0wPUTzotyJbnDa
-fg8jRQqByxQCRNLLY69cE59s58tVOddlQKyT8TtJKPzaF0DJpLEyEF/6m+z7FcwF
-jXi9J4/P/7uPyKH1/XtYsx903mPiNrYdfACYSZlyTkH46vx/41Jr7ULVxlL/hUI1
-CNiAazi4uWKxmo8eLJxtKYdtH1SSVSPfkn1A0WFwbgqf83ttNtQagJmkqk+Q42HX
-P7MNP9yZrlpBsXfi1ttuh0bpY5dyZ+aNDBbjEOOw7fzd52F2qD+AH+lqCf1XHAXe
-jR6DFyGn6Ocn68hRLxZdVmJEvk3B7zl+XW9MfJIofVQhCo3E9vSxy9PeMj3rYMpx
-Xp0s8OTdyWb36Ibkhxn+80M+gJxmci2zg6jEuUsH3OvIcSZ5PtR8g2/W/J9yjnSu
-YjpUXwEoaktG38xxz21rqgMCuOyIYHSn4UU/NZSy9x+hDip1abk33kztdkLK6gjq
-uJ9AfI44Uyy/L2VVppXeMtGDPkNQ7/0qw2yNrGk1y/spv6iUi//2bCdRWd6anr2h
-F3X+lJjDQWjd1CoLlYDVYfvvOE3W72amXIMi3B8W8FBFVx/EwOWDCSl2rCkhpkdr
-S1yA40aZGt5carIoIA5YH5nHF5CuOFTgE/PXt+6RWCrdEXiOgL0=
-=tCEP
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmkrcegACgkQ7ulgGnXF
+3j0cCQ//dNgovVlIOgo9MwNJ9RBdP06V2wKNMP2KEz3+h4AbyMiFZFraZDBj+CuN
+WSxqTv+Wb5t8tdIZc4AZbpyzmFSsf1bVQLOrUaNbJ9Qg0DyTSjJ3PAEHSKwCsHaZ
+MhMFtqb57xiaxxvscPSIZHUF6Yl6atPIXYtt66h0RfN4y5kZctJNxZSduk06zEG4
+sPpq9D9+W5kxUq4h7yyAAK8vgJxcCSvzaq12VHhuXXN6dUPCbrr6XGOfWE7cJuV/
+ufnEm0jhQOJjsDc+wLTHE6i/UZUEFzxc5cxDOCW1ppGgSDV8t7S9hPyjv8CB9st6
+hrIG2oxAFCtBox46z8r2+OEndPVM7OJGKjRx8BF9r2pyAzYkMNQCxAz5Wk6tbubS
+6lNxjiGuSu3rww+pOmpzKeGlLPs+2HATeHrsMKkVAqMg42FyNuil5zvqTpDqByTh
+TcOZ/MYdKyMVt1OrCPwSxku9Dnug737XlFmFvPJjeN3VdsuA5b4NXK8OsDACjn9p
+JDwF5+AbvrXCSoI5TA+P+1pXX3yJoXzRRJrzTy+FSWJ9T+1OwNlSziAYp+7NFuY5
+v8KkYjEQjfBWPPtrgVyPpylX82aZqomZ/0rrEq389jzTN8i60SSlPC8LSvKzUnLm
+wT8EUCXm4E7lciucokCnRDVvywJmBBJ7u/ew2QZ7lLfhShk9TjY=
+=z6T9
 -----END PGP SIGNATURE-----
 
---===============2186559113553012477==--
+--===============0440523740683272942==--
