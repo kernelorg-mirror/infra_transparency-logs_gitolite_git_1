@@ -1,61 +1,48 @@
-Content-Type: multipart/mixed; boundary="===============6741428525552519055=="
+Content-Type: multipart/mixed; boundary="===============1836270436968235717=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Sat, 29 Nov 2025 04:11:10 -0000
-Message-Id: <176438947077.2096550.8785261490899159238@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Sat, 29 Nov 2025 04:15:58 -0000
+Message-Id: <176438975895.2101403.1054105615551716568@gitolite.kernel.org>
 
---===============6741428525552519055==
+--===============1836270436968235717==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/cel/linux
-user: cel
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
-  - ref: refs/heads/nfsv3-xdrgen
-    old: 87fb634bd9bf1da2f8061853d3942a0d6d04e72c
-    new: 88f9968b27fc76a63703e5425ad243bf27c9d8be
-    log: revlist-87fb634bd9bf-88f9968b27fc.txt
+  - ref: refs/heads/main
+    old: 8aa1053f9dafb866c069232d457b7b87b88ecba1
+    new: 840a64710e6d26589d4bdcc99c765037a7c5c95f
+    log: revlist-8aa1053f9daf-840a64710e6d.txt
 
---===============6741428525552519055==
+--===============1836270436968235717==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-87fb634bd9bf-88f9968b27fc.txt
+Content-Disposition: attachment; filename=revlist-8aa1053f9daf-840a64710e6d.txt
 
-7d4f57c482b3dbe2049d12e8a30ac7967ee4a254 xdrgen: Fix missing blank line before union decoder declarations
-03fb16775f315f61f9f5f2495568f0bd06f57be9 xdrgen: Fix missing blank line after enum definitions
-2cb49941c9b3285585945038be5797df269127d6 xdrgen: Fix double blank line before enum declarations
-0621fd9be58b27a881ac3510bad2af57a980e530 Documentation: Add the RPC language description of NFSv3
-38a1812a9dd25bce6f2b53ad4a291cf3c93b2c1d NFSD: Remove "#include <linux/nfs_fs.h>" from nfs_ssc.h
-a5ce3ed335676544e7448b71d1f4bc45171dcfb2 NFSD: Remove "#include <linux/nfs_fs.h>" from fs/nfsd/localio.c
-b4e55022a50311c59c230552644606bd84e6d4fd NFSD: Replace nfs3.h with nfs3xdr_gen.h
-2fdb995016790b750a1ea1f514527e5524026798 NFSD: Replace the nfsd3_createres macro
-301d6195d9504e0bf580920ecfd0c5fc15bc0302 NFSD: Use xdrgen XDR functions for the NFSv3 NULL procedure
-79241e0d2337797edbdb3594a9aaa41c2b945cd0 NFSD: Use xdrgen XDR functions for NFSv3 GETATTR procedure
-6dd8c92b8f3f791133790f76305506bcc4f14140 NFSD: Use xdrgen XDR functions for NFSv3 SETATTR procedure
-65f2546e92774b48dcd19e1d4f65c5101e9a7013 NFSD: Use xdrgen XDR functions for the NFSv3 LOOKUP procedure
-d5fe3cf9139833bf023c00263254b326c4fd1062 NFSD: Use xdrgen XDR functions for NFSv3 ACCESS procedure
-817b0f8be9843544bb540c158aceae3f3caf8839 NFSD: Use xdrgen XDR functions for NFSv3 READLINK procedure
-5470d9df4028a508d8548ab5e4f75a465185028b NFSD: Use xdrgen XDR functions for NFSv3 READ procedure
-0235b31130aa8f4ab585b158eef4fafe0c41b703 NFSD: Use xdrgen XDR functions for NFSv3 WRITE procedure
-27883e07101ac0ca67db0517cb3c44daf9facfeb NFSD: Use xdrgen XDR functions for NFSv3 CREATE procedure
-b7fce938315d81d01347df9d4a87a9ff7132f5ed NFSD: Use xdrgen XDR functions for NFSv3 MKDIR procedure
-f6b116e55fa475da31a9c330ebbfa585aad406a8 NFSD: Use xdrgen XDR functions for NFSv3 SYMLINK procedure
-824406b60ae16b2c76e28735175c91bffdd9aee8 NFSD: Use xdrgen XDR functions for NFSv3 MKNOD procedure
-da349dc9a128aaf23016439b7d750dffbb20fe09 NFSD: Use xdrgen XDR functions for the NFSv3 REMOVE procedure
-fd282f0f3eba877670971de0bf0a78fd235e63be NFSD: Use xdrgen XDR functions for the NFSv3 RMDIR procedure
-a14616ff2fb807887a270dacfa7366056607578b NFSD: Use xdrgen XDR functions for the NFSv3 RENAME procedure
-928f9a62dc3448013e3dbc0465aaa54d2b76a5cf NFSD: Use xdrgen XDR functions for the NFSv3 LINK procedure
-d31c57dbca387f177ece7cbf215e4d0959e9014b NFSD: Use xdrgen XDR functions for the NFSv3 FSSTAT procedure
-5ce595282c5a016c24dc4e8fba2f2d4adc17164c NFSD: Use xdrgen XDR functions for the NFSv3 FSINFO procedure
-80916164d43fc2c1c15dc025b31cc16bd1a84096 NFSD: Use xdrgen XDR functions for the NFSv3 PATHCONF procedure
-e900004ef808650b3b802b1966b9e2710d3d9883 NFSD: Use xdrgen XDR functions for the NFSv3 COMMIT procedure
-c2cc71e798191474042fc7b400872cce5316a494 NFSD: Use xdrgen XDR functions for NFSv3 READDIR arguments
-bf9e841de51b09b8b87a42656c0f93307a9cf9a8 NFSD: Use xdrgen XDR functions for NFSv3 READDIRPLUS arguments
-88f9968b27fc76a63703e5425ad243bf27c9d8be NFSD: Refactor NFSv3 directory cookie encoding
+634f3853cc98d73bdec8918010ee29b06981583e netfilter: flowtable: check for maximum number of encapsulations in bridge vlan
+93d7a7ed07342f5e3da2d250cfd67f899d0b5318 netfilter: flowtable: move path discovery infrastructure to its own file
+b5964aac51e0c286a50e68225e0dfcf11fb554cb netfilter: flowtable: consolidate xmit path
+c653d5a78f3463cfd4c80909425510fb930b0641 netfilter: flowtable: inline vlan encapsulation in xmit path
+18d27bed0880b1ac8638a6f4f2edc2ecc6b5c6a1 netfilter: flowtable: inline pppoe encapsulation in xmit path
+030feea3097c41ed268c81240e5c334d9977b1c4 netfilter: flowtable: remove hw_ifidx
+a0d98b641d676e9fc5c458b14aee8ee874dd7298 netfilter: flowtable: use tuple address to calculate next hop
+ab427db17885814069bae891834f20842f0ac3a4 netfilter: flowtable: Add IPIP rx sw acceleration
+d30301ba4b07ac92eb38353a111833b009003170 netfilter: flowtable: Add IPIP tx sw acceleration
+fe8313316eaf0f3b052d5a9464ca6aa630229400 selftests: netfilter: nft_flowtable.sh: Add IPIP flowtable selftest
+be102eb6a0e7c03db00e50540622f4e43b2d2844 netfilter: nf_conncount: rework API to use sk_buff directly
+c0362b5748282e22fa1592a8d3474f726ad964c2 netfilter: nf_conncount: make nf_conncount_gc_list() to disable BH
+69894e5b4c5e28cda5f32af33d4a92b7a4b93b0e netfilter: nft_connlimit: update the count if add was skipped
+c4cbe4a4df39a2cf80593f87d129cd4b04ea568d netfilter: nft_connlimit: add support to object update operation
+c0bd21682aedeb5d1367ee8026f71dc32624091a selftests: netfilter: nft_flowtable.sh: Add the capability to send IPv6 TCP traffic
+c4f0ab06e1e0c1331e6febd03538a7f621f15134 netfilter: ip6t_srh: fix UAPI kernel-doc comments format
+d3a439e55c193b930e0007967cf8d7a29890449b netfilter: nf_tables: improve UAPI kernel-doc comments
+840a64710e6d26589d4bdcc99c765037a7c5c95f Merge tag 'nf-next-25-11-28' of git://git.kernel.org/pub/scm/linux/kernel/git/netfilter/nf-next
 
---===============6741428525552519055==--
+--===============1836270436968235717==--
