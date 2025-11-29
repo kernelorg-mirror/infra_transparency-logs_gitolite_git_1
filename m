@@ -1,25 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mailhol/iproute2-next
-Date: Sat, 29 Nov 2025 11:41:16 -0000
-Message-Id: <176441647666.2515107.5554895047794658340@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Sat, 29 Nov 2025 11:43:37 -0000
+Message-Id: <176441661794.2516323.16341540220845584438@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mailhol/iproute2-next
-user: mailhol
+repo: pub/scm/linux/kernel/git/tip/tip
+user: peterz
 changes:
-  - ref: refs/heads/canxl-netlink
-    old: 3971e58e1440be48c8349b247b9f6fb4ddedcdc3
-    new: 885322897da979de2f0cdd8b9da6a91ae6e87178
+  - ref: refs/heads/locking/core
+    old: 01f38611a451da4d7f0ad0261367310f931622d6
+    new: e7194ffe9a0411122980b031c0bbb455a5106266
     log: |
-         845991419f2285f5202462cf5f78ada5aeb8f32c iplink_can: print_usage: fix the text indentation
-         156faa9c1ff0abf89da5971fb615da3457b18f17 iplink_can: print_usage: change unit for minimum time quanta to mtq
-         2c770ecb664680dae661fb1eddd3f147a3e09165 iplink_can: print_usage: describe the CAN bittiming units
-         548eeeb126aa86531e7c20c3795392fe5cdb7683 iplink_can: add CAN_CTRLMODE_RESTRICTED
-         8366bc49bd6384856c70a69a7404ccf0efefd7be iplink_can: add initial CAN XL support
-         33e2682b2c8dc295ea48990ff5c739ef532f16d2 iplink_can: add CAN_CTRLMODE_XL_TMS
-         885322897da979de2f0cdd8b9da6a91ae6e87178 iplink_can: add CAN XL's PWM interface
+         477ee187604d2169f52e570dc04dadb33ea78c59 locking: Add local_locks to MAINTAINERS
+         4b9405200ced4d5c90d3dfe61036833ed6fb439c locking/local_lock: s/l/__l/ and s/tl/__tl/ to reduce risk of shadowing
+         e7194ffe9a0411122980b031c0bbb455a5106266 local_lock: fix all kernel-doc warnings
          
