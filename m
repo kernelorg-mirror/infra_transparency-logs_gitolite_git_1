@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7925572983369371630=="
+Content-Type: multipart/mixed; boundary="===============7363018539378502358=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Sun, 30 Nov 2025 00:16:20 -0000
-Message-Id: <176446178087.3221599.6589157807643663389@gitolite.kernel.org>
+Date: Sun, 30 Nov 2025 00:16:22 -0000
+Message-Id: <176446178212.3221766.18213500017094433833@gitolite.kernel.org>
 
---===============7925572983369371630==
+--===============7363018539378502358==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/mm-new
-    old: a8fe5130508ea22ebe6a4585a263ce17a292e5c8
+  - ref: refs/heads/mm-unstable
+    old: 3dbe36b3669050e710824973778b132414982743
     new: 2178727587e1eaa930b8266377119ed6043067df
-    log: revlist-a8fe5130508e-2178727587e1.txt
+    log: revlist-3dbe36b36690-2178727587e1.txt
 
---===============7925572983369371630==
+--===============7363018539378502358==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a8fe5130508e-2178727587e1.txt
+Content-Disposition: attachment; filename=revlist-3dbe36b36690-2178727587e1.txt
 
 3cf41edc2067de9265f9f58b905317723c59a0c7 mm/vmscan: skip increasing kswapd_failures when reclaim was boosted
 a493c7a65074e182e52306fc05b10896f9634855 mm/page_alloc: optimize lowmem_reserve max lookup using its semantic monotonicity
@@ -57,4 +57,4 @@ c5bd1d89bc0bfb9b31d4184b74d53df3b2c7f689 mm/huge_memory: replace can_split_folio
 2eec9ef062d98044dc9d4803117beb6e4a50b8ea mm/huge_memory: make min_order_for_split() always return an order
 2178727587e1eaa930b8266377119ed6043067df mm/huge_memory: fix folio split stats counting
 
---===============7925572983369371630==--
+--===============7363018539378502358==--
