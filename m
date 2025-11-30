@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/damon-hack
-Date: Sun, 30 Nov 2025 21:43:34 -0000
-Message-Id: <176453901477.194249.14366335629925495953@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gfs2/linux-gfs2
+Date: Sun, 30 Nov 2025 21:58:04 -0000
+Message-Id: <176453988448.208619.2043031206809781202@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/damon-hack
-user: sj
+repo: pub/scm/linux/kernel/git/gfs2/linux-gfs2
+user: agruen
 changes:
-  - ref: refs/heads/master
-    old: 15855c54972702163c43c9bdd9fc78b70d32b4ef
-    new: 5f1cfe59dfa6a02149a115239400deb5d1bf51be
+  - ref: refs/heads/for-next
+    old: 1ac8a6d0fa2ed3b1969708246679cedb42ded380
+    new: ede0604363430399f6ecd1a9dd2c9b5fd4cc2130
     log: |
-         5f1cfe59dfa6a02149a115239400deb5d1bf51be patches/next: sample_control: rename and remove ops_attrs
+         ede0604363430399f6ecd1a9dd2c9b5fd4cc2130 gfs2: Fix use of bio_chain
          
