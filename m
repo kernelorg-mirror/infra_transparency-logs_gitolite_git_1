@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Mon, 01 Dec 2025 11:11:38 -0000
-Message-Id: <176458749889.1179296.6216280361181637488@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/iwlwifi/android-os
+Date: Mon, 01 Dec 2025 11:15:15 -0000
+Message-Id: <176458771596.1183372.9496912148238636795@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: mingo
+repo: pub/scm/linux/kernel/git/iwlwifi/android-os
+user: mkorenbl
 changes:
-  - ref: refs/tags/sched-core-2025-12-01
+  - ref: refs/tags/android16-6.12-desktop__release/core101-2025-12-01
     old: 0000000000000000000000000000000000000000
-    new: 5f3a4d563d0031b4df341cb3da2145f166b5d80e
+    new: d3915c8b2f054ce10db7fdc70ca4bcb1eeb2c0be
