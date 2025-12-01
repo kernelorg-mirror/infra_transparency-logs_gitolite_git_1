@@ -1,22 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/i3c/linux
-Date: Mon, 01 Dec 2025 15:25:04 -0000
-Message-Id: <176460270483.1429518.16505890747137238657@gitolite.kernel.org>
+Subject: post-receive: pub/scm/devel/sparse/sparse-dev
+Date: Mon, 01 Dec 2025 15:25:32 -0000
+Message-Id: <176460273279.1430043.5189584300923071352@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/i3c/linux
-user: abelloni
+repo: pub/scm/devel/sparse/sparse-dev
+user: chrisl
 changes:
-  - ref: refs/heads/i3c/next
-    old: de53ad6ca49e5d73bba72d24b49ec5d40f33ee01
-    new: 4e7263b87ca362825beeac669dcbe24aae2c6257
+  - ref: refs/heads/master
+    old: fbdde3127b83e6d09e0ba808d7925dd84407f3c6
+    new: c1f02d959ac047a980f121f0be077e5905560ec6
     log: |
-         256a21743d911f94ce92fe28f793cd586f3860b2 i3c: Add HDR API support
-         9280b6ebbf08e53734d34f3bb325c37cddc1422d i3c: Switch to use new i3c_xfer from i3c_priv_xfer
-         108420fe2100b0c9cfb2d3598681eab3724247b9 i3c: master: svc: Replace bool rnw with union for HDR support
-         4e7263b87ca362825beeac669dcbe24aae2c6257 i3c: master: svc: Add basic HDR mode support
+         27b34d720c4a06a90ed1982e91e1c049471f12e2 validation: add check for typeof() and address spaces
+         c1f02d959ac047a980f121f0be077e5905560ec6 symbol: preserve address space qualifiers with typeof()
          
