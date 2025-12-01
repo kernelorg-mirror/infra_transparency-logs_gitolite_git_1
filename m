@@ -1,52 +1,45 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/liburing
-Date: Mon, 01 Dec 2025 21:11:52 -0000
-Message-Id: <176462351203.1779576.5578386483324868278@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============8010264722633900158=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/docs/man-pages/man-pages
+Date: Mon, 01 Dec 2025 21:16:07 -0000
+Message-Id: <176462376761.1784400.6408442285265568586@gitolite.kernel.org>
+
+--===============8010264722633900158==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/liburing
-user: axboe
+repo: pub/scm/docs/man-pages/man-pages
+user: alx
 changes:
-  - ref: refs/tags/liburing-2.10
-    old: 0000000000000000000000000000000000000000
-    new: d7e3ae8603b398ad750c6e2c59f03df96d961339
-  - ref: refs/tags/liburing-2.10-rc1
-    old: 0000000000000000000000000000000000000000
-    new: 11de1ad2027909ae57accafb263eb5bcb76fe73c
-  - ref: refs/tags/liburing-2.11
-    old: 0000000000000000000000000000000000000000
-    new: 6ea39fc95a341c10e843702cf2cdcab72c7797a4
-  - ref: refs/tags/liburing-2.11-rc1
-    old: 0000000000000000000000000000000000000000
-    new: 873a73c68717843d2c12a206c5dfc83f91114e61
-  - ref: refs/tags/liburing-2.12
-    old: 0000000000000000000000000000000000000000
-    new: 82387ffda15d34ee01653532062ef8fce02a470a
-  - ref: refs/tags/liburing-2.4
-    old: 0000000000000000000000000000000000000000
-    new: 6b5f5bc9a2e43ad3ee330a093d53d7a81816f676
-  - ref: refs/tags/liburing-2.5
-    old: 0000000000000000000000000000000000000000
-    new: 5dd20d52f442feae7023af5772429910d3aa5307
-  - ref: refs/tags/liburing-2.6
-    old: 0000000000000000000000000000000000000000
-    new: 96141c985b1e6bcb082759627071c762563099c2
-  - ref: refs/tags/liburing-2.7
-    old: 0000000000000000000000000000000000000000
-    new: 38ab2a301b4c4522b9e474c35b5686e121659d11
-  - ref: refs/tags/liburing-2.8
-    old: 0000000000000000000000000000000000000000
-    new: 7a7b035470175b3ecf071384274d7859885ece32
-  - ref: refs/tags/liburing-2.8-rc1
-    old: 0000000000000000000000000000000000000000
-    new: fe6cd837eb45f5f0706e397bac42e7efa1a675af
-  - ref: refs/tags/liburing-2.9
-    old: 0000000000000000000000000000000000000000
-    new: 31a41935866867cdfedb4ef5a57ce0d15b50e5b9
-  - ref: refs/tags/liburing-2.9-rc1
-    old: 0000000000000000000000000000000000000000
-    new: 2ff8d84f35494ae444379c0004716fe31f631c2b
+  - ref: refs/heads/ipv6
+    old: 2838406cbc1ea5b8122ffb15d00ef88a828e2e3e
+    new: 331dba1d958264dcbc9734095ae2b02d0b27257d
+    log: revlist-2838406cbc1e-331dba1d9582.txt
+
+--===============8010264722633900158==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-2838406cbc1e-331dba1d9582.txt
+
+6665eecb69f9c863786ad5d1298c51797ea7ec61 man/: Fix and de-duplicate SO_PEERSEC(2const)
+6b945290231ce5c91b169367abf79b0c50fd0a47 man/man7/ipv6.7, man/man2const/IPPROTO_IPV6.2const: Split IPPROTO_IPV6 from ipv6(7)
+e18ac57bdedb7dca97d22dee38de84dcfa7f0e53 man/man2const/{IPPROTO_IPV6,IPV6_ADDRFORM}.2const: Split IPV6_ADDRFORM from IPPROTO_IPV6(2const)
+fcdf2a81f8ac0d5f34315207282df82946a91001 man/man2const/IPV6_ADDRFORM.2const: Tweak after split
+3cbadedc94a832c7839b6593472f689d18cc263e man/man2const/{IPPROTO_IPV6,IPV6_ADD_MEMBERSHIP}.2const: Split IPV6_ADD_MEMBERSHIP, IPV6_DROP_MEMBERSHIP from IPPROTO_IPV6(2const)
+0a1951a09f3d6a8f10a42b9e8da6aa27f2e19bac man/man2const/IPV6_DROP_MEMBERSHIP.2const: Add link page
+d05ea285ad1d4b777cfe77b0c2f071ad41137df0 man/man2const/IPV6_ADD_MEMBERSHIP.2const: Tweak after split
+ae1bc6dd538fb2fb37eb77f43efb27524285c9e2 man/man2const/{IPPROTO_IPV6,IPV6_MTU}.2const: Split IPV6_MTU from IPPROTO_IPV6(2const)
+1b838e3fd542928230dda86ee48b83ebf560a24c man/man2const/IPV6_MTU.2const: Tweak after split
+241e5ed78686884742ff35e6a102914deda335ed man/man2const/{IPPROTO_IPV6,IPV6_MTU_DISCOVER}.2const: Split IPV6_MTU_DISCOVER from IPPROTO_IPV6(2const)
+5f4510260a050683f8e1e1e064fe90f9e4e54ea2 man/man2const/IPV6_MTU_DISCOVER.2const: Tweak after split
+eb67ef041a8023f30e0aeb65f0c7dda9f978c662 man/man2const/{IPPROTO_IPV6,IPV6_MULTICAST_HOPS}.2const: Split IPV6_MULTICAST_HOPS from IPPROTO_IPV6(2const)
+9a3407c4dad8b82773583962b26c686ae0a17eef man/man2const/IPV6_MULTICAST_HOPS.2const: Tweak after split
+00af6dd31416e8f519dae0f4059313bfe134ecee man/man2const/{IPPROTO_IPV6,IPV6_MULTICAST_IF}.2const: Split IPV6_MULTICAST_IF from IPPROTO_IPV6(2const)
+331dba1d958264dcbc9734095ae2b02d0b27257d man/man2const/IPV6_MULTICAST_IF.2const: Tweak after split
+
+--===============8010264722633900158==--
