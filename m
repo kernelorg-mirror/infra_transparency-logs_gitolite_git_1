@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3324153451033043345=="
+Content-Type: multipart/mixed; boundary="===============2605958039857097602=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/klassert/ipsec
-Date: Mon, 01 Dec 2025 08:44:43 -0000
-Message-Id: <176457868379.924068.10025781317129443607@gitolite.kernel.org>
+Date: Mon, 01 Dec 2025 08:45:59 -0000
+Message-Id: <176457875962.927338.2012636583544505486@gitolite.kernel.org>
 
---===============3324153451033043345==
+--===============2605958039857097602==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/klassert/ipsec
 user: klassert
 changes:
-  - ref: refs/heads/testing
+  - ref: refs/heads/master
     old: a55ef3bff84f11ee8c84a1ae29b071ffd4ccbbd9
     new: e5235eb6cfe02a51256013a78f7b28779a7740d5
     log: revlist-a55ef3bff84f-e5235eb6cfe0.txt
 
---===============3324153451033043345==
+--===============2605958039857097602==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ a6c121a2432eee2c4ebceb1483ccd4a50a52983d net: phy: aquantia: check for NVMEM def
 2c28ee720ad14f58eb88a97ec3efe7c5c315ea5d selftests: bonding: add delay before each xvlan_over_bond connectivity check
 e5235eb6cfe02a51256013a78f7b28779a7740d5 net: netpoll: initialize work queue before error checks
 
---===============3324153451033043345==--
+--===============2605958039857097602==--
