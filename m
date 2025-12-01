@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/docs/man-pages/man-pages
-Date: Mon, 01 Dec 2025 17:28:18 -0000
-Message-Id: <176461009890.1558555.5720547461883173849@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ulfh/linux-pm
+Date: Mon, 01 Dec 2025 17:47:05 -0000
+Message-Id: <176461122590.1576191.16601182552974984773@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/docs/man-pages/man-pages
-user: alx
+repo: pub/scm/linux/kernel/git/ulfh/linux-pm
+user: ulfh
 changes:
-  - ref: refs/heads/ipv6
-    old: 9cde9daf9ae31c4abe07fdaedcbd0b04b929d139
-    new: 7fd117374b230a31f4e919f7e205c90bb2308d2f
-    log: |
-         c462fa880227eee0cb92f0e8698d79d244dba7db man/man2const/{IPPROTO_IPV6,IPV6_MTU_DISCOVER}.2const: Split IPV6_MTU_DISCOVER from IPPROTO_IPV6(2const)
-         7fd117374b230a31f4e919f7e205c90bb2308d2f man/man2const/IPV6_MTU_DISCOVER.2const: Tweak after split
-         
+  - ref: refs/tags/pmdomain-v6.19
+    old: 0000000000000000000000000000000000000000
+    new: 0746ebeae67b40d76a99e8a2fbc84321b80d9407
+  - ref: refs/tags/v6.18
+    old: 0000000000000000000000000000000000000000
+    new: f7b88edb52c8dd01b7e576390d658ae6eef0e134
