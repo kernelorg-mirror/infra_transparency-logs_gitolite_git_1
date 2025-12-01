@@ -1,54 +1,42 @@
-Content-Type: multipart/mixed; boundary="===============1566047366037666052=="
+Content-Type: multipart/mixed; boundary="===============6270655076833376042=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
-Date: Mon, 01 Dec 2025 23:11:49 -0000
-Message-Id: <176463070943.1903708.4208161032469168539@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Mon, 01 Dec 2025 23:12:22 -0000
+Message-Id: <176463074269.1904156.796631570820129346@gitolite.kernel.org>
 
---===============1566047366037666052==
+--===============6270655076833376042==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pci/pci
-user: helgaas
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
-  - ref: refs/heads/next
-    old: cf73492e5891e83b6d15c12167064f5c85044107
-    new: d1d34a4064b4ddd32bf86ed69f93a701ca9fae21
-    log: revlist-cf73492e5891-d1d34a4064b4.txt
+  - ref: refs/heads/main
+    old: 8d92057c4a9bb14683c9f87f2f26b97564d72b2f
+    new: b4dcaeea5e9a9a27d9dca3e746f1423c218a7ca0
+    log: revlist-8d92057c4a9b-b4dcaeea5e9a.txt
 
---===============1566047366037666052==
+--===============6270655076833376042==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-cf73492e5891-d1d34a4064b4.txt
+Content-Disposition: attachment; filename=revlist-8d92057c4a9b-b4dcaeea5e9a.txt
 
-c9faac168b56f4f70c13f882b606af3730c93a79 Merge branch 'pci/enumeration'
-d7d3fd615ecbfc7b820ee58c00eaccd17f81dd33 Merge branch 'pci/err'
-d93003bf8d6644ac7007dece4ddb39b2b188f7a5 Merge branch 'pci/ptm'
-1cc60e5666a80ffe30b7972582e0fc03e38c04a0 Merge branch 'pci/resource'
-8520c4482a25b61bdfa7fca9fe56b18c01b6654c Merge branch 'pci/dt-binding'
-04cdad82316858eabd55ffc3f48fe8e608600a03 Merge branch 'pci/endpoint'
-e5a3642e026102f08213f85ad86756e00fcea01c Merge branch 'pci/controller/host-common'
-cf8f0799ae9a4b5312caa6682586bd30f6a909a1 Merge branch 'pci/controller/brcmstb'
-e8b543f30cd4635caa5b12aa250285c392fa4260 Merge branch 'pci/controller/dwc'
-3b4a1bafce46c3a484726da0c3231f41f6acee92 Merge branch 'pci/controller/dw-rockchip'
-04c765013040dba6274d99771acb987f7ea2d510 Merge branch 'pci/controller/ixp4xx'
-5e8c76c6cb089d7f9ef7c4276da8af27d6551e66 Merge branch 'pci/controller/j721e'
-b200560c0b5021f745ca9bea8129fa5599538142 Merge branch 'pci/controller/keystone'
-1841f2a0460352821b958e357bc646d74f6193a5 Merge branch 'pci/controller/mediatek'
-4e7cd18edb400a4a6ddc9904a33ba640e32c1971 Merge branch 'pci/controller/meson'
-f2335252c38cbf50e0ccba8cb46840243287832e Merge branch 'pci/controller/qcom'
-3485d112b52776febf3774fe108fcf55bb52a352 Merge branch 'pci/controller/rcar-gen2'
-b92de9cd804c297ea0d4bee25d7d46e37490a2ed Merge branch 'pci/controller/rzg3s-host'
-d51c233cb452696033230cfe1029900fe975f0f4 Merge branch 'pci/controller/sg2042'
-77686a41b62808ad0d828efc826cd1193df90c0e Merge branch 'pci/controller/sky1'
-25bcfba1db4196a733d48d9b62b68aa504060f5d Merge branch 'pci/controller/spacemit-k1'
-55ef6718169892bc1a7595e0302fe5d7a9763380 Merge branch 'pci/controller/stm32'
-d55cd26c8d86a0487ecd60fda90380e37c50e25b Merge branch 'pci/pwrctrl-tc9563'
-d1d34a4064b4ddd32bf86ed69f93a701ca9fae21 Merge branch 'pci/misc'
+596c696301b1bcb9e482e22a4f7f582858eefbcc Revert "r8169: add DASH support for RTL8127AP"
+e1de33c377b685298da406bb4838bd9814194f96 net/mlx5e: Use u64 instead of __u64 in ieee_setmaxrate
+e1098bb02f2d9a85a127aecad6378e4f159acce5 net/mlx5e: Rename upper_limit_mbps to upper_limit_100mbps
+53f7a771285182be7bfba6d59ccdd0d47fc1a097 net/mlx5e: Use U8_MAX instead of hard coded magic number
+87a5112bfc406a72c6bf1e8cdef9b0169dc1df6a net/mlx5e: Use standard unit definitions for bandwidth conversion
+8d537e333e3704ff1093878e83e553daa2e98d95 Merge branch 'net-mlx5e-enhance-dcbnl-get-set-maxrate-code'
+5e1bf5ae5e3ba3588b474669ba05f5d202003d84 net: phy: phy-c45: add SQI and SQI+ support for OATC14 10Base-T1S PHYs
+16416c8352875deca61d359e44a419fae0d8993c net: phy: microchip_t1s: add SQI support for LAN867x Rev.D0 PHYs
+a2027019e9cea7f0d82141a2ac2b5709c1dcd88c Merge branch 'add-sqi-and-sqi-support-for-oatc14-10base-t1s-phys-and-microchip-t1s-driver'
+d973ac83ad0d0292c81d4bcbb4a335834f90aa5d net: dsa: yt921x: Use *_ULL bitfield macros for VLAN_CTRL
+633b1d010ce838bd5e9dd71e738328e16e3df81d net: dsa: yt921x: Add STP/MST support
+b4dcaeea5e9a9a27d9dca3e746f1423c218a7ca0 Merge branch 'net-dsa-yt921x-add-stp-mst-support'
 
---===============1566047366037666052==--
+--===============6270655076833376042==--
