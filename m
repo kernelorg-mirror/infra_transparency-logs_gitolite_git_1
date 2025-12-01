@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Mon, 01 Dec 2025 23:14:58 -0000
-Message-Id: <176463089834.1905994.11391470333413855097@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tj/sched_ext
+Date: Mon, 01 Dec 2025 23:18:10 -0000
+Message-Id: <176463109032.1910346.8219541737471725612@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: daveh
+repo: pub/scm/linux/kernel/git/tj/sched_ext
+user: tj
 changes:
-  - ref: refs/tags/x86_cpu_for_6.19-rc1
+  - ref: refs/tags/sched_ext-for-6.19
     old: 0000000000000000000000000000000000000000
-    new: b0286fb642355a8e1ebb51e068cec633fae2da7c
+    new: f2687fce2bf561bb28185216fc03feaafd9156da
