@@ -1,24 +1,24 @@
-Content-Type: multipart/mixed; boundary="===============7913692481866352843=="
+Content-Type: multipart/mixed; boundary="===============5883148288817052092=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pcmoore/audit
-Date: Mon, 01 Dec 2025 20:52:39 -0000
-Message-Id: <176462235945.1755908.8411974769179034442@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pcmoore/selinux
+Date: Mon, 01 Dec 2025 20:52:43 -0000
+Message-Id: <176462236357.1756103.14356972448427877685@gitolite.kernel.org>
 
---===============7913692481866352843==
+--===============5883148288817052092==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pcmoore/audit
+repo: pub/scm/linux/kernel/git/pcmoore/selinux
 user: pcmoore
 changes:
   - ref: refs/heads/main
-    old: df5b8274ad11a884fa52349c3214ce99fb7f2967
-    new: aa64b2f9dfff3be0c10a81403fd12240d48d3cd5
-    log: revlist-df5b8274ad11-aa64b2f9dfff.txt
+    old: 5d505eb029414033406383240f7cdc33b894b102
+    new: 17684514ed025c6a8e4f7b512989036c706227cb
+    log: revlist-5d505eb02941-17684514ed02.txt
   - ref: refs/tags/v6.18-rc3
     old: 0000000000000000000000000000000000000000
     new: 0edde068997bc3c41f122c9941143a39d604a0dc
@@ -38,11 +38,11 @@ changes:
     old: 0000000000000000000000000000000000000000
     new: f7b88edb52c8dd01b7e576390d658ae6eef0e134
 
---===============7913692481866352843==
+--===============5883148288817052092==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-df5b8274ad11-aa64b2f9dfff.txt
+Content-Disposition: attachment; filename=revlist-5d505eb02941-17684514ed02.txt
 
 3d8d35bf8dc8893e34d92212d413d7cfd89c560e Merge tag 'drm-msm-fixes-2025-10-29' of https://gitlab.freedesktop.org/drm/msm into drm-fixes
 e28e383da32a6396e37c3f68964dc92eb9b6f0ed Merge tag 'drm-intel-fixes-2025-10-30' of https://gitlab.freedesktop.org/drm/i915/kernel into drm-fixes
@@ -1067,6 +1067,6 @@ e6640487845061255af9614ec0a192e4fafa486e Merge tag 'spi-fix-v6.18-rc7' of git://
 6bda50f4333fa61c07f04f790fdd4e2c9f4ca610 Merge tag 'mips-fixes_6.18_2' of git://git.kernel.org/pub/scm/linux/kernel/git/mips/linux
 e69c7c175115c51c7f95394fc55425a395b3af59 Merge tag 'timers_urgent_for_v6.18_rc8' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 7d0a66e4bb9081d75c82ec4957c50034cb0ea449 Linux 6.18
-aa64b2f9dfff3be0c10a81403fd12240d48d3cd5 audit: add a Linux Audit specific README.md and SECURITY.md
+17684514ed025c6a8e4f7b512989036c706227cb selinux: add a SELinux specific README.md and SECURITY.md
 
---===============7913692481866352843==--
+--===============5883148288817052092==--
