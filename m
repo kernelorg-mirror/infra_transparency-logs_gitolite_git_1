@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8146075986927256235=="
+Content-Type: multipart/mixed; boundary="===============4732619571989150890=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Mon, 01 Dec 2025 23:43:59 -0000
-Message-Id: <176463263986.1936516.13086390203468025483@gitolite.kernel.org>
+Date: Mon, 01 Dec 2025 23:44:03 -0000
+Message-Id: <176463264306.1936731.7480952604385062454@gitolite.kernel.org>
 
---===============8146075986927256235==
+--===============4732619571989150890==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
+  - ref: refs/heads/10GbE
     old: 61e628023d79386e93d2d64f8b7af439d27617a6
     new: e3b8cbf40c6e60a7a935bd8980884d5741a7a77b
     log: revlist-61e628023d79-e3b8cbf40c6e.txt
 
---===============8146075986927256235==
+--===============4732619571989150890==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -619,4 +619,4 @@ aadff9f766399a350aa3e09fc671617bdc0b365f selftests: net: add a hint about MACAdd
 ea2d3befcf29cca5221d0572d54e4d71b683175d net: dsa: yt921x: Set ageing_time_min/ageing_time_max
 e3b8cbf40c6e60a7a935bd8980884d5741a7a77b selftests: netconsole: remove log noise due to socat exit
 
---===============8146075986927256235==--
+--===============4732619571989150890==--
