@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6276506963519356077=="
+Content-Type: multipart/mixed; boundary="===============8059746486172309249=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Mon, 01 Dec 2025 21:41:17 -0000
-Message-Id: <176462527788.1811217.9709306093984126102@gitolite.kernel.org>
+Date: Mon, 01 Dec 2025 21:41:20 -0000
+Message-Id: <176462528049.1811329.951779963241887415@gitolite.kernel.org>
 
---===============6276506963519356077==
+--===============8059746486172309249==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/100GbE
+  - ref: refs/heads/200GbE
     old: 9780f535f8e0f20b4632b5a173ead71aa8f095d2
     new: e5235eb6cfe02a51256013a78f7b28779a7740d5
     log: revlist-9780f535f8e0-e5235eb6cfe0.txt
 
---===============6276506963519356077==
+--===============8059746486172309249==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -249,4 +249,4 @@ a6c121a2432eee2c4ebceb1483ccd4a50a52983d net: phy: aquantia: check for NVMEM def
 2c28ee720ad14f58eb88a97ec3efe7c5c315ea5d selftests: bonding: add delay before each xvlan_over_bond connectivity check
 e5235eb6cfe02a51256013a78f7b28779a7740d5 net: netpoll: initialize work queue before error checks
 
---===============6276506963519356077==--
+--===============8059746486172309249==--
