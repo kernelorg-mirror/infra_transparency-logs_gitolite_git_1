@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jarkko/tpm2-tpmkey
-Date: Mon, 01 Dec 2025 00:46:10 -0000
-Message-Id: <176454997093.364511.2776509254605768464@gitolite.kernel.org>
+Date: Mon, 01 Dec 2025 00:47:55 -0000
+Message-Id: <176455007586.365336.12333621229727244682@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/jarkko/tpm2-tpmkey
 user: jarkko
 changes:
   - ref: refs/heads/main
-    old: 20fbceb091faab86a4cf3fc8e75c154f9cb5784c
-    new: 342632a9a8274ad993d90cb58ac3d5bffc9d16cb
+    old: 342632a9a8274ad993d90cb58ac3d5bffc9d16cb
+    new: 62ff8c46468b11c1b27e0af98f7a482ee2ca2a8e
     log: |
-         342632a9a8274ad993d90cb58ac3d5bffc9d16cb feat(policy): implement new, empty and default
+         62ff8c46468b11c1b27e0af98f7a482ee2ca2a8e feat(policy): implement new, empty and default
          
