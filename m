@@ -1,20 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/docs/man-pages/man-pages
-Date: Mon, 01 Dec 2025 20:20:51 -0000
-Message-Id: <176462045115.1726266.8566028417104051831@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tj/sched_ext
+Date: Mon, 01 Dec 2025 20:32:08 -0000
+Message-Id: <176462112879.1736312.536269266650028663@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/docs/man-pages/man-pages
-user: alx
+repo: pub/scm/linux/kernel/git/tj/sched_ext
+user: tj
 changes:
-  - ref: refs/heads/ipv6
-    old: 19e4a6159f8e715abde39801b57c5279be2c9e1a
-    new: 2838406cbc1ea5b8122ffb15d00ef88a828e2e3e
+  - ref: refs/heads/for-6.19
+    old: 06a7415cf24774baf1945fc28ea152e888bd72bb
+    new: 794c514dfb6037cf00f839bc65c2077b9798c77a
     log: |
-         515d27928d702d0ec4ddd3545a8910cdcba1e1d0 man/man2const/{IPPROTO_IPV6,IPV6_MULTICAST_IF}.2const: Split IPV6_MULTICAST_IF from IPPROTO_IPV6(2const)
-         2838406cbc1ea5b8122ffb15d00ef88a828e2e3e man/man2const/IPV6_MULTICAST_IF.2const: Tweak after split
+         794c514dfb6037cf00f839bc65c2077b9798c77a sched_ext: Fix incorrect sched_class settings for per-cpu migration tasks
+         
+  - ref: refs/heads/for-next
+    old: e090182ceee2eeb189a9aede7253267eded4131e
+    new: abb9d8aedc3b02526a5c461196cb53edfc59d15c
+    log: |
+         794c514dfb6037cf00f839bc65c2077b9798c77a sched_ext: Fix incorrect sched_class settings for per-cpu migration tasks
+         abb9d8aedc3b02526a5c461196cb53edfc59d15c Merge branch 'for-6.19' into for-next
          
