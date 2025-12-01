@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs
-Date: Mon, 01 Dec 2025 06:33:14 -0000
-Message-Id: <176457079423.803294.2332588128384326830@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/lindholm/alpha
+Date: Mon, 01 Dec 2025 06:34:37 -0000
+Message-Id: <176457087766.804128.2972796805413112445@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/xiang/erofs
-user: xiang
+repo: pub/scm/linux/kernel/git/lindholm/alpha
+user: lindholm
 changes:
-  - ref: refs/heads/dev
-    old: a05099be3997ae19ebb82fdf0f2d5280656bed60
-    new: e5188ab2a7f1143fbaa70b30ec0e2d34543be91a
-    log: |
-         e5188ab2a7f1143fbaa70b30ec0e2d34543be91a erofs: switch on-disk header `erofs_fs.h` to MIT license
-         
+  - ref: refs/heads/for-next
+    old: 6f157ae4b6c46ad690a65524b4534d6f12b1b096
+    new: 5d4feef77d8b9f20a0987f5747ec51ac304d588a
