@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mingo/tip
-Date: Mon, 01 Dec 2025 18:40:38 -0000
-Message-Id: <176461443830.1627558.12295879748516694237@gitolite.kernel.org>
+Date: Mon, 01 Dec 2025 18:40:49 -0000
+Message-Id: <176461444971.1627959.11542605297326204911@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,7 +11,7 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/mingo/tip
 user: mingo
 changes:
-  - ref: refs/heads/WIP.sched/core
+  - ref: refs/heads/WIP.sched/misc
     old: 78861024392a2c34b7755ff23edebc0a29a0ca65
     new: c8dd0a78e3b31f8103c11d5e775dfaaf204ef458
     log: |
