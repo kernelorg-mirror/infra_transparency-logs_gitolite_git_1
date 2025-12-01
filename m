@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/tpm2sh
-Date: Mon, 01 Dec 2025 03:23:36 -0000
-Message-Id: <176455941611.571778.7340682982053201402@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/chrome-platform/linux
+Date: Mon, 01 Dec 2025 03:38:48 -0000
+Message-Id: <176456032897.585488.5165729909555822714@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/tpm2sh
-user: jarkko
+repo: pub/scm/linux/kernel/git/chrome-platform/linux
+user: tzungbi
 changes:
-  - ref: refs/tags/0.16.17
+  - ref: refs/heads/for-6.19
     old: 0000000000000000000000000000000000000000
-    new: 3d2da95bfc2d6e23799c6707b71b5a9eb68b87ff
+    new: 52075d2c7595cfd6c1ce211a9cd138a9b067c448
+  - ref: refs/tags/chrome-platform-v6.19
+    old: 0000000000000000000000000000000000000000
+    new: 8f6ad53413c89c31a73ac933f9500a8a9f6d1efa
