@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4270561270812124325=="
+Content-Type: multipart/mixed; boundary="===============8400312194944042539=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/klassert/ipsec-next
-Date: Mon, 01 Dec 2025 08:46:39 -0000
-Message-Id: <176457879938.927848.936319165137374947@gitolite.kernel.org>
+Date: Mon, 01 Dec 2025 08:47:10 -0000
+Message-Id: <176457883014.928203.13478856507426102500@gitolite.kernel.org>
 
---===============4270561270812124325==
+--===============8400312194944042539==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/klassert/ipsec-next
 user: klassert
 changes:
-  - ref: refs/heads/testing
+  - ref: refs/heads/master
     old: 939ba8c5b81cbaf37781d7aa4849170860124a5e
     new: 0177f0f07886e54e12c6f18fa58f63e63ddd3c58
     log: revlist-939ba8c5b81c-0177f0f07886.txt
 
---===============4270561270812124325==
+--===============8400312194944042539==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ ff736a286116d462a4067ba258fa351bc0b4ed80 net: ipconfig: Replace strncpy with str
 cb2dc6d2869a4fb7ef8d792a81a74bc6f0958a72 can: Kconfig: select CAN driver infrastructure by default
 0177f0f07886e54e12c6f18fa58f63e63ddd3c58 Merge tag 'linux-can-next-for-6.19-20251129' of git://git.kernel.org/pub/scm/linux/kernel/git/mkl/linux-can-next
 
---===============4270561270812124325==--
+--===============8400312194944042539==--
