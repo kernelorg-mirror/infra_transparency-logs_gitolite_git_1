@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============1871022110911606129=="
+Content-Type: multipart/mixed; boundary="===============4763851956607157050=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Mon, 01 Dec 2025 14:32:22 -0000
-Message-Id: <176459954266.1373613.6370138071379337880@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jgg/iommufd
+Date: Mon, 01 Dec 2025 14:32:39 -0000
+Message-Id: <176459955991.1374027.3247422454244734761@gitolite.kernel.org>
 
---===============1871022110911606129==
+--===============4763851956607157050==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rdma/rdma
+repo: pub/scm/linux/kernel/git/jgg/iommufd
 user: jgg
 changes:
   - ref: refs/heads/linus
@@ -23,7 +23,7 @@ changes:
     old: 0000000000000000000000000000000000000000
     new: f7b88edb52c8dd01b7e576390d658ae6eef0e134
 
---===============1871022110911606129==
+--===============4763851956607157050==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -129,4 +129,4 @@ e6640487845061255af9614ec0a192e4fafa486e Merge tag 'spi-fix-v6.18-rc7' of git://
 e69c7c175115c51c7f95394fc55425a395b3af59 Merge tag 'timers_urgent_for_v6.18_rc8' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 7d0a66e4bb9081d75c82ec4957c50034cb0ea449 Linux 6.18
 
---===============1871022110911606129==--
+--===============4763851956607157050==--
