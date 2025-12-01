@@ -1,56 +1,57 @@
-Content-Type: multipart/mixed; boundary="===============4392590686307040835=="
+Content-Type: multipart/mixed; boundary="===============8853904745311413182=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/patches
-Date: Mon, 01 Dec 2025 14:34:59 -0000
-Message-Id: <176459969933.1375635.13087011605595984555@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/gregkh
+Date: Mon, 01 Dec 2025 14:44:10 -0000
+Message-Id: <176460025082.1384738.11516453693750506531@gitolite.kernel.org>
 
---===============4392590686307040835==
+--===============8853904745311413182==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/patches
+repo: pub/scm/linux/kernel/git/gregkh/gregkh
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/master
-    old: 5fe6e331a7d83dfc1cde0d1bc64f8e95c3b59bd9
-    new: ce954689dc2a5fd096b9ee92bfa894ea9d51cbda
+  - ref: refs/heads/readfile
+    old: ef8e9e8be43dda75ba7546d975d452dea1722310
+    new: faa50652554282920494cd1a78fee50f2d746ea1
     log: |
-         ce954689dc2a5fd096b9ee92bfa894ea9d51cbda update readfile patches for 6.18
+         69c4815d6cea89795108ff168d4e470eecd950aa selftests: add readfile(2) selftests
+         faa50652554282920494cd1a78fee50f2d746ea1 readfile.2: new page describing readfile(2)
          
 
---===============4392590686307040835==
+--===============8853904745311413182==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1764599696 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/patches.git
-nonce 1764599696-2ab05020976c06aa67bd2495c27f9d758b214790
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1764600222 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/gregkh.git
+nonce 1764600219-863ac1c72510249af88eeca36da9c7e4f6724918
 
-5fe6e331a7d83dfc1cde0d1bc64f8e95c3b59bd9 ce954689dc2a5fd096b9ee92bfa894ea9d51cbda refs/heads/master
+ef8e9e8be43dda75ba7546d975d452dea1722310 faa50652554282920494cd1a78fee50f2d746ea1 refs/heads/readfile
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmktp5AbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+E3EP/1LhKFKWVMl6Dh9Ad2zg
-mavjndyqFWU0WuP1uyWDYZZTEdIaJYQ7/kCOqVTaveG6DMeEYmlbk4iLgYzyDfGW
-3/9xDzAAZgb/UGz9K6y1iDGnSVS8NQByfbEJJJJUcIaFBZIpT9SRVZM+sft2w3b1
-5JHUYhb8A9q8EFI6ioSnwr9D9u/yhaZnv6sPuTlkLI4Nv8THgzlCidqM+ssyqN40
-kgci5w79fSuxyDwysXFpNEPX2RESticSJhwEbiru7jc+5r0BzOpClifERD9Gaym3
-LsNHF02llX2BT/TrkZPonq3DiZKZ4GV0E9nTQdFDQQARigAb+qIu0knkz+D4ZPBw
-VzI9GVcYoKURTEw+ibn9/jN+IMU3wGcfI4xsK/qA1ycJgTjj+hCUL33y0rnCENzO
-/MprJMevpElqyAMeUWrcQMvWtlUBoqeCYiUzUEcESrhUnmHKKsmXWa6tAPRymm1q
-l7s3tW5YnquFCAnsvfLaim8gFUc+8xnWLRz7vDlVWyCZIPVJrUiFwRaXAYnTJCjX
-CCvvm55k+y9twTVTiXsx13Kfzj4sbYzMQSgs2fOrC+q+1Mc3bmGCrBeQhyGfl2Zd
-Es+adgqDBl1Ebc9EM2W5EMcTiEeEryEfMUgOqc/4yr7pgwiArsXcHRpTjjE37Web
-bO4011bDXCmtSMMrCpIgzoQZ
-=o4Yi
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmktqZ4bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+XV4QANIr9vEMB5379Zfcespt
+dPmAAqWaSfnnRKPlbkff7LBjEj8GTfMHeer6ehCJnLULIGP+1jGiz9PxARtsBD/B
+y4JPBeD6k6GABoHf53uZO1MXBWq18s2TJ+/5XPyvQWf8GIbfsPD5+uTXybEynNw/
+lALBoV/DKsbT1SgK+8yAkqV5GPuqMHXYlBEhgCIX9GgNKU3lXKxaRkgbnh8lWngL
+JwZrNu4WzbeMqniY47Kznfa+O6Dl+edrBQy3s35uTD2yFrQlV9F4P/k0OPx7Ntdf
+18YtaWKLaoXyH7Qyrhpuqp7VMDRYW9sWtzv7z23eUkzUI56EjcTO1KRf+Omn1DF6
+5yZe/7uVs1ctmZxqrj8dMOVPTwipvTiPT44XbJ6sNAoN4sZC5G/aF1oJy5rOtm+/
+085eGPgPmUpmFrWErb6JuzHRbw5bYCU4a4Mb0gd0HrPbs64iGzJ00oC89cZfCdkq
+AHYsoDN8HcPejR3pW6Rhuvr++Fm1u+zav1I25Vn3UhDuCIK3Oefdnj+t75rXJ40K
+vxZ7rOcDy5hPMYFawM5PsQ2kD25iQk52vCkvPFYWQLLFI4juI8SvI9KWkXNunCuO
+sVfkDlKF/GDNqT6JIED5MBz1PoyzEu0m5nrYfw46xhYDvuS+32mCT72Kw7Q39d0S
+i4gYkbWyGBDU+cv2XCSa0udx
+=qXnt
 -----END PGP SIGNATURE-----
 
---===============4392590686307040835==--
+--===============8853904745311413182==--
