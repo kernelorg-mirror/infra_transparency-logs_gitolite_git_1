@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1683013780769711903=="
+Content-Type: multipart/mixed; boundary="===============8811185985351225092=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Mon, 01 Dec 2025 23:30:35 -0000
-Message-Id: <176463183531.1923768.10813749168182789381@gitolite.kernel.org>
+Date: Mon, 01 Dec 2025 23:31:13 -0000
+Message-Id: <176463187397.1924320.3185758033739441886@gitolite.kernel.org>
 
---===============1683013780769711903==
+--===============8811185985351225092==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
 user: jarkko
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/next
     old: 6bd23dd7108d4729a14f4dc287671bc55c462ba0
     new: b8b93e380604ce33e41e78522406df011f07aefe
     log: revlist-6bd23dd7108d-b8b93e380604.txt
 
---===============1683013780769711903==
+--===============8811185985351225092==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -503,4 +503,4 @@ afdf0fb340948a8c0f581ed1dc42828af89b80b6 Merge tag 'vfs-6.19-rc1.fs_header' of g
 b50695b5096f251ad683402df2525a544dc993ab tpm: Use -EPERM as fallback error code in tpm_ret_to_err
 b8b93e380604ce33e41e78522406df011f07aefe KEYS: trusted: Use tpm_ret_to_err() in trusted_tpm2
 
---===============1683013780769711903==--
+--===============8811185985351225092==--
