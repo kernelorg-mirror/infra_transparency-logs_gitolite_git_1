@@ -1,56 +1,53 @@
-Content-Type: multipart/mixed; boundary="===============9189406737647061772=="
+Content-Type: multipart/mixed; boundary="===============8492440948893615753=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/driver-core/driver-core
-Date: Tue, 02 Dec 2025 12:05:21 -0000
-Message-Id: <176467712194.2671337.2468506118101701839@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
+Date: Tue, 02 Dec 2025 12:08:15 -0000
+Message-Id: <176467729506.2673508.10162846155291421212@gitolite.kernel.org>
 
---===============9189406737647061772==
+--===============8492440948893615753==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/driver-core/driver-core
+repo: pub/scm/linux/kernel/git/gregkh/char-misc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/driver-core-next
-    old: f278809475f6835b56de78b28dc2cc0c7e2c20a4
-    new: d3666c1f8a31b7ff6805effcfedfac22454c6517
-    log: |
-         d3666c1f8a31b7ff6805effcfedfac22454c6517 debugfs: Fix default access mode config check
-         
+  - ref: refs/tags/char-misc-6.18-rc8
+    old: 3fdb1f50737724ddcefc02ed18a126937a9c3ba4
+    new: 0000000000000000000000000000000000000000
 
---===============9189406737647061772==
+--===============8492440948893615753==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1764677121 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/driver-core/driver-core.git
-nonce 1764677120-fec863c9cb2e02f72b2a0e1eccc36fd58248bf29
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1764677294 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
+nonce 1764677294-5822f2268579fd07277afb42442dc85566b59d2e
 
-f278809475f6835b56de78b28dc2cc0c7e2c20a4 d3666c1f8a31b7ff6805effcfedfac22454c6517 refs/heads/driver-core-next
+3fdb1f50737724ddcefc02ed18a126937a9c3ba4 0000000000000000000000000000000000000000 refs/tags/char-misc-6.18-rc8
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmku1gEbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+oXUP/AzQlzzxZrXwFm6SSxP2
-WKzMS7kum8/DPFVkZ0VFo4ZUnP5E9w1pRCN7J5t/+a+QX9NAnhLBGtUesI8RHPaH
-VyXG4KYE/B3P21swsKzCU5b3TII5cI/Kjbmy8vi3j0lKaG5+7FNpSTaieIbXzrgm
-mJ2bSge5JgWXl89ILoSvQnLVuWhgZvoylVCzk70MdnQzAtN9Ika3NVacK384lzBX
-afNAGzbFcSCMaw2sdgeUUyWUmlp4eIwcUhrchcc/zmEYRz3LG/KSQXbDrvDSuU8i
-jPCRJPW5ToplLjIzT8puL9fTV9LGT6MUWAEW6BWeS9G/0LF3/+tloZuRXk5KMbUw
-9PuCuxG/xdaY2sdUoP97RHIEdfXW0X+ojgXGA/GXCaiG8yRi4X1jZOiNzZhhngiu
-U1hCVX0M6pXsbYT+TguaowvZWWHT7RypfXqd9rYqEGsaWpTo9rjyEiMLmffuGWSi
-iPD22e+/n7LUe+sboYs64MzpfRlcRuerSeDzDzXjEjrO68cfIc7JNL14T/Ld3EHp
-wdDWp9TeparmHj9gktMGlYNy5AmlrcOtqon0WRpAtLGa52aUEu6Dzk1kKwpBZ4Q4
-hJqGPqxq2YfdszVdqes2ZCXRbBUtGsG/+fsxLT5821nNOkR4mj1FKbwGhsq4Z2IT
-qIhsWWhJ0fwe/AuyQF8tc9x+
-=Tar/
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmku1q4bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Cs4QAMpT5vf9f02GPudG4EDs
+HJNM3yi+8h8s10diyuhBDT/4PaKdwjSWAbUJTEIiDvNIWCwtJzwULv8SivpGqfb1
+ABBejIKBdBP6N1YjhAPjSyBYBFSRX72q/ATnJnzfGuJDSVfVi7U6cG9EUW1iKH3J
+0W+LE2Yn37NvOzTzySbvpU83KgbFmyh6hu8rdHCxUmhjqG6TUYRxddPmQo+n+aZE
+uD76dVh22bPBZ7/8WP0l+FjpZt2SbhEdOZGiKaNe7BbW78bYISggbfWBxq3/d+NZ
+X9fDyNtMcObK/fiAsLPE1iW20gRJYgq96kLW1Lu/HeuGVhjb70w+GMOz79KHxGMs
+hzhozhR+l+4UMZ/MEmtPZA1QkXwbRJiboQptAmcup8bCrYO0vGCcZgU5dl2tgQl4
+12IhcDGeKMA5ddTOYk3wid20vLXyzFrX52aBstV1mlm1X9AcaB48VuyEBhP3dK/E
+/AX2Zr/cnSETVtZBItXn5gRGUVrngTjsHDwWQHh9YbCuK6+9Gri/7QeklGaqlyZC
+mIdupiJmr2xUjJL2pUrkZzbk98VHuyaLcfkynm2jue2oamYhf3tl80NyBsiOCLd2
+nQ9FPyQCx3ydATS2AShnpVm9Wi3CzUkOUtqHDlM5USIl64R/0hTCQffVi4eZU8M3
+YSJFsvxN4zRGpKvQFPO7ZmMO
+=Uu63
 -----END PGP SIGNATURE-----
 
---===============9189406737647061772==--
+--===============8492440948893615753==--
