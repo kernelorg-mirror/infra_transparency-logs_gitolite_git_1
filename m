@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============8792563950520962397=="
+Content-Type: multipart/mixed; boundary="===============5474461551678617434=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
-Date: Tue, 02 Dec 2025 14:38:24 -0000
-Message-Id: <176468630423.2908118.12574497475006864752@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mingo/tip
+Date: Tue, 02 Dec 2025 14:47:49 -0000
+Message-Id: <176468686980.2917456.3654691497630052731@gitolite.kernel.org>
 
---===============8792563950520962397==
+--===============5474461551678617434==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jlayton/linux
-user: jlayton
+repo: pub/scm/linux/kernel/git/mingo/tip
+user: mingo
 changes:
-  - ref: refs/heads/kdevops
-    old: b2a9fb62471a14ec83f89df21799e95412da59f8
-    new: 72eed3cbc26ef4615003b2f19601405faefbec85
-    log: revlist-b2a9fb62471a-72eed3cbc26e.txt
+  - ref: refs/heads/WIP.sched/core
+    old: ae9952358c782ce80811cc253c9dd13d0538ea97
+    new: 22b16b2f54e87c134dd87f1057566a77401e48d0
+    log: revlist-ae9952358c78-22b16b2f54e8.txt
 
---===============8792563950520962397==
+--===============5474461551678617434==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b2a9fb62471a-72eed3cbc26e.txt
+Content-Disposition: attachment; filename=revlist-ae9952358c78-22b16b2f54e8.txt
 
 aec58b48517c911fbdf2beebba46a347e5910072 bugs/core: Extend __WARN_FLAGS() with the 'cond_str' parameter
 3bc3c9c3ab6df45a3a3389f74000f8bec1bc96e3 bugs/core: Pass down the condition string of WARN_ON_ONCE(cond) warnings to __WARN_FLAGS()
@@ -120,30 +120,7 @@ b9976fa4649627c04dde26183333c3dcc90a0b76 livepatch: Introduce source code helper
 866cf36bfee4fba6a492d2dcc5133f857e3446b0 perf/x86/amd: Check event before enable to avoid GPF
 8a5c6cbfe4a35c6a22d2f8bbaf49b8cc3f45fcc6 x86/insn,uprobes,alternative: Unify insn_is_nop()
 45e1dccc0653c50e377dae57ef086a8d0f71061d x86/insn: Simplify for_each_insn_prefix()
-79104becf42baeeb4a3f2b106f954b9fc7c10a3c sched/fair: Forfeit vruntime on yield
-382748c05e58a9f1935f5a653c352422375566ea sched/deadline: only set free_cpus for online runqueues
-06f2c90885e92992d1ce55d3f35b65b44d5ecc25 sched: Create architecture specific sched domain distances
-4d6dd05d07d00bc3bd91183dab4d75caa8018db9 sched/topology: Fix sched domain build error for GNR, CWF in SNC-3 mode
-82d6e01a0699800efd8b048eb584c907ccb47b7a sched/fair: Only update stats for allowed CPUs when looking for dst group
-e9139f765ac7048cadc9981e962acdf8b08eabf3 sched: Employ sched_change guards
-376f8963bbda5fee838eb1823b07562368104024 sched: Re-arrange the {EN,DE}QUEUE flags
-5e42d4c123ba9b89ce19b3aa7e22b7684cbfa49c sched/deadline: Prepare for switched_from() change
-637b0682821b144d5993211cf0a768b322138a69 sched: Fold sched_class::switch{ing,ed}_{to,from}() into the change pattern
-1ae5f5dfe5adc64a90b1b0ab5bd9bd7c9d140c28 sched: Cleanup sched_delayed handling for class switches
-6455ad5346c9cf755fa9dda6e326c4028fb3c853 sched: Move sched_class::prio_changed() into the change pattern
-942b8db965006cf655d356162f7091a9238da94e sched: Fix migrate_disable_switch() locking
-abfc01077df66593f128d966fdad1d042facc9ac sched: Fix do_set_cpus_allowed() locking
-b079d93796528053cde322f2ca838c2d21c297e7 sched: Rename do_set_cpus_allowed()
-650952d3fb3889b04cbda722351b5d6090a1c10b sched: Make __do_set_cpus_allowed() use the sched_change pattern
-46a177fb01e52ec0e3f9eab9b217a0f7c8909eeb sched: Add locking comments to sched_class methods
-5892cbd85dbf9059b8a3a7dd8ab64c0fce671029 sched: Match __task_rq_{,un}lock()
-d4c64207b88a60dd15a38c790bb73c0b6f9a8c40 sched: Cleanup the sched_change NOCLOCK usage
-73ec89a1ce4bce98f74b6520a95e64cd9986aae5 sched: Mandate shared flags for sched_change
-1e900f415c6082cd4bcdae4c92515d21fb389473 sched: Detect per-class runqueue changes
-50653216e4ff7a74c95b2ee9ec439916875556ec sched: Add support to pick functions to take rf
-4c95380701f58b8112f0b891de8d160e4199e19d sched/ext: Fold balance_scx() into pick_task_scx()
 00a155c691befdb10bea52c91d4c8c930bdaf73a Merge branch 'objtool/core' of https://git.kernel.org/pub/scm/linux/kernel/git/jpoimboe/linux
-73cbcfe255f7edca915d978a7d1b0a11f2d62812 sched/topology,x86: Fix build warning
 573c14c8218b408b3fe9f6be058f85d0f586cf26 iomap: move bio read logic into helper function
 7588469b5ea4b67ece0d725f6c600f0d8791e5cb iomap: move read/readahead bio submission logic into helper function
 ca82a7ea2299b4586af1f77daee66ee781202320 iomap: simplify iomap_iter_advance()
@@ -189,8 +166,6 @@ da247eff96dd32380dfb0cb089be8671ac4bdcd0 objtool/klp: Add the debian-based packa
 9025688bf6d427e553aca911308cd92e92634f51 module: Fix device table module aliases
 f6af8690d17d8621a6c8cdb24746c904adfc9465 perf build: Fix perf build issues with fixdep
 b94d45b6bbb42571ec225d3be0e7457c8765a5b4 seqlock: Allow KASAN to fail optimizing
-af13e5e437dc2eb8a3291aad70fc80d9cc78bc73 sched: Fix the do_set_cpus_allowed() locking fix
-977b9a00541929973fddfbc2f5e932469f7cdc81 Merge branch 'linus/master' into sched/core, to resolve conflict
 e39b82f6cb0526c551d4651ba6d286b6b1f9e9c3 perf/x86/intel/cstate: Add Clearwater Forest support
 4ba45f041abe60337fdeeb68553b9ee1217d544e perf/x86/intel/cstate: Remove PC3 support from LunarLake
 34976eaf5f83d2bda76eeb54c5bbcafe87245e82 perf/x86/intel/cstate: Add Pantherlake support
@@ -478,16 +453,6 @@ c2bbd2db521b018c59fb0ff8e1cdfa8ee907ba88 ns: drop custom reference count initial
 6453937581abc05c5e54525c65abb46955a91cd3 selftests/namespaces: fix nsid tests
 18b5c400482f3f42875ad3b64961bf479ea4dfaa Merge patch series "ns: header cleanups and initial namespace reference count improvements"
 dca3aa666fbd71118905d88bb1c353881002b647 fs: move inode fields used during fast path lookup closer together
-127b90315ca07ccad2618db7ba950a63e3b32d22 sched/proxy: Yield the donor task
-7f829bde94b1c97b1804fa5860e066ea49dbfca3 sched/core: Optimize core cookie matching check
-9359d9785d85bb53f1ff1738a59aeeec4b878906 sched/core: Add comment explaining force-idle vruntime snapshots
-79f3f9bedd149ea438aaeb0fb6a083637affe205 sched/eevdf: Fix min_vruntime vs avg_vruntime
-e40cea333e60c548e047eaddec6ca48c6632424b sched/core: Remove double update_rq_clock() in __set_cpus_allowed_ptr_locked()
-e636ffb9e31b4f7dde7fef5358669266b9ce02ec sched/deadline: Fix dl_server time accounting
-f5a538c07df26f5c601e41f7b9c7ade3e1e75803 sched/deadline: Fix dl_server stop condition
-2614069c5912e9d6f1f57c262face1b368fb8c93 sched/deadline: Document dl_server
-b4bfacd39216755c058f6d13c71c86a9bf5a1631 sched/deadline: Use cpumask_weight_and() in dl_bw_cpus
-65177ea9f64d7402a0b8028e0dbbd01e8a9d1b1d sched/deadline: Minor cleanup in select_task_rq_dl()
 6fc5f2b19e75b3f34d83cb65de6726ef7dd9ca89 filelock: make lease_alloc() take a flags argument
 4be9f3cc582a24b08f6580f65fa48a4d70332ab5 filelock: rework the __break_lease API to use flags
 6976ed2dd0d59086d16d853ac9b21776be68aaad filelock: add struct delegated_inode
@@ -550,15 +515,6 @@ fe497f0759e0efb949f9480911d00b6045c21f50 VFS: change vfs_mkdir() to unlock on fa
 cf296b294c3bd8f7db229060efe677dfd49e46b6 VFS: introduce end_creating_keep()
 523ac768800c95d34522e8e33775bf911b883fe2 Merge patch series "Create and use APIs to centralise locking for directory ops."
 a71e4f103aed69e7a11ea913312726bb194c76ee pidfs: simplify PIDFD_GET_<type>_NAMESPACE ioctls
-3324b2180c17b21c31c16966cc85ca41a7c93703 sched/fair: Skip sched_balance_running cmpxchg when balance is not due
-522fb20fbdbe48ed98f587d628637ff38ececd2d sched/fair: Have SD_SERIALIZE affect newidle balancing
-aaab6bb54ab9bc4c37ff33b816031918d2760517 sched: Increase sched_tick_remote timeout
-aceccac58ad76305d147165788ea6b939bef179b sched/fair: Enable scheduler feature NEXT_BUDDY
-e837456fdca81899a3c8e47b3fd39e30eae6e291 sched/fair: Reimplement NEXT_BUDDY to align with EEVDF goals
-d206fbad9328ddb68ebabd7cf7413392acd38081 sched/fair: Revert max_newidle_lb_cost bump
-e78e70dbf603c1425f15f32b455ca148c932f6c1 sched/fair: Small cleanup to sched_balance_newidle()
-08d473dd8718e4a4d698b1113a14a40ad64a909b sched/fair: Small cleanup to update_newidle_cost()
-33cf66d88306663d16e4759e9d24766b0aaa2e17 sched/fair: Proportional newidle balance
 ee0b48fabadf9b073b24f761ac09da7293eee7b7 objtool: Set minimum xxhash version to 0.8
 2092007aa32f8dd968c38751bd1b7cac9b1f738d objtool/klp: Only enable --checksum when needed
 922a6f34c1756d2b0c35d9b2d915b8af19e85965 autofs: dont trigger mount if it cant succeed
@@ -623,7 +579,6 @@ bdba9c79c8ba6d194fb2821f504222e1630d5c5f ovl: port ovl_copy_up_workdir() to cred
 2c42b6ce4a3ba5b781b0138517c89fb2a736ed8f ovl: remove struct ovl_cu_creds and associated functions
 c0fb968656cb8e6ca261e1665c339be67b8173b7 Merge patch series "ovl: convert creation credential override to cred guard"
 101bf15887c99f4f0c6d60f427333923b07c2bd1 Merge patch series "ovl: convert copyup credential override to cred guard"
-c04507ac500e2cc8048000c2a849588227554e06 sched: Provide and use set_need_resched_current()
 024020e2b6adb4e568fb80f624b5e20d8943f107 objtool: Support Clang AUTOFDO .cold functions
 2c2acca2eabf53a954ed5aacef987bbf909b9f12 objtool: Fix .cold function detection for duplicate symbols
 16f366c5a68839736d3616b466f1738811408ec7 objtool: Don't alias undefined symbols
@@ -789,17 +744,25 @@ de2f75d55ef85861ffc81c7583e0715453eb7235 Merge tag 'x86-apic-2025-12-01' of git:
 e7d81c1ed665e72c55ae5cf2d7601c09842b4013 Merge tag 'x86-build-2025-12-01' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 dcd8637edb873bd940e6aa82417dfb33ae980778 Merge tag 'x86-core-2025-12-01' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 4a26e7032d7d57c998598c08a034872d6f0d3945 Merge tag 'core-bugs-2025-12-01' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-cc343324df7ae7a557c385ff4949a4999718fc77 nfsd: add max-threads parameter to netlink threads interface
-d4831907dc51c4977c43bca55e58c63cf16a803d nfsd: fix scheduling timeout logic
-1bd8ac30a10d689d9137b8ffdc29207ffff14304 nfsd: exit quickly after ETIMEDOUT
-cba7042fd82b04c936fe661c5cd9ee990596e567 nfsd: replace printks with tracepoints
-ca30f1a88d7fd84091634f79ca860c33b0e24154 nfsd: fix nfsd_file reference leak in nfsd4_add_rdaccess_to_wrdeleg()
-e54373b5495eae024a69a384422e8c2ba7fe717c xdrgen: Address some checkpatch whitespace complaints
-5520e20b736a2fd2617533a801e5263f907167c3 siw: Enable try_gso
-9fddafe6638b84534e5f101b23d203473a736a4b Merge remote-tracking branch 'mrchuck/nfsd-next' into nfsd-7.0
-8c83500a552a34821bf9d865aec5a5588b4cfe7c Merge remote-tracking branch 'mrchuck/nfsd-testing' into nfsd-7.0
-8f7ce2f67665cf87a4688709978caa47cf3df0fd nfsd: use ATTR_DELEG in nfsd4_finalize_deleg_timestamps()
-3840058b092e16bbfddb98275a183253e754fa22 nfsd: prefix notification in nfsd4_finalize_deleg_timestamps() with "nfsd: "
-72eed3cbc26ef4615003b2f19601405faefbec85 Merge branch 'nfsd-dynathread' into kdevops
+36c26a1f1f510b23ab81db176c90921305fae669 sched/fair: Fix unfairness caused by stalled tg_load_avg_contrib when the last task migrates out
+81a325c5b4ebc387181c5aca7586ccc049a2e96e sched/rt: Remove a preempt-disable section in rt_mutex_setprio()
+8720ba2d028f1aff08a55d8fe1a124dd5a6cfb0a sched/hrtick: Fix hrtick() vs. scheduling context
+62ccb77e1fc1d001351ad75b3ef3e375355ff661 <linux/compiler_types.h>: Add the __signed_scalar_typeof() helper
+2b6075bf3f8fcc3afb195d91c1f2b427cc5171af sched/fair: Fold the sched_avg update
+76233f6aa05c2d173d53399e86d0ef5d4e761be3 sched/fair: Avoid rq->lock bouncing in sched_balance_newidle()
+304e78bf021859d0e3a5bd8098c4274d20a4d22b sched/headers: Rename rcu_dereference_check_sched_domain() => rcu_dereference_sched_domain()
+15266d6a5325ce3e746dcc72c0221451f946cc3a sched/fair: Switch to rcu_dereference_all()
+cdbdb4336b69b636b91b2b1bf8b8a42de4fbefa0 sched/fair: Remove superfluous rcu_read_lock()
+dcab46602a11b4d1820166b0f856fbd15103d3cc sched/fair: Limit hrtick work
+f7de0d375a660a8741000c2a0bc490e79c42fb10 sched/core: Add assertions to QUEUE_CLASS
+98c78594f68dc4a4abc5f805e83216c0581db2fc sched/core: Rework sched_class::wakeup_preempt() and rq_modified_*()
+432df7a90bb4865fff228050d2ceff0bb928be90 sched/fair: Join two #ifdef CONFIG_CFS_BANDWIDTH blocks
+e308f7b1fdc7e7a9f36cc59f5492b859bd5e637e sched/fair: Clean up comments in 'struct cfs_rq'
+122bc1c762a8c1ddd02731f98c39f78e8acac618 sched/fair: Separate se->vlag from se->vprot
+c22ed984e421e63975b6210dcf6bb106eed429db sched/fair: Rename avg_vruntime() to cfs_avg_vruntime()
+f62fd575b0dc09cd8ba3936ac1b8db796fe8759f sched/fair: Rename cfs_rq::avg_load to cfs_rq::sum_weight
+8fa455093797bc77ee15f4a063224cfa1c494dd2 sched/fair: Rename cfs_rq::avg_vruntime to ::sum_w_vruntime, and helper functions
+67bc470adcf94317323adcd91b15024ad36ce148 sched/fair: Introduce and use the vruntime_cmp() and vruntime_op() wrappers for wrapped-signed aritmetics
+22b16b2f54e87c134dd87f1057566a77401e48d0 sched/fair: Sort out 'blocked_load*' namespace noise
 
---===============8792563950520962397==--
+--===============5474461551678617434==--
