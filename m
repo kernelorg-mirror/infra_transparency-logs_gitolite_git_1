@@ -1,47 +1,20 @@
-Content-Type: multipart/mixed; boundary="===============0115778087734474040=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/powerpc/linux
-Date: Tue, 02 Dec 2025 12:31:05 -0000
-Message-Id: <176467866557.2788935.9050815246662918719@gitolite.kernel.org>
-
---===============0115778087734474040==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Tue, 02 Dec 2025 12:38:40 -0000
+Message-Id: <176467912013.2794937.2657593282326656366@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/powerpc/linux
-user: mpe
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/netdev/net
+user: pabeni
 changes:
-  - ref: refs/heads/next-test
-    old: 5b3a426affbd30a4293d284ab0d37164a4064531
-    new: 9b36c7fc5aa5f2c6e6eeb9f312fdfe61b4291c9f
+  - ref: refs/heads/main
+    old: e5235eb6cfe02a51256013a78f7b28779a7740d5
+    new: 108f9405ce81085284c7ab09b84784b94b611435
     log: |
-         8d398324967a6e380e92a82e28581ac1e1c2982f powerpc/powermac: backlight: Include <linux/of.h>
-         9b36c7fc5aa5f2c6e6eeb9f312fdfe61b4291c9f macintosh/via-pmu-backlight: Include <linux/fb.h> and <linux/of.h>
+         9fefc78f7f02d71810776fdeb119a05a946a27cc net/sched: sch_cake: Fix incorrect qlen reduction in cake_drop
+         108f9405ce81085284c7ab09b84784b94b611435 selftests/tc-testing: Test CAKE scheduler when enqueue drops packets
          
-
---===============0115778087734474040==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher 63BE2D79AEFD13493684F92205D280035FCB1E21 1764678628 +1100
-pushee gitolite.kernel.org:pub/scm/linux/kernel/git/powerpc/linux
-nonce 1764678627-bee214e5abfe0f0e7fac3d8c8057d7f0d9581095
-
-5b3a426affbd30a4293d284ab0d37164a4064531 9b36c7fc5aa5f2c6e6eeb9f312fdfe61b4291c9f refs/heads/next-test
------BEGIN PGP SIGNATURE-----
-
-iHUEABYKAB0WIQRjvi15rv0TSTaE+SIF0oADX8seIQUCaS7b5AAKCRAF0oADX8se
-Id7wAP9nhczvFda5LV1MkRCKFmcqqvtBKttctLQZx+KPjveQ5QD/azUCQbOWpSxO
-qo42YJvgw1g5ApiGgWIEXZh+JSklswU=
-=Jm11
------END PGP SIGNATURE-----
-
---===============0115778087734474040==--
