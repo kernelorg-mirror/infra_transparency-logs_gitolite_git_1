@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/tpm2sh
-Date: Tue, 02 Dec 2025 23:02:36 -0000
-Message-Id: <176471655632.3421466.6470308827544914584@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
+Date: Tue, 02 Dec 2025 23:04:08 -0000
+Message-Id: <176471664872.3422598.4368799322294977057@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/tpm2sh
-user: jarkko
+repo: pub/scm/linux/kernel/git/tnguy/net-queue
+user: tnguy
 changes:
   - ref: refs/heads/main
-    old: a1c95147002c6d3d01818c9433431a93cafba362
-    new: 6bf7dcdabae254d3a8500ced83d0a8b1f482f429
+    old: e5235eb6cfe02a51256013a78f7b28779a7740d5
+    new: 108f9405ce81085284c7ab09b84784b94b611435
     log: |
-         6bf7dcdabae254d3a8500ced83d0a8b1f482f429 feat(command): seal subcommand
+         9fefc78f7f02d71810776fdeb119a05a946a27cc net/sched: sch_cake: Fix incorrect qlen reduction in cake_drop
+         108f9405ce81085284c7ab09b84784b94b611435 selftests/tc-testing: Test CAKE scheduler when enqueue drops packets
          
