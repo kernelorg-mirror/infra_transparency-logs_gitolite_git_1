@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2596728741982976382=="
+Content-Type: multipart/mixed; boundary="===============0225625622704538934=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Tue, 02 Dec 2025 12:10:56 -0000
-Message-Id: <176467745621.2722431.4237972324092620037@gitolite.kernel.org>
+Date: Tue, 02 Dec 2025 12:11:02 -0000
+Message-Id: <176467746235.2728402.7850159507443200359@gitolite.kernel.org>
 
---===============2596728741982976382==
+--===============0225625622704538934==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,47 +16,48 @@ repo: pub/scm/linux/kernel/git/gregkh/tty
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: dcb6fa37fd7bc9c3d2b066329b0d27dedf8becaa
+  - ref: refs/heads/tty-linus
+    old: 2bf95a9bcb50002ca9d47403d60aedaeb2e19abe
     new: 7d0a66e4bb9081d75c82ec4957c50034cb0ea449
-    log: revlist-dcb6fa37fd7b-7d0a66e4bb90.txt
+    log: revlist-2bf95a9bcb50-7d0a66e4bb90.txt
 
---===============2596728741982976382==
+--===============0225625622704538934==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1764677455 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1764677461 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1764677454-857cd09b1321f7bad2103d47e7dd5b9a2de66ce2
+nonce 1764677460-996f5c89af1c4f510f596f4d445e0d66ab086b17
 
-dcb6fa37fd7bc9c3d2b066329b0d27dedf8becaa 7d0a66e4bb9081d75c82ec4957c50034cb0ea449 refs/heads/main
+2bf95a9bcb50002ca9d47403d60aedaeb2e19abe 7d0a66e4bb9081d75c82ec4957c50034cb0ea449 refs/heads/tty-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmku108bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Y7gP/13TabGdiFbEhMQQqUS7
-k7FJhkIHz+FZsNqTtso4mRaJLl34v4d3BuD2s+w7XbOXbJokvzfLiIQIpq0Ic2yU
-QXwASzHG5fgado1jheeI3eKCFvisISvcK2U+E22qbryAR7lymsrM1hCt8BZwEQFv
-4JvHaBCUMwM1KpZpRuetW7IsFBZBI+Z0sejO/yHm1jMaWF0SQYx4DIxqrxC/eUW1
-EJG7TDNl3awbh/4ouSCZdJZig+WSQLRFWSmja8Vev/1FrwAsOhGbOa7DbpKxqDnu
-HJ2c6SdmtT8DjXuoIqfAxsLJqoSPtEL/tJFseFA1fz+VVfC5xfyIfTDvMkT+wbkw
-hcGtxopWK/3Coo+S8UnuLv7NkztmZdTD3cqtcV5I9B/R8zAzNV1rFHd19VIzFXyA
-6IeAywAvLbimXuY3nFhyfmUfCfzyVql6snCZYZD2YB+VxEICkQbI3p2hQpQNKDKh
-G3I2ATpiEUc5ADIKGEftBlxR0xBcCorud3VNFp/AAw1LjIeEnmcXsXHhADgx+6wR
-1X+sPwJ9zQ61OCiUGrkcOSXRwg0J1jOuDq0xdOWNqVKCeUn6tKnk5H3buitPx0jx
-7RDvxelauBRlstVkNFj2u1FDe0De0lsQU0JlkScUnJXSTClvlEv1+wdIHp24zP2Z
-vbmK8p5aHrAWM0Pnmb8UIzeU
-=7EGe
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmku11UbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+3FQQAJhkSfB6lAoRVaWmRYyE
+vHt8jRbU+nuxZAM0fo5qJRv8tDXToUqlELnaCZUjaoOoP5uD6+2CY8WpbTCGdM0Y
+rP0ZGrqgWxJDBqxDNLzpGux3fyOm8b2lDmIuDTADtUlPEI01uMT3X81zn9sjIiHz
+2LyBC0zQTq8qhm0aJMio3pl48IuPDi9zrfqQfZaTMZvAQzI8pnTcUCNuh+J+ZCgr
+wMeAR04V90So+gSL8tqX9hNY6DlYr9BbLTeYZJ3dhJuRrhG5rxy9/C5SfyZlWkhp
+LbWjbvsuii6/DurLR4AniFfXT8qQxCPli/n48A87kiqdwEnqNNRVMecuye3Dh1Fw
+5/GGX+El+Yj6tnD0pj9kFs5sjfdQquFf/YeoBAsYLvOtRMxXp0hCTywX4+lztxBg
+LRJcIAGQbyvwQmpelNot96eDeaKkSwyA2fTfZHF9pfU/bqd9Q2BSYvKzAcdj8bee
+hhT1xtSsnMe7YtbRNuvpdg9XlbD+rbbg0z3sHUAXzhokdJDr2z7/HDzLmS3FDxpE
+mC7y7OQbjm7/CZ54hqbyn9cPQyGn+7wPHmiqfht8tzG9Aq+PNzvWwti3Cs++4toT
++bEoaSPjqpRFnQg85hyyzMJip+N07nPOgvjd/ktaZFY7Ge2ShoeIamTVJ+FiWc+5
+4FmZF11ij+ux2yzTdjjzJj3m
+=qmrE
 -----END PGP SIGNATURE-----
 
---===============2596728741982976382==
+--===============0225625622704538934==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-dcb6fa37fd7b-7d0a66e4bb90.txt
+Content-Disposition: attachment; filename=revlist-2bf95a9bcb50-7d0a66e4bb90.txt
 
+ef54548455190f3d28462787eb33d08c3cfadc4e Merge tag 'mediatek-drm-fixes-20251028' of https://git.kernel.org/pub/scm/linux/kernel/git/chunkuang.hu/linux into drm-fixes
 3a9f6bd54e20d0eaf89ca3ec6d82e5263cac93e8 Merge tag 'amd-drm-fixes-6.18-2025-10-29' of https://gitlab.freedesktop.org/agd5f/linux into drm-fixes
 3d8d35bf8dc8893e34d92212d413d7cfd89c560e Merge tag 'drm-msm-fixes-2025-10-29' of https://gitlab.freedesktop.org/drm/msm into drm-fixes
 e28e383da32a6396e37c3f68964dc92eb9b6f0ed Merge tag 'drm-intel-fixes-2025-10-30' of https://gitlab.freedesktop.org/drm/i915/kernel into drm-fixes
@@ -1001,7 +1002,6 @@ f5bce28f6b9125502abec4a67d68eabcd24b3b17 net: sxgbe: fix potential NULL derefere
 ae1737e7339b513f8c2fc21b500a0fc215d155c3 r8169: fix RTL8127 hang on suspend/shutdown
 0ebc27a4c67d44e5ce88d21cdad8201862b78837 xsk: avoid data corruption on cq descriptor number
 d041e5e748f926398ad96436a86667dea8b591e0 ALSA: hda/realtek: Add quirk for HP ProBook 450 G8
-2bf95a9bcb50002ca9d47403d60aedaeb2e19abe serial: 8250: Fix 8250_rsa symbol loop
 3dcf44ab56e1d3ca3532083c0d5390b758e45b45 spi: tegra114: remove Kconfig dependency on TEGRA20_APB_DMA
 6d849ff573722afcf5508d2800017bdd40f27eb9 can: rcar_canfd: Fix CAN-FD mode as default
 0c922106d7a58d106c6a5c52a741ae101cfaf088 net/sched: em_canid: fix uninit-value in em_canid_match
@@ -1082,4 +1082,4 @@ e6640487845061255af9614ec0a192e4fafa486e Merge tag 'spi-fix-v6.18-rc7' of git://
 e69c7c175115c51c7f95394fc55425a395b3af59 Merge tag 'timers_urgent_for_v6.18_rc8' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 7d0a66e4bb9081d75c82ec4957c50034cb0ea449 Linux 6.18
 
---===============2596728741982976382==--
+--===============0225625622704538934==--
