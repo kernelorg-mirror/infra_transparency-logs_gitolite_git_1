@@ -1,16 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mst/vhost
-Date: Tue, 02 Dec 2025 20:05:35 -0000
-Message-Id: <176470593553.3247674.16902363855854827355@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
+Date: Tue, 02 Dec 2025 20:10:26 -0000
+Message-Id: <176470622642.3252711.673637497117426340@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mst/vhost
-user: mst
+repo: pub/scm/linux/kernel/git/pci/pci
+user: helgaas
 changes:
-  - ref: refs/tags/for_linus
-    old: 341b770e82f4d73db0e11edf01874ca74b1ac35c
-    new: d752d1783443f47ce406af4c68515863d37c5b17
+  - ref: refs/heads/controller/sky1
+    old: d8c47a898e1061520e6c7d72c02da9f5ba3125aa
+    new: 850e7791c12159eab9ba27f5ad6cb6b1f49133d6
+    log: |
+         17b4d54f0fb8c38e8c750b21cc07b81ec89a46fd PCI: sky1: Add PCIe host support for CIX Sky1
+         850e7791c12159eab9ba27f5ad6cb6b1f49133d6 MAINTAINERS: Add CIX Sky1 PCIe controller driver maintainer
+         
