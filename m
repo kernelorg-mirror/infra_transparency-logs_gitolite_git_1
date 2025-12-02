@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6574494608048489067=="
+Content-Type: multipart/mixed; boundary="===============9081653207252355799=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Tue, 02 Dec 2025 23:10:40 -0000
-Message-Id: <176471704057.3431331.5329536726909408360@gitolite.kernel.org>
+Date: Tue, 02 Dec 2025 23:11:02 -0000
+Message-Id: <176471706253.3431760.10115675920329763503@gitolite.kernel.org>
 
---===============6574494608048489067==
+--===============9081653207252355799==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/main
-    old: e3b8cbf40c6e60a7a935bd8980884d5741a7a77b
-    new: 9954464d737dd12f12b274d3da46397e3656f079
-    log: revlist-e3b8cbf40c6e-9954464d737d.txt
+  - ref: refs/heads/dev-queue
+    old: 68ecf0c49567505ffc0f4d8a1ec7c3303e578756
+    new: c4881890658f540ab98536d71f75545ed95a9653
+    log: revlist-68ecf0c49567-c4881890658f.txt
 
---===============6574494608048489067==
+--===============9081653207252355799==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e3b8cbf40c6e-9954464d737d.txt
+Content-Disposition: attachment; filename=revlist-68ecf0c49567-c4881890658f.txt
 
 e0e1b6db2e4b8fae44e222c188d3e96259d00c8e wireguard: netlink: enable strict genetlink validation
 aea199fa157164ed0824d14dddd6c6fa28e130e4 wireguard: netlink: validate nested arrays in policy
@@ -123,5 +123,54 @@ d4aa0cc9bd31f3e0cd5f067d649bf39135e4b46b net/mlx5e: Support XDP target xmit with
 3c4159b3019cc3444495f54c18083cda579cba84 Merge branch 'net-mlx5e-disable-egress-xdp-redirect-in-default'
 854858848bc7ac6ea3bf896ef1b541cb9d4bca20 net: page pool: xa init with destroy on pp init
 9954464d737dd12f12b274d3da46397e3656f079 net: page_pool: sanitise allocation order
+21b58690c6b5cbfd9ec49b2eb3baa6dc9cdac7a7 ice: Fix enable_cnt imbalance on resume
+2cabfe9afdb25c3ddcc3e7070bb0f91043b3ae3b ice: Fix enable_cnt imbalance on PCIe error recovery
+f8b4ffe23bb098bd7125043c9faa10ba9db44f61 i40e: Fix enable_cnt imbalance on PCIe error recovery
+61022f50353bc88174e14947f829b25d00cd5f87 idpf: fix memory leak of flow steer list on rmmod
+f19069e5da487ff7a9de68ae9e92c838f5617311 idpf: fix issue with ethtool -n command display
+66cb38af5c884558a56b472dccff14889f3da2f3 ice: unify PHY FW loading status handler for E800 devices
+b5846a1fb01f64339656dd037b7317cf6e4a0fa5 idpf: keep the netdev when a reset fails
+fb9f5e27c9982459eebce75795b593064f3f8b81 idpf: detach and close netdevs while handling a reset
+7332f98c8af8bc6587f5af0591e7ee985d2e871d idpf: fix memory leak in idpf_vport_rel()
+98b37d20628ea7f695885c3096bc7e07f770af20 idpf: fix memory leak in idpf_vc_core_deinit()
+82fd43cff7a396584db4728c50deb4cd1ef13dd4 idpf: fix error handling in the init_task on load
+a957d983a32d5988b185052ed96018371613bede iavf: fix off-by-one issues in iavf_config_rss_reg()
+016fc54973b1d507c4633b52b99596bb78c71905 igc: prepare for RSS key get/set support
+cc2ec14bebbc9bd7b828b8070adcd6743a1d340c igc: expose RSS key via ethtool get_rxfh
+bfd42075f2fab7caa577a2df1deae453af345106 igc: allow configuring RSS key via ethtool set_rxfh
+0b097d03dd2997e9c50501470f71b62000a31ac5 ice: use netif_get_num_default_rss_queues()
+c065ede682866d6b4e37106f4a592447ae982293 idpf: cap maximum Rx buffer size
+2fdbd38030b34df5912db294ee53d64737de8d84 idpf: reduce mbx_task schedule delay to 300us
+354116568588d8167c28ee83fb3293de8a3c6a04 i40e: fix src IP mask checks and memcpy argument names in cloud filter
+f19bfebd87a30e2dc2d939c57fc59046e59d577c idpf: introduce local idpf structure to store virtchnl queue chunks
+9e795c56654e6b357eb66705f12fb0600dcbbe32 idpf: introduce idpf_q_vec_rsrc struct and move vector resources to it
+f0948d50198667a6757a5df27299f8619004707e idpf: move queue resources to idpf_q_vec_rsrc structure
+a847ba349823925ede3a08ff3ffcb8249166292c idpf: move some iterator declarations inside for loops
+cd025a98b2410a046b03f14703b15801da5aa1c6 idpf: reshuffle idpf_vport struct members to avoid holes
+1d2c0a3ad0fb154b4cc4464191c26b8894840295 idpf: add rss_data field to RSS function parameters
+e41905975d16055504c6c2ac6ac0b6c4fc861631 idpf: remove vport pointer from queue sets
+d43ae222bba9755a5d278173687b74049f9e99c8 idpf: generalize send virtchnl message API
+e7f4eb81889946be2df79bc54ea8526cba4df316 idpf: avoid calling get_rx_ptypes for each vport
+348a3080058fc552ea54ed4b82b18a496618eff8 idpf: generalize mailbox API
+a7103242d18ef9a5c7467598ed81bdce42120d48 i40e: validate ring_len parameter against hardware-specific values
+861f500474d4c57aaea998fea567d13a94ba7c78 idpf: fix aux device unplugging when rdma is not supported by vport
+2a71166f232937a2c9d79fc4b460cf3ca23af67f virtchnl: create 'include/linux/intel' and move necessary header files
+ab1927909cf9ff06ffed85f970eb91bd3ee1a9d5 virtchnl: introduce control plane version fields
+59f118f9ad0a556a5d345ecd7c0742e4ccf3f165 libie: add PCI device initialization helpers to libie
+52b5ced9cb8a65a781912c6edbc25f9d9db99d43 libeth: allow to create fill queues without NAPI
+66b3271b3ebe40ae7a3c2584b36d881171b85529 libie: add control queue support
+f0e93232881401ca0b0d076b17d245892c969909 libie: add bookkeeping support for control queue messages
+4e916bcc695bacc3aafdf0fcb6f950ba932ca9e7 idpf: remove 'vport_params_reqd' field
+7237561b917849bf560100e21b447e448324ad49 idpf: refactor idpf to use libie_pci APIs
+f8e3801fe064cff3703a7dd9813e12961e9a2ae3 idpf: refactor idpf to use libie control queues
+3b8ed1d9ca71d5e5dad42f90961950a15185d452 idpf: make mbx_task queueing and cancelling more consistent
+d26e5a6fcdfdc5a0279c3418bd0801044d7eccf4 idpf: print a debug message and bail in case of non-event ctlq message
+0051a08c8490626664f3de63dc2795bce7dc637f ixd: add basic driver framework for Intel(R) Control Plane Function
+e568c189b6c4894e58fedf3fc1f3144e77ae7945 ixd: add reset checks and initialize the mailbox
+3583157698a494bc2fc4b90d323575f4f4d4b6d3 ixd: add the core initialization
+4beaf3c7600442271dad038a7946d47b450733d2 ixd: add devlink support
+f259b8738526a397071cc2d4de0a31f6d06e934a i40e: fix scheduling in set_rx_mode
+42614d2fa8d7d580eae9533a22289bf800ec7284 igc: Restore default Qbv schedule when changing channels
+c4881890658f540ab98536d71f75545ed95a9653 ice: Avoid detrimental cleanup for bond during interface stop
 
---===============6574494608048489067==--
+--===============9081653207252355799==--
