@@ -1,29 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/lenb/linux
-Date: Tue, 02 Dec 2025 16:59:59 -0000
-Message-Id: <176469479925.3060465.14237053379682747182@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jpoimboe/linux
+Date: Tue, 02 Dec 2025 17:00:54 -0000
+Message-Id: <176469485451.3063652.10407562126917922201@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/lenb/linux
-user: lenb
+repo: pub/scm/linux/kernel/git/jpoimboe/linux
+user: jpoimboe
 changes:
-  - ref: refs/heads/next
-    old: 4b295ae45d3e6eb4d811c8fc2408b9e4e91c9474
-    new: 3b227c99757f7ae75f961fd01efb1fa55e3285b8
+  - ref: refs/heads/objtool-annotation-readability
+    old: 2078bdc54c328669cac429a6a685cf60d8793464
+    new: 66305834c2eb78f082217611b756231ae9c0b555
     log: |
-         ca82bac6d74f4807e5eb1d9a2a231583057adf59 tools/power turbostat: Validate that RAPL MSRs for AWS Nitro Hypervisor
-         cd75b449a15b641a76316d44f0b88d455a400d9e tools/power turbostat: Skip APERF to run on VMWARE
-         3b227c99757f7ae75f961fd01efb1fa55e3285b8 tools/power turbosat: version 2025.12.02
-         
-  - ref: refs/heads/turbostat
-    old: 4b295ae45d3e6eb4d811c8fc2408b9e4e91c9474
-    new: 3b227c99757f7ae75f961fd01efb1fa55e3285b8
-    log: |
-         ca82bac6d74f4807e5eb1d9a2a231583057adf59 tools/power turbostat: Validate that RAPL MSRs for AWS Nitro Hypervisor
-         cd75b449a15b641a76316d44f0b88d455a400d9e tools/power turbostat: Skip APERF to run on VMWARE
-         3b227c99757f7ae75f961fd01efb1fa55e3285b8 tools/power turbosat: version 2025.12.02
+         0c314a881cac61a80a0e05309fafd48c55dd3afc objtool: Fix stack overflow in validate_branch()
+         5ac04e6db5be6453dce8003a771ebb0c47b4cd7a x86/alternative: Remove ANNOTATE_DATA_SPECIAL usage
+         b858cb7891c1ba0080e22a9c32595e6c302435e2 x86/asm: Remove ANNOTATE_DATA_SPECIAL usage
+         c05ff40d3383e85c3b59018ef0b3c7aaf993a60d objtool: Consolidate annotation macros
+         66305834c2eb78f082217611b756231ae9c0b555 objtool: Remove newlines and tabs from annotation macros
          
