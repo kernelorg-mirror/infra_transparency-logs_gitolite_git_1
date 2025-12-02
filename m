@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mingo/tip
-Date: Tue, 02 Dec 2025 16:06:28 -0000
-Message-Id: <176469158866.3005306.12272533485144876419@gitolite.kernel.org>
+Date: Tue, 02 Dec 2025 16:06:55 -0000
+Message-Id: <176469161565.3005700.16894874836836539184@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,9 +12,8 @@ repo: pub/scm/linux/kernel/git/mingo/tip
 user: mingo
 changes:
   - ref: refs/heads/WIP.sched/misc
-    old: b8c56fe554c247f9577dccdc11ca96ec034e774f
-    new: 60f3a561c580c68971ce50d9486764afc9ce4f52
+    old: 60f3a561c580c68971ce50d9486764afc9ce4f52
+    new: 9154812bad6e5347dd4a81904ee839223375c1b9
     log: |
-         8738daaee2084502b2129a322301ed947862a20c sched/fair: Introduce and use the vruntime_cmp() and vruntime_op() wrappers for wrapped-signed aritmetics
-         60f3a561c580c68971ce50d9486764afc9ce4f52 sched/fair: Sort out 'blocked_load*' namespace noise
+         9154812bad6e5347dd4a81904ee839223375c1b9 sched/fair: Sort out 'blocked_load*' namespace noise
          
