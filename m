@@ -1,21 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mingo/tip
-Date: Tue, 02 Dec 2025 07:45:04 -0000
-Message-Id: <176466150471.2424360.10906627314167488248@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/livepatching/livepatching
+Date: Tue, 02 Dec 2025 07:46:02 -0000
+Message-Id: <176466156273.2425477.14522705423060661858@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mingo/tip
-user: mingo
+repo: pub/scm/linux/kernel/git/livepatching/livepatching
+user: pmladek
 changes:
-  - ref: refs/heads/WIP.sched/misc
-    old: 0131788ddf8fab60f3684d64c145a0dadf8a3f78
-    new: 2bc3a7a24fb8d325c8aa3f9b89a44cfd1ab9d3d3
+  - ref: refs/heads/for-linus
+    old: dcf9f31c62b3d31c033ee5bce522855c3d7f56b1
+    new: 5cb5575308bce9d63178fe943bf89c520a348808
     log: |
-         3885c0eeef6e9eb2a1d3650e1720892fbc106e5b sched/fair: Rename the 'has_blocked_load' local variable to 'has_blocked' in _nohz_idle_balance()
-         7d5929b107ce82ac6d6f1dbf12240c050a4a2c87 sched/fair: Rename the 'has_blocked' parameter in update_blocked_load_status() to 'has_blocked_load'
-         2bc3a7a24fb8d325c8aa3f9b89a44cfd1ab9d3d3 sched/fair: Rename cfs_rq_has_blocked() => cfs_rq_has_blocked_load_avg()
+         139560e8b973402140cafeb68c656c1374bd4c20 livepatch: Match old_sympos 0 and 1 in klp_find_func()
+         5cb5575308bce9d63178fe943bf89c520a348808 selftests: livepatch: use canonical ftrace path
          
