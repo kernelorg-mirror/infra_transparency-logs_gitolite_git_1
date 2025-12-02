@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Tue, 02 Dec 2025 13:27:08 -0000
-Message-Id: <176468202812.2839964.8207474561784644003@gitolite.kernel.org>
+Date: Tue, 02 Dec 2025 13:36:43 -0000
+Message-Id: <176468260327.2849344.16601636321891606381@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,9 +12,10 @@ repo: pub/scm/linux/kernel/git/cel/linux
 user: cel
 changes:
   - ref: refs/heads/nfsd-testing
-    old: b4e718b52fafaf91a1877854431b82deac085a7e
-    new: 4c900fa2f2b339cbadf3cd4e6dea8c594287dfcd
+    old: 4c900fa2f2b339cbadf3cd4e6dea8c594287dfcd
+    new: 5520e20b736a2fd2617533a801e5263f907167c3
     log: |
-         8894e10ba8b5912e5d18b8360cef7d68a80cb242 xdrgen: Address some checkpatch whitespace complaints
-         4c900fa2f2b339cbadf3cd4e6dea8c594287dfcd siw: Enable try_gso
+         ca30f1a88d7fd84091634f79ca860c33b0e24154 nfsd: fix nfsd_file reference leak in nfsd4_add_rdaccess_to_wrdeleg()
+         e54373b5495eae024a69a384422e8c2ba7fe717c xdrgen: Address some checkpatch whitespace complaints
+         5520e20b736a2fd2617533a801e5263f907167c3 siw: Enable try_gso
          
