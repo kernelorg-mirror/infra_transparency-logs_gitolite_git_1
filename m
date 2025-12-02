@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6389484551763661402=="
+Content-Type: multipart/mixed; boundary="===============8227778517303734009=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Tue, 02 Dec 2025 01:04:42 -0000
-Message-Id: <176463748267.2019460.17076640222549317363@gitolite.kernel.org>
+Date: Tue, 02 Dec 2025 01:04:44 -0000
+Message-Id: <176463748412.2019593.8972886130731142993@gitolite.kernel.org>
 
---===============6389484551763661402==
+--===============8227778517303734009==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/mm-new
+  - ref: refs/heads/mm-unstable
     old: 2178727587e1eaa930b8266377119ed6043067df
     new: 2a5568dd60c817a4b18c1453bf3846091ddf3abf
     log: revlist-2178727587e1-2a5568dd60c8.txt
 
---===============6389484551763661402==
+--===============8227778517303734009==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -47,4 +47,4 @@ e350709af60d1935455cde653bf4e88f7854ae8a mm/huge_memory: replace can_split_folio
 4a5a135bf8c51b55fe1b3e6ee91dd6a15c3a56f4 mm: fix CONFIG_STACK_GROWSUP typo in mm.h
 2a5568dd60c817a4b18c1453bf3846091ddf3abf mm/hugetlb: fix incorrect error return from hugetlb_reserve_pages()
 
---===============6389484551763661402==--
+--===============8227778517303734009==--
