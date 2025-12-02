@@ -1,32 +1,29 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
-Date: Tue, 02 Dec 2025 16:55:01 -0000
-Message-Id: <176469450173.3055661.16022695229986108955@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/lenb/linux
+Date: Tue, 02 Dec 2025 16:59:59 -0000
+Message-Id: <176469479925.3060465.14237053379682747182@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tiwai/sound
-user: tiwai
+repo: pub/scm/linux/kernel/git/lenb/linux
+user: lenb
 changes:
-  - ref: refs/heads/for-linus
-    old: cf5425e207351c962990da6a69aebec5948cc1f3
-    new: eaf526cfa4e537af86543d77f402b9ae803f606e
+  - ref: refs/heads/next
+    old: 4b295ae45d3e6eb4d811c8fc2408b9e4e91c9474
+    new: 3b227c99757f7ae75f961fd01efb1fa55e3285b8
     log: |
-         eaf526cfa4e537af86543d77f402b9ae803f606e ALSA: hda/realtek: Add PCI SSIDs to HP ProBook quirks
+         ca82bac6d74f4807e5eb1d9a2a231583057adf59 tools/power turbostat: Validate that RAPL MSRs for AWS Nitro Hypervisor
+         cd75b449a15b641a76316d44f0b88d455a400d9e tools/power turbostat: Skip APERF to run on VMWARE
+         3b227c99757f7ae75f961fd01efb1fa55e3285b8 tools/power turbosat: version 2025.12.02
          
-  - ref: refs/heads/for-next
-    old: cf5425e207351c962990da6a69aebec5948cc1f3
-    new: eaf526cfa4e537af86543d77f402b9ae803f606e
+  - ref: refs/heads/turbostat
+    old: 4b295ae45d3e6eb4d811c8fc2408b9e4e91c9474
+    new: 3b227c99757f7ae75f961fd01efb1fa55e3285b8
     log: |
-         eaf526cfa4e537af86543d77f402b9ae803f606e ALSA: hda/realtek: Add PCI SSIDs to HP ProBook quirks
-         
-  - ref: refs/heads/master
-    old: 495dc8a9a5a610be9a8d6b57d186660f10db92c6
-    new: 18921b07be9ae2fa5c2ef511a00a348a5a90557d
-    log: |
-         eaf526cfa4e537af86543d77f402b9ae803f606e ALSA: hda/realtek: Add PCI SSIDs to HP ProBook quirks
-         18921b07be9ae2fa5c2ef511a00a348a5a90557d Merge branch 'for-linus'
+         ca82bac6d74f4807e5eb1d9a2a231583057adf59 tools/power turbostat: Validate that RAPL MSRs for AWS Nitro Hypervisor
+         cd75b449a15b641a76316d44f0b88d455a400d9e tools/power turbostat: Skip APERF to run on VMWARE
+         3b227c99757f7ae75f961fd01efb1fa55e3285b8 tools/power turbosat: version 2025.12.02
          
