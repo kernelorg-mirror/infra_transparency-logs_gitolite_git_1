@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Tue, 02 Dec 2025 20:34:09 -0000
-Message-Id: <176470764949.3277633.15234970877421206435@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
+Date: Tue, 02 Dec 2025 20:34:22 -0000
+Message-Id: <176470766206.3277912.9125569095088811714@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/pci/pci
+user: helgaas
 changes:
-  - ref: refs/heads/spi-6.19
-    old: cb5c2eb459f4c98d584eaf3d3ea7c3612385d081
-    new: e1f2e77624dbc35f317efd7e092aa91f7136f3f9
+  - ref: refs/heads/misc
+    old: 010515bd2d474a1015625817255be9679506a1a5
+    new: 7eba05e79ca20b7169bf25da1e6cac1d31269f90
     log: |
-         e1f2e77624dbc35f317efd7e092aa91f7136f3f9 spi: cadence-qspi: Fix runtime PM imbalance in probe
+         7eba05e79ca20b7169bf25da1e6cac1d31269f90 MAINTAINERS: Add Manivannan Sadhasivam as PCI/pwrctrl maintainer
          
