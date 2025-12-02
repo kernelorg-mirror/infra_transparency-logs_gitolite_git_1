@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/device-mapper/linux-dm
-Date: Tue, 02 Dec 2025 19:08:47 -0000
-Message-Id: <176470252779.3187877.8267288211740394901@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Tue, 02 Dec 2025 19:15:33 -0000
+Message-Id: <176470293391.3195625.13076465344789979396@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/device-mapper/linux-dm
-user: mikulas
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
-  - ref: refs/heads/dm-6.19
-    old: b06f23c57d22343d0b8d31662b7873b7f80088eb
-    new: 2dd56dff1c874207416d3487b99e080319cec02f
+  - ref: refs/heads/main
+    old: 3c4159b3019cc3444495f54c18083cda579cba84
+    new: 9954464d737dd12f12b274d3da46397e3656f079
     log: |
-         ed79b300272a3d5211a187aafd29a6bc50c2d045 dm pcache: fix cache info indexing
-         2dd56dff1c874207416d3487b99e080319cec02f dm pcache: fix segment info indexing
+         854858848bc7ac6ea3bf896ef1b541cb9d4bca20 net: page pool: xa init with destroy on pp init
+         9954464d737dd12f12b274d3da46397e3656f079 net: page_pool: sanitise allocation order
          
