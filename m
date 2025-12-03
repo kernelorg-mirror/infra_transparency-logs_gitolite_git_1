@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/clk/linux
-Date: Wed, 03 Dec 2025 18:23:04 -0000
-Message-Id: <176478618491.477151.11362022504055562912@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Wed, 03 Dec 2025 18:23:18 -0000
+Message-Id: <176478619836.477508.14136461337160902746@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/clk/linux
-user: sboyd
+repo: pub/scm/linux/kernel/git/tip/tip
+user: mingo
 changes:
-  - ref: refs/heads/clk-next
-    old: 6056c50534f8238c2a7248385e65cedb13b73e96
-    new: 6f172175b6f3fe35b5d519fc314f7a0b603a9af9
+  - ref: refs/heads/perf/urgent
+    old: 4f7a433d5d5080a89bceabbbaab787b8d66a399b
+    new: 92546f6b523b1d4757c2ee606d4d0eefc98ea26b
     log: |
-         0999df60329e3e643ef3f9de72d85e712e481766 Merge branches 'clk-socfpga', 'clk-renesas', 'clk-cleanup', 'clk-samsung' and 'clk-mediatek' into clk-next
-         6f172175b6f3fe35b5d519fc314f7a0b603a9af9 Merge branches 'clk-visconti', 'clk-imx', 'clk-microchip', 'clk-rockchip' and 'clk-qcom' into clk-next
+         92546f6b523b1d4757c2ee606d4d0eefc98ea26b perf/uprobes: Remove <space><Tab> whitespace noise
          
