@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0692615033104568482=="
+Content-Type: multipart/mixed; boundary="===============0221515112669068295=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Wed, 03 Dec 2025 00:59:42 -0000
-Message-Id: <176472358226.3534629.13988379249859021243@gitolite.kernel.org>
+Date: Wed, 03 Dec 2025 00:59:44 -0000
+Message-Id: <176472358461.3534766.10247988955219838040@gitolite.kernel.org>
 
---===============0692615033104568482==
+--===============0221515112669068295==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
+  - ref: refs/heads/10GbE
     old: e3b8cbf40c6e60a7a935bd8980884d5741a7a77b
     new: 9954464d737dd12f12b274d3da46397e3656f079
     log: revlist-e3b8cbf40c6e-9954464d737d.txt
 
---===============0692615033104568482==
+--===============0221515112669068295==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -124,4 +124,4 @@ d4aa0cc9bd31f3e0cd5f067d649bf39135e4b46b net/mlx5e: Support XDP target xmit with
 854858848bc7ac6ea3bf896ef1b541cb9d4bca20 net: page pool: xa init with destroy on pp init
 9954464d737dd12f12b274d3da46397e3656f079 net: page_pool: sanitise allocation order
 
---===============0692615033104568482==--
+--===============0221515112669068295==--
