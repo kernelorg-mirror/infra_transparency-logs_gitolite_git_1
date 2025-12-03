@@ -1,46 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============0936648384333249218=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/docs/kernel/pgpkeys
-Date: Wed, 03 Dec 2025 20:13:27 -0000
-Message-Id: <176479280714.590202.11117746847216414757@gitolite.kernel.org>
-
---===============0936648384333249218==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+Date: Wed, 03 Dec 2025 20:18:03 -0000
+Message-Id: <176479308359.594968.8322434058915312207@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/docs/kernel/pgpkeys
-user: mricon
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+user: jarkko
 changes:
-  - ref: refs/heads/master
-    old: d733907283bece4ed1ffd52626fc0171cde9f542
-    new: cce129300b0e0d46434316e06a24cd4d9beaecc7
+  - ref: refs/heads/tpm2-session
+    old: 9f7d54bfa29ddbfb31f93f63b934bf14540295a6
+    new: 317bc925e51624f5fb38c687deb30fce451bc1b0
     log: |
-         cce129300b0e0d46434316e06a24cd4d9beaecc7 Update 336AB3336F667F97 (Chuck Lever)
+         d926775f7b6eb7adb1a6176a223c8c608ec93a74 tpm2-sessions: Export tpm2_read_public
+         3f685f6c2fe31c9baf68f5543ccebb18f7e8e8c2 KEYS: trusted: Replace a redundant instance of tpm2_hash_map
+         94e18783b9651a9a44e7a88be9fa48b7e64a627a KEYS: trusted: Fix a memory leak in tpm2_load_cmd
+         c941be39eb525fb3a09206901270ca4dde023a24 KEYS: trusted: Open code tpm2_buf_append()
+         2aaec0b5c17af883facf441812a13b4b6128dd06 KEYS: trusted: Move ASN.1 decoding to tpm2_unseal_trusted()
+         0b5c948a2ddfca3f4d18e796bd9dded9cdf85a2a tpm-buf: Merge TPM_BUF_BOUNDARY_ERROR and TPM_BUF_OVERFLOW
+         00c02dd65aeae7bccf491e9280f9083e28947064 tpm-buf: Remove chip parameter from tpm_buf_append_handle
+         317bc925e51624f5fb38c687deb30fce451bc1b0 tpm-buf: Enable managed and stack allocations.
          
-
---===============0936648384333249218==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher B6C41CE35664996C! 1764792806 -0500
-pushee gitolite.kernel.org:pub/scm/docs/kernel/pgpkeys
-nonce 1764792806-420957163475018737105c6ee2b3fed34c7413a6
-
-d733907283bece4ed1ffd52626fc0171cde9f542 cce129300b0e0d46434316e06a24cd4d9beaecc7 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCaTCZ5gAKCRC2xBzjVmSZ
-bGW6AQD0YgiXGzGlrVTZKp06KojhCb6kT7UVY9o2I7z0J1/XqAEAuq2Oq2owtp1Q
-mVMPlha0XtxXosdAfPIvuVRrFlg/3Q4=
-=H59a
------END PGP SIGNATURE-----
-
---===============0936648384333249218==--
