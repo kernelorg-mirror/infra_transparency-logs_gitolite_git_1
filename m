@@ -1,20 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/firmware/linux-firmware
-Date: Wed, 03 Dec 2025 21:10:07 -0000
-Message-Id: <176479620797.651496.15049545937952383312@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+Date: Wed, 03 Dec 2025 21:16:17 -0000
+Message-Id: <176479657745.658651.12050502422249078622@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/firmware/linux-firmware
-user: jwboyer
+repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+user: jarkko
 changes:
-  - ref: refs/heads/main
-    old: e9d859f2804f78c3be3dbcfbbe12d3dd3f577142
-    new: a0f0e52138e5f77fb0f358ff952447623ae0a7c4
-    log: |
-         3d5c8135206cef364e7d353711b3e7358a90d152 Revert "amdgpu: update GC 11.5.0 firmware"
-         a0f0e52138e5f77fb0f358ff952447623ae0a7c4 Merge branch 'amd-staging' into 'main'
-         
+  - ref: refs/tags/tpmdd-next-6.19-rc1-v4
+    old: 0000000000000000000000000000000000000000
+    new: d3efa5c9ad7f08793f291ef38575ff5a3b8ed4a3
