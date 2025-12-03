@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/axboe/liburing
-Date: Wed, 03 Dec 2025 20:32:51 -0000
-Message-Id: <176479397149.609947.14565865040403531269@gitolite.kernel.org>
+Date: Wed, 03 Dec 2025 20:33:31 -0000
+Message-Id: <176479401110.610631.17758373133599311247@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/axboe/liburing
 user: axboe
 changes:
   - ref: refs/heads/master
-    old: 419c9ca5bf5d6dd942504213a68a4862e733392b
-    new: 947615cf0cdff828cd99aeda781c3380da665495
+    old: 947615cf0cdff828cd99aeda781c3380da665495
+    new: d492e5e2997e330f15e425c749f1760099c728b5
     log: |
-         947615cf0cdff828cd99aeda781c3380da665495 test/bind-listen: ensure 'res' is initialized
+         d492e5e2997e330f15e425c749f1760099c728b5 test/bind-listen: fix spelling typo
          
