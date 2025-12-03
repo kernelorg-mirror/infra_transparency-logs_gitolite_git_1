@@ -1,22 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/andi.shyti/linux
-Date: Wed, 03 Dec 2025 18:18:02 -0000
-Message-Id: <176478588210.471974.131852027195051329@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/clk/linux
+Date: Wed, 03 Dec 2025 18:23:04 -0000
+Message-Id: <176478618491.477151.11362022504055562912@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/andi.shyti/linux
-user: andi.shyti
+repo: pub/scm/linux/kernel/git/clk/linux
+user: sboyd
 changes:
-  - ref: refs/heads/i2c/i2c-host-next
-    old: 7cb90be901c0d7beff54547d3b714325b62caec7
-    new: 52e7bd34f05b3c8517654f6a3bba0ac540360e39
+  - ref: refs/heads/clk-next
+    old: 6056c50534f8238c2a7248385e65cedb13b73e96
+    new: 6f172175b6f3fe35b5d519fc314f7a0b603a9af9
     log: |
-         8f0c80f26b8693952056b419b5bc27e396af25e7 dt-bindings: i2c: dw: Add Mobileye I2C controllers
-         8a0a01a3a995e548104786c38175b80291b9a9bc i2c: designware: Optimize flag reading in i2c_dw_read()
-         86dcd081f11cceb1d655bf9ea696559f0ad55251 i2c: designware: Sort compatible strings in alphabetical order
-         52e7bd34f05b3c8517654f6a3bba0ac540360e39 i2c: designware: Add dedicated algorithm for AMD NAVI
+         0999df60329e3e643ef3f9de72d85e712e481766 Merge branches 'clk-socfpga', 'clk-renesas', 'clk-cleanup', 'clk-samsung' and 'clk-mediatek' into clk-next
+         6f172175b6f3fe35b5d519fc314f7a0b603a9af9 Merge branches 'clk-visconti', 'clk-imx', 'clk-microchip', 'clk-rockchip' and 'clk-qcom' into clk-next
          
