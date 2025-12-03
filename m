@@ -1,57 +1,25 @@
-Content-Type: multipart/mixed; boundary="===============0391710482902164277=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux
-Date: Wed, 03 Dec 2025 17:56:32 -0000
-Message-Id: <176478459201.450029.10339840217409902715@gitolite.kernel.org>
-
---===============0391710482902164277==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+Date: Wed, 03 Dec 2025 17:56:41 -0000
+Message-Id: <176478460136.450292.17212230679062027833@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/krzk/linux
-user: krzk
-git_push_cert_status: Y
+repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+user: jarkko
 changes:
-  - ref: refs/tags/samsung-drivers-6.19-2-late
-    old: 0000000000000000000000000000000000000000
-    new: 15390058ab37d134451dfb5a54d3494e860ae28e
-  - ref: refs/tags/samsung-dt-6.19
-    old: 0000000000000000000000000000000000000000
-    new: 4d69799ffcfc9a0becd301b39e8f9a927a6533cd
-
---===============0391710482902164277==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher krzk@kernel.org 1764784590 +0100
-pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux.git
-nonce 1764784590-e915ffe31c5fc08c9bf8c2b05608bb126cc8f347
-
-0000000000000000000000000000000000000000 15390058ab37d134451dfb5a54d3494e860ae28e refs/tags/samsung-drivers-6.19-2-late
-0000000000000000000000000000000000000000 4d69799ffcfc9a0becd301b39e8f9a927a6533cd refs/tags/samsung-dt-6.19
------BEGIN PGP SIGNATURE-----
-
-iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmkwec4QHGtyemtAa2Vy
-bmVsLm9yZwAKCRDBN2bmhouD17fHEACB2/lgrRrVHVrjNcc3Tcat5SOaG2VfYljX
-DugUPPldBIInwm/xrsUlL0PjFv8gmxzEG5KgLVTP8GftrUUMdccSLo6VnTwacTHP
-g05T2TRamNc/MSacQ3Etwxh5Qaj2/wD6lj76gFuC5w49ePCwVA3xB5mVATOpca9H
-r6kQ1txAJW2qBwQID7/KZ9s2u4oKslGAVxRi8Me/gAeZaLp/HmuDoIXnUg/3+FRv
-13bjUvcTJU3jqhG451DXcHPhcFtysH6iRwlxqASPNvjJyCV8MsAukLb/0F8z2CjF
-NdBM02QOo3a3Di2J920C+xGZ3GGpAq7I8OlcyC4iiMfSGKyfFt3FgKVEXWf55t51
-SQvakwBUlSC4vJz6qTgVmyDW1+FzJ57TpZl7gs3sDGfGZQTmVs3RkLdtl6cBHq6l
-gMAe8BKOm2QNxxPI/puV1TTCdXCJC++4fGaFUy7mGzGDLyt0QYJacxtf6pbadaRM
-SG+HnivvCxR5CYMk9nWr4ZPNXvNiQSTN8QyVeMlZMznsQkBKo7A+vCx8foG6IHHZ
-ltAE5G7fW6A8ftDLynwIOnth/4CvPzrsi91GhEe5eV9Pa8kO2yoGejIhRs3dYlRM
-M5bUxhrQdZoTTPCaMaL8WUiIo+yH6rar7z2cK8sj6PEXtJIR52oM9rZp7OVieV8h
-s2T2PRidbw==
-=9WUj
------END PGP SIGNATURE-----
-
---===============0391710482902164277==--
+  - ref: refs/heads/tpm2-session
+    old: c13bfc3928138fd5f700090275af8c571f14cd0b
+    new: 8e80db358f3668991abecf0215c88b3021fe1698
+    log: |
+         353c21f76c981123e9c6ff2ff492a185067b2854 tpm2-sessions: Export tpm2_read_public
+         a79fef38e071b29c782fa063ac39619f740f2765 KEYS: trusted: Replace a redundant instance of tpm2_hash_map
+         07974c842d77ff46d331a8e6fca363b6a6d052fb KEYS: trusted: Fix a memory leak in tpm2_load_cmd
+         fbba1f52b089ae39619609eacb6b28c4ac3103d7 KEYS: trusted: Open code tpm2_buf_append()
+         8f75ff3220350f88800e3fbc9dd9c665e6311668 tpm-buf: Merge TPM_BUF_BOUNDARY_ERROR and TPM_BUF_OVERFLOW
+         2c068c979909b6c050986c53eabb1f8938e5c53a tpm-buf: Remove chip parameter from tpm_buf_append_handle
+         8e80db358f3668991abecf0215c88b3021fe1698 tpm-buf: Enable managed and stack allocations.
+         
