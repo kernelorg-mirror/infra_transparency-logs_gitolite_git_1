@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1426200986309563483=="
+Content-Type: multipart/mixed; boundary="===============6998387704642906079=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/linkinjeon/exfat
-Date: Wed, 03 Dec 2025 00:59:55 -0000
-Message-Id: <176472359583.3535468.2015783718954676155@gitolite.kernel.org>
+Date: Wed, 03 Dec 2025 01:00:46 -0000
+Message-Id: <176472364626.3542389.7164868152798699633@gitolite.kernel.org>
 
---===============1426200986309563483==
+--===============6998387704642906079==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,22 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/linkinjeon/exfat
 user: linkinjeon
 changes:
-  - ref: refs/heads/master
-    old: 552c50713f273b494ac6c77052032a49bc9255e2
-    new: d61f1cc5db799f4e44a63418b2dc19396787427b
-    log: revlist-552c50713f27-d61f1cc5db79.txt
+  - ref: refs/heads/dev
+    old: 2ee6b07dc79539461b4689eb76ea9fcf44c043a4
+    new: 51fc7b4ce10ccab8ea5e4876bcdc42cf5202a0ef
+    log: revlist-2ee6b07dc795-51fc7b4ce10c.txt
 
---===============1426200986309563483==
+--===============6998387704642906079==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-552c50713f27-d61f1cc5db79.txt
+Content-Disposition: attachment; filename=revlist-2ee6b07dc795-51fc7b4ce10c.txt
 
-e6ca8f533ed41129fcf052297718f417f021cc7d net: mdio: fix resource leak in mdiobus_register_device()
-49c8d2c1f94cc2f4d1a108530d7ba52614b874c2 net: netpoll: fix incorrect refcount handling causing incorrect cleanup
-39acc6a95eefcf814efa226d8813f89e7e03496e selftest: netcons: refactor target creation
-6701896eb90998ff16338f199144bd9deefb79ba selftest: netcons: create a torture test
-236682db3b6fe71cad76ac5e920ea4c14a33178e selftest: netcons: add test for netconsole over bonded interfaces
 8c0726e861f3920bac958d76cf134b5a3aa14ce4 Merge branch 'net-netpoll-fix-memory-leak-and-add-comprehensive-selftests'
 f10a788e4b6a0ebe8629177894ca779b2dc6203d arm64: dts: imx8dxl: Correct pcie-ep interrupt number
 5b6677d6451bbbac3b6ab93fae6506b59e2c19bd arm64: dts: imx8dxl-ss-conn: swap interrupts number of eqos
@@ -1050,5 +1045,10 @@ c76431e3b53a426de565fa75f8278c59ca6f5ed6 Merge tag 'x86_mm_for_v6.19_rc1' of git
 e2aa39b368bb147afe8f6bd63d962494354f6498 Merge tag 'x86_misc_for_6.19-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 a7610b8465393edc936c2640b903cb7758d5d155 Merge tag 'x86_entry_for_6.19-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 d61f1cc5db799f4e44a63418b2dc19396787427b Merge tag 'x86_cpu_for_6.19-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+9aee8de970f18c2aaaa348e3de86c38e2d956c1d exfat: fix refcount leak in exfat_find
+4e163c39dd4e70fcdce948b8774d96e0482b4a11 exfat: zero out post-EOF page cache on file extension
+866cba3675416c6cf446acb25d7c700eead1420e exfat: validate the cluster bitmap bits of directory
+d70a5804c563b5e34825353ba9927509df709651 exfat: fix divide-by-zero in exfat_allocate_bitmap
+51fc7b4ce10ccab8ea5e4876bcdc42cf5202a0ef exfat: fix remount failure in different process environments
 
---===============1426200986309563483==--
+--===============6998387704642906079==--
