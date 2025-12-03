@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/andi.shyti/linux
-Date: Wed, 03 Dec 2025 20:46:01 -0000
-Message-Id: <176479476184.624995.11880798836210609707@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd-test
+Date: Wed, 03 Dec 2025 20:47:27 -0000
+Message-Id: <176479484760.626039.16836819357711322543@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/andi.shyti/linux
-user: andi.shyti
+repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd-test
+user: jarkko
 changes:
-  - ref: refs/heads/i2c/i2c-host-next
-    old: 3c9d9d607b85ebc1138f4a6f04606638164b1224
-    new: 848d1304fad9445222a4cec59695a16d17b3c16e
+  - ref: refs/heads/main
+    old: 18c7b50b529061e0c4dbc69942ee64348de0ca85
+    new: b9aa89279edb0143b65106a9bc4926b3d7af796a
     log: |
-         848d1304fad9445222a4cec59695a16d17b3c16e i2c: spacemit: fix detect issue
+         b9aa89279edb0143b65106a9bc4926b3d7af796a Bump tpm2sh version 0.16.19
          
