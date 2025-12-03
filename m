@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/wufan/ipe
-Date: Wed, 03 Dec 2025 03:49:52 -0000
-Message-Id: <176473379282.3703443.10486783730988275866@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ebiggers/linux
+Date: Wed, 03 Dec 2025 04:14:51 -0000
+Message-Id: <176473529110.3726101.10653398496585527663@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/wufan/ipe
-user: wufan
+repo: pub/scm/linux/kernel/git/ebiggers/linux
+user: ebiggers
 changes:
-  - ref: refs/heads/stable-6.19
-    old: 0000000000000000000000000000000000000000
-    new: d7ba853c0e47d57805181f5269ba250270d2adde
+  - ref: refs/heads/more-at-least-decorations-v1
+    old: da707520ed1dbaed0ef9666f7adfac8910423a1f
+    new: 0000000000000000000000000000000000000000
