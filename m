@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6653737628980370174=="
+Content-Type: multipart/mixed; boundary="===============3765132872957288612=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Wed, 03 Dec 2025 02:08:44 -0000
-Message-Id: <176472772414.3611046.7862125586567334759@gitolite.kernel.org>
+Date: Wed, 03 Dec 2025 02:09:20 -0000
+Message-Id: <176472776014.3611639.4001515033451814843@gitolite.kernel.org>
 
---===============6653737628980370174==
+--===============3765132872957288612==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,27 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
 user: jarkko
 changes:
-  - ref: refs/heads/next
-    old: e3469fdc333bdb78c0723f0215b409bccce8d658
-    new: a89c6f1c111922d50eb4d6cc36ed2276acc7b75b
-    log: revlist-e3469fdc333b-a89c6f1c1119.txt
+  - ref: refs/heads/tpm2-session
+    old: 80c67c80c1d91689414e023365c31fe2be520fc5
+    new: c13bfc3928138fd5f700090275af8c571f14cd0b
+    log: revlist-80c67c80c1d9-c13bfc392813.txt
 
---===============6653737628980370174==
+--===============3765132872957288612==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e3469fdc333b-a89c6f1c1119.txt
+Content-Disposition: attachment; filename=revlist-80c67c80c1d9-c13bfc392813.txt
 
-a040ab73dfd1bc8198848a438f77497d8d03fba9 objtool: Simplify reloc offset calculation in unwind_read_hints()
-48f1bbaf2655c8178249cf10f1a50fac0a72e467 objtool: Avoid emptying lists for duplicate sections
-56754f0f46f6a36ba66e8c1b2878f7a4f1edfe3b objtool: Rename --Werror to --werror
-2b91479776b66cd815e339d420abbf4ae047bfb2 objtool: Resurrect --backup option
-935c0b6a059106c09bf5cdb70f42c1a8650843af objtool: Reindent check_options[]
-a05de0a772ce423895a3b07504a9ed93ae75e912 objtool: Refactor add_jump_destinations()
-02cf323a7ee07621f47369c547ae7c7505a7312a objtool: Simplify special symbol handling in elf_update_symbol()
-dd2c29aafde7653839791d3073515b62e5df1f4d objtool: Generalize elf_create_symbol()
-243e96385368fc5e31da4e9927a201a27a2ae936 objtool: Generalize elf_create_section()
-431dbabf2d9dd27cd597a9d1d4611e7ae64bf8bd objtool: Add elf_create_data()
 2c05ca02621837af7cd8fab6ae7421b9cd5dff6e objtool: Add elf_create_reloc() and elf_init_reloc()
 03c19a99ee69f4680d7da11c164ac655b4946b99 objtool: Add elf_create_file()
 3b92486fa1a905cf4be81c0b65961f547fcf7be3 objtool: Add annotype() helper
@@ -1050,5 +1040,15 @@ fe74380bcdf7b55f4134da6ae8317bee09df2133 tpm_crb: add missing loc parameter to k
 8b312927d4d94429ff761052c929bf092b06c150 tpm: Cap the number of PCR banks
 2801dea1f6cac64266afff7b4b13d4ffe6a88ebe tpm: Use -EPERM as fallback error code in tpm_ret_to_err
 a89c6f1c111922d50eb4d6cc36ed2276acc7b75b KEYS: trusted: Use tpm_ret_to_err() in trusted_tpm2
+73f07ef01d4307aaaa070f1b4c2cc5170b84c8d4 tpm2-sessions: fix out of range indexing in name_size
+492ce73cc04d6ff1758f608a08656f0fafe9c227 tpm2-sessions: Fix tpm2_read_public range checks
+a900bd601b366c82d4fc87b2a743f912bb1ffd42 tpm2-sessions: Remove 'attributes' parameter from tpm_buf_append_auth
+830733807610afcd6f780276162701cc1f258614 tpm2-sessions: Open code tpm_buf_append_hmac_session()
+21624a032393e734ef5071d58b18b1c55b639566 KEYS: trusted: Replace a redundant instance of tpm2_hash_map
+4598bf7afb138d7992de7144cd001869c4de1f14 KEYS: trusted: Fix a memory leak in tpm2_load_cmd
+eb165d5ce769baf398b3116d38eb2a6cb074fa13 KEYS: trusted: Open code tpm2_buf_append()
+13f84af3ab41dcda410cda00d4773813243fca71 tpm-buf: Merge TPM_BUF_BOUNDARY_ERROR and TPM_BUF_OVERFLOW
+1c7218f088a5bb5717375b97a399d21fd798f362 tpm-buf: Remove chip parameter from tpm_buf_append_handle
+c13bfc3928138fd5f700090275af8c571f14cd0b tpm-buf: Enable managed and stack allocations.
 
---===============6653737628980370174==--
+--===============3765132872957288612==--
