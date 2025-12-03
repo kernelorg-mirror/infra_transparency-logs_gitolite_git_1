@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3582289403277587388=="
+Content-Type: multipart/mixed; boundary="===============8106772205892995921=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Wed, 03 Dec 2025 20:56:25 -0000
-Message-Id: <176479538543.636509.1976057644094611873@gitolite.kernel.org>
+Date: Wed, 03 Dec 2025 20:56:53 -0000
+Message-Id: <176479541320.636862.7441054064037038922@gitolite.kernel.org>
 
---===============3582289403277587388==
+--===============8106772205892995921==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
 user: jarkko
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/next
     old: a89c6f1c111922d50eb4d6cc36ed2276acc7b75b
     new: 09b71a58ee355ae09f302bd0875a29ffbcbbe3ac
     log: revlist-a89c6f1c1119-09b71a58ee35.txt
 
---===============3582289403277587388==
+--===============8106772205892995921==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -306,4 +306,4 @@ faf07e611dfa464b201223a7253e9dc5ee0f3c9e tpm: Cap the number of PCR banks
 7fcf459ac84c42a4ef63a650dccc345602cf4da6 tpm: Use -EPERM as fallback error code in tpm_ret_to_err
 09b71a58ee355ae09f302bd0875a29ffbcbbe3ac KEYS: trusted: Use tpm_ret_to_err() in trusted_tpm2
 
---===============3582289403277587388==--
+--===============8106772205892995921==--
