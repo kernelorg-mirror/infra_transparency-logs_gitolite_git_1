@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1951178277687325312=="
+Content-Type: multipart/mixed; boundary="===============5834041274880865374=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sudeep.holla/linux
-Date: Wed, 03 Dec 2025 15:48:08 -0000
-Message-Id: <176477688820.314206.10450178966653516792@gitolite.kernel.org>
+Date: Wed, 03 Dec 2025 15:48:14 -0000
+Message-Id: <176477689469.314389.9885398936576466125@gitolite.kernel.org>
 
---===============1951178277687325312==
+--===============5834041274880865374==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sudeep.holla/linux
 user: sudeep.holla
 changes:
-  - ref: refs/heads/for-next/ffa/updates
-    old: 17c22f2bd5ab91978b5a92164af4b366f6fa3d27
-    new: 31f14f6ca386bc553509a72789a4a0cf12ec5d36
-    log: revlist-17c22f2bd5ab-31f14f6ca386.txt
+  - ref: refs/heads/for-next/scmi/updates
+    old: 358a9faf89c0218128861613d63151715f3a53e6
+    new: 89de851e2eb3174bde27aefa10d399c9b0dd1186
+    log: revlist-358a9faf89c0-89de851e2eb3.txt
 
---===============1951178277687325312==
+--===============5834041274880865374==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-17c22f2bd5ab-31f14f6ca386.txt
+Content-Disposition: attachment; filename=revlist-358a9faf89c0-89de851e2eb3.txt
 
 109ff654934a4752f8875ded672efd1fbfe4d31d counter: microchip-tcb-capture: Allow shared IRQ for multi-channel TCBs
 ffc74ad539136ae9e16f7b5f2e4582e88018cd49 iio: adc: ad4030: Fix _scale value for common-mode channels
@@ -246,6 +246,7 @@ e6640487845061255af9614ec0a192e4fafa486e Merge tag 'spi-fix-v6.18-rc7' of git://
 6bda50f4333fa61c07f04f790fdd4e2c9f4ca610 Merge tag 'mips-fixes_6.18_2' of git://git.kernel.org/pub/scm/linux/kernel/git/mips/linux
 e69c7c175115c51c7f95394fc55425a395b3af59 Merge tag 'timers_urgent_for_v6.18_rc8' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 7d0a66e4bb9081d75c82ec4957c50034cb0ea449 Linux 6.18
-31f14f6ca386bc553509a72789a4a0cf12ec5d36 firmware: arm_ffa: Tie FF-A version checks to specific features
+8c06c7760df47631d0cbe3f79dfa6195b7ae109e firmware: arm_scmi: Move boiler plate code into the get info functions
+89de851e2eb3174bde27aefa10d399c9b0dd1186 firmware: arm_scmi: Fix uninitialized pointers with __free attr
 
---===============1951178277687325312==--
+--===============5834041274880865374==--
