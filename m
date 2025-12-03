@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/tpm2sh
-Date: Wed, 03 Dec 2025 18:59:38 -0000
-Message-Id: <176478837837.515329.6495511953779139041@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/andi.shyti/linux
+Date: Wed, 03 Dec 2025 19:01:46 -0000
+Message-Id: <176478850629.519019.17117300708377071875@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/tpm2sh
-user: jarkko
+repo: pub/scm/linux/kernel/git/andi.shyti/linux
+user: andi.shyti
 changes:
-  - ref: refs/heads/main
-    old: 9d6f543dcc7a46605a6b231f16351eec218cb03f
-    new: 784119df580244d4b1e262157043665ef2bc3fd3
+  - ref: refs/heads/i2c/i2c-host
+    old: 52e7bd34f05b3c8517654f6a3bba0ac540360e39
+    new: 3c9d9d607b85ebc1138f4a6f04606638164b1224
     log: |
-         784119df580244d4b1e262157043665ef2bc3fd3 fix(memory): use X509::from_der to detect certificate
+         3c9d9d607b85ebc1138f4a6f04606638164b1224 i2c: i801: Add support for Intel Nova Lake-S
          
