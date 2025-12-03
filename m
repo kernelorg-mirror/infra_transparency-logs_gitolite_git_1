@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8106772205892995921=="
+Content-Type: multipart/mixed; boundary="===============1975272142396596507=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Wed, 03 Dec 2025 20:56:53 -0000
-Message-Id: <176479541320.636862.7441054064037038922@gitolite.kernel.org>
+Date: Wed, 03 Dec 2025 21:01:29 -0000
+Message-Id: <176479568991.641989.7277800499186417654@gitolite.kernel.org>
 
---===============8106772205892995921==
+--===============1975272142396596507==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
 user: jarkko
 changes:
-  - ref: refs/heads/next
-    old: a89c6f1c111922d50eb4d6cc36ed2276acc7b75b
-    new: 09b71a58ee355ae09f302bd0875a29ffbcbbe3ac
-    log: revlist-a89c6f1c1119-09b71a58ee35.txt
+  - ref: refs/heads/tpm2-session
+    old: 317bc925e51624f5fb38c687deb30fce451bc1b0
+    new: 67f48cf0f39e38a7f6ee9fe75d75f1a18e7519fa
+    log: revlist-317bc925e516-67f48cf0f39e.txt
 
---===============8106772205892995921==
+--===============1975272142396596507==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a89c6f1c1119-09b71a58ee35.txt
+Content-Disposition: attachment; filename=revlist-317bc925e516-67f48cf0f39e.txt
 
 635a01da8385fc00a144ec24684100bd1aa9db11 smack: deduplicate "does access rule request transmutation"
 195da3ff244deff119c3f5244b464b2236ea1725 smack: fix bug: SMACK64TRANSMUTE set on non-directory
@@ -305,5 +305,15 @@ e68407b6b0c7c5a4b873bbbd0758a2aed857dc3f tpm: add WQ_PERCPU to alloc_workqueue u
 faf07e611dfa464b201223a7253e9dc5ee0f3c9e tpm: Cap the number of PCR banks
 7fcf459ac84c42a4ef63a650dccc345602cf4da6 tpm: Use -EPERM as fallback error code in tpm_ret_to_err
 09b71a58ee355ae09f302bd0875a29ffbcbbe3ac KEYS: trusted: Use tpm_ret_to_err() in trusted_tpm2
+0cd511b886f392ebc8caad2e801ac3e40eadecf8 tpm2-sessions: fix out of range indexing in name_size
+f7ffc29b035b88b82745bc1aaaf8307822fda412 tpm2-sessions: Fix tpm2_read_public range checks
+6de0ed2a48f17d96419c209fcf47c45b81869625 tpm2-sessions: Remove 'attributes' parameter from tpm_buf_append_auth
+26d68901d681d0ddea828feda3674f4a1fe97b44 tpm2-sessions: Open code tpm_buf_append_hmac_session()
+bb40faf448c4b6b1b2ce6068e179cb55db99dd19 tpm2-sessions: Export tpm2_read_public
+e292ad555e63e7defaa029fd72f9f128148d9f95 KEYS: trusted: Open code tpm2_buf_append()
+611ba1eee20f6320787a84ecc19c2cb0c16b290a KEYS: trusted: Move ASN.1 decoding to tpm2_unseal_trusted()
+177494f40da8b93e96ad201164c5d993a2e461b6 tpm-buf: Merge TPM_BUF_BOUNDARY_ERROR and TPM_BUF_OVERFLOW
+11e46c860fbcc38a6a12a28ad8e10f21b569f66c tpm-buf: Remove chip parameter from tpm_buf_append_handle
+67f48cf0f39e38a7f6ee9fe75d75f1a18e7519fa tpm-buf: Enable managed and stack allocations.
 
---===============8106772205892995921==--
+--===============1975272142396596507==--
