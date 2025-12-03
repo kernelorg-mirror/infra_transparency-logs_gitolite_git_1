@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/tpm2sh
-Date: Wed, 03 Dec 2025 20:44:04 -0000
-Message-Id: <176479464484.621445.16560774823250517637@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/andi.shyti/linux
+Date: Wed, 03 Dec 2025 20:45:58 -0000
+Message-Id: <176479475880.624838.1656371343172233903@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/tpm2sh
-user: jarkko
+repo: pub/scm/linux/kernel/git/andi.shyti/linux
+user: andi.shyti
 changes:
-  - ref: refs/tags/0.16.19
-    old: 0000000000000000000000000000000000000000
-    new: 5523e88bc6ba93098fb027be6b6a24ddb562dc1e
+  - ref: refs/heads/i2c/i2c-host
+    old: 3c9d9d607b85ebc1138f4a6f04606638164b1224
+    new: 848d1304fad9445222a4cec59695a16d17b3c16e
+    log: |
+         848d1304fad9445222a4cec59695a16d17b3c16e i2c: spacemit: fix detect issue
+         
