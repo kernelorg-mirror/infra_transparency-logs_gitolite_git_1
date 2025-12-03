@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/tpm2sh
-Date: Wed, 03 Dec 2025 15:53:42 -0000
-Message-Id: <176477722293.320641.2557208679924944092@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
+Date: Wed, 03 Dec 2025 15:55:11 -0000
+Message-Id: <176477731126.323815.6597324085839327085@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/tpm2sh
-user: jarkko
+repo: pub/scm/linux/kernel/git/cel/linux
+user: cel
 changes:
-  - ref: refs/heads/main
-    old: 3d12d75edf249c86fdc3f8668afd99bbcae0d63a
-    new: 8d7c74f5dbdf1b11fafea829e061cd359dd6e134
+  - ref: refs/heads/nfsd-testing
+    old: 003657aed4694e990a957953f9f19fe97c15689e
+    new: 43e72e884c97dc121e0e83d8312033e80bb5fc50
     log: |
-         8d7c74f5dbdf1b11fafea829e061cd359dd6e134 build: bump tpm-tpmkey version to 0.11.8
+         55a7d336f65d7e129e5fd66dec15f04b65af457c [DEBUG] Add instrumentation for nfsd_mutex contention debugging
+         43e72e884c97dc121e0e83d8312033e80bb5fc50 siw: Enable try_gso
          
