@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/axboe/liburing
-Date: Wed, 03 Dec 2025 20:33:31 -0000
-Message-Id: <176479401110.610631.17758373133599311247@gitolite.kernel.org>
+Date: Wed, 03 Dec 2025 20:34:32 -0000
+Message-Id: <176479407236.611516.16736391457593559231@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/axboe/liburing
 user: axboe
 changes:
   - ref: refs/heads/master
-    old: 947615cf0cdff828cd99aeda781c3380da665495
-    new: d492e5e2997e330f15e425c749f1760099c728b5
+    old: d492e5e2997e330f15e425c749f1760099c728b5
+    new: c533cfee6474d219dd94ddf25442e40df2e9f9d2
     log: |
-         d492e5e2997e330f15e425c749f1760099c728b5 test/bind-listen: fix spelling typo
+         c533cfee6474d219dd94ddf25442e40df2e9f9d2 Add io_uring_prep_cmd_getsockname to ffi map
          
