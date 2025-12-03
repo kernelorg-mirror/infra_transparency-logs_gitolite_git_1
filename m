@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jarkko/tpm2-tpmkey
-Date: Wed, 03 Dec 2025 15:51:58 -0000
-Message-Id: <176477711871.319183.11349512510433208382@gitolite.kernel.org>
+Date: Wed, 03 Dec 2025 15:52:41 -0000
+Message-Id: <176477716161.319708.4925054489170352280@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/jarkko/tpm2-tpmkey
 user: jarkko
 changes:
   - ref: refs/heads/main
-    old: e8091b623865b942ba72138af9889cb000f29ab1
-    new: 7e448aa9218fc6eed5d9423542111bd3dce6eb79
+    old: 7e448aa9218fc6eed5d9423542111bd3dce6eb79
+    new: 221db303a993e3306a8f3ae530a4dc699daf4c01
     log: |
-         7e448aa9218fc6eed5d9423542111bd3dce6eb79 feat: allow keyedhash for loadable and importable keys
+         221db303a993e3306a8f3ae530a4dc699daf4c01 chore: bump version to 0.11.8
          
