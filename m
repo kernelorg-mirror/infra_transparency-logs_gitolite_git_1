@@ -1,53 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============3829761635377083461=="
+Content-Type: multipart/mixed; boundary="===============3592870757722136530=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vireshk/linux
-Date: Wed, 03 Dec 2025 06:32:58 -0000
-Message-Id: <176474357849.3856306.14135485164381269232@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
+Date: Wed, 03 Dec 2025 06:53:19 -0000
+Message-Id: <176474479900.3874781.5575753720156239361@gitolite.kernel.org>
 
---===============3829761635377083461==
+--===============3592870757722136530==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vireshk/linux
-user: vireshk
+repo: pub/scm/linux/kernel/git/mkp/scsi
+user: mkp
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/virtio/msg
-    old: fb9356b39d5d664256179e3f80bebb6354f77ba1
-    new: 089df70815b207bff6abdf7007ba7cd2c371a65b
+  - ref: refs/tags/mkp-scsi-staging
+    old: f5989facef2e969969e20d112fc133c63fb9aa13
+    new: 86b9e5fd9cd9683de77f7e569431b5ba54988e85
     log: |
-         a0fb047144e6b10f33f8574061ce9a99fb4f8781 virtio-msg: Add FF-A bus transport implementation
-         881de908087a18f7a923a7b82ced485d31c289c3 virtio-msg: Add loopback bus for testing
-         c0d7e3705801c445a5eb9e3c27110bcad6a66109 virtio-msg: ffa: Add DMA ops and memory sharing support
-         bf8a9f2892560d8470d3f4104f0eec8315fca2c2 virtio-msg: ffa: Add DMA-heap allocator
-         7915259c225a920eda79a738674b4a69cedc3572 virtio-msg: ffa: Poll events when indirect messages are unsupported
-         089df70815b207bff6abdf7007ba7cd2c371a65b vsock: Add shared-memory support for virtio and loopback
+         d98b4d52bff02d15ea73b1790d7610a2f4f023ab scsi: ufs: core: Fix RPMB link error by reversing Kconfig dependencies
+         278712d20bc8ec29d1ad6ef9bdae9000ef2c220c scsi: Revert "scsi: libsas: Fix exp-attached device scan after probe failure scanned in again after probe failed"
          
-  - ref: refs/heads/virtio/msg-xen
-    old: dfff8a85dab8eb70bb63e757fb8fbfccf7a57293
-    new: a368792f2d0996dbb58c8ba2ccc66005e26982e1
-    log: revlist-dfff8a85dab8-a368792f2d09.txt
 
---===============3829761635377083461==
+--===============3592870757722136530==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-dfff8a85dab8-a368792f2d09.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-a0fb047144e6b10f33f8574061ce9a99fb4f8781 virtio-msg: Add FF-A bus transport implementation
-881de908087a18f7a923a7b82ced485d31c289c3 virtio-msg: Add loopback bus for testing
-c0d7e3705801c445a5eb9e3c27110bcad6a66109 virtio-msg: ffa: Add DMA ops and memory sharing support
-bf8a9f2892560d8470d3f4104f0eec8315fca2c2 virtio-msg: ffa: Add DMA-heap allocator
-7915259c225a920eda79a738674b4a69cedc3572 virtio-msg: ffa: Poll events when indirect messages are unsupported
-089df70815b207bff6abdf7007ba7cd2c371a65b vsock: Add shared-memory support for virtio and loopback
-6618c6d9e759ab3eca4b90693cf5ef2728dfc031 virtio-msg: ffa: Add passive-mode host support
-dbc9d667acc04c9b78f35d9aa3d3269b731fed0e DNU: firmware: arm_ffa: Keep host driver alive until guests enumerate
-8a2869a261ce163a30d4896305f07a00009c7295 DNU: firmware: arm_ffa: Force-match virtio-msg-ffa UUID
-995ac38b01fb97d033a9d412a43ac3aeb6cfc9bf DNU: defconfig: arm64: Reset to baseline
-6cd25ca83ac6cd993af3d6abb5ec17eaecf4bd45 DNU: defconfig: arm64/x86_64: Enable virtio-msg and qemu/xen options
-a368792f2d0996dbb58c8ba2ccc66005e26982e1 DNU: defconfig: arm64: Enable built-in initramfs for guest testing
+certificate version 0.1
+pusher 75C5DE3D 1764744742 -0500
+pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
+nonce 1764744742-1bb16252191549ab2710828b88944c1069717649
 
---===============3829761635377083461==--
+f5989facef2e969969e20d112fc133c63fb9aa13 86b9e5fd9cd9683de77f7e569431b5ba54988e85 refs/tags/mkp-scsi-staging
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmkv3iYACgkQ7ulgGnXF
+3j1T9A//SWvaktMSE12DHVvf+78qgPDEaIXUf2KTF0J44pXf7fnbM8nT6+cyYF4I
+TN1ip+VoCF4uv+wvAAzwewOZ7boowZbCYy2qoFvwUBf5jgGYyZ64cfs5QlwF45xM
+VlsubwYFIYqmo1qNY/xf5Zgwix8c1IKwUe9CtS4bYa6djbJLxGqAuMbwv6UpO4z8
+6l0qadSLUy8pO2Pr2Vs7qxivs4kYRAZvzK2fH/KRKRPqoVl7U9aGFNsyR/GcRVX1
+01VXraDerzmAaE82hr3fUKj4hqyZEIauM6YywS25JlVOmdIrboRmTETe56zWvpF2
+kGqattSmYj8J0CZazTPDbfxXVswwoKZgO4quv+82jBOwGfHoES5TUG+UxkWoZiwB
+am2vJRmGq84ww09BuLj9Vf9U5y5K4VcQaL4Ff22V8BodMzk+xFkCml4YqnyfxYWf
+XkF7W6m5TWV5BNoIO1Q01zO2ilSwOPjtDYyR+ChfdH9m+mDj5L5KmQ3Eu3c9o91v
+sK+u3HOzsZryFy3mIFhZqNYgVdZxunj0O4h+bp9/ME6mIXP195o64XmPNsgDrE+m
+oiBWxGZQEz6lfj3Gy+YDQXXBagsffC93nV8JCRZABsNv72AVFTH04av3W4JfCL2p
+15U10sZOq/xOnIeqQgwzW23gM2wo+06fVofCY5rWdQSj8D2Argo=
+=yk++
+-----END PGP SIGNATURE-----
+
+--===============3592870757722136530==--
