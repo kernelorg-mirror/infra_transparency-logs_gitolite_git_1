@@ -1,20 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Wed, 03 Dec 2025 15:55:11 -0000
-Message-Id: <176477731126.323815.6597324085839327085@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/thomas.weissschuh/linux
+Date: Wed, 03 Dec 2025 16:04:40 -0000
+Message-Id: <176477788075.331224.1859493083106197368@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/cel/linux
-user: cel
+repo: pub/scm/linux/kernel/git/thomas.weissschuh/linux
+user: thomas.weissschuh
 changes:
-  - ref: refs/heads/nfsd-testing
-    old: 003657aed4694e990a957953f9f19fe97c15689e
-    new: 43e72e884c97dc121e0e83d8312033e80bb5fc50
-    log: |
-         55a7d336f65d7e129e5fd66dec15f04b65af457c [DEBUG] Add instrumentation for nfsd_mutex contention debugging
-         43e72e884c97dc121e0e83d8312033e80bb5fc50 siw: Enable try_gso
-         
+  - ref: refs/heads/b4/uapi-nostdinc
+    old: 0000000000000000000000000000000000000000
+    new: 31a040462afbf415cb6ae55dab41da03fba9aa38
