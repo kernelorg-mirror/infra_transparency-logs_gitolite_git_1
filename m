@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Wed, 03 Dec 2025 16:50:33 -0000
-Message-Id: <176478063329.383958.14169314994674177629@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Wed, 03 Dec 2025 16:50:38 -0000
+Message-Id: <176478063880.384122.3459046508062894749@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: mingo
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/master
-    old: e67f0080d00219b54e4c4c4285c5881b32556410
-    new: eccc2e0a06586a4ee9dffc4a3d618a50c2b531f6
-    log: |
-         f85fd15b0da76f08e2d5bb4179c54993f7e07853 sched/fair: Clear ->h_load_next when unregistering a cgroup
-         eccc2e0a06586a4ee9dffc4a3d618a50c2b531f6 Merge branch into tip/master: 'sched/urgent'
-         
+  - ref: refs/heads/20251201_johan_asoc_codecs_wcd93xx_fix_of_node_leaks_on_probe_failure
+    old: 0000000000000000000000000000000000000000
+    new: 3ef4d9ede20db39bff34a559b04a1938fb31251e
+  - ref: refs/heads/filefQDXsx
+    old: 0000000000000000000000000000000000000000
+    new: 39191ce5dbfd65fededb4f0d408d6232c45766ba
