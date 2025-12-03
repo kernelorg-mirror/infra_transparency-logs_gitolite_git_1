@@ -1,21 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Wed, 03 Dec 2025 14:39:28 -0000
-Message-Id: <176477276811.238956.2334355405340337871@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux
+Date: Wed, 03 Dec 2025 14:40:46 -0000
+Message-Id: <176477284677.242179.5901558560727625411@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/cel/linux
-user: cel
+repo: pub/scm/linux/kernel/git/axboe/linux
+user: axboe
 changes:
-  - ref: refs/heads/nfsd-next
-    old: fa8d4e6784d1b6a6eaa3911bac993181631d2856
-    new: df8c841dd92a7f262ad4fa649aa493b181e02812
+  - ref: refs/heads/for-next
+    old: 6d8cc6cb89f46fa5c01f5d3d10583af6f8d9ac02
+    new: 88fa91e52587dce2e6bc56fd2ad7a16ecb6b656e
     log: |
-         21478b6ecaa443ee5a89ae744559583ffbe50f30 NFSD: Add toctree entry for NFSD IO modes docs
-         4fcf9952fb3137c64e32edb5fcd03da6febe4724 NFSD: nfsd-io-modes: Wrap shell snippets in literal code blocks
-         df8c841dd92a7f262ad4fa649aa493b181e02812 NFSD: nfsd-io-modes: Separate lists
+         fbed4becad2b57309f5db3cfed39d2abb1190dbf Merge branch 'for-6.19/block' into for-next
+         88fa91e52587dce2e6bc56fd2ad7a16ecb6b656e Merge branch 'io_uring-6.19' into for-next
          
