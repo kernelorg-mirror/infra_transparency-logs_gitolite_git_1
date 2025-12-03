@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Wed, 03 Dec 2025 16:09:00 -0000
-Message-Id: <176477814096.337848.396377584274643074@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/tpm2sh
+Date: Wed, 03 Dec 2025 16:11:24 -0000
+Message-Id: <176477828438.341723.10326646591433857561@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/jarkko/tpm2sh
+user: jarkko
 changes:
-  - ref: refs/heads/20251201_johan_asoc_codecs_wcd93xx_fix_of_node_leaks_on_probe_failure
-    old: 3ef4d9ede20db39bff34a559b04a1938fb31251e
-    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/main
+    old: ef67e71c6e2711152f188c80871148695141aa7c
+    new: c38e8c39e3a55ddc500f287cf727b72427c65fb4
+    log: |
+         c38e8c39e3a55ddc500f287cf727b72427c65fb4 tests: complete create_keyedhash_hmac test
+         
