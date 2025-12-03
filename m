@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6024396777054119896=="
+Content-Type: multipart/mixed; boundary="===============9053073042220684186=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/andi.shyti/linux
-Date: Wed, 03 Dec 2025 16:49:47 -0000
-Message-Id: <176478058716.380421.5028483076418728281@gitolite.kernel.org>
+Date: Wed, 03 Dec 2025 16:49:49 -0000
+Message-Id: <176478058955.380508.16016634214023956322@gitolite.kernel.org>
 
---===============6024396777054119896==
+--===============9053073042220684186==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,33 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/andi.shyti/linux
 user: andi.shyti
 changes:
-  - ref: refs/heads/i2c/i2c-host-fixes
-    old: 8738d626030fa518b5fbca42b8d23455e7ec5dce
-    new: de05b99c2874078fe73a9fb86046fcf78c98b046
-    log: revlist-8738d626030f-de05b99c2874.txt
+  - ref: refs/heads/i2c/i2c-host-next
+    old: 8341b185115bc7bc84a75c761c0bc355236d4809
+    new: d2a7efc63e92bc5dafccf35af6d0441b66ab7a72
+    log: revlist-8341b185115b-d2a7efc63e92.txt
 
---===============6024396777054119896==
+--===============9053073042220684186==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8738d626030f-de05b99c2874.txt
+Content-Disposition: attachment; filename=revlist-8341b185115b-d2a7efc63e92.txt
 
-3d8d35bf8dc8893e34d92212d413d7cfd89c560e Merge tag 'drm-msm-fixes-2025-10-29' of https://gitlab.freedesktop.org/drm/msm into drm-fixes
-e28e383da32a6396e37c3f68964dc92eb9b6f0ed Merge tag 'drm-intel-fixes-2025-10-30' of https://gitlab.freedesktop.org/drm/i915/kernel into drm-fixes
-b095398586181010d3cfad4ec2cea723f2c1d582 Merge tag 'drm-misc-fixes-2025-10-30' of https://gitlab.freedesktop.org/drm/misc/kernel into drm-fixes
-41dacb39fe79cd2fce42d31fa6658d926489a548 Merge tag 'drm-xe-fixes-2025-10-30' of https://gitlab.freedesktop.org/drm/xe/kernel into drm-fixes
-14a7f2392f42bbb71c1a5ea68930006221fcd80a bpf: Make migrate_disable always inline to avoid partial inlining
-be708ed300e1ebd32978b4092b909f0d9be0958f bpf/arm64: Fix BPF_ST into arena memory
-b7904323e76b074c59f113ca423e76d90da26875 Merge tag 'wireless-2025-10-30' of https://git.kernel.org/pub/scm/linux/kernel/git/wireless/wireless
-284987ab6c974c338e54852abcfaf2ed69b852d3 Merge tag 'for-net-2025-10-31' of git://git.kernel.org/pub/scm/linux/kernel/git/bluetooth/bluetooth
-b4f7f01ea14fe3654a0f7b7152ded7c15acd5e5f Merge tag 's390-6.18-3' of git://git.kernel.org/pub/scm/linux/kernel/git/s390/linux
-a5beb58e53092f77b89181bec9d30c8bdced3103 Merge tag 'block-6.18-20251031' of git://git.kernel.org/pub/scm/linux/kernel/git/axboe/linux
-057f1652feb9be78587dae53866371e7fcce81e9 Revert "PCI: qcom: Remove custom ASPM enablement code"
-437aa64c8e32b724fc6d60100ef0eb313d32c88f PCI: Do not size non-existing prefetchable window
-39bcf0f7d415fee440d2eba877b9b618cbd6d824 Merge tag 'vfio-v6.18-rc4' of https://github.com/awilliam/linux-vfio
-f414f9fd68797182f8de4e1cd9855b6b28abde99 Merge tag 'pci-v6.18-fixes-4' of git://git.kernel.org/pub/scm/linux/kernel/git/pci/pci
-ec0b62ccc986c06552c57f54116171cfd186ef92 Merge tag 'drm-fixes-2025-10-31' of https://gitlab.freedesktop.org/drm/kernel
-9b041a4b66b3b62c30251e700b5688324cf66625 x86/mm: Ensure clear_page() variants always have __kcfi_typeid_ symbols
 08d70143e3033d267507deb98a5fd187df3e6640 arm64: dts: rockchip: include rk3399-base instead of rk3399 in rk3399-op1
 03c7e964a02e388ee168c804add7404eda23908c arm64: dts: rockchip: Fix vccio4-supply on rk3566-pinetab2
 6ab753b5d8e521616cd9bd10b09891cbeb7e0235 gve: Implement gettimex64 with -EOPNOTSUPP
@@ -1049,6 +1033,22 @@ e6640487845061255af9614ec0a192e4fafa486e Merge tag 'spi-fix-v6.18-rc7' of git://
 6bda50f4333fa61c07f04f790fdd4e2c9f4ca610 Merge tag 'mips-fixes_6.18_2' of git://git.kernel.org/pub/scm/linux/kernel/git/mips/linux
 e69c7c175115c51c7f95394fc55425a395b3af59 Merge tag 'timers_urgent_for_v6.18_rc8' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 7d0a66e4bb9081d75c82ec4957c50034cb0ea449 Linux 6.18
+e2a6d80beb3482006e37e568ed0575d60a245a48 i2c: designware: Remove i2c_dw_remove_lock_support()
+c3a82a0b57fe06ae927f5d1129154badc2c07e0c i2c: busses: bcm2835: convert from round_rate() to determine_rate()
+a8feeea2fde4f699d4bd03996e974c5a6f861a92 i2c: pcf8584: Remove debug macros from i2c-algo-pcf.c
+269c1e1979a4737fe401011ec27617ddd7faba38 i2c: pcf8584: Fix do not use assignment inside if conditional
+69b444561082bf6b12363ddd33cfbd446333e6b5 i2c: designware: Omit a variable reassignment in dw_i2c_plat_probe()
+68a871c49c938c5f354668d8436d8441ea110007 i2c: stm32: Omit two variable reassignments in stm32_i2c_dma_request()
+78884f9344c33f8bd136c2ac9c1f2b7156d803a4 i2c: i801: Add support for Intel Diamond Rapids
+bd061ff1f4bab3334950b4cbb71aefef8be56ff3 dt-bindings: i2c: i2c-rk3x: Add compatible string for RK3506
+0ff80c1047df1b98f242290e18fd199fd28d445a i2c: designware: Disable SMBus interrupts to prevent storms from mis-configured firmware
+60f59d3c96a5d8f2a0aee5b005362991be5fd913 i2c: pcf8584: Move 'ret' variable inside for loop, goto out if ret < 0.
+6917f55a2245eab2e0dda8576e598f0bd16dda48 i2c: pcf8584: Make pcf_doAddress() function void
+6654d0147ec4621d99f342d998c67e0f257551d0 i2c: pcf8584: Change pcf_doAdress() to pcf_send_address()
+c361f477467234eeff116ba8b1511df6eb5d0ea4 i2c: i801: Fix the Intel Diamond Rapids features
+698ac478637fa73b3322c3ebf8b15f0f3f29ae3c dt-bindings: i2c: qcom-cci: Document msm8953 compatible
+4dee29b2f28571d78033c1ea10f259ceb275f65f dt-bindings: i2c: qcom-cci: Document Kaanapali compatible
 de05b99c2874078fe73a9fb86046fcf78c98b046 i2c: fix reference leak in MP2 PCI device
+d2a7efc63e92bc5dafccf35af6d0441b66ab7a72 Merge branch 'i2c/i2c-host' into i2c/i2c-host-next
 
---===============6024396777054119896==--
+--===============9053073042220684186==--
