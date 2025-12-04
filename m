@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4814312066288583776=="
+Content-Type: multipart/mixed; boundary="===============1177586380296461379=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Thu, 04 Dec 2025 16:11:35 -0000
-Message-Id: <176486469577.1792979.16906747552646073386@gitolite.kernel.org>
+Date: Thu, 04 Dec 2025 16:12:31 -0000
+Message-Id: <176486475123.1793583.16358601117493916439@gitolite.kernel.org>
 
---===============4814312066288583776==
+--===============1177586380296461379==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,47 +16,71 @@ repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/class_cleanup
-    old: f9c0f8455913b161a968db82b3a05df0ee992e12
-    new: 663134644f9208f834d9ecd7b3771a8705abf8de
-    log: revlist-f9c0f8455913-663134644f92.txt
+  - ref: refs/heads/container_of_const_mess
+    old: f273fd06ab871ae2842dc41679c87b3e4e173186
+    new: 59d517c571b666305922e7c56c88976e51a1b137
+    log: revlist-f273fd06ab87-59d517c571b6.txt
 
---===============4814312066288583776==
+--===============1177586380296461379==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1764864690 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1764864747 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1764864688-161219095f3b43b9b557aac09947b7ab0f5211d5
+nonce 1764864745-9de61c99a143c6f35e0e2dc035f87a0c7e199932
 
-f9c0f8455913b161a968db82b3a05df0ee992e12 663134644f9208f834d9ecd7b3771a8705abf8de refs/heads/class_cleanup
+f273fd06ab871ae2842dc41679c87b3e4e173186 59d517c571b666305922e7c56c88976e51a1b137 refs/heads/container_of_const_mess
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmkxsrIbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+6o0P/jpWOdV94aELK/QBcIDP
-frjEBQGZvzTuhA4UxvDna2u0J+S9KFoBbPG+MDzwSAkuom0OwCTAVDmNygqJSlRV
-CdmZXkKYoo9ivSCw/CPL84iAOcOFU9Hzg5rDA4Fy0kdn6m4GypMuaLC9bSlRnewX
-yOls1dJOhmGZvG5A4qTynsYhVz9rWia5UjV3AfG9KvHDPflIGhI9JuHeXZuTqB2/
-WV9PNChYw9mpv+cuRHfzfdL0DxRbh/FhzvxyfroxtrggVCY2FSuzIzLyVdSqpOBn
-aghwRc6p7bbY2E9xmm9A0eX9fmz/btwDUxOVxjrTZdFds9tUZo3W7b5wJfTGTp1K
-OpTMKZq+Yavzv0RACk5tnnvW92iiBN/UBK4VknvwyvWfz24X/XSMgv1ALkDFGEVP
-MxTa1pCubPF0o/kp2h+B2M9qb2KJgNENlEzUdPXipdNu75Oed0R4MPfRrAyvCRus
-NEYrTFBZSGRPiI1be7aCT8eajXxp1TmMhNWv2daE/RjnXeRc8wHYghW3vf3CPMbH
-mwtXLzcpoWjHGc3WcwU36TYFWzYsF237Cxej0WRfVhfvTcPNu1AzPBvtih/4jYh8
-SEOjYFv453a+v9Kfv0y3dF9zzL7eTouloVpkzNOHtQ+yzqfqm8HongBNyGTVEC6y
-hHLQQocYiMOXIvqBeGhtgtN2
-=stIF
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmkxsusbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+QSYQAM0wr+QIWJfoL4rKL9nx
+REXBRzMrlX61Ko9CDpbvayIzxuesEQcDbXtNRI8tmrGJ4s6q9Hfar+TCZrWhjMvX
+6bHSf4VEziRzIyHJxaQ85WKBl9e0FnoOBMm/+yTSkLnyavKlCt4IjHG5RuJ/gnz7
+ThEJV6rLnxaTDGc8Nnv9KjYmIl1Wg9A4mI0fEyE9cnbonsEOt8RgkjN6oNgq2r9i
+zU+9My8qzu59UITveOM7zw53DSDfcO9rrGmEMsZZIHh71TU5j/D42PidtDnyy80q
+FiDijN50Xn2o7vs40MFJnAVkMoGslApLdAMBPnUMjYjkKuF88Z5Uux9vBDrMUL+c
+yRf6Z6aKxhp+X2kkkwVK9OnOlIt5yT5DjdBtJ3TcY+y0le1IGQecG5lHF3nJ8j5+
+ncWe2MhiuLl/UrKopc7FelcejAtsd0/hzsAJOp+vgnRRwN+LJWMnb4a9h2Z5VKdz
+1Mm4xuljTozopG6XObglF9pt8jXnXJerf8xgVZxNjcDXglzNlyyR5PgJeD8vrPQp
+JUo2TZXzOf4WPwzKz4kByfTsmB47Sh+BUc6rDJz1w+UW7PRqIJUJUM55vq8OOf+h
+T2YvzuDq+ySblElhogJng4PJ0QIMedkWTt48lXs4jT1CH3rvmrIrTjIAR+wLeRnX
+5ZZ4c+UBBAZJVSsWRfw6Lhtv
+=MWvr
 -----END PGP SIGNATURE-----
 
---===============4814312066288583776==
+--===============1177586380296461379==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f9c0f8455913-663134644f92.txt
+Content-Disposition: attachment; filename=revlist-f273fd06ab87-59d517c571b6.txt
 
+e28e383da32a6396e37c3f68964dc92eb9b6f0ed Merge tag 'drm-intel-fixes-2025-10-30' of https://gitlab.freedesktop.org/drm/i915/kernel into drm-fixes
+b095398586181010d3cfad4ec2cea723f2c1d582 Merge tag 'drm-misc-fixes-2025-10-30' of https://gitlab.freedesktop.org/drm/misc/kernel into drm-fixes
+41dacb39fe79cd2fce42d31fa6658d926489a548 Merge tag 'drm-xe-fixes-2025-10-30' of https://gitlab.freedesktop.org/drm/xe/kernel into drm-fixes
+14a7f2392f42bbb71c1a5ea68930006221fcd80a bpf: Make migrate_disable always inline to avoid partial inlining
+be708ed300e1ebd32978b4092b909f0d9be0958f bpf/arm64: Fix BPF_ST into arena memory
+b7904323e76b074c59f113ca423e76d90da26875 Merge tag 'wireless-2025-10-30' of https://git.kernel.org/pub/scm/linux/kernel/git/wireless/wireless
+284987ab6c974c338e54852abcfaf2ed69b852d3 Merge tag 'for-net-2025-10-31' of git://git.kernel.org/pub/scm/linux/kernel/git/bluetooth/bluetooth
+b4f7f01ea14fe3654a0f7b7152ded7c15acd5e5f Merge tag 's390-6.18-3' of git://git.kernel.org/pub/scm/linux/kernel/git/s390/linux
+a5beb58e53092f77b89181bec9d30c8bdced3103 Merge tag 'block-6.18-20251031' of git://git.kernel.org/pub/scm/linux/kernel/git/axboe/linux
+057f1652feb9be78587dae53866371e7fcce81e9 Revert "PCI: qcom: Remove custom ASPM enablement code"
+437aa64c8e32b724fc6d60100ef0eb313d32c88f PCI: Do not size non-existing prefetchable window
+39bcf0f7d415fee440d2eba877b9b618cbd6d824 Merge tag 'vfio-v6.18-rc4' of https://github.com/awilliam/linux-vfio
+f414f9fd68797182f8de4e1cd9855b6b28abde99 Merge tag 'pci-v6.18-fixes-4' of git://git.kernel.org/pub/scm/linux/kernel/git/pci/pci
+ec0b62ccc986c06552c57f54116171cfd186ef92 Merge tag 'drm-fixes-2025-10-31' of https://gitlab.freedesktop.org/drm/kernel
+9b041a4b66b3b62c30251e700b5688324cf66625 x86/mm: Ensure clear_page() variants always have __kcfi_typeid_ symbols
+08d70143e3033d267507deb98a5fd187df3e6640 arm64: dts: rockchip: include rk3399-base instead of rk3399 in rk3399-op1
+03c7e964a02e388ee168c804add7404eda23908c arm64: dts: rockchip: Fix vccio4-supply on rk3566-pinetab2
+6ab753b5d8e521616cd9bd10b09891cbeb7e0235 gve: Implement gettimex64 with -EOPNOTSUPP
+329d050bbe63c2999f657cf2d3855be11a473745 gve: Implement settime64 with -EOPNOTSUPP
+01534d73c58b3d03ae487836958fa8cb25fb77bb Merge branch 'gve-fix-null-dereferencing-with-ptp-clock'
+5a89b27afd3d010680f9355f7ff5b048cfe89333 ptp: Allow exposing cycles only for clocks with free-running counter
+3d18a84eddde169d6dbf3c72cc5358b988c347d0 net: dsa: tag_brcm: legacy: fix untagged rx on unbridged ports for bcm63xx
+02d064de05b1fcca769391fa82d205bed8bb9bf0 selftests/net: fix out-of-order delivery of FIN in gro:tcp test
+f8e8486702abb05b8c734093aab1606af0eac068 selftests/net: use destination options instead of hop-by-hop
 3f978e3f1570155a1327ffa25f60968bc7b9398f isdn: mISDN: hfcsusb: fix memory leak in hfcsusb_probe()
 d01f8136d46b925798abcf86b35a4021e4cfb8bb selftests: netdevsim: Fix ethtool-coalesce.sh fail by installing ethtool-common.sh
 c211f5d7cbd5cb34489d526648bb9c8ecc907dee net: vlan: sync VLAN features with lower device
@@ -1055,31 +1079,7 @@ e6640487845061255af9614ec0a192e4fafa486e Merge tag 'spi-fix-v6.18-rc7' of git://
 6bda50f4333fa61c07f04f790fdd4e2c9f4ca610 Merge tag 'mips-fixes_6.18_2' of git://git.kernel.org/pub/scm/linux/kernel/git/mips/linux
 e69c7c175115c51c7f95394fc55425a395b3af59 Merge tag 'timers_urgent_for_v6.18_rc8' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 7d0a66e4bb9081d75c82ec4957c50034cb0ea449 Linux 6.18
-7ad60187a78fa691a5ebeada2b0ac966f02faf2a powerpc: cell: make spu_subsys const
-733bb77c9fc2858c547e72aaf671f0edbaca5efb powerpc: ps3: make ps3_system_bus_type const
-cfce1da1c6d00ed1f7663edb8b3c7e66004af54f powerpc: pseries: make cmm_subsys const
-6f6171ac91205141c0ea07c7be2fac683ac2b18c powerpc: pseries: make suspend_subsys const
-e58bd3848a3a8a5d11b9b2b4cbd080c4786efc74 drm/dp: make drm_dp_aux_dev_class constant
-c246cfd2a895d7d1d31ab46bbc3272d33621c9c4 drm/sysfs: make drm_class constant
-c8a533232808e2877363629b765dc933ed40d7e4 drm/fbdev/core: make fb_class constant
-4b7dc062eeda087cbe06add2c23c2c61be65fba7 dma-buf: heaps: make dma_heap_class constant
-530bd656e6c60b82ced96099bbdb79fb7f2a353a media: dvbdev: make dvb_class constant
-5baefd0fcfa74eeb447fc84ac66a9885de30e138 drm/dp: constify the struct device_type usage
-740b6781c4d856e5c614b75c040b08fb3e926595 drm/privacy_screen: constify the struct device_type usage
-89196e0dfa943d0be135069acaec1d6ca20d0e2c drm/sysfs: constify the struct device_type usage
-ec68aef4dbf2952fc16c21e00ef9528912c83d5b ARM: sa1111: make sa1111_bus_type const
-5a089ae39a796c641ac68644de95812a8075d8b3 bus: mhi: ep: make mhi_ep_bus_type const
-a9eebd7aef616e67949d7795b7e1c1974acab80c rapidio: make rio_mport_class constant
-8322a28ab66ce3cf493464f344f6c74e4a0d8afa intel_th: make intel_th_bus const
-657c26104233a7d902f685effbb05dd1f443801f EISA: make eisa_bus_type const
-2644be734845d414d09d78763e6ba3e6ce16d13e parport: constify the struct device_type usage
-41013d709e16e389e982b24602e45c2a88cccb65 coda: psdev: make coda_psdev_class a static const structure
-aa06517746a9d0e5f3f384c273291d8cd612a341 cuse: make cuse_class a static const structure
-3c8eef62244fb17771a547b7fba614cc7803f7ba pstore: pmsg: make pmsg_class a static const structure
-daaabbb71243d97c3164c84ab56af0bae1aa8d3c netfilter:xt_IDLETIMER: make idletimer_tg_class a static const structure
-9d71b950163e30778d0008b9a38f171d1ec6986b PM: wakeup: make wakeup_class a static const structure
-38a85f3ce3e05cd84d3854f420fdd907be0108d6 gnss: make gnss_class a static const structure
-b5d036ee43492856c139caadaff0403665fe9784 extcon: make extcon_class a static const structure
-663134644f9208f834d9ecd7b3771a8705abf8de misc: c2port: core: make c2port_class a static const structure
+c9a0a8114ef3ed2512bc8742837d0ec14565629b container_of: switch to be a const call
+59d517c571b666305922e7c56c88976e51a1b137 generic: fix up some const issues.
 
---===============4814312066288583776==--
+--===============1177586380296461379==--
