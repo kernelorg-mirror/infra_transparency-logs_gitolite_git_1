@@ -1,1054 +1,1047 @@
-Content-Type: multipart/mixed; boundary="===============4786921346136674120=="
+Content-Type: multipart/mixed; boundary="===============6987538149541495875=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sudeep.holla/linux
-Date: Thu, 04 Dec 2025 11:46:31 -0000
-Message-Id: <176484879136.1487004.16509231508299889974@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/security/vulns
+Date: Thu, 04 Dec 2025 11:48:12 -0000
+Message-Id: <176484889262.1487861.4225511783945539090@gitolite.kernel.org>
 
---===============4786921346136674120==
+--===============6987538149541495875==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sudeep.holla/linux
-user: sudeep.holla
+repo: pub/scm/linux/security/vulns
+user: sashal
 changes:
-  - ref: refs/heads/pcc_updates
-    old: 2ac230e57520a9afcca8864d1e5e11b224790422
-    new: 39db9e78682ebc3ed5ae7f5ab17c11b3c3351a29
-    log: revlist-2ac230e57520-39db9e78682e.txt
+  - ref: refs/heads/sasha-cve
+    old: 33d2acf8d6bda7485b0120fbc7d2fc5c0779e23d
+    new: d6ac2062a7737a1ca9d4b7abef87bd3554e87db2
+    log: revlist-33d2acf8d6bd-d6ac2062a773.txt
 
---===============4786921346136674120==
+--===============6987538149541495875==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2ac230e57520-39db9e78682e.txt
+Content-Disposition: attachment; filename=revlist-33d2acf8d6bd-d6ac2062a773.txt
 
-6b1ac78dd0f29fe66421c460c12ec15e45af38c3 btrfs: implement shutdown ioctl
-803e115657dd145fcf2b6481c6d224ecc270ed0e btrfs: implement remove_bdev and shutdown super operation callbacks
-18de34daa7c62c830be533aace6b7c271e8e95cf btrfs: truncate ordered extent when skipping writeback past i_size
-46a23908598f4b8e61483f04ea9f471b2affc58a btrfs: use variable for end offset in extent_writepage_io()
-74ca34f79e53657760c3b09abe1bd593b849ca8c btrfs: split assertion into two in extent_writepage_io()
-28fe58ce6a20aa674076645bcfc1be126a12ed4b btrfs: add unlikely to unexpected error case in extent_writepages()
-b917a94a4c085a307069790a0527f9492fc70700 btrfs: consistently round up or down i_size in btrfs_truncate()
-3b7c0c20b72003238ea3e17e60e357513be8edaf btrfs: avoid multiple i_size rounding in btrfs_truncate()
-f1ae05b8eaf5b2049ef0f6bfff4376f793adeb83 btrfs: avoid repeated computations in btrfs_mark_ordered_io_finished()
-e3df6408b13a75cf73e543e53453f28261874c6f btrfs: remove fs_info argument from btrfs_try_granting_tickets()
-f63b36686b721a21f83e170c247d3910d5a8b800 btrfs: remove fs_info argument from priority_reclaim_data_space()
-cf3ae29caf1657a8921396163f69fa36d1c8edac btrfs: remove fs_info argument from priority_reclaim_metadata_space()
-1b809e305574ea59c0fa414cb129d6625d280944 btrfs: remove fs_info argument from maybe_fail_all_tickets()
-302b4b69c4eeb7be755ef8a712350c8aa5d6f072 btrfs: remove fs_info argument from calc_available_free_space()
-78a77f4da4ba2162ab7f82246ff0eef0236cfe36 btrfs: remove fs_info argument from btrfs_can_overcommit()
-e96059c9d7feb36daa4d2062b5a137a0f5c7de9c btrfs: remove fs_info argument from btrfs_dump_space_info()
-3ee124653641785acdbaf5b14fa14e8c8810c621 btrfs: remove fs_info argument from shrink_delalloc() and flush_space()
-4199eb2761344dac7a600ce893967d9314842252 btrfs: remove fs_info argument from btrfs_calc_reclaim_metadata_size()
-d77b22de56776103511a50f92443ba83a70b2b32 btrfs: remove fs_info argument from need_preemptive_reclaim()
-ddeac2a12b114a5def0a4c23961d2c0938556472 btrfs: remove fs_info argument from steal_from_global_rsv()
-e182eca6ed2db481f058fc82f9b9977fac466d62 btrfs: remove fs_info argument from handle_reserve_ticket()
-5495cbe920abb53ff126345b919529a32fa3979a btrfs: remove fs_info argument from maybe_clamp_preempt()
-09d0f285310ab46457a31ab942e9a1157dd70c38 btrfs: fix parameter documentation for btrfs_reserve_data_bytes()
-30b87a23196c18df70851ea5b021dd8b8fe1ab8e btrfs: remove fs_info argument from __reserve_bytes()
-a1359d06d7878db4ac28d9c5134bc9771e56833d btrfs: remove fs_info argument from btrfs_reserve_metadata_bytes()
-7fc35cc559cb64221a7fb1d2cf48cda8fd31fc9e btrfs: more trivial BTRFS_PATH_AUTO_FREE conversions
-771af6ff72e0ed0eb8bf97e5ae4fa5094e0c5d1d btrfs: remove fs_info argument from btrfs_sysfs_add_space_info_type()
-a232ff90d14657c8637c6e94b606bb5d700a2ecb btrfs: remove fs_info argument from btrfs_zoned_activate_one_bg()
-225e747ea57781198b44cb65373d076865c51a7a btrfs: remove redundant refcount check in btrfs_put_transaction()
-95de4b097e25225d4deb5a33a4bfc27bb441f2d8 btrfs: add macros to facilitate printing of keys
-af1e800c0244a04f5eb0993745c23d974f262628 btrfs: use the key format macros when printing keys
-ca428e9b49c77b0bfc6ebbc8536ed854463b26e2 btrfs: remove pointless data_end assignment in btrfs_extent_item()
-988f693a46d83dc832005a1403ae0471eb1f8964 btrfs: subpage: simplify the PAGECACHE_TAG_TOWRITE handling
-063171a4f0fa25fe47331b4fee3f705484f1c690 btrfs: return real error when failing tickets in maybe_fail_all_tickets()
-60532c2136ea205c5db0a622e1a51420c8530d0f btrfs: avoid recomputing used space in btrfs_try_granting_tickets()
-563ef2befb55a75ba13b66d9714d50b848de8aae btrfs: make btrfs_can_overcommit() return bool instead of int
-a5f8f64aa3377b470945252f926e2cbb5a931c11 btrfs: avoid used space computation when trying to grant tickets
-0ce6300feca082a866a58fa1f4f9af47a450c41c btrfs: avoid used space computation when reserving space
-6f4779faa0c19c3a6ed0d52cb0f068ae891d7bb9 btrfs: inline btrfs_space_info_used()
-49f204be223b8bae5dd3d99f86c1ea649ce58aab btrfs: bail out earlier from need_preemptive_reclaim() if we have tickets
-8ab2b8bdbecaaf1b01adc5cfc13534a04917515d btrfs: increment loop count outside critical section during metadata reclaim
-4ddb077378aa84d0872fdfce85e7a82fd805ee86 btrfs: shorten critical section in btrfs_preempt_reclaim_metadata_space()
-afbc047ab0db1470c1d5ff82788a8a94431dc7e9 btrfs: avoid unnecessary reclaim calculation in priority_reclaim_metadata_space()
-f18a203a1b316f4cb2a2bd38ed79fc9182a1ddab btrfs: assert space_info is locked in steal_from_global_rsv()
-5ca7725ddfc5b7a1e5b87ba3cb489b3cd052faab btrfs: assign booleans to global reserve's full field
-189db2510569c0f1cc7eefb583c48a36d373cae3 btrfs: process ticket outside global reserve critical section
-b70c32f10a049a6e7c7c718d6ce69554af1e9b3c btrfs: remove double underscore prefix from __reserve_bytes()
-f7a32dd2a616c333cff2d6fb7e3d854ec8d3ae41 btrfs: reduce space_info critical section in btrfs_chunk_alloc()
-8b6fa164ab59f9e3f24e627fe09a0234783e7a8b btrfs: reduce block group critical section in btrfs_free_reserved_bytes()
-a270cb420c06ae7b52f385e139577209c705e5e0 btrfs: reduce block group critical section in btrfs_add_reserved_bytes()
-c0d0b13d27f8cf9d5bf5adae52df8ec781fbb983 btrfs: reduce block group critical section in do_trimming()
-585416766d2711d0bcc328f54bff392f5e865ffa btrfs: reduce block group critical section in pin_down_extent()
-ec8022cd2656935bdf0be13110c1a27dfe154aaf btrfs: use local variable for space_info in pin_down_extent()
-8dcb8e4b110d86aaae2c485622423b6f63a65408 btrfs: remove 'reserved' argument from btrfs_pin_extent()
-4cb0abc1cf4f46f9b910ce19e79f326c1f16cecb btrfs: change 'reserved' argument from pin_down_extent() to bool
-36574363b75c6adf4642dc5f33b2a33870c8da3c btrfs: reduce block group critical section in unpin_extent_range()
-8b6e1f5dcef97c8336a011c52384c0eb39691a43 btrfs: remove pointless label and goto from unpin_extent_range()
-cdf8a566eeef0c28a082dcdfb5d91e964029d6c3 btrfs: add data_race() in btrfs_account_ro_block_groups_free_space()
-50a51b53782af2f9eabe77b1f0d5a3b339ee4531 btrfs: move ticket wakeup and finalization to remove_ticket()
-f912f0af13aebfd5634ba68c1a077e9a59fca47a btrfs: avoid space_info locking when checking if tickets are served
-38e03b820e00196018a7ad2523a3c45653b4927d btrfs: annotate as unlikely fs aborted checks in space flushing code
-02a7e90797be89ff4f6bdf1d1fbab26964b0c13a btrfs: scrub: add cancel/pause/removed bg checks for raid56 parity stripes
-c7b478504b2e5a8e428eac4c16925d52c8deb6bd btrfs: scrub: cancel the run if the process or fs is being frozen
-937f99c736135e530895eff028503cb057eb75f6 btrfs: scrub: cancel the run if there is a pending signal
-285c3ab28eed282af70aba02d7708dea245bfc4b btrfs: declare free_ipath() via DEFINE_FREE()
-d00cbce0a7d5de5fc31bf60abd59b44d36806b6e btrfs: define the AUTO_KFREE/AUTO_KVFREE helper macros
-7ab5d01d58a766807e137cbe8c90cb2e591e2f7d btrfs: apply the AUTO_K(V)FREE macros throughout the code
-252877a8701530fde861a4f27710c1e718e97caa btrfs: add ASSERTs on prealloc in qgroup functions
-51070655e7d5749f9515e7a6ca1d5f49d1a76d81 btrfs: zoned: show statistics for zoned filesystems
-c913649c1b0260a8a992773aa6a49189059f65a5 btrfs: replace const_ilog2() with ilog2()
-afc04c8b1bb5552e6f7e05b4fe02ebc451fe66ff btrfs: replace BTRFS_MAX_BIO_SECTORS with BIO_MAX_VECS
-c5667f9c8eb90293dfa4e52c65eb89fe39f5652d btrfs: headers cleanup to remove unnecessary local includes
-81cea6cd7041ebd42281e0517f856d88527d3326 btrfs: remove btrfs_bio::fs_info by extracting it from btrfs_bio::inode
-4591c3ef751d861d7dd95ff4d2aadb1b5e95854e btrfs: make sure all btrfs_bio::end_io are called in task context
-4bbdce84175db7ff0dfaa82e960c7488c6cb0bcf btrfs: remove btrfs_fs_info::compressed_write_workers
-39bc80216a3656d54d65cdda994f406aeb27c3da btrfs: relax btrfs_inode::ordered_tree_lock IRQ locking context
-dd57c78aec398717a2fa6488d87b1a6cd43c7d0d btrfs: introduce btrfs_bio::async_csum
-1dac8db80cee66b7ba51d323025e47989278ee03 btrfs: don't generate any code from ASSERT() in release builds
-cfc7fe2b0f18c54b571b4137156f944ff76057c8 btrfs: use kvcalloc for btrfs_bio::csum allocation
-d435c513652e6a90a13c881986a2cc6420c99cab btrfs: make sure extent and csum paths are always released in scrub_raid56_parity_stripe()
-07166122b58a7fb3c056247aa262e832f3f38d0f btrfs: scrub: factor out parity scrub code into a helper
-9b3743a6760bedc783809b94aa87b9b8ef64f52b btrfs: simplify list initialization in btrfs_compr_pool_scan()
-17d552ab9b2be6c2c28169fcf913114f63a71a22 btrfs: raid56: remove sector_ptr::has_paddr member
-1810350b04ef38b375c64304e142de96d90404e1 btrfs: raid56: move sector_ptr::uptodate into a dedicated bitmap
-5387bd958180bfd7ffe454c8d2e7ae2782ebd4cc btrfs: raid56: remove sector_ptr structure
-a320476ca8a3d2e63017fe8ec06ef8b6a09c65cd btrfs: tests: do trivial BTRFS_PATH_AUTO_FREE conversions
-4decf577fb7a5a252f6f67383d06111b3525505f btrfs: move and rename CSUM_FMT definition
-fe1e50031feae74688e33fe4e0bdc7d9585c07ce btrfs: move struct reserve_ticket definition to space-info.c
-62bcbdca0ea9b1add9c22f400b51c56184902053 btrfs: make btrfs_csum_one_bio() handle bs > ps without large folios
-2574e9011018a1d6d3da8d03d0bfc4e2675dee2a btrfs: make btrfs_repair_io_failure() handle bs > ps cases without large folios
-052fd7a5cace152489cfc8abc212e0213154980f btrfs: make read verification handle bs > ps cases without large folios
-ec20799064c881e373939ea3cea55b1c406c6b76 btrfs: enable encoded read/write/send for bs > ps cases
-1c094e6ccead7a12ed41cfba9119974657ad8971 btrfs: make a few more ASSERTs verbose
-280dd7c106fd4c47756d19f6ae89862bb7bf7225 btrfs: fix incomplete parameter rename in btrfs_decompress()
-e7dd1182fcedee7c6097c9f49eba8de94a4364e3 btrfs: fix leaf leak in an error path in btrfs_del_items()
-86d3dc812f1e9aea58fabe8fcd42023f54abcad0 btrfs: remove pointless return value update in btrfs_del_items()
-fad159f69edabac046c725cdecf22275199b2dd0 btrfs: add unlikely to critical error in btrfs_extend_item()
-7447263d7da24097f17147ffe5d9c43c317deb44 btrfs: always use left leaf variable in __push_leaf_right()
-29bb40ed56ab9a1418cbe3e62c97a27b48f896e2 btrfs: remove duplicated leaf dirty status clearing in __push_leaf_right()
-027358a0900913a395f99d911108375a7f1c50f4 btrfs: always use right leaf variable in __push_leaf_left()
-5d8222a50ad37c98455da08b33ce49fe6b726c72 btrfs: abort transaction on item count overflow in __push_leaf_left()
-c2b2504ece4089697bb7db115dc91e344dfed76f btrfs: update check_skip variable after unlocking current node
-d7fe41044b3ac8f9b5965de499a13ac9ae947e79 btrfs: use bool type for btrfs_path members used as booleans
-e21756fc4aa78539b9cb9b45bfc8c4fd12322bc5 btrfs: use booleans for delalloc arguments and struct find_free_extent_ctl
-7a832b870b8a7a6a16a51dcdd8adde47b27f0169 btrfs: place all boolean fields together in struct find_free_extent_ctl
-54df8b80cc63aa0f22c4590cad11542731ed43ff btrfs: scrub: always update btrfs_scrub_progress::last_physical
-6f84ceb98538523f49d544aa7c671c87cc23d1b1 hfsplus: introduce KUnit tests for HFS+ string operations
-9042dc00023f6d8e8e52cf3df78ef3ba3e212ece btrfs: raid56: add an overview for the btrfs_raid_bio structure
-91cd1b586578017e20103771615db75dd8df5727 btrfs: raid56: introduce a new parameter to locate a sector
-826325b6d091fdf93cc04fb5e8e462409635a469 btrfs: raid56: prepare generate_pq_vertical() for bs > ps cases
-9ba67fd616d6cfbf8b90c336195819e7494645bb btrfs: raid56: prepare recover_vertical() to support bs > ps cases
-e0eadfcc959d282baafb3ba0c0c1bc4461669523 btrfs: raid56: prepare verify_one_sector() to support bs > ps cases
-64e7b8c7c5873ad03e108d775fa1c0063a320070 btrfs: raid56: prepare verify_bio_data_sectors() to support bs > ps cases
-05ddf35a5d3d8d58323d6353f2bad026e9838af8 btrfs: raid56: prepare set_bio_pages_uptodate() to support bs > ps cases
-53474a2ae17401821ce83c3b11f3d159f6b3583a btrfs: raid56: prepare steal_rbio() to support bs > ps cases
-ba88278c69982b2c4007cd1912961fbb60693950 btrfs: raid56: prepare rbio_bio_add_io_paddr() to support bs > ps cases
-89ca1a403e541236e56d184634b0e4e5175c0054 btrfs: raid56: prepare finish_parity_scrub() to support bs > ps cases
-590699d85823f38b74d52a0811ef22ebb61afddc selftests/bpf: Fix htab_update/reenter_update selftest failure
-8870dbeedcf9576fbc5147654e272acad3d84089 btrfs: raid56: enable bs > ps support
-1a332a6d70475d87067038ab0cbda8292da955e1 btrfs: raid56: remove the "_step" infix
-31b37b766753682ec1434bb591c5edee94649597 btrfs: factor out root promotion logic into promote_child_to_root()
-3afa17bf243cf384e8caa64e1e3fad8b543c7c83 btrfs: optimize balance_level() path reference handling
-139f75a3b1677c76bd845228ec49e50d69ce556e btrfs: simplify leaf traversal after path release in btrfs_next_old_leaf()
-4357dd76f558f03fe22f28c360f7798ee3a0d238 btrfs: remove redundant level reset in btrfs_del_items()
-f96834005386a1e44571e4077eaa7a43d9ca2318 btrfs: disable various operations on encrypted inodes
-45d99129b64b2311cc067b38221d475942166118 btrfs: disable verity on encrypted inodes
-bd45e9e3f6232f76fa9bd0e40c1e3409e4449f5e btrfs: add orig_logical to btrfs_bio for encryption
-0185c2292c600993199bc6b1f342ad47a9e8c678 btrfs: don't rewrite ret from inode_permission
-70085399b1a1623ef488d96b4c2d0c67be1d0607 btrfs: don't search back for dir inode item in INO_LOOKUP_USER
-9c78fe4a85fd968e1202b6c8cd9306746039ce2b btrfs: use test_and_set_bit() in btrfs_delayed_delete_inode_ref()
-1361f7d8da3eb5a63ce520754d3e8c2db5790e7c btrfs: remove root argument from btrfs_del_dir_entries_in_log()
-139e3167d81143f9cd719fde420a825dae7b711d btrfs: reduce arguments to btrfs_del_inode_ref_in_log()
-7c3acdb998dd723ac791cd4a47f13599d76a1f58 btrfs: send: add unlikely to all unexpected overflow checks
-5c9cac55b7a2c203cc135560fce053beea173c0f btrfs: send: do not allocate memory for xattr data when checking it exists
-10934c131f9bcfb616dd8be9456f11efd6b240ec btrfs: remaining BTRFS_PATH_AUTO_FREE conversions
-1c3e03b34042c2dff15d7f262b768908e4b02537 btrfs: remove redundant zero/NULL initializations in btrfs_alloc_root()
-9e0e6577b3e5e5cf7c1acd178eb648e8f830ba17 btrfs: remove unnecessary inode key in btrfs_log_all_parents()
-90fb9b98fcf5e668a13676d6e8cd546b6990d002 random: complete sentence of comment
-ef0b78b5b6cb139af1273fc5f2720201556b2650 i40e: delete a stray tab
-f81171fecd0c33f442fe3aa94cff650d0069152a selftests: hw-net: auto-disable building the iouring C code
-27c512af190e037a6f330e9461fc4741fb77da45 selftests: hw-net: toeplitz: make sure NICs have pure Toeplitz configured
-aa91dbf3eda2977e3046d4838eadf7af4dbd47ec selftests: hw-net: toeplitz: read the RSS key directly from C
-c0105ffc5056852b16824bea9e8e0cd9a598d715 selftests: hw-net: toeplitz: read indirection table from the device
-5aadc155849eb85d799604939fd9e9024b7392a3 selftests: hw-net: toeplitz: give the test up to 4 seconds
-d350d2835033bfa6833ff03bb2a7dc99a237d1c2 Merge branch 'selftests-hw-net-toeplitz-read-config-from-the-nic-directly'
-00f3b3251814bebe17e1f52da09d0da165be07e8 selftests: netconsole: ensure required log level is set on netcons_basic
-e254c212cd9cabb9469a1282c4c91ccc6180bf51 selftests: af_unix: don't use SKIP for expected failures
-ec1e48e97febbf7f87fc150793af2eda7223815c net: optimize eth_type_trans() vs CONFIG_STACKPROTECTOR_STRONG=y
-a8ff4842da50b5f4ea03d5d38a2ee93b701fe8e6 net: hyperv: convert to use .get_rx_ring_count
-737e14c5dce3764125bb56de1b343f0e4d21492d net: mvneta: convert to use .get_rx_ring_count
-20c20f05cf50719a667f1a1747a0267fa09addc4 net: mvpp2: extract GRXRINGS from .get_rxnfc
-f296b73d17a486fb547caa9c7718401735c8c99c ipvlan: fix sparse warning about __be32 -> u32
-075b19c211dfeea5f27075293ddf8795b78c9bd9 net: factor-out _sk_charge() helper
-bd92dd8e03d98a499c8525e3748f046aaca2090d mptcp: factor-out cgroup data inherit helper
-e777a7fb06b17cd62f6935313eef0206174ed71d mptcp: grafting MPJ subflow earlier
-68c7c386714512219e3517ec1097d164aee102fb mptcp: fix memcg accounting for passive sockets
-85f22b8e1e9db00a7003bf3c0e0a60d19718e083 mptcp: cleanup fallback data fin reception
-2834f8edd74d5dda368087a654c0e52b141e9893 mptcp: cleanup fallback dummy mapping generation
-2ca1b8926fda1468513bb3b8731422d5b2aa0ab1 mptcp: ensure the kernel PM does not take action too late
-48a395605e088e1365bcc0b94e53746537c21969 mptcp: do not miss early first subflow close event notification
-9d8295960300788b64d7027ff07ad8c15503121a mptcp: make mptcp_destroy_common() static
-38a4a469c850fc007d6fe2429b1f7f492e50e7ad mptcp: drop the __mptcp_data_ready() helper
-0eeb372deebce6c25b9afc09e35d6c75a744299a mptcp: handle first subflow closing consistently
-9db5b3cec4ec1c0cd3239689f5c8653d691a1754 mptcp: borrow forward memory from subflow
-ee458a3f314e9c669ddd227bf5ab08354d9e75cc mptcp: introduce mptcp-level backlog
-6228efe0cc01d155a99fdb95891b0e20d14e7a85 mptcp: leverage the backlog for RX packet processing
-96f03c8cb29f2ec5ffe8e24fbec2c64f3c3bf4e5 Revert "Merge branch 'loop-aio-nowait' into for-6.19/block"
-cc1b62512abf19c635fe304e253953ca3b33ffa2 Merge branch 'mptcp-memcg-accounting-for-passive-sockets-backlog-processing'
-73029e73ccd07b64905f441d4f474a9bb91e7027 x86/cc: Fix enum spelling to fix kernel-doc warnings
-7b6dcd9bfd869eee7693e45b1817dac8c56e5f86 fs/namespace: fix reference leak in grab_requested_mnt_ns
-7c179096e77eca210caf43abfcf3e556030fea3b fs: add predicts based on nd->depth
-8d79ec9e7f634e10c6cdc7f3999023bd988df1ad fs: mark lookup_slow() as noinline
-37d369fa97cc0774ea4eab726d16bcb5fbe3a104 fs: Add uoff_t
-bef0202fb77b9b733054838df1d3111406bd21d4 fs/splice.c: trivial fix: pipes -> pipe's
-54ca9e913e22e364292a484783efc4fcdb6fdc51 include/linux/fs.h: trivial fix: regualr -> regular
-fed9c62d28b726dad70cc03fd28ffd700b59c741 iomap: use find_next_bit() for dirty bitmap scanning
-b56c1c54f225ca02d88ec562f017be23429bf5b2 iomap: use find_next_bit() for uptodate bitmap scanning
-f53d302ee8f59c8bd32b967100de4cb0045a4ed4 Merge patch series "iomap: buffered io changes"
-f9f85149994dbb9db43202ae8fabf68940c0ac0f fs, iomap: remove IOCB_DIO_CALLER_COMP
-ddb4873286e03e193c5a3bebb5fc6fa820e9ee3a iomap: always run error completions in user context
-29086a31b3abc662d0571ed6a938937ec1e1ec0a iomap: rework REQ_FUA selection
-eca9dc20891de4ce6b7f012ac157ca6f8fa12ce4 iomap: support write completions from interrupt context
-76192a42c210cd6f85d9556a0ca87263b66680d6 iomap: invert the polarity of IOMAP_DIO_INLINE_COMP
-5ec58e6acdecb0c2b1707002123883fe1da29a98 Merge patch series "enable iomap dio write completions from interrupt context v2"
-d7ff85d4b899e02b4b8a8ca9f44f54a06aee1b4d iomap: fix iomap_read_end() for already uptodate folios
-7fd8720dff2d9c70cf5a1a13b7513af01952ec02 iomap: allocate s_dio_done_wq for async reads as well
-cf1d7dc28cb7d8da7e0d70ecc2626d1edd5ee474 Merge tag 'mt76-next-2025-11-24' of https://github.com/nbd168/wireless
-24d4da5c2565313c2ad3c43449937a9351a64407 wifi: ieee80211: correct FILS status codes
-3fc830cd8c9d0e5efae64da38a1a5eac01584b2f wifi: cfg80211: include s1g_primary_2mhz when sending chandef
-cba1ba11c1bae87de9c2e13d342bfbd6a3c1cf63 wifi: cfg80211: include s1g_primary_2mhz when comparing chandefs
-a27628f4363435beac84b55c749c41a005054d30 fs: rework I_NEW handling to operate without fences
-4c6b40877b4dc83f61a762a3a35a09dcf744b585 fs: cosmetic fixes to lru handling
-003a6607304dddb314acc475883064feeefbe2e7 fs: push list presence check into inode_io_list_del()
-1c6a92a5a5de7ebf94526dee7068926e6d5b1b01 wifi: nl80211: vendor-cmd: intel: fix a blank kernel-doc line warning
-16e802667ed5c97a668b5eb3efb7615cb5f02832 tools/thermal/thermal-engine: Fix format string bug in thermal-engine
-e3daf0e7fe9758613bec324fd606ed9caa187f74 dt-bindings: net: aspeed: add AST2700 MDIO compatible
-155f8d4ef0b78afbf25b1449bbd654fd1327cc7a ACPI: GTDT: Get rid of acpi_arch_timer_mem_init()
-4b7a59fa700f422217d83a7212ccc6074ebe9cbc Documentation/arm64: Fix the typo of register names
-747528729c9b6733839f9c95f300d5bef95ee52c mmc: sdhci-of-dwcmshc: Promote the th1520 reset handling to ip level
-b55590558ff7c66c4a494af8ea08999c27594bc8 slab: Remove unnecessary call to compound_head() in alloc_from_pcs()
-3065c20d5dc81b3485184f5687036ad4f1141c90 Merge branch 'slab/for-6.19/sheaves_cleanups' into slab/for-next
-e5d7764e1372925c27fc574c4552122a8c3c9272 Merge branch 'slab/for-6.19/memdesc_prep' into slab/for-next
-ed80cc758b784a1ed297f9130625de217a904ba5 Merge branch 'slab/for-6.19/freelist_aba_t_cleanups' into slab/for-next
-a8ec08bf32595ea4b109e3c7f679d4457d1c58c0 Merge branch 'slab/for-6.19/mempool_alloc_bulk' into slab/for-next
-f6dc5a36195d3f5be769f60d6987150192dfb099 io_uring: fix mixed cqe overflow handling
-5e811b922ec91cef7b6b2647e93b0c64e626251b s390/vdso: Use common STABS_DEBUG and DWARF_DEBUG macros
-b3bdfdf1f93c38ea54b93421efc413e91e61f6b3 s390: Rename head64.S to head.S
-c0087d807ae86cc82cc356e366d2dccf0e3bb225 s390/vdso: Rename vdso64 to vdso
-509c34924d5a89a73c1470e9265be86baffd1286 s390/vdso: Get rid of -m64 flag handling
-8d6f8d5c585f02a90a7b0ae4bab83801c1f21262 dt-bindings: thermal: qcom-tsens: make ipq5018 tsens standalone compatible
-b2a38f6df9dab0b05858746edcbe2403f8f4e4ec net_sched: make room for (struct qdisc_skb_cb)->pkt_segs
-be1b70ab21cbe8f8bb8ecf39eb34880882252773 net: init shinfo->gso_segs from qdisc_pkt_len_init()
-874c1928d37297a02452a404c8b496aad9fee146 net_sched: initialize qdisc_skb_cb(skb)->pkt_segs in qdisc_pkt_len_init()
-f9e00e51e391d08de31ca98d9f8609a1bceec2d2 net: use qdisc_pkt_len_segs_init() in sch_handle_ingress()
-2773cb0b3120eb5c4b66d949eb99853d5bae1221 net_sched: use qdisc_skb_cb(skb)->pkt_segs in bstats_update()
-c5d34f4583ea883b8d3441ded83e3a7207e0182d net_sched: cake: use qdisc_pkt_segs()
-ad50d5a3fc20327e133e2db849c6e67fc49650e6 net_sched: add Qdisc_read_mostly and Qdisc_write groups
-3c1100f042c006cae6c241028cc4c69e1a70483f net_sched: sch_fq: move qdisc_bstats_update() to fq_dequeue_skb()
-2f9babc04d74cbf984f0cb5b6e20bd78fdf32997 net_sched: sch_fq: prefetch one skb ahead in dequeue()
-b2e9821cff6c3c9ac107fce5327070f4462bf8a7 net: prefech skb->priority in __dev_xmit_skb()
-4792c3a4c1470202b0d5bf44b6058cb0fb050ba8 net: annotate a data-race in __dev_xmit_skb()
-0170d7f47c8bb0311bc802bad52245c045f151fe net_sched: add tcf_kfree_skb_list() helper
-191ff13e42a7b7824fec5b2ed84fd6481356754d net_sched: add qdisc_dequeue_drop() helper
-a6efc273ab8245722eee2150fa12cf75781dc410 net_sched: use qdisc_dequeue_drop() in cake, codel, fq_codel
-61e628023d79386e93d2d64f8b7af439d27617a6 Merge branch 'net_sched-speedup-qdisc-dequeue'
-ded4feb14d222ff77b94c09629eae2882693247d Merge tag 'cpufreq-arm-updates-6.19' of git://git.kernel.org/pub/scm/linux/kernel/git/vireshk/pm
-8dfa8bb6525453f7b63379be54738440d7c908ea Merge tag 'opp-updates-6.19' of git://git.kernel.org/pub/scm/linux/kernel/git/vireshk/pm
-30a8e0a32e7c52c75208aaf5243414b1a6930e6d Merge tag 'linux-cpupower-6.19-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/shuah/linux
-c7418164b463056bf4327b6a2abe638b78250f13 timekeeping: Fix error code in tk_aux_sysfs_init()
-a74de0c3663cf5cf568025e964524a5f875e4bfc block: Remove references to __device_add_disk()
-3a64c46c40460386aeca6e8698076d1207aeaf44 block: fix typos in comments and strings in blk-core
-a4e6512a79d8486dccf3e8b066e5d6bd5ff95446 PM: QoS: Introduce a CPU system wakeup QoS limit
-8e7de6dc420979f4e4443807b71dcc8b72d8c4a9 pmdomain: Respect the CPU system wakeup QoS limit for s2idle
-e2e4695f015eacbe11178540524438f631ba9413 pmdomain: Respect the CPU system wakeup QoS limit for cpuidle
-99b42445f4a4aaff75eca24dfc9e6e376292dd48 sched: idle: Respect the CPU system wakeup QoS limit for s2idle
-2b8d594742398cdbf40012c0b3c8b71ca160e22d cpuidle: Respect the CPU system wakeup QoS limit for cpuidle
-c19dfb267c28032293515a635eaefbf9194629ac Documentation: power/cpuidle: Document the CPU system wakeup latency QoS
-6d96ceff9aeb7e7a1713faaccf472f363cc6d48f cpuidle: Update header inclusion
-4bf944f3fcb6c192af1ea73e3d183b6364458b25 cpuidle: Warn instead of bailing out if target residency check fails
-35a5c37cb9f1f947dff18e7cfc75a8cfcfd557ca cpumask: Cache num_possible_cpus()
-539115f08cf850b9fdc6526b31da0839ff6c1631 sched/mmcid: Convert mm CID mask to a bitmap
-2b1642b881088bbf73fcb1147c474a198ec46729 signal: Move MMCID exit out of sighand lock
-bf070520e398679cd582b3c3e44107bf22c143ba sched/mmcid: Move initialization out of line
-b0c3d51b54f8a4f4c809432d210c0c983d5cd97e sched/mmcid: Provide precomputed maximal value
-51dd92c71a38647803478fb81e1812286a8998b1 sched/mmcid: Serialize sched_mm_cid_fork()/exit() with a mutex
-23343b6b09acb4bf97f34ed60e135000ca57ede1 sched/mmcid: Introduce per task/CPU ownership infrastructure
-9a723ed7facff6955da8d64cc9de7066038036c1 sched/mmcid: Provide new scheduler CID mechanism
-fbd0e71dc370af73f6b316e4de9eed273dd90340 sched/mmcid: Provide CID ownership mode fixup functions
-c809f081fe400cb1b9898f4791c0d33146315161 irqwork: Move data struct to a types header
-9da6ccbcea3de1fa704202e3346fe6c0226bfc18 sched/mmcid: Implement deferred mode change
-653fda7ae73d8033dedb65537acac0c2c287dc3f sched/mmcid: Switch over to the new mechanism
-7d09a8e25121a20214558d013b31e17ff84b004d block: ignore __blkdev_issue_discard() return value
-3f04ee216bc1406cb6214ceaa7e544114108e0fa hfsplus: fix volume corruption issue for generic/101
-9d6c58dae8f6590c746ac5d0012ffe14a77539f0 ACPICA: Avoid walking the Namespace if start_node is NULL
-44bf4611827b7477db188ec932b827e1fabd3ee1 docs: bpf: map_array: Specify BPF_MAP_TYPE_PERCPU_ARRAY value size limit
-f2cb0660ac99b093d833ddff46a0d046396d3d4c selftests/bpf: Call bpf_get_numa_node_id() in trigger_count()
-8c868a34ea851713eca6bb90db111c7bf091b34b libbpf: Fix some incorrect @param descriptions in the comment of libbpf.h
-ec95cd103c3a1e2567927014e4a710416cde3e52 hfs/hfsplus: move on-disk layout declarations into hfs_common.h
-8f6ddc0587606c4be7ffcbdb20a4a99647e0c362 bpf: Introduce internal bpf_map_check_op_flags helper function
-224de8d5a30e25570660306aeeeb738ed758ef0a selftests/bpf: Relax CPU requirements for rqspinlock stress test
-6173c1d6208c146af134e4a1d46f103507d60534 selftests/bpf: Add lock wait time stats to rqspinlock stress test
-88337b587b8b1f4b418638546a85d3295500dcc2 selftests/bpf: Make CS length configurable for rqspinlock stress test
-5262cb23393f7e86a64d1a45eeaa8a6f99f03d10 Merge branch 'general-enhancements-to-rqspinlock-stress-test'
-d6eea0048bc38c259fa4121646e54e2c3bd08121 r8169: add support for RTL9151A
-380d19db6e6c089c7d2902e02a85fd2bde3e519b cxgb4: Rename sched_class to avoid type clash
-eba81b0a6de39e2466d37e410003642282b4e546 net: dsa: cpu_dp->orig_ethtool_ops might be NULL
-8afabd27fe46ebf991b4aea20b74e08196c15c0c net: dsa: use kernel data types for ethtool ops on conduit
-f647ed2ca78ec4efcc436915b441da9de0974926 net: dsa: append ethtool counters of all hidden ports to conduit
-f0054f7bb9cd334c4d56ad6a56b9c3845cd65b9b Merge branch 'improvements-over-dsa-conduit-ethtool-ops'
-6633df05f3ade81474d55acd712431b63182d858 net: enetc: set the external PHY address in IERB for port MDIO usage
-50bfd9c06f0ff80e3ab6cfe6169d5ae2fe1afaa2 net: enetc: set external PHY address in IERB for i.MX94 ENETC
-10ba23a7f6cc4afbe7f1740b12b1ceb55fc57c00 net: enetc: update the base address of port MDIO registers for ENETC v4
-652eb5afcecc757a24c91364752203a74935d996 Merge branch 'net-enetc-add-port-mdio-support-for-both-i-mx94-and-i-mx95'
-a11e0d467da2dcbe3f199a0f94769ed333b88288 net: mdio: eliminate kdoc warnings in mdio_device.c and mdio_bus.c
-ce28e333d6286cd10a27c8f22d3ac2b758f5fa0c net: mdio: remove redundant fwnode cleanup
-9d844da693d6d0813714d9b5b7a58ac05c4cf7f0 net: phy: mxl-gpy: add support for MxL86211C
-de1e5c9333f426348571f7a3b034f99490d3f926 net: phy: mxl-gpy: add support for MxL86252 and MxL86282
-87ad869feaedb0ebd61b2d254f6952f7e4ceb624 r8169: improve MAC EEE handling
-b796632fc83c8f9e0d97443f4f389ef9dddadb11 vsock/test: Extend transport change null-ptr-deref test
-622cc66ed72c2da2294de21da5976a087bcc5748 ptp: ocp: Refactor signal_show() and fix %ptT misuse
-590f5d1fa6ee22b1ec07283d5fa870326f47b2f6 ptp: ocp: Make ptp_ocp_unregister_ext() NULL-aware
-4c84a5c7b095ea52e65ace483177fce23e55fa8f ptp: ocp: Apply standard pattern for cleaning up loop
-648282e2d1e5508de3662e8d2680f64e8586fc58 ptp: ocp: Reuse META's PCI vendor ID
-97a88d9e2ad28ad1d5e5e8f1dc7122b4fe38d630 Merge branch 'ptp-ocp-a-fix-and-refactoring'
-17fa6ee35bd4b78752a2d33b92614a1c230a1ced tools: ynl-gen: add function prefix argument
-68e83f3472667aac18d577587102f4bf77d0bd06 tools: ynl-gen: add regeneration comment
-864f3eda0034a2a7421cb5daf045e9d2ca8b6aae Merge branch 'tools-ynl-gen-regeneration-comment-function-prefix'
-d696c73716147cb3158f1da1b89d7e75af3aa285 chtls: Avoid -Wflex-array-member-not-at-end warning
-436fa8e7d1a119ec90f39e7c2ce0f3a146652899 ice: fix broken Rx on VFs
-3a6e8fd0bf4042c572dc52e634878b9aca02970d tcp: rename icsk_timeout() to tcp_timeout_expires()
-27e8257a86516682e2ec5d7543a8909c37ae8b00 net: move sk_dst_pending_confirm and sk_pacing_status to sock_read_tx group
-08dfe370239e53494453cee1e2ded2cdaa1efd12 tcp: introduce icsk->icsk_keepalive_timer
-9a5e5334adc039fa652aa071ea95b18db0bc1f43 tcp: remove icsk->icsk_retransmit_timer
-8ccd11601659e6822cb7890e418979c65b4cd6fe Merge branch 'tcp-provide-better-locality-for-retransmit-timer'
-cfeb7cd80f40dbe02ee95cd175dec341c42abae1 virtio_net: enhance wake/stop tx queue statistics accounting
-adb6b68c50604f3113d62758e839cc0186b94ce8 selftest: af_unix: Create its own .gitignore.
-ebe2f0b3cfe380120adec59264d58d5b26b931ed selftest: af_unix: Extend recv() timeout in so_peek_off.c.
-7a57b325235e9ed3d5f8905993a87c20fd22a95c Merge branch 'selftest-af_unix-misc-updates'
-ab084f0b8d6d2ee4b1c6a28f39a2a7430bdfa7f0 drivers: net: fbnic: Return the true error in fbnic_alloc_napi_vectors.
-d9600d57668c49308f705a660c5ad17fa3a53f73 PM / devfreq: Fix typo in DFSO_DOWNDIFFERENTIAL macro name
-56a248e7bc21a2f51fcc706121e1f8fa89fda413 docs/zh_CN: Add libsas.rst translation
-f12ae9ba4d234732dc091cb0565d52b286de7572 docs/zh_CN: Add wd719x.rst translation
-f9e788c5fd3a23edecd808ebb354e2cb1aef87c3 wifi: mac80211: allow sharing identical chanctx for S1G interfaces
-66e75b2758d69dce908fe98da72c345fa18a46f4 can: dev: can_get_ctrlmode_str: use capitalized ctrlmode strings
-585a4f22c4f9d85e32d42be65e67c232e82e5b3a can: bittiming: apply NL_SET_ERR_MSG() to can_calc_bittiming()
-d037d05c2e32792a6fa572b0aa3c92a8ac78589d can: dev: can_dev_dropped_skb: drop CAN FD skbs if FD is off
-60f511f443e552ef5b5cd79ec2b881f4323e19c9 can: netlink: add CAN_CTRLMODE_RESTRICTED
-e63281614747c73f25b708c75bc696c4e76f5588 can: netlink: add initial CAN XL support
-233134af208689c2d5d40896f5740473a74e3cb2 can: netlink: add CAN_CTRLMODE_XL_TMS flag
-6df01533e535d21cac779ff35cc25c43304035c3 can: dev: can_dev_dropped_skb: drop CC/FD frames in CANXL-only mode
-f6ccc2b293ba27e9171c63e456d9cba664fa2337 can: bittiming: add PWM parameters
-8e2a2885a2a6217190065d1aae98fe88a670cc28 can: bittiming: add PWM validation
-9892339cf0348730e82383d4de9d9387b9d63925 can: calc_bittiming: add PWM calculation
-46552323fa6779beb1ea558254dfd56021174c93 can: netlink: add PWM netlink interface
-1d147cb7c51d6e994ba740709072adf270d7b878 can: calc_bittiming: replace misleading "nominal" by "reference"
-a6ddf91a4f9718cec712785904c57b7117f61d6c can: calc_bittiming: add can_calc_sample_point_nrz()
-f5de373ae455f1db6cf15033d660ac0046bcb0ff can: calc_bittiming: add can_calc_sample_point_pwm()
-816cf430e84b4628dba665491e78ce081a468fcb can: add dummy_can driver
-1a620a723853a0f49703c317d52dc6b9602cbaa8 can: raw: instantly reject unsupported CAN frames
-b360a13d44db148f6d72fe4f73356726c0663f6a can: dev: print bitrate error with two decimal digits
-113aa9101a9107c52fe263258ed272828b216fe0 Merge patch series "can: netlink: add CAN XL support"
-41c13eaf39932fc79aa1ac245a9b97090fe23d5e can: rcar_canfd: Invert reset assert order
-790ec4c453890f1221ea595674a1206bbee41dc4 can: rcar_canfd: Invert global vs. channel teardown
-eda3d6c8d784835cec86f42b3f8118c9eb0cc58c can: rcar_canfd: Use devm_clk_get_optional() for RAM clk
-fa5f4ec8fff8bc587a2cbf7101303306e045c11f can: rcar_canfd: Extract rcar_canfd_global_{,de}init()
-ddf9bbf22b70d6b1a10e7d45de8ec3b94de7c54c can: rcar_canfd: Invert CAN clock and close_candev() order
-161266c754e71d979be994967984c9fdcab74090 can: rcar_canfd: Convert to DEFINE_SIMPLE_DEV_PM_OPS()
-3a34330f6339641b7f5b76b066385f56c114490f can: rcar_canfd: Add suspend/resume support
-4718d39e72c008b1c96a8673719ad8f894ca4488 Merge patch series "Add R-Car CAN-FD suspend/resume support"
-576c564ec3bb60e571c705a71907d7c0c039e6c0 clocksource/drivers/sprd: Enable register for timer counter from 32 bit to 64 bit
-640594a04f119338019b0aeed70c7301216595b3 clocksource/drivers/timer-sp804: Fix read_current_timer() issue when clock source is not registered
-2ba8e2aae1324704565a7d4d66f199d056c9e3c6 clocksource/drivers/ralink: Fix resource leaks in init error path
-6b38a8b31e2c5c2c3fd5f9848850788c190f216d clocksource/drivers/stm: Fix double deregistration on probe failure
-62524f285c11d6e6168ad31b586143755b27b2e5 clocksource/drivers/sh_cmt: Always leave device running after probe
-b452d2c97eeccbf9c7ac5b3d2d9e80bf6d8a23db clocksource/drivers/nxp-stm: Fix section mismatches
-6aa10f0e2ef9eba1955be6a9d0a8eaecf6bdb7ae clocksource/drivers/arm_arch_timer_mmio: Prevent driver unbind
-e25f964cf414dafa6bee5c9c2c0b1d1fb041dc92 clocksource/drivers/nxp-pit: Prevent driver unbind
-07688a882f8ee6228e63774f23dccab6977f1bdf MAINTAINERS: Add myself as m_can maintainer
-d20103d8f880b0d716ae83dba6d1d150f5790a9c MAINTAINERS: Simplify m_can section
-4715d930f37f1c63ca4f5782fdd57fa7792aa989 Merge patch series "MAINTAINERS: Add myself as m_can maintainer"
-6a2416892e8942f5e2bfe9b85c0164f410a53a2d clocksource/drivers/nxp-stm: Prevent driver unbind
-627f3f3716a3591f5e6a6bd124c95eef85444080 clocksource/drivers/rda: Add sched_clock_register for RDA8810PL SoC
-ed92a968a967042a7c7eb4c938e640b4deb79fe2 clocksource/drivers/stm32-lp: Drop unused module alias
-40caba2bd027ab57c196b690e4e7f3c1746acb96 dt-bindings: timer: Add Realtek SYSTIMER
-d1780dce9575072303b9c574614b72b5c8c5c44c clocksource/drivers: Add Realtek system timer driver
-9aea35eb98a6560daf85a2ae9cbd482a66e4d076 dt-bindings: can: mpfs: document resets
-1c93edfd506ccaf9e9982dfdafc91cd2d444ad63 s390/entry: Use lay instead of aghik
-2bf95a9bcb50002ca9d47403d60aedaeb2e19abe serial: 8250: Fix 8250_rsa symbol loop
-3dcf44ab56e1d3ca3532083c0d5390b758e45b45 spi: tegra114: remove Kconfig dependency on TEGRA20_APB_DMA
-6e757fd548e61dadbd62c5732c0ed3a741ae4e41 Merge back ACPI processor driver changes for 6.19
-2c5f4a53476e3cab70adc77b38942c066bd2c17c gfs2: Prevent recursive memory reclaim
-4cfc7d5a4a01d2133b278cdbb1371fba1b419174 gfs2: fix freeze error handling
-3cd9a42f1b5e34d3972237cbf8541af60844cbd4 fs: refactor file timestamp update logic
-7f30e7a42371af4bba53f9a875a0d320cead9f4b fs: lift the FMODE_NOCMTIME check into file_update_time_flags
-013983665227b16d0ec2c4fec19b43c3e265ebc5 fs: export vfs_utimes
-ded99587047c7db44837cbbc56448dcdfdae04ae btrfs: use vfs_utimes to update file timestamps
-f981264ae75e1fee75b7e3f87f4942142e590d01 btrfs: fix the comment on btrfs_update_time
-eff094a58d00acf1c84f729c3715fc4cf7fddcee orangefs: use inode_update_timestamps directly
-1ed45a4ddc15cfb04a27303cfbd381d9e95a01da Merge patch series "re-enable IOCB_NOWAIT writes to files v2"
-9d2a6211a7b972563d20edebccaae42994c429fb fs: tidy up step_into() & friends before inlining
-177fdbae39ecccb441d45e5e5ab146ea35b03d49 fs: inline step_into() and walk_component()
-f403e1206b70e6790b2e2409747dd95ce5aa39c5 Merge patch series "fs: tidy up step_into() & friends before inlining"
-2437f798809d4420350b0118e4723024ce8d203b Merge tag 'timers-v6.19-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/daniel.lezcano/linux into timers/clocksource
-1ee90870ce797f314168fb08a5cbb0fba8d4dd65 dt-bindings: thermal: tsens: Add QCS8300 compatible
-f32aedc5753e9045f8697ddbad6e83a4017385a0 dt-bindings: thermal: fsl,imx91-tmu: add bindings for NXP i.MX91 thermal module
-c411d8bf06992dade7abb88690dc2d467a868cc4 thermal/drivers/imx91: Add support for i.MX91 thermal monitoring unit
-283f90b50de077970c429e5b9b2745d5e94a5a45 watchdog: diag288_wdt: Remove KMSG_COMPONENT macro
-1e93de9205b4d5c0f06507e9e1c398574a07fb80 io_uring/query: drop unused io_handle_query_entry() ctx arg
-17e7972979e147cc51d4a165e6b6b0f93273ca68 ACPI: processor_core: fix map_x2apic_id for amd-pstate on am4
-c943bfc6afb8d0e781b9b7406f36caa8bbf95cb9 s390/dasd: Fix gendisk parent after copy pair swap
-764def9e8eaf1b1ccdcd89b8c16db4194ade775f s390/dasd: Remove unnecessary debugfs_create() return checks
-43198756ee8cade0acc17a89f959764cd17776bb s390/dasd: Move device name formatting into separate function
-a857d99201cc4eb3cb78b9dcb6f1d027ef3ae699 s390/dasd: Use scnprintf() instead of sprintf()
-c6a45ee7607de3a350008630f4369b1b5ac80884 ublk: prevent invalid access with DEBUG
-688b745401ab16e2e1a3b504863f0a45fd345638 bpf: Fix exclusive map memory leak
-4677e78800bbde62a9edce0eb3b40c775ec55e0d socket: Unify getsockname and getpeername implementation
-d73c1677087391379441c0bb444c7fb4238fc6e7 socket: Split out a getsockname helper for io_uring
-5d24321e4c159088604512d7a5c5cf634d23e01a io_uring: Introduce getsockname io_uring cmd
-c83c9564cd1c0f17008dbe6974fef90225f19d16 initramfs: add gen_init_cpio to hostprogs unconditionally
-2a9c8c0b59d366acabb8f891e84569376f3e2709 kbuild: add target to build a cpio containing modules
-986835bf4d11032bba4ab8414d18fce038c61bb4 jbd2: avoid bug_on in jbd2_journal_get_create_access() when file system corrupted
-80d05f640a51f94b88640db7f1551f8e8fee44b9 jbd2: store more accurate errno in superblock when possible
-ee5a977b4e771cc181f39d504426dbd31ed701cc ext4: fix string copying in parse_apply_sb_mount_options()
-3db63d2c2d1d1e78615dd742568c5a2d55291ad1 ext4: check if mount_opts is NUL-terminated in ext4_ioctl_set_tune_sb()
-6abfe107894af7e8ce3a2e120c619d81ee764ad5 jbd2: fix the inconsistency between checksum and data in memory for journal sb
-4091c8206cfd2e3bb529ef260887296b90d9b6a2 ext4: clear i_state_flags when alloc inode
-0cd8feea8777f8d9b9a862b89c688b049a5c8475 ext4: add i_data_sem protection in ext4_destroy_inline_data_nolock()
-3f7a79d05c692c7cfec70bf104b1b3c3d0ce6247 ext4: fix incorrect group number assertion in mb_check_buddy
-d9ee3ff810f1cc0e253c9f2b17b668b973cb0e06 ext4: improve integrity checking in __mb_check_buddy by enhancing order-0 validation
-dac092195b6a35bc7c9f11e2884cfecb1b25e20c ext4: rename EXT4_GET_BLOCKS_PRE_IO
-a9272422316f6c0ddbdfd03e695079e2b3655995 ext4: cleanup for ext4_map_blocks
-cc742fd1d184bb2a11bacf50587d2c85290622e4 ext4: correct the comments place for EXT4_EXT_MAY_ZEROOUT
-4ada1e4f8937f1ae6b620e7b1c76e02b9b3a15be fs/ext4: fix typo in comment
-39fc6d4d3527d790f090dcb10bdb82fd1a1d925a Documentation: ext4: Document casefold and encrypt flags
-7c11c56eb32eae96893eebafdbe3decadefe88ad ext4: align max orphan file size with e2fsprogs limit
-af7273cc7ae01f5b3e34e62f59588ce79fe50f79 selftests/net: initialize char variable to null
-64c10ed9274bc46416f502afea48b4ae11279669 gfs2: fix remote evict for read-only filesystems
-5b351583a327f59438bb87832b8eedfa972e2c3d gfs2: Minor cosmetic remote delete cleanups
-dff1fb6d8b7abe5b1119fa060f5d6b3370bf10ac gfs2: Fix "gfs2: Switch to wait_event in gfs2_quotad"
-94f56488c7e47579aae8f20323c43d27b7b5f4ef gfs2: Clean up quotad timeout handling
-9334c73fb16b183a6d4af09ce1d445f7f89b8d49 gfs2: Add clean argument to lm_unmount hook
-9c4a3de6cd5b46aa743c460b86eb58fe5f93daec gfs2: Asynchronous withdraw
-8daf6c2b3d8ceea5559cceb8ed7e1275ee72a7be gfs2: Get rid of delayed withdraws
-1b7d498dcab489c4bcbc46870264fbeaf81c16e7 gfs2: Rename gfs2_{withdrawing_or_ => }withdrawn
-0e2038a90cad0f88806bf9ccc65a9309e920611a gfs2: Withdraw immediately on log write errors
-fab27b49305c8cabe9c5bf91a66f8ca4884c1aec gfs2: Kill gfs2_io_error_bh_wd
-1714e8543dbe21bbd33e62df926552f943f8f5cd gfs2: Rename LM_FLAG_{NOEXP -> RECOVER}
-833c93caea00b0aef3e22a08fd20acacf212b6fc Revert "gfs2: don't stop reads while withdraw in progress"
-20b44ddbbb0712db15c6946eb94a9e240c1ba271 Revert "gfs2: Force withdraw to replay journals and wait for it to finish" (1/6)
-2aae092dc40f1ad16d3a47951b9d60c398e80129 Revert "gfs2: Force withdraw to replay journals and wait for it to finish" (2/6)
-4cee5b0f7a82776dfcb33bc28b236a289d0e6b4c Revert "gfs2: Force withdraw to replay journals and wait for it to finish" (3/6)
-a07a1e46d27a75338be93ba8d4e366733ada8e9b Revert "gfs2: Force withdraw to replay journals and wait for it to finish" (4/6)
-406058184c593857d4512a5c58cc51b42d8eb87f Revert "gfs2: Force withdraw to replay journals and wait for it to finish" (5/6)
-dcc42d554176b4b1f767693db74a35e38fb4f6aa Revert "gfs2: Force withdraw to replay journals and wait for it to finish" (6/6)
-6bb7c1bf5a622818e00480448ff661c72969bcdc Revert "gfs2: fix a deadlock on withdraw-during-mount"
-41ad1f7c8b0a63c782a844fd31c54f37e3438a80 Revert "gfs2: Check for log write errors before telling dlm to unlock"
-af572efef10a5fcfe686a413e53ad6a2bdd24603 Revert "gfs2: Allow some glocks to be used during withdraw"
-655531c95be333cb979fb58f6825ddae40455c13 Revert "gfs2: fix infinite loop when checking ail item count before go_inval"
-473678ccb97dabeebc802d01a7f5c80e3a82b04c gfs2: Rename gfs2_{gl_dq_holders => withdraw_glocks}
-0e10da69d1671109b2ae5ed3eed6aa44b5ee64bc gfs2: Clean up properly during a withdraw
-bbbf1529ea9b85072e58c164a9a5d82554ffa941 gfs2: New gfs2_withdraw_helper
-3a88edc1657da9a847041ea994e66e26db9578d2 gfs2: Withdraw immediately in gfs2_trans_add_meta
-16c31979840399e6e5542f861c6fb18f9086f3c9 gfs2: No longer thaw filesystems during a withdraw
-83348905e4137742c93bfd8104ce71c637121d38 gfs2: Clean up SDF_JOURNAL_LIVE flag handling
-c01a6e5b2e4f21d31cf725b9f3803cb0280b1b8d selftests/net: packetdrill: pass send_omit_free to MSG_ZEROCOPY tests
-6aac2aa2dfae38b60f22c3dfe4103ceefbe2d761 phy: rename hwtstamp callback to hwtstamp_set
-f467777efbfb8034d813b601b961b25f777b3d37 phy: add hwtstamp_get callback to phy drivers
-1cff8392df0cb43716204948cc82633af14e67fd net: phy: broadcom: add HW timestamp configuration reporting
-036bb4a5372ee13543d3c67959a8f071e8a4308f net: phy: dp83640: add HW timestamp configuration reporting
-ab95392ab5d3000d68806d77e6d7ae32a8d7edec phy: mscc: add HW timestamp configuration reporting
-d51de60b8edb8f333bdf84677ae273b6731ee52c net: phy: nxp-c45-tja11xx: add HW timestamp configuration reporting
-dadc51871d768268ee29580fcdf21ac51b306c21 ptp: ptp_ines: add HW timestamp configuration reporting
-fdaf715b1acb5c765379489d6e71ec3f302975df Merge branch 'add-hwtstamp_get-callback-to-phy-drivers'
-4440bf5f2e75a6ed5d451569e317c24e6e222e09 net: stmmac: Add generic suspend/resume helper for PCI-based controllers
-c4064af1c7e37d81d9556057e8d0295f0be9eef4 net: stmmac: loongson: Use generic PCI suspend/resume routines
-b35e94edf2290ee72ddbbacc29adc2b7eab7d7f3 net: stmmac: pci: Use generic PCI suspend/resume routines
-4585847fddfc9c8d5fe9f8c3318aa88e3629eede Merge branch 'unify-platform-suspend-resume-routines-for-pci-dwmac-glue'
-a8acbcbaf6d0c33555cc043ce3f006aaec0ccb3f i40e: extract GRXRINGS from .get_rxnfc
-fe0a3d7d1dca4b8d37710becf10ffd7fcfe2741e iavf: extract GRXRINGS from .get_rxnfc
-8e8c00e1d2130c7d174b799cd5ebc4b41f325aa8 ice: extract GRXRINGS from .get_rxnfc
-873a1942fbc622694ef21b43eb567bdcd163ab86 idpf: extract GRXRINGS from .get_rxnfc
-d6c744f46816994d9e8b7e9f37065caba6664e86 igb: extract GRXRINGS from .get_rxnfc
-768ce58dddb26c591a2b77a659f779e730f1796c igc: extract GRXRINGS from .get_rxnfc
-3399fd519dd4f8fd8451cf18eb7f2eef0b47e39a ixgbevf: extract GRXRINGS from .get_rxnfc
-73d834cd17741839a3bb2a753cc83dfd3fdda13a fm10k: extract GRXRINGS from .get_rxnfc
-a8080c2f0e50f7d209fe95edaaec516b3db586f2 Merge branch 'net-intel-migrate-to-get_rx_ring_count-ethtool-callback'
-651765e8d527427e1d91fb7f606c5506f437f622 netlink: specs: add big-endian byte-order for u32 IPv4 addresses
-308b7dee3e5c767e88bbecceff3883c8b17c55b6 tools: ynl: add YNL test framework
-002373a8b01df23be072bb91741c2e8b2b70ccc1 net: phy: dp83867: implement configurability for SGMII in-band auto-negotiation
-7241d80e77066dacc2fd7ad5ce29e524548a4940 net: dpaa: fman_memac: complete phylink support with 2500base-x
-37a96c2009f75d25c33b81edcb016a48e1342846 net: fman_memac: report structured ethtool counters
-91f3305b97fc41b42b67b9ff58441aa4d72cde2e net: hibmcge: add support for tracepoint to dump some fields of rx_desc
-2e68bb2e0f7712239711cabc22ceeb56c011c69d net: hibmcge: reduce packet drop under stress testing
-c305959175856b40dea4d9ec10bb2c72add22910 net: hibmcge: add support for pagepool on rx
-ce69978ae8b760a98e459ad7f6a788c2f01b5166 Merge branch 'net-hibmcge-add-support-for-tracepoint-and-pagepool-on-hibmcge-driver'
-f93505f35745637b6d94efe8effa97ef26819784 amd-xgbe: let the MAC manage PHY PM
-59bfa6408214b6533d8691715cf5459e89b45b89 objtool: Build with disassembly can fail when including bdf.h
-d62e4f2b9542d25d183f068033558e87e81a00a8 x86/bug: Fix BUG_FORMAT vs KASLR
-b0a848f4a47a91a6b4d9a9fd739d047254df5a91 x86/bugs: Make i386 use GENERIC_BUG_RELATIVE_POINTERS
-ebf8538979101ef879742dcfaf04b684f5461e12 MAINTAINERS: add German Maglione as virtiofs co-maintainer
-e6c43c95009035a63091cd49736886f883127510 net: phy: Add MDIO_PMA_CTRL1_SPEED for 2.5G and 5G to reflect PMA values
-7622d55276932bfeb947b7b6cbf7ea0aa41feeb8 net: pcs: xpcs: Add support for 25G, 50G, and 100G interfaces
-39e138173ae7641e952b456d2de7ad2ac03e8d88 net: pcs: xpcs: Fix PMA identifier handling in XPCS
-3f29dd34f75a09ee7f8333305618edb44617d835 net: pcs: xpcs: Add support for FBNIC 25G, 50G, 100G PMD
-f18dd1b15f7a0bea5743fcbf3a62b7d2940e2dd5 fbnic: Rename PCS IRQ to MAC IRQ as it is actually a MAC interrupt
-9963117a2b9b29074763ccb62fe8ee4d78ca46f2 fbnic: Add logic to track PMD state via MAC/PCS signals
-1fe7978329d736e90600b16b34c7656073dc7a5a fbnic: Add handler for reporting link down event statistics
-d0ce9fd7eae048fbf4004fb4632b878807b18c57 fbnic: Add SW shim for MDIO interface to PMD and PCS
-d0fe7104c79569ebd66d3dcefb9f0acd831d4413 fbnic: Replace use of internal PCS w/ Designware XPCS
-ed245fe9c1bf5471cf0193a08ddab367f9ca0385 Merge branch 'net-phy-add-support-for-fbnic-phy-w-25g-50g-and-100g-support'
-45cc214152bc1f6b1cc135532cd7cdbe08716aaf regulator: rtq2208: Correct buck group2 phase mapping logic
-8684229e19c4185d53d6fb7004d733907c865a91 regulator: rtq2208: Correct LDO2 logic judgment bits
-40ad64ac25bb736740f895d99a4aebbda9b80991 spi: nxp-fspi: Propagate fwnode in ACPI case as well
-5c9c1e78de1e41b5321583139851797580c077c3 selftests: af_unix: remove unused stdlib.h include
-45d100ee0d6e8b4b4ba6c48f54decd62f875cf70 net: stmmac: dwmac: Disable flushing frames on Rx Buffer Unavailable
-037dada8bbb14e42b6596e30557b08ee051f7b1b ACPI: LPSS: Fix a spelling mistake
-a508939e15356d80369ea881c05526a168fcfd6c ACPI: PM: Fix a spelling mistake
-d3f52f53a56278ce5ffeafa3cc6cfb3ecef770fe srcu: Create an SRCU-fast-updown API
-609460a6db2016d9098b4bf50b3871302f5cc6ef rcutorture: Make srcu{,d}_torture_init() announce the SRCU type
-81f00c462e2746037153b442f521b5d611de2fce refscale: Exercise DEFINE_STATIC_SRCU_FAST() and init_srcu_struct_fast()
-3d1f1088455d9a9bce51f0c1e6a81f518a5cb468 x86/mm: Delete disabled debug code
-73f784b2c938e17e4af90aff4cdcaafe4ca06a5f Merge tag 'linux-can-next-for-6.19-20251126' of git://git.kernel.org/pub/scm/linux/kernel/git/mkl/linux-can-next
-822e2bb0d6dd792b95da2d4f420eb3dac5af95a7 drivers: serial: kgdboc: Drop checks for CON_ENABLED and CON_BOOT
-4c70ab110bdd6513f3cac6b9eb01ac3b7f0d23a2 arch: um: kmsg_dump: Use console_is_usable
-466348abb0c364cfaf01c6a1142e32cb0d704980 printk: Use console_is_usable on console_unblank
-69ceb8a2d6665625d816fcf8ccd01965cddb233e docs: remove obsolete links in the xfs online repair documentation
-5e8b7b58b205da3c6c41f1e9bc66db999ed95595 Merge tag 'devfreq-next-for-6.19' of git://git.kernel.org/pub/scm/linux/kernel/git/chanwoo/linux
-06e0ae988f6e3499785c407429953ade19c1096b debugobjects: Allow to refill the pool before SYSTEM_SCHEDULING
-37de2dbc318ee10577c1c2704de5a803e75e55a2 debugobjects: Use LD_WAIT_CONFIG instead of LD_WAIT_SLEEP
-c86d9f8764ba2ffa4e19cca40918c12ccc3ad909 arm64: atomics: lse: Remove unused parameters from ATOMIC_FETCH_OP_AND macros
-bf09ee918053edec7efeb2f9977b53b02e029553 KVM: arm64: selftests: Remove ARM64_FEATURE_FIELD_BITS and its last user
-4138cc63d3efdd77de799aafb0bd183e1d655a0f KVM: arm64: selftests: Consider all 7 possible levels of cache
-27abb1ee5a4e02a5314423371dafaf41499314a5 arm64/sysreg: Remove unused define ARM64_FEATURE_FIELD_BITS
-db4029859d6fd03f0622d394f4cdb1be86d7ec62 Merge git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
-58b46219bfcf1906b795307372b0d50d65115026 keys: Remove redundant less-than-zero checks
-a0a76e3f8d9a0da679ea721decd26f8951eb2110 keys: Replace deprecated strncpy in ecryptfs_fill_auth_tok
-8c8e3df3d2f51e9a3f6f1a1112adf250f7652d42 keys: Fix grammar and formatting in 'struct key_type' comments
-634f3853cc98d73bdec8918010ee29b06981583e netfilter: flowtable: check for maximum number of encapsulations in bridge vlan
-93d7a7ed07342f5e3da2d250cfd67f899d0b5318 netfilter: flowtable: move path discovery infrastructure to its own file
-b5964aac51e0c286a50e68225e0dfcf11fb554cb netfilter: flowtable: consolidate xmit path
-c653d5a78f3463cfd4c80909425510fb930b0641 netfilter: flowtable: inline vlan encapsulation in xmit path
-18d27bed0880b1ac8638a6f4f2edc2ecc6b5c6a1 netfilter: flowtable: inline pppoe encapsulation in xmit path
-030feea3097c41ed268c81240e5c334d9977b1c4 netfilter: flowtable: remove hw_ifidx
-a0d98b641d676e9fc5c458b14aee8ee874dd7298 netfilter: flowtable: use tuple address to calculate next hop
-ab427db17885814069bae891834f20842f0ac3a4 netfilter: flowtable: Add IPIP rx sw acceleration
-d30301ba4b07ac92eb38353a111833b009003170 netfilter: flowtable: Add IPIP tx sw acceleration
-fe8313316eaf0f3b052d5a9464ca6aa630229400 selftests: netfilter: nft_flowtable.sh: Add IPIP flowtable selftest
-be102eb6a0e7c03db00e50540622f4e43b2d2844 netfilter: nf_conncount: rework API to use sk_buff directly
-c0362b5748282e22fa1592a8d3474f726ad964c2 netfilter: nf_conncount: make nf_conncount_gc_list() to disable BH
-69894e5b4c5e28cda5f32af33d4a92b7a4b93b0e netfilter: nft_connlimit: update the count if add was skipped
-c4cbe4a4df39a2cf80593f87d129cd4b04ea568d netfilter: nft_connlimit: add support to object update operation
-c0bd21682aedeb5d1367ee8026f71dc32624091a selftests: netfilter: nft_flowtable.sh: Add the capability to send IPv6 TCP traffic
-c4f0ab06e1e0c1331e6febd03538a7f621f15134 netfilter: ip6t_srh: fix UAPI kernel-doc comments format
-d3a439e55c193b930e0007967cf8d7a29890449b netfilter: nf_tables: improve UAPI kernel-doc comments
-df59bb5b9af3fc24d957261e9f80f0c0dec151a4 netmem, devmem, tcp: access pp fields through @desc in net_iov
-362a161b2582f8d6a34b3b0940f8323adc2f292f eth: bnxt: make use of napi_consume_skb()
-4c03592689bc19df9deda7a33d56c6ac0cec8651 net: restore napi_consume_skb()'s NULL-handling
-858b1d07e49106a302cc7c7fbeee4fb2698573c9 gve: Fix race condition on tx->dropped_pkt update
-eeecf5d3a3a484cedfa3f2f87e6d51a7390ed960 net: wwan: mhi_wwan_mbim: Avoid -Wflex-array-member-not-at-end warning
-6557cae0a2a1952645e5df50e1d6eb7267ea2131 if_ether.h: Clarify ethertype validity for gsw1xx dsa
-1e43ebcd5152b3e681a334cc6542fb21770c3a2e iavf: Implement settime64 with -EOPNOTSUPP
-1f73a56f986005f0bc64ed23873930e2ee4f5911 net: vxlan: prevent NULL deref in vxlan_xmit_one
-17e9f841dd227a4dc976b22d000d5f669bc14493 r8169: add DASH support for RTL8127AP
-510026a39849ae7066dce17343caba4550e2a977 net: dsa: yt921x: Fix parsing MIB attributes
-fbce7b36c8c64b2bab68f2ec878b5aa48b6f0d75 net: dsa: yt921x: Use macros for MIB locations
-ebb2eaeb05d0ee6bd46e98313f72eac2b0dbd9d7 Merge branch 'net-dsa-yt921x-fix-parsing-mib-attributes'
-8048168df56e225c94e50b04cb7b0514135d7a1c net: stmmac: fix rx limit check in stmmac_rx_zc()
-73880e66b79a6c950c0388559e2d425da2c37bd6 net: thunder: convert to use .get_rx_ring_count
-4636b4e797f71ad68332e174d8b50a65e7d5cf8a dibs: Remove KMSG_COMPONENT macro
-1645759a0405aaeaa9fa5d0a4167a3cb626808bb ixgbevf: ixgbevf_q_vector clean up
-8dd72ebc73f37b216410db17340f15e6fb2cdb7b idpf: convert vport state to bitmap
-954ba97cca1614bdc6d5dbd37fa357da9febb59d e1000e: Remove unneeded checks
-5849b56addbfc060a012c7326d3bac279c303f43 ixgbe: avoid redundant call to ixgbe_non_sfp_link_config()
-d89a5c27e4f395a0d93652f01c959ce4b1ed42b7 idpf: use desc_ring when checking completion queue DMA allocation
-79bb84758f2c6dda7133c5ac391acd61ae4326fd idpf: correct queue index in Rx allocation error messages
-1105a7a12051c24e942b382b6e4d895d267dda1e ice: fix comment typo and correct module format string
-57bb13d7eb5051563d1e29f930a72079d95ea28c iavf: clarify VLAN add/delete log messages and lower log level
-61dbc61a34c912e4a5559cfc3bb966d9a32caf33 Merge branch 'intel-wired-lan-driver-updates-2025-11-25-ice-idpf-iavf-ixgbe-ixgbevf-e1000e'
-caa343e9a4a171db045c8e734d68cb10ad0dd65c bnxt_en: Enhance TX pri counters
-f3d88fe6354fcbc38d872029564e2b71f533ca9e bnxt_en: Enhance log message in bnxt_get_module_status()
-bba2a0577e3c20a5393f9906fe066d500657f1c6 bnxt_en: Remove the redundant BNXT_EN_FLAG_MSIX_REQUESTED flag
-b1e7f9566f322b53e81f7bfb6b4361e52e44b287 bnxt_en: Add CQ ring dump to bnxt_dump_cp_sw_state()
-30f253f8d9a01d532fdb7ec6c8a9d4c15fe29241 bnxt_en: Do not set EOP on RX AGG BDs on 5760X chips
-72405298e92b590160ea21558b8105d18c107f3c bnxt_en: Add Virtual Admin Link State Support for VFs
-ed01d2069e8b40eb283050b7119c25a67542a585 Merge branch 'bnxt_en-updates-for-net-next'
-eeec741ee0df36e79a847bb5423f9eef4ed96071 nfsd: fix end_creating() conversion
-01c9c30aae317adc3ae7246f545b2c83b16ff314 filelock: __fcntl_getlease: fix kernel-doc warnings
-ca0d620b0afae20a7bcd5182606eba6860b2dbf2 dcache: touch up predicts in __d_lookup_rcu()
-e9c70084a64e51b65bb68f810692a03dc8bedffa ovl: fail ovl_lock_rename_workdir() if either target is unhashed
-4be9e04ebf75a5c4478c1c6295e2122e5dc98f5f vfs: add needed headers for new struct delegation definition
-2579e21be532457742d4100bbda1c2a5b81cbdef ovl: remove unneeded semicolon
-d27c71257825dced46104eefe42e4d9964bd032e afs: Fix delayed allocation of a cell's anonymous key
-011703a9acd76edc7c85d80dbccb6e50dba53aad file: add FD_{ADD,PREPARE}()
-8797dd560018818464a6a16920ee732bd7e9ab18 anon_inodes: convert to FD_ADD()
-a5fa9ab846b4ebd68302aca32497616c078f34bf eventfd: convert do_eventfd() to FD_PREPARE()
-fbe58faa6934812851b50996ce0e9db0eafdd91c fhandle: convert do_handle_open() to FD_ADD()
-542a40654342ecefe75e2786c086ac5950d96fa3 namespace: convert open_tree() to FD_ADD()
-416b0d16590b1b79d18990e62f5a95f96ec554b7 namespace: convert open_tree_attr() to FD_PREPARE()
-05885f41658ce953d22066913414d56aaad36157 namespace: convert fsmount() to FD_PREPARE()
-7129098f4f7b848ead33ce10214b90716e3fd400 fanotify: convert fanotify_init() to FD_PREPARE()
-00de6e244807aa8e9c00cb6ad2976c429058d4ac nsfs: convert open_namespace() to FD_PREPARE()
-3d8aefd49aed34d2a3acfdcb10a0af0d0fe94a7c nsfs: convert ns_ioctl() to FD_PREPARE()
-0f4288410cef8676d745c776ea9f1cdd710d50ef autofs: convert autofs_dev_ioctl_open_mountpoint() to FD_ADD()
-13dce771bbad42da6ecf086446d8ddfd1fce3a1b eventpoll: convert do_epoll_create() to FD_PREPARE()
-360fbf808a9a0827f44c46b45391c494760737f1 open: convert do_sys_openat2() to FD_ADD()
-5b755da105e22d9cabfd90edd310e46ecc7fa721 signalfd: convert do_signalfd4() to FD_ADD()
-14010faa1badae0a8a59b1134490c7aaab49e7a9 timerfd: convert timerfd_create() to FD_ADD()
-39f6e7581ac56ada39aa823d8112642a57ca10b0 userfaultfd: convert new_userfaultfd() to FD_PREPARE()
-993f30468ea1c5f62758dd1ecc561fa7e156d479 xfs: convert xfs_open_by_handle() to FD_PREPARE()
-34dfce523c907d932d8ea2f849e40203a6368047 dma: convert dma_buf_fd() to FD_ADD()
-7352c6fce34c2e3d902a9bb0af1684c535805e08 af_unix: convert unix_file_open() to FD_ADD()
-1ad7810c6ddae66b2fcd541672bca10fc3b9bbc0 exec: convert begin_new_exec() to FD_ADD()
-f2573685bd0ccb79cb6b6234461b7f750311b8e7 ipc: convert do_mq_open() to FD_ADD()
-798c2da4906cf969daf422e5d9bde243c452deff bpf: convert bpf_iter_new_fd() to FD_PREPARE()
-981bec8f698ba19a4d983016c6ccdde30502d07e bpf: convert bpf_token_create() to FD_PREPARE()
-1afcbbe5d65617a3f2f6338effa9e0f21082912b memfd: convert memfd_create() to FD_ADD()
-910c361f9a1f41397b82d679802c1806cdd960fe secretmem: convert memfd_secret() to FD_ADD()
-fe67b063f687d8f32c466778aad57508bc1c618a net/handshake: convert handshake_nl_accept_doit() to FD_PREPARE()
-0d52d06a199f5b95a66a3ff0a303a48532e3461f net/kcm: convert kcm_ioctl() to FD_PREPARE()
-245f0d1c622b0183ce4f44b3e39aeacf78fae594 net/socket: convert sock_map_fd() to FD_ADD()
-4667d638726cfd78e599c3ad5237cf4d1bf82c74 net/socket: convert __sys_accept4_file() to FD_ADD()
-843e7b5c293c112dedeeced1a7088668933d3308 spufs: convert spufs_context_open() to FD_PREPARE()
-6d3789d347a7af5c4b0b2da3af47b8d9da607ab2 papr-hvpipe: convert papr_hvpipe_dev_create_handle() to FD_PREPARE()
-0b9d4a6b51d75ca3e9806bf660e147328d645378 spufs: convert spufs_gang_open() to FD_PREPARE()
-274d937006a2f1258f513cca3f8d56fc23466b0e pseries: convert papr_platform_dump_create_handle() to FD_ADD()
-6ae8da4846526e8af1d5132847716de9e6706f37 pseries: port papr_rtas_setup_file_interface() to FD_ADD()
-da7e394bf58f94e9783379fef7c7fb4411b03208 gpio: convert linehandle_create() to FD_PREPARE()
-c99dc44562728a568ebbfc3249d6b7d0e9f27165 hv: convert mshv_ioctl_create_partition() to FD_ADD()
-6f504cbf108a8e5a1e6e830b2de901fdb4930fdf media: convert media_request_alloc() to FD_PREPARE()
-af66279a012b2d9a175486a6292d41513ae7b74f ntsync: convert ntsync_obj_get_fd() to FD_PREPARE()
-3fd5edfe1d6fcc67410be753dcb704d8a1d0bfd7 tty: convert ptm_open_peer() to FD_ADD()
-5f3ea1c201088290f66445b601a21fd89a398f88 vfio: convert vfio_group_ioctl_get_device_fd() to FD_ADD()
-99d4f12f174be8a55320b5097b5a09b7801c4e92 file: convert replace_fd() to FD_PREPARE()
-6fb102291873c6d88b221c476589e65558e3f30c io_uring: convert io_create_mock_file() to FD_PREPARE()
-0512bf9701f339c8fee2cc82b6fc35f0a8f6be7a Merge patch series "file: FD_{ADD,PREPARE}()"
-9fac2a114b8a41d3fd843ac7b83a38dc063500ed Merge back ACPI processor driver changes for 6.19
-63d26c3811421ceeb5b82a85489b88bf545e33c7 Merge tag 'thermal-v6.19-rc1' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/thermal/linux
-24d268add6d9b48c28f4bd8779cdf6322ae4e994 Merge branches 'acpica', 'acpi-property', 'acpi-pm' and 'acpi-battery'
-9ae77198d4815c63fc8ebacc659c71d150d1e51b erofs: tidy up z_erofs_lz4_handle_overlap()
-831faabed8129246c9802af9ad9581a2c1e9eeb9 erofs: improve decompression error reporting
-83564b06b275be083b1a7f707e1951dd506d7627 erofs: improve Zstd, LZMA and DEFLATE error strings
-3a991f784c167de08466efe81768ff64c63a8d09 erofs: enable error reporting for z_erofs_stream_switch_bufs()
-ba9aeba05321e2d4b7fd2ee022dd1ba896432f43 Merge branches 'acpi-tad', 'acpi-fan', 'acpi-dptf' and 'acpi-tools'
-af47d98064e900f279c98bb3bb57445a1e7a8f6b Merge branches 'acpi-misc' and 'pnp'
-bfad33230a5db723d703ea9448591659bda402b0 refscale: Add SRCU-fast-updown readers
-60d69a7ed1e5ffa94f788e35b2ca86c6a750f2f2 Merge branches 'pm-core' and 'pm-runtime'
-f086594adb34c9db31d764efc6471570ec6a5f1c Merge branch 'pm-sleep'
-1fe25237137c13aeb1a1bd17c0aa6fed6787e444 Merge branch 'pm-cpufreq'
-bf7ae1773ea79417d430a2d216abdb9857db8ec1 Merge branches 'pm-cpuidle' and 'pm-powercap'
-060e4e835f9394816584942511f22d771f05100c mailbox: omap-mailbox: Check for pending msgs only when mbox is exclusive
-3acf1028f5003731977f750a7070f3321a9cb740 mailbox: mailbox-test: Fix debugfs_create_dir error checking
-a195c7ccfb7a21b8118139835e25936ec8722596 mailbox: mtk-cmdq: Refine DMA address handling for the command buffer
-094b53ecaa3ef227f9c800f8de90a9b44f1c1bb4 mailbox: mtk-gpueb: Add missing 'static' to mailbox ops struct
-ff0e4d4c97c94af34cc9cad37b5a5cdbe597a3b0 mailbox: pcc: don't zero error register
-e5efd56fa157d2e7d789949d1d64eccbac18a897 arm64/pageattr: Propagate return value from __change_memory_common
-0c2988aaa4d3eda94b738d5a7acae7838d52fe4d arm64/mm: Document why linear map split failure upon vm_reset_perms is not problematic
-638757c9c9e5a823671367150a9f48e93d115b48 Merge branches 'pm-em' and 'pm-opp'
-17c05cb0ef212d1a3c1bbbb67693a89cd9f0fb44 Merge branches 'for-next/misc', 'for-next/kselftest', 'for-next/efi-preempt', 'for-next/assembler-macro', 'for-next/typos', 'for-next/sme-ptrace-disable', 'for-next/local-tlbi-page-reused', 'for-next/mpam', 'for-next/acpi' and 'for-next/documentation', remote-tracking branch 'arm64/for-next/perf' into for-next/core
-e3cee98f2fcc2234be7813c0e55a7f7a5e77aaf2 mailbox: th1520: fix clock imbalance on probe failure
-52c4d1d62424c574fa048235598ce37bd4ed1e32 Merge branch 'for-next/sysreg' into for-next/core
-edde060637b92607f3522252c03d64ad06369933 Merge branch 'for-next/set_memory' into for-next/core
-7cede21e9f04f16a456d3c3c8a9a8899c8d84757 Merge branches 'pm-qos' and 'pm-tools'
-f849f26f77205e25f6ad0b9011b1b68a560d35ff Merge tag 'pmdomain-v6.18-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/ulfh/linux-pm
-d0c98769ee7d5db8d699a270690639cde1766cd4 blk-mq: use array manage hctx map instead of xarray
-89e1fb7ceffd898505ad7fa57acec0585bfaa2cc blk-mq: fix potential uaf for 'queue_hw_ctx'
-9574b21e952256d4fa3c8797c94482a240992d18 kfifo: add kfifo_alloc_node() helper for NUMA awareness
-3035b9b46b0611898babc0b96ede65790d3566f7 ublk: add parameter `struct io_uring_cmd *` to ublk_prep_auto_buf_reg()
-8d61ece156bd4f2b9e7d3b2a374a26d42c7a4a06 ublk: add `union ublk_io_buf` with improved naming
-0a9beafa7c633e6ff66b05b81eea78231b7e6520 ublk: refactor auto buffer register in ublk_dispatch_req()
-3443bab2f8e44e00adaf76ba677d4219416376f2 ublk: pass const pointer to ublk_queue_is_zoned()
-28d7a371f021419cb6c3a243f5cf167f88eb51b9 ublk: add helper of __ublk_fetch()
-4331989728da4e868fcda75bde872d032f5ce6ac Merge tag 'mmc-v6.18-rc2-2' of git://git.kernel.org/pub/scm/linux/kernel/git/ulfh/mmc
-418de94e7593081c29066555bf9059f1f7dd9d79 sbitmap: fix all kernel-doc warnings
-a6737fe620315db4a47d577703d516cdea960991 Merge tag 'omap-for-v6.19/maintainers-signed' of git://git.kernel.org/pub/scm/linux/kernel/git/khilman/linux-omap into arm/fixes
-3ecfcf34f0992d11e5eb2458a2108b3320c61ba4 Merge tag 'sunxi-fixes-for-6.18' of https://git.kernel.org/pub/scm/linux/kernel/git/sunxi/linux into arm/fixes
-24a84ea4eef6ec6245e1efdc64764d60d17321bb Merge tag 'mailbox-fixes-v6.18-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/jassibrar/mailbox
-5d324e5159d9e6a1e6678007ce3f24e569650db6 Merge tag 'usb-6.18-rc8' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/usb
-dabf127d641e43d5fbb72a1f48209818349db7ef Merge tag 'tty-6.18-rc8' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/tty
-6cf62f0174de64e4161e301bb0ed52e198ce25dc Merge tag 'char-misc-6.18-rc8' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/char-misc
-7fa0d7744c28267142287a75134de58790999e72 Merge tag 'soc-fixes-6.18-4' of git://git.kernel.org/pub/scm/linux/kernel/git/soc/soc
-f3b17337b943949d0f3d12835d10d866210aeee8 Merge tag 'vfs-6.18-rc8.fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
-d911fe6e942e60900577314dc1f1529b90e4da07 x86/boot: Clean up whitespace in a20.c
-9917bf8e7f5a9efbab844cf06cfd8da8eb7e13b6 Merge tag 'io_uring-6.18-20251128' of git://git.kernel.org/pub/scm/linux/kernel/git/axboe/linux
-82ebd4e32029f299011a6ef68d96f5ddcea0723a Merge tag 'regulator-fix-v6.18-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/regulator
-e6640487845061255af9614ec0a192e4fafa486e Merge tag 'spi-fix-v6.18-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/spi
-6fcc739a04b220206b8f68267f3c885f031bed94 Merge branch 'rcu/srcu' into next
-a50413848f1cf66fa7cb464271f9f81f78808121 Merge branch 'rcu/refscale' into next
-7feff23cdf2ecd30909872f3be1da820df839ab0 bpf: force BPF_F_RDONLY_PROG on insn array creation
-e3ea26add687ec6829fd8e7161b17667fdb88ec1 bpf: check for insn arrays in check_ptr_alignment
-19f4091bf2679759da877eb23a37863dc4368441 Merge branch 'a-pair-of-follow-ups-for-indirect-jumps'
-b4bf1d23dc1da236c92a9d9be68cc63358d1f750 bpf: Disable file_alloc_security hook
-a3a60cc120d68d95a1cef3dccdc8932c63c16560 selftests/bpf: Remove usage of lsm/file_alloc_security in selftest
-bd5bdd200c9e981cd5e2495966968cb26010573c bpf: Remove runqslower tool
-19eef1d98eeda3745df35839190b7d4a4adea656 afs: Fix uninit var in afs_alloc_anon_key()
-c940be4c7c75684799d5bff495ac9c48ca19f183 net: Remove KMSG_COMPONENT macro
-2c80116b503296dd050c8b92bef34e300bc2b1d4 Merge tag 'wireless-next-2025-11-27' of https://git.kernel.org/pub/scm/linux/kernel/git/wireless/wireless-next
-5835b1339e33549d9e7342fae56243b4fcd758c9 ext4: remove page offset calculation in ext4_block_zero_page_range()
-b73f45a32420a8393e92fb2dec3b7d109e565127 ext4: remove page offset calculation in ext4_block_truncate_page()
-afa6d5a16bf2e354e183a4fcbcdb8578798e9942 ext4: remove PAGE_SIZE checks for rec_len conversion
-d37a7ddd3a384bd34f985273d6e776d3d50b0edd ext4: make ext4_punch_hole() support large block size
-58297412edf077870eedce2481db5755b4e98474 ext4: enable DIOREAD_NOLOCK by default for BS > PS as well
-8611e608a8fa01e8b82c9008b4dac9f24531ae0f ext4: introduce s_min_folio_order for future BS > PS support
-6a28b5c9908d6e7ea13eae7a5872e8e081a397c4 ext4: support large block size in ext4_calculate_overhead()
-609c5e0081b432caaa557ffcf1318aefe1187c4e ext4: support large block size in ext4_readdir()
-125d1f6a5a77ed6a1af3eb0957240f54e4124af2 ext4: add EXT4_LBLK_TO_B macro for logical block to bytes conversion
-2a8de76b2b0f84333a2778db04ce51811c260d9d ext4: add EXT4_LBLK_TO_PG and EXT4_PG_TO_LBLK for block/page conversion
-6117f1806a7328e8d316eeeac66b2ba4e4539ba5 ext4: support large block size in ext4_mb_load_buddy_gfp()
-3938fc29f89fff132929b2fea2fe00b0f43617ca ext4: support large block size in ext4_mb_get_buddy_page_lock()
-0ad55fa104a2aa5980c12f88546fab328d34644b ext4: support large block size in ext4_mb_init_cache()
-31daa8261c54404513cf7ac81d1f79ff1cdbc36e ext4: prepare buddy cache inode for BS > PS with large folios
-65c39954bb92b3f2ab5fb179225b8c8788c79afd ext4: rename 'page' references to 'folio' in multi-block allocator
-a6d73242b8b5caa9f9a529eab49cc1e85ace9890 ext4: support large block size in ext4_mpage_readpages()
-bff6235d623a022260b8af5559ced3534fb7fc2e ext4: support large block size in ext4_block_write_begin()
-b967ab748765bf2cf9512efaa8aa987ab4482c7d ext4: support large block size in mpage_map_and_submit_buffers()
-8e50e23b769ace4885fc132e6fca2b4343c27fb1 ext4: support large block size in mpage_prepare_extent_to_map()
-c00a6292d0616c304cb712d823370f1a82f899b2 ext4: support large block size in __ext4_block_zero_page_range()
-58fd191f99f3791c6687e98041c89a6477d9f64d ext4: make data=journal support large block size
-1a3e9e8aa4f72440b00ef6171b4198f82822d679 ext4: support verifying data from large folios with fs-verity
-709f0f1f1bf5ca62a000084e5446ca6b57c8678c ext4: add checks for large folio incompatibilities when BS > PS
-cab8cbcb923a89cb583c9088fa50431eb2feded5 ext4: enable block size larger than page size
-91ef18b567dae84c0cea9b996d933c856e366f52 ext4: mark inodes without acls in __ext4_iget()
-a6c121a2432eee2c4ebceb1483ccd4a50a52983d net: phy: aquantia: check for NVMEM deferral
-362d051c90b6e27b01dceed8c47ddfc86e60db2c tools: ynl: add schema checking
-129dc6075a150f82926ed10942f02f941985d51f tools: ynl: add a lint makefile target
-acce9d7200e23de310c2cf8cd5439e86cd9ddc41 ynl: fix a yamllint warning in ethtool spec
-1adc241f3940c172c8c674a62004d3c34b360ab3 ynl: fix schema check errors
-2ce992a1a400b28fd52f5ee77fb5ab836bb861a8 Merge branch 'tools-ynl-add-schema-checking'
-bba18f3ba7cc1ca47428bc563fcc34e9e2ce0bf8 net: bnxt: extract GRXRINGS from .get_rxnfc
-335d78c6161b18e95f72404ee3e210e64b5f5adc net: bcmgenet: extract GRXRINGS from .get_rxnfc
-e48766e66b4d5b5f215adb600ff85bef0ee64800 Merge branch 'net-broadcom-migrate-to-get_rx_ring_count-ethtool-callback'
-6f2e1c75bc5eb2237e03c134c32a2a352484881e net: dsa: introduce the dsa_xmit_port_mask() tagging protocol helper
-621d06a40e4719fa76b8572046663d54e16425a5 net: dsa: tag_brcm: use the dsa_xmit_port_mask() helper
-e094428fb40c1b2cc98d97bc93db935aa65daa63 net: dsa: tag_gswip: use the dsa_xmit_port_mask() helper
-f59e44cc0d6c586d32732377d748045eeacc8cee net: dsa: tag_hellcreek: use the dsa_xmit_port_mask() helper
-ea659a9292b1df91abb80e56198d34f8c6697e84 net: dsa: tag_ksz: use the dsa_xmit_port_mask() helper
-84a60bbec50341ec49f9b4d56ca8dab9d99807f6 net: dsa: tag_mtk: use the dsa_xmit_port_mask() helper
-a4a00d9e365a99188e40153b5672d184649eb14e net: dsa: tag_mxl_gsw1xx: use the dsa_xmit_port_mask() helper
-5733fe2a7ad11a2d1ef8aaa0e6693923b2cbbdc2 net: dsa: tag_ocelot: use the dsa_xmit_port_mask() helper
-48afabaf4aaa2991df94cdfd554687b8c74b58be net: dsa: tag_qca: use the dsa_xmit_port_mask() helper
-4abf39c8aef5a0d4ec83f82164f69a3fcf8c8491 net: dsa: tag_rtl4_a: use the dsa_xmit_port_mask() helper
-5afe4ccc33f47ab84efab01d8f159542fd945b95 net: dsa: tag_rtl8_4: use the dsa_xmit_port_mask() helper
-b33aa90e68b42fd2c6125c1173449eb8c1c97d2c net: dsa: tag_rzn1_a5psw: use the dsa_xmit_port_mask() helper
-3c1975bbdf92c952c8c17ed67aa652adc6b64962 net: dsa: tag_trailer: use the dsa_xmit_port_mask() helper
-24099389a63fb9a3cf79d04f38c7892a9957858b net: dsa: tag_xrs700x: use the dsa_xmit_port_mask() helper
-64b0d2edb61aba9009a1c957568ad674059841a0 net: dsa: tag_yt921x: use the dsa_xmit_port_mask() helper
-8aa1053f9dafb866c069232d457b7b87b88ecba1 Merge branch 'introduce-the-dsa_xmit_port_mask-tagging-protocol-helper'
-840a64710e6d26589d4bdcc99c765037a7c5c95f Merge tag 'nf-next-25-11-28' of git://git.kernel.org/pub/scm/linux/kernel/git/netfilter/nf-next
-2c28ee720ad14f58eb88a97ec3efe7c5c315ea5d selftests: bonding: add delay before each xvlan_over_bond connectivity check
-e5235eb6cfe02a51256013a78f7b28779a7740d5 net: netpoll: initialize work queue before error checks
-ff736a286116d462a4067ba258fa351bc0b4ed80 net: ipconfig: Replace strncpy with strscpy in ic_proto_name
-841ecc979b18d3227fad5e2d6a1e6f92688776b5 MIPS: mm: kmalloc tlb_vpn array to avoid stack overflow
-cb2dc6d2869a4fb7ef8d792a81a74bc6f0958a72 can: Kconfig: select CAN driver infrastructure by default
-0dd5cf95b737f9917fce095578b1c9549e38c132 Merge tag 'Chinese-docs-6.19' of gitolite.kernel.org:pub/scm/linux/kernel/git/alexs/linux into tmp
-4d23db5b24a60c4add4755763e1275b2e5d14ffb docs: MAINTAINERS: update Mauro's files/paths
-2006f468bbf2f44fa3e295491c94ec116aa4b026 docs: kdoc_parser: add data/function attributes to ignore
-e36a7b1e173459bb250cb6a70681b64aa6d04915 docs: submitting-patches: Clarify that removal of Acks needs explanation too
-18182f9758de45f5ea1e46b95f3a9548a30eb61d docs: kdoc_parser: use '@' for Excess enum value
-5f88f44d8427a97347afda3a6114aed0df472a0b docs: kdoc: various fixes for grammar, spelling, punctuation
-b9a565b3e4d852d8af14f2c4be0b1dc45f0884b6 README: restructure with role-based documentation and guidelines
-464257baf99200d1be1c053f15aa617056361e81 docs: makefile: move rustdoc check to the build wrapper
-beb7021a6003d9c6a463fffca0d6311efb8e0e66 rqspinlock: Enclose lock/unlock within lock entry acquisitions
-5860f5ce479f42b29fabab8f668859f13cae44bb rqspinlock: Perform AA checks immediately
-81d5a6a438595e46be191d602e5c2d6d73992fdc rqspinlock: Use trylock fallback when per-CPU rqnode is busy
-30dc2f7025fe461132595500c761075a250f0e16 rqspinlock: Disable spinning for trylock fallback
-087849cca31d35e3643dedb0d35ba3f7e9cc6758 rqspinlock: Precede non-head waiter queueing with AA check
-3448375e71a49cc29cc62cc941bea137d723956e selftests/bpf: Add success stats to rqspinlock stress test
-34235a3544f20291819c20d1d6c4ba07784045a2 Merge branch 'limited-queueing-in-nmi-for-rqspinlock'
-4b4833acc63e9c8ea9d5897ee84b694f30b23882 selftests/bpf: rename test_tc_edt.bpf.c section to expose program type
-b0f82e7ab6fb2f8501ef87ae928cbf7358d7845e selftests/bpf: integrate test_tc_edt into test_progs
-50ce5ea5f7929b7a0267a2ab70115a6b8800a1d7 selftests/bpf: remove test_tc_edt.sh
-1d17bcce6a0e55b075309418199be212f70817ff selftests/bpf: do not hardcode target rate in test_tc_edt BPF program
-85bdeeb48f8731143f08e9ef7639ebca0464b1af Merge branch 'selftests-bpf-convert-test_tc_edt-sh-into-test_progs'
-c1af4465b9b983d9e7cefa01ec869e91c3dea11c bpf: make kprobe_multi_link_prog_run always_inline
-ff34657aa72a4dab9c2fd38e1b31a506951f4b1c bpf: optimize bpf_map_update_elem() for map-in-map types
-127fa2ae9e2b1f9b9d876dfaa39fe3640cec5764 KEYS: trusted: Replace a redundant instance of tpm2_hash_map
-62cd5d480b9762ce70d720a81fa5b373052ae05f KEYS: trusted: Fix a memory leak in tpm2_load_cmd
-6bda50f4333fa61c07f04f790fdd4e2c9f4ca610 Merge tag 'mips-fixes_6.18_2' of git://git.kernel.org/pub/scm/linux/kernel/git/mips/linux
-46f21952c492243b138281dc4cb755ab63b637c4 md/raid0: fix NULL pointer dereference in create_strip_zones() for dm-raid
-8c9e376b9d1a222fa02b93b615d2e25be0a91fed md: warn about updating super block failure
-a913d1f6a7f607c110aeef8b58c8988f47a4b24e md/raid5: fix IO hang when array is broken with IO inflight
-fdd0c6a649d24107bbadd249c87feab67b9037c5 md: remove legacy 1s delay in md_notify_reboot
-0177f0f07886e54e12c6f18fa58f63e63ddd3c58 Merge tag 'linux-can-next-for-6.19-20251129' of git://git.kernel.org/pub/scm/linux/kernel/git/mkl/linux-can-next
-c1536df9427dc90ec796fb755adcad3cfc469ac7 Merge tag 'md-6.19-20251130' of gitolite.kernel.org:pub/scm/linux/kernel/git/mdraid/linux into for-6.19/block
-30e13e41a0eb6bcc97e7c21eafee832b36851969 erofs: enable error reporting for z_erofs_fixup_insize()
-80d0c27a0a4af8e0678d7412781482e6f73c22c7 erofs: get rid of raw bi_end_io() usage
-e69c7c175115c51c7f95394fc55425a395b3af59 Merge tag 'timers_urgent_for_v6.18_rc8' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-9a08942f17017b708991c5089843d4a1bfac4420 Merge branch 'rcu/misc' into next
-7d0a66e4bb9081d75c82ec4957c50034cb0ea449 Linux 6.18
-e0e1b6db2e4b8fae44e222c188d3e96259d00c8e wireguard: netlink: enable strict genetlink validation
-aea199fa157164ed0824d14dddd6c6fa28e130e4 wireguard: netlink: validate nested arrays in policy
-9755f9de8fac62ed36f1925d6996daf4060d8839 wireguard: netlink: use WG_KEY_LEN in policies
-73af07d7f2f60914d9ad6b4ec102248196f8ceb9 wireguard: netlink: convert to split ops
-b8bcc17f583b87f9913659d69cd796fbc203e510 wireguard: netlink: lower .maxattr for WG_CMD_GET_DEVICE
-e009cb1e3093977c5b96a1c6697a7dc9332222d5 ksmbd: Use SHA-512 library for SMB3.1.1 preauth hash
-924067ef183bd17f39d790752190f99982524598 ksmbd: Use HMAC-SHA256 library for message signing and key generation
-3a597e6e9701eb7af04864ffdc0a6a91bc8c6496 ksmbd: Use HMAC-MD5 library for NTLMv2
-c5b462e35373a68a5a7954f5e00383998cc7fe92 smb/server: fix return value of smb2_read()
-d1a30b9ddc3d4c0e38666bd166d51863cb39f1c4 smb/server: fix return value of smb2_notify()
-dafe22bc676d4fcb1ccb193c8cc3dda57942509d smb/server: fix return value of smb2_query_dir()
-269df046c1e15ab34fa26fd90db9381f022a0963 smb/server: fix return value of smb2_ioctl()
-a3c4445fdbbb83aa94ea1778717ef57006164814 smb/server: fix return value of smb2_oplock_break()
-7d9f51d36b6c24e02b8a379cbaf1a273511ed403 smb/server: update some misguided comment of smb2_0_server_cmds proc
-94b955167e3b11372e314f45f4b2fbf4f92493b9 smb: rename common/cifsglob.h to common/smbglob.h
-34cf191bb6a349dc88ec2c4f6355fe006ac669e0 smb: move smb_version_values to common/smbglob.h
-36c31540cf5279262bfd148d8537cd04866499f2 smb: move get_rfc1002_len() to common/smbglob.h
-cd311445d9f5510979f6e9f4344178b9f5a4d981 smb: move SMB1_PROTO_NUMBER to common/smbglob.h
-7844d50ca239f0788e732608820f7026cb0cc8fb smb: move smb_sockaddr_in and smb_sockaddr_in6 to common/smb2pdu.h
-cc26f593dc193567bdb059a6ffde58e627a44f65 smb: move copychunk definitions to common/smb2pdu.h
-9c98f5eec877976dad1179149038a4b164e236b1 smb: move resume_key_ioctl_rsp to common/smb2pdu.h
-5d510ac31626ed157d2182149559430350cf2104 ksmbd: skip lock-range check on equal size to avoid size==0 underflow
-4a7f9607803203fe637c12b4ffce9973d85ee169 smb/client: fix CAP_BULK_TRANSFER value
-884a1d4e9c09b4a0dbe748890bdd48aac8e5a6b6 smb: move MAX_CIFS_SMALL_BUFFER_SIZE to common/smbglob.h
-833a75fc9ecc3856a52223d8c245e52703e0a9f1 smb: move create_durable_req_v2 to common/smb2pdu.h
-81a45de432c6c7d82821fb09cb9fc1cf58629f3a smb: move create_durable_handle_reconnect_v2 to common/smb2pdu.h
-96721fd292264d712b7b9a51752ab87de5035db4 smb: move create_durable_rsp_v2 to common/smb2pdu.h
-1172d8598499a006d172bb24bebaa3fdc99064a8 smb: move some duplicate definitions to common/smb2pdu.h
-d8ac9879182a1e1f3b97d166f5ba5e2f1b3e8535 smb: move SMB_NEGOTIATE_REQ to common/smb2pdu.h
-84d8d4cf8873b4a9da0d76e9ba9d94ec88311cfd smb: move list of FileSystemAttributes to common/fscc.h
-d7edd3892d97e6746e30f36f4f13f887ec4d80ed smb: move some duplicate struct definitions to common/fscc.h
-464b913993a14b539e978db10c755bb202ab14ed smb: move FILE_SYSTEM_SIZE_INFO to common/fscc.h
-95e8c1bfa56ebbc243779ee23782b30744da02f6 smb: do some cleanups
-e7e60e8bfcc5bfff0dc40a3b8ab275a4da6990a0 smb: fix some warnings reported by scripts/checkpatch.pl
-5003ad718af7705d6a519445a897843fac88167a smb: move create_durable_reconn to common/smb2pdu.h
-3316a8fc840d82fad5efcf76ad0ea3f76fdca209 ksmbd: server: avoid busy polling in accept loop
-b39a1833cc4a2755b02603eec3a71a85e9dff926 ksmbd: fix use-after-free in ksmbd_tree_connect_put under concurrency
-e4442b2e95baf0901830c924d0a197b100aca970 ksmbd: implement error handling for STATUS_INFO_LENGTH_MISMATCH in smb server
-c4a2a49f7df48147529158a092edfde1597d12f3 smb: move FILE_SYSTEM_ATTRIBUTE_INFO to common/fscc.h
-dc81b8f4f0fc9e1be0c9ce8a918503e175b2c9b2 ksmbd: Replace strcpy + strcat to improve convert_to_nt_pathname
-991f8a79db99b14c48d20d2052c82d65b9186cad ksmbd: vfs: fix race on m_flags in vfs_cache
-1f3fd108c5c5a9885c6c276a2489c49b60a6b90d smb: smbdirect: introduce SMBDIRECT_DEBUG_ERR_PTR() helper
-1adb2dab9727c5beaaf253f67bf4fc2c54ae70e7 smb: smbdirect: introduce SMBDIRECT_CHECK_STATUS_{WARN,DISCONNECT}()
-425c32750b48956a6e156b6a4609d281ee471359 smb: server: relax WARN_ON_ONCE(SMBDIRECT_SOCKET_*) checks in recv_done() and smb_direct_cm_handler()
-dc10cf1368af8cb816dcaa2502ba7d44fff20612 smb: client: relax WARN_ON_ONCE(SMBDIRECT_SOCKET_*) checks in recv_done() and smbd_conn_upcall()
-1fab1fa091f5aa97265648b53ea031deedd26235 ksmbd: ipc: fix use-after-free in ipc_msg_send_request
-9cfcd8601e56fd5e1fdb3adae57322fa5d7d3689 smb: client: show smb lease key in open_files output
-f78b83dce273ff2d9a4515b2945ec427e675c204 smb: client: show smb lease key in open_dirs output
-e1469f56089fc00bc94706a07c5cd63fa3e8625b cifs: Use netfs_alloc/free_folioq_buffer()
-51d7a054521de7085783a9a1ba15c3530863409a locking/mutex: Redo __mutex_init() to reduce generated code size
-52ed746147140e30419ee852c1916531b4ef9b0a locking/local_lock: Add the <linux/local_lock*.h> headers to MAINTAINERS
-719e357fc09c63238956eb7cd546627f9e050640 locking/local_lock: s/l/__l/ and s/tl/__tl/ to reduce the risk of shadowing
-43decb6b628eb033a1b6188e5018773c0d38be1d locking/local_lock: Fix all kernel-doc warnings
-0bdbf89a8bbeb155644b69dc2d071a1ce23414f8 erofs: switch on-disk header `erofs_fs.h` to MIT license
-6ec33db1aaf06a76fb063610e668f8e12f32ebbf objtool: Fix segfault on unknown alternatives
-48bc9da3c97c15f1ea24934bcb3b736acd30163d crypto: zstd - fix double-free in per-CPU stream cleanup
-e2349c5811ae642f6d948d1ee4bfc4a93566c178 Merge remote-tracking branches 'ras/edac-amd-atl', 'ras/edac-drivers' and 'ras/edac-misc' into edac-updates
-3869e431b51f3010f0d3bfc007c4a1b957c0ae1f Merge branch 'for-6.19-vsprintf-timespec64' into for-linus
-475bb520c39442443a8a8e9c8d72197bd3d2934c Merge branch 'rework/atomic-flush-hardlockup' into for-linus
-2d786a5b80a715dab2ef570fefbca8ef0753c7ed Merge branch 'rework/nbcon-in-kdb' into for-linus
-b1e6c41ef9daf5a975a677c3570c5f805c6c7514 Merge branch 'rework/preempt-legacy-kthread' into for-linus
-3a9a3f5fb224155bb719c337527ffdffca0c1d7f Merge branch 'rework/suspend-fixes' into for-linus
-4f132d81f9f8e47a8866d162698adb7df7184466 Merge branch 'rework/threaded-printk' into for-linus
-5cae92e622300d04ff23cc721dc67d8f5788e51c Merge branch 'rework/write_atomic-unsafe' into for-linus
-4d0e1f2139ad452d0e209a16b3d016af2f8ef1f7 blk-mq: use queue_hctx in blk_mq_map_queue_type
-d211a2803551c8ffdf0b97d129388f7d9cc129b5 block/rnbd: correct all kernel-doc complaints
-1885cdbfbb51ede3637166c895d0b8040c9899cc Merge tag 'vfs-6.19-rc1.iomap' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
-b04b2e7a61830cabd00c6f95308a8e2f5d82fa52 Merge tag 'vfs-6.19-rc1.misc' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
-9368f0f9419cde028a6e58331065900ff089bc36 Merge tag 'vfs-6.19-rc1.inode' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
-ebaeabfa5ab711a9b69b686d58329e258fdae75f Merge tag 'vfs-6.19-rc1.writeback' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
-415d34b92c1f921a9ff3c38f56319cbc5536f642 Merge tag 'namespace-6.19-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
-212c4053a1502e5117d8cbbbd1c15579ce1839bb Merge tag 'vfs-6.19-rc1.coredump' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
-f2e74ecfba1b0d407f04b671a240cc65e309e529 Merge tag 'vfs-6.19-rc1.folio' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
-7adf0efb41fc386daed9f74b9fe8d7e28f0f6f3d ynl: samples: Fix spelling mistake "failedq" -> "failed"
-d3fbfb8b2c4a352bf9167809d2e2e8f8e685d348 net: gianfar: convert to use .get_rx_ring_count
-b2d63392690156285e53562ed91b87131c9a97ac net: dpaa2: convert to use .get_rx_ring_count
-ca8df5b877d4b027fcd3968c0519af2b33de4e8a net: enetc: convert to use .get_rx_ring_count
-cbca440dc329b39f18a1121e385aed830bbdfb12 Merge branch 'net-freescale-migrate-to-get_rx_ring_count-ethtool-callback'
-40d5ce4af2067aab275b8aef690e77455da5314a net: dlink: fix several spelling mistakes in comments
-4b1639cac04cbc0d19321fc26476ea4f89ff4c8a selftests: net: py: handle interrupt during cleanup
-aadff9f766399a350aa3e09fc671617bdc0b365f selftests: net: add a hint about MACAddressPolicy=persistent
-09339d0d83108fd4f59b94677ac99bde870aa0ae l2tp: correct debugfs label for tunnel tx stats
-ea2d3befcf29cca5221d0572d54e4d71b683175d net: dsa: yt921x: Set ageing_time_min/ageing_time_max
-e3b8cbf40c6e60a7a935bd8980884d5741a7a77b selftests: netconsole: remove log noise due to socat exit
-1dd6c84f1c544e552848a8968599220bd464e338 sched_ext: Fix incorrect sched_class settings for per-cpu migration tasks
-484f1176896e85b5ae4f04403c8cd5b79aced95e Bluetooth: mediatek: add gpio pin to reset bt
-01622e9a5336015f657df423b700e488fbcd2f39 Bluetooth: hci_h5: avoid sending two SYNC messages
-97fdb2ea06efdde784480934d1ff60eb21e88b58 Bluetooth: hci_h5: implement CRC data integrity
-33b2835f0b7e2a458473b0e3a23b54b92108b6b0 Bluetooth: HCI: Add initial support for PAST
-c530569adc19b5f0c62955de41f067bad34e3fe0 Bluetooth: hci_core: Introduce HCI_CONN_FLAG_PAST
-d3413703d5f8b7d1e6f514f9440ed5da1bc30796 Bluetooth: ISO: Add support to bind to trigger PAST
-14b06c3a88f7031d64fbce197fad1d400e507663 Bluetooth: HCI: Always use the identity address when initializing a connection
-f817db10dc80d5d1eece60d93eba11062afe5154 Bluetooth: ISO: Attempt to resolve broadcast address
-a3b76bf4c4c90994248e3211b300d2d9834874f9 Bluetooth: MGMT: Allow use of Set Device Flags without Add Device
-577cf4c0a1e8471a0d6c0f36bb3716285e27ad5e Bluetooth: ISO: Fix not updating BIS sender source address
-c126f98c011f5796ba118ef2093122d02809d30d Bluetooth: btusb: MT7920: Add VID/PID 0489/e135
-5a6700a31c953af9a17a7e2681335f31d922614d Bluetooth: btusb: MT7922: Add VID/PID 0489/e170
-1fb0d830dab89d0dc99bb84a7087b0ceca63d2d8 Bluetooth: btintel_pcie: Support for S4 (Hibernate)
-88c6216a52ea592ec351dddd042ecb0247325be5 Bluetooth: btintel_pcie: Suspend/Resume: Controller doorbell interrupt handling
-8dbbb5423c0802ec21266765de80fd491868fab1 Bluetooth: btusb: Add new VID/PID 2b89/6275 for RTL8761BUV
-0b00bee940cb16bfd42e764465705dbf2a95b55c Bluetooth: btusb: Reclassify Qualcomm WCN6855 debug packets
-73d2d709cc172da53402c9b2ead39bebc774ea16 dt-bindings: net: Convert Marvell 8897/8997 bindings to DT schema
-b8414ba5a0e66ab0c5203cd015fc2d2948860af3 Bluetooth: Remove redundant pm_runtime_mark_last_busy() calls
-4a23ce935f74d19df48d1906497fad1cef391392 Bluetooth: btrtl: Add the support for RTL8761CUV
-027473ef6a83f28cd6b12551d93dfa24662bdcce Bluetooth: MAINTAINERS: Add Bartosz Golaszewski as Qualcomm hci_qca maintainer
-56f765ce73b4303ec5d85439ca7ce1bc0736d18b Bluetooth: iso: fix socket matching ambiguity between BIS and CIS
-32caa197b9b603e20f49fd3a0dffecd0cd620499 Bluetooth: btusb: Add new VID/PID 0x0489/0xE12F for RTL8852BE-VT
-f460768bba2a548abba1df0fd1df5ec77341a539 Bluetooth: btusb: Add new VID/PID 0x13d3/0x3618 for RTL8852BE-VT
-1216462f4e7c4b7e5cf31545fa5fa4d1c53214cb Bluetooth: btusb: Add new VID/PID 0x13d3/0x3619 for RTL8852BE-VT
-a8b38d19857d42a1f2e90c9d9b0f74de2500acd7 Bluetooth: btusb: add new custom firmwares
-bc6f557b3387d807e08ffb8d638f149fedb75bf6 Bluetooth: btintel_pcie: Introduce HCI Driver protocol
-6f7cf13ef6b0fe2bdd539e5aa1b1fc8a1213cfc3 drivers/bluetooth: btbcm: Use kmalloc_array() to prevent overflow
-a106e50be74b0896583f4d010a69f9806e4194f4 Bluetooth: HCI: Add support for LL Extended Feature Set
-525459da4bd62a81142fea3f3d52188ceb4d8907 Bluetooth: btusb: Add new VID/PID 13d3/3533 for RTL8821CE
-1d18101a644e6ece450d5b0a93f21a71a21b6222 Merge tag 'kernel-6.19-rc1.cred' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
-56435627d90f252017237fa66a9fa081b11113f9 net: pcs: lynx: accept in-band autoneg for 2500base-x
-6ab578739a4c1f5ae3c5416d9c7339a2f50d83f1 net: mctp: test: move TX packetqueue from dst to dev
-9bf66036d686b9a67000ba22bd94be13a4ea79ac net: mana: Handle hardware recovery events when probing the device
-afdf0fb340948a8c0f581ed1dc42828af89b80b6 Merge tag 'vfs-6.19-rc1.fs_header' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
-aee0f01b4f118844cb126a5f27e91c2adf087c59 team: Add matching error label for failed action
-c3b744fd20191963f1739498446b5efb812c99d8 amd-xgbe: refactor the dma IRQ handling code path
-ab96af7004c76de5fdca077b1e3732a7ec96f69b amd-xgbe: schedule NAPI on Rx Buffer Unavailable (RBU)
-4e3583cb61a9e1306bbc8146c891292405003d9e Merge branch 'amd-xgbe-schedule-napi-on-rbu-event'
-978d337c2ed6e5313ee426871a410eddc796ccfd Merge tag 'vfs-6.19-rc1.guards' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
-6f268e275c74dae0536e0b61982a8db25bcf4f16 net: dsa: b53: fix VLAN_ID_IDX write size for BCM5325/65
-9316012dd01952f75e37035360138ccc786ef727 net: dsa: b53: fix extracting VID from entry for BCM5325/65
-8e46aacea4264bcb8d4265fb07577afff58ae78d net: dsa: b53: use same ARL search result offset for BCM5325/65
-85132103f700b1340fc17df8a981509d17bf4872 net: dsa: b53: fix CPU port unicast ARL entries for BCM5325/65
-3b08863469aa6028ac7c3120966f4e2f6051cf6b net: dsa: b53: fix BCM5325/65 ARL entry multicast port masks
-d39514e6a2d14f57830d649e2bf03b49612c2f73 net: dsa: b53: fix BCM5325/65 ARL entry VIDs
-0b2b27058692d437b12d3f2a3bf0fa699af7376e net: dsa: b53: allow VID 0 for BCM5325/65
-8d92057c4a9bb14683c9f87f2f26b97564d72b2f Merge branch 'net-dsa-b53-fix-arl-accesses-for-bcm5325-65-and-allow-vid-0'
-596c696301b1bcb9e482e22a4f7f582858eefbcc Revert "r8169: add DASH support for RTL8127AP"
-e1de33c377b685298da406bb4838bd9814194f96 net/mlx5e: Use u64 instead of __u64 in ieee_setmaxrate
-e1098bb02f2d9a85a127aecad6378e4f159acce5 net/mlx5e: Rename upper_limit_mbps to upper_limit_100mbps
-53f7a771285182be7bfba6d59ccdd0d47fc1a097 net/mlx5e: Use U8_MAX instead of hard coded magic number
-87a5112bfc406a72c6bf1e8cdef9b0169dc1df6a net/mlx5e: Use standard unit definitions for bandwidth conversion
-8d537e333e3704ff1093878e83e553daa2e98d95 Merge branch 'net-mlx5e-enhance-dcbnl-get-set-maxrate-code'
-5e1bf5ae5e3ba3588b474669ba05f5d202003d84 net: phy: phy-c45: add SQI and SQI+ support for OATC14 10Base-T1S PHYs
-16416c8352875deca61d359e44a419fae0d8993c net: phy: microchip_t1s: add SQI support for LAN867x Rev.D0 PHYs
-a2027019e9cea7f0d82141a2ac2b5709c1dcd88c Merge branch 'add-sqi-and-sqi-support-for-oatc14-10base-t1s-phys-and-microchip-t1s-driver'
-d973ac83ad0d0292c81d4bcbb4a335834f90aa5d net: dsa: yt921x: Use *_ULL bitfield macros for VLAN_CTRL
-633b1d010ce838bd5e9dd71e738328e16e3df81d net: dsa: yt921x: Add STP/MST support
-b4dcaeea5e9a9a27d9dca3e746f1423c218a7ca0 Merge branch 'net-dsa-yt921x-add-stp-mst-support'
-4664fb427c8fd0080f40109f5e2b2090a6fb0c84 Merge tag 'vfs-6.19-rc1.minix' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
-db74a7d02ae244ec0552d18f51054f9ae0d921ad Merge tag 'vfs-6.19-rc1.directory.delegations' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
-a8058f8442df3150fa58154672f4a62a13e833e5 Merge tag 'vfs-6.19-rc1.directory.locking' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
-d0deeb803cd65c41c37ac106063c46c51d5d43ab Merge tag 'vfs-6.19-rc1.ovl' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
-ffbf700df204dd25a48a19979a126e37f5dd1e6a Merge tag 'vfs-6.19-rc1.autofs' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
-3b87e60d213150bc1f8475ec3c542f4c8cdd2e2c net: dsa: mt7530: unexport mt7530_switch_ops
-a0244e76213980f3b9bb5d40b0b6705fcf24230d net: hsr: create an API to get hsr port type
-bed59a86e91ad680331ecad4bf8717cbd4f5fc7f net: dsa: avoid calling ds->ops->port_hsr_leave() when unoffloaded
-30296ac7642652428396222e720718f2661e9425 net: dsa: xrs700x: reject unsupported HSR configurations
-0e75bfe340bf05d1586eaf02942438573bda69e3 net: dsa: add simple HSR offload helpers
-42e63b1373a32bd136dc51325684727f3b9a4986 net: dsa: yt921x: use simple HSR offloading helpers
-4b65d445556d398b54fbeed8780ea9f07813f757 net: dsa: ocelot: use simple HSR offload helpers
-6db31942e3470607be155d2c641c7a15da3c826c net: dsa: realtek: use simple HSR offload helpers
-b6ad21ef286a00de103ef6d94292e4da649d6453 net: dsa: lantiq_gswip: use simple HSR offload helpers
-4af9fa2ba65aa6bdad6f343b9e44704dce1ddf79 net: dsa: mv88e6060: use simple HSR offload helpers
-017bcff7321af438f1190dbdf417815ea8ef60c0 net: dsa: hellcreek: use simple HSR offload helpers
-585943b7ad3092257ce2d696af32e2c783a566b8 net: dsa: mt7530: use simple HSR offload helpers
-7271d4a08c399104de663762806a9a521352a0d1 net: dsa: a5psw: use simple HSR offload helpers
-977839161f26862e77a2c9a46b4d7b0b00b20dad Documentation: net: dsa: mention availability of RedBox
-4e4c00f34d5dbbb2b7174fc419747f0b3fe7a4d5 Documentation: net: dsa: mention simple HSR offload helpers
-3101f3e116452548f1a2da311328543207b10bf8 Merge branch 'dsa-simple-hsr-offload'
-d8e08149a5ed501d515dbe9f53cc46d25acb4a2a net: ps3_gelic_net: Use napi_alloc_skb() and napi_gro_receive()
-4a18b6cd7c5703219a8256956904c47c0e7beade Merge tag 'for-net-next-2025-12-01' of git://git.kernel.org/pub/scm/linux/kernel/git/bluetooth/bluetooth-next
-a8658f7bb6504af125242bb4d4e49ca032eccf91 selftests: drv-net: Add devlink_rate_tc_bw.py to TEST_PROGS
-2a60ce94c6e871cbe761e6019d40bb8cabb8d15d selftests: drv-net: introduce Iperf3Runner for measurement use cases
-cb1acbd30a42204b39e4846e1139b6fa9a40fafe selftests: drv-net: Use Iperf3Runner in devlink_rate_tc_bw.py
-3796e549e305194ac379c843f0eec5e013276fc3 selftests: drv-net: Set shell=True for sysfs writes in devlink_rate_tc_bw.py
-9ecd05a2c872d5eb2ae360d2907cf9375cf2ef5a selftests: drv-net: Fix and clarify TC bandwidth split in devlink_rate_tc_bw.py
-5cc1bddcfeb298fe7e67952a50894de8afa46db5 selftests: drv-net: Fix tolerance calculation in devlink_rate_tc_bw.py
-cbc19b3229f1d509b45816a5afd42cc34c03d284 Merge branch 'selftests-drv-net-fix-issues-in-devlink_rate_tc_bw-py'
-1b5dd29869b1e63f7e5c37d7552e2dcf22de3c26 Merge tag 'vfs-6.19-rc1.fd_prepare.fs' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
-6b0f4ca079dbe6ae4aa57e529d67c7dc00d63577 wireguard: netlink: add YNL specification
-b5c5a82bf5cb96e14a6627ef21be962052a0c6d8 wireguard: uapi: move enum wg_cmd
-8d974872ab29eeb93a5b0b698007257d8be07968 wireguard: uapi: move flag enums
-88cedad45ba14097e06d2c9f6578688097a94691 wireguard: uapi: generate header with ynl-gen
-3fd2f3d2f4259df19eec3ea5a188d7c50a37e216 wireguard: netlink: generate netlink code
-b53440f8e5a1466870d7a1d255e0f9966e0041fb Merge tag 'locking-core-2025-12-01' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-63e6995005be8ceb8a1d56a18df1a1a40c28356d Merge tag 'objtool-core-2025-12-01' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-31a3ed492dd41908b60b57d82f0ba878eae685fd Merge tag 'wireguard-6.19-rc1-for-jakub' of https://git.kernel.org/pub/scm/linux/kernel/git/zx2c4/wireguard-linux
-6c26fbe8c9d3e932dce6afe2505b19b4b261cae9 Merge tag 'perf-core-2025-12-01' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-6d2c10e889db596938bb7b4d3cdd42d67208439a Merge tag 'sched-core-2025-12-01' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-de2f75d55ef85861ffc81c7583e0715453eb7235 Merge tag 'x86-apic-2025-12-01' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-e7d81c1ed665e72c55ae5cf2d7601c09842b4013 Merge tag 'x86-build-2025-12-01' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-dcd8637edb873bd940e6aa82417dfb33ae980778 Merge tag 'x86-core-2025-12-01' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-4a26e7032d7d57c998598c08a034872d6f0d3945 Merge tag 'core-bugs-2025-12-01' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-9fefc78f7f02d71810776fdeb119a05a946a27cc net/sched: sch_cake: Fix incorrect qlen reduction in cake_drop
-108f9405ce81085284c7ab09b84784b94b611435 selftests/tc-testing: Test CAKE scheduler when enqueue drops packets
-96a8395061358adcd4b6a4f0f4c8989ec69e8659 net/mlx5e: Update XDP features in switch channels
-d4aa0cc9bd31f3e0cd5f067d649bf39135e4b46b net/mlx5e: Support XDP target xmit with dummy program
-3c4159b3019cc3444495f54c18083cda579cba84 Merge branch 'net-mlx5e-disable-egress-xdp-redirect-in-default'
-1dce50698a5ceedaca806e0a78573886a363dc95 Merge tag 'core-uaccess-2025-11-30' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-8a157e0a0aa5143b5d94201508c0ca1bb8cfb941 gfs2: Fix use of bio_chain
-2b09f480f0a1e68111ae36a7be9aa1c93e067255 Merge tag 'core-rseq-2025-11-30' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-312f5b18663a6dd8d8e6ad5a3fce0059a11686b2 Merge tag 'core-debugobjects-2025-11-30' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-6863c8385c28ba4d30391f1d1fce39f62581d362 Merge tag 'irq-core-2025-11-30' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-15b87bec89cb227b55b3689bf5de31b85cf88559 Merge tag 'irq-drivers-2025-11-30' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-9ce62ebbb7b24c28a1781f6b3bc6fdcd0b961392 Merge tag 'irq-msi-2025-11-30' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-5028f42416eaec08d3f6aa4f98ccca669b3f8ab3 Merge tag 'timers-clocksource-2025-11-30' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-d42e504a555d0da2a10001e697f0c8a7f633fb05 Merge tag 'timers-core-2025-11-30' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-7f8d5f70fffe2177afcc62f02feead5827dfe8dd Merge tag 'core-core-2025-12-03' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-49219bba0149157774b7091c3ea9ad22b2114285 Merge tag 'edac_updates_for_v6.19_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/ras/ras
-a61288200e8b6f42bff116508dc72ebcc206f10a Merge tag 'ras_core_for_v6.19_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-854858848bc7ac6ea3bf896ef1b541cb9d4bca20 net: page pool: xa init with destroy on pp init
-9954464d737dd12f12b274d3da46397e3656f079 net: page_pool: sanitise allocation order
-2a47c26e55a2bc085a2349ed1d4e065ee298155f Merge tag 'x86_microcode_for_v6.19_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-2ae20d651091c71ef182d28cbf10ce6f8be79c99 Merge tag 'x86_cache_for_v6.19_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-d7489818348e5374a8a12a309183fa44b3df41cc Merge tag 'x86_cleanups_for_v6.19_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-cb502f0e5e87f769417691c7060a358a8b117c22 Merge tag 'x86_sev_for_v6.19_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-a9a10e920e2e1ece946c584aa68f8a4fcedab791 Merge tag 'x86_bugs_for_v6.19_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-c76431e3b53a426de565fa75f8278c59ca6f5ed6 Merge tag 'x86_mm_for_v6.19_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-54de197c9a5e8f522cb0a472e68e3e9888c91aa3 Merge tag 'x86_sgx_for_6.19-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-e2aa39b368bb147afe8f6bd63d962494354f6498 Merge tag 'x86_misc_for_6.19-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-a7610b8465393edc936c2640b903cb7758d5d155 Merge tag 'x86_entry_for_6.19-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-d61f1cc5db799f4e44a63418b2dc19396787427b Merge tag 'x86_cpu_for_6.19-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-4de44542991ed4cb8c9fb2ccd766d6e6015101b0 Merge git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
-4a21d1b33f47b7fb330f8e7af69192493e3125d1 Merge tag 'm68k-for-v6.19-tag1' of git://git.kernel.org/pub/scm/linux/kernel/git/geert/linux-m68k
-2547f79b0b0cd969ae6f736890af4ebd9368cda5 Merge tag 's390-6.19-1' of git://git.kernel.org/pub/scm/linux/kernel/git/s390/linux
-44fc84337b6eae580a51cf6f7ca6a22ef1349556 Merge tag 'arm64-upstream' of git://git.kernel.org/pub/scm/linux/kernel/git/arm64/linux
-959bfe496bbaf3daa5dca32d397e29ea12471779 Merge tag 'acpi-6.19-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
-d348c22394ad3c8eaf7bc693cb0ca0edc2ec5246 Merge tag 'pm-6.19-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
-619f4edc8d4f785dcabf564786e787fa8108deb4 Merge tag 'thermal-6.19-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
-5abe8d8efc022cc78b6273d01e4a453242b9f4d8 Merge tag 'libcrypto-updates-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/ebiggers/linux
-db425f7a0b158d0dbb07c4f4653795aaad3a7a15 Merge tag 'libcrypto-tests-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/ebiggers/linux
-8f4c9978de91a9a3b37df1e74d6201acfba6cefd Merge tag 'aes-gcm-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/ebiggers/linux
-906003e15160642658358153e7598302d1b38166 Merge tag 'libcrypto-at-least-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/ebiggers/linux
-f617d24606553159a271f43e36d1c71a4c317e48 Merge tag 'fpsimd-on-stack-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/ebiggers/linux
-3f9f0252130e7dd60d41be0802bf58f6471c691d Merge tag 'random-6.19-rc1-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/crng/random
-864468ae309943fc9a1067606098b30959e4db33 ipe: Drop a duplicated CONFIG_ prefix in the ifdeffery
-67678189e492dc119b91c30beccd12cdbb32350e ipe: Add AT_EXECVE_CHECK support for script enforcement
-d7ba853c0e47d57805181f5269ba250270d2adde ipe: Update documentation for script enforcement
-82d7a9da6e5ba41623c0959fbe03574cbae4ce9c dt-bindings: thermal: qcom-tsens: Remove invalid tab character
-f2310b6271dc54278337987ec8140175e8df16f4 Merge tag 'nolibc-20251130-for-6.19-1' of git://git.kernel.org/pub/scm/linux/kernel/git/nolibc/linux-nolibc
-b082c4b06056139b2f3e0a8a0fa3235e145fba80 Merge tag 'keys-next-6.19-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-7fc2cd2e4b398c57c9cf961cfea05eadbf34c05c Merge tag 'keys-trusted-next-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-121cc35cfb55ab0bcf04c8ba6b364a0990eb2449 Merge tag 'lsm-pr-20251201' of git://git.kernel.org/pub/scm/linux/kernel/git/pcmoore/lsm
-51e3b98d737aa3e76e077db77b9aa749436c93ac Merge tag 'selinux-pr-20251201' of git://git.kernel.org/pub/scm/linux/kernel/git/pcmoore/selinux
-0eae3283c3024d576623736eeafcde75135ad585 Merge tag 'audit-pr-20251201' of git://git.kernel.org/pub/scm/linux/kernel/git/pcmoore/audit
-204a920f284e7264aa6dcd5876cbb1e03a7e4ebc Merge tag 'Smack-for-6.19' of https://github.com/cschaufler/smack-next
-777f8171602d5954cac024b66afa1b5b030641a4 Merge tag 'integrity-v6.19' of git://git.kernel.org/pub/scm/linux/kernel/git/zohar/linux-integrity
-c8321831480d80af01ce001bd6626fc130fd13b1 Merge tag 'ipe-pr-20251202' of git://git.kernel.org/pub/scm/linux/kernel/git/wufan/ipe
-a619fe35ab41fded440d3762d4fbad84ff86a4d4 Merge tag 'v6.19-p1' of git://git.kernel.org/pub/scm/linux/kernel/git/herbert/crypto-2.6
-f96163865a1346b199cc38e827269296f0f24ab0 Merge tag 'docs-6.19' of git://git.lwn.net/linux
-b687034b1a4d85333ced0fe07f67b17276cccdc8 Merge tag 'slab-for-6.19' of git://git.kernel.org/pub/scm/linux/kernel/git/vbabka/slab
-98e7dcbb82fa57de8dfad357f9b851c3625797fa Merge tag 'rcu.release.v6.19' of git://git.kernel.org/pub/scm/linux/kernel/git/rcu/linux
-4a4e0199378f309fa7259132e1443efe56c1e276 Merge tag 'lkmm.2025.12.01a' of git://git.kernel.org/pub/scm/linux/kernel/git/paulmck/linux-rcu
-4d38b88fd17e9989429e65420bf3c33ca53b2085 Merge tag 'printk-for-6.19' of git://git.kernel.org/pub/scm/linux/kernel/git/printk/linux
-2b60145734a0e5a4b73952a540928d2c4f4fed64 Merge tag 'wq-for-6.19' of git://git.kernel.org/pub/scm/linux/kernel/git/tj/wq
-8449d3252c2603a51ffc7c36cb5bd94874378b7d Merge tag 'cgroup-for-6.19' of git://git.kernel.org/pub/scm/linux/kernel/git/tj/cgroup
-02baaa67d9afc2e56c6e1ac6a1fb1f1dd2be366f Merge tag 'sched_ext-for-6.19' of git://git.kernel.org/pub/scm/linux/kernel/git/tj/sched_ext
-51ab33fc0a8bef9454849371ef897a1241911b37 Merge tag 'livepatching-for-6.19' of git://git.kernel.org/pub/scm/linux/kernel/git/livepatching/livepatching
-784faa8eca8270671e0ed6d9d21f04bbb80fc5f7 Merge tag 'rust-6.19' of git://git.kernel.org/pub/scm/linux/kernel/git/ojeda/linux
-2ddcf4962c1834a14340a1f50afafc3276c015bd Merge tag 'kbuild-6.19-1' of git://git.kernel.org/pub/scm/linux/kernel/git/kbuild/linux
-2488655b2f6b9d7d4afc19ecc1e7b1dccd67b13c Merge tag 'linux_kselftest-next-6.19-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/shuah/linux-kselftest
-b6d993310a65b994f37e3347419d9ed398ee37a3 Merge tag 'linux_kselftest-kunit-6.19-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/shuah/linux-kselftest
-015e7b0b0e8e51f7321ec2aafc1d7fc0a8a5536f Merge tag 'bpf-next-6.19' of git://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf-next
-8f7aa3d3c7323f4ca2768a9e74ebbe359c4f8f88 Merge tag 'net-next-6.19' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net-next
-0abcfd8983e3d3d27b8f5f7d01fed4354eb422c4 Merge tag 'for-6.19/io_uring-20251201' of git://git.kernel.org/pub/scm/linux/kernel/git/axboe/linux
-cc25df3e2e22a956d3a0d427369367b4a901d203 Merge tag 'for-6.19/block-20251201' of git://git.kernel.org/pub/scm/linux/kernel/git/axboe/linux
-7696286034ac72cf9b46499be1715ac62fd302c3 Merge tag 'for-6.19-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
-ca010e2ef64ce2a8f3907a5c02f8109012ea5dc6 Merge tag 'hfs-v6.19-tag1' of git://git.kernel.org/pub/scm/linux/kernel/git/vdubeyko/hfs
-477e31fd1e81ef925ce55931bcdbf609ba2207c8 Merge tag 'erofs-for-6.19-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/xiang/erofs
-3ed1c68307c4ce53256e15b8a8830b12bdba1ff5 Merge tag 'xfs-merge-6.19' of git://git.kernel.org/pub/scm/fs/xfs/xfs-linux
-869737543b39a145809c41a7253c6ee777e22729 Merge tag 'v6.19-rc-smb-fixes' of git://git.samba.org/ksmbd
-afcbce74f358a540761aa893939590a667162dff Merge tag 'gfs2-for-6.19' of git://git.kernel.org/pub/scm/linux/kernel/git/gfs2/linux-gfs2
-fbeea4db51a6eaf62b4784f718844726dd2199b9 Merge tag 'ext4_for_linus-6.19-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tytso/ext4
-559e608c46553c107dbba19dae0854af7b219400 Merge tag 'ntfs3_for_6.19' of https://github.com/Paragon-Software-Group/linux-ntfs3
-6de6cbea6a16e412f4e6a606ba102a5bf2cb3b2b Revert "mailbox/pcc: support mailbox management of the shared buffer"
-53e9519f828d9415fdedc27e63a3adbfbf62b3fa mailbox: pcc: Wire up ->last_tx_done() for PCC channels
-4f5ccc50494eabc5abdb11f38a6287993594fd25 mailbox: pcc: Set txdone_irq/txdone_poll based on PCCT flags
-6cc2bdead1459b3ee739b553f146e45e0f28d5c4 mailbox: pcc: Mark Tx as complete in PCC IRQ handler
-8f97d10d9c7cb2f35a7bf7e634a478c30ca39de5 mailbox: pcc: Initialize SHMEM before binding the channel with the client
-39db9e78682ebc3ed5ae7f5ab17c11b3c3351a29 mailbox: pcc: Clear any pending responder interrupts before enabling it
+da9416e54dbf08e4c7db6920dec838515500673f Fix all clippy warnings with pedantic lints
+c0c5673de21184d637c3971327d457cbfff7d294 sasha: review v6.14.9
+34077344b2f75f1f96c8b848ded007e3cc3fe95a update cvelistV5
+7b00e522317490aceffdc68dcdef9e497a346384 reject CVE-2023-53025 on review
+2ab1774591d7f65744434593e6c88a726cfd97f1 sasha: review v6.14.10
+4fc511fc2750b55445940d5974d4309be4bc3e05 assign CVE-2025-38000 on request
+a6c4b49d9f8ee42d9ef9d72f8d51814018ab88d8 dyad: allow a vulnerable id to be in Linus's branch but NOT in a release yet
+c30a416d5134f50a4c36a70bcc2af792c4a250dc assign CVE-2025-38001 on request
+8ea19d7483ec3ef5c1ca3ac0e8854aa1871058f7 assign CVE-2025-38002 on request
+036e4d983fb8d39f889bac3b852324d0cb03cdcd strip some mbox files
+12e0d8e0d55f6dd9e10eafbc4c04babf98d82508 voting_results: restore multi-line annotation support
+e9df8b6ae56dd098722693a2adc22b239268197d assign some CVEs on request.
+39e0a85c0dc9159ce1143cbdc802cabbfce5a502 strip some mbox information
+5de57a11020ffcf70484fb915750b4e1593bfeee update cvelistV5
+e6b87e65122880d6d7bf22c893ad7daf5f76ffda add 6.14.10 and 6.15.1 reviews from greg
+13b893ce4a25b20bd83e4de44787544167faa728 add 6.14.8 review from greg
+e1894d252fc023d759936d3ad4fd37a4bbdf159d add first bit of 6.14.9 review from greg
+95939bdcf672f86c105d581b03f14fe29785d62b scripts/cve_review: don't count the annotated file as "previously seen"
+defa194dc00c1d2851e8a0c0152ffe12406c2971 finish up 6.14.9 review from greg
+7a23485fd11387482de2e3a775a86193b5cfeb34 add gsd-request-2022-09-15.review from greg
+4454c5eea3098db5f620d201816eb218d3025b29 update entries based on 6.16-rc1 release
+5229705b0d0c04d908cfb85d0172bd027bae6f17 move 6.14.7 review to done state
+1e30fa98d220a0ce282630825e666c212e24a15d updates based on new stable releases
+b272c0784623709bedeab58687255984d92fa3a7 proposed: Add Allen's v6.14.[9/10] & v6.15.1 results
+7022f522669c728493a1e38ed9d3d56084578b9a cve_review: Show annotations when reviewing
+ec95945e0e841ec2eb6add049ce8e0b6a6b766c7 cve_review: Colour annotations using the existing match criteria
+7e187ca1c69443342c5e9c2a3e9de1e91a4bb595 proposed: Add Lee's v6.14.8 results
+cea68ba854eca770d12941b760c45cfe1a377d5b proposed: Add Lee's v6.14.9 results
+c26d0c6c04c0589e50fa950ffa363db93ec26401 update cvelistV5
+21abc77586c04379fecf9bc5b5b15a784b72a783 update cvelistV5
+8aa156b052ff2ebd7ad6f702efb8d87f13a6c817 tools: voting_results: add --no-annotate option
+aac0331be4109005110631ac0e090e62bd796aac assign some CVE ids for 6.14.8
+48d48ef7db07e729250c7afbf5683743c3e8b7a1 assign some 6.14.9 cve ids
+bb62050352ccf9904548fdc951f04751ff26a159 assign a 6.14.10 cve id
+2da1a771a09d6ca122ec95a3d6b69fee340a6e03 strip some newly created .mbox files
+bf031a097f46dc7d31ec3c5adf1b296082880882 remove already assigned CVE ids from gsd-request-2022-09-15.review-fromfile-greg
+36964af6712d2e567f8b80c5bbd3da7952726be0 assign some cve ids from gsd-request-2022-09-15.review-fromfile-greg
+d709c40f642111437121e4cd5f63b651cebf93d6 reserve some more 2022 cve ids from cve.org
+1d03d5ad4177c5d87f518d51f409ec6ff2774322 assign some more cve ids from gsd-request-2022-09-15
+5baf1119e0ed5ac737206861bd85d0a8bb921978 mark gsd-request-2022-09-15 as now processed
+4168c0ff229c52f130b0206eb341c80f7b2f4fc0 strip the new mbox files
+962c2e24469539b785b4a696e9a741f257294e33 reject some cve ids based on review
+80669ac36c277c43df8f6400187e055ecd5322c0 reject a cve that had a sha1 that was assigned already
+2665ac4ffc5f71500316fd4b9c9b884d53d664f0 reject CVE-2024-50032 as it was reverted
+dd346d2c1b4b9051ace7bcb767fbb831a8f06710 reject CVE-2022-50216 as it was reverted
+36135e265fbfbfbad9397c3086e2addf3ef64193 reject CVE-2022-50180 as the git id was reverted
+a499417d6dc225a11449bb4dda9282f0ec110ee9 reject CVE-2022-50150 as it was reverted
+fbcc2fed98d5a0cae3e851edbe9efab8f592683b reject CVE-2022-50128 as it was reverted
+384235e2d5f95738024e3e01e58f0c517a0a7b35 reject CVE-2022-50081 as it was reverted
+87725d76c35de9486edfd93bc8d8edf0387ffaf2 reject CVE-2022-50018 as it was reverted
+b28aa1647aabe725fb16ac25ebfa224711baf97a reject CVE-2022-49988 as it was reverted
+6af6b9b11c79a9e73ec5b4766aa39246857382ff reject CVE-2022-49941 as it was reverted
+cfb5510cee8c5b95edd9d1d35335a2e0096b2f3e tools: voting_results: fix test for no_annotate change
+35925f9901d825bc56dc7995b2feb8695d29c5f0 tools: dyad: handle issue when fixes go back in time but vulnerability did not
+3d70fe4a4fc66405cc1d90fbb5976404bd7fc54c Add .vulnerable entry for CVE-2024-35927
+e67132ff6bb6ca7192bd4cac56a53d46babbf9c9 update entries for CVE-2024-35927
+e28b0dfac6e238b16870f045f1d8acecc8d36dac update a bunch of entries with new dyad logic of not going backwards in time
+13dee878f668c405f1f66a6ef907748b1d726a65 reject CVE-2025-38030
+9db4c7d150626b55ddb9d94db5db326063a1d09b reject CVE-2023-52733
+ace397e35d1f2bf755825608eb74adf64a573f5d reject some 2024 CVE ids
+8839811e16b41d8490eced138d076ad8542549be add .vulnerable entry for CVE-2024-56786
+53ba6b135f03d00bdcb1563d2693127ff9bf37bf reject CVE-2024-56786
+200ffe340baad0b941b49d60ecb8590094482b7b add .vulnerable point for CVE-2024-43911
+02340992008099d9b436c50b4e1497be81a507ae update CVE-2024-43911 records
+2059bbeb85a00228d240aa6fd55286d8bf416644 provide .vulnerable files for a bunch of CVEs
+df89bbdeaec70a0bd3f3d4319a283d7ea951ed33 updates based on new .vulnerable entries
+010d62c7c3a19443bbe05ab024f0de35155ae302 reject some cve ids that no longer have any vulnerable ranges
+0588ef693fbc1a606da34d27836b2cec4e432980 add .vulnerable id for CVE-2023-52584
+2d820b7394dc42e0336a846a3979714febde865d add .vulnerable id for CVE-2022-49965
+18a2b86ee1e3791a249cada1f5fec775c78db9d9 add .vulnerable id for CVE-2022-49966
+0d0fdd463fa8c53510deffa0e0403293fd0045b0 add .vulnerable id for CVE-2022-49971
+65a26780408b6f5e1247dd417e29824b4bc0121a add .vulnerable id for CVE-2022-49974
+4be149767e8852a7f3620b44e43dfb2beed424d2 add .vulnerable id for CVE-2022-49983
+a60e791a0c79c9ec5951d6aabcc176a1b929a0f8 add .vulnerable id for CVE-2022-50015
+70314dcbbc74ea1f9ae1fce997c58f2bdeb8d608 add .vulnerable id for CVE-2022-50016
+09c732b4a7cb08722c32c074c32674d14a3edde1 add .vulnerable id for CVE-2022-50026
+0ae6a84e5efe3224eff22ca442ddc3308b96b028 add .vulnerable id for CVE-2022-50034 and CVE-2022-50151
+0e92cc748e147f6396a27989e8fadbd5f817a07e add .vulnerable id for CVE-2022-50223
+423791a4f42c9215fd453dae4f156c57b4df0c96 add .vulnerable id for CVE-2025-38033
+969158a6961d54ba6c4aeb2737481f117a320fe4 add .vulnerable id for CVE-2025-38035
+d5ef1693ba5fbda55b9663a6a8f02d4929cfe1c1 add .vulnerable id for CVE-2025-38036
+0498be203731b3e48f7c096f817b699830c70835 add .vulnerable id for CVE-2025-38038
+1eeee69ac0df52fdbfb0b2206e141977ddade2a8 add .vulnerable id for CVE-2025-38042
+c3d6f028e0242e6f064b496066ba80911f0084a5 add .vulnerable id for CVE-2025-38043
+d5acafacc4ca54e1012dad033b2333b083aac086 add .vulnerable id for CVE-2025-38070
+31ff8c12a82f4950919d696920ffaefcac731834 add .vulnerable id for CVE-2025-38082
+300569b502fac372bef2a429b71e4da89777437c update entries base on new .vulnerable values
+a4160d82ac0250eaa613d66a438f9250b9c2adab update cvelistV5
+eea9a3ac89c91d1c91234ac3d1e8ef3ef80eb1f7 update cvelistV5
+e061c6d31fda3f5af5a7cea7f1fc0710fd3577ed assign CVE-2025-38083 on request
+ed7d0debcc2745040db244fce504e338dc12da4b strip the mbox
+4f8c9bee649ee383594c9dc9daf74c5e690f4de5 sasha: review v6.15.3
+c674c8c0812549f225de6716c5e056843bf0b1a6 update cvelistV5
+a199a502231122843c41f140a8dce1c651fd70af proposed: Add Ruiqi's CVE review of v6.14.9 & v6.15.{1,2}
+5243caba818a38f3ae9dc2819d9b1d3e606da4b0 proposed: Add Lee's v6.14.10 results
+f2594278d93b191c990d92347c69c1dccdf245ff proposed: Add Lee's v6.15.1 results
+e807ab7eec4d969cbf50d47e4a9e5f6dbff8a459 CVE-2025-38002: Provide Google p0 cross-reference
+50256f19d2a8efdb1b413ef32f7732662d5578ec update CVE-2025-38002 records with new reference
+cb3499639da8caab664e81d58942cb1ba081b481 sasha: review v6.15.4
+e18c6446347361670d7beb4eaf8f2c32e922a368 updates to entries based on new stable releases
+52f4c8e968870947778c46a78400c914866fc1b8 update cvelistV5
+4dc7072515ddfa0a38efcc1b5714bf39f1bf6259 update cvelistV5
+60f2ab1f7277b01941bd836b9cecfbbf353291f4 assign two cve ids on request
+b8d3f61b1f2a69f834d0dc7a90406d88adf9827d assign a cve on request
+1fe89afb79ab13f72487cd5984f105ef1f4493d3 strip the new mboxes that were created
+fe452989049ba421e5f2208a492191c94b3c5b50 update cvelistV5
+bd11da24611412f036a9c04378909938f49351fd assign some CVE ids on request
+e3b7ed5a54ef6169e1be7a4eb4fe42d1b6f0c24b update cvelistV5
+a4384fada5b25c9416d5ca2ec86e7a0424ae06da strip the new mboxes that were created
+cd4a069ad97121a08686f671102e36a2184dd3b4 update cvelistV5
+05ab5144d460bc7a42076f691075267fe2f1e4e8 proposed: Add Allen's v6.15.[2/3/4] results
+fac5bd44176ed8de8926b180ca9f842b8c3ad230 add 6.15.2 review from greg
+380ffce958dcc926ddb5478213d53f7f8cd2d337 first chunk of 6.15.3 review from greg added
+3d7c716945918307064196740a86fab649dd6037 update cvelistV5
+59d280956b0981374744c7231b9fd4dfec9b1549 finish up 6.15.3 review from greg
+ef5a02396ef03c360b28188046411a9daf7c85a7 update cvelistV5
+390b235829f9ae2fdafb23346df5b19173ec684f assign some final 6.14.10 cve ids
+05b79c3a4f3fc8644ac1b174c6df167fcd51da5f mark 6.14.10 review as completed
+2bd9bd325cd47c20f7c7c0a9ad177d88a7dc2753 strip the new mbox files
+7325ede5b785e8ddf9d12b451b86d94980810d97 update 6.14.8 review from greg
+ceb73d08bf909af53e847806a88afcec5a6f1a88 publish some more 6.14.8 cve ids
+42b89c769e198219f2fdf3e164a56bf7f52f16ed mark 6.14.8 review as finished
+2ee149414ad42c6d15037892fcee0656eba45ecc update 6.14.9 review from greg
+f66e790a0d25035e84b8ae3acba8834d229d99c3 allocate some more 6.14.9 cve ids
+e797b58df0505ef33a62eb2772e689266c2b80f3 strip mbox files
+aaa1358ee938681a716a7a8bd385664ff39a1664 update cvelistV5
+2260f43df2c0eba519d83a62239f8d220faa7778 mark 6.14.9 review as completed
+4836524a844affd39284fa02962cef59eeec1c9e assign some cve ids for 6.15.3
+4ff043e743fa3764c0ba05d9e97639494f11e3e3 strip newly created mbox files
+6148a8f80bd483a094ccc264c2cddd4107f28f65 CVE-2025-38089: Add additional reporter references
+bc45559b9cb1f4f32d602f8271ffdc8187bc80b9 update CVE-2025-38089 based on new references
+caf75b674d66b5d1406b4b37274d1d3699435621 sasha: review v6.15.2
+09aa7b00960d58e81d007cf907426f40e0d8a177 sasha: review v6.15.1
+a71aa16764a2e9206bda70dbe95272ee09f40f6b mark 6.15.1 review as completed
+27a2220208edb44e67af5cd9522a9949b76d6a83 move 6.14 reviews to a subdir for archiving
+7add34629af5da4227c8b5046d337eba8e559e77 assign some 6.15.2 cve ids
+5b18de5ae33493aac3294ea007ba9dc618cc94df strip newly created mbox files
+f0f21dd6847a7909ca9cd102b5d89cc849441998 first rough cut of 6.15.4 review from greg added
+5a3029b303854b924118530c600b013298da9aa6 assign a cve on request
+95334484be08956895e6b4d47e1ac897ef7df71a finish the 6.15.4 review by greg
+7390af7271d13a5bd38f66996958f274d53c2f61 assign some cve ids to 6.15.4 commits
+109c3c84e36b46c46a09c2ac031e6c9d41de6e7d strip the new .mbox files
+38843f98af81b682679526b4a8fa3e96205291fc update cvelistV5
+53fbff08e3e17211b6ab2dc66faf2b2c6e90ea95 update cvelistV5
+d60e4370799789aef1047db807a2f5fcbdf2870e tools/verhaal: update to 020 release
+4809618ab68aeb9f668719c17aa623d14401d9ea update cvelistV5
+2354b8c57af4b3d0d156e36b5378a33c2624b827 record updates based on new stable releases.
+2fbb7ad429bbe322e66f3359c51ad76aaef09981 assign a CVE id based on a request
+c940a59cc8fd8736fea3ea1a687e6e9efae52e9c strip a mbox
+0c657c8bc49d33aadb926d517fadaf8bd5472355 add .vulnerable id for CVE-2025-38090
+2eed5e877462e7fc69e79b7b029f1bb596dcf8ec add .vulnerable id for CVE-2025-38091 and CVE-2024-57950
+2bc0a6f78146375e24a6bc185ddc5ea55015952d add .vulnerable id for CVE-2024-46702 and CVE-2025-38174
+db45b8d5b359b2839291a232c40f04f8962ef442 add .vulnerable id for CVE-2025-37951 and CVE-2025-38189
+ee96807dd23a787814d482d6fe3bee383cd598df add .vulnerable id for CVE-2025-38092 and CVE-2025-38191
+713b3fe0662582ff191945807a0594e5331118c6 add .vulnerable id for CVE-2025-38199
+68d6a27d63afdc82b98bc7233a1d34364c296498 add .vulnerable id for CVE-2025-38201
+b75963216030f1529800357e4e40a08f7a1cc2a0 add .vulnerable id for CVE-2025-38202
+bf1b4b3a11c88d19d6cdcaa1ceb0ce07b8ef189d add .vulnerable id for CVE-2025-38203
+21f4a5d9440bc44c874e098ad6c7432bd475c57b add .vulnerable id for CVE-2025-38205
+b97dc0544bffbf649d59064a9c121d6139a7f2dd add .vulnerable id for CVE-2025-38206
+878519f07940beebc1b352e5c35e7f02ccc88609 update entries based on new .vulnerable files
+17c4225f1d21a72017200db87fdb5fe06f856d03 update cvelistV5
+d6073a73caa8ab74975418ec187fe2efb062b427 sasha: review v6.15.5
+57a6382afbad0cc80e3072049c463503ad492fda assign CVE-2025-38236 on request
+71fb06c38caa837aec7b767e3069f80e382fa7db assign CVE-2025-38237 on request
+76d20ba02fa5c55533ddfd0218860baa4fb4197b strip some mbox files
+bc32006ddf69234e6d07cf6b92dd1d9f6afc614b add 6.15.5 review from greg
+0efb2696c025082a9e4827f97ff465e1acd2e218 assign some cve ids to 6.15.5 commits
+18d79fa0f1e4d274bbedd7254ea5925b5a38e9fb strip the newly created mbox files
+d4b6ea6d858288afda7e6be1bd45ce6721600c52 update cvelistV5
+704916b505e70a02636824cb545b2956f1e41ea1 cve_review: Improve file clean-ups
+0da6ddea6319ddd27a2ac16d8f1373a85184f4d5 cve_review: Show multi-line annotations during review
+d540f691fce36255dc7ce5be6129cc125f3b24eb proposed: Add Lee's v6.15.2 results
+80336aff123a608078ff4ef1025b2cc491f9e191 proposed: Add Lee's v6.15.3 results
+b0044f84e1c0132ae8ba2ececcbdbdca8c09ac59 proposed: Add Lee's v6.15.4 results
+090f5af2e5900cc77a3415d6df735d319bdd9d04 update 6.15.2 review of greg
+b1288d7ca9ddf49b1631a82c2105da89e88fff01 assign some 6.15.2 cve ids
+ab190cb11a32271cb10c9f021342662febbea02b mark 6.15.2 review as completed
+2a3e02b3dc940beed881c073ec803b78b91cc22c assign some 6.15.3 cve ids
+8b394a05503e78f6e42d0971a562a1c8f46ff3cb strip the mbox files of the new cves
+a816f5dd4597689d22f1ea80a35bacacb44dbb8c assign some cve ids for 6.15.4
+7b3bcbfbbbccc24e9e9e29ea6bf1204fe73da019 strip the new mbox files
+980d7335e16f58ebd7661ec9004857554083edcb update cvelistV5
+2530cdaa279773c647d176bca472f111fcea18a1 updates due to new stable releases
+c19905cdf1dced8b18df033c7b5b635ad3ce10a9 update cvelistV5
+a4cf29a3e96ad75d035991ad7c8163e8d591bf46 add 6.15.6 review from greg
+be4860a6c258068ac5e79930955883b1e0503c29 add .vulnerable id for several AMD display CVEs
+a1b95a7130e5a4e35f7ecf82210e7da3b99b0607 add .vulnerable id for CVE-2025-38200
+3b3bbc99757d69741ea904ab0d4cb777ae061e9f add .vulnerable id for CVE-2020-36775
+cac0433bbdaf07e7da34fc5f463819c50447bee9 add .vulnerable id for several f2fs CVEs
+31920997c285dee48c29f75d0dcce677a45f4f23 add .vulnerable id for CVE-2025-38237
+7d7ce672554906ae4cde714e6bd97ed7320e71c6 add .vulnerable id for CVE-2025-38261
+ff8921eba577cd4c70210a677500be41f25cebb3 add .vulnerable id for CVE-2025-38262
+a2d6787615be61cb6976d6866bb4ebf787f7d3f3 add .vulnerable id for several bcache CVEs
+4125521631041d14a41fbb2cd72256325c623b53 add .vulnerable id for several NVMe TCP CVEs
+b22ef4d626ca0e129a2d23b16a9fdb1588b4c1fe add .vulnerable id for CVE-2025-38329
+22800fd4d3bbcc78a5c0f3af68ec10a9319fc1b1 add .vulnerable id for CVE-2025-38330
+2b9b93b8ef2fb6c974a191cba7408100693a4964 add .vulnerable id for CVE-2025-38331
+df3fa516d836838c1afd0e09c92e2df55c33a432 add .vulnerable id for CVE-2025-38334
+30ed077c776e0c0c7d7c801748a6c2cc4bab0a60 add .vulnerable id for CVE-2025-38340
+52810dfc5221d96e7b025c0045ecf58d51e76d1b add .vulnerable id for CVE-2025-38342
+99f66f0e6b6a4a49a7c587541ebff1b34d768cb1 add .vulnerable id for CVE-2025-38343
+d4082d1de77ccaebfb1ec2073479873535c0a344 update entries based on new .vulnerable files
+36c1411678ee8fc193e6c00eab1b3b5049154222 update cvelistV5
+97786a56f31a68a939e5c5744086983c366a8ed4 proposed: Add Allen's v6.15.[5/6] results
+98860162082eecbe52e7d1fcf68bbae39970c854 update cvelistV5
+2efe48b194d77cf8c2849970be83dde98da4a091 update cvelistV5
+4631aec128305aded3dc8d80a4b8e98208bc4bc3 update cvelistV5
+a122374a4ca4647a75498ab8356d5c3a842d1073 reject CVE-2023-53001 based on external review
+32584055aea1f068bd75a3e85506bb6c884b1757 provide .vulnerable files for a bunch of CVEs
+59bc6f3e7108c1f0390a1fcad29199d17dde69be update entries based on new .vulnerable files
+e192b587ae487cb3d965650198caf98c9cd1ae69 update cvelistV5
+ee14a5e50649140c1b324e8ae7a876bd649c4e03 updates based on new stable releases
+9416851d5bd2585013605cd7fd203451ea5b88c7 CVE-2022-49501: Fix affected versions
+2decddf13620e054f988b4dae7d6e87379280be8 update CVE-2022-49501 based on new .vulnerable file
+755b9c4bc2a46a66e0d4086a9379635bd0fa904b update cvelistV5
+054fb7e37cc029044568ee0e116be768c9931fff sasha: review v6.15.6
+6bab9e233f0a29be798124b6c64ceb80207940a1 proposed: Add Ruiqi's results for v6.15.{3,4,5}
+b626810021b62c20f69d0e62cd23df08f121eacc proposed: Add Ruiqi's results for v6.15.6
+2ad8efcdbbdce4e28d178f3d47b62e0144cdd11c assign CVE-2025-38349 on request
+3f01b451fbb16e736cbcf885b5d116926de794f9 update cvelistV5
+67b2aa34e221f09914e7ebc4600a71871f64caa3 strip the new mbox file
+a76426d39864ba5604727505f46cec6a3aa0430c assign CVE-2025-38350 on request
+5ac864fb875ac54d1ef8165cc01e19fd27b48869 update cvelistV5
+21eb9c8bce672bade00cb19a220ddc45f6916422 add .vulnerable file for CVE-2025-38349
+9df094bbbc36212e3a85bc8f7ea2125b30093f76 strip a mbox file
+52a00ab8c0b60fa43da31c6d68a0e3ce16031132 assign CVE-2025-38351 on request
+1b14e4b3a531a0f2f08dfec46f5ff30879c33584 update cvelistV5
+f2cc7badf88c98ee79a8b7794a5892890c501b4d assign CVE-2025-38352 on request
+691e82685a924aa63eda5177098c33a59ec85591 proposed: Add Lee's v6.15.5 results
+d64d142d132236074c2bb13e8fefe20388f0300c proposed: Add Lee's v6.15.6 results
+4f5531016886f26064eed15939a565a5d4e0ce19 cve_review: Add 'security' to the highlight regex list
+895d0e6fbc29fa4d314362d1a5c73d3db774e7e3 update cvelistV5
+819a49cf8273ee998e667bf0c6f8e83db3b94201 strip new mbox files.
+79ff789b051e57fd709a26e9cd75054b3ed6aeb6 update entries based on new stable releases
+cb3d18b71bedb188d295829c5800a739ef5ce4cd tools: dyad: fix sorting bug in kernel pairs
+a4309c223072da6e54f896765ea9dae09acaf824 regenerate CVE-2025-37984 with proper sort order
+d6d27b30e10a7320895eef6a2da661ae59c81206 update cvelistV5
+5dd42055edfdcd46b6798eb9e893244127305bac assign some cve ids for 6.15.5
+027efcb3389ae7a1701cee6f2b551d2958455146 Assign some cve ids for 6.15.6
+eba7dd9e886592a8d2b11b4e5507e1e50303f8f6 some more 6.15.6 cve ids
+1173263c0b4e72d98baa7d1723a9e44f82da3db3 mark 6.15.6 review as completed
+a067ebfdf2b30a2640e174ea96e888d2f7acc721 strip the new mbox files
+e54968cfabce5770eb3149ad332066478fb14fdd update cvelistV5
+7a9a80d0282b0f049c8bd6510c08b443e9dec288 some more 6.15.3 cve ids assigned
+1e2151925e850168238e5d33cefc17ed4d918e1a mark 6.15.3 review as completed
+28da9b5f464c35b4cc47d984ae1fea40cecbd2a2 sasha: review v6.15.7
+98ab35faaa4fa167cde1bdd17098b2625609430d strip some new mbox files
+a3d502f0e2a2d8069df6fb05dfecebbffa3edc55 Update CVE-2025-37984 .vulnerable entries
+22a5bba28ea2df91809d2e9fd4d485ded1e9ff7d assign some 6.15.4 cve ids
+803785a78b6c1d91f2a440ed2646488814dc640a mark 6.15.4 review as completed
+c1374f6555ac7a80555caa260e9275c8b86600c8 strip mbox files that were newly created
+2f3541069e4d05fdf012d8f068ffdf8f1b972dac update cvelistV5
+0edf619ea4453d6e8a7b1a7b3c9c83f99e5e024b assign some more 6.15.5 cve ids
+83db5d312992ee4b4708ae30821d5e00c1c006c8 mark 6.15.5 review as completed
+41e8b938b53cfe56bd24c514f6367982becfa07b strip the new mbox files
+559a9a1cf6ea421b5c6d6a4e913254e7b1113191 add 6.15.7 review from greg
+47e1dde65892c44a3c6bee0a8730d211b01bf24a add 6.15.8 review from greg
+abe1411bbdb81d100e7dbf299070176e7cdd3f57 assign some 6.15.7 cve ids
+3351df90b97e1d9a0e0604571499a92b0f5d84ba strip some mbox files
+547a3989c03f50edeceb2541348f3233ed8f9703 update cvelistV5
+a52ae190d7f67983c9b11dc1a4630cb2e7cbdf51 update cvelistV5
+770641a70fbdf47399d1faf99a49f7206df5e811 sasha: review v6.15.8
+7db4473cfebebaf657a824405935c563af75d024 fix clippy uninlined format args warnings
+a6d11c6594ae56d17cb57958a67da948a1546a8d cve_review: add progress bar when fetching commit details
+d1821565b487389ad9303e6f4b9c8943a99b08ac cve_review: improve error messages with clear examples
+b1ed85a0bcde224eedfc4096b24493d26ab7db05 cve_review: fix overly aggressive commit message clipping
+84e8981080ee0af52fd9bcd89304ba2e3c973f0d update cvelistV5
+80b4412cbc0e80177db9391d2b7f0168ee155874 update records based on 6.16 release
+6b30c0972eb1a26bfef341ff3f3f35b43cdc4938 reject CVE-2025-38178 as it did not show up in a released kernel.
+8a8d482f44db0f61a1bdb27b102f9707681e3148 assign CVE-2025-38468 on request
+7e7dbe371f080712c9b33df2d225bb3b587a68cc add .vulnerable id for CVE-2024-40999
+131f1d39971917773497cf4e5f41022b0b529f8d add .vulnerable id for CVE-2024-42128
+62d9724f641d8f0c041a0ffd8877d276e1777dcd add .vulnerable id for CVE-2021-47210 and CVE-2024-50057
+6d5ebbcd3c15cd36aa453743620b39ea9e4cc942 add .vulnerable id for several FIXME CVEs
+5d0cf12366981fed677add7f1b1f24d0488426b5 add .vulnerable id for CVE-2024-40976 and CVE-2024-42127
+21fcecf31f4fec5c3bf3c4778bb53e37dfa365b3 add .vulnerable id for CVE-2021-47504
+d98fa1091f939d135ea7269b289fddc638b16ce2 add .vulnerable id for CVE-2024-47662
+fe3822b27a821787d6eab4011d1b6cdc993bfcca add .vulnerable id for CVE-2024-50012
+e78cf8f93cf4bcc3e84733e27303b2bf1d9849b5 add .vulnerable id for CVE-2025-38353
+74c3d84663304b7624d68b15304885841dad2098 add .vulnerable id for CVE-2025-38360
+291a21ee1915de34abc7bd7b9b73c331ff35f75a add .vulnerable id for CVE-2025-38361
+07fe092cd85ba454056aba11ea916638f1d1b659 add .vulnerable id for CVE-2025-38368
+ad3b0444630453c5329fde3bdc558117c29ffaa4 add .vulnerable id for CVE-2025-38369
+4df3f393f16a20dc3c3914047e434e14949f1efd add .vulnerable id for CVE-2025-38408
+e8e1505bccc5ea3d1fe1fe04082b85bd9e3f7f73 add .vulnerable id for several MSM DRM CVEs
+2073a9b1e9095f9739c0720ff63249a4d709d5df add .vulnerable id for CVE-2025-38422
+de46ea14589b7e8eb159d5e9c374aa6b466690e2 add .vulnerable id for CVE-2025-38426
+c096b892f4bfa3aad510302f73b56cd7a4a4aef6 add .vulnerable id for several DRM scheduler CVEs
+2ef232ea26e2c9d2836443268901e278f469ec52 add .vulnerable id for CVE-2025-38437
+d28f99a4bca6f93c689ed6d98afcccf099669bc6 add .vulnerable id for CVE-2025-38438
+05a22df1d4c4e39b72435a3d4607bdaa0713611c update records based on new .vulnerable entries
+eb75165d7722d54b95c32a3721ceb9e188e608ca update cvelistV5
+4f77c9b4ec18d560341f70a3512b3b7f4a052d21 assign some 6.15.8 cve ids
+f20f4e83d2dcae6e96ad642b0c47561f00860545 strip the new mbox files
+b50c7d906a80190457deb7142cfdd625bcc306f9 update cvelistV5
+19397a5c0861b4a2cb278b70ad8743df884e20bc proposed: Add Ruiqi's results for v6.15.{7,8}
+b3b22c0dff08f7b7f3c2ce3679b35ac08b7f2841 CVE-2025-3808{4,5}: Provide Google p0 cross-reference
+28ef59292c2806148af6c29712d09503cde650cd add a .vulnerable id for CVE-2024-53099
+de56ce2ba0687914925f3e5458980eadb2b1bc97 add a .vulnerable id for CVE-2023-52735
+e4abf1322eb37f8d8087c81c657744f6734ad68c add a .vulnerable id for CVE-2023-52920
+743841d82c254136ac6f44166b86bd9b24a8fd29 update records based on previous patches for .vulnerable and references
+11facbc1a2b2a183a305aa2c081bfbc7c2677b4d assign CVE-2025-38498 on request
+ab4f62735a768028b3726bf0351c2260e8a69384 update cvelistV5
+dd5919e9c3578bd2b77d7155b172519104768d19 proposed: Add Allen's v6.15.[7/8] results
+961b25bbb18ffef2aee47239e9bc731489f33b4c update cvelistV5
+a2228e71edfddf7421f7c62dbaeb65a936e73fc2 proposed: Add Lee's v6.15.7 results
+d349d230620e62b002a5e08c31a63f86bfd6453e proposed: Add Lee's v6.15.8 results
+1dfae59e994494a9e26b4b2b4be5061bb763f2dd updates based on new stable releases
+95a247fb3565e0a7862ef646d71f511ed9e925b9 update cvelistV5
+9bf7f57941017716e27cca479efdbfb328d5c24b assign CVE-2022-50233 on request
+0a32f5b515bd22e82d74e9652ae6c10f018784f2 assign CVE-2024-58238 on request
+90223baea6c07ffc0c4e8b6148399e0b3c084014 CVE-2025-38236: Provide Google p0 cross-reference
+20985451f0a0748d8e897488446643dd7d545d17 CVE-2025-38191: Provide ZDI reference
+266d5caa4f939a632b0540494300720bffaf04d7 CVE-2025-22037: Provide ZDI reference
+56aa7a732492f15602bb709626d99a39770a588e CVE-2025-37998: Provide ZDI reference
+d1e587294daee4f8e495dba7194ca62764bbba62 strip the new mbox files.
+60f3ffd2a03b070a5814be5a154acfc5576520ea proposed: Add Ruiqi's results for v6.15.9
+79770de2d4b2a1bca63bdda4375ce208e9e3db70 updates based on new references being added
+22d35d53e556ed7f25876c24d124beae97520305 update cvelistV5
+d84c325e004d87394f0c1fd1bf9db638862048d5 update cvelistV5
+c9de3667326007f026c620cba8c3fb6df5e64742 reject CVE-2022-50031 as it has been reverted
+6fe6dcdfd8b37bada966e62c3f3d90c9e1c3de14 reject CVE-2025-38213 as it has been reverted
+8c39d3c2a02238ec8d6621d6e46aedbf6895c97b update the .sha1 value for CVE-2024-26661
+d5f76b7d54770fbeaf6be8a154fe0c76dbf43549 assign CVE-2025-38499 on request
+742f6381aa08434faea371354e561341fb6cba3f strip mbox
+8041a937eb194dae142caddfd0f27cd41fc807d2 assign CVE-2025-38500 on request
+7422b53fe4e55722965e3e25c3ef13034f21ea75 update cvelistV5
+55f0ea4d76a377b10f0ee52efe283fb2dbf37da3 strip the new mbox file
+6f0cf2c3534e204c6c35a73790d83e04269da1ed update cvelistV5
+7ee4bc8c3fee6078ab9b23da8f4c3ccb58d66ce5 updates based on new stable releases
+0d9286671c940071513838ccec09ac3b1c996236 assign CVE-2025-38501 on request
+3407ff24491bc209558a70abe011f24754ce6739 update cvelistV5
+bb7d9216035748c8b3a1ffdd0a9352d37fce1f4d assign CVE-2025-38502 on request.
+371b4bb9aacd3d6090c96a75d0ec05fd2028a98a assign some 6.15.7 cve ids
+f291d0653a1e389a6c18f2550df4c24e1d0fa00c assign some 6.15.8 cve ids
+9965116b2928c0676f2dfd410e86db27d3252359 update 6.15.7 review from greg
+9d0e157b5ef17b7544b5e9c3736c05307d1dd0b7 some more 6.15.7 cve ids assigned
+8d4056f5d93dca4695158d363f5b7bdff2db0f39 mark 6.15.7 review as completed
+3a6488a1656d87cadc0880b09467396830196aed update 6.15.8 review from greg
+eade5dea1feca38643505fdc9aede6277c452d84 assign some 6.15.8 cve ids
+253f8bbbf7775a7120f5fd59960428c0376d3584 mark 6.15.8 review as completed
+86d19d92485b44b0aa47cf866dd3f1d8e53d60a9 strip the mbox files of the new cves
+6654a03faceadf6185a1b72aae55c6d3c07ffce2 update cvelistV5
+afa64d8dc9431e23a1b78078b5006f89d3ddc878 add 6.15.9 review from greg
+4a8fd359fb4065f6f787a2460c707ff13fbecf31 update cvelistV5
+3f0a409bb9caa41af5f096d139470f117fd63ef7 added first pass of 6.16.1 review from greg
+32b64224d92b8e7ef59811ec4ae3fd3b670f8365 finish up the 6.16.1 review from greg
+22db1ec267b163e5f6c241262878925bb63ed586 reassign CVE-2023-32246 to kernel.org
+f798bf10194822e033905e4599e8f1ea0cfd7e63 assign CVE-2023-32246 to the proper commit
+bc7d210eedc2ecdae2e0e3309a86ec79ec6887ac reassign some "submarine" CVE ids from Red Hat to kernel.org
+a9f06dddc866fb26e46ea08f7824b04067fbb79e properly assign some 2023 CVE ids to the correct git commits
+e3fc67e9a7742eeec0646fa72409f8a6fae0a5d6 properly assign some "submarine" CVE ids from Red Hat to the correct commits
+86ff3bc6e6d6cf84b296954c11d19b30c91c980d properly assign another 2023 Red Hat submarine CVE id to the correct commit
+5a9ad51c136f030d18c2b9ddc30705934a5373ec strip the new mbox files
+aaa94d9c3ad7d1dd8a4108c3a90c4ba815ce7978 update cvelistV5
+da64d946da55e2b5e7e86535316e2ddecfcd5e5c update cvelistV5
+24ce475a2091106f64867025f1bb36084e42ed37 add .vulnerable id for several ksmbd CVEs
+eacb51c10da21355ca0a4e92e56824c912d65628 add .vulnerable id for CVE-2025-38507
+0b3bc01fa0244a08565c89142a18d859dfc68354 update entries based on new .vulnerable files
+9210d3609f67aaafe618d3876666ebbe5e0e062f CVE-2025-38349: Provide Google p0 cross-reference
+7f5bcec665164746273d1a995c4ce14e064379be update based on new reference added.
+b54fa4d6a9209bf62ca90d3c027d495f4e563d80 assign CVE-2025-38553 on request
+ae883a5c61eb6158b065d9b8a42a70507a28971f update cvelistV5
+db62ad7c5d875514775f18c2774e2eb8dcb46ed6 sasha: review v6.15.9
+0dc8a5579b39885631b439bcae85bbe372f2fd3e sasha: review v6.16.1
+b18a6b19d321d6c87bd11147f92fe7c51263cbd4 CVE-2023-52927: Provide link to detailed blogpost from finder
+98e5e9015671e89f7f4d02719e7e9ff76d592055 add .vulnerable id for CVE-2023-52927
+a12932309e335937a0f8d1ac66dde881675bd381 update CVE-2023-52927 based on new .vulnerable and reference
+d6b7b94c3033fbaf0eb010d7d49cb601d762c399 strip a new mbox file
+a22344c395f2e8f2049cfa08d4b4acf04cf51934 issue some 6.16.1 cve ids
+390e608e3bde61e4f15a75b41812bc639bfc0cd7 strip the newly created mbox files
+31d18a185ce246f19f1618cae58567b1f79817bc update cvelistV5
+b433ec2bd45f4d7bc69c0bca9969faf0029f15f4 proposed: Add Allen's v6.15.9 & v6.16.1 results
+7bee85a8e99c1dd07039960056ff6be78bb35d87 reject CVE-2022-50083
+2e7ada6de20803a83ae60ff8658e689901e9b560 updates based on new stable releases
+7b1e260a22a1ae5d6434d5fced40d7eed7dd230e update cvelistV5
+fbd665fc11c76cc1e6af00d1d44b6dd868d32048 Add another git id to CVE-2023-52656
+8bc2315352120c816ce99ac09a75176b7cd3fa15 update 6.15.9 review from greg
+7b7f2113d279149134937f2fe4d67b79b1c8f572 assign some CVE ids based on request
+c158a0d059cc8d6b8cd681b71287837150e6dd9f strip the new mbox files
+4fedf1c9d8e88f6c08b045066ade087a4f7f55cd update cvelistV5
+66c2e2cc229b4f5e6ebf9d7b269d05bc002f6c45 first cut at 6.16.2 review from greg
+80737cf68beb53106a5ea3babc9c51f42d2f13dd proposed: Add Lee's v6.15.9 results
+0cae03ab33f260ce27e0f085a73b78e343048559 proposed: Add Lee's v6.16.1 results
+ce6e0f87fc51a147d430f4e16344d536ab8feed5 cve_review: Add a few fake warnings to the good regex
+4c2e30fd7518713b21464a0c95a5ef099ccc2078 finish up 6.16.2 review from greg
+f07e66904f9082a66fbc1094fcf36f9091ac3991 assign some more 6.16.1 cve ids
+c02c1933458b8a316dc8e041e99a26b8c2e642f4 assign some more 6.15.9 cve ids
+987232cb60c6067970fbd5676aaa5754c14b45f5 one more 6.15.9 cve id assigned
+9dd684cedd4fefb3dde1397d3a09fe46af7a0148 strip the new mbox files.
+eb9737e824552f024bc533ec476a533a259ee3c2 update cvelistV5
+da741bca4a538303e0f4c97f6adafe2eed1b7476 scripts/cve_stats: fix bug with bash and octal values
+813daca0df1feeb2738503e2cd40921ccd804691 cve_stats: Fix CVE counting, remove git2 dependency, and improve performance
+39c109c1de25ae44915fe90a439d934c17456ec3 cve_stats: fix counting
+69e503104089248dd78062fbaf14292463558ec6 assign CVE-2025-38676 on request.
+113bf0019e1bc77cde1c6047b3fb9c8716403902 strip the mbox
+8b1e668e45e0bc78523f124b6d4a815b9bb8ca1f update cvelistV5
+872ba90eb22b965f6bac07abbc7a48cb297e87ba update cvelistV5
+465dd7e4bdc6636bc1d159d9f0d1103b913bc85c assign CVE-2024-58240 on request
+7551c2cc18222ada29e4dc895496bde04a950a83 updates based on new stable releases.
+8cf3401ff53765acf9e1909bc113f7246fb26438 assign CVE-2025-38677 on request
+0c1e3bb888477022eae9410d3d21d632b0d92235 update cvelistV5
+0e7fa23278f1d9a5437dca1beeef3c9489d1b763 strip the mbox file
+6a06c1bfbb51022f8318fa2c65d4223248e08a44 update cvelistV5
+bb7678e4968193d5c1d13e94815257a7eeb44df9 proposed: Add Ruiqi's results for v6.15.10 & v6.16.1
+42aa322fbee2b972d3715d5707dc358a582c3703 add .vulnerable id for CVE-2023-32246 and CVE-2023-32249
+352c2824b3431288b763b24d889c7c97f6a1f434 add .vulnerable id for CVE-2025-38561 and CVE-2025-38562
+ddc7d6a701b854cc36f19c16fc91c10f83372750 updates based on new .vulnerable files
+1fc38c9018b40557f17c98f23b36b1b27a258cde add a .vulnerable id for CVE-2025-38608
+e81d2063fde88e1687fde598651742d9cf2c6dc2 updates based on new .vulnerable file
+2b974849a53f8ff8b6007a223fbf5b4828dfb433 provide .vulnerable files for a bunch of CVEs
+42a58db7542486a8c0a83fdc9118afc5e6010182 updates based on new .vulnerable files
+0cfe9cee6feb474c82372c1dd7fdb0617a3b858b assign CVE-2025-38678 on request
+56bb8161696af63dc9adbdefe590fa4d22cc573c strip the new mbox file
+948da4ebf25ffc478a418e6a2328fe8a90b5e11b Fix incorrect breaker SHAs in .vulnerable files
+4aedc398cc6a732f96bb86b8217e21f33a1f4f82 updates based on .vulnerable file updates
+1b1f4c6809b44cd1a3896f906f1ea8349d67fb18 Provide .vulnerable file for CVE-2022-49493
+9b4687d3eb29492954ac1c7de1e7bc9e09c33d2e update based on .vulnerable file change.
+597330796f8b8ae6d5e0a058cfc127747a773ded sasha: review v6.16.2
+3ac99111dc3ef3fec3e8ce77a18f41aa49f97f57 sasha: review v6.16.4
+3df1d7eeef70f63699952db3c05ec1698d5a44c2 assign some 6.16.2 cve ids
+306b268ed966a0a6654c2d85a887c71c8dfe0ed0 strip the new mbox files
+e4eb41d591d6c7ff88a200f1db711363ffc09c65 update cvelistV5
+7c6775359ed9000c5e5185737646db0d839cbad8 add an empty 6.16.3 review file from greg
+664536882c8ec00e2006af87d628a4154629f097 mark 6.16.3 review as completed
+1de2ec7f884c7e12c40c214c60be21b605acd6c8 add 6.16.5 review from greg
+d7039365a511f564f3c18279c859c72ccfbac4a0 tools: update the version numbers on some rust libraries
+5f8b936616f02d5d28d3be064fd402a3757d96cc reject CVE-2025-38603
+6d5804c30ea60ddedb87e054c3961961d6466ef7 update cvelistV5
+c425a5782a60324f31d06d6af2f25c18506995ae initial 6.16.4 review from greg added
+1f3fe3541fdbc113f579ae81e9fd8350c8798753 update cvelistV5
+002bdfb0491a18e7e73a495713d7d52bd06e73cf reserve a cve id for future use
+da1ccd010b5de2970758bb2f70c4247335a0f902 wrong reservation
+1a2b6c0cbe599af6edaeb5ca48a8aecfd624cc14 finish up 6.16.4 review by greg
+a11d37c2afdd005ad6a085b863f72a618077755d assign some 6.16.4 cve ids
+3e86f553dd3a51ed8198eaf4a0506766ff4d2eac strip some mbox files
+f98fcb0c94c391452ea1b36041ed853a10a0b475 update cvelistV5
+07caff2228e221bc5cad042ba90a1dfc5df89965 update 6.15.9 review from greg
+ccbbcef284c0bae116a86e31c5a108a064c7a3a8 assign some 6.15.9 cve ids
+1eb1453dd46c63fc86495440d711408f4d32258f strip the new mbox files
+0afa57ec1c0057f54c843dfba0c9698d2e6f5a0a mark 6.15 review as completed
+6bd5739108e9b3122912033ef8bb736e1e08d7be reject CVE-2025-38611
+0f9e939656df1e25f24d253a2667fc09443f28e9 reject CVE-2023-53137
+dafd597f0d3f6ed0c739129955ad3f3718a78fb2 update cvelistV5
+6cedd3e30cd8900dfdfc8987b623a0795d18cbae update cvelistV5
+ad310015fa04824a2242e6de57604e1d4e7433f2 update 6.16.1 review from greg
+42853659996e4dae78353dce0160dc5776ce5bb8 some more 6.16.1 cve ids assigned
+f3ed0881ec6cba966298ccd9f6714a18f00636a9 strip the new mbox files
+ab53bf0535d88b1416fdfcd04d4da6120f138444 updates based on stable kernel releases
+c4cba246d222ec9fde1be18a48f53141aec3941d update cvelistV5
+5263c43cde1c8e53c5e9c4eea68ef59ae14a6d10 proposed: Add Allen's v6.16.[2/4/5] results
+a448dc2ab7f12d93867147d14e7579b6d26d3ad0 mark 6.16.1 review as completed
+404c79a073249d87582f4872f7aca4c6fcc889d2 add .vulnerable id for CVE-2024-58240
+1d83040110739c99328619341ee557d8ed7b2f7f add .vulnerable id for CVE-2025-38677
+80b8723263d90772798441fd758e35c5ff5d0f9a add .vulnerable id for CVE-2025-38692
+fa218471ff7662474d52f36bb2d0636fe973a8d4 add .vulnerable id for CVE-2025-38707
+b1fea32683323a17ca5295d001d295f3a43c5a0e add .vulnerable id for CVE-2025-38711 and CVE-2025-39720
+bec46e3e420912dafceb18dbab22f295a52e5ff5 add .vulnerable id for CVE-2025-38728
+3961f507d824fc2467e19f8e09038b42f023597b add .vulnerable id for several AMD display CVEs
+09192adec6bab8dabf0248303264d08e7de86a79 updates base on new .vulnerable files
+2d366d34c5219d55d2bc05f022bdf12856232310 add .vulnerable entry for CVE-2022-48982
+bfbd6e1d50f14d600c0bfc91f7a81677792f1b4e add .vulnerable id for CVE-2025-38399
+0bdbe44e0acde503330b2322d50b814ff0c9eb1e scripts/cve_publish_json: remove comments about test servers
+fd269cf84b56b104b0b7b63ece69c581cf55e9fc scripts/cve_publish_json: make the output a lot prettier
+a8575ce2242421a7238cfb7b986e91b67435399a update the info in CVE-2025-38399
+e3aacf221e61adcd78968a79d45b9c2fcb451567 update cvelistV5
+de5e0366ad0c8023be454499978aaa9ef2bdb25b update cvelistV5
+f8506ac94c8c237c6d527b4989b7ce6bc9fb272e updates based on latest stable releases
+cbbe50f9b8502b0b7df899fe81595a9e170065c3 add 6.16.6 review from greg
+4e4ce1189cb8779c1f9c99e08cd64d022724d83f cve_review: Match on BUG_ON
+aa1b8d94c6d8a3b2fa4c9421381d42853467ab42 proposed: Add Lee's v6.16.2 results
+ba7d94cab550af1a7b4e4632796b46d13d15af9c proposed: Add Lee's v6.16.3 results
+c69374f3566782cebbafa73665c43f611f53806e proposed: Add Lee's v6.16.4 results
+8dcbc407a7c080c89fd961814c8193b400155a8d Fix up CVE-2024-26954 for 6.6.y
+362c6617fb344a0ec353edea70d9b5e16663f999 update the records for CVE-2024-26954 based on the new .sha1 entry
+6788526b9855559c998b90272e1fbb809ebfc675 scripts/cve_publish_json: only display the "first" sha1
+3ec765d3b8c46a94a0a8df840864c58315ad2eed cve_classifier: improve prompt to use sub-agents
+a34dc427f3376d2db25eca5cfca9181d2d844381 sasha: review v6.16.5
+029fd8c1f073f369e0d7a34a93b39cdb0a482e9d CVE-2024-53194: Add .vulnerable file
+a903d15965a4f24ebb2df5272671a39ab3b24c72 make CVE-2025-40300 now public
+dd8b05a4f5ce551ce03ec27ffb0cbd3f8d0f93b5 assign some more 6.16.2 cve ids
+48b39a12c167f572eec47fb3180672cd8933d7fb assign some 6.16.4 cve ids
+f233cc09fc0e08be07ed5471d5ae2c7d719d078c mark 6.16.3 review as complete
+558ec8e6a0c6dd438ae652f7007c4283f83b2d08 mark 6.16.7 review as done
+97bb5ca94282e86c3e6ca6be4920ea86506b2587 update CVE-2024-53194 with the new .vulnerable info
+7e36c68e88d4530474617c9d23428f93f8738d54 strip the mbox for the newly created cve ids
+9875233112a613b040eded1154abb0c88f0781a9 proposed: Add Allen's v6.16.6 results
+51ee4810ed5709d1860824099ab7fbb36e452e79 update cvelistV5
+583135b5fdd3eb5743bc48e96d6fe440239898e9 update 6.16.2 review from greg
+50164f65b479d7175a9b0f13cdb1a33acfc19d7e assign some more 6.12.2 cve ids
+5e6d48f30f427986844a8468fe21ca597afac3ae mark 6.16.2 review as completed
+1dda483f9deb4820195fd5046f657cb2098f2222 strip the new mbox files
+f3be6861b2538238515913c604af2e0abf50deb3 updates based on new -rc release
+b38a3dd3fd55397b332143e8bdfba57317903008 add actually correct start version for CVE-2021-47348 and CVE-2024-46804
+a40a68db22bfcc6251b4fc67541912965a00aaee add .vulnerable id for CVE-2025-39751
+94228759b2f633a9592621389b8730c74bc65d9c add .vulnerable id for CVE-2025-39752
+28da084e4ca2b3d72131a5f36decc2f311904a92 add .vulnerable id for CVE-2025-39750 and CVE-2025-39761
+bcdf19407b5e4444cb3f6583871c71639d7d828d add .vulnerable id for CVE-2025-39762
+7ce035f65475d36108fc299d878f0ab762d0d6dd add .vulnerable id for several ath10k CVEs
+c9b6583ced6457fefc4b50737c6eb8d1f0203802 add .vulnerable id for CVE-2025-39747
+795981717ba290697b292bdee647a8694cf76b53 updates based on new .vulnerable entries
+f8b0154440b47882185792f37b51fbe1644fa0e2 re-review some changes for 6.16.4 by greg
+5038dae980c3b1f9a9983dfb4e98b6cefbe5a928 assign some more 6.16.4 cve ids
+e3be4245b1b1ec76cb37b005e84946f9b72b6916 mark 6.16.4 review as completed
+3a7d85dd08fb2e8fa7346c85dff1ca3ea3ab3974 strip the new mbox files
+6106fec6cf112ec085bf52f4bb7147902b385fee update cvelistV5
+4395943b84c191debec60279b79506a5139dd668 scripts/cvelistV5_check: add check for assigned CVE from us first
+5d5dd2f382e3223d4a710db99ff6bc5dfebded6a gsd: move all pending reviews into one big file
+42898b223724c918325703a662eacbe72a34f993 gsd: split gsd-review.big into smaller bits
+f0de6ba3dcf9334e4c25345686e04929bb0d2dd5 scripts/cvelistV5_check: make output cleaner
+5f9dc3e37780a8fb7b3c8c3c29d2c49fe205b064 gsd/gsd-review.00: remove ids that already have a CVE assigned to them.
+03898d124628c5431c0ca6b24b480d3f388cb81a gsd/gsd-review.01: remove ids that already have a CVE assigned to them.
+e2c9cd28f2caf96868e99bf9ce1a8318588c3f2a gsd/gsd-review.02: remove ids that already have a CVE assigned to them.
+5127821c48ea9f2b324af37e0b89f984932763d6 gsd/gsd-review.03: remove ids that already have a CVE assigned to them.
+5016afcf733e4f5871050b3ddaa4aeec77f043d2 add gsd review files from greg
+fe5125ecb56a5a38b97ddc6c23b49d1064916534 reserve some mroe 2022 cve ids
+6235c20c059580a885d3e8b93cee0bbb56d0e60a reserve some more 2023 cve ids
+b5d9633ed3f9fc1fe0c6f2cecd7e458016a1eed7 assign some cve ids out of gsd-review.00
+600dcdedf56104ff94d393e04cb3086508f59f7d reserve some more 2022 cve ids
+98532a5059e6452cf7c222232d731a89b78128d0 reserve some more 2023 cve ids
+e39703a21d06e21cebe6fa689ef71207f036ee45 assign some cve ids out of gsd-review.01
+9b2e2a46b981bc41ec05aa80882dc8d4f88a7b34 mark gsd-review.01 as completed
+8ef20bd890e85c808e5b9dc865c82d830b73e4a4 strip the new cve mbox files
+3cef5e0c7d459c3fa598004e0aa64c69da758748 add gsd-review.02 from greg
+8f79b33e68135a4f461895407c985d1b2ca56ebe add gsd-review.03 from greg
+ae6aab89cdfa01f39d0d1945a73441c74fdefc4a assign some cve ids out of gsd-review.02
+0a4e2e70de33963c94a011e708d8cd8993da4e2d assign some cve ids out of gsd-review.03
+18b1e4e65e7bccf3e05cd91a42bc74a707de4f0e strip the new mbox files
+fa4f7a3c859d0777dd1c270313dca411c48fab90 reject CVE-2023-53212 on review from the maintainer
+155ffa116ec5c05be4f4f2aea99ef569e42aa4b9 add .vulnerable id for CVE-2022-50236
+cbadd35d89f9d7a460f1909ab60c79ca666e89a1 add .vulnerable id for CVE-2022-50256
+32455137302a29dbb6cd51b2565f569960e65c95 add .vulnerable id for several ntfs3 CVEs
+3ada9ccfb635008d9a4d4739684af957a48feca1 add .vulnerable id for several amdkfd CVEs
+54fe97f20dac3790de4014ccd938054583e94beb add .vulnerable id for CVE-2022-50316 and CVE-2025-38065
+b6ba1a0931345f1dcd58483ea5807bddf86b75b3 add .vulnerable id for CVE-2022-50322
+2a1dffd6c162399dd3dba687693bfa6bdda61667 add .vulnerable id for CVE-2023-53074 and CVE-2023-53152
+a297c64703e26c0fea4f416e2df522802fec9335 add .vulnerable id for several amdgpu CVEs
+850061d8da9d85724072fd55ef4492688f89678c add .vulnerable id for CVE-2023-53178
+1828dd01c61e6237820111b6d1a5fc5e8a451d8a add .vulnerable id for CVE-2023-53180
+d54a711a31c32b121d6c334ec35aaa44fd0235cd add .vulnerable id for CVE-2023-53231
+12a4b8246b59cbef9c04075af7465db8f5e5b0b0 add .vulnerable id for CVE-2023-53258
+b78f3ef1bed0795be1f3ccdfa4c31e6923d71a6b update records based on new .vulnerable files
+95b60616bacfa2d83ed265e5adeb13b8362d8fd3 update cvelistV5
+62488ccbc29f82e3f2319a32d0fdff9422b0749f reserve some more 2023 cve ids
+2527e0c161c9982f0594c7c72192bd8e206c583a assign some cve ids out of gsd-review.02
+0fe0b70b69abd3fe1b3f8bbd04acdf4b4db174a7 mark gsd-review.02 as completed
+159f2ac72256cecad7c30fd7af214ecd6e5e6af1 reserve some more 2023 cve ids
+ebaec2a30a2dff61f399d90f3923ff6b47b427d3 assign some cve ids out of gsd-review.03
+34122dc82fbb3e12157ff38d9e885b8aaaf40184 strip the new mbox files
+4ffbd6fe51aef817a75b4d559689ddcd4d4618f8 update cvelistV5
+8106972f5c56856a118d9af01ed07640389f3e8d reject CVE-2023-53283 after review by the maintainer
+8627bfc3175e97675b27b9ec7f91a623d2b9145b mark gsd-review.03 as processed
+a6b0cdee4868ee25553488cdedc6b52266211821 gsd: move the date-based chunks to processed/
+ef6a2a3c438bdc90a6b8e46ee4e59fc618d8bc37 update cvelistV5
+8353f78d9787623615d62042cbf860f3cc424014 reject CVE-2022-50290 as it was reverted in a later commit
+6514cbd4f115a17d1fb4b2604d5ee8fc0e1eb4f8 reject CVE-2023-53227 as it was reverted in a later commit
+d87dda802e92fb7bd4d5b776abcae0cedad6bed9 remove some already-assigned ids from gsd/gsd-review.04
+e231c3b335df49bc8358f7c04128a0f3aa02db58 proposed: Add Lee's v6.15.5 results
+48ac76d2601e8614bb0591d7931d56dfce7992a3 gsd: clean up gsd/gsd-review.04 of ids that are already assigned to CVEs
+fc933674de8e13eb7fa23d902a3a3d8cf478cfbd assign some 6.16.5 CVEs
+0174165824b799c71929b720e7287749d7890169 update 6.16.5 review from greg
+9d885e8b868a1fa17eed385d66c4c7777f191ef1 final assigments of some more 6.16.5 cve ids
+fe3e4476558f967afa3b68c692a6164bb2076c9d mark 6.15.5 review as completed
+4b0bf60faed65cb1c8a948a86ff464de46e4e688 strip the new mbox files
+d72f04fbf00b8511ab26e2a3f88356a45037499f update cvelistV5
+104064cb06e9ba2f8d979c09aab13f2a533b589c gsd: strip gsd/gsd-review.05 of ids that are already assigned
+46d06e7c35430c136a95a9ae5b3713866058c32e cve: add a "returned" state for cve ids
+77624d560992681b8fe045e5e8a6e60efe4a5d55 cve: document the "returned" state we are going to use
+19764c891e2b8540cc02b3b78abb67884daf30e8 scripts/cve_return: add script to "return" cve ids
+09501f3b7c77d8d3f0772b8772893868bf250854 return CVE-2019-25163
+567667a517331f3dcdb1697ab7e616fcf6357cbe scripts/summary: add "returned" stats
+11471af0abc2d3c9ebe921cfab5ce7c24aa739f3 return CVE-2021-47672
+b65199988093bb06bf94bee771b6004ef84eba99 scripts/cve_return: take out fluff text
+823bac51684bd95bc14594fa67564be003af33fc return unused 2021 CVE ids back to cve.org
+32e5b4d0c01c7b55e847f6cd0bbe1336e90b5e82 return unused 2020 cve ids
+9b6cbc4c93476bfa79dc234163f4bba06679ab4f return unused 2019 CVE ids
+c3de57454e66c777fab9c2a848c15a15affed918 gsd: clean up gsd/gsd-review.25
+2da38d9f952f3de878987da51922e121bf457be8 add gsd-review.25 from greg
+5b04285eb32e518c000e36e990a2ff76439cdf24 reserve some more 2022 cve ids
+f132f8ca9c7b41ea9b8d7d0c3db318ae7c6a0fb4 reserve some more 2023 cve ids
+d412ebc2711287b3a5117acb25b162574050cf63 assign cve ids based on gsd-review.25
+90b71b701132843175a0f707d598d3bb165f3f86 mark gsd-review.25 as completed
+d851caefc3267fd6c2cc52abfd305dab00abd893 strip the new mbox files
+01f1dade160c112cf2cc4326ac887a7d42d032e6 add .vulnerable id for CVE-2023-53287
+bc35ac74e14c46d30037c81ba166300567231625 add .vulnerable id for CVE-2023-53325
+0cbefb8b73e8520597969dfe85a560ad0dc5076f add .vulnerable id for CVE-2023-53328
+18086361df2259443c9c859668b7c8e15c097e28 update records based on new .vulnerable files added
+6ed0b999c0e23f556abb79af9847cfb4e92cfafe reject CVE-2025-38380 based on maintainer review.
+e2fb5590a4021e68662c1990d982a005d0cd2483 add gsd-review.04 from greg
+d8bffc415450688ff8368fd2a89cb9f44ae4fb67 reserve some more 2022 cve ids
+76b1107fdca981588b08818a99c1d0c342014e0a reserve some more 2023 cve ids
+aa2f1e68b09902aa8197a551c895f0bdafad2136 assign cve ids from gsd-review.04
+61d4ec65a1dc2273248bd9f68479db27414c61a3 strip the new mbox files
+eb8975cfcff621d3485f722847c03559347cf730 mark gsd-review.04 as processed
+a1bc187dd6c799afb06dd00dd5dcfe57a9e82367 gsd: clean up gsd-review.06
+f47f514380929c3a87b527614bcf1e4045175d48 gsd: clean up gsd-review.07
+c62460f0905d653b9775f4701b46de179db6f8a2 gsd: clean up gsd-review.08
+3d3e5eb5c68f909f93b95f363891c7a3112f84ee gsd: clean up gsd-review.09
+8a9321493deceb6958b3ce39a065f39630affba2 gsd: clean up gsd-review.10
+4420fb202754b69692f0086fc594610a2d3fda8e add gsd-review.05 from greg
+aeef87c3799e49c59eb1d648731571f2a02652a6 assign some cve ids based on gsd-review.05
+0c4f89be892a9779edeb8a57ff11ff404f9ccfa4 gsd: mark gsd-review.05 as completed
+6de808cc0b7e0d4a28d353ae4982e4b9f6a99b3c strip the new mbox files
+c5dcaf376122398d774a588ca82f00c36d9d8965 update cvelistV5
+fe83c90e49e9cf8bff664b5f97e1ee4678176b19 assign some debugfs cleanup cve ids
+8d46a6c990abe172e1ec0decbe2a5403d6a19273 strip the new mbox files
+a1032d7d5b2aa08a1630776505794cc3090b3d7e update cvelistV5
+bca26c1332ab9684b30c22405ba3c8a02ae617bf gsd: add gsd-review.06 from greg
+2469dd668e491d4cedaf64ea9a3081a704ee1bdf assign cve ids from gsd-review.06
+50e637df62e66ebda5e804de5e8a36e2e84cb4aa mark gsd-review.06 as complete
+3f54de0116774ed6083fcf5f27ffa88583ef3210 strip the new mbox files
+7b2d206d3d56ce1b9e33939542fb4347c0298d4f update cvelistV5
+6360ea72e0747ef9517791446f5065973345a994 Revert "cve_classifier: improve prompt to use sub-agents"
+31e25aa268226971d527379aa357cfc07f74c87d sasha: review v6.16.6
+0dfe08b3e8b675fb7ba289828a6fa00ea9f4d43b updates based on new stable releases
+727da3bb4e41eef587bde894f35410939a0e265f add .vulnerable id for CVE-2022-50418 and CVE-2023-53315
+044a3638819a3f0815b7fefc3c9634ca8da2a4c4 add .vulnerable id for CVE-2022-50393 and CVE-2023-53370
+65555f6874f9186a21f0af3a853df7eaf5df1996 add .vulnerable id for CVE-2022-50376
+f45631e2b0335b3fb7c88c056f33cf80f387035c add .vulnerable id for CVE-2022-50378
+c4c950a36f37657f922298f21e1f7019d6f9fac1 add .vulnerable id for CVE-2023-53353 and CVE-2023-53367
+8ae28504f1fd474f520b2a236b952b9ce281acae add .vulnerable id for CVE-2023-53355
+af7fb83bd95643f4b2a639847b6058bdf4ae14b9 add .vulnerable id for CVE-2022-50273 and CVE-2023-53447
+85218e659dc6de6f245a7d9ee23fd22e8ca206c0 add .vulnerable id for CVE-2023-53358 and CVE-2023-53399
+b03fba295d6a19610b1b0c069fe12e54fe232d36 add .vulnerable id for CVE-2022-50354
+dbb840463c749a572c9bbcd4fdda5fa9f163a2e4 add .vulnerable id for CVE-2024-46806
+36f12cdadfcfa5e685232ca2519fc18593787e76 add .vulnerable id for CVE-2024-58238
+ffb5bb9eeae59bfaabd7bba8aa6cbdf9534e1449 add .vulnerable id for CVE-2023-52561
+7e80183a1baa3f5f04f3ab79a69d3bf86264a333 add 6.16.7 review from greg
+d9625119f0d6f85c1225ebf2f019da1a753d1be7 update entries based on new .vulnerable files
+f70fa7ea02a1f7b84a1d8813ccb7ec29968d01fb reject CVE-2022-50377 as it's not valid.
+c0da80bf5dada63f97df0bb3088b36249dc548bf greg's review was for 6.16.8, not 6.16.7
+2c27fe2a560b72986cdd9605ccc543beefe89e48 assign some 6.16.6 cve ids
+ed468b6695fbaa814828da04fc74e067f5655542 strip some mbox files
+d599ad1fdcfcd9d18f29f26fbd9f4e4a100cdafc reject CVE-2022-50403 on review
+2d23bdd4e16bd62d45fefe0a14b6828f6e421145 sasha: review v6.16.8
+906c0d5f71cfbf6e74f39e91ef110f5ca492c8c1 proposed: Add Allen's v6.16.8 results
+e9aa985a4a158bd94d8c1ceb53e3858a3cd7ef39 assign some 6.16.8 cve ids
+35f1afc9d1fee600ce30b086486f4a50df462631 strip the new mbox files
+0442854ac4e8114b0d47f1dc85c908eb5df0a995 update cvelistV5
+880a40404728b1bc406437522e25569cead71f9a assign some CVE ids based on a request
+a263e4c44710e3ed5305b52488adba726b4b0e77 strip the new mbox files
+f1d2530a5ca556b75d36f68551e3de105b95fef1 update cvelistV5
+926f0a6abb8f62571ae25f8b7dcb7147ca076bfa updates based on new stable releases
+a5ad70bcf272233c7137f486ba8712ac345eeeb6 update cvelistV5
+27a779c9dbe1d1d9748237d5be49f805cdcce0a4 add 6.16.9 review from greg
+8d5f1e52e91514c3c9f43fc9e1650d3b339fe127 cve_classifier: don't include large commits in the prompt
+159d92f5d3d3e8e52cd6b2ef72fb0095e301d976 tools: Remove .diff file support in favor of .message files
+330c666c019b48c720d8e43b479fb3166ff2b927 More cargo clippy fixes
+9e18057787a094e8111397c95c7d110d9f3d5bdc Fix up CVE-2024-56642.message
+0819995a403bd4cfac5964821ad1997475fb6989 fix up cve/published/2024/CVE-2024-41012.message to be correct
+59583743c4d11ec117bbc17243f805e290f36967 rebuild versions now that 6.17 is released
+6384757c84488f78ca683c0514f99a69c04b5a12 reject two cve ids that are not actually vulnerable for anyone
+0a67c0d50584ad58d929eac02766e45b145c75bf actually add the rejected cve files...
+eb3db2d365ee61db6fa5ff8beca92c74fe36bad2 update cvelistV5
+749da1865bb09932c8dcc54e2149fb9cc0d6ac57 proposed: Add Allen's v6.16.9 results
+643c8bfe832d39bd56318f668ddb2df04492fb0c add proper vulnerable range for CVE-2022-50399 and CVE-2024-38547
+fa837ff887a299c56e70e85a91ff0e65f8982a71 add .vulnerable id for CVE-2025-38703
+528ef67351af6a6ae581362aa65903d05ffbd48e add .vulnerable id for CVE-2022-50383
+4f4d299808878cc63ea31d76300dacdcb1de8029 add .vulnerable id for CVE-2022-50388
+8ddd23da76a7f31cdc3fcdad53172133b50b4a46 add .vulnerable id for CVE-2022-50407 and CVE-2024-42147
+2fd20c9efaafa995d07258ed62a33fccb87ae2ce add .vulnerable id for CVE-2024-41002
+2de4d3a6e78ffd5fce007b789cfbfad2d95ea291 add .vulnerable id for CVE-2023-53202
+33dee1e204cb815b077f4f3fe600e8a1ab5b4ee1 add .vulnerable id for CVE-2023-53290
+2e07547e3f4f079d223960d93cff44e29c875e5f add .vulnerable id for CVE-2023-53385
+3062adc030c0cd67713732a87ad2e049b776d018 add .vulnerable id for CVE-2023-53411
+0c14a76f26f78b022101a2abfa35a4e1082f5397 update records based on new .vulnerable files
+0f03955227a58427dc429997b1a6d4fb38ed7796 add a more descriptive message for CVE-2025-23155
+b15b13bebaf1245424ed785f9a906c0d446e9bee cve/schema: properly document the .message file
+0d8ab673e2791bd63460cdfb9d2f66e678d95799 mark older kernels as vulnerable for issues in the zoran driver
+ef205aef5be87e92c747132587f001ffcc9550a9 update entries based on new .vulnerable files
+da94c757fee5808a897ebd65c21108504266d4ba add another fix version for CVE-2022-50396
+94319f8f6d1c31990d5c78038940f10d700a0d25 update entry based on new .vulnerable file
+a051cee81c94b93f6b7ac812b395ad2dc0443e8b Reject CVE-2022-50345
+e6b1ad6d06f77aeb5d5a8b37275742f743af08f9 proposed: Add Lee's v6.16.6 results
+f126012f677244ff15c9dae1cd98e8597757d876 proposed: Add Lee's v6.16.7 results
+0a1b7f283d3428b2cbc07024e72c8a8be6d7cdff proposed: Add Lee's v6.16.8 results
+69d00401e862d4121b7b488dcabb6884c5be8319 add another proposed id to 6.16.9-greg
+78cf3f89c59bbe4da08e16ac93d030e27728ebd9 update cvelistV5
+e38fd08279ea16a68a1eefc99b75ff1ab1f8eddf reject CVE-2022-50397
+3a3d4626d7279fc55328d534005f708aa7dfdf24 scripts/not_reverts: add another id
+54a99fcd011c69be91e48b3ebe494d4495b95c92 fix the git id for CVE-2023-53431
+53f5fcd9c0e87ce7a1a1d89690d2e6b18a05910d assign some 6.16.6 cve ids
+abad1978b1a1206e476a36ebff46ce21c9e31086 assign some 6.16.8 cve ids
+5de14e8b44f1d6238ce19955cdc5acc48429ab31 update 6.16.6 review from greg
+7e1bdf794df70396d23f07fbf612cba024b74079 some final 6.16.6 cve ids assigned
+642e66696091080a26e35cd31a9fbe58e991179d mark 6.16.6 review as completed
+cb00abe4f1d5ce7247ecbad9cfe3ef68a21421de 6.16.7 is really completed with reviews
+889f0e8e0c83eb7713b085a87c726330b21eee22 update cvelistV5
+0eb7261ae57d965507e8fa87874e855e9c1310bc update 6.16.8 review from greg
+6658b7a28fadbeeb4b77734b85f28855f1faf98a assign some more 6.16.8 cve ids
+59710daef16e9e196e28e2d7f79272006e4fa80e mark 6.16.8 review as completed
+0dac0fb7de95f976a8605403d1ac32e0ceb625d6 strip the new .mbox files
+53932d0a4be86617905f7abd5d1761226183f9bc update cvelistV5
+4c08bbae8a75781b303c21028bf1c7bbb5bac085 add some gsd reviews
+4e0890ba68dc7aa93c6c49e543da3325cdc2a1ea reserve a bunch more CVE ids so we can assign things to them.
+7ad0dda6a43aad17405929252aad422db90fdd7e assign CVE ids for gsd-review.07
+934bb965ad4f39aeee3710044a84ac78e49dd61b mark gsd-review.07 as completed
+936b3facd7e7642c2dfc0055785681b766ba5940 assign cve ids to gsd-review.08
+fd31660f9665eb69688e57c4259063c5c781564b mark gsd-review.08 as completed
+7ee65a68b3d75eb0663e000cbb9a704658f829d8 strip the new mbox files
+8de53ada5642c6c9c6ee130ae66774cb812f84e8 update cvelistV5
+b351bfeff451909d1cca1c9f857cce0d5df5bfaa reject CVE-2023-53502
+62f7dd04b3b6f22b2d709dd14883e429d8376e70 Set a lower bound for CVE-2023-53431
+71d0ea149c44bd14e4e909741a5c2a5b46ce6651 add .vulnerable id for several ntfs3 CVEs
+dc37dda973c92a786e5218959dd81da1d982e796 add .vulnerable id for CVE-2022-50420
+cf0a1863197edb4da25838a16e5227edc2a2afe2 add .vulnerable id for CVE-2022-50469
+271725883d73f6fb34bcb0c91bd18aab287f82af add .vulnerable id for CVE-2023-53460 and CVE-2023-53529
+f1ccfe63d9b6ef2230a1e81d11eca0b01b387c79 add .vulnerable id for CVE-2023-53461
+f0b1852d0fd601e2d897a63c89ccf5942a6dc4f4 add .vulnerable id for CVE-2022-49770 and CVE-2025-39927
+7f77b05ebbd34dc90baa509e7fc57dd4b326569b update records based on new .vulnerable entries
+5fa9ab1a121f04192b1bb3cb13c5dc1f9a02fe6b update cvelistV5
+065b95804f418b3d15451a908745b5c84fc72c99 gsd: clean up gsd-review.11
+df60f4615ef2da898187da0a27044acdb4079417 scripts/cvelistV5_check: send problems to stderr
+2567535406738c52764a16d9086a41d80ef1fee2 gsd: clean up gsd-review.12 by removing duplicate ids
+c9fd53052c478ccc690ace374f1769af4e0bca60 gsd: clean up gsd-review.13
+1710e42b6d5fed801b1faf72ca7592fa9b53f893 gsd: clean up gsd-review.14
+1c7ab350c21a302ed1ea5ec776c8a9f2550bc812 scripts/cvelistV5_check: fix bug with previous change
+a6ba0fef4c175b11f41a86576c07fd6033e80ecd gsd: update gsd-review.15
+321973a85a40774fcb8733b79dd323f5bd4940d4 gsd: clean up gsd-review.16
+eb0c47bc84a76a19414a349d47d9134228f52ea9 gsd: clean up gsd-review.24
+c52e09816a81786dbfc343d8b7538df9f5252730 gsd: update gsd-review.23
+1e1c5d1bdf60793281fcae3742c3bb60e1d0822b record updates due to new stable kernel releases
+6d38951929428ea8e24e49706fbcc4f83e4c03e7 sasha: review v6.16.9
+5bbdadcdeca681f6b8da7b3a632c6258e3941def gsd: update gsd-review.22
+49b425c265170a67fc557b24efb33c31a30dfc5d scripts: make a check_history script
+eb56c2d75e9f41dcff26c6a60587897198fbf89f assign some 6.16.9 cve ids
+c1936dc636d8aeb195380b5d28981dd702d3c102 update the json records of the new cve ids
+64105735da87eef56076b0b2383ed14f472ba225 strip the mbox files for the new ids
+5776f8add9721d5da0aa2601999ef0162e390157 update the .dyad files for the newer ids
+270437546a34c0577e78a5a0ed26bb7bebeeaec9 update cvelistV5
+bbd675ed351bf36994553893a94b05f742523b76 scripts/check_history: speedups
+944d4d71d5f2d5dc653ef924af17efdaff744ea3 gsd: clean up gsd-review.09
+eb310d2a9eca5e8345ce14dfc5842c9d035bcba1 gsd: clean up gsd-review.10
+ba6a973121ada8d1c94fd429be2a5e7c904943ab gsd: clean up gsd-review.11
+77d9cdc08afdce7f866e0c28f4967cd699e70b61 update cvelistV5
+01bbbf56e79b6a065085b5a885f1e803248bb0d1 initial horrible scripts to maybe give us better stats
+93f9cdcd15369dae838417a0a269a76369f79d9f add gsd-review.09 from greg
+3445058bd82bfb59f3b532eb6ebb14f3e05a6204 reserve some 2022 and 2023 cve ids
+970ffcaa61b2cad45f2caf0086a1652785449e16 assign some cve ids to gsd-review.09
+4006ac0b2129892308200f20a841c424665c334e mark gsd-review.09 as complete
+433a787311cb78566a0b372539be697257eba6d5 strip the mbox of the newly created ids
+76ea5027a405eff96a614a0639d4941bb951382d update cvelistV5
+205913b99f29b42720ba096c8a94597689c3e93d add gsd-review.10 from greg
+1cd431c6d1e8316ff55436e9f687c8f989889e44 reserve some more 2022 and 2023 cve ids
+a31f9f2e27196a1829379b26a7d37c027eba2499 assign some more gsd cve ids
+2e61d8c1eba5f7d5daa5aaba63bb67dc86cb64da mark gsd-review.10 as complete
+6061f1fc02d9b8c9006297ec1c80b6e2df45e857 strip the new mbox files
+234bf2416fa784d6adb6892eda213f7f744d4250 update cvelistV5
+5085339a3137aeaf8eee63781afeb06f6b39fe2b update cvelistV5
+91eeec38a5430775bda6871ab8d5360670c5de8f reject CVE-2022-50495 based on maintainer review
+8fa7b768a5f4618f85851427ec7f36a3c919e156 update cvelistV5
+6234fd99650d6735e58d411f79f28992610b08ef add .vulnerable id for CVE-2022-50479
+a31eb7e58486f73de12607409af6c33fd712e83e add .vulnerable id for CVE-2022-50507
+100b994b47a3e62721494b64f502a7fc72df4c86 add .vulnerable id for CVE-2023-53574
+62b4a09241e42612277ed178052f6ce33097b2e8 add .vulnerable id for CVE-2023-53575
+9d9c09fa4a9e0ed1a52a557609d2fe60d400be9c add .vulnerable id for CVE-2023-53602
+f88392b5b2d80c266ce658dde0bc17ea2a3085f5 add .vulnerable id for CVE-2023-53605
+abbf2f408295928174811aab63ad442f6147f829 update records based on new .vulnerable files.
+39e0df70f14d3f187c70ae89bbfd322f007f5606 reject CVE-2025-39751 based on review.
+1cc58b254c7930086fda4a087864f5f55441a84f reject CVE-2023-52979 as it was reverted as it was not correct.
+00a7874c4b86e0d6e38330338f3bee976add08e2 add 6.17.1 and 6.16.11 reviews from greg
+56c24556243872ec9deca5192fc15dfe03712098 fix missing commit in 6.16.11 and 6.17.1 reviews from greg
+fd8192bfd574b68cd47a4581bfde9690e09b30ec add 6.16.10 review from greg
+0d87cc27512c8d366fd935913d2fa51c39d35e60 update cvelistV5
+858d85483434e85fbc3314e6bdd5b3b5879b02b4 add gsd reviews from greg
+6462c66855a18d0fe55633598c6c9ccd4b081be7 allocate some 2022 and 2023 cve ids
+0789c2eb5a070355410a96203261a88e9ee889f8 scripts: dumb allocate cve ids script for greg to run
+43528667ae0a2b828977d0b30a9fa2afd55e9c12 assign cve ids based on gsd-review.11
+a9dbf5064ae265588c32ac34aaf0c2d8b52ac16a assign cve ids based on gsd-review.12
+e55558241fe742bf541f310184cfa971c277700b mark gsd review 12 and 11 as completed
+beb90267be7da8e48329ddf8782f14a2b6052d68 strip the mbox files for the newly created ones
+4b86b3a5d95b66641424753611e6728a4a245597 update cvelistV5
+204f8e048e746622907f7ac264bd3f14028672c0 proposed: Add Allen's v6.16.10 results
+9b76b231b869ceec64effef1bfeb3e775f68c295 proposed: Add Lee's v6.16.9 results
+d026255f3f7547391729069b4703dabf56837e1f reject CVE-2022-50450 on review
+15be5d0203dd59c398f1914413ceeca324496895 proposed: Add Ruiqi's results for v6.16.{8,9}
+5e9e486724512a68c5e45b2de73ac311ec09d2c5 update cvelistV5
+2b029089de313786819862fd5de4b24a954c747c assign some more 6.16.9 cve ids
+ec3309f86245ddbd7214bcb54a9605443d13106d strip the new mbox files
+947c28a9fc12bfdddae66ec7759c0af6cc8802ca update the 6.16.9 review from greg
+bbe603c1203ffd1238de0ef10920389414c8c865 assign some more 6.16.9 cve ids
+58a7890b5e9b1a54c9050313dfea84b348cfcf76 mark 6.16.9 review as completed
+8cb9cd17e5f21ebb793f695e162ddf172895da20 6.16.8 is completed
+2e6c472968e060391a20e7573295c4ec42b915be strip the new mbox files
+7435427f56c2e90e3d440f30043e2d47ad3d94f0 update cvelistV5
+5c65a199a7645c0e018467cff0aec3eaa7d0e5a1 dyad: pull out the dyad parsing logic from bippy
+b367db0a4759317bc644fcef98e5691e8ce0af26 dyad: DyadEntry: make constructor be new() not from_str()
+f973677947a967433c61ea62c445c3f1ee846693 strak: use DyadEntry, don't roll our own
+bb54e7bbafd36c55b2bb9b39158c5561dda6f98d strak: Start digging into the CVE record directories
+cf57177d0bbbc7ebad6665df954dcdbf1a1d7e35 strak: run rustfmt
+caacacbcc902a2e160e47a176b214ace358668a7 strak: actually read in all of the dyad entries from disk
+6c92e054af3e23310db8a537c82cacc6d0ec2190 dyad: add ability to create an entry that is not validated
+292e7f4f12c4cbfc304ba5971dd5d96da7f7c352 strak: properly handle the CVE name
+d661fbedd144bc93d062e11a9743fb765e213517 strak: implement the --fixes function using the new list of ids
+292f9028382749646db1aaaec2b1b4e82254072d strak: properly print out the --fixes output
+c5b684ca7264022f7884e6d527a58596e8eef2b5 strak: some clippy cleanups
+6740649aab3d3a0c772041ae56b857fb648d57be strak: rustfmt fixes
+100511180010a0e10147d3f612d7232092a0ff53 update cvelistV5
+7e2a53eeb8988cf58761d9a040561adb189b359e reject CVE-2022-50455 based on review
+71fa538556665aab608a9bc78208f668a375ab80 CVE-2025-38562: Provide ZDI reference
+81f83e943cc4e066e3b81b91662844eff7d544f8 CVE-2025-38561: Provide ZDI reference
+2a75add678f89c3a4c1591af5720067d24f82c5e CVE-2025-39698: Provide ZDI reference
+edb14bff68f5174677f685f89b83be0dfddbb9f4 CVE-2025-38563: Provide ZDI reference
+e7359120b7e323baf2388c11715457a516a714df update entries based on new reference file
+ae9e799bfbd382506f963144c93bc9416927f620 reject CVE-2022-50487
+0a94c3f63f93304d0fcc08d8ad42b1211a6b35a4 update two 2022 cve ids with a correct "fixed" id
+a73db686d416dabf89901346fbbd49d4ff94c1f8 fix up CVE-2022-50240 with the proper sha1 and vulnerable settings
+0da4c4f3f1ffada74508884d5b6bf36095326c1c reject CVE-2022-50338 as it was a duplicate of CVE-2022-50240
+2ff46da12b145296d1b6161b24c6203f7dcd2e79 reject CVE-2022-50502
+ed30b477a4a26d16a0bae65926624e5cb87a1c61 update the ids for CVE-2022-50380
+f218bfecec1f0920c699fe73b1e8f70f5eb88406 put additional fix id for CVE-2023-53469
+e5df91d588de566c7827073505db66ad7aa89e46 Update fixed id for CVE-2023-53642
+6ed38f563cb15b25e2e821b8ca318629381fb5a2 update CVE-2025-21988 with the correct fixed sha1 values
+e94cda42d6cc4be966fcfc132bb96acb49a73ad7 update cvelistV5
+4768fb2370d76c354b1daa4998acaf18737c4966 Update CVE-2025-40364 with another git id.
+03e9b24ae6482c6ba2412533e006929c6a3ae66c tools: strak: print out how long it takes to parse all entries
+16617e0825897aa2311be470e6fb9264fce26a0b update cvelistV5
+61a35e09789f625368139bb38fecb6c732341f0b update cvelistV5
+dad905e825d241370d8c0166e3e40b86fc47119a updates based on latest stable kernel releases
+87de9ea37b447496d9868c357d3f474fadea32e2 tools: cve_utils: add some more tests for version_utils.
+e1593c51dc9274bb0db0bd04ca6067dde01bd6f9 strak: rewrite the normal path by just using version strings
+64c92f98ec5e6edc38a2ac4fd56fefc5642a1c74 tools/strak: clean up unused code
+7d68e611e1d0cce96048edef06764bf5357cde1f tools/strak: properly check for stdout when doing color strings
+a45df8f5a7fb0fefbf7d5d71069ccc71299f6576 scripts: strak: point to the binary version
+82184d51237f9405ff8638aef869d738bc825c3d tools: strak: better help documentation and output
+12f20b0fd5bd74d04372141f44eb4af080997002 assign some cve ids based on a request
+9ae284759c696729f4ff612039a3466cb737e324 strip the new mbox files
+c274cf8f11b5d1d00bbdfeef6f808fcdf8e07847 update cvelistV5
+dbca38fe9e62ebbc2b270d22c238449b5a46e44e tools/strak: allow tags to work properly for the git sha
+6b1f28d9976465fc4471fc23d662aba1523d1314 add 6.17.2 review from greg
+663ef187feac4117ac315a2fba48b62d457e7855 update cvelistV5
+22012889851a76dd6c0132229d1a3e0130396003 scripts: move check_* to gregkh/ subdir
+c8b95b233b2080d34cf5af60f728855d93da0f37 sasha: review v6.16.10
+b284f6531a024d90789531d8a222cdc6a55d9f1f gsd: more cleanups of review files
+f714b47fc2dabf5542030733a5488249d13fe7d5 gsd: clean up some more files
+7458a3bbb621a7ca12dd700c2dbb0b48cb57c441 sasha: review v6.16.11
+feba761b97dca7568886efd413874a1431319950 sasha: review v6.17.1
+900299579d3fe47aaa129f43f79c8d03dd16347e proposed: Add Allen's v6.16.11 results
+7cc94f1a7dfcd7cfed1318013edca507c759fc4c proposed: Add Allen's v6.17.1 & v6.17.2 results
+5767e32e66d81b97e8872c58cd28042d60bddc85 update cvelistV5
+6146e3ff6487e38b6ac6c17cf9a91ae8968251f2 CVE-2024-50264: Add reference to research around exploit technique
+dc3317a682b4b07663f44573b5fe5300c1273e23 update CVE-2024-50264 with new reference
+8ec2de74c78e70351304ca76d6cf46a050b09a29 assign some 6.16.10 cve ids
+6fbd6294f3ade507a07c5db2ad8e71e869e48991 assign some 6.16.11 cve ids
+0a1adcae078e6417f0271221b44dd7daf68a3554 assign a 6.17.1 cve id
+b71395555bfab6fe3a62fa6a41c82e51f055eb14 strip the new mbox files.
+8c98ba17548fcf97fd690ab3c1756eba2da2caf9 updates based on new stable kernels released.
+282695148bb68a385671aeb9b85613bed1f32425 proposed: Add Ruiqi's results for v6.16.{10,11}, v6.17.{1,2}
+7d8ae13f1ff1417e36d60457d35aaf34c6d8a5a9 update cvelistV5
+086063b1f59e84794cc8e631d88bda4a66251f96 assign some cve ids on request
+73a0b4264444f3785283b211a863a4d86cb95dfe update cvelistV5
+19542354324df79422a3822a598fc23920e1edd5 strip the new mbox files.
+889a0c0589b75390dd15f84d29731c51b423ec36 update records based on new stable releases
+1667043bb44372ff2211f1e4b7be4a8488a40b25 allocate a cve on request
+402b0d30c8ae48c3162418bf8275e224070cbce2 strip the new mbox file
+5af34a053a9e1eb70215be7f14221e9f245125d7 update cvelistV5
+5ae429f05fe46c7b2ea342bb26c3b985ae5bffd5 proposed: Add Lee's v6.16.10 results
+7ccf57c335561aabbe064a2e69584d2e60c93b5e proposed: Add Lee's v6.16.11 results
+61d19b37dcf054f1310d74cf147e99952f0a9cb6 proposed: Add Lee's v6.17.1 results
+08e064d28bf6423aec88cabeacb514f027dd4ae7 assign some 6.16.10 cve ids
+f434ddfb2b9b2fc0324dad5f5e05de09d0c63d7c assign some 6.17.1 cve ids
+39e6db8095b65e30dcc9946daff681307a5b5c18 mark 6.16.11 and 6.17.1 review as completed
+24d8b3025fa1a3d4f8085d6a803f72767d46a036 strip the new mbox files
+27126d8babef6dc07cf397cdae572211c8b9c8bd update cvelistV5
+13f38e2b150c734764c4cdd855259ce0dd67abb6 update cvelistV5
+f58803b25c235cbf80d1f0a948a02d07dbb8e81c tools/Cargo.toml: bump grep version
+2de9dfc1a876ec5227f6f55cdc5186956fa2af46 add gsd review 13 from greg
+84f57cad7d345c34ce215e4f372a96d144c4ee9a allocate some 2022 and 2023 cve ids
+2f0c2cf7ba57472488fc7d5ae9fb0f6dd07056d5 assign some cve ids based on gsd-review.13
+ad49a1b6abce7082ca129cecb8c28a12ac76a4c4 update cvelistV5
+11a8714346189c9ba8a5d9e08ac7b335086b6745 clean up the new mbox files
+61d68f1b87db861f8461378834ad04e2001509c0 gsd: mark gsd-review.13 as compleated
+303734751ed997061658b49c37bb9f7d5809b08c reject CVE-2023-53701 as it is a duplicate.
+67726d0a85a0a2de2abaf5511015a0966ffabb4e update cvelistV5
+ac6ac11f3e6bf09c1a766e184d68d7e94a0a5191 updates based on new stable releases
+ac6a327cd5f305466697e725f4b0d1ae0c85308b update cvelistV5
+270c9de9c400c0c1d38f3d0016d83e467e1a140f reject CVE-2025-39898
+66990f869875f405842731d9529eaa28b17f8981 assign some CVEs as requested
+9964736ae63bf313cbab0473de4f408e5d6887f8 strip the mbox files that were just created
+92769dcbbca4ceddce0097c10775d6af4de2e94d update the 6.16.10 review from greg
+302e2ec78f488a314fc0c667307cc71dd763aa3d assign some 6.16.10 cve ids
+76f18cd8b1b1bb25ce907605741c71dbc93c6278 mark 6.16.10 as completed
+8d3fabd70a9db6144c607c6fdd7903c982aad967 move 6.16.10 reviews to a subdir to make things cleaner
+24ae144a260933ac37f36a21ac940bed99f22cb0 strip the new cve mbox files
+4f5693dfdb91ddb37269613f74ef347b1b7fa71a update cvelistV5
+101d853bef8312a0eaac51a7f8636ac50f0da923 proposed: Add Ruiqi's results for v6.17.3
+e1414b2034ce4a8d542d5448749dac3674444460 update cvelistV5
+340bd19ff9b1f783e1d2fe60989c3d0a3781b6b0 sasha: review v6.17.2
+d55b1d4b9cd78fc86670095b9052ede4bcaefe51 sasha: review v6.17.3
+0c974cd76101c5ae1fe7434e3d98225bfdbdb8a8 assign some 6.17.2 cve ids
+2c4e1fd0f365c47c6fd850162da6c12f1ad4b54c strip mbox files
+c5046697ede556e608738eba93cb1258f9841a88 update cvelistV5
+f6297c0623c4f09249c98b2fded1eea936d57771 gsd: clean up the rest of the gsd review files
+9c4fef4bf3fa04993e444ad3c1fffb9ae9356836 gsd: drop gsd-review.big file
+d126598587c8e1263b9b6b8f13f5d94a9ffce7e6 update cvelistV5
+100578b7fec832042bc37dbe4dcff27e830dbefc add 6.17.5 review from greg
+b97e26bbb68672b3cb5c4b4be9b1e9fb75f3b749 add first chunk of 6.17.3 review from greg
+d48abd1b777644f21992a9407e00dd31a493081f remove selftest selection from 6.17.5 review from greg
+20b7293d8891207c964554e05cc1d76c6d2c66ec finish up 6.17.3 review from greg
+53e33bbf3543f7a1e022eebf43b1ae41bdcaa8c8 assign some 6.17.3 cve ids
+8a72f15a6afa596357fd68d8743667c860ee60d9 strip the new mbox files
+aae372391217ffcd04a86ac3e6c59472a8512003 update cvelistV5
+f8753cb6e2daa33d6233e244a3699bb8ae1244e7 provide .vulnerable files for a bunch of CVEs
+19aee2f1892bcb5f12541cc1584ec0e77625606b provide .vulnerable files for a bunch of CVEs
+562e23c4ebb11d6325ae1a79d5553c4228696fdc Fix .vulnerable file for CVE-2022-50354
+bac90a25e3e6faaa6727fa9b2bda778618f4af46 Fix .vulnerable file for CVE-2022-49829
+6647a027259314d87b4a9c60d66a6b1c6eb81c4e updates based on new .vulnerable kernel references
+dc343450099338f901c37ecea3ccfa2a2f5ea124 reject CVE-2023-53293
+f02ad7ced3325644ca6e5bd0d005beb05da1d809 sasha: review v6.17.4
+5af84200a145af7573d786f9fb3e00c22a334eae updates based on new stable kernel updates
+3e3d9bc331c63f53649ce24b54843884ee783fb4 assign some requested cve ids
+7a6f1fe26c43f43f6a2a9358ec1afe3634ac12ed strip the new mbox files
+5e5cfe4d9b8df60a20efe550113481908a18fdbf update cvelistV5
+cdf1a5ea16fc7ee13f5649d55526cb8d0f983c54 reserve a 2023 cve id
+73425f867aef0d8f8c079ac3d9929ca6e2a36f7d assign a cve based on a request
+f1df62f682c5bff4283e7a423de6ec09ca8a9df9 strip the new mbox file
+0813102d4ceadb7b65eb7d3eb53df5f4cf4609ec update cvelistV5
+a7bf4270519738b3ca1803e921f34c2af2517e6f sasha: review v6.17.5
+40f4ac850beccaed6d4374b2e86644005459785b assign some 6.17.5 cve ids
+888c0b7b470ce1abceb67c3e8c2b8be22fbb3965 strip the new mbox files
+4961683e1f724a048866dfab74ae230242033118 update cvelistV5
+eab159f3b1573017ec7e830b68d9ed577684bd37 provide a .vulnerable entry for CVE-2025-40014
+8ff5fc0e8f1daa553ff8100793960a445645a3aa proposed: Add Allen's v6.17.[3/4/5] results
+d2866a87000fb1a0ce91595c3c6101e0f4569085 add .vulnerable id for CVE-2022-50541
+ab3614689f8194ede25e6d5462bcdf1c70719160 add .vulnerable id for CVE-2023-53640
+d1f6c015f7968743d5804eee3f59789e8a5b0d24 add .vulnerable id for CVE-2023-53693
+7bc0451154a6404d33f4dad6180d98724584cbc7 add .vulnerable id for CVE-2023-53721
+2ed3635bf378df8bfa94562ef7a22187666cf4e5 add .vulnerable id for CVE-2023-53732
+7abba9a67ad33699b84e2d8c8cb200428a65086b add .vulnerable id for CVE-2025-40084
+1ec7c47617af373f378161b963d1138100521d9a updates based on new .vulnerable files
+2182e0ac412537fe8d6a14281be959bf5224445f assign CVE-2025-40106 on request
+6e3c286bc53e10d9e0c09e79e91ae9412f63a4c8 strip new mbox file
+114b4c6b5745f4e29094285f9db9533518dda3cc update cvelistV5
+c65298b65156b55fe68a42dcf5fcd19ebfe70c5d proposed: Add Ruiqi's results for v6.17.4
+386c0c1bb05a67f081edba9792501c9d54cc5b98 updates based on new stable releases.
+26e2e05e06f653fbb6eee0417894f1b05f21f8a8 cve_classifier: use semcode
+2a9d0cc447126e41bf32d132595b944557f1f112 sasha: review v6.17.6
+3b2fb1a90b76b79dd87964c258aa52a79ca734f0 updates for 6.18-rc4 release.
+8e772a34abcefddab40b4f5c8c30da3f7562cc07 proposed: Add Ruiqi's results for v6.17.5
+f5eb0e64f050155baba3bb1b2605fbfa91b13ea5 assign CVE-2025-40107 on request
+ebdaec8341a3300149e3541cc63e4e5f924a4a28 strip the new mbox file
+a9b5d445d64b3dadb5b1b00fc44fe589ce408f45 update cvelistV5
+3d3f104afaac9e104f1e1fe0afd31192d7084aa0 sasha: review v6.17.7
+9af76d4ed058b13dd55aaf8fa163aafca4a92157 cve_review: Improve performance by removing a superfluous 'git' call
+f9a35218a223c327b8b248d9ddad465da10573e7 proposed: Add Lee's v6.17.2 results
+a45330231848c571e7e655403bb6da18ad6d9e83 proposed: Add Lee's v6.17.3 results
+4ca88f65d012ba4f339f48f3364c4300095ca874 assign some 6.17.2 cve ids
+06a5a7e47308cd511d1709466ff9209d810295ae strip the new mbox files
+604f66f8a41d42224fbd28776d55d7cea5b93706 mark 6.17.2 review as completed
+032feb04d03ac24e45c8df3e65c21de90a90ce62 update cvelistV5
+545208000cb8da82fa48fd1ec6f12785bac61779 proposed: Add Ruiqi's results for v6.17.{6,7}
+128e877c81cb1dc1f56b5ab2985a5f884f537003 proposed: Add Lee's v6.17.4 results
+8dbc195b4d77877e4aaec5406b75192f5893a076 proposed: Add Lee's v6.17.5 results
+2eb71fdc854d6053097e7f79e1549636a86b34b9 assign some cve ids on request
+3efa5578af3dceb4032f3983401d2ab808c09249 update cvelistV5
+2b3b10439e4fe91f9d949a4dbb5b41a94fe070c9 strip the new mbox files
+e0d48105ba1b02b397f7cb6b52563360154fc327 assign some 6.17.3 cve ids
+60c01148eb26ed0cd8df54cd4ebfb8fa3857e4d2 assign some 6.17.4 cve ids
+f1c178a025872f1ada4b069d1a22bedc7a73e3b6 update cvelistV5
+6c9dd36cfb8bf8a290fff4131ba185fe253a6824 assign some 6.17.5 cve ids
+65c112aa389851e519fa70246d946b2265946bfa strip the new mbox files
+639c9bf9175317ddb78f6e4cd7498c1511e136ab update 6.17.3 review from greg
+f7b7fe8a12554bdd21311acdb3e8272fca2054cc some final cves assigned for 6.17.3
+c2163cf62625512ba9d23246651af0e91dc5e9f4 mark 6.17.3 as completed
+4a1eaee4e3bbb4f78b960404cfbfe90553e6be39 strip the new mbox files
+80be2a9d9ecf8c3a981fbf8272c40c603a502fd2 update 6.17.5 review from greg
+13f99aaea822507a07aa6279232631deda5c5317 assign some more 6.17.5 cve ids
+d1de8254fa55a0d0e7a2dbc326d746d045cd81f1 mark 6.17.5 review as completed
+80e9716d93068536e2f9788a50c096eac66a04de strip the mbox for newly created ids
+82de3692b8ce7e9a2aedc5a951edea6c69193844 update cvelistV5
+61fa270d3aeca386f28a12581c783862215d68a5 add 6.17.4 review from greg
+c262c35aa3b2d7a3a444766e155af94aecbf9262 assign some more 6.17.4 cve ids
+838d0898d1093e388fadf7e868fa96dd7b814f86 update cvelistV5
+b7bc514dd1f4c9258efdd841c1fb7dbcf5dc0e1c add v6.17.7 review from greg
+2c94b85deb776f972be54c415c0273d1f0961907 strip the new mbox files
+ec5eb73b003a0a74c14f900f32284d7dfc6753f4 proposed: Add Allen's v6.17.[6/7] results
+0f64a7d707ce3bf695ca3833a8fc891391e14415 stark: Add summary count of vulnerable CVEs in strak
+36e9c7aea0fdc2bd46ed44fa78e83548be3f30e6 strak: no need for "usize"
+68e727dc371c33ee706d635d566c2926d3af47b5 reject CVE-2025-40128
+fcb6b576dd0524a4e5a0071cd82855f548a0f743 proposed: Add Lee's v6.17.7 results
+e910e95f51b236f90bd09605f57d729921f6efea sasha: review v6.17.8
+b6b7f508e0277e901c6bd3fdbfaa64391b77390c update cvelistV5
+0f1452fba2b6bdae18854d9b503a8b91acb630ab mark 6.17.7 review as completed
+f389db9a5fb477bd266f8ea33c42c2d2a4f60351 reject CVE-2025-40144 on request
+7c2cbed343149791db5b942346c4adc75577ac34 update cvelistV5
+8c2d48371d42292383900df2798956c72b1daab8 assigned CVE-2025-40209 on request
+0004ba6f9fe6a44af77094c3d0ff5dac591649d3 assign some more cve ids on request
+59297f3d8fb3081d755a1d27b66809075b835762 strip the new mbox files.
+583952c25e715e5de997c9f56d3d80319f00a63a updates due to new stable kernel releases
+e538c6cc8ba9e4537d78787108a58a631cdefcc7 update cvelistV5
+1ce5da079d37cc031fb03ae7a425a2e04ac1913d assign CVE-2025-40212 on request
+1a3638aa9e2d95a2df47e16ee0e58eacba36f91b assign CVE-2025-40213 on request
+d3a3d6c85f28896d0a969cbc7ef70a734f1448c2 strip the new mbox files
+9dc30d20a5c76be9eff7696f0c1f15634e13fd9b update cvelistV5
+d08f664a2a073219d928832b8714a03666292387 sasha: review v6.17.9
+c637f5be85a81675142476e4eaa65e8ff5240c6e update cvelistV5
+dd9eef5fc71bcc219cff1112c12d62cba4a1232c update cvelistV5
+1a59c0b4bfd7925501e1514901187c31c3af5573 updates for 6.18 release
+646e1bdc38155f2a0704cebbd9dde777792db790 proposed: Add Ruiqi's results for v6.17.8
+7620001968754a0a9b3df8221d968c31a92e00ed update cvelistV5
+e9d94e1fc9ee0e7a41599f0ad2395abd9bb2c6a3 updates for stable releases
+20f8c46fbc0dadc638b207faf17d198d09ba6d31 proposed: Add Allen's v6.17.[8/9] results
+4310dfa533d7c1ab6dc271f3d7c8295eb39f4d13 proposed: Add Ruiqi's results for v6.17.9
+d88efb530787ff3c2d3b478cc44b31f79fe0c0c7 sasha: review v6.17.10
+342673256323825b4c50b65b3fb393646be1f025 update cvelistV5
+d851c740890395dccfecfc063bb98b482d0c16a5 update cvelistV5
+c46871a30ea6585ce6ba48721d15a7ab26fc8185 reject CVE-2022-49909
+a4931c8ed422809ec16641bc06a472255f4e391b updates based on last 5.4 release
+d989478959f4e7753c047df2d0ee11fc62cdafbc update cvelistV5
+96b84d5afbf88315a53f64ae7867232dbbf86686 Rename cve_utils to vuln_utils and abstract CVE-specific code
+9ef7470684b9e1782f142ff3e92231c97017dc4f Add plain provider to demonstrate provider support system
+257abd9b6185125d3aa64d96e2d0c7b747c3887e bippy: add OSV generation support
+1b5676e4cfe6c6b9eab26a6214d366f88f03ce7c bippy: osv: add missing newline at end of mod.rs
+88069018219b64a5f406268b729938db1893388d bippy: osv: fix validate_id() and generate_mbox()
+023f0b699a4d7d4e2ea9ae19b21ef6da263d547b bippy: osv: fix SeverityType::Cvss4 serialization
+d6ac2062a7737a1ca9d4b7abef87bd3554e87db2 bippy: add osv to provider help text
 
---===============4786921346136674120==--
+--===============6987538149541495875==--
