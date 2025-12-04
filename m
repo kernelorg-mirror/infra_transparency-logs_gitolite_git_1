@@ -1,56 +1,53 @@
-Content-Type: multipart/mixed; boundary="===============8834376393113573316=="
+Content-Type: multipart/mixed; boundary="===============5930842301398361685=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Thu, 04 Dec 2025 16:36:09 -0000
-Message-Id: <176486616900.1823548.12171881384449429997@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/shemminger/iproute2
+Date: Thu, 04 Dec 2025 16:37:12 -0000
+Message-Id: <176486623262.1824441.7786256073106019049@gitolite.kernel.org>
 
---===============8834376393113573316==
+--===============5930842301398361685==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
+repo: pub/scm/linux/kernel/git/shemminger/iproute2
+user: shemminger
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/master
-    old: a32dab0c853a5bf137fb875eab0e1d2c03ad1594
-    new: d4b53915fed9bf8f3e6f8a86187d5e0929720c7b
-    log: |
-         d4b53915fed9bf8f3e6f8a86187d5e0929720c7b drop some more 5.10 and 5.15 patches
-         
+  - ref: refs/tags/v6.18.0
+    old: 0000000000000000000000000000000000000000
+    new: 76bc497985571b8c0b4c6da79f89d9523ccabf32
 
---===============8834376393113573316==
+--===============5930842301398361685==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1764866168 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1764866166-ef1249612cabe76d954982c85c2554a96d85a37e
+pusher Stephen Hemminger <stephen@networkplumber.org> 1764866231 -0800
+pushee gitolite.kernel.org:pub/scm/linux/kernel/git/shemminger/iproute2.git
+nonce 1764866231-a174137f6e1aae25dcbf0234ef4fcc079eb95d67
 
-a32dab0c853a5bf137fb875eab0e1d2c03ad1594 d4b53915fed9bf8f3e6f8a86187d5e0929720c7b refs/heads/master
+0000000000000000000000000000000000000000 76bc497985571b8c0b4c6da79f89d9523ccabf32 refs/tags/v6.18.0
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmkxuHgbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk++mQQANc8GzuhVxu14G1Czk1F
-RE8ASmoJdRD0ZbeYM/Ejbt1rD1v2JbbL4pxdppUIGHaP6fn5D9Tkg9RM2sSiqfQZ
-YniUmszrne1kQdh6D3Vxnqmg6LwVPy0gIX84kncANoI0zjsI05P5xIhfy15t8zWE
-gnT05GhtXbPiL/BfntVnRGL0/rcJsOvHRZGAbPhyNVhIXz7MjN5TfDKBnN9xvIMh
-MtJSX9Coc3L1bVkjoAPp4FsulyhjlW1HzQWbu5XDG5bczudwTcv4Oblk4ujCKGWW
-UxpkTaUcHz2m5keDD6qxd1nPHR9bqOaNXX3M/3RABoxcj6sQpgOOr0SMIokW777U
-HXt0gtCvqczN+GeZBCl+Nd2Ab5yc9zXrH1znIcrbXZG9njI4rPEN7wjsQfKk80lh
-kPmVVgLHBL2n8RC7MaEvghE0eVhoIXeBdFAyL9H1ViwtkHNZPVvW8E2pmwF8pvBw
-31c9fD73J0YTdQ4tP3DVdYauJwttBX6OTYekQwnWC7YDFr7tP5TgyUDIwj4R6HUq
-mpIJBuWtZyQHMiE2aE54vTSrp+Ag+RvmT8kjAXVUnpRNsDyGo4BludBokWaAJuXi
-dESdGrVQJTY+5S9gJRk9vMt5Cp+kzVtpN/curdA8x0P1JrY8KUUiFrVxaFDPX4C8
-vYSIIuin6TYydTHl0MtHX2+A
-=Vu0M
+iQJPBAABCAA5FiEEn2/DRbBb5+dmuDyPgKd/YJXN5H4FAmkxuLcbHHN0ZXBoZW5A
+bmV0d29ya3BsdW1iZXIub3JnAAoJEICnf2CVzeR+H3kP/1l0llNZHbo6uXogEAcZ
+LmLHD6Y5yb+MNP2SgIf15Jpk0DLkMmDSAadLhfpxn+dIBF6Q8GsOBwWlU3wVPyqt
+N6s/3lacj2Rkyzg2lG9j4J82Rw4EEtiBauQuo5/hfsiKxzj8ppAwgtNCbw9fB1vg
+QUcr/Ha4fwwmTg3n9+Ot19IXPqb0ovDsBeAWYmRX2KAv2RRD047HIjXDJjWzR1Eq
+00k1KpTLPbrdkeZI+WTXGCtKh5xFGqF5xSVwFKRZQTsKyOa1c6spdaDZ6/GVnZr3
+ay6rnQ5CZfQ+RIYl5aPthCAGlSsel5RE47pbhfwIxBvQ9jNrtZwfc8e8sHUbO1Ko
+x+l4WpA6slldZ1K0pKFaaFSOSong0KXTcaMDJfNWAUsGQT74rL+3xMATIE5BCfiR
+iyfrI55UJdh48NXy75uw5X0o7rFS5eN2TxpLfS/sU0XAmKOJWGKHvrsMxgl7pUSJ
+pCQDCbu9t9XnS3uyejSFQ3McnCXeUT2aWpP8xti6oumbb3R6nrnuTicdTj0Kc4OI
+fYoMsrfq/GCVupBPM62KAMOrkk5jcDVQbqJWmmLgMMivzO+xUoQvkMhFCLCAn/pZ
+AM3/oCXzWwu9yt42fsolFON8CYZenx3WNLgyuVFYfvYbQN6Y8QDbTi5VZG0iOeWd
+TaQY+f7Lzo3vktGauU3WCH+3
+=mtGT
 -----END PGP SIGNATURE-----
 
---===============8834376393113573316==--
+--===============5930842301398361685==--
