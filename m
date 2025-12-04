@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/aegl/linux
-Date: Thu, 04 Dec 2025 20:34:40 -0000
-Message-Id: <176488048047.2051830.8559550080842235585@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
+Date: Thu, 04 Dec 2025 20:36:58 -0000
+Message-Id: <176488061801.2055754.11532021380587135479@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/aegl/linux
-user: aegl
+repo: pub/scm/linux/kernel/git/snitzer/linux
+user: snitzer
 changes:
-  - ref: refs/heads/rdt-aet-v15
+  - ref: refs/heads/kernel-6.12.53/nfs-next
     old: 0000000000000000000000000000000000000000
-    new: a422ca5225cc317b14663a21a397ee41e0968bbc
+    new: aaf903ec5f7efca76ff2f6d5f75600aafc2ee6a9
