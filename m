@@ -1,27 +1,57 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/util-linux/util-linux
-Date: Thu, 04 Dec 2025 13:32:40 -0000
-Message-Id: <176485516069.1586603.1826584488460421811@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============1402521164390896363=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/security/vulns
+Date: Thu, 04 Dec 2025 14:14:57 -0000
+Message-Id: <176485769746.1623750.4893437245127902960@gitolite.kernel.org>
+
+--===============1402521164390896363==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/util-linux/util-linux
-user: kzak
+repo: pub/scm/linux/security/vulns
+user: gregkh
+git_push_cert_status: G
 changes:
   - ref: refs/heads/master
-    old: 1b47c5ba66431cb8ef8ddb10480f6d3284beb941
-    new: 7b8ab6c785b3fa80da79230a05b1c6d529746047
+    old: 3f50594d4da818ce37f96e1d810f7fa9873e1bdb
+    new: 2a8fca8c1071753daa4bc245b50596f891dcda8d
     log: |
-         bd89462910f32042dbe1882044a5c076638a89b9 lib: introduce ul_default_shell() for consistent shell resolution
-         6651ae5822610789d9ca620c4e0e65c3bd4e12af *: use ul_default_shell() for interactive shell spawning
-         54023fdf092ca479e1ccd5e6a7aa69cef68f840a login-utils, sys-utils: use _PATH_BSHELL consistently
-         11a38ec82c4db476c47be9e5dc19fc4d6d159cce libfdisk: modernize ZFS GPT type description
-         ae4b0f2d5a00bf1755f7727c98fc159291750f64 Merge branch 'fix/issue_3865' of https://github.com/lord2y/util-linux
-         e6a17012e42a1dd61cfe74f8c0b6e8804beb7c56 login: define shell to log in to with -s or --shell
-         61fe4126eaff3e8f7b52d57d63a4c7b8d2685f17 login: document -s and --shell on the man page
-         9880917c49f3ea75f0cbbd6bf204c71f1242fe0d Merge branch 'update_guid_zfs' of https://github.com/mminkus/util-linux
-         7b8ab6c785b3fa80da79230a05b1c6d529746047 Merge branch 'feat/login_shell_option' of https://github.com/cgoesche/util-linux-fork
+         80544254d4d57a1c5ee3c2ead7c06017232ec7ff assign another cve on request
+         2a8fca8c1071753daa4bc245b50596f891dcda8d strip the new mbox file
          
+
+--===============1402521164390896363==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1764857694 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
+nonce 1764857694-ba85523424a7e388b7b4bdb2729432d442331a67
+
+3f50594d4da818ce37f96e1d810f7fa9873e1bdb 2a8fca8c1071753daa4bc245b50596f891dcda8d refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmkxl14bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+kZEQAJBIct9Q/mrA+w85r5tu
+LE+h7WyKrFAc2z9J8gpzTeo2OKqoKA4VLqci72whNNOGKbH1l+jHBKq+rpejJDwl
+gJwX1OM/FE4kcgAjN4IVZdN0kORP6438jW+rM+RoPrAwaYnM8yhjmoc0heZzI3Jx
+7zOMWL58OTzjkbytdlmSFXwp6T5xbIys4rx1y8LFZFju3a6Keu6BKQ6zTLG5ujbf
+9XWYbKG9AcgTs4oYzwQm86oi71fPZRiUK3r5v6qIN3wPn3279Q9sDIV+cTnua+SC
+aU3u/Ro1IJha5aFLIfZWOzFMD37cRPynF8vKFgDNtfiHF6vvk0O12cHAP6hJYNNG
+Waq+un7TYRCZ979elgSQ6hTeRAf32dq0NjCRNAjRid4JsXY30kTQB8vobKPxyrJS
+AaAmrHM3lfQEgMYCfrmYPMR6kbFnuEKz6thKkuUFFcEUUb1w/TRhdidzpB0o8RI9
+rWUdl345hEze1bvWZ13KId7tCgP5J5VzU5PQ97ikSE5tDhF4l4CRskCy7FmYoNjU
++L/0GKcnqfOxFAP9kzMeMQNtExigqbOgVZSWdcev7rBYThPKqsBi8N2VoiUn22Er
+V44ymgJnLz41X9k6ujIBna8QwcTTbgocr3PITa9vxpmwhlmA4GhRSScJoCkRiXlo
+M78kXi7BudOO8LHZPMvPsao4
+=4RRd
+-----END PGP SIGNATURE-----
+
+--===============1402521164390896363==--
