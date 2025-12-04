@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
-Date: Thu, 04 Dec 2025 23:46:32 -0000
-Message-Id: <176489199201.2240318.2448480463479262203@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+Date: Thu, 04 Dec 2025 23:55:34 -0000
+Message-Id: <176489253491.2250059.11623060241181954398@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/perf/perf-tools-next
-user: namhyung
+repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+user: jarkko
 changes:
-  - ref: refs/heads/perf-tools-next
-    old: 05166a337b3882a3e369366d4cf371177c19f4c5
-    new: d509d14fff783969904954eaf5d94f092c6fce19
+  - ref: refs/heads/tpm2-session
+    old: 7be080c008a8d5729062a1970979c002d575ab03
+    new: b80ca1b8c2c38ab0aba4197d9aab6d0168556671
     log: |
-         5123509628e1ebe74bb5ec801de088f36df07d64 perf tests stat: Add test for error for an offline CPU
-         d509d14fff783969904954eaf5d94f092c6fce19 perf stat: Improve handling of termination by signal
+         b80ca1b8c2c38ab0aba4197d9aab6d0168556671 keys: TRUSTED: Extend TPMKey ASN.1 definition
          
