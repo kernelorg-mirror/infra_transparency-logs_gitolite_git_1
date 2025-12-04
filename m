@@ -1,41 +1,27 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Thu, 04 Dec 2025 13:03:52 -0000
-Message-Id: <176485343290.1559954.6277077371196496343@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/util-linux/util-linux
+Date: Thu, 04 Dec 2025 13:32:40 -0000
+Message-Id: <176485516069.1586603.1826584488460421811@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
-user: broonie
+repo: pub/scm/utils/util-linux/util-linux
+user: kzak
 changes:
-  - ref: refs/heads/for-linus
-    old: 6efad7211987eb0df1a80ea877c9ddc7531536c2
-    new: c1b55bde7c882c9028ff8fe1843d520dcc1f5146
+  - ref: refs/heads/master
+    old: 1b47c5ba66431cb8ef8ddb10480f6d3284beb941
+    new: 7b8ab6c785b3fa80da79230a05b1c6d529746047
     log: |
-         22a03ca7c20c4ed3a75047709b0ad15160e29d58 ASoC: codecs: wcd937x: fix OF node leaks on probe failure
-         32ae6ebe171aca9ce10f5790523a9865b6c08b02 ASoC: codecs: wcd938x: fix OF node leaks on probe failure
-         3ef4d9ede20db39bff34a559b04a1938fb31251e ASoC: codecs: wcd939x: fix OF node leaks on probe failure
-         ae585fabb9713a43e358cf606451386757225c95 ASoC: ak4458: Disable regulator when error happens
-         1f8f726a2a29c28f65b30880335a1610c5e63594 ASoC: ak5558: Disable regulator when error happens
-         39191ce5dbfd65fededb4f0d408d6232c45766ba ASoc: qcom: q6afe: fix bad guard conversion
-         9b30ceba1c1d7973f62a6d63b520f275e312e22a ASoC: ak4458 & ak5558: disable regulator if error
-         434f8154bf475c7932e62f455551947b7473e91a ASoC: codecs: wcd93xx: fix OF node leaks on probe
-         c1b55bde7c882c9028ff8fe1843d520dcc1f5146 Merge remote-tracking branch 'asoc/for-6.18' into asoc-linus
-         
-  - ref: refs/heads/for-next
-    old: 6efad7211987eb0df1a80ea877c9ddc7531536c2
-    new: c1b55bde7c882c9028ff8fe1843d520dcc1f5146
-    log: |
-         22a03ca7c20c4ed3a75047709b0ad15160e29d58 ASoC: codecs: wcd937x: fix OF node leaks on probe failure
-         32ae6ebe171aca9ce10f5790523a9865b6c08b02 ASoC: codecs: wcd938x: fix OF node leaks on probe failure
-         3ef4d9ede20db39bff34a559b04a1938fb31251e ASoC: codecs: wcd939x: fix OF node leaks on probe failure
-         ae585fabb9713a43e358cf606451386757225c95 ASoC: ak4458: Disable regulator when error happens
-         1f8f726a2a29c28f65b30880335a1610c5e63594 ASoC: ak5558: Disable regulator when error happens
-         39191ce5dbfd65fededb4f0d408d6232c45766ba ASoc: qcom: q6afe: fix bad guard conversion
-         9b30ceba1c1d7973f62a6d63b520f275e312e22a ASoC: ak4458 & ak5558: disable regulator if error
-         434f8154bf475c7932e62f455551947b7473e91a ASoC: codecs: wcd93xx: fix OF node leaks on probe
-         c1b55bde7c882c9028ff8fe1843d520dcc1f5146 Merge remote-tracking branch 'asoc/for-6.18' into asoc-linus
+         bd89462910f32042dbe1882044a5c076638a89b9 lib: introduce ul_default_shell() for consistent shell resolution
+         6651ae5822610789d9ca620c4e0e65c3bd4e12af *: use ul_default_shell() for interactive shell spawning
+         54023fdf092ca479e1ccd5e6a7aa69cef68f840a login-utils, sys-utils: use _PATH_BSHELL consistently
+         11a38ec82c4db476c47be9e5dc19fc4d6d159cce libfdisk: modernize ZFS GPT type description
+         ae4b0f2d5a00bf1755f7727c98fc159291750f64 Merge branch 'fix/issue_3865' of https://github.com/lord2y/util-linux
+         e6a17012e42a1dd61cfe74f8c0b6e8804beb7c56 login: define shell to log in to with -s or --shell
+         61fe4126eaff3e8f7b52d57d63a4c7b8d2685f17 login: document -s and --shell on the man page
+         9880917c49f3ea75f0cbbd6bf204c71f1242fe0d Merge branch 'update_guid_zfs' of https://github.com/mminkus/util-linux
+         7b8ab6c785b3fa80da79230a05b1c6d529746047 Merge branch 'feat/login_shell_option' of https://github.com/cgoesche/util-linux-fork
          
