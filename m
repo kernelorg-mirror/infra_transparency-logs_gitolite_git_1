@@ -1,28 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux
-Date: Thu, 04 Dec 2025 14:25:21 -0000
-Message-Id: <176485832157.1689492.303257602708252797@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Thu, 04 Dec 2025 14:30:23 -0000
+Message-Id: <176485862305.1694461.7585489456191517871@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux
-user: axboe
+repo: pub/scm/linux/kernel/git/netdev/net
+user: pabeni
 changes:
-  - ref: refs/heads/block-6.19
-    old: 4afe63c5ea2eba54ab8611e2791db1d105617755
-    new: 4ce1aeacddb06241a1a9c75bf1c1bc3be5a799dd
+  - ref: refs/heads/main
+    old: 0c57ff008a11f24f7f05fa760222692a00465fec
+    new: 6a107cfe9c99a079e578a4c5eb70038101a3599f
     log: |
-         96fd48daf5f23e2c051120943b7a66ee90806bbe block: Clear BLK_ZONE_WPLUG_PLUGGED when aborting plugged BIOs
-         4ce1aeacddb06241a1a9c75bf1c1bc3be5a799dd block: fix comment for op_is_zone_mgmt() to include RESET_ALL
-         
-  - ref: refs/heads/for-next
-    old: f40aefebbd193fae1b69aaef4cd1bdd96c5edac7
-    new: e3ff1fd84c5e10845a40f0ef84de5dbbd32f9c0c
-    log: |
-         96fd48daf5f23e2c051120943b7a66ee90806bbe block: Clear BLK_ZONE_WPLUG_PLUGGED when aborting plugged BIOs
-         4ce1aeacddb06241a1a9c75bf1c1bc3be5a799dd block: fix comment for op_is_zone_mgmt() to include RESET_ALL
-         e3ff1fd84c5e10845a40f0ef84de5dbbd32f9c0c Merge branch 'block-6.19' into for-next
+         6a107cfe9c99a079e578a4c5eb70038101a3599f net/mlx5: Fix double unregister of HCA_PORTS component
          
