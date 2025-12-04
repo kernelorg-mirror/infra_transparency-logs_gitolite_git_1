@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4571777626032308785=="
+Content-Type: multipart/mixed; boundary="===============5680334467984563808=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Thu, 04 Dec 2025 20:37:04 -0000
-Message-Id: <176488062413.2056118.10853806963702633922@gitolite.kernel.org>
+Date: Thu, 04 Dec 2025 20:37:07 -0000
+Message-Id: <176488062718.2056205.3466771076477485748@gitolite.kernel.org>
 
---===============4571777626032308785==
+--===============5680334467984563808==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-6.12.53/nfsd-next
-    old: 98a0e710835f00e97fe055773567b5aeb518c438
-    new: 95e3e248ce6b02eb0d09b2b0e2e568622a0d8a6f
-    log: revlist-98a0e710835f-95e3e248ce6b.txt
+  - ref: refs/heads/kernel-6.12.53/nfsd-testing
+    old: dba14250af3088b9044df235fe386c83dc39ac9d
+    new: 5782154cfc54e26887bd6f27dbdc6901d86ca23c
+    log: revlist-dba14250af30-5782154cfc54.txt
 
---===============4571777626032308785==
+--===============5680334467984563808==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-98a0e710835f-95e3e248ce6b.txt
+Content-Disposition: attachment; filename=revlist-dba14250af30-5782154cfc54.txt
 
 b3e43a5ae9e387c641421bd2af84b6278b1dad73 svcrdma: Release transport resources synchronously
 108704e9391da028f08c4030e30dfbdc4083e098 nfsd: switch the default for NFSD_LEGACY_CLIENT_TRACKING to "n"
@@ -62,5 +62,18 @@ c235f0c119713a3fd75b92995f8458ac126f47f7 NFSD: add Documentation/filesystems/nfs
 ef48a61823547bfc4760fbab87462df080eae346 NFSD: Add toctree entry for NFSD IO modes docs
 4c733f01fc648f727c6431a6ea78b14063fe810b NFSD: nfsd-io-modes: Wrap shell snippets in literal code blocks
 95e3e248ce6b02eb0d09b2b0e2e568622a0d8a6f NFSD: nfsd-io-modes: Separate lists
+d0ff9116eca40a012906049e5b4f708838be9655 SUNRPC: svcauth_gss: avoid NULL deref on zero length gss_token in gss_read_proxy_verf
+037b10c4815d1c9828515f1349d5c57a5106d8f8 svcrdma: use rc_pageoff for memcpy byte offset
+79e35dfe8e12d61a2350601ce5a47dce89c755c7 svcrdma: return 0 on success from svc_rdma_copy_inline_range
+9c948a4ea04ef64d0fe755a2e13f54f1065bfb5d svcrdma: bound check rq_pages index in inline path
+be4f098720ace7215a2187648c450f8db09c9434 nfsd: Mark variable __maybe_unused to avoid W=1 build break
+e7c40d87a334ab39afc2356556f2c06b35b33f05 nfsd: fix memory leak in nfsd_create_serv error paths
+0790f2d7e7809e6271039bc4315d2625510a4ef3 NFSD: Clear SECLABEL in the suppattr_exclcreat bitmap
+28d9e9113178bd818c6bdac8c3e8893a3c0d62d9 NFSD: Clear TIME_DELEG in the suppattr_exclcreat bitmap
+6452f4ef185f1ebe8c26eae3c16eda0c7aa8f226 NFSD: Clean up nfsd4_check_open_attributes()
+f8ae151194a47811ece69235ee30f20a89476280 NFSD: NFSv4 file creation neglects setting ACL
+41e26f66d3915e19a85ebc4edd976a5eda40cca0 nfsd: fix nfsd_file reference leak in nfsd4_add_rdaccess_to_wrdeleg()
+23d20e74fc0dd6a1a1d42a3eb55483ea45532435 nfsd: use ATTR_DELEG in nfsd4_finalize_deleg_timestamps()
+5782154cfc54e26887bd6f27dbdc6901d86ca23c nfsd: prefix notification in nfsd4_finalize_deleg_timestamps() with "nfsd: "
 
---===============4571777626032308785==--
+--===============5680334467984563808==--
