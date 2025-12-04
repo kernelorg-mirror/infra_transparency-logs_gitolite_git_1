@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3362382716191072683=="
+Content-Type: multipart/mixed; boundary="===============2346253146280289771=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Thu, 04 Dec 2025 01:33:17 -0000
-Message-Id: <176481199709.911613.8753205707678462376@gitolite.kernel.org>
+Date: Thu, 04 Dec 2025 01:33:18 -0000
+Message-Id: <176481199844.911822.15366463137850483901@gitolite.kernel.org>
 
---===============3362382716191072683==
+--===============2346253146280289771==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/mm-new
+  - ref: refs/heads/mm-unstable
     old: 2a5568dd60c817a4b18c1453bf3846091ddf3abf
-    new: 3f43be96f919cc611dcb2a4e38dd464831f4513e
-    log: revlist-2a5568dd60c8-3f43be96f919.txt
+    new: 92440888882ad21791a07ff8809807ef1d2c2a42
+    log: revlist-2a5568dd60c8-92440888882a.txt
 
---===============3362382716191072683==
+--===============2346253146280289771==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2a5568dd60c8-3f43be96f919.txt
+Content-Disposition: attachment; filename=revlist-2a5568dd60c8-92440888882a.txt
 
 b3b3f374bd326e2138e84cbd642c0a92a60d59ad mm/huge_memory: fix initialization of huge zero folio
 d65513edc3cb41140f2b259c67f59fe572715b2c MAINTAINERS: add Mike Rapoport as maintainer for userfaultfd
@@ -46,6 +46,5 @@ bf8f15d57bec0c81b9da4410f6dcb371acd59ed9 mm/huge_memory: fix folio split stats c
 cabc21950ee824fef38116e790e4ef493c034eca mm: fix CONFIG_STACK_GROWSUP typo in mm.h
 6760b1caf7fa55fad8f1b7fc4e3228450de17f7a mm/hugetlb: fix incorrect error return from hugetlb_reserve_pages()
 92440888882ad21791a07ff8809807ef1d2c2a42 MAINTAINERS: add idr core-api doc file to XARRAY
-3f43be96f919cc611dcb2a4e38dd464831f4513e mm/damon/core: fix memory leak of repeat mode damon_call_control objects
 
---===============3362382716191072683==--
+--===============2346253146280289771==--
