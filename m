@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0910371304732180756=="
+Content-Type: multipart/mixed; boundary="===============8721865508634603110=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Thu, 04 Dec 2025 21:29:52 -0000
-Message-Id: <176488379298.2104751.18062763373940205653@gitolite.kernel.org>
+Date: Thu, 04 Dec 2025 21:30:01 -0000
+Message-Id: <176488380130.2105195.12451678148155532702@gitolite.kernel.org>
 
---===============0910371304732180756==
+--===============8721865508634603110==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-6.12.53/nfs-next
-    old: aaf903ec5f7efca76ff2f6d5f75600aafc2ee6a9
-    new: 03a5a07b41fa403d2867aff179452111ece54e66
-    log: revlist-aaf903ec5f7e-03a5a07b41fa.txt
+  - ref: refs/heads/kernel-6.12.53/main
+    old: 9cf4fd9c19df33ac1f8d7308ac9b9d0755794fbb
+    new: 489a5a8fdef7a9791d09992ea70471aaac7dc35b
+    log: revlist-9cf4fd9c19df-489a5a8fdef7.txt
 
---===============0910371304732180756==
+--===============8721865508634603110==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-aaf903ec5f7e-03a5a07b41fa.txt
+Content-Disposition: attachment; filename=revlist-9cf4fd9c19df-489a5a8fdef7.txt
 
 5c3ca8f332cdbe980e773820fc0d69d85ce5636f nfs: constify path argument of __vfs_getattr()
 310c8e91930b83451f144b193a470d14eb956488 NFS: Avoid changing nlink when file removes and attribute updates race
@@ -52,5 +52,30 @@ c543a4c2d4da9f550a8877f2952bbc5b992da98b NFS: Fix up the automount fs_context to
 6cb5a48d2b333c1ba2c5ea4126ee24901e8d2f95 nfs/localio: remove alignment size checking in nfs_is_local_dio_possible
 cafaca3f3e1eab0d9cafd3db8c153e482ec58fb8 nfs/localio: remove 61 byte hole from needless ____cacheline_aligned
 03a5a07b41fa403d2867aff179452111ece54e66 NFSv4: Handle NFS4ERR_NOTSUPP errors for directory delegations
+28c52d2229ae269db7ddafb4747b0761a161f5da Merge branch 'kernel-6.12.53/improvements' into kernel-6.12.53/main
+7f219c4952b3f0811d2a670b4e72ead65d58ca70 Merge branch 'kernel-6.12.53/nvme' into kernel-6.12.53/main
+c07d3bd887e53b759d7e6413f08210101d50f28f Merge branch 'kernel-6.12.53/localio' into kernel-6.12.53/main
+4531c6a06968184a4632eb73152b195812dbf096 Merge branch 'kernel-6.12.53/nfs' into kernel-6.12.53/main
+e896923f77a336915f87f5535bc08b7754e1185e Merge branch 'kernel-6.12.53/dontcache' into kernel-6.12.53/main
+2f6090f869a68d9f6520f85a83afdc1ef987cf7a Merge branch 'kernel-6.12.53/xfs' into kernel-6.12.53/main
+5816de9ffc1bd83e909caf16d99e7a53b9b43ab6 Merge branch 'kernel-6.12.53/nfsd-next-thru-nfsd-6.17-1' into kernel-6.12.53/main
+fcd8d558b7c6d5756b19b3dba580234772e8dad7 Merge branch 'kernel-6.12.53/nfs-next-thru-nfs-for-6.17-3' into kernel-6.12.53/main
+20582f83ef884ffb16357d2b5af1eb82bee4d664 Merge branch 'kernel-6.12.53/nfs-next-thru-nfs-for-6.18-3' into kernel-6.12.53/main
+427574c547a00e339be19c1244478cc24b27e2b0 Merge branch 'kernel-6.12.53/nfs-next' into kernel-6.12.53/main
+2e34d8fbf8acf607c47c5a59174158b3676c45e7 Merge branch 'kernel-6.12.53/nfsd-next-thru-nfsd-6.18-3' into kernel-6.12.53/main
+9be51c33f2fe6580c4dbb788d33b015c8ace21cb Merge branch 'kernel-6.12.53/nfsd-next' into kernel-6.12.53/main
+910acfa0b0b40bb9451d8c7d87bf72ec4b29150d Merge branch 'kernel-6.12.53/nfsd-testing' into kernel-6.12.53/main
+17c6214f279ab180d2ebd36bb9b5d108aa6ce3c0 Merge branch 'kernel-6.12.53/nfsd-testing-canary' into kernel-6.12.53/main
+3b0ba413caddb9d354c527ecea434ee805406eaf kernel-6.12.53-1
+02dc6460a0cafe45c5825ace8d82fa128b2079b0 kernel-6.12.53-2
+b8513f293d53d6fab193b0e717bf0903d227b5d7 kernel-6.12.53-3
+9283bae30fbaa1b6eddacdb961695aac9e02fca8 kernel-6.12.53-4
+49c7ff595a3f713c0a04ca6a9cbbfbcc068577e2 kernel-6.12.53-5
+5a54c8a4ac4f9b64b524a70e63632535ccc7fd8a kernel-6.12.53-6
+f2dc0f57fc8dc7e6854f181e703226c846cc308b kernel-6.12.53-7
+c04570ae7a8329545febcbb33f276f09b759184a kernel-6.12.53-8
+cc660ffd89dd7a029b27bfd19465491398ab0f5b kernel-6.12.53-9
+b4ea6bebc19f2befde8c6cc9c15463ff44a01c13 kernel-6.12.53-10
+489a5a8fdef7a9791d09992ea70471aaac7dc35b kernel-6.12.53-11
 
---===============0910371304732180756==--
+--===============8721865508634603110==--
