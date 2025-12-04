@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
-Date: Thu, 04 Dec 2025 23:44:52 -0000
-Message-Id: <176489189266.2236844.9303723286551522546@gitolite.kernel.org>
+Date: Thu, 04 Dec 2025 23:46:32 -0000
+Message-Id: <176489199201.2240318.2448480463479262203@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,7 +11,7 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/perf/perf-tools-next
 user: namhyung
 changes:
-  - ref: refs/heads/tmp.perf-tools-next
+  - ref: refs/heads/perf-tools-next
     old: 05166a337b3882a3e369366d4cf371177c19f4c5
     new: d509d14fff783969904954eaf5d94f092c6fce19
     log: |
