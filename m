@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3060825083999705301=="
+Content-Type: multipart/mixed; boundary="===============0217939053940686155=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/klassert/ipsec
-Date: Thu, 04 Dec 2025 08:41:04 -0000
-Message-Id: <176483766416.1309630.12126504264346614771@gitolite.kernel.org>
+Date: Thu, 04 Dec 2025 08:41:34 -0000
+Message-Id: <176483769437.1310138.8396617589189469240@gitolite.kernel.org>
 
---===============3060825083999705301==
+--===============0217939053940686155==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/klassert/ipsec
 user: klassert
 changes:
-  - ref: refs/heads/testing
+  - ref: refs/heads/master
     old: e5235eb6cfe02a51256013a78f7b28779a7740d5
     new: 8f7aa3d3c7323f4ca2768a9e74ebbe359c4f8f88
     log: revlist-e5235eb6cfe0-8f7aa3d3c732.txt
 
---===============3060825083999705301==
+--===============0217939053940686155==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ b6d993310a65b994f37e3347419d9ed398ee37a3 Merge tag 'linux_kselftest-kunit-6.19-r
 015e7b0b0e8e51f7321ec2aafc1d7fc0a8a5536f Merge tag 'bpf-next-6.19' of git://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf-next
 8f7aa3d3c7323f4ca2768a9e74ebbe359c4f8f88 Merge tag 'net-next-6.19' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net-next
 
---===============3060825083999705301==--
+--===============0217939053940686155==--
