@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4002198209869185020=="
+Content-Type: multipart/mixed; boundary="===============7652106248650299540=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs
-Date: Thu, 04 Dec 2025 17:17:39 -0000
-Message-Id: <176486865928.1864988.3011072785603156935@gitolite.kernel.org>
+Date: Thu, 04 Dec 2025 17:17:49 -0000
+Message-Id: <176486866933.1865221.7110422692820155166@gitolite.kernel.org>
 
---===============4002198209869185020==
+--===============7652106248650299540==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jaegeuk/f2fs
 user: jaegeuk
 changes:
-  - ref: refs/heads/dev
-    old: 807e755c468abf9c40645b7ffaf7014f4d94f4d5
-    new: 76ee7fd6af6851ef78016139bd727057ba467c4e
-    log: revlist-807e755c468a-76ee7fd6af68.txt
+  - ref: refs/heads/dev-test
+    old: 13d355591b3e47aa8c2f9ee5e80cda47f3a8071d
+    new: 07ea7aa1d2b0525797ea0baf75abb9dcf9657ff3
+    log: revlist-13d355591b3e-07ea7aa1d2b0.txt
 
---===============4002198209869185020==
+--===============7652106248650299540==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-807e755c468a-76ee7fd6af68.txt
+Content-Disposition: attachment; filename=revlist-13d355591b3e-07ea7aa1d2b0.txt
 
 28b68b2a3b2fae3789717ca9e306ae8f01269849 f2fs: clean up w/ bio_add_folio_nofail()
 3b7e73ddc07f77eeb67474354b44ec7fed8e8b56 f2fs: convert add_ipu_page() to use folio
@@ -61,5 +61,7 @@ fbc0774b6d55722c90a4509ec8089071b9e7aa18 docs: f2fs: wrap ASCII tables in litera
 37345eae9deaa2e4f372eeb98f6594cd0ee0916e f2fs: fix to not account invalid blocks in get_left_section_blocks()
 8d1cb17aca466b361cca17834b8bb1cf3e3d1818 f2fs: optimize trace_f2fs_write_checkpoint with enums
 76ee7fd6af6851ef78016139bd727057ba467c4e f2fs: ignore discard return value
+e64bb451fc9a36aa6f98aea91f2d06940ed58db1 f2fs: support large folio for immutable non-compressed case
+07ea7aa1d2b0525797ea0baf75abb9dcf9657ff3 f2fs: add a tracepoint to see large folio read submission
 
---===============4002198209869185020==--
+--===============7652106248650299540==--
