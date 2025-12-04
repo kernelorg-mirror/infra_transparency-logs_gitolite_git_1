@@ -1,21 +1,43 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bmc/linux
-Date: Thu, 04 Dec 2025 00:28:57 -0000
-Message-Id: <176480813788.843786.7063031213502707895@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============5607957673622761794=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kees/linux
+Date: Thu, 04 Dec 2025 00:32:45 -0000
+Message-Id: <176480836538.848220.9634204813432989412@gitolite.kernel.org>
+
+--===============5607957673622761794==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bmc/linux
-user: arj
+repo: pub/scm/linux/kernel/git/kees/linux
+user: kees
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/for-next
-    old: 019a68ab5e2933fc35ee296a324be1a6cb954c58
-    new: a452f0ffe50be9f4fe6ce93f67b771150b8d7fb8
-    log: |
-         9b44bdd70d38738fe9e1ce80b693a84294b8beaa dt-bindings: arm: aspeed: Add NVIDIA MSX4 board
-         230b961ac515aa2cd4f7837a4c672705ad8ec5d7 ARM: dts: aspeed: Add NVIDIA MSX4 HPM
-         a452f0ffe50be9f4fe6ce93f67b771150b8d7fb8 Merge branch 'aspeed/arm/dt' into for-next
-         
+  - ref: refs/heads/dev/next-20251119/alloc_obj/v6
+    old: 0000000000000000000000000000000000000000
+    new: f529264e46f3c1f802b8080c76ec3ddfc1de6199
+
+--===============5607957673622761794==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher A5C3F68F229DD60F723E6E138972F4DFDC6DC026 1764808356 -0800
+pushee gitolite.kernel.org:pub/scm/linux/kernel/git/kees/linux.git
+nonce 1764808344-b6997815bc896dc93b74f0d51f0e426e7e3bb68f
+
+0000000000000000000000000000000000000000 f529264e46f3c1f802b8080c76ec3ddfc1de6199 refs/heads/dev/next-20251119/alloc_obj/v6
+-----BEGIN PGP SIGNATURE-----
+
+iHUEABYKAB0WIQRSPkdeREjth1dHnSE2KwveOeQkuwUCaTDWpAAKCRA2KwveOeQk
+uz0wAP0W59PJQFKeF5F2YVkhfYpNl42sUVNUze9Gyu2Ot787FwEAwjoKWOYCSiJK
+YqtIn4IQuqAtvL2NCwqjvB0t8g7RRwI=
+=CgLl
+-----END PGP SIGNATURE-----
+
+--===============5607957673622761794==--
