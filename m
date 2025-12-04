@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Thu, 04 Dec 2025 22:13:42 -0000
-Message-Id: <176488642281.2149541.13347701120723797487@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/andi.shyti/linux
+Date: Thu, 04 Dec 2025 22:14:32 -0000
+Message-Id: <176488647239.2150553.7882090878142680772@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/andi.shyti/linux
+user: andi.shyti
 changes:
-  - ref: refs/heads/master
-    old: dd463c51a327d341d3ece63dd50e1a0f8f09c468
-    new: aa833fc394baad601b8f7779c1ae2ada3a06ce07
+  - ref: refs/heads/i2c/i2c-host-next
+    old: 848d1304fad9445222a4cec59695a16d17b3c16e
+    new: 362e391005a98827a2d98b63f1e9001dd592bc63
     log: |
-         aa833fc394baad601b8f7779c1ae2ada3a06ce07 drm/xe: Fix duplicated put due to merge resolution
+         362e391005a98827a2d98b63f1e9001dd592bc63 dt-bindings: i2c: qcom-cci: Document SM8750 compatible
          
