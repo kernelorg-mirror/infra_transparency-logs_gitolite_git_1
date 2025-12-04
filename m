@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/damon-hack
-Date: Thu, 04 Dec 2025 01:34:08 -0000
-Message-Id: <176481204842.912511.6465974389499734673@gitolite.kernel.org>
+Subject: post-receive: pub/scm/libs/libtrace/libtraceevent
+Date: Thu, 04 Dec 2025 01:47:56 -0000
+Message-Id: <176481287679.925738.4375762509335592828@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/damon-hack
-user: sj
+repo: pub/scm/libs/libtrace/libtraceevent
+user: rostedt
 changes:
-  - ref: refs/heads/master
-    old: 343ed33f1a54e14f0d1501e30b18d7c3913c2e55
-    new: 245461de88064c98d6fe7e5a4f5f1c16b247be96
+  - ref: refs/heads/libtraceevent
+    old: 263459e119547ecda044bc5ccfd32eb8b48a67a6
+    new: 1ba126286319688bdc386ebeca90ff77eab850f5
     log: |
-         245461de88064c98d6fe7e5a4f5f1c16b247be96 patches/next: rebase to latest mm-new
+         1ba126286319688bdc386ebeca90ff77eab850f5 libtraceevent: Move back to 1.8.99
          
