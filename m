@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Thu, 04 Dec 2025 19:40:32 -0000
-Message-Id: <176487723204.2004027.12820710983188256805@gitolite.kernel.org>
+Date: Thu, 04 Dec 2025 19:40:34 -0000
+Message-Id: <176487723455.2004113.1283387739192433217@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,6 +11,6 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 changes:
-  - ref: refs/tags/sent/20251204-regulator-fixed-fix-gpiod-leak-b1f50fb8c388-v1
+  - ref: refs/heads/regulator-fixed-fix-gpiod-leak
     old: 0000000000000000000000000000000000000000
-    new: 813de027647ed243e57ecba8383d69525f2e5098
+    new: 2b374b8f4c7ef00e881ff72f1a70f0d6d86757e6
