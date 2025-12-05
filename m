@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8897776409477174918=="
+Content-Type: multipart/mixed; boundary="===============1532310267917496460=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Fri, 05 Dec 2025 04:31:23 -0000
-Message-Id: <176490908304.2524811.7248000897284444754@gitolite.kernel.org>
+Date: Fri, 05 Dec 2025 04:31:45 -0000
+Message-Id: <176490910530.2525235.1598291962565819518@gitolite.kernel.org>
 
---===============8897776409477174918==
+--===============1532310267917496460==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
 user: jarkko
 changes:
-  - ref: refs/heads/master
-    old: c1e2b965bdfaed79c2c0ede21f6befabae505e0c
+  - ref: refs/heads/next
+    old: 09b71a58ee355ae09f302bd0875a29ffbcbbe3ac
     new: 38d93f004eb1c0830d03d6b5cd4bae37c40efc54
-    log: revlist-c1e2b965bdfa-38d93f004eb1.txt
+    log: revlist-09b71a58ee35-38d93f004eb1.txt
 
---===============8897776409477174918==
+--===============1532310267917496460==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c1e2b965bdfa-38d93f004eb1.txt
+Content-Disposition: attachment; filename=revlist-09b71a58ee35-38d93f004eb1.txt
 
 194832dcb13b0d02fce0df887235b7e6d1ef0121 string: use __attribute__((nonnull())) in strends()
 e3daf0e7fe9758613bec324fd606ed9caa187f74 dt-bindings: net: aspeed: add AST2700 MDIO compatible
@@ -1051,4 +1051,4 @@ deb879faa9d2f327ac5c079d9d1a1747b79260e3 Merge tag 'drm-next-2025-12-05' of http
 51054412bee1408c6f772fe248fa198649113a21 tpm2-sessions: Remove 'attributes' parameter from tpm_buf_append_auth
 38d93f004eb1c0830d03d6b5cd4bae37c40efc54 tpm2-sessions: Open code tpm_buf_append_hmac_session()
 
---===============8897776409477174918==--
+--===============1532310267917496460==--
