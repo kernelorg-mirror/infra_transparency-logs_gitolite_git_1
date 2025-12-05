@@ -1,25 +1,41 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kas/linux
-Date: Fri, 05 Dec 2025 11:21:37 -0000
-Message-Id: <176493369791.2910517.1125047462740191493@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============0622316404252214125=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/cip/linux-cip
+Date: Fri, 05 Dec 2025 11:31:37 -0000
+Message-Id: <176493429702.2920051.15497816350053363052@gitolite.kernel.org>
+
+--===============0622316404252214125==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kas/linux
-user: kas
+repo: pub/scm/linux/kernel/git/cip/linux-cip
+user: pavel
 changes:
-  - ref: refs/heads/compound_head
-    old: 567e0736960286b8f4c4c0720eb56dba647f1b4b
-    new: 01636abcb869211674d63eb6cd0e7dc0b6426eec
-    log: |
-         fe9c73d5c6c76b27f4e77d17610a4b588fe386d6 mm: Rework compound_head() for power-of-2 sizeof(struct page)
-         1b6a56567c3211eb0d8b87b41aaef2b3ee753a67 mm/hugetlb: Refactor code around vmemmap_walk
-         2fda2baf9f28381e74d5b4a1be8cd8ad1ef41e3c mm/hugetlb: Remove fake head pages
-         11d352782dc027944d7f46f391b5cdb97130e461 mm: Drop fake head checks and fix a race condition.
-         ce9545bb1cb12f73ce42c2166a7f033cb56bf6a9 mm/hugetlb: Remove hugetlb_optimize_vmemmap_key static key
-         eb6bf89a65352b1923b5ad53e6522ade4a37d28d mm: Remove the branch from compound_head()
-         01636abcb869211674d63eb6cd0e7dc0b6426eec hugetlb: Update vmemmap_dedup.rst
-         
+  - ref: refs/heads/linux-6.12.y-cip
+    old: 596809c094aeb2eef347d347eaac2367826e103d
+    new: 52bf1e8331d81be1bfeb950a51e3ad683157b805
+    log: revlist-596809c094ae-52bf1e8331d8.txt
+
+--===============0622316404252214125==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-596809c094ae-52bf1e8331d8.txt
+
+ff41ea477b3f7c1c266705cfb9446ee9da1ad83d dt-bindings: soc: renesas: Document Renesas RZ/V2N SoC variants and EVK
+d024610e3882fdd4e42092c8ec325c1519ccd492 soc: renesas: Add config option for RZ/V2N (R9A09G056) SoC
+f4d446fbf128f99615835b8124540bb216afd59c dt-bindings: soc: renesas: Document SYS for RZ/V2N SoC
+d1b6552d8181ddb8f36430e91431c61f66810c77 soc: renesas: rz-sysc: Add SoC identification for RZ/V2N SoC
+7342f9960a9fa4c6d1da18ad930d9e7553f23bf0 dt-bindings: serial: renesas: Document RZ/V2N SCIF
+99b3784633a40b28ff78dc0248d1fea75ef609a5 dt-bindings: mmc: renesas,sdhi: Document RZ/V2N support
+d2a465319d6d3301ba6ca6040eef3dce6a7cb059 dt-bindings: clock: renesas: Document RZ/V2N SoC CPG
+cc073628cd1bc6878508e68bea3d9be078bb14ef clk: renesas: rzv2h: Add support for RZ/V2N SoC
+91b436614cd413df3ddd275b5edb6df59082618e arm64: dts: renesas: Add initial SoC DTSI for RZ/V2N
+9a92d9e18652977da5b5a92e8572df658e0065fb arm64: dts: renesas: Add initial device tree for RZ/V2N EVK
+52bf1e8331d81be1bfeb950a51e3ad683157b805 arm64: dts: renesas: Add CN15 eMMC and SD overlays for RZ/V2H and RZ/V2N EVKs
+
+--===============0622316404252214125==--
