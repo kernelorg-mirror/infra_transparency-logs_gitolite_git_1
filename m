@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rostedt/linux-ktest
-Date: Fri, 05 Dec 2025 15:24:02 -0000
-Message-Id: <176494824231.3163684.1867507746560559498@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/a.hindborg/linux
+Date: Fri, 05 Dec 2025 15:28:07 -0000
+Message-Id: <176494848717.3168192.10777851826471608979@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rostedt/linux-ktest
-user: rostedt
+repo: pub/scm/linux/kernel/git/a.hindborg/linux
+user: a.hindborg
 changes:
-  - ref: refs/tags/ktest-v6.19
+  - ref: refs/heads/rnull-v6.18-rc5
     old: 0000000000000000000000000000000000000000
-    new: 896fb88396c2dd1074782e89d84a70a6f9940765
+    new: 1186ffea40657363f6417873257f228dfd373fb9
