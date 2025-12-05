@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0895914542545444920=="
+Content-Type: multipart/mixed; boundary="===============6389347768287033935=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Fri, 05 Dec 2025 02:26:34 -0000
-Message-Id: <176490159486.2402699.5546877031738726225@gitolite.kernel.org>
+Date: Fri, 05 Dec 2025 02:26:36 -0000
+Message-Id: <176490159615.2402814.4116234308503292826@gitolite.kernel.org>
 
---===============0895914542545444920==
+--===============6389347768287033935==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/mm-new
-    old: 3f43be96f919cc611dcb2a4e38dd464831f4513e
-    new: e4c4d9892021888be6d874ec1be307e80382f431
-    log: revlist-3f43be96f919-e4c4d9892021.txt
+  - ref: refs/heads/mm-unstable
+    old: 92440888882ad21791a07ff8809807ef1d2c2a42
+    new: 3cfeff1d2304237b1c14628d695a6df44daff48f
+    log: revlist-92440888882a-3cfeff1d2304.txt
 
---===============0895914542545444920==
+--===============6389347768287033935==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3f43be96f919-e4c4d9892021.txt
+Content-Disposition: attachment; filename=revlist-92440888882a-3cfeff1d2304.txt
 
 ac9b1414158fd0ec9496b931b2edcf8fce218b2b mm/huge_memory: fix initialization of huge zero folio
 5a2a6bd2905b3427c0ab1a1ba4feacca684634f2 MAINTAINERS: add Mike Rapoport as maintainer for userfaultfd
@@ -49,6 +49,5 @@ b39efac2a674bbf89a7b6f7d32b7dcac0bf9d72e mm/huge_memory: fix folio split stats c
 faf6f7bcb6216a8f958bd31975d135f3dc93c801 mm: fix CONFIG_STACK_GROWSUP typo in mm.h
 93eb08c8bd666c5145bfc65496c0b30d78357a48 mm/hugetlb: fix incorrect error return from hugetlb_reserve_pages()
 3cfeff1d2304237b1c14628d695a6df44daff48f MAINTAINERS: add idr core-api doc file to XARRAY
-e4c4d9892021888be6d874ec1be307e80382f431 mm/damon/core: fix memory leak of repeat mode damon_call_control objects
 
---===============0895914542545444920==--
+--===============6389347768287033935==--
