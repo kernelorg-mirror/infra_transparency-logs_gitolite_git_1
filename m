@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1532310267917496460=="
+Content-Type: multipart/mixed; boundary="===============8534205080036076813=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Fri, 05 Dec 2025 04:31:45 -0000
-Message-Id: <176490910530.2525235.1598291962565819518@gitolite.kernel.org>
+Date: Fri, 05 Dec 2025 04:32:13 -0000
+Message-Id: <176490913357.2525668.2020106852832018768@gitolite.kernel.org>
 
---===============1532310267917496460==
+--===============8534205080036076813==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,23 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
 user: jarkko
 changes:
-  - ref: refs/heads/next
-    old: 09b71a58ee355ae09f302bd0875a29ffbcbbe3ac
-    new: 38d93f004eb1c0830d03d6b5cd4bae37c40efc54
-    log: revlist-09b71a58ee35-38d93f004eb1.txt
+  - ref: refs/heads/queue
+    old: b9bdc2acdcdf7d2d34ef75b0c1e3ac99a22c347c
+    new: 2fb9dbe1b767cfd7521008ff1b196a7f265d1026
+    log: revlist-b9bdc2acdcdf-2fb9dbe1b767.txt
 
---===============1532310267917496460==
+--===============8534205080036076813==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-09b71a58ee35-38d93f004eb1.txt
+Content-Disposition: attachment; filename=revlist-b9bdc2acdcdf-2fb9dbe1b767.txt
 
-194832dcb13b0d02fce0df887235b7e6d1ef0121 string: use __attribute__((nonnull())) in strends()
-e3daf0e7fe9758613bec324fd606ed9caa187f74 dt-bindings: net: aspeed: add AST2700 MDIO compatible
-69cc9d4075855661268327c38c9b0e71ac37eb1c mmc: sdhci-of-dwcmshc: Fix command queue support for RK3576
-8a4a16f86edc10e162f0e305bdfa8f1f9c522551 MAINTAINERS: Add Shawn Lin as co-maintainer for dw_mmc drivers
-b1f856b1727c2eaa4be2c6d7cd7a8ed052bbeb87 mmc: sdhci-msm: Avoid early clock doubling during HS400 transition
-9341d6698f4cfdfc374fb6944158d111ebe16a9d backlight: led-bl: Add devlink to supplier LEDs
 147b38a5ad068c43d601addc668937af6b4fe533 backlight: aw99706: Add support for Awinic AW99706 backlight
 25c2b404cd3fe00f3a1c61b6dffd6c98a0a70170 dt-bindings: leds: backlight: Add Awinic AW99706 backlight
 2d45db63260c6ae3cf007361e04a1c41bd265084 backlight: lp855x: Fix lp855x.h kernel-doc warnings
@@ -1050,5 +1044,11 @@ deb879faa9d2f327ac5c079d9d1a1747b79260e3 Merge tag 'drm-next-2025-12-05' of http
 7189454d6feea80a740c7ee689588f6c52a2ef74 tpm2-sessions: Fix tpm2_read_public range checks
 51054412bee1408c6f772fe248fa198649113a21 tpm2-sessions: Remove 'attributes' parameter from tpm_buf_append_auth
 38d93f004eb1c0830d03d6b5cd4bae37c40efc54 tpm2-sessions: Open code tpm_buf_append_hmac_session()
+fbe019e5d6036235bf30d80071adc3e6efa54b7f KEYS: trusted: Re-orchestrate tpm2_read_public() calls
+2c44c8eb0332296caf9e05cef4bda875cc994231 KEYS: trusted: Store parent's name to the encoded keys
+66f4af2873e38727d3320c74cc6e2b8994d43c51 KEYS: trusted: Open code tpm2_buf_append()
+599094be14dc285b731c57ecb6351c711411e07f tpm-buf: Merge TPM_BUF_BOUNDARY_ERROR and TPM_BUF_OVERFLOW
+ec7be36a08d9bb0969185cf5e4c132b490fae4d3 tpm-buf: Remove chip parameter from tpm_buf_append_handle
+2fb9dbe1b767cfd7521008ff1b196a7f265d1026 tpm-buf: Enable managed and stack allocations.
 
---===============1532310267917496460==--
+--===============8534205080036076813==--
