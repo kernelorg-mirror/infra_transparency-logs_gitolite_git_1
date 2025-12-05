@@ -1,21 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/andrea/ripgrep-edit
-Date: Fri, 05 Dec 2025 14:33:59 -0000
-Message-Id: <176494523978.3112736.2028296145395032244@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/frederic/dynticks-testing
+Date: Fri, 05 Dec 2025 14:40:36 -0000
+Message-Id: <176494563654.3121144.163401419915365418@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/andrea/ripgrep-edit
-user: andrea
+repo: pub/scm/linux/kernel/git/frederic/dynticks-testing
+user: frederic
 changes:
-  - ref: refs/heads/main
-    old: 2ae726054658d0b88367c04f55913890c6d51cb2
-    new: 1f828bb109a93fee0a8c6e70efc5d85233422a60
+  - ref: refs/heads/master
+    old: e7d83c0a2c7d6c4d39dffae2508f4c0652bc5e9a
+    new: 0d4aa685c1a3f5f0213d236624dac119d02db52f
     log: |
-         21e1e5ca0450956f0b7e42f825074a5fe9f59ab9 Package rg-edit.1 manpage as well
-         3f06316450cc5ad3b555dc4550884d0cda0a22e8 Remove FIXME comment about missing license files
-         1f828bb109a93fee0a8c6e70efc5d85233422a60 version
+         e6c180e40259c657a33e7da9a779b73e6fe63b4d Add isolcpus and cpusets support
+         0d4aa685c1a3f5f0213d236624dac119d02db52f Merge branch 'isolcpus-cpusets-nohz_full' into 'master'
          
