@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/xen/tip
-Date: Sat, 06 Dec 2025 06:27:42 -0000
-Message-Id: <176500246246.4022254.2893593822974186731@gitolite.kernel.org>
+Date: Sat, 06 Dec 2025 06:28:10 -0000
+Message-Id: <176500249018.4022669.17889635245348936679@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,9 +11,6 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/xen/tip
 user: jgross
 changes:
-  - ref: refs/heads/for-linus-6.19
-    old: a73d4a055622d0973e371382b16a13f9795ffec7
-    new: 150215b89bcf708356abcb7d3cafdd1e6068598b
-    log: |
-         150215b89bcf708356abcb7d3cafdd1e6068598b drivers/xen: use min() instead of min_t()
-         
+  - ref: refs/tags/for-linus-6.19-rc1-tag
+    old: 0000000000000000000000000000000000000000
+    new: a0746d6d72e772c423b2ba5180dcd4b0afdbebe3
