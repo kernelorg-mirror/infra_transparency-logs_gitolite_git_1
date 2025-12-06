@@ -1,41 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============1618265101318092718=="
+Content-Type: multipart/mixed; boundary="===============0948013234714084148=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/qcom/linux
-Date: Sat, 06 Dec 2025 03:59:35 -0000
-Message-Id: <176499357540.3880903.15547917976288648055@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/security/vulns
+Date: Sat, 06 Dec 2025 04:11:51 -0000
+Message-Id: <176499431115.3898662.12873008202689647032@gitolite.kernel.org>
 
---===============1618265101318092718==
+--===============0948013234714084148==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/qcom/linux
-user: andersson
+repo: pub/scm/linux/security/vulns
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-next
-    old: c17e270dfb342a782d69c4a7c4c32980455afd9c
-    new: 82ed018b3df9046243e5279e13b541208ccaa3a5
-    log: revlist-c17e270dfb34-82ed018b3df9.txt
+  - ref: refs/heads/master
+    old: a4c9be7a364d4165704a179338505dbb6a003d52
+    new: 25a4ce670bf4cff8e213b5058797ac874ad4e11f
+    log: |
+         25a4ce670bf4cff8e213b5058797ac874ad4e11f add 6.17.9 review from greg
+         
 
---===============1618265101318092718==
+--===============0948013234714084148==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c17e270dfb34-82ed018b3df9.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-f1a250c33a256504e03614234209ca0c244e2837 arm64: dts: qcom: talos: Correct UFS clocks ordering
-c0ccb8981ff2b481c0355bfef0b7db2465c7e57a mailmap: Update email address for Abel Vesa
-d60e51cbae7e92c4a00cddb2750129094760da60 arm64: dts qcom: sdm845-oneplus-enchilada: Specify panel name within the compatible
-01e17231b051b9392f93d1c7a7adfec5a7d4d72d dt-bindings: power: qcom,rpmpd: Add SC8280XP_MXC_AO
-2dac255225ece85cf38c9557a413ac324e3a6651 pmdomain: qcom: rpmhpd: Add MXC to SC8280XP
-3e12e2ec598b90e8f6af8b455ceeba8cd58123ad arm64: dts: qcom: sc8280xp: Add missing VDD_MXC links
-2d0165726d20395cb700546b1528df3fa614e5a3 arm64: dts: qcom: sm8550: Fix compile warnings in USB controller node
-825db404fbed0580deb19f587d69b9f75980055a arm64: dts: qcom: sm8650: Fix compile warnings in USB controller node
-cc09be7d644063334634baa6bb8f3860d6e05dcc ARM: dts: qcom: msm8974: Sort header includes alphabetically
-ce1799781200529149cc9e013ae1fdd6eb04b2b5 ARM: dts: qcom: msm8974: Start using rpmpd for power domains
-82ed018b3df9046243e5279e13b541208ccaa3a5 Merge branches 'arm32-fixes-for-6.19', 'arm64-defconfig-for-6.19', 'arm64-fixes-for-6.19', 'clk-for-6.19' and 'drivers-for-6.19' into for-next
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1764994307 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
+nonce 1764994307-39506b11f05653219f231566cc928a4d2b8379e2
 
---===============1618265101318092718==--
+a4c9be7a364d4165704a179338505dbb6a003d52 25a4ce670bf4cff8e213b5058797ac874ad4e11f refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmkzrQMbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Jq4P/1Nfbz1lQm173rkQ3HDZ
+Lxft6v5aMuw2o/uSVW4L2oXLY+jKhSEMYAh83g7oSNgOVXboVwjVjHqlRVR2tgIF
+5Lbq+8tvdFLrZNPBdgP9jOAJrYAXWLn4kn4HbgTuRL3vAK4IbCB2vd40xvA6Hrk/
++DHuPxGSF4HelHlwI9phNBdw+ipldv231tI/jy5fLm5tsil5qm8rdL1aeH5UYts4
+uASc8P/fESVSsJlKZDHbXWADpTqfmUQq03vipkCbkX6dupokBzFwWMgfVg3CAv55
+6pzTGz6Okr4gHpeizTIPhmiCVTZSYc/HHDQmzSiVQnsRmW9iDhqlmuVVtovGKFti
+FdTdAe+DjpUuseMOjQH1joIeU1JaVugQPSqUwq4CstlUwFv834h+3NWBUdcYLd20
+170sAvQ4QPuuojoUR1G0O17qbL96v4d3tQA3dcw74PL/AKYRY0AO6YikrXz+4ggl
+xhJ5VWmOUyZtJXK5R0rMn0uDDncdsMf+9SVI8+sBw8qJU9raKJx06g5s3pBKbWKO
+7ws1QM4g0Nvq0Qp9F5HyGA4ni2EWf+pft2vssCxFZut3KgTksr6F3BqBKAnKe/Tx
+BLthGNZGyTLEHTxbAf5jp9ivCHodHRrraAm6KEHX/hDwuk5Dom6yll/37uPVcbc3
+mFdXw4mZ/TeYHjJX3YEt3WQN
+=h1GY
+-----END PGP SIGNATURE-----
+
+--===============0948013234714084148==--
