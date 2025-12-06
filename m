@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3558598958282380590=="
+Content-Type: multipart/mixed; boundary="===============6810402708584139875=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Sat, 06 Dec 2025 10:35:31 -0000
-Message-Id: <176501733113.55820.1122461276870916284@gitolite.kernel.org>
+Date: Sat, 06 Dec 2025 10:36:23 -0000
+Message-Id: <176501738344.56660.12680815922314454048@gitolite.kernel.org>
 
---===============3558598958282380590==
+--===============6810402708584139875==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
 user: jarkko
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/next
     old: b7960b90486139022d2d39caad90db252c469bab
     new: 416f99c3b16f582a3fc6d64a1f77f39d94b76de5
     log: revlist-b7960b904861-416f99c3b16f.txt
 
---===============3558598958282380590==
+--===============6810402708584139875==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ f19b84186d297063a1006ca9e1c8597f77a75581 Merge tag 'media/v6.19-2' of git://git.
 b1ae17cd0f0a2ffe1e9da007587c8eebb1bf8c69 Merge tag 'for-linus-6.19-1' of https://github.com/cminyard/linux-ipmi
 416f99c3b16f582a3fc6d64a1f77f39d94b76de5 Merge tag 'driver-core-6.19-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/driver-core/driver-core
 
---===============3558598958282380590==--
+--===============6810402708584139875==--
