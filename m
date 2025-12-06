@@ -1,22 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/device-mapper/linux-dm
-Date: Sat, 06 Dec 2025 11:31:30 -0000
-Message-Id: <176502069037.110545.11120529189823085001@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Sat, 06 Dec 2025 11:37:03 -0000
+Message-Id: <176502102311.115705.10150995964952063997@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/device-mapper/linux-dm
-user: mikulas
+repo: pub/scm/linux/kernel/git/tip/tip
+user: mingo
 changes:
-  - ref: refs/heads/dm-6.19
-    old: 5ad837c6b9a5f5aecc030e0b66358f65e103771c
-    new: 58a0cbb4f70a5dfbb7b70b50ad2e13026186b14e
-    log: |
-         5fd646784e0dda25cda5639fc70dc8a6efa602fc dm raid: add documentation for takeover/reshape raid1 -> raid5 table line examples
-         5e3113080bc7ac6e5dae2fe60a35405b29a0531f dm-pcache: advance slot index before writing slot
-         d90c601c4075f8d3455733d65993cb48818d2e14 dm pcache: fix cache info indexing
-         58a0cbb4f70a5dfbb7b70b50ad2e13026186b14e dm pcache: fix segment info indexing
-         
+  - ref: refs/tags/objtool-urgent-2025-12-06
+    old: 0000000000000000000000000000000000000000
+    new: 31bd51bdc7060876879617fbff659e77f023f08e
