@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Sat, 06 Dec 2025 19:31:29 -0000
-Message-Id: <176504948943.557910.6483752496796338020@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/deller/parisc-linux
+Date: Sat, 06 Dec 2025 19:33:03 -0000
+Message-Id: <176504958321.559001.9043065540895647032@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/deller/parisc-linux
+user: deller
 changes:
-  - ref: refs/heads/master
-    old: b0319c4642638bad4b36974055b1c0894b2c7aa9
-    new: 5e5ea7f61610239fca058011e7d4f342b34d1558
-    log: |
-         5e5ea7f61610239fca058011e7d4f342b34d1558 iommu/amd: fix SEV-TIO support reporting
-         
+  - ref: refs/tags/parisc-for-6.19-1
+    old: e8d0f70609b304d3bc2422f91b1e508e099c1bac
+    new: 0000000000000000000000000000000000000000
