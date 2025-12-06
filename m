@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/trace/linux-trace
-Date: Sat, 06 Dec 2025 17:47:44 -0000
-Message-Id: <176504326463.458620.12432845995940945378@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jpoimboe/linux
+Date: Sat, 06 Dec 2025 18:20:00 -0000
+Message-Id: <176504520019.487941.3379794117759615362@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/trace/linux-trace
-user: rostedt
+repo: pub/scm/linux/kernel/git/jpoimboe/linux
+user: jpoimboe
 changes:
-  - ref: refs/tags/trace-v6.19-2
+  - ref: refs/heads/alternative-macro
     old: 0000000000000000000000000000000000000000
-    new: c3c7c8b2fc8a5cc806da41816b7b1c3b8652d27a
+    new: 051df5c21cbf6d9ac396c22b3ab3c51d73c0def7
