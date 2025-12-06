@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0948013234714084148=="
+Content-Type: multipart/mixed; boundary="===============2558537840480202188=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/security/vulns
-Date: Sat, 06 Dec 2025 04:11:51 -0000
-Message-Id: <176499431115.3898662.12873008202689647032@gitolite.kernel.org>
+Date: Sat, 06 Dec 2025 04:15:35 -0000
+Message-Id: <176499453563.3903137.1894031631850759686@gitolite.kernel.org>
 
---===============0948013234714084148==
+--===============2558537840480202188==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,40 +17,46 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/master
-    old: a4c9be7a364d4165704a179338505dbb6a003d52
-    new: 25a4ce670bf4cff8e213b5058797ac874ad4e11f
+    old: 25a4ce670bf4cff8e213b5058797ac874ad4e11f
+    new: 3e8302b100487aad3d24ab4dcf47fef6c7006f8c
     log: |
-         25a4ce670bf4cff8e213b5058797ac874ad4e11f add 6.17.9 review from greg
+         6e7e97cae82086d912156fb4d25ad5afd6800c5e add .vulnerable id for CVE-2024-35929
+         cdb75d3db0502e24a8f5db860daa8698c522eaa7 add .vulnerable id for CVE-2025-40195
+         3aad21fbec123ef852e398e79e39e0827abe2384 update .vulnerable for CVE-2022-49129
+         31b1c5917e5b40e9e0c51d7cf15cd5862f3ecae1 mark CVE-2021-47295 as resolved by code deletion
+         c9e225d2d710386efb63e969313af3aaa2d7f487 add .vulnerable id for CVE-2024-42130
+         c5b74dc6510e7928f8c708e5c4c301802e903db5 add .vulnerable id for CVE-2025-40217
+         3e8302b100487aad3d24ab4dcf47fef6c7006f8c updates based on new .vulnerable files
          
 
---===============0948013234714084148==
+--===============2558537840480202188==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1764994307 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1764994534 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
-nonce 1764994307-39506b11f05653219f231566cc928a4d2b8379e2
+nonce 1764994534-16729de346d569823b53eab5032b03abe1d333f2
 
-a4c9be7a364d4165704a179338505dbb6a003d52 25a4ce670bf4cff8e213b5058797ac874ad4e11f refs/heads/master
+25a4ce670bf4cff8e213b5058797ac874ad4e11f 3e8302b100487aad3d24ab4dcf47fef6c7006f8c refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmkzrQMbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Jq4P/1Nfbz1lQm173rkQ3HDZ
-Lxft6v5aMuw2o/uSVW4L2oXLY+jKhSEMYAh83g7oSNgOVXboVwjVjHqlRVR2tgIF
-5Lbq+8tvdFLrZNPBdgP9jOAJrYAXWLn4kn4HbgTuRL3vAK4IbCB2vd40xvA6Hrk/
-+DHuPxGSF4HelHlwI9phNBdw+ipldv231tI/jy5fLm5tsil5qm8rdL1aeH5UYts4
-uASc8P/fESVSsJlKZDHbXWADpTqfmUQq03vipkCbkX6dupokBzFwWMgfVg3CAv55
-6pzTGz6Okr4gHpeizTIPhmiCVTZSYc/HHDQmzSiVQnsRmW9iDhqlmuVVtovGKFti
-FdTdAe+DjpUuseMOjQH1joIeU1JaVugQPSqUwq4CstlUwFv834h+3NWBUdcYLd20
-170sAvQ4QPuuojoUR1G0O17qbL96v4d3tQA3dcw74PL/AKYRY0AO6YikrXz+4ggl
-xhJ5VWmOUyZtJXK5R0rMn0uDDncdsMf+9SVI8+sBw8qJU9raKJx06g5s3pBKbWKO
-7ws1QM4g0Nvq0Qp9F5HyGA4ni2EWf+pft2vssCxFZut3KgTksr6F3BqBKAnKe/Tx
-BLthGNZGyTLEHTxbAf5jp9ivCHodHRrraAm6KEHX/hDwuk5Dom6yll/37uPVcbc3
-mFdXw4mZ/TeYHjJX3YEt3WQN
-=h1GY
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmkzreYbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+R1QQAMMtsJJqr28mKtXAPoGc
+amHdtTicxMoiPZr8HvKYDd91T9PjVp1s4BcxpJ/fQZ3+pHbOUpaKWm7tef+1489U
+/p9uCIM9QakSIOnkx1xgOR65eZb50CLjBhFSAoret1bYG5yi8o8mA4waUZlPqcCd
+p+Eb1ZyIk018joOOvrqGTnySp7nKmNN7N9uaTbc9NwiHB8/+Lth+uea92qkkg3U7
+Fua/PXvxwKCW8ml/xUqyFL5uCfU9rHPouZHpwvykCuvs8EALoJn73bumiRtN0rQB
+smBTSC9KWiPhXkN5+WH7Z08Vxm0f10M+Jy6AnFq3r1DmPfyt05eWcBgU1lOLIt7f
+nFcTDRkVpY3XdS+ylwy+qXdcu8Be7MkUOf5iTfI3SomTs5cnusEExsKxt+SidIDm
+5Trbf/JyU+glse2ZiTU8juf2siD3dz+5HaHd9P7cXJzIvr1kerzATB6COi/frPAV
+VYzTNO3EN2IsZKuqeV+qBObRzO6AnCbbU8aQMFsfZHSuBJOYB8xqN95bBfAM+1XK
+ytSUXzBTj4YerML+bdCItgEp+8sULNhSoJy7qPOr/SdeodQm4fqatbiDqpASJg/k
+SBCin8RtHVnsqMY3/IK8alViS0tUPs6Wl/+k7gIxBXBi4bD8gLwGJS183pDwZfRD
+19s87bvZP2DpzoHtUD5R9Ej+
+=OAKf
 -----END PGP SIGNATURE-----
 
---===============0948013234714084148==--
+--===============2558537840480202188==--
