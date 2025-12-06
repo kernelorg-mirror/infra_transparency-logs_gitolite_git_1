@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============8859886589687813508=="
+Content-Type: multipart/mixed; boundary="===============6559868691715654633=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/deller/parisc-linux
-Date: Sat, 06 Dec 2025 18:51:18 -0000
-Message-Id: <176504707844.519180.17628177513646686468@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/deller/linux-fbdev
+Date: Sat, 06 Dec 2025 18:55:24 -0000
+Message-Id: <176504732430.523435.11947632530118706411@gitolite.kernel.org>
 
---===============8859886589687813508==
+--===============6559868691715654633==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/deller/parisc-linux
+repo: pub/scm/linux/kernel/git/deller/linux-fbdev
 user: deller
 changes:
   - ref: refs/heads/master
-    old: ac3fd01e4c1efce8f2c054cdeb2ddd2fc0fb150d
+    old: e9a6fb0bcdd7609be6969112f3fbfcce3b1d4a7c
     new: f468cf53c5240bf5063d0c6fe620b5ae2de37801
-    log: revlist-ac3fd01e4c1e-f468cf53c524.txt
+    log: revlist-e9a6fb0bcdd7-f468cf53c524.txt
 
---===============8859886589687813508==
+--===============6559868691715654633==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ac3fd01e4c1e-f468cf53c524.txt
+Content-Disposition: attachment; filename=revlist-e9a6fb0bcdd7-f468cf53c524.txt
 
 384c1a4e2722b43f26b55cc041562ff8b229b536 MAINTAINERS: separate VIRTIO NET DRIVER and add netdev
 5ffcb7b890f61541201461580bb6622ace405aec net: atlantic: fix fragment overflow handling in RX path
@@ -1051,4 +1051,4 @@ c84d574698bad2c02aad506dfe712f83cbe3b771 Merge tag 'modules-6.19-rc1' of git://g
 309e49039f124a9dcb99c05651af8eb8fa05bc29 rust: sync: atomic: separate import "blocks"
 f468cf53c5240bf5063d0c6fe620b5ae2de37801 Merge tag 'bitmap-for-6.19' of github.com:/norov/linux
 
---===============8859886589687813508==--
+--===============6559868691715654633==--
