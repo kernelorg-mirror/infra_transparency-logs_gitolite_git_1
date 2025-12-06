@@ -1,37 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Sat, 06 Dec 2025 11:31:18 -0000
-Message-Id: <176502067856.110196.6668284651283953177@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/device-mapper/linux-dm
+Date: Sat, 06 Dec 2025 11:31:24 -0000
+Message-Id: <176502068499.110457.2385336298248098895@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: mingo
+repo: pub/scm/linux/kernel/git/device-mapper/linux-dm
+user: mikulas
 changes:
-  - ref: refs/tags/locking-urgent-2025-12-06
-    old: 0000000000000000000000000000000000000000
-    new: c3323f761361bdbfbb18644d124ce0be0f3d8a89
-  - ref: refs/tags/perf-tools-for-v6.10-1-2024-05-21
-    old: 0000000000000000000000000000000000000000
-    new: d3720a419537eae085c966d0a81843a4b8e3fdd8
-  - ref: refs/tags/perf-tools-for-v6.12-1-2024-09-19
-    old: 0000000000000000000000000000000000000000
-    new: 11e255dc5efbbcfe4fc97103639de247ada4828a
-  - ref: refs/tags/perf-tools-for-v6.5-1-2023-06-28
-    old: 0000000000000000000000000000000000000000
-    new: 0e9b80aad81f78077a30e35d0f3aa3001c763526
-  - ref: refs/tags/perf-tools-for-v6.5-2-2023-07-06
-    old: 0000000000000000000000000000000000000000
-    new: 532ff92e832604bcfa0ba7edddd6cbd714d60f76
-  - ref: refs/tags/perf-tools-for-v6.7-1-2023-11-01
-    old: 0000000000000000000000000000000000000000
-    new: 4f8c9854fc1e5d0f3230403fd7ffd9f136df70f9
-  - ref: refs/tags/perf-tools-for-v6.8-1-2024-01-09
-    old: 0000000000000000000000000000000000000000
-    new: 4496a4f6ef7bdf1267772834a11c9c5c496b9dfb
-  - ref: refs/tags/perf-tools-for-v6.9-2024-03-13
-    old: 0000000000000000000000000000000000000000
-    new: 11364e6cccc9460054938bc43c277156d680fe6a
+  - ref: refs/heads/for-next
+    old: 5ad837c6b9a5f5aecc030e0b66358f65e103771c
+    new: 58a0cbb4f70a5dfbb7b70b50ad2e13026186b14e
+    log: |
+         5fd646784e0dda25cda5639fc70dc8a6efa602fc dm raid: add documentation for takeover/reshape raid1 -> raid5 table line examples
+         5e3113080bc7ac6e5dae2fe60a35405b29a0531f dm-pcache: advance slot index before writing slot
+         d90c601c4075f8d3455733d65993cb48818d2e14 dm pcache: fix cache info indexing
+         58a0cbb4f70a5dfbb7b70b50ad2e13026186b14e dm pcache: fix segment info indexing
+         
