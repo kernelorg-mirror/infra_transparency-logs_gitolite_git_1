@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/tpm2sh
+Subject: post-receive: pub/scm/linux/kernel/git/sj/damon-hack
 Date: Sat, 06 Dec 2025 02:41:12 -0000
-Message-Id: <176498887267.3807620.595355692096745048@gitolite.kernel.org>
+Message-Id: <176498887288.3807646.17414861744657743786@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/tpm2sh
-user: jarkko
+repo: pub/scm/linux/kernel/git/sj/damon-hack
+user: sj
 changes:
-  - ref: refs/heads/main
-    old: 128c4bdb8a1197c688dce73fa7da650de4dfea84
-    new: 4bd36cce6106cdb01ce22b6882d5538dd5b589ce
+  - ref: refs/heads/master
+    old: a553c1e702a4e3f9b14f9a24177fe9e866d10aa0
+    new: 68f22e3017bda3b20ecee912727e3538506ffe01
     log: |
-         4bd36cce6106cdb01ce22b6882d5538dd5b589ce refactor(memory): reorganize
+         68f22e3017bda3b20ecee912727e3538506ffe01 patches/next: revert vaddr change_protection() call
          
