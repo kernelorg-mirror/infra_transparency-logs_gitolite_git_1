@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6810402708584139875=="
+Content-Type: multipart/mixed; boundary="===============0218594321359183066=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Sat, 06 Dec 2025 10:36:23 -0000
-Message-Id: <176501738344.56660.12680815922314454048@gitolite.kernel.org>
+Date: Sat, 06 Dec 2025 10:36:54 -0000
+Message-Id: <176501741471.57142.10537504193523440631@gitolite.kernel.org>
 
---===============6810402708584139875==
+--===============0218594321359183066==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,23 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
 user: jarkko
 changes:
-  - ref: refs/heads/next
-    old: b7960b90486139022d2d39caad90db252c469bab
-    new: 416f99c3b16f582a3fc6d64a1f77f39d94b76de5
-    log: revlist-b7960b904861-416f99c3b16f.txt
+  - ref: refs/heads/queue
+    old: e5fb128d9c0afb955741bd98e93ccea53555fbd6
+    new: 0bdfb24332774e20862365dbb7e6412ddf1d04be
+    log: revlist-e5fb128d9c0a-0bdfb2433277.txt
 
---===============6810402708584139875==
+--===============0218594321359183066==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b7960b904861-416f99c3b16f.txt
+Content-Disposition: attachment; filename=revlist-e5fb128d9c0a-0bdfb2433277.txt
 
-6479325eca0148d417a82f0edcb37b58c4c0cf0a tracing: Have function graph tracer option funcgraph-irqs be per instance
-4132886e1b74d031a1de8f0e9bac44056cf57304 tracing: Move graph-time out of function graph options
-5abb6ccb58f0626a0b7577908bcb698b18812eed tracing: Have function graph tracer option sleep-time be per instance
-bc089c47250e8923892873809471e54e05919d80 tracing: Convert function graph set_flags() to use a switch() statement
-60bb55de5d6ccdf07a9389cb856661753c0f9713 arm64: tegra: Add ACTMON on Tegra210
-3cad4369399a31277e9e20de723c665b30cba574 arm64: tegra: Add interconnect properties for Tegra210
 654427e0b9b755d968bfd4147fc249ba1bd56ea9 arm64: tegra: Add OPP tables on Tegra210
 cddc94edf1979b5afacf9bf6f3709585baa36b78 arm64: tegra: Add default GIC address cells on Tegra132
 311cbb9c130e2af184f5e0dc49bd891b020b6596 arm64: tegra: Add default GIC address cells on Tegra186
@@ -1050,5 +1044,11 @@ f19b84186d297063a1006ca9e1c8597f77a75581 Merge tag 'media/v6.19-2' of git://git.
 096571bb893b3777ae1d752b7e1d5679bcf4edfc Merge tag 'ata-6.19-rc1-part2' of git://git.kernel.org/pub/scm/linux/kernel/git/libata/linux
 b1ae17cd0f0a2ffe1e9da007587c8eebb1bf8c69 Merge tag 'for-linus-6.19-1' of https://github.com/cminyard/linux-ipmi
 416f99c3b16f582a3fc6d64a1f77f39d94b76de5 Merge tag 'driver-core-6.19-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/driver-core/driver-core
+723c50deef65e64a33efabffce5282336994f80e KEYS: trusted: Re-orchestrate tpm2_read_public() calls
+ab68dd6720f0c8a6951f35496b1f0b51e13453bc KEYS: trusted: Store parent's name to the encoded keys
+3b4053d6a5c981bdacf603a53103fc69c35b1a5f KEYS: trusted: Open code tpm2_buf_append()
+e588272ef5fcf83da719070c3e686479a55f366e tpm-buf: Merge TPM_BUF_BOUNDARY_ERROR and TPM_BUF_OVERFLOW
+de34a0ace6ecd7434c55731b979c1edcd23057a3 tpm-buf: Remove chip parameter from tpm_buf_append_handle
+0bdfb24332774e20862365dbb7e6412ddf1d04be tpm-buf: Enable managed and stack allocations
 
---===============6810402708584139875==--
+--===============0218594321359183066==--
