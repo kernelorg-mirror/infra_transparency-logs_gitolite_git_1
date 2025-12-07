@@ -1,53 +1,49 @@
-Content-Type: multipart/mixed; boundary="===============6831920058474077338=="
+Content-Type: multipart/mixed; boundary="===============4402991855575091488=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Sun, 07 Dec 2025 00:27:48 -0000
-Message-Id: <176506726879.1150611.6165245777017496341@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Sun, 07 Dec 2025 00:28:27 -0000
+Message-Id: <176506730740.1151182.12400908723498070861@gitolite.kernel.org>
 
---===============6831920058474077338==
+--===============4402991855575091488==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/tty
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
-  - ref: refs/tags/tty-6.19-rc1
-    old: 0000000000000000000000000000000000000000
-    new: 5919661f9ad82cc4dd9364abcd664ace039e3548
+  - ref: refs/heads/master
+    old: c06c303832ecd5edef90c6817a6eb0eb7fed7a64
+    new: 50471f8b7371c95c72c168eb45e4f42f1514fd5e
+    log: revlist-c06c303832ec-50471f8b7371.txt
 
---===============6831920058474077338==
+--===============4402991855575091488==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-c06c303832ec-50471f8b7371.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1765067264 +0900
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1765067264-09486ef45776423fef2bb8e7bb857080293201d7
+3631b9cb2a34983e0f5962e542b428a66036d689 parisc: Drop padding fields and layers entries from inventory log
+5fb1d3ce3e74a4530042795e1e065422295f1371 parisc: entry: set W bit for !compat tasks in syscall_restore_rfi()
+1aa4524c0c1b54842c4c0a370171d11b12d0709b parisc: entry.S: fix space adjustment on interruption for 64-bit userspace
+3317aaca33dc6620d3dcc46216061df33bfff7db parisc: remove unneeded semicolon in perf_regs.c
+75b51437a4ac18195cc0683acea7bf75b6f43e7f parisc: Drop linux/kernel.h include from asm/bug.h header
+b8a65b2d8b206cab339de8393f164482328c2bde fbdev: vga16fb: replace printk() with dev_*() in probe
+6c317ceefac0c8ac82002ce2923f692102e50c02 fbdev: vga16fb: Request memory region
+b104df377da169913fe7cbfe409e1c52fdfa75c5 fbdev: vesafb: Use dev_* fn's instead printk
+e3f44742bbb10537fe53d83d20dea2a7c167674d fbdev: gbefb: fix to use physical address instead of dma address
+7ecb5c36b1360dd127e02e1d300dd07d764095cd fbdev: gxt4500fb: Use dev_err instead of printk
+dca7da244349eef4d78527cafc0bf80816b261f5 parisc: Do not reprogram affinitiy on ASP chip
+35fa2b4bf96415b88d7edaa5cf8af5185d9ce76e fbdev: tcx.c fix mem_map to correct smem_start offset
+0155e868cbc111846cc2809c1546ea53810a56ae fbdev: pxafb: Fix multiple clamped values in pxafb_adjust_timing
+b08ee4d666f216a6f9e7194a9b335147d4717f33 lib/fonts: Add Terminus 10x18 console font
+af0fa9b449d7952f231903262b0a96bad8399dd1 fbdev: tridentfb: replace printk() with dev_*() in probe
+93b22a4bf0b4945abc7c45345f2a52fd3098c16c fbdev: i810: use appopriate log interface dev_info
+164312662ae9764b83b84d97afb25c42eb2be473 fbdev: ssd1307fb: fix potential page leak in ssd1307fb_probe()
+0d1d44032f7b8b9edb14e82315fdf504740940c1 Merge tag 'fbdev-for-6.19-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/deller/linux-fbdev
+50471f8b7371c95c72c168eb45e4f42f1514fd5e Merge tag 'parisc-for-6.19-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/deller/parisc-linux
 
-0000000000000000000000000000000000000000 5919661f9ad82cc4dd9364abcd664ace039e3548 refs/tags/tty-6.19-rc1
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmk0ygAbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+xDAP/RHTbA00lY34FHYDDqK6
-/JWfMmE2ToEYw+L/WVpQCIyW4qo/JQFLWAetWH/zWeTKPnq0R0Xkt0do0i2AevtA
-i2X337B43EHmefTCQS7TJfriZqfw8Vqz1l9l85dv1SCcOTcycEF+0tDxS2n2geMW
-1zJGKNGJqYIk94U+EDxKtH/IiXXCptDDoe4X5Iv13QKUT5cKovdjZ07+ljbqezPx
-KVuj+/AJ91JEwjOxTJejsJNcWx0ajcXMYvhjlIABhCEud1NQuGs4dJ8wSavKIQrS
-smFvZns8R0SFYkFjnaTBmoGd0H0mApfOsv9TgGtbIsudlC0JR7o+WMvNJwy3yQqL
-2AEc+n020fsI1SRFfH50dVQiaa0swIEtrIlFEfv+Xr3n9oALzoPgOIF4aZBWenPy
-zaDTAjGrnilo+ztcMiQADYJRCUsPUlB1YgHzEuTsxGASGcYFeELrZIWU5/N8PO3V
-22LQRNGEND20o43JrS+vQa4Xxso6aRy5KeP1TIok0kfBeIe55TW1kr9LmA+7HkxD
-2ZowGtL92mSJFfzqawIFgp+ePid7quHUHn+JeOmQPocwKcXdsN70Q/jeeuWKzGzE
-M4UUaYVIg93y8iw98F3cB4oXa2BbW0P4JteOsE9vT1kE9kdWNXoUddLM/5kKJptc
-MmYh54j7ZcroJmO1hX4mZINO
-=SsBn
------END PGP SIGNATURE-----
-
---===============6831920058474077338==--
+--===============4402991855575091488==--
