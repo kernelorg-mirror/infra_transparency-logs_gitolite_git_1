@@ -1,63 +1,62 @@
-Content-Type: multipart/mixed; boundary="===============3501833541959821600=="
+Content-Type: multipart/mixed; boundary="===============4835039137304345582=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Sun, 07 Dec 2025 20:50:53 -0000
-Message-Id: <176514065300.2274648.10916760275415020455@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/driver-core/driver-core
+Date: Sun, 07 Dec 2025 21:08:19 -0000
+Message-Id: <176514169979.2289533.1722761379255449906@gitolite.kernel.org>
 
---===============3501833541959821600==
+--===============4835039137304345582==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/char-misc
+repo: pub/scm/linux/kernel/git/driver-core/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/char-misc-testing
-    old: 82d12088c297fa1cef670e1718b3d24f414c23f7
+  - ref: refs/heads/main
+    old: dcb6fa37fd7bc9c3d2b066329b0d27dedf8becaa
     new: 67a454e6b1c604555c04501c77b7fedc5d98a779
-    log: revlist-82d12088c297-67a454e6b1c6.txt
+    log: revlist-dcb6fa37fd7b-67a454e6b1c6.txt
 
---===============3501833541959821600==
+--===============4835039137304345582==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1765140651 +0900
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1765140650-df94c8cdd268a9ea68af5115c904e3b483156f13
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1765141683 +0900
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/driver-core/driver-core.git
+nonce 1765141683-cb9d3761170ac6d026c89e2214bbb31341e1b7f9
 
-82d12088c297fa1cef670e1718b3d24f414c23f7 67a454e6b1c604555c04501c77b7fedc5d98a779 refs/heads/char-misc-testing
+dcb6fa37fd7bc9c3d2b066329b0d27dedf8becaa 67a454e6b1c604555c04501c77b7fedc5d98a779 refs/heads/main
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmk16KsbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+cFkP/itqjrRCwUKLWkGrbChl
-Ot2LHimIYcWID74EPHZdZT255WusE0fvH7Q+nfWh8KQ4lfor45EyGdSk97EG8HNd
-EeGiOzVxhxG0EPPih9CX9toxfDrg+/TdLoORAluHXqXj4jeWb28GW2xbQ2xAcUk4
-8W1tNoecRn8QCOy05/86qcb90kABIo/kEJfM1u3IWLBMjvvLeEKjMaKGqo5Xk6Za
-3oXRgahx/0fOO+TnBHVL96FSNW0KKfn9l/IWpBAqWlZic+3leQW1X889T7eYEMik
-U9Kygi/vLcYMA/MuiftcxnsPu1HSnVO/YSc/qJzR3FSlb5Ok45It7DOnWQfjoAmn
-woIyH3PJ3zW6pycRCB0p9vbMH2ot2N5wfG4f78FiJ/0jvWt+EpaW6LoPY9VbZ7Hr
-kt0wdJwnAys3ALCwcz3wcMSWPbllnm6W7/VptFeeeheQhH10ev8O4xKPs2W06IVN
-hJxfKbF6hdgKlojT/826FRth/XcEhmR2HFjysMTzbgrrm8HWIFIt4sK3hHeZFa9k
-cnmEef/bWVULmj686vebltS30qdlLpWYCvR4dxr0fSplFHkkPthzdZHC938wsHpH
-uZvlCuX1SYrXDYq9n9YS6aTiiZDbvKSg2VAsoFsJ7brM2NEXXARdMQYOYiMcIav0
-fXmUl33AoTs5uPM86mkNa2R0
-=ij6y
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmk17LQbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+FhQP/jqzSfHi+yDIFK3eKj73
+KKYg8FnCxmtAexmBjpbswhxKWhwUfPaeX6v7xrvcNchCWmAWSULgzHjKTIB06Bw8
+9niVN2ZdOsiorA+ouJT1TGav3cIKHDy9zwsgM6lNA1hKW0BOYRelU9Z8MZJIfjv7
+QM7tzDBadk0uBYrpVdZKsIgSyqxzwuyNVFh/oHTL6J8YNOBSO5OCYULKk/JTR5/j
+fN0RkG4LScPQ2ZKkVr+EcLSwL97I/f0cTWimZjTZe8UyHYo3+lfhb+kcYXP1eyd+
+dS4PV6QMn9+f1SMWCdquCEe3tFJI3IFKjbKqM+/aUQh4vwa22jkrqSaHpt7D7I/R
+0mBNYfVIWu4Zp/5qQ93APb2q85pOwPcQFluhxb58x/D6f+tvugFBSDuAlRt6ZpUC
+y6mI40QtkOk3e5keAazQ5eqkBmGpPr1/90dWlq3Va/+WPFCAR7BTa1NJSFMPEYE4
+XBjb/K9k6Y/UR4KyjtiF2nA0ed7wmKRfiivTyB8zu1Pce/koaGvDS0Kzb2oQ/AgA
+j5deGU5T/9gLnPGBM0X61ogku3a9TfZaiMakZ1MPmoBwVwang56TPNTbndi8z7o9
+9b9D8tmhVTkhG1FrSekoqh1yjGYrkFPzHZQxmHkAoivpLBY1cdDtsJ19ols+GOZ8
+QYZTMMvN7Cs8WsFe0VxZPC6z
+=1Eis
 -----END PGP SIGNATURE-----
 
---===============3501833541959821600==
+--===============4835039137304345582==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-82d12088c297-67a454e6b1c6.txt
+Content-Disposition: attachment; filename=revlist-dcb6fa37fd7b-67a454e6b1c6.txt
 
-d30301ba4b07ac92eb38353a111833b009003170 netfilter: flowtable: Add IPIP tx sw acceleration
 fe8313316eaf0f3b052d5a9464ca6aa630229400 selftests: netfilter: nft_flowtable.sh: Add IPIP flowtable selftest
 be102eb6a0e7c03db00e50540622f4e43b2d2844 netfilter: nf_conncount: rework API to use sk_buff directly
 c0362b5748282e22fa1592a8d3474f726ad964c2 netfilter: nf_conncount: make nf_conncount_gc_list() to disable BH
@@ -210,6 +209,7 @@ edde060637b92607f3522252c03d64ad06369933 Merge branch 'for-next/set_memory' into
 f849f26f77205e25f6ad0b9011b1b68a560d35ff Merge tag 'pmdomain-v6.18-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/ulfh/linux-pm
 d0c98769ee7d5db8d699a270690639cde1766cd4 blk-mq: use array manage hctx map instead of xarray
 89e1fb7ceffd898505ad7fa57acec0585bfaa2cc blk-mq: fix potential uaf for 'queue_hw_ctx'
+82d12088c297fa1cef670e1718b3d24f414c23f7 char: applicom: fix NULL pointer dereference in ac_ioctl
 9574b21e952256d4fa3c8797c94482a240992d18 kfifo: add kfifo_alloc_node() helper for NUMA awareness
 3035b9b46b0611898babc0b96ede65790d3566f7 ublk: add parameter `struct io_uring_cmd *` to ublk_prep_auto_buf_reg()
 8d61ece156bd4f2b9e7d3b2a374a26d42c7a4a06 ublk: add `union ublk_io_buf` with improved naming
@@ -1082,4 +1082,4 @@ f5e9d31e79c1ce8ba948ecac74d75e9c8d2f0c87 Merge tag 'usb-6.19-rc1' of git://git.k
 bbbf7f32843b5788786cd8d91e9430823c2777c9 Merge tag '9p-for-6.19-rc1' of https://github.com/martinetd/linux
 67a454e6b1c604555c04501c77b7fedc5d98a779 Merge tag 'memblock-6.19-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/rppt/memblock
 
---===============3501833541959821600==--
+--===============4835039137304345582==--
