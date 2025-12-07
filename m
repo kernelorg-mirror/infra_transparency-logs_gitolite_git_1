@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Sun, 07 Dec 2025 17:18:53 -0000
-Message-Id: <176512793379.2078383.15219862157653345828@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/andrea/ripgrep-edit
+Date: Sun, 07 Dec 2025 17:25:08 -0000
+Message-Id: <176512830884.2086200.9720662393348461152@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-user: jarkko
+repo: pub/scm/linux/kernel/git/andrea/ripgrep-edit
+user: andrea
 changes:
-  - ref: refs/heads/queue
-    old: ac3c4c98ec2a62dec662fef54e58d9899f14f84d
-    new: 2249f392e3ea066855cc7710b5588b1ef89788bd
+  - ref: refs/heads/main
+    old: 1f828bb109a93fee0a8c6e70efc5d85233422a60
+    new: 28ae115ba8367704fa33da0ea61c8f2ad18b1b36
     log: |
-         2249f392e3ea066855cc7710b5588b1ef89788bd KEYS: trusted: Store parent's name to the encoded keys
+         28ae115ba8367704fa33da0ea61c8f2ad18b1b36 Check gptel-version to enable the gptel workaround only if needed
          
