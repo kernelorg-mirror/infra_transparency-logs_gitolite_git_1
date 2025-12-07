@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5274399895522279832=="
+Content-Type: multipart/mixed; boundary="===============6785870626178920618=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Sun, 07 Dec 2025 02:03:12 -0000
-Message-Id: <176507299265.1241528.6302141867643138791@gitolite.kernel.org>
+Date: Sun, 07 Dec 2025 02:03:17 -0000
+Message-Id: <176507299737.1241746.11736208326168810996@gitolite.kernel.org>
 
---===============5274399895522279832==
+--===============6785870626178920618==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,165 +15,214 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/damon/next
-    old: af6c37263443bd9ebce04fbf82205c8f58790331
-    new: 7ac3ab7894db7dc776518e44c5d712a8331903c9
-    log: revlist-af6c37263443-7ac3ab7894db.txt
+  - ref: refs/heads/master
+    old: 5e5ea7f61610239fca058011e7d4f342b34d1558
+    new: 50471f8b7371c95c72c168eb45e4f42f1514fd5e
+    log: revlist-5e5ea7f61610-50471f8b7371.txt
 
---===============5274399895522279832==
+--===============6785870626178920618==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-af6c37263443-7ac3ab7894db.txt
+Content-Disposition: attachment; filename=revlist-5e5ea7f61610-50471f8b7371.txt
 
-acfbb947c10af9e607a2ad5709b85761d2b4ccd5 mm/huge_memory: fix initialization of huge zero folio
-b41f1e49d7ab7d405bca75cf686835b6a6f8afb7 MAINTAINERS: add Mike Rapoport as maintainer for userfaultfd
-fc880aceef066361753d292774f27238cb87478f genalloc.h: fix htmldocs warning
-d4198ddf51a989151eef5ddb49b826a2937252dd mailmap: update entry for Bartosz Golaszewski
-e615f850ca468a0cdb8c1d5cf5ed8d6726daf481 idr: fix idr_alloc() returning an ID out of range
-3b852470cdba3f6b239b69bbc63419d2d5aba6cb x86/kexec: add a sanity check on previous kernel's ima kexec buffer
-484bbc626682640c0fb5d3c7c9e8ef2b6e16517e x86-kexec-add-a-sanity-check-on-previous-kernels-ima-kexec-buffer-fix
-43a4ec1daa227f7b4a1ecb8b4e1041cebb4bd4fc mm/page_alloc: make percpu_pagelist_high_fraction reads lock-free
-6eef77d32efc4fa8e08b5f760e945c3f338233b2 mm-page_alloc-make-percpu_pagelist_high_fraction-reads-lock-free-fix
-3324970cc553d3c2448fb7ce228c6c772b5a64d6 kasan: refactor pcpu kasan vmalloc unpoison
-6b83afdcfa935db4f836906ca7f0fcafdca8d229 kasan: unpoison vms[area] addresses with a common tag
-270ef2d06c6f291b10df6b73dede943aab609a3f kasan-unpoison-vms-addresses-with-a-common-tag-fix
-75ec05fd44961cae00c4d3ec13fcb5fd801f9704 kasan-unpoison-vms-addresses-with-a-common-tag-v4
-1d8ff892135f2fcaeeafb9603f635c3314f623bd foo
-ccc1a7c8b16c5aac05136cfedadd54caa353741a powerpc/pseries/cmm: call balloon_devinfo_init() also without CONFIG_BALLOON_COMPACTION
-2da251971ea96ab8a621205bbeed7d88041b4470 powerpc/pseries/cmm: adjust BALLOON_MIGRATE when migrating pages
-0aba9b9e1136e266d9dafe4b488ffa5c839b45ec mm/sparse: fix sparse_vmemmap_init_nid_early definition without CONFIG_SPARSEMEM
-61d139697101b3044fd1be41b1704857f3f01dca mm/huge_memory: change folio_split_supported() to folio_check_splittable()
-f93d7b91bfc5dc758103f8c7cbfbb0b98ae6d36a mm/huge_memory: replace can_split_folio() with direct refcount calculation
-0f15bb9ccad4600e2272c1e2659a26d9e4540a19 mm/huge_memory: make min_order_for_split() always return an order
-0e1ab18a8346d97b88f536776b23dfb46808c6ec mm/huge_memory: fix folio split stats counting
-87fb936bcddbcb9637e275826c979e764ba06e30 mm: fix CONFIG_STACK_GROWSUP typo in mm.h
-7486ccb2024f1d5a10a3e6352cf055a52d65a67e mm/hugetlb: fix incorrect error return from hugetlb_reserve_pages()
-a53879247e936e46103a25e5941b513501d62f13 MAINTAINERS: add idr core-api doc file to XARRAY
-188db2f732110124fe88bac2454e7b488e7c0680 mm: avoid use of BIT() macro for initialising VMA flags
-ac259a21c5335f523e05668fea19ef0a3082e80a mm/hugetlb: fix hugetlb_pmd_shared()
-f7a56e8e0c7a6aabf866d486e0f7ce1c9d0fb94b mm/hugetlb: fix two comments related to huge_pmd_unshare()
-1e8bd594a61aa4f61391676028809744470c9dd0 mm/rmap: fix two comments related to huge_pmd_unshare()
-7c9d204a38c582baa5ce6ffa0345c6660c267d2a mm/hugetlb: fix excessive IPI broadcasts when unsharing PMD tables using mmu_gather
-37f5ac0409a2052500a434a25aab1c4357d4574a mm: vmscan: correct nr_requested tracing in scan_folios
-ecc46e02e0abe025a6e840cba2d647f23fd1d721 mm/damon/tests/core-kunit: avoid damos_test_commit stack warning
-d7b5db1b2f22194fcc3de56b717e02490bb256f6 mm/damon/core: fix memory leak of repeat mode damon_call_control objects
-3d85ff68c60c166d0434f08aaf629fa675af8c02 === mark start of DAMON hack tree ===
-b6059d42ce957a3cfa6c60d949d98e51bc41f20a add -damon suffix to the version name
-27646010862aa071845de079bde2f797f3fc044a === temporal fixes ===
-30114af7ce3dfa17c7162028ad1790445ca333c2 Revert "kselftest/runner.sh: Propagate SIGTERM to runner child"
-7c10aa16dbea760f92b536bd1a53098af8c623c7 === patches written or reviewed by SJ but not merged in -mm ===
-0cafb66169d38f93ce01d9d6af4202c1dade7323 Documentation: damon: reclaim: Convert "Free Page Reporting" citation link
-89666254daf5bcb2bfcf0bec5f4b0d662ed4111f mm/damon/stat: deduplicate intervals_goal setup in damon_stat_build_ctx()
-8b09f02284caf6b8a6f7b02e3265aeb59bbbb6bf ==== misc cleanup ====
-d2ffe0dad64c121faeef27e71f6f4d2d0d1a2eb9 === hacks in progress ===
-c26231089b0772cfffb439f6af4d8b1efc0dfba7 ==== damos_stat nr_snapshots, max_nr_snapshots, tracepoint ====
-84222b42e5254a62ecfa4027b9f52688b5fa29a6 mm/damon/core: introduce nr_snapshots damos stat
-ece48a469261f8565f93d01a463818f6874738b5 mm/damon/sysfs-schemes: introduce nr_snapshots damos stat file
-6dba690a1d78150980205652e741e21cf089bc7b Docs/mm/damon/design: update for nr_snapshots damos stat
-3107daa26dee2340226e7f6370059aa234f055d7 Docs/admin-guide/mm/damon/usage: update for nr_snapshots damos stat
-2fd0617b2126313b6cc0638929f324196c6b1e82 Docs/ABI/damon: update for nr_snapshots damos stat
-b2f3f19e41dfe51e6fe5b5a9de79d68a61da8c44 mm/damon: update damos kerneldoc for stat field
-747b108233a2d56afc9da7443827585b226a6e82 mm/damon/core: implement max_nr_snapshots
-a9ad44429768eee68049c11ac29e552d805e6bd9 mm/damon/sysfs-schemes: implement max_nr_snapshots file
-3697d477fb4e2eefd48b6cc7187c7e1915b584ae Docs/mm/damon/design: update for max_nr_snapshots
-0e5bc31380a6dfbb9e0814b6a881893685a0ce00 Docs/admin-guide/mm/damon/usage: update for max_nr_snapshots
-fc638e82d0d696d4d0c1f89421712d742930267e Docs/ABI/damon: update for max_nr_snapshots
-ba815448a056e17799b7050c3523a0429c35ae62 mm/damon/core: add trace point for damos stat per apply interval
-ace2cf9a7142a2b24dc18973b9650fe8bdf2f104 ==== fault/report-based monitoring for per-cpu and write ====
-d3eff9ec92d110be318d28a18ddd718efad899c2 ===== fault based paddr monitoring =====
-07a8838e6f076f547e675bb682d253a7fdb5cdcb mm/damon/core: implement damon_report_access()
-e769eb34e5339bb518bd722827253bcfaeb19722 mm/damon: define struct damon_sample_control
-92abf851a6ae31d624d8d1955e0d6669f7bbbac8 mm/damon/core: commit sample_control
-e1dc896e3651ee084a5fa51cb5263b6619e3274e mm/damon/core: (temporal hack) implement damon_report_page_fault()
-ee0dd617d6ca934daf7605751f4c07197caf5963 mm/mprotect: (no upstream-aimed hack) implement MM_CP_DAMON
-c722d964e86d01be156914a56194b5bcea5da75c mm/memory: no upstream-aimed hack: report NUMA faults to DAMON
-620a332cca5d721a70b0b1272d8336e45d643e3d mm/damon/paddr: support page fault access check primitive
-0c1affa3adfe52f4f0366031b63e428e72297af1 mm/damon/core: apply access reports to high level snapshot
-f9669357bfaa8b7b95a09a118a3869ae79f46a0b mm/damon/sysfs: implement sample/ dir
-ef76085c182e13f90f5b19b85e386ccfa62067d9 mm/damon/sysfs: implement sample/primitives/ dir
-2215e9a036b58add4fabb2a6b3c4fbf6bc3740ea mm/damon/sysfs: connect primitives directory with core
-302ff4215111c055d96c21ebad2e72978df3981c Docs/mm/damon/design: document page fault sampling primitive
-09fcffe927d864d4896a9be61bb365bc69888290 Docs/admin-guide/mm/damon/usage: document sample primitives dir
-fa0c79c53736873e7ae3ea64116e7ef5dc68e2c5 ===== per-cpus monitoring ====
-57ac0951bbfa5b051715ef93a1957c48629fbbf6 mm/damon: extend damon_access_report for origin CPU reporting
-d8e26e401ef52f8d196b6762665584b388fd5bba mm/damon/core: report access origin cpu of page faults
-9089e06a25544e9fecf001f1e950aedca803c285 mm/damon: implement sample filter data structure for cpus-only monitoring
-271c2117d0d437f24a4da8e3aad979e9657574bc mm/damon/core: support sample_filter manipulations
-31357dd87232841a01dd0982878e0ff76032e018 mm/damon/core: commit sample filters
-5e8edb3563e20f495c60a846cbcd1bfc121484f7 mm/damon/core: apply sample filter to access reports
-2fb41f2faf321c5750ee995ca5125fec8477b09e mm/damon/sysfs: implement sample/filters directory
-c75e4620cd7402c74a9f8728f558b26cdc827338 mm/damon/sysfs: implement sample filter directory
-9807f13b748617d12177a654ce2fb34c7115ab6c mm/damon/sysfs: implement type, matching, allow files under sample filter dir
-ba674719c8a322ceb8dd25e387037b046b4aeae6 mm/damon/sysfs: implement cpumask file under sample filter dir
-c38c408dfa6b1af79073c7ada81147331edb2f41 mm/damon/sysfs: connect sample filters with core layer
-00c65d7f6509cd169283c76313389ed6acd065c0 Docs/mm/damon/design: document sample filters
-b1cb581469a7b2e4597ba370666bf985d766616e Docs/admin-guide/mm/damon/usage: document sample filters dir
-95367c1ce523a5053379a51b6ef2fc4a3947990d ===== per-threads monitoring =====
-72f222f3d7816e0c1f74f4a46a3b0cf28b129a18 mm/damon: extend damon_access_report for access-origin thread info
-5a7355ba60ac22436de795399b7c0021a73fdf1b mm/damon/core: report access-generated thread id
-809cfad465fbc2d6e1faabb412bfa0ef531d9501 mm/damon: extend damon_sample_filter for threads
-0ff6cde7112d5748bf68742414359a1a89c8485e mm/damon/core: support threads type sample filter
-72baf22a1af3eb6a47b666ebefa5a0b25f15b515 mm/damon/sysfs: support thread based access sample filtering
-c84e583cfc9b1ac860ef6f54a2e0e0c7e780de8b Docs/mm/damon/design: document threads type sample filter
-b0bae3a351e3b44e8df225c4778a676162dfddb1 Docs/admin-guide/mm/damon/usage: document tids_arr file
-418ff770a5bd2af69c511d10d2ac43bbcbb88284 ===== read/write monitoring =====
-a52f0fbe338d383b09c21b668926001361cc8feb mm/damon: support reporting write access
-9b1106f7b76318ac18dac85450fbf6eef28925c3 mm/damon/core: report whether the page fault was for writing
-88d22e4e66318ce4526072a70a93bf4ee16e209c mm/damon/core: support write access sample filter
-6ff1f5e8370d72567d8597a4ab5a5d725e065e11 mm/damon/sysfs: support write-type access sample filter
-768448b7712c65a7d65583265628ebaf496f3782 Docs/mm/damon/design: document write access sample filter type
-858b73a394573ab653172d57a7536c66e4d3a477 ===== fault-based vaddr monitoring =====
-cd3b053956fbf12a4b410ed7b4311cafeb510280 mm/damon: rename damon_access_report->addr to ->paddr
-b0dcaec1ebc4fc9bfe2d216b889a92f568b11ce2 mm/damon: extend damon_access_report for virtual address
-44669296d876a917d621f55af938862ac9462da5 mm/damon/core: set damon_access_report->vaddr from page fault report
-87a3cb8fdc6d0b427c26d131ab71437cbc4bbe85 mm/damon/core: support vaddr reports
-d45a7b569f427deadd28f553b56a66567c09106e ==== docs for DAMON and mm ====
-9030fea9ba8beae28933f833de4c9fe492258c80 Docs/mm/damon/design: add table of contents for overall and DAMOS
-b63004f383dbd4b23ed828bbd9d9daf92742fadb Docs/process/2.Process: Update mm tree URL
-321c647b175c3048c80b5753d924463edbbfd248 Docs/mm/damon/design: add API link to damon_ctx
-4e835d109fe22e8b8ef1cf3bffc00953f42f5472 ==== ACMA ====
-82a828ef241a30c40dcf5a02a706220192e8ac76 mm/damon: implement DAMOS actions for access-aware contiguous memory allocation
-586631d88b5e1c3ed117e6069d51587765d93564 mm/damon: add the initial part of access/contiguity-aware memory auto-scaling module
-d51be7b5c22817d9ec9d4254e81369fca90a6f33 mm/page_reporting: implement a function for reporting specific pfn range
-00fe99ac3fffe1902c5090cd5b63e7e6c7046e1e mm/damon/acma: implement scale down feature
-fa30f227e3b334586129d4a23f265aafc06c7303 mm/damon/acma: implement scale up feature
-ac33ff1dc1c6b5b25f32f16e5fc3e8aa71162f39 drivers/virtio/virtio_balloon: integrate ACMA and ballooning
-abc0e4451ca7a76c8be5d3f2365f600fb91a4321 === commits aiming not to be posted ===
-6fddd1713bf340fb9fd683570748c66f6922cdbb mm/damon: Add debug code
-a2cc7704f88e3903eef9956a2ea600c474930f04 mm/damon/core: add debugging log for intervals auto-tuning
-a86a9622abf33a15438bbd35183e7e52acffdb7f mm/damon/core: add debugging log for wrong moving sum nr_accesses update
-19c07bd9d72e2a719285bac103a77ae59008ee5d mm/damon/sysfs: Add a file for simple checking memcg ids and paths
-23c3ffbdd2f2d8a602b0768eb12e4cf98e8c2cbb mm/damon/core: add todo for DAMOS interval validation
-e667b4bf70462f50f4ea48019557b167f0466d9b mm/damon/core: add debugging-purpose log of tuned esz
-fa0b5b8d7c3ee54d16e3cfefa8fb1b32833ce1a1 Add debug log for PSI
-cbac3c0d4bc5c669ca243414cc79596173a212b0 mm/damon/core: add debug log for reset_regions()
-3f24a404e539cd42aedb84e27f7e85d3efb4a5ff ==== lru_sort advancing ====
-4788407b971af484b09aaa237a1ebae187a1164e mm/damon/core: introduce [in]active memory ratio damos quota goal metric
-14b0dd0e5ef6a8cb4677ac987ddb88e6be92313b mm/damon/sysfs-schemes: support DAMOS_QUOTA_[IN]ACTIVE_MEM_BP
-d774569dbd8574c9b1819a9a7660fda2cfef944c Docs/mm/damon/design: document DAMOS_QUOTA_[IN]ACTIVE_MEM_BP
-b3e21ecc6d331735817eac28241553da2007b029 mm/damon/paddr: activate DAMOS_LRU_PRIO targets instead of marking accessed
-ad1967466097e7906a0b52c0bdd9603679e07ab8 mm/damon/lru_sort: consider age for quota prioritization
-89c954ab0900b08631de91fd02f6efbb6e862e95 mm/damon/lru_sort: support young page filters
-6eb01efb3939fa2eeaea1bac3584e87344804201 Docs/admin-guide/mm/damon/lru_sort: document filter_young_pages
-e5a7d266967a656c3dc2a3834c66a6bd5e920303 mm/damon/lru_sort: support active:inactive memory ratio based auto-tuning
-56ec4239629ee53f2213aaff8597dd673039a68f Docs/admin-guide/mm/damon/lru_sort: document active_mem_bp parameter
-a53006f9d93f0df738e315454a00eebf11574187 mm/damon/lru_sort: add monitoring intervals auto-tuning parameter
-0f878f250190aff6adc039fbe8a33181d407d656 Docs/admin-guide/mm/damon/lru_sort: document intervals autotuning
-b96f14705a9c1bb299b95ccfb6030cebdd096e07 ==== uncategorized ====
-3150ea9e8425aa5327ff2c81d6332be929e2ac23 mm/damon/core: add an hacking idea concept interface prototype
-85bd27c78cea456c7d0c04e9d5776a3ec303bb05 mm/damon/core: restrict total_charged_{sz,ns} to avoid overflows
-e6b268c3c26c7edf48dcd5440ef6e27c0cc476ef Docs: submitting-patches: suggest adding previous version links
-4c128c31e84b877928abd54d3f8d516de6c79bef selftests/damon/sysfs_memcg_path_leak.sh: use kmemleak
-231ad89a198ef915e0596cba30c632e65d9950f9 mm/memory: implement functions and data structures for page faults monitoring
-9a2d8bfb94286e71f5bd8749b3f1d3cb823889c8 mm/memory: introduce do_{,huge_pmd_}faults_monitor_page()
-6911503cabdc3238e078a523b1fc1298b1c10e67 mm/damon/core: rename damos_filter_out() to damos_core_filter_out()
-e79751ff11692342498fe4f6009f8729121cb19e mm/damon/core: set score histogram without filters-excluding regions
-eee6cd03be27897eba55255185a72c61c90cd95e selftests/damon/wss_estimation: increase allowed error rate
-495adb2bb196268db27249770b16426ad27d4395 Docs/admin-guide/mm/damon/usage: clarify stats update process
-f46ed73edcbd4dbb312fb19ba44d7b9199d7029f Docs/mm/damon/index: simplify the intro
-0db5057f5efe3afbd4eb10e5da10ceef38b9799a mm/damon/sysfs: dealloc goal subdirectories on intervals setup failure
-17c6654b74922b6c2fcd3a8dc53be5d1654d9590 mm/damon/sysfs: rmdir context attrs dir on setup failure
-7ac3ab7894db7dc776518e44c5d712a8331903c9 mm/damon/sysfs-schemes: rmdir quotas subdirs on failure cleanup
+3631b9cb2a34983e0f5962e542b428a66036d689 parisc: Drop padding fields and layers entries from inventory log
+5fb1d3ce3e74a4530042795e1e065422295f1371 parisc: entry: set W bit for !compat tasks in syscall_restore_rfi()
+1aa4524c0c1b54842c4c0a370171d11b12d0709b parisc: entry.S: fix space adjustment on interruption for 64-bit userspace
+3317aaca33dc6620d3dcc46216061df33bfff7db parisc: remove unneeded semicolon in perf_regs.c
+75b51437a4ac18195cc0683acea7bf75b6f43e7f parisc: Drop linux/kernel.h include from asm/bug.h header
+969493d7d6f957e1670a025330561d5912cd194c samples: fix coding style issues in Kconfig
+fc387a0704cc86cf47de0e64236577af3e148ec2 checkpatch: detect unhandled placeholders in cover letters
+55b453ed53d28da0b8d2316741e11eb22ceb39d6 checkpatch: document new check PLACEHOLDER_USE
+41a5e8777093f7946fade3737363ef045303b8dc ocfs2: add extra flags check in ocfs2_ioctl_move_extents()
+8a7d58845fae061c62b50bc5eeb9bae4a1dedc3d ocfs2: relax BUG() to ocfs2_error() in __ocfs2_move_extent()
+6a2e57ad227ac21cbe0ed941dbedd3b81b22ce7e kexec_core: remove superfluous page offset handling in segment loading
+08bd4c46d5e63b78e77f2605283874bbe868ab19 scs: fix a wrong parameter in __scs_magic
+b7d06a2ae10a824f583dea85fe6e9875422eca01 mailmap: update name and email addresses
+0d63fc256ad1e8b64bbb32f97232c5f2aee046c9 CREDITS: update Martin's information
+02582ac3b7d2decc578bd3cef90db95c57031a42 MAINTAINERS: apply name and email address changes for Martin
+cd4eaccc00d79ab97d9a96f7922558558b13f220 treewide: drop outdated compiler version remarks in Kconfig help texts
+2f26f58df041bbcf692730ff4d8ab0f250d9670d ocfs2: annotate flexible array members with __counted_by_le()
+1b34743c31fef06d3728abf58126a7bcadb5ba1b ocfs2: add extra consistency check to ocfs2_dx_dir_lookup_rec()
+05d6f1cc2dc214c1491181be13f37d2a3a26f694 compiler.h: remove ARCH_SEL()
+9544f9e6947f6508d29f0d0cc2dacaa749fc1613 hung_task: panic when there are more than N hung tasks at the same time
+57f3d89691149f11bfb6c4fef9fca4890def8fb1 lib/xz: remove dead IA-64 (Itanium) support code
+01ef0296d2eb550511334212650011446c223da0 .mailmap: add entry for WangYuli
+adc15829fb73e402903b7030729263b6ee4a7232 crash: let architecture decide crash memory export to iomem_resource
+ed4bbe7e8fa186b24c61aa22a32885d5de0fe1a4 taint: add reminder about updating docs and scripts
+37ade54f386c829597f74b54bad335c12bd2a698 taint/module: remove unnecessary taint_flag.module field
+aa5b6a72ccd9fad2d2ed875631f6aca6b0633d80 ocfs2: add directory size check to ocfs2_find_dir_space_id()
+7229d74e5e8c1f140529d405c88d4493e37ce4e3 ipc: create_ipc_ns: drop mqueue mount on sysctl setup failure
+032a730268a3e88a1df1df1bafd9af64a460822e init/main.c: wrap long kernel cmdline when printing to logs
+d99dc586ca7c7729450af2ed39ca1483c0eb7b5c uaccess: decouple INLINE_COPY_FROM_USER and CONFIG_RUST
+390ac56cf0f687de53695648bc6f2259a7eae429 ocfs2: add boundary check to ocfs2_check_dir_entry()
+c9dff86eb78a4b6b02b1e407993c946ccaf9bfb4 ocfs2: use correct endian in ocfs2_dinode_has_extents
+6e89373cec09af28dd54fc5eed00cde34992f8e2 ocfs2: convert to host endian in ocfs2_validate_inode_block
+a2b1c419ff72ec62ff5831684e30cd1d4f0b09ee ocfs2: add inline inode consistency check to ocfs2_validate_inode_block()
+6c2e6e2c1af1809d1d9cdbd50ac80f54f5995bdb dynamic_debug: add support for print stack
+a0b8c6af29a4be3ca2ff9a95cf71e54db5d73e65 lib/xxhash: remove more unused xxh functions
+f9925019f49e75f425623f46f379182dc3a1e8cd mailmap: add entry for Yu-Chun Lin
+c25d24d0f4c6c0954f2b0eb1fc69d293e88192bf release_task: kill unnecessary rcu_read_lock() around dec_rlimit_ucounts()
+ded7d97442f0f5af25e942949ac304e025b85165 mailmap: add entry for Hao Ge
+3e4b89e970365db7fe2c4171be06c0e88e3bcbe6 nilfs2: replace vmalloc + copy_from_user with vmemdup_user
+b8a65b2d8b206cab339de8393f164482328c2bde fbdev: vga16fb: replace printk() with dev_*() in probe
+6c317ceefac0c8ac82002ce2923f692102e50c02 fbdev: vga16fb: Request memory region
+b104df377da169913fe7cbfe409e1c52fdfa75c5 fbdev: vesafb: Use dev_* fn's instead printk
+e3f44742bbb10537fe53d83d20dea2a7c167674d fbdev: gbefb: fix to use physical address instead of dma address
+7ecb5c36b1360dd127e02e1d300dd07d764095cd fbdev: gxt4500fb: Use dev_err instead of printk
+d79a3aeb747c17095d679cc4402d87f0e7c3405e panic: sys_info: capture si_bits_global before iterating over it
+760fc597c33d5a727507c8bb19d6ab87a8c5885b panic: sys_info: align constant definition names with parameters
+d13adc6147f5848d6ad9900fdb1dbf9a280a2f64 panic: sys_info:replace struct sys_info_name with plain array of strings
+eb72c4667f4567a7363f6e00d082d2ab32b6a03a panic: sys_info: rewrite a fix for a compilation error (`make W=1`)
+f791dcc842cb1cb3777ae4122be4cd37624ad53d panic: sys_info: deduplicate local variable 'table; assignments
+9125163273f8033af5d38907b483c1d9f99d781b panic: sys_info: factor out read and write handlers
+e1c70505ee8158c1108340d9cd67182ade93af4a ocfs2: add extra consistency checks for chain allocator dinodes
+93ce0ff117b0c468961d7c296a03ad57e1e8da9f ocfs2: validate cl_bpc in allocator inodes to prevent divide-by-zero
+7f37d88f5cb32fff454f12cd99444686482ca23b lib/Kconfig.debug: cleanup CONFIG_DEBUG_SECTION_MISMATCH help text
+464c7ea5c3ffa333a2c1a8dfd68b157ced1edc5a checkpatch: add IDR to the deprecated list
+bd97c976419126ee3e9acd4957f6f16a90316643 util_macros.h: fix kernel-doc for u64_to_user_ptr()
+af9b65d6864aa5e94839d150b902168fd44c6107 kernel/hung_task: unexport sysctl_hung_task_timeout_secs
+5944f875ac27cae8b831206aef011a444efa637d lib: mul_u64_u64_div_u64(): rename parameter 'c' to 'd'
+08092babd362170e059330a6a2d44c2891d9dbac lib: mul_u64_u64_div_u64(): combine overflow and divide by zero checks
+d91f891d588557874a45a5f584b6da0b433acee7 lib: mul_u64_u64_div_u64(): simplify check for a 64bit product
+6480241f31f543333ed0c7a209962412461f6e41 lib: add mul_u64_add_u64_div_u64() and mul_u64_u64_div_u64_roundup()
+500db21917e8aaafd65360bfed35845d549aa3dd lib: add tests for mul_u64_u64_div_u64_roundup()
+f0bff2eb04686f13386b2af97bc7aaa09f020f35 lib: test_mul_u64_u64_div_u64(): test both generic and arch versions
+630f96a687def5616d6fa7f069adcea158320909 lib: mul_u64_u64_div_u64(): optimise multiply on 32bit x86
+d10bb374c41e4c4dced04ae7d2fe2d782a5858a0 lib: mul_u64_u64_div_u64(): optimise the divide code
+1d1ef8c1fb5e488c0f68499239d8dc61b1399db9 lib: test_mul_u64_u64_div_u64(): test the 32bit code on 64bit
+c9dddd981600538d8c39d58ba89679439231959f MAINTAINERS: add Pratyush as a reviewer for KHO
+caa71919a622e3f7d290d4f17ae538b15f5cb6d3 scripts/gdb/radix-tree: add lx-radix-tree-command
+581ee79a254759ea8288057f762389820b39adcc scripts/gdb/symbols: make BPF debug info available to GDB
+f3fb126fdc9e148da38a6e25d7fc609774a99fc3 math.h: amend abs() kernel-doc and add a note about signed type limits
+14954cd190e8cd5664a25984179b1a977615c9ed fs/proc/page: remove unused KPMBITS
+1ab980e90ce31f61067eae11772670f1dcdf5a8f MAINTAINERS: update nilfs2 entry
+242b872239f6a7deacbc20ab9406ea40cb738ec6 include/linux/once_lite.h: fix judgment in WARN_ONCE with clang
+b50144900a56404fb784c9fd6cddeeee4093b383 MAINTAINERS: remove Gustavo from sync framework
+9ab38c5216634d8adb22156ddbd32f2d195b27a7 Revert "lib/plist.c: enforce memory ordering in plist_check_list"
+5f264c00b669b934300dff506d0aa9f6f8f8c53e docs: panic: correct some sys_ifo names in sysctl doc
+8b2b9b4f6f4f7a61b7e323479ed7d9faa21d6287 hung_task: add hung_task_sys_info sysctl to dump sys info on task-hung
+a9af76a78760717361cccc884dc649e30db61c8b watchdog: add sys_info sysctls to dump sys info on system lockup
+03ef32d665e8a23d7ce5965b8b035666cfb47866 sys_info: add a default kernel sys_info mask
+f1e2ca801c54dfc09d6a5540207cec25e8d43f6f lib/base64: add support for multiple variants
+c4eb7ad32eab13ba64cc452c6f43d518b63f5e03 lib/base64: optimize base64_decode() with reverse lookup tables
+9c7d3cf94d33927b6e4e576e7090a929e7162d05 lib/base64: rework encode/decode for speed and stricter validation
+8b365c4f5be9e979bb991a52a0cb4b1e4680c8bd lib: add KUnit tests for base64 encoding/decoding
+7794510e2021a29095721e59f3d249d8b4242fb4 fscrypt: replace local base64url helpers with lib/base64
+b1b72ac25f89125d91ef3abd257c3b88ec169962 ceph: replace local base64 helpers with lib/base64
+fdd76c8d6327e616ee61ddd00db16753d722168c Documentation/ABI: add kexec and kdump sysfs interface
+aa0145563ce26a5f5a1154e9f26a2f8c21eee2ca crash: export crashkernel CMA reservation to userspace
+9031b852c97f1db52180878aed66ca08946eca93 uaccess: gate _copy_[to|from]_user on !INLINE_COPY_FROM_USER
+2fe869ecbd06eaa37a77cd58c583f4231ce7de04 MAINTAINERS: add Petr as a reviewer of hung task detector
+ff713698bad2e7d052960cf182fa1ab465564dfd lib: ratelimit: fix spelling mistake 'seperately'
+4022ba20050e8e2bb189155e0665b60953d7552c ocfs2: replace deprecated strcpy in ocfs2_create_xattr_block
+13db54aad7442852d57bd384305bc8c10a9dcd1f ocfs2: replace deprecated strcpy with strscpy
+58b6fcd2ab34399258dc509f701d0986a8e0bcaa ocfs2: mark inode bad upon validation failure during read
+dca7da244349eef4d78527cafc0bf80816b261f5 parisc: Do not reprogram affinitiy on ASP chip
+bc947af67759c2d229e31af9bf232f9ade6145d8 Merge branch 'mm-hotfixes-stable' into mm-nonmm-stable in order to be able to merge "kho: make debugfs interface optional" into mm-nonmm-stable.
+c2d2dad24503d7e2eb7cba354fcc73f95fa78d7a rbtree: inline rb_first()
+94984bfed58ca129f7e259ce09973ed0b3f540a8 rbtree: inline rb_last()
+262ef8e55b7ccd435619c1946249131d0f5b72db fork: stop ignoring NUMA while handling cached thread stacks
+e6fbd1759c9ece5044d3470f30a5e2166dc9de89 selftests: complete kselftest include centralization
+03d3963464a43654703938a66503cd686c5fc54e kho: make debugfs interface optional
+70f9133096c833922c3b63461480248cefa7bb0f kho: drop notifiers
+36f8f7ef7fd2f238922e9d217e86c69838319d8c kho: add interfaces to unpreserve folios, page ranges, and vmalloc
+f5bfd4793a933c7074b0d3748068b255d232bfa0 memblock: unpreserve memory in case of error
+ce405ed5102018946f20b69c1e7ae49697dcf616 test_kho: unpreserve memory in case of error
+99cd2ffac697be7f027344d77beee0dc04dcfdbd kho: don't unpreserve memory during abort
+48a1b2321d763b5edeaf20bd4576d8c4b5df772b liveupdate: kho: move to kernel/liveupdate
+c332ebd9c0c4d409599b6d4a49705d449393c77b MAINTAINERS: update KHO maintainers
+8db839caeed9efc1b80f20db2a128a3dc093426f liveupdate: kho: use %pe format specifier for error pointer printing
+077a4851b0024e3025e57e428767ce0c7b0359bf kho: fix misleading log message in kho_populate()
+8c3819f627b74d44f928977413cfe55292eb809b kho: convert __kho_abort() to return void
+4c205677af2726bd3b51c02ab6a5a2b411efed09 kho: introduce high-level memory allocation API
+85de0090bd8256a94812f3be797b55bdbdcf78f5 kho: preserve FDT folio only once during initialization
+53f8f064eba344c074ef6755347bc4170538275f kho: verify deserialization status and fix FDT alignment access
+e268689a528288d5629ee017630186327403cc51 kho: always expose output FDT in debugfs
+71960fe1344c432f8d67f6f9b379533496b89f8c kho: simplify serialization and remove __kho_abort
+efa3a9775ac2a869788ac61fccad1efd26cd2d33 kho: remove global preserved_mem_map and store state in FDT
+9a4301f715c8c9a3aaab395b98ac1f3908015dcb kho: remove abort functionality and support state refresh
+8e068a286aef7e772ec6e8bb4b82e8a5d4153b55 kho: update FDT dynamically for subtree addition/removal
+d7255959b69a4e727c61eb04231d11390d4f391e kho: allow kexec load before KHO finalization
+de51999e687c70a41997124b43291f84324c7924 kho: allow memory preservation state updates after finalization
+7bd3643f94a357863beef646b85cf10292398629 kho: add Kconfig option to enable KHO by default
+9e2fd062fa1713a33380cc97ef324d086dd45ba5 liveupdate: luo_core: Live Update Orchestrator
+1aece821004f67f46ef4db7199bbeca87cf22bdd liveupdate: luo_core: integrate with KHO
+db8bed8082dc6185153cdef67cdd5aa7526e8126 kexec: call liveupdate_reboot() before kexec
+0153094d03df5a2e834a19c59b255649a258ae46 liveupdate: luo_session: add sessions support
+81cd25d263a182b3dcdc8af3b92e4b8e4db336de liveupdate: luo_core: add user interface
+7c722a7f44e0c1f9714084152226bc7bd644b7e3 liveupdate: luo_file: implement file systems callbacks
+16cec0d265219f14a7fcebcc43aeb69205adba56 liveupdate: luo_session: add ioctls for file preservation
+906a3306245525f408129153d5dcb7ae7e6ded44 docs: add luo documentation
+7a5afa7ea8235e6b786b425b8905b2a4ffed8f65 MAINTAINERS: add liveupdate entry
+6ff1610ced5689c9af4c28a1798e04b74128a703 mm: shmem: use SHMEM_F_* flags instead of VM_* flags
+e165e2a2577b048664be09c074a10304290055f0 mm: shmem: allow freezing inode mapping
+ed6f45f81bf99f3cef380ba0de8cad85007b5307 mm: shmem: export some functions to internal.h
+8def18633e8df54a05cf7d323d0df24c21b320d6 liveupdate: luo_file: add private argument to store runtime state
+b3749f174d686627f702234e64bad976dc432dbc mm: memfd_luo: allow preserving memfd
+15fc11bb2cb649f2207bbb7140d5430d3937a8d5 docs: add documentation for memfd preservation via LUO
+80bab43f6f235664fff2d3518b3901ba9c4ac5a3 selftests/liveupdate: add userspace API selftests
+a003bdb9ec4e12c869b9c8641dd9bebf90ac0389 selftests/liveupdate: add simple kexec-based selftest for LUO
+724bf8c5595a1219427f6e779563859d63948b5a selftests/liveupdate: add kexec test for multiple and empty sessions
+b15515155af735a86e5bcd67ed739162f0de27f5 kho: free chunks using free_page() instead of kfree()
+11047466eff28cb3d3422622166931204ed7d502 test_kho: always print restore status
+cf4340bdd967fe7f37b4361c85370515f11f4a37 kexec: move sysfs entries to /sys/kernel/kexec
+5c991b6d9b30895744085abb592c77338d65a40d Documentation/ABI: mark old kexec sysfs deprecated
+fb5c3644278c169c0d03b904b2bdedcaea897df7 Documentation/ABI: new kexec and kdump sysfs interface
+40cd0e8dd283b11aff9628fe7fd810ea7cc53e32 KHO: fix boot failure due to kmemleak access to non-PRESENT pages
+af06a40474793ad9677d1771c0624ae8191f0892 init: replace simple_strtoul with kstrtoul to improve lpj_setup
+c39eab75a57dbd6b4618fae88d36446e1cdffdde MAINTAINERS: TPM DEVICE DRIVER: update the W-tag
+4bc84cd539dff1a6346ffeb5f174bb79e238fa78 kho: kho_restore_vmalloc: fix initialization of pages array
+7b71205ae1120e90c7f6d41d282e26c00e9ee6a7 kho: fix restoring of contiguous ranges of order-0 pages
+3fa805c37dd4d3e72ae5c58800f3f46ab3ca1f70 vmcoreinfo: track and log recoverable hardware errors
+6fb3acdebf65a72df0a95f9fd2c901ff2bc9a3a2 Reinstate "resource: avoid unnecessary lookups in find_next_iomem_res()"
+aa514a297a0c175239f24a2e582ebd37f0727494 calibrate: update header inclusion
+33b4c26d4d3ccd24d9721a577671f2c73c1a7cd9 x86/platform: Fix and extend kernel-doc comments in <asm/x86_init.h>
+24bc5ea5c01a7695a1308ac24435810855ec71c9 seqlock, procfs: Match scoped_seqlock_read() critical section vs. RCU ordering in do_task_stat() to do_io_accounting()
+0c314a881cac61a80a0e05309fafd48c55dd3afc objtool: Fix stack overflow in validate_branch()
+35fa2b4bf96415b88d7edaa5cf8af5185d9ce76e fbdev: tcx.c fix mem_map to correct smem_start offset
+0155e868cbc111846cc2809c1546ea53810a56ae fbdev: pxafb: Fix multiple clamped values in pxafb_adjust_timing
+b08ee4d666f216a6f9e7194a9b335147d4717f33 lib/fonts: Add Terminus 10x18 console font
+af0fa9b449d7952f231903262b0a96bad8399dd1 fbdev: tridentfb: replace printk() with dev_*() in probe
+93b22a4bf0b4945abc7c45345f2a52fd3098c16c fbdev: i810: use appopriate log interface dev_info
+a818f28f017b23cfe830dd82e89b5aa6b0fea8e5 x86/alternative: Remove ANNOTATE_DATA_SPECIAL usage
+f387d0e1027f2d13cbfc1305b54198af701ede19 x86/asm: Remove ANNOTATE_DATA_SPECIAL usage
+c7957da77708c74a95d60340c6d3c1a3617cd248 x86/boot/Documentation: Spell 'ID' consistently
+1c3377bee2127f98f16705376a36326c98113d1c x86/boot/Documentation: Prefix hexadecimal literals with 0x
+305c8dc477175eb29df18accc95c868acd2cdd4e objtool: Consolidate annotation macros
+ed3bf863dc9150b56233b01ec073cbbd1fc9c6a3 objtool: Remove newlines and tabs from annotation macros
+799647ddb4c0ce1d7084fcf5b524e9a0c7728325 objtool: Add more robust signal error handling, detect and warn about stack overflows
+2d3451ef1ef679ae496f8e335f4b1305885e8083 objtool: Simplify .annotate_insn code generation output some more
+164312662ae9764b83b84d97afb25c42eb2be473 fbdev: ssd1307fb: fix potential page leak in ssd1307fb_probe()
+02e7769e38c87c92b82db59923d3b0598d153903 tracing: Fix enabling of tracing on file release
+47ef834209e5981f443240d8a8b45bf680df22aa tracing: Fix fixed array of synthetic event
+9c3f3b8fea2d615e128418a12c430e2890169859 tracing: Fix typo in fpgraph.c
+2ec7345c2d589f3e7358e753ef5b6ae7be66d846 tracing: Fix typo in fprobe.c
+1edb820ae9779ae29526d4285298b0bf93a8d542 tracing: Fix multiple typos in ring_buffer.c
+81354f63359fb66b205650c62859e0ac414e6ecf tracing: Fix typo in ring_buffer_benchmark.c
+8d4cdbd45cd4c1671359cc408f900d51c7e1d107 tracing: Fix multiple typos in trace.c
+d4290963d5af2f10810a8887c1037f6d70e5a9bd tracing: Fix multiple typos in trace_events.c
+86f320904e2f8795e3f1851f18ad7bf3f43d1c79 tracing: Fix typo in trace_events_filter.c
+c29e75532e98d78cc557038017247643286c4e86 tracing: Fix typo in trace_events_hist.c
+0166d3e31aaf831145520bd8c6f16f6ff5ddb1e6 tracing: Fix typo in trace_events_trigger.c
+6ce5725d73734434ca91bd6d9f24524248584c27 tracing: Fix multiple typos in trace_events_user.c
+fa3f733d97e5482a63e8d55b86810d67999d9f07 tracing: Fix multiple typos in trace_osnoise.c
+0f17df72a7149b65e51e03d4ab7b2fd6d5cab0dc tracing: Fix typo in trace_probe.c
+c5108c58b991cb6cac78947ac3811321895190e2 tracing: Fix typo in trace_seq.c
+90dfeef1cd38dff19f8b3a752d13bfd79f0f7694 seqlock: Cure some more scoped_seqlock() optimization fails
+dde3763365d80398d1465214458d0c38cc32de9c sched/headers: Remove whitespace noise from kernel/sched/sched.h
+e38e5299747b23015b00b0109891815db44a2f30 sched/hrtick: Fix hrtick() vs. scheduling context
+22abd832776b1317ae4c3f8a097c8b71bf83fb38 sched/rt: Remove a preempt-disable section in rt_mutex_setprio()
+ca125231dd29fc0678dd3622e9cdea80a51dffe4 sched/fair: Fix unfairness caused by stalled tg_load_avg_contrib when the last task migrates out
+c2ae8b0df2d1bb7a063f9e356e4e9a06cd4afe11 sched/core: Fix psi_dequeue() for Proxy Execution
+92fc1f16e22f97dd5897c9200e620ebc287e50ef Merge tag 'locking-urgent-2025-12-06' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+08b8ddac1f4339fbf950df45590a032578ec35f7 Merge tag 'objtool-urgent-2025-12-06' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+09bcd5ef66a2524545dc0bc834140606f4180d0f Merge tag 'sched-urgent-2025-12-06' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+cc3ee4ba57b76deefb52aee5f57a46dc07bda9f7 Merge tag 'x86-urgent-2025-12-06' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+09670b8c38b37bc2d6fc5d01fa7e02c38f7adf36 Merge tag 'trace-v6.19-2' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
+509d3f45847627f4c5cdce004c3ec79262b5239c Merge tag 'mm-nonmm-stable-2025-12-06-11-14' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
+c06c303832ecd5edef90c6817a6eb0eb7fed7a64 ocfs2: fix xattr array entry __counted_by error
+0d1d44032f7b8b9edb14e82315fdf504740940c1 Merge tag 'fbdev-for-6.19-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/deller/linux-fbdev
+50471f8b7371c95c72c168eb45e4f42f1514fd5e Merge tag 'parisc-for-6.19-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/deller/parisc-linux
 
---===============5274399895522279832==--
+--===============6785870626178920618==--
