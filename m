@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0341171512547777036=="
+Content-Type: multipart/mixed; boundary="===============2802820223784896909=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools
-Date: Sun, 07 Dec 2025 06:47:50 -0000
-Message-Id: <176509007050.1505418.17082691361059609844@gitolite.kernel.org>
+Date: Sun, 07 Dec 2025 06:48:56 -0000
+Message-Id: <176509013694.1506183.10031838182210655242@gitolite.kernel.org>
 
---===============0341171512547777036==
+--===============2802820223784896909==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/perf/perf-tools
 user: namhyung
 changes:
-  - ref: refs/heads/tmp.perf-tools
+  - ref: refs/heads/perf-tools
     old: 6cf62f0174de64e4161e301bb0ed52e198ce25dc
     new: 2eeb09fe1c5173b659929f92fee4461796ca8c14
     log: revlist-6cf62f0174de-2eeb09fe1c51.txt
 
---===============0341171512547777036==
+--===============2802820223784896909==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -241,4 +241,4 @@ c9a8c343ef2f9769a33650b7429f5a83ecba8380 perf stat: When no events, don't report
 d509d14fff783969904954eaf5d94f092c6fce19 perf stat: Improve handling of termination by signal
 2eeb09fe1c5173b659929f92fee4461796ca8c14 libperf: Use 'extern' in LIBPERF_API visibility macro
 
---===============0341171512547777036==--
+--===============2802820223784896909==--
