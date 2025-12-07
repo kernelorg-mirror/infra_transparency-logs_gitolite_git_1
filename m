@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7381023715099476474=="
+Content-Type: multipart/mixed; boundary="===============3501833541959821600=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Sun, 07 Dec 2025 20:50:43 -0000
-Message-Id: <176514064393.2274432.15366641970225706492@gitolite.kernel.org>
+Date: Sun, 07 Dec 2025 20:50:53 -0000
+Message-Id: <176514065300.2274648.10916760275415020455@gitolite.kernel.org>
 
---===============7381023715099476474==
+--===============3501833541959821600==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,42 @@ repo: pub/scm/linux/kernel/git/gregkh/char-misc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/char-misc-next
+  - ref: refs/heads/char-misc-testing
     old: 82d12088c297fa1cef670e1718b3d24f414c23f7
     new: 67a454e6b1c604555c04501c77b7fedc5d98a779
     log: revlist-82d12088c297-67a454e6b1c6.txt
 
---===============7381023715099476474==
+--===============3501833541959821600==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1765140641 +0900
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1765140651 +0900
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1765140641-6e485b7cae2657af921198e07506329ec93ad521
+nonce 1765140650-df94c8cdd268a9ea68af5115c904e3b483156f13
 
-82d12088c297fa1cef670e1718b3d24f414c23f7 67a454e6b1c604555c04501c77b7fedc5d98a779 refs/heads/char-misc-next
+82d12088c297fa1cef670e1718b3d24f414c23f7 67a454e6b1c604555c04501c77b7fedc5d98a779 refs/heads/char-misc-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmk16KEbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+vgYQALnbmzoHsJcQH8oU9Rop
-aLfKiuVOc5K1ONcsIx3KDLxYDU1aiAJ7QKJmBOhhTP54Zjc5jnspJjX/cab9SJbj
-+kDU44Z8fv/ImOiDIGt7rYeAEbfsGbUwi0G1oxPcvfmDiBpPFyWi4RV4FFI76MDd
-0k3F1s94hMOX7vHZ0iF0ChXPC+iWlQcrrrDGpb/KU2j3Xp5bZ84b2FwfL12/9NTU
-e8sg22/NxMSMrteo01gz2dmdRL4Z29H7hybDr5Zmn9HY8cZDjOCrf+l8hfHgmuOy
-/F9EQGIIqXOgVp+uKlMVF6Ii4kM34m/ldYSYXmyDeSyKnAwhy33UR1XIvUVnFvCq
-5kU9XG6KU1hZzsuQnQyVYnIY+rxqtJp0gLLF77F8yVFlugip0XgDRt5ESdq4Elgp
-nIuhsXLj0iU+FYMgju3U4o89ZpiqLvtONWhzjfQREsWRMe3nrxNKm2HGDUQEZOvd
-FFQHI103T7mQBeWUU1wxBMukbvoeA4vPfIqeDRbqmI6zcXTgFcHR13ROwvL4QnMx
-axdlKrgkQoQRlhqcV+ttFD6dGcV1nJ7B91ECFrp8TQkv0kZAzYT2io9Xp9ino1LK
-aXdQw8aiJLmaoHpXpil0gNKY5bQrqVKDiBJi2iqsbYwgpsIYbsMuwRoFNA1xC6Og
-vZO8xq2LnJv8FnQiiYlA2Nr1
-=5IG7
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmk16KsbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+cFkP/itqjrRCwUKLWkGrbChl
+Ot2LHimIYcWID74EPHZdZT255WusE0fvH7Q+nfWh8KQ4lfor45EyGdSk97EG8HNd
+EeGiOzVxhxG0EPPih9CX9toxfDrg+/TdLoORAluHXqXj4jeWb28GW2xbQ2xAcUk4
+8W1tNoecRn8QCOy05/86qcb90kABIo/kEJfM1u3IWLBMjvvLeEKjMaKGqo5Xk6Za
+3oXRgahx/0fOO+TnBHVL96FSNW0KKfn9l/IWpBAqWlZic+3leQW1X889T7eYEMik
+U9Kygi/vLcYMA/MuiftcxnsPu1HSnVO/YSc/qJzR3FSlb5Ok45It7DOnWQfjoAmn
+woIyH3PJ3zW6pycRCB0p9vbMH2ot2N5wfG4f78FiJ/0jvWt+EpaW6LoPY9VbZ7Hr
+kt0wdJwnAys3ALCwcz3wcMSWPbllnm6W7/VptFeeeheQhH10ev8O4xKPs2W06IVN
+hJxfKbF6hdgKlojT/826FRth/XcEhmR2HFjysMTzbgrrm8HWIFIt4sK3hHeZFa9k
+cnmEef/bWVULmj686vebltS30qdlLpWYCvR4dxr0fSplFHkkPthzdZHC938wsHpH
+uZvlCuX1SYrXDYq9n9YS6aTiiZDbvKSg2VAsoFsJ7brM2NEXXARdMQYOYiMcIav0
+fXmUl33AoTs5uPM86mkNa2R0
+=ij6y
 -----END PGP SIGNATURE-----
 
---===============7381023715099476474==
+--===============3501833541959821600==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1082,4 +1082,4 @@ f5e9d31e79c1ce8ba948ecac74d75e9c8d2f0c87 Merge tag 'usb-6.19-rc1' of git://git.k
 bbbf7f32843b5788786cd8d91e9430823c2777c9 Merge tag '9p-for-6.19-rc1' of https://github.com/martinetd/linux
 67a454e6b1c604555c04501c77b7fedc5d98a779 Merge tag 'memblock-6.19-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/rppt/memblock
 
---===============7381023715099476474==--
+--===============3501833541959821600==--
