@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3799996974856547068=="
+Content-Type: multipart/mixed; boundary="===============7609571901398607057=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Sun, 07 Dec 2025 21:14:20 -0000
-Message-Id: <176514206081.2296761.4963458363381363052@gitolite.kernel.org>
+Date: Sun, 07 Dec 2025 21:14:30 -0000
+Message-Id: <176514207069.2297075.15039009232161283752@gitolite.kernel.org>
 
---===============3799996974856547068==
+--===============7609571901398607057==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/staging
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/staging-linus
-    old: dcb6fa37fd7bc9c3d2b066329b0d27dedf8becaa
+  - ref: refs/heads/staging-next
+    old: 502ddcc405b69fa92e0add6c1714d654504f6fd7
     new: 67a454e6b1c604555c04501c77b7fedc5d98a779
-    log: revlist-dcb6fa37fd7b-67a454e6b1c6.txt
+    log: revlist-502ddcc405b6-67a454e6b1c6.txt
 
---===============3799996974856547068==
+--===============7609571901398607057==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1765142059 +0900
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1765142069 +0900
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1765142059-871d74e282f4077b15097eb6b2559e3c44adaa07
+nonce 1765142068-c48af231f30c48488ff1fd0324ef70562297ea34
 
-dcb6fa37fd7bc9c3d2b066329b0d27dedf8becaa 67a454e6b1c604555c04501c77b7fedc5d98a779 refs/heads/staging-linus
+502ddcc405b69fa92e0add6c1714d654504f6fd7 67a454e6b1c604555c04501c77b7fedc5d98a779 refs/heads/staging-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmk17isbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+K50QAIgjL7bBNL6AtCiPMlUE
-XbNpCTKNPdzcVib9dp9znAxdAPr44+RWv0VyaqK2vqjXvWigc6BqrPmlGu09YD96
-ezh1RdzWhFVx92+DuM+ECFB7GJRrnHvgUiIv6fSNuFzKVzAc3hiXbtSdb4pw3VFq
-XDdeQjjJ043lx2XoFuluiX89XQxwhe26sOdYR98WVbW481UjLSl8HsPOikTwATWd
-oLN2g39RflVdvGpCjk9j0vavgqRhikau2IsHaYtySvhko6bcEGUf42bkMuTEjeZX
-z4omVcXcAAx/li+MXSr6jk3EGzma6eN8jJ9EiL1JvwSGnh3dl0hRIaUlhlLdWB/f
-4ZzTv09nJ6ja2pOOyC5B80O+I8g8bVJh5b5jN2KRbdTrSbDHpNf3qmxYhxMrzHAW
-wtIx6ozanMBDFRofN33kYvTrn5+RAtyL8nKOcx489okUhKE2rbazv9SCgHAn2tqC
-uUSMIH5LMkBaV+CStMs7hqgGYLz64qNW1QP49W5kZo3DIRcrqobLQY76wueW+v4V
-ipg4GW6WJIQ5sWntr71arfllngw8solHlCEqSzCRRdhqh60bSlz9hHVz4UlRjzbd
-W4PlFuzsDxid1jHdjtm9oqhiYJIWZI83sgRBdoRlpq4OPNWKOXhypHZxBwr3jT5D
-PEi6ZLRd+abq0kK6V6Q5z6Ew
-=UKsr
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmk17jUbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+V9MQAJAfb3700eCxEcmqziE8
+1VwHOjeVvk9PH9qnj4S1JS01umRGKJC522eO5ae6TnEw935d7nlbVIgjoLQbbjV9
++ElR49y5LRm0uDGNuxMuB/3l7VnQneqnzJgukxXVDE2hgoY5a4PXkraOBh2F8yZd
+aNgfcSA6ZlWHocPT0fivqOs9yauhUG8h4vGKUIOaOxCcvyrtzZKE49w7yW/e3E8W
+pBIhcQkzKUe+qHDY8sgXS1MF6mFPM7igKequyFlXnE2jq9RjP3l2SydXIJlAVOj5
+bWD4LDCpZKAEuKzZ/fY/apePpTP893/KMySdkXkIBwTtDLZtgE7fAiJp2tGXm5Vm
+7pgEad+unx3OWSoAXtuk6AVXpPBeueLgDK5kceb5xQ5vLvKKJ27Gs95Hrv15FZIQ
+3CG+HK54rj6SiFh6XdSe8cY1yHnFnUJzwGcBGNH4Icj8IZV+nhEfCL0Iu8p7mmj2
+C2fLSwIIM/TG03j55t4zOdpeMwCik2BWHM528IWlNJyWfa4kYnd0F0S3940d3LUW
+xGqY3MDpBbDVhYzO5oYSIDq2Z8qObbe4SmBYQCLFt6s89RR5hBTUTCklTIZg6xZU
+D6m8vLCQtSzG0vDcvE74WpM0/P4uEkpzm+WUJB745IMSZAPiy48irpuerQl2VZhP
+RlMc3TIBjNU7JzGrrSqAw/0i
+=9od+
 -----END PGP SIGNATURE-----
 
---===============3799996974856547068==
+--===============7609571901398607057==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-dcb6fa37fd7b-67a454e6b1c6.txt
+Content-Disposition: attachment; filename=revlist-502ddcc405b6-67a454e6b1c6.txt
 
 fe8313316eaf0f3b052d5a9464ca6aa630229400 selftests: netfilter: nft_flowtable.sh: Add IPIP flowtable selftest
 be102eb6a0e7c03db00e50540622f4e43b2d2844 netfilter: nf_conncount: rework API to use sk_buff directly
@@ -1082,4 +1082,4 @@ f5e9d31e79c1ce8ba948ecac74d75e9c8d2f0c87 Merge tag 'usb-6.19-rc1' of git://git.k
 bbbf7f32843b5788786cd8d91e9430823c2777c9 Merge tag '9p-for-6.19-rc1' of https://github.com/martinetd/linux
 67a454e6b1c604555c04501c77b7fedc5d98a779 Merge tag 'memblock-6.19-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/rppt/memblock
 
---===============3799996974856547068==--
+--===============7609571901398607057==--
