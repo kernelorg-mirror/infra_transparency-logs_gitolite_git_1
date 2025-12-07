@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0929485500807473816=="
+Content-Type: multipart/mixed; boundary="===============5954303748182945260=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Sun, 07 Dec 2025 20:50:26 -0000
-Message-Id: <176514062639.2273922.7964810426098375298@gitolite.kernel.org>
+Date: Sun, 07 Dec 2025 20:50:34 -0000
+Message-Id: <176514063430.2274176.9868576502085263249@gitolite.kernel.org>
 
---===============0929485500807473816==
+--===============5954303748182945260==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,42 @@ repo: pub/scm/linux/kernel/git/gregkh/char-misc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
+  - ref: refs/heads/char-misc-linus
     old: 7d0a66e4bb9081d75c82ec4957c50034cb0ea449
     new: 67a454e6b1c604555c04501c77b7fedc5d98a779
     log: revlist-7d0a66e4bb90-67a454e6b1c6.txt
 
---===============0929485500807473816==
+--===============5954303748182945260==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1765140610 +0900
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1765140632 +0900
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1765140610-3ef54824d908fb96c23c4627d33fa546824b7f2f
+nonce 1765140632-6499cfb1b30b8eef35b91060bd1749d04890d293
 
-7d0a66e4bb9081d75c82ec4957c50034cb0ea449 67a454e6b1c604555c04501c77b7fedc5d98a779 refs/heads/main
+7d0a66e4bb9081d75c82ec4957c50034cb0ea449 67a454e6b1c604555c04501c77b7fedc5d98a779 refs/heads/char-misc-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmk16IIbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+AG4QAIDrj7I/Vyx5A4daUR4l
-Ca78rAVqqyL6AssPePb8ndXsdtv/SptXzZiz18iSp9NtYnfUHJ44whgn3tZ2GrU2
-Ph7pECT/jO5bBiSAm6TvwahPLJ0pbKQhHGBcVYi/8+v4CJII7EAA/LQm0uPQVvli
-NH+SKNglx+FESZ9pcUM+ALnJKZc6Jn2RxCds5VcB6w68HfEKk3OWMxvRqpZ6n8gK
-7iVPm0WLaACaZpd5mnk+FfZ5ryjLW686FlE72jB0Yac3813w00noiEwA6oc+1TQa
-k6mshoPIOFQkn73JNAMHoaScKlzgi7yjStL+7XxINz+OEWtnrjlSKqWFibG9pW3O
-sU4v7WI4p2jRWpegew+9kfM5nfBZXgkdCMapiyW32cN0/FVioRQ9foAtXi5Et3UH
-KYWX0y44eEM9iBpvRJ4si+SOonGrui2U+l/nhCtW6xI3BlqE8K9G3Aifzv2VAkJP
-S1z/vhpwhHi/XE47ThcdLWQnhfs/UG0KYQiF/w3g/F+XgO1DXC6PWK58X4pOnFIQ
-6NCJrWvbk0rm1WpWxFuAnys39COGXc8IBVq/twHJTyYFAixMnBxuTD7w7fOYCTPu
-tuwzXzwn2Hj3Vj9+JDHLJiEgd7jld0vxRpTeFtKj0vQasminuI0jaz4aAtKB6Zei
-ZIthMd57t393Rc6M+6/2s2Ay
-=EZcL
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmk16JgbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+tU8P/2tMSN6Hd0LpV5prwZXk
+GCQF9F+bxc0CPKJIlXnkLxLyYum7fGgm3RLQSkHq63l/JMua3M6OEouQ81hZWO5K
+j8GTX9PY7Pc2jT1XygQadtNx6eVLCmX6vVB3PeA164AfliIDg0BcSFkRboaL0h8Y
+fp/5ePaSn/wfWk34M6yXDswbwIK0qz/qzDvdls8d19v1ETfrKckbrso3d1e7ur7K
+ygwHdWDpuCn1Ut7RF7VCw9roHAAsDWhyQMMcy3AopKY6LSPYc4EMgYwXBl6Zjqlc
+g3hg+XeYF9GM1M5SqJS3y0NJ4cgDA6xtkhC6KiGyMXEgDSflgICaveLm70/L3brq
+DHXv/e0kNfnnSkxBMTMRB9e4reJpPtGefX8iD+YwGjoCcRAtK4TDu2LgxYPZ8/yD
+DVOzLZ9MhPfnJsI1KbnnqvqWQFIcydj5ZBUyBd4L/PJklrqVBVijydpdBdsv0GEn
+qCycRuP5UNGu0RMPE/DbPKA5NUREQjPDgAJxvSm4HIEFVp71YqTNNxKMoTmoxYih
+wzJ6rKOIX95MfiRMvM7S1jAJO6ppWFIaslF02at6X6fJhXBlW1e+vIZTuibhkPAv
+x8E9Q3+0oF6pVOrXUCr2z5tTn2crHguYxca235X3hgTIfbHd261Xmcg9a2zYJgq8
+AQxnWf42SUCkywAABinUXnOo
+=cPDS
 -----END PGP SIGNATURE-----
 
---===============0929485500807473816==
+--===============5954303748182945260==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1082,4 +1082,4 @@ f5e9d31e79c1ce8ba948ecac74d75e9c8d2f0c87 Merge tag 'usb-6.19-rc1' of git://git.k
 bbbf7f32843b5788786cd8d91e9430823c2777c9 Merge tag '9p-for-6.19-rc1' of https://github.com/martinetd/linux
 67a454e6b1c604555c04501c77b7fedc5d98a779 Merge tag 'memblock-6.19-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/rppt/memblock
 
---===============0929485500807473816==--
+--===============5954303748182945260==--
