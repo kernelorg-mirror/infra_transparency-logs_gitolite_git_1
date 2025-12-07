@@ -1,20 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
-Date: Sun, 07 Dec 2025 19:33:32 -0000
-Message-Id: <176513601274.2202230.13982894651899003405@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+Date: Sun, 07 Dec 2025 19:58:00 -0000
+Message-Id: <176513748044.2224660.4684878406413669453@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jic23/iio
-user: jic23
+repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+user: jarkko
 changes:
-  - ref: refs/heads/testing
-    old: df74a113272815f214568e471bb92d308acea262
-    new: daea3a394a8b425a2dd206ab09eb37f0d1087d35
-    log: |
-         02d1af1afa4ea134805a482640cbd01a15dd1c5c bindings: iio: adc: Add bindings for TI ADS131M0x ADCs
-         daea3a394a8b425a2dd206ab09eb37f0d1087d35 iio: adc: Add TI ADS131M0x ADC driver
-         
+  - ref: refs/heads/queue
+    old: 2249f392e3ea066855cc7710b5588b1ef89788bd
+    new: 197faeec8a4986d0553204bf847268bc8af35157
