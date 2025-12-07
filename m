@@ -1,42 +1,41 @@
-Content-Type: multipart/mixed; boundary="===============7059600540919914157=="
+Content-Type: multipart/mixed; boundary="===============5030337578646965346=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/docs/man-pages/man-pages
-Date: Sun, 07 Dec 2025 16:37:04 -0000
-Message-Id: <176512542443.2038733.11299064707256936651@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Sun, 07 Dec 2025 16:55:43 -0000
+Message-Id: <176512654318.2056987.2056575854762798067@gitolite.kernel.org>
 
---===============7059600540919914157==
+--===============5030337578646965346==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/docs/man-pages/man-pages
-user: alx
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
   - ref: refs/heads/master
-    old: 146c2731d1249777eebc95e9287666d41b27680a
-    new: 46950a0845de91c422efe6c639091ace42cb92f8
-    log: revlist-146c2731d124-46950a0845de.txt
+    old: 9e906a9dead17d81d6c2687f65e159231d0e3286
+    new: bbbf7f32843b5788786cd8d91e9430823c2777c9
+    log: revlist-9e906a9dead1-bbbf7f32843b.txt
 
---===============7059600540919914157==
+--===============5030337578646965346==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-146c2731d124-46950a0845de.txt
+Content-Disposition: attachment; filename=revlist-9e906a9dead1-bbbf7f32843b.txt
 
-8574bb2a598ff4f1ea1a0997f5ecbcf4d0338515 share/mk/: $TR: Add dependency
-b7c66c979055530d77ebb665540f8afb81a184be GNUmakefile: wsfix
-829f540224ceebfa6babaed7d6b3f955fbe0f7e3 share/mk/: help, help-*: Add targets to list targets, variables, and build dependencies
-284d5edc7fe76c65dfb8b8950933a6e5d1896074 share/mk/: help-list-targets: Use 'make -n'
-cb50e9684929cc67d24b6f92607d72b63cc86a10 share/mk/: $UNIQ: Add dependency
-89ea1095f495d3c993923129e6aaa444fa9d5361 share/mk/: help-list-variables: Don't list undefined variables
-6c4036cbd806e09e89eb8147cf9e9a8077596f5b man/man5/proc.5: Remove redundant paragraph
-943b995f62dcd0fb590c0dba33597536f559f102 man/man3/*printf.3: Split *s*printf() from printf(3)
-1e6dea7c8b269f09231094d5d0018ee161d66505 man/man3/*s*printf.3: Split [v]sprintf() from snprintf(3)
-28d3fa4cfa3a06621a8326f272471ad148d56f07 man/man3/getopt*.3: Split getopt_long*() from getopt(3)
-8caecf0d961bb750e58a2f68ed874da7e0df3c95 man/man3/getopt_long.3: SYNOPSIS: Simplify feature test macro
-46950a0845de91c422efe6c639091ace42cb92f8 man/man3/getopt_long*.3: Split getopt_long_only() from getopt_long(3)
+e21d451a82f39e91b7635c4fc3ff5ac082873ec3 9p: Use kvmalloc for message buffers on supported transports
+eeaf38a798aff6384983e5a0ac464d146de7ff55 net/9p: cleanup: change p9_trans_module->def to bool
+a63dd8fd137933551bfd9aeeeaa942f04c7aad65 fs/9p: Don't open remote file with APPEND mode when writeback cache is used
+52df783f33ec6df2d592dd12d0afc3265d9e37eb fs/9p: delete unnnecessary condition
+695f2ca1b4247724576d57eae7b74b90dc69ba3c fs/fs_parse: add back fsparam_u32hex
+c44393d84149d6fc91d94fa39321c9657e91b388 net/9p: move structures and macros to header files
+075e8bd4127f007910fc302ad5c3c471d0be4799 9p: create a v9fs_context structure to hold parsed options
+1f3e4142c0eb178089ea0cbc97506a061470ad27 9p: convert to the new mount API
+f0445613314f474c1a0ec6fa8a5cd153a618f1b6 9p: fix cache/debug options printing in v9fs_show_options
+3e281113f871d7f9c69ca55a4d806a72180b7e8a 9p: fix new mount API cache option handling
+bbbf7f32843b5788786cd8d91e9430823c2777c9 Merge tag '9p-for-6.19-rc1' of https://github.com/martinetd/linux
 
---===============7059600540919914157==--
+--===============5030337578646965346==--
