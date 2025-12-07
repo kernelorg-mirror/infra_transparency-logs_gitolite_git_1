@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4174211245316113748=="
+Content-Type: multipart/mixed; boundary="===============1163959079716080787=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Sun, 07 Dec 2025 12:40:56 -0000
-Message-Id: <176511125657.1820724.15602414567282431590@gitolite.kernel.org>
+Date: Sun, 07 Dec 2025 12:41:06 -0000
+Message-Id: <176511126608.1821012.14513237194938042942@gitolite.kernel.org>
 
---===============4174211245316113748==
+--===============1163959079716080787==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,42 @@ repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/usb-next
+  - ref: refs/heads/usb-testing
     old: 2585973c7f9ee31d21e5848c996fab2521fd383d
     new: 37bb2e7217b01404e2abf9d90d8e5705a5603b52
     log: revlist-2585973c7f9e-37bb2e7217b0.txt
 
---===============4174211245316113748==
+--===============1163959079716080787==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1765111255 +0900
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1765111264 +0900
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1765111253-83c2908571a92d58cc0916c7fccbfafeddae70f8
+nonce 1765111263-3d028fbc8ddf57d42b5483a8ec19c86d48d852f8
 
-2585973c7f9ee31d21e5848c996fab2521fd383d 37bb2e7217b01404e2abf9d90d8e5705a5603b52 refs/heads/usb-next
+2585973c7f9ee31d21e5848c996fab2521fd383d 37bb2e7217b01404e2abf9d90d8e5705a5603b52 refs/heads/usb-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmk1ddcbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+tewP+wZK5W7Uuy7HAjPkG2rp
-HkB+UtFcVCif8mngBRfieK+88B0Rd/J5/tssGap8j6BlXNou1qfilgwF9ip/KlXh
-+7pB9emVox0yLsdblR8/O/hZcwWwO6PEoeoHp/dPtpe40OklllmPQUXEtfeTBD42
-IPkaQwG3XijhChHSd5ny0Y90fUnhVp8P6JFmSseBHi9RBlQroVNx6nHiWeRevz07
-v1Z+a2u7jacDO5//0tgpesO9TaNVbAsHv/UU6SmCeC96pR9LuUVUm7Ji5oVJvLtX
-OIF6FqdrFi2Nvt/j3ZTkMzBu2MDQzbi62pbw0vUBpPfSINtOd5+us1Z0uol6a84N
-0c3P3V6W3ioX3OEbgQBole3kYguUsnyiCSJm4iNFjjt2fyzEqAyq4pfz85OXn0Qs
-xvUNZOLN5DmpSxYoRQBEsO0aX2nc8c9MwsT3K3pux6IO/bDhBwr/cV5bMOe1OY7y
-pFhkVjEodfrPzMiWgXCDQJVopTfDtOvCUg/ei0MqBdnf1lidF4RiLDC7eOHQml5G
-jy6CULiDGCM7UE+QL45/n3qUz46+AbVaIarH4bjuAFKq8qmQ7yZbXHem3FiLCvP1
-L17Rbb88Jtr17Zx+zmc1XsPcMHKnT0ksCMAfTlK5DcpEm4QOpfvj9wKQaxdjMCv5
-E5VhWW+qD2hDATqERlv31gaF
-=YBPd
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmk1deAbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+zQoQALYD7LeciS20lqd3uzKw
+G0rtEm0cqnW35qYWolsSIfw7fL1NiRCGIPAF3/ZizyH/hO66VIP2EyKL6FUZ7Z9X
+le8OAMMyy2bFxF1qqOlyPe6QKbt/5w33LJw9g9p4BRbk3PogBo14SoQWMlE3pCbu
+/qgCzH4r4jbnlZp87OJPSQxpM4rmO+bteawfHlNX5XcPev7WI0NHjptGlLHv9cT3
+GqFRVoVSHmyJ8O/hI8CEsn3k6s6X6CsP1/brQosO3Lg0rBblCTNc4q3dEu0jwYub
+YVYFidjNLKkjV/zhvdg0ScJljb84jZI3nemZdfFBTrMHR+oQCaX/lPzO4MW8QEhz
+8V3HglR4TWrI6ajTsic/Oka58LE8vD8oW2dgvXAseslsi5Qkrj+ZUe71kYfjozzZ
+TFgz7ZA3cxncxDWJ2FC7RwE6NvHbUOKQrNrIZMBzWMji58/hW+rCJwJ/9R14ELOP
+mcLFEvV8kBqYoGYyaZhkFcYM8RY285P6Fa7tiw/8CdaNNvRQs7SOr+qXdtjIPnAi
+VBv+NHLgVT2su3uEzm/L2v+6NYObwgqZ6KblXM3//46NAFYR/6BztzN+O2iiIsiS
+enpiOK2ddr6RZLrrGx+UmTqmKdnd0VSANMuQgjjYHGx+NNKAon5vyteogCh4sw10
+WPkNIeOSWSV8ojGATkxMO5Ne
+=ajZ6
 -----END PGP SIGNATURE-----
 
---===============4174211245316113748==
+--===============1163959079716080787==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1082,4 +1082,4 @@ edf602a17b03e6bca31c48f34ac8fc3341503ac1 Merge tag 'tty-6.19-rc1' of git://git.k
 f5e9d31e79c1ce8ba948ecac74d75e9c8d2f0c87 Merge tag 'usb-6.19-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/usb
 37bb2e7217b01404e2abf9d90d8e5705a5603b52 Merge tag 'staging-6.19-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/staging
 
---===============4174211245316113748==--
+--===============1163959079716080787==--
