@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3734991741525145566=="
+Content-Type: multipart/mixed; boundary="===============8361096638947426751=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
-Date: Sun, 07 Dec 2025 22:10:06 -0000
-Message-Id: <176514540667.2349855.1931406796885068362@gitolite.kernel.org>
+Date: Sun, 07 Dec 2025 22:10:31 -0000
+Message-Id: <176514543136.2350248.2349629940266387258@gitolite.kernel.org>
 
---===============3734991741525145566==
+--===============8361096638947426751==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,22 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/groeck/linux-staging
 user: groeck
 changes:
-  - ref: refs/heads/master
-    old: 416f99c3b16f582a3fc6d64a1f77f39d94b76de5
-    new: 67a454e6b1c604555c04501c77b7fedc5d98a779
-    log: revlist-416f99c3b16f-67a454e6b1c6.txt
+  - ref: refs/heads/hwmon
+    old: 186e66ad4161ceb4f8683bb50368129558cbc97b
+    new: 08bfcf4ff9d39228150a757803fc02dffce84ab0
+    log: revlist-186e66ad4161-08bfcf4ff9d3.txt
 
---===============3734991741525145566==
+--===============8361096638947426751==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-416f99c3b16f-67a454e6b1c6.txt
+Content-Disposition: attachment; filename=revlist-186e66ad4161-08bfcf4ff9d3.txt
 
-6bebd9b77726a27e37834acd8f9c0f2cbbe2618b usb: typec: ps883x: Rework ps883x_set()
-832c8d3fce77cf03cc225fc555c1bffa1c547ba1 usb: typec: ps883x: Add USB4 mode and TBT3 altmode support
-93741bd104ce07a790519ecee3a331ee7cf61ae3 usb: uhci: Work around bogus clang shift overflow warning from DMA_BIT_MASK(64)
-85f17e130dc7189acf03eb0f8e2455c4ea2c4f9e dt-bindings: serial: samsung: Add compatible for ARTPEC-9 SoC
-fd3d4f5a62b1e2b0b4c3f16c2904b3af512648d6 dt-bindings: serial: samsung: add samsung,exynos8890-uart compatible
 08a0dd5a465814233cf39a87bf746dc44d0ab571 serial: ar933x: Add polling support
 18bdfccf3c30b208b65b890f75ecc76fcb79e224 tty: serial: fsl_lpuart: Add missing wakeup event reporting
 d55f3d2375ceeb08330d30f1e08196993c0b6583 tty: serial: imx: Only configure the wake register when device is set as wakeup source
@@ -1050,5 +1045,10 @@ f5e9d31e79c1ce8ba948ecac74d75e9c8d2f0c87 Merge tag 'usb-6.19-rc1' of git://git.k
 9e906a9dead17d81d6c2687f65e159231d0e3286 Merge tag 'perf-tools-for-v6.19-2025-12-06' of git://git.kernel.org/pub/scm/linux/kernel/git/perf/perf-tools
 bbbf7f32843b5788786cd8d91e9430823c2777c9 Merge tag '9p-for-6.19-rc1' of https://github.com/martinetd/linux
 67a454e6b1c604555c04501c77b7fedc5d98a779 Merge tag 'memblock-6.19-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/rppt/memblock
+670d7ef945d3a84683594429aea6ab2cdfa5ceb4 hwmon: (w83791d) Convert macros to functions to avoid TOCTOU
+fae00a7186cecf90a57757a63b97a0cbcf384fe9 hwmon: (dell-smm) Fix off-by-one error in dell_smm_is_visible()
+541dfb49dcb80c2509e030842de77adfb77820f5 hwmon: (emc2305) fix double put in emc2305_probe_childs_from_dt
+4910da6b36b122db50a27fabf6ab7f8611b60bf8 hwmon: (emc2305) fix device node refcount leak in error path
+08bfcf4ff9d39228150a757803fc02dffce84ab0 docs: hwmon: fix link to g762 devicetree binding
 
---===============3734991741525145566==--
+--===============8361096638947426751==--
