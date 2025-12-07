@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0500918731559584751=="
+Content-Type: multipart/mixed; boundary="===============6804129296304539501=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Sun, 07 Dec 2025 02:03:19 -0000
-Message-Id: <176507299912.1241860.14561472093352045545@gitolite.kernel.org>
+Date: Sun, 07 Dec 2025 02:03:21 -0000
+Message-Id: <176507300111.1241950.6437529390145315974@gitolite.kernel.org>
 
---===============0500918731559584751==
+--===============6804129296304539501==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/mm-new
-    old: e4c4d9892021888be6d874ec1be307e80382f431
-    new: d7b5db1b2f22194fcc3de56b717e02490bb256f6
-    log: revlist-e4c4d9892021-d7b5db1b2f22.txt
+  - ref: refs/heads/mm-unstable
+    old: 3cfeff1d2304237b1c14628d695a6df44daff48f
+    new: ecc46e02e0abe025a6e840cba2d647f23fd1d721
+    log: revlist-3cfeff1d2304-ecc46e02e0ab.txt
 
---===============0500918731559584751==
+--===============6804129296304539501==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e4c4d9892021-d7b5db1b2f22.txt
+Content-Disposition: attachment; filename=revlist-3cfeff1d2304-ecc46e02e0ab.txt
 
 acfbb947c10af9e607a2ad5709b85761d2b4ccd5 mm/huge_memory: fix initialization of huge zero folio
 b41f1e49d7ab7d405bca75cf686835b6a6f8afb7 MAINTAINERS: add Mike Rapoport as maintainer for userfaultfd
@@ -57,6 +57,5 @@ f7a56e8e0c7a6aabf866d486e0f7ce1c9d0fb94b mm/hugetlb: fix two comments related to
 7c9d204a38c582baa5ce6ffa0345c6660c267d2a mm/hugetlb: fix excessive IPI broadcasts when unsharing PMD tables using mmu_gather
 37f5ac0409a2052500a434a25aab1c4357d4574a mm: vmscan: correct nr_requested tracing in scan_folios
 ecc46e02e0abe025a6e840cba2d647f23fd1d721 mm/damon/tests/core-kunit: avoid damos_test_commit stack warning
-d7b5db1b2f22194fcc3de56b717e02490bb256f6 mm/damon/core: fix memory leak of repeat mode damon_call_control objects
 
---===============0500918731559584751==--
+--===============6804129296304539501==--
