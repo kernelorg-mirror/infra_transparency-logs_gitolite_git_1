@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/damon-hack
-Date: Sun, 07 Dec 2025 02:04:17 -0000
-Message-Id: <176507305729.1242798.8574748143271971985@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/tpm2sh
+Date: Sun, 07 Dec 2025 02:42:18 -0000
+Message-Id: <176507533852.1278365.13587311007052985701@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/damon-hack
-user: sj
+repo: pub/scm/linux/kernel/git/jarkko/tpm2sh
+user: jarkko
 changes:
-  - ref: refs/heads/master
-    old: d49989fbcb158880de9c84d3280c50544ce985c5
-    new: 5e5db52b5b20f50ebf7e4ae0ef74ef1fe1a52802
+  - ref: refs/heads/main
+    old: dad9a5b8c3006765121ead5b76cd2d10fefedb20
+    new: 035292b007f85d09cadd0c8af223b8aeffd95dae
     log: |
-         5e5db52b5b20f50ebf7e4ae0ef74ef1fe1a52802 patches/next: rebase to latest mm-new
+         7da112abc3281726b72d42ebbcc463a7949d77d1 refactor: consolidate persistent handle fetching
+         035292b007f85d09cadd0c8af223b8aeffd95dae refactor(seal): Use InputArgs
          
