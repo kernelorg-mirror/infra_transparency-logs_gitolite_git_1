@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4255441276717969965=="
+Content-Type: multipart/mixed; boundary="===============8147967821366637987=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/arighi/linux
-Date: Sun, 07 Dec 2025 17:54:16 -0000
-Message-Id: <176513005671.2111638.3334718625131345234@gitolite.kernel.org>
+Date: Sun, 07 Dec 2025 18:05:39 -0000
+Message-Id: <176513073977.2123877.256013181805546426@gitolite.kernel.org>
 
---===============4255441276717969965==
+--===============8147967821366637987==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,26 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/arighi/linux
 user: arighi
 changes:
-  - ref: refs/heads/scx-dl-server
-    old: d14f6538b353cb637acd8cef9242268fec7b87d6
-    new: bb7040ab1521f6e758d61dd525d44100ed7273fd
-    log: revlist-d14f6538b353-bb7040ab1521.txt
+  - ref: refs/heads/scx
+    old: 76ab4ac4a8930c3eb14592735d209e218dbfcb19
+    new: 7037fd4e244a29ae864cf21e332e11fad4a7bd80
+    log: revlist-76ab4ac4a893-7037fd4e244a.txt
 
---===============4255441276717969965==
+--===============8147967821366637987==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d14f6538b353-bb7040ab1521.txt
+Content-Disposition: attachment; filename=revlist-76ab4ac4a893-7037fd4e244a.txt
 
-be102eb6a0e7c03db00e50540622f4e43b2d2844 netfilter: nf_conncount: rework API to use sk_buff directly
-c0362b5748282e22fa1592a8d3474f726ad964c2 netfilter: nf_conncount: make nf_conncount_gc_list() to disable BH
-69894e5b4c5e28cda5f32af33d4a92b7a4b93b0e netfilter: nft_connlimit: update the count if add was skipped
-c4cbe4a4df39a2cf80593f87d129cd4b04ea568d netfilter: nft_connlimit: add support to object update operation
-c0bd21682aedeb5d1367ee8026f71dc32624091a selftests: netfilter: nft_flowtable.sh: Add the capability to send IPv6 TCP traffic
-c4f0ab06e1e0c1331e6febd03538a7f621f15134 netfilter: ip6t_srh: fix UAPI kernel-doc comments format
-d3a439e55c193b930e0007967cf8d7a29890449b netfilter: nf_tables: improve UAPI kernel-doc comments
-b31e2e3bb744c8fa852ad2a70712db97147071c9 Merge tag 'drm-intel-fixes-2025-11-26' of https://gitlab.freedesktop.org/drm/i915/kernel into drm-fixes
-f6ed9c5d3190cf18382ee75e0420602101f53586 overflow: Introduce struct_offset() to get offset of member
 3fa77874b4a7ae96d4ad40623d449cef6265ae4a Merge tag 'acpi-6.18-rc8-2' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
 aa7243aaf1947a0cb54c44337795d6759493fe02 Merge tag 'dma-mapping-6.18-2025-11-27' of git://git.kernel.org/pub/scm/linux/kernel/git/mszyprowski/linux
 df59bb5b9af3fc24d957261e9f80f0c0dec151a4 netmem, devmem, tcp: access pp fields through @desc in net_iov
@@ -498,6 +489,7 @@ aadff9f766399a350aa3e09fc671617bdc0b365f selftests: net: add a hint about MACAdd
 ea2d3befcf29cca5221d0572d54e4d71b683175d net: dsa: yt921x: Set ageing_time_min/ageing_time_max
 e3b8cbf40c6e60a7a935bd8980884d5741a7a77b selftests: netconsole: remove log noise due to socat exit
 33b4c26d4d3ccd24d9721a577671f2c73c1a7cd9 x86/platform: Fix and extend kernel-doc comments in <asm/x86_init.h>
+1dd6c84f1c544e552848a8968599220bd464e338 sched_ext: Fix incorrect sched_class settings for per-cpu migration tasks
 484f1176896e85b5ae4f04403c8cd5b79aced95e Bluetooth: mediatek: add gpio pin to reset bt
 01622e9a5336015f657df423b700e488fbcd2f39 Bluetooth: hci_h5: avoid sending two SYNC messages
 97fdb2ea06efdde784480934d1ff60eb21e88b58 Bluetooth: hci_h5: implement CRC data integrity
@@ -889,6 +881,7 @@ e45b5df47b07e6ce1138b0a4e70ad0b0c4d72881 drm/xe/pf: fix VFIO link error
 d7aa60d966461ca6114dc348e97889dc8850ff7f Merge tag 'media/v6.19-1' of git://git.kernel.org/pub/scm/linux/kernel/git/mchehab/linux-media
 94e244d9ccab578f83a218ec58376d025014fcce Merge tag 'auxdisplay-v6.19-1' of git://git.kernel.org/pub/scm/linux/kernel/git/andy/linux-auxdisplay
 6dfafbd0299a60bfb5d5e277fdf100037c7ded07 Merge tag 'drm-next-2025-12-03' of https://gitlab.freedesktop.org/drm/kernel
+83c8f7b5e194eaf3fb268c513e23e23e892de8ed mm/mm_init: Introduce a boot parameter for check_pages
 4cd8a64b15c1c61fbe164deacd7829899a7c5030 drm/i915/display: Add identifiers for driver specific blocks
 3e9b06559aa1c3daa21ff34a25b103f3fa7f0c7a drm/i915: Add intel_color_op
 730df5065ee9d64f972159995832ab1a5626bd4e drm/i915/color: Add helper to create intel colorop
@@ -951,6 +944,8 @@ bc677a9216e1396322e42692e9c01cce04a7afc0 tpm2-sessions: Remove 'attributes' para
 b7960b90486139022d2d39caad90db252c469bab tpm2-sessions: Open code tpm_buf_append_hmac_session()
 150215b89bcf708356abcb7d3cafdd1e6068598b drivers/xen: use min() instead of min_t()
 164312662ae9764b83b84d97afb25c42eb2be473 fbdev: ssd1307fb: fix potential page leak in ssd1307fb_probe()
+f0445613314f474c1a0ec6fa8a5cd153a618f1b6 9p: fix cache/debug options printing in v9fs_show_options
+3e281113f871d7f9c69ca55a4d806a72180b7e8a 9p: fix new mount API cache option handling
 afb9917d9b374ecb77d478c2a052e20875c6e232 Revert "net/socket: convert sock_map_fd() to FD_ADD()"
 8cf01d0c4372ef5777d20c3c3a83936fd1c670f8 mqueue: correct the type of ro to int
 fe93446b5ebdaa89a8f97b15668c077921a65140 vfs: use UAPI types for new struct delegation definition
@@ -1043,12 +1038,17 @@ edf602a17b03e6bca31c48f34ac8fc3341503ac1 Merge tag 'tty-6.19-rc1' of git://git.k
 f5e9d31e79c1ce8ba948ecac74d75e9c8d2f0c87 Merge tag 'usb-6.19-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/usb
 37bb2e7217b01404e2abf9d90d8e5705a5603b52 Merge tag 'staging-6.19-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/staging
 9e906a9dead17d81d6c2687f65e159231d0e3286 Merge tag 'perf-tools-for-v6.19-2025-12-06' of git://git.kernel.org/pub/scm/linux/kernel/git/perf/perf-tools
-0d88444aa962aa19c84f85ae07ce26786dd836d1 sched/deadline: Clear the defer params
-725a8b1dc4913f9cfe5c9562ea811e4f5bcc77d9 sched/debug: Fix updating of ppos on server write ops
-6e4db53fbea9d448d401a650612016e74b86debb sched/debug: Stop and start server based on if it was active
-84b87ec5873c6c3f35105654018779468db4af32 sched/debug: Add support to change sched_ext server params
-c3c87491bef71e4f106d006cfd31ff96f8eee176 sched_ext: Add a DL server for sched_ext tasks
-e355a02a73832f32c6ade221db1bdc4541364749 selftests/sched_ext: Add test for sched_ext dl_server
-bb7040ab1521f6e758d61dd525d44100ed7273fd selftests/sched_ext: Add test for DL server total_bw consistency
+bbbf7f32843b5788786cd8d91e9430823c2777c9 Merge tag '9p-for-6.19-rc1' of https://github.com/martinetd/linux
+67a454e6b1c604555c04501c77b7fedc5d98a779 Merge tag 'memblock-6.19-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/rppt/memblock
+0953508339b794724b46c6d07b3e0e0afd5a593d sched: Relocate sched_smt_present definition to core.c
+c4bf45f97f11167b1fbf56ddad790cfff1ae907d sched: Expose sd_llc_shared->has_idle_cores to other sched classes
+fcab3acd14d4ab41d98329e8a9050e8f645f6f6a sched_ext: idle: Reuse sd_llc_shared->has_idle_cores
+a7e4c01dfb392615b1012342b2ac6ed03f0f1073 sched/deadline: Clear the defer params
+31105ac7bac7e12f8ce122a2cf357d7e7534c426 sched/debug: Fix updating of ppos on server write ops
+1612e585a702fc48ae778b8457631f3d212ac11e sched/debug: Stop and start server based on if it was active
+f2365cf44ddeeea22aabb64e29747d0a2e735b1d sched/debug: Add support to change sched_ext server params
+91b314c2baf952baebd1ec551c3727ad3e2b0e83 sched_ext: Add a DL server for sched_ext tasks
+3557c9084ee169dfa145c2f63a5bec9aa4d35812 selftests/sched_ext: Add test for sched_ext dl_server
+7037fd4e244a29ae864cf21e332e11fad4a7bd80 selftests/sched_ext: Add test for DL server total_bw consistency
 
---===============4255441276717969965==--
+--===============8147967821366637987==--
