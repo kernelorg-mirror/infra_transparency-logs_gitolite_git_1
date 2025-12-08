@@ -1,29 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tj/wq
-Date: Mon, 08 Dec 2025 19:20:16 -0000
-Message-Id: <176522161629.3584527.14269892024417708169@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/joel.granados/linux
+Date: Mon, 08 Dec 2025 19:21:26 -0000
+Message-Id: <176522168616.3585528.14616470348139499098@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tj/wq
-user: tj
+repo: pub/scm/linux/kernel/git/joel.granados/linux
+user: joel.granados
 changes:
-  - ref: refs/heads/for-6.20
-    old: c2f2b01b74be8b40a2173372bcd770723f87e7b2
-    new: 51cd2d2decf365a248ddc304b7aa6f0cadc748c3
+  - ref: refs/heads/jag/no-macro-conv
+    old: 2728b6e9ae21d434fa0398d74843da3ae11235a3
+    new: d9bb4379560e2aae19be06d0bb0dc5e7e59a2d92
     log: |
-         fc5ff53d2aa088713870cd684b160ee95c018520 workqueue: Make send_mayday() take a PWQ argument directly
-         e5a30c303b07a4d6083e0f7f051b53add6d93c5d workqueue: Process rescuer work items one-by-one using a cursor
-         51cd2d2decf365a248ddc304b7aa6f0cadc748c3 workqueue: Process extra works in rescuer on memory pressure
-         
-  - ref: refs/heads/for-next
-    old: c2f2b01b74be8b40a2173372bcd770723f87e7b2
-    new: 51cd2d2decf365a248ddc304b7aa6f0cadc748c3
-    log: |
-         fc5ff53d2aa088713870cd684b160ee95c018520 workqueue: Make send_mayday() take a PWQ argument directly
-         e5a30c303b07a4d6083e0f7f051b53add6d93c5d workqueue: Process rescuer work items one-by-one using a cursor
-         51cd2d2decf365a248ddc304b7aa6f0cadc748c3 workqueue: Process extra works in rescuer on memory pressure
+         a7b66bc56989dbd6f989c5480a657af7c5300f75 sysctl: Add CONFIG_PROC_SYSCTL guards for converter macros
+         2e125838a8b64f84496828b9459765fbbff47915 sysctl: Replace macros with UINT converter functions
+         9feb4120f3806343016842f849e478f63ea9108e sysctl: Remove INT converter macros and add explicit functions
+         e8989ccb6d69c2e2e2e4fcad3138f53f5763caa1 sysctl: Remove SYSCTL_INT_CONV_CUSTOM macro and use explicit functions
+         d9bb4379560e2aae19be06d0bb0dc5e7e59a2d92 sysctl: Reorganize function declarations and add section comments
          
