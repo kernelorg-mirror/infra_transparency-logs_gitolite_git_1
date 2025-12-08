@@ -1,19 +1,27 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
-Date: Mon, 08 Dec 2025 18:48:23 -0000
-Message-Id: <176521970350.3553408.4433281188907927692@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tj/cgroup
+Date: Mon, 08 Dec 2025 19:04:11 -0000
+Message-Id: <176522065109.3567794.6037813378771872764@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ath/ath
-user: jjohnson
+repo: pub/scm/linux/kernel/git/tj/cgroup
+user: tj
 changes:
-  - ref: refs/heads/pending-ath12k-ng
-    old: a1e19289932aeef26085feb97597d624da6302ab
-    new: 927390c35fec6fa900be949a1fca431de9efabd2
+  - ref: refs/heads/for-6.20
+    old: 50133c09d189a26f4cc6e78e382864fd599a1dc4
+    new: 6ee43047e8ada63c4dfee01e2ea7e7eadfcda2ab
     log: |
-         927390c35fec6fa900be949a1fca431de9efabd2 wifi: ath12k: Skip DP peer creation for scan vdev
+         82d7e59ea707b55dc6c3ba3c56ded36742741bd4 cgroup: switch to css_is_online() helper
+         6ee43047e8ada63c4dfee01e2ea7e7eadfcda2ab cpuset: Remove unnecessary checks in rebuild_sched_domains_locked
+         
+  - ref: refs/heads/for-next
+    old: 50133c09d189a26f4cc6e78e382864fd599a1dc4
+    new: 6ee43047e8ada63c4dfee01e2ea7e7eadfcda2ab
+    log: |
+         82d7e59ea707b55dc6c3ba3c56ded36742741bd4 cgroup: switch to css_is_online() helper
+         6ee43047e8ada63c4dfee01e2ea7e7eadfcda2ab cpuset: Remove unnecessary checks in rebuild_sched_domains_locked
          
