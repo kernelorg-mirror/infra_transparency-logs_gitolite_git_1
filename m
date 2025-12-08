@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/lindholm/alpha
-Date: Mon, 08 Dec 2025 22:16:43 -0000
-Message-Id: <176523220379.3759086.10751547472380730064@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/andrea/synthmerge
+Date: Mon, 08 Dec 2025 22:26:59 -0000
+Message-Id: <176523281987.3768626.6769251252150647280@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/lindholm/alpha
-user: lindholm
+repo: pub/scm/linux/kernel/git/andrea/synthmerge
+user: andrea
 changes:
-  - ref: refs/heads/for-next
-    old: 3a8660878839faadb4f1a6dd72c3179c1df56787
-    new: 9aeed9041929812a10a6d693af050846942a1d16
+  - ref: refs/heads/main
+    old: 0a28cedb42e043d0022949bf1a8d7f4f2bb6098f
+    new: 8d008170d27c116f6235e3ece5adbca6e84bbe28
     log: |
-         3cec82b4fc6a1025d4b9cfb74fbca8a363bb5cbe alpha: Replace __ASSEMBLY__ with __ASSEMBLER__ in the alpha headers
-         9aeed9041929812a10a6d693af050846942a1d16 alpha: don't reference obsolete termio struct for TC* constants
+         76e836a45a423e6f79c1198496bffacf3d137550 Enhance configuration
+         8d008170d27c116f6235e3ece5adbca6e84bbe28 Fix config file loading to show meaningful errors
          
