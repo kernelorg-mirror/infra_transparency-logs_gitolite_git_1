@@ -1,57 +1,28 @@
-Content-Type: multipart/mixed; boundary="===============0623437519387726867=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/security/vulns
-Date: Mon, 08 Dec 2025 00:10:06 -0000
-Message-Id: <176515260663.2460672.7107866486262449291@gitolite.kernel.org>
-
---===============0623437519387726867==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/gfs2/linux-gfs2
+Date: Mon, 08 Dec 2025 00:37:56 -0000
+Message-Id: <176515427638.2484849.9305881399266896653@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/security/vulns
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/gfs2/linux-gfs2
+user: agruen
 changes:
-  - ref: refs/heads/master
-    old: 1083a1ef49cf1fec7e4aa5220f200f77073fb191
-    new: 5def67d887bf077666cc96b669f1df738e51d680
+  - ref: refs/heads/bio-cleanups
+    old: 3bdc278b1d67221328721ed9c4445a310b4964fa
+    new: 31c2a4a2af8fd1328a6179f976fa78f7b2038cef
     log: |
-         5cec2fabe958a44d8a3921a8118b41d42bef801e strip the new mbox file
-         5def67d887bf077666cc96b669f1df738e51d680 update cvelistV5
+         afb68e57e631124c4c50b17b4fa9df2d9aace6f7 bio: add bio_set_errno
+         0184c8b5630737ec8e24582dc89d36fec79ee764 bio: use bio_set_errno in more places
+         a08fda1d4aca2a5c4775d1e318ab4865bde78745 bio: add bio_set_status
+         d6363b363e1ad4b735304dc355a16517601d1a51 bio: don't check target->bi_status on error
+         38aa9ecf636c559f695782e0a2834886cc90dc64 bio: use bio_set_status for BLK_STS_* status codes
+         8726ceaa15dc1aa6cf984689cd0eff3f4003c1e3 bio: use bio_set_status in some more places
+         fbe60d34f8bf5254cb164293abc8c2505236b538 bio: switch to bio_set_status in submit_bio_noacct
+         f212f1f0bd2c1cd2aead463fa1bfba5bd68e459e bio: never set bi_status to BLK_STS_OK during completion
+         b365960d7ffe2131d282a5975df0c972b72364ae bio: add bio_endio_errno
+         31c2a4a2af8fd1328a6179f976fa78f7b2038cef bio: add bio_endio_status
          
-
---===============0623437519387726867==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1765152604 +0900
-pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
-nonce 1765152606-c3ef91e120ac3f4f8f3e393333d216e9de28d8c3
-
-1083a1ef49cf1fec7e4aa5220f200f77073fb191 5def67d887bf077666cc96b669f1df738e51d680 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmk2F1wbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+oQkP/1V9DKD8q3/scAc5+eUq
-zvGEvYLkrciF7NZ5Dpryk4F9OZM8y96tHNJ5Z8UVGpepMx99H15EI+MB/7xusTUy
-a3kjcZsbRZi93JwG7W+3CS6yI6UJzoboRDFbXZ/NajxGYlEB8p+UZLsFPK5AHG0Q
-fHdK/2eacrlHxofi8Me6Jmp7wL7ssnLRrVLUlUsViaNtVfxB1YNxFmvKvbHlh25m
-6uimKHitd8Mc+E/JbOHKUG6X8AHkXnt73rTzwiMqpWb1vAn8QTFcDFNf0cyEohvE
-p0YOFS9PJ3C881s6xogiVjkKORICXUEqf246O7ZphBTAyOu/6TcrzLN2H5xfqkKO
-AEAOfEtg8qsQtGhlrSHQPFwFWYQn1ef7Yql1R2P0qjtoTMAjlYkMEa5kILAusW68
-bPWZj7bd5oMU8yWOneNY5PP4i7fslrInAkC7n1MqvGinBIsMd2l+8GGVj7YfXM2F
-6Zzwh6yW8Auq8kQkq8q0MYkzvl50pe3uicNyfq29NPU9isOS6QfVLgcTQaFs7ZYb
-WCfxmki8XdZx/m8Y4kJDPZ7Bh8cEk1cM0OSxkbjK4oL2bt+4Pe/Hpn+YWxJbW4aD
-HId8wB533SS2DxfZ7Lkk+bPXtXDmgzuMWkaqThLo/ultPC6Z1E83Fi0UwnvwlR59
-K1lXoHaIwmeamnUzjORel4AP
-=AwGV
------END PGP SIGNATURE-----
-
---===============0623437519387726867==--
