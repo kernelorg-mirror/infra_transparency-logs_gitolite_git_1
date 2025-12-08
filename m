@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0548133561342013888=="
+Content-Type: multipart/mixed; boundary="===============9099217892547199952=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Mon, 08 Dec 2025 21:50:38 -0000
-Message-Id: <176523063863.3732575.10193991538029181352@gitolite.kernel.org>
+Date: Mon, 08 Dec 2025 21:50:43 -0000
+Message-Id: <176523064318.3732765.14159798166842597346@gitolite.kernel.org>
 
---===============0548133561342013888==
+--===============9099217892547199952==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/40GbE
+  - ref: refs/heads/100GbE
     old: 108f9405ce81085284c7ab09b84784b94b611435
     new: 0373d5c387f24de749cc22e694a14b3a7c7eb515
     log: revlist-108f9405ce81-0373d5c387f2.txt
 
---===============0548133561342013888==
+--===============9099217892547199952==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ dd75c723ef566f7f009c047f47e0eee95fe348ab r8169: fix RTL8117 Wake-on-Lan in DASH 
 a479a27f4da4d1f8a9b7540a800f80253ed1bad0 gve: Move gve_init_clock to after AQ CONFIGURE_DEVICE_RESOURCES call
 0373d5c387f24de749cc22e694a14b3a7c7eb515 bnxt_en: Fix XDP_TX path
 
---===============0548133561342013888==--
+--===============9099217892547199952==--
