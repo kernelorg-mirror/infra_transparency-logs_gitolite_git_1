@@ -1,28 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gfs2/linux-gfs2
-Date: Mon, 08 Dec 2025 00:37:56 -0000
-Message-Id: <176515427638.2484849.9305881399266896653@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============1562363989742130262=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/security/vulns
+Date: Mon, 08 Dec 2025 00:41:51 -0000
+Message-Id: <176515451185.2489269.9953022001786575755@gitolite.kernel.org>
+
+--===============1562363989742130262==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gfs2/linux-gfs2
-user: agruen
+repo: pub/scm/linux/security/vulns
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/bio-cleanups
-    old: 3bdc278b1d67221328721ed9c4445a310b4964fa
-    new: 31c2a4a2af8fd1328a6179f976fa78f7b2038cef
+  - ref: refs/heads/master
+    old: 5def67d887bf077666cc96b669f1df738e51d680
+    new: 3b64a3f770f5e35a0dfa297f2f49275f28d48573
     log: |
-         afb68e57e631124c4c50b17b4fa9df2d9aace6f7 bio: add bio_set_errno
-         0184c8b5630737ec8e24582dc89d36fec79ee764 bio: use bio_set_errno in more places
-         a08fda1d4aca2a5c4775d1e318ab4865bde78745 bio: add bio_set_status
-         d6363b363e1ad4b735304dc355a16517601d1a51 bio: don't check target->bi_status on error
-         38aa9ecf636c559f695782e0a2834886cc90dc64 bio: use bio_set_status for BLK_STS_* status codes
-         8726ceaa15dc1aa6cf984689cd0eff3f4003c1e3 bio: use bio_set_status in some more places
-         fbe60d34f8bf5254cb164293abc8c2505236b538 bio: switch to bio_set_status in submit_bio_noacct
-         f212f1f0bd2c1cd2aead463fa1bfba5bd68e459e bio: never set bi_status to BLK_STS_OK during completion
-         b365960d7ffe2131d282a5975df0c972b72364ae bio: add bio_endio_errno
-         31c2a4a2af8fd1328a6179f976fa78f7b2038cef bio: add bio_endio_status
+         3b64a3f770f5e35a0dfa297f2f49275f28d48573 first cut of 6.17.8 review from greg
          
+
+--===============1562363989742130262==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1765154508 +0900
+pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
+nonce 1765154508-71ef15fa1acf13fa5d5fb3ec62d0c262f33e53f4
+
+5def67d887bf077666cc96b669f1df738e51d680 3b64a3f770f5e35a0dfa297f2f49275f28d48573 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmk2HswbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+fXEP/jwQawLwuer3rHSZYCrU
+42g5MdSaL6upvkAoxtegiLTXLCKlkmSahrofEZlOJDByPueFKtwbqEPHhYI3+B/b
+CH4q3Zcs7CGJoWHE4ztyLw5Vnac7GQvdf69W7IsDJieOL8ps9gcdrZf2p1QwT9Ss
+xoO60oYZWARuJxvgp9F7CuMwJBrnjjucWgKRMR73wxyf74HECD0mtNFFHP38mYfN
+aKHb1wErGCaFgy0ZUA51ANvJNvT4h6vGr48ACCzjZ7GFFPkFYPpD2xCdPcLwtqP5
+g5AmVUXyTuA2x6SfI+H49FZSPV6HWLUNDd6XUXBVDG67zS9Rrx8SVS3+Lz1soLTd
+sPZi/fOhVrdzo7EaQPkzsmFOI6sn3VJAhYcxeMNxUZk/G3bT8oUM3FOPirAstxfV
+R+q7lxM0AF4VbZMlMLgcb4gLcZKNAuFBPBcnShPcr79sTd+53YXFSAP1YVj9FeeV
+1j6XAQ0tliZdurr+6u0uQaCZK+07ylvhTon+Mt/cYewsy2wjTZceK13nexpdRimE
+DZwLS20LemJjDmMPtpUCiTwA9P13ksFBlB9kkCkZ6KzjrOjb5qLun/sTFMqepArq
+JNcSiHg/s4HIHVJGPqkB2/Mdf9yt5lijc7Qn20yE0nREDCbN6kVo/fHsZmiMNljv
+/pgwrOBxGBwWIiNlNGmTHVMg
+=8iZl
+-----END PGP SIGNATURE-----
+
+--===============1562363989742130262==--
