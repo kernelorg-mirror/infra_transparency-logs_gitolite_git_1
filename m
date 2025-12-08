@@ -1,25 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gfs2/linux-gfs2
-Date: Mon, 08 Dec 2025 00:08:31 -0000
-Message-Id: <176515251165.2457122.14144924601100096802@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============1230473380364362174=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/security/vulns
+Date: Mon, 08 Dec 2025 00:09:39 -0000
+Message-Id: <176515257984.2457989.11875743873297535809@gitolite.kernel.org>
+
+--===============1230473380364362174==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gfs2/linux-gfs2
-user: agruen
+repo: pub/scm/linux/security/vulns
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/bio-cleanups
-    old: 88ee6c00589448466825a9c97e6c5d32e4d0fce8
-    new: 3bdc278b1d67221328721ed9c4445a310b4964fa
+  - ref: refs/heads/master
+    old: 75a08346e12233863a97f74433be03433277f5be
+    new: 1083a1ef49cf1fec7e4aa5220f200f77073fb191
     log: |
-         5ba6e8f12f7d63a2d07daf4227ad0197304c04f5 bio: don't check target->bi_status on error
-         bb1b316dd78c6b7898a19a3e7f65a0a4587cb7b0 bio: use bio_set_status for BLK_STS_* status codes
-         a6af6e2f8910177056fffa32017a276b787e38c5 bio: use bio_set_status in some more places
-         8dfc289cde50d060bf7fd8dd86292bdb97068456 bio: switch to bio_set_status in submit_bio_noacct
-         1e6943520b04962795009403cdf5c4ae55ea1d1f bio: never set bi_status to BLK_STS_OK during completion
-         f78500cb9ffc8dcbf9fdd8f72c5f55a6a53445f4 bio: add bio_endio_errno
-         3bdc278b1d67221328721ed9c4445a310b4964fa bio: add bio_endio_status
+         1083a1ef49cf1fec7e4aa5220f200f77073fb191 assign CVE-2025-40290 on request
          
+
+--===============1230473380364362174==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1765152574 +0900
+pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
+nonce 1765152576-a8d6328e809116607189ca35c3b82067e01151ff
+
+75a08346e12233863a97f74433be03433277f5be 1083a1ef49cf1fec7e4aa5220f200f77073fb191 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmk2Fz4bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+SToP/jRFLfw+5rYAYJKrPYnq
+2jozUAq6VMWjk5XQLbI4JLXSJCWINzCWzYRUSartg2ZygsBOJdEVdxcY2SweZhg9
+VtD0/Y5eA3z4POpFWQ1jJrajdSJPpsQxxirZmaiOgqueeomG1/ona/zSDflM9eVb
+pWS+CA4r28UooI+ptT5X2LGXTDeegGMg9b5LQM//VHieQXsmL0P1D8tZh3JroaMT
+z+4u8xeVzELL1/HXpvbfj4VllHeRn2S/rmpkvTRY0aT3aSY0hukym2SkKSGg0iwM
+kkGmuQyomde9XYuvBdqSGa/YM5V6l8hpBtr/Z9v9M/mvke99i0s6aDcG4QMfpl/3
+4CMt1qPhxlrLInJkiZCQn0EEGkh/C1YLo49pLMR6qxdt9WuQY3mFOHkgi8S2tUlN
+Pu35esRuBv1nCrx7VbN/Kogs8Tcw420GsMPa+Yf8/ysquhlQhCkt9kEu2dn5QUI6
+f+cXb+hVyU585VwVfyR+iPHAP6+h3NDLUtPqxW4L44lo4uzVj4EjDbHVFdkwQVi/
+qqdNxNkt7NsH0fs+gbNMJKSpY2m9KQcz0RJuevTD7YTayx09zvPVGw8TQFXsjeth
+Bss8mXyqN2ARFkJGvWFTdOdcz3qvUYHZK1WbcfVdrRaJvd3yuXuT6VbPHQDroBHe
+ljWNEuHgViumS61ZVs5+UO4U
+=egEH
+-----END PGP SIGNATURE-----
+
+--===============1230473380364362174==--
