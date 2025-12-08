@@ -1,25 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/lenb/linux
-Date: Mon, 08 Dec 2025 15:16:03 -0000
-Message-Id: <176520696399.3356388.2187860432971651263@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/s390/linux
+Date: Mon, 08 Dec 2025 15:24:41 -0000
+Message-Id: <176520748101.3363403.13333466727174954121@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/lenb/linux
-user: lenb
+repo: pub/scm/linux/kernel/git/s390/linux
+user: heiko
 changes:
-  - ref: refs/heads/next
-    old: 4813ef8c860a1651cee35d815168a6168426c342
-    new: 34aad5f39d3acde36957d5f79cc04ac067049c43
+  - ref: refs/heads/features
+    old: 2f393c228cc519ddf19b8c6c05bf15723241aa96
+    new: 70075e3d0ca0b72cc983d03f7cd9796e43492980
     log: |
-         34aad5f39d3acde36957d5f79cc04ac067049c43 tools/power turbostat: Harden against unexpected values
-         
-  - ref: refs/heads/turbostat
-    old: 4813ef8c860a1651cee35d815168a6168426c342
-    new: 34aad5f39d3acde36957d5f79cc04ac067049c43
-    log: |
-         34aad5f39d3acde36957d5f79cc04ac067049c43 tools/power turbostat: Harden against unexpected values
+         1a82d430c5f05d4bf15b86a9f0349e4a24ec485c s390/bug: Add missing CONFIG_BUG ifdef again
+         70075e3d0ca0b72cc983d03f7cd9796e43492980 s390/bug: Add missing alignment
          
