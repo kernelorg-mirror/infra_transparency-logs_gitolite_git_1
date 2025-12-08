@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/damon-hack
-Date: Mon, 08 Dec 2025 03:04:49 -0000
-Message-Id: <176516308911.2628162.10782974349153901508@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Mon, 08 Dec 2025 03:07:30 -0000
+Message-Id: <176516325039.2632066.14167285845015541699@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/damon-hack
-user: sj
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: sashal
 changes:
   - ref: refs/heads/master
-    old: 28c922ff73ad4bece0990023bb5e7fc4bb6b28e7
-    new: 172a2bf1b62c8fcb78017524b09707403cceb8ff
+    old: b9e80087f00b97e30935d82cfff5a2119882af53
+    new: d542631d7af00a5bfdcd2abcf1d2acb652bbffb8
     log: |
-         2fff104268ce2d34878209c27f8b759efa04b4c0 patches/next: per-cpus/threads/read/write monitoring: wordsmith for RFC v3
-         172a2bf1b62c8fcb78017524b09707403cceb8ff patches/next: per-cpus/threads/read/write monitoring: wordsmith commit message
+         d542631d7af00a5bfdcd2abcf1d2acb652bbffb8 Fixes for all trees
          
