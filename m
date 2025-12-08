@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5534565429753149201=="
+Content-Type: multipart/mixed; boundary="===============2585745961214244867=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/andi.shyti/linux
-Date: Mon, 08 Dec 2025 02:13:35 -0000
-Message-Id: <176516001538.2580691.1034442089523923047@gitolite.kernel.org>
+Date: Mon, 08 Dec 2025 02:13:38 -0000
+Message-Id: <176516001866.2580918.3960627242579222363@gitolite.kernel.org>
 
---===============5534565429753149201==
+--===============2585745961214244867==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/andi.shyti/linux
 user: andi.shyti
 changes:
-  - ref: refs/heads/i2c/i2c-host
+  - ref: refs/heads/i2c/i2c-host-next
     old: 362e391005a98827a2d98b63f1e9001dd592bc63
     new: 25faa5364638b86ec0d0edb4486daa9d40a0be8f
     log: revlist-362e391005a9-25faa5364638.txt
 
---===============5534565429753149201==
+--===============2585745961214244867==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -44,4 +44,4 @@ eeaaf5bc1c5b236e0445bbde6026f78d05722b3b dt-bindings: i2c: qcom-cci: Document Ka
 a6ee6aac66fb394b7f6e6187c73bdcd873f2d139 i2c: amd-mp2: fix reference leak in MP2 PCI device
 25faa5364638b86ec0d0edb4486daa9d40a0be8f i2c: spacemit: fix detect issue
 
---===============5534565429753149201==--
+--===============2585745961214244867==--
