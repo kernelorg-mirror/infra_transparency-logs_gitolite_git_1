@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3944960361355642100=="
+Content-Type: multipart/mixed; boundary="===============5077269683322051833=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs
-Date: Tue, 09 Dec 2025 16:58:22 -0000
-Message-Id: <176529950258.636450.8747619032871379260@gitolite.kernel.org>
+Date: Tue, 09 Dec 2025 16:58:41 -0000
+Message-Id: <176529952137.636783.3594843289443121472@gitolite.kernel.org>
 
---===============3944960361355642100==
+--===============5077269683322051833==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,19 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jaegeuk/f2fs
 user: jaegeuk
 changes:
-  - ref: refs/heads/dev
-    old: 76ee7fd6af6851ef78016139bd727057ba467c4e
-    new: cb015814f8b6eebcbb8e46e111d108892c5e6821
-    log: revlist-76ee7fd6af68-cb015814f8b6.txt
+  - ref: refs/heads/dev-test
+    old: 07ea7aa1d2b0525797ea0baf75abb9dcf9657ff3
+    new: f9aa424415bd686f2e4c07cc95c1416cc020fcdc
+    log: revlist-07ea7aa1d2b0-f9aa424415bd.txt
 
---===============3944960361355642100==
+--===============5077269683322051833==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-76ee7fd6af68-cb015814f8b6.txt
+Content-Disposition: attachment; filename=revlist-07ea7aa1d2b0-f9aa424415bd.txt
 
-6fb102291873c6d88b221c476589e65558e3f30c io_uring: convert io_create_mock_file() to FD_PREPARE()
-0512bf9701f339c8fee2cc82b6fc35f0a8f6be7a Merge patch series "file: FD_{ADD,PREPARE}()"
 e04aab96b3776634ab37ddce6d50a431126edec3 ASoC: fsl_micfil: Add default quality for different platforms
 ef1a7e02fdb7526e8d7c75e744f1f5b2acd7100b ASoC: fsl_micfil: Set channel range control
 af37511305c0da1d151cc9a1ee6077c2cbde4f1d firmware: cs_dsp: Don't require client to provide a struct cs_dsp_client_ops
@@ -1050,5 +1048,7 @@ b88b2f82fab45521cb32c0b737266d90a66a748f Merge tag 'hwmon-for-v6.19-take-2' of g
 4482ebb2970efa58173075c101426b2f3af40b41 Merge tag 'block-6.19-20251208' of git://git.kernel.org/pub/scm/linux/kernel/git/axboe/linux
 cfd4039213e7b5a828c5b78e1b5235cac91af53d Merge tag 'io_uring-6.19-20251208' of git://git.kernel.org/pub/scm/linux/kernel/git/axboe/linux
 cb015814f8b6eebcbb8e46e111d108892c5e6821 Merge tag 'f2fs-for-6.19-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/jaegeuk/f2fs
+62a61cdd7853b08a147b0050a067f396c096e49d f2fs: support large folio for immutable non-compressed case
+f9aa424415bd686f2e4c07cc95c1416cc020fcdc f2fs: add a tracepoint to see large folio read submission
 
---===============3944960361355642100==--
+--===============5077269683322051833==--
