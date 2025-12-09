@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2072519354168369574=="
+Content-Type: multipart/mixed; boundary="===============7057002752066300978=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mic/linux
-Date: Tue, 09 Dec 2025 11:03:02 -0000
-Message-Id: <176527818233.301614.8926252162925518389@gitolite.kernel.org>
+Date: Tue, 09 Dec 2025 11:03:48 -0000
+Message-Id: <176527822844.302153.10389784761409721983@gitolite.kernel.org>
 
---===============2072519354168369574==
+--===============7057002752066300978==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,20 +15,21 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/mic/linux
 user: mic
 changes:
-  - ref: refs/heads/master
-    old: e7c375b181600caf135cfd03eadbc45eb530f2cb
+  - ref: refs/heads/next
+    old: 54f9baf537b0a091adad860ec92e3e18e0a0754c
     new: eee654ca9a55fd1e8632afb119975cba6af7d4ad
-    log: revlist-e7c375b18160-eee654ca9a55.txt
-  - ref: refs/tags/v6.18
-    old: 0000000000000000000000000000000000000000
-    new: f7b88edb52c8dd01b7e576390d658ae6eef0e134
+    log: revlist-54f9baf537b0-eee654ca9a55.txt
 
---===============2072519354168369574==
+--===============7057002752066300978==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e7c375b18160-eee654ca9a55.txt
+Content-Disposition: attachment; filename=revlist-54f9baf537b0-eee654ca9a55.txt
 
+731ca4a4cc52fd5c5ae309edcfd2d7e54ece3321 vdpa/pds: use %pe for ERR_PTR() in event handler registration
+a8980af1bf3e5bb7bbefa25db43b2ef4c00c229a virtio_balloon: add WQ_PERCPU to alloc_workqueue users
+2828c60b24375a1ddb987a9fa8bff3cf65528a19 vduse: add WQ_PERCPU to alloc_workqueue users
+9513f25056b22100ddffe24898c587873b0d022c virtio: clean up features qword/dword terms
 350a840110286a9ce5b33923bffd4a48e69fe65b vhost/test: add test specific macro for features
 7b78b26757e0d997b31635d76eaa46d5ef5e1431 gpio: shared: handle the reset-gpios corner case
 59bfa6408214b6533d8691715cf5459e89b45b89 objtool: Build with disassembly can fail when including bdf.h
@@ -353,10 +354,6 @@ a23b10608d420346e5af7eda6c46726a61572469 vfio/nvgrace-gpu: wait for the GPU mem 
 24a84ea4eef6ec6245e1efdc64764d60d17321bb Merge tag 'mailbox-fixes-v6.18-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/jassibrar/mailbox
 5d324e5159d9e6a1e6678007ce3f24e569650db6 Merge tag 'usb-6.18-rc8' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/usb
 dabf127d641e43d5fbb72a1f48209818349db7ef Merge tag 'tty-6.18-rc8' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/tty
-49c9e09d961025b22e61ef9ad56aa1c21b6ce2f1 landlock: Fix handling of disconnected directories
-f7ef7de6b9bcec1314af2cdcfd0c952eadd6a779 landlock: Improve variable scope
-a18ee3f31fd714173a62515d049d77e76ab55649 selftests/landlock: Add tests for access through disconnected paths
-54f9baf537b0a091adad860ec92e3e18e0a0754c selftests/landlock: Add disconnected leafs and branch test suites
 6cf62f0174de64e4161e301bb0ed52e198ce25dc Merge tag 'char-misc-6.18-rc8' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/char-misc
 a63a03afd857e5ef968b01ec99b186087979a348 Merge tag 'vfio-v6.18-rc6' into v6.19/vfio/next
 7fa0d7744c28267142287a75134de58790999e72 Merge tag 'soc-fixes-6.18-4' of git://git.kernel.org/pub/scm/linux/kernel/git/soc/soc
@@ -1054,4 +1051,4 @@ a7405aa92feec2598cedc1b6c651beb1848240fe Merge tag 'dma-mapping-6.19-2025-12-05'
 10003ff8ce7273d1fe045d63d1a5c9d979e3d47e Merge tag 'turbostat-v2025.12.02' of git://git.kernel.org/pub/scm/linux/kernel/git/lenb/linux
 eee654ca9a55fd1e8632afb119975cba6af7d4ad Merge tag 'landlock-6.19-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/mic/linux
 
---===============2072519354168369574==--
+--===============7057002752066300978==--
