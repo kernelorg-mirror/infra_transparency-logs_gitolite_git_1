@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2064326571772252536=="
+Content-Type: multipart/mixed; boundary="===============1931843322992379464=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ebiggers/linux
-Date: Tue, 09 Dec 2025 23:10:41 -0000
-Message-Id: <176532184161.988412.2992316286863196858@gitolite.kernel.org>
+Date: Tue, 09 Dec 2025 23:12:21 -0000
+Message-Id: <176532194141.989595.9781793842314114869@gitolite.kernel.org>
 
---===============2064326571772252536==
+--===============1931843322992379464==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ebiggers/linux
 user: ebiggers
 changes:
-  - ref: refs/heads/libcrypto-fixes
-    old: 9af6845ab99a8f65c8855668443fde090be013fb
-    new: 6f7d9481920e1bc06ff21c1e6a84fdea49c6ec3d
-    log: revlist-9af6845ab99a-6f7d9481920e.txt
+  - ref: refs/heads/libcrypto-pending
+    old: 9db8efe00bceecc1ebaad0dd7372b33d17907607
+    new: 83e9a2c5f31960f4e2e13fdd6484fed8ff65f294
+    log: revlist-9db8efe00bce-83e9a2c5f319.txt
 
---===============2064326571772252536==
+--===============1931843322992379464==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9af6845ab99a-6f7d9481920e.txt
+Content-Disposition: attachment; filename=revlist-9db8efe00bce-83e9a2c5f319.txt
 
 e462fc48ceb8224811c3224650afed05cb7f0872 f2fs: maintain one time GC mode is enabled during whole zoned GC cycle
 81464df36094340395cadc9235e24eb4defa8c43 f2fs: set default valid_thresh_ratio to 80 for zoned devices
@@ -165,5 +165,7 @@ c752c21c90b808a059ae8e0070ff7566a65f8577 Merge tag 'auto-type-conversion-for-v6.
 68b233b1d583f7d869fbb3afe2b0531138e001f7 lib/crypto: blake2s: Replace manual unrolling with unrolled_full
 a9a8b1a383254c9f4ed7fe23b56937f8ad3ad3ab crypto/arm64: aes/xts - Use single ksimd scope to reduce stack bloat
 6f7d9481920e1bc06ff21c1e6a84fdea49c6ec3d crypto/arm64: sm4/xts - Merge ksimd scopes to reduce stack bloat
+32bbe2120da3248c617fd1200f8bb81dbe7c3cd9 lib/crypto: Add ML-DSA verification support
+83e9a2c5f31960f4e2e13fdd6484fed8ff65f294 lib/crypto: tests: Add KUnit tests for ML-DSA verification
 
---===============2064326571772252536==--
+--===============1931843322992379464==--
