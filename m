@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3424355759194048341=="
+Content-Type: multipart/mixed; boundary="===============3035108261586912394=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Tue, 09 Dec 2025 03:18:21 -0000
-Message-Id: <176525030199.4051312.12196518069522615780@gitolite.kernel.org>
+Date: Tue, 09 Dec 2025 03:18:26 -0000
+Message-Id: <176525030645.4051570.18377223732267531093@gitolite.kernel.org>
 
---===============3424355759194048341==
+--===============3035108261586912394==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,45 +16,45 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-queue
-    old: bef30777f7dff3327e3d66dcf2867fab465254b2
-    new: 5e0c4580a62b33a4d2e8ecb189cd6ba578cfef66
-    log: revlist-bef30777f7df-5e0c4580a62b.txt
+  - ref: refs/heads/6.19/scsi-queue
+    old: 82f78acd5a9270370ef4aa3f032ede25f3dc91ee
+    new: 278712d20bc8ec29d1ad6ef9bdae9000ef2c220c
+    log: revlist-82f78acd5a92-278712d20bc8.txt
 
---===============3424355759194048341==
+--===============3035108261586912394==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1765250281 -0500
+pusher 75C5DE3D 1765250304 -0500
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1765250280-47b79381510118ef55e2569a85938ae90cbf46ae
+nonce 1765250304-63fbaa6098750d174bd5078747ac8a648a573a7f
 
-bef30777f7dff3327e3d66dcf2867fab465254b2 5e0c4580a62b33a4d2e8ecb189cd6ba578cfef66 refs/tags/mkp-scsi-queue
+82f78acd5a9270370ef4aa3f032ede25f3dc91ee 278712d20bc8ec29d1ad6ef9bdae9000ef2c220c refs/heads/6.19/scsi-queue
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmk3lOkACgkQ7ulgGnXF
-3j2eEA/+MdWW9gD4JwFH3AjQi+wMcgg6cw1tg5a3gGcGZL+xwimapGXSIuoKCsKH
-j9QgDtkcY0Tm107khDLUmE+5C9nwg2jLxSWNFZA2zhF6yh9swEEy9xODD10B8NYj
-Yv7n6+EvsC6vJ+P+EAubg7TVQYWhZNd9r7iPG6IM/3FGdAR3hNwns3Mp+uGPu2p1
-Ix14o7X1U5RR9X/alA+2jHkXjMjht3b4olYQzrieu2te1P1gZR4lNFmxJDgA/s9m
-SjbaoOkX+gHJ76trnxDpwchp3tfWHM79FLzLtWNnqE+jmg9sAmBpzrhvDennADHD
-dNlv/6L9TrgfaLaOjIWxsTUyao2ZR9VT3N3JBvUU6udrNy/hkeyD6G0ejP62Kib6
-e8+ul1oWCKcj/hzHL3RTxpFPzs+sZ8fUmtQWYMoet7PUD6PZ8gvLoHfS5sWrftLp
-EjX3PBVPdwhULjYkmnK/8UHxQg4XKQDIsBf7UQoOussjwYDT7uqBHzg0Q5QfroDD
-7KUhhrFEc0DBYa7EWsEaL60TmRINviOl3hO4ZQY86O2dTiVKIU7EhnLaV7fJRnzt
-LSpAizxihAe2aOr3RL2XaiVLVUcCi/UoASrqfVt/UU3UVXDeqXEJbV3boFej1ZAb
-AbiTqmPLOcK/JgLrYgzMneU1eQskpkTPtLIGQewsBcY5jZ6VyJc=
-=y8W3
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmk3lQAACgkQ7ulgGnXF
+3j2o7w//Qd/Ng2a6MYMQ3rhScDo4kHveEPP0KL9zooSn09WPqqqpy3Ssz+DbBkAe
+2Wgw9QdKw5EHUsL5rRZ9IvJQm2OClslKuYnaJYfUWCuWZNvO7oXfuommkDpAvjkG
+d4Is+x0gm0JVJp70l/lEAv2VZbwe70+fVmyLFIUIr72BmvDBQxcrE2Vcx9+lsY9x
+BusucuP2JfVpuC699g7NrrQl4FwtUAyJdPnJ0TmIdPKywwx3HlWzJEIuSDiJBorA
+3slLbjekAbQ8/52i4V7M3Cy5OQRqtuChTDR1EKHSKdxZTtNjA8C/xgY8T03Rvs1R
+jw0K+i5CGvq3YeLCyBITCNXpyCI3LOxR3ZGMWeKi3G85w7Pa+mf8o33FPXhW/tXH
+9OGqFHziyzXtVZmuB2wJydGAOFegcebHxSxYRuYoUg4jc7FtlmVfq7VXxi+SR2/K
+UliK3O5x1s2Wu9KA6Fn8VbStVN9rLHtQM7qBTjkElBuzjd/d8ZjgBHm7Z+4mYq5+
+7zKNO0sIapB4AJu58eUzHSkBdgwIpN/JbkOiFv/3u+XL3GQk6XEcqAO3bgtW31P+
+AeBhs+gSuRWhL+BCASPlkz03v/t6njQS1jCKHlEikaSVAo9CeIcf8AkzuV+Zx2eI
+1RX++B3uO5tAs1kxMHMfrtlVeMp0PfJ9EXr1Vf7Z/p56KG9vjac=
+=Ja+I
 -----END PGP SIGNATURE-----
 
---===============3424355759194048341==
+--===============3035108261586912394==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-bef30777f7df-5e0c4580a62b.txt
+Content-Disposition: attachment; filename=revlist-82f78acd5a92-278712d20bc8.txt
 
 b4bb6daf4ac4d4560044ecdd81e93aa2f6acbb06 scsi: ufs: core: Fix EH failure after W-LUN resume error
 5053eab38a4c4543522d0c320c639c56a8b59908 scsi: target: Reset t_task_cdb pointer in error case
@@ -68,4 +68,4 @@ eaea513077cde23f70d4414288839eb26632ef36 scsi: qla2xxx: Enable/disable IRQD_NO_B
 d98b4d52bff02d15ea73b1790d7610a2f4f023ab scsi: ufs: core: Fix RPMB link error by reversing Kconfig dependencies
 278712d20bc8ec29d1ad6ef9bdae9000ef2c220c scsi: Revert "scsi: libsas: Fix exp-attached device scan after probe failure scanned in again after probe failed"
 
---===============3424355759194048341==--
+--===============3035108261586912394==--
