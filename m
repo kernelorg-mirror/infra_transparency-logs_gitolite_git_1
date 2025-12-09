@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1005972577458647559=="
+Content-Type: multipart/mixed; boundary="===============0095023306477204407=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Tue, 09 Dec 2025 05:06:37 -0000
-Message-Id: <176525679771.4159022.18200116513108211048@gitolite.kernel.org>
+Date: Tue, 09 Dec 2025 05:06:39 -0000
+Message-Id: <176525679949.4159158.17855900922683465498@gitolite.kernel.org>
 
---===============1005972577458647559==
+--===============0095023306477204407==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/mm-new
-    old: d7b5db1b2f22194fcc3de56b717e02490bb256f6
-    new: cd5dc0cacb70dac396d6ce08c1710d0850a8310d
-    log: revlist-d7b5db1b2f22-cd5dc0cacb70.txt
+  - ref: refs/heads/mm-unstable
+    old: ecc46e02e0abe025a6e840cba2d647f23fd1d721
+    new: 1bb9335bdaf8e0bfa67bc22ee7ecfb49d77a5292
+    log: revlist-ecc46e02e0ab-1bb9335bdaf8.txt
 
---===============1005972577458647559==
+--===============0095023306477204407==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d7b5db1b2f22-cd5dc0cacb70.txt
+Content-Disposition: attachment; filename=revlist-ecc46e02e0ab-1bb9335bdaf8.txt
 
 dde09c9e8da5d13d35737cf197a820ead043b162 MAINTAINERS: add Mike Rapoport as maintainer for userfaultfd
 08f4071813236a9a61a1a3368ccf902b07203e61 genalloc.h: fix htmldocs warning
@@ -58,6 +58,5 @@ ef0a45e0bb9a576d7b109b2547de11c8364cd7d6 mm/hugetlb: fix two comments related to
 ef8ae3fc3a508bb8252e037a804c2d672e132883 mm/rmap: fix two comments related to huge_pmd_unshare()
 0e1ad0324aabb5aef3ef409de9a395cda7ee6098 mm/hugetlb: fix excessive IPI broadcasts when unsharing PMD tables using mmu_gather
 1bb9335bdaf8e0bfa67bc22ee7ecfb49d77a5292 mm: avoid use of BIT() macro for initialising VMA flags
-cd5dc0cacb70dac396d6ce08c1710d0850a8310d mm/damon/core: fix memory leak of repeat mode damon_call_control objects
 
---===============1005972577458647559==--
+--===============0095023306477204407==--
