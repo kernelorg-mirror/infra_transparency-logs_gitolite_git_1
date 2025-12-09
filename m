@@ -1,20 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/liburing
-Date: Tue, 09 Dec 2025 17:14:43 -0000
-Message-Id: <176530048394.651045.4853538435999197923@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux
+Date: Tue, 09 Dec 2025 17:21:11 -0000
+Message-Id: <176530087192.659187.4402710902182185059@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/liburing
+repo: pub/scm/linux/kernel/git/axboe/linux
 user: axboe
 changes:
-  - ref: refs/heads/master
-    old: ee1825c02025b28536f4c0ab1c34e8746a8d04fd
-    new: 21a2fcc77e42bc8919c643a97c321d521879395b
+  - ref: refs/heads/block-6.19
+    old: 0f45353dd48037af61f70df3468d25ca46afe909
+    new: db339b4067eccb7fa3d9787d5d3ab5d466fd9efa
     log: |
-         2d5e086f8ae4866d70b15adb8b248029e668f9df The io_uring.7 manpage has an example that uses the "errno" variable. This variable is not known and leads to a compiler error, due to a missing #include <errno.h>. Add it to get the example compiled.
-         21a2fcc77e42bc8919c643a97c321d521879395b Merge branch 'master' of https://github.com/huberteff/liburing
+         87213b0d847cd300285b5545598e0548baeb5208 ublk: allow non-blocking ctrl cmds in IO_URING_F_NONBLOCK issue
+         53280e398471f0bddbb17b798a63d41264651325 bcache: fix improper use of bi_end_io
+         cfdeb588ae1dff5d52da37d2797d0203e8605480 block: prohibit calls to bio_chain_endio
+         db339b4067eccb7fa3d9787d5d3ab5d466fd9efa ublk: don't mutate struct bio_vec in iteration
          
