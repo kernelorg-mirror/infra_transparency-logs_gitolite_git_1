@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4757068918312489177=="
+Content-Type: multipart/mixed; boundary="===============8463681245878413023=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Tue, 09 Dec 2025 08:19:57 -0000
-Message-Id: <176526839725.142448.8176079204109744088@gitolite.kernel.org>
+Date: Tue, 09 Dec 2025 08:20:57 -0000
+Message-Id: <176526845794.145622.5582914772001858483@gitolite.kernel.org>
 
---===============4757068918312489177==
+--===============8463681245878413023==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,15 +16,23 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: 5e8f8a25efb277ac6f61f553f0c533ff1402bd7c
-    new: 03a1ca7eb99f8005ab86dfea1e80add1f700640b
-    log: revlist-5e8f8a25efb2-03a1ca7eb99f.txt
+    old: 03a1ca7eb99f8005ab86dfea1e80add1f700640b
+    new: 97a272750d85f877451b7b9da4199c9a621e04e6
+    log: |
+         94febdf0830c3f90ce35ca80f6c1b157f0b9c73f Merge branch into tip/master: 'perf/urgent'
+         d5466687f22ddbc1e8e5c3f03958bc3b7c4b087a Merge branch into tip/master: 'locking/futex'
+         97a272750d85f877451b7b9da4199c9a621e04e6 Merge branch into tip/master: 'x86/boot'
+         
+  - ref: refs/heads/tip/urgent
+    old: 7f6bf3ad36e6d80764388f3de5ee6c43e9df7365
+    new: 94febdf0830c3f90ce35ca80f6c1b157f0b9c73f
+    log: revlist-7f6bf3ad36e6-94febdf0830c.txt
 
---===============4757068918312489177==
+--===============8463681245878413023==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5e8f8a25efb2-03a1ca7eb99f.txt
+Content-Disposition: attachment; filename=revlist-7f6bf3ad36e6-94febdf0830c.txt
 
 030feea3097c41ed268c81240e5c334d9977b1c4 netfilter: flowtable: remove hw_ifidx
 a0d98b641d676e9fc5c458b14aee8ee874dd7298 netfilter: flowtable: use tuple address to calculate next hop
@@ -1049,6 +1057,6 @@ b88b2f82fab45521cb32c0b737266d90a66a748f Merge tag 'hwmon-for-v6.19-take-2' of g
 4482ebb2970efa58173075c101426b2f3af40b41 Merge tag 'block-6.19-20251208' of git://git.kernel.org/pub/scm/linux/kernel/git/axboe/linux
 cfd4039213e7b5a828c5b78e1b5235cac91af53d Merge tag 'io_uring-6.19-20251208' of git://git.kernel.org/pub/scm/linux/kernel/git/axboe/linux
 cb015814f8b6eebcbb8e46e111d108892c5e6821 Merge tag 'f2fs-for-6.19-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/jaegeuk/f2fs
-03a1ca7eb99f8005ab86dfea1e80add1f700640b Merge branch 'linus'
+94febdf0830c3f90ce35ca80f6c1b157f0b9c73f Merge branch into tip/master: 'perf/urgent'
 
---===============4757068918312489177==--
+--===============8463681245878413023==--
