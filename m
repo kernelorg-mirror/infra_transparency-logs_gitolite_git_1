@@ -1,26 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux
-Date: Tue, 09 Dec 2025 17:25:14 -0000
-Message-Id: <176530111442.663704.4600128455532155616@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+Date: Tue, 09 Dec 2025 18:18:27 -0000
+Message-Id: <176530430716.710027.276223396298462033@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux
-user: axboe
+repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+user: jarkko
 changes:
-  - ref: refs/heads/block-6.19
-    old: db339b4067eccb7fa3d9787d5d3ab5d466fd9efa
-    new: 59e25ef2b413c72da6686d431e7759302cfccafa
+  - ref: refs/heads/queue
+    old: fa3db43ed3a7aa54d63308e6815ed3f4bd2b09f5
+    new: e35ba087444183056396c50b29f1230841268952
     log: |
-         59e25ef2b413c72da6686d431e7759302cfccafa block: Use RCU in blk_mq_[un]quiesce_tagset() instead of set->tag_list_lock
-         
-  - ref: refs/heads/for-next
-    old: 1bb52354f09c0f842a610719771a0efbfeb8a622
-    new: 9696ec58038b675fcd755c48b74eab1cce0e2422
-    log: |
-         59e25ef2b413c72da6686d431e7759302cfccafa block: Use RCU in blk_mq_[un]quiesce_tagset() instead of set->tag_list_lock
-         9696ec58038b675fcd755c48b74eab1cce0e2422 Merge branch 'block-6.19' into for-next
+         e35ba087444183056396c50b29f1230841268952 tpm: WiP for hwrng
          
