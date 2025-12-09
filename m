@@ -1,176 +1,136 @@
-Content-Type: multipart/mixed; boundary="===============6515570905371191514=="
+Content-Type: multipart/mixed; boundary="===============7414776342685880441=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/security/vulns
-Date: Tue, 09 Dec 2025 21:45:46 -0000
-Message-Id: <176531674600.907400.14545954289495983500@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
+Date: Tue, 09 Dec 2025 21:49:43 -0000
+Message-Id: <176531698374.909555.12371147239629792919@gitolite.kernel.org>
 
---===============6515570905371191514==
+--===============7414776342685880441==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/security/vulns
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/sj/linux
+user: sj
 changes:
-  - ref: refs/heads/master
-    old: f219d72f0d7d01c212df48a0e8a5893d2513d64d
-    new: 45bb28f0803eef1807f6fc3c610659ee5b73c6e7
-    log: revlist-f219d72f0d7d-45bb28f0803e.txt
+  - ref: refs/heads/damon/next
+    old: dd442999e39c260af83eb62eb0543d5253760b96
+    new: ebe7e5d8bb90ef455774b383bf833e41f6fcab93
+    log: revlist-dd442999e39c-ebe7e5d8bb90.txt
 
---===============6515570905371191514==
+--===============7414776342685880441==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-dd442999e39c-ebe7e5d8bb90.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1765316741 +0900
-pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
-nonce 1765316741-b885bb3e6fd9a01a245c5a47892b83fe36a7a577
+471c008db10aaa9617e11ae3482682474c5e113b mm/damon/vaddr: fix missing pte_unmap_unlock in damos_va_migrate_pmd_entry()
+a263f2c555c600d219c29b90ec10d5ebb2550846 ==== misc cleanup ====
+4206a176f4722b8b73cfc0bc18107df0321db44b === hacks in progress ===
+54b9dd00e6eaa58d6b318a0498cc9f4de8fe14e5 ==== damos_stat nr_snapshots, max_nr_snapshots, tracepoint ====
+b46b1ca742f856ace18782d131ab74db8fd301b5 mm/damon/core: introduce nr_snapshots damos stat
+d3d91f5758d6973677bb9c892eb4b0286546d55c mm/damon/sysfs-schemes: introduce nr_snapshots damos stat file
+4f4939a0fe95116e16688713400201a15057c77e Docs/mm/damon/design: update for nr_snapshots damos stat
+2f5c0bb7a64426db776831256c174d8c9b8aff3f Docs/admin-guide/mm/damon/usage: update for nr_snapshots damos stat
+b761cd3769e9e77df8c1e5c8c885e5832595da8b Docs/ABI/damon: update for nr_snapshots damos stat
+ae6931df89e4c61ed63e2d0c0e0e59e31de7fdf2 mm/damon: update damos kerneldoc for stat field
+03bf9272d0778760f2b3d67ba938b8b0442c4910 mm/damon/core: implement max_nr_snapshots
+d82983b2a33024e61b4ef25b4a1e3ea528bc429a mm/damon/sysfs-schemes: implement max_nr_snapshots file
+25380e282d39b8a87cb45bb2b586b49b37ad2564 Docs/mm/damon/design: update for max_nr_snapshots
+93ed1f000b9b554e85d766609353abe3234b9be8 Docs/admin-guide/mm/damon/usage: update for max_nr_snapshots
+74cbeb09fe6db737e6f81f3516aec5fcdf6d6178 Docs/ABI/damon: update for max_nr_snapshots
+aead9406be48c5e61e5aac28665a99d7562b974c mm/damon/core: add trace point for damos stat per apply interval
+c0e5e879bb57cabab3006dd3c233efbcd9a06752 ==== fault/report-based monitoring for per-cpu and write ====
+99a3cc9c54645a693ee10cb6bd5c864bf8736f72 mm/damon/core: implement damon_report_access()
+d1c8e14db5ee14e739952f2fe2bbd58ef5e32a8a mm/damon: define struct damon_sample_control
+b7abc1ae3fed023050571b489cc6d926d5b165e9 mm/damon/core: commit damon_sample_control
+6973e99b94e159a7bb47aae6015b126fae7f71eb mm/damon/core: implement damon_report_page_fault()
+d732fe0c7eb679b59eab2a02e3a6e0907a3a0800 mm/{mprotect,memory}: (no upstream-aimed hack) implement MM_CP_DAMON
+25f2f805f23e412b77bdf5eb1646e69c2f8d74a9 mm/damon/paddr: support page fault access check primitive
+41dcd5a48dee1a714bf7552acdd23746ac9fe4af mm/damon/core: apply access reports to high level snapshot
+cac91994ccfa46e35f5f2b4aa17cada3087db9aa mm/damon/sysfs: implement monitoring_attrs/sample/ dir
+0ef506fd47b978173de3d0bc7f62f281fbf60cf9 mm/damon/sysfs: implement sample/primitives/ dir
+c0b9b97e617f910c7d81783d1c68872a3438c5c5 mm/damon/sysfs: connect primitives directory with core
+8591ddeb780431bfb1579f812fe8e423cdd920f9 Docs/mm/damon/design: document page fault sampling primitive
+e596b8893c00d810c66073c4cfe43ca865e39674 Docs/admin-guide/mm/damon/usage: document sample primitives dir
+6f6dcba1ab04872a535b19c54f81e15cedfb2776 mm/damon: extend damon_access_report for origin CPU reporting
+6b515d8f7e6cb748f5a6c85bcf7520efa9cc250f mm/damon/core: report access origin cpu of page faults
+43ec6f40235e550902b3f76a5ac211f33a555c14 mm/damon: implement sample filter data structure for cpus-only monitoring
+7b55457d471dfdf3a2c6dcf3770ecc1bf49a518e mm/damon/core: implement damon_sample_filter manipulations
+069be9de0df56181c5fc7c8a9b1be453f6a306b1 mm/damon/core: commit damon_sample_filters
+418200211a445600650bdaf701777e99b98fb339 mm/damon/core: apply sample filter to access reports
+9bebf7164a2a31584f9cbd7ec76cbefacb9a073d mm/damon/sysfs: implement sample/filters/ directory
+bfabe99db042c200765f0e4f7095d6ba2201baa8 mm/damon/sysfs: implement sample filter directory
+0b5748ff596db3ef319381321cfa0217dfa2c15f mm/damon/sysfs: implement type, matching, allow files under sample filter dir
+ccc3380f5cee440f0da919488ea6d34b810374f7 mm/damon/sysfs: implement cpumask file under sample filter dir
+7cef3b391fc54169e348a0aa893aeb85a478ae68 mm/damon/sysfs: connect sample filters with core layer
+116b93512ffd2c3884be818dc32ef939f535e5ab Docs/mm/damon/design: document sample filters
+0ae3dd99773c415e24dd668bb6d2a6a73fa5fdce Docs/admin-guide/mm/damon/usage: document sample filters dir
+742238bb52dfac1f3497ea2bfa1427b9e863f369 mm/damon: extend damon_access_report for access-origin thread info
+a01cfe97cecfad07729479dccb5aee645853058f mm/damon/core: report access-generated thread id of the fault event
+aa0a6bb2adc24e6d9eb086de8304638018858ca3 mm/damon: extend damon_sample_filter for threads
+d8361d2a2c98716450371b5ec6f0b4e7f0869c60 mm/damon/core: support threads type sample filter
+cab74f6e02c42530cc978c63e8aea206fe4adfef mm/damon/sysfs: support thread based access sample filtering
+f72677cb72724627038d32ce35390352868b3161 Docs/mm/damon/design: document threads type sample filter
+236cdbaf93023cf36f8a6308d3494eb4e7b65e36 Docs/admin-guide/mm/damon/usage: document tids_arr file
+f8ae26608422d4f404c15e989e7bdda2006bf7ae mm/damon: support reporting write access
+687baa699f7e6e9acacd3f49c14c8a06556f31ed mm/damon/core: report whether the page fault was for writing
+f81fecac61562c0f90a19c30581074b3e38c69e1 mm/damon/core: support write access sample filter
+2b89626b39763c1b8e16c6e5e76a62b3327fd254 mm/damon/sysfs: support write-type access sample filter
+b8f83f05c9d6d2e2107588ae5d70263ea7b83227 Docs/mm/damon/design: document write access sample filter type
+71235f42f30ca99477811aba21e2232841f3254b ===== fault-based vaddr monitoring =====
+679985fb27c625109fd541d70a4399e289072c04 mm/damon: rename damon_access_report->addr to ->paddr
+a74dce99026b3760bfb2f3bbc10b6fd47e391225 mm/damon: extend damon_access_report for virtual address
+8d6f9cba4646fc0f31ce0eea4b269494a21c421c mm/damon/core: set damon_access_report->vaddr from page fault report
+3cb1ed96d56119afacba32ee5db0ebedcbd76f80 mm/damon/core: support vaddr reports
+b7c6ed0c4f8f3fa976f5b8e3f30233d9bb9eefc0 ==== docs for DAMON and mm ====
+693cf1795f05ddc6dd3b652ce369596e3df38348 Docs/mm/damon/design: add table of contents for overall and DAMOS
+86b41431ef318fa0010b2bb3c1e7811b4750e25b Docs/process/2.Process: Update mm tree URL
+9a3d99c9052b16c6c0678303ed079f94976fdb39 Docs/mm/damon/design: add API link to damon_ctx
+379d549a4571c6d52421bbf1df2d3c632f8c5631 ==== ACMA ====
+b2c1cb234afa2987438b433ac3d0d8849ce54b74 mm/damon: implement DAMOS actions for access-aware contiguous memory allocation
+38d8fa18d5544cdceda67091b05a4a63af0aee2c mm/damon: add the initial part of access/contiguity-aware memory auto-scaling module
+70f5f49618ec21d67572a0ee8b14ace322ece0ce mm/page_reporting: implement a function for reporting specific pfn range
+fb9ffe5492058e9a4d60170a2e5e392de7d5a2d1 mm/damon/acma: implement scale down feature
+34251dac2838586a67bd2ec20a70b7eb102495ef mm/damon/acma: implement scale up feature
+80a0d3f7eb0ef563316c8881c298e740620f3d95 drivers/virtio/virtio_balloon: integrate ACMA and ballooning
+75622b9e374e2593d9447e5ae3f0d6c08741f337 === commits aiming not to be posted ===
+efb5b877f373db6b3e3cfc82fe147d9375508051 mm/damon: Add debug code
+360e8b63a8e5046e1c239de065e7f48923740202 mm/damon/core: add debugging log for intervals auto-tuning
+ef1373209cedf8d08a9e5474e7fce5b451f832db mm/damon/core: add debugging log for wrong moving sum nr_accesses update
+83e0c4b5ea159dda40753e84efc12f68fe59fff5 mm/damon/sysfs: Add a file for simple checking memcg ids and paths
+861daea4050d7753b4bde91393aefda7c28eeed8 mm/damon/core: add todo for DAMOS interval validation
+351a368f93dcbb93b826c14b4454065b29b00da2 mm/damon/core: add debugging-purpose log of tuned esz
+956a1383dec5b790d2f72015b4100a259ba266f6 Add debug log for PSI
+125d405d95a8087ec40992629e957243360c367c mm/damon/core: add debug log for reset_regions()
+f34b4179cb1771c28ee91fc3fc2a8247f06ce82b ==== lru_sort advancing ====
+bc70b269a1bb8667f0619551d6469f9782702d6c mm/damon/core: introduce [in]active memory ratio damos quota goal metric
+881fa10eea2ed9722bbb5b382531da6f6e2d7d4d mm/damon/sysfs-schemes: support DAMOS_QUOTA_[IN]ACTIVE_MEM_BP
+460d8b7ff8d4033b2b4959bfd0b40ba9d0f2ec45 Docs/mm/damon/design: document DAMOS_QUOTA_[IN]ACTIVE_MEM_BP
+31f56cc497c5051680729683e849f1763d4bde3f mm/damon/paddr: activate DAMOS_LRU_PRIO targets instead of marking accessed
+b851ab9569f08809f0cb6a2cb8a2d282c7dccd49 mm/damon/lru_sort: consider age for quota prioritization
+57071e7ef25795a7afd941da4bdb203b8c6778af mm/damon/lru_sort: support young page filters
+70e40a9b1d01831050c68828417b9b4c2801c374 Docs/admin-guide/mm/damon/lru_sort: document filter_young_pages
+a66a198d523c80279db09cc70711e7bf0c555dd5 mm/damon/lru_sort: support active:inactive memory ratio based auto-tuning
+fa0566d65da282c082541bd4b9f4ee89c2027435 Docs/admin-guide/mm/damon/lru_sort: document active_mem_bp parameter
+cfba35c0514cab4b55b4b7a4931d29b580c0400e mm/damon/lru_sort: add monitoring intervals auto-tuning parameter
+5270e67064c2a9904224e2977f61bbc6954e8522 Docs/admin-guide/mm/damon/lru_sort: document intervals autotuning
+1b63d7e12c9bf1007adee7817872a5619d5f6db9 ==== uncategorized ====
+854c5bc6774b0064cffb018880d9bb92f1a78ed5 mm/damon/core: add an hacking idea concept interface prototype
+ec3ceff6cccd93651b20210e29f9edc479e8f6bd mm/damon/core: restrict total_charged_{sz,ns} to avoid overflows
+e37afeaac56963638b79952f16b381525f52b14c Docs: submitting-patches: suggest adding previous version links
+2cd1de1400abb1ff12a7bcceae780be39174b7e7 selftests/damon/sysfs_memcg_path_leak.sh: use kmemleak
+ffa8eb3f2e3db970ae7ea5d6e016e4ffd5540bee mm/memory: implement functions and data structures for page faults monitoring
+1c78bc88bf03c89d54859dca7578e1a1db9fecdb mm/memory: introduce do_{,huge_pmd_}faults_monitor_page()
+91a80717fe970cad38074426979ab4f3e4596992 mm/damon/core: rename damos_filter_out() to damos_core_filter_out()
+b876206933b5bba992b309ecc26e75516f0c7eed mm/damon/core: set score histogram without filters-excluding regions
+2763a974e053fa9db1d2d7074e709318c172efd6 selftests/damon/wss_estimation: increase allowed error rate
+e4dac85553e749b3be875e2744525e7edc7e0705 Docs/admin-guide/mm/damon/usage: clarify stats update process
+1a9121f14b8bf01ee359f2732cb3de43d6dbcf87 Docs/mm/damon/index: simplify the intro
+069599b134533a984227d2130e56ac98c235f994 mm/damon/sysfs: dealloc goal subdirectories on intervals setup failure
+323dd264e141ec92e7ba9c970a064e34abbd0eb5 mm/damon/sysfs: rmdir context attrs dir on setup failure
+ebe7e5d8bb90ef455774b383bf833e41f6fcab93 mm/damon/sysfs-schemes: rmdir quotas subdirs on failure cleanup
 
-f219d72f0d7d01c212df48a0e8a5893d2513d64d 45bb28f0803eef1807f6fc3c610659ee5b73c6e7 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmk4mIUbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+9fUQAJHhaoSN1TEQ8hOZx3zE
-Pj7DQtgtk0+RCClMqYJq6tWTaJ+GiMdY8xiGPGDOwxeg7SFxliJrMjk4CK1DqPLL
-cBS3+0+uRa3wTxthdh3rVmqlYPyJxfz87xwd+rPDADmreQ3Q5HdAr5qeUspfslwM
-uRbnyD1Qn+SVhu2gjF6rpTFu5XL41nBNTO67PpT2fz6fL7P5T/QtQJBNEzWbR+j6
-7q80uA9BfVz/Av/1imvBYtYvgEGHBlyRu/95hHMPUeS8cmnKOF3CxCchqcR5D4F/
-pUVq2QTe5Nf6HE0vzQfhS2a6Pf3RMqvXLOM0U1Bt2ooyOiw2OY6gcfNCabudHKWV
-yADNCliKicPVZhF1c/ja0fuE9hDZMZHww6qBHTnFk62vZ45OgR4sOjb6S3saKAvR
-9hc9QBNY64/XAyePmYjypvJotXGJ8fj8uPAmxbdbBMsEBfYel3ThtyVaYeSJJeuD
-im2vr0pqA3SjLlRnchsprqu24wO69jgTne6dYZ5PsVSUBbXGwa+WKZy06iv5oUBu
-8imX8vbhUSxEbjLUJ9TCVYP537xKHg7Yb/at9lZ2A0mqNw/95fAgemkIGROlteg6
-vZ1VRBALufBOVL/u5JgFoYT8IxXYbLt8M1Nrsc9rKVInhR7UL1Ouseh8Owc2dIes
-HzZDUw3HcEKrP/OAXZr5YKEP
-=RuBz
------END PGP SIGNATURE-----
-
---===============6515570905371191514==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f219d72f0d7d-45bb28f0803e.txt
-
-83e4fb2ed77664126fabb7bfff3d58c022d0a547 CVE-2021-46926: Add .vulnerable file
-5d53c8774efd546f9e2474e7cd1869c7f0b6ac41 CVE-2021-47083: Add .vulnerable file
-f1136f0351994707e58b9c4035d3ea70d1d402e2 CVE-2021-47113: Add .vulnerable file
-a90dd05731edc27956d605952fa8785814ea146a CVE-2021-47114: Add .vulnerable file
-8f7bfd622de8f186259d2f1c1156db8699dcbb96 CVE-2021-46906: Add .vulnerable file
-495da00e39f20ee023d6942af0f50f20c6991b9a CVE-2021-47082: Add .vulnerable file
-9141ebb76c5c2eb7f50b7f55703328cf01746171 CVE-2021-47117: Add .vulnerable file
-1fadd6258e16092609d4cd2b7173b2ecd061c3d9 CVE-2021-47116: Add .vulnerable file
-dd98d38f8b13e4987792a8032cf65711889a3412 CVE-2021-46928: Add .vulnerable file
-eae715d862ca68fd115e5ad7ff3c6308c810e4eb CVE-2021-4439: Add .vulnerable file
-cd5856d2127e70c508d928cc7863f8c80c94b4f9 CVE-2021-47144: Add .vulnerable file
-226091e84c608d328db45aa2c8c0d01a2e2b6eab CVE-2021-47145: Add .vulnerable file
-6a7fd78ff1ba3848d052ea5402c54243006e72a5 CVE-2021-47149: Add .vulnerable file
-0450eb576a2fb3317c640b52cb14d95856217dc0 CVE-2021-47169: Add .vulnerable file
-4a2ab453caeac1d1664c2a5aae89639aa0e835bf CVE-2021-47170: Add .vulnerable file
-65adf65e12a09be5ad2af267d22fea5db22e5139 CVE-2021-47182: Add .vulnerable file
-95726d829ab4c7cd495d2cc239efbed7e21929d5 CVE-2021-47183: Add .vulnerable file
-dad7bc04e2f01c3cad2801a3bb9ccd0c02a0fe58 CVE-2021-47185: Add .vulnerable file
-570be339533b9e2ac6225c1cd11ae3936c3eaf7f CVE-2021-47191: Add .vulnerable file
-289e67c0895b1a57e9e977cb0c50c01947452cec CVE-2021-47198: Add .vulnerable file
-59a3d3e9d93e62ed29d834f5dae060d4f369e8f6 CVE-2021-47193: Add .vulnerable file
-ac5fab4c9c539d6e6f84148bbb8fd865c59a99cb CVE-2021-47203: Add .vulnerable file
-59a813c025195185bcd58ec3dc4967f6ba232245 CVE-2021-47202: Add .vulnerable file
-9bfc21cec2dbf57fea45480f3fb06c374e6dc219 CVE-2021-47206: Add .vulnerable file
-1f290822e27c0dfe716de92c9e8515477139a291 CVE-2021-47325: Add .vulnerable file
-0df8183978debd6cf48cec44759103438158b037 CVE-2021-47327: Add .vulnerable file
-61951394cb8882d1a5b4cb5fc24d0bf99c911de6 CVE-2021-47329: Add .vulnerable file
-560893948eee7e4fee2a7aae1bbc1c8c794d7fe2 CVE-2021-47328: Add .vulnerable file
-02109c6aa5eaf332b387df4f0848b80182b07765 CVE-2021-47330: Add .vulnerable file
-65946d8e4efecc91101ca2b4c860d5c4ade52f81 CVE-2021-47331: Add .vulnerable file
-5b5f3770fca64d72155afab18c390a531e5db329 CVE-2021-47332: Add .vulnerable file
-bee37ce3b586a21f102119eb240671864cc7dd37 CVE-2021-47333: Add .vulnerable file
-b9cfa53182aa03a6c9960118a7bd3e4509358033 CVE-2021-47334: Add .vulnerable file
-4c67ef29afc08363dd3861b7e8d4c5be0f877897 CVE-2021-47336: Add .vulnerable file
-22e06e078130a193181a2f14ed85201f263a00bc CVE-2021-47339: Add .vulnerable file
-c2ff3883439337eb6b7bed8d766f78417adf61bb CVE-2021-47340: Add .vulnerable file
-9b7299872eb5db1373fd763d7b4ad7720f09f191 CVE-2021-47343: Add .vulnerable file
-f80d6812ceb096efa1da0b5c70931338d2487058 CVE-2021-47345: Add .vulnerable file
-29105e42c972d3f3b183f409a048d22898f1792f CVE-2021-47347: Add .vulnerable file
-c965304863292deaf2299929088e532a138c3081 CVE-2021-47352: Add .vulnerable file
-4988703dfcd290803ee978c98fdf934697b324c6 CVE-2021-47353: Add .vulnerable file
-ef42569fac998f38231148dc14d9032ee9a4cfc1 CVE-2021-47355: Add .vulnerable file
-71379af865692361b75c819710e03734a5fa7fa9 CVE-2021-47357: Add .vulnerable file
-9346498a959491fd7228b9953e8a0db8cce6ba27 CVE-2021-47359: Add .vulnerable file
-91c7eaa7b17a7d6bdd24881a069043f9cbc18187 CVE-2021-47356: Add .vulnerable file
-895fbd2a26924f37b1d4065635929d2a6a5cb200 CVE-2021-47378: Add .vulnerable file
-dda3835e5aaac68d32c3915d508be220f22fbddc CVE-2021-47362: Add .vulnerable file
-4b5b9d782c3b7d8b455b97de26b98cccc4f0af25 CVE-2021-47383: Add .vulnerable file
-3baaf5a078f2db26d37a4f2c8c86dff0b230bceb CVE-2021-47404: Add .vulnerable file
-fcce494dca3b6c25654aebf0595f4584387b533a CVE-2021-47407: Add .vulnerable file
-b2b20341d8855849ac45012249cbed1e74924967 CVE-2021-47405: Add .vulnerable file
-15460a9385d1391aa1acecf9a6d2a49f8f240bb9 CVE-2021-47408: Add .vulnerable file
-4e1550b3825269e7ac7e873e35bec79051de0d57 CVE-2021-47412: Add .vulnerable file
-95d043939b8d3e36b49de3e954e3759b0014b6de CVE-2021-47432: Add .vulnerable file
-152ece7726409b755927f1e6b6c48ee47ffe9630 CVE-2021-47433: Add .vulnerable file
-e7160feb38e72da97057239f7a430b2ba54edce6 CVE-2021-47434: Add .vulnerable file
-0f21e24324ea5033d85cf52454aa825ea43cc15c CVE-2021-47458: Add .vulnerable file
-a044250a84b6659ca70460a3681f534eb66da247 CVE-2021-47468: Add .vulnerable file
-b73cedd5925529bae8f457df64277eaf99c750ed CVE-2021-47478: Add .vulnerable file
-1430fff23ea9d33c6a113131ab60cc3029919c44 CVE-2021-47480: Add .vulnerable file
-0fb46320598c301fb571dad7221e50dd499c1c2e CVE-2021-47490: Add .vulnerable file
-dba07ac401f44120658824a2c48257a08cbd16db CVE-2021-47493: Add .vulnerable file
-7da613a7fb88e18484486bb0baf5d6921454a56c CVE-2021-47495: Add .vulnerable file
-702644b637f0c6e60b27c43d71afee212931d562 CVE-2021-47498: Add .vulnerable file
-acb650290f0908d658461809695c142999b13bd8 CVE-2021-47508: Add .vulnerable file
-660d5bd66b38289f6a44e529e977f9817dbf04f0 CVE-2021-47509: Add .vulnerable file
-fd9546abff0e126f87559fbae9ec1de5620522ff CVE-2021-47522: Add .vulnerable file
-78184e75ca24a02282a5086c35fe9a9a594a6af2 CVE-2021-47547: Add .vulnerable file
-78178ee0f0fa160c0041900ec2e74d2a42ba35d4 CVE-2021-47511: Add .vulnerable file
-d2e538493c604eea0ef17bcd155c312aa1b1cc4b CVE-2021-47548: Add .vulnerable file
-58d1d8ae7faaf586521f511c5c00d15936d9d078 CVE-2021-47552: Add .vulnerable file
-62d673ec550a25bbcc650bd5b8dc94b587010b47 CVE-2021-47576: Add .vulnerable file
-a7ca0e4f9b71b3753ecdbeea58c58e2ea91e60d1 CVE-2021-47577: Add .vulnerable file
-beddd3de49c852bc52439efce3a4d07964f73acf CVE-2021-47578: Add .vulnerable file
-5cbf9c2dae74d9f77aae87d99b65cf66953d69fb CVE-2021-47580: Add .vulnerable file
-18cf2b5bc52bb3b0efc938e16eb7e7a1fc848d92 CVE-2021-47579: Add .vulnerable file
-d249266c661ac2c409034c403207451666319ca7 CVE-2021-47582: Add .vulnerable file
-c22df330d7c677fe68448ecd26cc88ce1493fe63 CVE-2021-47600: Add .vulnerable file
-4aed1a8b6c05516e232e4989dc1a4395670eb7c2 CVE-2021-47599: Add .vulnerable file
-f71b85a3065d7936c186b5ce67fbfb2380dfd6e9 CVE-2021-47606: Add .vulnerable file
-59abaf5048a29b3fef579162d611d9aebb5f35bb CVE-2021-47612: Add .vulnerable file
-f2783b8276398c665328aaffd20ff2eaa81140c9 CVE-2021-47620: Add .vulnerable file
-0bbf18da2979f8111d818be2671cdd66ca04fcb0 CVE-2021-47623: Add .vulnerable file
-c00ae6674c3cd25a2678efd7bdbf9e79d24d1c36 CVE-2021-47622: Add .vulnerable file
-52a01a78eef399bbe1642fd64c20e5e64351512d CVE-2021-47207: Add .vulnerable file
-8fdd47c17fa1cfa2a803338e075abe4dc6fcfa61 CVE-2021-47211: Add .vulnerable file
-cb6dcca61cbc4a568173f978c370af7b374b2090 CVE-2021-47205: Add .vulnerable file
-d397eee1f98379e094ab7260b4f3b3b8625743af CVE-2021-47216: Add .vulnerable file
-559ba90d0c3cb2b7e42675877735573b7a0bb547 CVE-2021-47219: Add .vulnerable file
-85d7ce28308286054327aa437f77bd9cd4362107 CVE-2021-47224: Add .vulnerable file
-e3eb9b31a6ccd43fd01877e31d4489c2e12ac068 CVE-2021-47229: Add .vulnerable file
-4974ce9b501899dfc8406ef55bc0a3255240526d CVE-2021-47234: Add .vulnerable file
-7b4264bd79d4dfa7ff0701cb6da52abfcf93db7d CVE-2021-47257: Add .vulnerable file
-b022644f434e58f90982aa92cb74627efdb66701 CVE-2021-47258: Add .vulnerable file
-e43310a9a710168b39a6da290ae0b208383c0aad CVE-2021-47269: Add .vulnerable file
-870aa0ff855b4c3b92ffc7934e862cc6c9357541 CVE-2021-47280: Add .vulnerable file
-8e307c552d5a127b221095c53681fdf58320a556 CVE-2021-47281: Add .vulnerable file
-b60a7e07b0c5f3e9f853aa6f6419ad36c19a1c39 CVE-2021-47277: Add .vulnerable file
-ff2c2ee510c854c0fa71ffa7cd1b076ebf1b4835 CVE-2021-47283: Add .vulnerable file
-68ab3247bf6ccf28f95099acbeae940011e24136 CVE-2021-47284: Add .vulnerable file
-4c5c1bd7eb1e9ad71670079b48ef68b80d9a3254 CVE-2021-47289: Add .vulnerable file
-1ab8d28e6ea7652cddf5a5ade8766f36da440a97 CVE-2021-47308: Add .vulnerable file
-4250e86e6941c211394e82aea520eabb6226b07b CVE-2021-47307: Add .vulnerable file
-18eea839404a031bf33e31b092366bbb6477d5a4 CVE-2021-47319: Add .vulnerable file
-0e8fb2755509337b2ed83b2d40199beb513f58f9 CVE-2021-47321: Add .vulnerable file
-a3e8bef2de07619c687f30cd2c45f660a57cda09 CVE-2021-47323: Add .vulnerable file
-75083d00743a2e01e3ee1b04e41c5f0c2818b61f CVE-2021-47324: Add .vulnerable file
-4d00345b89a6349ad6494192213e603f207f661c CVE-2021-47641: Add .vulnerable file
-c16b92429a10b01d1ea8e8e74e61bbf0f9ce8462 CVE-2021-47642: Add .vulnerable file
-204f1162c03dcaa4e44bb129bd2a4cb937602874 CVE-2021-47632: Add .vulnerable file
-6fc86b8c808621e6811098bd3c0b835052534491 CVE-2021-46906: Add .vulnerable file
-256f8ff6191ebf7e39ded717b8563934edb44ece CVE-2021-47000: Add .vulnerable file
-46920a63bc4ce1242a69a5ad40a683a7a2a13e1e CVE-2021-47147: Add .vulnerable file
-8e28ff52065441381b72e236ae6d32b8eb4c586f Revert "CVE-2021-47000: Add .vulnerable file"
-45bb28f0803eef1807f6fc3c610659ee5b73c6e7 update the 2021 entries and pushed them out to cve.org
-
---===============6515570905371191514==--
+--===============7414776342685880441==--
