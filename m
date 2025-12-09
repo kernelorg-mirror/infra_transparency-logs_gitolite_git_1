@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Tue, 09 Dec 2025 08:04:59 -0000
-Message-Id: <176526749902.128179.22067553900621780@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ukleinek/linux
+Date: Tue, 09 Dec 2025 08:06:34 -0000
+Message-Id: <176526759460.131462.10573692016631665586@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-user: jarkko
+repo: pub/scm/linux/kernel/git/ukleinek/linux
+user: ukleinek
 changes:
-  - ref: refs/heads/queue
-    old: 7bd1dcd263843778498f8c231582331abb06baf9
-    new: 6379eec2b793d031340be47688483f97e64f761f
+  - ref: refs/heads/pwm/for-nexxt
+    old: 0b1a7512a12a0b9011ce3ad241e68c36028aa011
+    new: 1c09a09e40aef7a77e5979c0399345029f08c301
     log: |
-         6379eec2b793d031340be47688483f97e64f761f tpm-buf: Remove tpm_buf_append_handle
+         1c09a09e40aef7a77e5979c0399345029f08c301 rust: pwm: Add UnregisteredChip wrapper around Chip
          
