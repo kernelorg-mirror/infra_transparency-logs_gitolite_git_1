@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7504897172128025691=="
+Content-Type: multipart/mixed; boundary="===============6255850018309740047=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Tue, 09 Dec 2025 04:40:47 -0000
-Message-Id: <176525524742.4133716.5846130698121617558@gitolite.kernel.org>
+Date: Tue, 09 Dec 2025 04:42:29 -0000
+Message-Id: <176525534975.4134924.17941247447992561687@gitolite.kernel.org>
 
---===============7504897172128025691==
+--===============6255850018309740047==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,352 +16,370 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: sashal
 changes:
   - ref: refs/heads/queue/5.10
-    old: f165465273f1f4113b6f4a4f48d90a4c7e0cbcb4
-    new: b94b68c330b15a5f6e0f46d6a116ba431949bd89
-    log: revlist-f165465273f1-b94b68c330b1.txt
+    old: b94b68c330b15a5f6e0f46d6a116ba431949bd89
+    new: f387ccba40c4626f77ed9087f3f1bba9f828c176
+    log: revlist-b94b68c330b1-f387ccba40c4.txt
   - ref: refs/heads/queue/5.15
-    old: 91a2f98c9f749a389dc96ca7b14f17eed8043a2c
-    new: db816eda015f90a9c4127d6810f693a3b50922b4
-    log: revlist-91a2f98c9f74-db816eda015f.txt
+    old: db816eda015f90a9c4127d6810f693a3b50922b4
+    new: e4693e76ed9dc428181ab4c26c50e223b635a29e
+    log: revlist-db816eda015f-e4693e76ed9d.txt
   - ref: refs/heads/queue/6.1
-    old: cca4478ea8aa1b44a947978757905b49f9855894
-    new: b09721fa82801fb66f8988ef0209cc1533ea9cc5
-    log: revlist-cca4478ea8aa-b09721fa8280.txt
+    old: b09721fa82801fb66f8988ef0209cc1533ea9cc5
+    new: 228cb339ac97eae62a47535574e25eec2abd440f
+    log: revlist-b09721fa8280-228cb339ac97.txt
   - ref: refs/heads/queue/6.12
-    old: 93ee8f7996aa6aa9ee0403a023c429d6a1c15bb1
-    new: e74f36403d350719545591ba134053e9bd2010a3
-    log: revlist-93ee8f7996aa-e74f36403d35.txt
+    old: e74f36403d350719545591ba134053e9bd2010a3
+    new: 91eddd12b649e057ea3ceb7d28aca9986619a778
+    log: revlist-e74f36403d35-91eddd12b649.txt
   - ref: refs/heads/queue/6.17
-    old: f841ca38a58ba64260174dc18b716f0b13dccca5
-    new: 7628dee21b9ed4e9709000e23efaffdc448e78fd
-    log: revlist-f841ca38a58b-7628dee21b9e.txt
+    old: 7628dee21b9ed4e9709000e23efaffdc448e78fd
+    new: 113264c289fd8f076649410df6cfac15eb00475a
+    log: revlist-7628dee21b9e-113264c289fd.txt
   - ref: refs/heads/queue/6.18
-    old: 0f6a747032db29e458e84e52e8590a68b71a5371
-    new: bc01fa079609c4c9c901aa26b37f5c648751b180
-    log: revlist-0f6a747032db-bc01fa079609.txt
+    old: bc01fa079609c4c9c901aa26b37f5c648751b180
+    new: 7958b28d55fe5cc872f7c4106c03a4c1952d4c02
+    log: revlist-bc01fa079609-7958b28d55fe.txt
   - ref: refs/heads/queue/6.6
-    old: fcddb461b0fb944a0ed05ab5596aa3d9098b451e
-    new: 78f4350640ca2a7343ac98d5970abc6ba4d6fd94
-    log: revlist-fcddb461b0fb-78f4350640ca.txt
+    old: 78f4350640ca2a7343ac98d5970abc6ba4d6fd94
+    new: a4d4b1dcf6040b768cf2c3452d01d7bd6eb0fbe6
+    log: revlist-78f4350640ca-a4d4b1dcf604.txt
 
---===============7504897172128025691==
+--===============6255850018309740047==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f165465273f1-b94b68c330b1.txt
+Content-Disposition: attachment; filename=revlist-b94b68c330b1-f387ccba40c4.txt
 
-eb720b1204cb0cf81a1113f5fa698d515e46cf8c xfrm: delete x->tunnel as we delete x
-8b5c442f46506bf880f3090722e1687130f6b91d Revert "xfrm: destroy xfrm_state synchronously on net exit path"
-e1ee53e8b4bcf267ef8669a83fb16f2aeaeb1093 xfrm: also call xfrm_state_delete_tunnel at destroy time for states that were never added
-1f7691b5bccc7b38fc677ede3cb809cdfed96b73 xfrm: flush all states in xfrm_state_fini
-764bd06bbb5888dad7ed68e5c0f585e654802167 Documentation: process: Also mention Sasha Levin as stable tree maintainer
-4e828f95cfc1e9b0423ff7403d9989392b34aa15 jbd2: avoid bug_on in jbd2_journal_get_create_access() when file system corrupted
-043f8d06a61f3aff9df0379aba527c7d937d51af ext4: refresh inline data size before write operations
-e6f667ac90ded5b7eee2d2c74e2e531239e0b884 locking/spinlock/debug: Fix data-race in do_raw_write_lock
-344acd1a726f451f43bd3cbd2f6883f209478af5 ext4: add i_data_sem protection in ext4_destroy_inline_data_nolock()
-1fddcb90cfa2d9f5a0dcca6636322014d19a989c USB: serial: option: add Foxconn T99W760
-203560697f1c0cd730446792345c71c41fad13ad USB: serial: option: add Telit Cinterion FE910C04 new compositions
-dacf70bdeb8d55ab95e4653d9b1c4e0f8d8a8371 USB: serial: option: move Telit 0x10c7 composition in the right place
-b303f019bb844199bbec02aeda1b42d48f264655 USB: serial: ftdi_sio: match on interface number for jtag
-b81cbe5b3ce909d5b3fa504e11655b661c0a7386 serial: add support of CPCI cards
-97c1d76083ec347b5f99ef2d4832e9fda4c80a3e USB: serial: belkin_sa: fix TIOCMBIS and TIOCMBIC
-75a60b3fa6d9466c3a7aea6fdbc273c45f0b7e53 USB: serial: kobil_sct: fix TIOCMBIS and TIOCMBIC
-a49146218574e96c6192f8ed1afccc295cd800fb spi: xilinx: increase number of retries before declaring stall
-5445bfccc9089c8becd9051bb83604cba66522df spi: imx: keep dma request disabled before dma transfer setup
-f82d2c7a7c053aecc9a53f7ba24231513c85a304 dma-mapping: Allow use of DMA_BIT_MASK(64) in global scope
-339c8a320856e55bdd5653e31c702f95e0ac57a4 bfs: Reconstruct file type when loading from disk
-a4645798e2a2fb842b2116750ab2710879605476 pinctrl: qcom: msm: Fix deadlock in pinmux configuration
-43ff3dc70fc143a0129ecfb515e31599c3267d52 platform/x86: acer-wmi: Ignore backlight event
-549751a3595e8cfff8587d69cd2931e059ab28ea platform/x86: huawei-wmi: add keys for HONOR models
-05cf8fbb350f6a1b43c5f3b9b7f4a437f3a31cec samples: work around glibc redefining some of our defines wrong
-33a06940077536e8c9da87891f121bea148bcc35 comedi: c6xdigio: Fix invalid PNP driver unregistration
-3862d5d514a366d972fbfe1ec81a7a4534b26f96 comedi: multiq3: sanitize config options in multiq3_attach()
-5c586ebf5703ddc1f8f2479be243e0c85ee95766 comedi: check device's attached status in compat ioctls
-b94b68c330b15a5f6e0f46d6a116ba431949bd89 staging: rtl8723bs: fix stack buffer overflow in OnAssocReq IE parsing
+dd36e37c939b381f00d61bb8c9cb5a9228fdbc34 xfrm: delete x->tunnel as we delete x
+5c9e3020eca6158d475af5a1f5365c96e3d6bf03 Revert "xfrm: destroy xfrm_state synchronously on net exit path"
+42cb30bc5b337d2878c181877e41f19f63a8bd78 xfrm: also call xfrm_state_delete_tunnel at destroy time for states that were never added
+c4e76d1f04c8f65c0ae6e8b109ae9cb3c1639df0 xfrm: flush all states in xfrm_state_fini
+d84b3642adcc71b8a9135868debbba1103c978be Documentation: process: Also mention Sasha Levin as stable tree maintainer
+f521d968bc25694978be949dae70828f3072ff50 jbd2: avoid bug_on in jbd2_journal_get_create_access() when file system corrupted
+7f936cb87e89328e4d3cf68aad46dddfe30e37ba ext4: refresh inline data size before write operations
+d4cd0479353bf3a95687645bb8fba27e86c09308 locking/spinlock/debug: Fix data-race in do_raw_write_lock
+0c43abb9f638128424714f5c7bfc65d60b3bf85a ext4: add i_data_sem protection in ext4_destroy_inline_data_nolock()
+d18c603a57455802542ae8e5c1169d9b3e7bdff9 USB: serial: option: add Foxconn T99W760
+7f6f82e9a94af2b29ea5ae20ac923470ddc90e98 USB: serial: option: add Telit Cinterion FE910C04 new compositions
+3c5c413810471f5cb3f7f4f53c32cbca63e23468 USB: serial: option: move Telit 0x10c7 composition in the right place
+3a6c54eb5760abc6fb969ad16065b8d4d399a337 USB: serial: ftdi_sio: match on interface number for jtag
+15d6180a81221f42ab72874a2ce9d9b6f5a1a46a serial: add support of CPCI cards
+bbc3de8a0b3255016868b291c3cf231a2881ddce USB: serial: belkin_sa: fix TIOCMBIS and TIOCMBIC
+e169f06c9e3e13ed4989a2225c1008280481ed57 USB: serial: kobil_sct: fix TIOCMBIS and TIOCMBIC
+550ce6bb5bf330c19f734cbb78e7b203647ef957 spi: xilinx: increase number of retries before declaring stall
+9d4cb3b0e773fb68d9c722817c9a310dfec56b6a spi: imx: keep dma request disabled before dma transfer setup
+0026979df9e4216c738ffec762072666293cb12d dma-mapping: Allow use of DMA_BIT_MASK(64) in global scope
+d70a09d7a3dfac4119a40910fdad1dae88e615d7 bfs: Reconstruct file type when loading from disk
+1a2a3addab8e2f63af7d091a5388317039ed20fe pinctrl: qcom: msm: Fix deadlock in pinmux configuration
+13bd886d4ff9fcdbce8c65cbfc8de6d2bf4184cf platform/x86: acer-wmi: Ignore backlight event
+2176515c18ff0a73b65a5554c526574791882003 platform/x86: huawei-wmi: add keys for HONOR models
+a069cb5a8e21a4aa0e8004ff6831818074a6c3d9 samples: work around glibc redefining some of our defines wrong
+5e18755656cef4eb5d5ca1a6f8f7b6a8f2b6a7a4 comedi: c6xdigio: Fix invalid PNP driver unregistration
+3289e290020bde4f5aaab5e1e1137c57ecd06f89 comedi: multiq3: sanitize config options in multiq3_attach()
+2a5ca86e066d72b4d98ca69751301aae6dea1cd7 comedi: check device's attached status in compat ioctls
+f387ccba40c4626f77ed9087f3f1bba9f828c176 staging: rtl8723bs: fix stack buffer overflow in OnAssocReq IE parsing
 
---===============7504897172128025691==
+--===============6255850018309740047==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-91a2f98c9f74-db816eda015f.txt
+Content-Disposition: attachment; filename=revlist-db816eda015f-e4693e76ed9d.txt
 
-8472c6e29dedeb5e2d11157dba114fcec37aeccc xfrm: delete x->tunnel as we delete x
-9d8267f2bb00853570e2ae8ec87e81b966aedc22 Revert "xfrm: destroy xfrm_state synchronously on net exit path"
-58d851be4174dd1a49fc0ee308716a911f46d6a2 xfrm: also call xfrm_state_delete_tunnel at destroy time for states that were never added
-ef546f5c13301f7ba911e721b95a6e04dc07928b xfrm: flush all states in xfrm_state_fini
-a70136ff28fbea2b20af7abd48cb5cedf29900b1 dpaa2-mac: bail if the dpmacs fwnode is not found
-187dd78e28e6dbc320b4a53ebd36d182c9edb218 drm/i915/selftests: Fix inconsistent IS_ERR and PTR_ERR
-28433224a8dd5cf833172801474f9d3ffc6a63d3 leds: Replace all non-returning strlcpy with strscpy
-cbf1b63b02dd0a98eb20df5faac0a0e27997f472 leds: spi-byte: Use devm_led_classdev_register_ext()
-6d48f9b262be46f8656d5d79456c086d0d80379c Documentation: process: Also mention Sasha Levin as stable tree maintainer
-4b3983ffb48916876d53bad7477e32e7f28c0ee4 jbd2: avoid bug_on in jbd2_journal_get_create_access() when file system corrupted
-31aa77d64d6e72c10e4b07abf05e5eff89596cee ext4: refresh inline data size before write operations
-981ea18814862519d46e8614f0af6f6351eb9cbc locking/spinlock/debug: Fix data-race in do_raw_write_lock
-53c42336f8b2645d91e1ef5b882078f61a0dff0a ext4: add i_data_sem protection in ext4_destroy_inline_data_nolock()
-ed4f397c926d07463c7a1c53d01c15b26e855d07 comedi: pcl818: fix null-ptr-deref in pcl818_ai_cancel()
-360d55bc0125afd2273db3986073c50415f82bf7 USB: serial: option: add Foxconn T99W760
-e8b0d2211a4a39d4cf22125f841d60aa6cd55498 USB: serial: option: add Telit Cinterion FE910C04 new compositions
-c79276bf09656de4801908df34394016db2aa10b USB: serial: option: move Telit 0x10c7 composition in the right place
-572e469523e4dc19906809f71e146092969df127 USB: serial: ftdi_sio: match on interface number for jtag
-ed6f036a400605870fff5342eb15dcf05d73efe0 serial: add support of CPCI cards
-f3cfffb554c22be87b0feecddc95f5f42f5a6da9 USB: serial: belkin_sa: fix TIOCMBIS and TIOCMBIC
-1b0bbf85090b258203d3f1958969268b6bad6df2 USB: serial: kobil_sct: fix TIOCMBIS and TIOCMBIC
-161f5fd755e89a308292033705a1c554656f55a6 spi: xilinx: increase number of retries before declaring stall
-a49a42a2e38204767c5f2cd7aec1ac2917891720 spi: imx: keep dma request disabled before dma transfer setup
-17f59e2fed0efcda4ce025bc1050aa6d10ec32c8 dma-mapping: Allow use of DMA_BIT_MASK(64) in global scope
-b2b3fe7326aa704dd88e347fde1a352f8d91fc32 bfs: Reconstruct file type when loading from disk
-3578de85b618ef779fb75c7b07194adfa5bc44bf pinctrl: qcom: msm: Fix deadlock in pinmux configuration
-8360ba55e7a8e2750b10b9eca108eee2590c5c7e platform/x86: acer-wmi: Ignore backlight event
-20c97be2e9072c10ff997c0bbae001a304efa2e8 platform/x86: huawei-wmi: add keys for HONOR models
-2d075bb39547f9a634b18848aab54d5725bf0832 HID: elecom: Add support for ELECOM M-XT3URBK (018F)
-bd42168a2526faa2928e778f013a4aceca1ad777 samples: work around glibc redefining some of our defines wrong
-241f8a81e68227ed1d0516f5758bf8749ccd5035 comedi: c6xdigio: Fix invalid PNP driver unregistration
-9d2c0c87975583d238a91674b7f57ad1777caf32 comedi: multiq3: sanitize config options in multiq3_attach()
-0f7cb8b17e1b17c2bbb0b3a5ad8672f95b072a83 comedi: check device's attached status in compat ioctls
-786d113b867c7790064a9ad45d2b7a133c28af0b staging: rtl8723bs: fix stack buffer overflow in OnAssocReq IE parsing
-db816eda015f90a9c4127d6810f693a3b50922b4 staging: rtl8723bs: fix out-of-bounds read in OnBeacon ESR IE parsing
+ee9628ead03948dd00f64ae55952392ca0425f15 xfrm: delete x->tunnel as we delete x
+05d3124372ecf49de0335e4b7a5555912203b98b Revert "xfrm: destroy xfrm_state synchronously on net exit path"
+e09bf7d2a470b4fa51ba4821778bd7eb6398c812 xfrm: also call xfrm_state_delete_tunnel at destroy time for states that were never added
+c9f7b790ba7c2d2b023f8f01bd2710768e946dad xfrm: flush all states in xfrm_state_fini
+13af9c4b13e18624e12b0e0088995789197400ac dpaa2-mac: bail if the dpmacs fwnode is not found
+0be83e470839e490f5944e4ec65d3adf1c2465c1 drm/i915/selftests: Fix inconsistent IS_ERR and PTR_ERR
+fbe4d8bf377420f946ec07559a453cdb97e4f073 leds: Replace all non-returning strlcpy with strscpy
+2cf6cbc5ff35a763d60e3b4e0166e0b12cc1dc80 leds: spi-byte: Use devm_led_classdev_register_ext()
+e952cb75c2fcd51c519317aaa577ca96da778f87 Documentation: process: Also mention Sasha Levin as stable tree maintainer
+12d3f048f4ac3bdd535bc0baf9caa29589695c13 jbd2: avoid bug_on in jbd2_journal_get_create_access() when file system corrupted
+fc4769e38fef7a85ec957ec747022cfd6abd27f0 ext4: refresh inline data size before write operations
+525638691c95f2556c7d9264dc0f590d56065291 locking/spinlock/debug: Fix data-race in do_raw_write_lock
+ee59da8f8e84966272825147a55a67d0519d922f ext4: add i_data_sem protection in ext4_destroy_inline_data_nolock()
+a89d8ba904ce2f2696a00f805c0f1cd24940c8e2 comedi: pcl818: fix null-ptr-deref in pcl818_ai_cancel()
+9a9d4d5e473413d436a904ccb38164110b148c83 USB: serial: option: add Foxconn T99W760
+1799fcdc5a02ef76aa47335351736c74a409f3ba USB: serial: option: add Telit Cinterion FE910C04 new compositions
+d31d7ab4f2170852eb7b00a274804bb9b2798378 USB: serial: option: move Telit 0x10c7 composition in the right place
+a569d8e9855be23f003438354627215ac8e18767 USB: serial: ftdi_sio: match on interface number for jtag
+bd1c0b7871f9e16c4edbb4c1b129f931584b35cd serial: add support of CPCI cards
+5133bb2099552c7fa6a1050b218b982dab2f7564 USB: serial: belkin_sa: fix TIOCMBIS and TIOCMBIC
+5093b6a1561a9e80779d7ef0bef7279d7d773f2a USB: serial: kobil_sct: fix TIOCMBIS and TIOCMBIC
+5378e061d167dcc8c81240116fd4101751a032d2 spi: xilinx: increase number of retries before declaring stall
+b557e74f823d35c0e696d6a8e6b01b5d00cc723a spi: imx: keep dma request disabled before dma transfer setup
+b8d8418c0999497fd2ef1a863e3d34f347858de8 dma-mapping: Allow use of DMA_BIT_MASK(64) in global scope
+23f5a200c4ac0e04d93a5b2dad8903f280c2782e bfs: Reconstruct file type when loading from disk
+0152b132d98210bcd599eddaa5f495a5635c42cc pinctrl: qcom: msm: Fix deadlock in pinmux configuration
+84ebf9f1d6231a0ca8759001cf4cb907d714e0cb platform/x86: acer-wmi: Ignore backlight event
+11bcbc58a98511ac927da2d2b0fa9bfa53c391bd platform/x86: huawei-wmi: add keys for HONOR models
+6c1b70de08009c303df9439ba05b66cd7d758256 HID: elecom: Add support for ELECOM M-XT3URBK (018F)
+f3dca58c7aa2ceb8ac0a32c582a7938f6c2e5096 samples: work around glibc redefining some of our defines wrong
+1fce7321696bd39ddfbd921d71b778684337cae1 comedi: c6xdigio: Fix invalid PNP driver unregistration
+7967cf72d53a5e92d908ffe5035bd4b46b4c38eb comedi: multiq3: sanitize config options in multiq3_attach()
+9bfd849a3eb5d6012be8e7983a43362c102a21d2 comedi: check device's attached status in compat ioctls
+9df01ed04e779b2067e493206c94baee8115fc1e staging: rtl8723bs: fix stack buffer overflow in OnAssocReq IE parsing
+e4693e76ed9dc428181ab4c26c50e223b635a29e staging: rtl8723bs: fix out-of-bounds read in OnBeacon ESR IE parsing
 
---===============7504897172128025691==
+--===============6255850018309740047==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-cca4478ea8aa-b09721fa8280.txt
+Content-Disposition: attachment; filename=revlist-b09721fa8280-228cb339ac97.txt
 
-f0855504883bcb4cd4275cb5fb5c7c56e955871f xfrm: delete x->tunnel as we delete x
-ed81920f1ec68935181adcfeacd4dce9890278a8 Revert "xfrm: destroy xfrm_state synchronously on net exit path"
-abba6332fd1af9fa9b87de271654a3d1b62f9f00 xfrm: also call xfrm_state_delete_tunnel at destroy time for states that were never added
-d9949cb287817c76e7fd423e693a4d37541e7315 xfrm: flush all states in xfrm_state_fini
-cedcc94f4a9b406467156bdeeb0e26d4df904872 leds: Replace all non-returning strlcpy with strscpy
-c556fa00cc23b1e42c9df761a1fe9c931a145e71 leds: spi-byte: Use devm_led_classdev_register_ext()
-415ff52f1df1f58d704a791460d2be40dff7e525 Documentation: process: Also mention Sasha Levin as stable tree maintainer
-90440fef14e40721674ebc89b6c83ced0b733844 jbd2: avoid bug_on in jbd2_journal_get_create_access() when file system corrupted
-6b3bf681ac7c7fb12083cd1ac79220f7cb1b5b12 ext4: refresh inline data size before write operations
-9897cf1d4a3708a6d62817b9084e7a0f8e04b923 ksmbd: ipc: fix use-after-free in ipc_msg_send_request
-2c01150d481e71f0bb1548229ad76450df996830 locking/spinlock/debug: Fix data-race in do_raw_write_lock
-610f14379ddc7b231d6684a6d828d1388f54b49b ext4: add i_data_sem protection in ext4_destroy_inline_data_nolock()
-02859722b63b60ca70779e02c6cddfea2d82bd0a comedi: pcl818: fix null-ptr-deref in pcl818_ai_cancel()
-0246f4ec58ade0f7bd848a29e3560f5321d5883a USB: serial: option: add Foxconn T99W760
-a4caca18955274af736bc12c4b9b3cdc339a2f89 USB: serial: option: add Telit Cinterion FE910C04 new compositions
-6b0e194a015e8cd2304937b5af95d24b83766d6f USB: serial: option: move Telit 0x10c7 composition in the right place
-3a787e40136b4364cb6dcdb2b20e799115a55f35 USB: serial: ftdi_sio: match on interface number for jtag
-b6f85bd1120e0fb6545f6ef129956f3a56e76034 serial: add support of CPCI cards
-8eecd34af1c68266d77fb10cc9da5e7ba90b2f48 USB: serial: belkin_sa: fix TIOCMBIS and TIOCMBIC
-4887ffe887e0c03880476f2f340b4132cee04ecc USB: serial: kobil_sct: fix TIOCMBIS and TIOCMBIC
-27c2281d471981ce8eea74c0a3bfd94a8a1a40aa ftrace: bpf: Fix IPMODIFY + DIRECT in modify_ftrace_direct()
-87e32a5ab819edbe95ec2f436e676112f68a56f3 spi: xilinx: increase number of retries before declaring stall
-a5077c77e1cef1e6984b10fd538c3bbfbd120635 spi: imx: keep dma request disabled before dma transfer setup
-3869f128bf7411dd90bc83517c3eb995f552452c dma-mapping: Allow use of DMA_BIT_MASK(64) in global scope
-29873fad1adcd107a0f8943d0de1a17f3290a3ab drm/vmwgfx: Use kref in vmw_bo_dirty
-28f2a6048ad1c81d9dc3cbd3f37eea0efc262562 smb: fix invalid username check in smb3_fs_context_parse_param()
-ebc59b134193b1a1ac60758d7e333498f8b48a65 ALSA: usb-audio: Add native DSD quirks for PureAudio DAC series
-48f5d8bb9c22ad5928151e37a0999c5a3ee9a983 bfs: Reconstruct file type when loading from disk
-e05f5a82c11f43c180aa73bcc06d7016acf93f3b pinctrl: qcom: msm: Fix deadlock in pinmux configuration
-8d8242fccc40d290d3ed5575de0cf5519c4bab76 platform/x86: acer-wmi: Ignore backlight event
-d7c8ccfc8c379b8669e51718dace0444655b4f3e HID: apple: Add SONiX AK870 PRO to non_apple_keyboards quirk list
-2adcc177df06a4db63e45986571c48ee16b7ad3b platform/x86: huawei-wmi: add keys for HONOR models
-74d5af854afbdd0e1ac5c93c83e8d5cb22d342d9 HID: elecom: Add support for ELECOM M-XT3URBK (018F)
-5b29ff4da229bae140d59a43ec3f5c09892b8094 LoongArch: Mask all interrupts during kexec/kdump
-2399d20728be1128f7edb11143db3adfd549d4cb samples: work around glibc redefining some of our defines wrong
-0f9a19439d57b16126e8a991c95ac76b875888fb comedi: c6xdigio: Fix invalid PNP driver unregistration
-acba4c52fc14bf0a328d8815cc5884404702b859 comedi: multiq3: sanitize config options in multiq3_attach()
-7a1a24ee372761ac9d2fdb388fa726ce3f7b425e comedi: check device's attached status in compat ioctls
-bf3c677674f14aa67a4cfc2503ef08705e79790f staging: rtl8723bs: fix out-of-bounds read in rtw_get_ie() parser
-fa8f5cda7f2749096d0901e5d6b3d34c47fea2dc staging: rtl8723bs: fix stack buffer overflow in OnAssocReq IE parsing
-b09721fa82801fb66f8988ef0209cc1533ea9cc5 staging: rtl8723bs: fix out-of-bounds read in OnBeacon ESR IE parsing
+de0ce8685b04ed96a11ef6f3036091d11008c4a6 xfrm: delete x->tunnel as we delete x
+1dc7759fc474618686382774948ca6a1df1de320 Revert "xfrm: destroy xfrm_state synchronously on net exit path"
+5b528dd223643356f9b4eedbf8580d910e08b298 xfrm: also call xfrm_state_delete_tunnel at destroy time for states that were never added
+82b08fffa726ae40d2ce9a6c837aa9f76b0ba382 xfrm: flush all states in xfrm_state_fini
+758b93c8970128c5ef7fbb4e61014a20b498899a leds: Replace all non-returning strlcpy with strscpy
+a498cfb35e50c39defea474ea7ded6fcab1bd293 leds: spi-byte: Use devm_led_classdev_register_ext()
+bd13fbfe1c0ef81bd45a84428c3e16b1aaff43cb Documentation: process: Also mention Sasha Levin as stable tree maintainer
+16c6da0908d39c8a58b91982b41afeaf3fd3d596 jbd2: avoid bug_on in jbd2_journal_get_create_access() when file system corrupted
+f54349b4c4c10279258c9d781e278f09a50e5c7b ext4: refresh inline data size before write operations
+814f3769e20b99e33bea7acbd8e695f8e0e36871 ksmbd: ipc: fix use-after-free in ipc_msg_send_request
+0843af3bca620c5428ff626b4540f84fa6f0f435 locking/spinlock/debug: Fix data-race in do_raw_write_lock
+3e2e43eb8dfd8b756a40528b059827b2dfbc3454 ext4: add i_data_sem protection in ext4_destroy_inline_data_nolock()
+56e3682bba0c70394de56ce4aa7be6201f2a7cba comedi: pcl818: fix null-ptr-deref in pcl818_ai_cancel()
+57b26550d3e543071154326f09c261ec87e66544 USB: serial: option: add Foxconn T99W760
+7143cda1e46240cbe896a678b14a10860b648d4d USB: serial: option: add Telit Cinterion FE910C04 new compositions
+8d5f010220202190185cd779fa0eaf72341dd5e0 USB: serial: option: move Telit 0x10c7 composition in the right place
+0d5e50b652aa31c4e46faf82ea79b772681d9772 USB: serial: ftdi_sio: match on interface number for jtag
+0e6b949e32c4b2fb7b00275bb92f3c3a1b5d6f71 serial: add support of CPCI cards
+5ce783d94fbb40ebfdfce473c3354ba614ad3681 USB: serial: belkin_sa: fix TIOCMBIS and TIOCMBIC
+449b7884fa438a3a196d24deb462f8303b385c7c USB: serial: kobil_sct: fix TIOCMBIS and TIOCMBIC
+bef8def584a1876f29381b15f2f603aac2e22921 ftrace: bpf: Fix IPMODIFY + DIRECT in modify_ftrace_direct()
+94b99f79818ac00dd76b8f4e0acc42aaca36a7a4 spi: xilinx: increase number of retries before declaring stall
+d3689b4a8deb8c73df49f599eb2d0701364285b9 spi: imx: keep dma request disabled before dma transfer setup
+4d81003035811c2ac552fad15c5e845928f2f6af dma-mapping: Allow use of DMA_BIT_MASK(64) in global scope
+f78d8264d788f531fdc7e0fa52af0c153df0a915 drm/vmwgfx: Use kref in vmw_bo_dirty
+b8182fd3c6d2ce347ee9219e1f25b6ac0c49a931 smb: fix invalid username check in smb3_fs_context_parse_param()
+0f251e857be021df4f2a93edc3bb0a4eb6e74bf2 ALSA: usb-audio: Add native DSD quirks for PureAudio DAC series
+4059785cb0d5cfe0139eea8591dd2b69272d17a6 bfs: Reconstruct file type when loading from disk
+a4d539d95a417b78d681e773bc572aeb4f7bd75c pinctrl: qcom: msm: Fix deadlock in pinmux configuration
+93761163ef277da19e5284780d077a696a3b5739 platform/x86: acer-wmi: Ignore backlight event
+b062dadae73d67211540b5531e5fdcd538e69d3a HID: apple: Add SONiX AK870 PRO to non_apple_keyboards quirk list
+f35b5c840644527ceef13c0c488d98bca83a4b01 platform/x86: huawei-wmi: add keys for HONOR models
+9842248a923ac455415209105c8e5256c8ff5680 HID: elecom: Add support for ELECOM M-XT3URBK (018F)
+1a1d28cb27173abf457f662e4e177fbad82e3bdf LoongArch: Mask all interrupts during kexec/kdump
+56dc412d07570aca24c748a797c1ff388c39dbe9 samples: work around glibc redefining some of our defines wrong
+af3e2860f62ae18d37dcd3afca53c5f6d4c6be13 comedi: c6xdigio: Fix invalid PNP driver unregistration
+05638267a5f49f3b95ab082d070c3ee4cce0fdb8 comedi: multiq3: sanitize config options in multiq3_attach()
+a07e3247818adb27ae67157ca3a9b6499afb28e7 comedi: check device's attached status in compat ioctls
+b7c3537370c76e127a579cefed9ac2db3f21280f staging: rtl8723bs: fix out-of-bounds read in rtw_get_ie() parser
+7c4578cba2dcc450c7928515bbd4cd3720e14e56 staging: rtl8723bs: fix stack buffer overflow in OnAssocReq IE parsing
+228cb339ac97eae62a47535574e25eec2abd440f staging: rtl8723bs: fix out-of-bounds read in OnBeacon ESR IE parsing
 
---===============7504897172128025691==
+--===============6255850018309740047==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-93ee8f7996aa-e74f36403d35.txt
+Content-Disposition: attachment; filename=revlist-e74f36403d35-91eddd12b649.txt
 
-df26ec614a0e45b9450cbb77f440373836961425 xfrm: delete x->tunnel as we delete x
-a0238b4e183f3c5725b8f7fb3f2a4f10d438dc36 Revert "xfrm: destroy xfrm_state synchronously on net exit path"
-6cd6d2611afad29893044685502a46b13c11f536 xfrm: also call xfrm_state_delete_tunnel at destroy time for states that were never added
-9bb2806a357862f92a6133702ef2393f6f259878 xfrm: flush all states in xfrm_state_fini
-9784471aaafd390a39a8a01e4a6a9ad56f6cff17 Documentation: process: Also mention Sasha Levin as stable tree maintainer
-10deedd3effe40c32a41eb3d72aba8a6afec6d80 jbd2: avoid bug_on in jbd2_journal_get_create_access() when file system corrupted
-cfcbf64eb6fcce040a89226e0efec9de5f012705 ext4: refresh inline data size before write operations
-096f0bd15a903a0f413d277bbc2052c7fc83e9ea ksmbd: ipc: fix use-after-free in ipc_msg_send_request
-a6bb6879f4f965147d902078b2a36418ef25c7c4 locking/spinlock/debug: Fix data-race in do_raw_write_lock
-bde5feedf75a2e700135aa2f39a97abad68dc9e7 ext4: add i_data_sem protection in ext4_destroy_inline_data_nolock()
-c1ba7e47a3f84762eef72eae8a1bdc98b8a27ff4 comedi: pcl818: fix null-ptr-deref in pcl818_ai_cancel()
-533e3c17b6f1d2935974419b560e645356182ae0 KVM: SVM: Don't skip unrelated instruction if INT3/INTO is replaced
-605393e42782f39a4e781c89fdf901b412bd6dc6 USB: serial: option: add Foxconn T99W760
-f291784cb38c73d6deb829da85963dc9f95f7f86 USB: serial: option: add Telit Cinterion FE910C04 new compositions
-e56f63870f037c02ee94419c591537c8cedd7378 USB: serial: option: move Telit 0x10c7 composition in the right place
-74e375026d664daa9744d01c6d3fbf93e3aeb35e USB: serial: ftdi_sio: match on interface number for jtag
-fbe8388d4e1104ba82541c144cf560539954f25b serial: add support of CPCI cards
-0c23a74f52532c79231fd649c3d52f6408f8f5fe USB: serial: belkin_sa: fix TIOCMBIS and TIOCMBIC
-c37add5c8f5472c3103f613c7074bd749c75f95e USB: serial: kobil_sct: fix TIOCMBIS and TIOCMBIC
-664399a69eaac3aa1ed5d856138022b753fa5ae4 ftrace: bpf: Fix IPMODIFY + DIRECT in modify_ftrace_direct()
-075d70139d4e70168e3906113066199bf2f5558a spi: xilinx: increase number of retries before declaring stall
-99d41be813b4b138cffda62ccc61ee5772915ef6 spi: imx: keep dma request disabled before dma transfer setup
-2c3ecc8db711a9bfd2104bc79563ef91a3354e62 dma-mapping: Allow use of DMA_BIT_MASK(64) in global scope
-6b7e68606cebba51d1ae9a2ddcfa565cdf43a341 drm/vmwgfx: Use kref in vmw_bo_dirty
-89c8bd6658b8972e5d132070b0f1fa606812e5b5 Bluetooth: btrtl: Avoid loading the config file on security chips
-672c04279d5265be9426c00b446d3a62b5c566e8 smb: fix invalid username check in smb3_fs_context_parse_param()
-f3f9d49c6152b75554a3d17277378b709cf18d0c drm/amdkfd: Fix GPU mappings for APU after prefetch
-37a1a8244e7ab9bb0c7970733b9441afdf48e33f ALSA: usb-audio: Add native DSD quirks for PureAudio DAC series
-22b0e470ba126ab8c8641ac421302f72f4469831 bfs: Reconstruct file type when loading from disk
-460998968e65460a636f9ddff3dfbe7d60caf4bb HID: hid-input: Extend Elan ignore battery quirk to USB
-be4ba2c095497cc53076b5f9d873e0b6845ec95c nvme: fix admin request_queue lifetime
-5d1539c3cfea98000c034c377082bdd17fd4bedd pinctrl: qcom: msm: Fix deadlock in pinmux configuration
-86e8a06dcdad899edb0c22796a787de94e7ef125 platform/x86: acer-wmi: Ignore backlight event
-e38a453b477dbcf9d594aee963d04d9e26424cb1 HID: apple: Add SONiX AK870 PRO to non_apple_keyboards quirk list
-ff5bab925f78069a193d4a1548436e559312252c platform/x86: huawei-wmi: add keys for HONOR models
-4914a85ccd1cba6684b5d631ff70f28f013fc0e0 platform/x86/amd: pmc: Add Lenovo Legion Go 2 to pmc quirk list
-5a4a5986c86fcce7abfea01eca4e0a84a511e829 platform/x86/amd/pmc: Add spurious_8042 to Xbox Ally
-72d65ca6e4f3fb277e72a7de2fa91ef678f9c50f HID: elecom: Add support for ELECOM M-XT3URBK (018F)
-1e299a3f2e9b120034340fc2b319a1426055b3a5 LoongArch: Mask all interrupts during kexec/kdump
-6f1dd7832a223d34053fb3dc2a7941ac79fb531a samples: work around glibc redefining some of our defines wrong
-89203f74d9167ccb867712655838a149a069b194 wifi: rtl8xxxu: Add USB ID 2001:3328 for D-Link AN3U rev. A1
-19caf63a0007f56f3b57cf8f036d62e5c2714475 wifi: rtw88: Add USB ID 2001:3329 for D-Link AC13U rev. A1
-aea0bade48fe665a2104d90fbc4d9f4747581c3c comedi: c6xdigio: Fix invalid PNP driver unregistration
-1087adb32fd4581c249071d21f7600f2411e7c94 comedi: multiq3: sanitize config options in multiq3_attach()
-afa3153b98bf6aba3113c79ac302f796778b2e9c comedi: check device's attached status in compat ioctls
-6fed44b2278807d1d8f429847f2a0a7707cde3f3 staging: rtl8723bs: fix out-of-bounds read in rtw_get_ie() parser
-4afd5f3d6b1d0207c8f274433f0818c7c166e3c5 staging: rtl8723bs: fix stack buffer overflow in OnAssocReq IE parsing
-e74f36403d350719545591ba134053e9bd2010a3 staging: rtl8723bs: fix out-of-bounds read in OnBeacon ESR IE parsing
+f48a33eb5f92d656b6757f0b4e3e118c6c2c7d5a xfrm: delete x->tunnel as we delete x
+595d991a0082d938761a1a1342322fafc5e59cdb Revert "xfrm: destroy xfrm_state synchronously on net exit path"
+775e29d573024000fb141d0573ffe79eb46c5889 xfrm: also call xfrm_state_delete_tunnel at destroy time for states that were never added
+27458262560e97def42f836077347b31f02b41d4 xfrm: flush all states in xfrm_state_fini
+9742b92174b8d5e83b545522e233cf0519813841 Documentation: process: Also mention Sasha Levin as stable tree maintainer
+d6a122c188f46d39b5f36fe66e13fd4ce1a21ce3 jbd2: avoid bug_on in jbd2_journal_get_create_access() when file system corrupted
+24cf5918129f3bbf0effa3facbfd8288c49d9164 ext4: refresh inline data size before write operations
+cf33230a8e5a33e734d1903f40b4b87b98c7aa12 ksmbd: ipc: fix use-after-free in ipc_msg_send_request
+5aa81fceed47071f0a2c9e41387370a6089c6cb6 locking/spinlock/debug: Fix data-race in do_raw_write_lock
+aac674d86e9e16e628a138f3643120bbdd7f097c ext4: add i_data_sem protection in ext4_destroy_inline_data_nolock()
+4289d1887a1bdced6bed213c995444715592ba39 comedi: pcl818: fix null-ptr-deref in pcl818_ai_cancel()
+cce9f3e067ae6969e1ae8bd32fbccc661ade45dc KVM: SVM: Don't skip unrelated instruction if INT3/INTO is replaced
+748c33f13b1b03d8331c83b362548c610dd4a88d USB: serial: option: add Foxconn T99W760
+f8f436884804c74d1399a74e1f9e12c3a1b4953c USB: serial: option: add Telit Cinterion FE910C04 new compositions
+f68b85e883b335c1abbddadcfcd0d00dc47a7f34 USB: serial: option: move Telit 0x10c7 composition in the right place
+c3ba2d5db8ece239cf685057656995225885389a USB: serial: ftdi_sio: match on interface number for jtag
+e18db9cf4a833be7a4bbf1f71171eadc95a557cd serial: add support of CPCI cards
+af0021e4f7573a72029eb56342b2e4bd2ce8b979 USB: serial: belkin_sa: fix TIOCMBIS and TIOCMBIC
+aac6a5f8bdd99b4bc6b04c355f2b9cd6509b6d40 USB: serial: kobil_sct: fix TIOCMBIS and TIOCMBIC
+ec37e8239ee5383c05a849eba8090ba830baaf84 ftrace: bpf: Fix IPMODIFY + DIRECT in modify_ftrace_direct()
+53d11c8149301b247caea586f113141052005497 spi: xilinx: increase number of retries before declaring stall
+5ce0212a6e96f236b1fe0d885f216afd9b20aa9e spi: imx: keep dma request disabled before dma transfer setup
+8939b9db9239c0c04db0dbf167ca3604637f43d2 dma-mapping: Allow use of DMA_BIT_MASK(64) in global scope
+84a647c812b1b8ca2ddc9c00abf53001637f40af drm/vmwgfx: Use kref in vmw_bo_dirty
+3fdd567533a36edb1a6980809f3bc4bb73bf6df8 Bluetooth: btrtl: Avoid loading the config file on security chips
+b0c1a7bc3cf7bf58b2152a52dcfb0a7c1bd4f852 smb: fix invalid username check in smb3_fs_context_parse_param()
+73aeb634d3b7c79084a21fe1bb7d8c1b3a0f031e drm/amdkfd: Fix GPU mappings for APU after prefetch
+bad5bc64e1ee4bdce23ddb6d279f32e643ed8020 ALSA: usb-audio: Add native DSD quirks for PureAudio DAC series
+fbbeb0ed2c7164562c5ca94d82b55827555aa605 bfs: Reconstruct file type when loading from disk
+6b01ddfb9c0f02b00b8d22d7873aa5da837a98da HID: hid-input: Extend Elan ignore battery quirk to USB
+51dca8b9ffab2a22ad94c4d88ff186840431b9b7 nvme: fix admin request_queue lifetime
+333a008127f2ca0d9f81d92495ba9676fe4e5905 pinctrl: qcom: msm: Fix deadlock in pinmux configuration
+814dd242732a89e3efd1e20025be0ea1db9cfe22 platform/x86: acer-wmi: Ignore backlight event
+740511950b4b3409573d4b58be32d973b86496d3 HID: apple: Add SONiX AK870 PRO to non_apple_keyboards quirk list
+6b13753dd1c5977c092b25c879d2f4ed30ead26b platform/x86: huawei-wmi: add keys for HONOR models
+f317df60fdde1f64352b5ca853f6d283d605b316 platform/x86/amd: pmc: Add Lenovo Legion Go 2 to pmc quirk list
+84e4f4738d038c5a92cc2c8511dc8eccf523df8f platform/x86/amd/pmc: Add spurious_8042 to Xbox Ally
+d379d759abc6f23c3a04ebdb4d7ccba86343ade8 HID: elecom: Add support for ELECOM M-XT3URBK (018F)
+20bad92f5fbbeda3970aa6b617eb82a9e531ab7a LoongArch: Mask all interrupts during kexec/kdump
+0f455978c5d311a20410faad03a569f512a5e7ff samples: work around glibc redefining some of our defines wrong
+c19270b7fc2ec725bf5fe379a2db90b815887cb6 wifi: rtl8xxxu: Add USB ID 2001:3328 for D-Link AN3U rev. A1
+c0517f7ac371bf11a1f3d74b3463ceb153f51f8c wifi: rtw88: Add USB ID 2001:3329 for D-Link AC13U rev. A1
+9e804d01ebdcaa7736673e5f5b2b6870d24b3e93 comedi: c6xdigio: Fix invalid PNP driver unregistration
+3fc9245ea16aaf2e0beb9bfb8aad42c27dd9a866 comedi: multiq3: sanitize config options in multiq3_attach()
+e4860b410b591c6f1955a31f9eada33fe2cf90f8 comedi: check device's attached status in compat ioctls
+08fa5558748a41306e79342bee96908d6e2262c4 staging: rtl8723bs: fix out-of-bounds read in rtw_get_ie() parser
+887be0309a86f0ed775ce6c8dec7dff5db37a5ee staging: rtl8723bs: fix stack buffer overflow in OnAssocReq IE parsing
+91eddd12b649e057ea3ceb7d28aca9986619a778 staging: rtl8723bs: fix out-of-bounds read in OnBeacon ESR IE parsing
 
---===============7504897172128025691==
+--===============6255850018309740047==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f841ca38a58b-7628dee21b9e.txt
+Content-Disposition: attachment; filename=revlist-7628dee21b9e-113264c289fd.txt
 
-dc6125813974619035fd84f752eb888af77baa2f Documentation: process: Also mention Sasha Levin as stable tree maintainer
-b5058418bad1b2aa34036d516b1e0727be9a594a jbd2: avoid bug_on in jbd2_journal_get_create_access() when file system corrupted
-d50db2c65ee6cb526cb53fd15e4e7279c7b41acf ext4: refresh inline data size before write operations
-67f281f60ab74bcc08e080e4e7187141578cc995 ksmbd: ipc: fix use-after-free in ipc_msg_send_request
-1a9dece80bc8969b49d8e082135b540056f990a9 locking/spinlock/debug: Fix data-race in do_raw_write_lock
-7db17bc06caf3bfad3afbc93390829b7152f4cd3 crypto: zstd - fix double-free in per-CPU stream cleanup
-d48ec2a75c8cc5373b40ef4ab7944e5eaf9d06b2 ext4: add i_data_sem protection in ext4_destroy_inline_data_nolock()
-6f0e9edcf3466200ef4a2e9d3ae2f327d6b732c5 comedi: pcl818: fix null-ptr-deref in pcl818_ai_cancel()
-b601ae6b2be6ed69b846acda2b1799d61276f88c KVM: SVM: Don't skip unrelated instruction if INT3/INTO is replaced
-4649ccb359e2ee69fadc13878657fa68d9313641 USB: serial: option: add Foxconn T99W760
-a4168fa3c08417108971a023bfb4c6ff12733bd8 USB: serial: option: add Telit Cinterion FE910C04 new compositions
-d83c9a7b699531b7c3c56768447b97f4feee0ace USB: serial: option: move Telit 0x10c7 composition in the right place
-0cc39d7a81771a424a02ecc0383f6e6e291b2731 USB: serial: ftdi_sio: match on interface number for jtag
-2cecace70f2c6137a3567217f620f890b6df68fc serial: add support of CPCI cards
-ac0a6bbfbd385bb16a5fe0378c453ec8e8c9d420 dt-bindings: serial: rsci: Drop "uart-has-rtscts: false"
-fe78b32e70c62958bf80c99c47a05731128eda58 serial: sh-sci: Fix deadlock during RSCI FIFO overrun error
-883f16b7876ff19c0d5e68d679f6ec393f18eb2d USB: serial: belkin_sa: fix TIOCMBIS and TIOCMBIC
-b47a05ef1057208fd1a3c61737f2e63d6c87717a USB: serial: kobil_sct: fix TIOCMBIS and TIOCMBIC
-f1a965749a4a8926aa0804a5b86a14e1bf338610 ftrace: bpf: Fix IPMODIFY + DIRECT in modify_ftrace_direct()
-3acda239b03bf65df17211bb5d0a72be1ab119f3 spi: xilinx: increase number of retries before declaring stall
-c1a9a7d325b864947f70a7c3dba3b6b714b012d8 spi: imx: keep dma request disabled before dma transfer setup
-5f5afe2fea885a3ecc8b0a7af0a0a5c9e67a6db3 dma-mapping: Allow use of DMA_BIT_MASK(64) in global scope
-9b3fa90ae47bfb5ca2ca8e8adc202909c423b7c4 ACPI: MRRM: Fix memory leaks and improve error handling
-b7fd5dc2d589ebde51c062977126cdb7fb120f8b drm/vmwgfx: Use kref in vmw_bo_dirty
-706c5c141f11da3abbc5e9cdbca9525fb6fd2f7b arm64: Reject modules with internal alternative callbacks
-cd8e4d2c82a85bb584adb90927ea34ac863f934b ALSA: hda/tas2781: Add new quirk for HP new projects
-09a5be6b65f1bcfe22ed730763b000c0540ba12d Bluetooth: btrtl: Avoid loading the config file on security chips
-4e3cf636baa062d5c924ad912fa80cc19cbf1c33 ASoC: SDCA: bug fix while parsing mipi-sdca-control-cn-list
-9701c021e6fda36599c2bf36897d80328da22328 smb: fix invalid username check in smb3_fs_context_parse_param()
-6dccb643229ed3edd4b7b66f436a6c21486a1505 drm/amdkfd: Fix GPU mappings for APU after prefetch
-4c8f09ebafd0c0f73df1bae68c01084776c964ad ALSA: usb-audio: Add native DSD quirks for PureAudio DAC series
-7781ee05a3e19ffc1cab685d1e8c4adc2b241c84 HID: lenovo: fixup Lenovo Yoga Slim 7x Keyboard rdesc
-2ad9baa992f9cded782c6e75899593756212d35c bfs: Reconstruct file type when loading from disk
-721c795b7118ac824e3b733f46983b72de3b89fc HID: hid-input: Extend Elan ignore battery quirk to USB
-095cdff0c130605f56f48232653d1a92b3ac1645 platform/x86/amd/pmc: Add support for Van Gogh SoC
-9a2aace3564383c58afbfb303039b11d4eca0b09 platform/x86: hp-wmi: mark Victus 16-r0 and 16-s0 for victus_s fan and thermal profile support
-edb8b77cb722b4306d7019d4b9921550f787c144 nvme: fix admin request_queue lifetime
-9f95474e119d2a2356e5f7c53c45928511de8d09 pinctrl: qcom: msm: Fix deadlock in pinmux configuration
-0acde3e85fef88925415d40d629dd3bdf9221379 platform/x86: acer-wmi: Ignore backlight event
-670253448422ac56c806486dfa8f36e56bf5e624 HID: apple: Add SONiX AK870 PRO to non_apple_keyboards quirk list
-2c6ccd700ce2b29073cf8bdd13f51d915db601b6 platform/x86: huawei-wmi: add keys for HONOR models
-c9f65a6b969c192b9a8373d23c6718a6d085daed platform/x86: intel-uncore-freq: Add additional client processors
-dc9b9b9174e189045a142b23da788dd877ef896f platform/x86/amd: pmc: Add Lenovo Legion Go 2 to pmc quirk list
-32f4ec4869db1eea7a52d36d92dfb5291c6546cd platform/x86/amd/pmc: Add spurious_8042 to Xbox Ally
-18beaaf933960bfa544ec2438c8826830d6271e0 sched_ext: Fix possible deadlock in the deferred_irq_workfn()
-4cbaafc0914cbdf05d268405e70a3f1f68279808 platform/x86/intel/hid: Add Nova Lake support
-87a4bb7f787ee0169a54611b04d9c2b3dfa35c6b HID: elecom: Add support for ELECOM M-XT3URBK (018F)
-224013557ab64f521a25c5267972dd5332b2fefe sched_ext: Use IRQ_WORK_INIT_HARD() to initialize rq->scx.kick_cpus_irq_work
-880a854100572d4792e22386a42d7eddab549ada LoongArch: Mask all interrupts during kexec/kdump
-8cee13ce5f0c0c0f0ebb03b0711c5a879937003f samples: work around glibc redefining some of our defines wrong
-0b52a63ab82b3b2869e3d13dc42f16fcdaf4d76e platform/x86: hp-wmi: Add Omen 16-wf1xxx fan support
-7628dee21b9ed4e9709000e23efaffdc448e78fd platform/x86: hp-wmi: Add Omen MAX 16-ah0xx fan support and thermal profile
+c1ad8f32a382a42eb93ee8c5a44b0b5675799460 Documentation: process: Also mention Sasha Levin as stable tree maintainer
+b940d45a637494e42b457d56ae6ae54be8d595d0 jbd2: avoid bug_on in jbd2_journal_get_create_access() when file system corrupted
+07d00b5c5bffed0e5e49ad3a8549201112fc9788 ext4: refresh inline data size before write operations
+8d46ca9bf09a6248f7b1bb3e0b1811c27478e73b ksmbd: ipc: fix use-after-free in ipc_msg_send_request
+657d9ad995ada91d4e7368d48a563dba10d03f66 locking/spinlock/debug: Fix data-race in do_raw_write_lock
+d943ec6e3b0f6a79502f67b1692fc337edcf6337 crypto: zstd - fix double-free in per-CPU stream cleanup
+7f08aa240697ba352a66ec55eaaeeeaed4e0a1f6 ext4: add i_data_sem protection in ext4_destroy_inline_data_nolock()
+c3d70c1f069d298cc73663e54ee2b377e2ec35b3 comedi: pcl818: fix null-ptr-deref in pcl818_ai_cancel()
+b8224c8e23fd19ce694c430e404b4fc87430188c KVM: SVM: Don't skip unrelated instruction if INT3/INTO is replaced
+f3cfd9c3672a58da909972ef105189116c5aecd7 USB: serial: option: add Foxconn T99W760
+3d3b27c5fc02a09a7f19cfa4c456424fe1e971d7 USB: serial: option: add Telit Cinterion FE910C04 new compositions
+a8380469411b461ab4a5257768e819f78e03719e USB: serial: option: move Telit 0x10c7 composition in the right place
+480a6f22dc849b95133efc3dca371f92aaaf48eb USB: serial: ftdi_sio: match on interface number for jtag
+12939db2c72f74d474cca343278e18a6c514228b serial: add support of CPCI cards
+a80733a7de2604cbe453152a37ca8db4394191a6 dt-bindings: serial: rsci: Drop "uart-has-rtscts: false"
+ac101791d42c3d6012e552c07138bccaad48cb97 serial: sh-sci: Fix deadlock during RSCI FIFO overrun error
+25fa8c405d3544fc665fda0a32cae2e1421ac12d USB: serial: belkin_sa: fix TIOCMBIS and TIOCMBIC
+91c9607e2e8acaf5152b3b052fdcb9c9854e3854 USB: serial: kobil_sct: fix TIOCMBIS and TIOCMBIC
+537cd8267151d89baca4f0861b6c5572401e7188 ftrace: bpf: Fix IPMODIFY + DIRECT in modify_ftrace_direct()
+11e5f8f04e542fabe57193e5c073117dc7040f23 spi: xilinx: increase number of retries before declaring stall
+e0ef7a8efb5158df442b59f9d139b85f4629f4c1 spi: imx: keep dma request disabled before dma transfer setup
+fd04f9eecc474a91c2e0d4d1e927d2665f6dbbf8 dma-mapping: Allow use of DMA_BIT_MASK(64) in global scope
+15f8b1c86df7f8a232f9648127021fe5187ce262 ACPI: MRRM: Fix memory leaks and improve error handling
+df115cdc8c78cfd846b20ba97368ad17c34e7ac1 drm/vmwgfx: Use kref in vmw_bo_dirty
+c97f8e183006fe86887c2b04146cfc57d6027767 arm64: Reject modules with internal alternative callbacks
+7319cc0dd14dbdb87fb830b92e7dbfa5d7fa84f0 ALSA: hda/tas2781: Add new quirk for HP new projects
+bfe79d4ea4bddde708a16bb1cc1238c0420410db Bluetooth: btrtl: Avoid loading the config file on security chips
+95bdebbe5d0358da6132f992e6604859cc29d0ce ASoC: SDCA: bug fix while parsing mipi-sdca-control-cn-list
+3bd352fc914f8ad1ca42e73246d5a7786028124c smb: fix invalid username check in smb3_fs_context_parse_param()
+069959d1ebffcdb2b90a5b879e2da456a30e3cf6 drm/amdkfd: Fix GPU mappings for APU after prefetch
+6d68c349e0e4d0b4fc232dab5632bbe151020ff7 ALSA: usb-audio: Add native DSD quirks for PureAudio DAC series
+f1723806ca7fb240d6ba4e26ae62f6b5281124b9 HID: lenovo: fixup Lenovo Yoga Slim 7x Keyboard rdesc
+87e44e843d02a265ef9228b90b6e620f453cac7b bfs: Reconstruct file type when loading from disk
+5df575eafbba3c9d4735a509af3868cecefafe89 HID: hid-input: Extend Elan ignore battery quirk to USB
+9689d369b4d4dd7862afd87d8989d994f98c66d0 platform/x86/amd/pmc: Add support for Van Gogh SoC
+c2cc54554d006502cba9d6b6b0f1462173540cb1 platform/x86: hp-wmi: mark Victus 16-r0 and 16-s0 for victus_s fan and thermal profile support
+bd42d9b6823b959af724378a3545fe9d52471651 nvme: fix admin request_queue lifetime
+4aae4e8269d75761413baae1d19f61fdbcb36131 pinctrl: qcom: msm: Fix deadlock in pinmux configuration
+696b30258935b5c83b469142d5480bec27c2220a platform/x86: acer-wmi: Ignore backlight event
+c64d18a338f118e482a5e0585f6a3e2e87124ed0 HID: apple: Add SONiX AK870 PRO to non_apple_keyboards quirk list
+859bd8b9a5f5c32905109ee48c9bb8403ea3618e platform/x86: huawei-wmi: add keys for HONOR models
+9e2bbd386fb8b15ea97740daa16e0bd022ff942f platform/x86: intel-uncore-freq: Add additional client processors
+29dcf0d9d79e247931d148bcdbe34dda1584a943 platform/x86/amd: pmc: Add Lenovo Legion Go 2 to pmc quirk list
+24f05f0109259daa859c3f0fca632d65b39c188a platform/x86/amd/pmc: Add spurious_8042 to Xbox Ally
+fb27dec408dafdc7809b0166c58346d799930186 sched_ext: Fix possible deadlock in the deferred_irq_workfn()
+b342d3619733b15402f61bc12b9dc0d0cecc64ff platform/x86/intel/hid: Add Nova Lake support
+919efa33be8f942eb1c740737f83459e57fb6d1e HID: elecom: Add support for ELECOM M-XT3URBK (018F)
+993cb3064e7d8c7b9ac23d4b3e568df35833e68b sched_ext: Use IRQ_WORK_INIT_HARD() to initialize rq->scx.kick_cpus_irq_work
+6c94bbb524c7f74f94ccfb6b88957c9551bd1f3a LoongArch: Mask all interrupts during kexec/kdump
+6804ff1a29eafbfa7ccd59246442dfc74a25c6a9 samples: work around glibc redefining some of our defines wrong
+3b15527453242ff9479fb85181c6664cad480b2f platform/x86: hp-wmi: Add Omen 16-wf1xxx fan support
+fe8211480ce888c4347a030ab3182725ee249967 platform/x86: hp-wmi: Add Omen MAX 16-ah0xx fan support and thermal profile
+1939e4352ae74a5389d5ba66843bda873ec1dcab wifi: rtl8xxxu: Add USB ID 2001:3328 for D-Link AN3U rev. A1
+0df67c26dfaf9484ba2a8a6888e3adda498ff66d wifi: rtw88: Add USB ID 2001:3329 for D-Link AC13U rev. A1
+29f527ddc037f26f409f82e4871842799640600e iio: adc: ad4080: fix chip identification
+27dd5cb5d0c8dd5aec96305bb11a44d7c6e4265c comedi: c6xdigio: Fix invalid PNP driver unregistration
+1051aa329c94e7dce6763937a7a110233c03d23d comedi: multiq3: sanitize config options in multiq3_attach()
+910b78a0108e6213dfefad6373b06b75a30628df comedi: check device's attached status in compat ioctls
+6cde8457b061f458b6c6deb1ba5c0f90e0e956a3 staging: rtl8723bs: fix out-of-bounds read in rtw_get_ie() parser
+5641bdf01c0f402eb0a4addef621f8f95d1c4fa0 staging: rtl8723bs: fix stack buffer overflow in OnAssocReq IE parsing
+113264c289fd8f076649410df6cfac15eb00475a staging: rtl8723bs: fix out-of-bounds read in OnBeacon ESR IE parsing
 
---===============7504897172128025691==
+--===============6255850018309740047==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0f6a747032db-bc01fa079609.txt
+Content-Disposition: attachment; filename=revlist-bc01fa079609-7958b28d55fe.txt
 
-71bd8e61b7edb44d71059c1e62b2d78764bd86fd Documentation: process: Also mention Sasha Levin as stable tree maintainer
-b69f1faac9349b65e5ba9706bb929b37e7ca2da4 jbd2: avoid bug_on in jbd2_journal_get_create_access() when file system corrupted
-9d2f5cc1e7082d84bd456f2e939f4766ced2aa37 ext4: refresh inline data size before write operations
-6e7a14a0ab8eb32fcd1bd26befeac12077c87580 ksmbd: ipc: fix use-after-free in ipc_msg_send_request
-82f8d2ac89a5855e6cd4ee6271762781e0cbd53e locking/spinlock/debug: Fix data-race in do_raw_write_lock
-95a295cea519c12bded49d0f0867816b9c98ec96 crypto: zstd - fix double-free in per-CPU stream cleanup
-b2ac74b5257a29850d134e53c509c464ad3595d9 ext4: add i_data_sem protection in ext4_destroy_inline_data_nolock()
-b6ced1a9d9398a5395d4c48b60981019b7335464 rust_binder: fix race condition on death_list
-664046d32f393eab422163c046db4438677e172f comedi: pcl818: fix null-ptr-deref in pcl818_ai_cancel()
-fed5f42b0bed22990dc974013d8706285d83b707 KVM: SVM: Don't skip unrelated instruction if INT3/INTO is replaced
-f54a0f9e539c6d60ba07d7ca69189cfaead2fea0 USB: serial: option: add Foxconn T99W760
-91e6b001025f65004137d656a39c12e3d48ba071 USB: serial: option: add Telit Cinterion FE910C04 new compositions
-63227b7f371777dd9a8de68f2772aedd1787aa3c USB: serial: option: move Telit 0x10c7 composition in the right place
-7de81f440bc8ab8df7514122b2eb028813c7bcaf USB: serial: ftdi_sio: match on interface number for jtag
-ef6092a34cc661cbbb0c1f4be92353246c8ce58c serial: add support of CPCI cards
-41e348ca5936e906f13b443d89a3e2a02af84597 dt-bindings: serial: rsci: Drop "uart-has-rtscts: false"
-54190d488c9c7342efd5d554ba154648e963968f serial: sh-sci: Fix deadlock during RSCI FIFO overrun error
-5f988b27b230072bce719d128b6d0181483f658e USB: serial: belkin_sa: fix TIOCMBIS and TIOCMBIC
-87b185190b52ef56b2e11953d8d723930304842f USB: serial: kobil_sct: fix TIOCMBIS and TIOCMBIC
-bc01fa079609c4c9c901aa26b37f5c648751b180 Documentation/rtla: rename common_xxx.rst files to common_xxx.txt
+a6278f79fc9cb1e54eaa9a88468dca70eb522dda Documentation: process: Also mention Sasha Levin as stable tree maintainer
+d175a8884bf07865ee21a9e270b7cc80c3203c85 jbd2: avoid bug_on in jbd2_journal_get_create_access() when file system corrupted
+6513a1d07c9d3ca795ad071c88b212fc675248ec ext4: refresh inline data size before write operations
+c68cffd1d0eef16d57953f898c1fc4086c11b410 ksmbd: ipc: fix use-after-free in ipc_msg_send_request
+d12d476eba4efce12c156078ecf1f68d085e9838 locking/spinlock/debug: Fix data-race in do_raw_write_lock
+5a9c609b919578bd399d44eb75709c01de6ffbb6 crypto: zstd - fix double-free in per-CPU stream cleanup
+6500954a9ac200c8f424459d3335e1d0ae18fd76 ext4: add i_data_sem protection in ext4_destroy_inline_data_nolock()
+971a5597d180a2b01671175c089b98ee2aa18dce rust_binder: fix race condition on death_list
+d9f1444a07dac19bf19ac031ef474da1df0b8e9f comedi: pcl818: fix null-ptr-deref in pcl818_ai_cancel()
+83e3445f4647dc5774e10c28cab247a044450264 KVM: SVM: Don't skip unrelated instruction if INT3/INTO is replaced
+14265689e7e1172f89dfbd933ca27af7267c7c1a USB: serial: option: add Foxconn T99W760
+f7bf0bec96b4d05cf3a82c48e20b0ef1453b852a USB: serial: option: add Telit Cinterion FE910C04 new compositions
+9893625c7a814ffa4bb019d411f103f909cbed4c USB: serial: option: move Telit 0x10c7 composition in the right place
+40af88ef4f30501e117dc5782636ca66b5b8f3c1 USB: serial: ftdi_sio: match on interface number for jtag
+78932c3b901807f1ebd74aa18029a9acde8fe773 serial: add support of CPCI cards
+b84ca25b952fb3bacd4a6f775657fad004c39d70 dt-bindings: serial: rsci: Drop "uart-has-rtscts: false"
+29f87d56169efb71deb15566967a34c5c688f43b serial: sh-sci: Fix deadlock during RSCI FIFO overrun error
+bb522b4327d2b80dce6c9a4dbbbb4925d20ffaf9 USB: serial: belkin_sa: fix TIOCMBIS and TIOCMBIC
+3057f29f17f6f272f2d529c2045b68cf5ad00fa6 USB: serial: kobil_sct: fix TIOCMBIS and TIOCMBIC
+6f4810101a1809edb3a3d59839988a2693d893d7 Documentation/rtla: rename common_xxx.rst files to common_xxx.txt
+8d7c4f933114f0db7c1824f150ce79a05f95dc98 wifi: rtl8xxxu: Add USB ID 2001:3328 for D-Link AN3U rev. A1
+2f61ba16b6e2cd92ffe97dbbb8c61e465849bf77 wifi: rtw88: Add USB ID 2001:3329 for D-Link AC13U rev. A1
+089e31514ddc62748914375331c0d67ecbec974c iio: adc: ad4080: fix chip identification
+f24056376073c470da0e0c2f4fb288a5dcad3e3f comedi: c6xdigio: Fix invalid PNP driver unregistration
+64cb24ee08474b0058fdc24957c1272db32cc23a comedi: multiq3: sanitize config options in multiq3_attach()
+f19d145fb6697e42ad8828b14f66de0a5cf22659 comedi: check device's attached status in compat ioctls
+b34edc7807c977c7f1cf5efcc8537593723c0f9b staging: rtl8723bs: fix out-of-bounds read in rtw_get_ie() parser
+dee9f1cf2d5bc94083c7b8e1625db045c0145a3f staging: rtl8723bs: fix stack buffer overflow in OnAssocReq IE parsing
+7958b28d55fe5cc872f7c4106c03a4c1952d4c02 staging: rtl8723bs: fix out-of-bounds read in OnBeacon ESR IE parsing
 
---===============7504897172128025691==
+--===============6255850018309740047==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-fcddb461b0fb-78f4350640ca.txt
+Content-Disposition: attachment; filename=revlist-78f4350640ca-a4d4b1dcf604.txt
 
-f37a2f1816b7a0dcbb84eb890a5737d0991b3cdf xfrm: delete x->tunnel as we delete x
-8062355eb199ebd36c8767f899ad7187c4a4990b Revert "xfrm: destroy xfrm_state synchronously on net exit path"
-f2e75145e0332df2bc4bbbccaa8ebc40449f72b6 xfrm: also call xfrm_state_delete_tunnel at destroy time for states that were never added
-3edc7c09fdfda0cfcde91e2b8340871d2aaa6c10 xfrm: flush all states in xfrm_state_fini
-be5c3182e684668ee4c2100463c385be2ee846b7 leds: spi-byte: Use devm_led_classdev_register_ext()
-f0d7ff025ffa4adbfc0bf90b02836586e90a7e50 Documentation: process: Also mention Sasha Levin as stable tree maintainer
-c2d95f67114b2002c185e9d6270dac380e17dcf5 jbd2: avoid bug_on in jbd2_journal_get_create_access() when file system corrupted
-84c21e8f074be77e879abfedb96a129d0d3ce3d9 ext4: refresh inline data size before write operations
-498b12b318e8186043051c6b9d558aca343816e4 ksmbd: ipc: fix use-after-free in ipc_msg_send_request
-e2577609711e49f5bcc555b333a531a3f2c369cb locking/spinlock/debug: Fix data-race in do_raw_write_lock
-ff77c51c1e5c765bf7547b4d7fa38711db254d17 ext4: add i_data_sem protection in ext4_destroy_inline_data_nolock()
-cda7090e01bd2c87cd802deae04a58788b6bfba7 comedi: pcl818: fix null-ptr-deref in pcl818_ai_cancel()
-ac0af396196703ac59416bddc6fef578574a12b9 KVM: SVM: Don't skip unrelated instruction if INT3/INTO is replaced
-a439b90deb39a516978dead0a3a2d117cc86dbc9 USB: serial: option: add Foxconn T99W760
-d27cfaa95a2e2b25a55a52cd1b6c26cbd6d56f06 USB: serial: option: add Telit Cinterion FE910C04 new compositions
-c5fef79f8006cfbc1058e832b5e5d678bca14463 USB: serial: option: move Telit 0x10c7 composition in the right place
-de0d65c42f5f1947cfc5b593b6d69d14b592bbde USB: serial: ftdi_sio: match on interface number for jtag
-69e0c1feec38bd1bbc6baba3b7eca14a7d8a4da7 serial: add support of CPCI cards
-aeb714df3bb68d70f6f1e3b110399f4e904e1e8a USB: serial: belkin_sa: fix TIOCMBIS and TIOCMBIC
-d6c7ea5a7b3cb86d00332b8411be0694f73bc40d USB: serial: kobil_sct: fix TIOCMBIS and TIOCMBIC
-296c3554f3c105f81c561bd525cf7fc777c9d5b2 ftrace: bpf: Fix IPMODIFY + DIRECT in modify_ftrace_direct()
-1c05ecba8004e992eafedf9db130ce8ae654acee spi: xilinx: increase number of retries before declaring stall
-e525bad00354ab30dc322f92d6ab96dce7b903d3 spi: imx: keep dma request disabled before dma transfer setup
-93106e4339a2115169e6e729bbe48bc0f9283cb0 dma-mapping: Allow use of DMA_BIT_MASK(64) in global scope
-68bba300b81057cfcbfe8c2c441579aa9b1e98e9 drm/vmwgfx: Use kref in vmw_bo_dirty
-30adca494e301c99b2d8919920546d96fecb6b71 Bluetooth: btrtl: Avoid loading the config file on security chips
-fc14af21bb7570d1be0ccd16a43edeb09df3ec19 smb: fix invalid username check in smb3_fs_context_parse_param()
-e62c96372bc417a66a7d497137dd6bb03c2bc2ea ALSA: usb-audio: Add native DSD quirks for PureAudio DAC series
-0e9851b79c6aad9c88efb70d37571765b006505f bfs: Reconstruct file type when loading from disk
-cdcc44c2cd9d74f9c755809c2d7a54203fd6c7c6 HID: hid-input: Extend Elan ignore battery quirk to USB
-9a634b32116b6f6d9becb5fbfa5b6dac6f89c034 nvme: fix admin request_queue lifetime
-fcc5c825537b7af00e942dd4c91bb14bac6f3589 pinctrl: qcom: msm: Fix deadlock in pinmux configuration
-9f72158676621f03094f36292d83f1c6e1c20925 platform/x86: acer-wmi: Ignore backlight event
-3c4460d6e671710a08836f127cc15bc44d2e0662 HID: apple: Add SONiX AK870 PRO to non_apple_keyboards quirk list
-77acb665ab88006758fe6e0bcafa9c5a96b5e61d platform/x86: huawei-wmi: add keys for HONOR models
-a3466255558130d1fdf5c0f42c808e20cf087626 platform/x86/amd: pmc: Add Lenovo Legion Go 2 to pmc quirk list
-a9fe4cdedc97957ada6f4d11b237dbbafcf72d5a platform/x86/amd/pmc: Add spurious_8042 to Xbox Ally
-527aeab8c71e3eb0a5bb4c002288abdc84bc71cc HID: elecom: Add support for ELECOM M-XT3URBK (018F)
-1873a649a492a34601d00f24c355a3df9db52e03 LoongArch: Mask all interrupts during kexec/kdump
-6c59fe732da0538de734a186b4ea006dbc06fd5f samples: work around glibc redefining some of our defines wrong
-01426d4be6ff1e0742b2828d1c39c7e0ffdd61a7 wifi: rtw88: Add USB ID 2001:3329 for D-Link AC13U rev. A1
-df8cc18162243de5b32ea91aef5c0d6100515976 comedi: c6xdigio: Fix invalid PNP driver unregistration
-80dca390a94f51af62d5f7b466dc3381d358e236 comedi: multiq3: sanitize config options in multiq3_attach()
-42bf63b9d6273440ba3a13599e29a436c34470d2 comedi: check device's attached status in compat ioctls
-ec8cc8536287ee3db96fb803b7dfcded624a69f8 staging: rtl8723bs: fix out-of-bounds read in rtw_get_ie() parser
-c5965c32737efc416a2f5fdf875704f41bfccdbe staging: rtl8723bs: fix stack buffer overflow in OnAssocReq IE parsing
-78f4350640ca2a7343ac98d5970abc6ba4d6fd94 staging: rtl8723bs: fix out-of-bounds read in OnBeacon ESR IE parsing
+1e66ca5fb3f313d98ee045264d675ebff09120db xfrm: delete x->tunnel as we delete x
+a38dfd06fd8da58018158049ce5920bd13ba23bb Revert "xfrm: destroy xfrm_state synchronously on net exit path"
+a42b4048c7d10426a070e3902d48fa5a92bf1a17 xfrm: also call xfrm_state_delete_tunnel at destroy time for states that were never added
+2ed7dbb866c2f5c3e271f69262750a3d2f53a92c xfrm: flush all states in xfrm_state_fini
+33ce8a8da3d5cf6ad0bc7fc028f418fc9672bf53 leds: spi-byte: Use devm_led_classdev_register_ext()
+80ca972117ba651356d54d23684a246ea5a0e37e Documentation: process: Also mention Sasha Levin as stable tree maintainer
+bf1e281fcf554e853bb099243393ad960938961c jbd2: avoid bug_on in jbd2_journal_get_create_access() when file system corrupted
+f25d6db6ee03e337dcc95efd1ae658a0ece1fa40 ext4: refresh inline data size before write operations
+a46ebe8dbccbb88817a1ed3cc329c6d4066da7bc ksmbd: ipc: fix use-after-free in ipc_msg_send_request
+d2f2d84a02ae5be5a1e12ca70cd3ee60542dbe6d locking/spinlock/debug: Fix data-race in do_raw_write_lock
+52eb39a42f4ccadfce7750cc160149163c584f87 ext4: add i_data_sem protection in ext4_destroy_inline_data_nolock()
+a90ea608a601318a9511ece690bda5e79c2263d8 comedi: pcl818: fix null-ptr-deref in pcl818_ai_cancel()
+5227bd624603ff07ea66d9771d727f72fe547b7c KVM: SVM: Don't skip unrelated instruction if INT3/INTO is replaced
+046f7ce6022073b1a2015927941cf933abcbdf22 USB: serial: option: add Foxconn T99W760
+f7e3beeb5d15537ccc6f93dab29002e19dc5e087 USB: serial: option: add Telit Cinterion FE910C04 new compositions
+9a467fdd6f00bd61aaf8cced332f2c4c4758aca9 USB: serial: option: move Telit 0x10c7 composition in the right place
+6bee56bcd8ede2eb54de183411026f16f0d1e22e USB: serial: ftdi_sio: match on interface number for jtag
+f595287729c5e855fda065092ba31d0139dd04f0 serial: add support of CPCI cards
+ebd4d1ba74f45406be908a54b5a3a7ea92ea9e23 USB: serial: belkin_sa: fix TIOCMBIS and TIOCMBIC
+8090318b94d01f47bd733ba6e65cd457b72e0ce3 USB: serial: kobil_sct: fix TIOCMBIS and TIOCMBIC
+d643122dfdb5532eff653ca4ff5ceb3d80b8de67 ftrace: bpf: Fix IPMODIFY + DIRECT in modify_ftrace_direct()
+eea3df3900244e0d3ece7c3b8c41ba5389f257e9 spi: xilinx: increase number of retries before declaring stall
+51e3f488b514247cb46ab53115d3018a83e1d9d3 spi: imx: keep dma request disabled before dma transfer setup
+9775d1f8adb4d3a128bbcf1717894bf71269ed73 dma-mapping: Allow use of DMA_BIT_MASK(64) in global scope
+0d540407367f74d39a35ecb88b4ba830c5f55d1c drm/vmwgfx: Use kref in vmw_bo_dirty
+8b5a405c0f9c6ce27e06d2cb3ea12c02d51b2ad1 Bluetooth: btrtl: Avoid loading the config file on security chips
+3ea9098bb60959cb325a005b87c481fa94df132b smb: fix invalid username check in smb3_fs_context_parse_param()
+7a0616ec11a6592b41ba3e493553e41ceacfa072 ALSA: usb-audio: Add native DSD quirks for PureAudio DAC series
+c2c54aaff5327eac91db43de490634d5334a8488 bfs: Reconstruct file type when loading from disk
+8a83ca00b657cb2bc055c0c1c109b84b158e4096 HID: hid-input: Extend Elan ignore battery quirk to USB
+139bd22cfda05d315e36544e0e182343373fab7f nvme: fix admin request_queue lifetime
+eb565c6741a00b60cf8c56aa68ba6d422b492bb8 pinctrl: qcom: msm: Fix deadlock in pinmux configuration
+ce2f476373d32cc550571bad71a06304b22f1ac0 platform/x86: acer-wmi: Ignore backlight event
+2354d4cff3f676ec189091985bd38025786bdfcf HID: apple: Add SONiX AK870 PRO to non_apple_keyboards quirk list
+784a6aadbc2a595d719be04df1012a6e6dc0035c platform/x86: huawei-wmi: add keys for HONOR models
+0c1960d4e72743b96587208ef947682c3f8598e0 platform/x86/amd: pmc: Add Lenovo Legion Go 2 to pmc quirk list
+240d0a6af45b1516b568ac44d9c380d10e57a5a1 platform/x86/amd/pmc: Add spurious_8042 to Xbox Ally
+2fe994da6daffd8b96cf7683c0ab6a24cc572e5d HID: elecom: Add support for ELECOM M-XT3URBK (018F)
+880094b71d3c28d80b0a3486a7bf05ed60808d3a LoongArch: Mask all interrupts during kexec/kdump
+279a91d6ab9ba0e2abbadb92a24c68db20c63ce4 samples: work around glibc redefining some of our defines wrong
+9338f6be668aefaf49f199a6be7938567e1dc065 wifi: rtw88: Add USB ID 2001:3329 for D-Link AC13U rev. A1
+0b921dbde9a5c27ab8bad402ea150be4caac9395 comedi: c6xdigio: Fix invalid PNP driver unregistration
+72a82a35a8e43183fffa1490aacd895b4810c065 comedi: multiq3: sanitize config options in multiq3_attach()
+98262745b91241357a9083ebfb9bae03209241f2 comedi: check device's attached status in compat ioctls
+801af693fb84d232e8d94acf2cbb75585c7eef66 staging: rtl8723bs: fix out-of-bounds read in rtw_get_ie() parser
+20f43630ff6be7a0efc5f4ff7a57d8d849162463 staging: rtl8723bs: fix stack buffer overflow in OnAssocReq IE parsing
+a4d4b1dcf6040b768cf2c3452d01d7bd6eb0fbe6 staging: rtl8723bs: fix out-of-bounds read in OnBeacon ESR IE parsing
 
---===============7504897172128025691==--
+--===============6255850018309740047==--
