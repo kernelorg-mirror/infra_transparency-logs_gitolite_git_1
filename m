@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6791038990385862927=="
+Content-Type: multipart/mixed; boundary="===============7455498755057831194=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
-Date: Tue, 09 Dec 2025 20:34:46 -0000
-Message-Id: <176531248681.837100.18082688666610835964@gitolite.kernel.org>
+Date: Tue, 09 Dec 2025 20:35:03 -0000
+Message-Id: <176531250327.838462.2555443931677238395@gitolite.kernel.org>
 
---===============6791038990385862927==
+--===============7455498755057831194==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/perf/perf-tools-next
 user: acme
 changes:
-  - ref: refs/heads/tmp.perf-tools-next
+  - ref: refs/heads/perf-tools-next
     old: 2eeb09fe1c5173b659929f92fee4461796ca8c14
     new: cb015814f8b6eebcbb8e46e111d108892c5e6821
     log: revlist-2eeb09fe1c51-cb015814f8b6.txt
 
---===============6791038990385862927==
+--===============7455498755057831194==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ b88b2f82fab45521cb32c0b737266d90a66a748f Merge tag 'hwmon-for-v6.19-take-2' of g
 cfd4039213e7b5a828c5b78e1b5235cac91af53d Merge tag 'io_uring-6.19-20251208' of git://git.kernel.org/pub/scm/linux/kernel/git/axboe/linux
 cb015814f8b6eebcbb8e46e111d108892c5e6821 Merge tag 'f2fs-for-6.19-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/jaegeuk/f2fs
 
---===============6791038990385862927==--
+--===============7455498755057831194==--
