@@ -1,27 +1,27 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
-Date: Tue, 09 Dec 2025 10:21:28 -0000
-Message-Id: <176527568830.263103.6649773152241717777@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Tue, 09 Dec 2025 10:21:44 -0000
+Message-Id: <176527570422.263409.7842611947755938180@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regulator
+repo: pub/scm/linux/kernel/git/broonie/spi
 user: broonie
 changes:
   - ref: refs/heads/for-linus
-    old: 99fece7ab29c9654d7945312b275b527757ac4b3
-    new: 56edaa508ed2dd3dc377186ba9f388a58c573a9a
+    old: cebdea5fc60642a39a76c237257a7e6662336006
+    new: 865a1f17d5e41c0b34929afcab0afa6bdb90d33e
     log: |
-         99f0c3a654c4a762aca4fadc8d9f8636b36d570a regulator: spacemit: Align input supply name with the DT binding
-         56edaa508ed2dd3dc377186ba9f388a58c573a9a Merge remote-tracking branch 'regulator/for-6.18' into regulator-linus
+         8cef9b451dc6fdf86b92c7a35d55a47465d500db spi: microchip-core: Fix an error handling path in mchp_corespi_probe()
+         865a1f17d5e41c0b34929afcab0afa6bdb90d33e Merge remote-tracking branch 'spi/for-6.18' into spi-linus
          
   - ref: refs/heads/for-next
-    old: 99fece7ab29c9654d7945312b275b527757ac4b3
-    new: 56edaa508ed2dd3dc377186ba9f388a58c573a9a
+    old: cebdea5fc60642a39a76c237257a7e6662336006
+    new: 865a1f17d5e41c0b34929afcab0afa6bdb90d33e
     log: |
-         99f0c3a654c4a762aca4fadc8d9f8636b36d570a regulator: spacemit: Align input supply name with the DT binding
-         56edaa508ed2dd3dc377186ba9f388a58c573a9a Merge remote-tracking branch 'regulator/for-6.18' into regulator-linus
+         8cef9b451dc6fdf86b92c7a35d55a47465d500db spi: microchip-core: Fix an error handling path in mchp_corespi_probe()
+         865a1f17d5e41c0b34929afcab0afa6bdb90d33e Merge remote-tracking branch 'spi/for-6.18' into spi-linus
          
