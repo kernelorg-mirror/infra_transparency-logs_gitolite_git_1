@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
-Date: Tue, 09 Dec 2025 23:09:28 -0000
-Message-Id: <176532176886.985198.9531616072746076912@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ebiggers/linux
+Date: Tue, 09 Dec 2025 23:09:30 -0000
+Message-Id: <176532177025.985283.10674017885568086300@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jlayton/linux
-user: jlayton
+repo: pub/scm/linux/kernel/git/ebiggers/linux
+user: ebiggers
 changes:
-  - ref: refs/heads/kdevops
-    old: 414f13ef59e851974bbc8dbdf4a4f7dc0fb7dd83
-    new: 757906427dfe5db95ab7aabe7e59486fa1d4d010
+  - ref: refs/heads/libcrypto-fixes
+    old: d16ff1adeaea4610cf85565f135a78963928b5e6
+    new: 9af6845ab99a8f65c8855668443fde090be013fb
     log: |
-         757906427dfe5db95ab7aabe7e59486fa1d4d010 SQUASH: don't return ETIMEDOUT if sp_nrthrmin isn't set
+         9af6845ab99a8f65c8855668443fde090be013fb lib/crypto: riscv: Depend on RISCV_EFFICIENT_VECTOR_UNALIGNED_ACCESS
          
