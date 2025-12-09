@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8192446361333904116=="
+Content-Type: multipart/mixed; boundary="===============1906071358656249992=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
-Date: Tue, 09 Dec 2025 15:13:24 -0000
-Message-Id: <176529320452.537785.2114635633158219712@gitolite.kernel.org>
+Date: Tue, 09 Dec 2025 15:13:42 -0000
+Message-Id: <176529322289.538161.6791363750188537550@gitolite.kernel.org>
 
---===============8192446361333904116==
+--===============1906071358656249992==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/groeck/linux-staging
 user: groeck
 changes:
-  - ref: refs/heads/master
-    old: 67a454e6b1c604555c04501c77b7fedc5d98a779
+  - ref: refs/heads/hwmon
+    old: 08bfcf4ff9d39228150a757803fc02dffce84ab0
     new: cb015814f8b6eebcbb8e46e111d108892c5e6821
-    log: revlist-67a454e6b1c6-cb015814f8b6.txt
+    log: revlist-08bfcf4ff9d3-cb015814f8b6.txt
 
---===============8192446361333904116==
+--===============1906071358656249992==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-67a454e6b1c6-cb015814f8b6.txt
+Content-Disposition: attachment; filename=revlist-08bfcf4ff9d3-cb015814f8b6.txt
 
 9be3b7bb7ddd4e8ed466f41c6f43de34424aeb8c dt-bindings: pinctrl: samsung: add exynos8890 compatible
 f416d35e6522f0c08d4e866e5d6930bfd504e645 dt-bindings: pinctrl: samsung: add exynos8890-wakeup-eint compatible
@@ -513,11 +513,6 @@ b9a66cd5ccbb9fade15d0e427e19470d8ad35b75 mshv: Add support for movable memory re
 723c47a221ee407901055c9d9b4434e68c5d650e mshv: Add definitions for MSHV sleep state configuration
 f0be2600ac55a5845d536c56787daca50dbcb2a1 mshv: Use reboot notifier to configure sleep state
 615a6e7d83f958e7ef3bc818e818f7c6433b4c2a mshv: Cleanly shutdown root partition with MSHV
-670d7ef945d3a84683594429aea6ab2cdfa5ceb4 hwmon: (w83791d) Convert macros to functions to avoid TOCTOU
-fae00a7186cecf90a57757a63b97a0cbcf384fe9 hwmon: (dell-smm) Fix off-by-one error in dell_smm_is_visible()
-541dfb49dcb80c2509e030842de77adfb77820f5 hwmon: (emc2305) fix double put in emc2305_probe_childs_from_dt
-4910da6b36b122db50a27fabf6ab7f8611b60bf8 hwmon: (emc2305) fix device node refcount leak in error path
-08bfcf4ff9d39228150a757803fc02dffce84ab0 docs: hwmon: fix link to g762 devicetree binding
 ba65a4e7120a616d9c592750d9147f6dcafedffa Merge tag 'clk-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/clk/linux
 c2f2b01b74be8b40a2173372bcd770723f87e7b2 Merge tag 'i3c/for-6.19' of git://git.kernel.org/pub/scm/linux/kernel/git/i3c/linux
 feb06d2690bb826fd33798a99ce5cff8d07b38f9 Merge tag 'hyperv-next-signed-20251207' of git://git.kernel.org/pub/scm/linux/kernel/git/hyperv/linux
@@ -530,4 +525,4 @@ b88b2f82fab45521cb32c0b737266d90a66a748f Merge tag 'hwmon-for-v6.19-take-2' of g
 cfd4039213e7b5a828c5b78e1b5235cac91af53d Merge tag 'io_uring-6.19-20251208' of git://git.kernel.org/pub/scm/linux/kernel/git/axboe/linux
 cb015814f8b6eebcbb8e46e111d108892c5e6821 Merge tag 'f2fs-for-6.19-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/jaegeuk/f2fs
 
---===============8192446361333904116==--
+--===============1906071358656249992==--
