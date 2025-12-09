@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1637691439191439622=="
+Content-Type: multipart/mixed; boundary="===============7210100150537612208=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Tue, 09 Dec 2025 03:19:25 -0000
-Message-Id: <176525036542.4052870.14712832487984205370@gitolite.kernel.org>
+Date: Tue, 09 Dec 2025 03:19:29 -0000
+Message-Id: <176525036983.4052961.15404254892631953488@gitolite.kernel.org>
 
---===============1637691439191439622==
+--===============7210100150537612208==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,7 +16,7 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/staging
+  - ref: refs/heads/for-next
     old: 278712d20bc8ec29d1ad6ef9bdae9000ef2c220c
     new: 946574434aa9cfe175c3e8234734a3822410ff53
     log: |
@@ -27,33 +27,33 @@ changes:
          946574434aa9cfe175c3e8234734a3822410ff53 scsi: ufs: qcom: Fix confusing cleanup.h syntax
          
 
---===============1637691439191439622==
+--===============7210100150537612208==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1765250364 -0500
+pusher 75C5DE3D 1765250368 -0500
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1765250363-b61e735fcbeb2b45bbde0d56ff4a7a8d25b06c62
+nonce 1765250368-f2c98bdcb909756d8ffc2d3afbeee4ba471e84f5
 
-278712d20bc8ec29d1ad6ef9bdae9000ef2c220c 946574434aa9cfe175c3e8234734a3822410ff53 refs/heads/staging
+278712d20bc8ec29d1ad6ef9bdae9000ef2c220c 946574434aa9cfe175c3e8234734a3822410ff53 refs/heads/for-next
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmk3lTwACgkQ7ulgGnXF
-3j1DKxAAn1RlyQjSKSBkNz2HXp0+aSWmhlNA+/Y45B5Tm2HPmBhmeardsvIqouqR
-VStKWekhETHsSYXfLSNopF94o5bVRw6HHm+VhcsgwXG5VlrESAHQnV6cOTqpjb0D
-xRkCdpFjhg0hYntH7cHJoqdGrw/cnsuQM7Bq8gSVfEmwB8jdRGUGFniytpJbg7Nx
-AuLpy6OJGfNxyDmNtMzBoFR2duVnn67trdEy72Zk+YMBA9TVNf57Jmtf/ESV3nTI
-PceA9Q1yTgQmqto6c+EMYo8krV5BmUIAvXbMJUTV4sDOlVYdKYlg/1II+uJJXlmP
-sUBjG+u6vfDTn24cAiHG/oqket+L3pRKgGgGVJckP0DBRgI0TOR8mLb38CXmaTw9
-s+q2kPWzIGN26kKigwpw3lNTTNAu1Ug+1waewfqk9UWxZ1jrxGEdO82F7Ouq04FK
-rR4+gFeBd23ehqWlW9XLHfMWGlwJJmVwXXXzSWxjKr/S8Mdk7Qo2oogMOIDtY5sL
-2queCeOX0AGse9RXT3gG7f/dOUWB9TXZBDJHM5w1OwUj1QhA7m4M18EmudIcale2
-ECpznLSQoUGc7Hhelp4tyz3988Y2oeZbs0+NbKY85WsVoCJDshhJEdpxxzJHwtfv
-NKsSoXrI89HLTFWWbtJygJ/Y6gEMu9whm2o6eCG2F86okhwpCfw=
-=ynmQ
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmk3lUAACgkQ7ulgGnXF
+3j0hthAAns8bRM83mM2YnXleBqHUXMnnZLc9FWVjksGfZF9z77mf2P/OPyjW0UQx
+8FkOk/vhrg25llk8+GCcdCCwoHv9stAd3bIiVoO5pt4gnvRmeQhJ7/Az/kH8HSUh
+o0lJamydxnXqd6/8aCg6X9WicTzxEHVDLPqxdOoe06y61YCcxgV4yS8LgEb3au/B
+V53lr7/lvqm/JnlB3AFAxw2zcSnMzBh7Rdh7iCQUUW+vDACxV6Hbuwh1qZ3lZQTU
+odxccD3e9PDj7mXN9qfklKOQOBwQVuZwJ6u90vT7Yy54xCEehTarDnwjBDZCv3nh
+DD0s+wEU7nUJIhThei2tZZNbrWlqX2Wlmx0Lz1x0hYoS2QXF9beMkNH3VAu/jkX9
+4vR/lCIbW+IxlkhjlwTMwgBt0a4DseCSiLu2tYrx4rX9vzcKPl+qUIRsBOn6u/rS
+jH4MyE3vhfWmI2Rv4zNkgv3mLx+0E1+OtRQHjqKQ5X/e+KeyQluU05VuKOCUbWiV
+ur3id8V+UymlLm3AYbpGGTX/ty47Z3b0+tgzSnzKQ/xaHZR32VPR/VpQhLhJ+TW/
+Fk1ZngW9ESeN0y+wBI9C4xGBbdXdkAfQTad8Wj0iCqRyq2s6LHER/Ft5ViHfqtFg
+nTbyaD5MjRJ/11YCktz7gOcQDV0Ws6zi5WQvM9CdaslQ7p6ZJFo=
+=Is+A
 -----END PGP SIGNATURE-----
 
---===============1637691439191439622==--
+--===============7210100150537612208==--
