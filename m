@@ -1,27 +1,27 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Tue, 09 Dec 2025 10:21:00 -0000
-Message-Id: <176527566093.262684.12199618824237323061@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
+Date: Tue, 09 Dec 2025 10:21:28 -0000
+Message-Id: <176527568830.263103.6649773152241717777@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/regulator
 user: broonie
 changes:
   - ref: refs/heads/for-linus
-    old: e4deadb3e562aadf2825f28be3dcbbf01cf2ef17
-    new: ab4efaa616fc220292280d8d93f4329a230669bd
+    old: 99fece7ab29c9654d7945312b275b527757ac4b3
+    new: 56edaa508ed2dd3dc377186ba9f388a58c573a9a
     log: |
-         b0ff70e9d4fe46cece25eb97b9b9b0166624af95 ASoC: cs35l41: Always return 0 when a subsystem ID is found
-         ab4efaa616fc220292280d8d93f4329a230669bd Merge remote-tracking branch 'asoc/for-6.18' into asoc-linus
+         99f0c3a654c4a762aca4fadc8d9f8636b36d570a regulator: spacemit: Align input supply name with the DT binding
+         56edaa508ed2dd3dc377186ba9f388a58c573a9a Merge remote-tracking branch 'regulator/for-6.18' into regulator-linus
          
   - ref: refs/heads/for-next
-    old: e4deadb3e562aadf2825f28be3dcbbf01cf2ef17
-    new: ab4efaa616fc220292280d8d93f4329a230669bd
+    old: 99fece7ab29c9654d7945312b275b527757ac4b3
+    new: 56edaa508ed2dd3dc377186ba9f388a58c573a9a
     log: |
-         b0ff70e9d4fe46cece25eb97b9b9b0166624af95 ASoC: cs35l41: Always return 0 when a subsystem ID is found
-         ab4efaa616fc220292280d8d93f4329a230669bd Merge remote-tracking branch 'asoc/for-6.18' into asoc-linus
+         99f0c3a654c4a762aca4fadc8d9f8636b36d570a regulator: spacemit: Align input supply name with the DT binding
+         56edaa508ed2dd3dc377186ba9f388a58c573a9a Merge remote-tracking branch 'regulator/for-6.18' into regulator-linus
          
