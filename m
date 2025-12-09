@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Tue, 09 Dec 2025 09:40:40 -0000
-Message-Id: <176527324080.221189.14028151819025591484@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/chao/linux
+Date: Tue, 09 Dec 2025 09:41:11 -0000
+Message-Id: <176527327116.221648.6957101772239567997@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-user: jarkko
+repo: pub/scm/linux/kernel/git/chao/linux
+user: chao
 changes:
-  - ref: refs/heads/queue
-    old: 42aa45f38c073e89705e507b5c0f9ff3e49ae9e4
-    new: 4f107a10e7ab91bb13dbb986ef38ab797446276e
+  - ref: refs/heads/bugfix/common
+    old: 0c1dda0c750c062366d731287b0591355bc94dd3
+    new: 33aa9177da03f576e4ca3b52ed0e6f08732cbd75
     log: |
-         4f107a10e7ab91bb13dbb986ef38ab797446276e tpm2-sessions: Remove tpm_buf_append_handle().
+         45eb61f1c4509221211cf9e3595db196f547f39e f2fs: improve check for enough free sections
+         33aa9177da03f576e4ca3b52ed0e6f08732cbd75 f2fs: fix to sanity check on nat_entry.nid in f2fs_get_node_info()
          
