@@ -1,43 +1,20 @@
-Content-Type: multipart/mixed; boundary="===============5177063556692395099=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-Date: Tue, 09 Dec 2025 13:36:50 -0000
-Message-Id: <176528741002.447795.11554966047209531511@gitolite.kernel.org>
-
---===============5177063556692395099==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/fs/ext2/e2fsprogs
+Date: Tue, 09 Dec 2025 13:42:07 -0000
+Message-Id: <176528772788.452955.10955382118226737465@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-user: ij
-git_push_cert_status: E
+repo: pub/scm/fs/ext2/e2fsprogs
+user: tytso
 changes:
-  - ref: refs/tags/platform-drivers-x86-v6.19-1
-    old: 0000000000000000000000000000000000000000
-    new: 3a09133f42dccaf9dd7a3b1b6683725350e2a472
-
---===============5177063556692395099==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1765287407 +0200
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86.git
-nonce 1765287407-e812efa0780b05e67f094b247003dbe692c03e70
-
-0000000000000000000000000000000000000000 3a09133f42dccaf9dd7a3b1b6683725350e2a472 refs/tags/platform-drivers-x86-v6.19-1
------BEGIN PGP SIGNATURE-----
-
-iHUEABYIAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCaTgl8QAKCRBZrE9hU+XO
-McDWAQDyklvod6Yd8O+BRdk6Ll6JQDuPHiwzLNA312hr1gVCRQEAx5irsIwd4aep
-qiXkN6joTO0bSv7QCM+eOig9LHzR+Qw=
-=PAjO
------END PGP SIGNATURE-----
-
---===============5177063556692395099==--
+  - ref: refs/heads/maint
+    old: 0b2752ce6276b383a5254cd766204f81f41b6631
+    new: 4aba12dc19a95626eb7fa1df2d19c5235c2bc848
+    log: |
+         6f03c698ef53bb9d0cd42c9bd0b68e8ce72f8345 libext2fs: fix orphan file size > kernel limit with large blocksize
+         4aba12dc19a95626eb7fa1df2d19c5235c2bc848 configure: check for FS_IOC_READ_VERITY_METADATA availability
+         
