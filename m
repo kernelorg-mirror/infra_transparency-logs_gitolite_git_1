@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/joel.granados/linux
-Date: Tue, 09 Dec 2025 12:15:18 -0000
-Message-Id: <176528251800.372137.16905449233463903001@gitolite.kernel.org>
+Date: Tue, 09 Dec 2025 12:17:54 -0000
+Message-Id: <176528267469.373588.12848390080312986670@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,6 +11,6 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/joel.granados/linux
 user: joel.granados
 changes:
-  - ref: refs/heads/jag/sysctl_ctltable_dec
+  - ref: refs/heads/jag/alloc_tag_const
     old: 0000000000000000000000000000000000000000
-    new: 52655b3f978ca4cd8b48a58a4e76be159247c0bd
+    new: e8ea52c210d7d7651039b386ceb2e2d4dca8fd6a
