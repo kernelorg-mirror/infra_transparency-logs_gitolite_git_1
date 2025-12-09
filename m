@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0005896448868473351=="
+Content-Type: multipart/mixed; boundary="===============6972756196114273119=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Tue, 09 Dec 2025 20:35:21 -0000
-Message-Id: <176531252150.840143.1196904253413067029@gitolite.kernel.org>
+Date: Tue, 09 Dec 2025 20:35:28 -0000
+Message-Id: <176531252834.840470.13992377208354204089@gitolite.kernel.org>
 
---===============0005896448868473351==
+--===============6972756196114273119==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/acme/linux
 user: acme
 changes:
-  - ref: refs/heads/perf-tools-next
+  - ref: refs/heads/tmp.perf-tools-next
     old: f3b601f900902ab80902c44f820a8985384ac021
     new: cb015814f8b6eebcbb8e46e111d108892c5e6821
     log: revlist-f3b601f90090-cb015814f8b6.txt
 
---===============0005896448868473351==
+--===============6972756196114273119==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ b88b2f82fab45521cb32c0b737266d90a66a748f Merge tag 'hwmon-for-v6.19-take-2' of g
 cfd4039213e7b5a828c5b78e1b5235cac91af53d Merge tag 'io_uring-6.19-20251208' of git://git.kernel.org/pub/scm/linux/kernel/git/axboe/linux
 cb015814f8b6eebcbb8e46e111d108892c5e6821 Merge tag 'f2fs-for-6.19-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/jaegeuk/f2fs
 
---===============0005896448868473351==--
+--===============6972756196114273119==--
