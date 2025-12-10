@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Wed, 10 Dec 2025 14:06:46 -0000
-Message-Id: <176537560682.1853028.18236500172602356662@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/fwestphal/nf
+Date: Wed, 10 Dec 2025 14:21:41 -0000
+Message-Id: <176537650171.1867100.17478396189234988805@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-user: jarkko
+repo: pub/scm/linux/kernel/git/fwestphal/nf
+user: fwestphal
 changes:
-  - ref: refs/heads/queue
-    old: 07834331baad999bf69cef1a84dddd6f68e34176
-    new: ca4fef531c2248b76c53de43fb2c3e0ad0c04e76
-    log: |
-         ca4fef531c2248b76c53de43fb2c3e0ad0c04e76 tpm: Orchestrate TPM commands in tpm_get_random()
-         
+  - ref: refs/heads/xt_cluster_restrict
+    old: f3346fcfe397868fdb1467f4cb6be7900498e189
+    new: 0000000000000000000000000000000000000000
