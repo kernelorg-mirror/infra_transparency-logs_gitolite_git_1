@@ -1,21 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf
-Date: Wed, 10 Dec 2025 09:38:20 -0000
-Message-Id: <176535950049.1599347.10225437612141471958@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/util-linux/util-linux
+Date: Wed, 10 Dec 2025 09:40:10 -0000
+Message-Id: <176535961048.1602752.4680680279492347627@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf
-user: ast
+repo: pub/scm/utils/util-linux/util-linux
+user: kzak
 changes:
-  - ref: refs/heads/master
-    old: 9489d457d48bd10c4eacd8670840132be00c15cd
-    new: 1d528e794f3db5d32279123a89957c44c4406a09
+  - ref: refs/heads/stable/v2.41
+    old: 254d583cf77b2db2555c64124c21e643b4162395
+    new: 73ba96a3043127a0bd3f3eff6080b32705043b63
     log: |
-         ac44dcc788b950606793e8f9690c30925f59df02 bpf: Fix verifier assumptions of bpf_d_path's output buffer
-         79e247d6608848c09038d0b1e7d256432624fd84 selftests/bpf: add regression test for bpf_d_path()
-         1d528e794f3db5d32279123a89957c44c4406a09 Merge branch 'bpf-fix-bpf_d_path-helper-prototype'
+         affb93a19c29162c48a36380f5ab316d1f5ccef9 lsfd: (bugfix) use PRIu32 for prining lport of netlink socket
+         0bdcbccf51cd58b90d0f76563fc22e2f52537399 lsfd: fix memory leak related to stat_error_class
+         73ba96a3043127a0bd3f3eff6080b32705043b63 lscpu: use maximum CPU speed from DMI, avoid duplicate version string
          
