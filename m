@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3316633600859531014=="
+Content-Type: multipart/mixed; boundary="===============7586223583012466868=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-Date: Wed, 10 Dec 2025 11:17:43 -0000
-Message-Id: <176536546324.1693024.9780926230864654827@gitolite.kernel.org>
+Date: Wed, 10 Dec 2025 11:17:55 -0000
+Message-Id: <176536547506.1693371.9215920060981090901@gitolite.kernel.org>
 
---===============3316633600859531014==
+--===============7586223583012466868==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,32 +16,32 @@ repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
 user: ij
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/review-ilpo-fixes
+  - ref: refs/heads/fixes
     old: 9b9c0adbc3f8a524d291baccc9d0c04097fb4869
     new: 9d588a1140b9ae211581a7a154d0b806d8cd8238
     log: revlist-9b9c0adbc3f8-9d588a1140b9.txt
 
---===============3316633600859531014==
+--===============7586223583012466868==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1765365459 +0200
+pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1765365472 +0200
 pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86.git
-nonce 1765365459-df090d3d5088ea865c4ee208feb4d80968d2b863
+nonce 1765365471-df21c4ce3050f0f8bdc00044c37958a585bc0aeb
 
-9b9c0adbc3f8a524d291baccc9d0c04097fb4869 9d588a1140b9ae211581a7a154d0b806d8cd8238 refs/heads/review-ilpo-fixes
+9b9c0adbc3f8a524d291baccc9d0c04097fb4869 9d588a1140b9ae211581a7a154d0b806d8cd8238 refs/heads/fixes
 -----BEGIN PGP SIGNATURE-----
 
-iHUEABYIAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCaTlW1gAKCRBZrE9hU+XO
-Mf1qAP9qj7AGsIpLf4WyU62bngw3gjEmhVI6AUmmvyYFjmGPSgD7BxnxnM9ijItn
-nlEEZ+TNL+CzcDe7Lr6+MnS2oZJUBAM=
-=U3pg
+iHUEABYIAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCaTlW4QAKCRBZrE9hU+XO
+MaolAQDVtafmJuB0UUWSwOw8tC9Sa41romH8WUezC7sYOTk82gEA1LJDOBO5luUU
+raFRfIrwoz+GSA8wdwUzgCWG8Hg2+wM=
+=2hqW
 -----END PGP SIGNATURE-----
 
---===============3316633600859531014==
+--===============7586223583012466868==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1072,4 +1072,4 @@ c752c21c90b808a059ae8e0070ff7566a65f8577 Merge tag 'auto-type-conversion-for-v6.
 9f20d9bad51635973fb1117544033bb03c4c3224 Merge tag 'pm-6.19-rc1-2' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
 9d588a1140b9ae211581a7a154d0b806d8cd8238 Merge tag 'platform-drivers-x86-v6.19-1' of git://git.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
 
---===============3316633600859531014==--
+--===============7586223583012466868==--
