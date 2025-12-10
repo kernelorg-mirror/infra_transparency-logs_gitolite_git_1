@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7418800903954699622=="
+Content-Type: multipart/mixed; boundary="===============7647625250803475282=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-Date: Wed, 10 Dec 2025 11:24:43 -0000
-Message-Id: <176536588364.1700066.17985922358603771027@gitolite.kernel.org>
+Date: Wed, 10 Dec 2025 11:25:03 -0000
+Message-Id: <176536590351.1701603.6759875245092585368@gitolite.kernel.org>
 
---===============7418800903954699622==
+--===============7647625250803475282==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,28 +16,28 @@ repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
 user: ij
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/platform-drivers-x86-mellanox-init
-    old: 8634c1114b94049b48805b412b28160cb25a3198
+  - ref: refs/heads/platform-surface-aggregator-registry
+    old: aebf0a11a8c1fb6444d1365db97f90672199a867
     new: 0000000000000000000000000000000000000000
 
---===============7418800903954699622==
+--===============7647625250803475282==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1765365880 +0200
+pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1765365901 +0200
 pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86.git
-nonce 1765365880-b23a04f8c0c756f29b3ab496fe63969c7762b844
+nonce 1765365900-b934ff3871416b7e95b597ba10b5c179de86ed20
 
-8634c1114b94049b48805b412b28160cb25a3198 0000000000000000000000000000000000000000 refs/heads/platform-drivers-x86-mellanox-init
+aebf0a11a8c1fb6444d1365db97f90672199a867 0000000000000000000000000000000000000000 refs/heads/platform-surface-aggregator-registry
 -----BEGIN PGP SIGNATURE-----
 
-iHUEABYIAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCaTlYewAKCRBZrE9hU+XO
-Me6uAQDvAv00fUR0pP8pqaDeUm0D+hl+CAqo5Hx5IlvkdL7bkgD9E5IKLmJ/iO7f
-9BPNrDgQKMieOLpVIG87/DczBv7GVg4=
-=s5QV
+iHUEABYIAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCaTlYjgAKCRBZrE9hU+XO
+MVMvAP9JSsAwk5F55jqBAtpmJf1kf5b1d32MNLsJwHWDLrb/qQD/T5ZTRvjM9/eU
+7bGf3cyI0Luhui/QMQYCB+9EAmh4IwM=
+=tfkr
 -----END PGP SIGNATURE-----
 
---===============7418800903954699622==--
+--===============7647625250803475282==--
