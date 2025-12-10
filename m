@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5789214227154109115=="
+Content-Type: multipart/mixed; boundary="===============3685577889807076470=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mingo/tip
-Date: Wed, 10 Dec 2025 08:08:24 -0000
-Message-Id: <176535410474.1514235.11135381562289380741@gitolite.kernel.org>
+Date: Wed, 10 Dec 2025 08:09:23 -0000
+Message-Id: <176535416308.1514973.1778860144746010383@gitolite.kernel.org>
 
---===============5789214227154109115==
+--===============3685577889807076470==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,27 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/mingo/tip
 user: mingo
 changes:
-  - ref: refs/heads/WIP.sched/core
-    old: c49681c57eed9086bb6aeacfed8daba47921b12e
-    new: d0ff2b58829612585c5c4df676c798850bb1f328
-    log: revlist-c49681c57eed-d0ff2b588296.txt
+  - ref: refs/heads/WIP.sched/flat
+    old: a9e4ff7145df4680ae7248b450e4814be8f9256d
+    new: 9d8a22c60fd08f2f4a82aa5d81885e0ab6ad52cd
+    log: revlist-a9e4ff7145df-9d8a22c60fd0.txt
 
---===============5789214227154109115==
+--===============3685577889807076470==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c49681c57eed-d0ff2b588296.txt
+Content-Disposition: attachment; filename=revlist-a9e4ff7145df-9d8a22c60fd0.txt
 
-82d12088c297fa1cef670e1718b3d24f414c23f7 char: applicom: fix NULL pointer dereference in ac_ioctl
-9574b21e952256d4fa3c8797c94482a240992d18 kfifo: add kfifo_alloc_node() helper for NUMA awareness
-3035b9b46b0611898babc0b96ede65790d3566f7 ublk: add parameter `struct io_uring_cmd *` to ublk_prep_auto_buf_reg()
-8d61ece156bd4f2b9e7d3b2a374a26d42c7a4a06 ublk: add `union ublk_io_buf` with improved naming
-0a9beafa7c633e6ff66b05b81eea78231b7e6520 ublk: refactor auto buffer register in ublk_dispatch_req()
-3443bab2f8e44e00adaf76ba677d4219416376f2 ublk: pass const pointer to ublk_queue_is_zoned()
-28d7a371f021419cb6c3a243f5cf167f88eb51b9 ublk: add helper of __ublk_fetch()
-418de94e7593081c29066555bf9059f1f7dd9d79 sbitmap: fix all kernel-doc warnings
-07272e883fc61574b8367d44de48917f622cdd83 hwmon: (w83l786ng) Convert macros to functions to avoid TOCTOU
-b8d5acdcf525f44e521ca4ef51dce4dac403dab4 hwmon: (max16065) Use local variable to avoid TOCTOU
 98693e0897f754e3f51ce6626ed5f785f625ba2b vfio/pci: Use RCU for error/request triggers to avoid circular locking
 590d745680309f8d956c3f0a97270fe65013b272 dma-buf: fix integer overflow in fill_sg_entry() for buffers >= 8GiB
 9b92bc7554b543dc00a0a0b62904a9ef2ad5c4b0 vfio: refactor vfio_pci_mmap_huge_fault function
@@ -1050,5 +1040,15 @@ a72b5793c2d4e96f8f29078aa23f4de38e13875d sched/core: Rework sched_class::wakeup_
 a4d2eb8dcbe82dc6e4452047a30a040da029fe9f sched/fair: Rename cfs_rq::avg_vruntime to ::sum_w_vruntime, and helper functions
 a8eea218cac8c5c4a4fd963e58c9f6f266a8ac16 sched/fair: Introduce and use the vruntime_cmp() and vruntime_op() wrappers for wrapped-signed aritmetics
 d0ff2b58829612585c5c4df676c798850bb1f328 sched/fair: Sort out 'blocked_load*' namespace noise
+5a8e69e71fb2ab4c57968ae8df6b40e25b14414d sched/eevdf: Fix HRTICK duration
+c5ec258825607aa4a827bd7b4a5181e952b4c1c9 hrtimer: Optimize __hrtimer_start_range_ns()
+11ef21d68c7b669ce27e5d772161ba2e4afa0fce hrtimer,sched: Add fuzzy hrtimer mode for HRTICK
+bb82882ca82d766eeda3384a46cd19c68e4d49eb hrtimer: Re-arrange hrtimer_interrupt()
+c1319d958d60e528bb18cea6b1b3bb7e9068e38b entry,hrtimer: Push reprogramming timers into the interrupt return path
+59c6209a0995ec9f0d8558670d6702c357d21301 sched: Default enable HRTICK
+c58949494cca90b7b415cc01691ffc7d241cdd5e sched/fair: Increase weight bits for avg_vruntime
+ec0b940729a3875027ff61750f49b022fb8a6bac sched/fair: Add newidle balance to pick_task_fair()
+14f7effcfd2a817e0fee562fdc37dc2cb63474f6 sched: Remove sched_class::pick_next_task()
+9d8a22c60fd08f2f4a82aa5d81885e0ab6ad52cd sched/eevdf: Move to a single runqueue
 
---===============5789214227154109115==--
+--===============3685577889807076470==--
