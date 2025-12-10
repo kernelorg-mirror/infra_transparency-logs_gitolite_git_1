@@ -1,47 +1,24 @@
-Content-Type: multipart/mixed; boundary="===============7869554052718235173=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mkl/linux-can
-Date: Wed, 10 Dec 2025 08:32:04 -0000
-Message-Id: <176535552486.1538251.17818820732462795553@gitolite.kernel.org>
-
---===============7869554052718235173==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Wed, 10 Dec 2025 08:45:31 -0000
+Message-Id: <176535633195.1551348.6134145099913142524@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mkl/linux-can
-user: mkl
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
-  - ref: refs/tags/linux-can-fixes-for-6.19-20251210
-    old: 0000000000000000000000000000000000000000
-    new: 8a47821146c0b0c363305727c2f197653b879cee
-
---===============7869554052718235173==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Marc Kleine-Budde <mkl@pengutronix.de> 1765355520 +0100
-pushee gitolite.kernel.org:pub/scm/linux/kernel/git/mkl/linux-can.git
-nonce 1765355520-004d37e432be86ee562a8913fa6ff1afcef4277c
-
-0000000000000000000000000000000000000000 8a47821146c0b0c363305727c2f197653b879cee refs/tags/linux-can-fixes-for-6.19-20251210
------BEGIN PGP SIGNATURE-----
-
-iQFHBAABCgAxFiEEn/sM2K9nqF/8FWzzDHRl3/mQkZwFAmk5MAATHG1rbEBwZW5n
-dXRyb25peC5kZQAKCRAMdGXf+ZCRnNXcB/481lqbEyUCVttmJwOAUBR/m1am2+NW
-LB+FLHZk0ELxJulWyBrGd9WjDEdWi9HOT2aJm/ejuHaM1MaIIhhr5dVUYjXe+HeK
-NM1VLSQJsEQ5D/PPjgVsNjDYAP80xUcKxlCZiZ0LPxdK4n4xdms7vm8TvR5yGpA8
-mC57dOcRE6zoQQn7fjTYN8tFOIqUqbbxPRbRkgieNd8H981QtFFoxW1DmF4xINq1
-xZx14fkg/tAwhrolVxsbnUjBXEOJPpZw/u+jwiqw78CtywhuZ70C8AK7aQmrSkB8
-amAmJlDWi+xbtSWDypYDA7ID3ZEq3XHuvHsNnUZ69fAbxqjEoj/lDNXp
-=avCk
------END PGP SIGNATURE-----
-
---===============7869554052718235173==--
+  - ref: refs/heads/master
+    old: 2137cb863b8018710315138f40eefcceb8584d1b
+    new: 0048fbb4011ec55c32d3148b2cda56433f273375
+    log: |
+         2d98144440f0101e6e432a748ec9f14a0f8be9e5 selftests/futex: Remove unused test_futex_mpol()
+         9407d138b8d5eff1cabceb4b3176f03191871479 selftests/futex: Add newline to ksft_exit_fail_msg()
+         275498b88104b36a0f7f913da53dc81c1daed277 selftests/futex: Skip tests if shmget unsupported
+         cd91b502f1b4bb81e82fbae38678c698ee5ac026 selftests/futex: Create test for robust list
+         c42ba5a87bdccbca11403b7ca8bad1a57b833732 futex: Store time as ktime_t in restart block
+         0048fbb4011ec55c32d3148b2cda56433f273375 Merge tag 'locking-futex-2025-12-10' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+         
