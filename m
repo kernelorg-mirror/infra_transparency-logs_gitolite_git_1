@@ -1,20 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Wed, 10 Dec 2025 17:18:22 -0000
-Message-Id: <176538710255.2030844.17000077447587942638@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
+Date: Wed, 10 Dec 2025 17:30:11 -0000
+Message-Id: <176538781184.2043116.12972203767752085621@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-user: jarkko
+repo: pub/scm/linux/kernel/git/maz/arm-platforms
+user: maz
 changes:
-  - ref: refs/heads/queue
-    old: 9dfff55d75b3608b87486dca56f1200810190ddc
-    new: 49d598f5a77b3bd69010947594f6117600bb8ca0
+  - ref: refs/heads/kvm-arm64/vtcr
+    old: 8a20c9563ddb24dce6a6f2a4cc4979ba261d15d4
+    new: 6d4b6d582293f56af781e41f0aabade0abf1b69d
     log: |
-         9760a3a82d8efc1113c0c29453d1a8b2016fe810 tpm: Send only one at most TPM2_GetRandom command
-         49d598f5a77b3bd69010947594f6117600bb8ca0 tpm: In tpm_get_random() replace 'retries' with a zero check
+         22bac25201d138b6736b55b26b994879c55e06d1 KVM: arm64: Account for RES1 bits in DECLARE_FEAT_MAP() and co
+         3911caea87213bbd6fb4ce91351bae3ec2aa0f7f KVM: arm64: Convert VTCR_EL2 to config-driven sanitisation
+         6d4b6d582293f56af781e41f0aabade0abf1b69d KVM: arm64: Honor UX/PX attributes for EL2 S1 mappings
          
