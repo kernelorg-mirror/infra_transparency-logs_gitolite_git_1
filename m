@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/device-mapper/linux-dm
-Date: Wed, 10 Dec 2025 19:04:40 -0000
-Message-Id: <176539348020.2127002.16257211504934815668@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/lindholm/alpha
+Date: Wed, 10 Dec 2025 19:06:21 -0000
+Message-Id: <176539358184.2130386.3237182683450048193@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/device-mapper/linux-dm
-user: mikulas
+repo: pub/scm/linux/kernel/git/lindholm/alpha
+user: lindholm
 changes:
-  - ref: refs/tags/for-6.19/dm-changes
-    old: 0000000000000000000000000000000000000000
-    new: af816553603bc3d086306e85d5adff59de4a7c09
+  - ref: refs/heads/master
+    old: 19eef1d98eeda3745df35839190b7d4a4adea656
+    new: 3a8660878839faadb4f1a6dd72c3179c1df56787
