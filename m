@@ -1,20 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/damon-hack
-Date: Wed, 10 Dec 2025 21:52:09 -0000
-Message-Id: <176540352983.2287358.7136107704260599021@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/hyperv/linux
+Date: Wed, 10 Dec 2025 22:43:50 -0000
+Message-Id: <176540663039.2333165.14450527504654941259@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/damon-hack
-user: sj
+repo: pub/scm/linux/kernel/git/hyperv/linux
+user: wei.liu
 changes:
-  - ref: refs/heads/master
-    old: 7f13518663ee2406a17e15eafe4fedf451d771b4
-    new: 87e7ad727d5eb977b9c552ef908639059f5ef6e5
+  - ref: refs/heads/hyperv-next
+    old: 615a6e7d83f958e7ef3bc818e818f7c6433b4c2a
+    new: 01e70c839863f9052ce5be6016ef0c0c94b3c1ec
     log: |
-         2680d883240fb13ce61bc7b4e8917425b64a6232 patches/next: add invalid target damos inefficiency fix from Enze
-         87e7ad727d5eb977b9c552ef908639059f5ef6e5 patches/next: add target_nid comment fixup from Swaraj
+         1eba6ced45ebe22657bd89d2dfeb8ddd43f7e75c mshv: Use PMD_ORDER instead of HPAGE_PMD_ORDER when processing regions
+         39e87b27524cb8e6d13062f40986bab6e06dba4c mshv: Initialize local variables early upon region invalidation
+         01e70c839863f9052ce5be6016ef0c0c94b3c1ec mshv: Move function prototypes to the generic header
          
