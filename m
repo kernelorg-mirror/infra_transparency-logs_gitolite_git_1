@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/dhowells/linux-fs
-Date: Wed, 10 Dec 2025 21:35:13 -0000
-Message-Id: <176540251307.2271313.2105020159686269316@gitolite.kernel.org>
+Subject: post-receive: pub/scm/bluetooth/bluez
+Date: Wed, 10 Dec 2025 21:36:26 -0000
+Message-Id: <176540258602.2272353.10130954418353170145@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/dhowells/linux-fs
-user: dhowells
+repo: pub/scm/bluetooth/bluez
+user: vudentz
 changes:
-  - ref: refs/heads/keys-pqc
-    old: 7419d5d2e7b125b4d0e1888a1f029d892f843802
-    new: 36c9b1b46c63798cb54fac7ece3c85a1a02e0dc2
+  - ref: refs/heads/master
+    old: 359390c60d9b1817470925eecd3cb9dcf1de5390
+    new: fa6f1e942cee11765b12c572086c4034f3173e0a
     log: |
-         36c9b1b46c63798cb54fac7ece3c85a1a02e0dc2 Add RSASSA-PSS support (RFC8017)
+         fa6f1e942cee11765b12c572086c4034f3173e0a unit: reduce macro expansion volume
          
