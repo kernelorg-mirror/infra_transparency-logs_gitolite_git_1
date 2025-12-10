@@ -1,21 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf
-Date: Wed, 10 Dec 2025 07:36:48 -0000
-Message-Id: <176535220802.1480827.10970741189629855250@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Wed, 10 Dec 2025 07:39:04 -0000
+Message-Id: <176535234422.1482294.11759679295113580905@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf
-user: ast
+repo: pub/scm/linux/kernel/git/tip/tip
+user: mingo
 changes:
   - ref: refs/heads/master
-    old: 189e5deb944a6f9c7992355d60bffd8ec2e54a9c
-    new: 297c3fba9d766b52b6b8e99fa53f0a85c5902909
+    old: 7dbc2a4b50167ec2885f78f91b6f1530005d9c0a
+    new: f6ce9915c267c2d3a9fb008fdcbab4e5d539561e
     log: |
-         ca45c84afb8c91a8d688b0012657099c24f59266 bpf: Add bpf_has_frame_pointer()
-         01bc3b6db18d6e0a2e93c37885996bf339bfe337 x86/unwind/orc: Support reliable unwinding through BPF stack frames
-         297c3fba9d766b52b6b8e99fa53f0a85c5902909 Merge branch 'bpf-x86-unwind-orc-support-reliable-unwinding-through-bpf-stack-frames'
+         f6941415d7211142eeaf647c2bf0822ef8ad8cea x86/boot/Documentation: Fix whitespace noise in boot.rst
+         f6ce9915c267c2d3a9fb008fdcbab4e5d539561e Merge branch into tip/master: 'x86/boot'
          
