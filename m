@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2692455010908322517=="
+Content-Type: multipart/mixed; boundary="===============4454711675834431994=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Wed, 10 Dec 2025 07:24:40 -0000
-Message-Id: <176535148097.1464628.11357467137577083399@gitolite.kernel.org>
+Date: Wed, 10 Dec 2025 07:24:43 -0000
+Message-Id: <176535148319.1464723.4962651361178957725@gitolite.kernel.org>
 
---===============2692455010908322517==
+--===============4454711675834431994==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,108 +16,95 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-6.17.y
-    old: a3dedb43e3b6b9c7b9ee71b302e09b2443130c33
-    new: 865c0a039fb4ef7489d8bb32a70fb74a6771065c
-    log: revlist-a3dedb43e3b6-865c0a039fb4.txt
+  - ref: refs/heads/linux-6.12.y
+    old: 7b4a18319fa3df325b8ab957760ffe592526a919
+    new: 986000a74d5f2488b141fe1ba028ff192170e2bc
+    log: revlist-7b4a18319fa3-986000a74d5f.txt
 
---===============2692455010908322517==
+--===============4454711675834431994==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1765351476 +0900
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1765351479 +0900
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1765351477-66373ef70492e100499f5bd512e41111f6ccad48
+nonce 1765351479-0d4f14b333b9d72340c9f314951e9a4535f78c4a
 
-a3dedb43e3b6b9c7b9ee71b302e09b2443130c33 865c0a039fb4ef7489d8bb32a70fb74a6771065c refs/heads/linux-6.17.y
+7b4a18319fa3df325b8ab957760ffe592526a919 986000a74d5f2488b141fe1ba028ff192170e2bc refs/heads/linux-6.12.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmk5IDQbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+N7cP/iwd3KIOo9L5Kwz9oJER
-CU34QZRqMyLB5IjrO3jNEwcHPGQiwl/InS6QAgVbkAdnKFKwU77nZF0kpxLjqKNe
-luL08P301i35IO3umvI3wdWr+/fOrJ/22OxaZUhmKmBvreqXue0Z+VcuVuWgde1q
-gxz+rk/7qgRbUxr/dR+CsNGN43qPNuhDTiwnNPvDKwTrU9vLhCXOophU6pk0+Pjf
-vAw6eHq9vUdGSb2Gb2jUgypqdvsKbdGnMNCUFmqqtwgysnJVGRmDg/+db0FGxJcK
-uwaZcNz/e5ZLSQLvzC2Z6nTWnEBP+37EWhDgy5rT7ltApzoLqq9R7+C78KdBaFbR
-a9iofcDu7ShNamiw1Pk2lBwZ/8ATMEYhtakA2z9ij1CQ627UAmJbH3oBAv+wtLvY
-Hq2Yw0dfO8Xm8A2QRdAccpxS7raoGSUr1x686sIelmNgBvYp0uIPEIBPZ1Mo15yN
-HmrRvSvELxqE0IabBZY91nQoS520cEvVdy0KXHO4Z8Fa95P2COCMIZps2C9Qt1NF
-AeXQLPYhQrLmBQcBhfDwZT9ry0JMv0tt21J8feF1/NhDFYX6zvh4W0awDHgOzUaO
-gDe7f2E4a7XhGkl0QjCSr6FXY2S79HbtL13GrNsfYZIZZngi1+ZKL3u0xBIf+FvH
-C4ZMSAAmhWgSBU5c3mJ/q7P5
-=ehIu
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmk5IDcbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+DbIP/itSZi8Y0RYaN3fNtnCu
+GrSSY4KsnfKlMRAo3vonq34+q7yLsPcYOL/YLQYGYymg26Pma1SXqImrYolzMGCf
+KvO9MkcGtzGHLqAwvtFb8MJbUockr/sbBFqURIq7KMZjqtfhxnJT3PYBxX6J/wGX
+CyM6kTUT1/NLSSzsAzHQ1QEiwEWo+5Po/bKtkleqbjluE7LGmLRi6GbW3th3jP5q
+sxLTfbljRT9TTMC8dpSnsJKZDFjRTog7mCSjQSB4KV46+AFKSiyFBqetsf9vh1gj
+ybgC0URuGiQ461n3IsMnnLSsfVOYmPotfC6f/eW+RLycav3MoqQuJ6mTLXugkw2p
+onw5+Ci0bvYL5Mnf+5xVbMcdCls5CBapyU9hOo6YZnsmOyHRZEBLqvCA9M5qyte4
++okRskvauRWrjyl2GhC0UAJHllariyeYVKiirUl6u7oxrVZ3njfWX/2pW98xS0Iq
+GSRVeCFZ49Ls6uhuIVVQZPZZdWYBxlyxue7RocrS+gfvB7qhoKbHxch+l5DktBRZ
+9pABGQOwRQO8Pa4b6w1hoZvz+rxqJYRtT/zyzFNUo8ZdCmiCke12dnNQWsr3OAiH
+7p72cefZYV9+VihAMhBfgNOi1cInE2UewBHCQFafOBLhLfnzNhPyJV3XL8eZDs7S
+jHJuaFmjyEtyTvKYHGvISr4c
+=isOq
 -----END PGP SIGNATURE-----
 
---===============2692455010908322517==
+--===============4454711675834431994==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a3dedb43e3b6-865c0a039fb4.txt
+Content-Disposition: attachment; filename=revlist-7b4a18319fa3-986000a74d5f.txt
 
-a100f1daa58abf1b7618e86f96ca04b9f9e63402 Documentation: process: Also mention Sasha Levin as stable tree maintainer
-c3a4b2e923e17bc38f41c1e9fe6b0008a76174a9 jbd2: avoid bug_on in jbd2_journal_get_create_access() when file system corrupted
-519c035ec2fdabe8da517a6c04e887b53ad93c80 ext4: refresh inline data size before write operations
-a65f66898387b53b8990e0a3a8a0ee480762f3b9 ksmbd: ipc: fix use-after-free in ipc_msg_send_request
-11bfc9255560f733a807de68ccef9e96769d170c locking/spinlock/debug: Fix data-race in do_raw_write_lock
-29bad121e2eccabd07a7e8f8c41d9317ecb0ea00 crypto: zstd - fix double-free in per-CPU stream cleanup
-9fa08f5c104a016ec4be9317149206ef377163d4 ext4: add i_data_sem protection in ext4_destroy_inline_data_nolock()
-61bd6f952eaa259822b6bec4df5b4c4f03c83825 comedi: pcl818: fix null-ptr-deref in pcl818_ai_cancel()
-025198d1efbad3e26db731dc1b5a1a8f8611462d KVM: SVM: Don't skip unrelated instruction if INT3/INTO is replaced
-aa9bec99cb10b16833ea369860928f1b667653ec USB: serial: option: add Foxconn T99W760
-175a033f8485050cdded24b4bf974f0fb648f665 USB: serial: option: add Telit Cinterion FE910C04 new compositions
-c633295198104d36c249ea5b0e658a7087c17551 USB: serial: option: move Telit 0x10c7 composition in the right place
-95f4b57b5f08c02243529375824732f98bacbaf8 USB: serial: ftdi_sio: match on interface number for jtag
-ec78a2eb5936230cc04e52518cbedd25ef3b066e serial: add support of CPCI cards
-bd368ed8a769ac170383837781f9dd9220001ec8 dt-bindings: serial: rsci: Drop "uart-has-rtscts: false"
-acdebbaf85ee41d90c1096a6c4336c6f6000819a serial: sh-sci: Fix deadlock during RSCI FIFO overrun error
-8bc8edced0ffde03f1aeb048682ec3d9e7925a2a USB: serial: belkin_sa: fix TIOCMBIS and TIOCMBIC
-0ce3a8e5fcd0e375c94f860bf100e10256a02b84 USB: serial: kobil_sct: fix TIOCMBIS and TIOCMBIC
-cc264233bdfdcd60ba06dcb5c4716adf6d85fec2 ftrace: bpf: Fix IPMODIFY + DIRECT in modify_ftrace_direct()
-ca41835436716485d4d9112d5f5520c58690edac spi: xilinx: increase number of retries before declaring stall
-22a9c329d166c6b01dd15344fc763fe6dde5f829 spi: imx: keep dma request disabled before dma transfer setup
-ae02204bc9f4d88837eb91a80eddc85f1137fba5 dma-mapping: Allow use of DMA_BIT_MASK(64) in global scope
-b033bbad3a9b08f384ec23cccc12d5531d1fe06d ACPI: MRRM: Fix memory leaks and improve error handling
-53f785fbeb36f5cfb9d270e50868a43ee9faf23e drm/vmwgfx: Use kref in vmw_bo_dirty
-ee2729a0729ee115e83182d55570571cd9d13e99 arm64: Reject modules with internal alternative callbacks
-8f4dfaddc9b759a3590a41225e6613546ef8c465 ALSA: hda/tas2781: Add new quirk for HP new projects
-064c96fd39ccff7a57b23c4e3ef286541ca71b32 Bluetooth: btrtl: Avoid loading the config file on security chips
-28d43515566c3cdd88374c5bab09f0a50e1ef1c7 ASoC: SDCA: bug fix while parsing mipi-sdca-control-cn-list
-40bfdc56989762536fc58f36dd0e48697aef0227 smb: fix invalid username check in smb3_fs_context_parse_param()
-78106a09a532ecf7f6fa4f8108b06eb90c4f27f6 drm/amdkfd: Fix GPU mappings for APU after prefetch
-d690117072574b30cc5a64975ff9f1106e62e02c ALSA: usb-audio: Add native DSD quirks for PureAudio DAC series
-832338924b38724e28665738e7075aea11e8e772 HID: lenovo: fixup Lenovo Yoga Slim 7x Keyboard rdesc
-25c7e568bb787d1d0ef399db38331f91b04e614e bfs: Reconstruct file type when loading from disk
-7385eb446ba18e37535c535846ed56a79b2ca7c5 HID: hid-input: Extend Elan ignore battery quirk to USB
-25b18fcc51927af728641a38cb463853e94e8794 platform/x86/amd/pmc: Add support for Van Gogh SoC
-95efdca574bc55c67e5f683ae75e9a5ebd7e9d7a platform/x86: hp-wmi: mark Victus 16-r0 and 16-s0 for victus_s fan and thermal profile support
-ed522cfc34bd99d18aa43cc1b5c172ffaf07393e nvme: fix admin request_queue lifetime
-395f50bf2d771e859aec783cd7c3124bc7353dc0 pinctrl: qcom: msm: Fix deadlock in pinmux configuration
-968ad301bf4d54415248aa49b71ad2056721c44b platform/x86: acer-wmi: Ignore backlight event
-8bfc08dd9e6803630c76c3c79988d5ecb7524d12 HID: apple: Add SONiX AK870 PRO to non_apple_keyboards quirk list
-3c9ddbbf6136094b06452481308ac1c91fe5df60 platform/x86: huawei-wmi: add keys for HONOR models
-4d6807bb7daae56421f0b9479a08347d5f9981c4 platform/x86: intel-uncore-freq: Add additional client processors
-c5932de7f96d7aa6464414ef39219b7f25bd33fa platform/x86/amd: pmc: Add Lenovo Legion Go 2 to pmc quirk list
-2fa9ae18ba07d74b09cd69d879228d8d81bd8254 platform/x86/amd/pmc: Add spurious_8042 to Xbox Ally
-095896b5bef146e188a1967f0ff73ee2016d73f7 sched_ext: Fix possible deadlock in the deferred_irq_workfn()
-06800f373d41a0f1add1749c0cda57ad9ab8ea87 platform/x86/intel/hid: Add Nova Lake support
-9a7122fd1e4321682541b37487ae4bd18f1b97a0 HID: elecom: Add support for ELECOM M-XT3URBK (018F)
-4eb92df5d1d098f0957d57c4640aa091ea405fdb sched_ext: Use IRQ_WORK_INIT_HARD() to initialize rq->scx.kick_cpus_irq_work
-2b6e0b709d57ab3cfa66c51228654093305d23d0 LoongArch: Mask all interrupts during kexec/kdump
-e551fba7fb02d3f537976d0a5355671d899bc7a2 samples: work around glibc redefining some of our defines wrong
-e58fe7e636c84916554893eb5bfdbbaf0b4b27f3 platform/x86: hp-wmi: Add Omen 16-wf1xxx fan support
-d2deff777c62ff12b2e5365e674e588456d9e67e platform/x86: hp-wmi: Add Omen MAX 16-ah0xx fan support and thermal profile
-c0734acecf28b29412b32cdeb7a570588cdb117f wifi: rtl8xxxu: Add USB ID 2001:3328 for D-Link AN3U rev. A1
-9c7dcde301dbe9f0eb9e76f9d11471951b2786d1 wifi: rtw88: Add USB ID 2001:3329 for D-Link AC13U rev. A1
-f55a1e4fc72ba15affa0052b3992bdbfd74cf114 iio: adc: ad4080: fix chip identification
-e47efadeb839ecc9550ae418d340be9d5036033f comedi: c6xdigio: Fix invalid PNP driver unregistration
-a401d93494a20c0ba4f8c596362ba4168cc89edc comedi: multiq3: sanitize config options in multiq3_attach()
-ed7495c204dba74fbe73f7682cd0d7e201ee6864 comedi: check device's attached status in compat ioctls
-68fffec8cbe73ca10fcf080eb019d38291f7e470 staging: rtl8723bs: fix out-of-bounds read in rtw_get_ie() parser
-db9129954eb4c3dc0004c6fff5e22e5d199f2e22 staging: rtl8723bs: fix stack buffer overflow in OnAssocReq IE parsing
-0820b7bca9857b864d88c4c0082ca3aa9c03b211 staging: rtl8723bs: fix out-of-bounds read in OnBeacon ESR IE parsing
-865c0a039fb4ef7489d8bb32a70fb74a6771065c Linux 6.17.12-rc1
+1e4327a36d0d3037e916eb26533a874ef0c000ce xfrm: delete x->tunnel as we delete x
+67eaf30719775c9cdee22d8ff6c688b99457a45f Revert "xfrm: destroy xfrm_state synchronously on net exit path"
+0f05df5fda4b030c6e07f8b564988e699066b185 xfrm: also call xfrm_state_delete_tunnel at destroy time for states that were never added
+b5f65a47cae6e757ce316ae7990595b2d1606521 xfrm: flush all states in xfrm_state_fini
+c2058a8b6820580b1e6b6d0bb39bacd684f4a977 Documentation: process: Also mention Sasha Levin as stable tree maintainer
+4d6d4d0e505722b9bda3a17517a3bb99363b5ee8 jbd2: avoid bug_on in jbd2_journal_get_create_access() when file system corrupted
+bf89265982acab47c0f49d4a085e1ca858769fb3 ext4: refresh inline data size before write operations
+4fc95850e1d66f6cd0e04e1a0360d8ce5402a67b ksmbd: ipc: fix use-after-free in ipc_msg_send_request
+6b949761401b7e3aba1953fec8db5a21d228b446 locking/spinlock/debug: Fix data-race in do_raw_write_lock
+a9f299563a85a501c26401e0f474596259feb381 ext4: add i_data_sem protection in ext4_destroy_inline_data_nolock()
+8c990f1496b4aa4d5a6809d0f5fe95e99060016f comedi: pcl818: fix null-ptr-deref in pcl818_ai_cancel()
+7423b3ad413d4c444f6579e8152138278c57b782 KVM: SVM: Don't skip unrelated instruction if INT3/INTO is replaced
+5b1bce8905078d19c8ec27936aca19849645cad4 USB: serial: option: add Foxconn T99W760
+72b85433c64cb441e8e62612bdbee2b6ca13d9aa USB: serial: option: add Telit Cinterion FE910C04 new compositions
+8aaf08fa5f9cda24c1daafd4c11659f7a1df4d40 USB: serial: option: move Telit 0x10c7 composition in the right place
+f60956b4ca3949848152ac4475d69b030e4c7cf6 USB: serial: ftdi_sio: match on interface number for jtag
+730a05540050891de147d9c9dd4685c09e1d3fbc serial: add support of CPCI cards
+9d5f5a5ffda6f1ef3234cefb07567fe395766bc1 USB: serial: belkin_sa: fix TIOCMBIS and TIOCMBIC
+57b46cd511949978b4564774e84bd047ea3c9c00 USB: serial: kobil_sct: fix TIOCMBIS and TIOCMBIC
+ceaf019c7b76e66ca903134bf9864b87ee48b950 ftrace: bpf: Fix IPMODIFY + DIRECT in modify_ftrace_direct()
+0dcf0c530d8a022b46c8605f1de7d62b00cdc194 spi: xilinx: increase number of retries before declaring stall
+c38b58ff0664262a3de1ea5fc5bb1cdf65cadc80 spi: imx: keep dma request disabled before dma transfer setup
+6bb8764a4f2dcd141bf2a65d0116c17831f35ff0 dma-mapping: Allow use of DMA_BIT_MASK(64) in global scope
+105d3d5709cb180015eac4b75b333a7126fe680f drm/vmwgfx: Use kref in vmw_bo_dirty
+ed4ce2a422e82c34c8b2d80f75468ca79b02856d Bluetooth: btrtl: Avoid loading the config file on security chips
+f87643c2cd9df7fffa38c88e4a1cf6e6f135f1d8 smb: fix invalid username check in smb3_fs_context_parse_param()
+f5d6082978c4c7491ee5c22601a240379f600b88 drm/amdkfd: Fix GPU mappings for APU after prefetch
+50b5b40d76423a4d2eec23cc7db0e57fd65061b8 ALSA: usb-audio: Add native DSD quirks for PureAudio DAC series
+1cf7d456b0ad1730c10fbb69a5afc7082262b1a0 bfs: Reconstruct file type when loading from disk
+228cc579ce98b9e6a97f7da4d317faa3885550c3 HID: hid-input: Extend Elan ignore battery quirk to USB
+e4d62c81abb0858d818b76f880431ef3e42d020f nvme: fix admin request_queue lifetime
+ca89fa8028466f904323815348d9bc58d1240383 pinctrl: qcom: msm: Fix deadlock in pinmux configuration
+c6aa36f53b0c5e5e4063fd8fe38f63ea76986025 platform/x86: acer-wmi: Ignore backlight event
+5c510b0c7ee700e95338d6135e84ca653940af92 HID: apple: Add SONiX AK870 PRO to non_apple_keyboards quirk list
+0b32d6ee5b3a96ef52a3e16c4ef96c2af22ca2c3 platform/x86: huawei-wmi: add keys for HONOR models
+08efc6294bab62fc10af690d16eccfb4bfea48d0 platform/x86/amd: pmc: Add Lenovo Legion Go 2 to pmc quirk list
+2a9b63ee107e5ea1ba435611b991162ed7ff969f platform/x86/amd/pmc: Add spurious_8042 to Xbox Ally
+ba8d5bc1303010db6504c5683e17162ad92c11bd HID: elecom: Add support for ELECOM M-XT3URBK (018F)
+161d87996ec7035eb45a065c611311f2734cd7fb LoongArch: Mask all interrupts during kexec/kdump
+655c1aa39a51ce56fce523263bc70459eb70704a samples: work around glibc redefining some of our defines wrong
+301e9fa73a2bf6d96d719e8dc8fc52dadf07415b wifi: rtl8xxxu: Add USB ID 2001:3328 for D-Link AN3U rev. A1
+85a51d91c357801e6dfb8620da2044c2ddeeee2c wifi: rtw88: Add USB ID 2001:3329 for D-Link AC13U rev. A1
+87f9ef6d6d58e5d350a7165401976953c40cf313 comedi: c6xdigio: Fix invalid PNP driver unregistration
+e95766323bb27eac75e6eb99c85320a41d712eb4 comedi: multiq3: sanitize config options in multiq3_attach()
+fc3b14ef40c62c6ee4140c44adfc07e710365c2b comedi: check device's attached status in compat ioctls
+c3ab26f0c663de16189b1f9f26fe8c8e8d65a29c staging: rtl8723bs: fix out-of-bounds read in rtw_get_ie() parser
+737b5d4bec8d332d22f5c4cf9b710f72c2583364 staging: rtl8723bs: fix stack buffer overflow in OnAssocReq IE parsing
+c20b56f61b6afccaace123472d38dc28e826c238 staging: rtl8723bs: fix out-of-bounds read in OnBeacon ESR IE parsing
+986000a74d5f2488b141fe1ba028ff192170e2bc Linux 6.12.62-rc1
 
---===============2692455010908322517==--
+--===============4454711675834431994==--
