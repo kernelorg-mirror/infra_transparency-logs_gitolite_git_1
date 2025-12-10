@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8396361488255277875=="
+Content-Type: multipart/mixed; boundary="===============7237872355958187855=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/device-mapper/linux-dm
-Date: Wed, 10 Dec 2025 18:45:16 -0000
-Message-Id: <176539231665.2110540.9715918931795084078@gitolite.kernel.org>
+Date: Wed, 10 Dec 2025 18:45:46 -0000
+Message-Id: <176539234667.2111346.12992959041866860355@gitolite.kernel.org>
 
---===============8396361488255277875==
+--===============7237872355958187855==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/device-mapper/linux-dm
 user: mikulas
 changes:
-  - ref: refs/heads/for-next
+  - ref: refs/heads/dm-6.19
     old: 58a0cbb4f70a5dfbb7b70b50ad2e13026186b14e
     new: 13ea55ea20176736516b20b9ea2d8cf97dbe74f5
     log: revlist-58a0cbb4f70a-13ea55ea2017.txt
 
---===============8396361488255277875==
+--===============7237872355958187855==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -43,4 +43,4 @@ ebbb90344a7da2421e4b54668b94e81828b8b308 dm-pcache: advance slot index before wr
 ee7633178321f5d983db3adfdea9322456cfdaaa dm pcache: fix cache info indexing
 13ea55ea20176736516b20b9ea2d8cf97dbe74f5 dm pcache: fix segment info indexing
 
---===============8396361488255277875==--
+--===============7237872355958187855==--
