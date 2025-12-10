@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7586223583012466868=="
+Content-Type: multipart/mixed; boundary="===============3800021524502619638=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-Date: Wed, 10 Dec 2025 11:17:55 -0000
-Message-Id: <176536547506.1693371.9215920060981090901@gitolite.kernel.org>
+Date: Wed, 10 Dec 2025 11:18:11 -0000
+Message-Id: <176536549108.1693731.13993034094231335431@gitolite.kernel.org>
 
---===============7586223583012466868==
+--===============3800021524502619638==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,36 +16,36 @@ repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
 user: ij
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/fixes
-    old: 9b9c0adbc3f8a524d291baccc9d0c04097fb4869
+  - ref: refs/heads/master
+    old: 3a8660878839faadb4f1a6dd72c3179c1df56787
     new: 9d588a1140b9ae211581a7a154d0b806d8cd8238
-    log: revlist-9b9c0adbc3f8-9d588a1140b9.txt
+    log: revlist-3a8660878839-9d588a1140b9.txt
 
---===============7586223583012466868==
+--===============3800021524502619638==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1765365472 +0200
+pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1765365487 +0200
 pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86.git
-nonce 1765365471-df21c4ce3050f0f8bdc00044c37958a585bc0aeb
+nonce 1765365487-938076819f4b5f3272f06372978dcda25732abcb
 
-9b9c0adbc3f8a524d291baccc9d0c04097fb4869 9d588a1140b9ae211581a7a154d0b806d8cd8238 refs/heads/fixes
+3a8660878839faadb4f1a6dd72c3179c1df56787 9d588a1140b9ae211581a7a154d0b806d8cd8238 refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iHUEABYIAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCaTlW4QAKCRBZrE9hU+XO
-MaolAQDVtafmJuB0UUWSwOw8tC9Sa41romH8WUezC7sYOTk82gEA1LJDOBO5luUU
-raFRfIrwoz+GSA8wdwUzgCWG8Hg2+wM=
-=2hqW
+iHUEABYIAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCaTlW8QAKCRBZrE9hU+XO
+MZWEAP9f8YN4Rd9yLtm/uJUengwJhH0Q1jJJQWmxPJ4qxX3d/gEAsYY8njYqiBo2
+UiAoVW4pMsKXWKk8aasfuvOfVq2R8ws=
+=ksQg
 -----END PGP SIGNATURE-----
 
---===============7586223583012466868==
+--===============3800021524502619638==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9b9c0adbc3f8-9d588a1140b9.txt
+Content-Disposition: attachment; filename=revlist-3a8660878839-9d588a1140b9.txt
 
 f3b17337b943949d0f3d12835d10d866210aeee8 Merge tag 'vfs-6.18-rc8.fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
 cb5c2eb459f4c98d584eaf3d3ea7c3612385d081 spi: microchip-core: Refactor FIFO read and write handlers
@@ -1072,4 +1072,4 @@ c752c21c90b808a059ae8e0070ff7566a65f8577 Merge tag 'auto-type-conversion-for-v6.
 9f20d9bad51635973fb1117544033bb03c4c3224 Merge tag 'pm-6.19-rc1-2' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
 9d588a1140b9ae211581a7a154d0b806d8cd8238 Merge tag 'platform-drivers-x86-v6.19-1' of git://git.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
 
---===============7586223583012466868==--
+--===============3800021524502619638==--
