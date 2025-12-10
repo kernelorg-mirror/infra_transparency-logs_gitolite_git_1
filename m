@@ -1,20 +1,36 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sudeep.holla/linux
-Date: Wed, 10 Dec 2025 14:59:42 -0000
-Message-Id: <176537878206.1902839.3475216359723092216@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
+Date: Wed, 10 Dec 2025 16:24:14 -0000
+Message-Id: <176538385491.1980457.4440266550866160989@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sudeep.holla/linux
-user: sudeep.holla
+repo: pub/scm/linux/kernel/git/tiwai/sound
+user: tiwai
 changes:
-  - ref: refs/heads/for-next/ffa/updates
-    old: 31f14f6ca386bc553509a72789a4a0cf12ec5d36
-    new: a919cf06888c45273f8d536707dc9a304d59a402
+  - ref: refs/heads/for-linus
+    old: 9a97857db0c5655b8932f86b5d18bb959079b0ee
+    new: 161a0c617ab172bbcda7ce61803addeb2124dbff
     log: |
-         6378ce1e34fcf3f55f2f81ff9006bae00b453cf6 firmware: arm_ffa: Unmap Rx/Tx buffers on init failure
-         a919cf06888c45273f8d536707dc9a304d59a402 firmware: arm_ffa: Tie FF-A version checks to specific features
+         298e753880b6ea99ac30df34959a7a03b0878eed ALSA: firewire-motu: add bounds check in put_user loop for DSP events
+         161a0c617ab172bbcda7ce61803addeb2124dbff ALSA: hda: intel-dsp-config: Prefer legacy driver as fallback
+         
+  - ref: refs/heads/for-next
+    old: 9a97857db0c5655b8932f86b5d18bb959079b0ee
+    new: 161a0c617ab172bbcda7ce61803addeb2124dbff
+    log: |
+         298e753880b6ea99ac30df34959a7a03b0878eed ALSA: firewire-motu: add bounds check in put_user loop for DSP events
+         161a0c617ab172bbcda7ce61803addeb2124dbff ALSA: hda: intel-dsp-config: Prefer legacy driver as fallback
+         
+  - ref: refs/heads/master
+    old: aca2ba78694418f2d396eb87b1f2c99e263be79c
+    new: c61eda66e169bc392c22fc5cad6a796ec8423b0c
+    log: |
+         298e753880b6ea99ac30df34959a7a03b0878eed ALSA: firewire-motu: add bounds check in put_user loop for DSP events
+         48fec81c3c30a22b2596e121913574d55c5a029e Merge branch 'for-linus'
+         161a0c617ab172bbcda7ce61803addeb2124dbff ALSA: hda: intel-dsp-config: Prefer legacy driver as fallback
+         c61eda66e169bc392c22fc5cad6a796ec8423b0c Merge branch 'for-linus'
          
