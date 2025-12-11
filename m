@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
-Date: Thu, 11 Dec 2025 19:34:26 -0000
-Message-Id: <176548166641.3581880.801377235767494031@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/akpm/mm
+Date: Thu, 11 Dec 2025 19:40:13 -0000
+Message-Id: <176548201314.3589122.17353308561489796260@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
-user: vudentz
+repo: pub/scm/linux/kernel/git/akpm/mm
+user: akpm
 changes:
-  - ref: refs/heads/master
-    old: 3d55304c6e437fe5e7fc02a3b7966d928bbb0b83
-    new: 305c1c5dd5f4a915cb5a4a5c7115c0e3b3aa20c1
-    log: |
-         305c1c5dd5f4a915cb5a4a5c7115c0e3b3aa20c1 Bluetooth: hci_conn: Fix using conn->le_{tx,rx}_phy as supported PHYs
-         
+  - ref: refs/tags/mm-stable-2025-12-11-11-39
+    old: 0000000000000000000000000000000000000000
+    new: 80fe384baedfd90bc5e83a0f6e7a39a4ce63f5d9
