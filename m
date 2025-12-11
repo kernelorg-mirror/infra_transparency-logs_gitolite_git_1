@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6763279710444575215=="
+Content-Type: multipart/mixed; boundary="===============3708922373533010275=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Thu, 11 Dec 2025 16:21:50 -0000
-Message-Id: <176547011039.3350624.10386093849493719404@gitolite.kernel.org>
+Date: Thu, 11 Dec 2025 16:21:54 -0000
+Message-Id: <176547011402.3350974.4757633256889646568@gitolite.kernel.org>
 
---===============6763279710444575215==
+--===============3708922373533010275==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,42 @@ repo: pub/scm/linux/kernel/git/gregkh/staging
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/staging-next
+  - ref: refs/heads/staging-testing
     old: 67a454e6b1c604555c04501c77b7fedc5d98a779
     new: d358e5254674b70f34c847715ca509e46eb81e6f
     log: revlist-67a454e6b1c6-d358e5254674.txt
 
---===============6763279710444575215==
+--===============3708922373533010275==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1765470109 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1765470112 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1765470108-0e942642590a9c4aace1fc2157e522a669aa839c
+nonce 1765470112-b6b6b03b1deec5fddaf7e26e8ac2a17a60759011
 
-67a454e6b1c604555c04501c77b7fedc5d98a779 d358e5254674b70f34c847715ca509e46eb81e6f refs/heads/staging-next
+67a454e6b1c604555c04501c77b7fedc5d98a779 d358e5254674b70f34c847715ca509e46eb81e6f refs/heads/staging-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmk6750bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+wosP/1IsotSthiq6hI0SDd2o
-pKiIDGem3A4ZSZdK9tE9RhZNAoF7MaPXD3a9KobB2dmTsnAnmwcle+Miqyk4p1Nv
-dCXtrIzQD8IEbwRKyc/vgsFfLmYb06ytF8LYM6QsW+We7YLt3sVYW/GaivZaPTy2
-k0Tplc5142Yi0J6/XYKvwg1nze32pfEtbVzM9lJoMFobxr/r3th4XcMZPBhdyj7x
-mz2kvNpVN1SAIIvRKe0YxPsMTdBCUCGcj4bWJ9EqbHjzFBWKwEQfem/YzBPzG9Od
-s3SJZjLkBCXh9SWURQyO5QpyI6jVXQY1hgbxPMt0Cn2hYG/657o1cTz/0g6e+JFg
-JmQcSkh1/8MaeFkeZ7GjZJvr4syc14WCo0nVEh2DGtLwIP6eKmZ18vwX60Cf9lQp
-HCFZ/sH2/0vNfHl+pcDP/f1hrAnzidl2Esbo2GuAquunR3xicHvhi/W9ilcfrlR1
-aoUDn9vzfb3tcR/CrR8IH3hshY3cfR0ispafndIK2FSvGj1ots6ZPlVsxZdK4TjI
-bIWr6EGYTe4R8UqMOHLqgEcX6y8z0x4/rw0QDhj/a39y4JJTSX4GKILGNUimGIWs
-1a7O/8Ow0PZCZN1uCRMhcuF6WqkDWAQ5dt/S/tcw39M54CjsBNEu7RJoXeqUMYWL
-URJjpBQzMWN+Lmn3Nq72BXhq
-=lYuT
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmk676AbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+yzUQALBuEtmNNKg5OAtVl9+y
+cmpO+b8VDwokPkSi/DqV7h2i2jyxuwon4YxNMFik8j5NrQOiY/0wupsViIDv0hM0
+m5IiNsZK05bYfGpAjcIjQ17lGLgrrbi61ZM9HUlMg7ObCWXuFNDDxurV/pcK/QlY
+ucdr74RIKZMpeoqIGZwSzKeqPW6X447LMLxKJrQecrAgg6tbuYDB3WIbnKrW5NQq
+zk/J78+rSIOEVYuwc/eR0AdeCUiX54KhtYMtmJX8varlTrTWtRXB09SRRnD6jMfj
+6gI60pv7leVdHnXYp4JmZKG+rGP6Dl7D51t4i52oYE46nsoKesTaN6H3BhMj2Y36
+Oegmtcvh42SJhO0WuXSxiNKIP9OZG2m0LeXiaTwhjxkrNqmhin5eQaFU5L2nO6Mq
+MhFAscbQHTP7cPb991LdffebR4kLf52kyVwCOCMJwNefF9Vr6wRuDurcWho6ZERW
+8A9sG5ROWbwSEk3trt+rSW5Rbhn+b9TU1nFy4gsE+egPWAx/QHx3H+jBtEdEwet/
+DVYgc2zpI2+MnK/FYmOTKTlpkxrbk6NZB4/IBgfmmN0pq8zjjnJLjQ4sLKt1+Egb
+ktZXvmZjZnnLlox2ozD7fYsQqK6znHlFQ/7+cegXH5cDOvR/wSvO+KzEzLfsAe5m
+Kaw+tmQ6CCwV/UgTEGlLES0n
+=8CJu
 -----END PGP SIGNATURE-----
 
---===============6763279710444575215==
+--===============3708922373533010275==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -799,4 +799,4 @@ ee7633178321f5d983db3adfdea9322456cfdaaa dm pcache: fix cache info indexing
 8c8081cc599fcafa25371d50959c17e154f9fd08 Merge tag 'spi-fix-v6.19-merge-window' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/spi
 d358e5254674b70f34c847715ca509e46eb81e6f Merge tag 'for-6.19/dm-changes' of git://git.kernel.org/pub/scm/linux/kernel/git/device-mapper/linux-dm
 
---===============6763279710444575215==--
+--===============3708922373533010275==--
