@@ -1,21 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ardb/linux
-Date: Wed, 10 Dec 2025 23:56:56 -0000
-Message-Id: <176541101684.2407095.2191346951973923454@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Thu, 11 Dec 2025 00:11:42 -0000
+Message-Id: <176541190235.2421031.6284887500939660517@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ardb/linux
-user: ardb
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
-  - ref: refs/heads/lockless-random-v2
-    old: 250ee6742601504bc14cfc2220f224c315ab3705
-    new: 629b369505e73286d416f91816305d3e16d5c3cf
+  - ref: refs/heads/master
+    old: 0723a166d1f1da4c60d7b11289383f073e4dee9b
+    new: 1de741159bbb187c8018c4c779acde4ea0188478
     log: |
-         76c628bd647c390a43112ccce8d33eb70d7d29ad random: Use u32 to keep track of batched entropy generation
-         c638e24f6766140b08604e0f43615ca7d636138d random: Use a lockless fast path for get_random_uXX()
-         629b369505e73286d416f91816305d3e16d5c3cf random: Plug race in preceding patch
+         0f35040de59371ad542b915d7b91176c9910dadc mm/slab: introduce kvfree_rcu_barrier_on_cache() for cache destruction
+         1de741159bbb187c8018c4c779acde4ea0188478 Merge tag 'slab-for-6.19-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/vbabka/slab
          
