@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0000084108049009892=="
+Content-Type: multipart/mixed; boundary="===============2750844089260836999=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/spdx
-Date: Thu, 11 Dec 2025 16:23:02 -0000
-Message-Id: <176547018277.3352264.2478727143269458202@gitolite.kernel.org>
+Date: Thu, 11 Dec 2025 16:23:06 -0000
+Message-Id: <176547018671.3352478.10265650611650270546@gitolite.kernel.org>
 
---===============0000084108049009892==
+--===============2750844089260836999==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/spdx
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: 211ddde0823f1442e4ad052a2f30f050145ccada
+  - ref: refs/heads/spdx-linus
+    old: 89373f5695dc918a0118fa71ee4dc423bc8c8476
     new: d358e5254674b70f34c847715ca509e46eb81e6f
-    log: revlist-211ddde0823f-d358e5254674.txt
+    log: revlist-89373f5695dc-d358e5254674.txt
 
---===============0000084108049009892==
+--===============2750844089260836999==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1765470179 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1765470185 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/spdx.git
-nonce 1765470179-32dd1c2b60fad1f76e0214e8c87fb02213936db9
+nonce 1765470184-db946f3bec62268b57da59b210b2a758c2531921
 
-211ddde0823f1442e4ad052a2f30f050145ccada d358e5254674b70f34c847715ca509e46eb81e6f refs/heads/main
+89373f5695dc918a0118fa71ee4dc423bc8c8476 d358e5254674b70f34c847715ca509e46eb81e6f refs/heads/spdx-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmk67+MbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk++2gP/3tATWMkJyncSG1LpXgS
-deRI9v75Hd+0G7ZTyikIugNViZxexc0F6HZeTV2QckBMdfSkucvO1p8uqdXcQeDz
-owijSdI0BCfolIxltzgHCHKckdRo7N21RXhvdBKVg/BdCMMrtU9dOSnkNcWT/m3Q
-A9laGIjOyU58HVsdLpJ1sLlihyT//Mk9Ir3JUqRvtLr/Tw8tIDJW6+wuativeA8P
-Gm5SEXUEhG8ET9Nqwcqsyu2fw5aOReTf2UYkdfnpKn1Ahp5Z+g9B0vHDDAjvMC3O
-5W4RHQ3p3DjiQzMLDbby27tp3SuIBxqvibANRkRVLDPu9UNrFxDqi90vrIcsYLda
-u8Mwu/fXTfEpRGXcNsAhkZkeX+TkG0qkscqXuaVVEZje0HLmIDIsTc+95rWq7Fgd
-6uquWQ6i9ExbZF2y57S8SPPLK9cnZ7AEBqdLIT7PCGZtNiaA6RRg26pGn1lErNq0
-EzkJhWAG9EKP1kwMVJe/W2+44h6xgoLoT64eq1D+KeJdtCkU/QaYA0a3wAm/dj0Z
-ZHAn1UFpyQ99xX+JvB5EJsiBb+WiViyqd4OBYuA6qrHe67sOPI/kbYV3g+LxhR9Y
-q/DDjbVG9TyXxp6hkBS4RNdqOFxe+JfrzdjfWCW36dq+aWMrg8WIUVJqcYGCI+KH
-FT5KmN18qBaknDkeXJ7Mifhv
-=U6qp
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmk67+kbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+J5QP/jblhahR9HaQ3aPAKDby
+mh3JY0gHf/aqDwpcb5qxsnXuRb23JwsJpqT9NaQDE9VtwK/MN4RuVcUFJ5l6FTlN
+Nzb6D3zFWRMiteT5ZLkmY9OP1pjROiTrQ2SaNwtZ6vITOiVnsi7bYeZI6dw+VRsD
+gLwZKY9LstpHsMyMm/AtrPIWLTyXaEdqAOU+o4S0sVTqLUmjdd1qXDpCXumsIApo
+W8PpbvGlxGDLnU5rtyPM7klP7JRpL5LUrc3hW+jb7ydS2C4tVFXWW9WYNOIIagx5
+IGWlbr0H1OFfDHurLqz+5ZBrpZ/Dv8aGER2fqTM/3a+u9BTnkl9sAplhTbxasZlC
+JwfO06jl3UGmwR7g9QzHzg8ql5BLJUWyPDKqZsbZjWE/P7R+uuXSaKHVolDK2gRi
+2yxOrLJVu1hs2WbM2Y03uMLO1IE2oWuIIrpyPhiGNgzTdXn9TDV35tLms0NovtCB
+353/LiPOEiUC8fosGg6EF6fZBM2gAUG5d8fI3fPUAUMxTqhPDtuYjcv3A8ZxQg8r
+IIEBE+MrfOTn30YDC3+F7toAJ7PYdAzNdDmTYZIENhR7+skMxm/2gxRdPTkeumYT
+rsHmQt+FDjK9jlJnvsR88t6lNphSE7Q6CKCNyf4rQKK59Gkv2Rq9uEH9UDJcix2/
+o9IJCxPbWR/DKrUw4KrsLMJy
+=M3IH
 -----END PGP SIGNATURE-----
 
---===============0000084108049009892==
+--===============2750844089260836999==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-211ddde0823f-d358e5254674.txt
+Content-Disposition: attachment; filename=revlist-89373f5695dc-d358e5254674.txt
 
 cab8cbcb923a89cb583c9088fa50431eb2feded5 ext4: enable block size larger than page size
 91ef18b567dae84c0cea9b996d933c856e366f52 ext4: mark inodes without acls in __ext4_iget()
@@ -1082,4 +1082,4 @@ ee7633178321f5d983db3adfdea9322456cfdaaa dm pcache: fix cache info indexing
 8c8081cc599fcafa25371d50959c17e154f9fd08 Merge tag 'spi-fix-v6.19-merge-window' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/spi
 d358e5254674b70f34c847715ca509e46eb81e6f Merge tag 'for-6.19/dm-changes' of git://git.kernel.org/pub/scm/linux/kernel/git/device-mapper/linux-dm
 
---===============0000084108049009892==--
+--===============2750844089260836999==--
