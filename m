@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jassibrar/mailbox
-Date: Thu, 11 Dec 2025 03:06:23 -0000
-Message-Id: <176542238309.2610337.11689143046112568085@gitolite.kernel.org>
+Date: Thu, 11 Dec 2025 03:09:30 -0000
+Message-Id: <176542257009.2612033.17442767752355327222@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,6 +11,6 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jassibrar/mailbox
 user: jassibrar
 changes:
-  - ref: refs/tags/mailbox-v6.19
-    old: 64f51f33442f9474ca4aa03de3a96f136a2d089b
-    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/for-next
+    old: 175956b6672f93491da9c78d686f310311f0855e
+    new: 1ec6e0e8c0dd6599472af944b8d703d526ff1031
