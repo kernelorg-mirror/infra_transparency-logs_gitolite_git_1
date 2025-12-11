@@ -1,57 +1,57 @@
-Content-Type: multipart/mixed; boundary="===============5251771344530613290=="
+Content-Type: multipart/mixed; boundary="===============3921790065196588062=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Thu, 11 Dec 2025 16:20:45 -0000
-Message-Id: <176547004589.3348559.3477003477722189054@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/driver-core/driver-core
+Date: Thu, 11 Dec 2025 16:20:47 -0000
+Message-Id: <176547004767.3348747.17535190150281035630@gitolite.kernel.org>
 
---===============5251771344530613290==
+--===============3921790065196588062==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/usb
+repo: pub/scm/linux/kernel/git/driver-core/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/usb-testing
+  - ref: refs/heads/driver-core-next
     old: 67a454e6b1c604555c04501c77b7fedc5d98a779
     new: d358e5254674b70f34c847715ca509e46eb81e6f
     log: revlist-67a454e6b1c6-d358e5254674.txt
 
---===============5251771344530613290==
+--===============3921790065196588062==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1765470044 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1765470044-30e48c358eac34a3cb6727a0ee3e444867cef083
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1765470047 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/driver-core/driver-core.git
+nonce 1765470046-e3cf460202543247f3d24a9bd28e1199ffac023b
 
-67a454e6b1c604555c04501c77b7fedc5d98a779 d358e5254674b70f34c847715ca509e46eb81e6f refs/heads/usb-testing
+67a454e6b1c604555c04501c77b7fedc5d98a779 d358e5254674b70f34c847715ca509e46eb81e6f refs/heads/driver-core-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmk671wbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+yuwP/A5Wd0MIOYc3L/+wh2Cc
-C1CVozz57vt3tCgHOQxzrwGwHMmw5VzwIP4B7SG4/7vvAtzwbur0fMS/j+0aSmtQ
-vTNMZdks9wwZE1ChNMHU8vsbms5Srv8NID5Z+FAnOWa2U55cDIedUKEo2EAfAALs
-eHc2m2Am0xrbY2VJkb8r0L8XSaKD8T92JQ7W2XtUyybygsi0XDk3NQsX3L5yhNPU
-cyoRaciqBBNHPUHPtIEwu1xZXz/TUqnYBA/7+pbmwf+HSdRpVqPR0U3SObvas4m+
-Ckh3wrBpdkatylJntp76/h78YZS0Aa+j8BOQVA6jDFUy9Xoi51oWrf0AryTvDKUL
-Es79qpQYu6VNIS+PaMPBNn8xX8UmkXr+KngtfJ0QHXYkKCVL6B7pZK718ddfU8sA
-Qr93uqgi4OVC2/82SxkpXxPHTC7feAFu9MH3xnu/Vf9Izq86RetqP8niRsOOFZiz
-IGxsmu25rIxJR7g1UCkjCP3uhvukbUCJpCX2BTREPK9u6LWxZTA66Nfw1xRWM/IE
-NL/974YDaDnyyNtz2JpvyrQy50zrnVtfq/T8XxYXHTEeIiYAaj9b4tsiC6YnKkzs
-NlN5ffhu8UEL0HvH26sq4zcwX5/J1jf3t8TBVIJQMw3I/bOIC9WChEs8B44t+lrr
-V2FtqIk6YTrmewDhuTGIYERy
-=p8zS
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmk6718bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+IF4P/jwNp9rgqZJ76TicpElE
+Y2ToaEuzDwce48F2g+laHWYEe80WDvG4Q4y+qE/oi5adppAJXQPetpxGhjAnsN/K
+vPznzpnyj6T/hro5QREfIwco7lWC0hKydYh4wZXhCKVgBpFhWCU73RkuhMdBkFRT
+VYl3FKS7SMNFkcrM/uYWuJj+9IKdPF2lxWAkRKNQStF1KqzSf21V+lkF5xM8MW5H
+hw7HSgwlkpWRGsnh0U5pw2p4SQ0nEAa+dMZmPPrEgAnINn/gD5bHciQp4rGyuAab
+J/eld81yguH2eQ75sTwufnaH7D+HrkT2P/YQqbFDfBTYK5kL8chMb2pX+r+snAvL
+gpo2sWXecYmAD9O8hd0mVTKYRznI0TzYMiLefn6ZXginRaKNE8RvgxiwqAdKdQn+
+Ups5xnK/rVAxq8AqhHMnYpuPDocnz3vNZnlBAOkAj1iIO7NlVD//L0MN7Hi+2Y7v
+kQprTBqgnYs49EbyXGZqEbjR02B8g/R20Nct0dnmpfcj51yNlCd37rv0cMVhzI89
+YnYpT2u2dS96V4XZIcSE+Lle7fZUsQKonpX6deuV52ZS7FGjBAW89hQBraijFe+T
+/+YNEzB/7oU2Ob25d/Q47YIMEBbARPHgpj9mVYx2zaAjX2s2frxkvRw/DCeaKQ6I
+XzpMVLJklo9dzhh46JghsIJY
+=imwN
 -----END PGP SIGNATURE-----
 
---===============5251771344530613290==
+--===============3921790065196588062==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -799,4 +799,4 @@ ee7633178321f5d983db3adfdea9322456cfdaaa dm pcache: fix cache info indexing
 8c8081cc599fcafa25371d50959c17e154f9fd08 Merge tag 'spi-fix-v6.19-merge-window' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/spi
 d358e5254674b70f34c847715ca509e46eb81e6f Merge tag 'for-6.19/dm-changes' of git://git.kernel.org/pub/scm/linux/kernel/git/device-mapper/linux-dm
 
---===============5251771344530613290==--
+--===============3921790065196588062==--
