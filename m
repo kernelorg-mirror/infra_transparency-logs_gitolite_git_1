@@ -1,32 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
-Date: Thu, 11 Dec 2025 09:57:29 -0000
-Message-Id: <176544704980.2993725.6876406064780184949@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sudeep.holla/linux
+Date: Thu, 11 Dec 2025 09:57:37 -0000
+Message-Id: <176544705772.2994011.278236445888093669@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tiwai/sound
-user: tiwai
+repo: pub/scm/linux/kernel/git/sudeep.holla/linux
+user: sudeep.holla
 changes:
-  - ref: refs/heads/for-linus
-    old: e33a6abdb744e3a015dd53e997c690081a8b985d
-    new: fd324768eb2c132bb111ba76675b4c72406251d9
+  - ref: refs/heads/for-next/scmi/updates
+    old: 8bc55f21a345198b3ce42bdc89b5bd0464706905
+    new: 62c25fc54b31f0a30f483d8e92edb72a6ae88bea
     log: |
-         fd324768eb2c132bb111ba76675b4c72406251d9 ALSA: hda/tas2781: Add new quirk for HP new project
-         
-  - ref: refs/heads/for-next
-    old: e33a6abdb744e3a015dd53e997c690081a8b985d
-    new: fd324768eb2c132bb111ba76675b4c72406251d9
-    log: |
-         fd324768eb2c132bb111ba76675b4c72406251d9 ALSA: hda/tas2781: Add new quirk for HP new project
-         
-  - ref: refs/heads/master
-    old: 8eba2bde3b1994b2dea6da138d9b788d3ce7446a
-    new: b67428f6cbc40633db229b5afeb945b3b86b3c6f
-    log: |
-         fd324768eb2c132bb111ba76675b4c72406251d9 ALSA: hda/tas2781: Add new quirk for HP new project
-         b67428f6cbc40633db229b5afeb945b3b86b3c6f Merge branch 'for-linus'
+         36dbe2092cb42d55c2e3e76a5517c6b8e02906d3 firmware: arm_scmi: Fix uninitialized pointers with __free attr
+         575031655795e58c6d83d69d00e6553132fd19ee firmware: arm_scmi: Refactor reset domain handling
+         0423aaa5579c6fd9200a1a87a491af75575433ba firmware: arm_scmi: Move boiler plate code into the get info functions
+         62c25fc54b31f0a30f483d8e92edb72a6ae88bea firmware: arm_scmi: Increase MAX_OPPS to 64
          
