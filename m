@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1341696434993139222=="
+Content-Type: multipart/mixed; boundary="===============4853126241297994833=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Thu, 11 Dec 2025 06:06:46 -0000
-Message-Id: <176543320637.2778253.202299757042482483@gitolite.kernel.org>
+Date: Thu, 11 Dec 2025 06:06:47 -0000
+Message-Id: <176543320798.2778356.2110271339474725007@gitolite.kernel.org>
 
---===============1341696434993139222==
+--===============4853126241297994833==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/mm-new
-    old: cd5dc0cacb70dac396d6ce08c1710d0850a8310d
-    new: db411a1da7e162908fd11d5d8780e1f9c7fdff65
-    log: revlist-cd5dc0cacb70-db411a1da7e1.txt
+  - ref: refs/heads/mm-unstable
+    old: 1bb9335bdaf8e0bfa67bc22ee7ecfb49d77a5292
+    new: f233a43c8ad76fb3c3d148a9b6498a8733c6e979
+    log: revlist-1bb9335bdaf8-f233a43c8ad7.txt
 
---===============1341696434993139222==
+--===============4853126241297994833==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-cd5dc0cacb70-db411a1da7e1.txt
+Content-Disposition: attachment; filename=revlist-1bb9335bdaf8-f233a43c8ad7.txt
 
 fc6bcf9ac4de76f5e7bcd020b3c0a86faff3f2d5 powerpc/pseries/cmm: call balloon_devinfo_init() also without CONFIG_BALLOON_COMPACTION
 0da2ba35c0d532ca0fe7af698b17d74c4d084b9a powerpc/pseries/cmm: adjust BALLOON_MIGRATE when migrating pages
@@ -59,6 +59,5 @@ ad271ff304a100b278121ae5c1bff79c7be0086a mm/hugetlb: fix two comments related to
 582bc326f0f9110285cbdec158c3788fe04758bf mm/hugetlb: fix excessive IPI broadcasts when unsharing PMD tables using mmu_gather
 5bbb4a6dc9642fdbfa0a9e1852af63c1a74c72ab mm: avoid use of BIT() macro for initialising VMA flags
 f233a43c8ad76fb3c3d148a9b6498a8733c6e979 mm/damon/vaddr: fix missing pte_unmap_unlock in damos_va_migrate_pmd_entry()
-db411a1da7e162908fd11d5d8780e1f9c7fdff65 mm/damon/core: fix memory leak of repeat mode damon_call_control objects
 
---===============1341696434993139222==--
+--===============4853126241297994833==--
