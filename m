@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============9106917137349735742=="
+Content-Type: multipart/mixed; boundary="===============8330970540978362933=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Thu, 11 Dec 2025 16:20:06 -0000
-Message-Id: <176547000687.3346516.10942741562467320280@gitolite.kernel.org>
+Date: Thu, 11 Dec 2025 16:20:09 -0000
+Message-Id: <176547000980.3346692.14492378781977288011@gitolite.kernel.org>
 
---===============9106917137349735742==
+--===============8330970540978362933==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,42 @@ repo: pub/scm/linux/kernel/git/gregkh/char-misc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/char-misc-next
+  - ref: refs/heads/char-misc-testing
     old: 67a454e6b1c604555c04501c77b7fedc5d98a779
     new: d358e5254674b70f34c847715ca509e46eb81e6f
     log: revlist-67a454e6b1c6-d358e5254674.txt
 
---===============9106917137349735742==
+--===============8330970540978362933==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1765470006 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1765470009 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1765470005-d77cab033f5582eff4512407fcd5231b073335c4
+nonce 1765470008-a6ee1b4fd7ba4096348b1ec2843e0f2548ad3503
 
-67a454e6b1c604555c04501c77b7fedc5d98a779 d358e5254674b70f34c847715ca509e46eb81e6f refs/heads/char-misc-next
+67a454e6b1c604555c04501c77b7fedc5d98a779 d358e5254674b70f34c847715ca509e46eb81e6f refs/heads/char-misc-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmk67zYbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+6pgP/2GTZ8hIYKFRp7Ja4wfr
-SPznYGdIeLHR+2fSVW7fkZkFrC3yGVrBUns/WE9YoIdOOhyUGBH1K+kLOUrgbAVj
-3O9fnlZnM/U7QAw5uu8BXTgXsGnviB/lFtO/INOzSEKBK1gQ9iSG7b6ApLplV1Mb
-r6LMwTAKtj+7HWg422nY1Eh9Y07hQGJ38CQ1631EtUwVT5yy9ICpnqdC8mMX+7DV
-yQpYjlTALeBJi+B+lZR8TOriVZo3SOve7oJmJF0IVEzSqw2XX85afAyOagT54Mpp
-5ajDdgcrTr9nnjGcR942zOD0Y3OMEPAhN/byFtSySD4HKUFxgW+Zdp6bCuBjsIHv
-LdB2h9FpTi5c8Bz/9IBW5h73hvyrJIObq7Yytlu+I1u5bJprnNS1nygQlqFA0zyQ
-4pokh7vLEf3uFXtjug2OPzo+H4MfniAbd6IcyB9/Si5pe7cC/lMuc8wUlOULR2/6
-ZkNbnqjg7NsaqhgP2DOOpG0IEYHWLp+IONYyI0wVfl+FgbrbsSKkbtI9pRotvRrE
-r3WPf4GgDMT8T3WP5wrvKpGJ7JQP7Nio+0p/QzlHtpsXr57FB9E6IMlTpXsu0OC0
-AK+QokGsiuqrBvYqX0HxK0Rb0fnBOvJzuKBViA9KOtZl6oOlB5mKXTLBQVvpsSYN
-4RXv2LD4kgkneS49algazBjM
-=pwmM
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmk67zkbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+qTcP/1H0X0uckvVk54KrPUMQ
+FvWtJ0FaDZ3k/87jac+L4tk9uMtW85zKMjVWG0IkiJhIP/RAtUWB9ZeqeMm2gZzT
+QXIkRJ/xCQ/pPv4YYckUJHcJltstQ2tfGdclhuN4G8hYfoI9cYZgEb5UJ0c7yuCH
+ISzHdlzZ0WFtu5FYgmvaBGK0zHAnFk0PBbxK70ilqhZw93b2phXUpzI8kMXZhXNy
+0r2Ejaz074SXIofLGuh7Zmy0Ou77R6zAIWZzhItpgNUt7DtwIU9Ivz2+KHV2ZE1B
+ldLC7aVdTQoduvoD0ypobvJ0etdlLKMrbX6vv/VNm1hcBr3C0hii11wBV7lR77Wb
+PMx63FXOc5mMWtHk6x6cCgg2mf+tY//Zw/05JNHH2QArdWZmPAv4VffYvsYBmX0x
+aBb43fo7XXabzfie90BDLmdmcgo7DoSklRWlunQpWdFM3PiTM4A6TYEaKD2N/S4x
+ddnmcxTZYIA0E8FjarDFbGYiZswd0LFpfyg0qdrrlYOTF4KvoZcUyjwuW6jVD6PJ
+YBJlXHM1dvAClt9PlFYHAxQz637MQ1QSI1KSvBoGvK29iiTEsCHRWSsVUrp4WhT1
+q0hzcvA9g3v4kou0lty//aIQL0+AZIFWkawnRlevzlJkEsbmRD01fa2PSDvEDjcX
+5Gzb68jQOHba95R+0kjZ0aPp
+=Ggu/
 -----END PGP SIGNATURE-----
 
---===============9106917137349735742==
+--===============8330970540978362933==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -799,4 +799,4 @@ ee7633178321f5d983db3adfdea9322456cfdaaa dm pcache: fix cache info indexing
 8c8081cc599fcafa25371d50959c17e154f9fd08 Merge tag 'spi-fix-v6.19-merge-window' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/spi
 d358e5254674b70f34c847715ca509e46eb81e6f Merge tag 'for-6.19/dm-changes' of git://git.kernel.org/pub/scm/linux/kernel/git/device-mapper/linux-dm
 
---===============9106917137349735742==--
+--===============8330970540978362933==--
