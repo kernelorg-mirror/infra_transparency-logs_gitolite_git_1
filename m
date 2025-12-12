@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gfs2/linux-gfs2
-Date: Fri, 12 Dec 2025 09:23:10 -0000
-Message-Id: <176553139018.155121.3855891816742192776@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Fri, 12 Dec 2025 09:26:33 -0000
+Message-Id: <176553159301.159240.13934227127835491855@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gfs2/linux-gfs2
-user: agruen
+repo: pub/scm/linux/kernel/git/tip/tip
+user: mingo
 changes:
-  - ref: refs/heads/for-next
-    old: 3b4f836d7d80a3f1b598d57c44c2e7bc6ff25ac5
-    new: 5a595f66c97348e6aa5cc06e71e8e34cd35c7527
+  - ref: refs/heads/core/urgent
+    old: f1de49094b9e0b44f85a0f8b77bc27d8ca222e3c
+    new: bdae29d6512ddc589200b9ae6bda467bdbab863d
     log: |
-         5a595f66c97348e6aa5cc06e71e8e34cd35c7527 gfs2: Introduce glock_{type,number,sbd} helpers
+         b5e51ef787660bffe9cd059e7abe32f3b1667a98 bug: Let report_bug_entry() provide the correct bugaddr
+         d36067d6ea00827e9b8fc087d8216710cb99b3cf bug: Hush suggest-attribute=format for __warn_printf()
+         bdae29d6512ddc589200b9ae6bda467bdbab863d rseq: Always inline rseq_debug_syscall_return()
          
