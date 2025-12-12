@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/riscv/linux
-Date: Fri, 12 Dec 2025 01:37:07 -0000
-Message-Id: <176550342777.3923295.4631092402353758628@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/chao/linux
+Date: Fri, 12 Dec 2025 02:06:21 -0000
+Message-Id: <176550518143.3950010.16726692880150211345@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/riscv/linux
-user: pjw
+repo: pub/scm/linux/kernel/git/chao/linux
+user: chao
 changes:
-  - ref: refs/tags/riscv-for-linus-6.19-mw2
-    old: 0000000000000000000000000000000000000000
-    new: 7ef8a3b40c4a5ca6b27b74c056872bc3ca0119c1
+  - ref: refs/heads/bugfix/common
+    old: fbe452d8dfb5652155172c2c32e22195f0571229
+    new: 0890ff3ebcfc99cce25edfa11094d2d6238a734a
+    log: |
+         0890ff3ebcfc99cce25edfa11094d2d6238a734a f2fs: make FAULT_DISCARD obsolete
+         
