@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3094475147941067660=="
+Content-Type: multipart/mixed; boundary="===============2905500261126075157=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Fri, 12 Dec 2025 02:25:09 -0000
-Message-Id: <176550630996.3969100.6480565082030943600@gitolite.kernel.org>
+Date: Fri, 12 Dec 2025 02:25:11 -0000
+Message-Id: <176550631172.3969315.6154538967104730020@gitolite.kernel.org>
 
---===============3094475147941067660==
+--===============2905500261126075157==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/mm-new
-    old: db411a1da7e162908fd11d5d8780e1f9c7fdff65
-    new: 09f7553331b245bf1ee6f8ab032c7792aab15909
-    log: revlist-db411a1da7e1-09f7553331b2.txt
+  - ref: refs/heads/mm-unstable
+    old: f233a43c8ad76fb3c3d148a9b6498a8733c6e979
+    new: 1ef4e3be45a85a103a667cc39fd68c3826e6acb9
+    log: revlist-f233a43c8ad7-1ef4e3be45a8.txt
 
---===============3094475147941067660==
+--===============2905500261126075157==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-db411a1da7e1-09f7553331b2.txt
+Content-Disposition: attachment; filename=revlist-f233a43c8ad7-1ef4e3be45a8.txt
 
 f562cfd06044f0578b6472d50b8ac2ab27acc8e3 MAINTAINERS: add Mike Rapoport as maintainer for userfaultfd
 ce80805dbc41263f17ddc54386b8b072c65ba6b8 genalloc.h: fix htmldocs warning
@@ -44,10 +44,5 @@ b120f28edce0323b6c544780168b2b7cf0b7efe0 kasan-unpoison-vms-addresses-with-a-com
 af05cffc5f50d0c9299e7fcda7b07ca021641a35 mm: avoid use of BIT() macro for initialising VMA flags
 6161aac6223f438efebad2dd6cb1cfdd93fd98e3 mm/damon/vaddr: fix missing pte_unmap_unlock in damos_va_migrate_pmd_entry()
 1ef4e3be45a85a103a667cc39fd68c3826e6acb9 mm: fixup pfnmap memory failure handling to use pgoff
-98f4e6bdf357418216c31b34355743e7312b6eb3 mm/damon/core: fix memory leak of repeat mode damon_call_control objects
-b37c16dcb6b291b7963870b37ff11c10959a521f mm/hugetlb: fix hugetlb_pmd_shared()
-2646131bd5294f3a9e42faadda006be140985896 mm/hugetlb: fix two comments related to huge_pmd_unshare()
-7f38445c31d8263bdb0a8f4b8552d0d5c86a6ba0 mm/rmap: fix two comments related to huge_pmd_unshare()
-09f7553331b245bf1ee6f8ab032c7792aab15909 mm/hugetlb: fix excessive IPI broadcasts when unsharing PMD tables using mmu_gather
 
---===============3094475147941067660==--
+--===============2905500261126075157==--
