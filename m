@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/aalbersh/xfsprogs-dev
-Date: Fri, 12 Dec 2025 13:25:56 -0000
-Message-Id: <176554595626.399724.16247746933131150142@gitolite.kernel.org>
+Date: Fri, 12 Dec 2025 13:54:47 -0000
+Message-Id: <176554768758.424658.17294961651101904422@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,12 +12,12 @@ repo: pub/scm/linux/kernel/git/aalbersh/xfsprogs-dev
 user: aalbersh
 changes:
   - ref: refs/heads/for-next
-    old: fe1591e7d03c3a3ede60df079936b9002fa314dd
-    new: 8aed60e160554dcd79c049f7672bca2e1313156b
+    old: 8aed60e160554dcd79c049f7672bca2e1313156b
+    new: 98f05de13e7815c4d4e637d3dab5d4b40e8533cb
     log: |
-         fa18fb33894102b2b207cbd467eb43bda7a05169 repair: add a enum for the XR_INO_* values
-         a5e30e2d1ad65436c0210447456bee51ed049af9 repair: add canonical names for the XR_INO_ constants
-         420782c9482460bcfa89fa5bf92b7ec3626dc3ee repair: factor out a process_dinode_metafile helper
-         ad0ab33b624cbbe17b7dc517a3e5175ce54b8310 repair: enhance process_dinode_metafile
-         8aed60e160554dcd79c049f7672bca2e1313156b mdrestore: fix restore_v2() superblock length check
+         0c6d67befe98dbc8e19b013c208f09233c419fde repair: add a enum for the XR_INO_* values
+         5d157c568e3d359d8b46fc79f452817a5af1acee repair: add canonical names for the XR_INO_ constants
+         a439b4155fd50e9854852ca9e1a853793b686f36 repair: factor out a process_dinode_metafile helper
+         f4b5df44edd8025d120770e316a002010754dede repair: enhance process_dinode_metafile
+         98f05de13e7815c4d4e637d3dab5d4b40e8533cb mdrestore: fix restore_v2() superblock length check
          
