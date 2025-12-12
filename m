@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3405441278031005087=="
+Content-Type: multipart/mixed; boundary="===============0568821036858842423=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Fri, 12 Dec 2025 03:38:17 -0000
-Message-Id: <176551069709.4033902.4179077449538311758@gitolite.kernel.org>
+Date: Fri, 12 Dec 2025 03:38:21 -0000
+Message-Id: <176551070160.4034120.1966399163571708029@gitolite.kernel.org>
 
---===============3405441278031005087==
+--===============0568821036858842423==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,9 +16,9 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-queue
-    old: 5e0c4580a62b33a4d2e8ecb189cd6ba578cfef66
-    new: eed9615d64eab2b0846162041dc5c654190333e4
+  - ref: refs/heads/6.19/scsi-queue
+    old: 278712d20bc8ec29d1ad6ef9bdae9000ef2c220c
+    new: 946574434aa9cfe175c3e8234734a3822410ff53
     log: |
          14be351e5cd07349377010e457a58fac99201832 scsi: ufs: core: Fix an error handler crash
          d2875b812b141d0c449541976d92c8d89b94ec72 scsi: ufs: core: Fix a deadlock in the frequency scaling code
@@ -27,33 +27,33 @@ changes:
          946574434aa9cfe175c3e8234734a3822410ff53 scsi: ufs: qcom: Fix confusing cleanup.h syntax
          
 
---===============3405441278031005087==
+--===============0568821036858842423==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1765510617 -0500
+pusher 75C5DE3D 1765510700 -0500
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1765510617-3e3fc9e730bc10ca4a330e6af6c3d546da82014d
+nonce 1765510699-f5e466f28a4afc17a1cea4eeb639d6d2bacfab14
 
-5e0c4580a62b33a4d2e8ecb189cd6ba578cfef66 eed9615d64eab2b0846162041dc5c654190333e4 refs/tags/mkp-scsi-queue
+278712d20bc8ec29d1ad6ef9bdae9000ef2c220c 946574434aa9cfe175c3e8234734a3822410ff53 refs/heads/6.19/scsi-queue
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmk7jdkACgkQ7ulgGnXF
-3j12fA//bAF2tZ2oDwDJfv10DmiwU7RKLKd0uRUouW6jjqLntE2zZK6HWU1UeSlu
-JDVM8ZqXFZwXpZApgCrSE5hXG7GJ6MDdB302u2Gl+rnO8Q3rUL/TW5ndOLKEpV/k
-Bq487MDUykFenN5/tTHUBkc3QBWfpBeHpJOGdFs39rTRyaJk/WLi2k5r19GpwqdM
-FAqH4LaAX0ziWrqkTyTTMVfnYGBJv8u4v6MFJGLOQrdRYwDsGSLpc6rHhwJWtF4w
-DPbxMCN+yMJ+edHnaWIlO8xLEk3pBU37xa00n846D+1wvNlQjzuB2628+UW0Rthp
-B+KzObqusvBincWAulQ/bqTdTRHLKrYOvPmqSrSCegMLGUmmjAo8/7VswYAoVnLu
-voykEA4qHWeJCzn1Gi4DAd6BUIj8N3Ti33ms74v7tKeqg8FS5FAzRnXFBgd7HI9U
-ztaw3PFoX3C+SfHG+wayjkLkNnL1yjqHiNxdZonT4bjlsOHUXVedMYq6c3bwfTeF
-pVvRcflaZwCgLP+JSFZh0WQU4pe9SngbhT00THmeKtMoReX09ppPvb5pzjSQQbkU
-qb2rJ+9vTqwn2RamiYTfjbQdMITFL2jLKPbr7aWM9KoB5tzecLXccmDAhylaxOJR
-RWozpfX3mwLN3RXzE7baFTy591a6iN0atQD9yZc6hbT3HIEPSq4=
-=RU4N
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmk7jiwACgkQ7ulgGnXF
+3j3qPQ/9HFpA5/NfyDWYjEDFoD/G9rsgZJjWfpJ70RxwjcuOlp0Pbu/xb3XcdKBN
+Nq3U5SRKp/sOlfBjzzsMm2DSizUyeLv/5t9nEG18Ew1OWfvE/hV+AgIcVKaRT3Aj
+o0jdDxDj6u4qNn1a7EuLncFLaS2kOYtN84mjOZ1pMotlTuBrD+b9ykEkw3EmCc9E
+G8zSRzJ0o3yQAysFvZq+G2YUCaUc2NV+6+s8s/5DCwkwEsc2S+gd6shOz5gkoeQS
+6G68XhbrNWdRHGaIW2luH/1QctRoFmDg0NPUpJAqLh9GgP+dUsXybJD8xyYXbBS/
+i7IuswvVRll+BIAEXfmJ1lSoamr9cWLVroP2irBMQPjnqumIpkgsSUZX54qrYq2B
+/F+PuYk2CSg/xNoC6QnfMDrZ0XPX9UgTW1HTUrzZCazXk4zZeKBAhjmptlK6aC0H
+f3MLMYUMvvvh6rroHzONMdEDbsYpsdBw7eNGVIhhNYN3Acya1jOsa57Rwov6s1aX
+JKyGBhqKKqbriRE9adNoLoslG40EIN3yWgnkjtCuKxOVQxxBuNpGdIRtQ0eTEPu4
+cizklSva1noREZ/iqV50d5ScKEPuyyfqUCAJnpGbVqNglp4O9OQgXDTHZ296/iKJ
+Zz1ALyaUGdKoh6KbY7c8Ys2GKAnWvH6JqjU4Hb8Ys+s1yJ1o3w4=
+=fXQK
 -----END PGP SIGNATURE-----
 
---===============3405441278031005087==--
+--===============0568821036858842423==--
