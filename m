@@ -1,27 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/dtor/input
-Date: Sat, 13 Dec 2025 09:47:52 -0000
-Message-Id: <176561927229.1717238.18177790653529910541@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sj/damon-hack
+Date: Sat, 13 Dec 2025 09:56:00 -0000
+Message-Id: <176561976026.1725780.1368481871750777033@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/dtor/input
-user: dtor
+repo: pub/scm/linux/kernel/git/sj/damon-hack
+user: sj
 changes:
   - ref: refs/heads/master
-    old: 673b192dbe174b61bdf784d293b5a6e7f2fd20f6
-    new: 686c64557be48d28f532b26a90db600092c82418
+    old: 354883ea7f07fd6aa7297c2d6076cad84f367c0a
+    new: a82a93ddad1c7407d57ca9a66665d9e00460c4a0
     log: |
-         a14be6cd9e7703a914ab476bf99af6577ca790d5 Input: cros_ec_keyb - clarify key event error message
-         686c64557be48d28f532b26a90db600092c82418 MAINTAINERS: adjust file entry in HIMAX HX83112B TOUCHSCREEN SUPPORT
-         
-  - ref: refs/heads/next
-    old: 673b192dbe174b61bdf784d293b5a6e7f2fd20f6
-    new: 686c64557be48d28f532b26a90db600092c82418
-    log: |
-         a14be6cd9e7703a914ab476bf99af6577ca790d5 Input: cros_ec_keyb - clarify key event error message
-         686c64557be48d28f532b26a90db600092c82418 MAINTAINERS: adjust file entry in HIMAX HX83112B TOUCHSCREEN SUPPORT
+         a82a93ddad1c7407d57ca9a66665d9e00460c4a0 patches/next: per-cpus/threads/read/write monitoring: add documentation of access reports dropping behavior
          
