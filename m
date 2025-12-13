@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
-Date: Sat, 13 Dec 2025 16:18:50 -0000
-Message-Id: <176564273066.2066217.14386274880595675779@gitolite.kernel.org>
+Date: Sat, 13 Dec 2025 16:27:53 -0000
+Message-Id: <176564327339.2076096.13367475406640660332@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,9 +12,9 @@ repo: pub/scm/linux/kernel/git/jic23/iio
 user: jic23
 changes:
   - ref: refs/heads/testing
-    old: fdee77dea4b67ea4a7da101c161f5309a601911f
-    new: 8b3f612e9926cd3e506ed2bdc863f3a34b44d003
+    old: 8b3f612e9926cd3e506ed2bdc863f3a34b44d003
+    new: 32a940205fcb0f682e84c20a1a8d357e332b3779
     log: |
-         bc54545c01bd0fb4f02e8b8a7a6fcbaa7e0f3e10 dt-bindings: iio: frequency: adf4377: add clk provider
-         8b3f612e9926cd3e506ed2bdc863f3a34b44d003 iio: frequency: adf4377: add clk provider support
+         018825bbf326c29c68989eba1eb36fa06b5f1df2 dt-bindings: iio: amplifiers: add adl8113
+         32a940205fcb0f682e84c20a1a8d357e332b3779 iio: amplifiers: adl8113: add driver support
          
