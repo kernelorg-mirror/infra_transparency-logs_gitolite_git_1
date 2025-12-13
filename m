@@ -1,20 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/viro/vfs
-Date: Sat, 13 Dec 2025 23:05:10 -0000
-Message-Id: <176566711037.2474692.6402844296237706790@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jejb/scsi
+Date: Sat, 13 Dec 2025 23:54:01 -0000
+Message-Id: <176567004188.2516233.14803916439301561384@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/viro/vfs
-user: viro
+repo: pub/scm/linux/kernel/git/jejb/scsi
+user: jejb
 changes:
-  - ref: refs/heads/fixes
-    old: fdca997df04f244536947520e26e20183594acc4
-    new: 5aa37b9ae035cea745919fc759b46330c47f6c78
+  - ref: refs/heads/misc
+    old: 278712d20bc8ec29d1ad6ef9bdae9000ef2c220c
+    new: 946574434aa9cfe175c3e8234734a3822410ff53
     log: |
-         0d9479d9c8535c7f0e2d3e9412c8c7e87c486528 shmem_whiteout(): fix regression from tree-in-dcache series
-         5aa37b9ae035cea745919fc759b46330c47f6c78 shmem: fix recovery on rename failures
+         14be351e5cd07349377010e457a58fac99201832 scsi: ufs: core: Fix an error handler crash
+         d2875b812b141d0c449541976d92c8d89b94ec72 scsi: ufs: core: Fix a deadlock in the frequency scaling code
+         fd81bc5cca8fc6936a8988de6b5d4c5693b6587e scsi: device_handler: Return error pointer in scsi_dh_attached_handler_name()
+         362432e9b9aefb914ab7d9f86c9fc384a6620c41 scsi: libsas: Add rollback handling when an error occurs
+         946574434aa9cfe175c3e8234734a3822410ff53 scsi: ufs: qcom: Fix confusing cleanup.h syntax
          
