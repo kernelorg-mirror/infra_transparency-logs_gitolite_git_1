@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5095979309214458392=="
+Content-Type: multipart/mixed; boundary="===============0657296686304228569=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/driver-core/driver-core
-Date: Sun, 14 Dec 2025 12:07:40 -0000
-Message-Id: <176571406014.3189822.471729552248922488@gitolite.kernel.org>
+Date: Sun, 14 Dec 2025 12:08:13 -0000
+Message-Id: <176571409322.3190355.6532481620164276198@gitolite.kernel.org>
 
---===============5095979309214458392==
+--===============0657296686304228569==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/driver-core/driver-core
 user: dakr
 changes:
-  - ref: refs/heads/driver-core-next
+  - ref: refs/heads/driver-core-linus
     old: d358e5254674b70f34c847715ca509e46eb81e6f
     new: 8f0b4cce4481fb22653697cced8d0d04027cb1e8
     log: revlist-d358e5254674-8f0b4cce4481.txt
 
---===============5095979309214458392==
+--===============0657296686304228569==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -326,4 +326,4 @@ cba09e3ed06db4b6c87bc97e0aea080421fb8f7d Merge tag 'perf-urgent-2025-12-12' of g
 6a1636e06625ec0dd7f2b908ab39a8beea24bfd3 Merge tag 'scsi-misc' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
 8f0b4cce4481fb22653697cced8d0d04027cb1e8 Linux 6.19-rc1
 
---===============5095979309214458392==--
+--===============0657296686304228569==--
