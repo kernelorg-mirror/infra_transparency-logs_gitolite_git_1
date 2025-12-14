@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============0224538920874075419=="
+Content-Type: multipart/mixed; boundary="===============7472365358797896865=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/thomas.weissschuh/linux
-Date: Sun, 14 Dec 2025 15:03:21 -0000
-Message-Id: <176572460107.3349050.2968685412835339511@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/nolibc/linux-nolibc
+Date: Sun, 14 Dec 2025 15:06:51 -0000
+Message-Id: <176572481177.3353273.7389272756013718906@gitolite.kernel.org>
 
---===============0224538920874075419==
+--===============7472365358797896865==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/thomas.weissschuh/linux
+repo: pub/scm/linux/kernel/git/nolibc/linux-nolibc
 user: thomas.weissschuh
 changes:
-  - ref: refs/heads/b4/y2038-restart-block
-    old: 74ef8c8460fe9ea34106bcbed0a97e86c11d29f8
-    new: d1cc421842c1fd4369ac87fa9fe0f7a1aa3db788
-    log: revlist-74ef8c8460fe-d1cc421842c1.txt
+  - ref: refs/heads/for-next
+    old: 1d573464749cfcdfee695c256bcf9ec9cffcbdce
+    new: 5203a78a7c60eb35557acff441d7758ce9eea476
+    log: revlist-1d573464749c-5203a78a7c60.txt
 
---===============0224538920874075419==
+--===============7472365358797896865==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-74ef8c8460fe-d1cc421842c1.txt
+Content-Disposition: attachment; filename=revlist-1d573464749c-5203a78a7c60.txt
 
 e3b8cbf40c6e60a7a935bd8980884d5741a7a77b selftests: netconsole: remove log noise due to socat exit
 33b4c26d4d3ccd24d9721a577671f2c73c1a7cd9 x86/platform: Fix and extend kernel-doc comments in <asm/x86_init.h>
@@ -1048,7 +1048,7 @@ cba09e3ed06db4b6c87bc97e0aea080421fb8f7d Merge tag 'perf-urgent-2025-12-12' of g
 0dfb36b2dcb666f116ba314e631bd3bc632c44d1 Merge tag 'ceph-for-6.19-rc1' of https://github.com/ceph/ceph-client
 6a1636e06625ec0dd7f2b908ab39a8beea24bfd3 Merge tag 'scsi-misc' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
 8f0b4cce4481fb22653697cced8d0d04027cb1e8 Linux 6.19-rc1
-178ca939c84ed40231a9c0d51c825f37b5de35d4 restart_block: simplify expiration timestamps
-d1cc421842c1fd4369ac87fa9fe0f7a1aa3db788 select: store end_time as timespec64 in restart block
+676e604a10042d359897a2b50ea171458c15a040 tools/nolibc: add ptrace support
+5203a78a7c60eb35557acff441d7758ce9eea476 tools/nolibc: always use 64-bit mode for s390 header checks
 
---===============0224538920874075419==--
+--===============7472365358797896865==--
