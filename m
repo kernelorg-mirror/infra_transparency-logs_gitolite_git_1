@@ -1,31 +1,46 @@
-Content-Type: multipart/mixed; boundary="===============2861690329929749682=="
+Content-Type: multipart/mixed; boundary="===============4262284818206960586=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mingo/tip
-Date: Sun, 14 Dec 2025 08:43:22 -0000
-Message-Id: <176570180212.2998317.17982738940302370132@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
+Date: Sun, 14 Dec 2025 08:50:01 -0000
+Message-Id: <176570220109.3003896.5637594345727853938@gitolite.kernel.org>
 
---===============2861690329929749682==
+--===============4262284818206960586==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mingo/tip
-user: mingo
+repo: pub/scm/linux/kernel/git/tiwai/sound
+user: tiwai
 changes:
-  - ref: refs/heads/WIP.x86/cpu
-    old: 718c18df87435b0e666ebbcc3fd22bc04d8e15ff
-    new: ff1735ccc470808033db2520554f2ca090a12393
-    log: revlist-718c18df8743-ff1735ccc470.txt
+  - ref: refs/heads/upstream
+    old: 7d0a66e4bb9081d75c82ec4957c50034cb0ea449
+    new: 8f0b4cce4481fb22653697cced8d0d04027cb1e8
+    log: revlist-7d0a66e4bb90-8f0b4cce4481.txt
 
---===============2861690329929749682==
+--===============4262284818206960586==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-718c18df8743-ff1735ccc470.txt
+Content-Disposition: attachment; filename=revlist-7d0a66e4bb90-8f0b4cce4481.txt
 
+09339d0d83108fd4f59b94677ac99bde870aa0ae l2tp: correct debugfs label for tunnel tx stats
+ea2d3befcf29cca5221d0572d54e4d71b683175d net: dsa: yt921x: Set ageing_time_min/ageing_time_max
+e3b8cbf40c6e60a7a935bd8980884d5741a7a77b selftests: netconsole: remove log noise due to socat exit
+33b4c26d4d3ccd24d9721a577671f2c73c1a7cd9 x86/platform: Fix and extend kernel-doc comments in <asm/x86_init.h>
+1dd6c84f1c544e552848a8968599220bd464e338 sched_ext: Fix incorrect sched_class settings for per-cpu migration tasks
+484f1176896e85b5ae4f04403c8cd5b79aced95e Bluetooth: mediatek: add gpio pin to reset bt
+01622e9a5336015f657df423b700e488fbcd2f39 Bluetooth: hci_h5: avoid sending two SYNC messages
+97fdb2ea06efdde784480934d1ff60eb21e88b58 Bluetooth: hci_h5: implement CRC data integrity
+33b2835f0b7e2a458473b0e3a23b54b92108b6b0 Bluetooth: HCI: Add initial support for PAST
+c530569adc19b5f0c62955de41f067bad34e3fe0 Bluetooth: hci_core: Introduce HCI_CONN_FLAG_PAST
+d3413703d5f8b7d1e6f514f9440ed5da1bc30796 Bluetooth: ISO: Add support to bind to trigger PAST
+14b06c3a88f7031d64fbce197fad1d400e507663 Bluetooth: HCI: Always use the identity address when initializing a connection
+f817db10dc80d5d1eece60d93eba11062afe5154 Bluetooth: ISO: Attempt to resolve broadcast address
+a3b76bf4c4c90994248e3211b300d2d9834874f9 Bluetooth: MGMT: Allow use of Set Device Flags without Add Device
+577cf4c0a1e8471a0d6c0f36bb3716285e27ad5e Bluetooth: ISO: Fix not updating BIS sender source address
 c126f98c011f5796ba118ef2093122d02809d30d Bluetooth: btusb: MT7920: Add VID/PID 0489/e135
 5a6700a31c953af9a17a7e2681335f31d922614d Bluetooth: btusb: MT7922: Add VID/PID 0489/e170
 1fb0d830dab89d0dc99bb84a7087b0ceca63d2d8 Bluetooth: btintel_pcie: Support for S4 (Hibernate)
@@ -1035,20 +1050,5 @@ cba09e3ed06db4b6c87bc97e0aea080421fb8f7d Merge tag 'perf-urgent-2025-12-12' of g
 0dfb36b2dcb666f116ba314e631bd3bc632c44d1 Merge tag 'ceph-for-6.19-rc1' of https://github.com/ceph/ceph-client
 6a1636e06625ec0dd7f2b908ab39a8beea24bfd3 Merge tag 'scsi-misc' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
 8f0b4cce4481fb22653697cced8d0d04027cb1e8 Linux 6.19-rc1
-cef230fc40967978177c36a3055aa46fb15269a3 x86/cpu: Remove M486/M486SX/ELAN support
-998ffc66f56a59fed55583838faf271166ec18d4 x86/cpu: Remove CONFIG_MWINCHIP3D/MWINCHIPC6
-451a3c97daaf477b2cff53aa0c07a7007d357a68 x86/cpu: Remove CPU_SUP_UMC_32 support
-7f9aea4597ca7cd82b8993ab5d0c1b5a3744c1c9 x86/cpu: Remove TSC-less CONFIG_M586 support
-c6fe1138533e21eb363ceb679ea76eff13e547a1 x86/cpu, x86/platform, watchdog: Remove CONFIG_X86_RDC321X support
-ef1ec0e3e21055c9ed7fa3243e278406df04ab0b x86/cpu: Remove the CONFIG_X86_INVD_BUG quirk
-304608b64c7a61e7fc33cf4fa652d3c6e8a0cd26 x86/cpu, cpufreq: Remove AMD ELAN support
-81e2ff87b29c0595d974fe2c381bdcd6e29bf776 x86/fpu: Remove MATH_EMULATION and related glue code
-d69cbee98fdac89bfebf018c017930ba98d0a3c8 x86/fpu: Remove the 'no387' boot option
-a85136aa265c3cad8f6de2951516b604c4bcbac4 x86/fpu: Remove the math-emu/ FPU emulation library
-5f74279dce310ae32509e1851fda1cb878eb4477 x86/cpu: Make CONFIG_X86_TSC unconditional
-f2bf6355d8489e817af01b8cb91fd1840b916507 x86: Remove !CONFIG_X86_TSC code
-551c382d6aa0a68194319ad4fca275a85ea467c0 x86/cpu: Make CONFIG_X86_CX8 unconditional
-2e8c33069d112aae607372226ff83414b9eeb84f x86/atomics: Remove !CONFIG_X86_CX8 methods
-ff1735ccc470808033db2520554f2ca090a12393 x86/percpu: Remove !CONFIG_X86_CX8 methods
 
---===============2861690329929749682==--
+--===============4262284818206960586==--
