@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8231141854647487767=="
+Content-Type: multipart/mixed; boundary="===============7921292498082948108=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Sun, 14 Dec 2025 23:10:49 -0000
-Message-Id: <176575384911.3798952.3659249333089453828@gitolite.kernel.org>
+Date: Sun, 14 Dec 2025 23:10:51 -0000
+Message-Id: <176575385195.3799058.15233620948061576112@gitolite.kernel.org>
 
---===============8231141854647487767==
+--===============7921292498082948108==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,32 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/mm-unstable
-    old: 1ef4e3be45a85a103a667cc39fd68c3826e6acb9
-    new: 042ff77fdd18492c1e44d97ad68d04e3e9765aab
-    log: revlist-1ef4e3be45a8-042ff77fdd18.txt
+  - ref: refs/heads/mm-stable
+    old: dafdba0964bd10913fbaa5537201cbbe05df5b9c
+    new: 4a298a43f5e339f48d2dda0665c02b88ee9a4e03
+    log: revlist-dafdba0964bd-4a298a43f5e3.txt
 
---===============8231141854647487767==
+--===============7921292498082948108==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1ef4e3be45a8-042ff77fdd18.txt
+Content-Disposition: attachment; filename=revlist-dafdba0964bd-4a298a43f5e3.txt
 
+475bb520c39442443a8a8e9c8d72197bd3d2934c Merge branch 'rework/atomic-flush-hardlockup' into for-linus
+2d786a5b80a715dab2ef570fefbca8ef0753c7ed Merge branch 'rework/nbcon-in-kdb' into for-linus
+b1e6c41ef9daf5a975a677c3570c5f805c6c7514 Merge branch 'rework/preempt-legacy-kthread' into for-linus
+3a9a3f5fb224155bb719c337527ffdffca0c1d7f Merge branch 'rework/suspend-fixes' into for-linus
+4f132d81f9f8e47a8866d162698adb7df7184466 Merge branch 'rework/threaded-printk' into for-linus
+5cae92e622300d04ff23cc721dc67d8f5788e51c Merge branch 'rework/write_atomic-unsafe' into for-linus
+4d0e1f2139ad452d0e209a16b3d016af2f8ef1f7 blk-mq: use queue_hctx in blk_mq_map_queue_type
+d211a2803551c8ffdf0b97d129388f7d9cc129b5 block/rnbd: correct all kernel-doc complaints
+e3e8e176ca4876e6212582022ad80835dddc9de4 NFSD: Make FILE_SYNC WRITEs comply with spec
+06c5c97293e3fca99ce15da157068edf45a7c6e4 NFSD: Implement NFSD_IO_DIRECT for NFS WRITE
+fa8d4e6784d1b6a6eaa3911bac993181631d2856 NFSD: add Documentation/filesystems/nfs/nfsd-io-modes.rst
+72987d2ddc7e4d883d23be87eb858a003b81e2e0 Merge branch 'for-linus' into for-next
+ef5e0a02d842b2c6dfcfd9b80feb185769b892ef ALSA: rawmidi: Fix inconsistent indenting warning reported by smatch
+1885cdbfbb51ede3637166c895d0b8040c9899cc Merge tag 'vfs-6.19-rc1.iomap' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
+b04b2e7a61830cabd00c6f95308a8e2f5d82fa52 Merge tag 'vfs-6.19-rc1.misc' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
 7fce856f1180c2db3c9f5a88b04bb7124a20cb21 nvmet: add sanity checks when freeing subsystem
 9368f0f9419cde028a6e58331065900ff089bc36 Merge tag 'vfs-6.19-rc1.inode' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
 ebaeabfa5ab711a9b69b686d58329e258fdae75f Merge tag 'vfs-6.19-rc1.writeback' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
@@ -1035,20 +1050,5 @@ edbe407235ecfc827b6a211628988261f957df9e Merge tag 'core-urgent-2025-12-12' of g
 db0130185ee32896524963289840c97dd73aaaa3 Merge tag 'irq-urgent-2025-12-12' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 cba09e3ed06db4b6c87bc97e0aea080421fb8f7d Merge tag 'perf-urgent-2025-12-12' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 4a298a43f5e339f48d2dda0665c02b88ee9a4e03 Merge tag 'smp-urgent-2025-12-12' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-b118d97859fe0bfff70fd0293f44e10b69f773b5 MAINTAINERS: add Mike Rapoport as maintainer for userfaultfd
-95f8bc2d5025f095bc5d4f00ae191f6f1efae43d genalloc.h: fix htmldocs warning
-81d75cd213cfbc0f20fc01ed527ca011945db169 mailmap: update entry for Bartosz Golaszewski
-d2ef4e22c911cb311e5d80688f15bbd4ae35c2bd idr: fix idr_alloc() returning an ID out of range
-2042a3e936e37fbba155c1f272e1eeab4cd510de x86/kexec: add a sanity check on previous kernel's ima kexec buffer
-911a658042b45eaa67db8c5ce4ca8ea96e7d0b61 x86-kexec-add-a-sanity-check-on-previous-kernels-ima-kexec-buffer-fix
-a872bc5fd1ed886c1071847ffe561e84cacdca37 mm/page_alloc: make percpu_pagelist_high_fraction reads lock-free
-31b43b44439bd013305125e8e1555688b6a6179c mm-page_alloc-make-percpu_pagelist_high_fraction-reads-lock-free-fix
-0ea17f7ab0ce2667647c023e9b6712fecd010e91 mm/kasan: fix incorrect unpoisoning in vrealloc for KASAN
-2c511aea820eaf483cc12016c8f9c3bcef565c52 kasan: refactor pcpu kasan vmalloc unpoison
-9f9fdab84eb3360d86c68456df652cc99b4d72d8 kasan: unpoison vms[area] addresses with a common tag
-8753e77c57dd44e59ff5c890684f762e80cb582a kasan-unpoison-vms-addresses-with-a-common-tag-fix
-eced7b86cd6b4667c877d6c9103b44eab6a2f73c kasan-unpoison-vms-addresses-with-a-common-tag-v4
-70949086be2d4596fbed1da817b17cdbcbe54e8b mm/damon/vaddr: fix missing pte_unmap_unlock in damos_va_migrate_pmd_entry()
-042ff77fdd18492c1e44d97ad68d04e3e9765aab mm: fixup pfnmap memory failure handling to use pgoff
 
---===============8231141854647487767==--
+--===============7921292498082948108==--
