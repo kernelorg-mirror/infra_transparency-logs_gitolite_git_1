@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
-Date: Sun, 14 Dec 2025 15:20:53 -0000
-Message-Id: <176572565388.3370785.8916869747027212364@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mmind/linux-rockchip
+Date: Sun, 14 Dec 2025 15:21:11 -0000
+Message-Id: <176572567148.3371184.2638264758540422249@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jic23/iio
-user: jic23
+repo: pub/scm/linux/kernel/git/mmind/linux-rockchip
+user: mmind
 changes:
-  - ref: refs/heads/testing
-    old: 1d5b1870f48b665800c487dd94f241a9744e9379
-    new: a7b10f0963c651a6406d958a5f64b9c5594f84da
-    log: |
-         b4557fc3f0011d1849a6132a2f57f619d3e55f1d dt-bindings: iio: pressure: add honeywell,abp2030pa
-         a7b10f0963c651a6406d958a5f64b9c5594f84da iio: pressure: add Honeywell ABP2 driver
-         
+  - ref: refs/heads/v6.19-armsoc/dts32
+    old: 10712ce694a67304a99dbba20f8cb146ca5f4fd6
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/tags/v6.19-rockchip-dts32-1
+    old: 9bfff88f58e42cca87e5fe287e56c35b951dc5c1
+    new: 0000000000000000000000000000000000000000
