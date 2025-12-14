@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0462992327077580824=="
+Content-Type: multipart/mixed; boundary="===============5937845596195438672=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ebiggers/linux
-Date: Sun, 14 Dec 2025 18:18:37 -0000
-Message-Id: <176573631762.3533569.3703928986704911071@gitolite.kernel.org>
+Date: Sun, 14 Dec 2025 18:19:46 -0000
+Message-Id: <176573638629.3534366.8140522476342548772@gitolite.kernel.org>
 
---===============0462992327077580824==
+--===============5937845596195438672==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ebiggers/linux
 user: ebiggers
 changes:
-  - ref: refs/heads/libcrypto-fixes
-    old: 92de2d349e02c2dd96d8d1b7016cc78cf80fc085
-    new: 5a0b1882506858b12cc77f0e2439a5f3c5052761
-    log: revlist-92de2d349e02-5a0b18825068.txt
+  - ref: refs/heads/libcrypto-pending
+    old: 76becf9c4806866908f40716a60cbbd0720d31ca
+    new: 5ae0756b6d5f9046f1906ac1649893fd6599b54e
+    log: revlist-76becf9c4806-5ae0756b6d5f.txt
 
---===============0462992327077580824==
+--===============5937845596195438672==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-92de2d349e02-5a0b18825068.txt
+Content-Disposition: attachment; filename=revlist-76becf9c4806-5ae0756b6d5f.txt
 
 384150d7a5b60c1086790a8ee07b0629f906cca2 rtc: amlogic-a4: fix double free caused by devm
 ed14c9c68b407c320310159d0057a79e024a1b63 rtc: amlogic-a4: simplify probe
@@ -266,5 +266,19 @@ cba09e3ed06db4b6c87bc97e0aea080421fb8f7d Merge tag 'perf-urgent-2025-12-12' of g
 8f0b4cce4481fb22653697cced8d0d04027cb1e8 Linux 6.19-rc1
 c4b502d60a71cf0c0c938f133dc4c0e2adc17b44 arm64/simd: Avoid pointless clearing of FP/SIMD buffer
 5a0b1882506858b12cc77f0e2439a5f3c5052761 lib/crypto: riscv: Add poly1305-core.S to .gitignore
+8c4dc9ed3956828c51820ad57f3d64bd1a9f8a4e lib/crypto: Add ML-DSA verification support
+baa5d9723ace639e0341b06a5f8adee815f4e535 lib/crypto: tests: Add KUnit tests for ML-DSA verification
+0b99213d92644ba2265b72c5bdca442f77476a4d lib/crypto: nh: Add NH library
+c8beae411b3d00eecc66d274ca48122a6b37a6c8 lib/crypto: tests: Add KUnit tests for NH
+86a35e38e729ac5b7da9d566762abb3d55142b01 lib/crypto: arm/nh: Migrate optimized code into library
+c80532898da2bbd3fa1d1063d8d6a7639a4c3f5c lib/crypto: arm64/nh: Migrate optimized code into library
+70dc7f5e77c288cd6d2b7a1ed212818ba2d1e283 lib/crypto: x86/nh: Migrate optimized code into library
+2b96a779a7c6015df55f0cb9955d4c5607dc463c crypto: adiantum - Convert to use NH library
+87f45a821c438b35e36f37b35e5f7637ed63c315 crypto: adiantum - Use scatter_walk API instead of sg_miter
+10ffd35531c5f8e4ec57efbab29b463067acbcae crypto: adiantum - Use memcpy_{to,from}_sglist()
+9d8d010d4b087cdd085ee35980eddce4f854e7fa crypto: adiantum - Drop support for asynchronous xchacha ciphers
+e0b385989a6b340a086a4afe1f2fcf51d1a13755 crypto: nhpoly1305 - Remove crypto_shash support
+240b0abd1fb036d92eb564d5416a61e55b9a72d6 crypto: testmgr - Remove nhpoly1305 tests
+5ae0756b6d5f9046f1906ac1649893fd6599b54e fscrypt: Drop obsolete recommendation to enable optimized NHPoly1305
 
---===============0462992327077580824==--
+--===============5937845596195438672==--
