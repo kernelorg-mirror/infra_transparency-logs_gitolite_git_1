@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7502756022684144695=="
+Content-Type: multipart/mixed; boundary="===============1383679490293399923=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Sun, 14 Dec 2025 07:22:08 -0000
-Message-Id: <176569692857.2921049.11406890467994416991@gitolite.kernel.org>
+Date: Sun, 14 Dec 2025 07:22:26 -0000
+Message-Id: <176569694695.2921492.11586589606421126749@gitolite.kernel.org>
 
---===============7502756022684144695==
+--===============1383679490293399923==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,18 +16,23 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: 188ff38379b7554ba3737cb4f8215144135a2ff1
-    new: ff1bf7c91fef61852d512835dc2dc134d77b58d3
-    log: revlist-188ff38379b7-ff1bf7c91fef.txt
-  - ref: refs/tags/v6.19-rc1
-    old: 0000000000000000000000000000000000000000
-    new: 3e7f562e20ee87a25e104ef4fce557d39d62fa85
+    old: ff1bf7c91fef61852d512835dc2dc134d77b58d3
+    new: da8ff42e1613ebf0668e03aa98420ed8cca3022e
+    log: |
+         b51bbe2e1ce18d9fbd413eb7d4b1157c0243f385 Merge branch into tip/master: 'irq/urgent'
+         873b7b1b6c798eaa758f5b393c003d8874c62e99 Merge branch into tip/master: 'x86/urgent'
+         da8ff42e1613ebf0668e03aa98420ed8cca3022e Merge branch into tip/master: 'x86/boot'
+         
+  - ref: refs/heads/tip/urgent
+    old: 6b9ce1f20d56a0802bb993802b85049ffc311c09
+    new: 873b7b1b6c798eaa758f5b393c003d8874c62e99
+    log: revlist-6b9ce1f20d56-873b7b1b6c79.txt
 
---===============7502756022684144695==
+--===============1383679490293399923==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-188ff38379b7-ff1bf7c91fef.txt
+Content-Disposition: attachment; filename=revlist-6b9ce1f20d56-873b7b1b6c79.txt
 
 ba59e59b8b4dc0cb4882aa6f91fe16361dd95b99 dm-crypt: Use MD5 library instead of crypto_shash
 9a746ee0fb399b2021e801c5f724e75c7468fcf6 dm-crypt: use folio_nr_pages() instead of shift operation
@@ -382,6 +387,7 @@ cba09e3ed06db4b6c87bc97e0aea080421fb8f7d Merge tag 'perf-urgent-2025-12-12' of g
 0dfb36b2dcb666f116ba314e631bd3bc632c44d1 Merge tag 'ceph-for-6.19-rc1' of https://github.com/ceph/ceph-client
 6a1636e06625ec0dd7f2b908ab39a8beea24bfd3 Merge tag 'scsi-misc' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
 8f0b4cce4481fb22653697cced8d0d04027cb1e8 Linux 6.19-rc1
-ff1bf7c91fef61852d512835dc2dc134d77b58d3 Merge branch 'linus'
+b51bbe2e1ce18d9fbd413eb7d4b1157c0243f385 Merge branch into tip/master: 'irq/urgent'
+873b7b1b6c798eaa758f5b393c003d8874c62e99 Merge branch into tip/master: 'x86/urgent'
 
---===============7502756022684144695==--
+--===============1383679490293399923==--
