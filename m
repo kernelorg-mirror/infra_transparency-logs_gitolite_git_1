@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6970254044049189185=="
+Content-Type: multipart/mixed; boundary="===============8231141854647487767=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Sun, 14 Dec 2025 23:10:46 -0000
-Message-Id: <176575384624.3798767.5634935656110548935@gitolite.kernel.org>
+Date: Sun, 14 Dec 2025 23:10:49 -0000
+Message-Id: <176575384911.3798952.3659249333089453828@gitolite.kernel.org>
 
---===============6970254044049189185==
+--===============8231141854647487767==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,22 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/mm-new
-    old: 09f7553331b245bf1ee6f8ab032c7792aab15909
-    new: d0a24447990a9d8212bfb3a692d59efa74ce9f86
-    log: revlist-09f7553331b2-d0a24447990a.txt
+  - ref: refs/heads/mm-unstable
+    old: 1ef4e3be45a85a103a667cc39fd68c3826e6acb9
+    new: 042ff77fdd18492c1e44d97ad68d04e3e9765aab
+    log: revlist-1ef4e3be45a8-042ff77fdd18.txt
 
---===============6970254044049189185==
+--===============8231141854647487767==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-09f7553331b2-d0a24447990a.txt
+Content-Disposition: attachment; filename=revlist-1ef4e3be45a8-042ff77fdd18.txt
 
+7fce856f1180c2db3c9f5a88b04bb7124a20cb21 nvmet: add sanity checks when freeing subsystem
+9368f0f9419cde028a6e58331065900ff089bc36 Merge tag 'vfs-6.19-rc1.inode' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
+ebaeabfa5ab711a9b69b686d58329e258fdae75f Merge tag 'vfs-6.19-rc1.writeback' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
+415d34b92c1f921a9ff3c38f56319cbc5536f642 Merge tag 'namespace-6.19-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
+212c4053a1502e5117d8cbbbd1c15579ce1839bb Merge tag 'vfs-6.19-rc1.coredump' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
 f2e74ecfba1b0d407f04b671a240cc65e309e529 Merge tag 'vfs-6.19-rc1.folio' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
 30ca0e049f507001c6377e28482a636689351f64 hwmon: (dell-smm) Add Dell G5 5505 to fan control whitelist
 7adf0efb41fc386daed9f74b9fe8d7e28f0f6f3d ynl: samples: Fix spelling mistake "failedq" -> "failed"
@@ -1045,10 +1050,5 @@ a872bc5fd1ed886c1071847ffe561e84cacdca37 mm/page_alloc: make percpu_pagelist_hig
 eced7b86cd6b4667c877d6c9103b44eab6a2f73c kasan-unpoison-vms-addresses-with-a-common-tag-v4
 70949086be2d4596fbed1da817b17cdbcbe54e8b mm/damon/vaddr: fix missing pte_unmap_unlock in damos_va_migrate_pmd_entry()
 042ff77fdd18492c1e44d97ad68d04e3e9765aab mm: fixup pfnmap memory failure handling to use pgoff
-a5739e096242bed70397e4f87431b15216096466 mm/damon/core: fix memory leak of repeat mode damon_call_control objects
-709aef7f5c9b0b9914ff265266530a11301bd49c mm/hugetlb: fix hugetlb_pmd_shared()
-b460ed6b7dfc73157bc7792a0fc8dd4f528dbca4 mm/hugetlb: fix two comments related to huge_pmd_unshare()
-e075f6b668761d243e69aace2414843f743c4e3d mm/rmap: fix two comments related to huge_pmd_unshare()
-d0a24447990a9d8212bfb3a692d59efa74ce9f86 mm/hugetlb: fix excessive IPI broadcasts when unsharing PMD tables using mmu_gather
 
---===============6970254044049189185==--
+--===============8231141854647487767==--
