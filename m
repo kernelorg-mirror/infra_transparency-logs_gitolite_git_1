@@ -1,26 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============2720678150626796164=="
+Content-Type: multipart/mixed; boundary="===============3931839800958049700=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sre/linux-power-supply
-Date: Sun, 14 Dec 2025 09:16:23 -0000
-Message-Id: <176570378356.3031851.15489482990987001668@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sre/linux-hsi
+Date: Sun, 14 Dec 2025 09:17:04 -0000
+Message-Id: <176570382435.3032302.765243265224672243@gitolite.kernel.org>
 
---===============2720678150626796164==
+--===============3931839800958049700==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sre/linux-power-supply
+repo: pub/scm/linux/kernel/git/sre/linux-hsi
 user: sre
 changes:
-  - ref: refs/heads/fixes
+  - ref: refs/heads/for-next
     old: 3a8660878839faadb4f1a6dd72c3179c1df56787
     new: 8f0b4cce4481fb22653697cced8d0d04027cb1e8
     log: revlist-3a8660878839-8f0b4cce4481.txt
 
---===============2720678150626796164==
+--===============3931839800958049700==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ cba09e3ed06db4b6c87bc97e0aea080421fb8f7d Merge tag 'perf-urgent-2025-12-12' of g
 6a1636e06625ec0dd7f2b908ab39a8beea24bfd3 Merge tag 'scsi-misc' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
 8f0b4cce4481fb22653697cced8d0d04027cb1e8 Linux 6.19-rc1
 
---===============2720678150626796164==--
+--===============3931839800958049700==--
