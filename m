@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2883662162091680476=="
+Content-Type: multipart/mixed; boundary="===============3202610205442520635=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux
-Date: Mon, 15 Dec 2025 16:00:21 -0000
-Message-Id: <176581442146.638756.6302825094708265381@gitolite.kernel.org>
+Date: Mon, 15 Dec 2025 16:00:26 -0000
+Message-Id: <176581442607.639037.12608568977125697210@gitolite.kernel.org>
 
---===============2883662162091680476==
+--===============3202610205442520635==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/krzk/linux
 user: krzk
 git_push_cert_status: Y
 changes:
-  - ref: refs/heads/next/dt
-    old: 3a8660878839faadb4f1a6dd72c3179c1df56787
+  - ref: refs/heads/next/dt64
+    old: cad767a9af055c921e29b7b268f99e83c82baab3
     new: 8f0b4cce4481fb22653697cced8d0d04027cb1e8
-    log: revlist-3a8660878839-8f0b4cce4481.txt
+    log: revlist-cad767a9af05-8f0b4cce4481.txt
 
---===============2883662162091680476==
+--===============3202610205442520635==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher krzk@kernel.org 1765814419 +0100
+pusher krzk@kernel.org 1765814423 +0100
 pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux.git
-nonce 1765814418-e04bb1ba8e8dbdf6b2161a4aadace3ac815d03c4
+nonce 1765814422-27e7c32136cce9f8b54169ff40c88f6ca52dc6c0
 
-3a8660878839faadb4f1a6dd72c3179c1df56787 8f0b4cce4481fb22653697cced8d0d04027cb1e8 refs/heads/next/dt
+cad767a9af055c921e29b7b268f99e83c82baab3 8f0b4cce4481fb22653697cced8d0d04027cb1e8 refs/heads/next/dt64
 -----BEGIN PGP SIGNATURE-----
 
-iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmlAMJMQHGtyemtAa2Vy
-bmVsLm9yZwAKCRDBN2bmhouD1/yID/91IvN9gdwXrdL6u80KLttj7Orcq6yP5qav
-uasbRpEsUQMsnl7S1zlUJYxhXJp/KUFB5EUrkFzcEMcU/PD2IoiGq9jU68aAcKX1
-tQ5pP4gAhWndNfu0JmjlvUIDsROSYTNnijb5m/yYoMTTQDCn+Yldoe1nGyzA7MqU
-Vg+dHRKlz+rpikzLq0dfGKiBKh1p55yvHqdaWGAQI0TwWS2svsVJFVrPfRjwSXPv
-yZH0n1skirvIWx6K7ZuyYQVqfyTtd/Am+cuV/X5ITEECWYjjH1IOB3rW0TrG1zsO
-95ZUUUzp/tqJ++MarshJkjNq1y5TNLQBvPf74IMwZbNotYv5gyEUkY2jY0F4sjET
-9UUiEzmOEplUC3JQN1meMMcSHEdOMwP0UE9FfwnuFGYCMaRpnB+5bLynmup0YpQ8
-/qPoRqS0EoQCT0WygYrC9P5LRWv8cZZPEsVPfVlDdEgss5Zi3UGhgDQhHtzEc3dA
-ZM95DhibvUjwPpOcNrv2lZpxBW7ZDdisNfFyxPcVB2UV6gLMWc+EIySqPP1clRmv
-XsrGcRrjhQO9sIpf82UIpq+W7xKZP3uSfemtTxcpdEDk3IVBX13a9DsEGsuoj7Ro
-uASAbbtJYdaTEYcKjL1UQ8CXQt3wjQWtaBLgQ73KJFwAgdyH+U32W2EZPShcVa+8
-xTMCbKTBxA==
-=KW1D
+iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmlAMJcQHGtyemtAa2Vy
+bmVsLm9yZwAKCRDBN2bmhouD17Y3D/wM1J8xNEIFr2xifTKQc47X4GsnCtF97DfI
+zKMygFd0wF759ZeGo7jBO0P2wSyzglHyWdsVSaRzA9ZL4MPlmdGmLbyA+oCJHY1f
+KIDPmeGki6AXNjzvPo8x77h36MiLNewC47t7Qw+kfS7U0itiMw4KKK/hm+nIJCJD
+GORzzvIJyGYa09MU+tV9iV6sv7rkIbdWN9/SCyyXU6CFWmKSrE7ZlJNFJTA/YfNK
+0ZWEIyBv99pxYxCBB6SeacWOlIyeMqXEdnt4nQkamLJ1FotT7h8QnqaDEf44/VAb
+rXDVwecGqt56oepJhqeUY7Y6vnxL8KhihqrOu4TnmIYCGoExYcmY6pIe9T5cfcW1
+oMxiPpNSWlLlIey8JMuJxWD3oF0rhq1FzjObB+r2j2NMHz05nPf2lyhZV+u4/ev9
+oY2fn1J67LYoO46ZVMlHkdjaaEjP8Eo02Lyo6jE5F9acKY15V+RXMASPjwBUiSSu
+9b2/a9LruZq97fO6x5kpDUzLOWVaFY3+/WbsH0OgKJq3RoX3j/Uz4VpP2e6S/BW+
+NiJNJ263gVxZBVPcPurdXoSFRxRE4O7szMhiST0rGrqHzXV3YR9VKVhVme2MXKyg
+IjTmoVpf1IxvBk1kxLPW67yZ2bhsLxTu1EOiHsPBWDSxNj5dJOcCNjMyK6AXXPEm
+g9m9vac1Yg==
+=pvaY
 -----END PGP SIGNATURE-----
 
---===============2883662162091680476==
+--===============3202610205442520635==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3a8660878839-8f0b4cce4481.txt
+Content-Disposition: attachment; filename=revlist-cad767a9af05-8f0b4cce4481.txt
 
 09339d0d83108fd4f59b94677ac99bde870aa0ae l2tp: correct debugfs label for tunnel tx stats
 ea2d3befcf29cca5221d0572d54e4d71b683175d net: dsa: yt921x: Set ageing_time_min/ageing_time_max
@@ -1082,4 +1082,4 @@ cba09e3ed06db4b6c87bc97e0aea080421fb8f7d Merge tag 'perf-urgent-2025-12-12' of g
 6a1636e06625ec0dd7f2b908ab39a8beea24bfd3 Merge tag 'scsi-misc' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
 8f0b4cce4481fb22653697cced8d0d04027cb1e8 Linux 6.19-rc1
 
---===============2883662162091680476==--
+--===============3202610205442520635==--
