@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7410226985138726073=="
+Content-Type: multipart/mixed; boundary="===============1477400735355810085=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/shuah/linux-kselftest
-Date: Mon, 15 Dec 2025 16:11:19 -0000
-Message-Id: <176581507974.653313.3302150572083260417@gitolite.kernel.org>
+Date: Mon, 15 Dec 2025 16:15:19 -0000
+Message-Id: <176581531928.657948.15443441943246243895@gitolite.kernel.org>
 
---===============7410226985138726073==
+--===============1477400735355810085==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/shuah/linux-kselftest
 user: shuah
 changes:
-  - ref: refs/heads/kunit
-    old: 7bc16e72ddb993d706f698c2f6cee694e485f557
+  - ref: refs/heads/master
+    old: 3a8660878839faadb4f1a6dd72c3179c1df56787
     new: 8f0b4cce4481fb22653697cced8d0d04027cb1e8
-    log: revlist-7bc16e72ddb9-8f0b4cce4481.txt
+    log: revlist-3a8660878839-8f0b4cce4481.txt
 
---===============7410226985138726073==
+--===============1477400735355810085==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7bc16e72ddb9-8f0b4cce4481.txt
+Content-Disposition: attachment; filename=revlist-3a8660878839-8f0b4cce4481.txt
 
 09339d0d83108fd4f59b94677ac99bde870aa0ae l2tp: correct debugfs label for tunnel tx stats
 ea2d3befcf29cca5221d0572d54e4d71b683175d net: dsa: yt921x: Set ageing_time_min/ageing_time_max
@@ -1051,4 +1051,4 @@ cba09e3ed06db4b6c87bc97e0aea080421fb8f7d Merge tag 'perf-urgent-2025-12-12' of g
 6a1636e06625ec0dd7f2b908ab39a8beea24bfd3 Merge tag 'scsi-misc' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
 8f0b4cce4481fb22653697cced8d0d04027cb1e8 Linux 6.19-rc1
 
---===============7410226985138726073==--
+--===============1477400735355810085==--
