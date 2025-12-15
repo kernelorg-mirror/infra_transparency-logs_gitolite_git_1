@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1180675394695594935=="
+Content-Type: multipart/mixed; boundary="===============5376756666767085146=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/libata/linux
-Date: Mon, 15 Dec 2025 07:48:30 -0000
-Message-Id: <176578491053.94962.17242274921329874719@gitolite.kernel.org>
+Date: Mon, 15 Dec 2025 07:49:00 -0000
+Message-Id: <176578494067.95397.5854656348437413267@gitolite.kernel.org>
 
---===============1180675394695594935==
+--===============5376756666767085146==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,25 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/libata/linux
 user: dlemoal
 changes:
-  - ref: refs/heads/for-next
-    old: a26a0b4b48e181ff5ff340f9dc83612c74f2ccad
-    new: f474c70065e14bac928716100eebfcfb15e1a725
-    log: revlist-a26a0b4b48e1-f474c70065e1.txt
+  - ref: refs/heads/master
+    old: 67a454e6b1c604555c04501c77b7fedc5d98a779
+    new: 8f0b4cce4481fb22653697cced8d0d04027cb1e8
+    log: revlist-67a454e6b1c6-8f0b4cce4481.txt
 
---===============1180675394695594935==
+--===============5376756666767085146==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a26a0b4b48e1-f474c70065e1.txt
+Content-Disposition: attachment; filename=revlist-67a454e6b1c6-8f0b4cce4481.txt
 
+e73fda2dcb0bad6650e654556c5242b773707257 pinctrl: qcom: glymur: Fix the gpio and egpio pin functions
+5f345e61a50d33eaba88e89d7867826aafb8b114 dt-bindings: pinctrl: qcom,pmic-gpio: Add GPIO bindings for Glymur PMICs
+120b6d1a22ee46dcf35e21949ddce6fe736550f0 pinctrl: qcom: spmi-gpio: Add PMCX0102, PMK8850 & PMH01XX PMICs support
+bfdccbe92e6de5a4b468343cbca3143b89df99af pinctrl: qcom: spmi-gpio: add support for {LV_VIN2, MV_VIN3}_CLK subtypes
+d51093cf011cab7235f64beb92a344806db393a6 dt-bindings: pinctrl: Convert Marvell Berlin pinctrl to DT schema
+c1c9641a04e839604612eac99c827f8f3e0c4f06 dt-bindings: pinctrl: Convert marvell,armada-3710-(sb|nb)-pinctrl to DT schema
+e7db6f1528fd036cfade3222dac979dfbc24ddfb dt-bindings: pinctrl: describe Kaanapali TLMM
+35ff9c6b318af715f54dc2053b328ca7bfb2c00f pinctrl: qcom: add the tlmm driver for Kaanapali platforms
 f919466878611065afb0b79feb28969af766ef3f dt-bindings: pinctrl: qcom,sm6115-lpass-lpi: add QCM2290 compatible
 005a325480f418447949f43ace24a09a1fad5f09 pinctrl: Demote subsystem banner message
 44bf66122c12ef6d3382a9b84b9be1802e5f0e95 pinctrl: renesas: rzg2l: Fix ISEL restore on resume
@@ -1042,13 +1050,5 @@ cba09e3ed06db4b6c87bc97e0aea080421fb8f7d Merge tag 'perf-urgent-2025-12-12' of g
 0dfb36b2dcb666f116ba314e631bd3bc632c44d1 Merge tag 'ceph-for-6.19-rc1' of https://github.com/ceph/ceph-client
 6a1636e06625ec0dd7f2b908ab39a8beea24bfd3 Merge tag 'scsi-misc' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
 8f0b4cce4481fb22653697cced8d0d04027cb1e8 Linux 6.19-rc1
-e8fe098170142416f11a0cae201254cd779f7fe9 ata: libata-scsi: Remove superfluous local_irq_save()
-151cabd140322205e27dae5c4bbf261ede0056e3 ata: libata: avoid long timeouts on hot-unplugged SATA DAS
-59b7bb3d48333889adb1dd2aac3ab0cf26714390 ata: libata: Add ATA_QUIRK_MAX_SEC and convert all device quirks
-873abd72b8b54443ac7783d207be7333289f8287 ata: libata: Add ata_force_get_fe_for_dev() helper
-dfd975151df9f8ec69e14466f18c4b4af9823f88 ata: libata: Change libata.force to use the generic ATA_QUIRK_MAX_SEC quirk
-45c4c5a6156a5ab450a7595dd1c8985e2d459403 ata: libata: Add support to parse equal sign in libata.force
-ad50d922f4857ca58dbda172d5d6356ab53e7845 ata: libata: Add libata.force parameter max_sec
-f474c70065e14bac928716100eebfcfb15e1a725 ata: libata: Allow more quirks
 
---===============1180675394695594935==--
+--===============5376756666767085146==--
