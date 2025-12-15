@@ -1,26 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============1518469240850608298=="
+Content-Type: multipart/mixed; boundary="===============1827092219686709463=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Mon, 15 Dec 2025 00:33:25 -0000
-Message-Id: <176575880542.3873146.7131799050687444770@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Mon, 15 Dec 2025 00:34:04 -0000
+Message-Id: <176575884457.3873879.3265012914729383183@gitolite.kernel.org>
 
---===============1518469240850608298==
+--===============1827092219686709463==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
+repo: pub/scm/linux/kernel/git/broonie/spi
 user: broonie
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/spi-6.19
+  - ref: refs/heads/for-6.19
     old: 8cef9b451dc6fdf86b92c7a35d55a47465d500db
     new: 1417927df8049a0194933861e9b098669a95c762
     log: revlist-8cef9b451dc6-1417927df804.txt
 
---===============1518469240850608298==
+--===============1827092219686709463==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher C3F436CA30F5D8EB 1765758842 +0900
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
+nonce 1765758841-3b47f4e83f2fb6b7beb71d45007922be6728c30d
+
+8cef9b451dc6fdf86b92c7a35d55a47465d500db 1417927df8049a0194933861e9b098669a95c762 refs/heads/for-6.19
+-----BEGIN PGP SIGNATURE-----
+
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmk/V3oACgkQJNaLcl1U
+h9BwvQf/W8e7ZKthaLPXZmkKIaxs5l10lgSr8XljFRgWXyi1Vr2Muo0vr9/RDma/
+ua87UsQYD8X2OdmF5K94EIBoBjsikDDZvHgK/Zm0g8hDyhz8NNvMP89s2qs3MqHm
+JfEgvTPRj2xyH8Lt08X8pjK0KQczsQchDhJooi2801WnDRYlWPToXZEQISFl7ZZd
+8Qc3OiV/2voF0xPTLi7L6YsGMZTFqm8Yxnnv1FOtZsdfBxAnoEqhmywfZuqhLvdu
+2JQjA7VZvUY1NjFu0L3T6SyoK+yzVZfD1BOg+pXtxyDiILjt/Ul5JmQ/oyTDv0Pm
+2AlD4IJvwvQcC6Ol2JuGLthEJoQulQ==
+=AZc/
+-----END PGP SIGNATURE-----
+
+--===============1827092219686709463==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1076,4 @@ cba09e3ed06db4b6c87bc97e0aea080421fb8f7d Merge tag 'perf-urgent-2025-12-12' of g
 a8a313612af7a55083ba5720f14f1835319debee spi: mpfs: Fix an error handling path in mpfs_spi_probe()
 1417927df8049a0194933861e9b098669a95c762 spi: fsl-cpm: Check length parity before switching to 16 bit mode
 
---===============1518469240850608298==--
+--===============1827092219686709463==--
