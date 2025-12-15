@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============4272399620608239223=="
+Content-Type: multipart/mixed; boundary="===============3475394733355892666=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/andy/linux-gpio-intel
-Date: Mon, 15 Dec 2025 08:54:25 -0000
-Message-Id: <176578886543.159341.17909836338235223720@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pinctrl/intel
+Date: Mon, 15 Dec 2025 08:54:35 -0000
+Message-Id: <176578887599.159614.17520466368263002474@gitolite.kernel.org>
 
---===============4272399620608239223==
+--===============3475394733355892666==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/andy/linux-gpio-intel
+repo: pub/scm/linux/kernel/git/pinctrl/intel
 user: andy
 changes:
   - ref: refs/heads/for-next
-    old: b2a186cced1199bb2777e229dc37a04d33507c6d
+    old: 8daf70e6aa4118fa71a9eb5f361f1a29567e12ed
     new: 8f0b4cce4481fb22653697cced8d0d04027cb1e8
-    log: revlist-b2a186cced11-8f0b4cce4481.txt
+    log: revlist-8daf70e6aa41-8f0b4cce4481.txt
 
---===============4272399620608239223==
+--===============3475394733355892666==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b2a186cced11-8f0b4cce4481.txt
+Content-Disposition: attachment; filename=revlist-8daf70e6aa41-8f0b4cce4481.txt
 
 09339d0d83108fd4f59b94677ac99bde870aa0ae l2tp: correct debugfs label for tunnel tx stats
 ea2d3befcf29cca5221d0572d54e4d71b683175d net: dsa: yt921x: Set ageing_time_min/ageing_time_max
@@ -1051,4 +1051,4 @@ cba09e3ed06db4b6c87bc97e0aea080421fb8f7d Merge tag 'perf-urgent-2025-12-12' of g
 6a1636e06625ec0dd7f2b908ab39a8beea24bfd3 Merge tag 'scsi-misc' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
 8f0b4cce4481fb22653697cced8d0d04027cb1e8 Linux 6.19-rc1
 
---===============4272399620608239223==--
+--===============3475394733355892666==--
