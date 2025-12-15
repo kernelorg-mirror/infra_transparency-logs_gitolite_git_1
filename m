@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0228074590284577401=="
+Content-Type: multipart/mixed; boundary="===============5281895201809071314=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/pinctrl/intel
-Date: Mon, 15 Dec 2025 11:37:20 -0000
-Message-Id: <176579864052.371668.4291985614286507043@gitolite.kernel.org>
+Date: Mon, 15 Dec 2025 11:37:53 -0000
+Message-Id: <176579867373.372062.17189286537537210209@gitolite.kernel.org>
 
---===============0228074590284577401==
+--===============5281895201809071314==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/pinctrl/intel
 user: westeri
 changes:
-  - ref: refs/heads/master
-    old: 7d0a66e4bb9081d75c82ec4957c50034cb0ea449
+  - ref: refs/heads/review-mika
+    old: 211ddde0823f1442e4ad052a2f30f050145ccada
     new: 8f0b4cce4481fb22653697cced8d0d04027cb1e8
-    log: revlist-7d0a66e4bb90-8f0b4cce4481.txt
+    log: revlist-211ddde0823f-8f0b4cce4481.txt
 
---===============0228074590284577401==
+--===============5281895201809071314==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7d0a66e4bb90-8f0b4cce4481.txt
+Content-Disposition: attachment; filename=revlist-211ddde0823f-8f0b4cce4481.txt
 
 09339d0d83108fd4f59b94677ac99bde870aa0ae l2tp: correct debugfs label for tunnel tx stats
 ea2d3befcf29cca5221d0572d54e4d71b683175d net: dsa: yt921x: Set ageing_time_min/ageing_time_max
@@ -1051,4 +1051,4 @@ cba09e3ed06db4b6c87bc97e0aea080421fb8f7d Merge tag 'perf-urgent-2025-12-12' of g
 6a1636e06625ec0dd7f2b908ab39a8beea24bfd3 Merge tag 'scsi-misc' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
 8f0b4cce4481fb22653697cced8d0d04027cb1e8 Linux 6.19-rc1
 
---===============0228074590284577401==--
+--===============5281895201809071314==--
