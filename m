@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1970887538808913520=="
+Content-Type: multipart/mixed; boundary="===============7557322360849448305=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sudeep.holla/linux
-Date: Mon, 15 Dec 2025 10:41:40 -0000
-Message-Id: <176579530070.315679.5636176723855782602@gitolite.kernel.org>
+Date: Mon, 15 Dec 2025 10:41:47 -0000
+Message-Id: <176579530704.315908.15408808501080602603@gitolite.kernel.org>
 
---===============1970887538808913520==
+--===============7557322360849448305==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,18 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sudeep.holla/linux
 user: sudeep.holla
 changes:
-  - ref: refs/heads/for-next/ffa/updates
-    old: a919cf06888c45273f8d536707dc9a304d59a402
-    new: f183b1dda4fc0348c4016f6289588d5853ab7936
-    log: revlist-a919cf06888c-f183b1dda4fc.txt
+  - ref: refs/heads/for-next/juno/updates
+    old: 44927635983619a62c6137f5e3f1ff0f5ae3131e
+    new: 01a23e376e2afd578c5ecb8c8263e107de3240b9
+    log: revlist-449276359836-01a23e376e2a.txt
 
---===============1970887538808913520==
+--===============7557322360849448305==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a919cf06888c-f183b1dda4fc.txt
+Content-Disposition: attachment; filename=revlist-449276359836-01a23e376e2a.txt
 
+ea2d3befcf29cca5221d0572d54e4d71b683175d net: dsa: yt921x: Set ageing_time_min/ageing_time_max
 e3b8cbf40c6e60a7a935bd8980884d5741a7a77b selftests: netconsole: remove log noise due to socat exit
 33b4c26d4d3ccd24d9721a577671f2c73c1a7cd9 x86/platform: Fix and extend kernel-doc comments in <asm/x86_init.h>
 1dd6c84f1c544e552848a8968599220bd464e338 sched_ext: Fix incorrect sched_class settings for per-cpu migration tasks
@@ -1048,7 +1049,6 @@ cba09e3ed06db4b6c87bc97e0aea080421fb8f7d Merge tag 'perf-urgent-2025-12-12' of g
 0dfb36b2dcb666f116ba314e631bd3bc632c44d1 Merge tag 'ceph-for-6.19-rc1' of https://github.com/ceph/ceph-client
 6a1636e06625ec0dd7f2b908ab39a8beea24bfd3 Merge tag 'scsi-misc' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
 8f0b4cce4481fb22653697cced8d0d04027cb1e8 Linux 6.19-rc1
-9fda364cb78c8b9e1abe4029f877300c94655742 firmware: arm_ffa: Unmap Rx/Tx buffers on init failure
-f183b1dda4fc0348c4016f6289588d5853ab7936 firmware: arm_ffa: Tie FF-A version checks to specific features
+01a23e376e2afd578c5ecb8c8263e107de3240b9 arm64: dts: morello: Add CMN PMU
 
---===============1970887538808913520==--
+--===============7557322360849448305==--
