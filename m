@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5315750888050110041=="
+Content-Type: multipart/mixed; boundary="===============6944613379108281115=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mips/linux
-Date: Mon, 15 Dec 2025 08:49:47 -0000
-Message-Id: <176578858774.152677.8615548329651222921@gitolite.kernel.org>
+Date: Mon, 15 Dec 2025 08:50:12 -0000
+Message-Id: <176578861294.155075.10844712618760518045@gitolite.kernel.org>
 
---===============5315750888050110041==
+--===============6944613379108281115==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/mips/linux
 user: tsbogend
 changes:
-  - ref: refs/heads/mips-next
-    old: 2b6d718c8dbe61aedffd7d12cf7bc60fab6f3d0e
+  - ref: refs/heads/mips-fixes
+    old: 7d0a66e4bb9081d75c82ec4957c50034cb0ea449
     new: 8f0b4cce4481fb22653697cced8d0d04027cb1e8
-    log: revlist-2b6d718c8dbe-8f0b4cce4481.txt
+    log: revlist-7d0a66e4bb90-8f0b4cce4481.txt
 
---===============5315750888050110041==
+--===============6944613379108281115==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2b6d718c8dbe-8f0b4cce4481.txt
+Content-Disposition: attachment; filename=revlist-7d0a66e4bb90-8f0b4cce4481.txt
 
 09339d0d83108fd4f59b94677ac99bde870aa0ae l2tp: correct debugfs label for tunnel tx stats
 ea2d3befcf29cca5221d0572d54e4d71b683175d net: dsa: yt921x: Set ageing_time_min/ageing_time_max
@@ -1051,4 +1051,4 @@ cba09e3ed06db4b6c87bc97e0aea080421fb8f7d Merge tag 'perf-urgent-2025-12-12' of g
 6a1636e06625ec0dd7f2b908ab39a8beea24bfd3 Merge tag 'scsi-misc' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
 8f0b4cce4481fb22653697cced8d0d04027cb1e8 Linux 6.19-rc1
 
---===============5315750888050110041==--
+--===============6944613379108281115==--
