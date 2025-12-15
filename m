@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2932792702865845685=="
+Content-Type: multipart/mixed; boundary="===============1611208861921869292=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/geert/renesas-drivers
-Date: Mon, 15 Dec 2025 13:05:47 -0000
-Message-Id: <176580394767.460650.5566589234942115745@gitolite.kernel.org>
+Date: Mon, 15 Dec 2025 13:07:17 -0000
+Message-Id: <176580403713.461658.1294272805152257527@gitolite.kernel.org>
 
---===============2932792702865845685==
+--===============1611208861921869292==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/geert/renesas-drivers
 user: geert
 changes:
-  - ref: refs/heads/renesas-clk
-    old: 5fb2f67341bd4b7c482f2bbda6b78244a51c3923
+  - ref: refs/heads/renesas-clk-for-v6.20
+    old: 3099b7d2d7ecae523036abe0cabfae25e8e56349
     new: d8921e42a1983024227c0e64253ea96b25a1ae9a
-    log: revlist-5fb2f67341bd-d8921e42a198.txt
+    log: revlist-3099b7d2d7ec-d8921e42a198.txt
 
---===============2932792702865845685==
+--===============1611208861921869292==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5fb2f67341bd-d8921e42a198.txt
+Content-Disposition: attachment; filename=revlist-3099b7d2d7ec-d8921e42a198.txt
 
 33b2835f0b7e2a458473b0e3a23b54b92108b6b0 Bluetooth: HCI: Add initial support for PAST
 c530569adc19b5f0c62955de41f067bad34e3fe0 Bluetooth: hci_core: Introduce HCI_CONN_FLAG_PAST
@@ -1051,4 +1051,4 @@ e68100006bedc361197e6cb9da1cced87ee3e5b0 clk: renesas: r9a09g077: Propagate rate
 94cdeca6a17a3e2ba617c8a03e17d989de005a20 clk: renesas: r9a09g056: Add entries for ICU
 d8921e42a1983024227c0e64253ea96b25a1ae9a clk: renesas: r9a09g056: Add entries for the RSPIs
 
---===============2932792702865845685==--
+--===============1611208861921869292==--
