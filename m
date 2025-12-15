@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8277922206385281928=="
+Content-Type: multipart/mixed; boundary="===============4517502182770993858=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-Date: Mon, 15 Dec 2025 11:20:06 -0000
-Message-Id: <176579760665.355391.12449481401736882412@gitolite.kernel.org>
+Date: Mon, 15 Dec 2025 11:23:39 -0000
+Message-Id: <176579781921.357691.3306051889780572977@gitolite.kernel.org>
 
---===============8277922206385281928==
+--===============4517502182770993858==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,32 +16,32 @@ repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
 user: ij
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/review-ilpo-fixes
+  - ref: refs/heads/master
     old: 9d588a1140b9ae211581a7a154d0b806d8cd8238
     new: 8f0b4cce4481fb22653697cced8d0d04027cb1e8
     log: revlist-9d588a1140b9-8f0b4cce4481.txt
 
---===============8277922206385281928==
+--===============4517502182770993858==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1765797601 +0200
+pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1765797816 +0200
 pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86.git
-nonce 1765797601-3d6756420ecd5f31f06ff3e2ccafb100d46af3d7
+nonce 1765797815-06f91b44603850aac497fa05a7e2b8ec43d1185f
 
-9d588a1140b9ae211581a7a154d0b806d8cd8238 8f0b4cce4481fb22653697cced8d0d04027cb1e8 refs/heads/review-ilpo-fixes
+9d588a1140b9ae211581a7a154d0b806d8cd8238 8f0b4cce4481fb22653697cced8d0d04027cb1e8 refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iHUEABYIAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCaT/u5QAKCRBZrE9hU+XO
-MUlYAQCzuTxsj+N9gXWxFK7caXb0Kj/3aMJIaoDxjo6UveDGNwD/e77RgU7QF0Fq
-Bl9qG36mH+psxT8JLSsonE2z7Ds94wM=
-=AQuU
+iHUEABYIAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCaT/vugAKCRBZrE9hU+XO
+MVSlAP4mq7CqoGenFaJ4zU9VfqNz44GMj1OylvB6GaFTlfm3AwEAntxkSXCVohPt
+3xdnpQ0N1Z7rA5DZF6yqIx0sXSSG+QA=
+=iBes
 -----END PGP SIGNATURE-----
 
---===============8277922206385281928==
+--===============4517502182770993858==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -464,4 +464,4 @@ cba09e3ed06db4b6c87bc97e0aea080421fb8f7d Merge tag 'perf-urgent-2025-12-12' of g
 6a1636e06625ec0dd7f2b908ab39a8beea24bfd3 Merge tag 'scsi-misc' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
 8f0b4cce4481fb22653697cced8d0d04027cb1e8 Linux 6.19-rc1
 
---===============8277922206385281928==--
+--===============4517502182770993858==--
