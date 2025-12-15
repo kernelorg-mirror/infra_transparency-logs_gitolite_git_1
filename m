@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0093916802235442273=="
+Content-Type: multipart/mixed; boundary="===============1180675394695594935=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/libata/linux
-Date: Mon, 15 Dec 2025 07:41:41 -0000
-Message-Id: <176578450111.89235.5444871970970614144@gitolite.kernel.org>
+Date: Mon, 15 Dec 2025 07:48:30 -0000
+Message-Id: <176578491053.94962.17242274921329874719@gitolite.kernel.org>
 
---===============0093916802235442273==
+--===============1180675394695594935==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/libata/linux
 user: dlemoal
 changes:
-  - ref: refs/heads/for-6.20
+  - ref: refs/heads/for-next
     old: a26a0b4b48e181ff5ff340f9dc83612c74f2ccad
     new: f474c70065e14bac928716100eebfcfb15e1a725
     log: revlist-a26a0b4b48e1-f474c70065e1.txt
 
---===============0093916802235442273==
+--===============1180675394695594935==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ dfd975151df9f8ec69e14466f18c4b4af9823f88 ata: libata: Change libata.force to use
 ad50d922f4857ca58dbda172d5d6356ab53e7845 ata: libata: Add libata.force parameter max_sec
 f474c70065e14bac928716100eebfcfb15e1a725 ata: libata: Allow more quirks
 
---===============0093916802235442273==--
+--===============1180675394695594935==--
