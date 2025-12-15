@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4406818104463902814=="
+Content-Type: multipart/mixed; boundary="===============6335316531742574533=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Mon, 15 Dec 2025 11:11:15 -0000
-Message-Id: <176579707532.345451.16914769255820664598@gitolite.kernel.org>
+Date: Mon, 15 Dec 2025 11:11:22 -0000
+Message-Id: <176579708259.345715.7008091794646850880@gitolite.kernel.org>
 
---===============4406818104463902814==
+--===============6335316531742574533==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/rdma/rdma
 user: leon
 changes:
-  - ref: refs/heads/wip/leon-for-rc
+  - ref: refs/heads/for-rc
     old: ac3fd01e4c1efce8f2c054cdeb2ddd2fc0fb150d
     new: 8f0b4cce4481fb22653697cced8d0d04027cb1e8
     log: revlist-ac3fd01e4c1e-8f0b4cce4481.txt
 
---===============4406818104463902814==
+--===============6335316531742574533==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ cba09e3ed06db4b6c87bc97e0aea080421fb8f7d Merge tag 'perf-urgent-2025-12-12' of g
 6a1636e06625ec0dd7f2b908ab39a8beea24bfd3 Merge tag 'scsi-misc' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
 8f0b4cce4481fb22653697cced8d0d04027cb1e8 Linux 6.19-rc1
 
---===============4406818104463902814==--
+--===============6335316531742574533==--
