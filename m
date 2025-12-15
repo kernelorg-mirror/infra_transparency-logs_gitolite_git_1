@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2711959923554432273=="
+Content-Type: multipart/mixed; boundary="===============5945899521725309723=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux-mem-ctrl
-Date: Mon, 15 Dec 2025 16:05:54 -0000
-Message-Id: <176581475499.646091.5100258216810891384@gitolite.kernel.org>
+Date: Mon, 15 Dec 2025 16:09:48 -0000
+Message-Id: <176581498888.648744.17159461740133447095@gitolite.kernel.org>
 
---===============2711959923554432273==
+--===============5945899521725309723==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/krzk/linux-mem-ctrl
 user: krzk
 git_push_cert_status: Y
 changes:
-  - ref: refs/heads/mem-ctrl-next
-    old: 1463299a227d02b40c842a5d91d989cb26da5bbb
+  - ref: refs/heads/for-next
+    old: 84ac371ee4b33158b44d43855aebf432352ca919
     new: 8f0b4cce4481fb22653697cced8d0d04027cb1e8
-    log: revlist-1463299a227d-8f0b4cce4481.txt
+    log: revlist-84ac371ee4b3-8f0b4cce4481.txt
 
---===============2711959923554432273==
+--===============5945899521725309723==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher krzk@kernel.org 1765814752 +0100
+pusher krzk@kernel.org 1765814986 +0100
 pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux-mem-ctrl.git
-nonce 1765814751-f6ff28c38ca97e3beba21dcc84dd50c8a1652c3e
+nonce 1765814985-9b8cba1752304fa0ef4f80f07430a28045d651ca
 
-1463299a227d02b40c842a5d91d989cb26da5bbb 8f0b4cce4481fb22653697cced8d0d04027cb1e8 refs/heads/mem-ctrl-next
+84ac371ee4b33158b44d43855aebf432352ca919 8f0b4cce4481fb22653697cced8d0d04027cb1e8 refs/heads/for-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmlAMeAQHGtyemtAa2Vy
-bmVsLm9yZwAKCRDBN2bmhouD16P/D/4y+ZcXCC/i5WHZ1YBG9lrcHvBK19TusCSl
-Ceds1nJHhfeWKXfcdkN9ncidIzNPzsOo2vHyJx4YXl7W7GGZ76ZOzvFtCl89xDVm
-QKTJJ9ZYhlY0uFItxatj+X6uDvQn7hz0xtB2pHk4C0CU/empBRk4/JhQ0Th06i0L
-sDbJZUWXY9VoW2Nf5N5fqx+o/n5hwWcREaHfqcpljGSJuGUfsUlwQOoVRce45buF
-Sm28y6K3CFIAU9xjBtHYczQC96LOTgqFW+yUlXeYTHMSXf2AwNU+dnkUQbQeBMbD
-3zXlRZqF4DqeMR0jfALBMqt+fJhVp4Mnqo5o8vOJ2f7tMeiapZ+Cz/hsFA5uZ/jk
-ESH4T1EvxlF6rjhEMbKpVO8ZXpHv4UX3ZNIsjFmoRetLzKWUaCqvOHp/ur8/aEe2
-i1Cr80zgaAo4As64whN6yI2MHJMEoEjr5PkdHcgHtxgbRwxuHwT6P6kaPAApyhVJ
-veeoWj7/ipqwb1BVCIrUOZWl1cNYlI7E84k8UnXgIJGbdP90YCj2GdIuWg7bufNF
-eb6yJa58iiR2d5/SP9np1PJiUWx1J9bP42Hqwuu3KucKbJJTbd123/LTNE+baQTI
-uSS8AJz7rxDk5HuQQYlHGdPmBzd219Kxo68FLmJaKStOFjTP8eXASLnmeimjZYzx
-V2PDXUKXxQ==
-=zJS+
+iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmlAMsoQHGtyemtAa2Vy
+bmVsLm9yZwAKCRDBN2bmhouD19rED/9Lx/6Ly6ueraNTAuupWWm/zBbp6xFAkpxU
+tNmC4UdeJSsqrtmq3tyBmEJctnUNQeTJAhXeKuoueWfloQOwPLb8Mya1VaDK8gDN
+6imTw1PNbzRW8Isu2dMLTk2DH/T4ywrblAIKGaJPJtcrVzF7R8HyKChnFuzja0d8
+K8G2DyWjzCDtkvDimRPAMqnkOGJ6xJijfNIkxeYOLfjGwjy5YexmkOuwJo2dk/nO
+GyKa8aU378CWL/GWgrlR6D3FETvUvmh5B8JqS3bJcpRuw8nJZdhIMIt80guqjZog
+t/lbQflxrUcxQCEr4poykXIhNx22upSBf21b+HsDXN9txQkefSwKUj089WWtnkbH
+Z/GeUVg6ghxaNxbePIC1++ZFMore+OSwDTpvN3GyzjAsF3MuukV1ZZZcLi1J4BzM
+Vla5yLLZF3FNSQGfl/qdZ1r1JCP8MUMdReNGFCSoT3PWIIDh9oO/eDf/t1jD2uOI
+L0shS7eP102F6mfnQ5MAaTWPjhJKMv7jmZS46o94aVp2UrEqwvJ06RJI14+a4oIh
+g8aCkaHlqnV4QALKis1vP+xIDZF8PntXnBH6epJBEKQhqpCBGSK4JQuyuz/DZ3VP
+dxhixWTe0gEER92PyIN+LSyj12X2S9/P4j6cY/rTYblJe/9k5jXM3U+F1Q8DRyW+
+3YMTuyfI9A==
+=bzia
 -----END PGP SIGNATURE-----
 
---===============2711959923554432273==
+--===============5945899521725309723==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1463299a227d-8f0b4cce4481.txt
+Content-Disposition: attachment; filename=revlist-84ac371ee4b3-8f0b4cce4481.txt
 
 09339d0d83108fd4f59b94677ac99bde870aa0ae l2tp: correct debugfs label for tunnel tx stats
 ea2d3befcf29cca5221d0572d54e4d71b683175d net: dsa: yt921x: Set ageing_time_min/ageing_time_max
@@ -1082,4 +1082,4 @@ cba09e3ed06db4b6c87bc97e0aea080421fb8f7d Merge tag 'perf-urgent-2025-12-12' of g
 6a1636e06625ec0dd7f2b908ab39a8beea24bfd3 Merge tag 'scsi-misc' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
 8f0b4cce4481fb22653697cced8d0d04027cb1e8 Linux 6.19-rc1
 
---===============2711959923554432273==--
+--===============5945899521725309723==--
