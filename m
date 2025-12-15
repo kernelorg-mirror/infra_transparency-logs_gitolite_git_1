@@ -1,22 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/chao/linux
-Date: Mon, 15 Dec 2025 12:28:55 -0000
-Message-Id: <176580173594.423408.15207562084695602194@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/util-linux/util-linux
+Date: Mon, 15 Dec 2025 12:29:14 -0000
+Message-Id: <176580175429.423812.9180882387213867536@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/chao/linux
-user: chao
+repo: pub/scm/utils/util-linux/util-linux
+user: kzak
 changes:
-  - ref: refs/heads/bugfix/common
-    old: 0890ff3ebcfc99cce25edfa11094d2d6238a734a
-    new: aaf158a63e8e9dd723d2b13b7d32c1924fa19711
+  - ref: refs/heads/master
+    old: e0d602bab9354e8225f2b0ca063dd449caa64e1c
+    new: 9ac5db2c5b7b8bde467448968c77a289b4ed1465
     log: |
-         6d4f37397dcda1b96b127778923e5ad4a1ac092b f2fs: fix to sanity check on nat_entry.nid in f2fs_get_node_info()
-         ade7bfd014d3b35c9e7cda8c79be9494b5314b67 f2fs: make FAULT_DISCARD obsolete
-         53ebd5cad76462a7e9d4f8cb86c7739a7f30e678 f2fs: use killable function to be aware of SIGKILL
-         aaf158a63e8e9dd723d2b13b7d32c1924fa19711 f2fs: improve check for enough free sections
+         9ac5db2c5b7b8bde467448968c77a289b4ed1465 Fix memory leak in setpwnam()
+         
+  - ref: refs/heads/stable/v2.41
+    old: 73ba96a3043127a0bd3f3eff6080b32705043b63
+    new: 2d61c2f4a9fa5c3a9a5ba8a3fed08812f3008dac
+    log: |
+         2d61c2f4a9fa5c3a9a5ba8a3fed08812f3008dac Fix memory leak in setpwnam()
          
