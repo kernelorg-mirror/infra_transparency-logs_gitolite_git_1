@@ -1,56 +1,55 @@
-Content-Type: multipart/mixed; boundary="===============6866544981741903993=="
+Content-Type: multipart/mixed; boundary="===============0638836575293270565=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Mon, 15 Dec 2025 02:01:22 -0000
-Message-Id: <176576408293.3967897.1442372698979104799@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Mon, 15 Dec 2025 02:01:40 -0000
+Message-Id: <176576410000.3968241.2219919368612504695@gitolite.kernel.org>
 
---===============6866544981741903993==
+--===============0638836575293270565==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.19
+  - ref: refs/heads/asoc-6.19
     old: f34836a8ddf9216ff919927cddb705022bf30aab
     new: cb0ae6f22790ead71a866f94c7a5a70ad56af16a
     log: revlist-f34836a8ddf9-cb0ae6f22790.txt
-  - ref: refs/heads/for-6.20
-    old: 8f0b4cce4481fb22653697cced8d0d04027cb1e8
+  - ref: refs/heads/asoc-6.20
+    old: 0000000000000000000000000000000000000000
     new: 7445dfb5500637a156f5f1d920d1705ac747b68e
-    log: revlist-8f0b4cce4481-7445dfb55006.txt
 
---===============6866544981741903993==
+--===============0638836575293270565==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1765764077 +0900
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1765764076-129ed5d42af5c29d7c0a72b57b14f917701efb71
+pusher C3F436CA30F5D8EB 1765764088 +0900
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1765764086-8b50502d4de8bbd3a8b42f06e06701463ef02967
 
-f34836a8ddf9216ff919927cddb705022bf30aab cb0ae6f22790ead71a866f94c7a5a70ad56af16a refs/heads/for-6.19
-8f0b4cce4481fb22653697cced8d0d04027cb1e8 7445dfb5500637a156f5f1d920d1705ac747b68e refs/heads/for-6.20
+f34836a8ddf9216ff919927cddb705022bf30aab cb0ae6f22790ead71a866f94c7a5a70ad56af16a refs/heads/asoc-6.19
+0000000000000000000000000000000000000000 7445dfb5500637a156f5f1d920d1705ac747b68e refs/heads/asoc-6.20
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmk/a+0ACgkQJNaLcl1U
-h9Afugf/UrfJKGjTXuflgg1LFukSvntwHe6Nrf16D3BHBQDc9Wx+OJqbK+tIGCGH
-bE4SVe7ZX0Z5UPncVUIiqP8Jjqck2LKQ2DCL7gjI2KpGtK3gkrvwGteU9ccC0Dlz
-Oy17NPJZWg12rhfcC+KfKs4kSBDrNKlavpriMe0RhDGheh9XxuNK8Lgxj+xntP5n
-UBco0Qz4EwbB6/9Zz0zV2R0ux2orOxxlbSTDSVcmiKElbZNpu8vBlSNzJT1plrrB
-jn/OZBk85WwL0xbJ87ST5ZWjwbbPeEASNqFcYXpmlSSnOul7IzWLvsWZ6jlkfhLt
-hF3GYGzEgCkhtN5bcQ8xnhzbsb8NfA==
-=J9R3
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmk/a/gACgkQJNaLcl1U
+h9DPvQf+Lamo9uiAmWTQmmFib11JhvlZpODW98AKooz727b52CG6oEBA44K2dhXd
+yCU3D70gNDIYArTNPje+zfAe6ieZVjt0qAQmgDhTsFTMy8kuvh02d2d4PmHamcB9
+OI68lH0PA5CHB+NmzlsuGN+dDn7phL4fQVNprEolxZRr4kf5XhgUyoIYNqn2EbEw
+1hO4Ja/lAOllQ5a6zvTJkNPBeCLhwLnMiVkba+Sc98z6s5HutyXXR0s/UyhCKzmY
+el9pbUdH1BTTfs+SfJCjdCO+6RZ2zXRl/B/F7/HSw2/P9bqJ/I8ZhVVZJqCDwZgn
+ddeqFLY2rK1r2ToNP+wdyb4nTvazhw==
+=ewuu
 -----END PGP SIGNATURE-----
 
---===============6866544981741903993==
+--===============0638836575293270565==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1081,38 +1080,4 @@ e2cb8ef0372665854fca6fa7b30b20dd35acffeb ASoC: amd: yc: Add quirk for Honor Magi
 9f4d0899efd9892fc7514c9488270e1bb7dedd2b ASoC: fsl_sai: Constrain sample rates from audio PLLs only in master mode
 cb0ae6f22790ead71a866f94c7a5a70ad56af16a ASoC: sdw_utils: subtract the endpoint that is not present
 
---===============6866544981741903993==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8f0b4cce4481-7445dfb55006.txt
-
-d6c160d5e86f4e7354dd6c3154b7cb562abc6c7d ASoC: renesas: rz-ssi: Use dev variable in probe()
-a472f0b157832fc91c83179b1628d8f660c84c82 ASoC: renesas: rz-ssi: Remove trailing comma in the terminator entry
-b541cb0a27dfa7504a8008320502f869c75f8bfc ASoC: renesas: rz-ssi: Move DMA configuration
-9e10709f831408d948be66bc8f6329fa37a3dc82 ASoC: renesas: rz-ssi: Add support for 24 bits sample width
-124f6155f3d97b0e33f178c10a5138a42c8fd207 ASoC: renesas: rz-ssi: Add support for 32 bits sample width
-bd9e7182e36169cd7e1ea3b25b5c82b1c5698e64 ASoC: qcom: q6prm: Fix confusing cleanup.h syntax
-c862dc9019f517893eb83096076d7eed4ecbb372 ASoC: qcom: q6asm: Fix confusing cleanup.h syntax
-310e6f95eedaae04990072078adbb38beb149811 ASoC: qcom: q6apm: Fix confusing cleanup.h syntax
-3c84bfa47ff29ec0c202cb139d365421c6778d65 ASoC: qcom: q6afe: Fix confusing cleanup.h syntax
-0e6071d656fb284e003a45ce158831d4d12aac5a ASoC: qcom: audioreach: Fix confusing cleanup.h syntax
-0bb160c92ad400c692984763996b758458adea17 ASoC: qcom: Minor readability improve with new lines
-5a7e236925b417332a674a8488ef19da233a5764 ASoC: amd: acp-sdw-legacy: Fix confusing cleanup.h syntax
-bafd5cf04b2822bf3c865add7262d86e22b9588e ASoC: amd: acp-sdw-sof: Fix confusing cleanup.h syntax
-e39011184f23de3d04ca8e80b4df76c9047b4026 ASoC: SDCA: functions: Fix confusing cleanup.h syntax
-774d075a80c652a0f35a5dd6f9e35cac5b7f6bdd ASoC: fsl: fsl_ssi: Replace deprecated strcpy() with strscpy()
-d00e80606e76233f4ae03486a9809c9edfe8b27e ASoC: codec: rt274: Use devm_request_threaded_irq to manage IRQ lifetime and fix smatch warning
-69927c13d5c5444f5f774e891fa5970ae1bac4b5 ASoC: mediatek: mt8189-nau8825: don't use card->dapm directly
-7a9fa7fda93b7b3ae515f40f67bbf8e1d16337e8 firmware: cs_dsp: Remove __free() from cs_dsp_debugfs_string_read()
-180cdb96e821e30528b02708b927c93daa0ed40b ASoC: mediatek: mt8195: optimize property formatting error handling by using scnprintf()
-0c1db366642172e85ee98eeed7c127b80eb609a3 ASoC: davinci-mcasp: remove unneeded #ifdef
-dfbbd3c04f0f782e83f8677749e2f02359ffd1b5 ASoc: qcom: q6afe: use guards consistently
-a49e098be20063c91b673a674b8f0f92135448da ASoC: codecs: wm0010: Replace cpu_to_be64 + le64_to_cpu with swab64
-ae9ccaed3f6701ee0fe40ad919516e0aa0844f21 firmware: cs_dsp: Don't use __free() in cs_dsp_load() and cs_dsp_load_coeff()
-81acbdc51bbbec822a1525481f2f70677c47aee0 ASoC: sdw-mockup: Drop dummy remove function
-c5224b8a1ba52d70b3fc2548109bd04bbbc0c8a6 ASoC: qcom: Fix confusing cleanup.h
-34bf40c2755636309cbf6bba01ecd390ba6ede97 Add {24,32}-bit sample width support for RZ/G2L SSI
-7445dfb5500637a156f5f1d920d1705ac747b68e ASoC: amd/sdw: Fix confusing cleanup.h
-
---===============6866544981741903993==--
+--===============0638836575293270565==--
