@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============3467848344923492931=="
+Content-Type: multipart/mixed; boundary="===============5921154212541212164=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux
-Date: Mon, 15 Dec 2025 11:40:56 -0000
-Message-Id: <176579885639.376188.1325794192439548452@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux-dt
+Date: Mon, 15 Dec 2025 11:41:05 -0000
+Message-Id: <176579886581.376478.2342077249384265108@gitolite.kernel.org>
 
---===============3467848344923492931==
+--===============5921154212541212164==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/krzk/linux
+repo: pub/scm/linux/kernel/git/krzk/linux-dt
 user: krzk
 git_push_cert_status: Y
 changes:
@@ -24,38 +24,38 @@ changes:
     old: 0000000000000000000000000000000000000000
     new: 3e7f562e20ee87a25e104ef4fce557d39d62fa85
 
---===============3467848344923492931==
+--===============5921154212541212164==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher krzk@kernel.org 1765798816 +0100
-pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux.git
-nonce 1765798814-93b7db1d062627e94b68a84d0df97b20ae4344a4
+pusher krzk@kernel.org 1765798863 +0100
+pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux-dt.git
+nonce 1765798861-939b8fb6a8c83c7d21fb11a2cfb71181ec7daa93
 
 3a8660878839faadb4f1a6dd72c3179c1df56787 8f0b4cce4481fb22653697cced8d0d04027cb1e8 refs/heads/master
 0000000000000000000000000000000000000000 3e7f562e20ee87a25e104ef4fce557d39d62fa85 refs/tags/v6.19-rc1
 -----BEGIN PGP SIGNATURE-----
 
-iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmk/86AQHGtyemtAa2Vy
-bmVsLm9yZwAKCRDBN2bmhouD19RLD/9B5GvxTeLlVFVeALtV9yQ4ITBh0xRkscBN
-QndZwPxB23aYqhX/znRkRhvujHnEqKuz01gsULGsHCTnf34YMvhXkZHJ3Sts0/MF
-pqr6F5GyjRpCbJ5pYh+0qJHDdl6upPP/gH4kMo2lQwj8l/ncNRx/gFQ0oYQbIPHZ
-lasVtSdDqqM9eoouiZgYG2eFwblPXaMUkFW0zvwn2g29Xqn+ve6bIlfZEBla/nBK
-IRY8OOZn96eZAumVlB15mKP8KfeWODFx1RN+hBKduGdXB++mVKrFMkmNCwbMRx9U
-zGkk+lPhPyqkXQdfCYlqt2IoyR4nFtCyrTIhAM8j8lH/uQNgoHVlta3jrw7UAqpR
-xTMrL2UhGcN4YQUGvRIUMr7DlUr18ReW4QuLMvOdgmEkq8ZwewK+FUgrlV+0/RXo
-bJpeWuAUcPGpNsEhABmiPsEW3uHX0YY2ocsJ1KwQQkaK9l2WGVTI3/CJrfdMS+IY
-4ErTBQRfeuMcmDEyqPgWaA/b57PPPe1AjawNCscdvgFQsMHwWLODP1Apjj6xXIXO
-ynKmEIA6rZvKTyr/VF/y3ebBTvTTCWbja57EOml243ulSX+rzo57ByDRhR/lINiJ
-s2kKnN4qEgheAYQwIkkZeJM3IZlmJKAApKqf5jB3OHwQ9mOBKI/vYedQw04W1Y7s
-S3ckT2GQdw==
-=wgWj
+iQJDBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmk/888QHGtyemtAa2Vy
+bmVsLm9yZwAKCRDBN2bmhouD13dDD/ipCRb4GjJFuiX2si2boCG+o7Wt5qxX/Ky9
+stghmvO0mRDEv0LMo6uFKe6WWiJTXQ68DkIfySZJb4afbCkSPZoWJmzO7pLycWdY
+wvXTc0EQHhrZd9wr62ITxsSjVtM6sDsbutctn8p4trXrfUd7/iUExzxDWzxyLv1O
+t7+lCrc8K9Nm1Bhaefzv1wE3zs4tMBO+Tn6rI0MsYyLI1phP7Zk0leNdLH8nUD6e
+h6NKY8nb44bqGdJwpHDXxSD3C8+X9Z5tm7CA1ZMm6lkgVc6OTeyqTHK8jrtmKN68
+YB0roD/6pxA5nst8yF6lHTYKLPZrGACI9Xf5veATgMOSQ7dHdYXUDHOFnJMWzDZl
+4sd61xQDq6+Ua1rSIfGbWh9ziNcK5hxyP8TvuDvPhOCIMB8qtmyA2L57fo6qgwPk
+9FZg5PfkrmNn20T1Rnx51HMS2/8OzZ3T7q6Ap2SDuplVbsEPx9NFo+/oiBRXiQ/S
+mY8QRG0q1C3WJdC7u5a0uGJiAdznyhEs4LlyIEyjNepwV2GoZ3w/mH94ltLo72Gk
+cgkq6gnYL0ooazsMhlgQNpHdK/0i7wQNUgVTWX/a10Y8BZJUU8S7jUrAilFIZXY3
+hfP6ecRXB8ZOaTIVnDUY88FLzGpmabyRrIF+mNQgYo43VS8hB3i07/Z9YrJZk0p5
+tqZtBro7
+=wFc5
 -----END PGP SIGNATURE-----
 
---===============3467848344923492931==
+--===============5921154212541212164==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1086,4 +1086,4 @@ cba09e3ed06db4b6c87bc97e0aea080421fb8f7d Merge tag 'perf-urgent-2025-12-12' of g
 6a1636e06625ec0dd7f2b908ab39a8beea24bfd3 Merge tag 'scsi-misc' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
 8f0b4cce4481fb22653697cced8d0d04027cb1e8 Linux 6.19-rc1
 
---===============3467848344923492931==--
+--===============5921154212541212164==--
