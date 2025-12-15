@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/shuah/linux
-Date: Mon, 15 Dec 2025 19:34:39 -0000
-Message-Id: <176582727980.857750.435409496616963988@gitolite.kernel.org>
+Date: Mon, 15 Dec 2025 19:44:54 -0000
+Message-Id: <176582789477.867536.8085987047275324327@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,13 +11,13 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/shuah/linux
 user: shuah
 changes:
-  - ref: refs/heads/cpupower
+  - ref: refs/heads/vimc
     old: 8f0b4cce4481fb22653697cced8d0d04027cb1e8
-    new: ff72619e11348ab189e232c59515dd5c33780d7c
+    new: c3a017646b770b76f0f08c96aa74fbc4404ef674
     log: |
-         6b401a5b2d2acf56ec902f96f6381982457ab339 cpupower: idle_monitor: fix incorrect value logged after stop
-         24858a84163c8d04827166b3bcaed80612bb62fc tools/cpupower: Fix inverted APERF capability check
-         1b9aaf36b7b40235e5a529c15848c3d866362207 tools/cpupower: Use strcspn() to strip trailing newline
-         f9bd3762cf1bd0c2465f2e6121b340883471d1bf tools/power cpupower: Reset errno before strtoull()
-         ff72619e11348ab189e232c59515dd5c33780d7c tools/power cpupower: Show C0 in idle-info dump
+         4a8359c85a5912174dc966233d31689609cb260f media: vimc: add RGB/YUV input entity implementation
+         2634d4562d2d92d6c9f1d68181a12fa625904ac7 media: vimc: add support for V4L2_FIELD_ALTERNATE in vimc-sensor
+         d50c39ed1bd10922fe314b8cca7f102b1b9160f5 media: vimc: debayer: add support for multiple RGB formats
+         c440205537068a25285d4afc3bde6baae56a3bae media: vimc: capture: support custom bytesperline values
+         c3a017646b770b76f0f08c96aa74fbc4404ef674 docs: media: vimc: document RGB/YUV input entity
          
