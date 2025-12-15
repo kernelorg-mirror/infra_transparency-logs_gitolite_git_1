@@ -1,30 +1,65 @@
-Content-Type: multipart/mixed; boundary="===============5281895201809071314=="
+Content-Type: multipart/mixed; boundary="===============3467848344923492931=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pinctrl/intel
-Date: Mon, 15 Dec 2025 11:37:53 -0000
-Message-Id: <176579867373.372062.17189286537537210209@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux
+Date: Mon, 15 Dec 2025 11:40:56 -0000
+Message-Id: <176579885639.376188.1325794192439548452@gitolite.kernel.org>
 
---===============5281895201809071314==
+--===============3467848344923492931==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pinctrl/intel
-user: westeri
+repo: pub/scm/linux/kernel/git/krzk/linux
+user: krzk
+git_push_cert_status: Y
 changes:
-  - ref: refs/heads/review-mika
-    old: 211ddde0823f1442e4ad052a2f30f050145ccada
+  - ref: refs/heads/master
+    old: 3a8660878839faadb4f1a6dd72c3179c1df56787
     new: 8f0b4cce4481fb22653697cced8d0d04027cb1e8
-    log: revlist-211ddde0823f-8f0b4cce4481.txt
+    log: revlist-3a8660878839-8f0b4cce4481.txt
+  - ref: refs/tags/v6.19-rc1
+    old: 0000000000000000000000000000000000000000
+    new: 3e7f562e20ee87a25e104ef4fce557d39d62fa85
 
---===============5281895201809071314==
+--===============3467848344923492931==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-211ddde0823f-8f0b4cce4481.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher krzk@kernel.org 1765798816 +0100
+pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux.git
+nonce 1765798814-93b7db1d062627e94b68a84d0df97b20ae4344a4
+
+3a8660878839faadb4f1a6dd72c3179c1df56787 8f0b4cce4481fb22653697cced8d0d04027cb1e8 refs/heads/master
+0000000000000000000000000000000000000000 3e7f562e20ee87a25e104ef4fce557d39d62fa85 refs/tags/v6.19-rc1
+-----BEGIN PGP SIGNATURE-----
+
+iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmk/86AQHGtyemtAa2Vy
+bmVsLm9yZwAKCRDBN2bmhouD19RLD/9B5GvxTeLlVFVeALtV9yQ4ITBh0xRkscBN
+QndZwPxB23aYqhX/znRkRhvujHnEqKuz01gsULGsHCTnf34YMvhXkZHJ3Sts0/MF
+pqr6F5GyjRpCbJ5pYh+0qJHDdl6upPP/gH4kMo2lQwj8l/ncNRx/gFQ0oYQbIPHZ
+lasVtSdDqqM9eoouiZgYG2eFwblPXaMUkFW0zvwn2g29Xqn+ve6bIlfZEBla/nBK
+IRY8OOZn96eZAumVlB15mKP8KfeWODFx1RN+hBKduGdXB++mVKrFMkmNCwbMRx9U
+zGkk+lPhPyqkXQdfCYlqt2IoyR4nFtCyrTIhAM8j8lH/uQNgoHVlta3jrw7UAqpR
+xTMrL2UhGcN4YQUGvRIUMr7DlUr18ReW4QuLMvOdgmEkq8ZwewK+FUgrlV+0/RXo
+bJpeWuAUcPGpNsEhABmiPsEW3uHX0YY2ocsJ1KwQQkaK9l2WGVTI3/CJrfdMS+IY
+4ErTBQRfeuMcmDEyqPgWaA/b57PPPe1AjawNCscdvgFQsMHwWLODP1Apjj6xXIXO
+ynKmEIA6rZvKTyr/VF/y3ebBTvTTCWbja57EOml243ulSX+rzo57ByDRhR/lINiJ
+s2kKnN4qEgheAYQwIkkZeJM3IZlmJKAApKqf5jB3OHwQ9mOBKI/vYedQw04W1Y7s
+S3ckT2GQdw==
+=wgWj
+-----END PGP SIGNATURE-----
+
+--===============3467848344923492931==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-3a8660878839-8f0b4cce4481.txt
 
 09339d0d83108fd4f59b94677ac99bde870aa0ae l2tp: correct debugfs label for tunnel tx stats
 ea2d3befcf29cca5221d0572d54e4d71b683175d net: dsa: yt921x: Set ageing_time_min/ageing_time_max
@@ -1051,4 +1086,4 @@ cba09e3ed06db4b6c87bc97e0aea080421fb8f7d Merge tag 'perf-urgent-2025-12-12' of g
 6a1636e06625ec0dd7f2b908ab39a8beea24bfd3 Merge tag 'scsi-misc' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
 8f0b4cce4481fb22653697cced8d0d04027cb1e8 Linux 6.19-rc1
 
---===============5281895201809071314==--
+--===============3467848344923492931==--
