@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5110492147400950097=="
+Content-Type: multipart/mixed; boundary="===============6823142191350397230=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/andy/linux-auxdisplay
-Date: Mon, 15 Dec 2025 08:53:43 -0000
-Message-Id: <176578882337.157839.4842225323358300635@gitolite.kernel.org>
+Date: Mon, 15 Dec 2025 08:53:49 -0000
+Message-Id: <176578882950.158116.4406872944537667976@gitolite.kernel.org>
 
---===============5110492147400950097==
+--===============6823142191350397230==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/andy/linux-auxdisplay
 user: andy
 changes:
-  - ref: refs/heads/fixes
-    old: 3a8660878839faadb4f1a6dd72c3179c1df56787
+  - ref: refs/heads/for-next
+    old: 00de283c53c99690807f5c875f8c715679a560ef
     new: 8f0b4cce4481fb22653697cced8d0d04027cb1e8
-    log: revlist-3a8660878839-8f0b4cce4481.txt
+    log: revlist-00de283c53c9-8f0b4cce4481.txt
 
---===============5110492147400950097==
+--===============6823142191350397230==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3a8660878839-8f0b4cce4481.txt
+Content-Disposition: attachment; filename=revlist-00de283c53c9-8f0b4cce4481.txt
 
 09339d0d83108fd4f59b94677ac99bde870aa0ae l2tp: correct debugfs label for tunnel tx stats
 ea2d3befcf29cca5221d0572d54e4d71b683175d net: dsa: yt921x: Set ageing_time_min/ageing_time_max
@@ -1051,4 +1051,4 @@ cba09e3ed06db4b6c87bc97e0aea080421fb8f7d Merge tag 'perf-urgent-2025-12-12' of g
 6a1636e06625ec0dd7f2b908ab39a8beea24bfd3 Merge tag 'scsi-misc' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
 8f0b4cce4481fb22653697cced8d0d04027cb1e8 Linux 6.19-rc1
 
---===============5110492147400950097==--
+--===============6823142191350397230==--
