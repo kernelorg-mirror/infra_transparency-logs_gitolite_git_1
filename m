@@ -1,51 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============1051990366829867898=="
+Content-Type: multipart/mixed; boundary="===============8549166752836456687=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Mon, 15 Dec 2025 02:19:36 -0000
-Message-Id: <176576517696.3985406.15380647999134210308@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Mon, 15 Dec 2025 02:19:43 -0000
+Message-Id: <176576518360.3985676.9853520511701420061@gitolite.kernel.org>
 
---===============1051990366829867898==
+--===============8549166752836456687==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.20
+  - ref: refs/heads/spi-6.20
     old: 8f0b4cce4481fb22653697cced8d0d04027cb1e8
     new: c20fce4ad137e2150b4b383750f86a36d929e36c
     log: revlist-8f0b4cce4481-c20fce4ad137.txt
 
---===============1051990366829867898==
+--===============8549166752836456687==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1765765173 +0900
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
-nonce 1765765172-1bf016ce867e7c322793016a2ef52dcc4fad7978
+pusher C3F436CA30F5D8EB 1765765181 +0900
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1765765180-c019da9b19917aeac44584e1a8f6a861b89d82c4
 
-8f0b4cce4481fb22653697cced8d0d04027cb1e8 c20fce4ad137e2150b4b383750f86a36d929e36c refs/heads/for-6.20
+8f0b4cce4481fb22653697cced8d0d04027cb1e8 c20fce4ad137e2150b4b383750f86a36d929e36c refs/heads/spi-6.20
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmk/cDUACgkQJNaLcl1U
-h9AcYAf/Vbn8evKBanBENdkAiGKsEoWrFjbEsrLQD2YUat8JeGeziHiCI6oA47oZ
-EtFhPhka49c9wFfP3eWtgS3O065Ghc6ldJY9784wBdpDeTjNHZV/EYnJainfQD8t
-yLnfAGxJDF+da+eHi04gCP5rF1b09z1zn2GpwGiMmmP+nVNF3Sy+P5nWqac9ByjH
-4tb5sq24AbVg9c1cEw9NUyY72QdSfEHilGP4hUWHWebqGkBgc2DBnErXecVyKBzv
-f1bNQGYbrAXbsJFlAGlFA4ykZcF5VtLy+eET0W7lSAv9seYKoWy5b/9veK5VqrTs
-L+NXJUOxZ8QIzOHQYgNyAkXlpgtWVA==
-=KaZP
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmk/cD0ACgkQJNaLcl1U
+h9C+lwf+KUDb5NvJp0HAUZx+YH4DjflzyZq91BXH13vHtw6RX4FWtHpz7DmTEDNx
+08c9URPpWgd4diy1qL1etK1ncEt1FTMzNzo6ok2sHYTpYr++LDVHi6fodNtltdzN
+EPGqJgj8ZKDePVFPeCs6Msw2/3yvu5QPh0aJYlbXdXtKXWXnZzcdYM7u9VIMnfxk
+EvXq0LN0CKwxAMa5LvG0HOFQeZ9IqBTIdjCaXh/v9tD6Uab9a+IwbewBbuzWKTKi
+bRzlgTjFWwb/LyE7xb4RcDppz4abeHfXqMmBxUBnONOWMJZ+Ba6BZCmVfb9WE6RY
+fjqAD1C2VTfOLCB8J4571rDYLAOTzA==
+=nnWx
 -----END PGP SIGNATURE-----
 
---===============1051990366829867898==
+--===============8549166752836456687==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -92,4 +92,4 @@ b884e34994ca41f7b7819f3c41b78ff494787b27 spi: spi-fsl-lpspi: convert min_t() to 
 c73618541c68f4b3c9b40de3a0f926447a9a9e72 Support ECSPI dynamic burst feature for DMA mode
 c20fce4ad137e2150b4b383750f86a36d929e36c Add DMA support for RZ/T2H RSPI
 
---===============1051990366829867898==--
+--===============8549166752836456687==--
