@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7286518125975788135=="
+Content-Type: multipart/mixed; boundary="===============4291888091961566557=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/remoteproc/linux
-Date: Mon, 15 Dec 2025 02:37:35 -0000
-Message-Id: <176576625508.4003083.3836988088368774655@gitolite.kernel.org>
+Date: Mon, 15 Dec 2025 02:38:30 -0000
+Message-Id: <176576631073.4003818.4155628414392807589@gitolite.kernel.org>
 
---===============7286518125975788135==
+--===============4291888091961566557==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,19 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/remoteproc/linux
 user: mjp
 changes:
-  - ref: refs/heads/rproc-next
-    old: 641092c1bc1bbc3be059d9d723b1cec10a368617
-    new: 4200f873c4c4c35befca288fd299a41f9544cece
-    log: revlist-641092c1bc1b-4200f873c4c4.txt
+  - ref: refs/heads/rpmsg-next
+    old: 112766cdf2e5ea0a0f72b0304d57a6f74c066670
+    new: 42023d4b6d2661a40ee2dcf7e1a3528a35c638ca
+    log: revlist-112766cdf2e5-42023d4b6d26.txt
 
---===============7286518125975788135==
+--===============4291888091961566557==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-641092c1bc1b-4200f873c4c4.txt
+Content-Disposition: attachment; filename=revlist-112766cdf2e5-42023d4b6d26.txt
 
+e3b8cbf40c6e60a7a935bd8980884d5741a7a77b selftests: netconsole: remove log noise due to socat exit
+33b4c26d4d3ccd24d9721a577671f2c73c1a7cd9 x86/platform: Fix and extend kernel-doc comments in <asm/x86_init.h>
 1dd6c84f1c544e552848a8968599220bd464e338 sched_ext: Fix incorrect sched_class settings for per-cpu migration tasks
 484f1176896e85b5ae4f04403c8cd5b79aced95e Bluetooth: mediatek: add gpio pin to reset bt
 01622e9a5336015f657df423b700e488fbcd2f39 Bluetooth: hci_h5: avoid sending two SYNC messages
@@ -1046,9 +1048,7 @@ cba09e3ed06db4b6c87bc97e0aea080421fb8f7d Merge tag 'perf-urgent-2025-12-12' of g
 0dfb36b2dcb666f116ba314e631bd3bc632c44d1 Merge tag 'ceph-for-6.19-rc1' of https://github.com/ceph/ceph-client
 6a1636e06625ec0dd7f2b908ab39a8beea24bfd3 Merge tag 'scsi-misc' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
 8f0b4cce4481fb22653697cced8d0d04027cb1e8 Linux 6.19-rc1
-70eaa8efaa4c6f5196c4151f865d29c5ec3e5004 dt-bindings: remoteproc: Fix dead link to Keystone DSP GPIO binding
-d62e0e92e589c53c4320ed5914af5fe103f5ce7e remoteproc: imx_dsp_rproc: Skip RP_MBOX_SUSPEND_SYSTEM when mailbox TX channel is uninitialized
-424f22b48ca38f2071c9dab6ac733f79542c98c5 remoteproc: imx_dsp_rproc: Rename macro to reflect multiple contexts
-4200f873c4c4c35befca288fd299a41f9544cece remoteproc: imx_dsp_rproc: Wait for suspend ACK only if WAIT_FW_CONFIRMATION is set
+c38d8b66c82c585199e2ad67282295f21cfa489f rpmsg: virtio: EPOLLOUT support
+42023d4b6d2661a40ee2dcf7e1a3528a35c638ca rpmsg: core: fix race in driver_override_show() and use core helper
 
---===============7286518125975788135==--
+--===============4291888091961566557==--
