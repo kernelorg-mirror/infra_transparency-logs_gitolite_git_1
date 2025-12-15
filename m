@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4291888091961566557=="
+Content-Type: multipart/mixed; boundary="===============5808897953102991389=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/remoteproc/linux
-Date: Mon, 15 Dec 2025 02:38:30 -0000
-Message-Id: <176576631073.4003818.4155628414392807589@gitolite.kernel.org>
+Date: Mon, 15 Dec 2025 02:53:12 -0000
+Message-Id: <176576719202.4017402.1164038577107683514@gitolite.kernel.org>
 
---===============4291888091961566557==
+--===============5808897953102991389==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,22 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/remoteproc/linux
 user: mjp
 changes:
-  - ref: refs/heads/rpmsg-next
-    old: 112766cdf2e5ea0a0f72b0304d57a6f74c066670
-    new: 42023d4b6d2661a40ee2dcf7e1a3528a35c638ca
-    log: revlist-112766cdf2e5-42023d4b6d26.txt
+  - ref: refs/heads/for-next
+    old: f1f6eaa1e5450bba4458b9297271280edbe93c5f
+    new: 6a95c70e60a03d83b31b855ce9af8cf6aeec7f90
+    log: revlist-f1f6eaa1e545-6a95c70e60a0.txt
 
---===============4291888091961566557==
+--===============5808897953102991389==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-112766cdf2e5-42023d4b6d26.txt
+Content-Disposition: attachment; filename=revlist-f1f6eaa1e545-6a95c70e60a0.txt
 
-e3b8cbf40c6e60a7a935bd8980884d5741a7a77b selftests: netconsole: remove log noise due to socat exit
-33b4c26d4d3ccd24d9721a577671f2c73c1a7cd9 x86/platform: Fix and extend kernel-doc comments in <asm/x86_init.h>
-1dd6c84f1c544e552848a8968599220bd464e338 sched_ext: Fix incorrect sched_class settings for per-cpu migration tasks
-484f1176896e85b5ae4f04403c8cd5b79aced95e Bluetooth: mediatek: add gpio pin to reset bt
-01622e9a5336015f657df423b700e488fbcd2f39 Bluetooth: hci_h5: avoid sending two SYNC messages
 97fdb2ea06efdde784480934d1ff60eb21e88b58 Bluetooth: hci_h5: implement CRC data integrity
 33b2835f0b7e2a458473b0e3a23b54b92108b6b0 Bluetooth: HCI: Add initial support for PAST
 c530569adc19b5f0c62955de41f067bad34e3fe0 Bluetooth: hci_core: Introduce HCI_CONN_FLAG_PAST
@@ -1050,5 +1045,10 @@ cba09e3ed06db4b6c87bc97e0aea080421fb8f7d Merge tag 'perf-urgent-2025-12-12' of g
 8f0b4cce4481fb22653697cced8d0d04027cb1e8 Linux 6.19-rc1
 c38d8b66c82c585199e2ad67282295f21cfa489f rpmsg: virtio: EPOLLOUT support
 42023d4b6d2661a40ee2dcf7e1a3528a35c638ca rpmsg: core: fix race in driver_override_show() and use core helper
+70eaa8efaa4c6f5196c4151f865d29c5ec3e5004 dt-bindings: remoteproc: Fix dead link to Keystone DSP GPIO binding
+d62e0e92e589c53c4320ed5914af5fe103f5ce7e remoteproc: imx_dsp_rproc: Skip RP_MBOX_SUSPEND_SYSTEM when mailbox TX channel is uninitialized
+424f22b48ca38f2071c9dab6ac733f79542c98c5 remoteproc: imx_dsp_rproc: Rename macro to reflect multiple contexts
+4200f873c4c4c35befca288fd299a41f9544cece remoteproc: imx_dsp_rproc: Wait for suspend ACK only if WAIT_FW_CONFIRMATION is set
+6a95c70e60a03d83b31b855ce9af8cf6aeec7f90 Merge branches 'rproc-next' and 'rpmsg-next' into for-next
 
---===============4291888091961566557==--
+--===============5808897953102991389==--
