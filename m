@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4430687538447565442=="
+Content-Type: multipart/mixed; boundary="===============7059016744261864275=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sudeep.holla/linux
-Date: Mon, 15 Dec 2025 10:42:32 -0000
-Message-Id: <176579535207.316592.17359505740809158401@gitolite.kernel.org>
+Date: Mon, 15 Dec 2025 10:44:13 -0000
+Message-Id: <176579545314.317831.3370909043716626706@gitolite.kernel.org>
 
---===============4430687538447565442==
+--===============7059016744261864275==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,25 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sudeep.holla/linux
 user: sudeep.holla
 changes:
-  - ref: refs/heads/for-next/smccc/updates
-    old: 7d0a66e4bb9081d75c82ec4957c50034cb0ea449
-    new: 8f0b4cce4481fb22653697cced8d0d04027cb1e8
-    log: revlist-7d0a66e4bb90-8f0b4cce4481.txt
+  - ref: refs/heads/for-linux-next
+    old: e5db90f4c044fab4073686e80c463b32e4770aa3
+    new: 334c3c2d5f66709d814fed7e315132104e4d702e
+    log: revlist-e5db90f4c044-334c3c2d5f66.txt
 
---===============4430687538447565442==
+--===============7059016744261864275==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7d0a66e4bb90-8f0b4cce4481.txt
+Content-Disposition: attachment; filename=revlist-e5db90f4c044-334c3c2d5f66.txt
 
-09339d0d83108fd4f59b94677ac99bde870aa0ae l2tp: correct debugfs label for tunnel tx stats
-ea2d3befcf29cca5221d0572d54e4d71b683175d net: dsa: yt921x: Set ageing_time_min/ageing_time_max
-e3b8cbf40c6e60a7a935bd8980884d5741a7a77b selftests: netconsole: remove log noise due to socat exit
-33b4c26d4d3ccd24d9721a577671f2c73c1a7cd9 x86/platform: Fix and extend kernel-doc comments in <asm/x86_init.h>
-1dd6c84f1c544e552848a8968599220bd464e338 sched_ext: Fix incorrect sched_class settings for per-cpu migration tasks
-484f1176896e85b5ae4f04403c8cd5b79aced95e Bluetooth: mediatek: add gpio pin to reset bt
-01622e9a5336015f657df423b700e488fbcd2f39 Bluetooth: hci_h5: avoid sending two SYNC messages
-97fdb2ea06efdde784480934d1ff60eb21e88b58 Bluetooth: hci_h5: implement CRC data integrity
 33b2835f0b7e2a458473b0e3a23b54b92108b6b0 Bluetooth: HCI: Add initial support for PAST
 c530569adc19b5f0c62955de41f067bad34e3fe0 Bluetooth: hci_core: Introduce HCI_CONN_FLAG_PAST
 d3413703d5f8b7d1e6f514f9440ed5da1bc30796 Bluetooth: ISO: Add support to bind to trigger PAST
@@ -1050,5 +1042,13 @@ cba09e3ed06db4b6c87bc97e0aea080421fb8f7d Merge tag 'perf-urgent-2025-12-12' of g
 0dfb36b2dcb666f116ba314e631bd3bc632c44d1 Merge tag 'ceph-for-6.19-rc1' of https://github.com/ceph/ceph-client
 6a1636e06625ec0dd7f2b908ab39a8beea24bfd3 Merge tag 'scsi-misc' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
 8f0b4cce4481fb22653697cced8d0d04027cb1e8 Linux 6.19-rc1
+9fda364cb78c8b9e1abe4029f877300c94655742 firmware: arm_ffa: Unmap Rx/Tx buffers on init failure
+f183b1dda4fc0348c4016f6289588d5853ab7936 firmware: arm_ffa: Tie FF-A version checks to specific features
+78b74136affd7aabb7a578b86e26099872861841 firmware: arm_scmi: Fix uninitialized pointers with __free attr
+e4700124fe9a2cbde62e0c206bb7eaf0e2847db8 firmware: arm_scmi: Refactor reset domain handling
+9c845ea9b7c6c6a6a0749f18418c5a23acb1799d firmware: arm_scmi: Move boiler plate code into the get info functions
+5796732bb523787bf2c23dd0323f88ad91f5f904 firmware: arm_scmi: Increase performance MAX_OPPS limit to 64
+01a23e376e2afd578c5ecb8c8263e107de3240b9 arm64: dts: morello: Add CMN PMU
+334c3c2d5f66709d814fed7e315132104e4d702e Merge branches 'for-next/juno/updates', 'for-next/ffa/updates' and 'for-next/scmi/updates' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/sudeep.holla/linux into for-linux-next
 
---===============4430687538447565442==--
+--===============7059016744261864275==--
