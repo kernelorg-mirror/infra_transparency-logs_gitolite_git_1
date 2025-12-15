@@ -1,61 +1,61 @@
-Content-Type: multipart/mixed; boundary="===============5945899521725309723=="
+Content-Type: multipart/mixed; boundary="===============2414445816380783470=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux-mem-ctrl
-Date: Mon, 15 Dec 2025 16:09:48 -0000
-Message-Id: <176581498888.648744.17159461740133447095@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pinctrl/samsung
+Date: Mon, 15 Dec 2025 16:10:07 -0000
+Message-Id: <176581500751.651250.17596288999668448398@gitolite.kernel.org>
 
---===============5945899521725309723==
+--===============2414445816380783470==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/krzk/linux-mem-ctrl
+repo: pub/scm/linux/kernel/git/pinctrl/samsung
 user: krzk
 git_push_cert_status: Y
 changes:
-  - ref: refs/heads/for-next
-    old: 84ac371ee4b33158b44d43855aebf432352ca919
+  - ref: refs/heads/fixes
+    old: 3a8660878839faadb4f1a6dd72c3179c1df56787
     new: 8f0b4cce4481fb22653697cced8d0d04027cb1e8
-    log: revlist-84ac371ee4b3-8f0b4cce4481.txt
+    log: revlist-3a8660878839-8f0b4cce4481.txt
 
---===============5945899521725309723==
+--===============2414445816380783470==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher krzk@kernel.org 1765814986 +0100
-pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux-mem-ctrl.git
-nonce 1765814985-9b8cba1752304fa0ef4f80f07430a28045d651ca
+pusher krzk@kernel.org 1765815005 +0100
+pushee kernel.org:/pub/scm/linux/kernel/git/pinctrl/samsung.git
+nonce 1765815004-986ef21dc96b0e2e1afd734ad6be10b293519e27
 
-84ac371ee4b33158b44d43855aebf432352ca919 8f0b4cce4481fb22653697cced8d0d04027cb1e8 refs/heads/for-next
+3a8660878839faadb4f1a6dd72c3179c1df56787 8f0b4cce4481fb22653697cced8d0d04027cb1e8 refs/heads/fixes
 -----BEGIN PGP SIGNATURE-----
 
-iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmlAMsoQHGtyemtAa2Vy
-bmVsLm9yZwAKCRDBN2bmhouD19rED/9Lx/6Ly6ueraNTAuupWWm/zBbp6xFAkpxU
-tNmC4UdeJSsqrtmq3tyBmEJctnUNQeTJAhXeKuoueWfloQOwPLb8Mya1VaDK8gDN
-6imTw1PNbzRW8Isu2dMLTk2DH/T4ywrblAIKGaJPJtcrVzF7R8HyKChnFuzja0d8
-K8G2DyWjzCDtkvDimRPAMqnkOGJ6xJijfNIkxeYOLfjGwjy5YexmkOuwJo2dk/nO
-GyKa8aU378CWL/GWgrlR6D3FETvUvmh5B8JqS3bJcpRuw8nJZdhIMIt80guqjZog
-t/lbQflxrUcxQCEr4poykXIhNx22upSBf21b+HsDXN9txQkefSwKUj089WWtnkbH
-Z/GeUVg6ghxaNxbePIC1++ZFMore+OSwDTpvN3GyzjAsF3MuukV1ZZZcLi1J4BzM
-Vla5yLLZF3FNSQGfl/qdZ1r1JCP8MUMdReNGFCSoT3PWIIDh9oO/eDf/t1jD2uOI
-L0shS7eP102F6mfnQ5MAaTWPjhJKMv7jmZS46o94aVp2UrEqwvJ06RJI14+a4oIh
-g8aCkaHlqnV4QALKis1vP+xIDZF8PntXnBH6epJBEKQhqpCBGSK4JQuyuz/DZ3VP
-dxhixWTe0gEER92PyIN+LSyj12X2S9/P4j6cY/rTYblJe/9k5jXM3U+F1Q8DRyW+
-3YMTuyfI9A==
-=bzia
+iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmlAMt0QHGtyemtAa2Vy
+bmVsLm9yZwAKCRDBN2bmhouD1/vjD/9IcHh958Qe9jAovVUsz7kNAVhfPYxbCjiX
+MJfwZlnpVaJkLGSF6TDv37v/TqC6UBGHVXAfIs36QzfpyNlb0iViPKfYKGynwKJ4
+q451BbQsURREuj6JhibGJ2PXVCsu9jamqY7kPMjT4cMEBVyKp3ZyQQoFw90g02Nr
+ToXTooyNwQ145ZjwbOIyJMq2/b6s+ImZTx+XQHgPYJwzM9Qq5pUCm6jd4HbnzVK1
+wwXIt1OY/myZkjie+7Ct2WbXKt3oko/sMMp2s1Ze1wDKMNlKDqVTa0RdHeFGTLzG
+wl0aqls0ZHz8p4zb9uXsrZdnnfJZTpM8O62+W2srp0vLAyhXEuJ9Mnn6wPq+V0Cn
+xPDEYwdLpIzIsI9bj7nyh/NYEJmMFezvArYR7DU9EK/1iEUK6BrboPyCgm4L/fYq
+3GB9gsB5m95XVfVM83DSNIsvVRsGaz6lEPfEfJQCWKfwU0ovgqNJPVq/hR5+SaUV
+n/s52vTiCoO9vKztRRPxePLWXiB7CmtQ3gLFze4c6aOUu4hotyUMPRXg4J/gio/E
++tkm6G3eCAMhJIb4XNWNn3rxnC8tImld+hetKKLsV3W9yvd+JVi3qmEQMb//w75b
+SXZZf8z4vnp8V0g4o3xxJ2pJf/cimOQJJCRokc26PXLaGygJ6Yz2lBpU92mktCfU
+9nCqfR4zlQ==
+=hjjl
 -----END PGP SIGNATURE-----
 
---===============5945899521725309723==
+--===============2414445816380783470==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-84ac371ee4b3-8f0b4cce4481.txt
+Content-Disposition: attachment; filename=revlist-3a8660878839-8f0b4cce4481.txt
 
 09339d0d83108fd4f59b94677ac99bde870aa0ae l2tp: correct debugfs label for tunnel tx stats
 ea2d3befcf29cca5221d0572d54e4d71b683175d net: dsa: yt921x: Set ageing_time_min/ageing_time_max
@@ -1082,4 +1082,4 @@ cba09e3ed06db4b6c87bc97e0aea080421fb8f7d Merge tag 'perf-urgent-2025-12-12' of g
 6a1636e06625ec0dd7f2b908ab39a8beea24bfd3 Merge tag 'scsi-misc' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
 8f0b4cce4481fb22653697cced8d0d04027cb1e8 Linux 6.19-rc1
 
---===============5945899521725309723==--
+--===============2414445816380783470==--
