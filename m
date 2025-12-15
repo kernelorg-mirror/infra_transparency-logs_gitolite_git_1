@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6929966797090206589=="
+Content-Type: multipart/mixed; boundary="===============0429807639261864191=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/livepatching/livepatching
-Date: Mon, 15 Dec 2025 14:02:37 -0000
-Message-Id: <176580735722.519288.8742077409849724806@gitolite.kernel.org>
+Date: Mon, 15 Dec 2025 14:03:20 -0000
+Message-Id: <176580740054.519757.7076486590095481003@gitolite.kernel.org>
 
---===============6929966797090206589==
+--===============0429807639261864191==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/livepatching/livepatching
 user: pmladek
 changes:
-  - ref: refs/heads/master
-    old: dcf9f31c62b3d31c033ee5bce522855c3d7f56b1
+  - ref: refs/heads/for-next
+    old: 5cb5575308bce9d63178fe943bf89c520a348808
     new: 51ab33fc0a8bef9454849371ef897a1241911b37
-    log: revlist-dcf9f31c62b3-51ab33fc0a8b.txt
+    log: revlist-5cb5575308bc-51ab33fc0a8b.txt
 
---===============6929966797090206589==
+--===============0429807639261864191==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-dcf9f31c62b3-51ab33fc0a8b.txt
+Content-Disposition: attachment; filename=revlist-5cb5575308bc-51ab33fc0a8b.txt
 
 39231e8d6ba7f794b566fd91ebd88c0834a23b98 mm: fix MAX_FOLIO_ORDER on powerpc configs with hugetlb
 00fbff75c5acb4755f06f08bd1071879c63940c5 crash: fix crashkernel resource shrink
@@ -1051,4 +1051,4 @@ b687034b1a4d85333ced0fe07f67b17276cccdc8 Merge tag 'slab-for-6.19' of git://git.
 02baaa67d9afc2e56c6e1ac6a1fb1f1dd2be366f Merge tag 'sched_ext-for-6.19' of git://git.kernel.org/pub/scm/linux/kernel/git/tj/sched_ext
 51ab33fc0a8bef9454849371ef897a1241911b37 Merge tag 'livepatching-for-6.19' of git://git.kernel.org/pub/scm/linux/kernel/git/livepatching/livepatching
 
---===============6929966797090206589==--
+--===============0429807639261864191==--
