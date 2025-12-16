@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/niks/linux
-Date: Tue, 16 Dec 2025 23:09:30 -0000
-Message-Id: <176592657045.2514929.14685832893874673476@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/sysdarch
+Date: Tue, 16 Dec 2025 23:15:41 -0000
+Message-Id: <176592694118.2522377.2091617691115969701@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/niks/linux
-user: niks
+repo: pub/scm/linux/kernel/git/jarkko/sysdarch
+user: jarkko
 changes:
-  - ref: refs/tags/sent/20250923-uid_slot-e3559cf5ca30-v4
-    old: 0000000000000000000000000000000000000000
-    new: aee1cbcd6c3127aa7d4a0c883308b2409feaacb6
+  - ref: refs/heads/main
+    old: fcd8d63f3fc184de975accd080132f21936806be
+    new: f217fa96dec6aa6d12802b9e31c82ea0cd2af9da
+    log: |
+         f217fa96dec6aa6d12802b9e31c82ea0cd2af9da Add Niri Wayland compositor and its dependencies
+         
