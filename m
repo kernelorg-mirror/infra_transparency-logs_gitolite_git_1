@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0928073764510615439=="
+Content-Type: multipart/mixed; boundary="===============3429957431780744264=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/qcom/linux
-Date: Tue, 16 Dec 2025 23:18:45 -0000
-Message-Id: <176592712514.2524117.8746651749801795529@gitolite.kernel.org>
+Date: Tue, 16 Dec 2025 23:18:57 -0000
+Message-Id: <176592713785.2524600.4988620338625154942@gitolite.kernel.org>
 
---===============0928073764510615439==
+--===============3429957431780744264==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/qcom/linux
 user: andersson
 changes:
-  - ref: refs/heads/arm64-fixes-for-6.19
-    old: 825db404fbed0580deb19f587d69b9f75980055a
+  - ref: refs/heads/arm32-fixes-for-6.19
+    old: ce1799781200529149cc9e013ae1fdd6eb04b2b5
     new: 8f0b4cce4481fb22653697cced8d0d04027cb1e8
-    log: revlist-825db404fbed-8f0b4cce4481.txt
+    log: revlist-ce1799781200-8f0b4cce4481.txt
 
---===============0928073764510615439==
+--===============3429957431780744264==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-825db404fbed-8f0b4cce4481.txt
+Content-Disposition: attachment; filename=revlist-ce1799781200-8f0b4cce4481.txt
 
 09339d0d83108fd4f59b94677ac99bde870aa0ae l2tp: correct debugfs label for tunnel tx stats
 ea2d3befcf29cca5221d0572d54e4d71b683175d net: dsa: yt921x: Set ageing_time_min/ageing_time_max
@@ -1051,4 +1051,4 @@ cba09e3ed06db4b6c87bc97e0aea080421fb8f7d Merge tag 'perf-urgent-2025-12-12' of g
 6a1636e06625ec0dd7f2b908ab39a8beea24bfd3 Merge tag 'scsi-misc' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
 8f0b4cce4481fb22653697cced8d0d04027cb1e8 Linux 6.19-rc1
 
---===============0928073764510615439==--
+--===============3429957431780744264==--
