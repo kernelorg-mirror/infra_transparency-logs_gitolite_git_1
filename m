@@ -1,66 +1,58 @@
-Content-Type: multipart/mixed; boundary="===============0690309741003896366=="
+Content-Type: multipart/mixed; boundary="===============7769380405755719198=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux
-Date: Tue, 16 Dec 2025 07:05:13 -0000
-Message-Id: <176586871329.1518002.4162662511207421590@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux-mem-ctrl
+Date: Tue, 16 Dec 2025 07:21:49 -0000
+Message-Id: <176586970935.1532576.13240140964832344095@gitolite.kernel.org>
 
---===============0690309741003896366==
+--===============7769380405755719198==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/krzk/linux
+repo: pub/scm/linux/kernel/git/krzk/linux-mem-ctrl
 user: krzk
 git_push_cert_status: Y
 changes:
-  - ref: refs/heads/for-next
-    old: 569c6e4391f35b560ac9b4fab764fd0bf442c86c
-    new: cb4cfbcf27641ea87c18f5a72b93fc3748f03bc3
+  - ref: refs/heads/mem-ctrl-next
+    old: 8f0b4cce4481fb22653697cced8d0d04027cb1e8
+    new: 78da7027e2a99edea0d7e97b25d75be4698a8728
     log: |
-         411727d9182d7a067fdd16a125d2069f52e8bb7f dt-bindings: soc: samsung: exynos-pmu: remove syscon for google,gs101-pmu
-         a21d38b5e209c60e73f81e467cc53ad57b5d4080 arm64: dts: exynos: gs101: remove syscon compatible from pmu node
-         cb4cfbcf27641ea87c18f5a72b93fc3748f03bc3 Merge branch 'next/dt64' into for-next
-         
-  - ref: refs/heads/next/dt64
-    old: d45eafec01fa31fb9ab30902de35fbbe70f63411
-    new: a21d38b5e209c60e73f81e467cc53ad57b5d4080
-    log: |
-         411727d9182d7a067fdd16a125d2069f52e8bb7f dt-bindings: soc: samsung: exynos-pmu: remove syscon for google,gs101-pmu
-         a21d38b5e209c60e73f81e467cc53ad57b5d4080 arm64: dts: exynos: gs101: remove syscon compatible from pmu node
+         6cfa038bddd710f544076ea2ef7792fc82fbedd6 memory: mtk-smi: fix device leaks on common probe
+         9dae65913b32d05dbc8ff4b8a6bf04a0e49a8eb6 memory: mtk-smi: fix device leak on larb probe
+         78da7027e2a99edea0d7e97b25d75be4698a8728 memory: mtk-smi: clean up device link creation
          
 
---===============0690309741003896366==
+--===============7769380405755719198==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher krzk@kernel.org 1765868711 +0100
-pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux.git
-nonce 1765868710-39a30a76c0db7eaa0a3116dee5113089bf4f3d15
+pusher krzk@kernel.org 1765869707 +0100
+pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux-mem-ctrl.git
+nonce 1765869707-95e995e81142a93055286c458ab5954a5fe299e2
 
-569c6e4391f35b560ac9b4fab764fd0bf442c86c cb4cfbcf27641ea87c18f5a72b93fc3748f03bc3 refs/heads/for-next
-d45eafec01fa31fb9ab30902de35fbbe70f63411 a21d38b5e209c60e73f81e467cc53ad57b5d4080 refs/heads/next/dt64
+8f0b4cce4481fb22653697cced8d0d04027cb1e8 78da7027e2a99edea0d7e97b25d75be4698a8728 refs/heads/mem-ctrl-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmlBBKcQHGtyemtAa2Vy
-bmVsLm9yZwAKCRDBN2bmhouD160rD/9yQETsHwdFo//zXLYJ1sgl2ewFv+WPY3Wh
-IasZQXeZZebODHYuixc+26+A4FrEYEwYFM8E/sM3tfoBRr84K1EwEvLAX+gxhRZp
-s4gHqCt0K1mmWqSKWyqT5bY8yUVQ0wEom/VQMk0MMWRO1sHOkV91dlO9r2k3tq5D
-W/qy4c21b23AzlqU+HzxpJ0kl6EoMcyR+SlcPsTjMZ4Xkwby/vJTorQwEgJoCj3A
-vkYsCiWTfa6Ncy/NRD6I5Znc6RbwzUdXJlgFq+O8aD05chHJV2HPog5VL9d/w8pl
-DOwAWC7caMgALHFSi474h3XXS4RYgWcEtRxi6Fh+DQordMNJAkRRyPbZpN0BSRLt
-YXcit0wIZCOiQlEAjW9dEcyProSSu8mhKHXdxOneZJnFzIxOrofJ8xZ+HYUrH4jw
-FtqJqLikervlgaAwjMIpSdOdEhtc9BzL3aGPrsz3LsA7xOeGGvmg/6v0T6q4sdlv
-LDhCOb7hhCPIiLyYqcVCNdhIkyV9dH3LIE1FAme4BosR1y5F3sC/uOv+JLZpGd2Y
-AzmbAhe/g3B1BwRDp3qfFnG3oxa3u1Hbvm867Cr+hNeP8I5Y1dDGS8XxzcElYoNM
-YX4FDU3NixTXLnwXpE1+FbqraYeO4TeKcE6ZdDg7dG5Z5C7e1v8BjXCQwtBsQah9
-1kdoXfExSQ==
-=5Rqm
+iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmlBCIsQHGtyemtAa2Vy
+bmVsLm9yZwAKCRDBN2bmhouD11CPEACNhovpBpD57ozsyjMQkJz7p7EwUnQdy6Vm
+soW4LE95uwO+jJrui5cXICafhAro8OQrdQTjU1/X2agOQkWtFEC63ft9kcif8anC
+MvRUcdDvUtMVCM2YWWPzo+UOYiRp/df6AU2IR3tJ0NRf5ij1eCFLVdAkOEbT7C9S
+MONtA6IQ5zcpZTGbB5U+15dTo7cM06/gK6tnkdFEAUISydltSRBHBUs8jOOVRDOi
+K1+M0VMgAvu8RBAYNo+aeNvGyJZrScZuMxwUiJO6T7pseiKXPgocfj1qDYZBIjeH
+shI0qu4Z/bHDcQI3QJk+/G5P9Tpac2uj3hfUEMN/xO8ATmB8Mrv3T5rXC3J/WLqY
+0Ahy1gazYqAxexSmybrWXTuqDWWIQRiT9+e2LfY9X2T2htQGmEcEC+WUz/OomhYp
+Xe5Z66UJfHuYZkshJ1oKeeW13huWgblK/yjU2w1rXu75Eq+Fddx2eH6Jx/rPrtFA
+pSG1ZueLPGFp+1aKgslvliF+VJfm0SSiJJiHOna/u3HEif3bf/mQ9OaqigcoM6Pr
+wQIwMQoDINMVLb/GRSG3p3C9C8aYd8UicuHgS2SX0brk6QlIsFF9kbURtUW9XPNp
+azF8FktZC4CGDkQe+ek/8j84w807qmrrvK6zJagNy2r1kmlsh7xIVSbPR5rswyUA
+tHLUjr8gMQ==
+=bAfE
 -----END PGP SIGNATURE-----
 
---===============0690309741003896366==--
+--===============7769380405755719198==--
