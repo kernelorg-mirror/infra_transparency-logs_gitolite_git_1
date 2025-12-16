@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3470686992557770477=="
+Content-Type: multipart/mixed; boundary="===============9052780548306981019=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs
-Date: Tue, 16 Dec 2025 00:46:27 -0000
-Message-Id: <176584598702.1148101.9118373027895123245@gitolite.kernel.org>
+Date: Tue, 16 Dec 2025 00:46:41 -0000
+Message-Id: <176584600164.1148414.10328442016975888111@gitolite.kernel.org>
 
---===============3470686992557770477==
+--===============9052780548306981019==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jaegeuk/f2fs
 user: jaegeuk
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/dev
     old: cb015814f8b6eebcbb8e46e111d108892c5e6821
     new: 8f0b4cce4481fb22653697cced8d0d04027cb1e8
     log: revlist-cb015814f8b6-8f0b4cce4481.txt
 
---===============3470686992557770477==
+--===============9052780548306981019==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -564,4 +564,4 @@ cba09e3ed06db4b6c87bc97e0aea080421fb8f7d Merge tag 'perf-urgent-2025-12-12' of g
 6a1636e06625ec0dd7f2b908ab39a8beea24bfd3 Merge tag 'scsi-misc' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
 8f0b4cce4481fb22653697cced8d0d04027cb1e8 Linux 6.19-rc1
 
---===============3470686992557770477==--
+--===============9052780548306981019==--
