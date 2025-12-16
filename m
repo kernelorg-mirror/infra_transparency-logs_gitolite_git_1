@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6761377355405418824=="
+Content-Type: multipart/mixed; boundary="===============1987286715606903613=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
-Date: Tue, 16 Dec 2025 09:46:41 -0000
-Message-Id: <176587840129.1674717.7291652577794253492@gitolite.kernel.org>
+Date: Tue, 16 Dec 2025 09:46:53 -0000
+Message-Id: <176587841325.1674974.7896681635329651258@gitolite.kernel.org>
 
---===============6761377355405418824==
+--===============1987286715606903613==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,35 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/peterz/queue
 user: peterz
 changes:
-  - ref: refs/heads/sched/core
-    old: d05d1e9f61b3c909fa4ee1f73f23f1b71d322082
-    new: aec6349284a09b78d1b0e06a36415c13be84adc2
-    log: revlist-d05d1e9f61b3-aec6349284a0.txt
+  - ref: refs/heads/locking/core
+    old: e7194ffe9a0411122980b031c0bbb455a5106266
+    new: bbffbd42396e8784f54573af1e9e6fe7e80ae45e
+    log: revlist-e7194ffe9a04-bbffbd42396e.txt
 
---===============6761377355405418824==
+--===============1987286715606903613==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d05d1e9f61b3-aec6349284a0.txt
+Content-Disposition: attachment; filename=revlist-e7194ffe9a04-bbffbd42396e.txt
 
+33b4c26d4d3ccd24d9721a577671f2c73c1a7cd9 x86/platform: Fix and extend kernel-doc comments in <asm/x86_init.h>
+1dd6c84f1c544e552848a8968599220bd464e338 sched_ext: Fix incorrect sched_class settings for per-cpu migration tasks
+484f1176896e85b5ae4f04403c8cd5b79aced95e Bluetooth: mediatek: add gpio pin to reset bt
+01622e9a5336015f657df423b700e488fbcd2f39 Bluetooth: hci_h5: avoid sending two SYNC messages
+97fdb2ea06efdde784480934d1ff60eb21e88b58 Bluetooth: hci_h5: implement CRC data integrity
+33b2835f0b7e2a458473b0e3a23b54b92108b6b0 Bluetooth: HCI: Add initial support for PAST
+c530569adc19b5f0c62955de41f067bad34e3fe0 Bluetooth: hci_core: Introduce HCI_CONN_FLAG_PAST
+d3413703d5f8b7d1e6f514f9440ed5da1bc30796 Bluetooth: ISO: Add support to bind to trigger PAST
+14b06c3a88f7031d64fbce197fad1d400e507663 Bluetooth: HCI: Always use the identity address when initializing a connection
+f817db10dc80d5d1eece60d93eba11062afe5154 Bluetooth: ISO: Attempt to resolve broadcast address
+a3b76bf4c4c90994248e3211b300d2d9834874f9 Bluetooth: MGMT: Allow use of Set Device Flags without Add Device
+577cf4c0a1e8471a0d6c0f36bb3716285e27ad5e Bluetooth: ISO: Fix not updating BIS sender source address
+c126f98c011f5796ba118ef2093122d02809d30d Bluetooth: btusb: MT7920: Add VID/PID 0489/e135
+5a6700a31c953af9a17a7e2681335f31d922614d Bluetooth: btusb: MT7922: Add VID/PID 0489/e170
+1fb0d830dab89d0dc99bb84a7087b0ceca63d2d8 Bluetooth: btintel_pcie: Support for S4 (Hibernate)
+88c6216a52ea592ec351dddd042ecb0247325be5 Bluetooth: btintel_pcie: Suspend/Resume: Controller doorbell interrupt handling
+8dbbb5423c0802ec21266765de80fd491868fab1 Bluetooth: btusb: Add new VID/PID 2b89/6275 for RTL8761BUV
+0b00bee940cb16bfd42e764465705dbf2a95b55c Bluetooth: btusb: Reclassify Qualcomm WCN6855 debug packets
 73d2d709cc172da53402c9b2ead39bebc774ea16 dt-bindings: net: Convert Marvell 8897/8997 bindings to DT schema
 b8414ba5a0e66ab0c5203cd015fc2d2948860af3 Bluetooth: Remove redundant pm_runtime_mark_last_busy() calls
 4a23ce935f74d19df48d1906497fad1cef391392 Bluetooth: btrtl: Add the support for RTL8761CUV
@@ -1029,26 +1047,8 @@ cba09e3ed06db4b6c87bc97e0aea080421fb8f7d Merge tag 'perf-urgent-2025-12-12' of g
 0dfb36b2dcb666f116ba314e631bd3bc632c44d1 Merge tag 'ceph-for-6.19-rc1' of https://github.com/ceph/ceph-client
 6a1636e06625ec0dd7f2b908ab39a8beea24bfd3 Merge tag 'scsi-misc' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
 8f0b4cce4481fb22653697cced8d0d04027cb1e8 Linux 6.19-rc1
-38a68b982dd0b10e3da943f100e034598326eafe <linux/compiler_types.h>: Add the __signed_scalar_typeof() helper
-089d84203ad42bc8fd6dbf41683e162ac6e848cd sched/fair: Fold the sched_avg update
-45e09225085f70b856b7b9f26a18ea767a7e1563 sched/fair: Avoid rq->lock bouncing in sched_balance_newidle()
-f24165bfa7ef6b37856c8f51e2001b9ad10ba688 sched/headers: Rename rcu_dereference_check_sched_domain() => rcu_dereference_sched_domain()
-71fedc41c23b0010c578e6e224694ca15c19cf7d sched/fair: Switch to rcu_dereference_all()
-a03fee333a2f1e065a739bdbe5edbc5512fab9a4 sched/fair: Remove superfluous rcu_read_lock()
-95a0155224a658965f34ed4b1943b238d9be1fea sched/fair: Limit hrtick work
-47efe2ddccb1f285a02bfcf1e079f49bf7a9ccb3 sched/core: Add assertions to QUEUE_CLASS
-2b8c3d3dc9b1ee323e2982945088e3f5eebdf3dd sched/fair: Join two #ifdef CONFIG_FAIR_GROUP_SCHED blocks
-fb9a7458e508ef1beae8d80ee40c2cd1b5b45f3a sched/fair: Clean up comments in 'struct cfs_rq'
-80390ead2080071cbd6f427ff8deb94d10a4a50f sched/fair: Separate se->vlag from se->vprot
-4ff674fa986c27ec8a0542479258c92d361a2566 sched/fair: Rename cfs_rq::avg_load to cfs_rq::sum_weight
-dcbc9d3f0e594223275a18f7016001889ad35eff sched/fair: Rename cfs_rq::avg_vruntime to ::sum_w_vruntime, and helper functions
-5758e48eefaf111d7764d8f1c8b666140fe5fa27 sched/fair: Introduce and use the vruntime_cmp() and vruntime_op() wrappers for wrapped-signed aritmetics
-527a521029c3edd38fb9fc96cd58e3fd7393d28e sched/fair: Sort out 'blocked_load*' namespace noise
-5d1f0b2f278eb55aebe29210fbc8f352c53497d6 sched/core: Rework sched_class::wakeup_preempt() and rq_modified_*()
-650f0268664168353f18d17e659912d3a020af45 sched: fair: drop useless cpumask_empty() in find_energy_efficient_cpu()
-53a0f2733144861e9e30a262481f8cc6a34c543b sched/fair: simplify task_numa_find_cpu()
-23b04b5e7463d7ba90f8a4b0b86f880fd2a055c5 sched/fair: use cpumask_weight_and() in sched_balance_find_dst_group()
-b2af7596d5713e1432f4cb508f63149dd4803aa1 entry: Always inline local_irq_{enable,disable}_exit_to_user()
-aec6349284a09b78d1b0e06a36415c13be84adc2 sched: Reorder some fields in struct rq
+53a175c8d81553f6b76c212e0ce59a39dfef436d test-ww_mutex: Extend ww_mutex tests to test both classes of ww_mutexes
+26612fca5ce791f6c6408ba09d2660e9ced52eed test-ww_mutex: Move work to its own UNBOUND workqueue
+bbffbd42396e8784f54573af1e9e6fe7e80ae45e test-ww_mutex: Allow test to be run (and re-run) from userland
 
---===============6761377355405418824==--
+--===============1987286715606903613==--
