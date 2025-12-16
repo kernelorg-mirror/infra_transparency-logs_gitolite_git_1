@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8428787825745058919=="
+Content-Type: multipart/mixed; boundary="===============0786602227380217967=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/andi.shyti/linux
-Date: Tue, 16 Dec 2025 23:40:57 -0000
-Message-Id: <176592845767.2546330.18293923517539213681@gitolite.kernel.org>
+Date: Tue, 16 Dec 2025 23:41:00 -0000
+Message-Id: <176592846081.2546492.18195344371665124725@gitolite.kernel.org>
 
---===============8428787825745058919==
+--===============0786602227380217967==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,21 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/andi.shyti/linux
 user: andi.shyti
 changes:
-  - ref: refs/heads/i2c/i2c-host-fixes
-    old: bf73845cc1394cefe52dd2c91478b606e1892e76
-    new: 880977fdc7f67923d1904ee23ca75fa1e375ea46
-    log: revlist-bf73845cc139-880977fdc7f6.txt
+  - ref: refs/heads/i2c/i2c-host-next
+    old: 172368d013901e5d9352de7a2debddc66d1e1a20
+    new: e3bca188b4ef54e8b303446f2de8c38f51e8a93a
+    log: revlist-172368d01390-e3bca188b4ef.txt
 
---===============8428787825745058919==
+--===============0786602227380217967==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-bf73845cc139-880977fdc7f6.txt
+Content-Disposition: attachment; filename=revlist-172368d01390-e3bca188b4ef.txt
 
-e3b8cbf40c6e60a7a935bd8980884d5741a7a77b selftests: netconsole: remove log noise due to socat exit
-33b4c26d4d3ccd24d9721a577671f2c73c1a7cd9 x86/platform: Fix and extend kernel-doc comments in <asm/x86_init.h>
-1dd6c84f1c544e552848a8968599220bd464e338 sched_ext: Fix incorrect sched_class settings for per-cpu migration tasks
-484f1176896e85b5ae4f04403c8cd5b79aced95e Bluetooth: mediatek: add gpio pin to reset bt
 01622e9a5336015f657df423b700e488fbcd2f39 Bluetooth: hci_h5: avoid sending two SYNC messages
 97fdb2ea06efdde784480934d1ff60eb21e88b58 Bluetooth: hci_h5: implement CRC data integrity
 33b2835f0b7e2a458473b0e3a23b54b92108b6b0 Bluetooth: HCI: Add initial support for PAST
@@ -1050,5 +1046,9 @@ cba09e3ed06db4b6c87bc97e0aea080421fb8f7d Merge tag 'perf-urgent-2025-12-12' of g
 d9b85d296f3accd8957a98d78810a4ecdbdfe557 dt-bindings: i2c: dw: Add Mobileye I2C controllers
 dde7e21311004a6d227b628f14c582313da90bde i2c: i801: Add support for Intel Nova Lake-S
 880977fdc7f67923d1904ee23ca75fa1e375ea46 dt-bindings: i2c: qcom-cci: Document SM8750 compatible
+2b110445b1dfdef34ea7c42c27ddc2ba1bee5753 i2c: designware: Optimize flag reading in i2c_dw_read()
+ea032b451134e5cc79ed1affc9a237ce5bdda9ed i2c: designware: Sort compatible strings in alphabetical order
+6a28174326289834c6767bdeb1ba348aa9831e91 i2c: designware: Add dedicated algorithm for AMD NAVI
+e3bca188b4ef54e8b303446f2de8c38f51e8a93a Merge branch 'i2c/i2c-host' into i2c/i2c-host-next
 
---===============8428787825745058919==--
+--===============0786602227380217967==--
