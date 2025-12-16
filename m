@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/viro/vfs
-Date: Tue, 16 Dec 2025 05:58:19 -0000
-Message-Id: <176586469971.1450954.3185255245485041059@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/iwlwifi/android-os
+Date: Tue, 16 Dec 2025 05:58:46 -0000
+Message-Id: <176586472623.1451582.833211150168305043@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/viro/vfs
-user: viro
+repo: pub/scm/linux/kernel/git/iwlwifi/android-os
+user: mkorenbl
 changes:
-  - ref: refs/heads/fixes
-    old: db961296e0223fb008de0224eddee9d69231e1df
-    new: e1b4c6a58304fd490124cc2b454d80edc786665c
-    log: |
-         e1b4c6a58304fd490124cc2b454d80edc786665c shmem: fix recovery on rename failures
-         
+  - ref: refs/tags/Core_manual_signed_nightly-10394
+    old: 7fc0017000b75f71a721aeb53d1b20842959a23a
+    new: 0000000000000000000000000000000000000000
