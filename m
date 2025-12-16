@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd-test
-Date: Tue, 16 Dec 2025 06:48:55 -0000
-Message-Id: <176586773573.1499871.2722715535045799633@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sj/damon-hack
+Date: Tue, 16 Dec 2025 06:49:17 -0000
+Message-Id: <176586775759.1500338.2522321326222164569@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd-test
-user: jarkko
+repo: pub/scm/linux/kernel/git/sj/damon-hack
+user: sj
 changes:
-  - ref: refs/heads/main
-    old: dfd45a9917303ed5928446c8e1e0b4acb3ba51cd
-    new: 03dbd3592b2776251f9f386d2813fd98553528c0
+  - ref: refs/heads/master
+    old: df456f5151771668220fc304698ab10f988c8542
+    new: df646a5f63b65249b55cf30d7b7caac2cee7b732
     log: |
-         2a8b789313aeaba7e035facbb057d3860eac8efb grub: Use debug-mode by default
-         81d277056f9f2833a4988a9761996aa5f2e853c0 buildroot: Remove trace-cmd
-         03dbd3592b2776251f9f386d2813fd98553528c0 linux: Enable hwrng
+         df646a5f63b65249b55cf30d7b7caac2cee7b732 patches/next: rebase to latest mm-new
          
