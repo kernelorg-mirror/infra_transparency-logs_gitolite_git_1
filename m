@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============8457420857297728518=="
+Content-Type: multipart/mixed; boundary="===============9141543017229083347=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/johan/usb-serial
-Date: Tue, 16 Dec 2025 01:13:22 -0000
-Message-Id: <176584760218.1178030.447379383863829304@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/johan/gnss
+Date: Tue, 16 Dec 2025 01:13:33 -0000
+Message-Id: <176584761305.1178337.7621723544099047925@gitolite.kernel.org>
 
---===============8457420857297728518==
+--===============9141543017229083347==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/johan/usb-serial
+repo: pub/scm/linux/kernel/git/johan/gnss
 user: johan
 changes:
   - ref: refs/heads/master
-    old: dcb6fa37fd7bc9c3d2b066329b0d27dedf8becaa
+    old: e9a6fb0bcdd7609be6969112f3fbfcce3b1d4a7c
     new: 8f0b4cce4481fb22653697cced8d0d04027cb1e8
-    log: revlist-dcb6fa37fd7b-8f0b4cce4481.txt
+    log: revlist-e9a6fb0bcdd7-8f0b4cce4481.txt
 
---===============8457420857297728518==
+--===============9141543017229083347==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-dcb6fa37fd7b-8f0b4cce4481.txt
+Content-Disposition: attachment; filename=revlist-e9a6fb0bcdd7-8f0b4cce4481.txt
 
 09339d0d83108fd4f59b94677ac99bde870aa0ae l2tp: correct debugfs label for tunnel tx stats
 ea2d3befcf29cca5221d0572d54e4d71b683175d net: dsa: yt921x: Set ageing_time_min/ageing_time_max
@@ -1051,4 +1051,4 @@ cba09e3ed06db4b6c87bc97e0aea080421fb8f7d Merge tag 'perf-urgent-2025-12-12' of g
 6a1636e06625ec0dd7f2b908ab39a8beea24bfd3 Merge tag 'scsi-misc' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
 8f0b4cce4481fb22653697cced8d0d04027cb1e8 Linux 6.19-rc1
 
---===============8457420857297728518==--
+--===============9141543017229083347==--
