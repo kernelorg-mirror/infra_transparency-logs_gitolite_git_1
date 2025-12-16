@@ -1,21 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vkoul/soundwire
-Date: Tue, 16 Dec 2025 09:20:11 -0000
-Message-Id: <176587681121.1650437.11144125512397356375@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+Date: Tue, 16 Dec 2025 09:20:21 -0000
+Message-Id: <176587682107.1650689.15176932515399113173@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vkoul/soundwire
-user: vkoul
+repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+user: jarkko
 changes:
-  - ref: refs/heads/next
-    old: 8f0b4cce4481fb22653697cced8d0d04027cb1e8
-    new: 59946373755d71dbd7614ba235e0093159f80b69
+  - ref: refs/heads/queue
+    old: b28352a956cac9b2e593a138fc87f9e7a76cfa78
+    new: 31e6df282451558afbaf74a329dc31932c0b0a7b
     log: |
-         f87e5575a6bd1925cd55f500b61b661724372e5f soundwire: intel_auxdevice: add cs42l45 codec to wake_capable_list
-         82ab754d102273f4c974a285aa8025bed7521b15 soundwire: qcom: Use guard to avoid mixing cleanup and goto
-         59946373755d71dbd7614ba235e0093159f80b69 soundwire: dmi-quirks: add mapping for Avell B.ON (OEM rebranded of NUC15)
+         98a6b207350f0fe80846694821a174f41409642f tpm2-sessions: Remove the support for more than one authorization
+         9697c8b29dd1b29193f4b32c63aaea90024500fe tpm-buf: Remove tpm_buf_append_handle
+         f8d68c2f726482842ac900c9127f5911e510517f tpm-buf: Merge TPM_BUF_BOUNDARY_ERROR and TPM_BUF_OVERFLOW
+         31e6df282451558afbaf74a329dc31932c0b0a7b tpm-buf: Implement managed allocations
          
