@@ -1,24 +1,28 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Tue, 16 Dec 2025 18:52:36 -0000
-Message-Id: <176591115656.2232931.1791374870875619513@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vdubeyko/nilfs2
+Date: Tue, 16 Dec 2025 18:52:39 -0000
+Message-Id: <176591115943.2233084.8098044491039247116@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: andrii
+repo: pub/scm/linux/kernel/git/vdubeyko/nilfs2
+user: vdubeyko
 changes:
-  - ref: refs/heads/master
-    old: 6f0b824a61f212e9707ff68abcabfdfa4724b811
-    new: e7a0adb03dfe1877a11e45a8707e69ba8f4cf94c
-    log: |
-         0355911ac021a424b18d2d746536d70b879cdeab selftests/bpf: Explicitly account for globals in verifier_arena_large
-         12a1fe6e12dbad39f2f0dad1a385625f0298eff4 bpf/verifier: Do not limit maximum direct offset into arena map
-         0aa721437e4b74d737f58582f1bbf2eea3e038c7 libbpf: Turn relo_core->sym_off unsigned
-         c1f61171d44b19834cf24def2cf832f2688e83df libbpf: Move arena globals to the end of the arena
-         19f12431b6c339416e656c794a26ff0ebb2dba56 selftests/bpf: Add tests for the arena offset of globals
-         e7a0adb03dfe1877a11e45a8707e69ba8f4cf94c Merge branch 'libbpf-move-arena-variables-out-of-the-zero-page'
-         
+  - ref: refs/tags/v6.18
+    old: 0000000000000000000000000000000000000000
+    new: f7b88edb52c8dd01b7e576390d658ae6eef0e134
+  - ref: refs/tags/v6.18-rc5
+    old: 0000000000000000000000000000000000000000
+    new: 62ad2b01b0c7dba966c6843b77e99b06a3b12d27
+  - ref: refs/tags/v6.18-rc6
+    old: 0000000000000000000000000000000000000000
+    new: ec4b6a97aa20d97494d3431434470d91aacb9c6e
+  - ref: refs/tags/v6.18-rc7
+    old: 0000000000000000000000000000000000000000
+    new: c4508223b80908ac095e50f731e68c4387951f0f
+  - ref: refs/tags/v6.19-rc1
+    old: 0000000000000000000000000000000000000000
+    new: 3e7f562e20ee87a25e104ef4fce557d39d62fa85
