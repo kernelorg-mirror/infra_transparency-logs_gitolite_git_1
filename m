@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3604782109121046571=="
+Content-Type: multipart/mixed; boundary="===============8399930527381731851=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Tue, 16 Dec 2025 16:43:03 -0000
-Message-Id: <176590338322.2106563.8751872255932477064@gitolite.kernel.org>
+Date: Tue, 16 Dec 2025 16:43:05 -0000
+Message-Id: <176590338559.2106655.12506317391924319019@gitolite.kernel.org>
 
---===============3604782109121046571==
+--===============8399930527381731851==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/40GbE
+  - ref: refs/heads/100GbE
     old: 0373d5c387f24de749cc22e694a14b3a7c7eb515
     new: 885bebac9909994050bbbeed0829c727e42bd1b7
     log: revlist-0373d5c387f2-885bebac9909.txt
 
---===============3604782109121046571==
+--===============8399930527381731851==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -67,4 +67,4 @@ b1e125ae425aba9b45252e933ca8df52a843ec70 net/sched: ets: Remove drr class from t
 5914428e0e44c4dcb64ad42cc37fa23a57fd1c5c selftests/tc-testing: Create tests to exercise ets classes active list misplacements
 885bebac9909994050bbbeed0829c727e42bd1b7 nfc: pn533: Fix error code in pn533_acr122_poweron_rdr()
 
---===============3604782109121046571==--
+--===============8399930527381731851==--
