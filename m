@@ -1,50 +1,32 @@
-Content-Type: multipart/mixed; boundary="===============7619314301443983326=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Tue, 16 Dec 2025 16:45:23 -0000
-Message-Id: <176590352399.2112038.6064183931317447836@gitolite.kernel.org>
-
---===============7619314301443983326==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Tue, 16 Dec 2025 16:45:46 -0000
+Message-Id: <176590354646.2112772.17830241469834479144@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/spi-6.20
-    old: c20fce4ad137e2150b4b383750f86a36d929e36c
-    new: f4acea9eef704607d1a950909ce3a52a770d6be2
+  - ref: refs/heads/for-linus
+    old: cb0ae6f22790ead71a866f94c7a5a70ad56af16a
+    new: 544c0494cdb3732281e1f2e279cfa561724355db
     log: |
-         f4acea9eef704607d1a950909ce3a52a770d6be2 spi: dt-bindings: st,stm32-spi: add 'power-domains' property
+         84085139290a38c5f8a14e5bba60936392c17c7f ASoC: SOF: topology: Add context when sink or source widget is missing
+         da230e232352750a80c8fc883eac1c87c8849027 ASoC: SOF: ipc4-topology: set playback channel mask
+         544c0494cdb3732281e1f2e279cfa561724355db ASoC: SOF: Intel: pci-mtl: Change the topology path to intel/sof-ipc4-tplg
          
-
---===============7619314301443983326==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1765903521 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1765903521-6110c8ec818a759b6fdd10a7e2c81a19d3f0fbd3
-
-c20fce4ad137e2150b4b383750f86a36d929e36c f4acea9eef704607d1a950909ce3a52a770d6be2 refs/heads/spi-6.20
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmlBjKEACgkQJNaLcl1U
-h9Df9Qf+MIiP7HRIzTdjZLwUnHIrnPk9WfxHJlP6Ag8QEYfTGQnNyr/1r3xguAxu
-6WPCElQ4sTHxmwVRx1mOFgbP9ZKXNOxzNSjX71YGg79wUe/0kx9C4iZHGdf6PSqs
-xjCqq7EVvO67vBV0ZDwwrGBFVAkZQ/p1joDZs1gUIAK8cDqm03D0Rmra3qE3CRJM
-3fJ00HmFXLGUZzs+lm4Mk/5aRS1dxUb7JCMCyGI/lYgbdM5WKvaB4Vb0mjXUXT/u
-AYsZXmcSKL6kv5pSIFknUN4ByEKcJEpHMLKI8aDdengVlUu/8X2qxMPFI3Tqr7V2
-745kuU60+NhZF3hF8lQQ2DgRfllwow==
-=C8CI
------END PGP SIGNATURE-----
-
---===============7619314301443983326==--
+  - ref: refs/heads/for-next
+    old: 522a323f41f5bc2e3ee929524cb62d27b70cc0a2
+    new: 1341c7a3f9da1a44976c253361e32e248665ca41
+    log: |
+         84085139290a38c5f8a14e5bba60936392c17c7f ASoC: SOF: topology: Add context when sink or source widget is missing
+         da230e232352750a80c8fc883eac1c87c8849027 ASoC: SOF: ipc4-topology: set playback channel mask
+         544c0494cdb3732281e1f2e279cfa561724355db ASoC: SOF: Intel: pci-mtl: Change the topology path to intel/sof-ipc4-tplg
+         a1bcb66209a745c9ca18deae9f1c207b009dee1c ASoC: Fix acronym for Intel Gemini Lake
+         524ee559948d8d079b13466e70fa741f909699c0 ASoC: SOF: Intel: hda: Only check SSP MCLK mask in case of IPC3
+         1341c7a3f9da1a44976c253361e32e248665ca41 Merge remote-tracking branch 'asoc/for-6.20' into asoc-next
+         
