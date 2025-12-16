@@ -1,52 +1,50 @@
-Content-Type: multipart/mixed; boundary="===============6261724318659924757=="
+Content-Type: multipart/mixed; boundary="===============0846050354174103634=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Tue, 16 Dec 2025 16:45:07 -0000
-Message-Id: <176590350769.2111518.6779177814164465596@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Tue, 16 Dec 2025 16:45:17 -0000
+Message-Id: <176590351785.2111782.6137934075153724082@gitolite.kernel.org>
 
---===============6261724318659924757==
+--===============0846050354174103634==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/spi
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/asoc-6.19
-    old: cb0ae6f22790ead71a866f94c7a5a70ad56af16a
-    new: 544c0494cdb3732281e1f2e279cfa561724355db
+  - ref: refs/heads/for-6.20
+    old: c20fce4ad137e2150b4b383750f86a36d929e36c
+    new: f4acea9eef704607d1a950909ce3a52a770d6be2
     log: |
-         84085139290a38c5f8a14e5bba60936392c17c7f ASoC: SOF: topology: Add context when sink or source widget is missing
-         da230e232352750a80c8fc883eac1c87c8849027 ASoC: SOF: ipc4-topology: set playback channel mask
-         544c0494cdb3732281e1f2e279cfa561724355db ASoC: SOF: Intel: pci-mtl: Change the topology path to intel/sof-ipc4-tplg
+         f4acea9eef704607d1a950909ce3a52a770d6be2 spi: dt-bindings: st,stm32-spi: add 'power-domains' property
          
 
---===============6261724318659924757==
+--===============0846050354174103634==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1765903505 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1765903505-72f0644753df182ec73dbe426df9531d99bd5bcf
+pusher C3F436CA30F5D8EB 1765903515 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
+nonce 1765903515-22f2e7dfa0dcae2a6f621fdc12efdce37634734d
 
-cb0ae6f22790ead71a866f94c7a5a70ad56af16a 544c0494cdb3732281e1f2e279cfa561724355db refs/heads/asoc-6.19
+c20fce4ad137e2150b4b383750f86a36d929e36c f4acea9eef704607d1a950909ce3a52a770d6be2 refs/heads/for-6.20
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmlBjJEACgkQJNaLcl1U
-h9AWYwf9Han0oPFvl5RqTIQcH1NsEH6dQPDItMi9hEmNclaz9avjpRvH+ufZzxLX
-IqtZsNRbchwGiRoN3zXMNOs4T44bPXD0yK1WbCJRMdPLHow9cUlBBKoEUQ6Fqk8A
-NdG3dYWDo39ZBmVUA+wEcI2IbqkilymvX8Uh4gQK/u4i9IGoZcaVVAk/dzMrvI81
-vLrMyZOLHMirgkL0H+4a9qhb2aT3HOJP169lApXDgrA8H22WhzfXd7FyXpPp6JsY
-1ycLiwxPNE5qHejrKRlYmYEK0yL92xAxMy5jFFeDzGh0yCRGbgmZoVScsTNMG6IS
-ysUEb27H1aC+heGMcaqQttfiQ0DNsw==
-=MxLE
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmlBjJsACgkQJNaLcl1U
+h9ATNwf/YjOugZPh+/YnwNUV//LKzQbXSfoyNNoJ3+L3o1/zmUvFEsWGQAkdu7AA
+w8+urcafQE2pDt8EJmMB0M5JzqnDHXxaUxblpOWSWWIw9qytUbepP78POJPUNjFy
+TtqAlcWSw3GkgTHRwvhx9lJLpI5WLoPkElGR8jR26u2I1MDA13assKxcAXyUcF0i
+MOOVFU8Kw+d/O5Qv/uz23J/t5B/Rl9nSU6UpKeHivI6hNVm+c6An5mDe6WGewJJU
+ns74OBMrVBCnR2Gs5c4A6JVK9VxDiffdU0tgiCjabBcoxLohXghMScUmu25Kgs5n
+36cWyrVkfQgtTtnmHDFFC2LoKpl7Rw==
+=2NnE
 -----END PGP SIGNATURE-----
 
---===============6261724318659924757==--
+--===============0846050354174103634==--
