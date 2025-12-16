@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8757628964318590080=="
+Content-Type: multipart/mixed; boundary="===============2893720622841933743=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
-Date: Tue, 16 Dec 2025 11:37:26 -0000
-Message-Id: <176588504690.1787561.9192316053113797514@gitolite.kernel.org>
+Date: Tue, 16 Dec 2025 11:38:14 -0000
+Message-Id: <176588509416.1788154.9516601718903726393@gitolite.kernel.org>
 
---===============8757628964318590080==
+--===============2893720622841933743==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/rafael/linux-pm
 user: rafael
 changes:
-  - ref: refs/heads/acpi-queue
-    old: e88d169a6053918f230dfc78ee0eff2c2a2ca9bf
-    new: 756be13fc04e4aa62c0998f459705694a31f5fff
-    log: revlist-e88d169a6053-756be13fc04e.txt
+  - ref: refs/heads/bleeding-edge
+    old: 7ff8cab2a030af2ab9728338d8315ac7e18bdba2
+    new: 9a4697857ab0d89949bf77f9aa0393e6a6cda058
+    log: revlist-7ff8cab2a030-9a4697857ab0.txt
 
---===============8757628964318590080==
+--===============2893720622841933743==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e88d169a6053-756be13fc04e.txt
+Content-Disposition: attachment; filename=revlist-7ff8cab2a030-9a4697857ab0.txt
 
 0fa3dcccbf936c4e6ef488d992f9a09bc6776a30 ACPI: PCI: PM: Rework root bus notification setup
 505090921c8fa680e8e8550e05e908ca254d7c45 ACPI: PM: Register wakeup sources under physical devices
@@ -55,5 +55,6 @@ e9f75397933ad7ed10a3547ea36c17b0a20a10ee ACPI: EC: Convert the driver to a platf
 0a4ab78727a28479029ce76a0bfb523ee7991512 ACPI: SBS: Convert the driver to a platform one
 765d0efc086b5c5db932bd6d18b5c281449e5563 ACPI: HED: Convert the driver to a platform one
 756be13fc04e4aa62c0998f459705694a31f5fff ACPI: NFIT: core: Convert the driver to a platform one
+9a4697857ab0d89949bf77f9aa0393e6a6cda058 Merge branch 'acpi-queue' into bleeding-edge
 
---===============8757628964318590080==--
+--===============2893720622841933743==--
