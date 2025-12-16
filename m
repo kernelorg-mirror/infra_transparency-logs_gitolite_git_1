@@ -1,25 +1,32 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sunxi/linux
-Date: Tue, 16 Dec 2025 01:56:24 -0000
-Message-Id: <176585018495.1222833.2680776011163860889@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pcmoore/audit
+Date: Tue, 16 Dec 2025 02:09:42 -0000
+Message-Id: <176585098283.1233613.9895687097166088886@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sunxi/linux
-user: wens
+repo: pub/scm/linux/kernel/git/pcmoore/audit
+user: pcmoore
 changes:
-  - ref: refs/heads/sunxi/clk-fixes-for-6.18
-    old: 2050280a4bb660b47f8cccf75a69293ae7cbb087
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/sunxi/drivers-for-6.19
-    old: 122df8416e7f4c68fb3248377a2b34cdd31a85b0
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/sunxi/dt-for-6.19
-    old: ae0d3f1e6dd2c6404db2fbd7556b93eddd6c87b8
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/sunxi/fixes-for-6.18
-    old: 9f393d8e757f79060baf4b2e703bd6b2d0d8d323
-    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/dev
+    old: 8f0b4cce4481fb22653697cced8d0d04027cb1e8
+    new: 4f493a6079b588cf1f04ce5ed6cdad45ab0d53dc
+    log: |
+         4f493a6079b588cf1f04ce5ed6cdad45ab0d53dc audit: add fchmodat2() to change attributes class
+         
+  - ref: refs/heads/dev-staging
+    old: 8f0b4cce4481fb22653697cced8d0d04027cb1e8
+    new: 661ba103ec0d0ec5366d7b0fb0458ce5944dd8c3
+    log: |
+         f3ec073168e09cb3676f8431912dded19aa7edfc audit: add audit_log_nf_skb helper function
+         661ba103ec0d0ec5366d7b0fb0458ce5944dd8c3 audit: include source and destination ports to NETFILTER_PKT
+         
+  - ref: refs/heads/next
+    old: 8f0b4cce4481fb22653697cced8d0d04027cb1e8
+    new: 4f493a6079b588cf1f04ce5ed6cdad45ab0d53dc
+    log: |
+         4f493a6079b588cf1f04ce5ed6cdad45ab0d53dc audit: add fchmodat2() to change attributes class
+         
