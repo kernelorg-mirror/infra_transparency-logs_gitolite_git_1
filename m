@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
-Date: Tue, 16 Dec 2025 23:50:09 -0000
-Message-Id: <176592900969.2555217.15312752085452793175@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/melver/linux
+Date: Tue, 16 Dec 2025 23:50:47 -0000
+Message-Id: <176592904779.2556002.18165820649515758372@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/25-new
-user: akpm
+repo: pub/scm/linux/kernel/git/melver/linux
+user: melver
 changes:
-  - ref: refs/heads/master
-    old: 75b7ce29d4944c1be90fc5348c8ef5fdf4d70ba0
-    new: ee92689308c3fc30cfcf710e8369bdd4058accf8
+  - ref: refs/heads/ctx-analysis/dev
+    old: 6f3ab5bf905fd39deead834b14bd046dbe168533
+    new: ce5acac3089f2dd72a384cbcd3f0e4ec28e9cf29
     log: |
-         3c71180155e8913690b02c163363da0a7df3f455 foo
-         ee92689308c3fc30cfcf710e8369bdd4058accf8 foo
+         ce5acac3089f2dd72a384cbcd3f0e4ec28e9cf29 sched: Enable context analysis for core.c and fair.c
          
