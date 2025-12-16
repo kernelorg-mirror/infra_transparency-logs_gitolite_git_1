@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3854184108057641805=="
+Content-Type: multipart/mixed; boundary="===============5215321355875612547=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/security/vulns
-Date: Tue, 16 Dec 2025 14:22:39 -0000
-Message-Id: <176589495912.1971215.3991272339331956179@gitolite.kernel.org>
+Date: Tue, 16 Dec 2025 14:33:37 -0000
+Message-Id: <176589561747.1980922.17711117110257619509@gitolite.kernel.org>
 
---===============3854184108057641805==
+--===============5215321355875612547==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,44 +17,43 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/master
-    old: 032ce6d8256628eb4a223951e31b2b84b78430df
-    new: b437196ee55af689dd4459e67afe2db2c3820013
+    old: b437196ee55af689dd4459e67afe2db2c3820013
+    new: 256ce32bfe478165fd4cee2c3e914a800de6b450
     log: |
-         c83fafc32d3057eb75ab7f78ee5fda1ec3ae1f3c update 6.17.9 review from greg
-         bc285c8bea8beb9f8401798d31f07229e824f05c assign some final 6.17.9 cve ids
-         e3aac2de2bd8ae61a1d39a0d7eff8ac5782ad17f strip the new mbox files
-         b8fa079cd85911df9f992d6b94244d83fad27efd mark 6.17.9 review as completed
-         b437196ee55af689dd4459e67afe2db2c3820013 update cvelistV5
+         d93502e1f749688061a0e036180c6b5ddb1ac642 update 6.17.6 review from greg
+         7cb6ce24fa8c1b0614a8dc669a55e8c4bae57cb9 assign some final 6.17.6 cve ids
+         99c66b9004b2f3f83d540639615cf63665524ee8 mark 6.17.6 review as completed
+         256ce32bfe478165fd4cee2c3e914a800de6b450 strip the new mbox files
          
 
---===============3854184108057641805==
+--===============5215321355875612547==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1765894955 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1765895614 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
-nonce 1765894955-6ef9cef75ccbdace92f7e1b1807bd6150cd61034
+nonce 1765895613-44e7c51916f4c05fd9a3ef33c1b0258ca6af782d
 
-032ce6d8256628eb4a223951e31b2b84b78430df b437196ee55af689dd4459e67afe2db2c3820013 refs/heads/master
+b437196ee55af689dd4459e67afe2db2c3820013 256ce32bfe478165fd4cee2c3e914a800de6b450 refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmlBaysbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+LLYP/ic5hgGsIgRp9dnXHQio
-Pd5DOt2bboxQ0y+rnkeQwDhLDVTWT5/QeGmND0QZ8TlNM4T3c2bkmfl498SFJA7z
-h5U8ZdrThTvUeicZtryuaLExVIh2UQZbJcPNwmCJIScsUjAjfqv0xA8BMeo4AS8Z
-k1SywUXO+qDyKFnzcJhC0cXZXPWos2p0BNHEm4Fsx7iDNxOpMzo/vq1Jn8pdk0Ye
-AU+MYnNuhspdy+7QllOlsa36IMglQ7TZEMKHkYuvxA0sl5cOZyBhTwSmdTzFGgm6
-RcI0umjlsZgw11px34sFMfKgt/cI7MDK9fN/TB49elHlagKW+euDX+y9PKOMt/z8
-+l2shGt2yGE2GzRV1FZFHMpRcBDLUqpZEEoVIJfvFrvLjBp1D219zInIylGhsr6h
-SYNpxUeKt6VvP2c1LVTyZ9M784THtS2DUMQu7Oml+adalwNdN6NTghy1vNWoWZsP
-qc7CPRCMDmIX9Btdk7lJ2kKpOW+JIv5DyAObjMK2AYFg49ii9iCPGphljKurCFnD
-m8j4sHO7SyPTyRXtp6pJgiOYrMIIv11UJuoDCS4kov9Qnlp26CqeUkyAhsx0KpOg
-J5lJTbMl9Ej9S2wXECiNvoS6H5Oqlztj5jc/a1KJ52vNUsOXkt3YtOgORLucLacf
-83fGIzzNLGFveyopSHNoiNvJ
-=dLus
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmlBbb4bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+hjIQAIfleuQu9Ce04/Yy5TQw
+1SfGj8NC1UJuYpcMAG6TsdrUmH+PJwGE/dlc0w/EzwOe2lryPt6yHvSJPDLIHd5j
+IwQ3YmZKM9oj848eizVMl4KsrS3YgxHhB0kDqm4e2vjhsJcnxzsbCLSQC4gMknR1
+8QsaN519PxIj9QGrqN5SZdoxmvuKf1VyWMM9Ij08Sv+Wh9S1cN5oJ5QBIZosUe0C
+XkcquzUXK7AqLm356yZm2VwIuLMVSQ23M3N+fEZBri2D0+13s3LDFahC2cnrjiC3
+mOBhj7sw5BHs0aXPqfyrm6VDYNaOKL7LlZWnoou/ZQxYvW4A3GvNC7GNCRvPooUc
+75eHb5LzVjMq5B2FP26MrUr7I70Feg8tFE9fwA0paoR9FATLWlr54djGN5rQTdk/
+9HrG19p6Zw3+TdQkSWHz8hZMIqS00Z2jqg9UYuF9pzTh55HtnuzBHnaYvB2NLbgM
+pKqe5LxLk5h6DXGmZKKvIDAxNO1QwnB7Scqbbmds9lRp5OqnVmb0vuROwVaznuQU
+a3ZRDa2sNlFIDGjMpjpYOVQ0aPIhGfObju+Q9l6S7JGgyh/BMUr3n+GF0z5V3efO
+cnJX7X2syotShSIZwBp4GD0OppCOIH8pylHTl8J6ypwjhE6F2ZOdBV7TyTV+K0TB
+GKHMwtq/uOzfC98/ooajAOau
+=z1kl
 -----END PGP SIGNATURE-----
 
---===============3854184108057641805==--
+--===============5215321355875612547==--
