@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/damon-hack
-Date: Wed, 17 Dec 2025 06:41:05 -0000
-Message-Id: <176595366550.2952113.7543333655176424483@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Wed, 17 Dec 2025 07:53:25 -0000
+Message-Id: <176595800565.3016149.1899233471658383571@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/damon-hack
-user: sj
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/master
-    old: 98d814fc759082cb5c330207c78a0b7ecb52b9b7
-    new: 72c207ff6fbd778fad5a86da310b7a3d2f757f75
-    log: |
-         72c207ff6fbd778fad5a86da310b7a3d2f757f75 patches/next: rebase to latest mm-new
-         
+  - ref: refs/heads/20251215_peter_ujfalusi_asoc_sof_ipc4_topology_fixes_for_exotic_format_handling
+    old: 816f291fc23f325d31509d0e97873249ad75ae9a
+    new: 0000000000000000000000000000000000000000
