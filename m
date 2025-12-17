@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jarkko/sysdarch
-Date: Tue, 16 Dec 2025 23:59:09 -0000
-Message-Id: <176592954952.2562499.6183908522632528309@gitolite.kernel.org>
+Date: Wed, 17 Dec 2025 00:01:56 -0000
+Message-Id: <176592971635.2566334.12051414645502336159@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/jarkko/sysdarch
 user: jarkko
 changes:
   - ref: refs/heads/main
-    old: f217fa96dec6aa6d12802b9e31c82ea0cd2af9da
-    new: 52a2d962c9cf70b7598b8362392b7390023a0c33
+    old: 52a2d962c9cf70b7598b8362392b7390023a0c33
+    new: f8d82080742b8b5f87df4ab47c5c53b157e37f09
     log: |
-         52a2d962c9cf70b7598b8362392b7390023a0c33 Switch to Niri compositor and add linux-zen
+         f8d82080742b8b5f87df4ab47c5c53b157e37f09 Switch to Niri compositor and add linux-zen
          
