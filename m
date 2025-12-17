@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3713608236668641453=="
+Content-Type: multipart/mixed; boundary="===============4904102322264650999=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/wireless/wireless
-Date: Wed, 17 Dec 2025 20:09:14 -0000
-Message-Id: <176600215410.3778236.15621184418741214875@gitolite.kernel.org>
+Date: Wed, 17 Dec 2025 20:11:59 -0000
+Message-Id: <176600231935.3782137.13328641234703861927@gitolite.kernel.org>
 
---===============3713608236668641453==
+--===============4904102322264650999==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,36 +17,36 @@ user: jberg
 git_push_cert_status: E
 changes:
   - ref: refs/tags/wireless-2025-12-17
-    old: 0000000000000000000000000000000000000000
-    new: 30b1acf35df04991d0e9b404492b0b9e9f9259ee
+    old: 30b1acf35df04991d0e9b404492b0b9e9f9259ee
+    new: 4c6aaf378b15ba025a7912b2e022d08d4bd585ff
 
---===============3713608236668641453==
+--===============4904102322264650999==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 7BF9099A 1766002126 +0100
+pusher 7BF9099A 1766002294 +0100
 pushee ssh+git://korg/pub/scm/linux/kernel/git/wireless/wireless.git
-nonce 1766002126-4f4d7553e983043aec1d4a5d9317de3801db5955
+nonce 1766002294-e22f433869103f496e0f11ac1d4433da327ecd44
 
-0000000000000000000000000000000000000000 30b1acf35df04991d0e9b404492b0b9e9f9259ee refs/tags/wireless-2025-12-17
+30b1acf35df04991d0e9b404492b0b9e9f9259ee 4c6aaf378b15ba025a7912b2e022d08d4bd585ff refs/tags/wireless-2025-12-17
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCgAdFiEEpeA8sTs3M8SN2hR410qiO8sPaAAFAmlDDc4ACgkQ10qiO8sP
-aADcHA/+KtZiTEA2141+qfT5nVYrou1bEfL2NeXf9fToarUHo26ihmKnkaILnBEc
-Haxn6rEf4oHGhbawYGUwT5YHYfwNXFVp+Ir0SMf50/a7Mym2VOgyENUG/tg3J4IU
-R1BD0fdhEj6lVRlHWALCud/OA4pOaDt+xDAYV2KTpgXs/Ya/D2HqHgFaH8aWOHUF
-368eft7EFs3lSOo0fK7IgUxP+fsYzozKX+o+fSYm07kknKQN5ajwNilq15BRM8Ls
-3DDXCREOXUezLQItOsDOqt8exU4tLsU9d6QLXuRM1Om4omkFkBACFNXQUp4r7nZi
-lBn/DtcCnHwfuMXG6qOgD/64/Rk3mvZLxZb5YDvEqJYfx7ufM3yBsIyRMdNLruc5
-KY59Hj1+O/ad7KXJn1xl10XED00o3TS4WyscFhzPwvNIwyRN2T5Qp88Ju0WKMzz5
-wZBI84Zyv7H8h8oi1ZOHIB/WC3KLdp5gU7BJlTIUPUgrUsRHselph79P39wHClRf
-dNU0BzpNFYtq6fFD14DrG797KWQKLx47BvzF0hvFTrd9J88SeGJUE51BnM3HNzlh
-43/I7zVXZ+9TfGLKROiAAlIdftaFJr0SQJxWLDEQdL7K0JQMz3AGjGcl4yQrBWyU
-PBo4KUykbQLuZhsaeFYpF0HJlwH802AP1w13xx9gD+8tb52EAsw=
-=aRNF
+iQIzBAABCgAdFiEEpeA8sTs3M8SN2hR410qiO8sPaAAFAmlDDnYACgkQ10qiO8sP
+aACMOQ//XDjCyBDtW3V8njRoiIISwmkAunOr5bQ+0a+Q5/pWLeBq7JB/o1Ki52Av
++jJ34hMVPz1ajPD066fS0hB7kUzNAhdhW2NJY9f5Zef6cOfI68M22aVlF8TrxfLP
+K9NRTwPira2MqWlWUVDmypitdH423uhlJWuQJBhU/Y6KZR6gV5IlcmsguKYAa8Ur
+OzexOpckx53Uo/XFmnQ+NQEU+mUwZ6gbllzqHj+Sjn06KmonvRufXB1nJcPr9lAG
+y8rgt26A34qEng4HBHtNqnuc2UmAkaHe3458ZpNEs4x8DVTzN9O9TZBJPU879p1E
+uaNLIUTd+CCTnuzS/9O1LHjpJsgTxDdOn6SUP4am2p/vkKlHPSCfUPuJhyR/nKfI
+5fIE3i/8rbv5/LtrUctYvJPq/JWX32Y9WAI8qwufmsKG++tFFNtPBcVPnbtf2Q6F
+XFZp7P53WtrR+6u9+sGQ1Ik8MVGcs6comHnCNCi6KkgRzc1u9mlnS7HHvN3ILrqc
+e63gl/k6nvTQymtrewpttfMKpH2P87lRHh6M/9eezcPHfUTZt78X4pTF0B2G1uGe
+CAhOe9f7+COs1z+yuROQu+1TV6znzJibYn1Nh5HCkHfM+69fhc2dh/z4856Wu+Tm
+fHRxOEaQDgs7dPslhr/QhUZhISw5qy5vzp3ATzmhgep86FrRpjY=
+=L942
 -----END PGP SIGNATURE-----
 
---===============3713608236668641453==--
+--===============4904102322264650999==--
