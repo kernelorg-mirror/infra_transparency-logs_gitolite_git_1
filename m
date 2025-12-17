@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8793336325080492936=="
+Content-Type: multipart/mixed; boundary="===============6174921652640580879=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/fs/xfs/xfs-linux
-Date: Wed, 17 Dec 2025 09:38:44 -0000
-Message-Id: <176596432473.3117602.9758239906224162144@gitolite.kernel.org>
+Date: Wed, 17 Dec 2025 09:46:54 -0000
+Message-Id: <176596481444.3126340.16933088575198987651@gitolite.kernel.org>
 
---===============8793336325080492936==
+--===============6174921652640580879==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,22 @@ service: git-receive-pack
 repo: pub/scm/fs/xfs/xfs-linux
 user: cem
 changes:
-  - ref: refs/heads/xfs-6.20-merge
-    old: c380d33e2cfbce2e6d62dbdff1dbcf6d563fd5ee
+  - ref: refs/heads/for-next
+    old: 8f0b4cce4481fb22653697cced8d0d04027cb1e8
     new: f401306d72f2cffa9837b7d194c8e528be5e63b2
-    log: revlist-c380d33e2cfb-f401306d72f2.txt
+    log: revlist-8f0b4cce4481-f401306d72f2.txt
 
---===============8793336325080492936==
+--===============6174921652640580879==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c380d33e2cfb-f401306d72f2.txt
+Content-Disposition: attachment; filename=revlist-8f0b4cce4481-f401306d72f2.txt
 
+2145f447b79ab522667cbdbdab4525c903759f7c xfs: ignore discard return value
+5990fd756943836978ad184aac980e2b36ab7e01 xfs: fix a UAF problem in xattr repair
+f06725052098d7b1133ac3846d693c383dc427a2 xfs: fix stupid compiler warning
+fc40459de82543b565ebc839dca8f7987f16f62e xfs: fix a memory leak in xfs_buf_item_init()
+8dc15b7a6e5918bad2b0583cf63d170f94a212df xfs: fix XFS_ERRTAG_FORCE_ZERO_RANGE for zoned file system
 982d2616a2906113e433fdc0cfcc122f8d1bb60a xfs: validate that zoned RT devices are zone aligned
 dc68c0f601691010dd5ae53442f8523f41a53131 xfs: fix the zoned RT growfs check for zone alignment
 4846ee1098ee35340a8e1b213158306057992a49 xfs: add a xlog_write_one_vec helper
@@ -39,4 +44,4 @@ dc68c0f601691010dd5ae53442f8523f41a53131 xfs: fix the zoned RT growfs check for 
 f1e948b51c93e04075fbd5e34747245dd5f0235b xfs: improve the iclog space assert in xlog_write_iovec
 f401306d72f2cffa9837b7d194c8e528be5e63b2 xfs: factor out a xlog_write_space_advance helper
 
---===============8793336325080492936==--
+--===============6174921652640580879==--
