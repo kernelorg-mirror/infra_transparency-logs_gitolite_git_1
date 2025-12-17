@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bmc/linux
-Date: Wed, 17 Dec 2025 05:25:56 -0000
-Message-Id: <176594915627.2880040.16841227068742583270@gitolite.kernel.org>
+Date: Wed, 17 Dec 2025 05:26:03 -0000
+Message-Id: <176594916383.2880332.9443408973843505916@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,7 +11,7 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bmc/linux
 user: arj
 changes:
-  - ref: refs/heads/aspeed/arm/dt
+  - ref: refs/heads/for-next
     old: e0808393bf81b437eac734edc9d812fd30f12190
     new: 459a5aa171c0f13fcd78faa9594dc4aa5a95770b
     log: |
