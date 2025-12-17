@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============9102304073786539547=="
+Content-Type: multipart/mixed; boundary="===============1172251593901548734=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Wed, 17 Dec 2025 12:22:52 -0000
-Message-Id: <176597417220.3281969.12553546903876255560@gitolite.kernel.org>
+Date: Wed, 17 Dec 2025 12:25:50 -0000
+Message-Id: <176597435029.3286051.11758330217992351888@gitolite.kernel.org>
 
---===============9102304073786539547==
+--===============1172251593901548734==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,18 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/broonie/ci
 user: broonie
 changes:
-  - ref: refs/heads/kvm-arm64-aarch32-raz
-    old: 75b1535db839601e8d777e50075385af60bcd486
-    new: 0c6ca5978cadfa503b10a753268e1c3fcacb8281
-    log: revlist-75b1535db839-0c6ca5978cad.txt
+  - ref: refs/heads/kvm-arm64-set-id-regs-aarch64
+    old: 820893443f9482ac4ae7320194411c036ed89828
+    new: eb936f48380a27be55b1289a7c6af9afdbea2f9a
+    log: revlist-820893443f94-eb936f48380a.txt
 
---===============9102304073786539547==
+--===============1172251593901548734==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-75b1535db839-0c6ca5978cad.txt
+Content-Disposition: attachment; filename=revlist-820893443f94-eb936f48380a.txt
 
-1dd6c84f1c544e552848a8968599220bd464e338 sched_ext: Fix incorrect sched_class settings for per-cpu migration tasks
 484f1176896e85b5ae4f04403c8cd5b79aced95e Bluetooth: mediatek: add gpio pin to reset bt
 01622e9a5336015f657df423b700e488fbcd2f39 Bluetooth: hci_h5: avoid sending two SYNC messages
 97fdb2ea06efdde784480934d1ff60eb21e88b58 Bluetooth: hci_h5: implement CRC data integrity
@@ -1046,9 +1045,10 @@ cba09e3ed06db4b6c87bc97e0aea080421fb8f7d Merge tag 'perf-urgent-2025-12-12' of g
 0dfb36b2dcb666f116ba314e631bd3bc632c44d1 Merge tag 'ceph-for-6.19-rc1' of https://github.com/ceph/ceph-client
 6a1636e06625ec0dd7f2b908ab39a8beea24bfd3 Merge tag 'scsi-misc' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
 8f0b4cce4481fb22653697cced8d0d04027cb1e8 Linux 6.19-rc1
-638ae2f877a4ddab3f502578f778f3d52d3c613a KVM: arm64: Make AArch32 ID registers RAZ on AArch64 only VMs
-0433b871fe7a197e8382fa09ec97be2db459e772 KVM: arm64: Explicitly store 0 as the value for RAZ registers
-5f981e77363be9528b018449b51b065621cb8bc6 KVM: arm64: Enforce RAZ accessibility when reading sysregs
-0c6ca5978cadfa503b10a753268e1c3fcacb8281 KVM: arm64: Make AArch32 ID registers RAZ on AArch64 only VMs
+7901c20d1e5392c03904e3d9e282540612a64669 KVM: selftests: arm64: Improve diagnostics from set_id_regs
+fd00b1f4eefe00d33d2668ce83de4c9255d58c7b KVM: selftests: arm64: Report set_id_reg reads of test registers as tests
+1c861c75c5b70eb93e66824b759c8f505d45f044 KVM: selftests: arm64: Report register reset tests individually
+ffd45c696223ce159e4fcc2bdc0acf98f51c9513 KVM: selftests: arm64: Make set_id_regs bitfield validatity checks non-fatal
+eb936f48380a27be55b1289a7c6af9afdbea2f9a KVM: selftests: arm64: Skip all 32 bit IDs when set_id_regs is aarch64 only
 
---===============9102304073786539547==--
+--===============1172251593901548734==--
