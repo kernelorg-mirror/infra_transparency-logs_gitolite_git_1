@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3536183788655556941=="
+Content-Type: multipart/mixed; boundary="===============5727913272303524803=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Wed, 17 Dec 2025 03:40:39 -0000
-Message-Id: <176594283982.2782420.9710013581623435884@gitolite.kernel.org>
+Date: Wed, 17 Dec 2025 03:41:04 -0000
+Message-Id: <176594286448.2783062.15968665462032885296@gitolite.kernel.org>
 
---===============3536183788655556941==
+--===============5727913272303524803==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,57 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/fixes
-    old: 90449f2d1e1f020835cba5417234636937dd657e
-    new: c9f36f04a8a2725172cdf2b5e32363e4addcb14c
-    log: revlist-90449f2d1e1f-c9f36f04a8a2.txt
+  - ref: refs/tags/mkp-scsi-queue
+    old: eed9615d64eab2b0846162041dc5c654190333e4
+    new: 4dc6f7895f4e9593e2aaec3c239d2fe700a837a7
+    log: revlist-eed9615d64ea-4dc6f7895f4e.txt
 
---===============3536183788655556941==
+--===============5727913272303524803==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1765942837 -0500
+pusher 75C5DE3D 1765942843 -0500
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1765942834-be23969a8338f6a2c933225fabf06398d1d052c8
+nonce 1765942843-2574d4b9fa7b9b271eaf44899e77ff58c94cef11
 
-90449f2d1e1f020835cba5417234636937dd657e c9f36f04a8a2725172cdf2b5e32363e4addcb14c refs/heads/fixes
+eed9615d64eab2b0846162041dc5c654190333e4 4dc6f7895f4e9593e2aaec3c239d2fe700a837a7 refs/tags/mkp-scsi-queue
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmlCJjUACgkQ7ulgGnXF
-3j24qxAAnD5b6BOIS6N5FT3GEXdObtpvnUZvacg6EGtJTa+U/WMd8G+3ndyeZyq9
-zg7973ejF43uUKf+BVnxRUotkS6OG5azq1H1hfM0I1YsW1nZ+l5FroP1ZYVTfdi0
-xzQ7e2LiWOWHLZtUfUFJk3aJ5xPuUG+6IQV1JJCLc0f5StSt+hXMbectHsLP6Ivw
-BlwMgRkp0thUnMpmWxmIPYZ4pNE1buTadJgn7rgyA1ZQk3lmAVIFNSpoXhIH5/Oa
-+oDhDotCXL7X1UF8ikBEsA1WpJuzHMdOJDmCsBHWPzczlXQ4+MhTlDeao+VVvF8A
-TEkhy0uSBdJI9LXygZOTk6wnaVP8xWNmyZI3hwV7wW2xI1PnqqwYut4pC7atUgp1
-El7++kifqw0BpPl5q1HMJ9n38ZBq0ReRXNm++ftGqnYgEipIiFXMpk1lMMAYyrGk
-j5ix1GO06KLlUainoaKRRrzjPnBKa/Q+Q5LdoyucaWcvOyzFfW5FAAqPjcYQAl7T
-Dz9jKph9c+PJDra8FxtJ7MuBVAkcxryvFWzTjgcJjKefiALujhE0DKCEXODWltuI
-yYOqF8JvGlIEsZKB0mhojwcUmHKy+CuvHTEj398GeaRNU5vybXOJZMJZ25m7S2DY
-xuOVUo/5uZu2y82Vl3tFX0u/6OsKq29rC2Gda7n0d+Q1k7Xg1qs=
-=Coh4
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmlCJjsACgkQ7ulgGnXF
+3j0hAhAAobphKJWJcoW8EzvtJXXLbhFaBm4UhcXwWCcHuqrAfiJIhvkBqMU65Yud
+805iPgdBpRR1QWKCL6OCBei7Gq9VabIn6q3DtkUuktofE94jMlOKnHTfRNWXMmz5
+p2l7phxfIZSws3mKCzcrF8IDrSNXa4cphpsvw4sXdG+Ut5FJwxYHZips3prvF2dk
++3n8bHdm+41wHKoZWu7+Iv2arJP840fnEwKLOtuJpHsdtfCc+rx855+0lxaoLdgg
+asKZlr5r8EsdHGaQdiqbgBI6hDAC1lAo2eyjdN8aFD3xHa2jHxme8nHrg4L8bfA6
+3y3ohcNXvH7Vhh9Ao5zGH5tKWPtg8OOWDLOYdkfzm42oi4AV/JpKp5yDZsui5kb1
+8fW+DgfeL7q17mc6L3SLLEvimKe30EcHf13AMFZ5LWz6K9wFged8tXgiXHD/Nihr
+x10/3OqVbMTs0AUAmGAG1FIiAsWXedkHJ5v6TcET7NCeVGy3t5le+bnwGv4ABWHv
+ARODyOWjKFQhEpWoZg0PXeGTCsr71pIDmSyrXRtWWYU5AoyYc5Emw+IluWaczJ1i
+ViSwD4h70AiosyPR3k63FVtnGh6XrNjDrL/EHxH0uYfYZgzHQXrIEo8Avmb7AJ1N
+Cemqp6PuloC7kqOceoT7e+sEfz33x2YYC9y6qaz/s3BexCTmirA=
+=Ei4j
 -----END PGP SIGNATURE-----
 
---===============3536183788655556941==
+--===============5727913272303524803==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-90449f2d1e1f-c9f36f04a8a2.txt
+Content-Disposition: attachment; filename=revlist-eed9615d64ea-4dc6f7895f4e.txt
 
+d3fbfb8b2c4a352bf9167809d2e2e8f8e685d348 net: gianfar: convert to use .get_rx_ring_count
+b2d63392690156285e53562ed91b87131c9a97ac net: dpaa2: convert to use .get_rx_ring_count
+ca8df5b877d4b027fcd3968c0519af2b33de4e8a net: enetc: convert to use .get_rx_ring_count
+cbca440dc329b39f18a1121e385aed830bbdfb12 Merge branch 'net-freescale-migrate-to-get_rx_ring_count-ethtool-callback'
+40d5ce4af2067aab275b8aef690e77455da5314a net: dlink: fix several spelling mistakes in comments
+4b1639cac04cbc0d19321fc26476ea4f89ff4c8a selftests: net: py: handle interrupt during cleanup
+aadff9f766399a350aa3e09fc671617bdc0b365f selftests: net: add a hint about MACAddressPolicy=persistent
+09339d0d83108fd4f59b94677ac99bde870aa0ae l2tp: correct debugfs label for tunnel tx stats
+ea2d3befcf29cca5221d0572d54e4d71b683175d net: dsa: yt921x: Set ageing_time_min/ageing_time_max
+e3b8cbf40c6e60a7a935bd8980884d5741a7a77b selftests: netconsole: remove log noise due to socat exit
+33b4c26d4d3ccd24d9721a577671f2c73c1a7cd9 x86/platform: Fix and extend kernel-doc comments in <asm/x86_init.h>
 1dd6c84f1c544e552848a8968599220bd464e338 sched_ext: Fix incorrect sched_class settings for per-cpu migration tasks
 484f1176896e85b5ae4f04403c8cd5b79aced95e Bluetooth: mediatek: add gpio pin to reset bt
 01622e9a5336015f657df423b700e488fbcd2f39 Bluetooth: hci_h5: avoid sending two SYNC messages
@@ -344,8 +355,6 @@ ad0b9c4865b98dc37f4d606d26b1c19808796805 perf tools: Fix split kallsyms DSO coun
 295d8a03ca04858d956efdaf4ac2a3be3fc05108 perf tools: Fallback to initial kernel map properly
 4fba95fc383f9231ba486512ee1c9d60b8f4a9a4 perf tools: Use machine->root_dir to find /proc/kallsyms
 34e271ae55382fbdb04f3e13e856457d8e0dee45 perf test: Add kallsyms split test
-d98b4d52bff02d15ea73b1790d7610a2f4f023ab scsi: ufs: core: Fix RPMB link error by reversing Kconfig dependencies
-278712d20bc8ec29d1ad6ef9bdae9000ef2c220c scsi: Revert "scsi: libsas: Fix exp-attached device scan after probe failure scanned in again after probe failed"
 f7231cff1f3ff8259bef02dc4999bc132abf29cf media: uapi: c3-isp: Fix documentation warning
 ccb61a328321ba3f8567e350664c9ca7a42b6c70 platform/x86: asus-wmi: use brightness_set_blocking() for kbd led
 56715b45e3bfecf82e6404df19a10699a67c3a74 drm/gem-dma: revert the 8-byte alignment constraint
@@ -896,12 +905,7 @@ cfd4039213e7b5a828c5b78e1b5235cac91af53d Merge tag 'io_uring-6.19-20251208' of g
 99f0c3a654c4a762aca4fadc8d9f8636b36d570a regulator: spacemit: Align input supply name with the DT binding
 8cef9b451dc6fdf86b92c7a35d55a47465d500db spi: microchip-core: Fix an error handling path in mchp_corespi_probe()
 429c4727011ead99129b14dc9ff4c87a747a50ab Merge branch 'next' into for-linus
-14be351e5cd07349377010e457a58fac99201832 scsi: ufs: core: Fix an error handler crash
-d2875b812b141d0c449541976d92c8d89b94ec72 scsi: ufs: core: Fix a deadlock in the frequency scaling code
-fd81bc5cca8fc6936a8988de6b5d4c5693b6587e scsi: device_handler: Return error pointer in scsi_dh_attached_handler_name()
 cb015814f8b6eebcbb8e46e111d108892c5e6821 Merge tag 'f2fs-for-6.19-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/jaegeuk/f2fs
-362432e9b9aefb914ab7d9f86c9fc384a6620c41 scsi: libsas: Add rollback handling when an error occurs
-946574434aa9cfe175c3e8234734a3822410ff53 scsi: ufs: qcom: Fix confusing cleanup.h syntax
 b0ff70e9d4fe46cece25eb97b9b9b0166624af95 ASoC: cs35l41: Always return 0 when a subsystem ID is found
 9e7a40a2841483d7bf51b8d9a5e1f0633a5c7a26 gpio: shared: ignore disabled nodes when traversing the device-tree
 e2c4175b8d3b3ea65fc3801c190bd93fe8b7a7a9 gpio: shared: fix NULL-pointer dereference in teardown path
@@ -1076,9 +1080,5 @@ cba09e3ed06db4b6c87bc97e0aea080421fb8f7d Merge tag 'perf-urgent-2025-12-12' of g
 0dfb36b2dcb666f116ba314e631bd3bc632c44d1 Merge tag 'ceph-for-6.19-rc1' of https://github.com/ceph/ceph-client
 6a1636e06625ec0dd7f2b908ab39a8beea24bfd3 Merge tag 'scsi-misc' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
 8f0b4cce4481fb22653697cced8d0d04027cb1e8 Linux 6.19-rc1
-1f7d6e2efeedd8f545d3e0e9bf338023bf4ea584 scsi: scsi_debug: Fix atomic write enable module param description
-d373163194982f43b92c552c138c29d9f0b79553 scsi: mpi3mr: Read missing IOCFacts flag for reply queue full overflow
-0e1677654259a2f3ccf728de1edde922a3c4ba57 scsi: sg: Fix occasional bogus elapsed time that exceeds timeout
-c9f36f04a8a2725172cdf2b5e32363e4addcb14c scsi: ufs: core: Add ufshcd_update_evt_hist() for UFS suspend error
 
---===============3536183788655556941==--
+--===============5727913272303524803==--
