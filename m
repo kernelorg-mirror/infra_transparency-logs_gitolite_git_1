@@ -1,22 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Wed, 17 Dec 2025 18:05:28 -0000
-Message-Id: <176599472870.3660274.11248001049315621899@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/sysdarch
+Date: Wed, 17 Dec 2025 18:28:42 -0000
+Message-Id: <176599612214.3680702.15003640823627352061@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rdma/rdma
-user: jgg
+repo: pub/scm/linux/kernel/git/jarkko/sysdarch
+user: jarkko
 changes:
-  - ref: refs/heads/for-rc
-    old: d95e99a74eaf35c070f5939295331e5d7857c723
-    new: 85463eb6a46caf2f1e0e1a6d0731f2f3bab17780
+  - ref: refs/heads/main
+    old: 167dac0162b89a6ca4433105ad0f4b47791b188a
+    new: 4697dc543df9761a33ca33f82319476d56f219b6
     log: |
-         887bfe5986396aca908b7afd2d214471ba7d5544 RDMA/mana_ib: check cqe length for kernel CQs
-         6f05611728e9d0ab024832a4f1abb74a5f5d0bb0 RDMA/irdma: avoid invalid read in irdma_net_event
-         c1776ccba661c946f2e42aaa11eda81e2cd764c5 RTRS/rtrs: clean up rtrs headers kernel-doc
-         85463eb6a46caf2f1e0e1a6d0731f2f3bab17780 RDMA/efa: Remove possible negative shift
+         4697dc543df9761a33ca33f82319476d56f219b6 Switch to Niri compositor
          
