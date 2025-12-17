@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/sysdarch
-Date: Wed, 17 Dec 2025 20:00:52 -0000
-Message-Id: <176600165255.3771356.5870724013595412579@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/korgalore/korgalore
+Date: Wed, 17 Dec 2025 20:09:00 -0000
+Message-Id: <176600214072.3777840.17711111307326388424@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/sysdarch
-user: jarkko
+repo: pub/scm/utils/korgalore/korgalore
+user: mricon
 changes:
-  - ref: refs/heads/main
-    old: 5033ef4fd20852e9f14ba151c76569eb575adee8
-    new: f52c43b6814384eb996158a096545ae169a6de1b
+  - ref: refs/heads/master
+    old: 62860f401f4ea8f9917c188d67b09e877ec40541
+    new: 2bc27d4a0d60d479aada5287efd5511db304e890
     log: |
-         f52c43b6814384eb996158a096545ae169a6de1b Switch to Niri compositor
+         2bc27d4a0d60d479aada5287efd5511db304e890 Add documentation for the track command
          
