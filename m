@@ -1,21 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
-Date: Wed, 17 Dec 2025 09:23:26 -0000
-Message-Id: <176596340630.3101759.17893456585001958277@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============0215074485863752782=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/arighi/linux
+Date: Wed, 17 Dec 2025 09:28:04 -0000
+Message-Id: <176596368421.3106852.18224829288670095830@gitolite.kernel.org>
+
+--===============0215074485863752782==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/brgl/linux
-user: brgl
+repo: pub/scm/linux/kernel/git/arighi/linux
+user: arighi
 changes:
-  - ref: refs/heads/at24/for-next
-    old: 8f0b4cce4481fb22653697cced8d0d04027cb1e8
-    new: 7a29af24b288eace769ccd9eb8044742dfbd5944
-    log: |
-         41acc4dd8a04af332416b59a4cdb4780b7716ff1 dt-bindings: eeprom: at24: Add compatible for Belling BL24C04A/BL24C16F
-         30116121412b1aef99899bacb51f7ccf2511f223 dt-bindings: eeprom: at24: Add compatible for Giantec GT24P64A
-         7a29af24b288eace769ccd9eb8044742dfbd5944 eeprom: at24: use dev_err_probe() consistently
-         
+  - ref: refs/heads/scx-dl-server
+    old: c5149890d224c2376c876201ad7442dd530ba274
+    new: 598bf824635f5c2184ab984a5f3af6d0f3f6963e
+    log: revlist-c5149890d224-598bf824635f.txt
+
+--===============0215074485863752782==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-c5149890d224-598bf824635f.txt
+
+835a50753579aa8368a08fca307e638723207768 selftests/bpf: Add -fms-extensions to bpf build flags
+861111b69896145a928c889d9344797ea3711028 net: smc: SMC_HS_CTRL_BPF should depend on BPF_JIT
+639f58a0f4808e78ff6c764747ee125c0e2f093c bpftool: Fix build warnings due to MS extensions
+d70f79fef65810faf64dbae1f3a1b5623cdb2345 libbpf: Fix -Wdiscarded-qualifiers under C23
+189e5deb944a6f9c7992355d60bffd8ec2e54a9c bpf, arm64: Do not audit capability check in do_jit()
+ca45c84afb8c91a8d688b0012657099c24f59266 bpf: Add bpf_has_frame_pointer()
+01bc3b6db18d6e0a2e93c37885996bf339bfe337 x86/unwind/orc: Support reliable unwinding through BPF stack frames
+297c3fba9d766b52b6b8e99fa53f0a85c5902909 Merge branch 'bpf-x86-unwind-orc-support-reliable-unwinding-through-bpf-stack-frames'
+234483565dbb2b264fdd165927c89fbf3ecf4733 bpf: Fix truncated dmabuf iterator reads
+9489d457d48bd10c4eacd8670840132be00c15cd selftests/bpf: Add test for truncated dmabuf_iter reads
+ac44dcc788b950606793e8f9690c30925f59df02 bpf: Fix verifier assumptions of bpf_d_path's output buffer
+79e247d6608848c09038d0b1e7d256432624fd84 selftests/bpf: add regression test for bpf_d_path()
+1d528e794f3db5d32279123a89957c44c4406a09 Merge branch 'bpf-fix-bpf_d_path-helper-prototype'
+b1aa01d31249bd116b18c7f512d3e46b4b4ad83b s390/ipl: Clear SBP flag when bootprog is set
+4cb92fa763823d813d22b45b7f18fcf6e85a72ad s390/pci: Fix cyclic dead-lock in zpci_zdev_put() and zpci_scan_devices()
+af241e6bfc11125e6669dabf0800fce6809dd3cf s390/pci: Annotate lock context imbalance in zpci_release_device()
+489e96651dfe59794195c6b2ddb78835edd9f2ed s390/stacktrace: Do not fallback to RA register
+64e68f8a95eb771273d8d19f9dc1f763524e56d9 Merge tag 's390-6.19-3' of git://git.kernel.org/pub/scm/linux/kernel/git/s390/linux
+ea1013c1539270e372fc99854bc6e4d94eaeff66 Merge tag 'bpf-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf
+968535ac2c21669d1ed68dc8c51d9523692f798a sched/deadline: Clear the defer params
+7a7217b998ddcac7b7e39f928b783e8833e30195 sched/debug: Fix updating of ppos on server write ops
+ca2b06c98224f566e0b316aac9acf14210c3869a sched/debug: Stop and start server based on if it was active
+488fb1894047a9d3876ca5a22259470fbb7deb01 sched_ext: Add a DL server for sched_ext tasks
+6d87df84b35833cd248b0860ab476b9b855bbf20 sched/debug: Add support to change sched_ext server params
+aee6277805b743b042c9ff21798927098190df5b selftests/sched_ext: Add test for sched_ext dl_server
+598bf824635f5c2184ab984a5f3af6d0f3f6963e selftests/sched_ext: Add test for DL server total_bw consistency
+
+--===============0215074485863752782==--
