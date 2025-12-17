@@ -1,62 +1,45 @@
-Content-Type: multipart/mixed; boundary="===============8126216570129210409=="
+Content-Type: multipart/mixed; boundary="===============1495676042301039036=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Wed, 17 Dec 2025 12:10:37 -0000
-Message-Id: <176597343793.3269769.14779565020119363169@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Wed, 17 Dec 2025 12:10:41 -0000
+Message-Id: <176597344123.3269974.5711196955016674613@gitolite.kernel.org>
 
---===============8126216570129210409==
+--===============1495676042301039036==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/driver-core
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/class_cleanup
-    old: 663134644f9208f834d9ecd7b3771a8705abf8de
-    new: 4fc60fcfdebfa1fa7c5197b7cc3c7a3e0f398c6a
-    log: revlist-663134644f92-4fc60fcfdebf.txt
+  - ref: refs/heads/selftest-filelock-ktap
+    old: 0106f8d470081487460445b59cbbcb29ede3143b
+    new: b21e4ef1b0ebae7aaff160b7e74061fef14c994a
+    log: revlist-0106f8d47008-b21e4ef1b0eb.txt
 
---===============8126216570129210409==
+--===============1495676042301039036==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-0106f8d47008-b21e4ef1b0eb.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1765973431 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1765973429-cf4991f5641886039c32faed66adfa38e42ca61e
-
-663134644f9208f834d9ecd7b3771a8705abf8de 4fc60fcfdebfa1fa7c5197b7cc3c7a3e0f398c6a refs/heads/class_cleanup
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmlCnbcbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk++twQAJBxXFstRYREvvPLe/6l
-R5W++pc8k4BWm9vZeglWhIAaA8ltJVWYTtuCCPideWj12POjNEN1Yn18NJ2N+O0u
-YbE7rtwqlFkpPtgJYcm5IzUtEz5dCllbK3+mwevtx94shTA+6rUODQLKUtGAmisH
-kj3p3Kic2Gf0nGTofGDVEIVx5dvW5uEJvyfjakgGJ/cghwTrg+KrvkzbQwGKh1Ix
-VMMoB+aWPRMcW/lSsRaiiSS+8ow9ei+f52t0FcSQn+uwL+KlMWuBYoPBtdB1hPhH
-7MAVXwCSrzYgTUGJNO1AXJOt/SVrEOKtaSCaSdU7GiJGSnZp56u8GAJPfOo0t7Ja
-V9XfvmLF1f9LMH5/jkEF582MdaOuViiRn/XfdA+YM+NzlZsx5cDy4YB2XiL1C0rY
-eVNSKYQ3XbeebkbTIGIExYfeNSwsmWY7k0QNwYHQ5Egrm9F9AAr9jxxT5ViZExIk
-F+N/voLyhacMInSHx1IzKUe8amXhdm4vDru7XgfaGJCKjqHbHp75PQuGtmha7RFz
-AICyGMMaztKT5Sib7gevDgsbwIXJO4BNX19OcfpVtXpnxps7OhFbKNNkjQxyFndF
-5epZdKlFlzR9WqNrBPNNTxzjCiNZPtE5yCdXlqGZqKjR2j+FHtMoyCjFMTKCf1FG
-s5cElJuM/4WTEpUz3P0c9eNO
-=jUYP
------END PGP SIGNATURE-----
-
---===============8126216570129210409==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-663134644f92-4fc60fcfdebf.txt
-
+1dd6c84f1c544e552848a8968599220bd464e338 sched_ext: Fix incorrect sched_class settings for per-cpu migration tasks
+484f1176896e85b5ae4f04403c8cd5b79aced95e Bluetooth: mediatek: add gpio pin to reset bt
+01622e9a5336015f657df423b700e488fbcd2f39 Bluetooth: hci_h5: avoid sending two SYNC messages
+97fdb2ea06efdde784480934d1ff60eb21e88b58 Bluetooth: hci_h5: implement CRC data integrity
+33b2835f0b7e2a458473b0e3a23b54b92108b6b0 Bluetooth: HCI: Add initial support for PAST
+c530569adc19b5f0c62955de41f067bad34e3fe0 Bluetooth: hci_core: Introduce HCI_CONN_FLAG_PAST
+d3413703d5f8b7d1e6f514f9440ed5da1bc30796 Bluetooth: ISO: Add support to bind to trigger PAST
+14b06c3a88f7031d64fbce197fad1d400e507663 Bluetooth: HCI: Always use the identity address when initializing a connection
+f817db10dc80d5d1eece60d93eba11062afe5154 Bluetooth: ISO: Attempt to resolve broadcast address
+a3b76bf4c4c90994248e3211b300d2d9834874f9 Bluetooth: MGMT: Allow use of Set Device Flags without Add Device
+577cf4c0a1e8471a0d6c0f36bb3716285e27ad5e Bluetooth: ISO: Fix not updating BIS sender source address
+c126f98c011f5796ba118ef2093122d02809d30d Bluetooth: btusb: MT7920: Add VID/PID 0489/e135
+5a6700a31c953af9a17a7e2681335f31d922614d Bluetooth: btusb: MT7922: Add VID/PID 0489/e170
+1fb0d830dab89d0dc99bb84a7087b0ceca63d2d8 Bluetooth: btintel_pcie: Support for S4 (Hibernate)
 88c6216a52ea592ec351dddd042ecb0247325be5 Bluetooth: btintel_pcie: Suspend/Resume: Controller doorbell interrupt handling
 8dbbb5423c0802ec21266765de80fd491868fab1 Bluetooth: btusb: Add new VID/PID 2b89/6275 for RTL8761BUV
 0b00bee940cb16bfd42e764465705dbf2a95b55c Bluetooth: btusb: Reclassify Qualcomm WCN6855 debug packets
@@ -1063,23 +1046,9 @@ cba09e3ed06db4b6c87bc97e0aea080421fb8f7d Merge tag 'perf-urgent-2025-12-12' of g
 0dfb36b2dcb666f116ba314e631bd3bc632c44d1 Merge tag 'ceph-for-6.19-rc1' of https://github.com/ceph/ceph-client
 6a1636e06625ec0dd7f2b908ab39a8beea24bfd3 Merge tag 'scsi-misc' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
 8f0b4cce4481fb22653697cced8d0d04027cb1e8 Linux 6.19-rc1
-218063d7ce2700859cfd5f7baaa4bd8cf75c50bb drm/dp: make drm_dp_aux_dev_class constant
-8f639d95218790fde427637ef732b32dbf707b55 drm/sysfs: make drm_class constant
-77937d7806de427b4830867796657a11b61fc893 drm/fbdev/core: make fb_class constant
-5cdba26711ead3925fe95136ecf0d2a11b117b59 dma-buf: heaps: make dma_heap_class constant
-f4e2c78b125c6ad105adbd863932f6477487cc8f media: dvbdev: make dvb_class constant
-7c083b60ada70f1dda5ec6fe41c3cd36b806fc2c drm/dp: constify the struct device_type usage
-5df396aa8a29be4a75a3f6a74766feaf984f312f drm/privacy_screen: constify the struct device_type usage
-bd3873c17d98f3eba7746ed77712c0a24b6ebb51 drm/sysfs: constify the struct device_type usage
-621b8cb14a8239ff8168fb17c9c2b3bfa18ef306 rapidio: make rio_mport_class constant
-4e4aa50972ab83c5547eacb4319c49c0edc3a948 parport: constify the struct device_type usage
-4d196c7adf9062150e73bd9ecef8cc8adb376e07 coda: psdev: make coda_psdev_class a static const structure
-a494a4e94aeef24900ef40dcab650d5045992439 cuse: make cuse_class a static const structure
-295fdc00c84b45d32fba17abd045f8a20566772e pstore: pmsg: make pmsg_class a static const structure
-3e17b504f043765ec83ce5998b80154a16dee61f netfilter:xt_IDLETIMER: make idletimer_tg_class a static const structure
-4273855661216595134a4cce7d7750cda3297923 PM: wakeup: make wakeup_class a static const structure
-87768a9ec7f6f22a9e6471bdb5a0c1969a90e362 gnss: make gnss_class a static const structure
-f2884169b0f7ae0c9309d265d43b9d16c9154b54 extcon: make extcon_class a static const structure
-4fc60fcfdebfa1fa7c5197b7cc3c7a3e0f398c6a misc: c2port: core: make c2port_class a static const structure
+d49e5776fb4eaed2ee4c30e7289a54bb5e064663 selftests/filelock: Make output more kselftestish
+593f0ac6e3ca6889a390450fea2f1c73cf04f1b4 kselftest/filelock: Use ksft_perror()
+5b30681dcf9b9d4b87a0468cc3f0b668d79a1e74 kselftest/filelock: Report each test in oftlocks separately
+b21e4ef1b0ebae7aaff160b7e74061fef14c994a kselftest/filelock: Add a .gitignore file
 
---===============8126216570129210409==--
+--===============1495676042301039036==--
