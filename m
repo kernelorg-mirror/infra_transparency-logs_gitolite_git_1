@@ -1,24 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
-Date: Wed, 17 Dec 2025 21:50:14 -0000
-Message-Id: <176600821432.3875205.8720408927849679774@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/joel.granados/linux
+Date: Wed, 17 Dec 2025 21:54:52 -0000
+Message-Id: <176600849247.3877871.8598129573231839532@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
-user: vudentz
+repo: pub/scm/linux/kernel/git/joel.granados/linux
+user: joel.granados
 changes:
-  - ref: refs/heads/master
-    old: 3a7cf69ce3cfce597357cb677a4f23e0d26481a3
-    new: afa20d8099ddf3cf934c7daba9a00399d9ef43a2
+  - ref: refs/heads/jag/dovec_consolidate
+    old: 0ee6573b1a518ca5e64079a973ad01cde98adf97
+    new: 96185449a89d542ae186d3a530dfd59920e7773a
     log: |
-         b96a6fd8cb4ec10aff6d3beadf558c53f2bedbc1 Bluetooth: btusb: Add support for MediaTek7920 0489:e158
-         0ad59c87f41cfd10f9e686f8a076e927c5f2288f Bluetooth: hci_bcm4377: Use generic power management
-         fd52b1d0ad7de69b1266c2efa7065e1d2f8acb49 Bluetooth: btmtksdio: Use pm_ptr instead of #ifdef CONFIG_PM
-         ad2804ccc724fa12a5497d4ec04aa5fc3183fa6e Bluetooth: hci_conn: use mod_delayed_work for active mode timeout
-         f7f2402b780738ff4bdb2f8d40a6c2136f1f92d4 Bluetooth: hci_conn: Set link_policy on incoming ACL connections
-         afa20d8099ddf3cf934c7daba9a00399d9ef43a2 Bluetooth: mgmt: Add idle_timeout to configurable system parameters
+         e2dc1f04bf5be79afd7f9a100f96fe563aaea73c sysctl: REWRITE MESSAGE!!!!
+         67c3c1468ae67eab5f2d5b890fcb0792ad6c52c8 sysctl : SQUASH when  proc_int_conv was introduced
+         ef242e93868f8732bd115c9b087ebee2c74f36eb SQUASH with proc_ulong_conv.
+         d60b1672d8f49af8433335ebe5723dfbebe6d4e8 SQUASH with proc_ulong_u2k_conv_uop
+         8ce0559763f13a61d67e832563e660b5891b7b60 SQUASH with  proc_ulong_k2u_conv_kop
+         4a7e610aaa137ecbff5fe42ed5cc402f90d48e30 SQUASH: when proc_doulongvec_minmax_conv was created
+         787d4020f083d06288d320ec200046c7c0d18dd2 SQUASH: with proc_dointvec_conv creation
+         96185449a89d542ae186d3a530dfd59920e7773a CHECK/RE-WRITEsysctl: Rename proc_doulongvec_minmax_conv to proc_doulongvec_conv
          
