@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8296915890920854576=="
+Content-Type: multipart/mixed; boundary="===============7300323342767309412=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/robh/linux
-Date: Wed, 17 Dec 2025 15:19:19 -0000
-Message-Id: <176598475999.3458223.5790647784096107046@gitolite.kernel.org>
+Date: Wed, 17 Dec 2025 15:19:26 -0000
+Message-Id: <176598476632.3458491.15428477763202350564@gitolite.kernel.org>
 
---===============8296915890920854576==
+--===============7300323342767309412==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/robh/linux
 user: robh
 changes:
-  - ref: refs/heads/dt/next
+  - ref: refs/heads/for-next
     old: 0002df541b8b54dcd99e7369762be9a919fb6b53
     new: 5530836fb91487d915ece36b1fa8bdc3d0f4547f
     log: revlist-0002df541b8b-5530836fb914.txt
 
---===============8296915890920854576==
+--===============7300323342767309412==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -38,4 +38,4 @@ bb3540916cffbefc2647d9e5c09b1ce033a2195c dt-bindings: Remove unused includes
 b82a6bda8678bdac688ceff1eee9593fd237db97 dt-bindings: trivial-devices: Add socionext,uniphier-smpctrl
 5530836fb91487d915ece36b1fa8bdc3d0f4547f of: replace strcmp_suffix() with strends()
 
---===============8296915890920854576==--
+--===============7300323342767309412==--
