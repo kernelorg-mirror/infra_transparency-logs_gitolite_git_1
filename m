@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/sysdarch
-Date: Wed, 17 Dec 2025 18:30:09 -0000
-Message-Id: <176599620916.3684367.1882329946433725197@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/paulmck/perfbook
+Date: Wed, 17 Dec 2025 18:34:34 -0000
+Message-Id: <176599647461.3686787.555130905833697470@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/sysdarch
-user: jarkko
+repo: pub/scm/linux/kernel/git/paulmck/perfbook
+user: paulmck
 changes:
-  - ref: refs/heads/main
-    old: 499b876e0eb3d8ee991f3a31931aca7d30a6ae19
-    new: 5fddd875cc259ed63c922faa8cfedd3bf812c6d9
+  - ref: refs/heads/master
+    old: 17c29ff8a2af29c98cf34544b5896f18c03b2ff7
+    new: a029dfc1280829c3302fba5d613a30558602d4eb
     log: |
-         5fddd875cc259ed63c922faa8cfedd3bf812c6d9 Switch to Niri compositor
+         90ecdf0401fcd5da5499d92616d000f039e0bca0 advsync/rt.tex: Add Zhouyi Zhou's polling RT approach
+         a029dfc1280829c3302fba5d613a30558602d4eb advsync/rt: Add Valentin Schneider's IPI-deferral work
          
