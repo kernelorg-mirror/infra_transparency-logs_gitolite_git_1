@@ -1,43 +1,52 @@
-Content-Type: multipart/mixed; boundary="===============7012284077984696738=="
+Content-Type: multipart/mixed; boundary="===============3856643986049945260=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/docs/man-pages/man-pages
-Date: Wed, 17 Dec 2025 13:27:28 -0000
-Message-Id: <176597804886.3346765.986630871128770211@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/alexs/linux
+Date: Wed, 17 Dec 2025 13:30:49 -0000
+Message-Id: <176597824908.3351111.18026751279532768422@gitolite.kernel.org>
 
---===============7012284077984696738==
+--===============3856643986049945260==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/docs/man-pages/man-pages
-user: alx
+repo: pub/scm/linux/kernel/git/alexs/linux
+user: alexs
 changes:
-  - ref: refs/heads/master
-    old: 46950a0845de91c422efe6c639091ace42cb92f8
-    new: a5342ef55f0a96790bf279a98c9d2a30b19fc9eb
-    log: revlist-46950a0845de-a5342ef55f0a.txt
+  - ref: refs/heads/docs-next
+    old: f12ae9ba4d234732dc091cb0565d52b286de7572
+    new: 464257baf99200d1be1c053f15aa617056361e81
+    log: revlist-f12ae9ba4d23-464257baf992.txt
+  - ref: refs/tags/docs-6.19
+    old: 0000000000000000000000000000000000000000
+    new: b064b034f36a9e3d4b4c56ef679f3311d1290954
 
---===============7012284077984696738==
+--===============3856643986049945260==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-46950a0845de-a5342ef55f0a.txt
+Content-Disposition: attachment; filename=revlist-f12ae9ba4d23-464257baf992.txt
 
-90f18b452a7113f42ea4e222f819257e692ce57b man/man3/posix_memalign.3: Remove confusing exception
-19b5ea61e0ca81a55f1266bc0f290ac3fea59373 man/man3/posix_memalign.3: wfix
-82bcf3b0f37da2552a283214d7f558741d85e942 man/man3/posix_memalign.3: STANDARDS: aligned_alloc() conforms to C17, not C11
-04f5087e54eb75de430c49e50238186d84d7804c man/man3/posix_memalign.3: STANDARDS: aligned_alloc() conforms to C23
-c8ffb2124afd23a4200691d31f96cd3e0cf0c02f man/man3/posix_memalign.3: STANDARDS: aligned_alloc() and posix_memalign() conform to POSIX.1-2024
-51b7f9f43587df5a4bdb76df0024003602e8ee7f man/man3/{posix_,}memalign.3: Split memalign() from posix_memalign(3)
-a60d6283f21c7f080ba064cb3153103f740a5c79 man/man3/{posix_memalign,pvalloc}.3: Split pvalloc() from posix_memalign(3)
-126c39d0fb79014d489f5d47ec4268662abb9b72 man/man3/{posix_memalign,valloc}.3: Split valloc() from posix_memalign(3)
-b23cb7bc6d526d2015b3d97781708457e1447e62 man/man3/{aligned_alloc,posix_memalign}.3: Split aligned_alloc() from posix_memalign(3)
-1e5a0260edfd3fd4c9a5d4a79e5948cbde2addce man/man3/posix_memalign.3: CAVEATS: Add section, and move paragraph to it
-c0b9fd96ac6b32d21746beb39e103eeef4f85635 man/man3/posix_memalign.3: Remove redundant text
-34d98453483412215b8ebb39eab77d36eb00751d man/man3/posix_memalign.3: NOTES: Remove superfluous section
-a5342ef55f0a96790bf279a98c9d2a30b19fc9eb man/man3/memalign.3: wfix
+46a47693e109f49483391bc66ad5f0ed53a1857a Documentation/kernel-parameters: fix typo in retbleed= kernel parameter description
+6ae0f2072768fb3db7846cee08b611a96310930d docs: parse-headers.rst: Fix a typo
+f690e07859e67505e7106ef5b4fae5e8b71b2109 Documentation/kernel-parameters: Move the kernel build options
+778b8ebe5192e7a7f00563a7456517dfa63e1d90 docs: Move the python libraries to tools/lib/python
+992a9df41ad7173588bf90e15b33d45db2811aea docs: bring some order to our Python module hierarchy
+34a28245b6a5c4227b7122c0ff9b98d22b39f033 Merge branch 'python-modules' into docs-mw
+55fb2d572623c6ce81b3519c51309c9127dbd1c8 Documentation/admin-guide: fix typo and comment in cscope example
+caa642bf3b767c4b33a62c6e2c2708fafb88ea6c tools/docs/get_feat.py: convert get_feat.pl to Python
+b713807eab1ee6716c80bb318cb8580408d0137d Documentation/sphinx/kernel_feat.py: use class directly
+e6bfd693bdd7daa373f23fdc4e61a3f34cce1ee9 get_feat.pl: remove it, as it got replaced by get_feat.py
+d879c2e0195bd5fd4c48467b95b77e494099c96c Merge branch 'mauro' into docs-mw
+0dd5cf95b737f9917fce095578b1c9549e38c132 Merge tag 'Chinese-docs-6.19' of gitolite.kernel.org:pub/scm/linux/kernel/git/alexs/linux into tmp
+4d23db5b24a60c4add4755763e1275b2e5d14ffb docs: MAINTAINERS: update Mauro's files/paths
+2006f468bbf2f44fa3e295491c94ec116aa4b026 docs: kdoc_parser: add data/function attributes to ignore
+e36a7b1e173459bb250cb6a70681b64aa6d04915 docs: submitting-patches: Clarify that removal of Acks needs explanation too
+18182f9758de45f5ea1e46b95f3a9548a30eb61d docs: kdoc_parser: use '@' for Excess enum value
+5f88f44d8427a97347afda3a6114aed0df472a0b docs: kdoc: various fixes for grammar, spelling, punctuation
+b9a565b3e4d852d8af14f2c4be0b1dc45f0884b6 README: restructure with role-based documentation and guidelines
+464257baf99200d1be1c053f15aa617056361e81 docs: makefile: move rustdoc check to the build wrapper
 
---===============7012284077984696738==--
+--===============3856643986049945260==--
