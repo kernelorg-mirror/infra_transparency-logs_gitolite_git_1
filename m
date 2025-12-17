@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/korgalore/korgalore
-Date: Wed, 17 Dec 2025 20:25:04 -0000
-Message-Id: <176600310409.3795919.4090734762251600442@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/sysdarch
+Date: Wed, 17 Dec 2025 20:27:31 -0000
+Message-Id: <176600325184.3797680.6546940259723366541@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/korgalore/korgalore
-user: mricon
+repo: pub/scm/linux/kernel/git/jarkko/sysdarch
+user: jarkko
 changes:
-  - ref: refs/heads/master
-    old: 2bc27d4a0d60d479aada5287efd5511db304e890
-    new: cd1471b2685fa95ff37053a0b25793c6e229beeb
+  - ref: refs/heads/main
+    old: e95fde12daa2f15fd1138235cb4e8c1b415a1115
+    new: 397a9ecb3b4c1fe43f07b9a6ff14de4047afd4a1
     log: |
-         cd1471b2685fa95ff37053a0b25793c6e229beeb Add pipe target for delivering messages to external commands
+         397a9ecb3b4c1fe43f07b9a6ff14de4047afd4a1 Switch to Niri compositor
          
