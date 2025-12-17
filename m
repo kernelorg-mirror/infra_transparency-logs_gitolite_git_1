@@ -1,31 +1,65 @@
-Content-Type: multipart/mixed; boundary="===============1898530625987608693=="
+Content-Type: multipart/mixed; boundary="===============5274771162207313737=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Wed, 17 Dec 2025 12:07:00 -0000
-Message-Id: <176597322056.3264778.5647238917281911629@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
+Date: Wed, 17 Dec 2025 12:08:24 -0000
+Message-Id: <176597330403.3265616.3284738291107083187@gitolite.kernel.org>
 
---===============1898530625987608693==
+--===============5274771162207313737==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/gregkh/driver-core
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/selftests-fchmodat2
-    old: 781b31ae1db8a40d1ad6fc64a1a46b14b0644352
-    new: 56fe450d6e65d6d2b63f41d6d26b00c983e62c60
-    log: revlist-781b31ae1db8-56fe450d6e65.txt
+  - ref: refs/heads/bus_cleanup
+    old: 96ec1e5948366f9e70adacdcaa4c45e361b846a6
+    new: 8f0b4cce4481fb22653697cced8d0d04027cb1e8
+    log: revlist-96ec1e594836-8f0b4cce4481.txt
 
---===============1898530625987608693==
+--===============5274771162207313737==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-781b31ae1db8-56fe450d6e65.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1765973302 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
+nonce 1765973300-783384b5e8ee29d2f5e8c23dc5b51d6b8d20e395
+
+96ec1e5948366f9e70adacdcaa4c45e361b846a6 8f0b4cce4481fb22653697cced8d0d04027cb1e8 refs/heads/bus_cleanup
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmlCnTYbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+ZBsP/1Y1qNXAZd9kAoEcXCGM
+NwyPeHGjt32sRxndXso+07US6yUsl2IMjM+Kj0ZJRpCNS+oX7vj1iX6+if7ct8SQ
+JsD9q2HB+qIDiMERCFPQ3/tENeKEoqBwIbI4QBk8OVxS46onLWsp0jJIDxgweSD4
+5RhtV3wiX1mkypqj9resR8QjY5ALCerNUTw+Z1/uxgzJIEX08R4kUBq1ALYGE9pp
+8NBM/rZPWqcAOR7JghDoH7iUroG/rxZB+CvKN2CL0UhanrUL6taU+JnSSiKUH33F
+z1ctJNsviTx9hRhXACiFxhSqz/FXopCWB6nSFJB1ohpSzHvYVvMhvV0DHWAoiA3e
+H59N7uFS6UIUtabiZDarVlM7VWuHQ9xMmcSVnykudX6HVBG7Dk4BkalZr8BBSoyi
+0TnAKLjqHauVppzdB/618Tg3/A/fj2Oi46i8P/SkFn82TwlCVaGBxnPT9gHNj0FG
+0jB01kYaGQv5VgbzB3r3I0SIDvMr6obS5fUwU9/L1fn9dC8MXhXpiUNgKAZPeyvP
+myP5xPUd1y8Sk7rV5wvJMYW1MWeXKro+9NXKNAB2aJho8n0GKAeYWtN4kRToxNrc
+YvpPa37d+0Ga3WyZZgA3UKn9rmZLHuvLu/We7Q8H/mHKqctO1sxEHlZ8xa8x6Y16
+ssdwmiu6yW0aBvhXAvwx1Fa3
+=QNio
+-----END PGP SIGNATURE-----
+
+--===============5274771162207313737==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-96ec1e594836-8f0b4cce4481.txt
+
+09339d0d83108fd4f59b94677ac99bde870aa0ae l2tp: correct debugfs label for tunnel tx stats
+ea2d3befcf29cca5221d0572d54e4d71b683175d net: dsa: yt921x: Set ageing_time_min/ageing_time_max
+e3b8cbf40c6e60a7a935bd8980884d5741a7a77b selftests: netconsole: remove log noise due to socat exit
 33b4c26d4d3ccd24d9721a577671f2c73c1a7cd9 x86/platform: Fix and extend kernel-doc comments in <asm/x86_init.h>
 1dd6c84f1c544e552848a8968599220bd464e338 sched_ext: Fix incorrect sched_class settings for per-cpu migration tasks
 484f1176896e85b5ae4f04403c8cd5b79aced95e Bluetooth: mediatek: add gpio pin to reset bt
@@ -1047,8 +1081,5 @@ cba09e3ed06db4b6c87bc97e0aea080421fb8f7d Merge tag 'perf-urgent-2025-12-12' of g
 0dfb36b2dcb666f116ba314e631bd3bc632c44d1 Merge tag 'ceph-for-6.19-rc1' of https://github.com/ceph/ceph-client
 6a1636e06625ec0dd7f2b908ab39a8beea24bfd3 Merge tag 'scsi-misc' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
 8f0b4cce4481fb22653697cced8d0d04027cb1e8 Linux 6.19-rc1
-5b23fd876c65db2674a640c2ebb88c7dcafd3e2a selftests/fchmodat2: Error handling and general cleanups
-f2ba6c3133bbd4e4b6411461b6bc89d9380ff6f7 selftests/fchmodat2: Clean up temporary files and directories
-56fe450d6e65d6d2b63f41d6d26b00c983e62c60 selftests/fchmodat2: Use ksft_finished()
 
---===============1898530625987608693==--
+--===============5274771162207313737==--
