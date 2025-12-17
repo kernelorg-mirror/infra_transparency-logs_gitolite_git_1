@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7639166727736951171=="
+Content-Type: multipart/mixed; boundary="===============1784715695656760463=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Wed, 17 Dec 2025 12:11:26 -0000
-Message-Id: <176597348675.3270883.6015136684991578074@gitolite.kernel.org>
+Date: Wed, 17 Dec 2025 12:12:25 -0000
+Message-Id: <176597354554.3271598.7252475045378539016@gitolite.kernel.org>
 
---===============7639166727736951171==
+--===============1784715695656760463==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,47 +16,48 @@ repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/container_of_const_mess
-    old: 59d517c571b666305922e7c56c88976e51a1b137
-    new: 211be854856937a489ef95338f0321633366a813
-    log: revlist-59d517c571b6-211be8548569.txt
+  - ref: refs/heads/pmu_bus
+    old: c9a51d9c7b4ad7158052f9e69b4fdb3a4a00496b
+    new: 69a327baff58f19510f0db9904578a12426b2775
+    log: revlist-c9a51d9c7b4a-69a327baff58.txt
 
---===============7639166727736951171==
+--===============1784715695656760463==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1765973480 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1765973540 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1765973478-80f1ad2ccbe6dd566ad528eb2043f7c955c69030
+nonce 1765973538-0385e16ed080c37bf0da234fa91d58b0cdb676db
 
-59d517c571b666305922e7c56c88976e51a1b137 211be854856937a489ef95338f0321633366a813 refs/heads/container_of_const_mess
+c9a51d9c7b4ad7158052f9e69b4fdb3a4a00496b 69a327baff58f19510f0db9904578a12426b2775 refs/heads/pmu_bus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmlCnegbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+OcsP/0EiVH07ff543AUKAGnY
-D9gyRrFZgFf0Pn+7xUdrVkNeAWWDYIg0nS7N9EOyKSjnRw1yB+Hid2oqJqrPTEI9
-VJfTEM+LVgG2uthMJCB94EfDjY/S1ypofsP7+riKLLCR4tBWJnf4b7+HM+1khUws
-MG7tSjL2SzJSCchJS1/1A2PWhyvItPKMbdsEXicE5kN55M8DZiZjc6WBkVs/ha7I
-9CvFzs+/TwhFYO5+eETa/t+eHCUeFDAGbLEm+45nAubAVEiK0pCYSIlh10ffurn5
-sf41Ti2k+cwync0+CwQ4EiGVMrVAnId+r7YG9PZ8L9WVk4UNlHku909UmKsjoqd0
-fJeL+CcVDW2FC/kSmsrzOM52UJ70/kHnMJ6nbtdmpAjT320KGsH54iKnHY7rj9qi
-M5EzWtvV9U3HnB5Cz6lFrNALaV/KHc/a/k21fgwaDtnQjJemW++ychfExTbSqsGL
-PE4ySigqqDnlomIycm25KKmHIMjkBHxgUSXWOmWNyjPhs8XgWPP1+hftIr654Z47
-CpO8NCBWeh7Tnwb+dJMLqxrLvmogYTG49cjwX9dNbO5NQpenUQlVnq5PjN2owyxb
-kNs5ugqTPQT5PP0gxTPg60puwzdnsUcnumrUpRLk2CJkYAdkuAoVhSkS+zGpZ+0m
-zrtQboVeA9uVCTo/gh8KR+OK
-=1u9i
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmlCniQbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+YUcP/imnkg3LaDdaC4W1o9+X
+OfmCCOd36u7SdnYyOs0QieJ3j0drSSmsIDA8W99YDecXvo4vglBSQJWEbvyuKjuX
+cRhCWStLeZbs7SlO8OIDsKhKvHeD9MaMIYg6aCANQTcm1caZk+8ZESX6iC6dHUMM
+iBFobmpClbi/iifucxXf7i/afdfVg6yU09euI2tnJIxejs3+XrovmFl/jsu/lEsz
+YYClLMY7pk0KUwMIxYvy7EtG1m6P/4EgCQ0a19FZ1qFWDZlR9MNM+1YozGXZRJ1e
+k2JUnYNlaa1gvtWfeH8uyxALVZeph12JXUBfq6IcImJa5Y4YigB9fn0vT2PFuQzJ
+lKYaupkSe3Nsv1Zp+AjCrbzw6XGVysenik4rxcjyYD5qAiRLaedgyEMHjDGTzYQj
+rM9tlkV+XBc41gtY20xjQqi7XHhQC0N11PcdXlnOTaTKlxvASqoJyLSklYqUMGUg
+TI5KSI0o3SmMT+tv/XXhpoc5tXGvq86xnXNU0hotIC6pj/Dxc2FDnxm/pHUb6E/n
+qBP3JW/INuUwoipst438VVF3amI1LPvyzza8TINLUWrQtAvN61DGjS+pdgVYS6bJ
+LtFqs8h7Ve6evnuI2w64eHreTRnPrFUSBBktaNDEDjZXJlSmFdNc/fJi+hxqgZih
+eE9fKaPrdAWFBReeVMjdvyku
+=xzg1
 -----END PGP SIGNATURE-----
 
---===============7639166727736951171==
+--===============1784715695656760463==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-59d517c571b6-211be8548569.txt
+Content-Disposition: attachment; filename=revlist-c9a51d9c7b4a-69a327baff58.txt
 
+ea2d3befcf29cca5221d0572d54e4d71b683175d net: dsa: yt921x: Set ageing_time_min/ageing_time_max
 e3b8cbf40c6e60a7a935bd8980884d5741a7a77b selftests: netconsole: remove log noise due to socat exit
 33b4c26d4d3ccd24d9721a577671f2c73c1a7cd9 x86/platform: Fix and extend kernel-doc comments in <asm/x86_init.h>
 1dd6c84f1c544e552848a8968599220bd464e338 sched_ext: Fix incorrect sched_class settings for per-cpu migration tasks
@@ -1079,7 +1080,6 @@ cba09e3ed06db4b6c87bc97e0aea080421fb8f7d Merge tag 'perf-urgent-2025-12-12' of g
 0dfb36b2dcb666f116ba314e631bd3bc632c44d1 Merge tag 'ceph-for-6.19-rc1' of https://github.com/ceph/ceph-client
 6a1636e06625ec0dd7f2b908ab39a8beea24bfd3 Merge tag 'scsi-misc' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
 8f0b4cce4481fb22653697cced8d0d04027cb1e8 Linux 6.19-rc1
-ea8cab3db2b5a56c5ef63d0e32accce58eb9bb2c container_of: switch to be a const call
-211be854856937a489ef95338f0321633366a813 generic: fix up some const issues.
+69a327baff58f19510f0db9904578a12426b2775 perf/core: move all of the pmu devices into their own location
 
---===============7639166727736951171==--
+--===============1784715695656760463==--
