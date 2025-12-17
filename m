@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8393429868151428279=="
+Content-Type: multipart/mixed; boundary="===============8273054080718567311=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Wed, 17 Dec 2025 03:41:17 -0000
-Message-Id: <176594287749.2783541.8047712023040661453@gitolite.kernel.org>
+Date: Wed, 17 Dec 2025 03:41:42 -0000
+Message-Id: <176594290288.2783946.12787761658242785568@gitolite.kernel.org>
 
---===============8393429868151428279==
+--===============8273054080718567311==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,76 +16,46 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/queue
-    old: 946574434aa9cfe175c3e8234734a3822410ff53
-    new: 8f0b4cce4481fb22653697cced8d0d04027cb1e8
-    log: revlist-946574434aa9-8f0b4cce4481.txt
+  - ref: refs/tags/mkp-scsi-staging
+    old: 1478cf5f50c5d7646efe7a0bb47d110fe53eeef1
+    new: fc4cfad5895c046993975a2625f90ad7b3370b23
+    log: revlist-1478cf5f50c5-fc4cfad5895c.txt
 
---===============8393429868151428279==
+--===============8273054080718567311==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1765942875 -0500
+pusher 75C5DE3D 1765942881 -0500
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1765942871-32ec20226cef7eca5323a85dc4ea20c74346aa0a
+nonce 1765942881-bba958cddf7fc350cdad031ab1be9071a1548f17
 
-946574434aa9cfe175c3e8234734a3822410ff53 8f0b4cce4481fb22653697cced8d0d04027cb1e8 refs/heads/queue
+1478cf5f50c5d7646efe7a0bb47d110fe53eeef1 fc4cfad5895c046993975a2625f90ad7b3370b23 refs/tags/mkp-scsi-staging
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmlCJlsACgkQ7ulgGnXF
-3j3oJA//enTibc3VU0Lx8N0ogpnJdRPorkfykx/9Kg6NQfLmfWgV8JwuzYWbsGwq
-1cwevPGa4Kd1bvS4fH0GjUdmU8yjcARbs5HPg+XOWJqQdS5rFev7rIhChd3cVKRV
-KSqT+6RvM2tWXcXtMGQVSl6ZwoTaoD0gGPpEZD/iuGLeJRR2sVfp7WRuXmkCGm8O
-JELgFdGVqaVb47hFxsfzYBPCt3sPkzfFmvBPlh81Dn3Ace+5yrn6okXpVGhRAsZ3
-YU+0YVJFXXCLUxmbsK7Vyek5a8Bex3+qa2ID+3rzcRyDh4xSdrR//TiglTMgOiVH
-p5YfdE9Aw2B/6A8rtBqkzZVKgOefZT8l1T/d9a1UJFw1luMMluS29Gl6rhgFTS7C
-XKlHxQS2d0E6Oq9KBKOvDpCbsGACjirfU89hXJXH5AcWHJ9E8PYp0mRBOkNcbF5H
-PlL0ShyvgaqkJZ0Y22yQ+0HPfFnQpGvgpNqNs2ULKO7jRIiFHAG/I0c/9Ftfy0cX
-i9JHBeZPe+/yBoqF+SSDtzpy9INpGwTaNN/QZDG2jOcmRnC29fFQVvGf3snQuMEC
-lhD4vaOEZ0UH3oQltyO4I/+SnaOzb6DXTcCmUYyX7Ws0hbTQuPIOh24s1Due3XZq
-at1dpA+oQJSy53ZNLSHtGFSLG26WMB5PGi+4zA4435DFnmh5sso=
-=68bV
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmlCJmEACgkQ7ulgGnXF
+3j0n6RAAqFgTwWlernKP6EDPYeJE7qYEnTrUcZyb0VMaEaBu5o1ToDdGPHeNzTYF
+byXVsqXKKrxAKntBK1HHgZ2Pid5CRZ2Rpwa0be8ORg1Wr1+GydzBBQcWVplbQHWL
+8jtxVt/l6U3iufc5xNJ2e7+hqmYZNC8SiqBPBRN+ZBK+hpqiaTsKEG6FTSbBcQaa
+ASjIOqsSSvi9i6oIJgcxQ8ZJqMc55Ca3Est8G2UEJkH2NugNLlo3N7aAdwVrgYld
+r9w2eEKEe9BskfZ5lr8bv9r81mQl0abWwBavTmwx40HFKr1pQF6c0cuPJ2oC58Nw
+w3/AcTfNvAxZvrECfw3tZSXOUcppfUmL66KdPpTG1XQ44iFxy1nwDTeSy5Pyji27
+pkIQOXmHZfulvh9YnudRAc9E0V5GudGntAzKWjrknpTGbIZuffvOk8e3f3sZn/9S
+bafs+O0hoAXbMR7ws1vCJL66j776qMNxNQmab+4VvcmhLeLQVP/xtwicUs472MvW
+5hzttDXla06l4Hsa7es/E2fGrmJrWso9OIXxTJy2d0J0JJaXQtk2q6tL0dTQ24TE
+6aVVFJoqtPlezqbSzMOc4SoUwWTjCTdTKSylKF6YzJeNjpvveBtGh8TN1uD7FfMP
+xDmlMBpWEFx2KOddKhsP05M+bnuNpiF4nfSEIwGqjFnXRiTNbk8=
+=d+Hg
 -----END PGP SIGNATURE-----
 
---===============8393429868151428279==
+--===============8273054080718567311==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-946574434aa9-8f0b4cce4481.txt
+Content-Disposition: attachment; filename=revlist-1478cf5f50c5-fc4cfad5895c.txt
 
-d3fbfb8b2c4a352bf9167809d2e2e8f8e685d348 net: gianfar: convert to use .get_rx_ring_count
-b2d63392690156285e53562ed91b87131c9a97ac net: dpaa2: convert to use .get_rx_ring_count
-ca8df5b877d4b027fcd3968c0519af2b33de4e8a net: enetc: convert to use .get_rx_ring_count
-cbca440dc329b39f18a1121e385aed830bbdfb12 Merge branch 'net-freescale-migrate-to-get_rx_ring_count-ethtool-callback'
-40d5ce4af2067aab275b8aef690e77455da5314a net: dlink: fix several spelling mistakes in comments
-4b1639cac04cbc0d19321fc26476ea4f89ff4c8a selftests: net: py: handle interrupt during cleanup
-aadff9f766399a350aa3e09fc671617bdc0b365f selftests: net: add a hint about MACAddressPolicy=persistent
-09339d0d83108fd4f59b94677ac99bde870aa0ae l2tp: correct debugfs label for tunnel tx stats
-ea2d3befcf29cca5221d0572d54e4d71b683175d net: dsa: yt921x: Set ageing_time_min/ageing_time_max
-e3b8cbf40c6e60a7a935bd8980884d5741a7a77b selftests: netconsole: remove log noise due to socat exit
-33b4c26d4d3ccd24d9721a577671f2c73c1a7cd9 x86/platform: Fix and extend kernel-doc comments in <asm/x86_init.h>
-1dd6c84f1c544e552848a8968599220bd464e338 sched_ext: Fix incorrect sched_class settings for per-cpu migration tasks
-484f1176896e85b5ae4f04403c8cd5b79aced95e Bluetooth: mediatek: add gpio pin to reset bt
-01622e9a5336015f657df423b700e488fbcd2f39 Bluetooth: hci_h5: avoid sending two SYNC messages
-97fdb2ea06efdde784480934d1ff60eb21e88b58 Bluetooth: hci_h5: implement CRC data integrity
-33b2835f0b7e2a458473b0e3a23b54b92108b6b0 Bluetooth: HCI: Add initial support for PAST
-c530569adc19b5f0c62955de41f067bad34e3fe0 Bluetooth: hci_core: Introduce HCI_CONN_FLAG_PAST
-d3413703d5f8b7d1e6f514f9440ed5da1bc30796 Bluetooth: ISO: Add support to bind to trigger PAST
-14b06c3a88f7031d64fbce197fad1d400e507663 Bluetooth: HCI: Always use the identity address when initializing a connection
-f817db10dc80d5d1eece60d93eba11062afe5154 Bluetooth: ISO: Attempt to resolve broadcast address
-a3b76bf4c4c90994248e3211b300d2d9834874f9 Bluetooth: MGMT: Allow use of Set Device Flags without Add Device
-577cf4c0a1e8471a0d6c0f36bb3716285e27ad5e Bluetooth: ISO: Fix not updating BIS sender source address
-c126f98c011f5796ba118ef2093122d02809d30d Bluetooth: btusb: MT7920: Add VID/PID 0489/e135
-5a6700a31c953af9a17a7e2681335f31d922614d Bluetooth: btusb: MT7922: Add VID/PID 0489/e170
-1fb0d830dab89d0dc99bb84a7087b0ceca63d2d8 Bluetooth: btintel_pcie: Support for S4 (Hibernate)
-88c6216a52ea592ec351dddd042ecb0247325be5 Bluetooth: btintel_pcie: Suspend/Resume: Controller doorbell interrupt handling
-8dbbb5423c0802ec21266765de80fd491868fab1 Bluetooth: btusb: Add new VID/PID 2b89/6275 for RTL8761BUV
-0b00bee940cb16bfd42e764465705dbf2a95b55c Bluetooth: btusb: Reclassify Qualcomm WCN6855 debug packets
-73d2d709cc172da53402c9b2ead39bebc774ea16 dt-bindings: net: Convert Marvell 8897/8997 bindings to DT schema
-b8414ba5a0e66ab0c5203cd015fc2d2948860af3 Bluetooth: Remove redundant pm_runtime_mark_last_busy() calls
 4a23ce935f74d19df48d1906497fad1cef391392 Bluetooth: btrtl: Add the support for RTL8761CUV
 027473ef6a83f28cd6b12551d93dfa24662bdcce Bluetooth: MAINTAINERS: Add Bartosz Golaszewski as Qualcomm hci_qca maintainer
 56f765ce73b4303ec5d85439ca7ce1bc0736d18b Bluetooth: iso: fix socket matching ambiguity between BIS and CIS
@@ -1080,5 +1050,35 @@ cba09e3ed06db4b6c87bc97e0aea080421fb8f7d Merge tag 'perf-urgent-2025-12-12' of g
 0dfb36b2dcb666f116ba314e631bd3bc632c44d1 Merge tag 'ceph-for-6.19-rc1' of https://github.com/ceph/ceph-client
 6a1636e06625ec0dd7f2b908ab39a8beea24bfd3 Merge tag 'scsi-misc' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
 8f0b4cce4481fb22653697cced8d0d04027cb1e8 Linux 6.19-rc1
+7011e8aafe8c8fcc1c6f8bfcc6796f4530428e13 scsi: target: core: Add emulation for REPORT IDENTIFYING INFORMATION
+e642331c942003f58dba6e33c8ee93402211b7b6 scsi: ufs: core: mcq: Use ufshcd_rmwl() instead of open-coding it
+a743b120227a371f37c46738d91cc7a9691dbcf6 scsi: scsi_debug: Stop printing extra function name in debug logs
+559ae7a26b105f9e0b1279b3ab8029623592e900 scsi: scsi_debug: Stop using READ/WRITE_ONCE() when accessing sdebug_defer.defer_t
+a8cf5c1bee0fe1b3a829118d636d4f1ea6b408b0 scsi: scsi_debug: Drop NULL scsi_cmnd check in sdebug_q_cmd_complete()
+1a56e63c82161fca8f8d93b0ce5ce66c7c7d6b6d scsi: lpfc: Rework lpfc_sli4_fcf_rr_next_index_get()
+bd2bc528691e11ea945fbac485eb84c102a521d8 scsi: scsi_transport_fc: Introduce encryption group in fc_rport attribute
+e2dacf8e5e33e9d268874882ad1e0d307f693db0 scsi: lpfc: Add support for reporting encryption events
+6211644253153e4a86892112121ea597d02b5e12 scsi: lpfc: Update lpfc version to 14.4.0.13
+f5c0386e2c5cd9767fcb53fee660cd7af1ecaa6a Merge patch series "Update lpfc to revision 14.4.0.13"
+6b553f2a5c840d38fe2f658bbe18365d40554361 scsi: mpt3sas: Added no_turs flag to device unblock logic
+aee682fad6cdd9e3482b52fab727f50bc0227fae scsi: mpt3sas: Improve device discovery and readiness handling for slow devices
+ad59571931072e6f77b2bfa7d7fdc564dad6f331 scsi: mpt3sas: Add firmware event requeue support for busy devices
+72340fecd0c8449dcef1fd07199b0476728aae72 scsi: mpt3sas: Add configurable command retry limit for slow-to-respond devices
+39680c59f10c899e9533a3635b1a201f38461ba0 scsi: mpt3sas: Fixed the W=1 compilation warning
+c6e9ddc099d0d302eb73e8c63ce89f0d4da1f475 Merge patch series "mpt3sas: Improve device readiness handling and event recovery"
+0f9c4be787f786cff0bf2183607e54a552a40cb2 scsi: core: Introduce an enumeration type for the SCSI_MLQUEUE constants
+7411f1875a6055abe16e72fa5fc1b731cbfc7d76 scsi: qla2xxx: Add Speed in SFP print information
+21ab087cae5000dd084dfb21d0a4d6086f79c445 scsi: qla2xxx: Add support for 64G SFP speed
+b99b04b12214ff5e4a01575c3c6612ae79bc5e76 scsi: qla2xxx: Add load flash firmware mailbox support for 28xxx
+478b152ab309a3fb94f4955ac661a38c7f150101 scsi: qla2xxx: Validate MCU signature before executing MBC 03h
+d74181ca110e3de9d7dc4fba7f9f6026033e2e5d scsi: qla2xxx: Add bsg interface to support firmware img validation
+b0335ee4fb94832a4ef68774ca7e7b33b473c7a6 scsi: qla2xxx: Allow recovery for tape devices
+8890bf450e0b6b283f48ac619fca5ac2f14ddd62 scsi: qla2xxx: Delay module unload while fabric scan in progress
+7adbd2b7809066c75f0433e5e2a8e114b429f30f scsi: qla2xxx: Free sp in error path to fix system crash
+b6df15aec8c3441357d4da0eaf4339eb20f5999f scsi: qla2xxx: Validate sp before freeing associated memory
+42b2dab4340d39b71334151e10c6d7d9b0040ffa scsi: qla2xxx: Query FW again before proceeding with login
+c2c68225b1456f4d0d393b5a8778d51bb0d5b1d0 scsi: qla2xxx: Fix bsg_done() causing double free
+1732d10fa7edb611c8384ca0b841d6f79ddf5bed scsi: qla2xxx: Update version to 10.02.10.100-k
+8334f93075dce0a4536c096a7d471ef90506a7a4 Merge patch series "qla2xxx: Misc feature and bug fixes"
 
---===============8393429868151428279==--
+--===============8273054080718567311==--
