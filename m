@@ -1,21 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jenswi/linux-tee
-Date: Thu, 18 Dec 2025 16:28:12 -0000
-Message-Id: <176607529201.996578.11873414883265563127@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Thu, 18 Dec 2025 16:29:22 -0000
+Message-Id: <176607536258.997432.9264548398270145698@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jenswi/linux-tee
-user: jenswi
+repo: pub/scm/linux/kernel/git/netdev/net
+user: pabeni
 changes:
-  - ref: refs/heads/next
-    old: ae10c2cfe9ee80b8c3ab1c9c59cf7ac97cd6fd63
-    new: e8fd8a160bbb34925abb5e6918a7fbb0bc4b820a
+  - ref: refs/heads/main
+    old: 373a34addca0a68b0eb77360035e9885183ffdca
+    new: 21a88f5d9ce0c328486073b75d082d85a1e98a8b
     log: |
-         6d8a0031d92d56f0cf57947df408d5cafd57bb22 rtc: optee: Migrate to use tee specific driver registration function
-         4f32b6341818be62db1ea41ced68ca2f0cce5700 rtc: optee: Make use of tee bus methods
-         e8fd8a160bbb34925abb5e6918a7fbb0bc4b820a Merge branch 'tee_bus_callback_for_6.20' into next
+         5d5602236f5db19e8b337a2cd87a90ace5ea776d can: j1939: make j1939_session_activate() fail if device is no longer registered
+         46cea215dc9444ec32a76b1b6a9cb809e17b64d5 can: j1939: make j1939_sk_bind() fail if device is no longer registered
+         5a5aff6338c0f4164a6a8d8a7eb400c4054df256 can: fix build dependency
+         21a88f5d9ce0c328486073b75d082d85a1e98a8b Merge tag 'linux-can-fixes-for-6.19-20251218' of git://git.kernel.org/pub/scm/linux/kernel/git/mkl/linux-can
          
