@@ -1,22 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============2997006351680383927=="
+Content-Type: multipart/mixed; boundary="===============6667111659981469151=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Thu, 18 Dec 2025 12:05:46 -0000
-Message-Id: <176605954646.568435.8222597173438823470@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Thu, 18 Dec 2025 12:05:49 -0000
+Message-Id: <176605954978.568631.13362085086587767832@gitolite.kernel.org>
 
---===============2997006351680383927==
+--===============6667111659981469151==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.20
+  - ref: refs/heads/spi-6.20
     old: 8a3eb50d579c852d3502334e7afa6da6efe0e578
     new: 65ccce35fa7a3b52713bd128fd211a80afc08abd
     log: |
@@ -26,28 +26,28 @@ changes:
          65ccce35fa7a3b52713bd128fd211a80afc08abd spi: atcspi200: Add support for Andes ATCSPI200 SPI
          
 
---===============2997006351680383927==
+--===============6667111659981469151==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1766059544 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
-nonce 1766059544-b54e402ff55df5a41c459d1ccaf1be5ebfab63f9
+pusher C3F436CA30F5D8EB 1766059548 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1766059547-034fd726c99273762b18dd6208c071974bb5b089
 
-8a3eb50d579c852d3502334e7afa6da6efe0e578 65ccce35fa7a3b52713bd128fd211a80afc08abd refs/heads/for-6.20
+8a3eb50d579c852d3502334e7afa6da6efe0e578 65ccce35fa7a3b52713bd128fd211a80afc08abd refs/heads/spi-6.20
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmlD7hgACgkQJNaLcl1U
-h9CzfQf9H2JDvFgIduoKDjsHGT5u7mKN0OpNPUapKGtAR08uh7xOrMrnjthiQkCb
-1GC/KZqyNIMKrJ/WHjSlgjq/seZv0MPbTkX1DTUqGrXwqII6CKbSb1UPcI1TxGkd
-LAaTmkyZ2SOZA3XRrszZv2Txc/cTjZ9rKwHgUyhBclEtkymAruH2A4sQYJ9yQN3X
-vSod6/zi3WECGFuF3P6fZtk/qBtnsVwaCLZlyDjy7hrKLmPBePHNug1zcWvJvU9A
-jE6jjBlaByn6XfsvUDwOXKDbrZe/LY/WF92IIVzHIMtSqHmxI0AEFNEqLOPHxEbu
-MsuPGwePlxZ+qpma9/bQ6l8O1iOKOg==
-=hax5
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmlD7hwACgkQJNaLcl1U
+h9AkoAf9EufR51SBSrbQWqWRAOiavVxG9Wyxiuj7tQDkgjLN0nbV4aOocEq5ymbg
+8u3nASGuWkUqdEUwKeDYANnKExu5qiiL8PsmrjM5+fX0LR70YIlinYvyL5So0rcP
+J+j3pE0AX2LwAc4ELtL5ZW0TFprAtuchSmHEAAL0nHKMRg4NB7N8KfuMSnQABB1F
+GlYqWKC9ZUiRmq3Lh9i8SaR6FM1JxbuYUp3Xp4SA9AxsKAPDJbR9HZtetq8w4TzL
+iaElZeE551k9MQhH7+ajchXptKFSj85yoQzizsjAuYPMeeKPCiS8ArLxa9CyTfks
+SujIZG+nBnmpDZ8JUFO6VjzS/D0cMQ==
+=pT+l
 -----END PGP SIGNATURE-----
 
---===============2997006351680383927==--
+--===============6667111659981469151==--
