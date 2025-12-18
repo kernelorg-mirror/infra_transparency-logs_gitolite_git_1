@@ -1,33 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Thu, 18 Dec 2025 09:32:13 -0000
-Message-Id: <176605033376.361821.16062487936248105895@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/lpieralisi/linux
+Date: Thu, 18 Dec 2025 09:35:41 -0000
+Message-Id: <176605054175.366371.420055977919518053@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
-user: broonie
+repo: pub/scm/linux/kernel/git/lpieralisi/linux
+user: lpieralisi
 changes:
-  - ref: refs/heads/for-linus
-    old: 8c04b77f87e6e321ae6acd28ce1de5553916153f
-    new: 9d651a6c62832ac8d1c445f5fa8c61a03ebfb649
+  - ref: refs/heads/b4/gicv5-host-acpi
+    old: 3303aa1cae98705a89cb1ee9a0c2f1168c0598c1
+    new: c81fa6f09a4229e63dfa9fedeee385f0f52f61f2
     log: |
-         b1f54d7143e0f527cca1091857a786e278d72184 spi: cadence-quadspi: Add error logging for DMA request failure
-         1889dd2081975ce1f6275b06cdebaa8d154847a9 spi: cadence-quadspi: Fix clock disable on probe failure path
-         9d651a6c62832ac8d1c445f5fa8c61a03ebfb649 spi: cadence-quadspi: Fix probe error path and logging
-         
-  - ref: refs/heads/for-next
-    old: d25268d9be7b0e6bd4860ed1f0f3f083b1919e68
-    new: aa75711275cd48482c7727e63805a44afdc57e1f
-    log: |
-         b1f54d7143e0f527cca1091857a786e278d72184 spi: cadence-quadspi: Add error logging for DMA request failure
-         1889dd2081975ce1f6275b06cdebaa8d154847a9 spi: cadence-quadspi: Fix clock disable on probe failure path
-         64ba616741bcfc4c7ef1ed856179328300ca0422 spi: dt-bindings: nxp,imx94-xspi: Document imx94 xspi
-         29c8c00d9f9db5fb659b6f05f9e8964afc13f3e2 spi: add driver for NXP XSPI controller
-         8a3eb50d579c852d3502334e7afa6da6efe0e578 Add support for NXP XSPI
-         9d651a6c62832ac8d1c445f5fa8c61a03ebfb649 spi: cadence-quadspi: Fix probe error path and logging
-         aa75711275cd48482c7727e63805a44afdc57e1f Merge remote-tracking branch 'spi/for-6.20' into spi-next
+         73729bb0d9c07abe1247411e7dc6298323f6c17a irqchip/gic-v5: Code first ACPI boot support
+         2e9c0549ba4cd067d02b3f92323c7d575a1006d2 ACPICA: Add GICv5 MADT structures
+         ef68f311c5c99b50624585a86fe6c634d1c1e2be ACPICA: Add Arm IORT IWB node definitions
+         2f785d269b05196981251d905ca68d632175c9ec irqdomain: Add parent field to irqchip_fwid
+         f5fa37fc9e2fbe2ad31e8c915acb67dffc7591b0 PCI/MSI: Make the pci_msi_map_rid_ctlr_node() interface firmware agnostic
+         b26738ebe96cf433d95dc091ab97457334064437 irqchip/gic-v5: Add ACPI IRS probing
+         d92b30b02ca83632197d1bc2f7c263bba8f8ed42 irqchip/gic-v5: Add ACPI ITS probing
+         c81fa6f09a4229e63dfa9fedeee385f0f52f61f2 irqchip/gic-v5: Add ACPI IWB probing
          
