@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============2110521215411381469=="
+Content-Type: multipart/mixed; boundary="===============2345648485274690877=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/srini/slimbus
-Date: Thu, 18 Dec 2025 20:47:21 -0000
-Message-Id: <176609084111.1295016.3471719914950485219@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/srini/nvmem
+Date: Thu, 18 Dec 2025 20:47:25 -0000
+Message-Id: <176609084579.1295219.12038993892305160206@gitolite.kernel.org>
 
---===============2110521215411381469==
+--===============2345648485274690877==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/srini/slimbus
+repo: pub/scm/linux/kernel/git/srini/nvmem
 user: srini
 changes:
-  - ref: refs/heads/slim-fixes
-    old: 4bb909aa44edc254a35bd29b4f63f7c430494b24
+  - ref: refs/heads/for-fixes
+    old: 8b6322da3c1fd814c2293525f69b776b80fc6895
     new: 8f0b4cce4481fb22653697cced8d0d04027cb1e8
-    log: revlist-4bb909aa44ed-8f0b4cce4481.txt
+    log: revlist-8b6322da3c1f-8f0b4cce4481.txt
 
---===============2110521215411381469==
+--===============2345648485274690877==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4bb909aa44ed-8f0b4cce4481.txt
+Content-Disposition: attachment; filename=revlist-8b6322da3c1f-8f0b4cce4481.txt
 
 09339d0d83108fd4f59b94677ac99bde870aa0ae l2tp: correct debugfs label for tunnel tx stats
 ea2d3befcf29cca5221d0572d54e4d71b683175d net: dsa: yt921x: Set ageing_time_min/ageing_time_max
@@ -1051,4 +1051,4 @@ cba09e3ed06db4b6c87bc97e0aea080421fb8f7d Merge tag 'perf-urgent-2025-12-12' of g
 6a1636e06625ec0dd7f2b908ab39a8beea24bfd3 Merge tag 'scsi-misc' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
 8f0b4cce4481fb22653697cced8d0d04027cb1e8 Linux 6.19-rc1
 
---===============2110521215411381469==--
+--===============2345648485274690877==--
