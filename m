@@ -1,44 +1,28 @@
-Content-Type: multipart/mixed; boundary="===============7624646085986422753=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kas/linux
-Date: Thu, 18 Dec 2025 12:52:01 -0000
-Message-Id: <176606232139.615816.3062128379450634199@gitolite.kernel.org>
-
---===============7624646085986422753==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Thu, 18 Dec 2025 12:52:51 -0000
+Message-Id: <176606237176.616458.10416330694189868475@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kas/linux
-user: kas
+repo: pub/scm/linux/kernel/git/netdev/net
+user: pabeni
 changes:
-  - ref: refs/heads/compound_head
-    old: 3c3c3be50df47e5d42a9fa1aa2b43b5cc5ffd785
-    new: da95e07fe0f0d9cab5fa6a6dca4de39d78dc92e6
-    log: revlist-3c3c3be50df4-da95e07fe0f0.txt
-
---===============7624646085986422753==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3c3c3be50df4-da95e07fe0f0.txt
-
-f56ffe847adc82db9ef64ab917cf0c33703f391b mm: Move MAX_FOLIO_ORDER definition to mmzone.h
-4004e7bf82fd199126032b7b2cbd903b2fc615f7 mm/sparse: Check memmap alignment
-b21899f332c818643c4ff872370c8913f36e2f43 mm: Change the interface of prep_compound_tail()
-065f1550b01945c3a587587d54c8025bdd8f700b mm: Rename the 'compound_head' field in the 'struct page' to 'compound_info'
-4627d97d4819a12fc6cc2c930942defb3bf64db8 mm: Move set/clear_compound_head() to compound_head()
-ccd69a6c863ed94a5aaecf8e98381418a248d22d mm: Rework compound_head() for power-of-2 sizeof(struct page)
-c2e50ca84df19b72982aebeda31072c3e7f746e3 mm: Make page_zonenum() use head page
-eba37767fa83984916f7c0a1a6907ccb78def0f6 mm/hugetlb: Refactor code around vmemmap_walk
-d0d07211e5c42ba1d94a794634bcaf014a136a84 mm/hugetlb: Remove fake head pages
-b2e8c999a5cb3dc696d896349695e7bc99572890 mm: Drop fake head checks
-52ec565ddfffbdfa2d5abb2950570c479f9b8236 hugetlb: Remove VMEMMAP_SYNCHRONIZE_RCU
-7a6038b14662d766171ea4c01500325d0c432a26 mm/hugetlb: Remove hugetlb_optimize_vmemmap_key static key
-a066b4c8e0449bc44f06af94e805a8c3c8e36cab mm: Remove the branch from compound_head()
-da95e07fe0f0d9cab5fa6a6dca4de39d78dc92e6 hugetlb: Update vmemmap_dedup.rst
-
---===============7624646085986422753==--
+  - ref: refs/heads/main
+    old: 71e6b15d214e2500c8482509f7b3ae6ee5030889
+    new: 78a47532ab4d0beebb13e67c4ef97b3fe9f56be0
+    log: |
+         89a898d63f6f588acf5c104c65c94a38b68c69a6 net/mlx5: fw reset, clear reset requested on drain_fw_reset
+         5846a365fc6476b02d6766963cf0985520f0385f net/mlx5: Drain firmware reset in shutdown callback
+         b35966042d20b14e2d83330049f77deec5229749 net/mlx5: fw_tracer, Validate format string parameters
+         c0289f67f7d6a0dfba0e92cfe661a5c70c8c6e92 net/mlx5: fw_tracer, Handle escaped percent properly
+         367e501f8b095eca08d2eb0ba4ccea5b5e82c169 net/mlx5: Serialize firmware reset with devlink
+         e35d7da8dd9e55b37c3e8ab548f6793af0c2ab49 net/mlx5e: Use ip6_dst_lookup instead of ipv6_dst_lookup_flow for MAC init
+         9ab89bde13e5251e1d0507e1cc426edcdfe19142 net/mlx5e: Trigger neighbor resolution for unresolved destinations
+         c8591decd9dbf395cb8ae398e70b0438fdd24aee net/mlx5e: Do not update BQL of old txqs during channel reconfiguration
+         4198a14c8c6252fd1191afaa742dd515dcaf3487 net/mlx5e: Don't include PSP in the hard MTU calculations
+         78a47532ab4d0beebb13e67c4ef97b3fe9f56be0 Merge branch 'mlx5-misc-fixes-2025-12-09'
+         
