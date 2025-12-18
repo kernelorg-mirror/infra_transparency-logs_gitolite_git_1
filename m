@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4018690690955610471=="
+Content-Type: multipart/mixed; boundary="===============0607351737285753185=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux-w1
-Date: Thu, 18 Dec 2025 16:03:04 -0000
-Message-Id: <176607378420.969411.3988107618709943241@gitolite.kernel.org>
+Date: Thu, 18 Dec 2025 16:03:15 -0000
+Message-Id: <176607379502.969674.17748934670409924953@gitolite.kernel.org>
 
---===============4018690690955610471==
+--===============0607351737285753185==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,41 +16,41 @@ repo: pub/scm/linux/kernel/git/krzk/linux-w1
 user: krzk
 git_push_cert_status: Y
 changes:
-  - ref: refs/heads/w1-next
+  - ref: refs/heads/for-next
     old: 8f0b4cce4481fb22653697cced8d0d04027cb1e8
     new: 761fcf46a1bd797bd32d23f3ea0141ffd437668a
     log: |
          761fcf46a1bd797bd32d23f3ea0141ffd437668a w1: therm: Fix off-by-one buffer overflow in alarms_store
          
 
---===============4018690690955610471==
+--===============0607351737285753185==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher krzk@kernel.org 1766073782 +0100
+pusher krzk@kernel.org 1766073793 +0100
 pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux-w1.git
-nonce 1766073782-72e8c0019f1b10a2411331049fc8201bad0da54a
+nonce 1766073792-6f8bd2efd318fac89e838f246fac0f6176a54ead
 
-8f0b4cce4481fb22653697cced8d0d04027cb1e8 761fcf46a1bd797bd32d23f3ea0141ffd437668a refs/heads/w1-next
+8f0b4cce4481fb22653697cced8d0d04027cb1e8 761fcf46a1bd797bd32d23f3ea0141ffd437668a refs/heads/for-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmlEJbYQHGtyemtAa2Vy
-bmVsLm9yZwAKCRDBN2bmhouD106kD/9sA0Iyj/MaXrfsiC45DmOzc+9HAUIGbvBS
-YbKVj9QIWmN0eAiYVNIXnzSkj+90KnxqmSwSVWPpAdvK0ES/RN4x7ciqza1tcRaa
-cCp4QrMJTPGo17m5SgfwmEC7GyE2p/CXTCaudsW0ILCIeY0AmLWQbu4Txn8Uyo1Y
-Y4AQGLRepJL6MKzyxQ4j8SSEVOPuTt3hK/rHuWEsgNFlULhXysB6cUEBkqG1saN1
-ar7F6rLFpGj6kzvq/yK81GAR5hsDex+vgEayxmERy9fZo2QNoQk9mK9y+kfCBZvY
-hIhAvvZMsUUDpf+33frIhWvi+bOnQnqysFaNHn4FortyzuHlFCglZ3Ra2V7xV+Ct
-KmIWXWe6iENxXbDvvMuPDOjyXHjU0RugShyYdcr5FksN8W7ZhQ7h7yd59y/bLEnE
-DvJl6iAbn3soV5zLTYTddhnh+wnB9KWZijPxbGGT5SXgB2avnKqrgyiUxD2e0s6J
-2TnW/YzOKJ4hNtoUuVcJnisHARo1LiNvHnUCEBNL6oJkwvan5W2ymFeySdyk3B3w
-hBcaADUjeiQBXgI0OQUHBAWe3ox99qAz/pwvojVtt9W0tCw9y7RidYGJ/bK4BXsR
-XqXmC/5rtKrzA4WAIgmKK76xpAKcNmClmx3NSk6ez+TR7l0mX8o/65m8N3MRRE3B
-s5ArqkdD3Q==
-=kA9b
+iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmlEJcEQHGtyemtAa2Vy
+bmVsLm9yZwAKCRDBN2bmhouD18EBD/4nQJ73MIeQa9Qi+RncbnoZKfdAWGJ3jOCV
+VfXgPoZJRdUs2tYd0C/hjnodL9XKwyTjbBA5hjaHxRHM2ENl3YB3vFpcHf0/BRr9
+VGjsYekk1kLyqIeJSqDNFpemKeSHu9f75r9BSaVooD7eiCJlfa4e6WJCsI9mmH3T
+9nkZSMf5Qyjkt9xh5KmXFUTJuUwB6s7An952zlC+xolPMjiDzslGh2g1RnY9hOKo
+2r3akaBczFwYbyo+J3+lhETKv76lm8cQzffDhRL1gzHubZDL9xVMDU2Hzb/hDBbT
+WYeGvj0OihdgyWFfSZZitwOrNLbqidTzmC61AGgMe1jx9GFZou24g6nUI/Gdvc+q
++/fZ1mrdZoaA8oJSLXc5EKj3I/u9TYYChxK3UbabeM+dn8uOgiMFpD0tMoftZ5fq
+U4StPNpXF3P2xVxz6H0XYc+r8t8pBE0zBjG1jppyFXaQDH7vCddANkGAjGbdshM3
+IUFGq6vXMnChJZ0LT9Rvmb1YklFIRr/N4DRipQuLIwuWeLKc0AOPMRZ3/lh0iOME
+lvI3ksyY1o83iJUFyMrzlqdmnICzWNuodm3pwohax9POE40pih+nbZ0DIOI1sXK6
+zuINRjgBc4uFxl7e4sHK9wQIj+uWZ6Qai79Z0W1zF7nyiKrPYuQPoiPYk+3UO09G
+SqsWbKDKJg==
+=MCGm
 -----END PGP SIGNATURE-----
 
---===============4018690690955610471==--
+--===============0607351737285753185==--
