@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kbuild/linux
-Date: Thu, 18 Dec 2025 00:01:56 -0000
-Message-Id: <176601611672.4001050.1535314147094410581@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/paulmck/perfbook
+Date: Thu, 18 Dec 2025 00:02:03 -0000
+Message-Id: <176601612360.4001310.17353086298032120098@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kbuild/linux
-user: nathan
+repo: pub/scm/linux/kernel/git/paulmck/perfbook
+user: paulmck
 changes:
-  - ref: refs/heads/kbuild-next
-    old: 8f0b4cce4481fb22653697cced8d0d04027cb1e8
-    new: a4df2071f1a2bb5b003eb179e1a51625d26b04d5
+  - ref: refs/heads/master
+    old: f82ad80c57d5ef59037456cbc8eb34a6afd19559
+    new: f10ba2161229db12af9a1e38fd23850483721b7d
     log: |
-         a4df2071f1a2bb5b003eb179e1a51625d26b04d5 modpost: drop '*_probe' from section check whitelist
+         b72ca6739b4026dcdf533194fa4ca5e0c37f425d CodeSamples/defer: Add rcu_rcl
+         f10ba2161229db12af9a1e38fd23850483721b7d appendix/toyrcu: Describe new per-thread single-counter RCU
          
