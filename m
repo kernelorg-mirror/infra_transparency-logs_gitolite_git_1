@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4735824961163702851=="
+Content-Type: multipart/mixed; boundary="===============7980332913265084600=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
-Date: Thu, 18 Dec 2025 19:56:21 -0000
-Message-Id: <176608778112.1245412.12157235104429219101@gitolite.kernel.org>
+Date: Thu, 18 Dec 2025 19:56:29 -0000
+Message-Id: <176608778989.1245630.10040163465851564729@gitolite.kernel.org>
 
---===============4735824961163702851==
+--===============7980332913265084600==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,19 +15,19 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/rafael/linux-pm
 user: rafael
 changes:
-  - ref: refs/heads/acpi
-    old: af47d98064e900f279c98bb3bb57445a1e7a8f6b
-    new: f103fa127c93016bcd89b05d8e11dc1a84f6990d
-    log: revlist-af47d98064e9-f103fa127c93.txt
-  - ref: refs/tags/acpi-6.19-rc2
+  - ref: refs/heads/thermal
+    old: 63d26c3811421ceeb5b82a85489b88bf545e33c7
+    new: d113735421da322ea144c9778c433de6ff6bc57b
+    log: revlist-63d26c381142-d113735421da.txt
+  - ref: refs/tags/thermal-6.19-rc2
     old: 0000000000000000000000000000000000000000
-    new: e78a982ca22a3b0fc3bd159c8b6f1240a04d670c
+    new: c5d529437355f79db63204ec9fcf2a6c97edeff1
 
---===============4735824961163702851==
+--===============7980332913265084600==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-af47d98064e9-f103fa127c93.txt
+Content-Disposition: attachment; filename=revlist-63d26c381142-d113735421da.txt
 
 e3b8cbf40c6e60a7a935bd8980884d5741a7a77b selftests: netconsole: remove log noise due to socat exit
 33b4c26d4d3ccd24d9721a577671f2c73c1a7cd9 x86/platform: Fix and extend kernel-doc comments in <asm/x86_init.h>
@@ -1051,7 +1051,7 @@ cba09e3ed06db4b6c87bc97e0aea080421fb8f7d Merge tag 'perf-urgent-2025-12-12' of g
 0dfb36b2dcb666f116ba314e631bd3bc632c44d1 Merge tag 'ceph-for-6.19-rc1' of https://github.com/ceph/ceph-client
 6a1636e06625ec0dd7f2b908ab39a8beea24bfd3 Merge tag 'scsi-misc' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
 8f0b4cce4481fb22653697cced8d0d04027cb1e8 Linux 6.19-rc1
-6ea3a44cef28add2d93b1ef119d84886cb1e3c9b ACPI: CPPC: Fix missing PCC check for guaranteed_perf
-f103fa127c93016bcd89b05d8e11dc1a84f6990d ACPI: PCC: Fix race condition by removing static qualifier
+450f9cde66a92fd6c7f6870b3501e8debe9f69cc thermal: intel: int340x: Enable power slider interface for Wildcat Lake
+d113735421da322ea144c9778c433de6ff6bc57b thermal: core: Fix typo and indentation in comments
 
---===============4735824961163702851==--
+--===============7980332913265084600==--
