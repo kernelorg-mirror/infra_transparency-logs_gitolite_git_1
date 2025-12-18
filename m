@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/paulmck/perfbook
-Date: Thu, 18 Dec 2025 00:02:03 -0000
-Message-Id: <176601612360.4001310.17353086298032120098@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gfs2/linux-gfs2
+Date: Thu, 18 Dec 2025 00:08:19 -0000
+Message-Id: <176601649985.4006949.2279208076577386201@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/paulmck/perfbook
-user: paulmck
+repo: pub/scm/linux/kernel/git/gfs2/linux-gfs2
+user: agruen
 changes:
-  - ref: refs/heads/master
-    old: f82ad80c57d5ef59037456cbc8eb34a6afd19559
-    new: f10ba2161229db12af9a1e38fd23850483721b7d
+  - ref: refs/heads/retry-rename
+    old: 58a021ab091f81460f7a8c054487813f65e5ceea
+    new: 4838fbe816cb5bd96fa40fe71c5f89a0dcf46a2f
     log: |
-         b72ca6739b4026dcdf533194fa4ca5e0c37f425d CodeSamples/defer: Add rcu_rcl
-         f10ba2161229db12af9a1e38fd23850483721b7d appendix/toyrcu: Describe new per-thread single-counter RCU
+         bcd2bb3b410091babd5d2e73abd14676615418a4 gfs2: run_queue cleanup
+         4838fbe816cb5bd96fa40fe71c5f89a0dcf46a2f gfs2: Do not cancel internal demote requests
          
