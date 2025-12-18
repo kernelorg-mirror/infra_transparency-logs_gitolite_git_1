@@ -1,26 +1,47 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tglozar/linux
-Date: Thu, 18 Dec 2025 09:18:00 -0000
-Message-Id: <176604948064.347107.17606781844888600975@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============4973250989874053837=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mkl/linux-can
+Date: Thu, 18 Dec 2025 09:26:40 -0000
+Message-Id: <176605000092.355991.12171020681836573562@gitolite.kernel.org>
+
+--===============4973250989874053837==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tglozar/linux
-user: tglozar
+repo: pub/scm/linux/kernel/git/mkl/linux-can
+user: mkl
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/rtla-for-next
-    old: d666c64296ed00e7ac0e69c7b15445f60eb17e7a
-    new: 18965a1dbd39a26a1f9f57747bf7cc2a5dd57475
-    log: |
-         247a092622858bb233c5d176de25267eceb92a3c tools/rtla: Add common_parse_options()
-         992e6c9ca0b9af5b61b4801a25a4f009ef08f8e5 tools/rtla: Consolidate -c/--cpus option parsing
-         dc977820a831dc7ddf8ad920225d5effbac021b7 tools/rtla: Consolidate -C/--cgroup option parsing
-         5cd636a4e0d441680ac579ad68a5802edbd75c69 tools/rtla: Consolidate -D/--debug option parsing
-         8b3d83eb52ddadb2618864c46d86891a45d217f5 tools/rtla: Consolidate -d/--duration option parsing
-         7305079394829341da3ee191b87da1634e41de6e tools/rtla: Consolidate -e/--event option parsing
-         67519e2a3d39fcbd53b7d2c71624126060c62862 tools/rtla: Consolidate -P/--priority option parsing
-         18965a1dbd39a26a1f9f57747bf7cc2a5dd57475 tools/rtla: Consolidate -H/--house-keeping option parsing
-         
+  - ref: refs/tags/linux-can-fixes-for-6.19-20251218
+    old: 0000000000000000000000000000000000000000
+    new: cfe636ed0829ad3dc6d5a79d032ad08e41dadee2
+
+--===============4973250989874053837==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Marc Kleine-Budde <mkl@pengutronix.de> 1766049996 +0100
+pushee gitolite.kernel.org:pub/scm/linux/kernel/git/mkl/linux-can.git
+nonce 1766049996-736b23e4a9623711f9befd226377db87c28b8342
+
+0000000000000000000000000000000000000000 cfe636ed0829ad3dc6d5a79d032ad08e41dadee2 refs/tags/linux-can-fixes-for-6.19-20251218
+-----BEGIN PGP SIGNATURE-----
+
+iQFHBAABCgAxFiEEn/sM2K9nqF/8FWzzDHRl3/mQkZwFAmlDyMwTHG1rbEBwZW5n
+dXRyb25peC5kZQAKCRAMdGXf+ZCRnAK/B/95QYn9m344QuGDhC400L11teKqr9F8
+NtNrt3qogUau3BljuevHo5qXpGWn8N5KAlr0fwyZEIgZLJE7NP7oV2ZvMBYHpQK8
+2RM6Qb1pvTXXFO7GHGys7FH5LeD1WmGB+V1F8bxphqm0TAdX5cmxo/Im57r3eTXq
+x+b5Rziebk1nSIQ795BJSBYpUdV7Zts/myHucJgIDZdvUg3PShbqvPHRS7Ov45bP
+ONpCMzLOdP5sZMxm97R/sOHW2LW+DJdiaQdi5d2Mv+7ce4VTKtAmaCWYFTwJOdAc
+sUfvgN95Ag/jIfIz8D/26PMkIW7KTPQQx7TZuc3JLexDo5aC3AgaZEIz
+=e7v4
+-----END PGP SIGNATURE-----
+
+--===============4973250989874053837==--
