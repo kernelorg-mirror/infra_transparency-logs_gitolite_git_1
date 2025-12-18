@@ -1,22 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============0921587687757591149=="
+Content-Type: multipart/mixed; boundary="===============7911341900655046922=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Thu, 18 Dec 2025 08:20:20 -0000
-Message-Id: <176604602074.293147.13938057407913895320@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Thu, 18 Dec 2025 08:20:23 -0000
+Message-Id: <176604602392.293297.7497110886717502496@gitolite.kernel.org>
 
---===============0921587687757591149==
+--===============7911341900655046922==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.20
+  - ref: refs/heads/spi-6.20
     old: f4acea9eef704607d1a950909ce3a52a770d6be2
     new: 7f7b350e4a65446f5d52ea8ae99e12eac8a972db
     log: |
@@ -24,28 +24,28 @@ changes:
          7f7b350e4a65446f5d52ea8ae99e12eac8a972db spi: stm32-qspi: Remove unneeded semicolon
          
 
---===============0921587687757591149==
+--===============7911341900655046922==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1766046019 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
-nonce 1766046018-8ba28d3d749924d68cc532b6a703c19886a3e40d
+pusher C3F436CA30F5D8EB 1766046022 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1766046021-e1593518eac0180047b84e20ed020d5cf2339389
 
-f4acea9eef704607d1a950909ce3a52a770d6be2 7f7b350e4a65446f5d52ea8ae99e12eac8a972db refs/heads/for-6.20
+f4acea9eef704607d1a950909ce3a52a770d6be2 7f7b350e4a65446f5d52ea8ae99e12eac8a972db refs/heads/spi-6.20
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmlDuUMACgkQJNaLcl1U
-h9CWawf+J+yqoQxQFobdvcnAnmeLqNr9sR/F0olIBj7F2+tJaIpw0VBFA9X/zqVa
-ZxZs3/4gzAC8xtbJFU1fCYfwzktU8G7iQF50gp7afZV4CDae28HWO6vMU0o5RKca
-R6U4cuCIg9Y9t0jv/SQgd9atAIEm4e+tk+cSC9wbYXC9r5MoVYoX74UK940P3SqL
-F2RMy2TZeLRCfZrcNQugl2GFf6Dl5cTO+td3UTyX8PTsy3foBuvRJy8n6kjZP7XD
-xvDcq98Q/8N+DPc27oH/yHyg2Zoa9cxkfWDCc/22ecxkkIXQ3iAto7GoJRihwaIZ
-DFk+RTXURkt9lhndj6if3WQde0et/A==
-=iC5k
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmlDuUYACgkQJNaLcl1U
+h9C1MAf+NQkqcoGs6i8PwDK9J2hs+YJjwSrTr2OtzygHYXRzMNJA0rniy49piMg4
+ZLePXV+KLuP0slerpKRZXiwT9OgwyrV3+4bFVRKapIvNlrlvLRdABPu/vGkQHaqs
+O6F+QaU17e4G5YFK+6phWpMpIuhYJEZ9sX21h8Z6h+yelWk8rmFQHYwcS/WeG0PG
+pBcZCYkV9tRqfPghiOnBYzicCGd0h91I2p7gWRTyxGFrUne30xBm+Wf1P+gnSavS
+02eSJadRu4NcIb56uMZZuMgALp8LFI8X+UZM0S0mgi44YTTCfI35fmL1Qs4kGdX0
+SeF8+SmP+g6W2BBjkO2DufATOOQudg==
+=2Oko
 -----END PGP SIGNATURE-----
 
---===============0921587687757591149==--
+--===============7911341900655046922==--
