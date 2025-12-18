@@ -1,23 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Thu, 18 Dec 2025 21:37:00 -0000
-Message-Id: <176609382096.1341991.1433575781176500160@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/andrea/synthmerge
+Date: Thu, 18 Dec 2025 21:41:02 -0000
+Message-Id: <176609406296.1346706.8743623278179407573@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/andrea/synthmerge
+user: andrea
 changes:
-  - ref: refs/heads/master
-    old: 516471569089749163be24b973ea928b56ac20d9
-    new: dd9b004b7ff3289fb7bae35130c0a5c0537266af
+  - ref: refs/heads/main
+    old: fa47507e12b6b2060c9fcc9a369584c7b1588c5a
+    new: 52d7a0e09a68888e1386f3c0fb2d07bdf8020afa
     log: |
-         09879758d8ac345d7f08709bfcd2fbe29e96cae4 MAINTAINERS: add tracepoint core-api doc files to TRACING
-         ef7f38df890f5dcd2ae62f8dbde191d72f3bebae tracing: Do not register unsupported perf events
-         74bf97e9a8b6443ba2119dc884940e9364c91bde tracing: Fix UBSAN warning in __remove_instance()
-         39263f986da55c5b7bc328c757fe378a6a41799d ftrace: Fix address for jmp mode in t_show()
-         dd9b004b7ff3289fb7bae35130c0a5c0537266af Merge tag 'trace-v6.19-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
+         cf24bdcdb72a1ced97ecb39b4861e2b70c9e4d38 Update README.md to match synthmerge.yaml configuration
+         52d7a0e09a68888e1386f3c0fb2d07bdf8020afa Add user_message to context layout configuration
          
