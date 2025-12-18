@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/coresight/linux
-Date: Thu, 18 Dec 2025 10:34:36 -0000
-Message-Id: <176605407645.422049.4002758879439526515@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/niks/linux
+Date: Thu, 18 Dec 2025 10:47:27 -0000
+Message-Id: <176605484783.435018.5448394812467510830@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/coresight/linux
-user: suzukikp
+repo: pub/scm/linux/kernel/git/niks/linux
+user: niks
 changes:
-  - ref: refs/heads/next
-    old: 8f0b4cce4481fb22653697cced8d0d04027cb1e8
-    new: 7009646d937f9a1147b401362260939bba52082f
-    log: |
-         7009646d937f9a1147b401362260939bba52082f dt-binding: Update oss email address for Coresight documents
-         
+  - ref: refs/heads/loongarch_debug
+    old: 0000000000000000000000000000000000000000
+    new: 89fe15ac47b4e1bbca5ca15e2b83dde4987a6459
