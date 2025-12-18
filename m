@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============4533569840600048654=="
+Content-Type: multipart/mixed; boundary="===============8985880389215882606=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/srini/nvmem
-Date: Thu, 18 Dec 2025 20:47:29 -0000
-Message-Id: <176609084986.1295502.9292296603009961474@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/srini/fastrpc
+Date: Thu, 18 Dec 2025 20:47:33 -0000
+Message-Id: <176609085338.1295588.18301983461517320894@gitolite.kernel.org>
 
---===============4533569840600048654==
+--===============8985880389215882606==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/srini/nvmem
+repo: pub/scm/linux/kernel/git/srini/fastrpc
 user: srini
 changes:
   - ref: refs/heads/for-next
@@ -20,7 +20,7 @@ changes:
     new: 8f0b4cce4481fb22653697cced8d0d04027cb1e8
     log: revlist-3a8660878839-8f0b4cce4481.txt
 
---===============4533569840600048654==
+--===============8985880389215882606==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ cba09e3ed06db4b6c87bc97e0aea080421fb8f7d Merge tag 'perf-urgent-2025-12-12' of g
 6a1636e06625ec0dd7f2b908ab39a8beea24bfd3 Merge tag 'scsi-misc' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
 8f0b4cce4481fb22653697cced8d0d04027cb1e8 Linux 6.19-rc1
 
---===============4533569840600048654==--
+--===============8985880389215882606==--
