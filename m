@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/firmware/linux-firmware
-Date: Thu, 18 Dec 2025 16:25:09 -0000
-Message-Id: <176607510975.994614.2151028793864805607@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jenswi/linux-tee
+Date: Thu, 18 Dec 2025 16:27:46 -0000
+Message-Id: <176607526678.996118.9967969171940446798@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/firmware/linux-firmware
-user: jwboyer
+repo: pub/scm/linux/kernel/git/jenswi/linux-tee
+user: jenswi
 changes:
-  - ref: refs/heads/main
-    old: e66d9269e773a553a99f7771982a4bef06c562ec
-    new: b8c2f77a04fe25d3d4cca67d6a91dee9b22e013a
+  - ref: refs/heads/tee_bus_callback_for_6.20
+    old: 71e47245f89502dafb5d944a571ccb5144a52645
+    new: 4f32b6341818be62db1ea41ced68ca2f0cce5700
     log: |
-         56bb432a65bce10ff415231c3cdbf50cc81c03a6 rcar_gen4_pcie: add firmware for Renesas R-Car Gen4 PCIe controller
-         b8c2f77a04fe25d3d4cca67d6a91dee9b22e013a Merge branch 'robot/patch-0-1766014776' into 'main'
+         6d8a0031d92d56f0cf57947df408d5cafd57bb22 rtc: optee: Migrate to use tee specific driver registration function
+         4f32b6341818be62db1ea41ced68ca2f0cce5700 rtc: optee: Make use of tee bus methods
          
