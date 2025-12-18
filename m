@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/cip/linux-cip
-Date: Thu, 18 Dec 2025 18:58:51 -0000
-Message-Id: <176608433171.1169161.11261039986584427581@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ebiggers/linux
+Date: Thu, 18 Dec 2025 18:59:50 -0000
+Message-Id: <176608439017.1170127.10977031806954998679@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/cip/linux-cip
-user: pavel
+repo: pub/scm/linux/kernel/git/ebiggers/linux
+user: ebiggers
 changes:
-  - ref: refs/notes/signatures/tar
-    old: 0492e419418b7bf653fc3aed63dfe370ec2d0900
-    new: d3aa6763b99ea20c1052cea9c5dba31ccab27386
-    log: |
-         d3aa6763b99ea20c1052cea9c5dba31ccab27386 Notes added by 'git notes add'
-         
+  - ref: refs/tags/libcrypto-fixes-for-linus
+    old: 0000000000000000000000000000000000000000
+    new: e5ea52a551dd6710dd5062974d15844c317af0ab
