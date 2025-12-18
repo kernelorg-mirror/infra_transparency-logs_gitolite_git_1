@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6653601114548614775=="
+Content-Type: multipart/mixed; boundary="===============7860142678470986196=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/fustini/linux
-Date: Thu, 18 Dec 2025 18:55:29 -0000
-Message-Id: <176608412964.1165526.6558882257585821336@gitolite.kernel.org>
+Date: Thu, 18 Dec 2025 18:55:47 -0000
+Message-Id: <176608414735.1166462.6713405736316146000@gitolite.kernel.org>
 
---===============6653601114548614775==
+--===============7860142678470986196==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/fustini/linux
 user: fustini
 changes:
-  - ref: refs/heads/thead-clk-for-next
+  - ref: refs/heads/thead-dt-fixes
     old: 3a8660878839faadb4f1a6dd72c3179c1df56787
     new: 8f0b4cce4481fb22653697cced8d0d04027cb1e8
     log: revlist-3a8660878839-8f0b4cce4481.txt
 
---===============6653601114548614775==
+--===============7860142678470986196==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ cba09e3ed06db4b6c87bc97e0aea080421fb8f7d Merge tag 'perf-urgent-2025-12-12' of g
 6a1636e06625ec0dd7f2b908ab39a8beea24bfd3 Merge tag 'scsi-misc' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
 8f0b4cce4481fb22653697cced8d0d04027cb1e8 Linux 6.19-rc1
 
---===============6653601114548614775==--
+--===============7860142678470986196==--
