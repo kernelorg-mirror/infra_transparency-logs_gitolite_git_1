@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Thu, 18 Dec 2025 15:49:56 -0000
-Message-Id: <176607299634.956109.7549516275099816896@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xen/tip
+Date: Thu, 18 Dec 2025 16:02:41 -0000
+Message-Id: <176607376186.968987.4343981949774257102@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: pabeni
+repo: pub/scm/linux/kernel/git/xen/tip
+user: jgross
 changes:
-  - ref: refs/heads/main
-    old: 5cba412d6a005719d52dc72b6d7e5a59af979eaa
-    new: 2939203ffee818f1e5ebd60bbb85a174d63aab9c
+  - ref: refs/heads/for-linus-6.19
+    old: 150215b89bcf708356abcb7d3cafdd1e6068598b
+    new: e5aff444e3a7bdeef5ea796a2099fc3c60a070fa
     log: |
-         2939203ffee818f1e5ebd60bbb85a174d63aab9c net: enetc: do not transmit redirected XDP frames when the link is down
+         e5aff444e3a7bdeef5ea796a2099fc3c60a070fa x86/xen: Fix sparse warning in enlighten_pv.c
          
