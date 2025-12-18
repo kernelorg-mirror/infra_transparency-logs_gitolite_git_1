@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7521451101312800010=="
+Content-Type: multipart/mixed; boundary="===============0063510244890697525=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tenstorrent/linux
-Date: Thu, 18 Dec 2025 19:43:45 -0000
-Message-Id: <176608702591.1231800.12476517854167122549@gitolite.kernel.org>
+Date: Thu, 18 Dec 2025 19:43:56 -0000
+Message-Id: <176608703636.1232266.4278029298303752696@gitolite.kernel.org>
 
---===============7521451101312800010==
+--===============0063510244890697525==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tenstorrent/linux
 user: fustini
 changes:
-  - ref: refs/heads/tenstorrent-dt-for-next
-    old: a71e6e8eea8ae2d624f097911f43357bba06d2a5
+  - ref: refs/heads/tenstorrent-dt-fixes
+    old: 3a8660878839faadb4f1a6dd72c3179c1df56787
     new: 8f0b4cce4481fb22653697cced8d0d04027cb1e8
-    log: revlist-a71e6e8eea8a-8f0b4cce4481.txt
+    log: revlist-3a8660878839-8f0b4cce4481.txt
 
---===============7521451101312800010==
+--===============0063510244890697525==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a71e6e8eea8a-8f0b4cce4481.txt
+Content-Disposition: attachment; filename=revlist-3a8660878839-8f0b4cce4481.txt
 
 09339d0d83108fd4f59b94677ac99bde870aa0ae l2tp: correct debugfs label for tunnel tx stats
 ea2d3befcf29cca5221d0572d54e4d71b683175d net: dsa: yt921x: Set ageing_time_min/ageing_time_max
@@ -1051,4 +1051,4 @@ cba09e3ed06db4b6c87bc97e0aea080421fb8f7d Merge tag 'perf-urgent-2025-12-12' of g
 6a1636e06625ec0dd7f2b908ab39a8beea24bfd3 Merge tag 'scsi-misc' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
 8f0b4cce4481fb22653697cced8d0d04027cb1e8 Linux 6.19-rc1
 
---===============7521451101312800010==--
+--===============0063510244890697525==--
