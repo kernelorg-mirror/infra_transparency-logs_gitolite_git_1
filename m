@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2001008937595875222=="
+Content-Type: multipart/mixed; boundary="===============3319185211688954954=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Thu, 18 Dec 2025 03:01:17 -0000
-Message-Id: <176602687706.4191649.700133001077823486@gitolite.kernel.org>
+Date: Thu, 18 Dec 2025 03:01:18 -0000
+Message-Id: <176602687865.4191816.3441877885135468361@gitolite.kernel.org>
 
---===============2001008937595875222==
+--===============3319185211688954954==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/mm-new
-    old: fc2af7a8060126c3a99fc1dfd7c5abd71a4dc81d
-    new: c224625ec6f8a0476ffffc09807f4d717ba9cc93
-    log: revlist-fc2af7a80601-c224625ec6f8.txt
+  - ref: refs/heads/mm-unstable
+    old: c3b9c6e72ccac98ef4af7d61d5b4e82b79d8d750
+    new: edeb51ec1667baf92dc4b54363817435cff07d35
+    log: revlist-c3b9c6e72cca-edeb51ec1667.txt
 
---===============2001008937595875222==
+--===============3319185211688954954==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-fc2af7a80601-c224625ec6f8.txt
+Content-Disposition: attachment; filename=revlist-c3b9c6e72cca-edeb51ec1667.txt
 
 0f3574b1d87c1ac0e09e7a6def99ae9ba7ca6496 MAINTAINERS: add Mike Rapoport as maintainer for userfaultfd
 4c7987a4da2720583494f82f64f324148005d6e9 genalloc.h: fix htmldocs warning
@@ -87,63 +87,5 @@ bf018c11b8938a9c8cb43731e2586f1bea182a2b mm/vmscan.c:shrink_folio_list(): save a
 34c8877bb03c8f12193deeb57f2d35fea07f8b87 mm/hugetlb: fix two comments related to huge_pmd_unshare()
 3bb741e353c1df80a6e23260851d31068d7b14e5 mm/rmap: fix two comments related to huge_pmd_unshare()
 edeb51ec1667baf92dc4b54363817435cff07d35 mm/hugetlb: fix excessive IPI broadcasts when unsharing PMD tables using mmu_gather
-4137b9e55536e5a5c5c07547d8f2138b24ec8b1f zram: introduce compressed data writeback
-e18060c3251c44ec05a2b9f0b8b648e83fcb9af8 zram: introduce writeback_compressed device attribute
-cc2d22d3356d5d9168d9e2515998bd602241c308 zram: document writeback_batch_size
-67bf155f1c225ab340a8cdd681703e2093ebc983 zram: move bd_stat to writeback section
-b8fb4b4b1a3de9bba3426c0ea8a6ed9cba9b9c8e zram: rename zram_free_page()
-ab6597da6b91cf03447ffc2ee92f8dec6d8191f6 zram: switch to guard() for init_lock
-3015adaf237bf2b4e1c01c8712af2899ce637939 zram: consolidate device-attr declarations
-54718d6572ce5c6105f9e2bdf0ff801924b514b9 zram: use u32 for entry ac_time tracking
-9ad2ab55f11699263be3235a7d4cdece3b4f25b1 zram: rename internal slot API
-39fb1cd5e53ae774bc5b93f8c07dcd947e84747d zram: trivial fix of recompress_slot() coding styles
-7264f379e1e65e9187b2f624a219cd5fa333a2f6 treewide: provide a generic clear_user_page() variant
-cb3378d36f186f723487cb548906c77181477ba6 highmem: introduce clear_user_highpages()
-745059a1cfe6a7723325b9b739c61ffb7605b940 mm: introduce clear_pages() and clear_user_pages()
-c0edb9ea15962b7b79edb9bbe5448cc1dc248cef highmem: do range clearing in clear_user_highpages()
-5677210165a6fe784360b0c11145c5a039c1b36f x86/mm: simplify clear_page_*
-5778926933a5cf137c85e663079ab57a2437f2ea x86/clear_page: introduce clear_pages()
-48ce3b5b1f0795a9ea3c15be1770a200274e61f5 mm, folio_zero_user: support clearing page ranges
-cf93433f6a7ef1a36fd8749fa5c5f17945550e3d mm: folio_zero_user: cache neighbouring pages
-adb68ebf3e3feb102206e29f996dbd55b651cd3d mm/damon/sysfs-schemes: remove outdated TODO in target_nid_store()
-2a8c9bfd1a0a48f631548fd56e8d90fe5d5fca84 mm: zswap: delete unused acomp->is_sleepable
-8554c79b9800e4d069f3efedd3b0297b28429e8a memcg: move mem_cgroup_usage memcontrol-v1.c
-28747ec2ab7968412a624611673f1c6eeab6cfef memcg: remove mem_cgroup_size()
-cbdbe25b4475c51dd6946a32fc358af29bc50b32 mm: memcontrol: rename mem_cgroup_from_slab_obj()
-942f99815d960adb317585cae09c162dafae4e8c mm/damon/core: fix wasteful CPU calls by skipping non-existent targets
-5c9a5f7e7df196b8ccbf90082972edbd9a8ca49d tools/mm/thp_swap_allocator_test: fix small folio alignment
-dbcf6e12f60367a4e6f35eb12bee64a1680c98f3 mm: introduce a new page type for page pool in page type
-057355672197faa53787664a52492feac486e97c tools/mm/slabinfo: fix --partial long option mapping
-8ab7e5e23987831a6c7004ba1bbe57a03a11f462 mm/damon/core: introduce nr_snapshots damos stat
-a5d763aa65c90a5156396d26f0252bac93be1841 mm/damon/sysfs-schemes: introduce nr_snapshots damos stat file
-ba90c23bba31da4e9f421afab22d8e1456ed3d4a Docs/mm/damon/design: update for nr_snapshots damos stat
-3a2e2a4e65f7fc7f5c3c3e3a5ac61a837216b2b5 Docs/admin-guide/mm/damon/usage: update for nr_snapshots damos stat
-1b070e4f694cb226ecfebd7c6137dd03124e7f00 Docs/ABI/damon: update for nr_snapshots damos stat
-b041313972d60e458066523293a17354033ee91f mm/damon: update damos kerneldoc for stat field
-bfdca8ce49fc5f75d11925881ec3eb34a6933c00 mm/damon/core: implement max_nr_snapshots
-41baa2d638432d29ab9a5f62b75c6f87b52d6fcf mm/damon/sysfs-schemes: implement max_nr_snapshots file
-1d551b707420f73f29afc915ba4396a0e2233be0 Docs/mm/damon/design: update for max_nr_snapshots
-f56a207bc1060c002082aa05126537245ef3d8c7 Docs/admin-guide/mm/damon/usage: update for max_nr_snapshots
-dd30cc4aef122a54374c2f036ea6f6728c329c6f Docs/ABI/damon: update for max_nr_snapshots
-7b662c4b6dbdf20a6e4a585a59ce8a87e1da7c00 mm/damon/core: add trace point for damos stat per apply interval
-c5dc330c33fb3e05749a793fdc7ec0bd5fa7dee8 mm/damon/stat: deduplicate intervals_goal setup in damon_stat_build_ctx()
-bea0813c23b65696a1da162ff3557f44da0ec6f5 zram: drop pp_in_progress
-e96f712dc0800b6294fb1fb43ccb86a81f98ef41 mm/block/fs: remove laptop_mode
-5ffea1284747cbad3fabf8c37a1d7221c420117c mm/percpu: drop unused max_upa in pcpu_build_alloc_info()
-5ba4ec760d483cd7b9ad6c4210f06a3f3179098d maple_tree: remove struct maple_alloc
-e5e440e178ad3331420837a3a868240a581afa62 lib/test_vmalloc.c: minor fixes to test_vmalloc.c
-c444a4417fb671845ab37750ea228a5d971e762e mm/mm_init: replace simple_strtoul with kstrtobool in set_hashdist
-96d78c461687782d27a47a79a80b88bf4172e20e mm: change mm/pt_reclaim.c to use asm/tlb.h instead of asm-generic/tlb.h
-586c334b305973a84c1f6babef48bbe3871d38ec alpha: mm: enable MMU_GATHER_RCU_TABLE_FREE
-4a83aa15740297a71732d16a67d197b97fc938f8 LoongArch: mm: enable MMU_GATHER_RCU_TABLE_FREE
-10bea86a35f9fd679448d7f14677fea8622369fd mips: mm: enable MMU_GATHER_RCU_TABLE_FREE
-e4130455bfebcdfb3cb4f17a79f620e57144c9c7 parisc: mm: enable MMU_GATHER_RCU_TABLE_FREE
-95eec5708a98b318ff78ea3c7b7eff5256ed645f um: mm: enable MMU_GATHER_RCU_TABLE_FREE
-fedd010fe36837d4b0ebc7db5e57e6cb7fb3a433 mm: make PT_RECLAIM depends on MMU_GATHER_RCU_TABLE_FREE
-587c427f767f1301169b5a8d0002401712a7a7b9 mm: pagewalk: simplify hugepage boundary calculation
-b10b410bfa7a6c4f6b4caacdc3898edfe7b363cf mm/vmscan: use %pe to print error pointers
-42de74ef1bdcca170fb68fb7d344a2124cf16daa mm/zswap: use %pe to print error pointers
-3ede577db6737544823867e34632c3ef49115993 zram: remove KMSG_COMPONENT macro
-c224625ec6f8a0476ffffc09807f4d717ba9cc93 mm/damon: fix typos in comments
 
---===============2001008937595875222==--
+--===============3319185211688954954==--
