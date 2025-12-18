@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============9018803222659100265=="
+Content-Type: multipart/mixed; boundary="===============6933549400406445491=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jgg/iommufd
-Date: Thu, 18 Dec 2025 18:03:27 -0000
-Message-Id: <176608100715.1092713.3779089471350332325@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/fwctl/fwctl
+Date: Thu, 18 Dec 2025 18:03:28 -0000
+Message-Id: <176608100888.1092876.2987502357806042567@gitolite.kernel.org>
 
---===============9018803222659100265==
+--===============6933549400406445491==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jgg/iommufd
+repo: pub/scm/linux/kernel/git/fwctl/fwctl
 user: jgg
 changes:
   - ref: refs/heads/linus
@@ -20,7 +20,7 @@ changes:
     new: ea1013c1539270e372fc99854bc6e4d94eaeff66
     log: revlist-8f0b4cce4481-ea1013c15392.txt
 
---===============9018803222659100265==
+--===============6933549400406445491==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -75,4 +75,4 @@ dbf89321bf1eb0cd3115662c4fbd569abf92ef9c Merge tag 'sched_ext-for-6.19-rc1-fixes
 64e68f8a95eb771273d8d19f9dc1f763524e56d9 Merge tag 's390-6.19-3' of git://git.kernel.org/pub/scm/linux/kernel/git/s390/linux
 ea1013c1539270e372fc99854bc6e4d94eaeff66 Merge tag 'bpf-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf
 
---===============9018803222659100265==--
+--===============6933549400406445491==--
