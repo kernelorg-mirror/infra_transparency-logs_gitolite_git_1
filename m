@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/trace/linux-trace
-Date: Thu, 18 Dec 2025 21:11:58 -0000
-Message-Id: <176609231893.1319331.9582403086927166713@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kbuild/linux
+Date: Thu, 18 Dec 2025 21:13:47 -0000
+Message-Id: <176609242709.1320211.7669931702225417998@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/trace/linux-trace
-user: rostedt
+repo: pub/scm/linux/kernel/git/kbuild/linux
+user: nsc
 changes:
-  - ref: refs/tags/trace-v6.19-rc1
+  - ref: refs/heads/kbuild-for-next
     old: 0000000000000000000000000000000000000000
-    new: fb11857ac474c8e9b28605d062dc37de624e4338
+    new: f4a6e20a0308f45488140260d600e25d8be7f463
