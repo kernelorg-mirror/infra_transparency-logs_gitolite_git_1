@@ -1,22 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Thu, 18 Dec 2025 16:29:22 -0000
-Message-Id: <176607536258.997432.9264548398270145698@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/firmware/linux-firmware
+Date: Thu, 18 Dec 2025 16:30:09 -0000
+Message-Id: <176607540950.1001599.14421190441374337980@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: pabeni
+repo: pub/scm/linux/kernel/git/firmware/linux-firmware
+user: jwboyer
 changes:
   - ref: refs/heads/main
-    old: 373a34addca0a68b0eb77360035e9885183ffdca
-    new: 21a88f5d9ce0c328486073b75d082d85a1e98a8b
+    old: b8c2f77a04fe25d3d4cca67d6a91dee9b22e013a
+    new: 881c549a82203abd9a88870ba27f3e8ce754b2c4
     log: |
-         5d5602236f5db19e8b337a2cd87a90ace5ea776d can: j1939: make j1939_session_activate() fail if device is no longer registered
-         46cea215dc9444ec32a76b1b6a9cb809e17b64d5 can: j1939: make j1939_sk_bind() fail if device is no longer registered
-         5a5aff6338c0f4164a6a8d8a7eb400c4054df256 can: fix build dependency
-         21a88f5d9ce0c328486073b75d082d85a1e98a8b Merge tag 'linux-can-fixes-for-6.19-20251218' of git://git.kernel.org/pub/scm/linux/kernel/git/mkl/linux-can
+         9ba3cd47946692e525ae811c04b6afce4ffe244b linux-firmware: update firmware for MT7925 WiFi device
+         e56e0a4c8985ec8559aa7b8a831cb841dc8505e6 mediatek MT7925: update bluetooth firmware to 20251210093205
+         881c549a82203abd9a88870ba27f3e8ce754b2c4 Merge branch 'mt7925' into 'main'
          
