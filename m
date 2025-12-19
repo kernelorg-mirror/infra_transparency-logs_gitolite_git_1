@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/damon-hack
-Date: Fri, 19 Dec 2025 01:41:26 -0000
-Message-Id: <176610848655.1573524.569440419350134201@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/sysdarch
+Date: Fri, 19 Dec 2025 02:05:33 -0000
+Message-Id: <176610993350.1595325.14799864969072801707@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/damon-hack
-user: sj
+repo: pub/scm/linux/kernel/git/jarkko/sysdarch
+user: jarkko
 changes:
-  - ref: refs/heads/master
-    old: dad772f597ad6172f005547c9f3d0035da934812
-    new: eafce17b570bb48152bf5976bc4a3df4989a7827
+  - ref: refs/heads/main
+    old: b1f51913f09ed1c3fda36c720eb28f6ca268ceb9
+    new: bfbdb1e3a1a7e2c2a0173669c485f89d1b6c92f3
     log: |
-         eafce17b570bb48152bf5976bc4a3df4989a7827 patches/next: rebase to latest mm-new
+         bfbdb1e3a1a7e2c2a0173669c485f89d1b6c92f3 Switch to Niri compositor
          
