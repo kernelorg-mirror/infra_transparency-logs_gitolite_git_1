@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
-Date: Fri, 19 Dec 2025 16:47:39 -0000
-Message-Id: <176616285984.2425336.17003451956482252173@gitolite.kernel.org>
+Date: Fri, 19 Dec 2025 16:55:44 -0000
+Message-Id: <176616334489.2434101.1918172446778312905@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,9 +12,9 @@ repo: pub/scm/linux/kernel/git/groeck/linux-staging
 user: groeck
 changes:
   - ref: refs/heads/hwmon-next
-    old: 1d9d442ab179b11c629ae8f87533c9ae381cc15f
-    new: 162d9c37b31442eafcba202a693ffa21183e5b84
+    old: 162d9c37b31442eafcba202a693ffa21183e5b84
+    new: c6c80820ac5d845c19c4de2e6054e7c246017044
     log: |
-         ce50e16e18916589296ba585b5c73a8f75686b8a hwmon: Fix wrong return errno in *sanitize_name()
-         162d9c37b31442eafcba202a693ffa21183e5b84 hwmon: Use sysfs_emit in show function callbacks
+         bf8f65450c9c4292bfbffbfc3be991f0517a1547 dt-bindings: hwmon: Add mps mp5926 driver bindings
+         c6c80820ac5d845c19c4de2e6054e7c246017044 hwmon: (pmbus) Add mp5926 driver
          
