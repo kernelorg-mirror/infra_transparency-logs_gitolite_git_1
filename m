@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/sysdarch
-Date: Fri, 19 Dec 2025 02:46:39 -0000
-Message-Id: <176611239949.1633274.2431710148439357715@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux
+Date: Fri, 19 Dec 2025 02:48:11 -0000
+Message-Id: <176611249144.1634182.7971735998183953799@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/sysdarch
-user: jarkko
+repo: pub/scm/linux/kernel/git/axboe/linux
+user: axboe
 changes:
-  - ref: refs/heads/main
-    old: f6cc41d1d8b51bc6a16d47196e99697239e3fa81
-    new: 2591630403220d8de687b8f55241914d3a02ed7c
-    log: |
-         2591630403220d8de687b8f55241914d3a02ed7c Switch to Niri compositor
-         
+  - ref: refs/heads/net-streams-inq
+    old: 0000000000000000000000000000000000000000
+    new: 29c361f18bafeb4afa3b6d3a9ea180fcec0b81d7
