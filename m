@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8515264307179778201=="
+Content-Type: multipart/mixed; boundary="===============8337965124358313703=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ras/ras
-Date: Fri, 19 Dec 2025 21:48:04 -0000
-Message-Id: <176618088455.154892.4828553971635858256@gitolite.kernel.org>
+Date: Fri, 19 Dec 2025 21:48:47 -0000
+Message-Id: <176618092717.155283.11376521952016338841@gitolite.kernel.org>
 
---===============8515264307179778201==
+--===============8337965124358313703==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,18 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ras/ras
 user: aegl
 changes:
-  - ref: refs/heads/edac-drivers
-    old: ef1b6d904993d3a21baa7d4105e1a4e4ba9dd6de
-    new: 4c36e6106997b6ad8f4a279b4bdbca3ed6f53c6c
-    log: revlist-ef1b6d904993-4c36e6106997.txt
+  - ref: refs/heads/edac-for-next
+    old: 814b332921b6c9b4b4c6c98a024f2dd9f33a8178
+    new: c0e5563f68fddbf4f788c2fe89e65d84bbdf031f
+    log: revlist-814b332921b6-c0e5563f68fd.txt
 
---===============8515264307179778201==
+--===============8337965124358313703==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ef1b6d904993-4c36e6106997.txt
+Content-Disposition: attachment; filename=revlist-814b332921b6-c0e5563f68fd.txt
 
-484f1176896e85b5ae4f04403c8cd5b79aced95e Bluetooth: mediatek: add gpio pin to reset bt
 01622e9a5336015f657df423b700e488fbcd2f39 Bluetooth: hci_h5: avoid sending two SYNC messages
 97fdb2ea06efdde784480934d1ff60eb21e88b58 Bluetooth: hci_h5: implement CRC data integrity
 33b2835f0b7e2a458473b0e3a23b54b92108b6b0 Bluetooth: HCI: Add initial support for PAST
@@ -1050,5 +1049,6 @@ cba09e3ed06db4b6c87bc97e0aea080421fb8f7d Merge tag 'perf-urgent-2025-12-12' of g
 41ca2155d62b0b0d217f59e1bce18362d0c2446f EDAC/igen6: Add two Intel Amston Lake SoCs support
 4b720906efa34e1f68e3b2f7061c294e1889525b EDAC/igen6: Make masks of {MCHBAR, TOM, TOUUD, ECC_ERROR_LOG} configurable
 4c36e6106997b6ad8f4a279b4bdbca3ed6f53c6c EDAC/igen6: Add more Intel Panther Lake-H SoCs support
+c0e5563f68fddbf4f788c2fe89e65d84bbdf031f Merge branch 'edac-drivers' into edac-for-next
 
---===============8515264307179778201==--
+--===============8337965124358313703==--
