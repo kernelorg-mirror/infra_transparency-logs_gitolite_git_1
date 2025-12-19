@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/sysdarch
-Date: Fri, 19 Dec 2025 03:33:11 -0000
-Message-Id: <176611519112.1678851.6307988931109111427@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vireshk/pm
+Date: Fri, 19 Dec 2025 03:43:13 -0000
+Message-Id: <176611579319.1688197.4761498679390516917@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/sysdarch
-user: jarkko
+repo: pub/scm/linux/kernel/git/vireshk/pm
+user: vireshk
 changes:
-  - ref: refs/heads/main
-    old: 5cf2290d719f5d3ff9d328d0a7d0f006ebae40b8
-    new: 3b02bf555a1dd6e10a117438bfdf23766b3f2378
+  - ref: refs/heads/cpufreq/arm/linux-next
+    old: f98c414030d28a1294323e7eac4c07e158e43a6b
+    new: 0702825fe1e26b0c04ce19f1a0acfa67601862c2
     log: |
-         3b02bf555a1dd6e10a117438bfdf23766b3f2378 Switch to Niri compositor
+         0702825fe1e26b0c04ce19f1a0acfa67601862c2 cpufreq: Add Tegra186 and Tegra194 to cpufreq-dt-platdev blocklist
          
