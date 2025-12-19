@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Fri, 19 Dec 2025 12:17:05 -0000
-Message-Id: <176614662566.2162037.11906965100535996696@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Fri, 19 Dec 2025 12:29:52 -0000
+Message-Id: <176614739200.2172834.9841158410919371925@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: sashal
 changes:
-  - ref: refs/heads/20251219_cy_huang_add_richtek_rt8092_support
-    old: 0000000000000000000000000000000000000000
-    new: 32a708ba5db50cf928a1f1b2039ceef33de2c286
+  - ref: refs/heads/master
+    old: 5dfdeeb1f62cc81a85972766a1d700e2ec903933
+    new: c7d1e66a34d636c0995c563a5ff49709c1394488
+    log: |
+         c7d1e66a34d636c0995c563a5ff49709c1394488 Fixes for all trees
+         
