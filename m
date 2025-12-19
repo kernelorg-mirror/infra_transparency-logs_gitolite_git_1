@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5087991673099794062=="
+Content-Type: multipart/mixed; boundary="===============6289079189999624516=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/alarsson/linux-sparc
-Date: Fri, 19 Dec 2025 09:15:12 -0000
-Message-Id: <176613571259.1995814.11932270276066244746@gitolite.kernel.org>
+Date: Fri, 19 Dec 2025 09:15:18 -0000
+Message-Id: <176613571883.1996226.16661774722754400927@gitolite.kernel.org>
 
---===============5087991673099794062==
+--===============6289079189999624516==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/alarsson/linux-sparc
 user: alarsson
 changes:
-  - ref: refs/heads/for-next
-    old: fe0126702a40b2f3d315bc943ef10dc2f707e29d
+  - ref: refs/heads/for-linus
+    old: 6613476e225e090cc9aad49be7fa504e290dd33d
     new: 8f0b4cce4481fb22653697cced8d0d04027cb1e8
-    log: revlist-fe0126702a40-8f0b4cce4481.txt
+    log: revlist-6613476e225e-8f0b4cce4481.txt
 
---===============5087991673099794062==
+--===============6289079189999624516==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-fe0126702a40-8f0b4cce4481.txt
+Content-Disposition: attachment; filename=revlist-6613476e225e-8f0b4cce4481.txt
 
 09339d0d83108fd4f59b94677ac99bde870aa0ae l2tp: correct debugfs label for tunnel tx stats
 ea2d3befcf29cca5221d0572d54e4d71b683175d net: dsa: yt921x: Set ageing_time_min/ageing_time_max
@@ -1051,4 +1051,4 @@ cba09e3ed06db4b6c87bc97e0aea080421fb8f7d Merge tag 'perf-urgent-2025-12-12' of g
 6a1636e06625ec0dd7f2b908ab39a8beea24bfd3 Merge tag 'scsi-misc' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
 8f0b4cce4481fb22653697cced8d0d04027cb1e8 Linux 6.19-rc1
 
---===============5087991673099794062==--
+--===============6289079189999624516==--
