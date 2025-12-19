@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4558882144030703538=="
+Content-Type: multipart/mixed; boundary="===============5864435656370665892=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jejb/scsi
-Date: Fri, 19 Dec 2025 12:58:34 -0000
-Message-Id: <176614911439.2200882.5687281120535563805@gitolite.kernel.org>
+Date: Fri, 19 Dec 2025 12:58:42 -0000
+Message-Id: <176614912204.2201147.12154936084483362155@gitolite.kernel.org>
 
---===============4558882144030703538==
+--===============5864435656370665892==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,21 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jejb/scsi
 user: jejb
 changes:
-  - ref: refs/heads/fixes-base
-    old: a2b32bc1d9e359a9f90d0de6af16699facb10935
-    new: 8f0b4cce4481fb22653697cced8d0d04027cb1e8
-    log: revlist-a2b32bc1d9e3-8f0b4cce4481.txt
+  - ref: refs/heads/fixes
+    old: 90449f2d1e1f020835cba5417234636937dd657e
+    new: c9f36f04a8a2725172cdf2b5e32363e4addcb14c
+    log: revlist-90449f2d1e1f-c9f36f04a8a2.txt
 
---===============4558882144030703538==
+--===============5864435656370665892==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a2b32bc1d9e3-8f0b4cce4481.txt
+Content-Disposition: attachment; filename=revlist-90449f2d1e1f-c9f36f04a8a2.txt
 
-09339d0d83108fd4f59b94677ac99bde870aa0ae l2tp: correct debugfs label for tunnel tx stats
-ea2d3befcf29cca5221d0572d54e4d71b683175d net: dsa: yt921x: Set ageing_time_min/ageing_time_max
-e3b8cbf40c6e60a7a935bd8980884d5741a7a77b selftests: netconsole: remove log noise due to socat exit
-33b4c26d4d3ccd24d9721a577671f2c73c1a7cd9 x86/platform: Fix and extend kernel-doc comments in <asm/x86_init.h>
 1dd6c84f1c544e552848a8968599220bd464e338 sched_ext: Fix incorrect sched_class settings for per-cpu migration tasks
 484f1176896e85b5ae4f04403c8cd5b79aced95e Bluetooth: mediatek: add gpio pin to reset bt
 01622e9a5336015f657df423b700e488fbcd2f39 Bluetooth: hci_h5: avoid sending two SYNC messages
@@ -1050,5 +1046,9 @@ cba09e3ed06db4b6c87bc97e0aea080421fb8f7d Merge tag 'perf-urgent-2025-12-12' of g
 0dfb36b2dcb666f116ba314e631bd3bc632c44d1 Merge tag 'ceph-for-6.19-rc1' of https://github.com/ceph/ceph-client
 6a1636e06625ec0dd7f2b908ab39a8beea24bfd3 Merge tag 'scsi-misc' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
 8f0b4cce4481fb22653697cced8d0d04027cb1e8 Linux 6.19-rc1
+1f7d6e2efeedd8f545d3e0e9bf338023bf4ea584 scsi: scsi_debug: Fix atomic write enable module param description
+d373163194982f43b92c552c138c29d9f0b79553 scsi: mpi3mr: Read missing IOCFacts flag for reply queue full overflow
+0e1677654259a2f3ccf728de1edde922a3c4ba57 scsi: sg: Fix occasional bogus elapsed time that exceeds timeout
+c9f36f04a8a2725172cdf2b5e32363e4addcb14c scsi: ufs: core: Add ufshcd_update_evt_hist() for UFS suspend error
 
---===============4558882144030703538==--
+--===============5864435656370665892==--
