@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============9156004993146602567=="
+Content-Type: multipart/mixed; boundary="===============7230807982540266014=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Fri, 19 Dec 2025 17:09:01 -0000
-Message-Id: <176616414134.2445122.501457579972412023@gitolite.kernel.org>
+Date: Fri, 19 Dec 2025 17:09:10 -0000
+Message-Id: <176616415000.2445521.8225345155678562029@gitolite.kernel.org>
 
---===============9156004993146602567==
+--===============7230807982540266014==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/10GbE
+  - ref: refs/heads/100GbE
     old: 885bebac9909994050bbbeed0829c727e42bd1b7
     new: 7b8e9264f55a9c320f398e337d215e68cca50131
     log: revlist-885bebac9909-7b8e9264f55a.txt
 
---===============9156004993146602567==
+--===============7230807982540266014==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ d180c11aa8a6fa735f9ac2c72c61364a9afc2ba7 net: hns3: using the num_tqps to check 
 a91e1138b7cb0e4dfa12ef823c6eedb34b28bd08 Merge tag 'v6.19-rc1-smb3-client-fixes' of git://git.samba.org/sfrench/cifs-2.6
 7b8e9264f55a9c320f398e337d215e68cca50131 Merge tag 'net-6.19-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 
---===============9156004993146602567==--
+--===============7230807982540266014==--
