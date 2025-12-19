@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/xen/tip
-Date: Fri, 19 Dec 2025 06:50:12 -0000
-Message-Id: <176612701271.1860019.2096726562041272138@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs
+Date: Fri, 19 Dec 2025 06:51:25 -0000
+Message-Id: <176612708505.1861216.15022607948232899978@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/xen/tip
-user: jgross
+repo: pub/scm/linux/kernel/git/xiang/erofs
+user: xiang
 changes:
-  - ref: refs/tags/for-linus-6.19-rc2-tag
-    old: 0000000000000000000000000000000000000000
-    new: afcad2d7f16c796d73ba854c447feac716aef3fa
+  - ref: refs/heads/dev-test
+    old: 39f9b1ae830094930a1bab17d6d52263fd92d032
+    new: 5da7eab185b4386ce6a909a946fe28c134350253
+    log: |
+         5da7eab185b4386ce6a909a946fe28c134350253 erofs: improve LZ4 error strings
+         
