@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf
-Date: Fri, 19 Dec 2025 19:19:18 -0000
-Message-Id: <176617195802.46046.1300249504085506315@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
+Date: Fri, 19 Dec 2025 19:21:27 -0000
+Message-Id: <176617208784.49053.833778673004823222@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf
-user: andrii
+repo: pub/scm/linux/kernel/git/cel/linux
+user: cel
 changes:
-  - ref: refs/heads/master
-    old: ea1013c1539270e372fc99854bc6e4d94eaeff66
-    new: 22cc16c04b7893d8fc22810599f49a305d600b9e
+  - ref: refs/heads/nfsd-testing
+    old: 771cfff228fca4fb051ba1ca3af3a050cb762cf4
+    new: 71c902f3ac178c5669faed7bbf4b8d4f8b4ae38e
     log: |
-         22cc16c04b7893d8fc22810599f49a305d600b9e riscv, bpf: Fix incorrect usage of BPF_TRAMP_F_ORIG_STACK
+         ad8ac894d0d9797f557cbf51c05fd32830887d9c NFSD: fix setting FMODE_NOCMTIME in nfs4_open_delegation
+         5392bb3ac5dbb7a7a53f5294116838020dde8aa7 [DEBUG] Add instrumentation for nfsd_mutex contention debugging
+         71c902f3ac178c5669faed7bbf4b8d4f8b4ae38e siw: Enable try_gso
          
