@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0057580274519788105=="
+Content-Type: multipart/mixed; boundary="===============0480618931683974392=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Fri, 19 Dec 2025 17:08:46 -0000
-Message-Id: <176616412614.2444686.1042042986848677933@gitolite.kernel.org>
+Date: Fri, 19 Dec 2025 17:08:55 -0000
+Message-Id: <176616413537.2444954.10622122752184522974@gitolite.kernel.org>
 
---===============0057580274519788105==
+--===============0480618931683974392==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,55 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/dev-queue
-    old: 8282ed7f73cf08f99288d3d0131e07f149063fbe
-    new: bce2071524093d71cdc5e54c4faab18f9d54e763
-    log: revlist-8282ed7f73cf-bce207152409.txt
+  - ref: refs/heads/1GbE
+    old: 885bebac9909994050bbbeed0829c727e42bd1b7
+    new: 7b8e9264f55a9c320f398e337d215e68cca50131
+    log: revlist-885bebac9909-7b8e9264f55a.txt
 
---===============0057580274519788105==
+--===============0480618931683974392==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8282ed7f73cf-bce207152409.txt
+Content-Disposition: attachment; filename=revlist-885bebac9909-7b8e9264f55a.txt
 
+96721fd292264d712b7b9a51752ab87de5035db4 smb: move create_durable_rsp_v2 to common/smb2pdu.h
+1172d8598499a006d172bb24bebaa3fdc99064a8 smb: move some duplicate definitions to common/smb2pdu.h
+d8ac9879182a1e1f3b97d166f5ba5e2f1b3e8535 smb: move SMB_NEGOTIATE_REQ to common/smb2pdu.h
+84d8d4cf8873b4a9da0d76e9ba9d94ec88311cfd smb: move list of FileSystemAttributes to common/fscc.h
+d7edd3892d97e6746e30f36f4f13f887ec4d80ed smb: move some duplicate struct definitions to common/fscc.h
+464b913993a14b539e978db10c755bb202ab14ed smb: move FILE_SYSTEM_SIZE_INFO to common/fscc.h
+95e8c1bfa56ebbc243779ee23782b30744da02f6 smb: do some cleanups
+e7e60e8bfcc5bfff0dc40a3b8ab275a4da6990a0 smb: fix some warnings reported by scripts/checkpatch.pl
+5003ad718af7705d6a519445a897843fac88167a smb: move create_durable_reconn to common/smb2pdu.h
+3316a8fc840d82fad5efcf76ad0ea3f76fdca209 ksmbd: server: avoid busy polling in accept loop
+b39a1833cc4a2755b02603eec3a71a85e9dff926 ksmbd: fix use-after-free in ksmbd_tree_connect_put under concurrency
+e4442b2e95baf0901830c924d0a197b100aca970 ksmbd: implement error handling for STATUS_INFO_LENGTH_MISMATCH in smb server
+c4a2a49f7df48147529158a092edfde1597d12f3 smb: move FILE_SYSTEM_ATTRIBUTE_INFO to common/fscc.h
+dc81b8f4f0fc9e1be0c9ce8a918503e175b2c9b2 ksmbd: Replace strcpy + strcat to improve convert_to_nt_pathname
+991f8a79db99b14c48d20d2052c82d65b9186cad ksmbd: vfs: fix race on m_flags in vfs_cache
+1f3fd108c5c5a9885c6c276a2489c49b60a6b90d smb: smbdirect: introduce SMBDIRECT_DEBUG_ERR_PTR() helper
+1adb2dab9727c5beaaf253f67bf4fc2c54ae70e7 smb: smbdirect: introduce SMBDIRECT_CHECK_STATUS_{WARN,DISCONNECT}()
+425c32750b48956a6e156b6a4609d281ee471359 smb: server: relax WARN_ON_ONCE(SMBDIRECT_SOCKET_*) checks in recv_done() and smb_direct_cm_handler()
+dc10cf1368af8cb816dcaa2502ba7d44fff20612 smb: client: relax WARN_ON_ONCE(SMBDIRECT_SOCKET_*) checks in recv_done() and smbd_conn_upcall()
+1fab1fa091f5aa97265648b53ea031deedd26235 ksmbd: ipc: fix use-after-free in ipc_msg_send_request
+9cfcd8601e56fd5e1fdb3adae57322fa5d7d3689 smb: client: show smb lease key in open_files output
+f78b83dce273ff2d9a4515b2945ec427e675c204 smb: client: show smb lease key in open_dirs output
+e1469f56089fc00bc94706a07c5cd63fa3e8625b cifs: Use netfs_alloc/free_folioq_buffer()
+0bdbf89a8bbeb155644b69dc2d071a1ce23414f8 erofs: switch on-disk header `erofs_fs.h` to MIT license
+7448a8d6909a488304ff402c414b14606b8472c4 MAINTAINERS: phy: Move Kishon Vijay Abraham I to credits
+50a59230fa63989d59253622a8dd6386cca0db07 drm/xe/pm: Add scope-based cleanup helper for runtime PM
+73834d03a523e09d64e7978265f1edd33640bf3f drm/xe/pf: Enable SR-IOV VF migration
+5be29ebe9f059f2afadd2a725e12aa25e900b6fb drm/xe/pci: Introduce a helper to allow VF access to PF xe_device
+bd45d46ffc8fa96e8ee9fa078cef53e0c1221ff4 drm/xe/pf: Export helpers for VFIO
+6b49f70022ed607bab66da60c7b332f39cda4ff1 KVM: arm64: Teach ptdump about FEAT_XNX permissions
+692650bd7b12532798c2022cb53869a07a288fbe KVM: arm64: nv: Advertise support for FEAT_XNX
+cdba9da34b145eb2f3c502279a454f9a1a8346c1 KVM: arm64: Call helper for reading descriptors directly
+977d1bf15c5179276d93468abbc00a224908ff72 KVM: arm64: nv: Stop passing vCPU through void ptr in S2 PTW
+fabf321cba4be0d0dcbb39e97c3deb572fec2f8d KVM: arm64: Handle endianness in read helper for emulated PTW
+590e694820bfd70e3de78fcb98b16c98a905230e KVM: arm64: nv: Use pgtable definitions in stage-2 walk
+f6927b41d57390c597a126063e2e518911976878 KVM: arm64: Add helper for swapping guest descriptor
+92c6443222ca4289191d797ac79176c560886998 KVM: arm64: Propagate PTW errors up to AT emulation
+bff8aa213dee742b09151a34494418050afed948 KVM: arm64: Implement HW access flag management in stage-1 SW PTW
 e4c7dfac2f1ab848ffd356b3e76827ea404bbd94 KVM: arm64: nv: Implement HW access flag management in stage-2 SW PTW
 d5bbb76f447420681abdcfa4ad32344d11188d00 KVM: arm64: nv: Expose hardware access flag management to NV guests
 66f188858385d640163fbf866d9c11b7741da91a KVM: arm64: selftests: Add test for AT emulation
@@ -1012,43 +1050,5 @@ d180c11aa8a6fa735f9ac2c72c61364a9afc2ba7 net: hns3: using the num_tqps to check 
 9a903e6d9649e45cee9a8588fa3793fdfc5408ee Merge tag 'fsnotify_for_v6.19-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/jack/linux-fs
 a91e1138b7cb0e4dfa12ef823c6eedb34b28bd08 Merge tag 'v6.19-rc1-smb3-client-fixes' of git://git.samba.org/sfrench/cifs-2.6
 7b8e9264f55a9c320f398e337d215e68cca50131 Merge tag 'net-6.19-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
-e6247959586a6a27000b1603945251be8ce4c542 ice: fix fwlog after driver reinit
-552540d99afbb594334d7815fc911c3c125e0fd2 ice: Fix enable_cnt imbalance on resume
-62763b0df3cf036afc8a2fb1251eda3791772d71 ice: Fix enable_cnt imbalance on PCIe error recovery
-3fc576be4a1b081ba3fc19a5be09570a137d1a50 i40e: Fix enable_cnt imbalance on PCIe error recovery
-c47966438ec230e70db1c8397beb2c5226dd3166 idpf: fix memory leak of flow steer list on rmmod
-500b2d366e6ce705d4dfc89b48b055876ffc256b idpf: fix issue with ethtool -n command display
-7aadc9b58f4027caaa423670a4c264d8d23bc17c idpf: fix LAN memory regions command on some NVMs
-1a8a22b09a53357fc6e4771a5c05ba3bd3493dfc iavf: fix off-by-one issues in iavf_config_rss_reg()
-10cf1e608f2b4ed73d81f3bf785cdd832772e24d idpf: cap maximum Rx buffer size
-8a1d059648d52108a776fdd77ddde72154842836 idpf: keep the netdev when a reset fails
-eda7bc46187ccb86009555603ca6b180ec4a2e84 idpf: detach and close netdevs while handling a reset
-96a18edc07c468ef7f6f5e797391550ed734bbd8 idpf: fix memory leak in idpf_vport_rel()
-03ae591053611a059dc13af9aa5a06ccfc365efa idpf: fix memory leak in idpf_vc_core_deinit()
-9a06421533c1897cd6f11f323e62f5be755af1b4 idpf: fix error handling in the init_task on load
-90ecc7bde3f708bb90fc2aca8c1ed77ce9895f70 i40e: fix src IP mask checks and memcpy argument names in cloud filter
-c8fe6defd33fae149285bd43041096a0de5373a6 idpf: fix aux device unplugging when rdma is not supported by vport
-7a146e368995fca42a5e483522651d92746ddc5b i40e: fix scheduling in set_rx_mode
-af64180b16f01faef5b8fa4b8c06870284bfe4b6 igc: Restore default Qbv schedule when changing channels
-d95f4268e6131fcd327935fa3cba5e09f8df23c7 ice: Avoid detrimental cleanup for bond during interface stop
-ae33a55bab2cef1a244998f719986696d0f619fa ice: initialize ring_stats->syncp
-4d97344cf2f5252f443ca737ccdeb6380aa61c30 ice: fix missing TX timestamps interrupts on E825 devices
-3767f56e7d1ad11d20e7beeb363684d71eb743c5 e1000: fix OOB in e1000_tbi_should_accept()
-a326025e7275f45a956466bcb9bf8b897af08fff ice: stop counting UDP csum mismatch as rx_errors
-91a22c409e7328b3f18d1cc16cc9b97227bc4e80 idpf: Fix RSS LUT NULL pointer crash on early ethtool operations
-80500f213f07b374ff5fd8da7c3e5743ab7eac41 idpf: Fix RSS LUT configuration on down interfaces
-8c6f85c3d4294d2b34f622b7b18b62a1897a86e7 idpf: Fix RSS LUT NULL ptr issue after soft reset
-616c92617f3f07a17e60b91919018395226277f7 igc: fix race condition in TX timestamp read for register 0
-47a267da526d67eaa7e87afdd43ee9929af07aa1 igc: Reduce TSN TX packet buffer from 7KB to 5KB per queue
-2f256bf580105a831179bacb0063ea185fa249b4 i40e: fix ptp time increment while link is down
-6ca9f56a951fba5e46a388078a780f7ea1d57219 idpf: Fix error handling in idpf_vport_open()
-7672e9a385512330c7bd43c6cc288399f1a9141e ice: Fix incorrect timeout ice_release_res()
-9df22af76e9a028715d39f2338131f7d0f945441 ixgbevf: fix link setup issue
-ebc04f247ba31f80102e934993404e6b3d8eca85 idpf: read lower clock bits inside the time sandwich
-239fdc74d2955324f2ca583980ff9446154644f0 i40e: validate ring_len parameter against hardware-specific values
-ffd19ba53597bb098f31442705888c926e6e8d47 ice: Fix persistent failure in ice_get_rxfh
-d6fc82b2ec2fc26a5c59d422843868dfcfd52033 idpf: reduce mbx_task schedule delay to 300us
-6d9a8dfdb280d1e1d68ce6f0f91da53627d07469 ixgbe: fix memory leaks in the ixgbe_recovery_probe() path
-bce2071524093d71cdc5e54c4faab18f9d54e763 ixgbe: don't initialize aci lock in ixgbe_recovery_probe()
 
---===============0057580274519788105==--
+--===============0480618931683974392==--
