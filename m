@@ -1,22 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============3523691457250283361=="
+Content-Type: multipart/mixed; boundary="===============0034082834461822308=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Fri, 19 Dec 2025 14:08:50 -0000
-Message-Id: <176615333039.2271835.14526141602172865895@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Fri, 19 Dec 2025 14:08:54 -0000
+Message-Id: <176615333405.2272045.4194866552462574427@gitolite.kernel.org>
 
---===============3523691457250283361==
+--===============0034082834461822308==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.19
+  - ref: refs/heads/asoc-6.19
     old: fa43ab13c59f4c047c479673792ed033ab567c65
     new: 56d953a8d0da5e53c2594edde23465ec49385b1c
     log: |
@@ -28,37 +28,37 @@ changes:
          01ad27827c2172e287898a7953e33c074ff3b607 ASoC: fsl_easrc: Fix duplicate debufs entries
          56d953a8d0da5e53c2594edde23465ec49385b1c ASoC: Intel: mtl-match: Add 6-amp matches for CS35L56
          
-  - ref: refs/heads/for-6.20
+  - ref: refs/heads/asoc-6.20
     old: 7a8447fc71a09000cee5a2372b6efde45735d2c8
     new: dc8d1ba537c0bb4da91695b473dbe9a404f7ed7e
     log: revlist-7a8447fc71a0-dc8d1ba537c0.txt
 
---===============3523691457250283361==
+--===============0034082834461822308==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1766153328 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1766153327-f3fdc956e5192f6748f4fff1e29b731fe63e46e4
+pusher C3F436CA30F5D8EB 1766153332 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1766153331-d7fe28036f0b3ef3507d2aff205c09adcbac1ceb
 
-fa43ab13c59f4c047c479673792ed033ab567c65 56d953a8d0da5e53c2594edde23465ec49385b1c refs/heads/for-6.19
-7a8447fc71a09000cee5a2372b6efde45735d2c8 dc8d1ba537c0bb4da91695b473dbe9a404f7ed7e refs/heads/for-6.20
+fa43ab13c59f4c047c479673792ed033ab567c65 56d953a8d0da5e53c2594edde23465ec49385b1c refs/heads/asoc-6.19
+7a8447fc71a09000cee5a2372b6efde45735d2c8 dc8d1ba537c0bb4da91695b473dbe9a404f7ed7e refs/heads/asoc-6.20
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmlFXHAACgkQJNaLcl1U
-h9CeWwf/fkgBkpQ/FULG9np0NuP6UZfQkyoOsddCKDhUSA2gMSLr7/3w6nIQs23f
-+HYT8GZBWDBbHMPVl65xY5JXlkFGvOKbLcUbUF3rUVnDqbIXmzBA3fd5zTF79hH+
-NqR00+TJSneg6/ApGngsQJZ85cPi7Wohu2Q1vxG2NwXp6CuCiAzzyAgyJi/oLtZI
-Ld1aD2eI2wAP+3RDqqNOCXZ7Q6iZA3mN1oiOlmB9XUJhKzy0EIUR1ps6VXNoO1di
-qfhEwfnar+uPT1N31Qs2DV+lZHytRQoMiGm9cJCrIecwlUi22GxwUkY5lb+2V5OI
-+qZGwzsxzbTOzaE76tZyRToKEw6Lpg==
-=za+o
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmlFXHQACgkQJNaLcl1U
+h9DYKAf/ZORkIQhgcAmpi3VjnGxN+6MHwcNqbZ78HO9Pj2vbUPytxuwc/KGWbOdr
+v2Pgiw3Ia+RqwHJq83jOOZnZb9JXteOJaAI96sI3rl5k76m7rgaWsC7wZD3xwj5+
+zyjILhZGuwFp4SADKxSsg4n0spEbmlhlDQ5jil96khJXuO9c31SSZT4QaDOLkqib
+kq5dp5tpGjBsPESzQ15aU/592V8fGCS1VO9rreECb7Qa8srzaNkVX9X+7mVYlaZG
+sLDFf5Uqo0/NpdIW/ZOz6m+GPZfnm3sx0CChrYV88Y082NPD93N2y47XDuug7Rs0
+afrFjNWqrzVd0VZCdpY5fFjQsQA3oQ==
+=c7QO
 -----END PGP SIGNATURE-----
 
---===============3523691457250283361==
+--===============0034082834461822308==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -80,4 +80,4 @@ d96cb0b86d6e8bbbbfa425771606f6c1aebc318e ASoC: SOF: ipc4: Support for sending pa
 20c24c1b28310c08b2a76fd14e5600cb64343005 ASoC: codecs: ES8326 : Add Kcontrol
 dc8d1ba537c0bb4da91695b473dbe9a404f7ed7e ASoC: Intel: add support for TAS2563 amplifier
 
---===============3523691457250283361==--
+--===============0034082834461822308==--
