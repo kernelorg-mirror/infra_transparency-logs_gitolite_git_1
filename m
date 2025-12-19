@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6577003809164096578=="
+Content-Type: multipart/mixed; boundary="===============4298093335946187749=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/djakov/icc
-Date: Fri, 19 Dec 2025 07:00:41 -0000
-Message-Id: <176612764196.1871000.7754368600112954359@gitolite.kernel.org>
+Date: Fri, 19 Dec 2025 07:00:51 -0000
+Message-Id: <176612765188.1871229.4208651665105717478@gitolite.kernel.org>
 
---===============6577003809164096578==
+--===============4298093335946187749==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/djakov/icc
 user: djakov
 changes:
-  - ref: refs/heads/icc-fixes
-    old: c5b60592886f97b01503c1bb553f88d6a7df42ea
+  - ref: refs/heads/icc-next
+    old: 60b52af082b1462e878d10a0298fad40a26a8b35
     new: 8def944c3f41120c2e68dd604c96f4eba9c1fef9
-    log: revlist-c5b60592886f-8def944c3f41.txt
+    log: revlist-60b52af082b1-8def944c3f41.txt
 
---===============6577003809164096578==
+--===============4298093335946187749==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c5b60592886f-8def944c3f41.txt
+Content-Disposition: attachment; filename=revlist-60b52af082b1-8def944c3f41.txt
 
 ea2d3befcf29cca5221d0572d54e4d71b683175d net: dsa: yt921x: Set ageing_time_min/ageing_time_max
 e3b8cbf40c6e60a7a935bd8980884d5741a7a77b selftests: netconsole: remove log noise due to socat exit
@@ -1051,4 +1051,4 @@ cba09e3ed06db4b6c87bc97e0aea080421fb8f7d Merge tag 'perf-urgent-2025-12-12' of g
 8f0b4cce4481fb22653697cced8d0d04027cb1e8 Linux 6.19-rc1
 8def944c3f41120c2e68dd604c96f4eba9c1fef9 dt-bindings: interconnect: qcom,sa8775p-rpmh: Fix incorrectly added reg and clocks
 
---===============6577003809164096578==--
+--===============4298093335946187749==--
