@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/dtor/input
-Date: Fri, 19 Dec 2025 06:00:46 -0000
-Message-Id: <176612404655.1814592.14925263826289088681@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xen/tip
+Date: Fri, 19 Dec 2025 06:50:12 -0000
+Message-Id: <176612701271.1860019.2096726562041272138@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/dtor/input
-user: dtor
+repo: pub/scm/linux/kernel/git/xen/tip
+user: jgross
 changes:
-  - ref: refs/heads/for-linus
-    old: 806ec7b797adc1cc9b11535307638a55ddfb873c
-    new: 248d3a73a0167dce15ba100477c3e778c4787178
-    log: |
-         248d3a73a0167dce15ba100477c3e778c4787178 Input: ti_am335x_tsc - fix off-by-one error in wire_order validation
-         
+  - ref: refs/tags/for-linus-6.19-rc2-tag
+    old: 0000000000000000000000000000000000000000
+    new: afcad2d7f16c796d73ba854c447feac716aef3fa
