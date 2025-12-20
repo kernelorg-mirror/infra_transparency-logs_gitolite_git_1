@@ -1,20 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
-Date: Sat, 20 Dec 2025 23:14:19 -0000
-Message-Id: <176627245967.1301009.16672745843991341653@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/conor/linux
+Date: Sat, 20 Dec 2025 23:34:06 -0000
+Message-Id: <176627364679.1315813.7273960325157109090@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/25-new
-user: akpm
+repo: pub/scm/linux/kernel/git/conor/linux
+user: conor
 changes:
-  - ref: refs/heads/master
-    old: b017a0d602bfede73c12fe17383e1d04d7d615a0
-    new: b5fe9a64114bc25d6c00e416a582a3a7399440fa
+  - ref: refs/heads/riscv-dt-for-next
+    old: 26535e84449abbf5d207a4b1db12891edf52e35e
+    new: 4297ddbf1d148a6007b91b2aec51853454253b96
     log: |
-         1283b11ef51f04c025268c13a9ea281e9cf28363 foo
-         b5fe9a64114bc25d6c00e416a582a3a7399440fa foo
+         d2091990c5c1da38e9cc41240f03c420743af1bf dt-bindings: riscv: starfive: Append JH-7110 SoC compatible to VisionFive 2 Lite board
+         7c9a5fd6bb19d08d687a416705c494eed0c55134 riscv: dts: starfive: Append JH-7110 SoC compatible to VisionFive 2 Lite board
+         4297ddbf1d148a6007b91b2aec51853454253b96 riscv: dts: starfive: Append JH-7110 SoC compatible to VisionFive 2 Lite eMMC board
          
