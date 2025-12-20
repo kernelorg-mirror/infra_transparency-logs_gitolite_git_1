@@ -1,64 +1,57 @@
-Content-Type: multipart/mixed; boundary="===============2282327254776859229=="
+Content-Type: multipart/mixed; boundary="===============7973860687496520170=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Sat, 20 Dec 2025 08:46:13 -0000
-Message-Id: <176622037360.653858.14364754260362800094@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/security/vulns
+Date: Sat, 20 Dec 2025 08:46:53 -0000
+Message-Id: <176622041344.654167.4525309414215704224@gitolite.kernel.org>
 
---===============2282327254776859229==
+--===============7973860687496520170==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/staging
+repo: pub/scm/linux/security/vulns
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/staging-next
-    old: 8f0b4cce4481fb22653697cced8d0d04027cb1e8
-    new: bfb44780ee450553a0e55eaa2239c3bf5062a5bd
+  - ref: refs/heads/master
+    old: 63081e915e9e9687d5a92b344dc1886916a66884
+    new: be67fb7f3113b5336e7f3700f3993d60de37e197
     log: |
-         7ff9fc55d36ae392626ae8704bd8d22eafd2605a staging: vme_user: name function parameters
-         a8e77db9927b03b85f2f4a5a124c1f3d95b1521e Staging: rtl8723bs: fix space before tab in rtl8723bs_xmit.c
-         91c10b00216cde5ae5754421a0407b778a547b3a staging: rtl8723bs: select CRYPTO_LIB_UTILS instead of CRYPTO
-         ec342420979ebf28b461a43c3d6ca4dc78a7882b staging: rtl8723bs: Remove unnecessary parentheses
-         618b4aec12faabc7579a6b0df046842d798a4c7c staging: rtl8723bs: fix missing status update on sdio_alloc_irq() failure
-         f5ee159192a15d13c4dd3a03594c12a219363eed staging: rtl8723bs: remove trailing whitespace
-         2038fe84b8bdf894b634f777096685e78e8f3774 staging: rtl8723bs: fix spacing around operators
-         1b92242888d7162dcd80efe907685394012e9565 staging: greybus: arche-apb-ctrl: switch to device_property_read_bool
-         bfb44780ee450553a0e55eaa2239c3bf5062a5bd staging: rtl8723bs: remove dead code in os_intfs.c
+         b3ffb8edf6cf4cbf4914ab37d271d6430abb8672 proposed: Add Ruiqi's results for v6.17.{10,11}
+         be67fb7f3113b5336e7f3700f3993d60de37e197 proposed: Add Ruiqi's results for v6.17.12, v6.18.1
          
 
---===============2282327254776859229==
+--===============7973860687496520170==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1766220372 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1766220372-a8d9fc2d85ba76cb09c41c469301bddfbdc84ca2
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1766220412 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
+nonce 1766220412-aef6dee931d75e1aa87676fd8edc6fb9bb09764b
 
-8f0b4cce4481fb22653697cced8d0d04027cb1e8 bfb44780ee450553a0e55eaa2239c3bf5062a5bd refs/heads/staging-next
+63081e915e9e9687d5a92b344dc1886916a66884 be67fb7f3113b5336e7f3700f3993d60de37e197 refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmlGYlQbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+v4cP/2DWZ/JKVzIFRggxx19P
-rienZ4LZK8ysj1uX1n6reJRG4JXGxlMWmg81QPjdM96qiqhAuTIXti4UxSwt7v6c
-oFP/KU6waJVWLPjP7Ga4hv5oBilXrmMZGOSJfo4nexb3DGrDi9u27lnH6+DinoSA
-Fsxl0Uk8J4eEQh9rYSbNzIUKKwdi6L7PESEUvRc+jksYiauBAguwKwwrnlKqO0O7
-Cuu8Y0y3KcBYAQGRuIf4Qu3QQ2wlC8PbpNmSTfyMXlXoYlmuWnUyo5yLcar3B32M
-KnPmBguZgvlxpi2z67XztechWpDflgAqSqmtDpW4NdZZ+6QshChLOyyeuuhOiBxj
-5RxHuriEfiwiN4OxGK2HIva68MUVjuZWi++Q00o8lhJbmb9+3MHo216OdwrmVmqk
-RDZNzTWXPHxnt9oMdJGXINWJwrqHF7PXkLXHo/klMywcJ+305KK6nUtV1betVv9G
-TCIwo3Y1lpRChRB4z3QEYhoIWRdzBnFQIejqJiO8CdI8iKmyPTfmvYi4FlDs9QtL
-oYNh/7gwGcIy5nqUx2HMSa1OSgJtpiqSRix5m867rKGQHyc7PsVc5QqM5j61Q3Dz
-Y1YFGyfD6ogd6+xLLrhVVBdoyk/4Z/dpdfEORZ+HH9CwMPo4qTrP1XMROCdKOrRl
-5/Q8CC4LmQyd0R3OkEemh/H6
-=WtL7
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmlGYn0bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+FUAP/0EuMkdNL2gpr8VBiXsQ
+h4rRj8zw2kcFR8s2/BIJHJ/+/SIxl/0RNqS25ZXORrMIv8hQoIHLHumAqQI0+0iy
+mh2umhOIHOHgqVNhevRROFlut1h/t4vWdf4etoxSFcdSA8arZYk3mvthzNbf8Cjw
+AkSHYmQidoq8HE70zqZ2R5WHZdpK/Kz62zpt5Q1OqLDw3ZBIvMtd53QQ0RX34duP
+B4pX6gmLl9pz60R6YJsYWZeZoOX5l1dtdRMbCQo3HtfthUsBCBPY+HWiWi1s0ITZ
+AhyA0gZ4C4XqZ5ywsZABpQAtTHanQ5GaA2uMbbsAM2lz3AXa4fh0vhXs0/aaDG85
+BUpX9OF7hRKuxAJXfxro8JISAfnTjYOaSnkZbdH8Yt5pLoLPfLnD9BSheFUuFUeH
+Zl0tdkghyZ0r7UHOkTMfUIxwT29y8Eg/JeilEJ2/78FINtUj5uejGIIcGY6oCl+Z
+/cxmmRoFrYRwetl6Ej6njhbYg/OKQThgRvMiF/D379pByhoLQxcXUJX7mIYFfb9c
+3w4XwT9j8ynnwjTsGOYYYvWXoWoopoLrXfv9f/n2LvYRRZ2YWQKtlmQ69sBvqL35
+rpQA/stiZHExKN+boSbVwc7M3YlOu+UoI6CZ/K6xBs3Pqz+sO9XiHZ48GQ6Mg1CV
+hrspu+7ZcskL1krxribSBf7O
+=+PBY
 -----END PGP SIGNATURE-----
 
---===============2282327254776859229==--
+--===============7973860687496520170==--
