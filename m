@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0834315940815608082=="
+Content-Type: multipart/mixed; boundary="===============6969322435564786947=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/conor/linux
-Date: Sat, 20 Dec 2025 19:08:00 -0000
-Message-Id: <176625768054.1115648.14799002720508971930@gitolite.kernel.org>
+Date: Sat, 20 Dec 2025 19:08:20 -0000
+Message-Id: <176625770071.1115998.6178149220811188653@gitolite.kernel.org>
 
---===============0834315940815608082==
+--===============6969322435564786947==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/conor/linux
 user: conor
 changes:
-  - ref: refs/heads/riscv-soc-for-next
-    old: 719362b8a9724f96d33fecd95b3223d3a935a186
+  - ref: refs/heads/riscv-soc-fixes
+    old: 0af2f6be1b4281385b618cb86ad946eded089ac8
     new: 8f0b4cce4481fb22653697cced8d0d04027cb1e8
-    log: revlist-719362b8a972-8f0b4cce4481.txt
+    log: revlist-0af2f6be1b42-8f0b4cce4481.txt
 
---===============0834315940815608082==
+--===============6969322435564786947==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-719362b8a972-8f0b4cce4481.txt
+Content-Disposition: attachment; filename=revlist-0af2f6be1b42-8f0b4cce4481.txt
 
 09339d0d83108fd4f59b94677ac99bde870aa0ae l2tp: correct debugfs label for tunnel tx stats
 ea2d3befcf29cca5221d0572d54e4d71b683175d net: dsa: yt921x: Set ageing_time_min/ageing_time_max
@@ -1051,4 +1051,4 @@ cba09e3ed06db4b6c87bc97e0aea080421fb8f7d Merge tag 'perf-urgent-2025-12-12' of g
 6a1636e06625ec0dd7f2b908ab39a8beea24bfd3 Merge tag 'scsi-misc' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
 8f0b4cce4481fb22653697cced8d0d04027cb1e8 Linux 6.19-rc1
 
---===============0834315940815608082==--
+--===============6969322435564786947==--
