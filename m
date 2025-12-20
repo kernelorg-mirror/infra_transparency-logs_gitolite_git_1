@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3192851132635693267=="
+Content-Type: multipart/mixed; boundary="===============5227621284011089512=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/conor/linux
-Date: Sat, 20 Dec 2025 19:04:46 -0000
-Message-Id: <176625748602.1111180.582069546018626165@gitolite.kernel.org>
+Date: Sat, 20 Dec 2025 19:05:51 -0000
+Message-Id: <176625755119.1114420.16089817747784989682@gitolite.kernel.org>
 
---===============3192851132635693267==
+--===============5227621284011089512==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,18 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/conor/linux
 user: conor
 changes:
-  - ref: refs/heads/riscv-dt-fixes
-    old: 5ef13c3636400bec51c334ac368c8d2fbb26bc3a
-    new: 004c371d0bd140b02bf359fdab6e16613a6aa4a8
-    log: revlist-5ef13c363640-004c371d0bd1.txt
+  - ref: refs/heads/riscv-firmware-for-next
+    old: 19272b37aa4f83ca52bdf9c16d5d81bdd1354494
+    new: 8f0b4cce4481fb22653697cced8d0d04027cb1e8
+    log: revlist-19272b37aa4f-8f0b4cce4481.txt
 
---===============3192851132635693267==
+--===============5227621284011089512==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5ef13c363640-004c371d0bd1.txt
+Content-Disposition: attachment; filename=revlist-19272b37aa4f-8f0b4cce4481.txt
 
+09339d0d83108fd4f59b94677ac99bde870aa0ae l2tp: correct debugfs label for tunnel tx stats
 ea2d3befcf29cca5221d0572d54e4d71b683175d net: dsa: yt921x: Set ageing_time_min/ageing_time_max
 e3b8cbf40c6e60a7a935bd8980884d5741a7a77b selftests: netconsole: remove log noise due to socat exit
 33b4c26d4d3ccd24d9721a577671f2c73c1a7cd9 x86/platform: Fix and extend kernel-doc comments in <asm/x86_init.h>
@@ -1049,6 +1050,5 @@ cba09e3ed06db4b6c87bc97e0aea080421fb8f7d Merge tag 'perf-urgent-2025-12-12' of g
 0dfb36b2dcb666f116ba314e631bd3bc632c44d1 Merge tag 'ceph-for-6.19-rc1' of https://github.com/ceph/ceph-client
 6a1636e06625ec0dd7f2b908ab39a8beea24bfd3 Merge tag 'scsi-misc' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
 8f0b4cce4481fb22653697cced8d0d04027cb1e8 Linux 6.19-rc1
-004c371d0bd140b02bf359fdab6e16613a6aa4a8 riscv: dts: microchip: remove BeagleV Fire fabric.dtsi
 
---===============3192851132635693267==--
+--===============5227621284011089512==--
