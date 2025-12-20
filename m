@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3569846866025155674=="
+Content-Type: multipart/mixed; boundary="===============3729449489848475463=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/conor/linux
-Date: Sat, 20 Dec 2025 19:06:15 -0000
-Message-Id: <176625757590.1114757.1773966234315011677@gitolite.kernel.org>
+Date: Sat, 20 Dec 2025 19:06:34 -0000
+Message-Id: <176625759480.1115026.15294833603533110134@gitolite.kernel.org>
 
---===============3569846866025155674==
+--===============3729449489848475463==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/conor/linux
 user: conor
 changes:
-  - ref: refs/heads/riscv-soc-drivers-for-next
-    old: 66c6ceb41ed375773491c5d024167a2cbe6fe944
+  - ref: refs/heads/riscv-config-for-next
+    old: 3187e25eb2705dec9f0509f6e42da7e018718c74
     new: 8f0b4cce4481fb22653697cced8d0d04027cb1e8
-    log: revlist-66c6ceb41ed3-8f0b4cce4481.txt
+    log: revlist-3187e25eb270-8f0b4cce4481.txt
 
---===============3569846866025155674==
+--===============3729449489848475463==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-66c6ceb41ed3-8f0b4cce4481.txt
+Content-Disposition: attachment; filename=revlist-3187e25eb270-8f0b4cce4481.txt
 
 09339d0d83108fd4f59b94677ac99bde870aa0ae l2tp: correct debugfs label for tunnel tx stats
 ea2d3befcf29cca5221d0572d54e4d71b683175d net: dsa: yt921x: Set ageing_time_min/ageing_time_max
@@ -1051,4 +1051,4 @@ cba09e3ed06db4b6c87bc97e0aea080421fb8f7d Merge tag 'perf-urgent-2025-12-12' of g
 6a1636e06625ec0dd7f2b908ab39a8beea24bfd3 Merge tag 'scsi-misc' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
 8f0b4cce4481fb22653697cced8d0d04027cb1e8 Linux 6.19-rc1
 
---===============3569846866025155674==--
+--===============3729449489848475463==--
