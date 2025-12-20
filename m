@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4996679830963306649=="
+Content-Type: multipart/mixed; boundary="===============4373425707087455500=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Sat, 20 Dec 2025 12:06:03 -0000
-Message-Id: <176623236351.801335.15492255124597380927@gitolite.kernel.org>
+Date: Sat, 20 Dec 2025 12:06:05 -0000
+Message-Id: <176623236547.801538.4054386256929956901@gitolite.kernel.org>
 
---===============4996679830963306649==
+--===============4373425707087455500==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/mm-new
-    old: 67a1f192fe6d4c1ee84e296e7d518bb881d03c94
-    new: 747b9c280731854d5c2a73f90d2338b21e20589c
-    log: revlist-67a1f192fe6d-747b9c280731.txt
+  - ref: refs/heads/mm-unstable
+    old: dc9f44261a74a4db5fe8ed570fc8b3edc53a28a2
+    new: 5c65bef629376cfe642de7befdcc7f6114af9b61
+    log: revlist-dc9f44261a74-5c65bef62937.txt
 
---===============4996679830963306649==
+--===============4373425707087455500==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-67a1f192fe6d-747b9c280731.txt
+Content-Disposition: attachment; filename=revlist-dc9f44261a74-5c65bef62937.txt
 
 b4a58e286da07dfe868f29ddee52cd6816f3bd01 MAINTAINERS: add Mike Rapoport as maintainer for userfaultfd
 2f8e815c21b08a011df036dd795f8e6472a5974e genalloc.h: fix htmldocs warning
@@ -125,26 +125,5 @@ b27b1df6490382aebda8c6dd5d676952d3480968 Docs/admin-guide/mm/damon/usage: update
 9ce9edcb815bae74e2ddaf69570ba02b761a59bb Docs/ABI/damon: update for max_nr_snapshots
 00f662bff8e91f6fb456c55ae9054ae61f5f43f5 mm/damon/core: add trace point for damos stat per apply interval
 5c65bef629376cfe642de7befdcc7f6114af9b61 mm/damon/stat: deduplicate intervals_goal setup in damon_stat_build_ctx()
-a7a261082732318f697973e259407062eea6e011 lib: introduce hierarchical per-cpu counters
-6b994a0f46dedacf28721b79f109af7561cca761 mm: fix OOM killer inaccuracy on large many-core systems
-739269d15e0582fb2c704a2d94682d7ca98694c9 mm: implement precise OOM killer task selection
-c586cce3fa5aff3801c90f0b9eac790702b0dbc3 zram: drop pp_in_progress
-f42e7c9a1664a859d6c622d132b93bc75ed2b9a7 mm/block/fs: remove laptop_mode
-e8adcaf1cf9768349278cc84e552dfb6f66ffa38 maple_tree: remove struct maple_alloc
-82117f5f933e447719bd6c50a1aa820fee994ebc lib/test_vmalloc.c: minor fixes to test_vmalloc.c
-5359724d6cb66f66e331ef059b8b7692eb5e5d30 mm/mm_init: replace simple_strtoul with kstrtobool in set_hashdist
-8ee2ee2fbc47af97d28f50b47100904af3de0817 mm: change mm/pt_reclaim.c to use asm/tlb.h instead of asm-generic/tlb.h
-680c891e7291590e107659565eabcdbfafe763aa alpha: mm: enable MMU_GATHER_RCU_TABLE_FREE
-af5cc5d31f221f9fa32c55fae5febf80916ddb19 LoongArch: mm: enable MMU_GATHER_RCU_TABLE_FREE
-81b85d3546b3791bf8a8de6faefd4ed661f3c513 mips: mm: enable MMU_GATHER_RCU_TABLE_FREE
-1b2fb3d95131cba4b60a5e98e378f93ee3167dda parisc: mm: enable MMU_GATHER_RCU_TABLE_FREE
-85b0c53ec1c7e2916ec04b754a457f4e2559aacc um: mm: enable MMU_GATHER_RCU_TABLE_FREE
-be068bbe2c11ed235a6293c8d46b0b0c050728e5 mm: make PT_RECLAIM depends on MMU_GATHER_RCU_TABLE_FREE
-5c0801b9c50b24713fec879f103e5e8006881505 mm: pagewalk: simplify hugepage boundary calculation
-3f565c3923c7835592672a11ebfdb40d3ff99aa3 mm/vmscan: use %pe to print error pointers
-e9724e89c12fa45a94fb642f636a0565e1694b40 mm/zswap: use %pe to print error pointers
-6f1f25a1faf44cdfe3a4a404e5ded1898c981a0d zram: remove KMSG_COMPONENT macro
-8fdd7bd394a46223e01bf2d4f70f9d6620716e8a mm/damon: fix typos in comments
-747b9c280731854d5c2a73f90d2338b21e20589c mm: fix minor spelling mistakes in comments
 
---===============4996679830963306649==--
+--===============4373425707087455500==--
