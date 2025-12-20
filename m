@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============0676614974529269068=="
+Content-Type: multipart/mixed; boundary="===============6232377711612488393=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
-Date: Sat, 20 Dec 2025 22:58:26 -0000
-Message-Id: <176627150616.1288435.16805318762339330724@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
+Date: Sat, 20 Dec 2025 22:58:56 -0000
+Message-Id: <176627153645.1288739.16846585325230536217@gitolite.kernel.org>
 
---===============0676614974529269068==
+--===============6232377711612488393==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/perf/perf-tools-next
+repo: pub/scm/linux/kernel/git/acme/linux
 user: acme
 changes:
   - ref: refs/heads/perf-tools-next
@@ -20,7 +20,7 @@ changes:
     new: cbd41c6d4c26c161a2b0e70ad411d3885ff13507
     log: revlist-cb015814f8b6-cbd41c6d4c26.txt
 
---===============0676614974529269068==
+--===============6232377711612488393==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -621,4 +621,4 @@ bdd051e249141c793dec28544e7f5d5bc7690bf3 perf record: Split --data-mmap option
 5d35d829bb0b19ee51be9732e3b5f81abc7ef3bb perf report: Fix histogram entry collapsing for -F option
 cbd41c6d4c26c161a2b0e70ad411d3885ff13507 perf report: Update sort key state from -F option
 
---===============0676614974529269068==--
+--===============6232377711612488393==--
