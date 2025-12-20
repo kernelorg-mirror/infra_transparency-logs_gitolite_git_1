@@ -1,109 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/linux-next
-Date: Sat, 20 Dec 2025 17:18:18 -0000
-Message-Id: <176625109886.1032332.933449940752443917@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/linus-next
+Date: Sat, 20 Dec 2025 17:26:49 -0000
+Message-Id: <176625160993.1039824.11938190880679084453@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/linux-next
+repo: pub/scm/linux/kernel/git/sashal/linus-next
 user: sashal
 changes:
-  - ref: refs/heads/all-next
-    old: 0000000000000000000000000000000000000000
-    new: 0fcf35e2e73e753a2511fec864f91cf9f6f4e4e8
-  - ref: refs/heads/arch-next
-    old: 0000000000000000000000000000000000000000
-    new: 499e94f8e405c8366aac6e32433b3ed6cdca07f8
-  - ref: refs/heads/block-next
-    old: 0000000000000000000000000000000000000000
-    new: 445cc130d45554d059f5f7309b87671671257d7e
-  - ref: refs/heads/bpf-next
-    old: 0000000000000000000000000000000000000000
-    new: 64248ad058df5f86a448543c36ef54754b15c471
-  - ref: refs/heads/core-next
-    old: 0000000000000000000000000000000000000000
-    new: 8988220ac99de8be4c8d3150bed2a09e13b6143e
-  - ref: refs/heads/crypto-next
-    old: 0000000000000000000000000000000000000000
-    new: f5b98938b54522b29d28e1896d0b277f44f72606
-  - ref: refs/heads/debug-next
-    old: 0000000000000000000000000000000000000000
-    new: dd9b004b7ff3289fb7bae35130c0a5c0537266af
-  - ref: refs/heads/docs-next
-    old: 0000000000000000000000000000000000000000
-    new: dd9b004b7ff3289fb7bae35130c0a5c0537266af
-  - ref: refs/heads/drivers-next
-    old: 0000000000000000000000000000000000000000
-    new: adfdeca7db63b57314e4da557ca8e6298e6426c2
-  - ref: refs/heads/dt-next
-    old: 0000000000000000000000000000000000000000
-    new: 128ef151d3ff1e4b12a117a9dcaabb41be3df90c
-  - ref: refs/heads/firmware-next
-    old: 0000000000000000000000000000000000000000
-    new: c52e3d07c0b194846e5e37785cd2ff957a6ecca1
-  - ref: refs/heads/fixes-next
-    old: 0000000000000000000000000000000000000000
-    new: 739d867bf155026be49e526b56017f6cbefce77c
-  - ref: refs/heads/fs-next
-    old: 0000000000000000000000000000000000000000
-    new: 93a4852b7dccdb645c37e89f103d4665284f5569
-  - ref: refs/heads/graphics-next
-    old: 0000000000000000000000000000000000000000
-    new: 42a476537ccd354d2c6d35bfbf85aef69d9afde3
-  - ref: refs/heads/kbuild-next
-    old: 0000000000000000000000000000000000000000
-    new: 802d26c0d5db5f17b0fd7ca35a2c4118a1ce1457
-  - ref: refs/heads/lib-next
-    old: 0000000000000000000000000000000000000000
-    new: 792b07547163a045dd65c1fbf7b6387a7235aee2
-  - ref: refs/heads/licensing-next
-    old: 0000000000000000000000000000000000000000
-    new: dd9b004b7ff3289fb7bae35130c0a5c0537266af
   - ref: refs/heads/linus-next
-    old: 0000000000000000000000000000000000000000
-    new: 9ce17c0d7879a0d5a858791230d4715526719099
-  - ref: refs/heads/media-next
-    old: 0000000000000000000000000000000000000000
-    new: fd5ce60cfe0227920264dfa4bb0a931d942b1c11
-  - ref: refs/heads/mm-next
-    old: 0000000000000000000000000000000000000000
-    new: d7e509fe0f885cddcbf44c9e371810b45cda8a63
-  - ref: refs/heads/net-next
-    old: 0000000000000000000000000000000000000000
-    new: c5fd54ce52bd76e4937f83edb87f0e869e0248e5
-  - ref: refs/heads/pm-next
-    old: 0000000000000000000000000000000000000000
-    new: 65ebf45fbc499c060140e8bac110dd4be7bf0013
-  - ref: refs/heads/rust-next
-    old: 0000000000000000000000000000000000000000
-    new: dcab8b5085d32c21dfade88f3780e8a379b5190c
-  - ref: refs/heads/sched-next
-    old: 0000000000000000000000000000000000000000
-    new: 0b1d2b1050b4cba27584638fc0291d59f80abb26
-  - ref: refs/heads/security-next
-    old: 0000000000000000000000000000000000000000
-    new: 9bebf0217374f70481a59fdd3612b469de2c5604
-  - ref: refs/heads/soc-next
-    old: 0000000000000000000000000000000000000000
-    new: 615e10565c761412d8ec8709ab4bb002996fae58
-  - ref: refs/heads/sound-next
-    old: 0000000000000000000000000000000000000000
-    new: 0858e03d18f0608702819b59d504648ab74338fa
-  - ref: refs/heads/staging-next
-    old: 0000000000000000000000000000000000000000
-    new: b33e87a3a795d2515426bc04a9180dd24b716ab4
-  - ref: refs/heads/testing-next
-    old: 0000000000000000000000000000000000000000
-    new: 508b9be7f8e276a6751f03e32bf3b9e507fbeebe
-  - ref: refs/heads/tools-next
-    old: 0000000000000000000000000000000000000000
-    new: 9483be5ea4e17165c81ded01660d294970f28623
-  - ref: refs/heads/tracing-next
-    old: 0000000000000000000000000000000000000000
-    new: 437b5bf1c46997d3029ed5669b24836f677f3ee1
-  - ref: refs/heads/virt-next
-    old: 0000000000000000000000000000000000000000
-    new: 58cdea6acf841b39418eb6055a334bce06efaa32
+    old: 9ce17c0d7879a0d5a858791230d4715526719099
+    new: dd19eec1b2af6041e957910ad5abbdb061d3a5ff
+    log: |
+         46c28bbbb150b80827e4bcbea231560af9d16854 hwmon: (dell-smm) Limit fan multiplier to avoid overflow
+         6946c726c3f4c36f0f049e6f97e88c510b15f65d hwmon: (ibmpex) fix use-after-free in high/low store
+         82f2aab35a1ab2e1460de06ef04c726460aed51c hwmon: (tmp401) fix overflow caused by default conversion rate value
+         6cde588e64934858bb1553119c6b915b2fec9011 hwmon: (DS620) Update broken Datasheet URL in driver documentation
+         b3db91c3bfea69a6c6258fea508f25a59c0feb1a hwmon: (ltc4282): Fix reset_history file permissions
+         dd19eec1b2af6041e957910ad5abbdb061d3a5ff Merge tag 'hwmon-for-v6.19-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/groeck/linux-staging into linus-next
+         
