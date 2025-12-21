@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/conor/linux
-Date: Sun, 21 Dec 2025 00:06:31 -0000
-Message-Id: <176627559180.1343601.4517138741297354251@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
+Date: Sun, 21 Dec 2025 00:39:42 -0000
+Message-Id: <176627758252.1366130.12523755363256755570@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/conor/linux
-user: conor
+repo: pub/scm/linux/kernel/git/akpm/25-new
+user: akpm
 changes:
-  - ref: refs/heads/pinctrl
-    old: 68fde3c1c4a13a00a41ba0dc366ce770646d2a59
-    new: a8805fb8a49841ef67f240537e28ed40ce539661
+  - ref: refs/heads/master
+    old: 51df3d9381f0e4b92913910b19239f8a12ad7e97
+    new: ce7a5d18c0a166ce91ef49bcc8016afb87da0356
     log: |
-         a8805fb8a49841ef67f240537e28ed40ce539661 rebase-fix-up-xdd
+         ce7a5d18c0a166ce91ef49bcc8016afb87da0356 foo
          
