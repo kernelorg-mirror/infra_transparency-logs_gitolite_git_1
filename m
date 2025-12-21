@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2301713461311976145=="
+Content-Type: multipart/mixed; boundary="===============8342001849365706931=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Sun, 21 Dec 2025 08:31:22 -0000
-Message-Id: <176630588264.1718874.1498202111645799969@gitolite.kernel.org>
+Date: Sun, 21 Dec 2025 08:31:53 -0000
+Message-Id: <176630591331.1719205.10705625394316884008@gitolite.kernel.org>
 
---===============2301713461311976145==
+--===============8342001849365706931==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,15 +16,39 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: 94b8270c3a95559e13b7a99944f54a9561d495ce
-    new: ea211da4af6b7e6481030b1057ab2ba60d031b8e
-    log: revlist-94b8270c3a95-ea211da4af6b.txt
+    old: ea211da4af6b7e6481030b1057ab2ba60d031b8e
+    new: 6c8d9b11a567e4bae15893f059c0fb201d9a3085
+    log: revlist-ea211da4af6b-6c8d9b11a567.txt
+  - ref: refs/heads/tip/urgent
+    old: 3bc0851b0439b91b974915ca23b49606f22fb735
+    new: dcc189b4150276ab15bfcc794eb7ee44af9889c9
+    log: revlist-3bc0851b0439-dcc189b41502.txt
 
---===============2301713461311976145==
+--===============8342001849365706931==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-94b8270c3a95-ea211da4af6b.txt
+Content-Disposition: attachment; filename=revlist-ea211da4af6b-6c8d9b11a567.txt
+
+2f55256d0ecc2eafe9ebdb21a17eb35949eddfe5 Merge branch into tip/master: 'core/urgent'
+094d10a1fa1c33bc5578994b7c28bc2f328d5d92 Merge branch into tip/master: 'irq/urgent'
+dcc189b4150276ab15bfcc794eb7ee44af9889c9 Merge branch into tip/master: 'x86/urgent'
+126f86d5f092572ca990d4a4e80dc61e316984ba Merge branch into tip/master: 'irq/core'
+5b37a358f33c8f6961d2f5f0ac4416a66042e4b0 Merge branch into tip/master: 'irq/drivers'
+9ddb9bc2fa35c6d3620351b31902aa55dc2f1365 Merge branch into tip/master: 'irq/msi'
+dcaa1de40b839ee75216fbfd0c613c71f901193b Merge branch into tip/master: 'locking/core'
+7c981036b3f32466f5379a52189bbb93f4b97532 Merge branch into tip/master: 'perf/core'
+5bf6d1b690c28486e7074937848da3b9d24a7440 Merge branch into tip/master: 'sched/core'
+72538f69eafaddb430c632c493631b3a0964479f Merge branch into tip/master: 'timers/core'
+b5d6b60d01a08d6ba330095287930cc8243492ff Merge branch into tip/master: 'x86/boot'
+7a57d538e886869837036b24aab1464310bc543f Merge branch into tip/master: 'x86/cpu'
+6c8d9b11a567e4bae15893f059c0fb201d9a3085 Merge branch into tip/master: 'x86/irq'
+
+--===============8342001849365706931==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-3bc0851b0439-dcc189b41502.txt
 
 1b9439c933b500cb24710bbd81fe56e9b0025b6f KVM: selftests: Add missing "break" in rseq_test's param parsing
 e2b43fb25243d502ad36b07bab9de09f4b76fff9 KVM: x86: Apply runtime updates to current CPUID during KVM_SET_CPUID{,2}
@@ -307,6 +331,8 @@ f67e8a5e3ead61692d24a68e30496bd2634f5b68 Merge tag 'xfs-fixes-6.19-rc2' of git:/
 91ff28ae6d050e0ca01ac13eb8ba31d744cf672f x86/irqflags: Use ASM_OUTPUT_RM in native_save_fl()
 78f2a78e8db88270006e09058f22995be281251f Merge tag 'spi-fix-v6.19-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/spi
 9094662f6707d1d4b53d18baba459604e8bb0783 Merge tag 'ata-6.19-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/libata/linux
-ea211da4af6b7e6481030b1057ab2ba60d031b8e Merge branch 'linus'
+2f55256d0ecc2eafe9ebdb21a17eb35949eddfe5 Merge branch into tip/master: 'core/urgent'
+094d10a1fa1c33bc5578994b7c28bc2f328d5d92 Merge branch into tip/master: 'irq/urgent'
+dcc189b4150276ab15bfcc794eb7ee44af9889c9 Merge branch into tip/master: 'x86/urgent'
 
---===============2301713461311976145==--
+--===============8342001849365706931==--
