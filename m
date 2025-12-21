@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2096836360033973038=="
+Content-Type: multipart/mixed; boundary="===============4422662709772339672=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Sun, 21 Dec 2025 07:43:29 -0000
-Message-Id: <176630300960.1681654.7959264978234745282@gitolite.kernel.org>
+Date: Sun, 21 Dec 2025 07:43:31 -0000
+Message-Id: <176630301146.1681797.15296793782553939466@gitolite.kernel.org>
 
---===============2096836360033973038==
+--===============4422662709772339672==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/mm-new
-    old: f039d9e6b6f7cb67c8eab4c4f7628a2b2bd9efca
-    new: f085cfc1398535802db19efc37146013a8c5efe2
-    log: revlist-f039d9e6b6f7-f085cfc13985.txt
+  - ref: refs/heads/mm-unstable
+    old: a8f74dac0ba067702c8cb57d70b021a7d1817166
+    new: a9f663c05d47c5a445d0d5b972f73b41b449b372
+    log: revlist-a8f74dac0ba0-a9f663c05d47.txt
 
---===============2096836360033973038==
+--===============4422662709772339672==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f039d9e6b6f7-f085cfc13985.txt
+Content-Disposition: attachment; filename=revlist-a8f74dac0ba0-a9f663c05d47.txt
 
 78aa535e347035e145e55f16fc5b3ec78a890b1e MAINTAINERS: add Mike Rapoport as maintainer for userfaultfd
 8f01380a214cdeedc8bb6c1df6c9f4effaf1bbe7 genalloc.h: fix htmldocs warning
@@ -155,31 +155,5 @@ cefe9a47352732aa9dead0c88ede1887ef67b50d zram: remove KMSG_COMPONENT macro
 a1d2a70d7b7df608f0ae90f97915589dee18a9cf mm: fix minor spelling mistakes in comments
 30409d2f41ff0a70e34642f1497f6922ac4c4374 mm-fix-minor-spelling-mistakes-in-comments-fix
 a9f663c05d47c5a445d0d5b972f73b41b449b372 percpu: add basic double free check
-057e101fac77a5294db9b753d233313162b48be1 lib: introduce hierarchical per-cpu counters
-798f5aa49e9a06a268ab8e8320f6edc227de19e2 mm: fix OOM killer inaccuracy on large many-core systems
-4276b2fbde0ae909305959f6b9d7ce3cf4ee6c38 mm: implement precise OOM killer task selection
-e03a05e4d6cf3a8db75b6a96ddaaf7a4af2e3347 mm, swap: rename __read_swap_cache_async to swap_cache_alloc_folio
-6580f38b0068c2e516a7e5ddcaec405afe9c44c6 mm, swap: split swap cache preparation loop into a standalone helper
-e718e69c68053aa17b527b377dd617e1f4915389 mm, swap: never bypass the swap cache even for SWP_SYNCHRONOUS_IO
-668aec0378655f57cd61ff9647cf41a0811ade35 mm, swap: always try to free swap cache for SWP_SYNCHRONOUS_IO devices
-3746dc70bfc87d5739f5cdbfbc8fe40d2ae2937d mm, swap: simplify the code and reduce indention
-64632b992525f6281547270343b7131bad5cdb09 mm, swap: free the swap cache after folio is mapped
-bbc554c3d146fc20acce0bc76e34d1620e7ececc mm/shmem: never bypass the swap cache for SWP_SYNCHRONOUS_IO
-929ffd4d518fe254b71ec553aa998cb764472652 mm/shmem, swap: remove SWAP_MAP_SHMEM
-27b319d9b93fa7cc8b7c66e424787a8854830a25 mm, swap: swap entry of a bad slot should not be considered as swapped out
-836772ad66fa696207d35d4cf029c5d47e1120e7 mm, swap: consolidate cluster reclaim and usability check
-66b6e5eef4dbc7003dd840a1d0e1f858295a1ac2 mm, swap: split locked entry duplicating into a standalone helper
-69ba4ecfc6c51c59d696491c877db90defa333df mm, swap: use swap cache as the swap in synchronize layer
-24f263753ca0bfa2a32c79192f12e88fb2365241 mm, swap: remove workaround for unsynchronized swap map cache state
-ad9c0044c2a0796a4394db60cbe68debc9c7d81b mm, swap: cleanup swap entry management workflow
-f4abcb6516d70965a0f0cc0248c44f3eb96ca9bf mm, swap: add folio to swap cache directly on allocation
-1d5aeb33695b05e0c69f29dda751dae824ac9243 mm, swap: check swap table directly for checking cache
-fae447736c81c8cc3d67acafc2234dbab6bac74d mm, swap: clean up and improve swap entries freeing
-27824bb05c0e07e01c277ccf7ba545e3247731c5 mm, swap: drop the SWAP_HAS_CACHE flag
-8309167941476368f91533ea2f5d5e835d1ca313 mm, swap: remove no longer needed _swap_info_get
-8cfb8881ba9fdd2a029817a7b71c89c2f9b46db6 mm, page_alloc, thp: prevent reclaim for __GFP_THISNODE THP allocations
-9772b40908b9347e3a37c1221684f2322b0c51d5 mm/gup: remove no longer used gup_fast_undo_dev_pagemap
-1bd38e8618ea425dd452f51485791227c2067fb4 mm: clarify GFP_ATOMIC/GFP_NOWAIT doc-comment
-f085cfc1398535802db19efc37146013a8c5efe2 mm: cleanup vma_iter_bulk_alloc
 
---===============2096836360033973038==--
+--===============4422662709772339672==--
