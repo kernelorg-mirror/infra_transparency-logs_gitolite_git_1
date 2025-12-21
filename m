@@ -1,20 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
-Date: Sun, 21 Dec 2025 19:18:45 -0000
-Message-Id: <176634472598.2181446.7616628867561838357@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
+Date: Sun, 21 Dec 2025 19:27:03 -0000
+Message-Id: <176634522388.2188629.14733238531508964226@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jic23/iio
-user: jic23
+repo: pub/scm/linux/kernel/git/akpm/25-new
+user: akpm
 changes:
-  - ref: refs/heads/testing
-    old: bf45302e8bb4d9f09751e9fa1b61fed3c17b51a6
-    new: eec44b04eb0e93143f89a2e2cb04159f62c2e8a3
+  - ref: refs/heads/master
+    old: 1c3ddd5191abec9d8bc1efe65b36cd29f5a81443
+    new: d10d5694f9dd146e5183793015ded55876ef8e53
     log: |
-         6e5f6bf2e3f036e6d7466d2a3322445729ea3356 iio: magnetometer: Add mmc5633 sensor
-         eec44b04eb0e93143f89a2e2cb04159f62c2e8a3 staging: iio: ad9832: clean up whitespace
+         c4d359acbd77a4041e357ec3296a812febbb2fe3 foo
+         1149d2e2172bd9999623f9cfb4c12efcd40c52bd foo
+         d10d5694f9dd146e5183793015ded55876ef8e53 foo
          
