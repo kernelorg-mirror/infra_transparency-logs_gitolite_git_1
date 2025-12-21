@@ -1,21 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Sun, 21 Dec 2025 10:30:05 -0000
-Message-Id: <176631300535.1804932.1018843931211209951@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rppt/linux
+Date: Sun, 21 Dec 2025 11:05:53 -0000
+Message-Id: <176631515384.1829874.8572397982849114309@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rdma/rdma
-user: leon
+repo: pub/scm/linux/kernel/git/rppt/linux
+user: rppt
 changes:
-  - ref: refs/heads/wip/leon-for-rc
-    old: 85463eb6a46caf2f1e0e1a6d0731f2f3bab17780
-    new: de41cbc64d02ae85d56078764616b6ba75a55a48
+  - ref: refs/heads/hugetlb-init/v0
+    old: 292ef08ce02ab877991020b00c1c4710ba07bcc5
+    new: 8512b693a1ff5053b0aa1735d63d7517599c0294
     log: |
-         8aaa848eaddd9ef8680fc6aafbd3a0646da5df40 RDMA/core: Fix logic error in ib_get_gids_from_rdma_hdr()
-         145a417a39d7efbc881f52e829817376972b278c RDMA/bnxt_re: Fix incorrect BAR check in bnxt_qplib_map_creq_db()
-         de41cbc64d02ae85d56078764616b6ba75a55a48 RDMA/rxe: let rxe_reclassify_recv_socket() call sk_owner_put()
+         0e13d3909fb70ffea64660c83e11d5e96f1fc54c dev: Revert "mm/hugetlb: deal with multiple calls to hugetlb_bootmem_alloc"
+         8512b693a1ff5053b0aa1735d63d7517599c0294 dev: mips: s/paging_init/pagetable_init
          
