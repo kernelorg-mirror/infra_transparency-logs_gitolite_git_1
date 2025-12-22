@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4121065024563534690=="
+Content-Type: multipart/mixed; boundary="===============5834830669500404473=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Mon, 22 Dec 2025 05:46:10 -0000
-Message-Id: <176638237036.2663456.15029453939139695360@gitolite.kernel.org>
+Date: Mon, 22 Dec 2025 05:46:13 -0000
+Message-Id: <176638237308.2663541.13244004732036496784@gitolite.kernel.org>
 
---===============4121065024563534690==
+--===============5834830669500404473==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-6.12.63/main
+  - ref: refs/tags/v6.12.63-2
     old: 3c972774f58157768c67fc85d65aeb013105ab33
     new: d4d7d31a2046d1603112a52bbc47cea85f5d434d
     log: revlist-3c972774f581-d4d7d31a2046.txt
 
---===============4121065024563534690==
+--===============5834830669500404473==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -45,4 +45,4 @@ eb2a55ca8cbb9604cc34ce04a5487cc5281d5479 Merge branch 'kernel-6.12.63/mm-filemap
 5e0be83325e8fcf273ca90ae2bbff485f1238908 kernel-6.12.63-1
 d4d7d31a2046d1603112a52bbc47cea85f5d434d kernel-6.12.63-2
 
---===============4121065024563534690==--
+--===============5834830669500404473==--
