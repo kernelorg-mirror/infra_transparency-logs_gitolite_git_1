@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5935247359411448280=="
+Content-Type: multipart/mixed; boundary="===============4203338626696249542=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ebiggers/linux
-Date: Mon, 22 Dec 2025 20:20:44 -0000
-Message-Id: <176643484478.3418175.638500649926627571@gitolite.kernel.org>
+Date: Mon, 22 Dec 2025 20:23:17 -0000
+Message-Id: <176643499799.3419319.17842799617147036070@gitolite.kernel.org>
 
---===============5935247359411448280==
+--===============4203338626696249542==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ebiggers/linux
 user: ebiggers
 changes:
-  - ref: refs/heads/libcrypto-fixes
-    old: 5a0b1882506858b12cc77f0e2439a5f3c5052761
-    new: c31f4aa8fed048fa70e742c4bb49bb48dc489ab3
-    log: revlist-5a0b18825068-c31f4aa8fed0.txt
+  - ref: refs/heads/libcrypto-next
+    old: 325c29e7d11caaf3b4f04f2c8f7d6bc4861cce5a
+    new: 54181bd9483c902044f0a24959fbbbb1c9f0eb90
+    log: revlist-325c29e7d11c-54181bd9483c.txt
 
---===============5935247359411448280==
+--===============4203338626696249542==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5a0b18825068-c31f4aa8fed0.txt
+Content-Disposition: attachment; filename=revlist-325c29e7d11c-54181bd9483c.txt
 
 1b9439c933b500cb24710bbd81fe56e9b0025b6f KVM: selftests: Add missing "break" in rseq_test's param parsing
 e2b43fb25243d502ad36b07bab9de09f4b76fff9 KVM: x86: Apply runtime updates to current CPUID during KVM_SET_CPUID{,2}
@@ -159,6 +159,8 @@ a8a313612af7a55083ba5720f14f1835319debee spi: mpfs: Fix an error handling path i
 46c28bbbb150b80827e4bcbea231560af9d16854 hwmon: (dell-smm) Limit fan multiplier to avoid overflow
 6946c726c3f4c36f0f049e6f97e88c510b15f65d hwmon: (ibmpex) fix use-after-free in high/low store
 82f2aab35a1ab2e1460de06ef04c726460aed51c hwmon: (tmp401) fix overflow caused by default conversion rate value
+c4b502d60a71cf0c0c938f133dc4c0e2adc17b44 arm64/simd: Avoid pointless clearing of FP/SIMD buffer
+5a0b1882506858b12cc77f0e2439a5f3c5052761 lib/crypto: riscv: Add poly1305-core.S to .gitignore
 49ca2147749fb69e1caa0f56a98bec065d903bd0 smb: smbdirect: introduce smbdirect_socket.connect.{lock,work}
 c1fb124f2a7416905047cf36fa6a110f9c48cd02 smb: server: initialize recv_io->cqe.done = recv_done just once
 d180b1d9c7a401656332b27e3428a949c00748d3 smb: server: defer the initial recv completion logic to smb_direct_negotiate_recv_work()
@@ -366,6 +368,20 @@ f67e8a5e3ead61692d24a68e30496bd2634f5b68 Merge tag 'xfs-fixes-6.19-rc2' of git:/
 10a0e846d806b779a059b6ee35df729b96cc3ad1 Merge tag 'input-for-v6.19-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/dtor/input
 1123cfe8cfe942e604a2693494b234dfba8b9fee Merge tag 'coccinelle-6.19' of git://git.kernel.org/pub/scm/linux/kernel/git/jlawall/linux
 9448598b22c50c8a5bb77a9103e2d49f134c9578 Linux 6.19-rc2
-c31f4aa8fed048fa70e742c4bb49bb48dc489ab3 kunit: Enforce task execution in {soft,hard}irq contexts
+ca9b6c6fdbab7a325d6ed5844bc249f8c151495c lib/crypto: Add ML-DSA verification support
+67e181649cd1ac3a5c7dbb1b60e03a874bc156f5 lib/crypto: tests: Add KUnit tests for ML-DSA verification
+4922333cd6a809e517518dc971d4fc31670c38fd lib/crypto: nh: Add NH library
+90b02e517ed642f5883588b45d7e004545faa431 lib/crypto: tests: Add KUnit tests for NH
+82d003a825d7c7b8d3ba808cdb1d4128de5c80be lib/crypto: arm/nh: Migrate optimized code into library
+1204d28ad22f191f44b642f8b8a8cec3e5410193 lib/crypto: arm64/nh: Migrate optimized code into library
+1611ae606c54baf4e8cdcac8a7b11bc338efb73a lib/crypto: x86/nh: Migrate optimized code into library
+ddf42d817d0cdc983cc0ec03b245dcce48b854de crypto: adiantum - Convert to use NH library
+87dbbb34e590bbc2efd955389e0be4c19d8c7420 crypto: adiantum - Use scatter_walk API instead of sg_miter
+6d3a830a06bb93fbf458221a7a13e498b2cedda1 crypto: adiantum - Use memcpy_{to,from}_sglist()
+a5a8445c5f8f2a4140b5a4b02c46febfb5572d93 crypto: adiantum - Drop support for asynchronous xchacha ciphers
+047b3e8820060e3c93637a3ae62f0a05c2a81a8b crypto: nhpoly1305 - Remove crypto_shash support
+f3e717191e7ca34acff71b5c31dce1eb11adf9e6 crypto: testmgr - Remove nhpoly1305 tests
+794aefc146e99579cfeef5b15a5116ed7685e48c fscrypt: Drop obsolete recommendation to enable optimized NHPoly1305
+54181bd9483c902044f0a24959fbbbb1c9f0eb90 lib/crypto: md5: Use rol32() instead of open-coding it
 
---===============5935247359411448280==--
+--===============4203338626696249542==--
