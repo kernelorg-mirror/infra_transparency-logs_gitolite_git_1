@@ -1,31 +1,33 @@
-Content-Type: multipart/mixed; boundary="===============3119292816535241134=="
+Content-Type: multipart/mixed; boundary="===============7485373501959886503=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/lee/leds
-Date: Mon, 22 Dec 2025 14:25:09 -0000
-Message-Id: <176641350902.3135094.9972608401704398421@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/lee/backlight
+Date: Mon, 22 Dec 2025 14:25:31 -0000
+Message-Id: <176641353186.3135428.5549381265366265786@gitolite.kernel.org>
 
---===============3119292816535241134==
+--===============7485373501959886503==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/lee/leds
+repo: pub/scm/linux/kernel/git/lee/backlight
 user: lee
 changes:
-  - ref: refs/heads/for-leds-next
-    old: 072cd5f458d76b9e15d89ebdaea8b5cb1312eeef
-    new: 8856d7fe1758937ac528770f552ec58c388c255b
-    log: revlist-072cd5f458d7-8856d7fe1758.txt
+  - ref: refs/heads/for-backlight-next
+    old: d3cc7cd7bc46af587747399e956cf4508221476f
+    new: 8f0b4cce4481fb22653697cced8d0d04027cb1e8
+    log: revlist-d3cc7cd7bc46-8f0b4cce4481.txt
 
---===============3119292816535241134==
+--===============7485373501959886503==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-072cd5f458d7-8856d7fe1758.txt
+Content-Disposition: attachment; filename=revlist-d3cc7cd7bc46-8f0b4cce4481.txt
 
+09339d0d83108fd4f59b94677ac99bde870aa0ae l2tp: correct debugfs label for tunnel tx stats
+ea2d3befcf29cca5221d0572d54e4d71b683175d net: dsa: yt921x: Set ageing_time_min/ageing_time_max
 e3b8cbf40c6e60a7a935bd8980884d5741a7a77b selftests: netconsole: remove log noise due to socat exit
 33b4c26d4d3ccd24d9721a577671f2c73c1a7cd9 x86/platform: Fix and extend kernel-doc comments in <asm/x86_init.h>
 1dd6c84f1c544e552848a8968599220bd464e338 sched_ext: Fix incorrect sched_class settings for per-cpu migration tasks
@@ -1048,7 +1050,5 @@ cba09e3ed06db4b6c87bc97e0aea080421fb8f7d Merge tag 'perf-urgent-2025-12-12' of g
 0dfb36b2dcb666f116ba314e631bd3bc632c44d1 Merge tag 'ceph-for-6.19-rc1' of https://github.com/ceph/ceph-client
 6a1636e06625ec0dd7f2b908ab39a8beea24bfd3 Merge tag 'scsi-misc' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
 8f0b4cce4481fb22653697cced8d0d04027cb1e8 Linux 6.19-rc1
-a093bc82b6013c40add22b96deed4d2b67905f41 dt-bindings: leds: Add new as3668 support
-8856d7fe1758937ac528770f552ec58c388c255b leds: as3668: Driver for the ams Osram 4-channel i2c LED driver
 
---===============3119292816535241134==--
+--===============7485373501959886503==--
