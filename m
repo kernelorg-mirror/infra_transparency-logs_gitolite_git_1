@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4470110431906030279=="
+Content-Type: multipart/mixed; boundary="===============3529583282598580090=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/wbg/counter
-Date: Mon, 22 Dec 2025 10:42:54 -0000
-Message-Id: <176640017482.2958510.3410563085689332463@gitolite.kernel.org>
+Date: Mon, 22 Dec 2025 10:44:22 -0000
+Message-Id: <176640026219.2959053.14311671456543642910@gitolite.kernel.org>
 
---===============4470110431906030279==
+--===============3529583282598580090==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,18 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/wbg/counter
 user: wbg
 changes:
-  - ref: refs/heads/counter-fixes
-    old: 1ea0a54c0a1fac796b133253804e392cb44068c8
-    new: 23f9485510c338476b9735d516c1d4aacb810d46
-    log: revlist-1ea0a54c0a1f-23f9485510c3.txt
+  - ref: refs/heads/counter-current
+    old: 109ff654934a4752f8875ded672efd1fbfe4d31d
+    new: 9448598b22c50c8a5bb77a9103e2d49f134c9578
+    log: revlist-109ff654934a-9448598b22c5.txt
 
---===============4470110431906030279==
+--===============3529583282598580090==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1ea0a54c0a1f-23f9485510c3.txt
+Content-Disposition: attachment; filename=revlist-109ff654934a-9448598b22c5.txt
 
+e28f834f57131be2cfd60a1c9c580f0a71995dc9 perf auxtrace: Include sys/types.h for pid_t
 c4fe074b61556536d515ccf2737fb1c185f55ee4 perf arm_spe: Add CPU variants supporting common data source packet
 c914d68371b0defc7dbc06a404eb0ef03180014b perf vendor events intel: Update alderlake events from 1.34 to 1.35
 99eb7146cd6d04bb4bf1b1193cd17e8c04761ed9 perf vendor events intel: Update arrowlake events from 1.13 to 1.14
@@ -1049,6 +1050,5 @@ f67e8a5e3ead61692d24a68e30496bd2634f5b68 Merge tag 'xfs-fixes-6.19-rc2' of git:/
 10a0e846d806b779a059b6ee35df729b96cc3ad1 Merge tag 'input-for-v6.19-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/dtor/input
 1123cfe8cfe942e604a2693494b234dfba8b9fee Merge tag 'coccinelle-6.19' of git://git.kernel.org/pub/scm/linux/kernel/git/jlawall/linux
 9448598b22c50c8a5bb77a9103e2d49f134c9578 Linux 6.19-rc2
-23f9485510c338476b9735d516c1d4aacb810d46 counter: interrupt-cnt: Drop IRQF_NO_THREAD flag
 
---===============4470110431906030279==--
+--===============3529583282598580090==--
