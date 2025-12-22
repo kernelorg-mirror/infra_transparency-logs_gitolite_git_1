@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5335763817827548906=="
+Content-Type: multipart/mixed; boundary="===============5491738714051006595=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux-dt
-Date: Mon, 22 Dec 2025 09:58:44 -0000
-Message-Id: <176639752458.2924209.2680525240540723777@gitolite.kernel.org>
+Date: Mon, 22 Dec 2025 10:02:13 -0000
+Message-Id: <176639773399.2927987.1865946858648431897@gitolite.kernel.org>
 
---===============5335763817827548906==
+--===============5491738714051006595==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,40 +17,41 @@ user: krzk
 git_push_cert_status: Y
 changes:
   - ref: refs/heads/next/dt64
-    old: 1b06942cda6e83c055e4530fec8227f6e2aba13e
-    new: 30ae13173704585f2a3f406e94e0dbaa5cfde69a
+    old: 30ae13173704585f2a3f406e94e0dbaa5cfde69a
+    new: 22fbe6e21450d629642e4bdc8d8d329219abeb46
     log: |
-         30ae13173704585f2a3f406e94e0dbaa5cfde69a arm64: dts: lg: Use recommended simple-bus node name
+         714b5a789f957871f18433645aa39d9109f194fb arm64: dts: sprd: Use recommended node names
+         22fbe6e21450d629642e4bdc8d8d329219abeb46 arm64: dts: toshiba: Use recommended node names
          
 
---===============5335763817827548906==
+--===============5491738714051006595==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher krzk@kernel.org 1766397523 +0100
+pusher krzk@kernel.org 1766397732 +0100
 pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux-dt.git
-nonce 1766397522-05b7369299497037a8fe33804457cd0aa4960a1b
+nonce 1766397731-ee11979b4c57a8ac91cbaf77ac93887751379641
 
-1b06942cda6e83c055e4530fec8227f6e2aba13e 30ae13173704585f2a3f406e94e0dbaa5cfde69a refs/heads/next/dt64
+30ae13173704585f2a3f406e94e0dbaa5cfde69a 22fbe6e21450d629642e4bdc8d8d329219abeb46 refs/heads/next/dt64
 -----BEGIN PGP SIGNATURE-----
 
-iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmlJFlMQHGtyemtAa2Vy
-bmVsLm9yZwAKCRDBN2bmhouD1+EpD/4iJJzYDcRQ8XaGqkQzY1fXsov4zU99taWz
-UE8f5pCemne57mZzhX8QhUJscgnpXjJBQAAVYCOjWLQ1SZccWOYrJqIZVMT8xEsq
-EjU1WiBvk/yiiLGdfYAqtjfcitqzGLmjWNLSInQfGJYXfeEicBr0LcPs6oyIduzN
-xoPTo08HWlLZzuSZwkDORgHR8c6WMYRG9tatpW2uem14r8zRfl2BAHkB96anZjs3
-5Ce9NJdWXKaxwQf6kTWuyJ3zhziepSRZpKW7v/qNtaNjqrTBG194StiKua8RUpjo
-eOR0975Hjj6mVi5TtJ5UsC8+CKURKshYNsWaOtNW0slU3h80axRt4+Vfd4g1nxdw
-+bDUweWcWjLNxES66OGAv8s39NV6XwlCVwDkNh6GJTv+OjLB2E4DsqGIX1xxZTG5
-FQvJ93MiNoTMHxz2J+23fiR/wwqUh9KVRwucK7RwdCJcCQ0dv4hvslWZ/iQ6Cs5+
-6isgfeLJNxe1542orJtaQXhNsFFOtF/U2NBhajvFP/qajgf3iBw8mjWo8EAtudjR
-5pHmtDfTnZ8SVPK0Y/hJmnhuWJ/hDcsowkm7ttXXcENN25W9r1uWMti1kjyhC7WA
-x17KQ8DhhVTaFspbI7fZy9EtYNiOzkaHVN3Q0ytOdRGk62rwTIxvMtWMqURXKKUZ
-lA9QtezPlw==
-=H7I4
+iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmlJFyQQHGtyemtAa2Vy
+bmVsLm9yZwAKCRDBN2bmhouD19OCD/0ShqQ/5ypumHZojFmzsp0XuLXFtBd06t0/
+KA4KqIu37n/Q857zEcLL2G046M6UQEVkobV+Qgnj1gnCcRLdZAOG6E7SzSVqQK1m
+lEEsdcj7fZbuMFAuLeVcwzcKojZf7tu+AaAg4VxUxtE3+033rosKVJfbc2BW1NtC
+1/KjAmmNw1V/ppWmSfMgZc265SpOBghWsKd76Z7tk/88Hpkm2uC8NqShqT+uRBg5
+kbMX0D/q3xi0Wvl0ZpOJL0DuCp15E2g/5/zgiKs3SyrSbp56Z36D19HtxKQJdOOu
+ZGv6sEcGeLBb/L6pdstATUFirS37bGRToXJFI9lswgatGwu2jWxTvmve8I7EUdJd
+Zbnb4QPVWDbyodcfxDIQgrw4eK/ur+H7Hd+qHJ91dYb9NuqYv39TU9/s5qCzpYtz
+9L6irffKK8cwjPTwJ3NV/2RV/0VD9pXbb//Sft/EV9+gM52p74prlwB4qzqIFr4r
+4ptJCv5KmObdtUbreqfUq00jKMRXc7VNluK7v4p2Y5szUHbv+2WJzlo/J4tyRcwW
+STb9O/W5udfXGGvEI+/GsGdhQxZMROMahWHsXZqr+HLtaEhrc3QcJDuqckOBzoGX
+5bR+pDoN5W/wd7FK5tR25PSUF1Zd+9DzX9iBdZN9Oa00lbwYenNFWnJPFa4/Gx6l
+4GmmyUllGw==
+=hy5f
 -----END PGP SIGNATURE-----
 
---===============5335763817827548906==--
+--===============5491738714051006595==--
