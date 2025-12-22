@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============8980804196445809763=="
+Content-Type: multipart/mixed; boundary="===============3119292816535241134=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/lee/mfd
-Date: Mon, 22 Dec 2025 14:25:04 -0000
-Message-Id: <176641350419.3134017.9607649505635651483@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/lee/leds
+Date: Mon, 22 Dec 2025 14:25:09 -0000
+Message-Id: <176641350902.3135094.9972608401704398421@gitolite.kernel.org>
 
---===============8980804196445809763==
+--===============3119292816535241134==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/lee/mfd
+repo: pub/scm/linux/kernel/git/lee/leds
 user: lee
 changes:
-  - ref: refs/heads/for-mfd-next
-    old: 44c603f35cad3f3b0f58fece99502d81620da9b2
-    new: 3d845d25026c5b1050e927e3ee4c515977a9b490
-    log: revlist-44c603f35cad-3d845d25026c.txt
+  - ref: refs/heads/for-leds-next
+    old: 072cd5f458d76b9e15d89ebdaea8b5cb1312eeef
+    new: 8856d7fe1758937ac528770f552ec58c388c255b
+    log: revlist-072cd5f458d7-8856d7fe1758.txt
 
---===============8980804196445809763==
+--===============3119292816535241134==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-44c603f35cad-3d845d25026c.txt
+Content-Disposition: attachment; filename=revlist-072cd5f458d7-8856d7fe1758.txt
 
 e3b8cbf40c6e60a7a935bd8980884d5741a7a77b selftests: netconsole: remove log noise due to socat exit
 33b4c26d4d3ccd24d9721a577671f2c73c1a7cd9 x86/platform: Fix and extend kernel-doc comments in <asm/x86_init.h>
@@ -1048,7 +1048,7 @@ cba09e3ed06db4b6c87bc97e0aea080421fb8f7d Merge tag 'perf-urgent-2025-12-12' of g
 0dfb36b2dcb666f116ba314e631bd3bc632c44d1 Merge tag 'ceph-for-6.19-rc1' of https://github.com/ceph/ceph-client
 6a1636e06625ec0dd7f2b908ab39a8beea24bfd3 Merge tag 'scsi-misc' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
 8f0b4cce4481fb22653697cced8d0d04027cb1e8 Linux 6.19-rc1
-982ea5246285180b607d905be949f1a7e937cb66 Revert "mfd: da9052-spi: Change read-mask to write-mask"
-3d845d25026c5b1050e927e3ee4c515977a9b490 mfd: tps6105x: Fix kernel-doc warnings relating to the core struct and tps6105x_mode
+a093bc82b6013c40add22b96deed4d2b67905f41 dt-bindings: leds: Add new as3668 support
+8856d7fe1758937ac528770f552ec58c388c255b leds: as3668: Driver for the ams Osram 4-channel i2c LED driver
 
---===============8980804196445809763==--
+--===============3119292816535241134==--
