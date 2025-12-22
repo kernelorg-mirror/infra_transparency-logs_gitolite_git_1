@@ -1,22 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Sun, 21 Dec 2025 23:52:21 -0000
-Message-Id: <176636114113.2378899.1774862125134327666@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Mon, 22 Dec 2025 00:57:46 -0000
+Message-Id: <176636506683.2424683.10017683667489745587@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: ast
 changes:
   - ref: refs/heads/master
-    old: 1123cfe8cfe942e604a2693494b234dfba8b9fee
-    new: 9448598b22c50c8a5bb77a9103e2d49f134c9578
+    old: d2749ae85aec685e52e0474f445f6a8552363eb0
+    new: f785a31395d9cafb8b2c42c7358fad72a6463142
     log: |
-         9448598b22c50c8a5bb77a9103e2d49f134c9578 Linux 6.19-rc2
+         f785a31395d9cafb8b2c42c7358fad72a6463142 bpf: arm64: Fix sparse warnings
          
-  - ref: refs/tags/v6.19-rc2
-    old: 0000000000000000000000000000000000000000
-    new: 2408853dde584f01950a0f976b743739cce30eca
