@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2171677841045099937=="
+Content-Type: multipart/mixed; boundary="===============2810453951701330399=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/geert/linux-m68k
-Date: Mon, 22 Dec 2025 09:50:37 -0000
-Message-Id: <176639703712.2918718.4052497363192249970@gitolite.kernel.org>
+Date: Mon, 22 Dec 2025 09:50:49 -0000
+Message-Id: <176639704922.2919347.3238182715336628993@gitolite.kernel.org>
 
---===============2171677841045099937==
+--===============2810453951701330399==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/geert/linux-m68k
 user: geert
 changes:
-  - ref: refs/heads/master
-    old: 61ef5d7da42f559592c9944e1334916a779977c9
-    new: 350b0b43acf3a0058cd4b25f4c889cde2f98d404
-    log: revlist-61ef5d7da42f-350b0b43acf3.txt
+  - ref: refs/heads/m68k-queue
+    old: 7721655c1ad05defdff19f7fc17e0a09ad60f033
+    new: bb5710635834feb5670be7ab4e9213fd5ba75d45
+    log: revlist-7721655c1ad0-bb5710635834.txt
 
---===============2171677841045099937==
+--===============2810453951701330399==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-61ef5d7da42f-350b0b43acf3.txt
+Content-Disposition: attachment; filename=revlist-7721655c1ad0-bb5710635834.txt
 
 1b9439c933b500cb24710bbd81fe56e9b0025b6f KVM: selftests: Add missing "break" in rseq_test's param parsing
 e2b43fb25243d502ad36b07bab9de09f4b76fff9 KVM: x86: Apply runtime updates to current CPUID during KVM_SET_CPUID{,2}
@@ -368,6 +368,8 @@ f67e8a5e3ead61692d24a68e30496bd2634f5b68 Merge tag 'xfs-fixes-6.19-rc2' of git:/
 10a0e846d806b779a059b6ee35df729b96cc3ad1 Merge tag 'input-for-v6.19-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/dtor/input
 1123cfe8cfe942e604a2693494b234dfba8b9fee Merge tag 'coccinelle-6.19' of git://git.kernel.org/pub/scm/linux/kernel/git/jlawall/linux
 9448598b22c50c8a5bb77a9103e2d49f134c9578 Linux 6.19-rc2
-350b0b43acf3a0058cd4b25f4c889cde2f98d404 Merge tag 'v6.19-rc2'
+c1171a59a3554e39df1aea2ba31e8e95259e77f4 m68k: atari: usb: Add ISP1160 USB host controller support
+0a30944f23f845475d88e3082281b7fefc615451 m68k: atari: Update Kconfig.bus help text
+bb5710635834feb5670be7ab4e9213fd5ba75d45 m68k: defconfig: Enable Atari EtherNAT and NetUSBee USB support
 
---===============2171677841045099937==--
+--===============2810453951701330399==--
