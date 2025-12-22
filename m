@@ -1,60 +1,64 @@
-Content-Type: multipart/mixed; boundary="===============5673087435932809831=="
+Content-Type: multipart/mixed; boundary="===============8481760786253140295=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/powerpc/linux
-Date: Mon, 22 Dec 2025 12:58:09 -0000
-Message-Id: <176640828924.3067695.1879843762689862930@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mmind/linux-rockchip
+Date: Mon, 22 Dec 2025 13:37:40 -0000
+Message-Id: <176641066011.3097004.10011753672305149540@gitolite.kernel.org>
 
---===============5673087435932809831==
+--===============8481760786253140295==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/powerpc/linux
-user: maddy
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/mmind/linux-rockchip
+user: mmind
 changes:
-  - ref: refs/heads/fixes-test
-    old: 9448598b22c50c8a5bb77a9103e2d49f134c9578
-    new: 608328ba5b0619cbc28b409296b5e3840bcb97b6
+  - ref: refs/heads/for-next
+    old: 4a4070c80fe694c684fbb67dae3294e4c9f14f55
+    new: e2592fee9abf0cd3860be36cf9e790b07cd7183c
+    log: revlist-4a4070c80fe6-e2592fee9abf.txt
+  - ref: refs/heads/v6.19-armsoc/dtsfixes
+    old: 5497ffe305b2ea31ae62d4a311d7cabfb671f54a
+    new: ce652c98a7bfa0b7c675ef5cd85c44c186db96af
     log: |
-         c2296a1e42418556efbeb5636c4fa6aa6106713a powerpc/kexec: Enable SMT before waking offline CPUs
-         42f53b39004f45a6091109176c62ba33cc52ff96 selftests/powerpc/pmu/: Add check_extended_reg_test to .gitignore
-         f1164534ad62f0cc247d99650b07bd59ad2a49fd powerpc/tools: drop `-o pipefail` in gcc check scripts
-         b94b73567561642323617155bf4ee24ef0d258fe powerpc: Add reloc_offset() to font bitmap pointer used for bootx_printf()
-         fbe409d138b1d8a8b91cdad19cf95495e8ebe1ee powerpc/powernv: Enable cpuidle state detection for POWER11
-         608328ba5b0619cbc28b409296b5e3840bcb97b6 powerpc/32: Restore disabling of interrupts at interrupt/syscall exit
+         7c6bbcb010b1b8e4e6452de109f0506bb05d6efb arm64: dts: rockchip: Fix wifi interrupts flag on Sakura Pi RK3308B
+         cd8967ea3105d30adb878a9fea0e34a9378df610 arm64: dts: rockchip: fix unit-address for RK3588 NPU's core1 and core2's IOMMU
+         0368e4afcf20f377c81fa77b1c7d0dee4a625a44 arm64: dts: rockchip: remove dangerous max-link-speed from helios64
+         ce652c98a7bfa0b7c675ef5cd85c44c186db96af arm64: dts: rockchip: remove redundant max-link-speed from nanopi-r4s
+         
+  - ref: refs/heads/v6.20-armsoc/dts64
+    old: abd9bb7ad5bdbbf76316013cda3812c2719a0210
+    new: 2d6fcdcaf42671dd3fb281d7a2e5ea985af11ce5
+    log: |
+         3fc7029d3009682b27be2fa2cd2269bc6f104c2e arm64: dts: rockchip: remove rtc regulator for ArmSoM Sige5
+         341735d92ff868eb4c46beafb313d66f015809be arm64: dts: rockchip: fix hp-det pin for ArmSoM Sige5
+         3025d360f03515d3f6396a5cec339e776d62b2da arm64: dts: rockchip: enable saradc for ArmSoM Sige5
+         f8a1d7d136f734e8e20e414eaf8aff74e6e0d55c arm64: dts: rockchip: Add PCIe clkreq stuff for RK3588 EVB1
+         1b2d6b75e2b3374157c9015435381b217a887145 arm64: dts: rockchip: Add EEPROMs for Radxa ROCK 4 boards
+         e3b12fc3336240e7dee4989b9e8634be3c959c94 arm64: dts: rockchip: Add EEPROMs for Radxa rk35xx boards
+         2d6fcdcaf42671dd3fb281d7a2e5ea985af11ce5 arm64: dts: rockchip: add dma-coherent for pcie and gmac of RK3576
          
 
---===============5673087435932809831==
+--===============8481760786253140295==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-4a4070c80fe6-e2592fee9abf.txt
 
-certificate version 0.1
-pusher Madhavan Srinivasan <maddy@linux.ibm.com> 1766408283 +0530
-pushee gitolite.kernel.org:pub/scm/linux/kernel/git/powerpc/linux
-nonce 1766408281-372b421be4a33194982f0de0135e43277eaec232
+7c6bbcb010b1b8e4e6452de109f0506bb05d6efb arm64: dts: rockchip: Fix wifi interrupts flag on Sakura Pi RK3308B
+cd8967ea3105d30adb878a9fea0e34a9378df610 arm64: dts: rockchip: fix unit-address for RK3588 NPU's core1 and core2's IOMMU
+0368e4afcf20f377c81fa77b1c7d0dee4a625a44 arm64: dts: rockchip: remove dangerous max-link-speed from helios64
+ce652c98a7bfa0b7c675ef5cd85c44c186db96af arm64: dts: rockchip: remove redundant max-link-speed from nanopi-r4s
+3fc7029d3009682b27be2fa2cd2269bc6f104c2e arm64: dts: rockchip: remove rtc regulator for ArmSoM Sige5
+341735d92ff868eb4c46beafb313d66f015809be arm64: dts: rockchip: fix hp-det pin for ArmSoM Sige5
+3025d360f03515d3f6396a5cec339e776d62b2da arm64: dts: rockchip: enable saradc for ArmSoM Sige5
+f8a1d7d136f734e8e20e414eaf8aff74e6e0d55c arm64: dts: rockchip: Add PCIe clkreq stuff for RK3588 EVB1
+1b2d6b75e2b3374157c9015435381b217a887145 arm64: dts: rockchip: Add EEPROMs for Radxa ROCK 4 boards
+e3b12fc3336240e7dee4989b9e8634be3c959c94 arm64: dts: rockchip: Add EEPROMs for Radxa rk35xx boards
+2d6fcdcaf42671dd3fb281d7a2e5ea985af11ce5 arm64: dts: rockchip: add dma-coherent for pcie and gmac of RK3576
+5deed6704b4611edbf0c46c96248f18d34a307b7 Merge branch 'v6.19-armsoc/dtsfixes' into for-next
+e2592fee9abf0cd3860be36cf9e790b07cd7183c Merge branch 'v6.20-armsoc/dts64' into for-next
 
-9448598b22c50c8a5bb77a9103e2d49f134c9578 608328ba5b0619cbc28b409296b5e3840bcb97b6 refs/heads/fixes-test
------BEGIN PGP SIGNATURE-----
-
-iQIzBAABCgAdFiEEqX2DNAOgU8sBX3pRpnEsdPSHZJQFAmlJQFsACgkQpnEsdPSH
-ZJQknhAAow0zlYv0yZbpJrDYwjLlhzxHacjwgg7ixPaQlyFo/+3EazmquD1Iw+UQ
-HKkc35E4HrchUwM/sO556oCqm+ffuvT7LPS74HP6w/oSgq8A5YRuKlVuPkv4ujAl
-tWYm8FxAcKUltlMP/T3M/VX7SDacVnO54Bx1rL6/1sAOyIs0G4mZFtKB/oIOuH7m
-8qcs8gtKlmBKKqca/yhuyP5Hqa304r1w9TEXB61btvU6CB4APgrQgz3txXxcZ+/Q
-EylfzecjoBTcj3Zv0TA/EzVg8LVhKd6DgQ+St2vLatU/3L/pKdO2dw0+25ewfX17
-/GDn31ZIxlkdShRFbioo+dAlAtSzAQ5nhpeMwSlnd5+fyqlDLTAEZoyw8LV+i/Wm
-39bSNE5XMxrnVXM7/KtWbIzwXyhKeTNjs3PZf6S2LRr8uyb/65QhCBbmriZ5N1tI
-GVQK7YMQxdljs5hWlrtrmdHffKM2K166KcA5J4IG7wLd3bm4x3Uf26/a6OFis5gX
-29j+dNbV3dA/EBDpwVu0J8WUMRXQTzrA32TMs9GBvC45+WEqqUbrAdXFy0SKcvhS
-3CTyEVFU838FR9LqxYfRh50Xsbb9ysMEGwXJa3Gz3FDf1iS8NYx+EKm/5QUBjR5F
-P9FLJRufkEkCBVuH0Z/sKAuEwP/nZU1cKyF50YPxj+19j5xrgMU=
-=bkrY
------END PGP SIGNATURE-----
-
---===============5673087435932809831==--
+--===============8481760786253140295==--
