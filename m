@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Mon, 22 Dec 2025 11:33:55 -0000
-Message-Id: <176640323587.3001083.13936605887312454180@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/thomas.weissschuh/linux
+Date: Mon, 22 Dec 2025 11:35:55 -0000
+Message-Id: <176640335521.3004526.17061664008502327599@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: pabeni
+repo: pub/scm/linux/kernel/git/thomas.weissschuh/linux
+user: thomas.weissschuh
 changes:
-  - ref: refs/heads/main
-    old: 5498227676303e3ffa9a3a46214af96bc3e81314
-    new: db5b4e39c4e63700c68a7e65fc4e1f1375273476
-    log: |
-         db5b4e39c4e63700c68a7e65fc4e1f1375273476 ip6_gre: make ip6gre_header() robust
-         
+  - ref: refs/heads/b4/uapi-sockaddr
+    old: 0000000000000000000000000000000000000000
+    new: ea31044f931b9ae6d16169a149dc26c40b8c240d
