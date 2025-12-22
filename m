@@ -1,51 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============2259803976247511773=="
+Content-Type: multipart/mixed; boundary="===============5373280693607881877=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Mon, 22 Dec 2025 17:16:52 -0000
-Message-Id: <176642381273.3272093.10293581092050841635@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Mon, 22 Dec 2025 17:16:55 -0000
+Message-Id: <176642381596.3272233.17166000974595769811@gitolite.kernel.org>
 
---===============2259803976247511773==
+--===============5373280693607881877==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.19
+  - ref: refs/heads/spi-6.19
     old: 9d651a6c62832ac8d1c445f5fa8c61a03ebfb649
     new: c81f30bde5b0449d9d82d31a66f0ffd608e610b5
     log: revlist-9d651a6c6283-c81f30bde5b0.txt
 
---===============2259803976247511773==
+--===============5373280693607881877==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1766423811 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
-nonce 1766423810-c931eac91ad8558e142e3ea8451c51ed7762bc58
+pusher C3F436CA30F5D8EB 1766423814 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1766423813-3e028964fe2737dbe6d53ef34a6bda9e97b14f89
 
-9d651a6c62832ac8d1c445f5fa8c61a03ebfb649 c81f30bde5b0449d9d82d31a66f0ffd608e610b5 refs/heads/for-6.19
+9d651a6c62832ac8d1c445f5fa8c61a03ebfb649 c81f30bde5b0449d9d82d31a66f0ffd608e610b5 refs/heads/spi-6.19
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmlJfQMACgkQJNaLcl1U
-h9D1mAf9H22f7G1X+ZBL+kscEaCI0kF91atFkBPswgfnP7rhW2mx6OGq6wFqYPlu
-3NOWZDq68pnIUKzUUvhyBL2ARYXALVmFe5lQPQMK2tslRaXiI4HK6qN5upgiLU4R
-e6tQGX5NcV/o+93enfAMFThH+a9qxAb6NU77y6wXmwegUjfRX5XiExbrsyiN0m8z
-OpSV6p/och0eGDfV205YrnDz7QpSv9LxSaSoVHFkNa3VM4RbX/yeR8dKQPa3ffks
-1sSqzPOy1GnNi5wEZzDu2pBu9OmQ22JlRdXX9NVRA/myYid3UszTOPpN38H4pEoG
-5YEolW6sjQ8JGnAN/xZ77jBMFbmaSg==
-=MPMf
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmlJfQYACgkQJNaLcl1U
+h9AQGgf/f35m5WVQnbACTuUmhE+9TUEZ/19zOMqVYEdpp0USFOursJOouWRmaPHA
+4+NpmygkBYRuTnluqpOk9wlIZZXN97hghz3R9JkRqGCg0n/5PZkobkFc5NbDQegH
+/3/1F4/apjTFTUcCGB/bFVrJytXn9aZk43+gK4mHk2tfUpG2RCGZRhVMVbxt2aa2
+3bV7W4sPMOwdUkEudxF1QcPXbFuaEcPHeOn069fwwVIdkgxkQvaySC+XUexzcK3c
+Xgb7higoaKMifRgIbYjtdqwRTEixYpmHRqGUfNJxGZkqAAXdNs6nSAfupjQKTwqD
+dW7OqzFbYwCgnlZEIGDxJBDkg34OmQ==
+=dBhV
 -----END PGP SIGNATURE-----
 
---===============2259803976247511773==
+--===============5373280693607881877==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -389,4 +389,4 @@ f67e8a5e3ead61692d24a68e30496bd2634f5b68 Merge tag 'xfs-fixes-6.19-rc2' of git:/
 e0c8755d44eb85afd40100586076c3dc4b62ee3b spi: dt-bindings: sun6i: Add compatibles for A523's SPI controllers
 c81f30bde5b0449d9d82d31a66f0ffd608e610b5 spi: sun6i: Support A523's SPI controllers
 
---===============2259803976247511773==--
+--===============5373280693607881877==--
