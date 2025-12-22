@@ -1,51 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============8942977303682561515=="
+Content-Type: multipart/mixed; boundary="===============0075770423897246184=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/modules/linux
-Date: Mon, 22 Dec 2025 19:16:39 -0000
-Message-Id: <176643099948.3366219.6671765135700712110@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
+Date: Mon, 22 Dec 2025 19:33:15 -0000
+Message-Id: <176643199585.3377939.9899639284792334088@gitolite.kernel.org>
 
---===============8942977303682561515==
+--===============0075770423897246184==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/modules/linux
-user: sami
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/cel/linux
+user: cel
 changes:
-  - ref: refs/heads/master
-    old: 8f0b4cce4481fb22653697cced8d0d04027cb1e8
-    new: 9448598b22c50c8a5bb77a9103e2d49f134c9578
-    log: revlist-8f0b4cce4481-9448598b22c5.txt
+  - ref: refs/heads/nfsd-testing
+    old: 599d012a60ba52a489fe932ab347549611d68e22
+    new: 3a0de6a3a46cff9ec91ac120d16ed44629159919
+    log: revlist-599d012a60ba-3a0de6a3a46c.txt
 
---===============8942977303682561515==
+--===============0075770423897246184==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher 84F5ABB5BBF74265EAF372185A0725AB39A1A77A 1766430998 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/modules/linux.git
-nonce 1766430998-fa1614524cedc57cce4bad301faa09dbcc0e8b22
-
-8f0b4cce4481fb22653697cced8d0d04027cb1e8 9448598b22c50c8a5bb77a9103e2d49f134c9578 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iHUEABYKAB0WIQSE9au1u/dCZerzchhaByWrOaGnegUCaUmZFgAKCRBaByWrOaGn
-epgQAQDepmQIguU/GLs/84IjbeRezJIHYbzluRbUlOCAROpDegD9GkxzN37d5vlv
-OQIls2Uc9ix1qJUgFybXjN9qJhKNSgc=
-=WfZd
------END PGP SIGNATURE-----
-
---===============8942977303682561515==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8f0b4cce4481-9448598b22c5.txt
+Content-Disposition: attachment; filename=revlist-599d012a60ba-3a0de6a3a46c.txt
 
 1b9439c933b500cb24710bbd81fe56e9b0025b6f KVM: selftests: Add missing "break" in rseq_test's param parsing
 e2b43fb25243d502ad36b07bab9de09f4b76fff9 KVM: x86: Apply runtime updates to current CPUID during KVM_SET_CPUID{,2}
@@ -389,5 +368,41 @@ f67e8a5e3ead61692d24a68e30496bd2634f5b68 Merge tag 'xfs-fixes-6.19-rc2' of git:/
 10a0e846d806b779a059b6ee35df729b96cc3ad1 Merge tag 'input-for-v6.19-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/dtor/input
 1123cfe8cfe942e604a2693494b234dfba8b9fee Merge tag 'coccinelle-6.19' of git://git.kernel.org/pub/scm/linux/kernel/git/jlawall/linux
 9448598b22c50c8a5bb77a9103e2d49f134c9578 Linux 6.19-rc2
+081f10320a94b46a8ea3ed100415a3686126e4c5 SUNRPC: svcauth_gss: avoid NULL deref on zero length gss_token in gss_read_proxy_verf
+b173471919b768e3bd853c176a015052890df420 svcrdma: use rc_pageoff for memcpy byte offset
+dc86132f2c03285c8f8e193ee8005f80a7b56b95 svcrdma: return 0 on success from svc_rdma_copy_inline_range
+802d1382186b7a6cd7acbd57d8d5f6cb316a6093 svcrdma: bound check rq_pages index in inline path
+a313c66b1545bd4987e6033300807b27fc7b712e nfsd: Mark variable __maybe_unused to avoid W=1 build break
+9a6c7abc19116641f5096de06305c2693e17060b nfsd: fix memory leak in nfsd_create_serv error paths
+0be349e5b2b3a47a796d025292acfae7314816f4 NFSD: Clear SECLABEL in the suppattr_exclcreat bitmap
+08c357ef1840df019ebadcc5a11b09335ca4f891 NFSD: Clear TIME_DELEG in the suppattr_exclcreat bitmap
+ba8f9c05abe9c91720b0ab5b7a76860af2cf0ae9 NFSD: Clean up nfsd4_check_open_attributes()
+d524f2fcaf28bb4b55e4a45a90db352dc4231063 NFSD: NFSv4 file creation neglects setting ACL
+2f250d54acf1ba35bae190579e32b377b0d7996b xdrgen: improve error reporting for invalid void declarations
+c158942a8f7c8acaad7559ccdb2b2314cc1118c2 NFSD: Add instructions on how to deal with xdrgen files
+362f0b9742f07fc53f833dc26cde430e388af767 xdrgen: Generate "if" instead of "switch" for boolean union enumerators
+182eefc486944184aef4934ffa90133b87925391 lockd: fix vfs_test_lock() calls
+b0f17a64ed89223278d4311b4f2c997547dd5eea locks: ensure vfs_test_lock() never returns FILE_LOCK_DEFERRED
+39ebab1b900b06fe0380442108aca2b56822e77c xdrgen: Address some checkpatch whitespace complaints
+3a6c1716a9c414a46f728e900ef230f72acf59a0 nfsd: fix nfsd_file reference leak in nfsd4_add_rdaccess_to_wrdeleg()
+e8b69f2f157b3fd393cd4743dbba34d9d2e6c91f nfsd: use ATTR_DELEG in nfsd4_finalize_deleg_timestamps()
+d4696869d90d5c9bbc5dc7a1d64c68b9d2b334aa nfsd: prefix notification in nfsd4_finalize_deleg_timestamps() with "nfsd: "
+761f4407478fcd95c3bcaa7a4ff4465c8b786a32 nfsd: Drop the client reference in client_states_open()
+7221282d706685f3622fa26a48c8af08c6d1faa3 xdrgen: Fix struct prefix for typedef types in program wrappers
+66b99a96c0657699e67e41312a42bf73aa581949 NFSD: Remove NFSERR_EAGAIN
+8543b0a7d54013beab4378e5a943283317ae54ab NFS: NFSERR_INVAL is not defined by NFSv2
+244342d135016619db4b7412cdbe5951dfaa7274 xdrgen: Emit the program number definition
+cd2e1448ba044b4a241eee288850c869863f120a NFSD: Fix permission check for read access to executable-only files
+9567ffcbc4f0d110cef5b901a1d60bbcd56bdd4c nfsd: use correct loop termination in nfsd4_revoke_states()
+75c6a5cb06ef54bca43500b7d0ac28d0f0de0e35 nfsd: provide locking for v4_end_grace
+197d678752b3efcce6364ffef5c68448b32f8c04 nfsd: use workqueue enable/disable APIs for v4_end_grace sync
+ff31d69b18b592323b1cd46638435d6a974c0aae nfsd: fix nfs4_file refcount leak in nfsd_get_dir_deleg()
+3d4b3555b5543f23a41e68bb515112d92dcff440 nfsd: check that server is running in unlock_filesystem
+c84273cc195d16157284bcc2302615a6ef6408f5 NFSD: net ref data still needs to be freed even if net hasn't startup
+3554908a48bded6248fa974089068e5c98a31d0a xdrgen: Implement short (16-bit) integer types
+e50278cce97c2aaa2a2c864338e2f8996b89daf6 NFSD: fix setting FMODE_NOCMTIME in nfs4_open_delegation
+22c064d9dd0dae1ab621ecb756f6030e820da07d xdrgen: Initialize data pointer for zero-length items
+5857f87e9013ef80651ed839ab1476e9cb79752b [DEBUG] Add instrumentation for nfsd_mutex contention debugging
+3a0de6a3a46cff9ec91ac120d16ed44629159919 siw: Enable try_gso
 
---===============8942977303682561515==--
+--===============0075770423897246184==--
