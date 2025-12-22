@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8545655612324093891=="
+Content-Type: multipart/mixed; boundary="===============4978772992241216686=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Mon, 22 Dec 2025 04:04:47 -0000
-Message-Id: <176637628752.2568357.15985882422369505319@gitolite.kernel.org>
+Date: Mon, 22 Dec 2025 04:05:04 -0000
+Message-Id: <176637630468.2570501.12449134819507746677@gitolite.kernel.org>
 
---===============8545655612324093891==
+--===============4978772992241216686==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/cel/linux
 user: cel
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/nfsd-next
     old: 8f0b4cce4481fb22653697cced8d0d04027cb1e8
     new: 9448598b22c50c8a5bb77a9103e2d49f134c9578
     log: revlist-8f0b4cce4481-9448598b22c5.txt
 
---===============8545655612324093891==
+--===============4978772992241216686==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -369,4 +369,4 @@ f67e8a5e3ead61692d24a68e30496bd2634f5b68 Merge tag 'xfs-fixes-6.19-rc2' of git:/
 1123cfe8cfe942e604a2693494b234dfba8b9fee Merge tag 'coccinelle-6.19' of git://git.kernel.org/pub/scm/linux/kernel/git/jlawall/linux
 9448598b22c50c8a5bb77a9103e2d49f134c9578 Linux 6.19-rc2
 
---===============8545655612324093891==--
+--===============4978772992241216686==--
