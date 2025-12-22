@@ -1,26 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============2198724495402705458=="
+Content-Type: multipart/mixed; boundary="===============0024307418126117191=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
-Date: Mon, 22 Dec 2025 11:33:07 -0000
-Message-Id: <176640318725.3000283.13687411789533539035@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Mon, 22 Dec 2025 11:33:10 -0000
+Message-Id: <176640319092.3000448.2054482128167081284@gitolite.kernel.org>
 
---===============2198724495402705458==
+--===============0024307418126117191==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regulator
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.19
+  - ref: refs/heads/regulator-6.19
     old: 8f0b4cce4481fb22653697cced8d0d04027cb1e8
     new: 9448598b22c50c8a5bb77a9103e2d49f134c9578
     log: revlist-8f0b4cce4481-9448598b22c5.txt
-  - ref: refs/heads/for-6.20
+  - ref: refs/heads/regulator-6.20
     old: 2bb202416d33347102b12bbd1db4837fb6685617
     new: 06d65f2d478e49b68701aed18e58713aa178be16
     log: |
@@ -29,32 +29,32 @@ changes:
          06d65f2d478e49b68701aed18e58713aa178be16 Add Richtek RT8092 support
          
 
---===============2198724495402705458==
+--===============0024307418126117191==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1766403185 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/regulator.git
-nonce 1766403185-cb002432fd3c34007f5250c341af810a73c2c6b0
+pusher C3F436CA30F5D8EB 1766403189 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1766403188-af4691f30f9e63ca01b82944efd891ae6a35ed3c
 
-8f0b4cce4481fb22653697cced8d0d04027cb1e8 9448598b22c50c8a5bb77a9103e2d49f134c9578 refs/heads/for-6.19
-2bb202416d33347102b12bbd1db4837fb6685617 06d65f2d478e49b68701aed18e58713aa178be16 refs/heads/for-6.20
+8f0b4cce4481fb22653697cced8d0d04027cb1e8 9448598b22c50c8a5bb77a9103e2d49f134c9578 refs/heads/regulator-6.19
+2bb202416d33347102b12bbd1db4837fb6685617 06d65f2d478e49b68701aed18e58713aa178be16 refs/heads/regulator-6.20
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmlJLHEACgkQJNaLcl1U
-h9ADywf/fUgnqGB9QE9rHlenlLdfS27qAz7eeoY6a+KY0cTA7bPeGVBW1agfOWrm
-Dd+WWnqosIQOCD5wwDC6y2IA3ajo4uFbV4b/ERXXMKLj5w/+dLjpjDYoKdjdoTxP
-vioUwG86RC6dwJIdg/DloguYWtpV8MKPBJsIKHn44b2TcsOxnz/jJdhl5CUajhMN
-mnv6pjq5mB7eQONHJbRB9pkDqpKfm1mVDn8zHr6ovf8EDGtvcVJn5GTLgzPCRvUy
-RLr8v7q8VZNR/yyLNjfwv1tFq88h9CT/cF6Y+0aAKlL9DIGO6cUBD8ooG8e5XWyQ
-D7fJFij9R0tdL9Z0pumF63SCPpHA3w==
-=b4UA
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmlJLHUACgkQJNaLcl1U
+h9DuWQf+IE1CRkAR49Y3uJ608YeGCSX20YXvnNbhpGwAX6Pt5lLVEsoaikakQ+jN
+KRb35V89wQJmmoXTUGBNyb43YRzuSaMVkfGlnWon4jKvtX43az9j5y++XP/SccGy
+iDTSpNSdOAiad9YCUtLuuQKs+JrwTDrgN3a26zobfKoKEEu6gwtrDM1aBXZ00YRE
+CP5TDI0mWSsClspuZFeR3nXoHGCx4BgrMFT9IVTAfDheAbc4wm44QgM3dBaBkcDk
+3kmMGvb+I0Dtox225vu8zpXENBpOyCP6/+aET4f0/33140L17tJubvZO+tMChe6l
+Rw8GqQ6C8Sq59VNLb/sdg18ZLmsVIg==
+=C1Gh
 -----END PGP SIGNATURE-----
 
---===============2198724495402705458==
+--===============0024307418126117191==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -403,4 +403,4 @@ f67e8a5e3ead61692d24a68e30496bd2634f5b68 Merge tag 'xfs-fixes-6.19-rc2' of git:/
 1123cfe8cfe942e604a2693494b234dfba8b9fee Merge tag 'coccinelle-6.19' of git://git.kernel.org/pub/scm/linux/kernel/git/jlawall/linux
 9448598b22c50c8a5bb77a9103e2d49f134c9578 Linux 6.19-rc2
 
---===============2198724495402705458==--
+--===============0024307418126117191==--
