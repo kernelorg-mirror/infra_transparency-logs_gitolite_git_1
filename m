@@ -1,51 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============5259312766895156683=="
+Content-Type: multipart/mixed; boundary="===============1283676042414514650=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Mon, 22 Dec 2025 20:58:03 -0000
-Message-Id: <176643708358.3445527.1759791783627775730@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Mon, 22 Dec 2025 20:58:07 -0000
+Message-Id: <176643708705.3445712.4066008657078179870@gitolite.kernel.org>
 
---===============5259312766895156683==
+--===============1283676042414514650==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.20
+  - ref: refs/heads/asoc-6.20
     old: 8db50f0fa43efe8799fd40b872dcdd39a90d7549
     new: e9af75df38cd7eb037feca29418d30f92fa4cf7f
     log: revlist-8db50f0fa43e-e9af75df38cd.txt
 
---===============5259312766895156683==
+--===============1283676042414514650==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1766437081 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1766437081-15f209a4cec1362248027746e8fbc5e0da762cd6
+pusher C3F436CA30F5D8EB 1766437085 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1766437084-73f850e6732641537ad62f542e27e144b51ad25b
 
-8db50f0fa43efe8799fd40b872dcdd39a90d7549 e9af75df38cd7eb037feca29418d30f92fa4cf7f refs/heads/for-6.20
+8db50f0fa43efe8799fd40b872dcdd39a90d7549 e9af75df38cd7eb037feca29418d30f92fa4cf7f refs/heads/asoc-6.20
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmlJsNkACgkQJNaLcl1U
-h9BliAf/eOOOTohjAAK9cD2JZoBQPW49fnWpa5FEgMUcCH2UneJRMdc0IggBz1dD
-f2GfW/7YFR/ME740NzzbSRmm64nSX2ijr/qEhiKBKVEeSTzrMm4tzhMLW6FZtak6
-x+D95pbsUwLLZOhNHCg++dpM+x+jpEjZan6lqPnLeTzy6UyDpw0FlhykraXqBQht
-B0BOuBu++svRVIUhaFc2jDSgqeScPTVR3eJ5MpAlidquYP7upxRqCxt+Vivh2/Hr
-+WB1sdvpnKrYwHzK0cvQeBOi2X6KpIZ7R6kIBNhm3dU1DopybDm14weKmrf5iKTe
-mE8tHEV1XMVF9EXI0A1aMRFpr9dMTQ==
-=cfZL
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmlJsN0ACgkQJNaLcl1U
+h9C/NQf+IruQMU+NNNUZe2yVtpKWih0YEPAWCiafJ+aU/VzlZb0cC1+GEQNmQ96T
+mJmEnF5fFecfJOUa9s0m91KH/gwe9Wa5Fc3L3og35o98efgQfxzookAlUAURhJXm
+0ArJK91QBUmLEh/ATQb9ZeZ4p8q1ojyZsi3q8SlwCE295ybyczeZMLufCva/tTF0
+F07nM6rtL/A+/nn5dJrr7hEq5dHTV33SM74vJ2931q4nO35G0cUJTBVD3UgbCrNF
+QmGTtSCZQAgnbvQD2oPBQGkjooU3/ZQp83O/AhntTvgm0FMiCqH0+9SexmvGaSCO
+Z9G1raGpCKyefxu8Albnqgea2iY8cA==
+=D9cl
 -----END PGP SIGNATURE-----
 
---===============5259312766895156683==
+--===============1283676042414514650==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -403,4 +403,4 @@ f67e8a5e3ead61692d24a68e30496bd2634f5b68 Merge tag 'xfs-fixes-6.19-rc2' of git:/
 0bd4b0f583e2a318441fa88ea71b3d7530ecb646 ASoC / soc/qcom: Constify APR/GPR callback response
 e9af75df38cd7eb037feca29418d30f92fa4cf7f SDCA Jack Fixups
 
---===============5259312766895156683==--
+--===============1283676042414514650==--
