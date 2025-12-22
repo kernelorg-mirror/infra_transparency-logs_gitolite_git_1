@@ -1,20 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Mon, 22 Dec 2025 19:40:32 -0000
-Message-Id: <176643243201.3385824.14476462555708087902@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Mon, 22 Dec 2025 19:41:22 -0000
+Message-Id: <176643248229.3386525.2401440310363770861@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/ci
 user: broonie
 changes:
-  - ref: refs/heads/for-next
-    old: 7061dca40a1d736a68a0198866bf68bb471f9df7
-    new: c56d4c6e9db5c8b928bcd338358e7257f96452a5
-    log: |
-         8db50f0fa43efe8799fd40b872dcdd39a90d7549 ASoC: rt1320: fix the warning the string may be truncated
-         c56d4c6e9db5c8b928bcd338358e7257f96452a5 Merge remote-tracking branch 'asoc/for-6.20' into asoc-next
-         
+  - ref: refs/heads/20251130_krzysztof_kozlowski_asoc_soc_qcom_constify_apr_gpr_callback_response_data
+    old: a2a631830deb382a3d27b6f52b2d654a3e6bb427
+    new: 0000000000000000000000000000000000000000
