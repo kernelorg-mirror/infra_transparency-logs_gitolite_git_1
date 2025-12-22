@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7879305035258635984=="
+Content-Type: multipart/mixed; boundary="===============4834646034098573657=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Mon, 22 Dec 2025 19:04:26 -0000
-Message-Id: <176643026630.3354694.11223970676731858125@gitolite.kernel.org>
+Date: Mon, 22 Dec 2025 19:04:46 -0000
+Message-Id: <176643028626.3355024.2807959035912550275@gitolite.kernel.org>
 
---===============7879305035258635984==
+--===============4834646034098573657==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,15 +16,34 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: 6c8d9b11a567e4bae15893f059c0fb201d9a3085
-    new: c517486f24f0f268de3e2a89fa22e79e3ee30609
-    log: revlist-6c8d9b11a567-c517486f24f0.txt
+    old: c517486f24f0f268de3e2a89fa22e79e3ee30609
+    new: e3b15264bcd5e9c3ed2f81012a3f10b9174f58cf
+    log: |
+         2c8d5f150b001be9f72d59291ebd350b44c244ca Merge branch into tip/master: 'core/urgent'
+         5e1e7741fcc69a881007a3b28956780bc6e0032b Merge branch into tip/master: 'irq/core'
+         b49db276b20c2085708add943b7c14b59654198a Merge branch into tip/master: 'irq/drivers'
+         56e23c8de334a843d74742ad5e3a948706304b26 Merge branch into tip/master: 'irq/msi'
+         e8f00ef8ec41e1c7c7f8b758bedc34fc19d1183d Merge branch into tip/master: 'locking/core'
+         c1764a713a03152373cdcb9327341cfba0ba2d76 Merge branch into tip/master: 'perf/core'
+         b08fb81524a42f3af0c91b7863f3f6733986cf6b Merge branch into tip/master: 'sched/core'
+         372c7b3751408681d3e33f2446ae3c72e1e94c6f Merge branch into tip/master: 'timers/core'
+         172fd25c3d133e24ca0b69f678dc6e55442b3e3d Merge branch into tip/master: 'x86/boot'
+         88af70b0e74137c0b8fea9d0b88ccc1276bb4a88 Merge branch into tip/master: 'x86/cpu'
+         e3b15264bcd5e9c3ed2f81012a3f10b9174f58cf Merge branch into tip/master: 'x86/irq'
+         
+  - ref: refs/heads/tip/urgent
+    old: dcc189b4150276ab15bfcc794eb7ee44af9889c9
+    new: 2c8d5f150b001be9f72d59291ebd350b44c244ca
+    log: revlist-dcc189b41502-2c8d5f150b00.txt
+  - ref: refs/tags/v6.19-rc2
+    old: 0000000000000000000000000000000000000000
+    new: 2408853dde584f01950a0f976b743739cce30eca
 
---===============7879305035258635984==
+--===============4834646034098573657==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-6c8d9b11a567-c517486f24f0.txt
+Content-Disposition: attachment; filename=revlist-dcc189b41502-2c8d5f150b00.txt
 
 e58c88f0cb2d8ed89de78f6f17409d29cfab6c5c Input: lkkbd - disable pending work before freeing device
 2aaf33c6e1e82561d7dce2345298a985a2483266 Input: atkbd - skip deactivate for HONOR FMB-P's internal keyboard
@@ -50,6 +69,6 @@ d579478cee228bdc0029a0c12a1f6a63ea9d1c77 Input: apple_z2 - fix reading incorrect
 1123cfe8cfe942e604a2693494b234dfba8b9fee Merge tag 'coccinelle-6.19' of git://git.kernel.org/pub/scm/linux/kernel/git/jlawall/linux
 9448598b22c50c8a5bb77a9103e2d49f134c9578 Linux 6.19-rc2
 b927546677c876e26eba308550207c2ddf812a43 Merge tag 'dma-mapping-6.19-2025-12-22' of git://git.kernel.org/pub/scm/linux/kernel/git/mszyprowski/linux
-c517486f24f0f268de3e2a89fa22e79e3ee30609 Merge branch 'linus'
+2c8d5f150b001be9f72d59291ebd350b44c244ca Merge branch into tip/master: 'core/urgent'
 
---===============7879305035258635984==--
+--===============4834646034098573657==--
