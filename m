@@ -1,56 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============7618744071830407959=="
+Content-Type: multipart/mixed; boundary="===============5335763817827548906=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
-Date: Mon, 22 Dec 2025 09:56:56 -0000
-Message-Id: <176639741639.2923505.695340711612965592@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux-dt
+Date: Mon, 22 Dec 2025 09:58:44 -0000
+Message-Id: <176639752458.2924209.2680525240540723777@gitolite.kernel.org>
 
---===============7618744071830407959==
+--===============5335763817827548906==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/soc/soc
+repo: pub/scm/linux/kernel/git/krzk/linux-dt
 user: krzk
 git_push_cert_status: Y
 changes:
-  - ref: refs/heads/arm/fixes
-    old: a3b80161fbd06b5dbc0af8f29f8ae58c4aebf0b2
-    new: c4c6db7ac54649c0cfe7d86b4a5358296dc8d08b
+  - ref: refs/heads/next/dt64
+    old: 1b06942cda6e83c055e4530fec8227f6e2aba13e
+    new: 30ae13173704585f2a3f406e94e0dbaa5cfde69a
     log: |
-         c4c6db7ac54649c0cfe7d86b4a5358296dc8d08b MAINTAINERS: Fix a linusw mail address
+         30ae13173704585f2a3f406e94e0dbaa5cfde69a arm64: dts: lg: Use recommended simple-bus node name
          
 
---===============7618744071830407959==
+--===============5335763817827548906==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher krzk@kernel.org 1766397414 +0100
-pushee kernel.org:/pub/scm/linux/kernel/git/soc/soc.git
-nonce 1766397414-1d9214c6663e86de6605d0d083419a36d1e3896d
+pusher krzk@kernel.org 1766397523 +0100
+pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux-dt.git
+nonce 1766397522-05b7369299497037a8fe33804457cd0aa4960a1b
 
-a3b80161fbd06b5dbc0af8f29f8ae58c4aebf0b2 c4c6db7ac54649c0cfe7d86b4a5358296dc8d08b refs/heads/arm/fixes
+1b06942cda6e83c055e4530fec8227f6e2aba13e 30ae13173704585f2a3f406e94e0dbaa5cfde69a refs/heads/next/dt64
 -----BEGIN PGP SIGNATURE-----
 
-iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmlJFeYQHGtyemtAa2Vy
-bmVsLm9yZwAKCRDBN2bmhouD11m2D/9G2L2wOZHuver0MtZsVQbIG8nMF7YH0LYF
-rQ6K7iEbWtNHEAvKpOoL1fX+Dr2Wo1f8XIo/NGsHW94ud49mlF53MVgkHdH8sLNh
-2/9cYB+hFrp9YZefm8GScV+j65IjGfiFkIXHRTcPjZ73OkUsGjXaC/ifpZV/kh0X
-T86iynCZiHEPI+YVQs+ME6HOxagFUiT0cMeu7ffOC15ly7m5HAzXAK8tqj3sIYgR
-LAhRoEBK9mwD5wq4aaGJitsLRTGz8s6PpArTA4Sijn1Icf39xvQDGZ+GyXMs3ptd
-GAvJWNF6mj2dkk+cPG7yoRDCsY02SHa4fNrr/KmIbOBkO249Rg7feN6Whvme0ai/
-qEB5/WcV35UFTgZxYG6cVHqngJQVGYL311NBgrOmKMHhK7cL+jZesYvcGjvHD0ck
-uvLgA4f8XxZAjq0VrZ8eqdpJxRrMeE1rOAxYM3RdcrBgeztkNkOwXCR57Rht/mLE
-GOceS2nEbyFbL2L3+4H+lMAm1AAcl1rn/UQtivnPN7iwJzuZ8ZEz+Lf/Gu3joNhB
-rjAexYy8g1/89p5Y9+KBCOlLuNSvNRrURLlTZuf3jh3bpsA/+cKZ3vjhYLB5kj+x
-JE4qSerBjYkuyshUJXubN5oTvg+NqF4BHIkel5408vxQ7OOa8N/z9hLAGOTt8ktC
-drEGhvggpA==
-=m808
+iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmlJFlMQHGtyemtAa2Vy
+bmVsLm9yZwAKCRDBN2bmhouD1+EpD/4iJJzYDcRQ8XaGqkQzY1fXsov4zU99taWz
+UE8f5pCemne57mZzhX8QhUJscgnpXjJBQAAVYCOjWLQ1SZccWOYrJqIZVMT8xEsq
+EjU1WiBvk/yiiLGdfYAqtjfcitqzGLmjWNLSInQfGJYXfeEicBr0LcPs6oyIduzN
+xoPTo08HWlLZzuSZwkDORgHR8c6WMYRG9tatpW2uem14r8zRfl2BAHkB96anZjs3
+5Ce9NJdWXKaxwQf6kTWuyJ3zhziepSRZpKW7v/qNtaNjqrTBG194StiKua8RUpjo
+eOR0975Hjj6mVi5TtJ5UsC8+CKURKshYNsWaOtNW0slU3h80axRt4+Vfd4g1nxdw
++bDUweWcWjLNxES66OGAv8s39NV6XwlCVwDkNh6GJTv+OjLB2E4DsqGIX1xxZTG5
+FQvJ93MiNoTMHxz2J+23fiR/wwqUh9KVRwucK7RwdCJcCQ0dv4hvslWZ/iQ6Cs5+
+6isgfeLJNxe1542orJtaQXhNsFFOtF/U2NBhajvFP/qajgf3iBw8mjWo8EAtudjR
+5pHmtDfTnZ8SVPK0Y/hJmnhuWJ/hDcsowkm7ttXXcENN25W9r1uWMti1kjyhC7WA
+x17KQ8DhhVTaFspbI7fZy9EtYNiOzkaHVN3Q0ytOdRGk62rwTIxvMtWMqURXKKUZ
+lA9QtezPlw==
+=H7I4
 -----END PGP SIGNATURE-----
 
---===============7618744071830407959==--
+--===============5335763817827548906==--
