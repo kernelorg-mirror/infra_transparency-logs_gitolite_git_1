@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5713362650872464186=="
+Content-Type: multipart/mixed; boundary="===============1766856475886865035=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Tue, 23 Dec 2025 15:14:51 -0000
-Message-Id: <176650289146.426306.16684210552108606411@gitolite.kernel.org>
+Date: Tue, 23 Dec 2025 15:14:52 -0000
+Message-Id: <176650289287.426465.1704106381953394906@gitolite.kernel.org>
 
---===============5713362650872464186==
+--===============1766856475886865035==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/mm-new
-    old: 287373d0b6ee3872d95edfd1921fb2f18535d6cd
-    new: 33b485bade996a9d0154cf0888b7a5c23723121e
-    log: revlist-287373d0b6ee-33b485bade99.txt
+  - ref: refs/heads/mm-unstable
+    old: 39e927792ead636f61a7b04824311b0f2e672f44
+    new: 83b78635102872deea09c35ec401eb777e74f805
+    log: revlist-39e927792ead-83b786351028.txt
 
---===============5713362650872464186==
+--===============1766856475886865035==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-287373d0b6ee-33b485bade99.txt
+Content-Disposition: attachment; filename=revlist-39e927792ead-83b786351028.txt
 
 537bdc1a96d33824260c4478f029eb7d9f66af78 MAINTAINERS: add Mike Rapoport as maintainer for userfaultfd
 cefb86ee7ea3e8ad7bd035d5dfe4068d30bcccec genalloc.h: fix htmldocs warning
@@ -187,24 +187,5 @@ bbfff5e851c024e70e414ca91264bdf13494fbd5 mm: clarify GFP_ATOMIC/GFP_NOWAIT doc-c
 f7a76b9fcaa5c3c2618fcb3029fcddf4efe5cc85 mm: cleanup vma_iter_bulk_alloc
 6cea87431527f20f4581bfe09dcd682499811347 mm, hugetlb: implement movable_gigantic_pages sysctl
 83b78635102872deea09c35ec401eb777e74f805 page_alloc: allow migration of smaller hugepages during contig_alloc
-16025f013b2286963494713b7b244446c3651344 lib: introduce hierarchical per-cpu counters
-9262067a0cbd8c951b46324361fd59c406e19c65 mm: fix OOM killer inaccuracy on large many-core systems
-bb5f6e2db5d5fecf8c49a77d534f0a704af4b7a6 mm: implement precise OOM killer task selection
-9e100f370a6a9d029e8878e3b89850cb0b95e3c9 mm: add missing static initializer for init_mm::mm_cid.lock
-85363ba499139a8fe337e8be4c8eaabb0a364811 mm: rename cpu_bitmap field to flexible_array
-e65e82d0d2bfd62abc5a2c223ab4d61c99c5c623 mm: take into account mm_cid size for mm_struct static definitions
-0748970c24d162713955391b0e3b2711d7476eb5 mm: take into account hierarchical percpu tree items for static mm_struct definitions
-093ca4e1a38a940a1b0d1d9c2d211f5c4391fce1 tsacct: skip all kernel threads
-8af6deed538f4021ff187ea251e40f62e77778bf selftests/mm/write_to_hugetlbfs: parse -s as size_t
-085a74d25e965df4090f664432494cd87113c299 selftests/mm/charge_reserved_hugetlb: drop mount size for hugetlbfs
-a0ab5dad10175e1919c97c8d0bb568ebaf82154f selftests/mm/charge_reserved_hugetlb.sh: add waits with timeout helper
-e8eadd6e9974eeeddc9883afeb5499f66cf2e6ff selftests/mm: fix va_high_addr_switch.sh return value
-8934827344a0497c28dbbdba2351d725ae73cc92 selftests/mm: allocate 6 hugepages in va_high_addr_switch.sh
-ad714cd15c0a86ff2a0d126c6302f0207d24d7d4 selftests/mm: remove arm64 nr_hugepages setup for va_high_addr_switch test
-cc3ba1ca015a4fedb2970c87ef4acca4f7306850 selftests/mm: va_high_addr_switch return fail when either test failed
-bb7641f368f8d81672a14007436c1e51ae721fe7 selftests/mm: fix comment for check_test_requirements
-9ae04db6c11074d16c7bfceff396fd5fb917b5dd mm: memory-tiers, numa_emu: enable to create memory tiers using fake numa nodes
-55072af67d40b4fe3f21f46b05fe7b6a23593033 mm: numa_emu: add document for NUMA emulation
-33b485bade996a9d0154cf0888b7a5c23723121e mm/vmscan: don't demote if there is not enough free memory in the lower memory tier
 
---===============5713362650872464186==--
+--===============1766856475886865035==--
