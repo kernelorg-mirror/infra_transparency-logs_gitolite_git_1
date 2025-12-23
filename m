@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3197145926684694325=="
+Content-Type: multipart/mixed; boundary="===============3161328733671466447=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/gregkh
-Date: Tue, 23 Dec 2025 10:32:30 -0000
-Message-Id: <176648595041.202570.12918742517911676384@gitolite.kernel.org>
+Date: Tue, 23 Dec 2025 10:37:33 -0000
+Message-Id: <176648625320.206719.1825373626515663950@gitolite.kernel.org>
 
---===============3197145926684694325==
+--===============3161328733671466447==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,47 +16,49 @@ repo: pub/scm/linux/kernel/git/gregkh/gregkh
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/rndis
-    old: 1764d8ffc53793e5792b7345f7d2246d31de46c3
-    new: 29d0de8c85b74b48fe1aa9d6477d9fc3da4ac1da
-    log: revlist-1764d8ffc537-29d0de8c85b7.txt
+  - ref: refs/heads/main
+    old: 7d0a66e4bb9081d75c82ec4957c50034cb0ea449
+    new: 9448598b22c50c8a5bb77a9103e2d49f134c9578
+    log: revlist-7d0a66e4bb90-9448598b22c5.txt
 
---===============3197145926684694325==
+--===============3161328733671466447==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1766485911 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1766486251 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/gregkh.git
-nonce 1766485906-8bf59b7dd37c40954fcbc35f50a79e85f1dc6922
+nonce 1766486249-aaacf556357785d3594f9da393c3216ba22b4766
 
-1764d8ffc53793e5792b7345f7d2246d31de46c3 29d0de8c85b74b48fe1aa9d6477d9fc3da4ac1da refs/heads/rndis
+7d0a66e4bb9081d75c82ec4957c50034cb0ea449 9448598b22c50c8a5bb77a9103e2d49f134c9578 refs/heads/main
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmlKb5cbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+r6MP+QEUjdpIn0o96DEltYM1
-RJeomPcLle//o0F8Iyq+BLKkR5gT1tDnYWcXnN3dvsA/Rci56SkYsklvNVHm/6TD
-LFRmJgIgX5fiaXEOWo8OX94BBma937fW+l7/rNQ/kLMl5tASMYo35H0U8CFPRgLL
-TUQ86WQHsIK/0kvLNhkxAmyacqz5pCbMAMudaPowhyfXzqOk6TGBLWtE8cdbJK7o
-bv0xTbNyUB3VUjppVK3du21E6DvVJP0vAy+CErqnaujJbq3NPWroppf7n9ytIpzL
-4fxFnWpaL/kCzQJ6Mi5QWS9S2mA1ZpsYiMqt16QIRLFeZhyg4PYgcREtK16m3sjI
-UqH6mVdWV5BxGWHGU+4dl6f5gDnvBnwMTMWmB8274ahkvgh1fRc6Jw8dmxzC9MQo
-om3W2dy1YnFVDX2kAA4KtMcv+H/6D0juiDqfOjPfcThrBzz45y4VLryvAgPlLfHD
-NUd4Hfyt2X2Keefz13vy55J826kvBbrQR3yLLajeApmHobG2YXwepPUagvSgW+xJ
-FPp7TNfYqMSO2DSZcne6RZ2r9zyRvdjtUqxJFY3pee4qGfHPedAo7wuYtk36Q/WO
-BUT/TfML+Lqmhtrgq94FIpHt61c8QZqBpzPVECSIm8CHpQoslr5UVWr1ylAbz+10
-L6V2UAYKmyfXNN7P+nl919vt
-=EM3s
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmlKcOsbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+d+0P/3WM6DKHz026dw+YEGQM
+om/ru7RzXJLfh1N301mSj7NiTHTO71a0gI/7AhD9SepvbP2XQGrbJtEwRBqwaA5i
+8BkBxfzmA+T4dQFcj8raMLYPmAu4V9W/K6Ri6hLW3DOB5Tj7FoW7KFyV62UKLtrO
+uypvCnHIxXSKtLctbnWzCtcvKVOK3R43Ro8WODV8zj0dr0cNp9AFOoeSvKnNsPdM
+ArrYoPt7qcwPW2lTESXddO8+Wmmc2usFfRTryDS72xOZTjExKL4xu7SRZp7Mv/ja
+aFMUF+APnJ5jyvBZK3LId0jvC7Y1aTjvCi/DQoNFDJo3ZUMMwI533KuPp8wxgVwZ
+nyyXOl7DZoQdoSLdIPJEtBa/5aqV+44zmg/NSgTBKKMfnzGbZFdu4mJF3bIEAkol
+zzfz6irMDYWr7SnKgXiU4amdTfl+PMfiS9hEnrwElpHCIngZJJas1VHI2prYANlF
+MM6E1H8X/hX4SbArhYAWu6ZQejJSzLfiwZPUc/CXx+9k9MuIC0jBRncQT4+DCo0T
+qGGnWu3k5PXTFhbaTO9nwYAEKv4ebLe+JC14VuV41tRi78JaVKEa5q/h/9OjpVyW
+n4J9lhZStePp00w7ui+EAkQAyUFWdrKqs8QKOMq4/GAomTTyrqatZMJXl4HhZFbj
+3a0fUWLHwc0ll2jOQZllPImH
+=hizr
 -----END PGP SIGNATURE-----
 
---===============3197145926684694325==
+--===============3161328733671466447==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1764d8ffc537-29d0de8c85b7.txt
+Content-Disposition: attachment; filename=revlist-7d0a66e4bb90-9448598b22c5.txt
 
+e28f834f57131be2cfd60a1c9c580f0a71995dc9 perf auxtrace: Include sys/types.h for pid_t
+c4fe074b61556536d515ccf2737fb1c185f55ee4 perf arm_spe: Add CPU variants supporting common data source packet
 c914d68371b0defc7dbc06a404eb0ef03180014b perf vendor events intel: Update alderlake events from 1.34 to 1.35
 99eb7146cd6d04bb4bf1b1193cd17e8c04761ed9 perf vendor events intel: Update arrowlake events from 1.13 to 1.14
 5a341ccbdda901b5b492101bc98e443540f5598d perf vendor events intel: Update cascadelakex metric units
@@ -1079,7 +1081,5 @@ f67e8a5e3ead61692d24a68e30496bd2634f5b68 Merge tag 'xfs-fixes-6.19-rc2' of git:/
 10a0e846d806b779a059b6ee35df729b96cc3ad1 Merge tag 'input-for-v6.19-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/dtor/input
 1123cfe8cfe942e604a2693494b234dfba8b9fee Merge tag 'coccinelle-6.19' of git://git.kernel.org/pub/scm/linux/kernel/git/jlawall/linux
 9448598b22c50c8a5bb77a9103e2d49f134c9578 Linux 6.19-rc2
-f3d5143891422f5254940e7dd83e779aeea37240 USB: disable all RNDIS protocol drivers
-29d0de8c85b74b48fe1aa9d6477d9fc3da4ac1da USB: potential rndis host fix
 
---===============3197145926684694325==--
+--===============3161328733671466447==--
