@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
-Date: Tue, 23 Dec 2025 10:20:11 -0000
-Message-Id: <176648521189.193312.11669910107180117129@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/linus-next
+Date: Tue, 23 Dec 2025 10:28:59 -0000
+Message-Id: <176648573986.198352.3353673320922383754@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/xiang/erofs-utils
-user: xiang
+repo: pub/scm/linux/kernel/git/sashal/linus-next
+user: sashal
 changes:
-  - ref: refs/heads/experimental
-    old: 726731461bb8c07bbf8f05db677c2121f35b6b2d
-    new: 83ea4e03107057aea661b168d8671ce5a967a2e4
+  - ref: refs/heads/linus-next
+    old: a659afe63550e099f47f229c771128da71518159
+    new: 280593440b2c7626e0126461996f305b58cdc3bd
     log: |
-         83ea4e03107057aea661b168d8671ce5a967a2e4 erofs-utils: mount: add option `-d` to set debug level
+         f14794cdf91f2440292809d556972e3d38396802 objtool: fix build failure due to missing libopcodes check
+         280593440b2c7626e0126461996f305b58cdc3bd fuse: fix iomap_folio_state uptodate mismatch
          
