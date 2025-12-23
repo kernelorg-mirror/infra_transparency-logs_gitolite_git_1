@@ -1,23 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Tue, 23 Dec 2025 19:35:47 -0000
-Message-Id: <176651854700.642875.6475139467280028639@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/linus-next
+Date: Tue, 23 Dec 2025 20:09:18 -0000
+Message-Id: <176652055832.666550.2237608925133055822@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: ast
+repo: pub/scm/linux/kernel/git/sashal/linus-next
+user: sashal
 changes:
-  - ref: refs/heads/for-next
-    old: ac1c5bc7c4c7e20e2070e6eaa673fc3e11619dbb
-    new: f14cdb1367b947d373215e36cfe9c69768dbafc9
+  - ref: refs/heads/linus-next
+    old: 0871ef146a87ba02e3ea04376e69dff16a034cfe
+    new: 7f3cd21632e48ba39bb686da6da46de644005e29
     log: |
-         c336b0b327120052c331f6839ee60069065a7c74 bpf: arena: populate vm_area without allocating memory
-         360c35f8ffae0f184805d9eb7d126474345bac9b bpf: arena: use kmalloc_nolock() in place of kvcalloc()
-         b8467290edab4bafae352bf3f317055669a1a458 bpf: arena: make arena kfuncs any context safe
-         efecc9e825f4aa3fe616236152604a066a3e776d selftests: bpf: test non-sleepable arena allocations
-         f14cdb1367b947d373215e36cfe9c69768dbafc9 Merge branch 'remove-kf_sleepable-from-arena-kfuncs'
+         7f3cd21632e48ba39bb686da6da46de644005e29 iomap: fix race between iomap_set_range_uptodate and folio_end_read
          
