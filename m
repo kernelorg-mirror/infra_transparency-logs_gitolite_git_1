@@ -1,23 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
-Date: Tue, 23 Dec 2025 19:29:54 -0000
-Message-Id: <176651819441.636057.507874506092754592@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Tue, 23 Dec 2025 19:35:39 -0000
+Message-Id: <176651853963.642537.4329325186429199129@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/25-new
-user: akpm
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: ast
 changes:
   - ref: refs/heads/master
-    old: feef818c6ed712faca1a4cb1c49f33ea2472eea2
-    new: 9521559d5633553db3a1de18ca56220e153fd9af
+    old: ac1c5bc7c4c7e20e2070e6eaa673fc3e11619dbb
+    new: f14cdb1367b947d373215e36cfe9c69768dbafc9
     log: |
-         2db882d97bd8c5cac76c6e99384938cb8384c138 foo
-         9103efc3ef3be910d6a3a1a80738fe2b73c05861 foo
-         40daa73bb077543506b7266b2c02a7090b96f5ff foo
-         ed6bd597f4662d98464135682b1438a93c427a09 foo
-         9521559d5633553db3a1de18ca56220e153fd9af foo
+         c336b0b327120052c331f6839ee60069065a7c74 bpf: arena: populate vm_area without allocating memory
+         360c35f8ffae0f184805d9eb7d126474345bac9b bpf: arena: use kmalloc_nolock() in place of kvcalloc()
+         b8467290edab4bafae352bf3f317055669a1a458 bpf: arena: make arena kfuncs any context safe
+         efecc9e825f4aa3fe616236152604a066a3e776d selftests: bpf: test non-sleepable arena allocations
+         f14cdb1367b947d373215e36cfe9c69768dbafc9 Merge branch 'remove-kf_sleepable-from-arena-kfuncs'
          
