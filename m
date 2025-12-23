@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
-Date: Tue, 23 Dec 2025 10:18:19 -0000
-Message-Id: <176648509996.190465.15113573866442978377@gitolite.kernel.org>
+Date: Tue, 23 Dec 2025 10:20:11 -0000
+Message-Id: <176648521189.193312.11669910107180117129@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/xiang/erofs-utils
 user: xiang
 changes:
   - ref: refs/heads/experimental
-    old: 1eb5e4db6acbbc4c8e570830da79cac0110b18b2
-    new: 726731461bb8c07bbf8f05db677c2121f35b6b2d
+    old: 726731461bb8c07bbf8f05db677c2121f35b6b2d
+    new: 83ea4e03107057aea661b168d8671ce5a967a2e4
     log: |
-         726731461bb8c07bbf8f05db677c2121f35b6b2d erofs-utils: mkfs: forget all dirty buffers on failure
+         83ea4e03107057aea661b168d8671ce5a967a2e4 erofs-utils: mount: add option `-d` to set debug level
          
