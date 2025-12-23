@@ -1,31 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Tue, 23 Dec 2025 17:06:49 -0000
-Message-Id: <176650960931.521523.4961366349980968934@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/firmware/linux-firmware
+Date: Tue, 23 Dec 2025 17:10:09 -0000
+Message-Id: <176650980969.524619.6700522620232159288@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
-user: broonie
+repo: pub/scm/linux/kernel/git/firmware/linux-firmware
+user: jwboyer
 changes:
-  - ref: refs/heads/for-linus
-    old: c81f30bde5b0449d9d82d31a66f0ffd608e610b5
-    new: b005d618c8547b7dfb14e83a1b410a6a04ac36c6
+  - ref: refs/heads/main
+    old: 881c549a82203abd9a88870ba27f3e8ce754b2c4
+    new: 0dc06ea15ec46e287d21a29fc64567df3653b47c
     log: |
-         d67396c9d697041b385d70ff2fd59cb07ae167e8 spi: cadence-quadspi: Prevent lost complete() call during indirect read
-         5bfbbf0a49ee4b5dcf46a3bfd4cd860d72cc887d spi: cadence-quadspi: Improve CQSPI_SLOW_SRAM quirk if flash is slow
-         b005d618c8547b7dfb14e83a1b410a6a04ac36c6 spi: cadence-quadspi: Prevent indirect read
-         
-  - ref: refs/heads/for-next
-    old: 9c80131ae3312f1c5209e80e4d10565a5f7deea5
-    new: 167a75dbc73d41199d0782e629adc1ff2acacdef
-    log: |
-         0f698d742f628d02ab2a222f8cf5f793443865d0 spi: bcm63xx-hsspi: add support for 1-2-2 read ops
-         d67396c9d697041b385d70ff2fd59cb07ae167e8 spi: cadence-quadspi: Prevent lost complete() call during indirect read
-         5bfbbf0a49ee4b5dcf46a3bfd4cd860d72cc887d spi: cadence-quadspi: Improve CQSPI_SLOW_SRAM quirk if flash is slow
-         b005d618c8547b7dfb14e83a1b410a6a04ac36c6 spi: cadence-quadspi: Prevent indirect read
-         167a75dbc73d41199d0782e629adc1ff2acacdef Merge remote-tracking branch 'spi/for-6.20' into spi-next
+         19b55776b5b5102afd4f9b99f62492315b52fcd8 qcom: venus-5.4: fix ELF segment alignment to 4 bytes
+         e2ee45f08c5fb4ce18e073f39322d16fbafed835 Merge branch 'robot/pr-0-1766482565' into 'main'
+         993573ac3dc6ab038505c2639701db22f6142487 amdgpu: DMCUB updates for various ASICs
+         0dc06ea15ec46e287d21a29fc64567df3653b47c Merge branch 'amd-staging' into 'main'
          
