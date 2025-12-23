@@ -1,59 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============3996568878609106366=="
+Content-Type: multipart/mixed; boundary="===============5884282364131674354=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/security/vulns
-Date: Tue, 23 Dec 2025 16:41:41 -0000
-Message-Id: <176650810121.500335.5111269063749727449@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Tue, 23 Dec 2025 16:53:25 -0000
+Message-Id: <176650880561.508412.8552262931123249062@gitolite.kernel.org>
 
---===============3996568878609106366==
+--===============5884282364131674354==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/security/vulns
+repo: pub/scm/linux/kernel/git/stable/stable-queue
 user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/master
-    old: 6294c20cabb2dd1b67d7edc26889c0e7800d7dd5
-    new: de572e5b78ed56de587c18dee941090728284f4d
+    old: c71b7399225f5b06b741a04afd03d41ae59933f7
+    new: d7314c5f1ddf8dfe7b9a3a5f74eec711b830fa04
     log: |
-         d017e5adb4bd7d81a619c732a7666056190480dc dyad: detect and correctly pair fixes done via reverting backported commits
-         2da5d8865aade631cdcbd0da68841dd68c24c3a5 verhaal: separate policy decisions from SQL logic in found_in
-         2ace3fbb29bd5ce4c27e83349a7729bf207a53e9 dyad: exclude revert-fixed vulnerabilities from general pairing
-         de572e5b78ed56de587c18dee941090728284f4d update records due to fixes in dyad for reverted stable commits
+         d7314c5f1ddf8dfe7b9a3a5f74eec711b830fa04 5.10-stable patches
          
 
---===============3996568878609106366==
+--===============5884282364131674354==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1766508097 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
-nonce 1766508097-f87e6beea019865b4676388b2025b57dab7c4f34
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1766508803 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1766508802-155119bf957dc144a0588afdd226ab41b8dc2d15
 
-6294c20cabb2dd1b67d7edc26889c0e7800d7dd5 de572e5b78ed56de587c18dee941090728284f4d refs/heads/master
+c71b7399225f5b06b741a04afd03d41ae59933f7 d7314c5f1ddf8dfe7b9a3a5f74eec711b830fa04 refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmlKxkEbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+5G4P/0ABasktpJDMImmgy6C8
-VA/CXiM4wYu5sIypBnB3Civ/AC+LG7dlLdg595y7vNUoWiKnxEorU37UD95qCUqp
-HBh7yWqSk2bdI5NxCMPt9pp3sBLiabtm8XNIHlSkcAaTYPuhfhIAFr0LndUUPa1B
-hVqMIhWKgSevad172EVKbP6Z7ilNZFraDWcMYsv7WUJIaPOfOt+Q2FVZGjAPpSIv
-ltachcgBOaOePjRR5WSdy72mzVDq81JNYb95xqNDwSgpQX0oTvY2BlmrghJywKXX
-Qkul7Yn4QyGljgzL88lq83R0mfAx2KJjeiH0MzBE+2Pse7b3ijF3zIrXM1y2+vaV
-rwkJmfXtJ6nDbRJ9krpRlQsUSlXf52Ae+aDIA0WlIH73WVy5hyziaG9N6y1Nw7Bi
-Zgs/dHpdbbspmkNra22xFsf4UAVTJbD8Kr0Y/Xn6qg1ELPX6L7NK+jT/kVUJj6yt
-50OpfAWmHSSDZReQMKVTln7wT4pgFB6L8vNhgEC+tDn/Iqk9Tt/l80QOyswQxh1Y
-b2/ADj7FS+fLRUI8mHOoLzIikUfx1XLMFtupHqaYsX4e3DihALcaDSOjs6QG/IMX
-I+B5vYT+loWRGIYDAuuL+xwWGYdLlWuJRVgTIwI/qTayoDmMm3k+o3qq45Q0JUfT
-tofYC7y5KlDyXcjm/q1gJYwl
-=GmT9
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmlKyQMbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+2l4P/jpD0+C+gqR55cTlX/rS
+5kd2K9x/8I+Nm2821imtC9QAU8h6WILt0vweFR2UmOApWyprSRvWB5oJkC9GpSPf
+jGEo5JbGhSz6cjKs02bg8g8VdaH2KzTIS6i379oxDvgDE45r60J5/7Jk9wfgmwFG
+wahGNI3Xfc1QB0HIsLpCW5NUxSLBHsUgW95Oc+AvtlT7+Njme1cvr3frSSgyzGsZ
++DGYBvBDSp/MKP8Tm+dDBN26Sk5wgNfpCiXzszfGzf0iLSJ8zHeL7xzeRGCyeqVy
+Or2xQNbrmfQixJrlP+j/ggda23rbsO5g4yGx6Nqv5MnE2BbF9GQrjsPJN5gEh540
+BAt5hol/F/qlhdQubqwAMz2PnuV8sIsvTr9qijhZ4v7OjrtbDY6zT9+nmwf2JuuF
+xQ+IJ8lpB0J3RV/1woAXzmnrUYSuHVV7DhvaP8cMCpwM02a5/2aU7a/5W8uIrWLF
+iHrX561O/EqxorHKBym7nHLZpA2+p7zaPJR2BD1W8OmX4+9fW9XIVElCIe0US0/j
+33OAKVGTFFb47y80UVidt3M5x5tM0Dd4LrJgSNP09droEi88gG1v7HHeBq5PrzaH
+XfHmp0vWMD7DkVXDuT31Fn5WmFjI2SunNNvgsQx29WsNn8At2jCbzrBSq0mlLykA
+TkmPCXME82w6DfXwghkZwBEF
+=qwyX
 -----END PGP SIGNATURE-----
 
---===============3996568878609106366==--
+--===============5884282364131674354==--
