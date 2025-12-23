@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Tue, 23 Dec 2025 08:22:06 -0000
-Message-Id: <176647812648.100470.12533402650199283811@gitolite.kernel.org>
+Date: Tue, 23 Dec 2025 08:31:42 -0000
+Message-Id: <176647870268.107923.12791137622982934997@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/netdev/net
 user: pabeni
 changes:
   - ref: refs/heads/main
-    old: 350719c3833cddcebb58e549e4398cc59989c5c4
-    new: 35ddf66c65eff93fff91406756ba273600bf61a3
+    old: 35ddf66c65eff93fff91406756ba273600bf61a3
+    new: 5e7365b5a1ac8f517a7a84442289d7de242deb76
     log: |
-         35ddf66c65eff93fff91406756ba273600bf61a3 erspan: Initialize options_len before referencing options.
+         5e7365b5a1ac8f517a7a84442289d7de242deb76 net: airoha: Move net_devs registration in a dedicated routine
          
