@@ -1,20 +1,27 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/linus-next
-Date: Tue, 23 Dec 2025 10:28:59 -0000
-Message-Id: <176648573986.198352.3353673320922383754@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/geert/renesas-drivers
+Date: Tue, 23 Dec 2025 10:31:44 -0000
+Message-Id: <176648590465.202126.1208698288279109915@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/linus-next
-user: sashal
+repo: pub/scm/linux/kernel/git/geert/renesas-drivers
+user: geert
 changes:
-  - ref: refs/heads/linus-next
-    old: a659afe63550e099f47f229c771128da71518159
-    new: 280593440b2c7626e0126461996f305b58cdc3bd
+  - ref: refs/heads/renesas-clk
+    old: d8921e42a1983024227c0e64253ea96b25a1ae9a
+    new: 2efea3b35cc916f04f06b89f2e2557dbd9c48109
     log: |
-         f14794cdf91f2440292809d556972e3d38396802 objtool: fix build failure due to missing libopcodes check
-         280593440b2c7626e0126461996f305b58cdc3bd fuse: fix iomap_folio_state uptodate mismatch
+         1f76689d171512e1fd99999faa76040e48420b7b clk: renesas: r9a09g056: Add entries for RSCIs
+         2efea3b35cc916f04f06b89f2e2557dbd9c48109 clk: renesas: r9a09g057: Add entries for RSCIs
+         
+  - ref: refs/heads/renesas-clk-for-v6.20
+    old: d8921e42a1983024227c0e64253ea96b25a1ae9a
+    new: 2efea3b35cc916f04f06b89f2e2557dbd9c48109
+    log: |
+         1f76689d171512e1fd99999faa76040e48420b7b clk: renesas: r9a09g056: Add entries for RSCIs
+         2efea3b35cc916f04f06b89f2e2557dbd9c48109 clk: renesas: r9a09g057: Add entries for RSCIs
          
