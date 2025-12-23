@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3161328733671466447=="
+Content-Type: multipart/mixed; boundary="===============4680271641342813960=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/gregkh
-Date: Tue, 23 Dec 2025 10:37:33 -0000
-Message-Id: <176648625320.206719.1825373626515663950@gitolite.kernel.org>
+Date: Tue, 23 Dec 2025 10:46:49 -0000
+Message-Id: <176648680994.214143.2699645613918542963@gitolite.kernel.org>
 
---===============3161328733671466447==
+--===============4680271641342813960==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,51 +16,47 @@ repo: pub/scm/linux/kernel/git/gregkh/gregkh
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: 7d0a66e4bb9081d75c82ec4957c50034cb0ea449
-    new: 9448598b22c50c8a5bb77a9103e2d49f134c9578
-    log: revlist-7d0a66e4bb90-9448598b22c5.txt
+  - ref: refs/heads/readfile
+    old: faa50652554282920494cd1a78fee50f2d746ea1
+    new: c4b23af6cfd4adffdaa6aed4daeef8f379351a8b
+    log: revlist-faa506525542-c4b23af6cfd4.txt
 
---===============3161328733671466447==
+--===============4680271641342813960==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1766486251 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1766486771 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/gregkh.git
-nonce 1766486249-aaacf556357785d3594f9da393c3216ba22b4766
+nonce 1766486764-4fe9cd3fe9327a66162930fcbb103d9adbb31ca8
 
-7d0a66e4bb9081d75c82ec4957c50034cb0ea449 9448598b22c50c8a5bb77a9103e2d49f134c9578 refs/heads/main
+faa50652554282920494cd1a78fee50f2d746ea1 c4b23af6cfd4adffdaa6aed4daeef8f379351a8b refs/heads/readfile
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmlKcOsbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+d+0P/3WM6DKHz026dw+YEGQM
-om/ru7RzXJLfh1N301mSj7NiTHTO71a0gI/7AhD9SepvbP2XQGrbJtEwRBqwaA5i
-8BkBxfzmA+T4dQFcj8raMLYPmAu4V9W/K6Ri6hLW3DOB5Tj7FoW7KFyV62UKLtrO
-uypvCnHIxXSKtLctbnWzCtcvKVOK3R43Ro8WODV8zj0dr0cNp9AFOoeSvKnNsPdM
-ArrYoPt7qcwPW2lTESXddO8+Wmmc2usFfRTryDS72xOZTjExKL4xu7SRZp7Mv/ja
-aFMUF+APnJ5jyvBZK3LId0jvC7Y1aTjvCi/DQoNFDJo3ZUMMwI533KuPp8wxgVwZ
-nyyXOl7DZoQdoSLdIPJEtBa/5aqV+44zmg/NSgTBKKMfnzGbZFdu4mJF3bIEAkol
-zzfz6irMDYWr7SnKgXiU4amdTfl+PMfiS9hEnrwElpHCIngZJJas1VHI2prYANlF
-MM6E1H8X/hX4SbArhYAWu6ZQejJSzLfiwZPUc/CXx+9k9MuIC0jBRncQT4+DCo0T
-qGGnWu3k5PXTFhbaTO9nwYAEKv4ebLe+JC14VuV41tRi78JaVKEa5q/h/9OjpVyW
-n4J9lhZStePp00w7ui+EAkQAyUFWdrKqs8QKOMq4/GAomTTyrqatZMJXl4HhZFbj
-3a0fUWLHwc0ll2jOQZllPImH
-=hizr
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmlKcvMbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+f5wP/2T/Od4NX6DkNxsT5mq/
+sim23tTPMQmHcqvv9gATlHrQr+f4L5t54KJ09c/+BPdYYCPhZx8WRseg9N9o2sXa
+WSSGpOKLx8UpCj2J1serH1W9NGYwP+kLZZ8E+nAMLeyqYWgZ61m+vBAwyAop5NN3
+Li9huLozKvlaQeCuroYGOvr8e8z+cQHFRNdSbai/HF2cgFqcxhObgDXugQbs/kwp
+iY7qk4R+14Rv9kvFu2xDvqsaQOhfqCt8BtuEhe15Mzz3YZB7TdULbCxMFho0QwQE
+Aa7U4uIEU23Bjp8qQ0uxG+yO6Lkj9JeIDjH6Jrpr1/xIryMjr0kDAEQICTj9Cn6K
+oTUgs2hZsO6ycypbWpnQrybQ7vo/3sMYi2jcOqy+Qe7tuaB9yKKpBsX9XfBwfOO3
+35fALYfvzofMd5agyx6QNhgkBbo6ZLcBwzPBICV2ZZBGuuUiUhh807bcChtAajqz
+1TkLeLHAykoZ/i4kQf9mE4W2qtKFuH+p3wCMAeT0VkGXQx48DNeGw8Csq6/FztmP
+kp2HPF7OG0QuvXkWoROyTMfYl0eVPwN9VlTJVYI3eClXjDh4CeBTg0sU0Pe/TgGt
+RGtwXbncf8PBB1ms4P4MnO/OB/vbkIjG9KxMqHrG3eWvrbn2GxCWtXygYQCxoPLD
+lFVxbH61Fpuh0/zwFVGFEZgu
+=YFz5
 -----END PGP SIGNATURE-----
 
---===============3161328733671466447==
+--===============4680271641342813960==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7d0a66e4bb90-9448598b22c5.txt
+Content-Disposition: attachment; filename=revlist-faa506525542-c4b23af6cfd4.txt
 
-e28f834f57131be2cfd60a1c9c580f0a71995dc9 perf auxtrace: Include sys/types.h for pid_t
-c4fe074b61556536d515ccf2737fb1c185f55ee4 perf arm_spe: Add CPU variants supporting common data source packet
-c914d68371b0defc7dbc06a404eb0ef03180014b perf vendor events intel: Update alderlake events from 1.34 to 1.35
-99eb7146cd6d04bb4bf1b1193cd17e8c04761ed9 perf vendor events intel: Update arrowlake events from 1.13 to 1.14
 5a341ccbdda901b5b492101bc98e443540f5598d perf vendor events intel: Update cascadelakex metric units
 1d341e543f1cdbca4fbf00f55f005e937762f7a3 perf vendor events intel: Update graniterapids events from 1.15 to 1.16
 cf99cdf53e30101c0e6dfef845e06c22a866f573 perf vendor events intel: Update icelakex events from 1.28 to 1.30
@@ -1081,5 +1077,9 @@ f67e8a5e3ead61692d24a68e30496bd2634f5b68 Merge tag 'xfs-fixes-6.19-rc2' of git:/
 10a0e846d806b779a059b6ee35df729b96cc3ad1 Merge tag 'input-for-v6.19-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/dtor/input
 1123cfe8cfe942e604a2693494b234dfba8b9fee Merge tag 'coccinelle-6.19' of git://git.kernel.org/pub/scm/linux/kernel/git/jlawall/linux
 9448598b22c50c8a5bb77a9103e2d49f134c9578 Linux 6.19-rc2
+46792847a461be04d8a77ff1d39661040bcdb25a readfile: implement readfile syscall
+52d8bd39c893e79486392986bb143b10c26397f0 arch: wire up the readfile syscall
+c452ec422186c440b615fbf1ee3f9e7046191ca1 selftests: add readfile(2) selftests
+c4b23af6cfd4adffdaa6aed4daeef8f379351a8b readfile.2: new page describing readfile(2)
 
---===============3161328733671466447==--
+--===============4680271641342813960==--
