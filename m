@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7054395816177328779=="
+Content-Type: multipart/mixed; boundary="===============5957238648616990985=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Tue, 23 Dec 2025 14:31:24 -0000
-Message-Id: <176650028495.394004.7321949474625825732@gitolite.kernel.org>
+Date: Tue, 23 Dec 2025 14:32:21 -0000
+Message-Id: <176650034106.394481.12928585452407337317@gitolite.kernel.org>
 
---===============7054395816177328779==
+--===============5957238648616990985==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,40 +17,41 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/usb-testing
-    old: dd1fbe324a548e8057d5f3c72ce1a64a80f1753e
-    new: e715bc42e337b6f54ada7262e1bbc0b7860525c2
+    old: e715bc42e337b6f54ada7262e1bbc0b7860525c2
+    new: 8995a37371bf489ede768271aac56e4e6a55bcb2
     log: |
-         e715bc42e337b6f54ada7262e1bbc0b7860525c2 usb: gadget: Constify struct configfs_item_operations and configfs_group_operations
+         32bc790a8e495c5c22755644c3e26a7aee03f91f dt-bindings: usb: dwc3: Add Google Tensor G5 DWC3
+         8995a37371bf489ede768271aac56e4e6a55bcb2 usb: dwc3: Add Google Tensor SoC DWC3 glue driver
          
 
---===============7054395816177328779==
+--===============5957238648616990985==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1766500279 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1766500336 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1766500277-7c4557164de37134b4d19444cf4475555e1127ab
+nonce 1766500335-05fc86262348c3a67be7ed2ce799ba81f8714974
 
-dd1fbe324a548e8057d5f3c72ce1a64a80f1753e e715bc42e337b6f54ada7262e1bbc0b7860525c2 refs/heads/usb-testing
+e715bc42e337b6f54ada7262e1bbc0b7860525c2 8995a37371bf489ede768271aac56e4e6a55bcb2 refs/heads/usb-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmlKp7cbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+8OIP/i0DBgm4+Lew1iYoLVU5
-Kce1WBPg+bd/FPAhuHF3hrPdVGKpOZtqLs2eC1fTpUSYm2CqFV0aYVgoc2EKKT69
-d8zkd+QfRn0/4ta7aBenm/22nAliq/Ww4X3F6SAx6wMNIWel8YuZhFEFEKmRBPRu
-DrvZB08IKoJ6qmdnh6mgf/wot80V7La0PwCR+1/ocXQKHtZSxVpQ0RqElg/cCOxP
-Cm8YnaNuscFuVq+Q+whiGBLxU8eFyjjDdWyMUFe87l+2yRXUEW9YhuZEs+Emf5ew
-VW8GYR7ErCLMJRIn+JAKKaIq8JiukEBUhE4RQAvNDdzWOebXRJ0TEBs+ob7tIyCL
-R1Uo2oFhRmzZv06Vmfn4RNXMapXX6H1AgL0q0s1x+4QXVbETcWVoKxNiFleKzxWD
-9Dem+89I4fLqhDfZ1ttfapJvPAvcYDBZqGajZTFct4EoYauHTpwLDXkdcVOV3678
-AIldnTUestSC1ntL3tbiMnRr7LaW78LfSxsVWRPd2fGxVkR/bifHOmyYesjR2wlr
-eAHEyX78lx+vqEcnwN6ArfXV3GGHfcRvJ/EpTp3BmlcUugWERWCUFy/6utPM4Xw/
-g6vUcPevWBys4Zk6IlseH5wTJFebh+oYAFNHMjyc7j8alaXAqzYRBKSGrQ9GltfU
-dR73V4dKonUf0KyM9JT1KWQ9
-=Yay2
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmlKp/AbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+F6MP/RGyYJ0Zvm8vqDAUpSrA
+ewwEvl3UgTlIZ2xWdngJggZsiHfRJ2TsMA91qzhccmkmX8LgiebQzpuzAYQUZo77
+XtHxEVRFmxpD4+mKmEcO6/KS22o3L2eHGhMM1WKgKYmgvv2yBr2oITpZtmPnv6lH
+sCRpk2r6MWc5+lqoh9uf8s/jt//hOGlXFqNH8p31LMSPKMcrTBL2QDk4hZWabYRi
+ox7ktmIvljM14incfSSuFqtCwWI9uz2EocjQgLiiytL5QvIu45zLXm5yS4uCd4Dh
+cW3ltcr1AY97muCevWJ0U0ZMCtiqP2f1/+DD5gV9azNQd5p4uaCB3iPU3z8lTvYm
+JdAF4H+9Ibz79I6VLBkz2Zjnb65SLXNxQ6TXVO8w8H67zJqaIcux3MW4mYfeE3pz
+4nBnSs6a8qF4exCcux5gS2mYREAYwV/I4iVotALhz688WHtwWGrfyJcZIqNwzvZV
+5adT8x5BuNP9ZgI1zbSJROVWrId9ic8TxQjhXtjKODWkr/X7B/2jUsJ816aHn1bR
+GSGKCQaU3rW7dPpxqwS2zzNLs8KaLETpX9EHSthpRi1Fo+YtUibfAmSLO/JPCo/9
+ynX83n5pVMpA9QnzWaG6NiX8ckeW5agOrUd9Ht/xTkXLvG9p4Rjtcy2ArPS7Ug+3
+BCCP/OlAxwMyz4XmqraH6HN7
+=hccX
 -----END PGP SIGNATURE-----
 
---===============7054395816177328779==--
+--===============5957238648616990985==--
