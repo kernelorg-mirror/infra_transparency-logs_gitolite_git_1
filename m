@@ -1,62 +1,57 @@
-Content-Type: multipart/mixed; boundary="===============2911354277208015057=="
+Content-Type: multipart/mixed; boundary="===============1558840165742045124=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Tue, 23 Dec 2025 15:00:03 -0000
-Message-Id: <176650200304.414887.9568020078253738966@gitolite.kernel.org>
+Subject: post-receive: pub/scm/git/git
+Date: Tue, 23 Dec 2025 15:03:40 -0000
+Message-Id: <176650222019.417869.6344676814530508344@gitolite.kernel.org>
 
---===============2911354277208015057==
+--===============1558840165742045124==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/usb
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/git/git
+user: junio
 changes:
-  - ref: refs/heads/usb-linus
-    old: 8ff242c04157244020888fa234a6b145415d5a65
-    new: 22201800f198ad33c225e5ce2f0f254df828d01b
+  - ref: refs/heads/seen
+    old: 9eab42fee27fee138dce27bb487d575e592deca7
+    new: 3d4493b238486685fcbe2b5d6ab5a334fb2733af
+    log: revlist-9eab42fee27f-3d4493b23848.txt
+  - ref: refs/notes/amlog
+    old: 780d19df0faeb657737f69ede8a3b1f521dad239
+    new: 05febddabbceeea90a6ba986e4aff32b6e955e19
     log: |
-         0dc580d4a6518b539cbb2877dd9b283df14aac6f Revert "usb: typec: ucsi: Get connector status after enable notifications"
-         df3e3169303f7084db3990c999701934af0c04c0 Revert "usb: typec: ucsi: Fix null pointer dereference in ucsi_sync_control_common"
-         784b756dde9151b2f44da313f390f25139f1a64e Revert "usb: typec: ucsi: Add support for SET_PDOS command"
-         174e7d0f47e5231437bc305277fec7bf4896a8f9 Revert "usb: typec: ucsi: Enable debugfs for message_out data structure"
-         2e46b4e024ff61d4533b4f07bb3702ec7466479e Revert "usb: typec: ucsi: Add support for message out data structure"
-         e7a9f6600166efb889453c524eb644cb798acd22 Revert "usb: typec: ucsi: Update UCSI structure to have message in and message out fields"
-         22201800f198ad33c225e5ce2f0f254df828d01b Merge patch series "usb: typec: ucsi: revert broken buffer management"
+         eb343271fb12e5d0920b3b6dbf6c9e029ce98617 Notes added by 'git notes add'
+         e36aba9d7f0886a216db6da0b60683c0f895cf4c Notes added by 'git notes add'
+         928153001ab2cfafa264032b833d228d66cb1646 Notes added by 'git notes add'
+         69255c4a1d44905bf0d145634535d6d6b01b2774 Notes added by 'git notes add'
+         cb91c8a4ac77379bad7355e5aa65dac4018a5171 Notes added by 'git notes add'
+         2f5a6d0f7f2e71e5266f8de3a3438e3b89a7f307 Notes added by 'git notes add'
+         aa7124a241491c7c35960886222f9c8405420b9d Notes added by 'git notes add'
+         279117a9652357fac21e804afc106e52b47b800c Notes added by 'git notes add'
+         05febddabbceeea90a6ba986e4aff32b6e955e19 Notes added by 'git notes add'
          
 
---===============2911354277208015057==
+--===============1558840165742045124==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-9eab42fee27f-3d4493b23848.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1766501999 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1766501998-f5e88527db4e1e00ba9d582bfe9d6734d0fd54b4
+81dae58f91642f9dec338810f448082c9f911443 promisor-remote: refactor initialising field lists
+09b0cefcd83e94403bf33aa660bd3b51372e4f8d promisor-remote: allow a client to store fields
+50cedfdf94ae50205c1a9d782ca6d63f1ec4cba0 clone: make filter_options local to cmd_clone()
+6ac467fdbd5519ef94b0615cda2e84cb013c669b fetch: make filter_options local to cmd_fetch()
+0d76d0c60024c66c7ce0736ad479861aff55a8f6 doc: fetch: document `--filter=<filter-spec>` option
+13bf8f5bcbf43cc010297574ad11f24e7814f98e list-objects-filter-options: support 'auto' mode for --filter
+c8c941181aaacd2d3b40a092e7c5e8d01919a86d list-objects-filter-options: implement auto filter resolution
+d92ba46d5aaf86dc2a6591b47993c72fb46c0ee8 promisor-remote: keep advertised filter in memory
+c01bcb5d0044607ccbbe9eafc100a2522e8afa03 fetch-pack: wire up and enable auto filter logic
+ffd6ad8c04a18ba5f4ebd530836d864622ed5a6c Merge branch 'ps/packfile-store-in-odb-source' into seen
+ecbcaca1afd96c235f5ca619832892ce30b4dbfe Merge branch 'cc/lop-filter-auto' into seen
+97c24950af6e7a1d055469711be02445fc9b1de6 ### CI
+3d4493b238486685fcbe2b5d6ab5a334fb2733af Merge branch 'bc/sha1-256-interop-02' into seen
 
-8ff242c04157244020888fa234a6b145415d5a65 22201800f198ad33c225e5ce2f0f254df828d01b refs/heads/usb-linus
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmlKrm8bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+z7YQAKG++chj8VL34OzobiwZ
-uO53q07mLqUvgAr0JjFIkfOmlJ61Sukl8cDrvOH6ewAijwTAuZGvRczK+KAFWe1r
-vu/HvsDhztbMGe8m45+JVZmZlBDOfiO4RpA4aTE/BdnND1JeTQwXtDA3wR9JdQew
-bq3AvKCAkRGuU7d1Rpgnm9wzTEUsboyxnd5K4d5SX1jTcKHnVDEhF67MBc/nx//9
-LC+soTia/1SBmUGUxHal8v8JhMKnjiY1j+bc2Cifrh5QTSuX9RvA/WPTL4gReOVc
-S3la7UR55q8ENf3au6JvzR2Lf/V4T5EEmJUKBC7QJpoWjVj1hFzz/cB/qpwjMT1m
-MVLqoohrWegHXlp25BbFmqyeAZPj+qanuCmyx0WggRI1n43O66NO1/yiAs18i88c
-1s4T13sbayL4DBXinv5vt+rMLCH0TIr2x4N3s3tANFQdLk8GS3na+xV0cC1x9i/6
-Ffjiq5WnOn3Khfy9HafxUjYF7MBkVwfxYkeLQ6zv+kOvDp/mYn7vTMbtFkJwCDtG
-BI1i3G39m0YZrybZx7V+K7p77WGLMOO0bRmXtDWC5M3RPpwoFrD/04Hefq9ZZct+
-O0fQx/nDnqOEJNeWuRgJeX+GdPckUgx5HOk10FWqeJ5XiBN/aSzxsDBbZB9Csvd+
-PTxZAPeuPqpyPUOfkNQ3ukCp
-=5eU4
------END PGP SIGNATURE-----
-
---===============2911354277208015057==--
+--===============1558840165742045124==--
