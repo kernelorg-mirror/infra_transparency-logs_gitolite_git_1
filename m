@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Tue, 23 Dec 2025 09:36:40 -0000
-Message-Id: <176648260004.158614.10776050208551567950@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
+Date: Tue, 23 Dec 2025 09:36:43 -0000
+Message-Id: <176648260326.158751.13873169269986375871@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: pabeni
+repo: pub/scm/linux/kernel/git/tiwai/sound
+user: tiwai
 changes:
-  - ref: refs/heads/main
-    old: a9f96dc59b4a50ffbf86158f315e115969172d48
-    new: df60c332caf95d70f967aeace826e7e2f0847361
-    log: |
-         df60c332caf95d70f967aeace826e7e2f0847361 amd-xgbe: reset retries and mode on RX adapt failures
-         
+  - ref: refs/tags/sound-6.19-rc3
+    old: 0000000000000000000000000000000000000000
+    new: 82604279a8179f9dde7933aa1df1bf7cb26f7094
