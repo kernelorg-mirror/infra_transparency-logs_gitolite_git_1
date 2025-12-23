@@ -1,21 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vdubeyko/nilfs2
-Date: Mon, 22 Dec 2025 23:46:14 -0000
-Message-Id: <176644717440.3575203.5305813440787156152@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/geliang/mptcp_net-next
+Date: Tue, 23 Dec 2025 06:08:39 -0000
+Message-Id: <176647011973.7264.2368550686171267580@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vdubeyko/nilfs2
-user: vdubeyko
+repo: pub/scm/linux/kernel/git/geliang/mptcp_net-next
+user: geliang
 changes:
-  - ref: refs/heads/for-next
-    old: 8f0b4cce4481fb22653697cced8d0d04027cb1e8
-    new: 6fd8a09f48d6fee184207f4e15e939898a3947f9
-    log: |
-         ed527ef0c264e4bed6c7b2a158ddf516b17f5f66 nilfs2: Fix potential block overflow that cause system hang
-         cb8fe62f87ad21f4c174aec480694c9b4b8b01c4 nilfs2: convert nilfs_super_block to kernel-doc
-         6fd8a09f48d6fee184207f4e15e939898a3947f9 nilfs2: fix missing struct keywords in nilfs2_api.h kernel-doc
-         
+  - ref: refs/heads/bpf_pm_mini_export
+    old: 0000000000000000000000000000000000000000
+    new: 58e87af533979f32b7c770997ac25bbe73c0b31e
