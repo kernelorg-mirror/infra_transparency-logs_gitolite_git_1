@@ -1,56 +1,52 @@
-Content-Type: multipart/mixed; boundary="===============6930599375411956244=="
+Content-Type: multipart/mixed; boundary="===============1777030957981503904=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Tue, 23 Dec 2025 16:59:25 -0000
-Message-Id: <176650916525.513577.17769377302850909169@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Tue, 23 Dec 2025 17:05:48 -0000
+Message-Id: <176650954891.520489.8294713532197604988@gitolite.kernel.org>
 
---===============6930599375411956244==
+--===============1777030957981503904==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
+repo: pub/scm/linux/kernel/git/broonie/spi
+user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/master
-    old: de4cb4869de60ef36a8831b774f5e7c02bcf3ace
-    new: 676e9dad8847bf19ea8f227d9b18d20dddd4d765
+  - ref: refs/heads/for-6.19
+    old: c81f30bde5b0449d9d82d31a66f0ffd608e610b5
+    new: b005d618c8547b7dfb14e83a1b410a6a04ac36c6
     log: |
-         676e9dad8847bf19ea8f227d9b18d20dddd4d765 drop some input patches that broke the build
+         d67396c9d697041b385d70ff2fd59cb07ae167e8 spi: cadence-quadspi: Prevent lost complete() call during indirect read
+         5bfbbf0a49ee4b5dcf46a3bfd4cd860d72cc887d spi: cadence-quadspi: Improve CQSPI_SLOW_SRAM quirk if flash is slow
+         b005d618c8547b7dfb14e83a1b410a6a04ac36c6 spi: cadence-quadspi: Prevent indirect read
          
 
---===============6930599375411956244==
+--===============1777030957981503904==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1766509164 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1766509160-42c833e5287bf843b107cd0983611dbfb7a76f1f
+pusher C3F436CA30F5D8EB 1766509546 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
+nonce 1766509547-acc47701f194e18751c5f954353bb09935f89586
 
-de4cb4869de60ef36a8831b774f5e7c02bcf3ace 676e9dad8847bf19ea8f227d9b18d20dddd4d765 refs/heads/master
+c81f30bde5b0449d9d82d31a66f0ffd608e610b5 b005d618c8547b7dfb14e83a1b410a6a04ac36c6 refs/heads/for-6.19
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmlKymwbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+PC8P/3UCqGJjIA2P4va6qgRj
-dPfn42opN/sVVpid5CTRWxSHqZNxZ7OGuA82v1wf+nv++PcP43e2e8Iz1wMgu5EO
-wHU/SsSpHYwivh2KsmV4y8tU75yRsds7c2U1HGOi6hQZmGXoqEcYrcYXOBUvLisI
-dxSPJbHdYA89xbrLGR/VqQbmGIyJhh1hOkzhMG+kh1RIcrBr0ojOICC+8Hc97MxY
-7eO7RtWzh7VIgnbgdipZMUEY3s2v8lWDhnikmze2dlgYFIaDFkZdmaRqiZeZs2k3
-vjl/EgXVe+yjnXzD5BndTGl0vYl5Y3iFwziKi8D+xn7tRlauwGaHzjlndknmtY6x
-sui2ome1nADTV4v+oRlD+cxqRneeElngb3BsUaWJpB0ia/VXrot3N9mtL8U779Wi
-JKLxKYtKR3FwuACYcMoe20qxErHqFotxqqS9ZkWlYUnNZGnKYgIH1XhCZrsL1mvp
-l5hLrtN+6TKuuJpnza+0WWFWxMW/6kxhFfFctexZY0tAgFZbGXtUx9Ix0rjDPZOe
-HhnuPwSGEw0uCby5+3EvrK5wOE77Guq7O+v6jzSGg3VeE2wa+JXeSwMEg+qybXNF
-U03TqBq7rssVD445p+2rYSx0U0cCxRZP4TqgLf8pllRiP8Ngjr23ZeyK5wgYPk8E
-8Tgi7pTGaqfRujJTFIDCK3Uw
-=pcKM
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmlKy+oACgkQJNaLcl1U
+h9D8vgf/Tc9pRR3+BM6pGn+vChIu0Rt59LOn0E8QBgf/bCBcErg2Y5l863QJ7nTY
+7LDGe6nefwrJ+CwVAWuGbDSDIk7RFU8s2n7wZbxAOwzr4/UXNwnL1Uokba7Zv2di
+c2dQ2taTFEzt5gGGbY2poKXhJCPWn/eEpx0QlZejS3TdBXPfv/aG3+LT1Mpu9USE
+CjocPVmlG6frhjPnx3bFdKqj5BVyPgXfVaiJFq6/Gleh+COoEglrRSGL9cRXorA4
+NWdS3TMc2bRVBOISfKXk190bQaUu2E92IUy6fSiU8gNCWcRdqvxne2YEQTVKrr25
+oAOJoU1e2FYgdBZT2AlmlqZ3YqpMsQ==
+=iIdU
 -----END PGP SIGNATURE-----
 
---===============6930599375411956244==--
+--===============1777030957981503904==--
