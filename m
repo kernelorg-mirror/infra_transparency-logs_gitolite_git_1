@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3664616354435283752=="
+Content-Type: multipart/mixed; boundary="===============9082734762601431120=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
-Date: Tue, 23 Dec 2025 18:50:48 -0000
-Message-Id: <176651584848.606188.617183743455094071@gitolite.kernel.org>
+Date: Tue, 23 Dec 2025 18:51:43 -0000
+Message-Id: <176651590378.606732.11219891994864399692@gitolite.kernel.org>
 
---===============3664616354435283752==
+--===============9082734762601431120==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,19 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/pci/pci
 user: helgaas
 changes:
-  - ref: refs/heads/resource
-    old: 3747d114a217930dc29dea355c74b588355355f7
-    new: b161cd61254c77275f33130d4dd60e28144a1a96
-    log: revlist-3747d114a217-b161cd61254c.txt
+  - ref: refs/heads/trace
+    old: d1a2d5beb4d7fba6886df7f4a008707d4f85a71c
+    new: f9f5c66ca471fbdce1d180e9686e2cfc45309c17
+    log: revlist-d1a2d5beb4d7-f9f5c66ca471.txt
 
---===============3664616354435283752==
+--===============9082734762601431120==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3747d114a217-b161cd61254c.txt
+Content-Disposition: attachment; filename=revlist-d1a2d5beb4d7-f9f5c66ca471.txt
 
-ac52b4a98509de3760919fa33e03384a5e770d7a MAINTAINERS: Change Linus Walleij mail address
-51860d6330b6cda355a7e30b3e09e7a22ec4b6ae tools/power x86_energy_perf_policy: Fix potential NULL pointer dereference
 19476a592bf255b9eb0308999a9ccf96b314d314 tools/power turbostat: Validate RAPL MSRs for AWS Nitro Hypervisor
 68769a0b5ada367d6911a8dfe50fc1e480c89fd1 tools/power turbostat: Enhance perf probe
 951845d51d1dd27ecd28a3743af3a8b22bc930ac tools/power turbostat: Validate APERF access for VMWARE
@@ -1049,6 +1047,8 @@ f67e8a5e3ead61692d24a68e30496bd2634f5b68 Merge tag 'xfs-fixes-6.19-rc2' of git:/
 10a0e846d806b779a059b6ee35df729b96cc3ad1 Merge tag 'input-for-v6.19-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/dtor/input
 1123cfe8cfe942e604a2693494b234dfba8b9fee Merge tag 'coccinelle-6.19' of git://git.kernel.org/pub/scm/linux/kernel/git/jlawall/linux
 9448598b22c50c8a5bb77a9103e2d49f134c9578 Linux 6.19-rc2
-b161cd61254c77275f33130d4dd60e28144a1a96 PCI: Use resource_set_range() that correctly sets ->end
+c86e84b82a2f168d0bf5146fd2ded75a90062fd8 PCI: trace: Add generic RAS tracepoint for hotplug event
+a9a993ffda6cf509a5867aca796fcdc421deec9d PCI: trace: Add RAS tracepoint to monitor link speed changes
+f9f5c66ca471fbdce1d180e9686e2cfc45309c17 Documentation: tracing: Add PCI tracepoint documentation
 
---===============3664616354435283752==--
+--===============9082734762601431120==--
