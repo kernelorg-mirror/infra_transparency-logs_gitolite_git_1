@@ -1,46 +1,21 @@
-Content-Type: multipart/mixed; boundary="===============2628650610576197232=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-Date: Tue, 23 Dec 2025 11:56:18 -0000
-Message-Id: <176649097850.272329.13469030729227470216@gitolite.kernel.org>
-
---===============2628650610576197232==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Tue, 23 Dec 2025 11:57:39 -0000
+Message-Id: <176649105953.272888.4658922078155437219@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-user: ij
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/netdev/net
+user: pabeni
 changes:
-  - ref: refs/heads/review-ilpo-fixes
-    old: 20e20b147cf7cb6780a5b95da2a0e37c52cd1015
-    new: c254b82a2d731c667ab7d22b8c2a2723b858383b
+  - ref: refs/heads/main
+    old: b94f11af9d9201426f4d6c8a753493fd58d6ac16
+    new: 2a2618c050e70d1155cb0ec53197257dc3a56690
     log: |
-         c254b82a2d731c667ab7d22b8c2a2723b858383b platform/x86/intel/pmt: Fix kobject memory leak on init failure
+         348240e5fa901d3d4ba8dffa0e2ba9fc7aba93ab Bluetooth: MGMT: report BIS capability flags in supported settings
+         252714f1e8bdd542025b16321c790458014d6880 Bluetooth: btusb: revert use of devm_kzalloc in btusb
+         2a2618c050e70d1155cb0ec53197257dc3a56690 Merge tag 'for-net-2025-12-19' of git://git.kernel.org/pub/scm/linux/kernel/git/bluetooth/bluetooth
          
-
---===============2628650610576197232==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1766490976 +0200
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86.git
-nonce 1766490975-e685e352c077ca71df7e49d3fe237910a42fd19d
-
-20e20b147cf7cb6780a5b95da2a0e37c52cd1015 c254b82a2d731c667ab7d22b8c2a2723b858383b refs/heads/review-ilpo-fixes
------BEGIN PGP SIGNATURE-----
-
-iHUEABYIAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCaUqDYQAKCRBZrE9hU+XO
-MdCRAPwIRDFZpyn3Ilh+LfoLRKFMNPy6w3xE0fn1ZcMVuKiKQgD/fHE1XexPfqu9
-GNK6n4sPJTFJxcf9nO0INxRbQxwuIQs=
-=aca4
------END PGP SIGNATURE-----
-
---===============2628650610576197232==--
