@@ -1,49 +1,29 @@
-Content-Type: multipart/mixed; boundary="===============7432323320593178365=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/phy/linux-phy
-Date: Wed, 24 Dec 2025 07:33:01 -0000
-Message-Id: <176656158136.1185301.6314952855599717561@gitolite.kernel.org>
-
---===============7432323320593178365==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/ardb/linux
+Date: Wed, 24 Dec 2025 08:54:21 -0000
+Message-Id: <176656646142.1244456.9310111393204354143@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/phy/linux-phy
-user: vkoul
+repo: pub/scm/linux/kernel/git/ardb/linux
+user: ardb
 changes:
-  - ref: refs/heads/fixes
-    old: 7d8f725b79e35fa47e42c88716aad8711e1168d8
-    new: b246caa68037aa495390a60d080acaeb84f45fff
+  - ref: refs/heads/x86-pie-v3
+    old: 5ed57ce1a7de9e649ede6b45207ee2f3bdf4cd2f
+    new: 16f858473d90ca1f50cd701fcaa7a3a7d58c44f7
     log: |
-         b246caa68037aa495390a60d080acaeb84f45fff phy: tegra: xusb: Explicitly configure HS_DISCON_LEVEL to 0x7
+         7ab00e870d46ca1ce4ddfbc68a9e36149f22ecf0 x86/sync_core: Use RIP-relative addressing
+         3ccf99e9d16352f712cabc04374f4a2f9f985e6a x86/entry_64: Use RIP-relative addressing
+         5b1ca229cdaf3a5d7a7b4886a4a8266df364335a x86/hibernate: Prefer RIP-relative accesses
+         85b6777b5cac1825c6c5f66b7b953febcdcf69d3 x64/acpi: Use PIC-compatible references in wakeup_64.S
+         35714390ffa9e544a9df7921989b45e1e941bf5f tools/objtool: Mark generated sections as writable
+         61c53772f883129d87807455b1ed5ffd7f630c36 tools/objtool: Treat indirect ftrace calls as direct calls
+         d3c997d4abd3db95edbbf81a6b81fb285b2bd7e6 x86/head64: Avoid absolute references in startup asm
+         e221c5317b9e0d43b65232136ffb7e3cdc98bff5 x86: Use PIE codegen for the core kernel
+         6e121417cd9ead822250a15be35fd0f61d5e3991 x86/boot: Implement support for ELF RELA/RELR relocations
+         f2d15d8d209d3e8305e9e552e2fb02f9a6e2ba7a x86/kernel: Switch to PIE linking for the core kernel
+         16f858473d90ca1f50cd701fcaa7a3a7d58c44f7 x86/tools: Drop x86_64 support from 'relocs' tool
          
-  - ref: refs/heads/next
-    old: 23c3373af05a3ec268acb02ffe962ac6882c673a
-    new: 27287e3b52b5954b73203d32ee76ffd5f53f5074
-    log: revlist-23c3373af05a-27287e3b52b5.txt
-
---===============7432323320593178365==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-23c3373af05a-27287e3b52b5.txt
-
-14fd381b632881a8e33108614e71ec253048629b dt-bindings: phy: samsung,ufs-phy: add power-domains
-652a5a9c3f5333fe9f0c43bfd562494464bbc74e dt-bindings: phy: samsung,usb3-drd-phy: add power-domains
-a590c0f935349b9f3ae72d9fdec002689915519d dt-bindings: phy: qcom,snps-eusb2-repeater: Add squelch param update
-5c87da0308f9395700fd3072fcc45b43234366fb phy: qualcomm: phy-qcom-eusb2-repeater: Add squelch detect param update
-efc389fa00d1b93df8f95974c4f8c11da63671da phy: freescale: phy-fsl-samsung-hdmi: convert from round_rate() to determine_rate()
-ebed08490d667141085ed873309aec5806dbb3a9 phy: mediatek: phy-mtk-hdmi-mt2701: convert from round_rate() to determine_rate()
-be4267241c196745e1f649afb7d232fe4440073a phy: mediatek: phy-mtk-hdmi-mt8173: convert from round_rate() to determine_rate()
-7a4ce5a9b674654ab04961a9ea03d15d71edb2a9 phy: mediatek: phy-mtk-hdmi-mt8195: convert from round_rate() to determine_rate()
-8e6bb53203d5c0a0cbc4f5cd90d8b2c6f20818ba phy: mediatek: phy-mtk-mipi-dsi-mt8173: convert from round_rate() to determine_rate()
-0484168a352f0f75a82d9917df4b23f5466726b7 phy: mediatek: phy-mtk-mipi-dsi-mt8183: convert from round_rate() to determine_rate()
-2f7870297ae073b0fd6e1f875a9b84c5de0dea00 phy: rockchip: phy-rockchip-inno-hdmi: convert from round_rate() to determine_rate()
-3d4ffdfcf108e73b7c5bf07e0358d0fe8fac28d4 phy: rockchip: phy-rockchip-samsung-hdptx: convert from round_rate() to determine_rate()
-27287e3b52b5954b73203d32ee76ffd5f53f5074 phy: ti: phy-j721e-wiz: convert from round_rate() to determine_rate()
-
---===============7432323320593178365==--
