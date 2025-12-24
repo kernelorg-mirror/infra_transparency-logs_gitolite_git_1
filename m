@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6143647707597550276=="
+Content-Type: multipart/mixed; boundary="===============0058027960793616609=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Wed, 24 Dec 2025 00:46:47 -0000
-Message-Id: <176653720795.874636.2266595158779060803@gitolite.kernel.org>
+Date: Wed, 24 Dec 2025 00:46:49 -0000
+Message-Id: <176653720935.874768.5420173725523613045@gitolite.kernel.org>
 
---===============6143647707597550276==
+--===============0058027960793616609==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/mm-new
-    old: 33b485bade996a9d0154cf0888b7a5c23723121e
-    new: cd119c65a615bd7bfe8cda715a77132c8e3da067
-    log: revlist-33b485bade99-cd119c65a615.txt
+  - ref: refs/heads/mm-unstable
+    old: 83b78635102872deea09c35ec401eb777e74f805
+    new: 2b763b6835ff232973e91cd8054e3799af4b9b1e
+    log: revlist-83b786351028-2b763b6835ff.txt
 
---===============6143647707597550276==
+--===============0058027960793616609==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-33b485bade99-cd119c65a615.txt
+Content-Disposition: attachment; filename=revlist-83b786351028-2b763b6835ff.txt
 
 1b9439c933b500cb24710bbd81fe56e9b0025b6f KVM: selftests: Add missing "break" in rseq_test's param parsing
 e2b43fb25243d502ad36b07bab9de09f4b76fff9 KVM: x86: Apply runtime updates to current CPUID during KVM_SET_CPUID{,2}
@@ -527,31 +527,5 @@ b69600381f2164b832eb583f57b2ceef2f0f13a3 mm, page_alloc, thp: prevent reclaim fo
 827a70cb8129a388e1262c6bcacb2e4ec950132f mm: cleanup vma_iter_bulk_alloc
 6d2ea7b4e85e0f7e019394e719e378bc6c37be36 mm, hugetlb: implement movable_gigantic_pages sysctl
 2b763b6835ff232973e91cd8054e3799af4b9b1e page_alloc: allow migration of smaller hugepages during contig_alloc
-8e1cf0c600757bd3d97647f2edead2449a29ecf0 lib: introduce hierarchical per-cpu counters
-ba8282157f74746ccbc13e2c4ecc1d695eb46960 mm: fix OOM killer inaccuracy on large many-core systems
-1c638c378ea18a35de5d81b6ed54b8e10b8849eb mm: implement precise OOM killer task selection
-036041274fd61c004a0611b6c45512d25fc7f516 mm: add missing static initializer for init_mm::mm_cid.lock
-3e5553e777cdbe567ed2682dba1b550d06c5fd04 mm: rename cpu_bitmap field to flexible_array
-74ccbdab8e6464396576c71430fae43125f869f7 mm: take into account mm_cid size for mm_struct static definitions
-c5ce460584e803cf9bb47b40e0bd9f264ba9393b mm: take into account hierarchical percpu tree items for static mm_struct definitions
-7a12832827049530f1274bfb88cef925cb8f0fb3 tsacct: skip all kernel threads
-fc0822e17e9d29d914108bcce9b29fb7525be739 selftests/mm/write_to_hugetlbfs: parse -s as size_t
-fccd6d76d18d87de3bee4b71d934743144a52374 selftests/mm/charge_reserved_hugetlb: drop mount size for hugetlbfs
-2ca993a27462abf9748551f81f298542176ae57c selftests/mm/charge_reserved_hugetlb.sh: add waits with timeout helper
-44ae920e6d57dd5f375de8950c1486597833be10 selftests/mm: fix va_high_addr_switch.sh return value
-cee47f7dc27111be309d7b691dfdd9175ea3566b selftests/mm: allocate 6 hugepages in va_high_addr_switch.sh
-fb369f347fbc87bf4b729c0004a937b1de86ec39 selftests/mm: remove arm64 nr_hugepages setup for va_high_addr_switch test
-4de94f8ecf4277f2105ce14512171b76cc894f62 selftests/mm: va_high_addr_switch return fail when either test failed
-789d7d6fdb4e08568127de27f5d941511915ca04 selftests/mm: fix comment for check_test_requirements
-77f6a1ef5b944b7bb032499a66c69a437bdf340a mm: memory-tiers, numa_emu: enable to create memory tiers using fake numa nodes
-f61377dfd545099a75b068841db31a0f11193374 mm: numa_emu: add document for NUMA emulation
-19b88c8f2030a9cb5dc7657b6aec709bd8606284 mm/vmscan: don't demote if there is not enough free memory in the lower memory tier
-b1abeb0bd7062971d065beaf2709e0ec6617c8a8 kho: simplify page initialization in kho_restore_page()
-96875b0a792830ac093b14bef4fa72a9bf400dea mm/mempolicy: fix mpol_rebind_nodemask() for MPOL_F_NUMA_BALANCING
-67401f5974af83240d3651e6309aaec5bcde2de3 mm: rmap: support batched checks of the references for large folios
-12d537ad81098ac74a8746b3d786c0cdfbe18c19 arm64: mm: factor out the address and ptep alignment into a new helper
-90036944fce9a8fe16eaaffd86e3188f3a73de77 arm64: mm: support batch clearing of the young flag for large folios
-578ad4e953db94c4d49d1364a2003b66d34fcf3f arm64: mm: implement the architecture-specific clear_flush_young_ptes()
-cd119c65a615bd7bfe8cda715a77132c8e3da067 mm: rmap: support batched unmapping for file large folios
 
---===============6143647707597550276==--
+--===============0058027960793616609==--
