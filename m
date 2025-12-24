@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6382211976733216876=="
+Content-Type: multipart/mixed; boundary="===============2596026901222345355=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/security/vulns
-Date: Wed, 24 Dec 2025 13:04:37 -0000
-Message-Id: <176658147714.1435007.5017929525990985914@gitolite.kernel.org>
+Date: Wed, 24 Dec 2025 13:15:06 -0000
+Message-Id: <176658210660.1445095.16558341509611033919@gitolite.kernel.org>
 
---===============6382211976733216876==
+--===============2596026901222345355==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,41 +17,43 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/master
-    old: fd58109d37c31b9eb3c4a1e49dd77202ee0847a0
-    new: 208f79cbcc28461aed98f821ed3d96938f1f04df
+    old: 208f79cbcc28461aed98f821ed3d96938f1f04df
+    new: c7b5d2eb582b2f247ad4c4ac437c230415d9304e
     log: |
-         96687ff32dfc54ab8181ae7cf66b050e15184d11 assign a 2023 cve id from gsd reviews
-         208f79cbcc28461aed98f821ed3d96938f1f04df allocate a bunch of 2022 and 2023 cve ids from cve.org
+         e2d5987dd85f13ac075986b2aa9bdb44be544b6b assign cve ids to the gsd 19 and 20 reviews
+         f135a7aae1c685fc74f5889e29a6ee5faeec55b9 mark gsd review 19 and 20 as completed
+         87aadb5c3e496c5af2535d0249bc9df3331430c4 strip all new mbox files
+         c7b5d2eb582b2f247ad4c4ac437c230415d9304e update cvelistV5
          
 
---===============6382211976733216876==
+--===============2596026901222345355==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1766581476 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1766582101 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
-nonce 1766581476-f07911dae74c441890e00b0f1d03165aa6dc7243
+nonce 1766582101-9b9a327e668bb2692ea9551718cb5c11a65a1af7
 
-fd58109d37c31b9eb3c4a1e49dd77202ee0847a0 208f79cbcc28461aed98f821ed3d96938f1f04df refs/heads/master
+208f79cbcc28461aed98f821ed3d96938f1f04df c7b5d2eb582b2f247ad4c4ac437c230415d9304e refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmlL5OQbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+8zAQAJLXWCOohFT+KZIg9K1m
-7J0ccSNbRv2sH51JlCVXsISCCLfJ4UcH6sv6nbAf/VzwFwp/z7hEBxH87O/xCebP
-bHsVsW3ttJ8YfHtQameygJeaG6FAn9Aq4LXZ9qGSTiFnE7NnEZeWFuZAszg2jAJr
-MCDoOksM6ujgK9S/1Qum7NkB4gnSbyimDqI0KO3V7zfejm0WbflmEOCWMkX4Bzjn
-ISlvuP65qgKrnezgaNaw8/aest4qwsky/YQCP1eGqFMKpy1Zd5qvqCEtSKC+0mPT
-Ljv6SUWuWDkhRhTVE39jnmX6ULZhCwyTZ+6CcWt1a0FcJ8tpwfd+6gRhVqkOTr3j
-fiMAiFxlUeIAM4hshx0XKuk/UYBvAeL/q6CDjOPMIhSaYq263Qnqt80/0kwHlAyr
-5Dx8qJBUL6Jc/6VwBXmvp7f/sXtyit+j+gjBMpr2y+GwebwRzmuQcqqtqJIgXWZQ
-jz9A3IxgiqbVTPsJoAywbETgzrC8IAcqNhuuUB0bV3poH2hzrPJoK1k0g+nXQClq
-EPzyFnhpAZjzYEau7iwRlW9g17SzTe4sVRTwNFNpoqpFxkzK1FOHgv6wZujkrTw3
-hMeD0tep6mOHB0XM3xBp9+hQPF+qIThJ6O8U/S6XTuERdPM6as59kx1HdRk6y1Ba
-uu+3VaNastYgeADBok+45iph
-=hPPw
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmlL51UbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+el0P/2l97rG9AnQPp8dypFEy
+jKIjZu9O/XoEZKzn9pbE7mMuZTE/6Of84RnxCIqMsF03C7ZDPnZi6BKjl2gmoD8T
+F3vg+TL3AVgXT+cH9yDa+BJgbYuBvKnqJy1+HFZb/i1M/kRJVBOW2lWc6OrLeJyb
+lQEZJfme/nEf4VOKLKwmnEbjCMscSo6Hee5UeytLwC9lAKh32z8Db83ymvrmCpCF
+NMTTfNWrL+4hYQmmaPrMO6JG8rGUTzJKkSMY0FkLQaIObFFLxSRhephmsY19Rnjo
+sZ6C1tCCuqQpXqUJcsGh5tlNKMGuqqiVF2XjwOTlViVty9goFC8tlHnu6IguPoea
+fTFMc5rhBtg5d0mRUszO2UwNvZyzXFBO8IwAJcSfrvI30f8HBDv87NJ+Iv+SnZLG
+ApMbrxM8JkqU5CsYzMCdaKCsf9cKp8qe9x6Rj/CuaDTkVjYFOVvIwIsVQXU5xYHz
+QuEtNBKefdw4Z/MR56/qVIppUV2DG9WjBOcXb3+zm8xuI/yLtmDwB/E/wXolSQqf
+Kt7GKq6voWV/erMdqUFwU2aTJ2/m0LIoGTTIno6P28HM1Q0H2XS90CP0MCNdqLF2
+X393SraoAmFBA+Hu69JOWHTURZdQTwuvov0Isl9a9wqjcP228U6ZveNNceeFL4AF
+OXMalxqPTOdgxI7Zy0ewEydE
+=kNQG
 -----END PGP SIGNATURE-----
 
---===============6382211976733216876==--
+--===============2596026901222345355==--
