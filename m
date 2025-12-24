@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/herbert/crypto-2.6
-Date: Wed, 24 Dec 2025 02:54:55 -0000
-Message-Id: <176654489588.976128.13498316050786108505@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
+Date: Wed, 24 Dec 2025 03:55:46 -0000
+Message-Id: <176654854693.1023417.511398501177414217@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/herbert/crypto-2.6
-user: herbert
+repo: pub/scm/linux/kernel/git/snitzer/linux
+user: snitzer
 changes:
-  - ref: refs/heads/master
-    old: 50fdb78b7c0bcc550910ef69c0984e751cac72fa
-    new: b74fd80d7fe578898a76344064d2678ce1efda61
-    log: |
-         b74fd80d7fe578898a76344064d2678ce1efda61 crypto: hisilicon/qm - fix incorrect judgment in qm_get_complete_eqe_num()
-         
+  - ref: refs/heads/kernel-6.18.2/baseline-fixes
+    old: 0000000000000000000000000000000000000000
+    new: f842887eedb872c2caa7d8beb0fde2a60613a0e6
