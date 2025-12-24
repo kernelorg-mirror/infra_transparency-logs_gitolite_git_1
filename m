@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Wed, 24 Dec 2025 14:43:32 -0000
-Message-Id: <176658741212.1509587.7261610729800925763@gitolite.kernel.org>
+Date: Wed, 24 Dec 2025 14:43:42 -0000
+Message-Id: <176658742277.1509839.2749878999134296268@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,10 +11,9 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/broonie/ci
 user: broonie
 changes:
-  - ref: refs/heads/asoc-6.20
-    old: 45e9066f3a487e9e26b842644364d045af054775
-    new: 284853affe73fe1ca9786bd52b934eb9d420a942
+  - ref: refs/heads/regulator-6.19
+    old: 9c6552cc209788b77b45ff6c4b3869131da1c47e
+    new: 60489936aced785ef9e5a865e23a296bd0b470b6
     log: |
-         836ecc740ca829040d86a5371f1fcb276110df84 ASoC: rt1320: fix 32-bit link failure
-         284853affe73fe1ca9786bd52b934eb9d420a942 ASoC: rt1320: fix size_t format string
+         60489936aced785ef9e5a865e23a296bd0b470b6 regulator: fp9931: fix regulator node pointer
          
