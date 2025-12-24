@@ -1,52 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============5383491807425470353=="
+Content-Type: multipart/mixed; boundary="===============7267984685006172687=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
-Date: Wed, 24 Dec 2025 11:48:00 -0000
-Message-Id: <176657688081.1375041.15092755622079527936@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/security/vulns
+Date: Wed, 24 Dec 2025 12:08:39 -0000
+Message-Id: <176657811909.1390352.1970585438691888371@gitolite.kernel.org>
 
---===============5383491807425470353==
+--===============7267984685006172687==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rafael/linux-pm
-user: rafael
+repo: pub/scm/linux/security/vulns
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/bleeding-edge
-    old: e08ef982088f28cd65654693f29ffe430a9d4d66
-    new: 92c49233f514db11ba0abefc7beb5be412ae7e4b
+  - ref: refs/heads/master
+    old: b6131baf053b009a677740152f10d99cafcbdb8c
+    new: 5b5939e46061bff48df956a57d4068fb1f117b09
     log: |
-         54f3e18897acba49981580e1becf04e6d5c591b6 Merge branch 'pm-runtime-cleanup' into bleeding-edge
-         92c49233f514db11ba0abefc7beb5be412ae7e4b Merge branch 'acpi-queue' into bleeding-edge
+         5b5939e46061bff48df956a57d4068fb1f117b09 finish 6.18.2 review from greg
          
-  - ref: refs/heads/linux-next
-    old: cdae185ee98bf662eb65f80e82184287f9391c76
-    new: df37b2c49a30c4a62a645803bd925a231b5f149f
-    log: revlist-cdae185ee98b-df37b2c49a30.txt
-  - ref: refs/heads/testing
-    old: cdae185ee98bf662eb65f80e82184287f9391c76
-    new: df37b2c49a30c4a62a645803bd925a231b5f149f
-    log: revlist-cdae185ee98b-df37b2c49a30.txt
 
---===============5383491807425470353==
+--===============7267984685006172687==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-cdae185ee98b-df37b2c49a30.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-169934ba2b73f07df59c3371acdc26f45eb99c5e thermal: intel: intel_tcc_cooling: Add CPU models in the support list
-bb203a649c26bbcb39c1d93d020cad77e87c518e ACPI: bus: Fix handling of _OSC errors in acpi_run_osc()
-06bf78f82f45514416b1d2193f7a45b6c6c1995e ACPI: bus: Rework printing debug messages on _OSC errors
-7d703df7f4f5646d9d9f866a930843f838c9979b ACPI: bus: Split _OSC evaluation out of acpi_run_osc()
-d179ae1f06ae1b3c328013f7224ab9ebfd210640 ACPI: bus: Split _OSC error processing out of acpi_run_osc()
-5ada805104d4fd89504206216f297c112382bfd1 ACPI: bus: Rename label and use ACPI_FREE() in acpi_run_osc()
-e5322888e6bf4ec17964a93638c9b14433a2f6f1 ACPI: bus: Rework the handling of \_SB._OSC platform features
-6485059361923236735f763af3fc9cbb909fc6dd ACPI: bus: Adjust feature mask creation for \_SB._OSC
-d9239fdc14bcf69fd153ca5daae22c12bd3f8164 ACPI: bus: Rework the handling of \_SB._OSC USB4 features
-c495fe26d1125b25294219e9fcf20e0ca79916c2 Merge branch 'acpi-bus' into linux-next
-df37b2c49a30c4a62a645803bd925a231b5f149f Merge branch 'thermal-intel' into linux-next
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1766578113 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
+nonce 1766578113-9353331cf5c2bd92105c3e40067d03f8da23bf84
 
---===============5383491807425470353==--
+b6131baf053b009a677740152f10d99cafcbdb8c 5b5939e46061bff48df956a57d4068fb1f117b09 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmlL18IbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+F6QP/ROWst6fLievYe2O5hPq
+id7bALmIAtk9U/rdX47Fs9a1830fVD2FFs1yL2iIbQB043OksP3EA+Az3H/PkMLk
+Aze+GobtDP2wbsBjFEfPHdgt+N8t0mraaorNCZV95SuI7Vm8ujusEsJQPdyMDUP7
+LEuScCuRK59tlYuKlJdScbHOpwzCfqkA2LkmID80W1y6l9sbd1q0KzHwwf3pz778
+zFLpr9cJUppzp5Ag5VzFDjey+5Qd4hMIMJVd9woyz1h6LRivWSSOb1baUya5dDHB
+m2TBt0fyDP/6XTgXstQqqF61eIABpkmyvm/z3wSvzp8LncK5usLFM9thqSp1YuTt
+h7/IZKVekIi8ohOM8MurCkF/534VHoysHKlTksbDbbuPZzQr2zGBDUwHhzZLuLA6
+MSyuaI7SmGgvc67mKfxAzBAts8AqjaXs8MN4PdqB9yKrrIa7bKAUHMrVx0gsiV3b
+hGx/mFfwWx6Ah2M0hGA9DvKdsFXlocMuqT5D0DopliNVIlZyQJRvZJbYRkEaEg/r
+PsTvEnpoGn/8J/u78GyZA67hzkwIlQX8LCVQL4Et5GLgPcukL/OdCpGvc01e2HJj
+QoTfJPh2CpNtReAVv4sTZQ2v0gm7OC0vOWuK+RaZ+WDVpd2Zg8hEFxa5d58V0PPr
+1Xd0B0moIbGgAwM+orS0JHRy
+=vmUR
+-----END PGP SIGNATURE-----
+
+--===============7267984685006172687==--
