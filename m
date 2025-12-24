@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1685846277400839051=="
+Content-Type: multipart/mixed; boundary="===============1318923097659938376=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/security/vulns
-Date: Wed, 24 Dec 2025 15:52:08 -0000
-Message-Id: <176659152893.1563951.170453348469727338@gitolite.kernel.org>
+Date: Wed, 24 Dec 2025 16:50:17 -0000
+Message-Id: <176659501794.1607736.11809913529658981650@gitolite.kernel.org>
 
---===============1685846277400839051==
+--===============1318923097659938376==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -13,46 +13,30 @@ Content-Transfer-Encoding: 7bit
 ---
 service: git-receive-pack
 repo: pub/scm/linux/security/vulns
-user: gregkh
-git_push_cert_status: G
+user: sashal
 changes:
   - ref: refs/heads/master
-    old: 8216275d48dd65f37237e24a34da39e75b408522
-    new: b5fd7e70866587885da947f111f23f46deb3dd57
-    log: |
-         64c4de0bf475e01d026cca2a754acb2625f1ee0b assign CVE-2025-68750 on request
-         5ecc44840a47c4abf0760eb0f5e096f449e4f6a0 strip the new mbox
-         b5fd7e70866587885da947f111f23f46deb3dd57 update cvelistV5
-         
+    old: b5fd7e70866587885da947f111f23f46deb3dd57
+    new: 327f2295fc1aa6a8218f55a358ab4231f798dafe
+    log: revlist-b5fd7e708665-327f2295fc1a.txt
 
---===============1685846277400839051==
+--===============1318923097659938376==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-b5fd7e708665-327f2295fc1a.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1766591528 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
-nonce 1766591528-db010deaf8bb58070b7e906047ce8befef9e43c1
+b58ef9cfc16f30425fba9d8bcd2471c814d502b8 dyad: move vulnerability sorting outside the main loop
+7f2b0ca126f7188aa4a6bee146b6f0b6362357ab dyad: use HashSet for O(1) deduplication checks
+053168ce047c9439c6fc374532d98097bc39b522 dyad: extract process_reverted_pairs helper function
+9c9eac8335142cc39f8e089812ffb42231032394 dyad: replace boolean flag pattern with early-continue
+d15cfa35296acc3e882fad57b574e236e9f70fb2 dyad: use HashSet for unfixed vulnerability lookups
+884384dd62782d9f452e16af0cad52abb58a2734 dyad: pre-compute oldest mainline kernel for default matching
+6847dbf92577009d4630f3b0f6d0499e7de87b2f dyad: consolidate winnow_vulnerable_set into single pass
+f8763fec8bf9078f8e55d195ecb2d18d323c628e dyad: reduce cloning in filter_and_sort_pairs
+dc6399d1522c442f1ae4ca9d50701e36f693160d bippy: replace boolean flag with any() iterator
+f4e23c308d9175df75bd293443aae2bf14e46714 bippy: use HashSet for O(1) URL duplicate checks
+a0d63cfc4662160c7600824511a9a032e7a1ddce bippy: pre-compute lowercase tag patterns
+327f2295fc1aa6a8218f55a358ab4231f798dafe bippy: simplify match expressions to equality checks
 
-8216275d48dd65f37237e24a34da39e75b408522 b5fd7e70866587885da947f111f23f46deb3dd57 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmlMDCgbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+nX4P/R2kvdoRceunzuDigbxM
-8tM//6zYjEpreiudI3A5KKgCq1uDjqq/ZFDlXZP33iZQAkSrYLV5eTmw8bNFZYTH
-DQ8wYmcjHDvX/Fya6tWCqp5IiUZjgKj0r2C4BFXDrPc9BCfQTr+DjF8RWg8ldQ6K
-G+BXhGkXKjpxwf6Dc1dPwwc45mcNlkJ5c3aDEMzkkuRa4KorltRiQnJPk0xKnsti
-JumXGiIIMFNidKeNbQ5K9XaZudHzh4Ch+zmkIJx7QJKG2fh7ESzTNKdXpDAN3hV9
-5hME/S6lFaBKQ9nvRJCwj7yLnax8gb7mrJYIBcFxOv1juMr+EHOr0rgFGJ4wRFqq
-vsYLP2OvFATHf+loFyBGzcYJsLDbsbQembxJziDUekf1GYSQw8si1ci723k2Rv2m
-JoafVgES2yukYJhJJScfcFpH151iM8GMvPuev2LtuENd4vxFd4c+qoQDgCBkyf7S
-jPnHPZa4+xw4n6QJmVUE0VfqL2pR9yvim2v4SyEJIuZR9HvA2i82a9SBkPcufzAc
-EMEmeU84Qcwq9UqKtBLpEi8NRUBQdj+Erq3EskcQkUPUDpcRDOFPeZzi1wp7npst
-CS+Id01HsXo3y5/TRbNN2homp+p5y6XAHe/XkPqPFVnU+sAYaz5ah79uIAu0FPEb
-Tkp/WvHQHa7/5NsBeOE5Mi9i
-=Usde
------END PGP SIGNATURE-----
-
---===============1685846277400839051==--
+--===============1318923097659938376==--
