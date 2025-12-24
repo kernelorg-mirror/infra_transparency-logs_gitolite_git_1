@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3568993906812472486=="
+Content-Type: multipart/mixed; boundary="===============7724712820158144107=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/security/vulns
-Date: Wed, 24 Dec 2025 10:35:34 -0000
-Message-Id: <176657253436.1322126.1061318318107004105@gitolite.kernel.org>
+Date: Wed, 24 Dec 2025 10:59:44 -0000
+Message-Id: <176657398412.1338255.1674730334207514897@gitolite.kernel.org>
 
---===============3568993906812472486==
+--===============7724712820158144107==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,40 +17,44 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/master
-    old: 6a853d7143e124b40fd51650ec352f080ca4197e
-    new: 2614cd08867a224c89f33231f2b07414f8b0de9a
+    old: 2614cd08867a224c89f33231f2b07414f8b0de9a
+    new: b6131baf053b009a677740152f10d99cafcbdb8c
     log: |
-         2614cd08867a224c89f33231f2b07414f8b0de9a assign some 6.18.2 cve ids
+         57c0d0af3efb88a79f704cc4c5e06fe7a079a37a allocate some 2022 and 2023 cve ids from cve.org
+         f6134455a67192a18fa8b92baf5c93c6d4cce8d2 assign some cve ids based on gsd-review.17
+         67291ded8a3589b08b334f0749219b1a9256c126 mark gsd-review.17 as completed
+         67f776ddcc4f8b35b0eaff5cab04cc99af0382d4 assign CVE-2025-68734 on request
+         b6131baf053b009a677740152f10d99cafcbdb8c strip the new mbox files
          
 
---===============3568993906812472486==
+--===============7724712820158144107==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1766572533 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1766573979 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
-nonce 1766572533-6137f9e58f0c031743e2d90242b32f1f98e0970f
+nonce 1766573979-4110fd3798bd200a3067341b51543899b2f0735d
 
-6a853d7143e124b40fd51650ec352f080ca4197e 2614cd08867a224c89f33231f2b07414f8b0de9a refs/heads/master
+2614cd08867a224c89f33231f2b07414f8b0de9a b6131baf053b009a677740152f10d99cafcbdb8c refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmlLwfUbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+4MAP/icxZuBqMZAF6YE8TCbW
-+YCo6quYxLpJPT0bnRH0tLmUt0NMhWowS/LDzMlypkK1eKs4w3QeEnt69ywssPuj
-NLlfBtn6akamW78Y4a6Y6P3CnigmVlt1dj8f1oJlZYrlUzcXlITOosstx22OuhMK
-FcX/n5J4ijnX5jXn6VOG1OF6WT3qcZcNrgd56PWcHUop/XxatkNEmLTHcKldVvxI
-uvQaZ2HL2Vh8dOP5Wp9feL1lGbukqeT+X9i810s/tWxss428oqNBSz4l/YtzJi8X
-14dBnDc8ZjSkwNRoy9yix2KUxxph5hShK9MBDOnvQDaQhGZDhJMnRpWizB+l0adi
-AijYR/pW5HkX835lHDWrHXEN5C+aaDTu/tGpQT2uQwebhAaCr/zOYbT1OceVxBOc
-8mylWACSwzxLpdFYHfoV9CRqZ20qMe/u1zq86M72HqAU5ouCDYcpEi8B59LyqT7M
-XEAK7hmr0KkqkZL2ryH3De6MsXNXy7zc0w/TSCdSkfMA8L17nMkBLkHq1JnSpYFO
-p2Ho/5WZyF8CJ4I+piP+i4+Y007/R8T3e1akKBtFW8rmo51XA7Co4IIpKhBIaSHo
-oOL37vQeWDOG1mKmNP0cEaSQfAQPNTfDeUxHv3yvpZFZeNEt6ztiftl9ZgGE680s
-bSdozJzCd3wnPXx1g/yJLvhG
-=91fF
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmlLx5sbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+i8cP/jIIiuf5/eTZRE2shi+S
+H1pdGkkw9Yd6C20ygK+Ku/J6m/yvxP+OYRjCPjojdoslm3gP+DXxxn+dzw9xJ1wY
+0/7ptBxLl/lN6D05sSpWwbxHcrPos7WwGQi4yq34g/B5c9EcxBsiFfjttnH3k0Z7
+q7vTWE5f5qAEOApLYpNocbbzRLoHEOynv3BEl6ZMNiNjpRq/VXSxsb2LmJwRkZe8
+g/I/z4SyOL+0S3pkOiMCxeFLC9AI2RUkLKPh4M6BOZVD0VqOp3wo6LC8JfXSH4Un
+XmKVJZuBlWuwx9kU4A3Xv6XlafGroDOJKrmS6gZsC7aPdQ6aiT8PLXMhwV8Wwb83
+d06FWosfSpeaFOZuBoTMGTs47BDlBoQNLSv5PsYWcjE+9EykVvnLZfXt4AoMalOV
+MTA6MI9qGyYHXeB7t8T2TRL1D/30FY+yB4jvDZL5QBMNxlCyylVzq+VizPtqcOqG
+x5r03+Miw+ptNqX4A/K6hKhztks8liI6wf3/AgLGENpt8ZJCxnCphYbCzORdRanK
+JeCGQ6ps+61BkpTunprYqM69k/gnGsDDU8cJ1N0NcTWcBB11+Nm8bGg7wTxP0qMo
+dNhU0U4tHtcLUxfYf6gp8ZSnhVpZ2z+R1uZa/ITNgqUX0XBHo8kjdrAOsVQr8Qtm
+fGN/VPeOMl1GgDYcxZdLWSWN
+=Ho0Z
 -----END PGP SIGNATURE-----
 
---===============3568993906812472486==--
+--===============7724712820158144107==--
