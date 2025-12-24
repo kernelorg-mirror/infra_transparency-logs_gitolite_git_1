@@ -1,51 +1,50 @@
-Content-Type: multipart/mixed; boundary="===============3608190126832408158=="
+Content-Type: multipart/mixed; boundary="===============8453876095122709665=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Wed, 24 Dec 2025 14:44:09 -0000
-Message-Id: <176658744905.1510426.4950540053821436178@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
+Date: Wed, 24 Dec 2025 14:44:19 -0000
+Message-Id: <176658745929.1510723.1115536912102739594@gitolite.kernel.org>
 
---===============3608190126832408158==
+--===============8453876095122709665==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/regulator
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/asoc-6.20
-    old: 45e9066f3a487e9e26b842644364d045af054775
-    new: 284853affe73fe1ca9786bd52b934eb9d420a942
+  - ref: refs/heads/for-6.19
+    old: 9c6552cc209788b77b45ff6c4b3869131da1c47e
+    new: 60489936aced785ef9e5a865e23a296bd0b470b6
     log: |
-         836ecc740ca829040d86a5371f1fcb276110df84 ASoC: rt1320: fix 32-bit link failure
-         284853affe73fe1ca9786bd52b934eb9d420a942 ASoC: rt1320: fix size_t format string
+         60489936aced785ef9e5a865e23a296bd0b470b6 regulator: fp9931: fix regulator node pointer
          
 
---===============3608190126832408158==
+--===============8453876095122709665==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1766587445 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1766587446-e0b9d6b2fb127446a6f53dcfbc0460c31b1a4bb3
+pusher C3F436CA30F5D8EB 1766587456 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/regulator.git
+nonce 1766587457-810a78c9314dda6c6e508f3518fe819e31ba3b7c
 
-45e9066f3a487e9e26b842644364d045af054775 284853affe73fe1ca9786bd52b934eb9d420a942 refs/heads/asoc-6.20
+9c6552cc209788b77b45ff6c4b3869131da1c47e 60489936aced785ef9e5a865e23a296bd0b470b6 refs/heads/for-6.19
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmlL/DUACgkQJNaLcl1U
-h9B38Af7Bot2h5UvEvWalUGJZpUHa7nnBcE//PIYf1ZQq5BgyA0lbO9Q085yibFG
-X4K+607HCERrCt+LtnRozWy/Dy/1RJVNP+pf7282u4oJMK/0PQaYmLR4Lsibh3B8
-LL//oo9kDRU/ki+3M7Z7AqKJZ5CADGTcJIxnS/P49l8reojc5ctNNrTw8v1RMLJF
-0RJyvNoVJskESwaIpgk2YtYY0wMXMUxmn212SryRCRu7/x/EQpKrO6BrDvYFYRzU
-1tmspXlTtebqCeo7PWn2mMVE4A6ujai/i6BeFx0IKufZTbSCxttrq1IJiupq4mLS
-KwoNS20nCJxEaUOHp/KooO6NhrV0Ew==
-=YMgy
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmlL/EAACgkQJNaLcl1U
+h9B23Af/TIEp9YDVQBRJQxUNkP5s8Jo5bbdSLxmHYMejoWZyyu2rltRPLmH9IWur
+NQSuQ0UCcAEUXj081bidPdN+8UlSoeFVt680uH9+bqvBViYkbjbJuuVpd00L3bAc
+40Dq2L+VB80fmcrxEyGUUAei3xO2bfgoCrJaHV2uAic+o1B5g8z243AaUFkGJ8lC
+JXNRmdk/pUX+BFKdQaovfR41ns3PRmhJFtLwzgZgSvzj4f7Tka87QolgQWIxHGzB
+bZw4avoO7K8uUmzYk5MX/EOzybdq5avSWeM+QnI3XbYG+sl4d1/ervZFYcq5eXkA
+lD9rvYNtZXsYg7VsXkcmHUr+7b8B/Q==
+=IB7b
 -----END PGP SIGNATURE-----
 
---===============3608190126832408158==--
+--===============8453876095122709665==--
