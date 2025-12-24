@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Wed, 24 Dec 2025 01:21:33 -0000
-Message-Id: <176653929305.908565.1706748113136343603@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/linus-next
+Date: Wed, 24 Dec 2025 01:50:34 -0000
+Message-Id: <176654103449.930773.17841937415023455954@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/snitzer/linux
-user: snitzer
+repo: pub/scm/linux/kernel/git/sashal/linus-next
+user: sashal
 changes:
-  - ref: refs/tags/v6.18.2
-    old: 0000000000000000000000000000000000000000
-    new: b962ef4db8d96dc862eeea2c7039cfa3aa149779
+  - ref: refs/heads/linus-next
+    old: 7f3cd21632e48ba39bb686da6da46de644005e29
+    new: edaf1cb1ffed2b9a8d3b69eb87ade59734000112
+    log: |
+         edaf1cb1ffed2b9a8d3b69eb87ade59734000112 iomap: fix ifs/folio uptodate mismatch in FUSE
+         
