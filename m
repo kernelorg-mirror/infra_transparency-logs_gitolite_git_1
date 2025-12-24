@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7367890655310956075=="
+Content-Type: multipart/mixed; boundary="===============2503454966741410595=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mani/mhi
-Date: Wed, 24 Dec 2025 05:04:37 -0000
-Message-Id: <176655267715.1072876.9302957068544574120@gitolite.kernel.org>
+Date: Wed, 24 Dec 2025 05:12:57 -0000
+Message-Id: <176655317731.1080303.13020221388680472211@gitolite.kernel.org>
 
---===============7367890655310956075==
+--===============2503454966741410595==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,18 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/mani/mhi
 user: mani
 changes:
-  - ref: refs/heads/master
-    old: 3a8660878839faadb4f1a6dd72c3179c1df56787
-    new: 8f0b4cce4481fb22653697cced8d0d04027cb1e8
-    log: revlist-3a8660878839-8f0b4cce4481.txt
+  - ref: refs/heads/mhi-next
+    old: ac35e04f8000aaaf98635792464647e7a6f3422e
+    new: 820c866c42de99e7d65c7bd1f591f067dbbe3cae
+    log: revlist-ac35e04f8000-820c866c42de.txt
 
---===============7367890655310956075==
+--===============2503454966741410595==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3a8660878839-8f0b4cce4481.txt
+Content-Disposition: attachment; filename=revlist-ac35e04f8000-820c866c42de.txt
 
-09339d0d83108fd4f59b94677ac99bde870aa0ae l2tp: correct debugfs label for tunnel tx stats
 ea2d3befcf29cca5221d0572d54e4d71b683175d net: dsa: yt921x: Set ageing_time_min/ageing_time_max
 e3b8cbf40c6e60a7a935bd8980884d5741a7a77b selftests: netconsole: remove log noise due to socat exit
 33b4c26d4d3ccd24d9721a577671f2c73c1a7cd9 x86/platform: Fix and extend kernel-doc comments in <asm/x86_init.h>
@@ -1050,5 +1049,6 @@ cba09e3ed06db4b6c87bc97e0aea080421fb8f7d Merge tag 'perf-urgent-2025-12-12' of g
 0dfb36b2dcb666f116ba314e631bd3bc632c44d1 Merge tag 'ceph-for-6.19-rc1' of https://github.com/ceph/ceph-client
 6a1636e06625ec0dd7f2b908ab39a8beea24bfd3 Merge tag 'scsi-misc' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
 8f0b4cce4481fb22653697cced8d0d04027cb1e8 Linux 6.19-rc1
+820c866c42de99e7d65c7bd1f591f067dbbe3cae mhi: host: Add support for loading dual ELF image format
 
---===============7367890655310956075==--
+--===============2503454966741410595==--
