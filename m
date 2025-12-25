@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0177335483290114412=="
+Content-Type: multipart/mixed; boundary="===============1073859377759996923=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Thu, 25 Dec 2025 09:32:08 -0000
-Message-Id: <176665512896.2357486.1039949297966516491@gitolite.kernel.org>
+Date: Thu, 25 Dec 2025 09:32:28 -0000
+Message-Id: <176665514849.2357882.10580884959573942026@gitolite.kernel.org>
 
---===============0177335483290114412==
+--===============1073859377759996923==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,15 +16,31 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: e3b15264bcd5e9c3ed2f81012a3f10b9174f58cf
-    new: 9183117230613a8a8bbad7442419c794e30b268e
-    log: revlist-e3b15264bcd5-918311723061.txt
+    old: 9183117230613a8a8bbad7442419c794e30b268e
+    new: 86fadb3b82be13ffa7e51a408e7854528c55a101
+    log: |
+         9022c4ffebe552243f4dda813be2925f7c680862 Merge branch into tip/master: 'core/urgent'
+         5b335e427b605270da1638619895a3bf23b0d0b0 Merge branch into tip/master: 'irq/core'
+         4d9923ec53938ceccac661603ec7c7ca52a16c1f Merge branch into tip/master: 'irq/drivers'
+         ace633dc0e9c2c86ecc00e41aa1ef6707f104949 Merge branch into tip/master: 'irq/msi'
+         e070f465670d8a9fafeef4d54548a77cbe92935d Merge branch into tip/master: 'locking/core'
+         2e0f32e747c101d2365e975e225be3f21ed828bd Merge branch into tip/master: 'perf/core'
+         a3b103bbe41f0b2f6c6deed08b989da51792e638 Merge branch into tip/master: 'sched/core'
+         83db9600ed46b8cface710393b83c6464e28adcb Merge branch into tip/master: 'timers/core'
+         8e21178c6daf064958071c1796c46b7cdea3cd6b Merge branch into tip/master: 'x86/boot'
+         d187516ecaeeda5fb04f6a6bb55ea37198c7b378 Merge branch into tip/master: 'x86/cpu'
+         86fadb3b82be13ffa7e51a408e7854528c55a101 Merge branch into tip/master: 'x86/irq'
+         
+  - ref: refs/heads/tip/urgent
+    old: 2c8d5f150b001be9f72d59291ebd350b44c244ca
+    new: 9022c4ffebe552243f4dda813be2925f7c680862
+    log: revlist-2c8d5f150b00-9022c4ffebe5.txt
 
---===============0177335483290114412==
+--===============1073859377759996923==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e3b15264bcd5-918311723061.txt
+Content-Disposition: attachment; filename=revlist-2c8d5f150b00-9022c4ffebe5.txt
 
 d4b69a6186b215d2dc1ebcab965ed88e8d41768d SUNRPC: svcauth_gss: avoid NULL deref on zero length gss_token in gss_read_proxy_verf
 a8ee9099f30654917aa68f55d707b5627e1dbf77 svcrdma: use rc_pageoff for memcpy byte offset
@@ -79,6 +95,6 @@ ad3cbbb0c1892c48919727fcb8dec5965da8bacb NFSD: Clear TIME_DELEG in the suppattr_
 ebb8719c1a7dd3d0c6f49e38a95bb6ac89f7f7e1 Merge tag 'sound-6.19-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/tiwai/sound
 ce93692d681e89d2c31aacedb055c4638deb1be9 Merge tag 'erofs-for-6.19-rc3-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/xiang/erofs
 ccd1cdca5cd433c8a5dff78b69a79b31d9b77ee1 Merge tag 'nfsd-6.19-1' of git://git.kernel.org/pub/scm/linux/kernel/git/cel/linux
-9183117230613a8a8bbad7442419c794e30b268e Merge branch 'linus'
+9022c4ffebe552243f4dda813be2925f7c680862 Merge branch into tip/master: 'core/urgent'
 
---===============0177335483290114412==--
+--===============1073859377759996923==--
