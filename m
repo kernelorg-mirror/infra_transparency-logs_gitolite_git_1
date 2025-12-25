@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7912134926305074734=="
+Content-Type: multipart/mixed; boundary="===============2210730652595834520=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/andi.shyti/linux
-Date: Thu, 25 Dec 2025 20:56:48 -0000
-Message-Id: <176669620881.2864692.4299399913645384248@gitolite.kernel.org>
+Date: Thu, 25 Dec 2025 20:56:50 -0000
+Message-Id: <176669621079.2864775.737459093970442250@gitolite.kernel.org>
 
---===============7912134926305074734==
+--===============2210730652595834520==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/andi.shyti/linux
 user: andi.shyti
 changes:
-  - ref: refs/heads/i2c/i2c-host-fixes
-    old: 880977fdc7f67923d1904ee23ca75fa1e375ea46
-    new: ccd1cdca5cd433c8a5dff78b69a79b31d9b77ee1
-    log: revlist-880977fdc7f6-ccd1cdca5cd4.txt
+  - ref: refs/heads/i2c/i2c-host-next
+    old: e3bca188b4ef54e8b303446f2de8c38f51e8a93a
+    new: aa939de4e08724ac782ca62b0281fac5949dff08
+    log: revlist-e3bca188b4ef-aa939de4e087.txt
 
---===============7912134926305074734==
+--===============2210730652595834520==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-880977fdc7f6-ccd1cdca5cd4.txt
+Content-Disposition: attachment; filename=revlist-e3bca188b4ef-aa939de4e087.txt
 
 1b9439c933b500cb24710bbd81fe56e9b0025b6f KVM: selftests: Add missing "break" in rseq_test's param parsing
 e2b43fb25243d502ad36b07bab9de09f4b76fff9 KVM: x86: Apply runtime updates to current CPUID during KVM_SET_CPUID{,2}
@@ -417,5 +417,6 @@ b927546677c876e26eba308550207c2ddf812a43 Merge tag 'dma-mapping-6.19-2025-12-22'
 ebb8719c1a7dd3d0c6f49e38a95bb6ac89f7f7e1 Merge tag 'sound-6.19-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/tiwai/sound
 ce93692d681e89d2c31aacedb055c4638deb1be9 Merge tag 'erofs-for-6.19-rc3-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/xiang/erofs
 ccd1cdca5cd433c8a5dff78b69a79b31d9b77ee1 Merge tag 'nfsd-6.19-1' of git://git.kernel.org/pub/scm/linux/kernel/git/cel/linux
+aa939de4e08724ac782ca62b0281fac5949dff08 Merge branch 'i2c/i2c-host-fixes' into i2c/i2c-host-next
 
---===============7912134926305074734==--
+--===============2210730652595834520==--
