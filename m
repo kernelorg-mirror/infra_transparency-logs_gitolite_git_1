@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6641626806939779076=="
+Content-Type: multipart/mixed; boundary="===============3607679293119681898=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Thu, 25 Dec 2025 02:34:42 -0000
-Message-Id: <176663008258.2047812.4560514082185235383@gitolite.kernel.org>
+Date: Thu, 25 Dec 2025 02:35:03 -0000
+Message-Id: <176663010371.2049204.7618076604541012199@gitolite.kernel.org>
 
---===============6641626806939779076==
+--===============3607679293119681898==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/cel/linux
 user: cel
 changes:
-  - ref: refs/heads/nfsd-next
-    old: 9448598b22c50c8a5bb77a9103e2d49f134c9578
-    new: 4cd971008de511883c03938b6bb80beed3b469a5
-    log: revlist-9448598b22c5-4cd971008de5.txt
+  - ref: refs/heads/nfsd-testing
+    old: b6e8ebe5580179c37c7d2d51d756e8e46d33f6c5
+    new: 0988bbc27164f19d89564aa5dcd2220ede741986
+    log: revlist-b6e8ebe55801-0988bbc27164.txt
 
---===============6641626806939779076==
+--===============3607679293119681898==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-9448598b22c5-4cd971008de5.txt
+Content-Disposition: attachment; filename=revlist-b6e8ebe55801-0988bbc27164.txt
 
 d4b69a6186b215d2dc1ebcab965ed88e8d41768d SUNRPC: svcauth_gss: avoid NULL deref on zero length gss_token in gss_read_proxy_verf
 a8ee9099f30654917aa68f55d707b5627e1dbf77 svcrdma: use rc_pageoff for memcpy byte offset
@@ -85,5 +85,32 @@ ccd1cdca5cd433c8a5dff78b69a79b31d9b77ee1 Merge tag 'nfsd-6.19-1' of git://git.ke
 1c264c15a7e4500034763e737613c15c993e41a7 xdrgen: improve error reporting for invalid void declarations
 15855773cf90627b60cbee70fc1d1fa2efb49fb0 NFSD: Add instructions on how to deal with xdrgen files
 4cd971008de511883c03938b6bb80beed3b469a5 xdrgen: Generate "if" instead of "switch" for boolean union enumerators
+813c799293ef794da01758286adabab0c5cf5460 lockd: fix vfs_test_lock() calls
+2a138e11c8e88210fd772ba508375be3380514ae locks: ensure vfs_test_lock() never returns FILE_LOCK_DEFERRED
+38c4df91242b79b14cb2da211539549768f99a25 xdrgen: Address some checkpatch whitespace complaints
+4ed6a1caadf149524e7ba4126ab32551b5b2c058 nfsd: fix nfsd_file reference leak in nfsd4_add_rdaccess_to_wrdeleg()
+f3c43920385671afece60a62b9a6d0fcdcbe7135 nfsd: use ATTR_DELEG in nfsd4_finalize_deleg_timestamps()
+aa142963cf96efe2f20263607e18b9841cb1c0d6 nfsd: prefix notification in nfsd4_finalize_deleg_timestamps() with "nfsd: "
+0d3d1850770680f2b1e0b73945c0c9cca6ad20a0 nfsd: Drop the client reference in client_states_open()
+72d2a0da5714ddf34a9041c8dcc458cf7b6b11ed xdrgen: Fix struct prefix for typedef types in program wrappers
+6a6b71411e1bad0d8601528e35073d43dfaac6bb NFSD: Remove NFSERR_EAGAIN
+098228bbb6014312a6497d242a75cb00b8f574e3 NFS: NFSERR_INVAL is not defined by NFSv2
+066a695816b1703a547ad0e87f7306d16b64a269 xdrgen: Emit the program number definition
+836a6dc9b849dfc7a3ab9583b8a0cacc732072dd NFSD: Fix permission check for read access to executable-only files
+7b65b642b041d14493e98e92c1f8438761f6e39c nfsd: use correct loop termination in nfsd4_revoke_states()
+101e6da89dc5a3142b4f09e07f164edda560103a nfsd: provide locking for v4_end_grace
+14734a9b5464c48467a501a9271e060ecc7db371 nfsd: use workqueue enable/disable APIs for v4_end_grace sync
+8d9e7f4be7006c3efc6d56e5dd26246471086cf8 nfsd: fix nfs4_file refcount leak in nfsd_get_dir_deleg()
+8ad72f851ab370e526180ccde8e84579bccfd536 nfsd: check that server is running in unlock_filesystem
+f08c43fdaa63749d421344cdbf321ff807735f33 NFSD: net ref data still needs to be freed even if net hasn't startup
+3d186c5aefd7c4d8c670d75e5ce2bb1ee4d8b317 xdrgen: Implement short (16-bit) integer types
+af862434c44e4e47d97278f1ee4a131c1496fe2c NFSD: fix setting FMODE_NOCMTIME in nfs4_open_delegation
+3032634019e95904dda51df1e703954b90ea2d0d xdrgen: Initialize data pointer for zero-length items
+09b26dddb5ed3c753fd8b2231e96a036258a00f9 xdrgen: Remove inclusion of nlm4.h header
+277df18d7df9f3d07fd1fc0372008da23f01ea44 xdrgen: Improve parse error reporting
+5c4c71b529c56541e08b7081108d134e54f2f701 nfsd: never defer requests during idmap lookup
+bfe1e3c6330842d465f43177008c8ad66d10f403 nfsd: fix return error code for nfsd_map_name_to_[ug]id
+ed799cd5111b600d66b94c3f88ce81b74ef53fab [DEBUG] Add instrumentation for nfsd_mutex contention debugging
+0988bbc27164f19d89564aa5dcd2220ede741986 siw: Enable try_gso
 
---===============6641626806939779076==--
+--===============3607679293119681898==--
