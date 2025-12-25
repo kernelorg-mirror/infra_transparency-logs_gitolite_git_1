@@ -1,19 +1,106 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/liburing
-Date: Thu, 25 Dec 2025 16:50:46 -0000
-Message-Id: <176668144606.2683586.7056971930432399229@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/linux-next
+Date: Thu, 25 Dec 2025 18:26:49 -0000
+Message-Id: <176668720986.2754454.5525926182185348798@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/liburing
-user: axboe
+repo: pub/scm/linux/kernel/git/sashal/linux-next
+user: sashal
 changes:
-  - ref: refs/heads/master
-    old: 94ed302bc564295cde34a108fee5b2903b4fcedc
-    new: 6f899c88e07e24e40f66aa41dc9f48528780b4c9
-    log: |
-         6f899c88e07e24e40f66aa41dc9f48528780b4c9 test/open-close: test failure path of direct && O_CLOEXEC
-         
+  - ref: refs/heads/all-next
+    old: 3b991a68d8689d9d3f69e629d6c3d41bddc1112d
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/arch-next
+    old: 4c9d3faff4ed062dea1393605688397b5a4193e8
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/block-next
+    old: 203e250879cafd2a41f2cf76878b25bc5cfbb2ee
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/bpf-next
+    old: 239136a522da97debb26708f4abf40a2020b3016
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/core-next
+    old: 531b82ea947041c0fefe19bff59a952315c0654a
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/crypto-next
+    old: 8f1774e7b076aa972c8effe16f50ac9dd99f5436
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/debug-next
+    old: ccd1cdca5cd433c8a5dff78b69a79b31d9b77ee1
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/docs-next
+    old: 3c3121d1c146d7862ca7e2e0693d83d85d09323a
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/drivers-next
+    old: f391c3795d8f5bc14bf9e73abd86f2a65c3df142
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/dt-next
+    old: eaf8cff0e796fe7f346c7483f7318f9e2c41471e
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/firmware-next
+    old: 6b8b69113d0b155a65cdc8b841e42d4742565ed0
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/fixes-next
+    old: e18def34b9da1f0b4f221e9e2f9b9e1fe5b046d1
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/fs-next
+    old: 93674602248b97bfbbc39f2e1dc2fda8e7abe199
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/graphics-next
+    old: e9a9b165eada564a0db2f87e1d1a7d35d3eaacaa
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/kbuild-next
+    old: 4fe13b6454ee00e7e9d1a0843f9327c541ddbdbb
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/lib-next
+    old: 437b9daac7b094018403161a487619f43be01864
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/licensing-next
+    old: ccd1cdca5cd433c8a5dff78b69a79b31d9b77ee1
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/media-next
+    old: 3810c725d7bfb2ba9829a99a7cad3c82028848cd
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/mm-next
+    old: 1d2ec5016106d1a0d657c7a2fba1de96cb301100
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/net-next
+    old: 079923d30a9289c61190db2083aa4543df113e05
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/pm-next
+    old: 8d1b271ff0c67a1f3211a423c0a3c85b4a65a7fe
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/rust-next
+    old: 7533ace8770f65864e3262d7344c096ed7ad2256
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/sched-next
+    old: f7dd7d48166f117460836f4c8c3666bce809a300
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/security-next
+    old: 0c920ba2b6f5e02a7b953da82aecde82f3918ae0
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/soc-next
+    old: b634d4865ed15e1782632d672b993c6829f2773a
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/sound-next
+    old: 8b26f08cdc5b4ca6f77506e2bae1937baee248a2
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/staging-next
+    old: f31c54d48b779032c27f0edd5031a6ed344676d2
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/testing-next
+    old: ab883ae23a8443c7ef2f214587bd9d226186f090
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/tools-next
+    old: 1e2bd3f087ec0b4f32925be918f7419f32e44289
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/tracing-next
+    old: 66befa2119668422754f2e5a46a95b8b76531951
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/virt-next
+    old: 525aeeb07acfe93b872ec7029fa28bc1e6ff4a3e
+    new: 0000000000000000000000000000000000000000
