@@ -1,53 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============6534905131468034673=="
+Content-Type: multipart/mixed; boundary="===============2268403152919662998=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mst/vhost
-Date: Fri, 26 Dec 2025 20:00:14 -0000
-Message-Id: <176677921490.3900903.17499891687543431154@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux
+Date: Fri, 26 Dec 2025 20:45:40 -0000
+Message-Id: <176678194013.3934515.10628389879090270682@gitolite.kernel.org>
 
---===============6534905131468034673==
+--===============2268403152919662998==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mst/vhost
-user: mst
+repo: pub/scm/linux/kernel/git/axboe/linux
+user: axboe
 changes:
-  - ref: refs/heads/linux-next
-    old: 8e1d17008fd7efb02f51f9b1fbd5b345196e9a7e
-    new: 3da6f2e9712be2c24d006a7fdf9c299c7d161013
-    log: revlist-8e1d17008fd7-3da6f2e9712b.txt
-  - ref: refs/heads/test
-    old: 8e1d17008fd7efb02f51f9b1fbd5b345196e9a7e
-    new: 3da6f2e9712be2c24d006a7fdf9c299c7d161013
-    log: revlist-8e1d17008fd7-3da6f2e9712b.txt
-  - ref: refs/heads/vhost
-    old: 8e1d17008fd7efb02f51f9b1fbd5b345196e9a7e
-    new: 3da6f2e9712be2c24d006a7fdf9c299c7d161013
-    log: revlist-8e1d17008fd7-3da6f2e9712b.txt
+  - ref: refs/heads/master
+    old: ccd1cdca5cd433c8a5dff78b69a79b31d9b77ee1
+    new: 3f0e9c8cefa913dd9bd1d79b9a68896ea130f106
+    log: revlist-ccd1cdca5cd4-3f0e9c8cefa9.txt
 
---===============6534905131468034673==
+--===============2268403152919662998==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8e1d17008fd7-3da6f2e9712b.txt
+Content-Disposition: attachment; filename=revlist-ccd1cdca5cd4-3f0e9c8cefa9.txt
 
-3c4629b68dbe18e454cce4b864c530268cffbeed virtio: uapi: avoid usage of libc types
-4b7bf8d5503287ed3bd661207b9d061999ac494e virtio_ring: code cleanup in detach_buf_split
-3b34d6324d1f82a4d35ce461add457e185dc98ac vhost: use "checked" versions of get_user() and put_user()
-392768b74342e57b7df761f681f413fe4be4f271 virtio_ring: rename virtqueue_reinit_xxx to virtqueue_reset_xxx()
-b9583ef8d6429ce6ac084d6eb2d58f3fbc75513a virtio_ring: switch to use vring_virtqueue in virtqueue_poll variants
-b7ee2f19665ca57d474ae8cb1df57c9c978178b6 virtio_ring: unify logic of virtqueue_poll() and more_used()
-91699d2464202570c408c6717dc295116f4cdf19 virtio_ring: switch to use vring_virtqueue for virtqueue resize variants
-dc718a35b1a763afd10dbc38974497849a813ddd virtio_ring: switch to use vring_virtqueue for virtqueue_kick_prepare variants
-b148e85c918a2a56d811857f09900f0aeb9715cb virtio_ring: switch to use vring_virtqueue for virtqueue_add variants
-b902f1f78fabb4fc02d967b3db8d8a38c3fa74f7 virtio: switch to use vring_virtqueue for virtqueue_get variants
-66513b17ba64361147e1dbe2468961487eb6b743 virtio_ring: switch to use vring_virtqueue for enable_cb_prepare variants
-32ddab54fc06f0b0a135ff1fe2fd703848486aec virtio_ring: use vring_virtqueue for enable_cb_delayed variants
-cdccc5eed763292b1b41d9d0a7267a9a813f51b6 virtio_ring: switch to use vring_virtqueue for disable_cb variants
-c48ee75b70a821945be6530c5b95c12e49e1f1af virtio_ring: switch to use vring_virtqueue for detach_unused_buf variants
-3da6f2e9712be2c24d006a7fdf9c299c7d161013 virtio_ring: switch to use unsigned int for virtqueue_poll_packed()
+daa24603d9f0808929514ee62ced30052ca7221c ublk: clean up user copy references on ublk server exit
+1ddb815fdfd45613c32e9bd1f7137428f298e541 block: rnbd-clt: Fix signedness bug in init_dev()
+0a70cac7896712a08e3cd22c16f44be976d40dbf ksmbd: Fix to handle removal of rfc1002 header from smb_hdr
+0b444cfd8b74ebce421ccd96eac9c495e536c92e ksmbd: rename smb2_get_msg to smb_get_msg
+3b9c30eb8f5aaad4a54cdfa470b74c0467cc71e8 smb/server: fix minimum SMB1 PDU size
+4c7d8eb9a79ae5400eac19c4f6f0815bff674452 smb/server: fix minimum SMB2 PDU size
+94fb5e796ad7d72f66e893da37593f8856657251 tools/virtio: fix up compiler.h stub
+f059588c552746e0fe299214f35c58effa715b74 virtio: make it self-contained
+16fe720f1d2a6fb8b53539d44d7a5566ec657240 tools/virtio: use kernel's virtio.h
+42059e68eaffe29f15e3e76b4536dbf368a501fb tools/virtio: add struct module forward declaration
+03d768a38cead828963c0e203662b8fa4c1f4d21 tools/virtio: stub DMA mapping functions
+c53ad75c6236acd22a613fbcde862d3d6d2f8072 tools/virtio: add dev_WARN_ONCE and is_vmalloc_addr stubs
+b6600eff0559ef69479cf6b7dccafddf451c6842 tools/virtio: add ucopysize.h stub
+4e949e77fa5e335ff32f177fd37d3e469fd396f9 tools/virtio: pass KCFLAGS to module build
+a2f964c45b355cabdb70ecc48ef3cc8b19afaa80 tools/virtio: add struct cpumask to cpumask.h
+b0fe545b3c64b327b1ef56ee57def6e1afa470a8 tools/virtio: stub might_sleep and synchronize_rcu
+cec9c5e385f6cf056365ec197433fc5448b30985 tools/virtio: switch to kernel's virtio_config.h
+e88dfb93311c81359b00c12e0b396bd0ea13ad6c virtio_features: make it self-contained
+39cfe193f3b10480fb1f157cdfae1f3950934d90 tools/virtio: fix up oot build
+7f81878b046a432837a7de3017f69092ffe8c4c4 tools/virtio: add device, device_driver stubs
+d8ee3cfdc89b75dc059dc21c27bef2c1440f67eb vhost/vsock: improve RCU read sections around vhost_vsock_get()
+b14fad555302a2104948feaff70503b64c80ac01 io_uring: fix filename leak in __io_openat_prep()
+e2cc6440895a57977ba818d4aaffcb59db7b66a0 Merge tag 'v6.19-rc2-smb3-server-fixes' of git://git.samba.org/ksmbd
+8f0cbedc86cfc93ea869bbff420a2d86f6373f57 Merge tag 'for_linus' of git://git.kernel.org/pub/scm/linux/kernel/git/mst/vhost
+4079a38693910c44780b31cd3cbd220b4144e473 Merge tag 'io_uring-6.19-20251226' of git://git.kernel.org/pub/scm/linux/kernel/git/axboe/linux
+3f0e9c8cefa913dd9bd1d79b9a68896ea130f106 Merge tag 'block-6.19-20251226' of git://git.kernel.org/pub/scm/linux/kernel/git/axboe/linux
 
---===============6534905131468034673==--
+--===============2268403152919662998==--
