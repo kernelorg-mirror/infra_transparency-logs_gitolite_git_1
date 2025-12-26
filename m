@@ -1,106 +1,27 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/linux-next
-Date: Fri, 26 Dec 2025 01:13:16 -0000
-Message-Id: <176671159699.3062562.14045387386452157055@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
+Date: Fri, 26 Dec 2025 02:19:02 -0000
+Message-Id: <176671554258.3110870.15728152288579148508@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/linux-next
-user: sashal
+repo: pub/scm/linux/kernel/git/xiang/erofs-utils
+user: xiang
 changes:
-  - ref: refs/heads/all-next
-    old: 0000000000000000000000000000000000000000
-    new: 1057f06b214a8c38048b4db0d9e42241738d618e
-  - ref: refs/heads/arch-next
-    old: 0000000000000000000000000000000000000000
-    new: 6866a622e439be356843bd8a3b9cc1a80191a535
-  - ref: refs/heads/block-next
-    old: 0000000000000000000000000000000000000000
-    new: 7a996e9cec9f63eee763dc962ecee9f28347655b
-  - ref: refs/heads/bpf-next
-    old: 0000000000000000000000000000000000000000
-    new: 9202839c0c4542873d5994d0ff5f36fd5e9d683d
-  - ref: refs/heads/core-next
-    old: 0000000000000000000000000000000000000000
-    new: cdc7dd6205ed8bdc859a4e490bb30ac1f2f90325
-  - ref: refs/heads/crypto-next
-    old: 0000000000000000000000000000000000000000
-    new: ed42a0fac54b460c022a404fae47347e9494476c
-  - ref: refs/heads/debug-next
-    old: 0000000000000000000000000000000000000000
-    new: ccd1cdca5cd433c8a5dff78b69a79b31d9b77ee1
-  - ref: refs/heads/docs-next
-    old: 0000000000000000000000000000000000000000
-    new: e4933b99d968cc3f56c699c2f4e090e2ebe11429
-  - ref: refs/heads/drivers-next
-    old: 0000000000000000000000000000000000000000
-    new: 4ca00022f8f7a9fa2e21364e9517cf6217c2602c
-  - ref: refs/heads/dt-next
-    old: 0000000000000000000000000000000000000000
-    new: e7785547d62b41d443f3cc9ff43006d905cc720f
-  - ref: refs/heads/firmware-next
-    old: 0000000000000000000000000000000000000000
-    new: dc85605301184057ba0022fed440f5339054645e
-  - ref: refs/heads/fixes-next
-    old: 0000000000000000000000000000000000000000
-    new: 52f257a46048f7ecc5aa5bba7c9cd7936622d8c3
-  - ref: refs/heads/fs-next
-    old: 0000000000000000000000000000000000000000
-    new: 594bf7947d0125a76e03b3c26ffceb1c23de6d85
-  - ref: refs/heads/graphics-next
-    old: 0000000000000000000000000000000000000000
-    new: 43bda0fb7b442352c85a62aa6915d29f45cb73e2
-  - ref: refs/heads/kbuild-next
-    old: 0000000000000000000000000000000000000000
-    new: c44615c5858b9d864682309810aae88f1c0b321e
-  - ref: refs/heads/lib-next
-    old: 0000000000000000000000000000000000000000
-    new: 88c3030988ca236c42479010231342177571c65a
-  - ref: refs/heads/licensing-next
-    old: 0000000000000000000000000000000000000000
-    new: ccd1cdca5cd433c8a5dff78b69a79b31d9b77ee1
-  - ref: refs/heads/media-next
-    old: 0000000000000000000000000000000000000000
-    new: fc22a40e6e52bb80735627f44f5c5204d343add7
-  - ref: refs/heads/mm-next
-    old: 0000000000000000000000000000000000000000
-    new: 2c320436465eeca53b4ce6e97ac799b1293e5682
-  - ref: refs/heads/net-next
-    old: 0000000000000000000000000000000000000000
-    new: 9dfae34fbbe28a22b93e87f11c85e294fd3d0263
-  - ref: refs/heads/pm-next
-    old: 0000000000000000000000000000000000000000
-    new: 1ae7d402fdc85ff2a3301def40909be148d2d126
-  - ref: refs/heads/rust-next
-    old: 0000000000000000000000000000000000000000
-    new: 372b90ad7ad486cb149bcbc8fa7706994ff66b24
-  - ref: refs/heads/sched-next
-    old: 0000000000000000000000000000000000000000
-    new: ed10a7bafe04a7705b2eab12e57d6c752e398b46
-  - ref: refs/heads/security-next
-    old: 0000000000000000000000000000000000000000
-    new: 34d6fa9a0b16b3d6164be4b09cf8434696435563
-  - ref: refs/heads/soc-next
-    old: 0000000000000000000000000000000000000000
-    new: 1e8123065d3943308463eabd3b053aa51403de04
-  - ref: refs/heads/sound-next
-    old: 0000000000000000000000000000000000000000
-    new: efb04bccbfebdaeea49511678bd7f46e1fd42572
-  - ref: refs/heads/staging-next
-    old: 0000000000000000000000000000000000000000
-    new: 1f1a89bb33e7bef766be2fad28d69cf2a366e469
-  - ref: refs/heads/testing-next
-    old: 0000000000000000000000000000000000000000
-    new: 5a6c9f80a3fa65330ea3ced94b8c3df69ffde952
-  - ref: refs/heads/tools-next
-    old: 0000000000000000000000000000000000000000
-    new: 77e23f4512a92ddf8cf1e11cb1028f7e7831b1bf
-  - ref: refs/heads/tracing-next
-    old: 0000000000000000000000000000000000000000
-    new: de046593e6cf4ff179e9792156d37e8b2de9ca40
-  - ref: refs/heads/virt-next
-    old: 0000000000000000000000000000000000000000
-    new: ee025d4de181a83bd110a3dde367a8375f2c9549
+  - ref: refs/heads/experimental
+    old: e0d85fc5a282ec82ac2833fb074e4caab50f3e32
+    new: 160d320b59bcb8abb640e3a746b68e5cccf3df98
+    log: |
+         7ba030d794cc7d73f8091c94a6544efeb879d0a5 erofs-utils: lib: fix erofs_listxattr()
+         7bf66c578d80ff5797ba9c80e8cadd3110a0b6dc erofs-utils: lib: convert erofs_read_metabuf() to erofs_bread() for xattr
+         57d9115293712251922a845fab1a6f3158555867 erofs-utils: lib: use absolute position in xattr iterator
+         d0cb5a17f8c055ce90f7340181cd36d506b36b86 erofs-utils: lib: unify xattr_iter structures
+         7a6c22345ce011a587223e848ca07d9e51abab4d erofs-utils: lib: make the size of read data stored in buffer_ofs
+         95ded297173ef98a34e53cc8e7168f875f098be9 erofs-utils: lib: unify inline/shared xattr iterators for listxattr/getxattr
+         4ca74bb8a71f7ee6b7b3073142c8da0fa6fd37e6 erofs-utils: lib: use separate xattr parsers for listxattr/getxattr
+         ea2ebf868aebeb811cdc1f1e269193f52d3f3733 erofs-utils: lib: switch erofs_bread() to passing offset instead of block number
+         160d320b59bcb8abb640e3a746b68e5cccf3df98 erofs-utils: lib: remove ENOATTR definition
+         
