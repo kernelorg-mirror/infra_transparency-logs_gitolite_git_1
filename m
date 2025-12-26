@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ardb/linux
-Date: Fri, 26 Dec 2025 10:26:14 -0000
-Message-Id: <176674477439.3467869.9980310172725478423@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/andrea/ripgrep-edit
+Date: Fri, 26 Dec 2025 10:33:30 -0000
+Message-Id: <176674521018.3472409.2940218217550084435@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ardb/linux
-user: ardb
+repo: pub/scm/linux/kernel/git/andrea/ripgrep-edit
+user: andrea
 changes:
-  - ref: refs/heads/x86-pie-v3
-    old: 9666d4c98942e23b1796493bc5072545b430f361
-    new: f791cf0de03ecd9de38c47bd23da4125e24da4ab
+  - ref: refs/heads/main
+    old: 1feac8430a68098a7d39b778e21d90e4d91e8354
+    new: 4442522f9c3c046ced72315e33a5274e0d6e1928
     log: |
-         5a6587a00922840e8a257f0deacb00893aa15582 x86/kernel: Switch to PIE linking for the core kernel
-         f791cf0de03ecd9de38c47bd23da4125e24da4ab x86/tools: Drop x86_64 support from 'relocs' tool
+         e0ed7480ae20de39f55c56c00110e961bd495ec4 Add keybinding to terminate outstanding rg-edit processes
+         4442522f9c3c046ced72315e33a5274e0d6e1928 version
          
