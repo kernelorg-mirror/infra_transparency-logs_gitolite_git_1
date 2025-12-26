@@ -1,23 +1,42 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netfilter/nf
-Date: Fri, 26 Dec 2025 19:39:18 -0000
-Message-Id: <176677795825.3882913.7687172671520950896@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============2544081598330291234=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mic/linux
+Date: Fri, 26 Dec 2025 19:41:35 -0000
+Message-Id: <176677809545.3886402.14167802405471881078@gitolite.kernel.org>
+
+--===============2544081598330291234==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netfilter/nf
-user: fwestphal
+repo: pub/scm/linux/kernel/git/mic/linux
+user: mic
 changes:
-  - ref: refs/heads/testing
-    old: dbd82c5dea1221f669b2a05567a9a0b45ff35d0e
-    new: 35f3801221b11726138eeb5086f6a123bd44ec4d
-    log: |
-         5a3cff1f6f07e35e210448e22f007f604f3345c6 netfilter: replace -EEXIST with -EBUSY
-         f673205674ddcd3ddb929c28e5b57f9f7b524c4e netfilter: nf_conncount: update last_gc only when GC has been performed
-         7d3e7a4e3f354ed9186369fa67f17edfeda136b3 netfilter: nf_conncount: increase the connection clean up limit to 64
-         f0e65b4a5b7ab48529661f996f5658953e77287d netfilter: nf_conntrack: Add allow_clash to generic protocol handler
-         35f3801221b11726138eeb5086f6a123bd44ec4d netfilter: nf_tables: Fix memory leak in nf_tables_newrule()
-         
+  - ref: refs/heads/next
+    old: 161db1810f3625e97ab414908dbcf4b2ab73c309
+    new: 133cab799c227e66522c3415b8908840e231da7f
+    log: revlist-161db1810f36-133cab799c22.txt
+
+--===============2544081598330291234==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-161db1810f36-133cab799c22.txt
+
+552dbf47a85c3b0eea1d7984ce3794b8d9b20e94 landlock: Fix formatting
+e4d82cbce2258f454634307fdabf33aa46b61ab0 landlock: Fix TCP handling of short AF_UNSPEC addresses
+bd09d9a05cf04028f639e209b416bacaeffd4909 selftests/landlock: Fix TCP bind(AF_UNSPEC) test case
+6685201ebfacff0c889bcd569181fa6e8af5575e selftests/landlock: Add missing connect(minimal AF_UNSPEC) test
+e1a57c33590a50a6639798e60a597af4a23b0340 selftests/landlock: Remove invalid unix socket bind()
+e4aa4461d4acb922ef45785581232f0588a6eea8 selftests/landlock: NULL-terminate unix pathname addresses
+29fbfa46e4287c596bdc77e2c599e3a1bbf8bb67 landlock: Fix wrong type usage
+60207df2ebf3b740770aa605173d2d7d19ee66b2 landlock: Remove useless include
+03a0ff99ef2e4958141f7b4c573722fc8f4b9539 landlock: Improve erratum documentation
+aa9877d74c07045f712a4ec82105505e69cd5efe landlock: Clean up hook_ptrace_access_check()
+6548fb521822a5c0a688e423df28b2248a59543b landlock: Fix spelling
+133cab799c227e66522c3415b8908840e231da7f landlock: Optimize stack usage when !CONFIG_AUDIT
+
+--===============2544081598330291234==--
