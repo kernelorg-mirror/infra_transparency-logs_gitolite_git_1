@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0003163787015254329=="
+Content-Type: multipart/mixed; boundary="===============7310934007641091331=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs
-Date: Fri, 26 Dec 2025 02:23:04 -0000
-Message-Id: <176671578425.3114617.11749682118069567165@gitolite.kernel.org>
+Date: Fri, 26 Dec 2025 02:23:41 -0000
+Message-Id: <176671582114.3114973.17154202207867791684@gitolite.kernel.org>
 
---===============0003163787015254329==
+--===============7310934007641091331==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/xiang/erofs
 user: xiang
 changes:
-  - ref: refs/heads/dev
-    old: e68e6eb58221ce30497c238d37704d230321869d
-    new: 97efa004aca1ef7b090bc97f836902598886fd7a
-    log: revlist-e68e6eb58221-97efa004aca1.txt
+  - ref: refs/heads/master
+    old: 8f0b4cce4481fb22653697cced8d0d04027cb1e8
+    new: 9448598b22c50c8a5bb77a9103e2d49f134c9578
+    log: revlist-8f0b4cce4481-9448598b22c5.txt
 
---===============0003163787015254329==
+--===============7310934007641091331==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e68e6eb58221-97efa004aca1.txt
+Content-Disposition: attachment; filename=revlist-8f0b4cce4481-9448598b22c5.txt
 
 1b9439c933b500cb24710bbd81fe56e9b0025b6f KVM: selftests: Add missing "break" in rseq_test's param parsing
 e2b43fb25243d502ad36b07bab9de09f4b76fff9 KVM: x86: Apply runtime updates to current CPUID during KVM_SET_CPUID{,2}
@@ -368,9 +368,5 @@ f67e8a5e3ead61692d24a68e30496bd2634f5b68 Merge tag 'xfs-fixes-6.19-rc2' of git:/
 10a0e846d806b779a059b6ee35df729b96cc3ad1 Merge tag 'input-for-v6.19-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/dtor/input
 1123cfe8cfe942e604a2693494b234dfba8b9fee Merge tag 'coccinelle-6.19' of git://git.kernel.org/pub/scm/linux/kernel/git/jlawall/linux
 9448598b22c50c8a5bb77a9103e2d49f134c9578 Linux 6.19-rc2
-e34cf7fb63dff4374cbc7b94c26f3cba7d6fac07 erofs: Use %pe format specifier for error pointers
-86b866618d34dfa3056caf8120efc418cd6adb98 erofs: make z_erofs_crypto[] static
-a9f44cf8b918741c97c3fbc2c100059a5b60e12e erofs: simplify the code using for_each_set_bit
-97efa004aca1ef7b090bc97f836902598886fd7a erofs: improve LZ4 error strings
 
---===============0003163787015254329==--
+--===============7310934007641091331==--
