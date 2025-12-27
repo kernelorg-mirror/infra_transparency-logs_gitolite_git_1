@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7181974064399527666=="
+Content-Type: multipart/mixed; boundary="===============1128679993856281004=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Sat, 27 Dec 2025 10:40:39 -0000
-Message-Id: <176683203985.364939.6273581121503658480@gitolite.kernel.org>
+Date: Sat, 27 Dec 2025 10:40:59 -0000
+Message-Id: <176683205975.365268.2351786995013826411@gitolite.kernel.org>
 
---===============7181974064399527666==
+--===============1128679993856281004==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,15 +16,31 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: 2aca39f268ae7cddc562854af2c2bb72298678c9
-    new: 58cd5decace288c0002cd9899a921e73b5ea349e
-    log: revlist-2aca39f268ae-58cd5decace2.txt
+    old: 58cd5decace288c0002cd9899a921e73b5ea349e
+    new: 538254cd98afb31b09c4cc58219217d8127c79be
+    log: |
+         2593aef8ed837600fc531d58e9d072c1c2d7fa2c Merge branch into tip/master: 'core/urgent'
+         3ae2ef172583a4b7e710879aff1ce564f223766a Merge branch into tip/master: 'irq/core'
+         8d5b3c9f47d524b3c09122a5e3b7aec76615c5ca Merge branch into tip/master: 'irq/drivers'
+         074581cf5e4d33622209194fb34b5aa9065161dd Merge branch into tip/master: 'irq/msi'
+         a8697e794d4271a5fec695f74b3558fca9b46ca6 Merge branch into tip/master: 'locking/core'
+         766cca7c993b521c20a5fdd079ab5a0059d72395 Merge branch into tip/master: 'perf/core'
+         f3b2700a139447d59d20fa3bf144033866806dab Merge branch into tip/master: 'sched/core'
+         c73e53a025496f7da681dd6002e1c8fbf54b376c Merge branch into tip/master: 'timers/core'
+         7e595b3bf62b1364db1a1f6a4f5628fae19b95d5 Merge branch into tip/master: 'x86/boot'
+         910b3553fc170be5723218be81344043a0a1ef03 Merge branch into tip/master: 'x86/cpu'
+         538254cd98afb31b09c4cc58219217d8127c79be Merge branch into tip/master: 'x86/irq'
+         
+  - ref: refs/heads/tip/urgent
+    old: 8548057de967576856ceea9e1b59914507301a24
+    new: 2593aef8ed837600fc531d58e9d072c1c2d7fa2c
+    log: revlist-8548057de967-2593aef8ed83.txt
 
---===============7181974064399527666==
+--===============1128679993856281004==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2aca39f268ae-58cd5decace2.txt
+Content-Disposition: attachment; filename=revlist-8548057de967-2593aef8ed83.txt
 
 d8932355f8c5673106eca49abd142f8fe0c1fe8b rust: dma: add helpers for architectures without CONFIG_HAS_DMA
 1f7d6e2efeedd8f545d3e0e9bf338023bf4ea584 scsi: scsi_debug: Fix atomic write enable module param description
@@ -69,6 +85,6 @@ b63f4a4e95d61bc7fc3db074f3689c849f27f046 Merge tag 'efi-fixes-for-v6.19-1' of gi
 1e5e062ad84c4b700f1a6d51a548c936784f8951 Merge tag 'driver-core-6.19-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/driver-core/driver-core
 04688d6128b7c8b4ccec2913e7f2ff1c4437da96 Merge tag 'v6.19-rc2-smb3-client-fix' of git://git.samba.org/sfrench/cifs-2.6
 c53f467229a78287efa5b9f65bd22de64416660f Merge tag 'scsi-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
-58cd5decace288c0002cd9899a921e73b5ea349e Merge branch 'linus'
+2593aef8ed837600fc531d58e9d072c1c2d7fa2c Merge branch into tip/master: 'core/urgent'
 
---===============7181974064399527666==--
+--===============1128679993856281004==--
