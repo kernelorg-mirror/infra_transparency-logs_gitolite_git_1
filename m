@@ -1,72 +1,57 @@
-Content-Type: multipart/mixed; boundary="===============0315236731105396808=="
+Content-Type: multipart/mixed; boundary="===============0947750060934061500=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sashal/linus-next
-Date: Sat, 27 Dec 2025 21:13:43 -0000
-Message-Id: <176687002348.838446.12294013185565238634@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sj/damo
+Date: Sat, 27 Dec 2025 21:20:29 -0000
+Message-Id: <176687042959.845357.15246232702475505495@gitolite.kernel.org>
 
---===============0315236731105396808==
+--===============0947750060934061500==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sashal/linus-next
-user: sashal
+repo: pub/scm/linux/kernel/git/sj/damo
+user: sj
 changes:
-  - ref: refs/heads/linus-next
-    old: 427e7e3b55d33fd398877b84385ae0725f7de65f
-    new: 9554d27df7f0b1d281e03df02cdfc13dab9c6efd
-    log: revlist-427e7e3b55d3-9554d27df7f0.txt
+  - ref: refs/heads/next
+    old: e081972b53e50d39ac9d1de2591e89b76b43cc64
+    new: 855ae0188cb378096f6be9fd1b090eabd30dbe63
+    log: revlist-e081972b53e5-855ae0188cb3.txt
 
---===============0315236731105396808==
+--===============0947750060934061500==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-427e7e3b55d3-9554d27df7f0.txt
+Content-Disposition: attachment; filename=revlist-e081972b53e5-855ae0188cb3.txt
 
-129049d4fe22c998ae9fd1ec479fbb4ed5338c15 drm/msm: adreno: fix deferencing ifpc_reglist when not declared
-ef3b04091fd8bc737dc45312375df8625b8318e2 drm/msm/a6xx: move preempt_prepare_postamble after error check
-6c6915bfea212d32844b2b7f22bc1aa3669eabc4 drm/msm: add PERFCTR_CNTL to ifpc_reglist
-d2b6e710d2706c8915fe5e2f961c3365976d2ae1 drm/msm: Fix a7xx per pipe register programming
-b61104e7a6349bd2c2b3e2fb3260d87f15eda8f4 regulator: uapi: Use UAPI integer type
-9c6552cc209788b77b45ff6c4b3869131da1c47e regulator: Add UAPI headers to MAINTAINERS
-e0c8755d44eb85afd40100586076c3dc4b62ee3b spi: dt-bindings: sun6i: Add compatibles for A523's SPI controllers
-c81f30bde5b0449d9d82d31a66f0ffd608e610b5 spi: sun6i: Support A523's SPI controllers
-d67396c9d697041b385d70ff2fd59cb07ae167e8 spi: cadence-quadspi: Prevent lost complete() call during indirect read
-5bfbbf0a49ee4b5dcf46a3bfd4cd860d72cc887d spi: cadence-quadspi: Improve CQSPI_SLOW_SRAM quirk if flash is slow
-b005d618c8547b7dfb14e83a1b410a6a04ac36c6 spi: cadence-quadspi: Prevent indirect read
-a50d8777159ad8ec932d5bbe0fe30a3815b63cfc drm/msm/disp: mdp_format: fix all kernel-doc warnings
-23bee889e33d72e8d764b435adc6cc0e8a345e94 drm/msm/dp: fix all kernel-doc warnings
-ce26953807ee2a7e9f2a70eeaca249f81fd2b473 drm/msm/dpu: dpu_hw_cdm.h: fix all kernel-doc warnings
-686f6aafd39f0ea075c3bc69c9991a149e82e73e drm/msm/dpu: dpu_hw_ctl.h: fix all kernel-doc warnings
-70e66a0c5b1bc1923d6e91c938ed2ce1f12331df drm/msm/dpu: dpu_hw_cwb.h: fix all kernel-doc warnings
-9d22d53ecb1576f7cadec186eac8b91ccba58da8 drm/msm/dpu: dpu_hw_dsc.h: fix all kernel-doc warnings
-399f4345f07a94d9b3841d4eeedb746686eb478f drm/msm/dpu: dpu_hw_dspp.h: fix all kernel-doc warnings
-f6d754552b55d06c2d7beb857b1afc56f9004423 drm/msm/dpu: dpu_hw_intf.h: fix all kernel-doc warnings
-7ce9dd5eca99a236634ad2a105a5ffa2c1d8387c drm/msm/dpu: dpu_hw_lm.h: fix all kernel-doc warnings
-847c12befab422db8b17f9749d711ba7e2301094 drm/msm/dpu: dpu_hw_merge3d.h: fix all kernel-doc warnings
-abc287a76e1c3b641dc2302b658574cf1e660732 drm/msm/dpu: dpu_hw_pingpong.h: fix all kernel-doc warnings
-f5a7145d0fb1c0780b0601ef173426fbef8c8a1f drm/msm/dpu: dpu_hw_sspp.h: fix all kernel-doc warnings
-6e945d518a573db3e257dcdf4c61d1ed1d71c42b drm/msm/dpu: dpu_hw_top.h: fix all kernel-doc warnings
-3091c572fefd9f09ae2c54d964e6b6b2756c1ba1 drm/msm/dpu: dpu_hw_vbif.h: fix all kernel-doc warnings
-a6ccad66048aeb75c4e70ad7031ff3c28e249fce drm/msm/dpu: dpu_hw_wb.h: fix all kernel-doc warnings
-4fc510e571615a11e24c2cb20496115ce1a76ba0 drm/msm: msm_fence.h: fix all kernel-doc warnings
-010c98df53ced9077eef7a2eab3f8e55d4e9675b drm/msm: msm_gem_vma.c: fix all kernel-doc warnings
-cd5697865258d431e261c7a30bfbc43b1ff9bca4 drm/msm: msm_gpu.h: fix all kernel-doc warnings
-7c85da6f63b15b83a7d7ee2565e4020cf904f2e9 drm/msm: msm_iommu.c: fix all kernel-doc warnings
-35ab5123bd24dcb082d8e7152536bb2bcda5e054 Revert "drm/msm/dpu: support plane splitting in quad-pipe case"
-da9168d8ef1cbc5dcd1cee91416bd7b408ca8377 Revert "drm/msm/dpu: Enable quad-pipe for DSC and dual-DSI case"
-88733a0b64872357e5ecd82b7488121503cb9cc6 drm/msm/dpu: Add missing NULL pointer check for pingpong interface
-60489936aced785ef9e5a865e23a296bd0b470b6 regulator: fp9931: fix regulator node pointer
-66691e272e40c91305f1704695e0cb340cd162ff drm/msm: Replace unsafe snprintf usage with scnprintf
-479e25d88d1681e04cac708501180db606aecd1e Merge tag 'drm-msm-fixes-2025-12-26' of https://gitlab.freedesktop.org/drm/msm into drm-fixes
-0d362c7fa165106b4facafb23906108a9db4206a Merge tag 'drm-fixes-2025-12-27' of https://gitlab.freedesktop.org/drm/kernel
-651df419975af905000c3a0b02123062360bb688 Merge tag 'regulator-fix-v6.19-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/regulator
-d26143bb38e2546fe6f8c9860c13a88146ce5dd6 Merge tag 'spi-fix-v6.19-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/spi
-bd94de6d04c3f330327320984c59db852e97e010 Merge remote-tracking branch 'origin/master' into arch-next
-6616da3a2d4118a2dd5cae4a44c016556b55543d Merge remote-tracking branch 'origin/master' into all-next
-9554d27df7f0b1d281e03df02cdfc13dab9c6efd Merge branch 'arch-next' into all-next
+cc02b427ed53d21739f0a794b5677f2d56b70b01 tests/unit/test_damo_records: test parse_damon_trace_region()
+e6b2822a9f7e0e48cd8338df1e56bc74804e534c tests/unit/test_damo_records: test damon_trace_fields()
+a16373899de50c0e161795e26628c24799d4d9ed tests/unit/test_damo_records: test perf output for damon_trace_region()
+c8b7622ea1aec11aee661bf57d0720136122d1ff test_damo_records: make test data for parse_damon_trace_region() more useful
+35872a5f2583f9189b68d47d5ed9b9767e933202 _damo_records: rename damon_aggregated trace parsing function
+5307c7a085f24e73eb033f197cbcf260b7a57301 _damo_records: rename damos_before_apply trace parsing function
+e7853c71aa91cc074a81f380e3e47e8c2cce3a43 _damo_records: remove unrelated comment on parse_damos_trace_before_apply()
+fd55400b90e83fccf6aa26fbfea8802f51418f95 TODO: add an item for more trace-cmd/perf output parsing
+84f5bb7f5823dc282ba207566ec4580d19059f7e _damo_records: rename perf_pipe to damon_tracer_pipe
+86722d65064c434fe61db6b0d17006fe952059e4 _damo_records: rename start_recording_perf to start_damon_tracing
+c2876dc7917fd33f76366d08b99dd722def87b70 damo_record: set perf path only if --perf_path is given
+374d50003392e4dca59040db6abb04fdaf42984a _damo_sysinfo: manage trace-cmd version
+e408af979ec3756937459946846476cf992770bb damo_report_sysinfo: support printing trace-cmd version
+97861a6076f9dd526e386f43b1ddaf579079ea52 _damo_records: move perf data type handling to convert_perf_to_damon_data()
+914adb79bf99830aa457410504927cdc14a9b78b _damo_records: add RecordingHandle.damon_tracer
+7c1f138262d2bd31d02dedf5687cb1e01719ef13 _damo_records: support trace-cmd output parsing
+ff793ec58bab8cafdce5e510acb87d5ef4346904 _damo_records: support trace-cmd based recording
+58002f4a1205b71617791bb8a62c6d33589a9f1d damo_record: add --damon_tracer option for using trace-cmd
+f09c523eaa150eea37ea16b9d8d20df5aaf66376 _damo_records: suppress trace-cmd outputs
+f9e9bafce5e53c47010a452d8320e6176a2d0d54 release_note: update for --damon_tracer option
+fb6ed01bce0001087ba2c17630a3e8d62025371c _damo_sysinfo: directly read tracepoints from tracefs
+c908b06b3ad83f1022142ff580fa1f967ba4a4ad TODO: add an item for better trace feature check failure handling
+773343d8d20424a3a8c9fc4d6821041c288bb7a4 _damo_records: remove tracepoint check on set_perf_path()
+3cb848571aaf437b42abff8e05078b8ab2a592e7 _damo_records: implement RecordingHandle.set_perf_path()
+77e59cfd43068715dd4e6b154431a9060ffd7445 damo_record: use RecordingHandle.set_perf_path()
+85395054974ce3a5e827c76475a51a282899445c _damo_records: replace PERF with RecordingHandle.perf_path
+855ae0188cb378096f6be9fd1b090eabd30dbe63 _damo_records: remove PERF
 
---===============0315236731105396808==--
+--===============0947750060934061500==--
