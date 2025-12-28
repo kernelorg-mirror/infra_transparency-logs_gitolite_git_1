@@ -1,56 +1,28 @@
-Content-Type: multipart/mixed; boundary="===============2816942809698355486=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux-w1
-Date: Sun, 28 Dec 2025 11:18:44 -0000
-Message-Id: <176692072489.1464834.17120727758076822796@gitolite.kernel.org>
-
---===============2816942809698355486==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/driver-core/driver-core
+Date: Sun, 28 Dec 2025 11:32:23 -0000
+Message-Id: <176692154386.1475884.18138575927841515780@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/krzk/linux-w1
-user: krzk
-git_push_cert_status: Y
+repo: pub/scm/linux/kernel/git/driver-core/driver-core
+user: dakr
 changes:
-  - ref: refs/heads/for-next
-    old: 761fcf46a1bd797bd32d23f3ea0141ffd437668a
-    new: cc8f92e41eb76f450f05234fef2054afc3633100
+  - ref: refs/heads/driver-core-next
+    old: 1b89d4a6bb4cd7cfd7eb2e3621f04fda956e4ef3
+    new: 43e3518582cfc0fc1bb536b62d7f8366ee069ce9
     log: |
-         cc8f92e41eb76f450f05234fef2054afc3633100 w1: fix redundant counter decrement in w1_attach_slave_device()
+         9202cef05d6b61a03475b744c7f0622cd8be8e90 rust: debugfs: use "kernel vertical" style for imports
+         6fc4b5eb63c7c4c1f2251277ad1f0d04ac047d91 rust: auxiliary: replace `kernel::c_str!` with C-Strings
+         f0c6ea853bd7f48aeec231e9378fc17cf36b9109 rust: device: replace `kernel::c_str!` with C-Strings
+         1114c87e49642165a224c28ceaa333e8504ff122 rust: platform: replace `kernel::c_str!` with C-Strings
+         0250ea325cda689525139ae5f069974e7ed6d886 rust: io: replace `kernel::c_str!` with C-Strings
+         644672e93a1aa6bfc3ebc102cbf9b8efad16e786 rust: irq: replace `kernel::c_str!` with C-Strings
+         f47a8f595a5ed5a9602d71c31671e121da00c0e6 rust: debugfs: replace `kernel::c_str!` with C-Strings
+         652ff12476986bb9aa6749b9dc28c305992e81d0 samples: rust: debugfs: replace `kernel::c_str!` with C-Strings
+         185c81461ff4987d35fdfc4c8da46ae51ee5ada4 samples: rust: pci: replace `kernel::c_str!` with C-Strings
+         43e3518582cfc0fc1bb536b62d7f8366ee069ce9 samples: rust: faux: replace `kernel::c_str!` with C-Strings
          
-
---===============2816942809698355486==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher krzk@kernel.org 1766920723 +0100
-pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux-w1.git
-nonce 1766920723-35854a78080d6b48d1f083583b6b4ac9467134e4
-
-761fcf46a1bd797bd32d23f3ea0141ffd437668a cc8f92e41eb76f450f05234fef2054afc3633100 refs/heads/for-next
------BEGIN PGP SIGNATURE-----
-
-iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmlREhMQHGtyemtAa2Vy
-bmVsLm9yZwAKCRDBN2bmhouD10oAD/9k6+uWu5l1jWXCB7Oi9ItF0QnCZX39w14+
-JW5fb/RsA602nfI8zMQqXuc9PWqWtlMrYoW+VkyPtlAqHSocUXsCdCw5mM93C6za
-HRP+zjwhHcYzu8OTy91TDtrCl/E1sB9k4w8BirT8gXTnoYbiCDmPE0PedxpTZIvR
-oVrpRPr/bh4rm+o9Zux55vKXeSSgx4PP9AXeOOcS/0mhngtCHTh8CbEEJZ/dYdT1
-CLcQG2xSB7hjAOmKQtqqcxrS5LMj/g0vp7xFEFhg1kpb2Rw9BX3g/8LbRM+Cqx1t
-H8Iw9p+2nH2b2pJRFn605CMpkBQq52XUHcjw4Xygh99L3d0aDiGkyFuV0AtKZA1n
-A8qzMFPufczTJ8DzMac1v/HYKMV9E+nBuzz+YEZLj/XGcI/WHbMHMSVzTJolo1Mk
-LCAxwMhZaA9VlKMaZm5T6bBnEJRLw3BvsCS4zLlctzCE0u5dHdWIqztOUkKc9uRS
-POaFwPOIOj76wRXJSf80d8+v39y5LySRR1IK7UcpHJVuF82GEfDYOa0eUSbQUt/N
-oDTcVMNZboeMdznbgU6WadeVWaUFmCKdwJ8KVEJfChPkMOe0Y71Wx+fZyMY0lnAV
-gHkoV9odyU4xfWfMgreqAOim6kehQ15yB2y6Y2K5XxXRCUExhwgE/y12VVF+9mtU
-2WfNfllF+g==
-=3xiY
------END PGP SIGNATURE-----
-
---===============2816942809698355486==--
