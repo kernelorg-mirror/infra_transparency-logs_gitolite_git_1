@@ -1,53 +1,58 @@
-Content-Type: multipart/mixed; boundary="===============4729999039722610919=="
+Content-Type: multipart/mixed; boundary="===============8404372856190122879=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Sun, 28 Dec 2025 12:43:29 -0000
-Message-Id: <176692580972.1530891.17263711065134880973@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
+Date: Sun, 28 Dec 2025 12:55:22 -0000
+Message-Id: <176692652247.1540555.8669771051352797405@gitolite.kernel.org>
 
---===============4729999039722610919==
+--===============8404372856190122879==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/tty
+repo: pub/scm/linux/kernel/git/gregkh/char-misc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/tty-6.19-rc3
-    old: 0000000000000000000000000000000000000000
-    new: 44bbbfbd1ce392c2f68fa0a70d818bde558a8f7e
+  - ref: refs/heads/char-misc-linus
+    old: 9448598b22c50c8a5bb77a9103e2d49f134c9578
+    new: d8aef84e60bd1671e3c0593028e06f9f75367003
+    log: |
+         23f9485510c338476b9735d516c1d4aacb810d46 counter: interrupt-cnt: Drop IRQF_NO_THREAD flag
+         9517d76dd160208b7a432301ce7bec8fc1ddc305 counter: 104-quad-8: Fix incorrect return value in IRQ handler
+         d8aef84e60bd1671e3c0593028e06f9f75367003 Merge tag 'counter-fixes-for-6.19' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/wbg/counter into char-misc-linus
+         
 
---===============4729999039722610919==
+--===============8404372856190122879==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1766925808 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1766925808-200df0b31a9798c699cea802c2ac3e362ade9ebe
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1766926521 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
+nonce 1766926520-6999c9135bf2dcddb98f715d6f4ed5a62f20decc
 
-0000000000000000000000000000000000000000 44bbbfbd1ce392c2f68fa0a70d818bde558a8f7e refs/tags/tty-6.19-rc3
+9448598b22c50c8a5bb77a9103e2d49f134c9578 d8aef84e60bd1671e3c0593028e06f9f75367003 refs/heads/char-misc-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmlRJfAbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+iSYP/0RTSuZMFplLaS54xYRu
-szyGSO1JE6CYcRMJPl/CZdexROpDv7tL1+TNF4fgs/xzWU0rnBE+FZ4K6+9ryanE
-sZpT1dNHSvnIzSx/JqqIUTKJ12NCSe36UjjqCo62e//iL8A94cyO+sevz6LP1Ijk
-YT8W2y86wwt6uNSlAftXLTYenegtlICITnGv2QuVL5gqDNYiK1Gbt2BSPeIsNYAB
-aNgYn/OazGCduJ9alHNAoO2X668aj9WkHTUnTUMk6wBQYx/dqnvyxE2qPtQReYPW
-G3NCZ9q5dkwyTqn33wuPZis5DV1+UHuWs5EDHGr05CeDdaWyvTBCNCVTStaeGMTS
-nQuZu1vx3oreu0sHjL538Mz9UG9PpaigVE+TkWRLUOT7LQQyu3gY4aU3OuOZK7p8
-bYbXz9oc6XfnXo2PyHe0aWmaviAar9glJJS95kVD8pxf89LRTBYKay5lLJ6Sw/Vq
-nNTX+pN9gli/8vmVNWwHB/qTZguSZuM+J1cnrnLQYlOJCKvxfIlqJz6N3BMIqynW
-8CCgqTi6GMZVoxnptJbddT5QrxZjxOuajrIZJtw5qvWjCGdGKsp3r+eNDjzbU5Vu
-ImeIxvQM7KFyvJEG0BjnoQkPq5gjeMHTf9dA4+esyDsA3TvGdUp15+4gWasJtk7v
-0bejMDcUDYbNFyPxDPWma67V
-=RA8H
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmlRKLkbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+bwAQALcSgPHEIS1il9ViPoCV
+t6TKUZxdVyeEi3hP+I0jcu3cMXT13L/ZMpctN18qgSompUiFVRpPVc2CZiyDMJD4
+Eg9zE2CL+YBeEUn3SRVI44jSZmoxvYYK3EiahCnmZSzt82YtHpF5lIwr/MpXH+hI
+0VFJ/LKCvSqfi23jUpVdwtbr9v++vjRIuRtjCST8dGfiEbXQCRn5+AEgzuCdhiPX
+XSf0mHWrXXSFx07JjtXBPFFB42Wrd92gmLbrx9dNTjObqHDNL7wd9TGjcwqA8S09
+/5N3LaUsx3woZpXUzEZ6DofU4304zI3wE6HnMUGZYl2ONLe78ifj3iXSjzippiOW
+wisKOlwRHq634szUJ++4EBzeQcn1YORArFxLSdV1Y8PPNvW/ZpaF+pYiF8jNIEuL
+sgbVki92g8GG+z6Rhc28aqncqjZUcfQ+vswvLBjFEXRyurG5N/aj5Efr8F88sjg/
+1CWLZICjHL1HTQ83vU8/472Ws4dm4M7e9VQLMOHQYYmEgNeF/vKzgyjqdZRwtMKY
+JLxEhi8ppCUID3hhbpuU/WD3gMkPUZX3fF5AtFhf6v2MZsWYGEzcwfmMS7bc22Uw
+djVjecGJdCyv2X+s7yvWJyANtWw66/4Qdn6GYdcuxpJg3+JaIgMn9BSiZY2pRx1j
+Jq+ulGT+aR5/HP8M0NGdmEMQ
+=hMdv
 -----END PGP SIGNATURE-----
 
---===============4729999039722610919==--
+--===============8404372856190122879==--
