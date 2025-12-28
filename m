@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6499732642401972041=="
+Content-Type: multipart/mixed; boundary="===============3090883071617305863=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ulfh/linux-pm
-Date: Sun, 28 Dec 2025 15:50:24 -0000
-Message-Id: <176693702434.1671016.13498358232801764875@gitolite.kernel.org>
+Date: Sun, 28 Dec 2025 15:50:43 -0000
+Message-Id: <176693704371.1671647.8384405800734896881@gitolite.kernel.org>
 
---===============6499732642401972041==
+--===============3090883071617305863==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,19 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ulfh/linux-pm
 user: ulfh
 changes:
-  - ref: refs/heads/next
-    old: 1f67707fafa598e2338dba08e3de0db3e468afd1
-    new: 18246def2bc7e08a8888e4426a88b01f14221504
-    log: revlist-1f67707fafa5-18246def2bc7.txt
+  - ref: refs/heads/fixes
+    old: c98c99d5dbdf9fb0063650594edfd7d49b5f4e29
+    new: c07cd646773ea58427576b8f3708b7ea988ae98e
+    log: revlist-c98c99d5dbdf-c07cd646773e.txt
 
---===============6499732642401972041==
+--===============3090883071617305863==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1f67707fafa5-18246def2bc7.txt
+Content-Disposition: attachment; filename=revlist-c98c99d5dbdf-c07cd646773e.txt
 
+c914d68371b0defc7dbc06a404eb0ef03180014b perf vendor events intel: Update alderlake events from 1.34 to 1.35
+99eb7146cd6d04bb4bf1b1193cd17e8c04761ed9 perf vendor events intel: Update arrowlake events from 1.13 to 1.14
 5a341ccbdda901b5b492101bc98e443540f5598d perf vendor events intel: Update cascadelakex metric units
 1d341e543f1cdbca4fbf00f55f005e937762f7a3 perf vendor events intel: Update graniterapids events from 1.15 to 1.16
 cf99cdf53e30101c0e6dfef845e06c22a866f573 perf vendor events intel: Update icelakex events from 1.28 to 1.30
@@ -1046,9 +1048,7 @@ f67e8a5e3ead61692d24a68e30496bd2634f5b68 Merge tag 'xfs-fixes-6.19-rc2' of git:/
 10a0e846d806b779a059b6ee35df729b96cc3ad1 Merge tag 'input-for-v6.19-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/dtor/input
 1123cfe8cfe942e604a2693494b234dfba8b9fee Merge tag 'coccinelle-6.19' of git://git.kernel.org/pub/scm/linux/kernel/git/jlawall/linux
 9448598b22c50c8a5bb77a9103e2d49f134c9578 Linux 6.19-rc2
-a9fc0013bf1976197a8db43d6b0cee98e45a240a pmdomain: imx93-blk-ctrl: cleanup error path
-5672a1fb91a570e7b7fdd42c35c143fcc140949c pmdomain: imx93-blk-ctrl: convert to devm_* only
-104afec6ed60174a8d3ed3dc2b92c1ab969f86a5 pmdomain: imx93-blk-ctrl: add support for optional subnodes
-18246def2bc7e08a8888e4426a88b01f14221504 pmdomain: imx: gpcv2: Discard pm_runtime_put() return value
+4c650a4c9d0f4d80c42f93506d0fe3df8f7284e3 pmdomain: mtk-pm-domains: Fix spinlock recursion fix in probe
+c07cd646773ea58427576b8f3708b7ea988ae98e pmdomain: imx: Fix reference count leak in imx_gpc_probe()
 
---===============6499732642401972041==--
+--===============3090883071617305863==--
