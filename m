@@ -1,28 +1,79 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/driver-core/driver-core
-Date: Sun, 28 Dec 2025 11:32:23 -0000
-Message-Id: <176692154386.1475884.18138575927841515780@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============2855434236638415298=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux
+Date: Sun, 28 Dec 2025 11:33:23 -0000
+Message-Id: <176692160365.1476382.10346143414002115649@gitolite.kernel.org>
+
+--===============2855434236638415298==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/driver-core/driver-core
-user: dakr
+repo: pub/scm/linux/kernel/git/krzk/linux
+user: krzk
+git_push_cert_status: Y
 changes:
-  - ref: refs/heads/driver-core-next
-    old: 1b89d4a6bb4cd7cfd7eb2e3621f04fda956e4ef3
-    new: 43e3518582cfc0fc1bb536b62d7f8366ee069ce9
+  - ref: refs/heads/for-next
+    old: 4a50328138e7fa8a27afdfffff05a1f96e749fe1
+    new: 5bb278529d6fc8faa651e711b49995d2be2c3a32
     log: |
-         9202cef05d6b61a03475b744c7f0622cd8be8e90 rust: debugfs: use "kernel vertical" style for imports
-         6fc4b5eb63c7c4c1f2251277ad1f0d04ac047d91 rust: auxiliary: replace `kernel::c_str!` with C-Strings
-         f0c6ea853bd7f48aeec231e9378fc17cf36b9109 rust: device: replace `kernel::c_str!` with C-Strings
-         1114c87e49642165a224c28ceaa333e8504ff122 rust: platform: replace `kernel::c_str!` with C-Strings
-         0250ea325cda689525139ae5f069974e7ed6d886 rust: io: replace `kernel::c_str!` with C-Strings
-         644672e93a1aa6bfc3ebc102cbf9b8efad16e786 rust: irq: replace `kernel::c_str!` with C-Strings
-         f47a8f595a5ed5a9602d71c31671e121da00c0e6 rust: debugfs: replace `kernel::c_str!` with C-Strings
-         652ff12476986bb9aa6749b9dc28c305992e81d0 samples: rust: debugfs: replace `kernel::c_str!` with C-Strings
-         185c81461ff4987d35fdfc4c8da46ae51ee5ada4 samples: rust: pci: replace `kernel::c_str!` with C-Strings
-         43e3518582cfc0fc1bb536b62d7f8366ee069ce9 samples: rust: faux: replace `kernel::c_str!` with C-Strings
+         12da6f08a07ddaddd336af878350d30449d23a54 dt-bindings: nvmem: add google,gs101-otp
+         9133ae2119cb3c948675dc566eebf11cc4bb1681 soc: samsung: exynos-chipid: rename method
+         c38cfc303db9ab4d5f482ae8e36e5a677db8eee6 soc: samsung: exynos-chipid: downgrade dev_info to dev_dbg for soc info
+         732af51910960535382db3f6e0b33e2e2b0ff7b6 soc: samsung: exynos-chipid: add google,gs101-otp support
+         9afdf3e1a59e23180540ecb1fe3287c308cc8113 arm64: dts: exynos: gs101: add OTP node
+         930bbd9d4d5e1617a48b47090b86fcf6adacd9cf Merge branch 'next/drivers' into for-next
+         5bb278529d6fc8faa651e711b49995d2be2c3a32 Merge branch 'next/dt64' into for-next
          
+  - ref: refs/heads/next/drivers
+    old: 8dfbb5fcb773a6481407ec890280cc3b1ff8e234
+    new: 732af51910960535382db3f6e0b33e2e2b0ff7b6
+    log: |
+         12da6f08a07ddaddd336af878350d30449d23a54 dt-bindings: nvmem: add google,gs101-otp
+         9133ae2119cb3c948675dc566eebf11cc4bb1681 soc: samsung: exynos-chipid: rename method
+         c38cfc303db9ab4d5f482ae8e36e5a677db8eee6 soc: samsung: exynos-chipid: downgrade dev_info to dev_dbg for soc info
+         732af51910960535382db3f6e0b33e2e2b0ff7b6 soc: samsung: exynos-chipid: add google,gs101-otp support
+         
+  - ref: refs/heads/next/dt64
+    old: 01272f05aae5f6aca4337eb52e6b9290ce12e9f7
+    new: 9afdf3e1a59e23180540ecb1fe3287c308cc8113
+    log: |
+         9afdf3e1a59e23180540ecb1fe3287c308cc8113 arm64: dts: exynos: gs101: add OTP node
+         
+
+--===============2855434236638415298==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher krzk@kernel.org 1766921601 +0100
+pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux.git
+nonce 1766921601-c8f80ffb171aee7891d3305e215a542d94f2d774
+
+4a50328138e7fa8a27afdfffff05a1f96e749fe1 5bb278529d6fc8faa651e711b49995d2be2c3a32 refs/heads/for-next
+8dfbb5fcb773a6481407ec890280cc3b1ff8e234 732af51910960535382db3f6e0b33e2e2b0ff7b6 refs/heads/next/drivers
+01272f05aae5f6aca4337eb52e6b9290ce12e9f7 9afdf3e1a59e23180540ecb1fe3287c308cc8113 refs/heads/next/dt64
+-----BEGIN PGP SIGNATURE-----
+
+iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmlRFYEQHGtyemtAa2Vy
+bmVsLm9yZwAKCRDBN2bmhouD13r5EACEJEe+t8HbtHuFKmmyMYLaSXl+G/wlzK7o
+l3UGwb0w8NdTmq+LnHuCbx4jQ4jcL7Db26bS60Mfukjja+6ya7IuZoaYVUOg4MbR
+ybknMHMt0YzjPqswp64loark7uZuOBlqX79wE0cYkD4q9kV5SMiFLzFKWNa0KQmJ
+wGDlOsGpqqS/hAxDIPcwO+HTdihyw5sGctJsRuDkVZvUXvF5QiwJqrBdkkgGIQSd
+WuWQVvnjkMeEnftR9EHZwo0ZjW73lX0FiOASdulYrUlWiJH60E3Sg7LneXkVplzQ
+YW3arXJN/yH/g1D3RzaESM/zDhNUIVF92fvuXzZSbl7M4UBnOdYGpzVQi9Q0O94L
+QvhRMDwJdxXdoNQJbUyvwbrY0XAPVILTc4NvpdITZ6JmN4G2wfvypKULkxRbCNwM
+S2Zp9mSRgewmrwrXfpIaVYH6TrQP6ZJxUkP1VSsvb1O4yG+0l8nAPFf8USCK2J79
+rJXIOMf0wQ/IRBtrWNncgcjmK9WX+a5z/UakyCopfWjHDh8TErv/p63scFDuaP/G
+gyH0BXSSTAAiRkQHQfWBHJ7XyNbm1NF7CT0fJDjy8kDgOZHjcPjHs6bE7C7OrCGR
+Cd4QoyLCxdO7wTuRWfGVdNfchqI97WXkwiU8QfsZVQMYCKSnNEmWzHRScKwMsF03
+vYC+N0u7nQ==
+=mWvW
+-----END PGP SIGNATURE-----
+
+--===============2855434236638415298==--
