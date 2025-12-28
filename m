@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4748165661789477031=="
+Content-Type: multipart/mixed; boundary="===============7859416019021061444=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux-w1
-Date: Sun, 28 Dec 2025 11:18:34 -0000
-Message-Id: <176692071477.1464470.11984044615970279599@gitolite.kernel.org>
+Date: Sun, 28 Dec 2025 11:18:39 -0000
+Message-Id: <176692071993.1464691.2890666528871658442@gitolite.kernel.org>
 
---===============4748165661789477031==
+--===============7859416019021061444==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,41 +16,42 @@ repo: pub/scm/linux/kernel/git/krzk/linux-w1
 user: krzk
 git_push_cert_status: Y
 changes:
-  - ref: refs/heads/w1-next
-    old: 761fcf46a1bd797bd32d23f3ea0141ffd437668a
+  - ref: refs/heads/fixes
+    old: 8f0b4cce4481fb22653697cced8d0d04027cb1e8
     new: cc8f92e41eb76f450f05234fef2054afc3633100
     log: |
+         761fcf46a1bd797bd32d23f3ea0141ffd437668a w1: therm: Fix off-by-one buffer overflow in alarms_store
          cc8f92e41eb76f450f05234fef2054afc3633100 w1: fix redundant counter decrement in w1_attach_slave_device()
          
 
---===============4748165661789477031==
+--===============7859416019021061444==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher krzk@kernel.org 1766920713 +0100
+pusher krzk@kernel.org 1766920718 +0100
 pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux-w1.git
-nonce 1766920712-1b8078b57e4f233b95401fed0875d249b7673037
+nonce 1766920718-307daa8dfa56065dde62aa2c48f84501b145bc3a
 
-761fcf46a1bd797bd32d23f3ea0141ffd437668a cc8f92e41eb76f450f05234fef2054afc3633100 refs/heads/w1-next
+8f0b4cce4481fb22653697cced8d0d04027cb1e8 cc8f92e41eb76f450f05234fef2054afc3633100 refs/heads/fixes
 -----BEGIN PGP SIGNATURE-----
 
-iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmlREgkQHGtyemtAa2Vy
-bmVsLm9yZwAKCRDBN2bmhouD1yKZD/9nRmUkehQ+g5NYZMM7xJpZc4sCjZBLAyMi
-Tms0d90PiV0JuvBTg03Yv2LfE6Pvw7c/USmbZN6fz4qzO4pDCtSGyc3BvTvkyPnO
-X7LNz7APWOnE8cUhD4gWR33cQdeCHgTyjWgHi69xEosMzOy1CeQqCbmvbdiLThoq
-IxyIrCYiDnpnTPOggm3Csi2/vn4Wkn8YSutT/l0nKgoFAxRJ/a1eUpSvaGxH9x49
-2D/4bEJjlcFgB0GAjsgqomlgQ+VL+Wbsd7WBFOUF1YxPqzrlkks2wFrgZ6+qjsw4
-DV8+vATch4hgXCGnr4YAopUiOBu3PP70uwRuRdBiW7u4WE9J5tONLByCLG56Lrxn
-ESh07HZCD4qBdMgkaATZbliFk31e69au/151+J6RZ4SS5I8PSR8g8R+9mIIA/PAs
-AF5d5QdEWQexNtlQWKP4Xo4EuybFtbgCrhZUONQa8JL/IyzTshymMLif2AXNIVNu
-REEUI0hLNZJmqJfyxhZkxkHSCgAGoIg2DslRcvkCj/ZVr3LTzD9LDSLz8IL3Pi0q
-Wg6gQjOszszGNMS4A1EhEL0ECIrOmCOIlMLpP8nP7sXsqlOmgcTF0o3Ml0ZDcaMu
-TQJvuhEg2KX6kwm81qY1awKVFMqAK/zKeZgZZ4tY649ocU3Vwc36nvHueFiX+qpF
-kGmk+GZTRA==
-=0j/4
+iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmlREg4QHGtyemtAa2Vy
+bmVsLm9yZwAKCRDBN2bmhouD18Q7D/oC73jse5oLNKYzxuBTOW/Z0/mJN7Mk7TZm
+GvjlGPMzd/BKWIbl3lDZ8w4fCLHJmlsbZpcqIacAqYDskEdJAa/uFcr0C9EPPfgU
+fPrex08hO1j8Hln3SBumY4cEsqgczzDH2IX0hX9rKOUbdIaMnxBbDVMuHxyDWi/R
+FP6LnLhSnpP4yO8YWBRlX4wIGmkgTB0pmpk2gsznxGpw+NBp6AOr69voZgkIubBq
+WoP0nL4j18KptikzsO0bUsEv7jy+A4HD15EOMjMAN9uLjZiMgnh4akFmy+9DtHWW
+sGHPQ4X584WxyOEVGbz6yeTtC5yvSNx/qQoF7dUfKgs0MIlZbw6q81K8qSL3BoSp
+DVadrxMmxtPrj/58FAxSgzx2+dzRUSaBRUsF+WLHFjV/GokgG+EORmjBxWBKQxy4
+Kl1uaqUbbjMdRCxJGojBKyaMJ000ileJUIGBmSqTY9Pt7xejd3Xu3rqeQiCapp0o
+8+l1iFtPl2zl90vlBsSBo1tZuEobp8V+q0j5642G4gcfTo9T7s7/yrRGEqXfed5D
+CteHY+lZa//c3qo/HjETk9aHnvGgvaF9TAE1zTkQv2enE+CNma/DXomh06Yx+mgI
+SFzro02l3ja+HzYzCG7/Jwnv6hTUzvH76/QWFQ/BSkF7oA/jfqQhoXuRHA17grP2
+M41+Jf7ruw==
+=7tmh
 -----END PGP SIGNATURE-----
 
---===============4748165661789477031==--
+--===============7859416019021061444==--
