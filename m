@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux
-Date: Sun, 28 Dec 2025 16:25:43 -0000
-Message-Id: <176693914326.1698101.6431183363083722508@gitolite.kernel.org>
+Date: Sun, 28 Dec 2025 16:27:08 -0000
+Message-Id: <176693922849.1699006.11908904681856178192@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,20 +11,10 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/axboe/linux
 user: axboe
 changes:
-  - ref: refs/heads/block-6.19
-    old: 04bdb1a04d8a2a89df504c1e34250cd3c6e31a1c
-    new: a2ce133969175d36d708b7c76536b375d0522e53
-    log: |
-         7fc4da6a304bdcd3de14fc946dc2c19437a9cc5a ublk: scan partition in async way
-         60cf863720308ab89ce2fdafea7fcb2cefd9c144 selftests/ublk: add test for async partition scan
-         a2ce133969175d36d708b7c76536b375d0522e53 selftests/ublk: fix Makefile to rebuild on header changes
-         
   - ref: refs/heads/for-next
-    old: 8bb6e3744776a14ab6a19759f2b2889c028c5d55
-    new: ef3201af12e41ba7075515c84f1b1fb0479498fc
+    old: ef3201af12e41ba7075515c84f1b1fb0479498fc
+    new: cbe9fe82ec9e1edeb68b11bb7b11eaa98f6fc436
     log: |
-         7fc4da6a304bdcd3de14fc946dc2c19437a9cc5a ublk: scan partition in async way
-         60cf863720308ab89ce2fdafea7fcb2cefd9c144 selftests/ublk: add test for async partition scan
-         a2ce133969175d36d708b7c76536b375d0522e53 selftests/ublk: fix Makefile to rebuild on header changes
-         ef3201af12e41ba7075515c84f1b1fb0479498fc Merge branch 'block-6.19' into for-next
+         44b8a74a16101bd710f97c46a8f1d3078e0518f5 brd: replace simple_strtol with kstrtoul in ramdisk_size
+         cbe9fe82ec9e1edeb68b11bb7b11eaa98f6fc436 Merge branch 'for-7.0/block' into for-next
          
