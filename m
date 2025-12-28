@@ -1,20 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/driver-core/driver-core
-Date: Sun, 28 Dec 2025 18:06:35 -0000
-Message-Id: <176694519533.1771458.5447040980853465142@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mic/linux
+Date: Sun, 28 Dec 2025 18:08:22 -0000
+Message-Id: <176694530215.1772012.16997329385145755931@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/driver-core/driver-core
-user: dakr
+repo: pub/scm/linux/kernel/git/mic/linux
+user: mic
 changes:
-  - ref: refs/heads/driver-core-testing
-    old: 43e3518582cfc0fc1bb536b62d7f8366ee069ce9
-    new: d43a12e474351161bb6d7e2a17ab56f591b9302d
+  - ref: refs/heads/next
+    old: 133cab799c227e66522c3415b8908840e231da7f
+    new: 46532391e2ecbfc9709259d8963d7d8103e3734b
     log: |
-         057d44b057755f31a38a3cb040960e8727b93610 rust: Add soc_device support
-         d43a12e474351161bb6d7e2a17ab56f591b9302d rust: Add SoC Driver Sample
+         0379b9a9c435bc337db66cb961b1a0b798d6565e selftests/landlock: Fix typo in fs_test
+         54c02c794a7583fa94184ffa7812b6968d0e14e4 selftests/landlock: Fix missing semicolon
+         b12e0c71d7ca9e0ba7852b1f14a7bba29cd53c06 selftests/landlock: Use scoped_base_variants.h for ptrace_test
+         46532391e2ecbfc9709259d8963d7d8103e3734b landlock: Improve the comment for domain_is_scoped
          
