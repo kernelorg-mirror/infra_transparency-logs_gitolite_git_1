@@ -1,42 +1,41 @@
-Content-Type: multipart/mixed; boundary="===============2651840548150313535=="
+Content-Type: multipart/mixed; boundary="===============0337090527872422752=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/chao/linux
-Date: Mon, 29 Dec 2025 06:08:08 -0000
-Message-Id: <176698848893.2324342.8930178974067741746@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Mon, 29 Dec 2025 06:16:55 -0000
+Message-Id: <176698901546.2331751.15102585455212743365@gitolite.kernel.org>
 
---===============2651840548150313535==
+--===============0337090527872422752==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/chao/linux
-user: chao
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
-  - ref: refs/heads/feature/lock_trace
-    old: 2e504efc67efb6c20362173dc52f29d0854aac30
-    new: 35e26f7d03c0c579d6ca1721ff0e6bea83837a76
-    log: revlist-2e504efc67ef-35e26f7d03c0.txt
+  - ref: refs/heads/master
+    old: f8f9c1f4d0c7a64600e2ca312dec824a0bc2f1da
+    new: 7839932417dd53bb09eb5a585a7a92781dfd7cb2
+    log: revlist-f8f9c1f4d0c7-7839932417dd.txt
 
---===============2651840548150313535==
+--===============0337090527872422752==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2e504efc67ef-35e26f7d03c0.txt
+Content-Disposition: attachment; filename=revlist-f8f9c1f4d0c7-7839932417dd.txt
 
-c40d7d27f9806cf8ede8c91311f9431fa7df791b f2fs: add lock elapsed time trace facility for f2fs rwsemphore
-9438c3e8bcdddb752961e573c8bc63b8f86050f9 f2fs: sysfs: introduce max_lock_elapsed_time
-a16b5ad951dd276548d59bf8c924172ebe5056b8 f2fs: trace elapsed time for cp_rwsem lock
-b8f65d6a999bca9266f82936323aeac4cc208af7 f2fs: trace elapsed time for node_change lock
-8bf7bd77b0971c5087bc2322ac9d4fe9d2bd2f03 f2fs: trace elapsed time for node_write lock
-006f0a225f61db4515e728653a0cbb76ffcf0ae8 f2fs: trace elapsed time for gc_lock lock
-b75fc68bf51a9384cddbb5c4db0ba399fdb9b87d f2fs: trace elapsed time for cp_global_sem lock
-99a31f9787748e0834f1e3fd966e72b5a437cb8c f2fs: trace elapsed time for io_rwsem lock
-79e38596df09625eca318d34643e538fb2a62232 f2fs: clean up FAULT_TIMEOUT
-9e483d45041021957e6508df69ea0a8412e6f2c5 f2fs: make f2fs_schedule_timeout_killable() more precise
-81868c444df57369323822543561bdc2e1abf6c4 f2fs: introduce FAULT_LOCK_TIMEOUT
-35e26f7d03c0c579d6ca1721ff0e6bea83837a76 f2fs: sysfs: introduce inject_lock_timeout
+b0101ccb5b4641885f30fecc352ef891ed06e083 sched_ext: fix uninitialized ret on alloc_percpu() failure
+aa7d3a56a20f07978d9f401e13637a6479b13bd0 cpuset: fix warning when disabling remote partition
+50fdb78b7c0bcc550910ef69c0984e751cac72fa crypto: seqiv - Do not use req->iv after crypto_aead_encrypt
+b74fd80d7fe578898a76344064d2678ce1efda61 crypto: hisilicon/qm - fix incorrect judgment in qm_get_complete_eqe_num()
+12494e5e2aea17dac54c0356e53e40a31c2a31e4 sched_ext: Fix some comments in ext.c
+ccaeeb585c7c2a0ac67ee1af9acb4d1411dc409e sched_ext: Use the resched_cpu() to replace resched_curr() in the bypass_lb_node()
+f92ff79ba2640fc482bf2bfb5b42e33957f90caf tools/sched_ext: fix scx_show_state.py for scx_root change
+c9894e6f0160414b57e895332c580cf5c8da6780 tools/sched_ext: update scx_show_state.py for scx_aborting change
+a69eddfd171f5570f5c7b333e41f3dead26ce859 Merge tag 'v6.19-p2' of git://git.kernel.org/pub/scm/linux/kernel/git/herbert/crypto-2.6
+bba0b6a1c4006f8cf8736c1eafc62640b31c498b Merge tag 'cgroup-for-6.19-rc3-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/tj/cgroup
+7839932417dd53bb09eb5a585a7a92781dfd7cb2 Merge tag 'sched_ext-for-6.19-rc3-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/tj/sched_ext
 
---===============2651840548150313535==--
+--===============0337090527872422752==--
