@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2251965326681482924=="
+Content-Type: multipart/mixed; boundary="===============3251894381022026639=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
-Date: Mon, 29 Dec 2025 08:59:03 -0000
-Message-Id: <176699874339.2506980.2937413784884086944@gitolite.kernel.org>
+Date: Mon, 29 Dec 2025 09:15:17 -0000
+Message-Id: <176699971799.2520882.11343135495968431531@gitolite.kernel.org>
 
---===============2251965326681482924==
+--===============3251894381022026639==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,48 +16,47 @@ repo: pub/scm/linux/kernel/git/soc/soc
 user: krzk
 git_push_cert_status: Y
 changes:
-  - ref: refs/heads/soc/dt
-    old: 79edb7f596db99c01b25c1deebeffede6b48b505
+  - ref: refs/heads/master
+    old: 11a48a5a18c63fd7621bb050228cebf13566e4d8
     new: 8f0b4cce4481fb22653697cced8d0d04027cb1e8
-    log: revlist-79edb7f596db-8f0b4cce4481.txt
+    log: revlist-11a48a5a18c6-8f0b4cce4481.txt
 
---===============2251965326681482924==
+--===============3251894381022026639==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher krzk@kernel.org 1766998739 +0100
+pusher krzk@kernel.org 1766999715 +0100
 pushee kernel.org:/pub/scm/linux/kernel/git/soc/soc.git
-nonce 1766998738-376c500e5ce2f46476b706ccdc92b0b5c05371d2
+nonce 1766999711-b7d1f42ef1b46d3defd3dcce93fdcd2b70fd1e8b
 
-79edb7f596db99c01b25c1deebeffede6b48b505 8f0b4cce4481fb22653697cced8d0d04027cb1e8 refs/heads/soc/dt
+11a48a5a18c63fd7621bb050228cebf13566e4d8 8f0b4cce4481fb22653697cced8d0d04027cb1e8 refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmlSQtMQHGtyemtAa2Vy
-bmVsLm9yZwAKCRDBN2bmhouD1/L0D/9ojX8POHz+NFNY7CUAXvKoHev6EpS5X019
-/WzEQXu51cfmBoCwXfrrCuafK4jaXosgULuW0cA1cdYL8fUNhS5XdViHBlSiyZEq
-lS+Mj4WzXPga2CKXQNGBkVi652GKkmBoC+V3e7oWT4Tr0v+amgaPLhTtTYHFyNwd
-5EqC27zyl7JaDHA3oHr98JgGHVMumGJ9mOJP1rYIQDiKClQj8hzD4HyRWGQaNvqB
-ywhpM2v8o2lx3PBjZRAE2BMpxuEvtweXhc8hH/TJmZ6YWm02EqjxN3w7pMzeoYJF
-M95eEXM7FCk7yFHv1diM9yO7PmezDvbSL3K1fHygV9N2gZhiOykS0bYWdPiRO20a
-FwTGwuV0b91T2DrRUicWZZtTUQCCwvB3jszPPxFWY3RBvyiaGd8vWjyfFx0TG7hz
-8W+4DcMli8Af0p9hKhd7bzN2KMO6qmPX/U1ElymurlTQiybHUzkqNgofUmv2ZDic
-mNClfCODsyTOIMofjkKALeXVXfQBl6mR/NSOQRrcbBk9R2E6MGZ3FtM5V7sXCp/o
-PQNkvCgDuQ+PlCx2ooy/GHzA4XciKEC+6pOY9zwqBpHKcF/JFD18M4LEgFfcILiL
-v2N66yY++ZuOQf0yMiahnrFXbqwiR4EER/UhCGpIw5jQecOkSPiXQ/h7fty32DsP
-SxjRoNBggg==
-=2BDc
+iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmlSRqMQHGtyemtAa2Vy
+bmVsLm9yZwAKCRDBN2bmhouD18jwD/9V23kTuvmkcsrjskk8imHLUQ1+u8/KLhwI
+xJ8ThNPMczxWqRQDlxJCc+4EY3/9e+HVdikLicVYXpNapIchxftUiTFJ7sftMykd
+QonlpbNmGABmMeJgWOEsoBrTE19GFQtMYccMcHs+nZLK5h40We6YhF0ELfiOuOPJ
+gPfiQdcNm6NpXoutdRuf9orfJ/3eqUKxfpnz3Q/EeFsMyhJzMvPSgMJu7eeqQhqh
+2AY198x4HiammW46JIguSioFLXclBVDnBY0YamGjMHdWZqt23jXIQAdGKi9A7ZeV
+zLYlMvrCir7Lwfoh6MQiEglCA+tSAa3nIwQT4T62mSwofymTm7ALFZDOyccm8qz0
+s/p2ZIAz9VaDDKk8PkeimG+Wai2HLGEP83tAfS/UgR2FbjrqTMAbUR4YtlU0fX6F
+yT24rQ82YM8uRc5KFSeasLBKzO4gUD5RTiSiPuasK2EHzb9kZgjItU09cJFvblag
+lSKM6BXcqsu6OTM0uYZLjzcE35+l9wo0STlo1lG6sn4nXdDLM2yITJ05kO9zOHQC
+W/P2jJZkq+Ci3qqwA3ovvPkXuKuDgh3wPNf93UVaHuMeG4xr/yvDNFgLVnIgBQoZ
+aagtQwglOGwG7Z+kiKMaUkFKUkPFkckJjqwhjCRhUzvv3veODff1vUY4M27IAs5x
+LtB4vBJZmQ==
+=jG3W
 -----END PGP SIGNATURE-----
 
---===============2251965326681482924==
+--===============3251894381022026639==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-79edb7f596db-8f0b4cce4481.txt
+Content-Disposition: attachment; filename=revlist-11a48a5a18c6-8f0b4cce4481.txt
 
-aadff9f766399a350aa3e09fc671617bdc0b365f selftests: net: add a hint about MACAddressPolicy=persistent
 09339d0d83108fd4f59b94677ac99bde870aa0ae l2tp: correct debugfs label for tunnel tx stats
 ea2d3befcf29cca5221d0572d54e4d71b683175d net: dsa: yt921x: Set ageing_time_min/ageing_time_max
 e3b8cbf40c6e60a7a935bd8980884d5741a7a77b selftests: netconsole: remove log noise due to socat exit
@@ -650,6 +649,7 @@ c34b04cc6178f33c08331568c7fd25c5b9a39f66 ALSA: hda: cs35l41: Fix NULL pointer de
 210d77cca3d0494ed30a5c628b20c1d95fa04fb1 ALSA: firewire-motu: fix buffer overflow in hwdep read for DSP events
 d740d52e342bae9c88c719b015d6065783b961a1 ALSA: usb-audio: Initialize status1 to fix uninitialized symbol errors
 68f9bbf4dfc356ccc6586ba6e7dd79576c48f7f0 Merge tag 'samsung-drivers-6.19-2-late' of https://git.kernel.org/pub/scm/linux/kernel/git/krzk/linux into soc/drivers-late
+79edb7f596db99c01b25c1deebeffede6b48b505 Merge tag 'samsung-dt-6.19' of https://git.kernel.org/pub/scm/linux/kernel/git/krzk/linux into soc/dt
 a4c694bfc2455e82b7caf6045ca893d123e0ed11 io_uring/kbuf: use WRITE_ONCE() for userspace-shared buffer ring fields
 5d45c729edd34eae25987b45bb5e0c5a534a9f5b Merge tag 'configfs-for-v6.19' of git://git.kernel.org/pub/scm/linux/kernel/git/a.hindborg/linux
 3ee37abbbd6ebc84284f32b91145932074f9ae47 Merge tag 'pstore-v6.19-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/kees/linux
@@ -1082,4 +1082,4 @@ cba09e3ed06db4b6c87bc97e0aea080421fb8f7d Merge tag 'perf-urgent-2025-12-12' of g
 6a1636e06625ec0dd7f2b908ab39a8beea24bfd3 Merge tag 'scsi-misc' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
 8f0b4cce4481fb22653697cced8d0d04027cb1e8 Linux 6.19-rc1
 
---===============2251965326681482924==--
+--===============3251894381022026639==--
