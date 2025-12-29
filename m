@@ -1,56 +1,47 @@
-Content-Type: multipart/mixed; boundary="===============2826906782859699787=="
+Content-Type: multipart/mixed; boundary="===============6331221113454208875=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/security/vulns
-Date: Mon, 29 Dec 2025 15:23:12 -0000
-Message-Id: <176702179226.2820486.16739637591177317299@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ardb/linux
+Date: Mon, 29 Dec 2025 15:24:26 -0000
+Message-Id: <176702186605.2820956.11261608529203228260@gitolite.kernel.org>
 
---===============2826906782859699787==
+--===============6331221113454208875==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/security/vulns
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/ardb/linux
+user: ardb
 changes:
-  - ref: refs/heads/master
-    old: df317ef25845aaa2a744b46399b7e730bd098fef
-    new: 9ba8664b7c0beb80a25a787c96cd2ba9c793c197
-    log: |
-         9ba8664b7c0beb80a25a787c96cd2ba9c793c197 reject some duplicate cve ids.
-         
+  - ref: refs/heads/x86-pie-v3
+    old: f33d094cbfb8e70e96c831180373848872fac588
+    new: d1baac1e5a797b5b0eb22f4c4d50775aaa9fce0f
+    log: revlist-f33d094cbfb8-d1baac1e5a79.txt
 
---===============2826906782859699787==
+--===============6331221113454208875==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-f33d094cbfb8-d1baac1e5a79.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1767021789 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
-nonce 1767021789-c972a919cf79f36bf3ae21c33c8ee001dc09053b
+b8b87d87d01df064933197af1197ecded230a9b5 x86/idt: Move idt_table to __ro_after_init section
+71119ac2bd9f2a8c8974e8200f3cfd13502d8251 x86: Combine .data with .bss in kernel mapping
+c2bd834db57ee4352c03049500289c3523fadbf6 x86/efistub: Simplify remapping of kernel text
+0814d19074468b4cd12bccb737c21f5f5b6b6414 alloc_tag: Use __ prefixed ELF section names
+f72bad6cc9975457e480551d9595a82fc9d40699 tools/objtool: Treat indirect ftrace calls as direct calls
+471c20e71af80361230832d0e4404c770759585c x86: Use PIE codegen for the core kernel when CONFIG_RANDOMIZE_BASE=y
+89019fe79aba7db127ec3a33af6e264834900c92 x86/pm-trace: Use RIP-relative accesses for .tracedata
+522f6d2230a5ffeb1daaba373bcd9ea01e56a101 x86/kvm: Use RIP-relative addressing
+9e99d3c568041d45d709cafb5c9c28dffe7edc59 x86/rethook: Use RIP-relative reference for return address
+a3defadf78ccaeaf1122d92e33ee94943ded298e x86/sync_core: Use RIP-relative addressing
+128e73c0aa45064fba8df0d0cb73134b2f6ac8a7 x86/entry_64: Use RIP-relative addressing
+c8b06a8cec3aa93bd00a3dc307e3958add69a455 x86/hibernate: Prefer RIP-relative accesses
+e915dea5675bee84eddbe57470264f758b2880c2 x64/acpi: Use PIC-compatible references in wakeup_64.S
+fcae8c5b1646774ed431a52ea810aa53ceaf153f x86/head64: Avoid absolute references in startup asm
+f6429f1646b868e3b3bc281c837572f647efd650 x86/boot: Implement support for RELA/RELR runtime relocations
+7fed108bf079972d7820336f504c19a625d1388b x86/kernel: Switch to PIE linking for the x86_64 KASLR kernel
+d1baac1e5a797b5b0eb22f4c4d50775aaa9fce0f x86/tools: Drop x86_64 support from 'relocs' tool
 
-df317ef25845aaa2a744b46399b7e730bd098fef 9ba8664b7c0beb80a25a787c96cd2ba9c793c197 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmlSnN0bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+PhUP/jMyeQS7ur+yrOrF5EXm
-ZITTPbgQp6pzvKp1JsaGLo6OMKQAR8LGwD17hzmWn2k5jry0Far66KQY9TejdJYw
-yV+MDaUktT3Q0a+SRehXT8wST2aHoY5loMHuRwIUCA9Ld3Zmu5vOoI2U9fIJybXm
-hrskJajYO7ccenqsynDJ8vVYs8ZwvcQHoHkwxK97IAnMmZwc7P2dp4wgelTolPH3
-r0UX7KZ4PH1kfrl5eepBtUfZ0PvbXW1QVCTcIbTBXZOau0b/md01ws3d2vhoOIfP
-SkUM9OI49WU99OalowwMr3nXxZjDcxwNu7Q5d7CkRLvYkCkZJh/KkVsywAo/MPU1
-+GpxB2Cau3YvWtv45uZtzz3Z7Sj8aaQIV0dFG/SYlFgveTI4dlzVQHInNA3GoGId
-K2RrktBwSs9bE6n3yHlK2Jucs6HULzG/Ia4Vy+0QW+Sw8N91lbWDppnVwFx2EmUl
-Sz90DaWKwRBtDTLiwUytdWcL69mIscxVvKYkuh5n82d0qTkI3MkEgHCzclOPjCBd
-PjthIGePCQBmAit2hbJkdBUvx0WBw8zpFLg4YgpxkISvWR6NjiqheYkXH1E7Oow/
-WGs60P0T8/kZ1UScsiXowiI4M4rab+MtX6KuEaZuRLEFEyHg3vyLsTJmgFG8iZdo
-2+tPUcqbiNqK4tmwMhGnMcTa
-=kEgT
------END PGP SIGNATURE-----
-
---===============2826906782859699787==--
+--===============6331221113454208875==--
