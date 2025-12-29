@@ -1,47 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============1284062829041114375=="
+Content-Type: multipart/mixed; boundary="===============2072101159785982976=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-Date: Mon, 29 Dec 2025 16:00:09 -0000
-Message-Id: <176702400963.2853777.2114882789468605265@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Mon, 29 Dec 2025 16:00:17 -0000
+Message-Id: <176702401751.2854048.1770773973596919759@gitolite.kernel.org>
 
---===============1284062829041114375==
+--===============2072101159785982976==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-user: ij
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/review-ilpo-fixes
-    old: e44c42c830b7ab36e3a3a86321c619f24def5206
-    new: 6a02651c4c4b710ecbaf798eb4feb57c97f2bc14
+  - ref: refs/heads/master
+    old: c0033775268d579f8fd07d3a3029b163967be6df
+    new: b373591c8847c3aa29b45c2f46d0d61026210c85
     log: |
-         66e245db16f0175af656cd812b6dc1a5e1f7b80a platform/x86/intel/pmt/discovery: use valid device pointer in dev_err_probe
-         6a02651c4c4b710ecbaf798eb4feb57c97f2bc14 platform/x86: asus-armoury: fix ppt data for FA507R
+         b373591c8847c3aa29b45c2f46d0d61026210c85 5.10-stable patches
          
 
---===============1284062829041114375==
+--===============2072101159785982976==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1767024000 +0200
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86.git
-nonce 1767023999-6e8ca1c65e9a48379bcbd00c2cd5aa7fc34e44d4
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1767024016 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1767024015-1ca6a84411b65cc88066815d0dc0a72e56ce0241
 
-e44c42c830b7ab36e3a3a86321c619f24def5206 6a02651c4c4b710ecbaf798eb4feb57c97f2bc14 refs/heads/review-ilpo-fixes
+c0033775268d579f8fd07d3a3029b163967be6df b373591c8847c3aa29b45c2f46d0d61026210c85 refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iHUEABYIAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCaVKliAAKCRBZrE9hU+XO
-MctiAQC8hYao3QqQqFcDPbi/7QVorUZQRsBi2Xr73Y+ueHHx9gD+KZNS4QjF3Fd9
-8nglzFL9WPGIjHTZjRwGdUTsvFitEQs=
-=VoRe
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmlSpZAbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+dH4P/1dNZ0oc7NQKJzpon46h
+HZIWA4gw/UHKlorIH081LF6b9marPvxS0P/RJUoZOdtInkvnxZ1FCldSCgqcG1RL
+ZgJFcJ/rCVHTzt8AlNzwqNMJHxvdTkhNLEGTeFqxtOrgSrFWxqgV+f1wE9c2qFUK
+Y888nunXsBS+NI2V1uuPOOkqA+iFr0uM+lvYfGqmk4+tz7OaUC91K5VxQIuBlYOw
+XVi1JmxTshP3GT0ls0BuXEB4b5o3u+d7TDH8oSZNEKaoHXIoIJ/bPiqLP1ViOBFi
+05nlompwrjHACFynxlkvgdyaW7/rFTNy2go42TuZ/dwHNi0YJi1oAMNewzWxkmJ8
+p8vpTw3IRj3YXWn9/qMubPWaLwxhekUSo8URXNU/9iVI0Jh6uT3uBaVcs6qpUuNe
+U4RnEX6kQVphzQh+F8EWw67zu49bKl2/Pz4nh5TPde4jBOypt3BXFIV03Kxrmdp2
+i/gdNK2uwjB6vj5jOJ+lP4leXnHDIG5SRFqtxf9hSoyZ6n7hw+jaThJ4K+4fnOd+
+TVbWymo/U2aUiw7duH6kV5grye8yzCYPHyQf5dG7bmghJxnKSRUGiTrGPxJFcN1N
+V5zZDr5VTChaBMLYLpiiDyygtj/4S2IZO92H8soXIwjWEteuv9+OzPZu8q7WJeWM
+sbqdgKQ/SFF7Us2eIceezCmR
+=0AKz
 -----END PGP SIGNATURE-----
 
---===============1284062829041114375==--
+--===============2072101159785982976==--
