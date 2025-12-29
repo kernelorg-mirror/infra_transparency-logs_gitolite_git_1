@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3285123896376816972=="
+Content-Type: multipart/mixed; boundary="===============2025223053861753141=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs
-Date: Mon, 29 Dec 2025 04:18:09 -0000
-Message-Id: <176698188988.2223791.721923752281971944@gitolite.kernel.org>
+Date: Mon, 29 Dec 2025 04:18:58 -0000
+Message-Id: <176698193868.2224174.7875182522149414389@gitolite.kernel.org>
 
---===============3285123896376816972==
+--===============2025223053861753141==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/xiang/erofs
 user: xiang
 changes:
-  - ref: refs/heads/dev-test
-    old: 1896b9f9c7d473df959c51fed4849d3357b55d14
+  - ref: refs/heads/dev
+    old: 97efa004aca1ef7b090bc97f836902598886fd7a
     new: 6ff312442c59d2c3cc08a74b70a4373b552fd0c1
-    log: revlist-1896b9f9c7d4-6ff312442c59.txt
+    log: revlist-97efa004aca1-6ff312442c59.txt
 
---===============3285123896376816972==
+--===============2025223053861753141==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-1896b9f9c7d4-6ff312442c59.txt
+Content-Disposition: attachment; filename=revlist-97efa004aca1-6ff312442c59.txt
 
 d4b69a6186b215d2dc1ebcab965ed88e8d41768d SUNRPC: svcauth_gss: avoid NULL deref on zero length gss_token in gss_read_proxy_verf
 a8ee9099f30654917aa68f55d707b5627e1dbf77 svcrdma: use rc_pageoff for memcpy byte offset
@@ -219,4 +219,4 @@ aa85b61c40e46e366e8998ea6089f1af18187715 erofs: simplify the code using for_each
 2db98ca2d16239e06c302f44271687204c260dff erofs: improve LZ4 error strings
 6ff312442c59d2c3cc08a74b70a4373b552fd0c1 erofs: avoid noisy messages for transient -ENOMEM
 
---===============3285123896376816972==--
+--===============2025223053861753141==--
