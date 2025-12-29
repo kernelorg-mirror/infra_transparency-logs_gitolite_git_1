@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6521915734420564540=="
+Content-Type: multipart/mixed; boundary="===============7266332733121560715=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Mon, 29 Dec 2025 10:58:40 -0000
-Message-Id: <176700592075.2600919.7035097636391056332@gitolite.kernel.org>
+Date: Mon, 29 Dec 2025 11:09:36 -0000
+Message-Id: <176700657667.2608695.17494478558943163487@gitolite.kernel.org>
 
---===============6521915734420564540==
+--===============7266332733121560715==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,41 +17,42 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/char-misc-testing
-    old: c0fef45dbab06238e96e221f7c0a8fd2d569f7dd
-    new: ba75ecb97d3f4e95d59002c13afb6519205be6cb
+    old: ba75ecb97d3f4e95d59002c13afb6519205be6cb
+    new: e849ada70c6b1ee22e9f4f5c0e38231dcee53f04
     log: |
-         b54c82d6cbfc76647ba558e8e3647eb2b0ba0e2b misc: eeprom: Fix EWEN/EWDS/ERAL commands for 93xx56 and 93xx66
-         ba75ecb97d3f4e95d59002c13afb6519205be6cb misc: bcm_vk: Fix possible null-pointer dereferences in bcm_vk_read()
+         40fc797ba18328e57ed1cb213b4b5e48f86f4c7c binder: fix trivial typo in uapi header
+         dad9f13d967b4e53e8eaf5f9c690f8e778ad9802 misc: ti_fpc202: fix a potential memory leak in probe function
+         e849ada70c6b1ee22e9f4f5c0e38231dcee53f04 char: misc: Use IS_ERR() for filp_open() return value
          
 
---===============6521915734420564540==
+--===============7266332733121560715==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1767005917 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1767006573 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1767005917-13abc6aa5b21af757a977e179e15cccd05af13d3
+nonce 1767006573-283d7074a3c003a861386a13aa8f8fb5b7f70d18
 
-c0fef45dbab06238e96e221f7c0a8fd2d569f7dd ba75ecb97d3f4e95d59002c13afb6519205be6cb refs/heads/char-misc-testing
+ba75ecb97d3f4e95d59002c13afb6519205be6cb e849ada70c6b1ee22e9f4f5c0e38231dcee53f04 refs/heads/char-misc-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmlSXt4bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+ACAP/i0ugYxaHU9B8BG9dJYZ
-8JRqUVtGh+cdYLl1VAt7Ms6ruwHU+JLgq5WXPOofCH0G4+lx1MiefLCAKUQTZtPp
-ujb8ncto2x4I+arqJnyaZCd3EJWzlfdbNnTdr+i/uvYheV4cZSOM9NfPxTS5zM5Q
-txbg4VoOiIkUVBCGZoJ9h1GEuvZoP+2OSRW689U11L/WtZlGuAwMv7BmUIaYh4qL
-HKJiB2krR7tKTdt7jCS2mvNurJeG3J8zhj5iBKeUs+tDqtPtx93OgHJQwtijw+s8
-totx1qk+6DfJep8YB3kkZBS6/JvWpBvg+wLk73r8NKIaQU949L8neD8k+DV5kMXQ
-PK4lDDbH5AqVyA2c2+ycl8wk0kDCfN5oqIAZO8RbpfUf0YGFSaVRdXNt7Th4CB5I
-LoP42CBd1eIiR4hqh54LGFNYm3tFMCzDQQtn39a4oOZ3kvBk/uqnuAaMMC2Tu914
-Y+xYbrzegU/OP0IPPDkMRdq33iLBC7h4ubJz1s0LEH2nXgtKh9vyr5Ewdw5s6dYe
-Sk8gi4uX4iO/8JBnnMXvhLB14mFdmsIOHJK1XTrF98GIR+0gHsvzaLn10mYCoEsf
-/1ep7dekL8yDmqvShK5QvudAmHVmk/1fdXfkFITgbZuo5YXJO9B+WigzFMU729ZD
-peLfd1o+z/mfvbV7iQyO/6hO
-=kC77
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmlSYW0bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Y4UP/1ntSwDmuz+RR8Q4Kbr7
++t9i8pHfiGZdHQhPIK0oDuhXCwVl+SmVHEvghwXiAuC4CoHLJZgdBBOMnZBNAzrC
+0TsVwb0HU7tjxAdvYo5UF+qSOcLEk7izLO3f2JpM4631fJNHZWJWK/70ohDeRq43
+vgHwb/+jqkFpKieRvAeoqbZ1I1gjpF3/m+kB3clYlaaPjN+IRuQabyKxQYtnHJD4
+qnWaCy3ZcI+gsHo7HUhRYZu9Fvo86YgKgXbesq8E5QR9Fvt0ZQbW0cDfdN7wSAI7
+F3UI5sKfEyP/lMtuGh8Q889gzgeMiHzGCGSFj09cA2FAv52dvtm86yAlvvh1PJZM
+45Vncf+7XmmYYNbqMpVjyZZVXHGaPLVPBtYyk464+QtgaXBDAMnY2FAI26kJfDvv
+Gz1dJcd7f1t7UOFlkZDg0N5Q3pxylwMKFpLAUxzRkFNdsKDL+qU1F/6gddr73b96
+J6zTk6nUwRBo1gcU5QpHwzfpQJtGw7G8CRdeECvCJRHePZ6/jCGksDsms4cH3F4+
+HB/JV1pqhIy8yu6qUcdsDv1cIUJemUPeY0kyQ2xZP7OKThxPVOJ1naUPBSrPbzuX
+ThzUEMaCmYsOlEAiuHc7wLdoe/++5kjPKvTINMsEG6Um0CgUbGx/Ah6B0maG1Cgv
+oH/6oaL4mdEYgxkHG5npAYYA
+=8lQE
 -----END PGP SIGNATURE-----
 
---===============6521915734420564540==--
+--===============7266332733121560715==--
