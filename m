@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============9086521170445391449=="
+Content-Type: multipart/mixed; boundary="===============1229653915240598496=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Mon, 29 Dec 2025 08:26:19 -0000
-Message-Id: <176699677986.2482409.609774775290373876@gitolite.kernel.org>
+Date: Mon, 29 Dec 2025 08:26:26 -0000
+Message-Id: <176699678653.2482624.7810375174847951735@gitolite.kernel.org>
 
---===============9086521170445391449==
+--===============1229653915240598496==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/usb-linus
-    old: 22201800f198ad33c225e5ce2f0f254df828d01b
-    new: f8f9c1f4d0c7a64600e2ca312dec824a0bc2f1da
-    log: revlist-22201800f198-f8f9c1f4d0c7.txt
+  - ref: refs/heads/usb-next
+    old: 8995a37371bf489ede768271aac56e4e6a55bcb2
+    new: e46bcc4e856e0e4352752ff9247af6240334f822
+    log: revlist-8995a37371bf-e46bcc4e856e.txt
 
---===============9086521170445391449==
+--===============1229653915240598496==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1766996779 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1766996782 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1766996777-abdc6e63e9682f3bdf3db62a114ace31bb398e2f
+nonce 1766996782-e8adb2f7edb0ca1c6ab036444b8b98e96778db31
 
-22201800f198ad33c225e5ce2f0f254df828d01b f8f9c1f4d0c7a64600e2ca312dec824a0bc2f1da refs/heads/usb-linus
+8995a37371bf489ede768271aac56e4e6a55bcb2 e46bcc4e856e0e4352752ff9247af6240334f822 refs/heads/usb-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmlSOysbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+TjEP/0WpUDbnKLW/5REuLEqM
-VYXtz9oQ6pUQF6UzZhFSiucfac+TsvSwTDe8m/I0QDBe5rst1NT8eB2iEJIlxBKA
-X527dzMSv66QXvn/uk24Lcx/Znwn55mZYrdJYVKIZsBVenlT/dQbPhr8NRLE8cQi
-pOmyF3eYs19CTlDtlBjQZYpMm1sHTr8I6bpsMdHbu3BC9fiTBc2ZQYcTacfQNbiV
-afxv57B7BW/h9Ck2JB0VoaPmioDHdutdMcmY9+aRgHiyMwg9zifaLYi8oikn31eo
-c8O7Mk5KjXQOYFspw/o9ASXKT/AJHW82uiBBDIYsdQ/pHZMVP+yWZoJQQzFfN813
-1bghBPDWY+pH2HXKogmSPz9l7BHrRfZ7jDNOhj7g2BW5xO4LLViaLfLI+95mQ777
-QYU8AlfIQfckNHf0khtRcA5a4t+wdUhqEg2c3JGw+Kqs3/1d3gWI36Yc++2z26Jr
-Ay95vcBRrYQno743seYELFlI5abm6d67cfCbz5u5FxpYi/yH+0Hui8PCbwlVsQNp
-g2gYgkR2kmcf6rq7bIzqJpoXQKyZNLwcYOJezIswVhc2nBXncB6AlbngvqZR/wep
-slPuH7tcs1h8hqBGnSHi00xo96nR+SHw18QpjazBncl1uvWllMoipy/3ck/rUwv6
-DN628T9xl4M8NgbJKfAIqzXG
-=bYsJ
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmlSOy4bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+QWQP/0n1kuNc6EONKRBGz3fS
+0NmgSvxV62FOD6b2GKFO1Af+J9dFYfrBC/v3xAHGviRhjIqkVl99A5Fi9KmVbFEJ
+pmyhz/fH1s/1EXNCvH0s+SLUl5IVooZ/vjyCD1A6R1Y+CrJipi0Awza0P6QJcXQY
+vujhYYqWb3Y5qHuSfg2opA9sQ+uYy3m9DUSNuSZ6E9XhYHwmY9hw/XVbdcLAM7Ln
+1TQxgvKuhzBLqbbtSTvE7qt9/zGbIyrPNqE0xvFOpfF/K4IXIdCgtbtSMUNXkZQt
+CuTR/U6B4WyKN4NqDMTdj/wrw9xLFRRV1yREhzSEl9ttSAZ70cw/s+hSlfAJ42ny
+2pG1AUEhBSGAdM5w0ZAD3nyKW/rKnPRt0hmT0J1z4uKuLygQPo+3a7Av1aqzkQar
+nG9d2iGHtYb4VyrIX8Vtw10dDY+SjMsZhROlcEWVxtlnKbLaRqKGMCtLiiLkuifG
+pJcCGumM0aAL6rFhfKIV26GPYeeiG5cncPWk8xuyOqpqnWLCF6MrxlG/VUEf7tyx
+Kcape49rjd5a7RfmFgwRK5lA3wTdWWDQlrEkz3fPauZJvjPUU+XCFlCF2b9Rz4L+
+tKWLbXroQRwk/WHkXYznulBvjKtRGk9QjphYF68AtxuigNXXY39B+e3NG72S1U1T
+Xz/fIzU/bZKBzRoYcUrtz1iM
+=yyvg
 -----END PGP SIGNATURE-----
 
---===============9086521170445391449==
+--===============1229653915240598496==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-22201800f198-f8f9c1f4d0c7.txt
+Content-Disposition: attachment; filename=revlist-8995a37371bf-e46bcc4e856e.txt
 
 1b9439c933b500cb24710bbd81fe56e9b0025b6f KVM: selftests: Add missing "break" in rseq_test's param parsing
 e2b43fb25243d502ad36b07bab9de09f4b76fff9 KVM: x86: Apply runtime updates to current CPUID during KVM_SET_CPUID{,2}
@@ -334,6 +334,15 @@ b1f54d7143e0f527cca1091857a786e278d72184 spi: cadence-quadspi: Add error logging
 8c04b77f87e6e321ae6acd28ce1de5553916153f spi: mt65xx: Use IRQF_ONESHOT with threaded IRQ
 a9c4c9085ec8ce3ce01be21b75184789e74f5f19 mmc: sdhci-of-arasan: Increase CD stable timeout to 2 seconds
 d3ecb12e2e04ce53c95f933c462f2d8b150b965b mmc: sdhci-esdhc-imx: add alternate ARCH_S32 dependency to Kconfig
+74098cc06e753d3ffd8398b040a3a1dfb65260c0 xhci: dbgtty: fix device unregister: fixup
+e1003aa7ec9eccdde4c926bd64ef42816ad55f25 usb: dwc3: keep susphy enabled during exit to avoid controller faults
+d14cd998e67ba8f1cca52a260a1ce1a60954fd8b usb: typec: ucsi: huawei-gaokin: add DRM dependency
+36cc7e09df9e43db21b46519b740145410dd9f4a usb: renesas_usbhs: Fix a resource leak in usbhs_pipe_malloc()
+41ca62e3e21e48c2903b3b45e232cf4f2ff7434f usb: phy: fsl-usb: Fix use-after-free in delayed work during device removal
+128bb7fab342546352603bde8b49ff54e3af0529 usb: typec: altmodes/displayport: Drop the device reference in dp_altmode_probe()
+c84117912bddd9e5d87e68daf182410c98181407 USB: lpc32xx_udc: Fix error handling in probe
+14ad4c10d5bdd413ff9a914260e89b5f54b7a2c7 usb: typec: ucsi: Fix null pointer dereference in ucsi_sync_control_common
+3b4961313d31e200c9e974bb1536cdea217f78b5 usb: dwc3: of-simple: fix clock resource leak in dwc3_of_simple_probe
 24ec03cc55126b7b3adf102f4b3d9f716532b329 serial: core: Restore sysfs fwnode information
 5edb7338d6117bb0ce17ead7973c67390da42258 serial: 8250: longson: Fix NULL vs IS_ERR() bug in probe
 a58383fa45c706bda3bf4a1955c3a0327dbec7e7 block: add allocation size check in blkdev_pr_read_keys()
@@ -495,6 +504,20 @@ c3ca8a0aac832fe8047608bb2ae2cca314c6d717 serial: sh-sci: Check that the DMA cook
 267ee93c417e685d9f8e079e41c70ba6ee4df5a5 serial: xilinx_uartps: fix rs485 delay_rts_after_send
 d67396c9d697041b385d70ff2fd59cb07ae167e8 spi: cadence-quadspi: Prevent lost complete() call during indirect read
 5bfbbf0a49ee4b5dcf46a3bfd4cd860d72cc887d spi: cadence-quadspi: Improve CQSPI_SLOW_SRAM quirk if flash is slow
+0831269b5f71594882accfceb02638124f88955d usb: usb-storage: Maintain minimal modifications to the bcdDevice range.
+5106dbab44fba8ec6dede3f4e75d17f5aa777ec8 usb: typec: ucsi: Get connector status after enable notifications
+782be79e4551550d7a82b1957fc0f7347e6d461f usb: gadget: lpc32xx_udc: fix clock imbalance in error path
+b4b64fda4d30a83a7f00e92a0c8a1d47699609f3 usb: phy: isp1301: fix non-OF device reference imbalance
+b4c61e542faf8c9131d69ecfc3ad6de96d1b2ab8 usb: ohci-nxp: fix device leak on probe failure
+ad6fb7367eaa87caa15e9be2129d8e8018a33cba usb: gadget: lpc32xx_udc: clean up probe error labels
+8ff242c04157244020888fa234a6b145415d5a65 usb: ohci-nxp: clean up probe error labels
+0dc580d4a6518b539cbb2877dd9b283df14aac6f Revert "usb: typec: ucsi: Get connector status after enable notifications"
+df3e3169303f7084db3990c999701934af0c04c0 Revert "usb: typec: ucsi: Fix null pointer dereference in ucsi_sync_control_common"
+784b756dde9151b2f44da313f390f25139f1a64e Revert "usb: typec: ucsi: Add support for SET_PDOS command"
+174e7d0f47e5231437bc305277fec7bf4896a8f9 Revert "usb: typec: ucsi: Enable debugfs for message_out data structure"
+2e46b4e024ff61d4533b4f07bb3702ec7466479e Revert "usb: typec: ucsi: Add support for message out data structure"
+e7a9f6600166efb889453c524eb644cb798acd22 Revert "usb: typec: ucsi: Update UCSI structure to have message in and message out fields"
+22201800f198ad33c225e5ce2f0f254df828d01b Merge patch series "usb: typec: ucsi: revert broken buffer management"
 2b742094582db365fe07021b0a9c5405f85049f9 fs/kernfs: null-ptr deref in simple_xattrs_free()
 b005d618c8547b7dfb14e83a1b410a6a04ac36c6 spi: cadence-quadspi: Prevent indirect read
 ebb8719c1a7dd3d0c6f49e38a95bb6ac89f7f7e1 Merge tag 'sound-6.19-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/tiwai/sound
@@ -563,5 +586,6 @@ cd80afff4877e1151ce53d48b65eba9de80ac1d2 Merge tag 'powerpc-6.19-2' of git://git
 15225b910cb8050636c11b4a607559169a7905ad Merge tag 'tty-6.19-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/tty
 c875a6c3246713a018d8b7b143deb3ebaeecaf1c Merge tag 'usb-6.19-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/usb
 f8f9c1f4d0c7a64600e2ca312dec824a0bc2f1da Linux 6.19-rc3
+e46bcc4e856e0e4352752ff9247af6240334f822 Merge 6.19-rc3 into usb-next
 
---===============9086521170445391449==--
+--===============1229653915240598496==--
