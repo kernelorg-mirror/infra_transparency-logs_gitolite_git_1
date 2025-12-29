@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1086930207439497576=="
+Content-Type: multipart/mixed; boundary="===============8901597407593720605=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/driver-core/driver-core
-Date: Mon, 29 Dec 2025 11:32:02 -0000
-Message-Id: <176700792260.2629941.3361882652855367239@gitolite.kernel.org>
+Date: Mon, 29 Dec 2025 11:32:08 -0000
+Message-Id: <176700792818.2630231.16671038690219616321@gitolite.kernel.org>
 
---===============1086930207439497576==
+--===============8901597407593720605==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/driver-core/driver-core
 user: dakr
 changes:
-  - ref: refs/heads/driver-core-testing
+  - ref: refs/heads/driver-core-next
     old: d43a12e474351161bb6d7e2a17ab56f591b9302d
     new: 7bf97992afa4e815f4ed84638340e2a93de65504
     log: revlist-d43a12e47435-7bf97992afa4.txt
 
---===============1086930207439497576==
+--===============8901597407593720605==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -557,4 +557,4 @@ c875a6c3246713a018d8b7b143deb3ebaeecaf1c Merge tag 'usb-6.19-rc3' of git://git.k
 f8f9c1f4d0c7a64600e2ca312dec824a0bc2f1da Linux 6.19-rc3
 7bf97992afa4e815f4ed84638340e2a93de65504 Merge tag 'v6.19-rc3' into driver-core-next
 
---===============1086930207439497576==--
+--===============8901597407593720605==--
