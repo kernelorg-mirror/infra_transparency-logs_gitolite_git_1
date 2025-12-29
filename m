@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2723444407579210681=="
+Content-Type: multipart/mixed; boundary="===============6521915734420564540=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Mon, 29 Dec 2025 10:54:04 -0000
-Message-Id: <176700564469.2596849.17421888637250202102@gitolite.kernel.org>
+Date: Mon, 29 Dec 2025 10:58:40 -0000
+Message-Id: <176700592075.2600919.7035097636391056332@gitolite.kernel.org>
 
---===============2723444407579210681==
+--===============6521915734420564540==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,40 +17,41 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/char-misc-testing
-    old: 1f4c9d8a1021281750c6cda126d6f8a40cc24e71
-    new: c0fef45dbab06238e96e221f7c0a8fd2d569f7dd
+    old: c0fef45dbab06238e96e221f7c0a8fd2d569f7dd
+    new: ba75ecb97d3f4e95d59002c13afb6519205be6cb
     log: |
-         c0fef45dbab06238e96e221f7c0a8fd2d569f7dd char/mwave: drop it
+         b54c82d6cbfc76647ba558e8e3647eb2b0ba0e2b misc: eeprom: Fix EWEN/EWDS/ERAL commands for 93xx56 and 93xx66
+         ba75ecb97d3f4e95d59002c13afb6519205be6cb misc: bcm_vk: Fix possible null-pointer dereferences in bcm_vk_read()
          
 
---===============2723444407579210681==
+--===============6521915734420564540==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1767005641 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1767005917 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1767005640-a7a869fb21a8f11808ab007cb7313fa22b79373a
+nonce 1767005917-13abc6aa5b21af757a977e179e15cccd05af13d3
 
-1f4c9d8a1021281750c6cda126d6f8a40cc24e71 c0fef45dbab06238e96e221f7c0a8fd2d569f7dd refs/heads/char-misc-testing
+c0fef45dbab06238e96e221f7c0a8fd2d569f7dd ba75ecb97d3f4e95d59002c13afb6519205be6cb refs/heads/char-misc-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmlSXckbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+RWoP/2xmKNyk6HJtAKMFkBc+
-J82WTF0u342PHXpct1DLOTIEUkMVfLdfIgVN27Fx0PrW0XcJAaoFwzV2ttl291Ay
-uUSVoNQRQVCyrZCy5e0WR4dxPg+GhPm9h+4xi+w+tRXuvrm46Vrn4zYbAQU9iA8T
-SPpuwKtN7+NhZcrrwpmJR/F2TBrsKlGCmhzHZld4E7zWh69dDlj9WIRqKJaWK+K0
-dSkzgNfIkE9wOTyrZ5rrd3Gq+sthQUtUbejcmmmwlN8p6Ixga6MLkz2rrMJAshyD
-YaX60l7Rs+TDq7wyE0L4oSUZ5wqizzyrq5FfDB8INdzVwWHDNiTH+CgaYhUfsdED
-B7GX0DcWahMdp+m9mFyPCtPrury6i90uV0cTb9wDZ1tSqN+7oFcQ6CPgA+uWbLru
-tJarPJrzfquUtf6ZvAdo0NuKLBw5NmMrxV+puc/8sD1LU8J5/hIDHM0PwE97+VmA
-QsjtVSwq7h9G1/7NXgS2BG030sNYviuC00a9TwQKnpTFUNhwH0NLYu5yRCbMYkdj
-t4+xBak8V9YIoBiX+2v80SiqUcPC7qreMjD5z8ovDOiqOpKNblbo/V1tgFS+0l6E
-MPAwH087uVvSP2I/gdUa3JZxKtVJ5AXxRe/lb2cKlDfYAxv/0kasmXSB8Whul8He
-DNahqpOmkv5Fh9Ji9uYBXpDH
-=jk77
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmlSXt4bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+ACAP/i0ugYxaHU9B8BG9dJYZ
+8JRqUVtGh+cdYLl1VAt7Ms6ruwHU+JLgq5WXPOofCH0G4+lx1MiefLCAKUQTZtPp
+ujb8ncto2x4I+arqJnyaZCd3EJWzlfdbNnTdr+i/uvYheV4cZSOM9NfPxTS5zM5Q
+txbg4VoOiIkUVBCGZoJ9h1GEuvZoP+2OSRW689U11L/WtZlGuAwMv7BmUIaYh4qL
+HKJiB2krR7tKTdt7jCS2mvNurJeG3J8zhj5iBKeUs+tDqtPtx93OgHJQwtijw+s8
+totx1qk+6DfJep8YB3kkZBS6/JvWpBvg+wLk73r8NKIaQU949L8neD8k+DV5kMXQ
+PK4lDDbH5AqVyA2c2+ycl8wk0kDCfN5oqIAZO8RbpfUf0YGFSaVRdXNt7Th4CB5I
+LoP42CBd1eIiR4hqh54LGFNYm3tFMCzDQQtn39a4oOZ3kvBk/uqnuAaMMC2Tu914
+Y+xYbrzegU/OP0IPPDkMRdq33iLBC7h4ubJz1s0LEH2nXgtKh9vyr5Ewdw5s6dYe
+Sk8gi4uX4iO/8JBnnMXvhLB14mFdmsIOHJK1XTrF98GIR+0gHsvzaLn10mYCoEsf
+/1ep7dekL8yDmqvShK5QvudAmHVmk/1fdXfkFITgbZuo5YXJO9B+WigzFMU729ZD
+peLfd1o+z/mfvbV7iQyO/6hO
+=kC77
 -----END PGP SIGNATURE-----
 
---===============2723444407579210681==--
+--===============6521915734420564540==--
