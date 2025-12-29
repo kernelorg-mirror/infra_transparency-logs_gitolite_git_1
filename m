@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5069545067370262695=="
+Content-Type: multipart/mixed; boundary="===============4123489976716191119=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ardb/linux
-Date: Mon, 29 Dec 2025 17:47:58 -0000
-Message-Id: <176703047822.2941623.8920826664253269284@gitolite.kernel.org>
+Date: Mon, 29 Dec 2025 17:59:56 -0000
+Message-Id: <176703119640.2949614.6618443721359287719@gitolite.kernel.org>
 
---===============5069545067370262695==
+--===============4123489976716191119==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,32 +16,31 @@ repo: pub/scm/linux/kernel/git/ardb/linux
 user: ardb
 changes:
   - ref: refs/heads/x86-pie-v3
-    old: d1baac1e5a797b5b0eb22f4c4d50775aaa9fce0f
-    new: 18df58168f4d8040f072486d935b5d3b4f7c714d
-    log: revlist-d1baac1e5a79-18df58168f4d.txt
+    old: 18df58168f4d8040f072486d935b5d3b4f7c714d
+    new: 8297f53d265aa4d66d92fa367fc5f5e749299f5b
+    log: revlist-18df58168f4d-8297f53d265a.txt
 
---===============5069545067370262695==
+--===============4123489976716191119==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d1baac1e5a79-18df58168f4d.txt
+Content-Disposition: attachment; filename=revlist-18df58168f4d-8297f53d265a.txt
 
-10175662bdadbf83631a3ef74744293893f16317 x86/sev: Don't emit BSS_DECRYPT section unless it is in use
-ace93e7c629cec6393756d7966b768a8dfe24c72 x86: Combine .data with .bss in kernel mapping
-e0b60e895a31883be5b9352eafdf1c11a1c56694 x86/efistub: Simplify remapping of kernel text
-27785f0d5d68f853be647ad3f50acd0f023dea0f alloc_tag: Use __ prefixed ELF section names
-bc033fc920c525da1893ba10644b90334fdd52de tools/objtool: Treat indirect ftrace calls as direct calls
-83725bb86b171479d1e73771600a991585a21be7 x86: Use PIE codegen for the core kernel when CONFIG_RANDOMIZE_BASE=y
-22490cc0e0cba369088f2cab494eafd748490ed3 x86/pm-trace: Use RIP-relative accesses for .tracedata
-e1d3acec1c44892bf4a07be342e0f4232e53e427 x86/kvm: Use RIP-relative addressing
-46320caf8b6a490fb3f88f0803585d4380bf4cb2 x86/rethook: Use RIP-relative reference for return address
-7f21171123609e3c1a1b46ab95ae4920b8a831e1 x86/sync_core: Use RIP-relative addressing
-f1669d0aa0a296f443aaf038c3af28c8443804f2 x86/entry_64: Use RIP-relative addressing
-c5b168a96e2ef22334e075d7f67bf6c1ad28b825 x86/hibernate: Prefer RIP-relative accesses
-feba7035fee7d8b77fd2e69c7abceb12f67482ce x64/acpi: Use PIC-compatible references in wakeup_64.S
-5544cfb04e11dbab258b2c7103de3533bde8f5fa x86/head64: Avoid absolute references in startup asm
-44752314e49ac73c572b5e73be0851ba9e27a4b9 x86/boot: Implement support for RELA/RELR runtime relocations
-ba44dc36f24c872ed9bcf71048cbfc6debcc3fd6 x86/kernel: Switch to PIE linking for the x86_64 KASLR kernel
-18df58168f4d8040f072486d935b5d3b4f7c714d x86/tools: Drop x86_64 support from 'relocs' tool
+ddbecb15eec9b54b7ff7ff1d68f936b7ef4ae7c4 x86: Combine .data with .bss in kernel mapping
+cc9628b70333de3f3714833231861486cf872bce x86/efistub: Simplify remapping of kernel text
+9e0339aeae88a17c2c51d10dcf42a63f2a4c2152 alloc_tag: Use __ prefixed ELF section names
+604cc8de79ff611b1c52ff60cb9b29ece09e3525 tools/objtool: Treat indirect ftrace calls as direct calls
+4345581a0e21dbcdf20bad856dfab80c681a6f53 x86: Use PIE codegen for the core kernel when CONFIG_RANDOMIZE_BASE=y
+1c18b87f091583d4bc4e6a7dfc5ee76de9c87b84 x86/pm-trace: Use RIP-relative accesses for .tracedata
+3af655b1a0b3187a6caafc00c6dadd9ba9527742 x86/kvm: Use RIP-relative addressing
+59580fe0e02cd16e380a570bc7695049768b1304 x86/rethook: Use RIP-relative reference for return address
+f18a0956803dc581efd315bb61be1e858c4557ef x86/sync_core: Use RIP-relative addressing
+2c736e7a455b87ae3c5072a105e5461c22df954b x86/entry_64: Use RIP-relative addressing
+2d3f5bd62c81385da184ba1eba24e813de30c060 x86/hibernate: Prefer RIP-relative accesses
+b5c792df03bec1342ef994388d630edfd2f22669 x64/acpi: Use PIC-compatible references in wakeup_64.S
+ac364cc4fb69d39128e6f0b7c2c0700c0773f03f x86/head64: Avoid absolute references in startup asm
+df7309bf4854d31355256f20e44cd863135bb2e8 x86/boot: Implement support for RELA/RELR runtime relocations
+c91735fd4f82e8c6071fb77dc3b6d740cf1dcbc7 x86/kernel: Switch to PIE linking for the x86_64 KASLR kernel
+8297f53d265aa4d66d92fa367fc5f5e749299f5b x86/tools: Drop x86_64 support from 'relocs' tool
 
---===============5069545067370262695==--
+--===============4123489976716191119==--
