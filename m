@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5560171419791723340=="
+Content-Type: multipart/mixed; boundary="===============0007008223458094158=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Mon, 29 Dec 2025 11:15:15 -0000
-Message-Id: <176700691512.2616149.5393356282251069720@gitolite.kernel.org>
+Date: Mon, 29 Dec 2025 11:17:41 -0000
+Message-Id: <176700706181.2617681.6960795901110928566@gitolite.kernel.org>
 
---===============5560171419791723340==
+--===============0007008223458094158==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,43 +17,46 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/char-misc-testing
-    old: e849ada70c6b1ee22e9f4f5c0e38231dcee53f04
-    new: c1ea31205edf2fd748bc6ceb081033bcfa0a869a
+    old: c1ea31205edf2fd748bc6ceb081033bcfa0a869a
+    new: 8314d2c28d3369bc879af8e848f810292b16d0af
     log: |
-         953deba747911225bcb936b3fa1cd02014910b17 rust: miscdevice: use `pin_init::zeroed()` for C type initialization
-         0c4ce29612bcd1f74d924cbc4abd133dc002e5e6 rust: binder: add __rust_helper to helpers
-         c1093b85890693fa2d372468f279854c3624d2b1 rust: sync: add Arc::DATA_OFFSET
-         c1ea31205edf2fd748bc6ceb081033bcfa0a869a rust_binder: add binder_transaction tracepoint
+         582ce8ea201292ecc020505ab258991cdc7d0bd2 rust: miscdevice: replace `kernel::c_str!` with C-Strings
+         46c549ef78899addd7c6adc407621640778fad1e rust_binder: replace `kernel::c_str!` with C-Strings
+         174e2a339bf731e080ced67c215ad609a677560b rust_binder: Fix build failure if !CONFIG_COMPAT
+         53da3f51e491c8aeee25004be9d95c30d5efdf5b dt-bindings: misc: qcom,fastrpc: Add compatible for Kaanapali
+         428b2f2b60c37f69e0723a225135da1f352d2602 misc: fastrpc: Rename phys to dma_addr for clarity
+         1d94ce8996d71d77e2d649db9e5c205f423e2c17 misc: fastrpc: Add support for new DSP IOVA formatting
+         8314d2c28d3369bc879af8e848f810292b16d0af misc: fastrpc: Update dma_bits for CDSP support on Kaanapali SoC
          
 
---===============5560171419791723340==
+--===============0007008223458094158==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1767006911 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1767007058 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1767006910-d198be746c26fdf474452c029c145d2400c8141a
+nonce 1767007058-a4aff128ccbaf8db655357e8f3cdf20d68f69413
 
-e849ada70c6b1ee22e9f4f5c0e38231dcee53f04 c1ea31205edf2fd748bc6ceb081033bcfa0a869a refs/heads/char-misc-testing
+c1ea31205edf2fd748bc6ceb081033bcfa0a869a 8314d2c28d3369bc879af8e848f810292b16d0af refs/heads/char-misc-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmlSYr8bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+fuQQAKAT/hK2k7Kl85e2onKn
-4T+tk9itJLyS79lAmHy+JfINwnCYMMc6GI617ivRLpLtCRka+ApzQfvelSPzvOHb
-m5jwoPy6OfQSy60FBhi1cvhnrrh0e1/nNs7VAXyFXisk3PihkOEbMi0DiceCboCt
-ymvreRuW9ZMKi756adAHiCLOSeHzpDpahlN8WD59RWSg1JY14ZOWUaerVjSmpP//
-EskHvq5z9F+Y5n+X9z2psplBeP6PrbewiW2V01+zzjIT35ADM/9oPF0WmWKKUSu6
-y01c4CK/cSfezcLIzsYeS1Tz4e1d+iHSBcuxMrYDu2KCugkk4Zc2Ez4IXhQu7S5D
-ZJTu79y0A6/sq6oIiX8FL7ZINMBIhp4XjYQK0KL9Pg9eqdkrljiYoT2IOQyL1PVd
-Ttdx46GgB8zmRpKQkxvppzX4W5qCOpmlfYtmiUH0SofiIFgS5jdkNB+SmOSpOOS9
-O2pQI2jbhjug4ZioIMGeKpgFJKOH0+Ij4p1yI1PKzUrxB2DpP0+19NG9KcImw0Yb
-pL1Ae+/VOk/Qdgrf9T0GrhOdPL0wgbdeY2tE/4bM4DNWbcQB8mD0e79AuozS9HLh
-MbwDTPW128GwizHhQqvEqCE//cD5EjlRR/cygNvf50KkDXxW8Co/hUrGnhkG1qTd
-KAlJqCHOTmdH2xT/raeCrksD
-=Iiqe
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmlSY1IbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+omEP+wQ29QBV1LMh66Mmj25L
+7KA/q3xAQZAIHOxTZ0Zov3X4kCgGfS8/ORCpI+8MTZQJIfIcBBSNbKtVVPFWjXw9
+6G4jpXLA4bZ5GBFf7tlv0O/4PuJFDlZ2Zpp6Tewan6MCzOJXEsBXO93fELcDmmel
+9hhirNwo94kHbM+o8a9qvR1rYbKsoZHpXudkMz4hsqUTAh0nGFZAk90t45MgKJoU
+e3v0YK1lks61fEePPYDWmGSqHbDUvw6bYTDADk8qIe5W8+E96iB08JsNKz1wkX3k
+yvuMr6dg5X2e0gB5dPKweWcbCSeRBw6nalltdIvTbpHB75kGJduD9ePMLgj27yeo
+cig2jkiyFKWAUgk1kfH1ziTfa6XaCPqplbvBgQxphATe3OjbIg1Rva0+237v1VTH
+M77aXU2HT1CrDUj9bsb7OcOwHHR3U5GZ1vGaho65AKK2HSE8hx2Oj2nQC15MZGGS
+W0o/+JmOGcTlb2Wv8TtfauC6lPgnyFkHR+TQrrk8ZOtftbS1rsESXNZmNQoeBYNi
+NICJ9YGczTgPyFnHZORozotjWXj9Oaoapk2o7JyJX/5APc9bb7INiwkb/xXJ+wiy
+N2PGeySM2zvxkaGramJ02j8qHapna0u7Uoplaq+Es8GHEa4jQjd17UQRWhbaP5JE
+s3c8OOH4AYB+9gGrxna+VSEm
+=50Z9
 -----END PGP SIGNATURE-----
 
---===============5560171419791723340==--
+--===============0007008223458094158==--
