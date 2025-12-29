@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0283306020379969559=="
+Content-Type: multipart/mixed; boundary="===============1167702124169321518=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Mon, 29 Dec 2025 01:29:56 -0000
-Message-Id: <176697179680.2102293.3464672496678348767@gitolite.kernel.org>
+Date: Mon, 29 Dec 2025 01:29:58 -0000
+Message-Id: <176697179826.2102488.12502044964666912969@gitolite.kernel.org>
 
---===============0283306020379969559==
+--===============1167702124169321518==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/mm-new
-    old: cd119c65a615bd7bfe8cda715a77132c8e3da067
-    new: f6417f3551b0024bdcafa2400b86c8e74631a3fe
-    log: revlist-cd119c65a615-f6417f3551b0.txt
+  - ref: refs/heads/mm-unstable
+    old: 2b763b6835ff232973e91cd8054e3799af4b9b1e
+    new: e194fc1d21c18ec12488dd9d0e9f26a48c67a5d2
+    log: revlist-2b763b6835ff-e194fc1d21c1.txt
 
---===============0283306020379969559==
+--===============1167702124169321518==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-cd119c65a615-f6417f3551b0.txt
+Content-Disposition: attachment; filename=revlist-2b763b6835ff-e194fc1d21c1.txt
 
 d2565980f250025991f884e234fd512ec465abf6 x86/kexec: add a sanity check on previous kernel's ima kexec buffer
 9c186e5fce6319cdbbc3ee56d2c3e0b5a71866ae x86-kexec-add-a-sanity-check-on-previous-kernels-ima-kexec-buffer-fix
@@ -173,35 +173,5 @@ e29eb5431c9d798229fc812911c356eca172bbda selftests/mm: va_high_addr_switch retur
 4698baf1c8ae6c7215c8b192b1ba43dd2eb723ce mm: memory-tiers, numa_emu: enable to create memory tiers using fake numa nodes
 df8855ec7cef3c14fc2f0d28eed9e76cfdeba03f mm: numa_emu: add document for NUMA emulation
 e194fc1d21c18ec12488dd9d0e9f26a48c67a5d2 mm/vmscan: don't demote if there is not enough free memory in the lower memory tier
-7a7394c44a144ebcb4e6113125b16662fc81cf4f mm/mempolicy: fix mpol_rebind_nodemask() for MPOL_F_NUMA_BALANCING
-46fb954770f1a086357d9a2846aa9a878e57859e mm/oom_kill: remove unnecessary integer promotion in format string
-b70679adac7abcdb6e297f7707fb7704a7eecb18 fs/proc: expose mm_cpumask in /proc/[pid]/status
-c04c1d35b3a89b84842fd86f1f73b1ba829f33b0 mm/vmscan: mitigate spurious kswapd_failures reset from direct reclaim
-f245f133e4b9c187463f1e1c2c6a106e38f0e0d2 mm: rmap: support batched checks of the references for large folios
-a2c5432ce54f98657c53ee429eb7495f358437a2 arm64: mm: factor out the address and ptep alignment into a new helper
-e8a67dcb763fe7b0f47860af178469a89b599aa6 arm64: mm: support batch clearing of the young flag for large folios
-eeb42bb13a6fc019d9c12c8ff8a794a016a809c2 arm64: mm: implement the architecture-specific clear_flush_young_ptes()
-fd6a762b03476732e7e418036869f8dbb7dc5db3 mm: rmap: support batched unmapping for file large folios
-23704ee38776a72013c1f3e53a9d37b7efd70588 mm/vmstat: remove unused node and zone state helpers
-73334313bb23da79c0217b324755f319d67bd661 mm/damon/sysfs: cleanup intervals subdirs on attrs dir setup failure
-0c45c7b0bf89faa6a45e1ff58c4a3e546eca7e8c mm/damon/sysfs: cleanup attrs subdirs on context dir setup failure
-2949a6038b9cee39883c0f2e6fb89087fc98e109 mm/damon/sysfs-scheme: cleanup quotas subdirs on scheme dir setup failure
-42360dbf283f239a425821de16b14ae58faae68b mm/damon/sysfs-scheme: cleanup access_pattern subdirs on scheme dir setup failure
-b7b2e54e5e663c03e20a3140fce1deb7abfe9fb7 tsacct: skip all kernel threads
-c638fa35f0de08d4089645381404f0f203307a59 lib: introduce hierarchical per-cpu counters
-6c90884cf3c3244fc6ea4f63b4122eb4d2163c61 mm: fix OOM killer inaccuracy on large many-core systems
-b886461533a8bdfe37a9f4b62e606da7c31d886b mm: implement precise OOM killer task selection
-42fa70d2632435fd6005227cc9b6be82861bfd0c mm/khugepaged: remove unnecessary goto 'skip' label
-7ba27532afd801b920055525058dfe42c9478dfe mm/khugepaged: count small VMAs towards scan limit
-a505156354714f89eda867fc5507956ff4df5c2c mm-khugepaged-count-small-vmas-towards-scan-limit-fix
-2b8f9d6d59d9306be8d9db9f473f7ba7f7e0721e mm/khugepaged: change collapse_pte_mapped_thp() to return void
-517d440944b4be78101218961649fcb82ca0e0e9 mm/khugepaged: use enum scan_result for result variables and return types
-52f7e063389fd0b30f6eb73ebe7dbcb30c882b66 mm/khugepaged: make khugepaged_collapse_control static
-1e7578297dc4191d4df42ca9c67c01980490ec17 mm/damon/tests/core-kunit: verify the 'age' field in damon_test_split_at()
-2638497c0896c257e46ed73818078c68670b4fd7 mm/damon/tests/core-kunit: verify the 'age' and 'nr_accesses_bp' fields in damon_test_merge_two()
-fcb8c30f10a0c77cbaf3dfe532ae95c95b4a69af mm/damon/tests/core-kunit: add a test case for region merge size limit in damon_test_merge_regions_of()
-456941698a8217b10eeda4905185235131cd05bf mm/damon/tests/core-kunit: add test cases for multiple regions in damon_test_split_regions_of()
-ecd84c4108564f94f67549fb16ebbaad56c47813 mm-damon-tests-core-kunit-add-test-cases-for-multiple-regions-in-damon_test_split_regions_of-fix
-f6417f3551b0024bdcafa2400b86c8e74631a3fe mm/damon/tests/core-kunit: remove a redundant test case and add a new test case in damos_test_commit_quota_goal()
 
---===============0283306020379969559==--
+--===============1167702124169321518==--
