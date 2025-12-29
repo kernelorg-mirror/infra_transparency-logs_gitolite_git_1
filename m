@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5684141800779290792=="
+Content-Type: multipart/mixed; boundary="===============2157935750711193788=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ulfh/linux-pm
-Date: Mon, 29 Dec 2025 11:47:47 -0000
-Message-Id: <176700886721.2642878.6560337332173038708@gitolite.kernel.org>
+Date: Mon, 29 Dec 2025 11:48:05 -0000
+Message-Id: <176700888519.2643298.2718827373695966275@gitolite.kernel.org>
 
---===============5684141800779290792==
+--===============2157935750711193788==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,19 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ulfh/linux-pm
 user: ulfh
 changes:
-  - ref: refs/heads/fixes
-    old: c07cd646773ea58427576b8f3708b7ea988ae98e
-    new: 73cb5f6eafb0ac7aea8cdeb8ff12981aa741d8fb
-    log: revlist-c07cd646773e-73cb5f6eafb0.txt
-  - ref: refs/tags/v6.19-rc3
-    old: 0000000000000000000000000000000000000000
-    new: 82791741762a870f5f2ede9f909301770f66f867
+  - ref: refs/heads/next
+    old: 18246def2bc7e08a8888e4426a88b01f14221504
+    new: e86fca8c44e511a3f16fa397396b5bdeb50dbd57
+    log: revlist-18246def2bc7-e86fca8c44e5.txt
 
---===============5684141800779290792==
+--===============2157935750711193788==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-c07cd646773e-73cb5f6eafb0.txt
+Content-Disposition: attachment; filename=revlist-18246def2bc7-e86fca8c44e5.txt
 
 d4b69a6186b215d2dc1ebcab965ed88e8d41768d SUNRPC: svcauth_gss: avoid NULL deref on zero length gss_token in gss_read_proxy_verf
 a8ee9099f30654917aa68f55d707b5627e1dbf77 svcrdma: use rc_pageoff for memcpy byte offset
@@ -218,5 +215,15 @@ c875a6c3246713a018d8b7b143deb3ebaeecaf1c Merge tag 'usb-6.19-rc3' of git://git.k
 f8f9c1f4d0c7a64600e2ca312dec824a0bc2f1da Linux 6.19-rc3
 305f254727bd379bbed0385afa0162f5bde1f51c pmdomain: mtk-pm-domains: Fix spinlock recursion fix in probe
 73cb5f6eafb0ac7aea8cdeb8ff12981aa741d8fb pmdomain: imx: Fix reference count leak in imx_gpc_probe()
+52afdee09a730f0be0b2eb01a09d573f1ba0849a pmdomain: imx93-blk-ctrl: cleanup error path
+0e3fe50f328e78e9733a9568139ff99a636222d3 pmdomain: imx93-blk-ctrl: convert to devm_* only
+e0cfb45edc646fbe8d11ba168d336a0deec3b18f pmdomain: imx93-blk-ctrl: add support for optional subnodes
+af2325dbeed6fea3fa7b43233bbb5910b0886561 pmdomain: imx: gpcv2: Discard pm_runtime_put() return value
+4d63858b9c6fbc496632b2d2173815ccb4cb467e dt-bindings: power: define ID for Marvell PXA1908 audio domain
+12752eb13c4090fe4f9cfcea55cbf9fb7126ff6a dt-bindings: power: mt8196-gpufreq: Describe nvmem provider ability
+26525fb0bc00e8fc0db785b690a53790910e215e pmdomain: Merge branch dt into next
+6f44c712a9950fada7033da2dffbfbd13ff89c1d pmdomain: add audio power island for Marvell PXA1908 SoC
+e8bf27db8cd0267f9f0123f9d93345a5b87dbd65 pmdomain: mediatek: mtk-mfg: Expose shader_present as nvmem cell
+e86fca8c44e511a3f16fa397396b5bdeb50dbd57 pmdomain: Merge branch fixes into next
 
---===============5684141800779290792==--
+--===============2157935750711193788==--
