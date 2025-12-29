@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0008296535980246496=="
+Content-Type: multipart/mixed; boundary="===============4134818821405143050=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/zohar/linux-integrity
-Date: Mon, 29 Dec 2025 15:00:19 -0000
-Message-Id: <176702041923.2802241.14207707079052874835@gitolite.kernel.org>
+Date: Mon, 29 Dec 2025 15:00:34 -0000
+Message-Id: <176702043471.2802804.13219699865121623400@gitolite.kernel.org>
 
---===============0008296535980246496==
+--===============4134818821405143050==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/zohar/linux-integrity
 user: zohar
 changes:
-  - ref: refs/heads/next-integrity-testing
+  - ref: refs/heads/next-integrity
     old: 738c9738e690f5cea24a3ad6fd2d9a323cf614f6
     new: 377cae9851e8559e9d8b82a78c1ac0abeb18839c
     log: revlist-738c9738e690-377cae9851e8.txt
 
---===============0008296535980246496==
+--===============4134818821405143050==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -1051,4 +1051,4 @@ c875a6c3246713a018d8b7b143deb3ebaeecaf1c Merge tag 'usb-6.19-rc3' of git://git.k
 f8f9c1f4d0c7a64600e2ca312dec824a0bc2f1da Linux 6.19-rc3
 377cae9851e8559e9d8b82a78c1ac0abeb18839c ima: Fix stack-out-of-bounds in is_bprm_creds_for_exec()
 
---===============0008296535980246496==--
+--===============4134818821405143050==--
