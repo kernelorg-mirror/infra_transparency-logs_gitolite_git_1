@@ -1,56 +1,49 @@
-Content-Type: multipart/mixed; boundary="===============4506313235976082445=="
+Content-Type: multipart/mixed; boundary="===============4001206690130322038=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Mon, 29 Dec 2025 13:08:01 -0000
-Message-Id: <176701368103.2707715.6672050535039555144@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+Date: Mon, 29 Dec 2025 13:08:33 -0000
+Message-Id: <176701371334.2708086.13347542082577242427@gitolite.kernel.org>
 
---===============4506313235976082445==
+--===============4001206690130322038==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+user: ij
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/master
-    old: f38e3e988fd16e8af5785684c383c6c2b0775847
-    new: 2a2e3d89a4f89cd25971459badad3dece8e10a93
+  - ref: refs/heads/review-ilpo-fixes
+    old: cbf3dc32609b9703b87fbd444c271821664478c6
+    new: 499d987b65c03bacf3c17f32c2ad1408b751c708
     log: |
-         2a2e3d89a4f89cd25971459badad3dece8e10a93 6.12-stable patches
+         063185ba32747f69159777c66097cd8f428e8b7a platform/x86: asus-armoury: add support for GU605CR
+         a05117150256dd0787f4e6d56b577b41488f28a4 platform/x86: asus-armoury: add support for GA403WR
+         a22d893f490d9cd517dbf02549701add2318594c platform/x86: asus-armoury: add support for FA608UM
+         499d987b65c03bacf3c17f32c2ad1408b751c708 platform/x86: asus-armoury: add support for G615LR
          
 
---===============4506313235976082445==
+--===============4001206690130322038==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1767013679 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1767013679-ac601f10b963b5ec4311b21d5a5c128fbe737b39
+pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1767013709 +0200
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86.git
+nonce 1767013708-c994e25205e28167b1769741e7a557739f6ddfc4
 
-f38e3e988fd16e8af5785684c383c6c2b0775847 2a2e3d89a4f89cd25971459badad3dece8e10a93 refs/heads/master
+cbf3dc32609b9703b87fbd444c271821664478c6 499d987b65c03bacf3c17f32c2ad1408b751c708 refs/heads/review-ilpo-fixes
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmlSfTAbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+SHUP/3+DFG+JE5XchdYllH2F
-iRBCWo23VSixw3pn0dAnAw3BAeHcWzjH554NHXTLdmU5S9qfrHs9UvOxCK1WlcUs
-romZrh/3eQU5sIvXTXyzTD0kc4eAJCPu+3xTCojZvyBW/Isg+h4e5aRt0Iop7JLx
-e841wt3f9pYFYU6BhjpyfNN6YmP/uqEL4B/t5CnnkMHI6JtI/TruGNnnTo5BNx41
-JcZrHmK5bZ/71ctVX1S6T/gSlqsXCilIw7rcXj/myGoMneP0nM1Tyl35xqwld5Ke
-wwvNXOw5pSllcZYaO6b2dvPIqUyOwq1T1ujuLiVaGf/S7OL3dUAjiAe1MNyj76W6
-ZnBhQyibAPWMlBiy8/AWabWw94SCwdFCChobqtVgWvb/tLet9k7CHvX/OIdDUtB7
-bOhCR4rz1ILYYEpXq+fDO9tK/p1huYQDxjS23FsVq5BzwzJg8zRG9/ppT6FMOARM
-YcKcfOk5lxSfHC8yVY5gt9fyWcZLLpJ7fQ+w68qdQ0JgNNg0+ia6ncG9Ikd5h73P
-tSf4gGKlus2cxNKUqVmEakC+T0mgxXthxt3ubIBdZJdLSi+UwodNMLHmynuvwRTB
-ycl9LmdBA8nWK5TcqQeOsKU9d4n+lnzysLvWyT4d4V1id3wCKGpKN9QbS+QRjG3x
-QfW3Pxg5tGkQ4QkZ/qodmOLd
-=6N8d
+iHUEABYIAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCaVJ9UAAKCRBZrE9hU+XO
+MekCAQCL6IG8XpdcqcBKv/MlRYKD77OWJld/iZvL8aZRJKhD3QD+NPhCLZxENM/H
+FG3avci5ML3vfbF13Ut5HrTnTUSP5A4=
+=y69f
 -----END PGP SIGNATURE-----
 
---===============4506313235976082445==--
+--===============4001206690130322038==--
