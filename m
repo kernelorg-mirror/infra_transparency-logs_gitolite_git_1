@@ -1,62 +1,47 @@
-Content-Type: multipart/mixed; boundary="===============8718526549870987124=="
+Content-Type: multipart/mixed; boundary="===============3319203682278488090=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Mon, 29 Dec 2025 20:20:03 -0000
-Message-Id: <176703960390.3057669.2465684915404133317@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ardb/linux
+Date: Mon, 29 Dec 2025 20:28:24 -0000
+Message-Id: <176704010491.3063601.6743018863940423679@gitolite.kernel.org>
 
---===============8718526549870987124==
+--===============3319203682278488090==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/ardb/linux
+user: ardb
 changes:
-  - ref: refs/heads/master
-    old: 7839932417dd53bb09eb5a585a7a92781dfd7cb2
-    new: 8640b74557fc8b4c300030f6ccb8cd078f665ec8
-    log: revlist-7839932417dd-8640b74557fc.txt
+  - ref: refs/heads/x86-pie-v3
+    old: 8297f53d265aa4d66d92fa367fc5f5e749299f5b
+    new: 60b4e229dbd425dc1c416efd5a4a17a5d748f749
+    log: revlist-8297f53d265a-60b4e229dbd4.txt
 
---===============8718526549870987124==
+--===============3319203682278488090==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7839932417dd-8640b74557fc.txt
+Content-Disposition: attachment; filename=revlist-8297f53d265a-60b4e229dbd4.txt
 
-11ce66c7a04b10ee42ccdd4e2af72a3773df09f7 MAINTAINERS: add Mike Rapoport as maintainer for userfaultfd
-5393802c94e0ab1295c04c94c57bcb00222d4674 genalloc.h: fix htmldocs warning
-87726567d83df9c006d506a201c3c78c3cda76ed mailmap: update entry for Bartosz Golaszewski
-c6e8e595a0798ad67da0f7bebaf69c31ef70dfff idr: fix idr_alloc() returning an ID out of range
-007f5da43b3d0ecff972e2616062b8da1f862f5e mm/kasan: fix incorrect unpoisoning in vrealloc for KASAN
-6f13db031e27e88213381039032a9cc061578ea6 kasan: refactor pcpu kasan vmalloc unpoison
-6a0e5b333842cf65d6f4e4f0a2a4386504802515 kasan: unpoison vms[area] addresses with a common tag
-6ba776b533ca902631fa106b8a90811b3f40b08d mm: leafops.h: correct kernel-doc function param. names
-7838a4eb8a1d23160bd3f588ea7f2b8f7c00c55b mm/page_alloc: change all pageblocks migrate type on coalescing
-612b595e08caffc1276e7b0680a0c95951eba185 MAINTAINERS: update one straggling entry for Bartosz Golaszewski
-02129e623c18ad77ebb85210340f72125ae8a7a1 mm/damon/vaddr: fix missing pte_unmap_unlock in damos_va_migrate_pmd_entry()
-fdee5216851c2e0f88690c4038eaede3bcd128bc .mailmap: remove one of the entries for WangYuli
-8de524774b9e79562452730d66e88f525cdd8149 MAINTAINERS: add ABI headers to KHO and LIVE UPDATE
-fe55ea85939efcbf0e6baa234f0d70acb79e7b58 kernel/kexec: change the prototype of kimage_map_segment()
-a3785ae5d334bb71d47a593d54c686a03fb9d136 kernel/kexec: fix IMA when allocation happens in CMA area
-632b874d59a36caf829ab5790dafb90f9b350fd6 selftests/mm: fix thread state check in uffd-unit-tests
-7013803444dd3bbbe28fd3360c084cec3057c554 tools/mm/page_owner_sort: fix timestamp comparison for stable sorting
-e6dbcb7c0e7b508d443a9aa6f77f63a2f83b1ae4 mm: fixup pfnmap memory failure handling to use pgoff
-6db12d5c474d77016ca9130eb32490c9771fb157 mm: memcg: fix unit conversion for K() macro in OOM log
-6558749ef3405c143711cbdc67ec88cbc1582d91 rust: maple_tree: rcu_read_lock() in destructor to silence lockdep
-f183663901f21fe0fba8bd31ae894bc529709ee0 mm: consider non-anon swap cache folios in folio_expected_ref_count()
-0c75714095e06692f7a0e00a3dfd829c0d3c0ada mm/page_alloc: report 1 as zone_batchsize for !CONFIG_MMU
-7622292d2a4c4de36144a30b12a0d0f70d35f2c1 sparse: update MAINTAINERS info
-ffd042a23b798dfe2786c998038c1bf53ae818ef MAINTAINERS: notify the "Device Memory" community of memory hotplug changes
-077d925b60c320027dd64b69e0ab2dd2e00ed45c mm/memremap: fix spurious large folio warning for FS-DAX
-a76a5ae2c6c645005672c2caf2d49361c6f2500f mm/page_owner: fix memory leak in page_owner_stack_fops->release()
-d6b5a8d6f142ad0a8e45181f06e70b4746c4abc3 mm/ksm: fix pte_unmap_unlock of wrong address in break_ksm_pmd_entry
-07fe35b766a6fcd4ec8214e5066b7b0056b6ec6a Revert "scripts/clang-tools: Handle included .c files in gen_compile_commands"
-b08fc4d0ec2466558f6d5511434efdfabbddf2a6 kbuild: fix compilation of dtb specified on command-line without make rule
-1f4ea4838b13c3b2278436a8dcb148e3c23f4b64 mcb: Add missing modpost build support
-0b34fd0feac6202602591dc15c58e25ffde41bd5 Merge tag 'mm-hotfixes-stable-2025-12-28-21-50' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
-8640b74557fc8b4c300030f6ccb8cd078f665ec8 Merge tag 'kbuild-fixes-6.19-1' of git://git.kernel.org/pub/scm/linux/kernel/git/kbuild/linux
+23413eaf18ee10f5a2db534d7f6147893a2dd789 x86/sev: Don't emit BSS_DECRYPT section unless it is in use
+338236242e4f3273243b06c8b8e7573785a984db x86: Combine .data with .bss in kernel mapping
+4bdb0556312ed1b52d0e75da32c38b45afa32ba2 x86/efistub: Simplify remapping of kernel text
+ad33005eaba19dd55384ab1ae615902ec03426ee alloc_tag: Use __ prefixed ELF section names
+4287294c25847efd614c89277633e6b56325f76b tools/objtool: Treat indirect ftrace calls as direct calls
+07d8e36d963a081fa1dd8b7802bd14ab2ae9230d x86: Use PIE codegen for the core kernel when CONFIG_RANDOMIZE_BASE=y
+11da10ecb214cc1281723408bd41a4403634b9a0 x86/pm-trace: Use RIP-relative accesses for .tracedata
+2c97ea38bd6c7a1c6f8d6b92f55e1391c9c434fb x86/kvm: Use RIP-relative addressing
+2267fb0aa6f3e72e1d08f6dd40b3ff9da1c12590 x86/rethook: Use RIP-relative reference for return address
+7a337463e3f86486d7a1f7b78c8538b7da5d04dc x86/sync_core: Use RIP-relative addressing
+97260912239412a6484597b4a24f48fa200b4688 x86/entry_64: Use RIP-relative addressing
+8c3c54e7bcb4b9b961e77c2f16b3e9c8b6a9dc8d x86/hibernate: Prefer RIP-relative accesses
+5f414658d1093891fef0b4c80047d8e8562b5497 x64/acpi: Use PIC-compatible references in wakeup_64.S
+be40b0607e46be94230ac5a8f2323621a212cb84 x86/head64: Avoid absolute references in startup asm
+335fd9a546bae5a0a198e45f9cedc0ba21ea8d6c x86/boot: Implement support for RELA/RELR runtime relocations
+e46336eacb5fab27abe769e7b04c9899aeb32f1e x86/kernel: Switch to PIE linking for the x86_64 KASLR kernel
+60b4e229dbd425dc1c416efd5a4a17a5d748f749 x86/tools: Drop x86_64 support from 'relocs' tool
 
---===============8718526549870987124==--
+--===============3319203682278488090==--
