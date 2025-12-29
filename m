@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/andy/linux-auxdisplay
-Date: Mon, 29 Dec 2025 13:23:47 -0000
-Message-Id: <176701462726.2721656.10536051287449290057@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Mon, 29 Dec 2025 13:24:40 -0000
+Message-Id: <176701468011.2722105.12478742146846885279@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/andy/linux-auxdisplay
-user: andy
+repo: pub/scm/linux/kernel/git/tip/tip
+user: bp
 changes:
-  - ref: refs/heads/for-next
-    old: 8f0b4cce4481fb22653697cced8d0d04027cb1e8
-    new: b5c23a4d291d2ac1dfdd574a68a3a68c8da3069e
-    log: |
-         b5c23a4d291d2ac1dfdd574a68a3a68c8da3069e auxdisplay: arm-charlcd: fix release_mem_region() size
-         
+  - ref: refs/heads/core/merge
+    old: 87ad409cc711aecf36fa8eacc67501df31ddce4a
+    new: 0000000000000000000000000000000000000000
