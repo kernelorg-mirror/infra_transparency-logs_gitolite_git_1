@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7348551766999392662=="
+Content-Type: multipart/mixed; boundary="===============7870530837037295086=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Mon, 29 Dec 2025 08:32:15 -0000
-Message-Id: <176699713508.2487453.15876280939514215055@gitolite.kernel.org>
+Date: Mon, 29 Dec 2025 08:32:19 -0000
+Message-Id: <176699713961.2487678.4174633669416291492@gitolite.kernel.org>
 
---===============7348551766999392662==
+--===============7870530837037295086==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/tty
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: 8f0b4cce4481fb22653697cced8d0d04027cb1e8
+  - ref: refs/heads/tty-linus
+    old: 267ee93c417e685d9f8e079e41c70ba6ee4df5a5
     new: f8f9c1f4d0c7a64600e2ca312dec824a0bc2f1da
-    log: revlist-8f0b4cce4481-f8f9c1f4d0c7.txt
+    log: revlist-267ee93c417e-f8f9c1f4d0c7.txt
 
---===============7348551766999392662==
+--===============7870530837037295086==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1766997134 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1766997139 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1766997133-e5b9ad6d703aa4840fb15f1ca86aafc79d78899f
+nonce 1766997137-7099a688969bef8bb4db1460b4c8dd4b331fa04a
 
-8f0b4cce4481fb22653697cced8d0d04027cb1e8 f8f9c1f4d0c7a64600e2ca312dec824a0bc2f1da refs/heads/main
+267ee93c417e685d9f8e079e41c70ba6ee4df5a5 f8f9c1f4d0c7a64600e2ca312dec824a0bc2f1da refs/heads/tty-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmlSPI4bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+HdoP/R/A3+oG8uifllhLlWX1
-VidYNyWdrKnWzhKLfnjkkLfdYWJxzcQl6yA1EJUl60rSJ3ziYJsnrsRuh7YrRq5M
-sdjhKuiBqzHQDspaw4X9iqOBKVIcR4bAWeL5R5xEf5oPoWDwufDY5ECKLt0NKvTK
-JVAB/8G6pW9hNy+l+DTcD8oasRcnqeqmcDHng2C5EPQnHZolx2+wpnHaQ6Hz68MU
-vrC3AYX6RdD5YkRT5bN69G29gNHIVORATrrk738rA1ugYYtqgXpjBzHlQBJIzbM2
-HEBZY6K2vrmfv8hjPvTg2ngrY09uGT+1VnOqvxRyHO7I0hx6Ni5ZUupzXq+o3HT7
-Lg18107w/y1c+pA1m1+fyfKCWhNcoCJA/seFzcLmWaMO6V99WMRpE0MYYT17M8hW
-0Ls58lYXv1OKCA3Cp4rqyaS2Cnn2eKaGA9/4U7jVcB0Tmh+S14+ooZ2uKmgkXR/B
-3o2AmisW5LynxWmdBM0O7Lc6P4y92a3KgfQpOarkH2/SXFJVnZlRX4OlYH4o3y4m
-qdkdYpDz+d7QAhMwXR+Lc9+5GGHcLyIU/GO4LE48FVm19fKpfRhjm6DeX3F9AWO1
-cb3uDX59I82OIM0Hfhg3hukSnWe6vXBCLcwd1nP8mVfG7pdioW3aAQQnq4pO7u2c
-p+bZ0tqMNbmPA9QEVQEeAPcG
-=opQH
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmlSPJMbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+5WUP/A72gtGOv9wTMj9ka7pi
+DTVghw8kYEnFFrS17jnu6wjw07sH6c/8o4cfMckmX37XJdl81n04BWo3GxvO+sut
+rYWmCfbH5yl9NSHMOyVZC7htsg66aJQp3aMBmRNVm+0ET1YXlyS6OWX2SGFNrGp3
+knvLGgH8gUxHkHEc1hGXcxUrTuSegCwHf4Vbj1i4syQiTaj1vXztdNT9K7RpbnvU
+bav3mtnlHqS81bVLTnqx4UlWeKaf4WngCjAlX4V+s7DEvs+ZCKvxoro78p3LHxWZ
+qx0NOzjRzvv3chgxIjtd5t4PoGNlVvBTsjU8UbtGNAgOCbwKC2M1tkqIYoq9lyjd
+Umgp5mO3LrimbiGue9kz1Q15DpPqG6dHMtWiDEZotCspTAe4VoGlkni7QidnAqKE
+8KrnZ53bAfG6mp03EQfFwfqm6hQI3HMzAxXktO32YQE5U7E3xiGkWz5voYHdHBZ2
+6rTFl0OIL2D0iHIrYg1pAnOfo3aZgFpL6bpeM/bgHLJ16sDJXFKe2tJuFTZOoXDF
+WUHbs2JWEFA6jqQOrE4Mf0qjaCLz7yUJ+Qbk8qvsJqoRGm6j62Wu0R8PEots53le
+MeflzMtdE4OvWkccP4BNQEa6zaFguyLrH3y+fYCsxT1/oYTqY+EZzeF9OvY6eb9q
+CPBZufCZoYdncKJrTn+Aa8dD
+=WvAL
 -----END PGP SIGNATURE-----
 
---===============7348551766999392662==
+--===============7870530837037295086==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-8f0b4cce4481-f8f9c1f4d0c7.txt
+Content-Disposition: attachment; filename=revlist-267ee93c417e-f8f9c1f4d0c7.txt
 
 1b9439c933b500cb24710bbd81fe56e9b0025b6f KVM: selftests: Add missing "break" in rseq_test's param parsing
 e2b43fb25243d502ad36b07bab9de09f4b76fff9 KVM: x86: Apply runtime updates to current CPUID during KVM_SET_CPUID{,2}
@@ -343,8 +343,6 @@ d14cd998e67ba8f1cca52a260a1ce1a60954fd8b usb: typec: ucsi: huawei-gaokin: add DR
 c84117912bddd9e5d87e68daf182410c98181407 USB: lpc32xx_udc: Fix error handling in probe
 14ad4c10d5bdd413ff9a914260e89b5f54b7a2c7 usb: typec: ucsi: Fix null pointer dereference in ucsi_sync_control_common
 3b4961313d31e200c9e974bb1536cdea217f78b5 usb: dwc3: of-simple: fix clock resource leak in dwc3_of_simple_probe
-24ec03cc55126b7b3adf102f4b3d9f716532b329 serial: core: Restore sysfs fwnode information
-5edb7338d6117bb0ce17ead7973c67390da42258 serial: 8250: longson: Fix NULL vs IS_ERR() bug in probe
 a58383fa45c706bda3bf4a1955c3a0327dbec7e7 block: add allocation size check in blkdev_pr_read_keys()
 114ea9bbaf7681c4d363e13b7916e6fef6a4963a io_uring: fix nr_segs calculation in io_import_kbuf
 dcd0b625fe440d68bb4b97c71d18ca48ecd6e594 powercap: intel_rapl: Fix possible recursive lock warning
@@ -499,9 +497,6 @@ b94b73567561642323617155bf4ee24ef0d258fe powerpc: Add reloc_offset() to font bit
 fbe409d138b1d8a8b91cdad19cf95495e8ebe1ee powerpc/powernv: Enable cpuidle state detection for POWER11
 608328ba5b0619cbc28b409296b5e3840bcb97b6 powerpc/32: Restore disabling of interrupts at interrupt/syscall exit
 b927546677c876e26eba308550207c2ddf812a43 Merge tag 'dma-mapping-6.19-2025-12-22' of git://git.kernel.org/pub/scm/linux/kernel/git/mszyprowski/linux
-f54151148b969fb4b62bec8093d255306d20df30 serial: core: Fix serial device initialization
-c3ca8a0aac832fe8047608bb2ae2cca314c6d717 serial: sh-sci: Check that the DMA cookie is valid
-267ee93c417e685d9f8e079e41c70ba6ee4df5a5 serial: xilinx_uartps: fix rs485 delay_rts_after_send
 d67396c9d697041b385d70ff2fd59cb07ae167e8 spi: cadence-quadspi: Prevent lost complete() call during indirect read
 5bfbbf0a49ee4b5dcf46a3bfd4cd860d72cc887d spi: cadence-quadspi: Improve CQSPI_SLOW_SRAM quirk if flash is slow
 0831269b5f71594882accfceb02638124f88955d usb: usb-storage: Maintain minimal modifications to the bcdDevice range.
@@ -587,4 +582,4 @@ cd80afff4877e1151ce53d48b65eba9de80ac1d2 Merge tag 'powerpc-6.19-2' of git://git
 c875a6c3246713a018d8b7b143deb3ebaeecaf1c Merge tag 'usb-6.19-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/usb
 f8f9c1f4d0c7a64600e2ca312dec824a0bc2f1da Linux 6.19-rc3
 
---===============7348551766999392662==--
+--===============7870530837037295086==--
