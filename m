@@ -1,45 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============3380903925528933267=="
+Content-Type: multipart/mixed; boundary="===============8143415952886013313=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/boqun/linux
-Date: Mon, 29 Dec 2025 13:09:30 -0000
-Message-Id: <176701377078.2708598.2845582233047924844@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Mon, 29 Dec 2025 13:11:12 -0000
+Message-Id: <176701387229.2711862.11886740290068459948@gitolite.kernel.org>
 
---===============3380903925528933267==
+--===============8143415952886013313==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/boqun/linux
-user: boqun
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/rust-sync
-    old: ed40791f023353485874d3388ba011bfded4f823
-    new: a49e10b23007b49a108950866d4b87ebb21de9a9
-    log: revlist-ed40791f0233-a49e10b23007.txt
+  - ref: refs/heads/master
+    old: 2a2e3d89a4f89cd25971459badad3dece8e10a93
+    new: 87d4074bca3efe4f27eab7dfbbfade0957d8a376
+    log: |
+         87d4074bca3efe4f27eab7dfbbfade0957d8a376 scripts/bad_stable: provide some info about the patch being marked
+         
 
---===============3380903925528933267==
+--===============8143415952886013313==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ed40791f0233-a49e10b23007.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-54e76912c3195b37db6f646f0ca9e3418785ac72 rust: helpers: Add i8/i16 atomic_read_acquire/atomic_set_release helpers
-256643030e9ddad064a85aeec8871b2c75522857 rust: helpers: Add i8/i16 relaxed atomic helpers
-e8d9d20ca4d77e2f87b279df909d60d2c99de8eb rust: helpers: Add i8/i16 atomic xchg helpers
-66e4c3aa0be66faf622d04d74a1bc17ec1eb7c41 rust: helpers: Add i8/i16 atomic xchg_acquire helpers
-c263aede313bfc27bbb25b54fb2d9ccd5946b478 rust: helpers: Add i8/i16 atomic xchg_release helpers
-ebbeb1251ae720b03b6aa3031282f3941adf683d rust: helpers: Add i8/i16 atomic xchg_relaxed helpers
-1185906033f07521ccaed228f24eef0ddfa6def0 rust: helpers: Add i8/i16 atomic try_cmpxchg helpers
-b857df21a12b0d9779ed6dbb1593f866ff8756d3 rust: helpers: Add i8/i16 atomic try_cmpxchg_acquire helpers
-93aaa226226b3af7f2e9b1364d46f8fa4c8beeec rust: helpers: Add i8/i16 atomic try_cmpxchg_release helpers
-4097f84f22181c6e0c9a87056c0eb67ab239a1fe rust: helpers: Add i8/i16 atomic try_cmpxchg_relaxed helpers
-33c898932672d5935f7150d95c35c27c5d2ff684 rust: sync: atomic: Prepare AtomicOps macros for i8/i16 support
-195957d420217667b3b7697375df70a5979e94f3 rust: sync: atomic: Add i8/i16 load and store support
-2e7ae15311030bd9a0f2b5352b267603c283c48c rust: sync: atomic: Add store_release/load_acquire tests
-13ce979ec1c890f8755c998e3251986f77ab1dce rust: sync: atomic: Add i8/i16 xchg and cmpxchg support
-a49e10b23007b49a108950866d4b87ebb21de9a9 TMP: Make i8 i16 AtomicImpl only when ARCH_SUPPORTS_ATOMIC_RMW
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1767013871 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1767013870-6784a11429914bae101245ffd770a46832544287
 
---===============3380903925528933267==--
+2a2e3d89a4f89cd25971459badad3dece8e10a93 87d4074bca3efe4f27eab7dfbbfade0957d8a376 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmlSfe8bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+gBYP/0FQDM2KwfIPwQ6fFlva
+Zg59dJZ3WnE44c0uIVLaftdcTaHgXRyhuBYdEX4tHxhO3H9iXJ1EsWXnt4d3KDet
+VE0fBb8FP4C2S3vLz6GJLFnfFdY1yPT7x7EuHxIpMABmsUmojHGTYcOUTPmHzWEJ
+L+6gB//KIaz/tWRXztAcMoLZsy31xsY/EbxT0PGD/jNUD/vUOxw1S7kLfNMKft7G
+EHD4e6p9TxDmoN8zZuyRvUtMCwoboEpBRAyunhcwTt8wGsow4aoPfQiyRz9U4mBg
+zP6G7cMLK1DS6yebFbZBnVXZPc643EotUvK9ZEzfAyy5F7Wh+u1Idl1sW3HV8DUk
+m6PtlwI5xGXN0QGp97lswDLPTe9f8sFcnXBMG7g7PhxWrBLfiwhnqb6LP193SdqQ
+QFefvMiJbJY8nL3eFeG43E06lYaOXyBn+bGEle1QGiUCMu8DxlMxAojws7zcFEDC
+uHsydK45H/QOtawAcxlu9vVgmj+7VwYPyJlgYU/aTGZbI+GEy29kSXm9v3sBOQuz
+P2xagqiOWz1Wjt1bkNPkRoDQZixavUuV3Ksf6kW/Ns0RtD1T98QhRQhVds/KTQHh
+hPnpbSTmHrqVnhHaigLKVQeMVY63fTABn0hmV08p6v7hTbnbiLuFn0OuRimAj7/w
+s8evOu88WlCOT+Doem4FFolW
+=eQ77
+-----END PGP SIGNATURE-----
+
+--===============8143415952886013313==--
