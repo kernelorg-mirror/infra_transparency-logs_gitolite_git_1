@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4034787599370434547=="
+Content-Type: multipart/mixed; boundary="===============0332750177489552521=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/geert/linux-m68k
-Date: Mon, 29 Dec 2025 11:13:37 -0000
-Message-Id: <176700681774.2613113.14289857400936977658@gitolite.kernel.org>
+Date: Mon, 29 Dec 2025 11:13:50 -0000
+Message-Id: <176700683082.2613366.12169595816101754649@gitolite.kernel.org>
 
---===============4034787599370434547==
+--===============0332750177489552521==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/geert/linux-m68k
 user: geert
 changes:
-  - ref: refs/heads/master
-    old: 350b0b43acf3a0058cd4b25f4c889cde2f98d404
-    new: 5b740f72fc00738541fc856f777d02820c530fbd
-    log: revlist-350b0b43acf3-5b740f72fc00.txt
+  - ref: refs/heads/m68k-queue
+    old: bb5710635834feb5670be7ab4e9213fd5ba75d45
+    new: 3a8a81c05a1971c1d8aa63b41d8a9855443bbc22
+    log: revlist-bb5710635834-3a8a81c05a19.txt
 
---===============4034787599370434547==
+--===============0332750177489552521==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-350b0b43acf3-5b740f72fc00.txt
+Content-Disposition: attachment; filename=revlist-bb5710635834-3a8a81c05a19.txt
 
 d4b69a6186b215d2dc1ebcab965ed88e8d41768d SUNRPC: svcauth_gss: avoid NULL deref on zero length gss_token in gss_read_proxy_verf
 a8ee9099f30654917aa68f55d707b5627e1dbf77 svcrdma: use rc_pageoff for memcpy byte offset
@@ -213,6 +213,8 @@ cd80afff4877e1151ce53d48b65eba9de80ac1d2 Merge tag 'powerpc-6.19-2' of git://git
 15225b910cb8050636c11b4a607559169a7905ad Merge tag 'tty-6.19-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/tty
 c875a6c3246713a018d8b7b143deb3ebaeecaf1c Merge tag 'usb-6.19-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/usb
 f8f9c1f4d0c7a64600e2ca312dec824a0bc2f1da Linux 6.19-rc3
-5b740f72fc00738541fc856f777d02820c530fbd Merge tag 'v6.19-rc3'
+304f66f0d2b788cc62ba6c9c97e110706accc52c m68k: atari: usb: Add ISP1160 USB host controller support
+be52e555d3f41d36e72d36f89e0247ff0b86c317 m68k: atari: Update Kconfig.bus help text
+3a8a81c05a1971c1d8aa63b41d8a9855443bbc22 m68k: defconfig: Enable Atari EtherNAT and NetUSBee USB support
 
---===============4034787599370434547==--
+--===============0332750177489552521==--
