@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/chunkuang.hu/linux
-Date: Tue, 30 Dec 2025 15:39:18 -0000
-Message-Id: <176710915836.3960913.3480489061719581512@gitolite.kernel.org>
+Date: Tue, 30 Dec 2025 15:48:13 -0000
+Message-Id: <176710969311.3968244.14491533735073245880@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/chunkuang.hu/linux
 user: chunkuang.hu
 changes:
   - ref: refs/heads/mediatek-drm-fixes
-    old: 8f0b4cce4481fb22653697cced8d0d04027cb1e8
-    new: 2de5bdc2d9819d645b4d0e91d3a520b7fee87294
+    old: 2de5bdc2d9819d645b4d0e91d3a520b7fee87294
+    new: 4e7fd55411faf6c1abfa2ddd1504713b2006d166
     log: |
-         2de5bdc2d9819d645b4d0e91d3a520b7fee87294 drm/mediatek: Fix platform_get_irq() error checking
+         4e7fd55411faf6c1abfa2ddd1504713b2006d166 drm/mediatek: mtk_hdmi_v2: Fix return type of mtk_hdmi_v2_tmds_char_rate_valid()
          
