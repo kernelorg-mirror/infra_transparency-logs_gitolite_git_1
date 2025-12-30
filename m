@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/libs/libtrace/libtraceevent
-Date: Tue, 30 Dec 2025 16:15:38 -0000
-Message-Id: <176711133849.3992597.9883044385854281493@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/trace-cmd/trace-cmd
+Date: Tue, 30 Dec 2025 16:20:23 -0000
+Message-Id: <176711162376.3997192.18092686030982167766@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/libs/libtrace/libtraceevent
+repo: pub/scm/utils/trace-cmd/trace-cmd
 user: rostedt
 changes:
-  - ref: refs/tags/libtraceevent-1.8.7
-    old: 0000000000000000000000000000000000000000
-    new: ad60b1beec633b78fec9c71ff052f9cba0a62997
+  - ref: refs/heads/master
+    old: 8f2a902862c5b75c0a5a295bb946eb5fa0744e35
+    new: a67331baff77fc7afa0a86403cb5363279a78c0e
+    log: |
+         a67331baff77fc7afa0a86403cb5363279a78c0e trace-cmd: Remove obsolete tep_set_local_bigendian() call
+         
