@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Tue, 30 Dec 2025 09:28:22 -0000
-Message-Id: <176708690200.3662470.8061511056343353910@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vkoul/soundwire
+Date: Tue, 30 Dec 2025 09:32:38 -0000
+Message-Id: <176708715804.3666184.7332734070566231335@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rdma/rdma
-user: leon
+repo: pub/scm/linux/kernel/git/vkoul/soundwire
+user: vkoul
 changes:
-  - ref: refs/heads/wip/leon-for-rc
-    old: 3d70e0fb0f289b0c778041c5bb04d099e1aa7c1c
-    new: 3c68cf68233e556e0102f45b69f7448908dc1f44
+  - ref: refs/heads/next
+    old: dddbe80536f3676b9b14a034058c81a1798fe374
+    new: dc3a6a942e9ee3f18560bfcb16c06bb94f37fabf
     log: |
-         3c68cf68233e556e0102f45b69f7448908dc1f44 IB/rxe: Fix missing umem_odp->umem_mutex unlock on error path
+         dc3a6a942e9ee3f18560bfcb16c06bb94f37fabf soundwire: intel_ace2x: add SND_HDA_CORE dependency
          
