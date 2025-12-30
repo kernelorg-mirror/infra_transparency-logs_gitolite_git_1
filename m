@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Tue, 30 Dec 2025 10:29:09 -0000
-Message-Id: <176709054968.3711189.8629404126874122278@gitolite.kernel.org>
+Date: Tue, 30 Dec 2025 10:31:30 -0000
+Message-Id: <176709069009.3714594.15424652117575915346@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/netdev/net
 user: pabeni
 changes:
   - ref: refs/heads/main
-    old: 3be42c3b3d4343f548d28fdcb509869db70dc121
-    new: 99537d5c476cada9cf75aef9fa75579a31faadb9
+    old: 99537d5c476cada9cf75aef9fa75579a31faadb9
+    new: 5939b6dbcda8b0f5f03a8e5179c13dc0195eb6cd
     log: |
-         99537d5c476cada9cf75aef9fa75579a31faadb9 net: macb: Relocate mog_init_rings() callback from macb_mac_link_up() to macb_open()
+         5939b6dbcda8b0f5f03a8e5179c13dc0195eb6cd net: enetc: do not print error log if addr is 0
          
