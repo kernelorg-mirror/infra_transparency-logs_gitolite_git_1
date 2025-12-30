@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs
-Date: Tue, 30 Dec 2025 03:17:27 -0000
-Message-Id: <176706464778.3381250.5516971214455560237@gitolite.kernel.org>
+Date: Tue, 30 Dec 2025 03:20:11 -0000
+Message-Id: <176706481168.3384148.12313933548046097870@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,8 +11,8 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/xiang/erofs
 user: xiang
 changes:
-  - ref: refs/heads/dev-test
-    old: 272246418f02ca7627d5c2bb35906bc341cd438b
+  - ref: refs/heads/dev
+    old: 6ff312442c59d2c3cc08a74b70a4373b552fd0c1
     new: e84fd1bdbe05e6b3ebe5766b98b7e4902203e8e1
     log: |
          1731aea30265328220a0688a92c67583c95e0470 erofs: fix incorrect early exits for invalid metabox-enabled images
