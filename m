@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2041314416280956069=="
+Content-Type: multipart/mixed; boundary="===============3565991867401662338=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Tue, 30 Dec 2025 11:22:41 -0000
-Message-Id: <176709376183.3754206.1066058331322905050@gitolite.kernel.org>
+Date: Tue, 30 Dec 2025 11:23:14 -0000
+Message-Id: <176709379479.3754624.8394151860452999670@gitolite.kernel.org>
 
---===============2041314416280956069==
+--===============3565991867401662338==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tip/tip
 user: bp
 changes:
-  - ref: refs/heads/tip/urgent
-    old: 2593aef8ed837600fc531d58e9d072c1c2d7fa2c
-    new: 87b2157a1bc3c5b06fdc4b482794dfa374a08853
-    log: revlist-2593aef8ed83-87b2157a1bc3.txt
+  - ref: refs/heads/master
+    old: 538254cd98afb31b09c4cc58219217d8127c79be
+    new: e37f06241413583ed0f6ddc77cca6944a14f3611
+    log: revlist-538254cd98af-e37f06241413.txt
 
---===============2041314416280956069==
+--===============3565991867401662338==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2593aef8ed83-87b2157a1bc3.txt
+Content-Disposition: attachment; filename=revlist-538254cd98af-e37f06241413.txt
 
 b0101ccb5b4641885f30fecc352ef891ed06e083 sched_ext: fix uninitialized ret on alloc_percpu() failure
 74098cc06e753d3ffd8398b040a3a1dfb65260c0 xhci: dbgtty: fix device unregister: fixup
@@ -156,10 +156,22 @@ f8f9c1f4d0c7a64600e2ca312dec824a0bc2f1da Linux 6.19-rc3
 a69eddfd171f5570f5c7b333e41f3dead26ce859 Merge tag 'v6.19-p2' of git://git.kernel.org/pub/scm/linux/kernel/git/herbert/crypto-2.6
 bba0b6a1c4006f8cf8736c1eafc62640b31c498b Merge tag 'cgroup-for-6.19-rc3-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/tj/cgroup
 7839932417dd53bb09eb5a585a7a92781dfd7cb2 Merge tag 'sched_ext-for-6.19-rc3-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/tj/sched_ext
+4992ed7813c54f0a676b7707d1f8f16552fdb240 Documentation/x86: Fix PR_SET_SPECULATION_CTRL error codes
 150b1b97e27513535dcd3795d5ecd28e61b6cb8c x86/microcode/AMD: Fix Entrysign revision check for Zen5/Strix Halo
 0b34fd0feac6202602591dc15c58e25ffde41bd5 Merge tag 'mm-hotfixes-stable-2025-12-28-21-50' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
 8640b74557fc8b4c300030f6ccb8cd078f665ec8 Merge tag 'kbuild-fixes-6.19-1' of git://git.kernel.org/pub/scm/linux/kernel/git/kbuild/linux
 82366eaa25c84e0ce2893ddbd66223d1f794b694 Merge core/urgent into tip/urgent
 87b2157a1bc3c5b06fdc4b482794dfa374a08853 Merge x86/urgent into tip/urgent
+e5aa4eb68ac552d82ae26f5f68d702e74d26a3fb Merge x86/boot into tip/master
+d6a1a2e37915ba6cbc9428b8f617bf4c481f54c9 Merge x86/cpu into tip/master
+f9618fadc1cd0107866daa455cf111abb8cafbdf Merge timers/core into tip/master
+6317af2c202415b75395936246b571ea3d2b37e4 Merge irq/msi into tip/master
+88c23077adab75024dbefd313b489b0b2f2d7172 Merge irq/drivers into tip/master
+ae0435b515b595cd76ed00d1f0e02f2365e2760c Merge locking/core into tip/master
+581e2d979d8ba0766f936e30531c2d868cd4cd9d Merge x86/irq into tip/master
+817434dd836a1a06601ab53d849465e5193da3e1 Merge irq/core into tip/master
+72f14a47258fd3115f02d3ece939aa8fe15994f4 Merge perf/core into tip/master
+776b5d48bc2558a6f0c1d47088560e4cbfd21f4c Merge sched/core into tip/master
+e37f06241413583ed0f6ddc77cca6944a14f3611 Merge x86/bugs into tip/master
 
---===============2041314416280956069==--
+--===============3565991867401662338==--
