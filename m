@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4197309746251845054=="
+Content-Type: multipart/mixed; boundary="===============2971681457697565939=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/chenhuacai/linux-loongson
-Date: Tue, 30 Dec 2025 02:47:47 -0000
-Message-Id: <176706286795.3357663.4496910698049467321@gitolite.kernel.org>
+Date: Tue, 30 Dec 2025 02:47:54 -0000
+Message-Id: <176706287491.3357912.16512908992886173405@gitolite.kernel.org>
 
---===============4197309746251845054==
+--===============2971681457697565939==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/chenhuacai/linux-loongson
 user: chenhuacai
 changes:
-  - ref: refs/heads/loongarch-fixes
+  - ref: refs/heads/loongarch-next
     old: ccd41b640e98aaf62bc93253c8187f18f414ced4
     new: e48b9c0db2e1489ffa90939c2859b8004983a4b0
     log: revlist-ccd41b640e98-e48b9c0db2e1.txt
 
---===============4197309746251845054==
+--===============2971681457697565939==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -172,4 +172,4 @@ c16839e46e8cd0126838cf337b2b2b6ef01344bc LoongArch: BPF: Enable trampoline-based
 367cba050e5cd24f1973fc19f974d8a51fb44e72 LoongArch: BPF: Enhance the bpf_arch_text_poke() function
 e48b9c0db2e1489ffa90939c2859b8004983a4b0 samples/ftrace: Adjust LoongArch register restore order in direct calls
 
---===============4197309746251845054==--
+--===============2971681457697565939==--
