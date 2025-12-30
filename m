@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Tue, 30 Dec 2025 18:35:36 -0000
-Message-Id: <176711973668.4102693.7007790278414242612@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kbuild/linux
+Date: Tue, 30 Dec 2025 20:07:22 -0000
+Message-Id: <176712524279.4170737.14286196262589281482@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: ast
+repo: pub/scm/linux/kernel/git/kbuild/linux
+user: nathan
 changes:
-  - ref: refs/heads/for-next
-    old: f14cdb1367b947d373215e36cfe9c69768dbafc9
-    new: 600605853f87a4b1c3530a63f78a3541633402b0
+  - ref: refs/heads/kbuild-next
+    old: f8e05c10631e665ccabc8410beec6058d2a07c57
+    new: 1b5e068d598e16b3a4ee3fa632108ea393d4e3f1
     log: |
-         600605853f87a4b1c3530a63f78a3541633402b0 scripts/gen-btf.sh: Fix .btf.o generation when compiling for RISCV
+         1b5e068d598e16b3a4ee3fa632108ea393d4e3f1 kbuild: uapi: Drop check_config()
          
