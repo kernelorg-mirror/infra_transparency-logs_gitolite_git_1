@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8484247610514723101=="
+Content-Type: multipart/mixed; boundary="===============7899225587844598772=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ulfh/mmc
-Date: Tue, 30 Dec 2025 15:30:56 -0000
-Message-Id: <176710865696.3955725.7130283873165069854@gitolite.kernel.org>
+Date: Tue, 30 Dec 2025 15:32:24 -0000
+Message-Id: <176710874402.3956456.4013562329723486203@gitolite.kernel.org>
 
---===============8484247610514723101==
+--===============7899225587844598772==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,22 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ulfh/mmc
 user: ulfh
 changes:
-  - ref: refs/heads/fixes
-    old: d3ecb12e2e04ce53c95f933c462f2d8b150b965b
-    new: 3009738a855cf938bbfc9078bec725031ae623a4
-    log: revlist-d3ecb12e2e04-3009738a855c.txt
-  - ref: refs/tags/v6.19-rc2
-    old: 0000000000000000000000000000000000000000
-    new: 2408853dde584f01950a0f976b743739cce30eca
-  - ref: refs/tags/v6.19-rc3
-    old: 0000000000000000000000000000000000000000
-    new: 82791741762a870f5f2ede9f909301770f66f867
+  - ref: refs/heads/next
+    old: 90ae465f5a96ebe65a042fa887ec7b3ba676e958
+    new: a57107c0fc1a7e9f9180e247a8c2358e3fcec3f3
+    log: revlist-90ae465f5a96-a57107c0fc1a.txt
 
---===============8484247610514723101==
+--===============7899225587844598772==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-d3ecb12e2e04-3009738a855c.txt
+Content-Disposition: attachment; filename=revlist-90ae465f5a96-a57107c0fc1a.txt
 
 1b9439c933b500cb24710bbd81fe56e9b0025b6f KVM: selftests: Add missing "break" in rseq_test's param parsing
 e2b43fb25243d502ad36b07bab9de09f4b76fff9 KVM: x86: Apply runtime updates to current CPUID during KVM_SET_CPUID{,2}
@@ -559,5 +553,39 @@ cd80afff4877e1151ce53d48b65eba9de80ac1d2 Merge tag 'powerpc-6.19-2' of git://git
 c875a6c3246713a018d8b7b143deb3ebaeecaf1c Merge tag 'usb-6.19-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/usb
 f8f9c1f4d0c7a64600e2ca312dec824a0bc2f1da Linux 6.19-rc3
 3009738a855cf938bbfc9078bec725031ae623a4 mmc: sdhci-of-dwcmshc: Prevent illegal clock reduction in HS200/HS400 mode
+013db006998c5fb711bbcf5d1826288113245e07 mmc: dw_mmc: Remove unused struct dma_pdata
+20d02627f4e8c65e73ccadacee24bbb3725a6128 mmc: dw_mmc: add dw_mci_prepare_desc() for both of 32bit and 64bit DMA
+4f93254d8a0fec6e94ed19afdc5c761d990bcbde mmc: sdhci-msm: Enable ICE for CQE-capable controllers with non-CQE cards
+9996707822f82fcf43540781c041c06f67e6506f mmc: core: Adjust MDT beyond 2025
+57ba006dc5a5f4914515361952ff3ae61b329b9d mmc: core: Add quirk for incorrect manufacturing date
+f6004f2587bd675093c77d34fe483dc35027767a dt-bindings: mmc: mtk-sd: Add support for MT8189 SoC
+f0836bade26513ec982b5e7d899d475917ae9975 mmc: mtk-sd: add support for SPM resource release control
+5167322c2b1160caabace644780f3340342431fa mmc: mtk-sd: add support for MT8189 SoC
+60d709cea997e64ed0dacb2b21a444d6c052ae1a mmc: sdhci-esdhc-imx: wait for data transfer completion before reset
+4f4dea9b2f5a7ecac91f8a80212c1bc82188c212 dt-bindings: mmc: cdns,sdhci: Drop required "resets" on AMD Pensando ELBA
+974921c4313004199fe549528b5b42fea90dc7a4 dt-bindings: mmc: brcm,iproc-sdhci: Allow "dma-coherent" and "iommus" properties
+93ec1c19a439e463e4674438a85b17752b467041 dt-bindings: mmc: arasan,sdhci: Allow "dma-coherent" property
+a888c1556902454dc1b9ffec46ea0ddc320e034b mmc: dw_mmc: Remove vqmmc_enabled from struct dw_mci and update the reset
+ee132a8ac20a8b52209d2c2f8425f8d07f592558 mmc: dw_mmc: Remove check before calling mmc_regulator_set_ocr()
+363b42d3aa99013cf1c6756e4362149b5c92cd2b mmc: dw_mmc: Remove unused header files and keep alphabetical order
+d9844d29d47bed1b6539c4e93086525a1bfbdb03 mmc: dw_mmc: Move struct mmc_host from struct dw_mci_slot to struct dw_mci
+eb1bccdf40932f7634386b72d1e5bbfc90f4df69 mmc: dw_mmc: Let variant drivers to use struct dw_mci as possible
+4512d04101be64f7180c89885ad77176f62fcd86 mmc: dw_mmc: Move flags from struct dw_mci_slot to struct dw_mci
+0299ce53be16b2491725ea9529e95f60ba9de39b mmc: dw_mmc: Remove id and ctype from dw_mci_slot
+3f2189e62a086309db98960b0cbf2d46938f3fdf mmc: dw_mmc: Remove sdio_id from struct dw_mci_slot
+3632becfe675316cbd7c4a1ea4b10949c76186cc mmc: dw_mmc: Move clock rate stuff from struct dw_mci_slot to struct dw_mci
+9db58787189d615043b4525eb5e06d96644aa628 mmc: dw_mmc: Remove mrq from struct dw_mci_slot
+eb7f9e24aedb6d4e3218771eeda5f4f1099a4459 mmc: dw_mmc: Remove queue from dw_mci
+2b6c57651824a16c552f3eb7e78fed203720f0a7 mmc: dw_mmc: Introduce dw_mci_alloc_host()
+f66f201164336dfe7bb7e8f7234fb47a6245daf2 mmc: dw_mmc: Remove struct dw_mci_slot
+d9eada6dd30133a29a7a0a97b8d922f02b35658e dt-bindings: mmc: spacemit,sdhci: add reset support
+4edeeb0852560097a13b580afbc520549a806334 mmc: sdhci-of-k1: add reset support
+f1449355a3a9e51240e90d66bd3b93a63c1c09e8 mmc: cavium: Use clamp to simplify cvm_mmc_set_clock
+d450404aa5c91552a3a0a6da6afd13b0a850b575 mmc: atmel-mci: Simplify with scoped for each OF child loop
+0258943c579167b187ad4cdb0ee468692cdf4ad3 mmc: cavium-octeon: Simplify with scoped for each OF child loop
+72cde1485b112b985e2b8833a6a1ab248c8727c7 mmc: jz4740: Fix Wvoid-pointer-to-enum-cast warning
+ba2b4209eb5c06eb79492d9079a89079afe35b36 mmc: sdhci-of-aspeed: Simplify with scoped for each OF child loop
+a795fa7e8d724cdcdb706e5cd2304bb18bab899d dt-bindings: mmc: arm,pl18x: Do not use plural form of a proper noun PrimeCell
+a57107c0fc1a7e9f9180e247a8c2358e3fcec3f3 mmc: Merge branch fixes into next
 
---===============8484247610514723101==--
+--===============7899225587844598772==--
