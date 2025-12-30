@@ -1,57 +1,119 @@
-Content-Type: multipart/mixed; boundary="===============8118694273621075380=="
+Content-Type: multipart/mixed; boundary="===============6358174492006987000=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/security/vulns
-Date: Tue, 30 Dec 2025 12:50:12 -0000
-Message-Id: <176709901221.3827770.1938319173756757286@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/aalbersh/xfsprogs-dev
+Date: Tue, 30 Dec 2025 12:51:35 -0000
+Message-Id: <176709909513.3828756.18149183415417300713@gitolite.kernel.org>
 
---===============8118694273621075380==
+--===============6358174492006987000==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/security/vulns
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/aalbersh/xfsprogs-dev
+user: aalbersh
 changes:
   - ref: refs/heads/master
-    old: 5f7f0465be676215625eb850bf67ef93f6089f13
-    new: d62093d8a02aad28d216978db8fb4354f61718a2
-    log: |
-         d530ae1bbe94ba4c2a56eeaf4df2c414ff22c1a4 mark some 2022 cve ids as reserved from cve.org
-         d62093d8a02aad28d216978db8fb4354f61718a2 return the unused 2022 cve ids
-         
+    old: de85869984a4095826fb170fc9bd6ae0053c9006
+    new: 8b892adad226bb9fef4009c4cba4dbc25b70b011
+    log: revlist-de85869984a4-8b892adad226.txt
 
---===============8118694273621075380==
+--===============6358174492006987000==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-de85869984a4-8b892adad226.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1767099011 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
-nonce 1767099011-ca00be688144161a8ba3b30182c3cf36a4fbb0f0
+a5523d4575bb00abaadf5b7821246f1ebdc2a173 xfs_copy: improve the error message when mkfs is in progress
+74274e6e61a159562ae2d0fa8e3c44ac17816793 mkfs: improve the error message from check_device_type
+42fffb1475e384c686d91a594a4e6afd18dc187d mkfs: improve the error message in adjust_nr_zones
+586ee95d8098205bd878f59a5b957c2a95823199 mkfs: move clearing LIBXFS_DIRECT into check_device_type
+8d1b3cc5e1c8487007c525908df76bbad77752ec libxfs: cleanup get_topology
+8d8ba5006e3e19b7ed8b1f501db13a0ccf54a302 mkfs: remove duplicate struct libxfs_init arguments
+75bbfce9dd3eb23e741495b0a3c758625b279352 mkfs: split zone reset from discard
+01c46f93ffcd2ed50e82f967ec497b1ad542f89a proto: fix file descriptor leak
+9a79db51caca621a7c1bd25f651c8c8d30c13938 libfrog: Prevent unnecessary waking of worker thread when using bounded workqueues
+17aa67421d0efec9e1b965d2e2f7bf4bd541cbbb repair/prefetch.c: Create one workqueue with multiple workers
+9ad52fc997223374578bfd1129a59b3f120af31a xfs: centralize error tag definitions
+d6d78495a0c8eae068dfd2461e3ec9aa93aaa033 xfs_io: use the XFS_ERRTAG macro to generate injection targets
+ac7ab8b0b80beddcd1713da9660eef694da43521 Fix alloc/free of cache item
+4a54700b4385bbedadfc71ee5bb45b0fc37fabb7 libxfs: support reproducible filesystems using deterministic time/seed
+d7c096df3e8ca56ea02630f64fc24bb008826238 mkfs: fix zone capacity check for sequential zones
+2a30566311e6e43f5e313c00493740fbb4098fc3 metadump: catch used extent array overflow
+b1b0f1a507b32d58b0d9f222c897020553a62e2d xfs_scrub: fix null pointer crash in scrub_render_ino_descr
+44df5a636d145f6870f8d6809741d543f2ec6a59 include: remove struct xfs_qoff_logitem
+1fc548d023e370b8be21362b0b2b455c484f8588 logprint: remove xlog_print_dir2_sf
+9d0613372d044ba4a46b0a2c04940aff782ebf14 logprint: re-indent printing helpers
+b8f52c536a3b5907078e18b54713342f02adcd7c logprint: cleanup xlog_print_op_header
+313bee27831cad460593bff675b3dcb86cc52550 logprint: cleanup struct xlog_split_item handling
+22ed13ab1df5883f53cbc00a08ca9c9092dfed85 logprint: cleanup xlog_print_trans_header
+d490c90209e2278e84218083bb28c430e93d8a48 logprint: split per-type helpers out of xlog_print_trans_buffer
+6c63115825f5ef8f133929d294e1687716738b4e logprint: cleanup xlog_print_trans_buffer
+36609bf8b1a639cfaf10d211969b50bb5a5ff54d logprint: cleanup xlog_print_trans_qoff
+27db768bb42bf6a5ea66f249779dee43a6678a87 logprint: cleanup xlog_print_trans_inode_core
+17da769c68e2857a68f45de68dad2214cdcdff9b logprint: move xfs_inode_item_format_convert up
+9ac25410e58af9a18303a924c719a54da8e7061b logprint: cleanup xlog_print_trans_inode
+2cfcbfcd92467682c3281810365be4f2fab4ce2f logprint: cleanup xlog_print_trans_dquot
+78e497ff5be01219921fa8e7dfc7d4cdbc9e0e3f logprint: re-indent print_lseek / print_lsn
+63fb140099448de3f2591d6bf3b2c7777431c368 logprint: factor out a xlog_print_process_region helper
+5a9b7e951408938193480ac299eb4070828f4779 logprint: factor out a xlog_print_op helper
+330dca0684fdc910c648f185070abee04e1ce6ab logprint: factor out a xlog_unpack_rec_header
+32fdf169c9b2a8e88b9c9d8951b8928728bb216c logprint: cleanup xlog_print_record
+9c822727890c3326492f833bd08b655a4afc5123 logprint: cleanup xlog_print_rec_head
+71181d6ad2d7bbe08784a282c10f91fb54674c2a logprint: cleanup xlog_print_rec_xhead
+19225ac58999ff9db10f767a427fdbb0f0b258d6 logprint: re-indent print_xlog_bad_*
+6bcb161d223352400c63217803b597b147d1db4c logprint: cleanup xlog_reallocate_xhdrs
+1bb5252fe6eb58ade05081ba7bca66a10b8f5e26 logprint: factor out a xlog_print_ext_header helper
+99ae97b6f8d4dafecbfb27bd88a3b9733466f5e2 logprint: cleanup xlog_print_extended_headers
+1dc2075c2199ababcb62d863355fe20e1e46a754 logprint: cleanup xfs_log_print
+050f309cb8530cc4bc808ef9487b66b6cdc32fe6 libxfs: fix build warnings
+6743140685dd3df8307a4b0a772c32fee364068a xfs_db: document the rtsb command
+f274ed71811178cff6784e322116c302101742cb man2: fix getparents ioctl manpage
+7d00aed6e30876238ab14ff9689f2a93683cfea1 xfs: remove deprecated mount options
+4b08d653fb25c0c3a2363da8049a70f1db3c3a0f xfs: remove deprecated sysctl knobs
+fc064b0eaee36923bbd465200b4bde6efbd4d899 xfs: convert xfs_buf_log_format_t typedef to struct
+69a385f4d85de047856e43a99a5a17e593f28496 xfs: convert xlog_op_header_t typedef to struct
+9ea0f7182fa9ba54838b3a79e218733896d9a8a8 xfs: convert xfs_trans_header_t typdef to struct
+6488dabd357f4a7a8537207f49c83fc0feebed00 xfs: convert xfs_log_iovec_t typedef to struct
+5fb2bdf25c185a6c54bb41a297ee345f20fffa04 xfs: convert xfs_qoff_logformat_t typedef to struct
+1fb674606f0fb2db819fe11a3cc6320e348af756 xfs: convert xfs_dq_logformat_t typedef to struct
+073e7103df195bb5312e8096942f85f0ed4d4d8e xfs: convert xfs_efi_log_format typedef to struct
+2712027253b82a645802966265a113f581adf620 xfs: convert xfs_efd_log_format_t typedef to struct
+22f016f8365dccc5ddc677492d850f8278a3b989 xfs: convert xfs_efi_log_format_32_t typedef to struct
+9f37e5d1ad4e7f485270930cfa085d2cdb51f20f xfs: convert xfs_extent_t typedef to struct
+aab512e0fd587687dc82ee2439fdde96c4cbdf11 xfs: convert xfs_efi_log_format_64_t typedef to struct
+aa68656da2483fd5982d7b70aa3143892417a7a6 xfs: remove the xlog_op_header_t typedef
+ea57d274ccb6183b7546a1fc55d8d966a028a8fd xfs: remove the xfs_trans_header_t typedef
+21880e6e25dd600085f1f059f9b9439f1395fb7f xfs: remove the xfs_extent_t typedef
+6dafb1681672d6473b7ceabc50a180b261f3a460 xfs: remove the xfs_extent32_t typedef
+55ba59ba4d1032124b3654103aca17b15af4eb01 xfs: remove the xfs_extent64_t typedef
+9d5f25fd58ead8d075fdf5f505ce40b2720f8684 xfs: remove the xfs_efi_log_format_t typedef
+68b3953dae903bc40e06f89f78041404e1f5fc91 xfs: remove the xfs_efi_log_format_32_t typedef
+18031671eacb70d634b0955c868ff349e9ee33a8 xfs: remove the xfs_efi_log_format_64_t typedef
+5384c05c66e9e98123190f8db3b15c506f4965bd xfs: remove the xfs_efd_log_format_t typedef
+24168e1337c9b38fd3dd354d3a97bda57337767e xfs: remove the unused xfs_efd_log_format_32_t typedef
+ad773facd36ba446acc70460a8537ffc677b8052 xfs: remove the unused xfs_efd_log_format_64_t typedef
+68b1a66ff98684951e2b5a6b39831d232c406789 xfs: remove the unused xfs_buf_log_format_t typedef
+d8821a4de913cfe47d8938ff119d69fe9e56438e xfs: remove the unused xfs_dq_logformat_t typedef
+ed1fd5024a5b303dc47c761f88a9ead506a24e20 xfs: remove the unused xfs_qoff_logformat_t typedef
+8a877bb9bf07476bcba59b09f5ba99525f78e837 xfs: remove the unused xfs_log_iovec_t typedef
+fb0b6eafa5c4fa0ba905d0ec09a09e28329b3953 xfs: fix log CRC mismatches between i386 and other architectures
+6598addaef1ed73ca4ddb9ff26cf77890ad42207 xfs: move the XLOG_REG_ constants out of xfs_log_format.h
+62fefd9888b94c0275217ba155c947be89c394e4 xfs: remove the expr argument to XFS_TEST_ERROR
+cab8d3d9f493d6889cc9545879ccac527c773866 xfs: improve default maximum number of open zones
+eb1e9586ee67398c9a3bf67f29ba4b232a253191 xfs: prevent gc from picking the same zone twice
+3147d1d643c8278f1b75dedf3a64037bece7da53 libfrog: fix incorrect FS_IOC_FSSETXATTR argument to ioctl()
+54aad16b4b9b923442b4042afaba4438ca1aa868 mkfs: enable new features by default
+fe1591e7d03c3a3ede60df079936b9002fa314dd mkfs: add 2025 LTS config file
+0c6d67befe98dbc8e19b013c208f09233c419fde repair: add a enum for the XR_INO_* values
+5d157c568e3d359d8b46fc79f452817a5af1acee repair: add canonical names for the XR_INO_ constants
+a439b4155fd50e9854852ca9e1a853793b686f36 repair: factor out a process_dinode_metafile helper
+f4b5df44edd8025d120770e316a002010754dede repair: enhance process_dinode_metafile
+98f05de13e7815c4d4e637d3dab5d4b40e8533cb mdrestore: fix restore_v2() superblock length check
+20796eec31f8afe388bf8d8ae9064f29c5af07a1 xfs_logprint: fix pointer bug
+b5d372d96db1adb316c91a058dddffb38ef6d166 mkfs: adjust_nr_zones for zoned file system on conventional devices
+8b892adad226bb9fef4009c4cba4dbc25b70b011 xfsprogs: Release v6.18.0
 
-5f7f0465be676215625eb850bf67ef93f6089f13 d62093d8a02aad28d216978db8fb4354f61718a2 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmlTyoMbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+GfYQANij3Mbf1yoj7FENj8aC
-OgCisr4heUifwu/6wP/Hq8tGTKfh6uAxu1iW9vZPXOFdlG6utdDDFzPF0q5m2PfG
-faGgCAZmTZTNd/590T+B1C+diFin0iCMkQyH/G4A5T8HmxKXB/Bf7294cEuhDHEp
-O42aLgVsBzX5dWd1tx1AUo/m/cryn6VY6Kn4EG6duU25fIcbAjqkQ1NCabeItkUn
-idHwjXZWlkHPwu9WbvtCM15iHchJ+lY3Ck0JPVvAHOjZ4M2qMsAF8PLcP+Lv8g1W
-jrFP1oHX7SOkJKj8roqwN+Q+gMtqPHqoCMe7rqyoZ+lrE6tzBFwlgmR/4HNnyH0l
-WFgp0h6dcobFso3zlPOAfUE+L0YS95zFT2M55p0cSP/9ovCixaVBtE6B3CYINetc
-P+yZ7pUV2iPz+mOT+72NlytZ89ty43U70xXz5SmjB2Ge0nHK1li0S9rrUwE1NTy1
-ZQ4nNtQoVL3flIG1frGoWpLlPsrhIkwBliqGr/KTHONZ9yoY3CD2VihFWB4/iu2v
-LoBZ1EEAmQ/LeiVVgTinJskDGkUdPmlU+LoN5I24Uiuo2MkMQcA3XRpRjsT8T1rL
-7C+Ec6LJQ8P+fST6RCDhtBkXe3ZnXQxPxyHwIiA8/wx2/uRleFk0JUy3ZFFP1DQi
-qleYH8Nenv8lZyNcoLPEnUQ4
-=6lMb
------END PGP SIGNATURE-----
-
---===============8118694273621075380==--
+--===============6358174492006987000==--
