@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
-Date: Tue, 30 Dec 2025 21:55:18 -0000
-Message-Id: <176713171857.59649.5713978312974577100@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/driver-core/driver-core
+Date: Tue, 30 Dec 2025 22:31:27 -0000
+Message-Id: <176713388754.86209.1044433726863590227@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/25-new
-user: akpm
+repo: pub/scm/linux/kernel/git/driver-core/driver-core
+user: dakr
 changes:
-  - ref: refs/heads/master
-    old: b0811c7bca0c3ac5246488bae7da87907afb557b
-    new: dd5df9e2d939ed5781c1992b077e866b25345c81
+  - ref: refs/heads/driver-core-linus
+    old: 3691fd19ccad4c1c0e3fc4888ef36edaa6e571be
+    new: 4c9f6a782f6078dc94450fcb22e65d520bfa0775
     log: |
-         dd5df9e2d939ed5781c1992b077e866b25345c81 foo
+         4c9f6a782f6078dc94450fcb22e65d520bfa0775 rust: driver: fix broken intra-doc links to example driver types
          
