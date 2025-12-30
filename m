@@ -1,22 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jfern/linux
-Date: Tue, 30 Dec 2025 07:18:18 -0000
-Message-Id: <176707909886.3562635.7295762240964391103@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/thomas.weissschuh/linux
+Date: Tue, 30 Dec 2025 08:20:23 -0000
+Message-Id: <176708282301.3611081.16477621634407672574@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jfern/linux
-user: jfern
+repo: pub/scm/linux/kernel/git/thomas.weissschuh/linux
+user: thomas.weissschuh
 changes:
-  - ref: refs/heads/rcu/pcpu-blkd
-    old: bb462cb718e232679929c0c333da3b042d44f8b5
-    new: fb75be5270dca6eaeff307918b7cdcce077ea758
+  - ref: refs/heads/b4/uapi-soundcard
+    old: 538bccabed25751df63e6d0dc814920d6fc76057
+    new: 96209bfda0ce8edbaf0c8a8769c51a23424b31ab
     log: |
-         43644b6cc7b4dcee99db35d8792c4db01db93f92 rcu: Initialize per-CPU blocked list fields in rcu_copy_process()
-         55394ed88c9363f7c96a720c67469c728665a4af rcu: Move per-CPU blocked list removal before rnp lock
-         3b9fc7496d59cea0f961a817125979e1c22da6bb rcu: Add early return for tasks only on per-CPU blocked list
-         fb75be5270dca6eaeff307918b7cdcce077ea758 rcu: Update verification invariant for new lock ordering
+         c84fda64b699bcb374f7bda71c303e9ddcfe3059 uapi: Introduce linux/byteorder.h
+         9c7070f7be217afb7a79e96b2853b347be0e12cb ALSA: oss: uapi: Use asm/byteorder.h for endianness checks
+         17c36b63669b2e531ba194f51fdb797f967c09bf ALSA: oss: uapi: Use linux/byteorder.h for endianness checks
+         77261ea272de1ae02940422c9969259a2711eab9 ALSA: oss: Unify the definitions of _PATCHKEY()
+         96209bfda0ce8edbaf0c8a8769c51a23424b31ab ALSA: oss: Delete linux/patchkey.h
          
