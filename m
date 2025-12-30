@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
-Date: Tue, 30 Dec 2025 17:12:57 -0000
-Message-Id: <176711477713.4037920.12066735788032767532@gitolite.kernel.org>
+Date: Tue, 30 Dec 2025 17:13:23 -0000
+Message-Id: <176711480354.4038308.1685816424071832188@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -9,11 +9,8 @@ Content-Transfer-Encoding: 7bit
 ---
 service: git-receive-pack
 repo: pub/scm/linux/kernel/git/pci/pci
-user: helgaas
+user: mani
 changes:
-  - ref: refs/heads/controller/dwc-qcom
-    old: fcbe20b73fb4f723c160065dda2b31f86df215ba
-    new: 2fd60a2edb83a6308fffd5ea2a76c221b61a4eb3
-    log: |
-         2fd60a2edb83a6308fffd5ea2a76c221b61a4eb3 PCI: qcom: Parse PERST# from all PCIe bridge nodes
-         
+  - ref: refs/heads/controller/rzg3s-host
+    old: 0000000000000000000000000000000000000000
+    new: 62d4911290f9cbb16f5b6ba6782660148a656fc7
