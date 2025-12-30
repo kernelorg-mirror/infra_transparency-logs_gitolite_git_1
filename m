@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8705358042834411859=="
+Content-Type: multipart/mixed; boundary="===============0554003669692574332=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/peter.chen/cix
-Date: Tue, 30 Dec 2025 01:50:05 -0000
-Message-Id: <176705940524.3313283.15237387068020742195@gitolite.kernel.org>
+Date: Tue, 30 Dec 2025 02:04:28 -0000
+Message-Id: <176706026809.3323587.5383916371359366201@gitolite.kernel.org>
 
---===============8705358042834411859==
+--===============0554003669692574332==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,18 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/peter.chen/cix
 user: peter.chen
 changes:
-  - ref: refs/heads/cix/dt
-    old: 7dfe67ab5a830083d28a072d262c5f6d3df6b39f
-    new: b53eb75f26ddfffd61f4f5d5914a5d47fd1fbbf3
-    log: revlist-7dfe67ab5a83-b53eb75f26dd.txt
+  - ref: refs/heads/for-next
+    old: 4889f68b824df835bab956bab1519b132df32536
+    new: b34b20c168aab621c151d1aa7b62590207e82bb6
+    log: revlist-4889f68b824d-b34b20c168aa.txt
 
---===============8705358042834411859==
+--===============0554003669692574332==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7dfe67ab5a83-b53eb75f26dd.txt
+Content-Disposition: attachment; filename=revlist-4889f68b824d-b34b20c168aa.txt
 
-ea2d3befcf29cca5221d0572d54e4d71b683175d net: dsa: yt921x: Set ageing_time_min/ageing_time_max
 e3b8cbf40c6e60a7a935bd8980884d5741a7a77b selftests: netconsole: remove log noise due to socat exit
 33b4c26d4d3ccd24d9721a577671f2c73c1a7cd9 x86/platform: Fix and extend kernel-doc comments in <asm/x86_init.h>
 1dd6c84f1c544e552848a8968599220bd464e338 sched_ext: Fix incorrect sched_class settings for per-cpu migration tasks
@@ -1050,5 +1049,6 @@ cba09e3ed06db4b6c87bc97e0aea080421fb8f7d Merge tag 'perf-urgent-2025-12-12' of g
 6a1636e06625ec0dd7f2b908ab39a8beea24bfd3 Merge tag 'scsi-misc' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
 8f0b4cce4481fb22653697cced8d0d04027cb1e8 Linux 6.19-rc1
 b53eb75f26ddfffd61f4f5d5914a5d47fd1fbbf3 arm64: dts: cix: Use lowercase hex
+b34b20c168aab621c151d1aa7b62590207e82bb6 Merge remote-tracking branch 'cix/dt' into for-next
 
---===============8705358042834411859==--
+--===============0554003669692574332==--
