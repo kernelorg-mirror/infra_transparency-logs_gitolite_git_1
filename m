@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/driver-core/driver-core
-Date: Tue, 30 Dec 2025 22:31:27 -0000
-Message-Id: <176713388754.86209.1044433726863590227@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Tue, 30 Dec 2025 23:52:06 -0000
+Message-Id: <176713872620.144954.7260534632346603024@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/driver-core/driver-core
-user: dakr
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: ast
 changes:
-  - ref: refs/heads/driver-core-linus
-    old: 3691fd19ccad4c1c0e3fc4888ef36edaa6e571be
-    new: 4c9f6a782f6078dc94450fcb22e65d520bfa0775
+  - ref: refs/heads/master
+    old: 317a5df78f24bd77fb770a26eb85bf39620592e0
+    new: ccaa6d2c9635a8db06a494d67ef123b56b967a78
     log: |
-         4c9f6a782f6078dc94450fcb22e65d520bfa0775 rust: driver: fix broken intra-doc links to example driver types
+         f597664454bde5ac45ceaf24da55b590ccfa60e3 bpf: bpf_scc_visit instance and backedges accumulation for bpf_loop()
+         e6f2612f0e7c23ce991d3094b5387caf1a52a4fe selftests/bpf: test cases for bpf_loop SCC and state graph backedges
+         ccaa6d2c9635a8db06a494d67ef123b56b967a78 Merge branch 'bpf-calls-to-bpf_loop-should-have-an-scc-and-accumulate-backedges'
          
