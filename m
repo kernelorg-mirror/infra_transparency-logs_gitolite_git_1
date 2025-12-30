@@ -1,19 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Tue, 30 Dec 2025 20:35:58 -0000
-Message-Id: <176712695806.4192796.743443971254120754@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
+Date: Tue, 30 Dec 2025 21:25:26 -0000
+Message-Id: <176712992656.35402.6480611442959414573@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: ast
+repo: pub/scm/linux/kernel/git/akpm/25-new
+user: akpm
 changes:
-  - ref: refs/heads/for-next
-    old: 600605853f87a4b1c3530a63f78a3541633402b0
-    new: 317a5df78f24bd77fb770a26eb85bf39620592e0
+  - ref: refs/heads/master
+    old: fa36a9ef0ff8a2f071a91716de0f46fa6f8ca6d2
+    new: b0811c7bca0c3ac5246488bae7da87907afb557b
     log: |
-         317a5df78f24bd77fb770a26eb85bf39620592e0 selftests/bpf: Fix verifier_arena_large/big_alloc3 test
+         eac8a8ee93204791a4974246d14c4a6412ed97e9 foo
+         30a124d9c7290c66974644782e5a4c230f721bb8 foo
+         9dbbedf1d8197be7fb997fb58efe012978665687 foo
+         b0811c7bca0c3ac5246488bae7da87907afb557b foo
          
