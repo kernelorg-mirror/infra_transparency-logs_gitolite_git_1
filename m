@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0576188975520189184=="
+Content-Type: multipart/mixed; boundary="===============4699048487549284869=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/westeri/thunderbolt
-Date: Tue, 30 Dec 2025 10:23:18 -0000
-Message-Id: <176709019845.3706511.11834267030040184141@gitolite.kernel.org>
+Date: Tue, 30 Dec 2025 10:24:12 -0000
+Message-Id: <176709025296.3706920.17224039616433079056@gitolite.kernel.org>
 
---===============0576188975520189184==
+--===============4699048487549284869==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/westeri/thunderbolt
 user: westeri
 changes:
-  - ref: refs/heads/fixes
+  - ref: refs/heads/next
     old: 8f0b4cce4481fb22653697cced8d0d04027cb1e8
-    new: f8f9c1f4d0c7a64600e2ca312dec824a0bc2f1da
-    log: revlist-8f0b4cce4481-f8f9c1f4d0c7.txt
+    new: 0c90fd379bb5d2eb02051f312a7bb45d56e006bf
+    log: revlist-8f0b4cce4481-0c90fd379bb5.txt
 
---===============0576188975520189184==
+--===============4699048487549284869==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-8f0b4cce4481-f8f9c1f4d0c7.txt
+Content-Disposition: attachment; filename=revlist-8f0b4cce4481-0c90fd379bb5.txt
 
 1b9439c933b500cb24710bbd81fe56e9b0025b6f KVM: selftests: Add missing "break" in rseq_test's param parsing
 e2b43fb25243d502ad36b07bab9de09f4b76fff9 KVM: x86: Apply runtime updates to current CPUID during KVM_SET_CPUID{,2}
@@ -555,5 +555,6 @@ cd80afff4877e1151ce53d48b65eba9de80ac1d2 Merge tag 'powerpc-6.19-2' of git://git
 15225b910cb8050636c11b4a607559169a7905ad Merge tag 'tty-6.19-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/tty
 c875a6c3246713a018d8b7b143deb3ebaeecaf1c Merge tag 'usb-6.19-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/usb
 f8f9c1f4d0c7a64600e2ca312dec824a0bc2f1da Linux 6.19-rc3
+0c90fd379bb5d2eb02051f312a7bb45d56e006bf docs: admin-guide: thunderbolt: Replace ifconfig with ip
 
---===============0576188975520189184==--
+--===============4699048487549284869==--
