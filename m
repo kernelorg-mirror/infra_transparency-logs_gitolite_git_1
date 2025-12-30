@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/deller/linux-fbdev
-Date: Tue, 30 Dec 2025 09:27:33 -0000
-Message-Id: <176708685338.3662043.6832350527890873008@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
+Date: Tue, 30 Dec 2025 09:28:22 -0000
+Message-Id: <176708690200.3662470.8061511056343353910@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/deller/linux-fbdev
-user: deller
+repo: pub/scm/linux/kernel/git/rdma/rdma
+user: leon
 changes:
-  - ref: refs/heads/for-next
-    old: b485a959a235f130e25f94386a6286552b7f1d8b
-    new: 89f9f0626103fd3523696a9d5849dccb0fe2caa7
+  - ref: refs/heads/wip/leon-for-rc
+    old: 3d70e0fb0f289b0c778041c5bb04d099e1aa7c1c
+    new: 3c68cf68233e556e0102f45b69f7448908dc1f44
     log: |
-         89f9f0626103fd3523696a9d5849dccb0fe2caa7 fbcon: check return value of con2fb_acquire_newinfo()
+         3c68cf68233e556e0102f45b69f7448908dc1f44 IB/rxe: Fix missing umem_odp->umem_mutex unlock on error path
          
