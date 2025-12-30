@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/chunkuang.hu/linux
-Date: Tue, 30 Dec 2025 16:01:16 -0000
-Message-Id: <176711047637.3980238.11048153579815544265@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/trace-cmd/trace-cmd
+Date: Tue, 30 Dec 2025 16:02:31 -0000
+Message-Id: <176711055139.3980816.9319524770008874342@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/chunkuang.hu/linux
-user: chunkuang.hu
+repo: pub/scm/utils/trace-cmd/trace-cmd
+user: rostedt
 changes:
-  - ref: refs/heads/mediatek-drm-fixes
-    old: 2788c969d89afb1e6ff66b8530584a634d1327dd
-    new: 1384cc00bc5f444ddfb66e027fb20c33844b21e1
+  - ref: refs/heads/master
+    old: 364faec474e4e4e0236c21af8927186e0e214e7f
+    new: 8f2a902862c5b75c0a5a295bb946eb5fa0744e35
     log: |
-         1384cc00bc5f444ddfb66e027fb20c33844b21e1 drm/mediatek: mtk_hdmi_ddc_v2: Fix multi-byte writes
+         b40c342a11ecc081fe072d4c9ee43948beae04e5 libtracecmd: Fix memory leak on partial reverse iteration
+         8f2a902862c5b75c0a5a295bb946eb5fa0744e35 libtracecmd: Fix continuing in tracecmd_iterate_events_reverse()
          
