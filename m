@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7754626459832762755=="
+Content-Type: multipart/mixed; boundary="===============6937648422788905182=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/rppt/memblock
-Date: Wed, 31 Dec 2025 08:21:06 -0000
-Message-Id: <176716926636.536908.3689730202102722621@gitolite.kernel.org>
+Date: Wed, 31 Dec 2025 08:21:15 -0000
+Message-Id: <176716927579.537147.10892810805649572221@gitolite.kernel.org>
 
---===============7754626459832762755==
+--===============6937648422788905182==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,19 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/rppt/memblock
 user: rppt
 changes:
-  - ref: refs/heads/for-next
-    old: 83c8f7b5e194eaf3fb268c513e23e23e892de8ed
-    new: 56b680254ce084bc7775c6bfe55c49e5f6d04e85
-    log: revlist-83c8f7b5e194-56b680254ce0.txt
+  - ref: refs/heads/fixes
+    old: c42af83c59b65d01c0f7a074e450bbbb43b22f0d
+    new: f8f9c1f4d0c7a64600e2ca312dec824a0bc2f1da
+    log: revlist-c42af83c59b6-f8f9c1f4d0c7.txt
 
---===============7754626459832762755==
+--===============6937648422788905182==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-83c8f7b5e194-56b680254ce0.txt
+Content-Disposition: attachment; filename=revlist-c42af83c59b6-f8f9c1f4d0c7.txt
 
+77956cf36494cc5e5649b187f552b90fb14d0674 Merge tag 'pwm/for-6.19-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/ukleinek/linux
+861111b69896145a928c889d9344797ea3711028 net: smc: SMC_HS_CTRL_BPF should depend on BPF_JIT
 edd2b9832d604a234b60a4910c7496f351cd1e12 Merge tag 'mtd/for-6.19' of git://git.kernel.org/pub/scm/linux/kernel/git/mtd/linux
 ba1401f9cced493948a691a670308832588e8f60 Merge tag 'regmap-v6.19' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/regmap
 0a9431fa74ac9b744bff5b65082ff96fd3d80297 Merge tag 'regulator-v6.19' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/regulator
@@ -1048,7 +1050,5 @@ cd80afff4877e1151ce53d48b65eba9de80ac1d2 Merge tag 'powerpc-6.19-2' of git://git
 15225b910cb8050636c11b4a607559169a7905ad Merge tag 'tty-6.19-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/tty
 c875a6c3246713a018d8b7b143deb3ebaeecaf1c Merge tag 'usb-6.19-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/usb
 f8f9c1f4d0c7a64600e2ca312dec824a0bc2f1da Linux 6.19-rc3
-364e0e5e3929bdc5c27e27a4bfdb6df7b376f404 memblock: drop redundant 'struct page *' argument from memblock_free_pages()
-56b680254ce084bc7775c6bfe55c49e5f6d04e85 mm/memtest: add underflow detection for size calculation
 
---===============7754626459832762755==--
+--===============6937648422788905182==--
