@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mani/mhi
-Date: Wed, 31 Dec 2025 10:55:39 -0000
-Message-Id: <176717853978.656903.2693737274384320562@gitolite.kernel.org>
+Date: Wed, 31 Dec 2025 10:57:57 -0000
+Message-Id: <176717867768.657844.11198798719370869011@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,9 +12,9 @@ repo: pub/scm/linux/kernel/git/mani/mhi
 user: mani
 changes:
   - ref: refs/heads/mhi-next
-    old: 820c866c42de99e7d65c7bd1f591f067dbbe3cae
-    new: 4a9ba211d0264131dcfca0cbc10bff5ff277ff0a
+    old: 4a9ba211d0264131dcfca0cbc10bff5ff277ff0a
+    new: 91a0b0dce350766675961892ba4431363c4e29f7
     log: |
-         51731792a25cb312ca94cdccfa139eb46de1b2ef net: qrtr: Drop the MHI auto_queue feature for IPCR DL channels
-         4a9ba211d0264131dcfca0cbc10bff5ff277ff0a bus: mhi: host: Drop the auto_queue support
+         8535df5dd64ec02d85e65dbcf79a59db9c16d921 bus: mhi: host: Use bus callbacks for .probe() and .remove()
+         91a0b0dce350766675961892ba4431363c4e29f7 bus: mhi: ep: Use bus callbacks for .probe() and .remove()
          
