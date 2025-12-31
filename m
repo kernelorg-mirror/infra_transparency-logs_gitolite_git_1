@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ieee1394/linux1394
-Date: Wed, 31 Dec 2025 09:23:29 -0000
-Message-Id: <176717300969.586083.65884590899366965@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs
+Date: Wed, 31 Dec 2025 09:26:00 -0000
+Message-Id: <176717316097.589471.2129139751111162862@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ieee1394/linux1394
-user: takaswie
+repo: pub/scm/linux/kernel/git/xiang/erofs
+user: xiang
 changes:
-  - ref: refs/meta/cgit
-    old: 2f78b6895a9fa1ac6f2d0cf4e3bc7b919bf49d1f
-    new: 3c3c32351bd087bb546b455ebb3d7fb73c31f18c
+  - ref: refs/heads/dev-test
+    old: e84fd1bdbe05e6b3ebe5766b98b7e4902203e8e1
+    new: ab4b58a1bcba0d39ae20208a41e062d5ffee1614
     log: |
-         3c3c32351bd087bb546b455ebb3d7fb73c31f18c update base for for-linus to 6.19-rc3
+         b9a3b4eb8be65042ac06f215aa086f52760b0dc1 erofs: unexport erofs_xattr_prefix()
+         ab4b58a1bcba0d39ae20208a41e062d5ffee1614 erofs: remove useless src in erofs_xattr_copy_to_buffer()
          
