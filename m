@@ -1,22 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Wed, 31 Dec 2025 17:05:27 -0000
-Message-Id: <176720072704.936577.10654754119146649994@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
+Date: Wed, 31 Dec 2025 17:18:24 -0000
+Message-Id: <176720150477.944991.3015609247039631566@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: ast
+repo: pub/scm/linux/kernel/git/jic23/iio
+user: jic23
 changes:
-  - ref: refs/heads/for-next
-    old: ccaa6d2c9635a8db06a494d67ef123b56b967a78
-    new: 1a8fa7faf4890d201aad4f5d4943f74d840cd0ba
+  - ref: refs/heads/testing
+    old: cdffe36e1cf26b53250ed99d70c71c34ff5d4ac5
+    new: fb2f4eb29a258145b0336601f00509cab6e93e7c
     log: |
-         840692326e92b5deb76c224931e8ca145ce7cfb8 bpf: allow states pruning for misc/invalid slots in iterator loops
-         4fd99103eef347174b3c9b6071428324a3cf9a60 selftests/bpf: iterator based loop and STACK_MISC states pruning
-         c0e4a193ae91e5dcfbb920b2ba74599b05e2b2eb Merge branch 'bpf-unify-state-pruning-handling-of-invalid-misc-stack-slots'
-         1a8fa7faf4890d201aad4f5d4943f74d840cd0ba resolve_btfids: Implement --patch_btfids
+         fb2f4eb29a258145b0336601f00509cab6e93e7c iio: test: drop dangling symbol in gain-time-scale helpers
          
