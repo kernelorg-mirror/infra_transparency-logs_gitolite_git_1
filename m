@@ -1,20 +1,46 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs
-Date: Wed, 31 Dec 2025 09:28:07 -0000
-Message-Id: <176717328730.590436.1336107594098998557@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============2712306367231851068=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+Date: Wed, 31 Dec 2025 09:32:48 -0000
+Message-Id: <176717356823.594324.10681951250465292976@gitolite.kernel.org>
+
+--===============2712306367231851068==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/xiang/erofs
-user: xiang
+repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+user: ij
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/dev
-    old: e84fd1bdbe05e6b3ebe5766b98b7e4902203e8e1
-    new: ab4b58a1bcba0d39ae20208a41e062d5ffee1614
+  - ref: refs/heads/fixes
+    old: 6a02651c4c4b710ecbaf798eb4feb57c97f2bc14
+    new: c6703f10c8cc36f53b867bdbdd5bacaaa47ce799
     log: |
-         b9a3b4eb8be65042ac06f215aa086f52760b0dc1 erofs: unexport erofs_xattr_prefix()
-         ab4b58a1bcba0d39ae20208a41e062d5ffee1614 erofs: remove useless src in erofs_xattr_copy_to_buffer()
+         c6703f10c8cc36f53b867bdbdd5bacaaa47ce799 platform/x86: asus-armoury: add support for G835LW
          
+
+--===============2712306367231851068==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1767173562 +0200
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86.git
+nonce 1767173562-85d06d0e2c337b4fc392de294b23301323a33fa6
+
+6a02651c4c4b710ecbaf798eb4feb57c97f2bc14 c6703f10c8cc36f53b867bdbdd5bacaaa47ce799 refs/heads/fixes
+-----BEGIN PGP SIGNATURE-----
+
+iHUEABYIAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCaVTtwQAKCRBZrE9hU+XO
+MSEeAQCkoWVpurs5FkOIzYBswHjog8WI/8Tpebdy+xetIWy3yAD7BV6yIcWGgz+x
+Y5ApZFYH16RsJg3qZiEj2cub3Q93oQM=
+=5ROy
+-----END PGP SIGNATURE-----
+
+--===============2712306367231851068==--
