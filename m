@@ -1,23 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux
-Date: Wed, 31 Dec 2025 14:01:36 -0000
-Message-Id: <176718969661.795418.4306127266053458458@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/leon/linux-rdma
+Date: Wed, 31 Dec 2025 14:21:04 -0000
+Message-Id: <176719086472.810241.7973642106178561379@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux
-user: axboe
+repo: pub/scm/linux/kernel/git/leon/linux-rdma
+user: leon
 changes:
-  - ref: refs/heads/master
-    old: dbf8fe85a16a33d6b6bd01f2bc606fc017771465
-    new: c8ebd433459bcbf068682b09544e830acd7ed222
+  - ref: refs/heads/ib-core-misc-v1
+    old: 96b7a458a9739cb8a70d68b74e643997fb6b5e25
+    new: 6a8289c01d90665d879370a59fb5712bac64ea33
     log: |
-         a49a2a1baa0c553c3548a1c414b6a3c005a8deba lockd: fix vfs_test_lock() calls
-         8072e34e1387d03102b788677d491e2bcceef6f5 nfsd: fix nfsd_file reference leak in nfsd4_add_rdaccess_to_wrdeleg()
-         8f9e967830ff32ab7756f530a36adf74a9f12b76 nfsd: use ATTR_DELEG in nfsd4_finalize_deleg_timestamps()
-         1f941b2c23fd34c6f3b76d36f9d0a2528fa92b8f nfsd: Drop the client reference in client_states_open()
-         c8ebd433459bcbf068682b09544e830acd7ed222 Merge tag 'nfsd-6.19-2' of git://git.kernel.org/pub/scm/linux/kernel/git/cel/linux
+         6a8289c01d90665d879370a59fb5712bac64ea33 RDMA/mlx5: Avoid direct access to DMA device pointer
          
