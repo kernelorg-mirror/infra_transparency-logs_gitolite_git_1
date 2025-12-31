@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1595846639336065746=="
+Content-Type: multipart/mixed; boundary="===============5000387193972720586=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Wed, 31 Dec 2025 00:44:25 -0000
-Message-Id: <176714186561.183544.7201035630956360868@gitolite.kernel.org>
+Date: Wed, 31 Dec 2025 00:44:27 -0000
+Message-Id: <176714186710.183695.2436866457870672136@gitolite.kernel.org>
 
---===============1595846639336065746==
+--===============5000387193972720586==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/mm-new
-    old: 154786a7a10cf5d010b0575b97e67add1e307070
-    new: a6fffac6b4644300b515c9dfc9bdf41adca63256
-    log: revlist-154786a7a10c-a6fffac6b464.txt
+  - ref: refs/heads/mm-unstable
+    old: 60bfe478af77a10bd77669ec1911599d04530ebd
+    new: d61f3c74529d930a7495d5cb91bcc794dd7d0315
+    log: revlist-60bfe478af77-d61f3c74529d.txt
 
---===============1595846639336065746==
+--===============5000387193972720586==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-154786a7a10c-a6fffac6b464.txt
+Content-Disposition: attachment; filename=revlist-60bfe478af77-d61f3c74529d.txt
 
 2462d52ed416c8467a6099341bf2c88a4c8c85fc mm/page_alloc: make percpu_pagelist_high_fraction reads lock-free
 b8a4288be6147b32aff57ff01c333eccef064b0d mm-page_alloc-make-percpu_pagelist_high_fraction-reads-lock-free-fix
@@ -183,27 +183,5 @@ b339a3a49b12bd91611c5cac4ebb5996967370c2 mm/damon/sysfs: cleanup intervals subdi
 afb33b8256cc858ac6658a2b9be9919ceca6c21a mm/damon/sysfs: cleanup attrs subdirs on context dir setup failure
 a53012ccb373917cffeede2e48d5e832d236f8a0 mm/damon/sysfs-scheme: cleanup quotas subdirs on scheme dir setup failure
 d61f3c74529d930a7495d5cb91bcc794dd7d0315 mm/damon/sysfs-scheme: cleanup access_pattern subdirs on scheme dir setup failure
-ccef5ea5aac7d68e4c728ae5ec233a0ed550e38c tsacct: skip all kernel threads
-5e843e2189f4c269a51de71258402a52be3f6a41 lib: introduce hierarchical per-cpu counters
-3e65ed45026e72ef7712a6cc97a28b6b8e28e29d mm: fix OOM killer inaccuracy on large many-core systems
-e05db2eff665c6eeeb439a67c6dc6ae1b99bbc97 mm: implement precise OOM killer task selection
-93514d67e7d1a87ae584a87fd62d96f784481f8a mm/khugepaged: remove unnecessary goto 'skip' label
-8cdae6406289cd8e19d2224e9c815813374c590d mm/khugepaged: count small VMAs towards scan limit
-df6c19852c85eccdf4afc215c2c87f2fd4b61be2 mm-khugepaged-count-small-vmas-towards-scan-limit-fix
-62b339878b2b2ad10707c251e1122b970195ad92 mm/khugepaged: change collapse_pte_mapped_thp() to return void
-5c0c1eb187a970057866007c5e15289c5d6ea926 mm/khugepaged: use enum scan_result for result variables and return types
-42cd1d08981bb6d170a1b869aa52c6668505b5bb mm/khugepaged: make khugepaged_collapse_control static
-036e5aba6bb00c08f98a47f5938302bf2ba3f40d mm/damon/tests/core-kunit: verify the 'age' field in damon_test_split_at()
-fa5c6de8cbd8b5fdcf6542b5d0e539b6af27400c mm/damon/tests/core-kunit: verify the 'age' and 'nr_accesses_bp' fields in damon_test_merge_two()
-74111c9ee8b20c7bc37347698d69d3140291b648 mm/damon/tests/core-kunit: add a test case for region merge size limit in damon_test_merge_regions_of()
-88f388b7cb39a71d68db610a912ddb56ad8a416c mm/damon/tests/core-kunit: add test cases for multiple regions in damon_test_split_regions_of()
-fa5ca0c860d647d1ffc363519be3426485c99419 mm-damon-tests-core-kunit-add-test-cases-for-multiple-regions-in-damon_test_split_regions_of-fix
-ec54cd4ac9a6598a74b417155dc0995a71c44b7d mm/damon/tests/core-kunit: remove a redundant test case and add a new test case in damos_test_commit_quota_goal()
-99fa51fd4118879a3bd08bdeb806c63c25ad0b1d mm: debug_vm_pgtable: add debug_vm_pgtable_free_huge_page()
-8a307177ccbda2704251bf58bb2f99d9831723f7 mm: page_alloc: add __split_page()
-f31b5f4f603c38adb80147cb61299beb7b234121 mm: cma: kill cma_pages_valid()
-dd243dee3a34bdf120ba8168a5872bc8d5150bb7 mm: page_alloc: add alloc_contig_frozen_{range,pages}()
-3085d6d86b70c970025d4a1e4af39b52fa71c0b4 mm: cma: add cma_alloc_frozen{_compound}()
-a6fffac6b4644300b515c9dfc9bdf41adca63256 mm: hugetlb: allocate frozen pages for gigantic allocation
 
---===============1595846639336065746==--
+--===============5000387193972720586==--
