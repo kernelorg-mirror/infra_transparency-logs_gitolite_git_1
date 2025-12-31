@@ -1,30 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
-Date: Wed, 31 Dec 2025 16:14:51 -0000
-Message-Id: <176719769140.895626.12766881754419856265@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Wed, 31 Dec 2025 17:03:20 -0000
+Message-Id: <176720060059.933179.3214305625338324231@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tiwai/sound
-user: tiwai
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: ast
 changes:
-  - ref: refs/heads/for-next
-    old: 665355a47ff97c1fdf939bd3c287e9106b123e73
-    new: 94968fc3009d4bd7e7e1300abd7037f3dde585ed
-    log: |
-         537cd8fd3c58525ab407a3e80e170bc86a3e96ca ALSA: mixart: adjust field name reference
-         60dd3ace961ec037ecb4c80c3a22627715d9ac71 ALSA: ice1724: adjust function name reference
-         94968fc3009d4bd7e7e1300abd7037f3dde585ed ALSA: echoaudio: adjust function name
-         
   - ref: refs/heads/master
-    old: a21bb71c28c83954f4f337bbeb3c605d08a849af
-    new: e8ae868919a228d1d3ff34fe8b48f09172181406
+    old: ccaa6d2c9635a8db06a494d67ef123b56b967a78
+    new: c0e4a193ae91e5dcfbb920b2ba74599b05e2b2eb
     log: |
-         537cd8fd3c58525ab407a3e80e170bc86a3e96ca ALSA: mixart: adjust field name reference
-         60dd3ace961ec037ecb4c80c3a22627715d9ac71 ALSA: ice1724: adjust function name reference
-         94968fc3009d4bd7e7e1300abd7037f3dde585ed ALSA: echoaudio: adjust function name
-         e8ae868919a228d1d3ff34fe8b48f09172181406 Merge branch 'for-next'
+         840692326e92b5deb76c224931e8ca145ce7cfb8 bpf: allow states pruning for misc/invalid slots in iterator loops
+         4fd99103eef347174b3c9b6071428324a3cf9a60 selftests/bpf: iterator based loop and STACK_MISC states pruning
+         c0e4a193ae91e5dcfbb920b2ba74599b05e2b2eb Merge branch 'bpf-unify-state-pruning-handling-of-invalid-misc-stack-slots'
          
