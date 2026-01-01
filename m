@@ -1,22 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs
-Date: Thu, 01 Jan 2026 03:35:21 -0000
-Message-Id: <176723852114.1418948.11207586036198017905@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs-tools
+Date: Thu, 01 Jan 2026 03:35:56 -0000
+Message-Id: <176723855697.1419198.6039101200724859450@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jaegeuk/f2fs
+repo: pub/scm/linux/kernel/git/jaegeuk/f2fs-tools
 user: jaegeuk
 changes:
   - ref: refs/heads/dev-test
-    old: 3aead6ea0dac9419e105cbe76d1388efa11625fa
-    new: 48b5439e04ddf4508ecaf588219012dc81d947c0
+    old: 800dfd11e56e97f4e6dcd4505a1906730e4677be
+    new: e718c5d7c2cea56b01b8261910cdf713bfa227f8
     log: |
-         29515d5ecaccb785c1e4a2f4f6294c01ea29ce8b f2fs: fix use-after-free in f2fs_write_end_io
-         d7a023b9614b8728e829ca6228afcdb822ad9a1f f2fs: flush plug periodically during GC to maximize readahead effect
-         c6ff193762a54f75a198729218fe5307f4d2ce1e f2fs: fix out-of-bounds access in sysfs attribute read/write
-         48b5439e04ddf4508ecaf588219012dc81d947c0 f2fs: change seq_file_ra_mul and max_io_bytes to unsigned int
+         ad1357c34023dab36c5a6071bde49aa75a6af6b3 f2fs-tools: revert summary entry count from 2048 to 512 in 16kb block support
+         55baa84a3695c8c08938ee480abf62987ead391e f2fs_io: add mlock() option in the read test
+         3ab67256d83a8323b92992155b99c3365c0964f6 f2fs_io: add more description in read test
+         e718c5d7c2cea56b01b8261910cdf713bfa227f8 f2fs-tools: detect and fix NAT entry inconsistencies with dent_flag set
          
