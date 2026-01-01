@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Thu, 01 Jan 2026 23:26:52 -0000
-Message-Id: <176731001208.2310841.3093703260879935903@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sj/damon-hack
+Date: Thu, 01 Jan 2026 23:27:12 -0000
+Message-Id: <176731003284.2311377.7437186056865830592@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/linux
+repo: pub/scm/linux/kernel/git/sj/damon-hack
 user: sj
 changes:
-  - ref: refs/heads/damon/next
-    old: 4f0da9397eedc517e4775a3af6c22502a4707aea
-    new: 3658b9ce5649afdbd0df8310359cc487982b2184
+  - ref: refs/heads/master
+    old: 6934fb8d3dbaaef1c89b30284cffa8bd4066bc01
+    new: f2dd5bb78a35003e45ffeffaf5b156790de426bc
     log: |
-         2d9478c15e5efdd8f89fde1182fdf2a4a8ea90ee mm/damon/core: make kdamond handles damon_call_controls on local list
-         3658b9ce5649afdbd0df8310359cc487982b2184 mm/damon: document damon_call_control->dealloc_on_cancel repeat behavior
+         f2dd5bb78a35003e45ffeffaf5b156790de426bc patches/next: wordsmith kdamond_call() refactoring commit message
          
