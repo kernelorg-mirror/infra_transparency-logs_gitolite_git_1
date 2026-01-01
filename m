@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
-Date: Thu, 01 Jan 2026 04:32:57 -0000
-Message-Id: <176724197762.1460939.9585660946659574510@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools
+Date: Thu, 01 Jan 2026 05:49:01 -0000
+Message-Id: <176724654140.1515813.13810183717110268336@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/25-new
-user: akpm
+repo: pub/scm/linux/kernel/git/perf/perf-tools
+user: namhyung
 changes:
-  - ref: refs/heads/master
-    old: 00d374c7c979c6a7a33014f7923e49473d585ae6
-    new: 02e8ecdb929ac3e8df229dfdb2613bd287d2a362
+  - ref: refs/heads/perf-tools
+    old: eb067401879118677d37d7dda2e6a75db475f825
+    new: fe072f651083c612278de82ce08bccdfecf574b3
     log: |
-         02e8ecdb929ac3e8df229dfdb2613bd287d2a362 foo
+         fe072f651083c612278de82ce08bccdfecf574b3 tools build: Fix the common set of features test wrt libopenssl
          
