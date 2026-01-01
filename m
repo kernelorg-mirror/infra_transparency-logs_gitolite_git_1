@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/fs/xfs/xfstests-dev
-Date: Thu, 01 Jan 2026 13:16:34 -0000
-Message-Id: <176727339432.1850948.17255198752728212255@gitolite.kernel.org>
+Date: Thu, 01 Jan 2026 13:16:58 -0000
+Message-Id: <176727341892.1851187.15386006345332600979@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,5 +12,5 @@ repo: pub/scm/fs/xfs/xfstests-dev
 user: zlang
 changes:
   - ref: refs/heads/patches-in-queue
-    old: 4572be7152e79f3c47f9b6487b6f01e475fc1a7e
-    new: 0000000000000000000000000000000000000000
+    old: 0000000000000000000000000000000000000000
+    new: 63a29724a85f1999e49bf0a9bf0d22643b6116e5
