@@ -1,49 +1,35 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/linusw/linux-pinctrl
-Date: Thu, 01 Jan 2026 14:50:07 -0000
-Message-Id: <176727900756.1923528.14886238722398826489@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mst/vhost
+Date: Thu, 01 Jan 2026 14:55:13 -0000
+Message-Id: <176727931337.1927522.17193784576513385071@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/linusw/linux-pinctrl
-user: linusw
+repo: pub/scm/linux/kernel/git/mst/vhost
+user: mst
 changes:
-  - ref: refs/tags/sent/20251216-maintainers-dt-1db061b06cb4-v1
-    old: 0000000000000000000000000000000000000000
-    new: d8e5d39268065a73fc12177b603a2c1cd9df48d4
-  - ref: refs/tags/sent/20251216-maintainers-fix-5acd1b222e7f-v1
-    old: 0000000000000000000000000000000000000000
-    new: fafc4ec4091a7c7a14842d0f6ced480b14aefa66
-  - ref: refs/tags/sent/20251230-maintainer-fix-mailmap-8103c23fa7be-v1
-    old: 0000000000000000000000000000000000000000
-    new: 2d7883a565d8575e050b6061d4c4fd7ca870a80a
-  - ref: refs/tags/v6.18
-    old: 0000000000000000000000000000000000000000
-    new: f7b88edb52c8dd01b7e576390d658ae6eef0e134
-  - ref: refs/tags/v6.18-rc2
-    old: 0000000000000000000000000000000000000000
-    new: ffee675aceb9f44b0502a8bec912abb0c4f4af62
-  - ref: refs/tags/v6.18-rc3
-    old: 0000000000000000000000000000000000000000
-    new: 0edde068997bc3c41f122c9941143a39d604a0dc
-  - ref: refs/tags/v6.18-rc4
-    old: 0000000000000000000000000000000000000000
-    new: 2f112b1c25da9f5346c2261ed35c5b1e0b906471
-  - ref: refs/tags/v6.18-rc5
-    old: 0000000000000000000000000000000000000000
-    new: 62ad2b01b0c7dba966c6843b77e99b06a3b12d27
-  - ref: refs/tags/v6.18-rc6
-    old: 0000000000000000000000000000000000000000
-    new: ec4b6a97aa20d97494d3431434470d91aacb9c6e
-  - ref: refs/tags/v6.18-rc7
-    old: 0000000000000000000000000000000000000000
-    new: c4508223b80908ac095e50f731e68c4387951f0f
-  - ref: refs/tags/v6.19-rc1
-    old: 0000000000000000000000000000000000000000
-    new: 3e7f562e20ee87a25e104ef4fce557d39d62fa85
-  - ref: refs/tags/v6.19-rc2
-    old: 0000000000000000000000000000000000000000
-    new: 2408853dde584f01950a0f976b743739cce30eca
+  - ref: refs/heads/test
+    old: 860bbe8d4aa86b86f3cc6fba72509c0351cd5690
+    new: 9f6aee11f8727e448c5942a2f8bd79cfd1ba87d2
+    log: |
+         813e386321370a934196c55d8d0bd487353e4fcc virtio_scsi: fix DMA cacheline issues for events
+         2c9a8bb03d74eba6b8be43e61b01854e995780d8 virtio-rng: fix DMA alignment for data buffer
+         4d2a9d498beb5e336c9257e0ef29f2014637b61e virtio_input: use virtqueue_add_inbuf_cache_clean for events
+         69c3f66cb3cc84c35c037e162b6b962a949bbd9d vsock/virtio: reorder fields to reduce padding
+         16afba4c15a4611824ec66c3b90f06ff83b8b01b gpio: virtio: fix DMA alignment
+         9f6aee11f8727e448c5942a2f8bd79cfd1ba87d2 gpio: virtio: reorder fields to reduce struct padding
+         
+  - ref: refs/heads/vhost
+    old: 860bbe8d4aa86b86f3cc6fba72509c0351cd5690
+    new: 9f6aee11f8727e448c5942a2f8bd79cfd1ba87d2
+    log: |
+         813e386321370a934196c55d8d0bd487353e4fcc virtio_scsi: fix DMA cacheline issues for events
+         2c9a8bb03d74eba6b8be43e61b01854e995780d8 virtio-rng: fix DMA alignment for data buffer
+         4d2a9d498beb5e336c9257e0ef29f2014637b61e virtio_input: use virtqueue_add_inbuf_cache_clean for events
+         69c3f66cb3cc84c35c037e162b6b962a949bbd9d vsock/virtio: reorder fields to reduce padding
+         16afba4c15a4611824ec66c3b90f06ff83b8b01b gpio: virtio: fix DMA alignment
+         9f6aee11f8727e448c5942a2f8bd79cfd1ba87d2 gpio: virtio: reorder fields to reduce struct padding
+         
