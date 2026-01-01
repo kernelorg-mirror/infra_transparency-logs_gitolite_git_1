@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6195069219179068802=="
+Content-Type: multipart/mixed; boundary="===============3686826447407132334=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Thu, 01 Jan 2026 23:09:47 -0000
-Message-Id: <176730898750.2295926.11729405686887279585@gitolite.kernel.org>
+Date: Thu, 01 Jan 2026 23:09:48 -0000
+Message-Id: <176730898892.2296143.5569094984729437160@gitolite.kernel.org>
 
---===============6195069219179068802==
+--===============3686826447407132334==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/mm-new
-    old: a6fffac6b4644300b515c9dfc9bdf41adca63256
-    new: af298bbfad2e14ab85a2610bee9dbe03692ef450
-    log: revlist-a6fffac6b464-af298bbfad2e.txt
+  - ref: refs/heads/mm-unstable
+    old: d61f3c74529d930a7495d5cb91bcc794dd7d0315
+    new: 7f60d6244c9306da6704bc95bf3a7ee9445f597b
+    log: revlist-d61f3c74529d-7f60d6244c93.txt
 
---===============6195069219179068802==
+--===============3686826447407132334==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a6fffac6b464-af298bbfad2e.txt
+Content-Disposition: attachment; filename=revlist-d61f3c74529d-7f60d6244c93.txt
 
 fa4aa8f4e0d56de23622384a1c6122c1d25782fe mm/page_alloc: make percpu_pagelist_high_fraction reads lock-free
 1b822edafc44b8231309278a01bea69ba28dab23 mm-page_alloc-make-percpu_pagelist_high_fraction-reads-lock-free-fix
@@ -185,57 +185,5 @@ d54099943d7b871cec87009fa97e2737eb7fd4c7 mm/damon/sysfs: cleanup intervals subdi
 1fc545d48b2f0b931750ac59f34c8883f7f2b49a mm/damon/sysfs: cleanup attrs subdirs on context dir setup failure
 7cfc9479322b4048dbf34cd3af1c2afcc1d60895 mm/damon/sysfs-scheme: cleanup quotas subdirs on scheme dir setup failure
 7f60d6244c9306da6704bc95bf3a7ee9445f597b mm/damon/sysfs-scheme: cleanup access_pattern subdirs on scheme dir setup failure
-15da784a6dcfe91cdf07e4c60553cc37baa7132f tsacct: skip all kernel threads
-b18f0a225915490aff596a342d11fa8f5cbe91a5 lib: introduce hierarchical per-cpu counters
-f85306789224f6862ba8bfc5e046a318a9fd58f7 mm: fix OOM killer inaccuracy on large many-core systems
-df22f81f58c287493368700fc4966ba6e5a90a9d mm: implement precise OOM killer task selection
-aaf83ec2f3fa771952c3f82127a4e3c7be950f6b mm/khugepaged: remove unnecessary goto 'skip' label
-2ac25217633261e3fa0fdc924cf3085e0eba5dc1 mm/khugepaged: count small VMAs towards scan limit
-3e96a192c2a35d6057af31af1f825b7b0a22d34a mm-khugepaged-count-small-vmas-towards-scan-limit-fix
-e281064410584f733cf801b3eec92d6ae6d18ff5 mm/khugepaged: change collapse_pte_mapped_thp() to return void
-ae60f5587f6ef16c2b3c7ed8aaa80c4df00e6a0a mm/khugepaged: use enum scan_result for result variables and return types
-a8132a20b65032bc9873d19f6d27c699bbaa09a9 mm/khugepaged: make khugepaged_collapse_control static
-be81696d6676c966de177da572016accc4e21013 mm/damon/tests/core-kunit: verify the 'age' field in damon_test_split_at()
-73343d5830fda0576fc0a03a9209437816efaaee mm/damon/tests/core-kunit: verify the 'age' and 'nr_accesses_bp' fields in damon_test_merge_two()
-11282f5fd8e38f0773c6bb633af7caca1a0af306 mm/damon/tests/core-kunit: add a test case for region merge size limit in damon_test_merge_regions_of()
-b9fd9e6fc1ebdb910bc8b803e2f677b1cc96d234 mm/damon/tests/core-kunit: add test cases for multiple regions in damon_test_split_regions_of()
-3c657e9e888d1a0595b044473893ee2c6251d9a5 mm-damon-tests-core-kunit-add-test-cases-for-multiple-regions-in-damon_test_split_regions_of-fix
-4c5d27c19f00ef78e9b3954c9cd1aad375d5815b mm/damon/tests/core-kunit: remove a redundant test case and add a new test case in damos_test_commit_quota_goal()
-82aa517903896017dc4373eafbf49b1e75440b1a mm: debug_vm_pgtable: add debug_vm_pgtable_free_huge_page()
-ec25451394b03c812b60cb6b832a173120345b4d mm: page_alloc: add __split_page()
-5e5110dfe7613decf54aae8ec7eab42a0079b03e mm: cma: kill cma_pages_valid()
-5a67808bba8f4397500f6f35f88eceb5d661bf04 mm: page_alloc: add alloc_contig_frozen_{range,pages}()
-abc424f36507779bccc64d12b87b901d5d76695a mm: cma: add cma_alloc_frozen{_compound}()
-18dbcfb10e0a886f1d6cf2172321f9a445272c2e mm: hugetlb: allocate frozen pages for gigantic allocation
-9fa0d5d4972014d0b5771eaeb9342b809547002c alpha: introduce arch_zone_limits_init()
-1c3b575758ba21da7f1f93456a4e166ddcdfb83c arc: introduce arch_zone_limits_init()
-d830393a2cc6c754dc6f5c62c83e80702aa9f7ce arm: introduce arch_zone_limits_init()
-e8ddc4e8156ef3b96ba8d5e25ad4c3d18d34840c arm64: introduce arch_zone_limits_init()
-e18bdf5a1fb12188a7c346b38e572cd9c661fa50 csky: introduce arch_zone_limits_init()
-d4d474658e2accc28500429362066fc600c88b9d hexagon: introduce arch_zone_limits_init()
-8ae30118a71bd78311fbf7bfb5776c5e931310a7 loongarch: introduce arch_zone_limits_init()
-dbae65452fc6a12d3aa7a4eb4804877d3410b064 m68k: introduce arch_zone_limits_init()
-cf165ce9d6afc1e12565ac376fc892b9457e716c microblaze: introduce arch_zone_limits_init()
-e4715722eed320655622ad5d2edb5b307170307a mips: introduce arch_zone_limits_init()
-fc7712423cac00c595ce4282eb8cb69621cbe97a nios2: introduce arch_zone_limits_init()
-a70eacd26674053345462ef8c07e572f4eb601da openrisc: introduce arch_zone_limits_init()
-280d03de424ad2f491ce416185235f4d9d99ea28 parisc: introduce arch_zone_limits_init()
-4e0bcf174ee8eb9b127e4fc494873b4e905a0c85 powerpc: introduce arch_zone_limits_init()
-94b3cf185c3e9f1bd1ead7331ea99a985d6399e1 riscv: introduce arch_zone_limits_init()
-bc4b6917f0794c20a3cd7c1386b78b008dd7e758 s390: introduce arch_zone_limits_init()
-058acfcceb0bc6db496b8fbbe98e2a8f7547958a sh: introduce arch_zone_limits_init()
-ab92595fbdd09ddc0a0bd6c517a23d98c0a0a920 sparc: introduce arch_zone_limits_init()
-ddb940eb064864f4988dc9864e6599db5b3958c8 um: introduce arch_zone_limits_init()
-4b691c51dfe8a428ff67d57d468aa00d06d2343f x86: introduce arch_zone_limits_init()
-b234cb32d504cdc5ef778f4cfec49e8245040df4 xtensa: introduce arch_zone_limits_init()
-f9da65021f813b7278a09f9f15a9317f041b1400 arch, mm: consolidate initialization of nodes, zones and memory map
-4e51cedb14929548bf00ecd20eb7d4526c403142 arch, mm: consolidate initialization of SPARSE memory model
-493aaf6fbedcbafce69f2cf7575144113fa379f4 mips: drop paging_init()
-b1796b09495f3136af94e95fb3902856898c69bb x86: don't reserve hugetlb memory in setup_arch()
-637ec2c95d568f633491277406ddf03773b9c7aa mm, arch: consolidate hugetlb CMA reservation
-00501e7dbba7d8d537e5c4e16131ef0ee68b504b mm/hugetlb: drop hugetlb_cma_check()
-be476fa7f3bd240fc242986dd77a8739d7c4c6a2 Revert "mm/hugetlb: deal with multiple calls to hugetlb_bootmem_alloc"
-5e8ba451a4e75192aec145074a68c521ab0f32cf mm/oom_kill: remove unnecessary integer promotion in format string
-af298bbfad2e14ab85a2610bee9dbe03692ef450 mm/mmu_gather: remove @delay_remap of __tlb_remove_page_size()
 
---===============6195069219179068802==--
+--===============3686826447407132334==--
