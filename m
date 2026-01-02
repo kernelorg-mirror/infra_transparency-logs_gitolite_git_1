@@ -1,1054 +1,1054 @@
-Content-Type: multipart/mixed; boundary="===============3211163101514792379=="
+Content-Type: multipart/mixed; boundary="===============6469558651094139512=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/security/vulns
-Date: Fri, 02 Jan 2026 14:00:59 -0000
-Message-Id: <176736245924.3024486.7522479519863515302@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/device-mapper/linux-dm
+Date: Fri, 02 Jan 2026 14:01:24 -0000
+Message-Id: <176736248402.3025014.13085360304108480315@gitolite.kernel.org>
 
---===============3211163101514792379==
+--===============6469558651094139512==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/security/vulns
-user: sashal
+repo: pub/scm/linux/kernel/git/device-mapper/linux-dm
+user: mikulas
 changes:
-  - ref: refs/heads/sasha-vulnerable
-    old: fc691e79e8b078df9a08307450126f3769ef5909
-    new: 855801efdc27186a3b758b9e0cf974d08aa0f8fa
-    log: revlist-fc691e79e8b0-855801efdc27.txt
+  - ref: refs/heads/for-next
+    old: 13ea55ea20176736516b20b9ea2d8cf97dbe74f5
+    new: f8f9c1f4d0c7a64600e2ca312dec824a0bc2f1da
+    log: revlist-13ea55ea2017-f8f9c1f4d0c7.txt
 
---===============3211163101514792379==
-Content-Type: text/plain; charset="us-ascii"
+--===============6469558651094139512==
+Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-fc691e79e8b0-855801efdc27.txt
+Content-Transfer-Encoding: 8bit
+Content-Disposition: attachment; filename=revlist-13ea55ea2017-f8f9c1f4d0c7.txt
 
-7ad4c5616bc273d4399b98bf7d392dcf0509c0b7 bippy: add version range tests for complex multi-fix case
-6ab9b45fd09d39ea56c114d43c0abd8275c5a0e9 add gsd-review.17-fromfile-gregkh
-8df5b3546843e55246021e777138d4babb81277b update cvelistV5
-c2c3e4455ae42ff508f42d95b4acf95ee52148d9 add first cut of 6.18.2 review from greg
-6a853d7143e124b40fd51650ec352f080ca4197e allocate some 2025 cve ids from cve.org
-2614cd08867a224c89f33231f2b07414f8b0de9a assign some 6.18.2 cve ids
-57c0d0af3efb88a79f704cc4c5e06fe7a079a37a allocate some 2022 and 2023 cve ids from cve.org
-f6134455a67192a18fa8b92baf5c93c6d4cce8d2 assign some cve ids based on gsd-review.17
-67291ded8a3589b08b334f0749219b1a9256c126 mark gsd-review.17 as completed
-67f776ddcc4f8b35b0eaff5cab04cc99af0382d4 assign CVE-2025-68734 on request
-b6131baf053b009a677740152f10d99cafcbdb8c strip the new mbox files
-5b5939e46061bff48df956a57d4068fb1f117b09 finish 6.18.2 review from greg
-0639da0b9945e73731bcb1fc572021aac95b2cdd assign some more 6.18.2 cve ids
-c428e8641c287b2bc6e724b502081492f7633bc0 strip the new mbox files
-6874b14b26e89f77def52bd1d8f9824ea00a4847 add gsd-review.18-fromfile-gregkh
-951c0dff404ccfc22de20b05c4857dddc5ce2422 allocate some 2022 and 2023 cve ids from cve.org
-3dcd84fb310ea7b39fc9d9f09d7dceac50962407 assign cve ids to gsd-review.18
-3f51a7d034daecd63941e2a8a605d659484bf355 mark gsd-review.18 as completed
-e0dd405738481a107cb1d208f94ce4413b57a36b strip new mbox files
-dc8fff7d117a43293102e6809f552f93032661f0 update cvelistV5
-b18ca4f357d13d596a2b34b3ec7e6187f1842f26 add gsd-review.19 cve review
-fd58109d37c31b9eb3c4a1e49dd77202ee0847a0 add gsd-review.20 from greg
-96687ff32dfc54ab8181ae7cf66b050e15184d11 assign a 2023 cve id from gsd reviews
-208f79cbcc28461aed98f821ed3d96938f1f04df allocate a bunch of 2022 and 2023 cve ids from cve.org
-e2d5987dd85f13ac075986b2aa9bdb44be544b6b assign cve ids to the gsd 19 and 20 reviews
-f135a7aae1c685fc74f5889e29a6ee5faeec55b9 mark gsd review 19 and 20 as completed
-87aadb5c3e496c5af2535d0249bc9df3331430c4 strip all new mbox files
-c7b5d2eb582b2f247ad4c4ac437c230415d9304e update cvelistV5
-8216275d48dd65f37237e24a34da39e75b408522 fix up CVE-2024-46858 based on review
-64c4de0bf475e01d026cca2a754acb2625f1ee0b assign CVE-2025-68750 on request
-5ecc44840a47c4abf0760eb0f5e096f449e4f6a0 strip the new mbox
-b5fd7e70866587885da947f111f23f46deb3dd57 update cvelistV5
-b58ef9cfc16f30425fba9d8bcd2471c814d502b8 dyad: move vulnerability sorting outside the main loop
-7f2b0ca126f7188aa4a6bee146b6f0b6362357ab dyad: use HashSet for O(1) deduplication checks
-053168ce047c9439c6fc374532d98097bc39b522 dyad: extract process_reverted_pairs helper function
-9c9eac8335142cc39f8e089812ffb42231032394 dyad: replace boolean flag pattern with early-continue
-d15cfa35296acc3e882fad57b574e236e9f70fb2 dyad: use HashSet for unfixed vulnerability lookups
-884384dd62782d9f452e16af0cad52abb58a2734 dyad: pre-compute oldest mainline kernel for default matching
-6847dbf92577009d4630f3b0f6d0499e7de87b2f dyad: consolidate winnow_vulnerable_set into single pass
-f8763fec8bf9078f8e55d195ecb2d18d323c628e dyad: reduce cloning in filter_and_sort_pairs
-dc6399d1522c442f1ae4ca9d50701e36f693160d bippy: replace boolean flag with any() iterator
-f4e23c308d9175df75bd293443aae2bf14e46714 bippy: use HashSet for O(1) URL duplicate checks
-a0d63cfc4662160c7600824511a9a032e7a1ddce bippy: pre-compute lowercase tag patterns
-327f2295fc1aa6a8218f55a358ab4231f798dafe bippy: simplify match expressions to equality checks
-c26843767a44fc53e8c99766637c049e7ced540e bippy: consolidate policy decisions into policy.rs
-7ae1a6c7830daa3148e8f041e8bb95830954482e update cvelistV5
-23610403d62446bd29e607df13aec788324d42eb proposed: Add Allen's v6.18.[1/2] results
-60d8b6d6bc6c1c6dd192dcb93655f4009e18ff82 6.18.1 review is completed
-a704bebbb8fe855900998c5a203d70ee73949ece update cvelistV5
-64ab55b3013a1f506898f5c4eba9d8cf93e48251 reject CVE-2022-48843
-f079c9d96955465cc620e4236cb4c38a0388191e fix up duplicate issues with CVE-2023-53642 and CVE-2023-53749 and CVE-2023-54061
-df317ef25845aaa2a744b46399b7e730bd098fef merge CVE-2024-47683 and CVE-2024-43895
-9ba8664b7c0beb80a25a787c96cd2ba9c793c197 reject some duplicate cve ids.
-7fc8bd68b5ffcdc20c5032d12325b4d19e63276d cve_review: properly handle empty commit messages
-fba47f45ddf369823e360cf804e8704ecf2b6f72 add gsd-review.21 from greg
-dd160f7df27c9ad68d5cea22b64a0864c7a71011 add gsd-review.22 from greg
-dbcc837a858a0c523cc623683875c9b5a7f6ae29 add gsd-review.23 from greg
-fd3ae98fb3b383d726195092772942403d2d7bbb add gsd-review.24 from greg
-5f84246e321b7466e85ba58b5579ed5cb7ed4247 assign some cve ids based on gsd-review.21
-eb5e56aa0b11f728e2f28594c8e645aea60686ed allocate some 2022 and 2023 cve ids from cve.org
-a4810b15bcc8958566e2f126478d0ddc1c2fa730 assign some cve ids based on gsd-review.21
-cca7aead1a9d2334428461d1f99c8730b87a3118 assign some cve ids based on gsd-review.22
-1b8d00ebc585a9498565f026a9c81628e24c0311 assign some cve ids based on gsd-review.23
-525ca5cab60a6c25ce40c70fceaca350d4a49a64 mark the gsd-review 21, 22, and 23 files as completed
-6743bf0a6dc5764f06283d117420f68d88f608bf strip the new mbox files
-0589b0202c8511840ddf84eaccacba93490da39b update cvelistV5
-35a60dbe23e1c843b244bf5157818982bf48e987 assign some cve ids based on gsd-review.24
-df446c36c57682484a01e654ef9070ae3f726a5b reserve some more 2023 and 2022 cve ids from cve.org
-bbedcd246709a913eaf8c28328b135e6bf4fb1fb assign some more cve ids based on gsd-review.24
-3fe4c75021559ef10a029c9fb08ddba878331e26 allocate some more 2022 and 2023 cve ids from cve.org
-7af964b6af6516077b9e3723113c350061843d9f assign some more cve ids based on gsd-review.24
-9f9ddd1e1de4a9f851d2ab771629f2e1b1d6a9f7 mark gsd-review.24 as done
-43248316263203867d69f415236d35a984f8e412 strip the new mbox files
-36f52f04a24a3cb9228533e4ba3e5405d3efe6ed update cvelistV5
-5f7f0465be676215625eb850bf67ef93f6089f13 return some unused 2024 cve ids
-d530ae1bbe94ba4c2a56eeaf4df2c414ff22c1a4 mark some 2022 cve ids as reserved from cve.org
-d62093d8a02aad28d216978db8fb4354f61718a2 return the unused 2022 cve ids
-12dd41e3773fbff2558b0a77e6d37fee6821a0f3 update cvelistV5
-aeac33a4ab8e1ef268de8cc732a23c2ed4b95182 reject CVE-2023-54212
-4e07c4a85521a6e11106bf5e8d5c4a6a7e4f3104 reject CVE-2022-50831
-2804e0efc6ad7ab2bb586495576b261100a50ad9 fix up CVE-2022-50867
-4c9be1783e9d548575dfecf2f0ae6cf89c70698a reject CVE-2023-54054
-ec1064e6c14478dfcfc1eb81b0163e0f0614c546 reject CVE-2023-54103
-5acd5db1c2873f26f17e9947815ea6b3b2981100 reject CVE-2023-54256
-1769e05fb7a50daadca87d9373d4f4dd7de25850 reject CVE-2023-54290
-4bdf775e11a63fe3aabfb39105d0dd7f6aace054 scripts/not_reverts: add some more "these are ok" commit ids
-f79207d9d12ef4784aa167ffcc0b3da4f06f69b1 update cvelistV5
-dfb1a18fb9353a098b8a22eead884faa8100ed88 scripts/summary: we have over 10000 entries
-4a4c15ab9ae28c9c5eda6354d99a6ad9870adb5a update cvelistV5
-8034a89daf82cc2e4d7fac211536aea972b73b5c proposed: Add Lee's v6.18.2 results
-5d9cd22534b5b4834f33812fac416107dab329c2 CVE-2023-52434: Add .vulnerable file
-46e3d67b5e038214df632b8eec45e321db9bfb81 CVE-2023-52458: Add .vulnerable file
-8d2f7ef44995495f60f97dd5c356d336ce91fae7 CVE-2023-52475: Add .vulnerable file
-0743911dbcf45c1280a73892d2c5b4c9b08be4dc CVE-2023-52476: Add .vulnerable file
-42d1e0a081c902968df7172e50df91526f9de099 CVE-2023-52477: Add .vulnerable file
-eff4b0f982097e3a8c3b6e219c1194cb74818e9b CVE-2023-52478: Add .vulnerable file
-335d3315962ce8eea34ec96b39c304463d4522fb CVE-2023-52484: Add .vulnerable file
-f33051fb10cd7bdec7f34cdbb4ee35f44bc86d33 CVE-2023-52486: Add .vulnerable file
-e26941be11992b9cc7a80d0ab3ac7df9d20780fc CVE-2023-52498: Add .vulnerable file
-9f2d181853d945968d17db81e0d53d2d5912c8e4 CVE-2023-52500: Add .vulnerable file
-5fe3a10a34f5faac3fcc815439a65e3b4ddd7c6d CVE-2023-52511: Add .vulnerable file
-25c0aa292fd2464a5e15417924a258a9c933af83 CVE-2023-52516: Add .vulnerable file
-552ebd9cceb5e40582270f85398635c453a90a74 CVE-2023-52517: Add .vulnerable file
-621d02159118ad6f086f867118277b58fceae061 CVE-2023-52587: Add .vulnerable file
-406a32e3c6b3347a5b33b24ff2acbb02570f2465 CVE-2023-52590: Add .vulnerable file
-41c1fb21ac2e0f7c71ecb9e61596fb8bf97e60ed CVE-2023-52591: Add .vulnerable file
-a3ead7132a27f180e951b7fbb7f11ec0081e4bfb CVE-2023-52595: Add .vulnerable file
-a0a02518278c88c26cb056e41da2ea7ea81479b3 CVE-2023-52596: Add .vulnerable file
-41252da1890beff910824f1100c2a6937d412432 CVE-2023-52598: Add .vulnerable file
-f2dc405bac8b8f54ebd4414d0b7893a66325f0a7 CVE-2023-52599: Add .vulnerable file
-ce7772e996b167547a0676d619ef0ea8e48a6e1b CVE-2023-52600: Add .vulnerable file
-b2ee12f63581f676f5507a5c2463c86d8eb8d01f CVE-2023-52601: Add .vulnerable file
-32da0e9944a26af455064b972bbe7c392981b343 CVE-2023-52602: Add .vulnerable file
-4df74f3bb64c617dfba2e8783341c80f1afa2897 CVE-2023-52603: Add .vulnerable file
-b53647cb8f0622e362ebb14a559534a780e9c683 CVE-2023-52604: Add .vulnerable file
-1846ae423c341f8ab2981f981a58e9470b74446d CVE-2023-52606: Add .vulnerable file
-35a53490daf11ffc524b95f2f7f496396c0d2586 CVE-2023-52617: Add .vulnerable file
-8d54b125ae6cf93929ef7732f5cbbb85cebaaf49 CVE-2023-52619: Add .vulnerable file
-bb1203836cc16be9feceed62c4d6fbde303b7782 CVE-2023-52620: Add .vulnerable file
-17e72cde627a508c23ed05526e401b91e7e1695f CVE-2023-52621: Add .vulnerable file
-b2c8e90fa92c9791724dc3548545a3ef7c3e7e7d CVE-2023-52622: Add .vulnerable file
-1d472847d7a0bbeebaf78d4c039ae64e59850469 CVE-2023-52633: Add .vulnerable file
-1f09dcab8a0156d25bcd7ee3df6133649bb68f66 CVE-2023-52635: Add .vulnerable file
-8884e5a042333a388d5598d0f42f49056b701264 CVE-2023-52638: Add .vulnerable file
-7fa813c0bfc262c82fa8843bb75387526aca1c4c CVE-2023-52642: Add .vulnerable file
-d739288514715a2c20fa6aa66c54f4aa42ff2596 CVE-2023-52655: Add .vulnerable file
-cbfb95f4d3217693f82f5bba47ffed0be57e5a57 CVE-2023-52699: Add .vulnerable file
-ced6ca056db5e17282cb6af8407ab69a394f2560 CVE-2023-52705: Add .vulnerable file
-cb37c9f319d9928a7a0e7cb40b435597e4b3bcd1 CVE-2023-52736: Add .vulnerable file
-293838da4b9d5f74dce6d5422bd1d1384c82436a CVE-2023-52737: Add .vulnerable file
-f48a6e1291decda5326788a29bc35caf7ded8e99 CVE-2023-52741: Add .vulnerable file
-9b46d309056252ccd2eb8a3c5236e65e3d5fadb1 CVE-2023-52751: Add .vulnerable file
-2522c830ab7f204ee26c5ed92f5a24ce6b3e31eb CVE-2023-52752: Add .vulnerable file
-50520335b3aa7e4916bfa5bb0945509fde747d31 CVE-2023-52754: Add .vulnerable file
-ac3a8d55fb889dd740bf204043fbd096eae7d625 CVE-2023-52757: Add .vulnerable file
-bca275e4ab49c5150ed4de55c2a4a1a899a60b82 CVE-2023-52762: Add .vulnerable file
-394ca67add1d7a0742bd96eab7972ad6c913617e CVE-2023-52764: Add .vulnerable file
-51ca61425f9848638f892695db44c4a87b883fc1 CVE-2023-52789: Add .vulnerable file
-af1158f68d6787e091ab23b787f0d5457832d001 CVE-2023-52799: Add .vulnerable file
-4c2bf6cd20e6c0c0cfafffe467f1eeb4fa8498fc CVE-2023-52804: Add .vulnerable file
-dda134fae95fcd5032c031144d90fe23996f7711 CVE-2023-52805: Add .vulnerable file
-e3fcb387c5d3ac832c7e38b099ae63f442b659f1 CVE-2023-52806: Add .vulnerable file
-b11de7a6b2fd757f95d257bc284a4a16b515950b CVE-2023-52809: Add .vulnerable file
-e4acc707e8d5c5359aaf31191551e00e975eecde CVE-2023-52810: Add .vulnerable file
-086c5cc7f014a38e3b814e9c1732c69c07ba1337 CVE-2023-52811: Add .vulnerable file
-9869c70fd8a834e04e08fc014d04ded919ea292e CVE-2023-52812: Add .vulnerable file
-3200944ebfdee2c67d73e72ec3c21e9756db2cef CVE-2023-52818: Add .vulnerable file
-a0fc1e01ea667105c47b4dbbde2733667e7c2f6c CVE-2023-52819: Add .vulnerable file
-2605d9c93d3043c5e1066cd371df31cffeea8a48 CVE-2023-52821: Add .vulnerable file
-6fe6ac94254362c300c6f2e349bc36e6a123d032 CVE-2023-52826: Add .vulnerable file
-ff3119aad7290d8e3981d0b4aeaf876d87006ed9 CVE-2023-52828: Add .vulnerable file
-d9f6a5d74869b12a2865d3aad577180d7bbebcbc CVE-2023-52831: Add .vulnerable file
-1e8d58b7b51d7c5027b441cc82fbec13686a47a1 CVE-2023-52832: Add .vulnerable file
-a4c360155a702593bb0caa54fb8fc41f41791d24 CVE-2023-52833: Add .vulnerable file
-884d8046aab28ea41657fb524f504104bf237798 CVE-2023-52834: Add .vulnerable file
-acd1d67b4fbdccc22dcb042e30847691e2a415b6 CVE-2023-52835: Add .vulnerable file
-80d5bb2e60942f4b49f8cbd687cecb6698de01ee CVE-2023-52836: Add .vulnerable file
-2d89155c609ea2f217333f313700433c0c2880ee CVE-2023-52880: Add .vulnerable file
-d1402137999b6ee31f12f5630f62785d56d0549f CVE-2023-52894: Add .vulnerable file
-ead9524044bae95a731dd3901203b1d8ea7e7f7f CVE-2023-52900: Add .vulnerable file
-c8a12e613dc9e27aa12dbb07b5e472ac18a36e40 CVE-2023-52915: Add .vulnerable file
-760074ddfa79bc5423de7770c2d76c3b61cf1b4e CVE-2023-52918: Add .vulnerable file
-80defa94c3f2cd7a099bd4f4cc353628cf406f60 CVE-2023-52932: Add .vulnerable file
-8cfc9b12c9dc6bb8a43c5c46f7f2c576833f79a5 CVE-2023-52974: Add .vulnerable file
-124ead9e1852eba5af5d5a3711f0ecd59bb0d420 CVE-2023-52975: Add .vulnerable file
-ed63d5d20ec271ad3a72c964397c0fd76054fc5e CVE-2023-53008: Add .vulnerable file
-a8dff8f42586c749780cfae293a43034a633de1e CVE-2023-53035: Add .vulnerable file
-cb51ad42eec181675515e8b7673a996228fb2dff CVE-2023-53038: Add .vulnerable file
-f0c7133cab3068b977f9b0a71109b16669bf1065 CVE-2023-53040: Add .vulnerable file
-2871e516ca0483039ecf5722ff92386beebee74f CVE-2023-53041: Add .vulnerable file
-a27ec457196ffbe22dab9c61dc9bd35b17a33bc5 CVE-2023-53089: Add .vulnerable file
-dbffc61906694ac50b87263616c3d0adc24ea2f3 CVE-2023-53091: Add .vulnerable file
-9dc1bcfe3b25e991e895bdfc93770d4ecff7afd3 CVE-2023-53097: Add .vulnerable file
-53ed7304aeeb0b75f21f6440aaf8276affcbdaa6 CVE-2023-53098: Add .vulnerable file
-3e3d50da0ca9070dfc29bd51913a916ea24dfd34 CVE-2023-53100: Add .vulnerable file
-bd4b624e22cb12fd7607c4939d3bb06767116368 CVE-2023-53101: Add .vulnerable file
-93ae482cc6de4bcc4790b87312396db1b8e47ec0 CVE-2023-53117: Add .vulnerable file
-280a4ee2f3a7c7588261e71dfce800a612f00e34 CVE-2023-53145: Add .vulnerable file
-78129f2d4ee5fc65fa40e87875455056d876e76e CVE-2023-53146: Add .vulnerable file
-c796699d83aaa31d8a0e7273848b16573e644e5f CVE-2023-53148: Add .vulnerable file
-ee9f4f49889116227e9a2444d138f6342e691538 CVE-2023-53150: Add .vulnerable file
-19b047c22e1739dac7d536cd06c2237d199cb990 CVE-2023-53151: Add .vulnerable file
-19a1c263ff9249e2a500543977057144a0c76803 CVE-2023-53173: Add .vulnerable file
-91ab4085487b6f78abfd54a130eb3ad70d4458f3 CVE-2023-53176: Add .vulnerable file
-37a658e44e71c299451b3b5c01012fb294c5ee33 CVE-2023-53182: Add .vulnerable file
-2aec5eb9821bf41e1251c9371080d6b516b99a95 CVE-2023-53183: Add .vulnerable file
-0d54ff7bb24a58d1e9162182aa463eb752fb92d3 CVE-2023-53197: Add .vulnerable file
-f1c662a16be4a32d140a398d51ed134a13af79ba CVE-2023-53209: Add .vulnerable file
-b23bfd988bfd9d0b62fd68bb49b40fbacc657243 CVE-2023-53213: Add .vulnerable file
-f932c53b583108e9c7d744044a289375adfc5849 CVE-2023-53215: Add .vulnerable file
-94b0cc504e32f5f3563a8e9386a4294acd569976 CVE-2023-53220: Add .vulnerable file
-447a25f130f398108769d39afa93bd53239a4970 CVE-2023-53222: Add .vulnerable file
-62042f7948a29efac8fbf3ba865a9332447be47e CVE-2023-53230: Add .vulnerable file
-94ab604ce4b4781a233136f7c30375abe910bf67 CVE-2023-53244: Add .vulnerable file
-15654c216f7a5b0276b79ad986f45fa196b06df9 CVE-2023-53246: Add .vulnerable file
-b0797899f3e799c6dcde4f3b15484cd7dc45f561 CVE-2023-53247: Add .vulnerable file
-e11f690f6540bbbc97513eed219a80efa027c596 CVE-2023-53254: Add .vulnerable file
-be79aa70451885ce6974991f62404428a0edeb8a CVE-2023-53257: Add .vulnerable file
-70fe958264e0ba489a868922a1812f9dc35ebad3 CVE-2023-53275: Add .vulnerable file
-544c6e3860401b8ff1cd69ad00115c86005b0ac6 CVE-2023-53276: Add .vulnerable file
-1a5617d8e219cd66cc080aa687e32551231fcee9 CVE-2023-53279: Add .vulnerable file
-89829f25755b7c1e9fe249967ab639b71b05e63d CVE-2023-53282: Add .vulnerable file
-22504932032d31be3e345e601df9a35f23fb678c CVE-2023-53285: Add .vulnerable file
-abc9fd8515721c1b88fcf241c6d130a457feee21 CVE-2023-53286: Add .vulnerable file
-a5e45651f79650fcafd91fbb75a08ee3c0c1545a CVE-2023-53288: Add .vulnerable file
-c6d2597cdb033d59a939dba7827b6dad888d3828 CVE-2023-53292: Add .vulnerable file
-ee336d064d82e48a47429f25cccbb6636120df11 CVE-2023-53295: Add .vulnerable file
-4083c1dd449888ed2f07b77983c23baac106a1f5 CVE-2023-53297: Add .vulnerable file
-acf7bda7e5d86ef2cda136461048ca89d5f2f9f6 CVE-2023-53305: Add .vulnerable file
-f187135478d318f954f8167fb5684e4f2c2eae12 CVE-2023-53309: Add .vulnerable file
-78917aabc4fb83013a7307099bf2e229a66d44dd CVE-2023-53317: Add .vulnerable file
-996f58a5ff48d5b4ac2850a7d77b3ab8ae3b0fad CVE-2023-53318: Add .vulnerable file
-3c527bec5e96637e2deecfbed708f957368f17fb CVE-2023-53321: Add .vulnerable file
-93c5f0b9b6bfb6fa64b542039fd871c6272c1038 CVE-2023-53322: Add .vulnerable file
-c63d9c4d74a7cdd656385ddb034df8a23349dd29 CVE-2023-53334: Add .vulnerable file
-7dca4904fbfd967d62160d00ca1a6fff8d325191 CVE-2023-53337: Add .vulnerable file
-e0b54607ec1796a4f801d42eadeb3bba9741235d CVE-2023-53339: Add .vulnerable file
-82610db252dabeb642ac334676ef7b888ed899f6 CVE-2023-53346: Add .vulnerable file
-a81381f0f0213e66915c2a91e1661b2e1ec32d4c CVE-2023-53359: Add .vulnerable file
-c56a0ffecb95c0430d271d20bf5751380e3c4b95 CVE-2023-53383: Add .vulnerable file
-3cccc56f1e921fab7df45ca9718be51036727c40 CVE-2023-53387: Add .vulnerable file
-617920377ce34a8792b44fc716d7fe5f8e6d8b21 CVE-2023-53390: Add .vulnerable file
-5a1513abc378f6bca1f909490410bb7abccbddf8 CVE-2023-53400: Add .vulnerable file
-4de8744a296f19ef27a6762a87ddae0aa415514e CVE-2023-53402: Add .vulnerable file
-712887123ffda5f67df0d80f2e191dfc8d4764c3 CVE-2023-53403: Add .vulnerable file
-59eeba6d2ddec43b09088ba3f5241d3a150ae787 CVE-2023-53404: Add .vulnerable file
-8088ca3fb4386993ce23595b99be817ebc13f7bb CVE-2023-53405: Add .vulnerable file
-4395e69f2c6e330220ce3f62f87e792143bf3cb4 CVE-2023-53406: Add .vulnerable file
-763ca0c268676e5e0da8e73569e4c4f39e5d02f7 CVE-2023-53407: Add .vulnerable file
-be7fc0981e077b7b8f9ac094c25eb66e5d1e72f7 CVE-2023-53408: Add .vulnerable file
-31803670c68954bdc787e23fa1c56884a305999f CVE-2023-53409: Add .vulnerable file
-9e565e9578f615eb8eef0d216b46d090cb27acea CVE-2023-53410: Add .vulnerable file
-6d578af5d070b6eba819c4819d414420d08e2764 CVE-2023-53412: Add .vulnerable file
-cf789d5c194c1a977de39839adfae9e0483a0f8f CVE-2023-53413: Add .vulnerable file
-f337aa38ad07389b57685a33a55467235cf90f2a CVE-2023-53414: Add .vulnerable file
-3b97f988109632f791619db7ce886f91a673a52f CVE-2023-53415: Add .vulnerable file
-185a66651b6c623b0b32c37ffec51ce6d4d540aa CVE-2023-53416: Add .vulnerable file
-e04df008ef083456183051c34bdeb09f697275a4 CVE-2023-53417: Add .vulnerable file
-cf0b6c8aeb38edeb25a487893429f77a332aaff1 CVE-2023-53418: Add .vulnerable file
-83397d5c34c9804634eda5a8d67ec4bee275a125 CVE-2023-53419: Add .vulnerable file
-aec396d2dcf7a3003c8f038425e70bf35d80481d CVE-2023-53425: Add .vulnerable file
-aad21fbb890c0a24140d4381f5456189b98e3c93 CVE-2023-53429: Add .vulnerable file
-5c4a1f26eaff9d7fb9d2e156fd318d72efcf7879 CVE-2023-53432: Add .vulnerable file
-8d1698ccc809735840042773913e60ba083956e3 CVE-2023-53437: Add .vulnerable file
-15370bb672bb5f2939ba00df82432efc4ae5673f CVE-2023-53438: Add .vulnerable file
-7f7507b83f3354fcc44380fd79dca6c5e2b12579 CVE-2023-53443: Add .vulnerable file
-2091bff63d8f295b072045bb0fb77c95daadfc3f CVE-2023-53450: Add .vulnerable file
-33e3a69014e830e659a4ec04e098a60722c1946f CVE-2023-53451: Add .vulnerable file
-cd0fa3d50d6f76d7995e72e93365a00ff8ec9dcf CVE-2023-53453: Add .vulnerable file
-78b4412219ee09d05f6384bbe3e0d7ea004f3cd9 CVE-2023-53457: Add .vulnerable file
-b431463e60026cb33d765e8b84c1f0aaeff38511 CVE-2023-53458: Add .vulnerable file
-24327a407eadea535f82c38e8f59f9d826e5c21d CVE-2023-53480: Add .vulnerable file
-8becddc282040c50015b0507d72d1c78028acf79 CVE-2023-53483: Add .vulnerable file
-29eae82cc71a4270a2940c8d7a90549bf47d2902 CVE-2023-53484: Add .vulnerable file
-954b795c0067bef95b9aa4b8e62936b9e7d32822 CVE-2023-53485: Add .vulnerable file
-052c9334447b416144163dd8d97dce1365529530 CVE-2023-53491: Add .vulnerable file
-d7c9c307307b0d1e5b002bcaa2938aebf1331ff6 CVE-2023-53503: Add .vulnerable file
-3ec78f10d998da4c0bf76e70cc6973bfeaeb3e6a CVE-2023-53506: Add .vulnerable file
-74cf3edc043e5329957cb34bea281cb5a83201cc CVE-2023-53513: Add .vulnerable file
-4b6015178173f7ea02cd87bca1b5e74a8a0d954a CVE-2023-53519: Add .vulnerable file
-d5ce035988b466d52a48216ea94e2ef4fd2e7508 CVE-2023-53520: Add .vulnerable file
-209ef33b8388a36ce1acc332547bc0033c710445 CVE-2023-53521: Add .vulnerable file
-4e5f8de70c6cda7303814d8bdc0afe725b2ce1be CVE-2023-53524: Add .vulnerable file
-468d9396faf57bcb07b79388ea0b07e7a55b7191 CVE-2023-53530: Add .vulnerable file
-4e43574548f5e48b2e2ba0b2800605fbfcd29ef6 CVE-2023-53535: Add .vulnerable file
-b7d5d6dee4f4d1006e0b8e6921397da5c696f06b CVE-2023-53538: Add .vulnerable file
-26442dd56c361e32de458c232cf1e8960c1bd213 CVE-2023-53540: Add .vulnerable file
-68929d26befe6d5aec44660285e1c0fe9066d58f CVE-2023-53542: Add .vulnerable file
-cdcdd76a3a27397cdace887fad427f098ffcf0bb CVE-2023-53548: Add .vulnerable file
-607a9158d5250420df2f8b5ec11188db399a6dbc CVE-2023-53564: Add .vulnerable file
-7b6614f4c0e2176388b19b51ac198cbd4ca00f55 CVE-2023-53569: Add .vulnerable file
-e3f5a708bcc37cfef2e7f64a56b5478772e2c4e4 CVE-2023-53576: Add .vulnerable file
-820bb9347ee973d0ab0e86fa9dfb3c40d93a881f CVE-2023-53582: Add .vulnerable file
-064e970a13178ad3177a3efcc0a4e15567215651 CVE-2023-53588: Add .vulnerable file
-7af88e47fa7aa2d49dc228172cc0641c7bad779f CVE-2023-53593: Add .vulnerable file
-4d08d4f525b252f54388329cd62010988595ebb8 CVE-2023-53606: Add .vulnerable file
-679aa9352c1e6ba05112f1c64c2c760b7ba8a75a CVE-2023-53608: Add .vulnerable file
-f0b5daa0bcf03f3d972444e77bdea1bafff6dc76 CVE-2023-53609: Add .vulnerable file
-4ed7ee5b21adf9a80aa2daf2d06c4c80ab5ddd10 CVE-2023-53612: Add .vulnerable file
-fd153ffbaaaff87c0161ed6cd90da333390739e6 CVE-2023-53616: Add .vulnerable file
-314b098e0069321fdba23195dc0248fb879ee767 CVE-2023-53618: Add .vulnerable file
-8cfc2256c2c16668d25a909ad2efd2523356caea CVE-2023-53622: Add .vulnerable file
-409d8768e653fdc1b99cb30364fec7dd85b17d45 CVE-2023-53644: Add .vulnerable file
-e7fd3c28746f68e9f28e80d562d428fbc4a3691e CVE-2023-53661: Add .vulnerable file
-22fe0e5ca0cae6de24fa72596f3978af811ffe84 CVE-2023-53671: Add .vulnerable file
-eaeb32902aed973e72d555f05ead2960b287e362 CVE-2023-53672: Add .vulnerable file
-70cb48204c3fa326c46649acbc2d33bb35377bb7 CVE-2023-53675: Add .vulnerable file
-8c1e8fb2cf79a312aeca18867b13a93802da8d69 CVE-2023-53676: Add .vulnerable file
-f2ec2c5bf1d9aa016f1d6f4b2de291418792eba9 CVE-2023-53679: Add .vulnerable file
-8eefc7c8cbd0c0fa122cabd1c9585b635cfe5325 CVE-2023-53682: Add .vulnerable file
-868fed99921fe96e46319108b18426d0dbada058 CVE-2023-53684: Add .vulnerable file
-757826db0e7dd76878f98f801695357957c583d5 CVE-2023-53695: Add .vulnerable file
-54545049f5b5d43b3ef38b9bb2e51d48dd89ffb9 CVE-2023-53708: Add .vulnerable file
-735441b6ea9efc1dce2b9826060c9bcda75b5cac CVE-2023-53712: Add .vulnerable file
-f0f77de4128cf660efebe3d78da945e543692ea9 CVE-2023-53714: Add .vulnerable file
-3def36a67a85588523aea84fbb90ff2863a6ef1a CVE-2023-53715: Add .vulnerable file
-99a6c49262eaf21ce85b5b262b4475d67c0b46b1 CVE-2023-53718: Add .vulnerable file
-25acacff2e63dcbddae2d67696fc5aab45c843d4 CVE-2023-53722: Add .vulnerable file
-6e384b3e02b696d034ce9419970c8cf2cea125b7 CVE-2023-53728: Add .vulnerable file
-e2ae2ce51db84b4d5ba4448325c6ebecc7a5ec81 CVE-2023-53742: Add .vulnerable file
-6093fa1e2127dfa0e8b9234f029de51dbf41e510 CVE-2023-53748: Add .vulnerable file
-2a727e7cd1b1966f6f9669179cbc61438701cb50 CVE-2023-53751: Add .vulnerable file
-cd2c97638a7c81181ba2649aa79a852f809d808b CVE-2023-53761: Add .vulnerable file
-307f0b46975ad8dd5a6a0d36c5904a325abc8574 CVE-2023-53765: Add .vulnerable file
-8f08380fcf07c879e7fc5a6739d57ef701a82bfa CVE-2023-53766: Add .vulnerable file
-ab7338999bcd14cfbe5b78783516ff8865d543f8 CVE-2023-53779: Add .vulnerable file
-4f94f14d9583e0f40d44b7369f7e0bbf650c2d23 CVE-2023-53786: Add .vulnerable file
-43b4bdac7bd884b6dd4c4eb1209e15e89fb4dd98 CVE-2023-53788: Add .vulnerable file
-a1949080b63eac23f245542c8d12eb77b39ffd81 CVE-2023-53789: Add .vulnerable file
-b49904ec184d931a28c318449fd5dabcaed37e40 CVE-2023-53794: Add .vulnerable file
-808ab1c8db90d53b6178778d3ace6b79c476853f CVE-2023-53803: Add .vulnerable file
-f3cb672fc9cb4fcd4795ff012491ac52924df730 CVE-2023-53804: Add .vulnerable file
-70ed9c2343e49632be3c5875ec4c3bc7e28188df CVE-2023-53817: Add .vulnerable file
-3472e5ce3ce5c0b41464d35ddea66d199ff0dd85 CVE-2023-53827: Add .vulnerable file
-7f54506704ee6b477111203d8d11d30a93abb8cc CVE-2023-53841: Add .vulnerable file
-45354bd9af2cff206e578064dd4d2fcf656d839e CVE-2023-53845: Add .vulnerable file
-ba9b0a0523ec9768c15075fa31ceef2024f3f6e7 CVE-2023-53859: Add .vulnerable file
-e955a77998e5db2109e01cad3c585456575f469a CVE-2023-53862: Add .vulnerable file
-91431d8ffafe73d476705882f9fbc5511fdb0413 CVE-2023-53866: Add .vulnerable file
-0a72e8c8fc26591b0b20a1c7f3f4d9d654a26b9a CVE-2023-53867: Add .vulnerable file
-5099f7b30271ace61c288c72677b1c09657773a7 CVE-2023-53989: Add .vulnerable file
-b8d3d21486edd2cd8317ff41cda770cb46c2d968 CVE-2023-53992: Add .vulnerable file
-d88aaeed0e1c02595f1dbf792eb0a5bd66920d61 CVE-2023-54002: Add .vulnerable file
-880aecf02aef1c7d94f1c49f8b6b6aa551a93d34 CVE-2023-54010: Add .vulnerable file
-fbff64fd55751f30733c8d5ae108476d408f5d1c CVE-2023-54013: Add .vulnerable file
-a536ead3e398dc474b2395ce053841f8fac3330b CVE-2023-54014: Add .vulnerable file
-40383c348ebf698c5a09819e7da0b8b21252aa25 CVE-2023-54016: Add .vulnerable file
-3a1617f5a7e77eda6784f6b7a56c2253681b72cd CVE-2023-54017: Add .vulnerable file
-1505444829568c703dc22d729af4bfceff9cf71a CVE-2023-54021: Add .vulnerable file
-2dd6622c41d81cd467751f9ff13d4ff2ef16afe2 CVE-2023-54023: Add .vulnerable file
-9cdd93edaeb2674f61a848d5599d198ae8e49ea6 CVE-2023-54029: Add .vulnerable file
-2fe3af3316de891633c9d51ad9f09682dbf50807 CVE-2023-54047: Add .vulnerable file
-d2e230870300a4ac2ebf7d18a19d8343b341bbb8 CVE-2023-54054: Add .vulnerable file
-1fd6d570bb7776644448fc9f54f05e51ec51e497 CVE-2023-54062: Add .vulnerable file
-970d9108cca65235fcaeecaed31f316632ac9ba1 CVE-2023-54066: Add .vulnerable file
-4bf33e5037c193b75cc314e2c927e469cd3122e5 CVE-2023-54072: Add .vulnerable file
-0f50cebd2f1dbc5c41056ef8ae65bae7c11c2681 CVE-2023-54081: Add .vulnerable file
-7e5a892362556b4fefb5ad2fcd86ce9b0d588185 CVE-2023-54086: Add .vulnerable file
-dc2c8e38d776f18a236432a07c30dc897206b7a5 CVE-2023-54093: Add .vulnerable file
-0eed1c8366b6d7872b3e0232ca645d5bf3725543 CVE-2023-54099: Add .vulnerable file
-4cfa2f29e52c3e3465b35d41c619726407ce1cd5 CVE-2023-54102: Add .vulnerable file
-b40a1c8125d6d9a3fed9d17be1627cf3f1e24366 CVE-2023-54105: Add .vulnerable file
-b47d3f9440db93ad4ca433caf227d7cd93d227d1 CVE-2023-54107: Add .vulnerable file
-0da3561d6b99b1158fea997a32425d9bbbb14bb1 CVE-2023-54115: Add .vulnerable file
-cc2dc2e8dc5b7c747cd5420eb80ff27e1ad927e4 CVE-2023-54118: Add .vulnerable file
-0a8dea5852fab4986d14657177cf9f814a27cff1 CVE-2023-54120: Add .vulnerable file
-9e1c170aaa25a29d4c07cc0d1cc5c48a601f6c7a CVE-2023-54124: Add .vulnerable file
-317f3f32ba6eba030eda53baee842073af963278 CVE-2023-54125: Add .vulnerable file
-dd99b788b5ce57ebae573c0ab73a29919326694b CVE-2023-54127: Add .vulnerable file
-80bccec5a809564c4f51180056c85f21a46ea541 CVE-2023-54134: Add .vulnerable file
-640d80b2fe755a0623343988bb276e6c272c5c46 CVE-2023-54145: Add .vulnerable file
-eac916f2686ebe9f5d38b54c0a1a9c17e6ba5f58 CVE-2023-54150: Add .vulnerable file
-969904b500d3e70cfd68af7f1983c9b966adbe6f CVE-2023-54151: Add .vulnerable file
-340ddac78de5425270d1c0e3a204cca522566038 CVE-2023-54158: Add .vulnerable file
-9f127df66e82784ec568d309118329264892c5f4 CVE-2023-54160: Add .vulnerable file
-106fc63be8b4770e8552a4244b9993d66cf3e346 CVE-2023-7324: Add .vulnerable file
-8456c43e0e86f1520f78dbd7ef8ee9500c62b869 CVE-2023-53395: Add .vulnerable file
-fda3d40dbba08fae20f14c1a9a731d2a74cf0d78 CVE-2023-53620: Add .vulnerable file
-f65246096b6d4103778627ddcad72d25269ff74c CVE-2023-54053: Add .vulnerable file
-8263e403fd80475a65b2b1a75c8400c8ae977506 CVE-2024-26644: Add .vulnerable file
-829ded6d6e6977d335a5c481f051e35a44e70102 CVE-2024-26659: Add .vulnerable file
-6ed13666443e20f8e4258157171e7a06675e6faf CVE-2024-26671: Add .vulnerable file
-5e5cee69e4494d9e349e5fb07248c03cebbcf933 CVE-2024-26686: Add .vulnerable file
-29775d6a3c7b142492602fb701fae0fe3a893e5d CVE-2024-26697: Add .vulnerable file
-164d2092f36dc871f67cad162ca2cc73936de06a CVE-2024-26706: Add .vulnerable file
-fff4fc96ddf52640491917dfeabfe8bfa4570216 CVE-2024-26719: Add .vulnerable file
-c8f581666d9cdd2131a75740de02b157e198fc07 CVE-2024-26726: Add .vulnerable file
-d4a5779d0647a34a367021a3c9c0aadc6a8bdf72 CVE-2024-26763: Add .vulnerable file
-281341872641d6a3136ff817127922d2b508faa3 CVE-2024-26764: Add .vulnerable file
-466cf1199c79c6daf02ce93b906f5f72f1075811 CVE-2024-26771: Add .vulnerable file
-94907fcc0123f2c71e11a858d5f89388aec77fc4 CVE-2024-26772: Add .vulnerable file
-1cd0f7e2de6bf4ea14b899dffbc3085c105d32c4 CVE-2024-26773: Add .vulnerable file
-8aefc37727194fdfcad970cf553fec19ce2c4875 CVE-2024-26775: Add .vulnerable file
-b0f0862c1e46fa8c32cf3a79f59dfd4c8750ac6d CVE-2024-26777: Add .vulnerable file
-3487da7fc492890cceb8830bf1c5292d3555b7d6 CVE-2024-26778: Add .vulnerable file
-9ac1ef7ba470f7aefd56e69f4fe1922054a720f5 CVE-2024-26779: Add .vulnerable file
-5dcd07e621df5f9733774e0fd232579bb69005d9 CVE-2024-26791: Add .vulnerable file
-8900d65c6f68cc5e657bfa9fd2409151fb863f79 CVE-2024-26842: Add .vulnerable file
-892ef4db44140a2d28982c2eb3f0349afe8635e2 CVE-2024-26844: Add .vulnerable file
-343471f27ffbc26d25370b8f025e546b8332a2c0 CVE-2024-26845: Add .vulnerable file
-7f7caf25e1fc83b7dca509927f5e2976a5bfb8bd CVE-2024-26846: Add .vulnerable file
-d808133482330ee08fefe94b5849c7d788520f2f CVE-2024-26878: Add .vulnerable file
-b238fdd939e6beab35c291b9e955753f6d6482ce CVE-2024-26903: Add .vulnerable file
-7ef6f9de9fafe9e955942d07e060ab9f818d4d18 CVE-2024-26906: Add .vulnerable file
-5def44b13e964f218c2f0941529ee4788111dd6c CVE-2024-26907: Add .vulnerable file
-0ebf259e9655a78386decf3c9159390954158c18 CVE-2024-26928: Add .vulnerable file
-d214f391042cf52db9dc30bc6b90859375e847fd CVE-2024-26930: Add .vulnerable file
-1c2afadf80a8fcc63d96e9ce0be67758faf6a021 CVE-2024-26931: Add .vulnerable file
-e3eac9bb444cd6937c127c49f5a82e2787fdcfde CVE-2024-26938: Add .vulnerable file
-860153e80c1b81ea913f34331fa82e60b95047da CVE-2024-26957: Add .vulnerable file
-0aa5b76bd547ea94ef712d44cb6015f56d40d08d CVE-2024-26962: Add .vulnerable file
-0135f820c26bfac17b9251d44ccca333e8201d30 CVE-2024-26982: Add .vulnerable file
-32ab7351d3fffb8362f2497b895470cdd0c008fc CVE-2024-26996: Add .vulnerable file
-7401d8a33bd1e31e73e10bbe37f4f5d227fcbf3a CVE-2024-27056: Add .vulnerable file
-9fcff02ab3756408889913c1b62d081a540c7db9 CVE-2024-27062: Add .vulnerable file
-78edeaa717cec70b493d585f72a9e9aaf6a80499 CVE-2024-27401: Add .vulnerable file
-3af74adeab924f2547407a7f448aab210dfde578 CVE-2024-35784: Add .vulnerable file
-ff055eb7cc24230e8ad66119c055d74630b9eab6 CVE-2024-35803: Add .vulnerable file
-c63042f01f1eeed0d5aa7ba7d19e5d3fc2bbf1c4 CVE-2024-35805: Add .vulnerable file
-39179134d7b197d3784de0be16b510f1a8468acd CVE-2024-35809: Add .vulnerable file
-767a87c496fb944177c3bd7194f83e9d939c9942 CVE-2024-35822: Add .vulnerable file
-8d6fafafa633a3780052f1692464fcf1032cdccf CVE-2024-35843: Add .vulnerable file
-e54b7b69d80f1a6d8e58cc1f9190e755613a2950 CVE-2024-35849: Add .vulnerable file
-1338ce0e87cc9dc226ba12fb606f1cf5d74c1905 CVE-2024-35861: Add .vulnerable file
-6a8b15179d0242ffb4e84610657a804692445e71 CVE-2024-35862: Add .vulnerable file
-7c5ef4b383b24eeb6c55250ca402606841bae772 CVE-2024-35863: Add .vulnerable file
-d956f8874532e8b8c1a21cd17870f517fcd22cc3 CVE-2024-35865: Add .vulnerable file
-2238e5de9c0e85c11a0a76c194ff64d145b590ff CVE-2024-35866: Add .vulnerable file
-ceaee3077ea0c53a43ab7cffd6f518aac9eb7bba CVE-2024-35867: Add .vulnerable file
-f110844f2691365b640d03013e18010cb9f25cd5 CVE-2024-35868: Add .vulnerable file
-380c9f5907aa02d1fd7e427bea9f4ba95ffa8d52 CVE-2024-35869: Add .vulnerable file
-898b0dc52ad3e1ab5622a4095aab57ddee901ce4 CVE-2024-35870: Add .vulnerable file
-220bfb406c0ec9807f597ecebe55c0d1499f6e83 CVE-2024-35875: Add .vulnerable file
-51bf9456334d1ffa0625535906fc030a67f04b3d CVE-2024-35878: Add .vulnerable file
-307383e0ce81f3ea2e66ecb9a588445f5aec6388 CVE-2024-35922: Add .vulnerable file
-ec83b484df87ddf0b242f339f6c0a4e185bea3c4 CVE-2024-35925: Add .vulnerable file
-5e8532d05ae9ebd795f5e720865dab9860a616f9 CVE-2024-35932: Add .vulnerable file
-36623cbc7c5988507fc2e8f4d4a3e2e736a8c9a2 CVE-2024-35933: Add .vulnerable file
-63caecca1ff5163f32c8b8fdf8cab1569bc54577 CVE-2024-35934: Add .vulnerable file
-46af727d4114246f1a257613dc3ac35e9351f230 CVE-2024-35935: Add .vulnerable file
-19e4ff20b8db32b23837984d0d7ec7e55231d29e CVE-2024-35936: Add .vulnerable file
-8a09afe2567504392ac256616c4a16fcf8c84bf5 CVE-2024-35939: Add .vulnerable file
-964104b1aa47cb4c5400a8bc286008a3462ff3c4 CVE-2024-35940: Add .vulnerable file
-fb5ab61808f062b868bbde75542cf7b8c5089a4e CVE-2024-35943: Add .vulnerable file
-0189c71b5fa82c506d76aabb3363f0edba62b2c4 CVE-2024-35944: Add .vulnerable file
-366b24dd51c4abb56842edd587f8a8ee980591bb CVE-2024-35947: Add .vulnerable file
-bc2565c4310cf810436afbee965e9f276a5145f6 CVE-2024-35949: Add .vulnerable file
-7c1a59716d80a57f7045036fa23895070c9ec2b9 CVE-2024-35950: Add .vulnerable file
-1ed01bf34a03c4613b37929d1a7df80fb674892a CVE-2024-35995: Add .vulnerable file
-41cc8f929646dff3dbca5bc937848dd95be1d6c6 CVE-2024-35998: Add .vulnerable file
-8d4aaab075e1cf8bb5d2d719a537d3db26c457f8 CVE-2024-35999: Add .vulnerable file
-602e362c343469a80345b307cffe00b7bf3b909c CVE-2024-36909: Add .vulnerable file
-fb6bf211894301f406a8d397a58952a3df7b4243 CVE-2024-36910: Add .vulnerable file
-20d56f7728a74292971b665273c0a3e13e8a7601 CVE-2024-36911: Add .vulnerable file
-27388c1423c3acdb19c451696acb18e9b0baaaed CVE-2024-36915: Add .vulnerable file
-1cd623c41d0a1a887c998e9f2388dbe4253088cc CVE-2024-36919: Add .vulnerable file
-a356f366f7a5b1d66f4aae1a8a076ac805d2e04c CVE-2024-36922: Add .vulnerable file
-b2ae5b75343803fa4f2c5a339dcdbfa15fdbd6c9 CVE-2024-36923: Add .vulnerable file
-1e6e7f852553e998cc06f2e7b4bc1d0f00c4a2ed CVE-2024-36924: Add .vulnerable file
-3bd886068a3ea30ce0224400a6c7fb1e4df2f256 CVE-2024-36944: Add .vulnerable file
-8c887f41c69e06a7eef9d05964e777575c05677a CVE-2024-36950: Add .vulnerable file
-969eae7280cfed1e68abad00011d5047481781a0 CVE-2024-36952: Add .vulnerable file
-cf924b7d4b73e63d2c1b3fe4be00f2428942c6b4 CVE-2024-36964: Add .vulnerable file
-29a97491a8ccb63af49a64b733435c5f4fb5b951 CVE-2024-37354: Add .vulnerable file
-49b4b3b210aebbdcd0d4d06bc82011546ff7c324 CVE-2024-38580: Add .vulnerable file
-827b297745263c0eec94fe0b188041b63e68005a CVE-2024-38582: Add .vulnerable file
-3f791e48479cdfcbb67ca420f93e9682c5a8edc9 CVE-2024-38618: Add .vulnerable file
-ed2f77b39c18801bd7ef744640af03490a949320 CVE-2024-38661: Add .vulnerable file
-de22356e6b4d45312b98912fbbef26ec67962309 CVE-2024-39293: Add .vulnerable file
-79729ad319cfe90d6635d98a725f3a125d5e3daa CVE-2024-39479: Add .vulnerable file
-4de8090d73a37343edf757ef632d81d61b7681cf CVE-2024-39480: Add .vulnerable file
-b9fa08060e64648270bcdf0a2bb96fd2c076ef49 CVE-2024-39495: Add .vulnerable file
-5f9b9a919ed34a786f2e0d547cb6ca38e94e1cbf CVE-2024-40902: Add .vulnerable file
-100401eddd3a960767dd9f3c35eec19c21c2d989 CVE-2024-40918: Add .vulnerable file
-41071979e39f7b1634b14f66b7851b08a52d166c CVE-2024-40932: Add .vulnerable file
-24d77ebbfc96f9baafae4e16c55a8a0b879079fd CVE-2024-40965: Add .vulnerable file
-f4aac44b57e14dc5350a077afa7788340272177f CVE-2024-40966: Add .vulnerable file
-7e85f08d764f3ed8cda34a023180d02f03d88550 CVE-2024-40967: Add .vulnerable file
-6768e260438639c5b97e84d1d506ef312b0d8bea CVE-2024-40968: Add .vulnerable file
-4408b661bfb9dccec8b2cadbe16fd7d1df1a3938 CVE-2024-40970: Add .vulnerable file
-e8b8d43d80b089812819ea6a38d97ed301298c50 CVE-2024-40972: Add .vulnerable file
-e21c6da1843cfd8f1a3d7e0de2b206d2e5005d0d CVE-2024-40974: Add .vulnerable file
-6a759b0f463e323e8e6827244cb2c54a543080b7 CVE-2024-40978: Add .vulnerable file
-edbb0d3c58a7cac34146343a1e4d42656ce3cedf CVE-2024-40981: Add .vulnerable file
-b682b0cef69b459de7790a8393985de54e46d051 CVE-2024-40987: Add .vulnerable file
-6b02c6f22cd82f0452bd9c5aa76c39471dd9ad2b CVE-2024-40988: Add .vulnerable file
-7e545e580f25ae3dc62b2f15fd3b436f1ffc46af CVE-2024-40998: Add .vulnerable file
-d90f732357649584ffb92c1bc2a9c74805f78ced CVE-2024-41000: Add .vulnerable file
-a887a3a9e0de71864f280392d4fbf81495d1fa27 CVE-2024-41005: Add .vulnerable file
-0dd770349e06325cc6524c3d7fc1def283ede616 CVE-2024-41013: Add .vulnerable file
-661cf13e3ec42ed0dbc18ba38faa73d7be0de3e9 CVE-2024-41014: Add .vulnerable file
-b98ac9822a1b611db6490df9fb6a0088891555f6 CVE-2024-41015: Add .vulnerable file
-6b2340d127ce294fb84acd794a07ac135c39b80a CVE-2024-41016: Add .vulnerable file
-dbfe3bc45b01b71947af12ccf690235cf257d94d CVE-2024-41017: Add .vulnerable file
-f010dc7302fe876c7680713c2a9ea4865aa214c0 CVE-2024-41060: Add .vulnerable file
-6986a30ecc6c061f71d0eb6c6c3fc5c39a2682d2 CVE-2024-41062: Add .vulnerable file
-1cf1c5496f7e0c2dd68fe28aa188ca982d1d3433 CVE-2024-41063: Add .vulnerable file
-ffebedded876cfc2485297e5e20ab7dc793b32f4 CVE-2024-41065: Add .vulnerable file
-cf2999eb859e9ee34ce3f332f5a40fbaf2085a43 CVE-2024-41066: Add .vulnerable file
-302f3510097fe6b1f152ef82ad91d483340dcaca CVE-2024-41067: Add .vulnerable file
-be74d8ad23ccf0518d47e75e51f1f06bc78e10e4 CVE-2024-41068: Add .vulnerable file
-8ef72fb012918190219edbdcf26fa0536d47288f CVE-2024-41069: Add .vulnerable file
-de28f3a7734a0eb379ffb9af3b34766ced214baa CVE-2024-41072: Add .vulnerable file
-4ef3d16cabd683c91f1994ae92a9ea9f5291631d CVE-2024-41073: Add .vulnerable file
-f012d6a5570d81a10fe1f9243d98a39e924eaf54 CVE-2024-41076: Add .vulnerable file
-9ef683f5c84dd153ce8dce7db6b232c1891c8246 CVE-2024-41077: Add .vulnerable file
-42752a0f5fc4579992333a7391f364cfb249a956 CVE-2024-41078: Add .vulnerable file
-011ae5407b8dfc0cce8d2550c12a09819991de0a CVE-2024-41082: Add .vulnerable file
-15b696a55d235bb4ec9bf50300f768d6842534f6 CVE-2024-41089: Add .vulnerable file
-8b440ef36048ae6e801fabbf19f57bedbbf6bdf1 CVE-2024-41095: Add .vulnerable file
-295ef62fd34bd035d7589848b112f51ef44f0fac CVE-2024-42063: Add .vulnerable file
-1f2da36cb706cd091cec4c44b2227b9ad518855c CVE-2024-42067: Add .vulnerable file
-6be8e8a11661c04bac7495d370cf43ec1a265111 CVE-2024-42068: Add .vulnerable file
-803047df650c7112f2dc7254f9c1b13440a4b4cc CVE-2024-42079: Add .vulnerable file
-d69d38df514297370721f0227336ada45f196385 CVE-2024-42080: Add .vulnerable file
-645b547da1155d11cd8101077751f3f98e65ed05 CVE-2024-42087: Add .vulnerable file
-53c6021511193a4b20b29be3194808486abc8705 CVE-2024-42094: Add .vulnerable file
-d90d37326bb245b2b1af7c9fab4869f2dd19a62f CVE-2024-42097: Add .vulnerable file
-6046d3d922c2b0c4e6154bdc1ac1dc78aaaaf94d CVE-2024-42098: Add .vulnerable file
-4f54a175b598585f0a529a1faf96819d04ff9fef CVE-2024-42104: Add .vulnerable file
-f932e0d09bb26ecf6cf52e2a02e0479eecfcc007 CVE-2024-42105: Add .vulnerable file
-e8e67236805ed7963deaa2837357f3745d74f280 CVE-2024-42115: Add .vulnerable file
-565bc04eb5c5063f5eae9daad3731571e181baf4 CVE-2024-42129: Add .vulnerable file
-ab01ce54017263ae9e05bc15e302e8226a6f98be CVE-2024-42131: Add .vulnerable file
-7e5c5bef8de7714c686a3a018c797cb54b977370 CVE-2024-42135: Add .vulnerable file
-d53d1e046dfef3b30620dbf1ec4ed0da9bdd959b CVE-2024-42145: Add .vulnerable file
-4b0f65f6279c45e7bfbaa43492093053ce116508 CVE-2024-42229: Add .vulnerable file
-49e2b3bddb4fed4f1db39bb6c64a04550751c420 CVE-2024-42232: Add .vulnerable file
-7c9ddf7e75730753c47f045afc3f0a7c01d2efb0 CVE-2024-42236: Add .vulnerable file
-ee8b1fc5904439541d4da9151150cfa893002b2f CVE-2024-42252: Add .vulnerable file
-3c0ca265879ae967473acd78f7b24ff7f187e332 CVE-2024-42253: Add .vulnerable file
-ceebdd5cde335bd58bcfbd3588d4d63e19877619 CVE-2024-42265: Add .vulnerable file
-8dc7215c5ffbe5e00ebd8ecf5c5055187b07edd4 CVE-2024-42286: Add .vulnerable file
-44315a55c28523ae4f44f3a76cfb987bb3408c87 CVE-2024-42288: Add .vulnerable file
-06648a49b0bcfcef68c71d063c5cb18b233a91e2 CVE-2024-42289: Add .vulnerable file
-a22d1dd00e97b7b4de11ceb307d7cbd2ae57e5bd CVE-2024-42301: Add .vulnerable file
-8a382178e35e3b90333d4b70b0517b8a0d2cfe4f CVE-2024-43882: Add .vulnerable file
-3f6c515f171560acb0065a1800776654c2370d65 CVE-2024-43883: Add .vulnerable file
-0ff87633ba3ac50fb59303436c8914a10f14131a CVE-2024-43893: Add .vulnerable file
-62c8c230c127f60b9738dfd26fdf3ea4e0cd588b CVE-2024-43900: Add .vulnerable file
-3257c57e7bed01eaf33c34af85f7399ed62ae881 CVE-2024-43905: Add .vulnerable file
-b57fdc95eec24d2463700d5e7f7022109a288af4 CVE-2024-43907: Add .vulnerable file
-05aa9f2408ecabdaac331bbf0201e3f3f4f61f3f CVE-2024-43912: Add .vulnerable file
-9cb99a5444edff7b510733bb5fe5a6e7d87c0a6a CVE-2024-43914: Add .vulnerable file
-e998ce8ef1a43c52d728256c0e15885c350f593e CVE-2024-44931: Add .vulnerable file
-a27736a2206ec96fafe087b238093cfbc99a0c1e CVE-2024-44939: Add .vulnerable file
-80f243312529668af19678f8b9dfa637a4e928e0 CVE-2024-44940: Add .vulnerable file
-9ecff6450e9e7ff8d92408b2873d0e2cfff556ae CVE-2024-44949: Add .vulnerable file
-a12055586d3611b486421dc407a984d87e6a3cde CVE-2024-44954: Add .vulnerable file
-18c28b34ce4fbad143ef03b3edc5b05bc1cfe180 CVE-2024-44957: Add .vulnerable file
-402106def72ca9b68525f13f5de12ba76c2195cb CVE-2024-44963: Add .vulnerable file
-8b051789bf8e9fd2a8011f4191becff6f0b74c87 CVE-2024-44969: Add .vulnerable file
-ef2bfa2d2b830c2692831f1f06a3de86f24b7a0d CVE-2024-44972: Add .vulnerable file
-a29da4c74528eea35209c64f91ee5253ae551467 CVE-2024-45008: Add .vulnerable file
-9d76e743840a015871861332c172739c974ff4aa CVE-2024-46675: Add .vulnerable file
-118ae7cb7d9aa3afb36041e111fe333f5a941313 CVE-2024-46715: Add .vulnerable file
-817287d7460c26b9922443c790f1f2ef013d2062 CVE-2024-46716: Add .vulnerable file
-0046430b4b76f83c0a043b9b0722440abe272066 CVE-2024-46717: Add .vulnerable file
-d907572a86bedf58e13fd0ffcb43f429a88f173d CVE-2024-46719: Add .vulnerable file
-4c2755765235c5f3e96cf238cbc89112047facd7 CVE-2024-46721: Add .vulnerable file
-34a26299b26c0056c42ad7739e79cd4cc332d122 CVE-2024-46731: Add .vulnerable file
-e09d091c1985c3cff2529306540c664ad42c32f5 CVE-2024-46733: Add .vulnerable file
-032303b6bb255804ec4d9e81b8667c70399f75c3 CVE-2024-46743: Add .vulnerable file
-60916c6666a81b89696a0e0c28f08edd24fbf3ec CVE-2024-46744: Add .vulnerable file
-7c00c1f77a10e9cd51beb0312e5e254725d5aef6 CVE-2024-46745: Add .vulnerable file
-60302e4311a656f2402bb80145960ca437f76602 CVE-2024-46747: Add .vulnerable file
-88b97092909955e469e7de01b84824e7aa027edb CVE-2024-46750: Add .vulnerable file
-45ca779498947eda77128676802789d36c92cf59 CVE-2024-46751: Add .vulnerable file
-124007017df33e884eeab4eac7ee53d66d6b7e23 CVE-2024-46752: Add .vulnerable file
-065844b1ea17eddc4b0f04a8a1ad0b999bcbb529 CVE-2024-46753: Add .vulnerable file
-d1e9f2b94c125cc0a752b5ddde14ae3269852a16 CVE-2024-46755: Add .vulnerable file
-010df81c18e2638ffd5b5dc9ffe007b3778b9946 CVE-2024-46759: Add .vulnerable file
-ff3ddf2bbf556f06bf4d176eac2abe8628f94410 CVE-2024-46761: Add .vulnerable file
-11f6ad7a069645926ada9d1ecf993a3c6646f283 CVE-2024-46774: Add .vulnerable file
-4aceda7318b217a05129279d2695d1747f653d9a CVE-2024-46777: Add .vulnerable file
-eddfd53f271be3c1d81d283ee3326b0c5fce86b8 CVE-2024-46810: Add .vulnerable file
-2d02ddaa0bb7d411aa47ed06b9da0bb99d778e44 CVE-2024-46821: Add .vulnerable file
-0b622180eddf6b5d07f9606b38d40984944ff8aa CVE-2024-46823: Add .vulnerable file
-cae8a20d82411a48adc95580070450198c504f08 CVE-2024-46825: Add .vulnerable file
-18e67fad33af8b5a3c7e1a37e488160f6fcc0588 CVE-2024-46826: Add .vulnerable file
-3f0ca8f685a2e09d19f1064ba7e5b8d3bfd629d6 CVE-2024-46832: Add .vulnerable file
-8feac9892181083ea3870da6ada515cb7837e4b3 CVE-2024-46834: Add .vulnerable file
-6a052e73fa2b2a7ef69b6bb5e86b1bda08a46f5d CVE-2024-46840: Add .vulnerable file
-c9430834eb9c173d008a8d0f1de3d5522808efab CVE-2024-46841: Add .vulnerable file
-677b4b06a7fdd25477e53c2109801eff85b22887 CVE-2024-46842: Add .vulnerable file
-d1c32765844608775cf9a916eeb3e0a625d89ace CVE-2024-46844: Add .vulnerable file
-dd429ce26dc7f5d6e7dbb0a1b1caaca24cd78d0a CVE-2024-47141: Add .vulnerable file
-d2457bd0554fcd46386587373d36be56f83a50aa CVE-2024-47143: Add .vulnerable file
-098e95bbbe308dda9fd40d0688add278b464fbc9 CVE-2024-47658: Add .vulnerable file
-160e7985e4e6406b2535878ad7b9b32ddb8abcf7 CVE-2024-47659: Add .vulnerable file
-8b3fd7fdb38af220b74037d7413ad1bc10ff67f9 CVE-2024-47660: Add .vulnerable file
-58a8c7a436e0bf383b7c0d1e71cf89a60b475ac2 CVE-2024-47666: Add .vulnerable file
-08a85af972e32b1908221f84e23934a5f7a997a0 CVE-2024-47667: Add .vulnerable file
-f613addf172f382eafd9c6f90be3df1fe849949d CVE-2024-47668: Add .vulnerable file
-8b3aa0bc71b5c65cec8b7d15fc025436e84495ad CVE-2024-47670: Add .vulnerable file
-5447f06ded852a93055e9798c56ec770318423ea CVE-2024-47672: Add .vulnerable file
-35ee9c500a8882ffe8aba9cddbf238dba4f7945e CVE-2024-47673: Add .vulnerable file
-95bd87fad39173685dd21299f4c6b3bb6c9e43d5 CVE-2024-47674: Add .vulnerable file
-c1d95abf2f78d66f3a78aa2a620a3c9f5763f967 CVE-2024-47745: Add .vulnerable file
-fb67dac045cdb474333d9b1e242c624bec2a5548 CVE-2024-47809: Add .vulnerable file
-8df4ebe09f1e963563c0b5fcaad6873fba7fe84e CVE-2024-48875: Add .vulnerable file
-67d2420fc89da0cc6584963ceaf2818ed750e5d1 CVE-2024-49858: Add .vulnerable file
-4a384ce20e8cd9b9d8e5c1503f21153a1529399a CVE-2024-49867: Add .vulnerable file
-c6991eb63848dbc1ba577d3abd18552972c64719 CVE-2024-49868: Add .vulnerable file
-a0f4468040a7bb16f53ed390d6a66ef994376e7c CVE-2024-49875: Add .vulnerable file
-c12b48084645ccc6be1014d1e9147a7a62031a49 CVE-2024-49889: Add .vulnerable file
-a1bcce16839b48ee9dc5b886656ab77b6a910d69 CVE-2024-49891: Add .vulnerable file
-0b050c7782bbce3d4b642cd8b931d5b25715f2e4 CVE-2024-49900: Add .vulnerable file
-11809010064f682040500685982b97a526e82790 CVE-2024-49902: Add .vulnerable file
-5389841bd6838109b4701a3063424220ae49c0d0 CVE-2024-49903: Add .vulnerable file
-c9ad2b15bb6b3ca4fb1533a462ea8d412a1588fd CVE-2024-49924: Add .vulnerable file
-7bc8a32596f235469db129e5516d08a4d1ad4b9f CVE-2024-49926: Add .vulnerable file
-a9c77e470bf867160839abf4c3d00a1298c52cb4 CVE-2024-49927: Add .vulnerable file
-1158aa5fb3379e1b67419852950e1363a35ea43d CVE-2024-49932: Add .vulnerable file
-bba720d47c798c96191920b8854a32a89068bfc6 CVE-2024-49934: Add .vulnerable file
-2e200a33c8366bec7f7305ee25aab093c07af8b0 CVE-2024-49935: Add .vulnerable file
-b08c88cc043b16b7a97618deccace1852711f8bc CVE-2024-49937: Add .vulnerable file
-e390ec6df3813687a7a5335508a5f231c20cda10 CVE-2024-49938: Add .vulnerable file
-fa67879527c72b91d01cb78ca3859cbc0930a663 CVE-2024-49940: Add .vulnerable file
-52dac6862f510d18aaa073c046c5e5927242aa50 CVE-2024-49968: Add .vulnerable file
-4d8ad3603b3915b3ac2464a4a67ab89e5f2f5a1a CVE-2024-49992: Add .vulnerable file
-1da18abd95f24f864f121199af865a6179025fd0 CVE-2024-50006: Add .vulnerable file
-95a62f83dc2bfef542c2c5a500a9497143ef14ad CVE-2024-50007: Add .vulnerable file
-81737fd317784b01a60a746c1ae76e62e8bece8d CVE-2024-50008: Add .vulnerable file
-ab1da8242514de45c6b2ba6f0b1d604e11ca05e5 CVE-2024-50010: Add .vulnerable file
-dfbfc685423826d4497a0343910c259553978e92 CVE-2024-50014: Add .vulnerable file
-b1a0bc388224ff4e6cf8396758aad0dd0de349ef CVE-2024-50017: Add .vulnerable file
-4392c14ab8d506f631da710363798300c16da9c9 CVE-2024-50047: Add .vulnerable file
-c852081b01299610f19e6355902d0f6f4a6f77ab CVE-2024-50055: Add .vulnerable file
-2fc4c0b84f5f0f540215bc979f6f939254142ce6 CVE-2024-50056: Add .vulnerable file
-33478cec43845d8d9a2f1fd0106550844518a278 CVE-2024-50058: Add .vulnerable file
-dc3ff9475c246ca0da3179cc92b06025dd4d5531 CVE-2024-50059: Add .vulnerable file
-591071b20f31d54d5c5b828043a77bd34a57d62e CVE-2024-50062: Add .vulnerable file
-7ce074e3bbc99080afa0199f49770ae312ebb867 CVE-2024-50073: Add .vulnerable file
-a69d60ff88907c4b08981b59ca9c6d93f00b4202 CVE-2024-50095: Add .vulnerable file
-8984955acbf40cc8efaeebc23ef70bb0fb10decf CVE-2024-50112: Add .vulnerable file
-389a6fe361b16ab5d4a22cff4e4a82de8aa4a55a CVE-2024-50143: Add .vulnerable file
-722d285f17aa5a08d67274d3259aaceb17f7aa43 CVE-2024-50180: Add .vulnerable file
-a9855cf3a8d533514142d578d0e9dd549a0f1ade CVE-2024-50183: Add .vulnerable file
-946b43a25886f9d4a566b8f227d2d5a2c4e86775 CVE-2024-50191: Add .vulnerable file
-d3c7d7186a9b9ec1b84a677b164895eb54eb1be4 CVE-2024-50211: Add .vulnerable file
-681305efd0cefa770fad1f1c7aafbda4fdfbf8d5 CVE-2024-50234: Add .vulnerable file
-6db0dd82c7fb9cfc47b6329984517791c530b7e6 CVE-2024-50277: Add .vulnerable file
-fd8bc9f41612b63a3bfb0ab34eb2f3b5588d1838 CVE-2024-53050: Add .vulnerable file
-cc869159f163b4173062666aa37b181c4f61c24a CVE-2024-53051: Add .vulnerable file
-774c04c4be45b333e0f6df305b186f5a9d82469f CVE-2024-53090: Add .vulnerable file
-f98028606c686211a133ccc2b69c3bf14c4e33d2 CVE-2024-53101: Add .vulnerable file
-44db9612992fcf8f856bd1370ee5203e4caacd0b CVE-2024-53114: Add .vulnerable file
-af402da08fc6f7ed1fb10ca08472c6e022ce143f CVE-2024-53128: Add .vulnerable file
-c45c41307160e58fb855d65c26beb8688caaf7f6 CVE-2024-53146: Add .vulnerable file
-83be047d937fd129aa83781e3c94a0f966cfbc46 CVE-2024-53150: Add .vulnerable file
-86bc976f781fd97375d5c6a35e2450579f2f8f73 CVE-2024-53164: Add .vulnerable file
-da97e02d7fce6619f521a41c2519acab176152ef CVE-2024-53174: Add .vulnerable file
-f70efec0637732986ebe0f1b5e0f51ff215af19f CVE-2024-53177: Add .vulnerable file
-16e3594fd22dc83419853058b61fe6804cc01f6a CVE-2024-53179: Add .vulnerable file
-48d03ba09d7b557b492c9c1fc1b45ff055b40554 CVE-2024-53180: Add .vulnerable file
-eda50219f4d1ace1a24bd0c75632f51e09176f9c CVE-2024-53181: Add .vulnerable file
-36a30bc7f6cc565d47fb5d8e31771ebc278eeb6c CVE-2024-53183: Add .vulnerable file
-df867276f0c851e4cac3e9f50e2a2b0da2f02e83 CVE-2024-53184: Add .vulnerable file
-532aaf34e040da9ea0b5de42d8e94f80b1658fb3 CVE-2024-53241: Add .vulnerable file
-70c42b864721743defb8df8697d091563a9e6628 CVE-2024-56570: Add .vulnerable file
-b305f21229a67f167f83f24aa494bed57eb7660c CVE-2024-56587: Add .vulnerable file
-42400fc697beb1ebf6e2201f75c314c409764c58 CVE-2024-56590: Add .vulnerable file
-70de48be92f9843edce1bcd764d4c681a4cdaf92 CVE-2024-56591: Add .vulnerable file
-83e8242b03024249827ffebcb7a5c67a4348007a CVE-2024-56593: Add .vulnerable file
-f18d8ffa736247210d7c27102147c6e92c461ca3 CVE-2024-56595: Add .vulnerable file
-1230abbf2a1e27fa870baee26be56bd2db3ef5ab CVE-2024-56596: Add .vulnerable file
-af3ccb562fa01c4cafdbf501bfe9828551d038a0 CVE-2024-56597: Add .vulnerable file
-bf94cb7e5eb9cea94b1671ab1149f6ba269bdb29 CVE-2024-56598: Add .vulnerable file
-876709a28a03d94d9ebced8937dfd21282d12162 CVE-2024-56602: Add .vulnerable file
-4e036fb37d2b251ef61d0fd3bd5d1194dd3ad188 CVE-2024-56603: Add .vulnerable file
-72e85dc394644c0272430eb243ced1fb72ee782d CVE-2024-56604: Add .vulnerable file
-d6d26ab3526c9b1c9dab60d80d4d64d9a97c90fb CVE-2024-56605: Add .vulnerable file
-783853eb9eb2a3c83b3ed63d88fa9fd7574c8920 CVE-2024-56606: Add .vulnerable file
-27fc93f7d801abef77103852cab1c263ff938ff2 CVE-2024-56616: Add .vulnerable file
-bbd02e7f2fc481d27ef2ab2229cf4d43b840a711 CVE-2024-56759: Add .vulnerable file
-f4eb623c88970d2702c12be87bca78be6ab2d04a CVE-2024-56779: Add .vulnerable file
-594c7dcc788ada02e772f9d0f01a505f13781011 CVE-2024-56781: Add .vulnerable file
-d1e43d5d9e82e6d381872fcc0d691ffd24c5f1eb CVE-2024-56782: Add .vulnerable file
-b02815d560874d66c242de348f02ab13e466623e CVE-2024-56785: Add .vulnerable file
-a6be984394fcf98dd1fcfa6f7c80abc9843c60e1 CVE-2024-57807: Add .vulnerable file
-fb52ae0b7c6e623f14ab3ab2454b1f1bbf758a46 CVE-2024-57809: Add .vulnerable file
-f7b45d7213cf5d04de6970ad53492c4aecffc478 CVE-2024-57838: Add .vulnerable file
-86e1aa8580ba6f911207b3ad57471a37362b20ba CVE-2024-57843: Add .vulnerable file
-fca2800527c345363f1943319d0242924e7bd535 CVE-2024-57849: Add .vulnerable file
-74e9a6ac73d4363f522cbbabef293076977b5359 CVE-2024-57850: Add .vulnerable file
-76115ba221bb7d13bde14848e7af170de6af054a CVE-2024-57875: Add .vulnerable file
-b550a6aa100427b3c2ceb80d5d4a93e67f3e3bed CVE-2024-57893: Add .vulnerable file
-3e61b94d066892d4b67fb9ed46444329777bb4aa CVE-2024-57896: Add .vulnerable file
-492a437a2aba8a8ce08032c2c2bec3c55f971588 CVE-2024-57898: Add .vulnerable file
-dbfafcd6398e1cdc717d59447528df5d23ee646f CVE-2024-57899: Add .vulnerable file
-ab18f3852b652918ecff3456c05638219ed7bbaf CVE-2024-57924: Add .vulnerable file
-370f427625edbf404cacfc8ab2b8c807fbc4e6dc CVE-2024-57948: Add .vulnerable file
-4ca4c54b3721d6d719d83b9f27eefeb7df025bbf CVE-2024-57975: Add .vulnerable file
-18fb716ea7125cdceb8479ac9aa7d75d3bdcf0ee CVE-2024-57976: Add .vulnerable file
-4f622f1ddbd28e468a1c205610a1ec28a92818a8 CVE-2024-58001: Add .vulnerable file
-181f5b548403565bf636950ae25c2d332f7f1bc6 CVE-2024-58085: Add .vulnerable file
-bca062d4a2c1dff3e18d087a4653f4964d439999 CVE-2024-58090: Add .vulnerable file
-db55feddf75d394abf502bee436b07142daa3ace CVE-2025-21690: Add .vulnerable file
-499e2dfa3c4c20e67b068c38a24087ebe3a446bd CVE-2025-21699: Add .vulnerable file
-3710bce6cedf44bd4d7a11f98e89cc9a811eff03 CVE-2025-21738: Add .vulnerable file
-6038b6103b9d2af5866acdcb0bc7ce709c6c285c CVE-2025-21744: Add .vulnerable file
-5671e62c0560912e86145d140bea6fcc3dc26e7c CVE-2025-21750: Add .vulnerable file
-223bb36836047b67d839adf6b75a3d6b83cc04b4 CVE-2025-21772: Add .vulnerable file
-82cc7d03ae89e3465a47ff1dece565b44360ccc1 CVE-2025-21776: Add .vulnerable file
-3fbfc2064601a52b6894b7679cd36643ea170b69 CVE-2025-21821: Add .vulnerable file
-7a952c6b19073d986823601d967116cd56e34592 CVE-2025-21912: Add .vulnerable file
-c7559bc970435a3c610d97979063b155385bd194 CVE-2025-21957: Add .vulnerable file
-f1ce970353cc49c03ff9692c39668c7da93f32b5 CVE-2025-21969: Add .vulnerable file
-b3b9396046cead1fedc8f55c6cd916bda41ace9b CVE-2025-21992: Add .vulnerable file
-2b510d2231872a4d22ef0682229f3d63dc35285a CVE-2025-21993: Add .vulnerable file
-2a821e84937063f0eff8dd5ee53b81d3c48911dc CVE-2025-22008: Add .vulnerable file
-beeba4acd9b0337b5b5b15e0e0edae814e7de581 CVE-2025-22022: Add .vulnerable file
-6c603746be3b17b71c6b69b62a267a41d30423bd CVE-2025-22025: Add .vulnerable file
-1f7def9729a88f8abae4d4e613f6aeec5474ebfc CVE-2025-22026: Add .vulnerable file
-784ac97b301cfe743d41a31fdccf9dbc425d4eda CVE-2025-23141: Add .vulnerable file
-530694f0a033fff16e5d40738564b50c6e69980e CVE-2025-23161: Add .vulnerable file
-7691e504a31b6181b8a379617da6c65cb4e9495c CVE-2025-23163: Add .vulnerable file
-12512bd109a0268717d70205ff56cd00a5840f6e CVE-2025-37738: Add .vulnerable file
-5477cf9f9ebf5634c5e9f1b99c9f9e3a61a77366 CVE-2025-37740: Add .vulnerable file
-14359f766d2aa1e65bac2e7188e12c7c4fe98e5f CVE-2025-37741: Add .vulnerable file
-cafd2ad9314172787b401412b4bd37f5c3b4db8b CVE-2025-37742: Add .vulnerable file
-a8c4c2aaddca632bbf420f665b29978f5708dd1f CVE-2025-37745: Add .vulnerable file
-c2bf94b1cd0022e724bd36805e43aba9c7b49d24 CVE-2025-37800: Add .vulnerable file
-81d176d7aab44b50853a05e14250b147d724ae8b CVE-2025-37801: Add .vulnerable file
-b75fb4bfe1f4043eb3d7c5040da2a98f5628058b CVE-2025-37807: Add .vulnerable file
-52eaebb60ae5f61f8278f8e1c5b96e7a0cef8532 CVE-2025-37834: Add .vulnerable file
-de9c6be0ff01560dd02288ecb3a0fd0110063a96 CVE-2025-37838: Add .vulnerable file
-7b0b754bc30c0b8a5f1d135a974382c480410f43 CVE-2025-37839: Add .vulnerable file
-be31b738cf07f48afc93b60dc85313e9b97ea9fe CVE-2025-37841: Add .vulnerable file
-5ca26c09630f6a9e16eac63fa244022cd92ddacf CVE-2025-37852: Add .vulnerable file
-7f659b218cddc59a5041ff33da3ef287405171bb CVE-2025-37856: Add .vulnerable file
-dfbaafd16e9feedcef44d2a8de87dbb1cd53f457 CVE-2025-37857: Add .vulnerable file
-b3aa313cedb52514c78ae99124b51543f9b7f5dc CVE-2025-37858: Add .vulnerable file
-bdcc039be7aa0325828b7b5c1b78c897561330cc CVE-2025-37862: Add .vulnerable file
-7d54b50eb0ede37cb516f70cd827abce71d60ab5 CVE-2025-37877: Add .vulnerable file
-cbd08ffc0803a25cf666d0c673a1efd526d0618e CVE-2025-37879: Add .vulnerable file
-1bdaaa6cf0ae34f92f811f7a17b372351360bc2f CVE-2025-37880: Add .vulnerable file
-c4f851c91bb764341be369174cda1298af981731 CVE-2025-37882: Add .vulnerable file
-7dc35d417240fca1d052855fa6dd5c5d3ce209af CVE-2025-37883: Add .vulnerable file
-6ea6d16245a508d471ba4ecd676407cf71524a2a CVE-2025-37884: Add .vulnerable file
-f0afe37f43e59170e0efa0e3d9877500911ba5a8 CVE-2025-37932: Add .vulnerable file
-550fe16a16c83795136a1b91ca26a4f3c0f6f608 CVE-2025-37942: Add .vulnerable file
-3d8e1389c64f7b492d1d62d113bea4b61796d477 CVE-2025-37954: Add .vulnerable file
-021c761241316ecd1aca845a42071938592c6ef2 CVE-2025-37983: Add .vulnerable file
-398f801798371a825483434e19615803403e494d CVE-2025-37991: Add .vulnerable file
-6cb4d830d8adf8f2bd544d8f28105de896c760d0 CVE-2025-38034: Add .vulnerable file
-0e61f5ae587dd15617391d956baa8331c2b44e6b CVE-2025-38039: Add .vulnerable file
-7eaec35d0dce8171d2f57834904216bc7e287f0d CVE-2025-38040: Add .vulnerable file
-6d7b5800f1d83faa76bc96029394cd4a6a5033c4 CVE-2025-38041: Add .vulnerable file
-cf0fcfe71326d020d626e9de57b2ba5d057ae08e CVE-2025-38044: Add .vulnerable file
-0a13b977436a09357295cf82c9a5ff7b5a9fd0cd CVE-2025-38045: Add .vulnerable file
-24c21fa107972b469861d30529ef6a5d6a1567d5 CVE-2025-38048: Add .vulnerable file
-1687f10e2369529cbe9eb1d1da95b82962759e0b CVE-2025-38058: Add .vulnerable file
-0e3a3856db95e812198e15e9ab9b00f40378f843 CVE-2025-38061: Add .vulnerable file
-736a4df645e72cc6cccac294aff0c91078f4ca0e CVE-2025-38063: Add .vulnerable file
-988a3ead0eb29be417ba2dfc23d5acdaa735060e CVE-2025-38064: Add .vulnerable file
-e0939f0b7ea01c07af40cc30054ab3dbec06f8a1 CVE-2025-38066: Add .vulnerable file
-c82e8392831e1d86ef19c7ea317d4f8f194ea8f9 CVE-2025-38068: Add .vulnerable file
-e1075603da074e2c66d41781821917c9779f69f4 CVE-2025-38069: Add .vulnerable file
-34957e10f704989ca7f55eaa84492659aee37b55 CVE-2025-38071: Add .vulnerable file
-e6a2d22ec1fdbda01dfd1761ea5c080561aedf94 CVE-2025-38073: Add .vulnerable file
-f1be224465e11d9b0a564df427afb04e4d688f23 CVE-2025-38074: Add .vulnerable file
-07b15952116e1642034bf6ed47e8fed829bcd552 CVE-2025-38078: Add .vulnerable file
-bd0f560f4c0dd9c747b8e35cefc6a05fb6ff8078 CVE-2025-38096: Add .vulnerable file
-4e28143cd2af04a9884cede3b5e3804ec16276f2 CVE-2025-38099: Add .vulnerable file
-ff56ae18f88f4d18ab73a6eab0c688b5417e3d39 CVE-2025-38177: Add .vulnerable file
-e6d1ed1dccecb07fcaabec59691919b8458ca861 CVE-2025-38198: Add .vulnerable file
-4cc6e63732365923318bbc20aba31a560d6c3d69 CVE-2025-38204: Add .vulnerable file
-0794031c2e4c672a886f2e5b655379d9c2031f42 CVE-2025-38208: Add .vulnerable file
-830cfc9fefb0c68ecd69b9be9e0fa490d3e5e85b CVE-2025-38232: Add .vulnerable file
-24311565051595983d94849616bfe88b1ae94c87 CVE-2025-38234: Add .vulnerable file
-f8f253a82904842172da30ab1623ca902e81284d CVE-2025-38269: Add .vulnerable file
-da0cfadea95029ab30171e9f883a1a9008881b61 CVE-2025-38321: Add .vulnerable file
-8d4d31de55e542e869ebe5df49e5c6618bcbe4f9 CVE-2025-38332: Add .vulnerable file
-a28329d4e09796fbda83cc6d4596e114d1f38570 CVE-2025-38336: Add .vulnerable file
-0330831531090e23f97577458b65b261e72a17bc CVE-2025-38345: Add .vulnerable file
-643f533c90bd75d36b7051e4c5f6e27d716a7359 CVE-2025-38359: Add .vulnerable file
-71180bf3d96dd923fbaed6e6937cc76baff37b08 CVE-2025-38384: Add .vulnerable file
-815b245f76867992d515db4c4c834e6d2b2701ad CVE-2025-38386: Add .vulnerable file
-b774c4744310139cc780dbaf2dc274ae4cde8729 CVE-2025-38406: Add .vulnerable file
-df8cdb59e10478041016e4d305cd013cff75c6ae CVE-2025-38425: Add .vulnerable file
-5deba55d699343cd15392e62a45371b3fdaa2355 CVE-2025-38430: Add .vulnerable file
-18e1f7840df86147c98cd8f1cafdfe3d0e279e33 CVE-2025-38449: Add .vulnerable file
-68b14b1fefbd9fbba3190d4827f63576c0927a18 CVE-2025-38486: Add .vulnerable file
-f5f6a83a496a0c66b1aa4fc1c21b1ac9a5718b3d CVE-2025-38494: Add .vulnerable file
-d36e7fa63e0cec0cd3a67df38e204d04881977ca CVE-2025-38495: Add .vulnerable file
-b3883c6cdd34752481d9eedb463f3281618ebb09 CVE-2025-38497: Add .vulnerable file
-ca203772529b5cd54084dbd7a16c572c35b3c0c3 CVE-2025-38503: Add .vulnerable file
-63a9bbea2b37835dfc3d228b0880bd060133889a CVE-2025-38512: Add .vulnerable file
-7339608c995d5a44f59d1f0f5c28e722da678613 CVE-2025-38514: Add .vulnerable file
-fae9b19f837908df68764cca7ac60ecc72cd733e CVE-2025-38531: Add .vulnerable file
-dcb04d9da1e4f830bb462e5101a63c988c1f114d CVE-2025-38540: Add .vulnerable file
-fb29790aa64c3a6b111169dca2a8ec23f36b177d CVE-2025-38560: Add .vulnerable file
-b3a25454e2d1b4a0ce408414f8cb394dba633ac2 CVE-2025-38576: Add .vulnerable file
-ba9862fa76c812b7b396656ac6607bfa022aa8e1 CVE-2025-38623: Add .vulnerable file
-aee50ec3a36f2badb4fee2f577cacb14b2a0e08d CVE-2025-38624: Add .vulnerable file
-3982d0d306ef385928a0e435060b6e018ce63e36 CVE-2025-38668: Add .vulnerable file
-396199dc299ae7f7099623158a256b4ac02c2224 CVE-2025-38669: Add .vulnerable file
-adb26998b0146c61a931a73dd619ae36bee6216c CVE-2025-38672: Add .vulnerable file
-c28fef755d22d113af97defff2ebf8acd6484ae0 CVE-2025-38673: Add .vulnerable file
-a5d222853b7e05f7b4c7b7ddeb8773a8afad74a0 CVE-2025-38674: Add .vulnerable file
-82708a23f18a34ff3731c2df7e6c64fdbdff7fa5 CVE-2025-38685: Add .vulnerable file
-5e3e231858299da09d6938f42e1ea40f7f20510f CVE-2025-38691: Add .vulnerable file
-f6f33d56b4d8da79e430663bebcf0247255f8736 CVE-2025-38693: Add .vulnerable file
-773788ed5e1340462c0ef9cecee07bc21d61fb9b CVE-2025-38694: Add .vulnerable file
-74634219703d3cf9b962749a29618d8e076bde0a CVE-2025-38695: Add .vulnerable file
-aec6a30fbb92a9fd01f8bdec88f910959b39d2da CVE-2025-38696: Add .vulnerable file
-23ef7b96e89f8ee1aa948b92087b0794baa268a8 CVE-2025-38697: Add .vulnerable file
-23268e0c6ecee15950c9795c774707a61d384554 CVE-2025-38698: Add .vulnerable file
-45df2bcf145700630b9c9f5ded57cf5aa9df0a26 CVE-2025-38699: Add .vulnerable file
-281419ec20a0e26fe4d496b245e8d091c2f7a67b CVE-2025-38700: Add .vulnerable file
-2b252d4c32d21e1e62a9f5c4d62e38c3ce0ea850 CVE-2025-38701: Add .vulnerable file
-567302911fa2fb3de647e41f4ab12adc95bead1c CVE-2025-38704: Add .vulnerable file
-6d5f314aa30c40c3008a449c9f076fdd8306fc08 CVE-2025-38705: Add .vulnerable file
-6ac0208e36f410ea827b9310c3b8845f50cda3f3 CVE-2025-38706: Add .vulnerable file
-781cced5f97d192cd82f026e6949da61455952e3 CVE-2025-38708: Add .vulnerable file
-4f24a899ea32d8ff3cf57aaf345cffd01b078d45 CVE-2025-38709: Add .vulnerable file
-50d325790cf5ba98106498972784364443d3f016 CVE-2025-38710: Add .vulnerable file
-4d83c04be55b97ae2848be046a94cc5837d6db13 CVE-2025-38712: Add .vulnerable file
-8866a11b92e3c45193ee3b622c1e3fe6c2557975 CVE-2025-38713: Add .vulnerable file
-4022ff744bb5e48c619a1e1ebb45e9515fd022cf CVE-2025-38714: Add .vulnerable file
-16d705aab8a1d958b78a9671be196a84d2e5f77f CVE-2025-38715: Add .vulnerable file
-e56f08a7c831d328fcc9ade537726f174558bdbb CVE-2025-39715: Add .vulnerable file
-b8ec84aa8d6c214b4a42ed5b8bff8f22bf0d671f CVE-2025-39737: Add .vulnerable file
-7424c9f05e94830fd9715c079ebbf072a6705ff6 CVE-2025-39738: Add .vulnerable file
-d169b5733221daa244b193919e1cbd73c18eabc0 CVE-2025-39742: Add .vulnerable file
-6d99620338a60fab279ce52e4268909a9a690cb0 CVE-2025-39743: Add .vulnerable file
-358f85d66e518d7455f963e69a74e203e4b46fca CVE-2025-39744: Add .vulnerable file
-db0238ef6281e0fd7fee2364bf3468b92aed811d CVE-2025-39745: Add .vulnerable file
-0f628777007764cf58ed1e6a2b3a02d914ebaaf0 CVE-2025-39748: Add .vulnerable file
-bb537d45584de7b94f3bf8202596c4ec3fd4768f CVE-2025-39749: Add .vulnerable file
-12b4aaf7b236393bbeed231b04db230c56e8ad0a CVE-2025-39753: Add .vulnerable file
-b3204ce9450a05fbbe4807bbe79fb4ac581fd828 CVE-2025-39759: Add .vulnerable file
-4a301215d49416921cc619f03303543085a88d42 CVE-2025-39760: Add .vulnerable file
-442affb5ead77d53beae0e89352da6cb502d5935 CVE-2025-39763: Add .vulnerable file
-5ea77a529a81d5ab6fdcf34df363f25b58266b21 CVE-2025-39781: Add .vulnerable file
-ff68790799ded9b9dfd5438ca493f47dda5e2609 CVE-2025-39782: Add .vulnerable file
-42e83e3d854460ae37a1a3449297adc6f1de72bf CVE-2025-39794: Add .vulnerable file
-ecfeff94ab0d3f26b241beba79bcfeab23a04d96 CVE-2025-39795: Add .vulnerable file
-3eed7c17d6de1f11c667ca0ae847c1c7c914e772 CVE-2025-39797: Add .vulnerable file
-059749256ac48e01496d7f3122a47cb7b8bcbe6e CVE-2025-39800: Add .vulnerable file
-ae910b8637d2bd78306bd05be110ef4362087956 CVE-2025-39819: Add .vulnerable file
-0a7ee348a5cb4604281e92df9cd21739bd4c8b2c CVE-2025-39825: Add .vulnerable file
-4fc4bdd923af6dedffe27f31233c1e1aa4d8ba5f CVE-2025-39838: Add .vulnerable file
-4ea817dd63315fbdad9136d661e5b8fd6e69b89f CVE-2025-39866: Add .vulnerable file
-09c3769a836a7e6847d89287c632107d71a21add CVE-2025-39905: Add .vulnerable file
-481f59dfeffdcd5141d947cad3f84901ebb7575b CVE-2025-39940: Add .vulnerable file
-404a721e9dbd3d1ecc59ef4c415301dcf59816c3 CVE-2025-39952: Add .vulnerable file
-23db454fdec6e5b632661ff85b933fa836d554bc CVE-2025-39957: Add .vulnerable file
-be2d64e6c3f787f60b6b71b3b35f8a97756f4e8b CVE-2025-39958: Add .vulnerable file
-ceab6abb68c003ad69abc4e37444c64c0cc31897 CVE-2025-39990: Add .vulnerable file
-054c33e567ccdb5c609af467470d2f6d9ae5b2ad CVE-2025-39998: Add .vulnerable file
-7059187f30c2297122ef5756706a813fb1846a92 CVE-2025-40005: Add .vulnerable file
-ae39bc05a592d5429af1d4f9e828f6d3133fdef4 CVE-2025-40030: Add .vulnerable file
-cff2e8fd6a35257d371a2ec25e0fc1fa9a7f57ed CVE-2025-40083: Add .vulnerable file
-01bc78e2b0471efea0f8ea3a2d031d1c3d787efc CVE-2025-40088: Add .vulnerable file
-c74b5a0721adbe0ae39a622fc8b897002e143102 CVE-2025-40099: Add .vulnerable file
-e3973ebdc0f50ee9f15fcd552cd895323d1373b4 CVE-2025-40106: Add .vulnerable file
-83431940c71d8ad029574e4f2564f3b0eca28907 CVE-2025-40107: Add .vulnerable file
-155cbc99d7d6ebb34a2ce91d8d66dfa77b1d12b8 CVE-2025-40160: Add .vulnerable file
-1f5b02d9b6adb5e0ea9a1672b3d9ad22300bd443 CVE-2025-40167: Add .vulnerable file
-3e9f82f30421a32e5c412223f9f9cddcdfacdbcb CVE-2025-40178: Add .vulnerable file
-d583cad266c2622475a2f8030c99977a4ef900f5 CVE-2025-40192: Add .vulnerable file
-7aff1577b7104e179d9f4dfae0e265a98aca29e4 CVE-2025-40210: Add .vulnerable file
-04e2d44ff4559bac84e9e2487d99c9ebc0b6ab0d CVE-2025-40242: Add .vulnerable file
-f244cb01110485b27e5e1817840392779c01c12c CVE-2025-40243: Add .vulnerable file
-c6a30ff7eb83d5d34784a581e00cfb3af01f3f66 CVE-2025-40244: Add .vulnerable file
-2c7e2fdcc9d3a390d5f43cd851e3fd93547c923a CVE-2025-40245: Add .vulnerable file
-79b5fee2b1cb64ef25f62991837b99dd8241da42 CVE-2025-40263: Add .vulnerable file
-a16f7ceadb7ee25135b3f844627620580eec64df CVE-2025-40268: Add .vulnerable file
-52b4a7dc0c8ece44124646f0c2e0211a773e7b7a CVE-2025-40269: Add .vulnerable file
-1bf742dcdfac08a1d7c70816c5a9edfc5df4b18f CVE-2025-40271: Add .vulnerable file
-50e3c3c2e5af9d41cdb767ec66793bae0077768c CVE-2025-40300: Add .vulnerable file
-573acdeec8db30c8615a1b6ed2a1cfebf6f6221e CVE-2025-40303: Add .vulnerable file
-14c6541058018e5d25d121ec8fd247f9feedfd32 CVE-2025-40305: Add .vulnerable file
-44ea5a5d81eb10bbb76670c8a67ae0fc43b4f05f CVE-2025-40308: Add .vulnerable file
-42f1371c3ff26b0490d80eb15dedbcbf765d76ec CVE-2025-40309: Add .vulnerable file
-6491f7cca26ee672697913a3469db593d2b27436 CVE-2025-40312: Add .vulnerable file
-c19e08eda383f092fbf05889f79eda2668169c87 CVE-2025-40315: Add .vulnerable file
-2916d23fc517c92f269e2c0b45b436c5c6bbe778 CVE-2025-40322: Add .vulnerable file
-5d706f554b75256195ef738c61f53f03cfc06d41 CVE-2025-40323: Add .vulnerable file
-6c3ae24680baacae840ae90cce059911861541b9 CVE-2025-40336: Add .vulnerable file
-8cd7cdf89351f5303d451de935a41f67d633d14c CVE-2025-40337: Add .vulnerable file
-f05385206d487f7b14bbe1605ac6be7f5a33974d CVE-2025-40338: Add .vulnerable file
-af8dd715ecdbe89bbb1abf3204afb94c8e10255f CVE-2025-40341: Add .vulnerable file
-e5c2c4a9af9ded4ea482052bd794e63a2a390e20 CVE-2025-40345: Add .vulnerable file
-16d0e745b1475aa6e43ce7ee72e4bb3a791c2f4c CVE-2025-40349: Add .vulnerable file
-6ece3f56586b03f54a577f2b6cf9a230d808d178 CVE-2025-40351: Add .vulnerable file
-0919e911a33396ea64595556519548f48fcf0815 CVE-2025-40353: Add .vulnerable file
-78df6b530a78a7266dc20c7ae6a42a99240307a1 CVE-2025-40361: Add .vulnerable file
-7a71f8e9d667821ac3765899297139674fe44de8 CVE-2025-40362: Add .vulnerable file
-720e68b76c47e26016f513ee0583f2b590ab1380 CVE-2025-40363: Add .vulnerable file
-8d183128f8e408672cf7219c9c68b902979e6d9e CVE-2025-68168: Add .vulnerable file
-8c14f6da908fb14211a4dbd3fa7b97407217ea23 CVE-2025-68173: Add .vulnerable file
-1c5ca72aa5a565764c8957564ef9db6897738184 CVE-2025-68174: Add .vulnerable file
-37de9bcafc2e8c053dd1e5a8ba3e82bb4b8b984b CVE-2025-68175: Add .vulnerable file
-5d64eb44e4b7026098eb8197aa718b7301d385bf CVE-2025-68176: Add .vulnerable file
-0805b85dc43cb29aa2d4c6108c21890018fbb443 CVE-2025-68177: Add .vulnerable file
-599104342b41ccf3d37d159f75a56683a3e875f9 CVE-2025-68178: Add .vulnerable file
-839120ecf6f24a938dc07b5c91395b3642f4cec2 CVE-2025-68183: Add .vulnerable file
-bb86616b96dc48ef895dc1b25dac115a86a40542 CVE-2025-68185: Add .vulnerable file
-ee0a82ee2e53946245aacee85259ecb81b6a6864 CVE-2025-68188: Add .vulnerable file
-0699191d5fbd650a9e693ade2c9a3f9ae2d7f134 CVE-2025-68190: Add .vulnerable file
-8a4be7e1ba0035bd1bcc0894e3fe5beae2d2a26b CVE-2025-68191: Add .vulnerable file
-7ea1ed98d561cb6b0f49c5625d91996950c8083e CVE-2025-68193: Add .vulnerable file
-4c7b99c732b26bb1d20bd36c8b7d2bb070ca899b CVE-2025-68194: Add .vulnerable file
-43ba100c0fcf507a226d798844db1f057f67e837 CVE-2025-68201: Add .vulnerable file
-7b28bd60b4b0fd0631486d5eb57fcd9f00fd82e6 CVE-2025-68203: Add .vulnerable file
-aace893d2ee2f7dbac215b8e91cb1abd0a3bf6bf CVE-2025-68220: Add .vulnerable file
-d1fd7d28e15fbd66e4854fcf823187d1b5c2ddd6 CVE-2025-68223: Add .vulnerable file
-7b0418b7cb67429254257c6135ec832630109242 CVE-2025-68224: Add .vulnerable file
-f249a5fa4002c964ecd90167f22413187f24dcc0 CVE-2025-68230: Add .vulnerable file
-92c8a48cea2f43266c9c7d4463a333ac03a8b830 CVE-2025-68236: Add .vulnerable file
-9ec46a76648eecf68a6088196e46386d23b6d16a CVE-2025-68254: Add .vulnerable file
-24ddb153ff6ba7ab6f2dda8a8bfa4ddb32fa9c6d CVE-2025-68255: Add .vulnerable file
-7bcff04e816e75482a32c88dc2b7c08a1b4bc9ec CVE-2025-68256: Add .vulnerable file
-a6a16de40d758bdf4e8e6f0c2ab4e3a2e0ba2f30 CVE-2025-68264: Add .vulnerable file
-41b766ea432969dff81263c1da62dc548451be5d CVE-2025-68265: Add .vulnerable file
-8f35b6e77d0fb8475a79b65a87609647f3e3ee58 CVE-2025-68281: Add .vulnerable file
-4ac5d85a3e77c41988a654750b0ebafd10b9ca06 CVE-2025-68283: Add .vulnerable file
-4ad341d4f6d8d424f30afca5b58ade2452629a03 CVE-2025-68284: Add .vulnerable file
-a56931724cc07981e4e581104c0605c794905392 CVE-2025-68285: Add .vulnerable file
-99c4e13cfa3c56616caa4f9b4fae6de880c9c97b CVE-2025-68297: Add .vulnerable file
-1a6a2886e6281a75911fb36ce412d40162ec2d49 CVE-2025-68309: Add .vulnerable file
-3c26919f17506c2f8150f5a1c0f100a98569f8c2 CVE-2025-68311: Add .vulnerable file
-04729aa595a9e8cf78ae508bf212c03d41098afc CVE-2025-68313: Add .vulnerable file
-7c9147694452d5edff5989edf18a780d67523849 CVE-2025-68317: Add .vulnerable file
-4eadd0ff01525e71f37297a31c7aac0a50fe44af CVE-2025-68318: Add .vulnerable file
-e95a0b0d1f4244a967c93c6e588d19d3f1b0049b CVE-2025-68321: Add .vulnerable file
-65bb1f205b7aa5b72c541198f09a161470a8d838 CVE-2025-68322: Add .vulnerable file
-2f80632e0db6beb98f2a1a4860cb2de4e1a452e9 CVE-2025-68330: Add .vulnerable file
-f284823cfee4e2f93b1e5640ca176d5c63061b32 CVE-2025-68333: Add .vulnerable file
-457de415c67a6041fb47ac3c6e6f0a9f06cf78df CVE-2025-68334: Add .vulnerable file
-24a8fbf88d8110c064cf4cba6066d10841926378 CVE-2025-68750: Add .vulnerable file
-f0ef295651a2e608aea9e3b7b96fc598f4031173 CVE-2021-46906: Add .vulnerable file
-afa6053d0e90bcbd3cb595ba91dafa36e14ce813 CVE-2021-47206: Add .vulnerable file
-f84bda6ae6436c94868af42f05e65769e3177c64 CVE-2022-50697: Add .vulnerable file
-63de6b81355d67d9a4c1e33f1cab9ae4a709c2d0 CVE-2022-50700: Add .vulnerable file
-b9ecf7d88855631dfb534c5ac0a731ed6671cba9 CVE-2022-50708: Add .vulnerable file
-9064dd3d2b18291a21040d04804a8b2b9d23fd9d CVE-2022-50709: Add .vulnerable file
-7bf65dc70132febc727ab9a5a0ab79df2bfafae8 CVE-2022-50710: Add .vulnerable file
-1addbf975d26e35661066f62ef677edcb9f8cad2 CVE-2022-50715: Add .vulnerable file
-5d54d3e99bb54fa36ed0dc62efa5657fc5a8eca0 CVE-2022-50716: Add .vulnerable file
-7fbb51d0a16ffeae4fbef5186d22d2947f90bd9f CVE-2022-50717: Add .vulnerable file
-9dcd26a114a53760e0f368d542f318186c6504ff CVE-2022-50719: Add .vulnerable file
-922efdcf6d8c68b791e07ad631ca68655bb4ad1f CVE-2022-50720: Add .vulnerable file
-583f21a3cf59ab6674e3cc42280d483a7fa5a4f9 CVE-2022-50728: Add .vulnerable file
-7f5d539978a2368709d135bf7d144c10e4f068c4 CVE-2022-50733: Add .vulnerable file
-0d9a3fa7231caa4925d6bb0268bbf5e5e18f81dc CVE-2022-50735: Add .vulnerable file
-d942c4af9d8cfdfa40b21f594c11dd57a111c47a CVE-2022-50737: Add .vulnerable file
-fb932fede5f80567149377da2dd11d435621dc67 CVE-2022-50739: Add .vulnerable file
-1d440dbac32659f56773cab5f9527719ef7b86d5 CVE-2022-50741: Add .vulnerable file
-00eec18a05771fef591357e1584a5714127982df CVE-2022-50744: Add .vulnerable file
-012c6c67ae38ed3e2753ee5bf67f050e62c05731 CVE-2022-50749: Add .vulnerable file
-889f4a8b0080001f2a93055cbbb6727453acc81d CVE-2022-50753: Add .vulnerable file
-6a863bdf99f443ce6795e98aecca7faaedf88c9f CVE-2022-50755: Add .vulnerable file
-a332c8ba4cbe0e1a0908d13eb8a8c44a6610be1c CVE-2022-50758: Add .vulnerable file
-967c2c41dc37898c169a992b78d69b527b7654de CVE-2022-50764: Add .vulnerable file
-683aa15adfd08fac5e5c0155f76c14d865172a1e CVE-2022-50767: Add .vulnerable file
-e5df5da1b5cf855e24bf1c6b1d34c137f0e5d322 CVE-2022-50768: Add .vulnerable file
-cb4b879e78b5a23652f686efb6f3d9a2c5f135e7 CVE-2022-50771: Add .vulnerable file
-353b322b753e25bc4a3b5310c53502c70390d390 CVE-2022-50776: Add .vulnerable file
-0932582389ecce3fc5f9d08273cb202101449962 CVE-2022-50778: Add .vulnerable file
-584f5d0ca7d03c76528442cb4f7100439b16b286 CVE-2022-50779: Add .vulnerable file
-945573a0527b3bb61532ac8967585ebaa2239831 CVE-2022-50782: Add .vulnerable file
-5f280cf1c99ec008fedc108eb7c91004d116a534 CVE-2022-50785: Add .vulnerable file
-18f6cbf8a096dc6d4393320f971be1c4fbd5d521 CVE-2022-50812: Add .vulnerable file
-18deab298dadfa7b093806e26dc785ec7ff1c75d CVE-2022-50815: Add .vulnerable file
-d5deeb8e9bcfe2ceae918de72112559108acdc39 CVE-2022-50819: Add .vulnerable file
-4c956f9c621f728c4ca6d0ab6e445f0f9ddae08e CVE-2022-50828: Add .vulnerable file
-5687dde883ada32c5f2e2c3739b268824fe590a8 CVE-2022-50835: Add .vulnerable file
-4bfd8fe60bc5f2f0412149ce8b3f58526315ea92 CVE-2022-50839: Add .vulnerable file
-e5498c0da337ed88d24bd353b1447b4de7688f8a CVE-2022-50841: Add .vulnerable file
-654173e1c0a563aae4ddaccf3af7c3321f664ef4 CVE-2022-50842: Add .vulnerable file
-7b94d36b67e70456236613ed080a3a015216df08 CVE-2022-50844: Add .vulnerable file
-a9aa7ba1023df8e792bac23362b9380cd2747588 CVE-2022-50845: Add .vulnerable file
-463110b6187aafedae6faed4b1a80f2bb2f469d7 CVE-2022-50863: Add .vulnerable file
-040e8369e010656e2b5d80e35f8449f997e50500 CVE-2022-50864: Add .vulnerable file
-af027e1c60bebc3b43513787bc534e2747cfd4fa CVE-2022-50869: Add .vulnerable file
-272f0fd2f2d72fa28f28b0b9ba95e876d5243a41 CVE-2022-50870: Add .vulnerable file
-9ec6861d470de782c0c6a8ef3b2fdffd46f6e878 CVE-2022-50871: Add .vulnerable file
-197bb44c5ce84ce185f48b3daacbf109dc7c9f0f CVE-2022-50876: Add .vulnerable file
-e9cac2a7d99919d5c8f755714e964ecf1689117b CVE-2022-50878: Add .vulnerable file
-d632356055800ba3cd0f6e8928f0a7619803f7ee CVE-2022-50879: Add .vulnerable file
-080440b734ef3f640991b637c0b51e6ae0fbc9a2 CVE-2022-50881: Add .vulnerable file
-34c7fb919ba40df9d299376dfaa256f1d508c9c7 CVE-2022-50883: Add .vulnerable file
-4d5e77eb480b97b208f0b75565cc97e81d6b5585 CVE-2022-50884: Add .vulnerable file
-f477248e9108e6096472c4adc5c50848ec5e7bef CVE-2023-54172: Add .vulnerable file
-f0f2879a1f4fdea2b678c3aa5ae40ba1b4ccd5e6 CVE-2023-54179: Add .vulnerable file
-34aefb67449b577bfa9c8d39fe8a17443dff9964 CVE-2023-54180: Add .vulnerable file
-d8f2dae479a4d346d462e6c3f77b453fe3a5f8c1 CVE-2023-54181: Add .vulnerable file
-ec31032ca915fa0244042c4c31acfcd6efe235e9 CVE-2023-54182: Add .vulnerable file
-b7547c9dad16ff101a723c4058c186de61425cd0 CVE-2023-54184: Add .vulnerable file
-e8bdb25df809d19cb75a50c4f0366829fa503566 CVE-2023-54185: Add .vulnerable file
-dfdd279be4373234213071b283683e13be0bc6cb CVE-2023-54187: Add .vulnerable file
-9314f2881af3eecd6bc255441dbb3894f08695b3 CVE-2023-54194: Add .vulnerable file
-edda8a0149b1852220aa566f2ed19164348dfbdc CVE-2023-54196: Add .vulnerable file
-d7661b6a5735d6c706396884f034938973329aa6 CVE-2023-54198: Add .vulnerable file
-020e8d85dfe177c6969234729ea99d31c01993c1 CVE-2023-54213: Add .vulnerable file
-5baf82a9368032a5fe5bc647b2d2cd2281d3a90e CVE-2023-54224: Add .vulnerable file
-38c6f106be663a0cdf3ba51348a4cea2c59823c4 CVE-2023-54227: Add .vulnerable file
-15a192689560fafc52ee2ef930acccec3acbccfe CVE-2023-54229: Add .vulnerable file
-774b3712d460cf126f06131118329b1cdb493b32 CVE-2023-54232: Add .vulnerable file
-999b40510320f4d154c916d71d0e1ccbfe96846a CVE-2023-54233: Add .vulnerable file
-829c30d48c368e4f50885255a846efbd11586317 CVE-2023-54242: Add .vulnerable file
-cd73476d2f91da4b862e1ac9a49a9dc09be578f8 CVE-2023-54244: Add .vulnerable file
-2e657b2c6012018fed7fcca0e4403973c1806403 CVE-2023-54245: Add .vulnerable file
-97383a18fc22b9a11449db005021a886f37421b6 CVE-2023-54246: Add .vulnerable file
-c98c858d6ff95c44427160f73cee457902866254 CVE-2023-54247: Add .vulnerable file
-03623b58d1d5f411bb4da7ed6443652c9361558c CVE-2023-54250: Add .vulnerable file
-04d38b2a9c56a5ec08e85cb15bd3200efbc2873a CVE-2023-54253: Add .vulnerable file
-f97d3d8784715f7e7c46096e3d91c71b78269861 CVE-2023-54259: Add .vulnerable file
-dd1c170f45ba420a63eda1d13139e37f61e331dc CVE-2023-54261: Add .vulnerable file
-b430e5d07d9a005708c4489fad6775aaff1ffe4f CVE-2023-54263: Add .vulnerable file
-0f4c4a6edf56c84fb7586b39d1f7b180ba7d345f CVE-2023-54272: Add .vulnerable file
-d94153a4dbee9fde55254485fe9786d362cb6b78 CVE-2023-54279: Add .vulnerable file
-49f1fc16cda77c2f838824094884236d6f635268 CVE-2023-54280: Add .vulnerable file
-adf54f894291173951763a71032da7406e3a0deb CVE-2023-54282: Add .vulnerable file
-076d4f00373e796624bf34616db2868559c117c6 CVE-2023-54283: Add .vulnerable file
-31a922067645b7d9fb0459914ae719416f64e40d CVE-2023-54285: Add .vulnerable file
-524a123e6a0b7ff1c4670704c12f18c6b30fb598 CVE-2023-54286: Add .vulnerable file
-e420280be1e5faab3debfe4b75680aa2408e31e7 CVE-2023-54305: Add .vulnerable file
-ee02519045ebb1bdb0e13a600fde6ebf7bece060 CVE-2023-54310: Add .vulnerable file
-5c91e0cf37bae26ccd4e6637b446ae7dc59c7694 CVE-2023-54311: Add .vulnerable file
-7a5f15665eba07a0b7e8790b4712eb9295b1f019 CVE-2023-54314: Add .vulnerable file
-1c4860b8e1c2d6b5c8fd81a4c2b23cee69732de6 CVE-2023-54320: Add .vulnerable file
-f6cdb3fcef6e523305c576252f3a9ae6a92c1074 CVE-2023-54322: Add .vulnerable file
-b24c80cf033f95eca53789a2c4093d685b7cc97d CVE-2023-54324: Add .vulnerable file
-8136bbcea4605aa1980d7bb839881ce150a5faec CVE-2024-35864: Add .vulnerable file
-148606ca64a5399032830b76040b7dd1e1539c89 CVE-2024-46762: Add .vulnerable file
-04e5a78e24252c74e20fc31b2b84116bfdc945ce CVE-2025-38072: Add .vulnerable file
-a9527919fce48c47b7e9bc8b427929c97eda4429 CVE-2025-38344: Add .vulnerable file
-3f226cc2a922dcd0021daf825f6a0ac0c67e5c87 CVE-2025-39801: Add .vulnerable file
-183401f50c6ec2731d2bf282c78435c131f1ddba CVE-2023-54177: Add .vulnerable file
-917a33141fbacc3952f0f535e32d1feb133750b5 CVE-2023-54264: Add .vulnerable file
-76a8e71c02ca62b2ea69b92c05254c0b890294be CVE-2024-42096: Add .vulnerable file
-4ba8d26e912128ddc9b3b6418267b033e7770112 CVE-2024-42311: Add .vulnerable file
-8b89599c95e2d9637d228722ec14e16d045e40bd CVE-2025-37878: Add .vulnerable file
-7e7b95418dc4942b38d7aec2755eb15fe2d95ce2 CVE-2025-38702: Add .vulnerable file
-cc2cabe1617e8591dc978fa5c735d4060d134069 CVE-2025-38716: Add .vulnerable file
-d904bac8ef95ce3db316f91af78ba90a86ce8c1f CVE-2025-39716: Add .vulnerable file
-e89603b8c58be7db19efb8385ba132ac3e83b110 CVE-2025-40304: Add .vulnerable file
-855801efdc27186a3b758b9e0cf974d08aa0f8fa CVE-2025-68266: Add .vulnerable file
+3e9b06559aa1c3daa21ff34a25b103f3fa7f0c7a drm/i915: Add intel_color_op
+730df5065ee9d64f972159995832ab1a5626bd4e drm/i915/color: Add helper to create intel colorop
+ef105316819d448630b83044fa83ba12905d9086 drm/i915/color: Create a transfer function color pipeline
+a78f1b6baf4dc240b67155209c81ef0503accf3b drm/i915/color: Add framework to program CSC
+6f1e094fb6e98b99bda21133fea55970d82c2045 drm/i915/color: Preserve sign bit when int_bits is Zero
+f00d02707dc2265c120756f074f27fd3c158ec9c drm/i915/color: Add plane CTM callback for D12 and beyond
+ed0ebbc89f847eebce790a6a308c8c3c1251655a drm/i915: Add register definitions for Plane Degamma
+05df71544c44a1767be021285648c090123a92ff drm/i915: Add register definitions for Plane Post CSC
+3b7476e786c2250177c5db0b6b9f1348813b9ce0 drm/i915/color: Add framework to program PRE/POST CSC LUT
+82caa1c8813fb333303f21dd553c85d36ffb01fe drm/i915/color: Program Pre-CSC registers
+bf0fd7375466b7fd58b9b98193cc19b90c856faa drm/i915/color: Program Plane Post CSC Registers
+55b0f3cd09a1d8e29f4a33d229ef82d69b25d917 drm/i915/color: Add registers for 3D LUT
+65db7a1f9cf772d733358de032fee60ad770c1e8 drm/i915/color: Add 3D LUT to color pipeline
+860daa4b0d09a398a0ac9ae6fe67efd73a275968 drm/i915/color: Enable Plane Color Pipelines
+2aa680df68062e4e0c356ec2aa7100c13654907b Merge tag 'sound-6.19-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tiwai/sound
+04265849c856ace113e75ae88069b8665bd4dcbe Merge tag 'chrome-platform-v6.19' of git://git.kernel.org/pub/scm/linux/kernel/git/chrome-platform/linux
+77956cf36494cc5e5649b187f552b90fb14d0674 Merge tag 'pwm/for-6.19-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/ukleinek/linux
+861111b69896145a928c889d9344797ea3711028 net: smc: SMC_HS_CTRL_BPF should depend on BPF_JIT
+edd2b9832d604a234b60a4910c7496f351cd1e12 Merge tag 'mtd/for-6.19' of git://git.kernel.org/pub/scm/linux/kernel/git/mtd/linux
+ba1401f9cced493948a691a670308832588e8f60 Merge tag 'regmap-v6.19' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/regmap
+0a9431fa74ac9b744bff5b65082ff96fd3d80297 Merge tag 'regulator-v6.19' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/regulator
+fa5ef105618ae9b5aaa51b3f09e41d88d4514207 Merge tag 'spi-v6.19' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/spi
+fca5327eaa8117b18c8faf79154d6eafecaf4892 Merge tag 'gnss-6.19-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/johan/gnss
+3df2470adc1ce91f19021109c83c6e497d362835 PM: runtime: Stop checking pm_runtime_barrier() return code
+41f7351fc47283822c4b70b0f42741f52cc1e6f6 PM: runtime: Make pm_runtime_barrier() return void
+316f0b43fe0131af869a5a58e20ec6e0b6038fa8 coccinelle: Drop pm_runtime_barrier() error code checks
+666065caa31aeb812978740bae21871067bb14b6 pinctrl: add CONFIG_OF dependencies for microchip drivers
+02892f90a9851f508e557b3c75e93fc178310d5f Merge tag 'hwmon-for-v6.19' of git://git.kernel.org/pub/scm/linux/kernel/git/groeck/linux-staging
+205f1a0d188658ff3043d91c988378d8a81344c2 Merge tag 'firewire-updates-6.19' of git://git.kernel.org/pub/scm/linux/kernel/git/ieee1394/linux1394
+500920fa76819b4909a32081e153bce80ce74824 Merge tag 'gpio-updates-for-v6.19-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux
+52206f82d9244546e5790f5ad64465343aa7ffd5 Merge tag 'pmdomain-v6.19' of git://git.kernel.org/pub/scm/linux/kernel/git/ulfh/linux-pm
+3f1c07fc21c68bd3bd2df9d2c9441f6485e934d9 Merge drm/drm-next into drm-xe-next-fixes
+dd463c51a327d341d3ece63dd50e1a0f8f09c468 Merge tag 'mmc-v6.19' of git://git.kernel.org/pub/scm/linux/kernel/git/ulfh/mmc
+aa833fc394baad601b8f7779c1ae2ada3a06ce07 drm/xe: Fix duplicated put due to merge resolution
+552c1149af7ac0cffab6fccd13feeaf816dd1f53 block: Clear BLK_ZONE_WPLUG_PLUGGED when aborting plugged BIOs
+8a32282175c964eb15638e8dfe199fc13c060f67 block: fix comment for op_is_zone_mgmt() to include RESET_ALL
+f7e3f852a42d7cd8f1af2c330d9d153e30c8adcf block: fix memory leak in __blkdev_issue_zero_pages
+67582dfd870a138ec385de88c5f9df62a7c20254 nvme-fc: check all request and response have been processed
+f9929c518de861716117e52c363d140e0156e9ad nvmet-fcloop: check all request and response have been processed
+86ef6f7fc7412e462a4e9ae7490862dfee06b913 nvmet-fcloop: remove unused lsdir member.
+b8201b50e403815f941d1c6581a27fdbfe7d0fd4 io_uring/rsrc: clean up buffer cloning arg validation
+e29af2aba262833c8eba578b58d6bbb6b0866a67 io_uring/rsrc: rename misleading src_node variable in io_clone_buffers()
+57413f0899fab78be87bdb4272ac2f8be83a9b39 nvmet-fc: use pr_* print macros instead of dev_*
+525916ce496615f531091855604eab9ca573b195 io_uring/rsrc: fix lost entries after cloned range
+b645d5a25d49a515026ec444f2ccb087fe9daa7f nvme: fix typo error in nvme target
+ce234d838d3b0566bcbf3fd13b546f176564ca07 nvmet-rdma: use kvcalloc for commands and responses arrays
+5c8d134f01556affce430a25e1551d78d45ebc9d nvmet-tcp: use kvcalloc for commands array
+bb9f4cca7c031de6f0e85f7ba24abf0172829f85 nvme-auth: use kvfree() for memory allocated with kvcalloc()
+13989207ee29c40501e719512e8dc90768325895 nvme-fabrics: add ENOKEY to no retry criteria for authentication failures
+78385c7299f7514697d196b3233a91bd5e485591 io_uring/kbuf: use READ_ONCE() for userspace-mapped memory
+980190a9473dd2c842518057bf9ddcbaeba75209 Merge tag 'mfd-next-6.19' of git://git.kernel.org/pub/scm/linux/kernel/git/lee/mfd
+7b8653a5799b9b15d7b3d98a0203d09963be4c87 Merge tag 'leds-next-6.19' of git://git.kernel.org/pub/scm/linux/kernel/git/lee/leds
+d1b46f53a51e328202ae049f44b86336d124aeac Merge tag 'backlight-next-6.19' of git://git.kernel.org/pub/scm/linux/kernel/git/lee/backlight
+5123509628e1ebe74bb5ec801de088f36df07d64 perf tests stat: Add test for error for an offline CPU
+d509d14fff783969904954eaf5d94f092c6fce19 perf stat: Improve handling of termination by signal
+fde4ce068d1bccacf1e2d6a28697a3847f28e0a6 Merge tag 'hid-for-linus-2025120201' of git://git.kernel.org/pub/scm/linux/kernel/git/hid/hid
+6044a1ee9dca906a807ba786421dc4254191ffd5 Merge tag 'devicetree-for-6.19' of git://git.kernel.org/pub/scm/linux/kernel/git/robh/linux
+b0206c4eb6375155b9d50cad1500d2bca5cc8b3f Merge tag 'for-v6.19' of git://git.kernel.org/pub/scm/linux/kernel/git/sre/linux-power-supply
+55a271a0f7e073032e9c8b1c1e30916d90be5a8a Merge tag 'topic/xe-vfio-2025-12-01' of https://gitlab.freedesktop.org/drm/xe/kernel into drm-next
+e73c2262041abd630699224159646aa31e5b7697 Merge tag 'topic/xe-vfio-2025-12-04' of https://gitlab.freedesktop.org/drm/xe/kernel into drm-next
+86fafc584c1977e2bfa05a88bfb8eae78f984f5b Merge tag 'drm-xe-next-fixes-2025-12-04' of https://gitlab.freedesktop.org/drm/xe/kernel into drm-next
+c7685d11108acb387e44e3d81194d0d8959eaa44 Merge tag 'topic/drm-intel-plane-color-pipeline-2025-12-04' of https://gitlab.freedesktop.org/drm/i915/kernel into drm-next
+b1dd1e2f3e4ed970949ab4bb982bb0165f3e979d Merge tag 'efi-next-for-v6.19' of git://git.kernel.org/pub/scm/linux/kernel/git/efi/efi
+43dfc13ca972988e620a6edb72956981b75ab6b0 Merge tag 'pci-v6.19-changes' of git://git.kernel.org/pub/scm/linux/kernel/git/pci/pci
+311607017e13d087161586e1d6cf28bb3a0ca942 virt: Fix Kconfig warning when selecting TSM without VIRT_DRIVERS
+da67179e5538b473a47c87e87cb35b1a7551ad9b drm/nouveau/gsp: Allocate fwsec-sb at boot
+c4cdf7376271bce5714c06d79ec67759b18910eb net: phy: marvell-88q2xxx: Fix clamped value in mv88q2xxx_hwmon_write
+b6b638bda240395dff49a87403b2e32493e56d2a mlxsw: spectrum_router: Fix possible neighbour reference count leak
+8b0e69763ef948fb872a7767df4be665d18f5fd4 mlxsw: spectrum_router: Fix neighbour use-after-free
+8ac1dacec458f55f871f7153242ed6ab60373b90 mlxsw: spectrum_mr: Fix use-after-free when updating multicast route stats
+e7a9530d125becb49393cb476672b1f7d9278256 Merge branch 'mlxsw-three-m-router-fixes'
+dd75c723ef566f7f009c047f47e0eee95fe348ab r8169: fix RTL8117 Wake-on-Lan in DASH mode
+a479a27f4da4d1f8a9b7540a800f80253ed1bad0 gve: Move gve_init_clock to after AQ CONFIGURE_DEVICE_RESOURCES call
+0373d5c387f24de749cc22e694a14b3a7c7eb515 bnxt_en: Fix XDP_TX path
+5797d10ea4fade7df0f920c368cad07f705afc63 Merge tag 'cxl-for-6.19' of git://git.kernel.org/pub/scm/linux/kernel/git/cxl/cxl
+ce5cfb0fa20dc6454da039612e34325b7b4a8243 Merge tag 'iommu-updates-v6.19' of git://git.kernel.org/pub/scm/linux/kernel/git/iommu/linux
+7dfbe9a6751973c17138ddc0d33deff5f5f35b94 crypto/ccp: Fix CONFIG_PCI=n build
+a3ebb59eee2e558e8f8f27fc3f75cd367f17cd8e Merge tag 'vfio-v6.19-rc1' of https://github.com/awilliam/linux-vfio
+056daec2925dc200b22c30419bc7b9e01f7843c4 Merge tag 'for-linus-iommufd' of git://git.kernel.org/pub/scm/linux/kernel/git/jgg/iommufd
+55aa394a5ed871208eac11c5f4677cafd258c4dd Merge tag 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/rdma/rdma
+bc69ed975203c3ffe34f873531f3052914d4e497 Merge tag 'for_linus' of git://git.kernel.org/pub/scm/linux/kernel/git/mst/vhost
+16460bf96c31377c14d9f11a6da8c6f508e3443e Merge tag 'ata-6.19-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/libata/linux
+028bd4a14631ea2a1c923930bff96ffd0fda03a6 Merge tag 'tpmdd-next-6.19-rc1-v4' of git://git.kernel.org/pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+deb879faa9d2f327ac5c079d9d1a1747b79260e3 Merge tag 'drm-next-2025-12-05' of https://gitlab.freedesktop.org/drm/kernel
+0f45353dd48037af61f70df3468d25ca46afe909 Merge tag 'nvme-6.19-2025-12-04' of git://git.infradead.org/nvme into block-6.19
+2061f18ad76ecaddf8ed17df81b8611ea88dbddd Merge tag 'caps-pr-20251204' of git://git.kernel.org/pub/scm/linux/kernel/git/sergeh/linux
+6e9722e9a7bfe1bbad649937c811076acf86e1fd tpm2-sessions: Fix out of range indexing in name_size
+bda1cbf73c6e241267c286427f2ed52b5735d872 tpm2-sessions: Fix tpm2_read_public range checks
+bc677a9216e1396322e42692e9c01cce04a7afc0 tpm2-sessions: Remove 'attributes' parameter from tpm_buf_append_auth
+b7960b90486139022d2d39caad90db252c469bab tpm2-sessions: Open code tpm_buf_append_hmac_session()
+150215b89bcf708356abcb7d3cafdd1e6068598b drivers/xen: use min() instead of min_t()
+52721cfc78c76b09c66e092b52617006390ae96a gpio: regmap: Fix memleak in error path in gpio_regmap_register()
+db9c67bfca8585bb7f00f289056e7b83502861c8 gpio: qixis: select CONFIG_REGMAP_MMIO
+35e282c1868de3c9d15f9a8812cbb2e7da06b0c1 drm/bridge: ti-sn65dsi83: ignore PLL_UNLOCK errors
+479acb9db3199cdb70e5478a6f633b5f20c7d8df drm/plane: Fix IS_ERR() vs NULL check in drm_plane_create_hotspot_properties()
+164312662ae9764b83b84d97afb25c42eb2be473 fbdev: ssd1307fb: fix potential page leak in ssd1307fb_probe()
+f0445613314f474c1a0ec6fa8a5cd153a618f1b6 9p: fix cache/debug options printing in v9fs_show_options
+3e281113f871d7f9c69ca55a4d806a72180b7e8a 9p: fix new mount API cache option handling
+afb9917d9b374ecb77d478c2a052e20875c6e232 Revert "net/socket: convert sock_map_fd() to FD_ADD()"
+8cf01d0c4372ef5777d20c3c3a83936fd1c670f8 mqueue: correct the type of ro to int
+fe93446b5ebdaa89a8f97b15668c077921a65140 vfs: use UAPI types for new struct delegation definition
+c34b04cc6178f33c08331568c7fd25c5b9a39f66 ALSA: hda: cs35l41: Fix NULL pointer dereference in cs35l41_hda_read_acpi()
+79a45ddcdbba330f5139c7c7ff7042d69cf147b2 regulator: fixed: Rely on the core freeing the enable GPIO
+3ce8f4a501f61edbb5cb3fe13520f09ffb33396e ARM: omap1: avoid symbol clashes in fiq handler
+210d77cca3d0494ed30a5c628b20c1d95fa04fb1 ALSA: firewire-motu: fix buffer overflow in hwdep read for DSP events
+d740d52e342bae9c88c719b015d6065783b961a1 ALSA: usb-audio: Initialize status1 to fix uninitialized symbol errors
+68f9bbf4dfc356ccc6586ba6e7dd79576c48f7f0 Merge tag 'samsung-drivers-6.19-2-late' of https://git.kernel.org/pub/scm/linux/kernel/git/krzk/linux into soc/drivers-late
+79edb7f596db99c01b25c1deebeffede6b48b505 Merge tag 'samsung-dt-6.19' of https://git.kernel.org/pub/scm/linux/kernel/git/krzk/linux into soc/dt
+a4c694bfc2455e82b7caf6045ca893d123e0ed11 io_uring/kbuf: use WRITE_ONCE() for userspace-shared buffer ring fields
+5d45c729edd34eae25987b45bb5e0c5a534a9f5b Merge tag 'configfs-for-v6.19' of git://git.kernel.org/pub/scm/linux/kernel/git/a.hindborg/linux
+3ee37abbbd6ebc84284f32b91145932074f9ae47 Merge tag 'pstore-v6.19-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/kees/linux
+ed1b409137bb9f49090362d34360ab80f88b9a5e Merge tag 'hardening-v6.19-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/kees/linux
+55d57b3bcc7efcab812a8179e2dc17d781302997 io_uring/poll: unify poll waitqueue entry and list removal
+5779de8d36ac5a0c929f276096a499b03ae0afa7 Merge tag 'trace-tools-v6.19' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
+36492b7141b9abc967e92c991af32c670351dc16 Merge tag 'tracepoints-v6.19' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
+69c5079b49fa120c1a108b6e28b3a6a8e4ae2db5 Merge tag 'trace-v6.19' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
+0771cee974607ffcf19ff6022f971865db8e0b4a Merge tag 'ftrace-v6.19' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
+0b1b4a3d8ebec3c42231c306d4b9a5153d047674 Merge tag 'trace-rv-6.19' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
+2eeb09fe1c5173b659929f92fee4461796ca8c14 libperf: Use 'extern' in LIBPERF_API visibility macro
+2ba59045fba395c076a4880012583fdac25c6d7f Merge tag 'trace-ringbuffer-v6.19' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
+2e8c1c6a5043999d867d0dcf38be96903c99601a Merge tag 'ktest-v6.19' of git://git.kernel.org/pub/scm/linux/kernel/git/rostedt/linux-ktest
+d1d36025a617906c1f442fe47af4a43532bff374 Merge tag 'probes-v6.19' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
+ac20755937e037e586b1ca18a6717d31b1cbce93 Merge tag 'sysctl-6.19-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/sysctl/sysctl
+2bdc2c0e12fac56e41ec05fb771ead986ea6dac0 drm/nouveau: refactor deprecated strcpy
+d84e47edf156a953ed340ba6a202dcd3ea39ba0a drm/nouveau: fix circular dep oops from vendored i2c encoder
+979e2ec58de2b600955b8290d1df549e33d67347 drm: nouveau: Replace sprintf() with sysfs_emit()
+02e7769e38c87c92b82db59923d3b0598d153903 tracing: Fix enabling of tracing on file release
+47ef834209e5981f443240d8a8b45bf680df22aa tracing: Fix fixed array of synthetic event
+9c3f3b8fea2d615e128418a12c430e2890169859 tracing: Fix typo in fpgraph.c
+2ec7345c2d589f3e7358e753ef5b6ae7be66d846 tracing: Fix typo in fprobe.c
+1edb820ae9779ae29526d4285298b0bf93a8d542 tracing: Fix multiple typos in ring_buffer.c
+81354f63359fb66b205650c62859e0ac414e6ecf tracing: Fix typo in ring_buffer_benchmark.c
+8d4cdbd45cd4c1671359cc408f900d51c7e1d107 tracing: Fix multiple typos in trace.c
+d4290963d5af2f10810a8887c1037f6d70e5a9bd tracing: Fix multiple typos in trace_events.c
+86f320904e2f8795e3f1851f18ad7bf3f43d1c79 tracing: Fix typo in trace_events_filter.c
+c29e75532e98d78cc557038017247643286c4e86 tracing: Fix typo in trace_events_hist.c
+0166d3e31aaf831145520bd8c6f16f6ff5ddb1e6 tracing: Fix typo in trace_events_trigger.c
+6ce5725d73734434ca91bd6d9f24524248584c27 tracing: Fix multiple typos in trace_events_user.c
+fa3f733d97e5482a63e8d55b86810d67999d9f07 tracing: Fix multiple typos in trace_osnoise.c
+0f17df72a7149b65e51e03d4ab7b2fd6d5cab0dc tracing: Fix typo in trace_probe.c
+c5108c58b991cb6cac78947ac3811321895190e2 tracing: Fix typo in trace_seq.c
+7203ca412fc8e8a0588e9adc0f777d3163f8dff3 Merge tag 'mm-stable-2025-12-03-21-26' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
+7cd122b55283d3ceef71a5b723ccaa03a72284b4 Merge tag 'pull-persistency' of git://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs
+9d85ac939d52e93d80efb01a299c6f0bedb30487 cifs: Fix handling of a beyond-EOF DIO/unbuffered read over SMB1
+83bfbd0bb9025f98fa62b44f93bd67466773d1db cifs: Remove the RFC1002 header from smb_hdr
+6be09580df5cf87e601c1ec56b9a0c891d3a0bc8 cifs: Make smb1's SendReceive() wrap cifs_send_recv()
+62432a3f514509b023ae053c4d6d631c2b347e94 cifs: Clean up some places where an extra kvec[] was required for rfc1002
+28405cb5b2fde276036526b0143e60516e26b325 cifs: Replace SendReceiveBlockingLock() with SendReceive() plus flags
+6a86a4cc281a5cfceda7af60ea6fa506b3db7430 cifs: Fix specification of function pointers
+87fba18abbb8433a47045c785f2edc027e4d2bc5 cifs: Remove the server pointer from smb_message
+3a7b6d0afe6e01d054c9334cf1203953a0f72a1e cifs: Don't need state locking in smb2_get_mid_entry()
+f80ac7eda1cf5205aaa2b676827ae1e312a5a894 cifs: Add a tracepoint to log EIO errors
+32a60868093aed5ccaa5e57f3b57f791f22ac133 cifs: Do some preparation prior to organising the function declarations
+ef529f655a2c9f06b4d1cb8f2b3e577c7f6f7012 cifs: client: allow changing multichannel mount options on remount
+4ae4dde6f34a4124c65468ae4fa1f915fb40f900 cifs: Fix handling of a beyond-EOF DIO/unbuffered read over SMB2
+7bfe3b8ea6e30437e01fcb8e4f56ef6e4d986d0f Drivers: hv: Introduce mshv_vtl driver
+c720e6a873cc97bdfe8912986e26ceaeeaa6b240 mshv: Add ioctl for self targeted passthrough hvcalls
+b5110eaf67530091343b519d8abd0cddd14660f2 Drivers: hv: use kmalloc_array() instead of kmalloc()
+9d70ef7a18e0ec1653ac63020a13a5d4dda7cc0d mshv: adjust interrupt control structure for ARM64
+df4ff5f6cf7864714d66c65ec7df582240a596a4 mshv: Refactor and rename memory region handling functions
+6f6aed2c497e8d80d8ed6b5a87c6f65dc7548b8f mshv: Centralize guest memory region destruction
+e950c30a1051d27fd6dd9a48c53ffbc41ee773f2 mshv: Move region management to mshv_regions.c
+abceb4297bf88340ce06016895babe292510a262 mshv: Fix huge page handling in memory region traversal
+c39dda08286f4d5ce4d114f8d5dbfdb85effbd6a mshv: Add refcount and locking to mem regions
+b9a66cd5ccbb9fade15d0e427e19470d8ad35b75 mshv: Add support for movable memory regions
+723c47a221ee407901055c9d9b4434e68c5d650e mshv: Add definitions for MSHV sleep state configuration
+f0be2600ac55a5845d536c56787daca50dbcb2a1 mshv: Use reboot notifier to configure sleep state
+615a6e7d83f958e7ef3bc818e818f7c6433b4c2a mshv: Cleanly shutdown root partition with MSHV
+4b6b4321280ea1ea1e101fd39d8664195d18ecb0 Merge tag 'fuse-update-6.19' of git://git.kernel.org/pub/scm/linux/kernel/git/mszeredi/fuse
+855982a52ff7d188188f0ecf86c2ce95957202c6 smb: client: relax session and tcon reconnect attempts
+a8fce7c807b13be5ccefe8f93528c255d4669d73 smb: client: improve error message when creating SMB session
+7ad785927d9eb348adb381d168ed73d0dd3c7670 smb: client: Add tracepoint for krb5 auth
+6c1eb31ecb97c07b4a880d59b3a83665359def36 smb/client: reduce loop count in map_smb2_to_linux_error() by half
+bf80d1517dc847eb7b4d8b3c14bfe6ed48fa27ae smb/client: remove unused elements from smb2_error_map_table array
+523ecd976632523006c1b442e0eba4fe3c4f7e0c smb: rename to STATUS_SMB_NO_PREAUTH_INTEGRITY_HASH_OVERLAP
+d159702c9492de46cc1b39b3d83fd0c8a6bdb829 smb/client: add two elements to smb2_error_map_table array
+e40e023591ff7fa7863cacced9d6452f7805f8cf Merge tag 'exfat-for-6.19-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/linkinjeon/exfat
+4b9d25b4d38035b7b2624afd6852dfe4684f0226 Merge tag 'vfs-6.19-rc1.fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
+9146c7e53fa8e5024e0f61d67129afd45a179a3b cifs: Remove dead function prototypes
+87c9e88ac4a16a7aba99862c41b33d7eeb75d375 ovl: pass original credentials, not mounter credentials during create
+ad952db4a865e96ec98d4c5874a4699fe3286d56 Merge tag 'powerpc-6.19-1' of git://git.kernel.org/pub/scm/linux/kernel/git/powerpc/linux
+07025b51c1149951d64804c73014499bb3564dca Merge tag 'riscv-for-linus-6.19-mw1' of git://git.kernel.org/pub/scm/linux/kernel/git/riscv/linux
+399ead3a6d76cbdd29a716660db5c84a314dab70 Merge tag 'uml-for-linux-6.19-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/uml/linux
+f50d0328d02fe38ba196a73c143e5d87e341d4f7 nfs/localio: remove alignment size checking in nfs_is_local_dio_possible
+0b873de2c02f9cc655bef6bee0eb9e404126ed6c nfs/localio: remove 61 byte hole from needless ____cacheline_aligned
+bd3b04b46c7a9940989ff4b29376e899e93d3a4a NFSv4: Handle NFS4ERR_NOTSUPP errors for directory delegations
+51d90a15fedf8366cb96ef68d0ea2d0bf15417d2 Merge tag 'for-linus' of git://git.kernel.org/pub/scm/virt/kvm/kvm
+b4c6c76e4039366017a4f568672e4ea9fc82f97d Merge tag 'soc-defconfig-6.19' of git://git.kernel.org/pub/scm/linux/kernel/git/soc/soc
+09cab48db950b6fb8c114314a20c0fd5a80cf990 Merge tag 'soc-arm-6.19' of git://git.kernel.org/pub/scm/linux/kernel/git/soc/soc
+0cac5ce06e524755b3dac1e0a060b05992076d93 Merge tag 'soc-dt-6.19' of git://git.kernel.org/pub/scm/linux/kernel/git/soc/soc
+66a1025f7f0bc00404ec6357af68815c70dadae2 Merge tag 'soc-newsoc-6.19' of git://git.kernel.org/pub/scm/linux/kernel/git/soc/soc
+208eed95fc710827b100266c9450ae84d46727bd Merge tag 'soc-drivers-6.19' of git://git.kernel.org/pub/scm/linux/kernel/git/soc/soc
+11efc1cb7016e300047822fd60e0f4b4158bd56d Merge tag 'soc-drivers-6.19-2' of git://git.kernel.org/pub/scm/linux/kernel/git/soc/soc
+3af870aedbff10bfed220e280b57a405e972229f nfs/localio: fix regression due to out-of-order __put_cred
+10eda1c51cbbd7f3f9f1f481b6725105aca4982a LoongArch: Select HAVE_ARCH_BITREVERSE in Kconfig
+17fcc4bd7edcd74bae286754ac3a377c9886b3fd LoongArch: Simplify __arch_bitrev32() implementation
+3c250aecef62da81deb38ac6738ac0a88d91f1fc LoongArch: Fix build errors for CONFIG_RANDSTRUCT
+a91b446e359aa96cc2655318789fd37441337415 LoongArch: Fix arch_dup_task_struct() for CONFIG_RANDSTRUCT
+4a71df151e703b5e7e85b33369cee59ef2665e61 LoongArch: Use __pmd()/__pte() for swap entry conversions
+a258a3cb1895e3acf5f2fe245d17426e894bc935 LoongArch: Use unsigned long for _end and _text
+1de0ae21f136efa6c5d8a4d3e07b7d1ca39c750f LoongArch: Correct the calculation logic of thread_count
+dbb994b44c330ea8e90c3f77a18449cfe64256f4 LoongArch: Add and use some macros for AVEC
+bf3fa8f232a1eec8d7b88dcd9e925e60f04f018d LoongArch: Add new PCI ID for pci_fixup_vgadev()
+79974cc3ba45f3884e9c18da92a62b198a18ca62 LoongArch: Add atomic operations for 32BIT/64BIT
+81f5d15c48c441a2dadd3c4132fb80d8404fe7af LoongArch: Add adaptive CSR accessors for 32BIT/64BIT
+708ed32c84ccfa35a62da03a336f88c0df54ab52 LoongArch: Adjust common macro definitions for 32BIT/64BIT
+7eb7f5723df50a7d5564aa609e4c147f669a5cb4 Merge tag 'scsi-misc' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
+f19b84186d297063a1006ca9e1c8597f77a75581 Merge tag 'media/v6.19-2' of git://git.kernel.org/pub/scm/linux/kernel/git/mchehab/linux-media
+001eefb503901603de48b8dcaf06155036ed7452 Merge tag 'tpmdd-sessions-next-6.19-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+096571bb893b3777ae1d752b7e1d5679bcf4edfc Merge tag 'ata-6.19-rc1-part2' of git://git.kernel.org/pub/scm/linux/kernel/git/libata/linux
+b1ae17cd0f0a2ffe1e9da007587c8eebb1bf8c69 Merge tag 'for-linus-6.19-1' of https://github.com/cminyard/linux-ipmi
+416f99c3b16f582a3fc6d64a1f77f39d94b76de5 Merge tag 'driver-core-6.19-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/driver-core/driver-core
+90dfeef1cd38dff19f8b3a752d13bfd79f0f7694 seqlock: Cure some more scoped_seqlock() optimization fails
+dde3763365d80398d1465214458d0c38cc32de9c sched/headers: Remove whitespace noise from kernel/sched/sched.h
+e38e5299747b23015b00b0109891815db44a2f30 sched/hrtick: Fix hrtick() vs. scheduling context
+22abd832776b1317ae4c3f8a097c8b71bf83fb38 sched/rt: Remove a preempt-disable section in rt_mutex_setprio()
+ca125231dd29fc0678dd3622e9cdea80a51dffe4 sched/fair: Fix unfairness caused by stalled tg_load_avg_contrib when the last task migrates out
+c2ae8b0df2d1bb7a063f9e356e4e9a06cd4afe11 sched/core: Fix psi_dequeue() for Proxy Execution
+dd44d4d0c55a4ecf5eabf7856f96ed47e0684780 gpio: tb10x: fix OF_GPIO dependency
+c84d574698bad2c02aad506dfe712f83cbe3b771 Merge tag 'modules-6.19-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/modules/linux
+309e49039f124a9dcb99c05651af8eb8fa05bc29 rust: sync: atomic: separate import "blocks"
+f468cf53c5240bf5063d0c6fe620b5ae2de37801 Merge tag 'bitmap-for-6.19' of github.com:/norov/linux
+a7405aa92feec2598cedc1b6c651beb1848240fe Merge tag 'dma-mapping-6.19-2025-12-05' of git://git.kernel.org/pub/scm/linux/kernel/git/mszyprowski/linux
+56a1a04dc9bf252641c622aad525894dadc61a07 Merge tag 'libnvdimm-for-6.19' of git://git.kernel.org/pub/scm/linux/kernel/git/nvdimm/nvdimm
+10003ff8ce7273d1fe045d63d1a5c9d979e3d47e Merge tag 'turbostat-v2025.12.02' of git://git.kernel.org/pub/scm/linux/kernel/git/lenb/linux
+eee654ca9a55fd1e8632afb119975cba6af7d4ad Merge tag 'landlock-6.19-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/mic/linux
+e637b37a520513a04d00f4add07ec25f357e6c6d Merge tag 'rproc-v6.19' of git://git.kernel.org/pub/scm/linux/kernel/git/remoteproc/linux
+973ec55764d0f0e25d495392477056d6a0be4660 Merge tag 'rpmsg-v6.19' of git://git.kernel.org/pub/scm/linux/kernel/git/remoteproc/linux
+fbff94967958e46f7404b2dfbcf3b19e96aaaae2 Merge tag 'linux-watchdog-6.19-rc1' of git://www.linux-watchdog.org/linux-watchdog
+249872f53d64441690927853e9d3af36394802d5 Merge tag 'tsm-for-6.19' of git://git.kernel.org/pub/scm/linux/kernel/git/devsec/tsm
+1a68aefc710a9f5486c90c87f0424d4912429adb Merge tag 'for-linus-6.19-rc1-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/xen/tip
+b0319c4642638bad4b36974055b1c0894b2c7aa9 Merge tag 'nfsd-6.19' of git://git.kernel.org/pub/scm/linux/kernel/git/cel/linux
+5e5ea7f61610239fca058011e7d4f342b34d1558 iommu/amd: fix SEV-TIO support reporting
+92fc1f16e22f97dd5897c9200e620ebc287e50ef Merge tag 'locking-urgent-2025-12-06' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+08b8ddac1f4339fbf950df45590a032578ec35f7 Merge tag 'objtool-urgent-2025-12-06' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+09bcd5ef66a2524545dc0bc834140606f4180d0f Merge tag 'sched-urgent-2025-12-06' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+cc3ee4ba57b76deefb52aee5f57a46dc07bda9f7 Merge tag 'x86-urgent-2025-12-06' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+09670b8c38b37bc2d6fc5d01fa7e02c38f7adf36 Merge tag 'trace-v6.19-2' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
+509d3f45847627f4c5cdce004c3ec79262b5239c Merge tag 'mm-nonmm-stable-2025-12-06-11-14' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
+c06c303832ecd5edef90c6817a6eb0eb7fed7a64 ocfs2: fix xattr array entry __counted_by error
+0d1d44032f7b8b9edb14e82315fdf504740940c1 Merge tag 'fbdev-for-6.19-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/deller/linux-fbdev
+50471f8b7371c95c72c168eb45e4f42f1514fd5e Merge tag 'parisc-for-6.19-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/deller/parisc-linux
+701d7d782d98242a64cdeed90750f88ff733bc39 Merge tag 'spdx-6.19-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/spdx
+83bd89291f5cc866f60d32c34e268896c7ba8a3d Merge tag 'char-misc-6.19-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/char-misc
+edf602a17b03e6bca31c48f34ac8fc3341503ac1 Merge tag 'tty-6.19-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/tty
+f5e9d31e79c1ce8ba948ecac74d75e9c8d2f0c87 Merge tag 'usb-6.19-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/usb
+37bb2e7217b01404e2abf9d90d8e5705a5603b52 Merge tag 'staging-6.19-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/staging
+f8b1ff655586846103ef890b53527dace4f45eff ALSA: hda/realtek: Add support for HP Turbine Laptops
+826c0b1ed09e5335abcae07292440ce72346e578 ALSA: hda/realtek: Add support for ASUS UM3406GA
+85a6544777e0f57cce902f7217a377eb74b7d1a4 ALSA: hda: dt-bindings: add CIX IPBLOQ HDA controller support
+a4f2fa516e83f11c3792405599613c12efe6135e ALSA: hda/core: add addr_offset field for bus address translation
+d91e9bd10125a9b0427420453b11f56228a6d6d0 ALSA: hda: add CIX IPBLOQ HDA controller support
+74ac7558ea7630113f0477cff1c718f5b1f54ec8 ALSA: Do not build obsolete API
+9e906a9dead17d81d6c2687f65e159231d0e3286 Merge tag 'perf-tools-for-v6.19-2025-12-06' of git://git.kernel.org/pub/scm/linux/kernel/git/perf/perf-tools
+d9f59178011265344a4864757cf21523668a2a75 s390/vmur: Use scnprintf() instead of sprintf()
+1442bb87b878f889442c7e8e83d9125e31ef5072 s390/boot: Use entire page for PTEs
+6a35d02fec5a1e2ab6c0c94ccc5b0c57a580b098 s390/vmem: Support 2G page splitting for KASAN shadow freeing
+8543ecc0e03b9367e36a93d82bdef0bf5a16dc56 s390: Unmap early KASAN shadow on memory offlining
+eb9780a1a3c4ffc1f383991ce3fc50da1fe4390d s390: Select POSIX_CPU_TIMERS_TASK_WORK
+455a65260f526cedd4680d4836ebdf2eaf1ab4c6 genirq: Change hwirq parameter to irq_hw_number_t
+f770950a4709af290f314e691897ec0003fbd8ae s390/pci: Migrate s390 IRQ logic to IRQ domain API
+bbbf7f32843b5788786cd8d91e9430823c2777c9 Merge tag '9p-for-6.19-rc1' of https://github.com/martinetd/linux
+67a454e6b1c604555c04501c77b7fedc5d98a779 Merge tag 'memblock-6.19-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/rppt/memblock
+0f35040de59371ad542b915d7b91176c9910dadc mm/slab: introduce kvfree_rcu_barrier_on_cache() for cache destruction
+d8f52650b24d9018dfb65d2c60e17636b077e63e smb/client: update some SMB2 status strings
+670d7ef945d3a84683594429aea6ab2cdfa5ceb4 hwmon: (w83791d) Convert macros to functions to avoid TOCTOU
+fae00a7186cecf90a57757a63b97a0cbcf384fe9 hwmon: (dell-smm) Fix off-by-one error in dell_smm_is_visible()
+541dfb49dcb80c2509e030842de77adfb77820f5 hwmon: (emc2305) fix double put in emc2305_probe_childs_from_dt
+4910da6b36b122db50a27fabf6ab7f8611b60bf8 hwmon: (emc2305) fix device node refcount leak in error path
+08bfcf4ff9d39228150a757803fc02dffce84ab0 docs: hwmon: fix link to g762 devicetree binding
+ba65a4e7120a616d9c592750d9147f6dcafedffa Merge tag 'clk-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/clk/linux
+a6ee6aac66fb394b7f6e6187c73bdcd873f2d139 i2c: amd-mp2: fix reference leak in MP2 PCI device
+25faa5364638b86ec0d0edb4486daa9d40a0be8f i2c: spacemit: fix detect issue
+c2f2b01b74be8b40a2173372bcd770723f87e7b2 Merge tag 'i3c/for-6.19' of git://git.kernel.org/pub/scm/linux/kernel/git/i3c/linux
+eaa0870387f9ecbd2992ca58e73f3c7768815e8b i3c: master: switch to use new callback .i3c_xfers() from .priv_xfers()
+2d967310c49ed93ac11cef408a55ddf15c3dd52e gpiolib: acpi: Add quirk for Dell Precision 7780
+18223eececd66365c12275f09042e6fcb2ac5748 of: base: Add of_property_read_u8_index
+6504fe8cd21f624fcf21d3b60e64cf10d213cf75 soundwire: qcom: remove unused rd_fifo_depth
+8114a05cdc20d3d8eb1b8639da33c193b53fe073 dt-bindings: soundwire: qcom: deprecate qcom,din/out-ports
+9e53a66a2f2fd2c379fa1bd782e5cee37b0f75d3 soundwire: qcom: deprecate qcom,din/out-ports
+6ed85ea1b17b0d2d1f345ded22891c8ca17a9ac8 soundwire: qcom: prepare for v3.x
+66eca4b7d2d2d7b35625bea47f2ebdac2eab3615 dt-bindings: soundwire: qcom: Document v3.1.0 version of IP block
+b2bfe0fa1f85acd928eaa407a89411c01a4f87a8 soundwire: qcom: adding support for v3.1.0
+4be4ac36f6ca5d3854049581be3aca20345bbe01 soundwire: cadence_master: make frame index trace more readable
+43b2a39183c738095a5f0b3f00fd2e57e5a48149 soundwire: only compute BPT stream in sdw_compute_dp0_port_params
+5a838e010c64b794ac990e9b19bfb0bf7083a1f2 soundwire: cadence_master: set data_per_frame as frame capability
+57b3a7b27e0b72df4ccee89719de12719aa9d547 soundwire: cadence: export sdw_cdns_bpt_find_bandwidth
+167efc6dfd621494c6a7e47115dc829dcc0e502c ASoC: SOF: Intel: export hda_sdw_bpt_get_buf_size_aligment
+9468bc0e1b95b6c737a79ae8aaeb87c16caeb3af soundwire: cadence_master: add fake_size parameter to sdw_cdns_prepare_read_dma_buffer
+8931f5bce4f159a0dd438c093255d88cb8e00516 soundwire: intel_ace2x: add fake frame to BRA read command
+fdfa1960eee7591995cf877e9caf9cf5794ab91f soundwire: introduce BPT section
+fe8a9cf75c1efc659dbb5f53d744e6f4e8552dda soundwire: pass sdw_bpt_section to cdns BPT helpers
+188d194be2bfe03afcc02c90d9d905b46a17f3ef soundwire: intel_ace2x: handle multi BPT sections
+463d439becb81383f3a5a5d840800131f265a09c dma/pool: eliminate alloc_pages warning in atomic_pool_expand
+31b931bebd11a0f00967114f62c8c38952f483e5 dma-mapping: Fix DMA_BIT_MASK() macro being broken
+7b2afeafaf9c2d584439fc14fdc1462425b41fd3 LoongArch: Adjust boot & setup for 32BIT/64BIT
+dd55dd0d7e5ddceb6df451dac208af38609d1963 LoongArch: Adjust memory management for 32BIT/64BIT
+4ad04e7c7eed8583bd49509f4aad4d28bc4b399d LoongArch: Adjust process management for 32BIT/64BIT
+ced7814d3a5c2275d59cb3f4bd9fa2aec8d8529a LoongArch: Adjust time routines for 32BIT/64BIT
+3f63ac8d287b2199318ee38975ed53894067fb65 LoongArch: Adjust module loader for 32BIT/64BIT
+14338e631afd6d4b2c2f8fb7deba786d86c40fad LoongArch: Adjust system call for 32BIT/64BIT
+48c7294775be0f17ffd8a7d5ef0df3ab5e696ab4 LoongArch: Adjust user accessors for 32BIT/64BIT
+b15dfdacd99dc0014413c71bc1157fc4e895ce68 LoongArch: Adjust misc routines for 32BIT/64BIT
+4cd09f356ecc61fba53dfd27f98ecd4b8f61bdb7 LoongArch: Adjust VDSO/VSYSCALL for 32BIT/64BIT
+be77cf43d2fd6eca150594e997e40ca7df90f251 LoongArch: Adjust default config files for 32BIT/64BIT
+f60d68e697ceb8a55c292060bd2041c6013e8c01 Merge tag 'i2c-host-6.19-v2' of git://git.kernel.org/pub/scm/linux/kernel/git/andi.shyti/linux into i2c/for-mergewindow
+d202341d9b0c5b5965787061ba0d10daafb9d6c5 i2c: qcom-cci: Add msm8953 compatible
+2f393c228cc519ddf19b8c6c05bf15723241aa96 KVM: s390: Fix gmap_helper_zap_one_page() again
+9a97857db0c5655b8932f86b5d18bb959079b0ee ALSA: uapi: Fix typo in asound.h comment
+1a82d430c5f05d4bf15b86a9f0349e4a24ec485c s390/bug: Add missing CONFIG_BUG ifdef again
+70075e3d0ca0b72cc983d03f7cd9796e43492980 s390/bug: Add missing alignment
+b2849bec936be642b5420801f902337f2507648e KVM: VMX: Update SVI during runtime APICv activation
+29763138830916f46daaa50e83e7f4f907a3236b KVM: nVMX: Immediately refresh APICv controls as needed on nested VM-Exit
+d4b69a6186b215d2dc1ebcab965ed88e8d41768d SUNRPC: svcauth_gss: avoid NULL deref on zero length gss_token in gss_read_proxy_verf
+a8ee9099f30654917aa68f55d707b5627e1dbf77 svcrdma: use rc_pageoff for memcpy byte offset
+94972027ab55b200e031059fd6c7a649f8248020 svcrdma: return 0 on success from svc_rdma_copy_inline_range
+d1bea0ce35b6095544ee82bb54156fc62c067e58 svcrdma: bound check rq_pages index in inline path
+ebae102897e760e9e6bc625f701dd666b2163bd1 nfsd: Mark variable __maybe_unused to avoid W=1 build break
+517a44d18537ef8ab888f71197c80116c14cee0a sched_ext: Fix the memleak for sch->helper objects
+12b5cd99a05f7cbc2ceb88b3b9601d404ef2236a sched/ext: Avoid null ptr traversal when ->put_prev_task() is called with NULL next
+3309b63a2281efb72df7621d60cc1246b6286ad3 cgroup: rstat: use LOCK CMPXCHG in css_rstat_updated
+491adc6a0f9903c32b05f284df1148de39e8e644 drm/ttm: Avoid NULL pointer deref for evicted BOs
+bf2084a7b1d75d093b6a79df4c10142d49fbaa0e drm/amdkfd: Use huge page size to check split svm range alignment
+b7851f8c66191cd23a0a08bd484465ad74bbbb7d drm/amdkfd: Trap handler support for expert scheduling mode
+3c41114dcdabb7b25f5bc33273c6db9c7af7f4a7 drm/amd/display: Use GFP_ATOMIC in dc_create_plane_state()
+eb296c09805ee37dd4ea520a7fb3ec157c31090f drm/amdgpu: don't attach the tlb fence for SI
+cf841f6abc26e455c68725e071450d6a29a53611 drm/amd/display: Refactor dml_core_mode_support to reduce stack frame
+8fc2796dea6f1210e1a01573961d5836a7ce531e drm/amdkfd: Export the cwsr_size and ctl_stack_size to userspace
+7329417fc9ac128729c3a092b006c8f1fd0d04a6 drm/amd/display: shrink struct members
+cf326449637a566ba98fb82c47d46cd479608c88 drm/amdkfd: bump minimum vgpr size for gfx1151
+87213b0d847cd300285b5545598e0548baeb5208 ublk: allow non-blocking ctrl cmds in IO_URING_F_NONBLOCK issue
+564d59410c39d1adb3e245f58663bad86636adaf btrfs: tests: fix double btrfs_path free in remove_extent_ref()
+266273eaf4d99475f1ae57f687b3e42bc71ec6f0 btrfs: don't log conflicting inode if it's a dir moved in the current transaction
+5630f7557de61264ccb4f031d4734a1a97eaed16 btrfs: do not skip logging new dentries when logging a new name
+feb06d2690bb826fd33798a99ce5cff8d07b38f9 Merge tag 'hyperv-next-signed-20251207' of git://git.kernel.org/pub/scm/linux/kernel/git/hyperv/linux
+73c4638a2864e69ff2251080ce874d360fd13056 rtc: s35390a: use u8 instead of char for register buffer
+53e71c177cd84982138457b617342f68511e0b64 rtc: Kconfig: add MC34708 to mc13xxx help text
+b665c1b620e75e85ea85215735130fd4597bc47f rtc: tegra: Use devm_clk_get_enabled() in probe
+0a293451030b4ad69026b77c7d6b6bdf5cafd7e4 rtc: tegra: Add ACPI support
+bf5ef3ce42da98c59d820dfdd9513ff210622f32 rtc: tegra: Replace deprecated SIMPLE_DEV_PM_OPS
+4800046b56a5b240ab280f55165484a9dbdf7092 dt-bindings: rtc: renesas,rz-rtca3: Add RZ/V2H support
+6ada8e24238dd57b38faca503b09757e17819b05 rtc: renesas-rtca3: Add support for multiple reset lines
+e0784949c65b1d961d101325b11e43eb306ad04b rtc: isl12026: Add id_table
+40d8123ff7492d014d9396a458b344d59cec3c6b MAINTAINERS: drop unneeded file entry in NVIDIA VRS RTC DRIVER
+0623fdf30b1105c22f58baeeca954c803bdf5f8b Merge tag 'phy-for-6.19' of git://git.kernel.org/pub/scm/linux/kernel/git/phy/linux-phy
+990fa99821b3349a766881c9f152561f722213e3 Merge tag 'dmaengine-6.19-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/vkoul/dmaengine
+07049187e83072e187d7a9f3386286e59c83e8ee dt-bindings: rtc: Add Apple SMC RTC
+49a51df427dbb5bab9b3341a3a59c248bab79d50 rtc: Add new rtc-macsmc driver for Apple Silicon Macs
+22a6db42253744f0f54ab632da0140b690feb44d Documentation: ABI: testing: Fix "upto" typo in rtc-cdev
+a110f942672c8995dc1cacb5a44c6730856743aa Merge tag 'pinctrl-v6.19-1' of git://git.kernel.org/pub/scm/linux/kernel/git/linusw/linux-pinctrl
+d1220e47e4bd2be8b84bc158f4dea44f2f88b226 rtc: gamecube: Check the return value of ioremap()
+a585c7ef9cabda58088916baedc6573e9a5cd2a7 drm/tilcdc: Fix removal actions in case of failed probe
+f07640f9fb8df2158199da1da1f8282948385a84 rtc: max31335: Fix ignored return value in set_alarm
+159a740c768e4e8fe3c63d20055bf54de29c0c02 rtc: atcrtc100: Fix signedness bug in probe()
+16bd954c93360145bc77cc601e350913fc28182d rtc: spacemit: MFD_SPACEMIT_P1 as dependencies
+3cec82b4fc6a1025d4b9cfb74fbca8a363bb5cbe alpha: Replace __ASSEMBLY__ with __ASSEMBLER__ in the alpha headers
+9aeed9041929812a10a6d693af050846942a1d16 alpha: don't reference obsolete termio struct for TC* constants
+2e1da460916626fedbbc8518b9c4e1b064f201ed drm/amd/display: Improve HDMI info retrieval
+2fb6915fa22dc5524d704afba58a13305dd9f533 compiler_types.h: add "auto" as a macro for "__auto_type"
+b3b8767c290102a8d95b9d12585cc1e03381ce3f include/linux: change "__auto_type" to "auto"
+75beb7effa0495ae6ef6481ed507d2b9ba4abb20 fs/proc: replace "__auto_type" with "const auto"
+add9b1be777d2a4a62933b703de5bb1bd1926e85 arch/nios2: replace "__auto_type" and adjacent equivalent with "auto"
+2a5b286bee941c4b8ed359de82398a1a3a19b7db arch/x86: replace "__auto_type" with "auto"
+c278d72b99ca92e4227bda70ded38e7e7a3625f8 selftests/bpf: replace "__auto_type" with "auto"
+4ecc26fa585216f98d71411ce182f9e823d94c8c tools/virtio: replace "__auto_type" with "auto"
+b88b2f82fab45521cb32c0b737266d90a66a748f Merge tag 'hwmon-for-v6.19-take-2' of git://git.kernel.org/pub/scm/linux/kernel/git/groeck/linux-staging
+70e3083ec686100682c146346efc2b3780d717df Merge tag 'ubifs-for-linus-6.19-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/rw/ubifs
+4482ebb2970efa58173075c101426b2f3af40b41 Merge tag 'block-6.19-20251208' of git://git.kernel.org/pub/scm/linux/kernel/git/axboe/linux
+cfd4039213e7b5a828c5b78e1b5235cac91af53d Merge tag 'io_uring-6.19-20251208' of git://git.kernel.org/pub/scm/linux/kernel/git/axboe/linux
+99f0c3a654c4a762aca4fadc8d9f8636b36d570a regulator: spacemit: Align input supply name with the DT binding
+8cef9b451dc6fdf86b92c7a35d55a47465d500db spi: microchip-core: Fix an error handling path in mchp_corespi_probe()
+429c4727011ead99129b14dc9ff4c87a747a50ab Merge branch 'next' into for-linus
+14be351e5cd07349377010e457a58fac99201832 scsi: ufs: core: Fix an error handler crash
+d2875b812b141d0c449541976d92c8d89b94ec72 scsi: ufs: core: Fix a deadlock in the frequency scaling code
+fd81bc5cca8fc6936a8988de6b5d4c5693b6587e scsi: device_handler: Return error pointer in scsi_dh_attached_handler_name()
+cb015814f8b6eebcbb8e46e111d108892c5e6821 Merge tag 'f2fs-for-6.19-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/jaegeuk/f2fs
+362432e9b9aefb914ab7d9f86c9fc384a6620c41 scsi: libsas: Add rollback handling when an error occurs
+946574434aa9cfe175c3e8234734a3822410ff53 scsi: ufs: qcom: Fix confusing cleanup.h syntax
+428e1b114c1ae94c44f0ae3a15dafcfae4d8a0b4 Revert "btrfs: add ASSERTs on prealloc in qgroup functions"
+b0ff70e9d4fe46cece25eb97b9b9b0166624af95 ASoC: cs35l41: Always return 0 when a subsystem ID is found
+313ef70a9f0f637a09d9ef45222f5bdcf30a354b btrfs: fix a potential path leak in print_data_reloc_error()
+9e7a40a2841483d7bf51b8d9a5e1f0633a5c7a26 gpio: shared: ignore disabled nodes when traversing the device-tree
+e2c4175b8d3b3ea65fc3801c190bd93fe8b7a7a9 gpio: shared: fix NULL-pointer dereference in teardown path
+c904a0d8525d5f03529ae3176e99bd32466ece7b gpio: shared: check if a reference is populated before cleaning its resources
+d382c765d083ad871b4a053059351edd348a2442 gpio: shared: fix auxiliary device cleanup order
+ea513dd3c066074b12e788114b45e0f2bda382cc gpio: shared: make locking more fine-grained
+298e753880b6ea99ac30df34959a7a03b0878eed ALSA: firewire-motu: add bounds check in put_user loop for DSP events
+3d99347a2e1ae60d9368b1d734290bab1acde0ce Merge tag 'v6.19-rc-part1-smb3-client-fixes' of git://git.samba.org/sfrench/cifs-2.6
+2183a5c8a04f554d03174ddcfd0078b44217fa54 af_unix: annotate unix_gc_lock with __cacheline_aligned_in_smp
+e9e5047df953c9b1054d9a3c7b07c68ab2714263 mptcp: select CRYPTO_LIB_UTILS instead of CRYPTO
+e56cadaa27fd156106c5583ed98976927c6febc9 ynl: add regen hint to new headers
+db6b35cffe59c619ea3772b21d7c7c8a7b885dc1 tools: ynl: fix build on systems with old kernel headers
+0ace3297a7301911e52d8195cb1006414897c859 mptcp: pm: ignore unknown endpoint flags
+29f4801e9c8dfd12bdcb33b61a6ac479c7162bd7 selftests: mptcp: pm: ensure unknown flags are ignored
+2ea6190f42d0416a4310e60a7fcb0b49fcbbd4fb mptcp: schedule rtx timer only after pushing data
+ffb8c27b0539dd90262d1021488e7817fae57c42 mptcp: avoid deadlock on fallback while reinjecting
+186468c67fc687650b7fb713d8c627d5c8566886 Merge branch 'mptcp-misc-fixes-for-v6-19-rc1'
+edb924a7211c9aa7a4a415e03caee4d875e46b8e ARM: 9464/1: fix input-only operand modification in load_unaligned_zeropad()
+dea20281ac88226615761c570c8ff7adc18e6ac2 ARM: group is_permission_fault() with is_translation_fault()
+a061deb0b4d56a9213bc05c1abe626fdd303ee52 ASoC: cs35l56: Fix incorrect select SND_SOC_CS35L56_CAL_SYSFS_COMMON
+01439286514ce9d13b8123f8ec3717d7135ff1d6 perf/x86/amd/uncore: Fix the return value of amd_uncore_df_event_init() on error
+c418d8b4d7a43a86b82ee39cb52ece3034383530 perf/core: Fix missing read event generation on task exit
+460b31720369fc77c23301708641cfa1bf2fcb8f drm/i915/fbdev: Hold runtime PM ref during fbdev BO creation
+1c7f9e528f8f488b060b786bfb90b40540854db3 drm/i915: Fix format string truncation warning
+53280e398471f0bddbb17b798a63d41264651325 bcache: fix improper use of bi_end_io
+cfdeb588ae1dff5d52da37d2797d0203e8605480 block: prohibit calls to bio_chain_endio
+db339b4067eccb7fa3d9787d5d3ab5d466fd9efa ublk: don't mutate struct bio_vec in iteration
+59e25ef2b413c72da6686d431e7759302cfccafa block: Use RCU in blk_mq_[un]quiesce_tagset() instead of set->tag_list_lock
+94bf74830a977a027042f685c7231c5e07cc3372 PCI: rzg3s-host: Initialize MSI status bitmap before use
+fc6bcf9ac4de76f5e7bcd020b3c0a86faff3f2d5 powerpc/pseries/cmm: call balloon_devinfo_init() also without CONFIG_BALLOON_COMPACTION
+0da2ba35c0d532ca0fe7af698b17d74c4d084b9a powerpc/pseries/cmm: adjust BALLOON_MIGRATE when migrating pages
+1cba2eba9b73d8dfee6b3e7465f510cace71637c mm/sparse: fix sparse_vmemmap_init_nid_early definition without CONFIG_SPARSEMEM
+bdd0d69a32c2aa6437d23e35acc705758b835a75 mm/huge_memory: change folio_split_supported() to folio_check_splittable()
+5842bcbfc316738cbfcbdb4def5a7592aa03ebf2 mm/huge_memory: replace can_split_folio() with direct refcount calculation
+2f78910659c72807b7ff03a2c0d121901bf55848 mm/huge_memory: make min_order_for_split() always return an order
+9dcdc0c207fe32c576f1359deaf0efece9f36ca2 mm/huge_memory: fix folio split stats counting
+40a4af52e0472dfc114aa78d6f3debec70b42048 mm: fix CONFIG_STACK_GROWSUP typo in mm.h
+9ee5d1766c8bfa4924bd47e31c4dd193493f5a45 mm/hugetlb: fix incorrect error return from hugetlb_reserve_pages()
+12c1fa8d4631e5fa8d1611379fc6babb558755e1 MAINTAINERS: add idr core-api doc file to XARRAY
+49d921b471c51316ccfd659f4d81efbbbe3613db mm: vmscan: correct nr_requested tracing in scan_folios
+dafdba0964bd10913fbaa5537201cbbe05df5b9c mm/damon/tests/core-kunit: avoid damos_test_commit stack warning
+c752c21c90b808a059ae8e0070ff7566a65f8577 Merge tag 'auto-type-conversion-for-v6.19-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/hpa/linux-auto
+12eef14bcbac77bd08dc5693ad5818e69993246f lockref: add a __cond_lock annotation for lockref_put_or_lock
+7a3984bbd69055898add0fe22445f99435f33450 Merge tag 'mips_6.19' of git://git.kernel.org/pub/scm/linux/kernel/git/mips/linux
+9f20d9bad51635973fb1117544033bb03c4c3224 Merge tag 'pm-6.19-rc1-2' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
+9d588a1140b9ae211581a7a154d0b806d8cd8238 Merge tag 'platform-drivers-x86-v6.19-1' of git://git.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+c9b47175e9131118e6f221cc8fb81397d62e7c91 Merge tag 'i2c-for-6.19-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
+43169328c7b4623b54b7713ec68479cebda5465f lib/crypto: riscv/chacha: Avoid s0/fp register
+1cd5bb6e9e027bab33aafd58fe8340124869ba62 lib/crypto: riscv: Depend on RISCV_EFFICIENT_VECTOR_UNALIGNED_ACCESS
+2e8f7b170a085f0f5522f262bffe92d6ec911abb lib/crypto: blake2b: Roll up BLAKE2b round loop on 32-bit
+68b233b1d583f7d869fbb3afe2b0531138e001f7 lib/crypto: blake2s: Replace manual unrolling with unrolled_full
+a9a8b1a383254c9f4ed7fe23b56937f8ad3ad3ab crypto/arm64: aes/xts - Use single ksimd scope to reduce stack bloat
+6f7d9481920e1bc06ff21c1e6a84fdea49c6ec3d crypto/arm64: sm4/xts - Merge ksimd scopes to reduce stack bloat
+e15cb2200b934e507273510ba6bc747d5cde24a3 io_uring: fix min_wait wakeups for SQPOLL
+f34836a8ddf9216ff919927cddb705022bf30aab ASoC: amd: acp: update tdm channels for specific DAI
+89acaa5537a29c742d7a6ed7241fc4cf5e2ef818 genirq: Allow NULL affinity for setup_percpu_irq()
+7a7e836684feb33d4f5418e8bd44101faf6b3f44 tracing: Fix unused tracepoints when module uses only exported ones
+55026a9670ce8b7b3d74f7d570de1382cbfb395d irqdomain: Delete irq_domain_add_tree()
+2c22361ab628adbca82ab2da6d41b7cfeb14b83c MAINTAINERS: Add tracepoint-update.c to TRACING section
+01ab0d1640e379f0a0d6602250b33ff2b45e9560 smb/server: rename include guard in smb_common.h
+98def4eb0244fbc840eb4aff16573c3924462ccd smb/server: remove unused nterr.h
+2e0d224d89884819e6f25953bbe860ae6a49555f smb/server: add comment to FileSystemName of FileFsAttributeInformation
+7dbc0d40d8347bd9de55c904f59ea44bcc8dedb7 irqchip/mchp-eic: Fix error code in mchp_eic_domain_alloc()
+565848bb3bcdf166fd3ff982376b30806eec0180 Merge tag 'csky-for-linus-6.19' of https://github.com/c-sky/csky-linux
+a1237c203f1757480dc2f3b930608ee00072d3cc smb/client: fix NT_STATUS_NO_DATA_DETECTED value
+b2b50fca34da5ec231008edba798ddf92986bd7f smb/client: fix NT_STATUS_DEVICE_DOOR_OPEN value
+9f99caa8950a76f560a90074e3a4b93cfa8b3d84 smb/client: fix NT_STATUS_UNABLE_TO_FREE_VM value
+a9adafd40165a9f3ecf4085274ed1a87fd2d1fde smb/client: add 4 NT error code definitions
+bcdd6cfaf2ec17016f9765b01a02b66f13087aa1 smb: add documentation references for smb2 change notify definitions
+a71a4aab4834b366fa6e2b2f3c015f24e4366da4 smb/client: add parentheses to NT error code definitions containing bitwise OR operator
+9ec7629b430a9f8233de17b617b76abc009d9b73 smb: move notify completion filter flags into common/smb2pdu.h
+6539e18517b62815fa5445ad38de51036d5572d8 smb: move SMB2 Notify Action Flags into common/smb2pdu.h
+08c2a7d2bae9175e55e5b47e77de74a2cd8ee6b7 smb: move file_notify_information to common/fscc.h
+2c38ec934ddfe2d35c813edea2674356bea0fabe block: fix cached zone reports on devices with native zone append
+c94291914b200e10c72cef23c8e4c67eb4fdbcd9 cpu: Make atomic hotplug callbacks run with interrupts disabled on UP
+3c180003dffbc252a72dec4f0c697e12922e0417 pwm: th1520: Fix missing Kconfig dependencies
+639f58a0f4808e78ff6c764747ee125c0e2f093c bpftool: Fix build warnings due to MS extensions
+d70f79fef65810faf64dbae1f3a1b5623cdb2345 libbpf: Fix -Wdiscarded-qualifiers under C23
+189e5deb944a6f9c7992355d60bffd8ec2e54a9c bpf, arm64: Do not audit capability check in do_jit()
+ca45c84afb8c91a8d688b0012657099c24f59266 bpf: Add bpf_has_frame_pointer()
+01bc3b6db18d6e0a2e93c37885996bf339bfe337 x86/unwind/orc: Support reliable unwinding through BPF stack frames
+297c3fba9d766b52b6b8e99fa53f0a85c5902909 Merge branch 'bpf-x86-unwind-orc-support-reliable-unwinding-through-bpf-stack-frames'
+5288176a541215ba48d38fb74bb619e64d4d9bab x86/boot/Documentation: Fix htmldocs build warning due to malformed table in boot.rst
+2f7041e59bf023c9e26184b77a1a87bc5e29d83e Merge tag 'trace-v6.19-4' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
+db28b8ae363b9d05ab3779127514d2e81fe03ab1 Merge tag 'input-for-v6.19-rc0' of git://git.kernel.org/pub/scm/linux/kernel/git/dtor/input
+c8161e5304abb26e6c0bec6efc947992500fa6c5 x86/fpu: Fix FPU state core dump truncation on CPUs with no extended xfeatures
+234483565dbb2b264fdd165927c89fbf3ecf4733 bpf: Fix truncated dmabuf iterator reads
+9489d457d48bd10c4eacd8670840132be00c15cd selftests/bpf: Add test for truncated dmabuf_iter reads
+2137cb863b8018710315138f40eefcceb8584d1b Merge tag 'kbuild-6.19-2' of git://git.kernel.org/pub/scm/linux/kernel/git/kbuild/linux
+6abd4577bccc66f83edfdb24dc484723ae99cbe8 can: fix build dependency
+0048fbb4011ec55c32d3148b2cda56433f273375 Merge tag 'locking-futex-2025-12-10' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+3e54d3b4a8437b6783d4145c86962a2aa51022f3 can: gs_usb: gs_can_open(): fix error handling
+6cb31fba137d45e682ce455b8ea364f44d5d4f98 drm/mgag200: Fix big-endian support
+5ace7ef87f059d68b5f50837ef3e8a1a4870c36e net: openvswitch: fix middle attribute validation in push_nsh() action
+9e7477a427449a8a3cd00c188e20a880e3d94638 net: ti: icssg-prueth: add PTP_1588_CLOCK_OPTIONAL dependency
+6af2a01d65f89e73c1cbb9267f8880d83a88cee4 net/handshake: restore destructor on submit failure
+50b3db3e11864cb4e18ff099cfb38e11e7f87a68 broadcom: b44: prevent uninitialized value usage
+9580f6d47dd6156c6d16e988d28faa74e5a0b8ba selftests: tls: fix warning of uninitialized variable
+06f7cae92fe346fa49a8a9b161124b26cc5c3ed1 selftest: af_unix: Support compilers without flex-array-member-not-at-end support
+59546e874403c1dd0cbc42df06fdf8c113f72022 selftests: net: Fix build warnings
+91dc09a609d9443e6b34bdb355a18d579a95e132 selftests: net: tfo: Fix build warning
+2f6e056e95ff5020260ccfd85391a6474d87e4b5 Merge branch 'selftests-fix-build-warnings-and-errors' (part)
+8ef522c8a59a048117f7e05eb5213043c02f986f inet: frags: avoid theoretical race in ip_frag_reinit()
+1231eec6994be29d6bb5c303dfa54731ed9fc0e6 inet: frags: add inet_frag_queue_flush()
+006a5035b495dec008805df249f92c22c89c3d2e inet: frags: flush pending skbs in fqdir_pre_exit()
+92df4c56cf5b739c2977001c581badeaf82b9857 netfilter: conntrack: warn when cleanup is stuck
+6bcb7727d9e612011b70d64a34401688b986d6ab Merge branch 'inet-frags-flush-pending-skbs-in-fqdir_pre_exit'
+ac44dcc788b950606793e8f9690c30925f59df02 bpf: Fix verifier assumptions of bpf_d_path's output buffer
+79e247d6608848c09038d0b1e7d256432624fd84 selftests/bpf: add regression test for bpf_d_path()
+1d528e794f3db5d32279123a89957c44c4406a09 Merge branch 'bpf-fix-bpf_d_path-helper-prototype'
+f22ecf9c14c12918e30f2179ef516e99eb8b2e49 blk-mq: delete task running check in blk_hctx_poll()
+d6c2f41eb99cdf41f050f5e41405d2ed143ff4ef libceph: fix log output race condition in OSD client
+d927a595ab2f6de4e10b3e3962bc70ab61d8f907 ceph: add trace points to the MDS client
+87327d4eaaeafd3a2f6a1ffe84d6d25a96a2495d ceph: Amend checking to fix `make W=1` build breakage
+04d8712b079327409b09dee628378f9583e2e035 libceph: Amend checking to fix `make W=1` build breakage
+8c738512714e8c0aa18f8a10c072d5b01c83db39 libceph: make decode_pool() more resilient against corrupted osdmaps
+3680fc138e31d8a9e8e344d72c6692e921dbb4a3 ceph: stop selecting CRC32, CRYPTO, and CRYPTO_AES
+21c1466ea25114871707d95745a16ebcf231e197 rbd: stop selecting CRC32, CRYPTO, and CRYPTO_AES
+2e2a720766886190a6d35c116794693aabd332b6 netfilter: nf_conncount: fix leaked ct in error paths
+ad891bb3d079a46a821bf2b8867854645191bab0 ipvs: fix ipv4 null-ptr-deref in route error path
+2bdc536c9da7fa08baf0fafe9d91243b83cb9c8b netfilter: always set route tuple out ifindex
+b8a81b0ce539e021ac72825238aea1eb657000f0 selftests: netfilter: prefer xfail in case race wasn't triggered
+40b466db1dffb41f0529035c59c5739636d0e5b8 ARM: allow __do_kernel_fault() to report execution of memory faults
+7733bc7d299d682f2723dc38fc7f370b9bf973e9 ARM: fix hash_name() fault
+fd2dee1c6e2256f726ba33fd3083a7be0efc80d3 ARM: fix branch predictor hardening
+dd9143371a8619f496e29160390fcafcee1371d1 Merge branches 'fixes' and 'misc' into for-next
+53ca00a19d345197a37a1bf552e8d1e7b091666c mm/slub: reset KASAN tag in defer_free() before accessing freed memory
+161a0c617ab172bbcda7ce61803addeb2124dbff ALSA: hda: intel-dsp-config: Prefer legacy driver as fallback
+f6a458746f905adb7d70e50e8b9383dc9e3fd75f crypto: arm64/ghash - Fix incorrect output from ghash-neon
+a0750fae73c55112ea11a4867bee40f11e679405 blk-mq-dma: always initialize dma state
+29ba26af9a9d43d5dbb8aa8e653adeb159d42587 Merge tag 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/rmk/linux
+5c179cac051943f673c8baa53214e2566bfe69dc Merge tag 'alpha-for-v6.19-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/lindholm/alpha
+93a01629c8bfd30906c76921ec986802d76920c6 drm/amd: Fix unbind/rebind for VCN 4.0.5
+72e24456a54fe04710d89626cc5a88703e2f6202 Revert "drm/amd/display: Fix pbn to kbps Conversion"
+840b22edd5adf9dda46f4e701815eadce8f2f3eb Merge tag 'dma-mapping-6.19-2025-12-10' of git://git.kernel.org/pub/scm/linux/kernel/git/mszyprowski/linux
+0723a166d1f1da4c60d7b11289383f073e4dee9b Merge tag 's390-6.19-2' of git://git.kernel.org/pub/scm/linux/kernel/git/s390/linux
+1de741159bbb187c8018c4c779acde4ea0188478 Merge tag 'slab-for-6.19-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/vbabka/slab
+b2135d1cb0e368dcdb8631ed2f232caefbd7711f liveupdate: luo_file: don't use invalid list iterator
+4ac577ae741e745ecfb64c5a9c7f52fc36aca022 ocfs2: check tl_used after reading it from trancate log inode
+d86fea4294cb7878e3866eb567ee803d180a159b ocfs2: replace deprecated strcpy with strscpy
+acce46aaf8c65612b2933e739b3a929986b5642b fs/fat: remove unnecessary wrapper fat_max_cache()
+2a4f33430e96d0bebfa37b1d586098f61f030b06 ocfs2: validate inline xattr size and entry count in ocfs2_xattr_ibody_list
+bf2c7bf5c48303b76f20537238292571e6aa29f3 liveupdate: luo_core: fix redundant bound check in luo_ioctl()
+039bef30e320827bac8990c9f29d2a68cd8adb5f ocfs2: fix kernel BUG in ocfs2_find_victim_chain
+e6b4d264c8c883d8451c7b5f20cd96ddf94af3ef args: fix documentation to reflect the correct numbers
+01da5216c572f6f8fca4e272451aad6c273b0d57 checkpatch: add uninitialized pointer with __free attribute check
+752ba0976b25d69cfac55137573298bd5dd88aa2 ocfs2: add ocfs2_emergency_state helper and apply to setattr
+7eff54dfd245fb4bf398334be663478b9ae4bb99 ocfs2: convert remaining read-only checks to ocfs2_emergency_state
+76b9701a54a23fe45dc15aacace616cca9671823 ocfs2: avoid -Wflex-array-member-not-at-end warning
+7efb45f9685fd9292413f15ea1212f7077c4a35f ocfs2: invalidate inode if i_mode is zero after block read
+2214ec4bf89d0fd27717322d3983a2f3b469c7f3 ocfs2: fix memory leak in ocfs2_merge_rec_left()
+402736a591b040360d36cfc27f6c371103177641 mm: shmem: avoid build warning for CONFIG_SHMEM=n
+601cc399a01049efa76be8f496541315dc9cf914 mm: memfd_luo: add CONFIG_SHMEM dependency
+31ca9ff64ae91283436739ce3277facb89c7901d Merge tag 'regulator-fix-v6.19-merge-window' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/regulator
+8c8081cc599fcafa25371d50959c17e154f9fd08 Merge tag 'spi-fix-v6.19-merge-window' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/spi
+d358e5254674b70f34c847715ca509e46eb81e6f Merge tag 'for-6.19/dm-changes' of git://git.kernel.org/pub/scm/linux/kernel/git/device-mapper/linux-dm
+c97503321ed3fde6e53320b388ea23118d2473d7 smb: update struct duplicate_extents_to_file_ex
+2b6abb893e719f4d77f7c43975e77cdadd3bbf1e smb: move File Attributes definitions into common/fscc.h
+ab0347e67dacd121eedc2d3a6ee6484e5ccca43d smb/client: remove DeviceType Flags and Device Characteristics definitions
+b13efb535962e26f722eada0a5b14f7bffbed29a Merge tag 'asoc-fix-v6.19-merge-window' of https://git.kernel.org/pub/scm/linux/kernel/git/broonie/sound into for-linus
+e33a6abdb744e3a015dd53e997c690081a8b985d ALSA: hda: cix-ipbloq: Use modern PM ops
+0842e34849f65dc0aef0c7a0baae1dceb2b8bb33 selftests: net: lib: tc_rule_stats_get(): Don't hard-code array index
+0c8b9a68b344ba2aa327278688d66c31f5f04275 selftests: forwarding: vxlan_bridge_1q_mc_ul: Fix flakiness
+514520b34ba7d0eb36890f9f9c5c874a7e41544e selftests: forwarding: vxlan_bridge_1q_mc_ul: Drop useless sleeping
+237c1e152b4263fc1e6e8a359d95227a78945e6d Merge branch 'selftests-forwarding-vxlan_bridge_1q_mc_ul-fix-flakiness'
+898ae76a70094c5e3506908adc15a3ac7bbc2bf4 Merge tag 'nf-25-12-10' of https://git.kernel.org/pub/scm/linux/kernel/git/netfilter/nf
+95f3013e8816a24119093859b38bb11c002b5905 Merge tag 'linux-can-fixes-for-6.19-20251210' of git://git.kernel.org/pub/scm/linux/kernel/git/mkl/linux-can
+71cfa7c893a05d09e7dc14713b27a8309fd4a2db net: sfp: extend Potron XGSPON quirk to cover additional EEPROM variant
+8a11ff0948b5ad09b71896b7ccc850625f9878d1 caif: fix integer underflow in cffrml_receive()
+b1e125ae425aba9b45252e933ca8df52a843ec70 net/sched: ets: Remove drr class from the active list if it changes to strict
+5914428e0e44c4dcb64ad42cc37fa23a57fd1c5c selftests/tc-testing: Create tests to exercise ets classes active list misplacements
+885bebac9909994050bbbeed0829c727e42bd1b7 nfc: pn533: Fix error code in pn533_acr122_poweron_rdr()
+fd324768eb2c132bb111ba76675b4c72406251d9 ALSA: hda/tas2781: Add new quirk for HP new project
+99c6931fe1f5d3de1174ce771cb86c57f75bff14 MAINTAINERS: Remove Jozsef Kadlecsik from MAINTAINERS file
+5ec8ca26fe93103577c904644b0957f069d0051a netfilter: nf_nat: remove bogus direction check
+a67fd55f6a09f4119b7232c19e0f348fe31ab0db netfilter: nf_tables: remove redundant chain validation on register store
+9f769637a93fac81689b80df6855f545839cf999 sched_ext: Fix bypass depth leak on scx_enable() failure
+685f27c1c5fee205de2a505fd353d862ee2163ab Merge tag 'drm-misc-next-fixes-2025-12-10' of https://gitlab.freedesktop.org/drm/misc/kernel into drm-next
+6ae7ec86de355dc00702364e93339d2902ff847b Merge tag 'amd-drm-fixes-6.19-2025-12-11' of https://gitlab.freedesktop.org/agd5f/linux into drm-next
+ac87efcf9e42f07526438b67405659a8c1d0480e x86/boot/Documentation: Fix whitespace noise in boot.rst
+e58c88f0cb2d8ed89de78f6f17409d29cfab6c5c Input: lkkbd - disable pending work before freeing device
+9415f749d34b926b9e4853da1462f4d941f89a0d perf/x86/intel: Fix NULL event dereference crash in handle_pmi_common()
+37a1cefd4d4e0b3d12f140e8a265757444fa6957 Merge tag 'drm-intel-next-fixes-2025-12-12' of https://gitlab.freedesktop.org/drm/i915/kernel into drm-next
+fe27e709d91fb645182751b602cb88966b4a1bb6 drm/tests: hdmi: Handle drm_kunit_helper_enable_crtc_connector() returning EDEADLK
+141d95e42884628314f5ad9394657b0b35424300 drm/tests: Handle EDEADLK in drm_test_check_valid_clones()
+526aafabd756cc56401b383d6ae554af3e21dcdd drm/tests: Handle EDEADLK in set_up_atomic_state()
+b5e51ef787660bffe9cd059e7abe32f3b1667a98 bug: Let report_bug_entry() provide the correct bugaddr
+d36067d6ea00827e9b8fc087d8216710cb99b3cf bug: Hush suggest-attribute=format for __warn_printf()
+bdae29d6512ddc589200b9ae6bda467bdbab863d rseq: Always inline rseq_debug_syscall_return()
+6bb34aff1ebdd4ee8ea1721068f74d476d707f01 Merge tag 'nfs-for-6.19-1' of git://git.linux-nfs.org/projects/trondmy/linux-nfs
+10cc3e9a11dc0d5d8450ecf6db99551c867f3203 Merge tag 'v6.19-rc-part2-smb3-client-fixes' of git://git.samba.org/sfrench/cifs-2.6
+ce825345dd63f62cdab80a8c45f943bb65511aa1 Merge tag 'v6.19-rc-smb3-server-fixes' of git://git.samba.org/ksmbd
+14df4eb7e7faeecec1eaa88febb6a27308a470f5 Merge tag 'io_uring-6.19-20251211' of git://git.kernel.org/pub/scm/linux/kernel/git/axboe/linux
+35ebee7e720944a66befb5899c72ce1e01dfa44e Merge tag 'block-6.19-20251211' of git://git.kernel.org/pub/scm/linux/kernel/git/axboe/linux
+187d0801404f415f22c0b31531982c7ea97fa341 Merge tag 'libcrypto-fixes-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/ebiggers/linux
+630efee9493cf64ff7b9a1652978807fef385fdd drm: Fix object leak in DRM_IOCTL_GEM_CHANGE_HANDLE
+b57f2ddd28737db6ff0e9da8467f0ab9d707e997 btrfs: fix memory leak of fs_devices in degraded seed device path
+37343524f000d2a64359867d7024a73233d3b438 btrfs: fix changeset leak on mmap write after failure to reserve metadata
+530b6637c79e728d58f1d9b66bd4acf4b735b86d sched_ext: Factor out local_dsq_post_enq() from dispatch_enqueue()
+f5e1e5ec204da11fa87fdf006d451d80ce06e118 sched_ext: Fix missing post-enqueue handling in move_local_task_to_local_dsq()
+9551a26f17d9445eed497bd7c639d48dfc3c0af4 Merge tag 'loongarch-6.19' of git://git.kernel.org/pub/scm/linux/kernel/git/chenhuacai/linux-loongson
+579a3297b268f0281644ead7ff574a2b4bc64d3c selftests/sched_ext: flush stdout before test to avoid log spam
+d9f514d3e6ee48c34d70d637479b4c9384832d4f block: move around bio flagging helpers
+9637fc3bdd10c8e073f71897bd35babbd21e9b29 selftests: ublk: fix overflow in ublk_queue_auto_zc_fallback()
+1fd4b8d7e3cf102bd01a295460d629e15152d2b3 selftests: ublk: correct last_rw map type in seq_io.bt
+fe8c0182d49414740e639c1ca6b7d4b8e36b77fe selftests: ublk: remove unused ios map in seq_io.bt
+58eec4f3fc2878de51239916953b736b674d5071 selftests: ublk: fix fio arguments in run_io_and_recover()
+20da98a07bcbacb15fc627f6cf426a2f4d1501e5 selftests: ublk: use auto_zc for PER_IO_DAEMON tests in stress_04
+d8295408e0cf529be78ee4ed8b6758a9fb209feb selftests: ublk: don't share backing files between ublk servers
+52bc483763262b66e51818a82e03cad0c5bfef67 selftests: ublk: forbid multiple data copy modes
+b9f0a94c3b2e7deaff93e4c4de335e3054223ff4 selftests: ublk: add support for user copy to kublk
+63276182c51332b75293ac88f3a81d98bfca1b93 selftests: ublk: add user copy test cases
+9869d3a6fed381f3b98404e26e1afc75d680cbf9 block: fix race between wbt_enable_default and IO submission
+41b80d43d9a00a302b5559baa7ebafc28dd54793 i3c: master: cleanup callback .priv_xfers()
+cc3b18f9fedec517e35b973d14670a37290f133c i3c: master: Fix confusing cleanup.h syntax
+136209e6bd981e60db6c0e78f2919ff2f92312d4 i3c: adi: Fix confusing cleanup.h syntax
+5300831555cc6bb45bf824262ac044e8891b581c Merge tag 'drm-misc-fixes-2025-12-10' of https://gitlab.freedesktop.org/drm/misc/kernel into drm-fixes
+fbbd7ce627af733ded7971b2495b0d099a0a80da genirq: Don't overwrite interrupt thread flags on setup
+7f3c8f9191254654e6a88cd757ff079dafbd2f0b Merge tag 'sound-fix-6.19-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tiwai/sound
+db9c4387391e09209d44d41c2791512ac45b9e3c Merge tag 'soundwire-6.19-rc1_updated' of git://git.kernel.org/pub/scm/linux/kernel/git/vkoul/soundwire
+41572e2c05e5892ecdb18e47fd47f208ea648ec6 Merge tag 'pci-v6.19-fixes-1' of git://git.kernel.org/pub/scm/linux/kernel/git/pci/pci
+a6bb419c1c0061abf164eb437bf0dc0281ba7369 Merge tag 'gpio-fixes-for-v6.19-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux
+a919610db43b34621d0c3b333e12db9002caf5da Merge tag 'pwm/for-6.19-rc1-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/ukleinek/linux
+d324e9a91502184e0ac201293a6ec0fbe10458ed Merge tag 'rtc-6.19' of git://git.kernel.org/pub/scm/linux/kernel/git/abelloni/linux
+d8cc0b917ba619c8f03d597f1a6612777f1096ed Merge tag 'i3c/for-6.19-2' of git://git.kernel.org/pub/scm/linux/kernel/git/i3c/linux
+237f1bbfe3d84a74ad8e6e207660bdb3e6d9a84d Merge tag 'drm-next-2025-12-13' of https://gitlab.freedesktop.org/drm/kernel
+a859eca0e4cc96f63ff125dbe5388d961558b0e9 Merge tag 'drm-fixes-2025-12-13' of https://gitlab.freedesktop.org/drm/kernel
+d552fc632cf5b7e3b2808fd341708bd353072c45 x86/hv: Add gitignore entry for generated header file
+d2ea4d254d04a89e17504af0230c7268e3cac6bf file: ensure cleanup
+2516a87153183e1797021879121ca25c95f1ea3a Merge tag 'mm-stable-2025-12-11-11-39' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
+9d9c1cfec01cdbf24bd9322ed555713a20422115 Merge tag 'mm-nonmm-stable-2025-12-11-11-47' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
+cdc996667c26b3c4570881cd9ad2c080da4ce331 ALSA: hda: Remove unnecessary print function dev_err()
+da3a7efff64ec0d63af4499eea3a46a2e13b5797 ALSA: usb-audio: Update for native DSD support quirks
+7fde61795df6cbdab90166df33648cc6314fcadd ALSA: usb-audio: Reorder USB mode selection quirk
+7141cb1092eb5f30bbb0bcd298e01bbd2c4f0666 ALSA: usb-audio: Do not expose PCM and DSD on same altsetting unless DoP
+e64826e5e367ad45539ab245b92f009ee165025c ALSA: hda/realtek: enable woofer speakers on Medion NM14LNL
+043507144ae13d3b882d40495d101bb4c4990d98 x86/sgx: Remove unmatched quote in __sgx_encl_extend function comment
+8b62e64e6d30fa047b3aefb1a36e1f80c8acb3d2 x86/mm/tlb/trace: Export the TLB_REMOTE_WRONG_CPU enum in <trace/events/tlb.h>
+0c01ea92f545ca7fcafdda6a8e29b65ef3a5ec74 mm: Remove tlb_flush_reason::NR_TLB_FLUSH_REASONS from <linux/mm_types.h>
+edbe407235ecfc827b6a211628988261f957df9e Merge tag 'core-urgent-2025-12-12' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+db0130185ee32896524963289840c97dd73aaaa3 Merge tag 'irq-urgent-2025-12-12' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+cba09e3ed06db4b6c87bc97e0aea080421fb8f7d Merge tag 'perf-urgent-2025-12-12' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+4a298a43f5e339f48d2dda0665c02b88ee9a4e03 Merge tag 'smp-urgent-2025-12-12' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+4cfc21494ac6dd8518b0ebbc73cf625523ddd870 Merge tag 'tomoyo-pr-20251212' of git://git.code.sf.net/p/tomoyo/tomoyo
+0dfb36b2dcb666f116ba314e631bd3bc632c44d1 Merge tag 'ceph-for-6.19-rc1' of https://github.com/ceph/ceph-client
+3010f06c52aa7da51493df59303ea733a614597b shmem_whiteout(): fix regression from tree-in-dcache series
+6a1636e06625ec0dd7f2b908ab39a8beea24bfd3 Merge tag 'scsi-misc' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
+8f0b4cce4481fb22653697cced8d0d04027cb1e8 Linux 6.19-rc1
+21433d3e3ca14d20f9b0c2237b3d3a1355af7907 x86/platform/uv: Fix UBSAN array-index-out-of-bounds
+b1aa01d31249bd116b18c7f512d3e46b4b4ad83b s390/ipl: Clear SBP flag when bootprog is set
+4cb92fa763823d813d22b45b7f18fcf6e85a72ad s390/pci: Fix cyclic dead-lock in zpci_zdev_put() and zpci_scan_devices()
+af241e6bfc11125e6669dabf0800fce6809dd3cf s390/pci: Annotate lock context imbalance in zpci_release_device()
+489e96651dfe59794195c6b2ddb78835edd9f2ed s390/stacktrace: Do not fallback to RA register
+4d4021b0bbd1fad7c72b9155863f5b3ccb43ae91 ASoC: tegra: Fix uninitialized flat cache warning in tegra210_ahub
+e2cb8ef0372665854fca6fa7b30b20dd35acffeb ASoC: amd: yc: Add quirk for Honor MagicBook X16 2025
+20c734cb678332883d317b17bf8fe7361648e170 ASoC: qcom: sdm845: set quaternary MI2S codec DAI to I2S format
+9f4d0899efd9892fc7514c9488270e1bb7dedd2b ASoC: fsl_sai: Constrain sample rates from audio PLLs only in master mode
+cb0ae6f22790ead71a866f94c7a5a70ad56af16a ASoC: sdw_utils: subtract the endpoint that is not present
+a8a313612af7a55083ba5720f14f1835319debee spi: mpfs: Fix an error handling path in mpfs_spi_probe()
+1417927df8049a0194933861e9b098669a95c762 spi: fsl-cpm: Check length parity before switching to 16 bit mode
+46c28bbbb150b80827e4bcbea231560af9d16854 hwmon: (dell-smm) Limit fan multiplier to avoid overflow
+6946c726c3f4c36f0f049e6f97e88c510b15f65d hwmon: (ibmpex) fix use-after-free in high/low store
+82f2aab35a1ab2e1460de06ef04c726460aed51c hwmon: (tmp401) fix overflow caused by default conversion rate value
+c4b502d60a71cf0c0c938f133dc4c0e2adc17b44 arm64/simd: Avoid pointless clearing of FP/SIMD buffer
+5a0b1882506858b12cc77f0e2439a5f3c5052761 lib/crypto: riscv: Add poly1305-core.S to .gitignore
+49ca2147749fb69e1caa0f56a98bec065d903bd0 smb: smbdirect: introduce smbdirect_socket.connect.{lock,work}
+c1fb124f2a7416905047cf36fa6a110f9c48cd02 smb: server: initialize recv_io->cqe.done = recv_done just once
+d180b1d9c7a401656332b27e3428a949c00748d3 smb: server: defer the initial recv completion logic to smb_direct_negotiate_recv_work()
+0446356e9f29d81757dc64ae7c61743e28d91ac0 ksmbd: convert comma to semicolon
+8dd2e58b62731a96e276ee0545fb910ffb2057d9 ksmbd: remove redundant DACL check in smb_check_perm_dacl
+cafb57f7bdd57abba87725eb4e82bbdca4959644 ksmbd: Fix refcount leak when invalid session is found on session lookup
+95d7a890e4b03e198836d49d699408fd1867cb55 ksmbd: fix buffer validation by including null terminator size in EA length
+2a03b40deacbd293ac9aed0f9b11197dad54fe5f ALSA: vxpocket: Fix resource leak in vxpocket_probe error path
+5032347c04ba7ff9ba878f262e075d745c06a2a8 ALSA: pcmcia: Fix resource leak in snd_pdacf_probe error path
+635bc4def026a24e071436f4f356ea08c0eed6ff fsnotify: do not generate ACCESS/MODIFY events on child for special files
+6f7c877cc397ba3c6d8ba44d4a604df3d4182eec fs: send fsnotify_xattr()/IN_ATTRIB from vfs_fileattr_set()/chattr(1)
+ed724ea1b82a800af4704311cb89e5ef1b4ea7ac dt-bindings: mmc: sdhci-of-aspeed: Switch ref to sdhci-common.yaml
+7bda1910c4bccd4b8d4726620bb3d6bbfb62286e powercap: fix race condition in register_control_type()
+efc4c35b741af973de90f6826bf35d3b3ac36bf1 powercap: fix sscanf() error return value handling
+450f9cde66a92fd6c7f6870b3501e8debe9f69cc thermal: intel: int340x: Enable power slider interface for Wildcat Lake
+d113735421da322ea144c9778c433de6ff6bc57b thermal: core: Fix typo and indentation in comments
+84318277d6334c6981ab326d4acc87c6a6ddc9b8 Merge remote-tracking branch 'drm/drm-fixes' into drm-misc-fixes
+6ea3a44cef28add2d93b1ef119d84886cb1e3c9b ACPI: CPPC: Fix missing PCC check for guaranteed_perf
+f103fa127c93016bcd89b05d8e11dc1a84f6990d ACPI: PCC: Fix race condition by removing static qualifier
+b7737c38e7cb611c2fbd87af3b09afeb92c96fe7 arm64: mm: Simplify check in arch_kfence_init_pool()
+eb972eab0794dedeef5b3b1845e5f9a78793f184 lkdtm/bugs: Add cases for BUG and PANIC occurring in hardirq context
+63de2b3859ba1def9f43ed0a9c25a68810208e5c arm64/efi: Remove unneeded SVE/SME fallback preserve/store handling
+98a97bf41528ef738b06eb07ec2b2eb1cfde6ce6 arm64/gcs: Flush the GCS locking state on exec
+b32045d73bb4333a2cebc5d3c005807adb03ab58 drm/xe: Fix freq kobject leak on sysfs_create_files failure
+c88a0731ed95f9705deb127a7f1927fa59aa742b drm/xe: Apply Wa_14020316580 in xe_gt_idle_enable_pg()
+224a6ac0808d0f58e51df2f923332adcb80fd930 drm/xe: Do not reference loop variable directly
+9acc3295813b9b846791fd3eab0a78a3144af560 drm/xe: fix drm_gpusvm_init() arguments
+17d52ab2a6ec8b91bbfc577d397d42d0776ef01f drm/xe/throttle: Skip reason prefix while emitting array
+61e6b711c30fc1ca690502f824c067caaf7d1a34 drm/xe/vf: Stop waiting for ring space on VF post migration recovery
+17445af7dcc7d645b6fb8951fd10c8b72cc7f23f drm/me/gsc: mei interrupt top half should be in irq disabled context
+449bcd5d45eb4ce26740f11f8601082fe734bed2 drm/xe/bo: Don't include the CCS metadata in the dma-buf sg-table
+c770467d28bd61391f2d2b17feadafd58af731ab drm/xe/vf: Fix queuing of recovery work
+eafb6f62093f756535a7be1fc4559374a511e460 drm/xe: Increase TDF timeout
+eed5b815fa49c17d513202f54e980eb91955d3ed drm/xe: Restore engine registers before restarting schedulers after GT reset
+8e1a1bc4f5a42747c08130b8242ebebd1210b32f netfilter: nf_tables: avoid chain re-validation if possible
+7e7a817f2dfd79098a706ee5581ea9518b2de878 netfilter: nf_tables: avoid softlockup warnings in nft_chain_validate
+fec7b0795548b43e2c3c46e3143c34ef6070341c selftests: netfilter: packetdrill: avoid failure on HZ=100 kernel
+26e455064983e00013c0a63ffe0eed9e9ec2fa89 ASoC: SOF: ipc4-topology: Prefer 32-bit DMIC blobs for 8-bit formats as well
+816f291fc23f325d31509d0e97873249ad75ae9a ASoC: SOF: ipc4-topology: Convert FLOAT to S32 during blob selection
+84085139290a38c5f8a14e5bba60936392c17c7f ASoC: SOF: topology: Add context when sink or source widget is missing
+da230e232352750a80c8fc883eac1c87c8849027 ASoC: SOF: ipc4-topology: set playback channel mask
+544c0494cdb3732281e1f2e279cfa561724355db ASoC: SOF: Intel: pci-mtl: Change the topology path to intel/sof-ipc4-tplg
+c8f3c9fa75ff3822b56b47d5cfa0aaa484040ea8 ASoC: soc-acpi / SOF: Add best_effort flag to get_function_tplg_files op
+91b7f7d0eedaaa8993e662c4c6db9b3cfe8a2faf ASoC: Intel: soc-acpi-intel-nvl-match: Drop rt722 l3 from the match table
+bd94fbe8b55f38c24a63cca2854ff74b62780d77 MIPS: Alchemy: Remove bogus static/inline specifiers
+680ad315caaa2860df411cb378bf3614d96c7648 MIPS: Fix a reference leak bug in ip22_check_gio()
+bb27226f0d00588ac53be8825e021ae80aa43371 sched_ext: Remove unused code in the do_pick_task_scx()
+2b973ca48ff3ef1952091c8f988d7796781836c8 drm/panel: sony-td4353-jdi: Enable prepare_prev_first
+726c93b0408f3aedc87349e97fb9b4741131908b kunit: Drop unused parameter from kunit_device_register_internal
+c33b68801fbe9d5ee8a9178beb5747ec65873530 kunit: make FAULT_TEST default to n when PANIC_ON_OOPS
+54891a96b7a90d77c32bd0a7d6c9987e5479a314 loop: use READ_ONCE() to read lo->lo_state without locking
+4b2b03151e2e3c11a3caae6e0223964dc771b003 zloop: use READ_ONCE() to read lo->lo_state in queue_rq path
+67d85b062dcb49af9c903a58842a4ed7281f57b8 Documentation: admin-guide: blockdev: replace zone_capacity with zone_capacity_mb when creating devices
+2aaf33c6e1e82561d7dce2345298a985a2483266 Input: atkbd - skip deactivate for HONOR FMB-P's internal keyboard
+aed3716db7fff74919cc5775ca3a80c8bb246489 Input: i8042 - add TUXEDO InfinityBook Max Gen10 AMD to i8042 quirk table
+7bbf6d15e935abbb3d604c1fa157350e84a26f98 accel/amdxdna: Block running under a hypervisor
+69dc538a4f5a57dcc5ea4893c769d567f539a1b1 iommufd: Fix building without dmabuf
+5b244b077c0b0e76573fbb9542cf038e42368901 iommufd/selftest: Make it clearer to gcc that the access is not out of bounds
+b80fab281349f107a07e841eb412a86e2877ae88 iommufd/selftest: Do not leak the hwpt if IOMMU_TEST_OP_MD_CHECK_MAP fails
+ba624ba88d9f5c3e2ace9bb6697dbeb05b2dbc44 ata: libata-core: Disable LPM on ST2000DM008-2FR102
+e1b4c6a58304fd490124cc2b454d80edc786665c shmem: fix recovery on rename failures
+e5aff444e3a7bdeef5ea796a2099fc3c60a070fa x86/xen: Fix sparse warning in enlighten_pv.c
+6b63f90fa2afaa901e7edc9403014e46f0da1c69 Merge tag 'cgroup-for-6.19-rc1-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/tj/cgroup
+dbf89321bf1eb0cd3115662c4fbd569abf92ef9c Merge tag 'sched_ext-for-6.19-rc1-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/tj/sched_ext
+115fada16b5a9a5ee371ad656e56419fe0e63cfc Merge tag 'for-6.19-rc1-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
+53ec4a79ff4b36d9711cfe030eeebc36afbc51dd Merge tag 'v6.19-rc1-ksmbd-server-fixes' of git://git.samba.org/ksmbd
+40fbbd64bba6c6e7a72885d2f59b6a3be9991eeb Merge tag 'pull-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs
+2145f447b79ab522667cbdbdab4525c903759f7c xfs: ignore discard return value
+5990fd756943836978ad184aac980e2b36ab7e01 xfs: fix a UAF problem in xattr repair
+f06725052098d7b1133ac3846d693c383dc427a2 xfs: fix stupid compiler warning
+fc40459de82543b565ebc839dca8f7987f16f62e xfs: fix a memory leak in xfs_buf_item_init()
+8dc15b7a6e5918bad2b0583cf63d170f94a212df xfs: fix XFS_ERRTAG_FORCE_ZERO_RANGE for zoned file system
+2bfca4fe1f36eb6618e5712a8b5b41433bb6f10b drm/panel: visionox-rm69299: Depend on BACKLIGHT_CLASS_DEVICE
+359afc8eb02a518fbdd0cbd462c8c2827c6cbec2 PM: runtime: Do not clear needs_force_resume with enabled runtime PM
+d8932355f8c5673106eca49abd142f8fe0c1fe8b rust: dma: add helpers for architectures without CONFIG_HAS_DMA
+3e8ade58b71b48913d21b647b2089e03e81f117e arm64: kdump: Fix elfcorehdr overlap caused by reserved memory processing reorder
+7fff398df4c44529bde2183a959bd77123fbac98 dt-bindings: display/ti: Simplify dma-coherent property
+512e1568562b2a19f4b175607062c8e97c9203ec dt-bindings: clock: sprd,sc9860-clk: Allow "reg" for gate clocks
+0f5796dac1bb7e3b8a36eec54e3a2c6bf70aa414 cpufreq: dt-platdev: Fix creating device on OPPv1 platforms
+67549b73f10b85172a0cbb1109904542b97e6177 dt-bindings: gpu: img,powervr-rogue: Document GE7800 GPU in Renesas R-Car V3U
+e6a973af11135439de32ece3b9cbe3bfc043bea8 iommufd/selftest: Check for overflow in IOMMU_TEST_OP_ADD_RESERVED
+54de247a0efa4c6176ba6840a58e2fb0b2130e2d dt-bindings: Updates Linus Walleij's mail address
+244a07c4862d5a2e3efd56241dc979ebf2b798a4 drm/amd: Resume the device in thaw() callback when console suspend is disabled
+69741d9ccc7222e6b6f138db67b012ecc0d72542 drm/amd/display: Fix scratch registers offsets for DCN35
+fd62aa13d3ee0f21c756a40a7c2f900f98992d6a drm/amd/display: Fix scratch registers offsets for DCN351
+3886b198bd6e49c801fe9552fcfbfc387a49fbbc drm/amd/display: Fix DP no audio issue
+77f73253015cbc7893fca1821ac3eae9eb4bc943 drm/amdgpu: fix a job->pasid access race in gpu recovery
+7a372e214f6b814253e940334ab6eabb5181fc6f drm/amd/pm: restore SCLK settings after S0ix resume
+969faea4e9d01787c58bab4d945f7ad82dad222d drm/amdkfd: Fix improper NULL termination of queue restore SMI event string
+e3b88652b66b6b899eb1049694b214267b4e6c79 ASoC: Intel: common / SOF: Use function topologies for
+60d7f6031b94b6dae9e7d95b49f5c7045f6c8edb i2c: bcm-iproc: Fix Wvoid-pointer-to-enum-cast warning
+3ff79e76d31f32575fbd8a8ad6ce9108ca916d1a i2c: pxa: Fix Wvoid-pointer-to-enum-cast warning
+4c544cd6556d9193baad1a0f183e8d3b5c7baf02 i2c: rcar: Fix Wvoid-pointer-to-enum-cast warning
+d9b85d296f3accd8957a98d78810a4ecdbdfe557 dt-bindings: i2c: dw: Add Mobileye I2C controllers
+dde7e21311004a6d227b628f14c582313da90bde i2c: i801: Add support for Intel Nova Lake-S
+880977fdc7f67923d1904ee23ca75fa1e375ea46 dt-bindings: i2c: qcom-cci: Document SM8750 compatible
+05f5e355cf783b30bd6eb3dec17ed1a8b3cfa95c smb: align durable reconnect v2 context to 8 byte boundary
+94d5b8dbc5d9caa8e01c8fab8d5ed56e843ff40e smb: move some SMB1 definitions into common/smb1pdu.h
+d8a4af8f3d9d3367b2c49b0d9dee529556bdd2f4 cifs: update internal module version number
+1f7d6e2efeedd8f545d3e0e9bf338023bf4ea584 scsi: scsi_debug: Fix atomic write enable module param description
+d373163194982f43b92c552c138c29d9f0b79553 scsi: mpi3mr: Read missing IOCFacts flag for reply queue full overflow
+0e1677654259a2f3ccf728de1edde922a3c4ba57 scsi: sg: Fix occasional bogus elapsed time that exceeds timeout
+c9f36f04a8a2725172cdf2b5e32363e4addcb14c scsi: ufs: core: Add ufshcd_update_evt_hist() for UFS suspend error
+64e68f8a95eb771273d8d19f9dc1f763524e56d9 Merge tag 's390-6.19-3' of git://git.kernel.org/pub/scm/linux/kernel/git/s390/linux
+ea1013c1539270e372fc99854bc6e4d94eaeff66 Merge tag 'bpf-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf
+9a068c4a77174d23c72649d16275df4c0a627510 ASoC: SOF: ipc4-topology: fixes for 'exotic' format
+5526c1c6ba1d0913c7dfcbbd6fe1744ea7c55f1e ALSA: usb-mixer: us16x08: validate meter packet indices
+720eebd514c0c56f1e9da25666b746edf82ff227 ALSA: hda/realtek: Add support for HP Trekker Laptop
+108c422c495dc3232aebad837408cd74d23b1794 ALSA: hda/realtek: Add support for HP Clipper Laptop
+70d6df5cb599d92ded120ce4b6ace5d59aa1f817 ALSA: hda/realtek: fix micmute LED reversed on HP Abe and Bantie
+982d2616a2906113e433fdc0cfcc122f8d1bb60a xfs: validate that zoned RT devices are zone aligned
+dc68c0f601691010dd5ae53442f8523f41a53131 xfs: fix the zoned RT growfs check for zone alignment
+5d5602236f5db19e8b337a2cd87a90ace5ea776d can: j1939: make j1939_session_activate() fail if device is no longer registered
+46cea215dc9444ec32a76b1b6a9cb809e17b64d5 can: j1939: make j1939_sk_bind() fail if device is no longer registered
+9f5f3583ba423e6eed0a96e4d4b7d808d618f3aa ASoC: fsl_easrc: fix duplicate debugfs directory error
+4de6cea0d8e10c9e3f38ccff7edd45891976e67a ASoC: fsl_asrc_dma: fix duplicate debugfs directory error
+00b960a83c764208b0623089eb70af3685e3906f ASoC: ak4458: remove the reset operation in probe and remove
+90ed688792a6b7012b3e8a2f858bc3fe7454d0eb ASoC: fsl_sai: Add missing registers to cache default
+08fd332eeb88515af4f1892d91f6ef4ea7558b71 ASoC: fsl_xcvr: provide regmap names
+d05d125f4e123e23c89d002e9922f83cee7716e1 ASoC: rt1320: update VC blind write settings
+fa43ab13c59f4c047c479673792ed033ab567c65 ASoC: fsl-asoc-card: Use of_property_present() for non-boolean properties
+b1f54d7143e0f527cca1091857a786e278d72184 spi: cadence-quadspi: Add error logging for DMA request failure
+1889dd2081975ce1f6275b06cdebaa8d154847a9 spi: cadence-quadspi: Fix clock disable on probe failure path
+1d24636a9c87c32ec626a56593c98544e6c49fef spi: dt-bindings: snps,dw-abp-ssi: Allow up to 16 chip-selects
+8c04b77f87e6e321ae6acd28ce1de5553916153f spi: mt65xx: Use IRQF_ONESHOT with threaded IRQ
+a9c4c9085ec8ce3ce01be21b75184789e74f5f19 mmc: sdhci-of-arasan: Increase CD stable timeout to 2 seconds
+d3ecb12e2e04ce53c95f933c462f2d8b150b965b mmc: sdhci-esdhc-imx: add alternate ARCH_S32 dependency to Kconfig
+74098cc06e753d3ffd8398b040a3a1dfb65260c0 xhci: dbgtty: fix device unregister: fixup
+e1003aa7ec9eccdde4c926bd64ef42816ad55f25 usb: dwc3: keep susphy enabled during exit to avoid controller faults
+d14cd998e67ba8f1cca52a260a1ce1a60954fd8b usb: typec: ucsi: huawei-gaokin: add DRM dependency
+36cc7e09df9e43db21b46519b740145410dd9f4a usb: renesas_usbhs: Fix a resource leak in usbhs_pipe_malloc()
+41ca62e3e21e48c2903b3b45e232cf4f2ff7434f usb: phy: fsl-usb: Fix use-after-free in delayed work during device removal
+128bb7fab342546352603bde8b49ff54e3af0529 usb: typec: altmodes/displayport: Drop the device reference in dp_altmode_probe()
+c84117912bddd9e5d87e68daf182410c98181407 USB: lpc32xx_udc: Fix error handling in probe
+14ad4c10d5bdd413ff9a914260e89b5f54b7a2c7 usb: typec: ucsi: Fix null pointer dereference in ucsi_sync_control_common
+3b4961313d31e200c9e974bb1536cdea217f78b5 usb: dwc3: of-simple: fix clock resource leak in dwc3_of_simple_probe
+24ec03cc55126b7b3adf102f4b3d9f716532b329 serial: core: Restore sysfs fwnode information
+5edb7338d6117bb0ce17ead7973c67390da42258 serial: 8250: longson: Fix NULL vs IS_ERR() bug in probe
+a58383fa45c706bda3bf4a1955c3a0327dbec7e7 block: add allocation size check in blkdev_pr_read_keys()
+114ea9bbaf7681c4d363e13b7916e6fef6a4963a io_uring: fix nr_segs calculation in io_import_kbuf
+dcd0b625fe440d68bb4b97c71d18ca48ecd6e594 powercap: intel_rapl: Fix possible recursive lock warning
+e43aefb771e82f2e13a435c37ef55813f4140f93 ASoC: Intel: soc-acpi-intel-mtl-match: Add 6 amp CS35L56 with feedback
+26f637fa08879152b9c82417d0d4096019b386ff ASoC: Intel: soc-acpi-intel-mtl-match: Add 6 amp CS35L63 with feedback
+e2f1081ca8f18c146e8f928486deac61eca2b517 samples: rust: fix endianness issue in rust_driver_pci
+0edc78b82bea85e1b2165d8e870a5c3535919695 x86/msi: Make irq_retrigger() functional for posted MSI
+bf40644ef8c8a288742fa45580897ed0e0289474 Input: alps - fix use-after-free bugs caused by dev3_register_work
+f7cede182c963720edd1e5fb50ea4f1c7eafa30e ALSA: hda/realtek: Add Asus quirk for TAS amplifiers
+09879758d8ac345d7f08709bfcd2fbe29e96cae4 MAINTAINERS: add tracepoint core-api doc files to TRACING
+ef7f38df890f5dcd2ae62f8dbde191d72f3bebae tracing: Do not register unsupported perf events
+74bf97e9a8b6443ba2119dc884940e9364c91bde tracing: Fix UBSAN warning in __remove_instance()
+39263f986da55c5b7bc328c757fe378a6a41799d ftrace: Fix address for jmp mode in t_show()
+c258f5c4502c9667bccf5d76fa731ab9c96687c1 ublk: fix deadlock when reading partition table
+46eb784f3e9a815e653928a4b2ed90ab0e83d2ae Merge tag 'amd-drm-fixes-6.19-2025-12-17' of https://gitlab.freedesktop.org/agd5f/linux into drm-fixes
+5a5aff6338c0f4164a6a8d8a7eb400c4054df256 can: fix build dependency
+9d651a6c62832ac8d1c445f5fa8c61a03ebfb649 spi: cadence-quadspi: Fix probe error path and logging
+7a089c5d35aa307147e78c5cbeeb1352b92790b1 iommupt: Return ERR_PTR from _table_alloc()
+c56a12c71ad38f381105f6e5036dede64ad2dfee x86/bug: Fix old GCC compile fails
+7b07be1ff1cb6c49869910518650e8d0abc7d25f ethtool: Avoid overflowing userspace buffer on stats query
+377d66fa86654085be1f48906c1d88b7ca721c78 net: dsa: lantiq_gswip: fix order in .remove operation
+8e4c0f08f6bedeb885515c5ec5a6388a45d768ec net: dsa: mxl-gsw1xx: fix order in .remove operation
+651b253b80379b0eb3669405fcf50d4039dc7a0e net: dsa: mxl-gsw1xx: fix .shutdown driver operation
+7b103aaf0d564b83ee1d4bb532ee7ae36ed001ed net: dsa: mxl-gsw1xx: manually clear RANEG bit
+71e6b15d214e2500c8482509f7b3ae6ee5030889 Merge branch 'net-dsa-lantiq-a-bunch-of-fixes'
+89a898d63f6f588acf5c104c65c94a38b68c69a6 net/mlx5: fw reset, clear reset requested on drain_fw_reset
+5846a365fc6476b02d6766963cf0985520f0385f net/mlx5: Drain firmware reset in shutdown callback
+b35966042d20b14e2d83330049f77deec5229749 net/mlx5: fw_tracer, Validate format string parameters
+c0289f67f7d6a0dfba0e92cfe661a5c70c8c6e92 net/mlx5: fw_tracer, Handle escaped percent properly
+367e501f8b095eca08d2eb0ba4ccea5b5e82c169 net/mlx5: Serialize firmware reset with devlink
+e35d7da8dd9e55b37c3e8ab548f6793af0c2ab49 net/mlx5e: Use ip6_dst_lookup instead of ipv6_dst_lookup_flow for MAC init
+9ab89bde13e5251e1d0507e1cc426edcdfe19142 net/mlx5e: Trigger neighbor resolution for unresolved destinations
+c8591decd9dbf395cb8ae398e70b0438fdd24aee net/mlx5e: Do not update BQL of old txqs during channel reconfiguration
+4198a14c8c6252fd1191afaa742dd515dcaf3487 net/mlx5e: Don't include PSP in the hard MTU calculations
+78a47532ab4d0beebb13e67c4ef97b3fe9f56be0 Merge branch 'mlx5-misc-fixes-2025-12-09'
+3e82accd3e9c35acfc68e44e12b37e5fd350c768 Merge tag 'nf-25-12-16' of https://git.kernel.org/pub/scm/linux/kernel/git/netfilter/nf
+15564bd67e2975002f2a8e9defee33e321d3183f net/handshake: duplicate handshake cancellations leak socket
+c9b5645fd8ca10f310e41b07540f98e6a9720f40 block: rnbd-clt: Fix leaked ID in init_dev()
+b98f06f9a5d3b32cf1b3998b4115fb3b5478752d sctp: Fetch inet6_sk() after setting ->pinet6 in sctp_clone_sock().
+d7ff61e6f3ef856da82bb90cbd0391839a8917a4 sctp: Clear inet_opt in sctp_v6_copy_ip_options().
+cdc3074c00dc36172247017e8bb257abf7ac710c Merge branch 'sctp-fix-two-issues-in-sctp_clone_sock'
+1d856251a009d64007d71d01c988bead6d3a098c net/sched: act_mirred: fix loop detection
+5cba412d6a005719d52dc72b6d7e5a59af979eaa selftests/tc-testing: Test case exercising potential mirred redirect deadlock
+2939203ffee818f1e5ebd60bbb85a174d63aab9c net: enetc: do not transmit redirected XDP frames when the link is down
+c2a16269742e176fccdd0ef9c016a233491a49ad net: hns3: using the num_tqps in the vf driver to apply for resources
+d180c11aa8a6fa735f9ac2c72c61364a9afc2ba7 net: hns3: using the num_tqps to check whether tqp_index is out of range when vf get ring info from mbx
+6ef935e65902bfed53980ad2754b06a284ea8ac1 net: hns3: add VLAN id validation before using
+373a34addca0a68b0eb77360035e9885183ffdca Merge branch 'there-are-some-bugfix-for-the-hns3-ethernet-driver'
+df8d829bba3adcf3cc744c01d933b6fd7cf06e91 nfsd: fix memory leak in nfsd_create_serv error paths
+27d17641cacfedd816789b75d342430f6b912bd2 NFSD: Clear SECLABEL in the suppattr_exclcreat bitmap
+ad3cbbb0c1892c48919727fcb8dec5965da8bacb NFSD: Clear TIME_DELEG in the suppattr_exclcreat bitmap
+913f7cf77bf14c13cfea70e89bcb6d0b22239562 NFSD: NFSv4 file creation neglects setting ACL
+21a88f5d9ce0c328486073b75d082d85a1e98a8b Merge tag 'linux-can-fixes-for-6.19-20251218' of git://git.kernel.org/pub/scm/linux/kernel/git/mkl/linux-can
+ccb8a3c08adf8121e2afb8e704f007ce99324d79 block: validate pi_offset integrity limit
+af65faf34f6e9919bdd2912770d25d2a73cbcc7c block: validate interval_exp integrity limit
+8e461304009135270e9ccf2d7e2dfe29daec9b60 drm/xe: Limit num_syncs to prevent oversized allocations
+f8dd66bfb4e184c71bd26418a00546ebe7f5c17a drm/xe/oa: Limit num_syncs to prevent oversized allocations
+6f0f404bd289d79a260b634c5b3f4d330b13472c drm/xe: Adjust long-running workload timeslices to reasonable values
+256edb267a9d0b5aef70e408e9fba4f930f9926e drm/xe/oa: Always set OAG_OAGLBCTXCTRL_COUNTER_RESUME
+eb192bedf5908e63347c4923c5a1d58f9baef158 drm/xe/xe_sriov_vfio: Fix return value in xe_sriov_vfio_migration_supported()
+3595114bc31d1eb5e1996164c901485c1ffac6f7 drm/xe/oa: Disallow 0 OA property values
+3767ca4166ad42fa9e34269efeaf9f15995cd92d drm/xe/eustall: Disallow 0 EU stall property values
+fe3ccd24138fd391ae8e32289d492c85f67770fc drm/xe: Drop preempt-fences when destroying imported dma-bufs.
+80f9c601d9c4d26f00356c0a9c461650e7089273 drm/xe: Use usleep_range for accurate long-running workload timeslicing
+0499add8efd72456514c6218c062911ccc922a99 Merge tag 'kvm-x86-fixes-6.19-rc1' of https://github.com/kvm-x86/linux into HEAD
+6cde588e64934858bb1553119c6b915b2fec9011 hwmon: (DS620) Update broken Datasheet URL in driver documentation
+095d621141826a2841dae85b52c784c147ea99d3 ASoC: ops: fix snd_soc_get_volsw for sx controls
+277141a897c715e787f6c51e5db32f2ca90b00dc Merge branch 'pm-powercap'
+9a903e6d9649e45cee9a8588fa3793fdfc5408ee Merge tag 'fsnotify_for_v6.19-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/jack/linux-fs
+a91e1138b7cb0e4dfa12ef823c6eedb34b28bd08 Merge tag 'v6.19-rc1-smb3-client-fixes' of git://git.samba.org/sfrench/cifs-2.6
+7b8e9264f55a9c320f398e337d215e68cca50131 Merge tag 'net-6.19-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
+cf26839d7fca7eb33ecadb7813427dbff3a7a2cd Merge tag 'for-linus-iommufd' of git://git.kernel.org/pub/scm/linux/kernel/git/jgg/iommufd
+d579478cee228bdc0029a0c12a1f6a63ea9d1c77 Input: apple_z2 - fix reading incorrect reports after exiting sleep
+14e0e8d0fcf24963e641ba375aa2e069f0bd2c1c Merge tag 'thermal-6.19-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
+eb23a1198d2317072a44ac1b8f5742f4cb48ce2c Merge tag 'pm-6.19-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
+5caa3808bc29de989f46451124e109dd33e464c6 Merge tag 'acpi-6.19-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
+516471569089749163be24b973ea928b56ac20d9 Merge tag 'libcrypto-fixes-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/ebiggers/linux
+dd9b004b7ff3289fb7bae35130c0a5c0537266af Merge tag 'trace-v6.19-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
+77de4a273d3002bcca1e5b53907b1b350b1e22f7 Merge tag 'drm-misc-fixes-2025-12-18' of https://gitlab.freedesktop.org/drm/misc/kernel into drm-fixes
+f66ac60dee28d092bc6a3af33a04147bfcb6ba30 Merge tag 'drm-xe-fixes-2025-12-19' of https://gitlab.freedesktop.org/drm/xe/kernel into drm-fixes
+733a8924229ff8c0385121a30fcd00bf70644743 Input: add ABS_SND_PROFILE
+806ec7b797adc1cc9b11535307638a55ddfb873c Input: xpad - add support for CRKD Guitars
+248d3a73a0167dce15ba100477c3e778c4787178 Input: ti_am335x_tsc - fix off-by-one error in wire_order validation
+818d78ba1b3f88d2bfee249f25020211488a26c3 riscv: signal: abstract header saving for setup_sigcontext
+1e6084d5c433b142b18d57694a6ab555ca6bb8cc riscv: mm: pmdp_huge_get_and_clear(): avoid atomic ops when !CONFIG_SMP
+425cc087fbaf267be7683b95481b46a058d63e49 riscv: mm: ptep_get_and_clear(): avoid atomic ops when !CONFIG_SMP
+e0e51a0de02cf0e5008d0e167288ad1598005b9e riscv: mm: use xchg() on non-atomic_long_t variables, not atomic_long_xchg()
+4115155baf43679575fb463367cdcf8f46e76b18 dt-bindings: riscv: add Zilsd and Zclsd extension descriptions
+3f0cbfb8a107a9f0a6e2184425b70ddc6d51f991 riscv: add ISA extension parsing for Zilsd and Zclsd
+6118ebed3bdf896038f58d0d1804f551f33e8643 riscv: hwprobe: export Zilsd and Zclsd ISA extensions
+f02dd254727665cc292669194b9171bb70413346 riscv/atomic.h: use RISCV_FULL_BARRIER in _arch_atomic* function.
+5efaf92da4365cb8d1ae6dd7a2d1245c69e09ff5 riscv: Add SBI debug trigger extension and function ids
+c2e8dc1222c2136e714d5d972dce7e64924e4ed8 amd/iommu: Preserve domain ids inside the kdump kernel
+c7fe9384c85d31e35bb61574d7a742ba59fb27c3 amd/iommu: Make protection domain ID functions non-static
+7f2e8e1d22f6e28edff3782535c16cfbace30902 parisc: Set valid bit in high byte of 64‑bit physical address
+01ad27827c2172e287898a7953e33c074ff3b607 ASoC: fsl_easrc: Fix duplicate debufs entries
+56d953a8d0da5e53c2594edde23465ec49385b1c ASoC: Intel: mtl-match: Add 6-amp matches for CS35L56
+f4ea8e05f2a857d5447c25f7daf00807d38b307d lkdtm/bugs: Do not confuse the clang/objtool with busy wait loop
+987697749def9c5e10d9a2d992f012db61ae1967 arm64: dts: mediatek: mt7986: add dtbs with applied overlays for bpi-r3
+0773bc6ab7ec0b707632c991fe29edf28f03a641 arm64: dts: mediatek: mt7988: add dtbs with applied overlays for bpi-r4 (pro)
+ce7b1d58609abc2941a1f38094147f439fb74233 arm64: dts: mediatek: Apply mt8395-radxa DT overlay at build time
+d412ff9e26ebf433672ba0ff649c308b1fea2a12 debugfs: Fix memleak in debugfs_change_name().
+b3db91c3bfea69a6c6258fea508f25a59c0feb1a hwmon: (ltc4282): Fix reset_history file permissions
+129049d4fe22c998ae9fd1ec479fbb4ed5338c15 drm/msm: adreno: fix deferencing ifpc_reglist when not declared
+ef3b04091fd8bc737dc45312375df8625b8318e2 drm/msm/a6xx: move preempt_prepare_postamble after error check
+6c6915bfea212d32844b2b7f22bc1aa3669eabc4 drm/msm: add PERFCTR_CNTL to ifpc_reglist
+d2b6e710d2706c8915fe5e2f961c3365976d2ae1 drm/msm: Fix a7xx per pipe register programming
+d245b2e53e816716637be508c90190ef471457c7 Merge tag 'io_uring-6.19-20251218' of git://git.kernel.org/pub/scm/linux/kernel/git/axboe/linux
+d8ba32c5a460837a5f0b9619dac99fafb6faef07 Merge tag 'block-6.19-20251218' of git://git.kernel.org/pub/scm/linux/kernel/git/axboe/linux
+e4a3d52ab97169bba66dd718acf43e559ed5646a Merge tag 'iommu-fixes-v6.19-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/iommu/linux
+44f9a00a44a010f3d4611e642d9e5d6adb524170 Merge tag 'slab-for-6.19-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/vbabka/slab
+255a918a943ba17bbd8801f5eb56c9083d1def7e Merge tag 'for-linus-6.19-rc2-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/xen/tip
+072c0b4f0f9597c86ddb01fd39e784fda6b7a922 Merge tag 'for-linus' of git://git.kernel.org/pub/scm/virt/kvm/kvm
+18dfd1cbf6a633c39256c76ca13114de46435e22 Merge tag 'arm64-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/arm64/linux
+a688362b19c408dc501dca3e1651e446afbd5d9a Merge tag 'mips-fixes_6.19_1' of git://git.kernel.org/pub/scm/linux/kernel/git/mips/linux
+d571fe47bb86c107ec57dd546b1ba4ccc209eb27 Merge tag 'devicetree-fixes-for-6.19-1' of git://git.kernel.org/pub/scm/linux/kernel/git/robh/linux
+daa24603d9f0808929514ee62ced30052ca7221c ublk: clean up user copy references on ublk server exit
+1ddb815fdfd45613c32e9bd1f7137428f298e541 block: rnbd-clt: Fix signedness bug in init_dev()
+fa084c35afa13ab07a860ef0936cd987f9aa0460 Merge tag 'linux_kselftest-kunit-fixes-6.19-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/shuah/linux-kselftest
+a0bdd554a8214651717964e947c415cfac8114a2 Merge tag 'drm-fixes-2025-12-20' of https://gitlab.freedesktop.org/drm/kernel
+3ed22a356c107767bf8d5a6a22ac79a293e65956 Merge tag 'mmc-v6.19-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/ulfh/mmc
+f0ae3a50624b39f9c5a235ee6caa2566118a1740 Merge tag 'hwmon-for-v6.19-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/groeck/linux-staging
+f67e8a5e3ead61692d24a68e30496bd2634f5b68 Merge tag 'xfs-fixes-6.19-rc2' of git://git.kernel.org/pub/scm/fs/xfs/xfs-linux
+4cc5373f2e749a6c96e8b9fa971931a4dd852860 clang: work around asm output constraint problems
+91ff28ae6d050e0ca01ac13eb8ba31d744cf672f x86/irqflags: Use ASM_OUTPUT_RM in native_save_fl()
+78f2a78e8db88270006e09058f22995be281251f Merge tag 'spi-fix-v6.19-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/spi
+9094662f6707d1d4b53d18baba459604e8bb0783 Merge tag 'ata-6.19-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/libata/linux
+24f171c7e145f43b9f187578e89b0982ce87e54c Merge tag 'asoc-fix-v6.19-rc1' of https://git.kernel.org/pub/scm/linux/kernel/git/broonie/sound into for-linus
+17753d1755a589659433ff4ead595f2bb7f695a8 ALSA: hda/realtek: fix PCI SSID for one of the HP 200 G2i laptop
+4012d78562193ef5eb613bad4b0c0fa187637cfe erofs: fix unexpected EIO under memory pressure
+3766511de1ce62472898d0ffafeb2551c880b161 scripts: coccicheck: filter *.cocci files by MODE
+52ad85fd33a72c47877384fcf605e0bdb2ad1848 Coccinelle: pm_runtime: Fix typo in report message
+610192c229ce908dc7d04e2848751fcc3bbde273 Merge tag 'irq-urgent-2025-12-21' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+44087d3d461994f5b955cf8605f9457a7c230e74 Merge tag 'x86-urgent-2025-12-21' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+765b233a9b945671ae9c5854e349ad50973a6837 Merge tag 'i2c-for-6.19-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
+10a0e846d806b779a059b6ee35df729b96cc3ad1 Merge tag 'input-for-v6.19-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/dtor/input
+1123cfe8cfe942e604a2693494b234dfba8b9fee Merge tag 'coccinelle-6.19' of git://git.kernel.org/pub/scm/linux/kernel/git/jlawall/linux
+9448598b22c50c8a5bb77a9103e2d49f134c9578 Linux 6.19-rc2
+0a70cac7896712a08e3cd22c16f44be976d40dbf ksmbd: Fix to handle removal of rfc1002 header from smb_hdr
+0b444cfd8b74ebce421ccd96eac9c495e536c92e ksmbd: rename smb2_get_msg to smb_get_msg
+3b9c30eb8f5aaad4a54cdfa470b74c0467cc71e8 smb/server: fix minimum SMB1 PDU size
+4c7d8eb9a79ae5400eac19c4f6f0815bff674452 smb/server: fix minimum SMB2 PDU size
+b61104e7a6349bd2c2b3e2fb3260d87f15eda8f4 regulator: uapi: Use UAPI integer type
+9c6552cc209788b77b45ff6c4b3869131da1c47e regulator: Add UAPI headers to MAINTAINERS
+e0c8755d44eb85afd40100586076c3dc4b62ee3b spi: dt-bindings: sun6i: Add compatibles for A523's SPI controllers
+c81f30bde5b0449d9d82d31a66f0ffd608e610b5 spi: sun6i: Support A523's SPI controllers
+c2296a1e42418556efbeb5636c4fa6aa6106713a powerpc/kexec: Enable SMT before waking offline CPUs
+42f53b39004f45a6091109176c62ba33cc52ff96 selftests/powerpc/pmu/: Add check_extended_reg_test to .gitignore
+f1164534ad62f0cc247d99650b07bd59ad2a49fd powerpc/tools: drop `-o pipefail` in gcc check scripts
+b94b73567561642323617155bf4ee24ef0d258fe powerpc: Add reloc_offset() to font bitmap pointer used for bootx_printf()
+87e7f6019097746d1d06f98874a9f179b7a68f3e software node: Also support referencing non-constant software nodes
+fbe409d138b1d8a8b91cdad19cf95495e8ebe1ee powerpc/powernv: Enable cpuidle state detection for POWER11
+608328ba5b0619cbc28b409296b5e3840bcb97b6 powerpc/32: Restore disabling of interrupts at interrupt/syscall exit
+b927546677c876e26eba308550207c2ddf812a43 Merge tag 'dma-mapping-6.19-2025-12-22' of git://git.kernel.org/pub/scm/linux/kernel/git/mszyprowski/linux
+f54151148b969fb4b62bec8093d255306d20df30 serial: core: Fix serial device initialization
+c3ca8a0aac832fe8047608bb2ae2cca314c6d717 serial: sh-sci: Check that the DMA cookie is valid
+267ee93c417e685d9f8e079e41c70ba6ee4df5a5 serial: xilinx_uartps: fix rs485 delay_rts_after_send
+d67396c9d697041b385d70ff2fd59cb07ae167e8 spi: cadence-quadspi: Prevent lost complete() call during indirect read
+5bfbbf0a49ee4b5dcf46a3bfd4cd860d72cc887d spi: cadence-quadspi: Improve CQSPI_SLOW_SRAM quirk if flash is slow
+0831269b5f71594882accfceb02638124f88955d usb: usb-storage: Maintain minimal modifications to the bcdDevice range.
+5106dbab44fba8ec6dede3f4e75d17f5aa777ec8 usb: typec: ucsi: Get connector status after enable notifications
+782be79e4551550d7a82b1957fc0f7347e6d461f usb: gadget: lpc32xx_udc: fix clock imbalance in error path
+b4b64fda4d30a83a7f00e92a0c8a1d47699609f3 usb: phy: isp1301: fix non-OF device reference imbalance
+b4c61e542faf8c9131d69ecfc3ad6de96d1b2ab8 usb: ohci-nxp: fix device leak on probe failure
+ad6fb7367eaa87caa15e9be2129d8e8018a33cba usb: gadget: lpc32xx_udc: clean up probe error labels
+8ff242c04157244020888fa234a6b145415d5a65 usb: ohci-nxp: clean up probe error labels
+0dc580d4a6518b539cbb2877dd9b283df14aac6f Revert "usb: typec: ucsi: Get connector status after enable notifications"
+df3e3169303f7084db3990c999701934af0c04c0 Revert "usb: typec: ucsi: Fix null pointer dereference in ucsi_sync_control_common"
+784b756dde9151b2f44da313f390f25139f1a64e Revert "usb: typec: ucsi: Add support for SET_PDOS command"
+174e7d0f47e5231437bc305277fec7bf4896a8f9 Revert "usb: typec: ucsi: Enable debugfs for message_out data structure"
+2e46b4e024ff61d4533b4f07bb3702ec7466479e Revert "usb: typec: ucsi: Add support for message out data structure"
+e7a9f6600166efb889453c524eb644cb798acd22 Revert "usb: typec: ucsi: Update UCSI structure to have message in and message out fields"
+22201800f198ad33c225e5ce2f0f254df828d01b Merge patch series "usb: typec: ucsi: revert broken buffer management"
+2b742094582db365fe07021b0a9c5405f85049f9 fs/kernfs: null-ptr deref in simple_xattrs_free()
+b005d618c8547b7dfb14e83a1b410a6a04ac36c6 spi: cadence-quadspi: Prevent indirect read
+ebb8719c1a7dd3d0c6f49e38a95bb6ac89f7f7e1 Merge tag 'sound-6.19-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/tiwai/sound
+a50d8777159ad8ec932d5bbe0fe30a3815b63cfc drm/msm/disp: mdp_format: fix all kernel-doc warnings
+23bee889e33d72e8d764b435adc6cc0e8a345e94 drm/msm/dp: fix all kernel-doc warnings
+ce26953807ee2a7e9f2a70eeaca249f81fd2b473 drm/msm/dpu: dpu_hw_cdm.h: fix all kernel-doc warnings
+686f6aafd39f0ea075c3bc69c9991a149e82e73e drm/msm/dpu: dpu_hw_ctl.h: fix all kernel-doc warnings
+70e66a0c5b1bc1923d6e91c938ed2ce1f12331df drm/msm/dpu: dpu_hw_cwb.h: fix all kernel-doc warnings
+9d22d53ecb1576f7cadec186eac8b91ccba58da8 drm/msm/dpu: dpu_hw_dsc.h: fix all kernel-doc warnings
+399f4345f07a94d9b3841d4eeedb746686eb478f drm/msm/dpu: dpu_hw_dspp.h: fix all kernel-doc warnings
+f6d754552b55d06c2d7beb857b1afc56f9004423 drm/msm/dpu: dpu_hw_intf.h: fix all kernel-doc warnings
+7ce9dd5eca99a236634ad2a105a5ffa2c1d8387c drm/msm/dpu: dpu_hw_lm.h: fix all kernel-doc warnings
+847c12befab422db8b17f9749d711ba7e2301094 drm/msm/dpu: dpu_hw_merge3d.h: fix all kernel-doc warnings
+abc287a76e1c3b641dc2302b658574cf1e660732 drm/msm/dpu: dpu_hw_pingpong.h: fix all kernel-doc warnings
+f5a7145d0fb1c0780b0601ef173426fbef8c8a1f drm/msm/dpu: dpu_hw_sspp.h: fix all kernel-doc warnings
+6e945d518a573db3e257dcdf4c61d1ed1d71c42b drm/msm/dpu: dpu_hw_top.h: fix all kernel-doc warnings
+3091c572fefd9f09ae2c54d964e6b6b2756c1ba1 drm/msm/dpu: dpu_hw_vbif.h: fix all kernel-doc warnings
+a6ccad66048aeb75c4e70ad7031ff3c28e249fce drm/msm/dpu: dpu_hw_wb.h: fix all kernel-doc warnings
+4fc510e571615a11e24c2cb20496115ce1a76ba0 drm/msm: msm_fence.h: fix all kernel-doc warnings
+010c98df53ced9077eef7a2eab3f8e55d4e9675b drm/msm: msm_gem_vma.c: fix all kernel-doc warnings
+cd5697865258d431e261c7a30bfbc43b1ff9bca4 drm/msm: msm_gpu.h: fix all kernel-doc warnings
+7c85da6f63b15b83a7d7ee2565e4020cf904f2e9 drm/msm: msm_iommu.c: fix all kernel-doc warnings
+35ab5123bd24dcb082d8e7152536bb2bcda5e054 Revert "drm/msm/dpu: support plane splitting in quad-pipe case"
+da9168d8ef1cbc5dcd1cee91416bd7b408ca8377 Revert "drm/msm/dpu: Enable quad-pipe for DSC and dual-DSI case"
+88733a0b64872357e5ecd82b7488121503cb9cc6 drm/msm/dpu: Add missing NULL pointer check for pingpong interface
+60489936aced785ef9e5a865e23a296bd0b470b6 regulator: fp9931: fix regulator node pointer
+94fb5e796ad7d72f66e893da37593f8856657251 tools/virtio: fix up compiler.h stub
+f059588c552746e0fe299214f35c58effa715b74 virtio: make it self-contained
+16fe720f1d2a6fb8b53539d44d7a5566ec657240 tools/virtio: use kernel's virtio.h
+42059e68eaffe29f15e3e76b4536dbf368a501fb tools/virtio: add struct module forward declaration
+03d768a38cead828963c0e203662b8fa4c1f4d21 tools/virtio: stub DMA mapping functions
+c53ad75c6236acd22a613fbcde862d3d6d2f8072 tools/virtio: add dev_WARN_ONCE and is_vmalloc_addr stubs
+b6600eff0559ef69479cf6b7dccafddf451c6842 tools/virtio: add ucopysize.h stub
+4e949e77fa5e335ff32f177fd37d3e469fd396f9 tools/virtio: pass KCFLAGS to module build
+a2f964c45b355cabdb70ecc48ef3cc8b19afaa80 tools/virtio: add struct cpumask to cpumask.h
+b0fe545b3c64b327b1ef56ee57def6e1afa470a8 tools/virtio: stub might_sleep and synchronize_rcu
+cec9c5e385f6cf056365ec197433fc5448b30985 tools/virtio: switch to kernel's virtio_config.h
+e88dfb93311c81359b00c12e0b396bd0ea13ad6c virtio_features: make it self-contained
+39cfe193f3b10480fb1f157cdfae1f3950934d90 tools/virtio: fix up oot build
+7f81878b046a432837a7de3017f69092ffe8c4c4 tools/virtio: add device, device_driver stubs
+d8ee3cfdc89b75dc059dc21c27bef2c1440f67eb vhost/vsock: improve RCU read sections around vhost_vsock_get()
+66691e272e40c91305f1704695e0cb340cd162ff drm/msm: Replace unsafe snprintf usage with scnprintf
+cb6d5aa9c0f10074f1ad056c3e2278ad2cc7ec8d cifs: Fix memory and information leak in smb3_reconfigure()
+ce93692d681e89d2c31aacedb055c4638deb1be9 Merge tag 'erofs-for-6.19-rc3-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/xiang/erofs
+ccd1cdca5cd433c8a5dff78b69a79b31d9b77ee1 Merge tag 'nfsd-6.19-1' of git://git.kernel.org/pub/scm/linux/kernel/git/cel/linux
+5688e977ed2b98b2f881cdf2b1306a7bb2ba5018 efi/libstub: gop: Fix EDID support in mixed-mode
+61ed08c2fd1db0eb43c8b62ade249a3061e39444 arm64: efi: Fix NULL pointer dereference by initializing user_ns
+cfe54f4591e675cedf2c0d25287ff4c0a2e0cb9d kthread: Warn if mm_struct lacks user_ns in kthread_use_mm()
+b14fad555302a2104948feaff70503b64c80ac01 io_uring: fix filename leak in __io_openat_prep()
+c48c0fd0e19684b6ecdb4108a429e3a4e73f5e21 firewire: nosy: Fix dma_free_coherent() size
+e2cc6440895a57977ba818d4aaffcb59db7b66a0 Merge tag 'v6.19-rc2-smb3-server-fixes' of git://git.samba.org/ksmbd
+8f0cbedc86cfc93ea869bbff420a2d86f6373f57 Merge tag 'for_linus' of git://git.kernel.org/pub/scm/linux/kernel/git/mst/vhost
+4079a38693910c44780b31cd3cbd220b4144e473 Merge tag 'io_uring-6.19-20251226' of git://git.kernel.org/pub/scm/linux/kernel/git/axboe/linux
+3f0e9c8cefa913dd9bd1d79b9a68896ea130f106 Merge tag 'block-6.19-20251226' of git://git.kernel.org/pub/scm/linux/kernel/git/axboe/linux
+b63f4a4e95d61bc7fc3db074f3689c849f27f046 Merge tag 'efi-fixes-for-v6.19-1' of git://git.kernel.org/pub/scm/linux/kernel/git/efi/efi
+1e5e062ad84c4b700f1a6d51a548c936784f8951 Merge tag 'driver-core-6.19-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/driver-core/driver-core
+04688d6128b7c8b4ccec2913e7f2ff1c4437da96 Merge tag 'v6.19-rc2-smb3-client-fix' of git://git.samba.org/sfrench/cifs-2.6
+c53f467229a78287efa5b9f65bd22de64416660f Merge tag 'scsi-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
+479e25d88d1681e04cac708501180db606aecd1e Merge tag 'drm-msm-fixes-2025-12-26' of https://gitlab.freedesktop.org/drm/msm into drm-fixes
+0d362c7fa165106b4facafb23906108a9db4206a Merge tag 'drm-fixes-2025-12-27' of https://gitlab.freedesktop.org/drm/kernel
+651df419975af905000c3a0b02123062360bb688 Merge tag 'regulator-fix-v6.19-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/regulator
+d26143bb38e2546fe6f8c9860c13a88146ce5dd6 Merge tag 'spi-fix-v6.19-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/spi
+cd80afff4877e1151ce53d48b65eba9de80ac1d2 Merge tag 'powerpc-6.19-2' of git://git.kernel.org/pub/scm/linux/kernel/git/powerpc/linux
+03de3e44a706cd96f75ede209cb289324367ed4b Merge tag 'riscv-for-linus-6.19-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/riscv/linux
+1c55bc8710a3ce9f93a35c6376706ae3eec71749 Merge tag 'firewire-fixes-6.19-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/ieee1394/linux1394
+15225b910cb8050636c11b4a607559169a7905ad Merge tag 'tty-6.19-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/tty
+c875a6c3246713a018d8b7b143deb3ebaeecaf1c Merge tag 'usb-6.19-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/usb
+f8f9c1f4d0c7a64600e2ca312dec824a0bc2f1da Linux 6.19-rc3
 
---===============3211163101514792379==--
+--===============6469558651094139512==--
