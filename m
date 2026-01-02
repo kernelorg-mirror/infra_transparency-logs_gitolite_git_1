@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux
-Date: Fri, 02 Jan 2026 16:06:12 -0000
-Message-Id: <176736997252.3122622.12542627587133378829@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jfern/linux
+Date: Fri, 02 Jan 2026 16:27:21 -0000
+Message-Id: <176737124194.3139078.3484448327996740784@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux
-user: axboe
+repo: pub/scm/linux/kernel/git/jfern/linux
+user: jfern
 changes:
-  - ref: refs/tags/io_uring-6.19-20260102
+  - ref: refs/heads/rcu/pcp-blkd-v4
     old: 0000000000000000000000000000000000000000
-    new: c5eebb88a620781053dbe5177d613aaf59e26799
+    new: 953e49998c22b49d83f174d5baf09370c3f11412
