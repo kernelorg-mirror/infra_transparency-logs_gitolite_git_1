@@ -1,26 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
-Date: Fri, 02 Jan 2026 13:35:00 -0000
-Message-Id: <176736090024.3002584.16609136989982180847@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Fri, 02 Jan 2026 13:42:25 -0000
+Message-Id: <176736134574.3009867.17733640067180197147@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tiwai/sound
-user: tiwai
+repo: pub/scm/linux/kernel/git/tip/tip
+user: mingo
 changes:
-  - ref: refs/heads/for-linus
-    old: 9be25402d8522e16e5ebe84f2b1b6c5de082a388
-    new: 9ed7a28225af02b74f61e7880d460db49db83758
-    log: |
-         9ed7a28225af02b74f61e7880d460db49db83758 ALSA: hda/realtek: add HP Laptop 15s-eq1xxx mute LED quirk
-         
-  - ref: refs/heads/master
-    old: 12f853704dcb6eef66e6bff8a18bfece955e9e6c
-    new: c331cf57d609e735fc8ace6427afbf67f6987375
-    log: |
-         9ed7a28225af02b74f61e7880d460db49db83758 ALSA: hda/realtek: add HP Laptop 15s-eq1xxx mute LED quirk
-         c331cf57d609e735fc8ace6427afbf67f6987375 Merge branch 'for-linus'
-         
+  - ref: refs/tags/x86-urgent-2026-01-02
+    old: 0000000000000000000000000000000000000000
+    new: 5780eb3ceae6041fdd608f5d5a9f67b0bc2c78e3
