@@ -1,22 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
-Date: Fri, 02 Jan 2026 13:11:55 -0000
-Message-Id: <176735951572.2986777.5151260013202497449@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/thomas.weissschuh/linux
+Date: Fri, 02 Jan 2026 13:14:04 -0000
+Message-Id: <176735964446.2987581.4493893298894734449@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vfs/vfs
-user: brauner
+repo: pub/scm/linux/kernel/git/thomas.weissschuh/linux
+user: thomas.weissschuh
 changes:
-  - ref: refs/heads/work.immutable.rootfs
-    old: 43078f98c21220a81ce07f4bff2b31626582b977
-    new: 5e6731ae09209829bfa6c639efbefce153ad8672
+  - ref: refs/heads/b4/headers_install-config-leak
+    old: 8e1090e00578a4fc7664d1d67eb3e466acafaf79
+    new: 3c1a63dfc9502545f90fc1b247aad7ce501aaa72
     log: |
-         4b0047a6baeca3384f0ce58f8c82ee53e9d3d401 fs: ensure that internal tmpfs mount gets mount id zero
-         671d0848edef2cca41c6474b841679b40c63a83d fs: add init_pivot_root()
-         032d57f7de808c71ff4a903b2281e6e78e8e7b76 fs: add immutable rootfs
-         5e6731ae09209829bfa6c639efbefce153ad8672 fs: add immutable rootfs and support pivot_root() in the initramfs
+         ca68869790e58d681d9ed368204615f2cdf96f8f uapi: fix remaining kconfig leaks in UAPI headers
+         ea86c0fa358c1e855a57d60a71d3e701169671c1 ARC: Always use SWAPE instructions
+         b4f956ba999ee576809f8bb8a8daab2534818609 ARM: uapi: Drop PSR_ENDSTATE
+         4f7aa0fa131effbb32d9d257caa18b5ec22bc85c nios2: uapi: Remove custom asm/swab.h from UAPI
+         9001cf7e6d5851db3915524a09a8544eb1c58d76 x86/uapi: Stop leaking kconfig references to userspace
+         3c1a63dfc9502545f90fc1b247aad7ce501aaa72 scripts: headers_install.sh: Remove config leak ignore machinery
          
