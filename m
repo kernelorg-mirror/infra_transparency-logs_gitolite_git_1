@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3178969826548031312=="
+Content-Type: multipart/mixed; boundary="===============1487045017649644326=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/device-mapper/linux-dm
-Date: Fri, 02 Jan 2026 17:52:44 -0000
-Message-Id: <176737636466.3206713.2815490190619537495@gitolite.kernel.org>
+Date: Fri, 02 Jan 2026 17:52:56 -0000
+Message-Id: <176737637695.3206953.8678252220559580343@gitolite.kernel.org>
 
---===============3178969826548031312==
+--===============1487045017649644326==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/device-mapper/linux-dm
 user: mikulas
 changes:
-  - ref: refs/heads/for-next
+  - ref: refs/heads/dm-6.20
     old: f8f9c1f4d0c7a64600e2ca312dec824a0bc2f1da
     new: 89db2b980bb27a5ec625382f8fe7798f6ab10d01
     log: revlist-f8f9c1f4d0c7-89db2b980bb2.txt
 
---===============3178969826548031312==
+--===============1487045017649644326==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -42,4 +42,4 @@ e872bfde3832dd7b29e07efc2b56d16fd0558795 dm-verity: make dm_verity_fec_io::bufs 
 95373ca57662c82a57c1b3ce8a7a2eb86c6e9394 dm-verity: correctly handle dm_bufio_client_create() failure
 89db2b980bb27a5ec625382f8fe7798f6ab10d01 dm-verity: allow REED_SOLOMON to be 'm' if DM_VERITY is 'm'
 
---===============3178969826548031312==--
+--===============1487045017649644326==--
