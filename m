@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
-Date: Fri, 02 Jan 2026 17:42:25 -0000
-Message-Id: <176737574505.3198526.15272264078337072531@gitolite.kernel.org>
+Subject: post-receive: pub/scm/libs/libtrace/libtracefs
+Date: Fri, 02 Jan 2026 17:50:34 -0000
+Message-Id: <176737623429.3205247.8187011377383151230@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/25-new
-user: akpm
+repo: pub/scm/libs/libtrace/libtracefs
+user: rostedt
 changes:
-  - ref: refs/heads/master
-    old: 02e8ecdb929ac3e8df229dfdb2613bd287d2a362
-    new: c0962f636b01813a3d8dbe24ffd21fe12f640104
+  - ref: refs/heads/libtracefs
+    old: 06c07be2e6943bc31e54c59a3d12ef3db89abda6
+    new: 6fad6a14ba0d4c4b437d9e4eed7098d4bb07b4fc
     log: |
-         c0962f636b01813a3d8dbe24ffd21fe12f640104 foo
+         362574ce9d2f360c3fe8081157941c00fc59206e libtracefs: Fix whitespace in enable_disable_all()
+         5505e1456677f1378bfd2e31e1d6aca2a54f4c79 libtracefs: Do not have utest fail debugfs/tracing not found
+         6fad6a14ba0d4c4b437d9e4eed7098d4bb07b4fc libtracefs: version 1.8.3
          
