@@ -1,24 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/deller/linux-fbdev
-Date: Fri, 02 Jan 2026 20:00:07 -0000
-Message-Id: <176738400704.3308041.5203304416900377616@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/patatt/patatt
+Date: Fri, 02 Jan 2026 20:07:11 -0000
+Message-Id: <176738443118.3312976.9480153974810848451@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/deller/linux-fbdev
-user: deller
+repo: pub/scm/utils/patatt/patatt
+user: mricon
 changes:
-  - ref: refs/heads/for-next
-    old: 18e7e9aa3237f2bdc076de5b0a760bbb4e413335
-    new: 88bf9db5fa36feb590a0f01998afac1d3f0a4bd6
+  - ref: refs/heads/main
+    old: 3b250282f08fa0e77afdacde4a8c4088c6d9cb2d
+    new: 667ac5d81a7daf943cec8f46fc79fd6cc31b76c3
     log: |
-         8a3e40e9ebb1f19828b8fb1bf1597ced5f4aaaa6 video/logo: remove orphan .pgm Makefile rule
-         3dcb7cb2251dc7dbd4609a45ace6ee5831b526a4 video/logo: add a type parameter to the logo makefile function
-         792df2019fa1b6f78abe79e87f4162eaac2b0a69 video/logo: allow custom logo
-         4d0e558826a8ec31b238c5e68772f93d15a943c0 newport_con: depend on LOGO_LINUX_CLUT224 instead of LOGO_SGI_CLUT224
-         e616011b92bfed34103be4aecf0303c8f215b416 sh: defconfig: remove CONFIG_LOGO_SUPERH_*
-         88bf9db5fa36feb590a0f01998afac1d3f0a4bd6 video/logo: move logo selection logic to Kconfig
+         56ce8ee4d2bb794df205297b14e785bd054a48a7 Add by-hash keyring lookup and convert to pathlib
+         d43f715b912dae5df3e90836c72d8a4f24509801 Use walrus operator for assign-and-check patterns
+         f3ae933987e38f094c14fdc87947c72aedcd5195 Add docstrings for IDE support
+         e1b5dd2f2ca877ee417fcf8f0ad9711729a62b5e Add Sphinx documentation for ReadTheDocs
+         667ac5d81a7daf943cec8f46fc79fd6cc31b76c3 Prepare for 0.7.0 release
          
