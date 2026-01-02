@@ -1,45 +1,50 @@
-Content-Type: multipart/mixed; boundary="===============1487045017649644326=="
+Content-Type: multipart/mixed; boundary="===============6274098338815784200=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/device-mapper/linux-dm
-Date: Fri, 02 Jan 2026 17:52:56 -0000
-Message-Id: <176737637695.3206953.8678252220559580343@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Fri, 02 Jan 2026 17:55:36 -0000
+Message-Id: <176737653601.3209978.15645426345280916958@gitolite.kernel.org>
 
---===============1487045017649644326==
+--===============6274098338815784200==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/device-mapper/linux-dm
-user: mikulas
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
-  - ref: refs/heads/dm-6.20
-    old: f8f9c1f4d0c7a64600e2ca312dec824a0bc2f1da
-    new: 89db2b980bb27a5ec625382f8fe7798f6ab10d01
-    log: revlist-f8f9c1f4d0c7-89db2b980bb2.txt
+  - ref: refs/heads/master
+    old: b69053dd3ffbc0d2dedbbc86182cdef6f641fe1b
+    new: 9b043680446067358913edc2e9dd71bf8ffae208
+    log: revlist-b69053dd3ffb-9b0436804460.txt
 
---===============1487045017649644326==
+--===============6274098338815784200==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f8f9c1f4d0c7-89db2b980bb2.txt
+Content-Disposition: attachment; filename=revlist-b69053dd3ffb-9b0436804460.txt
 
-b735960c02a91d7e4abedde21adf9afb96f35b3f dm-raid: fix typo in documentation
-a8c3ec7d07a8d458a6b556eecc92010ff906b68a dm-vdo: adjust function name reference
-f3a9c95a15d2f4466acad5c68faeff79ca5e9f47 dm: remove fake timeout to avoid leak request
-b13ef361d47f09b7aecd18e0383ecc83ff61057e dm: replace -EEXIST with -EBUSY
-c1881c74f4dfdadc1bf827d971a605b21ba5a587 dm-stripe: adjust max_hw_discard_sectors to avoid unnecessary discard bio splitting
-5cf739d81755e49c39a3bd3c8bf5ec57441710b5 dm init: ensure block device is ready before creating mapped device
-511ebea2dc123ed1bceb4a34e71ce5f014d7f9da dm cache: drop redundant origin size check
-5b94ee8bcbb773f20d40d927c691162cfbba878b dm clone: drop redundant size checks
-4dd02487032ecb3a2eb2dde6183e3d22e489dce6 dm-verity: move dm_verity_fec_io to mempool
-e872bfde3832dd7b29e07efc2b56d16fd0558795 dm-verity: make dm_verity_fec_io::bufs variable-length
-18e096dcf0d5d4574f510c0535ff34890972809e dm-verity: remove unnecessary condition for verity_fec_finish_io()
-6561d76d84b0b467d38aea04190fd2e28e389db8 dm-verity: remove unnecessary ifdef around verity_fec_decode()
-858970f2b2102bc0c4765802a30f9e6d8cac5a2b dm-verity: make verity_fec_is_enabled() an inline function
-95373ca57662c82a57c1b3ce8a7a2eb86c6e9394 dm-verity: correctly handle dm_bufio_client_create() failure
-89db2b980bb27a5ec625382f8fe7798f6ab10d01 dm-verity: allow REED_SOLOMON to be 'm' if DM_VERITY is 'm'
+6b991ad8dc3abfe5720fc2e9ee96be63ae43e362 drm/imagination: Disallow exporting of PM/FW protected objects
+560271e10b2c86e95ea35afa9e79822e4847f07a drm/nouveau/dispnv50: Don't call drm_atomic_get_crtc_state() in prepare_fb
+8f05e411aee3ce27ab7b790181cbac9eb81bfedc drm/gem-shmem: Fix typos in documentation
+3fbd97618f49e07e05aad96510e5f2ed22d68809 drm/gem-shmem: Fix the MODULE_LICENSE() string
+d2d7f5636f0d752a1e0e7eadbbc1839c29177bba drm/xe/svm: Fix a debug printout
+754c23238438600e9236719f7e67aff2c4d02093 drm/pagemap, drm/xe: Ensure that the devmem allocation is idle before use
+bed2a6bd20681aacfb063015c1edfab6f58a333e drm/xe/guc: READ/WRITE_ONCE g2h_fence->done
+0c56693b06a68476ba113db6347e7897475f9e4c ksmbd: Fix memory leak in get_file_all_info()
+7c28f8eef5ac5312794d8a52918076dcd787e53b smb/server: call ksmbd_session_rpc_close() on error path in create_smb2_pipe()
+3296c3012a9d9a27e81e34910384e55a6ff3cff0 smb/server: fix refcount leak in parse_durable_handle_context()
+f416c556997aa56ec4384c6b6efd6a0e6ac70aa7 smb/server: fix refcount leak in smb2_open()
+bc311611625a8aaa26813809a2c820fcd286ba2b smb3 client: add missing tracepoint for unsupported ioctls
+fa2fd0b10f66b08bc44745feed1761d7c1539d6e smb: client: fix UBSAN array-index-out-of-bounds in smb2_copychunk_range
+4fe2bd195435e71c117983d87f278112c5ab364c drm/i915/gem: Zero-initialize the eb.vma array in i915_gem_do_execbuffer
+1054f19572acbbec80e2339dbf61f2b40ffb918c Merge tag 'drm-xe-fixes-2025-12-30' of https://gitlab.freedesktop.org/drm/xe/kernel into drm-fixes
+9abfe0b2e0cb93b9cf59a82cdcc0185148c53cdf Merge tag 'drm-misc-fixes-2025-12-29' of https://gitlab.freedesktop.org/drm/misc/kernel into drm-fixes
+7be19f9327d9a015ff97f97381e3bec163cd93cb Merge tag 'drm-intel-fixes-2025-12-31' of https://gitlab.freedesktop.org/drm/i915/kernel into drm-fixes
+047b4e783ce2af73b3287dfabfeaa51684932757 Merge tag 'v6.19-rc3-smb3-client-fixes' of git://git.samba.org/sfrench/cifs-2.6
+e3a97ab1bbc36be6467fd606c0af1120b6146ddc Merge tag 'v6.19-rc3-smb3-server-fixes' of git://git.samba.org/ksmbd
+9b043680446067358913edc2e9dd71bf8ffae208 Merge tag 'drm-fixes-2026-01-02' of https://gitlab.freedesktop.org/drm/kernel
 
---===============1487045017649644326==--
+--===============6274098338815784200==--
