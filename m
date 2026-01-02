@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============0835327263460041927=="
+Content-Type: multipart/mixed; boundary="===============4783943114721155251=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jgg/iommufd
-Date: Fri, 02 Jan 2026 17:18:37 -0000
-Message-Id: <176737431747.3177892.2796699854852290326@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/fwctl/fwctl
+Date: Fri, 02 Jan 2026 17:18:49 -0000
+Message-Id: <176737432979.3178116.13473828400317566119@gitolite.kernel.org>
 
---===============0835327263460041927==
+--===============4783943114721155251==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jgg/iommufd
+repo: pub/scm/linux/kernel/git/fwctl/fwctl
 user: jgg
 changes:
   - ref: refs/heads/linus
@@ -26,7 +26,7 @@ changes:
     old: 0000000000000000000000000000000000000000
     new: 82791741762a870f5f2ede9f909301770f66f867
 
---===============0835327263460041927==
+--===============4783943114721155251==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -666,4 +666,4 @@ c8ebd433459bcbf068682b09544e830acd7ed222 Merge tag 'nfsd-6.19-2' of git://git.ke
 af7809f037e6e56f63a4d66b6a02826ce786af2c Revert "wifi: mt76: Strip whitespace from build ddate"
 b69053dd3ffbc0d2dedbbc86182cdef6f641fe1b wifi: mt76: Remove blank line after mt792x firmware version dmesg
 
---===============0835327263460041927==--
+--===============4783943114721155251==--
