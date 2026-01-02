@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5712784165586277208=="
+Content-Type: multipart/mixed; boundary="===============6516431028845671608=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Fri, 02 Jan 2026 20:16:22 -0000
-Message-Id: <176738498224.3320628.6866113947200695213@gitolite.kernel.org>
+Date: Fri, 02 Jan 2026 20:16:27 -0000
+Message-Id: <176738498798.3320888.990241262251274129@gitolite.kernel.org>
 
---===============5712784165586277208==
+--===============6516431028845671608==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: ast
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/for-next
     old: c286e7e9d1f1f3d90ad11c37e896f582b02d19c4
     new: e40030a46acc07bb956068e59c614f1a17459a18
     log: revlist-c286e7e9d1f1-e40030a46acc.txt
 
---===============5712784165586277208==
+--===============6516431028845671608==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -38,4 +38,4 @@ cf82580c86a91de2aa979260985cadcb39ed28d2 selftests: bpf: fix cgroup_hierarchical
 cf503eb2c6c38bf449063f33790a96218a067718 selftests: bpf: Fix test_bpf_nf for trusted args becoming default
 e40030a46acc07bb956068e59c614f1a17459a18 Merge branch 'bpf-make-kf_trusted_args-default'
 
---===============5712784165586277208==--
+--===============6516431028845671608==--
