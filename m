@@ -1,26 +1,28 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/hkml
-Date: Sat, 03 Jan 2026 22:05:56 -0000
-Message-Id: <176747795689.350056.8468733364754690595@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sj/damo
+Date: Sat, 03 Jan 2026 22:13:11 -0000
+Message-Id: <176747839199.354670.10747861692926382093@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/hkml
+repo: pub/scm/linux/kernel/git/sj/damo
 user: sj
 changes:
-  - ref: refs/heads/master
-    old: 345c3bb6248a11e8f249873ac6660c149c7122d9
-    new: 8a461343efe5ac0db1f86de6b5c0711d4c0222d6
+  - ref: refs/heads/next
+    old: ab0ed6449aa54553ec571d4e172db26edd83dc37
+    new: 354f2cafe0b46198fd12f1f8cf6686bff03d91fc
     log: |
-         2b558141e75d1f8793824f24d92ca0d164ba64ec hkml: add 'history' command
-         30680ef54752b33c0c2a0bff948025beda9753a2 hkml_history: implement basic data structures
-         b4ebb31a98a06bb035c215712f52e2506d2ef11c hkml_history: implement history file read/write
-         63bdbe1753ccf5db371377f87d6be54ab336ecb9 hkml_history: implement a function for adding a history event
-         1502f47098cea24965281c76e4c51f2f84d2efc8 hkml_history: implement history events listing
-         5b819005e6a3f3bd96141d578988f00a02dd5d48 hkml_list: record invocation as a history event
-         ecf2af1e7a7d29535caa3e7986ea82fe85308b3c hkml_history: add an option to set number of events to list
-         8a461343efe5ac0db1f86de6b5c0711d4c0222d6 hkml_history: implement history removal option
+         a6cfae650a424d40fa07b22b8c8a9dc8c32096be damo_report_sysinfo: Clarify listed trace features are available
+         16dbf52eef3f4fb67aad958c596c7b4a8cfb9bd5 test_damo_record: test perf-script output with damon_trace_fields()
+         186589cd5e235eb203249cd08dd834e00b49a794 tets/unit/test_damo_records: test before-age trace outputs for damon_trace_fields()
+         fb8ff261c612c26db21ee9e8a28859f356d1a003 tests/unit/test_damo_records: simplify test_parse_damon_trace_region()
+         41ec54a10c60d872341c79b2ded2f738cf0cd1e5 _damo_records: remove parse_damon_aggregated_trace_cmd_report_line()
+         85b168e5fd475001d498a3f3a67edbe4d2dbf255 _damon: support None DamonAge.aggr_intervals
+         f6807cfeb0654a7b6a8065752406a4588197d3cf test_damo_records: add 5.15 kernel trace result parsing
+         4b4054e10406f23fe906f580466ea956ed0c5d9b tests/unit/test_damo_records: test parse_damon_trace_intervals_tune()
+         d38d34ef23e773fe6a0c190541c6a485bb9efe7d TODO: remove completed items
+         354f2cafe0b46198fd12f1f8cf6686bff03d91fc TODO: add an item for 'damo monitor' refactoring
          
