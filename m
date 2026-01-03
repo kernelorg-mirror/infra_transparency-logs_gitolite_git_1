@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ardb/linux
-Date: Sat, 03 Jan 2026 15:01:06 -0000
-Message-Id: <176745246623.28461.13450160201487554960@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/remoteproc/linux
+Date: Sat, 03 Jan 2026 15:24:15 -0000
+Message-Id: <176745385577.45053.6232743089383430796@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ardb/linux
-user: ardb
+repo: pub/scm/linux/kernel/git/remoteproc/linux
+user: andersson
 changes:
-  - ref: refs/heads/x86-pie-v3+i386
-    old: d12488ae73e482757220a46bce5137af656d99aa
-    new: 64402f5f678c33306b4cfaa220af8930d011b9e5
+  - ref: refs/heads/rproc-next
+    old: a84a1e21c0678032f1185173f816cbb500a87877
+    new: 2cb0c97ce4392d1b76c178bf7c6613b4e89a4b19
     log: |
-         64402f5f678c33306b4cfaa220af8930d011b9e5 x86/kernel: Switch to PIE linking for the relocatable kernel
+         2cb0c97ce4392d1b76c178bf7c6613b4e89a4b19 dt-bindings: remoteproc: qcom,adsp: Allow cx-supply on qcom,sdm845-slpi-pas
          
