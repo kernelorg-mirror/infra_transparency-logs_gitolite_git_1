@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Sat, 03 Jan 2026 18:10:49 -0000
-Message-Id: <176746384990.172308.9983368050230208862@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
+Date: Sat, 03 Jan 2026 18:34:18 -0000
+Message-Id: <176746525832.188227.6254894806691210133@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/akpm/25-new
+user: akpm
 changes:
   - ref: refs/heads/master
-    old: 805f9a061372164d43ddef771d7cd63e3ba6d845
-    new: aacb0a6d604ac9953b261963efe25ae7521b7c58
+    old: f6c5def1ae634f9f74d0a6c8b7d8d760d4c30303
+    new: 9ba254c62162c262520521c1a12afd0758851c56
     log: |
-         305f254727bd379bbed0385afa0162f5bde1f51c pmdomain: mtk-pm-domains: Fix spinlock recursion fix in probe
-         73cb5f6eafb0ac7aea8cdeb8ff12981aa741d8fb pmdomain: imx: Fix reference count leak in imx_gpc_probe()
-         aacb0a6d604ac9953b261963efe25ae7521b7c58 Merge tag 'pmdomain-v6.19-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/ulfh/linux-pm
+         9ba254c62162c262520521c1a12afd0758851c56 foo
          
