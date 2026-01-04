@@ -1,193 +1,21 @@
-Content-Type: multipart/mixed; boundary="===============1138693816502106217=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Sun, 04 Jan 2026 22:27:34 -0000
-Message-Id: <176756565477.1446364.18446473067559730320@gitolite.kernel.org>
-
---===============1138693816502106217==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/sj/damon-hack
+Date: Sun, 04 Jan 2026 22:28:03 -0000
+Message-Id: <176756568367.1446766.4431073289321787199@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/linux
+repo: pub/scm/linux/kernel/git/sj/damon-hack
 user: sj
 changes:
-  - ref: refs/heads/mm-unstable
-    old: 6a8e8225ce7b3883e81bb74476dde0f8952c5b51
-    new: 344d3580dacdd91ad51de5856f5198ce30b7d2ef
-    log: revlist-6a8e8225ce7b-344d3580dacd.txt
-
---===============1138693816502106217==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6a8e8225ce7b-344d3580dacd.txt
-
-cfdfe11d6a3723676e4562c098afc73d2b7b5ad9 mm: describe @flags parameter in memalloc_flags_save()
-95835913a83d095761e259145d61386192fbf1b4 textsearch: describe @list member in ts_ops search
-4d1dbba81cc8a858367845ef21ce6fc568c7fcf4 mm: vmalloc: fix up vrealloc_node_align() kernel-doc macro name
-1806f50b3d2aeb016222875f3aa4e92dec918f66 mm, kfence: describe @slab parameter in __kfence_obj_info()
-be4eddfe653bc690646e0689fdc07ae55df5793b AMDGPU: fix failure with periodic signal
-c705c5a2dd765d61cbebf3022f063731aef2c397 mailmap: update email address for Szymon Wilczek
-bb1874f355e357ef5076ce164179917aae872a8b docs: kernel-parameters: add kfence parameters
-1ebbd4d495ddabf9fc23b015f7e12aa6d3cbcd2f lib/buildid: use __kernel_read() for sleepable context
-a5f0bebe1f0a02aa73b70ca8bab042ace086dfcb kho: validate preserved memory map during population
-c1b28f32f2a9addc98dea6b6e144b68f951bbc0e mm/damon/core: get memcg reference before access
-65769f3b98777c38ca51cfcc2d0f07bb8252feac mm/vma: fix anon_vma UAF on mremap() faulted, unfaulted merge
-818ea7dec299863baecdfa548308741652bced06 mm/page_alloc: make percpu_pagelist_high_fraction reads lock-free
-e587cec9eb52e1ade7635649f6ded24c11ca8872 mm-page_alloc-make-percpu_pagelist_high_fraction-reads-lock-free-fix
-747b357822d0f0f67bc72e1d37bc82faa6283882 mm/memory-failure: fix missing ->mf_stats count in hugetlb poison
-39e18b86de48452fb4411180983930ea1898f1e6 mm/memory-failure: teach kill_accessing_process to accept hugetlb tail page pfn
-de4aa2949e46f60ae352dea42a786081ec8a1842 mm: add missing static initializer for init_mm::mm_cid.lock
-13d71afb48eaa6d85b1b4d4b15c94edccca49236 mm: rename cpu_bitmap field to flexible_array
-b89fc0da532fb2257dc59597ca64f3b08432819c mm: take into account mm_cid size for mm_struct static definitions
-142e7d29332da239bbc5313c3068b842af6f11b4 mm/hugetlb: ignore hugepage kernel args if hugepages are unsupported
-150e56ee1c2a310ff120a937364d4ee4231e03da mips: fix HIGHMEM initialization
-d4f011f7221cf439f58d43b7930e3a9fb13a0f7e powerpc/watchdog: add support for hardlockup_sys_info sysctl
-b8cf467841d750c66c17a2260ef3b496fd38e9c9 mm/damon/core: remove call_control in inactive contexts
-8c1c4c085e5d8d463138fc72e658149464478bce mm/damon/sysfs: cleanup intervals subdirs on attrs dir setup failure
-ece3cbab7c4ea960cf602966174ec177fc9435c4 mm/damon/sysfs: cleanup attrs subdirs on context dir setup failure
-6d9e4f156f18c0d663f8fbfac70aa6422026866d mm/damon/sysfs-scheme: cleanup quotas subdirs on scheme dir setup failure
-4f368dc467bfc080d7ec0d8dd9c37d25396984be mm/damon/sysfs-scheme: cleanup access_pattern subdirs on scheme dir setup failure
-ccf9ad3ccf24107b304ea463e0ca2fbf424b0822 arm64: kernel: initialize missing kexec_buf->random field
-95c14703710d44b39f4c67a39a70887d2fbe868c fs/writeback: skip AS_NO_DATA_INTEGRITY mappings in wait_sb_inodes()
-871cf622a8ba3b7dc58e1be7d696f9f30699423b mm/zswap: fix error pointer free in zswap_cpu_comp_prepare()
-b8068798a324cf9a08655a7e04f9a24cfc2cea51 mm/vmalloc: clarify why vmap_range_noflush() might sleep
-a47ab525871191f095f674351a5140520e276caa mm/damon/core: fix memory leak of repeat mode damon_call_control objects
-45b85bf7786b6fd99137f2e82ee8fe03c4033920 alloc_tag: move memory_allocation_profiling_sysctls into .rodata
-708660b56706ffe54e54a613585b6547c0c77881 powerpc/64s: do not re-activate batched TLB flush
-d2eb41dc27894d45af325f6a632fa2da5db03858 x86/xen: simplify flush_lazy_mmu()
-885e6693acd76b8b94ae4149b5cf8f08087764a4 powerpc/mm: implement arch_flush_lazy_mmu_mode()
-dca496bdc0c2a53a1ab7675c3e58d1e56a425349 sparc/mm: implement arch_flush_lazy_mmu_mode()
-19ef97530af1d460ffc9e1ee456a3a04bb9d5d3b mm: clarify lazy_mmu sleeping constraints
-e09f8e3496ee4d7f83f896b9e658649e87c34e3b mm: introduce CONFIG_ARCH_HAS_LAZY_MMU_MODE
-93f3ae4ee22705556a91d55fe0b9209abbc916fd mm: introduce generic lazy_mmu helpers
-47fab5154ed11561edfc939cbb8b5cebf5edf6f0 mm: bail out of lazy_mmu_mode_* in interrupt context
-94764aa5fb264ac640c6ac2af4e3b5d9390ace50 mm: enable lazy_mmu sections to nest
-0c93f7407bd6ed0788a2b63dd88a7ef4b3c7e657 arm64: mm: replace TIF_LAZY_MMU with is_lazy_mmu_mode_active()
-9b49188fd2f639f379f6f022c3b216f0fa717d89 powerpc/mm: replace batch->active with is_lazy_mmu_mode_active()
-ff75f30764d5b799582d577b842715fa0e567bd2 sparc/mm: replace batch->active with is_lazy_mmu_mode_active()
-a89edcdb4a3df8741d7e62cfecccd4c821746acf x86/xen: use lazy_mmu_state when context-switching
-5c2d9373a742480bdf4d679da96fef6bbaf4db75 mm: add basic tests for lazy_mmu
-d576ed7edd0f7bc8a5cbfcb0ca6aef114e4d2878 mm-add-basic-tests-for-lazy_mmu-fix
-fe2b5191b81e250a090151459f078bec98df82d2 mm-add-basic-tests-for-lazy_mmu-fix-fix
-6cb00b0fab8dfd760d6d6a0bc66429f3fca91cc5 mm-add-basic-tests-for-lazy_mmu-fix-fix-fix
-9fe7deeced80c995680e9c9fb5a1c7bee0d05210 mm/khugepaged: map dirty/writeback pages failures to EAGAIN
-b9283011ff33d9e18390b2357e0c275d4d48bbc9 mm/khugepaged: retry with sync writeback for MADV_COLLAPSE
-9f58554a18463ff996b260c3179f4bc96b9b68e3 mm/shmem: add mTHP swpout fallback statistics in shmem_writeout()
-8eb0958c4cb58f7d3b1129f7bdd0d66bf4f7b9d5 mm/vmscan.c:shrink_folio_list(): save a tabstop
-2f7ae188ebd729874e1538fd92f4114040e8c353 mm/hugetlb: fix hugetlb_pmd_shared()
-5d1c2f9d03f9ac9cb1d87036b372fda712b6169c mm/hugetlb: fix two comments related to huge_pmd_unshare()
-41e673147dd6392b27685dbb3e946908498395cd mm/rmap: fix two comments related to huge_pmd_unshare()
-db5df7dae4bd5c693f6578b46127f8886317c7f1 mm/hugetlb: fix excessive IPI broadcasts when unsharing PMD tables using mmu_gather
-95d6ec8ba57eb7121875c7341d998659aa254105 mm-hugetlb-fix-excessive-ipi-broadcasts-when-unsharing-pmd-tables-using-mmu_gather-fix
-5d63ffd5376ca38f418c28d3b5e49f820c530741 zram: introduce compressed data writeback
-62ce92627acfcb571c3a8008bc932c3c5712637d zram: introduce writeback_compressed device attribute
-7ace1ee902ff4a906dec09befa8761d7f7e52180 zram: document writeback_batch_size
-afdfba87c3f3e562337dbe23f1b0b18ca3c56cb6 zram: move bd_stat to writeback section
-195164e58cafcf13d34cf280784ec25f9c3d1418 zram: rename zram_free_page()
-6eab37bb4460c28251135fd95cda9679058aee7b zram: switch to guard() for init_lock
-bba034e89279902c1072545599502df284b5a0d8 zram: consolidate device-attr declarations
-3485d2e4202abf005560befe5c650ea46bbf05a7 zram: use u32 for entry ac_time tracking
-6e7b581a7ad54b20487b92bd79a71715f6394f2b zram: rename internal slot API
-c82ea6c940950c578e39eb619d7ff67de0f2b91a zram: trivial fix of recompress_slot() coding styles
-be0e0362a49cd08e48d227b695eaa39bd3f413fa treewide: provide a generic clear_user_page() variant
-2aecad46238a1873d302ae89328000096f3dd24e highmem: introduce clear_user_highpages()
-0baaa882c1da3b0abbc17ddfd64b3df3992d79c2 mm: introduce clear_pages() and clear_user_pages()
-84b2778388591acf233811b9b3e1fbaebadbb10d highmem: do range clearing in clear_user_highpages()
-9a8d40a9e1404b5330346d4966316b8b108a876e x86/mm: simplify clear_page_*
-2597f19a56311c9862fe0f38a7e7007ba8cfd19c x86/clear_page: introduce clear_pages()
-5c3306558b91f2bd53c5708a8249711a32ef60ed mm, folio_zero_user: support clearing page ranges
-a4b622d54bb05d07c61eabcb7974433da1ca82c0 mm: folio_zero_user: cache neighbouring pages
-8125266b3fb1f9d16514f80cf1b70e8cb2d3865b mm/damon/sysfs-schemes: remove outdated TODO in target_nid_store()
-cd050853c9cddbb347ef535ece90fb68f8c452b1 mm: zswap: delete unused acomp->is_sleepable
-eb557e10dcac16b90111d71a73ca1ddb6dc40e31 memcg: move mem_cgroup_usage memcontrol-v1.c
-3308d1ccfcfcb91cecbefa3f30016cab31610833 memcg: remove mem_cgroup_size()
-5a2296bb1955c6cb793eda2cbc127e7d0ab5c509 mm: memcontrol: rename mem_cgroup_from_slab_obj()
-9be56f7045b1e468d98ca7209e8fcea7200cd070 mm/damon/core: fix wasteful CPU calls by skipping non-existent targets
-02aa540aa545e245cdf2526611c17b3a75d259f8 tools/mm/thp_swap_allocator_test: fix small folio alignment
-2727c21b35da20693a01f7faf99e23ef4bc6502c mm: introduce a new page type for page pool in page type
-84f9aa8a51df1ac4641894237e0976a224facda9 tools/mm/slabinfo: fix --partial long option mapping
-2117ebb6570f40d7cc8a119ed3aeb70107b1651a mm/damon/core: introduce nr_snapshots damos stat
-0f9f783b7072d79ef61199fa54e89819f1be71cb mm/damon/sysfs-schemes: introduce nr_snapshots damos stat file
-62bf88d6222fa1db70284ca94b15e6202045eca2 Docs/mm/damon/design: update for nr_snapshots damos stat
-2a4c12326400b5e6d7fdba02af61aec53341d8fd Docs/admin-guide/mm/damon/usage: update for nr_snapshots damos stat
-860b2d1da2608f897595de67958a7b52829fdd9f Docs/ABI/damon: update for nr_snapshots damos stat
-8a43bdacbca0e0258eee54ac1744f16f18903deb mm/damon: update damos kerneldoc for stat field
-08acf9a8f837a8c0608ffae6c1a262c9348f8134 mm/damon/core: implement max_nr_snapshots
-b6de5d8d4518574931ec0150d04c219d9c6bf7d1 mm/damon/sysfs-schemes: implement max_nr_snapshots file
-46ca10b749ab54302202ccd42c3a3e13fe5166c1 Docs/mm/damon/design: update for max_nr_snapshots
-d717eefa2aeb9dad544581225d3ce25be06bf3b4 Docs/admin-guide/mm/damon/usage: update for max_nr_snapshots
-7f004aabb692579e48617a9cf80bac5c2d5e7207 Docs/ABI/damon: update for max_nr_snapshots
-4460b0b18829f92cbf94732568c8415d5dad12d8 mm/damon/core: add trace point for damos stat per apply interval
-77ff1710bb53acd9eb82b55046cc217b806efc21 mm/damon/stat: deduplicate intervals_goal setup in damon_stat_build_ctx()
-74182e6e142d0873413dff9dd3191a4c34dbd4a8 zram: drop pp_in_progress
-f3bbfc5e5411b1bde0632f402d78ccb7496a0351 mm/block/fs: remove laptop_mode
-db95ade9e69762ad24ea3bb6ca69fc10d7662bf1 mm-block-fs-remove-laptop_mode-fix
-1fb83dc6d5f2e37ff16bcd2efc6f4f8a01657e88 maple_tree: remove struct maple_alloc
-af64c2857416745a0efecc81f7260c1ee8dd75bc lib/test_vmalloc.c: minor fixes to test_vmalloc.c
-f542d2b7b483eea6f07ef51c0e449f77f6983e49 mm/mm_init: replace simple_strtoul with kstrtobool in set_hashdist
-86d41e555f377e823f8393f3e03965fea4a8a516 mm: change mm/pt_reclaim.c to use asm/tlb.h instead of asm-generic/tlb.h
-5979e7db83d61a3a031a05bc4c5040f2dcf99dac alpha: mm: enable MMU_GATHER_RCU_TABLE_FREE
-3e585c9b5fd69446c5c6da953a82c1683c325ac4 LoongArch: mm: enable MMU_GATHER_RCU_TABLE_FREE
-04190b302c8951e56699731b00d9393f75bc395f mips: mm: enable MMU_GATHER_RCU_TABLE_FREE
-b0537fe401980a4331ea010879c1d84298d43d06 parisc: mm: enable MMU_GATHER_RCU_TABLE_FREE
-023dc8c5e6761be26dd60236d8ed00d3926f6a00 um: mm: enable MMU_GATHER_RCU_TABLE_FREE
-fe7fc217d25baed1a39d08c03c37790cc62aa7a8 mm: make PT_RECLAIM depends on MMU_GATHER_RCU_TABLE_FREE
-af9b18d30669b980d2e4ca0b6f276862e2e9330a zram: remove KMSG_COMPONENT macro
-9f4adc8883a0f6d1f6f95004dfecbdc302cc9d3e mm/damon: fix typos in comments
-891097e9ae0b7bb2e5e8df55f4bf01c8c3d222da mm: fix minor spelling mistakes in comments
-8314649e0b39cb24c73c5825f74428ffe8310fde mm-fix-minor-spelling-mistakes-in-comments-fix
-2819961349a5417ea7a93ccd4b8612217782a51c percpu: add basic double free check
-5c6474f124d04fee528744d54a2568db4e2f9ddb mm/fadvise: validate offset in generic_fadvise
-13568876311532f8132811ca3360778fa9cac9a8 mm/hugetlb_cgroup: fix -Wformat-truncation warning
-5a5d0f290f1bbadb8d282f5f910178a268166c23 mm, swap: rename __read_swap_cache_async to swap_cache_alloc_folio
-44e6d8cf82280d05f42dcb217faabfb1f0071374 mm, swap: split swap cache preparation loop into a standalone helper
-f39b7b9add79b68448566c00acbf8cd492e0bd51 mm, swap: never bypass the swap cache even for SWP_SYNCHRONOUS_IO
-865b113f0b4f33d0800d5b92336815ce46c0052e mm, swap: always try to free swap cache for SWP_SYNCHRONOUS_IO devices
-ff28de4559af988330c8465bb620b697af4af2e4 mm, swap: simplify the code and reduce indention
-c23c3ad44b8c6fdd444cbf268b8eb88ebd796f01 mm, swap: free the swap cache after folio is mapped
-d1d654a70a7f48459f06e4ed61587bb90297f246 mm/shmem: never bypass the swap cache for SWP_SYNCHRONOUS_IO
-cdc02c454f1f44d73a1912b4ce772e65a63dca46 mm/shmem, swap: remove SWAP_MAP_SHMEM
-b5cc5c71efe41a7d08c4407aa3f9e03e8688f89c mm, swap: swap entry of a bad slot should not be considered as swapped out
-300e21cf65dac5d46f2bbcd1a63896ac017d5e54 mm, swap: consolidate cluster reclaim and usability check
-8fb610c4c4c494884b625abd9f926a76da78d678 mm, swap: split locked entry duplicating into a standalone helper
-3f30cd2c953d84d7a56c462fb309b4131e4f7045 mm, swap: use swap cache as the swap in synchronize layer
-609ac280f6b1e5e085a387b2956962b4c42e7995 mm, swap: remove workaround for unsynchronized swap map cache state
-ae5ca3e4f6f5da675f640c2060a7f8aba169100b mm, swap: cleanup swap entry management workflow
-a5b3c482089df0a73fc313e0b663824f3b7d5e61 mm, swap: add folio to swap cache directly on allocation
-57540e68276a1562e73ba603de2317f0b2e72701 mm, swap: check swap table directly for checking cache
-8be8d75b809aff5c592497414a8cd77a2c817d5d mm, swap: clean up and improve swap entries freeing
-10dd956c8da9c17add7c2e32d90a73bed08fa295 mm, swap: drop the SWAP_HAS_CACHE flag
-a1e2d632b6740513202e90d67484d7d3f6068973 mm, swap: remove no longer needed _swap_info_get
-4767801e24e9c2da0b2ab161cd0c0c6fcfb4f60c mm, page_alloc, thp: prevent reclaim for __GFP_THISNODE THP allocations
-c183466d86fd3651a3b6d29cb82f55defb399560 mm/gup: remove no longer used gup_fast_undo_dev_pagemap
-1bd36d45d628a5f837fdf4d0b8d95533b31caaa9 mm: clarify GFP_ATOMIC/GFP_NOWAIT doc-comment
-4d07eeeea05219c68c6d0735de4a22409d71295d mm: cleanup vma_iter_bulk_alloc
-cc7f3d052395ca6a8508e4f8269972033386f300 mm, hugetlb: implement movable_gigantic_pages sysctl
-6cc10e7eda38aaf454cfd3e33ea653c12842adc8 page_alloc: allow migration of smaller hugepages during contig_alloc
-99f5e30c38ac0e1c0d919fd590db5e3e74405843 selftests/mm/write_to_hugetlbfs: parse -s as size_t
-378d74dfdea61ffb5597bbaca4a1294bf90722f9 selftests/mm/charge_reserved_hugetlb: drop mount size for hugetlbfs
-8bd5f5187a2f1b1d121bc621d1d0f66f86955861 selftests/mm/charge_reserved_hugetlb.sh: add waits with timeout helper
-6e9b9521bcebee5480f3da0af37239fc8d1d1e35 selftests/mm: fix va_high_addr_switch.sh return value
-5bfd9ca695ef09ed0b675d1936f5e2a735c56537 selftests/mm: allocate 6 hugepages in va_high_addr_switch.sh
-739a6f27865c6e155f6633a6ac53f69b40b6d792 selftests/mm: remove arm64 nr_hugepages setup for va_high_addr_switch test
-732cc39ac26117010f8c05eda23e17d50b25103d selftests/mm: va_high_addr_switch return fail when either test failed
-f7fab8d67737f6b00a12001f8676231af6b62d4e selftests/mm: fix comment for check_test_requirements
-bf1933e8cad4039eed948513eff172506f4c64f2 mm: memory-tiers, numa_emu: enable to create memory tiers using fake numa nodes
-8a577f22cb99a36c685e71d464dfe4f149aea356 mm: numa_emu: add document for NUMA emulation
-4e9a60840a6affdca7925fe001c345ea7691dbc1 mm/vmscan: don't demote if there is not enough free memory in the lower memory tier
-e97b6affe4f5f41ec61db7eb91516e2300088097 mm/mempolicy: fix mpol_rebind_nodemask() for MPOL_F_NUMA_BALANCING
-afb36319ae0ad699b395e9960368cc75bc930a19 fs/proc: expose mm_cpumask in /proc/[pid]/status
-9c3e633885dca5ace6682753a2cd2cfed0ba44ed mm/vmscan: mitigate spurious kswapd_failures reset from direct reclaim
-04f882c025e5c6767015d7358e72bc5c86b96a3b mm: rmap: support batched checks of the references for large folios
-38e8c303a8ff26cf0a36ca611c9eccff60bd97f0 arm64: mm: factor out the address and ptep alignment into a new helper
-e636bedc2a14e59007859e29bb1aa1048983e585 arm64: mm: support batch clearing of the young flag for large folios
-0a8d848d98eac440e2c8745910798553c4d70846 arm64: mm: implement the architecture-specific clear_flush_young_ptes()
-8d364b235f9c8565a618ccb03d4fae7de8e69464 mm: rmap: support batched unmapping for file large folios
-344d3580dacdd91ad51de5856f5198ce30b7d2ef mm/vmstat: remove unused node and zone state helpers
-
---===============1138693816502106217==--
+  - ref: refs/heads/master
+    old: 8a3ef854e352b040617d61df7c21326f33b81aa5
+    new: 010eed6d9499849c341c6418389c5d9845cd0326
+    log: |
+         887e41dde3ed21e0784cfc5ede603311a4c87a4a scripts/{damo,hkml}/push_branches: check unsquashed fixups
+         be7eb0c5d191d84ead8fda3c58b54a6b93ace054 patches/next: add special-purpose damon modules doc fixup
+         010eed6d9499849c341c6418389c5d9845cd0326 patches/next: rebase to latest mm-new
+         
