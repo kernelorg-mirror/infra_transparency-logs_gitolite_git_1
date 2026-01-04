@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3811112992812273011=="
+Content-Type: multipart/mixed; boundary="===============7700581982757238909=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Sun, 04 Jan 2026 21:40:01 -0000
-Message-Id: <176756280101.1407905.6449567937965540753@gitolite.kernel.org>
+Date: Sun, 04 Jan 2026 21:40:05 -0000
+Message-Id: <176756280544.1410289.1769094749910874649@gitolite.kernel.org>
 
---===============3811112992812273011==
+--===============7700581982757238909==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,45 +16,45 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-queue
-    old: 4dc6f7895f4e9593e2aaec3c239d2fe700a837a7
-    new: 710c990047d371144aab19dec588ac6ac9223574
-    log: revlist-4dc6f7895f4e-710c990047d3.txt
+  - ref: refs/heads/6.20/scsi-queue
+    old: 8f0b4cce4481fb22653697cced8d0d04027cb1e8
+    new: 8334f93075dce0a4536c096a7d471ef90506a7a4
+    log: revlist-8f0b4cce4481-8334f93075dc.txt
 
---===============3811112992812273011==
+--===============7700581982757238909==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1767562779 -0500
+pusher 75C5DE3D 1767562803 -0500
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1767562779-3007b64edd46510f8f3f8852861c98e5ae139852
+nonce 1767562803-9731021e9ac1b4e585eddadd4823035a725517c9
 
-4dc6f7895f4e9593e2aaec3c239d2fe700a837a7 710c990047d371144aab19dec588ac6ac9223574 refs/tags/mkp-scsi-queue
+8f0b4cce4481fb22653697cced8d0d04027cb1e8 8334f93075dce0a4536c096a7d471ef90506a7a4 refs/heads/6.20/scsi-queue
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmla3hsACgkQ7ulgGnXF
-3j0TUA/9Hxifp2wX5leC/A55N9wngHamiq2jusQQwkDJ5ved3EV/3BOXT61qVvZo
-iDWt6/0qgpcVdeAf61ivV5vjl8AYs0UWkd0GL+2CsxeGpKNsAUvfKBXL7/1v81kb
-ZVa/Ja/Qqhy4qg3YllSg12IH6kiGVq7pjamBR3LHzNWycpVUObqhueQ5rm8UmIvM
-MrhAq7W+gXK80AuH+Jolaa5XEROMoaIVasusxe9Ou4i+E9scUGTglPI2Fk/T19JM
-we9VeJg7+2/BomB8AJzy3lt7d/MgyHiPleFHuQ6ZfHatLdZar21K0h3dHqsUWm39
-BPtqO23yXk8dBAROmQRBUiTmvckk4s6v9T/5qRNtk9au6bMLpbj14MHbv9KlS1vO
-D6AFMeBTQpOZ3lx6SoAfsHC0J67uGhm/h2Mf0u9PYJJg01/RKDWd0TPTNgTJCIAe
-4wHL+J7bFGRkKxMm2a99QSPAVwARGot/fxA125/Z5YueqssJtYAXYb+imMRHO3+k
-Un5sxMWjAv2IE3APhZy2mvFUxETpQB8NqkIddSzBcA56bG3O7/QmDzi0ZE56E1mC
-1tP0TXX4wgjV+cl0+xEPDIqFU9JqXW7gfdJWrZjcXiyNZhQIuTA+8znNGbqL+pHB
-JSiqyf6WYkFiqfIBeXE1WxplzYslM2l6K7lgtPxGBo/c0gl7hhg=
-=eaW6
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmla3jQACgkQ7ulgGnXF
+3j3gNRAApVZLevLK70FXSRXWiwUUcmkxT3Psye6k3loS8ZJ1MEkk6g2EkiuZq7Is
+4kej08cRfQIxVZ3IBMCSOgilbtA4YZXqgHZpwrejczXle/3OT4DU0LcdFbvKGlUh
+p7iTglNDUSwp/trVsfdXCp7XyVeZCWOu/zj+vXg+PtV00lsTQkLNwExqO7KQc+Q2
+3Qb2no1b2VypzLrQgtrGNrh2lnmwrnEhzhFxSE3HHhFfi5eRSx8+u6Od2GcbrHC2
+s40rpYmUaCkJ4RjiTOieS1dTm4EvTIy5rOkpFIpedBId36d8QmJSDnGe2Raj2ua1
+yAqZhU3lbzBkfGVAA8l12Dt/m13Q/SYGacTUuN4gt/KGTrvLN4DpovTG0EfmdsVQ
+G+6RQQaEGByYLcCduhNZxCAvH4+zYZyXtrsqM8/c5Jx5lV8VbK86GvyPd+3vU1CG
+BgqqHoAIPQuyse2XCLTSsPGxR8xSZGwpCRh35SFPTJpTH2kLmG1UmF5pFOj6EsvV
+AtBoXhALEKFtjSG8sCaL2JRfcn/ifajmJVl5ZDIsE8wM8TuCrjhdMAn6Pj1ooPwq
+PJtZsPH63qePfPvj8fvAZKY2lw/zaUFpvJkhqSar6n5iYw4L/M7xcXBgeR1lcfDM
+3o/swOp/oylW8lvdUtVFYajgbMq4PTPqvnjUNhkLurUXs2IpgHU=
+=fVbQ
 -----END PGP SIGNATURE-----
 
---===============3811112992812273011==
+--===============7700581982757238909==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4dc6f7895f4e-710c990047d3.txt
+Content-Disposition: attachment; filename=revlist-8f0b4cce4481-8334f93075dc.txt
 
 7011e8aafe8c8fcc1c6f8bfcc6796f4530428e13 scsi: target: core: Add emulation for REPORT IDENTIFYING INFORMATION
 e642331c942003f58dba6e33c8ee93402211b7b6 scsi: ufs: core: mcq: Use ufshcd_rmwl() instead of open-coding it
@@ -87,4 +87,4 @@ c2c68225b1456f4d0d393b5a8778d51bb0d5b1d0 scsi: qla2xxx: Fix bsg_done() causing d
 1732d10fa7edb611c8384ca0b841d6f79ddf5bed scsi: qla2xxx: Update version to 10.02.10.100-k
 8334f93075dce0a4536c096a7d471ef90506a7a4 Merge patch series "qla2xxx: Misc feature and bug fixes"
 
---===============3811112992812273011==--
+--===============7700581982757238909==--
