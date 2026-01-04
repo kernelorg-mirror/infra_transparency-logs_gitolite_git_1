@@ -1,39 +1,31 @@
-Content-Type: multipart/mixed; boundary="===============5088190836961866932=="
+Content-Type: multipart/mixed; boundary="===============7019925408239730052=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Sun, 04 Jan 2026 19:14:54 -0000
-Message-Id: <176755409431.1299263.11647632167221252826@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
+Date: Sun, 04 Jan 2026 19:17:32 -0000
+Message-Id: <176755425278.1302792.12433779323781425174@gitolite.kernel.org>
 
---===============5088190836961866932==
+--===============7019925408239730052==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: bp
+repo: pub/scm/linux/kernel/git/maz/arm-platforms
+user: maz
 changes:
-  - ref: refs/heads/x86/cleanups
-    old: d911fe6e942e60900577314dc1f1529b90e4da07
-    new: 6823f10dcc84f35ca652eff0448f7da3d3b26548
-    log: revlist-d911fe6e942e-6823f10dcc84.txt
+  - ref: refs/heads/kvm-arm64/feat_idst
+    old: 92bd1b758cb4081fc067949c3b20fd3fb5378e9c
+    new: a6f09b67bc3f51507c977effd53be736b8c26a1e
+    log: revlist-92bd1b758cb4-a6f09b67bc3f.txt
 
---===============5088190836961866932==
+--===============7019925408239730052==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-d911fe6e942e-6823f10dcc84.txt
+Content-Disposition: attachment; filename=revlist-92bd1b758cb4-a6f09b67bc3f.txt
 
-861111b69896145a928c889d9344797ea3711028 net: smc: SMC_HS_CTRL_BPF should depend on BPF_JIT
-edd2b9832d604a234b60a4910c7496f351cd1e12 Merge tag 'mtd/for-6.19' of git://git.kernel.org/pub/scm/linux/kernel/git/mtd/linux
-ba1401f9cced493948a691a670308832588e8f60 Merge tag 'regmap-v6.19' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/regmap
-0a9431fa74ac9b744bff5b65082ff96fd3d80297 Merge tag 'regulator-v6.19' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/regulator
-fa5ef105618ae9b5aaa51b3f09e41d88d4514207 Merge tag 'spi-v6.19' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/spi
-fca5327eaa8117b18c8faf79154d6eafecaf4892 Merge tag 'gnss-6.19-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/johan/gnss
-3df2470adc1ce91f19021109c83c6e497d362835 PM: runtime: Stop checking pm_runtime_barrier() return code
-41f7351fc47283822c4b70b0f42741f52cc1e6f6 PM: runtime: Make pm_runtime_barrier() return void
 316f0b43fe0131af869a5a58e20ec6e0b6038fa8 coccinelle: Drop pm_runtime_barrier() error code checks
 666065caa31aeb812978740bae21871067bb14b6 pinctrl: add CONFIG_OF dependencies for microchip drivers
 02892f90a9851f508e557b3c75e93fc178310d5f Merge tag 'hwmon-for-v6.19' of git://git.kernel.org/pub/scm/linux/kernel/git/groeck/linux-staging
@@ -1049,6 +1041,14 @@ cd80afff4877e1151ce53d48b65eba9de80ac1d2 Merge tag 'powerpc-6.19-2' of git://git
 15225b910cb8050636c11b4a607559169a7905ad Merge tag 'tty-6.19-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/tty
 c875a6c3246713a018d8b7b143deb3ebaeecaf1c Merge tag 'usb-6.19-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/usb
 f8f9c1f4d0c7a64600e2ca312dec824a0bc2f1da Linux 6.19-rc3
-6823f10dcc84f35ca652eff0448f7da3d3b26548 x86/split_lock: Remove dead string when split_lock_detect=fatal
+84287ec8116a0e1d39823da5a0af912e96a71dee arm64: Repaint ID_AA64MMFR2_EL1.IDS description
+4bc36e1c0c4dc77186ddd565429dbca723cc7a8c KVM: arm64: Add trap routing for GMID_EL1
+93f321dc0ffff8377f9c168a149714eafb0fbd49 KVM: arm64: Add a generic synchronous exception injection primitive
+b001758a33c8054c9108977b32a672dd2edc6a4f KVM: arm64: Handle FEAT_IDST for sysregs without specific handlers
+58e6195e4f3c92e59d43028a444643d76c140f0f KVM: arm64: Handle CSSIDR2_EL1 and SMIDR_EL1 in a generic way
+8194f0b8b296acdb1f624cc19db006bb3fdc3803 KVM: arm64: Force trap of GMID_EL1 when the guest doesn't have MTE
+d0fcc0a5878c633bf9a77fc54e884bd5eb664ddd KVM: arm64: pkvm: Add a generic synchronous exception injection primitive
+77d0b11cbe535ad428d854085f86e339c1ce550c KVM: arm64: pkvm: Report optional ID register traps with a 0x18 syndrome
+a6f09b67bc3f51507c977effd53be736b8c26a1e KVM: arm64: selftests: Add a test for FEAT_IDST
 
---===============5088190836961866932==--
+--===============7019925408239730052==--
