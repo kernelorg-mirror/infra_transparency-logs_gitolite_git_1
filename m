@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Sun, 04 Jan 2026 18:32:52 -0000
-Message-Id: <176755157252.1267193.18222941059179314593@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Sun, 04 Jan 2026 18:38:20 -0000
+Message-Id: <176755190021.1271230.17117511746539866757@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
+repo: pub/scm/linux/kernel/git/netdev/net
 user: kuba
 changes:
   - ref: refs/heads/main
-    old: dbf8fe85a16a33d6b6bd01f2bc606fc017771465
-    new: c303e8b86d9dbd6868f5216272973292f7f3b7f1
+    old: 2a71a1a8d0ed718b1c7a9ac61f07e5755c47ae20
+    new: 02d1e1a3f9239cdb3ecf2c6d365fb959d1bf39df
     log: |
-         c303e8b86d9dbd6868f5216272973292f7f3b7f1 dt-bindings: net: mscc-miim: add microchip,lan9691-miim
+         02d1e1a3f9239cdb3ecf2c6d365fb959d1bf39df netdev: preserve NETIF_F_ALL_FOR_ALL across TSO updates
          
