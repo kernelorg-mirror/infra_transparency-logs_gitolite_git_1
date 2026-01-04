@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netfilter/nf-next
-Date: Sun, 04 Jan 2026 21:03:48 -0000
-Message-Id: <176756062845.1381320.10433333202248215088@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jfern/linux
+Date: Sun, 04 Jan 2026 21:35:08 -0000
+Message-Id: <176756250841.1405682.3889794129181060967@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netfilter/nf-next
-user: fwestphal
+repo: pub/scm/linux/kernel/git/jfern/linux
+user: jfern
 changes:
-  - ref: refs/heads/main
-    old: dbf8fe85a16a33d6b6bd01f2bc606fc017771465
-    new: c303e8b86d9dbd6868f5216272973292f7f3b7f1
-    log: |
-         c303e8b86d9dbd6868f5216272973292f7f3b7f1 dt-bindings: net: mscc-miim: add microchip,lan9691-miim
-         
+  - ref: refs/heads/rcu/pcpu-blkd-rcutorture-exp-testing
+    old: 0000000000000000000000000000000000000000
+    new: 93b7149fabee79b3970d81a57b4e48fb140bb0d5
