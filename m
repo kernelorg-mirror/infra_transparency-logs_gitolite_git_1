@@ -1,61 +1,47 @@
-Content-Type: multipart/mixed; boundary="===============5017170271519817886=="
+Content-Type: multipart/mixed; boundary="===============7192934198882188095=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Sun, 04 Jan 2026 21:41:40 -0000
-Message-Id: <176756290092.1412278.8536193656342793086@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jfern/linux
+Date: Sun, 04 Jan 2026 22:06:37 -0000
+Message-Id: <176756439745.1430832.8294683942966622573@gitolite.kernel.org>
 
---===============5017170271519817886==
+--===============7192934198882188095==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mkp/scsi
-user: mkp
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/jfern/linux
+user: jfern
 changes:
-  - ref: refs/tags/mkp-scsi-fixes
-    old: d1f5487f736afea5d8e15b59739c09bbf8f8a2cd
-    new: e81e7435fef39021f9dcb68f28b93890d83bb176
-    log: |
-         be4b7e584a0cc6715fbb14dfb2a9a39bf07cfbab scsi: ufs: dt-bindings: Fix several grammar errors
-         1523d50abad0ef8a261a5c38099b462629941156 scsi: core: Correct documentation for scsi_test_unit_ready()
-         9a49157deeb23581fc5c8189b486340d7343264a scsi: core: Fix error handler encryption support
-         ee229e7c256ab5d7b277abf8d48a732c10571750 scsi: ufs: core: Configure MCQ after link startup
-         001556d298723f091751e9e887f63b642890aaca scsi: mpt3sas: Update maintainer list
-         d0f6cfb491924d42c8f5336acb68a798e49b74b1 scsi: bfa: Update outdated comment
-         309a29b5965a0b2f36b3e245213eb43300a89ac2 scsi: ufs: host: mediatek: Make read-only array scale_us static const
-         
+  - ref: refs/heads/rcu/pcp-blkd-v4
+    old: 953e49998c22b49d83f174d5baf09370c3f11412
+    new: 25622488ba0d321540906be0faf11a8c800491a0
+    log: revlist-953e49998c22-25622488ba0d.txt
 
---===============5017170271519817886==
+--===============7192934198882188095==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-953e49998c22-25622488ba0d.txt
 
-certificate version 0.1
-pusher 75C5DE3D 1767562879 -0500
-pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1767562879-7c3eb35d3f1e5b8080c3d8510b1dc366c1f950df
+04c8ee9a92bba2788e86314f760c80342673e040 rcu: Add per-CPU blocked task lists for PREEMPT_RCU
+56063fd6170402f8bf46a591fea0cd3adb2f70a4 rcu: Early return during unlock for tasks only on per-CPU blocked list
+c5e925564553d228bbca0420323d81d1a421ba72 rcu: Promote blocked tasks from per-CPU to rnp lists
+a0086cf347e135db773922777db65ac7efe35c1d rcu: Promote blocked tasks for expedited GPs
+fafb3bb731b08c91c9c8ca83f9f1ad56f36efe77 rcu: Promote per-CPU blocked tasks before checking for blocked readers
+593d6d07c96e467261c10c5976f25d50bce00589 rcu: Promote late-arriving blocked tasks before reporting QS
+6c2bf04c46375678d319fe0d6c132a020f7ecfa0 rcu: Promote blocked tasks before QS report in force_qs_rnp()
+969041e772a6c141420b723ec437e818d293588d rcu: Promote blocked tasks before QS report in rcutree_report_cpu_dead()
+2142cde88b8dc9d0d74c8152248f7f62afa1eb4a rcu: Promote blocked tasks before QS report in rcu_gp_init()
+d6afedfacc0e6651ea68ec9c7ef30f92030e944b rcu: Add per-CPU blocked list check in exit_rcu()
+1583753ac05ea3e5eb31c33b54da0021f7139d36 rcu: Skip per-CPU list addition when GP already started
+a4ad3f1d413900df559af930ba42a4c3341ab1f8 rcu: Skip rnp addition when no grace period waiting
+b87c93727ef206e5b734454de1e3a652d4b80d1e rcu: Remove checking of per-cpu blocked list against the node list
+0bd275962c647ff1f1bcb5d4cfb2d3342c61f554 rcu: Reset stall detection timers after ftrace dump
+c2d313873b6af1ababce130e89c65ded21d061a5 TEST: rcu: Add comprehensive trace_printk for per-CPU blocked list debugging
+560467472944085033f9b235ea881adcd1f57747 rcu: Add rcu_exp_gp_in_progress() to check expedited GP state
+25622488ba0d321540906be0faf11a8c800491a0 rcu: Check for expedited GP before using per-CPU blocked list
 
-d1f5487f736afea5d8e15b59739c09bbf8f8a2cd e81e7435fef39021f9dcb68f28b93890d83bb176 refs/tags/mkp-scsi-fixes
------BEGIN PGP SIGNATURE-----
-
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmla3n8ACgkQ7ulgGnXF
-3j3wmQ/+K7W0JR0L9GYUG1QGJRz4V+EkWRFVsUik5ZyPgl+rBwq2pzxJ6yJNpuKt
-aqf3PitwYO3QgIrC73ksXk1FU73vHkklWhgwQ3j5X1d3DePfCU4iwLwMx6jJHvN8
-BrLGzOuzy0sOH78+MluOakRzaj1VaMExapUpaY0Mm762PpfEyLjLYHalhr5J5egv
-RinsmcL4wZPTPhJNaH1HjadymXrw9X74ngsu4EKR5H0zYbIfziOqwTLhTCEmODXK
-HmxeVictU3OXVyOCuDK5OlJcxhZ4wTN1MvVycQXhfNzkrbvNkptOX6cvQHhWqN/X
-5U7vUGVnozL/flFhrzLLvQoP6bPzAWFF+5ccvnJDvC9ockzF++iHNczanaqqoNN+
-9RU33h9MhKPsHreZAFjmGCwxBV2415J+YEY4fLe71TTPmB+UmkBnv/l/1L6iRNQY
-RsqW8Wwk2ZfKIIy2qtTRHaKAL02CvtolWv8dgmqI6iN97rrRJEocyfycIQUeKIHZ
-mzyxsl1GWsOM7vb+muavc6lhjl4tgUvh9BXkG9OoBafwbU4emy5ekWyY0FLuG3jE
-HiHjNXCzRgBEDykAC28QLVguVtCuE2J97fzSdLpbFiaUx1ll4HnO57Az+W7R/yu4
-3eGGnIKuW3s8KIxig0qRlp8/WKLHqRgvCjGYs/LPthN9cUgQ+V0=
-=yst6
------END PGP SIGNATURE-----
-
---===============5017170271519817886==--
+--===============7192934198882188095==--
