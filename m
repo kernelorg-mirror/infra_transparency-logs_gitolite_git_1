@@ -1,54 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============3081513306455258075=="
+Content-Type: multipart/mixed; boundary="===============4411091421593399744=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Sun, 04 Jan 2026 09:42:57 -0000
-Message-Id: <176751977734.869661.13873709049431588346@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
+Date: Sun, 04 Jan 2026 10:51:58 -0000
+Message-Id: <176752391852.921970.12313884134856679524@gitolite.kernel.org>
 
---===============3081513306455258075==
+--===============4411091421593399744==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: mingo
+repo: pub/scm/linux/kernel/git/kdave/linux
+user: kdave
 changes:
   - ref: refs/heads/master
-    old: 61f54df8d8ac5d1ad717a5e54277b80448dc3aa8
-    new: fdebc6ca44cd641b997ff6e77d9ab3f388c88cc5
-    log: revlist-61f54df8d8ac-fdebc6ca44cd.txt
-  - ref: refs/heads/tip/urgent
-    old: 454f5c01d23fd48ccdb2235e0d1c67a353c53581
-    new: 04d727875a28198df17d4beafee7f98d8f99ae68
-    log: revlist-454f5c01d23f-04d727875a28.txt
+    old: b69053dd3ffbc0d2dedbbc86182cdef6f641fe1b
+    new: aacb0a6d604ac9953b261963efe25ae7521b7c58
+    log: revlist-b69053dd3ffb-aacb0a6d604a.txt
 
---===============3081513306455258075==
+--===============4411091421593399744==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-61f54df8d8ac-fdebc6ca44cd.txt
-
-04d727875a28198df17d4beafee7f98d8f99ae68 Merge branch into tip/master: 'core/urgent'
-a7907f1d59a42eb987a2726213ae3e5a8074bbd0 Merge branch into tip/master: 'irq/core'
-4313cac32cdfd6442aba7d9f7a64cc92d4767ccb Merge branch into tip/master: 'irq/drivers'
-f0680b11df56471813185030f9eee3bb6893ea90 Merge branch into tip/master: 'irq/msi'
-0e3f34e3a5798fb35a0a19baa3e12ca9b41fe559 Merge branch into tip/master: 'locking/core'
-c6893b1c23ac792648dc0dd5c8b18330f30c40b3 Merge branch into tip/master: 'perf/core'
-e4a72c2d0931baa52be58a1bd21dc3c3aa7b03d6 Merge branch into tip/master: 'sched/core'
-1b863f7f3138cdb638fa7c1f9ed933faf7ba4fc8 Merge branch into tip/master: 'timers/core'
-52cf295e3f72aa7065c1e0a378df06d6dd23b2e8 Merge branch into tip/master: 'x86/boot'
-bc4ca9276d7b4a359d505d507023b7aae7becb3f Merge branch into tip/master: 'x86/bugs'
-78c2358acc07b6ce53592cfa219e9ec4ce95fe09 Merge branch into tip/master: 'x86/cpu'
-22ff25ce87c86c401b40e6fdf3e68b2edab3e48e Merge branch into tip/master: 'x86/irq'
-fdebc6ca44cd641b997ff6e77d9ab3f388c88cc5 Merge branch into tip/master: 'x86/sev'
-
---===============3081513306455258075==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-454f5c01d23f-04d727875a28.txt
+Content-Disposition: attachment; filename=revlist-b69053dd3ffb-aacb0a6d604a.txt
 
 a7b8e876e0ef0232b8076972c57ce9a7286b47ca RDMA/core: Check for the presence of LS_NLA_TYPE_DGID correctly
 57f3cb6c84159d12ba343574df2115fb18dd83ca RDMA/cm: Fix leaking the multicast GID table reference
@@ -104,6 +80,7 @@ a2ce133969175d36d708b7c76536b375d0522e53 selftests/ublk: fix Makefile to rebuild
 bed2a6bd20681aacfb063015c1edfab6f58a333e drm/xe/guc: READ/WRITE_ONCE g2h_fence->done
 305f254727bd379bbed0385afa0162f5bde1f51c pmdomain: mtk-pm-domains: Fix spinlock recursion fix in probe
 73cb5f6eafb0ac7aea8cdeb8ff12981aa741d8fb pmdomain: imx: Fix reference count leak in imx_gpc_probe()
+150b1b97e27513535dcd3795d5ecd28e61b6cb8c x86/microcode/AMD: Fix Entrysign revision check for Zen5/Strix Halo
 0c56693b06a68476ba113db6347e7897475f9e4c ksmbd: Fix memory leak in get_file_all_info()
 7c28f8eef5ac5312794d8a52918076dcd787e53b smb/server: call ksmbd_session_rpc_close() on error path in create_smb2_pipe()
 3296c3012a9d9a27e81e34910384e55a6ff3cff0 smb/server: fix refcount leak in parse_durable_handle_context()
@@ -153,6 +130,5 @@ dec1ecf2c707ff34aa3224fd49aeee0a852a62f7 Merge tag 'libcrypto-fixes-for-linus' o
 bbbc721033c076bad736c48a2b9f75bee4003607 Merge tag 'pm-6.19-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
 805f9a061372164d43ddef771d7cd63e3ba6d845 Merge tag 'perf-tools-fixes-for-v6.19-2026-01-02' of git://git.kernel.org/pub/scm/linux/kernel/git/perf/perf-tools
 aacb0a6d604ac9953b261963efe25ae7521b7c58 Merge tag 'pmdomain-v6.19-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/ulfh/linux-pm
-04d727875a28198df17d4beafee7f98d8f99ae68 Merge branch into tip/master: 'core/urgent'
 
---===============3081513306455258075==--
+--===============4411091421593399744==--
