@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Sun, 04 Jan 2026 23:09:27 -0000
-Message-Id: <176756816761.1477995.721899153034537152@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sj/damon-hack
+Date: Sun, 04 Jan 2026 23:09:49 -0000
+Message-Id: <176756818977.1478410.9980077932035118722@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/linux
+repo: pub/scm/linux/kernel/git/sj/damon-hack
 user: sj
 changes:
   - ref: refs/heads/master
-    old: 54e82e93ca93e49cb4c33988adec5c8cb9d0df31
-    new: 9ace4753a5202b02191d54e9fdf7f9e3d02b85eb
+    old: 010eed6d9499849c341c6418389c5d9845cd0326
+    new: 4eaa9fa2dd587f10b9483bd903155f59f2119a7b
     log: |
-         9ace4753a5202b02191d54e9fdf7f9e3d02b85eb Linux 6.19-rc4
+         4eaa9fa2dd587f10b9483bd903155f59f2119a7b patches/next: add folio initialization for paddr damos functions, from Aaron
          
