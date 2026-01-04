@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2175677849867226843=="
+Content-Type: multipart/mixed; boundary="===============3989876387738389846=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Sun, 04 Jan 2026 22:27:31 -0000
-Message-Id: <176756565142.1446121.17830581702015984136@gitolite.kernel.org>
+Date: Sun, 04 Jan 2026 22:27:33 -0000
+Message-Id: <176756565321.1446232.12610381140382764557@gitolite.kernel.org>
 
---===============2175677849867226843==
+--===============3989876387738389846==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/damon/next
-    old: 644a6bce18f4898b592ca752c83dbb22597793f8
-    new: bd16a7f7a7ac856ae197f0e1e8a42f3df17c2240
-    log: revlist-644a6bce18f4-bd16a7f7a7ac.txt
+  - ref: refs/heads/mm-new
+    old: 998401fcd108b2cbd7c5bf21717e907eb573c5fc
+    new: f7cc227b55f0a0ac9b04a5e4613db6ba93785af5
+    log: revlist-998401fcd108-f7cc227b55f0.txt
 
---===============2175677849867226843==
+--===============3989876387738389846==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-644a6bce18f4-bd16a7f7a7ac.txt
+Content-Disposition: attachment; filename=revlist-998401fcd108-f7cc227b55f0.txt
 
 cfdfe11d6a3723676e4562c098afc73d2b7b5ad9 mm: describe @flags parameter in memalloc_flags_save()
 95835913a83d095761e259145d61386192fbf1b4 textsearch: describe @list member in ts_ops search
@@ -242,124 +242,5 @@ ac91f96098230702d873cf4fe7540282fb53bc17 mm, arch: consolidate hugetlb CMA reser
 d94b1bc095f6183324feb589d25cd017db9dd552 mm/hugetlb: drop hugetlb_cma_check()
 df7b5568f734c8e4543f3919cf48bc4ad9cfbb05 Revert "mm/hugetlb: deal with multiple calls to hugetlb_bootmem_alloc"
 f7cc227b55f0a0ac9b04a5e4613db6ba93785af5 memcg-v1: remove folio_memcg_lock() doc reference
-e588b72fa79dc7183ba046448266ae7f1af4faec === mark start of DAMON hack tree ===
-72b6fb6ecb6e53f961c8bb7de1e83fc46659b9b2 add -damon suffix to the version name
-eac6d8811c8f3a3677f1933936ca74e2151ef311 === temporal fixes ===
-33804d9b08072386f92541cd80a134de11534c69 Revert "kselftest/runner.sh: Propagate SIGTERM to runner child"
-fb5249fcdce323a10c993c06979d92c87d366c6d === patches written or reviewed by SJ but not merged in -mm ===
-87ea8ba2c63affbfc2df34ab2b6b425384d6a283 Documentation: damon: reclaim: Convert "Free Page Reporting" citation link
-f2b61584b73bd22b265eed4ce2ad4683dab7e57b mm/damon: do not break the string for damos_stat tracepoint
-9c00d2b430de2b20270fe1807b0cbd65bbb091ad === hacks in progress ===
-297f3e2c12c0be21c8cad3dcec879af31230cbc4 ==== fault/report-based monitoring for per-cpu and write ====
-18735a55e0f1e1036380df75fefd10067ace3192 mm/damon/core: implement damon_report_access()
-7d95a27e506b82fc2d89178e2b6f8cbbf4e6965f mm/damon: define struct damon_sample_control
-8aab08cabf2ae7c55af034b4dcebd7529bf359d8 mm/damon/core: commit damon_sample_control
-60359e870cc9c357317d435228406a1f086e5084 mm/damon/core: implement damon_report_page_fault()
-23b13649dea8ce2908c6d7c4f65db3570f742172 mm/{mprotect,memory}: (no upstream-aimed hack) implement MM_CP_DAMON
-4703ae287c979405cfaca84621a31f435c2607d5 mm/damon/paddr: support page fault access check primitive
-ebdac9398fe1bab840a6fab520c59f6771862bd6 mm/damon/core: apply access reports to high level snapshot
-1f5db047058e6b5ec4835307287dcaf3d32794c2 mm/damon/sysfs: implement monitoring_attrs/sample/ dir
-8ff5df544a803b8ce75b8bc85560f1c4f57922cf mm/damon/sysfs: implement sample/primitives/ dir
-f5cd6132e12450d4d82e7eb72c1cacc8ebda347d mm/damon/sysfs: connect primitives directory with core
-622c792c797a516a405feef712ec24984b8c91a5 Docs/mm/damon/design: document page fault sampling primitive
-1914ae992a7cb7fdc8dd0074697af5c1aab82142 Docs/admin-guide/mm/damon/usage: document sample primitives dir
-1c7c576f211b6b6c7f8552502a50de6bc6ea6cb4 mm/damon: extend damon_access_report for origin CPU reporting
-d75cc3253cf3a1c419583c15b7ea503d96f3dcb1 mm/damon/core: report access origin cpu of page faults
-623031574463a3317ab1370ae13d7ef1cc45ac31 mm/damon: implement sample filter data structure for cpus-only monitoring
-72110258691244bd1c72dffbf702ee7a2c632c7d mm/damon/core: implement damon_sample_filter manipulations
-f8806727b94e8b21422448d8c71e6c7acf33bc51 mm/damon/core: commit damon_sample_filters
-3e92f8ba5cbdb70ea8a0eede982f106c957fa99e mm/damon/core: apply sample filter to access reports
-adb320f84d48d27a85003a5d7590528ab7ec989a mm/damon/sysfs: implement sample/filters/ directory
-819502bfe4511782c541331aa21c3fbcbfb1da6b mm/damon/sysfs: implement sample filter directory
-c1a78ab4260291b1cce8afe5c1b88e73c953aa04 mm/damon/sysfs: implement type, matching, allow files under sample filter dir
-2106d857d49bee17773ff26974f674b937a6e0bf mm/damon/sysfs: implement cpumask file under sample filter dir
-700d43596411bc46d8025571a4ed3c29a34cfcc1 mm/damon/sysfs: connect sample filters with core layer
-57dddb068e53fe248be36414996653535df9c462 Docs/mm/damon/design: document sample filters
-7e9b2941ab916c62d571fef8b1efa53987781ff4 Docs/admin-guide/mm/damon/usage: document sample filters dir
-3fe86deccd6f1544a0768068e4d45b158e5c1f79 mm/damon: extend damon_access_report for access-origin thread info
-5967dd402ae3d541210e75b90cb16727a6bbd0f5 mm/damon/core: report access-generated thread id of the fault event
-c90516928e9cf3d72543c306f54156253ae6c2fb mm/damon: extend damon_sample_filter for threads
-a8401e68789a5bdd4ebc7255a68c4fadf5118da2 mm/damon/core: support threads type sample filter
-109c673db890e9f87dd9edd0f23ab7f6ac2e5013 mm/damon/sysfs: support thread based access sample filtering
-ae38a64e0f6de4757ba29b4116d7fa64bf15a60c Docs/mm/damon/design: document threads type sample filter
-cec8c4b8880e991c07d37f150f3b7c592c2b765d Docs/admin-guide/mm/damon/usage: document tids_arr file
-6808bee56a51ebb4d1e53254409af76683c2b02d mm/damon: support reporting write access
-88de87580bdcd45e2281ee3a81e92846485fa8b6 mm/damon/core: report whether the page fault was for writing
-5ce7c75c4b10743e988ed6cbf77d98c205e202fb mm/damon/core: support write access sample filter
-5d3b3e3311bc26569b50faad09e46f9ead3c92e0 mm/damon/sysfs: support write-type access sample filter
-ddef3b431972e91a99028202d4ca2c3cfe7797d1 Docs/mm/damon/design: document write access sample filter type
-b5861d5a5562f476e706aab65f7ef94ea564e895 mm/damon/core: elaborate access reports dropping behavior
-83f66bab674fd7a8cdeb15d9e06d654fc2e58018 ===== fault-based vaddr monitoring =====
-a3c86708d290afd289c56d4ca61b3f0af20cf6c6 mm/damon: rename damon_access_report->addr to ->paddr
-cfda17c0392b330d5906b37ca1ab0943af07e403 mm/damon: extend damon_access_report for virtual address
-5000db4f13c3337aa340ee5083b2e9518b78d686 mm/damon/core: set damon_access_report->vaddr from page fault report
-331e85fca14f0980cc0f5cf6b6ef0c9b3b77c029 mm/damon/core: support vaddr reports
-8e23df67faa8641d1e437c63249765b04acba0ca ==== docs for DAMON and mm ====
-29bbcdb2d72ca092ba72f16a35301f305b8e1961 Docs/mm/damon/design: add table of contents for overall and DAMOS
-97826a59fb485bf746c322f3ee8f170eb2102af6 Docs/process/2.Process: Update mm tree URL
-1d8c94aa59e1193e1b46b95dd0fa1476ded6a691 Docs/mm/damon/design: add API link to damon_ctx
-254c005c076507d40382a3158c9f9e74c54fed0f ==== ACMA ====
-681044c5421ca8b72eb61cf31c85f73507289b23 mm/damon: implement DAMOS actions for access-aware contiguous memory allocation
-e345fbf44c392f6f81aa0332283fb4e329fd851d mm/damon: add the initial part of access/contiguity-aware memory auto-scaling module
-c8928e629fb6c6633a388683194c949ffd9f8c80 mm/page_reporting: implement a function for reporting specific pfn range
-120a74d04b1715244fc25095abe4f6f6e2ad7f5e mm/damon/acma: implement scale down feature
-1a21cea7ed86e0b65a910fa492083a3ca90de63f mm/damon/acma: implement scale up feature
-3ce96effe4d51111edeb1523284135947b251a23 drivers/virtio/virtio_balloon: integrate ACMA and ballooning
-16643be604259d5f8667222114dba72e2a63be9b === commits aiming not to be posted ===
-56745b7ab970c765a2fd678d2ffbcd3a9138ab2c mm/damon: Add debug code
-372538c068e4424d4d4c927888c9f5aef2652f46 mm/damon/core: add debugging log for intervals auto-tuning
-fb2932e2f8ad31e389fd59fbf42f984910661455 mm/damon/core: add debugging log for wrong moving sum nr_accesses update
-248bca43b590c34d195e2663b6a70e9f02a54647 mm/damon/core: add todo for DAMOS interval validation
-d645a55674c3cf72e8f794ae4b5f4f43af0ad892 mm/damon/core: add debugging-purpose log of tuned esz
-b41001b8b78df011a0acb838c3d44a1a7b8187d4 Add debug log for PSI
-67a2a3908f44e499ae38d76ce33b76f6079b1a1b mm/damon/core: add debug log for reset_regions()
-f22e447922891435b8b9410b2cda8bada35583a2 ==== lru_sort advancing ====
-072ca01dfcb27a49e88684a2e2059ae0d84da937 mm/damon/core: introduce [in]active memory ratio damos quota goal metric
-13c3552b50a43934a73e269753fafea68f1d610f mm/damon/sysfs-schemes: support DAMOS_QUOTA_[IN]ACTIVE_MEM_BP
-b2dbad5e88573b9bd676ede6cc0efdac095f1c14 Docs/mm/damon/design: document DAMOS_QUOTA_[IN]ACTIVE_MEM_BP
-7cbb51f5efa32626b336bfa4ac685949a9f07db2 mm/damon/paddr: activate DAMOS_LRU_PRIO targets instead of marking accessed
-0dedb7a0a53e8cccb3110444c2c76dab244c40ee mm/damon/lru_sort: consider age for quota prioritization
-e1f743e0427c9fdc0f202b9788ed399b4ebf45cb mm/damon/lru_sort: support young page filters
-13543d08ae623fd38baa2f0c34bef68c4dad1300 Docs/admin-guide/mm/damon/lru_sort: document filter_young_pages
-9024ab4cb0f99d7481358253b08e64558e191035 mm/damon/lru_sort: support active:inactive memory ratio based auto-tuning
-1c01e65645b0793de60237188d065b49ffa60ace Docs/admin-guide/mm/damon/lru_sort: document active_mem_bp parameter
-5b6359a1b793ed8393a28314734e096d5e150625 mm/damon/lru_sort: add monitoring intervals auto-tuning parameter
-4c627f675f7087c752621fe566bfb9095908d912 Docs/admin-guide/mm/damon/lru_sort: document intervals autotuning
-d8ab92f5ba0ee85ec685b33be74c5aefd4aaf523 ==== uncategorized ====
-bc5918470281d5fc952d2d0d7ddfd9a132187f45 mm/damon/core: add an hacking idea concept interface prototype
-6c92bfbf36231559af7dd1a003eb81c5e492e73b mm/damon/core: restrict total_charged_{sz,ns} to avoid overflows
-63be29ce5f7adc29e787106d5f17792379fb93fe Docs: submitting-patches: suggest adding previous version links
-0948e3df3a71a2b839ce8328d396d67a4d221b95 selftests/damon/sysfs_memcg_path_leak.sh: use kmemleak
-e8e78795ae79a091c1b3acdd2465dbbce1a37c1d mm/memory: implement functions and data structures for page faults monitoring
-53ccc9519415fb7beaf5fb6f76ef91438f1ea024 mm/memory: introduce do_{,huge_pmd_}faults_monitor_page()
-f227584fe376aca733a1710b9eebc20b580bddbe mm/damon/core: rename damos_filter_out() to damos_core_filter_out()
-0978e399c711df769ad701241f00af43a6d7c13e mm/damon/core: set score histogram without filters-excluding regions
-90dcd2eb8d17efabcf5361873c3baa4a3479e65b selftests/damon/wss_estimation: increase allowed error rate
-0a7eb93af940bde9d3b3993a22b594a605c2359b Docs/admin-guide/mm/damon/usage: clarify stats update process
-e4564829194e4f7e2b8a3c64074a6cb19718e043 Docs/mm/damon/index: simplify the intro
-58854a7e1cab4a99535fac2bf8031bec86b5f92c mm/memory: mark faults_monitor_controls_lock as static
-883fc156a1204c539dc21631da8675b5b5930b3c mm/damon/core: cleanup targets right after kdamond_fn() main loop
-4fff38c3e7880bad50e0fb1337ce21bdbff07517 mm/damon/core: cancel damos_walk() before ctx->kdamond reset
-9e79885be44c2ad42615185a74af63bc9879d977 mm/damon/core: implement damon_kdamond_pid()
-f930a6bbf820b2b01e76d890fa52a9672032461e mm/damon/sysfs: use damon_kdamond_pid()
-182f5c26dfcf4c9411366666c371c9b61079ce38 mm/damon: remove damon_operations->cleanup()
-9e23a41dbddae52bebbcd9c2273e89aabea0f5a8 mm/damon/lru_sort: use damon_kdamond_pid()
-6a323734dfc8566d548a42a687258a23000cf2b0 mm/damon/reclaim: use damon_kdamond_pid()
-39a92dbf375956c716ac5955717102b659deb3dc mm/damon: hide kdamond and kdamond_lock of damon_ctx
-0b09c0b8783a6755fdb0c3b863ea4a1fb5d09d28 mm/damon/core: make kdamond handles damon_call_controls on local list
-1089257a1fe13efce6e46effb74c38ddf4c89e99 mm/damon: document damon_call_control->dealloc_on_cancel repeat behavior
-70766528f143f9865421c54a44f284b0a5e168f1 mm/damon: rename DAMON_MIN_REGION to DAMON_MIN_REGION_SZ
-39ec934386bc2fa2b5fc32ed1a19e8f2343abcf2 mm/damon: rename min_sz_region of damon_ctx to min_region_sz
-f10b561d05657b2e587ebd29d06de76591ace6f1 Docs/mm/damon/design: add reference to DAMON_STAT usage
-981367e456b23f2a56083c70a273592960c4e549 Docs/admin-guide/mm/damon/usage: suggest use of DAMON modules
-91926c1bcbdf15a9efe816ca8a5545da519493ce Docs/mm/damon/design: document DAMON sample modules
-1d180dc01106b97e7fdb5b6b299c7b04815adb28 mm/damon: add CONFIG_DAMON_HARDENED
-7f862cff3c386627f3ce5e55551acfa71e3576a3 mm/damon/core: add damon_new_region() hardening
-74c827fad7b563b04e462e20638f0e8683fcbfdc mm/damon/core: add damon_nr_regions() hardening
-fd5ef8d356b4535048e9453e4652ffc436d3d752 mm/damon/core: add damon_reset_aggregated() hardening
-fc365aae92c2c42a1a06c9c360ed43d7faf34a46 mm/damon/core: add damon_merge_two_regions() hardening
-985ba3ba6bd45ac09d423b42d2be5c3f33b0029b mm/damon/core: add damon_merge_regions_of() hardening
-8416b293a32a6557b696aedcd4a1a185551e42b5 mm/damon/core: add damon_split_region_at() hardening
-bd16a7f7a7ac856ae197f0e1e8a42f3df17c2240 Docs/admin-guide/mm/damon/usage: fix wrong special purpose modules reference
 
---===============2175677849867226843==--
+--===============3989876387738389846==--
