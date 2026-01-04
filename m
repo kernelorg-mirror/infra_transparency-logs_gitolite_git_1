@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jejb/scsi
-Date: Sun, 04 Jan 2026 23:26:09 -0000
-Message-Id: <176756916911.1492556.8970542573807416866@gitolite.kernel.org>
+Date: Sun, 04 Jan 2026 23:26:15 -0000
+Message-Id: <176756917545.1492774.6537710777427017963@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,12 +11,15 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jejb/scsi
 user: jejb
 changes:
-  - ref: refs/heads/fixes-base
-    old: 8f0b4cce4481fb22653697cced8d0d04027cb1e8
-    new: c9f36f04a8a2725172cdf2b5e32363e4addcb14c
+  - ref: refs/heads/fixes
+    old: c9f36f04a8a2725172cdf2b5e32363e4addcb14c
+    new: 309a29b5965a0b2f36b3e245213eb43300a89ac2
     log: |
-         1f7d6e2efeedd8f545d3e0e9bf338023bf4ea584 scsi: scsi_debug: Fix atomic write enable module param description
-         d373163194982f43b92c552c138c29d9f0b79553 scsi: mpi3mr: Read missing IOCFacts flag for reply queue full overflow
-         0e1677654259a2f3ccf728de1edde922a3c4ba57 scsi: sg: Fix occasional bogus elapsed time that exceeds timeout
-         c9f36f04a8a2725172cdf2b5e32363e4addcb14c scsi: ufs: core: Add ufshcd_update_evt_hist() for UFS suspend error
+         be4b7e584a0cc6715fbb14dfb2a9a39bf07cfbab scsi: ufs: dt-bindings: Fix several grammar errors
+         1523d50abad0ef8a261a5c38099b462629941156 scsi: core: Correct documentation for scsi_test_unit_ready()
+         9a49157deeb23581fc5c8189b486340d7343264a scsi: core: Fix error handler encryption support
+         ee229e7c256ab5d7b277abf8d48a732c10571750 scsi: ufs: core: Configure MCQ after link startup
+         001556d298723f091751e9e887f63b642890aaca scsi: mpt3sas: Update maintainer list
+         d0f6cfb491924d42c8f5336acb68a798e49b74b1 scsi: bfa: Update outdated comment
+         309a29b5965a0b2f36b3e245213eb43300a89ac2 scsi: ufs: host: mediatek: Make read-only array scale_us static const
          
