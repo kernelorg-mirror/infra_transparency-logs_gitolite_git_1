@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Sun, 04 Jan 2026 17:55:14 -0000
-Message-Id: <176754931431.1239398.12593694451138920077@gitolite.kernel.org>
+Date: Sun, 04 Jan 2026 17:55:15 -0000
+Message-Id: <176754931578.1239482.17549739023946775539@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,9 +11,10 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/damon/next
-    old: 28d3c5e02b31f08aa715cf01ead66c072a9c5d5a
-    new: 644a6bce18f4898b592ca752c83dbb22597793f8
+  - ref: refs/heads/master
+    old: aacb0a6d604ac9953b261963efe25ae7521b7c58
+    new: 54e82e93ca93e49cb4c33988adec5c8cb9d0df31
     log: |
-         644a6bce18f4898b592ca752c83dbb22597793f8 Docs/admin-guide/mm/damon/usage: fix wrong special purpose modules reference
+         4a824c3128998158a093eaadd776a79abe3a601a entry: Always inline local_irq_{enable,disable}_exit_to_user()
+         54e82e93ca93e49cb4c33988adec5c8cb9d0df31 Merge tag 'core_urgent_for_v6.19_rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
          
