@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4964823056341583123=="
+Content-Type: multipart/mixed; boundary="===============7657517885874484792=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Mon, 05 Jan 2026 03:01:52 -0000
-Message-Id: <176758211211.1656093.5050991239113487530@gitolite.kernel.org>
+Date: Mon, 05 Jan 2026 03:02:33 -0000
+Message-Id: <176758215376.1656638.16751430804232204296@gitolite.kernel.org>
 
---===============4964823056341583123==
+--===============7657517885874484792==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/cel/linux
 user: cel
 changes:
-  - ref: refs/heads/nfsd-next
-    old: fbdd582b5176c868c08b57ea062ec3367eb7181a
-    new: ee35e4fb4d38984b0e43860be49305ffc879db26
-    log: revlist-fbdd582b5176-ee35e4fb4d38.txt
+  - ref: refs/heads/nfsd-testing
+    old: 1a1b62fa751ab630ef4818ca337f1256054a2d4e
+    new: 4dc2fcb408d999aa59cfa39322c0598676eed12d
+    log: revlist-1a1b62fa751a-4dc2fcb408d9.txt
 
---===============4964823056341583123==
+--===============7657517885874484792==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-fbdd582b5176-ee35e4fb4d38.txt
+Content-Disposition: attachment; filename=revlist-1a1b62fa751a-4dc2fcb408d9.txt
 
 a7b8e876e0ef0232b8076972c57ce9a7286b47ca RDMA/core: Check for the presence of LS_NLA_TYPE_DGID correctly
 57f3cb6c84159d12ba343574df2115fb18dd83ca RDMA/cm: Fix leaking the multicast GID table reference
@@ -142,5 +142,28 @@ f2c1ccc7a8cf1eef9bf7b719e5b84c8ab223e577 locks: ensure vfs_test_lock() never ret
 101acb28bdbee4be14980a23888e80a0b648e39f nfsd: prefix notification in nfsd4_finalize_deleg_timestamps() with "nfsd: "
 266f502a80be1de92fc0b7e55d9a88552585e1f0 xdrgen: Fix struct prefix for typedef types in program wrappers
 ee35e4fb4d38984b0e43860be49305ffc879db26 xdrgen: Emit the program number definition
+f2f261aa34a1305d71b06e13472cb8d2a1257ebf NFSD: Remove NFSERR_EAGAIN
+0e72961577596901b598e3cfd8c8576e1493269b NFS: NFSERR_INVAL is not defined by NFSv2
+72ec40d829ded46ffe35bbffd57bb31e2d4439f5 NFSD: Fix permission check for read access to executable-only files
+1a8dbd57456fcf76a99763a39223915fec93ed21 nfsd: provide locking for v4_end_grace
+970e131e4407add6d865cb15be8525a34f7175ac nfsd: use workqueue enable/disable APIs for v4_end_grace sync
+552c8838e75ec090591af9bf9772b3bdddc07aa3 nfsd: fix nfs4_file refcount leak in nfsd_get_dir_deleg()
+64e2bf64e7cbcebe11bdaabed15bcebd35f8b8d9 nfsd: use correct loop termination in nfsd4_revoke_states()
+ec6fc6d10137b33f6a1251f3b3a796a6bee831d7 nfsd: check that server is running in unlock_filesystem
+c2218e8fdd1af22393be4f82c8d37cdd2b053875 NFSD: net ref data still needs to be freed even if net hasn't startup
+35264899d7eeb7cb0b6ee3dabc6299705ec976d4 xdrgen: Implement short (16-bit) integer types
+a4a44622570a80b857f8d5e7686b5393a8224ae8 NFSD: fix setting FMODE_NOCMTIME in nfs4_open_delegation
+318fb05e388127926b946b963dd8d2755c10a2fc xdrgen: Initialize data pointer for zero-length items
+939b8292cb656689c4c479b5104df47153540977 xdrgen: Remove inclusion of nlm4.h header
+5ac699ac964d4a768f9d544879aa233eb4517d9f xdrgen: Improve parse error reporting
+cbfd91d22776b336c2dc7177a04a6856e5b22bbc nfsd: never defer requests during idmap lookup
+77235638b4d363765d02d47f57fdb3b41eb8555d nfsd: fix return error code for nfsd_map_name_to_[ug]id
+3ffd7d5b53390e1e1d3f9de4127f9968789b1f7c SUNRPC: auth_gss: fix memory leaks in XDR decoding error paths
+2974b942b9e889c2a75daa84e91339771a758d7e xdrgen: Extend error reporting to AST transformation phase
+904f3490acdfd59f1f84c96b52aff2defb6a5d26 xdrgen: Emit a max_arg_sz macro
+63030a4424faeebe27fdebb8bb10d48a45e54cb8 xdrgen: Add enum value validation to generated decoders
+f12da41587ccd7f63f1ddb95ba6c979a382f8ebb NFSD: Track SCSI Persistent Registration Fencing per Client with xarray
+513f73e271e4be1eb1f059e5fb84d633a67efdbb [DEBUG] Add instrumentation for nfsd_mutex contention debugging
+4dc2fcb408d999aa59cfa39322c0598676eed12d siw: Enable try_gso
 
---===============4964823056341583123==--
+--===============7657517885874484792==--
