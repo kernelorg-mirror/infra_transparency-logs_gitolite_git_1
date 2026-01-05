@@ -1,23 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Mon, 05 Jan 2026 18:33:15 -0000
-Message-Id: <176763799504.2468111.1466395847249319477@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux
+Date: Mon, 05 Jan 2026 18:46:13 -0000
+Message-Id: <176763877320.2478983.8323874336809648333@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/axboe/linux
+user: axboe
 changes:
-  - ref: refs/heads/kvm-arm64-set-id-regs-aarch64
-    old: e2e303656a42eb7864903a3267edf1cdbec623f1
-    new: 1ac1898e48b491e0c3e0dc81fa7c11fa185df458
+  - ref: refs/heads/for-next
+    old: 528478eac65bb6d0dc3fc9a21e242fb22fd3acef
+    new: d116c4268585c33abc0bcb90045550cd76401833
     log: |
-         8d1d400037ef9ab7106d17ec69ec0bdb4f532486 KVM: selftests: arm64: Improve diagnostics from set_id_regs
-         4086b9e29987915453923f9c56441a41459cd3b9 KVM: selftests: arm64: Report set_id_reg reads of test registers as tests
-         033210bb8e39f2fa82fb219864d1dad2bfc2526b KVM: selftests: arm64: Report register reset tests individually
-         3b976958f313baa47b56033c581a057287bcdc33 KVM: selftests: arm64: Make set_id_regs bitfield validatity checks non-fatal
-         1ac1898e48b491e0c3e0dc81fa7c11fa185df458 KVM: selftests: arm64: Skip all 32 bit IDs when set_id_regs is aarch64 only
+         6bee8babfe1305e96840d1d5912d711861e8a743 io_uring/io-wq: fix incorrect io_wq_for_each_worker() termination logic
+         ee612f30b1be52637af7d8c175a0d5bd2c1566d3 io_uring/io-wq: remove io_wq_for_each_worker() return value
+         d116c4268585c33abc0bcb90045550cd76401833 Merge branch 'io_uring-6.19' into for-next
          
