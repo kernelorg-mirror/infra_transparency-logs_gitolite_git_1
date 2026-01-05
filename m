@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3307382455610527040=="
+Content-Type: multipart/mixed; boundary="===============5594160856931900672=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/joel.granados/linux
-Date: Mon, 05 Jan 2026 12:50:03 -0000
-Message-Id: <176761740378.2173080.13498441507953840803@gitolite.kernel.org>
+Date: Mon, 05 Jan 2026 12:51:16 -0000
+Message-Id: <176761747611.2174812.15069113155588647545@gitolite.kernel.org>
 
---===============3307382455610527040==
+--===============5594160856931900672==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/joel.granados/linux
 user: joel.granados
 changes:
-  - ref: refs/heads/jag/sysctl-doc
-    old: 73b18200714995fd9c0e2ac411eb3039f726341e
-    new: 71c8a0221c917a130fe7fc2d9202676bbe751998
-    log: revlist-73b182007149-71c8a0221c91.txt
+  - ref: refs/heads/jag/alloc_tag_const
+    old: e8ea52c210d7d7651039b386ceb2e2d4dca8fd6a
+    new: 498af634482aac53eac89d5d2de5b1b6ee8252f3
+    log: revlist-e8ea52c210d7-498af634482a.txt
 
---===============3307382455610527040==
+--===============5594160856931900672==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-73b182007149-71c8a0221c91.txt
+Content-Disposition: attachment; filename=revlist-e8ea52c210d7-498af634482a.txt
 
 e3b8cbf40c6e60a7a935bd8980884d5741a7a77b selftests: netconsole: remove log noise due to socat exit
 33b4c26d4d3ccd24d9721a577671f2c73c1a7cd9 x86/platform: Fix and extend kernel-doc comments in <asm/x86_init.h>
@@ -1048,7 +1048,7 @@ cba09e3ed06db4b6c87bc97e0aea080421fb8f7d Merge tag 'perf-urgent-2025-12-12' of g
 0dfb36b2dcb666f116ba314e631bd3bc632c44d1 Merge tag 'ceph-for-6.19-rc1' of https://github.com/ceph/ceph-client
 6a1636e06625ec0dd7f2b908ab39a8beea24bfd3 Merge tag 'scsi-misc' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
 8f0b4cce4481fb22653697cced8d0d04027cb1e8 Linux 6.19-rc1
-97c5678ea63238e68b90c6c9cb867cd275b93614 sysctl: Add missing kernel-doc for proc_dointvec_conv
-71c8a0221c917a130fe7fc2d9202676bbe751998 sysctl: Add missing kernel-doc for proc_dointvec_conv
+b88ac202a6e0061686968f55a977de628d0f210e alloc_tag: move memory_allocation_profiling_sysctls into .rodata
+498af634482aac53eac89d5d2de5b1b6ee8252f3 alloc_tag: move memory_allocation_profiling_sysctls into .rodata
 
---===============3307382455610527040==--
+--===============5594160856931900672==--
