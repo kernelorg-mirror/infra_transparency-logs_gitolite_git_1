@@ -1,42 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============7481420648135872091=="
+Content-Type: multipart/mixed; boundary="===============5184041271016813154=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
-Date: Mon, 05 Jan 2026 08:44:31 -0000
-Message-Id: <176760267108.1914943.10121172373724312892@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/security/vulns
+Date: Mon, 05 Jan 2026 09:04:44 -0000
+Message-Id: <176760388404.1929899.5677414182418961855@gitolite.kernel.org>
 
---===============7481420648135872091==
+--===============5184041271016813154==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pci/pci
-user: mani
+repo: pub/scm/linux/security/vulns
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/dt-bindings
-    old: 2cca8d79709e1debd27da5dcae2abc859f41db70
-    new: 72b39430284fc4a7a960133b70137c24fed63b74
-    log: revlist-2cca8d79709e-72b39430284f.txt
+  - ref: refs/heads/master
+    old: 3348931a6c367920dba9f5a34d542fc79735bde7
+    new: c5334aec8abd3f3577279bb0dafa1585186c0da4
+    log: |
+         c5334aec8abd3f3577279bb0dafa1585186c0da4 update cvelistV5
+         
 
---===============7481420648135872091==
+--===============5184041271016813154==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2cca8d79709e-72b39430284f.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-b73d6672ebc1e3a52b67585f28daca0d2f5bb4f2 dt-bindings: PCI: qcom,pcie-sm8150: Merge SC8180x into SM8150
-c86e1f39f6e4c8425c5b55f276615ae16b5ac57f dt-bindings: PCI: qcom,pcie-sdx55: Move SDX55 to dedicated schema
-c80dc8121d3af8f33413bb0f9ed9e81e2c576e1a dt-bindings: PCI: qcom,pcie-sdm845: Move SDM845 to dedicated schema
-78aa7d0d9be697409207309013051d080c243421 dt-bindings: PCI: qcom,pcie-qcs404: Move QCS404 to dedicated schema
-7366e19379c75add8ac407439bf9ee8473cab7b5 dt-bindings: PCI: qcom,pcie-ipq5018: Move IPQ5018 to dedicated schema
-06f4ac1f7673632eaba82d04e578ebb9b783e96b dt-bindings: PCI: qcom,pcie-ipq6018: Move IPQ6018 and IPQ8074 Gen3 to dedicated schema
-edf1701c86c91175c0b978d50cfda418516d8d43 dt-bindings: PCI: qcom,pcie-ipq8074: Move IPQ8074 to dedicated schema
-769f6826d5ad8baef1238b10cc97a7b0f678ba43 dt-bindings: PCI: qcom,pcie-ipq4019: Move IPQ4019 to dedicated schema
-5e8bf1c1d5b7f1129148d537afc8feb9c9f883a1 dt-bindings: PCI: qcom,pcie-ipq9574: Move IPQ9574 to dedicated schema
-b673d06ea8449db084cabfee2844f17b6f98f22c dt-bindings: PCI: qcom,pcie-apq8064: Move APQ8064 to dedicated schema
-0eaa8d1c36f032d6023af96cd84e8b2ece0d6922 dt-bindings: PCI: qcom,pcie-msm8996: Move MSM8996 to dedicated schema
-72b39430284fc4a7a960133b70137c24fed63b74 dt-bindings: PCI: qcom,pcie-apq8084: Move APQ8084 to dedicated schema
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1767603883 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
+nonce 1767603883-2c327eba9c4e775207433f6463d873c5589418ab
 
---===============7481420648135872091==--
+3348931a6c367920dba9f5a34d542fc79735bde7 c5334aec8abd3f3577279bb0dafa1585186c0da4 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmlbfqsbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+N0AP/AyY3ehQzq6Fq724Ah6t
+jRbyOgN462xQ05jWkXl9ZqDqO0W9HfjfH4gLDnrer6nmYGAtFRs193fUcgjQ9jT8
+AZUj3Cz15f05lefKKNjTUI+NtlXsScG9C658OgR3sgjOYnyAZnAd2wv0gsp01MhB
+7DjLhW1cWQ/jAycphl2V7GCpyyofa4XD49W7wiazfblRIQZInp7BKylY3Q1kok95
+3CwcBFoED3iXJ0up10pnYH2fZExtWKpfsvZYiIj3RAafR7G47cagyH++eAMTbrwi
+W46EO35Z8iVkowP90Yhy+/96p7/15PRTCcPQLX4L5mxWvRiklX43ufT/UgE1iKA+
+MLfj/9k8jLUp/SmV+jnLz2JJ1Pz3/8cBsg3+uRWvXk+1GkZwM3bubCt6QWm+RBYJ
+8C0c4XhQ+xurn8nu7tgZgm9YWKpg/TXwTTL/v6dU4V9Mo6RSiwjKqfdEJuMxETxG
+zzFfGLfyia9mmbHqg5v5DNaYxxXlgGmPRAyHObSeX0TI9xeEzjd3dUOfCj1GamW7
+6taz11ZV/rpGiaLhA4yDAmbACBgxtEg2Zb8UN9F3FmF30HWp16zelIUkS0T99PEl
+1PzRYykD3MEo/6OSeeOB1TWair1IJMmnfReYMrXb+snySnrjqU1Tz2IeCZti3P4I
+l+gYBJuVrXpTbKoi8CvBRFCv
+=vJ33
+-----END PGP SIGNATURE-----
+
+--===============5184041271016813154==--
