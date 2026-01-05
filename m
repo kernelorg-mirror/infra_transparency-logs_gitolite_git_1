@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4753544448650218088=="
+Content-Type: multipart/mixed; boundary="===============0076068035435006094=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/robh/linux
-Date: Mon, 05 Jan 2026 20:11:59 -0000
-Message-Id: <176764391904.2546348.16243237309480592071@gitolite.kernel.org>
+Date: Mon, 05 Jan 2026 20:12:05 -0000
+Message-Id: <176764392555.2546648.3128399258586266238@gitolite.kernel.org>
 
---===============4753544448650218088==
+--===============0076068035435006094==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/robh/linux
 user: robh
 changes:
-  - ref: refs/heads/dt/next
+  - ref: refs/heads/for-next
     old: 842095d75323731fc151b64a6c575a6887ee2e68
     new: 82cba4e94c6d9212420994abcc67d40e4f114831
     log: revlist-842095d75323-82cba4e94c6d.txt
 
---===============4753544448650218088==
+--===============0076068035435006094==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -38,4 +38,4 @@ e3bebb534679647c17942797c0fddc26dba30a84 dt-bindings: net: brcm,amac: Allow "dma
 8108cffd1a524efcc0246c659d41401ad099dcc9 dt-bindings: mediatek: Drop inactive MandyJH Liu
 82cba4e94c6d9212420994abcc67d40e4f114831 of/platform: Simplify with scoped for each OF child loop
 
---===============4753544448650218088==--
+--===============0076068035435006094==--
