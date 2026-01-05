@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2329370195349234530=="
+Content-Type: multipart/mixed; boundary="===============4474267258204141950=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/khilman/linux-omap
-Date: Mon, 05 Jan 2026 20:13:59 -0000
-Message-Id: <176764403992.2547789.528632724290981371@gitolite.kernel.org>
+Date: Mon, 05 Jan 2026 20:14:07 -0000
+Message-Id: <176764404778.2548065.5562072888595741200@gitolite.kernel.org>
 
---===============2329370195349234530==
+--===============4474267258204141950==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,27 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/khilman/linux-omap
 user: khilman
 changes:
-  - ref: refs/heads/fixes
-    old: 3a8660878839faadb4f1a6dd72c3179c1df56787
-    new: 8f0b4cce4481fb22653697cced8d0d04027cb1e8
-    log: revlist-3a8660878839-8f0b4cce4481.txt
+  - ref: refs/heads/for-next
+    old: 2c85858e7c6839011e423109df556ef894a71cff
+    new: df074cb76e937d8962c020f8419eb4215a92abf5
+    log: revlist-2c85858e7c68-df074cb76e93.txt
 
---===============2329370195349234530==
+--===============4474267258204141950==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3a8660878839-8f0b4cce4481.txt
+Content-Disposition: attachment; filename=revlist-2c85858e7c68-df074cb76e93.txt
 
-09339d0d83108fd4f59b94677ac99bde870aa0ae l2tp: correct debugfs label for tunnel tx stats
-ea2d3befcf29cca5221d0572d54e4d71b683175d net: dsa: yt921x: Set ageing_time_min/ageing_time_max
-e3b8cbf40c6e60a7a935bd8980884d5741a7a77b selftests: netconsole: remove log noise due to socat exit
-33b4c26d4d3ccd24d9721a577671f2c73c1a7cd9 x86/platform: Fix and extend kernel-doc comments in <asm/x86_init.h>
-1dd6c84f1c544e552848a8968599220bd464e338 sched_ext: Fix incorrect sched_class settings for per-cpu migration tasks
-484f1176896e85b5ae4f04403c8cd5b79aced95e Bluetooth: mediatek: add gpio pin to reset bt
-01622e9a5336015f657df423b700e488fbcd2f39 Bluetooth: hci_h5: avoid sending two SYNC messages
-97fdb2ea06efdde784480934d1ff60eb21e88b58 Bluetooth: hci_h5: implement CRC data integrity
-33b2835f0b7e2a458473b0e3a23b54b92108b6b0 Bluetooth: HCI: Add initial support for PAST
-c530569adc19b5f0c62955de41f067bad34e3fe0 Bluetooth: hci_core: Introduce HCI_CONN_FLAG_PAST
 d3413703d5f8b7d1e6f514f9440ed5da1bc30796 Bluetooth: ISO: Add support to bind to trigger PAST
 14b06c3a88f7031d64fbce197fad1d400e507663 Bluetooth: HCI: Always use the identity address when initializing a connection
 f817db10dc80d5d1eece60d93eba11062afe5154 Bluetooth: ISO: Attempt to resolve broadcast address
@@ -1050,5 +1040,15 @@ cba09e3ed06db4b6c87bc97e0aea080421fb8f7d Merge tag 'perf-urgent-2025-12-12' of g
 0dfb36b2dcb666f116ba314e631bd3bc632c44d1 Merge tag 'ceph-for-6.19-rc1' of https://github.com/ceph/ceph-client
 6a1636e06625ec0dd7f2b908ab39a8beea24bfd3 Merge tag 'scsi-misc' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
 8f0b4cce4481fb22653697cced8d0d04027cb1e8 Linux 6.19-rc1
+24571ecbda52f7a43a7dad1f7706bfa81fb1fa79 ARM: dts: ti/omap: omap4-epson-embt2ws: add powerbutton
+60884f7a982770b1a64d61be7f96214538756390 ARM: dts: omap: enable panic-indicator option
+25332069532ac030b1185bb8084c1a5298c12bea ARM: dts: tps65910: Add gpio & interrupt properties
+3d43205d0efb4da3e799e969c92e70e4d9e4d124 ARM: dts: Drop am335x-base0033 devicetree
+9da91ec4a6b22238d9178cbc5679467ea4261df3 ARM: dts: ti: Drop unused .dtsi
+93a04ab480c8bbcb7d9004be139c538c8a0c1bc8 ARM: omap2: Fix reference count leaks in omap_control_init()
+1e79c330713efba3f4200c80e4aa68d7393edfac ARM: dts: ti/omap: omap*: fix watchdog node names
+dc717e24deb4e626f4ad4896dd722815ef32311a ARM: omap1: drop unused Kconfig symbol
+76f88d2edd9f21acad7be8422069403118708455 ARM: dts: omap: dra7: Remove bogus #syscon-cells property
+df074cb76e937d8962c020f8419eb4215a92abf5 Merge branch 'omap-for-v6.20/soc' into tmp/omap-next-20260105.121305
 
---===============2329370195349234530==--
+--===============4474267258204141950==--
