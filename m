@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2186560659807083742=="
+Content-Type: multipart/mixed; boundary="===============4447760202859867983=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/security/vulns
-Date: Mon, 05 Jan 2026 10:24:36 -0000
-Message-Id: <176760867699.2051284.15059284992836193180@gitolite.kernel.org>
+Date: Mon, 05 Jan 2026 10:25:49 -0000
+Message-Id: <176760874957.2054142.11008374897054629244@gitolite.kernel.org>
 
---===============2186560659807083742==
+--===============4447760202859867983==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,41 +16,682 @@ repo: pub/scm/linux/security/vulns
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/master
-    old: c0f4b962695a3d022d70a1197895be654a5896e3
-    new: 1159941e9c0091e2e4ad1cc5f1a2b73dcbdb936c
-    log: |
-         1159941e9c0091e2e4ad1cc5f1a2b73dcbdb936c update cvelistV5
-         
+  - ref: refs/heads/sasha-vulnerable
+    old: bec7315675ffff2093735eee19c2e36579008adb
+    new: 6a2bf9c8d3459f2186d5e30ff80ca5facfc082bb
+    log: revlist-bec7315675ff-6a2bf9c8d345.txt
 
---===============2186560659807083742==
+--===============4447760202859867983==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1767608676 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1767608722 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
-nonce 1767608676-a8ec8ce198148f7fae6dca89b3ef26c8399a8e9d
+nonce 1767608722-a51c274d6ae6b09a7234a539fca9e01ce6ac7d79
 
-c0f4b962695a3d022d70a1197895be654a5896e3 1159941e9c0091e2e4ad1cc5f1a2b73dcbdb936c refs/heads/master
+bec7315675ffff2093735eee19c2e36579008adb 6a2bf9c8d3459f2186d5e30ff80ca5facfc082bb refs/heads/sasha-vulnerable
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmlbkWQbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+yS4P/3El1Y5hx5Us3kWapXqj
-LqDmZf79jzoLE6lhmoO+NiyKqGPJXpq26P3XQTd2hr8aEaPiUrmVYMCXJbeAPQwB
-DVcBlk0l8nQZ5/AR6YXfBE6hrn+7RRFxE7O5C5hgG5D0jjcV2TChs1zsgqZKhei9
-sooASMEsSCAsTXW0CLfRAaoMlW25P9Q9l/K28/hYFlDPewcIktQW8p0zB7MCuDkK
-ghs5vmlkgUjd3LkGVdY1OS+DmtdgyDJBylQdu9iNPSYg39bEML916ntaZvgPghvZ
-Rt3JyHBTbi4w8bRVgu8oCVuMKDctQe3e2Xyht1Fsh2pOQLlq8ZFP6d4GpKRh4wYU
-w70k4mqlu/X1lruxZz2YKbrA9ynwnmB9m4JYs3W/fXCMX6ztPJazU2meubeLYj14
-1P4QtS3ofahyzLYGOGlT/XNW47uO1JOASIqliD1VCm8BVRPVrq2gwrxa2RDnXhp6
-aL1IQFEH41DeMOSmKjfTbbwvyJTOnE6h0xcufJqFvWAW5vhGqY/XDl7UZYMfBB3E
-cm5uy0ZMlrG6CtA/YNPqQJOoiy2Ubm9cpkXsLyrt0PZMJ685VPzKAxlDAIXYMniP
-gQQCtseDbXGRhbFYkrpioro/M/i8fRF/8L+olXECTx6L812aq2JlwrqP4bMAW+QF
-rRepOFr8hRjPFPVYdwPgMxig
-=BgxY
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmlbkZIbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+764P/28APnI9fJtrKdgbGj6D
+8oo5CWHKXU0ex+tto/UrGp5NTaj0zZ30kH+3oMR9QdlmaV6mPC7D3oaxJrQJuV/B
+CbLBwedONQ1QvKePIrEDH98ekWc4wUr9n+Ug5iC7i6NPPSmsu3zeQiawGj7dVk+1
+BUhA6oRcuFbq0KE8+cOIvoTorwoJvsWig47SLDgNoqYWz/+fOkvI23y7qF6Pt+VO
+hNpryIOQngUG/o5SiiVeSe7Wo9eS2gMErvplAEx7QqElJ789fgYExHNF8Xeh/Ges
+MR5PLgCRjRI7p+cF1iS50WJrTcfE5teh6XaHgXoyQJvO3UfPcltr8h5QC7N4BBx7
+QyrSFj7elX5DWhEROQ+d5vpi7zbk1xDLexYyUbjBBsB8HdI6Z6eQYm3bPP5oTwvj
+J8nvLqYSBPo7R/X0bF8G+mYmQ4TMQ0GxVldIcdlaavxSwSA2XTo7jUJ02oYogfme
+es04BuxM+EkmSvdG4zW9Z2U+R4NU2CktM+GTNO2vKFyXKHrVWZzRMFVwbsb0byx4
+BnaDlPbHXSmZx1v/BHYhYYajQqxvBe+wuL+W9jNqStih7utwGleWStLPVnux+w72
+lfoNskaTun6m6z6NbFDdjvPBizNmV7//9Q2g4iiSMGX7nS0DsiWmQ9Y5C6XdfkMf
+C5EDMUJ/ZYQt8ps+vRyxPObF
+=mLpC
 -----END PGP SIGNATURE-----
 
---===============2186560659807083742==--
+--===============4447760202859867983==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-bec7315675ff-6a2bf9c8d345.txt
+
+0c06e05cb746e46859b3cac58f4c63a87bd6b832 CVE-2023-52434: Add .vulnerable file
+29795b6731808833f116cf60cf5e8b872e503e4e CVE-2023-52458: Add .vulnerable file
+3d9c9bbc9c40112e42e3f11f214a2d86afac6112 CVE-2023-52475: Add .vulnerable file
+84a35332a3b9e51b6e92d1a4de12616f33cc0404 CVE-2023-52476: Add .vulnerable file
+522e6855dac5f01bcd362dcd939aeb846835d1b8 CVE-2023-52477: Add .vulnerable file
+91c8db6a13afaefd59cd9f1abf275a60fb396b30 CVE-2023-52478: Add .vulnerable file
+ef4e12c195c4c56c02c2efe71963cceef64b3cd1 CVE-2023-52484: Add .vulnerable file
+b39567ab337ec4b76f12984b4059880d60717be6 CVE-2023-52486: Add .vulnerable file
+dfda57c2d1c040f52c9c9c8d6a0968151c675748 CVE-2023-52498: Add .vulnerable file
+ccf40d07095dd7b456b63011815ad5fd2b9fc298 CVE-2023-52500: Add .vulnerable file
+fd59a65c7ffb901d581030f8625663c7e1f2086c CVE-2023-52511: Add .vulnerable file
+92ca6fe9ef303580579e77fc25a81a6cfb05285f CVE-2023-52516: Add .vulnerable file
+05e56e18dab4eaab50a4e3c0eccd3eb7466df60a CVE-2023-52517: Add .vulnerable file
+0d3d9a17dbe58f485e6d8d888d1cf3b6ca69666b CVE-2023-52587: Add .vulnerable file
+8fbd07c50cfc5d0b0300f779163ede7b5b388a76 CVE-2023-52590: Add .vulnerable file
+4680eea6798078709a5d4c23f02dfb8a92a402c1 CVE-2023-52591: Add .vulnerable file
+33584defdda5b4b157bacabe7b7b0d89863f656c CVE-2023-52595: Add .vulnerable file
+c44220e9c8dc82a7b6994ead4a7162905765772d CVE-2023-52596: Add .vulnerable file
+1dd9f73113283ded1766bcb5777c452f9ac56c8d CVE-2023-52598: Add .vulnerable file
+58a65902d2e247beddf9e059d19d49d0b4a892f8 CVE-2023-52599: Add .vulnerable file
+ed584f5cf5b2a962d78e42dfd453b05a913ee7e8 CVE-2023-52600: Add .vulnerable file
+879328433c1d65862e0eb740406f7869761ab28c CVE-2023-52601: Add .vulnerable file
+83b09dca4a33ee034b9fbeb3039d2c970cd3d8dc CVE-2023-52602: Add .vulnerable file
+eb17310c7af77ad2a014554a29151733680ad160 CVE-2023-52603: Add .vulnerable file
+97cc56b7ff6be4fe07dd44633d0052d78cd28894 CVE-2023-52604: Add .vulnerable file
+8d32735b82c6ad6d37dc2440ea6982550edf603a CVE-2023-52606: Add .vulnerable file
+1e248a497334b6d9dc05275fed9e7d953053dc04 CVE-2023-52617: Add .vulnerable file
+20db4c93cf2bd7711750cdc23abd251852533b3c CVE-2023-52619: Add .vulnerable file
+e42b5c1a2b4d2b7b1f9f78523124c3c09471244b CVE-2023-52620: Add .vulnerable file
+1adad32363cc5d271e72664dfba720cb9afc98c2 CVE-2023-52621: Add .vulnerable file
+604c63825402ee7845a2763581e1765e7a41c57e CVE-2023-52622: Add .vulnerable file
+b82facc940a0c090ca97226a8e2c216b32de2b7c CVE-2023-52633: Add .vulnerable file
+b3d590c67ca3658a2e01f40d372c71ac7a521a6b CVE-2023-52635: Add .vulnerable file
+d9b64efce38a077ae424e5bae736597ca87cdfd5 CVE-2023-52638: Add .vulnerable file
+391d89948a391868f8d39f233b2ae511033fd03c CVE-2023-52642: Add .vulnerable file
+04666dc228d9279d40478ca913c10e3a2a88bc7f CVE-2023-52655: Add .vulnerable file
+d303ed3af0f9fab82d88c96f3a34e725cdbea9fc CVE-2023-52699: Add .vulnerable file
+aa817c8be3d37b54d315519ba55a6fe2f2934429 CVE-2023-52705: Add .vulnerable file
+c17237aa7b1399c14e913358fe717e5e82b376e3 CVE-2023-52736: Add .vulnerable file
+b854539a70486f821030ececb7f55a66c4bf2188 CVE-2023-52737: Add .vulnerable file
+72688eb4088b0abc48eb721f696e3ec73b3d8c9a CVE-2023-52741: Add .vulnerable file
+7f8d638913876bb29af36a9051e8694c4e6d6949 CVE-2023-52751: Add .vulnerable file
+279c52bae77b2e408522ce032cad916e347de10c CVE-2023-52752: Add .vulnerable file
+ba66f9c9422def39f82dfecf53bafc206bc3457f CVE-2023-52754: Add .vulnerable file
+f58e360022a8bf1d12c8b9db5312bd3b61058a25 CVE-2023-52757: Add .vulnerable file
+dec42940e874a8b97c996dbda0787543a41715e4 CVE-2023-52762: Add .vulnerable file
+4aec0214016a6cf617560f3c434c6e10d850bebf CVE-2023-52764: Add .vulnerable file
+ed3e33e5fa480f5ed556bddcd83b4baa1bc7cfe8 CVE-2023-52789: Add .vulnerable file
+96f427c4c4ebb8a2153095198a61c00519462ffc CVE-2023-52799: Add .vulnerable file
+4528a9fa3e24a022f54f2a3fb4abf11aeff5fd7c CVE-2023-52804: Add .vulnerable file
+7dcee8e2041312a37e9695eb089b22a34b76d5c3 CVE-2023-52805: Add .vulnerable file
+7256679c8773510152c0a98a89d62ed393f0d78d CVE-2023-52806: Add .vulnerable file
+aaa19f004a2ea2f0762aeac6237b62b1036d817a CVE-2023-52809: Add .vulnerable file
+8adb2b2cf1da31aea7b064ab03e751bfc69dfe64 CVE-2023-52810: Add .vulnerable file
+dbe64a03204b7e5e267919a9a9a00a121d798eb7 CVE-2023-52811: Add .vulnerable file
+87a961d3acc6d4ea20bf3091608b11b10d04384e CVE-2023-52812: Add .vulnerable file
+db5873882d61f34df4b0779b0b7c49f94a68f2e6 CVE-2023-52818: Add .vulnerable file
+5d777e44d670662f8735f8a97eac7b5a9d7d637c CVE-2023-52819: Add .vulnerable file
+4d404b632ceaed756de328f4ae4105e8589b288b CVE-2023-52821: Add .vulnerable file
+936d9e24dfc8ec6b3c41d9d59b038799f04604bd CVE-2023-52826: Add .vulnerable file
+02639786878f00783650b4d2dfd1fe2703c22311 CVE-2023-52828: Add .vulnerable file
+2c7a93180e57419a792c3c2ec7b4e079b1ba73a9 CVE-2023-52831: Add .vulnerable file
+8e9280ba4cfdfcf13e8b06c50513260ac7ee2d71 CVE-2023-52832: Add .vulnerable file
+c864e1d961d7386cc30b0438b26ca35f37577ba2 CVE-2023-52833: Add .vulnerable file
+f733969e61d1111306ee58e1ab76231debbfe54d CVE-2023-52834: Add .vulnerable file
+8d8988a3e19c0c59fab983f47d4d2074b82f0487 CVE-2023-52835: Add .vulnerable file
+e36525adcf37d5d6f55d044e13c0cb59af84b01f CVE-2023-52836: Add .vulnerable file
+cc93f42ac503e9f37c1f1d96c2e6379e8f4dfdaf CVE-2023-52880: Add .vulnerable file
+cefff33ad87206995cd29a0cb9f8c2261c077b24 CVE-2023-52894: Add .vulnerable file
+905d0a55fcedcb9fef85054d80e24d6666976865 CVE-2023-52900: Add .vulnerable file
+a50b6663f30a110e014936946516d63535182310 CVE-2023-52915: Add .vulnerable file
+2b0a0bf0cd074c522ef5904b806bfb1cad86834b CVE-2023-52918: Add .vulnerable file
+1c8b5a61398993dcd5cd7cf2d37ded2c1e8efec2 CVE-2023-52932: Add .vulnerable file
+bfe3ef621520702c2c0ec6812fbe433a53fa7134 CVE-2023-52974: Add .vulnerable file
+e10bbd253a444d8452d5e9dfc7983d165cc8fcac CVE-2023-52975: Add .vulnerable file
+79325095cc50403f52293f19f3b3ed4f4273b369 CVE-2023-53008: Add .vulnerable file
+f4f61919f94cda7470b3de418fc990a68a8badb9 CVE-2023-53035: Add .vulnerable file
+ab37b9098a7b7f62f956f06ccb132d889dcedbb3 CVE-2023-53038: Add .vulnerable file
+99dd8fa3fec0377fdafa3e424345b48f036ebc33 CVE-2023-53040: Add .vulnerable file
+5c6cc3a28800b76b5ea6d482346e644975dac6e7 CVE-2023-53041: Add .vulnerable file
+32dd7cdc45b21f5ae6f121bea20012fc6c397836 CVE-2023-53089: Add .vulnerable file
+68e011f4d3a07cf82901981a0ae2ee7686d68fb3 CVE-2023-53091: Add .vulnerable file
+69d6124e39c85b9da1e02d4c8c27085802ab61ed CVE-2023-53097: Add .vulnerable file
+be0b2f94abf7cd09df95c49b09970b3231b412bc CVE-2023-53098: Add .vulnerable file
+530abc12ba4bedd1cf9112e74b7424a45150f4dc CVE-2023-53100: Add .vulnerable file
+d5cca7771bedbb70f8c2e85a1eb8db1845faa397 CVE-2023-53101: Add .vulnerable file
+1288a80750aecb45a303393f86044bba0f40202c CVE-2023-53117: Add .vulnerable file
+ddf1531bf184c6f7ef04563286c6fe91cc0969a8 CVE-2023-53145: Add .vulnerable file
+f834ea1c19e2e1ed897f8eae972ef0462cf79228 CVE-2023-53146: Add .vulnerable file
+2f4bf005b7a46207543d443997234c0a7309356d CVE-2023-53148: Add .vulnerable file
+07b27f4df1d530d687d3ed052feec82eea39e0e1 CVE-2023-53150: Add .vulnerable file
+9e14cc700ebf6eeee23c2ce699a49d7afd8a63aa CVE-2023-53151: Add .vulnerable file
+c6b90323d15b61a68b4f6810ed7810b8cf11fab6 CVE-2023-53173: Add .vulnerable file
+0c77ebd5fef2739dbee56dad2ea2ecd45e1ea352 CVE-2023-53176: Add .vulnerable file
+a365b6e3b918e23053fb833125eb9f47b9230b95 CVE-2023-53182: Add .vulnerable file
+d568afb4371d2d83f93235c9eae06a164aaca3fb CVE-2023-53183: Add .vulnerable file
+6523db1f354f66975cebe23a62ffe1c2dc82c594 CVE-2023-53197: Add .vulnerable file
+a57cdaa8622872e9d08f3a4e14ecf1301133b7ab CVE-2023-53209: Add .vulnerable file
+6f157df23dbe953c92193ea227d6429353cba2d2 CVE-2023-53213: Add .vulnerable file
+0a92b6a8193b8325afb6f9327d2ae3e1c6ac409b CVE-2023-53215: Add .vulnerable file
+120d33068dc8841d84434e1084a6f312f09c01bd CVE-2023-53220: Add .vulnerable file
+19d5265aede6d2df9cb960bf2e3cb6079fc9e6dc CVE-2023-53222: Add .vulnerable file
+faf7ed64da81f0fa5c427d09b501cc24f8d5cc83 CVE-2023-53230: Add .vulnerable file
+1f79fcb7f3901e34d06360a6f6a55892a2dea04a CVE-2023-53244: Add .vulnerable file
+d66b934c4d97a569e7fb287cc2c148296e520199 CVE-2023-53246: Add .vulnerable file
+e92f60de2005ac7621ce76910731b1e8dc6b34a2 CVE-2023-53247: Add .vulnerable file
+d1fb4977358f31d26f5b4eadb0d58c258a633da5 CVE-2023-53254: Add .vulnerable file
+0c054701e1d90b2dff6d959c381a069bbe52a40c CVE-2023-53257: Add .vulnerable file
+9a05ba4bdb3a60f4570b70fc4c6e79cfcb793cae CVE-2023-53275: Add .vulnerable file
+7336e99322637739b6f98745b02957acd99b19a4 CVE-2023-53276: Add .vulnerable file
+5e43d3463c081a791091c1c5c4d6ba5b8f117745 CVE-2023-53279: Add .vulnerable file
+e08c6996aca334db4ed678c043c29cb959c15df4 CVE-2023-53282: Add .vulnerable file
+1a8f299a03135eaf5ff165d4845404abb0136619 CVE-2023-53285: Add .vulnerable file
+c9136999c1c716a3879c09cbb1625f9b1a5bd39f CVE-2023-53286: Add .vulnerable file
+c2591492c1f268d5ea61ad8e9b0fadc49683f9ea CVE-2023-53288: Add .vulnerable file
+b9ce6e0bc6e03c6a94621082f6992ee81adbbfe7 CVE-2023-53292: Add .vulnerable file
+da06cec1af152100d3204113217533cb65f4f4ca CVE-2023-53295: Add .vulnerable file
+2e0bb2acb1096a42c8fc327721f908be585cdba0 CVE-2023-53297: Add .vulnerable file
+c6fad6f6c055ce3cae7e22bf3c4311378367e4d8 CVE-2023-53305: Add .vulnerable file
+b49de9b1dec1ae0be2b0044a56a8c77d8f3842ca CVE-2023-53309: Add .vulnerable file
+d171baab03248234b84723099375e11f54a513f0 CVE-2023-53317: Add .vulnerable file
+33519a422ea904859bc7d6566fccf41343b69cba CVE-2023-53318: Add .vulnerable file
+fffc2c41289a4cceb040729305eec626ddd3e641 CVE-2023-53321: Add .vulnerable file
+c205eaef0093d01690ee0f56d3e146400746a1b7 CVE-2023-53322: Add .vulnerable file
+4c6b0d704f7a6f378f5dce2a789bab7fcc717fe5 CVE-2023-53334: Add .vulnerable file
+0e88b0d87c45226b3cdcd01835fc8e800b5b496f CVE-2023-53337: Add .vulnerable file
+c4eee2957600c20944da4c942a5f7612217041d7 CVE-2023-53339: Add .vulnerable file
+2c80859d916d8bcf44da78705c1e6f3ad7483540 CVE-2023-53346: Add .vulnerable file
+554d30a819b9dd9666cf5f56c56ba6533c0b42f5 CVE-2023-53359: Add .vulnerable file
+a8c9d5b913805935a4253a820409a478a544f079 CVE-2023-53383: Add .vulnerable file
+c3ddcc03031ca4e299a419dce2099b581da2e183 CVE-2023-53387: Add .vulnerable file
+4a610e03b048bfa3daa249ab0fe88af7c77c779d CVE-2023-53390: Add .vulnerable file
+4865cb45c44e38ff350865dab3a2bb3891010699 CVE-2023-53400: Add .vulnerable file
+25b95fc1805a6cc5fdeff3f1bc16ca7957a7d131 CVE-2023-53402: Add .vulnerable file
+ed48ab2022958e943e2d61aa693652f8b085466b CVE-2023-53403: Add .vulnerable file
+a7ee59be5afc03e4a474805222d0fb79a1825ff9 CVE-2023-53404: Add .vulnerable file
+eefcfa210e060e5ce8f492951d0f6cfd35607a15 CVE-2023-53405: Add .vulnerable file
+f843062605a41fe02121c1c36b60c713ee457634 CVE-2023-53406: Add .vulnerable file
+920171d0a55325098cdfdb8ea137fd842fc40cc6 CVE-2023-53407: Add .vulnerable file
+d5cfa5a6833106e5a1635c5910e0786e1c8ec8eb CVE-2023-53408: Add .vulnerable file
+2f2187e07d913da90d5362705e3bcb1f2cdac126 CVE-2023-53409: Add .vulnerable file
+3d31461f47d521ef506d87358958b4109089877f CVE-2023-53410: Add .vulnerable file
+cfc7276b7280c474137b1ad8a172a84db6f95dc9 CVE-2023-53412: Add .vulnerable file
+55c3c36f5ad59acb999ea9458c2c493c88ea2105 CVE-2023-53413: Add .vulnerable file
+38f9d2820dfb6dc30f11ea21c67ce92c50dd0258 CVE-2023-53414: Add .vulnerable file
+fe036bf665c450fb39fe361a3cf20be09f1b78e4 CVE-2023-53415: Add .vulnerable file
+2934eb540760e61062e4e66efa5c3f050fba4e99 CVE-2023-53416: Add .vulnerable file
+1392dd8f0e87717fc10019ace1e4ebc190676b61 CVE-2023-53417: Add .vulnerable file
+0e74f7326683d7b9f32bd52d0573445067e4f13d CVE-2023-53418: Add .vulnerable file
+c4afaf1e9be27c8574e701eb2100bcb171366724 CVE-2023-53419: Add .vulnerable file
+2782ae98bae8b1ec8e5b9037d4ad60b0db56be4a CVE-2023-53425: Add .vulnerable file
+eb089f3a127ab7203ba67555f2a2cd4b1cefa1a9 CVE-2023-53429: Add .vulnerable file
+3f24b876ec7b88031b3351bf40c7196bc2e25933 CVE-2023-53432: Add .vulnerable file
+aa2e3b93c1273c05212e531f3075fcef87a8b81e CVE-2023-53437: Add .vulnerable file
+36df120c20ebab69794b717bab332d40095ec1df CVE-2023-53438: Add .vulnerable file
+9d54f87dc9beb8f114ca2ce031489d1da1b3fc6b CVE-2023-53443: Add .vulnerable file
+759942fa7ef99faa8edbb025e5606faeccee936f CVE-2023-53450: Add .vulnerable file
+ba20b624067789f446d6d77c5c2b8afbb82af512 CVE-2023-53451: Add .vulnerable file
+ae92b85d622140de0bfaca1159b0919e32f370ef CVE-2023-53453: Add .vulnerable file
+4366ef61402bcf850611719960301bf65b24a665 CVE-2023-53457: Add .vulnerable file
+a1640697490f5ad590bafbc511512c23bb7f7813 CVE-2023-53458: Add .vulnerable file
+c3cc931819a4c42c82585eae23416f2372057dca CVE-2023-53480: Add .vulnerable file
+ed6973d32d47293fb8d20f311590afb1ee817dc5 CVE-2023-53483: Add .vulnerable file
+c77e79aca8a75965f348cb53038ece45d266edf0 CVE-2023-53484: Add .vulnerable file
+b6be7409405c4374a35313130334061aa3bee9be CVE-2023-53485: Add .vulnerable file
+f30029e47afb45773bc8d267db2711f8704a8590 CVE-2023-53491: Add .vulnerable file
+fb3ce07ccc97a1bbe2288debe4938e5e861f943a CVE-2023-53503: Add .vulnerable file
+2548a63d3cae408f70e425d9980076de02e22dd3 CVE-2023-53506: Add .vulnerable file
+c1a2c16ee8f4de9c60a427e637d28a893d36591d CVE-2023-53513: Add .vulnerable file
+53df911371c5adcd2be43cbb1bb2a9c9dd10c1bb CVE-2023-53519: Add .vulnerable file
+8972c83b02fcccf0d99e9c1c1715530fc8ceec13 CVE-2023-53520: Add .vulnerable file
+3b9cd7b363582617953ce0b4109b408e045975eb CVE-2023-53521: Add .vulnerable file
+7d28b733e877d0cbeffe6e1d1cccec36341e84d6 CVE-2023-53524: Add .vulnerable file
+657fbf12e3b154e59f8cf4f7fe285f3055d9054a CVE-2023-53530: Add .vulnerable file
+3943246d40db9e4cd184ecba1014e21c427f5b98 CVE-2023-53535: Add .vulnerable file
+9fcab6c6acc39df1e923c115b7aa1f88af70b3e6 CVE-2023-53538: Add .vulnerable file
+2c2d71d329998a565e506f4bfb7f38e284f72894 CVE-2023-53540: Add .vulnerable file
+fcb1f5720244cddd97b60a8a80fbbc5614cc5916 CVE-2023-53542: Add .vulnerable file
+75855901c482582f93fa6ffe20822a560cb35f2a CVE-2023-53548: Add .vulnerable file
+a07383339c100a4285808835e606d0b1006d2c64 CVE-2023-53564: Add .vulnerable file
+4bf52d9be363c9674df019c38e334d2da13165a2 CVE-2023-53569: Add .vulnerable file
+a2d7a373e166df9930df34031402c8ea0400a3c0 CVE-2023-53576: Add .vulnerable file
+72e0eb2ce05068ed4ddb77ec7875a64216e5a945 CVE-2023-53582: Add .vulnerable file
+9646e30ab4120bce535def03fb941d7183d15a3c CVE-2023-53588: Add .vulnerable file
+7c221576e6e651f62adfe9c0bc14b536536facfe CVE-2023-53593: Add .vulnerable file
+0a97c6fbae18db9b2490ce2ef42f9e84fe5ced79 CVE-2023-53606: Add .vulnerable file
+b5648dfb52ccab32260e95c24f4d5377e4054abc CVE-2023-53608: Add .vulnerable file
+5a1098e1f7af2935a1e750fa255a4f6ff2c22d62 CVE-2023-53609: Add .vulnerable file
+5d0086d09535b5fbc5e5cd697db0b6c335735947 CVE-2023-53612: Add .vulnerable file
+ef5054de697f1b996100b343a06a3b5bae3f06d9 CVE-2023-53616: Add .vulnerable file
+62ba3e6fbd14039259826069395628f3ee648e41 CVE-2023-53618: Add .vulnerable file
+20e4316450d96e0e9cbf480a7c3d03450308122a CVE-2023-53622: Add .vulnerable file
+29833ee2e9d7abc1bcce1044f7061307fc5e5e27 CVE-2023-53644: Add .vulnerable file
+c64dba00a5f27189ed7b7e1968c920707566ffa1 CVE-2023-53661: Add .vulnerable file
+280d732a6bcc9b147d76b178259128b09e7e093f CVE-2023-53671: Add .vulnerable file
+bae2617309cb125027760ec58793aafd253e9a03 CVE-2023-53672: Add .vulnerable file
+e69f4844fd1dd6a59de8620a475bfb610b8228d7 CVE-2023-53675: Add .vulnerable file
+22f1d9cb1564be64c317bd1ecb8f748b4091c337 CVE-2023-53676: Add .vulnerable file
+b2565943a0417c00b66f48e182c3872398265182 CVE-2023-53679: Add .vulnerable file
+c0f4b962695a3d022d70a1197895be654a5896e3 update entries based on new .vulnerable files
+1159941e9c0091e2e4ad1cc5f1a2b73dcbdb936c update cvelistV5
+37353ee62ff9677c2b9b0877f0f5e47f537340f4 CVE-2023-53682: Add .vulnerable file
+cafa9aedde98d3c4cc3bf6a278dc71bc60a44ec1 CVE-2023-53684: Add .vulnerable file
+03d4f6f4221f57739ba46bb882bfa0e22c18dc47 CVE-2023-53695: Add .vulnerable file
+bf828eeb7ffe87d13a3e8acac4b1070493eef66f CVE-2023-53708: Add .vulnerable file
+f113ec5dd2b387a91c4600a35b9b22503942c11a CVE-2023-53712: Add .vulnerable file
+c5a82fa81974655047cfe21e79c053ee905e5c68 CVE-2023-53714: Add .vulnerable file
+229612ac369d4dcaf4baf7dc8213801c7ae89533 CVE-2023-53715: Add .vulnerable file
+884af7741b14b43ef3aef2c3ab5cebec59b8895d CVE-2023-53718: Add .vulnerable file
+0f2b6b2c063901f42d8188381d9ac7d02a369d8a CVE-2023-53722: Add .vulnerable file
+05e7cda812d2fa43da94c8e24c1532c5ae332dea CVE-2023-53728: Add .vulnerable file
+b1442697a5f7392ec00c37cf70a75bef5b2fa000 CVE-2023-53742: Add .vulnerable file
+b322d5440c7bcb417345fe46e50c4df4ef014f13 CVE-2023-53748: Add .vulnerable file
+d4c7585f8b343982eb4ef25e77326925e02b2a03 CVE-2023-53751: Add .vulnerable file
+4691de028155b996bf3d1978fa70353c0e0f3926 CVE-2023-53761: Add .vulnerable file
+f110aec9377923a81c8b212b78250e3e098b48ea CVE-2023-53765: Add .vulnerable file
+dac278ae85eaa749e28ecbaf6ce90a1aa5f996cb CVE-2023-53766: Add .vulnerable file
+df7bdc40686e3dc1e94fdc54801a5456a958a0d2 CVE-2023-53786: Add .vulnerable file
+120829ed502f91e84adafe2034636245dcaa6b26 CVE-2023-53788: Add .vulnerable file
+d26ddd8568680ddcf09d9f6eb8b9c6f83a23143e CVE-2023-53789: Add .vulnerable file
+2e5b03c0e90c5a7ee95a156c26d53430d4ad871d CVE-2023-53794: Add .vulnerable file
+668f7a2a092dc0f2ef102fdb82d1773531e401a5 CVE-2023-53803: Add .vulnerable file
+8bcffdba3e380e98c6787f2f0dbb43e4fa4b5661 CVE-2023-53804: Add .vulnerable file
+98c05fa8601cdb4298b42d9e617a95673d05fb0f CVE-2023-53817: Add .vulnerable file
+b0fd2d3d77820bf01f21afe79ddee6deeb570a13 CVE-2023-53827: Add .vulnerable file
+8cb6f2a1355745c3c121558e7dbc0d96e5adb623 CVE-2023-53841: Add .vulnerable file
+210fba3ae076de9c0dbb1ea10a9f610d8bb4dba8 CVE-2023-53845: Add .vulnerable file
+b819dcd762d812c6066d9e4664ae5aee20859ff6 CVE-2023-53859: Add .vulnerable file
+86f4720a1e43a8487f59427433c701b507c353b3 CVE-2023-53862: Add .vulnerable file
+d4d088727d5074c9d2e9de09484bd52135b715b6 CVE-2023-53866: Add .vulnerable file
+c2bd2c394847810d2695bf885c6d504d164f1e72 CVE-2023-53867: Add .vulnerable file
+4ae3d1d6d381c437e59e6f7aab5e59219c723018 CVE-2023-53989: Add .vulnerable file
+6271212996ed00a4742f2515ef4a5dfc4b7d9cfb CVE-2023-53992: Add .vulnerable file
+9a6d97fe28ba32f00a124a4f4eaa14a01616353e CVE-2023-54002: Add .vulnerable file
+61e96855b0b091ef13100a3fc21f37c2bb217fa4 CVE-2023-54010: Add .vulnerable file
+a1e1ba4bcc2713b04825cc2ca9277c9d317c3488 CVE-2023-54013: Add .vulnerable file
+56fb08680ad46789bf84487328181ddb1dbe8d7f CVE-2023-54014: Add .vulnerable file
+91569df661a6d4c30701ea9e3b0602f83899ae04 CVE-2023-54016: Add .vulnerable file
+d83ab5277c523f5eb2f2dc7fb329bf82faddbf4c CVE-2023-54017: Add .vulnerable file
+ce6d2f7d01a6b6b8214707da4ecefde07de1cee3 CVE-2023-54021: Add .vulnerable file
+bebb57608b52d6667d119d1f7d4ab152b1621c30 CVE-2023-54023: Add .vulnerable file
+c458e3992c685e8608cbfea23b37cad2bc86a6cc CVE-2023-54029: Add .vulnerable file
+71f5c42e6ad20737d206212e442089c5643461fb CVE-2023-54047: Add .vulnerable file
+c87314192f15451933d9cfe690899098a7a1d6d2 CVE-2023-54054: Add .vulnerable file
+437d88e020e01523b90a4bff3fed2d4c300c2198 CVE-2023-54062: Add .vulnerable file
+b0b10b1baa522ecdbc1c863a0d1d79b850a5eb82 CVE-2023-54066: Add .vulnerable file
+537a1a6ffced21c374c28304281ecc6d98afa8da CVE-2023-54072: Add .vulnerable file
+4a1337a0f391b6e66a7b2dcdad1def60b77fe3c8 CVE-2023-54081: Add .vulnerable file
+05569d4444d29600e25c65d1b43f1b7c68bf4f83 CVE-2023-54086: Add .vulnerable file
+71a3d341f2ff286636b00d03e4b80e638d5279b4 CVE-2023-54093: Add .vulnerable file
+2e9832aee42ebbf3f73eb50ee104b86e0b97e70d CVE-2023-54099: Add .vulnerable file
+a7b1c5e4032fda0bce9b007243ef4d230080bf88 CVE-2023-54102: Add .vulnerable file
+b7569b4257a160e69c32f2ed6584f1f895d8696a CVE-2023-54105: Add .vulnerable file
+9702a209d37668a434bd9e9f90d2403ca7d37d15 CVE-2023-54107: Add .vulnerable file
+b4612842546747121d774bc6114d1556faddcd6f CVE-2023-54115: Add .vulnerable file
+ffc0db55c0dde1c1ec711c04cc5c8d752829894e CVE-2023-54118: Add .vulnerable file
+1d1ef7a0832ef853e8ed6ab3f830534ee9d715fa CVE-2023-54120: Add .vulnerable file
+4b1328bf0205459014452fd3c11464c53051ca1f CVE-2023-54124: Add .vulnerable file
+c90a31a86e3ef40848b72ec316d21880613f3fcf CVE-2023-54125: Add .vulnerable file
+174239d74fbd2a18e8ca3ac0bc352c326f610e98 CVE-2023-54127: Add .vulnerable file
+fe36c50f7bb131b73b1304b894f9616add55d7bb CVE-2023-54134: Add .vulnerable file
+131d1ca5f2da3bc7dd2a08a3220f5263bdab2b72 CVE-2023-54145: Add .vulnerable file
+bea6ea649dccfcc9092ed1ff01e1c751facf2400 CVE-2023-54150: Add .vulnerable file
+658fff1480ad14e87044e65a2aa677af26b4e571 CVE-2023-54151: Add .vulnerable file
+98491d8366fc9e55b1f5bea268bf36d7168053d1 CVE-2023-54158: Add .vulnerable file
+a18815c8a36f7d733550586b39ff66faf0f1f4b5 CVE-2023-54160: Add .vulnerable file
+53028d7ca5845a41605d41881557c5f436df3654 CVE-2023-7324: Add .vulnerable file
+9032983881287b3718b70941ee106e787ca313de CVE-2023-53395: Add .vulnerable file
+ea6f8dd55054771cb915748b35ca797f2a6e981c CVE-2023-53620: Add .vulnerable file
+52bcb8a4ef95c58ded7e7e98b37c160b08a95aee CVE-2023-54053: Add .vulnerable file
+dcf3fb619aa73d2bffe75c4aeca60e25bd67fd79 CVE-2024-26644: Add .vulnerable file
+b975813b61b533150ad518dd3333a928fdfa0260 CVE-2024-26659: Add .vulnerable file
+62d1c313fd383512349634b270c4f41d69eb5715 CVE-2024-26671: Add .vulnerable file
+bd5d682862b07070a7d368bc5bbbbea19b9b1603 CVE-2024-26686: Add .vulnerable file
+08f438e8a3b6ce713a0038c95b0fcb6c3195ae27 CVE-2024-26697: Add .vulnerable file
+ec3c60c86ddf22514854584bd590bc54993cafb7 CVE-2024-26706: Add .vulnerable file
+2019f2b697ddf73823a329535e522b17d1706b5b CVE-2024-26719: Add .vulnerable file
+725500c1009f83b0c29b52cf4256f9bd41720c0c CVE-2024-26726: Add .vulnerable file
+4f9c3a6630395610c7ea8236faa77c11d7eae895 CVE-2024-26763: Add .vulnerable file
+525526cece2ec66200a306554b741482a89fb9ee CVE-2024-26764: Add .vulnerable file
+0328a1f1535ba52041807fb9c45a3a56bae2d7da CVE-2024-26771: Add .vulnerable file
+f2a16eb86898454c8a085355023834f2a220e66c CVE-2024-26772: Add .vulnerable file
+a5c173f3be53a82dbe0ba6af97d697bd585f7450 CVE-2024-26773: Add .vulnerable file
+517b62ee7689e469ffb8bce9cea561558cc1aa9c CVE-2024-26775: Add .vulnerable file
+6a0785d3e6d23410454b51be7aac6ddbacef8251 CVE-2024-26777: Add .vulnerable file
+afa628304c5f1fad40207cf63d2ba4021147dd51 CVE-2024-26778: Add .vulnerable file
+056e3bf357781c3b99f94232aa506d30ca2a3b6a CVE-2024-26779: Add .vulnerable file
+9c60a16a9bf5e552f424ada8800a9a04e4e5dfc1 CVE-2024-26791: Add .vulnerable file
+741dda45e6bb8ecfd598b4394ef673c9da637fc6 CVE-2024-26842: Add .vulnerable file
+1247b6c961f4e299af0576947af8d616268aea87 CVE-2024-26844: Add .vulnerable file
+3a6a7892bfd352698fbdd17a908a095e447af676 CVE-2024-26845: Add .vulnerable file
+5bafb72f833a3fe41ba51e606b779a3814fb341e CVE-2024-26846: Add .vulnerable file
+d8595a84305633e22c0d11900a0b666795f0f02e CVE-2024-26878: Add .vulnerable file
+2ca63419cc1835bfd6e013be99972c568323aa80 CVE-2024-26903: Add .vulnerable file
+ad1b90a6e5b467a5ac68e717492b7b34a9e68ee7 CVE-2024-26906: Add .vulnerable file
+b11f9194180a9fd435659ca7d6285513528a1c21 CVE-2024-26907: Add .vulnerable file
+88981af5cb2eb42b70b61b7da96bc4a9c913656a CVE-2024-26928: Add .vulnerable file
+216526ce836c28a06bcf29e97cde67b6ec233524 CVE-2024-26930: Add .vulnerable file
+6c5414b5bd5e92badd94bba3fee6eb7f8caf816f CVE-2024-26931: Add .vulnerable file
+fa30366d085f7f1fa11f913b641825441b1a0c5c CVE-2024-26938: Add .vulnerable file
+292b3fde50b6c16ac4ab3482f767fc8a3635868f CVE-2024-26957: Add .vulnerable file
+752d7deee6380a9be63dab6b8389ebf6851b6ef6 CVE-2024-26962: Add .vulnerable file
+963f0a3f55a74f3805537dc7c5cb33548f9cfaf9 CVE-2024-26982: Add .vulnerable file
+541821bc66d1c1380c1db8469b0f5a939cf2fcf0 CVE-2024-26996: Add .vulnerable file
+b8bf2b2331a28749669327ba55c33268a02bbb41 CVE-2024-27056: Add .vulnerable file
+1758dbefb4f8cfe6e694fc5095973fa9f27e93f6 CVE-2024-27062: Add .vulnerable file
+be656d9b95411d0582cba4d43a94548a9d8f20f1 CVE-2024-27401: Add .vulnerable file
+a38e575c04469b38fb1b368fb0e7705f249175cb CVE-2024-35784: Add .vulnerable file
+bd9656db0cf4c45cce28d6d769d69558ac474f11 CVE-2024-35803: Add .vulnerable file
+37fe8bc39d287270d183b9b963805ec853bc67d1 CVE-2024-35805: Add .vulnerable file
+020738999c639e34856be86466a5bf96cf6c0966 CVE-2024-35809: Add .vulnerable file
+3868942ab9bb1eaaee1c1047637a52b3ff60029c CVE-2024-35822: Add .vulnerable file
+fe80309a669679cc242c0e8fc3255c52aa3bf6e8 CVE-2024-35843: Add .vulnerable file
+487848c242260a0efd30e89ea2959f5b73e043c2 CVE-2024-35849: Add .vulnerable file
+0f64d871bbdec41934f6d9383f60dddda8651080 CVE-2024-35861: Add .vulnerable file
+2aae0604bbfdd5724b84c1788eecf7f295f320e9 CVE-2024-35862: Add .vulnerable file
+4b1b562a6c7679331ce60c1c6588dc157d4b50ed CVE-2024-35863: Add .vulnerable file
+c313c1346b595efe956a51139e8cbed0fded990a CVE-2024-35865: Add .vulnerable file
+464eddc24d1b3c55d28ba2e52afd94011959e1a1 CVE-2024-35866: Add .vulnerable file
+94e2d5a013178ecf0cc49c8ee5220da8a8044649 CVE-2024-35867: Add .vulnerable file
+7987b250aaa576b2a5449a6d8fd77cf89710d586 CVE-2024-35868: Add .vulnerable file
+3056d888afc0d7113fc7ba5f77ca4a2a150e7ec2 CVE-2024-35869: Add .vulnerable file
+6fb38c31e46684b98be9b98e52fcbaecc55953a6 CVE-2024-35870: Add .vulnerable file
+e1499ba0e7d94c63942f73d88373187aa5ce79ca CVE-2024-35875: Add .vulnerable file
+b7b90770841e20b06e039b88452eb8551ef5a034 CVE-2024-35878: Add .vulnerable file
+7a2384302e4d6d06c95c6ff3c1237ccb4d4aef1e CVE-2024-35922: Add .vulnerable file
+414e6a25196d5e9dc5c2a0efbe3a93123550cb56 CVE-2024-35925: Add .vulnerable file
+340b92ad73a891bba1bcb938968cff19a9e7f01a CVE-2024-35932: Add .vulnerable file
+a3f1a03d181c4af765cb596c1aa03906b6ca96af CVE-2024-35933: Add .vulnerable file
+a3b2efc68261b4270523b8c72e3b53019d23295e CVE-2024-35934: Add .vulnerable file
+b24bf1a9382485c64322d3b047d7d07b93d1cd5b CVE-2024-35935: Add .vulnerable file
+6f826625db90456949a4dd7d506f35ee8f25d9a7 CVE-2024-35936: Add .vulnerable file
+f0cd4b3c750d6f0f3e49e1de93fcfd9fc5a0e3db CVE-2024-35939: Add .vulnerable file
+2e693e560f50e245d567969895e1c5bd1ca5843a CVE-2024-35940: Add .vulnerable file
+9ac2a571e423c849217b1c221e658b0be1515f5d CVE-2024-35943: Add .vulnerable file
+ae538612cf79a314122928b8d55594c3471a2231 CVE-2024-35944: Add .vulnerable file
+62a023c049926b0762b9cc278176ec78387b7cbc CVE-2024-35947: Add .vulnerable file
+0304d516de85b3929c53243988fce4a6a3fe2f70 CVE-2024-35949: Add .vulnerable file
+fa45da886237f9660ff21116b33874f0e06a6e2c CVE-2024-35950: Add .vulnerable file
+aab8d2bc559080ef1bdb37fe58ee89d63d92f4a2 CVE-2024-35995: Add .vulnerable file
+35d84c2b4630322fb012bf170fc2672a9cb000a6 CVE-2024-35998: Add .vulnerable file
+a95978cbe520dca0f835065c62771b0738c89a03 CVE-2024-35999: Add .vulnerable file
+a8c7107a281f6c4c241871724497c60c5747db69 CVE-2024-36909: Add .vulnerable file
+d6ff7da7859a2fc4fa4f53a1342f4db22d9b2feb CVE-2024-36910: Add .vulnerable file
+326553f5de3f4e8e4628cb893b0a63900ed5a1d7 CVE-2024-36911: Add .vulnerable file
+cc0471225a08608694556989a2ee70efbfdd355c CVE-2024-36915: Add .vulnerable file
+4f5433312f1c2ebe9cc1cd0d45fcd1573c1d6814 CVE-2024-36919: Add .vulnerable file
+b044447602d548ef1808e50ebb7208f9b0ae4def CVE-2024-36922: Add .vulnerable file
+4bce232975e3243705f648ee933b04f1b959bfd6 CVE-2024-36923: Add .vulnerable file
+d0b59add08bd8f0130e94136a72f0a7815451595 CVE-2024-36924: Add .vulnerable file
+3950f4a18610c9f8760e5731caa4f829ad6a9464 CVE-2024-36944: Add .vulnerable file
+a248e87eead88d0fd9d772b289dac71a86e66c59 CVE-2024-36950: Add .vulnerable file
+1f1633e58c8da8d0983036012656d41714d4a392 CVE-2024-36952: Add .vulnerable file
+9b282fae6ab869ed707209fe49c27348f88b749d CVE-2024-36964: Add .vulnerable file
+02737e38e894b831e11b92cfc99664396122aa01 CVE-2024-37354: Add .vulnerable file
+76c98eb8938681c0272431257768c740b631fa46 CVE-2024-38580: Add .vulnerable file
+59bac93fe97416d42fc7fe87a70c1493f40833f2 CVE-2024-38582: Add .vulnerable file
+e2eab666e81a2fb59440ac2781a33293289db8fd CVE-2024-38618: Add .vulnerable file
+2ec10a74ade47edc1ff23db454076936bd97ddeb CVE-2024-38661: Add .vulnerable file
+ca4ab956b5cf6a2e2aee28e34feec10754356960 CVE-2024-39293: Add .vulnerable file
+29d921a2bc70b45a94e468f7f27419e36523c626 CVE-2024-39479: Add .vulnerable file
+1b32a7c10b507883e833694d5a5bfdb6bb9d89f9 CVE-2024-39480: Add .vulnerable file
+e2748d41f16dff2bc40740ced82dbdf9b5ff62cc CVE-2024-39495: Add .vulnerable file
+66894e9814504c004c5580ded001d5294fac7b0f CVE-2024-40902: Add .vulnerable file
+3124c6367f411d3c7b47b2a71d3ebd41a2d998c5 CVE-2024-40918: Add .vulnerable file
+709cf08c7ce0384766a5d19a4344ae23a008915e CVE-2024-40932: Add .vulnerable file
+6d4b8e165173aecc0a6e71be7ecc3cfbe561a3a3 CVE-2024-40965: Add .vulnerable file
+90c4fe620e47519b8d9d3ad983f800ab5d81e20e CVE-2024-40966: Add .vulnerable file
+9b07f95c63ebe0a0c1a6d27676d4f51d7f3fd2fe CVE-2024-40967: Add .vulnerable file
+90af704daa9a3bc2f936d1bfaf55a95e6304a728 CVE-2024-40968: Add .vulnerable file
+94f28c56efcc5fb6c8014065c7b8e96b991ab423 CVE-2024-40970: Add .vulnerable file
+6266e0a85618f645e4edc54dbc5727521146e17d CVE-2024-40972: Add .vulnerable file
+7a733b877e7727bcd1683a215dab8c4411ae5d45 CVE-2024-40974: Add .vulnerable file
+9cc4d7ec358d52952499af97a8637d650160a8ea CVE-2024-40978: Add .vulnerable file
+c3a7a2ccc252a3bd57b77fb634814cacfe601fd0 CVE-2024-40981: Add .vulnerable file
+f67bc943d645bcbc6101cdcad8f969fe402d6036 CVE-2024-40987: Add .vulnerable file
+2067e33656254c4fbf33ea3df9ca8e2fe283b723 CVE-2024-40988: Add .vulnerable file
+a67e9b9a9b2c642ec22e3925843a3b1d120c9419 CVE-2024-40998: Add .vulnerable file
+f0f68b1ec5818194992c19583e744b6631d33ac0 CVE-2024-41000: Add .vulnerable file
+4f62a7b224cf22bb0022318f6ca506e61ce14e77 CVE-2024-41005: Add .vulnerable file
+d622bcc70be9fea0953fb45ac652848cedfa9af4 CVE-2024-41013: Add .vulnerable file
+7f17acda667510dbeee71bc652ddba43fc13ee0b CVE-2024-41014: Add .vulnerable file
+a54f6f8230091d6c9c61e34e11db814280c133fc CVE-2024-41015: Add .vulnerable file
+b678a45b4786651db8007e4d2dfa65b92cd26b79 CVE-2024-41016: Add .vulnerable file
+11ff1fff4bd8eeaa7c9c5cac38c01e9d838422fa CVE-2024-41017: Add .vulnerable file
+ff335576e9413fe91e4f6203b957c278afc13831 CVE-2024-41060: Add .vulnerable file
+6e8fb3c825dcd88ddc69d81f6d0c0530b4fa2260 CVE-2024-41062: Add .vulnerable file
+1070d6e31cf075702ee705cdadf473287e88abfb CVE-2024-41063: Add .vulnerable file
+1813d7bf4d44f9c73f068e2ff9fcb43c71d82d4e CVE-2024-41065: Add .vulnerable file
+6d94acb01b044fbbdd42f6e487c017231c17c0d0 CVE-2024-41066: Add .vulnerable file
+4baed3d93745c49fd86a3e296c7a7783202b827b CVE-2024-41067: Add .vulnerable file
+741397a54a5402de1bbfe7cd385820b6a71e9f93 CVE-2024-41068: Add .vulnerable file
+e4d4ec817197f77900760730a222679394a6db5f CVE-2024-41069: Add .vulnerable file
+d29d3bc08bc68b25a09adbdbe928fa0e437be09b CVE-2024-41072: Add .vulnerable file
+93396a65452cd9dd2cb232241b6fce769824aa0f CVE-2024-41073: Add .vulnerable file
+395a1b5a50bd23088422d6b27f71c6883283fa3e CVE-2024-41076: Add .vulnerable file
+b9318b7f688d82a69fcda407b6bc501408f18bf0 CVE-2024-41077: Add .vulnerable file
+a64db4e86f25f5a84cb15570e58734d15efee4c9 CVE-2024-41078: Add .vulnerable file
+dabff6b83266ec565174091bd50b5a4c8f2bab19 CVE-2024-41082: Add .vulnerable file
+180966baf390b8c352e90ef547b436a21d2ec484 CVE-2024-41089: Add .vulnerable file
+ff95db7c97e08b157b2e4ec527b5d052687d0140 CVE-2024-41095: Add .vulnerable file
+bb9afc66924069ad1f2a2e0eef1b09f1a40e9d38 CVE-2024-42063: Add .vulnerable file
+d23af50dc44795e424c47e5768c01c7b522587dc CVE-2024-42067: Add .vulnerable file
+0c94e0b667966ddb30999adb811d8f799bb7f1d5 CVE-2024-42068: Add .vulnerable file
+848ffe5429ddeaa728c4fdc07ae1e8d10350d76b CVE-2024-42079: Add .vulnerable file
+d75cfc840b5d3842fc9d34d5e00768f875f26364 CVE-2024-42080: Add .vulnerable file
+c1e07e3be5973e08f30bdde2790e27d747f7a8ac CVE-2024-42087: Add .vulnerable file
+f9085aa449d0cd9db43524b53dee2bd4500e0d81 CVE-2024-42094: Add .vulnerable file
+f05487eaeafca32fc160316997c1e31cf0c85e54 CVE-2024-42097: Add .vulnerable file
+267c3fe47157944c255fa8b102d7907ee49c7edf CVE-2024-42098: Add .vulnerable file
+8322bfd10fc1dab8ff358b2639d166429abf2a7d CVE-2024-42104: Add .vulnerable file
+18a17250f98e149aba5701706687effb7fe0263a CVE-2024-42105: Add .vulnerable file
+43461b969fa799243a37a41206a990e7fbed679c CVE-2024-42115: Add .vulnerable file
+27c10225956e104ba5dc975e7ec25ae851c81017 CVE-2024-42129: Add .vulnerable file
+9dfca6af28dd6c0ab2979013c9e139590fe13dd3 CVE-2024-42131: Add .vulnerable file
+8ba3bf48e7de8212d9e589886f72c0f85e01b80c CVE-2024-42135: Add .vulnerable file
+ef0d174906740f5d97bb51a7a5568319b9eed669 CVE-2024-42145: Add .vulnerable file
+c32eaa059d5bb844b6939624713fc58026198ef9 CVE-2024-42229: Add .vulnerable file
+b8a93ebe0c141e1f41d9e4017eea4e4fc0e57484 CVE-2024-42232: Add .vulnerable file
+9efa675d2a4961b299fca2845eb38a1ebbca25db CVE-2024-42236: Add .vulnerable file
+5b330588a57467cecbabd06d239394c2a3e71ae6 CVE-2024-42252: Add .vulnerable file
+d3270a0250f66835ecf4a6c35c454fd96cab70d7 CVE-2024-42253: Add .vulnerable file
+7b7070eedad9c18a892658f3ce59786ffa94aafe CVE-2024-42265: Add .vulnerable file
+4b2cb97c480d50c34550369940bef620ac8673e9 CVE-2024-42286: Add .vulnerable file
+72a4bb6035aa52cd19b48138206dd89a36af471f CVE-2024-42288: Add .vulnerable file
+02160a131c902866f62872fdfe53721284b78610 CVE-2024-42289: Add .vulnerable file
+f27e15befe7cefb6016f44bdfe41191f0f1670c2 CVE-2024-42301: Add .vulnerable file
+d5efcb56e30e4e67a01bea100f4662e559f4897e CVE-2024-43882: Add .vulnerable file
+82877543faad2777309f6e3fb1923cea7f88648e CVE-2024-43883: Add .vulnerable file
+89648a906eb5e61e99b35bec1d69f11de4378eea CVE-2024-43893: Add .vulnerable file
+cd083ec09495c9ceb96299845b1193539bf75310 CVE-2024-43900: Add .vulnerable file
+82a50a4b3cb40408e9f24d9b59c6e6da79095f47 CVE-2024-43905: Add .vulnerable file
+1c8c4e43066190692dd9b9338b334fb2ea43de4e CVE-2024-43907: Add .vulnerable file
+a9016fc426662935749d401d0c47b96a16809364 CVE-2024-43912: Add .vulnerable file
+7a0d8f5f9e83c001813a10eaf366c3ce660772dd CVE-2024-43914: Add .vulnerable file
+d0c97018316a9ee680c79ed95b473f4c276db1ba CVE-2024-44931: Add .vulnerable file
+220f4e4645dfad531e6aea7aec302fc6f04e4b5c CVE-2024-44939: Add .vulnerable file
+641b7a135788c833979258e8af23b04846bf0024 CVE-2024-44940: Add .vulnerable file
+3bacd1fdd217fd887b946851af2d81353cab84c7 CVE-2024-44949: Add .vulnerable file
+7150078cac2fb6c6f800b5157dc6b9d7e3d95de0 CVE-2024-44954: Add .vulnerable file
+0c3e366128ec23970b7bbb19763949ef39a19adc CVE-2024-44957: Add .vulnerable file
+88e028ab95791c8bb6b82a42424869bb6d4ec5e1 CVE-2024-44963: Add .vulnerable file
+f73ae1c795cf8debf50afe0666a749a2c89eb3d9 CVE-2024-44969: Add .vulnerable file
+3b9f9f143ee926b8e42f741a34ed6bc22975a3ae CVE-2024-44972: Add .vulnerable file
+dfcebe1f4334768d751a0e963ea22b62716c840f CVE-2024-45008: Add .vulnerable file
+81192faa799e709d711c9f521e820e2c3563d419 CVE-2024-46675: Add .vulnerable file
+bbf74c5f86261bfc266dee1790b04d1f5e257df3 CVE-2024-46715: Add .vulnerable file
+e46c42e4f2e669cd35591c654a0d7c560595bd8f CVE-2024-46716: Add .vulnerable file
+cf7843b57b0a85541362419f28f4e8e7d80f6aec CVE-2024-46717: Add .vulnerable file
+5b4132889366c783f51bf4f8e73cf6d04fca9c1c CVE-2024-46719: Add .vulnerable file
+2432bfedeca9f194f0e44679df21b143c480986f CVE-2024-46721: Add .vulnerable file
+d067fb0dddd0a3f177320e9f5680753b3861189e CVE-2024-46731: Add .vulnerable file
+8ce0f4eefd4bc3be972b6c06c47746fbe0c1a89d CVE-2024-46733: Add .vulnerable file
+d1679dcb4cb141880c55c1ecd37868856d1188c8 CVE-2024-46743: Add .vulnerable file
+7fdb9dcc61ca7428221ba345489dac2c314635ef CVE-2024-46744: Add .vulnerable file
+ac0cf499bdd964a6a35622c8474b36bea5cd2c06 CVE-2024-46745: Add .vulnerable file
+3a81ccc335dd68f6546fed5faacdcd097f983189 CVE-2024-46747: Add .vulnerable file
+23a89875b47ddccccba63953f83f8553b5cbe554 CVE-2024-46750: Add .vulnerable file
+65e4f1d2366851fa05e10bdc9684e5f4b0e9b4d6 CVE-2024-46751: Add .vulnerable file
+9ee400a0cf627978c33c982ee1dd3a447b861fa2 CVE-2024-46752: Add .vulnerable file
+e492f8f0e439c22c7ed098080485bfe33824d543 CVE-2024-46753: Add .vulnerable file
+6cab557a8460bc35f4817027f18b3d0d383b4633 CVE-2024-46755: Add .vulnerable file
+ea5b7ca014716751b23e1843f6e8cfa4ee25986a CVE-2024-46759: Add .vulnerable file
+0ce498b0289c7b36bee892106b8f6eda3cf44e4d CVE-2024-46761: Add .vulnerable file
+07589ca29e371a0f2c5ba9edc3e9c95ab3401fed CVE-2024-46774: Add .vulnerable file
+a9efbbef3e2f4c51606a7fb5779cfb25a731f38f CVE-2024-46777: Add .vulnerable file
+0eee47cf91ea795ba8944524ea12858556405483 CVE-2024-46810: Add .vulnerable file
+5db092064e3c71871ba687a6396e9409c17059ef CVE-2024-46821: Add .vulnerable file
+0c1b09f90bb6e42d5f4683f3660472ba1411cdd7 CVE-2024-46823: Add .vulnerable file
+08e57e1495db3805270ab1d10e0298ae4ae3ff5f CVE-2024-46825: Add .vulnerable file
+88124f7b27ded712f9bbc2335463f545c4cd3f9e CVE-2024-46826: Add .vulnerable file
+e09d8ee583727e549463979735781083e7bc9907 CVE-2024-46832: Add .vulnerable file
+f4049ef6e8bde1de24c52cc93f1195f43d3b1591 CVE-2024-46834: Add .vulnerable file
+3c5add2602f2c09da2ec83b97769667377172130 CVE-2024-46840: Add .vulnerable file
+26eb75ce37f3359b41ddc18372b9684fa97e5276 CVE-2024-46841: Add .vulnerable file
+c67dc675ccc81193593e36ec25660a3b024f7181 CVE-2024-46842: Add .vulnerable file
+251cc5ed06268653b49e0bf2ea1baecbc9ea7ffe CVE-2024-46844: Add .vulnerable file
+b243b81d259aa9691447516f6b8427de27ad8126 CVE-2024-47141: Add .vulnerable file
+b25b5ad7a1f85ba21f183e5f443636f9046b3e5d CVE-2024-47143: Add .vulnerable file
+1592e9a894f0307ddb8fda1568e53a96ddc74543 CVE-2024-47658: Add .vulnerable file
+06814701d8a37592f9a35f87b9869d44c31998d5 CVE-2024-47659: Add .vulnerable file
+086ef0d412c0b628faa8e27cf9e68b06592fd135 CVE-2024-47660: Add .vulnerable file
+e026c6ee216c2be28c4c20a22dbcf12b8038d099 CVE-2024-47666: Add .vulnerable file
+0c7c8b38a0e07986f87c6e0bdf79b830cc08b46a CVE-2024-47667: Add .vulnerable file
+98e776e7572146785bd0530b1c03b2f6b4b2a04d CVE-2024-47668: Add .vulnerable file
+94d6f4662afdf47fdbbfa77870a20b0a29b6b30d CVE-2024-47670: Add .vulnerable file
+092d3b891883a8694bd2eba4a962486137a3754a CVE-2024-47672: Add .vulnerable file
+6c62526dc4460dd29e10fd0720223b8ab8e6aeeb CVE-2024-47673: Add .vulnerable file
+6f24608922c7ef2a737433de2f40d4f98ab1426d CVE-2024-47674: Add .vulnerable file
+1b580fb112e187d151608759f48e79f7a0450207 CVE-2024-47745: Add .vulnerable file
+e2c5cfcc7ac627bbad4d63c3dd9e11f7c298ae25 CVE-2024-47809: Add .vulnerable file
+27e5c2b81b94d60743e8a4677d60209bd95462ee CVE-2024-48875: Add .vulnerable file
+4ec7ad78667459936454ef501defcbe5b4600ae6 CVE-2024-49858: Add .vulnerable file
+430e2af5397b53fc7251d3c9689794695df6985c CVE-2024-49867: Add .vulnerable file
+62da1bc05819f64943c3557667a3c8c24cfe1545 CVE-2024-49868: Add .vulnerable file
+3152341899b18690aa63af260358febf9b1978ab CVE-2024-49875: Add .vulnerable file
+c78d4b8d47d04a195f839d0a486f3f9e49d45234 CVE-2024-49889: Add .vulnerable file
+1ad1fc733643bd41662142a87177cd72f15091e6 CVE-2024-49891: Add .vulnerable file
+ad4c434f1068d41e0775e36b74e0225878d3b8f9 CVE-2024-49900: Add .vulnerable file
+bfc6893752438aa358f4bf6c00c38602dd11a269 CVE-2024-49902: Add .vulnerable file
+5746a992f3d33ec6e8ea97d8527977b60fbb21e8 CVE-2024-49903: Add .vulnerable file
+702720d8d0b73ae5043b0a90ed4dcfad87bbab59 CVE-2024-49924: Add .vulnerable file
+f5b6051688f6f26807c93d42086a96e8a32f77ba CVE-2024-49926: Add .vulnerable file
+d10bc52cc0ea9e56ddac122d69d8791d505a060b CVE-2024-49927: Add .vulnerable file
+ced889a1645922715bb63b07ecbe9abc56dcf3fb CVE-2024-49932: Add .vulnerable file
+a8a9e2b659aeec2e985d6899fc535b563e4e20d6 CVE-2024-49934: Add .vulnerable file
+5fa7a4039e7a68ff6431b005015e43dc4518f77c CVE-2024-49935: Add .vulnerable file
+9e01f1e29fbcf7955e850fd74a9111c33a765676 CVE-2024-49937: Add .vulnerable file
+7e6fadc5ca8ad2b7ce7c475a356c4bf860fd2f3c CVE-2024-49938: Add .vulnerable file
+fdf38f851e7b6a1d3d3d0dc0a9db12b8ce0d0608 CVE-2024-49940: Add .vulnerable file
+44b77ffdcf011e8b6ae9f115839d02114b5725b4 CVE-2024-49968: Add .vulnerable file
+c18f6fe8537b965fa0063ffdb5bccdfc8edf140c CVE-2024-49992: Add .vulnerable file
+b0f20d28e2cdb6702b722c65cded1444c1d428ce CVE-2024-50006: Add .vulnerable file
+6e4cbfbe30e0dcc09c50528cbe2d114ef0592e98 CVE-2024-50007: Add .vulnerable file
+dffe74a78ef94ae258f0acb06ca85de8ff344c45 CVE-2024-50008: Add .vulnerable file
+596ecd93fc559e5ad1ff37fd5768fbceaff085e8 CVE-2024-50010: Add .vulnerable file
+1a2cba767811e824d4662d305c61d0e8f713b620 CVE-2024-50014: Add .vulnerable file
+0735e5413a3882493ba3d8c56c86723d68362016 CVE-2024-50017: Add .vulnerable file
+5db7372b46242e2885e6362290958523ec64b563 CVE-2024-50047: Add .vulnerable file
+f87673b5ecfb5e3225bfaadc61a3315ea53b9aff CVE-2024-50055: Add .vulnerable file
+5b11444bef22f9979ca907759aeff3568ad45738 CVE-2024-50056: Add .vulnerable file
+5f19a6ea253dca51bf6b093f746fa438c1f85d31 CVE-2024-50058: Add .vulnerable file
+be68748db8a9c5808958e9f049296aecf70c58a0 CVE-2024-50059: Add .vulnerable file
+16690471edf3b8b9f5ef6bce8d0e52c690885c75 CVE-2024-50062: Add .vulnerable file
+93572fd0a7f35d59ae5c673641f5238347536fef CVE-2024-50073: Add .vulnerable file
+c126785af03b972371d18520fd04a4126e6cb3a2 CVE-2024-50095: Add .vulnerable file
+d1ecb62b4aabddad095fb57f13208cac53e261c2 CVE-2024-50112: Add .vulnerable file
+830981c553551b29185fd78cceb1fc738cd7af85 CVE-2024-50143: Add .vulnerable file
+dec6d471b0232acc4115c61e74a4b3269e29cefa CVE-2024-50180: Add .vulnerable file
+8eeaf4dc8979724f875b19d0286ec63876dba52d CVE-2024-50183: Add .vulnerable file
+74ae7d2f2aed271871b667a44a9f7f3d49b8b63b CVE-2024-50191: Add .vulnerable file
+ed85e50c8b2241d597e03fec10f671514e53f190 CVE-2024-50211: Add .vulnerable file
+d5d11be6299b9918494c0690a2b69b049d45b9ab CVE-2024-50234: Add .vulnerable file
+5c0bbcd453cda17b07d62979c69ed961d137efca CVE-2024-50277: Add .vulnerable file
+7eb875dc5c64efe6a1b66fa62181acee659db6be CVE-2024-53050: Add .vulnerable file
+28665caa59f69e7e7babed658d8e29bd8a74275f CVE-2024-53051: Add .vulnerable file
+a072c066fb0dcef26d12790ffeefe0cd18141bd6 CVE-2024-53090: Add .vulnerable file
+2ad54f1eadf24bb7c0a48448118ee5b592658c71 CVE-2024-53101: Add .vulnerable file
+b41985f89433561f1c5788eb4c63c0373c7f0e11 CVE-2024-53114: Add .vulnerable file
+77b653f9e63993c089ea87371e72fd567a2056f6 CVE-2024-53128: Add .vulnerable file
+a450cc2f078b7f92ddc18a4642cb75c4aa621e41 CVE-2024-53146: Add .vulnerable file
+662742c3d0abca82d3e83642cfacdd1ffa09f743 CVE-2024-53150: Add .vulnerable file
+1d30ca74464821aeace67525effe726290eabb0a CVE-2024-53164: Add .vulnerable file
+92baef8de5834f5eb63d62680c66828d88808174 CVE-2024-53174: Add .vulnerable file
+733f438507c6a8832ed9e8b4265601861bd7b974 CVE-2024-53177: Add .vulnerable file
+c7dfe2aa4393c16be89642fa13a85c9ad4c54051 CVE-2024-53179: Add .vulnerable file
+052d3f8142737f7471da8e8616ef05455c1dd47a CVE-2024-53180: Add .vulnerable file
+a720786168c3b55c16559c9ebfa06790782c7371 CVE-2024-53181: Add .vulnerable file
+f6cc964874c71a726f507e462425900a3ab09457 CVE-2024-53183: Add .vulnerable file
+0aff6c8b891872795132ce7ca192af9f742dd6a3 CVE-2024-53184: Add .vulnerable file
+70f52006ec2827757fd90164cf655f1010fa2d07 CVE-2024-53241: Add .vulnerable file
+dae3d0512858efdf3dd4c65b7075b49d3386d8a8 CVE-2024-56570: Add .vulnerable file
+c02b0c5af22757785314926278066e83288bf97d CVE-2024-56587: Add .vulnerable file
+6238c208dad1139fa6147fcc3048a0b07f572446 CVE-2024-56590: Add .vulnerable file
+2a08d4ea8733d7c209826d3c9d4642d9adc89db2 CVE-2024-56591: Add .vulnerable file
+0b4b8c1bd297ffec2b277a875e660e69fa904df5 CVE-2024-56593: Add .vulnerable file
+6228d9c2d300ebc6b90c9e5ec141d876ddd5c7b0 CVE-2024-56595: Add .vulnerable file
+f0881f263572874d36a8c49a20b7e4bff534c5e8 CVE-2024-56596: Add .vulnerable file
+a04fee16fb4c7bcb68486f0da796d58180cc7857 CVE-2024-56597: Add .vulnerable file
+a58a8e8a8e5a9ee8b97c180ad78f74dcd56ed4dd CVE-2024-56598: Add .vulnerable file
+71439df13552900710d01cb11afc78c227850603 CVE-2024-56602: Add .vulnerable file
+9d6456ecc1dc33101f1cfbc20a6ccfb4710a9aa0 CVE-2024-56603: Add .vulnerable file
+8dec7dc80fa3d16413e0404b1652e40905cac484 CVE-2024-56604: Add .vulnerable file
+e5ebb0259ef8d289b40c6fd069b498bcfc67ed66 CVE-2024-56605: Add .vulnerable file
+20fc76a21267715bcc93605c2e9cac5f75c0a1a5 CVE-2024-56606: Add .vulnerable file
+f8279085fdcfb93e42dfbc54516e0baf3ef2ce76 CVE-2024-56616: Add .vulnerable file
+0a052e6a45b19f3c70f04b71d6d46a81611ba671 CVE-2024-56759: Add .vulnerable file
+846a72f9413fa526d7d5aa5499b13d91901e82c6 CVE-2024-56779: Add .vulnerable file
+67a70792544acd087d10ce42cba9e6409d6d30ad CVE-2024-56781: Add .vulnerable file
+58d47faf4eb2f048fdd431db28566531845bc721 CVE-2024-56782: Add .vulnerable file
+d174ae0ecf7c46a9d4184216c99851047ca31c97 CVE-2024-56785: Add .vulnerable file
+3e4089f68026639e7b4809b4dc77324e74303202 CVE-2024-57807: Add .vulnerable file
+6451f3bc49cbfe59542df6672c06937d1ff6a2ba CVE-2024-57809: Add .vulnerable file
+bd600936a5b33f2aaf96bc8dd5181302fb08352c CVE-2024-57838: Add .vulnerable file
+6c73da17cfe4550c6d994ae706eeebec35084a7f CVE-2024-57843: Add .vulnerable file
+6faa3b40f1606cb04eb41f2d91dc62e3adf58017 CVE-2024-57849: Add .vulnerable file
+3fc13de10491716e63c5481c664f1e119c05269f CVE-2024-57850: Add .vulnerable file
+4bf7724ae019e2976d34872d31bdff094c2b9361 CVE-2024-57875: Add .vulnerable file
+d4a474f62681f9de8534ea78f7aa9098a833ee00 CVE-2024-57893: Add .vulnerable file
+f5b9af8d1490a5c9f27ed6637238915b0d4a4418 CVE-2024-57896: Add .vulnerable file
+b323895df382fa35ffdc6492301e9b7bd1e0167a CVE-2024-57898: Add .vulnerable file
+1c9fffdeff0437c45f97ee48f6668adf3e70609f CVE-2024-57899: Add .vulnerable file
+57567c20549869a7c13c20b3b8ddaf2bb8076ec7 CVE-2024-57924: Add .vulnerable file
+d7787ceee4f8fc25cd92c4458b021ef4a3a5908d CVE-2024-57948: Add .vulnerable file
+6782f894d58fcbae6e8b1996416b881481224fa5 CVE-2024-57975: Add .vulnerable file
+f7786d3146cfa7aee02001fa1333f3282b03bb75 CVE-2024-57976: Add .vulnerable file
+8738d5e4ec4f11841dabde02ea4d893830406f2e CVE-2024-58001: Add .vulnerable file
+44d7b750aab2b95750dc67b6a000673fad61b7f0 CVE-2024-58085: Add .vulnerable file
+43e342e58f0ad8b7b9be74dd7ad5fedc0e063d23 CVE-2024-58090: Add .vulnerable file
+008021a78c328fe9ff3f694a3d101854288186d2 CVE-2023-54172: Add .vulnerable file
+a4530fa6f0aacabe9846f745443cd10fbc05692d CVE-2023-54179: Add .vulnerable file
+a205cfc2a9ce9755c11c7f7a0a213f9c7f09a5fd CVE-2023-54180: Add .vulnerable file
+d863908a0ea6ec53df994cfb324246c85a816375 CVE-2023-54181: Add .vulnerable file
+81037be7f4849f37e2382032172ae56a10388312 CVE-2023-54182: Add .vulnerable file
+20708ce2c365922d91d5e2b23af0d13cdfb52abe CVE-2023-54184: Add .vulnerable file
+acea9d82c52e930a73a64a6a9a6a31b3a9932604 CVE-2023-54185: Add .vulnerable file
+8f0c54208c6bad90ca2780dede2dd125e3ea4163 CVE-2023-54187: Add .vulnerable file
+552bed5aed031b6a959cdfe5ca2d68d207193e02 CVE-2023-54194: Add .vulnerable file
+dbc2aadfa668cf2ffed88339f16f6bce6700cc45 CVE-2023-54196: Add .vulnerable file
+a8153f2d31857fec3f1272b0c9a28f572412eea6 CVE-2023-54198: Add .vulnerable file
+12d3e34b9f5425d606b730c6c7a5435f10614815 CVE-2023-54213: Add .vulnerable file
+839a91351bb0376596dbf17fa129b0b21a0a4f6b CVE-2023-54224: Add .vulnerable file
+3ff6ac80cf407d5e9a75e1d9c81eb61d15d26854 CVE-2023-54227: Add .vulnerable file
+5660fa770e5fd9cd321baa4f7a52e761ba72785a CVE-2023-54229: Add .vulnerable file
+a08b8a081dc79541ba491cc63c81b82d81430a7b CVE-2023-54232: Add .vulnerable file
+823f579590d016142e7a7173495f2fc21c48aed8 CVE-2023-54233: Add .vulnerable file
+56caf7de50d773a661fade450904d2df74bb062f CVE-2023-54242: Add .vulnerable file
+1d6549c2954e5ed8686ac2b47e0b94db7edf3c54 CVE-2023-54244: Add .vulnerable file
+f98e7f3a2c71a5da7961f8fbd3b81eb8176c64ff CVE-2023-54245: Add .vulnerable file
+76b0075e7c17d6638c5d935219a7c24f841b5bcf CVE-2023-54246: Add .vulnerable file
+dae912dc50c8e913d3fa86c11010afd12ac9701b CVE-2023-54247: Add .vulnerable file
+2548f44bb683d005d6887dc097539b8260791668 CVE-2023-54250: Add .vulnerable file
+822b7248b5ee8a6d8b4ba406d0a6caf45323f4a9 CVE-2023-54253: Add .vulnerable file
+b231d3d81bc042a6d159211cbb29ab8d9b7d3e11 CVE-2023-54259: Add .vulnerable file
+bea574158b8df56b489f07adf9d9ebce7eda895e CVE-2023-54261: Add .vulnerable file
+4baa341c19ff7c8042be8123e10cd276f3cddbc7 CVE-2023-54263: Add .vulnerable file
+d44ba274610e0c3c00bcc0fcc620583462165577 CVE-2023-54272: Add .vulnerable file
+433a3da550206b6d8badb3f46f96b288791e8915 CVE-2023-54279: Add .vulnerable file
+d9163f6498facfcf5c4469dc944c60f45d4845bd CVE-2023-54280: Add .vulnerable file
+6afeff25cc77c19eef1eed7d89b60f2b9706209f CVE-2023-54282: Add .vulnerable file
+ea0ccf25f142631e28dff3e7b795a8d8fd4f76fc CVE-2023-54283: Add .vulnerable file
+5e8fc97138e8cb5545aa0bfdc138ce5b2768b15f CVE-2023-54285: Add .vulnerable file
+547df739472530c5cc72849a54b21065ed49c79a CVE-2023-54286: Add .vulnerable file
+2d30a5dc4d10d2086d1289c186105190762fa95d CVE-2023-54305: Add .vulnerable file
+e551cbe8e08d86ea7b585f98d2816307022a60e9 CVE-2023-54310: Add .vulnerable file
+723fda38d7fb52a4a652963019e1c4955c506389 CVE-2023-54311: Add .vulnerable file
+8e7d67861772396732e775129e193932fc358900 CVE-2023-54314: Add .vulnerable file
+f8044f01640017ea864c696adc812c2601dc0929 CVE-2023-54320: Add .vulnerable file
+359bce86047c0fed2f185c583c068a12506827eb CVE-2023-54322: Add .vulnerable file
+359bdb010881ff63fbc915e055b3f84ff2979f3a CVE-2023-54324: Add .vulnerable file
+b48efb7f82d3358515f398acc20016cccb686ffe CVE-2024-35864: Add .vulnerable file
+d0b8215a555084bdf3825c7a93616db681826a5a CVE-2024-46762: Add .vulnerable file
+c90a785e3d4dee802bc0096c57259cfc4ecda8e9 CVE-2023-54177: Add .vulnerable file
+6dc1a5c7bd4ee3abe37ca21f2cbdd858bcd7daca CVE-2023-54264: Add .vulnerable file
+99b96346c3c8c49cef29877edb024518dc0adea4 CVE-2024-42096: Add .vulnerable file
+6a2bf9c8d3459f2186d5e30ff80ca5facfc082bb CVE-2024-42311: Add .vulnerable file
+
+--===============4447760202859867983==--
