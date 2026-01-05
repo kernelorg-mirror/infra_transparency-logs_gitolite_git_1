@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7466933058581280417=="
+Content-Type: multipart/mixed; boundary="===============3307382455610527040=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/joel.granados/linux
-Date: Mon, 05 Jan 2026 12:49:25 -0000
-Message-Id: <176761736541.2171526.9112401506863677984@gitolite.kernel.org>
+Date: Mon, 05 Jan 2026 12:50:03 -0000
+Message-Id: <176761740378.2173080.13498441507953840803@gitolite.kernel.org>
 
---===============7466933058581280417==
+--===============3307382455610527040==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/joel.granados/linux
 user: joel.granados
 changes:
-  - ref: refs/heads/jag/const_loadpin
-    old: 641107f1177907e00b268c382a975fba184a6de4
-    new: 44fc7ff52feeac2d11f6e8ad80aafbdf27239a5e
-    log: revlist-641107f11779-44fc7ff52fee.txt
+  - ref: refs/heads/jag/sysctl-doc
+    old: 73b18200714995fd9c0e2ac411eb3039f726341e
+    new: 71c8a0221c917a130fe7fc2d9202676bbe751998
+    log: revlist-73b182007149-71c8a0221c91.txt
 
---===============7466933058581280417==
+--===============3307382455610527040==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-641107f11779-44fc7ff52fee.txt
+Content-Disposition: attachment; filename=revlist-73b182007149-71c8a0221c91.txt
 
 e3b8cbf40c6e60a7a935bd8980884d5741a7a77b selftests: netconsole: remove log noise due to socat exit
 33b4c26d4d3ccd24d9721a577671f2c73c1a7cd9 x86/platform: Fix and extend kernel-doc comments in <asm/x86_init.h>
@@ -1048,7 +1048,7 @@ cba09e3ed06db4b6c87bc97e0aea080421fb8f7d Merge tag 'perf-urgent-2025-12-12' of g
 0dfb36b2dcb666f116ba314e631bd3bc632c44d1 Merge tag 'ceph-for-6.19-rc1' of https://github.com/ceph/ceph-client
 6a1636e06625ec0dd7f2b908ab39a8beea24bfd3 Merge tag 'scsi-misc' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
 8f0b4cce4481fb22653697cced8d0d04027cb1e8 Linux 6.19-rc1
-c6207d7bc69545f228e4c2c9125a0494a0ec0d46 Changes in v5: - EDITME: describe what is new in this series revision. - EDITME: use bulletpoints and terse descriptions. - Link to v4: https://lore.kernel.org/r/20251224-jag-const_loadpin-v4-1-258afd70d2ce@kernel.org
-44fc7ff52feeac2d11f6e8ad80aafbdf27239a5e loadpin: Implement custom proc_handler for enforce
+97c5678ea63238e68b90c6c9cb867cd275b93614 sysctl: Add missing kernel-doc for proc_dointvec_conv
+71c8a0221c917a130fe7fc2d9202676bbe751998 sysctl: Add missing kernel-doc for proc_dointvec_conv
 
---===============7466933058581280417==--
+--===============3307382455610527040==--
