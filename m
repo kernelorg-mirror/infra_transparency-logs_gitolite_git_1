@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3137463875188921112=="
+Content-Type: multipart/mixed; boundary="===============4263056795637206700=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/gregkh
-Date: Mon, 05 Jan 2026 09:21:51 -0000
-Message-Id: <176760491101.1998519.16558398276379525928@gitolite.kernel.org>
+Date: Mon, 05 Jan 2026 09:22:33 -0000
+Message-Id: <176760495340.1999061.12228930485532576691@gitolite.kernel.org>
 
---===============3137463875188921112==
+--===============4263056795637206700==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/gregkh
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: 7839932417dd53bb09eb5a585a7a92781dfd7cb2
-    new: 3609fa95fb0f2c1b099e69e56634edb8fc03f87c
-    log: revlist-7839932417dd-3609fa95fb0f.txt
+  - ref: refs/heads/readfile
+    old: f58d23809f768ffab9e5617396958ec55654f26c
+    new: 45b97357be28b67355e7ff94300696689be62959
+    log: revlist-f58d23809f76-45b97357be28.txt
 
---===============3137463875188921112==
+--===============4263056795637206700==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1767604906 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1767604924 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/gregkh.git
-nonce 1767604904-31aa5aae544a0c4072220bf323851f497a711ec6
+nonce 1767604920-db5173cc6822d0ec0862867b7fad9445d6e6a655
 
-7839932417dd53bb09eb5a585a7a92781dfd7cb2 3609fa95fb0f2c1b099e69e56634edb8fc03f87c refs/heads/main
+f58d23809f768ffab9e5617396958ec55654f26c 45b97357be28b67355e7ff94300696689be62959 refs/heads/readfile
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmlbgqobHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+ahoP/3OAiaVa7IY0frg/rIkm
-GSNh5HHnLDZS7jbQu6zWLaxUoK6DsOD/wG7VHiOPUrB14a8FJv3kF1je9tARIJMT
-LbvSCM5gxrLXlWNtAm9+TKuhk09oa5H+OU4+pjBFqGd4xYvHY7YpY3wLRS3kQN1V
-BeOFsmUmTJxIITk4mj+Fv9CWc3jHDuqaDCrJRQyZlwxGajBl+s9qP/kkEQurHXL/
-IRDX/rseJD1CQAkTsEmbQbT1N5yKdG7JBgnWTniUbPv9VpiL61Qej0pVdQbCQjR4
-BNHqMeNXin6fRMlJSUljuKmVsJSV4WLEskm6uOdXXltEgGNmXmWUVCYAlLT1foJ4
-/dWnIcRXOL2/UBxVkpM4CIfOVXSx8bBDK4sZVNSoIJsKzM7cFWmikMVDN5Aq3sDK
-DJVQzisvPyYp20Z6I1CQuqif/MThUC//6K63xFeuaWOIfMQ3qADxovdXsCwmUcAK
-WjrKOnR38KKtDhX5aOS79Jc4BRQWehwlZliDYWQw0wqikTegoNdw91hGkIeKhV9c
-lwGaoiJoIlcGhvDcVoUOZz8DnBPLR76AXfCZeY/Qj8EsZ9Mzo5nTZ3WqQh/o4Was
-F41tkOmEAW5Y5y1/WNzc2FGUkOw8gNLhQSEfUHfKLl+vLGC3bm8orjJUuwyJM20F
-rbXKkWDILvzZU6xQgHhqr/Ta
-=j3iQ
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmlbgrwbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Oh0P/i8kdlArzc+I4whwmNb2
+JIEow5VdRANR4up4oPQZ5YY3t6AyCYtJAsvAV6wale7TQ+jbX89YvwtxYXNYbjBT
+JiaeAMQnl4xY7zmtOQLoV4j/zn8vLKPEoz7sRykIVqF/+6CifQ/iX2DF8E1lEgnk
+a5GwWhy9K5jHjLzga8Oir4pyExjd6545jhk5aVfEF+1ucZAYpjQBSSlsmYJJJP8w
+4x0OyCqUNFK7PnpRayBaL5XaPRc5sDkYJSNRIjwCqLtBJD85PLGjDGEHpqVn+wt4
+k6CEAX4s2WZryJeVJ5qTUEyG47yCu4rT5uNGP0FC5n7AZKq2+E7PQKCjeS9/yL2b
+3jZ0p9icrBvYchrAVxdAtViuoeBgwalR2clpfanh0o6T1U/JfX2VH5ZM9qIhGCuT
+pYxwNg1MXVoziE0VlBGrmefN2cCA3JmmojkY3hLOaYOnScHiv9eiumCHecESbQG6
+jsignYW3DGNgOSbispL0hja9FlORUPaEkiqbziEiKvUNxB3N3fYgEtgxDA0UhZW8
+tWek30UAntZZeWxeWgFOaIkGSv0C/H8mPjKLJT+Ph6y+Cw/44lB4mg09oDKbALcX
+GLWyS+snxfOzDFRHD2pjkd5QeYCqfkHGpu6IpLXefHC6FBMA3NfHi0iCaH+76+kG
+OcYrBYJBvwV/nRmqARziwvVx
+=jj7v
 -----END PGP SIGNATURE-----
 
---===============3137463875188921112==
+--===============4263056795637206700==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7839932417dd-3609fa95fb0f.txt
+Content-Disposition: attachment; filename=revlist-f58d23809f76-45b97357be28.txt
 
 f3ccdfda345ca9a624ea425840a926b8338c1e25 wifi: rtw88: limit indirect IO under powered off for RTL8822CS
 dd39edb445f07400e748da967a07d5dca5c5f96e wifi: rtlwifi: 8192cu: fix tid out of range in rtl92cu_tx_fill_desc()
@@ -308,5 +308,9 @@ aacb0a6d604ac9953b261963efe25ae7521b7c58 Merge tag 'pmdomain-v6.19-rc3' of git:/
 54e82e93ca93e49cb4c33988adec5c8cb9d0df31 Merge tag 'core_urgent_for_v6.19_rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 9ace4753a5202b02191d54e9fdf7f9e3d02b85eb Linux 6.19-rc4
 3609fa95fb0f2c1b099e69e56634edb8fc03f87c Merge tag 'devicetree-fixes-for-6.19-2' of git://git.kernel.org/pub/scm/linux/kernel/git/robh/linux
+6b7020139bf0013d2ed49a8ba702d7906f5a3f21 readfile: implement readfile syscall
+194dd10c5f9dceffeb912e4428e1ecbc192856f5 arch: wire up the readfile syscall
+2577a7163bc111f4c9fc5cb84d5262b84525c889 selftests: add readfile(2) selftests
+45b97357be28b67355e7ff94300696689be62959 readfile.2: new page describing readfile(2)
 
---===============3137463875188921112==--
+--===============4263056795637206700==--
