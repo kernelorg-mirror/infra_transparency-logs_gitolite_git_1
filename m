@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1143258868280752662=="
+Content-Type: multipart/mixed; boundary="===============3427830692805558617=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Mon, 05 Jan 2026 17:01:13 -0000
-Message-Id: <176763247373.2395470.925669081616073753@gitolite.kernel.org>
+Date: Mon, 05 Jan 2026 17:01:16 -0000
+Message-Id: <176763247677.2395636.662416339476667998@gitolite.kernel.org>
 
---===============1143258868280752662==
+--===============3427830692805558617==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
+  - ref: refs/heads/10GbE
     old: 7b8e9264f55a9c320f398e337d215e68cca50131
     new: 1806d210e5a8f431ad4711766ae4a333d407d972
     log: revlist-7b8e9264f55a-1806d210e5a8.txt
 
---===============1143258868280752662==
+--===============3427830692805558617==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -544,4 +544,4 @@ acb4bc6e1ba34ae1a34a9334a1ce8474c909466e virtio_net: fix device mismatch in devm
 d6f6c6d90965cde092d159a57f0d4eae701d63a7 Merge tag 'nf-26-01-02' of https://git.kernel.org/pub/scm/linux/kernel/git/netfilter/nf
 1806d210e5a8f431ad4711766ae4a333d407d972 MAINTAINERS: Update email address for Justin Iurman
 
---===============1143258868280752662==--
+--===============3427830692805558617==--
