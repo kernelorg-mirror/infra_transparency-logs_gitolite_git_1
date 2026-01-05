@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3700493349508706234=="
+Content-Type: multipart/mixed; boundary="===============4998853170333335328=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
-Date: Mon, 05 Jan 2026 09:05:51 -0000
-Message-Id: <176760395170.1932859.10606661656378986229@gitolite.kernel.org>
+Date: Mon, 05 Jan 2026 09:05:55 -0000
+Message-Id: <176760395548.1933048.5869105317841931115@gitolite.kernel.org>
 
---===============3700493349508706234==
+--===============4998853170333335328==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,49 +16,38 @@ repo: pub/scm/linux/kernel/git/stable/linux
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/master
-    old: 805f9a061372164d43ddef771d7cd63e3ba6d845
-    new: 3609fa95fb0f2c1b099e69e56634edb8fc03f87c
-    log: |
-         4a824c3128998158a093eaadd776a79abe3a601a entry: Always inline local_irq_{enable,disable}_exit_to_user()
-         305f254727bd379bbed0385afa0162f5bde1f51c pmdomain: mtk-pm-domains: Fix spinlock recursion fix in probe
-         73cb5f6eafb0ac7aea8cdeb8ff12981aa741d8fb pmdomain: imx: Fix reference count leak in imx_gpc_probe()
-         4f4f6b4467e63317ec3fd0a5b7405757ad55c169 MAINTAINERS: Update Saravana Kannan's email address
-         235a1eb8d2dcc49a6cf0a5ee1aa85544a5d0054b of: unittest: Fix memory leak in unittest_data_add()
-         aacb0a6d604ac9953b261963efe25ae7521b7c58 Merge tag 'pmdomain-v6.19-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/ulfh/linux-pm
-         54e82e93ca93e49cb4c33988adec5c8cb9d0df31 Merge tag 'core_urgent_for_v6.19_rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-         9ace4753a5202b02191d54e9fdf7f9e3d02b85eb Linux 6.19-rc4
-         3609fa95fb0f2c1b099e69e56634edb8fc03f87c Merge tag 'devicetree-fixes-for-6.19-2' of git://git.kernel.org/pub/scm/linux/kernel/git/robh/linux
-         
+  - ref: refs/tags/v6.19-rc4
+    old: 0000000000000000000000000000000000000000
+    new: f10c325a345fef0a688a2bcdfab1540d1c924148
 
---===============3700493349508706234==
+--===============4998853170333335328==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1767603950 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1767603954 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
-nonce 1767603948-c5eada557d401421902568837b6b5c64e12f843e
+nonce 1767603953-c9163cdb714f7e5e8567c29b58757fa638137bc5
 
-805f9a061372164d43ddef771d7cd63e3ba6d845 3609fa95fb0f2c1b099e69e56634edb8fc03f87c refs/heads/master
+0000000000000000000000000000000000000000 f10c325a345fef0a688a2bcdfab1540d1c924148 refs/tags/v6.19-rc4
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmlbfu4bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+OaoQAJyhMDt40k41PDsVi3sC
-tZaTLA0sOzsF1QoN/ntR+W1dEBEbJJc/zyZAE+4b+WVa271cOoAIgs0OVRClFVju
-DZHx5Wq4xg+gRyzYlSg2/WPM/ITOKUd8MXfzCYWPomBTK3MD/6CZIoH8OgQI73cC
-AQ6umCqR7enuhbqKz1SupmCax8KElO8MlMyH3LL9hT7K6Ci7HLBHAaAu1ls7NDRb
-4xb0rq+3N2ApWtEgANl2uyihTgjXX2tIk9VkWotHZDmHv3bbMh8P5fOv2fsTBHl9
-mySd6jQ8GXZTvsp2VdmNyvC8U5Wiy748F27G1Lz3mO+daDJw+jctiFawsrjTZxzS
-lrOYgIzwrkJxw5QOmAgglmcsM+2eQxldazRoJcJbg+FiarMI98lxUcy61iYMvInX
-xQEgEDvVBOewEF6agQLor38G96LvBSfnr9oiNUZY+cZGKHop6f1LTdjP9nuRji0Q
-nLX+RjqWQpMNwe6Frrn1WwYspz/JRlcBFtrq2sj2Z+Htlin1PQzU5zBjirEjRTS6
-t8rDJACvz64DZTfZcNWF2OvItxdfb1bR3Aa/auJWgTsbgeqHUg8bjmOchVwNGOJH
-7goDuXbOjozkL7f7vnjG6dGvbJ0kAKERKUSwYg7Hd9aLi5+ch+YY53An7eLypKU7
-oS+gnHdsCdrak+8ciqhncatl
-=B0Uj
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmlbfvIbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+WmIQAKimm2zVBL+KYZZz8+RA
+cDc7mHAb7p3V6SVB2cPg+rLLbuVRHIKs+AIXr1AxIENLMksGQPCuPyPPhSIRCFzW
+ZFnNzisvh9KomEKlBWT2g+8N7NZim552nhrhJ27MI+4Q1Lv/54Kgq5/b5mF+ZMji
+3OuMuKw8qFlQXi2gTzQyDaDcuA+Tfyq7mJZRAG31Bw+qm6LdOELlT7kYFcLPYtTt
+Ue7tIYVmwm90Kd0cWiP7BmaE4XZW4f3vmeDn716qzYajlcGZxn2Q8CGHPttHURCA
+xI8yJ49v5PYqVnIzHwBjKFw6V8sYe54cuArYuDm1d+8R5eyxwoMRSVlhHm5U1zVe
+w3/LkPCwDuG3+GZuA5BS3yRDy3lUs0eul8KUYgxRPHBq/BsrhJurjUFq55woKnjw
+OsaX/ij/92tWsqOUxhbiipJ+bs1dvE51n9f6ADWwa0uaNHVttf+K/jrN+s4dkelD
+HkwY02nCgKsozXiy5Vs+7y2L3wqRzTOzuOAHKjlPhiLDtczSk8Si9IEqML4PRcEa
+EMYlCT1A1crlKc94I67/vWrJ1CRDdSW71ArTxAO/J1Bd7+T9RNU/lcefGccop7pj
+kovzoCMzqAzbrQKBRx34oC25pB+hoCvmX6VpogYP6AZmW5AaiVGmSouIot2ByM/Q
+MCdZ6l0Z147x1vUgCpwb0S/p
+=Wow7
 -----END PGP SIGNATURE-----
 
---===============3700493349508706234==--
+--===============4998853170333335328==--
