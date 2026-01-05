@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============9197063612436565837=="
+Content-Type: multipart/mixed; boundary="===============3280075452549826440=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/firmware
-Date: Mon, 05 Jan 2026 16:42:34 -0000
-Message-Id: <176763135465.2378470.10656299137309709733@gitolite.kernel.org>
+Date: Mon, 05 Jan 2026 16:42:40 -0000
+Message-Id: <176763136003.2378717.5307003821826565851@gitolite.kernel.org>
 
---===============9197063612436565837==
+--===============3280075452549826440==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/firmware
 user: tnguy
 changes:
-  - ref: refs/heads/main
-    old: 38c82f07a964e27c3e71224c1f038a4083ff58b0
-    new: 154800e885413bdf90b80b94e2e12f441be79fde
-    log: revlist-38c82f07a964-154800e88541.txt
+  - ref: refs/heads/dev-queue
+    old: 14e665440f61b88a077f650ef765855b092dce1e
+    new: 858d5abf370ccff0983bb971446468dcdc560aee
+    log: revlist-14e665440f61-858d5abf370c.txt
 
---===============9197063612436565837==
+--===============3280075452549826440==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-38c82f07a964-154800e88541.txt
+Content-Disposition: attachment; filename=revlist-14e665440f61-858d5abf370c.txt
 
 b38214c8f31cb7f4ec084ebbefd047c8ec2db5f6 ath11k: QCA2066 hw2.1: update board-2.bin
 15f8543684412387ebfc97a4b99ecd18afdc5e0c ath11k: QCA6698AQ hw2.1: update to WLAN.HSP.1.1-04866-QCAHSPSWPL_V1_V2_SILICONZ_IOE-1
@@ -94,5 +94,6 @@ a6a6ff914b4b2814ffd074f1d0a9e43949ac44ad Merge branch 'intel-vpu-v1.28.0' into '
 ae21ff2b63917452c99c97078caef640749dfe92 Merge branch 'intel/dmc/xe3lpd/2.33' into 'main'
 2a6b361888e85affbd12bc5d5a9caa4db5de8f41 i915: Xe3LPD_3002 DMC v2.28
 154800e885413bdf90b80b94e2e12f441be79fde Merge branch 'intel/dmc/xe3lpd_3002/2.28' into 'main'
+858d5abf370ccff0983bb971446468dcdc560aee ice: update DDP LAG package to 1.3.2.0
 
---===============9197063612436565837==--
+--===============3280075452549826440==--
