@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============5759915958325027231=="
+Content-Type: multipart/mixed; boundary="===============0864820708542260102=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jgg/iommufd
-Date: Mon, 05 Jan 2026 14:47:38 -0000
-Message-Id: <176762445849.2281164.3338218439335005623@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/fwctl/fwctl
+Date: Mon, 05 Jan 2026 14:47:50 -0000
+Message-Id: <176762447066.2281382.1619757105666665740@gitolite.kernel.org>
 
---===============5759915958325027231==
+--===============0864820708542260102==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jgg/iommufd
+repo: pub/scm/linux/kernel/git/fwctl/fwctl
 user: jgg
 changes:
   - ref: refs/heads/linus
@@ -23,7 +23,7 @@ changes:
     old: 0000000000000000000000000000000000000000
     new: f10c325a345fef0a688a2bcdfab1540d1c924148
 
---===============5759915958325027231==
+--===============0864820708542260102==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -140,4 +140,4 @@ aacb0a6d604ac9953b261963efe25ae7521b7c58 Merge tag 'pmdomain-v6.19-rc3' of git:/
 9ace4753a5202b02191d54e9fdf7f9e3d02b85eb Linux 6.19-rc4
 3609fa95fb0f2c1b099e69e56634edb8fc03f87c Merge tag 'devicetree-fixes-for-6.19-2' of git://git.kernel.org/pub/scm/linux/kernel/git/robh/linux
 
---===============5759915958325027231==--
+--===============0864820708542260102==--
