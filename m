@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2199274774516711230=="
+Content-Type: multipart/mixed; boundary="===============4062337358835322509=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/security/vulns
-Date: Mon, 05 Jan 2026 11:41:28 -0000
-Message-Id: <176761328859.2120233.3292825042727042849@gitolite.kernel.org>
+Date: Mon, 05 Jan 2026 11:41:42 -0000
+Message-Id: <176761330292.2120570.7465358581409830431@gitolite.kernel.org>
 
---===============2199274774516711230==
+--===============4062337358835322509==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/security/vulns
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/master
-    old: 5c881f5995c81536756e601ce3d80d91fd731b07
+  - ref: refs/heads/sasha-vulnerable
+    old: e33111ab6064e4c0bc2997c56703604f18006f27
     new: 272cd7b402c6c962499c17ab783a66e3e0c800d6
-    log: revlist-5c881f5995c8-272cd7b402c6.txt
+    log: revlist-e33111ab6064-272cd7b402c6.txt
 
---===============2199274774516711230==
+--===============4062337358835322509==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1767613286 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1767613302 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
-nonce 1767613286-dc933870bd436371a4ade264c21c654bd08109a4
+nonce 1767613302-857e6cc1bf14857084afe97fa21c235006c299b6
 
-5c881f5995c81536756e601ce3d80d91fd731b07 272cd7b402c6c962499c17ab783a66e3e0c800d6 refs/heads/master
+e33111ab6064e4c0bc2997c56703604f18006f27 272cd7b402c6c962499c17ab783a66e3e0c800d6 refs/heads/sasha-vulnerable
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmlbo2YbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+HsQP/3fs/E9XtR/3QH2Kj6Lu
-2C/dupmnRcZO6Lew/3gTS/BBm3DfjxClizYCvMHl+kP17+W6moN5SQPv7N9Mmg4W
-0EcD68aiK3b2LJROeQOF2A5HugapV718HApY7Xk8rabuh8oO2yZkQ42ROuBC/bVl
-fv7VbpYPdLJANmBpJTYA71Y8IDIq1++zYqACRcW6vTKg+6Rvx0PlH8nZwapmfPcW
-IbTKSGZy4Jmp4qe90oIp2ggKLqGlNEQkkVH+dD8CkaakWjaHTxwXRTxTno4ZpBOy
-2rL7ugfXiiLy8bSYZY1RVsCDPUTPO3qcgvqWCfLAUtgCwNe3z1tNMcUSdwnMzdiW
-z60gZ4RCCneQoUft1R6prmBRzlsCOtNJWXmqY+eGq+6WRxEU3to7hpKW9zuSB1jl
-7ggKJ/g+52K0ajb9cjVa5rK62jVYWlWbRHAlnT5mukyjQUTRcdD/KHq79kXfG2cB
-s6DlnB3yUDmA0Tn1Tmxm+Ac03cKDjHutnWaErp0afy5M2GSLFSbJL4kGWDOaOI8a
-lPoc6K7VbgxBswcOA4CeqJCeew6rtZZ0Si7/Q6oD0qJXV4MfnnMbpU4FYqp4NCjf
-8FlAHVVsu/BozKI2TCuaoEo/Z0UnJg7opArSyUDF5uBFMdssfB8wjApmhOSqs9W0
-XaxKOOkZGs/TnNAZ8EMzTJNL
-=OfZF
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmlbo3YbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+YEEQAKTcL/4v/6gCYZWHyCCl
+xt05n80KpReodNzrG8TKL5J+dwRMr73Co1wJR8vNMsWhWW2sBscTPOqoQzDaRjZG
+QNqqNqo/WQ4Nz3f8MtzYtdQb3akBP5plWFAtdZiU+JsSczwFbBspVWcOhH30JjGt
+h30SmKze2yQzxfflIrmdogxFbH88Pxwy7DTNVqjY6h3Io3w+IgRd2FPAWhBsvdG0
+zlmfIaNjQexNxBAzSu4xWQH1WyDBa6Dh2kWHy3nwnI831f2Mt/YNbZAfMN51tFT9
+5LT5c1K2+ZXHbRMa0mUkUFznukK86hYrnCGiGqDnFXoQT+Jvd0Onm/3f4nVu63uP
+vcDZ4OCqIW1vPq9XOd/sUu0nlphB4BQ8ZJ04ilpv1PBClRgrjQxsKM1lesPcFgb7
+y10jLU6xIQsHg2he0I3UjhYeeQfuNRE3Sn2dTftLvY5HFmyDyciT8ZL61xmUebjV
+l12ek24kqxprbB0rXrZ1v8lU808AKte4nZs0rs2lHi+ASu1uqWjm3IvMZAnThBa4
+9lyrX4JHsPRzu9gIgoCc5XkvY0cbOjD0bbRcaEa3BM3iQ9w30iPgOYd1YlyWQAid
+1SNAW1IgXmYl4Nw0s663c+vb9vkcyJ1DblDTajLqSDC4Tlo+ld446LKtbfUcXUAt
+pvck02Dlu908faobXEL9vsAt
+=x3bm
 -----END PGP SIGNATURE-----
 
---===============2199274774516711230==
+--===============4062337358835322509==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5c881f5995c8-272cd7b402c6.txt
+Content-Disposition: attachment; filename=revlist-e33111ab6064-272cd7b402c6.txt
 
 6b032538a67e02556d3863b7268493afd9ca30ce CVE-2023-54198: Add .vulnerable file
 fd97ff43f63832be36620cd80a875b5a541697d1 CVE-2023-54213: Add .vulnerable file
@@ -97,4 +97,4 @@ ba34544d8d72942c7572246f3e20a1ddfb9e897a CVE-2024-42096: Add .vulnerable file
 45c9a22b802530dbbf9eeeadb70e157160a71a1d update records based on new .vulnerable files
 272cd7b402c6c962499c17ab783a66e3e0c800d6 update cvelistV5
 
---===============2199274774516711230==--
+--===============4062337358835322509==--
