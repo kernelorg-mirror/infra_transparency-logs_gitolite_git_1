@@ -1,21 +1,44 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
-Date: Tue, 06 Jan 2026 12:52:48 -0000
-Message-Id: <176770396866.3424634.707677492175443367@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============5666805484092272863=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/linkinjeon/ntfs
+Date: Tue, 06 Jan 2026 12:53:52 -0000
+Message-Id: <176770403268.3425201.5105852583618004891@gitolite.kernel.org>
+
+--===============5666805484092272863==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pci/pci
-user: mani
+repo: pub/scm/linux/kernel/git/linkinjeon/ntfs
+user: linkinjeon
 changes:
-  - ref: refs/heads/controller/dwc-imx6
-    old: d8574ce57d760a958623c8f6bc3c55b5187a7bd7
-    new: 946604c144ed29148def2b492f615aa8539dfe03
-    log: |
-         069d71ee7bdd91a7982488df9b4082df2e8bcef6 PCI: dwc: Invoke post_init in dw_pcie_resume_noirq()
-         d4e6f546874551a2223adfb8e646ac7c82767b31 PCI: imx6: Add CLKREQ# override to enable REFCLK for i.MX95 PCIe
-         946604c144ed29148def2b492f615aa8539dfe03 PCI: imx6: Clear CLKREQ# override if 'supports-clkreq' DT property is available
-         
+  - ref: refs/heads/ntfs-next
+    old: 8d80646ca301cf38045a4b3e64f5cd2e9f81ba85
+    new: c9fb91b2b8b4c46188b1a280187d41e9ebb93cb2
+    log: revlist-8d80646ca301-c9fb91b2b8b4.txt
+
+--===============5666805484092272863==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-8d80646ca301-c9fb91b2b8b4.txt
+
+7bfba19057c055ab7f6b8c334ef4abf5bd610a32 Revert "fs: Remove NTFS classic"
+1ab7846bd636125bddd5558da38c5e4691043ee8 ntfs: update in-memory, on-disk structures and headers
+129ff131950b6d93d9b564394d1f2528c2cb1042 ntfs: update super block operations
+63adbe420afd6be91e00492f597eb4ff7d7259d5 ntfs: update inode operations
+5b505e48f535ee8b36a8bd5a1b139d8594bc8995 ntfs: update directory operations
+932ab8f8ffc9a64336f1df14e52184d8836356d7 ntfs: update file operations
+973e2b928a85034fa95d3be0fdd58467f4feb333 ntfs: update iomap and address space operations
+a9814672576d36baa1bda3bf55ab4f5475053757 ntfs: update attrib operations
+2584b4795916b9223a51dc3af955980e72efce30 ntfs: update runlist handling and cluster allocator
+49ec104d8d8a21dd32d591ec5c1477cd727c755b ntfs: add reparse and ea operations
+5315930ccfe8949f17a9d595fefd6528667cc818 ntfs: update misc operations
+18ed06063c4110cd67f96ca9717383fc852d9d42 ntfs3: remove legacy ntfs driver support
+4816227dce428c85178afc885b301780d1da7bda ntfs: add Kconfig and Makefile
+c9fb91b2b8b4c46188b1a280187d41e9ebb93cb2 MAINTAINERS: update ntfs filesystem entry
+
+--===============5666805484092272863==--
