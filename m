@@ -1,23 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
-Date: Tue, 06 Jan 2026 21:07:18 -0000
-Message-Id: <176773363824.3891764.11590884519228825412@gitolite.kernel.org>
+Subject: post-receive: pub/scm/docs/man-pages/man-pages
+Date: Tue, 06 Jan 2026 21:16:58 -0000
+Message-Id: <176773421847.3899551.5651238218462837080@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/25-new
-user: akpm
+repo: pub/scm/docs/man-pages/man-pages
+user: alx
 changes:
   - ref: refs/heads/master
-    old: 3c876eea3cc48d37ef071d5ba8ac81a62d5b6dc7
-    new: 928e5e39aaa67ca129c972fd34203f43190e8726
+    old: a17ed1cefd7fee2ff40f6a3875a110a9c90c1dd3
+    new: 8df2abb81a90c063af85479cdd0ad0ad9e13e50c
     log: |
-         6f3b7fa2b0a15b0d212e21aaf59dd1e3242939f7 foo
-         0e84e84153c074a1c0cadc58ad77bd803e1321c6 foo
-         83befc20b15a17b07818dae908a8be3bcaeb0ae0 foo
-         c496ad8f53063dffae1ca2b8d27c0c5f98deb104 foo
-         928e5e39aaa67ca129c972fd34203f43190e8726 foo
+         8df2abb81a90c063af85479cdd0ad0ad9e13e50c man/man3/stpncpy.3: wfix
          
