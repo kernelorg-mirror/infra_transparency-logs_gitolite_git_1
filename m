@@ -1,36 +1,24 @@
-Content-Type: multipart/mixed; boundary="===============5196772751005555572=="
+Content-Type: multipart/mixed; boundary="===============3110089792898433590=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next
-Date: Tue, 06 Jan 2026 01:53:35 -0000
-Message-Id: <176766441534.2852530.7441149705495434664@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next-history
+Date: Tue, 06 Jan 2026 01:54:03 -0000
+Message-Id: <176766444396.2852822.11253267260221748984@gitolite.kernel.org>
 
---===============5196772751005555572==
+--===============3110089792898433590==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/next/linux-next
+repo: pub/scm/linux/kernel/git/next/linux-next-history
 user: sfr
 changes:
   - ref: refs/heads/master
     old: f8f97927abf7c12382dddc93a144fc9df7919b77
     new: 6cd6c12031130a349a098dbeb19d8c3070d2dfbe
     log: revlist-f8f97927abf7-6cd6c1203113.txt
-  - ref: refs/heads/stable
-    old: 54e82e93ca93e49cb4c33988adec5c8cb9d0df31
-    new: 3609fa95fb0f2c1b099e69e56634edb8fc03f87c
-    log: |
-         4f4f6b4467e63317ec3fd0a5b7405757ad55c169 MAINTAINERS: Update Saravana Kannan's email address
-         235a1eb8d2dcc49a6cf0a5ee1aa85544a5d0054b of: unittest: Fix memory leak in unittest_data_add()
-         9ace4753a5202b02191d54e9fdf7f9e3d02b85eb Linux 6.19-rc4
-         3609fa95fb0f2c1b099e69e56634edb8fc03f87c Merge tag 'devicetree-fixes-for-6.19-2' of git://git.kernel.org/pub/scm/linux/kernel/git/robh/linux
-         
-  - ref: refs/tags/next-20251006
-    old: 77ee39155b848ed219d136e1981729b4bc78c9d7
-    new: 0000000000000000000000000000000000000000
   - ref: refs/tags/next-20260106
     old: 0000000000000000000000000000000000000000
     new: c5349c136c0d43bb1da56714a0badd1c3102e7cf
@@ -38,7 +26,7 @@ changes:
     old: 0000000000000000000000000000000000000000
     new: f10c325a345fef0a688a2bcdfab1540d1c924148
 
---===============5196772751005555572==
+--===============3110089792898433590==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -675,4 +663,4 @@ c0edb5156c2a6825a5ef338a913e9e0df09faf96 Merge branch 'sysctl-next' of https://g
 01c36f4cb3f8bffd87e370c7eaa862f3c86815c1 Merge branch 'for-next' of https://git.kernel.org/pub/scm/linux/kernel/git/frederic/linux-dynticks.git
 6cd6c12031130a349a098dbeb19d8c3070d2dfbe Add linux-next specific files for 20260106
 
---===============5196772751005555572==--
+--===============3110089792898433590==--
