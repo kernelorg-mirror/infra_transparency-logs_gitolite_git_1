@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Tue, 06 Jan 2026 14:16:34 -0000
-Message-Id: <176770899410.3510023.1516069751671685988@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/arm64/linux
+Date: Tue, 06 Jan 2026 14:17:22 -0000
+Message-Id: <176770904260.3510569.6413721717487534831@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/arm64/linux
+user: cmarinas
 changes:
-  - ref: refs/heads/kvm-arm64-set-id-regs-aarch64
-    old: 1ac1898e48b491e0c3e0dc81fa7c11fa185df458
-    new: e4cb8f937c40a1dc3bd331a1523fc43755f020d1
+  - ref: refs/heads/for-next/fixes
+    old: f4ea8e05f2a857d5447c25f7daf00807d38b307d
+    new: dd4d71f587f3908f058b516d3793aaed66cfb692
     log: |
-         e4cb8f937c40a1dc3bd331a1523fc43755f020d1 KVM: selftests: arm64: Use is_aarch32_id_reg() in test_vm_ftr_id_regs()
+         dd4d71f587f3908f058b516d3793aaed66cfb692 arm64/efi: Don't fail check current_in_efi() if preemptible
          
