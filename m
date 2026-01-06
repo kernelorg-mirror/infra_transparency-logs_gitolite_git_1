@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/damon-hack
-Date: Tue, 06 Jan 2026 06:28:06 -0000
-Message-Id: <176768088683.3065824.7445102097724193998@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/superm1/amd-debug-tools
+Date: Tue, 06 Jan 2026 06:28:41 -0000
+Message-Id: <176768092185.3066148.9931893727468664165@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/damon-hack
-user: sj
+repo: pub/scm/linux/kernel/git/superm1/amd-debug-tools
+user: superm1
 changes:
   - ref: refs/heads/master
-    old: 3c8b574e179afd19ad6d4775c347fe3df2000907
-    new: d9bfa6cac63c5a8601f8b0f32f1af72705259d72
+    old: 36a5ff7f820fc4ea83d3e444207729ec25efb4a4
+    new: a1f6078098da960879a7c983942c7f2c3776c37a
     log: |
-         d9bfa6cac63c5a8601f8b0f32f1af72705259d72 patches/next: rebase to latest mm-new
+         a1f6078098da960879a7c983942c7f2c3776c37a trivial: ci: run apt update before installing software
          
