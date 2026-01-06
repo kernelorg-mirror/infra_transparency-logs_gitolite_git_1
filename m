@@ -1,50 +1,50 @@
-Content-Type: multipart/mixed; boundary="===============2994525134011382227=="
+Content-Type: multipart/mixed; boundary="===============8761538560667310178=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Tue, 06 Jan 2026 18:01:06 -0000
-Message-Id: <176772246603.3720607.15785859616672227279@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Tue, 06 Jan 2026 18:01:09 -0000
+Message-Id: <176772246922.3720717.6365543075312779081@gitolite.kernel.org>
 
---===============2994525134011382227==
+--===============8761538560667310178==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.19
+  - ref: refs/heads/asoc-6.19
     old: 22a507d7680f2c3499c133f6384349f62f916176
     new: fd9a14d233fbf33488cfa0cb7f59051b3233b017
     log: |
          fd9a14d233fbf33488cfa0cb7f59051b3233b017 ASoC: dt-bindings: everest,es8316: Add interrupt support
          
 
---===============2994525134011382227==
+--===============8761538560667310178==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1767722464 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1767722464-6808c70609d6b1fa101ecb99c810939a536d4651
+pusher C3F436CA30F5D8EB 1767722467 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1767722467-b932225fe6abfaada5daae46ae5d7fc651583b63
 
-22a507d7680f2c3499c133f6384349f62f916176 fd9a14d233fbf33488cfa0cb7f59051b3233b017 refs/heads/for-6.19
+22a507d7680f2c3499c133f6384349f62f916176 fd9a14d233fbf33488cfa0cb7f59051b3233b017 refs/heads/asoc-6.19
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmldTeAACgkQJNaLcl1U
-h9DaAwf+J4jRaVzleiytymaiu3c/Rog6wzL3rQnVQNOdH4Q3N8q5HF63rycBahv3
-hz4LOs2apQLpzHn8keGVhYOFqFPUJpTy4rFsvQqhiLVm2ynu55xw7xffIyTR3ig0
-q2y6VuGKNhqeJeKhvT00IbOdHjS9FITAM95k5OPOqI3cgMUMFfKv16PKRsYm6W7Z
-r/4TN5Fd26RVPzu+m1TP22KioAIHziFdef9B5zt8IAa2j93P1kFviAt01S3I0yDE
-pzTU+f55F93mJIOjhEM8dFAOXkOwKxzkNAWGj+g6Qu4bDbIz+YLDz7WD0+laVq4r
-EijpamJSP2gqIeYmX3ivL+wpd2Zglg==
-=+6jT
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmldTeMACgkQJNaLcl1U
+h9DYowf+MuY8dvy3mM+cXdmuqyk3Pt29uQjWAeeZZDPKpcpdl3w2yg6YN9yTsy0R
+UGd0iJrnJ66eTXefTpXBLO2uSK1OtHxn+w7+l38bXVvCPvCtgbbbkFIiuj3aAqsb
+bmjJOmdDghwqrTcqtDc50tCq0R7p4KvuyDAwhpLhUCx0DD3LWluOmAUB2Og7GTuM
+QGZQUw6WjXQaK1FR7DuDUdwQWrkNmtLqgCDtPH15xBViC+mtuzaAwaLKi8IgEUl8
+BtSyeT0ZvYrAt3Y13gWvi9oeZPNXYdozsW2dJZ/29NeZiPzfrm8eSINAE+GFnx9W
+nf53zbtqBuJKbFtDR0l28STbv6YeVg==
+=OKD5
 -----END PGP SIGNATURE-----
 
---===============2994525134011382227==--
+--===============8761538560667310178==--
