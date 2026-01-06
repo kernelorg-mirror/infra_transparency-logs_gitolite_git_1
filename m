@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============6177757707367587091=="
+Content-Type: multipart/mixed; boundary="===============8469699779265807334=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
-Date: Tue, 06 Jan 2026 11:50:51 -0000
-Message-Id: <176770025199.3372084.690012084741356103@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
+Date: Tue, 06 Jan 2026 11:51:22 -0000
+Message-Id: <176770028242.3372485.12123336210405821746@gitolite.kernel.org>
 
---===============6177757707367587091==
+--===============8469699779265807334==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/perf/perf-tools-next
+repo: pub/scm/linux/kernel/git/acme/linux
 user: acme
 changes:
   - ref: refs/heads/tmp.perf-tools-next
@@ -20,7 +20,7 @@ changes:
     new: 623ba6ea45979fb1d06c5c8f03417ecc3565a851
     log: revlist-cbd41c6d4c26-623ba6ea4597.txt
 
---===============6177757707367587091==
+--===============8469699779265807334==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -773,4 +773,4 @@ aacb0a6d604ac9953b261963efe25ae7521b7c58 Merge tag 'pmdomain-v6.19-rc3' of git:/
 ba23adb6533149df33b9a247f31a87227b3c86d5 Merge remote-tracking branch 'torvalds/master' into perf-tools-next
 623ba6ea45979fb1d06c5c8f03417ecc3565a851 perf symbol: Remove Rust symbol workarounds
 
---===============6177757707367587091==--
+--===============8469699779265807334==--
