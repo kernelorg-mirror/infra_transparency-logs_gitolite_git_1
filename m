@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
-Date: Tue, 06 Jan 2026 12:59:13 -0000
-Message-Id: <176770435383.3429666.2001308843633314705@gitolite.kernel.org>
+Subject: post-receive: pub/scm/fs/xfs/xfstests-dev
+Date: Tue, 06 Jan 2026 13:22:50 -0000
+Message-Id: <176770577062.3448766.18230746897473130297@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pci/pci
-user: mani
+repo: pub/scm/fs/xfs/xfstests-dev
+user: zlang
 changes:
-  - ref: refs/heads/controller/dwc-imx6
-    old: 946604c144ed29148def2b492f615aa8539dfe03
-    new: d5fb0afbf635d7539c34447ea3e8c0473710c92d
+  - ref: refs/heads/patches-in-queue
+    old: 63a29724a85f1999e49bf0a9bf0d22643b6116e5
+    new: 8dad086a47019bf46a5b559efb382525324b9254
     log: |
-         199c182216224e2f1acce576dbe8d39cbf099699 PCI: dwc: Invoke post_init in dw_pcie_resume_noirq()
-         f51772f4fa340a8ed4a82942b8cc6edd67846b57 PCI: imx6: Add CLKREQ# override to enable REFCLK for i.MX95 PCIe
-         d5fb0afbf635d7539c34447ea3e8c0473710c92d PCI: imx6: Clear CLKREQ# override if 'supports-clkreq' DT property is available
+         8dad086a47019bf46a5b559efb382525324b9254 btrfs: test power failure after fsync and rename exchanging directories
          
