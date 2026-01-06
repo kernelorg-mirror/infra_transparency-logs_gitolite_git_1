@@ -1,27 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/robh/linux
-Date: Tue, 06 Jan 2026 20:48:25 -0000
-Message-Id: <176773250552.3875809.4797210174312551445@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/driver-core/driver-core
+Date: Tue, 06 Jan 2026 20:49:44 -0000
+Message-Id: <176773258458.3876329.3826658091100422574@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/robh/linux
-user: robh
+repo: pub/scm/linux/kernel/git/driver-core/driver-core
+user: dakr
 changes:
-  - ref: refs/heads/dt/next
-    old: 6a0f0febe6c5a768a121e7008260098a8657c188
-    new: 8096d6049725843f77a2d4cd99b60d690885fc5e
+  - ref: refs/heads/driver-core-testing
+    old: 7bf97992afa4e815f4ed84638340e2a93de65504
+    new: 31bc0aade4e03a056a6b568571e59d3783c97ffc
     log: |
-         3714b55bdb49bb64d1f8ea05ea4a9b9425f8a831 of: property: stop creating callback for each pinctrl-N property
-         8096d6049725843f77a2d4cd99b60d690885fc5e dt-bindings: trivial-devices: Add some more undocumented devices
-         
-  - ref: refs/heads/for-next
-    old: 6a0f0febe6c5a768a121e7008260098a8657c188
-    new: 8096d6049725843f77a2d4cd99b60d690885fc5e
-    log: |
-         3714b55bdb49bb64d1f8ea05ea4a9b9425f8a831 of: property: stop creating callback for each pinctrl-N property
-         8096d6049725843f77a2d4cd99b60d690885fc5e dt-bindings: trivial-devices: Add some more undocumented devices
+         31bc0aade4e03a056a6b568571e59d3783c97ffc rust: io: remove square brackets from pci::Bar reference
          
