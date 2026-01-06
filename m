@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/riscv/linux
-Date: Tue, 06 Jan 2026 00:51:44 -0000
-Message-Id: <176766070461.2795398.17193542640212932084@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
+Date: Tue, 06 Jan 2026 00:57:12 -0000
+Message-Id: <176766103275.2799745.12467903571605180880@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/riscv/linux
-user: pjw
+repo: pub/scm/linux/kernel/git/snitzer/linux
+user: snitzer
 changes:
-  - ref: refs/heads/fixes
-    old: 8632180daf735074a746ce2b3808a8f2c079310e
-    new: 5e5be092ffadcab0093464ccd9e30f0c5cce16b9
+  - ref: refs/heads/kernel-6.18.2/main
+    old: 03238f177d2737b4ee568ba00c6258a676593395
+    new: 821cedd6f6fa8f78f91bfad946ae29736abf4c76
     log: |
-         5e5be092ffadcab0093464ccd9e30f0c5cce16b9 riscv: pgtable: Cleanup useless VA_USER_XXX definitions
+         821cedd6f6fa8f78f91bfad946ae29736abf4c76 kernel-6.12.18-2
          
