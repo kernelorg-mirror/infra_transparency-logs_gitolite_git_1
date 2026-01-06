@@ -1,28 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
-Date: Tue, 06 Jan 2026 12:37:31 -0000
-Message-Id: <176770305124.3412761.9410555626780020709@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux
+Date: Tue, 06 Jan 2026 12:48:15 -0000
+Message-Id: <176770369576.3420887.12041881119131317145@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rafael/linux-pm
-user: rafael
+repo: pub/scm/linux/kernel/git/axboe/linux
+user: axboe
 changes:
-  - ref: refs/heads/bleeding-edge
-    old: 8aa9e2868a8e38ccc5228399fc641d54aea444ed
-    new: e008713f0adaf69fba937cbde31ce368a626c3ac
+  - ref: refs/heads/for-next
+    old: 29cefd61e0c63f950e9a38a5d62a1c76deb293c1
+    new: 5ee81d4ae52ec4e9206efb4c1b06e269407aba11
     log: |
-         da857118098496e5fff1ce2516bf7d32151c4a48 clk: tegra: Adjust callbacks in tegra_clock_pm
-         b92a58f2cafc8937b0158cc7566f4bd7dbbeb4ad PM: runtime: Change pm_runtime_put() return type to void
-         e008713f0adaf69fba937cbde31ce368a626c3ac Merge branch 'pm-runtime-cleanup' into bleeding-edge
+         073b9bf9af463d32555c5ebaf7e28c3a44c715d0 nvme-pci: Use size_t for length fields to handle larger sizes
+         fcf463b92a08686d1aeb1e66674a72eb7a8bfb9b types: move phys_vec definition to common header
+         5ee81d4ae52ec4e9206efb4c1b06e269407aba11 Merge branch 'for-7.0/blk-pvec' into for-next
          
-  - ref: refs/heads/pm-runtime-cleanup
-    old: 8a2715b3a53894655f7d71279e6fe3ee2e6ec3c0
-    new: b92a58f2cafc8937b0158cc7566f4bd7dbbeb4ad
-    log: |
-         da857118098496e5fff1ce2516bf7d32151c4a48 clk: tegra: Adjust callbacks in tegra_clock_pm
-         b92a58f2cafc8937b0158cc7566f4bd7dbbeb4ad PM: runtime: Change pm_runtime_put() return type to void
-         
+  - ref: refs/heads/for-7.0/blk-pvec
+    old: 0000000000000000000000000000000000000000
+    new: fcf463b92a08686d1aeb1e66674a72eb7a8bfb9b
