@@ -1,20 +1,28 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
-Date: Tue, 06 Jan 2026 12:37:02 -0000
-Message-Id: <176770302295.3412401.9882736936217529295@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
+Date: Tue, 06 Jan 2026 12:37:31 -0000
+Message-Id: <176770305124.3412761.9410555626780020709@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/brgl/linux
-user: brgl
+repo: pub/scm/linux/kernel/git/rafael/linux-pm
+user: rafael
 changes:
-  - ref: refs/heads/gpio/for-next
-    old: 98d78c06f54da101c1f2eb79af378cee9e07e102
-    new: da64eb51595bc6073b2fb69c2a3859bba93ed75a
+  - ref: refs/heads/bleeding-edge
+    old: 8aa9e2868a8e38ccc5228399fc641d54aea444ed
+    new: e008713f0adaf69fba937cbde31ce368a626c3ac
     log: |
-         48033e4c677be4e3f131df454d44a5d1fb1b334f dt-bindings: gpio: spacemit: add compatible name for K3 SoC
-         da64eb51595bc6073b2fb69c2a3859bba93ed75a gpio: spacemit: Add GPIO support for K3 SoC
+         da857118098496e5fff1ce2516bf7d32151c4a48 clk: tegra: Adjust callbacks in tegra_clock_pm
+         b92a58f2cafc8937b0158cc7566f4bd7dbbeb4ad PM: runtime: Change pm_runtime_put() return type to void
+         e008713f0adaf69fba937cbde31ce368a626c3ac Merge branch 'pm-runtime-cleanup' into bleeding-edge
+         
+  - ref: refs/heads/pm-runtime-cleanup
+    old: 8a2715b3a53894655f7d71279e6fe3ee2e6ec3c0
+    new: b92a58f2cafc8937b0158cc7566f4bd7dbbeb4ad
+    log: |
+         da857118098496e5fff1ce2516bf7d32151c4a48 clk: tegra: Adjust callbacks in tegra_clock_pm
+         b92a58f2cafc8937b0158cc7566f4bd7dbbeb4ad PM: runtime: Change pm_runtime_put() return type to void
          
