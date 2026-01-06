@@ -1,24 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux
-Date: Tue, 06 Jan 2026 12:48:15 -0000
-Message-Id: <176770369576.3420887.12041881119131317145@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
+Date: Tue, 06 Jan 2026 12:52:48 -0000
+Message-Id: <176770396866.3424634.707677492175443367@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux
-user: axboe
+repo: pub/scm/linux/kernel/git/pci/pci
+user: mani
 changes:
-  - ref: refs/heads/for-next
-    old: 29cefd61e0c63f950e9a38a5d62a1c76deb293c1
-    new: 5ee81d4ae52ec4e9206efb4c1b06e269407aba11
+  - ref: refs/heads/controller/dwc-imx6
+    old: d8574ce57d760a958623c8f6bc3c55b5187a7bd7
+    new: 946604c144ed29148def2b492f615aa8539dfe03
     log: |
-         073b9bf9af463d32555c5ebaf7e28c3a44c715d0 nvme-pci: Use size_t for length fields to handle larger sizes
-         fcf463b92a08686d1aeb1e66674a72eb7a8bfb9b types: move phys_vec definition to common header
-         5ee81d4ae52ec4e9206efb4c1b06e269407aba11 Merge branch 'for-7.0/blk-pvec' into for-next
+         069d71ee7bdd91a7982488df9b4082df2e8bcef6 PCI: dwc: Invoke post_init in dw_pcie_resume_noirq()
+         d4e6f546874551a2223adfb8e646ac7c82767b31 PCI: imx6: Add CLKREQ# override to enable REFCLK for i.MX95 PCIe
+         946604c144ed29148def2b492f615aa8539dfe03 PCI: imx6: Clear CLKREQ# override if 'supports-clkreq' DT property is available
          
-  - ref: refs/heads/for-7.0/blk-pvec
-    old: 0000000000000000000000000000000000000000
-    new: fcf463b92a08686d1aeb1e66674a72eb7a8bfb9b
