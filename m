@@ -1,20 +1,40 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux
-Date: Tue, 06 Jan 2026 00:10:30 -0000
-Message-Id: <176765823090.2760050.18422503494139123191@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============2649813909426323396=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
+Date: Tue, 06 Jan 2026 00:12:14 -0000
+Message-Id: <176765833448.2761116.13362992061438199269@gitolite.kernel.org>
+
+--===============2649813909426323396==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux
-user: axboe
+repo: pub/scm/linux/kernel/git/kdave/linux
+user: kdave
 changes:
-  - ref: refs/heads/for-next
-    old: 38b882a3531aba114d6b2c0b850b07c673244357
-    new: 013d419d9858a2e49a68e1da44897b3cd030389a
-    log: |
-         48ed70131e4f3057f819c848d92fe84ba696e2a9 io_uring: Trim out unused includes
-         013d419d9858a2e49a68e1da44897b3cd030389a Merge branch 'for-7.0/io_uring' into for-next
-         
+  - ref: refs/heads/master
+    old: 3609fa95fb0f2c1b099e69e56634edb8fc03f87c
+    new: 7f98ab9da046865d57c102fd3ca9669a29845f67
+    log: revlist-3609fa95fb0f-7f98ab9da046.txt
+
+--===============2649813909426323396==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-3609fa95fb0f-7f98ab9da046.txt
+
+7ee19a59a75e3d5b9ec00499b86af8e2a46fbe86 btrfs: fix qgroup_snapshot_quick_inherit() squota bug
+68d4b3fa18d72b7f649e83012e7e08f1881f6b75 btrfs: qgroup: update all parent qgroups when doing quick inherit
+f157dd661339fc6f5f2b574fe2429c43bd309534 btrfs: fix NULL dereference on root when tracing inode eviction
+5037b342825df7094a4906d1e2a9674baab50cb2 btrfs: fix deadlock in wait_current_trans() due to ignored transaction type
+e9e3b22ddfa760762b696ac6417c8d6edd182e49 btrfs: fix beyond-EOF write handling
+7ba0b6461bc4edb3005ea6e00cdae189bcf908a5 btrfs: always detect conflicting inodes when logging inode refs
+83f59076a1ae6f5c6845d6f7ed3a1a373d883684 btrfs: fix use-after-free warning in btrfs_get_or_create_delayed_node()
+f8da41de0bff9eb1d774a7253da0c9f637c4470a btrfs: do not free data reservation in fallback from inline due to -ENOSPC
+c1c050f92d8f6aac4e17f7f2230160794fceef0c btrfs: fix reservation leak in some error paths when inserting inline extent
+7f98ab9da046865d57c102fd3ca9669a29845f67 Merge tag 'for-6.19-rc4-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
+
+--===============2649813909426323396==--
