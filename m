@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1395492359040335118=="
+Content-Type: multipart/mixed; boundary="===============4521313335937120668=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Tue, 06 Jan 2026 03:29:38 -0000
-Message-Id: <176767017869.2926067.9840390685929167603@gitolite.kernel.org>
+Date: Tue, 06 Jan 2026 03:29:40 -0000
+Message-Id: <176767018011.2926249.88767267219617737@gitolite.kernel.org>
 
---===============1395492359040335118==
+--===============4521313335937120668==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/mm-new
-    old: f7cc227b55f0a0ac9b04a5e4613db6ba93785af5
-    new: c045138aee127ddeda5d9c7e5623545ac847f4ea
-    log: revlist-f7cc227b55f0-c045138aee12.txt
+  - ref: refs/heads/mm-unstable
+    old: 344d3580dacdd91ad51de5856f5198ce30b7d2ef
+    new: f5057cddcc787a5fc26b7578a809214d48b09164
+    log: revlist-344d3580dacd-f5057cddcc78.txt
 
---===============1395492359040335118==
+--===============4521313335937120668==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f7cc227b55f0-c045138aee12.txt
+Content-Disposition: attachment; filename=revlist-344d3580dacd-f5057cddcc78.txt
 
 f24ae12c4783f21e6eeafbb196070a3bf5c31e19 mm: describe @flags parameter in memalloc_flags_save()
 80f93dc5506156758917e93df36b5da00db6f5b4 textsearch: describe @list member in ts_ops search
@@ -214,39 +214,5 @@ d5fa4c2369d510d4ca122ad4b9ba88742bd2a0f5 mm: page_alloc: add alloc_contig_frozen
 b1023ea2168961a359d1b5881d8de00952ecd950 mm: hugetlb: allocate frozen pages for gigantic allocation
 60ec61b3157c0aacfe6fa004a23c9eace783bd2b mm/oom_kill: remove unnecessary integer promotion in format string
 f5057cddcc787a5fc26b7578a809214d48b09164 mm/mmu_gather: remove @delay_remap of __tlb_remove_page_size()
-be9cb9abe3e794bbda224ca513d769d297221e87 tsacct: skip all kernel threads
-607c75d55e3ce6305272f06613fa94bf83975b37 lib: introduce hierarchical per-cpu counters
-e21716b9c3b264830285602d45119c4e8c12f377 mm: fix OOM killer inaccuracy on large many-core systems
-d74f4892543b9b4d58eb9f93430be92425fb92df mm: implement precise OOM killer task selection
-3f81303c3af170cb149101e530503a5bae138ed0 alpha: introduce arch_zone_limits_init()
-d320c4110bc9dbe4b4d76af3985ee6f700c3a967 arc: introduce arch_zone_limits_init()
-156ed5b969a3d02e116761f40e056844e0dccbff arm: introduce arch_zone_limits_init()
-c0a0d22a57f9676707f2ce05ea29d7e43c9388ad arm64: introduce arch_zone_limits_init()
-cc70162d31086410792457576d6e60bcef29b187 csky: introduce arch_zone_limits_init()
-8439478170023195978bbfa7e27f325df9b566e0 hexagon: introduce arch_zone_limits_init()
-129c2764098644ed062a818e171580aa672dd629 loongarch: introduce arch_zone_limits_init()
-b4cfe4160bee610dc5bbbcda77cb05c6a4ad46db m68k: introduce arch_zone_limits_init()
-e97cae2a55d63dc3d720d0d66e52c4bc4ee15eb5 microblaze: introduce arch_zone_limits_init()
-a7e434115c8262856d1160fd67d9d292639e5e28 mips: introduce arch_zone_limits_init()
-cfb8c9f784d6d165f242444ee6198e1c11037937 nios2: introduce arch_zone_limits_init()
-7714cc0690bc7ed01e68380cce94c1874bb3d114 openrisc: introduce arch_zone_limits_init()
-6c6dd272b61cfa0c90e8a65737557d0bb54e0d4b parisc: introduce arch_zone_limits_init()
-e43b6ece74083cdb6df990b539ead2de83ca2f0e powerpc: introduce arch_zone_limits_init()
-320fc39061613c5e669abdac5bdea5816c6de7b2 riscv: introduce arch_zone_limits_init()
-6e391ef3c0b2db122a409077dae8c9186790da43 s390: introduce arch_zone_limits_init()
-3e3801a79d713741feb8a3cb92f0b356b419e30c sh: introduce arch_zone_limits_init()
-f606b7a1657f9ef879ca8dc5acee4219c2d8dfae sparc: introduce arch_zone_limits_init()
-74d881a87d58540681cd59260dc21c0aefd69199 um: introduce arch_zone_limits_init()
-979c98e016b3d87bba15e7f519c4bee9f60097a6 x86: introduce arch_zone_limits_init()
-f676612928e62b0116552745fbc8c9c43de20ca3 xtensa: introduce arch_zone_limits_init()
-436a9a014a67c80602fa8c058c633472fa7c3f74 arch, mm: consolidate initialization of nodes, zones and memory map
-bca8f137bf4a85e05092cbcc4aa16d984de2624e arch, mm: consolidate initialization of SPARSE memory model
-82deb48dc947289d9ce5249f0f770641605cd954 mips: drop paging_init()
-d81d299966a400bc43174c73ac53ac93b9c02051 x86: don't reserve hugetlb memory in setup_arch()
-52be2159346353d8bcf038fc9e643c24980f5eda mm, arch: consolidate hugetlb CMA reservation
-132911fd68bceabaff0222b350f1bce7e8196d37 mm/hugetlb: drop hugetlb_cma_check()
-203feb31efc39e321a8b2208febaa67a004fac9a Revert "mm/hugetlb: deal with multiple calls to hugetlb_bootmem_alloc"
-efbff64edee3116e8b1ed2fde2ba2aa1d39382bb memcg-v1: remove folio_memcg_lock() doc reference
-c045138aee127ddeda5d9c7e5623545ac847f4ea mm: kmsan: fix poisoning of high-order non-compound pages
 
---===============1395492359040335118==--
+--===============4521313335937120668==--
