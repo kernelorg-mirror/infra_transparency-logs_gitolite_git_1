@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
-Date: Tue, 06 Jan 2026 17:35:26 -0000
-Message-Id: <176772092690.3698315.10622389803287081920@gitolite.kernel.org>
+Date: Tue, 06 Jan 2026 17:35:33 -0000
+Message-Id: <176772093336.3698556.1939386888605966271@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,11 +11,10 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jlayton/linux
 user: jlayton
 changes:
-  - ref: refs/heads/kdevops
-    old: 9f1b493220adb2af6b3720f4a7eba5f69bd063e7
+  - ref: refs/heads/nfsd-dynathread
+    old: 0304b30891dbcc49de9666f367abd0d96f4f8e6c
     new: af2d0cdcca5c64fa5d14946dcfb779abcb3dbc1e
     log: |
-         87a9c5e320841aafdadb1f23d96ac0066861cd9e nfsd: allow for a dynamically-sized threadpool
          9c4d03622464dd54ecb40d8c7d9e5311a20a678c sunrpc: split svc_set_num_threads() into two functions
          6a1d84a4ece3046b601d493f29d679df386c58e0 sunrpc: remove special handling of NULL pool from svc_start/stop_kthreads()
          797902c93180bb9f0edb6fd073692be58a30ee92 sunrpc: track the max number of requested threads in a pool
