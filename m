@@ -1,25 +1,27 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Tue, 06 Jan 2026 17:31:50 -0000
-Message-Id: <176772071032.3694336.13402142858221733900@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
+Date: Tue, 06 Jan 2026 17:35:26 -0000
+Message-Id: <176772092690.3698315.10622389803287081920@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/jlayton/linux
+user: jlayton
 changes:
-  - ref: refs/heads/master
-    old: 7f98ab9da046865d57c102fd3ca9669a29845f67
-    new: f0b9d8eb98dfee8d00419aa07543bdc2c1a44fb1
+  - ref: refs/heads/kdevops
+    old: 9f1b493220adb2af6b3720f4a7eba5f69bd063e7
+    new: af2d0cdcca5c64fa5d14946dcfb779abcb3dbc1e
     log: |
-         c6c209ceb87f64a6ceebe61761951dcbbf4a0baa NFSD: Remove NFSERR_EAGAIN
-         e901c7fce59e72d9f3c92733c379849c4034ac50 NFSD: Fix permission check for read access to executable-only files
-         2857bd59feb63fcf40fe4baf55401baea6b4feb4 nfsd: provide locking for v4_end_grace
-         fb321998de7639f1954430674475e469fb529d9c nfsd: use correct loop termination in nfsd4_revoke_states()
-         d0424066fcd294977f310964bed6f2a487fa4515 nfsd: check that server is running in unlock_filesystem
-         0b88bfa42e5468baff71909c2f324a495318532b NFSD: net ref data still needs to be freed even if net hasn't startup
-         f0b9d8eb98dfee8d00419aa07543bdc2c1a44fb1 Merge tag 'nfsd-6.19-3' of git://git.kernel.org/pub/scm/linux/kernel/git/cel/linux
+         87a9c5e320841aafdadb1f23d96ac0066861cd9e nfsd: allow for a dynamically-sized threadpool
+         9c4d03622464dd54ecb40d8c7d9e5311a20a678c sunrpc: split svc_set_num_threads() into two functions
+         6a1d84a4ece3046b601d493f29d679df386c58e0 sunrpc: remove special handling of NULL pool from svc_start/stop_kthreads()
+         797902c93180bb9f0edb6fd073692be58a30ee92 sunrpc: track the max number of requested threads in a pool
+         fcb081028d3ef8281bd1829017f511bf2a242aa9 sunrpc: introduce the concept of a minimum number of threads per pool
+         fafd7b49f4319df126cadff4f88c7095ef6bfa5d sunrpc: split new thread creation into a separate function
+         2f81f5c7045a53ccaec7b38435a663495a4d8702 sunrpc: allow svc_recv() to return -ETIMEDOUT and -EBUSY
+         6a8f97fa0494096490e100da6e135911f2d38b0a nfsd: adjust number of running nfsd threads based on activity
+         af2d0cdcca5c64fa5d14946dcfb779abcb3dbc1e nfsd: add controls to set the minimum number of threads per pool
          
