@@ -1,13 +1,9 @@
-Content-Type: multipart/mixed; boundary="===============0049263779485878844=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
-Date: Tue, 06 Jan 2026 15:34:49 -0000
-Message-Id: <176771368948.3577133.9120784131749248071@gitolite.kernel.org>
-
---===============0049263779485878844==
-Content-Type: text/plain; charset="us-ascii"
+Date: Tue, 06 Jan 2026 15:35:03 -0000
+Message-Id: <176771370371.3578716.13057635676377970549@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
@@ -15,35 +11,13 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/peterz/queue
 user: peterz
 changes:
-  - ref: refs/heads/perf/core
-    old: 774c1f4975a07c8c31d49554ae711f8aed8a73b6
-    new: a491c02c2770c9c2d02b96fad7e3a176d77bb737
-    log: revlist-774c1f4975a0-a491c02c2770.txt
-
---===============0049263779485878844==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-774c1f4975a0-a491c02c2770.txt
-
-632d89b030f1dac8d91875cd56a08adededba349 perf/x86/uncore: clean up const mismatch
-098fe55a450b280d8a8584b2511634e1236ba96d perf/x86/intel/uncore: Move uncore discovery init struct to header
-e75462f6c7eaa5affd922c9a14591cdd5e3ab63d perf/x86/intel/uncore: Support per-platform discovery base devices
-1897336728b4ab0229fb73bb6f1e94cfe914afa9 perf/x86/intel/uncore: Remove has_generic_discovery_table()
-6daf2c35b835da211bf70606e9f74d1af98613a9 perf/x86/intel/uncore: Add IMH PMON support for Diamond Rapids
-66e2075426f3220857eb3987c803764c82cef851 perf/x86/intel/uncore: Add CBB PMON support for Diamond Rapids
-b575fc0e33574f3a476b68057e340ebe32d7b750 perf/x86/intel/uncore: Add domain global init callback
-8a4bd1c0d6bb64ab4d9e94d83c40326356421a73 perf/x86/intel/uncore: Add freerunning event descriptor helper macro
-d8987048f6655b38453d00782a256179f082b79c perf/x86/intel/uncore: Support IIO free-running counters on DMR
-aacb0718fddfe7060576c82e47bbda559c2f2d0d perf/x86/intel/uncore: Support uncore constraint ranges
-171b5292a82d04e6692f1b19573d15753f21e7fd perf/x86/intel/uncore: Update DMR uncore constraints preliminarily
-2246c24426fbc1069cb2a47e0624ccffe5f2627b perf pmu: Relax uncore wildcard matching to allow numeric suffix
-46da08a2bb4d07874990579235ff87b41911a412 perf/x86/intel/uncore: Add missing PMON units for Panther Lake
-e7d5f2ea0923c5e49ccf94cdaab74a08c865115e perf/x86/intel/uncore: Add Nova Lake support
-a18dfb5dd33247679a0cc4ff208ad7340d1e08a5 riscv/uprobes: use kmap_local_page() in arch_uprobe_copy_ixol()
-094cc7bb5fc3b484614417b4578233a38e3df942 arm64/uprobes: use kmap_local_page() in arch_uprobe_copy_ixol()
-e6eb9acc024cdad7d1cbb7693ac39afdf9c5193f mips/uprobes: use kmap_local_page() in arch_uprobe_copy_ixol()
-1752a1ad43a1d4fd450a8ef5f8d240f9e228e0a3 arm/uprobes: use kmap_local_page() in arch_uprobe_copy_ixol()
-a491c02c2770c9c2d02b96fad7e3a176d77bb737 uprobes: use kmap_local_page() for temporary page mappings
-
---===============0049263779485878844==--
+  - ref: refs/heads/sched/core
+    old: 1769713edf9294d16d9d8a192b68dafbae21de8d
+    new: b27a46347c54f37354c6bac4f86c0b713654ecf9
+    log: |
+         0433082005aa083d1eacb848e244009ab9b637a4 sched/fair: Drop useless cpumask_empty() in find_energy_efficient_cpu()
+         6e9a78a579e448d92eb47c4e52b0d596776524c1 sched/fair: Simplify task_numa_find_cpu()
+         8038bdcb380dc1d96a6d355ad71c057184d2f7a4 sched/fair: Use cpumask_weight_and() in sched_balance_find_dst_group()
+         b84485898f9d8696fd7643126e61cb774f05b003 sched: Reorder some fields in struct rq
+         b27a46347c54f37354c6bac4f86c0b713654ecf9 sched: Further restrict the preemption modes
+         
