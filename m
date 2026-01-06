@@ -1,58 +1,58 @@
-Content-Type: multipart/mixed; boundary="===============2625661715082590831=="
+Content-Type: multipart/mixed; boundary="===============1751534117271551536=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Tue, 06 Jan 2026 18:47:30 -0000
-Message-Id: <176772525032.3776996.9146805714751834545@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Tue, 06 Jan 2026 18:47:33 -0000
+Message-Id: <176772525370.3777170.14168593481767279053@gitolite.kernel.org>
 
---===============2625661715082590831==
+--===============1751534117271551536==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.19
+  - ref: refs/heads/asoc-6.19
     old: fd9a14d233fbf33488cfa0cb7f59051b3233b017
     new: f33db67d914a80ec449579dddc41804857c9400d
     log: revlist-fd9a14d233fb-f33db67d914a.txt
-  - ref: refs/heads/for-6.20
+  - ref: refs/heads/asoc-6.20
     old: 52ddc0106c77ff0eacf07b309833ae6e6a4e8587
     new: 04b61513dfe40f80f0dcc795003637b510522b3c
     log: |
          04b61513dfe40f80f0dcc795003637b510522b3c ASoC: SDCA: Replace use of system_wq with system_dfl_wq
          
 
---===============2625661715082590831==
+--===============1751534117271551536==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1767725248 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1767725248-53385ee82ac7d70b7a52671de5f6230685e5b20e
+pusher C3F436CA30F5D8EB 1767725252 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1767725251-093423977832f1cc933c435be36a6d33afc81282
 
-fd9a14d233fbf33488cfa0cb7f59051b3233b017 f33db67d914a80ec449579dddc41804857c9400d refs/heads/for-6.19
-52ddc0106c77ff0eacf07b309833ae6e6a4e8587 04b61513dfe40f80f0dcc795003637b510522b3c refs/heads/for-6.20
+fd9a14d233fbf33488cfa0cb7f59051b3233b017 f33db67d914a80ec449579dddc41804857c9400d refs/heads/asoc-6.19
+52ddc0106c77ff0eacf07b309833ae6e6a4e8587 04b61513dfe40f80f0dcc795003637b510522b3c refs/heads/asoc-6.20
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmldWMAACgkQJNaLcl1U
-h9B4Vwf/WcDXY7MHTYmvy/N8d//jP/Bq5GnZQ3L0oVwnJL7gKmzj/NDBiOCrfExu
-YZC2brHj33hX+UCSwUKXlyd4tMSKcYlM5RTFTmJwJO/Nz7pK6YlGnWqFHhxoTHdi
-kdH/sX3MUHRXicm6brM2DjWtGf7wu4myIMBKVfgbC5Ld719Yv7iGPszarLChMMtO
-x+9sPo4Smux/DRkm2gMgTA6qdxMXnUtHJOqK7I9StoOMa4vkMXGwSKc1vTBR1qIi
-7CCB3JCT+FXwpmKyGFghv8E4MiXiaBCN0IAOrACkVmRcbb/mtPmwrSZO8BkQGHYx
-cHFc62G90Z2T5ATw5SYygwahFOaKlg==
-=WNYy
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmldWMQACgkQJNaLcl1U
+h9BkLQf/WB/lF9oCmJFCCGo9k0eWblOAxMJHwQJYp68JdhkAQZ5dG+WprEkaO0Dl
+8bVoYTSGHF6rsdEAfVlfiC6LKd7UDMCQHoIc/0w7EeQBGxLThh3cID5t/H3eRQK/
+QpMn++pR+0VqNiF5EhJyxwltqbjF6qR4WWfleToDYT6ZrDcBJjJny0gdoW17xf7X
+sC5yyti5nLAyr6vrxUqtdsHo95jIecAaiuzolGPMF3hHE5/okRYgnjNoF7UeMDTg
+uX8boxn+VUZuUHyDmvoeqmU2n8rn3iy+XFK58TPL7OzJNMvlFnvhbxxFPwybowAW
+vew85RuWsuUTal3aHf734+DJ87vycA==
+=8Z5h
 -----END PGP SIGNATURE-----
 
---===============2625661715082590831==
+--===============1751534117271551536==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -826,4 +826,4 @@ aacb0a6d604ac9953b261963efe25ae7521b7c58 Merge tag 'pmdomain-v6.19-rc3' of git:/
 46a16d89d097ac2c93b63382a37d60aa7f21dc71 ASoC: codecs: wsa883x: suppress variant printk
 f33db67d914a80ec449579dddc41804857c9400d ASoC: codecs: wsa88xx: fix codec initialisation
 
---===============2625661715082590831==--
+--===============1751534117271551536==--
