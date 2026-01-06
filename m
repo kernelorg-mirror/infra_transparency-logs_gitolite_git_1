@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Tue, 06 Jan 2026 00:59:38 -0000
-Message-Id: <176766117800.2801258.93686628100826775@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Tue, 06 Jan 2026 01:02:37 -0000
+Message-Id: <176766135722.2808783.11704846010117107369@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/snitzer/linux
-user: snitzer
+repo: pub/scm/linux/kernel/git/netdev/net
+user: kuba
 changes:
-  - ref: refs/tags/v6.12.63-3
-    old: e4dc755bb4a7c5565965bb219abdc084d178d13a
-    new: c9c56d764c60c171a5d1ca40f2ec2dc98c8e1115
+  - ref: refs/heads/main
+    old: 86c22d475cbca80532da33ed5df73e6814d7a632
+    new: 238e03d0466239410b72294b79494e43d4fabe77
     log: |
-         c9c56d764c60c171a5d1ca40f2ec2dc98c8e1115 kernel-6.12.63-3
+         238e03d0466239410b72294b79494e43d4fabe77 net: fix memory leak in skb_segment_list for GRO packets
          
