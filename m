@@ -1,58 +1,58 @@
-Content-Type: multipart/mixed; boundary="===============2033664156909618695=="
+Content-Type: multipart/mixed; boundary="===============8594115324377654421=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Tue, 06 Jan 2026 12:00:08 -0000
-Message-Id: <176770080876.3382895.10354235260997288074@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Tue, 06 Jan 2026 12:00:12 -0000
+Message-Id: <176770081212.3382986.15948263215055158958@gitolite.kernel.org>
 
---===============2033664156909618695==
+--===============8594115324377654421==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.19
+  - ref: refs/heads/spi-6.19
     old: b005d618c8547b7dfb14e83a1b410a6a04ac36c6
     new: 9ace4753a5202b02191d54e9fdf7f9e3d02b85eb
     log: revlist-b005d618c854-9ace4753a520.txt
-  - ref: refs/heads/for-6.20
+  - ref: refs/heads/spi-6.20
     old: 0f698d742f628d02ab2a222f8cf5f793443865d0
     new: 96d337436fe0921177a6090aeb5bb214753654fc
     log: |
          96d337436fe0921177a6090aeb5bb214753654fc spi: dt-bindings: at91: add microchip,lan9691-spi
          
 
---===============2033664156909618695==
+--===============8594115324377654421==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1767700807 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
-nonce 1767700806-653b7439e6d113867c8b1ab727fd6e580b8fcbdc
+pusher C3F436CA30F5D8EB 1767700810 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1767700809-22845f38843873a2e35486c7e5d8b5aa8bedb88a
 
-b005d618c8547b7dfb14e83a1b410a6a04ac36c6 9ace4753a5202b02191d54e9fdf7f9e3d02b85eb refs/heads/for-6.19
-0f698d742f628d02ab2a222f8cf5f793443865d0 96d337436fe0921177a6090aeb5bb214753654fc refs/heads/for-6.20
+b005d618c8547b7dfb14e83a1b410a6a04ac36c6 9ace4753a5202b02191d54e9fdf7f9e3d02b85eb refs/heads/spi-6.19
+0f698d742f628d02ab2a222f8cf5f793443865d0 96d337436fe0921177a6090aeb5bb214753654fc refs/heads/spi-6.20
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmlc+UcACgkQJNaLcl1U
-h9Ad9gf+M8NJjIX4/3k9AwQcpOf2/Tl5SSWeEt7mUaD+29rgVm0vHNPZBTIXNYWz
-xShAMU+cQyuzP7jOUGsP+mNNJg2IVnCxfHKkFinKvlc15zo/Ol4j3f5BtpC6wozo
-0BMo0iEQkQ6zQ3dPdZyiAVtktpXLNNogcN5kB4Ruolo8sO2cww6a/I/PyPHoybSP
-U8kwk/+5/yZkCJOmikE0HsY2x/34YEDhRNGQcAo5x3EyvDNjfmxBrsBxKUZ4Zcq3
-KPBTojsa5HgKGcaOQjEGSlyhQGI8fC69VTOzVHHUkFXP7sLjRiLJsYy9Ha+YAaG3
-wc6bGxVk3uETOmu5v8PZ/hzWcWCglw==
-=r/G0
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmlc+UoACgkQJNaLcl1U
+h9BerQf+OVP+3WRWbzvsRpM2ODv7bNCCsf61Hwm4PNFYXBFQku2ECk91n9EyoxuM
+HpLpALvNKP4y7K2cEPQ0SIEDN4UeCB7LrM9kYo70Whw/tzUOGdh/55kqVA1a2SvN
+Tyd1l+ssJtHCdazU0h2ubWBaFoEEfGqdKjYIxijAcjdbYw7nJZWmk/wbYGJZhJbB
+8Y7UWeiW7lO9CdKvOUzBaFWPypFgn+H2VgJfh1TH691i2yGdeokJIAp9hp8X4WW9
+/dBo8N/GIJ3s6oaeFZe5IRQCjKptHpOtjR76QYHxp1Rm9MxLFdDKo3bBBMOwfeZ7
+U+TnfZ+ruNaftFUYFqH2tUIkxWlR5g==
+=GZjT
 -----END PGP SIGNATURE-----
 
---===============2033664156909618695==
+--===============8594115324377654421==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -500,4 +500,4 @@ aacb0a6d604ac9953b261963efe25ae7521b7c58 Merge tag 'pmdomain-v6.19-rc3' of git:/
 54e82e93ca93e49cb4c33988adec5c8cb9d0df31 Merge tag 'core_urgent_for_v6.19_rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 9ace4753a5202b02191d54e9fdf7f9e3d02b85eb Linux 6.19-rc4
 
---===============2033664156909618695==--
+--===============8594115324377654421==--
