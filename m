@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3158158852160332631=="
+Content-Type: multipart/mixed; boundary="===============4399783317374543031=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/geert/renesas-devel
-Date: Tue, 06 Jan 2026 10:47:10 -0000
-Message-Id: <176769643043.3321553.15449970741879652735@gitolite.kernel.org>
+Date: Tue, 06 Jan 2026 10:47:16 -0000
+Message-Id: <176769643618.3321772.1572563112699551077@gitolite.kernel.org>
 
---===============3158158852160332631==
+--===============4399783317374543031==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,22 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/geert/renesas-devel
 user: geert
 changes:
-  - ref: refs/heads/master
-    old: 6ada1eb26177700fcf0946fcc3ff7924a79fda68
-    new: 7e792d0c61346438612a18842e2672b097ad594a
-    log: revlist-6ada1eb26177-7e792d0c6134.txt
-  - ref: refs/tags/renesas-devel-2026-01-06-v6.19-rc4
-    old: 0000000000000000000000000000000000000000
-    new: c8fa179254d7eb02a4ed74908c4fbaa8dc30051b
-  - ref: refs/tags/renesas-next-2026-01-06-v6.19-rc1
-    old: 0000000000000000000000000000000000000000
-    new: e32d36e87d5c1dcb15cf17da0a8ab01758edaf87
+  - ref: refs/heads/next
+    old: f37b5349f345d2a9861d2d0fd3f992c9922dff42
+    new: 469eafbe3b5472954dc9a2081b533c8093afd82b
+    log: revlist-f37b5349f345-469eafbe3b54.txt
 
---===============3158158852160332631==
+--===============4399783317374543031==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6ada1eb26177-7e792d0c6134.txt
+Content-Disposition: attachment; filename=revlist-f37b5349f345-469eafbe3b54.txt
 
 00d3dbc4744dc3213c150fb33c47697a7c60fb2f arm64: dts: renesas: rzt2h-n2h-evk: Add note about SD1 1.8V modes
 0154078db6abbc8f1adc216e1b20472f0b50aaf8 arm64: dts: renesas: r9a09g057: Add FCPV and VSPD nodes
@@ -75,6 +69,5 @@ aca3bbde0fdb263081b5ff1e60f066704dd1a19e arm64: dts: renesas: r8a779h0: Add WWDT
 fc913a1c9df1216db1e33dcea4eb864fd0ca794a arm64: defconfig: Enable PCIe for the Renesas RZ/G3S SoC
 898a23193bd860234342eef6ebcc00e9199e3513 ARM: shmobile: defconfig: Refresh for v6.19-rc1
 469eafbe3b5472954dc9a2081b533c8093afd82b Merge branches 'renesas-arm-defconfig-for-v6.20', 'renesas-drivers-for-v6.20' and 'renesas-dts-for-v6.20' into renesas-next
-7e792d0c61346438612a18842e2672b097ad594a Merge branch 'renesas-next' into renesas-devel
 
---===============3158158852160332631==--
+--===============4399783317374543031==--
