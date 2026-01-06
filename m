@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
-Date: Tue, 06 Jan 2026 05:00:29 -0000
-Message-Id: <176767562904.2998745.12704482254902217134@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Tue, 06 Jan 2026 05:02:15 -0000
+Message-Id: <176767573555.2999486.16982315933990537749@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/25-new
-user: akpm
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: ast
 changes:
   - ref: refs/heads/master
-    old: 875feeea453647d7e991b40dc39e0b75b23fc6f5
-    new: 3c876eea3cc48d37ef071d5ba8ac81a62d5b6dc7
+    old: a069190b590e108223cd841a1c2d0bfb92230ecc
+    new: ea180ffbd27ce5abf2a06329fe1fc8d20dc9becf
     log: |
-         3c876eea3cc48d37ef071d5ba8ac81a62d5b6dc7 foo
+         ea180ffbd27ce5abf2a06329fe1fc8d20dc9becf mm: drop mem_cgroup_usage() declaration from memcontrol.h
          
