@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============4524692139324159880=="
+Content-Type: multipart/mixed; boundary="===============4233374912186790166=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Tue, 06 Jan 2026 11:52:10 -0000
-Message-Id: <176770033032.3373226.1996728468210049728@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
+Date: Tue, 06 Jan 2026 11:52:18 -0000
+Message-Id: <176770033837.3373465.1619050155148653382@gitolite.kernel.org>
 
---===============4524692139324159880==
+--===============4233374912186790166==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/acme/linux
+repo: pub/scm/linux/kernel/git/perf/perf-tools-next
 user: acme
 changes:
   - ref: refs/heads/master
-    old: 6a23ae0a96a600d1d12557add110e0bb6e32730c
+    old: 1639fae5132bc8a904af28d97cea0bedb3af802e
     new: 7f98ab9da046865d57c102fd3ca9669a29845f67
-    log: revlist-6a23ae0a96a6-7f98ab9da046.txt
+    log: revlist-1639fae5132b-7f98ab9da046.txt
 
---===============4524692139324159880==
+--===============4233374912186790166==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-6a23ae0a96a6-7f98ab9da046.txt
+Content-Disposition: attachment; filename=revlist-1639fae5132b-7f98ab9da046.txt
 
 9468bc0e1b95b6c737a79ae8aaeb87c16caeb3af soundwire: cadence_master: add fake_size parameter to sdw_cdns_prepare_read_dma_buffer
 8931f5bce4f159a0dd438c093255d88cb8e00516 soundwire: intel_ace2x: add fake frame to BRA read command
@@ -1051,4 +1051,4 @@ aacb0a6d604ac9953b261963efe25ae7521b7c58 Merge tag 'pmdomain-v6.19-rc3' of git:/
 3609fa95fb0f2c1b099e69e56634edb8fc03f87c Merge tag 'devicetree-fixes-for-6.19-2' of git://git.kernel.org/pub/scm/linux/kernel/git/robh/linux
 7f98ab9da046865d57c102fd3ca9669a29845f67 Merge tag 'for-6.19-rc4-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
 
---===============4524692139324159880==--
+--===============4233374912186790166==--
