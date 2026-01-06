@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/a.hindborg/configfs
-Date: Tue, 06 Jan 2026 12:57:47 -0000
-Message-Id: <176770426763.3429018.4980746551657349186@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
+Date: Tue, 06 Jan 2026 12:59:13 -0000
+Message-Id: <176770435383.3429666.2001308843633314705@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/a.hindborg/configfs
-user: a.hindborg
+repo: pub/scm/linux/kernel/git/pci/pci
+user: mani
 changes:
-  - ref: refs/heads/configfs-dev
-    old: 7a7b6cbbcce23ec5f66e58a9b1c92646126cbe0d
-    new: ad6df86abd08cf556acc8cdd1ca57fb9520a2810
+  - ref: refs/heads/controller/dwc-imx6
+    old: 946604c144ed29148def2b492f615aa8539dfe03
+    new: d5fb0afbf635d7539c34447ea3e8c0473710c92d
     log: |
-         ad6df86abd08cf556acc8cdd1ca57fb9520a2810 DEV: [PATCH] samples: configfs: Constify struct configfs_item_operations and configfs_group_operations
+         199c182216224e2f1acce576dbe8d39cbf099699 PCI: dwc: Invoke post_init in dw_pcie_resume_noirq()
+         f51772f4fa340a8ed4a82942b8cc6edd67846b57 PCI: imx6: Add CLKREQ# override to enable REFCLK for i.MX95 PCIe
+         d5fb0afbf635d7539c34447ea3e8c0473710c92d PCI: imx6: Clear CLKREQ# override if 'supports-clkreq' DT property is available
          
