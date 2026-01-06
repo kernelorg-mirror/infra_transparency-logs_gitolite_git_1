@@ -1,64 +1,25 @@
-Content-Type: multipart/mixed; boundary="===============0263626210587228295=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux
-Date: Tue, 06 Jan 2026 08:36:21 -0000
-Message-Id: <176768858156.3184277.13153122500871474202@gitolite.kernel.org>
-
---===============0263626210587228295==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/cip/linux-cip
+Date: Tue, 06 Jan 2026 08:36:51 -0000
+Message-Id: <176768861115.3184638.5387086519829903114@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/krzk/linux
-user: krzk
-git_push_cert_status: Y
+repo: pub/scm/linux/kernel/git/cip/linux-cip
+user: pavel
 changes:
-  - ref: refs/heads/for-next
-    old: 5bb278529d6fc8faa651e711b49995d2be2c3a32
-    new: fefc12a70eb12e0b04f0b59b623965dd3ab1f4ba
+  - ref: refs/heads/linux-6.1.y-cip
+    old: 42c9718998e847664e3954bf3b9f2000ee46c027
+    new: e493b214f2b4f2efc5177e176838270a96197b0d
     log: |
-         4acd805157102eef1b98794450d2e599c7497542 dt-bindings: soc: samsung: exynos-pmu: Drop unnecessary select schema
-         fefc12a70eb12e0b04f0b59b623965dd3ab1f4ba Merge branch 'next/drivers' into for-next
+         7d550efc74f7c39d13a79cbaa71cf83dacce84b1 clk: renesas: r8a08g045: Check the source of the CPU PLL settings
+         9f8fbfd13ec1aff187b2458c0cbb5fb8522489aa clk: renesas: r9a08g045: Add clocks, resets and power domain support for the TSU IP
+         39507a6bc47897be9414360207228b90227a8fd0 dt-bindings: thermal: r9a08g045-tsu: Document the TSU unit
+         8b53b0bf10a352fa464478f7ba14957522cf9a69 thermal/drivers/renesas/rzg3s: Add thermal driver for the Renesas RZ/G3S SoC
+         b1d059cb6d86f104783247f0ece11868103a8b06 arm64: dts: renesas: r9a08g045: Add OPP table
+         3754ee63be30f9b6f5970a85dac9b2e72f79cb4a arm64: dts: renesas: r9a08g045: Add TSU node
+         e493b214f2b4f2efc5177e176838270a96197b0d arm64: defconfig: Enable Renesas RZ/G3S thermal driver
          
-  - ref: refs/heads/next/drivers
-    old: 732af51910960535382db3f6e0b33e2e2b0ff7b6
-    new: 4acd805157102eef1b98794450d2e599c7497542
-    log: |
-         4acd805157102eef1b98794450d2e599c7497542 dt-bindings: soc: samsung: exynos-pmu: Drop unnecessary select schema
-         
-
---===============0263626210587228295==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher krzk@kernel.org 1767688579 +0100
-pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux.git
-nonce 1767688579-0913e025f6b2277d2439b15580e63824b99bc4c2
-
-5bb278529d6fc8faa651e711b49995d2be2c3a32 fefc12a70eb12e0b04f0b59b623965dd3ab1f4ba refs/heads/for-next
-732af51910960535382db3f6e0b33e2e2b0ff7b6 4acd805157102eef1b98794450d2e599c7497542 refs/heads/next/drivers
------BEGIN PGP SIGNATURE-----
-
-iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmlcyYMQHGtyemtAa2Vy
-bmVsLm9yZwAKCRDBN2bmhouD1yHwD/0VBQ72m683sHFCsuCeLEHpW3pKg1Z2qFZk
-/lxnj1omjqjKHPzn1yC0RFxS2yXU+Nslm0Kxsfdk/u0EIW7t42DygdYM8uWQdbL7
-pSNF9d8lRVDZoagf7JwWIlLh5h0zyF056oWOZAVunK5qT2PFQ1hW+59alVxZLW9u
-By32anI8mYPEhfbKeMDFgu+suWgNul4GoGNEbu+AUFrnDGu11ZvDNVz+qv087wwb
-vkKqgmHDjtaRT3FJD619BVwCxkS8J+gFv6JGmVtHV5WbnvdDvnGjwHU7QS4MPiVu
-6HO4GQLbRcdOvYuUkBhfEFcfcICbYEhKsu2oxuiGhETcXeLftvkwoF9zwVEuNl+x
-vnF4VkG/4RsUPfCZz9E1MGzaC1IX+p1DvmAHbl/RiVfiCNS3JwKLE4yR3cNO8U6B
-qFQeiMDwym7q47mNGrZd3uY9crx1qTJ9dH2MzbzMYzES7tQTyTZbTlZWWODAiv+P
-DJnV1GfPdBvrWVUeLzLY2KBV5jF7wl9Oa5j4QLw9DgigPI0gwPgJ1+hLGaZLiJjM
-UTKGK/rHcqjT9dIzizCkCg4fyIO9QjkqmAhI4xit1R9uNVBBW4h9s3VmQ08diWWk
-ljlJdfGt+gTAx8KyU4pK/3i8h5QNccKOPJnOwk1Kcca8oMAix6WhZ0hhPbCZG11U
-U23YLyGB7Q==
-=ZsOR
------END PGP SIGNATURE-----
-
---===============0263626210587228295==--
