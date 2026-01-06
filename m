@@ -1,51 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============6994920054101014213=="
+Content-Type: multipart/mixed; boundary="===============7157455436309345700=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Tue, 06 Jan 2026 19:41:50 -0000
-Message-Id: <176772851097.3822938.7038680312352169634@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Tue, 06 Jan 2026 19:41:54 -0000
+Message-Id: <176772851457.3823191.17214477509218128342@gitolite.kernel.org>
 
---===============6994920054101014213==
+--===============7157455436309345700==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.20
+  - ref: refs/heads/asoc-6.20
     old: 04b61513dfe40f80f0dcc795003637b510522b3c
     new: 9ebc914acd32bea956a73b7dac82d43539204cf6
     log: revlist-04b61513dfe4-9ebc914acd32.txt
 
---===============6994920054101014213==
+--===============7157455436309345700==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1767728508 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1767728508-ad613027b6cc524b2c020ecc040a4416c2f1c740
+pusher C3F436CA30F5D8EB 1767728512 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1767728512-c22d77fa18650f539342c9573cae601afb0effd3
 
-04b61513dfe40f80f0dcc795003637b510522b3c 9ebc914acd32bea956a73b7dac82d43539204cf6 refs/heads/for-6.20
+04b61513dfe40f80f0dcc795003637b510522b3c 9ebc914acd32bea956a73b7dac82d43539204cf6 refs/heads/asoc-6.20
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmldZXwACgkQJNaLcl1U
-h9D/HAf+L2dIM/g9hwwWfrI48zjQv7Hj+jUZQtqSk5hmhmAhv11EkcLfs/MLljOC
-tY0donxe+K+Nxw8MBCZpVPROUQrJBFFqOyGHCYxEcfnym8vpBy/9A3TubCLRv2MR
-tPBhSJL8j5jh+Ffg01mbEt2R9vH02aoMCKUFiVyo55HV37RAHiwcLyK/+1JqxXUo
-LvieOi0DCp413BAUZRIaARwI7UPegRe2vRNNT9wRyV8S4Jr9TGuJ08gnP2nL6dj4
-sg+5r56V3Mhb44fJIXN6hzl6D432NR6s0TfIUbyY7gDwUW87hKxE26hOjvvvlqxK
-f7KTZwBKDlS1vNCpVLs/SrC8mIjpiQ==
-=cL7n
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmldZYAACgkQJNaLcl1U
+h9CnFwf/Tm2PXWhiz3dIpirbfuJBYy2BhZdS6Y5UX6/YeSr/kfuG+WzEUNYoKQKy
+I43cKjpQ13c38VJo8YUxAPcRoCfJnF05af7cc0aBAu+nGqCZzJn/9NFHj/xUnOQz
+/wFiCohcIV92VZ9x5UPTyQ+rPfh8bASaZzqm+kcaMsjs2K9/Sh+dLR2GUqTRtzM3
+BsDev0zV00Re/RQLyAOCqzDve2L9Fhc4EsgD8gkeo8XG6iF+yI9FZ019cm4cOaI4
+DucebjGH1sSGKPt5+5gzpXnG/lWC2wp5aY25P/XnYbR1JVjdQ1apddCabu99PaoL
+oSSNj94bbybTQf025m8XzloeyMswhg==
+=gWMe
 -----END PGP SIGNATURE-----
 
---===============6994920054101014213==
+--===============7157455436309345700==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -526,4 +526,4 @@ d7e36da652aca579b63b5617de755c2d855393fe firmware: cirrus: cs_dsp: Add long-offs
 c7ac7499ac5bb50ab3e00add121822c5c904bc91 ASoC: rt5575: Add the codec driver for the ALC5575
 9ebc914acd32bea956a73b7dac82d43539204cf6 ASoC: ES8389: Add some members and update
 
---===============6994920054101014213==--
+--===============7157455436309345700==--
