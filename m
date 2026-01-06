@@ -1,46 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============6110618376365539225=="
+Content-Type: multipart/mixed; boundary="===============8549836415639662937=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mst/vhost
-Date: Tue, 06 Jan 2026 08:42:09 -0000
-Message-Id: <176768892965.3207725.7518826300060844762@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vbabka/linux
+Date: Tue, 06 Jan 2026 08:59:20 -0000
+Message-Id: <176768996089.3219754.3157643144846097437@gitolite.kernel.org>
 
---===============6110618376365539225==
+--===============8549836415639662937==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mst/vhost
-user: mst
+repo: pub/scm/linux/kernel/git/vbabka/linux
+user: vbabka
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/linux-next
-    old: f6a15d85498614baf121f7e207e6c55524f175a4
-    new: 57ca0f8c1bb72a4774001a012268ee690bdcc11d
-    log: revlist-f6a15d854986-57ca0f8c1bb7.txt
+  - ref: refs/heads/b4/fix-pcp-up
+    old: a6bf51955c75cac0d2c01ca30c42c888556d484b
+    new: a6da5d9e3db005a2f44f3196814d7253dce21d3e
+    log: |
+         a6da5d9e3db005a2f44f3196814d7253dce21d3e mm/page_alloc: prevent pcp corruption with SMP=n - fix
+         
 
---===============6110618376365539225==
+--===============8549836415639662937==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f6a15d854986-57ca0f8c1bb7.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-ca085faabb42c31ee204235facc5a430cb9e78a9 dma-mapping: add __dma_from_device_group_begin()/end()
-1e8b5d855525e0863198797a67a69774f426e142 docs: dma-api: document __dma_from_device_group_begin()/end()
-689fac8b3fdb89b5b1bb857f464ef4583ce555fd dma-mapping: add DMA_ATTR_CPU_CACHE_CLEAN
-428392c29fde9281e9aecc3127511267071087cf docs: dma-api: document DMA_ATTR_CPU_CACHE_CLEAN
-c8e9252aee625e903a702126c4dbef5d9fd97b16 dma-debug: track cache clean flag in entries
-aca0d60b46ab288c2c80e569585b440fe56324dd virtio: add virtqueue_add_inbuf_cache_clean API
-fe242060cae6727e84c6a355e78eaa24aa120248 vsock/virtio: fix DMA alignment for event_list
-4c2a60fa30d46fcddbc07cec7b457b936198660c vsock/virtio: use virtqueue_add_inbuf_cache_clean for events
-c2ad0e1ab698048822814d74cfa6919bd5843f1c virtio_input: fix DMA alignment for evts
-33c89cbdbdc1b7d62182edc8ba844a6d3f233234 virtio_scsi: fix DMA cacheline issues for events
-5e8514718a3277cf8599941ad54cae66a6c8a228 virtio-rng: fix DMA alignment for data buffer
-102b076ca771c4a43a2d8fdcdc5d035e0f530339 virtio_input: use virtqueue_add_inbuf_cache_clean for events
-92ede742579c977f0641110ac127a4c877e4043a vsock/virtio: reorder fields to reduce padding
-f0ad0d91ed215d06b542d80f7aa8ef87001e983f gpio: virtio: fix DMA alignment
-d3cb0846072e6eee6c220c0410276d22e08568dc gpio: virtio: reorder fields to reduce struct padding
-57ca0f8c1bb72a4774001a012268ee690bdcc11d checkpatch: special-case cacheline group macros
+certificate version 0.1
+pusher A940D434992C2E8E99103D50224FA7E7CC82A664 1767689957 +0100
+pushee gitolite.kernel.org:pub/scm/linux/kernel/git/vbabka/linux.git
+nonce 1767689956-2b4b5478c7280ef34b67a71596265ab7cea04595
 
---===============6110618376365539225==--
+a6bf51955c75cac0d2c01ca30c42c888556d484b a6da5d9e3db005a2f44f3196814d7253dce21d3e refs/heads/b4/fix-pcp-up
+-----BEGIN PGP SIGNATURE-----
+
+iQFPBAABCAA5FiEEe7vIQRWZI0iWSE3xu+CwddJFiJoFAmlczuUbFIAAAAAABAAO
+bWFudTIsMi41KzEuMTEsMiwyAAoJELvgsHXSRYiaSosH/1M6WGQjJKUzqlf5uD7T
+ZCj6uNeI2LRkKh80h0oYCv2kkQkd+Lq5xvnbCKUy0eemgFI68CA+TD7KOPZj+8KB
+7O4vph1GXH8Jc7+fWOFpNzNVxViXW4F4HEojbgQSRlHiNmDEbecmOAQyuKBYMv0Q
+e6RnvNUPi40buvuD3vZyGqAPD4jt8iv7S+pouFDty+6MbAEL0FI9VrkSrlUIjxpK
+mNZ4gfLhvFRZ3vLDmkU+QTChGFE+sIAI/ev7MYtGUtqmZEr4RKes0XyYDM6IanSu
+Gf+2Asbj027cZX2lQrM80qJHPDCVFuDs0eDD4WLb/uFgZTIdBd/imc2ot+HlodOB
+kPk=
+=BEGc
+-----END PGP SIGNATURE-----
+
+--===============8549836415639662937==--
