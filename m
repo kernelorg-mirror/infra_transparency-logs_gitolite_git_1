@@ -1,95 +1,21 @@
-Content-Type: multipart/mixed; boundary="===============7618702018687078769=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
-Date: Tue, 06 Jan 2026 00:24:21 -0000
-Message-Id: <176765906144.2772366.2231591325359066215@gitolite.kernel.org>
-
---===============7618702018687078769==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Tue, 06 Jan 2026 00:25:24 -0000
+Message-Id: <176765912463.2774960.14069076362763637724@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kdave/linux
-user: kdave
+repo: pub/scm/linux/kernel/git/netdev/net
+user: kuba
 changes:
-  - ref: refs/heads/for-next
-    old: 52fef3fa1d4a9cd158f3f643154fa95abd4c6396
-    new: cab7d1370e759b41a1cf8bcf576b46a8661b7fbd
-    log: revlist-52fef3fa1d4a-cab7d1370e75.txt
-
---===============7618702018687078769==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-52fef3fa1d4a-cab7d1370e75.txt
-
-4f4f6b4467e63317ec3fd0a5b7405757ad55c169 MAINTAINERS: Update Saravana Kannan's email address
-235a1eb8d2dcc49a6cf0a5ee1aa85544a5d0054b of: unittest: Fix memory leak in unittest_data_add()
-3609fa95fb0f2c1b099e69e56634edb8fc03f87c Merge tag 'devicetree-fixes-for-6.19-2' of git://git.kernel.org/pub/scm/linux/kernel/git/robh/linux
-7f98ab9da046865d57c102fd3ca9669a29845f67 Merge tag 'for-6.19-rc4-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
-4ef8104d466fcd8b833541ec002cd4e11f918878 btrfs: update comment for visit_node_for_delete()
-93b38d6d6800e676b93cf3d8ad52e5dce2dfc14c btrfs: use true/false for boolean parameters in btrfs_inc_ref()/btrfs_dec_ref()
-3bb629ec1036c803564c5290d587cbf736e8c484 btrfs: simplify boolean argument for btrfs_inc_ref()/btrfs_dec_ref()
-cb8c4f7fb4cea9ad41898b45caf0e913ceca4e33 btrfs: check squota parent usage on membership change
-d12a2cb74f41ae677ebaea06bcc9e4e6ed54a2f3 btrfs: relax squota parent qgroup deletion rule
-05c9805675392ff50a2a0c1d7d9d3cc711c0f748 btrfs: zoned: don't zone append to conventional zone
-d52cebe1cc684b0d411ae2f77e3d4a19ab99561f btrfs: switch to library APIs for checksums
-e37d6499f03bf12edd24cac0fea305ed0961c846 btrfs: enable direct IO for bs > ps cases
-0f709ad77a8e20f40dfb325c55e7e8bfd0b7e512 btrfs: introduce BTRFS_PATH_AUTO_RELEASE() helper
-0dea1ac32f5c4e24670c8abcbc9af520280d65a2 btrfs: search for larger extent maps inside btrfs_do_readpage()
-6601a5ab3431a75a0a1a501bac9050dbe13feba4 btrfs: concentrate the error handling of submit_one_sector()
-8ddfaf52274dd7dadbbd7476e334afe16daee61d btrfs: replace for_each_set_bit() with for_each_set_bitmap()
-654f219404580ace8f972fa68895f1717b6affe8 btrfs: remove dead assignment in prepare_one_folio()
-2ed987b5ea7c643d98bbe4fb67c5a2dab176424e btrfs: merge setting ret and return ret
-287fed480436e024d9bbc272e9f9fcaebb6df568 btrfs: rename btrfs_create_block_group_cache to btrfs_create_block_group
-11eee104598d747cdbaadcb57f0381cfbeed1488 btrfs: simplify internal btrfs_printk helpers
-45d9b2c557c4fc937391c82eee9fa03797622b57 btrfs: pass level to _btrfs_printk() to avoid parsing level from string
-69081378dac37640b52e86bf8b94716e276653aa btrfs: remove ASSERT compatibility for gcc < 8.x
-17d23e777aa50e111baa2c35d273c7e146c69ed1 btrfs: shrink the size of btrfs_bio
-2f65a9313e53db9f8ec8eccd634b37b761749db3 btrfs: avoid access-beyond-folio for bs > ps encoded writes
-a655dcb88251925d4ad181afa071265e4d391dab btrfs: zoned: re-flow prepare_allocation_zoned
-c36f2d7bd23d4cf287f8110c9b824bc83311553d btrfs: remove duplicated root key setup in btrfs_create_tree()
-61e9c2b97d0b190a640c2759727d6ff4260e47bf btrfs: update stale comment in __cow_file_range_inline()
-0e89a5d3569655a30eb67e9492a00779bd5147f9 btrfs: release path before initializing extent tree in btrfs_read_locked_inode()
-24b7beaaded624f642a0d5cdcf19476c14a187d8 btrfs: avoid transaction commit on error in del_balance_item()
-5ed2b3b82d44f2e9653dc6a02654f601ef6bd981 btrfs: use single return variable in btrfs_find_orphan_roots()
-8abc3436d21b862567fa2a96f529cde44f1d9bcf btrfs: remove redundant path release in btrfs_find_orphan_roots()
-83b817a75222aabf22b5d86fceeeb45d44a88e6e btrfs: don't call btrfs_handle_fs_error() after failure to join transaction
-be00f9279d659c06a3fb4fb4c7ecf6e23dd98673 btrfs: don't call btrfs_handle_fs_error() after failure to delete orphan item
-dff01bcb9d9d52f3e19a37f8512f3bb270f80508 btrfs: don't call btrfs_handle_fs_error() in qgroup_account_snapshot()
-635f87d9bc361833ac1245a274045780ffa3e1f9 btrfs: don't call btrfs_handle_fs_error() in btrfs_commit_transaction()
-a8edffa0c1518105646cb565997754e2b18d2516 btrfs: remove zoned statistics from sysfs
-a82bb5cb3a62ae00dc4668075f15d8699462676b btrfs: zoned: show statistics about zoned filesystems in mountstats
-9024cde5a40b2247b4c8927dd5610a317393e559 btrfs: move space_info_flag_to_str() to space-info.h
-8dce457634793aeb4497c5d0cc7b8747d40c2421 btrfs: zoned: print block-group type for zoned statistics
-680ef76f1ccf499644c94868031da1ce48899c68 btrfs: refactor the main loop of cow_file_range()
-ec44a44310a61f16cc2fa19e0ff0e4637c19f04c btrfs: only enforce free space tree if v1 cache is required for bs < ps cases
-d55a9cb84a4350e15d44650c043802e21cf3a7b0 btrfs: force free space tree for bs > ps cases
-d41c869ec131ea020ac9f49aebd6710a0bed35c5 btrfs: remove unreachable return after btrfs_backref_panic() in btrfs_backref_finish_upper_links()
-6a40860c14297b389bacefa6579360b801b22412 btrfs: fix Wmaybe-uninitialized warning in replay_one_buffer()
-2fe0dca5ba45b165cea032e66e2e37feb2e6b65e btrfs: tag as unlikely error conditions in the transaction commit path
-33a9fe4a61390f5657dce7b7eef53b09760df0c4 btrfs: move unlikely checks around btrfs_is_shutdown() into the helper
-9eabbcd14f41340a5793c4845a10f85ee1b33276 btrfs: avoid transaction commit on error in insert_balance_item()
-33b629bad7298ef83d404d848aabae8bd5e4fb7b btrfs: fix NULL pointer dereference in do_abort_log_replay()
-46daad3f5630efbd3e8ec5d8073e3cf689098ab4 btrfs: simplify check for zoned NODATASUM writes in btrfs_submit_chunk()
-8f3f19e97c5695c0a3126354cf524befb88df80e btrfs: show correct warning if can't read data reloc tree
-c8aa3e51b53deace617bbd55de5d6d9aa58f2097 btrfs: === misc-next on b-for-next ===
-7e88273903330c40c6f2c264fc252aefe35e83b4 btrfs: fallback to buffered IO if the data profile has duplication
-6aa149aaa2819e57ff7d102deb3819f36ea544e2 btrfs: add an ASSERT() to catch ordered extents without datasum
-bdfc7cbe0c217edc026e24ae0e396ca73dfa1041 btrfs: release path before iget_failed() in btrfs_read_locked_inode()
-1aff297ffb925ee49299f86af5fcdf854cb48c5f btrfs: avoid access-beyond-folio for bs > ps encoded writes
-8731f2c50b0b1d2b58ed5b9671ef2c4bdc2f8347 btrfs: release path before initializing extent tree in btrfs_read_locked_inode()
-30bcf4e824aa37d305502f52e1527c7b1eabef3d btrfs: only enforce free space tree if v1 cache is required for bs < ps cases
-cefd80925180a85c818e18c2876911b002a595fd btrfs: force free space tree for bs > ps cases
-530e3d4af566ca44807d79359b90794dea24c4f3 btrfs: fix NULL pointer dereference in do_abort_log_replay()
-2bb83bc42be6280d9bc363b8fbcd6fdab690d16d btrfs: show correct warning if can't read data reloc tree
-6a0506b9a24709b0bb2c0fc50d755388ca61444e Merge branch 'misc-6.19' into for-next-current-v6.18-20260106
-6a54eb68cbdbd0339853853d793d14318d815f36 Merge branch 'b-for-next' into for-next-next-v6.19-20260106
-abc6a3316b02de73332d3e45232c00532bc31b32 Merge branch 'misc-next' into for-next-next-v6.19-20260106
-dd2da0f2b61cee44de98e3770e684e5a416154d0 Merge branch 'for-next-current-v6.18-20260106' into for-next-20260106
-cab7d1370e759b41a1cf8bcf576b46a8661b7fbd Merge branch 'for-next-next-v6.19-20260106' into for-next-20260106
-
---===============7618702018687078769==--
+  - ref: refs/heads/main
+    old: d96bfb686742a8b11cca3fca299ff9fe307ca5a9
+    new: f5e9ba959960fb9771c6e4fb1f075b8b74f4e877
+    log: |
+         9892353726ad222219aa18c329e3a3636134dd56 net/sched: act_mirred: Fix leak when redirecting to self on egress
+         4bcd49a03b94a5e16717961a7d750d676f044436 selftests/tc-testing: Add test case redirecting to self on egress
+         f5e9ba959960fb9771c6e4fb1f075b8b74f4e877 Merge branch 'net-sched-fix-memory-leak-on-mirred-loop'
+         
