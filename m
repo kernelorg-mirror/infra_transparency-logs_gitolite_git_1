@@ -1,19 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Tue, 06 Jan 2026 17:23:39 -0000
-Message-Id: <176772021963.3686822.17676987555220419970@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Tue, 06 Jan 2026 17:31:50 -0000
+Message-Id: <176772071032.3694336.13402142858221733900@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: daveh
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
-  - ref: refs/heads/x86/cpu
-    old: 18fe1f58623f8c1fddd21a3d044d668ba9d8b0a9
-    new: f8c7600d468bdb6e44ed3b3247c6e53f5be5d8de
+  - ref: refs/heads/master
+    old: 7f98ab9da046865d57c102fd3ca9669a29845f67
+    new: f0b9d8eb98dfee8d00419aa07543bdc2c1a44fb1
     log: |
-         f8c7600d468bdb6e44ed3b3247c6e53f5be5d8de x86/tsx: Set default TSX mode to auto
+         c6c209ceb87f64a6ceebe61761951dcbbf4a0baa NFSD: Remove NFSERR_EAGAIN
+         e901c7fce59e72d9f3c92733c379849c4034ac50 NFSD: Fix permission check for read access to executable-only files
+         2857bd59feb63fcf40fe4baf55401baea6b4feb4 nfsd: provide locking for v4_end_grace
+         fb321998de7639f1954430674475e469fb529d9c nfsd: use correct loop termination in nfsd4_revoke_states()
+         d0424066fcd294977f310964bed6f2a487fa4515 nfsd: check that server is running in unlock_filesystem
+         0b88bfa42e5468baff71909c2f324a495318532b NFSD: net ref data still needs to be freed even if net hasn't startup
+         f0b9d8eb98dfee8d00419aa07543bdc2c1a44fb1 Merge tag 'nfsd-6.19-3' of git://git.kernel.org/pub/scm/linux/kernel/git/cel/linux
          
