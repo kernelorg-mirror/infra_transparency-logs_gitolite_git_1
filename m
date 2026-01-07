@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5738718758011004360=="
+Content-Type: multipart/mixed; boundary="===============2579458477273783929=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Wed, 07 Jan 2026 02:01:13 -0000
-Message-Id: <176775127304.4138241.1232391212184414624@gitolite.kernel.org>
+Date: Wed, 07 Jan 2026 02:01:14 -0000
+Message-Id: <176775127445.4138456.2564102795331331542@gitolite.kernel.org>
 
---===============5738718758011004360==
+--===============2579458477273783929==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/mm-new
-    old: d51d3f6765d29ab5cdc6a59ad832017e660d5add
-    new: 21d88b706dd49b5a58fd2159062cf9f9263695c6
-    log: revlist-d51d3f6765d2-21d88b706dd4.txt
+  - ref: refs/heads/mm-unstable
+    old: 186f32b9f92ad7ef6bb90d1d0e9692665cfbb69b
+    new: 43fac2258fcae7e36eca62560fdc891f047c1159
+    log: revlist-186f32b9f92a-43fac2258fca.txt
 
---===============5738718758011004360==
+--===============2579458477273783929==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d51d3f6765d2-21d88b706dd4.txt
+Content-Disposition: attachment; filename=revlist-186f32b9f92a-43fac2258fca.txt
 
 a06e8da9f2a3ba14346ae59f7a2d7c5ea21b0b89 mm: describe @flags parameter in memalloc_flags_save()
 d52d38b372b06a20dcd9865f273e9c620d9107ff textsearch: describe @list member in ts_ops search
@@ -246,29 +246,5 @@ d1581042e6c6814c32bf1fff3bb6781459780e16 mm: kmsan: fix poisoning of high-order 
 7a314e330f0f47cbcb7d27e57eec7c1baba11053 tracing: add __event_in_*irq() helpers
 6093cd0a2a936ba9583feb3ece0c111ee1ce7988 mm: vmscan: add cgroup IDs to vmscan tracepoints
 43fac2258fcae7e36eca62560fdc891f047c1159 mm: vmscan: add PIDs to vmscan tracepoints
-363a650b3bd7c433bb1212f85487f9790b52e368 tsacct: skip all kernel threads
-926400c11286480fe3b5a153f132a3fbf19d277a lib: introduce hierarchical per-cpu counters
-4e43293a57745a03f484c8088e8ac4da29cac5ce mm: fix OOM killer inaccuracy on large many-core systems
-34df21576f802972f47a9acdc70c8347c870a9cc mm: implement precise OOM killer task selection
-d337f03e481c99d49d1192317b24d41f04a299af zsmalloc: use actual object size to detect spans
-78dcc9b36a2d1e239cc939de616ecd699680d1bf mm/rmap: improve anon_vma_clone(), unlink_anon_vmas() comments, add asserts
-93cb7c0eb87fbf1206e98652e94dbec8474066e8 mm/rmap: skip unfaulted VMAs on anon_vma clone, unlink
-71b7d18afa45804889ec438c285cdf5960b4cb08 mm/rmap: remove unnecessary root lock dance in anon_vma clone, unmap
-c5a9f644a1e1777dd748b9ffde2479e46797fb3f mm/rmap: remove anon_vma_merge() function
-3c89f0d1ed7aee6eabefcc0ccf064dae9cd52245 mm/rmap: make anon_vma functions internal
-5711be12fe0c182b58353d90b74e350b997b6532 mm/mmap_lock: add vma_is_attached() helper
-a6e934440bbb6dc63702e8240afb7386dcaf87ad mm/rmap: allocate anon_vma_chain objects unlocked when possible
-77db044d50dfad25d4d0d91123d5d164adfcfcd2 mm/rmap: separate out fork-only logic on anon_vma_clone()
-59220bfc8ce10fc0949fc3dd674875bb84035135 mm/page_alloc: ignore the exact initial compaction result
-ae0517daafc7e1d17f8d5f5b090250fecbb2e1b1 mm/page_alloc: refactor the initial compaction handling
-b4b023195d915c18acf046e4b3203355b058d6a0 mm/page_alloc: simplify __alloc_pages_slowpath() flow
-eb652cdff9b4800f52e7f1ae8cd57b098e0fcba4 memcg: introduce private id API for in-kernel users
-c95f70b95adf64957c14be2d4558e9ee1f9eccfd memcg: expose mem_cgroup_ino() and mem_cgroup_get_from_ino() unconditionally
-374b636fa8c055f82b9f3039c5a85963267405c6 memcg: mem_cgroup_get_from_ino() returns NULL on error
-a0d1aa872b7383606d31d2d81d25e35607146985 memcg: use cgroup_id() instead of cgroup_ino() for memcg ID
-ae110003c84d75faf06d9393e329dfb0fe07e0e8 mm/damon: use cgroup ID instead of private memcg ID
-e3222f5b1a19f871b3b07d2606443f9d3efb01b7 mm/vmscan: use cgroup ID instead of private memcg ID in lru_gen interface
-aec08ab0746067f3bfc06bb2393fffeee1700298 memcg: remove unused mem_cgroup_id() and mem_cgroup_from_id()
-21d88b706dd49b5a58fd2159062cf9f9263695c6 memcg: rename mem_cgroup_ino() to mem_cgroup_id()
 
---===============5738718758011004360==--
+--===============2579458477273783929==--
