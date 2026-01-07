@@ -1,21 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ardb/linux
-Date: Wed, 07 Jan 2026 15:35:35 -0000
-Message-Id: <176780013542.692982.9547142512430287383@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+Date: Wed, 07 Jan 2026 15:58:30 -0000
+Message-Id: <176780151032.709401.9289521173486953492@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ardb/linux
-user: ardb
+repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+user: jarkko
 changes:
-  - ref: refs/heads/x86-pie-v3+i386
-    old: 2451c30092e29b8fdb670349e33b0fbb3739c6e9
-    new: 0a76a6ffd098da8d69a43ef45fd0d22c5a45c4ca
+  - ref: refs/heads/master
+    old: 416f99c3b16f582a3fc6d64a1f77f39d94b76de5
+    new: fab962e5750ab16fe69166c10ee853f907bed699
     log: |
-         a39e582ad5b64aaf3dfa13c1e2cce2649af3f4c6 x86/head64: Avoid absolute references in startup asm
-         022a7ce522a1a72823fa674c49ebdc762ac4e3b4 x86/boot: Implement support for RELA/RELR/REL runtime relocations
-         0a76a6ffd098da8d69a43ef45fd0d22c5a45c4ca x86/kernel: Switch to PIE linking for the relocatable kernel
+         93ef70aa366ac2fb6f1864e2be148f03ebbc97c6 tpm: tpm_i2c_infineon: Fix locality leak on get_burstcount() failure
+         fab962e5750ab16fe69166c10ee853f907bed699 tpm: st33zp24: Fix missing cleanup on get_burstcount() error
          
