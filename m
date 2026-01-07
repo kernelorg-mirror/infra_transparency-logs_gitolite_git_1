@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
-Date: Wed, 07 Jan 2026 12:35:17 -0000
-Message-Id: <176778931763.547248.11443811929716556912@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
+Date: Wed, 07 Jan 2026 12:41:29 -0000
+Message-Id: <176778968973.551908.14170215579432122714@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pci/pci
-user: mani
+repo: pub/scm/linux/kernel/git/jlayton/linux
+user: jlayton
 changes:
-  - ref: refs/heads/dt-bindings
-    old: 72b39430284fc4a7a960133b70137c24fed63b74
-    new: 407cc7ff3e99f6bca9b4ca2561d3f9e7192652fe
+  - ref: refs/heads/kdevops
+    old: af2d0cdcca5c64fa5d14946dcfb779abcb3dbc1e
+    new: d5e07e15b46ba3da4cf4701680305191bf85ad85
     log: |
-         407cc7ff3e99f6bca9b4ca2561d3f9e7192652fe dt-bindings: PCI: mediatek-gen3: Add MT7981 PCIe compatible
+         d5e07e15b46ba3da4cf4701680305191bf85ad85 nfs: don't allow leases on directories with NFSv4
          
