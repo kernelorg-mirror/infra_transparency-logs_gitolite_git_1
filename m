@@ -1,19 +1,29 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ardb/linux
-Date: Wed, 07 Jan 2026 16:31:23 -0000
-Message-Id: <176780348374.737289.17783678991578420604@gitolite.kernel.org>
+Subject: post-receive: pub/scm/network/iproute2/iproute2-next
+Date: Wed, 07 Jan 2026 16:31:25 -0000
+Message-Id: <176780348590.737382.2671685434571948439@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ardb/linux
-user: ardb
+repo: pub/scm/network/iproute2/iproute2-next
+user: dsahern
 changes:
-  - ref: refs/heads/x86-pie-v3+i386
-    old: 0a76a6ffd098da8d69a43ef45fd0d22c5a45c4ca
-    new: eb164d3975b4afb789c4e9388a1a713b5d6325e5
+  - ref: refs/heads/main
+    old: 9ba1b06a0a952c837acee6ec832726f9c5bf9543
+    new: ba4dc2f6c4594ca866e5ab5684380fef6938f5c9
     log: |
-         eb164d3975b4afb789c4e9388a1a713b5d6325e5 x86/kernel: Switch to PIE linking for the relocatable kernel
+         0443848c0bad02b8eae5f06d6584403baaf6bbb1 uapi: update mptcp and rdma headers
+         316d798a4ffc06247864a7a17a09e451583095b3 Merge remote-tracking branch 'main/main' into next
+         ba4dc2f6c4594ca866e5ab5684380fef6938f5c9 utils: do not be restrictive about alternate network device names
+         
+  - ref: refs/heads/master
+    old: 9ba1b06a0a952c837acee6ec832726f9c5bf9543
+    new: ba4dc2f6c4594ca866e5ab5684380fef6938f5c9
+    log: |
+         0443848c0bad02b8eae5f06d6584403baaf6bbb1 uapi: update mptcp and rdma headers
+         316d798a4ffc06247864a7a17a09e451583095b3 Merge remote-tracking branch 'main/main' into next
+         ba4dc2f6c4594ca866e5ab5684380fef6938f5c9 utils: do not be restrictive about alternate network device names
          
