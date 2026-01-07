@@ -1,21 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/andi.shyti/linux
-Date: Wed, 07 Jan 2026 17:51:14 -0000
-Message-Id: <176780827429.806215.17674826546175800524@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
+Date: Wed, 07 Jan 2026 17:55:26 -0000
+Message-Id: <176780852615.810042.18028325496394625145@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/andi.shyti/linux
-user: andi.shyti
+repo: pub/scm/linux/kernel/git/maz/arm-platforms
+user: maz
 changes:
-  - ref: refs/heads/i2c/i2c-host-next
-    old: e00bc30ccf965c4c47ca5aef560d470247774fe3
-    new: d97062c82cf35c325869864ec10424b76a74dd5b
+  - ref: refs/heads/arm64/lse-ftw
+    old: 3ab18194eefd2017fb1cea6764adb0634f5946da
+    new: 8748e4373f2de5410cd5246f4fa60eb1f154c6eb
     log: |
-         ad0876a84631fee7b0ad4cd8118b9696aa566671 dt-bindings: i2c: spacemit: add optional resets
-         b96259551b337225bb0e7afb3452b98435dd8b81 i2c: k1: add reset support
-         d97062c82cf35c325869864ec10424b76a74dd5b Merge branch 'i2c/i2c-host' into i2c/i2c-host-next
+         9503298d1d05f04943a761bcbd875d9c0831fbb5 arm64: Unconditionally enable PAN support
+         8748e4373f2de5410cd5246f4fa60eb1f154c6eb arm64: Unconditionally enable EPAN support
          
