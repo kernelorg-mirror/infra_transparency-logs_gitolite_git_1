@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/shuah/linux-kselftest
-Date: Wed, 07 Jan 2026 17:25:50 -0000
-Message-Id: <176780675059.784979.9533911818557240164@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/hid/hid
+Date: Wed, 07 Jan 2026 17:36:36 -0000
+Message-Id: <176780739607.793343.9858460292183407752@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/shuah/linux-kselftest
-user: shuah
+repo: pub/scm/linux/kernel/git/hid/hid
+user: bentiss
 changes:
-  - ref: refs/heads/kunit
-    old: ab150c2bbafe9425759eca1e45e08d4ad1456818
-    new: f126d688193b4dd6d0044c19771469724c03f8f8
+  - ref: refs/heads/for-6.19/upstream-fixes
+    old: f287ba5951a4b3a47305b64a3fcde5d0911adb9b
+    new: 2497ff38c530b1af0df5130ca9f5ab22c5e92f29
     log: |
-         1cabad3a00ab2e3d6bf19c5ab8fc9212d0b81e18 kunit: tool: test: Rename test_data_path() to _test_data_path()
-         f126d688193b4dd6d0044c19771469724c03f8f8 kunit: tool: test: Don't rely on implicit working directory change
+         2497ff38c530b1af0df5130ca9f5ab22c5e92f29 HID: i2c-hid: fix potential buffer overflow in i2c_hid_get_report()
          
