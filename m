@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
-Date: Wed, 07 Jan 2026 08:28:24 -0000
-Message-Id: <176777450404.298628.8538971308774061812@gitolite.kernel.org>
+Date: Wed, 07 Jan 2026 08:31:55 -0000
+Message-Id: <176777471504.302055.3393878199406158247@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,11 +11,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/brgl/linux
 user: brgl
 changes:
-  - ref: refs/heads/pwrseq/for-next
-    old: 8f0b4cce4481fb22653697cced8d0d04027cb1e8
-    new: 0eb85f468ef515fbd2538375ef3884f6dd376382
+  - ref: refs/heads/gpio/for-current
+    old: 1e876e5a0875e71e34148c9feb2eedd3bf6b2b43
+    new: a80208072df8f4ceb53cd905c1f4362f84ce397f
     log: |
-         b1857911d845136cdf627501070dd1b2dc7d0bbe power: sequencing: qcom-wcn: use device_get_match_data()
-         a5fae429ec2ac72372bc874a0334a7fb9eadee83 regulator: dt-bindings: qcom,wcn3990-pmu: describe PMUs on WCN39xx
-         0eb85f468ef515fbd2538375ef3884f6dd376382 power: sequencing: qcom-wcn: add support for WCN39xx
+         20cf2aed89ac6d78a0122e31c875228e15247194 gpio: rockchip: mark the GPIO controller as sleeping
+         0fe50631791bd3504dc7f32af6421bd4041f14aa gpio: shared: assign the correct firmware node for reset-gpio use-case
+         476e44d06fc107f8cd99695d8e4f1c792dfc3379 gpio: shared: fix a race condition
+         a80208072df8f4ceb53cd905c1f4362f84ce397f gpio: shared: don't allocate the lookup table until we really need it
          
