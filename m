@@ -1,23 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/hid/hid
-Date: Wed, 07 Jan 2026 14:27:03 -0000
-Message-Id: <176779602334.635258.11225954571479578365@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/boqun/linux
+Date: Wed, 07 Jan 2026 14:36:36 -0000
+Message-Id: <176779659637.643002.16062235327204567559@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/hid/hid
-user: bentiss
+repo: pub/scm/linux/kernel/git/boqun/linux
+user: boqun
 changes:
-  - ref: refs/heads/for-next
-    old: f39006965dd37e7be823dba6ca484adccc7a4dff
-    new: c06bc3557542307b9658fbd43cc946a14250347b
+  - ref: refs/heads/rust-sync
+    old: 3940d40603b8263388480d2c702f9654d1c3303f
+    new: 611765ec746c503fea94e6116e29c28b48baf4c0
     log: |
-         b7666c891cc7e1a157cd99bca737631c8be07504 HID: bpf: fix bpf compilation with -fms-extensions
-         e03fb369b083ab66d72fb63fe7817e933c3d4a30 selftests/hid: fix bpf compilations due to -fms-extensions
-         dd76788f9ec4f33f0f43838cac1304265d944328 hid: intel-thc-hid: Select SGL_ALLOC
-         a9a917998d172ec117f9e9de1919174153c0ace4 HID: Intel-thc-hid: Intel-thc: Add safety check for reading DMA buffer
-         c06bc3557542307b9658fbd43cc946a14250347b HID: quirks: Add another Chicony HP 5MP Cameras to hid_ignore_list
+         fb2439c6f2b3ab6799b359bdb82f742016565304 rust: helpers: Move #define __rust_helper out of atomic.c
+         8f260bf959167ad8fd109bab80a6d8db905ab961 rust: helpers: Generify the definitions of rust_helper_*_{read,set}*
+         45f138b3febf094410e7450ca2d46c43516f882d rust: helpers: Generify the definitions of rust_helper_*_xchg*
+         353b059bc8368d85ef7689fa55d15b2d95b11ffa rust: helpers: Generify the definitions of rust_helper_*_cmpxchg*
+         62f3d7786fba880d5582e7880710d034f7e0426c WIP: rust: sync: atomic: Add Atomic<*mut T> support
+         611765ec746c503fea94e6116e29c28b48baf4c0 rust: sync: rcu: Add RCU protected pointer
          
