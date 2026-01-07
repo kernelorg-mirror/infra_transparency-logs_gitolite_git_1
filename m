@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5053035228824093688=="
+Content-Type: multipart/mixed; boundary="===============4824092405321223508=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Wed, 07 Jan 2026 17:10:35 -0000
-Message-Id: <176780583506.771966.4864223190216171974@gitolite.kernel.org>
+Date: Wed, 07 Jan 2026 17:10:37 -0000
+Message-Id: <176780583737.772083.4485999706461982834@gitolite.kernel.org>
 
---===============5053035228824093688==
+--===============4824092405321223508==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/40GbE
+  - ref: refs/heads/100GbE
     old: c303e8b86d9dbd6868f5216272973292f7f3b7f1
     new: 8e7148b5602321be48614bcde048cbe1c738ce3e
     log: revlist-c303e8b86d9d-8e7148b56023.txt
 
---===============5053035228824093688==
+--===============4824092405321223508==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -49,4 +49,4 @@ f66086798f91f095ce377ca4f3d2765e305a842e net: spacemit: Remove broken flow contr
 3b7a108c4197f9fd0b593c6b4b0de457d9ed4c87 selftests/net: packetdrill: add minimal client and server tests
 8e7148b5602321be48614bcde048cbe1c738ce3e atm: idt77252: Use sb_pool_remove()
 
---===============5053035228824093688==--
+--===============4824092405321223508==--
