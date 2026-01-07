@@ -1,26 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux
-Date: Wed, 07 Jan 2026 02:10:38 -0000
-Message-Id: <176775183854.4148552.8917640860717162168@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Wed, 07 Jan 2026 02:24:20 -0000
+Message-Id: <176775266060.4157483.15517725827200843289@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux
-user: axboe
+repo: pub/scm/linux/kernel/git/netdev/net
+user: kuba
 changes:
-  - ref: refs/heads/block-6.19
-    old: 7d121d701d58a92f26decb10da1d04a88b74519d
-    new: 6acd4ac5f8f0ec9b946875553e52907700bcfc77
+  - ref: refs/heads/main
+    old: 353cfc0ef3f34ef7fe313ae38dac37f2454a7cf5
+    new: 653267321f05316f159e05b3ef562aa700632db6
     log: |
-         6acd4ac5f8f0ec9b946875553e52907700bcfc77 block: don't merge bios with different app_tags
-         
-  - ref: refs/heads/for-next
-    old: 0427c6814bff254bb3c4251968b23a502cd4f8b8
-    new: faf0be953d7a5f0a46d161485f5c2548c7beca2d
-    log: |
-         6acd4ac5f8f0ec9b946875553e52907700bcfc77 block: don't merge bios with different app_tags
-         faf0be953d7a5f0a46d161485f5c2548c7beca2d Merge branch 'block-6.19' into for-next
+         d83dddffe1904e4a576d11a541878850a8e64cd2 net: netdevsim: fix inconsistent carrier state after link/unlink
+         75df712cddfd6c76e0e255584766385648ad9529 selftests: netdevsim: add carrier state consistency test
+         653267321f05316f159e05b3ef562aa700632db6 Merge branch 'net-netdevsim-fix-inconsistent-carrier-state-after-link-unlink'
          
