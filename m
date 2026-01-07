@@ -1,44 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============1689496655543315940=="
+Content-Type: multipart/mixed; boundary="===============2705677530777884809=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/util-linux/util-linux
-Date: Wed, 07 Jan 2026 10:12:58 -0000
-Message-Id: <176778077811.380452.10747040512403165749@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/security/vulns
+Date: Wed, 07 Jan 2026 10:13:01 -0000
+Message-Id: <176778078193.380619.12185166908463140333@gitolite.kernel.org>
 
---===============1689496655543315940==
+--===============2705677530777884809==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/util-linux/util-linux
-user: kzak
+repo: pub/scm/linux/security/vulns
+user: gregkh
+git_push_cert_status: G
 changes:
   - ref: refs/heads/master
-    old: 2de0133909f6cb9ffc214993c3ffda877298d6cd
-    new: db9047892a45c06bceb5768e7bb8c887289b9859
-    log: revlist-2de0133909f6-db9047892a45.txt
+    old: f05cfe0938874e6813802ffb3a06c0867f58dd81
+    new: 9e9efee8721671bde9af7945fdaa8834bcb012ba
+    log: |
+         9e9efee8721671bde9af7945fdaa8834bcb012ba update cvelistV5
+         
 
---===============1689496655543315940==
+--===============2705677530777884809==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2de0133909f6-db9047892a45.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-b3db0865d2f28704f6cbfaecd53de8bf032f917e mount: (man) add hint for session= on iso9660
-0a9cc0ec611651c6dbcb8b825d491b2360411822 tools: verify the consistency of manpages for all programs
-1874e2f4f7ef83a0451b91dcf9a0c58d69c48868 ci: add usage message consistency check to CI CODECHECK phase
-36e124f5d400e218ae5e1f05daea9859237f6584 fdisk: (manpage) add --bytes option description
-e23992f499f49753e9455eb1ec2812a5d5fd817a flock: (manpage) fix typo in option description
-c063b1804211d28e448df57bb1a0fe963aaa3b50 hwclock: (manpage) add --param-index description
-f8f1867acccf2c6cb23a9a2b719f0c8e0ebb82b6 ipcrm: (manpage) add --verbose description
-32f18ef208d648a9ac9098a6ca60712a64108c04 lslogins: (manpage) fix typo in option description
-afd6397c1b38944d05561549e81460098eb714a2 readprofile: (manpage) add --no-auto option description
-b99038cd1ac29171063cb40b02231d5dd87b9c27 scriptlive: (manpage) add --command option description
-eefe95f10c49cf154dd78bcc0c4f034ebdfe398b setpriv: (manpage) fix typo in option description
-cf928585956e907f0979f221d2d542b89d2c0f93 sfdisk: (manpage) fix option description inconsistencies
-dbc673709d51de3bb9deab6f55ddea7374c5ce7d zramctl: (manpage) add --bytes option description
-db9047892a45c06bceb5768e7bb8c887289b9859 build-sys: (gcc) ignore -Wunused-but-set-variable for bison
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1767780778 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
+nonce 1767780778-1062ea6f78c19600736abe41507612aa2ceb6952
 
---===============1689496655543315940==--
+f05cfe0938874e6813802ffb3a06c0867f58dd81 9e9efee8721671bde9af7945fdaa8834bcb012ba refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmleMaobHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+LkAP/iPWeNp4NOpm15GsU9Ie
+PRaU7OIV6FRc7TxQ5iJbfflDm0L9ctYUm1QXwWT73PnZ2ylZ4WbIm7i1vdJIG4Uy
+/11px5V2sc/waQkZn/sQomcfCB8uFfeEeq8e/u0Du9UPw9ahDS/M4zHUFkvqK/eX
+Bt+Q7Rci7+fWETcUEoCqkSklUEtoX4LptEoUPLNfZqwq2udfM6vCrn2QhwMQ2iNx
+4hYDitjc+jsqly+N6Wn6mWD0xIO1eEOFu18wLK5hVWf2iK+KL9BgkiW8cdUtlWJL
+CYgJOcpNDCLSUvTKmDg8qUKA54rjY0VWSYjqENZH5UPywpU4ayrJfc4PJaZgHlU2
+xuRDy6XARiwg6l+QDkVzrx/fMmWjFJsxR0LBJYK84UJxUVSmiSWFHgrRu0YQw206
+cHBhF2empLgC1UUlzRmDGh9qFIpqdhHdrwbteB+u/TXrqB3KcbLcQHfS3ehuDZtB
+m4YDc4JIDEqp00hCepoaE/LIxbPpecDSbtzTtBOqyRKAEWstVBY3ChacgIBBnKHp
+rPF31PA6p9dczv+Imyq6xclsWIwa/GkiCrL+qoVzr3vNiGh+BXWm4Nd/BFkHHGCX
+2CIDY47iM7KHBUFXWQU1Dhii4VY1pZW9z+JFjFDPv9yensuxIZnMj9aquYCkH8kX
+psSiNmnh3u+CHrGJXZVz1DZO
+=YZ4n
+-----END PGP SIGNATURE-----
+
+--===============2705677530777884809==--
