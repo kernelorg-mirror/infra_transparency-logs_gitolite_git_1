@@ -1,142 +1,41 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/daeinki/drm-exynos
-Date: Wed, 07 Jan 2026 09:07:00 -0000
-Message-Id: <176777682090.330209.14245216859821928182@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============5066507337211959061=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/joel.granados/linux
+Date: Wed, 07 Jan 2026 09:17:35 -0000
+Message-Id: <176777745569.338430.15828324659521075361@gitolite.kernel.org>
+
+--===============5066507337211959061==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/daeinki/drm-exynos
-user: daeinki
+repo: pub/scm/linux/kernel/git/joel.granados/linux
+user: joel.granados
 changes:
-  - ref: refs/tags/drm-fixes-2025-09-19
-    old: 0000000000000000000000000000000000000000
-    new: ecaf69d393b3c2d94409c4ce6550ca2f684b4555
-  - ref: refs/tags/drm-fixes-2025-09-26
-    old: 0000000000000000000000000000000000000000
-    new: 8e4b742bb4c428b6e00b661c1f0b47cd4df19d69
-  - ref: refs/tags/drm-fixes-2025-10-11
-    old: 0000000000000000000000000000000000000000
-    new: 5db3fda19888efa57aa700f885c46c59acc24ce0
-  - ref: refs/tags/drm-fixes-2025-10-17
-    old: 0000000000000000000000000000000000000000
-    new: 5a57acd03d36bf5dadec9d6d967ceec0f2b8b46f
-  - ref: refs/tags/drm-fixes-2025-10-24
-    old: 0000000000000000000000000000000000000000
-    new: 3befe71c89177052df4897fb486d0fbf483708f4
-  - ref: refs/tags/drm-fixes-2025-10-31
-    old: 0000000000000000000000000000000000000000
-    new: 9715a1978daa0554be2c5a19a355a3ecb32507c3
-  - ref: refs/tags/drm-fixes-2025-11-08
-    old: 0000000000000000000000000000000000000000
-    new: 398997493126203f01615d9e0fa59b9bd0a1bbf4
-  - ref: refs/tags/drm-fixes-2025-11-09
-    old: 0000000000000000000000000000000000000000
-    new: 70f0f39e1b5b60023102b472f31b4bfff3489538
-  - ref: refs/tags/drm-fixes-2025-11-15
-    old: 0000000000000000000000000000000000000000
-    new: c8d442e9d4d7d4ec0e15efd0713c401e62c24c03
-  - ref: refs/tags/drm-fixes-2025-11-21
-    old: 0000000000000000000000000000000000000000
-    new: 97f6ea4561783a0d34109d4c1278b521884a35ec
-  - ref: refs/tags/drm-fixes-2025-11-28
-    old: 0000000000000000000000000000000000000000
-    new: e0208ed88926ce903f137cb7df85834ec22f3253
-  - ref: refs/tags/drm-fixes-2025-12-13
-    old: 0000000000000000000000000000000000000000
-    new: cf876013b8d22a6c15abfa31121bad2e55fe7c6c
-  - ref: refs/tags/drm-fixes-2025-12-20
-    old: 0000000000000000000000000000000000000000
-    new: 1dd4c79b03c28b481c352c185ec28b18ffa076c3
-  - ref: refs/tags/drm-fixes-2025-12-27
-    old: 0000000000000000000000000000000000000000
-    new: 4ee1907b82c397be8b83ac77a9e23831b5c3e305
-  - ref: refs/tags/drm-fixes-2026-01-02
-    old: 0000000000000000000000000000000000000000
-    new: f9b19430b3e5fde74b70c16bc1ae881429ba9a62
-  - ref: refs/tags/drm-misc-fixes-2025-09-18
-    old: 0000000000000000000000000000000000000000
-    new: 42b9f86ec8840e17890071200d39a79310b1d350
-  - ref: refs/tags/drm-misc-fixes-2025-09-25
-    old: 0000000000000000000000000000000000000000
-    new: d9eae72cbec5ad5177d2d803f1d7aef0538cb74e
-  - ref: refs/tags/drm-misc-fixes-2025-10-09
-    old: 0000000000000000000000000000000000000000
-    new: 51d1b90ec1ab5a2f966ad6b93dd5ca6dbd16001f
-  - ref: refs/tags/drm-misc-fixes-2025-10-16
-    old: 0000000000000000000000000000000000000000
-    new: c4af71a97f7d376606e59b65a035685e4e8fe1fd
-  - ref: refs/tags/drm-misc-fixes-2025-10-23
-    old: 0000000000000000000000000000000000000000
-    new: eefbf4a74fd36aab32fdd4b0309398c644308236
-  - ref: refs/tags/drm-misc-fixes-2025-10-30
-    old: 0000000000000000000000000000000000000000
-    new: d8334a45d51a6bb55ab485ef2fe3f89a23505409
-  - ref: refs/tags/drm-misc-fixes-2025-11-06
-    old: 0000000000000000000000000000000000000000
-    new: 57f954a2d40cdce65010e3d015b6a2f8b48c8afa
-  - ref: refs/tags/drm-misc-next-2025-10-02
-    old: 0000000000000000000000000000000000000000
-    new: 83b48735c76976b6417fdb7be3146697860881b8
-  - ref: refs/tags/drm-misc-next-2025-10-21
-    old: 0000000000000000000000000000000000000000
-    new: 883d6848bd962e03b3009ed8606db37ee5c37375
-  - ref: refs/tags/drm-misc-next-2025-10-28
-    old: 0000000000000000000000000000000000000000
-    new: 10bb2087f44a01bc77218ff92b329ea34fbff0ec
-  - ref: refs/tags/drm-misc-next-2025-11-05-1
-    old: 0000000000000000000000000000000000000000
-    new: 15ace1213c24c2b27a851f95c762a6e93c4d6ac1
-  - ref: refs/tags/drm-misc-next-2025-11-14
-    old: 0000000000000000000000000000000000000000
-    new: ffc8d2bb77839ca3bad97e0b0289ed4c5fcbe982
-  - ref: refs/tags/drm-misc-next-2025-11-14-1
-    old: 0000000000000000000000000000000000000000
-    new: e1f9f536bcdfe16870601a5fc5c45ef3d9d5a39d
-  - ref: refs/tags/drm-misc-next-2025-12-01
-    old: 0000000000000000000000000000000000000000
-    new: fb23abc61f96d245ede6bd0de4d6207fc857c77c
-  - ref: refs/tags/drm-misc-next-2025-12-01-1
-    old: 0000000000000000000000000000000000000000
-    new: 4ff4a627e43ca9eed4fe53e34e301937b3466593
-  - ref: refs/tags/drm-misc-next-fixes-2025-09-18
-    old: 0000000000000000000000000000000000000000
-    new: 772a55f5819cd7a4b6cb01120e02cccf09ac25f2
-  - ref: refs/tags/drm-misc-next-fixes-2025-09-25
-    old: 0000000000000000000000000000000000000000
-    new: b26baac2a271434033245ab95830c0fcf458dffe
-  - ref: refs/tags/drm-misc-next-fixes-2025-10-02
-    old: 0000000000000000000000000000000000000000
-    new: 8984494296cdcc9d73ca4ad8b9680ed0870e16c2
-  - ref: refs/tags/drm-misc-next-fixes-2025-11-26
-    old: 0000000000000000000000000000000000000000
-    new: 8ca73615dfeddc03a8e3d3a5780fb504ff143a27
-  - ref: refs/tags/drm-next-2025-10-01
-    old: 0000000000000000000000000000000000000000
-    new: 589d60064b81fa92b6bef89047ef447927312826
-  - ref: refs/tags/drm-next-2025-10-11
-    old: 0000000000000000000000000000000000000000
-    new: b5fed4fa7e1f300ec6571d57e3277690b81a6e8a
-  - ref: refs/tags/drm-next-2025-10-11-1
-    old: 0000000000000000000000000000000000000000
-    new: 95afe57035d74e9e72d8a9b136e3e53f416cf89f
-  - ref: refs/tags/drm-next-2025-12-03
-    old: 0000000000000000000000000000000000000000
-    new: f085c3139af98026cdb15ac87d72f1e443558413
-  - ref: refs/tags/drm-next-2025-12-05
-    old: 0000000000000000000000000000000000000000
-    new: 4a0e28a5d2c355c32c66c3de45d6e629b3249ea8
-  - ref: refs/tags/drm-next-2025-12-13
-    old: 0000000000000000000000000000000000000000
-    new: 46e3671434595dc6525ac00099e0519b648f845c
-  - ref: refs/tags/exynos-drm-fixes-v6.19-rc5
-    old: 0000000000000000000000000000000000000000
-    new: 1155665e5b06c09b79e26d2992ae1b2de1b654a6
-  - ref: refs/tags/microchip-hlcd/microchip-hlcd-drm-misc-next-2025-10-07
-    old: 0000000000000000000000000000000000000000
-    new: ebceba7217962f724c085765c749b0881ef2ad92
-  - ref: refs/tags/microchip-hlcd/microchip-hlcd-drm-misc-next-2025-10-07-1
-    old: 0000000000000000000000000000000000000000
-    new: b3b997423006ca93da8e07c736bebf561861f6f5
+  - ref: refs/heads/jag/dovec_consolidate
+    old: d49958cf1ef4a4c967cdfab48de1c7ee689227fd
+    new: 93b71f99301a43663842efdfcc356198953235d7
+    log: revlist-d49958cf1ef4-93b71f99301a.txt
+
+--===============5066507337211959061==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-d49958cf1ef4-93b71f99301a.txt
+
+e562337fffc2ba1b8c46b6cdcca9bba4acb1dd8a Changes in v3: - EDITME: describe what is new in this series revision. - EDITME: use bulletpoints and terse descriptions. - Link to v2: https://lore.kernel.org/r/20260101-jag-dovec_consolidate-v2-0-ff918f753ba9@kernel.org
+cf02222629b152a9dfe263dfce8a7afc96e87147 sysctl: Move default converter assignment out of do_proc_dointvec
+cbac93c43ece10799e6b98ff57ffc47ed7aa1dc6 sysctl: Replace do_proc_dointvec with a type-generic macro
+d1c610bb92c044b9b4e68f5e8efe98f336acd4fe sysctl: Generate do_proc_doulongvec_minmax with do_proc_dotypevec macro
+6063caa1e67c42cd49b9ade7c38350ca394cb750 sysctl: Add negp parameter to douintvec converter functions
+f831d129f23e083fc6e4d7c9761d45810e99e4c5 Squash with before
+589d6c25253df272c3505642edf0eeb3896b7a0f sysctl: Generate do_proc_douintvec with a type-generic macro
+c173116cfcbee10f330eb09fb0bb5b3c75806c1e sysctl: Rename do_proc_dotypevec macro to do_proc_typevec
+e42df06991b994870dff6fd88eb9213aaa5dab9f sysctl: Group proc_handler declarations and document
+e7b57b55acbd438fced6979abe6b5a1015f2f149 sysctl: Rename proc_doulongvec_minmax_conv to proc_doulongvec_conv
+93b71f99301a43663842efdfcc356198953235d7 sysctl: Update API function documentation
+
+--===============5066507337211959061==--
