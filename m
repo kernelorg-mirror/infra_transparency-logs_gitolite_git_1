@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1288474940258810683=="
+Content-Type: multipart/mixed; boundary="===============8709592584441708631=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs
-Date: Wed, 07 Jan 2026 03:20:55 -0000
-Message-Id: <176775605574.8437.1854703729907440595@gitolite.kernel.org>
+Date: Wed, 07 Jan 2026 03:28:02 -0000
+Message-Id: <176775648222.12856.7546974400967912996@gitolite.kernel.org>
 
---===============1288474940258810683==
+--===============8709592584441708631==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,24 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jaegeuk/f2fs
 user: jaegeuk
 changes:
-  - ref: refs/heads/dev-test
-    old: 9e34a84dbf9cf3e81efe9d8b59d79ee10019ab81
-    new: 2ff2a9420a8221dd4fb45d7e5f60e33f17914a30
-    log: revlist-9e34a84dbf9c-2ff2a9420a82.txt
+  - ref: refs/heads/dev
+    old: 4a210a5be279bfd5514dac3f5ef2c737cd984e84
+    new: 0eda086de85e140f53c6123a4c00662f4e614ee4
+    log: revlist-4a210a5be279-0eda086de85e.txt
 
---===============1288474940258810683==
+--===============8709592584441708631==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9e34a84dbf9c-2ff2a9420a82.txt
+Content-Disposition: attachment; filename=revlist-4a210a5be279-0eda086de85e.txt
 
+3250bd41d95ccdaa157ad5f128c1596e353ee7e0 f2fs: remove some redundant codes in f2fs_quota_enable
+3cb396a2c7905c3daed0b6b2c5806a95386f4581 f2fs: fix to do sanity check on nat entry of quota inode
+761dac9073cd67d4705a94cd1af674945a117f4c f2fs: fix to add gc count stat in f2fs_gc_range
+86c1cf0578c59c8e68185d86d03be846bcaef0e2 f2fs: clean up the force parameter in __submit_merged_write_cond()
+db1a8a7813f74968f79bd510fd5f0ae866bf8efd f2fs: return immediately after submitting the specified folio in __submit_merged_write_cond
+9609dd704725a40cd63d915f2ab6c44248a44598 f2fs: remove non-uptodate folio from the page cache in move_data_block
+572b1c6f2ade7afe687a385caccb717081ada070 f2fs: Update the default value of the documentation ckpt_thread_ioprio
 7ec199117c32543e0fa8787a6eedd9126523a8d4 f2fs: flush plug periodically during GC to maximize readahead effect
 79b3cebc70fcadf914d3ad1ae59d59cc62a47c46 f2fs: add lock elapsed time trace facility for f2fs rwsemphore
 e4b75621fc439399b94c4265cb54d2bda1177397 f2fs: sysfs: introduce max_lock_elapsed_time
@@ -47,6 +54,5 @@ c0c589fa1d17fc13b3be1a4dd2ec62266c2a0659 f2fs: Accounting large folio subpages b
 071e50d61cf2474bec724c10bb1ae8082ef6c237 f2fs: change seq_file_ra_mul and max_io_bytes to unsigned int
 7633a7387eb4d0259d6bea945e1d3469cd135bbc f2fs: fix IS_CHECKPOINTED flag inconsistency issue caused by concurrent atomic commit and checkpoint writes
 0eda086de85e140f53c6123a4c00662f4e614ee4 f2fs: fix to check sysfs filename w/ gc_pin_file_thresh correctly
-2ff2a9420a8221dd4fb45d7e5f60e33f17914a30 f2fs: fix use-after-free in f2fs_write_end_io
 
---===============1288474940258810683==--
+--===============8709592584441708631==--
