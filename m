@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4351681586955811327=="
+Content-Type: multipart/mixed; boundary="===============6011942331050838435=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Wed, 07 Jan 2026 01:10:54 -0000
-Message-Id: <176774825473.4092372.5336038655188841158@gitolite.kernel.org>
+Date: Wed, 07 Jan 2026 01:12:22 -0000
+Message-Id: <176774834266.4093431.11628427614377664432@gitolite.kernel.org>
 
---===============4351681586955811327==
+--===============6011942331050838435==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/dev-queue
-    old: 296f46823a8302fd8fe10f4329ecbe0593af4aec
-    new: 4bfec9bd5b33ce2bbaf7e7e0936a1fcccb41bea2
-    log: revlist-296f46823a83-4bfec9bd5b33.txt
+  - ref: refs/heads/1GbE
+    old: 7b8e9264f55a9c320f398e337d215e68cca50131
+    new: c303e8b86d9dbd6868f5216272973292f7f3b7f1
+    log: revlist-7b8e9264f55a-c303e8b86d9d.txt
 
---===============4351681586955811327==
+--===============6011942331050838435==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-296f46823a83-4bfec9bd5b33.txt
+Content-Disposition: attachment; filename=revlist-7b8e9264f55a-c303e8b86d9d.txt
 
 1b9439c933b500cb24710bbd81fe56e9b0025b6f KVM: selftests: Add missing "break" in rseq_test's param parsing
 e2b43fb25243d502ad36b07bab9de09f4b76fff9 KVM: x86: Apply runtime updates to current CPUID during KVM_SET_CPUID{,2}
@@ -517,90 +517,5 @@ ac782f4e3bfcde145b8a7f8af31d9422d94d172a ipv4: Fix reference count leak when usi
 1adaea51c61b52e24e7ab38f7d3eba023b2d050d ipv6: fix a BUG in rt6_get_pcpu_route() under PREEMPT_RT
 dbf8fe85a16a33d6b6bd01f2bc606fc017771465 Merge tag 'net-6.19-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 c303e8b86d9dbd6868f5216272973292f7f3b7f1 dt-bindings: net: mscc-miim: add microchip,lan9691-miim
-2ac4b369a6542a8cb636ed0abc9cc0dbd7747ceb ice: Fix enable_cnt imbalance on resume
-ad4157967ec533a690d317004aa633e855d90061 ice: Fix enable_cnt imbalance on PCIe error recovery
-3c6d41cb84e1aad30f018bd267c08baee6c8dcc0 i40e: Fix enable_cnt imbalance on PCIe error recovery
-47942595aa77ab7bb3d62c663e04b87ab3e85408 idpf: fix memory leak of flow steer list on rmmod
-076495bdb033333ee211bfa67d287765008b1d2a idpf: fix issue with ethtool -n command display
-3037b5035b518bf9efaac8dd39c257ff5d677519 ice: unify PHY FW loading status handler for E800 devices
-e9b97711474609a5fdb7559c43bdf46927cdf787 idpf: keep the netdev when a reset fails
-3a9922ddfe62523e78267d3efe4433c5246cd1ee idpf: fix error handling in the init_task on load
-551ff6abd448e876bc4f76f74a094dcfe84e1989 idpf: detach and close netdevs while handling a reset
-e0a5434ce1b07dbb2f6cbe73bc277a7818e0c383 idpf: fix memory leak in idpf_vport_rel()
-52f1df66e63f18ebe2ead4480d5cc8bccfa35a67 idpf: fix memory leak in idpf_vc_core_deinit()
-e0236000d92a3bc82bbd81da4929599a5156a9a5 idpf: Fix RSS LUT NULL pointer crash on early ethtool operations
-9d3eb7aeba1d61b49af46b7ff23202f81afe3686 idpf: Fix RSS LUT configuration on down interfaces
-d3657f7d17928ed58f4b0b620ab3f55208771bba idpf: Fix RSS LUT NULL ptr issue after soft reset
-3a6cb242f7794fdfa0e0c9cb36b1358fc19ed7bd igc: prepare for RSS key get/set support
-db83bfb59248250ceb99d6a01de995e1004c590a igc: expose RSS key via ethtool get_rxfh
-db324d2712acc8e4e30ff60375d83e4c4cb28dc2 igc: allow configuring RSS key via ethtool set_rxfh
-d2e5ddade047ef5f66e7af17bb1be924b58c8b13 ice: use netif_get_num_default_rss_queues()
-33e402c3a45d9d3eb7b3bec9f3743546dbb20400 idpf: cap maximum Rx buffer size
-37c85c7fd1fe71e3032e6f0d1dc300551fc48f15 i40e: fix src IP mask checks and memcpy argument names in cloud filter
-39db553d3014b523d0a12ce7486d8c38d1af80c5 idpf: Fix kernel-doc descriptions to avoid warnings
-521b209955846d791f331a5bee4bf05ca280270b idpf: Fix error handling in idpf_vport_open()
-df88d6a5fe6bf6ad32e1980542f5ca32962334ab idpf: introduce local idpf structure to store virtchnl queue chunks
-b89b47a1cc70e654b14c672e9e41db41155bceab idpf: introduce idpf_q_vec_rsrc struct and move vector resources to it
-86c1fccb678b971532e62bf67c5c4a828f19aebf idpf: move queue resources to idpf_q_vec_rsrc structure
-8945fc433b2bb01c2373df3a203dcf9eb54aa62e idpf: move some iterator declarations inside for loops
-0fbba6d2827e15032ff9adc216744676cd8afa15 idpf: reshuffle idpf_vport struct members to avoid holes
-908ba3980eec0300964adef8eb56c933347f90c7 idpf: add rss_data field to RSS function parameters
-02c5f24f8c150d5e03dd6501af192eb7246e88f6 idpf: remove vport pointer from queue sets
-6219e35c1f747c368ccf06f94df687e28e068024 idpf: generalize send virtchnl message API
-ff098690368c8feb35cd78b0baf2c6cf1330b81a idpf: avoid calling get_rx_ptypes for each vport
-d3da1577e60d5e1e91b409ad43526070460ff8c1 idpf: generalize mailbox API
-267b4573363e060d0e35aa801fe66a952c62d841 idpf: fix aux device unplugging when rdma is not supported by vport
-55b7473cceb15c55c4f11aac159bddb2674c328f virtchnl: create 'include/linux/intel' and move necessary header files
-55713bbc92df35b91d1460ddc37ad9886ced80c0 virtchnl: introduce control plane version fields
-762f35b6f45afb36843cb0e93636ce8313782e5d libie: add PCI device initialization helpers to libie
-b6f4d15b2ac77a5204565dcf86ed112008e2fd61 libeth: allow to create fill queues without NAPI
-4bc3718aaabf6ba624ddb73dbe0685faaff5bdad libie: add control queue support
-4f324058d60e455b5d4946ab444a7ab904e07653 libie: add bookkeeping support for control queue messages
-cbb4a9ab07447e971180cddbd0e59b8d740134fe idpf: remove 'vport_params_reqd' field
-f68358a87232cbf1ae6e8ae0eb63a8bd6b377ce8 idpf: refactor idpf to use libie_pci APIs
-cfeee926d3ac96a4b1648fdff8143eb345928763 idpf: refactor idpf to use libie control queues
-7db0635822b2caa2d32363aae34dcf9536231c6f idpf: make mbx_task queueing and cancelling more consistent
-7803cdf4bc95867022749352a6afaefd325a2a79 idpf: print a debug message and bail in case of non-event ctlq message
-17b148abc30eb9aba3786651e500880ea04ab16b ixd: add basic driver framework for Intel(R) Control Plane Function
-350f914cb78ba6d851cdd821b47c37a583e0cf90 ixd: add reset checks and initialize the mailbox
-31f04ff4776485cccee77facaac2de82fda3e4da ixd: add the core initialization
-05bea6a30523b26856faaae3bc5543f13e956543 ixd: add devlink support
-42fa729ebbe32a7df0069d8eff532c6e4b7c333b igc: Restore default Qbv schedule when changing channels
-f093b9025f888c768adef72e0519df2651f46c8f ice: Avoid detrimental cleanup for bond during interface stop
-db1b2b58f20451c620f7a7d1da600ef8d5e8161c ice: initialize ring_stats->syncp
-21948a22df9d3ada27433b7b782f72c2c66e6502 ice: pass pointer to ice_fetch_u64_stats_per_ring
-45dbfde5c091b459b50a9460f749cceef4c710f9 ice: remove ice_q_stats struct and use struct_group
-48f190b009ac52bac0683e0220c436f4991d1043 ice: use u64_stats API to access pkts/bytes in dim sample
-ba84a51f24525fec69594a25864b89800aa52572 ice: shorten ring stat names and add accessors
-8f412cfb0262b7274e946b4870cbc4442e18feae ice: convert all ring stats to u64_stats_t
-0f32b8fcb69d5d8ef83632c853a73cac80a43067 idpf: update idpf_up_complete() return type to void
-91e8157227dff665d9d46c7d90db13fdcbdcbe38 ice: fix missing TX timestamps interrupts on E825 devices
-800f84d52b757a521008b7060b746c731e126346 ice: stop counting UDP csum mismatch as rx_errors
-fcf74a7228610e92d75934d902f9c7a79b6d9c98 igc: fix race condition in TX timestamp read for register 0
-6f799a93cbea2761e7f613c04bd1e6c2cc3b7351 igc: Reduce TSN TX packet buffer from 7KB to 5KB per queue
-61aed12cb4cea25a5281904b21b0a3ac536d9340 i40e: fix ptp time increment while link is down
-12696cf316ce08a9c883e5774727802f654229bd ice: fix adding AQ LLDP filter for VF
-999c0a1b2a9d2b5cb41d07373947fada6469358b ixgbe: Add 10G-BX support
-5ddf1ea082be5bf93abc7a7150dc5ea13e19e7f6 ice: Fix NULL pointer dereference in ice_vsi_set_napi_queues
-5c79d056754f13bd3d96bcc8f99251e4c7c8cb95 ice: recap the VSI and QoS info after rebuild
-48826f7b3dab4f32c737a102777c088a68e899e4 libeth: pass Rx queue index to PP when creating a fill queue
-b69f4285688dd135e249723c8950dd12cdc4be77 libeth: handle creating pools with unreadable buffers
-1179763c61ef5aa4ba2cbe7a22d39d7a7e198d77 ice: migrate to netdev ops lock
-e6f48a642339fe7d90efd0fd7d23cf2476b2b547 ice: implement Rx queue management ops
-1b25b44189df5ecc8f029995ae9f8123556d79c7 ice: add support for transmitting unreadable frags
-99784db53d74a28048f22f68dfa447a3736e6584 ice: add support for unmanaged DPLL on E830 NIC
-b108350e5303192a2931a180a11df53efe8a9d70 ice: Fix incorrect timeout ice_release_res()
-d1121e1e30d01404504e26efb222a79f9f9ab947 ixgbevf: fix link setup issue
-12a3613ddc8684162d6cf2910882fc14254a91a7 idpf: read lower clock bits inside the time sandwich
-05f764c62c8517b7fa4b052846609d6aa0116543 ice: Fix persistent failure in ice_get_rxfh
-075c8eed7588afd8c219cb77501756a8763fce76 ixgbe: fix memory leaks in the ixgbe_recovery_probe() path
-3438786f41fffffea5e53b8221a8a6b0d98d02ae ixgbe: don't initialize aci lock in ixgbe_recovery_probe()
-54c31fb3e6fbe624255d2a815daedace2e79b5b6 ice: fix 'adjust' timer programming for E830 devices
-01bcdea0bfc056faeff6198a6d63401b47fb8db9 ice: add missing ice_deinit_hw() in devlink reinit path
-2dc99fde5e7c35f1d5bb87dfc1d3376c3cc2886f i40e: drop udp_tunnel_get_rx_info() call from i40e_open()
-2b5b48a8fa4fe1440b1a2790d93d1ab076a8312b ice: drop udp_tunnel_get_rx_info() call from ndo_open()
-bf0fd23849a7c03df909e9a7190039399d48931d ice: fix devlink reload call trace
-f293075649ffa7e40c85c383d67bead0035fd6f8 idpf: increment completion queue next_to_clean in sw marker wait routine
-4bfec9bd5b33ce2bbaf7e7e0936a1fcccb41bea2 i40e: drop useless bitmap_weight() call in i40e_set_rxfh_fields()
 
---===============4351681586955811327==--
+--===============6011942331050838435==--
