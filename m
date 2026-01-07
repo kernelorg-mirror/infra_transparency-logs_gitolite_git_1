@@ -1,21 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Wed, 07 Jan 2026 05:04:31 -0000
-Message-Id: <176776227182.87760.9563184042527361914@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ebiggers/linux
+Date: Wed, 07 Jan 2026 05:51:48 -0000
+Message-Id: <176776510810.124184.7224653923452812112@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: ast
+repo: pub/scm/linux/kernel/git/ebiggers/linux
+user: ebiggers
 changes:
-  - ref: refs/heads/for-next
-    old: 2421649778dca8fe6e7b166905e97278aa0fdf58
-    new: 2175ccfb93fd91d0ece74684eb7ab9443de806ec
-    log: |
-         97fb54d86d2194ea8a4cbe6cf074e6ba47b054ea bpf: adapt selftests to GCC 16 -Wunused-but-set-variable
-         681600647c59050546939da5e490c736e567fe91 bpf: GCC requires function attributes before the declarator
-         2175ccfb93fd91d0ece74684eb7ab9443de806ec Merge branch 'bpf-selftests-fixes-for-gcc-bpf-16'
-         
+  - ref: refs/heads/wip-aes
+    old: 0000000000000000000000000000000000000000
+    new: 57ec4d393d6d92762c88f994b528ccb9c68fb7ac
