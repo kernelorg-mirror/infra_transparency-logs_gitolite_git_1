@@ -1,22 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/driver-core/driver-core
-Date: Wed, 07 Jan 2026 21:28:25 -0000
-Message-Id: <176782130504.995696.14005132910380471143@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
+Date: Wed, 07 Jan 2026 21:50:26 -0000
+Message-Id: <176782262614.1013526.3696417577470899899@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/driver-core/driver-core
-user: dakr
+repo: pub/scm/linux/kernel/git/tnguy/net-queue
+user: tnguy
 changes:
-  - ref: refs/heads/driver-core-testing
-    old: 31bc0aade4e03a056a6b568571e59d3783c97ffc
-    new: d88f27d7f4a1861fe6d548d9a9c203e59489880a
+  - ref: refs/heads/dev-queue
+    old: 1b6134957ef7e60a30dc138a66232eeb9aaa2bce
+    new: f8629fc9eb2e4b20159dc2a9e005d88072ebe811
     log: |
-         6506b44e88da265688f786d379987e91b4826bf4 rust: auxiliary: use "kernel vertical" style for imports
-         da74aee2ad0dcae8a5544deace7465869890e8f0 rust: platform: use "kernel vertical" style for imports
-         52563c665b0b0b39f319bee40ecc5e8f25b9050a rust: driver-core: use "kernel vertical" style for imports
-         d88f27d7f4a1861fe6d548d9a9c203e59489880a rust: faux: use "kernel vertical" style for imports
+         e6dcb5d9f24ebcce5ddc938bb4bdfd9856c76ef4 idpf: increment completion queue next_to_clean in sw marker wait routine
+         60cdff798eb1ef5366567b57232f0debeacc918a igc: Fix trigger of incorrect irq in igc_xsk_wakeup function
+         f8629fc9eb2e4b20159dc2a9e005d88072ebe811 igb: Fix trigger of incorrect irq in igb_xsk_wakeup
          
