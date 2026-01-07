@@ -1,23 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gmonaco/linux
-Date: Wed, 07 Jan 2026 11:26:38 -0000
-Message-Id: <176778519808.493380.15544486006634342896@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gerg/m68knommu
+Date: Wed, 07 Jan 2026 11:29:44 -0000
+Message-Id: <176778538437.494516.9365354711093636563@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gmonaco/linux
-user: gmonaco
+repo: pub/scm/linux/kernel/git/gerg/m68knommu
+user: gerg
 changes:
-  - ref: refs/heads/staging_rv_mon_kunit
-    old: aa87c6b5e8020a853fbc2444ded06a93a7fc1493
-    new: 45a96d573274287926f2fd31092f229238476843
+  - ref: refs/heads/for-next
+    old: 9ace4753a5202b02191d54e9fdf7f9e3d02b85eb
+    new: adc342591f78dc164585798bd1c17602cb00fd99
     log: |
-         efd869334703eed612431ecbc9a5983198425494 fixup rvgen ha
-         6c84cac727175d7acb221b2e56ab2640f16532de rv: Add KUnit stub to rv_react() and rv_*_task_monitor_slot()
-         3811ed352911e0c0abd40896aab9196851b5128f rv: Add KUnit tests for some DA/HA monitors
-         3ede13fa617efc6ab3054f9225c5e85ccaf5d2ae rv: Add kunit stubs for current and smp_processor_id()
-         45a96d573274287926f2fd31092f229238476843 rv: Add KUnit tests for some LTL monitors
+         adc342591f78dc164585798bd1c17602cb00fd99 m68k: defconfig: Clean up references to non-existing configs
          
