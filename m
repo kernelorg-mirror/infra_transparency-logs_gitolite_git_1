@@ -1,728 +1,430 @@
-Content-Type: multipart/mixed; boundary="===============8783181333167701962=="
+Content-Type: multipart/mixed; boundary="===============8675568168739481506=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/djwong/xfstests-dev
-Date: Wed, 07 Jan 2026 00:40:57 -0000
-Message-Id: <176774645780.4062349.14161775873783330993@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/djwong/libfuse
+Date: Wed, 07 Jan 2026 00:41:24 -0000
+Message-Id: <176774648441.4062805.6773571865191467819@gitolite.kernel.org>
 
---===============8783181333167701962==
+--===============8675568168739481506==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/djwong/xfstests-dev
+repo: pub/scm/linux/kernel/git/djwong/libfuse
 user: djwong
 changes:
-  - ref: refs/heads/capture-mount-failures
-    old: dfe7d61fda7b4b35e31703aeb76c5e691050d95c
-    new: 9a93860abb813a8a2293659db4708fa632e770a0
-    log: revlist-dfe7d61fda7b-9a93860abb81.txt
   - ref: refs/heads/djwong-wtf
-    old: b00966b5e4744b25e2e279a85da0241e3595f6e3
-    new: 9960b0319a85f7f6de70d1a5cc248123f8cce687
-    log: revlist-b00966b5e474-9960b0319a85.txt
-  - ref: refs/heads/filesystem-error-reporting
-    old: c5c33f9577345eef6de67de727c2cef8358a7aca
-    new: 766d0413028aa545d03200e2dc0d49eb8071bd5e
-    log: revlist-c5c33f957734-766d0413028a.txt
-  - ref: refs/heads/fstests-6.18-fixes
-    old: c580a6d21f486e44a3b7837fa659f7e4264a2cb3
-    new: 6d1d32d22a1de1d0bf6a600bb6ede01b6c281bc2
-    log: revlist-c580a6d21f48-6d1d32d22a1d.txt
-  - ref: refs/heads/fuse2fs
-    old: 5cbfa32e8ce659b847bf5513910ef6edce611a04
-    new: f0d762fd91b791cea04f22093fa478e75890118f
-    log: revlist-5cbfa32e8ce6-f0d762fd91b7.txt
-  - ref: refs/heads/fuzz-baseline
-    old: 95b195634370e9f216fce3533196ce25b162fe67
-    new: 1bae4b90e3ad06889e014004dc228275d36085f7
-    log: revlist-95b195634370-1bae4b90e3ad.txt
-  - ref: refs/heads/health-monitoring
-    old: 46f429acb589924c1ea1ae9e392bce91cd01afc6
-    new: 766811a0dbf0c4bb1bfc30686d5f018bc0ea0483
-    log: revlist-46f429acb589-766811a0dbf0.txt
-  - ref: refs/heads/logwrites-fix-zeroing
-    old: 3f89979bda62ca70ca0398c1b6c71a38dea929dd
-    new: d1cb406eb17c90c47d3adfbaab9462ee3e0e39cf
-    log: revlist-3f89979bda62-d1cb406eb17c.txt
+    old: 5aea863322d3b5b1098c3ff6192a40a4a1437022
+    new: 3583b55b4eaa63288b56cb3a58e3e60b583b9f10
+    log: revlist-5aea863322d3-3583b55b4eaa.txt
+  - ref: refs/heads/fuse-iomap-attrs
+    old: 79c4ddcb280d03a8ce35a80e437a7080716594a4
+    new: 73efde3f3bf70a24ce0bf80eff7fe836448063f5
+    log: revlist-79c4ddcb280d-73efde3f3bf7.txt
+  - ref: refs/heads/fuse-iomap-cache
+    old: 708de67327ad40670cd31f4434d92f01a88e4b77
+    new: c5c012cefd77480da21eacaedbf425d0729f23d1
+    log: revlist-708de67327ad-c5c012cefd77.txt
+  - ref: refs/heads/fuse-iomap-fileio
+    old: 039bcf80e107f089e9b2ec3ea44ec7fdc29b03eb
+    new: 7506ff2837e9f2ead266a0176d9e7f82c72d4f00
+    log: revlist-039bcf80e107-7506ff2837e9.txt
+  - ref: refs/heads/fuse-root-nodeid
+    old: 97b34b31480fcaabf61a431f51b63f8b26be8895
+    new: 078a2d4cfb3770a0007411a15b1cd70d7b973e84
+    log: revlist-97b34b31480f-078a2d4cfb37.txt
+  - ref: refs/heads/fuse-service-container
+    old: 66520f135c9f540597719a2f15c44aa2b8d04924
+    new: 94ef82127efb98629b7ab8e166f082a7c89c8d97
+    log: revlist-66520f135c9f-94ef82127efb.txt
   - ref: refs/heads/master
-    old: df16c93a89d3a2f47cacf75c52c3d46a4fb06b93
-    new: 63a29724a85f1999e49bf0a9bf0d22643b6116e5
-    log: revlist-df16c93a89d3-63a29724a85f.txt
-  - ref: refs/heads/upgrade-newer-features
-    old: cd70b1a6095dfa3bae65e36eb69ff26ecd964a3f
-    new: 0dbefd3119914d19f2879bea0ade8b909c6bec29
-    log: revlist-cd70b1a6095d-0dbefd311991.txt
-  - ref: refs/heads/upgrade-older-features
-    old: cbb217b97f83590ef525a80d04eca4fd3db9b65f
-    new: 451526033f8db65616470b8a4d6870f9a09facac
-    log: revlist-cbb217b97f83-451526033f8d.txt
-  - ref: refs/tags/v2026.01.05
+    old: a6fdf8c4f795f671f818ac8f88d3fb89f18ab86c
+    new: 6278995cca991978abd25ebb2c20ebd3fc9e8a13
+    log: revlist-a6fdf8c4f795-6278995cca99.txt
+  - ref: refs/tags/origin/master_2026-01-06
     old: 0000000000000000000000000000000000000000
-    new: 8ccc648585663042fc36d37adbdeabfd88fd943e
-  - ref: refs/tags/fstests-6.18-fixes_2026-01-06
+    new: a3bd272f68f3cae8f218f44a7850d0599ea4de6f
+  - ref: refs/tags/fuse-iomap-fileio_2026-01-06
     old: 0000000000000000000000000000000000000000
-    new: fc5321b7a63b3e715462f4b41195e817de3d7654
-  - ref: refs/tags/logwrites-fix-zeroing_2026-01-06
+    new: 5798691af744194daf969cb57648d8c48e69b292
+  - ref: refs/tags/fuse-root-nodeid_2026-01-06
     old: 0000000000000000000000000000000000000000
-    new: e26302df8a47881c833a4a5e62a9e3652823f247
-  - ref: refs/tags/upgrade-older-features_2026-01-06
+    new: 69c8a216d7e4539afa1b88966e8d01f02fbfc1e0
+  - ref: refs/tags/fuse-iomap-attrs_2026-01-06
     old: 0000000000000000000000000000000000000000
-    new: bbddd9128db7a7861232e4a096e107e53fa698fe
-  - ref: refs/tags/capture-mount-failures_2026-01-06
+    new: 505875f24a258f25ce281359a9ddb28a0ec2a4d3
+  - ref: refs/tags/fuse-iomap-cache_2026-01-06
     old: 0000000000000000000000000000000000000000
-    new: 7288923c45d85c5afb31243134823632d7d267d7
-  - ref: refs/tags/filesystem-error-reporting_2026-01-06
+    new: 0109c019999bdcf571736c090ccd2e93c7604df0
+  - ref: refs/tags/fuse-service-container_2026-01-06
     old: 0000000000000000000000000000000000000000
-    new: fcd6ede1f98ab8ff7944a1cbcbf01a82a4782b59
-  - ref: refs/tags/health-monitoring_2026-01-06
-    old: 0000000000000000000000000000000000000000
-    new: 2487b786acf669f87436228a6d50999d5a6da881
-  - ref: refs/tags/upgrade-newer-features_2026-01-06
-    old: 0000000000000000000000000000000000000000
-    new: ec25aea1a2de6eb64a2b74fe1640c9659e18bca2
-  - ref: refs/tags/fuse2fs_2026-01-06
-    old: 0000000000000000000000000000000000000000
-    new: 298e0e5e13250cec265afcb5a8de5c710a25e289
-  - ref: refs/tags/fuzz-baseline_2026-01-06
-    old: 0000000000000000000000000000000000000000
-    new: 1ef2b378db70d46f98886ca83331db17a21d727b
+    new: 3dcd4a226463cedd19dc1b3cb46d3e8146ea730b
   - ref: refs/tags/djwong-wtf_2026-01-06
     old: 0000000000000000000000000000000000000000
-    new: 7d61e6b2a64bc42dab50b9dadd41d72a69125a08
+    new: 6a6e33e9622a4360079207ea549dee1182ab3544
 
---===============8783181333167701962==
+--===============8675568168739481506==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-dfe7d61fda7b-9a93860abb81.txt
+Content-Disposition: attachment; filename=revlist-5aea863322d3-3583b55b4eaa.txt
 
-ffd562ecf44aff10b74c35c6f961614db5198ca9 punch-alternating: prevent punching all extents
-f02d4965d48f59f53a729e9ddd55fb8fcc373f85 generic: use _qmount_option and _qmount
-f4ec120ffd251564cc78d6d0dae78ca93cb5b648 xfs: add a test that zoned file systems with rump RTG can't be mounted
-960384aa2c46622dc0048f417a18be2d09166f83 xfs: test that RT growfs not aligned to zone size fails
-7e972aff4801afb44b9faea4a7598a311b887fc0 xfs: test that mkfs creates zone-aligned RT devices
-eb2ad950ea90d8d8d861f8beac138d6a19f0f819 dmflakey: override SCRATCH_DEV in _init_flakey
-5dbc7499a3b2e4a99c02c1b45c3a2d33d443a8b6 ext4/006: call e2fsck directly
-a63b4556fc740792188a56b2ae61afb6b02635ac common: add a _check_dev_fs helper
-cd74736e17949b32c6e680b8f83755f147558a6f ext4/032: use _check_dev_fs
-901f00980f0e0cc28d15e9a4865d1a58d8c35af5 generic/590: split XFS RT specific bits out
-255cb1f0dd6e9c604f01acc49b1d735916e80514 xfs/157: don't override SCRATCH_{,LOG,RT}DEV
-4460f5d01c7e6f1ac62fd9d62f7f9c300d998e6e xfs/185: don't use SCRATCH_{,RT}DEV helpers
-30ee67e320de8af77f28c96d280f34c606b54d6a xfs/424: don't use SCRATCH_DEV helpers
-0d89f8063ece5ece81d44acef2dbd51bc74f8ae5 xfs/521: require a real SCRATCH_RTDEV
-e157f480a308e0c9e4d8abcc8c3f6463c61905fc xfs/521: call _require_scratch_size
-70824203cb6827179236de0b37ea41123cbe462e xfs/528: require a real SCRATCH_RTDEV
-90f6065005e7feec44a0fa45785284df3a1b525d xfs/530: require a real SCRATCH_RTDEV
-cfb2146bc959fde3633bcec1ed53f359babea4cb xfs/650: require a real SCRATCH_RTDEV
-1a1521a039d43a106b301bef17267c82686ddf6a fstests: fix flaky device name in _cleanup_flakey
-36836607c9e79c9d18de5affcc05ce723ad16a7b check: put temporary files in TMPDIR, not /tmp
-d49e334213756882160117c27afa5c3b627760e6 common/rc: fix _xfs_is_realtime_file for internal rt devices
-fdc576ef62e27179e4b606e6b4797a1b38ea2f7a xfs/649: fix various problems
-fb14379b8dbcc96b58773934ed1e2e31288e6d96 MAINTAINERS: update entry for Anand Jain
-ad2b96dd66ef34798c83aef841930bf90797b874 xfs/490: fix failure due to deprecated ikeep mount option
-1da7f10cd89d3392f68cadf7c08f43107c9c0295 fstests: btrfs: add a new test case to verify quick qgroup inherit
-657410a19ab577a946d1d8ba94e0254b5a034ab1 fstests: generic/746: update the parser to handle block group tree
-80259c855ad782c66133e5ed06cf569857dd1f97 fstests: btrfs/301: use correct blocksize to fill the fs
-4c7968b86932ad2e8ae6fa480896ec7174dec9df fstests: btrfs/226: skip the test for bs > ps cases
-71131073bc76e4559b9689625687e063c4704ba9 common/quota: fix to wait for all inodes been evicted in _check_quota_usage()
-e45c90fedb0b6107ea73ee2812ce823f4f2a0f6e generic/020: limit xattr value by 3802 bytes
-63a29724a85f1999e49bf0a9bf0d22643b6116e5 xfstests: add HFS/HFS+ and NILFS2 into supported FS table
-6d1d32d22a1de1d0bf6a600bb6ede01b6c281bc2 xfs/614: fix test for parent pointers
-6f96533b35a8ce214438562d60fa2a5df164201f logwrites: warn if we don't think read after discard returns zeroes
-b913502ffda5277e5bbbca47d67b9222efa61ad9 logwrites: use BLKZEROOUT if it's available
-d1cb406eb17c90c47d3adfbaab9462ee3e0e39cf logwrites: only use BLKDISCARD if we know discard zeroes data
-451526033f8db65616470b8a4d6870f9a09facac xfs: test upgrading old features
-73b0acae5b8708d70f31bdae0adedf222b379e4d treewide: convert all $MOUNT_PROG to _mount
-9a93860abb813a8a2293659db4708fa632e770a0 check: capture dmesg of mount failures if test fails
+033e0c3fbeb643bbd4e7775849975b6c3f754972 build(deps): bump github/codeql-action from 4.31.7 to 4.31.8
+2bb27d8197cb9a3c6f0e7f17aa0cd96f1053ff47 fuse-io-uring: Handle EAGAIN/EINTR in fuse-io-uring
+834a496b5ec0380db12f1e0d1d8435d118965e83 fuse-io-uring: Function rename and split into two function
+b9cae498ff9df22d785128576c0b13077452a7c4 fuse-io-uring: Initialize queue->eventfd
+8e536dcb767f31aae986cc4aff5a1a56420c7de5 fuse-io-uring: Add a lock around io_uring_submit / io_uring_submit_and_wait
+7a76588f0639782b82f94f9d0036816bfec48c30 Add signify verification in make_release_tarball.sh
+c5050b72933c11ede95516a86744db3bda7c263f Prepare 3.18.0 release
+dae44ec38ab24ca6ff0d8eb57147d012ca037559 prepare 3.18.0 release v2
+1218c865b7eaf5e5f47e2b5353b106cb8a8e74ef Fix fuse version script / 3.17.3 to 3.18
+fef782261a53c72c2dfcb3a3b2ca3cd1abace92c Add an ABI check for the last tag of the previous release
+1a99fb2c57f44f981cda7774b4a7da0b4ecb3d45 fuse_uring: remove duplicate fuse_uring resource init
+8fd68792ae578ebe7abebe48f752a1c3bd5a1d01 build(deps): bump github/codeql-action from 4.31.8 to 4.31.9
+37dac0ee019a42e81cd1f388fab629fc438006dc Add doc/ChangeLog-API.rst
+a32cec008c090691cc11fd9d9f0fc98a107c8777 Add lowlevel ioctl examples and tests
+b2852e09afe38e318b50bd4a14f8a3fc0f27612c make_release_tarball.sh: Fix signify verification
+28d3f4b42d6fd222c76cf533b5cced44aa3aca0d fuse_lowlevel.h: Some minor cleanups from clang-format
+562f901226eba137226acd38e244e7d3dd43a41d Fix 'find_previous_release_tag.sh' if current version has no tag
+cd4a7963856ca57ed438f0b1208b34e0bb88bad3 Increase the build version to 3.19-rc0
+6278995cca991978abd25ebb2c20ebd3fc9e8a13 fuse lowlevel: Add a teardown watchdog feature
+52fc72770c98890503e3c38b727d34e619b51cfc libfuse: bump kernel and library ABI versions
+360994ac60738a2c9f05860fcb6d327be53f629b libfuse: wait in do_destroy until all open files are closed
+c453431cc174feb8ebfca2102a203988ac2c8bd4 libfuse: add kernel gates for FUSE_IOMAP
+102e3f6906ff912c41a2314fdb5832c97721e0d5 libfuse: add fuse commands for iomap_begin and end
+bc3da72f81c62dc08de3f93afc839bff02577464 libfuse: add upper level iomap commands
+e44bb450dc028da0c7d329c35db050573abfa91a libfuse: add a lowlevel notification to add a new device to iomap
+992499c35fc487434be0d7cd59868d84e3b41773 libfuse: add upper-level iomap add device function
+00666e9d004f1d65f8ccdbfe2d4b15ba84ec815a libfuse: add iomap ioend low level handler
+141d959a2425bf9c3c49ddb1c6ee7c6556612e89 libfuse: add upper level iomap ioend commands
+cb825f352451fa8d8a2796ffbe7235c6bd005f45 libfuse: add a reply function to send FUSE_ATTR_* to the kernel
+640fef08ab4f920abeca7ca06531ef5d2947ed7b libfuse: connect high level fuse library to fuse_reply_attr_iflags
+4e1ce016c214d28747d6ab62debee50e6eb1cf5d libfuse: support direct I/O through iomap
+e69464a2a0582600d74abeacc131b39547a68e4f libfuse: don't allow hardlinking of iomap files in the upper level fuse library
+d382eca64ef66e2ae210c5034ca2d76a7e686d32 libfuse: allow discovery of the kernel's iomap capabilities
+c813d49998c1ebe7f6bbc62d02dcc84b17d09400 libfuse: add lower level iomap_config implementation
+da01000f60d7ff2705d6a42d616437dc3eff98ff libfuse: add upper level iomap_config implementation
+3efd99a9febdc26a8dac7d4883d89e7cab71009b libfuse: add low level code to invalidate iomap block device ranges
+bdd4fecc0457b46481f81ea06096e40e0660a1fc libfuse: add upper-level API to invalidate parts of an iomap block device
+2691ddde3166267b87350df13d0b1067c8d4f804 libfuse: add atomic write support
+811baeed6fbb803fd7b568276564a571aa985fab libfuse: create a helper to transform an open regular file into an open loopdev
+a1b154a01943fd8ca8a082fb1cd6882249067526 libfuse: add swapfile support for iomap files
+a55188775863374744cc85ce407b48eab2e8613f libfuse: add lower-level filesystem freeze, thaw, and shutdown requests
+7506ff2837e9f2ead266a0176d9e7f82c72d4f00 libfuse: add upper-level filesystem freeze, thaw, and shutdown events
+078a2d4cfb3770a0007411a15b1cd70d7b973e84 libfuse: allow root_nodeid mount option
+82afc836c2199009197a27e7f1db1b54b5788082 libfuse: add strictatime/lazytime mount options
+d7d40e3d5bbe903ad1d2eaf61a738bc729e24dfc libfuse: set sync, immutable, and append when loading files
+89d324ce91f5eb830a6a77fbabe5f5aa09b1beb3 libfuse: wire up FUSE_SYNCFS to the low level library
+73efde3f3bf70a24ce0bf80eff7fe836448063f5 libfuse: add syncfs support to the upper library
+26baaec0eaea9bdb0a688f2e940ae1d9ba5f48ca libfuse: enable iomap cache management for lowlevel fuse
+71961ea86acfb8bf4174e5fb01d7119e6e4eb3cc libfuse: add upper-level iomap cache management
+c5c012cefd77480da21eacaedbf425d0729f23d1 libfuse: enable iomap
+bee4755918d4d3d0808907c73e52fb991ac20743 libfuse: add systemd/inetd socket service mounting helper
+a81f371151d7ba002d2e41a92f4dd4b94b3e95d2 libfuse: integrate fuse services into mount.fuse3
+581b10e245488de7476336e7e444844a12241800 libfuse: delegate iomap privilege from mount.service to fuse services
+0b174be952087294958bd7c70293e2a189c5285a libfuse: enable setting iomap block device block size
+94ef82127efb98629b7ab8e166f082a7c89c8d97 fuservicemount: create loop devices for regular files
+54fd41a9f3bfaf6df64a8035e17c5a83229bc4bc libfuse: import packaging
+3583b55b4eaa63288b56cb3a58e3e60b583b9f10 libfuse: modify debian packaging for development tree
 
---===============8783181333167701962==
+--===============8675568168739481506==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b00966b5e474-9960b0319a85.txt
+Content-Disposition: attachment; filename=revlist-79c4ddcb280d-73efde3f3bf7.txt
 
-ffd562ecf44aff10b74c35c6f961614db5198ca9 punch-alternating: prevent punching all extents
-f02d4965d48f59f53a729e9ddd55fb8fcc373f85 generic: use _qmount_option and _qmount
-f4ec120ffd251564cc78d6d0dae78ca93cb5b648 xfs: add a test that zoned file systems with rump RTG can't be mounted
-960384aa2c46622dc0048f417a18be2d09166f83 xfs: test that RT growfs not aligned to zone size fails
-7e972aff4801afb44b9faea4a7598a311b887fc0 xfs: test that mkfs creates zone-aligned RT devices
-eb2ad950ea90d8d8d861f8beac138d6a19f0f819 dmflakey: override SCRATCH_DEV in _init_flakey
-5dbc7499a3b2e4a99c02c1b45c3a2d33d443a8b6 ext4/006: call e2fsck directly
-a63b4556fc740792188a56b2ae61afb6b02635ac common: add a _check_dev_fs helper
-cd74736e17949b32c6e680b8f83755f147558a6f ext4/032: use _check_dev_fs
-901f00980f0e0cc28d15e9a4865d1a58d8c35af5 generic/590: split XFS RT specific bits out
-255cb1f0dd6e9c604f01acc49b1d735916e80514 xfs/157: don't override SCRATCH_{,LOG,RT}DEV
-4460f5d01c7e6f1ac62fd9d62f7f9c300d998e6e xfs/185: don't use SCRATCH_{,RT}DEV helpers
-30ee67e320de8af77f28c96d280f34c606b54d6a xfs/424: don't use SCRATCH_DEV helpers
-0d89f8063ece5ece81d44acef2dbd51bc74f8ae5 xfs/521: require a real SCRATCH_RTDEV
-e157f480a308e0c9e4d8abcc8c3f6463c61905fc xfs/521: call _require_scratch_size
-70824203cb6827179236de0b37ea41123cbe462e xfs/528: require a real SCRATCH_RTDEV
-90f6065005e7feec44a0fa45785284df3a1b525d xfs/530: require a real SCRATCH_RTDEV
-cfb2146bc959fde3633bcec1ed53f359babea4cb xfs/650: require a real SCRATCH_RTDEV
-1a1521a039d43a106b301bef17267c82686ddf6a fstests: fix flaky device name in _cleanup_flakey
-36836607c9e79c9d18de5affcc05ce723ad16a7b check: put temporary files in TMPDIR, not /tmp
-d49e334213756882160117c27afa5c3b627760e6 common/rc: fix _xfs_is_realtime_file for internal rt devices
-fdc576ef62e27179e4b606e6b4797a1b38ea2f7a xfs/649: fix various problems
-fb14379b8dbcc96b58773934ed1e2e31288e6d96 MAINTAINERS: update entry for Anand Jain
-ad2b96dd66ef34798c83aef841930bf90797b874 xfs/490: fix failure due to deprecated ikeep mount option
-1da7f10cd89d3392f68cadf7c08f43107c9c0295 fstests: btrfs: add a new test case to verify quick qgroup inherit
-657410a19ab577a946d1d8ba94e0254b5a034ab1 fstests: generic/746: update the parser to handle block group tree
-80259c855ad782c66133e5ed06cf569857dd1f97 fstests: btrfs/301: use correct blocksize to fill the fs
-4c7968b86932ad2e8ae6fa480896ec7174dec9df fstests: btrfs/226: skip the test for bs > ps cases
-71131073bc76e4559b9689625687e063c4704ba9 common/quota: fix to wait for all inodes been evicted in _check_quota_usage()
-e45c90fedb0b6107ea73ee2812ce823f4f2a0f6e generic/020: limit xattr value by 3802 bytes
-63a29724a85f1999e49bf0a9bf0d22643b6116e5 xfstests: add HFS/HFS+ and NILFS2 into supported FS table
-6d1d32d22a1de1d0bf6a600bb6ede01b6c281bc2 xfs/614: fix test for parent pointers
-6f96533b35a8ce214438562d60fa2a5df164201f logwrites: warn if we don't think read after discard returns zeroes
-b913502ffda5277e5bbbca47d67b9222efa61ad9 logwrites: use BLKZEROOUT if it's available
-d1cb406eb17c90c47d3adfbaab9462ee3e0e39cf logwrites: only use BLKDISCARD if we know discard zeroes data
-451526033f8db65616470b8a4d6870f9a09facac xfs: test upgrading old features
-73b0acae5b8708d70f31bdae0adedf222b379e4d treewide: convert all $MOUNT_PROG to _mount
-9a93860abb813a8a2293659db4708fa632e770a0 check: capture dmesg of mount failures if test fails
-766d0413028aa545d03200e2dc0d49eb8071bd5e generic: test fsnotify filesystem error reporting
-7c283936894a45a52f574c0ec25f6dd40b8a26fa xfs: test health monitoring code
-15b47eab382881d5d667d9e1ec60e9db5dc8aa17 xfs: test for metadata corruption error reporting via healthmon
-c8b33860c959b2b9618f04163cfc1fda9751514c xfs: test io error reporting via healthmon
-766811a0dbf0c4bb1bfc30686d5f018bc0ea0483 xfs: test new xfs_healer daemon
-570302a7cd09fab0efbbef3a46dc9a75a61dc0ed xfs/1856: add metadir upgrade to test matrix
-b053142ba4979eb90629e7ed3fecf985589fe56e xfs/1856: add rtrmapbt upgrade to test matrix
-19cce911801e2005026628716b60022210c3aada xfs/1856: add rtreflink upgrade to test matrix
-0dbefd3119914d19f2879bea0ade8b909c6bec29 xfs/1856: tweak need_metadir for zoned filesystems
-cb17ae7ebc24a7b9dab6b1a654ec14b33c232fc6 misc: adapt tests to handle the fuse ext[234] drivers
-f49ab807d14cf576513a4cf82c44cfc3fb1fbc01 generic/740: don't run this test for fuse ext* implementations
-745355d8cc852725f785e3effc23180315a3d00b ext/052: use popdir.pl for much faster directory creation
-6f9d8c8262ec74ce5266821272f886db78c34723 common/rc: skip test if swapon doesn't work for ext*
-9e03cab4c2613f810acfcfffdf68722620464268 common/rc: streamline _scratch_remount
-91245ce28df35cbbe3297fcebd74b02e72e7bdbb ext/039: require metadata journalling
-553e0d0d7613748b4740ef0bf27bbd078c420f6e populate: don't check for htree directories on fuse.ext4
-aae9b1d42cb492844189113f26fa1a20faa141fd misc: convert _scratch_mount -o remount to _scratch_remount
-c111bd6c9377e36badf4d1658747d6f7a835ecdf misc: use explicitly $FSTYP'd mount calls
-c0c9b006c07539c03bf1cda401bcc52517296924 common/ext4: explicitly format with $FSTYP
-8aa4a4291b998c45896e62188a9d116b52b285fe tests/ext*: refactor open-coded _scratch_mkfs_sized calls
-88f0e00559a904988cb8fb5fbdd8afe2830a430c generic/732: disable for fuse.ext4
-64b15c5051b42fb65e72295d8ac106c222988cb4 defrag: fix ext4 defrag ioctl test
-0a2add1199b0f4aef0fcb41f2a704e3fc13032aa misc: explicitly require online resize support
-3ad6b287256ae4bc55aed91011fd7ccc2f5dbb0e ext4/004: disable for fuse2fs
-52a5fa4720de35972dc37a7c199479c295f92ad2 generic/679: disable for fuse2fs
-47cfddd41cccc25648c5a81e10b6e219c0c5265c ext4/045: don't run the long dirent test on fuse2fs
-252e566d8b00e7937317e0d18910e870d2f98daa generic/338: skip test if we can't mount with strictatime
-f2add027e50c8480cb5ad2edb1597695286b5e19 generic/563: fuse doesn't support cgroup-aware writeback accounting
-35cd14e1272fa8dfb6ad8894c86a573159335b25 misc: use a larger buffer size for pwrites
-7f399478cfb31ac0110159ae75cc87f764d12ea6 ext4/046: don't run this test if dioread_nolock not supported
-f56307be622077a783982d63e85850b0d087a07f generic/631: don't run test if we can't mount overlayfs
-a618bc1b11ce21f8ac1668ba5a184460aad29604 generic/{409,410,411,589}: check for stacking mount support
-da6bbcb4391f08612edf9f63cc254f716e0e5673 generic: add _require_hardlinks to tests that require hardlinks
-ea9c0bd52b0e7b8e5ff42685997d88bc90a5ae94 ext4/001: check for fiemap support
-80dc5c02ed93382826648bcad37b8ec8f678d3ce generic/622: check that strictatime/lazytime actually work
-7ac6d110c45dbb5e5f46ddf09818aded0b0fdadd generic/050: skip test because fuse2fs doesn't have stable output
-5f08e47d2752e1d2b37b0c74a73f59830bf5eb27 generic/405: don't stall on mkfs asking for input
-1c51ef4c37cf6efb3e307a4a9707109abd843cfb ext4/006: fix this test
-d18d9be316861b2861eab7e08b3c6a0503deeff6 ext4/009: fix ENOSPC errors
-fe61cc6def1f3647a5d522b1761d4251a277bf98 ext4/022: adjust to fuse2fs i_extra_size behavior
-84504f0ae59edd5db45daf0babdf122ffb5bd95c generic/730: adapt test for fuse filesystems
-f0d762fd91b791cea04f22093fa478e75890118f fuse2fs: hack around weird corruption problems
-23833d524caed587a888b2b7efde97dcb684c3d3 xfs: online fuzz test known output
-e8990199103e281b7c54247fad09890bf133d333 xfs: offline fuzz test known output
-66ae378549b24448bf00662007c7b76a87912313 xfs: norepair fuzz test known output
-1bae4b90e3ad06889e014004dc228275d36085f7 xfs: bothrepair fuzz test known output
-1bf95a084c5499bbc85a9ff9dc5f4eb5c3b128b2 debug some arm problem
-a691e7aa0f1fdb45efbd0e6e4d13465d5e39fd83 generic/230: extend grace period to 6 seconds
-824ad945640101cca1b2c6a76ab9b84691f1eb69 does this fix the writeback invalidation test on arm64?
-af50d341684258baf2ebd8df850e3a7f06626cdc force local definition until we stabilize abi
-b201138feb0e552ea76c0ea6309b73865faa2164 revert commit 790f4d8444fa4b ("xfs: new EOF fragmentation tests")
-9960b0319a85f7f6de70d1a5cc248123f8cce687 selftest: add tests for dmesg and mount failure collection
+033e0c3fbeb643bbd4e7775849975b6c3f754972 build(deps): bump github/codeql-action from 4.31.7 to 4.31.8
+2bb27d8197cb9a3c6f0e7f17aa0cd96f1053ff47 fuse-io-uring: Handle EAGAIN/EINTR in fuse-io-uring
+834a496b5ec0380db12f1e0d1d8435d118965e83 fuse-io-uring: Function rename and split into two function
+b9cae498ff9df22d785128576c0b13077452a7c4 fuse-io-uring: Initialize queue->eventfd
+8e536dcb767f31aae986cc4aff5a1a56420c7de5 fuse-io-uring: Add a lock around io_uring_submit / io_uring_submit_and_wait
+7a76588f0639782b82f94f9d0036816bfec48c30 Add signify verification in make_release_tarball.sh
+c5050b72933c11ede95516a86744db3bda7c263f Prepare 3.18.0 release
+dae44ec38ab24ca6ff0d8eb57147d012ca037559 prepare 3.18.0 release v2
+1218c865b7eaf5e5f47e2b5353b106cb8a8e74ef Fix fuse version script / 3.17.3 to 3.18
+fef782261a53c72c2dfcb3a3b2ca3cd1abace92c Add an ABI check for the last tag of the previous release
+1a99fb2c57f44f981cda7774b4a7da0b4ecb3d45 fuse_uring: remove duplicate fuse_uring resource init
+8fd68792ae578ebe7abebe48f752a1c3bd5a1d01 build(deps): bump github/codeql-action from 4.31.8 to 4.31.9
+37dac0ee019a42e81cd1f388fab629fc438006dc Add doc/ChangeLog-API.rst
+a32cec008c090691cc11fd9d9f0fc98a107c8777 Add lowlevel ioctl examples and tests
+b2852e09afe38e318b50bd4a14f8a3fc0f27612c make_release_tarball.sh: Fix signify verification
+28d3f4b42d6fd222c76cf533b5cced44aa3aca0d fuse_lowlevel.h: Some minor cleanups from clang-format
+562f901226eba137226acd38e244e7d3dd43a41d Fix 'find_previous_release_tag.sh' if current version has no tag
+cd4a7963856ca57ed438f0b1208b34e0bb88bad3 Increase the build version to 3.19-rc0
+6278995cca991978abd25ebb2c20ebd3fc9e8a13 fuse lowlevel: Add a teardown watchdog feature
+52fc72770c98890503e3c38b727d34e619b51cfc libfuse: bump kernel and library ABI versions
+360994ac60738a2c9f05860fcb6d327be53f629b libfuse: wait in do_destroy until all open files are closed
+c453431cc174feb8ebfca2102a203988ac2c8bd4 libfuse: add kernel gates for FUSE_IOMAP
+102e3f6906ff912c41a2314fdb5832c97721e0d5 libfuse: add fuse commands for iomap_begin and end
+bc3da72f81c62dc08de3f93afc839bff02577464 libfuse: add upper level iomap commands
+e44bb450dc028da0c7d329c35db050573abfa91a libfuse: add a lowlevel notification to add a new device to iomap
+992499c35fc487434be0d7cd59868d84e3b41773 libfuse: add upper-level iomap add device function
+00666e9d004f1d65f8ccdbfe2d4b15ba84ec815a libfuse: add iomap ioend low level handler
+141d959a2425bf9c3c49ddb1c6ee7c6556612e89 libfuse: add upper level iomap ioend commands
+cb825f352451fa8d8a2796ffbe7235c6bd005f45 libfuse: add a reply function to send FUSE_ATTR_* to the kernel
+640fef08ab4f920abeca7ca06531ef5d2947ed7b libfuse: connect high level fuse library to fuse_reply_attr_iflags
+4e1ce016c214d28747d6ab62debee50e6eb1cf5d libfuse: support direct I/O through iomap
+e69464a2a0582600d74abeacc131b39547a68e4f libfuse: don't allow hardlinking of iomap files in the upper level fuse library
+d382eca64ef66e2ae210c5034ca2d76a7e686d32 libfuse: allow discovery of the kernel's iomap capabilities
+c813d49998c1ebe7f6bbc62d02dcc84b17d09400 libfuse: add lower level iomap_config implementation
+da01000f60d7ff2705d6a42d616437dc3eff98ff libfuse: add upper level iomap_config implementation
+3efd99a9febdc26a8dac7d4883d89e7cab71009b libfuse: add low level code to invalidate iomap block device ranges
+bdd4fecc0457b46481f81ea06096e40e0660a1fc libfuse: add upper-level API to invalidate parts of an iomap block device
+2691ddde3166267b87350df13d0b1067c8d4f804 libfuse: add atomic write support
+811baeed6fbb803fd7b568276564a571aa985fab libfuse: create a helper to transform an open regular file into an open loopdev
+a1b154a01943fd8ca8a082fb1cd6882249067526 libfuse: add swapfile support for iomap files
+a55188775863374744cc85ce407b48eab2e8613f libfuse: add lower-level filesystem freeze, thaw, and shutdown requests
+7506ff2837e9f2ead266a0176d9e7f82c72d4f00 libfuse: add upper-level filesystem freeze, thaw, and shutdown events
+078a2d4cfb3770a0007411a15b1cd70d7b973e84 libfuse: allow root_nodeid mount option
+82afc836c2199009197a27e7f1db1b54b5788082 libfuse: add strictatime/lazytime mount options
+d7d40e3d5bbe903ad1d2eaf61a738bc729e24dfc libfuse: set sync, immutable, and append when loading files
+89d324ce91f5eb830a6a77fbabe5f5aa09b1beb3 libfuse: wire up FUSE_SYNCFS to the low level library
+73efde3f3bf70a24ce0bf80eff7fe836448063f5 libfuse: add syncfs support to the upper library
 
---===============8783181333167701962==
+--===============8675568168739481506==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c5c33f957734-766d0413028a.txt
+Content-Disposition: attachment; filename=revlist-708de67327ad-c5c012cefd77.txt
 
-ffd562ecf44aff10b74c35c6f961614db5198ca9 punch-alternating: prevent punching all extents
-f02d4965d48f59f53a729e9ddd55fb8fcc373f85 generic: use _qmount_option and _qmount
-f4ec120ffd251564cc78d6d0dae78ca93cb5b648 xfs: add a test that zoned file systems with rump RTG can't be mounted
-960384aa2c46622dc0048f417a18be2d09166f83 xfs: test that RT growfs not aligned to zone size fails
-7e972aff4801afb44b9faea4a7598a311b887fc0 xfs: test that mkfs creates zone-aligned RT devices
-eb2ad950ea90d8d8d861f8beac138d6a19f0f819 dmflakey: override SCRATCH_DEV in _init_flakey
-5dbc7499a3b2e4a99c02c1b45c3a2d33d443a8b6 ext4/006: call e2fsck directly
-a63b4556fc740792188a56b2ae61afb6b02635ac common: add a _check_dev_fs helper
-cd74736e17949b32c6e680b8f83755f147558a6f ext4/032: use _check_dev_fs
-901f00980f0e0cc28d15e9a4865d1a58d8c35af5 generic/590: split XFS RT specific bits out
-255cb1f0dd6e9c604f01acc49b1d735916e80514 xfs/157: don't override SCRATCH_{,LOG,RT}DEV
-4460f5d01c7e6f1ac62fd9d62f7f9c300d998e6e xfs/185: don't use SCRATCH_{,RT}DEV helpers
-30ee67e320de8af77f28c96d280f34c606b54d6a xfs/424: don't use SCRATCH_DEV helpers
-0d89f8063ece5ece81d44acef2dbd51bc74f8ae5 xfs/521: require a real SCRATCH_RTDEV
-e157f480a308e0c9e4d8abcc8c3f6463c61905fc xfs/521: call _require_scratch_size
-70824203cb6827179236de0b37ea41123cbe462e xfs/528: require a real SCRATCH_RTDEV
-90f6065005e7feec44a0fa45785284df3a1b525d xfs/530: require a real SCRATCH_RTDEV
-cfb2146bc959fde3633bcec1ed53f359babea4cb xfs/650: require a real SCRATCH_RTDEV
-1a1521a039d43a106b301bef17267c82686ddf6a fstests: fix flaky device name in _cleanup_flakey
-36836607c9e79c9d18de5affcc05ce723ad16a7b check: put temporary files in TMPDIR, not /tmp
-d49e334213756882160117c27afa5c3b627760e6 common/rc: fix _xfs_is_realtime_file for internal rt devices
-fdc576ef62e27179e4b606e6b4797a1b38ea2f7a xfs/649: fix various problems
-fb14379b8dbcc96b58773934ed1e2e31288e6d96 MAINTAINERS: update entry for Anand Jain
-ad2b96dd66ef34798c83aef841930bf90797b874 xfs/490: fix failure due to deprecated ikeep mount option
-1da7f10cd89d3392f68cadf7c08f43107c9c0295 fstests: btrfs: add a new test case to verify quick qgroup inherit
-657410a19ab577a946d1d8ba94e0254b5a034ab1 fstests: generic/746: update the parser to handle block group tree
-80259c855ad782c66133e5ed06cf569857dd1f97 fstests: btrfs/301: use correct blocksize to fill the fs
-4c7968b86932ad2e8ae6fa480896ec7174dec9df fstests: btrfs/226: skip the test for bs > ps cases
-71131073bc76e4559b9689625687e063c4704ba9 common/quota: fix to wait for all inodes been evicted in _check_quota_usage()
-e45c90fedb0b6107ea73ee2812ce823f4f2a0f6e generic/020: limit xattr value by 3802 bytes
-63a29724a85f1999e49bf0a9bf0d22643b6116e5 xfstests: add HFS/HFS+ and NILFS2 into supported FS table
-6d1d32d22a1de1d0bf6a600bb6ede01b6c281bc2 xfs/614: fix test for parent pointers
-6f96533b35a8ce214438562d60fa2a5df164201f logwrites: warn if we don't think read after discard returns zeroes
-b913502ffda5277e5bbbca47d67b9222efa61ad9 logwrites: use BLKZEROOUT if it's available
-d1cb406eb17c90c47d3adfbaab9462ee3e0e39cf logwrites: only use BLKDISCARD if we know discard zeroes data
-451526033f8db65616470b8a4d6870f9a09facac xfs: test upgrading old features
-73b0acae5b8708d70f31bdae0adedf222b379e4d treewide: convert all $MOUNT_PROG to _mount
-9a93860abb813a8a2293659db4708fa632e770a0 check: capture dmesg of mount failures if test fails
-766d0413028aa545d03200e2dc0d49eb8071bd5e generic: test fsnotify filesystem error reporting
+033e0c3fbeb643bbd4e7775849975b6c3f754972 build(deps): bump github/codeql-action from 4.31.7 to 4.31.8
+2bb27d8197cb9a3c6f0e7f17aa0cd96f1053ff47 fuse-io-uring: Handle EAGAIN/EINTR in fuse-io-uring
+834a496b5ec0380db12f1e0d1d8435d118965e83 fuse-io-uring: Function rename and split into two function
+b9cae498ff9df22d785128576c0b13077452a7c4 fuse-io-uring: Initialize queue->eventfd
+8e536dcb767f31aae986cc4aff5a1a56420c7de5 fuse-io-uring: Add a lock around io_uring_submit / io_uring_submit_and_wait
+7a76588f0639782b82f94f9d0036816bfec48c30 Add signify verification in make_release_tarball.sh
+c5050b72933c11ede95516a86744db3bda7c263f Prepare 3.18.0 release
+dae44ec38ab24ca6ff0d8eb57147d012ca037559 prepare 3.18.0 release v2
+1218c865b7eaf5e5f47e2b5353b106cb8a8e74ef Fix fuse version script / 3.17.3 to 3.18
+fef782261a53c72c2dfcb3a3b2ca3cd1abace92c Add an ABI check for the last tag of the previous release
+1a99fb2c57f44f981cda7774b4a7da0b4ecb3d45 fuse_uring: remove duplicate fuse_uring resource init
+8fd68792ae578ebe7abebe48f752a1c3bd5a1d01 build(deps): bump github/codeql-action from 4.31.8 to 4.31.9
+37dac0ee019a42e81cd1f388fab629fc438006dc Add doc/ChangeLog-API.rst
+a32cec008c090691cc11fd9d9f0fc98a107c8777 Add lowlevel ioctl examples and tests
+b2852e09afe38e318b50bd4a14f8a3fc0f27612c make_release_tarball.sh: Fix signify verification
+28d3f4b42d6fd222c76cf533b5cced44aa3aca0d fuse_lowlevel.h: Some minor cleanups from clang-format
+562f901226eba137226acd38e244e7d3dd43a41d Fix 'find_previous_release_tag.sh' if current version has no tag
+cd4a7963856ca57ed438f0b1208b34e0bb88bad3 Increase the build version to 3.19-rc0
+6278995cca991978abd25ebb2c20ebd3fc9e8a13 fuse lowlevel: Add a teardown watchdog feature
+52fc72770c98890503e3c38b727d34e619b51cfc libfuse: bump kernel and library ABI versions
+360994ac60738a2c9f05860fcb6d327be53f629b libfuse: wait in do_destroy until all open files are closed
+c453431cc174feb8ebfca2102a203988ac2c8bd4 libfuse: add kernel gates for FUSE_IOMAP
+102e3f6906ff912c41a2314fdb5832c97721e0d5 libfuse: add fuse commands for iomap_begin and end
+bc3da72f81c62dc08de3f93afc839bff02577464 libfuse: add upper level iomap commands
+e44bb450dc028da0c7d329c35db050573abfa91a libfuse: add a lowlevel notification to add a new device to iomap
+992499c35fc487434be0d7cd59868d84e3b41773 libfuse: add upper-level iomap add device function
+00666e9d004f1d65f8ccdbfe2d4b15ba84ec815a libfuse: add iomap ioend low level handler
+141d959a2425bf9c3c49ddb1c6ee7c6556612e89 libfuse: add upper level iomap ioend commands
+cb825f352451fa8d8a2796ffbe7235c6bd005f45 libfuse: add a reply function to send FUSE_ATTR_* to the kernel
+640fef08ab4f920abeca7ca06531ef5d2947ed7b libfuse: connect high level fuse library to fuse_reply_attr_iflags
+4e1ce016c214d28747d6ab62debee50e6eb1cf5d libfuse: support direct I/O through iomap
+e69464a2a0582600d74abeacc131b39547a68e4f libfuse: don't allow hardlinking of iomap files in the upper level fuse library
+d382eca64ef66e2ae210c5034ca2d76a7e686d32 libfuse: allow discovery of the kernel's iomap capabilities
+c813d49998c1ebe7f6bbc62d02dcc84b17d09400 libfuse: add lower level iomap_config implementation
+da01000f60d7ff2705d6a42d616437dc3eff98ff libfuse: add upper level iomap_config implementation
+3efd99a9febdc26a8dac7d4883d89e7cab71009b libfuse: add low level code to invalidate iomap block device ranges
+bdd4fecc0457b46481f81ea06096e40e0660a1fc libfuse: add upper-level API to invalidate parts of an iomap block device
+2691ddde3166267b87350df13d0b1067c8d4f804 libfuse: add atomic write support
+811baeed6fbb803fd7b568276564a571aa985fab libfuse: create a helper to transform an open regular file into an open loopdev
+a1b154a01943fd8ca8a082fb1cd6882249067526 libfuse: add swapfile support for iomap files
+a55188775863374744cc85ce407b48eab2e8613f libfuse: add lower-level filesystem freeze, thaw, and shutdown requests
+7506ff2837e9f2ead266a0176d9e7f82c72d4f00 libfuse: add upper-level filesystem freeze, thaw, and shutdown events
+078a2d4cfb3770a0007411a15b1cd70d7b973e84 libfuse: allow root_nodeid mount option
+82afc836c2199009197a27e7f1db1b54b5788082 libfuse: add strictatime/lazytime mount options
+d7d40e3d5bbe903ad1d2eaf61a738bc729e24dfc libfuse: set sync, immutable, and append when loading files
+89d324ce91f5eb830a6a77fbabe5f5aa09b1beb3 libfuse: wire up FUSE_SYNCFS to the low level library
+73efde3f3bf70a24ce0bf80eff7fe836448063f5 libfuse: add syncfs support to the upper library
+26baaec0eaea9bdb0a688f2e940ae1d9ba5f48ca libfuse: enable iomap cache management for lowlevel fuse
+71961ea86acfb8bf4174e5fb01d7119e6e4eb3cc libfuse: add upper-level iomap cache management
+c5c012cefd77480da21eacaedbf425d0729f23d1 libfuse: enable iomap
 
---===============8783181333167701962==
+--===============8675568168739481506==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c580a6d21f48-6d1d32d22a1d.txt
+Content-Disposition: attachment; filename=revlist-039bcf80e107-7506ff2837e9.txt
 
-ffd562ecf44aff10b74c35c6f961614db5198ca9 punch-alternating: prevent punching all extents
-f02d4965d48f59f53a729e9ddd55fb8fcc373f85 generic: use _qmount_option and _qmount
-f4ec120ffd251564cc78d6d0dae78ca93cb5b648 xfs: add a test that zoned file systems with rump RTG can't be mounted
-960384aa2c46622dc0048f417a18be2d09166f83 xfs: test that RT growfs not aligned to zone size fails
-7e972aff4801afb44b9faea4a7598a311b887fc0 xfs: test that mkfs creates zone-aligned RT devices
-eb2ad950ea90d8d8d861f8beac138d6a19f0f819 dmflakey: override SCRATCH_DEV in _init_flakey
-5dbc7499a3b2e4a99c02c1b45c3a2d33d443a8b6 ext4/006: call e2fsck directly
-a63b4556fc740792188a56b2ae61afb6b02635ac common: add a _check_dev_fs helper
-cd74736e17949b32c6e680b8f83755f147558a6f ext4/032: use _check_dev_fs
-901f00980f0e0cc28d15e9a4865d1a58d8c35af5 generic/590: split XFS RT specific bits out
-255cb1f0dd6e9c604f01acc49b1d735916e80514 xfs/157: don't override SCRATCH_{,LOG,RT}DEV
-4460f5d01c7e6f1ac62fd9d62f7f9c300d998e6e xfs/185: don't use SCRATCH_{,RT}DEV helpers
-30ee67e320de8af77f28c96d280f34c606b54d6a xfs/424: don't use SCRATCH_DEV helpers
-0d89f8063ece5ece81d44acef2dbd51bc74f8ae5 xfs/521: require a real SCRATCH_RTDEV
-e157f480a308e0c9e4d8abcc8c3f6463c61905fc xfs/521: call _require_scratch_size
-70824203cb6827179236de0b37ea41123cbe462e xfs/528: require a real SCRATCH_RTDEV
-90f6065005e7feec44a0fa45785284df3a1b525d xfs/530: require a real SCRATCH_RTDEV
-cfb2146bc959fde3633bcec1ed53f359babea4cb xfs/650: require a real SCRATCH_RTDEV
-1a1521a039d43a106b301bef17267c82686ddf6a fstests: fix flaky device name in _cleanup_flakey
-36836607c9e79c9d18de5affcc05ce723ad16a7b check: put temporary files in TMPDIR, not /tmp
-d49e334213756882160117c27afa5c3b627760e6 common/rc: fix _xfs_is_realtime_file for internal rt devices
-fdc576ef62e27179e4b606e6b4797a1b38ea2f7a xfs/649: fix various problems
-fb14379b8dbcc96b58773934ed1e2e31288e6d96 MAINTAINERS: update entry for Anand Jain
-ad2b96dd66ef34798c83aef841930bf90797b874 xfs/490: fix failure due to deprecated ikeep mount option
-1da7f10cd89d3392f68cadf7c08f43107c9c0295 fstests: btrfs: add a new test case to verify quick qgroup inherit
-657410a19ab577a946d1d8ba94e0254b5a034ab1 fstests: generic/746: update the parser to handle block group tree
-80259c855ad782c66133e5ed06cf569857dd1f97 fstests: btrfs/301: use correct blocksize to fill the fs
-4c7968b86932ad2e8ae6fa480896ec7174dec9df fstests: btrfs/226: skip the test for bs > ps cases
-71131073bc76e4559b9689625687e063c4704ba9 common/quota: fix to wait for all inodes been evicted in _check_quota_usage()
-e45c90fedb0b6107ea73ee2812ce823f4f2a0f6e generic/020: limit xattr value by 3802 bytes
-63a29724a85f1999e49bf0a9bf0d22643b6116e5 xfstests: add HFS/HFS+ and NILFS2 into supported FS table
-6d1d32d22a1de1d0bf6a600bb6ede01b6c281bc2 xfs/614: fix test for parent pointers
+033e0c3fbeb643bbd4e7775849975b6c3f754972 build(deps): bump github/codeql-action from 4.31.7 to 4.31.8
+2bb27d8197cb9a3c6f0e7f17aa0cd96f1053ff47 fuse-io-uring: Handle EAGAIN/EINTR in fuse-io-uring
+834a496b5ec0380db12f1e0d1d8435d118965e83 fuse-io-uring: Function rename and split into two function
+b9cae498ff9df22d785128576c0b13077452a7c4 fuse-io-uring: Initialize queue->eventfd
+8e536dcb767f31aae986cc4aff5a1a56420c7de5 fuse-io-uring: Add a lock around io_uring_submit / io_uring_submit_and_wait
+7a76588f0639782b82f94f9d0036816bfec48c30 Add signify verification in make_release_tarball.sh
+c5050b72933c11ede95516a86744db3bda7c263f Prepare 3.18.0 release
+dae44ec38ab24ca6ff0d8eb57147d012ca037559 prepare 3.18.0 release v2
+1218c865b7eaf5e5f47e2b5353b106cb8a8e74ef Fix fuse version script / 3.17.3 to 3.18
+fef782261a53c72c2dfcb3a3b2ca3cd1abace92c Add an ABI check for the last tag of the previous release
+1a99fb2c57f44f981cda7774b4a7da0b4ecb3d45 fuse_uring: remove duplicate fuse_uring resource init
+8fd68792ae578ebe7abebe48f752a1c3bd5a1d01 build(deps): bump github/codeql-action from 4.31.8 to 4.31.9
+37dac0ee019a42e81cd1f388fab629fc438006dc Add doc/ChangeLog-API.rst
+a32cec008c090691cc11fd9d9f0fc98a107c8777 Add lowlevel ioctl examples and tests
+b2852e09afe38e318b50bd4a14f8a3fc0f27612c make_release_tarball.sh: Fix signify verification
+28d3f4b42d6fd222c76cf533b5cced44aa3aca0d fuse_lowlevel.h: Some minor cleanups from clang-format
+562f901226eba137226acd38e244e7d3dd43a41d Fix 'find_previous_release_tag.sh' if current version has no tag
+cd4a7963856ca57ed438f0b1208b34e0bb88bad3 Increase the build version to 3.19-rc0
+6278995cca991978abd25ebb2c20ebd3fc9e8a13 fuse lowlevel: Add a teardown watchdog feature
+52fc72770c98890503e3c38b727d34e619b51cfc libfuse: bump kernel and library ABI versions
+360994ac60738a2c9f05860fcb6d327be53f629b libfuse: wait in do_destroy until all open files are closed
+c453431cc174feb8ebfca2102a203988ac2c8bd4 libfuse: add kernel gates for FUSE_IOMAP
+102e3f6906ff912c41a2314fdb5832c97721e0d5 libfuse: add fuse commands for iomap_begin and end
+bc3da72f81c62dc08de3f93afc839bff02577464 libfuse: add upper level iomap commands
+e44bb450dc028da0c7d329c35db050573abfa91a libfuse: add a lowlevel notification to add a new device to iomap
+992499c35fc487434be0d7cd59868d84e3b41773 libfuse: add upper-level iomap add device function
+00666e9d004f1d65f8ccdbfe2d4b15ba84ec815a libfuse: add iomap ioend low level handler
+141d959a2425bf9c3c49ddb1c6ee7c6556612e89 libfuse: add upper level iomap ioend commands
+cb825f352451fa8d8a2796ffbe7235c6bd005f45 libfuse: add a reply function to send FUSE_ATTR_* to the kernel
+640fef08ab4f920abeca7ca06531ef5d2947ed7b libfuse: connect high level fuse library to fuse_reply_attr_iflags
+4e1ce016c214d28747d6ab62debee50e6eb1cf5d libfuse: support direct I/O through iomap
+e69464a2a0582600d74abeacc131b39547a68e4f libfuse: don't allow hardlinking of iomap files in the upper level fuse library
+d382eca64ef66e2ae210c5034ca2d76a7e686d32 libfuse: allow discovery of the kernel's iomap capabilities
+c813d49998c1ebe7f6bbc62d02dcc84b17d09400 libfuse: add lower level iomap_config implementation
+da01000f60d7ff2705d6a42d616437dc3eff98ff libfuse: add upper level iomap_config implementation
+3efd99a9febdc26a8dac7d4883d89e7cab71009b libfuse: add low level code to invalidate iomap block device ranges
+bdd4fecc0457b46481f81ea06096e40e0660a1fc libfuse: add upper-level API to invalidate parts of an iomap block device
+2691ddde3166267b87350df13d0b1067c8d4f804 libfuse: add atomic write support
+811baeed6fbb803fd7b568276564a571aa985fab libfuse: create a helper to transform an open regular file into an open loopdev
+a1b154a01943fd8ca8a082fb1cd6882249067526 libfuse: add swapfile support for iomap files
+a55188775863374744cc85ce407b48eab2e8613f libfuse: add lower-level filesystem freeze, thaw, and shutdown requests
+7506ff2837e9f2ead266a0176d9e7f82c72d4f00 libfuse: add upper-level filesystem freeze, thaw, and shutdown events
 
---===============8783181333167701962==
+--===============8675568168739481506==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5cbfa32e8ce6-f0d762fd91b7.txt
+Content-Disposition: attachment; filename=revlist-97b34b31480f-078a2d4cfb37.txt
 
-ffd562ecf44aff10b74c35c6f961614db5198ca9 punch-alternating: prevent punching all extents
-f02d4965d48f59f53a729e9ddd55fb8fcc373f85 generic: use _qmount_option and _qmount
-f4ec120ffd251564cc78d6d0dae78ca93cb5b648 xfs: add a test that zoned file systems with rump RTG can't be mounted
-960384aa2c46622dc0048f417a18be2d09166f83 xfs: test that RT growfs not aligned to zone size fails
-7e972aff4801afb44b9faea4a7598a311b887fc0 xfs: test that mkfs creates zone-aligned RT devices
-eb2ad950ea90d8d8d861f8beac138d6a19f0f819 dmflakey: override SCRATCH_DEV in _init_flakey
-5dbc7499a3b2e4a99c02c1b45c3a2d33d443a8b6 ext4/006: call e2fsck directly
-a63b4556fc740792188a56b2ae61afb6b02635ac common: add a _check_dev_fs helper
-cd74736e17949b32c6e680b8f83755f147558a6f ext4/032: use _check_dev_fs
-901f00980f0e0cc28d15e9a4865d1a58d8c35af5 generic/590: split XFS RT specific bits out
-255cb1f0dd6e9c604f01acc49b1d735916e80514 xfs/157: don't override SCRATCH_{,LOG,RT}DEV
-4460f5d01c7e6f1ac62fd9d62f7f9c300d998e6e xfs/185: don't use SCRATCH_{,RT}DEV helpers
-30ee67e320de8af77f28c96d280f34c606b54d6a xfs/424: don't use SCRATCH_DEV helpers
-0d89f8063ece5ece81d44acef2dbd51bc74f8ae5 xfs/521: require a real SCRATCH_RTDEV
-e157f480a308e0c9e4d8abcc8c3f6463c61905fc xfs/521: call _require_scratch_size
-70824203cb6827179236de0b37ea41123cbe462e xfs/528: require a real SCRATCH_RTDEV
-90f6065005e7feec44a0fa45785284df3a1b525d xfs/530: require a real SCRATCH_RTDEV
-cfb2146bc959fde3633bcec1ed53f359babea4cb xfs/650: require a real SCRATCH_RTDEV
-1a1521a039d43a106b301bef17267c82686ddf6a fstests: fix flaky device name in _cleanup_flakey
-36836607c9e79c9d18de5affcc05ce723ad16a7b check: put temporary files in TMPDIR, not /tmp
-d49e334213756882160117c27afa5c3b627760e6 common/rc: fix _xfs_is_realtime_file for internal rt devices
-fdc576ef62e27179e4b606e6b4797a1b38ea2f7a xfs/649: fix various problems
-fb14379b8dbcc96b58773934ed1e2e31288e6d96 MAINTAINERS: update entry for Anand Jain
-ad2b96dd66ef34798c83aef841930bf90797b874 xfs/490: fix failure due to deprecated ikeep mount option
-1da7f10cd89d3392f68cadf7c08f43107c9c0295 fstests: btrfs: add a new test case to verify quick qgroup inherit
-657410a19ab577a946d1d8ba94e0254b5a034ab1 fstests: generic/746: update the parser to handle block group tree
-80259c855ad782c66133e5ed06cf569857dd1f97 fstests: btrfs/301: use correct blocksize to fill the fs
-4c7968b86932ad2e8ae6fa480896ec7174dec9df fstests: btrfs/226: skip the test for bs > ps cases
-71131073bc76e4559b9689625687e063c4704ba9 common/quota: fix to wait for all inodes been evicted in _check_quota_usage()
-e45c90fedb0b6107ea73ee2812ce823f4f2a0f6e generic/020: limit xattr value by 3802 bytes
-63a29724a85f1999e49bf0a9bf0d22643b6116e5 xfstests: add HFS/HFS+ and NILFS2 into supported FS table
-6d1d32d22a1de1d0bf6a600bb6ede01b6c281bc2 xfs/614: fix test for parent pointers
-6f96533b35a8ce214438562d60fa2a5df164201f logwrites: warn if we don't think read after discard returns zeroes
-b913502ffda5277e5bbbca47d67b9222efa61ad9 logwrites: use BLKZEROOUT if it's available
-d1cb406eb17c90c47d3adfbaab9462ee3e0e39cf logwrites: only use BLKDISCARD if we know discard zeroes data
-451526033f8db65616470b8a4d6870f9a09facac xfs: test upgrading old features
-73b0acae5b8708d70f31bdae0adedf222b379e4d treewide: convert all $MOUNT_PROG to _mount
-9a93860abb813a8a2293659db4708fa632e770a0 check: capture dmesg of mount failures if test fails
-766d0413028aa545d03200e2dc0d49eb8071bd5e generic: test fsnotify filesystem error reporting
-7c283936894a45a52f574c0ec25f6dd40b8a26fa xfs: test health monitoring code
-15b47eab382881d5d667d9e1ec60e9db5dc8aa17 xfs: test for metadata corruption error reporting via healthmon
-c8b33860c959b2b9618f04163cfc1fda9751514c xfs: test io error reporting via healthmon
-766811a0dbf0c4bb1bfc30686d5f018bc0ea0483 xfs: test new xfs_healer daemon
-570302a7cd09fab0efbbef3a46dc9a75a61dc0ed xfs/1856: add metadir upgrade to test matrix
-b053142ba4979eb90629e7ed3fecf985589fe56e xfs/1856: add rtrmapbt upgrade to test matrix
-19cce911801e2005026628716b60022210c3aada xfs/1856: add rtreflink upgrade to test matrix
-0dbefd3119914d19f2879bea0ade8b909c6bec29 xfs/1856: tweak need_metadir for zoned filesystems
-cb17ae7ebc24a7b9dab6b1a654ec14b33c232fc6 misc: adapt tests to handle the fuse ext[234] drivers
-f49ab807d14cf576513a4cf82c44cfc3fb1fbc01 generic/740: don't run this test for fuse ext* implementations
-745355d8cc852725f785e3effc23180315a3d00b ext/052: use popdir.pl for much faster directory creation
-6f9d8c8262ec74ce5266821272f886db78c34723 common/rc: skip test if swapon doesn't work for ext*
-9e03cab4c2613f810acfcfffdf68722620464268 common/rc: streamline _scratch_remount
-91245ce28df35cbbe3297fcebd74b02e72e7bdbb ext/039: require metadata journalling
-553e0d0d7613748b4740ef0bf27bbd078c420f6e populate: don't check for htree directories on fuse.ext4
-aae9b1d42cb492844189113f26fa1a20faa141fd misc: convert _scratch_mount -o remount to _scratch_remount
-c111bd6c9377e36badf4d1658747d6f7a835ecdf misc: use explicitly $FSTYP'd mount calls
-c0c9b006c07539c03bf1cda401bcc52517296924 common/ext4: explicitly format with $FSTYP
-8aa4a4291b998c45896e62188a9d116b52b285fe tests/ext*: refactor open-coded _scratch_mkfs_sized calls
-88f0e00559a904988cb8fb5fbdd8afe2830a430c generic/732: disable for fuse.ext4
-64b15c5051b42fb65e72295d8ac106c222988cb4 defrag: fix ext4 defrag ioctl test
-0a2add1199b0f4aef0fcb41f2a704e3fc13032aa misc: explicitly require online resize support
-3ad6b287256ae4bc55aed91011fd7ccc2f5dbb0e ext4/004: disable for fuse2fs
-52a5fa4720de35972dc37a7c199479c295f92ad2 generic/679: disable for fuse2fs
-47cfddd41cccc25648c5a81e10b6e219c0c5265c ext4/045: don't run the long dirent test on fuse2fs
-252e566d8b00e7937317e0d18910e870d2f98daa generic/338: skip test if we can't mount with strictatime
-f2add027e50c8480cb5ad2edb1597695286b5e19 generic/563: fuse doesn't support cgroup-aware writeback accounting
-35cd14e1272fa8dfb6ad8894c86a573159335b25 misc: use a larger buffer size for pwrites
-7f399478cfb31ac0110159ae75cc87f764d12ea6 ext4/046: don't run this test if dioread_nolock not supported
-f56307be622077a783982d63e85850b0d087a07f generic/631: don't run test if we can't mount overlayfs
-a618bc1b11ce21f8ac1668ba5a184460aad29604 generic/{409,410,411,589}: check for stacking mount support
-da6bbcb4391f08612edf9f63cc254f716e0e5673 generic: add _require_hardlinks to tests that require hardlinks
-ea9c0bd52b0e7b8e5ff42685997d88bc90a5ae94 ext4/001: check for fiemap support
-80dc5c02ed93382826648bcad37b8ec8f678d3ce generic/622: check that strictatime/lazytime actually work
-7ac6d110c45dbb5e5f46ddf09818aded0b0fdadd generic/050: skip test because fuse2fs doesn't have stable output
-5f08e47d2752e1d2b37b0c74a73f59830bf5eb27 generic/405: don't stall on mkfs asking for input
-1c51ef4c37cf6efb3e307a4a9707109abd843cfb ext4/006: fix this test
-d18d9be316861b2861eab7e08b3c6a0503deeff6 ext4/009: fix ENOSPC errors
-fe61cc6def1f3647a5d522b1761d4251a277bf98 ext4/022: adjust to fuse2fs i_extra_size behavior
-84504f0ae59edd5db45daf0babdf122ffb5bd95c generic/730: adapt test for fuse filesystems
-f0d762fd91b791cea04f22093fa478e75890118f fuse2fs: hack around weird corruption problems
+033e0c3fbeb643bbd4e7775849975b6c3f754972 build(deps): bump github/codeql-action from 4.31.7 to 4.31.8
+2bb27d8197cb9a3c6f0e7f17aa0cd96f1053ff47 fuse-io-uring: Handle EAGAIN/EINTR in fuse-io-uring
+834a496b5ec0380db12f1e0d1d8435d118965e83 fuse-io-uring: Function rename and split into two function
+b9cae498ff9df22d785128576c0b13077452a7c4 fuse-io-uring: Initialize queue->eventfd
+8e536dcb767f31aae986cc4aff5a1a56420c7de5 fuse-io-uring: Add a lock around io_uring_submit / io_uring_submit_and_wait
+7a76588f0639782b82f94f9d0036816bfec48c30 Add signify verification in make_release_tarball.sh
+c5050b72933c11ede95516a86744db3bda7c263f Prepare 3.18.0 release
+dae44ec38ab24ca6ff0d8eb57147d012ca037559 prepare 3.18.0 release v2
+1218c865b7eaf5e5f47e2b5353b106cb8a8e74ef Fix fuse version script / 3.17.3 to 3.18
+fef782261a53c72c2dfcb3a3b2ca3cd1abace92c Add an ABI check for the last tag of the previous release
+1a99fb2c57f44f981cda7774b4a7da0b4ecb3d45 fuse_uring: remove duplicate fuse_uring resource init
+8fd68792ae578ebe7abebe48f752a1c3bd5a1d01 build(deps): bump github/codeql-action from 4.31.8 to 4.31.9
+37dac0ee019a42e81cd1f388fab629fc438006dc Add doc/ChangeLog-API.rst
+a32cec008c090691cc11fd9d9f0fc98a107c8777 Add lowlevel ioctl examples and tests
+b2852e09afe38e318b50bd4a14f8a3fc0f27612c make_release_tarball.sh: Fix signify verification
+28d3f4b42d6fd222c76cf533b5cced44aa3aca0d fuse_lowlevel.h: Some minor cleanups from clang-format
+562f901226eba137226acd38e244e7d3dd43a41d Fix 'find_previous_release_tag.sh' if current version has no tag
+cd4a7963856ca57ed438f0b1208b34e0bb88bad3 Increase the build version to 3.19-rc0
+6278995cca991978abd25ebb2c20ebd3fc9e8a13 fuse lowlevel: Add a teardown watchdog feature
+52fc72770c98890503e3c38b727d34e619b51cfc libfuse: bump kernel and library ABI versions
+360994ac60738a2c9f05860fcb6d327be53f629b libfuse: wait in do_destroy until all open files are closed
+c453431cc174feb8ebfca2102a203988ac2c8bd4 libfuse: add kernel gates for FUSE_IOMAP
+102e3f6906ff912c41a2314fdb5832c97721e0d5 libfuse: add fuse commands for iomap_begin and end
+bc3da72f81c62dc08de3f93afc839bff02577464 libfuse: add upper level iomap commands
+e44bb450dc028da0c7d329c35db050573abfa91a libfuse: add a lowlevel notification to add a new device to iomap
+992499c35fc487434be0d7cd59868d84e3b41773 libfuse: add upper-level iomap add device function
+00666e9d004f1d65f8ccdbfe2d4b15ba84ec815a libfuse: add iomap ioend low level handler
+141d959a2425bf9c3c49ddb1c6ee7c6556612e89 libfuse: add upper level iomap ioend commands
+cb825f352451fa8d8a2796ffbe7235c6bd005f45 libfuse: add a reply function to send FUSE_ATTR_* to the kernel
+640fef08ab4f920abeca7ca06531ef5d2947ed7b libfuse: connect high level fuse library to fuse_reply_attr_iflags
+4e1ce016c214d28747d6ab62debee50e6eb1cf5d libfuse: support direct I/O through iomap
+e69464a2a0582600d74abeacc131b39547a68e4f libfuse: don't allow hardlinking of iomap files in the upper level fuse library
+d382eca64ef66e2ae210c5034ca2d76a7e686d32 libfuse: allow discovery of the kernel's iomap capabilities
+c813d49998c1ebe7f6bbc62d02dcc84b17d09400 libfuse: add lower level iomap_config implementation
+da01000f60d7ff2705d6a42d616437dc3eff98ff libfuse: add upper level iomap_config implementation
+3efd99a9febdc26a8dac7d4883d89e7cab71009b libfuse: add low level code to invalidate iomap block device ranges
+bdd4fecc0457b46481f81ea06096e40e0660a1fc libfuse: add upper-level API to invalidate parts of an iomap block device
+2691ddde3166267b87350df13d0b1067c8d4f804 libfuse: add atomic write support
+811baeed6fbb803fd7b568276564a571aa985fab libfuse: create a helper to transform an open regular file into an open loopdev
+a1b154a01943fd8ca8a082fb1cd6882249067526 libfuse: add swapfile support for iomap files
+a55188775863374744cc85ce407b48eab2e8613f libfuse: add lower-level filesystem freeze, thaw, and shutdown requests
+7506ff2837e9f2ead266a0176d9e7f82c72d4f00 libfuse: add upper-level filesystem freeze, thaw, and shutdown events
+078a2d4cfb3770a0007411a15b1cd70d7b973e84 libfuse: allow root_nodeid mount option
 
---===============8783181333167701962==
+--===============8675568168739481506==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-95b195634370-1bae4b90e3ad.txt
+Content-Disposition: attachment; filename=revlist-66520f135c9f-94ef82127efb.txt
 
-ffd562ecf44aff10b74c35c6f961614db5198ca9 punch-alternating: prevent punching all extents
-f02d4965d48f59f53a729e9ddd55fb8fcc373f85 generic: use _qmount_option and _qmount
-f4ec120ffd251564cc78d6d0dae78ca93cb5b648 xfs: add a test that zoned file systems with rump RTG can't be mounted
-960384aa2c46622dc0048f417a18be2d09166f83 xfs: test that RT growfs not aligned to zone size fails
-7e972aff4801afb44b9faea4a7598a311b887fc0 xfs: test that mkfs creates zone-aligned RT devices
-eb2ad950ea90d8d8d861f8beac138d6a19f0f819 dmflakey: override SCRATCH_DEV in _init_flakey
-5dbc7499a3b2e4a99c02c1b45c3a2d33d443a8b6 ext4/006: call e2fsck directly
-a63b4556fc740792188a56b2ae61afb6b02635ac common: add a _check_dev_fs helper
-cd74736e17949b32c6e680b8f83755f147558a6f ext4/032: use _check_dev_fs
-901f00980f0e0cc28d15e9a4865d1a58d8c35af5 generic/590: split XFS RT specific bits out
-255cb1f0dd6e9c604f01acc49b1d735916e80514 xfs/157: don't override SCRATCH_{,LOG,RT}DEV
-4460f5d01c7e6f1ac62fd9d62f7f9c300d998e6e xfs/185: don't use SCRATCH_{,RT}DEV helpers
-30ee67e320de8af77f28c96d280f34c606b54d6a xfs/424: don't use SCRATCH_DEV helpers
-0d89f8063ece5ece81d44acef2dbd51bc74f8ae5 xfs/521: require a real SCRATCH_RTDEV
-e157f480a308e0c9e4d8abcc8c3f6463c61905fc xfs/521: call _require_scratch_size
-70824203cb6827179236de0b37ea41123cbe462e xfs/528: require a real SCRATCH_RTDEV
-90f6065005e7feec44a0fa45785284df3a1b525d xfs/530: require a real SCRATCH_RTDEV
-cfb2146bc959fde3633bcec1ed53f359babea4cb xfs/650: require a real SCRATCH_RTDEV
-1a1521a039d43a106b301bef17267c82686ddf6a fstests: fix flaky device name in _cleanup_flakey
-36836607c9e79c9d18de5affcc05ce723ad16a7b check: put temporary files in TMPDIR, not /tmp
-d49e334213756882160117c27afa5c3b627760e6 common/rc: fix _xfs_is_realtime_file for internal rt devices
-fdc576ef62e27179e4b606e6b4797a1b38ea2f7a xfs/649: fix various problems
-fb14379b8dbcc96b58773934ed1e2e31288e6d96 MAINTAINERS: update entry for Anand Jain
-ad2b96dd66ef34798c83aef841930bf90797b874 xfs/490: fix failure due to deprecated ikeep mount option
-1da7f10cd89d3392f68cadf7c08f43107c9c0295 fstests: btrfs: add a new test case to verify quick qgroup inherit
-657410a19ab577a946d1d8ba94e0254b5a034ab1 fstests: generic/746: update the parser to handle block group tree
-80259c855ad782c66133e5ed06cf569857dd1f97 fstests: btrfs/301: use correct blocksize to fill the fs
-4c7968b86932ad2e8ae6fa480896ec7174dec9df fstests: btrfs/226: skip the test for bs > ps cases
-71131073bc76e4559b9689625687e063c4704ba9 common/quota: fix to wait for all inodes been evicted in _check_quota_usage()
-e45c90fedb0b6107ea73ee2812ce823f4f2a0f6e generic/020: limit xattr value by 3802 bytes
-63a29724a85f1999e49bf0a9bf0d22643b6116e5 xfstests: add HFS/HFS+ and NILFS2 into supported FS table
-6d1d32d22a1de1d0bf6a600bb6ede01b6c281bc2 xfs/614: fix test for parent pointers
-6f96533b35a8ce214438562d60fa2a5df164201f logwrites: warn if we don't think read after discard returns zeroes
-b913502ffda5277e5bbbca47d67b9222efa61ad9 logwrites: use BLKZEROOUT if it's available
-d1cb406eb17c90c47d3adfbaab9462ee3e0e39cf logwrites: only use BLKDISCARD if we know discard zeroes data
-451526033f8db65616470b8a4d6870f9a09facac xfs: test upgrading old features
-73b0acae5b8708d70f31bdae0adedf222b379e4d treewide: convert all $MOUNT_PROG to _mount
-9a93860abb813a8a2293659db4708fa632e770a0 check: capture dmesg of mount failures if test fails
-766d0413028aa545d03200e2dc0d49eb8071bd5e generic: test fsnotify filesystem error reporting
-7c283936894a45a52f574c0ec25f6dd40b8a26fa xfs: test health monitoring code
-15b47eab382881d5d667d9e1ec60e9db5dc8aa17 xfs: test for metadata corruption error reporting via healthmon
-c8b33860c959b2b9618f04163cfc1fda9751514c xfs: test io error reporting via healthmon
-766811a0dbf0c4bb1bfc30686d5f018bc0ea0483 xfs: test new xfs_healer daemon
-570302a7cd09fab0efbbef3a46dc9a75a61dc0ed xfs/1856: add metadir upgrade to test matrix
-b053142ba4979eb90629e7ed3fecf985589fe56e xfs/1856: add rtrmapbt upgrade to test matrix
-19cce911801e2005026628716b60022210c3aada xfs/1856: add rtreflink upgrade to test matrix
-0dbefd3119914d19f2879bea0ade8b909c6bec29 xfs/1856: tweak need_metadir for zoned filesystems
-cb17ae7ebc24a7b9dab6b1a654ec14b33c232fc6 misc: adapt tests to handle the fuse ext[234] drivers
-f49ab807d14cf576513a4cf82c44cfc3fb1fbc01 generic/740: don't run this test for fuse ext* implementations
-745355d8cc852725f785e3effc23180315a3d00b ext/052: use popdir.pl for much faster directory creation
-6f9d8c8262ec74ce5266821272f886db78c34723 common/rc: skip test if swapon doesn't work for ext*
-9e03cab4c2613f810acfcfffdf68722620464268 common/rc: streamline _scratch_remount
-91245ce28df35cbbe3297fcebd74b02e72e7bdbb ext/039: require metadata journalling
-553e0d0d7613748b4740ef0bf27bbd078c420f6e populate: don't check for htree directories on fuse.ext4
-aae9b1d42cb492844189113f26fa1a20faa141fd misc: convert _scratch_mount -o remount to _scratch_remount
-c111bd6c9377e36badf4d1658747d6f7a835ecdf misc: use explicitly $FSTYP'd mount calls
-c0c9b006c07539c03bf1cda401bcc52517296924 common/ext4: explicitly format with $FSTYP
-8aa4a4291b998c45896e62188a9d116b52b285fe tests/ext*: refactor open-coded _scratch_mkfs_sized calls
-88f0e00559a904988cb8fb5fbdd8afe2830a430c generic/732: disable for fuse.ext4
-64b15c5051b42fb65e72295d8ac106c222988cb4 defrag: fix ext4 defrag ioctl test
-0a2add1199b0f4aef0fcb41f2a704e3fc13032aa misc: explicitly require online resize support
-3ad6b287256ae4bc55aed91011fd7ccc2f5dbb0e ext4/004: disable for fuse2fs
-52a5fa4720de35972dc37a7c199479c295f92ad2 generic/679: disable for fuse2fs
-47cfddd41cccc25648c5a81e10b6e219c0c5265c ext4/045: don't run the long dirent test on fuse2fs
-252e566d8b00e7937317e0d18910e870d2f98daa generic/338: skip test if we can't mount with strictatime
-f2add027e50c8480cb5ad2edb1597695286b5e19 generic/563: fuse doesn't support cgroup-aware writeback accounting
-35cd14e1272fa8dfb6ad8894c86a573159335b25 misc: use a larger buffer size for pwrites
-7f399478cfb31ac0110159ae75cc87f764d12ea6 ext4/046: don't run this test if dioread_nolock not supported
-f56307be622077a783982d63e85850b0d087a07f generic/631: don't run test if we can't mount overlayfs
-a618bc1b11ce21f8ac1668ba5a184460aad29604 generic/{409,410,411,589}: check for stacking mount support
-da6bbcb4391f08612edf9f63cc254f716e0e5673 generic: add _require_hardlinks to tests that require hardlinks
-ea9c0bd52b0e7b8e5ff42685997d88bc90a5ae94 ext4/001: check for fiemap support
-80dc5c02ed93382826648bcad37b8ec8f678d3ce generic/622: check that strictatime/lazytime actually work
-7ac6d110c45dbb5e5f46ddf09818aded0b0fdadd generic/050: skip test because fuse2fs doesn't have stable output
-5f08e47d2752e1d2b37b0c74a73f59830bf5eb27 generic/405: don't stall on mkfs asking for input
-1c51ef4c37cf6efb3e307a4a9707109abd843cfb ext4/006: fix this test
-d18d9be316861b2861eab7e08b3c6a0503deeff6 ext4/009: fix ENOSPC errors
-fe61cc6def1f3647a5d522b1761d4251a277bf98 ext4/022: adjust to fuse2fs i_extra_size behavior
-84504f0ae59edd5db45daf0babdf122ffb5bd95c generic/730: adapt test for fuse filesystems
-f0d762fd91b791cea04f22093fa478e75890118f fuse2fs: hack around weird corruption problems
-23833d524caed587a888b2b7efde97dcb684c3d3 xfs: online fuzz test known output
-e8990199103e281b7c54247fad09890bf133d333 xfs: offline fuzz test known output
-66ae378549b24448bf00662007c7b76a87912313 xfs: norepair fuzz test known output
-1bae4b90e3ad06889e014004dc228275d36085f7 xfs: bothrepair fuzz test known output
+033e0c3fbeb643bbd4e7775849975b6c3f754972 build(deps): bump github/codeql-action from 4.31.7 to 4.31.8
+2bb27d8197cb9a3c6f0e7f17aa0cd96f1053ff47 fuse-io-uring: Handle EAGAIN/EINTR in fuse-io-uring
+834a496b5ec0380db12f1e0d1d8435d118965e83 fuse-io-uring: Function rename and split into two function
+b9cae498ff9df22d785128576c0b13077452a7c4 fuse-io-uring: Initialize queue->eventfd
+8e536dcb767f31aae986cc4aff5a1a56420c7de5 fuse-io-uring: Add a lock around io_uring_submit / io_uring_submit_and_wait
+7a76588f0639782b82f94f9d0036816bfec48c30 Add signify verification in make_release_tarball.sh
+c5050b72933c11ede95516a86744db3bda7c263f Prepare 3.18.0 release
+dae44ec38ab24ca6ff0d8eb57147d012ca037559 prepare 3.18.0 release v2
+1218c865b7eaf5e5f47e2b5353b106cb8a8e74ef Fix fuse version script / 3.17.3 to 3.18
+fef782261a53c72c2dfcb3a3b2ca3cd1abace92c Add an ABI check for the last tag of the previous release
+1a99fb2c57f44f981cda7774b4a7da0b4ecb3d45 fuse_uring: remove duplicate fuse_uring resource init
+8fd68792ae578ebe7abebe48f752a1c3bd5a1d01 build(deps): bump github/codeql-action from 4.31.8 to 4.31.9
+37dac0ee019a42e81cd1f388fab629fc438006dc Add doc/ChangeLog-API.rst
+a32cec008c090691cc11fd9d9f0fc98a107c8777 Add lowlevel ioctl examples and tests
+b2852e09afe38e318b50bd4a14f8a3fc0f27612c make_release_tarball.sh: Fix signify verification
+28d3f4b42d6fd222c76cf533b5cced44aa3aca0d fuse_lowlevel.h: Some minor cleanups from clang-format
+562f901226eba137226acd38e244e7d3dd43a41d Fix 'find_previous_release_tag.sh' if current version has no tag
+cd4a7963856ca57ed438f0b1208b34e0bb88bad3 Increase the build version to 3.19-rc0
+6278995cca991978abd25ebb2c20ebd3fc9e8a13 fuse lowlevel: Add a teardown watchdog feature
+52fc72770c98890503e3c38b727d34e619b51cfc libfuse: bump kernel and library ABI versions
+360994ac60738a2c9f05860fcb6d327be53f629b libfuse: wait in do_destroy until all open files are closed
+c453431cc174feb8ebfca2102a203988ac2c8bd4 libfuse: add kernel gates for FUSE_IOMAP
+102e3f6906ff912c41a2314fdb5832c97721e0d5 libfuse: add fuse commands for iomap_begin and end
+bc3da72f81c62dc08de3f93afc839bff02577464 libfuse: add upper level iomap commands
+e44bb450dc028da0c7d329c35db050573abfa91a libfuse: add a lowlevel notification to add a new device to iomap
+992499c35fc487434be0d7cd59868d84e3b41773 libfuse: add upper-level iomap add device function
+00666e9d004f1d65f8ccdbfe2d4b15ba84ec815a libfuse: add iomap ioend low level handler
+141d959a2425bf9c3c49ddb1c6ee7c6556612e89 libfuse: add upper level iomap ioend commands
+cb825f352451fa8d8a2796ffbe7235c6bd005f45 libfuse: add a reply function to send FUSE_ATTR_* to the kernel
+640fef08ab4f920abeca7ca06531ef5d2947ed7b libfuse: connect high level fuse library to fuse_reply_attr_iflags
+4e1ce016c214d28747d6ab62debee50e6eb1cf5d libfuse: support direct I/O through iomap
+e69464a2a0582600d74abeacc131b39547a68e4f libfuse: don't allow hardlinking of iomap files in the upper level fuse library
+d382eca64ef66e2ae210c5034ca2d76a7e686d32 libfuse: allow discovery of the kernel's iomap capabilities
+c813d49998c1ebe7f6bbc62d02dcc84b17d09400 libfuse: add lower level iomap_config implementation
+da01000f60d7ff2705d6a42d616437dc3eff98ff libfuse: add upper level iomap_config implementation
+3efd99a9febdc26a8dac7d4883d89e7cab71009b libfuse: add low level code to invalidate iomap block device ranges
+bdd4fecc0457b46481f81ea06096e40e0660a1fc libfuse: add upper-level API to invalidate parts of an iomap block device
+2691ddde3166267b87350df13d0b1067c8d4f804 libfuse: add atomic write support
+811baeed6fbb803fd7b568276564a571aa985fab libfuse: create a helper to transform an open regular file into an open loopdev
+a1b154a01943fd8ca8a082fb1cd6882249067526 libfuse: add swapfile support for iomap files
+a55188775863374744cc85ce407b48eab2e8613f libfuse: add lower-level filesystem freeze, thaw, and shutdown requests
+7506ff2837e9f2ead266a0176d9e7f82c72d4f00 libfuse: add upper-level filesystem freeze, thaw, and shutdown events
+078a2d4cfb3770a0007411a15b1cd70d7b973e84 libfuse: allow root_nodeid mount option
+82afc836c2199009197a27e7f1db1b54b5788082 libfuse: add strictatime/lazytime mount options
+d7d40e3d5bbe903ad1d2eaf61a738bc729e24dfc libfuse: set sync, immutable, and append when loading files
+89d324ce91f5eb830a6a77fbabe5f5aa09b1beb3 libfuse: wire up FUSE_SYNCFS to the low level library
+73efde3f3bf70a24ce0bf80eff7fe836448063f5 libfuse: add syncfs support to the upper library
+26baaec0eaea9bdb0a688f2e940ae1d9ba5f48ca libfuse: enable iomap cache management for lowlevel fuse
+71961ea86acfb8bf4174e5fb01d7119e6e4eb3cc libfuse: add upper-level iomap cache management
+c5c012cefd77480da21eacaedbf425d0729f23d1 libfuse: enable iomap
+bee4755918d4d3d0808907c73e52fb991ac20743 libfuse: add systemd/inetd socket service mounting helper
+a81f371151d7ba002d2e41a92f4dd4b94b3e95d2 libfuse: integrate fuse services into mount.fuse3
+581b10e245488de7476336e7e444844a12241800 libfuse: delegate iomap privilege from mount.service to fuse services
+0b174be952087294958bd7c70293e2a189c5285a libfuse: enable setting iomap block device block size
+94ef82127efb98629b7ab8e166f082a7c89c8d97 fuservicemount: create loop devices for regular files
 
---===============8783181333167701962==
+--===============8675568168739481506==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-46f429acb589-766811a0dbf0.txt
+Content-Disposition: attachment; filename=revlist-a6fdf8c4f795-6278995cca99.txt
 
-ffd562ecf44aff10b74c35c6f961614db5198ca9 punch-alternating: prevent punching all extents
-f02d4965d48f59f53a729e9ddd55fb8fcc373f85 generic: use _qmount_option and _qmount
-f4ec120ffd251564cc78d6d0dae78ca93cb5b648 xfs: add a test that zoned file systems with rump RTG can't be mounted
-960384aa2c46622dc0048f417a18be2d09166f83 xfs: test that RT growfs not aligned to zone size fails
-7e972aff4801afb44b9faea4a7598a311b887fc0 xfs: test that mkfs creates zone-aligned RT devices
-eb2ad950ea90d8d8d861f8beac138d6a19f0f819 dmflakey: override SCRATCH_DEV in _init_flakey
-5dbc7499a3b2e4a99c02c1b45c3a2d33d443a8b6 ext4/006: call e2fsck directly
-a63b4556fc740792188a56b2ae61afb6b02635ac common: add a _check_dev_fs helper
-cd74736e17949b32c6e680b8f83755f147558a6f ext4/032: use _check_dev_fs
-901f00980f0e0cc28d15e9a4865d1a58d8c35af5 generic/590: split XFS RT specific bits out
-255cb1f0dd6e9c604f01acc49b1d735916e80514 xfs/157: don't override SCRATCH_{,LOG,RT}DEV
-4460f5d01c7e6f1ac62fd9d62f7f9c300d998e6e xfs/185: don't use SCRATCH_{,RT}DEV helpers
-30ee67e320de8af77f28c96d280f34c606b54d6a xfs/424: don't use SCRATCH_DEV helpers
-0d89f8063ece5ece81d44acef2dbd51bc74f8ae5 xfs/521: require a real SCRATCH_RTDEV
-e157f480a308e0c9e4d8abcc8c3f6463c61905fc xfs/521: call _require_scratch_size
-70824203cb6827179236de0b37ea41123cbe462e xfs/528: require a real SCRATCH_RTDEV
-90f6065005e7feec44a0fa45785284df3a1b525d xfs/530: require a real SCRATCH_RTDEV
-cfb2146bc959fde3633bcec1ed53f359babea4cb xfs/650: require a real SCRATCH_RTDEV
-1a1521a039d43a106b301bef17267c82686ddf6a fstests: fix flaky device name in _cleanup_flakey
-36836607c9e79c9d18de5affcc05ce723ad16a7b check: put temporary files in TMPDIR, not /tmp
-d49e334213756882160117c27afa5c3b627760e6 common/rc: fix _xfs_is_realtime_file for internal rt devices
-fdc576ef62e27179e4b606e6b4797a1b38ea2f7a xfs/649: fix various problems
-fb14379b8dbcc96b58773934ed1e2e31288e6d96 MAINTAINERS: update entry for Anand Jain
-ad2b96dd66ef34798c83aef841930bf90797b874 xfs/490: fix failure due to deprecated ikeep mount option
-1da7f10cd89d3392f68cadf7c08f43107c9c0295 fstests: btrfs: add a new test case to verify quick qgroup inherit
-657410a19ab577a946d1d8ba94e0254b5a034ab1 fstests: generic/746: update the parser to handle block group tree
-80259c855ad782c66133e5ed06cf569857dd1f97 fstests: btrfs/301: use correct blocksize to fill the fs
-4c7968b86932ad2e8ae6fa480896ec7174dec9df fstests: btrfs/226: skip the test for bs > ps cases
-71131073bc76e4559b9689625687e063c4704ba9 common/quota: fix to wait for all inodes been evicted in _check_quota_usage()
-e45c90fedb0b6107ea73ee2812ce823f4f2a0f6e generic/020: limit xattr value by 3802 bytes
-63a29724a85f1999e49bf0a9bf0d22643b6116e5 xfstests: add HFS/HFS+ and NILFS2 into supported FS table
-6d1d32d22a1de1d0bf6a600bb6ede01b6c281bc2 xfs/614: fix test for parent pointers
-6f96533b35a8ce214438562d60fa2a5df164201f logwrites: warn if we don't think read after discard returns zeroes
-b913502ffda5277e5bbbca47d67b9222efa61ad9 logwrites: use BLKZEROOUT if it's available
-d1cb406eb17c90c47d3adfbaab9462ee3e0e39cf logwrites: only use BLKDISCARD if we know discard zeroes data
-451526033f8db65616470b8a4d6870f9a09facac xfs: test upgrading old features
-73b0acae5b8708d70f31bdae0adedf222b379e4d treewide: convert all $MOUNT_PROG to _mount
-9a93860abb813a8a2293659db4708fa632e770a0 check: capture dmesg of mount failures if test fails
-766d0413028aa545d03200e2dc0d49eb8071bd5e generic: test fsnotify filesystem error reporting
-7c283936894a45a52f574c0ec25f6dd40b8a26fa xfs: test health monitoring code
-15b47eab382881d5d667d9e1ec60e9db5dc8aa17 xfs: test for metadata corruption error reporting via healthmon
-c8b33860c959b2b9618f04163cfc1fda9751514c xfs: test io error reporting via healthmon
-766811a0dbf0c4bb1bfc30686d5f018bc0ea0483 xfs: test new xfs_healer daemon
+033e0c3fbeb643bbd4e7775849975b6c3f754972 build(deps): bump github/codeql-action from 4.31.7 to 4.31.8
+2bb27d8197cb9a3c6f0e7f17aa0cd96f1053ff47 fuse-io-uring: Handle EAGAIN/EINTR in fuse-io-uring
+834a496b5ec0380db12f1e0d1d8435d118965e83 fuse-io-uring: Function rename and split into two function
+b9cae498ff9df22d785128576c0b13077452a7c4 fuse-io-uring: Initialize queue->eventfd
+8e536dcb767f31aae986cc4aff5a1a56420c7de5 fuse-io-uring: Add a lock around io_uring_submit / io_uring_submit_and_wait
+7a76588f0639782b82f94f9d0036816bfec48c30 Add signify verification in make_release_tarball.sh
+c5050b72933c11ede95516a86744db3bda7c263f Prepare 3.18.0 release
+dae44ec38ab24ca6ff0d8eb57147d012ca037559 prepare 3.18.0 release v2
+1218c865b7eaf5e5f47e2b5353b106cb8a8e74ef Fix fuse version script / 3.17.3 to 3.18
+fef782261a53c72c2dfcb3a3b2ca3cd1abace92c Add an ABI check for the last tag of the previous release
+1a99fb2c57f44f981cda7774b4a7da0b4ecb3d45 fuse_uring: remove duplicate fuse_uring resource init
+8fd68792ae578ebe7abebe48f752a1c3bd5a1d01 build(deps): bump github/codeql-action from 4.31.8 to 4.31.9
+37dac0ee019a42e81cd1f388fab629fc438006dc Add doc/ChangeLog-API.rst
+a32cec008c090691cc11fd9d9f0fc98a107c8777 Add lowlevel ioctl examples and tests
+b2852e09afe38e318b50bd4a14f8a3fc0f27612c make_release_tarball.sh: Fix signify verification
+28d3f4b42d6fd222c76cf533b5cced44aa3aca0d fuse_lowlevel.h: Some minor cleanups from clang-format
+562f901226eba137226acd38e244e7d3dd43a41d Fix 'find_previous_release_tag.sh' if current version has no tag
+cd4a7963856ca57ed438f0b1208b34e0bb88bad3 Increase the build version to 3.19-rc0
+6278995cca991978abd25ebb2c20ebd3fc9e8a13 fuse lowlevel: Add a teardown watchdog feature
 
---===============8783181333167701962==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3f89979bda62-d1cb406eb17c.txt
-
-ffd562ecf44aff10b74c35c6f961614db5198ca9 punch-alternating: prevent punching all extents
-f02d4965d48f59f53a729e9ddd55fb8fcc373f85 generic: use _qmount_option and _qmount
-f4ec120ffd251564cc78d6d0dae78ca93cb5b648 xfs: add a test that zoned file systems with rump RTG can't be mounted
-960384aa2c46622dc0048f417a18be2d09166f83 xfs: test that RT growfs not aligned to zone size fails
-7e972aff4801afb44b9faea4a7598a311b887fc0 xfs: test that mkfs creates zone-aligned RT devices
-eb2ad950ea90d8d8d861f8beac138d6a19f0f819 dmflakey: override SCRATCH_DEV in _init_flakey
-5dbc7499a3b2e4a99c02c1b45c3a2d33d443a8b6 ext4/006: call e2fsck directly
-a63b4556fc740792188a56b2ae61afb6b02635ac common: add a _check_dev_fs helper
-cd74736e17949b32c6e680b8f83755f147558a6f ext4/032: use _check_dev_fs
-901f00980f0e0cc28d15e9a4865d1a58d8c35af5 generic/590: split XFS RT specific bits out
-255cb1f0dd6e9c604f01acc49b1d735916e80514 xfs/157: don't override SCRATCH_{,LOG,RT}DEV
-4460f5d01c7e6f1ac62fd9d62f7f9c300d998e6e xfs/185: don't use SCRATCH_{,RT}DEV helpers
-30ee67e320de8af77f28c96d280f34c606b54d6a xfs/424: don't use SCRATCH_DEV helpers
-0d89f8063ece5ece81d44acef2dbd51bc74f8ae5 xfs/521: require a real SCRATCH_RTDEV
-e157f480a308e0c9e4d8abcc8c3f6463c61905fc xfs/521: call _require_scratch_size
-70824203cb6827179236de0b37ea41123cbe462e xfs/528: require a real SCRATCH_RTDEV
-90f6065005e7feec44a0fa45785284df3a1b525d xfs/530: require a real SCRATCH_RTDEV
-cfb2146bc959fde3633bcec1ed53f359babea4cb xfs/650: require a real SCRATCH_RTDEV
-1a1521a039d43a106b301bef17267c82686ddf6a fstests: fix flaky device name in _cleanup_flakey
-36836607c9e79c9d18de5affcc05ce723ad16a7b check: put temporary files in TMPDIR, not /tmp
-d49e334213756882160117c27afa5c3b627760e6 common/rc: fix _xfs_is_realtime_file for internal rt devices
-fdc576ef62e27179e4b606e6b4797a1b38ea2f7a xfs/649: fix various problems
-fb14379b8dbcc96b58773934ed1e2e31288e6d96 MAINTAINERS: update entry for Anand Jain
-ad2b96dd66ef34798c83aef841930bf90797b874 xfs/490: fix failure due to deprecated ikeep mount option
-1da7f10cd89d3392f68cadf7c08f43107c9c0295 fstests: btrfs: add a new test case to verify quick qgroup inherit
-657410a19ab577a946d1d8ba94e0254b5a034ab1 fstests: generic/746: update the parser to handle block group tree
-80259c855ad782c66133e5ed06cf569857dd1f97 fstests: btrfs/301: use correct blocksize to fill the fs
-4c7968b86932ad2e8ae6fa480896ec7174dec9df fstests: btrfs/226: skip the test for bs > ps cases
-71131073bc76e4559b9689625687e063c4704ba9 common/quota: fix to wait for all inodes been evicted in _check_quota_usage()
-e45c90fedb0b6107ea73ee2812ce823f4f2a0f6e generic/020: limit xattr value by 3802 bytes
-63a29724a85f1999e49bf0a9bf0d22643b6116e5 xfstests: add HFS/HFS+ and NILFS2 into supported FS table
-6d1d32d22a1de1d0bf6a600bb6ede01b6c281bc2 xfs/614: fix test for parent pointers
-6f96533b35a8ce214438562d60fa2a5df164201f logwrites: warn if we don't think read after discard returns zeroes
-b913502ffda5277e5bbbca47d67b9222efa61ad9 logwrites: use BLKZEROOUT if it's available
-d1cb406eb17c90c47d3adfbaab9462ee3e0e39cf logwrites: only use BLKDISCARD if we know discard zeroes data
-
---===============8783181333167701962==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-df16c93a89d3-63a29724a85f.txt
-
-ffd562ecf44aff10b74c35c6f961614db5198ca9 punch-alternating: prevent punching all extents
-f02d4965d48f59f53a729e9ddd55fb8fcc373f85 generic: use _qmount_option and _qmount
-f4ec120ffd251564cc78d6d0dae78ca93cb5b648 xfs: add a test that zoned file systems with rump RTG can't be mounted
-960384aa2c46622dc0048f417a18be2d09166f83 xfs: test that RT growfs not aligned to zone size fails
-7e972aff4801afb44b9faea4a7598a311b887fc0 xfs: test that mkfs creates zone-aligned RT devices
-eb2ad950ea90d8d8d861f8beac138d6a19f0f819 dmflakey: override SCRATCH_DEV in _init_flakey
-5dbc7499a3b2e4a99c02c1b45c3a2d33d443a8b6 ext4/006: call e2fsck directly
-a63b4556fc740792188a56b2ae61afb6b02635ac common: add a _check_dev_fs helper
-cd74736e17949b32c6e680b8f83755f147558a6f ext4/032: use _check_dev_fs
-901f00980f0e0cc28d15e9a4865d1a58d8c35af5 generic/590: split XFS RT specific bits out
-255cb1f0dd6e9c604f01acc49b1d735916e80514 xfs/157: don't override SCRATCH_{,LOG,RT}DEV
-4460f5d01c7e6f1ac62fd9d62f7f9c300d998e6e xfs/185: don't use SCRATCH_{,RT}DEV helpers
-30ee67e320de8af77f28c96d280f34c606b54d6a xfs/424: don't use SCRATCH_DEV helpers
-0d89f8063ece5ece81d44acef2dbd51bc74f8ae5 xfs/521: require a real SCRATCH_RTDEV
-e157f480a308e0c9e4d8abcc8c3f6463c61905fc xfs/521: call _require_scratch_size
-70824203cb6827179236de0b37ea41123cbe462e xfs/528: require a real SCRATCH_RTDEV
-90f6065005e7feec44a0fa45785284df3a1b525d xfs/530: require a real SCRATCH_RTDEV
-cfb2146bc959fde3633bcec1ed53f359babea4cb xfs/650: require a real SCRATCH_RTDEV
-1a1521a039d43a106b301bef17267c82686ddf6a fstests: fix flaky device name in _cleanup_flakey
-36836607c9e79c9d18de5affcc05ce723ad16a7b check: put temporary files in TMPDIR, not /tmp
-d49e334213756882160117c27afa5c3b627760e6 common/rc: fix _xfs_is_realtime_file for internal rt devices
-fdc576ef62e27179e4b606e6b4797a1b38ea2f7a xfs/649: fix various problems
-fb14379b8dbcc96b58773934ed1e2e31288e6d96 MAINTAINERS: update entry for Anand Jain
-ad2b96dd66ef34798c83aef841930bf90797b874 xfs/490: fix failure due to deprecated ikeep mount option
-1da7f10cd89d3392f68cadf7c08f43107c9c0295 fstests: btrfs: add a new test case to verify quick qgroup inherit
-657410a19ab577a946d1d8ba94e0254b5a034ab1 fstests: generic/746: update the parser to handle block group tree
-80259c855ad782c66133e5ed06cf569857dd1f97 fstests: btrfs/301: use correct blocksize to fill the fs
-4c7968b86932ad2e8ae6fa480896ec7174dec9df fstests: btrfs/226: skip the test for bs > ps cases
-71131073bc76e4559b9689625687e063c4704ba9 common/quota: fix to wait for all inodes been evicted in _check_quota_usage()
-e45c90fedb0b6107ea73ee2812ce823f4f2a0f6e generic/020: limit xattr value by 3802 bytes
-63a29724a85f1999e49bf0a9bf0d22643b6116e5 xfstests: add HFS/HFS+ and NILFS2 into supported FS table
-
---===============8783181333167701962==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-cd70b1a6095d-0dbefd311991.txt
-
-ffd562ecf44aff10b74c35c6f961614db5198ca9 punch-alternating: prevent punching all extents
-f02d4965d48f59f53a729e9ddd55fb8fcc373f85 generic: use _qmount_option and _qmount
-f4ec120ffd251564cc78d6d0dae78ca93cb5b648 xfs: add a test that zoned file systems with rump RTG can't be mounted
-960384aa2c46622dc0048f417a18be2d09166f83 xfs: test that RT growfs not aligned to zone size fails
-7e972aff4801afb44b9faea4a7598a311b887fc0 xfs: test that mkfs creates zone-aligned RT devices
-eb2ad950ea90d8d8d861f8beac138d6a19f0f819 dmflakey: override SCRATCH_DEV in _init_flakey
-5dbc7499a3b2e4a99c02c1b45c3a2d33d443a8b6 ext4/006: call e2fsck directly
-a63b4556fc740792188a56b2ae61afb6b02635ac common: add a _check_dev_fs helper
-cd74736e17949b32c6e680b8f83755f147558a6f ext4/032: use _check_dev_fs
-901f00980f0e0cc28d15e9a4865d1a58d8c35af5 generic/590: split XFS RT specific bits out
-255cb1f0dd6e9c604f01acc49b1d735916e80514 xfs/157: don't override SCRATCH_{,LOG,RT}DEV
-4460f5d01c7e6f1ac62fd9d62f7f9c300d998e6e xfs/185: don't use SCRATCH_{,RT}DEV helpers
-30ee67e320de8af77f28c96d280f34c606b54d6a xfs/424: don't use SCRATCH_DEV helpers
-0d89f8063ece5ece81d44acef2dbd51bc74f8ae5 xfs/521: require a real SCRATCH_RTDEV
-e157f480a308e0c9e4d8abcc8c3f6463c61905fc xfs/521: call _require_scratch_size
-70824203cb6827179236de0b37ea41123cbe462e xfs/528: require a real SCRATCH_RTDEV
-90f6065005e7feec44a0fa45785284df3a1b525d xfs/530: require a real SCRATCH_RTDEV
-cfb2146bc959fde3633bcec1ed53f359babea4cb xfs/650: require a real SCRATCH_RTDEV
-1a1521a039d43a106b301bef17267c82686ddf6a fstests: fix flaky device name in _cleanup_flakey
-36836607c9e79c9d18de5affcc05ce723ad16a7b check: put temporary files in TMPDIR, not /tmp
-d49e334213756882160117c27afa5c3b627760e6 common/rc: fix _xfs_is_realtime_file for internal rt devices
-fdc576ef62e27179e4b606e6b4797a1b38ea2f7a xfs/649: fix various problems
-fb14379b8dbcc96b58773934ed1e2e31288e6d96 MAINTAINERS: update entry for Anand Jain
-ad2b96dd66ef34798c83aef841930bf90797b874 xfs/490: fix failure due to deprecated ikeep mount option
-1da7f10cd89d3392f68cadf7c08f43107c9c0295 fstests: btrfs: add a new test case to verify quick qgroup inherit
-657410a19ab577a946d1d8ba94e0254b5a034ab1 fstests: generic/746: update the parser to handle block group tree
-80259c855ad782c66133e5ed06cf569857dd1f97 fstests: btrfs/301: use correct blocksize to fill the fs
-4c7968b86932ad2e8ae6fa480896ec7174dec9df fstests: btrfs/226: skip the test for bs > ps cases
-71131073bc76e4559b9689625687e063c4704ba9 common/quota: fix to wait for all inodes been evicted in _check_quota_usage()
-e45c90fedb0b6107ea73ee2812ce823f4f2a0f6e generic/020: limit xattr value by 3802 bytes
-63a29724a85f1999e49bf0a9bf0d22643b6116e5 xfstests: add HFS/HFS+ and NILFS2 into supported FS table
-6d1d32d22a1de1d0bf6a600bb6ede01b6c281bc2 xfs/614: fix test for parent pointers
-6f96533b35a8ce214438562d60fa2a5df164201f logwrites: warn if we don't think read after discard returns zeroes
-b913502ffda5277e5bbbca47d67b9222efa61ad9 logwrites: use BLKZEROOUT if it's available
-d1cb406eb17c90c47d3adfbaab9462ee3e0e39cf logwrites: only use BLKDISCARD if we know discard zeroes data
-451526033f8db65616470b8a4d6870f9a09facac xfs: test upgrading old features
-73b0acae5b8708d70f31bdae0adedf222b379e4d treewide: convert all $MOUNT_PROG to _mount
-9a93860abb813a8a2293659db4708fa632e770a0 check: capture dmesg of mount failures if test fails
-766d0413028aa545d03200e2dc0d49eb8071bd5e generic: test fsnotify filesystem error reporting
-7c283936894a45a52f574c0ec25f6dd40b8a26fa xfs: test health monitoring code
-15b47eab382881d5d667d9e1ec60e9db5dc8aa17 xfs: test for metadata corruption error reporting via healthmon
-c8b33860c959b2b9618f04163cfc1fda9751514c xfs: test io error reporting via healthmon
-766811a0dbf0c4bb1bfc30686d5f018bc0ea0483 xfs: test new xfs_healer daemon
-570302a7cd09fab0efbbef3a46dc9a75a61dc0ed xfs/1856: add metadir upgrade to test matrix
-b053142ba4979eb90629e7ed3fecf985589fe56e xfs/1856: add rtrmapbt upgrade to test matrix
-19cce911801e2005026628716b60022210c3aada xfs/1856: add rtreflink upgrade to test matrix
-0dbefd3119914d19f2879bea0ade8b909c6bec29 xfs/1856: tweak need_metadir for zoned filesystems
-
---===============8783181333167701962==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-cbb217b97f83-451526033f8d.txt
-
-ffd562ecf44aff10b74c35c6f961614db5198ca9 punch-alternating: prevent punching all extents
-f02d4965d48f59f53a729e9ddd55fb8fcc373f85 generic: use _qmount_option and _qmount
-f4ec120ffd251564cc78d6d0dae78ca93cb5b648 xfs: add a test that zoned file systems with rump RTG can't be mounted
-960384aa2c46622dc0048f417a18be2d09166f83 xfs: test that RT growfs not aligned to zone size fails
-7e972aff4801afb44b9faea4a7598a311b887fc0 xfs: test that mkfs creates zone-aligned RT devices
-eb2ad950ea90d8d8d861f8beac138d6a19f0f819 dmflakey: override SCRATCH_DEV in _init_flakey
-5dbc7499a3b2e4a99c02c1b45c3a2d33d443a8b6 ext4/006: call e2fsck directly
-a63b4556fc740792188a56b2ae61afb6b02635ac common: add a _check_dev_fs helper
-cd74736e17949b32c6e680b8f83755f147558a6f ext4/032: use _check_dev_fs
-901f00980f0e0cc28d15e9a4865d1a58d8c35af5 generic/590: split XFS RT specific bits out
-255cb1f0dd6e9c604f01acc49b1d735916e80514 xfs/157: don't override SCRATCH_{,LOG,RT}DEV
-4460f5d01c7e6f1ac62fd9d62f7f9c300d998e6e xfs/185: don't use SCRATCH_{,RT}DEV helpers
-30ee67e320de8af77f28c96d280f34c606b54d6a xfs/424: don't use SCRATCH_DEV helpers
-0d89f8063ece5ece81d44acef2dbd51bc74f8ae5 xfs/521: require a real SCRATCH_RTDEV
-e157f480a308e0c9e4d8abcc8c3f6463c61905fc xfs/521: call _require_scratch_size
-70824203cb6827179236de0b37ea41123cbe462e xfs/528: require a real SCRATCH_RTDEV
-90f6065005e7feec44a0fa45785284df3a1b525d xfs/530: require a real SCRATCH_RTDEV
-cfb2146bc959fde3633bcec1ed53f359babea4cb xfs/650: require a real SCRATCH_RTDEV
-1a1521a039d43a106b301bef17267c82686ddf6a fstests: fix flaky device name in _cleanup_flakey
-36836607c9e79c9d18de5affcc05ce723ad16a7b check: put temporary files in TMPDIR, not /tmp
-d49e334213756882160117c27afa5c3b627760e6 common/rc: fix _xfs_is_realtime_file for internal rt devices
-fdc576ef62e27179e4b606e6b4797a1b38ea2f7a xfs/649: fix various problems
-fb14379b8dbcc96b58773934ed1e2e31288e6d96 MAINTAINERS: update entry for Anand Jain
-ad2b96dd66ef34798c83aef841930bf90797b874 xfs/490: fix failure due to deprecated ikeep mount option
-1da7f10cd89d3392f68cadf7c08f43107c9c0295 fstests: btrfs: add a new test case to verify quick qgroup inherit
-657410a19ab577a946d1d8ba94e0254b5a034ab1 fstests: generic/746: update the parser to handle block group tree
-80259c855ad782c66133e5ed06cf569857dd1f97 fstests: btrfs/301: use correct blocksize to fill the fs
-4c7968b86932ad2e8ae6fa480896ec7174dec9df fstests: btrfs/226: skip the test for bs > ps cases
-71131073bc76e4559b9689625687e063c4704ba9 common/quota: fix to wait for all inodes been evicted in _check_quota_usage()
-e45c90fedb0b6107ea73ee2812ce823f4f2a0f6e generic/020: limit xattr value by 3802 bytes
-63a29724a85f1999e49bf0a9bf0d22643b6116e5 xfstests: add HFS/HFS+ and NILFS2 into supported FS table
-6d1d32d22a1de1d0bf6a600bb6ede01b6c281bc2 xfs/614: fix test for parent pointers
-6f96533b35a8ce214438562d60fa2a5df164201f logwrites: warn if we don't think read after discard returns zeroes
-b913502ffda5277e5bbbca47d67b9222efa61ad9 logwrites: use BLKZEROOUT if it's available
-d1cb406eb17c90c47d3adfbaab9462ee3e0e39cf logwrites: only use BLKDISCARD if we know discard zeroes data
-451526033f8db65616470b8a4d6870f9a09facac xfs: test upgrading old features
-
---===============8783181333167701962==--
+--===============8675568168739481506==--
