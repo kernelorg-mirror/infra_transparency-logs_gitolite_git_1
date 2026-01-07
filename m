@@ -1,48 +1,28 @@
-Content-Type: multipart/mixed; boundary="===============9182059765861076272=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vbabka/slab
-Date: Wed, 07 Jan 2026 10:36:11 -0000
-Message-Id: <176778217109.452592.11919266731923931344@gitolite.kernel.org>
-
---===============9182059765861076272==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/utils/util-linux/util-linux
+Date: Wed, 07 Jan 2026 10:36:26 -0000
+Message-Id: <176778218626.452856.10663039365070547940@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vbabka/slab
-user: vbabka
-git_push_cert_status: E
+repo: pub/scm/utils/util-linux/util-linux
+user: kzak
 changes:
-  - ref: refs/heads/slab/for-7.0/obj_metadata
-    old: 0000000000000000000000000000000000000000
-    new: e4d3ce9b893f5053c79d8589063e5a5559f82644
-
---===============9182059765861076272==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher A940D434992C2E8E99103D50224FA7E7CC82A664 1767782166 +0100
-pushee gitolite.kernel.org:pub/scm/linux/kernel/git/vbabka/slab.git
-nonce 1767782165-9780f5dde88b45a7043b81b3249e8219dce3191a
-
-0000000000000000000000000000000000000000 e4d3ce9b893f5053c79d8589063e5a5559f82644 refs/heads/slab/for-7.0/obj_metadata
------BEGIN PGP SIGNATURE-----
-
-iQFPBAABCAA5FiEEe7vIQRWZI0iWSE3xu+CwddJFiJoFAmleNxYbFIAAAAAABAAO
-bWFudTIsMi41KzEuMTEsMiwyAAoJELvgsHXSRYiaVxAH/isorjvqhYgAY5pt8DLi
-3Ce1OMTae3R9+FjrY8+vVKs+0A4MxZoxSFYuSMn1C62nV/J46OJS/eWpPZTxgen8
-0dkcPxAJ2t+RptpjjMS57cQc2JAgOxwv4gHpgbCX6pNmY2eRRRZgageP2DaWEA6w
-Jz0u2GYWTxljAuymZdnD4D+4hobLTD5uAJ6MHNcfZ0KTW9JQQtdQTFHu1+t6Lvna
-cGyccmV0cUSpO7PWZbbn61ND9TwK0JVrQ3nW5Mq0U8dArhU6MR2912uiWk6tp06H
-9GF2QS9AswkNhpth5K3722naExZhoNOmh2FqUECwxKTKvxWB3UItG2gNAO21vl8z
-TsQ=
-=Un2+
------END PGP SIGNATURE-----
-
---===============9182059765861076272==--
+  - ref: refs/heads/master
+    old: db9047892a45c06bceb5768e7bb8c887289b9859
+    new: 8ec679cfb0507fa0f772d7108466964e18e00af9
+    log: |
+         c634871f8fb6a1e5bf7669c20f697f47649bbb86 Fix gettext macro calls
+         8ec679cfb0507fa0f772d7108466964e18e00af9 Merge branch 'gettext_macro' of https://github.com/stoeckmann/util-linux
+         
+  - ref: refs/heads/stable/v2.41
+    old: 5305e6c70b274f679329b79c0e1ef5a07e9dc1a6
+    new: 479133958af89a2afda442e158107b465301dfbb
+    log: |
+         4c22d17cc6d0917582b6c28b64a3e455147106ce bits: only build when cpu_set_t is available
+         718e4a76dd1262ce97f83dbc0c0fe9f97564ecbb build-sys: (gcc) ignore -Wunused-but-set-variable for bison
+         479133958af89a2afda442e158107b465301dfbb blkid: Drop const from blkid_partitions_get_name()
+         
