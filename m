@@ -1,36 +1,29 @@
-Content-Type: multipart/mixed; boundary="===============3206283551934526567=="
+Content-Type: multipart/mixed; boundary="===============8260414951648045649=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next
-Date: Wed, 07 Jan 2026 06:32:34 -0000
-Message-Id: <176776755409.154151.18298200752669881392@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next-history
+Date: Wed, 07 Jan 2026 06:32:42 -0000
+Message-Id: <176776756275.154418.16301556005009105840@gitolite.kernel.org>
 
---===============3206283551934526567==
+--===============8260414951648045649==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/next/linux-next
+repo: pub/scm/linux/kernel/git/next/linux-next-history
 user: sfr
 changes:
   - ref: refs/heads/master
     old: 6cd6c12031130a349a098dbeb19d8c3070d2dfbe
     new: f96074c6d01d8a5e9e2fccd0bba5f2ed654c1f2d
     log: revlist-6cd6c1203113-f96074c6d01d.txt
-  - ref: refs/heads/stable
-    old: 3609fa95fb0f2c1b099e69e56634edb8fc03f87c
-    new: f0b9d8eb98dfee8d00419aa07543bdc2c1a44fb1
-    log: revlist-3609fa95fb0f-f0b9d8eb98df.txt
-  - ref: refs/tags/next-20251007
-    old: d1ba31dd6240ed43340b94705b9597deb6c512ad
-    new: 0000000000000000000000000000000000000000
   - ref: refs/tags/next-20260107
     old: 0000000000000000000000000000000000000000
     new: ef1c7b875741bef0ff37ae8ab8a9aaf407dc141c
 
---===============3206283551934526567==
+--===============8260414951648045649==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1007,28 +1000,4 @@ dd16d278e8d191eebf47717e140f82cdaaa3b458 Merge branch 'for-next' of https://gith
 8f3c829127ddc35521533fd796c23451cf5eb65b Merge branch 'for-next' of https://git.kernel.org/pub/scm/linux/kernel/git/frederic/linux-dynticks.git
 f96074c6d01d8a5e9e2fccd0bba5f2ed654c1f2d Add linux-next specific files for 20260107
 
---===============3206283551934526567==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3609fa95fb0f-f0b9d8eb98df.txt
-
-7ee19a59a75e3d5b9ec00499b86af8e2a46fbe86 btrfs: fix qgroup_snapshot_quick_inherit() squota bug
-68d4b3fa18d72b7f649e83012e7e08f1881f6b75 btrfs: qgroup: update all parent qgroups when doing quick inherit
-f157dd661339fc6f5f2b574fe2429c43bd309534 btrfs: fix NULL dereference on root when tracing inode eviction
-5037b342825df7094a4906d1e2a9674baab50cb2 btrfs: fix deadlock in wait_current_trans() due to ignored transaction type
-e9e3b22ddfa760762b696ac6417c8d6edd182e49 btrfs: fix beyond-EOF write handling
-7ba0b6461bc4edb3005ea6e00cdae189bcf908a5 btrfs: always detect conflicting inodes when logging inode refs
-83f59076a1ae6f5c6845d6f7ed3a1a373d883684 btrfs: fix use-after-free warning in btrfs_get_or_create_delayed_node()
-f8da41de0bff9eb1d774a7253da0c9f637c4470a btrfs: do not free data reservation in fallback from inline due to -ENOSPC
-c1c050f92d8f6aac4e17f7f2230160794fceef0c btrfs: fix reservation leak in some error paths when inserting inline extent
-c6c209ceb87f64a6ceebe61761951dcbbf4a0baa NFSD: Remove NFSERR_EAGAIN
-e901c7fce59e72d9f3c92733c379849c4034ac50 NFSD: Fix permission check for read access to executable-only files
-2857bd59feb63fcf40fe4baf55401baea6b4feb4 nfsd: provide locking for v4_end_grace
-fb321998de7639f1954430674475e469fb529d9c nfsd: use correct loop termination in nfsd4_revoke_states()
-d0424066fcd294977f310964bed6f2a487fa4515 nfsd: check that server is running in unlock_filesystem
-0b88bfa42e5468baff71909c2f324a495318532b NFSD: net ref data still needs to be freed even if net hasn't startup
-7f98ab9da046865d57c102fd3ca9669a29845f67 Merge tag 'for-6.19-rc4-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
-f0b9d8eb98dfee8d00419aa07543bdc2c1a44fb1 Merge tag 'nfsd-6.19-3' of git://git.kernel.org/pub/scm/linux/kernel/git/cel/linux
-
---===============3206283551934526567==--
+--===============8260414951648045649==--
