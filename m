@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8311827829597835557=="
+Content-Type: multipart/mixed; boundary="===============7181242866440281045=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Wed, 07 Jan 2026 01:12:28 -0000
-Message-Id: <176774834862.4093743.16852726505040146315@gitolite.kernel.org>
+Date: Wed, 07 Jan 2026 01:12:31 -0000
+Message-Id: <176774835168.4093835.3969028360522907859@gitolite.kernel.org>
 
---===============8311827829597835557==
+--===============7181242866440281045==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/40GbE
+  - ref: refs/heads/100GbE
     old: 7b8e9264f55a9c320f398e337d215e68cca50131
     new: c303e8b86d9dbd6868f5216272973292f7f3b7f1
     log: revlist-7b8e9264f55a-c303e8b86d9d.txt
 
---===============8311827829597835557==
+--===============7181242866440281045==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -518,4 +518,4 @@ ac782f4e3bfcde145b8a7f8af31d9422d94d172a ipv4: Fix reference count leak when usi
 dbf8fe85a16a33d6b6bd01f2bc606fc017771465 Merge tag 'net-6.19-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 c303e8b86d9dbd6868f5216272973292f7f3b7f1 dt-bindings: net: mscc-miim: add microchip,lan9691-miim
 
---===============8311827829597835557==--
+--===============7181242866440281045==--
