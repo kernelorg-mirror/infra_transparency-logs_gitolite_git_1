@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============6289387760108762291=="
+Content-Type: multipart/mixed; boundary="===============7719400580075061093=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
-Date: Wed, 07 Jan 2026 01:49:18 -0000
-Message-Id: <176775055858.4125351.17619566796784509424@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
+Date: Wed, 07 Jan 2026 01:49:38 -0000
+Message-Id: <176775057892.4125689.9304307775664654879@gitolite.kernel.org>
 
---===============6289387760108762291==
+--===============7719400580075061093==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/perf/perf-tools-next
+repo: pub/scm/linux/kernel/git/acme/linux
 user: acme
 changes:
   - ref: refs/heads/perf-tools-next
@@ -20,7 +20,7 @@ changes:
     new: 75326c67aa8c43000819a2ac29f22eb27846d545
     log: revlist-cbd41c6d4c26-75326c67aa8c.txt
 
---===============6289387760108762291==
+--===============7719400580075061093==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -782,4 +782,4 @@ cff602f65988da48cc1b84f6c3588a25a320fa81 perf build: Feature test for libbfd thr
 8e746e95c3e4eb56ae261feb9ae261bce1f96947 perf data: Allow filtering conversion by time range
 75326c67aa8c43000819a2ac29f22eb27846d545 perf data: Fix coding style
 
---===============6289387760108762291==--
+--===============7719400580075061093==--
