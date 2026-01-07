@@ -1,26 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux
-Date: Wed, 07 Jan 2026 15:11:26 -0000
-Message-Id: <176779868699.671048.15391385248300433608@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/hid/hid
+Date: Wed, 07 Jan 2026 15:13:50 -0000
+Message-Id: <176779883024.672119.2927985674743301628@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux
-user: axboe
+repo: pub/scm/linux/kernel/git/hid/hid
+user: bentiss
 changes:
-  - ref: refs/heads/block-6.19
-    old: 2704024d83fa9eb8e5f16925aae340fd9d246694
-    new: 9670db22e7ab4aefe2b2619589a47fef9d3e0c7e
+  - ref: refs/heads/for-6.19/upstream-fixes
+    old: c06bc3557542307b9658fbd43cc946a14250347b
+    new: f287ba5951a4b3a47305b64a3fcde5d0911adb9b
     log: |
-         9670db22e7ab4aefe2b2619589a47fef9d3e0c7e blk-mq: avoid stall during boot due to synchronize_rcu_expedited
-         
-  - ref: refs/heads/for-next
-    old: 8ba16e418a2b604f2d7c45c017ca6546053782dc
-    new: 28fd54be4ae8531c36d6ee85e87fccca51a3449b
-    log: |
-         9670db22e7ab4aefe2b2619589a47fef9d3e0c7e blk-mq: avoid stall during boot due to synchronize_rcu_expedited
-         28fd54be4ae8531c36d6ee85e87fccca51a3449b Merge branch 'block-6.19' into for-next
+         2b29a90131bbb3d404e5bf5102af5ce98ccf96fe HID: multitouch: set INPUT_PROP_PRESSUREPAD based on Digitizer/Button Type
+         1d6628f7f279131ac9efb743bcea7080666d7574 selftests/hid: require hidtools 0.12
+         4f36fdab084fcbe9c34bb51889e4b8c06d98fbaa selftests/hid: use a enum class for the different button types
+         f287ba5951a4b3a47305b64a3fcde5d0911adb9b selftests/hid: add a test for the Digitizer/Button Type pressurepad
          
