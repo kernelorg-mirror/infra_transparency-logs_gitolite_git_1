@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6779456805209529103=="
+Content-Type: multipart/mixed; boundary="===============0239144004265368474=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Thu, 08 Jan 2026 22:59:00 -0000
-Message-Id: <176791314047.2529551.18293122498344624496@gitolite.kernel.org>
+Date: Thu, 08 Jan 2026 22:59:09 -0000
+Message-Id: <176791314970.2529927.4087110403516563960@gitolite.kernel.org>
 
---===============6779456805209529103==
+--===============0239144004265368474==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/cel/linux
 user: cel
 changes:
-  - ref: refs/heads/nfsd-next
-    old: ee35e4fb4d38984b0e43860be49305ffc879db26
-    new: 2a35c9e471be87b5dd4733c19d6008b340dd9ed4
-    log: revlist-ee35e4fb4d38-2a35c9e471be.txt
+  - ref: refs/heads/nfsd-testing
+    old: 09507e47709e88fd2c89302654b0b9fd31022f2a
+    new: 2e04c850fae081223bb6707b782cba843a5b43f5
+    log: revlist-09507e47709e-2e04c850fae0.txt
 
---===============6779456805209529103==
+--===============0239144004265368474==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ee35e4fb4d38-2a35c9e471be.txt
+Content-Disposition: attachment; filename=revlist-09507e47709e-2e04c850fae0.txt
 
 7ee19a59a75e3d5b9ec00499b86af8e2a46fbe86 btrfs: fix qgroup_snapshot_quick_inherit() squota bug
 68d4b3fa18d72b7f649e83012e7e08f1881f6b75 btrfs: qgroup: update all parent qgroups when doing quick inherit
@@ -179,5 +179,27 @@ b928b7296cc7da936562a6ede1e4a7ea452fc1ad locks: ensure vfs_test_lock() never ret
 126228f5bd0e84142b32107279735aff8a7fd8eb nfsd: use workqueue enable/disable APIs for v4_end_grace sync
 32e521af7ae252abe956b1d13f60aab9866d9a06 nfsd: fix nfs4_file refcount leak in nfsd_get_dir_deleg()
 2a35c9e471be87b5dd4733c19d6008b340dd9ed4 xdrgen: Implement short (16-bit) integer types
+ae7c418a718395c44a385dc007e25b573bcc77a3 NFSD: fix setting FMODE_NOCMTIME in nfs4_open_delegation
+9d033b9e1e2f3a2a16d7ee8d15fc85d5ad4816d6 xdrgen: Initialize data pointer for zero-length items
+70fa64f4d75dae334497c7cfa5d00a02d0b5a8cb xdrgen: Remove inclusion of nlm4.h header
+44e161e63f4dff57de7eb5308bb74dec00b94d29 xdrgen: Improve parse error reporting
+ea8c42bb9bdc0158600024240f0e2d2228137fb1 nfsd: never defer requests during idmap lookup
+65b7672df65f87956d072c30d47335e436e3f49a nfsd: fix return error code for nfsd_map_name_to_[ug]id
+2af92685941faa5026e8435ffee7d1c2ed1a75e6 SUNRPC: auth_gss: fix memory leaks in XDR decoding error paths
+6b9d1ed566c76ec82137767217a346cc9c3e907a xdrgen: Extend error reporting to AST transformation phase
+2c2ade5273b829d435744001313ae8968d4fcd9b xdrgen: Emit a max_arg_sz macro
+26fbe04ab46bdb14f3913c113d6fbdf5ec241c06 xdrgen: Add enum value validation to generated decoders
+753e37bbc1fbe0161e4ddaea491c8205335e1efb sunrpc: split svc_set_num_threads() into two functions
+4ebd285db91dede991f6a3783b770ab23d5654df sunrpc: remove special handling of NULL pool from svc_start/stop_kthreads()
+60a1ab5bc225a2a6e25bc55acc3eb850e86a319e sunrpc: track the max number of requested threads in a pool
+b921b7be44c9cb3ace2ed0761b468b391da9f5f9 sunrpc: introduce the concept of a minimum number of threads per pool
+0899b03a790b5da4c41507a85faf48195d502eec sunrpc: split new thread creation into a separate function
+739c96f3f88ac037f5d462f69f4e1334b8cb82f5 sunrpc: allow svc_recv() to return -ETIMEDOUT and -EBUSY
+69824e7003b5f652f80d1381bfc5760a51e76321 nfsd: adjust number of running nfsd threads based on activity
+04bccfddbd839d8aaf23b4be603ea205b67abc1e nfsd: add controls to set the minimum number of threads per pool
+5788fc4f029d279e4ff5fbbce2d117305f8514b2 NFSD: Track SCSI Persistent Registration Fencing per Client with xarray
+e92da535182fac627007b7a9c21f310897cc3238 nfsd: cancel async COPY operations when admin revokes filesystem state
+e2118eba83e0ca7e0a7a110a4e73d7249c9b9ccc [DEBUG] Add instrumentation for nfsd_mutex contention debugging
+2e04c850fae081223bb6707b782cba843a5b43f5 siw: Enable try_gso
 
---===============6779456805209529103==--
+--===============0239144004265368474==--
