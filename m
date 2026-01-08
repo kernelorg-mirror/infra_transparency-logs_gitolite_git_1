@@ -1,66 +1,45 @@
-Content-Type: multipart/mixed; boundary="===============6973771222385962605=="
+Content-Type: multipart/mixed; boundary="===============7616434531460804346=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Thu, 08 Jan 2026 15:59:43 -0000
-Message-Id: <176788798353.2180324.18299059356904111950@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/atorgue/stm32
+Date: Thu, 08 Jan 2026 15:59:46 -0000
+Message-Id: <176788798696.2180492.1026365829951448470@gitolite.kernel.org>
 
---===============6973771222385962605==
+--===============7616434531460804346==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/atorgue/stm32
+user: atorgue
 changes:
-  - ref: refs/heads/master
-    old: f0b9d8eb98dfee8d00419aa07543bdc2c1a44fb1
-    new: 79b95d74470dd97d7d0908d5a3c0734a23e51aa4
-    log: revlist-f0b9d8eb98df-79b95d74470d.txt
+  - ref: refs/heads/stm32-next
+    old: 923bb1e2cb32c572169394effa70515e6e6d59ac
+    new: 94f9e024573820407708ac4c7e3e1708f8c2d04f
+    log: revlist-923bb1e2cb32-94f9e0245738.txt
 
---===============6973771222385962605==
+--===============7616434531460804346==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f0b9d8eb98df-79b95d74470d.txt
+Content-Disposition: attachment; filename=revlist-923bb1e2cb32-94f9e0245738.txt
 
-f28beb69c51517aec7067dfb2074e7c751542384 HID: usbhid: paper over wrong bNumDescriptor field
-e9143268d259d98e111a649affa061acb8e13c5b HID: playstation: Center initial joystick axes to prevent spurious events
-0e13150c1a13a3a3d6184c24bfd080d5999945d1 HID: Intel-thc-hid: Intel-thc: fix dma_unmap_sg() nents value
-daeed86b686855adda79f13729e0c9b0530990be HID: intel-ish-hid: Update ishtp bus match to support device ID table
-56e230723e3a818373bd62331bccb1c6d2b3881b HID: intel-ish-hid: Reset enum_devices_done before enumeration
-ff3f234ff1dcd6d626a989151db067a1b7f0f215 HID: multitouch: add MT_QUIRK_STICKY_FINGERS to MT_CLS_VTL
-f39006965dd37e7be823dba6ca484adccc7a4dff HID: Intel-thc-hid: Intel-thc: Fix wrong register reading
-e4ca5ecc3c411f2fe970369f55bb72ac96adea85 ASoC: Intel: sof_sdw: shift SSP BT mask bits.
-a0c8ee09f94ba5a29ee5f7557eb2bc100d5e739a ASoC: SOF: Intel: add -bt tplg suffix if BT is present
-54fa71f5f965fa3ec8846cef9d1154bcb2ba2850 ASoC: codecs: pm4125: drop bogus container_of() error handling
-61a50d6f58b41e8a7e68d8fc8fc6bfbe30d790d8 ASoC: codecs: wcd937x: drop bogus container_of() error handling
-870b10f61d527fec594e0888f18cc4f32c47433d ASoC: soc_sdw_utils: drop bogus container_of() error handling
-97af54473f2a79f663bd14d7c75e97d04bd0e283 ASoC: codecs: pm4125: clean up bind() device reference handling
-6c11aa2b4cf767f5ccfe290b2572d53102dbe5ea ASoC: sun4i-spdif: Add missing kerneldoc fields for sun4i_spdif_quirks
-3572ad82201baeed840f1959787e0e1281e7f937 ASoC: drop bogus container_of() error handling
-830988b6cf197e6dcffdfe2008c5738e6c6c3c0f ALSA: ac97: fix a double free in snd_ac97_controller_register()
-e340663bbf2a75dae5d4fddf90b49281f5c9df3f ALSA: hda/tas2781: properly initialize speaker_id for TAS2563
-64d4fe6a4b218901e5a64e34f75586999a4a73fd Merge tag 'asoc-fix-v6.19-rc3' of https://git.kernel.org/pub/scm/linux/kernel/git/broonie/sound into for-linus
-9be25402d8522e16e5ebe84f2b1b6c5de082a388 ALSA: hda/realtek: Add quirk for Acer Nitro AN517-55
-9ed7a28225af02b74f61e7880d460db49db83758 ALSA: hda/realtek: add HP Laptop 15s-eq1xxx mute LED quirk
-b7666c891cc7e1a157cd99bca737631c8be07504 HID: bpf: fix bpf compilation with -fms-extensions
-e03fb369b083ab66d72fb63fe7817e933c3d4a30 selftests/hid: fix bpf compilations due to -fms-extensions
-dd76788f9ec4f33f0f43838cac1304265d944328 hid: intel-thc-hid: Select SGL_ALLOC
-a9a917998d172ec117f9e9de1919174153c0ace4 HID: Intel-thc-hid: Intel-thc: Add safety check for reading DMA buffer
-c06bc3557542307b9658fbd43cc946a14250347b HID: quirks: Add another Chicony HP 5MP Cameras to hid_ignore_list
-2b29a90131bbb3d404e5bf5102af5ce98ccf96fe HID: multitouch: set INPUT_PROP_PRESSUREPAD based on Digitizer/Button Type
-1d6628f7f279131ac9efb743bcea7080666d7574 selftests/hid: require hidtools 0.12
-4f36fdab084fcbe9c34bb51889e4b8c06d98fbaa selftests/hid: use a enum class for the different button types
-f287ba5951a4b3a47305b64a3fcde5d0911adb9b selftests/hid: add a test for the Digitizer/Button Type pressurepad
-2497ff38c530b1af0df5130ca9f5ab22c5e92f29 HID: i2c-hid: fix potential buffer overflow in i2c_hid_get_report()
-85a866809333cd2bf8ddac93d9a3e3ba8e4f807d HID: Apply quirk HID_QUIRK_ALWAYS_POLL to Edifier QR30 (2d99:a101)
-c7fabe4ad9219866c203164a214c474c95b36bf2 HID: quirks: work around VID/PID conflict for appledisplay
-12adb969658ec39265eb8c7ea9e1856867fb9ceb HID: Elecom: Add support for ELECOM M-XT3DRBK (018C)
-d7f6629bffdcb962d383ef8c9a30afef81e997fe HID: logitech: add HID++ support for Logitech MX Anywhere 3S
-108b661c79111ec163edb999825718aa57c3452d Merge tag 'sound-6.19-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/tiwai/sound
-79b95d74470dd97d7d0908d5a3c0734a23e51aa4 Merge tag 'hid-for-linus-2026010801' of git://git.kernel.org/pub/scm/linux/kernel/git/hid/hid
+c6f2ce5ce729647c3786bd8a8b724742c97ebe34 ARM: dts: stm32: Add boot-led for stm32429i-eval
+0f32852fa7915c7358d71f238b1dc52b4902bc06 ARM: dts: stm32: Add boot-led for stm32f429-disco
+2cdd2ad1826c123f13ba54205c6be0975876ba2e ARM: dts: stm32: Add boot-led for stm32469-disco
+d2d5199a95df7876601957f8ae08af22a1a910e9 ARM: dts: stm32: Add boot-led for stm32746g-eval
+8399afaf0243666b00f2171870d4e78f82149835 ARM: dts: stm32: Add boot-led for stm32f746-disco
+0f0f99f43587a0c48e38f53680fe793651aae919 ARM: dts: stm32: Add boot-led for stm32f769-disco
+1abaf39eae8ada217c59df886f7128a388cb88a0 ARM: dts: stm32: Add boot-led for stm32h743i-disco
+96a72e2b9d9fcec9704c9bf6acfa6225f8ef8e4a ARM: dts: stm32: Add boot-led for stm32h743i-eval
+478e7d46f3175f037be6d88b4d4a1efb2aeac83b ARM: dts: stm32: Add boot-led for stm32h747i-disco
+66992fb01d846968a8596bb94d53887ff0203653 ARM: dts: stm32: Add boot-led for stm32mp135f-dk
+5236044762ea66aff630d02d9b1f498eb88bf5c3 ARM: dts: stm32: Add boot-led for stm32mp157c-ed1
+6fa3def8b4e9fca404cc394170d425f22e590467 ARM: dts: stm32: Add boot-led for stm32mp15xx-dkx
+cd99cd19a7ca1ce44b4d62fa3beb7c346b32357e arm64: dts: st: Add boot-led for stm32mp235f-dk
+40f9c2b53aad17cb791592352fbb4d75858d80fc arm64: dts: st: Add boot-led for stm32mp257f-dk
+94f9e024573820407708ac4c7e3e1708f8c2d04f arm64: dts: st: Add boot-led for stm32mp257f-ev1
 
---===============6973771222385962605==--
+--===============7616434531460804346==--
