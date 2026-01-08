@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4061738599664485938=="
+Content-Type: multipart/mixed; boundary="===============5305848699984252935=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Thu, 08 Jan 2026 21:06:19 -0000
-Message-Id: <176790637936.2436867.11439526193394307147@gitolite.kernel.org>
+Date: Thu, 08 Jan 2026 21:06:21 -0000
+Message-Id: <176790638183.2436960.3871377903937885955@gitolite.kernel.org>
 
---===============4061738599664485938==
+--===============5305848699984252935==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/10GbE
+  - ref: refs/heads/40GbE
     old: 653267321f05316f159e05b3ef562aa700632db6
     new: 56d0aea041f2e2be2d177005209596a4132485c9
     log: revlist-653267321f05-56d0aea041f2.txt
 
---===============4061738599664485938==
+--===============5305848699984252935==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -261,4 +261,4 @@ c92510f5e3f82ba11c95991824a41e59a9c5ed81 arp: do not assume dev_hard_header() do
 f2a3b12b305c7bb72467b2a56d19a4587b6007f9 Merge tag 'net-6.19-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 56d0aea041f2e2be2d177005209596a4132485c9 MAINTAINERS: add docs and selftest to the TLS file list
 
---===============4061738599664485938==--
+--===============5305848699984252935==--
