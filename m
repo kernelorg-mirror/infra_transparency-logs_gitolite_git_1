@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3091084870922534745=="
+Content-Type: multipart/mixed; boundary="===============8576161478433127309=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/viro/vfs
-Date: Thu, 08 Jan 2026 04:05:48 -0000
-Message-Id: <176784514838.1445273.12185041059492586585@gitolite.kernel.org>
+Date: Thu, 08 Jan 2026 04:23:11 -0000
+Message-Id: <176784619144.1457658.10686455926059345334@gitolite.kernel.org>
 
---===============3091084870922534745==
+--===============8576161478433127309==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,64 +15,117 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/viro/vfs
 user: viro
 changes:
-  - ref: refs/heads/work.filename
-    old: afc51baa4c0c26e3cb6d9a8f7b608072c2e336e0
-    new: 0d0a65a54eef9b316e53ee09a607011120a2b5d5
-    log: revlist-afc51baa4c0c-0d0a65a54eef.txt
   - ref: refs/heads/experimental.filename
-    old: 0000000000000000000000000000000000000000
-    new: 966a71e932963e922b3a0c5e0defd5d4581c0431
+    old: 966a71e932963e922b3a0c5e0defd5d4581c0431
+    new: b2b69047ff335feaf8ea14df8b87f8e2f32fbb1d
+    log: revlist-966a71e93296-b2b69047ff33.txt
+  - ref: refs/heads/work.filename
+    old: 0d0a65a54eef9b316e53ee09a607011120a2b5d5
+    new: 30ba070760d3eb039c6eb91ad17d8c1e13335a7b
+    log: revlist-0d0a65a54eef-30ba070760d3.txt
 
---===============3091084870922534745==
+--===============8576161478433127309==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-afc51baa4c0c-0d0a65a54eef.txt
+Content-Disposition: attachment; filename=revlist-966a71e93296-b2b69047ff33.txt
 
-2a0db5f7653b3576c430f8821654f365aaa7f178 struct filename: saner handling of long names
-32f08844f8774987c3e3306f98af7bce26eb05b1 fs: hide names_cache behind runtime const machinery
-90870e6b03e7b53e15e226250b0627922ff34329 allow to use CLASS() for struct filename *
-f8959df11c28c2ae06e99b81f3f514eee8498cb1 switch __getname_maybe_null() to CLASS(filename_flags)
-2ae57c376de2cecb978b4e08ab462313d29d43b6 allow incomplete imports of filenames
-9596f078b53022815064d0b7f109a8d74a2d5497 struct filename ->refcnt doesn't need to be atomic
-3793bdde580b332a85f68cfeb31b4a1586d6728d file_getattr(): filename_lookup() accepts ERR_PTR() as filename
-1010a5d698e28fb04385a45516fe300e78b3fd0f file_setattr(): filename_lookup() accepts ERR_PTR() as filename
-7028800b840caa3b97fdda009986338a49e5420d move_mount(): filename_lookup() accepts ERR_PTR() as filename
-0cfc63db83a88d679d8a7c749aa44929238875dd ksmbd_vfs_path_lookup(): vfs_path_parent_lookup() accepts ERR_PTR() as name
-7441cf6bf12a77de60bdad8941f50c926d8fc18e ksmbd_vfs_rename(): vfs_path_parent_lookup() accepts ERR_PTR() as name
-9f88480c21a7990a662b50335216bf383e770b07 do_filp_open(): DTRT when getting ERR_PTR() as pathname
-6b5572caa3eb1113e28171e190335378ab2ba505 rename do_filp_open() to do_file_open()
-04b43f8184f466797df7da76e6945c4a29dd0cb1 do_sys_openat2(): get rid of useless check, switch to CLASS(filename)
-889eb21191ba1b31625fe72507822146e330e734 simplify the callers of file_open_name()
-7d908540c15053395063c83e7adc46aeaa839077 simplify the callers of do_open_execat()
-827f2fe52a37392887a0c56f5eb4a060f43f22d7 simplify the callers of alloc_bprm()
-8b57feb46598f663e9e0aee249b4552a18476557 switch {alloc,free}_bprm() to CLASS()
-70ec14d714899475d1eeeb71015ffba064c6cded file_[gs]etattr(2): switch to CLASS(filename_maybe_null)
-c71f4652bad78b187881bfc27c4fe3f96b860fd3 mount_setattr(2): don't mess with LOOKUP_EMPTY
-b10fdf76b6a5baf2b34437f41c2d70a08f9d3ccd do_open_execat(): don't care about LOOKUP_EMPTY
-5464d0da6ff6740c1c4528859bc6327bb04b26e9 vfs_open_tree(): use CLASS(filename_uflags)
-6a12e3016aa3dd5be8c4e979448ef17e3a2f0d37 name_to_handle_at(): use CLASS(filename_uflags)
-1cfc035c248bec301716c5bc4d7c3a0c751642fe fspick(2): use CLASS(filename_flags)
-ad1a41d85f96b46228310795882ba1e0a5bdd6b9 do_fchownat(): unspaghettify a bit...
-eff7ead4cdf255bc3c3c2aa67e0ea72e6baf68b1 chdir(2): unspaghettify a bit...
-c4d0c7bce37e2dd5c85c345d7febc9e4205e6759 do_utimes_path(): switch to CLASS(filename_uflags)
-6a12cbe2d2fa66fc9365996ef8f587c4e5597feb do_sys_truncate(): switch to CLASS(filename)
-5b16d92d9ec314f99382b607749b360f12d04f7a do_readlinkat(): switch to CLASS(filename_flags)
-ba60e635222d666fc0309885ef7eaa0a14e19e70 do_f{chmod,chown,access}at(): use CLASS(filename_uflags)
-d1f1650119e1c7d974417f70abbf6b8475d5261a do_{renameat2,linkat,symlinkat}(): use CLASS(filename_consume)
-e128c4a91e27aef0c159365613b91d1724f32c3f do_{mknodat,mkdirat,unlinkat,rmdir}(): use CLASS(filename_consume)
-d1e2622ce914b54e4aae051f754a10077a58209a namei.c: convert getname_kernel() callers to CLASS(filename_kernel)
-7cfcb00e5afdc6beafa3b8c240d374852b49be28 namei.c: switch user pathname imports to CLASS(filename{,_flags})
-7274e04e7e54b714392a5046e5a778feea6e24f2 filename_...xattr(): don't consume filename reference
-e2f34d8b9153f0d0589b1528e9e4534ca680fa9a move_mount(2): switch to CLASS(filename_maybe_null)
-7b96b2fb09f38f55185436d1e8143375163f4b33 chroot(2): switch to CLASS(filename)
-adf61cb1245cc4a63fa486755ea3c37937d7ec4a quotactl_block(): switch to CLASS(filename)
-273b13dbde99dc30c469ba95c8fd3802bf49ebfb statx: switch to CLASS(filename_maybe_null)
-ce03c853105db08bfae2a8d0ebda8eb5ef3e5bf3 user_statfs(): switch to CLASS(filename)
-9ff6b6a35b53114660b9c71181f422d5e5fb2da8 mqueue: switch to CLASS(filename)
-36920f7d0dbbae5d179c6b952dc5714efc007d59 ksmbd: use CLASS(filename_kernel)
-5ccce72bfe1f7671b72fc1ab75f5e185a72bbd1b alpha: switch osf_mount() to strndup_user()
-6726bea6352bc560bda7751b4e772dbf0518a7fd sysfs(2): fs_index() argument is _not_ a pathname
-0d0a65a54eef9b316e53ee09a607011120a2b5d5 switch init_mkdir() to use of do_mkdirat(), etc.
+6abd7744c25ce2d06e0fae31a2247aadd1ed740b allow incomplete imports of filenames
+dc1db59f6dba82a92fae8ecb80f024d5aac10691 struct filename ->refcnt doesn't need to be atomic
+46c4e9f4ebbddda1f4c37355dafcd4f10400a4ca file_getattr(): filename_lookup() accepts ERR_PTR() as filename
+03c773af3c0f13172aad783220a57334b1603ace file_setattr(): filename_lookup() accepts ERR_PTR() as filename
+0d8349c713bcd70c77843abb02507f2ecc48cbe6 move_mount(): filename_lookup() accepts ERR_PTR() as filename
+732e070a0650d5d8294222d12efc64690e3b9fef ksmbd_vfs_path_lookup(): vfs_path_parent_lookup() accepts ERR_PTR() as name
+dd56cbd62410dd67cba643a3cc034cf618fa3880 ksmbd_vfs_rename(): vfs_path_parent_lookup() accepts ERR_PTR() as name
+85a9de20b522d4b9ff7dbed9ec80f50806b8659f do_filp_open(): DTRT when getting ERR_PTR() as pathname
+25b38bb60b5a3c40aa5f6351ad9c703f0e39fbbf rename do_filp_open() to do_file_open()
+8cd67d443902dedfc8681d0da70daa28a1903655 do_sys_openat2(): get rid of useless check, switch to CLASS(filename)
+9ddb60914e0d5187f646f88ffe985cb6b24be0c8 simplify the callers of file_open_name()
+6f1d22cd40e284a72e3a12751304357f84d64e50 simplify the callers of do_open_execat()
+7e2d56c8d9dff68fe67fe9bc5c758a87562e088d simplify the callers of alloc_bprm()
+b0ee6ea3d1cb7fc15c4cb483c8425d7f1f25b33f switch {alloc,free}_bprm() to CLASS()
+8af1433e128c9a1cf3c73a1361a59fc86494201a file_[gs]etattr(2): switch to CLASS(filename_maybe_null)
+6a40c3188d91505de261fc196b6149aa012212d6 mount_setattr(2): don't mess with LOOKUP_EMPTY
+b28ba8edaa46ec985ff63c37c446cfb9670489d3 do_open_execat(): don't care about LOOKUP_EMPTY
+2c1ed31a7b6f907226ffd8cf834569ad481d4de5 vfs_open_tree(): use CLASS(filename_uflags)
+3ed260ccf06ee51c8b31a680f2a907890595b155 name_to_handle_at(): use CLASS(filename_uflags)
+53b1dd12cb59eca8c2aaf2e63a7abd42615486e5 fspick(2): use CLASS(filename_flags)
+fa3e0bb4b8cb02749463f04f9f36b9d7a01acefe do_fchownat(): unspaghettify a bit...
+81dad0b6e8f2dec76f093b960c0f6ef6f6a74baa chdir(2): unspaghettify a bit...
+fb94f5cdbd299d4919acba3f8004e1c237da3ae8 do_utimes_path(): switch to CLASS(filename_uflags)
+732d43b6978db54024283dcd013e17064003f0d9 do_sys_truncate(): switch to CLASS(filename)
+3770f624834a5f4e228792bec6ab6342f302174b do_readlinkat(): switch to CLASS(filename_flags)
+2083627fa7c22a4ce7fb18dfb78887a0c89d445f do_f{chmod,chown,access}at(): use CLASS(filename_uflags)
+64e6cdb941fe76ed0005dd8ec7f5250e1ae3bf83 do_{renameat2,linkat,symlinkat}(): use CLASS(filename_consume)
+f00d83418a2aa01967160556a065e234e1426374 do_{mknodat,mkdirat,unlinkat,rmdir}(): use CLASS(filename_consume)
+a99eff0b7481d64ed2a7c19c3b900a95e1a8cc34 namei.c: convert getname_kernel() callers to CLASS(filename_kernel)
+b619c644510c8f5b6a70da959b5f215afb3fa549 namei.c: switch user pathname imports to CLASS(filename{,_flags})
+ddb8514bbb40882d06fe44fc4c8c313662c8036e filename_...xattr(): don't consume filename reference
+03d98ea27a1462cf169f5082bda02b66e5534d08 move_mount(2): switch to CLASS(filename_maybe_null)
+62278aaa322df877cc1a12c2db7804454d33c229 chroot(2): switch to CLASS(filename)
+4a61be7108f8feede18657eb7fc2a93fd5d7735a quotactl_block(): switch to CLASS(filename)
+9c6fd5f4f40fd87753995cf020e77454da810e68 statx: switch to CLASS(filename_maybe_null)
+0d6f44e191ae5211a26b67645ca81175d09e4c8a user_statfs(): switch to CLASS(filename)
+75924cf732f0628e9e6545fe23b789712ac7e85c mqueue: switch to CLASS(filename)
+e0cd10f6716f74480ec75e7f53d13400c2073909 ksmbd: use CLASS(filename_kernel)
+4732d074ea39346c7d2faec6595de6b77e30a4fd alpha: switch osf_mount() to strndup_user()
+5cfd8654c8fc3eadf56d44cce68b78519be6e42e sysfs(2): fs_index() argument is _not_ a pathname
+30ba070760d3eb039c6eb91ad17d8c1e13335a7b switch init_mkdir() to use of do_mkdirat(), etc.
+74de89fe86b9ba8fb51312c73fb3db7f02be15a8 non-consuming variant of do_renameat2()
+2017746e193f2d26f60dc73fa195fe12bc7badf0 non-consuming variant of do_linkat()
+ef7c6fbe63d0cf27cbd545abd220dee71c4b3edc non-consuming variant of do_symlinkat()
+11bf974fd17ff3af33dfc9ce576326e5d7bb0622 non-consuming variant of do_mkdirat()
+7c9ee182ed235ca53bb3ad8a18ea0ad488875736 non-consuming variant of do_mknodat()
+67e99b6f88c37b58717f4007b839b433a364561f non-consuming variants of do_{unlinkat,rmdir}()
+97089c5bec57888dd83c1892389173274c520cd8 execve: fold {compat_,}do_execve{,at}() into their sole callers
+b2b69047ff335feaf8ea14df8b87f8e2f32fbb1d do_execveat_common(): don't consume filename reference
 
---===============3091084870922534745==--
+--===============8576161478433127309==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-0d0a65a54eef-30ba070760d3.txt
+
+6abd7744c25ce2d06e0fae31a2247aadd1ed740b allow incomplete imports of filenames
+dc1db59f6dba82a92fae8ecb80f024d5aac10691 struct filename ->refcnt doesn't need to be atomic
+46c4e9f4ebbddda1f4c37355dafcd4f10400a4ca file_getattr(): filename_lookup() accepts ERR_PTR() as filename
+03c773af3c0f13172aad783220a57334b1603ace file_setattr(): filename_lookup() accepts ERR_PTR() as filename
+0d8349c713bcd70c77843abb02507f2ecc48cbe6 move_mount(): filename_lookup() accepts ERR_PTR() as filename
+732e070a0650d5d8294222d12efc64690e3b9fef ksmbd_vfs_path_lookup(): vfs_path_parent_lookup() accepts ERR_PTR() as name
+dd56cbd62410dd67cba643a3cc034cf618fa3880 ksmbd_vfs_rename(): vfs_path_parent_lookup() accepts ERR_PTR() as name
+85a9de20b522d4b9ff7dbed9ec80f50806b8659f do_filp_open(): DTRT when getting ERR_PTR() as pathname
+25b38bb60b5a3c40aa5f6351ad9c703f0e39fbbf rename do_filp_open() to do_file_open()
+8cd67d443902dedfc8681d0da70daa28a1903655 do_sys_openat2(): get rid of useless check, switch to CLASS(filename)
+9ddb60914e0d5187f646f88ffe985cb6b24be0c8 simplify the callers of file_open_name()
+6f1d22cd40e284a72e3a12751304357f84d64e50 simplify the callers of do_open_execat()
+7e2d56c8d9dff68fe67fe9bc5c758a87562e088d simplify the callers of alloc_bprm()
+b0ee6ea3d1cb7fc15c4cb483c8425d7f1f25b33f switch {alloc,free}_bprm() to CLASS()
+8af1433e128c9a1cf3c73a1361a59fc86494201a file_[gs]etattr(2): switch to CLASS(filename_maybe_null)
+6a40c3188d91505de261fc196b6149aa012212d6 mount_setattr(2): don't mess with LOOKUP_EMPTY
+b28ba8edaa46ec985ff63c37c446cfb9670489d3 do_open_execat(): don't care about LOOKUP_EMPTY
+2c1ed31a7b6f907226ffd8cf834569ad481d4de5 vfs_open_tree(): use CLASS(filename_uflags)
+3ed260ccf06ee51c8b31a680f2a907890595b155 name_to_handle_at(): use CLASS(filename_uflags)
+53b1dd12cb59eca8c2aaf2e63a7abd42615486e5 fspick(2): use CLASS(filename_flags)
+fa3e0bb4b8cb02749463f04f9f36b9d7a01acefe do_fchownat(): unspaghettify a bit...
+81dad0b6e8f2dec76f093b960c0f6ef6f6a74baa chdir(2): unspaghettify a bit...
+fb94f5cdbd299d4919acba3f8004e1c237da3ae8 do_utimes_path(): switch to CLASS(filename_uflags)
+732d43b6978db54024283dcd013e17064003f0d9 do_sys_truncate(): switch to CLASS(filename)
+3770f624834a5f4e228792bec6ab6342f302174b do_readlinkat(): switch to CLASS(filename_flags)
+2083627fa7c22a4ce7fb18dfb78887a0c89d445f do_f{chmod,chown,access}at(): use CLASS(filename_uflags)
+64e6cdb941fe76ed0005dd8ec7f5250e1ae3bf83 do_{renameat2,linkat,symlinkat}(): use CLASS(filename_consume)
+f00d83418a2aa01967160556a065e234e1426374 do_{mknodat,mkdirat,unlinkat,rmdir}(): use CLASS(filename_consume)
+a99eff0b7481d64ed2a7c19c3b900a95e1a8cc34 namei.c: convert getname_kernel() callers to CLASS(filename_kernel)
+b619c644510c8f5b6a70da959b5f215afb3fa549 namei.c: switch user pathname imports to CLASS(filename{,_flags})
+ddb8514bbb40882d06fe44fc4c8c313662c8036e filename_...xattr(): don't consume filename reference
+03d98ea27a1462cf169f5082bda02b66e5534d08 move_mount(2): switch to CLASS(filename_maybe_null)
+62278aaa322df877cc1a12c2db7804454d33c229 chroot(2): switch to CLASS(filename)
+4a61be7108f8feede18657eb7fc2a93fd5d7735a quotactl_block(): switch to CLASS(filename)
+9c6fd5f4f40fd87753995cf020e77454da810e68 statx: switch to CLASS(filename_maybe_null)
+0d6f44e191ae5211a26b67645ca81175d09e4c8a user_statfs(): switch to CLASS(filename)
+75924cf732f0628e9e6545fe23b789712ac7e85c mqueue: switch to CLASS(filename)
+e0cd10f6716f74480ec75e7f53d13400c2073909 ksmbd: use CLASS(filename_kernel)
+4732d074ea39346c7d2faec6595de6b77e30a4fd alpha: switch osf_mount() to strndup_user()
+5cfd8654c8fc3eadf56d44cce68b78519be6e42e sysfs(2): fs_index() argument is _not_ a pathname
+30ba070760d3eb039c6eb91ad17d8c1e13335a7b switch init_mkdir() to use of do_mkdirat(), etc.
+
+--===============8576161478433127309==--
