@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7220386019679946019=="
+Content-Type: multipart/mixed; boundary="===============5067004227846409236=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mediatek/linux
-Date: Thu, 08 Jan 2026 11:25:32 -0000
-Message-Id: <176787153286.1954981.8375974784417907330@gitolite.kernel.org>
+Date: Thu, 08 Jan 2026 11:26:12 -0000
+Message-Id: <176787157274.1955795.11235999521005218105@gitolite.kernel.org>
 
---===============7220386019679946019==
+--===============5067004227846409236==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/mediatek/linux
 user: angelogioacchino.delregno
 changes:
-  - ref: refs/heads/v6.19-next/dts64
-    old: 8f4d6210372f762e54dffc0dc12829e59561213c
-    new: cfca2179b3dda080d769b6d8e6d6a8d8271fff7d
-    log: revlist-8f4d6210372f-cfca2179b3dd.txt
+  - ref: refs/heads/for-next
+    old: da380e3c576eab6fca89b717459ceac76eb691b2
+    new: a97442cd0b24401d4e4c3cfa15c3a87146e5f0c7
+    log: revlist-da380e3c576e-a97442cd0b24.txt
 
---===============7220386019679946019==
+--===============5067004227846409236==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8f4d6210372f-cfca2179b3dd.txt
+Content-Disposition: attachment; filename=revlist-da380e3c576e-a97442cd0b24.txt
 
 be0b304eeb8c5f77e4f98f64e58729d879195f2f arm64: dts: mediatek: mt8183: Add missing endpoint IDs to display graph
 262cb81069c65373d4d6b773413552a65b478f7e arm64: dts: mediatek: mt7981b: Add PCIe and USB support
@@ -47,5 +47,6 @@ b4776f6e8407b4d88d97fa477d2a8a9077e4fbd3 arm64: dts: mediatek: mt8395-radxa-nio-
 252bafa804aeeff849c6521e2cac967e9046eb3e arm64: dts: mediatek: mt8188: switch mmc nodes to interrupts-extended
 e7c1287226f506cd61eb4d89d4923ccb341e920b arm64: dts: mediatek: add device tree for Tungsten 510 board
 cfca2179b3dda080d769b6d8e6d6a8d8271fff7d arm64: dts: mediatek: add device tree for Tungsten 700 board
+a97442cd0b24401d4e4c3cfa15c3a87146e5f0c7 Merge branches 'v6.19-next/defconfig', 'v6.19-next/soc' and 'v6.19-next/dts64' into for-next
 
---===============7220386019679946019==--
+--===============5067004227846409236==--
