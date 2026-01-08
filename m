@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0005362403079228698=="
+Content-Type: multipart/mixed; boundary="===============8555039477799634567=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netfilter/nf-next
-Date: Thu, 08 Jan 2026 23:23:11 -0000
-Message-Id: <176791459167.2549611.18366921439305507193@gitolite.kernel.org>
+Date: Thu, 08 Jan 2026 23:26:12 -0000
+Message-Id: <176791477238.2553192.1316474798468581775@gitolite.kernel.org>
 
---===============0005362403079228698==
+--===============8555039477799634567==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/netfilter/nf-next
 user: fwestphal
 changes:
-  - ref: refs/heads/main
-    old: c303e8b86d9dbd6868f5216272973292f7f3b7f1
-    new: 59ba823e689f832f389ea6af6e7ae5842b3c860a
-    log: revlist-c303e8b86d9d-59ba823e689f.txt
+  - ref: refs/heads/testing
+    old: aac798b59a0a3e187a72a676a587534dd48c7b0c
+    new: bf76da5354bf681459db39a0bf043f322eb7f464
+    log: revlist-aac798b59a0a-bf76da5354bf.txt
 
---===============0005362403079228698==
+--===============8555039477799634567==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c303e8b86d9d-59ba823e689f.txt
+Content-Disposition: attachment; filename=revlist-aac798b59a0a-bf76da5354bf.txt
 
 433f7744cb302ac22800dc0cd50494319ce64ba0 platform/x86: alienware-wmi-wmax: Add support for new Area-51 laptops
 a584644a490d276907e56817694859eaac2a4199 platform/x86: alienware-wmi-wmax: Add AWCC support for Alienware x16
@@ -348,5 +348,12 @@ afa27621a28af317523e0836dad430bec551eb54 net: usb: pegasus: fix memory leak in u
 c92510f5e3f82ba11c95991824a41e59a9c5ed81 arp: do not assume dev_hard_header() does not change skb->head
 f2a3b12b305c7bb72467b2a56d19a4587b6007f9 Merge tag 'net-6.19-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 59ba823e689f832f389ea6af6e7ae5842b3c860a Merge git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
+8a041186a79cdc37146566b45c07757e185c2f29 netfilter: nfnetlink_queue: optimize verdict lookup with hash table
+87cec16d5fb7115ab5d86c5984c2742ad9b919ef netfilter: nf_tables: reset table validation state on abort
+a483778df751a19f704f23f04f23ea4553525a11 netfilter: nf_conntrack: Add allow_clash to generic protocol handler
+7b14ce45f19e6da47cc3cb20e247de0c36d9940d netfilter: nf_conncount: increase the connection clean up limit to 64
+c993c531bf22d32636036c1421b2df5e9730f56c netfilter: nf_conntrack: enable icmp clash support
+bf4539c7ce9ec20fc4a43d868d4d4b513d4f5d8e netfilter: don't include xt and nftables.h in unrelated subsystems
+bf76da5354bf681459db39a0bf043f322eb7f464 netfilter: nf_conntrack: don't rely on implicit includes
 
---===============0005362403079228698==--
+--===============8555039477799634567==--
