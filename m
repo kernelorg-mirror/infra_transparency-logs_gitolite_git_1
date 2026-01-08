@@ -1,56 +1,48 @@
-Content-Type: multipart/mixed; boundary="===============7214628627843346030=="
+Content-Type: multipart/mixed; boundary="===============0016220328873539369=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Thu, 08 Jan 2026 12:38:46 -0000
-Message-Id: <176787592655.2014469.932273946160095287@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/util-linux/util-linux
+Date: Thu, 08 Jan 2026 12:41:07 -0000
+Message-Id: <176787606748.2017812.6506501996874425189@gitolite.kernel.org>
 
---===============7214628627843346030==
+--===============0016220328873539369==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/utils/util-linux/util-linux
+user: kzak
 changes:
   - ref: refs/heads/master
-    old: 6af3a6e5c0cb1948960e6012b1c8e5d17c23efc2
-    new: ecd45099fd5d0fa77daa7f7aba455eed04763a84
-    log: |
-         ecd45099fd5d0fa77daa7f7aba455eed04763a84 6.6-stable patches
-         
+    old: 8ec679cfb0507fa0f772d7108466964e18e00af9
+    new: 3b373f1c94e8edfb6e696a5c34b1c9795d146141
+    log: revlist-8ec679cfb050-3b373f1c94e8.txt
 
---===============7214628627843346030==
+--===============0016220328873539369==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-8ec679cfb050-3b373f1c94e8.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1767875925 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1767875924-57398307f1c09e408ffc2266c4e90b6aa46f9221
+fae8ed6466cf879b25e53cf3f3ca043fd0e54560 libblkid: (bcachefs) add members_v2 parsing support
+1ddac733bdbdacb17b3c1d45cc9e300e4cbac85f libblkid: (bcachefs) add new bcachefs_sb_member fields
+504456effff6740d89eb6735b4eba33e54aca3ad libsmartcols: avoid cumulative width reduction during printing
+34ebd2a75992472d8569ea262c64a2fef45c255c tests: add libsmartcols termreduce regression helper
+aadd29107c43f04a34968a23ca8ee0435acdb783 tests: add regression test for repeated termreduce printing
+d1ae0fef97da3f4db8edd040a851bd6377f7426c libblkid: (bcachefs) fix LABEL_SUB probing
+ea3857615df887ec9a1dbbbcca7ba89a2482cbd5 login-utils: Use /etc/passwd- as backup file
+5de5bf8410cde2dcbff9d8ac0cc670d4fc578655 login-utils: Use _PATH macros
+8cfc7f64d3c788aeeb9b4a7d89c337c481231a60 chrt: (man) fix note about --sched-period lower limit
+595d05feb4b2dc7a68f2d3921f75fbc5674d4f5d getino: new tool to print the unique pidfd or namespace inode number
+8726188662076f45e539023b406b02f04de16b42 bash-completion: add getino completions
+d1516be6f92b0631a1b4d8b4f9d47a7444896cad tests: add getino tests
+f99347f8d3f5a510b00440896469d286a45c404e lib: (pidfd-utils) minor correction in the ul_get_valid_pidfd_or_err() description
+e972d05fb472f8efa85bc5fb9977c57b1b623a95 Merge branch 'blkid-bcachefs-fixes' of https://github.com/himikof/util-linux
+cedf2cb32c7b11e24480ecb73c41a89ef5dda2d1 Merge branch 'feat/new_tool_getpidino' of https://github.com/cgoesche/util-linux-fork
+22c136c9135b863e93515aba7674f7977b46781b Merge branch 'setpwnam_backup' of https://github.com/stoeckmann/util-linux
+adfde8a69497feb6ba61f477b385ae5b86e8eb0f Merge branch 'fix/issue_3895_take2' of https://github.com/lord2y/util-linux
+3b373f1c94e8edfb6e696a5c34b1c9795d146141 Merge branch 'fix/chrt-man-page' of https://github.com/jan-krieg/util-linux
 
-6af3a6e5c0cb1948960e6012b1c8e5d17c23efc2 ecd45099fd5d0fa77daa7f7aba455eed04763a84 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmlfpVUbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+HIIP/RRYI/X7HJECA9DRsYGl
-mNsms5WGhgyHYi03gHcfUW7EpWw2M/9yKF0e9VsnqTn+Yyh9cGobhqjrjqSEmg6d
-I4MS7un/NNj97CajydPuuMkITJbKgJakUGgh+bcuXg6sfTmgYqA86ssbWRZNdRtm
-OroS20NDSzVYV8YXyePrIdbLxIMc3m0ZgF9ekDyi9DZA1pFFbdwHhXrWKW9J4cSF
-bw60F+m9JndF0AyS0dhiUEG1ZKdFBIkEhpRkdQRCYYUhUYm2CoRfuO5V+rYucIU+
-lzPoTRexMUwkxCd8w4jiNBcBIK5HERkSFd9CXrJFNc/63T7641E5dChQjPXnyLj7
-cDyxvcyG+vH3kj5D9XVwMez1plBemZnZVeZrPyG6VR17M4GxaITuV59GrCIAi4sp
-zC6O7amSUU8pzTctHoWPya/5djVyslVAKMkMSK0jJ7UJZFmDAW/Bz/6OcdWzJHYE
-wy45PSCHObCpCjM1DcrkipfPzjIkpUsBfDa2iXVbfcogzEVMfA1QVuCqRuOtFALJ
-32WGl0XZDWGGgrlPtitzteJAQ9bRz/YPRKEZpi1cmdHsjuemn6yEvh2ylOxgrwOC
-Xu18KWif28jbj8l1Zj0JPIei483QLLYtsS3B/u+fBDuyOz04fQWStgoKD3Ylgd0A
-mCTpRXqi7sJa8mb18/2Tn+1n
-=K0GX
------END PGP SIGNATURE-----
-
---===============7214628627843346030==--
+--===============0016220328873539369==--
