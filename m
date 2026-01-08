@@ -1,56 +1,39 @@
-Content-Type: multipart/mixed; boundary="===============3427727906053048269=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/security/vulns
-Date: Thu, 08 Jan 2026 09:59:20 -0000
-Message-Id: <176786636090.1881157.4755938037239562047@gitolite.kernel.org>
-
---===============3427727906053048269==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/geert/renesas-drivers
+Date: Thu, 08 Jan 2026 10:02:14 -0000
+Message-Id: <176786653473.1884737.10081795268807908072@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/security/vulns
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/geert/renesas-drivers
+user: geert
 changes:
-  - ref: refs/heads/master
-    old: 8c397a5da39ed1d090245f4b73a66f8eaafe8fbe
-    new: 279349d851f8a3713596fc2f44711fb214f61b9b
+  - ref: refs/heads/renesas-clk
+    old: ebb3acf4d7c95b52265084168b59a565bf972883
+    new: 188daf5f4431914e82b65b0d78526a30760bfcc5
     log: |
-         279349d851f8a3713596fc2f44711fb214f61b9b update cvelistV5
+         21c1d66a1672573c1934734570bd3b05a301af9e clk: renesas: cpg-mssr: Simplify pointer math in cpg_rzt2h_mstp_read()
+         bddce5de0ef09960c2bb844d684af818c1d1b838 clk: renesas: cpg-mssr: handle RZ/T2H register layout in PM callbacks
+         481b64376c3fb72557725acf2f4fbc4f73bc3188 dt-bindings: clock: renesas,r9a09g077/87: Add PCLKCAN ID
+         923d271dfb258a8d884562d2193d83802262b6a1 Merge tag 'renesas-r9a09g077-dt-binding-defs-tag6' into renesas-clk-for-v6.20
+         c873619139034a9f055f99d7b00dec81b05d7416 clk: renesas: r9a09g077: Add CANFD clocks
+         a8925122385f461d7e42de2c771d56ceec00bc0e clk: renesas: r9a09g057: Add entries for CANFD
+         a89f4fea491e51934ba56a76530c2cdb6fff7c06 clk: renesas: r9a09g056: Add entries for CANFD
+         188daf5f4431914e82b65b0d78526a30760bfcc5 clk: renesas: cpg-mssr: Unlock before reset verification
          
-
---===============3427727906053048269==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1767866360 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
-nonce 1767866360-d492ad22c52e22aa2cb1d6348ea0d923d2aff625
-
-8c397a5da39ed1d090245f4b73a66f8eaafe8fbe 279349d851f8a3713596fc2f44711fb214f61b9b refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmlff/gbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+PFIP/0N0bsrG2rpkgIJC8Tdu
-Fd8/3Pz86g0kOWEZkfb1GQLfbm/Heda1Oiv9unZsDKrd8PcCb8P3Tdm7aC15cxfx
-rg7Tpj1uawTkKcwTZwWAElgioG1Lqt/O/j3y2b4DdALTtefTfYreH2TCRyW/6hK9
-Djo9bC6WD0nGSRnah7vV/vgdYXQiD+mrfAF9Z3FkC9of4pvHf5kOLoJap0F7o0Tr
-NtSZrsvO0v2NHEfgEjo6IubcvS53CXlawKXnUwVOmqexuHG0eT3sIP0O1BhQa0Jt
-JCyJmySwdYrT192WYDL0X4SeduszdANikbzMc7R8sU22P0PTipO2t5WQJgk2y9j6
-ZAQw7y0SrYNhTrZWBJoptYfjw+X9KrekbrYQEB+DlDB4DeE8r3qN1yCINo4jIPsc
-OiesqjdizffGEkAshMdhjFtc6D9FkDlKzvt+dhPNOvYZiDyLV69eiq0f2qbsc0oL
-yT7sflm2opjjsx8rqlwKv7jFwEJkNGTOP9t7wDnwSIpTQe7b/smhwFEZIreWJLq0
-Vxrral+JUDotn04WNZRz1j8ZYTFXR/e8SrDac9nSjPQJcPDVHepNkGg2wVb7hB/V
-okJBrIUt9zQsX/FZmVyqYtkmyMwCGCrznRLFM864/fldEz7Li8pFkNqzfUOd1yCL
-aFvdtgQdkyyBm+STjrQZnhP0
-=PxIv
------END PGP SIGNATURE-----
-
---===============3427727906053048269==--
+  - ref: refs/heads/renesas-clk-for-v6.20
+    old: ebb3acf4d7c95b52265084168b59a565bf972883
+    new: 188daf5f4431914e82b65b0d78526a30760bfcc5
+    log: |
+         21c1d66a1672573c1934734570bd3b05a301af9e clk: renesas: cpg-mssr: Simplify pointer math in cpg_rzt2h_mstp_read()
+         bddce5de0ef09960c2bb844d684af818c1d1b838 clk: renesas: cpg-mssr: handle RZ/T2H register layout in PM callbacks
+         481b64376c3fb72557725acf2f4fbc4f73bc3188 dt-bindings: clock: renesas,r9a09g077/87: Add PCLKCAN ID
+         923d271dfb258a8d884562d2193d83802262b6a1 Merge tag 'renesas-r9a09g077-dt-binding-defs-tag6' into renesas-clk-for-v6.20
+         c873619139034a9f055f99d7b00dec81b05d7416 clk: renesas: r9a09g077: Add CANFD clocks
+         a8925122385f461d7e42de2c771d56ceec00bc0e clk: renesas: r9a09g057: Add entries for CANFD
+         a89f4fea491e51934ba56a76530c2cdb6fff7c06 clk: renesas: r9a09g056: Add entries for CANFD
+         188daf5f4431914e82b65b0d78526a30760bfcc5 clk: renesas: cpg-mssr: Unlock before reset verification
+         
