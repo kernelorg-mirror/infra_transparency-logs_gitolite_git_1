@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/linusw/linux-pinctrl
-Date: Thu, 08 Jan 2026 21:28:34 -0000
-Message-Id: <176790771445.2454546.17245567986141934038@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
+Date: Thu, 08 Jan 2026 21:33:04 -0000
+Message-Id: <176790798427.2458502.11060202544670401681@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/linusw/linux-pinctrl
-user: linusw
+repo: pub/scm/linux/kernel/git/kdave/linux
+user: kdave
 changes:
-  - ref: refs/tags/pinctrl-v6.19-2
-    old: 0000000000000000000000000000000000000000
-    new: 8ea31d257e3daae7aef098fd77c09bf3dcc4f2f2
+  - ref: refs/heads/next-fixes
+    old: 14760d8224feca2cf226cdb02bbc5352d21e1057
+    new: 40346ec2f124ee6b8a999dde5e6660628fb52ec0
+    log: |
+         40346ec2f124ee6b8a999dde5e6660628fb52ec0 Merge branch 'misc-6.19' into next-fixes
+         
