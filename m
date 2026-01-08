@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Thu, 08 Jan 2026 17:05:49 -0000
-Message-Id: <176789194978.2242609.5714792474964201858@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/atorgue/stm32
+Date: Thu, 08 Jan 2026 17:09:14 -0000
+Message-Id: <176789215407.2243797.7462441215791481733@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/linux/kernel/git/atorgue/stm32
+user: atorgue
 changes:
-  - ref: refs/heads/main
-    old: 1f20c77496b3e253f18ea636f4f14069e383749d
-    new: c92510f5e3f82ba11c95991824a41e59a9c5ed81
+  - ref: refs/heads/stm32-next
+    old: 37c26f3a4d9f3b923f6a6fe2539296ef3c3b664d
+    new: b8e2e3442637eda73dad62b956c1a008aed19b76
     log: |
-         c92510f5e3f82ba11c95991824a41e59a9c5ed81 arp: do not assume dev_hard_header() does not change skb->head
+         b8e2e3442637eda73dad62b956c1a008aed19b76 arm64: STM32: drop an undefined Kconfig symbol
          
