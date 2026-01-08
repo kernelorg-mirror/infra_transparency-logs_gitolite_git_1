@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
-Date: Thu, 08 Jan 2026 04:25:46 -0000
-Message-Id: <176784634632.1461065.16917038596241399274@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bmc/linux
+Date: Thu, 08 Jan 2026 05:07:48 -0000
+Message-Id: <176784886873.1492169.9459853559955172708@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pci/pci
-user: mani
+repo: pub/scm/linux/kernel/git/bmc/linux
+user: arj
 changes:
-  - ref: refs/heads/controller/tegra194
-    old: bd9277c26522eebc6539edd0b0c99b6abdcb14ed
-    new: 6b5e2f70a95c1f46ed444a54ad4c6ff6b9673b1d
+  - ref: refs/heads/aspeed/arm/dt
+    old: 459a5aa171c0f13fcd78faa9594dc4aa5a95770b
+    new: bc83b7353d2bfefba73193335bacc3542d8a7ae2
     log: |
-         6b5e2f70a95c1f46ed444a54ad4c6ff6b9673b1d PCI: dwc: tegra194: Broaden architecture dependency
+         1b3cadbd185a6e8681c3b3b6578d7cf3ea4ca47d dt-bindings: arm: aspeed: Add compatible for Facebook Anacapa BMC
+         bc83b7353d2bfefba73193335bacc3542d8a7ae2 ARM: dts: aspeed: Add Facebook Anacapa platform
          
