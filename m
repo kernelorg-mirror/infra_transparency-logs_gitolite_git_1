@@ -1,56 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============7560316759939484603=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Thu, 08 Jan 2026 11:13:13 -0000
-Message-Id: <176787079362.1943457.13631756685739031586@gitolite.kernel.org>
-
---===============7560316759939484603==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/hid/hid
+Date: Thu, 08 Jan 2026 11:18:38 -0000
+Message-Id: <176787111800.1947793.17958167750985213867@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/hid/hid
+user: jikos
 changes:
-  - ref: refs/heads/master
-    old: a9bc22057214053658571a6b995f99b66118d1e3
-    new: 6f29f530fd5cefc045e8bb9e59a135f2c8d17ca8
+  - ref: refs/heads/for-next
+    old: c7fe906e44c9dd681334cff58a45b74280e8a830
+    new: 9e8c5cf0dc3a61e6e4f34d1e33b9c2bb37c3f074
     log: |
-         6f29f530fd5cefc045e8bb9e59a135f2c8d17ca8 6.6-stable patches
+         06501b557faec7c4aa1a3188e14c8c3d1e6e15de HID: asus: Replace magic number with HID_UP_ASUSVENDOR constant
+         7fe565fb83ba7074dca1d25696f1d30116555528 HID: asus: Filter spurious HID vendor codes on ROG laptops
+         c888d0bd055b57688534a884f8f210a91d15e00f HID: asus: Add WMI communication infrastructure
+         1489a34e97efebf583ff08e506ecf9f7d44537d3 HID: asus: Implement Fn+F5 fan control key handler
+         9e8c5cf0dc3a61e6e4f34d1e33b9c2bb37c3f074 Merge branch 'for-6.20/asus' into for-next
          
-
---===============7560316759939484603==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1767870792 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1767870787-c398fd5240b09044757f41a03c1292975d394be9
-
-a9bc22057214053658571a6b995f99b66118d1e3 6f29f530fd5cefc045e8bb9e59a135f2c8d17ca8 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmlfkUgbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+wL0QAK0vf+65vYU8dHco8pNN
-PfF5yTCbzD++wh/EOnXIJ/mF0wqBFyKqZDxmm/dGVT3yFwBeGLRjRfvnRfYw4IvR
-8A7pfLZpYGhqWhc2J8O4EVn4AHPZgmAIa8H7a9546PoknCJgkt1IXpsetPQYGlUx
-zUByS6pB/19jg85vuQHP3mpnvw3gmteiZZjMpVqnVlYgitBA5GuKAnYC/Ohkfn34
-HXwCb/Y9Ml36PwWC2z3eeJns+RbflO85yx2qD2K+k2BYAFQYW1GxwPfdIrLFfCPb
-WazOeA+dRO7rXi4HduJxzuVXSqHiX0gnDFSp2dYP+lamn+UprtgByNQ3ZGkPv07x
-5lqaNcfIIlI25sC0Agitjg2haLofqj914XIgevOybh7Gvl0B0YhMtdKRl+uIymQe
-aP7An3eZB3zKkNQJPMypZPhoQe+OPGoycuLhLotIK9l2c8dj3XOWzsFoXA0iixSW
-Zd0uPTiPf0pkhLS1c/aRL1bxtmAK82VKmJv09yCfFK+aIOVTIz+MHdPzbdFOmoKG
-ygLXaH41W6zzHCM9BItpKyj9hD5lnwu4dhMGdnMLEQfywgJ9oAe/YXy2Qqg/wedl
-924GLzLHHeupoXIFGIWq1Ys5q+sxfMQUh9MLRhIkmxulahh0B8KOGYMBokuPz+m3
-igIBrmRlvyLzy4VXfhinHOFa
-=aeur
------END PGP SIGNATURE-----
-
---===============7560316759939484603==--
+  - ref: refs/heads/for-6.20/asus
+    old: 0000000000000000000000000000000000000000
+    new: 1489a34e97efebf583ff08e506ecf9f7d44537d3
