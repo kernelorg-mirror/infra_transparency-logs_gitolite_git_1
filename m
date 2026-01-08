@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8037984676209852568=="
+Content-Type: multipart/mixed; boundary="===============4061738599664485938=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Thu, 08 Jan 2026 21:06:10 -0000
-Message-Id: <176790637013.2436583.4972572856353954727@gitolite.kernel.org>
+Date: Thu, 08 Jan 2026 21:06:19 -0000
+Message-Id: <176790637936.2436867.11439526193394307147@gitolite.kernel.org>
 
---===============8037984676209852568==
+--===============4061738599664485938==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/dev-queue
-    old: f8629fc9eb2e4b20159dc2a9e005d88072ebe811
-    new: b979818fa81ee1b9936877eacc47cc02a2a125f4
-    log: revlist-f8629fc9eb2e-b979818fa81e.txt
+  - ref: refs/heads/10GbE
+    old: 653267321f05316f159e05b3ef562aa700632db6
+    new: 56d0aea041f2e2be2d177005209596a4132485c9
+    log: revlist-653267321f05-56d0aea041f2.txt
 
---===============8037984676209852568==
+--===============4061738599664485938==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f8629fc9eb2e-b979818fa81e.txt
+Content-Disposition: attachment; filename=revlist-653267321f05-56d0aea041f2.txt
 
 433f7744cb302ac22800dc0cd50494319ce64ba0 platform/x86: alienware-wmi-wmax: Add support for new Area-51 laptops
 a584644a490d276907e56817694859eaac2a4199 platform/x86: alienware-wmi-wmax: Add AWCC support for Alienware x16
@@ -260,34 +260,5 @@ afa27621a28af317523e0836dad430bec551eb54 net: usb: pegasus: fix memory leak in u
 c92510f5e3f82ba11c95991824a41e59a9c5ed81 arp: do not assume dev_hard_header() does not change skb->head
 f2a3b12b305c7bb72467b2a56d19a4587b6007f9 Merge tag 'net-6.19-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 56d0aea041f2e2be2d177005209596a4132485c9 MAINTAINERS: add docs and selftest to the TLS file list
-d95af3bfd211f3e6e8613a6691ef0d62d14d6504 ice: fix fwlog after driver reinit
-9c63504fe1d6b0561fcacb764fc628e1491570a7 ice: Fix enable_cnt imbalance on resume
-7093b450b006d0c2fcf1027be3e670059cbe28bf ice: Fix enable_cnt imbalance on PCIe error recovery
-1b4de19dbd82aa1ceed60a24aefcc6d04fc0653f i40e: Fix enable_cnt imbalance on PCIe error recovery
-0e6a94304e53004d0a4b5e5d5edd51411de865dd i40e: fix src IP mask checks and memcpy argument names in cloud filter
-3598b9275fa55dfbf01beebd1f61d8351503ff5e igc: Restore default Qbv schedule when changing channels
-b34189580f068322bb34e457fce8e8da777d1189 ice: Avoid detrimental cleanup for bond during interface stop
-dc75aa67ab3d6d87691c51e2de50b56128e53e18 ice: initialize ring_stats->syncp
-c667d9959e3ed4348011f6d69c315cddaf83455a ice: fix missing TX timestamps interrupts on E825 devices
-8cba41e140dfcc026e606ecd13e8e760584bcade ice: stop counting UDP csum mismatch as rx_errors
-8dc595f9dfc37aacc4e9d6f6bb49f191c028cb71 igc: fix race condition in TX timestamp read for register 0
-52af757d9f28ae753700b176bac420abe5d1f7a9 igc: Reduce TSN TX packet buffer from 7KB to 5KB per queue
-861ccf01e7b7510bb25c43def96616d2c0cc8693 i40e: fix ptp time increment while link is down
-a9db2dac68ee59c5f2937c8a2d91b26faafe9ff8 ice: Fix incorrect timeout ice_release_res()
-ca753d849739de4e701b4fd3c9fb9ab177a0ea8c ixgbevf: fix link setup issue
-bf1fcc120d79f4aea419257e0386239f1e4b4d83 idpf: read lower clock bits inside the time sandwich
-32193c5135b9e9b4954c62f1c3ab5524c35e39b2 ice: Fix persistent failure in ice_get_rxfh
-343bf319f6e07c34480e4f412249c6c383c7afa0 ixgbe: fix memory leaks in the ixgbe_recovery_probe() path
-213b823168c1b6e28116b108be6c693ca9d6803d ixgbe: don't initialize aci lock in ixgbe_recovery_probe()
-76f87a22c6512a5e78b425b0787a6d88effd4894 ice: fix 'adjust' timer programming for E830 devices
-ce7265b0fc5fba792f2a8d1d3671243bba0cfbb4 ice: add missing ice_deinit_hw() in devlink reinit path
-81573d287fde4f901c3191cb60b5e6bf1dc9c773 ice: Fix NULL pointer dereference in ice_vsi_set_napi_queues
-93dc87caad59edbd5134bfe53a10cb9b742163f5 ice: recap the VSI and QoS info after rebuild
-51c5f9622fe876978a746911c0a5946fe9bdf7b9 i40e: drop udp_tunnel_get_rx_info() call from i40e_open()
-b67e4b249c8777fc6e240d586ba92d40fd5b9eee ice: drop udp_tunnel_get_rx_info() call from ndo_open()
-df74cbebd008c8929f9eb8d14cd6ca5cce7cd688 ice: fix devlink reload call trace
-4570d711f14c7147954fa257abd044855b9eed20 idpf: increment completion queue next_to_clean in sw marker wait routine
-bfa6657656708e01c5ae9502b300e9869197e80a igc: Fix trigger of incorrect irq in igc_xsk_wakeup function
-b979818fa81ee1b9936877eacc47cc02a2a125f4 igb: Fix trigger of incorrect irq in igb_xsk_wakeup
 
---===============8037984676209852568==--
+--===============4061738599664485938==--
