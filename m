@@ -1,55 +1,40 @@
-Content-Type: multipart/mixed; boundary="===============6882871202001318394=="
+Content-Type: multipart/mixed; boundary="===============6484891218048430730=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/wireless/wireless
-Date: Thu, 08 Jan 2026 12:03:25 -0000
-Message-Id: <176787380545.1985150.13505416252747772401@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Thu, 08 Jan 2026 12:06:41 -0000
+Message-Id: <176787400100.1988789.17114433494887816313@gitolite.kernel.org>
 
---===============6882871202001318394==
+--===============6484891218048430730==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/wireless/wireless
-user: jberg
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: pabeni
 changes:
   - ref: refs/heads/main
-    old: 0f145dae5948fda86757f2ecdf910431a56345bd
-    new: fdc62f54441ac720eb218e4fae29b69460c1468a
-    log: |
-         fdc62f54441ac720eb218e4fae29b69460c1468a wifi: mac80211: restore non-chanctx injection behaviour
-         
+    old: 8e7148b5602321be48614bcde048cbe1c738ce3e
+    new: 957346a6877b5457d0974b1c5adea7ed0bfd0ff2
+    log: revlist-8e7148b56023-957346a6877b.txt
 
---===============6882871202001318394==
+--===============6484891218048430730==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-8e7148b56023-957346a6877b.txt
 
-certificate version 0.1
-pusher 7BF9099A 1767873775 +0100
-pushee ssh+git://korg/pub/scm/linux/kernel/git/wireless/wireless.git
-nonce 1767873774-7a0a88cf2a56b1cb572a8da1e156414681bbb711
+813feab1ac5256b423157f005b3a844a4b2841b5 net: dsa: microchip: Initialize IRQ's mask outside common_setup()
+22bde912e80086c51d19c8e99d8267784d076ad4 net: dsa: microchip: Use dynamic irq offset
+62382d6ffe596efd4ea16edd460ab94d3eba1c21 net: dsa: microchip: Use regs[] to access REG_PTP_CLK_CTRL
+0ee0566fc234d503e412b97da8c666851b2649aa net: dsa: microchip: Use regs[] to access REG_PTP_RTC_NANOSEC
+776ad30de04e26b705ce2c36d7efe99aa6f12d6f net: dsa: microchip: Use regs[] to access REG_PTP_RTC_SEC
+5b1fe74facc2abab66cee1d18a74807f457983ff net: dsa: microchip: Use regs[] to access REG_PTP_RTC_SUB_NANOSEC
+d99c1a01ac8dc43065bc8b239afd554b49d6c5dc net: dsa: microchip: Use regs[] to access REG_PTP_SUBNANOSEC_RATE
+b4df828dfc290ffbb59b1172d71fdf34371edc23 net: dsa: microchip: Use regs[] to access REG_PTP_MSG_CONF1
+3adff276e751051e77be4df8d29eab1cf0856fbf net: dsa: microchip: Wrap timestamp reading in a function
+957346a6877b5457d0974b1c5adea7ed0bfd0ff2 Merge branch 'net-dsa-microchip-adjust-ptp-handling-to-ease-ksz8463-integration'
 
-0f145dae5948fda86757f2ecdf910431a56345bd fdc62f54441ac720eb218e4fae29b69460c1468a refs/heads/main
------BEGIN PGP SIGNATURE-----
-
-iQIzBAABCgAdFiEEpeA8sTs3M8SN2hR410qiO8sPaAAFAmlfnO8ACgkQ10qiO8sP
-aAAAPQ/+ODuo80Pm0u7CY421XfjoKrzi4HtTbzKIHIbm2Cm10ic4m1t5mbraPyfz
-Fu2Eu+GaNwk3z75IwIjTPrNIUVb5RgdfzVcmJ/jgn8OMySqq3ZW5KliBnudaiLHm
-2cDSHAQM3yuwz3RqtMGfQwubL3ic5BPOvA6Ir65M9ZmgFK+wCm8b3Z9kVF8IllUQ
-QQjosxILJwwa/+sN5waeVtaAul9isEF134UW6xv+E+CmXYFrlS8aDwG5TRNmLUhY
-3rrCDxAJjP+BZVy5jczlsd1ZYHr4hakUEkFrC95Oj6Ly/f71Ajrn7gxHql/QQrTI
-pj3pjKDWFlfRFSihe5belnSn+yPjegAONBVxQ+QHOjNYGWR9Pnmzkgjk0winK6LS
-FIxPU/zHePZNknOWTt0H+lRkOtLDVSwLqVrrEXDCmWh6ahu5ErqfUV6I5mlldC2B
-HQ8eSlSsM3rjMjgDbOykKnPJFpfJ/R9EIFgNVPwHM+sKBMjNRAb/Qlik5dM/6gDD
-D0YH9rDCxjJsrcMfvImg+Hmn6FcaZCB5ArL9aie24q8f0sfLKtaDfLOdJXddSCUG
-nKw/f5g5k6PaKPlLQzUHgVYHCFGKx/3swG8wOI7D1QBvmc0b4ROHSCFItK9MYgMZ
-JgqcYZcujXVPiX0N6wdVXxuhGCpjBsgZh+dQnhJoSSXfO0bt3/0=
-=5L6S
------END PGP SIGNATURE-----
-
---===============6882871202001318394==--
+--===============6484891218048430730==--
