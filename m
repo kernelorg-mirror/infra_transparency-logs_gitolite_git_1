@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/chao/linux
-Date: Thu, 08 Jan 2026 06:26:34 -0000
-Message-Id: <176785359433.1554736.6363968108627332303@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bmc/linux
+Date: Thu, 08 Jan 2026 06:43:24 -0000
+Message-Id: <176785460458.1566780.9416963915066709862@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/chao/linux
-user: chao
+repo: pub/scm/linux/kernel/git/bmc/linux
+user: arj
 changes:
-  - ref: refs/heads/feature/lock_trace
-    old: fd1784a59a70946b9388e73d8008eb113d840614
-    new: 6a89c12e82e6115c7f4c730bdbc4e351edda6643
-    log: |
-         6a89c12e82e6115c7f4c730bdbc4e351edda6643 f2fs: introduce trace_f2fs_priority_update
-         
+  - ref: refs/heads/nuvoton/arm/fixes
+    old: 0000000000000000000000000000000000000000
+    new: 70b8c45d8621c4d77b5659270e9a26ce7b1123cf
