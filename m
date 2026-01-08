@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Thu, 08 Jan 2026 20:11:33 -0000
-Message-Id: <176790309367.2392640.4824942286216535675@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sven/linux
+Date: Thu, 08 Jan 2026 20:22:30 -0000
+Message-Id: <176790375086.2400765.14074698235187458410@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
-user: broonie
+repo: pub/scm/linux/kernel/git/sven/linux
+user: sven
 changes:
-  - ref: refs/heads/media-synopsys-hdmirx-fix-gpio-cansleep
+  - ref: refs/heads/apple-soc/defconfig-6.20
     old: 0000000000000000000000000000000000000000
-    new: fd01297a39c20f1e5398d1a5f0f0a186e865c3ae
+    new: 8c7a1d258d88b5d8e5b78f86d59cfac8eb361a61
