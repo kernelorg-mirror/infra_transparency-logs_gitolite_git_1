@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1914381781775036716=="
+Content-Type: multipart/mixed; boundary="===============2620954214149859193=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/klassert/ipsec-next
-Date: Thu, 08 Jan 2026 09:31:35 -0000
-Message-Id: <176786469522.1805677.2896579125556624501@gitolite.kernel.org>
+Date: Thu, 08 Jan 2026 09:32:05 -0000
+Message-Id: <176786472524.1806006.3411339589039934678@gitolite.kernel.org>
 
---===============1914381781775036716==
+--===============2620954214149859193==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/klassert/ipsec-next
 user: klassert
 changes:
-  - ref: refs/heads/testing
+  - ref: refs/heads/master
     old: 8f7aa3d3c7323f4ca2768a9e74ebbe359c4f8f88
     new: 8e7148b5602321be48614bcde048cbe1c738ce3e
     log: revlist-8f7aa3d3c732-8e7148b56023.txt
 
---===============1914381781775036716==
+--===============2620954214149859193==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -1051,4 +1051,4 @@ f66086798f91f095ce377ca4f3d2765e305a842e net: spacemit: Remove broken flow contr
 3b7a108c4197f9fd0b593c6b4b0de457d9ed4c87 selftests/net: packetdrill: add minimal client and server tests
 8e7148b5602321be48614bcde048cbe1c738ce3e atm: idt77252: Use sb_pool_remove()
 
---===============1914381781775036716==--
+--===============2620954214149859193==--
