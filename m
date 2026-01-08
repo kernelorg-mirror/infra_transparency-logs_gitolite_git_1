@@ -1,32 +1,29 @@
-Content-Type: multipart/mixed; boundary="===============6228196553097372699=="
+Content-Type: multipart/mixed; boundary="===============3278809342529709019=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next
-Date: Thu, 08 Jan 2026 03:00:05 -0000
-Message-Id: <176784120525.1394919.17940425144356400042@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next-history
+Date: Thu, 08 Jan 2026 03:00:13 -0000
+Message-Id: <176784121341.1395186.18284827625705987174@gitolite.kernel.org>
 
---===============6228196553097372699==
+--===============3278809342529709019==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/next/linux-next
+repo: pub/scm/linux/kernel/git/next/linux-next-history
 user: sfr
 changes:
   - ref: refs/heads/master
     old: f96074c6d01d8a5e9e2fccd0bba5f2ed654c1f2d
     new: fc4e91c639c0af93d63c3d5bc0ee45515dd7504a
     log: revlist-f96074c6d01d-fc4e91c639c0.txt
-  - ref: refs/tags/next-20251008
-    old: adff43957b0d8b9f6ad0e1b1f6daa7136f9ffbef
-    new: 0000000000000000000000000000000000000000
   - ref: refs/tags/next-20260108
     old: 0000000000000000000000000000000000000000
     new: beff4beeeb2760405ad49de2a6a1bdab8fb1aec3
 
---===============6228196553097372699==
+--===============3278809342529709019==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -604,4 +601,4 @@ f647c01c1e253c2a570d0b314bed1715416bffe7 Merge branch 'sysctl-next' of https://g
 3290797c10b2691d99499008cd0941d78c75a6a3 Merge branch 'for-next' of https://git.kernel.org/pub/scm/linux/kernel/git/frederic/linux-dynticks.git
 fc4e91c639c0af93d63c3d5bc0ee45515dd7504a Add linux-next specific files for 20260108
 
---===============6228196553097372699==--
+--===============3278809342529709019==--
