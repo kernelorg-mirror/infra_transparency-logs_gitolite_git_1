@@ -1,56 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============0823400412951749683=="
+Content-Type: multipart/mixed; boundary="===============4776547191296481809=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/powerpc/linux
-Date: Thu, 08 Jan 2026 12:29:34 -0000
-Message-Id: <176787537417.2005750.9059314958497593776@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Thu, 08 Jan 2026 12:31:03 -0000
+Message-Id: <176787546315.2008773.5037894216900026025@gitolite.kernel.org>
 
---===============0823400412951749683==
+--===============4776547191296481809==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/powerpc/linux
-user: maddy
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/next-test
-    old: 1471c517cf7dae1a6342fb821d8ed501af956dd0
-    new: 815a8d2feb5615ae7f0b5befd206af0b0160614c
+  - ref: refs/heads/master
+    old: 6f29f530fd5cefc045e8bb9e59a135f2c8d17ca8
+    new: 8556c9a1ecf73da2406c7d64ef473358a29b9df3
     log: |
-         c0215e2d72debcd9cbc1c002fb012d50a3140387 powerpc/pseries: Fix MSI-X allocation failure when quota is exceeded
-         815a8d2feb5615ae7f0b5befd206af0b0160614c powerpc/eeh: fix recursive pci_lock_rescan_remove locking in EEH event handling
+         8556c9a1ecf73da2406c7d64ef473358a29b9df3 5.10-stable patches
          
 
---===============0823400412951749683==
+--===============4776547191296481809==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Madhavan Srinivasan <maddy@linux.ibm.com> 1767875368 +0530
-pushee gitolite.kernel.org:pub/scm/linux/kernel/git/powerpc/linux
-nonce 1767875368-c3212a4f55337e745b37998430ac4bf09f24be5c
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1767875462 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1767875459-888f5f39f5d3571962c19ca5d9951e4eddac0cc6
 
-1471c517cf7dae1a6342fb821d8ed501af956dd0 815a8d2feb5615ae7f0b5befd206af0b0160614c refs/heads/next-test
+6f29f530fd5cefc045e8bb9e59a135f2c8d17ca8 8556c9a1ecf73da2406c7d64ef473358a29b9df3 refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCgAdFiEEqX2DNAOgU8sBX3pRpnEsdPSHZJQFAmlfoygACgkQpnEsdPSH
-ZJS9wQ/9HFh8kE2en8CeQPBrlFTfgnMuRDMLAInEHE2nQQMXDCnsuB0+eCr3LysM
-pM6Dmc35uBZcI0YilbR09VPpogFHoc7bPR2eQEuhh5hcbKjqqtNU0k5D9mmb1f3f
-NP9NwFUK+f+Psa4IKR2cYHbJd82V7Rm+wa+ywKJP7CX8C3dqRH0PlAUWpu55poDO
-C4HU6pTphEY2FKxNWeYJJeI93kE6jmXPS1bsZRgHF/wPasqMC843cHhc1CNEo9nE
-i3aqzazZFKjIPfjQ5fmNWsS+/+rLPSHJgQWkKKzUYzhTGXyKeRVVOt2kNs3upp7o
-awo93YvJZYWi31vPctBQx8Hp5pS05uOzpw0o8t3jsNNNxb72uud3XGt6jGBfrZEF
-Mh2q7fE2e8la6IVgCBXwYFyg+OHTk766T/01nHbvvC4RCInUJO+ZVmoBOBkkU3NE
-k3v2j6k/pmWFS8gYdYGPkv5GW48GJYlSJGaEQs+l8PcMHBqc3sQYcR5RzESmWHz/
-NcdePYpS7EtQxmPIqHYt5JD/WFKaMy3pGd2jHbwNH/I+YiaAPhBm8/yiqdGGFPGT
-bv/Qei4wDoinsDtavkEGWx83Zg0RBIifRi1+ekwN86EQqIVAIMHisHypu2l5rHQd
-nVnL2xQeNDPNwoHHQotl96SGxVSl6g56DMElPrArPWnkkmtmfsk=
-=KXZo
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmlfo4YbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+lLYQALn0wsn1zKlqS/xTjAUU
+Q1OMCwFOAMpWA3+dpWxf/7K8ljgfrNrAYPQJEE4eR9PO0nZf8NR0FLhuLSPUh9cQ
+Da7RYKhyCaNDvbXm0cLTt2Tt2gXrruvJczgnQ/mpa4CEdc9IOXMSnVsS31Hav2pp
+UI8op7i1iUEUzRQ9BrN0MRJ+BqIvsW/hTC7Kb01CcP9hJfc+h8awP0XyGDT65Abb
+1d3PpsmBQ6e/9t2IDmhZcqmHWOE5rxBop9M7j0UFMiueX+KT0Z/vwK0cipFGTrft
+0c/segrm/gxOJrodgoN6mvBXgz/+CFTRL1Z1XZKzy9IQISfs4hSK0CdGDCNvjFnc
+p6UwIf6TI3TbtlG7JCdeEF2duLB04byVjNbZTtigfW8IIAM9p3VfDyhnhqRqNeoC
+njPurfnoA5I2dZv+NO7a4VxkedqJ52ldbZ2pKsGYZ5L6XqjbyGjNaD0bl2fDqiRw
+zgf6vMB88jCYqBhJa9AK9zXsC2Drn0oT7AvSe7jFnLpE1OE/PbP6zertIDN6MWU1
++5A5vb5fI6lCU7qdP65pl/vWhQJRL0mDvLB3PdkJGkD6v5Z/0yYrtyxG46ADU8cM
+MT18G8qH91Bxvm+Lrc9wU7eYnFlUQcuiJGHYzGGubhnRbHBPirkwOKTYKCLgh5VY
+Qnw6KQu+xMir9uBjJrIcjvA9
+=rXEo
 -----END PGP SIGNATURE-----
 
---===============0823400412951749683==--
+--===============4776547191296481809==--
