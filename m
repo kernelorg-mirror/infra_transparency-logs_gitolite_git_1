@@ -1,57 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============5573445461048772664=="
+Content-Type: multipart/mixed; boundary="===============1247429953591007532=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Fri, 09 Jan 2026 15:28:37 -0000
-Message-Id: <176797251730.3357430.9493500297052764047@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Fri, 09 Jan 2026 15:28:44 -0000
+Message-Id: <176797252485.3357699.506181059802638859@gitolite.kernel.org>
 
---===============5573445461048772664==
+--===============1247429953591007532==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/spi
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/asoc-6.19
-    old: 2fa0eaf78c4bb24c2b05a4db3e0d86a7dcd8fd9f
-    new: 5b577d214fcc109707bcb77b4ae72a31cfd86798
+  - ref: refs/heads/for-6.20
+    old: 36227ab99a781a02b3448b79fb15f2a20dc7f10b
+    new: b6376dbed8e173f9571583b5d358b08ff394e864
     log: |
-         5b577d214fcc109707bcb77b4ae72a31cfd86798 ASoC: davinci-evm: Fix reference leak in davinci_evm_probe
-         
-  - ref: refs/heads/asoc-6.20
-    old: 22a4776a9ce50aa47f602d28f53ba9d613a38f49
-    new: 0cd9bf6a6d9a1861087236cc5c275b3bea83cfdd
-    log: |
-         0cd9bf6a6d9a1861087236cc5c275b3bea83cfdd ASoC: codecs: da7213: Move comma operator at the end of the line
+         19a4505a7a5d4eea70f1a42d601c25d730922fdf spi: microchip-core: use XOR instead of ANDNOT to fix the logic
+         b6376dbed8e173f9571583b5d358b08ff394e864 spi: Simplify devm_spi_*_controller()
          
 
---===============5573445461048772664==
+--===============1247429953591007532==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1767972515 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1767972514-f48f56d4231198930917d92ff453fd3bbbe7ca94
+pusher C3F436CA30F5D8EB 1767972523 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
+nonce 1767972522-ee6d96d8e1dd4ab3e039c1d04421726bb44a6ac5
 
-2fa0eaf78c4bb24c2b05a4db3e0d86a7dcd8fd9f 5b577d214fcc109707bcb77b4ae72a31cfd86798 refs/heads/asoc-6.19
-22a4776a9ce50aa47f602d28f53ba9d613a38f49 0cd9bf6a6d9a1861087236cc5c275b3bea83cfdd refs/heads/asoc-6.20
+36227ab99a781a02b3448b79fb15f2a20dc7f10b b6376dbed8e173f9571583b5d358b08ff394e864 refs/heads/for-6.20
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmlhHqMACgkQJNaLcl1U
-h9DylAf/eOcimKP/OhxS9ELgqRRb51UWZ0IMobNlkNsuR4zqhKPr/yM8je8LjSBd
-V3K11Yn1t8Br+A847Qadf6sNGLrWAa82V5yrROMiqCsRyEM5A+jTGMtA1gE6a7BK
-HgamEGKmc3zwkU8jFi11RaUCnmU8EBKIwuy68m4x08PHUi3/ITsdg04BEsbVdvqA
-yg6E0zvOiVK8WfhVWR3Mcj1thv3FsPDBqR+4Mo9/oBWkAsjAIyxu+NUZlJg6bKyY
-nmhVDyv+9nfKO8QVR+rPLmHUUuhv31Tfgq+JPv8SAWA7kc5j+G2AhzRsXaEL/V38
-3g+YEnqLYCEUyYgvkqb+WH001JKCUg==
-=+3wv
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmlhHqsACgkQJNaLcl1U
+h9CF0Qf+IK7SRgmh+c6rp3lmtgZjPLQ6WEdgYjlVexXQpnOjpCCHDkhTAA0mScas
+SRUcBoJKZ6HvxBzbv3tScHSScE99PN6iOvKRsdKyzbzxdfaW92KforGuFTQuE1nD
+kKstw4w8lCmwtrok808VBQWZZLEYoWKyrfbjloNgKwrxykvC8lM+cw6QzOSV/Fkx
+3tgUUAqU+jdlqco6Tv5MhGEKOL2bO2qiIeTStWV6zD03V0gH3doN/40H+DKAWaXv
+MiykQDNX7Uf+GaS17cchfHSIobQHBD4X4WAfjMYn0af1R24ZqTk1j9BRdrpLniSJ
+7FA91xHdTU1sfMqQqBrfZh+wZ6IpLQ==
+=8+0y
 -----END PGP SIGNATURE-----
 
---===============5573445461048772664==--
+--===============1247429953591007532==--
