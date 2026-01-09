@@ -1,20 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/firmware/linux-firmware
-Date: Fri, 09 Jan 2026 12:50:14 -0000
-Message-Id: <176796301410.3228503.872214670720803867@gitolite.kernel.org>
+Subject: post-receive: pub/scm/fs/ext2/xfstests-bld
+Date: Fri, 09 Jan 2026 13:17:22 -0000
+Message-Id: <176796464254.3249353.1100408283264498075@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/firmware/linux-firmware
-user: jwboyer
+repo: pub/scm/fs/ext2/xfstests-bld
+user: tytso
 changes:
-  - ref: refs/heads/main
-    old: de206021893a02f5b70c2e71262e251dbb4936d9
-    new: ce99e6f93b4cb213284146f3cfbf5607a3c90640
+  - ref: refs/heads/master
+    old: 3844cb58df73f699fdc8ccdbf7f013da702d86f9
+    new: e7a7e0b4e40ab46ff9de918caae93f243920926d
     log: |
-         21d69f404447c4f80026ec21ef00e38ae6e193de qcom: Update DSP firmware for sa8775 platform
-         ce99e6f93b4cb213284146f3cfbf5607a3c90640 Merge branch 'dspfw-lemans' into 'main'
+         84a091b75b23739c8a55a4e206cd36f3b5c7bec8 test-appliance: exclude generic/204 for f2fs
+         50c4049ab38e7f47df63367c2f671cf13829a55e test-appliance: update to golang 1.24.11
+         e7a7e0b4e40ab46ff9de918caae93f243920926d test-appliance: add a global exclude for generic/787
          
