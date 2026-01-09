@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
-Date: Fri, 09 Jan 2026 08:57:21 -0000
-Message-Id: <176794904129.3033865.10973798907617992128@gitolite.kernel.org>
+Date: Fri, 09 Jan 2026 08:58:32 -0000
+Message-Id: <176794911270.3034435.15788709538420439139@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,9 +11,9 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/brgl/linux
 user: brgl
 changes:
-  - ref: refs/heads/gpio/for-current
-    old: 36f597bba049928004a050c132ab787ba0eba524
-    new: d578b31856cec31315f27b3ba97b212e4c6989b3
+  - ref: refs/heads/gpio/for-next
+    old: 8ba379879aa3e8cef871fed4a509d4f0a6370e6c
+    new: e034e058897a12bc856f8b22d1796964c742f732
     log: |
-         d578b31856cec31315f27b3ba97b212e4c6989b3 gpio: shared: fix a false-positive sharing detection with reset-gpios
+         e034e058897a12bc856f8b22d1796964c742f732 gpio: line-mux: remove bits already handled by GPIO core
          
