@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux
-Date: Fri, 09 Jan 2026 18:39:54 -0000
-Message-Id: <176798399413.3519984.13831318993427238740@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/liburing
+Date: Fri, 09 Jan 2026 18:41:08 -0000
+Message-Id: <176798406818.3523173.1301304033129122878@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux
+repo: pub/scm/linux/kernel/git/axboe/liburing
 user: axboe
 changes:
-  - ref: refs/tags/block-6.19-20260109
-    old: 0000000000000000000000000000000000000000
-    new: 9eac667900255bec3355509d73700f98dbd2d303
+  - ref: refs/heads/task-restrictions
+    old: b23e586c416509caf578350c179a7804fa302dcf
+    new: 9cea29503dc8b4b264836db063309f0e3f3ca2ce
+    log: |
+         9cea29503dc8b4b264836db063309f0e3f3ca2ce Add support for per-task io restrictions
+         
