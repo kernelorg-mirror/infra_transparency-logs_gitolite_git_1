@@ -1,48 +1,25 @@
-Content-Type: multipart/mixed; boundary="===============2070162228121629286=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vbabka/linux
-Date: Fri, 09 Jan 2026 17:05:37 -0000
-Message-Id: <176797833704.3446167.2882708590827051842@gitolite.kernel.org>
-
---===============2070162228121629286==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
+Date: Fri, 09 Jan 2026 17:05:55 -0000
+Message-Id: <176797835543.3446749.17368007886100149183@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vbabka/linux
-user: vbabka
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/tnguy/next-queue
+user: tnguy
 changes:
-  - ref: refs/heads/b4/sheaves-for-all-rebased
-    old: 0000000000000000000000000000000000000000
-    new: 0164c685dac26acfa7da52f3edbe51d95c68773c
-
---===============2070162228121629286==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher A940D434992C2E8E99103D50224FA7E7CC82A664 1767978309 +0100
-pushee gitolite.kernel.org:pub/scm/linux/kernel/git/vbabka/linux.git
-nonce 1767978308-2ddba3b47e77dbd55f84b98623f694bad1d37230
-
-0000000000000000000000000000000000000000 0164c685dac26acfa7da52f3edbe51d95c68773c refs/heads/b4/sheaves-for-all-rebased
------BEGIN PGP SIGNATURE-----
-
-iQFPBAABCAA5FiEEe7vIQRWZI0iWSE3xu+CwddJFiJoFAmlhNUUbFIAAAAAABAAO
-bWFudTIsMi41KzEuMTEsMiwyAAoJELvgsHXSRYiayycH/iUioiitftmGFfP8zbJM
-x7IBbppoaEXy1mOYKcu1EsoyGBIMsaunrgXvaOfwDYy/dRyaEywR7PDgvsPIIjjj
-lRSYB98pz9BY3dd05rv+t+urY0ZqxSes4328oS+rgeOTGcDalbz20nJ5eQKBlwcJ
-0dS/ULQQ/mks4Oe//TIDbQuhuK+ARg31V0tn5toj0g39kpjFrp3jeHZJpp7RcKtM
-oSEsOwvDznyM8Wid78NSkwAhRzWPYmbvLiCib6PaCaOO7clmZ0ZWA0UMvQfnBI0P
-Cy9DtdcYeICNzeTE9HcKL13yXtS/JJoOa8bmE1nn4jbFfAMK6iQgr/ZaaPBS/zq2
-cQ8=
-=SCNK
------END PGP SIGNATURE-----
-
---===============2070162228121629286==--
+  - ref: refs/heads/1GbE
+    old: 59ba823e689f832f389ea6af6e7ae5842b3c860a
+    new: fc65403d55c3be44d19e6290e641433201345a5e
+    log: |
+         f56bcc0425cb5aeac3557444e0f7538178daba05 dt-bindings: net: dsa: microchip: Make pinctrl 'reset' optional
+         a45ed8db62f8051275112babb271f53a13aec02e sfc: correct kernel-doc complaints
+         88c7ed2fb0711c413fda29f2f437003e71445812 net: phy: micrel: improve HW timestamping config logic
+         32d83db3aaf62561879ca7356ab863f88c953b0b net: phy: micrel: add HW timestamp configuration reporting
+         ffde97f8ff6a2aa33eb197897031b9d32f79d76c net: phy: microchip_rds_ptp: improve HW ts config logic
+         f529893f404be8e820c104e278c58f37686d9137 net: phy: microchip_rds_ptp: add HW timestamp configuration reporting
+         fc65403d55c3be44d19e6290e641433201345a5e Merge branch 'support-for-hwtstamp_get-in-phy-part-2'
+         
