@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/thomas.weissschuh/linux
-Date: Fri, 09 Jan 2026 13:29:57 -0000
-Message-Id: <176796539792.3259095.6364132236514597438@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
+Date: Fri, 09 Jan 2026 13:46:18 -0000
+Message-Id: <176796637817.3273460.11266928877950056029@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/thomas.weissschuh/linux
-user: thomas.weissschuh
+repo: pub/scm/linux/kernel/git/brgl/linux
+user: brgl
 changes:
-  - ref: refs/heads/b4/at-vector-size-arch
+  - ref: refs/tags/gpio-fixes-for-v6.19-rc5
     old: 0000000000000000000000000000000000000000
-    new: 153c56fb66ecb25e8b4180f2c226c7a861cfbafb
+    new: 2da4a50ec32d0d575c4189a714b9461bcee42b67
