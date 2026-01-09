@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
-Date: Fri, 09 Jan 2026 08:58:32 -0000
-Message-Id: <176794911270.3034435.15788709538420439139@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/herbert/crypto-2.6
+Date: Fri, 09 Jan 2026 09:47:15 -0000
+Message-Id: <176795203513.3070783.14563609381620225200@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/brgl/linux
-user: brgl
+repo: pub/scm/linux/kernel/git/herbert/crypto-2.6
+user: herbert
 changes:
-  - ref: refs/heads/gpio/for-next
-    old: 8ba379879aa3e8cef871fed4a509d4f0a6370e6c
-    new: e034e058897a12bc856f8b22d1796964c742f732
-    log: |
-         e034e058897a12bc856f8b22d1796964c742f732 gpio: line-mux: remove bits already handled by GPIO core
-         
+  - ref: refs/tags/v6.19-p3
+    old: 0000000000000000000000000000000000000000
+    new: f06bc83b21a0d6c2a142e2e2ce79705ea45775ba
