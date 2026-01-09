@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7147370117437734835=="
+Content-Type: multipart/mixed; boundary="===============6457529695523063037=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkl/linux-can
-Date: Fri, 09 Jan 2026 13:28:24 -0000
-Message-Id: <176796530441.3258193.2441651680177351687@gitolite.kernel.org>
+Date: Fri, 09 Jan 2026 13:28:38 -0000
+Message-Id: <176796531876.3258462.4361160334405097630@gitolite.kernel.org>
 
---===============7147370117437734835==
+--===============6457529695523063037==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,35 +16,35 @@ repo: pub/scm/linux/kernel/git/mkl/linux-can
 user: mkl
 git_push_cert_status: E
 changes:
-  - ref: refs/tags/linux-can-fixes-for-6.19-20260109
-    old: 90a7e22558940ef3a7fa6ef791c62262d763d816
-    new: f966daab5fb3a4d5679c2bcc02c7db6f6e337fa8
+  - ref: refs/heads/testing
+    old: ac4a45c9817117eae6cd82f2932381b7790615d7
+    new: e707c591a139d1bfa4ddc83036fc820ca006a140
     log: |
          e707c591a139d1bfa4ddc83036fc820ca006a140 can: ctucanfd: fix SSP_SRC in cases when bit-rate is higher than 1 MBit.
          
 
---===============7147370117437734835==
+--===============6457529695523063037==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Marc Kleine-Budde <mkl@pengutronix.de> 1767965300 +0100
+pusher Marc Kleine-Budde <mkl@pengutronix.de> 1767965315 +0100
 pushee gitolite.kernel.org:pub/scm/linux/kernel/git/mkl/linux-can.git
-nonce 1767965300-e6f0aeb5f57f6bb62d9f1e41190aa7ba079ce9d2
+nonce 1767965314-1e95269bf0222348844c3211dc91a11a6a0ebf01
 
-90a7e22558940ef3a7fa6ef791c62262d763d816 f966daab5fb3a4d5679c2bcc02c7db6f6e337fa8 refs/tags/linux-can-fixes-for-6.19-20260109
+ac4a45c9817117eae6cd82f2932381b7790615d7 e707c591a139d1bfa4ddc83036fc820ca006a140 refs/heads/testing
 -----BEGIN PGP SIGNATURE-----
 
-iQFGBAABCgAxFiEEn/sM2K9nqF/8FWzzDHRl3/mQkZwFAmlhAnQTHG1rbEBwZW5n
-dXRyb25peC5kZQAKCRAMdGXf+ZCRnDGtB/QNx0nqgcmPxQjgxNhPCCh7TZ32a1vC
-wSmrv7HiLjLH0HJ7sfh6bvEn1VhYZpRPCkJvtpuBHM3Um8kYVd/dCRzgjglN5seN
-fpVinyd5Yy3R6JJETgql5sSuXVy/U0r13ptfMNT6kaKNJ/M82ca4GNrvpZuyfJ4z
-OckG7nyA/cac2p5p+5MMeedp0CozHkrrScgbNGAB0A58uU/4WhF+Z+RV6ov3yBEc
-g9+gWUos2B/AXHQ1bwYaNNKaTxrfk5xBrw4BXFlpPoWD+LfzmPbsvw97x1MBSs7W
-BP3pr8I/0eAiTdBUu8GFPmxkYFoXnxerrSROOfT8LMbtN2i49WUEgio=
-=VymJ
+iQFHBAABCgAxFiEEn/sM2K9nqF/8FWzzDHRl3/mQkZwFAmlhAoMTHG1rbEBwZW5n
+dXRyb25peC5kZQAKCRAMdGXf+ZCRnF/vCACmWIzZjyILjacrmBUinygyBQysDrtY
+F9jIQglW2RL4cgNz7uGOcekKmI0HPFydHK07KXI7uTri9/lpIyWS4mpPwFeRhhDl
+aesGPs/teMiD7ZTdcPjXhv7iqR6mckmpF70tZMhamijdFkMPdCCXvqMZbl2hJ9mM
+z4q2i5NxEkV2cjQLRkoZfJcbK5ItNtK5nChQHQINtVm/fawg5bGN6uSwqmrcjdFW
+/yLjgeodLAj1jYBazEH+5QhyQJc2TNLLqIp+rKnCztUsEcQozVVDV8oDoY7zv7je
+GmoI9ShUdrSCTHBloQWoSh3+D74IlS4R2JwcN2C6ELBpvpWVCnSCYfZL
+=VKxh
 -----END PGP SIGNATURE-----
 
---===============7147370117437734835==--
+--===============6457529695523063037==--
