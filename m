@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Fri, 09 Jan 2026 15:29:14 -0000
-Message-Id: <176797255449.3358646.10866023073342019582@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
+Date: Fri, 09 Jan 2026 15:36:33 -0000
+Message-Id: <176797299336.3365766.16588369979124705621@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
-user: broonie
+repo: pub/scm/linux/kernel/git/ath/ath
+user: jjohnson
 changes:
-  - ref: refs/heads/for-next
-    old: 36227ab99a781a02b3448b79fb15f2a20dc7f10b
-    new: b6376dbed8e173f9571583b5d358b08ff394e864
+  - ref: refs/heads/pending
+    old: fa72859172316a7d72c7ecd58f6e20eaf5395423
+    new: 16aabe236932241680ce3507d98c8562dca9a558
     log: |
-         19a4505a7a5d4eea70f1a42d601c25d730922fdf spi: microchip-core: use XOR instead of ANDNOT to fix the logic
-         b6376dbed8e173f9571583b5d358b08ff394e864 spi: Simplify devm_spi_*_controller()
+         16aabe236932241680ce3507d98c8562dca9a558 wifi: ath10k: fix dma_free_coherent() pointer
          
