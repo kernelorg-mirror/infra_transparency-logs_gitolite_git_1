@@ -1,23 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
-Date: Fri, 09 Jan 2026 11:47:02 -0000
-Message-Id: <176795922247.3177647.11131551805262844688@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/driver-core/driver-core
+Date: Fri, 09 Jan 2026 11:49:34 -0000
+Message-Id: <176795937466.3178646.5411897742570669627@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kdave/linux
-user: kdave
+repo: pub/scm/linux/kernel/git/driver-core/driver-core
+user: dakr
 changes:
-  - ref: refs/heads/master
-    old: 5572ad8fddecd4a0db19801262072ff5916b7589
-    new: 623fb9912f6af600cda3b6bd166ac738c1115ef4
+  - ref: refs/heads/driver-core-next
+    old: 7bf97992afa4e815f4ed84638340e2a93de65504
+    new: d88f27d7f4a1861fe6d548d9a9c203e59489880a
     log: |
-         fa917d3d570279dc3d699cbd947d0da0fde2e402 pinctrl: mediatek: mt8189: restore previous register base name array order
-         882ddfc6b70e2535e028d4aa14a7d8bb2ca0fbd4 Update .mailmap for Linus Walleij
-         bc277212b41ade2137b6278db24652d0847e9a91 pinctrl: pic64gx-gpio2: Add REGMAP_MMIO dependency
-         ebc18e9854e5a2b62a041fb57b216a903af45b85 pinctrl: qcom: lpass-lpi: mark the GPIO controller as sleeping
-         623fb9912f6af600cda3b6bd166ac738c1115ef4 Merge tag 'pinctrl-v6.19-2' of git://git.kernel.org/pub/scm/linux/kernel/git/linusw/linux-pinctrl
+         31bc0aade4e03a056a6b568571e59d3783c97ffc rust: io: remove square brackets from pci::Bar reference
+         6506b44e88da265688f786d379987e91b4826bf4 rust: auxiliary: use "kernel vertical" style for imports
+         da74aee2ad0dcae8a5544deace7465869890e8f0 rust: platform: use "kernel vertical" style for imports
+         52563c665b0b0b39f319bee40ecc5e8f25b9050a rust: driver-core: use "kernel vertical" style for imports
+         d88f27d7f4a1861fe6d548d9a9c203e59489880a rust: faux: use "kernel vertical" style for imports
          
