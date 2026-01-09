@@ -1,56 +1,74 @@
-Content-Type: multipart/mixed; boundary="===============2190397346084121680=="
+Content-Type: multipart/mixed; boundary="===============1124022750257835062=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Fri, 09 Jan 2026 11:02:13 -0000
-Message-Id: <176795653386.3136291.8209951657115727698@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/boqun/linux
+Date: Fri, 09 Jan 2026 11:02:18 -0000
+Message-Id: <176795653896.3136541.9135460299056071437@gitolite.kernel.org>
 
---===============2190397346084121680==
+--===============1124022750257835062==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/boqun/linux
+user: boqun
 changes:
-  - ref: refs/heads/master
-    old: b295fc8205b09509544edb08946b1440b9c26229
-    new: a577914e5d31445e83eda8bff05aee3a70c666f1
-    log: |
-         a577914e5d31445e83eda8bff05aee3a70c666f1 5.15-stable patches
-         
+  - ref: refs/heads/rust-sync
+    old: ae14778fbe11e7d36a616485e3148a1ca8fdc893
+    new: 5c7b8c93cbb2e6befce1492a4521cc049e53581f
+    log: revlist-ae14778fbe11-5c7b8c93cbb2.txt
 
---===============2190397346084121680==
+--===============1124022750257835062==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-ae14778fbe11-5c7b8c93cbb2.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1767956532 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1767956531-58790554d65ab68e11ebc9eee1b84d0000134094
+0e2036a06dcf61dbd100168830287d6c42cd61e1 scripts/atomic: Fix kerneldoc spelling in try_cmpxchg()
+4d26d4a158f37cb53b22a23b4dc6c4e5bfa1369e compiler-context-analysys: Fix CONFIG_MODVERSION
+a45026cef17d1080c985adf28234d6c8475ad66f locking/local_lock: Include more missing headers
+86f4a271dc1962e389ea512d07a77626dbd8c1d8 rust: sync: Refactor static_lock_class!() macro
+106ab474e5a711ea08e0908a42cfa89d691e57ad rust: sync: Clean up LockClassKey and its docs
+8a581130b1cbc17c702298b8325e3df98c792760 rust: sync: set_once: Implement Send and Sync
+09248ed8cdb6345afc883c02aecd79dfbd9c2a9c rust: sync: Implement Unpin for ARef
+2cc3d5d6adbee058858f2e66de701a203b032746 rust: helpers: Add i8/i16 atomic_read_acquire/atomic_set_release helpers
+300e53b3d3b59e72a972a12ee5c6438aab4860a4 rust: helpers: Add i8/i16 relaxed atomic helpers
+5dbc0a692459bc49cdb7add281086291da547750 rust: helpers: Add i8/i16 atomic xchg helpers
+ab717dd98bee964add2161d94193d756fdef614c rust: helpers: Add i8/i16 atomic xchg_acquire helpers
+1bfca1e7e845a55fa82046727666f713d24ebdad rust: helpers: Add i8/i16 atomic xchg_release helpers
+910cbddc416cc30d83966baf378f44e59f3dc5d7 rust: helpers: Add i8/i16 atomic xchg_relaxed helpers
+164e4b5600b32b4ddeac58bb5b37bc1490a1dce4 rust: helpers: Add i8/i16 atomic try_cmpxchg helpers
+fed6aaa392c301721144303d64b7c68575d9d5ef rust: helpers: Add i8/i16 atomic try_cmpxchg_acquire helpers
+b5992f07a9736ab6279181c848f42227af9945bf rust: helpers: Add i8/i16 atomic try_cmpxchg_release helpers
+8de731a6c75547602601a5d219b5cf259ce2b38b rust: helpers: Add i8/i16 atomic try_cmpxchg_relaxed helpers
+2bb8c41e61b29ccdf7b6d716c3a8fe8488aa202a rust: sync: atomic: Prepare AtomicOps macros for i8/i16 support
+cf4c3bc1445152c1949a4b5fef56d07579fadb1e arch: um/x86: Select ARCH_SUPPORTS_ATOMIC_RMW for UML_X86
+b33796d554f270e19141c0c1fa0a90705a511d2b rust: sync: atomic: Add i8/i16 load and store support
+7b001c97d9bdaea50e1e1834040c58f7ef9f4e89 rust: sync: atomic: Add store_release/load_acquire tests
+584f286f822afecc1a6521a27b3caf3e2f515d41 rust: sync: atomic: Add i8/i16 xchg and cmpxchg support
+06bd0e52bfd78eae1c7dd5db163ce64161b495e7 rust: sync: atomic: Add atomic bool support via i8 representation
+4bac28727a2b3f33e6375aeafdf31df67deff5d0 rust: sync: atomic: Add atomic bool tests
+323e4bfcbe2dc6c6cac6e007dded0ba4f89a6458 rust: list: Switch to kernel::sync atomic primitives
+7f4c8b4dcde7174a3bd5d001790d8453c9aefa3c rust_binder: Switch to kernel::sync atomic primitives
+aa574e0f21a6e7a28e4b8794ad4238d3bfd4f9df rust: barrier: Add __rust_helper to helpers
+71a4d13fa1cf2b7a4f45a6ee41548c27783f7940 rust: blk: Add __rust_helper to helpers
+1c7a6f48f7eeb3014584d2fc55fc67f0cbaeef69 rust: completion: Add __rust_helper to helpers
+9f658bd5378d5c357d5eeb1e699f1504a7498dbf rust: cpu: Add __rust_helper to helpers
+a87e6fe8738fabf9881758b79b0db592c057acbd rust: processor: Add __rust_helper to helpers
+5e03edaed373f41e7a3c8617e01891eb680d62aa rust: rcu: Add __rust_helper to helpers
+9ba1aaf25ab7dadb910348b6857865e87b4c5689 rust: refcount: Add __rust_helper to helpers
+d4ad4de929ba27ed241c6ef1098b1687001ced1f rust: sync: Add __rust_helper to helpers
+5f1193d55a4311780136044355b1f09e7b5abac7 rust: task: Add __rust_helper to helpers
+75b6034780e8dc8c71096313534ccb720fa633f9 rust: time: Add __rust_helper to helpers
+5628f0510a4c64908c5d2f36a676b092e1e5d174 rust: wait: Add __rust_helper to helpers
+abf2111d8d900c834993d443f59b836291b8d0fc rust: helpers: Move #define __rust_helper out of atomic.c
+41d75ee90c9d0fac3c54a22fe78dd5ffacfa4fb1 rust: sync: inline various lock related methods
+5c6cc7c747987938e74fcc0f37938eae5ee38bd7 rust: helpers: Generify the definitions of rust_helper_*_{read,set}*
+6d8494126283fe350fa5db7716315418a985c15d rust: helpers: Generify the definitions of rust_helper_*_xchg*
+762b19d60e07e12a6977dfabfbce81ebc4a06780 rust: helpers: Generify the definitions of rust_helper_*_cmpxchg*
+6e32156bca197d35d06c89294e644199821bf311 WIP: rust: sync: atomic: Add Atomic<*mut T> support
+5c7b8c93cbb2e6befce1492a4521cc049e53581f rust: sync: rcu: Add RCU protected pointer
 
-b295fc8205b09509544edb08946b1440b9c26229 a577914e5d31445e83eda8bff05aee3a70c666f1 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmlg4DQbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+9OoP/jabIAXltllwfN3qy//m
-vTDrZHLlW9ZM45hhbWpEtO8r2wkav7yS24ftyfuADPgOwIq9BdLbIyE+s7/gQOIu
-12phAvWv5QFLWoKEZcPchHBDB/P9CBgpZhhoJmKlZS7QrmprRDj97tqK/Xrjkrdj
-imMUyUAyhJjkGnoqkyLE0zpyz/5cR0ivngWvh1Csypr+0dOSUOQtorbRDVgusSYd
-BY1rdI6Xp2jYxPwi5oe7jApQFTMIWAmgNf7hIAQjBMYiX54xPq+UzWYW2ApdNb+v
-CZVE36tie5QL2D3a6MCO7fF7BHsKbdoxsJEykPh2iTYgkOhTlBozPi3e0gOCXZH4
-oB9Err+x8Y4hlSnd9p8TvO6GcyuA5V5L2FBtKSCDn7CJv7Fkcv3Ef4U4Jw6HjM9O
-UQetV7O15Pf1SLBIHQ4yESX2xL13OBM3vljTrT9MBcfSVSMtVZgxnu20mRIXFuMj
-+GQ2cRiKON7cFdl17GCX2LvKfYYsKYhA+IGF7M+p5yiGBJv7dYgQjA1zhF80sLf1
-JEG41faaYy/QnvN1Ez3I30EpzFXOtyS6uKagPEaCKs9IWPgeYWWz+wEvqREOoES0
-OL+nRbiHdbkyASjlw9Vd3C+ZusA9+gAQp/2lgZ/rlc8pET1lnXxF4MuxTOTo7pky
-y329Yz4XvSatOphNr0nZsujw
-=7Q+K
------END PGP SIGNATURE-----
-
---===============2190397346084121680==--
+--===============1124022750257835062==--
