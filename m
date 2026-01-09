@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7068979956490291687=="
+Content-Type: multipart/mixed; boundary="===============0064381041460650976=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/kees/linux
-Date: Fri, 09 Jan 2026 19:22:39 -0000
-Message-Id: <176798655911.3554767.3541424954939871065@gitolite.kernel.org>
+Date: Fri, 09 Jan 2026 19:23:01 -0000
+Message-Id: <176798658190.3555203.6293436950886366316@gitolite.kernel.org>
 
---===============7068979956490291687==
+--===============0064381041460650976==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,7 +16,7 @@ repo: pub/scm/linux/kernel/git/kees/linux
 user: kees
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/for-next/hardening
+  - ref: refs/heads/for-next/kspp
     old: e190ecec2fdfe5b33a0b2f52ef0c44747476a140
     new: c1d839c4d23580268ae57ccb4172d9a139a7c066
     log: |
@@ -27,24 +27,24 @@ changes:
          c1d839c4d23580268ae57ccb4172d9a139a7c066 coccinelle: Add kmalloc_objs conversion script
          
 
---===============7068979956490291687==
+--===============0064381041460650976==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher A5C3F68F229DD60F723E6E138972F4DFDC6DC026 1767986557 -0800
+pusher A5C3F68F229DD60F723E6E138972F4DFDC6DC026 1767986580 -0800
 pushee gitolite.kernel.org:pub/scm/linux/kernel/git/kees/linux.git
-nonce 1767986543-212a34a75683a34277e65d81242ff9bef3ec6460
+nonce 1767986578-92ccb06261688259e7849021ba57e1f6ac6eb377
 
-e190ecec2fdfe5b33a0b2f52ef0c44747476a140 c1d839c4d23580268ae57ccb4172d9a139a7c066 refs/heads/for-next/hardening
+e190ecec2fdfe5b33a0b2f52ef0c44747476a140 c1d839c4d23580268ae57ccb4172d9a139a7c066 refs/heads/for-next/kspp
 -----BEGIN PGP SIGNATURE-----
 
-iHUEABYKAB0WIQRSPkdeREjth1dHnSE2KwveOeQkuwUCaWFVfQAKCRA2KwveOeQk
-uz2eAQCGhOH9cCOfZEiXnSFVy+AD7jdQAtjKgKXIvxVJcwCQNQD5AdyE8wfNlAx+
-/ARfnFXUtNSMFQF+fCQPBCh2/GA0mg0=
-=+4bH
+iHUEABYKAB0WIQRSPkdeREjth1dHnSE2KwveOeQkuwUCaWFVlQAKCRA2KwveOeQk
+uza5AQC2Qg2gWnOMG94T4xaR6p6veixqPvdz7SdSbcfk9feQXwD9Hx0eMIxVMaLr
+tV5EET5IPAq9qnrn1ZUM4JGepTxyWQQ=
+=OnLR
 -----END PGP SIGNATURE-----
 
---===============7068979956490291687==--
+--===============0064381041460650976==--
