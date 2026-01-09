@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============2580529554481089293=="
+Content-Type: multipart/mixed; boundary="===============1693842770565393578=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jgg/iommufd
-Date: Fri, 09 Jan 2026 16:14:02 -0000
-Message-Id: <176797524286.3399512.8839233128130776996@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/fwctl/fwctl
+Date: Fri, 09 Jan 2026 16:14:15 -0000
+Message-Id: <176797525538.3399806.4497129478342965624@gitolite.kernel.org>
 
---===============2580529554481089293==
+--===============1693842770565393578==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jgg/iommufd
+repo: pub/scm/linux/kernel/git/fwctl/fwctl
 user: jgg
 changes:
   - ref: refs/heads/linus
@@ -20,7 +20,7 @@ changes:
     new: 623fb9912f6af600cda3b6bd166ac738c1115ef4
     log: revlist-3609fa95fb0f-623fb9912f6a.txt
 
---===============2580529554481089293==
+--===============1693842770565393578==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -169,4 +169,4 @@ f2a3b12b305c7bb72467b2a56d19a4587b6007f9 Merge tag 'net-6.19-rc5' of git://git.k
 5572ad8fddecd4a0db19801262072ff5916b7589 Merge tag 'trace-v6.19-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
 623fb9912f6af600cda3b6bd166ac738c1115ef4 Merge tag 'pinctrl-v6.19-2' of git://git.kernel.org/pub/scm/linux/kernel/git/linusw/linux-pinctrl
 
---===============2580529554481089293==--
+--===============1693842770565393578==--
