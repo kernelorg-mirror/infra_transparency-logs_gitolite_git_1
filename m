@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8844278819056167620=="
+Content-Type: multipart/mixed; boundary="===============9105176711556765247=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Fri, 09 Jan 2026 00:28:02 -0000
-Message-Id: <176791848209.2599779.14112796399646221050@gitolite.kernel.org>
+Date: Fri, 09 Jan 2026 00:28:03 -0000
+Message-Id: <176791848359.2599957.148762285489107306@gitolite.kernel.org>
 
---===============8844278819056167620==
+--===============9105176711556765247==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/mm-new
-    old: 21d88b706dd49b5a58fd2159062cf9f9263695c6
-    new: ba756a5e4580859e0b26f6679d882f81935a7b14
-    log: revlist-21d88b706dd4-ba756a5e4580.txt
+  - ref: refs/heads/mm-unstable
+    old: 43fac2258fcae7e36eca62560fdc891f047c1159
+    new: d97b36695de2e8d7640a37195906e1282b132663
+    log: revlist-43fac2258fca-d97b36695de2.txt
 
---===============8844278819056167620==
+--===============9105176711556765247==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-21d88b706dd4-ba756a5e4580.txt
+Content-Disposition: attachment; filename=revlist-43fac2258fca-d97b36695de2.txt
 
 6c60046f069deff5a136eed956e5a3a78a02015b mm: describe @flags parameter in memalloc_flags_save()
 4a37e85324273017c1275408ac137bdece2c5358 textsearch: describe @list member in ts_ops search
@@ -263,30 +263,5 @@ bb7da3fcdf5b3e42d8b47228a6b113578bc749d0 memcg: introduce private id API for in-
 763fd13debc93768d495f961687d6a421ed0ebec memcg: remove unused mem_cgroup_id() and mem_cgroup_from_id()
 f972a065e79b3afab6b8d098d6f9fd595ffa910c memcg: rename mem_cgroup_ino() to mem_cgroup_id()
 d97b36695de2e8d7640a37195906e1282b132663 vmalloc: export vrealloc_node_align_noprof
-f816aa9df65d384eea48da765e76bad3526c4047 tsacct: skip all kernel threads
-309e1584c45bcc8783c4bb969a41971f50bb2d6e lib: introduce hierarchical per-cpu counters
-22ba00583858f474ebade9f42515223d3776b03d mm: fix OOM killer inaccuracy on large many-core systems
-3a99f59d62b3178903ead7262624319236e6310a mm: implement precise OOM killer task selection
-0f4666e9c25b3b3f480e22fce9ddbde4a01a8f4d selftests/mm: add memory failure anonymous page test
-f5468090bbe6bcdb6190407c3c81689b8159f959 selftests/mm: add memory failure clean pagecache test
-5063409920520a7f568ffdac302316b07091fdb1 selftests/mm: add memory failure dirty pagecache test
-8fbf3216641ce1f11fe2de90d20a79884141af86 selftests/mm: default KDIR to build directory
-a335134ccb9fa8b93c11fa6daa054372f7d3d216 selftests/mm: remove flaky header check
-d1a2fef4924b9519d32266bb37a6cbcaf8f10e13 selftests/mm: pass down full CC and CFLAGS to check_config.sh
-7b505f61b740ee384a9c3b42a2413fdb1a659fa9 selftests/mm: fix usage of FORCE_READ() in cow tests
-22dd4e81a4ecab0933dc14721bcd1186db07571c selftests/mm: introduce helper to read every page in range
-5f89568c49d0b46c297d4b949c5649c6f4e5ed43 selftests/mm: fix faulting-in code in pagemap_ioctl test
-b57f5038cf0384a9a35b202d3917ee4ee55a7802 selftests/mm: fix exit code in pagemap_ioctl
-156c76ad1b5f3f495596381a0e39e0ded0f00e75 selftests/mm: report SKIP in pfnmap if a check fails
-32ddad925ed0c0c78db5b01c23982ca0037e9557 zsmalloc: use actual object size to detect spans
-04e26cc179dccfe9e7fc0fe16451b146d7ea1264 zsmalloc: simplify read begin/end logic
-c68e79bbb9770df69a44c392e4c824500167fd59 mm/damon/paddr: initialize 'folio' variables to NULL for clarity
-8399cb0bd82ed0a3c5324bea89a5644695a5eee1 mm: numa_memblks: identify the accurate NUMA ID of CFMW
-059c4bb2dc3b93d8ec0a609d24a0ef8879827e42 mm/vmscan: fix demotion targets checks in reclaim/demotion
-d92027a5f30a6c5c582169114b1e56d6536ca8f8 mm/vmscan: select the closest preferred node in demote_folio_list()
-c390796d93f10af12a14b407c1d81540e1d543d6 mm: memory-tiers, numa_emu: enable to create memory tiers using fake numa nodes
-60b5efa22018b4e5d33d0efdb9aafb303284e29e mm-memory-tiers-numa_emu-enable-to-create-memory-tiers-using-fake-numa-nodes-fix
-17d005b9ac7120d4c9c9586587c00d74fa92c229 mm: numa_emu: add document for NUMA emulation
-ba756a5e4580859e0b26f6679d882f81935a7b14 mm/vmscan: don't demote if there is not enough free memory in the lower memory tier
 
---===============8844278819056167620==--
+--===============9105176711556765247==--
