@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2696881565074223898=="
+Content-Type: multipart/mixed; boundary="===============2650292558022125581=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/linkinjeon/exfat
-Date: Fri, 09 Jan 2026 11:26:25 -0000
-Message-Id: <176795798560.3160929.4055133647839442035@gitolite.kernel.org>
+Date: Fri, 09 Jan 2026 11:27:41 -0000
+Message-Id: <176795806153.3161529.1052179883368749309@gitolite.kernel.org>
 
---===============2696881565074223898==
+--===============2650292558022125581==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,19 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/linkinjeon/exfat
 user: linkinjeon
 changes:
-  - ref: refs/heads/master
-    old: 416f99c3b16f582a3fc6d64a1f77f39d94b76de5
-    new: 623fb9912f6af600cda3b6bd166ac738c1115ef4
-    log: revlist-416f99c3b16f-623fb9912f6a.txt
+  - ref: refs/heads/dev
+    old: f5a5c9b4049047cdf4b5fff5e487974826116c57
+    new: 5a3975b40a02a89ee28b87ae5c998894c0f58d91
+    log: revlist-f5a5c9b40490-5a3975b40a02.txt
 
---===============2696881565074223898==
+--===============2650292558022125581==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-416f99c3b16f-623fb9912f6a.txt
+Content-Disposition: attachment; filename=revlist-f5a5c9b40490-5a3975b40a02.txt
 
-dafdba0964bd10913fbaa5537201cbbe05df5b9c mm/damon/tests/core-kunit: avoid damos_test_commit stack warning
-c752c21c90b808a059ae8e0070ff7566a65f8577 Merge tag 'auto-type-conversion-for-v6.19-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/hpa/linux-auto
 12eef14bcbac77bd08dc5693ad5818e69993246f lockref: add a __cond_lock annotation for lockref_put_or_lock
 7a3984bbd69055898add0fe22445f99435f33450 Merge tag 'mips_6.19' of git://git.kernel.org/pub/scm/linux/kernel/git/mips/linux
 9f20d9bad51635973fb1117544033bb03c4c3224 Merge tag 'pm-6.19-rc1-2' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
@@ -1050,5 +1048,7 @@ c92510f5e3f82ba11c95991824a41e59a9c5ed81 arp: do not assume dev_hard_header() do
 f2a3b12b305c7bb72467b2a56d19a4587b6007f9 Merge tag 'net-6.19-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 5572ad8fddecd4a0db19801262072ff5916b7589 Merge tag 'trace-v6.19-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
 623fb9912f6af600cda3b6bd166ac738c1115ef4 Merge tag 'pinctrl-v6.19-2' of git://git.kernel.org/pub/scm/linux/kernel/git/linusw/linux-pinctrl
+3c1e0d58f391157832972ede1cbf303c1e9069f6 exfat: improve error code handling in exfat_find_empty_entry()
+5a3975b40a02a89ee28b87ae5c998894c0f58d91 exfat: reduce unnecessary writes during mmap write
 
---===============2696881565074223898==--
+--===============2650292558022125581==--
