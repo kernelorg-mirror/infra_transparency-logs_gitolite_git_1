@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs
-Date: Sat, 10 Jan 2026 06:49:13 -0000
-Message-Id: <176802775372.4090715.10581493783872201987@gitolite.kernel.org>
+Date: Sat, 10 Jan 2026 06:51:15 -0000
+Message-Id: <176802787564.4093979.3942628305583324057@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,9 +12,8 @@ repo: pub/scm/linux/kernel/git/xiang/erofs
 user: xiang
 changes:
   - ref: refs/heads/dev-test
-    old: 072a7c7cdbea4f91df854ee2bb216256cd619f2a
-    new: ce36a401241df950b258ea3bcc52f558e378349f
+    old: ce36a401241df950b258ea3bcc52f558e378349f
+    new: 1c4b2b0cdd24d5e6dcfa3ca6aa975b29575619d0
     log: |
-         f8b71040424d94d4896edc565c07ded2b33ca0d4 Revert "erofs: don't bother with s_stack_depth increasing for now"
-         ce36a401241df950b258ea3bcc52f558e378349f erofs: don't bother with s_stack_depth increasing for now
+         1c4b2b0cdd24d5e6dcfa3ca6aa975b29575619d0 erofs: don't bother with s_stack_depth increasing for now [real fix]
          
