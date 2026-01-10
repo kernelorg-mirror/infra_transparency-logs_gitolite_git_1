@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8429239365353521335=="
+Content-Type: multipart/mixed; boundary="===============5342055761336594830=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-Date: Sat, 10 Jan 2026 11:12:01 -0000
-Message-Id: <176804352169.100471.8035769162454079767@gitolite.kernel.org>
+Date: Sat, 10 Jan 2026 11:20:05 -0000
+Message-Id: <176804400525.107529.15022039198394164825@gitolite.kernel.org>
 
---===============8429239365353521335==
+--===============5342055761336594830==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,35 +16,31 @@ repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
 user: ij
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/fixes
-    old: c6703f10c8cc36f53b867bdbdd5bacaaa47ce799
-    new: c92724b40c2f36ca0f2a789cf8cb80dd51107f25
+  - ref: refs/heads/review-ilpo-next
+    old: 7b0a51955b0eadacd44350b6f13bf21ba675aed9
+    new: c4a069095395ecd1e936f488511dfd9016b9c479
     log: |
-         f5fc40734b0fcd356eabb8ab5abd57b80c286da6 platform/x86: asus-armoury: add support for GA403WM
-         487764a514e97e3b921c4eb13ab35920e09f6b7d asus-armoury: fix ppt data for GA403U* renaming to GA403UI
-         a54e9902e7edf74d0f305fb9107d15daa6549c2c platform/x86: asus-armoury: add support for GA403UV
-         efbc288d15ca85fecbe6c19d1e55249138d68ca9 docs: alienware-wmi: fix typo
-         c92724b40c2f36ca0f2a789cf8cb80dd51107f25 docs: fix PPR for AMD EPYC broken link
+         c4a069095395ecd1e936f488511dfd9016b9c479 platform/surface: aggregator_registry: Add Surface Pro 11 (QCOM)
          
 
---===============8429239365353521335==
+--===============5342055761336594830==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1768043518 +0200
+pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1768044002 +0200
 pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86.git
-nonce 1768043515-504b60d7afebf3a353f194325158f0c08ac7fe59
+nonce 1768044001-896cb1a3906e66aba89324fb3993194371eebcbd
 
-c6703f10c8cc36f53b867bdbdd5bacaaa47ce799 c92724b40c2f36ca0f2a789cf8cb80dd51107f25 refs/heads/fixes
+7b0a51955b0eadacd44350b6f13bf21ba675aed9 c4a069095395ecd1e936f488511dfd9016b9c479 refs/heads/review-ilpo-next
 -----BEGIN PGP SIGNATURE-----
 
-iHUEABYIAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCaWI0AQAKCRBZrE9hU+XO
-MRY/AP9XOub07e4kXDwqr5vWuGbNLCX8OKAeMV34C2u7aDvRtgD+I2s0EoYn1H2L
-N7Ui5Dsi56pxYIYTGOrEJWKTEfyFFQA=
-=jDZv
+iHUEABYIAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCaWI15AAKCRBZrE9hU+XO
+MUE/AP4jBm2AwUMYm1ePrLkexQ7sSC8xKVkir0LGWLRakID78QEA9IwSJgQyfZjH
+iMcZR8wSKn7006Z9+hYj/UruRZ2sDAs=
+=hmAw
 -----END PGP SIGNATURE-----
 
---===============8429239365353521335==--
+--===============5342055761336594830==--
