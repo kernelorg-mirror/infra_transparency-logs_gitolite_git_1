@@ -1,79 +1,75 @@
-Content-Type: multipart/mixed; boundary="===============0199908833981888458=="
+Content-Type: multipart/mixed; boundary="===============5374339902975890028=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/at91/linux
-Date: Sat, 10 Jan 2026 21:04:17 -0000
-Message-Id: <176807905775.548961.9981099757503589897@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
+Date: Sat, 10 Jan 2026 21:21:57 -0000
+Message-Id: <176808011739.564227.8929037999764462165@gitolite.kernel.org>
 
---===============0199908833981888458==
+--===============5374339902975890028==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/at91/linux
-user: claudiu.beznea
+repo: pub/scm/linux/kernel/git/sj/linux
+user: sj
 changes:
-  - ref: refs/heads/at91-dt
-    old: 8f0b4cce4481fb22653697cced8d0d04027cb1e8
-    new: a8e30c9d856ddebad75abaec55c019a7a85b16da
-    log: |
-         c76e026616b65e21e115351b1623cae732008c0d ARM: dts: microchip: sama7d65: add dma properties to usart6
-         a395da9920b246d8d84dec09c7d6a7b52580ab27 ARM: dts: microchip: sama7d65: add fifo-size to usart
-         d08fc1f551b51816c8d9c4c4a1b8d1cc1e6c0806 ARM: dts: microchip: sama7d65: add missing flexcom nodes
-         d9802af199ad4e9a498879e4cb73763bddd4ae76 dt-bindings: arm: at91: add lan966 pcb8385 board
-         a8e30c9d856ddebad75abaec55c019a7a85b16da ARM: dts: Add support for pcb8385
-         
-  - ref: refs/heads/at91-fixes
-    old: 8f0b4cce4481fb22653697cced8d0d04027cb1e8
-    new: 94ad504e67cd3be94fa1b2fed0cb87da0d8f9396
-    log: |
-         d1a6f1259b0bb415107e83f6403a2ecb945d042f ARM: dts: microchip: lan966x: Fix the access to the PHYs for pcb8290
-         aabc977aa472ccf756372ae594d890022c19c9c8 ARM: dts: microchip: sama7d65: fix the ranges property for flx9
-         94ad504e67cd3be94fa1b2fed0cb87da0d8f9396 ARM: dts: microchip: sama7d65: fix size-cells property for i2c3
-         
-  - ref: refs/heads/at91-next
-    old: 8f0b4cce4481fb22653697cced8d0d04027cb1e8
-    new: bcd7f6786d6ea2617bf4d063b969f8c714380586
-    log: revlist-8f0b4cce4481-bcd7f6786d6e.txt
-  - ref: refs/heads/at91-soc
-    old: 8f0b4cce4481fb22653697cced8d0d04027cb1e8
-    new: 0b0f7e6539a7507689445f8a0cace17305272bfe
-    log: |
-         ef45b853ed8c3a904eaeeccea02b8c2c49891955 ARM: at91: Move PM init functions to .init_late hook
-         0b0f7e6539a7507689445f8a0cace17305272bfe ARM: at91: remove unnecessary of_platform_default_populate calls
-         
-  - ref: refs/heads/clk-microchip
-    old: 8f0b4cce4481fb22653697cced8d0d04027cb1e8
-    new: 69ccb0f338ea00732d51c164ccfcfdb703bf3839
-    log: |
-         d93faac66dc04650d924f8f9584216d14f48fb14 clk: microchip: core: remove duplicate determine_rate on pic32_sclk_ops
-         5df96d141cccb37f0c3112a22fc1112ea48e9246 clk: microchip: core: correct return value on *_get_parent()
-         69ccb0f338ea00732d51c164ccfcfdb703bf3839 clk: microchip: core: remove unused include asm/traps.h
-         
+  - ref: refs/heads/damon/next
+    old: e9d8cf7019e60cb0b81cb07cd350caa4f16bc79f
+    new: 49974cd81d0679af7143aedd00f1e1ff50564fa6
+    log: revlist-e9d8cf7019e6-49974cd81d06.txt
 
---===============0199908833981888458==
+--===============5374339902975890028==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8f0b4cce4481-bcd7f6786d6e.txt
+Content-Disposition: attachment; filename=revlist-e9d8cf7019e6-49974cd81d06.txt
 
-d1a6f1259b0bb415107e83f6403a2ecb945d042f ARM: dts: microchip: lan966x: Fix the access to the PHYs for pcb8290
-aabc977aa472ccf756372ae594d890022c19c9c8 ARM: dts: microchip: sama7d65: fix the ranges property for flx9
-94ad504e67cd3be94fa1b2fed0cb87da0d8f9396 ARM: dts: microchip: sama7d65: fix size-cells property for i2c3
-c76e026616b65e21e115351b1623cae732008c0d ARM: dts: microchip: sama7d65: add dma properties to usart6
-a395da9920b246d8d84dec09c7d6a7b52580ab27 ARM: dts: microchip: sama7d65: add fifo-size to usart
-d08fc1f551b51816c8d9c4c4a1b8d1cc1e6c0806 ARM: dts: microchip: sama7d65: add missing flexcom nodes
-d9802af199ad4e9a498879e4cb73763bddd4ae76 dt-bindings: arm: at91: add lan966 pcb8385 board
-a8e30c9d856ddebad75abaec55c019a7a85b16da ARM: dts: Add support for pcb8385
-d93faac66dc04650d924f8f9584216d14f48fb14 clk: microchip: core: remove duplicate determine_rate on pic32_sclk_ops
-ef45b853ed8c3a904eaeeccea02b8c2c49891955 ARM: at91: Move PM init functions to .init_late hook
-0b0f7e6539a7507689445f8a0cace17305272bfe ARM: at91: remove unnecessary of_platform_default_populate calls
-5df96d141cccb37f0c3112a22fc1112ea48e9246 clk: microchip: core: correct return value on *_get_parent()
-69ccb0f338ea00732d51c164ccfcfdb703bf3839 clk: microchip: core: remove unused include asm/traps.h
-2c3f8669e2ea19c22df2a303ed8425e2bed49e2b Merge branch 'at91-dt' into at91-next
-124ae2e001703ec098940d66c8a6e4c187a31912 Merge branch 'at91-soc' into at91-next
-bcd7f6786d6ea2617bf4d063b969f8c714380586 Merge branch 'clk-microchip' into at91-next
+344d5b8b638bb67059ca5dab398140022f30dc96 selftests/damon: test for up to 160 MiB wss
+b8fdab942177c87f45a1857820eb9cf49a1a369c selftests/damon/access_memory: add repeat mode
+0960c47dec2ad65221dd5f9a94c6440a999513f7 selftests/damon/wss_estimation: ensure number of collected wss
+07be8a111b6147084c8f45925e3a67e8657c9e3f ==== docs fixups ====
+b4ab495202ecbbafd4beb783155fdbab0be179ad Docs: submitting-patches: suggest adding previous version links
+975b6c01ef0008ed3db8e4d7ef8b6b340eaad21b Docs/admin-guide/mm/damon/usage: clarify stats update process
+e49aa933c825ecfc20775ee776a40857643bd11f Docs/mm/damon/index: simplify the intro
+ef80d70d5fc6a40cb042fc55fcca8b587854e234 Docs/mm/damon/design: add reference to DAMON_STAT usage
+a0bf3cfb747916b367e2296d6837c375034a1584 Docs/admin-guide/mm/damon/usage: suggest use of DAMON modules
+43db3d83d9464d36732f36cc417f89321c391a6b Docs/mm/damon/design: document DAMON sample modules
+30249a9e06321f4a397111c7593ef7aa9d35a733 Docs/mm/damon/maintainer-profile: fix wrong MAITNAINERS section name
+36ca082148bf706724272e3aaa833746843809cf Docs/mm/damon/maintainer-profile: do not suggest running performance DAMON tests
+6e94642d55b87fe7904882361ce5edf41300855a ==== kdamond cleanup fixups ====
+ff1eb9a7e9f5ab29f53a3b50f2c5341800c82c43 mm/damon/core: cleanup targets right after kdamond_fn() main loop
+6b12a06f97d925b5fa23547bfe99255c8e9d281f mm/damon/core: cancel damos_walk() before ctx->kdamond reset
+cc5d9a430eeb2d20f52c518fd31fbc8c8666f8f7 ==== hide kdamond and kdamond_lock ====
+4f6a10fa5cd377e3b8c5889586bd858b5e952c46 mm/damon/core: implement damon_kdamond_pid()
+6cdd42e077613a27c7b48690f61924108a5bc1ff mm/damon/sysfs: use damon_kdamond_pid()
+93872caaff85d15a79458ac7a1d15108c1a8b4c2 mm/damon: remove damon_operations->cleanup()
+237ccb791b0def4592dada903434a38f39ece82e mm/damon/lru_sort: use damon_kdamond_pid()
+950b466f8a5957f0a866f98a0e88184884546c61 mm/damon/reclaim: use damon_kdamond_pid()
+8ed7ff865edf1bd06de3d5cc3a2b6fd515c2a602 mm/damon: hide kdamond and kdamond_lock of damon_ctx
+43c36a25075564686fa0ec13394f539ff06a26cf ==== damon_call() cleanup ====
+bde6fb50fab9bf871fcccd89f85cddbbca847c8b mm/damon/core: make kdamond handles damon_call_controls on local list
+c93b50bf0d3c02c34a253d23426acf0b408adcd4 mm/damon: document damon_call_control->dealloc_on_cancel repeat behavior
+741f77ac11ea15d02e03c86a2a8a97d9a3f76497 ==== rename DAMON_MIN_REGION to DAMON_MIN_REGION_SZ ====
+21482c82d151a8cd8141c7649025b22ed20d0861 mm/damon: rename DAMON_MIN_REGION to DAMON_MIN_REGION_SZ
+487bad3ee08ca6925667c06280e330a60bdb09ad mm/damon: rename min_sz_region of damon_ctx to min_region_sz
+e9e0a634ba851aef0391e2dc5bed3dd97fd93535 ==== config_damon_hardened ====
+778344f9927c70caa7748c59f328159275b899da mm/damon: add CONFIG_DAMON_HARDENED
+e84921dad7d10a14690dc3177c556ea7e524b24c mm/damon/core: add damon_new_region() hardening
+4533eaf60b304a65def4961135cfa7ae701a93c4 mm/damon/core: add damon_nr_regions() hardening
+0259d3b8656da05422f81548bc3be8812e172f40 mm/damon/core: add damon_reset_aggregated() hardening
+7d70d73da291dab2e19cbb023b54e648d693708a mm/damon/core: add damon_merge_two_regions() hardening
+193a2f447b0fb85186d735d080f72423de15410b mm/damon/core: add damon_merge_regions_of() hardening
+e7173f56aa778b78aa0d18ee2dd52901c6578fb3 mm/damon/core: add damon_split_region_at() hardening
+379449368c6c0755ae12e2d3c7483555df8a1923 ==== uncategorized ====
+5891f1c45fcfa0fd44f3f65bce99295d164a2dc8 mm/damon/core: rename damos_filter_out() to damos_core_filter_out()
+76f315b2fdda70c7cdaecd5bba5c20f50355c6c3 mm/damon/core: set score histogram without filters-excluding regions
+d016004b1f1d6ab5567d07a4ec705fdd2356a025 mm/damon/core: add an hacking idea concept interface prototype
+4ccf4179d17c3827875210ba14a25fb8ec510546 mm/damon/core: restrict total_charged_{sz,ns} to avoid overflows
+df6238126eef51b85ae6ac6203a61a51b37f8584 mm/memory: implement functions and data structures for page faults monitoring
+ca5d8ca52014eb93839acbbf99f8fff675c74d4f mm/memory: introduce do_{,huge_pmd_}faults_monitor_page()
+93916f7cdddc28b82efd0d70c70e9d10a85ee366 mm/memory: mark faults_monitor_controls_lock as static
+49974cd81d0679af7143aedd00f1e1ff50564fa6 Docs/admin-guide/mm/damon/usage: mark scheme filters sysfs dir as deprecated
 
---===============0199908833981888458==--
+--===============5374339902975890028==--
