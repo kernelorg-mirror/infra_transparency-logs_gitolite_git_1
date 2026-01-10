@@ -1,32 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/hid/hid
-Date: Sat, 10 Jan 2026 09:17:10 -0000
-Message-Id: <176803663077.12018.7927814598902462668@gitolite.kernel.org>
+Subject: post-receive: pub/scm/libs/ieee1394/hinoko-rs
+Date: Sat, 10 Jan 2026 09:19:29 -0000
+Message-Id: <176803676951.12922.6993756159236024000@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/hid/hid
-user: jikos
+repo: pub/scm/libs/ieee1394/hinoko-rs
+user: takaswie
 changes:
-  - ref: refs/heads/for-6.19/upstream-fixes
-    old: 822bc5b3744b0b2c2c9678aa1d80b2cf04fdfabf
-    new: 3756a272d2cf356d2203da8474d173257f5f8521
+  - ref: refs/heads/main
+    old: a6a2905d2218c0d13ccae055704675f31a447617
+    new: 843af0ec212ea4dcb12585712e04bdf2ad5eb8f7
     log: |
-         3756a272d2cf356d2203da8474d173257f5f8521 HID: hid-pl: handle probe errors
+         103ebd885ef4543a0c1dec46bbd0e76198d9d7eb update gir-files to 0.21.2 release
+         fb49c4a18778d5a91b26007a964b0ae372629c60 update gir to 0.21.3 release
+         0e5c36fa91d5ed14584b86af084100338e5f59d5 hinoko-sys: regenerate FFI crate
+         47316568d9d384617b04d6d96645a0558b6224e1 hinoko: regenerate API crate
+         843af0ec212ea4dcb12585712e04bdf2ad5eb8f7 bump release version to 0.8.0
          
-  - ref: refs/heads/for-6.20/asus
-    old: 1489a34e97efebf583ff08e506ecf9f7d44537d3
-    new: f631011e36b87b173b71c7592b558ad05d791228
-    log: |
-         f631011e36b87b173b71c7592b558ad05d791228 HID: hid-asus: Implement fn lock for Asus ProArt P16
-         
-  - ref: refs/heads/for-next
-    old: 888a71e3b4ff15a0206443ff81541a0d909a6b70
-    new: cd436d1a8e55df6f128aefa9665416ec416f901b
-    log: |
-         f631011e36b87b173b71c7592b558ad05d791228 HID: hid-asus: Implement fn lock for Asus ProArt P16
-         cd436d1a8e55df6f128aefa9665416ec416f901b Merge branch 'for-6.20/asus' into for-next
-         
+  - ref: refs/tags/v0.8.0
+    old: 0000000000000000000000000000000000000000
+    new: fc8486b903a5b6d3cf1ccf45f1977252dc64eb6a
