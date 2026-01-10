@@ -1,21 +1,28 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/docs/man-pages/man-pages
-Date: Sat, 10 Jan 2026 11:47:06 -0000
-Message-Id: <176804562670.126458.893278816133274244@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
+Date: Sat, 10 Jan 2026 12:10:56 -0000
+Message-Id: <176804705611.144756.13709416317442145811@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/docs/man-pages/man-pages
-user: alx
+repo: pub/scm/linux/kernel/git/rafael/linux-pm
+user: rafael
 changes:
-  - ref: refs/heads/std
-    old: 753ac20a01007417aa993e70d290f51840e2f477
-    new: 37f1945c3e4eb7aba03a9572a81196b4af9412a5
+  - ref: refs/heads/acpi-driver
+    old: 757a38c8bc8e0ded9313d1e7cf7f7d16d4681d89
+    new: 0a5382fe98aae2d256fef7aaf44b38d92fbd0a09
     log: |
-         ebed13f17d50f30015fb78bdf261305457b574c5 man/man3type/stat.3type: HISTORY: Split stat from .st_{rdev,blksize,blocks}
-         28b9253cc24fd78334d7a274f8414b29bee4a626 man/man3type/stat.3type: HISTORY: Update first POSIX appearance of .st_{rdev,blksize,blocks}
-         37f1945c3e4eb7aba03a9572a81196b4af9412a5 man/man3type/stat.3type: HISTORY: Specify initial datatypes of .st_{blksize,blocks}
+         98d7173bd96e653e38b5c673b43c95f3ed2c20b5 ACPI: PM: Let acpi_dev_pm_attach() skip devices without ACPI PM
+         0a5382fe98aae2d256fef7aaf44b38d92fbd0a09 ACPI: scan: Use acpi_setup_gpe_for_wake() for buttons
+         
+  - ref: refs/heads/bleeding-edge
+    old: 053e70116d79b4cbe8c0f27955f51c215117018c
+    new: bd5f767a128960227e732b11c6059aaecb102319
+    log: |
+         98d7173bd96e653e38b5c673b43c95f3ed2c20b5 ACPI: PM: Let acpi_dev_pm_attach() skip devices without ACPI PM
+         0a5382fe98aae2d256fef7aaf44b38d92fbd0a09 ACPI: scan: Use acpi_setup_gpe_for_wake() for buttons
+         bd5f767a128960227e732b11c6059aaecb102319 Merge branch 'acpi-driver' into bleeding-edge
          
