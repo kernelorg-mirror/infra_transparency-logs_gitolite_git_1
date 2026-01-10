@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Sat, 10 Jan 2026 01:38:30 -0000
-Message-Id: <176800911005.3847493.549025728600310848@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Sat, 10 Jan 2026 01:38:33 -0000
+Message-Id: <176800911322.3847589.5272904539335901644@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
+repo: pub/scm/linux/kernel/git/netdev/net
 user: kuba
 changes:
   - ref: refs/heads/main
-    old: 68ec2b9fc59e8053f17ee1d1a5b1959c43a19202
-    new: 72dc44679b14dc62a588b1b18a1ae98284329515
+    old: 872ac785e7680dac9ec7f8c5ccd4f667f49d6997
+    new: b25a0b4a2193407aa72a4cd1df66a7ed07dd4f1e
     log: |
-         72dc44679b14dc62a588b1b18a1ae98284329515 dt-bindings: net: rockchip-dwmac: Allow "dma-coherent"
+         b25a0b4a2193407aa72a4cd1df66a7ed07dd4f1e net: bridge: annotate data-races around fdb->{updated,used}
          
