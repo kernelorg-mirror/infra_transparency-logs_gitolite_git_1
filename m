@@ -1,26 +1,30 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/libs/ieee1394/hinoko-rs
-Date: Sat, 10 Jan 2026 09:19:29 -0000
-Message-Id: <176803676951.12922.6993756159236024000@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/hid/hid
+Date: Sat, 10 Jan 2026 09:25:48 -0000
+Message-Id: <176803714852.19809.8946845202263614607@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/libs/ieee1394/hinoko-rs
-user: takaswie
+repo: pub/scm/linux/kernel/git/hid/hid
+user: jikos
 changes:
-  - ref: refs/heads/main
-    old: a6a2905d2218c0d13ccae055704675f31a447617
-    new: 843af0ec212ea4dcb12585712e04bdf2ad5eb8f7
+  - ref: refs/heads/for-6.19/upstream-fixes
+    old: 3756a272d2cf356d2203da8474d173257f5f8521
+    new: 17abd396548035fbd6179ee1a431bd75d49676a7
     log: |
-         103ebd885ef4543a0c1dec46bbd0e76198d9d7eb update gir-files to 0.21.2 release
-         fb49c4a18778d5a91b26007a964b0ae372629c60 update gir to 0.21.3 release
-         0e5c36fa91d5ed14584b86af084100338e5f59d5 hinoko-sys: regenerate FFI crate
-         47316568d9d384617b04d6d96645a0558b6224e1 hinoko: regenerate API crate
-         843af0ec212ea4dcb12585712e04bdf2ad5eb8f7 bump release version to 0.8.0
+         17abd396548035fbd6179ee1a431bd75d49676a7 HID: magicmouse: Do not crash on missing msc->input
          
-  - ref: refs/tags/v0.8.0
+  - ref: refs/heads/for-next
+    old: cd436d1a8e55df6f128aefa9665416ec416f901b
+    new: 046c48d0bbf5aaf061d4ede3ad47f8033293700f
+    log: |
+         3756a272d2cf356d2203da8474d173257f5f8521 HID: hid-pl: handle probe errors
+         17abd396548035fbd6179ee1a431bd75d49676a7 HID: magicmouse: Do not crash on missing msc->input
+         046c48d0bbf5aaf061d4ede3ad47f8033293700f Merge branch 'for-6.19/upstream-fixes' into for-next
+         
+  - ref: refs/heads/for-6.20/sony
     old: 0000000000000000000000000000000000000000
-    new: fc8486b903a5b6d3cf1ccf45f1977252dc64eb6a
+    new: bbf992775faa66d6c94097c2be9a0d254681a419
