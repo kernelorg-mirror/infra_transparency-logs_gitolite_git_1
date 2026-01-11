@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1831828438742679010=="
+Content-Type: multipart/mixed; boundary="===============1927852025453897474=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Sun, 11 Jan 2026 17:43:40 -0000
-Message-Id: <176815342010.1728143.12513311386204190763@gitolite.kernel.org>
+Date: Sun, 11 Jan 2026 17:43:41 -0000
+Message-Id: <176815342166.1728303.14692342522995598081@gitolite.kernel.org>
 
---===============1831828438742679010==
+--===============1927852025453897474==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/mm-new
-    old: ba756a5e4580859e0b26f6679d882f81935a7b14
-    new: ab3d40bdac831c67e130fda12f3011505556500f
-    log: revlist-ba756a5e4580-ab3d40bdac83.txt
+  - ref: refs/heads/mm-unstable
+    old: d97b36695de2e8d7640a37195906e1282b132663
+    new: 4d2d0ad5d6a267cb4473e5f50e1b363e8a9fac3d
+    log: revlist-d97b36695de2-4d2d0ad5d6a2.txt
 
---===============1831828438742679010==
+--===============1927852025453897474==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ba756a5e4580-ab3d40bdac83.txt
+Content-Disposition: attachment; filename=revlist-d97b36695de2-4d2d0ad5d6a2.txt
 
 07223e6d6f4a372145066bb6e8a031deec1eec68 mm: describe @flags parameter in memalloc_flags_save()
 68425bea422b045bcee7725e5e242984cae8cea2 textsearch: describe @list member in ts_ops search
@@ -287,16 +287,5 @@ a701067ed37ca348131eff877b716f28409857e6 mm: numa_memblks: identify the accurate
 9cd53e793c60d72505fd2ff652babce58aaf15df mm/vmscan: select the closest preferred node in demote_folio_list()
 909be107da71386753a08da6ec57e7d89b6f56ee mm/vmscan: fix uninitialized variable in demote_folio_list()
 4d2d0ad5d6a267cb4473e5f50e1b363e8a9fac3d mm/early_ioremap: print the starting physical address in __early_ioremap()
-972861aef0882af27f0ffb29fbc2825e17849347 mm: memory-tiers, numa_emu: enable to create memory tiers using fake numa nodes
-fdf18600f90492ac44422573369a0486eafa030a mm-memory-tiers-numa_emu-enable-to-create-memory-tiers-using-fake-numa-nodes-fix
-bb19125249d8d8820e23403b7e954f3744d6feb7 mm: numa_emu: add document for NUMA emulation
-e9974fb2e6689bc3e1462d85b78ed3c72dbd573b mm/vmscan: don't demote if there is not enough free memory in the lower memory tier
-16ab9d22a0cb1aa9480bc2658c9342426d4c0a83 mm: debug_vm_pgtable: add debug_vm_pgtable_free_huge_page()
-488821df1b8a6c5efe159308f5ad3da3f71a3670 mm: page_alloc: add __split_page()
-bbc21ff47c55851af41a43e9dd29c505b9f07dfc mm: cma: kill cma_pages_valid()
-e40bbcc0256dc1858cf6a4c3abc6b323beeaeb2a mm: page_alloc: add alloc_contig_frozen_{range,pages}()
-b25552bdce693f200ddc1c42f58097f18d526b96 mm: cma: add cma_alloc_frozen{_compound}()
-6c4507a7b4bcb5b59853124fd98f16647b382c98 mm: hugetlb: allocate frozen pages for gigantic allocation
-ab3d40bdac831c67e130fda12f3011505556500f migrate: replace RMP_ flags with TTU_ flags
 
---===============1831828438742679010==--
+--===============1927852025453897474==--
