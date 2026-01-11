@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3802565002359822850=="
+Content-Type: multipart/mixed; boundary="===============4228524454143425932=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Sun, 11 Jan 2026 10:06:11 -0000
-Message-Id: <176812597194.1239068.15921428978266312292@gitolite.kernel.org>
+Date: Sun, 11 Jan 2026 10:06:35 -0000
+Message-Id: <176812599550.1239384.13875197662751905787@gitolite.kernel.org>
 
---===============3802565002359822850==
+--===============4228524454143425932==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,15 +16,46 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: b7dccac786071bba98b0d834c517fd44a22c50f9
-    new: 23e0dc3bb072381d0d75abc785f04627bcc05c20
-    log: revlist-b7dccac78607-23e0dc3bb072.txt
+    old: 23e0dc3bb072381d0d75abc785f04627bcc05c20
+    new: 315f416d3e26b4b1719cebd8d2e91da1539ba421
+    log: revlist-23e0dc3bb072-315f416d3e26.txt
+  - ref: refs/heads/tip/urgent
+    old: c59f237f4c16ef955c101261482aef53e0003728
+    new: c4b76f2f6f1ebca217939d4ea69f0e6800a1368a
+    log: revlist-c59f237f4c16-c4b76f2f6f1e.txt
 
---===============3802565002359822850==
+--===============4228524454143425932==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b7dccac78607-23e0dc3bb072.txt
+Content-Disposition: attachment; filename=revlist-23e0dc3bb072-315f416d3e26.txt
+
+235cec948e1539a549d4bd4bf646a24ebb37e0fb Merge branch into tip/master: 'irq/urgent'
+0264dd241491dc4bb6fa6a0a67ef562c5a42589f Merge branch into tip/master: 'perf/urgent'
+94e498d9a6f9fb2f3ba58bd2357e0759c6f9d0de Merge branch into tip/master: 'sched/urgent'
+c4b76f2f6f1ebca217939d4ea69f0e6800a1368a Merge branch into tip/master: 'x86/urgent'
+f35f49aba5b1ddb4dfcac355ee8ae73ef2192fc4 Merge branch into tip/master: 'irq/core'
+158835e2fdb59aa5f701ff38fc1c9c79e5635e49 Merge branch into tip/master: 'irq/drivers'
+b0d3d19ef2c71467e541670a10066da27c87db9f Merge branch into tip/master: 'irq/msi'
+c9a27a5966da9556d2b9085195fbf7fa14d9ad13 Merge branch into tip/master: 'locking/core'
+86d18003938d9b113970e2b4d62b7b27f64e365d Merge branch into tip/master: 'perf/core'
+8eacc3c8cb2a76f7cf572753ab9975988cf80628 Merge branch into tip/master: 'sched/core'
+d84de582cf891d643a910ecbae46cea2ee09078c Merge branch into tip/master: 'timers/core'
+f219da5ebcf1861f9e221ec8e3fea64d70ca4939 Merge branch into tip/master: 'x86/alternatives'
+585c8d27253eaf635dea5ec932ea239a9115459e Merge branch into tip/master: 'x86/boot'
+79052993702d757d5ebebc6024e0f19cf46c1584 Merge branch into tip/master: 'x86/bugs'
+f77f59c0f7d9095608d78a33264325b9f0fc5049 Merge branch into tip/master: 'x86/cache'
+760bc5efd13421755ea45d64086cbf27ae781f47 Merge branch into tip/master: 'x86/cleanups'
+403193391f52820fb604b03df3f847d61baf2c77 Merge branch into tip/master: 'x86/cpu'
+7991578ee8880040ef2f523a7c6203ba3a63c407 Merge branch into tip/master: 'x86/irq'
+4dc590afcbe13524246bbb83c1f66720c5323ccf Merge branch into tip/master: 'x86/misc'
+315f416d3e26b4b1719cebd8d2e91da1539ba421 Merge branch into tip/master: 'x86/sev'
+
+--===============4228524454143425932==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-c59f237f4c16-c4b76f2f6f1e.txt
 
 05bbe52d0be5637dcd3c880348e3688f7ec64eb7 arm64: dts: ti: k3-am642-phyboard-electra-peb-c-010: Fix icssg-prueth schema warning
 d876bb9353d87dee0ae620300106e8def189c785 arm64: dts: ti: k3-am642-phyboard-electra-x27-gpio1-spi1-uart3: Fix schema warnings
@@ -93,24 +124,12 @@ c1ef9a6cabb34dbc09e31417b0c0a672fe0de13a Revert "drm/atomic-helper: Re-order bri
 33e8150bd32d7dc25c977bb455f1f5d54bfd5241 Revert "drm/mediatek: dsi: Fix DSI host and panel bridge pre-enable order"
 d1c7dc57ff2400b141e6582a8d2dc5170108cf81 drm/atomic-helper: Export and namespace some functions
 2fc04340cf30d7960eed2525d26ffb8905aca02b drm/tidss: Fix enable/disable order
-03eb578b37659e10bed14c2d9e7cc45dfe24123b x86,fs/resctrl: Improve domain type checking
-0d6447623d788806b5504182032a0837ffa2174c x86/resctrl: Move L3 initialization into new helper function
 e8b3627bec357698f2d4d6dbf27cdcfa0e9d8715 nouveau: don't attempt fwsec on sb on newer platforms.
-6396fc5351ea9130a72f6a2fc58eb7298ce6c15a x86/resctrl: Refactor domain_remove_cpu_mon() ready for new domain types
-c1b630573c8ca51a89bd480f7eeaf8754c7609f2 x86/resctrl: Clean up domain_remove_cpu_ctrl()
-97fec06d35b2c1ce6d80cf3b01bfddd82c720a2d x86,fs/resctrl: Refactor domain create/remove using struct rdt_domain_hdr
 c4f2ae53863de2b5d125c3cdc9ff12668868a74a Merge tag 'drm-rust-fixes-2025-12-29' of https://gitlab.freedesktop.org/drm/rust/kernel into drm-fixes
-ad5c2ff75e0c53d2588dfc10eb87458e759b6bbe fs/resctrl: Split L3 dependent parts out of __mon_event_count()
-6b10cf7b6ea857cdf9570e21c077a05803f60575 x86,fs/resctrl: Use struct rdt_domain_hdr when reading counters
-4bc3ef46ff41d5e7ba557e56e9cd2031527cd7f8 x86,fs/resctrl: Rename struct rdt_mon_domain and rdt_hw_mon_domain
-9c214d10c50990c7a61b95887493df9ae713eec5 x86,fs/resctrl: Rename some L3 specific functions
 818156caffbf55cb4d368f9c3cac64e458fb49c9 libceph: prevent potential out-of-bounds reads in handle_auth_done()
 e00c3f71b5cf75681dbd74ee3f982a99cb690c2b libceph: replace overzealous BUG_ON in osdmap_apply_incremental()
 bc417a4baf0badbcb30325cabdaf433d8256c0e3 ceph: update co-maintainers list in MAINTAINERS
 e3fe30e57649c551757a02e1cad073c47e1e075e libceph: make free_choose_arg_map() resilient to partial allocation
-dd110880e80d35ad07e460e7a8da007c8058e7bf fs/resctrl: Make event details accessible to functions when reading events
-ab0308aee3819a3eccde42f9eb5bb01d6733be38 x86,fs/resctrl: Handle events that can be read from any CPU
-e37c9a3dc9f9645532780d5ef34ea3b8fcf9ddef x86,fs/resctrl: Support binary fixed point event counters
 df27c03b9e3ef2baa9e9c9f56a771d463a84489d PCI: meson: Report that link is up while in ASPM L0s and L1 states
 1ca8677d9f3491e51395b0e6b9a2b7a75089dc6f ACPI: PCI: IRQ: Fix INTx GSIs signedness
 7966cf0ebe32c981bfa3db252cb5fc3bb1bf2e77 PM: hibernate: Fix crash when freeing invalid crypto compressor
@@ -176,18 +195,11 @@ f6eac56d6bf2026437b606a69aff903941282f9a Merge tag 'amd-drm-fixes-6.19-2026-01-0
 c2803bd580db226008aabf2fb2f0c9a7d3b5d0de arm_mpam: Stop using uninitialized variables in __ris_msmon_read()
 5fcd5513072b09f6533e22a779183fa2818bce81 arm64: mm: Fix incomplete tag reset in change_memory_common()
 d578b31856cec31315f27b3ba97b212e4c6989b3 gpio: shared: fix a false-positive sharing detection with reset-gpios
-736a2dcfdae72483a36793bc92182f33bd61d30e x86/CPU/AMD: Simplify the spectral chicken fix
 bdf3f4176092df5281877cacf42f843063b4784d arm64: Fix cleared E0POE bit after cpu_suspend()/resume()
 2bdf777410dc6e022d1081885ff34673b5dfee99 sched/mm_cid: Prevent NULL mm dereference in sched_mm_cid_after_execve()
 f0d385f6689f37a2828c686fb279121df006b4cb ublk: fix use-after-free in ublk_partition_scan_work
 1690eeb0cb2bb77096cb6c826b6849ef05013e34 irqchip/gic-v5: Fix gicv5_its_map_event() ITTE read endianness
 a33d16dc874a9512c02b1f1a3e08c26a82b4be5e Revert "irqchip/riscv-imsic: Embed the vector array in lpriv"
-39208e73a40e0e81a5b12ddc11157c0a414df307 x86,fs/resctrl: Add an architectural hook called for first mount
-2e53ad66686a46b141c3395719afeee3057ffe2f x86,fs/resctrl: Add and initialize a resource for package scope monitoring
-db64994d115e7c2cd72fec11b854467e97169379 fs/resctrl: Emphasize that L3 monitoring resource is required for summing domains
-1fb2daa60de640efb13f907d43d72d28763f696c x86/resctrl: Discover hardware telemetry events
-8f6b6ad69b50bf16bb762ffafbfa44a4884f9a17 x86,fs/resctrl: Fill in details of events for performance and energy GUIDs
-8ccb1f8fa6a3dfde32cf33e7ded3558014e6cca2 x86,fs/resctrl: Add architectural event pointer
 77d4c5da97ceb5f9bf9993a36b5fb453616412e8 Merge tag 'v6.19-p3' of git://git.kernel.org/pub/scm/linux/kernel/git/herbert/crypto-2.6
 2bfe3e0da6e619dbf6157dfad896307ab6b9a58a Merge tag 'vfs-6.19-rc5.fixes' of gitolite.kernel.org:pub/scm/linux/kernel/git/vfs/vfs
 cbd4480cfac54dd4e9f7fb9ac2e0226ea38fecbb Merge tag 'drm-fixes-2026-01-09' of https://gitlab.freedesktop.org/drm/kernel
@@ -196,12 +208,6 @@ a81668db9e2c46d7274fe00892f943ed68f86481 Merge tag 'gpio-fixes-for-v6.19-rc5' of
 553410fcb95e3acf1a4ac7c08c5b30407f5f30b6 Merge tag 'acpi-6.19-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
 4d6fe1dd12a77c7774a3210f8450bdad2f84d879 Merge tag 'pci-v6.19-fixes-2' of git://git.kernel.org/pub/scm/linux/kernel/git/pci/pci
 372800cb95a35a7c40a07e2e0f7de4ce6786d230 Merge tag 'for-6.19-rc4-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
-7e6df9614546ae7eb1f1b2074d7b6039bb01540d x86/resctrl: Find and enable usable telemetry events
-51541f6ca7718d8278e12fe80af80033268743b2 x86/resctrl: Read telemetry events
-0ec1db4cac8239bb32da87586c3638200b65dd8c fs/resctrl: Refactor mkdir_mondata_subdir()
-93d9fd89995181d7ff420752328cc8b4b228f100 fs/resctrl: Refactor rmdir_mondata_subdir_allrdtgrp()
-f4e0cd80d3e7c31327459008b01d63804838a89d x86,fs/resctrl: Handle domain creation/deletion for RDT_RESOURCE_PERF_PKG
-842e7f97d71a4116a650ec0045d6444b4377b512 x86/resctrl: Add energy/perf choices to rdt boot option
 6e39903c73df08b256322d04c4dfe4a82ec63a45 selftests/tracing: Fix test_multiple_writes stall
 4621c338d33f2e49c55d317fa5b1fbc0ae1cccb7 Merge tag 'ceph-for-6.19-rc5' of https://github.com/ceph/ceph-client
 e55feea3a03aa1eaf5abb22cc854208813865e04 Merge tag 'soc-fixes-6.19' of git://git.kernel.org/pub/scm/linux/kernel/git/soc/soc
@@ -214,21 +220,14 @@ cefd81e76a8c0dc4aa2bacd884acca44e7b61e5b iommupt: Fix the kunit building
 faa37ff3bf18d5242fe3d54f5462b1c3254c2567 iommufd/selftest: Add missing kconfig for DMA_SHARED_BUFFER
 7adfd682745a41fdf0279e4457d11fffab145a8f iommufd/selftest: Prevent module/builtin conflicts in kconfig
 6a3d5fda2ce464a80a9af9e358dfbab6a989ab5d iommupt: Make pt_feature() always_inline
-67640e333b983298be624a41c43e3a8ed4713a73 x86/resctrl: Handle number of RMIDs supported by RDT_RESOURCE_PERF_PKG
-ee7f6af79f0916b6c49e15edd4cba020b3e4c4ac fs/resctrl: Move allocation/free of closid_num_dirty_rmid[]
-0ecc988b0232259cbdb2b7e452bda74f550f0911 x86,fs/resctrl: Compute number of RMIDs as minimum across resources
-d0891647fbc6e931f27517364cbc4ee1811d76db fs/resctrl: Move RMID initialization to first mount
-4bbfc90122e974ccbd9aa80c964413052b9519f3 x86/resctrl: Enable RDT_RESOURCE_PERF_PKG
 7893cc12251f6f19e7689a4cf3ba803bddbd8437 erofs: fix file-backed mounts no longer working on EROFS partitions
 97313d6113ab4362ad15076f65560e65288fbcb8 Merge tag 'iommu-fixes-v6.19-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/iommu/linux
-a8848c4b43ad00c8a18db080206e3ffa53a08b91 x86,fs/resctrl: Update documentation for telemetry events
 b061fcffe336f1f1d1afe6a904f36962378c4026 Merge tag 'linux_kselftest-fixes-6.19-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/shuah/linux-kselftest
 0fa27899e0147fe180b603bda30930e8c145dd47 Merge tag 'driver-core-6.19-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/driver-core/driver-core
 755bc1335e3b116b702205b72eb57b7b8aef2bb2 Merge tag 'riscv-for-linus-6.19-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/riscv/linux
-c1ec7c22696ee7ccb6a3c32a519fcfac077796f8 Merge branch into tip/master: 'irq/urgent'
-f4e8ee712205914db6fe7343030fbbebd6f0603f Merge branch into tip/master: 'sched/urgent'
-ad9917efcae314b29370e4d41320c6be9e967262 Merge branch into tip/master: 'x86/cache'
-6191ed92d1f0bdf0ade63e2c49c1d572dbfc03d2 Merge branch into tip/master: 'x86/cleanups'
-23e0dc3bb072381d0d75abc785f04627bcc05c20 Merge branch 'linus'
+235cec948e1539a549d4bd4bf646a24ebb37e0fb Merge branch into tip/master: 'irq/urgent'
+0264dd241491dc4bb6fa6a0a67ef562c5a42589f Merge branch into tip/master: 'perf/urgent'
+94e498d9a6f9fb2f3ba58bd2357e0759c6f9d0de Merge branch into tip/master: 'sched/urgent'
+c4b76f2f6f1ebca217939d4ea69f0e6800a1368a Merge branch into tip/master: 'x86/urgent'
 
---===============3802565002359822850==--
+--===============4228524454143425932==--
