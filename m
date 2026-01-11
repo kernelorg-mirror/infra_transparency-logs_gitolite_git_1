@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/liburing
-Date: Sun, 11 Jan 2026 23:45:54 -0000
-Message-Id: <176817515430.2002821.15689936742435126711@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/security/vulns
+Date: Sun, 11 Jan 2026 23:57:32 -0000
+Message-Id: <176817585295.2010549.14514306441714408587@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/liburing
-user: axboe
+repo: pub/scm/linux/security/vulns
+user: sashal
 changes:
   - ref: refs/heads/master
-    old: db10fbf8c4d495d7d36544a6e48ccd18ebe96426
-    new: 57b521936af5fabae9e95b0fa47a5e1501fb6408
+    old: 70bcbca6bac61b1e398f7b61794041db856ffb02
+    new: c40f490e02d6f9c69b859ad3891e932e3f53e214
     log: |
-         c788519640d58a9cd6d64611f6dcb881bf80ca61 man/io_uring_prep_send.3: fix broken links
-         57b521936af5fabae9e95b0fa47a5e1501fb6408 Merge branch 'fix/send_man_pages_link' of https://github.com/espoal/liburing
+         dab1715bb1457f18e8af9b668a81c0053d1706f7 sasha: review v6.18.4
+         c40f490e02d6f9c69b859ad3891e932e3f53e214 sasha: review v6.18.5
          
