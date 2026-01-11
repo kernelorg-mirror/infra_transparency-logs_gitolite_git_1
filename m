@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/deller/palo
-Date: Sun, 11 Jan 2026 18:34:50 -0000
-Message-Id: <176815649000.1767392.17621816865150950042@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/deller/linux-fbdev
+Date: Sun, 11 Jan 2026 19:15:11 -0000
+Message-Id: <176815891168.1800068.6404531271150021735@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/deller/palo
+repo: pub/scm/linux/kernel/git/deller/linux-fbdev
 user: deller
 changes:
-  - ref: refs/tags/v2.29
-    old: 0000000000000000000000000000000000000000
-    new: a4a11d4aa908b376c91e0110a6b330bb460cf458
+  - ref: refs/heads/for-next
+    old: bd710b3da7308cb1ba0811e914694dee23aaa191
+    new: 0000000000000000000000000000000000000000
