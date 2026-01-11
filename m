@@ -1,23 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
-Date: Sun, 11 Jan 2026 13:31:22 -0000
-Message-Id: <176813828297.1395621.5331022912328473569@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
+Date: Sun, 11 Jan 2026 13:33:47 -0000
+Message-Id: <176813842746.1396421.13066668478652091615@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jic23/iio
-user: jic23
+repo: pub/scm/linux/kernel/git/rafael/linux-pm
+user: rafael
 changes:
-  - ref: refs/heads/testing
-    old: c84cde33b00451c7380482d19feef67d04deae7d
-    new: e0bc6d7e258486c10bb11e31fd4421c134063b1d
+  - ref: refs/heads/acpi-driver
+    old: 0a5382fe98aae2d256fef7aaf44b38d92fbd0a09
+    new: 0a77c18fe734ed901bb73dac14b673468e3e9678
     log: |
-         f69b5ac682dbc61e6aca806c22ce2ae74d598e45 iio: bmi270_i2c: Add MODULE_DEVICE_TABLE for BMI260/270
-         b96261d7be11f5a92998f5a5952d625d9f3ca6d6 iio: adc: ti-ads1018: Drop stale kernel-doc function context
-         b8d1936d052cf932b5cb4e44e79e864cbd9e9941 iio: adc: ad7476: Remove duplicate include
-         8b59bcf8d5cacbd0688ccdb87616704c04ae6ee3 dt-bindings: iio: adc: Add AD4134
-         e0bc6d7e258486c10bb11e31fd4421c134063b1d iio: adc: Initial support for AD4134
+         0a77c18fe734ed901bb73dac14b673468e3e9678 ACPI: scan: Clean up after recent changes
          
