@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3015952224005224446=="
+Content-Type: multipart/mixed; boundary="===============4721954780171657650=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Mon, 12 Jan 2026 04:12:50 -0000
-Message-Id: <176819117039.2209547.9645349154923345026@gitolite.kernel.org>
+Date: Mon, 12 Jan 2026 04:13:41 -0000
+Message-Id: <176819122101.2210040.17061962394249873555@gitolite.kernel.org>
 
---===============3015952224005224446==
+--===============4721954780171657650==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/cel/linux
 user: cel
 changes:
-  - ref: refs/heads/nfsd-next
-    old: 2a35c9e471be87b5dd4733c19d6008b340dd9ed4
-    new: 65cabf8ed0f29e3b10a9a37112e0f8a6f56c711e
-    log: revlist-2a35c9e471be-65cabf8ed0f2.txt
+  - ref: refs/heads/nfsd-testing
+    old: b3b15fc0663d2ab54a51c45401d065781fb787ab
+    new: 4286c454e27d3d215ee127f8868e2501a878a11e
+    log: revlist-b3b15fc0663d-4286c454e27d.txt
 
---===============3015952224005224446==
+--===============4721954780171657650==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2a35c9e471be-65cabf8ed0f2.txt
+Content-Disposition: attachment; filename=revlist-b3b15fc0663d-4286c454e27d.txt
 
 05bbe52d0be5637dcd3c880348e3688f7ec64eb7 arm64: dts: ti: k3-am642-phyboard-electra-peb-c-010: Fix icssg-prueth schema warning
 d876bb9353d87dee0ae620300106e8def189c785 arm64: dts: ti: k3-am642-phyboard-electra-x27-gpio1-spi1-uart3: Fix schema warnings
@@ -233,5 +233,38 @@ b6ded08211daed1999be7421ea541920ddf8dee7 nfsd: fix nfs4_file refcount leak in nf
 1357e784cdc4fbd34fcc47e0696b1cf7308f5012 xdrgen: Implement short (16-bit) integer types
 c2b5f480fbd1f8cf17714b0633a2437f64275a1e NFSD: fix setting FMODE_NOCMTIME in nfs4_open_delegation
 65cabf8ed0f29e3b10a9a37112e0f8a6f56c711e xdrgen: Initialize data pointer for zero-length items
+97f4523dc67849237134f588ff43152c3ad4e3c1 xdrgen: Remove inclusion of nlm4.h header
+fbd4d39384f90f66295bbc05ccd36fc11ef29326 xdrgen: Improve parse error reporting
+c1b0160317a85a9e1bfe2db06d134eac9e91a507 nfsd: never defer requests during idmap lookup
+636f833eb30757da28c5a6eb3aa43364e630ccee nfsd: fix return error code for nfsd_map_name_to_[ug]id
+aa026a6c0d5602be251ef973810758ff5f09565b SUNRPC: auth_gss: fix memory leaks in XDR decoding error paths
+703b7f8589148e58bc6051951aeaf5dcc571e7be xdrgen: Extend error reporting to AST transformation phase
+19fb5115c4543decf2de6ab7f5cf1d29e212399a xdrgen: Emit a max_arg_sz macro
+270b34aec32d71c77634308ae3142b626455561e xdrgen: Add enum value validation to generated decoders
+483745b71618f588d2efb8a97c1be3a240aadf64 sunrpc: split svc_set_num_threads() into two functions
+a1f62b738503aa6607da3d5bbb9d9af24a01a0c3 sunrpc: remove special handling of NULL pool from svc_start/stop_kthreads()
+8877e0266cad72d71a739ca3b0222e4597d0580a sunrpc: track the max number of requested threads in a pool
+1597d6526f3575df016ee435a300bc11e60179a9 sunrpc: introduce the concept of a minimum number of threads per pool
+11021038f093f9503c4433b750d72afe1b30fd2a sunrpc: split new thread creation into a separate function
+c6864d9d89b27e26ceba756017a7919ab85c29d7 sunrpc: allow svc_recv() to return -ETIMEDOUT and -EBUSY
+f33f221d7381e859ede85f79a558903020593ba2 nfsd: adjust number of running nfsd threads based on activity
+b7a836bc2b9aeff94d4d81fe8b86ca9a8d1fbe7b nfsd: add controls to set the minimum number of threads per pool
+beaf1998ba50c4940aafaf970447e72a13502ef7 NFSD: Track SCSI Persistent Registration Fencing per Client with xarray
+7dc1e9785b9e2fb80b69c7ecdfab535f6366bd3a nfsd: cancel async COPY operations when admin revokes filesystem state
+42705c4b4ee3c6fe6081d4be3fe8264e8e9ce38d xdrgen: Implement pass-through lines in specifications
+639198522fa89607e0b3f16f3d57ecffa72895f4 NFSD: Add a Kconfig setting to enable support for NFSv4 POSIX ACLs
+6cca301fb2aed23045edc768d937ab63cb7fdb98 Add RPC language definition of NFSv4 POSIX ACL extension
+fa86d2daec3950cbfbdfb7b203567852a2173445 NFSD: Add nfsd4_encode_fattr4_acl_trueform
+30baf559cb6a1dfab8f958a12f4adab3519e6888 NFSD: Add nfsd4_encode_fattr4_acl_trueform_scope
+3b4fa762bcc05aefd7b3bf3921ccb64518a5b818 NFSD: Add nfsd4_encode_fattr4_posix_default_acl
+b4b237cd898eb087edcc44c10edfbb11c3210193 NFSD: Add nfsd4_encode_fattr4_posix_access_acl
+68b2e06f3f17c80fa5008d6b822bb9b1cf31306f NFSD: Do not allow NFSv4 (N)VERIFY to check POSIX ACL attributes
+4eed3fafe31d097ea7b6427bee3e7780adc29a27 NFSD: Refactor nfsd_setattr()'s ACL error reporting
+289c7b4f383d307cd81338b2c23403b902c4af3e NFSD: Add support for XDR decoding POSIX draft ACLs
+e294d5d01ac9d1988e1cf46c5ef8339610a43631 NFSD: Add support for POSIX draft ACLs for file creation
+84d00695b3776c4bfdc30a3238138ae46fa65052 NFSD: Add POSIX draft ACL support to the NFSv4 SETATTR operation
+59258661e3701a54bca52cdf1f90e95430ed9045 NFSD: Add POSIX ACL file attributes to SUPPATTR bitmasks
+8700bde35030f2005a941c101e1e7a7925bec65a [DEBUG] Add instrumentation for nfsd_mutex contention debugging
+4286c454e27d3d215ee127f8868e2501a878a11e siw: Enable try_gso
 
---===============3015952224005224446==--
+--===============4721954780171657650==--
