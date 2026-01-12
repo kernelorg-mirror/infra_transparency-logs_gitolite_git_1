@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0270505243172449255=="
+Content-Type: multipart/mixed; boundary="===============3270765519342988797=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/xen/tip
-Date: Mon, 12 Jan 2026 09:16:00 -0000
-Message-Id: <176820936071.2491967.7540020383813242158@gitolite.kernel.org>
+Date: Mon, 12 Jan 2026 09:16:58 -0000
+Message-Id: <176820941844.2492328.11322033873174720810@gitolite.kernel.org>
 
---===============0270505243172449255==
+--===============3270765519342988797==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,18 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/xen/tip
 user: jgross
 changes:
-  - ref: refs/heads/master
-    old: 6a23ae0a96a600d1d12557add110e0bb6e32730c
+  - ref: refs/heads/for-linus-6.19
+    old: e5aff444e3a7bdeef5ea796a2099fc3c60a070fa
     new: 0f61b1860cc3f52aef9036d7235ed1f017632193
-    log: revlist-6a23ae0a96a6-0f61b1860cc3.txt
+    log: revlist-e5aff444e3a7-0f61b1860cc3.txt
 
---===============0270505243172449255==
+--===============3270765519342988797==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-6a23ae0a96a6-0f61b1860cc3.txt
+Content-Disposition: attachment; filename=revlist-e5aff444e3a7-0f61b1860cc3.txt
 
+b9f0a94c3b2e7deaff93e4c4de335e3054223ff4 selftests: ublk: add support for user copy to kublk
 63276182c51332b75293ac88f3a81d98bfca1b93 selftests: ublk: add user copy test cases
 9869d3a6fed381f3b98404e26e1afc75d680cbf9 block: fix race between wbt_enable_default and IO submission
 41b80d43d9a00a302b5559baa7ebafc28dd54793 i3c: master: cleanup callback .priv_xfers()
@@ -158,7 +159,6 @@ f371d2afd5453f9ab9a690700bfdaa70fe1e7c2b MAINTAINERS: Update Nova GPU driver git
 b80fab281349f107a07e841eb412a86e2877ae88 iommufd/selftest: Do not leak the hwpt if IOMMU_TEST_OP_MD_CHECK_MAP fails
 ba624ba88d9f5c3e2ace9bb6697dbeb05b2dbc44 ata: libata-core: Disable LPM on ST2000DM008-2FR102
 e1b4c6a58304fd490124cc2b454d80edc786665c shmem: fix recovery on rename failures
-e5aff444e3a7bdeef5ea796a2099fc3c60a070fa x86/xen: Fix sparse warning in enlighten_pv.c
 6b63f90fa2afaa901e7edc9403014e46f0da1c69 Merge tag 'cgroup-for-6.19-rc1-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/tj/cgroup
 dbf89321bf1eb0cd3115662c4fbd569abf92ef9c Merge tag 'sched_ext-for-6.19-rc1-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/tj/sched_ext
 115fada16b5a9a5ee371ad656e56419fe0e63cfc Merge tag 'for-6.19-rc1-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
@@ -1051,4 +1051,4 @@ fac4bdbacab5a9abe7e017069c640273c2a704e2 Merge tag 'sched-urgent-2026-01-11' of 
 7143203341dccbca809ba0a8e72239ea4652ace6 Merge tag 'libcrypto-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/ebiggers/linux
 0f61b1860cc3f52aef9036d7235ed1f017632193 Linux 6.19-rc5
 
---===============0270505243172449255==--
+--===============3270765519342988797==--
