@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/chao/linux
-Date: Mon, 12 Jan 2026 08:03:57 -0000
-Message-Id: <176820503734.2436651.16448121119298783954@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/iwlwifi/iwlwifi-next
+Date: Mon, 12 Jan 2026 08:04:33 -0000
+Message-Id: <176820507303.2436993.2386272405760697316@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/chao/linux
-user: chao
+repo: pub/scm/linux/kernel/git/iwlwifi/iwlwifi-next
+user: mkorenbl
 changes:
-  - ref: refs/heads/bugfix/common
-    old: b798c9c9b8ed020d4d4014d7e76f1ec83eed0394
-    new: 6c4a09a4defe0179d40eb401512d541b5f89f50c
+  - ref: refs/heads/nan
+    old: ef17da8fe0ae228176b066e096126a5ea77fe979
+    new: ebabf3d288b2b1d0a48eb6fa58ac695bdcc9a3aa
     log: |
-         6c4a09a4defe0179d40eb401512d541b5f89f50c f2fs: use killable function to be aware of SIGKILL
+         bfb7c7712435064d442b2f895a0f660145824a72 wifi: mac80211_hwsim: enable NAN_DATA interface simulation support
+         ebabf3d288b2b1d0a48eb6fa58ac695bdcc9a3aa wifi: mac80211: accept protected frames for NAN device
          
