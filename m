@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0192360950909837552=="
+Content-Type: multipart/mixed; boundary="===============2847138692600919347=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Mon, 12 Jan 2026 21:24:39 -0000
-Message-Id: <176825307989.3130307.1436974759969532961@gitolite.kernel.org>
+Date: Mon, 12 Jan 2026 21:24:42 -0000
+Message-Id: <176825308226.3130494.1909844753515203287@gitolite.kernel.org>
 
---===============0192360950909837552==
+--===============2847138692600919347==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/40GbE
+  - ref: refs/heads/100GbE
     old: 872ac785e7680dac9ec7f8c5ccd4f667f49d6997
     new: f93fc5d12d69012788f82151bee55fce937e1432
     log: revlist-872ac785e768-f93fc5d12d69.txt
 
---===============0192360950909837552==
+--===============2847138692600919347==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -49,4 +49,4 @@ c8a49a2f9117f4a7c574cbb709dc92a2b602ec00 Merge tag 'for-net-2026-01-09' of git:/
 16ce6e6fa946ca6fd1e4fce6926b52b6263d98a8 Merge branch 'mlx5e-profile-change-fix'
 f93fc5d12d69012788f82151bee55fce937e1432 net: octeon_ep_vf: fix free_irq dev_id mismatch in IRQ rollback
 
---===============0192360950909837552==--
+--===============2847138692600919347==--
