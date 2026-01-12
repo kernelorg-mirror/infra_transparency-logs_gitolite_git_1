@@ -1,61 +1,61 @@
-Content-Type: multipart/mixed; boundary="===============3255245083651953226=="
+Content-Type: multipart/mixed; boundary="===============4462736695373571903=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/gregkh
-Date: Mon, 12 Jan 2026 07:50:59 -0000
-Message-Id: <176820425930.2425980.1671835141142232799@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
+Date: Mon, 12 Jan 2026 07:51:53 -0000
+Message-Id: <176820431384.2426363.11538368724083056645@gitolite.kernel.org>
 
---===============3255245083651953226==
+--===============4462736695373571903==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/gregkh
+repo: pub/scm/linux/kernel/git/gregkh/char-misc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/rndis
-    old: 29d0de8c85b74b48fe1aa9d6477d9fc3da4ac1da
-    new: f30e5208c7caf7adc6ca449db6f311f1bfd2a7a0
-    log: revlist-29d0de8c85b7-f30e5208c7ca.txt
+  - ref: refs/heads/main
+    old: 9448598b22c50c8a5bb77a9103e2d49f134c9578
+    new: 0f61b1860cc3f52aef9036d7235ed1f017632193
+    log: revlist-9448598b22c5-0f61b1860cc3.txt
 
---===============3255245083651953226==
+--===============4462736695373571903==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1768204243 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/gregkh.git
-nonce 1768204240-0606c7dcb360c752ae047860087482211aa96e7c
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1768204312 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
+nonce 1768204311-f722c5b48dede80d43fcfeac351a142dd2bfa9a1
 
-29d0de8c85b74b48fe1aa9d6477d9fc3da4ac1da f30e5208c7caf7adc6ca449db6f311f1bfd2a7a0 refs/heads/rndis
+9448598b22c50c8a5bb77a9103e2d49f134c9578 0f61b1860cc3f52aef9036d7235ed1f017632193 refs/heads/main
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmlkp9QbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+S3MQAMjPbaz/VEFaALa29vRJ
-/yRZOY4zUJdzBlDNS3+9r1uUqtjDKv2Cttp5ObQMNRmrthZ9OOOreqQOfj1v86hr
-DLegZ2o3Lxd70VnzfxH5dLR5JS7GbXy+JtxI90oPLDcUWW8GJW3hNHXqojl3SnNZ
-dovNgXkPnTOlFoEY2L3EMeyyUNB1pGCvKH/MvgVoObgeSMpvaw1N/Nf6TEcLs33E
-Cp3WoK0yWfgToS22DgxJNaw3V6YVfXtrSmyLPFep4A2oejO3TkFe61uxrY0CDvvT
-LA12rRkyyfmdTJv9DXx6MO9X5oNvr8+WAR0Jrj9Q9APtvU9KiNHBkpCYU/qAtHNo
-DPUqp3Cu1UuUJJZGzloWxUre9taqdPw3uYRaMPXX143Z50vnoSpvQCYyvOMlYA47
-IJtzlRINGpau8amHLKYOHVISG0x8tj8+iYxim+8ThoeWpLxFpaMDBjXSrz6dv94O
-rCm5TJbjvIQEhiruXStQ1l15oMWMLG95vP53DDY0pZf/XfccSyM679lUsEwgzISd
-TRVsMTi3lUnFUk9h/RzD8YQDhunCV0Uju+22C6rzQa7G97RYjKaPd8YtbVl7n6ih
-9s2qd5TEYeq4NbkJkAO5hZa3rKSZ3o6qNWYeoZtZnezRVRneXHDgt74YJIjV86yB
-I6uelOYQPgCzJVWMeSvvltBa
-=YbLt
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmlkqBgbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+c/YQANW8NazIZO0/xcboD4A8
+BnfAPCQHajoo7uHI/D/E6PWtnqG3KBRqa7Ji0nvSZQwqWGREoETYhX81bj5e6CDr
+3L9hVxMnVSJpv+59TrtkmaVS2ujBu/SaEJ1DMal/cPbMzFwrQdwrcwF6ff945b5R
+XJWkDJmMU7kvD2v9ykxonevSSgSLJxdSDCRjn05TlISVV2QUE/ZTsGGdAtqWqA14
+NJZJgteTAY8+6a39xNXctslV7xgOanBYvAPOEWMyNgGw3sqynypH8lAAPbWzLigR
+qJ2Gfn+0EKYsD7a5OJwCWrk/UyXTd6UOgb50OsOf6H00VBnJf5crVO0EahwFAUkH
+l3+SOJ+jnbco8kdP1OH2N83KB2bXKAGqK+mll2drgqO0yQvoFRaYWY4Uj/IUIDAc
+kMJ54+Lqk5xTupQfb3DZO8Wns8xTN+iAcWlbG7Qr4+uAXJjVrrs9PUU93FL8QCOp
+4Cv1toEb/rpunnjuaT+/txCNVNR3hKJBWaiM0S4ZyYmgederVrAHZLvE+y3bCV/O
+1s2niqJH6vNh978iSGqfZobOYRAq7jNc4mrV2CStMz8IMD2L97hcAZwBi2FtgChm
+/wkuGLfE9XVTmm5du8l1bfpmSchVa0sUb5FnGziTpZOfTgAsgrcWxc/XdmeH6SSv
+YquOJseZu8094mon+lZncZdC
+=GPdy
 -----END PGP SIGNATURE-----
 
---===============3255245083651953226==
+--===============4462736695373571903==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-29d0de8c85b7-f30e5208c7ca.txt
+Content-Disposition: attachment; filename=revlist-9448598b22c5-0f61b1860cc3.txt
 
 d4b69a6186b215d2dc1ebcab965ed88e8d41768d SUNRPC: svcauth_gss: avoid NULL deref on zero length gss_token in gss_read_proxy_verf
 a8ee9099f30654917aa68f55d707b5627e1dbf77 svcrdma: use rc_pageoff for memcpy byte offset
@@ -835,7 +835,5 @@ fac4bdbacab5a9abe7e017069c640273c2a704e2 Merge tag 'sched-urgent-2026-01-11' of 
 9c7ef209cd0f7c1a92ed61eed3e835d6e4abc66c Merge tag 'char-misc-6.19-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/char-misc
 7143203341dccbca809ba0a8e72239ea4652ace6 Merge tag 'libcrypto-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/ebiggers/linux
 0f61b1860cc3f52aef9036d7235ed1f017632193 Linux 6.19-rc5
-e0bbab92423572d77a28db6a7b8915522dab979b USB: disable all RNDIS protocol drivers
-f30e5208c7caf7adc6ca449db6f311f1bfd2a7a0 USB: potential rndis host fix
 
---===============3255245083651953226==--
+--===============4462736695373571903==--
