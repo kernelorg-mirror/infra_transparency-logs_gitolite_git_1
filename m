@@ -1,25 +1,30 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regmap
-Date: Mon, 12 Jan 2026 21:59:32 -0000
-Message-Id: <176825517267.3158312.4401480487496239157@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux
+Date: Mon, 12 Jan 2026 22:08:06 -0000
+Message-Id: <176825568600.3166344.8462152559760418622@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regmap
-user: broonie
+repo: pub/scm/linux/kernel/git/axboe/linux
+user: axboe
 changes:
-  - ref: refs/heads/for-linus
-    old: f3f380ce6b3d5c9805c7e0b3d5bc28d9ec41e2e8
-    new: 4b58aac989c1e3fafb1c68a733811859df388250
+  - ref: refs/heads/for-7.0/block
+    old: 78796b6bae8684b753b658f431b5b1ee24300d64
+    new: 65955a0993a0a9536263fea2eaae8aed496dcc9c
     log: |
-         4b58aac989c1e3fafb1c68a733811859df388250 regmap: Fix race condition in hwspinlock irqsave routine
+         9e386f49fa269298490b303c423c6af4645f184e ublk: make ublk_ctrl_stop_dev return void
+         93ada1b3da398b492c45429cef1a1c9651d5c7ba ublk: add UBLK_CMD_TRY_STOP_DEV command
+         65955a0993a0a9536263fea2eaae8aed496dcc9c selftests: ublk: add stop command with --safe option
          
   - ref: refs/heads/for-next
-    old: f3f380ce6b3d5c9805c7e0b3d5bc28d9ec41e2e8
-    new: 4b58aac989c1e3fafb1c68a733811859df388250
+    old: cdd95434cd09bf7bb28c1fd56c9d5fe693f3c2b5
+    new: d26e45d982e9af7f7a8e0df87e0d50d357dd4dd5
     log: |
-         4b58aac989c1e3fafb1c68a733811859df388250 regmap: Fix race condition in hwspinlock irqsave routine
+         9e386f49fa269298490b303c423c6af4645f184e ublk: make ublk_ctrl_stop_dev return void
+         93ada1b3da398b492c45429cef1a1c9651d5c7ba ublk: add UBLK_CMD_TRY_STOP_DEV command
+         65955a0993a0a9536263fea2eaae8aed496dcc9c selftests: ublk: add stop command with --safe option
+         d26e45d982e9af7f7a8e0df87e0d50d357dd4dd5 Merge branch 'for-7.0/block' into for-next
          
