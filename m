@@ -1,47 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============4042544217247821268=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kees/linux
-Date: Mon, 12 Jan 2026 22:30:30 -0000
-Message-Id: <176825703048.3185942.4889537091099094816@gitolite.kernel.org>
-
---===============4042544217247821268==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
+Date: Mon, 12 Jan 2026 22:43:28 -0000
+Message-Id: <176825780814.3193975.5692038964679803439@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kees/linux
-user: kees
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/akpm/25-new
+user: akpm
 changes:
-  - ref: refs/heads/for-next/kspp
-    old: c1d839c4d23580268ae57ccb4172d9a139a7c066
-    new: f2c5457dadecaa08f45613dbeac0cee69491fc3c
+  - ref: refs/heads/master
+    old: 754f057eadc982757e2507f93ae834a4ce012eb0
+    new: 982655a567111bc203933583f732e8d388e959cf
     log: |
-         98569017111e9328c5953abed53118de1c120863 crypto: af_alg - Annotate struct af_alg_iv with __counted_by
-         f2c5457dadecaa08f45613dbeac0cee69491fc3c fs/xattr: Annotate struct simple_xattr with __counted_by
+         da0cdce24be5f4d34a304910444dfe39cc950fee foo
+         2da1cccefcd09d6331fd5549c76b687fb90103ca foo
+         789c50e7a6fafa98797aec0fe5d0df2ffc8c1935 foo
+         982655a567111bc203933583f732e8d388e959cf foo
          
-
---===============4042544217247821268==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher A5C3F68F229DD60F723E6E138972F4DFDC6DC026 1768257029 -0800
-pushee gitolite.kernel.org:pub/scm/linux/kernel/git/kees/linux.git
-nonce 1768257027-42b08c4fde70248c91add43359bb2e5234e24074
-
-c1d839c4d23580268ae57ccb4172d9a139a7c066 f2c5457dadecaa08f45613dbeac0cee69491fc3c refs/heads/for-next/kspp
------BEGIN PGP SIGNATURE-----
-
-iHUEABYKAB0WIQRSPkdeREjth1dHnSE2KwveOeQkuwUCaWV2BQAKCRA2KwveOeQk
-u3YJAQCIwRPhPFbQ2FijucOvjn12txOQcfoSuzazLFxuc0ue8gEApeCUMSKrTvMj
-1TbAMkAwAZumvB4yviGgghUT7n7oBgY=
-=tbcK
------END PGP SIGNATURE-----
-
---===============4042544217247821268==--
