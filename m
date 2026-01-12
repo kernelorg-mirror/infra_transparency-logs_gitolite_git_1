@@ -1,22 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/peter.chen/cix
-Date: Mon, 12 Jan 2026 03:12:12 -0000
-Message-Id: <176818753267.2162440.1973631745386087754@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Mon, 12 Jan 2026 03:13:45 -0000
+Message-Id: <176818762521.2163131.4512411110460935631@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/peter.chen/cix
-user: peter.chen
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
-  - ref: refs/heads/for-next
-    old: b34b20c168aab621c151d1aa7b62590207e82bb6
-    new: 4d24b32aa342e32f93ab8e73f0cce579502abec0
+  - ref: refs/heads/master
+    old: 7143203341dccbca809ba0a8e72239ea4652ace6
+    new: 0f61b1860cc3f52aef9036d7235ed1f017632193
     log: |
-         01a08fd967301e75b2a9350b28a3f09fa2c3b838 dt-bindings: arm: cix: add OrangePi 6 Plus board
-         e39fadd6ef7b797e1db7bb7bf2ed9a1784632a8b arm64: dts: cix: Add OrangePi 6 Plus board support
-         10dafd910ce1838289f50c2a1809de6aced8beaf Merge remote-tracking branch 'cix/dt' into for-next
-         4d24b32aa342e32f93ab8e73f0cce579502abec0 Merge remote-tracking branch 'cix/dt-bindings' into for-next
+         0f61b1860cc3f52aef9036d7235ed1f017632193 Linux 6.19-rc5
          
+  - ref: refs/tags/v6.19-rc5
+    old: 0000000000000000000000000000000000000000
+    new: d0e305301e82474223bf26185e86e7dc2eb85350
