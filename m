@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/hkml
-Date: Mon, 12 Jan 2026 16:00:53 -0000
-Message-Id: <176823365394.2834717.5782568832800354293@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/cxl/cxl
+Date: Mon, 12 Jan 2026 16:01:19 -0000
+Message-Id: <176823367951.2835105.5240512845471307193@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/hkml
-user: sj
+repo: pub/scm/linux/kernel/git/cxl/cxl
+user: djiang
 changes:
-  - ref: refs/heads/master
-    old: 8a461343efe5ac0db1f86de6b5c0711d4c0222d6
-    new: b9bc4cd7168055ed2ce2547aeb68dcc849fd1944
+  - ref: refs/heads/fixes
+    old: 49d106347913201b6bc6d810c964b90781db8343
+    new: d4026a44626490dc4eca4dd2c4d0816338fa179b
     log: |
-         b9bc4cd7168055ed2ce2547aeb68dcc849fd1944 TODO: add an item
+         d4026a44626490dc4eca4dd2c4d0816338fa179b cxl/hdm: Fix potential infinite loop in __cxl_dpa_reserve()
          
