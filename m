@@ -1,28 +1,47 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
-Date: Mon, 12 Jan 2026 22:27:10 -0000
-Message-Id: <176825683082.3182031.17862142868941435869@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============6518944049765080298=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kees/linux
+Date: Mon, 12 Jan 2026 22:29:48 -0000
+Message-Id: <176825698886.3182777.17102038444378744497@gitolite.kernel.org>
+
+--===============6518944049765080298==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/groeck/linux-staging
-user: groeck
+repo: pub/scm/linux/kernel/git/kees/linux
+user: kees
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/hwmon-next
-    old: c6c80820ac5d845c19c4de2e6054e7c246017044
-    new: 3a289ad1d4c55379f2a73471cadead53add66180
+  - ref: refs/heads/for-next/hardening
+    old: c1d839c4d23580268ae57ccb4172d9a139a7c066
+    new: f2c5457dadecaa08f45613dbeac0cee69491fc3c
     log: |
-         e40e58355a8c0bae6a409fc2faa1f89108eee324 hwmon: (dell-smm) Add support for Dell OptiPlex 7080
-         b479b716105836dde72c14f72c43e92f7c356730 hwmon: mp2925: add vid offset for vid mode
-         4110311ec364ca09d26512062fe534d62b14cd66 hwmon: (asus-ec-sensors) add VRM temperature for Pro WS WRX90E-SAGE SE
-         3d67ab67f14f115fb393235219cb899c35dad810 hwmon: (nct6775) Add ASUS Pro WS WRX90E-SAGE SE
-         c67887e62c558fda7de8d1e25d59c6f053f29234 hwmon: (acpi_power_meter) Replace deprecated strcpy() with strscpy()
-         22c0461a28f28c69f3543ac7c0210d660385552a hwmon: (emc2305) Simplify with scoped for each OF child loop
-         9ce02244c1f3b2e02fbb55f4472e4e8a46f4e3ff hwmon: (max6639) Simplify with scoped for each OF child loop
-         11d51ed84c4d3b47bc1a701c1949bd0a0cbc9678 hwmon: (nct7363) Simplify with scoped for each OF child loop
-         8339346d2e9bb481f95c64c10ec602a4a5771923 hwmon: (f71882fg) Add F81968 support
-         3a289ad1d4c55379f2a73471cadead53add66180 hwmon: (nct6683) Add customer ID for ASRock Z590 Taichi
+         98569017111e9328c5953abed53118de1c120863 crypto: af_alg - Annotate struct af_alg_iv with __counted_by
+         f2c5457dadecaa08f45613dbeac0cee69491fc3c fs/xattr: Annotate struct simple_xattr with __counted_by
          
+
+--===============6518944049765080298==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher A5C3F68F229DD60F723E6E138972F4DFDC6DC026 1768256987 -0800
+pushee gitolite.kernel.org:pub/scm/linux/kernel/git/kees/linux.git
+nonce 1768256942-7a1914b42133751b0ef79906d4273782a291adc8
+
+c1d839c4d23580268ae57ccb4172d9a139a7c066 f2c5457dadecaa08f45613dbeac0cee69491fc3c refs/heads/for-next/hardening
+-----BEGIN PGP SIGNATURE-----
+
+iHUEABYKAB0WIQRSPkdeREjth1dHnSE2KwveOeQkuwUCaWV12wAKCRA2KwveOeQk
+u8JsAPoDpIhKTQKtIvY0jX0M+O9GWD0lnrYbAcgbsmpW7ogjDAD/dTJNN83GBSvC
+P8PwmG2wW7M8jEdrUSNKAkA2dld7hgs=
+=zEdD
+-----END PGP SIGNATURE-----
+
+--===============6518944049765080298==--
