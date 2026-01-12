@@ -1,48 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============7758835392296253186=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vbabka/linux
-Date: Mon, 12 Jan 2026 15:19:31 -0000
-Message-Id: <176823117129.2799662.716042191505605467@gitolite.kernel.org>
-
---===============7758835392296253186==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
+Date: Mon, 12 Jan 2026 15:22:33 -0000
+Message-Id: <176823135385.2803856.11544474614630632773@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vbabka/linux
-user: vbabka
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/kdave/linux
+user: kdave
 changes:
-  - ref: refs/heads/sheaves-for-all-v2
-    old: 0000000000000000000000000000000000000000
-    new: ce891506f58248f033cb4364b66ccf93414e2cf7
-
---===============7758835392296253186==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher A940D434992C2E8E99103D50224FA7E7CC82A664 1768231167 +0100
-pushee gitolite.kernel.org:pub/scm/linux/kernel/git/vbabka/linux.git
-nonce 1768231166-eae234f90c140a53ab84a6fdaa0c08eff3ca3d77
-
-0000000000000000000000000000000000000000 ce891506f58248f033cb4364b66ccf93414e2cf7 refs/heads/sheaves-for-all-v2
------BEGIN PGP SIGNATURE-----
-
-iQFPBAABCAA5FiEEe7vIQRWZI0iWSE3xu+CwddJFiJoFAmllEP8bFIAAAAAABAAO
-bWFudTIsMi41KzEuMTEsMiwyAAoJELvgsHXSRYia2+QH/As8gLzhlq6GCz3Cx11C
-BZsmaX6esZjhA9xlc/N8VoCblMN2bQMbebGnujaeUr1z9ePtTN/yVGlGtMo6KdGR
-KUqW/uV3Puc6fDEDfSL2eUOnpQwXX+Xzmxyf7W4XjYg34O8W7Ni45f06PyA3GPjQ
-Sih5OvCKVrqP6o9wjXHQVUiXOnUNPtnacyhgJ0/X9YhIER4hw4IoSltPT17V6tiL
-e0ARJ1yl5KkRrc3xH1oHczlQ0uG0w0H4aGy7qZVekn0yidLj4M68/5KBNp11LHkW
-H1ch5GDP+IxuAjM2L2h1zp9YhSftkY2DYU4PrgWc1lTH0VZvlW+pa+1tYnO8RQJB
-f6w=
-=rALN
------END PGP SIGNATURE-----
-
---===============7758835392296253186==--
+  - ref: refs/heads/next-fixes
+    old: f2d9ef7fb056146d600ef44370cb3cde34fdf0b9
+    new: 36ece3a23f3a6d3392541c55a383e4afd0417b0f
+    log: |
+         64dd1caf88f96146edee24e82834cf2a11c3932b btrfs: update the Kconfig string for CONFIG_BTRFS_EXPERIMENTAL
+         882680774933fd276023e01cf0261c2350d7201e btrfs: invalidate pages instead of truncate after reflinking
+         a11224a016d6d1d46a4d9b6573244448a80d4d7f btrfs: fix memory leaks in create_space_info() error paths
+         36ece3a23f3a6d3392541c55a383e4afd0417b0f Merge branch 'misc-6.19' into next-fixes
+         
