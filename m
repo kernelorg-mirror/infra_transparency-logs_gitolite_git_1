@@ -1,28 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/xiang/linux
-Date: Mon, 12 Jan 2026 02:08:25 -0000
-Message-Id: <176818370585.2114904.7084344382044910623@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ieee1394/linux1394
+Date: Mon, 12 Jan 2026 02:50:20 -0000
+Message-Id: <176818622085.2146342.2547054362989308295@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/xiang/linux
-user: xiang
+repo: pub/scm/linux/kernel/git/ieee1394/linux1394
+user: takaswie
 changes:
-  - ref: refs/heads/erofs/pagecache-share
-    old: 727c5e74595c3576d20478e066363d5424b1a91d
-    new: 1fd57384c2a516c6a572e45ff299459be4caec29
+  - ref: refs/heads/for-next
+    old: 8f0b4cce4481fb22653697cced8d0d04027cb1e8
+    new: 993ab48006b3016cdd3f2b33905e8e167f955495
     log: |
-         c045fe48d65b30b7a6b562a643bff63bddddf08b iomap: stash iomap read ctx in the private field of iomap_iter
-         e50807c2b535db2b0b4f0314ff1142a28e30fc98 erofs: hold read context in iomap_iter if needed
-         00bdb68609539287600050872470a87213caf006 fs: Export alloc_empty_backing_file
-         25498ca05f56c31741733a26d870a9cd6cfff9c4 erofs: decouple `struct erofs_anon_fs_type`
-         bada03b734265253ba4683a5053ca81b3ebe3d35 erofs: support user-defined fingerprint name
-         d070b25403332e8f3ebf34542ce5b2fe90b0d86a erofs: support domain-specific page cache share
-         4a4f51597bf91590953985eb287d6664d40b7b82 erofs: introduce the page cache share feature
-         514eae0b8d5e821209a109f5a4dc6bd9185dbc83 erofs: support unencoded inodes for page cache share
-         8d80c5d3c647700bb4a43c604cf107687de19f24 erofs: support compressed inodes for page cache share
-         1fd57384c2a516c6a572e45ff299459be4caec29 erofs: implement .fadvise for page cache share
+         c91adaddb0740c5a436084c85bedfe07b6d0c157 firewire: core: move private function declaration from public header to internal header
+         adc839ae7d0f6c1a823e9731e45abfd87c6cf28b firewire: core: use mutex instead of spinlock for client isochronous context
+         a69a9e630d49e2b990486360c371278d42993df0 firewire: core: code refactoring with cleanup function for isoc pages
+         c2f60aa1602d8bdf2cd44bbaef2c862a356ce414 firewire: core: use common kernel API to allocate and release a batch of pages
+         ef6bdffbb88d86c8a2906fc8a13ae90eb5a6b64e firewire: core: stop using page private to store DMA mapping address
+         e62b46cdd3ea8117ec6e39cec5cb8d53f96adb7c firewire: ohci: use MAX macro to guarantee minimum count of pages for AR contexts
+         f2ae92780ab93ed7e59e469cfd5c7269bd68ddb4 firewire: ohci: split page allocation from dma mapping
+         993ab48006b3016cdd3f2b33905e8e167f955495 firewire: ohci: stop using page private to store DMA mapping address
          
