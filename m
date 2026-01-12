@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Mon, 12 Jan 2026 12:31:25 -0000
-Message-Id: <176822108519.2651682.13927882229369874477@gitolite.kernel.org>
+Date: Mon, 12 Jan 2026 12:37:55 -0000
+Message-Id: <176822147572.2655805.16444642008581944120@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,6 +11,6 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/broonie/ci
 user: broonie
 changes:
-  - ref: refs/heads/v2_20260112_sheetal_regmap_add_flat_cache_default_is_zero_flag_for_flat_cache
+  - ref: refs/heads/20260105_sebastian_krzyszkowiak_sound_codecs_wm8962_assorted_fixes
     old: 0000000000000000000000000000000000000000
-    new: 8885dba6ce5ba8a28f5377595307c9879b372e65
+    new: e590752119029d87ce46d725e11245a52d22e1fe
