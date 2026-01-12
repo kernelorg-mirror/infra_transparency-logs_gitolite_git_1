@@ -1,56 +1,49 @@
-Content-Type: multipart/mixed; boundary="===============1344267731400406476=="
+Content-Type: multipart/mixed; boundary="===============2539816756287553360=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Mon, 12 Jan 2026 08:57:02 -0000
-Message-Id: <176820822223.2477216.2646345942829793732@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/thomas.weissschuh/linux
+Date: Mon, 12 Jan 2026 09:11:50 -0000
+Message-Id: <176820911094.2488219.4770383048348611665@gitolite.kernel.org>
 
---===============1344267731400406476==
+--===============2539816756287553360==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: mingo
+repo: pub/scm/linux/kernel/git/thomas.weissschuh/linux
+user: thomas.weissschuh
 changes:
-  - ref: refs/heads/master
-    old: 315f416d3e26b4b1719cebd8d2e91da1539ba421
-    new: d0735f3d9ef7b7525025f6c9bd2570b5c78595b9
-    log: revlist-315f416d3e26-d0735f3d9ef7.txt
+  - ref: refs/heads/b4/at-vector-size-arch
+    old: 153c56fb66ecb25e8b4180f2c226c7a861cfbafb
+    new: f28e95d12f4a725d99deb4b441c67f76b6368410
+    log: revlist-153c56fb66ec-f28e95d12f4a.txt
 
---===============1344267731400406476==
+--===============2539816756287553360==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-315f416d3e26-d0735f3d9ef7.txt
+Content-Disposition: attachment; filename=revlist-153c56fb66ec-f28e95d12f4a.txt
 
-632d89b030f1dac8d91875cd56a08adededba349 perf/x86/uncore: clean up const mismatch
-098fe55a450b280d8a8584b2511634e1236ba96d perf/x86/intel/uncore: Move uncore discovery init struct to header
-e75462f6c7eaa5affd922c9a14591cdd5e3ab63d perf/x86/intel/uncore: Support per-platform discovery base devices
-1897336728b4ab0229fb73bb6f1e94cfe914afa9 perf/x86/intel/uncore: Remove has_generic_discovery_table()
-6daf2c35b835da211bf70606e9f74d1af98613a9 perf/x86/intel/uncore: Add IMH PMON support for Diamond Rapids
-66e2075426f3220857eb3987c803764c82cef851 perf/x86/intel/uncore: Add CBB PMON support for Diamond Rapids
-b575fc0e33574f3a476b68057e340ebe32d7b750 perf/x86/intel/uncore: Add domain global init callback
-8a4bd1c0d6bb64ab4d9e94d83c40326356421a73 perf/x86/intel/uncore: Add freerunning event descriptor helper macro
-d8987048f6655b38453d00782a256179f082b79c perf/x86/intel/uncore: Support IIO free-running counters on DMR
-aacb0718fddfe7060576c82e47bbda559c2f2d0d perf/x86/intel/uncore: Support uncore constraint ranges
-171b5292a82d04e6692f1b19573d15753f21e7fd perf/x86/intel/uncore: Update DMR uncore constraints preliminarily
-2246c24426fbc1069cb2a47e0624ccffe5f2627b perf pmu: Relax uncore wildcard matching to allow numeric suffix
-46da08a2bb4d07874990579235ff87b41911a412 perf/x86/intel/uncore: Add missing PMON units for Panther Lake
-e7d5f2ea0923c5e49ccf94cdaab74a08c865115e perf/x86/intel/uncore: Add Nova Lake support
-a18dfb5dd33247679a0cc4ff208ad7340d1e08a5 riscv/uprobes: use kmap_local_page() in arch_uprobe_copy_ixol()
-094cc7bb5fc3b484614417b4578233a38e3df942 arm64/uprobes: use kmap_local_page() in arch_uprobe_copy_ixol()
-e6eb9acc024cdad7d1cbb7693ac39afdf9c5193f mips/uprobes: use kmap_local_page() in arch_uprobe_copy_ixol()
-1752a1ad43a1d4fd450a8ef5f8d240f9e228e0a3 arm/uprobes: use kmap_local_page() in arch_uprobe_copy_ixol()
-a491c02c2770c9c2d02b96fad7e3a176d77bb737 uprobes: use kmap_local_page() for temporary page mappings
-ff1de90dd7a69ef43586683535ad87ab899a1214 sched/fair: Drop useless cpumask_empty() in find_energy_efficient_cpu()
-0ab25ea2a3b3a973fb914d0e47dc9c3c26049e8b sched/fair: Simplify task_numa_find_cpu()
-55b39b0cf183b9c682717a55a2fba06da69bba6b sched/fair: Use cpumask_weight_and() in sched_balance_find_dst_group()
-89951fc1f8201df27366ac1eed1ddc9ee0f47729 sched: Reorder some fields in struct rq
-7dadeaa6e851e7d67733f3e24fc53ee107781d0f sched: Further restrict the preemption modes
-aba94da730271f7405f9663d37a78702ad20382b Merge branch into tip/master: 'perf/core'
-d0735f3d9ef7b7525025f6c9bd2570b5c78595b9 Merge branch into tip/master: 'sched/core'
+0f32d0889ca99972d28d2e785fc1aadc3697945a vdso: development hacks
+a8b887d87a6b2e5c6783ac8917bec7783fda52cf fix sh4
+999a668a77c0024625ddcd7f4af1aca4356e271b EDITME: cover title for at-vector-size-arch
+4262f22f62b228bad98c960ce6f570f829720d73 MAINTAINERS: exec: Add more auxvec.h variants
+b52bef0e813be71a141c21e50eeed7e9109054c9 exec: Move AT_VECTOR_SIZE definitions to auxvec.h
+e6220fca4558536708e6ea544fd2edd91e160a1a asm-generic: add an in-kernel auxvec.h header
+94025d1a752ea0b6c9bbd3786656e34c565fc100 ARM: drop custom asm/auxvec.h
+00d2b838a5eee5872db0098f0d77deb58a524d80 x86
+a46c0a0b002a6c4681ab40d25bccc6b1c3e0e1d1 arm64
+f7482b76be3fed4e89683c67b7f2d48579b22406 riscv
+a41cb1511a4e2df5ea55647c699348792eacd71c loongarch
+9eb598a69b3062f05be3ee3647849b16ed35529d s390
+00cfd5d3647780740ccd48c02414253db04d280a powerpc
+2380666c8dc824faa73f58b13a63105df8007531 mips
+0f0ca8cabc47ad83127c0a1cfc2e5accd31015d7 sparc
+6b2d1ba4f0a2da64f4f51e530131b3d70e1215f5 sh prep
+d236c9e5f9a2ebeaa7196fdd9782e1955c83c8b5 sh
+b9b6c56185e785745506b5a4f3da6dcd1e4c16a7 alpha
+f28e95d12f4a725d99deb4b441c67f76b6368410 fallback
 
---===============1344267731400406476==--
+--===============2539816756287553360==--
