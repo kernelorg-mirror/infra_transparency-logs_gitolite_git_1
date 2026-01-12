@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3941484457040232189=="
+Content-Type: multipart/mixed; boundary="===============7482309253864939490=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/driver-core/driver-core
-Date: Mon, 12 Jan 2026 12:38:14 -0000
-Message-Id: <176822149400.2656189.8652762245239925330@gitolite.kernel.org>
+Date: Mon, 12 Jan 2026 12:38:33 -0000
+Message-Id: <176822151357.2656472.10112607905990230465@gitolite.kernel.org>
 
---===============3941484457040232189==
+--===============7482309253864939490==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/driver-core/driver-core
 user: dakr
 changes:
-  - ref: refs/heads/driver-core-testing
-    old: e254b758976f651c47ec902d92306bd49f452ab0
+  - ref: refs/heads/driver-core-next
+    old: d88f27d7f4a1861fe6d548d9a9c203e59489880a
     new: 8f799b4e8cc0cf926019e40405dc3eab330ac643
-    log: revlist-e254b758976f-8f799b4e8cc0.txt
+    log: revlist-d88f27d7f4a1-8f799b4e8cc0.txt
 
---===============3941484457040232189==
+--===============7482309253864939490==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e254b758976f-8f799b4e8cc0.txt
+Content-Disposition: attachment; filename=revlist-d88f27d7f4a1-8f799b4e8cc0.txt
 
 f3ccdfda345ca9a624ea425840a926b8338c1e25 wifi: rtw88: limit indirect IO under powered off for RTL8822CS
 dd39edb445f07400e748da967a07d5dca5c5f96e wifi: rtlwifi: 8192cu: fix tid out of range in rtl92cu_tx_fill_desc()
@@ -593,6 +593,7 @@ a81668db9e2c46d7274fe00892f943ed68f86481 Merge tag 'gpio-fixes-for-v6.19-rc5' of
 4d6fe1dd12a77c7774a3210f8450bdad2f84d879 Merge tag 'pci-v6.19-fixes-2' of git://git.kernel.org/pub/scm/linux/kernel/git/pci/pci
 372800cb95a35a7c40a07e2e0f7de4ce6786d230 Merge tag 'for-6.19-rc4-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
 6e39903c73df08b256322d04c4dfe4a82ec63a45 selftests/tracing: Fix test_multiple_writes stall
+e254b758976f651c47ec902d92306bd49f452ab0 driver core: make bus_find_device_by_acpi_dev() stub prototype aligned
 4621c338d33f2e49c55d317fa5b1fbc0ae1cccb7 Merge tag 'ceph-for-6.19-rc5' of https://github.com/ceph/ceph-client
 e55feea3a03aa1eaf5abb22cc854208813865e04 Merge tag 'soc-fixes-6.19' of git://git.kernel.org/pub/scm/linux/kernel/git/soc/soc
 e28ddd0b7af218e1a8863c524e15918895af9ac8 Merge tag 'arm64-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/arm64/linux
@@ -619,4 +620,4 @@ fac4bdbacab5a9abe7e017069c640273c2a704e2 Merge tag 'sched-urgent-2026-01-11' of 
 0f61b1860cc3f52aef9036d7235ed1f017632193 Linux 6.19-rc5
 8f799b4e8cc0cf926019e40405dc3eab330ac643 Merge tag 'v6.19-rc5' into driver-core-next
 
---===============3941484457040232189==--
+--===============7482309253864939490==--
