@@ -1,26 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============5573053703828023042=="
+Content-Type: multipart/mixed; boundary="===============7833161850020718848=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/westeri/thunderbolt
-Date: Mon, 12 Jan 2026 13:31:38 -0000
-Message-Id: <176822469884.2698649.7068487568009474266@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pinctrl/intel
+Date: Mon, 12 Jan 2026 13:32:06 -0000
+Message-Id: <176822472611.2698984.12347324286421785095@gitolite.kernel.org>
 
---===============5573053703828023042==
+--===============7833161850020718848==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/westeri/thunderbolt
+repo: pub/scm/linux/kernel/git/pinctrl/intel
 user: westeri
 changes:
-  - ref: refs/heads/fixes
+  - ref: refs/heads/master
     old: 9ace4753a5202b02191d54e9fdf7f9e3d02b85eb
     new: 0f61b1860cc3f52aef9036d7235ed1f017632193
     log: revlist-9ace4753a520-0f61b1860cc3.txt
 
---===============5573053703828023042==
+--===============7833161850020718848==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -359,4 +359,4 @@ fac4bdbacab5a9abe7e017069c640273c2a704e2 Merge tag 'sched-urgent-2026-01-11' of 
 7143203341dccbca809ba0a8e72239ea4652ace6 Merge tag 'libcrypto-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/ebiggers/linux
 0f61b1860cc3f52aef9036d7235ed1f017632193 Linux 6.19-rc5
 
---===============5573053703828023042==--
+--===============7833161850020718848==--
