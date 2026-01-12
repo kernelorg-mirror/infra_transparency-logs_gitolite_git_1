@@ -1,56 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============9107121703095258466=="
+Content-Type: multipart/mixed; boundary="===============0195104725079110011=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
-Date: Mon, 12 Jan 2026 14:30:17 -0000
-Message-Id: <176822821710.2763758.12586088221570078636@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Mon, 12 Jan 2026 14:30:21 -0000
+Message-Id: <176822822114.2763949.11439645177551620935@gitolite.kernel.org>
 
---===============9107121703095258466==
+--===============0195104725079110011==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regulator
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.19
+  - ref: refs/heads/regulator-6.19
     old: 60489936aced785ef9e5a865e23a296bd0b470b6
     new: 9ace4753a5202b02191d54e9fdf7f9e3d02b85eb
     log: revlist-60489936aced-9ace4753a520.txt
-  - ref: refs/heads/for-6.20
+  - ref: refs/heads/regulator-6.20
     old: b0655377aa5a410df02d89170c20141a1a5bbc28
     new: 6eb6b62f002f1cbc538c2e773539d1d4c37749cb
     log: revlist-b0655377aa5a-6eb6b62f002f.txt
 
---===============9107121703095258466==
+--===============0195104725079110011==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1768228215 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/regulator.git
-nonce 1768228214-2f49a67da26fea975fd285c0669309a8002a1ab9
+pusher C3F436CA30F5D8EB 1768228218 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1768228218-567ddd76df0ac0153a82630027019bdf5f8c4225
 
-60489936aced785ef9e5a865e23a296bd0b470b6 9ace4753a5202b02191d54e9fdf7f9e3d02b85eb refs/heads/for-6.19
-b0655377aa5a410df02d89170c20141a1a5bbc28 6eb6b62f002f1cbc538c2e773539d1d4c37749cb refs/heads/for-6.20
+60489936aced785ef9e5a865e23a296bd0b470b6 9ace4753a5202b02191d54e9fdf7f9e3d02b85eb refs/heads/regulator-6.19
+b0655377aa5a410df02d89170c20141a1a5bbc28 6eb6b62f002f1cbc538c2e773539d1d4c37749cb refs/heads/regulator-6.20
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmllBXcACgkQJNaLcl1U
-h9AJ6Qf/XKxFLcpozeQqv5ocbCu4J5uiVIBEMzsnWpZDR2WKQGVu+teIjLelqg9E
-lraUy4WSurYOOPJK6XPnWQh1qL3vWKjBlEl4iErcwZb0zvocLo1MHwzDPfUtrgtV
-FGGVDH7cu+ktDO/1Bw4HyyLMbCldE0Wccams1BrZXl81H7RdQj5IxhXq7KWHz2El
-Qlb9PmOReJPR4VdVVX4whq6Pp01LzFcD4JqXDjYuZ+8czqSuOw3T2fiL2hQlSR6I
-dXvnTqDBGQNDbfPymb4JeynhJT7e2n6kwr6w1ogIQRbp4sf31dYWB1CNyIp9kII2
-v7YYfQf1HTi4zkQFJr+ni8/co4FYmg==
-=zcYL
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmllBXoACgkQJNaLcl1U
+h9CKVgf+JEq0uo38fMrMA+ZayIFCtpH7Q/pKa3Yin1PhspIp5TEclcvOvElWE9WD
+sNhCjbNyHhAUrEimzN5xUq4fr+UtOyrAB498iFwvJ/c3u04RK0Gn72dH8nf+N2hZ
+mWbrwTu1/lX4NlV5Hk1F8U/XDMxhtY3OPVDVREaYXQY6eyYjHFcF++7xH0Tqx9Ka
+R++p8x3QovM7AJ92KyeUBLogq+JrMNxnZCnQzGYYoeRvn1lXkvJxnuF/S1UhgBdD
+RJlRumD/D9p90ad/KXII4U1ANud6SIWsRvEWyhW1dFnsUZwNxBOEdxWioFxLQ6Gw
+o2g1/9K0iwoAsrrP5tnNCX5h8GG3JA==
+=Lr/Y
 -----END PGP SIGNATURE-----
 
---===============9107121703095258466==
+--===============0195104725079110011==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -500,7 +500,7 @@ aacb0a6d604ac9953b261963efe25ae7521b7c58 Merge tag 'pmdomain-v6.19-rc3' of git:/
 54e82e93ca93e49cb4c33988adec5c8cb9d0df31 Merge tag 'core_urgent_for_v6.19_rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 9ace4753a5202b02191d54e9fdf7f9e3d02b85eb Linux 6.19-rc4
 
---===============9107121703095258466==
+--===============0195104725079110011==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -1304,4 +1304,4 @@ e23c0a59dabae9166bbea26fc05d08e7d9e900b7 regulator: core: don't ignore errors fr
 8d38423d9dea7353a8a54a3ab2e0d0aa04ed34d0 regulator: core: don't fail regulator_register() with missing required supply
 6eb6b62f002f1cbc538c2e773539d1d4c37749cb regulator: core: allow regulator_register() with
 
---===============9107121703095258466==--
+--===============0195104725079110011==--
