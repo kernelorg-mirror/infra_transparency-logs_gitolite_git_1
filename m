@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
-Date: Mon, 12 Jan 2026 17:04:32 -0000
-Message-Id: <176823747245.2886062.16920264312010297467@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/hid/hid
+Date: Mon, 12 Jan 2026 17:05:15 -0000
+Message-Id: <176823751526.2888893.4966758231603452648@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pci/pci
-user: helgaas
+repo: pub/scm/linux/kernel/git/hid/hid
+user: jikos
 changes:
-  - ref: refs/heads/for-linus
-    old: 8f0b4cce4481fb22653697cced8d0d04027cb1e8
-    new: 05f66cf5e7a5fc7c7227541f8a4a476037999916
+  - ref: refs/heads/for-next
+    old: 47e5d5ee0ac0731d92bee43022dbd28db795c58a
+    new: 95813c9d23a4bce2a435ac185da7b5b7069dcb0d
     log: |
-         05f66cf5e7a5fc7c7227541f8a4a476037999916 PCI: Provide pci_free_irq_vectors() stub
+         95813c9d23a4bce2a435ac185da7b5b7069dcb0d Merge branch 'for-6.20/sony' into for-next
          
