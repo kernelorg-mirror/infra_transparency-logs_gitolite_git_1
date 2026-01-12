@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4462736695373571903=="
+Content-Type: multipart/mixed; boundary="===============5976066674103960931=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Mon, 12 Jan 2026 07:51:53 -0000
-Message-Id: <176820431384.2426363.11538368724083056645@gitolite.kernel.org>
+Date: Mon, 12 Jan 2026 07:51:59 -0000
+Message-Id: <176820431920.2426579.386979259412410278@gitolite.kernel.org>
 
---===============4462736695373571903==
+--===============5976066674103960931==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/char-misc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: 9448598b22c50c8a5bb77a9103e2d49f134c9578
+  - ref: refs/heads/char-misc-linus
+    old: 361e0ff456a8daf9753c18030533256e4133ce7a
     new: 0f61b1860cc3f52aef9036d7235ed1f017632193
-    log: revlist-9448598b22c5-0f61b1860cc3.txt
+    log: revlist-361e0ff456a8-0f61b1860cc3.txt
 
---===============4462736695373571903==
+--===============5976066674103960931==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1768204312 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1768204318 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1768204311-f722c5b48dede80d43fcfeac351a142dd2bfa9a1
+nonce 1768204317-a05c9d789bd455888be7d55a5516e28c185dfb67
 
-9448598b22c50c8a5bb77a9103e2d49f134c9578 0f61b1860cc3f52aef9036d7235ed1f017632193 refs/heads/main
+361e0ff456a8daf9753c18030533256e4133ce7a 0f61b1860cc3f52aef9036d7235ed1f017632193 refs/heads/char-misc-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmlkqBgbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+c/YQANW8NazIZO0/xcboD4A8
-BnfAPCQHajoo7uHI/D/E6PWtnqG3KBRqa7Ji0nvSZQwqWGREoETYhX81bj5e6CDr
-3L9hVxMnVSJpv+59TrtkmaVS2ujBu/SaEJ1DMal/cPbMzFwrQdwrcwF6ff945b5R
-XJWkDJmMU7kvD2v9ykxonevSSgSLJxdSDCRjn05TlISVV2QUE/ZTsGGdAtqWqA14
-NJZJgteTAY8+6a39xNXctslV7xgOanBYvAPOEWMyNgGw3sqynypH8lAAPbWzLigR
-qJ2Gfn+0EKYsD7a5OJwCWrk/UyXTd6UOgb50OsOf6H00VBnJf5crVO0EahwFAUkH
-l3+SOJ+jnbco8kdP1OH2N83KB2bXKAGqK+mll2drgqO0yQvoFRaYWY4Uj/IUIDAc
-kMJ54+Lqk5xTupQfb3DZO8Wns8xTN+iAcWlbG7Qr4+uAXJjVrrs9PUU93FL8QCOp
-4Cv1toEb/rpunnjuaT+/txCNVNR3hKJBWaiM0S4ZyYmgederVrAHZLvE+y3bCV/O
-1s2niqJH6vNh978iSGqfZobOYRAq7jNc4mrV2CStMz8IMD2L97hcAZwBi2FtgChm
-/wkuGLfE9XVTmm5du8l1bfpmSchVa0sUb5FnGziTpZOfTgAsgrcWxc/XdmeH6SSv
-YquOJseZu8094mon+lZncZdC
-=GPdy
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmlkqB4bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+AP0QALuINPSIIipgiZeu/8Qq
+ELd3b20PjtCGYqfkshyawWGAHtV9KouqPJA4fbYJs/Vt87ecJsCsDIt6SfwfsL+f
+9uwWwnnPEE2E8FJxkfrYcOqloBnwWbXFTBMkuY6xW/U4NlJchzUFE8B6rfNr+SZq
+nxe6/Zv0Mjp2hyhV0v3Sw2VKPU982nv0r1AaWGe7rJF4Y6zDgAHxUdyye2fB78An
+KbGcQEUDZ/pUyv3ltYuprSfpwrwRyxewY9deJqbkKYc//Y/NrR1WFBFp7E4GppIE
+ugDpfuBV4Zl07KY/TswIndBycZhA22m7+QKbotML5d1fPgUoQ2GmWgz0YeUMjpbo
+iCKket4najD5dA0/twLwuRbsgrPEeEBWYpbBqNQuulf43G6/PV/RZEKmFz0UT8OL
+RhCP0M5UusR7QtWc/6JNWEdYqv7itnX43mHCVOT8UxOeuVd0k5VwmxhOA0wxguFs
+/ynw9UmhVGGe2DLj57b+dJS5Mez+Srk8fz4lXC5x11VN5fxnZ2Dl6rV/vaf0E+i5
+Znz3HscycaiWmoiT3a7FRI3CD+EDJKNeorFQsEgINVYUM8Csywg7WG0WVYXHr2Dy
+LsYVDBOuW2xDQe6tDgsKaevb1Dg3CROnXv7yIngu8a0diwKqdUQ6JrRuaaJ/mvGG
+DAim/7n8RlyASc8BFQjCE+dA
+=E2lE
 -----END PGP SIGNATURE-----
 
---===============4462736695373571903==
+--===============5976066674103960931==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-9448598b22c5-0f61b1860cc3.txt
+Content-Disposition: attachment; filename=revlist-361e0ff456a8-0f61b1860cc3.txt
 
 d4b69a6186b215d2dc1ebcab965ed88e8d41768d SUNRPC: svcauth_gss: avoid NULL deref on zero length gss_token in gss_read_proxy_verf
 a8ee9099f30654917aa68f55d707b5627e1dbf77 svcrdma: use rc_pageoff for memcpy byte offset
@@ -244,8 +244,6 @@ c81f30bde5b0449d9d82d31a66f0ffd608e610b5 spi: sun6i: Support A523's SPI controll
 870b10f61d527fec594e0888f18cc4f32c47433d ASoC: soc_sdw_utils: drop bogus container_of() error handling
 a3b80161fbd06b5dbc0af8f29f8ae58c4aebf0b2 Merge tag 'ti-k3-dt-fixes-for-v6.19' of https://git.kernel.org/pub/scm/linux/kernel/git/ti/linux into arm/fixes
 c4c6db7ac54649c0cfe7d86b4a5358296dc8d08b MAINTAINERS: Fix a linusw mail address
-23f9485510c338476b9735d516c1d4aacb810d46 counter: interrupt-cnt: Drop IRQF_NO_THREAD flag
-9517d76dd160208b7a432301ce7bec8fc1ddc305 counter: 104-quad-8: Fix incorrect return value in IRQ handler
 bf4172bd870c3a34d3065cbb39192c22cbd7b18d net: usb: sr9700: support devices with virtual driver CD
 d1a1a4bade4b20c0858d0b2f81d2611de055f675 net: mdio: aspeed: add dummy read to avoid read-after-write issue
 15ef641a0c6728d25a400df73922e80ab2cf029c fjes: Add missing iounmap in fjes_hw_init()
@@ -458,7 +456,6 @@ f79f9b7ace1713e4b83888c385f5f55519dfb687 net: bridge: Describe @tunnel_hash memb
 c04de0c79534ec03c3efa49b72a90a55851b2c25 net: avoid prefetching NULL pointers
 3387a7ad478b46970ae8254049167d166e398aeb net: mana: Fix use-after-free in reset service rescan path
 684d3b2670a26313bbb99de6d66f384ac0e31c9b PM: sleep: Fix suspend_test() at the TEST_CORE level
-d8aef84e60bd1671e3c0593028e06f9f75367003 Merge tag 'counter-fixes-for-6.19' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/wbg/counter into char-misc-linus
 4d1442979e4a53b9457ce1e373e187e1511ff688 af_unix: don't post cmsg for SO_INQ unless explicitly asked for
 04bdb1a04d8a2a89df504c1e34250cd3c6e31a1c block,bfq: fix aux stat accumulation destination
 f92ff79ba2640fc482bf2bfb5b42e33957f90caf tools/sched_ext: fix scx_show_state.py for scx_root change
@@ -483,8 +480,6 @@ cd0caaf2005547eaef8170356939aaabfcad4837 arm64: dts: imx95: correct I3C2 pclk to
 e0d8678c2f09dca22e6197321f223fa9a0ca2839 arm64: dts: imx8qm-mek: correct the light sensor interrupt type to low level
 ca643894a37a25713029b36cfe7d1bae515cac08 arm64: dts: add off-on-delay-us for usdhc2 regulator
 bed2a6bd20681aacfb063015c1edfab6f58a333e drm/xe/guc: READ/WRITE_ONCE g2h_fence->done
-420f423defcf6d0af2263d38da870ca4a20c0990 mei: me: add nova lake point S DID
-361e0ff456a8daf9753c18030533256e4133ce7a rust_binder: remove spin_lock() in rust_shrink_free_page()
 305f254727bd379bbed0385afa0162f5bde1f51c pmdomain: mtk-pm-domains: Fix spinlock recursion fix in probe
 73cb5f6eafb0ac7aea8cdeb8ff12981aa741d8fb pmdomain: imx: Fix reference count leak in imx_gpc_probe()
 d37cd54ebeac37a763fbf303ed25f8a6e98328ff platform/x86: samsung-galaxybook: Fix problematic pointer cast
@@ -836,4 +831,4 @@ fac4bdbacab5a9abe7e017069c640273c2a704e2 Merge tag 'sched-urgent-2026-01-11' of 
 7143203341dccbca809ba0a8e72239ea4652ace6 Merge tag 'libcrypto-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/ebiggers/linux
 0f61b1860cc3f52aef9036d7235ed1f017632193 Linux 6.19-rc5
 
---===============4462736695373571903==--
+--===============5976066674103960931==--
