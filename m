@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5049822373340317007=="
+Content-Type: multipart/mixed; boundary="===============1763284857450560074=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Mon, 12 Jan 2026 17:47:11 -0000
-Message-Id: <176824003174.2922219.14275537776183758018@gitolite.kernel.org>
+Date: Mon, 12 Jan 2026 17:47:17 -0000
+Message-Id: <176824003709.2922384.9651259106729774336@gitolite.kernel.org>
 
---===============5049822373340317007==
+--===============1763284857450560074==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/40GbE
+  - ref: refs/heads/200GbE
     old: fc65403d55c3be44d19e6290e641433201345a5e
     new: 60d8484c4cec811f5ceb6550655df74490d1a165
     log: revlist-fc65403d55c3-60d8484c4cec.txt
 
---===============5049822373340317007==
+--===============1763284857450560074==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -72,4 +72,4 @@ e1c9c8928b5b447dfd9e70cb2007567b0b72d487 bnxt_en: Add support for FEC bin histog
 bc87b14594e30720a5c1546c24e0f5f08d34eb40 bnxt_en: Implement ethtool_ops -> get_link_ext_state()
 60d8484c4cec811f5ceb6550655df74490d1a165 Merge branch 'bnxt_en-updates-for-net-next'
 
---===============5049822373340317007==--
+--===============1763284857450560074==--
