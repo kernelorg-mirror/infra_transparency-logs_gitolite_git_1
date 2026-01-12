@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7582539753372993931=="
+Content-Type: multipart/mixed; boundary="===============6813479128244138765=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Mon, 12 Jan 2026 03:16:27 -0000
-Message-Id: <176818778712.2166983.8626357875793746411@gitolite.kernel.org>
+Date: Mon, 12 Jan 2026 03:16:51 -0000
+Message-Id: <176818781106.2167230.3631355204921677442@gitolite.kernel.org>
 
---===============7582539753372993931==
+--===============6813479128244138765==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,40 +16,41 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/fixes
-    old: 309a29b5965a0b2f36b3e245213eb43300a89ac2
-    new: 901a5f309daba412e2a30364d7ec1492fa11c32c
+  - ref: refs/tags/mkp-scsi-queue
+    old: 710c990047d371144aab19dec588ac6ac9223574
+    new: 5cb89a93050a1ffb7574aa69c3fdb0fe735d0207
     log: |
-         901a5f309daba412e2a30364d7ec1492fa11c32c scsi: xen: scsiback: Fix potential memory leak in scsiback_remove()
+         8e8e8e7e8406e96a0189e116eb04f67f776f947f scsi: target: sbp: Potential integer overflow in sbp_make_tpg()
+         ae62d62b1c740f7a5ea72082dc28f30ebf6b134d scsi: target: Constify struct configfs_item_operations and configfs_group_operations
          
 
---===============7582539753372993931==
+--===============6813479128244138765==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1768187785 -0500
+pusher 75C5DE3D 1768187791 -0500
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1768187785-eeb97752102d0413cbf6a7b8689acdf2fa341cf7
+nonce 1768187790-b0b8e6a5cca0e33affa33ebf039a43e3ea2787e1
 
-309a29b5965a0b2f36b3e245213eb43300a89ac2 901a5f309daba412e2a30364d7ec1492fa11c32c refs/heads/fixes
+710c990047d371144aab19dec588ac6ac9223574 5cb89a93050a1ffb7574aa69c3fdb0fe735d0207 refs/tags/mkp-scsi-queue
 -----BEGIN PGP SIGNATURE-----
 
-iQIyBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmlkZ4kACgkQ7ulgGnXF
-3j2kTw/3bqIKEeCGlskJRWXPPUJYt/T1Vgxit0BlavPAPwcmA7wpX4q+gqrsaYzz
-VO+sfNe1EtMqw7M0/FvNLlQT6mg3vBNEXWeYHKnddAEEOem1VpwR8VylzpIFFVnW
-9CqmyMw0V5/iA3U6gGZGmz3eNswoh+FuuwrJBW51V35LFbyhm6TNmUgUHzJv35iG
-zcONxEmsXINjVY/O7kzim00OtearB3HzUstazLMSqBHfNtsUZZP/llq+6Npi8oL+
-x3AHz6pAoZVVtmavQzbQy++ssdsj/JS9ckR5YnixYagwDpEQdypt+FgSiemiSwZS
-QyYFAYXVNBA/WDO+poQU1NxRS0VIdguGhwGIjbgVb5eYwx6JlMjI5brFgSawmrAd
-LYW6ofJ53Hb0yvHXNLmEWjY2QI6zVOI8yP5G6I0wgTEEk2PQ7Jhzgv+j6xTU1dZn
-OQs9dtox5s7MvAfHLwfbRDtJy34xZtwgSaV6Qmee6UC9DOtVwvGqzfmpP2QaQuDH
-I2J/5kfm/5Hd5ynSb+ao75ilBI1UteLCJOE0M3mFPXkhFYLB94F6aMYalcb5O3R0
-3h23++Jp8OMGb+JJYtIrhmw/hsfjQH8d+tflvqs5QsgPg892PPjxEfNNcFEXId2d
-k5ggqfekIXTLn6M5w/b8MUVsyRFZYVw7cWBi+K/CqViqlnJsYg==
-=nfyU
+iQIyBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmlkZ48ACgkQ7ulgGnXF
+3j16iA/2MZKtBFjQb0F2LQhMLi8Tv8YCcA7++06tLHXZyncKucosT6eE8xN4c/ri
+8XWm+ZtDvp/HzP8e4UUxXwjr3OFadkDTjTSwUyEAQPfTg0tH93emXT1ZwthNOrH6
+TrOWPXRH6hFTREguSjfLmtKwcz4cpP1bu8JxoQU2artynrz97rRlNtgZ//CUCrMI
+zQ44tg7wXQTkVBVA0aQpKVjkJMRP8JQh+wzSmWiT+hrBVFB/bzsKSy1wgCjXUd4T
+x+N/ksy8iXaQ9NiqT6PZhGsaq5CvKP1jN1qSkQDvr+2slxP5xfHAd0UcD79vm9ak
+BXO5xviS9zuzLy0xQzfClb5CyZG6Ld2e4RFSjaAN4BcIoLUevOzn9nvyRZQc7MZ0
+6bSYyj91jIMXyY78zP8zxfZlwiwWKFqg0/kqQNExiQbkQGlC4IaUnGqBlrp3VHN0
+nSW/Mw7qAsD6aRyeo87AcTfpLFe1ZxqSFfN7bZINilyqNAhEpx3tBnldx6xYCxq4
+1+m7fuBmNCiy0O95iNP6VviXqryFucDqkv8BVRwy7mekxcguOVNqVS1PnmPtzdV5
+pbmanF3N6goW39Vc0oyYB6n6NT/Wd7uC/42pPrrowF6vI5JyWBjcPHuAeboajseu
+eXHhQt28FFrogLeO6oeBv3xQt1KjfQ1diFW7lu6WAVEirpIf7g==
+=AYo0
 -----END PGP SIGNATURE-----
 
---===============7582539753372993931==--
+--===============6813479128244138765==--
