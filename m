@@ -1,51 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============1629131358455603611=="
+Content-Type: multipart/mixed; boundary="===============9140983906707224634=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Tue, 13 Jan 2026 13:03:44 -0000
-Message-Id: <176830942484.3887646.13633586110313305722@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
+Date: Tue, 13 Jan 2026 13:04:03 -0000
+Message-Id: <176830944349.3887999.5938926101542273454@gitolite.kernel.org>
 
---===============1629131358455603611==
+--===============9140983906707224634==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/regulator
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/regulator-6.20
+  - ref: refs/heads/for-next
     old: 09dc08b396c954820f119e1ab0c7d72333c18323
     new: f1fcc2689fd8dcb6a23fdf7a4c4c9cfda10329ef
     log: revlist-09dc08b396c9-f1fcc2689fd8.txt
 
---===============1629131358455603611==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1768309423 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1768309422-b016f072784a862e53de6632aa74e712d90334e9
-
-09dc08b396c954820f119e1ab0c7d72333c18323 f1fcc2689fd8dcb6a23fdf7a4c4c9cfda10329ef refs/heads/regulator-6.20
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmlmQq8ACgkQJNaLcl1U
-h9DXEQf9G/hkOqhXjLzfz4UvCT3B5w6X6rv0GMZ/HR1O5tCevyI+4KCDmXt5m5qj
-nwM5SyGenhhaHNNq9XJEc0Ey0IsjLDc40lZpfLn7e5z51qLP6LWVxI4OiHFtOVD2
-rRlzNWEPY0Eptob+kjlyz40L0M7dH3l7HkykluruTQ9HMR+4DbWHR2jvgqZs9rnC
-45wGjOF1v+Hd7GdrXU2/QBtX/eSW7nAJL4Xh9mcmUFdMaQX7nuFu2wE1cCAFsn2L
-zDPSUwJEVLKJWkm8r8tYByj7vtuZI4qkXlX2Gdx/gKTXnbhIAzbNs/8PeYKhXeqi
-kYAIwdRCB0oVsqAIx0EvHs7Hr7z6qw==
-=XCpk
------END PGP SIGNATURE-----
-
---===============1629131358455603611==
+--===============9140983906707224634==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -387,4 +362,4 @@ da1456e435ae84852bda484cd4d60f47228d52fc regulator: dt-bindings: Document TI TPS
 b0fc1e7701940d12ea2c41f386aa552bc4cc3629 regulator: Add TPS65185 driver
 f1fcc2689fd8dcb6a23fdf7a4c4c9cfda10329ef regulator: Add TPS65185
 
---===============1629131358455603611==--
+--===============9140983906707224634==--
