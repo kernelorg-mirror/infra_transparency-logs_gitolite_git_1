@@ -1,94 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bigeasy/linuxptp-hsr
-Date: Tue, 13 Jan 2026 16:28:59 -0000
-Message-Id: <176832173959.4067896.9573057396528828251@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/korgalore/korgalore
+Date: Tue, 13 Jan 2026 16:32:13 -0000
+Message-Id: <176832193333.4071486.5190670284978872358@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bigeasy/linuxptp-hsr
-user: bigeasy
+repo: pub/scm/utils/korgalore/korgalore
+user: mricon
 changes:
-  - ref: refs/heads/hsr_v2
-    old: 0000000000000000000000000000000000000000
-    new: b92b77516d8a48b23d648ae661871f2747a89254
   - ref: refs/heads/master
-    old: 0000000000000000000000000000000000000000
-    new: a1eae149f5191516d3a5b795bd0b0cf81c2fdcce
-  - ref: refs/tags/v1.0
-    old: 0000000000000000000000000000000000000000
-    new: 15f17beabc045c96a5e48d431300b8e553cfc56d
-  - ref: refs/tags/v1.1
-    old: 0000000000000000000000000000000000000000
-    new: 33c09753b8b133c0e299862ae607b53a7f6aaadd
-  - ref: refs/tags/v1.2
-    old: 0000000000000000000000000000000000000000
-    new: 76633eb8b2fc6f082887e33101dec1b65268f2e2
-  - ref: refs/tags/v1.3
-    old: 0000000000000000000000000000000000000000
-    new: 62e31a6cc5445d25910ebc3524171403211d4e9f
-  - ref: refs/tags/v1.4
-    old: 0000000000000000000000000000000000000000
-    new: 8996a515090e3ec72492233ef7a05e1fe7e67ed0
-  - ref: refs/tags/v1.5
-    old: 0000000000000000000000000000000000000000
-    new: 65f89c585e196a5944fc9d82688260e69df86d85
-  - ref: refs/tags/v1.5.1
-    old: 0000000000000000000000000000000000000000
-    new: 531b6ba428f19143527dc08407b7371749364a23
-  - ref: refs/tags/v1.6
-    old: 0000000000000000000000000000000000000000
-    new: 1aec5e3a35293028a2e2083e96d6d992e47f1a36
-  - ref: refs/tags/v1.6.1
-    old: 0000000000000000000000000000000000000000
-    new: 3c352fb1f88837ef07528dd329536d4d7cf468f4
-  - ref: refs/tags/v1.7
-    old: 0000000000000000000000000000000000000000
-    new: 52a5574b59507b52f74d574eb1e0ed171d902ee8
-  - ref: refs/tags/v1.7.1
-    old: 0000000000000000000000000000000000000000
-    new: b8819e614654871e0332d0d569d90c946a276ce8
-  - ref: refs/tags/v1.8
-    old: 0000000000000000000000000000000000000000
-    new: 193b638f141e2ce824af79c4a5efb9ba6fe2c34f
-  - ref: refs/tags/v1.8.1
-    old: 0000000000000000000000000000000000000000
-    new: 33d1e78d37453f23faff24068a07168d8a21b4dd
-  - ref: refs/tags/v1.9.2
-    old: 0000000000000000000000000000000000000000
-    new: d76790116afad38d74e39a7bf10a63513a031d70
-  - ref: refs/tags/v1.9.3
-    old: 0000000000000000000000000000000000000000
-    new: 56fe7438e4a00142c842bb987b4bfc52beb059d0
-  - ref: refs/tags/v2.0
-    old: 0000000000000000000000000000000000000000
-    new: 3473dda3288373c58d660798aa06d995ad335835
-  - ref: refs/tags/v2.0.1
-    old: 0000000000000000000000000000000000000000
-    new: ff6e9a390896ad409edf2c2a4956ee382a109d06
-  - ref: refs/tags/v3.0
-    old: 0000000000000000000000000000000000000000
-    new: fa6191b6828e2ba7da94684f100510cf784f81e8
-  - ref: refs/tags/v3.1
-    old: 0000000000000000000000000000000000000000
-    new: ec3f28a0ac13df805278164f2c72e69676d13134
-  - ref: refs/tags/v3.1.1
-    old: 0000000000000000000000000000000000000000
-    new: 57caf5d94876e8329be65d2dc29d3c528b149724
-  - ref: refs/tags/v4.0
-    old: 0000000000000000000000000000000000000000
-    new: 5ab8154ae2f1dfa50d71632de1461d33d82e706b
-  - ref: refs/tags/v4.1
-    old: 0000000000000000000000000000000000000000
-    new: d7ba3ab92b11880e827f602c03c792697050844f
-  - ref: refs/tags/v4.2
-    old: 0000000000000000000000000000000000000000
-    new: 2cea25c42e061af0cfe3da9d6ff6f4f7ac2e2ba2
-  - ref: refs/tags/v4.3
-    old: 0000000000000000000000000000000000000000
-    new: a3ccdf3b06f1a79bab24aed6082c817ebdfd90b9
-  - ref: refs/tags/v4.4
-    old: 0000000000000000000000000000000000000000
-    new: 4ff3c31ebe1bc1be91e939a0e424115d6052cf02
+    old: df375b0543efdf843538b1f82ec08f2e34668a21
+    new: 59f56dc8fb11c79b729fc5799c30a93c54f2cc48
+    log: |
+         a04a08c7b9af7b69f2e36c99fd6a664ff96ad15f Implement GNOME taskbar status indicator application
+         6e579e7142d32c16f3f0aa101230d829f9e364f9 gui: Add Gmail re-authentication support
+         8370921cf141e0b4f16fd2a6ee52a45cfdf38c45 gui: Deduplicate message count by Message-ID
+         b7f45db7c0d40fb2e9d2eeaa103360b73c215af3 gui: Add menu item to edit configuration file
+         25289bcf5a544a4d612bb10bf42316d01a8beabb cli,gui: Add TOML validation after editing config file
+         158704a4869cf3cce91275239dfe737ca9e11065 gui: Reload configuration after successful validation
+         59f56dc8fb11c79b729fc5799c30a93c54f2cc48 Add desktop entry file for GNOME integration
+         
