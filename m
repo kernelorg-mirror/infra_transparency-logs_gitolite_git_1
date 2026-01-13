@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Tue, 13 Jan 2026 20:41:32 -0000
-Message-Id: <176833689262.92345.497435031748938603@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pinctrl/intel
+Date: Tue, 13 Jan 2026 20:47:12 -0000
+Message-Id: <176833723239.96758.16269832051008165593@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: peterz
+repo: pub/scm/linux/kernel/git/pinctrl/intel
+user: andy
 changes:
-  - ref: refs/heads/perf/core
-    old: f4045e9dbb94825491b6da164f14f22b63de6a4e
-    new: eebe6446ccb75ecb36cb145ab1cbc3db06cbc8d6
+  - ref: refs/heads/review-andy
+    old: 8f0b4cce4481fb22653697cced8d0d04027cb1e8
+    new: bfec8ce11af00971909b454fafc07341620bfa9f
     log: |
-         eebe6446ccb75ecb36cb145ab1cbc3db06cbc8d6 perf/core: Speed up kexec shutdown by avoiding unnecessary cross CPU calls
+         57db74bdaa546881f8351a35c9b6b4e9da4e0cc8 pinctrl: baytrail: Convert to use intel_gpio_add_pin_ranges()
+         bfec8ce11af00971909b454fafc07341620bfa9f pinctrl: lynxpoint: Convert to use intel_gpio_add_pin_ranges()
          
