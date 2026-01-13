@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vkoul/soundwire
-Date: Tue, 13 Jan 2026 11:29:41 -0000
-Message-Id: <176830378131.3803300.18423164358319625069@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Tue, 13 Jan 2026 11:39:23 -0000
+Message-Id: <176830436304.3810913.935769699660252904@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vkoul/soundwire
-user: vkoul
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: pabeni
 changes:
-  - ref: refs/heads/fixes
-    old: 8f0b4cce4481fb22653697cced8d0d04027cb1e8
-    new: 12d4fd9a657174496677cff2841315090f1c11fc
+  - ref: refs/heads/main
+    old: ff420c568b4cda293d9ef516a85c2f29fafc41d6
+    new: cd64d10b76f958b5a1b7bd7d9f022a96db56160c
     log: |
-         12d4fd9a657174496677cff2841315090f1c11fc soundwire: bus: fix off-by-one when allocating slave IDs
+         d327e2e74aedbe77e1dd716ec77b9aa828ef6812 net/rds: Add per cp work queue
+         4716af3897e95997d08183d351cece2dec9ee0c0 net/rds: Give each connection path its own workqueue
+         cd64d10b76f958b5a1b7bd7d9f022a96db56160c Merge branch 'net-rds-rds-tcp-bug-fix-collection-subset-1-work-queue-scalability'
          
