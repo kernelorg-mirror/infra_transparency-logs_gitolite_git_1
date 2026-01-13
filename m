@@ -1,21 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Tue, 13 Jan 2026 10:06:01 -0000
-Message-Id: <176829876136.3737900.16415825119886484647@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
+Date: Tue, 13 Jan 2026 10:11:44 -0000
+Message-Id: <176829910487.3742190.16488979147706154723@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: tglx
+repo: pub/scm/linux/kernel/git/xiang/erofs-utils
+user: xiang
 changes:
-  - ref: refs/heads/timers/core
-    old: 4725344462362e2ce2645f354737a8ea4280fa57
-    new: ae4535b0d9372ca90a24f2d9970310ee48eb3cc2
+  - ref: refs/heads/experimental
+    old: 0767efcd3c63633d8d3149b9fcf9d2998befdc34
+    new: 6a4583472dd5a083bac44855770f49df9418f05e
     log: |
-         0483e5e1dc78f53c540b19231e9cf5571ce01d50 hrtimer: Remove unused resolution constants
-         84663a5ad6333e8dcb57be9bb113f592e05b33c6 hrtimer: Remove public definition of HIGH_RES_NSEC
-         ae4535b0d9372ca90a24f2d9970310ee48eb3cc2 hrtimer: Drop _tv64() helpers
+         9911b7308db3c5cf0556c56450ba5ce061ddee26 erofs-utils: lib: ignore xattr_types[0] when matching xattr prefixes
+         61923eaa83551ae3570a754de6a7fad82d79cbbc erofs-utils: lib: fix erofs_prepare_xattr_ibody() return value
+         c86d705662f564dc68926d2667af905b42c9fa6d erofs-utils: lib: s3: fix diskbuf commit size
+         42a630d3f0cb63d1ec70aa45c3def9ef00b61f4f erofs-utils: lib: s3: properly escape object key names
+         6a4583472dd5a083bac44855770f49df9418f05e erofs-utils: mkfs: add `--xattr-inode-digest` option
          
