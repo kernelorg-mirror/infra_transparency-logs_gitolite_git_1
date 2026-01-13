@@ -1,21 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
-Date: Tue, 13 Jan 2026 06:39:16 -0000
-Message-Id: <176828635655.3571088.6494591968545775280@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xen/tip
+Date: Tue, 13 Jan 2026 06:58:17 -0000
+Message-Id: <176828749700.3585802.6930027820811967013@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/xiang/erofs-utils
-user: xiang
+repo: pub/scm/linux/kernel/git/xen/tip
+user: jgross
 changes:
-  - ref: refs/heads/experimental
-    old: 089b1f09721dee405a46fb57d39386cddc8e14df
-    new: 0767efcd3c63633d8d3149b9fcf9d2998befdc34
+  - ref: refs/heads/for-linus-7.0
+    old: 0f61b1860cc3f52aef9036d7235ed1f017632193
+    new: dc8ea8714311e549ee93a2b0bdd5487d20bfadbf
     log: |
-         a32d193a3f24de147d858ccc3033b17b09eeaf59 erofs-utils: lib: s3: fix diskbuf commit size
-         846a3697bd90cc6f7b37adbcb1ccabc0dedd9d41 erofs-utils: lib: s3: properly escape object key names
-         0767efcd3c63633d8d3149b9fcf9d2998befdc34 erofs-utils: mkfs: add `--xattr-inode-digest` option
+         842df741a4e464f65cf1a2056cd51e9a86a68a20 xen/events: replace use of system_wq with system_percpu_wq
+         378f1dc3d6472f9bd437f564daf5a1a2f32505e7 xen: privcmd: WQ_PERCPU added to alloc_workqueue users
+         db9aded979b491a24871e1621cd4e8822dbca859 x86/xen/pvh: Enable PAE mode for 32-bit guest only when CONFIG_X86_PAE is set
+         dc8ea8714311e549ee93a2b0bdd5487d20bfadbf xen/virtio: Don't use grant-dma-ops when running as Dom0
          
