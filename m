@@ -1,51 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============0982235868127707180=="
+Content-Type: multipart/mixed; boundary="===============4259745373660656964=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Tue, 13 Jan 2026 17:28:37 -0000
-Message-Id: <176832531712.4123964.1677053483692052500@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Tue, 13 Jan 2026 17:28:40 -0000
+Message-Id: <176832532082.4124114.4475796241851872709@gitolite.kernel.org>
 
---===============0982235868127707180==
+--===============4259745373660656964==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.20
+  - ref: refs/heads/spi-6.20
     old: 26cbb4dd58ae1ca83319e73e9397b06a8ca961c6
     new: 0f93dddb038ee1688d1a03f68d476902053dfa1b
     log: revlist-26cbb4dd58ae-0f93dddb038e.txt
 
---===============0982235868127707180==
+--===============4259745373660656964==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1768325315 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
-nonce 1768325315-d071ab26e9f8d8db1f003193f11f9f10a172ba1b
+pusher C3F436CA30F5D8EB 1768325319 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1768325318-7f8623cc70c89a27a5981881786f42f033e7b3a6
 
-26cbb4dd58ae1ca83319e73e9397b06a8ca961c6 0f93dddb038ee1688d1a03f68d476902053dfa1b refs/heads/for-6.20
+26cbb4dd58ae1ca83319e73e9397b06a8ca961c6 0f93dddb038ee1688d1a03f68d476902053dfa1b refs/heads/spi-6.20
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmlmgMMACgkQJNaLcl1U
-h9Dibgf/XkSbmjl5dGxTuxx64LJLSN9/qIdZ1Y2EwPqPUBnccCL+KfooB/D2R4Zu
-fazAkDMynLxkI31kMDBMjOKLMeKZQD4oXudt0tpdC10L49FiMmqfyo/Da3DOcfAn
-S9RODdcu7o9Sq+2sgK6yL59fBFSGI4LETbjqwLTHVtaf8W+o/UWPxyIhaP5LUDLZ
-aRxvXr5r+bxd2Ym6iAJ+FYA9HerxhOglT5e5aswo3aE3vH5TPyQgTHxiqyhVyDg9
-16WC6yX4IMPtNpdmW6yz/ixuqNebAZm5APNNLKsZbhjUL5m1EqkqsNAYauF1PhbE
-2Iz914H+fFTHlh1B2mJnu/QWzSQemQ==
-=dNmc
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmlmgMcACgkQJNaLcl1U
+h9Dk6wf9Guh53wfGn8XxPgahVv7ykatCgqWNn1OT6nDhWJx1LDVLGJ8YeGYJ2dID
+KjCbPBQowlbF81FgjItKq6DOqzYE5BQ79SvjKkrBa13OGlkg7qXB/XzFmZUZIEP4
+KFqdlY860Nah80t/3qzFgB0nOZom7BQqaA+Ah6a7JYOsRmFaBNEijdwu/GKrpzmB
+NgF55Gj7lIp39LgooYdtt9uGH231MyHDv2ogdsulmhFsbxNcxfYlrx5UlmQ2hIV3
+bHcXZ93HammY00jXLyp8mf4U2a/09/ZEfg/tQP7sADB9xrj5UaIQ+H0bu3ZMqCQa
+/f5OSKhEZzQQjbNhqjEa8u/nUIfRuQ==
+=DqkZ
 -----END PGP SIGNATURE-----
 
---===============0982235868127707180==
+--===============4259745373660656964==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -388,4 +388,4 @@ af4b2dc4810380a469dcd7508923b70892c2996a spi: spi-mem: Create a repeated address
 8618271887ca10ac5108fe7e1d82ba8f1b152cf9 spi: spi-mem: Limit octal DTR constraints to octal DTR situations
 0f93dddb038ee1688d1a03f68d476902053dfa1b mtd: spinand: Octal DTR support
 
---===============0982235868127707180==--
+--===============4259745373660656964==--
