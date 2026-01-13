@@ -1,23 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/conor/linux
-Date: Tue, 13 Jan 2026 22:23:55 -0000
-Message-Id: <176834303534.181695.9677368378665875173@gitolite.kernel.org>
+Subject: post-receive: pub/scm/bluetooth/bluez
+Date: Tue, 13 Jan 2026 22:24:23 -0000
+Message-Id: <176834306343.182089.5611172770571713476@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/conor/linux
-user: conor
+repo: pub/scm/bluetooth/bluez
+user: vudentz
 changes:
-  - ref: refs/heads/riscv-dt-for-next
-    old: 4297ddbf1d148a6007b91b2aec51853454253b96
-    new: 89febd6a02768200fcfc86ee57f1ece632805bff
+  - ref: refs/heads/master
+    old: a94f994201a69a36753abda65cc51937de9cd3e3
+    new: 4ce4b5d679ab62bc6361207c67007e9e6df22779
     log: |
-         fff010c776f715904ba0823bb347eac00dccffa2 dt-bindings: riscv: update ratified version of h, svinval, svnapot, svpbmt
-         0cdb7fc1879b1b858463125630f4dd5af6b111ad dt-bindings: riscv: Add B ISA extension description
-         b321256a4f36227e0c1ae54e8c6c48524dcba83d dt-bindings: riscv: Add descriptions for Za64rs, Ziccamoa, Ziccif, and Zicclsm
-         c712413333f8e19cc3de4e9cd1a3ed8a53169cc9 dt-bindings: riscv: Add Ssccptr, Sscounterenw, Sstvala, Sstvecd, Ssu64xl
-         89febd6a02768200fcfc86ee57f1ece632805bff dt-bindings: riscv: Add Sha and its comprised extensions
+         e9f2c8fdc676e8d33ed1a3be144594ebdfb620de shared/mcp: emit MCS error if value changes during long read
+         4ce4b5d679ab62bc6361207c67007e9e6df22779 test-mcp: add tests for long value reading
          
