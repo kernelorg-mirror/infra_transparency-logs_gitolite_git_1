@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============5624306001106100589=="
+Content-Type: multipart/mixed; boundary="===============7834360560918586404=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Tue, 13 Jan 2026 22:05:29 -0000
-Message-Id: <176834192961.168496.5005788342203455483@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
+Date: Tue, 13 Jan 2026 22:05:36 -0000
+Message-Id: <176834193692.168741.2647196974791186291@gitolite.kernel.org>
 
---===============5624306001106100589==
+--===============7834360560918586404==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/acme/linux
+repo: pub/scm/linux/kernel/git/perf/perf-tools-next
 user: acme
 changes:
   - ref: refs/heads/master
@@ -20,7 +20,7 @@ changes:
     new: b54345928fa1dbde534e32ecaa138678fd5d2135
     log: revlist-f0b9d8eb98df-b54345928fa1.txt
 
---===============5624306001106100589==
+--===============7834360560918586404==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -355,4 +355,4 @@ afd12f914c8f733a9660c97bdbe539aee88e742b Merge tag 'hyperv-fixes-signed-20260112
 0bb933a9fcdee14ef82970caeb8617ad59a11303 Merge tag 'for-linus' of git://git.kernel.org/pub/scm/virt/kvm/kvm
 b54345928fa1dbde534e32ecaa138678fd5d2135 Merge tag 'gfs2-for-6.19-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/gfs2/linux-gfs2
 
---===============5624306001106100589==--
+--===============7834360560918586404==--
