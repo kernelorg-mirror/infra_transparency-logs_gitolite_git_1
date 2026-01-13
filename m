@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6879138951308947984=="
+Content-Type: multipart/mixed; boundary="===============7178294238138140450=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Tue, 13 Jan 2026 04:19:20 -0000
-Message-Id: <176827796082.3458373.5774906832168329252@gitolite.kernel.org>
+Date: Tue, 13 Jan 2026 04:19:22 -0000
+Message-Id: <176827796245.3458566.8292312041768216654@gitolite.kernel.org>
 
---===============6879138951308947984==
+--===============7178294238138140450==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/mm-new
-    old: ab3d40bdac831c67e130fda12f3011505556500f
-    new: 34d0c2245536dab0df0efc54f079620305f4290f
-    log: revlist-ab3d40bdac83-34d0c2245536.txt
+  - ref: refs/heads/mm-unstable
+    old: 4d2d0ad5d6a267cb4473e5f50e1b363e8a9fac3d
+    new: dc510730db29e6d259e3550fe53484aa3d012970
+    log: revlist-4d2d0ad5d6a2-dc510730db29.txt
 
---===============6879138951308947984==
+--===============7178294238138140450==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ab3d40bdac83-34d0c2245536.txt
+Content-Disposition: attachment; filename=revlist-4d2d0ad5d6a2-dc510730db29.txt
 
 f3ccdfda345ca9a624ea425840a926b8338c1e25 wifi: rtw88: limit indirect IO under powered off for RTL8822CS
 dd39edb445f07400e748da967a07d5dca5c5f96e wifi: rtlwifi: 8192cu: fix tid out of range in rtl92cu_tx_fill_desc()
@@ -853,45 +853,5 @@ e71fd1f31a511d85ef776bb90c3b04720d193c42 mm/vmscan: select the closest preferred
 2ab0fec0ce66d5292e65eb2f63ea8d1f10acbb17 mm/vmscan: fix uninitialized variable in demote_folio_list()
 6cc8cdb409f42a63284b2da4d3253e6c0a051849 mm/early_ioremap: print the starting physical address in __early_ioremap()
 dc510730db29e6d259e3550fe53484aa3d012970 tsacct: skip all kernel threads
-a7ce8df5f6c23b06aaf797b557e1139fdc1b7c01 mm: memory-tiers, numa_emu: enable to create memory tiers using fake numa nodes
-719d36d106908b2d8549b78f31c3ec37dca93174 mm-memory-tiers-numa_emu-enable-to-create-memory-tiers-using-fake-numa-nodes-fix
-5350f4136430494c17a65c28ebceebdff73dc628 mm: numa_emu: add document for NUMA emulation
-7967036aca1de4aba1a4915041ae4409b0ab4ae2 mm/vmscan: don't demote if there is not enough free memory in the lower memory tier
-675a3d175f4a0a3776706078d34e53191ba86a79 mm: debug_vm_pgtable: add debug_vm_pgtable_free_huge_page()
-c2cb3620fd222b08aa4151bce48d10b1a1ca9c7b mm: page_alloc: add __split_page()
-ec856fdae1a8e4f311b658de7fe82def0d9feb46 mm: cma: kill cma_pages_valid()
-2ce642ee866ae2f07f16f84b035d6a860ef8fafc mm: page_alloc: add alloc_contig_frozen_{range,pages}()
-f58e0ee7ad5b36179f23e0215c4c68f23ab2f5e0 mm: cma: add cma_alloc_frozen{_compound}()
-2ca0980655a7cae468281aedd0da388ea28f4609 mm: hugetlb: allocate frozen pages for gigantic allocation
-2d7f63618fc977dee074ed1a2b4f6d731bdf2f55 migrate: replace RMP_ flags with TTU_ flags
-6e46a6f085358778796597706caec3310e5538ab ksm: initialize the addr only once in rmap_walk_ksm
-3b25d3dc909423b0c906efc064b9861c8f58ebc0 ksm: optimize rmap_walk_ksm by passing a suitable addressrange
-0be245c088925d5f50100198ed1af563a43b79fe mm: page_isolation: introduce page_is_unmovable()
-d0be5007a63410e7d73a4cda59adfd16a76a69e5 mm: page_alloc: optimize pfn_range_valid_contig()
-ee4530ffd0baf8d0afe5d32278c54e8568047c23 mm: hugetlb: optimize replace_free_hugepage_folios()
-be10831ec267b1f1d0bba830ce26d1f1035d7361 mm: hugetlb_cma: optimize hugetlb_cma_alloc_frozen_folio()
-ed2445956d34471302cb110f2a9eaba0d71a77db mm: hugetlb_cma: mark hugetlb_cma{_only} as __ro_after_init
-f54c62c201fc979d26af37d6e44268ec806948b7 mm: kmsan: add tests for high-order page freeing
-a63f13759f21f65c96a77ad92773d94162380948 kasan: sw_tags: use arithmetic shift for shadow computation
-9a46c8c5302aaad9e7971bd2cfd0929804dfc831 kasan: arm64: x86: make special tags arch specific
-9b2bec916d34d59986b6ee0dd18a7f6b38a7d2db kasan: Fix inline mode for x86 tag-based mode
-107e50cf0bd0fc1224c896e4326c6da6223213b0 x86/kasan: add arch specific kasan functions
-11f8b8f0b581763b5dfbe51d4bb2a5f5b82de897 x86/mm: reset tag for virtual to physical address conversions
-044b9578e855ec5f227eb4417842670434f53435 mm/execmem: untag addresses in EXECMEM_ROX related pointer arithmetic
-7d27f3d3f7264138d8152314a06c61cc24fe3ee1 x86/mm: physical address comparisons in fill_p*d/pte
-8f6f8d8d44ff9c70a289a1022befd34efd6101a7 x86/kasan: KASAN raw shadow memory PTE init
-068e575088b5bc63539ceb55960c2abeb5cdf757 x86/mm: LAM compatible non-canonical definition
-b0acbcfdb017912e932b602e6800dc9e5fc5dfcc x86/mm: LAM initialization
-59eb3fd1e92b169b00a78823b9f6668c2318df6c x86: minimal SLAB alignment
-c22668ddeabded18adfebc428e99d20d59bc6d9d arm64: unify software tag-based KASAN inline recovery path
-643c19588af96c2e0a727f2c865244f94a2aaa78 x86/kasan: logical bit shift for kasan_mem_to_shadow
-413dcede746273ae9e0ddffb2f66fbbce8ac1d3e x86/kasan: make software tag-based kasan available
-27489299e5f9566a6b0168c83528eb866329d48d mm/early_ioremap: clean up the use of WARN() for debugging
-35205f346a48c539b0dd000eb57c3fe59097f1fe mm/vmalloc: prevent RCU stalls in kasan_release_vmalloc_node
-a0e570a4df73337a74f3652ab3c289b8cbfbe3d5 lib: introduce hierarchical per-cpu counters
-ad746946f2dc32c58096275d7b4e9978f07d65c9 mm: fix OOM killer inaccuracy on large many-core systems
-9ff2bf5c61cf62a651bee47f19252ec0dd0cfe72 mm: implement precise OOM killer task selection
-8009a1b6e0ff6c753251dbad941c1d0435fd7cc3 sparc: use vmemmap_populate_hugepages for vmemmap_populate
-34d0c2245536dab0df0efc54f079620305f4290f mm: convert vmemmap_p?d_populate() to static functions
 
---===============6879138951308947984==--
+--===============7178294238138140450==--
