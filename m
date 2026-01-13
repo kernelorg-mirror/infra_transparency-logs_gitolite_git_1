@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1969707074351455729=="
+Content-Type: multipart/mixed; boundary="===============1073680625233680019=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
-Date: Tue, 13 Jan 2026 18:20:25 -0000
-Message-Id: <176832842523.4170375.4796838166982028091@gitolite.kernel.org>
+Date: Tue, 13 Jan 2026 18:20:26 -0000
+Message-Id: <176832842638.4170458.17031037921440370566@gitolite.kernel.org>
 
---===============1969707074351455729==
+--===============1073680625233680019==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,19 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ath/ath
 user: jjohnson
 changes:
-  - ref: refs/heads/main
-    old: 87e9e52b4bfedea84f941c48907e0de0d70c0a7f
-    new: f8672a4229d71d1856b63a4945c162c35afb7977
-    log: revlist-87e9e52b4bfe-f8672a4229d7.txt
-  - ref: refs/tags/ath-202601131803
-    old: 0000000000000000000000000000000000000000
-    new: f8672a4229d71d1856b63a4945c162c35afb7977
+  - ref: refs/heads/ath-next
+    old: d66676e6ca96bf8680f869a9bd6573b26c634622
+    new: 24a57985670e9dac5547e5b7731bf8e7b03d5be8
+    log: revlist-d66676e6ca96-24a57985670e.txt
 
---===============1969707074351455729==
+--===============1073680625233680019==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-87e9e52b4bfe-f8672a4229d7.txt
+Content-Disposition: attachment; filename=revlist-d66676e6ca96-24a57985670e.txt
 
 433f7744cb302ac22800dc0cd50494319ce64ba0 platform/x86: alienware-wmi-wmax: Add support for new Area-51 laptops
 a584644a490d276907e56817694859eaac2a4199 platform/x86: alienware-wmi-wmax: Add AWCC support for Alienware x16
@@ -327,6 +324,12 @@ b4df828dfc290ffbb59b1172d71fdf34371edc23 net: dsa: microchip: Use regs[] to acce
 1850ec20d6e71218c02329e5975591075dc972d3 net: phy: realtek: use paged access for MDIO_MMD_VEND2 in C22 mode
 d8489935f5979b72e73de585037fe6fde7088bc3 net: phy: realtek: get rid of magic number in rtlgen_read_status()
 fd1de45ad24f24cf0aedee0f64e668674a9bd6c9 Merge branch 'net-phy-realtek-various-improvements-for-2-5ge-phys'
+21cbf883d073abbfe09e3924466aa5e0449e7261 wifi: avoid kernel-infoleak from struct iw_point
+333418872bfecf4843f1ded7a4151685dfcf07d5 wifi: mac80211_hwsim: fix typo in frequency notification
+c0d82ba9612fb65a8394af639f1427dbe87fb788 wifi: mac80211: don't iterate not running interfaces
+6f385937160174b31a5e4105e759406f0b128494 wifi: mac80211_hwsim: disable BHs for hwsim_radio_lock
+d594cc6f2c588810888df70c83a9654b6bc7942d wifi: mac80211: restore non-chanctx injection behaviour
+a203dbeeca15a9b924f0d51f510921f4bae96801 wifi: mac80211: collect station statistics earlier when disconnect
 108b661c79111ec163edb999825718aa57c3452d Merge tag 'sound-6.19-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/tiwai/sound
 79b95d74470dd97d7d0908d5a3c0734a23e51aa4 Merge tag 'hid-for-linus-2026010801' of git://git.kernel.org/pub/scm/linux/kernel/git/hid/hid
 6961aa43654b7231ef8e1ed91cbf1da98d20ec1e net: ethernet: ti: am65-cpsw: Discard pm_runtime_put() return value
@@ -417,13 +420,5 @@ aca1fe235c10f7d06e9ebab4534852f109e6a8e9 tools: ynl: cli: add --doc as alias to 
 2f2d896ec59a11a9baaa56818466db7a3178c041 Merge branch 'tools-ynl-cli-improve-the-help-and-doc'
 669aa3e3faa8ae876c169cde5b234828275caef8 Merge tag 'wireless-next-2026-01-12' of https://git.kernel.org/pub/scm/linux/kernel/git/wireless/wireless-next
 24a57985670e9dac5547e5b7731bf8e7b03d5be8 wifi: cfg80211: don't apply HT flags to S1G channels
-39c90b1a1dbe6d7c49d19da6e5aec00980c55d8b wifi: ath12k: cancel scan only on active scan vdev
-8b8d6ee53dfdee61b0beff66afe3f712456e707a wifi: ath12k: Fix scan state stuck in ABORTING after cancel_remain_on_channel
-f88e9fc30a261d63946ddc6cc6a33405e6aa27c3 wifi: ath12k: fix dead lock while flushing management frames
-31707572108da55a005e7fed32cc3869c16b7c16 wifi: ath12k: Fix wrong P2P device link id issue
-26a95c46c8c5fec6ac78151871a65246765ac90b Merge branch 'ath-next'
-625335af7f89243264b409a221330a18ac8e47c0 Merge branch 'ath-current'
-4079752693ba1570632770145f4b66ae2f635690 Merge remote-tracking branch 'mhi/mhi-next'
-f8672a4229d71d1856b63a4945c162c35afb7977 Add localversion-wireless-testing-ath
 
---===============1969707074351455729==--
+--===============1073680625233680019==--
