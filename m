@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Tue, 13 Jan 2026 03:13:54 -0000
-Message-Id: <176827403473.3407576.8338524760857796026@gitolite.kernel.org>
+Date: Tue, 13 Jan 2026 03:15:59 -0000
+Message-Id: <176827415980.3410913.14699533638030493868@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/netdev/net-next
 user: kuba
 changes:
   - ref: refs/heads/main
-    old: d2f59bf97579404c3735a6d0bc1739cf2d387925
-    new: e405b3c9d4aaa10972525fe2ea5cf94224020561
+    old: e405b3c9d4aaa10972525fe2ea5cf94224020561
+    new: 088f35ab9fd4a03b8c6ccdda7b92461d92bf7b8b
     log: |
-         e405b3c9d4aaa10972525fe2ea5cf94224020561 net: ipconfig: Remove outdated comment and indent code block
+         088f35ab9fd4a03b8c6ccdda7b92461d92bf7b8b selftests/net/ipsec: Fix variable size type not at the end of struct
          
