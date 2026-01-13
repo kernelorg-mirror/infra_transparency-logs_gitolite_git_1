@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Tue, 13 Jan 2026 15:08:22 -0000
-Message-Id: <176831690276.3998007.13078731981980059252@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Tue, 13 Jan 2026 15:09:12 -0000
+Message-Id: <176831695283.3998530.2591425302986535953@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: bp
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: pabeni
 changes:
-  - ref: refs/heads/x86/cleanups
-    old: 736a2dcfdae72483a36793bc92182f33bd61d30e
-    new: 8a4e92b3260ae7664d0531e1b42c38d336e7717a
+  - ref: refs/heads/main
+    old: cd64d10b76f958b5a1b7bd7d9f022a96db56160c
+    new: 50e194b6da721e4fa1fc6ebcf5969803c214929a
     log: |
-         8a4e92b3260ae7664d0531e1b42c38d336e7717a x86/crash: Use set_memory_p() instead of __set_memory_prot()
+         50e194b6da721e4fa1fc6ebcf5969803c214929a net: airoha: implement get_link_ksettings
          
