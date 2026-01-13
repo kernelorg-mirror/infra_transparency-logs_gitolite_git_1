@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============4126383595823031942=="
+Content-Type: multipart/mixed; boundary="===============8871641355290878292=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
-Date: Tue, 13 Jan 2026 22:04:43 -0000
-Message-Id: <176834188344.165475.11627705990332120511@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
+Date: Tue, 13 Jan 2026 22:04:57 -0000
+Message-Id: <176834189778.165766.12457840243332746203@gitolite.kernel.org>
 
---===============4126383595823031942==
+--===============8871641355290878292==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/perf/perf-tools-next
+repo: pub/scm/linux/kernel/git/acme/linux
 user: acme
 changes:
   - ref: refs/heads/tmp.perf-tools-next
@@ -20,7 +20,7 @@ changes:
     new: a32541623c5d49bf7f186d6ad97746f2e7aabc12
     log: revlist-54a23bff7709-a32541623c5d.txt
 
---===============4126383595823031942==
+--===============8871641355290878292==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -62,4 +62,4 @@ cc5020facc55b19e5b1229221e7612603d8538b4 perf vendor events amd: Add Zen 6 core 
 c166269c2773be7d277729d6c8f1e7f32b3c8ae7 perf help: Move common_cmds into builtin-help
 a32541623c5d49bf7f186d6ad97746f2e7aabc12 perf tools: Switch printf("...%s", strerror(errno)) to printf("...%m")
 
---===============4126383595823031942==--
+--===============8871641355290878292==--
