@@ -1,26 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Tue, 13 Jan 2026 17:02:13 -0000
-Message-Id: <176832373315.4101207.2225600493961224459@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/remoteproc/linux
+Date: Tue, 13 Jan 2026 17:06:13 -0000
+Message-Id: <176832397312.4105043.4128451989230701745@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
-user: broonie
+repo: pub/scm/linux/kernel/git/remoteproc/linux
+user: mjp
 changes:
-  - ref: refs/heads/for-linus
-    old: f34b32745e2c9f85ee33b42e7a8cdaa1ee1c16a3
-    new: 8e29db1b08808f709231e6fd4c79dcdee5b17a17
+  - ref: refs/heads/rproc-next
+    old: 4df89cb826e0a2d5986a555703af1f98688ca2bf
+    new: a3bf6ee15a59d25724746f284de167af6dc76baf
     log: |
-         8e29db1b08808f709231e6fd4c79dcdee5b17a17 ASoC: amd: yc: Fix microphone on ASUS M6500RE
-         
-  - ref: refs/heads/for-next
-    old: 89d176b5ac7ca6c6ba0d13543ea77954ac9c8a47
-    new: 43ac530e3db53769b0c986cdbc68afaf2afa3e1d
-    log: |
-         8e29db1b08808f709231e6fd4c79dcdee5b17a17 ASoC: amd: yc: Fix microphone on ASUS M6500RE
-         43ac530e3db53769b0c986cdbc68afaf2afa3e1d Merge remote-tracking branch 'asoc/for-6.20' into asoc-next
+         ac3ea0730a1380f00109e69149f3be1a058c4ba9 dt-bindings: remoteproc: fsl,imx-rproc: Add support for i.MX95
+         454cb78611479bd5da4f191480456f42aca7f07b remoteproc: imx_rproc: Add runtime ops copy to support dynamic behavior
+         edd2a9956055ecb50e230cd02c7791205fc8d009 remoteproc: imx_rproc: Introduce prepare ops for imx_rproc_dcfg
+         d8ab94fa4370337158e96ea08d41e6e2d8fcb2a2 remoteproc: imx_rproc: Add support for System Manager LMM API
+         1ae680bbe77fe124916bd28a1dd6548847c56914 remoteproc: imx_rproc: Add support for System Manager CPU API
+         a3bf6ee15a59d25724746f284de167af6dc76baf remoteproc: imx_rproc: Add support for i.MX95
          
