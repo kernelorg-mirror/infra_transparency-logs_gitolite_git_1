@@ -1,51 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============3306055140248235145=="
+Content-Type: multipart/mixed; boundary="===============5000318445071207281=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Tue, 13 Jan 2026 13:49:21 -0000
-Message-Id: <176831216136.3925776.13259985367607619706@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Tue, 13 Jan 2026 13:49:24 -0000
+Message-Id: <176831216473.3925919.12160297922247665007@gitolite.kernel.org>
 
---===============3306055140248235145==
+--===============5000318445071207281==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.20
+  - ref: refs/heads/asoc-6.20
     old: e7c30ac379b429d439eb62ae1bb69720a6701e26
     new: 8978da8e51ed648a5ad5da3d4c0fffde46757cf2
     log: revlist-e7c30ac379b4-8978da8e51ed.txt
 
---===============3306055140248235145==
+--===============5000318445071207281==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1768312159 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1768312159-56b99996e3bdcb07ecba47d18bb45060990523f2
+pusher C3F436CA30F5D8EB 1768312162 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1768312162-c4f688a1b3356638ea96d5f1cbe65867a2a0745a
 
-e7c30ac379b429d439eb62ae1bb69720a6701e26 8978da8e51ed648a5ad5da3d4c0fffde46757cf2 refs/heads/for-6.20
+e7c30ac379b429d439eb62ae1bb69720a6701e26 8978da8e51ed648a5ad5da3d4c0fffde46757cf2 refs/heads/asoc-6.20
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmlmTV8ACgkQJNaLcl1U
-h9BV2wf9EQPQZE1ocp0AyNa0ad2lE/xiC8jcNiCBpKKYi9CXszID5DrpFqns0H9q
-kVgoCL6suX4IjkYzyxImbakUhvWjoNX7BIokTUoZVEBVixwNt3qHCb2XwC6UuEU8
-4MQJtHQKwStu/Q7cpejAqfKdhpE7FDlDoYOo1evzGHGjw3335IEAe4KXXtvMuCHw
-6xm/Ia2YwqkSWGiYwcl/bpOHx+AVtw//T4diArPKkv2ZYfKWtvpgAGwv2cis8cER
-+nv8rYLW7GuEnN6lF5Q1TK8Nv9yS3ki+AeIAKU6eD/5SNI64peNiVw4w86Ohd/G7
-vQwdR949SCwaIcQmAWDywV4rnfNw8w==
-=nObI
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmlmTWIACgkQJNaLcl1U
+h9C8Qwf8Do+FQqK8oTacVmLzOIiy4rdvaKA4S70U91q6xobKIkyXsAayvX2agVQ2
+6tZN5/N8SdxgZ6fU3/RHM++yF2q+FhLuSqkngHOTwzRVbwRpwHonX38LCAPz2wja
+v0wSShmj3cqTBPn4s8jSBEQohEvKLETtbmxw/qJ/igH/n+v7+z2sbiAaKFGFgInx
+9SXPB3cJprxbBD1T8e8cBIvbhlciZk4MgQgOSt8EMetF/4vjBE7cbFLrNFVyiIPw
+izcES9bD0FdiG7tQuqgdGl4d0z/19gUp3+8bqMpDiXojwF4d+AoFTDRELjwW5vZ0
+qQR5Q2tBRLYe4XDhiTX4/5GpeV5iFw==
+=gQpB
 -----END PGP SIGNATURE-----
 
---===============3306055140248235145==
+--===============5000318445071207281==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -75,4 +75,4 @@ eb4cd1a4a9ef115193a9bef447b5db11bb7defc9 sound: codecs: wm8962: Assorted fixes
 9dc2e2b63e5aeebbf0467aa8914f120bb6dbe7b2 Add devicetree support for aw88261 amplifier driver &
 8978da8e51ed648a5ad5da3d4c0fffde46757cf2 ASoC: Update rtq9128 document and source file
 
---===============3306055140248235145==--
+--===============5000318445071207281==--
