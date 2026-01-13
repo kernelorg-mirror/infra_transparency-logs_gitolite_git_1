@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Tue, 13 Jan 2026 09:16:46 -0000
-Message-Id: <176829580675.3697297.10904466020920978275@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Tue, 13 Jan 2026 09:25:53 -0000
+Message-Id: <176829635344.3704917.6551227007073645159@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: tglx
+repo: pub/scm/linux/kernel/git/netdev/net
+user: pabeni
 changes:
-  - ref: refs/heads/irq/core
-    old: aef30c8d569c0f31715447525640044c74feb26f
-    new: fb11a2493e685d0b733c2346f5b26f2e372584fb
+  - ref: refs/heads/main
+    old: dfdf774656205515b2d6ad94fce63c7ccbe92d91
+    new: ffe4ccd359d006eba559cb1a3c6113144b7fb38c
     log: |
-         fb11a2493e685d0b733c2346f5b26f2e372584fb genirq: Move clear of kstat_irqs to free_desc()
+         ffe4ccd359d006eba559cb1a3c6113144b7fb38c net: add net.core.qdisc_max_burst
          
