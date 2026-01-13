@@ -1,55 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============4259745373660656964=="
+Content-Type: multipart/mixed; boundary="===============0123662713437050137=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Tue, 13 Jan 2026 17:28:40 -0000
-Message-Id: <176832532082.4124114.4475796241851872709@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Tue, 13 Jan 2026 17:29:07 -0000
+Message-Id: <176832534728.4124648.3631748367915407331@gitolite.kernel.org>
 
---===============4259745373660656964==
+--===============0123662713437050137==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/spi
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/spi-6.20
-    old: 26cbb4dd58ae1ca83319e73e9397b06a8ca961c6
-    new: 0f93dddb038ee1688d1a03f68d476902053dfa1b
-    log: revlist-26cbb4dd58ae-0f93dddb038e.txt
+  - ref: refs/heads/for-next
+    old: 5e73b2e7d928d616c6c790cc9e208c0f47e857b0
+    new: 5d6f14459f837d9e94b1e4d596251039fd131711
+    log: revlist-5e73b2e7d928-5d6f14459f83.txt
 
---===============4259745373660656964==
+--===============0123662713437050137==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1768325319 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1768325318-7f8623cc70c89a27a5981881786f42f033e7b3a6
-
-26cbb4dd58ae1ca83319e73e9397b06a8ca961c6 0f93dddb038ee1688d1a03f68d476902053dfa1b refs/heads/spi-6.20
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmlmgMcACgkQJNaLcl1U
-h9Dk6wf9Guh53wfGn8XxPgahVv7ykatCgqWNn1OT6nDhWJx1LDVLGJ8YeGYJ2dID
-KjCbPBQowlbF81FgjItKq6DOqzYE5BQ79SvjKkrBa13OGlkg7qXB/XzFmZUZIEP4
-KFqdlY860Nah80t/3qzFgB0nOZom7BQqaA+Ah6a7JYOsRmFaBNEijdwu/GKrpzmB
-NgF55Gj7lIp39LgooYdtt9uGH231MyHDv2ogdsulmhFsbxNcxfYlrx5UlmQ2hIV3
-bHcXZ93HammY00jXLyp8mf4U2a/09/ZEfg/tQP7sADB9xrj5UaIQ+H0bu3ZMqCQa
-/f5OSKhEZzQQjbNhqjEa8u/nUIfRuQ==
-=DqkZ
------END PGP SIGNATURE-----
-
---===============4259745373660656964==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-26cbb4dd58ae-0f93dddb038e.txt
+Content-Disposition: attachment; filename=revlist-5e73b2e7d928-5d6f14459f83.txt
 
 05bbe52d0be5637dcd3c880348e3688f7ec64eb7 arm64: dts: ti: k3-am642-phyboard-electra-peb-c-010: Fix icssg-prueth schema warning
 d876bb9353d87dee0ae620300106e8def189c785 arm64: dts: ti: k3-am642-phyboard-electra-x27-gpio1-spi1-uart3: Fix schema warnings
@@ -387,5 +362,6 @@ fac4bdbacab5a9abe7e017069c640273c2a704e2 Merge tag 'sched-urgent-2026-01-11' of 
 af4b2dc4810380a469dcd7508923b70892c2996a spi: spi-mem: Create a repeated address operation
 8618271887ca10ac5108fe7e1d82ba8f1b152cf9 spi: spi-mem: Limit octal DTR constraints to octal DTR situations
 0f93dddb038ee1688d1a03f68d476902053dfa1b mtd: spinand: Octal DTR support
+5d6f14459f837d9e94b1e4d596251039fd131711 Merge remote-tracking branch 'spi/for-6.20' into spi-next
 
---===============4259745373660656964==--
+--===============0123662713437050137==--
