@@ -1,22 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/cpu/mce/mcelog
-Date: Tue, 13 Jan 2026 21:56:10 -0000
-Message-Id: <176834137049.160035.6091269422202642750@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
+Date: Tue, 13 Jan 2026 22:04:05 -0000
+Message-Id: <176834184535.164952.9146191737657076891@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/cpu/mce/mcelog
-user: aegl
+repo: pub/scm/linux/kernel/git/tnguy/net-queue
+user: tnguy
 changes:
-  - ref: refs/heads/master
-    old: 2965a540ac2fbf1e0a992afd17c01747d6fd66aa
-    new: b696d455fc55ef9ae704ec60ad177f33c61c218d
+  - ref: refs/heads/dev-queue
+    old: 855e576f30278714c7ca067005f46807aca2e6d4
+    new: fd56c7dfe663fb955dc7febd85dd6a61e5f13c2b
     log: |
-         b696d455fc55ef9ae704ec60ad177f33c61c218d mcelog: Improve cache-error-trigger script
+         fd56c7dfe663fb955dc7febd85dd6a61e5f13c2b ice: fix setting RSS VSI hash for E830
          
-  - ref: refs/tags/v209
-    old: 0000000000000000000000000000000000000000
-    new: b696d455fc55ef9ae704ec60ad177f33c61c218d
