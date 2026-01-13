@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/korgalore/korgalore
-Date: Tue, 13 Jan 2026 16:35:15 -0000
-Message-Id: <176832211534.4074897.9189353585279780182@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
+Date: Tue, 13 Jan 2026 16:37:09 -0000
+Message-Id: <176832222949.4075832.12503729483443436567@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/korgalore/korgalore
-user: mricon
+repo: pub/scm/linux/kernel/git/tnguy/net-queue
+user: tnguy
 changes:
-  - ref: refs/heads/master
-    old: 59f56dc8fb11c79b729fc5799c30a93c54f2cc48
-    new: 7f07f7b4bae71621da2f04cf32ec94da944faeb7
+  - ref: refs/heads/10GbE
+    old: f93fc5d12d69012788f82151bee55fce937e1432
+    new: ffe4ccd359d006eba559cb1a3c6113144b7fb38c
     log: |
-         7f07f7b4bae71621da2f04cf32ec94da944faeb7 docs: Document GUI features
+         e02f2a0f1f9b6d4f0c620de2ce037d4436b58f70 net: phy: motorcomm: fix duplex setting error for phy leds
+         dfdf774656205515b2d6ad94fce63c7ccbe92d91 net: airoha: Fix typo in airoha_ppe_setup_tc_block_cb definition
+         ffe4ccd359d006eba559cb1a3c6113144b7fb38c net: add net.core.qdisc_max_burst
          
