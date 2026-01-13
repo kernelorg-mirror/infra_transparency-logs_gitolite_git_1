@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4044098248779219931=="
+Content-Type: multipart/mixed; boundary="===============4894893289274520835=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/johan/gnss
-Date: Tue, 13 Jan 2026 08:24:52 -0000
-Message-Id: <176829269214.3654668.15384168524731773519@gitolite.kernel.org>
+Date: Tue, 13 Jan 2026 08:25:01 -0000
+Message-Id: <176829270111.3654973.13002508501914407352@gitolite.kernel.org>
 
---===============4044098248779219931==
+--===============4894893289274520835==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/johan/gnss
 user: johan
 changes:
-  - ref: refs/heads/gnss-linus
+  - ref: refs/heads/master
     old: 8f0b4cce4481fb22653697cced8d0d04027cb1e8
     new: 0f61b1860cc3f52aef9036d7235ed1f017632193
     log: revlist-8f0b4cce4481-0f61b1860cc3.txt
 
---===============4044098248779219931==
+--===============4894893289274520835==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -1051,4 +1051,4 @@ fac4bdbacab5a9abe7e017069c640273c2a704e2 Merge tag 'sched-urgent-2026-01-11' of 
 7143203341dccbca809ba0a8e72239ea4652ace6 Merge tag 'libcrypto-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/ebiggers/linux
 0f61b1860cc3f52aef9036d7235ed1f017632193 Linux 6.19-rc5
 
---===============4044098248779219931==--
+--===============4894893289274520835==--
