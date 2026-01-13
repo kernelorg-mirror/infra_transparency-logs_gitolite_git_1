@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1788128372386135665=="
+Content-Type: multipart/mixed; boundary="===============2213278371896176189=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs
-Date: Tue, 13 Jan 2026 02:01:53 -0000
-Message-Id: <176826971330.3350495.2058711398293509105@gitolite.kernel.org>
+Date: Tue, 13 Jan 2026 02:02:44 -0000
+Message-Id: <176826976422.3350924.12290337990275394452@gitolite.kernel.org>
 
---===============1788128372386135665==
+--===============2213278371896176189==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/xiang/erofs
 user: xiang
 changes:
-  - ref: refs/heads/dev-test
-    old: 054445f10a8a9fd90a19319444b8a1b9aafd11b9
+  - ref: refs/heads/dev
+    old: ab4b58a1bcba0d39ae20208a41e062d5ffee1614
     new: faf2e75062d691af8ecb48077fd7947bd7840cee
-    log: revlist-054445f10a8a-faf2e75062d6.txt
+    log: revlist-ab4b58a1bcba-faf2e75062d6.txt
 
---===============1788128372386135665==
+--===============2213278371896176189==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-054445f10a8a-faf2e75062d6.txt
+Content-Disposition: attachment; filename=revlist-ab4b58a1bcba-faf2e75062d6.txt
 
 f3ccdfda345ca9a624ea425840a926b8338c1e25 wifi: rtw88: limit indirect IO under powered off for RTL8822CS
 dd39edb445f07400e748da967a07d5dca5c5f96e wifi: rtlwifi: 8192cu: fix tid out of range in rtl92cu_tx_fill_desc()
@@ -629,4 +629,4 @@ d9ecae9c59134556ee81db520ad160e49a33104d erofs: fix incorrect early exits in vol
 821a146f81a0b38ff86c52e9b0778c6f222fc01b erofs: remove useless src in erofs_xattr_copy_to_buffer()
 faf2e75062d691af8ecb48077fd7947bd7840cee erofs: tidy up synchronous decompression
 
---===============1788128372386135665==--
+--===============2213278371896176189==--
