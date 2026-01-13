@@ -1,43 +1,41 @@
-Content-Type: multipart/mixed; boundary="===============6855885063586499785=="
+Content-Type: multipart/mixed; boundary="===============7181609375550400776=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/util-linux/util-linux
-Date: Tue, 13 Jan 2026 14:09:17 -0000
-Message-Id: <176831335792.3945451.8185114804465139909@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vbabka/slab
+Date: Tue, 13 Jan 2026 14:12:47 -0000
+Message-Id: <176831356744.3949097.8043400787855395465@gitolite.kernel.org>
 
---===============6855885063586499785==
+--===============7181609375550400776==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/util-linux/util-linux
-user: kzak
+repo: pub/scm/linux/kernel/git/vbabka/slab
+user: vbabka
 changes:
-  - ref: refs/heads/master
-    old: 52e1b17ff2d03a9cc837397388caa5ae14dce2cc
-    new: 6766bbf17ad618a6a7d35d4cffe5134da2ffe077
-    log: revlist-52e1b17ff2d0-6766bbf17ad6.txt
+  - ref: refs/heads/slab/for-next
+    old: 3061d1fe11e7be394af8ec0f889b07fdf4056bda
+    new: 22b166b482a1bfa0a848c08b6270d1ea7224a9e6
+    log: revlist-3061d1fe11e7-22b166b482a1.txt
 
---===============6855885063586499785==
+--===============7181609375550400776==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-52e1b17ff2d0-6766bbf17ad6.txt
+Content-Disposition: attachment; filename=revlist-3061d1fe11e7-22b166b482a1.txt
 
-3af46a303585967b1417941fa065b72aff4a2f16 tests: (lsfd::mkfds-mmap-maksed-file) revise the description
-611e5ddd7ecbf855813de87d426f70751e56874b lib/path: (cosmetic) delete the empty line at the EOF
-2e18b7a5edc784ad5e69b33d767fe8ec4867e237 tests: (refactor) add ts_skip_config, a new helper function
-17c8ca7913caecd6c9e223cccc825a23deb8679d lib/path: add __format__ attr to ul_path_v?statf()
-f55c1c092add6bea2fc34e61e4b85651934c26cc lib/path: add wrapers for statx(2)
-035cf61cde0286905ea454f34b4baa416933f02d lsfd: (refactor) add has_mnt_id helper macro
-6b1fcee6ee46ef3ae81261bff089b29b8ff98440 lsfd: fill MNTID coulmn for shm and mem assocations
-0be33155f7a96725312d90a7fe330a7d82e910cc tests: (test_mkfds::mmap) add "shared" paramter
-b62d56482cc9a0dbdb68c1e555c21937b2a5596b tests: (lsfd::column-mntid) add a new case
-8dc1f423ad8e44ccf4c3f222a81f3ff53408b9a8 lsfd: fill MNTID coulmn for exe, cwd, and rtd assocations
-093d21775bcaffad5850d87c6ac0a8eb8b20845b lslocks: (bugfix) don't set rawdata in COL_PID if rawdata is null
-7f4d5ce9b4ec4e44fbd2e6e6b8dd2e600ddbd72d lib/path: Ensure consistent and robust path checks
-6766bbf17ad618a6a7d35d4cffe5134da2ffe077 Merge branch 'lslocks--fix-oPID' of https://github.com/masatake/util-linux
+aff9fb2fffa1175bd5ae3b4630f3d4ae53af450b slub: keep empty main sheaf as spare in __pcs_replace_empty_main()
+edc8e3102a9502632248e19e5a9aa30926789294 mm/slab: use unsigned long for orig_size to ensure proper metadata align
+8d4f09cc854b1bb2d0696a02df89842b75aafd01 mm/slab: allow specifying free pointer offset when using constructor
+6f4fdda499bf94e776a07084f451e159996637b4 ext4: specify the free pointer offset for ext4_inode_cache
+7466382b7211d95b390b284d3e6d43f97e02b6d2 mm/slab: abstract slabobj_ext access via new slab_obj_ext() helper
+478b6cd1eb43d0eb025184652a57a9f4273a3658 mm/slab: use stride to access slabobj_ext
+3613e62ca40ef3f89694b10cbd663fe851aefd18 mm/memcontrol,alloc_tag: handle slabobj_ext access under KASAN poison
+aeb88c8de3688638632d5867c352676d334e6531 mm/slab: save memory by allocating slabobj_ext array from leftover
+1e8eb4117f27366855b192104098330a2f290f26 mm/slab: move [__]ksize and slab_ksize() to mm/slub.c
+a4e5702b7bb846cf50d2917cadf2289c25720812 mm/slab: place slabobj_ext metadata in unused space within s->size
+22b166b482a1bfa0a848c08b6270d1ea7224a9e6 Merge branch 'slab/for-7.0/obj_metadata' into slab/for-next
 
---===============6855885063586499785==--
+--===============7181609375550400776==--
