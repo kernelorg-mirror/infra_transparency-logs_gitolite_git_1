@@ -1,28 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Tue, 13 Jan 2026 13:01:31 -0000
-Message-Id: <176830929137.3885908.11061722663840320156@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/libata/linux
+Date: Tue, 13 Jan 2026 13:01:50 -0000
+Message-Id: <176830931062.3886147.10272120311655849016@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rdma/rdma
-user: leon
+repo: pub/scm/linux/kernel/git/libata/linux
+user: dlemoal
 changes:
-  - ref: refs/heads/wip/leon-for-next
-    old: 95b2717aa057e0637c2f36b5369a625a62741133
-    new: 88f2bf22d99b4a89f5ec3d3dec07271368499c3c
+  - ref: refs/heads/for-6.19-fixes
+    old: ca67edd45056dd015236c1f5de5724b01a926351
+    new: cbd217ba678f7f27653c114260cd6b48a72c65f3
     log: |
-         83835f7c07b523c7ca2a5ad0a511670b5810539e RDMA/rtrs-srv: fix SG mapping
-         d6cc7b0d6191e3762296dd32a8d9c2e276b950dd RDMA/rtrs: Add error description to the logs
-         9293e042782df38434191de8f3703fe2cb808ad6 RDMA/rtrs: Add optional support for IB_MR_TYPE_SG_GAPS
-         f85febf57bb567b59b41a13c9bf845a73b616d10 RDMA/rtrs: Improve error logging for RDMA cm events
-         781c35b5d570d3dd242cf0578a92c93ca63fc14f RDMA/rtrs-clt: Remove unused members in rtrs_clt_io_req
-         c32eaba2d760ef0ec5426b207cf0ce750064cf36 RDMA/rtrs-srv: Add check and closure for possible zombie paths
-         b034a10fdfc4fff547a4ee0602538a214534c426 RDMA/rtrs-srv: Rate-limit I/O path error logging
-         6405f72e7a3ad7567d16ad5b52d086f573c39548 RDMA/rtrs: Extend log message when a port fails
-         fc290630702b530c2969061e7ef0d869a5b6dc4f RDMA/rtrs-clt: For conn rejection use actual err number
-         88f2bf22d99b4a89f5ec3d3dec07271368499c3c RDMA/rtrs-srv: Fix error print in process_info_req()
+         2dde902402a47e3c6c31e07745db19a8ed061236 ata: ahci: Do not read the per port area for unimplemented ports
+         d2b9d6d242e4625f66ab3f760d3ffa76b80587c0 ata: libata: Call ata_dev_config_lpm() for ATAPI devices
+         38b8b7aeeb4c9695d0fb6555b7dd3b2d6ac69757 ata: libata-sata: Improve link_power_management_supported sysfs attribute
+         a74324192e560b725b1b96d50c08868886b3b29d ata: libata: Add cpr_log to ata_dev_print_features() early return
+         f9e5d0f948a0f2364a8d80e85446072506b39548 ata: libata: Add DIPM and HIPM to ata_dev_print_features() early return
+         cbd217ba678f7f27653c114260cd6b48a72c65f3 ata: libata: Print features also for ATAPI devices
          
