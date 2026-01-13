@@ -1,22 +1,37 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Tue, 13 Jan 2026 12:18:59 -0000
-Message-Id: <176830673979.3849282.7124670237951217993@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
+Date: Tue, 13 Jan 2026 12:27:48 -0000
+Message-Id: <176830726879.3856821.8533456323123494815@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/tiwai/sound
+user: tiwai
 changes:
-  - ref: refs/heads/asoc-6.20
-    old: 9dc2e2b63e5aeebbf0467aa8914f120bb6dbe7b2
-    new: 8978da8e51ed648a5ad5da3d4c0fffde46757cf2
+  - ref: refs/heads/for-linus
+    old: b7e26c8bdae70832d7c4b31ec2995b1812a60169
+    new: cbd46cbc5470f9cb0bbeff70561a3dd3e0769fe1
     log: |
-         daf86dcdbb40c4a0e4b8e579c6eecf148560711f ASoC: codecs: rtq9128: Modify the chip initial setting
-         b7d53fe53cb57db1ca5743d2ac2db28140c37647 ASoC: dt-bindings: rtq9128: Add rtq9154 backward compatible
-         6be9ea62afedef0f976eb3dba4c117be0c1d3809 ASoC: codecs: rtq9128: Add compatible changes for rtq9154
-         8978da8e51ed648a5ad5da3d4c0fffde46757cf2 ASoC: Update rtq9128 document and source file
+         cbd46cbc5470f9cb0bbeff70561a3dd3e0769fe1 ALSA: hda/realtek: Add quirk for Asus Zephyrus G14 2025 using CS35L56, fix speakers
+         
+  - ref: refs/heads/for-next
+    old: 8bf65ec41901ff6b2958576ba4896589d89f6404
+    new: 72919c57a055f6d7b79d66731dc398e9b433f47c
+    log: |
+         0924c6bb67b67384c53c63df4a3f4a86cd2c2624 ALSA: hda/cs8409: Add quirk for CDB35L56-FOUR-HD
+         72919c57a055f6d7b79d66731dc398e9b433f47c ALSA: hda/realtek: add HP Victus 16-e0xxx mute LED quirk
+         
+  - ref: refs/heads/master
+    old: 0969903d6725d282b8e44b3403fe7b37a2a85d9b
+    new: 56f2dbb75cf85fc7b3a61d86abed871fa45718ea
+    log: |
+         cbd46cbc5470f9cb0bbeff70561a3dd3e0769fe1 ALSA: hda/realtek: Add quirk for Asus Zephyrus G14 2025 using CS35L56, fix speakers
+         b493024dfea1660720870e3f96dd63236b0a1daa Merge branch 'for-linus'
+         0924c6bb67b67384c53c63df4a3f4a86cd2c2624 ALSA: hda/cs8409: Add quirk for CDB35L56-FOUR-HD
+         f917c5d30a4ad03c5937cff4f97c5ffaab51360c Merge branch 'for-next'
+         72919c57a055f6d7b79d66731dc398e9b433f47c ALSA: hda/realtek: add HP Victus 16-e0xxx mute LED quirk
+         56f2dbb75cf85fc7b3a61d86abed871fa45718ea Merge branch 'for-next'
          
