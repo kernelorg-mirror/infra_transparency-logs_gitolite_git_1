@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
-Date: Tue, 13 Jan 2026 19:39:05 -0000
-Message-Id: <176833314545.39557.11619153462640060109@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Tue, 13 Jan 2026 19:47:13 -0000
+Message-Id: <176833363353.47012.4400188683318403747@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ath/ath
-user: jjohnson
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
-  - ref: refs/tags/ath-202601131938
-    old: 0000000000000000000000000000000000000000
-    new: 613c2acdaaf0d5cdc5b20651160281d32f869472
+  - ref: refs/heads/main
+    old: 50e194b6da721e4fa1fc6ebcf5969803c214929a
+    new: c65182ef9df6bb96fd85b56a2bcdd18d64c4d3b5
+    log: |
+         c65182ef9df6bb96fd85b56a2bcdd18d64c4d3b5 selftests: net: reduce txtimestamp deschedule flakes
+         
