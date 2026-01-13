@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/libs/libgpiod/libgpiod
-Date: Tue, 13 Jan 2026 15:12:43 -0000
-Message-Id: <176831716382.4002467.1113684285476280479@gitolite.kernel.org>
+Date: Tue, 13 Jan 2026 15:13:00 -0000
+Message-Id: <176831718016.4002697.9897660306900734974@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,9 +11,9 @@ service: git-receive-pack
 repo: pub/scm/libs/libgpiod/libgpiod
 user: brgl
 changes:
-  - ref: refs/heads/master
-    old: 859b3c7106589831458962cb0eb06a0c5e1b679d
-    new: fbc0a4471215732e8f8e4296f5cebf9b2b05112f
+  - ref: refs/heads/python-v2.4.x
+    old: e1d5096c6d83bffbc18c9218ca42bffa045e4d75
+    new: 8a3058296d95c55f42578463e231693887fccbad
     log: |
-         fbc0a4471215732e8f8e4296f5cebf9b2b05112f bindings: python: add missing Py_None reference increment
+         8a3058296d95c55f42578463e231693887fccbad bindings: python: add missing Py_None reference increment
          
