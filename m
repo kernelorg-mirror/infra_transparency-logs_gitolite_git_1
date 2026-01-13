@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3719281980777117311=="
+Content-Type: multipart/mixed; boundary="===============8073786952867950432=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/johan/usb-serial
-Date: Tue, 13 Jan 2026 08:26:35 -0000
-Message-Id: <176829279565.3658473.14199135177514055765@gitolite.kernel.org>
+Date: Tue, 13 Jan 2026 08:26:45 -0000
+Message-Id: <176829280540.3658692.12304668040744874465@gitolite.kernel.org>
 
---===============3719281980777117311==
+--===============8073786952867950432==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/johan/usb-serial
 user: johan
 changes:
-  - ref: refs/heads/usb-linus
+  - ref: refs/heads/master
     old: 8f0b4cce4481fb22653697cced8d0d04027cb1e8
     new: f8f9c1f4d0c7a64600e2ca312dec824a0bc2f1da
     log: revlist-8f0b4cce4481-f8f9c1f4d0c7.txt
 
---===============3719281980777117311==
+--===============8073786952867950432==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -556,4 +556,4 @@ cd80afff4877e1151ce53d48b65eba9de80ac1d2 Merge tag 'powerpc-6.19-2' of git://git
 c875a6c3246713a018d8b7b143deb3ebaeecaf1c Merge tag 'usb-6.19-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/usb
 f8f9c1f4d0c7a64600e2ca312dec824a0bc2f1da Linux 6.19-rc3
 
---===============3719281980777117311==--
+--===============8073786952867950432==--
