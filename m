@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============2733834953123030797=="
+Content-Type: multipart/mixed; boundary="===============8260767634697781041=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Tue, 13 Jan 2026 19:28:24 -0000
-Message-Id: <176833250488.31147.8554549663427405610@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
+Date: Tue, 13 Jan 2026 19:28:29 -0000
+Message-Id: <176833250971.31468.9783076639953752170@gitolite.kernel.org>
 
---===============2733834953123030797==
+--===============8260767634697781041==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/acme/linux
+repo: pub/scm/linux/kernel/git/perf/perf-tools-next
 user: acme
 changes:
   - ref: refs/heads/perf-tools-next
@@ -20,7 +20,7 @@ changes:
     new: 54a23bff770961e024e2c61cd1f46888190c3e79
     log: revlist-75326c67aa8c-54a23bff7709.txt
 
---===============2733834953123030797==
+--===============8260767634697781041==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -38,4 +38,4 @@ a2297e74a07d21eb498d8549ae6fddc35cf26ec6 perf srcline: Add configuration support
 abec464767b5d26f0612250d511c18f420826ca1 perf callchain: Fix srcline printing with inlines
 54a23bff770961e024e2c61cd1f46888190c3e79 perf test: Test addr2line unwinding works with inline functions
 
---===============2733834953123030797==--
+--===============8260767634697781041==--
