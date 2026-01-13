@@ -1,28 +1,42 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
-Date: Tue, 13 Jan 2026 17:09:17 -0000
-Message-Id: <176832415752.4106525.9104024944329732567@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============7898635573518307688=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs
+Date: Tue, 13 Jan 2026 17:13:22 -0000
+Message-Id: <176832440263.4110471.17397650630428874077@gitolite.kernel.org>
+
+--===============7898635573518307688==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tiwai/sound
-user: tiwai
+repo: pub/scm/linux/kernel/git/jaegeuk/f2fs
+user: jaegeuk
 changes:
-  - ref: refs/heads/for-next
-    old: 72919c57a055f6d7b79d66731dc398e9b433f47c
-    new: 78e35b0156c3d98e9a61c673fd585a9a01acc6dc
-    log: |
-         3ce03297baff0ba116769044e4594fb324d4a551 ALSA: usb-audio: presonus s18xx uses little-endian
-         78e35b0156c3d98e9a61c673fd585a9a01acc6dc ALSA: usb-audio: clean up presonus s1810 consts
-         
-  - ref: refs/heads/master
-    old: bc598dafc99a64effdfcd6ef9ae70b8bdb7fea81
-    new: 46b643eeddd9f49c4a56deaa760c9f7c8cdd5563
-    log: |
-         3ce03297baff0ba116769044e4594fb324d4a551 ALSA: usb-audio: presonus s18xx uses little-endian
-         78e35b0156c3d98e9a61c673fd585a9a01acc6dc ALSA: usb-audio: clean up presonus s1810 consts
-         46b643eeddd9f49c4a56deaa760c9f7c8cdd5563 Merge branch 'for-next'
-         
+  - ref: refs/heads/dev-test
+    old: 2ff2a9420a8221dd4fb45d7e5f60e33f17914a30
+    new: 96bc5abf22b2308817c557c08d6cffff9607955f
+    log: revlist-2ff2a9420a82-96bc5abf22b2.txt
+
+--===============7898635573518307688==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-2ff2a9420a82-96bc5abf22b2.txt
+
+daca11f5dfa8d4070ed91ae6caf67edd1c49f534 f2fs: fix to avoid UAF in f2fs_write_end_io()
+16d97e728032fe74f8a544ae2884b6a48229fdba f2fs: make FAULT_DISCARD obsolete
+52a492d121d294d943b15938236924061479cfa6 f2fs: support non-4KB block size without packed_ssa feature
+e3588f0bb62b11778cac72e6c34b75672e5fd2dd f2fs: clean up the type parameter in f2fs_sync_meta_pages()
+f9e0296007a32380a141bc11c43ab66cb11a0d86 f2fs: fix to do sanity check on node footer in __write_node_folio()
+87c0f54786af934b13c043fe926dad569596c598 f2fs: fix to do sanity check on node footer in {read,write}_end_io
+2a73a4675c5bd8e20c3dfe140479ba8e7b60d240 f2fs: detect more inconsistent cases in sanity_check_node_footer()
+d2b4423a74150e711268b5665f3f87aaa02619ff f2fs: avoid unnecessary block mapping lookups in f2fs_read_data_large_folio
+e60a23934f6723d553fc011972781f63a4001bf8 f2fs: add 'folio_in_bio' to handle readahead folios with no BIO submission
+a8f3a7d4ca80dc68dc831eb753af1a901b8cf272 f2fs: advance index and offset after zeroing in large folio read
+ecf1329baaac49a1b7214535c5a24a7368e21135 f2fs: avoid f2fs_map_blocks() for consecutive holes in readpages
+96bc5abf22b2308817c557c08d6cffff9607955f f2fs: fix to avoid mapping wrong physical block for swapfile
+
+--===============7898635573518307688==--
