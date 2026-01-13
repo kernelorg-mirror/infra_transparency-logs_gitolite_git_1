@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4750520462072737375=="
+Content-Type: multipart/mixed; boundary="===============7395354681943094062=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Tue, 13 Jan 2026 16:48:48 -0000
-Message-Id: <176832292846.4087286.1239113069505704343@gitolite.kernel.org>
+Date: Tue, 13 Jan 2026 16:48:51 -0000
+Message-Id: <176832293114.4087396.6411906871375591097@gitolite.kernel.org>
 
---===============4750520462072737375==
+--===============7395354681943094062==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
+  - ref: refs/heads/10GbE
     old: 60d8484c4cec811f5ceb6550655df74490d1a165
     new: 50e194b6da721e4fa1fc6ebcf5969803c214929a
     log: revlist-60d8484c4cec-50e194b6da72.txt
 
---===============4750520462072737375==
+--===============7395354681943094062==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -206,4 +206,4 @@ d327e2e74aedbe77e1dd716ec77b9aa828ef6812 net/rds: Add per cp work queue
 cd64d10b76f958b5a1b7bd7d9f022a96db56160c Merge branch 'net-rds-rds-tcp-bug-fix-collection-subset-1-work-queue-scalability'
 50e194b6da721e4fa1fc6ebcf5969803c214929a net: airoha: implement get_link_ksettings
 
---===============4750520462072737375==--
+--===============7395354681943094062==--
