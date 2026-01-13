@@ -1,22 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============1746992753975363269=="
+Content-Type: multipart/mixed; boundary="===============4842809220578704677=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Tue, 13 Jan 2026 14:35:03 -0000
-Message-Id: <176831490377.3968878.11668284381147259997@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Tue, 13 Jan 2026 14:35:07 -0000
+Message-Id: <176831490720.3969795.1222753077883910910@gitolite.kernel.org>
 
---===============1746992753975363269==
+--===============4842809220578704677==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.20
+  - ref: refs/heads/spi-6.20
     old: a014c203b54d9013ad52ad8a531cf46e71028f2b
     new: 26cbb4dd58ae1ca83319e73e9397b06a8ca961c6
     log: |
@@ -26,28 +26,28 @@ changes:
          26cbb4dd58ae1ca83319e73e9397b06a8ca961c6 Axiado AX3000 SoC SPI DB controller driver
          
 
---===============1746992753975363269==
+--===============4842809220578704677==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1768314902 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
-nonce 1768314901-e19cec6a719e3f871bcad10378a073229a4c7a25
+pusher C3F436CA30F5D8EB 1768314905 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1768314904-0b1886c72fdfa004649453b85b88e4243f1546b6
 
-a014c203b54d9013ad52ad8a531cf46e71028f2b 26cbb4dd58ae1ca83319e73e9397b06a8ca961c6 refs/heads/for-6.20
+a014c203b54d9013ad52ad8a531cf46e71028f2b 26cbb4dd58ae1ca83319e73e9397b06a8ca961c6 refs/heads/spi-6.20
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmlmWBYACgkQJNaLcl1U
-h9DxrAf/Yxqcjrsej2Ko2Wa90QT2/5QzaoG1KjS7vF+Q9nnDwK3WDBxcAm8SL6uT
-lg8pCNq25r06FEBWt5zgUNMaxrcRnVjWbKqxBT3fa594g32DPhPwn7ZMXY7EYNuX
-C7iP3UpTSFXJr9nxN0RZECy5j7/eCx6doraHO8NX2fe/FV6Q9tCEdTaHY9AxqwS2
-IRBjSeTRPg44tuijMN4sNFOAxXZlV8LQrayfbNQvc8k1Ux09MUPwBi9cpL/neF7M
-l5Yxq6Fu5TwMjec6PBCiQVbwgh/mXEFpTmi6PeKWdv0koa45+/Nr2x5cAdM9qV4c
-pc/L2mH9uFZjLX9OEzKv2TjIXy8UhA==
-=6JeM
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmlmWBkACgkQJNaLcl1U
+h9B5ogf+JhATOIu2ZlRBMqDIdefLtKfdXBIym/T/UlvLkOjBD1tjn1OqpK34eV+9
+T6BOpKE5XjU/p78fr9jU49OT8BoAgWPBw2tLe+UbQCalEf7MHoJJDSRQw2jvgybs
+lLaV/tBgSpXddfFWHauMgiIfSqniCHrPk1wlAw1vxpd/qQO3VZkwgi7cYzusIvbQ
+MIP1bI7iNS/MZh15Avjn0H9IYV05HnSuOohPsbiqQMiuXChLSp1afzPXA+6P63YG
+JyQwj2GsOAsoHWXL4TyDnUCD6Ti03yXGOcBocLzgINXK6E1NOvVy364TnGL4gKsn
+QDFEUy543QgCAKicfIxRnw6IvB9cTA==
+=Uxpz
 -----END PGP SIGNATURE-----
 
---===============1746992753975363269==--
+--===============4842809220578704677==--
