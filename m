@@ -1,22 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Tue, 13 Jan 2026 13:53:21 -0000
-Message-Id: <176831240134.3930052.4001770719090295345@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
+Date: Tue, 13 Jan 2026 13:53:44 -0000
+Message-Id: <176831242425.3930304.12000999438237516374@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rdma/rdma
-user: leon
+repo: pub/scm/linux/kernel/git/tiwai/sound
+user: tiwai
 changes:
-  - ref: refs/heads/wip/leon-for-next
-    old: 52f3d34c292b62ec151c6a487d267341d47eefa4
-    new: c6b61cad07189d4556a968a305056263b73025f4
+  - ref: refs/heads/for-linus
+    old: c5e96e54eca3876d4ce8857e2e22adbe9f44f4a2
+    new: 6a0243c4020636482797acfd48d7d9b0ea2f2a20
     log: |
-         5c3f795d17dc57a58a1fc1c1b449812e26ad85a3 RDMA/irdma: Remove fixed 1 ms delay during AH wait loop
-         cfa74ad31baad3027410b6e75c8e47092aef8d97 RDMA/hns: Support drain SQ and RQ
-         c5ea4126b4fa1f6a3c0ce594f82456f5c2733050 RDMA/rxe: Fix double free in rxe_srq_from_init
-         c6b61cad07189d4556a968a305056263b73025f4 RDMA/iwcm: Fix workqueue list corruption by removing work_list
+         6a0243c4020636482797acfd48d7d9b0ea2f2a20 ALSA: hda/cirrus_scodec_test: Fix test suite name
+         
+  - ref: refs/heads/master
+    old: 8bbaeddac8bab4bd33128de20a7557f58eceb96a
+    new: 5c23082759350c35e41d92e6ffc9c3243668903e
+    log: |
+         6a0243c4020636482797acfd48d7d9b0ea2f2a20 ALSA: hda/cirrus_scodec_test: Fix test suite name
+         5c23082759350c35e41d92e6ffc9c3243668903e Merge branch 'for-linus'
          
