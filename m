@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/remoteproc/linux
-Date: Tue, 13 Jan 2026 17:06:13 -0000
-Message-Id: <176832397312.4105043.4128451989230701745@gitolite.kernel.org>
+Date: Tue, 13 Jan 2026 17:06:26 -0000
+Message-Id: <176832398626.4105296.9408335348965940723@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,9 +11,9 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/remoteproc/linux
 user: mjp
 changes:
-  - ref: refs/heads/rproc-next
-    old: 4df89cb826e0a2d5986a555703af1f98688ca2bf
-    new: a3bf6ee15a59d25724746f284de167af6dc76baf
+  - ref: refs/heads/for-next
+    old: 1c1fd2eb1520854fd3553bcb0450fdfd4c1ccacd
+    new: 8d002b3a59cd4a7fd3624c755c946ba785c00490
     log: |
          ac3ea0730a1380f00109e69149f3be1a058c4ba9 dt-bindings: remoteproc: fsl,imx-rproc: Add support for i.MX95
          454cb78611479bd5da4f191480456f42aca7f07b remoteproc: imx_rproc: Add runtime ops copy to support dynamic behavior
@@ -21,4 +21,5 @@ changes:
          d8ab94fa4370337158e96ea08d41e6e2d8fcb2a2 remoteproc: imx_rproc: Add support for System Manager LMM API
          1ae680bbe77fe124916bd28a1dd6548847c56914 remoteproc: imx_rproc: Add support for System Manager CPU API
          a3bf6ee15a59d25724746f284de167af6dc76baf remoteproc: imx_rproc: Add support for i.MX95
+         8d002b3a59cd4a7fd3624c755c946ba785c00490 Merge branches 'rpmsg-next' and 'rproc-next' into for-next
          
