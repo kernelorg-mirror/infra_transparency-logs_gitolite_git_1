@@ -1,31 +1,29 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/amlogic/linux
-Date: Tue, 13 Jan 2026 08:00:57 -0000
-Message-Id: <176829125753.3637339.5385118487139403008@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/thomas.weissschuh/linux
+Date: Tue, 13 Jan 2026 08:12:18 -0000
+Message-Id: <176829193800.3645471.9410530780626015544@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/amlogic/linux
-user: narmstrong
+repo: pub/scm/linux/kernel/git/thomas.weissschuh/linux
+user: thomas.weissschuh
 changes:
-  - ref: refs/heads/for-next
-    old: 223780846ace0ebb70174674005f6b8b7814acee
-    new: 79f125ddf331763600dacacd8d5e4345d48a9ea2
+  - ref: refs/heads/b4/kunit-kselftests
+    old: 80b91cbf311bb07ffba6c87d77096cd91772b1b3
+    new: 25364dcd1bffe2d55437fee06c422d3eea69815f
     log: |
-         31fce0d2b13e6a4a12c9ba016e961418f8c82e34 soc: amlogic: meson-gx-socinfo: add new SoC id for S905Y4
-         d7b70ebf2bf4a9983fe64b8c221db55f15c4c56c arm64: dts: amlogic: move CPU OPP table and clock assignment to SoC.dtsi
-         334f7701ec7cc050f158656fabbf463aa59358f8 Merge branch 'v6.20/arm64-dt' into for-next
-         79f125ddf331763600dacacd8d5e4345d48a9ea2 Merge branch 'v6.20/drivers' into for-next
+         9917dc10c4c1075e17273869f26f30ceeacdac25 kunit: Introduce UAPI testing framework
+         7856918574bb85600963d7c998a41f64eead2952 kbuild: doc: add label for userprogs section
+         857f0d717981f7e635ac6f4492d7408077b36896 exec: add dirfd parameter to kernel_execve()
+         c514ca719949e1b8efb5e803e416400928060ea8 umh: add dirfd parameter
+         7a1a6371231ab3964f44d1f337b4bb55dcc41539 mount: add support for __free(kern_unmount)
+         c1ef606fb608c27c3e16ee7e10f7ccc975115c9a init: add nolibc build support
+         8e30db359baba69be027d455a72da30b6e8c0153 kunit: qemu_configs: loongarch: Enable LSX/LSAX
+         5910b535abde622c6e8bda24b45e65b72844fe1b kunit: Introduce UAPI testing framework
+         bf8d33b19bdc03f09480070f329c2642b4fad3a7 kunit: uapi: Add example for UAPI tests
+         c2dfec2737f9155941b86812a051edbd279da5df kunit: uapi: Introduce preinit executable
+         25364dcd1bffe2d55437fee06c422d3eea69815f kunit: uapi: Validate usability of /proc
          
-  - ref: refs/heads/v6.20/arm64-dt
-    old: 7bcbedd64ecf5624583140faebfdb0e2e2f6b43e
-    new: d7b70ebf2bf4a9983fe64b8c221db55f15c4c56c
-    log: |
-         d7b70ebf2bf4a9983fe64b8c221db55f15c4c56c arm64: dts: amlogic: move CPU OPP table and clock assignment to SoC.dtsi
-         
-  - ref: refs/heads/v6.20/drivers
-    old: 0000000000000000000000000000000000000000
-    new: 31fce0d2b13e6a4a12c9ba016e961418f8c82e34
