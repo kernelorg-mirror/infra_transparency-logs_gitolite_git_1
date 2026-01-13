@@ -1,23 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
-Date: Tue, 13 Jan 2026 10:11:44 -0000
-Message-Id: <176829910487.3742190.16488979147706154723@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
+Date: Tue, 13 Jan 2026 10:16:46 -0000
+Message-Id: <176829940692.3746596.7955142482404106900@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/xiang/erofs-utils
-user: xiang
+repo: pub/scm/linux/kernel/git/brgl/linux
+user: brgl
 changes:
-  - ref: refs/heads/experimental
-    old: 0767efcd3c63633d8d3149b9fcf9d2998befdc34
-    new: 6a4583472dd5a083bac44855770f49df9418f05e
+  - ref: refs/heads/gpio/for-next
+    old: 43f37d44f2b8a75a896e218bac1e43d75063f8d3
+    new: 568ea51e61f7da72ee290d24d6ee952586a3e168
     log: |
-         9911b7308db3c5cf0556c56450ba5ce061ddee26 erofs-utils: lib: ignore xattr_types[0] when matching xattr prefixes
-         61923eaa83551ae3570a754de6a7fad82d79cbbc erofs-utils: lib: fix erofs_prepare_xattr_ibody() return value
-         c86d705662f564dc68926d2667af905b42c9fa6d erofs-utils: lib: s3: fix diskbuf commit size
-         42a630d3f0cb63d1ec70aa45c3def9ef00b61f4f erofs-utils: lib: s3: properly escape object key names
-         6a4583472dd5a083bac44855770f49df9418f05e erofs-utils: mkfs: add `--xattr-inode-digest` option
+         b3d8508351af7f6366a0a18068c194b399ead2c3 reset: gpio: add the "compatible" property
+         4d944187a1288bb48b21715e95098e81bc0e28f6 Merge branch 'reset/gpio-compatible' of https://git.pengutronix.de/git/pza/linux into gpio/for-next
+         568ea51e61f7da72ee290d24d6ee952586a3e168 gpio: shared: use device_is_compatible() for reset-gpio
          
