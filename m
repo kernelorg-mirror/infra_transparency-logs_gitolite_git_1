@@ -1,51 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============7953666619014768733=="
+Content-Type: multipart/mixed; boundary="===============1629131358455603611=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
-Date: Tue, 13 Jan 2026 13:03:41 -0000
-Message-Id: <176830942157.3887532.6187215629841051255@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Tue, 13 Jan 2026 13:03:44 -0000
+Message-Id: <176830942484.3887646.13633586110313305722@gitolite.kernel.org>
 
---===============7953666619014768733==
+--===============1629131358455603611==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regulator
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.20
+  - ref: refs/heads/regulator-6.20
     old: 09dc08b396c954820f119e1ab0c7d72333c18323
     new: f1fcc2689fd8dcb6a23fdf7a4c4c9cfda10329ef
     log: revlist-09dc08b396c9-f1fcc2689fd8.txt
 
---===============7953666619014768733==
+--===============1629131358455603611==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1768309420 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/regulator.git
-nonce 1768309419-a31d11239b64e55765d6fc63f1df7da7f4821cf3
+pusher C3F436CA30F5D8EB 1768309423 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1768309422-b016f072784a862e53de6632aa74e712d90334e9
 
-09dc08b396c954820f119e1ab0c7d72333c18323 f1fcc2689fd8dcb6a23fdf7a4c4c9cfda10329ef refs/heads/for-6.20
+09dc08b396c954820f119e1ab0c7d72333c18323 f1fcc2689fd8dcb6a23fdf7a4c4c9cfda10329ef refs/heads/regulator-6.20
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmlmQqwACgkQJNaLcl1U
-h9A9Fgf/XKnmfXyvHwe7fSmXG10r/2c0bbGp6BmeMoZGepTlSG35o385hWFhgoFC
-dBp40B8jxbqYoJe9WoiulgIf0X6OuUQYZBEC2hJbpkpp1U9EreBvTkUf5ljmMxzQ
-uUuKvXpCyUVqKCNPN4nkH/9gQLC49Rcdlhr0LucJEByJDVhBi4k1UsSNnci9NMvK
-aOl3fQBnxSVhcZ5XUgHredO5206mBGw8KYn2g4G8P/qtBwjMLVsVlO1V83lxGROP
-RauZNkCaaiwROYK5xaOVMraKAAdDwv5ucUpLbaSFHG49QqltHJZ8M11kJs985Mpt
-reSWXoieQAcfkPpmO987aiUUa0Md+w==
-=KPnE
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmlmQq8ACgkQJNaLcl1U
+h9DXEQf9G/hkOqhXjLzfz4UvCT3B5w6X6rv0GMZ/HR1O5tCevyI+4KCDmXt5m5qj
+nwM5SyGenhhaHNNq9XJEc0Ey0IsjLDc40lZpfLn7e5z51qLP6LWVxI4OiHFtOVD2
+rRlzNWEPY0Eptob+kjlyz40L0M7dH3l7HkykluruTQ9HMR+4DbWHR2jvgqZs9rnC
+45wGjOF1v+Hd7GdrXU2/QBtX/eSW7nAJL4Xh9mcmUFdMaQX7nuFu2wE1cCAFsn2L
+zDPSUwJEVLKJWkm8r8tYByj7vtuZI4qkXlX2Gdx/gKTXnbhIAzbNs/8PeYKhXeqi
+kYAIwdRCB0oVsqAIx0EvHs7Hr7z6qw==
+=XCpk
 -----END PGP SIGNATURE-----
 
---===============7953666619014768733==
+--===============1629131358455603611==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -387,4 +387,4 @@ da1456e435ae84852bda484cd4d60f47228d52fc regulator: dt-bindings: Document TI TPS
 b0fc1e7701940d12ea2c41f386aa552bc4cc3629 regulator: Add TPS65185 driver
 f1fcc2689fd8dcb6a23fdf7a4c4c9cfda10329ef regulator: Add TPS65185
 
---===============7953666619014768733==--
+--===============1629131358455603611==--
