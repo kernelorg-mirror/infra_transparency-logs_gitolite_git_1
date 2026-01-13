@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
-Date: Tue, 13 Jan 2026 06:36:27 -0000
-Message-Id: <176828618780.3570206.17990399947096041014@gitolite.kernel.org>
+Date: Tue, 13 Jan 2026 06:39:16 -0000
+Message-Id: <176828635655.3571088.6494591968545775280@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,13 +11,11 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/xiang/erofs-utils
 user: xiang
 changes:
-  - ref: refs/heads/dev
-    old: 0a11aa1359ad219db9ddeefbe89369aafe153048
-    new: 06f1e95042582015cb2961d81a76c27cc75a93f3
+  - ref: refs/heads/experimental
+    old: 089b1f09721dee405a46fb57d39386cddc8e14df
+    new: 0767efcd3c63633d8d3149b9fcf9d2998befdc34
     log: |
-         839e608b88c52026d8d802b228d72504899964e2 erofs-utils: lib: add fallback for SEEK_{DATA,HOLE}
-         2faeebb47c680d379694d65419560e86a2a3d13a erofs-utils: lib: introduce prefix-aware erofs_setxattr()
-         53d760f31671661f326a0c4aa50d42e2791de6a6 erofs-utils: lib: switch to use `struct erofs_mkfs_btctx`
-         edd57fffa7383000bcb0540b5d4bfa4e8ce5e3f0 erofs-utils: lib: delay erofs_prepare_xattr_ibody()
-         06f1e95042582015cb2961d81a76c27cc75a93f3 erofs-utils: tar: fix self-hardlink handling
+         a32d193a3f24de147d858ccc3033b17b09eeaf59 erofs-utils: lib: s3: fix diskbuf commit size
+         846a3697bd90cc6f7b37adbcb1ccabc0dedd9d41 erofs-utils: lib: s3: properly escape object key names
+         0767efcd3c63633d8d3149b9fcf9d2998befdc34 erofs-utils: mkfs: add `--xattr-inode-digest` option
          
