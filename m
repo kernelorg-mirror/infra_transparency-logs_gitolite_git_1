@@ -1,25 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Tue, 13 Jan 2026 11:10:01 -0000
-Message-Id: <176830260158.3787514.5414159192777046557@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gmonaco/linux
+Date: Tue, 13 Jan 2026 11:15:31 -0000
+Message-Id: <176830293120.3794029.317230074606838887@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: pabeni
+repo: pub/scm/linux/kernel/git/gmonaco/linux
+user: gmonaco
 changes:
-  - ref: refs/heads/main
-    old: de746f8f53410a0e31d8e5d145745332ee77d321
-    new: ff420c568b4cda293d9ef516a85c2f29fafc41d6
+  - ref: refs/heads/rv_hybrid_automata_v4
+    old: aca22cac92e5a58baf4b7f832d8463305b95a323
+    new: c48ec45d844a175251655c4edc43652dd6610a35
     log: |
-         8b27fd66f519858a4899c9c6d213e6fad7592ead net/sched: Export mq functions for reuse
-         bc0ce2bad36c28a3d13c5b9b5894e1f86831d917 net/sched: sch_cake: Factor out config variables into separate struct
-         ebc65a873effc8a076edcec34b1ad719525205b5 net/sched: sch_cake: Add cake_mq qdisc for using cake on mq devices
-         87826c01837c314c3caada33524fc769e58364a9 net/sched: sch_cake: Share config across cake_mq sub-qdiscs
-         1bddd758bac21fbbd8a06af746ec7b6d878a9d2c net/sched: sch_cake: share shaper state across sub-instances of cake_mq
-         8d61f1a9f2541c6ef51d4997e6a4c5a1c0d8b27c selftests/tc-testing: add selftests for cake_mq qdisc
-         ff420c568b4cda293d9ef516a85c2f29fafc41d6 Merge branch 'multi-queue-aware-sch_cake'
+         197fc972f5470a12a6c005918bf6c4886b10bb81 sched: Add task enqueue/dequeue trace points
+         a76136086a8eca0a97c17113ef057a5a63552bce rv: Add support for per-object monitors in DA/HA
+         e13dd0ad2aea55497bc0e9aa166dfd5109094cd0 verification/rvgen: Add support for per-obj monitors
+         7033839873a6984bc9d6780f23bb1832978019c5 sched/deadline: Move some utility functions to deadline.h
+         97a4266ed9487ef6650b25951b7bfe329a329057 rv: Add deadline monitors
+         c48ec45d844a175251655c4edc43652dd6610a35 rv: Add dl_server specific monitors
          
