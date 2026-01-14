@@ -1,31 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Wed, 14 Jan 2026 14:17:44 -0000
-Message-Id: <176840026458.968704.4777711426324942182@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jejb/scsi
+Date: Wed, 14 Jan 2026 14:25:41 -0000
+Message-Id: <176840074108.976009.10641489069243194546@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/jejb/scsi
+user: jejb
 changes:
-  - ref: refs/heads/20260112_rf_asoc_fix_sdw_utils_calling_wrong_codec_init_callbacks
-    old: 0000000000000000000000000000000000000000
-    new: 5b027c74f3ee8979193c50d31187edfa31acc0db
-  - ref: refs/heads/file7rLChM
-    old: 0000000000000000000000000000000000000000
-    new: 390caeed0897fcac75f3c414dbdd85d593183d9c
-  - ref: refs/heads/fileTO57FO
-    old: 0000000000000000000000000000000000000000
-    new: 10303b32519f52a5afd40593a507543143c8ec6a
-  - ref: refs/heads/v2_20260114_bharadwaj_raju_asoc_codecs_aw88261_add_dvdd_supply_property
-    old: 0000000000000000000000000000000000000000
-    new: 519d0a6b2ca5a891340b6c24a4c40545f518e1a8
-  - ref: refs/heads/v3_20260109_ckeepax_sdca_system_suspend_support
-    old: 0000000000000000000000000000000000000000
-    new: da7afdc79cba00f952df12cd579e44832d829c0a
-  - ref: refs/heads/v4_20260113_s_hauer_sound_codecs_tlv320adcx140_assorted_patches
-    old: 0000000000000000000000000000000000000000
-    new: 8a98e7f55f975360975083166e21982ef307b8fd
+  - ref: refs/tags/scsi-fixes
+    old: 8b0792d483bbec41eedbd046eebedc8b2733ab3a
+    new: f9eb7de6917c6ff8bb24ea4bdd3871d22b9b3c81
+    log: |
+         be4b7e584a0cc6715fbb14dfb2a9a39bf07cfbab scsi: ufs: dt-bindings: Fix several grammar errors
+         1523d50abad0ef8a261a5c38099b462629941156 scsi: core: Correct documentation for scsi_test_unit_ready()
+         9a49157deeb23581fc5c8189b486340d7343264a scsi: core: Fix error handler encryption support
+         ee229e7c256ab5d7b277abf8d48a732c10571750 scsi: ufs: core: Configure MCQ after link startup
+         001556d298723f091751e9e887f63b642890aaca scsi: mpt3sas: Update maintainer list
+         d0f6cfb491924d42c8f5336acb68a798e49b74b1 scsi: bfa: Update outdated comment
+         309a29b5965a0b2f36b3e245213eb43300a89ac2 scsi: ufs: host: mediatek: Make read-only array scale_us static const
+         
