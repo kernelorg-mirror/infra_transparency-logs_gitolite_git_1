@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jenswi/linux-tee
-Date: Wed, 14 Jan 2026 16:02:14 -0000
-Message-Id: <176840653443.1056731.4488933399181280219@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
+Date: Wed, 14 Jan 2026 16:06:11 -0000
+Message-Id: <176840677153.1060546.10132119376961071052@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jenswi/linux-tee
-user: jenswi
+repo: pub/scm/linux/kernel/git/ath/ath
+user: jjohnson
 changes:
-  - ref: refs/heads/next
-    old: 597df3c04317f8c4fd0bb2af6eecb19786ece9ad
-    new: 57976732b042aa0a8f60bd1b337ced1633714dfb
+  - ref: refs/heads/pending
+    old: 622e0d9ed5c34670674519b97a2364b42e017cbc
+    new: a3057f845e1a5f4f7835c1cb972953f86a19202e
     log: |
-         e4280e3ec7283a34e1fd8580a5c29a17a7cea842 tpm/tpm_ftpm_tee: Fix kdoc after function renames
-         57976732b042aa0a8f60bd1b337ced1633714dfb Merge branch 'tee_bus_callback_for_6.20' into next
+         a3057f845e1a5f4f7835c1cb972953f86a19202e ath9k: debug.h: fix kernel-doc bad lines and struct ath_tx_stats
          
