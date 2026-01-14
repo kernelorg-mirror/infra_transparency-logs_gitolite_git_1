@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/xen/tip
-Date: Wed, 14 Jan 2026 06:15:12 -0000
-Message-Id: <176837131296.561892.9847100057137163032@gitolite.kernel.org>
+Date: Wed, 14 Jan 2026 06:23:13 -0000
+Message-Id: <176837179374.567023.11532808216531958797@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,11 +11,9 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/xen/tip
 user: jgross
 changes:
-  - ref: refs/heads/for-linus-7.0
-    old: dc8ea8714311e549ee93a2b0bdd5487d20bfadbf
-    new: 6ae41558ab9b767238692b9047ba9b96e345a29f
+  - ref: refs/heads/linux-next
+    old: 6ae41558ab9b767238692b9047ba9b96e345a29f
+    new: e387e22ce6699d6f74a66bd5c958cc5e76a1cc02
     log: |
-         c51389e7768d8da165a7d30a03254118c640a311 x86/xen: Drop xen_irq_ops
-         cf7bc79c8eae0c40e6292f2f8d741e7349bf1976 x86/xen: Drop xen_cpu_ops
-         6ae41558ab9b767238692b9047ba9b96e345a29f x86/xen: Drop xen_mmu_ops
+         e387e22ce6699d6f74a66bd5c958cc5e76a1cc02 xen: introduce xen_console_io option
          
