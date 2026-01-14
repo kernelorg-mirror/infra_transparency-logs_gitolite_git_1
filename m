@@ -1,56 +1,61 @@
-Content-Type: multipart/mixed; boundary="===============5274404257249444099=="
+Content-Type: multipart/mixed; boundary="===============6159662382139915975=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/security/vulns
-Date: Wed, 14 Jan 2026 08:55:53 -0000
-Message-Id: <176838095373.691971.17570405693677612746@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+Date: Wed, 14 Jan 2026 08:58:11 -0000
+Message-Id: <176838109181.692949.6607792646501572957@gitolite.kernel.org>
 
---===============5274404257249444099==
+--===============6159662382139915975==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/security/vulns
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+user: ij
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/master
-    old: 0f55c5b00ee6e029d76646fb7ea3505ec70044e9
-    new: 68e58cff76e5eec9cd77e5f4661ea2fb00b10f14
-    log: |
-         68e58cff76e5eec9cd77e5f4661ea2fb00b10f14 proposed: Add Allen's v6.18.[4/5] results
-         
+  - ref: refs/heads/for-next
+    old: c4a069095395ecd1e936f488511dfd9016b9c479
+    new: 520448bb6f09d6a6cec6132ea7b85b96ca898de2
+    log: revlist-c4a069095395-520448bb6f09.txt
 
---===============5274404257249444099==
+--===============6159662382139915975==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1768380953 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
-nonce 1768380953-8843fba14c78b51cb0356ee04ec3852682f72b84
+pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1768381086 +0200
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86.git
+nonce 1768381086-a33e0ac1511fed43a69906b07f832b86843cb6a0
 
-0f55c5b00ee6e029d76646fb7ea3505ec70044e9 68e58cff76e5eec9cd77e5f4661ea2fb00b10f14 refs/heads/master
+c4a069095395ecd1e936f488511dfd9016b9c479 520448bb6f09d6a6cec6132ea7b85b96ca898de2 refs/heads/for-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmlnWhkbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+THAQAJhVp7qks9EkGlBFUqxm
-Xp8nNKfBec6Yf2f57a4NIVk2EWlWP49bqlvB3jGgEzT+hGeMlH85zv/wDw3s6b51
-WBmElRiT49pCXstv/u0YS085aREP2HaluqlwEPbpAhwQNv7RuGekfSUCS7nky3rT
-/MIEevPVFZlPbqwIT3BsGOotHUPYb9/UY79Q+QB6mocA3k5HKn5hCWzG2POLPtx4
-A6bx49S+dZ8s0JQDuJwg9+QptegB+HDqvOKXIcg7B5Y3tZdDs11Qc50SNtYyrlEX
-NMc74V16VByMULVNjhmd8iHc1U6ONe+okPfwKs7Az4/um6ZxxQvmDFpmurOfljuq
-Rz9dSVW/cG4xjskRitz38siWAGGCcPEImkn57Vp9IWW0QwOcD71g91nk/wbA8J5b
-IRWu70mM0JuhieWyaYtaqGCj+yqLjfaW55oXuM94d86OLp7Qb3OWy5zaExCARBIG
-YcW0X8uhNBzqjefJa2IxdA0sZCLKsS+etUDMPIXQFuK0p5nsxtn/+iQ71rMnz5Na
-uopM8k2diY9qIq0d80lBwM5pjuV3TgRRQKQL6aGDIbMFLaRja4VFoZ9zTebQsKxH
-8kV8XNmltcIxWJ7+L1bf6ItioThnpwnxBEWdyNbOe0VlsrWBvTzVIRSwyL6bIn84
-+8BxSWCeISvLlIPI8lKmkax6
-=c25Y
+iHUEABYIAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCaWdapAAKCRBZrE9hU+XO
+MfbEAP4zO3VEj3LO+ZlVOBqKr1MqkXaWQBsHv0oWkKrYxb1EDQEAlcY6doy2NZTZ
+LM2NFnL21i3GUAUPmzpn/9ZA1kRi7wM=
+=Tvfy
 -----END PGP SIGNATURE-----
 
---===============5274404257249444099==--
+--===============6159662382139915975==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-c4a069095395-520448bb6f09.txt
+
+0e5aef2795008c80c515f6fa04e377c6e5715958 platform/x86: ISST: Add missing write block check
+dc7901b5a1563a9c9eb29b3b0b0dac3162065cd8 platform/x86: ISST: Store and restore all domains data
+69cd1ca440a96c85dcedcddfa5e0af6012f60b8b platform/x86: ISST: Check for admin capability for write commands
+932ca9b7b47c08479e52c1605f73474ed27e3e4f platform/x86: ISST: Optimize suspend/resume callbacks
+65b3a9220345f5dd37ff0227673c95755dbe5c2f platform/x86/intel/pmc: Change LPM mode fields to u8
+92911c91b5b7049cb634ef912feab086fd54ed43 platform/x86/intel/pmc: Move LPM mode attributes to PMC
+99e243c2b170c59f349e1b2a772a6f6a30430b4d platform/x86/intel/pmc: Enable substate residencies for multiple PMCs
+ceeb5c9835696065323cc4c2ab48b1a7a46d8269 platform/x86/intel/pmc: Remove double empty line
+f6b6ce566954941f60133798c90f2414f27d71f3 platform/x86: thinkpad_acpi: Add support to detect hardware damage detection capability.
+520448bb6f09d6a6cec6132ea7b85b96ca898de2 platform/x86: thinkpad_acpi: Add sysfs to display details of damaged device.
+
+--===============6159662382139915975==--
