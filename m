@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/device-mapper/linux-dm
-Date: Wed, 14 Jan 2026 12:32:48 -0000
-Message-Id: <176839396850.883703.17920994220992340833@gitolite.kernel.org>
+Date: Wed, 14 Jan 2026 12:33:19 -0000
+Message-Id: <176839399919.884075.16186672184067429913@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,7 +11,7 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/device-mapper/linux-dm
 user: mikulas
 changes:
-  - ref: refs/heads/for-next
+  - ref: refs/heads/dm-6.20
     old: 8fbb8fe75d4cf92eaa7b21828ec39c1bf79a262f
     new: fb8a6c18fb9a6561f7a15b58b272442b77a242dd
     log: |
