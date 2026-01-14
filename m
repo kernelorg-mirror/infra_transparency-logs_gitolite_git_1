@@ -1,55 +1,48 @@
-Content-Type: multipart/mixed; boundary="===============4718963720983249610=="
+Content-Type: multipart/mixed; boundary="===============2407612204805417631=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kees/linux
-Date: Wed, 14 Jan 2026 22:45:24 -0000
-Message-Id: <176843072445.1398273.10777890597349661575@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
+Date: Wed, 14 Jan 2026 23:01:55 -0000
+Message-Id: <176843171502.1410325.10145587609605794524@gitolite.kernel.org>
 
---===============4718963720983249610==
+--===============2407612204805417631==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kees/linux
-user: kees
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/ath/ath
+user: jjohnson
 changes:
-  - ref: refs/heads/for-next/kspp
-    old: a71a95ac693cf90efae891f8cfbc5e9be4aaaec7
-    new: 3cb0bb8fe82392f438e6c93e883aaeaf9ab7200c
-    log: |
-         2932ba8d9c99875b98c951d9d3fd6d651d35df3a slab: Introduce kmalloc_obj() and family
-         070580b0b1740a4b930f367d21fdb5b253a8b3fb checkpatch: Suggest kmalloc_obj family for sizeof allocations
-         81cee9166a9073b4da28e970e75d7f89c98ed966 compiler_types: Introduce __flex_counter() and family
-         e4c8b46b924eb8de66c6f0accc9cdd0c2e8fa23b slab: Introduce kmalloc_flex() and family
-         52d3cfa9bfcd43bce35ea48badf27036f66b4b74 coccinelle: Add kmalloc_objs conversion script
-         dacbfc16780837aa3e00c684d89492d211fd809f crypto: af_alg - Annotate struct af_alg_iv with __counted_by
-         7583873c31147be9869902e3274e3faa67e06176 fs/xattr: Annotate struct simple_xattr with __counted_by
-         cc34c669abe0c198daec20de5185c8187f4b240d ecryptfs: Annotate struct ecryptfs_message with __counted_by
-         5523dcfa4f5994ce69c7d67b06364b2eb68ab87e Fortify: Use C arithmetic not FIELD_xxx() in FORTIFY_REASON defines
-         3cb0bb8fe82392f438e6c93e883aaeaf9ab7200c Merge branch 'for-next/hardening' into for-next/kspp
-         
+  - ref: refs/heads/pending
+    old: 6a29271a202e6b25d8834090cd9ed607dfbf4eb8
+    new: d2060ef8cd1e3c57eb2793d6a35efd06cb6409a0
+    log: revlist-6a29271a202e-d2060ef8cd1e.txt
 
---===============4718963720983249610==
+--===============2407612204805417631==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-6a29271a202e-d2060ef8cd1e.txt
 
-certificate version 0.1
-pusher A5C3F68F229DD60F723E6E138972F4DFDC6DC026 1768430722 -0800
-pushee gitolite.kernel.org:pub/scm/linux/kernel/git/kees/linux.git
-nonce 1768430720-5f518ae353e0fcd888e6aa0c2dc34a7feaa276b2
+04ae36fd1a2058a2065c7253aceff828cafee921 wifi: ath12k: refactor PCI window register access
+612b5929fb722eb37d8c4e95d452c00740c0f6b7 wifi: ath12k: refactor REO CMD ring handling
+289a7247a839acb1d2bee3196fc3abb638d8948a wifi: ath12k: refactor REO status ring handling
+1b1584b73a5d8b84b01bd54f132a454a8511b19c wifi: ath12k: fix preferred hardware mode calculation
+1dcb0f17b607055d983061ed757014e94fa2adbe wifi: ath12k: refactor 320 MHz bandwidth support parsing
+8a7d4372a7aeaf881d7a445b939ef9eeb11109d5 wifi: ath12k: fix mac phy capability parsing
+86c7b43b20117fb68065c863254790f9b49d2bb1 wifi: ath12k: add hardware registers for QCC2072
+536e91240a1830fa458e063d9d10c9314d78c44e wifi: ath12k: add hardware parameters for QCC2072
+c975c475c2617ed9117819c53983018677d6841c wifi: ath12k: support LPASS_SHARED target memory type
+acd56042ce245d72ca081c2c39ca4457a790f5f3 wifi: ath12k: support downloading auxiliary ucode image for QCC2072
+60ce47e4c8260b53c860886873a0521c7b6b6271 wifi: ath12k: add HAL descriptor and ops for QCC2072
+9559aacf35bbb020478f4a2980ce094967cd4aab wifi: ath12k: add hardware ops support for QCC2072
+82028bc80f7c413856dbd1dd0783b357d6cb2e43 wifi: ath12k: handle REO CMD ring for QCC2072
+8243e0fb81ebe21e5b92202a7ad126775830729b wifi: ath12k: handle REO status ring for QCC2072
+dd90e2aa7224028e477d99186c5955e7a8c7a686 wifi: ath12k: limit number of channels per WMI command
+35b21fb0a493ea5a6d871a961e40d2dac22a3eaa wifi: ath12k: send peer meta data version to firmware
+a3cf9226bc0c81d9fd740130c98861abfe7799c5 wifi: ath12k: fix PCIE_LOCAL_REG_QRTR_NODE_ID definition for QCC2072
+d2060ef8cd1e3c57eb2793d6a35efd06cb6409a0 wifi: ath12k: enable QCC2072 support
 
-a71a95ac693cf90efae891f8cfbc5e9be4aaaec7 3cb0bb8fe82392f438e6c93e883aaeaf9ab7200c refs/heads/for-next/kspp
------BEGIN PGP SIGNATURE-----
-
-iHUEABYKAB0WIQRSPkdeREjth1dHnSE2KwveOeQkuwUCaWgcggAKCRA2KwveOeQk
-uyWLAQDvi4+tETdXHv5VCjRi6/pRg5XenXeiv+5znOAGgcenugEA1LK2XH+toDLh
-dWWv7jM2WyOeL3LwlQueQxoZ2g34Aws=
-=7Ri2
------END PGP SIGNATURE-----
-
---===============4718963720983249610==--
+--===============2407612204805417631==--
