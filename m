@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5857144598622744277=="
+Content-Type: multipart/mixed; boundary="===============4366363051086856101=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/qcom/linux
-Date: Wed, 14 Jan 2026 18:09:32 -0000
-Message-Id: <176841417243.1164887.5694496175970410768@gitolite.kernel.org>
+Date: Wed, 14 Jan 2026 18:09:34 -0000
+Message-Id: <176841417434.1164975.1723342281713231718@gitolite.kernel.org>
 
---===============5857144598622744277==
+--===============4366363051086856101==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,24 +15,19 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/qcom/linux
 user: andersson
 changes:
-  - ref: refs/heads/arm64-for-6.20
-    old: 54b5415739300c89cdd6b1db152bb5acf047ce40
-    new: 96ea45304d786f6bcf4b553a05eb90675bc0f2f3
-    log: |
-         e7fc2fee4212714485d0efb12cdd9fbb51dde078 arm64: dts: qcom: sa8775p: Add reg and clocks for QoS configuration
-         96ea45304d786f6bcf4b553a05eb90675bc0f2f3 arm64: dts: qcom: qcs8300: Add GPU cooling
-         
-  - ref: refs/heads/drivers-for-6.20
-    old: 0da7824734d8d83e6a844dd0207f071cb0c50cf4
-    new: 29b3a61e4e74725dd55311177da38ce8b186e523
-    log: revlist-0da7824734d8-29b3a61e4e74.txt
+  - ref: refs/heads/for-next
+    old: e0cc49f61fecf351ba78ece4820f67f6d4722070
+    new: b4d2b128cf85356c83019a91f552e119d86f1c30
+    log: revlist-e0cc49f61fec-b4d2b128cf85.txt
 
---===============5857144598622744277==
+--===============4366363051086856101==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0da7824734d8-29b3a61e4e74.txt
+Content-Disposition: attachment; filename=revlist-e0cc49f61fec-b4d2b128cf85.txt
 
+e7fc2fee4212714485d0efb12cdd9fbb51dde078 arm64: dts: qcom: sa8775p: Add reg and clocks for QoS configuration
+96ea45304d786f6bcf4b553a05eb90675bc0f2f3 arm64: dts: qcom: qcs8300: Add GPU cooling
 ebb0bbef88b3276c01e2d42b71d67c26b4eb938a dt-bindings: remoteproc: qcom,pas: Add iommus property
 25906ae9b28af23de509cb290a49ddd314f6c432 firmware: qcom_scm: Remove redundant piece of code
 69054348cc1c2d87acad90aec5e6e0d191012aff firmware: qcom_scm: Rename peripheral as pas_id
@@ -47,5 +42,6 @@ b019925838bca1599fa443b34c8ed5876f14f144 firmware: qcom_scm: Add SHM bridge hand
 a4584bff63c8aba994c8cbccc36748226f8f4b21 remoteproc: pas: Extend parse_fw callback to fetch resources via SMC call
 5c720260e840b508053dd5338577e0175ef31739 remoteproc: qcom: pas: Enable Secure PAS support with IOMMU managed by Linux
 29b3a61e4e74725dd55311177da38ce8b186e523 Merge branch '20260105-kvmrprocv10-v10-0-022e96815380@oss.qualcomm.com' into drivers-for-6.20
+b4d2b128cf85356c83019a91f552e119d86f1c30 Merge branches 'arm32-fixes-for-6.19', 'arm32-for-6.20', 'arm64-defconfig-for-6.20', 'arm64-fixes-for-6.19', 'arm64-for-6.20', 'clk-fixes-for-6.19', 'clk-for-6.20' and 'drivers-for-6.20' into for-next
 
---===============5857144598622744277==--
+--===============4366363051086856101==--
