@@ -1,20 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jenswi/linux-tee
-Date: Wed, 14 Jan 2026 11:00:07 -0000
-Message-Id: <176838840778.791671.9531713287591090227@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ukleinek/linux
+Date: Wed, 14 Jan 2026 11:09:35 -0000
+Message-Id: <176838897594.797306.2921600286832113305@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jenswi/linux-tee
-user: jenswi
+repo: pub/scm/linux/kernel/git/ukleinek/linux
+user: ukleinek
 changes:
-  - ref: refs/heads/next
-    old: 5b8f790591d06c6a7063abe0f6859e148d7992ac
-    new: f63e6e21dc1d3168ad8166433f110dc311f480f6
+  - ref: refs/heads/pwm/for-next
+    old: a9d0666dad665f019ca4d8a8775b20ff8f4fb2e8
+    new: a2c02b50d9456b73a1409836a9a24ff71140b46e
     log: |
-         a0db08f47c836251fbaccf711e12fe8428235465 tee: amdtee: Remove unused return variables
-         f63e6e21dc1d3168ad8166433f110dc311f480f6 Merge branch 'amdtee_update_for_6.20' into next
+         a2c02b50d9456b73a1409836a9a24ff71140b46e pwm: max7360: populate missing .sizeof_wfhw in max7360_pwm_ops
+         
+  - ref: refs/heads/pwm/for-nexxt
+    old: a9d0666dad665f019ca4d8a8775b20ff8f4fb2e8
+    new: a2c02b50d9456b73a1409836a9a24ff71140b46e
+    log: |
+         a2c02b50d9456b73a1409836a9a24ff71140b46e pwm: max7360: populate missing .sizeof_wfhw in max7360_pwm_ops
          
