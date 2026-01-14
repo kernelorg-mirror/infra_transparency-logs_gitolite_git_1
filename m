@@ -1,45 +1,42 @@
-Content-Type: multipart/mixed; boundary="===============2404467855522219373=="
+Content-Type: multipart/mixed; boundary="===============4653110910252571720=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
-Date: Wed, 14 Jan 2026 17:36:15 -0000
-Message-Id: <176841217509.1138779.18067577754395882538@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/frederic/linux-dynticks
+Date: Wed, 14 Jan 2026 17:37:16 -0000
+Message-Id: <176841223602.1139222.6565113160437098189@gitolite.kernel.org>
 
---===============2404467855522219373==
+--===============4653110910252571720==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ath/ath
-user: jjohnson
+repo: pub/scm/linux/kernel/git/frederic/linux-dynticks
+user: frederic
 changes:
-  - ref: refs/heads/pending
-    old: ac27f93543480ef788caaf173bbab579ec940434
-    new: bc2f8814ff50517b32163d97d151f6ab1b06d4d1
-    log: revlist-ac27f9354348-bc2f8814ff50.txt
+  - ref: refs/heads/timers/core
+    old: 0553705455cb677432d8db7cc52873b0c246d742
+    new: 84086eab45346839d78c3edec1874e737f92ee3b
+    log: revlist-0553705455cb-84086eab4534.txt
 
---===============2404467855522219373==
+--===============4653110910252571720==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ac27f9354348-bc2f8814ff50.txt
+Content-Disposition: attachment; filename=revlist-0553705455cb-84086eab4534.txt
 
-a4904f2c5b80508fc5cde1cd5e02ac33648e3f96 wifi: ath5k: debug.h: fix enum ath5k_debug_level kernel-doc
-50724c907e7e9aebe255bda30251c9a8dd1b31cd wifi: ath9k: debug.h: fix kernel-doc bad lines and struct ath_tx_stats
-cf912b19d57767356d066bd42521b42f19d6cd18 wifi: ath9k: fix kernel-doc warnings in common-debug.h
-a242526d220226e45dbf0bd737b5947f4ab82a3e wifi: wil6210: fix a bunch of kernel-doc warnings
-5dbe4d57ea7b5867adacdabb9c23406bb6cdda68 wifi: ath12k: remove redundant pci_set_drvdata() call
-18594b1385303a9e15ff1262134b3dbca7c532c7 wifi: ath9k: add OF dependency to AHB
-1bda36e4d6c3c467fd50725796a6d0bbb4a88559 wifi: ath11k: fix comment typo in monitor mode handling
-f0325c629a4ab6ed63325fe15c8730277e5d4c1a wifi: ath11k: Add initialization and deinitialization sequence for CFR module
-95ddeba03bbde2c7bb9f11d7f2cdfea9685311ff wifi: ath11k: Register debugfs for CFR configuration
-cc87d04a174f414e42633d7473ac0856c30b2784 wifi: ath11k: Add support unassociated client CFR
-1d68a30b941825d514785987f4be0da47d165ec1 wifi: ath11k: Register relayfs entries for CFR dump
-b948b3ea2d4e8794478e473d8fd2446729ed8f4a wifi: ath11k: Register DBR event handler for CFR data
-46cd2073702d2135008267465f8ade87d6d817ab wifi: ath11k: Register handler for CFR capture event
-b1b7ed1066701cc66f573a88a94ca67f5c5dc752 wifi: ath12k: do WoW offloads only on primary link
-bc2f8814ff50517b32163d97d151f6ab1b06d4d1 wifi: ath11k: move .max_tx_ring to struct ath11k_hw_hal_params
+c468713628257bb4eb4acacfc7feb18bc61f1133 sched/cputime: Correctly support generic vtime idle time
+e8b58d70160ad75b285107252198c0d6ba62738c powerpc/time: Prepare to stop elapsing in dynticks-idle
+170da03b4405ac4684839e0b14074cf4f63b7713 s390/time: Prepare to stop elapsing in dynticks-idle
+05b23521d7089c9d4d7a48dc862952cafb074122 tick/sched: Unify idle cputime accounting
+30b2cdf541b9e826ea3e80ba080c39ed53441d56 cpufreq: ondemand: Simplify idle cputime granularity test
+a9532ce83ea9d8638deeeb969072e8247cd83be3 tick/sched: Remove nohz disabled special case in cputime fetch
+deedb702942d8840307182a50c82feec9b9f1599 tick/sched: Move dyntick-idle cputime accounting to cputime code
+93f1f112cc2384f75ec5f4b9b412336c5b37ed28 tick/sched: Account tickless idle cputime only when tick is stopped
+5573718bc6af764405b16b4b904d6c3750a38523 tick/sched: Consolidate fetching idle time
+53aa257cf833970f7b9bae22c293c80c5de5af88 tick/sched: Remove unused fields
+1c24451b2f5fbd0ae121c35aa9fad13e78432232 sched/cputime: Handle idle irqtime gracefully
+84086eab45346839d78c3edec1874e737f92ee3b sched/cputime: Consolidate get_cpu_[idle|iowait]_time_us()
 
---===============2404467855522219373==--
+--===============4653110910252571720==--
