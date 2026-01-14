@@ -1,25 +1,29 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
-Date: Wed, 14 Jan 2026 16:48:48 -0000
-Message-Id: <176840932831.1096795.7118624912856151837@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/phy/linux-phy
+Date: Wed, 14 Jan 2026 16:52:24 -0000
+Message-Id: <176840954490.1100427.10855015889914640338@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rafael/linux-pm
-user: rafael
+repo: pub/scm/linux/kernel/git/phy/linux-phy
+user: vkoul
 changes:
-  - ref: refs/heads/bleeding-edge
-    old: 7132f370eb5f6cf8691413e92c6d49866f0fd79b
-    new: 2fa1869dfa4d065050db8fbd218242986c8fd5a4
+  - ref: refs/heads/fixes
+    old: e07dea3de508cd6950c937cec42de7603190e1ca
+    new: f2ec4723defbc66a50e0abafa830ae9f8bceb0d7
     log: |
-         8567b5733715e959474851dbec666aafcdba86e8 ACPI: bus: Align acpi_device_get_match_data() with driver match order
-         662cbcd2aad41c17b4d8f0759b63724bd75d1c8b Merge branch 'acpi-bus' into bleeding-edge
-         ba6ded26dffe511b862a98a25955955e7154bfa8 ACPI: resource: Add JWIPC JVC9100 to irq1_level_low_skip_override[]
-         a7287ec2364a07c7350b5ba60e265f528162e4ff Merge branch 'acpi-resource' into bleeding-edge
-         f132e089fe89cadc2098991f0a3cb05c3f824ac6 ACPI: processor: Fix NULL-pointer dereference in acpi_processor_errata_piix4()
-         9be35201579c8b96071cc49bfd382a0036de1d87 ACPI: processor: idle: Add debug log for states with invalid entry methods
-         2fa1869dfa4d065050db8fbd218242986c8fd5a4 Merge branch 'acpi-processor' into bleeding-edge
+         f2ec4723defbc66a50e0abafa830ae9f8bceb0d7 phy: freescale: imx8m-pcie: assert phy reset during power on
+         
+  - ref: refs/heads/next
+    old: 70812056fbfb9348788e35b7641ff959b711840e
+    new: cbce66669c82ee9ae0e26523c0fcd3c721fcfe85
+    log: |
+         7d55b44e2be1069504e22253d26d08982884f930 phy: apple: atc: Actually check return value of devm_apple_tunable_parse
+         bc148def8924e43245c353c52ced47079a5026da phy: apple: atc: Reset USB2 PHY during probe as well
+         f16741314f68091a8edf116ad5c134a72ffab854 phy: socionext: usb2: Simplify with scoped for each OF child loop
+         876dc58c3fa532e38cd1b287a7b8143a1a4c5dc7 dt-bindings: phy: google: Add Google Tensor G5 USB PHY
+         cbce66669c82ee9ae0e26523c0fcd3c721fcfe85 phy: Add Google Tensor SoC USB PHY driver
          
