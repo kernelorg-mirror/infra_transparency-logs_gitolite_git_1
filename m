@@ -1,30 +1,37 @@
-Content-Type: multipart/mixed; boundary="===============7925873164923408802=="
+Content-Type: multipart/mixed; boundary="===============5857144598622744277=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/remoteproc/linux
-Date: Wed, 14 Jan 2026 18:09:13 -0000
-Message-Id: <176841415387.1164599.2752814362990378841@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/qcom/linux
+Date: Wed, 14 Jan 2026 18:09:32 -0000
+Message-Id: <176841417243.1164887.5694496175970410768@gitolite.kernel.org>
 
---===============7925873164923408802==
+--===============5857144598622744277==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/remoteproc/linux
+repo: pub/scm/linux/kernel/git/qcom/linux
 user: andersson
 changes:
-  - ref: refs/heads/for-next
-    old: 8d002b3a59cd4a7fd3624c755c946ba785c00490
-    new: 4c0249b715e376b68f12bc219daa56325ecd3100
-    log: revlist-8d002b3a59cd-4c0249b715e3.txt
+  - ref: refs/heads/arm64-for-6.20
+    old: 54b5415739300c89cdd6b1db152bb5acf047ce40
+    new: 96ea45304d786f6bcf4b553a05eb90675bc0f2f3
+    log: |
+         e7fc2fee4212714485d0efb12cdd9fbb51dde078 arm64: dts: qcom: sa8775p: Add reg and clocks for QoS configuration
+         96ea45304d786f6bcf4b553a05eb90675bc0f2f3 arm64: dts: qcom: qcs8300: Add GPU cooling
+         
+  - ref: refs/heads/drivers-for-6.20
+    old: 0da7824734d8d83e6a844dd0207f071cb0c50cf4
+    new: 29b3a61e4e74725dd55311177da38ce8b186e523
+    log: revlist-0da7824734d8-29b3a61e4e74.txt
 
---===============7925873164923408802==
+--===============5857144598622744277==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8d002b3a59cd-4c0249b715e3.txt
+Content-Disposition: attachment; filename=revlist-0da7824734d8-29b3a61e4e74.txt
 
 ebb0bbef88b3276c01e2d42b71d67c26b4eb938a dt-bindings: remoteproc: qcom,pas: Add iommus property
 25906ae9b28af23de509cb290a49ddd314f6c432 firmware: qcom_scm: Remove redundant piece of code
@@ -39,7 +46,6 @@ b019925838bca1599fa443b34c8ed5876f14f144 firmware: qcom_scm: Add SHM bridge hand
 8b9d2050cfa0c22c05622df103e366933fc045ed firmware: qcom_scm: Add qcom_scm_pas_get_rsc_table() to get resource table
 a4584bff63c8aba994c8cbccc36748226f8f4b21 remoteproc: pas: Extend parse_fw callback to fetch resources via SMC call
 5c720260e840b508053dd5338577e0175ef31739 remoteproc: qcom: pas: Enable Secure PAS support with IOMMU managed by Linux
-1aab44c02ad26f0c59bf015bc01cc63c4f9e2d68 Merge branch '20260105-kvmrprocv10-v10-0-022e96815380@oss.qualcomm.com' of https://git.kernel.org/pub/scm/linux/kernel/git/qcom/linux into rproc-next
-4c0249b715e376b68f12bc219daa56325ecd3100 Merge branches 'rpmsg-next' and 'rproc-next' into for-next
+29b3a61e4e74725dd55311177da38ce8b186e523 Merge branch '20260105-kvmrprocv10-v10-0-022e96815380@oss.qualcomm.com' into drivers-for-6.20
 
---===============7925873164923408802==--
+--===============5857144598622744277==--
