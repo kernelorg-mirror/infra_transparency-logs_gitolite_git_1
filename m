@@ -1,56 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============8398965901534408992=="
+Content-Type: multipart/mixed; boundary="===============7593159433776947813=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Wed, 14 Jan 2026 21:36:01 -0000
-Message-Id: <176842656162.1341098.3039499994743425996@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Wed, 14 Jan 2026 21:36:05 -0000
+Message-Id: <176842656583.1341344.12813262211700764325@gitolite.kernel.org>
 
---===============8398965901534408992==
+--===============7593159433776947813==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.19
+  - ref: refs/heads/asoc-6.19
     old: 390caeed0897fcac75f3c414dbdd85d593183d9c
     new: 1a75f24a7f8c2cac9c34126d7221ff59c5265316
     log: revlist-390caeed0897-1a75f24a7f8c.txt
-  - ref: refs/heads/for-6.20
+  - ref: refs/heads/asoc-6.20
     old: 8978da8e51ed648a5ad5da3d4c0fffde46757cf2
     new: 57aa7735a536adfdf4a0e535a95a2ed3e34c7c9a
     log: revlist-8978da8e51ed-57aa7735a536.txt
 
---===============8398965901534408992==
+--===============7593159433776947813==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1768426559 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1768426559-47f9acf675af693417c40737a9aade045732cf98
+pusher C3F436CA30F5D8EB 1768426563 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1768426562-9432b480ba32c7b3055969bd95b6b3bb35eb1970
 
-390caeed0897fcac75f3c414dbdd85d593183d9c 1a75f24a7f8c2cac9c34126d7221ff59c5265316 refs/heads/for-6.19
-8978da8e51ed648a5ad5da3d4c0fffde46757cf2 57aa7735a536adfdf4a0e535a95a2ed3e34c7c9a refs/heads/for-6.20
+390caeed0897fcac75f3c414dbdd85d593183d9c 1a75f24a7f8c2cac9c34126d7221ff59c5265316 refs/heads/asoc-6.19
+8978da8e51ed648a5ad5da3d4c0fffde46757cf2 57aa7735a536adfdf4a0e535a95a2ed3e34c7c9a refs/heads/asoc-6.20
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmloDD8ACgkQJNaLcl1U
-h9DkEwf9HuTjnjZRf3cGyf0U8NMB09VZ33fHHfxWCRt4NPQUVYgUXzc/5sQp3wgx
-yibunRCYKNz0CYwN0sovBc3jcE6XdOdpbmRMnDOXhuI/2HH0RLKlEWEL8l2FI5TS
-fVIH7c4xEVQ1VWuOJzffDUqIlaF4lqmsQI74Ok4IFGYzQVbVZPHqN3TvIoWBmdNp
-M1Fl1/Is1RYJQQov2Sghs5uqq+ExV4TWT1DQ0a91J/y5kLZzxJcDnmZUuqUPWMRZ
-JDUDe3YPHmupTdEypoKPLI9Vt18Cba4jxD858tiBYSgMwyEXJwzVvY7+Pe7Snlf2
-QIeWnskLsgeawgK5XAtjmFQkUT/4DA==
-=uOdU
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmloDEMACgkQJNaLcl1U
+h9CEVwf/dMYXHjtnEh84TKu46dD9LDuOgrNuL043Hb4MxE6fMW7c2UUdUw4fP+hy
+Swpftwou29rkIQ59POI3J72L+tjsmgAN0ir2i1/G4sxlVGDxJJuGlB95bakbmuUU
+ZVhE16q0dITCGQlJoX0SbdlfdrDo+mRQWTuJQ0IlxUkVShKWK+hHDNZOo/6vLHvZ
+pKc7zAfYvsr+Tm9Zv19XN0hgCZG/+gvbB2amb7TKCOgE22WUyOQ2bo4Y59/1mr/z
+ClfFRmEPoCCmkOlOuWcK+qY3SMshKWmyB+nj2csD9n040O24UyHOkR3W3ZTpZ3Id
+c3dAqeeyuqkSp+i3avSSaR5Wn85yow==
+=G74+
 -----END PGP SIGNATURE-----
 
---===============8398965901534408992==
+--===============7593159433776947813==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -384,7 +384,7 @@ fac4bdbacab5a9abe7e017069c640273c2a704e2 Merge tag 'sched-urgent-2026-01-11' of 
 5b027c74f3ee8979193c50d31187edfa31acc0db ASoC: sdw_utils: Call init callbacks on the correct codec DAI
 1a75f24a7f8c2cac9c34126d7221ff59c5265316 ASoC: Fix sdw_utils calling wrong codec init callbacks
 
---===============8398965901534408992==
+--===============7593159433776947813==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -744,4 +744,4 @@ da7afdc79cba00f952df12cd579e44832d829c0a ASoC: SDCA: Add lock to serialise the F
 32bc4e7dde407b7c2287915bfcb30c84e8e6ad46 SDCA System Suspend Support
 57aa7735a536adfdf4a0e535a95a2ed3e34c7c9a sound: codecs: tlv320adcx140: assorted patches
 
---===============8398965901534408992==--
+--===============7593159433776947813==--
