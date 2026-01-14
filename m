@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3874548150151863542=="
+Content-Type: multipart/mixed; boundary="===============0242504994653721318=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mnyman/xhci
-Date: Wed, 14 Jan 2026 15:10:11 -0000
-Message-Id: <176840341121.1013336.15898944286636717082@gitolite.kernel.org>
+Date: Wed, 14 Jan 2026 15:10:30 -0000
+Message-Id: <176840343099.1013671.14219042179533001126@gitolite.kernel.org>
 
---===============3874548150151863542==
+--===============0242504994653721318==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,20 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/mnyman/xhci
 user: mnyman
 changes:
-  - ref: refs/heads/for-usb-next
-    old: 8d12c09bce32fc2379a5231fdc8ca08735946096
-    new: 5734e25306ba67141a51935c8e8e861828e8cfd6
-    log: revlist-8d12c09bce32-5734e25306ba.txt
+  - ref: refs/heads/for-usb-linus
+    old: 35e916d84c33c70ac1fe53aafaf61fbf6297d888
+    new: 4603994b732a650bfdd76890069540435d8b971a
+    log: revlist-35e916d84c33-4603994b732a.txt
 
---===============3874548150151863542==
+--===============0242504994653721318==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-8d12c09bce32-5734e25306ba.txt
+Content-Disposition: attachment; filename=revlist-35e916d84c33-4603994b732a.txt
 
+9869d3a6fed381f3b98404e26e1afc75d680cbf9 block: fix race between wbt_enable_default and IO submission
+41b80d43d9a00a302b5559baa7ebafc28dd54793 i3c: master: cleanup callback .priv_xfers()
+cc3b18f9fedec517e35b973d14670a37290f133c i3c: master: Fix confusing cleanup.h syntax
 136209e6bd981e60db6c0e78f2919ff2f92312d4 i3c: adi: Fix confusing cleanup.h syntax
 5300831555cc6bb45bf824262ac044e8891b581c Merge tag 'drm-misc-fixes-2025-12-10' of https://gitlab.freedesktop.org/drm/misc/kernel into drm-fixes
 fbbd7ce627af733ded7971b2495b0d099a0a80da genirq: Don't overwrite interrupt thread flags on setup
@@ -1046,9 +1049,6 @@ fac4bdbacab5a9abe7e017069c640273c2a704e2 Merge tag 'sched-urgent-2026-01-11' of 
 9c7ef209cd0f7c1a92ed61eed3e835d6e4abc66c Merge tag 'char-misc-6.19-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/char-misc
 7143203341dccbca809ba0a8e72239ea4652ace6 Merge tag 'libcrypto-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/ebiggers/linux
 0f61b1860cc3f52aef9036d7235ed1f017632193 Linux 6.19-rc5
-302c9fd7cec926a540c4a51383b6109803b68fea xhci: dbc: prepare to expose strings through sysfs
-9519a058823a7382b4188a9e4077bbde75b37e4d xhci: dbc: allow setting device serial number through sysfs
-c95d1f1d411244bcd4d946db0f7f3d8ca4da18b0 xhci: dbc: allow setting product string through sysfs
-5734e25306ba67141a51935c8e8e861828e8cfd6 xhci: dbc: allow setting manufacturer string through sysfs
+4603994b732a650bfdd76890069540435d8b971a xhci: sideband: don't dereference freed ring when removing sideband endpoint
 
---===============3874548150151863542==--
+--===============0242504994653721318==--
