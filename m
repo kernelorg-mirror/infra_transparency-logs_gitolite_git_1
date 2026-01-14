@@ -1,43 +1,43 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ti/linux
-Date: Wed, 14 Jan 2026 17:08:56 -0000
-Message-Id: <176841053639.1113696.7181056975145497202@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============3331848681210896711=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
+Date: Wed, 14 Jan 2026 17:18:14 -0000
+Message-Id: <176841109478.1121342.11315493332084928633@gitolite.kernel.org>
+
+--===============3331848681210896711==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ti/linux
-user: nmenon
+repo: pub/scm/linux/kernel/git/ath/ath
+user: jjohnson
 changes:
-  - ref: refs/heads/ti-drivers-soc-next
-    old: 126f61528d34658d80ec827f981c540c1230fdc4
-    new: 80db65d4acfb9ff12d00172aed39ea8b98261aad
-    log: |
-         3fec51b89d603f2d8ebf50f815b5e159efc381da soc: ti: k3-socinfo: Fix compile testing
-         c933138d45176780fabbbe7da263e04d5b3e525d soc: ti: k3-socinfo: Fix regmap leak on probe failure
-         80db65d4acfb9ff12d00172aed39ea8b98261aad soc: ti: pruss: Fix double free in pruss_clk_mux_setup()
-         
-  - ref: refs/heads/ti-k3-dts-next
-    old: 234a884d67fe3b5741481e6991f7ccf140c206ae
-    new: 61acc4428a7f52e0a13e226ba76f2ce2ca66c065
-    log: |
-         78a123f45a7e9ac2a59f0eff8a37d31773e7a021 arm64: dts: ti: k3-am69-aquila: Change main_spi0/2 CS to GPIO mode
-         319fff9c7d620af83d8ab67050a54f63f16ae4e8 arm64: dts: ti: k3-am69-aquila-clover: Change main_spi2 CS0 to GPIO mode
-         24c9d5fb8bbf5e8c9e6fc2beffeb80ac2da83de4 arm64: dts: ti: k3-j784s4-main.dtsi: Move c71_3 node to appropriate order
-         61acc4428a7f52e0a13e226ba76f2ce2ca66c065 arm64: dts: ti: k3-j784s4-j742s2-main-common.dtsi: Refactor watchdog instances for j784s4
-         
-  - ref: refs/heads/ti-next
-    old: 9cc01d54b64111c0fac5b19930cc22c4bdc7f937
-    new: 98edb47b6c444a0a97e94a700b65c1732fee677a
-    log: |
-         3fec51b89d603f2d8ebf50f815b5e159efc381da soc: ti: k3-socinfo: Fix compile testing
-         c933138d45176780fabbbe7da263e04d5b3e525d soc: ti: k3-socinfo: Fix regmap leak on probe failure
-         80db65d4acfb9ff12d00172aed39ea8b98261aad soc: ti: pruss: Fix double free in pruss_clk_mux_setup()
-         78a123f45a7e9ac2a59f0eff8a37d31773e7a021 arm64: dts: ti: k3-am69-aquila: Change main_spi0/2 CS to GPIO mode
-         319fff9c7d620af83d8ab67050a54f63f16ae4e8 arm64: dts: ti: k3-am69-aquila-clover: Change main_spi2 CS0 to GPIO mode
-         24c9d5fb8bbf5e8c9e6fc2beffeb80ac2da83de4 arm64: dts: ti: k3-j784s4-main.dtsi: Move c71_3 node to appropriate order
-         61acc4428a7f52e0a13e226ba76f2ce2ca66c065 arm64: dts: ti: k3-j784s4-j742s2-main-common.dtsi: Refactor watchdog instances for j784s4
-         98edb47b6c444a0a97e94a700b65c1732fee677a Merge branches 'ti-drivers-soc-next' and 'ti-k3-dts-next' into ti-next
-         
+  - ref: refs/heads/pending
+    old: 8cf263ee11f72d52b13138f66ad8dd04520b4233
+    new: cfef211dcb9c929a38c193b2c21281d80e64cc7d
+    log: revlist-8cf263ee11f7-cfef211dcb9c.txt
+
+--===============3331848681210896711==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-8cf263ee11f7-cfef211dcb9c.txt
+
+401f0701fc32d8ef9afe03daf308fe4dd8f0faa5 wifi: ath9k: debug.h: fix kernel-doc bad lines and struct ath_tx_stats
+ee58e120c067556c2e2b4c228dd8c7202b7988c5 wifi: ath9k: fix kernel-doc warnings in common-debug.h
+ea8b43e2fc0d694ab7259803f013edd9d9ed4473 wifi: wil6210: fix a bunch of kernel-doc warnings
+4c87978ec22bdf63cb99641058ea19167e84b422 wifi: ath12k: remove redundant pci_set_drvdata() call
+4087ef9ca08b63bfb6578e880bc2316411c2ac25 wifi: ath9k: add OF dependency to AHB
+26e34e5419d53c72561d67c9be0986c90f992585 wifi: ath11k: fix comment typo in monitor mode handling
+0a6e751536327c2a8451f38cb9c4bb8ae7ff20b7 wifi: ath11k: Add initialization and deinitialization sequence for CFR module
+a4ec3a8f4125aa848cc233070284b1bccced2c79 wifi: ath11k: Register debugfs for CFR configuration
+745c7fc590641808e6b54e58e4d0c05146db3e8f wifi: ath11k: Add support unassociated client CFR
+7d2f2fcd2e279fa7d65b11982f2c1033806a5b68 wifi: ath11k: Register relayfs entries for CFR dump
+9f8b0e6f8ed1b4fcb8e74ba1608e1e8836b87002 wifi: ath11k: Register DBR event handler for CFR data
+3ae0a1616bc592d838911389497a923872c7dca0 wifi: ath11k: Register handler for CFR capture event
+cfef211dcb9c929a38c193b2c21281d80e64cc7d wifi: ath12k: do WoW offloads only on primary link
+
+--===============3331848681210896711==--
