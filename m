@@ -1,25 +1,51 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jejb/scsi
-Date: Wed, 14 Jan 2026 14:25:41 -0000
-Message-Id: <176840074108.976009.10641489069243194546@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============1661908194372763050=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vbabka/slab
+Date: Wed, 14 Jan 2026 14:26:41 -0000
+Message-Id: <176840080163.976463.17239959329073367694@gitolite.kernel.org>
+
+--===============1661908194372763050==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jejb/scsi
-user: jejb
+repo: pub/scm/linux/kernel/git/vbabka/slab
+user: vbabka
+git_push_cert_status: E
 changes:
-  - ref: refs/tags/scsi-fixes
-    old: 8b0792d483bbec41eedbd046eebedc8b2733ab3a
-    new: f9eb7de6917c6ff8bb24ea4bdd3871d22b9b3c81
+  - ref: refs/heads/slab/for-next-fixes
+    old: 53ca00a19d345197a37a1bf552e8d1e7b091666c
+    new: fe8f3dae3c359b55a231a6860abe3e094aa13428
     log: |
-         be4b7e584a0cc6715fbb14dfb2a9a39bf07cfbab scsi: ufs: dt-bindings: Fix several grammar errors
-         1523d50abad0ef8a261a5c38099b462629941156 scsi: core: Correct documentation for scsi_test_unit_ready()
-         9a49157deeb23581fc5c8189b486340d7343264a scsi: core: Fix error handler encryption support
-         ee229e7c256ab5d7b277abf8d48a732c10571750 scsi: ufs: core: Configure MCQ after link startup
-         001556d298723f091751e9e887f63b642890aaca scsi: mpt3sas: Update maintainer list
-         d0f6cfb491924d42c8f5336acb68a798e49b74b1 scsi: bfa: Update outdated comment
-         309a29b5965a0b2f36b3e245213eb43300a89ac2 scsi: ufs: host: mediatek: Make read-only array scale_us static const
+         fe8f3dae3c359b55a231a6860abe3e094aa13428 slab: fix kmalloc_nolock() context check for PREEMPT_RT
          
+
+--===============1661908194372763050==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher A940D434992C2E8E99103D50224FA7E7CC82A664 1768400797 +0100
+pushee gitolite.kernel.org:pub/scm/linux/kernel/git/vbabka/slab.git
+nonce 1768400797-a44ea714d760bb5fce66a1632ed950ee04bfdce1
+
+53ca00a19d345197a37a1bf552e8d1e7b091666c fe8f3dae3c359b55a231a6860abe3e094aa13428 refs/heads/slab/for-next-fixes
+-----BEGIN PGP SIGNATURE-----
+
+iQFPBAABCAA5FiEEe7vIQRWZI0iWSE3xu+CwddJFiJoFAmlnp50bFIAAAAAABAAO
+bWFudTIsMi41KzEuMTEsMiwyAAoJELvgsHXSRYia2QwH/3Agfy9SK0Jz5w+kDX/4
+9DsTiJAc5DaVMLj8L7sFBvYU93DbcqZJPW/QrE14ANlJFOcXzQTTyq2+4RLuLiJ8
+VLoY0tBDFjtTGjPkb77Ly5bicXN9ZIhrkl9T39W2eCHDhlRSq+ohbcgrGsLODN/S
+vniA1X2gdbfIFVt03Z6mNZplCrd8hlrTP2Bz//AYmdYJ2+urb5SsA8T99DRKNzIN
+nWR1MQ7yTo/PnsSIc0dL9vKc/Gtug5Kav/9OMTflQwhh3K7NjFqBR+sf20I56WKG
+8Vp2apVj+D8NjP1mKRZFkwCtoMLn1HR0z8XVQVUNE5nRRxdQf3RsnrSqGcFq2emm
+oAM=
+=QW4B
+-----END PGP SIGNATURE-----
+
+--===============1661908194372763050==--
