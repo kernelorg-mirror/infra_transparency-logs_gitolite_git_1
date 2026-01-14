@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jejb/scsi
-Date: Wed, 14 Jan 2026 21:10:49 -0000
-Message-Id: <176842504927.1320906.12908475375184257348@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kbuild/linux
+Date: Wed, 14 Jan 2026 21:15:39 -0000
+Message-Id: <176842533934.1325018.13161842049208855073@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jejb/scsi
-user: jejb
+repo: pub/scm/linux/kernel/git/kbuild/linux
+user: nathan
 changes:
-  - ref: refs/heads/fixes
-    old: 309a29b5965a0b2f36b3e245213eb43300a89ac2
-    new: 901a5f309daba412e2a30364d7ec1492fa11c32c
+  - ref: refs/heads/kbuild-next
+    old: 5ce3218d4f102aca5e90d3c831259b6e380f88b4
+    new: 76df6815dab76d7890936dc5f6d91cf7e7f88358
     log: |
-         901a5f309daba412e2a30364d7ec1492fa11c32c scsi: xen: scsiback: Fix potential memory leak in scsiback_remove()
+         76df6815dab76d7890936dc5f6d91cf7e7f88358 kconfig: Support conditional deps using "depends on X if Y"
          
