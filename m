@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/firmware/linux-firmware
-Date: Wed, 14 Jan 2026 08:30:10 -0000
-Message-Id: <176837941047.667763.10141084271250485374@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/iwlwifi/android-os
+Date: Wed, 14 Jan 2026 08:31:20 -0000
+Message-Id: <176837948064.668720.710276447658009088@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/firmware/linux-firmware
-user: jwboyer
+repo: pub/scm/linux/kernel/git/iwlwifi/android-os
+user: mkorenbl
 changes:
-  - ref: refs/heads/main
-    old: 486ac8f9adb4d77b951b55179985c6b3c20b6957
-    new: eade0d48ff3850826c8176731b938d20fa8ec907
-    log: |
-         087f9b0a8d2324c1d113286f975af5d293078415 mediatek: rename MT8188 SCP firmware
-         eade0d48ff3850826c8176731b938d20fa8ec907 Merge branch 'robot/patch-1-1768375605' into 'main'
-         
+  - ref: refs/heads/nan-phase_2
+    old: 0000000000000000000000000000000000000000
+    new: 5b24622011d5f52c70449737e40bbac888bd41ff
+  - ref: refs/tags/nan-phase2-2026-01-14
+    old: 0000000000000000000000000000000000000000
+    new: 21277ec36590924dcdd4acdb1f04c9d5be6eed76
