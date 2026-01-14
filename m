@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Wed, 14 Jan 2026 01:53:48 -0000
-Message-Id: <176835562856.352702.16922331022435089406@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
+Date: Wed, 14 Jan 2026 02:01:53 -0000
+Message-Id: <176835611377.360093.10252230521203799089@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: kuba
+repo: pub/scm/linux/kernel/git/akpm/25-new
+user: akpm
 changes:
-  - ref: refs/heads/main
-    old: 9d405911a577ac92b3f6e99ad5ae385ff2a2ded2
-    new: 69cb6ca52da095d300cf42666c903ae787a762dd
+  - ref: refs/heads/master
+    old: 3c0019f691553b4f88a267d28f34cdb94e2c64f0
+    new: f427cbf20ceee916ba0303fcc4bf92eb6697ed3e
     log: |
-         69cb6ca52da095d300cf42666c903ae787a762dd tools/net/ynl: suppress jobserver warning in ynltool version detection
+         f427cbf20ceee916ba0303fcc4bf92eb6697ed3e foo
          
