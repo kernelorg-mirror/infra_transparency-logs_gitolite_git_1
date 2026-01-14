@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2360734435742373299=="
+Content-Type: multipart/mixed; boundary="===============8637164523031643120=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/kbuild/linux
-Date: Wed, 14 Jan 2026 13:26:49 -0000
-Message-Id: <176839720947.928081.12854413344664167094@gitolite.kernel.org>
+Date: Wed, 14 Jan 2026 13:28:38 -0000
+Message-Id: <176839731812.928738.7363991156255871256@gitolite.kernel.org>
 
---===============2360734435742373299==
+--===============8637164523031643120==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/kbuild/linux
 user: nsc
 changes:
-  - ref: refs/heads/kbuild-fixes-unstable
-    old: ce355e7e59cdbe08e80bb74cab9814d78cb90596
+  - ref: refs/heads/kbuild-fixes-for-next
+    old: a61ec945c3c9ef72ca153b0d72e0edc0b1575eb0
     new: baaecfcac559bcac73206df447eb5c385fa22f2a
-    log: revlist-ce355e7e59cd-baaecfcac559.txt
+    log: revlist-a61ec945c3c9-baaecfcac559.txt
 
---===============2360734435742373299==
+--===============8637164523031643120==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-ce355e7e59cd-baaecfcac559.txt
+Content-Disposition: attachment; filename=revlist-a61ec945c3c9-baaecfcac559.txt
 
 d4b69a6186b215d2dc1ebcab965ed88e8d41768d SUNRPC: svcauth_gss: avoid NULL deref on zero length gss_token in gss_read_proxy_verf
 a8ee9099f30654917aa68f55d707b5627e1dbf77 svcrdma: use rc_pageoff for memcpy byte offset
@@ -804,4 +804,4 @@ fac4bdbacab5a9abe7e017069c640273c2a704e2 Merge tag 'sched-urgent-2026-01-11' of 
 946d462346d2ded161cfd3dc62a61d7050d9f9ec kbuild: prefer ${NM} in check-function-names.sh
 baaecfcac559bcac73206df447eb5c385fa22f2a kconfig: fix static linking of nconf
 
---===============2360734435742373299==--
+--===============8637164523031643120==--
