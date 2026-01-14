@@ -1,61 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============6159662382139915975=="
+Content-Type: multipart/mixed; boundary="===============2497981466822433649=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-Date: Wed, 14 Jan 2026 08:58:11 -0000
-Message-Id: <176838109181.692949.6607792646501572957@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/driver-core/driver-core
+Date: Wed, 14 Jan 2026 09:07:53 -0000
+Message-Id: <176838167302.700574.2493872159985095774@gitolite.kernel.org>
 
---===============6159662382139915975==
+--===============2497981466822433649==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-user: ij
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/driver-core/driver-core
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-next
-    old: c4a069095395ecd1e936f488511dfd9016b9c479
-    new: 520448bb6f09d6a6cec6132ea7b85b96ca898de2
-    log: revlist-c4a069095395-520448bb6f09.txt
+  - ref: refs/heads/driver-core-next
+    old: 585e8a26abfd0c453f01ef78bd637cb7600e9b04
+    new: 303db924fe0bb298242694c0c36fa1890cc9cf33
+    log: |
+         303db924fe0bb298242694c0c36fa1890cc9cf33 MAINTAINERS: update auxiliary bus entry
+         
 
---===============6159662382139915975==
+--===============2497981466822433649==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1768381086 +0200
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86.git
-nonce 1768381086-a33e0ac1511fed43a69906b07f832b86843cb6a0
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1768381670 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/driver-core/driver-core.git
+nonce 1768381669-d8f37e8fd56cdabf6a1712d86c8cf0e40d2a6de1
 
-c4a069095395ecd1e936f488511dfd9016b9c479 520448bb6f09d6a6cec6132ea7b85b96ca898de2 refs/heads/for-next
+585e8a26abfd0c453f01ef78bd637cb7600e9b04 303db924fe0bb298242694c0c36fa1890cc9cf33 refs/heads/driver-core-next
 -----BEGIN PGP SIGNATURE-----
 
-iHUEABYIAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCaWdapAAKCRBZrE9hU+XO
-MfbEAP4zO3VEj3LO+ZlVOBqKr1MqkXaWQBsHv0oWkKrYxb1EDQEAlcY6doy2NZTZ
-LM2NFnL21i3GUAUPmzpn/9ZA1kRi7wM=
-=Tvfy
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmlnXOYbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+pnkQANhn/e/lclS4ABy9f8IV
+s0kDvFCvh4ohIafPdgScFrd/hYZBGdJutvTvTY/kemHzxDVnrqBW8OapT6z7Bt8f
+LSYHlDXXudmoENiB56T5hlqZUgxGsRMZWBbx6XXTivnuL79ch7C3s8A3g7F8WLxL
+OrX8GSb2HBpCP2IkS7N7BKgxepusXDdjnd93alPnSG9BvPYuZmWEg8hyJ2hF9B5r
+KHLBHFJmxhImAo2DwX2fNVMimyHnh3alzijfQqOp3Hg5KMKslf6NEWTuCRj1esn2
+3FEHzR0ozB91gEuiOqgfYs//KNvJYqhBNK5wUBJ6Fq04pW/yJ8QOLb5F2MCNQlIc
+9a2/2PqLVjr9HKzdSiNfbDe2JiZt/Y6dJghVgMD9GNHi0c+Y3LYntkmOveiWZptb
+vqA6EIhDJd6n+N7uXSUCmo/YMjLwQZvN1p8OylfHQzIFf2xDi6e5d6zK9NObST+S
+BzmfgsfFHZJMKqEcypfFc3qDXfqCfr9Dy4Jd5QThftHXmIykdBqVYAL+yGPhuIQV
+ZKAPfxifNoXPSD0vzYRb7WByBi7NuYdgVoUIk0j5Wd9qz6JWaObjvMd0LWUUWRe2
+mcGRFqaBMwZO0DzPowwH4zY0XQGJ/i2doNcPtPmB73q+Bzvk85rdj7LHldFh2enZ
+se4+glMAnrBjqN1FQW7mx6vf
+=wTzv
 -----END PGP SIGNATURE-----
 
---===============6159662382139915975==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c4a069095395-520448bb6f09.txt
-
-0e5aef2795008c80c515f6fa04e377c6e5715958 platform/x86: ISST: Add missing write block check
-dc7901b5a1563a9c9eb29b3b0b0dac3162065cd8 platform/x86: ISST: Store and restore all domains data
-69cd1ca440a96c85dcedcddfa5e0af6012f60b8b platform/x86: ISST: Check for admin capability for write commands
-932ca9b7b47c08479e52c1605f73474ed27e3e4f platform/x86: ISST: Optimize suspend/resume callbacks
-65b3a9220345f5dd37ff0227673c95755dbe5c2f platform/x86/intel/pmc: Change LPM mode fields to u8
-92911c91b5b7049cb634ef912feab086fd54ed43 platform/x86/intel/pmc: Move LPM mode attributes to PMC
-99e243c2b170c59f349e1b2a772a6f6a30430b4d platform/x86/intel/pmc: Enable substate residencies for multiple PMCs
-ceeb5c9835696065323cc4c2ab48b1a7a46d8269 platform/x86/intel/pmc: Remove double empty line
-f6b6ce566954941f60133798c90f2414f27d71f3 platform/x86: thinkpad_acpi: Add support to detect hardware damage detection capability.
-520448bb6f09d6a6cec6132ea7b85b96ca898de2 platform/x86: thinkpad_acpi: Add sysfs to display details of damaged device.
-
---===============6159662382139915975==--
+--===============2497981466822433649==--
