@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Wed, 14 Jan 2026 03:11:42 -0000
-Message-Id: <176836030296.413846.12120328502363024322@gitolite.kernel.org>
+Date: Wed, 14 Jan 2026 03:13:26 -0000
+Message-Id: <176836040692.414462.11259177922327309418@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,10 +12,10 @@ repo: pub/scm/linux/kernel/git/netdev/net
 user: kuba
 changes:
   - ref: refs/heads/main
-    old: fa5726692e4ca0d4e56d7cbd1b33126efd3f849e
-    new: ddf96c393a33aef4887e2e406c76c2f8cda1419c
+    old: ddf96c393a33aef4887e2e406c76c2f8cda1419c
+    new: dbe6b3138fb877a368917833f713bfbbb521045e
     log: |
-         d23564955811da493f34412d7de60fa268c8cb50 net: hv_netvsc: reject RSS hash key programming without RX indirection table
-         9a6f0c4d5796ab89b5a28a890ce542344d58bd69 dst: fix races in rt6_uncached_list_del() and rt_del_uncached_list()
-         ddf96c393a33aef4887e2e406c76c2f8cda1419c ipv6: Fix use-after-free in inet6_addr_del().
+         9d48c62f6b4ed70ebeea70f52ddb1c6d8613bed4 selftests: drv-net: fix RPS mask handling in toeplitz test
+         cf055f8c000445aa688c53a706ef4f580818eedb selftests: drv-net: fix RPS mask handling for high CPU numbers
+         dbe6b3138fb877a368917833f713bfbbb521045e Merge branch 'selftests-couple-of-fixes-in-toeplitz-rps-cases'
          
