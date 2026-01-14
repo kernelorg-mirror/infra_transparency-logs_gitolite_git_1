@@ -1,56 +1,57 @@
-Content-Type: multipart/mixed; boundary="===============2744566701683301619=="
+Content-Type: multipart/mixed; boundary="===============9077349779582800161=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/security/vulns
-Date: Wed, 14 Jan 2026 11:25:24 -0000
-Message-Id: <176838992497.812076.15984576472504034493@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
+Date: Wed, 14 Jan 2026 11:26:13 -0000
+Message-Id: <176838997360.812657.4524960279644717461@gitolite.kernel.org>
 
---===============2744566701683301619==
+--===============9077349779582800161==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/security/vulns
+repo: pub/scm/linux/kernel/git/gregkh/char-misc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/master
-    old: 68e58cff76e5eec9cd77e5f4661ea2fb00b10f14
-    new: fd875fbf63592a7d33c96273c275735cbba14f82
+  - ref: refs/heads/char-misc-testing
+    old: e92d336eaf244d27b88f6d8742b776ae72173992
+    new: e48407ba576c5bc8b4324df41de5507f7928771e
     log: |
-         fd875fbf63592a7d33c96273c275735cbba14f82 update cvelistV5
+         ad415677b7e3b733270adaf04e3a7a9c46f1e929 MAINTAINERS: Update Intel Quadrature Encoder Peripheral maintainer
+         e48407ba576c5bc8b4324df41de5507f7928771e Merge tag 'counter-updates-for-6.20' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/wbg/counter into char-misc-next
          
 
---===============2744566701683301619==
+--===============9077349779582800161==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1768389924 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
-nonce 1768389924-07bb06aa50759d1cb97ff96d84e01e2ba0742c9b
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1768389969 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
+nonce 1768389969-11864f037b89f2b282c0b4596fb019ced77734f0
 
-68e58cff76e5eec9cd77e5f4661ea2fb00b10f14 fd875fbf63592a7d33c96273c275735cbba14f82 refs/heads/master
+e92d336eaf244d27b88f6d8742b776ae72173992 e48407ba576c5bc8b4324df41de5507f7928771e refs/heads/char-misc-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmlnfSQbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+484QAIRvkBZ6nw4+UU6oh78z
-gUr0kRRrfqFdmwR+PrVRomwYLcItp1wLvY29ta5W/lQpfUMHZk6DUuFcAQSqeuVx
-NPKm0b8K1MCIQG7yeP6hIYDEGfAGvTr+4Jxw8T+6NRMpTUPdBeXfwuPJh2uaU/N8
-mDu+Xj4iKqTxsWv8emsx4E2EJtKj1x+g602lxO+qerEuVh6jtH8ScUbFuvjN+za8
-4KDNuYyMr/xOKPefu4w+vVreIcotJynWSVBxP5sQ6WYjvyItBY0hwIQ+4Cwj0gwI
-GsSuUBDuISKHLEQW3MTnewlgaIpBZLz9irWY/wNeePKo0hfQjxSfM2MwvFIcBAA/
-jHn5pqTgAcNccx4TRJC6DInP+XQ9oyZPw5ZnMctLEW4zA4Lj99Kspr1hSxI7eMGp
-MwuwKJs01UYEUoAGSxZOnfuTXj+JIMt8hpEHtX3dFECOqBDQSVR8j3njGDfx9V7p
-6Fkn096nyqlNkE1i1A0/3tNu5sI53LcYmrr3x9ZoWrHzwfYahkgDVqQ96olhCq47
-4NkqKZF3t7T73VyNzKzZg4Yu8+D6EMc2Gp4gUih4CwsKRg4RBMr0hD4XRfXvM1oN
-0KDV9zVnIr8T74J32wQZOTykI7HVWQP0R44Zfsfmz9BOZT6fsInLOx5tNfvj5xpi
-zSk5iiOWAdgWM2a72FRJzQ1P
-=JTFm
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmlnfVIbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+uIEP/1nVhL6d1MD5BWdmGNn+
+LBXnVlxU0yERoDALiMjAKxgIinwOeHIK4rDeo1pPGTxlxY8rLsFPupA0pmZH0l2L
+dl2u/GEd9A69VRkfwKG4Qscd/+7TUjwe2XHHBnLctYG6YnnU7jR+l+UAIu8CJpEn
+Bkxzwn2b5jmUjS0KdWb3748uVawCe2vv5ZkDTzxzGYqgTBi/YYFsvnueXH2ydT47
+1+gfqvdNIJ4w9UkuI6XHdxTik+Nw3pbwGe02xoWhSp/WdmgL06iCVceiQ0Amru/T
+4TouUIRrKmJk28C1aciR91WvKPaaq2VDYwcTFG1MjPWoBLJNpAOKhv9AcIx0KyZv
+ALvi3sKu/K8nsQczuhbImHsHZ0Ngsf7YGL9ABkKhUYpV4eyN6+vJJuQD7d3iJmVW
+Yy8Gtp8CApGyDDqErgt27dewD2FTYoU9OtmbcHwUFVEGP1y2h0A/QcdSfBI5WaXk
+TL14uADPFjwwXYIGRFQg/9BewU01L4A4W+krzHuqYfA1Ga1cOLwFemw5FJugw62Q
+374dVH6w5DZrR/bdW/jK7Oi39lx2AR7GIWE9J0P1VnKnKue9VVgCFAS9v+HaJGud
+h2NdY394YDa1Wi1iH+FMpVJPLTg3MYibmKmFCmMfa64u/3Y635PSMoRmOngF85qd
+ktvpow/plfy8iUBhhEG7hTDE
+=8unp
 -----END PGP SIGNATURE-----
 
---===============2744566701683301619==--
+--===============9077349779582800161==--
