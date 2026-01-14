@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2752899429783997752=="
+Content-Type: multipart/mixed; boundary="===============8457255144440297033=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/vbabka/slab
-Date: Wed, 14 Jan 2026 09:46:36 -0000
-Message-Id: <176838399690.731798.18140878945585497228@gitolite.kernel.org>
+Date: Wed, 14 Jan 2026 09:47:33 -0000
+Message-Id: <176838405310.732222.8207168035868249368@gitolite.kernel.org>
 
---===============2752899429783997752==
+--===============8457255144440297033==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,37 +16,38 @@ repo: pub/scm/linux/kernel/git/vbabka/slab
 user: vbabka
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/slab/for-7.0/obj_metadata
-    old: a4e5702b7bb846cf50d2917cadf2289c25720812
-    new: 25c88c5c30ebaab5eb8a9de73faf9107a99e5a43
+  - ref: refs/heads/slab/for-next
+    old: 22b166b482a1bfa0a848c08b6270d1ea7224a9e6
+    new: f9ba528eda515661c89d96dff95984a99caeaea4
     log: |
          e342c9c55e1a9b0a44ea6ccf6a6ba647922f3448 mm/slab: move [__]ksize and slab_ksize() to mm/slub.c
          25c88c5c30ebaab5eb8a9de73faf9107a99e5a43 mm/slab: place slabobj_ext metadata in unused space within s->size
+         f9ba528eda515661c89d96dff95984a99caeaea4 Merge branch 'slab/for-7.0/obj_metadata' into slab/for-next
          
 
---===============2752899429783997752==
+--===============8457255144440297033==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher A940D434992C2E8E99103D50224FA7E7CC82A664 1768383992 +0100
+pusher A940D434992C2E8E99103D50224FA7E7CC82A664 1768384049 +0100
 pushee gitolite.kernel.org:pub/scm/linux/kernel/git/vbabka/slab.git
-nonce 1768383992-1a6d5906c46bccbf9d71a47f8a9084f1cd9aeab0
+nonce 1768384048-a4ba10063eddfc98e4c2f2c7cb3ae5278236a914
 
-a4e5702b7bb846cf50d2917cadf2289c25720812 25c88c5c30ebaab5eb8a9de73faf9107a99e5a43 refs/heads/slab/for-7.0/obj_metadata
+22b166b482a1bfa0a848c08b6270d1ea7224a9e6 f9ba528eda515661c89d96dff95984a99caeaea4 refs/heads/slab/for-next
 -----BEGIN PGP SIGNATURE-----
 
-iQFPBAABCAA5FiEEe7vIQRWZI0iWSE3xu+CwddJFiJoFAmlnZfgbFIAAAAAABAAO
-bWFudTIsMi41KzEuMTEsMiwyAAoJELvgsHXSRYiajxEIAIMFBYACj8LjLPF0TQG1
-sMHbamksr+i0gx2EvKyoHkCs2p83GdeL8PAxRvAcyR2s9HLO2+mKM1ST8F9yY0rO
-hM5yORsLwCNgvL9Qjvw+nr6cQefTm6tBF6XBRaX4XJScKKnD5lWv11Nzc9gA32sY
-kbvWD3ItcBal7tyyDZ8XOwqK0wrlhHhs9rx5mhA/WrJbvrfll+Zg+d2m3VaDJRAI
-uELqAtet1UgHsQNWgm/6QiLMCf8bCvIYkFnGk+E7y20Qnlk9zKZdkJ2aQ9W25oaN
-oBsf1pPyPtDPdbiJZ1wRPuYSJDIUzIgQuQzqfa3ZOmOzjYDcUXjG2xcQgB01Syx+
-U0I=
-=1QuD
+iQFPBAABCAA5FiEEe7vIQRWZI0iWSE3xu+CwddJFiJoFAmlnZjEbFIAAAAAABAAO
+bWFudTIsMi41KzEuMTEsMiwyAAoJELvgsHXSRYiasj0IAJddw6kA0xUL+dvd/tDs
+ytIqQGXM5fmEPNO6nYJoPjF8yiTkfRCU6IkSqiUcv83K0MPE3lhTVCarwKBJIUNi
+U72YIT2OQ/EeCa2Av3mIYgxhcoo/cSeu74cSNzJm5vY6099hZm4Pw8s3mpkWGh2X
+DL4HGLDNDmkplCNhmImy4BecHCim8YoskGZD45UXFAjJ5Eh3unxQS3eQIxdeKdGe
+YO4F7CXNYMCSHrpFf+SbIWW2So+BKQPwAwws7GM3PFlOe0PJ3wRRUjYSnuv8VuBg
+3QhddpSaMOClBPGjlQVW52KN7ltBku904DcCeHCmQe11Jgu6vQMWi4rvKLgMKqZ5
+Jf8=
+=IW6E
 -----END PGP SIGNATURE-----
 
---===============2752899429783997752==--
+--===============8457255144440297033==--
