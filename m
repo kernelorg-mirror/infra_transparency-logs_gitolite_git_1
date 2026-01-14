@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3598346720576851237=="
+Content-Type: multipart/mixed; boundary="===============4173336243227940085=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Wed, 14 Jan 2026 04:25:11 -0000
-Message-Id: <176836471170.474520.3037001706034405913@gitolite.kernel.org>
+Date: Wed, 14 Jan 2026 04:25:13 -0000
+Message-Id: <176836471322.474712.7671376565187393299@gitolite.kernel.org>
 
---===============3598346720576851237==
+--===============4173336243227940085==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/mm-new
-    old: abb8eb84b7bb668d982e556b2b19f0e3ac42c591
-    new: d70f9612414bd3ed6bb709ccbeb4206d1a1927a5
-    log: revlist-abb8eb84b7bb-d70f9612414b.txt
+  - ref: refs/heads/mm-unstable
+    old: b28fc66b5eb689e2dcf36d299ef05d62a8c6ade5
+    new: 890e5a03df17398757c877f3217bac03b345b593
+    log: revlist-b28fc66b5eb6-890e5a03df17.txt
 
---===============3598346720576851237==
+--===============4173336243227940085==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-abb8eb84b7bb-d70f9612414b.txt
+Content-Disposition: attachment; filename=revlist-b28fc66b5eb6-890e5a03df17.txt
 
 e0b4e853ecd90befeeeb00a5b0136d1ed0cc3174 mm: add missing static initializer for init_mm::mm_cid.lock
 286cf1e76674d2abaf31156603523165f42ea68c mm: rename cpu_bitmap field to flexible_array
@@ -262,38 +262,5 @@ fd8cb9a8cedc1a0578b55da7f099ee8b072cad4d mm/vmscan: select the closest preferred
 f00c1a9a7e50d08e338e275c4fd6a31dd2478b1e mm/vmalloc: prevent RCU stalls in kasan_release_vmalloc_node
 22dbad8c50166bde19d60de63792a07c60683a0f sparc: use vmemmap_populate_hugepages for vmemmap_populate
 890e5a03df17398757c877f3217bac03b345b593 mm: convert vmemmap_p?d_populate() to static functions
-1b7ccfac84393b6ee8128f0439d58446b442f79f mm: debug_vm_pgtable: add debug_vm_pgtable_free_huge_page()
-eb15e52137dc600bfd8c3afc9cb30b38c06ff462 mm: page_alloc: add __split_page()
-c2219d6838379214e40e39bba1c42eb5af841775 mm: cma: kill cma_pages_valid()
-49ac6dec85bc714e3416a7519d57235be711bcaf mm: page_alloc: add alloc_contig_frozen_{range,pages}()
-456bc1989469d64d152bf7ea65aa2ce2615c75e7 mm: cma: add cma_alloc_frozen{_compound}()
-1fc5682ab5ca25f9d65951cef894fe5461c77697 mm: hugetlb: allocate frozen pages for gigantic allocation
-9fde4f1488e8d78ab8014cc54a2505cbfec7f7e3 ksm: initialize the addr only once in rmap_walk_ksm
-829bbc3f405d3b6c8083cfc6100dcd3b433388b0 ksm: optimize rmap_walk_ksm by passing a suitable addressrange
-547d9b6bd41a4bbf843cd064cd2490daed7d549b mm: page_isolation: introduce page_is_unmovable()
-c74e7b9a7274b6c8bf7070231fec644b5de78c91 mm: page_alloc: optimize pfn_range_valid_contig()
-11eafdc95bc7375e9810299c544bd7d6583d9b44 mm: hugetlb: optimize replace_free_hugepage_folios()
-df80ca16e80a116986ed61066aa86e588f24f82d mm: hugetlb_cma: optimize hugetlb_cma_alloc_frozen_folio()
-6dc8a87de67bb54c8fd34ca69ada056fa77ad0dd mm: hugetlb_cma: mark hugetlb_cma{_only} as __ro_after_init
-5a44cd3ef26a17949a46bdb4fe1bc0de6112a539 mm: fix OOM killer and proc stats inaccuracy on large many-core systems
-f265919a9988f2184dd220a5d04c8b898548ddbf mm/kasan/kunit: extend vmalloc OOB tests to cover vrealloc()
-e4311f48b9d05c8cf8e26cb5a66e6db1f01ffa3b mm/damon/core: introduce [in]active memory ratio damos quota goal metric
-6d2c877c316059b2bef28b5883ed0c8461ebc0ae mm/damon/sysfs-schemes: support DAMOS_QUOTA_[IN]ACTIVE_MEM_BP
-2400312236b67d4594196b0b63fd73a6e69893d1 Docs/mm/damon/design: document DAMOS_QUOTA_[IN]ACTIVE_MEM_BP
-6a62e81627efef332beb31a62c7cbf407d7e6cea mm/damon/paddr: activate DAMOS_LRU_PRIO targets instead of marking accessed
-56be6cd9492c222ef8f947c78c5019f967504c8e mm/damon/lru_sort: consider age for quota prioritization
-2fc96fe14b07bc5fc1fb35685dad21f2270d852a mm/damon/lru_sort: support young page filters
-960b0189f014ccd0ce9d08c73fa7bcb7fd53f331 Docs/admin-guide/mm/damon/lru_sort: document filter_young_pages
-8254c1a08a8d3e88bc1d92874e40f927d7a602fd mm/damon/lru_sort: support active:inactive memory ratio based auto-tuning
-20802a8a37e7512ac545fd6e7d4ed62daa7063ca Docs/admin-guide/mm/damon/lru_sort: document active_mem_bp parameter
-f65d1e969b6880cc4aed94a2387035edcd1ae604 mm/damon/lru_sort: add monitoring intervals auto-tuning parameter
-479ad92796ed913baedb5b5fd8ddd3a607086035 Docs/admin-guide/mm/damon/lru_sort: document intervals autotuning
-0ce1b8ee1bd1d9d585b2ce26930bcad6406a49ca mm: replace use of system_unbound_wq with system_dfl_wq
-31e435774e1ee68d40287f1de583a93734cd167e mm: replace use of system_wq with system_percpu_wq
-ca631a57404f5bdc416f37cee307c24ead605c99 mm: add WQ_PERCPU to alloc_workqueue users
-c85a953b65beb18644f858f0b3b6cbcc4ba3652c mm-add-wq_percpu-to-alloc_workqueue-users-fix
-51b4e055f68eee9b4cd9811355947d3c4b287989 mm: kmsan: add tests for high-order page freeing
-80077e316e2630538fa641eaee5ff28edb52e937 mm: kmsan: add test_uninit_page
-d70f9612414bd3ed6bb709ccbeb4206d1a1927a5 zsmalloc: introduce SG-list based object read API
 
---===============3598346720576851237==--
+--===============4173336243227940085==--
