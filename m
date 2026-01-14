@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/iwlwifi/android-os
-Date: Wed, 14 Jan 2026 17:30:48 -0000
-Message-Id: <176841184831.1134277.13041105382958134440@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
+Date: Wed, 14 Jan 2026 17:35:01 -0000
+Message-Id: <176841210153.1135505.8714962241621638575@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/iwlwifi/android-os
-user: mkorenbl
+repo: pub/scm/linux/kernel/git/ath/ath
+user: jjohnson
 changes:
-  - ref: refs/heads/nan-phase_2
-    old: 5b24622011d5f52c70449737e40bbac888bd41ff
-    new: d840cc4c1673fc73127237c3f8a2798e334e117d
+  - ref: refs/heads/pending
+    old: 26bb149b5e011b0f73f7b74421589cbd38e3304b
+    new: ac27f93543480ef788caaf173bbab579ec940434
     log: |
-         9a751ed1b60bbcf536d402e36a7f3e37347f7b04 ANDROID: iwl7000: bump core version for BZ/SC/DR to 104
-         d840cc4c1673fc73127237c3f8a2798e334e117d wifi: iwlwifi: mld: enable NAN DATA
+         ac27f93543480ef788caaf173bbab579ec940434 ath5k: debug.h: fix enum ath5k_debug_level kernel-doc
          
