@@ -1,55 +1,52 @@
-Content-Type: multipart/mixed; boundary="===============0569371669380239362=="
+Content-Type: multipart/mixed; boundary="===============2752899429783997752=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jberg/iw
-Date: Wed, 14 Jan 2026 09:40:42 -0000
-Message-Id: <176838364247.727300.9124531154462674382@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vbabka/slab
+Date: Wed, 14 Jan 2026 09:46:36 -0000
+Message-Id: <176838399690.731798.18140878945585497228@gitolite.kernel.org>
 
---===============0569371669380239362==
+--===============2752899429783997752==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jberg/iw
-user: jberg
+repo: pub/scm/linux/kernel/git/vbabka/slab
+user: vbabka
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/main
-    old: b9f9dda5898bd03ae679922e424097f556351790
-    new: a6d1103b971197574775c52f409824d7d56e8679
+  - ref: refs/heads/slab/for-7.0/obj_metadata
+    old: a4e5702b7bb846cf50d2917cadf2289c25720812
+    new: 25c88c5c30ebaab5eb8a9de73faf9107a99e5a43
     log: |
-         a6d1103b971197574775c52f409824d7d56e8679 iw: Print Toffset as signed value
+         e342c9c55e1a9b0a44ea6ccf6a6ba647922f3448 mm/slab: move [__]ksize and slab_ksize() to mm/slub.c
+         25c88c5c30ebaab5eb8a9de73faf9107a99e5a43 mm/slab: place slabobj_ext metadata in unused space within s->size
          
 
---===============0569371669380239362==
+--===============2752899429783997752==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 7BF9099A 1768383638 +0100
-pushee ssh+git://korg/pub/scm/linux/kernel/git/jberg/iw.git
-nonce 1768383638-5cf4d6b99965774698f71bf6687d83395cd8d55d
+pusher A940D434992C2E8E99103D50224FA7E7CC82A664 1768383992 +0100
+pushee gitolite.kernel.org:pub/scm/linux/kernel/git/vbabka/slab.git
+nonce 1768383992-1a6d5906c46bccbf9d71a47f8a9084f1cd9aeab0
 
-b9f9dda5898bd03ae679922e424097f556351790 a6d1103b971197574775c52f409824d7d56e8679 refs/heads/main
+a4e5702b7bb846cf50d2917cadf2289c25720812 25c88c5c30ebaab5eb8a9de73faf9107a99e5a43 refs/heads/slab/for-7.0/obj_metadata
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCgAdFiEEpeA8sTs3M8SN2hR410qiO8sPaAAFAmlnZJYACgkQ10qiO8sP
-aADD0g//fZOx/RTJ7ODThbtYx27QnFZhCORwijeT51sLhCcNBYzQJ3VgSVAqM5tA
-iVtu1b5DOulWv6chvJSISlCXphTlexIKwzWgAIaUv52X+F8a/NVEyvwjW6uxIbA3
-TutSsHJ35mFy66mZ2Dh9phxywu6kxEkBGNf+pIMepXLPA9D4QKpqAAQgfastePxy
-J/UekGl3xoac+MQ80Hk1c8rdgWwlDLchDK3Gyb4B7gHUV6CyE4WP4G9GLG//MdN6
-Sq443G0ztZOok2jdZS2RiGvh4qfjVvseeLQjLq5A7DogyMss77UV1nsMCexpOaBJ
-KfMa4K0iE63I9QWVOJav843G63muVpNNejV0uLO1BsE3oqfHZvAiRPmMBZ/Ll0T3
-+piPf3uMwK8NwsRWB4fg7yGbAo7HLSzrMOisNLnIYgICkn0AQyTaBwlFDxg/8QZo
-/nCEQEDfXfLeSJ9XRL6AM982DeqCYXHermJs7vrzWSP8FtJpv3kJH+1sOWTWedEw
-VIyhBkqNg0ql71Y3yQeKhq7Bp6yfJLCend5v/cnEHM98gG3gWddG5zTUP6xUCbSo
-+CqMZbZWcuyPbjymwU0cmONH5PwVufoYW6/Q3VN/RtXxGZQSy4qHVLKAsRhoijnJ
-kZ9if3lldptT3IiKvlUAIKXw/spbk18kObQLYZs7rgaQ8Rbwt+A=
-=fYig
+iQFPBAABCAA5FiEEe7vIQRWZI0iWSE3xu+CwddJFiJoFAmlnZfgbFIAAAAAABAAO
+bWFudTIsMi41KzEuMTEsMiwyAAoJELvgsHXSRYiajxEIAIMFBYACj8LjLPF0TQG1
+sMHbamksr+i0gx2EvKyoHkCs2p83GdeL8PAxRvAcyR2s9HLO2+mKM1ST8F9yY0rO
+hM5yORsLwCNgvL9Qjvw+nr6cQefTm6tBF6XBRaX4XJScKKnD5lWv11Nzc9gA32sY
+kbvWD3ItcBal7tyyDZ8XOwqK0wrlhHhs9rx5mhA/WrJbvrfll+Zg+d2m3VaDJRAI
+uELqAtet1UgHsQNWgm/6QiLMCf8bCvIYkFnGk+E7y20Qnlk9zKZdkJ2aQ9W25oaN
+oBsf1pPyPtDPdbiJZ1wRPuYSJDIUzIgQuQzqfa3ZOmOzjYDcUXjG2xcQgB01Syx+
+U0I=
+=1QuD
 -----END PGP SIGNATURE-----
 
---===============0569371669380239362==--
+--===============2752899429783997752==--
