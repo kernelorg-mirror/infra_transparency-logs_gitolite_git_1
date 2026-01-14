@@ -1,56 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============7593159433776947813=="
+Content-Type: multipart/mixed; boundary="===============1771893623839348012=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Wed, 14 Jan 2026 21:36:05 -0000
-Message-Id: <176842656583.1341344.12813262211700764325@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Wed, 14 Jan 2026 21:36:16 -0000
+Message-Id: <176842657669.1341595.13691427260569763169@gitolite.kernel.org>
 
---===============7593159433776947813==
+--===============1771893623839348012==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/asoc-6.19
+  - ref: refs/heads/for-linus
     old: 390caeed0897fcac75f3c414dbdd85d593183d9c
     new: 1a75f24a7f8c2cac9c34126d7221ff59c5265316
     log: revlist-390caeed0897-1a75f24a7f8c.txt
-  - ref: refs/heads/asoc-6.20
-    old: 8978da8e51ed648a5ad5da3d4c0fffde46757cf2
-    new: 57aa7735a536adfdf4a0e535a95a2ed3e34c7c9a
-    log: revlist-8978da8e51ed-57aa7735a536.txt
+  - ref: refs/heads/for-next
+    old: 1ca55e227dd88fd87e497f6f6f3d263205159203
+    new: 6072539942277b8dc1c4867cfa7e730d10ff21a7
+    log: revlist-1ca55e227dd8-607253994227.txt
 
---===============7593159433776947813==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1768426563 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1768426562-9432b480ba32c7b3055969bd95b6b3bb35eb1970
-
-390caeed0897fcac75f3c414dbdd85d593183d9c 1a75f24a7f8c2cac9c34126d7221ff59c5265316 refs/heads/asoc-6.19
-8978da8e51ed648a5ad5da3d4c0fffde46757cf2 57aa7735a536adfdf4a0e535a95a2ed3e34c7c9a refs/heads/asoc-6.20
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmloDEMACgkQJNaLcl1U
-h9CEVwf/dMYXHjtnEh84TKu46dD9LDuOgrNuL043Hb4MxE6fMW7c2UUdUw4fP+hy
-Swpftwou29rkIQ59POI3J72L+tjsmgAN0ir2i1/G4sxlVGDxJJuGlB95bakbmuUU
-ZVhE16q0dITCGQlJoX0SbdlfdrDo+mRQWTuJQ0IlxUkVShKWK+hHDNZOo/6vLHvZ
-pKc7zAfYvsr+Tm9Zv19XN0hgCZG/+gvbB2amb7TKCOgE22WUyOQ2bo4Y59/1mr/z
-ClfFRmEPoCCmkOlOuWcK+qY3SMshKWmyB+nj2csD9n040O24UyHOkR3W3ZTpZ3Id
-c3dAqeeyuqkSp+i3avSSaR5Wn85yow==
-=G74+
------END PGP SIGNATURE-----
-
---===============7593159433776947813==
+--===============1771893623839348012==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -384,11 +358,11 @@ fac4bdbacab5a9abe7e017069c640273c2a704e2 Merge tag 'sched-urgent-2026-01-11' of 
 5b027c74f3ee8979193c50d31187edfa31acc0db ASoC: sdw_utils: Call init callbacks on the correct codec DAI
 1a75f24a7f8c2cac9c34126d7221ff59c5265316 ASoC: Fix sdw_utils calling wrong codec init callbacks
 
---===============7593159433776947813==
+--===============1771893623839348012==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8978da8e51ed-57aa7735a536.txt
+Content-Disposition: attachment; filename=revlist-1ca55e227dd8-607253994227.txt
 
 05bbe52d0be5637dcd3c880348e3688f7ec64eb7 arm64: dts: ti: k3-am642-phyboard-electra-peb-c-010: Fix icssg-prueth schema warning
 d876bb9353d87dee0ae620300106e8def189c785 arm64: dts: ti: k3-am642-phyboard-electra-x27-gpio1-spi1-uart3: Fix schema warnings
@@ -426,18 +400,10 @@ c6d0cdf7e572c64bd72699d10b28bfddaf758a0f dt-bindings: misc: pci1de4,1: add requi
 ce26f588c8310e0fdd1bc7524a86fdf0ef6b1c85 misc: rp1: drop overlay support
 bc97e616a70df55dfa893879db7ea65d225f7846 arm64: dts: broadcom: bcm2712: fix RP1 endpoint PCI topology
 9a96cc8bbeefbc64654ac9c3da619443c22f6d32 arm64: dts: broadcom: rp1: drop RP1 overlay
-e4ca5ecc3c411f2fe970369f55bb72ac96adea85 ASoC: Intel: sof_sdw: shift SSP BT mask bits.
-a0c8ee09f94ba5a29ee5f7557eb2bc100d5e739a ASoC: SOF: Intel: add -bt tplg suffix if BT is present
-54fa71f5f965fa3ec8846cef9d1154bcb2ba2850 ASoC: codecs: pm4125: drop bogus container_of() error handling
-61a50d6f58b41e8a7e68d8fc8fc6bfbe30d790d8 ASoC: codecs: wcd937x: drop bogus container_of() error handling
-870b10f61d527fec594e0888f18cc4f32c47433d ASoC: soc_sdw_utils: drop bogus container_of() error handling
 a3b80161fbd06b5dbc0af8f29f8ae58c4aebf0b2 Merge tag 'ti-k3-dt-fixes-for-v6.19' of https://git.kernel.org/pub/scm/linux/kernel/git/ti/linux into arm/fixes
 c4c6db7ac54649c0cfe7d86b4a5358296dc8d08b MAINTAINERS: Fix a linusw mail address
 23f9485510c338476b9735d516c1d4aacb810d46 counter: interrupt-cnt: Drop IRQF_NO_THREAD flag
 9517d76dd160208b7a432301ce7bec8fc1ddc305 counter: 104-quad-8: Fix incorrect return value in IRQ handler
-97af54473f2a79f663bd14d7c75e97d04bd0e283 ASoC: codecs: pm4125: clean up bind() device reference handling
-6c11aa2b4cf767f5ccfe290b2572d53102dbe5ea ASoC: sun4i-spdif: Add missing kerneldoc fields for sun4i_spdif_quirks
-3572ad82201baeed840f1959787e0e1281e7f937 ASoC: drop bogus container_of() error handling
 830988b6cf197e6dcffdfe2008c5738e6c6c3c0f ALSA: ac97: fix a double free in snd_ac97_controller_register()
 e340663bbf2a75dae5d4fddf90b49281f5c9df3f ALSA: hda/tas2781: properly initialize speaker_id for TAS2563
 570ad253a3455a520f03c2136af8714bc780186d netfs: Fix early read unlock of page with EOF in middle
@@ -722,6 +688,8 @@ fac4bdbacab5a9abe7e017069c640273c2a704e2 Merge tag 'sched-urgent-2026-01-11' of 
 9c7ef209cd0f7c1a92ed61eed3e835d6e4abc66c Merge tag 'char-misc-6.19-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/char-misc
 7143203341dccbca809ba0a8e72239ea4652ace6 Merge tag 'libcrypto-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/ebiggers/linux
 0f61b1860cc3f52aef9036d7235ed1f017632193 Linux 6.19-rc5
+1ddbcb910a06f53fc2b14e1743c6ad4ccfd7107f soundwire: Add missing EXPORT for sdw_slave_type
+5b027c74f3ee8979193c50d31187edfa31acc0db ASoC: sdw_utils: Call init callbacks on the correct codec DAI
 4130dc47ce8f60d289d91e2bdd18c4d863ca3237 ASoC: tlv320adcx140: invert DRE_ENABLE
 be7664c81d3129fc313ef62ff275fd3d33cfecd4 ASoC: tlv320adcx140: fix null pointer
 d89aad92cfd15edbd704746f44c98fe687f9366f ASoC: tlv320adcx140: Propagate error codes during probe
@@ -740,8 +708,10 @@ ffd7e8a101110cba86925a2906d925e0db7102f3 ASoC: SDCA: Device boot into the system
 da7afdc79cba00f952df12cd579e44832d829c0a ASoC: SDCA: Add lock to serialise the Function initialisation
 850c9884b917f440e659a09dd309a46a136adada ASoC: intel: convert to snd_soc_dapm_xxx()
 10303b32519f52a5afd40593a507543143c8ec6a dt-bindings: sound: google,goldfish-audio: Convert to DT schema
+1a75f24a7f8c2cac9c34126d7221ff59c5265316 ASoC: Fix sdw_utils calling wrong codec init callbacks
 6e22f08989f9bebd9c0c5e982165164e75091e7f ASoC: codecs: aw88261: add dvdd-supply property
 32bc4e7dde407b7c2287915bfcb30c84e8e6ad46 SDCA System Suspend Support
 57aa7735a536adfdf4a0e535a95a2ed3e34c7c9a sound: codecs: tlv320adcx140: assorted patches
+6072539942277b8dc1c4867cfa7e730d10ff21a7 Merge remote-tracking branch 'asoc/for-6.20' into asoc-next
 
---===============7593159433776947813==--
+--===============1771893623839348012==--
