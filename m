@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2942710489327921168=="
+Content-Type: multipart/mixed; boundary="===============7925873164923408802=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/remoteproc/linux
-Date: Wed, 14 Jan 2026 18:09:12 -0000
-Message-Id: <176841415229.1164487.6739265619971556947@gitolite.kernel.org>
+Date: Wed, 14 Jan 2026 18:09:13 -0000
+Message-Id: <176841415387.1164599.2752814362990378841@gitolite.kernel.org>
 
---===============2942710489327921168==
+--===============7925873164923408802==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/remoteproc/linux
 user: andersson
 changes:
-  - ref: refs/heads/rproc-next
-    old: a3bf6ee15a59d25724746f284de167af6dc76baf
-    new: 1aab44c02ad26f0c59bf015bc01cc63c4f9e2d68
-    log: revlist-a3bf6ee15a59-1aab44c02ad2.txt
+  - ref: refs/heads/for-next
+    old: 8d002b3a59cd4a7fd3624c755c946ba785c00490
+    new: 4c0249b715e376b68f12bc219daa56325ecd3100
+    log: revlist-8d002b3a59cd-4c0249b715e3.txt
 
---===============2942710489327921168==
+--===============7925873164923408802==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a3bf6ee15a59-1aab44c02ad2.txt
+Content-Disposition: attachment; filename=revlist-8d002b3a59cd-4c0249b715e3.txt
 
 ebb0bbef88b3276c01e2d42b71d67c26b4eb938a dt-bindings: remoteproc: qcom,pas: Add iommus property
 25906ae9b28af23de509cb290a49ddd314f6c432 firmware: qcom_scm: Remove redundant piece of code
@@ -40,5 +40,6 @@ b019925838bca1599fa443b34c8ed5876f14f144 firmware: qcom_scm: Add SHM bridge hand
 a4584bff63c8aba994c8cbccc36748226f8f4b21 remoteproc: pas: Extend parse_fw callback to fetch resources via SMC call
 5c720260e840b508053dd5338577e0175ef31739 remoteproc: qcom: pas: Enable Secure PAS support with IOMMU managed by Linux
 1aab44c02ad26f0c59bf015bc01cc63c4f9e2d68 Merge branch '20260105-kvmrprocv10-v10-0-022e96815380@oss.qualcomm.com' of https://git.kernel.org/pub/scm/linux/kernel/git/qcom/linux into rproc-next
+4c0249b715e376b68f12bc219daa56325ecd3100 Merge branches 'rpmsg-next' and 'rproc-next' into for-next
 
---===============2942710489327921168==--
+--===============7925873164923408802==--
