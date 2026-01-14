@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/firmware/linux-firmware
-Date: Wed, 14 Jan 2026 12:15:11 -0000
-Message-Id: <176839291157.869622.16894328447729235174@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/wsa/linux
+Date: Wed, 14 Jan 2026 12:19:39 -0000
+Message-Id: <176839317925.871195.8649749273282502766@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/firmware/linux-firmware
-user: jwboyer
+repo: pub/scm/linux/kernel/git/wsa/linux
+user: wsa
 changes:
-  - ref: refs/heads/main
-    old: eade0d48ff3850826c8176731b938d20fa8ec907
-    new: e477bd5942f436029cee23a9c4cfec2ea36e38c0
+  - ref: refs/heads/i2c/for-current
+    old: e383f0961422f983451ac4dd6aed1a3d3311f2be
+    new: f2a3f51365bf672dab4b58d1e8954926a9196b44
     log: |
-         05a6a40bbba8b78b905b923187c6432557a21493 xe: Add GSC 105.0.2.1301 for PTL
-         e477bd5942f436029cee23a9c4cfec2ea36e38c0 Merge branch 'intel/ptl_gsc_105.0.2.1301' into 'main'
+         c0c50e3743e467ec4752c638e10e97f89c8644e2 i2c: qcom-geni: make sure I2C hub controllers can't use SE DMA
+         f2a3f51365bf672dab4b58d1e8954926a9196b44 i2c: imx-lpi2c: change to PIO mode in system-wide suspend/resume progress
          
