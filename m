@@ -1,56 +1,27 @@
-Content-Type: multipart/mixed; boundary="===============2497981466822433649=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/driver-core/driver-core
-Date: Wed, 14 Jan 2026 09:07:53 -0000
-Message-Id: <176838167302.700574.2493872159985095774@gitolite.kernel.org>
-
---===============2497981466822433649==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/utils/util-linux/util-linux
+Date: Wed, 14 Jan 2026 09:27:05 -0000
+Message-Id: <176838282573.715756.14229177289583120311@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/driver-core/driver-core
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/utils/util-linux/util-linux
+user: kzak
 changes:
-  - ref: refs/heads/driver-core-next
-    old: 585e8a26abfd0c453f01ef78bd637cb7600e9b04
-    new: 303db924fe0bb298242694c0c36fa1890cc9cf33
+  - ref: refs/heads/master
+    old: 6766bbf17ad618a6a7d35d4cffe5134da2ffe077
+    new: 6dbb6101f2b8e28b75e0ed1020be7b459fc37108
     log: |
-         303db924fe0bb298242694c0c36fa1890cc9cf33 MAINTAINERS: update auxiliary bus entry
+         60e0cb106e33a84cb4f1b654754b627e916f24b8 blkpr: prepare for _IOR() ioctls
+         a55e7504bb588a910ca5afb652e4c09eaa16375c blkpr: add read-keys command
+         81a350f9fe44bfa502b773ee53dee4a681515a3d blkpr: add read-reservation command
+         a2752fe2707a6ab6e34af0341ac23edbf5e596cb blkpr: Call gettext() for descriptions, clean up
+         6cac3fd97407776dcaf3c96aefd978e018b2ca6f blkpr: fix compilation [-Werror,-Wunused-function]
+         c8634c6804aadb70169c876d58c560038e50376b unshare: (man) fix grammar
+         de7973f9906da09b86f221b030ec836c1e91fd22 mount: (man) add link to mount.ceph(8)
+         4cdd16166801505eaae2643f4f19590b2594c278 Merge branch 'PR/blkpr-keys' of https://github.com/karelzak/util-linux-work
+         6dbb6101f2b8e28b75e0ed1020be7b459fc37108 Merge branch 'unshare_typo' of https://github.com/stoeckmann/util-linux
          
-
---===============2497981466822433649==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1768381670 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/driver-core/driver-core.git
-nonce 1768381669-d8f37e8fd56cdabf6a1712d86c8cf0e40d2a6de1
-
-585e8a26abfd0c453f01ef78bd637cb7600e9b04 303db924fe0bb298242694c0c36fa1890cc9cf33 refs/heads/driver-core-next
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmlnXOYbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+pnkQANhn/e/lclS4ABy9f8IV
-s0kDvFCvh4ohIafPdgScFrd/hYZBGdJutvTvTY/kemHzxDVnrqBW8OapT6z7Bt8f
-LSYHlDXXudmoENiB56T5hlqZUgxGsRMZWBbx6XXTivnuL79ch7C3s8A3g7F8WLxL
-OrX8GSb2HBpCP2IkS7N7BKgxepusXDdjnd93alPnSG9BvPYuZmWEg8hyJ2hF9B5r
-KHLBHFJmxhImAo2DwX2fNVMimyHnh3alzijfQqOp3Hg5KMKslf6NEWTuCRj1esn2
-3FEHzR0ozB91gEuiOqgfYs//KNvJYqhBNK5wUBJ6Fq04pW/yJ8QOLb5F2MCNQlIc
-9a2/2PqLVjr9HKzdSiNfbDe2JiZt/Y6dJghVgMD9GNHi0c+Y3LYntkmOveiWZptb
-vqA6EIhDJd6n+N7uXSUCmo/YMjLwQZvN1p8OylfHQzIFf2xDi6e5d6zK9NObST+S
-BzmfgsfFHZJMKqEcypfFc3qDXfqCfr9Dy4Jd5QThftHXmIykdBqVYAL+yGPhuIQV
-ZKAPfxifNoXPSD0vzYRb7WByBi7NuYdgVoUIk0j5Wd9qz6JWaObjvMd0LWUUWRe2
-mcGRFqaBMwZO0DzPowwH4zY0XQGJ/i2doNcPtPmB73q+Bzvk85rdj7LHldFh2enZ
-se4+glMAnrBjqN1FQW7mx6vf
-=wTzv
------END PGP SIGNATURE-----
-
---===============2497981466822433649==--
