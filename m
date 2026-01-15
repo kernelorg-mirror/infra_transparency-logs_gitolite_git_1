@@ -1,41 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============1855873726800599841=="
+Content-Type: multipart/mixed; boundary="===============5141087983460428695=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
-Date: Thu, 15 Jan 2026 09:05:10 -0000
-Message-Id: <176846791056.1912854.1041035235822552582@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/security/vulns
+Date: Thu, 15 Jan 2026 09:08:59 -0000
+Message-Id: <176846813900.1914509.9351770061968260873@gitolite.kernel.org>
 
---===============1855873726800599841==
+--===============5141087983460428695==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/peterz/queue
-user: peterz
+repo: pub/scm/linux/security/vulns
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/perf/core
-    old: a491c02c2770c9c2d02b96fad7e3a176d77bb737
-    new: 69044a0cbfdcc6e788c8a1f8e050d108038461d6
-    log: revlist-a491c02c2770-69044a0cbfdc.txt
+  - ref: refs/heads/master
+    old: a21dd84581c47714fd860f9c303b999190d29756
+    new: 9fa46d751fd17ff9d1fd6e92d6b23128884218e9
+    log: |
+         9fa46d751fd17ff9d1fd6e92d6b23128884218e9 update records due to new .vulnerable entries
+         
 
---===============1855873726800599841==
+--===============5141087983460428695==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a491c02c2770-69044a0cbfdc.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-eebe6446ccb75ecb36cb145ab1cbc3db06cbc8d6 perf/core: Speed up kexec shutdown by avoiding unnecessary cross CPU calls
-4960626f956d63dce57f099016c2ecbe637a8229 perf/core: Fix slow perf_event_task_exit() with LBR callstacks
-4e955c08d6dc76fb60cda9af955ddcebedaa7f69 perf/x86/intel: Support the 4 new OMR MSRs introduced in DMR and NVL
-d2bdcde9626cbea0c44a6aaa33b440c8adf81e09 perf/x86/intel: Add support for PEBS memory auxiliary info field in DMR
-d345b6bb886004ac1018da0348b5da7d9906071b perf/x86/intel: Add core PMU support for DMR
-7cd264d1972d13177acc1ac9fb11ee0a7003e2e6 perf/x86/intel: Add support for PEBS memory auxiliary info field in NVL
-c847a208f43bfeb56943f2ca6fe2baf1db9dee7a perf/x86/intel: Add core PMU support for Novalake
-8c74e4e3e0596950554962229582260f1501d899 perf/x86: Use macros to replace magic numbers in attr_rdpmc
-59af95e028d4114991b9bd96a39ad855b399cc07 perf/x86/intel: Add support for rdpmc user disable feature
-10d6d2416db2137a5a0ef9162662e5b7fee56dd4 perf/x86/intel/uncore: Convert comma to semicolon
-69044a0cbfdcc6e788c8a1f8e050d108038461d6 x86/uprobes: Fix XOL allocation failure for 32-bit tasks
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1768468135 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
+nonce 1768468135-86d250b82d011b63a65f25718343a811a8145439
 
---===============1855873726800599841==--
+a21dd84581c47714fd860f9c303b999190d29756 9fa46d751fd17ff9d1fd6e92d6b23128884218e9 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmlorqcbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+r6MP/369xfFX+3uARX5OKHcG
+zQ4RJKXdw4JdGV+0SRGTl+CllTKZyQnTj3CKMeJCo2iiLP2++ecgfylsVfDPHYkD
+FM7awhPByZBQ+BBFDCwMPjUkZJt3Gq//jcTu8m2asZihBZM9iFmKwVdQ6ICsjNX2
+qabawvjhaFteTOjUcRAbT4AkieTXr47JQUaBHYtjHF53xOEcfHazwEHUlLMFnUIs
+j2F7ZLk5QIm95EHinQAybIZEPW8raoScTQSyYHS/U9MY0kVb/w0EIib5/uK8HEIo
+UVk28/BZfDoe08on5hNbxHmoMieqARqDbXMTtx7h0wjbv2VmZwqO5yzTZzPMdt/f
+zTxem2Wc8ZEbTWA2yx3yWfT6KeZisZQLL5AWQYENG2cYTWEh6R3LNk1jmsPvxPxV
+hVg5kj7tw2u62Yo7IDGMa3cPqzMrmN5WPi/RSgJ24Vrr7XMVgoVlbnWZ5F6u3eXj
+GApJ+B5iqFdb04UIlu8t+9+w0phXx0t4doGA9Ff1hDCHpmF1pewLpKnRJSWYj8bA
+kuD4xK9JytGBrYxpGsJnuIxVBhLK/8iN7Zw3mXzfR77bbxonBT79TNmFS3JMpheX
+8ua3Oy/AmtwReWemCP4VmAIlSJtuDcnZRby77CTOnDBWFEXVhxE6/3xx9qcgecez
+8d8namwn1J0xva1ddLxXSNaf
+=gg14
+-----END PGP SIGNATURE-----
+
+--===============5141087983460428695==--
