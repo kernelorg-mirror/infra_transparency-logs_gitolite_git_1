@@ -1,56 +1,47 @@
-Content-Type: multipart/mixed; boundary="===============0082667286630581366=="
+Content-Type: multipart/mixed; boundary="===============1414078767097079154=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Thu, 15 Jan 2026 11:46:19 -0000
-Message-Id: <176847757964.2050180.10500085660548462738@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kvmarm/kvmarm
+Date: Thu, 15 Jan 2026 11:48:20 -0000
+Message-Id: <176847770012.2051032.17230472003701676923@gitolite.kernel.org>
 
---===============0082667286630581366==
+--===============1414078767097079154==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/kvmarm/kvmarm
+user: maz
 changes:
-  - ref: refs/heads/master
-    old: 2a9d9a5fd3160b30a3a4c4f5e4784e40ae762c81
-    new: cf441ae09057fab2ab7e49c8c2c65ac101c0d5b4
-    log: |
-         cf441ae09057fab2ab7e49c8c2c65ac101c0d5b4 drop mm-mprotect-delete-pmd_none_or_clear_bad_unless_trans_huge.patch
-         
+  - ref: refs/heads/next
+    old: 4df10a649f6179480d39c1150a9dbca1e1ee2748
+    new: 42252b4ecd6f201eef02b6d214de9735bd2198ae
+    log: revlist-4df10a649f61-42252b4ecd6f.txt
 
---===============0082667286630581366==
+--===============1414078767097079154==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-4df10a649f61-42252b4ecd6f.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1768477578 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1768477577-ce5271408dfa6fde595b875628324869d5c675d7
+5e8b511c39f35dcbf2e548a75d49782778c2df48 KVM: arm64: gic: Check for vGICv3 when clearing TWI
+8d8e882c2b4b73a3f894c3cad74718b633e3d166 KVM: arm64: Fix EL2 S1 XN handling for hVHE setups
+145cc42fe1217c66174c44c4034cc0fe3040bbb0 KVM: arm64: Copy FGT traps to unprotected pKVM VCPU on VCPU load
+aba963cb98c6d9d42490262a39c3d383cfebc6a9 KVM: arm64: Inject UNDEF for a register trap without accessor
+26cdea4893c2b26cad58926d8f29792386219332 KVM: arm64: Remove extra argument for __pvkm_host_{share,unshare}_hyp()
+d252c7898ebccef52665514be07b90987de7ffc7 KVM: arm64: Remove unused parameter in synchronize_vcpu_pstate()
+9cb2c20f06c300f92a831e4c374e353b33c5582b KVM: arm64: Remove unused vcpu_{clear,set}_wfx_traps()
+9e27085c33cca7ad26bec0af2c17aab072dd802e KVM: arm64: nv: Respect stage-2 write permssion when setting stage-1 AF
+86364832ba6f2777db98391060b2d7f69938ad9b KVM: arm64: Don't blindly set set PSTATE.PAN on guest exit
+19cffd16ed6489770272ba383ff3aaec077e01ed KVM: arm64: Invert KVM_PGTABLE_WALK_HANDLE_FAULT to fix pKVM walkers
+a98cd5c298af2f4030ca261a12ea001254d6bedb Merge branch kvmarm-fixes-6.19-1 into kvm-arm64/vtcr
+f1640174c8a769511641bfd5b7da16c4943e2c64 arm64: Convert ID_AA64MMFR0_EL1.TGRAN{4,16,64}_2 to UnsignedEnum
+a035001dea37b885efb934e25057430ae1193d0a arm64: Convert VTCR_EL2 to sysreg infratructure
+c259d763e6b09a463c85ff6b1d20ede92da48d24 KVM: arm64: Account for RES1 bits in DECLARE_FEAT_MAP() and co
+9d2de51825598fc8e76f596c16368362753d8021 KVM: arm64: Convert VTCR_EL2 to config-driven sanitisation
+80cbfd7174f31010982f065e8ae73bf337992105 KVM: arm64: Honor UX/PX attributes for EL2 S1 mappings
+42252b4ecd6f201eef02b6d214de9735bd2198ae Merge branch kvm-arm64/vtcr into kvmarm-master/next
 
-2a9d9a5fd3160b30a3a4c4f5e4784e40ae762c81 cf441ae09057fab2ab7e49c8c2c65ac101c0d5b4 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmlo04obHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+iF8QANGD8Ln5sWqwkOWs6VB4
-SCIuVeKshT8bgVA5GTPoAm5pXY4pLNtYEkdwqQYzLXKf19IZmbzLWB5rfXbikqnb
-IqS3t14uT2fEeAOVpAQ18tDiMQc1z5hunGxmT67hLHRHjRIGkzeZVoRXt5eSixbv
-UQJNJymMnw0JrXoLS68NzFiE94mKNkSPN/JYrqm4RXDd5sSopit+Ykrsx4k2acUs
-4OAF14RpS3n2Ba/bbMR1bc5OQ9yUwaEZ/BTFuwCj46oxjwJ8e7E/2ghsEmilZNH0
-m3pT6VumxTRbdyBe9xDYCA3ZD0WThMNM5Q/vZbxNGuNEfKCeKQS211ZeSYkp5GF0
-grSQZaL5lAD1DCuzrzMyx14Fdgkqvj17QlkwIppc97NjBFfkfJcUi9J96kGcLGqe
-bmNKdr9z6XBBsmxKMHIytXtgRnAymb+L9XyVc/AXCEmxPJ4BAcQ4Xeza9px//gDe
-1PMtBrczYVDdJ910pm6vglhRGZJClXdi5KtE1r17EYlchqBS0PZ7+MpeSpjZVQBt
-gKDLc91au6PlChx/zM6t+UvdmhVIc3yXO4/EohGQVu1+/5duX1nG3Z7bYxv/xzOu
-5zGOO0f8wc3whOXhDhb1GBhgRyT+RG/h1olqv6kVdxc5IaVK4KGj63AP3GLRBtyv
-tKLr3mejr9hfC1jSaCi3mhYJ
-=gpZV
------END PGP SIGNATURE-----
-
---===============0082667286630581366==--
+--===============1414078767097079154==--
