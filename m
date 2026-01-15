@@ -1,31 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vireshk/linux
-Date: Thu, 15 Jan 2026 09:17:09 -0000
-Message-Id: <176846862999.1922344.1299352067406714666@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Thu, 15 Jan 2026 09:21:57 -0000
+Message-Id: <176846891794.1926356.13644593500169699575@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vireshk/linux
-user: vireshk
+repo: pub/scm/linux/kernel/git/netdev/net
+user: pabeni
 changes:
-  - ref: refs/heads/virtio/msg
-    old: 6314b93561036b8498332cd4723d83302d459b18
-    new: 8a9514c687cbedd6a7b41f7c9107ed5ea701fd02
+  - ref: refs/heads/main
+    old: 3879cffd9d07aa0377c4b8835c4f64b4fb24ac78
+    new: 4156c3745f06bc197094b9ee97a9584e69ed00bf
     log: |
-         8a9514c687cbedd6a7b41f7c9107ed5ea701fd02 vsock: Add shared-memory support for virtio and loopback
-         
-  - ref: refs/heads/virtio/msg-xen
-    old: 06c57af9a78b0162df90d361e1a15994d6c39c39
-    new: 2978a84b82627a16bee8e2cd5718a51de47e7d5e
-    log: |
-         8a9514c687cbedd6a7b41f7c9107ed5ea701fd02 vsock: Add shared-memory support for virtio and loopback
-         8947d61d8be0f994ab1d987aaa1596fd019e4f41 virtio-msg: ffa: Add passive-mode host support
-         cd8e05b6bdd75958aed1cc2af6124d4f82f49fbe DNU: firmware: arm_ffa: Keep host driver alive until guests enumerate
-         5904c6a0510771cc8259d3e1fdf2c420efff029c DNU: firmware: arm_ffa: Force-match virtio-msg-ffa UUID
-         8c48f53c3ec215354ad9b3e6b87026c5162a265a DNU: defconfig: arm64: Reset to baseline
-         024361e718220acfdf5e17b48427cf54ebcaad5f DNU: defconfig: arm64/x86_64: Enable virtio-msg and qemu/xen options
-         2978a84b82627a16bee8e2cd5718a51de47e7d5e DNU: defconfig: arm64: Enable built-in initramfs for guest testing
+         4156c3745f06bc197094b9ee97a9584e69ed00bf virtio_net: Fix misalignment bug in struct virtnet_info
          
