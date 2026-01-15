@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
-Date: Thu, 15 Jan 2026 03:02:29 -0000
-Message-Id: <176844614929.1604400.5536601452128549555@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Thu, 15 Jan 2026 03:10:28 -0000
+Message-Id: <176844662807.1611414.17842822499333830056@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/25-new
-user: akpm
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: ast
 changes:
   - ref: refs/heads/master
-    old: f1dc149b3172ea10a01169fb0100c4a145434dec
-    new: a973c49a87e1ffbfb70d9223c8fd73bd7218139d
+    old: e3d0dbb3b5e8983d3be780199af1e5134c8a9c17
+    new: 9a403a4aea32f1801a7f29b2385ec345d4faaf78
     log: |
-         a973c49a87e1ffbfb70d9223c8fd73bd7218139d foo
+         d1aab1ca576c90192ba961094d51b0be6355a4d6 bpf: Properly mark live registers for indirect jumps
+         7c8e817e443c118aa303f1bbcec33df8d9e3487a selftests/bpf: Extend live regs tests with a test for gotox
+         9a403a4aea32f1801a7f29b2385ec345d4faaf78 Merge branch 'bpf-live-registers-computation-with-gotox'
          
