@@ -1,51 +1,72 @@
-Content-Type: multipart/mixed; boundary="===============1877389148320737956=="
+Content-Type: multipart/mixed; boundary="===============0308657852208556056=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Thu, 15 Jan 2026 07:50:59 -0000
-Message-Id: <176846345919.1832123.16034802922680367978@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
+Date: Thu, 15 Jan 2026 07:51:03 -0000
+Message-Id: <176846346353.1832407.9997525671611926790@gitolite.kernel.org>
 
---===============1877389148320737956==
+--===============0308657852208556056==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: mingo
+repo: pub/scm/linux/kernel/git/gregkh/usb
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/master
-    old: c671ba862b595d0bdc02977e6ffd3524ade8805e
-    new: 6d94219fe6cc6bc26fb4d697cd06cda8b2688c65
-    log: revlist-c671ba862b59-6d94219fe6cc.txt
+  - ref: refs/heads/usb-next
+    old: 56a512a9b4107079f68701e7d55da8507eb963d9
+    new: cea2a1257a3b5ea3e769a445b34af13e6aa5a123
+    log: revlist-56a512a9b410-cea2a1257a3b.txt
 
---===============1877389148320737956==
+--===============0308657852208556056==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c671ba862b59-6d94219fe6cc.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-be4b7e584a0cc6715fbb14dfb2a9a39bf07cfbab scsi: ufs: dt-bindings: Fix several grammar errors
-1523d50abad0ef8a261a5c38099b462629941156 scsi: core: Correct documentation for scsi_test_unit_ready()
-9a49157deeb23581fc5c8189b486340d7343264a scsi: core: Fix error handler encryption support
-ee229e7c256ab5d7b277abf8d48a732c10571750 scsi: ufs: core: Configure MCQ after link startup
-001556d298723f091751e9e887f63b642890aaca scsi: mpt3sas: Update maintainer list
-d0f6cfb491924d42c8f5336acb68a798e49b74b1 scsi: bfa: Update outdated comment
-309a29b5965a0b2f36b3e245213eb43300a89ac2 scsi: ufs: host: mediatek: Make read-only array scale_us static const
-003c492f9e765b82fe731963d9dbd7b4ae92c2b4 media: Documentation: mali-c55: Use v4l2-isp version identifier
-8c0af684bd8ec66b09daadca27d1bafd7d2891ce media: mali-c55: Remove duplicated version check
-22cd0db47f4f65ebe8afc8c34ab120c47c73da2a media: uapi: mali-c55-config: Remove version identifier
-63d95712309299af25ea2d170899468be051d91e media: rzg2l-cru: csi-2: Support RZ/V2H input sizes
-905120d7470e5ed79d59b61ef6aa13344ffca229 media: ov02c10: Fix bayer-pattern change after default vflip change
-d0bb6f1f2b79d96953bf81a3839ac2aa946ba2fa media: ov02c10: Adjust x-win/y-win when changing flipping to preserve bayer-pattern
-1d2e3b4443a85374fdd6fb8fd2c015e3e3e16100 media: ov02c10: Fix the horizontal flip control
-b75710155a823369976bba9f3497cee113830ae9 media: ipu-bridge: Add DMI quirk for Dell XPS laptops with upside down sensors
-69d6c6fc79eb3a8309691250a3b0a9c1870c1f83 media: ov02c10: Remove unnecessary hflip and vflip pointers
-6a069876eb1402478900ee0eb7d7fe276bb1f4e3 rust: bitops: fix missing _find_* functions on 32-bit ARM
-d19954ee63b2211fcc14175d6cb07cbc040980d5 Merge tag 'media/v6.19-3' of git://git.kernel.org/pub/scm/linux/kernel/git/mchehab/linux-media
-e0d4140e804380ae898da1e4c58c21e6323415a4 Merge tag 'bitmap-for-6.19-rc5' of https://github.com/norov/linux
-944aacb68baf7624ab8d277d0ebf07f025ca137c Merge tag 'scsi-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
-6d94219fe6cc6bc26fb4d697cd06cda8b2688c65 Merge branch 'linus'
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1768463462 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
+nonce 1768463462-f91438da5dc4b8644db9f4b51d9a5990fe9fcde5
 
---===============1877389148320737956==--
+56a512a9b4107079f68701e7d55da8507eb963d9 cea2a1257a3b5ea3e769a445b34af13e6aa5a123 refs/heads/usb-next
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmlonGYbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+qzsQAJ9VG0IvXT/+XtWHrytc
+5TXsPuMA7DaMo9FohTmHket13W1ux/BHr3rKiGp7KlNvy8N8j4f1vE1jZbykkuEj
+ljYyhcXNz+c7nWgD7cW6lflGDu4mQCLlLDJdgSqAmbBz2ubwLGdOYd0F+IjE2ViA
+yqCFvq93xMyPaVWC7LzKPbEHCKra2fDAchktPHooWZFpKLS1RfW/ftOrnPGfPTp0
+iYmQCiTC46YsmyE2Nr2oa2GGsdzcASIBYmOWr0o26SaoB8i8dDsa1pqAw6PCpMTt
+B222ytxgIAtP/FBXC0gzGuCOjjxLfOwYJju705JEnlSZ4Smb/wlhilkwyfoMerBu
+2XFqsZ3mAOQCBgQOnt4UifX4lTdzd7nt5bO52R7q/08Vkvd1iSeo3dwgDYoLLIW6
+pLMDgoOjKYTI0QU3vyW01kRNt9amyzNj9WjENhEXUrm0AiykuPfJSKv+JVRw21ge
+n5cF3UOCqTSPuBEbUx0QLOuP1l8ww/b67hsQFKGsDkLSNtyce+f7xk1WlY0rI3Wu
+Lrf+eti43EN8xf2l8LIxazzONurSQqJcC2Qrp7P/pG8pVKmE5Z3iDLCZuT/xwP3j
+K2qlNVzdgcN2x0Uj0n9prcfEfHtmZL4eEJ98yPgvEmQVnq9rDGNjvvj0Fg9Q1BvV
+/rC4dpkjpZlhxevhhxFg9/ak
+=OIC9
+-----END PGP SIGNATURE-----
+
+--===============0308657852208556056==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-56a512a9b410-cea2a1257a3b.txt
+
+da0faa257f10da39052ca7f1cfa35179ca8749e5 usb: gadget: f_tcm: initialize data_len in UAS path for consistency
+8e4c1d06183c25022f6b0002a5cab84979ca6337 usb: gadget: f_fs: Fix ioctl error handling
+0145e7acd29855dfba4a2f387d455b5d9a520f0e usb: gadget: f_fs: fix DMA-BUF OUT queues
+e02264af6b49d21bbc2223b19c2ddfd2ae8260a6 usb: dwc3: drd: extend dwc3_pre_set_role() to extcon and otg usecase
+ab785d6bd02b854d15c8eb53769fed8b4831b390 usb: dwc3: imx8mp: rename dwc3 to dwc3_pdev in struct dwc3_imx8mp
+86767625f525431642fa64b16ce84bdb2d8d1dc4 usb: dwc3: imx8mp: disable auto suspend for host role
+f9de0dd246ed14996e62c731ebccf162cb015ff9 USB: HCD: remove logic about which hcd is loaded
+7a7930c0f934fb0c46de6e7ca08e14e11df35dd6 usb: gadget: u_ether: use <linux/hex.h> header file
+ec06c8039d396a1b558cc138f5c5aba17698e175 usb: dwc3: Always deassert xilinx resets
+2e9762f45efb53e7e7fc61f4ebf7a3507f5daa45 usb: chipidea: ci_hdrc_imx: use "wakeup" suffix for wakeup interrupt name
+cea2a1257a3b5ea3e769a445b34af13e6aa5a123 usb: chipidea: udc: fix DMA and SG cleanup in _ep_nuke()
+
+--===============0308657852208556056==--
