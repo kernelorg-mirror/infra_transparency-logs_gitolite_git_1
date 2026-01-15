@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8035843069491086373=="
+Content-Type: multipart/mixed; boundary="===============1869677112239516685=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/vbabka/slab
-Date: Thu, 15 Jan 2026 10:30:26 -0000
-Message-Id: <176847302670.1983851.8545541085276138270@gitolite.kernel.org>
+Date: Thu, 15 Jan 2026 10:31:03 -0000
+Message-Id: <176847306389.1984706.14294876918390313045@gitolite.kernel.org>
 
---===============8035843069491086373==
+--===============1869677112239516685==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,61 +16,68 @@ repo: pub/scm/linux/kernel/git/vbabka/slab
 user: vbabka
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/slab/for-next-fixes
-    old: fe8f3dae3c359b55a231a6860abe3e094aa13428
-    new: a4ae75d1b6a2401dac55045e6b6b372de6400f65
-    log: revlist-fe8f3dae3c35-a4ae75d1b6a2.txt
+  - ref: refs/heads/slab/for-7.0/sheaves
+    old: aff9fb2fffa1175bd5ae3b4630f3d4ae53af450b
+    new: e77f314c559ee490f54c6fb297f27c4c66cc6b14
+    log: revlist-aff9fb2fffa1-e77f314c559e.txt
 
---===============8035843069491086373==
+--===============1869677112239516685==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher A940D434992C2E8E99103D50224FA7E7CC82A664 1768473022 +0100
+pusher A940D434992C2E8E99103D50224FA7E7CC82A664 1768473060 +0100
 pushee gitolite.kernel.org:pub/scm/linux/kernel/git/vbabka/slab.git
-nonce 1768473022-234e6f974a073ba56303ddb580f2c02b9d29d6b0
+nonce 1768473059-fa0642652a64c57a337d38d62b6dc2c4e4ce1350
 
-fe8f3dae3c359b55a231a6860abe3e094aa13428 a4ae75d1b6a2401dac55045e6b6b372de6400f65 refs/heads/slab/for-next-fixes
+aff9fb2fffa1175bd5ae3b4630f3d4ae53af450b e77f314c559ee490f54c6fb297f27c4c66cc6b14 refs/heads/slab/for-7.0/sheaves
 -----BEGIN PGP SIGNATURE-----
 
-iQFPBAABCAA5FiEEe7vIQRWZI0iWSE3xu+CwddJFiJoFAmlowb4bFIAAAAAABAAO
-bWFudTIsMi41KzEuMTEsMiwyAAoJELvgsHXSRYiaPvwH/2PBL8XdZVDgkoEJGTXv
-MUj3TaBgHNj9+IHbC7fngsshBAUF0bcZqJzlJQXhiJrYHs2Vy0g48+42CLBi1XbX
-13IbfM2qDcghU6cRmqhXxOYzEkGoOSXbolxs0aFfjUJqg45MldKlDNKJQqFGWPnk
-qXhA6SdYi5tG/3KhCX9WbJN7ZJW5UQItqTSpAMr4/+5Y+/tCDIFXgOz0F4NGob4C
-WQbl0SWj3YOEolt8+QjVl5TypO6aobuSpoA+9oEe8DAK/7yGDa7eUX35dWhFUHk7
-KjH5KzoIY03m1/nJOzxgBB36wefvkOzll+LSUYYSFfhQu57+JEmTfI6O3LLNM8xW
-81U=
-=5/DN
+iQFPBAABCAA5FiEEe7vIQRWZI0iWSE3xu+CwddJFiJoFAmloweQbFIAAAAAABAAO
+bWFudTIsMi41KzEuMTEsMiwyAAoJELvgsHXSRYiahEAH/j7+y7gXOlgk3kfTjeQH
+kYSIXL5HAG/7SeZlj24h47lIaRHUiGzt2k6IqeFF6vqjNwGACairmzqXDpddcCNK
+qYeZx/2Kk9tvFncPgBJDodr46m+FTRsD8r7joo83fRk2DrwT62sFa5LzLQXrKFYY
+tL2T8CgNCDZ2AqL7e+h8wBuMnapqzWN8WRsb8iJlb3RKaGe857hD6o/Yue+EMNqC
+Si9NlCWUMF8nYUcxkbKULkiZeUEnib8Bq3uwHim66opews5yjDB6zU08ZMlIs/rJ
+gjkKHdiVZ1r2s9SsLE+JP4KVbWXhic+/BE0BYQ1Iu+j2erHuSv/Hu5c94xN4dZSc
+uP4=
+=ljGw
 -----END PGP SIGNATURE-----
 
---===============8035843069491086373==
+--===============1869677112239516685==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-fe8f3dae3c35-a4ae75d1b6a2.txt
+Content-Disposition: attachment; filename=revlist-aff9fb2fffa1-e77f314c559e.txt
 
+5ec8ca26fe93103577c904644b0957f069d0051a netfilter: nf_nat: remove bogus direction check
+a67fd55f6a09f4119b7232c19e0f348fe31ab0db netfilter: nf_tables: remove redundant chain validation on register store
+9f769637a93fac81689b80df6855f545839cf999 sched_ext: Fix bypass depth leak on scx_enable() failure
+ac87efcf9e42f07526438b67405659a8c1d0480e x86/boot/Documentation: Fix whitespace noise in boot.rst
+e58c88f0cb2d8ed89de78f6f17409d29cfab6c5c Input: lkkbd - disable pending work before freeing device
+fe27e709d91fb645182751b602cb88966b4a1bb6 drm/tests: hdmi: Handle drm_kunit_helper_enable_crtc_connector() returning EDEADLK
+141d95e42884628314f5ad9394657b0b35424300 drm/tests: Handle EDEADLK in drm_test_check_valid_clones()
+526aafabd756cc56401b383d6ae554af3e21dcdd drm/tests: Handle EDEADLK in set_up_atomic_state()
+630efee9493cf64ff7b9a1652978807fef385fdd drm: Fix object leak in DRM_IOCTL_GEM_CHANGE_HANDLE
+b57f2ddd28737db6ff0e9da8467f0ab9d707e997 btrfs: fix memory leak of fs_devices in degraded seed device path
+37343524f000d2a64359867d7024a73233d3b438 btrfs: fix changeset leak on mmap write after failure to reserve metadata
+530b6637c79e728d58f1d9b66bd4acf4b735b86d sched_ext: Factor out local_dsq_post_enq() from dispatch_enqueue()
+f5e1e5ec204da11fa87fdf006d451d80ce06e118 sched_ext: Fix missing post-enqueue handling in move_local_task_to_local_dsq()
+579a3297b268f0281644ead7ff574a2b4bc64d3c selftests/sched_ext: flush stdout before test to avoid log spam
+d9f514d3e6ee48c34d70d637479b4c9384832d4f block: move around bio flagging helpers
+9637fc3bdd10c8e073f71897bd35babbd21e9b29 selftests: ublk: fix overflow in ublk_queue_auto_zc_fallback()
+1fd4b8d7e3cf102bd01a295460d629e15152d2b3 selftests: ublk: correct last_rw map type in seq_io.bt
+fe8c0182d49414740e639c1ca6b7d4b8e36b77fe selftests: ublk: remove unused ios map in seq_io.bt
+58eec4f3fc2878de51239916953b736b674d5071 selftests: ublk: fix fio arguments in run_io_and_recover()
+20da98a07bcbacb15fc627f6cf426a2f4d1501e5 selftests: ublk: use auto_zc for PER_IO_DAEMON tests in stress_04
+d8295408e0cf529be78ee4ed8b6758a9fb209feb selftests: ublk: don't share backing files between ublk servers
+52bc483763262b66e51818a82e03cad0c5bfef67 selftests: ublk: forbid multiple data copy modes
+b9f0a94c3b2e7deaff93e4c4de335e3054223ff4 selftests: ublk: add support for user copy to kublk
+63276182c51332b75293ac88f3a81d98bfca1b93 selftests: ublk: add user copy test cases
 9869d3a6fed381f3b98404e26e1afc75d680cbf9 block: fix race between wbt_enable_default and IO submission
-41b80d43d9a00a302b5559baa7ebafc28dd54793 i3c: master: cleanup callback .priv_xfers()
-cc3b18f9fedec517e35b973d14670a37290f133c i3c: master: Fix confusing cleanup.h syntax
-136209e6bd981e60db6c0e78f2919ff2f92312d4 i3c: adi: Fix confusing cleanup.h syntax
-5300831555cc6bb45bf824262ac044e8891b581c Merge tag 'drm-misc-fixes-2025-12-10' of https://gitlab.freedesktop.org/drm/misc/kernel into drm-fixes
 fbbd7ce627af733ded7971b2495b0d099a0a80da genirq: Don't overwrite interrupt thread flags on setup
-7f3c8f9191254654e6a88cd757ff079dafbd2f0b Merge tag 'sound-fix-6.19-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tiwai/sound
-db9c4387391e09209d44d41c2791512ac45b9e3c Merge tag 'soundwire-6.19-rc1_updated' of git://git.kernel.org/pub/scm/linux/kernel/git/vkoul/soundwire
-41572e2c05e5892ecdb18e47fd47f208ea648ec6 Merge tag 'pci-v6.19-fixes-1' of git://git.kernel.org/pub/scm/linux/kernel/git/pci/pci
-a6bb419c1c0061abf164eb437bf0dc0281ba7369 Merge tag 'gpio-fixes-for-v6.19-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux
-a919610db43b34621d0c3b333e12db9002caf5da Merge tag 'pwm/for-6.19-rc1-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/ukleinek/linux
-d324e9a91502184e0ac201293a6ec0fbe10458ed Merge tag 'rtc-6.19' of git://git.kernel.org/pub/scm/linux/kernel/git/abelloni/linux
-d8cc0b917ba619c8f03d597f1a6612777f1096ed Merge tag 'i3c/for-6.19-2' of git://git.kernel.org/pub/scm/linux/kernel/git/i3c/linux
-237f1bbfe3d84a74ad8e6e207660bdb3e6d9a84d Merge tag 'drm-next-2025-12-13' of https://gitlab.freedesktop.org/drm/kernel
-a859eca0e4cc96f63ff125dbe5388d961558b0e9 Merge tag 'drm-fixes-2025-12-13' of https://gitlab.freedesktop.org/drm/kernel
-d552fc632cf5b7e3b2808fd341708bd353072c45 x86/hv: Add gitignore entry for generated header file
-d2ea4d254d04a89e17504af0230c7268e3cac6bf file: ensure cleanup
-2516a87153183e1797021879121ca25c95f1ea3a Merge tag 'mm-stable-2025-12-11-11-39' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
-9d9c1cfec01cdbf24bd9322ed555713a20422115 Merge tag 'mm-nonmm-stable-2025-12-11-11-47' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
 cdc996667c26b3c4570881cd9ad2c080da4ce331 ALSA: hda: Remove unnecessary print function dev_err()
 da3a7efff64ec0d63af4499eea3a46a2e13b5797 ALSA: usb-audio: Update for native DSD support quirks
 7fde61795df6cbdab90166df33648cc6314fcadd ALSA: usb-audio: Reorder USB mode selection quirk
@@ -79,15 +86,7 @@ e64826e5e367ad45539ab245b92f009ee165025c ALSA: hda/realtek: enable woofer speake
 043507144ae13d3b882d40495d101bb4c4990d98 x86/sgx: Remove unmatched quote in __sgx_encl_extend function comment
 8b62e64e6d30fa047b3aefb1a36e1f80c8acb3d2 x86/mm/tlb/trace: Export the TLB_REMOTE_WRONG_CPU enum in <trace/events/tlb.h>
 0c01ea92f545ca7fcafdda6a8e29b65ef3a5ec74 mm: Remove tlb_flush_reason::NR_TLB_FLUSH_REASONS from <linux/mm_types.h>
-edbe407235ecfc827b6a211628988261f957df9e Merge tag 'core-urgent-2025-12-12' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-db0130185ee32896524963289840c97dd73aaaa3 Merge tag 'irq-urgent-2025-12-12' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-cba09e3ed06db4b6c87bc97e0aea080421fb8f7d Merge tag 'perf-urgent-2025-12-12' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-4a298a43f5e339f48d2dda0665c02b88ee9a4e03 Merge tag 'smp-urgent-2025-12-12' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-4cfc21494ac6dd8518b0ebbc73cf625523ddd870 Merge tag 'tomoyo-pr-20251212' of git://git.code.sf.net/p/tomoyo/tomoyo
-0dfb36b2dcb666f116ba314e631bd3bc632c44d1 Merge tag 'ceph-for-6.19-rc1' of https://github.com/ceph/ceph-client
 3010f06c52aa7da51493df59303ea733a614597b shmem_whiteout(): fix regression from tree-in-dcache series
-6a1636e06625ec0dd7f2b908ab39a8beea24bfd3 Merge tag 'scsi-misc' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
-8f0b4cce4481fb22653697cced8d0d04027cb1e8 Linux 6.19-rc1
 21433d3e3ca14d20f9b0c2237b3d3a1355af7907 x86/platform/uv: Fix UBSAN array-index-out-of-bounds
 b1aa01d31249bd116b18c7f512d3e46b4b4ad83b s390/ipl: Clear SBP flag when bootprog is set
 4cb92fa763823d813d22b45b7f18fcf6e85a72ad s390/pci: Fix cyclic dead-lock in zpci_zdev_put() and zpci_scan_devices()
@@ -1076,5 +1075,6 @@ fac4bdbacab5a9abe7e017069c640273c2a704e2 Merge tag 'sched-urgent-2026-01-11' of 
 7143203341dccbca809ba0a8e72239ea4652ace6 Merge tag 'libcrypto-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/ebiggers/linux
 0f61b1860cc3f52aef9036d7235ed1f017632193 Linux 6.19-rc5
 a4ae75d1b6a2401dac55045e6b6b372de6400f65 slab: fix kmalloc_nolock() context check for PREEMPT_RT
+e77f314c559ee490f54c6fb297f27c4c66cc6b14 slub: keep empty main sheaf as spare in __pcs_replace_empty_main()
 
---===============8035843069491086373==--
+--===============1869677112239516685==--
