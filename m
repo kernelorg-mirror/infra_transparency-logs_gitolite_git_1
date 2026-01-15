@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============9091076708859095903=="
+Content-Type: multipart/mixed; boundary="===============9030937926886108538=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Thu, 15 Jan 2026 16:26:49 -0000
-Message-Id: <176849440907.2365420.2290209093796510604@gitolite.kernel.org>
+Date: Thu, 15 Jan 2026 16:26:54 -0000
+Message-Id: <176849441489.2365647.3341371637732754889@gitolite.kernel.org>
 
---===============9091076708859095903==
+--===============9030937926886108538==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/40GbE
+  - ref: refs/heads/200GbE
     old: ffe4ccd359d006eba559cb1a3c6113144b7fb38c
     new: 851822aec1a3359ecb7a4767d7f4a32336043c2f
     log: revlist-ffe4ccd359d0-851822aec1a3.txt
 
---===============9091076708859095903==
+--===============9030937926886108538==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -45,4 +45,4 @@ faba5860fcf9a0ae49d2e484397bce44293367ff can: raw: instantly reject disabled CAN
 5ce234a8fe05798b5e6c1dff674776dab933b43b Merge tag 'ipsec-2026-01-14' of git://git.kernel.org/pub/scm/linux/kernel/git/klassert/ipsec
 851822aec1a3359ecb7a4767d7f4a32336043c2f Merge tag 'linux-can-fixes-for-6.19-20260115' of git://git.kernel.org/pub/scm/linux/kernel/git/mkl/linux-can
 
---===============9091076708859095903==--
+--===============9030937926886108538==--
