@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8814697593662311264=="
+Content-Type: multipart/mixed; boundary="===============2012506764627485183=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/chenhuacai/linux-loongson
-Date: Thu, 15 Jan 2026 10:51:22 -0000
-Message-Id: <176847428229.2002522.5267192246985049974@gitolite.kernel.org>
+Date: Thu, 15 Jan 2026 10:51:27 -0000
+Message-Id: <176847428741.2002764.6361682133014619904@gitolite.kernel.org>
 
---===============8814697593662311264==
+--===============2012506764627485183==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/chenhuacai/linux-loongson
 user: chenhuacai
 changes:
-  - ref: refs/heads/loongarch-fixes
+  - ref: refs/heads/loongarch-next
     old: d547a8ec980a2f5b6b8470fd43fed1a7eece0308
     new: c99804a10e1e77a4fb583fc0721a53ab467d840f
     log: revlist-d547a8ec980a-c99804a10e1e.txt
 
---===============8814697593662311264==
+--===============2012506764627485183==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -37,4 +37,4 @@ c4faf81bce030bd62ce0ccb2b475a529267c45e9 LoongArch: dts: loongson-2k1000: Add de
 30ebed8fab47bc46f97fa5a5086c3bda94218295 LoongArch: KVM: Fix kvm_device leak in kvm_eiointc_destroy()
 c99804a10e1e77a4fb583fc0721a53ab467d840f LoongArch: KVM: Fix kvm_device leak in kvm_pch_pic_destroy()
 
---===============8814697593662311264==--
+--===============2012506764627485183==--
