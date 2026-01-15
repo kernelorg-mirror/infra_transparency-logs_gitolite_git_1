@@ -1,23 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/qcom/linux
-Date: Thu, 15 Jan 2026 21:03:13 -0000
-Message-Id: <176851099335.2593490.6355374115793436147@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/firmware/linux-firmware
+Date: Thu, 15 Jan 2026 21:05:12 -0000
+Message-Id: <176851111258.2596429.8516017945883892754@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/qcom/linux
-user: andersson
+repo: pub/scm/linux/kernel/git/firmware/linux-firmware
+user: jwboyer
 changes:
-  - ref: refs/heads/for-next
-    old: 351da4a574bf38f856557649b4a2e37175fca20f
-    new: 235295111de504ebc8bd212ecdc80a76b1d3578e
+  - ref: refs/heads/main
+    old: e477bd5942f436029cee23a9c4cfec2ea36e38c0
+    new: 412356d3554e8bcf79f0a7fa3c845f5da6727fd8
     log: |
-         c5dc4812f6bf397b82290c540085e9ec98b47b30 arm64: dts: qcom: qrb4210-rb2: Fix UART3 wakeup IRQ storm
-         8bfb696ccdc5bcfad7a45b84c2c8a36757070e19 arm64: dts: qcom: sdm845-db845c: drop CS from SPIO0
-         c303e89f7f17c29981d09f8beaaf60937ae8b1f2 arm64: dts: qcom: sdm845-db845c: specify power for WiFi CH1
-         0404b98c6bbca7a3b1e59a20d173fa149ac20194 arm64: dts: qcom: sm8150: add uart13
-         235295111de504ebc8bd212ecdc80a76b1d3578e Merge branches 'arm32-fixes-for-6.19', 'arm32-for-6.20', 'arm64-defconfig-for-6.20', 'arm64-fixes-for-6.19', 'arm64-for-6.20', 'clk-fixes-for-6.19', 'clk-for-6.20' and 'drivers-for-6.20' into for-next
+         90af9c63690699f8fef9422a918ec50fb2951264 iwlwifi: update ty/So/Ma firmwares for core102-56 release
+         579ca4320f6beb654d1982e0d95d4f13f03fa04a iwlwifi: Add Hr/Gf firmware for core102-56 release
+         9a9285ce9b440c4d0d6d9aeff181615d8052dfe7 iwlwifi: add Bz/Sc FW for core102-56 release
+         412356d3554e8bcf79f0a7fa3c845f5da6727fd8 Merge branch 'robot/pr-0-1768489466' into 'main'
          
