@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6001868424546060303=="
+Content-Type: multipart/mixed; boundary="===============5779420826311791395=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Thu, 15 Jan 2026 05:04:43 -0000
-Message-Id: <176845348322.1701115.7039715353219402701@gitolite.kernel.org>
+Date: Thu, 15 Jan 2026 05:04:44 -0000
+Message-Id: <176845348472.1701209.9965676534974242640@gitolite.kernel.org>
 
---===============6001868424546060303==
+--===============5779420826311791395==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/mm-new
-    old: d70f9612414bd3ed6bb709ccbeb4206d1a1927a5
-    new: 560d6a4c4951ae76b5c6d5b5b8650276706f68ac
-    log: revlist-d70f9612414b-560d6a4c4951.txt
+  - ref: refs/heads/mm-unstable
+    old: 890e5a03df17398757c877f3217bac03b345b593
+    new: de50ef01f4c4d888f480f230d6a7caf8502fbdce
+    log: revlist-890e5a03df17-de50ef01f4c4.txt
 
---===============6001868424546060303==
+--===============5779420826311791395==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d70f9612414b-560d6a4c4951.txt
+Content-Disposition: attachment; filename=revlist-890e5a03df17-de50ef01f4c4.txt
 
 51772643fa537556c82ed1c8624e1a07c2c88d6c mm: add missing static initializer for init_mm::mm_cid.lock
 d3948b5ce61da633f8672beb6f08c36072d978ca mm: rename cpu_bitmap field to flexible_array
@@ -283,53 +283,5 @@ aa407eadb9b3a0e6a24ae1e9d5641eb174112302 mm/damon/lru_sort: support young page f
 fd3d0ddf17bf444b84f7fe84e0630990286e4d92 Docs/admin-guide/mm/damon/lru_sort: document active_mem_bp parameter
 015d87f1284f270f6e51f3fa72492163780c74cf mm/damon/lru_sort: add monitoring intervals auto-tuning parameter
 de50ef01f4c4d888f480f230d6a7caf8502fbdce Docs/admin-guide/mm/damon/lru_sort: document intervals autotuning
-f4ef81cbbb09e29b9f7a695c769058f8e6e32dc9 ksm: initialize the addr only once in rmap_walk_ksm
-82c7137d07365127d624eccc6c22d44d2c837229 ksm: optimize rmap_walk_ksm by passing a suitable addressrange
-924961648705f3776e6d4e11e312fc8afca5f3ee mm: page_isolation: introduce page_is_unmovable()
-a6d7c854067218f7fb440dfc75c6bae77e73eeb1 mm: page_alloc: optimize pfn_range_valid_contig()
-4bc1467ebe5737faa2c4492377243ce1e737c29e mm: hugetlb: optimize replace_free_hugepage_folios()
-92caffae6492ee436f39bc8400d797b4674e42f6 mm: hugetlb_cma: optimize hugetlb_cma_alloc_frozen_folio()
-90eb25bb9f1c2c57b78ac9db92bf6d4c3b003e62 mm: hugetlb_cma: mark hugetlb_cma{_only} as __ro_after_init
-bbe524322085a0c18cbf7e6a69124171f4a0d0f3 mm: fix OOM killer and proc stats inaccuracy on large many-core systems
-566b732db1ba908f2413784afac3464ea7d8a61e mm: replace use of system_unbound_wq with system_dfl_wq
-455e92e715c4be1b2f4e7c79c4c8ecb90c2142ae mm: replace use of system_wq with system_percpu_wq
-cd4347c4a931bbaf073e88d382cb05737334b4fb mm: add WQ_PERCPU to alloc_workqueue users
-6ddc0faf17390534ab038001742686f19610daf6 mm-add-wq_percpu-to-alloc_workqueue-users-fix
-cc285adf7b92447fe74a51c1fcc51bfd6308eb36 mm: kmsan: add tests for high-order page freeing
-5d447a60dc4d26b1951ea9191d6b365055b2470a mm: kmsan: add test_uninit_page
-e42d18a6d21d9b2245614fba6d2bd15a1ab57c77 zsmalloc: introduce SG-list based object read API
-f634b50334281343d8e47a7f93c5c120c4e65d6f mm: memcontrol: remove dead code of checking parent memory cgroup
-67a6a6ea86de534291319abe2d816ad4257bae91 mm: workingset: use folio_lruvec() in workingset_refault()
-406421d6728493e52b45ee5483a5128ed5d76297 mm: rename unlock_page_lruvec_irq and its variants
-8969338f45b19599d282b1c0f485923ef6feecb9 mm: vmscan: prepare for the refactoring the move_folios_to_lru()
-c5146c993d183268ac5a5afcf6b59ec5ccf7c742 mm: vmscan: refactor move_folios_to_lru()
-1d514efb032c8bec988c0ff3cb900e4169c3dadb mm: memcontrol: allocate object cgroup for non-kmem case
-83f47c00eeada78e0b638ba82000611729e3a1c3 mm: memcontrol: return root object cgroup for root memory cgroup
-7b2e6f8873d8871d6a5db9be2c92541f199ad0fa mm: memcontrol: prevent memory cgroup release in get_mem_cgroup_from_folio()
-b8d55e678369f3c5bb9f01bc072ec9659d19c921 buffer: prevent memory cgroup release in folio_alloc_buffers()
-f34112a2a9c9e7b068b1e7277b7261cc46251508 writeback: prevent memory cgroup release in writeback module
-ce894d369ecb25673a7b3a7e8dfaa39da9dc331e mm: memcontrol: prevent memory cgroup release in count_memcg_folio_events()
-ceef87833ea345f9a2bc32c03a1bebca7b52e7c4 mm: page_io: prevent memory cgroup release in page_io module
-c82a209969a7ed8ac531637001711ed6058eb806 mm: migrate: prevent memory cgroup release in folio_migrate_mapping()
-070400e9d0051b0171c4e56eb59f63685a10342e mm: mglru: prevent memory cgroup release in mglru
-1b5b960f3094b391483c7b36cd04f37c22c966dc mm: memcontrol: prevent memory cgroup release in mem_cgroup_swap_full()
-4f2ee941a5772f0e48b917d16acbd51f1ea1f968 mm: workingset: prevent memory cgroup release in lru_gen_eviction()
-2854d70e50da5bdc65763fcca2f85ea30ef15be9 mm: thp: prevent memory cgroup release in folio_split_queue_lock{_irqsave}()
-aee8c1fa709c2594a7de9bd485b61c93a591c8ef mm: zswap: prevent memory cgroup release in zswap_compress()
-fb9e810dfcf98071614b391f59bb2233e1f5de04 mm: workingset: prevent lruvec release in workingset_refault()
-a1310159f2a7badffb4309d597994e204f816015 mm: zswap: prevent lruvec release in zswap_folio_swapin()
-d0680bfa61d2b553223322b0c3853b14d6112b19 mm: swap: prevent lruvec release in lru_gen_clear_refs()
-2f6d49faa0ad566b7065b259b3edbc8bbd045f3b mm: workingset: prevent lruvec release in workingset_activation()
-29feb8750d4342b3a6743279dd4c74995c632707 mm: do not open-code lruvec lock
-560ac0986bd2de7d403b0685caa864db3fb20883 mm: memcontrol: prepare for reparenting LRU pages for lruvec lock
-290b5e943cac835456e98ba7103661a99f818fa0 mm: vmscan: prepare for reparenting traditional LRU folios
-8caba4c21b1c9ed4e84108828166fde9ed20806e mm: vmscan: prepare for reparenting MGLRU folios
-dbe9fd9c143064cb7e2b5e1f93d68cb4a1432ce6 mm: memcontrol: refactor memcg_reparent_objcgs()
-f0ed2c6c43d575efb60236148476e987db05737e mm: memcontrol: prepare for reparenting state_local
-a47e7648525f7e26431c55cbbc703a18c8a7c2f4 mm: memcontrol: eliminate the problem of dying memory cgroup for LRU folios
-683ea76706229d36ffa3fcc6b8b3011b054cc5a7 mm: lru: add VM_WARN_ON_ONCE_FOLIO to lru maintenance helpers
-6391dbb304da8e06719150613daeb70a545d932f nodemask: propagate boolean for nodes_and{,not}
-010cc4c0e9a7a8614faea43df969f5bde6a8a550 mm: use nodes_and() return value to simplify client code
-560d6a4c4951ae76b5c6d5b5b8650276706f68ac cgroup: use nodes_and() output where appropriate
 
---===============6001868424546060303==--
+--===============5779420826311791395==--
