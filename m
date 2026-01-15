@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
-Date: Thu, 15 Jan 2026 09:04:41 -0000
-Message-Id: <176846788125.1909991.17464021568281523201@gitolite.kernel.org>
+Date: Thu, 15 Jan 2026 09:04:57 -0000
+Message-Id: <176846789788.1910232.4637135697085482314@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,18 +11,14 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/peterz/queue
 user: peterz
 changes:
-  - ref: refs/heads/sched/urgent
-    old: 32ff4919b3e654cfbe56420c22c3cdf24fe25ab4
-    new: 30c0369ce382675a616a8cf7ff5a3c4b86d10f2f
+  - ref: refs/heads/sched/core
+    old: b04417f8498177f7adc7bec0bebcf38ca2d6add6
+    new: c9d841c87ce370eb3e2f8d7f3e5d3e3534343098
     log: |
-         479972efc2e7c9e0b3743ac538b042fcd4f315d7 sched/deadline: Remove unnecessary comment in dl_add_task_root_domain()
-         64e6fa76610ec970cfa8296ed057907a4b384ca5 sched/deadline: Fix potential race in dl_add_task_root_domain()
-         1e0a2ba7afb1b60f02599093d84b72ce62ad11c0 sched: Provide idle_rq() helper
-         ca1e8eede4fc68ce85a9fdce1a6c13ad64933318 sched/deadline: Fix server stopping with runnable tasks
-         1587482bd581d8067014222e9916791a77433675 sched/deadline: Ensure get_prio_dl() is up-to-date
-         d25e43851a178bccd33c1ac432c3d61e113ac531 sched/deadline: Avoid double update_rq_clock()
-         b5d1ebbd8e4be472b185ba609d31c4bf63cba1f7 sched: Fold rq-pin swizzle into __balance_callbacks()
-         dbd51bd052c7bee1c87957078c745c1b74788be4 sched: Audit MOVE vs balance_callbacks
-         14cc556e7982e235c32293579509bf6a7a32802a sched: Deadline has dynamic priority
-         30c0369ce382675a616a8cf7ff5a3c4b86d10f2f sched/deadline: Use ENQUEUE_MOVE to allow priority change
+         6c125b85f3c87b4bf7dba91af6f27d9600b9dba0 sched: Export hidden tracepoints to modules
+         632f82b2203a65c325e9b55032842d7bda2faf0d sched: Fix build for modules using set_tsk_need_resched()
+         1c4524e0f2ea8df85a31fd96288b59d44f7b2f3a sched/fair: Fix math notation errors in avg_vruntime comment
+         6a846f3fa047598199822389bb838c3ccac6cc45 sched/fair: Move checking for nohz cpus after time check
+         0c67b8d63fe47456100b1e4d4eda9a8d30dfb175 sched/fair: Change likelyhood of nohz.nr_cpus
+         c9d841c87ce370eb3e2f8d7f3e5d3e3534343098 sched/fair: Remove nohz.nr_cpus and use weight of cpumask instead
          
