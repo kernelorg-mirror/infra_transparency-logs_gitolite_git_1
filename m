@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============0024719766038312486=="
+Content-Type: multipart/mixed; boundary="===============0234619669911801953=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
-Date: Thu, 15 Jan 2026 04:04:32 -0000
-Message-Id: <176844987277.1653106.11390301528323626096@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
+Date: Thu, 15 Jan 2026 04:04:59 -0000
+Message-Id: <176844989907.1653413.9202245192683684571@gitolite.kernel.org>
 
---===============0024719766038312486==
+--===============0234619669911801953==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/perf/perf-tools-next
+repo: pub/scm/linux/kernel/git/acme/linux
 user: acme
 changes:
   - ref: refs/heads/perf-tools-next
@@ -20,7 +20,7 @@ changes:
     new: 571d29baa07e83e637075239f379f91353c24ec9
     log: revlist-54a23bff7709-571d29baa07e.txt
 
---===============0024719766038312486==
+--===============0234619669911801953==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -61,4 +61,4 @@ a2441cf3a5930370aa02d14f2c90fcc4c2ba26f7 perf parse-events: Track all user chang
 5e63706f1bc1446e40a8643d05a9842ebad4ec34 perf cs-etm: Don't hard code config attribute when configuring the event
 571d29baa07e83e637075239f379f91353c24ec9 perf arm-spe: Don't hard code config attribute
 
---===============0024719766038312486==--
+--===============0234619669911801953==--
