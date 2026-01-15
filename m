@@ -1,21 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/korgalore/korgalore
-Date: Thu, 15 Jan 2026 18:54:11 -0000
-Message-Id: <176850325111.2490935.14795002925308413279@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/conor/linux
+Date: Thu, 15 Jan 2026 19:02:53 -0000
+Message-Id: <176850377382.2498392.6289348552190162152@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/korgalore/korgalore
-user: mricon
+repo: pub/scm/linux/kernel/git/conor/linux
+user: conor
 changes:
-  - ref: refs/heads/master
-    old: aa57d0014cb38e3b774946d89f4593d98e3585b1
-    new: 3355579897b206c679a1105822a63ba4de06da10
+  - ref: refs/heads/pinctrl
+    old: a8805fb8a49841ef67f240537e28ed40ce539661
+    new: 8a26d7f359a1052acb67617f632364d0527d9498
     log: |
-         6e8ca5625a10af33435cf3a59d91d8581ebeefb2 Add track-subsystem command for kernel MAINTAINERS tracking
-         9c1105c80a84e49eacc7fc992d018e1a1fd2a31a Fix ruff linter warnings
-         3355579897b206c679a1105822a63ba4de06da10 Add ruff linter configuration and fix all lint errors
+         cda61ccb5e996faddddd3668b288b5ae30814e02 pinctrl: pinconf-generic: perform basic checks on pincfg properties
+         73d41a65b76e2261655cc7648368a335c1af8fec pinctrl: pinconf-generic: move ..dt_node_to_map_pinmux() to amlogic-am4 driver
+         17e140158401656a6645fa3400173409e6ded1d8 pinctrl: move microchip riscv pinctrl drivers to a folder
+         e42aa90d7589f6a0955f9cc783a198409317ccda dt-bindings: pinctrl: document polarfire soc mssio pin controller
+         ccc15921a26e2ed158ad02585a660d72f4531de9 pinctrl: add generic functions + pins mapper
+         60bde11027bd5502771c0f68c7df3e4f7382e93b pinctrl: add polarfire soc mssio pinctrl driver
+         1777913bea193e2eb235bd35d658ae91e6d8d9b3 MAINTAINERS: add Microchip mpfs mssio driver/bindings to entry
+         8a26d7f359a1052acb67617f632364d0527d9498 riscv: dts: microchip: add pinctrl nodes for mpfs/icicle kit
          
