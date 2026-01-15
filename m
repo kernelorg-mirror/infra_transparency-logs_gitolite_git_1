@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/djakov/icc
-Date: Thu, 15 Jan 2026 13:08:05 -0000
-Message-Id: <176848248583.2121527.16146346442546357801@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mediatek/linux
+Date: Thu, 15 Jan 2026 13:11:54 -0000
+Message-Id: <176848271407.2125391.3527747442934658654@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/djakov/icc
-user: djakov
+repo: pub/scm/linux/kernel/git/mediatek/linux
+user: angelogioacchino.delregno
 changes:
-  - ref: refs/tags/icc-6.19-rc6
-    old: 0000000000000000000000000000000000000000
-    new: 9b7c5a058c5b3719761306f81f30bd199c004d50
+  - ref: refs/heads/v6.19-next/dts64
+    old: 615962473ba6ecde7da61d89adf85062972c2c4c
+    new: e1c9223adf1c2b7d84f29f2e7e6d9a4f749da2c0
+    log: |
+         e1c9223adf1c2b7d84f29f2e7e6d9a4f749da2c0 arm64: dts: mediatek: mt7988a: Fix PCI-Express T-PHY node address
+         
