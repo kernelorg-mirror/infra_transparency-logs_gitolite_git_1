@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============4634579920999406523=="
+Content-Type: multipart/mixed; boundary="===============7852649014906396595=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/a.hindborg/linux
-Date: Thu, 15 Jan 2026 08:50:42 -0000
-Message-Id: <176846704257.1880898.1601012288932280717@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/a.hindborg/configfs
+Date: Thu, 15 Jan 2026 08:50:54 -0000
+Message-Id: <176846705414.1881156.5565973224553024600@gitolite.kernel.org>
 
---===============4634579920999406523==
+--===============7852649014906396595==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/a.hindborg/linux
+repo: pub/scm/linux/kernel/git/a.hindborg/configfs
 user: a.hindborg
 changes:
   - ref: refs/heads/configfs-next
@@ -20,7 +20,7 @@ changes:
     new: 6363844fdbbb76afe1d44d678fe0746390204a5f
     log: revlist-f7f78098690d-6363844fdbbb.txt
 
---===============4634579920999406523==
+--===============7852649014906396595==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -1051,4 +1051,4 @@ aacb0a6d604ac9953b261963efe25ae7521b7c58 Merge tag 'pmdomain-v6.19-rc3' of git:/
 1d40cb05e077bb294f128c6a52630b93e452a8ed rust: configfs: replace `kernel::c_str!` with C-Strings
 6363844fdbbb76afe1d44d678fe0746390204a5f samples: configfs: Constify struct configfs_item_operations and configfs_group_operations
 
---===============4634579920999406523==--
+--===============7852649014906396595==--
