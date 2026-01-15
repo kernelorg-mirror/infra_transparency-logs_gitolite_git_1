@@ -1,20 +1,40 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mediatek/linux
-Date: Thu, 15 Jan 2026 10:44:01 -0000
-Message-Id: <176847384169.1995146.1366020863504855101@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============8814697593662311264=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/chenhuacai/linux-loongson
+Date: Thu, 15 Jan 2026 10:51:22 -0000
+Message-Id: <176847428229.2002522.5267192246985049974@gitolite.kernel.org>
+
+--===============8814697593662311264==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mediatek/linux
-user: angelogioacchino.delregno
+repo: pub/scm/linux/kernel/git/chenhuacai/linux-loongson
+user: chenhuacai
 changes:
-  - ref: refs/heads/for-next
-    old: d78a0e19f7a22961cb8730f70bce56344f577fb0
-    new: edcda3d161fb8505ecedabf2be7d9b17f88c5fb2
-    log: |
-         e9858fba558ced73133a685c8e76c04cb66d8244 arm64: dts: mediatek: mt7981b-openwrt-one: Add address/size cells to eth
-         edcda3d161fb8505ecedabf2be7d9b17f88c5fb2 Merge branch 'v6.19-next/dts64' into for-next
-         
+  - ref: refs/heads/loongarch-fixes
+    old: d547a8ec980a2f5b6b8470fd43fed1a7eece0308
+    new: c99804a10e1e77a4fb583fc0721a53ab467d840f
+    log: revlist-d547a8ec980a-c99804a10e1e.txt
+
+--===============8814697593662311264==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-d547a8ec980a-c99804a10e1e.txt
+
+0d26ca8ec461c01f682402f73a89643f4fefbbb3 LoongArch: Remove redundant code in head.S
+9421b1777403a3cebe0e2c4b35905768dedde162 LoongArch: Fix PMU counter allocation for mixed-type event groups
+29f2817fbe8d2e2da57c87caf4a1a50dfd9629ab LoongArch: dts: Describe PCI sideband IRQ through interrupt-extended
+b08da816086c4ee48addcb978ea60a2bbb7d5b90 LoongArch: dts: loongson-2k0500: Add default interrupt controller address cells
+c4faf81bce030bd62ce0ccb2b475a529267c45e9 LoongArch: dts: loongson-2k1000: Add default interrupt controller address cells
+3e04d5c0e3473f0cdaee3024d12171384a08b58f LoongArch: dts: loongson-2k2000: Add default interrupt controller address cells
+2b535529847f1d3dd7e136f78a9bf721fd68b352 LoongArch: dts: loongson-2k1000: Fix i2c-gpio node names
+267c966c848a840d2712eb2a8d2a942472ddacb7 LoongArch: KVM: Fix kvm_device leak in kvm_ipi_destroy()
+30ebed8fab47bc46f97fa5a5086c3bda94218295 LoongArch: KVM: Fix kvm_device leak in kvm_eiointc_destroy()
+c99804a10e1e77a4fb583fc0721a53ab467d840f LoongArch: KVM: Fix kvm_device leak in kvm_pch_pic_destroy()
+
+--===============8814697593662311264==--
