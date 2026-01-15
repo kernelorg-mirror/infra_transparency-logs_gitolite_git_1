@@ -1,22 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/cip/linux-cip
-Date: Thu, 15 Jan 2026 14:55:19 -0000
-Message-Id: <176848891971.2210890.2094768672838296191@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============5832298213626585351=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Thu, 15 Jan 2026 14:55:50 -0000
+Message-Id: <176848895028.2211529.18068083298393475017@gitolite.kernel.org>
+
+--===============5832298213626585351==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/cip/linux-cip
-user: pavel
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-6.1.y-cip
-    old: 102a2048dd1e6caf7f838d35c60826ab397b0430
-    new: 62898cb3bfbf10d30c4f3c8b5d0784b2e27b9f6f
+  - ref: refs/heads/master
+    old: 38bc604f7cd4d6375853d17f9841f19c27d5c85c
+    new: 1cf6b9a664ee85f5b4794b545f9c923a8b117444
     log: |
-         16480efd442f4d11c5c700a35ff22653884309e8 clk: renesas: r9a09g056: Add clock and reset entries for RIIC controllers
-         1133ad8f254eb877697739161b56b93fbb173f20 dt-bindings: i2c: renesas,riic: Document RZ/V2N (R9A09G056) support
-         d90a23be1833feb55e783c8fff69370a89da4bb2 arm64: dts: renesas: r9a09g056: Add RIIC controllers
-         62898cb3bfbf10d30c4f3c8b5d0784b2e27b9f6f arm64: dts: renesas: r9a09g056n48-rzv2n-evk: Enable RIIC controllers
+         1cf6b9a664ee85f5b4794b545f9c923a8b117444 6.12-stable patches
          
+
+--===============5832298213626585351==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1768488949 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1768488948-d95a5377785f4284b3e204aa0c255e73d33e7f69
+
+38bc604f7cd4d6375853d17f9841f19c27d5c85c 1cf6b9a664ee85f5b4794b545f9c923a8b117444 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmlo//UbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+o1oQAIzrimVU+b5vxehP2Qub
+1atIVG8g/4qbrNvdFi+rSFa+NGNKgsMT0+flK3Cw5gHrWfgh8CLlGLcPY/pKuU/5
+N1HNEZidEoX2IEiBBOwdABEsbkxmDwEBIMgPZKQBONDV2pPa3rxqoGZxqQnEBSpI
+ROrEsB5s5ZVFvkVwRYcSt4ogT7BqozBWuxlMWCMHRjg1LJu8B20+j82t/7wOZow+
+JT9xWARlgJ6vlYaOhIvnc93pfaDSKc/WG9Aggbst6iVNtfCy/qL13GRbjnYlZNpO
+eCYu+2Rp/setB6QiYS530jHFoICUkkab9gYt3C5/miWo39uBoXyd0Al33QZHBVqb
+pvoSyGO4BgMkLEy+l3dBTAfzlsRVyPNyKP/zCK1WXb1WJnyuZ8bcGReFS0Zxgp6I
+M1iIf4Z9Ji+4JM9UnPMnxm13VHP6GMsBSqotL9nSpopBLMcO2scVD8xYV4tsqxKo
+GGz/hVShZSW5n4rU8kxnfPj34pPIgN8Ln5PCgUq3Dl5EZmzuSTpy7qViUwfv7jb0
+BTHk2FkCT3IYzKgSzNosgT1ZWksJfTv4cZVqxkM2/zIxSTaTkzpEqNGlS54lb2TI
+UMPCoX4yaEE4Lwv1KpU9TLWKZUUF3RMZOISG1kYG3Af6cxNiEz12P31rC/vpojN2
+r7LX0vNYVU3g9AByobL9erwd
+=fr1L
+-----END PGP SIGNATURE-----
+
+--===============5832298213626585351==--
