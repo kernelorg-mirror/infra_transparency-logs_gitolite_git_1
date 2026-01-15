@@ -1,22 +1,17 @@
-Content-Type: multipart/mixed; boundary="===============1558139368721362166=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Thu, 15 Jan 2026 13:04:46 -0000
-Message-Id: <176848228639.2117082.1734592264036096003@gitolite.kernel.org>
-
---===============1558139368721362166==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Thu, 15 Jan 2026 13:04:57 -0000
+Message-Id: <176848229741.2117488.13712576463312548560@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/asoc-6.19
+  - ref: refs/heads/for-linus
     old: 1a75f24a7f8c2cac9c34126d7221ff59c5265316
     new: be5a39e7994ec9f003c8569b670c794a4e5d1551
     log: |
@@ -27,29 +22,11 @@ changes:
          a57d5cc053e9e6491c54e5bcc8d116cc0d7e98b2 ASoC: tlv320adcx140: Merge fixes from Pengutronix
          be5a39e7994ec9f003c8569b670c794a4e5d1551 ASoC: rt5640: Fix duplicate clock properties in DT binding
          
-
---===============1558139368721362166==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1768482284 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1768482284-d681c1c713a990acc3b2ea950b114a42fdc71ea0
-
-1a75f24a7f8c2cac9c34126d7221ff59c5265316 be5a39e7994ec9f003c8569b670c794a4e5d1551 refs/heads/asoc-6.19
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmlo5ewACgkQJNaLcl1U
-h9AIWQf/eSeBwfED577orSOI4MLdoIixjyiHryUTkeHU4rbnvo25AjdIHCeYbo12
-mhgZlKPHRfXPXLu0XMNPsO0qNC5yM/wz/NgJdTRRzg6ukCbenvDCsaiP27+TagDx
-qK8tkF1hBBifao6HIkxU3INjttQU+4piCfoQVJXzQ0Nh1phUAOjMor8cacMxo797
-uSHOHwy4tJ+/Z4b954Mj/sPGUoC3zCCCIYwRnDuf+CaVVeyHZasaTrsOOCqXNh02
-0SZLI4ay0H3b0pNTjifyWahl/IwgCMZ1j2NSskAHyvvipKLynDOMZ9TVudCcWSej
-KrlPDzajUJDsw4s9l6tNg+P2xGXfjQ==
-=2hEe
------END PGP SIGNATURE-----
-
---===============1558139368721362166==--
+  - ref: refs/heads/for-next
+    old: 6072539942277b8dc1c4867cfa7e730d10ff21a7
+    new: 3360c59d45396dfbf0baf8bad2b2b516d7649098
+    log: |
+         a57d5cc053e9e6491c54e5bcc8d116cc0d7e98b2 ASoC: tlv320adcx140: Merge fixes from Pengutronix
+         be5a39e7994ec9f003c8569b670c794a4e5d1551 ASoC: rt5640: Fix duplicate clock properties in DT binding
+         3360c59d45396dfbf0baf8bad2b2b516d7649098 Merge remote-tracking branch 'asoc/for-6.20' into asoc-next
+         
