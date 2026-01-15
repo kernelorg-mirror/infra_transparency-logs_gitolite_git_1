@@ -1,24 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Thu, 15 Jan 2026 20:58:54 -0000
-Message-Id: <176851073482.2589422.2365979725960228162@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/qcom/linux
+Date: Thu, 15 Jan 2026 21:03:11 -0000
+Message-Id: <176851099167.2593406.3196036638816408987@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: peterz
+repo: pub/scm/linux/kernel/git/qcom/linux
+user: andersson
 changes:
-  - ref: refs/heads/sched/urgent
-    old: ca1e8eede4fc68ce85a9fdce1a6c13ad64933318
-    new: 627cc25f84466d557d86e5dc67b43a4eea604c80
+  - ref: refs/heads/arm64-for-6.20
+    old: 2c3b8260d1a0d9a388f2d30e3bbe50d93edfa2aa
+    new: 0404b98c6bbca7a3b1e59a20d173fa149ac20194
     log: |
-         375410bb9a403009a44af3cc7f087090da076e09 sched/deadline: Ensure get_prio_dl() is up-to-date
-         4de9ff76067b40c3660df73efaea57389e62ea7a sched/deadline: Avoid double update_rq_clock()
-         49041e87f9cd3e6be8926b80b3fee71e89323e1c sched: Fold rq-pin swizzle into __balance_callbacks()
-         53439363c0a111f11625982b69c88ee2ce8608ec sched: Audit MOVE vs balance_callbacks
-         e008ec6c7904ed99d3b2cb634b6545b008a99288 sched: Deadline has dynamic priority
-         627cc25f84466d557d86e5dc67b43a4eea604c80 sched/deadline: Use ENQUEUE_MOVE to allow priority change
+         c5dc4812f6bf397b82290c540085e9ec98b47b30 arm64: dts: qcom: qrb4210-rb2: Fix UART3 wakeup IRQ storm
+         8bfb696ccdc5bcfad7a45b84c2c8a36757070e19 arm64: dts: qcom: sdm845-db845c: drop CS from SPIO0
+         c303e89f7f17c29981d09f8beaaf60937ae8b1f2 arm64: dts: qcom: sdm845-db845c: specify power for WiFi CH1
+         0404b98c6bbca7a3b1e59a20d173fa149ac20194 arm64: dts: qcom: sm8150: add uart13
          
