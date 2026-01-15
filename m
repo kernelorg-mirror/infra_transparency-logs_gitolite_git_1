@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3744722807394511090=="
+Content-Type: multipart/mixed; boundary="===============5349240999762057323=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Thu, 15 Jan 2026 16:32:14 -0000
-Message-Id: <176849473463.2371036.14474050838942965638@gitolite.kernel.org>
+Date: Thu, 15 Jan 2026 16:32:17 -0000
+Message-Id: <176849473724.2371154.7592331522257781331@gitolite.kernel.org>
 
---===============3744722807394511090==
+--===============5349240999762057323==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/40GbE
+  - ref: refs/heads/100GbE
     old: 50e194b6da721e4fa1fc6ebcf5969803c214929a
     new: d4596891e72cbf155d61798a81ce9d36b69bfaf4
     log: revlist-50e194b6da72-d4596891e72c.txt
 
---===============3744722807394511090==
+--===============5349240999762057323==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -80,4 +80,4 @@ b0ba734516d201c217b23bf39782792b5404fb1c net/mlx5e: Refine TX timeout handling t
 d281dff93a2c7df6903e89f779ac1af477a88abf Merge branch 'net-mlx5-hws-single-flow-counter-support'
 d4596891e72cbf155d61798a81ce9d36b69bfaf4 net: inline napi_skb_cache_get()
 
---===============3744722807394511090==--
+--===============5349240999762057323==--
