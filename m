@@ -1,25 +1,51 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/frederic/linux-dynticks
-Date: Thu, 15 Jan 2026 17:49:09 -0000
-Message-Id: <176849934920.2435329.9950692570357984651@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============4564450935209351872=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Thu, 15 Jan 2026 17:49:12 -0000
+Message-Id: <176849935202.2435563.15485128222335357064@gitolite.kernel.org>
+
+--===============4564450935209351872==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/frederic/linux-dynticks
-user: frederic
+repo: pub/scm/linux/kernel/git/broonie/misc
+user: broonie
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/timers/core
-    old: f2abb9eba209d1f7eda0b4f1d397aead18f78545
-    new: 84b34118e17dd1a7d0d4a03bf9964b32be61d0d8
+  - ref: refs/heads/spi-6.19
+    old: b062a899c997df7b9ce29c62164888baa7a85833
+    new: caa329649259d0f90c0056c9860ca659d4ba3211
     log: |
-         291d527cac5b2a837d5796724c2caa10634e4e2f tick/sched: Move dyntick-idle cputime accounting to cputime code
-         8f24fdf90a383622b704ebd4ee8dec66c710b62f tick/sched: Remove unused fields
-         4efb4e412400bc22e9ae8a9b9241de1928c522bf tick/sched: Account tickless idle cputime only when tick is stopped
-         1a5c9979a5ffb0917785c3ecfd40d95beb0a7be7 tick/sched: Consolidate idle time fetching APIs
-         d6d75e7097a4bed885209a09a73b47299fc300aa sched/cputime: Consolidate get_cpu_[idle|iowait]_time_us()
-         529d1233b80990b8ce76d467bfc5c8cb7a3337fa sched/cputime: Handle idle irqtime gracefully
-         84b34118e17dd1a7d0d4a03bf9964b32be61d0d8 sched/cputime: Handle dyntick-idle steal time correctly
+         f6b625639e39bc384a7bddbf134a698d40258b3b spi: spi-cadence: enable SPI_CONTROLLER_MUST_TX
+         caa329649259d0f90c0056c9860ca659d4ba3211 spi: intel-pci: Add support for Nova Lake SPI serial flash
          
+
+--===============4564450935209351872==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher C3F436CA30F5D8EB 1768499350 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1768499349-47eb9efc96d7c48c565ecd030506d1b93a94f6b0
+
+b062a899c997df7b9ce29c62164888baa7a85833 caa329649259d0f90c0056c9860ca659d4ba3211 refs/heads/spi-6.19
+-----BEGIN PGP SIGNATURE-----
+
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmlpKJYACgkQJNaLcl1U
+h9DFnAf+Pm2mRI34Vweu9zPslzLdrdzXzCso8TJQSzUKqDnC1nIx+/+syAqrRpTN
+BwcUAxYjVh0GxA38PI9MIajDRQaY5+gYKNfEdyWqH3fo8POj19hy+O9uPBEqCQdB
+S4x1fvq2kmOeVl1fKBMJf2deZnCbMDwdIuzt1BesWTIZnvmGWF/EdRLVoyUfDYg7
+qsOrC1CpREm8AzDrdLIPT24sUix+QkTUsKDMMKM3OGray0OUlJLg+xQqgx8q1qjH
+9fiJWasBeyl3iuCF51G7k6HBAXp+8pOx2KvsOye7D5eQtBjTn4wDKzAqiZE1XZRR
+uvekw3RzVqxyj1IvcyAaGbrpoT5zAw==
+=OlnR
+-----END PGP SIGNATURE-----
+
+--===============4564450935209351872==--
