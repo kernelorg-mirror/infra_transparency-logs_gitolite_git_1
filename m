@@ -1,29 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/damon-hack
-Date: Thu, 15 Jan 2026 02:05:00 -0000
-Message-Id: <176844270026.1559758.15592616385575342559@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/qcom/linux
+Date: Thu, 15 Jan 2026 02:59:10 -0000
+Message-Id: <176844595025.1600533.5132003322586952479@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/damon-hack
-user: sj
+repo: pub/scm/linux/kernel/git/qcom/linux
+user: andersson
 changes:
-  - ref: refs/heads/master
-    old: 0fe03a394826da1d138d7047b2e85f3782c7071e
-    new: c7039bca14de66845773e8b8679b3e29db1a3e4f
+  - ref: refs/heads/arm64-for-6.20
+    old: 96ea45304d786f6bcf4b553a05eb90675bc0f2f3
+    new: 2c3b8260d1a0d9a388f2d30e3bbe50d93edfa2aa
     log: |
-         662ee6de8e5d566aed41056c063fe3f380617fc2 todo: update for lru_sort advancing
-         a41e887dfe96b27786b198386a98334fa8ff6694 patches/next: category cleanup for 7.0-rc1 aimed patches
-         a9e6036beea8126c214629041439f7135c352cd8 patches/next: wordsmith kdamond{,_lock} hiding
-         4891553321a80fd4431b5142a55a5090c5f03fdd patches/next: kdamond hiding, selftest fixup: wordsmith commit messages
-         da21d8f14c258d95fdc8e698149b9146f46ae44b patches/next: unify code cleanups into one category
-         0b744ec7521ac08482720e5a7096d8cce741b052 patches/next: add lru_sort advancing v1 fixup
-         273313439b3c046692cdb74d1f8f35697e8b2ffa patches/posted: add posted lru_sort advancing v1 fixup
-         20566ad30cd1718be418c4dc816a52eeada50dcb patches/posted: add nr_snapshots fixup
-         da48410db3ca1e5b414fc032751fa127feabab3a patches/next: add damon_is_last_reion() fix
-         a9251698bc65afb6adc7315262c47dbc8815bb8d patches/next: wordsmith docs fixup commit messages
-         c7039bca14de66845773e8b8679b3e29db1a3e4f patches/next: wordsmith code cleanup
+         2c3b8260d1a0d9a388f2d30e3bbe50d93edfa2aa arm64: dts: qcom: sm6125-ginkgo: Fix missing msm-id subtype
+         
+  - ref: refs/heads/drivers-for-6.20
+    old: 29b3a61e4e74725dd55311177da38ce8b186e523
+    new: ccef4b2703ff5b0de0b1bda30a0de3026d52eb19
+    log: |
+         ccef4b2703ff5b0de0b1bda30a0de3026d52eb19 soc: qcom: ubwc: add missing include
          
