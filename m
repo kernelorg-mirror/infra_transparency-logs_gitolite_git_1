@@ -1,16 +1,91 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/mm
-Date: Thu, 15 Jan 2026 06:24:41 -0000
-Message-Id: <176845828143.1763546.2147484106448869910@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============4581220702471284820=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
+Date: Thu, 15 Jan 2026 06:24:48 -0000
+Message-Id: <176845828891.1763832.15398573319741531485@gitolite.kernel.org>
+
+--===============4581220702471284820==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/mm
+repo: pub/scm/linux/kernel/git/akpm/25-new
 user: akpm
 changes:
-  - ref: refs/tags/mm-everything-2026-01-15-06-24
-    old: 0000000000000000000000000000000000000000
-    new: 84ad60cd63301573c735b13a37973a49ea5b16c3
+  - ref: refs/heads/master
+    old: 3dbb8f4bd1aa0bb152809b782d7126efc720ab20
+    new: e9f6671a211133d0252523e1fcae1cdecdce1281
+    log: revlist-3dbb8f4bd1aa-e9f6671a2111.txt
+
+--===============4581220702471284820==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-3dbb8f4bd1aa-e9f6671a2111.txt
+
+e743e9cd7b73d24239b68d59782ffafbdbc9363e foo
+e16ef1a08e27f8c605aa7e585813dc87e6b32e00 foo
+ddf36a6833eb9c1be2670d367398b96d137620b9 foo
+628a67d6dee80f92e1a4c718c873de09bcd35291 foo
+b6fe9e504999de87a9e60ef9b7c2e917303fe224 foo
+3d8530b59db1c31d13ea9fec95408b2ae34b79ba foo
+1bf3e83e2a11b370d25ce338674d3ac0af2c6290 foo
+6dc47926f6bc635c386185d48273a15a52cdf3dc foo
+3a3af66c0183658c1c6b84f01b7085813fb6c851 foo
+5b4d52685efab08ea013714b1ba12fc05464380a foo
+ebeaf51b0d03ddb1480d5d02720823a608a2568d foo
+6e1299d53ff47f94329e0b560b6b49b862e5a23b foo
+86813ad0157eb87f33a3cfc78e2218b5fa1aa8de foo
+57a77f1596fd1906b6c32ffc2adf8eded8f8cbe9 foo
+d6a63bb0dc691bc86c0897dd78cb28861735224c foo
+4ea5fa8d9e3131bb279fd3d2637654004198b9d9 foo
+642c56c70d22dbf152a0f698c2ba36c247376c81 foo
+9e1f96c1b50821cd2864031f02c3861d48f44d01 foo
+60d9c8c44daab749cb971051dd5bf888160d93f4 foo
+60b7c11483c4b665fc213ef19c7dbb1fac655c1f foo
+12057cbc8d8e3467f27f13000472ed38dc41ef2e foo
+f5defff525057797224243943ec2ca207dbd0fe3 foo
+2118eb95091cabf3b9ae549ecc7da6110a0e242f foo
+36862e63bc0de2821453c3c1f212cae5fd40fe7f foo
+934f079d496774678a9b117b154cb6153880ea12 foo
+6ea33f20edf8da48d9bc2b2f43accc13bc010384 foo
+15aab9f0e2441f03bacf6f8afd5259ccdb4ec41a foo
+839ce01c6dfbd25c186f4b7c294bd89ba78c39d6 foo
+e250c23292c33f6ecd9a8419af445ca947018ead foo
+aa7c7734ca4b81b77ca27296b98150211c19dac0 foo
+26283b425dcb42e5c256723550bb83b6dae678ff foo
+11f5b031474ac79b983d012f76be6cd4940514fc foo
+76151de45a6269f51dcf05c5992738fedaa3244c foo
+856c240a3dd75c5da8d3e0b2d6ebfd52c82e1c49 foo
+b98a4bb0e80bc58160751ce904a67fa9b1f30798 foo
+614408aaaa0a8eb60001df05db08789ea5d30f74 foo
+e081b9f396164689216abb8ffed093ccfadb3476 foo
+c0612c0b1d022b77e7ab81c56e3557051f406578 foo
+6c0fdb1ad0d8252eb119aa499fbda07468061c78 foo
+63bd2e30ae9e7b2487085f564b1ba382fdbea1ed foo
+87c5af0bf36c9c8f18d584c89f0f610a5c910578 foo
+532761de6e5c4ed9faab596cb962fefab59d94cc foo
+42bb4cbca4d4bbee13544eb90f2fa803e8525644 foo
+fcb4bd2e1b5b94a20e04ed657f1a9d6ebee89eb3 foo
+b779384602ee739b0903abae10c30e1c3abd4ed7 foo
+258efa274196a1268c5ce032d60411a9e7ee4d04 foo
+b3ed6da14696a9779cf725a692aa9702f6bb6db9 foo
+b40ec424b4f8c9ef43b1631e36d344de6e4f7626 foo
+60d580f0b8dde216ff206f807918bf367709c863 foo
+4ed722b59866be88147ad5ba9201960dbb99be4e foo
+22c37b2723ec1cabc3552d4c3a369ef16cfdfbee foo
+1635011d8c63ef6803543037bbfa0facb38eca3e foo
+ae05bc6b3946140aea56bb6ce98b287f7b373677 foo
+bfb88303380c099f26fa95cebb8ee26a8d10e2d1 foo
+f5da6fa114dc86b6435901c36d23fd9abae660a7 foo
+caf0aa85594bd9aca8da4931b580ed1b5597be7b foo
+cdcbc714115681a1ced9c5a9ed22a4fff1baebec foo
+27ce522eafcb947609ed05a7e563c8746ebdcb8f foo
+b4ec3856c1bc02b48762929b5eac40eaee4b1c79 foo
+2638e9c7eb468ff15658dcf20cd1aad61431907d foo
+e9f6671a211133d0252523e1fcae1cdecdce1281 foo
+
+--===============4581220702471284820==--
