@@ -1,56 +1,42 @@
-Content-Type: multipart/mixed; boundary="===============5869974632721603712=="
+Content-Type: multipart/mixed; boundary="===============8133838675207364991=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Thu, 15 Jan 2026 11:56:15 -0000
-Message-Id: <176847817592.2060363.13888533281265495577@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tzungbi/chrome-platform
+Date: Thu, 15 Jan 2026 11:57:05 -0000
+Message-Id: <176847822555.2060851.5394544949042257057@gitolite.kernel.org>
 
---===============5869974632721603712==
+--===============8133838675207364991==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/tzungbi/chrome-platform
+user: tzungbi
 changes:
-  - ref: refs/heads/master
-    old: b39fd8a978035beaab485ae6f6a8d0ec75759aea
-    new: 881cd4677d6c690b90ff1ff421be00dc3b818b9e
-    log: |
-         881cd4677d6c690b90ff1ff421be00dc3b818b9e 5.15-stable patches
-         
+  - ref: refs/heads/gpio_rev
+    old: 1cd07319f88e21e5b89795541dd2f0dfc063f472
+    new: d16119484dd191d30d16186dc6b5595648c7d33a
+    log: revlist-1cd07319f88e-d16119484dd1.txt
 
---===============5869974632721603712==
+--===============8133838675207364991==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-1cd07319f88e-d16119484dd1.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1768478174 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1768478173-67079561a9abd15e4a6995ab999a104e16c49981
+9e2c5facbaccd86c98f25cf92f32944597be9d9a gpiolib: cdev: Correct return code on memory allocation failure
+98d334c4a6cb0ee605d8b52562f5235a17ac918f gpiolib: Access `gpio_bus_type` in gpiochip_setup_dev()
+66442d9bff4870d5554570e99de1802c87461b81 gpiolib: Remove redundant check for struct gpio_chip
+1c35bd967cbcbbd6edda59c533689643657f08ad gpiolib: sysfs: Remove redundant check for struct gpio_chip
+28719955056a61006a95d492012fb93082ee90e9 gpiolib: Ensure struct gpio_chip for gpiochip_setup_dev()
+2a610a9694c2e0118b84fc49dc5592a9666b1440 gpiolib: cdev: Don't check struct gpio_chip in gpio_chrdev_open()
+e6353b5b705ba1f2c89c3e3925f312c207449d67 selftests: gpio: Add gpio-cdev-uaf tests
+4ae1ed35e7cb19ae7cd2520a26336c5b0e657e7a gpiolib: Add revocable provider handle for struct gpio_chip
+1e1dea72a7c051d22bd9dde48bdadb6e73394511 gpiolib: cdev: Leverage revocable for gpio_fileops
+5025247a4b8b8db5dbc63e775e8ac6e041053f03 gpiolib: cdev: Leverage revocable for linehandle_fileops
+6c2cb1dabcd2ef4b9a5b02cc1bbec53535d02d4b gpiolib: cdev: Leverage revocable for line_fileops
+d16119484dd191d30d16186dc6b5595648c7d33a gpiolib: cdev: Leverage revocable for lineevent_fileops
 
-b39fd8a978035beaab485ae6f6a8d0ec75759aea 881cd4677d6c690b90ff1ff421be00dc3b818b9e refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmlo1d4bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+ZI0QAJt+FlJPOps+9j+BxHh8
-hAxyCgroo/GWEw7mHNGWktxW742mmIq5jo2vkl2PbGL+ZnqMRuCaPfOyIc+QMqcm
-ac028Y0Jf6h8csFvGcA06pv/Q2BVt1TAPtpFy3EiuY2WdRiKcRKBa5SB7zEtigrY
-f0RBrkCIDqhkI7+5UN1fQBr80BWF6BNg4+s4D0JXVOsZ8gbYyUGMLc10kUM2BUyv
-TZWTFKw2OBjuH97/t6z71Zs+xs0h9osZQ58YmC15LWg1sG8+h2XpxhuNkrlXAfLs
-Xgl3T4UW4BbHohEBsvYnGNeMEL9HvrRi175vUABj5AC5jpKM0BgGnWe8p7if+OCS
-5aeAVFQM4dE6r6BcX9mx8+XPPzuOAddZlnvV2UAfuQkwKHPyBw3pjNn5166vR5hk
-eiupaSMcK5HrCJPztxz7Hx4ONcxQ3IjERAR+avj0b1fs1BNC5GxKreur5YS+EmDD
-9n1PlpVO4460pZgcbMc29QFnqKAp4OfJG7PRIh0VPX4sv2xTCUKBHNL/NYvNr5US
-979J+8KB+4sZvnb6+P0zl9dva0MNHJ1H6jKPdMQ5wiguzuRbpyz8JYSz0we+LtoP
-Or4cMN8CgP7OaCYhNBqBWJlR2SyDe40TXe4fOSIoLCQKZzELH/FwSBXBSeRqWL6k
-IOYdIz6MJ/FLr69NSaooOkj8
-=WEbA
------END PGP SIGNATURE-----
-
---===============5869974632721603712==--
+--===============8133838675207364991==--
