@@ -1,45 +1,71 @@
-Content-Type: multipart/mixed; boundary="===============6512762683396919421=="
+Content-Type: multipart/mixed; boundary="===============5128475790538662279=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/cip/linux-cip
-Date: Thu, 15 Jan 2026 08:51:37 -0000
-Message-Id: <176846709747.1881736.13167827266201942722@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mkl/linux-can
+Date: Thu, 15 Jan 2026 08:56:27 -0000
+Message-Id: <176846738743.1904290.10530389858916890250@gitolite.kernel.org>
 
---===============6512762683396919421==
+--===============5128475790538662279==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/cip/linux-cip
-user: pavel
+repo: pub/scm/linux/kernel/git/mkl/linux-can
+user: mkl
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/linux-6.1.y-cip
-    old: f2db8400f3b341f5d8b4232ceed5608dd71ae227
-    new: 102a2048dd1e6caf7f838d35c60826ab397b0430
-    log: revlist-f2db8400f3b3-102a2048dd1e.txt
+  - ref: refs/heads/main
+    old: ffe4ccd359d006eba559cb1a3c6113144b7fb38c
+    new: 3879cffd9d07aa0377c4b8835c4f64b4fb24ac78
+    log: |
+         fa5726692e4ca0d4e56d7cbd1b33126efd3f849e tools: ynl: render event op docs correctly
+         d23564955811da493f34412d7de60fa268c8cb50 net: hv_netvsc: reject RSS hash key programming without RX indirection table
+         9a6f0c4d5796ab89b5a28a890ce542344d58bd69 dst: fix races in rt6_uncached_list_del() and rt_del_uncached_list()
+         ddf96c393a33aef4887e2e406c76c2f8cda1419c ipv6: Fix use-after-free in inet6_addr_del().
+         9d48c62f6b4ed70ebeea70f52ddb1c6d8613bed4 selftests: drv-net: fix RPS mask handling in toeplitz test
+         cf055f8c000445aa688c53a706ef4f580818eedb selftests: drv-net: fix RPS mask handling for high CPU numbers
+         dbe6b3138fb877a368917833f713bfbbb521045e Merge branch 'selftests-couple-of-fixes-in-toeplitz-rps-cases'
+         3879cffd9d07aa0377c4b8835c4f64b4fb24ac78 net/sched: sch_qfq: do not free existing class in qfq_change_class()
+         
+  - ref: refs/heads/master
+    old: ffe4ccd359d006eba559cb1a3c6113144b7fb38c
+    new: 3879cffd9d07aa0377c4b8835c4f64b4fb24ac78
+    log: |
+         fa5726692e4ca0d4e56d7cbd1b33126efd3f849e tools: ynl: render event op docs correctly
+         d23564955811da493f34412d7de60fa268c8cb50 net: hv_netvsc: reject RSS hash key programming without RX indirection table
+         9a6f0c4d5796ab89b5a28a890ce542344d58bd69 dst: fix races in rt6_uncached_list_del() and rt_del_uncached_list()
+         ddf96c393a33aef4887e2e406c76c2f8cda1419c ipv6: Fix use-after-free in inet6_addr_del().
+         9d48c62f6b4ed70ebeea70f52ddb1c6d8613bed4 selftests: drv-net: fix RPS mask handling in toeplitz test
+         cf055f8c000445aa688c53a706ef4f580818eedb selftests: drv-net: fix RPS mask handling for high CPU numbers
+         dbe6b3138fb877a368917833f713bfbbb521045e Merge branch 'selftests-couple-of-fixes-in-toeplitz-rps-cases'
+         3879cffd9d07aa0377c4b8835c4f64b4fb24ac78 net/sched: sch_qfq: do not free existing class in qfq_change_class()
+         
 
---===============6512762683396919421==
+--===============5128475790538662279==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f2db8400f3b3-102a2048dd1e.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-3d7551297985400eb31c6e04ca95fd15d5a9eef3 bitops: add generic parity calculation for u8
-71595f91f537763a9e7a965cb6bdfddcd8def779 dt-bindings: i3c: Add Renesas I3C controller
-3ab2474cb476493336e4643d775ffea6ba03320a i3c: controllers do not need to depend on I3C
-0bea5c0e39992654677bb6e94d276c14bf75c2f8 i3c: master: Add basic driver for the Renesas I3C controller
-b9f8fe788a1bcd25438642c977b3ff838ba5a35f i3c: Document I3C_ADDR_SLOT_EXT_STATUS_MASK
-7ab3784ced85ceec9e50a8f1b24fd8839d2d736c i3c: Remove the const qualifier from i2c_msg pointer in i2c_xfers API
-481bea761d88b35e1c9227d7dbf0812df9777ff7 i3c: Standardize defines for specification parameters
-44e238eed47f740e56157cb8a789f2992153655c i3c: Add more parameters for controllers to the header
-3484d85fa24c7f51452738c753b2bbe9a76955ea i3c: master: Add helpers for DMA mapping and bounce buffer handling
-4f50427fcbfa1653fa8c9b0f9f92c7aae95e6c52 i3c: document i3c_xfers
-8a526a3f05294fb6a05a844e55b98a4b0a4cbe02 i3c: master: Add inline i3c_readl_fifo() and i3c_writel_fifo()
-3f265a54a55f713ab17c44219cc2410f81fc6e0a i3c: Correct the macro module_i3c_i2c_driver
-93298bc4a017fad2d58598cdf49e949f4dd95e6f i3c: export SETDASA method
-20efaec457f8bc9504ecaed3795156b938b4c459 clk: renesas: r9a09g047: Add I3C0 clocks and resets
-102a2048dd1e6caf7f838d35c60826ab397b0430 arm64: dts: renesas: r9a09g047: Add I3C node
+certificate version 0.1
+pusher Marc Kleine-Budde <mkl@pengutronix.de> 1768467383 +0100
+pushee gitolite.kernel.org:pub/scm/linux/kernel/git/mkl/linux-can.git
+nonce 1768467383-2bd1b161e4544280ecde0f2b5f849a0d30a7115d
 
---===============6512762683396919421==--
+ffe4ccd359d006eba559cb1a3c6113144b7fb38c 3879cffd9d07aa0377c4b8835c4f64b4fb24ac78 refs/heads/main
+ffe4ccd359d006eba559cb1a3c6113144b7fb38c 3879cffd9d07aa0377c4b8835c4f64b4fb24ac78 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQFHBAABCgAxFiEEn/sM2K9nqF/8FWzzDHRl3/mQkZwFAmloq7cTHG1rbEBwZW5n
+dXRyb25peC5kZQAKCRAMdGXf+ZCRnD3nB/0SphGwB8DDvwXArs2rd6ulcBYgYtWB
+QKMYypazlb6N+DljF7AOuJK0fQWOjoizZ6s4IHzW80/CX1C7k8n2jqS1QI7I4M0z
+9JZMtRqKYx2cM8IwIuL2B8uqnq5bDdFDXprvUPEGYx3RuOPlmxRutpaPSR7VTn12
+NCQZvhxbjPyoIchfWa/2A+64PXyeIgZ41e0e59BUnlO0ufSi6OnMNGMHL7+SAd4t
+RGk1j6atyJzOr3ESsH5/MCw1DWYkT2Cei90ph2/1+oUXvlfqE0B2WXZFJaYW/2V4
+Rg42ETAp4z9oWsYtAPktERsKvKZHGO49mvlGbI92pyGrDwfPnnA89iGB
+=2tEo
+-----END PGP SIGNATURE-----
+
+--===============5128475790538662279==--
