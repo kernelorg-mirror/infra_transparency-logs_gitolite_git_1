@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vireshk/pm
-Date: Thu, 15 Jan 2026 04:12:48 -0000
-Message-Id: <176845036875.1660940.4869744355227610831@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sfr/linux
+Date: Thu, 15 Jan 2026 04:21:27 -0000
+Message-Id: <176845088718.1668751.12986105805869996709@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vireshk/pm
-user: vireshk
+repo: pub/scm/linux/kernel/git/sfr/linux
+user: sfr
 changes:
-  - ref: refs/heads/cpufreq/arm/linux-next
-    old: d8a4d6bed24571080ef1931771ddd61e807fe2e8
-    new: 28e2725838c0f5a1dee9f03b3c095e386cc3092d
-    log: |
-         28e2725838c0f5a1dee9f03b3c095e386cc3092d cpufreq: scmi: correct SCMI explanation
-         
+  - ref: refs/heads/next-tools
+    old: 0000000000000000000000000000000000000000
+    new: e3a0a1ae5a334b8b40a0b98ee2a6dadfd5026146
