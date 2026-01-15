@@ -1,24 +1,50 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Thu, 15 Jan 2026 13:04:29 -0000
-Message-Id: <176848226950.2116564.10093923424383293302@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============1619896516342883698=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Thu, 15 Jan 2026 13:04:42 -0000
+Message-Id: <176848228290.2116835.14414066755935392982@gitolite.kernel.org>
+
+--===============1619896516342883698==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
+repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/asoc-6.19
-    old: 1a75f24a7f8c2cac9c34126d7221ff59c5265316
+  - ref: refs/heads/for-6.19
+    old: a57d5cc053e9e6491c54e5bcc8d116cc0d7e98b2
     new: be5a39e7994ec9f003c8569b670c794a4e5d1551
     log: |
-         4130dc47ce8f60d289d91e2bdd18c4d863ca3237 ASoC: tlv320adcx140: invert DRE_ENABLE
-         be7664c81d3129fc313ef62ff275fd3d33cfecd4 ASoC: tlv320adcx140: fix null pointer
-         d89aad92cfd15edbd704746f44c98fe687f9366f ASoC: tlv320adcx140: Propagate error codes during probe
-         46378ab9fcb796dca46b51e10646f636e2c661f9 ASoC: tlv320adcx140: fix word length
-         a57d5cc053e9e6491c54e5bcc8d116cc0d7e98b2 ASoC: tlv320adcx140: Merge fixes from Pengutronix
          be5a39e7994ec9f003c8569b670c794a4e5d1551 ASoC: rt5640: Fix duplicate clock properties in DT binding
          
+
+--===============1619896516342883698==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher C3F436CA30F5D8EB 1768482281 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
+nonce 1768482280-f8e5c5037adedcc4c0bd3046f8c99898c33a205b
+
+a57d5cc053e9e6491c54e5bcc8d116cc0d7e98b2 be5a39e7994ec9f003c8569b670c794a4e5d1551 refs/heads/for-6.19
+-----BEGIN PGP SIGNATURE-----
+
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmlo5ekACgkQJNaLcl1U
+h9D/lgf/YhGTsjGMjDgdnqIO7YrUEztv+5qGYxp99oQR4WW58i7hU6QK6KTmChJ+
+MuTsOIbqtd29x6RWQmp7CHt8WuhYtP43EBMKs97ZPG0uYJFMiLNnLIElIJDXgUrG
+WKIKb5zMHBqZBpDNf9i93B+V5TOVaoKRCUpPibZ0oGD4Ni26v4lFYwXt62rfYI/A
+CCM8/wnV7zQm4q7soJvnI3hZYEePYiOCqxbryzzBsVLX5WURzmyiD2UrCUM3ukix
+PZTyzrb9897Ef4iy0UExfhlEvrZFkJgLc1BJn9x30c6LDKBY8U3VuOq5o5B8F9T3
+13v4Eda18kaKgRPNFMOmGS7IKFps5Q==
+=r/bQ
+-----END PGP SIGNATURE-----
+
+--===============1619896516342883698==--
