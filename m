@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2789838330219573762=="
+Content-Type: multipart/mixed; boundary="===============2611166904623102630=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Fri, 16 Jan 2026 13:14:34 -0000
-Message-Id: <176856927415.3398518.12888985521257590035@gitolite.kernel.org>
+Date: Fri, 16 Jan 2026 13:15:00 -0000
+Message-Id: <176856930073.3398871.7349235116543835036@gitolite.kernel.org>
 
---===============2789838330219573762==
+--===============2611166904623102630==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,40 +17,43 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/staging-testing
-    old: abe850d82c8cb72d28700673678724e779b1826e
-    new: 53e0181ee7225e3a1958c51b2f00f648878e91e1
+    old: 53e0181ee7225e3a1958c51b2f00f648878e91e1
+    new: 5080a15d755be4ff72bc92df97475cf69ccf5e58
     log: |
-         53e0181ee7225e3a1958c51b2f00f648878e91e1 staging: rtl8723bs: fix operator and type cast spacing
+         97ba152cd30cdb7ab0e017c4af497b39008649eb staging: rtl8723bs: fix block comment style
+         79c2b4714040fe8fe9d811cde3cb7cae325089fe staging: rtl8723bs: remove extra blank lines
+         48f3cb74a1c1056fcbb3cf2b58233af512ea5c69 staging: rtl8723bs: add blank lines after declarations
+         5080a15d755be4ff72bc92df97475cf69ccf5e58 staging: rtl8723bs: expand multiple assignment into separate statements
          
 
---===============2789838330219573762==
+--===============2611166904623102630==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1768569271 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1768569297 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1768569270-fe680e494ef226d77b43280b0ed7778bf54d5c96
+nonce 1768569297-df443ab16eb051cba586759b65f5599da6875da9
 
-abe850d82c8cb72d28700673678724e779b1826e 53e0181ee7225e3a1958c51b2f00f648878e91e1 refs/heads/staging-testing
+53e0181ee7225e3a1958c51b2f00f648878e91e1 5080a15d755be4ff72bc92df97475cf69ccf5e58 refs/heads/staging-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmlqObcbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+6cAP/icpZEUH0QF3OswvIGt4
-YpNnw1KR5JNBB2HSw/wFJs1Lfyebmi3kkaPGJp2GR/sMXgB/rHoULC50sTXb2lmC
-sTJDicsUwS6jBOh5kg0pc0D2WcvmAhIXZU5Xweur7UyTZVn4J/Y88qSykQfz/i+/
-1h9EVSm5Edr/zl3T01xTntKF+iXqvC3H1l0gawrb4HmlR7Vw+uZoHquFKnEFowrR
-15KB09mG2uzjbBM/Vt3PqbXXqRzEgq6Df2dO/7fnaOlfRB1sNRwuaj5XijXQOsEQ
-iToClL7SKw54qCQDpDnb1NUU4As8lrCDx0Ni6G2pWzv9BznsN/tiqswJglw31vAc
-DwunF9+fCnUz1idfyB7ik04SaeewaQ6Jdkz6NRCxOoDr11n7Cbb0VMRZkUbCotwE
-ux5nRu1hzs+mUfd3EZLgZh53aV7wCfgIIdIx896SV2VMTz9LDOiAYFFxI768qrWE
-/YS8DkU/wLADb5gOz/F/ktVMUxEe7+gwnt9oG8wO3a+KtaMyV7b9PGpmnJgRZx1C
-Y4Ze3jW8LGeN+7gwhVMf/Bq8qE0lclRlYjzFjRE6/CzaImy8f2pbFxmzl7MAG1ru
-geFHFy6WZnrlqo3ooWwlnZW/Y1ngxMuQFR2REqvngI+HOB/TfZK8HsOFGfA9yh6W
-IGEBwAxfpbH9lQ3hbcBiUaoI
-=nmZl
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmlqOdIbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+YFAP/3PaJtP2+1uvb6Q1W9Y4
+bqzFwoV9p2QXyMQzNmgTU9PQnsXKyj+TmeqNgMUnSthLV2OZbrE9vcYvagWF5l1g
+o5d1Dn3vgMy6dJFT6AVRdtzb46vqyGUGOP0jtJ+zcQdNVUfSN76oARwqfRsusxxh
+WmwiFjl423qvND0hUNBL1lest9n+xZnqi2RLR1AUDyNVYf4pG4phU/PAFbHbNCqQ
++PbaEtJZsTcpewBRmdwGsA0Uh2wypgtzfvOmHRpPGqkiRwA6E1Nam6tBTfl1/jCo
+tRalayNKIl6QDd0mA3L9wvcnmMY7nkJ8NxyMxuMmIJT6JQH+anW85XNai6COFzop
+FQa6e2i9BZD9t1Or+HK27LCk4+kUdBW/K/MUNajjpSaws8BDFouUaPNkrKpeSaHw
+5REs1jBocjTZtVBH3otjqzi/4kkj7gxuQ6agE/h/EzeJu2TldF+UBal00Oz7a4mW
+YFOEemm1Ic/xIsTrJe7KShYGF7H2rursEp49AK4tJolJdKfJrLjcRC+D4lkQypY7
+1h7qmYK7feskHthnKouPGWWA7e20DzhhNJteWctESzniTydzeygti86YZ55YB56Y
+NTXrFtVpYE/jjCpEdEUMIUIbsuRq7f+aJRY2Ux9EhGy+a3j8sBBHIN3f/ugCMssE
+VTsGkgNSgX5x7hhc1+q6HAaL
+=HmMs
 -----END PGP SIGNATURE-----
 
---===============2789838330219573762==--
+--===============2611166904623102630==--
