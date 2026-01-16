@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/chunkuang.hu/linux
-Date: Fri, 16 Jan 2026 23:49:35 -0000
-Message-Id: <176860737541.3926745.10467946242453279296@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/boqun/linux
+Date: Fri, 16 Jan 2026 23:55:12 -0000
+Message-Id: <176860771222.3933081.131403828127956321@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/chunkuang.hu/linux
-user: chunkuang.hu
+repo: pub/scm/linux/kernel/git/boqun/linux
+user: boqun
 changes:
-  - ref: refs/heads/mediatek-drm-next
-    old: 24abe1f238e7d7ac56be6374c52a3c13dab84f69
-    new: 8b00951402f7420365b5697269b190f616bd116a
+  - ref: refs/heads/rust-sync
+    old: 7bd94324bf04ca1161d94fc193adf782b0cfc0a9
+    new: 2c0ee93b0a3c16046b6241e780e3ebad672c8e2e
     log: |
-         8b00951402f7420365b5697269b190f616bd116a drm/mediatek: mtk_dsi: Add support for High Speed (HS) mode
+         d11730a764b8a734348de391be52b3c2572c04fd WIP: rust: sync: atomic: Add Atomic<*mut T> support
+         2c0ee93b0a3c16046b6241e780e3ebad672c8e2e rust: sync: rcu: Add RCU protected pointer
          
