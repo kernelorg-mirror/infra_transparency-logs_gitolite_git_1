@@ -1,23 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Thu, 15 Jan 2026 23:49:36 -0000
-Message-Id: <176852097613.2727674.13373234645198614005@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/driver-core/driver-core
+Date: Fri, 16 Jan 2026 00:20:40 -0000
+Message-Id: <176852284029.2752827.1012982362119701801@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/next-queue
-user: tnguy
+repo: pub/scm/linux/kernel/git/driver-core/driver-core
+user: dakr
 changes:
-  - ref: refs/heads/dev-queue
-    old: b965ae864ebba25f9f60dfb4eee4771ab7e47db8
-    new: c6665128871ae66f15947e35603f4fba4e9f5d1b
+  - ref: refs/heads/driver-core-linus
+    old: 5d9c4c272ba06055d19e05c2a02e16e58acc8943
+    new: a995fe1a3aa78b7d06cc1cc7b6b8436c5e93b07f
     log: |
-         ca0d05871d0ec1d007ae78f8f725532e6add4008 e1000e: correct TIMINCA on ADP/TGP systems with wrong XTAL frequency
-         589742b3daf0d3b5935286ba295a964c4521105e e1000e: introduce new board type for Panther Lake PCH
-         726ca48653a9395166352a22019ea0d952aeebe1 e1000e: clear DPG_EN after reset to avoid autonomous power-gating
-         4ecf32ee32b7d00341ea52022bb780d74769c2ce idpf: skip deallocating bufq_sets from rx_qgrp if it is NULL.
-         c6665128871ae66f15947e35603f4fba4e9f5d1b idpf: skip deallocating txq group's txqs if it is NULL.
+         4181aceb4af414bd6d2ce5eb9a22637bbb4f5f8c rust: i2c: do not drop device private data on shutdown()
+         5f4476e98387618ce22bb93fb5c11142827458ec rust: auxiliary: add Driver::unbind() callback
+         0af1a9e4629a85964a7eebe58ebd2ca37c8c21fc rust: driver: introduce a DriverLayout trait
+         c1d4519e1c36ffa01973e23af4502e69dcd84f39 rust: driver: add DEVICE_DRIVER_OFFSET to the DriverLayout trait
+         2ad0f490c224283eb5b38f81e247000ce3c714d3 rust: driver: add DriverData type to the DriverLayout trait
+         a995fe1a3aa78b7d06cc1cc7b6b8436c5e93b07f rust: driver: drop device private data post unbind
          
