@@ -1,16 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
-Date: Fri, 16 Jan 2026 11:21:02 -0000
-Message-Id: <176856246202.3306592.1932125185730894566@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
+Date: Fri, 16 Jan 2026 11:25:29 -0000
+Message-Id: <176856272974.3310232.411504554004794239@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/brgl/linux
-user: brgl
+repo: pub/scm/linux/kernel/git/vfs/vfs
+user: brauner
 changes:
-  - ref: refs/tags/gpio-fixes-for-v6.19-rc6
-    old: 0000000000000000000000000000000000000000
-    new: e87fbf36db8accb876e3e66189267b40a247bf76
+  - ref: refs/heads/work.dm-verity.keyring
+    old: 4992baec3f968a986ace0125672f4d61e609cc4b
+    new: d38fefcc7ff262307b092c6404effa61a13c08df
+    log: |
+         e5f939010848bf993b51e94b403c9c9b9716848c dm-verity: add dm-verity keyring
+         d38fefcc7ff262307b092c6404effa61a13c08df To: Alasdair Kergon <agk@redhat.com> To: Mike Snitzer <snitzer@kernel.org> To: Mikulas Patocka <mpatocka@redhat.com> To: Benjamin Marzinski <bmarzins@redhat.com> Cc: dm-devel@lists.linux.dev Signed-off-by: Christian Brauner <brauner@kernel.org>
+         
