@@ -1,24 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/thomas.weissschuh/linux
-Date: Fri, 16 Jan 2026 07:33:07 -0000
-Message-Id: <176854878724.3102923.6796559028979514558@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tj/cgroup
+Date: Fri, 16 Jan 2026 07:53:11 -0000
+Message-Id: <176854999150.3118201.3826008633384206248@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/thomas.weissschuh/linux
-user: thomas.weissschuh
+repo: pub/scm/linux/kernel/git/tj/cgroup
+user: tj
 changes:
-  - ref: refs/heads/b4/bits-per-long-check
-    old: 5f5f4e8866517fab6df5dd9e5371657b2cfd5263
-    new: de3b5648f18c5ced9bf1a64922ed073b70669455
+  - ref: refs/heads/for-6.19-fixes
+    old: ef56578274d2b98423c8ef82bb450223f5811b59
+    new: 09444bef413fcafabe965c1ff14e3bc9c2c0f4f9
     log: |
-         fc788a91fe670af640df8d90265255c25d0add67 sparc
-         706abbfcc19056ba08b8c29bf693cc2f6924acd4 BUILD_VDSO
-         de3b5648f18c5ced9bf1a64922ed073b70669455 Revert "s390"
+         09444bef413fcafabe965c1ff14e3bc9c2c0f4f9 MAINTAINERS: Add Chen Ridong as cpuset reviewer
          
-  - ref: refs/heads/b4/cc-can-link-riscv
-    old: 0000000000000000000000000000000000000000
-    new: 1cfbb1e56342fc3de7a11b8683a55e98dad48062
+  - ref: refs/heads/for-next
+    old: 53552add1a7c81e218770935b0d72fee978d83e7
+    new: be05f033b732e8309846b36fdbf20fe5315e62f2
+    log: |
+         09444bef413fcafabe965c1ff14e3bc9c2c0f4f9 MAINTAINERS: Add Chen Ridong as cpuset reviewer
+         be05f033b732e8309846b36fdbf20fe5315e62f2 Merge branch 'for-6.19-fixes' into for-next
+         
