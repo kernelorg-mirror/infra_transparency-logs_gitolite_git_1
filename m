@@ -1,22 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kbuild/linux
-Date: Fri, 16 Jan 2026 22:05:48 -0000
-Message-Id: <176860114861.3846548.18023537868442223652@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
+Date: Fri, 16 Jan 2026 22:08:33 -0000
+Message-Id: <176860131379.3847993.16717933662411835850@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kbuild/linux
-user: nathan
+repo: pub/scm/linux/kernel/git/tnguy/next-queue
+user: tnguy
 changes:
-  - ref: refs/heads/kbuild-for-next
-    old: 66d2c4245fa131110dc3ce3d1e24761f8d9ee2d2
-    new: d4271702ab2fb0e4474ce66e3c68dfbdf8dc3e4c
+  - ref: refs/heads/dev-queue
+    old: 2c5702ca31bd2d274e0d29cedc081b1aa1869dd1
+    new: e046e2303f4abefe4e0cfa49942c61ef23f4c183
     log: |
-         1e5271393d777f6159d896943b4c44c4f3ecff52 hyper-v: Mark inner union in hv_kvp_exchg_msg_value as packed
-         c25d01e1c4f2d43f47af87c00e223f5ca7c71792 virt: vbox: uapi: Mark inner unions in packed structs as packed
-         2a0a30805a7d27470e02137cae72f7c3188e44eb kbuild: uapi: drop dependency on CC_CAN_LINK
-         d4271702ab2fb0e4474ce66e3c68dfbdf8dc3e4c Merge UAPI header testing improvements into kbuild-next
+         7092ef5c1168be63baf4525f0fc62a35b72452a5 idpf: Fix flow rule delete failure due to invalid validation
+         8a20ce489afb0f9d3f06be5a8651b9a66d2f64a0 ice: reintroduce retry mechanism for indirect AQ
+         e046e2303f4abefe4e0cfa49942c61ef23f4c183 ice: fix retry for AQ command 0x06EE
          
