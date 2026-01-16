@@ -1,47 +1,27 @@
-Content-Type: multipart/mixed; boundary="===============5524428672050256307=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mkl/linux-can
-Date: Fri, 16 Jan 2026 19:55:15 -0000
-Message-Id: <176859331543.3739310.18125979532692300259@gitolite.kernel.org>
-
---===============5524428672050256307==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/cem/xfs-linux
+Date: Fri, 16 Jan 2026 20:05:36 -0000
+Message-Id: <176859393601.3747450.583221456412824572@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mkl/linux-can
-user: mkl
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/cem/xfs-linux
+user: cem
 changes:
-  - ref: refs/tags/linux-can-fixes-for-6.19-20260116
-    old: 0000000000000000000000000000000000000000
-    new: f0a7af665b303a1ad6d1b9e2c76d843af3df9592
-
---===============5524428672050256307==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Marc Kleine-Budde <mkl@pengutronix.de> 1768593312 +0100
-pushee gitolite.kernel.org:pub/scm/linux/kernel/git/mkl/linux-can.git
-nonce 1768593311-9fb1fa01e3b6b12a736b0fdfa40f0e2eef81b053
-
-0000000000000000000000000000000000000000 f0a7af665b303a1ad6d1b9e2c76d843af3df9592 refs/tags/linux-can-fixes-for-6.19-20260116
------BEGIN PGP SIGNATURE-----
-
-iQFHBAABCgAxFiEEn/sM2K9nqF/8FWzzDHRl3/mQkZwFAmlql6ATHG1rbEBwZW5n
-dXRyb25peC5kZQAKCRAMdGXf+ZCRnJvwB/49GETl6a+omPj6aLki/962VMfyqaJA
-st4il5bIfUsPbnEaWkyALZafzhnWGaDYdPbUEFJGqJdr15BmSllW3Oa+zfeePjRV
-sEW6XX656+EUlWbhAV9xRYBmV8Yk7X4BWpYby+R/BcSr2RA1Y/guM7y7tO6TH2xW
-2FMeEvZG0br0KdZdNElJFX9/iNQPtGNC7E82p7xWspClNkokpEsbTFrK2LRtlgmF
-AgMjVela85vzodfNlQGue+E8OY6PCYK3sMqS61IDUbYJMh/fq99graou9pxkj8pB
-gJNWElp0ZkhQu+yWz4vd0Yh6qkmV2+KVzoNlW20FHGdZAK43YJY26Pye
-=3ubJ
------END PGP SIGNATURE-----
-
---===============5524428672050256307==--
+  - ref: refs/heads/xfs-zoned-atomic
+    old: 8f39a37d39457410e9fb90f731385a285fbfccff
+    new: 645b3c39b80607d4e97101bdc26a7ebd45766343
+    log: |
+         0a3e751247dddae7f5ed2bb301d005499606e294 xfs: factor out isize updates from xfs_dio_write_end_io
+         47100313ed641da1be10af80e9ea8fd580eab9e6 xfs: move zoned dio ioend to its own function
+         ed24699c77341cadb620a6badea959041e2c15fd xfs: enable setting of atomic size limit for zoned fs
+         c91d538aef5dc818109dd8ddf828929cd148882e xfs: enable atomic report for zoned
+         9402005a2655be73f5655b2c75ffe4b55523c316 iomap: introduce IOMAP_IOEND_ATOMIC
+         837cf409c76be187ed5669848e58f00e99740d6d xfs: opencode xfs_zone_record_blocks
+         7ee594ded51443fd9abfa45506a19f2ea0f6d9b3 xfs: factor out xfs_zoned_skip_blocks
+         11946894f85730c4fb70e7d3ae183b01dbab6cbf xfs: factor out xfs_zoned_map_extent
+         645b3c39b80607d4e97101bdc26a7ebd45766343 xfs: implement software atomic writes for zoned xfs
+         
