@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/damon-hack
-Date: Fri, 16 Jan 2026 16:17:58 -0000
-Message-Id: <176858027842.3559830.11419181271806363191@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/atorgue/stm32
+Date: Fri, 16 Jan 2026 16:30:15 -0000
+Message-Id: <176858101550.3570853.3521438878742757169@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/damon-hack
-user: sj
+repo: pub/scm/linux/kernel/git/atorgue/stm32
+user: atorgue
 changes:
-  - ref: refs/heads/master
-    old: f38782a81c5cbae28bf6e776b64755ae1a26c031
-    new: 8f7c35293375b6e0d03332462033598aa1c460af
+  - ref: refs/heads/stm32-next
+    old: b8e2e3442637eda73dad62b956c1a008aed19b76
+    new: 291f393298f72091490dfa70ab4a0ebdbb4c7d7e
     log: |
-         8f7c35293375b6e0d03332462033598aa1c460af todo: update status of wip items
+         291f393298f72091490dfa70ab4a0ebdbb4c7d7e arm/arm64: dts: st: Drop unused .dtsi
          
