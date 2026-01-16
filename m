@@ -1,56 +1,72 @@
-Content-Type: multipart/mixed; boundary="===============1729908612400742272=="
+Content-Type: multipart/mixed; boundary="===============3080147578458981872=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Fri, 16 Jan 2026 13:24:54 -0000
-Message-Id: <176856989429.3409465.5957281558054918969@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
+Date: Fri, 16 Jan 2026 13:28:01 -0000
+Message-Id: <176857008149.3413308.1314499770878082583@gitolite.kernel.org>
 
---===============1729908612400742272==
+--===============3080147578458981872==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/char-misc
+repo: pub/scm/linux/kernel/git/gregkh/tty
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/char-misc-testing
-    old: e48407ba576c5bc8b4324df41de5507f7928771e
-    new: b0e930a6360ff5f81045146f0a8fcac4f7897eda
-    log: |
-         b0e930a6360ff5f81045146f0a8fcac4f7897eda dt-bindings: misc: google,android-pipe: Convert to DT schema
-         
+  - ref: refs/heads/tty-testing
+    old: 322fc12949d2658da8c6b2866fffcb1daa7da019
+    new: c7d8b85b98f749725ac1d0575f7a44007fde0c94
+    log: revlist-322fc12949d2-c7d8b85b98f7.txt
 
---===============1729908612400742272==
+--===============3080147578458981872==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1768569891 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1768569891-70f4bf82f4f6e860a816794b0f1a039a43424892
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1768570078 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
+nonce 1768570077-4c7b25edd33c2a971f8d78e3c9994cf4f0276022
 
-e48407ba576c5bc8b4324df41de5507f7928771e b0e930a6360ff5f81045146f0a8fcac4f7897eda refs/heads/char-misc-testing
+322fc12949d2658da8c6b2866fffcb1daa7da019 c7d8b85b98f749725ac1d0575f7a44007fde0c94 refs/heads/tty-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmlqPCMbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+kPUP/27pVe8gi9WomTMupyK6
-jahkK5Zqe+GFm2arcraUbxDQQPi/lqpNlgUZNbNIDWtT87PQdqYMytSdM7TcWBwm
-gHS7GVNryAjripLq8NmiAuiG7a/OwOVKFB8zT2xRx095GmmO7AvGEeY0J+B+Ujz+
-RgDv522nSSPJjbVwP2st8VffKPbSuXp0an6OdlicyH6qBY7v43f4BQfYD+rxKGth
-d+3Nj75y6S4fMq9dQoNAmh6JEbu3NavuefIATIpj8ANVjMh8jsGjWEZE/pheNTnU
-KEpe5g+V2N1maCBCAofhS73HzA7ZLzZS+sHPp30KrQtAiKjnSoLOrp39jM8948Ye
-OPjk603hs37xU7Ya+I/3XKkRPg0mMzVJPkgeSoDUulCOmNsjnUrLQchg2zQI5mYc
-qEeed3Bc2MESl3Ze4ID9mG4qc6jxeRnbdbLdjGin9yp3/XToLOFZFoZ6lu4NLpuZ
-wvriPnCVUZ96nb6U6dbytNckGvF6PGfnFl02bmnwrsQ/wxpB/uB7OkW0xB4Fy7qj
-jV6mp+LJh8z2GiiW8iU6CRw2FjvpZPep7Ni9Kes+vqr1hrwHHYwM1PfOq5z3PdT/
-Gx0gVbFF5ms4dq5NxdEKf1mlOed0YEbg9MR7Hjmt4nTSTY6C8hmOlnbITXEWRGYx
-m7gqe/F+uvyXUcpA4tJPgnvj
-=OoMj
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmlqPN4bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+KxEQAMCYaeCya9WBo0vXCL2D
+Tl3qD8IhRmmZ66a2gKuzwEoeEtVqxlg6WigYHw/QuV1DLyaEA1ZQ8qcMobn6UCbR
+Mf0nIe6Q0HJtB4sMz4eN6YoQWwvGCPXAbZ2g7keKC69l4U4o0pKiaylepPkeOFyL
+A+XUXMS4X+boxqQxaBGhkoS4rxaBl56XJslV8fX4HsS0imUTpEcbGJEgSGZdhxbm
+r6eSrMGCSP/SA++uDOeSjN3rzAYxdc6iqSRxXVqeBwb/JE++mbj9X1vsM9Bdl4Oq
+iy6tCm+nXCsisnSylcW6LIY1Dy7rfiLqOb/2euiLU9A5Hj/5XXDlK9vFtGqX8Nih
+ASTc+iHI2MCG+iGKucFnlPuLO5BAUP59rqLAGsQ2oV0qTPD7m2PTwhGPecHjknIX
+kJuEupVxmDF9qzVJT2KoiAIbCy+8f9/rBIxZNIvM1n0yWed6Z9z90gj0XkDPfJMn
+JvMkgak8mFPXtrYZ+edfplJNd9tdyNNC1W26tJT2EWxhM0IF76O8mTIzcrEvearz
+SAkH+knuabzaNm0ruJdLZB75eG5JSSaygaZf23iu64u94wXAS6znMvkZ25Mu38mE
+eFmHUFSme22rdLum32NCuATN7GH8xxFBRDY7ROsgcfmZ8PeFepFTa32jKQr8PlIb
+DzF32zKtexmhrNpFJnRaU/2G
+=KClx
 -----END PGP SIGNATURE-----
 
---===============1729908612400742272==--
+--===============3080147578458981872==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-322fc12949d2-c7d8b85b98f7.txt
+
+21566457614fc52b5799f96b996618709f74e419 dt-bindings: serial: renesas,rsci: Document RZ/V2H(P) and RZ/V2N SoCs
+afc57d096f897bd5244ed8e81700d5ad7c829a27 serial: men_z135_uart: drop unneeded MODULE_ALIAS
+79dd246c6eb305f13566739f9b1f34e092fec5e5 8250_men_mcb: drop unneeded MODULE_ALIAS
+79527d86ba91c2d9354832d19fd12b3baa66bd10 serial: imx: change SERIAL_IMX_CONSOLE to bool
+1ec8891402a6f755e2750a9be39434702d616146 serial: 8250: fix ordering of entries for menu display
+2c468edb6b19ad00c247fc52dc6074e4012b46ed serial: Kconfig: fix ordering of entries for menu display
+93bb95a11238d66a4c9aa6eabf9774b073a5895c serial: SH_SCI: improve "DMA support" prompt
+623b07b370e9963122d167e04fdc1dc713ebfbaf serial: 8250: 8250_omap.c: Add support for handling UART error conditions
+a5fd8945a478ff9be14812693891d7c9b4185a50 serial: 8250: 8250_omap.c: Clear DMA RX running status only after DMA termination is done
+9e0313435c2d077f9eb432439228e57c36e6422d dt-bindings: serial: sh-sci: Fold single-entry compatibles into enum
+c7d8b85b98f749725ac1d0575f7a44007fde0c94 dt-bindings: serial: google,goldfish-tty: Convert to DT schema
+
+--===============3080147578458981872==--
