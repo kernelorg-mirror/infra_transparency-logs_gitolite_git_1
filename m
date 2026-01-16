@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Fri, 16 Jan 2026 03:40:17 -0000
-Message-Id: <176853481707.2921290.7868644044659917281@gitolite.kernel.org>
+Date: Fri, 16 Jan 2026 03:44:04 -0000
+Message-Id: <176853504496.2923051.3747702089517068448@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/netdev/net-next
 user: kuba
 changes:
   - ref: refs/heads/main
-    old: e76994c561cfb380e681832548b40891deff9a93
-    new: 2c297957912bdfaadbf91b3353e3af87c6c41cbe
+    old: 2c297957912bdfaadbf91b3353e3af87c6c41cbe
+    new: acbe4a141e89eef8dab4b2840037ee70fbf59578
     log: |
-         2c297957912bdfaadbf91b3353e3af87c6c41cbe net: ethernet: dnet: remove driver
+         acbe4a141e89eef8dab4b2840037ee70fbf59578 net: usb: sr9700: fix byte numbering in comments
          
