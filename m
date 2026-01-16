@@ -1,72 +1,60 @@
-Content-Type: multipart/mixed; boundary="===============5627256519099932688=="
+Content-Type: multipart/mixed; boundary="===============3244491676623744815=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Fri, 16 Jan 2026 15:39:02 -0000
-Message-Id: <176857794233.3524787.11756822307126422493@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
+Date: Fri, 16 Jan 2026 15:42:06 -0000
+Message-Id: <176857812691.3528553.8705761386279949519@gitolite.kernel.org>
 
---===============5627256519099932688==
+--===============3244491676623744815==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/char-misc
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/jlayton/linux
+user: jlayton
 changes:
-  - ref: refs/heads/char-misc-testing
-    old: 578d62a2e51614ea117ccf05fce6aaa6257dfd60
-    new: f42b8bf55e81d6ee9b52bf0957b6c5081f87b55a
-    log: revlist-578d62a2e516-f42b8bf55e81.txt
+  - ref: refs/heads/kdevops
+    old: 664eec0b2180f4dc0c4946b767445df98cef2638
+    new: 430c7a817e521999d7f15db34d5ffdad7896569e
+    log: revlist-664eec0b2180-430c7a817e52.txt
 
---===============5627256519099932688==
+--===============3244491676623744815==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-664eec0b2180-430c7a817e52.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1768577938 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1768577937-ee03dcfbcd49ff543ac912df4ecf83020e6493ae
+5a58c2ed045ab5a980b2d03d9f2050bc9ed9635d fs: require filesystems to explicitly opt-in to nfsd export support
+0db18d512ecb8b0322832537cfb207295c0641c8 exportfs: add new EXPORT_OP_STABLE_HANDLES flag
+96704223df95f70a5e4cddb63479f46f1ca4e682 tmpfs: add EXPORT_OP_STABLE_HANDLES flag to export operations
+80147bbc72ea0323084796dabce723d4eb0c2f2f ext4: add EXPORT_OP_STABLE_HANDLES flag to export operations
+92d28e1fced96693f35ce5fad9e5ce0e0958d205 ext2: add EXPORT_OP_STABLE_HANDLES flag to export operations
+59a0336232c12fd6f13f9adcd9aa3af1fdb93cbe erofs: add EXPORT_OP_STABLE_HANDLES flag to export operations
+f8833587e9bfca4be73012cd0320cf652acb65f1 efs: add EXPORT_OP_STABLE_HANDLES flag to export operations
+4885bad6a55bbfd723db2541360df90b31a3bde8 xfs: add EXPORT_OP_STABLE_HANDLES flag to export operations
+8bf217552af7c767348f49c8b5f5046074b84110 ceph: add EXPORT_OP_STABLE_HANDLES flag to export operations
+ccf22f3374e7734f310863ebed36e2df178fadd8 btrfs: add EXPORT_OP_STABLE_HANDLES flag to export operations
+a145b8adce05372c8665a6c3bdba5b2d1c422072 befs: add EXPORT_OP_STABLE_HANDLES flag to export operations
+97b4a4e934b4d6507eec45e970d348d874210e0a ufs: add EXPORT_OP_STABLE_HANDLES flag to export operations
+f554bee458ff9ac5a6d6b77d06d55c1fd56e224b udf: add EXPORT_OP_STABLE_HANDLES flag to export operations
+12d0beb6cbe11ea5c3f59588d7377a36370ea4f9 affs: add EXPORT_OP_STABLE_HANDLES flag to export operations
+52f6743566cb3dac4de6cfbc7c0fc1d13432408c squashfs: add EXPORT_OP_STABLE_HANDLES flag to export operations
+1dc8271ec542ba77c1bb5378984371b0589c2e78 smb/client: add EXPORT_OP_STABLE_HANDLES flag to export operations
+0a481cab5fabb54491a1bcb69684e6bad20a557e ovl: add EXPORT_OP_STABLE_HANDLES flag to export operations
+b52b1204b1c03c70ac69d9753e182930a845c737 orangefs: add EXPORT_OP_STABLE_HANDLES flag to export operations
+86ba47081bf3ce4fa757d699d518cd99d237b856 ocfs2: add EXPORT_OP_STABLE_HANDLES flag to export operations
+ff2158a02195f031eebc9c0e44f8f1e510058292 ntfs3: add EXPORT_OP_STABLE_HANDLES flag to export operations
+b90d43b86ea1da1c0051df839984b6fcc3e5782d nilfs2: add EXPORT_OP_STABLE_HANDLES flag to export operations
+4f219a3d4315a82bdc8ddd8d2a6ac972d8a94cbe nfs: add EXPORT_OP_STABLE_HANDLES flag to export operations
+c0bec8d8be8820085b0e048563a15abcabf52eb7 jfs: add EXPORT_OP_STABLE_HANDLES flag to export operations
+00f1b8eb6834dde114f8dd591bdb0f1266f425df jffs2: add EXPORT_OP_STABLE_HANDLES flag to export operations
+4cbdedad84822db8f96cb018c0fa79329dba278e isofs: add EXPORT_OP_STABLE_HANDLES flag to export operations
+8cbd6fa8d3276f9c029869d60fb757eedd2067aa gfs2: add EXPORT_OP_STABLE_HANDLES flag to export operations
+72fe782f8d556097a88a3b02f0cc7b2afb0cab35 fuse: add EXPORT_OP_STABLE_HANDLES flag to export operations
+e2ba22f5c29a90d50dce79bcbb10b90f9d5bdb48 fat: add EXPORT_OP_STABLE_HANDLES flag to export operations
+860164374d69c37d848766cb31a785bce183e532 f2fs: add EXPORT_OP_STABLE_HANDLES flag to export operations
+430c7a817e521999d7f15db34d5ffdad7896569e nfsd: only allow filesystems that set EXPORT_OP_STABLE_HANDLES
 
-578d62a2e51614ea117ccf05fce6aaa6257dfd60 f42b8bf55e81d6ee9b52bf0957b6c5081f87b55a refs/heads/char-misc-testing
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmlqW5IbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+R7oQAM3+D0IuV99nYFZS8vMz
-EnVifbNGwi8JKLTEcidRd5PqXxUrXaYFzeCbkWp0yR01WwTpUlAWvi97n0ZujFWx
-nKQM5ESLQqXtp+kOItHiXmnjw5Hd5dF8MW+e+mL+K0eSbQLLo+rHuI0Wcs/vAuRJ
-J8bFqLMiccY+tSj9+1n4EiW3+gQJx2mqYQ1L8DVaQMnW09xuVI+01ARFSxLbkohA
-eXg5zwsHi2N+9PyQ3VfHrj3RQC/zkpDLZONGkn5r2CEaF9EWzLEmwnkUcwveiGiY
-P1/vGy0CRajAPAMpPlyFMKGi6IQCVFoHqKX8LrjAEr35LdppbtT9aHBLPcpVSPNs
-TnTlIahLaipylHbxR2uXZ/Ftv0mDter9y11gAXEBkAvALXJwEvIMHevVkUdkrWlL
-4ESwYtXRBlltwXZnDpL7afuSog6XhH9Pbp/P97XIqeIGx7ucYgwJRd88tYUdjeT8
-jOSRTQ4BpW/3cK03t2EsDouh8jHjwbCgaG+1tjDt/ryPYscucoK2YT0ubPy5CWsj
-ZGiJfkh6wuaLdbxLX4IcZLvDefeVov3OqfQcMweMyE0YjtkQVg9rH5wje5eS/rf9
-AVZaotoJlpYXGTDNkToed4mcLCTqay+KX4CATyym09e+EuHYCnneChv4uR4vXzAy
-MFB2dwHkVpKyXtpVkGCuyLUs
-=qevs
------END PGP SIGNATURE-----
-
---===============5627256519099932688==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-578d62a2e516-f42b8bf55e81.txt
-
-38a5a54f6d8560d349d76a3fb9bc51499a9d0cda kgdbts: mark kgdbts_option_setup() with __init to free init memory
-a2450bddb75f4c0da86ed02adbc9477e49edd311 eeprom_93cx6: fix struct member kernel-doc
-bd87458c163820ad8f8c65bb24a0e35f145b8ace xilinx_hwicap: fifo_icap.c: fix all kernel-doc warnings
-86b31a2c81817d09cb5cbea9457a9f294ed9bb7d test_list_sort: fix up const mismatch
-68a9459a5c4e8b978c3eb5d75be5446799e483de kunit: fix up const mis-match in many assert functions
-ed1613fc18834b5ec38d3534e96e4bc990289aa2 stm class: Kconfig: correct symbol name
-5f0bf80cc5e04d31eeb201683e0b477c24bd18e7 mmc: rtsx_pci: add quirk to disable MMC_CAP_AGGRESSIVE_PM for RTS525A
-eac85fbd0867c25ac517f58fae401d65c627edff mmc: rtsx: reset power state on suspend
-aced969e9bf3701dc75cfca57c78c031b7875b9d mmc: rtsx_pci_sdmmc: increase power-on settling delay to 5ms
-33212624f748a92c830c8493ad354030e189ae1a hyper-v: Mark inner union in hv_kvp_exchg_msg_value as packed
-f42b8bf55e81d6ee9b52bf0957b6c5081f87b55a virt: vbox: uapi: Mark inner unions in packed structs as packed
-
---===============5627256519099932688==--
+--===============3244491676623744815==--
