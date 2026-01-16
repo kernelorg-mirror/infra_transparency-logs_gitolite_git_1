@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/robh/linux
-Date: Fri, 16 Jan 2026 03:22:16 -0000
-Message-Id: <176853373603.2905860.11383393879815727625@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/qcom/linux
+Date: Fri, 16 Jan 2026 03:27:43 -0000
+Message-Id: <176853406356.2909900.11273173705522121541@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/robh/linux
-user: robh
+repo: pub/scm/linux/kernel/git/qcom/linux
+user: andersson
 changes:
-  - ref: refs/heads/for-next
-    old: 8cd2d74fde7a7c2c2b9b0caf28ed64ed812937e4
-    new: b89f3fb30c1c96333f6f5fbb0da2d7d10a365127
+  - ref: refs/heads/arm64-for-6.20
+    old: 0404b98c6bbca7a3b1e59a20d173fa149ac20194
+    new: d27267558fd25acb07d7ff28a7ff44eacf799eaf
     log: |
-         ccb16b0b0155f9e29648402770838e5933b84dfd dt-bindings: display: bridge: tc358867: mark port 0 and 1 configuration as valid
-         d52f946d74d5a384c978688898fae031f0c8f631 dt-bindings: display: google,goldfish-fb: Convert to DT schema
-         b89f3fb30c1c96333f6f5fbb0da2d7d10a365127 dt-bindings: Fix I2C bus node names in examples
+         d27267558fd25acb07d7ff28a7ff44eacf799eaf arm64: dts: qcom: lemans; Add EL2 overlay
          
