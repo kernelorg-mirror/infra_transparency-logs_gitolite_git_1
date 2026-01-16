@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8750763271849809684=="
+Content-Type: multipart/mixed; boundary="===============7586762942835549348=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/spdx
-Date: Fri, 16 Jan 2026 14:29:09 -0000
-Message-Id: <176857374900.3465399.9897159452425232666@gitolite.kernel.org>
+Date: Fri, 16 Jan 2026 14:29:12 -0000
+Message-Id: <176857375236.3465561.16245440724212582767@gitolite.kernel.org>
 
---===============8750763271849809684==
+--===============7586762942835549348==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,42 @@ repo: pub/scm/linux/kernel/git/gregkh/spdx
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
+  - ref: refs/heads/spdx-linus
     old: d358e5254674b70f34c847715ca509e46eb81e6f
     new: 0f61b1860cc3f52aef9036d7235ed1f017632193
     log: revlist-d358e5254674-0f61b1860cc3.txt
 
---===============8750763271849809684==
+--===============7586762942835549348==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1768573746 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1768573751 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/spdx.git
-nonce 1768573745-cc3f5d972aa09d5b06ac93f87e2f25db04a5cfed
+nonce 1768573751-9ca68dba1c8e801fb74b07fe8ca2d62855a49be7
 
-d358e5254674b70f34c847715ca509e46eb81e6f 0f61b1860cc3f52aef9036d7235ed1f017632193 refs/heads/main
+d358e5254674b70f34c847715ca509e46eb81e6f 0f61b1860cc3f52aef9036d7235ed1f017632193 refs/heads/spdx-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmlqSzIbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+bhQQAIplIbdEuvs9VwrtNERv
-lZmysqHyOBYiMJM60nXZgIz+M/iclULM/tBULQ/5vxk1lHAkKRSxvtJzV0fZnWYf
-frMnygjuRFSKMOOD/rMXXh4fOZmk80G53IrwuRX3tHThhxZ1mGVpwpewxb4b21CF
-dHiGStb/fk3tv/PqwMf0YjahLRgwHJkNtHtrB0pz2AVduRqlG1HtT9acPcptMM7S
-lD2FvUhf83FgpVc9/OvRLYmXm910jN/us4Gr8byn5kx633U20XKVP3bWRbivjo4v
-bBnE8fp3H9hyUkhcz6aV6DU5qYKe/MWm89+T9yBNtXSzJGXlxul2WaqYsYHdLYml
-Xfw1GH4ggdMjVPnnN17XDWFrJ64LbUtPYEPEc5zFvBlLcr2lFuY1VrXSkh3k1imL
-BeV8N+N9Bynv52hnoiqJB/gjRi++aX5ZTk0eI6r1y3epkUlFJjbf4M/qG/amIrQW
-lrmlbtXejg2Up+vK3L6DjsewmEXNh43awA/5CIYXu8fk3EwuNFeJA4ElIWoFNfge
-UUPIwba/QgYyawSWRWm23W0G7ZVlioI2wy9nd+Va1DPZBd2DYkILNzPiipSzIoMn
-JCdb4o5JkXaLektqspYT99YoQMlm3cxe7TYBrQjXpmwyCYXAJyQV+mtrCHq9j4o2
-1MAoNVjtmlDGEkbCYnE9/nwB
-=b6Oi
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmlqSzcbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+WaAP/3PkEcEa60zvNfmesIYK
+Taanfr1+IntUt78ZOj978gTmsx+ZeHeKXIE0Nfngu0Pm6+qZDDmVyK8XRnLM3HWJ
+uKBvEJ/cimGK+Z1MMo01ucglOzW8GzhUopcaosUNaIhYoo7YwHFoAhMt8AKMDdJP
+2WtBx0CLUlKMektfSUF5+YtSb+HJdkXmEGMMdqnrkKnZkM7syUt+5hZy79bvhK1B
+CurOhUbbBUjicLBjF2P7RSetAPcAJ8adXxDm7S+zbscc53gqaz3uADGH7XcE+ifm
+WZwlh/vMpneyTMyXcnF98X0xv0D8rE7bPqRQpx5LNzn1VHiUuKhH9gdwkBvdcFYF
+thf1cX+ia1cddPQ+vwj94ujU1lybSYOEvQTDyoaggr5PIE01sAM38kh4avPo7fTF
+vdeUN4gbYHxIonqY6WLO+Wis67TBSBTfHncO4znIYapTTe7nQ3MFrVdqBq10F/F6
+Om05p7u+W4Y99hGbMEuDbim6Drm7jaR/2fqB+w9nq4OJ4XYFE8i0NryjfEohJs6i
+sy2mO7IfE777RbDxcgDd7jZxOhAIxxIDsBV3QWaSFsZpGYntl2bRxVE+34L/E1Vw
+zrK7cGVO+21CAGik92cVQRCe+4iirKuoGq1z1tOjEKAURT63EaaVVpbnF4CMLzCA
+L5MMz+I3TsrZsI3eHTOrt7zE
+=c6vq
 -----END PGP SIGNATURE-----
 
---===============8750763271849809684==
+--===============7586762942835549348==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -1082,4 +1082,4 @@ fac4bdbacab5a9abe7e017069c640273c2a704e2 Merge tag 'sched-urgent-2026-01-11' of 
 7143203341dccbca809ba0a8e72239ea4652ace6 Merge tag 'libcrypto-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/ebiggers/linux
 0f61b1860cc3f52aef9036d7235ed1f017632193 Linux 6.19-rc5
 
---===============8750763271849809684==--
+--===============7586762942835549348==--
