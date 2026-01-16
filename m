@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0037909688548291738=="
+Content-Type: multipart/mixed; boundary="===============8983804214143054784=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Fri, 16 Jan 2026 10:17:01 -0000
-Message-Id: <176855862133.3250910.4686269032454594184@gitolite.kernel.org>
+Date: Fri, 16 Jan 2026 10:17:27 -0000
+Message-Id: <176855864786.3251298.9870221748416133312@gitolite.kernel.org>
 
---===============0037909688548291738==
+--===============8983804214143054784==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,15 +16,51 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: d4b9066d32b7426ce2fb359cbf04c4eee71b3d65
-    new: f2bb2e4ac423b334bd41d9a11b3044d4bcd8c869
-    log: revlist-d4b9066d32b7-f2bb2e4ac423.txt
+    old: f2bb2e4ac423b334bd41d9a11b3044d4bcd8c869
+    new: 5bc405776c8cf7c768273e94c8af2d44d8c9faed
+    log: revlist-f2bb2e4ac423-5bc405776c8c.txt
+  - ref: refs/heads/tip/urgent
+    old: dc4c9c7671521442fa5bee2d3ae73237e41f24f6
+    new: 7bbcd1dac67882c0f5e1fd015008ae40bcd77ac6
+    log: revlist-dc4c9c767152-7bbcd1dac678.txt
 
---===============0037909688548291738==
+--===============8983804214143054784==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d4b9066d32b7-f2bb2e4ac423.txt
+Content-Disposition: attachment; filename=revlist-f2bb2e4ac423-5bc405776c8c.txt
+
+b54556c0806c8ba9437d284c676a60c80a8cd30f Merge branch into tip/master: 'irq/urgent'
+3f007f15ee2d2c4f4dd76debea49c0f5687feaf1 Merge branch into tip/master: 'objtool/urgent'
+3a74b162391327ffe285dac88342451baf3eea90 Merge branch into tip/master: 'sched/urgent'
+ec875d4876ee5a9de8a1f4aad2a4043f9be600fc Merge branch into tip/master: 'timers/urgent'
+7bbcd1dac67882c0f5e1fd015008ae40bcd77ac6 Merge branch into tip/master: 'x86/urgent'
+a27beeefa8c3ff2f3b065a63762b133fc0a16d9b Merge branch into tip/master: 'irq/core'
+63585075942b8fddd47a6e55a4da042c73f4d477 Merge branch into tip/master: 'irq/drivers'
+ea85def2d073f9a3beb9dd5613dc1984608990b1 Merge branch into tip/master: 'irq/msi'
+96bc7c0e5385d2fc53d2a2f26e440962e9e9a694 Merge branch into tip/master: 'locking/core'
+fa3ac6272da3093650fd87e01afd267b6730555b Merge branch into tip/master: 'perf/core'
+e3ca09a03b947fbe8826ec1bc2d343f1a7e3251a Merge branch into tip/master: 'sched/core'
+2caa8ed481ced7182d9c99636ea20482a455fb82 Merge branch into tip/master: 'timers/core'
+bdbf9d2b14a8bf877e0fbfd244b800596e356ead Merge branch into tip/master: 'timers/vdso'
+bc2ccdc4b293b4d4a35307bde5f08743c9ac775b Merge branch into tip/master: 'x86/alternatives'
+0609b889090fccfba7ca7c6f3d86677701b84585 Merge branch into tip/master: 'x86/boot'
+fcc877ee38edb4f9538a2ff9a1d45bd24e54727e Merge branch into tip/master: 'x86/bugs'
+49e8d5f71c144803cb1f190285182fa04b9541fd Merge branch into tip/master: 'x86/cache'
+7da9d6789a2c6835cc251d7cc83b768bf52be6bb Merge branch into tip/master: 'x86/cleanups'
+1a70186403a438b80d5a6feccbbe76968202cf7a Merge branch into tip/master: 'x86/cpu'
+550b67271bb74ed5ccd2a8792c4d16452f2cb239 Merge branch into tip/master: 'x86/entry'
+3ae1da279bdc15e73b4c5e695813dda8f2702fb7 Merge branch into tip/master: 'x86/irq'
+18142fc912633ba74f8561bb85f8a16cf04afe0f Merge branch into tip/master: 'x86/microcode'
+e80c5d2dbd63775bf792d073a299fc53ebdbd0f4 Merge branch into tip/master: 'x86/misc'
+16b67bbe7eb8597e6930ae20c8f6239e0b9eedb3 Merge branch into tip/master: 'x86/paravirt'
+5bc405776c8cf7c768273e94c8af2d44d8c9faed Merge branch into tip/master: 'x86/sev'
+
+--===============8983804214143054784==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-dc4c9c767152-7bbcd1dac678.txt
 
 3d5221af9c7711b7aec8da1298c8fc393ef6183d xfrm: Fix inner mode lookup in tunnel mode GSO segmentation
 c196def07bbc6e8306d7a274433913444b0db20a xfrm: set ipv4 no_pmtu_disc flag only on output sa when direction is set
@@ -121,8 +157,18 @@ be55257fab181b93af38f8c4b1b3cb453a78d742 ftrace: Do not over-allocate ftrace mem
 bc08b6588037e8894bcdb940c3adbc4308387353 Merge tag 'efi-fixes-for-v6.19-2' of git://git.kernel.org/pub/scm/linux/kernel/git/efi/efi
 d5811e6297f3fd9020ac31f51fc317dfdb260cb0 NFS: Fix size read races in truncate, fallocate and copy offload
 603c05a1639f60e0c52c5fdd25cf5e0b44b9bd8e Merge tag 'nfs-for-6.19-2' of git://git.linux-nfs.org/projects/trondmy/linux-nfs
+375410bb9a403009a44af3cc7f087090da076e09 sched/deadline: Ensure get_prio_dl() is up-to-date
+4de9ff76067b40c3660df73efaea57389e62ea7a sched/deadline: Avoid double update_rq_clock()
+49041e87f9cd3e6be8926b80b3fee71e89323e1c sched: Fold rq-pin swizzle into __balance_callbacks()
+53439363c0a111f11625982b69c88ee2ce8608ec sched: Audit MOVE vs balance_callbacks
+e008ec6c7904ed99d3b2cb634b6545b008a99288 sched: Deadline has dynamic priority
+627cc25f84466d557d86e5dc67b43a4eea604c80 sched/deadline: Use ENQUEUE_MOVE to allow priority change
 88e490913f079f0c0f9535e844077f9d31c369aa Merge tag 'ftrace-v6.19-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
 983d014aafb14ee5e4915465bf8948e8f3a723b5 kernel: modules: Add SPDX license identifier to kmod.c
-f2bb2e4ac423b334bd41d9a11b3044d4bcd8c869 Merge branch 'linus'
+b54556c0806c8ba9437d284c676a60c80a8cd30f Merge branch into tip/master: 'irq/urgent'
+3f007f15ee2d2c4f4dd76debea49c0f5687feaf1 Merge branch into tip/master: 'objtool/urgent'
+3a74b162391327ffe285dac88342451baf3eea90 Merge branch into tip/master: 'sched/urgent'
+ec875d4876ee5a9de8a1f4aad2a4043f9be600fc Merge branch into tip/master: 'timers/urgent'
+7bbcd1dac67882c0f5e1fd015008ae40bcd77ac6 Merge branch into tip/master: 'x86/urgent'
 
---===============0037909688548291738==--
+--===============8983804214143054784==--
