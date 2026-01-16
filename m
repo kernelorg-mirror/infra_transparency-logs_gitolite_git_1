@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2640505027359630809=="
+Content-Type: multipart/mixed; boundary="===============8555675146851698235=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/viro/vfs
-Date: Fri, 16 Jan 2026 17:52:25 -0000
-Message-Id: <176858594504.3637755.13374366325107197649@gitolite.kernel.org>
+Date: Fri, 16 Jan 2026 17:52:54 -0000
+Message-Id: <176858597453.3638105.12026218278901221647@gitolite.kernel.org>
 
---===============2640505027359630809==
+--===============8555675146851698235==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/viro/vfs
 user: viro
 changes:
-  - ref: refs/heads/work.filename
+  - ref: refs/heads/for-next
     old: 8311223d18bbb3867585d1ca1cc624a47466266d
     new: 0787a93baa1aab9fd0cb8500105d11d3d3a58f7a
     log: revlist-8311223d18bb-0787a93baa1a.txt
 
---===============2640505027359630809==
+--===============8555675146851698235==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -57,4 +57,4 @@ abb0434496c4299223f69bcb07174dee2e764bec mqueue: switch to CLASS(filename)
 9b323d2f474071cc6c627f73af301ba6f5e2b83f alpha: switch osf_mount() to strndup_user()
 0787a93baa1aab9fd0cb8500105d11d3d3a58f7a sysfs(2): fs_index() argument is _not_ a pathname
 
---===============2640505027359630809==--
+--===============8555675146851698235==--
