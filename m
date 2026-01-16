@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
-Date: Fri, 16 Jan 2026 09:30:07 -0000
-Message-Id: <176855580780.3196138.1168343177978756740@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Fri, 16 Jan 2026 09:35:20 -0000
+Message-Id: <176855612033.3200299.17264892314879695744@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vfs/vfs
-user: brauner
+repo: pub/scm/linux/kernel/git/tip/tip
+user: peterz
 changes:
-  - ref: refs/heads/work.dm-verity.keyring
+  - ref: refs/tags/perf-core-kvm-mediated-pmu
     old: 0000000000000000000000000000000000000000
-    new: f5fde25234fd2d07ebbbdf971f7421d8a280eceb
+    new: 01122b89361e565b3c88b9fbebe92dc5c7420cb7
