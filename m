@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
-Date: Fri, 16 Jan 2026 13:24:37 -0000
-Message-Id: <176856987713.3408960.6323125171799034277@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Fri, 16 Jan 2026 13:24:42 -0000
+Message-Id: <176856988225.3409145.13940337105999607766@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pci/pci
-user: mani
+repo: pub/scm/linux/kernel/git/broonie/misc
+user: broonie
 changes:
-  - ref: refs/heads/dt-bindings
-    old: d782e6e7aa798a2c28f30f984ea6dcdb63f51674
-    new: e74887035fba99ead63235740908debeb1326dad
-    log: |
-         e74887035fba99ead63235740908debeb1326dad dt-bindings: PCI: qcom: Document the Glymur PCIe Controller
-         
+  - ref: refs/tags/sent/20260115-spi-rockchip-threaded-irq-b1641d0d3919-v1
+    old: 0000000000000000000000000000000000000000
+    new: ed30d6265f8a451557c3650f635d4d68801190ff
