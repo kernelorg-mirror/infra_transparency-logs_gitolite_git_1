@@ -1,56 +1,53 @@
-Content-Type: multipart/mixed; boundary="===============9002016048807533467=="
+Content-Type: multipart/mixed; boundary="===============4851724047006474142=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Fri, 16 Jan 2026 14:25:52 -0000
-Message-Id: <176857355297.3463392.12487910220489803340@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/spdx
+Date: Fri, 16 Jan 2026 14:27:13 -0000
+Message-Id: <176857363335.3464274.17718479401813873177@gitolite.kernel.org>
 
---===============9002016048807533467==
+--===============4851724047006474142==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/char-misc
+repo: pub/scm/linux/kernel/git/gregkh/spdx
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/char-misc-testing
-    old: b0e930a6360ff5f81045146f0a8fcac4f7897eda
-    new: 68aabb29a5469e4b7358e70e64a7fac433e27f06
-    log: |
-         68aabb29a5469e4b7358e70e64a7fac433e27f06 rust: redefine `bindings::compat_ptr_ioctl` in Rust
-         
+  - ref: refs/tags/spdx-6.19-rc1
+    old: ada2512c65c7a385443fd736a4e373a79a484361
+    new: 0000000000000000000000000000000000000000
 
---===============9002016048807533467==
+--===============4851724047006474142==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1768573550 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1768573549-7dd32ced83e75802f3e2a6d9b45ae9eede5484e8
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1768573632 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/spdx.git
+nonce 1768573632-e3777c28fc66a9cdc74fcd4952b98a4bd8fe4e55
 
-b0e930a6360ff5f81045146f0a8fcac4f7897eda 68aabb29a5469e4b7358e70e64a7fac433e27f06 refs/heads/char-misc-testing
+ada2512c65c7a385443fd736a4e373a79a484361 0000000000000000000000000000000000000000 refs/tags/spdx-6.19-rc1
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmlqSm4bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+kdgP/0Smbr3utEv5JA4BGGPe
-4y2wDopC4Wl6JpsBOrGm73Ykdt6kcmeW6LCyCcoN9LKuLMjwaR4VAjK600go/FG/
-QWr0xnHFARlMFVojEOVpYFHkyRqcwVB+KGk31dFn/XRvlT0IYSTfICBlf19Lz3CA
-CaWc9HgpSxNPkrDZtKk+xBLUOFbZlvOS0UvWSQTBl0Nnms9soABtpXyiLU1lM6fl
-m2GYLt109VYwmzJtVZmuummPfzXoYpuMLO9jotf8D3wdKNY67Y56IBygia7l5lMn
-BW0vvNTla+Y6VAYo3qHbAsPfUQMt5faQnh6KOIWn8L3fd3Aud2NX2gq3dOCF+9JZ
-F8uNceJ5ENEH0lh5MvhmyOkmact1ni5sXDkIkje0ITyMjAOtUsz8QCz79uPOB+BG
-bh7LwEmhuL+b4cMHh1zZej3Mar3y+MggdOLLvyLImNRCpRT9xpiXadcT8jBOJjP3
-lk0dbb23bKlI3TCAZBTF6t1E/jv2KLzVeycYR4EtkuU+ndWX16YgnBOwGCKUHbCG
-a4wQSscyiuR/c7lh/+7QTN67nSSJcySvEB9QGWu9JyjyOOtHcEON/lt5f/uYoUah
-6BVG6d33ATUyEf2nIiwtdhOO3ebX8R+3a5PFX/9C8Bp4TouRK1dBaNOim8KqL8LA
-YXIx7BUaWWXAAXffnBMuMd1y
-=xCV9
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmlqSsEbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+bLIQANcZX3jk9RA+HvwTTGsg
+fznlcDfFy13rXn+WDCI2b53U4YFoNmz7aSzvgVEOJlo/8dsWCsVKG9QZQLtqBMm0
+u9xvqljl06Ai0/TqTwiZAQ6PijSQ9P0MO09DGsgfJ8EjgJdoMe0ci8PW3A8+dqxb
+gttu8u1Tq/L5VU3HKmStthC6eTZAfKImp/mDcjPW3h/kaMhqTouLUrM+fI8FS0k6
+VnbInf7ARAtr5U27jpsXc5fP1lhZX2EULhWt2BSvhZSF4Cyi6uHGiAO+foOzavaF
+TsSR6oaVIHB9N1E//s5T2neJNKCPAwFX+4fHpKYG+5ZUpRzOaTLu3iUBDjwJvoOi
+2VeeRZ35ebQdUiIq4EIuRVsrirCJ3n+iIEn4ybtjLq7HiY67d4E895yDNxtfKzIT
+lFTS90Ic1k7CiTNEqB1oow0Cz7eN+sXz0VNUqkaGSlJqW2PiY9cPNjBs2WDVIJxI
+BOG2hHn3G+7Q3zJ8eBkzN2zzxPlzlTwM/irLqVVlDQpJQSDSpK6NoHeVC3w+1cak
+NoHvKTViZyDXvnmSvEQ3bpon41b83o2onUJiClJkc1Y0UOxm/ozEjo/kwZInEMHG
+jURLSOf+c02YHJ5g6HdYzIqCmezmkX2l5qGNLjuFkDFHKfYLmHq70LNnlX1BdIWa
+0CpzE4BqhBX91xnStq1cJxLw
+=H5bc
 -----END PGP SIGNATURE-----
 
---===============9002016048807533467==--
+--===============4851724047006474142==--
