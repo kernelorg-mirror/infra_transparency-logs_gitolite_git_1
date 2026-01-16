@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/utils/kernel/kmod/kmod
-Date: Fri, 16 Jan 2026 07:18:26 -0000
-Message-Id: <176854790686.3091322.6997013054165005439@gitolite.kernel.org>
+Date: Fri, 16 Jan 2026 07:32:18 -0000
+Message-Id: <176854873879.3102438.11732709039821969744@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,9 @@ repo: pub/scm/utils/kernel/kmod/kmod
 user: demarchi
 changes:
   - ref: refs/heads/master
-    old: a403590f6e9f25216480abdb7e038257d706f17f
-    new: 23bb264d0b3b1f966df879285bbc0e66b7b449b7
+    old: 23bb264d0b3b1f966df879285bbc0e66b7b449b7
+    new: ca9a7f4c5caa228d9af889ecad7dcbe41bd43f2d
     log: |
-         23bb264d0b3b1f966df879285bbc0e66b7b449b7 ci: Fix alpine setup
+         dad351539ae06bc6a275fe90fd03c7416d6139f0 ci: bump the all-actions group across 1 directory with 6 updates
+         ca9a7f4c5caa228d9af889ecad7dcbe41bd43f2d build: Fix license specification
          
