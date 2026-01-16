@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3969757976380792520=="
+Content-Type: multipart/mixed; boundary="===============1749686666695747729=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Fri, 16 Jan 2026 17:20:46 -0000
-Message-Id: <176858404673.3610690.16372265508471687435@gitolite.kernel.org>
+Date: Fri, 16 Jan 2026 17:20:49 -0000
+Message-Id: <176858404968.3610905.6613791107830303923@gitolite.kernel.org>
 
---===============3969757976380792520==
+--===============1749686666695747729==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/10GbE
+  - ref: refs/heads/40GbE
     old: 851822aec1a3359ecb7a4767d7f4a32336043c2f
     new: a74c7a58ca2ca1cbb93f4c01421cf24b8642b962
     log: revlist-851822aec1a3-a74c7a58ca2c.txt
 
---===============3969757976380792520==
+--===============1749686666695747729==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -285,4 +285,4 @@ c84fcb79e5dbde0b8d5aeeaf04282d2149aebcf6 bonding: limit BOND_MODE_8023AD to Ethe
 2c68d5eacc1e0f25b083bf3c3c425b0f1b45c18c Merge branch '100GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/net-queue
 a74c7a58ca2ca1cbb93f4c01421cf24b8642b962 net: freescale: ucc_geth: Return early when TBI PHY can't be found
 
---===============3969757976380792520==--
+--===============1749686666695747729==--
