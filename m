@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
-Date: Fri, 16 Jan 2026 10:50:51 -0000
-Message-Id: <176856065191.3279746.18346897164111164486@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/printk/linux
+Date: Fri, 16 Jan 2026 10:52:47 -0000
+Message-Id: <176856076777.3280649.7377282139569965184@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vfs/vfs
-user: brauner
+repo: pub/scm/linux/kernel/git/printk/linux
+user: pmladek
 changes:
-  - ref: refs/heads/vfs-7.0.namespace
-    old: 3665b05e66b7a21226272cdda92dcd349a91914f
-    new: e64f65a7ce5dd6681e983b9b10ec43203e4ca919
+  - ref: refs/heads/for-linus
+    old: 4d38b88fd17e9989429e65420bf3c33ca53b2085
+    new: 9bd18e1262c0fec6d76ffe6e2eae2b5f6cc08e3e
     log: |
-         e64f65a7ce5dd6681e983b9b10ec43203e4ca919 FOLDME
+         9bd18e1262c0fec6d76ffe6e2eae2b5f6cc08e3e printk/nbcon: Restore IRQ in atomic flush after each emitted record
          
