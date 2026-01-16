@@ -1,20 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/driver-core/driver-core
-Date: Fri, 16 Jan 2026 00:20:40 -0000
-Message-Id: <176852284029.2752827.1012982362119701801@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/dakr/linux
+Date: Fri, 16 Jan 2026 00:21:19 -0000
+Message-Id: <176852287981.2753585.12240932491845973383@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/driver-core/driver-core
+repo: pub/scm/linux/kernel/git/dakr/linux
 user: dakr
 changes:
-  - ref: refs/heads/driver-core-linus
-    old: 5d9c4c272ba06055d19e05c2a02e16e58acc8943
+  - ref: refs/heads/driver/post_unbind
+    old: 588faed8a7a34982f070a869ba94f635aa316a63
     new: a995fe1a3aa78b7d06cc1cc7b6b8436c5e93b07f
     log: |
+         33d19f621641de1b6ec6fe1bb2ac68a7d2c61f6a rust: io: always inline functions using build_assert with arguments
+         5d9c4c272ba06055d19e05c2a02e16e58acc8943 rust: irq: always inline functions using build_assert with arguments
          4181aceb4af414bd6d2ce5eb9a22637bbb4f5f8c rust: i2c: do not drop device private data on shutdown()
          5f4476e98387618ce22bb93fb5c11142827458ec rust: auxiliary: add Driver::unbind() callback
          0af1a9e4629a85964a7eebe58ebd2ca37c8c21fc rust: driver: introduce a DriverLayout trait
