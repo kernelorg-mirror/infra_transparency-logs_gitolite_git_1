@@ -1,21 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Fri, 16 Jan 2026 22:08:33 -0000
-Message-Id: <176860131379.3847993.16717933662411835850@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
+Date: Fri, 16 Jan 2026 22:08:47 -0000
+Message-Id: <176860132762.3848288.4643795333518523946@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/next-queue
+repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
   - ref: refs/heads/dev-queue
-    old: 2c5702ca31bd2d274e0d29cedc081b1aa1869dd1
-    new: e046e2303f4abefe4e0cfa49942c61ef23f4c183
+    old: 1d87491db6f1fd294102c299540ed6eac1c54eba
+    new: d41f8acf7a86de68d8e1d0d5ab288ca5a003ae29
     log: |
-         7092ef5c1168be63baf4525f0fc62a35b72452a5 idpf: Fix flow rule delete failure due to invalid validation
-         8a20ce489afb0f9d3f06be5a8651b9a66d2f64a0 ice: reintroduce retry mechanism for indirect AQ
-         e046e2303f4abefe4e0cfa49942c61ef23f4c183 ice: fix retry for AQ command 0x06EE
+         d5f1335ef188ae669b15c1702669eb3883a9cfef idpf: Fix flow rule delete failure due to invalid validation
+         6ae369a6c21164687562c0d11ceda1a0fc38b9f8 ice: reintroduce retry mechanism for indirect AQ
+         d41f8acf7a86de68d8e1d0d5ab288ca5a003ae29 ice: fix retry for AQ command 0x06EE
          
