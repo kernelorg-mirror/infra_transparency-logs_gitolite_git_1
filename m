@@ -1,43 +1,25 @@
-Content-Type: multipart/mixed; boundary="===============1136272789114967745=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
-Date: Fri, 16 Jan 2026 17:45:11 -0000
-Message-Id: <176858551105.3632507.4761536941667657431@gitolite.kernel.org>
-
---===============1136272789114967745==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/firmware/linux-firmware
+Date: Fri, 16 Jan 2026 17:50:12 -0000
+Message-Id: <176858581229.3636525.707976099586198945@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jic23/iio
-user: jic23
+repo: pub/scm/linux/kernel/git/firmware/linux-firmware
+user: jwboyer
 changes:
-  - ref: refs/heads/testing
-    old: b82f3047dae4aba38cb26c55c28444db4d77f521
-    new: 0b6a86a049f558bf2496c91b1259e1dc34aed938
-    log: revlist-b82f3047dae4-0b6a86a049f5.txt
-
---===============1136272789114967745==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b82f3047dae4-0b6a86a049f5.txt
-
-1e0ac56c92e26115cbc8cfc639843725cb3a7d6a iio: pressure: mprls0025pa: fix spi_transfer struct initialisation
-583fa86ca581595b1f534a8de6d49ba8b3bf7196 iio: pressure: mprls0025pa: fix SPI CS delay violation
-fff3f1a7d805684e4701a70bfaeba39622b59dbc iio: pressure: mprls0025pa: fix interrupt flag
-8a228e036926f7e57421d750c3724e63f11b808a iio: pressure: mprls0025pa: fix scan_type struct
-d63403d4e31ae537fefc5c0ee9d90f29b4fc532b iio: pressure: mprls0025pa: fix pressure calculation
-448889d3abbba5a6444e21fe3bd64e115d147020 iio: pressure: mprls0025pa: cleanup includes
-77261502ea5c87498f10bbb763b5b8a64fb5d7e5 iio: pressure: mprls0025pa: remove redundant declarations
-7071f9f06210c6c828a5db205fa18dfd187ba529 iio: pressure: mprls0025pa: rename buffer variable
-cf322f806d83b3e221b2b72550c4132b87fa15d9 iio: pressure: mprls0025pa: introduce tx buffer
-4edab7b08783f06679de0d24318d92ffc1dfd537 iio: pressure: mprls0025pa: move memset to core
-84e15e1a6e103e5b57852d90ac686d7f0d0d8b0a iio: pressure: mprls0025pa: stricter checks for the status byte
-500b36ee448c0e533acaa186383f0311bbb3dfa5 iio: pressure: mprls0025pa: change measurement sequence
-0b6a86a049f558bf2496c91b1259e1dc34aed938 iio: pressure: mprls0025pa: add copyright line
-
---===============1136272789114967745==--
+  - ref: refs/heads/main
+    old: 2b93c4fc35643cacddec5cb7cfa2e163f5e77fab
+    new: f5aa67ce19db83fc99159e5d7e56a3e8bda3a146
+    log: |
+         40a812ce58805e59034536a85d7494550291c50a linux-firmware: Update firmware file for Intel BlazarU core
+         9bf06b2bdf74e798f3b3ee0aca25c397a75a6444 linux-firmware: Update firmware file for Intel BlazarU-HrPGfP core
+         99a2479f94e13da021288b016ec55243ac31fae5 linux-firmware: Update firmware file for Intel BlazarI core
+         6be3bd6cc295312600e3046637817035110844c7 linux-firmware: Update firmware file for Intel BlazarIGfP core
+         f401a31ab5ba031a4d228426e2c4d96913574e3f linux-firmware: Update firmware file for Intel Scorpius core
+         9e79ce04180f60edb300feda8cbe4314c17d49de linux-firmware: Add firmware file for Intel ScorpiusGfp2 core
+         f5aa67ce19db83fc99159e5d7e56a3e8bda3a146 Merge branch 'main' into 'main'
+         
