@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3607128906361283891=="
+Content-Type: multipart/mixed; boundary="===============6263863739929383608=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Fri, 16 Jan 2026 12:48:00 -0000
-Message-Id: <176856768097.3376711.10666387550448991006@gitolite.kernel.org>
+Date: Fri, 16 Jan 2026 12:48:51 -0000
+Message-Id: <176856773193.3377235.6568068948206023840@gitolite.kernel.org>
 
---===============3607128906361283891==
+--===============6263863739929383608==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,41 +17,41 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/usb-testing
-    old: cea2a1257a3b5ea3e769a445b34af13e6aa5a123
-    new: 9accc68b1cf0a2b220f51d53641128bb32598070
+    old: 9accc68b1cf0a2b220f51d53641128bb32598070
+    new: fa3bb5011f33cccd246072954e64d64483d0d774
     log: |
-         abdd1eef04f0cb3b1707cd1fa243d574d5e07024 usb: dwc3: Remove of dep->regs
-         9accc68b1cf0a2b220f51d53641128bb32598070 usb: dwc3: Add dwc pointer to dwc3_readl/writel
+         00fcc9c86a134c488fd857b5460a7925228272c1 dt-bindings: usb: Add binding for WCH CH334/CH335 hub controller
+         fa3bb5011f33cccd246072954e64d64483d0d774 usb: misc: onboard_dev: Add WCH CH334 USB2.0 Hub (1a86:8091)
          
 
---===============3607128906361283891==
+--===============6263863739929383608==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1768567676 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1768567729 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1768567676-7c9b9913e1a1d17b5c3cf16dec0a819f30f2b1ab
+nonce 1768567728-6fe52fd72193f53eeee9c02c68c349854b14bd47
 
-cea2a1257a3b5ea3e769a445b34af13e6aa5a123 9accc68b1cf0a2b220f51d53641128bb32598070 refs/heads/usb-testing
+9accc68b1cf0a2b220f51d53641128bb32598070 fa3bb5011f33cccd246072954e64d64483d0d774 refs/heads/usb-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmlqM3wbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+kn4QALBnLDxipe9VVZLlynfm
-5ueeOfgBymeAn285arYss9Q7hKo/Q/m9I/PGcpnJUde7nrxnO231x+BzEnWcQvOd
-NVDXVwi2AvHkX8uA+CyO2vbBIjZ5SbKW7N5RGY2kECKoPiWDI+1u+VmnjrGg4IC0
-davlm8b5vTolCbVlsMVkIY7gWsXO5OL9pOmoZ8exfvCi2Ka7FL5pZJnc0y/hqTwb
-XmAw7Q4bFqh4Ne+OXCwTnnCZxEQ7tiIuR81wWi3pzU7gxtk2XPd1Eba2pwwuYYKf
-xz+FAIcrOF9iM61JiqBneC6LXWjJAhQl59h8ZlJRYFyjCBhETNfKc0+TADlC8fur
-CyoRpjRBTnaO5P1Minnc0H/hPWLVOo5ebE8wlbi8g0oW331o4T/fu1BFHmok0GN4
-hSIIv1ypqLsRb9VCWfDhyrU/nlVtuamjP0kY3ypSeSqFFRzlzw8chR72a8jQDotP
-EvfdVdZmE9aMVig71IGPi+Sqkqbn2AKyUox7x05TJzlUEOTr6jvT+Y78yt0O3luL
-hjPp+nfkrX87yQnWcuj4dS6kEk+tOaiEfQkdQXLgL88o/N3iZm7HNO3vQdKbqjBm
-c/buuuv2Zm4wUZ2M87SBexZ0Vi1M2Dx3mb3wal+DCt6PWJH8qRMhBssFWx5+SUMN
-edr57FXcuMjL5gBVbO2IkNhU
-=yKJu
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmlqM7EbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+4owQALDW+yjW6e/FIBQ/ZvOw
+ah1Lf8P0ocV5CpR5zTpvv95f6VqLWaZhoiubq0f6HrhO01Br8Nz/CzNrBWGCYJAB
+ymSytYVziH4e3AMgAXVYu/q3OJ1Oi8+CH47BJaSbCkYfvhGwOW69vkaA9lrlAc1P
+IUItJtLxxXDY7Nx9okgJQxoIKOvmCbzil3Mqi5shhEgYVZ9xSJwmiJ0pgNs3lna/
+E7ycAz1e5m6RFvEkkr2BA2XZpvAJhyRn4Q/KkgA3kco+l5jjkvFxN6U0XMVMlRLN
+5ERIMni3dpMCh+TcItPdpkWo33pHz7QThq5uzr9rD9Pp7eF37x3bxK9aEyYfEKV7
+TfqxLpN5ajlIQD2B4ia+TvBNc2IJ5cJl81hGT00sh7wZUjpd5AWapfDv+eYQcV3R
+2fa6rIYKrIY80V26r206xfqrA7Jmox7uaeesoRNoIuLMttWdiJIHOKMilJue+ic2
+UhuZeJQRVId7fkv62b/GgffzAj2uHGQAcbyJkb6DfHwXfDCEloY2/L7SFF0gH2pU
+MVd+4fyF1DjUGgOPxGxGdDnxLttD4dhb2fPzlp2uNkchIg3lElgpMp9XPUnWdnMb
+uYPfb83CH7P8B7atWKXH8hZVQzFPBpwxk7qp6IAGycbHxdRxDyUA7eUdwDZOMZ9o
+fgxc4UsDsoVl3BRInw9kUabs
+=0Cgn
 -----END PGP SIGNATURE-----
 
---===============3607128906361283891==--
+--===============6263863739929383608==--
