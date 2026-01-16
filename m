@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Fri, 16 Jan 2026 03:56:22 -0000
-Message-Id: <176853578281.2936366.9065055972175933878@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Fri, 16 Jan 2026 03:56:42 -0000
+Message-Id: <176853580205.2936690.12735293575460596214@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
+repo: pub/scm/linux/kernel/git/netdev/net
 user: kuba
 changes:
   - ref: refs/heads/main
-    old: 48b0126da665ea7628ed475086e1f6f75f1e4638
-    new: dc634118aaa09a539163fce8f19db67b8ec29f92
+    old: 220d89df1da6ed95ac74883a72a5fb43abf2a586
+    new: c84fcb79e5dbde0b8d5aeeaf04282d2149aebcf6
     log: |
-         dc634118aaa09a539163fce8f19db67b8ec29f92 bnxt_en: Fix build break on non-x86 platforms
+         c84fcb79e5dbde0b8d5aeeaf04282d2149aebcf6 bonding: limit BOND_MODE_8023AD to Ethernet devices
          
