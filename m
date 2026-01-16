@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6685920876491952617=="
+Content-Type: multipart/mixed; boundary="===============4583754986589857506=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
-Date: Fri, 16 Jan 2026 01:26:09 -0000
-Message-Id: <176852676901.2815081.8333073652852700018@gitolite.kernel.org>
+Date: Fri, 16 Jan 2026 01:26:17 -0000
+Message-Id: <176852677739.2815355.5694064362637669750@gitolite.kernel.org>
 
---===============6685920876491952617==
+--===============4583754986589857506==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ath/ath
 user: jjohnson
 changes:
-  - ref: refs/heads/ath-next
-    old: 24a57985670e9dac5547e5b7731bf8e7b03d5be8
+  - ref: refs/heads/pending
+    old: d2060ef8cd1e3c57eb2793d6a35efd06cb6409a0
     new: d8e1f4a193101a72235416f189b01131a57e26e9
-    log: revlist-24a57985670e-d8e1f4a19310.txt
+    log: revlist-d2060ef8cd1e-d8e1f4a19310.txt
 
---===============6685920876491952617==
+--===============4583754986589857506==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-24a57985670e-d8e1f4a19310.txt
+Content-Disposition: attachment; filename=revlist-d2060ef8cd1e-d8e1f4a19310.txt
 
 2125381d60c572684cc4ca61a2b1cf44c7eab059 dt-bindings: net: wireless: ath11k: Combine two if:then: clauses
 b1e542b6f0775d35bf546f3de33644b4f761fc3c wifi: ath5k: debug.h: fix enum ath5k_debug_level kernel-doc
@@ -64,4 +64,4 @@ d6c5d412f60007e23bebc4eba1de2530a7651962 wifi: ath12k: send peer meta data versi
 853deed04be384fde9138e0442630b5bddf2e418 wifi: ath12k: fix PCIE_LOCAL_REG_QRTR_NODE_ID definition for QCC2072
 d8e1f4a193101a72235416f189b01131a57e26e9 wifi: ath12k: enable QCC2072 support
 
---===============6685920876491952617==--
+--===============4583754986589857506==--
