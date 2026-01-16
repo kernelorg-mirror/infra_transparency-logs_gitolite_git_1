@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ardb/linux
-Date: Fri, 16 Jan 2026 09:04:12 -0000
-Message-Id: <176855425255.3173540.2352375115703423831@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/andi.shyti/linux
+Date: Fri, 16 Jan 2026 09:04:16 -0000
+Message-Id: <176855425605.3173677.15807006018652140133@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ardb/linux
-user: ardb
+repo: pub/scm/linux/kernel/git/andi.shyti/linux
+user: andi.shyti
 changes:
-  - ref: refs/heads/simplify-kallsyms-v2
-    old: dc85254e22c3ca4db6f29584d365376dbb72b944
-    new: aa9b7b91125056ddcc9f795767575a9125b64386
+  - ref: refs/heads/i2c/i2c-host
+    old: f6551f7861aca09cb2fdf675d6bb9ca2ffa9038a
+    new: 518edab3ad4f61204af788b3dcf9ed4087cdc275
     log: |
-         373711ac978667c538395b6a55cef449995130db mips: Add support for PC32 relocations in vmlinux
-         aa9b7b91125056ddcc9f795767575a9125b64386 kallsyms: Get rid of kallsyms relative base
+         518edab3ad4f61204af788b3dcf9ed4087cdc275 i2c: designware: Replace magic numbers with named constants
          
