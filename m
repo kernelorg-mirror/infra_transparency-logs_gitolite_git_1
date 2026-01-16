@@ -1,25 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
-Date: Fri, 16 Jan 2026 12:21:14 -0000
-Message-Id: <176856607468.3356163.11486633944646878039@gitolite.kernel.org>
+Subject: post-receive: pub/scm/devel/pahole/pahole
+Date: Fri, 16 Jan 2026 12:25:23 -0000
+Message-Id: <176856632306.3359986.9566278206121717889@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tiwai/sound
-user: tiwai
+repo: pub/scm/devel/pahole/pahole
+user: almagui
 changes:
-  - ref: refs/tags/v6.19-rc2
-    old: 0000000000000000000000000000000000000000
-    new: 2408853dde584f01950a0f976b743739cce30eca
-  - ref: refs/tags/v6.19-rc3
-    old: 0000000000000000000000000000000000000000
-    new: 82791741762a870f5f2ede9f909301770f66f867
-  - ref: refs/tags/v6.19-rc4
-    old: 0000000000000000000000000000000000000000
-    new: f10c325a345fef0a688a2bcdfab1540d1c924148
-  - ref: refs/tags/v6.19-rc5
-    old: 0000000000000000000000000000000000000000
-    new: d0e305301e82474223bf26185e86e7dc2eb85350
+  - ref: refs/heads/tmp.master
+    old: d1dda58ffac121b10a87d2738f3b931847e29acb
+    new: b30d6f3fa152be08e8ee9b2a81e971138b5ba62f
+    log: |
+         b30d6f3fa152be08e8ee9b2a81e971138b5ba62f btf_encoder: Fix a verbose output issue
+         
