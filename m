@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/damon-hack
-Date: Fri, 16 Jan 2026 16:17:08 -0000
-Message-Id: <176858022897.3559279.6789527769904228095@gitolite.kernel.org>
+Date: Fri, 16 Jan 2026 16:17:58 -0000
+Message-Id: <176858027842.3559830.11419181271806363191@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/sj/damon-hack
 user: sj
 changes:
   - ref: refs/heads/master
-    old: 18175f630d38ec3ec9783be8a81d5543167c9f9d
-    new: f38782a81c5cbae28bf6e776b64755ae1a26c031
+    old: f38782a81c5cbae28bf6e776b64755ae1a26c031
+    new: 8f7c35293375b6e0d03332462033598aa1c460af
     log: |
-         f38782a81c5cbae28bf6e776b64755ae1a26c031 patches/next: rebase to latest mm-new
+         8f7c35293375b6e0d03332462033598aa1c460af todo: update status of wip items
          
