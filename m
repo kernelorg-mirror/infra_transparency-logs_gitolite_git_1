@@ -1,93 +1,21 @@
-Content-Type: multipart/mixed; boundary="===============8794193775054049206=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/spdx
-Date: Fri, 16 Jan 2026 14:29:21 -0000
-Message-Id: <176857376123.3465813.5449848627585840636@gitolite.kernel.org>
-
---===============8794193775054049206==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
+Date: Fri, 16 Jan 2026 14:31:32 -0000
+Message-Id: <176857389261.3469203.15464974666562731352@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/spdx
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/vfs/vfs
+user: brauner
 changes:
-  - ref: refs/tags/v6.18
-    old: 0000000000000000000000000000000000000000
-    new: f7b88edb52c8dd01b7e576390d658ae6eef0e134
-  - ref: refs/tags/v6.18-rc3
-    old: 0000000000000000000000000000000000000000
-    new: 0edde068997bc3c41f122c9941143a39d604a0dc
-  - ref: refs/tags/v6.18-rc4
-    old: 0000000000000000000000000000000000000000
-    new: 2f112b1c25da9f5346c2261ed35c5b1e0b906471
-  - ref: refs/tags/v6.18-rc5
-    old: 0000000000000000000000000000000000000000
-    new: 62ad2b01b0c7dba966c6843b77e99b06a3b12d27
-  - ref: refs/tags/v6.18-rc6
-    old: 0000000000000000000000000000000000000000
-    new: ec4b6a97aa20d97494d3431434470d91aacb9c6e
-  - ref: refs/tags/v6.18-rc7
-    old: 0000000000000000000000000000000000000000
-    new: c4508223b80908ac095e50f731e68c4387951f0f
-  - ref: refs/tags/v6.19-rc1
-    old: 0000000000000000000000000000000000000000
-    new: 3e7f562e20ee87a25e104ef4fce557d39d62fa85
-  - ref: refs/tags/v6.19-rc2
-    old: 0000000000000000000000000000000000000000
-    new: 2408853dde584f01950a0f976b743739cce30eca
-  - ref: refs/tags/v6.19-rc3
-    old: 0000000000000000000000000000000000000000
-    new: 82791741762a870f5f2ede9f909301770f66f867
-  - ref: refs/tags/v6.19-rc4
-    old: 0000000000000000000000000000000000000000
-    new: f10c325a345fef0a688a2bcdfab1540d1c924148
-  - ref: refs/tags/v6.19-rc5
-    old: 0000000000000000000000000000000000000000
-    new: d0e305301e82474223bf26185e86e7dc2eb85350
-
---===============8794193775054049206==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1768573757 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/spdx.git
-nonce 1768573756-36c4e2d6ebd4b89d4c50ba0104d0d49e45e13995
-
-0000000000000000000000000000000000000000 f7b88edb52c8dd01b7e576390d658ae6eef0e134 refs/tags/v6.18
-0000000000000000000000000000000000000000 0edde068997bc3c41f122c9941143a39d604a0dc refs/tags/v6.18-rc3
-0000000000000000000000000000000000000000 2f112b1c25da9f5346c2261ed35c5b1e0b906471 refs/tags/v6.18-rc4
-0000000000000000000000000000000000000000 62ad2b01b0c7dba966c6843b77e99b06a3b12d27 refs/tags/v6.18-rc5
-0000000000000000000000000000000000000000 ec4b6a97aa20d97494d3431434470d91aacb9c6e refs/tags/v6.18-rc6
-0000000000000000000000000000000000000000 c4508223b80908ac095e50f731e68c4387951f0f refs/tags/v6.18-rc7
-0000000000000000000000000000000000000000 3e7f562e20ee87a25e104ef4fce557d39d62fa85 refs/tags/v6.19-rc1
-0000000000000000000000000000000000000000 2408853dde584f01950a0f976b743739cce30eca refs/tags/v6.19-rc2
-0000000000000000000000000000000000000000 82791741762a870f5f2ede9f909301770f66f867 refs/tags/v6.19-rc3
-0000000000000000000000000000000000000000 f10c325a345fef0a688a2bcdfab1540d1c924148 refs/tags/v6.19-rc4
-0000000000000000000000000000000000000000 d0e305301e82474223bf26185e86e7dc2eb85350 refs/tags/v6.19-rc5
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmlqSz0bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+d2wQAK1C0J4hzm+wWo37/cZc
-WQJzsJOxd98g/ZlGsVfog04Z/4WvxlXhwgBS+nDCVKSd8Apoh2syfsXDNKSU9udM
-8zn7w7OPTBf9V3J+yNbMSqCpS4WdmLg1mS7q3Xsa5tIiqA+amd29AHdSToavKT9E
-CtVWW2hoDNYgwrT8dnvy5JCZx1Qfw6p3T9c/x4eiPMJLre2BI2Ics2FqQuET1GIP
-mE7cost56JB7z2MejdYCkQiatg2wVqBozphy9RwHwWJeRDh0fefYwaIkpaJod79R
-nk2QIesquAcgevWKLagPiAUzz92Vr4M3n2hY5HQDdmMR/wfrmn9ZOZnfqscKElWC
-WXCuWmH5ByNPy5KsnEHkdTcsNGpH/Xt+oi2NISJixl9l38qmHem52JdYbmHSlv0E
-qY4ELbDXlrDVfqlGj0b0acEgq9KfgUeAbuo7g+fltMMw706Lv1X1ctVGyLcCHk6b
-iDFaJFgX9ZZ/19DN+BiTH2jSTCW4StaAN7YI/4uvTv6x56shBCcMeu0ukOQA5G21
-BRnBeRQ9+eODtRrSvF47QKhFmIOhtiVKzLhl0RyzEcZngjFRQKAM1RPIRp0UxB5p
-+xdEra7D9tp8bVF/hsY0W4Nu2wwMy9d3yRVOfMjwahXoIblucF6ifhaA5elEtoZ8
-JxmUwh5cHAiS22DleTx3cE9G
-=JPH8
------END PGP SIGNATURE-----
-
---===============8794193775054049206==--
+  - ref: refs/heads/work.dm-verity.keyring
+    old: 28edb6bcab070b41593d86d4e40665ce9f505e11
+    new: 8458d9ab79ce18b9ea6b06f17f047ed0e12399c4
+    log: |
+         842d5b5542cbe3ee547b9d636e0bb81d79c23ebd dm-verity: add dm-verity keyring
+         444ec536db8d2e8bfc4af75a5c3b771cda73dd21 selftests: add dm-verity keyring selftests
+         8458d9ab79ce18b9ea6b06f17f047ed0e12399c4 dm-verity: add dm-verity keyring
+         
