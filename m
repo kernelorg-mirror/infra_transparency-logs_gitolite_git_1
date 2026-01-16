@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6789059896521807258=="
+Content-Type: multipart/mixed; boundary="===============6057610886957450407=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
-Date: Fri, 16 Jan 2026 19:09:47 -0000
-Message-Id: <176859058715.3699412.5047464982551882332@gitolite.kernel.org>
+Date: Fri, 16 Jan 2026 19:10:09 -0000
+Message-Id: <176859060920.3701848.16286664272021358509@gitolite.kernel.org>
 
---===============6789059896521807258==
+--===============6057610886957450407==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,18 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jlayton/linux
 user: jlayton
 changes:
-  - ref: refs/heads/kdevops
-    old: 19e93c860691c9904ef62e218b9b499c2a905057
+  - ref: refs/heads/exportfs-nfsd
+    old: 14b8f48f4053370ead8401ff650f5abe38696ce8
     new: d08a6158801a1a8dd2cfb35b9f7940f616bc1038
-    log: revlist-19e93c860691-d08a6158801a.txt
+    log: revlist-14b8f48f4053-d08a6158801a.txt
 
---===============6789059896521807258==
+--===============6057610886957450407==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-19e93c860691-d08a6158801a.txt
+Content-Disposition: attachment; filename=revlist-14b8f48f4053-d08a6158801a.txt
 
+5a58c2ed045ab5a980b2d03d9f2050bc9ed9635d fs: require filesystems to explicitly opt-in to nfsd export support
 852ff850eb6404f866b84f36baba4aaa6b57c598 Documentation: document EXPORT_OP_NOLOCKS
 ee9fe67e6c2cb281f12f793e248361a47d14c05f exportfs: add new EXPORT_OP_STABLE_HANDLES flag
 4b4125132ac784800bff5347a4ba179d63086e8f tmpfs: add EXPORT_OP_STABLE_HANDLES flag to export operations
@@ -57,4 +58,4 @@ b402d708d66cdde013d4e824c0c745fc68deabde fat: add EXPORT_OP_STABLE_HANDLES flag 
 970b82cf963fd4d54140de7e0a66078cb2625f1f f2fs: add EXPORT_OP_STABLE_HANDLES flag to export operations
 d08a6158801a1a8dd2cfb35b9f7940f616bc1038 nfsd: only allow filesystems that set EXPORT_OP_STABLE_HANDLES
 
---===============6789059896521807258==--
+--===============6057610886957450407==--
