@@ -1,73 +1,60 @@
-Content-Type: multipart/mixed; boundary="===============0275231243534309512=="
+Content-Type: multipart/mixed; boundary="===============4389249073665968534=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Fri, 16 Jan 2026 15:35:10 -0000
-Message-Id: <176857771043.3522835.16273724325712137831@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
+Date: Fri, 16 Jan 2026 15:37:30 -0000
+Message-Id: <176857785001.3524180.238763496018800466@gitolite.kernel.org>
 
---===============0275231243534309512==
+--===============4389249073665968534==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/char-misc
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/jlayton/linux
+user: jlayton
 changes:
-  - ref: refs/heads/char-misc-testing
-    old: 56d21267663bad91e8b10121224ec46366a7937e
-    new: 578d62a2e51614ea117ccf05fce6aaa6257dfd60
-    log: revlist-56d21267663b-578d62a2e516.txt
+  - ref: refs/heads/kdevops
+    old: b33659b167eb12a1c098549f718135a630b717e9
+    new: 664eec0b2180f4dc0c4946b767445df98cef2638
+    log: revlist-b33659b167eb-664eec0b2180.txt
 
---===============0275231243534309512==
+--===============4389249073665968534==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-b33659b167eb-664eec0b2180.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1768577706 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1768577706-ab94e60dc268c3aa92df0c8fb531ef5c365d3152
+a0ed35c6dda18e9258619c3ea20cc1c33dc067f1 fs: require filesystems to explicitly opt-in to nfsd export support
+9a9ce4337fd606a12e842a58901e3088b36d5b23 exportfs: add new EXPORT_OP_STABLE_HANDLES flag
+f5dd7a825bbd4d48725aa13818f5c488518af9f4 tmpfs: add EXPORT_OP_STABLE_HANDLES flag to export operations
+20125b017395a77f70abcca281010aa218899062 ext4: add EXPORT_OP_STABLE_HANDLES flag to export operations
+afee4634260d67404b4074dc2ef631c53b4550c6 ext2: add EXPORT_OP_STABLE_HANDLES flag to export operations
+4babc060fc04e513b9b727a13a7516988a11cac8 erofs: add EXPORT_OP_STABLE_HANDLES flag to export operations
+d802141f46b5fd9abb2750b0680b4816d3e69423 efs: add EXPORT_OP_STABLE_HANDLES flag to export operations
+58a87f18ed2c7bb07c412a7aa160d58b86c2ea55 xfs: add EXPORT_OP_STABLE_HANDLES flag to export operations
+d8144acfa89d846de23a26ee5b8678225d5260c4 ceph: add EXPORT_OP_STABLE_HANDLES flag to export operations
+b6d4a03318a08019b11aab8a2983b85d6d3462cd btrfs: add EXPORT_OP_STABLE_HANDLES flag to export operations
+bef0863c6b1d01df998dd01a094a9bfb2cc6ab0d befs: add EXPORT_OP_STABLE_HANDLES flag to export operations
+17cc36acdc43c91a736e3e5a22f356c0a992e544 ufs: add EXPORT_OP_STABLE_HANDLES flag to export operations
+5009dd32895ede0c8cad321002e483cd30136a6f udf: add EXPORT_OP_STABLE_HANDLES flag to export operations
+317ef5521efed500fd0734f68c4101248c0bdf40 affs: add EXPORT_OP_STABLE_HANDLES flag to export operations
+edb18ee5a7c0ac4f1a6b82b4771b1ba630cd2794 squashfs: add EXPORT_OP_STABLE_HANDLES flag to export operations
+00362cf1f5d8c15031054daae775229e165fd611 smb/client: add EXPORT_OP_STABLE_HANDLES flag to export operations
+dd5ad89cc7bee533d7378e8f99254690a2b095bb ovl: add EXPORT_OP_STABLE_HANDLES flag to export operations
+6200fd8b9a9b5a108c781c0e00251ab21d81097e orangefs: add EXPORT_OP_STABLE_HANDLES flag to export operations
+2d19e201d435d473dd91368a592fa800f68dc296 ocfs2: add EXPORT_OP_STABLE_HANDLES flag to export operations
+d353d8fd5bc98994ea5c193e7a7fc92c7873e545 ntfs3: add EXPORT_OP_STABLE_HANDLES flag to export operations
+601693eec67d9fc5cc63ea45c7fb88247ebefc66 nilfs2: add EXPORT_OP_STABLE_HANDLES flag to export operations
+b8888e6fb2a3c03f5477d696461edc480625c256 nfs: add EXPORT_OP_STABLE_HANDLES flag to export operations
+f3d3793bd4de70d69998b9a0b24514d15c38f231 jfs: add EXPORT_OP_STABLE_HANDLES flag to export operations
+4364f30608fff4e8087cea2597907888aaf79021 jffs2: add EXPORT_OP_STABLE_HANDLES flag to export operations
+36c940b51d4ddd45d1f4d4ea1d93669df5629eb2 isofs: add EXPORT_OP_STABLE_HANDLES flag to export operations
+c292c75b9a58da4c6236f8bd7e41cda697fdb687 gfs2: add EXPORT_OP_STABLE_HANDLES flag to export operations
+19f6121da466c754c00e50d0e24cfdbf9b072c3e fuse: add EXPORT_OP_STABLE_HANDLES flag to export operations
+45366d4703ffedf39803c5681231a97030d9f0e8 fat: add EXPORT_OP_STABLE_HANDLES flag to export operations
+3d1af3d44dd83bdfe2fd4cb17e759cad3734c824 f2fs: add EXPORT_OP_STABLE_HANDLES flag to export operations
+664eec0b2180f4dc0c4946b767445df98cef2638 nfsd: only allow filesystems that set EXPORT_OP_STABLE_HANDLES
 
-56d21267663bad91e8b10121224ec46366a7937e 578d62a2e51614ea117ccf05fce6aaa6257dfd60 refs/heads/char-misc-testing
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmlqWqobHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+e78P/0tad8ItqmELiovRvqMN
-rdFRuh+KeozFrDtVQM+gEiA9SHqyNzpKljKg+2PoMgQ9DcfW62fBmIJZOA0YrK6s
-PzDYQh/c0nu7n9gJPiuLi+vW0sMTXt5WjUTvhPPmyAdOjDBh4itSSE15Du1PrrLv
-EM++Sj8c+z89nZsI7MsgN4Ig5EKlrNihAKqtQ13Bp4yFavW9k/airyRfMPdU8CnF
-qVD3z8sZVkUDqi8nTvET40/7xfiRstIt+lXP3E5EdIhx/fbmqeps0peyaYogE9a5
-GASphSHh1jvJzQQjT7pCfy2HGLsvCA0xgvLss0MW93C0juWNAQDY6dFObi3/RvI1
-nK9mHLKoqwUit1Kf5j6bj/tHPWUWW+i0/2zSQwcjaRTz4hxdNoZ+QAGMiShuJACb
-HHkwmNppDJMACuqfvTebsK/F09GJOXBixsHHOvjPoOvxbZZcXSlQL3JZ/Ow4YGkH
-GF1t4CNXL3n9ul1ukGsy/iw7i/4epYJMHKp7kkKpktK78jmeYWQ8qgPvEl9RVwJL
-rq/YUy8KjDQW9A7k88fn/EmO4Jf1kZ/bfmKSiXWWREFgNy0sG4KQ5vXI3SiNMxZc
-YjBTXW4t4L5KYruqrzqp6td51f1JWb9H3ml8fmM/ARChKMyPIdSmrGA+V9a6qUIl
-5oKfpN9aMdZQ/VaREvQH9kCD
-=ASQ9
------END PGP SIGNATURE-----
-
---===============0275231243534309512==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-56d21267663b-578d62a2e516.txt
-
-25f9b0d351552f63ac3f72e6c655bc8f9994f7d2 misc/mei: Allow building Intel ME interface on non-x86
-d876cb978058a57b5d28b2b3e16197f678ce8311 misc/mei: Decouple ME interfaces from GPU drivers
-6d5dca5f9e37741f5e50c31c81b497f875dca6c8 misc/mei: Allow building standalone for compile testing
-327e987e5166a407554e8cccba8e5f8d51f1c868 misc/mei: gsc_proxy: add dependency on Xe driver
-96118565d24e7691e423d73be224b3a3fffc4680 gpib: Fix error code in ibonline()
-484e62252212c5b5fc62eaee5e4977143cb159c6 gpib: Fix error code in ni_usb_write_registers()
-b89921eed8cf2d97250bac4be38dbcfbf048b586 gpib: Fix memory leak in ni_usb_init()
-986d388e6779800080d13b555c9aaf6900614387 greybus: Use bus methods for .probe() and .remove()
-45edeece5abe146b1188ef9af3cde0609997493b bus: fsl-mc: declare fsl_mc_bus_dpdbg_type static
-d63cf1eea10c904c1b31b22ff3e118033ec7edfb comedi: don't use mutex for COMEDI_BUFINFO ioctl
-b842f8c6397ab59786ad5d5bb8c6899d2fc55ae9 comedi: comedi_test: add a DIO subdevice
-578d62a2e51614ea117ccf05fce6aaa6257dfd60 comedi: comedi_8254: correct kernel-doc warnings
-
---===============0275231243534309512==--
+--===============4389249073665968534==--
