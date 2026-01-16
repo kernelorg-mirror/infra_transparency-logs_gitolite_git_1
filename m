@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8848016075417245058=="
+Content-Type: multipart/mixed; boundary="===============2836119841306874517=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Fri, 16 Jan 2026 17:38:48 -0000
-Message-Id: <176858512820.3625185.3056836281642344170@gitolite.kernel.org>
+Date: Fri, 16 Jan 2026 17:38:51 -0000
+Message-Id: <176858513107.3625297.12142048535552100662@gitolite.kernel.org>
 
---===============8848016075417245058==
+--===============2836119841306874517==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
+  - ref: refs/heads/10GbE
     old: d4596891e72cbf155d61798a81ce9d36b69bfaf4
     new: 74ecff77dace0f9aead6aac852b57af5d4ad3b85
     log: revlist-d4596891e72c-74ecff77dace.txt
 
---===============8848016075417245058==
+--===============2836119841306874517==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -335,4 +335,4 @@ b1b77c82cec16668571b0d2587d19d4204d432e0 net: phy: remove unused fixup unregiste
 dc634118aaa09a539163fce8f19db67b8ec29f92 bnxt_en: Fix build break on non-x86 platforms
 74ecff77dace0f9aead6aac852b57af5d4ad3b85 xgbe: Use netlink extack to report errors to ethtool
 
---===============8848016075417245058==--
+--===============2836119841306874517==--
