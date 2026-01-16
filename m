@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jfern/linux
-Date: Fri, 16 Jan 2026 20:56:51 -0000
-Message-Id: <176859701113.3788428.16025151038458994939@gitolite.kernel.org>
+Date: Fri, 16 Jan 2026 20:57:45 -0000
+Message-Id: <176859706511.3788893.5704133329049016072@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,5 +12,5 @@ repo: pub/scm/linux/kernel/git/jfern/linux
 user: jfern
 changes:
   - ref: refs/heads/nova/mm
-    old: e9a376ac2dcd8b62dbf0cf14fb2c7ba9bc8726ac
-    new: 0000000000000000000000000000000000000000
+    old: 0000000000000000000000000000000000000000
+    new: 79ef9f03509f4246d5bff138292754cf7784fb5d
