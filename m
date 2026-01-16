@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/devel/pahole/pahole
-Date: Fri, 16 Jan 2026 12:25:23 -0000
-Message-Id: <176856632306.3359986.9566278206121717889@gitolite.kernel.org>
+Date: Fri, 16 Jan 2026 12:25:55 -0000
+Message-Id: <176856635588.3360253.7634341320332306379@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,7 +11,7 @@ service: git-receive-pack
 repo: pub/scm/devel/pahole/pahole
 user: almagui
 changes:
-  - ref: refs/heads/tmp.master
+  - ref: refs/heads/master
     old: d1dda58ffac121b10a87d2738f3b931847e29acb
     new: b30d6f3fa152be08e8ee9b2a81e971138b5ba62f
     log: |
