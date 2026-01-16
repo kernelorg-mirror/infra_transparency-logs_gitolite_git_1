@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3522765694100566871=="
+Content-Type: multipart/mixed; boundary="===============0649991461237575828=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Fri, 16 Jan 2026 16:16:30 -0000
-Message-Id: <176858019081.3558608.17544727149438291401@gitolite.kernel.org>
+Date: Fri, 16 Jan 2026 16:16:32 -0000
+Message-Id: <176858019224.3558819.325888428604316347@gitolite.kernel.org>
 
---===============3522765694100566871==
+--===============0649991461237575828==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/mm-new
-    old: 78d5565acc4516dfe1fe5a3779a53bc7aaedc2e1
-    new: eeb33083cc4749bdb61582eaeb5c200702607703
-    log: revlist-78d5565acc45-eeb33083cc47.txt
+  - ref: refs/heads/mm-unstable
+    old: f8ed52ac0cfbddff992bb9600941bfe51e1e385a
+    new: fe2c34b6ea5a0e1175c30d59bc1c28caafb02c62
+    log: revlist-f8ed52ac0cfb-fe2c34b6ea5a.txt
 
---===============3522765694100566871==
+--===============0649991461237575828==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-78d5565acc45-eeb33083cc47.txt
+Content-Disposition: attachment; filename=revlist-f8ed52ac0cfb-fe2c34b6ea5a.txt
 
 d26e52d0f01384bad1990579b3b6f539a82ddad6 mm: add missing static initializer for init_mm::mm_cid.lock
 0e632fcc95f4957bf78a4e6f6642d9cff3ff2936 mm: rename cpu_bitmap field to flexible_array
@@ -297,106 +297,5 @@ d88e9575f39728a96386882fc2c60dc6713956db mm: hugetlb: optimize replace_free_huge
 c22454898628933f44f0bad3f90ef2e3c885c084 mm-hugetlb-optimize-replace_free_hugepage_folios-v2-fix
 17d3d1ccbb84d103cfa0c02951309918633450e3 mm: hugetlb_cma: optimize hugetlb_cma_alloc_frozen_folio()
 fe2c34b6ea5a0e1175c30d59bc1c28caafb02c62 mm: hugetlb_cma: mark hugetlb_cma{_only} as __ro_after_init
-baeeee3eb43f47483568017fc5af876b4fb2fa86 arm64/mm: add addr parameter to __set_ptes_anysz()
-cd073814ab6848e5941a865dbe3d1c05840d4195 arm64/mm: add addr parameter to __ptep_get_and_clear_anysz()
-a3a83a99abbd6f95ee1ebb68653cddcfa97eb404 mm/page_table_check: reinstate address parameter in [__]page_table_check_pud[s]_set()
-3b18de8135b667f5608c18ebcd439c6f806e6c24 mm/page_table_check: reinstate address parameter in [__]page_table_check_pmd[s]_set()
-e44970b739bf849e436607dda406cd8a119a005e mm/page_table_check: provide addr parameter to page_table_check_ptes_set()
-6c352d23fe622270cff22802b81f43680e03a88c mm/page_table_check: reinstate address parameter in [__]page_table_check_pud_clear()
-d0312d0e5777463c382acc5256d13a0c17206a25 mm/page_table_check: reinstate address parameter in [__]page_table_check_pmd_clear()
-681f9b8c6d5b39f59b613ba2f7a5aed9e59470f1 mm/page_table_check: reinstate address parameter in [__]page_table_check_pte_clear()
-a5b43887f1f2b89b2e6f6be132f31258df649cd6 mm: provide address parameter to p{te,md,ud}_user_accessible_page()
-082e40a1d85119ad73a377147f8776dd5fc6d9a7 powerpc/mm: Implement *_user_accessible_page() for ptes
-4b48205c3176ebed066dbefee2f3b77bd90dcaf9 powerpc/mm: use set_pte_at_unchecked() for internal usages
-32123ecfe1a5541030f73a968815607617517870 powerpc/mm: support page table check
-c5b4e8c9c9baf1522ade9e9cb631361ab394ff45 ksm: initialize the addr only once in rmap_walk_ksm
-d90578a3bfe08649ca20b6b394d18d151aa88a31 ksm: optimize rmap_walk_ksm by passing a suitable addressrange
-438aff43878133cebcd725dee142c8d7051eae1e mm: memcontrol: remove dead code of checking parent memory cgroup
-ba56f80b580abf7fd50ab12147ddb14dae390cf2 mm: workingset: use folio_lruvec() in workingset_refault()
-a66b4a2c34c84123e29a567a50cdc12bf4647073 mm: rename unlock_page_lruvec_irq and its variants
-a6a8c1fb82a9efe5312cf4cd5dc3f3492fa2e196 mm: vmscan: prepare for the refactoring the move_folios_to_lru()
-160c8fa5362853e9671bf9298b236f800f912bd6 mm: vmscan: refactor move_folios_to_lru()
-539de8eb19bcae86e6a6aa9045cfbe9236539a4d mm: memcontrol: allocate object cgroup for non-kmem case
-61ff8b2cf6f376bac4dee8a951cc77842f34d493 mm: memcontrol: return root object cgroup for root memory cgroup
-2c4f8002d224114c4ec8e3950f0bb9dbe08463a0 mm: memcontrol: prevent memory cgroup release in get_mem_cgroup_from_folio()
-0ff8ffe794976f64da23cb1f304e41596bde2c85 buffer: prevent memory cgroup release in folio_alloc_buffers()
-395b3d862b48a45f3911681700b57f8f9ae34533 writeback: prevent memory cgroup release in writeback module
-040bd3b9b39e1dcc24116c27d31abb58c7c20549 mm: memcontrol: prevent memory cgroup release in count_memcg_folio_events()
-41e60ae6453618cfe41f91f28b784459012fd313 mm: page_io: prevent memory cgroup release in page_io module
-b17a9b0f15f190d0332c6e17a524fb328fd82dd7 mm: migrate: prevent memory cgroup release in folio_migrate_mapping()
-210967807d1dde83491ec6a8be7fc3e0504804d9 mm: mglru: prevent memory cgroup release in mglru
-107238037e1d3f073ab31dbd0f8c3411897971f5 mm: memcontrol: prevent memory cgroup release in mem_cgroup_swap_full()
-84d4fa04f596b0effc6960fa3f2dbf14505ef0d4 mm: workingset: prevent memory cgroup release in lru_gen_eviction()
-11215c2490aae513b71f9833b6ff79038608a475 mm: thp: prevent memory cgroup release in folio_split_queue_lock{_irqsave}()
-2d7e9fe7367917e099931dcd7792e0ea352d7e30 mm: zswap: prevent memory cgroup release in zswap_compress()
-b75ddfcca739210810dd376466620d96e0f01007 mm: workingset: prevent lruvec release in workingset_refault()
-aa3e1488ab1a00114fe9173e4b525742aece8a33 mm: zswap: prevent lruvec release in zswap_folio_swapin()
-823deab386db25b00fd0d5922cbb0385a084f9f2 mm: swap: prevent lruvec release in lru_gen_clear_refs()
-80df8baa404f4ed3638258fbcab05833fea27638 mm: workingset: prevent lruvec release in workingset_activation()
-7aa4c5cbe4e55a0026099bc89ebc91a61a270fa6 mm: do not open-code lruvec lock
-70f5781baf27fddc6dddeec187273f29a9337136 mm: memcontrol: prepare for reparenting LRU pages for lruvec lock
-592814265da4b6d5794460f155368613af89e01d mm: vmscan: prepare for reparenting traditional LRU folios
-f8c3fb23283db7a8a2f629de9617bd16281a82a0 mm: vmscan: prepare for reparenting MGLRU folios
-17ca4f3edc01abaa4baa231a9f87f2c4ca8c65a4 mm: mglru: do not call update_lru_size() during reparenting
-f15593f8de8a76ba91970a67bac0016dc44bd962 mm: memcontrol: refactor memcg_reparent_objcgs()
-f8165dd91bc7b49307ae78f78a74c866d431ab7f mm: memcontrol: prepare for reparenting state_local
-9323229bd1c03a77a7c4314205b17c302ad491d0 mm: memcontrol: fix lruvec_stats->state_local reparenting
-2a8df336e70e9e2630ae67e1f136ab00d460e7c7 mm: memcontrol: change state_locals to atomic_long_t type
-b8dde952e6f65a4dfdd751d7e16c4f74e11af21c mm: memcontrol: eliminate the problem of dying memory cgroup for LRU folios
-daf6919be32149fa5dce1005815e8c6f8a320ec3 mm-memcontrol-eliminate-the-problem-of-dying-memory-cgroup-for-lru-folios-fix
-2fb1923e558f355dc041fbd3ce834efddcfe6ac9 mm: lru: add VM_WARN_ON_ONCE_FOLIO to lru maintenance helpers
-4e33aea7b0e468792f662599effd3cc57b7a00dc nodemask: propagate boolean for nodes_and{,not}
-bab2179baf389d8e4b48c7f47d7eedfe3af3c577 mm: use nodes_and() return value to simplify client code
-7df7faec778ad5ead3da2e718ebbc37588ec2f85 cgroup: use nodes_and() output where appropriate
-11e29140f8ca33ddcfb76015192ab03bfc0e9c9e mm/damon/core: implement damon_kdamond_pid()
-907be4311f6778d81bf0ec95d7778c34210e29f7 mm/damon/sysfs: use damon_kdamond_pid()
-a3ba60afe31b858de0aadc98d7898bd5b5792568 mm/damon/lru_sort: use damon_kdamond_pid()
-e0535759b93b41b7c2bb01e3d7a7cec6290a8574 mm/damon/reclaim: use damon_kdamond_pid()
-6c74e90936a310433521ec43b62a2d2514106cc9 mm/damon: hide kdamond and kdamond_lock of damon_ctx
-6a7274c869952c57e0e6846ecc25b66940c77b18 vmw_balloon: adjust BALLOON_DEFLATE when deflating while migrating
-99b56be60930dd59940c3d777327a9076cb427cf vmw_balloon: remove vmballoon_compaction_init()
-492e2dd2629b9c94ed9b43468fad87d700257153 powerpc/pseries/cmm: remove cmm_balloon_compaction_init()
-1daae1a78b4f2b379f3cf52e18f05fcf881a105a mm/balloon_compaction: centralize basic page migration handling
-94342c6c10fd724ae29fc9bd3ede18ef3eb97eae mm/balloon_compaction: centralize adjust_managed_page_count() handling
-92dca81e9694f3df82223834af25c76e8cf564e2 vmw_balloon: stop using the balloon_dev_info lock
-9b96790c028a0519714a0a7d3dfb37d513bb3010 mm/balloon_compaction: use a device-independent balloon (list) lock
-50a82fd55d2ef05efcd855a030cdf42fa6050ca2 mm/balloon_compaction: remove dependency on page lock
-8857c29355859a8e9f4fab9c0a8ea0dadd99a6e7 mm/balloon_compaction: make balloon_mops static
-8804d62e9c3d5a9791bf990f292735e1f6574522 mm/balloon_compaction: drop fs.h include from balloon_compaction.h
-10d865404a47d5e527f0411aef4ff7b32ba1b0c1 drivers/virtio/virtio_balloon: stop using balloon_page_push/pop()
-a5f41c3857e7050eae56dcdaaba9c3aaafe5436b mm/balloon_compaction: remove balloon_page_push/pop()
-f1a35f4d27a5c74e51784daf6790a10462f352c1 mm/balloon_compaction: fold balloon_mapping_gfp_mask() into balloon_page_alloc()
-c9f75d422528b6b833563050bee6b0b3093a069f mm/balloon_compaction: move internal helpers to balloon_compaction.c
-88c12fd7c5002d782b8beda5b183c92fe3c2144f mm/balloon_compaction: assert that the balloon_pages_lock is held
-eb2fbd6ae52df818f5835ac4b95f3474d47d4f5f mm/balloon_compaction: mark remaining functions for having proper kerneldoc
-6cc4c32334b1d2971a361e91fc264aef9ca4dad7 mm/balloon_compaction: remove "extern" from functions
-41e40297bab1b3e59e59aa93855a62fe16e7e87b mm/vmscan: drop inclusion of balloon_compaction.h
-e3aec4233f849f9f123c6b95d30f52d9884a3156 mm: rename balloon_compaction.(c|h) to balloon.(c|h)
-b2d5c68a9b9a86ba1074e12102a7a987594ce174 mm/kconfig: make BALLOON_COMPACTION depend on MIGRATION
-25a95290d290e6e28a6d5d37e259bcea0f3778b8 mm: rename CONFIG_BALLOON_COMPACTION to CONFIG_BALLOON_MIGRATION
-f85a5645b12828371e72ea247f9603686aa94ec3 mm: rename CONFIG_MEMORY_BALLOON -> CONFIG_BALLOON
-b3780bfab54562590db35305a768da961b6e7818 MAINTAINERS: move memory balloon infrastructure to "MEMORY MANAGEMENT - BALLOON"
-e726a2926aa0cff6205d2177cded89603de82d61 maintainers-move-memory-balloon-infrastructure-to-memory-management-balloon-fix
-0c93d04c01e53dc2fc8dd50f51f63dfce097cfa2 mm/mmap: move exit_mmap() trace point
-a1256e0f2263ea2a01a997baa95d93ff453680b8 mm/mmap: abstract vma clean up from exit_mmap()
-38b711186b472a06f9fa0b645085c55a7a7a3033 mm/vma: add limits to unmap_region() for vmas
-ddc206d2785ebfc742768b087c2a6f14e4efa5b1 mm/memory: add tree limit to free_pgtables()
-92ca48f62d67c9017ae4526775129c953ce2a3bb mm/vma: add page table limit to unmap_region()
-f975cb4324d7b2b46a548f080c8d43653effa1e2 mm: change dup_mmap() recovery
-10c9ef8e7211b92c62441cf107be8a8934acef91 mm: introduce unmap_desc struct to reduce function arguments
-9c42f5b8e78009ded42a420de8f2892fa943a4a5 mm/vma: use unmap_desc in exit_mmap() and vms_clear_ptes()
-1c453f57471f22bf09cf05ea65cf4ddc768e18e2 mm/vma: use unmap_region() in vms_clear_ptes()
-ea89bd8cbd3000dda974be1a535262d40496937d mm: use unmap_desc struct for freeing page tables
-aafcd750f8ca1e27a18aba269c6855a085b7f3a6 mm/hugetlb: remove unnecessary if condition
-5c6d3fccab8b2a072e61fee878eec5e6dda3b331 mm/hugetlb: enforce brace style
-31256dccd78bad6ff9457de75b50fd72f16f1946 mm-hugetlb-enforce-brace-style-checkpatch-fixes
-76e88a1c43b6e0c2d70b4ed2d25d93e93bf76571 zram: rename init_lock to dev_lock
-2b743b2970fa679fbe8af82dc04fe4ee45d06cf1 mm: drop filename from page_alloc.c header comment
-3e1f65f00f2449f0ffc987f704670c5c53f3355b alloc_tag: fix rw permission issue when handling boot parameter
-444cf2e277db584fd7029f63dc7579ee9022212a mm: fix OOM killer inaccuracy on large many-core systems
-e02c1b4d302187f7e9f88346b8002350e5bcd548 mm/vmscan: mitigate spurious kswapd_failures reset from direct reclaim
-96e08d97034b1b74b3af4acaffc8f02f9ee2c927 mm/vmscan: add tracepoint and reason for kswapd_failures reset
-6e6cc8ca6ce2e365a17f6b270a5170e94e04b308 mm/vmscan: fix demotion targets checks in reclaim/demotion
-eeb33083cc4749bdb61582eaeb5c200702607703 mm/vmscan: select the closest preferred node in demote_folio_list()
 
---===============3522765694100566871==--
+--===============0649991461237575828==--
