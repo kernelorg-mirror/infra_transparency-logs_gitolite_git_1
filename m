@@ -1,27 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/cem/xfs-linux
-Date: Fri, 16 Jan 2026 20:05:36 -0000
-Message-Id: <176859393601.3747450.583221456412824572@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
+Date: Fri, 16 Jan 2026 20:15:27 -0000
+Message-Id: <176859452705.3754866.17374203957800373531@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/cem/xfs-linux
-user: cem
+repo: pub/scm/linux/kernel/git/cel/linux
+user: cel
 changes:
-  - ref: refs/heads/xfs-zoned-atomic
-    old: 8f39a37d39457410e9fb90f731385a285fbfccff
-    new: 645b3c39b80607d4e97101bdc26a7ebd45766343
+  - ref: refs/heads/nfsd-next
+    old: 65cabf8ed0f29e3b10a9a37112e0f8a6f56c711e
+    new: 0beee30f11fabfa862bec190a5fc2f178dedae0f
     log: |
-         0a3e751247dddae7f5ed2bb301d005499606e294 xfs: factor out isize updates from xfs_dio_write_end_io
-         47100313ed641da1be10af80e9ea8fd580eab9e6 xfs: move zoned dio ioend to its own function
-         ed24699c77341cadb620a6badea959041e2c15fd xfs: enable setting of atomic size limit for zoned fs
-         c91d538aef5dc818109dd8ddf828929cd148882e xfs: enable atomic report for zoned
-         9402005a2655be73f5655b2c75ffe4b55523c316 iomap: introduce IOMAP_IOEND_ATOMIC
-         837cf409c76be187ed5669848e58f00e99740d6d xfs: opencode xfs_zone_record_blocks
-         7ee594ded51443fd9abfa45506a19f2ea0f6d9b3 xfs: factor out xfs_zoned_skip_blocks
-         11946894f85730c4fb70e7d3ae183b01dbab6cbf xfs: factor out xfs_zoned_map_extent
-         645b3c39b80607d4e97101bdc26a7ebd45766343 xfs: implement software atomic writes for zoned xfs
+         d705a06402b68e5a2c19a8d7c3bb0b997df22e31 xdrgen: Remove inclusion of nlm4.h header
+         fe8d0aa372b855feeaaf79c258a746715d8dc913 xdrgen: Improve parse error reporting
+         da030a573bd304bfafc5289f0802b274ccf12148 nfsd: never defer requests during idmap lookup
+         87578bcf31b504b0f6786d85fd5e44edf75a63fd nfsd: fix return error code for nfsd_map_name_to_[ug]id
+         daab08573672cdc97ec43c5a097f53c7b8c03e96 SUNRPC: auth_gss: fix memory leaks in XDR decoding error paths
+         8d729deddc7ec5e3206d8b01b93dff62594f795e xdrgen: Extend error reporting to AST transformation phase
+         592661e7565f6734d0bff9704f0cb52e51aa9b87 xdrgen: Emit a max_arg_sz macro
+         0beee30f11fabfa862bec190a5fc2f178dedae0f xdrgen: Add enum value validation to generated decoders
          
