@@ -1,24 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux
-Date: Sat, 17 Jan 2026 17:33:10 -0000
-Message-Id: <176867119007.740259.14857840017777260344@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/thomas.weissschuh/linux
+Date: Sat, 17 Jan 2026 17:34:22 -0000
+Message-Id: <176867126249.740800.2287027263500876622@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux
-user: axboe
+repo: pub/scm/linux/kernel/git/thomas.weissschuh/linux
+user: thomas.weissschuh
 changes:
-  - ref: refs/heads/io_uring-bpf-restrictions
-    old: 1fdda2c2ca815470326f10e1679db2ec8fc1ef17
-    new: d67a3ca89e2b9de524312bc6139b70c132b30517
+  - ref: refs/heads/b4/cros_ec-hwmon-pwm
+    old: cc827226e12bf247a2c03edc0de1470dbc9d691c
+    new: afea5241268f1ff7bf826d6ac07b08b34dbf4eb8
     log: |
-         cbe8b5965f3061ffd0186fb662ba32c697fe543e io_uring: add support for BPF filtering for opcode restrictions
-         f35364732abaf95098bfbb524d87a79b279ab730 io_uring/net: allow filtering on IORING_OP_SOCKET data
-         24a8750b743728ac98a3e188cc1c97348466c701 io_uring/bpf_filter: cache lookup table in ctx->bpf_filters
-         2833e26be6e565175f965d6e26bd853e227bed49 io_uring/bpf_filter: add ref counts to struct io_bpf_filter
-         adb3b11271f5f825adbf5fd977d03b0e452a2efb io_uring: add task fork hook
-         d67a3ca89e2b9de524312bc6139b70c132b30517 io_uring: allow registration of per-task restrictions
+         774bd0d4e61364bd3f02417de3e0717ff37a6b5e deleteme
+         d68710cf5ad1e0d0b054be6b23adf7cd3251f2c0 hwmon: (cros_ec) fan target and temperature thresholds
+         7301a6c02b6032f7a0ecfa3f6fe6c489721e9d09 hwmon: (cros_ec) Split up supported features in the documentation
+         5cd27e714d3335878c0fe971fba005a46e664ad5 hwmon: (cros_ec) Add support for fan target speed
+         6f08b5f44550c1d07d7ea7c8e496ac893161c8af hwmon: (cros_ec) Move temperature channel params to a macro
+         afea5241268f1ff7bf826d6ac07b08b34dbf4eb8 hwmon: (cros_ec) Add support for temperature thresholds
          
