@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/chenhuacai/linux-loongson
-Date: Sat, 17 Jan 2026 02:58:26 -0000
-Message-Id: <176861870636.4075728.5205471435017309079@gitolite.kernel.org>
+Date: Sat, 17 Jan 2026 03:00:34 -0000
+Message-Id: <176861883421.4079005.16432733319628084138@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,9 +11,9 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/chenhuacai/linux-loongson
 user: chenhuacai
 changes:
-  - ref: refs/heads/loongarch-next
-    old: 3bc4b3039b42a5305347875f30bd8e81c724822d
-    new: 1cf342a7c3adc5877837b53bbceb5cc9eff60bbf
+  - ref: refs/tags/loongarch-fixes-6.19-2
+    old: e48130a05a2bf8263cb484cad8db57dbc39084b2
+    new: a0f5b399c3658c28670ac74ff538888da80eedc1
     log: |
          a91f86e27087f250a5d9c89bb4a427b9c30fd815 LoongArch: Fix PMU counter allocation for mixed-type event groups
          762cf75bec2ad9d17899087899a34336b1757238 LoongArch: dts: Describe PCI sideband IRQ through interrupt-extended
