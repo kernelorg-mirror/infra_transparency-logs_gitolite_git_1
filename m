@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0793269720755673366=="
+Content-Type: multipart/mixed; boundary="===============2213139082359488225=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Sat, 17 Jan 2026 04:39:20 -0000
-Message-Id: <176862476067.4161013.7723045816142808258@gitolite.kernel.org>
+Date: Sat, 17 Jan 2026 04:39:25 -0000
+Message-Id: <176862476513.4161235.4958944044538266747@gitolite.kernel.org>
 
---===============0793269720755673366==
+--===============2213139082359488225==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,45 +16,45 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-queue
-    old: 5cb89a93050a1ffb7574aa69c3fdb0fe735d0207
-    new: 66b3a72b87b7bae070c0400515f88a325fb876e7
-    log: revlist-5cb89a93050a-66b3a72b87b7.txt
+  - ref: refs/heads/6.20/scsi-queue
+    old: ae62d62b1c740f7a5ea72082dc28f30ebf6b134d
+    new: ee8112a2e0f96d7a125c6ad3a7851e0d598c28a8
+    log: revlist-ae62d62b1c74-ee8112a2e0f9.txt
 
---===============0793269720755673366==
+--===============2213139082359488225==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1768624741 -0500
+pusher 75C5DE3D 1768624763 -0500
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1768624740-7429aefec9ea46f4779ecdd6e8784cd05f5be74a
+nonce 1768624763-8ee7c4f7cd510b5c60a8a72b854bccbb5001ee61
 
-5cb89a93050a1ffb7574aa69c3fdb0fe735d0207 66b3a72b87b7bae070c0400515f88a325fb876e7 refs/tags/mkp-scsi-queue
+ae62d62b1c740f7a5ea72082dc28f30ebf6b134d ee8112a2e0f96d7a125c6ad3a7851e0d598c28a8 refs/heads/6.20/scsi-queue
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmlrEmUACgkQ7ulgGnXF
-3j0hGhAAj6tu1wkyAA9lTzAqHhg6Y4Qtbs581vTbvpOmNcshsn2/myripZ4sCEHY
-0JJ4zeIpWC+GHWhYz3lWm9zAOKFjoTzottT3qCv6rOkhsblxnbE5ymH3mOuuodan
-4QD+FM7+tRbhdftpNGiryy0lq/kwf4jQbg9BLM5fN5WHUGztpDdthtXxfg6MwpmE
-47doFLOAwRQ9gwEYxQNq5XFAFSX5WZLpBlMmhTrBzx+/ng5LxIZNkno3LUkAYkAU
-B36P3w5tgWIeiM4+LPaxlb10+c1uA5mTaocyW0RVFbi4/ojigYDZZ6x73QEHcdQg
-ch0wiV5tMCZkNtkpOjFyOfbbzuGY9DNk7zJOkbyT7F/2RCgNdWcjKcxgwwh+sYxb
-NI/hnTFkAnkARpC7ekERFgJVxBBH9X6843yVW6BjfZVraD2dGGPFjShyPLumd1XZ
-UukFvNpt5cBdeRh9xhddm8c+mO6cyMcxKNgkeSLbwwbT+lkemXYPXSS7/BtmcPjx
-0QyZOGQL701cx5NvqOHgGmV8ZGq3k0m+RLtTExRWEuDPcrZsNRXpLn8haEHpbSuI
-Whmq9V9dzFiyUzGzwtFfB4zuJTbXyyZJmV4fZxCz0ussIkql+aGwSytjusomS+vj
-oNyBZlzvyOQcmhHoybh+IIblpoGeF+vTtY8IHYSehHw8Aiqvt9I=
-=mdNP
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmlrEnsACgkQ7ulgGnXF
+3j3+0Q//RUo7Eol2smLIAoM1LXyAp0WsCpG+Q6ugSnMdt0U1C3aYfHpUTpPEcFZY
+Qox3PhPXzXKUEu39KQKTj8pu8hDBtEQoR/ELixDDxEiy/WyvdiI9AdxzXgXNmFQe
+00yBidkjE+5LvH6taMJiGVPXW1nHex45pkX4ZG6LZQK6Zoz7JksX+qIV5KVoxKbb
+f3FSvRINGJvUqmLvEWIcAN6vTGBsHqVK84IyB7Kq4hgLfl5mp8wHJNQr7e5RSuCQ
+S72HHTCRyVhNeiqTGzO3eCX535B9CriYd2KfFvPYo+RreO/95hyzqctCNTAQJhEh
++GQojZPxglC3pximifGV+EmwA9aLPSwfhXCg3crulSaTnft3j+ICWrjR75T4EQUZ
+zeUjBjDZqkzJj+YSOpizTBSwZ3nlfanZgdCbHjHW80v53SM8Of94A2Q3Rx632FkX
+MvdQH4Kpq8ezIfWYcoyTRvZ0cp+4MudwK1goGTX8j5B4OeNpPxarpRjuBwE47N5A
+0HIQaigyKS9Nr6N4JcuHPh+zNsc8rxy4d/0INWVfBAM8hg13ZTz8eSnY9uGwdnQ9
+xHgbAJAi5psGmXHG++DAmrzmrCGsReFtPMmlB+02LJ0tO570/MVrYQzF/V9laczD
+i0OnPAbCOMUWmhajEYP0GF4QcjFhC2S+WdKS7IOqVvBCYj4QVOk=
+=kmgR
 -----END PGP SIGNATURE-----
 
---===============0793269720755673366==
+--===============2213139082359488225==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5cb89a93050a-66b3a72b87b7.txt
+Content-Disposition: attachment; filename=revlist-ae62d62b1c74-ee8112a2e0f9.txt
 
 7d42bcea57ae139e2ed754425cc5fc44e260c890 scsi: core: Pass a struct scsi_driver to scsi_{,un}register_driver()
 f7d4f1bf5724e52de049c619beddd53c62206624 scsi: core: sysfs: Make use of bus callbacks
@@ -72,4 +72,4 @@ bf286f5558bfade5b746646b8b94685648f4b49a scsi: mpt3sas: Simplify the workqueue a
 e60b579720993bd813dbfe77411ab63e721fe189 scsi: core: Revert "Fix a regression triggered by scsi_host_busy()"
 ee8112a2e0f96d7a125c6ad3a7851e0d598c28a8 Merge patch series "Call scsi_host_busy() after the SCSI host has been added"
 
---===============0793269720755673366==--
+--===============2213139082359488225==--
