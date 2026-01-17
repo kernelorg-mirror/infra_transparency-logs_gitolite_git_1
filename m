@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7339856645977186206=="
+Content-Type: multipart/mixed; boundary="===============4332609331122486502=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Sat, 17 Jan 2026 04:39:29 -0000
-Message-Id: <176862476952.4161331.1902610578017290124@gitolite.kernel.org>
+Date: Sat, 17 Jan 2026 04:39:53 -0000
+Message-Id: <176862479356.4161632.2837642910814734004@gitolite.kernel.org>
 
---===============7339856645977186206==
+--===============4332609331122486502==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,60 +16,47 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/queue
-    old: ae62d62b1c740f7a5ea72082dc28f30ebf6b134d
-    new: ee8112a2e0f96d7a125c6ad3a7851e0d598c28a8
-    log: revlist-ae62d62b1c74-ee8112a2e0f9.txt
+  - ref: refs/tags/mkp-scsi-staging
+    old: 65c19cb2cb9ba6795c796841ae862ac337284e98
+    new: 74a798c3eda5efefd0ba069abe7db2f4705b13e3
+    log: |
+         07959ef517b853e834eadd0647d3860252af8f99 scsi: ufs: exynos: Call phy_notify_state() from hibern8 callbacks
+         695df7ea6099aadc11fac8d510e4b7c5839508e3 scsi: ufs: core: Handle sentinel value for dHIDAvailableSize
+         4f39a4870a59971797be86fed72423b83b6b4e00 scsi: sd: Move the sd_remove() function definition
+         c0daf4836114fcbdf64bf817cab00b75ce712945 scsi: sd: Move the sd_config_discard() function definition
+         3899cff5056f417071c74371a4a9744225823a40 scsi: sd: Move the scsi_disk_release() function definition
+         6e07e5333cc3154e042a5e7de073459765616fa7 scsi: sd: Move the sd_fops definition
+         cb429866a8259705e4dec104585bfba517f2ebc2 scsi: sd: Do not split error messages
+         a9e03ec01ef2633288fd1b506980f54ae41c5a85 Merge patch series "Clean up the SCSI disk driver source code"
+         
 
---===============7339856645977186206==
+--===============4332609331122486502==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1768624768 -0500
+pusher 75C5DE3D 1768624773 -0500
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1768624767-795fb43733345e767a736faa5e238e0f36dbb29e
+nonce 1768624773-70d4b6f3921ad8fb4756282374f0f180313ae06e
 
-ae62d62b1c740f7a5ea72082dc28f30ebf6b134d ee8112a2e0f96d7a125c6ad3a7851e0d598c28a8 refs/heads/queue
+65c19cb2cb9ba6795c796841ae862ac337284e98 74a798c3eda5efefd0ba069abe7db2f4705b13e3 refs/tags/mkp-scsi-staging
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmlrEoAACgkQ7ulgGnXF
-3j17vBAAlTtNkmwT/qF8P5dOSr3qri1Vg3HT+ek6lz4rKOKt/MaJ3Li552ilGnGG
-NEswK9derbm07r3A0rJjrpWTqWys6zEK4GOrg5nmJEptwDHzv5TGkREdb3ftGg+U
-J9h/6GG1Ed2x6ovykHoz3o1xuMEMBMUYV/gTadUA5VjM0POGoREmGufK6/McLBRW
-B6GkDzxheGOahblLhFJFI3WD4q5GsBurUws8usCUneEbD3KEr9oCoF6rF4TiO05v
-G5Q2VYMhEI/O65NbLHOP5pwEa+SoRmIK1jaK+V6rSDw1bHlPX3SXDyaxgJRvgC5L
-L7CBQ53s8DDraZZoyCeW5E+gSeBnGrpPjcFQkSer7ISF5nb6Ts/+nCrcdi038mu6
-Bupw5GwAavfFMT7aGfY2zHdDVfU49CUZTv4vxjhPxDAcV+D/3Tqbgvb/asZM4Rvy
-x7s/HoFxJrnvgZKi3Rb5tkfM1K06BJTm6jph0WR7d9mM8MXGgN9i93IMYeM5gR/E
-lirUPJW+PDUwH6hTsBcfDzWMdX2ZouHBT/nTrATDeTlOgKhK9hQFNmiJ2SSz8APj
-GtlBogHtCX51JFlzKTeSsKfJZanix2fz80tCGmMSNRLnKXqZ6cji5iK+J4Im6Q6Z
-CAiAa0iXi7WmZ1bUbBa8+/8l9KxSrDEHYwvMHpc1fdkWpQTtG00=
-=bDl+
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmlrEoUACgkQ7ulgGnXF
+3j100w//YCWNX2o9LivjG2vOQkabzmLBgdczq2Bs38EvrSO++/Ci7+Tqn3Of34Jm
+7lJlK+OJ4iQiUZdZYRi/4Aw7c+yR3Qfpp18R+28kMcJn5Mjz+E6ayGnFpF2f0Neu
+zmXbuyWCGurkXM8rEkOZ3HNSCvR/c7yzAFRdnZ+EkmU4Sowyr43IYeDIMD7DJK6+
+k1XbEZ3Ru7H1GMihYJrObV47bUA8fd4AMpVddfiZP+mTVR3mb87KCT/biKNfCisQ
+hBbANWX5DK7gPGbsAfBkgU9hCG1eOEdWlbAsfDUC8rgPxpawak8ZU4Oun29TJfMl
+3Y9Sl4MABf8gs4ctkj95KEas3tOJ2X8mhQXs5/Bd12nsxJZI4LwIMZ/jH0gYmKHA
+DSouBiURC/GOIOgJ0CFsyuOjAjkoGrcY4csKHrn/No57RIDDmtD5ZkLk51Pjo2DO
+VTolkiMD2A55cGxEkPT+o9f/KHaWGf3deHsulihpm2FVVpUCa9eb1jS1EIzghz/R
+rU3R0w+H0WsBIyrbsQRkf7nnsw7j19QTh6TzmrTD8ctn/xJkS4dlG6eG2fe2AhxG
+72RTFKGpOInWwPUlGEClmS4X9VUzAdR9W+BXr8TcDTE9RCNbOt/Jq1SLqDR7JazQ
+KGMhht7Gze9eqgV5MHKi1uyTPisCJQtP/wuFOkoeCs/5Z1p3DcQ=
+=1Pji
 -----END PGP SIGNATURE-----
 
---===============7339856645977186206==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ae62d62b1c74-ee8112a2e0f9.txt
-
-7d42bcea57ae139e2ed754425cc5fc44e260c890 scsi: core: Pass a struct scsi_driver to scsi_{,un}register_driver()
-f7d4f1bf5724e52de049c619beddd53c62206624 scsi: core: sysfs: Make use of bus callbacks
-fba333569c8a59928e9e6bb4e20cc6151daeaff8 scsi: ch: Convert to SCSI bus methods
-63b541f054e7147f5a19fcd964677c189bad7cff scsi: sd: Convert to SCSI bus methods
-a71d5deea6e95b6155ea22e5db6feb92634307b4 scsi: ses: Convert to SCSI bus methods
-9ccda35df7d5cf46649d02696278c7cd4464a16d scsi: sr: Convert to SCSI bus methods
-4bc2205be4609b7a224c78e12852a672cbf80d3d scsi: st: Convert to SCSI bus methods
-44859905375ff4d739cca2113408336a90ed227d scsi: ufs: core: Convert to SCSI bus methods
-3a8a4ee99cb603aa889de18dd4d1cadb7de331a5 Merge patch series "scsi: Make use of bus callbacks"
-8d0aecdebc0f3c123221e67d2f64ff0982f76cb3 scsi: mpi3mr: Simplify the workqueue allocation code
-bf286f5558bfade5b746646b8b94685648f4b49a scsi: mpt3sas: Simplify the workqueue allocation code
-309b23a1553acdc6b8534682ee1782c9598e0e2e scsi: ufs: core: Improve the documentation of UFS data frames
-202d5dadd3a0fada6aa756c9fdeb2062aad89f79 scsi: ufs: core: Only call scsi_host_busy() after the SCSI host has been added
-e60b579720993bd813dbfe77411ab63e721fe189 scsi: core: Revert "Fix a regression triggered by scsi_host_busy()"
-ee8112a2e0f96d7a125c6ad3a7851e0d598c28a8 Merge patch series "Call scsi_host_busy() after the SCSI host has been added"
-
---===============7339856645977186206==--
+--===============4332609331122486502==--
