@@ -1,57 +1,48 @@
-Content-Type: multipart/mixed; boundary="===============3771569313811563017=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/security/vulns
-Date: Sat, 17 Jan 2026 15:47:02 -0000
-Message-Id: <176866482202.607568.5958225096179837704@gitolite.kernel.org>
-
---===============3771569313811563017==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/s390/linux
+Date: Sat, 17 Jan 2026 15:47:50 -0000
+Message-Id: <176866487072.607974.7416750670437037128@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/security/vulns
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/s390/linux
+user: heiko
 changes:
-  - ref: refs/heads/master
-    old: a73871520dbcdff1d86ed46acf90a864c949ae46
-    new: 2104d3be127045177fc25ba4c7c8fb84f00432b5
+  - ref: refs/heads/features
+    old: 12ea976f955cefb06eeae4c9e5eb48d08038ccb2
+    new: 88303fb68cc2e8b975f1505c84f215a934f6c2ad
     log: |
-         32d0a4fcca961996589cb1ea9d04dd8a7f3e2946 CVE-2025-68212: Add vulnerable commit information
-         2104d3be127045177fc25ba4c7c8fb84f00432b5 update after new .vulnerable file added
+         6cce3609a1e0dedeef9b4bfdc87d0d4692f691d7 s390/preempt: Optimize preempt_count()
+         23ba7d31633da6b0706b4154e4eb74cdfab710ef s390/preempt: Optimize __preemp_count_add()/__preempt_count_sub()
+         05405b8fd284189278636a0392976cbec3bb6d19 s390/asm: Let __HAVE_ASM_FLAG_OUTPUTS__ define 1
+         48b4790f054994d4df6d1025ec9267b19618f0ec s390/preempt: Optimize __preempt_count_dec_and_test()
+         86302ddf20e6b27ef463006c8bde6fd753056101 Merge branch 'preempt'
+         84d875e69818bed600edccb09be4a64b84a34a54 s390/pci: Handle futile config accesses of disabled devices directly
+         88303fb68cc2e8b975f1505c84f215a934f6c2ad s390/pci: Use PCIBIOS return values in pci_read()/pci_write()
          
-
---===============3771569313811563017==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1768664821 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
-nonce 1768664821-59f760802d0b203dfd1fe487fe594e55679678ad
-
-a73871520dbcdff1d86ed46acf90a864c949ae46 2104d3be127045177fc25ba4c7c8fb84f00432b5 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmlrrvUbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+uUcQAIuh/pE1q5sROmnnzlRJ
-C+gDrTH9ssYRlHdwWlFBH2J36n7C3JlD2dn+IBmhkgtWbu6NmPdMp518uHeBmfUE
-HT+a6haOnPuvPAyioo+lOMckBzDgmexU0uyXRs7vr/8MyV5g9qSvFe0rzuaEk30h
-yIokJNaP41kgMIn/mXQMOqM+otngQJ5/DKv8pfCy5Lt0wrflKKfMh9BQPmKtzG7Q
-5wMywHtpk6Fajh9YwZV53AobDgZB8fTCTnF2qgdAxosT4SV7ggFT5e4IhheuxUO8
-kupHR13DfDDVik9mfIF8HAMN7qoeCZTn5Ab3pGbCXb4hT35E1oSl027XBn5pQnid
-J4rv9c72Jq6nXZrmDFyY5IyMZVozdqzlI1813edSeihVb1KlNYOnRivD7cyTW6GH
-fY462sf1p22dDxFh9YkO3wMGGuwyEy+wUx3JfvP+wVW3A7Q+bQ7A6biRKJSdeJDh
-HAz2U/+SkNtepGiLesBVHDtWIybMd7Kcw4qcSXaW9+yYly/JDoAanii1jxBDRTz3
-wB/Wdcanktr+Eb4V437TOrO4v9DdDw2IfnnW+SOEvaqeAO8zF29+q6ASyg6/+gyn
-Cya448GfS2r/gzJMDcDBDGWn8JX3v9cs46jd1BN8XHIsmLl8KgtiV+Bo413bvcUa
-y3lVvWEAIg3ehkr3+u/actqI
-=Unur
------END PGP SIGNATURE-----
-
---===============3771569313811563017==--
+  - ref: refs/heads/fixes
+    old: 9448598b22c50c8a5bb77a9103e2d49f134c9578
+    new: d045e166d3c51b7aec069669bb243e057d80d04f
+    log: |
+         576b1b7b1148517364303f0a52d27034b01796be s390/vdso: Disable kstack erase
+         d045e166d3c51b7aec069669bb243e057d80d04f selftests: vDSO: getrandom: Fix path to s390 chacha implementation
+         
+  - ref: refs/heads/for-next
+    old: 12ea976f955cefb06eeae4c9e5eb48d08038ccb2
+    new: 1be9cce3d7134656386c2ffcf91e5d8d7ef1a70e
+    log: |
+         576b1b7b1148517364303f0a52d27034b01796be s390/vdso: Disable kstack erase
+         d045e166d3c51b7aec069669bb243e057d80d04f selftests: vDSO: getrandom: Fix path to s390 chacha implementation
+         6cce3609a1e0dedeef9b4bfdc87d0d4692f691d7 s390/preempt: Optimize preempt_count()
+         23ba7d31633da6b0706b4154e4eb74cdfab710ef s390/preempt: Optimize __preemp_count_add()/__preempt_count_sub()
+         05405b8fd284189278636a0392976cbec3bb6d19 s390/asm: Let __HAVE_ASM_FLAG_OUTPUTS__ define 1
+         48b4790f054994d4df6d1025ec9267b19618f0ec s390/preempt: Optimize __preempt_count_dec_and_test()
+         86302ddf20e6b27ef463006c8bde6fd753056101 Merge branch 'preempt'
+         84d875e69818bed600edccb09be4a64b84a34a54 s390/pci: Handle futile config accesses of disabled devices directly
+         88303fb68cc2e8b975f1505c84f215a934f6c2ad s390/pci: Use PCIBIOS return values in pci_read()/pci_write()
+         fd7f391252ef0c43c9574be0b35d8a5014ccc9c5 Merge branch 'fixes' into for-next
+         1be9cce3d7134656386c2ffcf91e5d8d7ef1a70e Merge branch 'features' into for-next
+         
