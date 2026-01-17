@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
-Date: Sat, 17 Jan 2026 23:02:44 -0000
-Message-Id: <176869096431.986513.12787976548123136659@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
+Date: Sat, 17 Jan 2026 23:06:55 -0000
+Message-Id: <176869121545.990260.14293522987741336993@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/groeck/linux-staging
-user: groeck
+repo: pub/scm/linux/kernel/git/pci/pci
+user: helgaas
 changes:
-  - ref: refs/heads/hwmon-next
-    old: 21506a88d3d54243ee5e21cbbd4b0e0102cc9501
-    new: e59f0a584366b775e1dee39e183d8b37e6c0443d
+  - ref: refs/heads/for-linus
+    old: 05f66cf5e7a5fc7c7227541f8a4a476037999916
+    new: 8f0b4cce4481fb22653697cced8d0d04027cb1e8
