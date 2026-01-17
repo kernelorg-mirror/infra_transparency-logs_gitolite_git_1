@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Sat, 17 Jan 2026 21:19:12 -0000
-Message-Id: <176868475229.909950.4889165006077906480@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/qcom/linux
+Date: Sat, 17 Jan 2026 21:36:05 -0000
+Message-Id: <176868576530.923921.8138883919564726123@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: tglx
+repo: pub/scm/linux/kernel/git/qcom/linux
+user: andersson
 changes:
-  - ref: refs/heads/timers/vdso
-    old: 759a1f97373f25770cf438d9fb5f2bddf4d77a54
-    new: adc00a0daf1bb08915bceee9ae73cca682e7d5bb
+  - ref: refs/heads/arm64-for-6.20
+    old: 58e69e8f9c9a4df948dfc554c26b8f4adf505636
+    new: fc12767c19d49663b13ba2def6e4674df041c8a2
     log: |
-         adc00a0daf1bb08915bceee9ae73cca682e7d5bb compiler: Use __typeof_unqual__() for __unqual_scalar_typeof()
+         fc12767c19d49663b13ba2def6e4674df041c8a2 dt-bindings: mailbox: qcom: Add IPCC support for Kaanapali and Glymur Platforms
          
