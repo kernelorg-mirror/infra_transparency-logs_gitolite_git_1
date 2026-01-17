@@ -1,24 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/thomas.weissschuh/linux
-Date: Sat, 17 Jan 2026 17:34:22 -0000
-Message-Id: <176867126249.740800.2287027263500876622@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux
+Date: Sat, 17 Jan 2026 17:40:41 -0000
+Message-Id: <176867164165.747281.15170618522662608603@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/thomas.weissschuh/linux
-user: thomas.weissschuh
+repo: pub/scm/linux/kernel/git/axboe/linux
+user: axboe
 changes:
-  - ref: refs/heads/b4/cros_ec-hwmon-pwm
-    old: cc827226e12bf247a2c03edc0de1470dbc9d691c
-    new: afea5241268f1ff7bf826d6ac07b08b34dbf4eb8
+  - ref: refs/heads/io_uring-bpf-restrictions
+    old: d67a3ca89e2b9de524312bc6139b70c132b30517
+    new: 82f600e71873c9328a3a6dc0ce3ee05524a20ce5
     log: |
-         774bd0d4e61364bd3f02417de3e0717ff37a6b5e deleteme
-         d68710cf5ad1e0d0b054be6b23adf7cd3251f2c0 hwmon: (cros_ec) fan target and temperature thresholds
-         7301a6c02b6032f7a0ecfa3f6fe6c489721e9d09 hwmon: (cros_ec) Split up supported features in the documentation
-         5cd27e714d3335878c0fe971fba005a46e664ad5 hwmon: (cros_ec) Add support for fan target speed
-         6f08b5f44550c1d07d7ea7c8e496ac893161c8af hwmon: (cros_ec) Move temperature channel params to a macro
-         afea5241268f1ff7bf826d6ac07b08b34dbf4eb8 hwmon: (cros_ec) Add support for temperature thresholds
+         1ae94e492aad9fe5bb82300b4454bc8d06fb5478 io_uring: add support for BPF filtering for opcode restrictions
+         e72edb2125bd24ac5e97a369d23dc066f63c76d2 io_uring/net: allow filtering on IORING_OP_SOCKET data
+         67f79621d402bf0dba946ac0948a2e7ded246b11 io_uring/bpf_filter: cache lookup table in ctx->bpf_filters
+         670d810003079694c2aab5d38a61762b0fe9aad7 io_uring/bpf_filter: add ref counts to struct io_bpf_filter
+         f86c1f7dc203e3d59a713d45a1049ce88e79b84d io_uring: add task fork hook
+         82f600e71873c9328a3a6dc0ce3ee05524a20ce5 io_uring: allow registration of per-task restrictions
          
