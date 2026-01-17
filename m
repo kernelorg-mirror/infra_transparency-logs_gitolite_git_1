@@ -1,57 +1,53 @@
-Content-Type: multipart/mixed; boundary="===============6278762807300414799=="
+Content-Type: multipart/mixed; boundary="===============4035787065985136284=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux
-Date: Sat, 17 Jan 2026 18:02:15 -0000
-Message-Id: <176867293577.762662.9596646600800594960@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pinctrl/samsung
+Date: Sat, 17 Jan 2026 18:05:42 -0000
+Message-Id: <176867314219.766561.18017713582988373694@gitolite.kernel.org>
 
---===============6278762807300414799==
+--===============4035787065985136284==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/krzk/linux
+repo: pub/scm/linux/kernel/git/pinctrl/samsung
 user: krzk
 git_push_cert_status: Y
 changes:
-  - ref: refs/tags/samsung-dt64-6.20
+  - ref: refs/tags/samsung-pinctrl-6.20
     old: 0000000000000000000000000000000000000000
-    new: c20f464bb3519a5113174d74d6c18fc45eb543b5
-  - ref: refs/tags/samsung-drivers-6.20
-    old: 0000000000000000000000000000000000000000
-    new: 431fd6fe9281a5fd9db4eb6def40112bfe3708a6
+    new: 978cb8a7556c56dadd28e93dae27a20c2c214a3c
 
---===============6278762807300414799==
+--===============4035787065985136284==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher krzk@kernel.org 1768672934 +0100
-pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux.git
-nonce 1768672933-df0098a6302183401ac21580cd6cbee3b7e0cff7
+pusher krzk@kernel.org 1768673140 +0100
+pushee kernel.org:/pub/scm/linux/kernel/git/pinctrl/samsung.git
+nonce 1768673140-dbb4ff3047a07285e91cee1bc66004538dbac3b2
 
-0000000000000000000000000000000000000000 c20f464bb3519a5113174d74d6c18fc45eb543b5 refs/tags/samsung-dt64-6.20
-0000000000000000000000000000000000000000 431fd6fe9281a5fd9db4eb6def40112bfe3708a6 refs/tags/samsung-drivers-6.20
+0000000000000000000000000000000000000000 978cb8a7556c56dadd28e93dae27a20c2c214a3c refs/tags/samsung-pinctrl-6.20
 -----BEGIN PGP SIGNATURE-----
 
-iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmlrzqYQHGtyemtAa2Vy
-bmVsLm9yZwAKCRDBN2bmhouD11qfD/9dTucXx4gcXVBIXAC1Gk5tGckq27OOqK6Z
-yI8EkJ7CYVMWCZFmvPOh0BiY9r50O7fywjWbSEkH62GxJyeKNUcwZkvb4VXCk01/
-W1a9uLF+0egW48GnGZ40o+P7/SEtOCd2X7VJZm4DEbWm7yx4G011x0cVN4yOsS8Q
-CO8NtgLJg58D0jfiWUzxiSLI9ULkWG3oA95QL4Fk9xSGazWys+zVhdVCMYYY5971
-M6oG7WOZwaJP4yE1MGxlKQM33Mm/xjaMMPSp7Ga6KmMrYB3TAymbOtkhEWkeBcPS
-BSxbixbq1ACJwdr8jFqaP4PDsPrpoEueqK9PP6R2IN/R4sNMNQsEOD0nflBf8UeA
-J3dbV81lKFqfV0+y1uZJFfJ4uO+vKUe1TqQ7uYUQzO54q0UvvMg32z1Giot1koWl
-+yfBrlI7dbiCOgmAwmTxt8Vcx/EbEMjfD2cxp+mnJr1ewcHh5MrVGujhLaX3QK33
-wp+y9bh8QqCqnjs5yhtBmBk+vAoEqUrjfMDzvp6PaTydcQkiBEW0Ebop62Xrd8s+
-UYPCT5ev1f4Zm0+F8GYXrfuotR8e0MC2BZ4+9MeJwgmA3dVWNOWdkSwVKwRCqjbE
-dnpQX3PymOi8aoWQIrWHjK9NWVIBkcAZn87SeUpLK+om0GZHf2pLBqfJ1hLAlIzD
-G9QwUejrcg==
-=5EZ1
+iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmlrz3QQHGtyemtAa2Vy
+bmVsLm9yZwAKCRDBN2bmhouD17VND/sFDbe8zO0SY9kgwv01oXim3QLtzxMAvj1U
+cBC7VXwxhGO73H0xanQ1GHCZjpC3UhDkr9YgqsTz4Xny7NdgNXlyLWyY5oo8Busp
+EjXyCOR+6tPTE2x/3zFLzOxCzQbiLHXniJoTEoVzpsXDceYIqmeX1GHRQ13MdWDP
+EwkVF/J3yWpO7a6Tw0PsgA2DF30sp9hmKKwI8wCh87ca8iqvKpvTKG4J1PyjfBDV
+lu5bAgHbUyDaA3wcB1dH+YDamsNrVskddLbCNpLpFTZeVHr/UUZNDcvK2rMDOKIS
+RW6c3XiHEQM5tcHlwFrKUTOlST9fw7qmUguAxjoOpolJgh1fKu7bcDAN5lyMYYDk
+INsraRWdXmmNHvXlCIKgkuwT7rF/F18ZgC4cD7Z3N4mnVvYCyNebl3A+TSxD10l+
+HoElMt5NVs4ZPwej0ELm6C2otEthRdB0dLb73jjpd0meW032uQT9qv7upVxeZK1n
+N8NBmRioyVgamhYOLpDJX98wWwYc+oz10rV/OmnbjpigHljBeMvEdco44y2yYnuM
+GpQiV6AeqiOGje4RS7kYcmsEsiMeTq0dfAjnxF0TbNA0yfLGFCAZs8gy3DKUfO+3
+3bDzd+Hmo5cIHFDOurSWzedp6Ic26gaGJ/zqC5PE8TYWui/NWii7RSaGxawRBi62
+qleCb3uMlg==
+=b+h6
 -----END PGP SIGNATURE-----
 
---===============6278762807300414799==--
+--===============4035787065985136284==--
