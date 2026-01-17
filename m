@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/utils/korgalore/korgalore
-Date: Sat, 17 Jan 2026 00:11:13 -0000
-Message-Id: <176860867373.3945738.7148632302927170886@gitolite.kernel.org>
+Date: Sat, 17 Jan 2026 00:15:46 -0000
+Message-Id: <176860894633.3949578.1564557112306623054@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,9 +12,8 @@ repo: pub/scm/utils/korgalore/korgalore
 user: mricon
 changes:
   - ref: refs/heads/master
-    old: 8f437e08ec21d4fd57934b65589584ad79404995
-    new: 5fad43819c009caad11da785f082256728d0762c
+    old: 5fad43819c009caad11da785f082256728d0762c
+    new: 9dcd9f59b3d1179fa0821df84bb48ebb526ee8d0
     log: |
-         05e77621500131d5f1f8769ca3c3f0057982e9dd Add GUI optional dependencies to pyproject.toml
-         5fad43819c009caad11da785f082256728d0762c Update CHANGELOG for v0.4 improvements
+         9dcd9f59b3d1179fa0821df84bb48ebb526ee8d0 Support AyatanaAppIndicator3 as fallback for AppIndicator3
          
