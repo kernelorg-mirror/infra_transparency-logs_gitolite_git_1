@@ -1,53 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============7775694879603379003=="
+Content-Type: multipart/mixed; boundary="===============5747214055368655803=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux-dt
-Date: Sat, 17 Jan 2026 18:19:47 -0000
-Message-Id: <176867398793.775866.15094427075572648933@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kees/linux
+Date: Sat, 17 Jan 2026 19:01:13 -0000
+Message-Id: <176867647308.808802.15368353092808962490@gitolite.kernel.org>
 
---===============7775694879603379003==
+--===============5747214055368655803==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/krzk/linux-dt
-user: krzk
-git_push_cert_status: Y
+repo: pub/scm/linux/kernel/git/kees/linux
+user: kees
+git_push_cert_status: E
 changes:
-  - ref: refs/tags/dt64-cleanup-6.20
-    old: 0000000000000000000000000000000000000000
-    new: 5a17b40a0f092d50bf0bee5ce65156d32be7d3d6
+  - ref: refs/heads/for-next/hardening
+    old: cfbb53d25cfa5862260ddb39c392a9b02fef3f34
+    new: 44dd7cfbd1db5199cf7afe03158a578a64b55800
+    log: |
+         150a04d817d8f5be5a4f92799827cdc8d7e45989 compiler_types.h: Attributes: Add __counted_by_ptr macro
+         a120a832e3ebca48474d7183ddeadf4138472535 lkdtm/bugs: Add __counted_by_ptr() test PTR_BOUNDS
+         fac4ab5cd0ad8d3abce6d2b519c9f0d26c8f2abc coredump: Use __counted_by_ptr for struct core_name::corename
+         cd8da637106d6a1924c0d6dd05e8ee932ef234b5 carl9170: Avoid -Wflex-array-member-not-at-end warning
+         ee4acc596786ab08db7b5d4de4dfa15a67c9e684 nfp: tls: Avoid -Wflex-array-member-not-at-end warnings
+         44dd7cfbd1db5199cf7afe03158a578a64b55800 MAINTAINERS: pstore: Remove L: entry
+         
 
---===============7775694879603379003==
+--===============5747214055368655803==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher krzk@kernel.org 1768673986 +0100
-pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux-dt.git
-nonce 1768673986-f500267af642ac104b2fda3ff43fe0dc54da9090
+pusher A5C3F68F229DD60F723E6E138972F4DFDC6DC026 1768676471 -0800
+pushee gitolite.kernel.org:pub/scm/linux/kernel/git/kees/linux.git
+nonce 1768676455-c124480ddf91065b7fd0ab8152650e1df100a8bc
 
-0000000000000000000000000000000000000000 5a17b40a0f092d50bf0bee5ce65156d32be7d3d6 refs/tags/dt64-cleanup-6.20
+cfbb53d25cfa5862260ddb39c392a9b02fef3f34 44dd7cfbd1db5199cf7afe03158a578a64b55800 refs/heads/for-next/hardening
 -----BEGIN PGP SIGNATURE-----
 
-iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmlr0sIQHGtyemtAa2Vy
-bmVsLm9yZwAKCRDBN2bmhouD12+uD/0XSlZX+iewnOEIjtD3+Xo5Qijz9L+Ve2gV
-c1UoSOaWPy8619C7Z46uTariRRhm362CxX/xGJvfnN3jUI291XjBKU2eptPK+Gie
-dmGb4oDKQUeHRRQgwEMSZWgQAYSCREcoZgjrfaxTGEGNGwxbMfHrrYcoSFpFgGyQ
-GyJtokD7IYxvI0HryIPXus3eyUgy1Z6rUxScxrFdAC8lw7YVOG/pAbYskSlodWyo
-5AEpJ1BBWjl6Zqsg6ECjgs0jK+NRRwuRjISG0CMW+YYQCrnRX/dcf8dsZ2Tek7X3
-1rCZ4h8g0Oo1iDQX+uYQYV5FV/DzU6/NOOvQWFu7aBYqwMR6QkDEzWB3LukC5j91
-aPnsKryjzmFjm1cBK7xkGvjnrz2ZFnH3ietjKG9VFq6otplFghFbjviacdUgD1Z4
-jpKtHhBa84/NGNVUl4nLx/s3GCwr5a92XMbR9XWui2OVJPFWT62PPJviDwCX1gRF
-mMFCRlDAL9kJfd7F3vK44LmUn+4Hzzx1BgT4Pfbxhqa4df4eJ6FgPm38g+Wd4pe/
-so1dRCvg94pXHa53x0pFtj5BswBulgSUDkEomwJC4WSpzwfppz0KJDGAxw2dLV3+
-usQOgR3n8pM3Se8p2GZfRsTHRY00PuIZeXW1bSPPNxA/qNM+4lUMQi6ADN4gmA9n
-e7PjQmBaWg==
-=GDl2
+iHUEABYKAB0WIQRSPkdeREjth1dHnSE2KwveOeQkuwUCaWvcdwAKCRA2KwveOeQk
+uzvuAQCh4Nhsdnt/nDMe2kERRuX7ewK+/JkBIX58wFcDnx8mqQEA6CzI52w1HFCh
+CQK2zPJK44avKVmWFFC/jWbc+88mUAM=
+=qq/h
 -----END PGP SIGNATURE-----
 
---===============7775694879603379003==--
+--===============5747214055368655803==--
