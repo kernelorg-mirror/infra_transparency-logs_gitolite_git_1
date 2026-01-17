@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/axboe/liburing
-Date: Sat, 17 Jan 2026 19:14:29 -0000
-Message-Id: <176867726983.817666.13655252657531356155@gitolite.kernel.org>
+Date: Sat, 17 Jan 2026 19:19:11 -0000
+Message-Id: <176867755197.821645.13962257293903827146@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/axboe/liburing
 user: axboe
 changes:
   - ref: refs/heads/bpf-restrictions
-    old: 7ec99d191862da08e0e925c25990a1f92f0cd84c
-    new: eb191b805eef870b094e5b262087012c0e8b24c9
+    old: eb191b805eef870b094e5b262087012c0e8b24c9
+    new: 7f02b1b6c9d3aa4a3d2528e7d1bd9db123aff3d1
     log: |
-         eb191b805eef870b094e5b262087012c0e8b24c9 Basic bpf filter test
+         7f02b1b6c9d3aa4a3d2528e7d1bd9db123aff3d1 Basic bpf filter test
          
