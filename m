@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/korgalore/korgalore
-Date: Sat, 17 Jan 2026 00:15:46 -0000
-Message-Id: <176860894633.3949578.1564557112306623054@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/chunkuang.hu/linux
+Date: Sat, 17 Jan 2026 00:22:20 -0000
+Message-Id: <176860934071.3954134.12887056363016008837@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/korgalore/korgalore
-user: mricon
+repo: pub/scm/linux/kernel/git/chunkuang.hu/linux
+user: chunkuang.hu
 changes:
-  - ref: refs/heads/master
-    old: 5fad43819c009caad11da785f082256728d0762c
-    new: 9dcd9f59b3d1179fa0821df84bb48ebb526ee8d0
+  - ref: refs/heads/mediatek-drm-next
+    old: 8b00951402f7420365b5697269b190f616bd116a
+    new: 79643afdd985ee14f9dddd66da262314f04d1640
     log: |
-         9dcd9f59b3d1179fa0821df84bb48ebb526ee8d0 Support AyatanaAppIndicator3 as fallback for AppIndicator3
+         01c430b1cfa8a6ce0cbf99edc38dac3bfc51e464 dt-bindings: phy: mediatek,hdmi-phy: Fix clock output names for MT8195
+         8a25ab7a57e67baddee185c3fd565df1062e4807 dt-bindings: phy: mediatek,hdmi-phy: Add support for MT8188 SoC
+         79643afdd985ee14f9dddd66da262314f04d1640 dt-bindings: phy: mediatek,hdmi-phy: Document extra clocks for MT8195
          
