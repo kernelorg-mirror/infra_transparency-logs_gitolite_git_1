@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Sat, 17 Jan 2026 11:31:33 -0000
-Message-Id: <176864949366.301558.7269559567845410927@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jenswi/linux-tee
+Date: Sat, 17 Jan 2026 11:31:49 -0000
+Message-Id: <176864950924.301796.11775024624176991543@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: bp
+repo: pub/scm/linux/kernel/git/jenswi/linux-tee
+user: jenswi
 changes:
-  - ref: refs/heads/master
-    old: 6c964cc88ea9804a0826f58668464b7dd9b57716
-    new: c698fef9006b9f4427c96ea979947c67c55bd2f3
+  - ref: refs/heads/next
+    old: 65a8312a5fa871a4cb3e245e63dc3b79c1185a3e
+    new: dca52747925434aae27deb46a15a8ea10f623686
     log: |
-         d9b40d7262a227442bf402ea0708dc94f438bb52 selftests/x86: Add selftests include path for kselftest.h after centralization
-         c698fef9006b9f4427c96ea979947c67c55bd2f3 Merge x86/urgent into tip/master
+         94ea7063fae835e800768d3b0507f0994ef03878 optee: make read-only array attr static const
+         dca52747925434aae27deb46a15a8ea10f623686 Merge branches 'qcomtee_fixes_for_6.20', 'optee_update_for_6.20', 'tee_bus_callback_for_6.20', 'amdtee_update_for_6.20' and 'tee_sysfs_for_6.20' into next
          
