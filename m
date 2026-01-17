@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/korgalore/korgalore
-Date: Sat, 17 Jan 2026 00:32:04 -0000
-Message-Id: <176860992431.3962624.11290269927504378139@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/chunkuang.hu/linux
+Date: Sat, 17 Jan 2026 00:39:53 -0000
+Message-Id: <176861039302.3967153.10085009890965173223@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/korgalore/korgalore
-user: mricon
+repo: pub/scm/linux/kernel/git/chunkuang.hu/linux
+user: chunkuang.hu
 changes:
-  - ref: refs/heads/master
-    old: 9dcd9f59b3d1179fa0821df84bb48ebb526ee8d0
-    new: 57346fbdbc5664476c0d71ffa9ced4ea222b0b1c
-    log: |
-         57346fbdbc5664476c0d71ffa9ced4ea222b0b1c Add hashed requirements file for GUI dependencies
-         
+  - ref: refs/tags/mediatek-drm-next-20260117
+    old: 0000000000000000000000000000000000000000
+    new: a19358a88b13f8103d1a636b16296977dd6b29dd
