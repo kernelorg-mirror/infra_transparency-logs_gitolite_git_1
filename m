@@ -1,30 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux
-Date: Sun, 18 Jan 2026 13:27:56 -0000
-Message-Id: <176874287628.1631874.5272947350400206096@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jejb/scsi
+Date: Sun, 18 Jan 2026 13:36:36 -0000
+Message-Id: <176874339613.1639087.213701545137786955@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux
-user: axboe
+repo: pub/scm/linux/kernel/git/jejb/scsi
+user: jejb
 changes:
-  - ref: refs/heads/for-7.0/block
-    old: 5e35a24c96185e1be4c24a713e53a49e92ab925b
-    new: df73d3c618b4d6cca85304291d2bdaa35c87fb26
+  - ref: refs/heads/fixes
+    old: 901a5f309daba412e2a30364d7ec1492fa11c32c
+    new: 19bc5f2a6962dfaa0e32d0e0bc2271993d85d414
     log: |
-         073b9bf9af463d32555c5ebaf7e28c3a44c715d0 nvme-pci: Use size_t for length fields to handle larger sizes
-         fcf463b92a08686d1aeb1e66674a72eb7a8bfb9b types: move phys_vec definition to common header
-         df73d3c618b4d6cca85304291d2bdaa35c87fb26 Merge branch 'for-7.0/blk-pvec' into for-7.0/block
-         
-  - ref: refs/heads/for-next
-    old: f981672bdb7861d826df0a74bfb86da5d4b42333
-    new: 1383922f55c1fe889341bf729a34a962fa2c017f
-    log: |
-         073b9bf9af463d32555c5ebaf7e28c3a44c715d0 nvme-pci: Use size_t for length fields to handle larger sizes
-         fcf463b92a08686d1aeb1e66674a72eb7a8bfb9b types: move phys_vec definition to common header
-         df73d3c618b4d6cca85304291d2bdaa35c87fb26 Merge branch 'for-7.0/blk-pvec' into for-7.0/block
-         1383922f55c1fe889341bf729a34a962fa2c017f Merge branch 'for-7.0/block' into for-next
+         9eacec5d18f98f89be520eeeef4b377acee3e4b8 scsi: storvsc: Process unsupported MODE_SENSE_10
+         fe2f8ad6f0999db3b318359a01ee0108c703a8c3 scsi: core: Wake up the error handler when final completions race against each other
+         9411a89e9e7135cc459178fa77a3f1d6191ae903 scsi: target: iscsi: Fix use-after-free in iscsit_dec_conn_usage_count()
+         84dc6037390b8607c5551047d3970336cb51ba9a scsi: target: iscsi: Fix use-after-free in iscsit_dec_session_usage_count()
+         19bc5f2a6962dfaa0e32d0e0bc2271993d85d414 scsi: qla2xxx: Sanitize payload size to prevent member overflow
          
