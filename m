@@ -1,27 +1,38 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Sun, 18 Jan 2026 13:39:45 -0000
-Message-Id: <176874358525.1640514.186973488151370383@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux
+Date: Sun, 18 Jan 2026 13:41:29 -0000
+Message-Id: <176874368984.1643538.7808852221997554478@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: tglx
+repo: pub/scm/linux/kernel/git/axboe/linux
+user: axboe
 changes:
-  - ref: refs/heads/irq/drivers
-    old: fba6ab8010bb3e77f7a590deae9ab23b49cb051d
-    new: 3a74e73b863a2493c0502a08e20ab026a0134ca1
+  - ref: refs/heads/io_uring-bpf-restrictions
+    old: 1f2eaf12344a1320d76d416bab0ccc4af927024a
+    new: 1bb06e1cce910a14f4cd5f5b6b0e428269d0b26e
     log: |
-         d9e7035a51b89ef6041ce7c00b629e7877134a51 irqchip/loongarch-avec: Adjust irqchip driver for 32BIT/64BIT
-         57e05137ac3b37fd9b7b8714839d25b924073aef irqchip/loongson-liointc: Adjust irqchip driver for 32BIT/64BIT
-         61fb5e517ec457c76211f03ab0b379882248706d irqchip/loongson-eiointc: Adjust irqchip driver for 32BIT/64BIT
-         04f1f17d28ce24a7b40039c8d8ee053a777661a7 irqchip/loongson-htvec: Adjust irqchip driver for 32BIT/64BIT
-         4093b0e55b39422bbdae108a1be06292714a994d irqchip/loongson-pch-msi: Adjust irqchip driver for 32BIT/64BIT
-         0370a5e740f2a078ac3cd3e20dae2dc95c6b92f3 irqchip/loongson-pch-pic: Adjust irqchip driver for 32BIT/64BIT
-         a34d398c83a4a4bc00513c00f6eecc34267f834f irqchip: Allow LoongArch irqchip drivers on both 32BIT/64BIT
-         a384f2ed886d4417d50fdad78aaf1ccf870d62e6 irqchip/aslint-sswi: Fix error check of of_io_request_and_map() result
-         3a74e73b863a2493c0502a08e20ab026a0134ca1 irqchip/renesas-rzv2h: Add suspend/resume support
+         3edf6ee38b9d12d13d5eea1a00efaf9ce87a5a01 io_uring: add support for BPF filtering for opcode restrictions
+         233f1da6ae93d270bd2d4336c4cea8bc6ff27e9e io_uring/net: allow filtering on IORING_OP_SOCKET data
+         ac23aa81979307285fe50a405538d5e025f24cf0 io_uring/bpf_filter: cache lookup table in ctx->bpf_filters
+         a71027bccad288364f700248056f413dffd5f5f6 io_uring/bpf_filter: add ref counts to struct io_bpf_filter
+         911317d286eeaf5746c7529a51a4d60d9457a0e2 io_uring: add task fork hook
+         1bb06e1cce910a14f4cd5f5b6b0e428269d0b26e io_uring: allow registration of per-task restrictions
          
+  - ref: refs/heads/io_uring-cbpf-restrictions
+    old: 0f8a03cfaae90d44799d4cd29cc308ffdd81d93e
+    new: 85e621d42a100de1843ce5ffa73681e914a23bf6
+    log: |
+         ee88cce32bc01f922769c05c1ebc3e73074bc9ed io_uring: add support for BPF filtering for opcode restrictions
+         01a99302f2aaa0fc59d62d6cfdc13ef73660f683 io_uring/net: allow filtering on IORING_OP_SOCKET data
+         f336aa9b2f9ef519019fd9bb2058e14d20cc2df6 io_uring/bpf_filter: cache lookup table in ctx->bpf_filters
+         25993cdc507aeb084673435998e039aa2cf481f7 io_uring/bpf_filter: add ref counts to struct io_bpf_filter
+         a673c2d881f1dd7dd52e85675670d94e960ebb16 io_uring: add task fork hook
+         85e621d42a100de1843ce5ffa73681e914a23bf6 io_uring: allow registration of per-task restrictions
+         
+  - ref: refs/heads/io_uring-bpf-both-restrictions
+    old: 0000000000000000000000000000000000000000
+    new: 101d5f0794ddfbee7649bbfa145854ecfa7d1994
