@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4773002295356731254=="
+Content-Type: multipart/mixed; boundary="===============6565307991898886883=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/shawnguo/linux
-Date: Sun, 18 Jan 2026 06:42:24 -0000
-Message-Id: <176871854471.1330384.16825276363089283273@gitolite.kernel.org>
+Date: Sun, 18 Jan 2026 06:44:22 -0000
+Message-Id: <176871866271.1330926.4637343340662496176@gitolite.kernel.org>
 
---===============4773002295356731254==
+--===============6565307991898886883==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,53 +15,30 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/shawnguo/linux
 user: shawnguo
 changes:
-  - ref: refs/heads/imx/bindings
-    old: 77e18c63a38bd149f74a53e9c232254431e4de1c
-    new: b17171492e9897f2c283d7b62d7a283cbbeee6d0
-    log: |
-         6f55fc60dc2c465b536cd69b71b82266d0da52c9 dt-bindings: vendor-prefixes: Document ifm electronic gmbh
-         a642165719daa8a1b5aef86dcf6d6454082ac1d1 dt-bindings: arm: fsl: Document ifm VHIP4 EvalBoard v1 and v2
-         b17171492e9897f2c283d7b62d7a283cbbeee6d0 dt-bindings: arm: fsl: Add compatible for i.MX95 15x15 FRDM board
-         
-  - ref: refs/heads/imx/defconfig
-    old: 4cd1eadb61de88013f7cdc88dc7293338493fe72
-    new: 42832d01c6114cf503a01983ff4e2512dad926fe
-    log: |
-         42832d01c6114cf503a01983ff4e2512dad926fe ARM: imx_v4_v5_defconfig: update for v6.19-rc1
-         
-  - ref: refs/heads/imx/drivers
-    old: 80a4062e8821861c3ce7407ea5b23afa959917e2
-    new: f6ef3d9ff81240e9bcc030f2da132eb0f8a761d7
-    log: |
-         ab382a6ee25f0b571cffad66b2e6aaf0d2d245ec soc: imx: Use device-managed APIs for i.MX9
-         36ca5298fc426f7c69111c7d4ef9310d2dc2d296 soc: imx: Use dev_err_probe() for i.MX9
-         4acaf8b293c8b03301508764dc3e586658186730 soc: imx: Spport i.MX9[4,52]
-         f6ef3d9ff81240e9bcc030f2da132eb0f8a761d7 soc: imx8m: Fix error handling for clk_prepare_enable()
-         
-  - ref: refs/heads/imx/dt
-    old: 73368efe2b47b8b3e579673c8fb11b106898b49c
-    new: f325a91895d8a9167a7f1268569c1877272f897c
-    log: |
-         54397e9844a4d1231a2aa2a6042b9fab279772b7 ARM: dts: imx6qdl: add '#address-cells' and '#size-cells' for gpmi-nand
-         af6c4ea19df9a6612c15f7647d47397e4314d4e7 ARM: dts: imx6sx: update gpmi #size-cells to 0
-         8124b4a4a96b57d6cc3705a9df9623c52baa047b ARM: dts: imx: move nand related property under nand@0
-         e9c48e558696addf692559a9ded4f0064b5e6db2 ARM: dts: imx: tolino-shine2: add tps65185
-         9fcca3e28533b8ee5a67c83be5defad3ed445e91 ARM: dts: imx50-kobo-aura: add epd pmic description
-         f325a91895d8a9167a7f1268569c1877272f897c ARM: dts: imx: e60k02: add tps65185
-         
-  - ref: refs/heads/imx/dt64
-    old: b4bf5e55899e8c2662a6f0e221128f590ac5f331
-    new: 9bdfeed989b126a3c9c5a6f74ad2d96784b69d27
-    log: revlist-b4bf5e55899e-9bdfeed989b1.txt
+  - ref: refs/heads/for-next
+    old: f74941f893aecceca443180381d40d496f12afb3
+    new: 3cea6b209a3f2acbc4fcc9c60aea657e7f7d10fc
+    log: revlist-f74941f893ae-3cea6b209a3f.txt
 
---===============4773002295356731254==
+--===============6565307991898886883==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b4bf5e55899e-9bdfeed989b1.txt
+Content-Disposition: attachment; filename=revlist-f74941f893ae-3cea6b209a3f.txt
 
 f0ed0e84445245e56aa73c4df8d99936a2ce8549 arm64: dts: imx91: Add thermal-sensor and thermal-zone support
+4fa62e80c7dba7ff419dea23f10bcb125e38bde3 firmware: arm_scmi: imx: Support getting syslog of MISC protocol
+80a4062e8821861c3ce7407ea5b23afa959917e2 firmware: imx: sm-misc: Dump syslog info
+54397e9844a4d1231a2aa2a6042b9fab279772b7 ARM: dts: imx6qdl: add '#address-cells' and '#size-cells' for gpmi-nand
+af6c4ea19df9a6612c15f7647d47397e4314d4e7 ARM: dts: imx6sx: update gpmi #size-cells to 0
+8124b4a4a96b57d6cc3705a9df9623c52baa047b ARM: dts: imx: move nand related property under nand@0
 fc61fdfdc4dd03fa5cea784e1969ed3df049c6c8 arm64: dts: imx95: Use GPU_CGC as core clock for GPU
+ab382a6ee25f0b571cffad66b2e6aaf0d2d245ec soc: imx: Use device-managed APIs for i.MX9
+36ca5298fc426f7c69111c7d4ef9310d2dc2d296 soc: imx: Use dev_err_probe() for i.MX9
+4acaf8b293c8b03301508764dc3e586658186730 soc: imx: Spport i.MX9[4,52]
+42832d01c6114cf503a01983ff4e2512dad926fe ARM: imx_v4_v5_defconfig: update for v6.19-rc1
+6f55fc60dc2c465b536cd69b71b82266d0da52c9 dt-bindings: vendor-prefixes: Document ifm electronic gmbh
+a642165719daa8a1b5aef86dcf6d6454082ac1d1 dt-bindings: arm: fsl: Document ifm VHIP4 EvalBoard v1 and v2
 6429d40e519fed71e2bd2afd59f9a379f9740a9b arm64: dts: imx8mq-librem5: Enable I2C recovery
 bb01a42b1bc2ee4483a784ac6e8597d16227a04f arm64: dts: imx8mq-librem5: Set vibrator's PWM frequency to 20kHz
 1361bfee8d7b791288e585a3467330a5f5b699ed arm64: dts: imx8mq-librem5: Enable SNVS RTC
@@ -81,8 +58,18 @@ ba1d167451875caddb11502fcc26015bbb31d728 arm64: dts: imx952-evk: Enable SPI7
 aef607803edda92d2fc853a2e5f3dba6d147d598 arm64: dts: imx952-evk: Add flexcan support
 2da6336e94c223ee5b8535faf8138f0c8b8f1275 arm64: dts: imx952-evk: Add nxp,ctrl-ids for scmi misc
 8c898869809ddb3347a7cddcb3a8ceee42b38488 arm64: dts: imx93-11x11-frdm: Add MQS audio support
+e9c48e558696addf692559a9ded4f0064b5e6db2 ARM: dts: imx: tolino-shine2: add tps65185
+9fcca3e28533b8ee5a67c83be5defad3ed445e91 ARM: dts: imx50-kobo-aura: add epd pmic description
+f325a91895d8a9167a7f1268569c1877272f897c ARM: dts: imx: e60k02: add tps65185
+f6ef3d9ff81240e9bcc030f2da132eb0f8a761d7 soc: imx8m: Fix error handling for clk_prepare_enable()
 1a7d97c2d3868c7c7b74b26d4af210e22666171b arm64: dts: imx93-11x11-frdm: enable additional devices
 868f5c154c25b7b2fba29c5c07f3b22a7ec8d49e arm64: dts: imx91-11x11-frdm: fix CAN transceiver gpio
+b17171492e9897f2c283d7b62d7a283cbbeee6d0 dt-bindings: arm: fsl: Add compatible for i.MX95 15x15 FRDM board
 9bdfeed989b126a3c9c5a6f74ad2d96784b69d27 arm64: dts: freescale: imx95: Add support for i.MX95 15x15 FRDM board
+e36277bd6ef75da37cf5ebfb1f510031ff48c179 Merge branch 'imx/drivers' into for-next
+1c113fc1c161e26357675b3967ba383a60dd53e1 Merge branch 'imx/bindings' into for-next
+de83356cfd28ea8fd2d2678746a96af25d0cdf4a Merge branch 'imx/dt' into for-next
+7053a6dbf15816f758f841368eea787e81a3c07a Merge branch 'imx/dt64' into for-next
+3cea6b209a3f2acbc4fcc9c60aea657e7f7d10fc Merge branch 'imx/defconfig' into for-next
 
---===============4773002295356731254==--
+--===============6565307991898886883==--
