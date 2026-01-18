@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0114768548051639013=="
+Content-Type: multipart/mixed; boundary="===============8474757416165774462=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/abelvesa/linux
-Date: Sun, 18 Jan 2026 17:56:16 -0000
-Message-Id: <176875897630.1839297.7073830687634824662@gitolite.kernel.org>
+Date: Sun, 18 Jan 2026 17:56:36 -0000
+Message-Id: <176875899685.1839559.5622281204354087016@gitolite.kernel.org>
 
---===============0114768548051639013==
+--===============8474757416165774462==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/abelvesa/linux
 user: abelvesa
 changes:
-  - ref: refs/heads/for-next
+  - ref: refs/heads/clk/imx
     old: fdc1dc7dd53b95805d3943ed36785c1ec812915e
     new: 3e6b0227b93c708e93e33f6c3485bad077650766
     log: revlist-fdc1dc7dd53b-3e6b0227b93c.txt
 
---===============0114768548051639013==
+--===============8474757416165774462==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ cba09e3ed06db4b6c87bc97e0aea080421fb8f7d Merge tag 'perf-urgent-2025-12-12' of g
 9bb910b049402b7a3496250c9c6ab169aed83d15 clk: imx: fracn-gppll: Add 332.60 MHz Support
 3e6b0227b93c708e93e33f6c3485bad077650766 clk: imx: fracn-gppll: Add 241.90 MHz Support
 
---===============0114768548051639013==--
+--===============8474757416165774462==--
