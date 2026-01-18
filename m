@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/liburing
-Date: Sun, 18 Jan 2026 16:56:13 -0000
-Message-Id: <176875537336.1793981.17836657662861699983@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tj/cgroup
+Date: Sun, 18 Jan 2026 17:09:49 -0000
+Message-Id: <176875618948.1802544.832420873621119999@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/liburing
-user: axboe
+repo: pub/scm/linux/kernel/git/tj/cgroup
+user: tj
 changes:
-  - ref: refs/heads/man-pages
+  - ref: refs/tags/cgroup-for-6.19-rc5-fixes-2
     old: 0000000000000000000000000000000000000000
-    new: ed19b96860a4f549ad4c1e2c299d6d17c741d3d9
+    new: 439d95e5d7b0e6af186435f8f2c07b2ae35d0270
