@@ -1,28 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jassibrar/mailbox
-Date: Sun, 18 Jan 2026 20:49:13 -0000
-Message-Id: <176876935326.1965873.7009127128956544740@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
+Date: Sun, 18 Jan 2026 20:55:11 -0000
+Message-Id: <176876971167.1973063.11833778281635977625@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jassibrar/mailbox
-user: jassibrar
+repo: pub/scm/linux/kernel/git/akpm/25-new
+user: akpm
 changes:
-  - ref: refs/heads/for-next
-    old: 15ff4c643233673c6b5804d1ffb785b1a3d00bb4
-    new: 073fdbd2c2887a2cf06aed96ef620d3d98eedf3f
+  - ref: refs/heads/master
+    old: dd62c4b7e36faa0befe32496e887d46ecd4ba3c8
+    new: 827f6e88e99ad1ec1e1eb533851d38f32eec884c
     log: |
-         bd36854b05c232a069a5fef8080a9f6e0ad01704 mailbox: pcc: Remove spurious IRQF_ONESHOT usage
-         379a21c993a9f119dbcf32265c91ecb9fda1a6a2 mailbox: exynos: drop unneeded runtime pointer (pclk)
-         ac775b5f7766c1e557a5e48cbc3bae2093161184 mailbox: imx: Skip the suspend flag for i.MX7ULP
-         f37cd4b8d3a8f26c03ef349a3d9acd6e4458a1c4 mailbox: cix: fix typo in error message
-         7c81cb5c437b0b52a87068b9d1cfbcf52165ba39 mailbox: arm_mhuv3: fix typo in comment
-         3bb705ad4278704416782ac69161d98b83055dd1 mailbox: mchp-ipc-sbi: fix uninitialized symbol and other smatch warnings
-         7dbc59481b9fa2160f39759574d4666260469a4a mailbox: Improve RISCV_SBI_MPXY_MBOX guidance
-         a1476cd5ff886059ba9da5144865eb24a66fdbb4 dt-bindings: mailbox: xlnx,zynqmp-ipi-mailbox: Document msg region requirement
-         040ed1be3bc47f9569088fd9361d3628c2b36aca mailbox: mtk-cmdq: Simplify with scoped for each OF child loop
-         073fdbd2c2887a2cf06aed96ef620d3d98eedf3f mailbox: zynqmp-ipi: Simplify with scoped for each OF child loop
+         7234b1ca24a8d396a749c883e119ecba480f0c4b foo
+         bb9e563bb74075fca590693fcaf4f069e26e6cb6 foo
+         99dbad359d87ed3ccf484c3289353c0fcbe9e177 foo
+         16198c7390011f54973194db20013b3e743278f7 foo
+         a9be8395a0a9e38ce0bd64dad42faecf5dfd7e18 foo
+         2eb306e030d74de15f321a017a8ee9ed20cf505c foo
+         b787f6e7a42cda537abbcaa3fbdeb71e1be97f6b foo
+         827f6e88e99ad1ec1e1eb533851d38f32eec884c foo
          
