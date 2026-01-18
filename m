@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3890986111579648805=="
+Content-Type: multipart/mixed; boundary="===============1751436957750627753=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs
-Date: Sun, 18 Jan 2026 03:33:07 -0000
-Message-Id: <176870718783.1191730.14422012968319918938@gitolite.kernel.org>
+Date: Sun, 18 Jan 2026 03:33:39 -0000
+Message-Id: <176870721916.1191989.16535455889931410678@gitolite.kernel.org>
 
---===============3890986111579648805==
+--===============1751436957750627753==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jaegeuk/f2fs
 user: jaegeuk
 changes:
-  - ref: refs/heads/dev-test
-    old: d62d2cb61be54bcfb56afe932f911f210c361c5a
+  - ref: refs/heads/dev
+    old: 3996b70209f145bfcf2afc7d05dd92c27b233b48
     new: ec8bb999dc0c5d64a3366ce8765a479305a82029
-    log: revlist-d62d2cb61be5-ec8bb999dc0c.txt
+    log: revlist-3996b70209f1-ec8bb999dc0c.txt
 
---===============3890986111579648805==
+--===============1751436957750627753==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d62d2cb61be5-ec8bb999dc0c.txt
+Content-Disposition: attachment; filename=revlist-3996b70209f1-ec8bb999dc0c.txt
 
 ce2739e482bce8d2c014d76c4531c877f382aa54 f2fs: fix to avoid UAF in f2fs_write_end_io()
 1dd3b437d49ce09f0bd72acc1d694e212f26d1fe f2fs: make FAULT_DISCARD obsolete
@@ -40,4 +40,4 @@ fe2961fb77e4784261976ca887135b1aecd8a9f1 f2fs: avoid f2fs_map_blocks() for conse
 5c145c03188bc9ba1c29e0bc4d527a5978fc47f9 f2fs: fix to avoid mapping wrong physical block for swapfile
 ec8bb999dc0c5d64a3366ce8765a479305a82029 f2fs: use folio_end_read
 
---===============3890986111579648805==--
+--===============1751436957750627753==--
