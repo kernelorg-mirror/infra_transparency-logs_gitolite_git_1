@@ -1,19 +1,28 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Sun, 18 Jan 2026 09:32:56 -0000
-Message-Id: <176872877601.1456697.12649961129124880186@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
+Date: Sun, 18 Jan 2026 09:36:21 -0000
+Message-Id: <176872898136.1460179.4423082129137473041@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: tglx
+repo: pub/scm/linux/kernel/git/tiwai/sound
+user: tiwai
 changes:
-  - ref: refs/heads/timers/vdso
-    old: adc00a0daf1bb08915bceee9ae73cca682e7d5bb
-    new: fd69b2f7d5f4e1d89cea4cdfa6f15e7fa53d8358
+  - ref: refs/heads/for-linus
+    old: 46b8d0888f01f250fbd24d00ff80b755c3c42cd4
+    new: 6f5c69f72e50d51be3a8c028ae7eda42c82902cb
     log: |
-         fd69b2f7d5f4e1d89cea4cdfa6f15e7fa53d8358 compiler: Use __typeof_unqual__() for __unqual_scalar_typeof()
+         6b971191fcfc9e3c2c0143eea22534f1f48dbb62 ALSA: usb: Increase volume range that triggers a warning
+         6f5c69f72e50d51be3a8c028ae7eda42c82902cb ALSA: scarlett2: Fix buffer overflow in config retrieval
+         
+  - ref: refs/heads/master
+    old: c2bca43a617871bdbdf6ce5f4507ca61e7f35076
+    new: a8b46d2054b0deccf542b3d1d8da6267a864d082
+    log: |
+         6b971191fcfc9e3c2c0143eea22534f1f48dbb62 ALSA: usb: Increase volume range that triggers a warning
+         6f5c69f72e50d51be3a8c028ae7eda42c82902cb ALSA: scarlett2: Fix buffer overflow in config retrieval
+         a8b46d2054b0deccf542b3d1d8da6267a864d082 Merge branch 'for-linus'
          
