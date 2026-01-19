@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/qcom/linux
-Date: Mon, 19 Jan 2026 16:21:44 -0000
-Message-Id: <176883970413.2982282.7628253797424886834@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Mon, 19 Jan 2026 16:29:48 -0000
+Message-Id: <176884018866.2987185.8411395047376321401@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/qcom/linux
-user: andersson
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/tags/qcom-drivers-for-6.20
+  - ref: refs/heads/fileOztCHI
     old: 0000000000000000000000000000000000000000
-    new: e5537d5814ced0d84b01cd8d74a044168a7fa849
+    new: 83ba6efa711fad83a0fbf02178ad64d3906d8d09
