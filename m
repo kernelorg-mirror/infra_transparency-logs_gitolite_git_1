@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5384606177249936794=="
+Content-Type: multipart/mixed; boundary="===============6756922837916404772=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
-Date: Mon, 19 Jan 2026 14:00:47 -0000
-Message-Id: <176883124789.2865304.6686338140338213537@gitolite.kernel.org>
+Date: Mon, 19 Jan 2026 14:00:54 -0000
+Message-Id: <176883125489.2865520.15043180190737549762@gitolite.kernel.org>
 
---===============5384606177249936794==
+--===============6756922837916404772==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,19 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jlayton/linux
 user: jlayton
 changes:
-  - ref: refs/heads/exportfs-nfsd
-    old: b346b04ba0f9dfcccb3e997fd280040b80eab2e0
+  - ref: refs/heads/kdevops
+    old: ff92393867cef4e51acc30e9b9a4e755516f7cd9
     new: 82c9e42284df2008de654a27b033fa004aea3a3e
-    log: revlist-b346b04ba0f9-82c9e42284df.txt
+    log: revlist-ff92393867ce-82c9e42284df.txt
 
---===============5384606177249936794==
+--===============6756922837916404772==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b346b04ba0f9-82c9e42284df.txt
+Content-Disposition: attachment; filename=revlist-ff92393867ce-82c9e42284df.txt
 
+39d2f26be0d6122455ad12ea1bf1989857af9708 fs: require filesystems to explicitly opt-in to nfsd export support
+162f814d20f2c0f318fbda66e2722aa015db4fef Documentation: document EXPORT_OP_NOLOCKS
 415e743e70d3f3b9f6189ec03f41d53c6675d805 exportfs: add new EXPORT_OP_STABLE_HANDLES flag
 668dd0c9f51ec6effdd41ed9271299a2d86dc8e8 tmpfs: add EXPORT_OP_STABLE_HANDLES flag to export operations
 88c671469571d213907a883ab11f884e32fb22af ext4: add EXPORT_OP_STABLE_HANDLES flag to export operations
@@ -57,4 +59,4 @@ da0e37bca30758c37d250e63233c31d9e43b688d f2fs: add EXPORT_OP_STABLE_HANDLES flag
 f1ee1595163219633d7736429b63d9b63c377b33 nfsd: only allow filesystems that set EXPORT_OP_STABLE_HANDLES
 82c9e42284df2008de654a27b033fa004aea3a3e nfsd: convert dprintks in check_export() to tracepoints
 
---===============5384606177249936794==--
+--===============6756922837916404772==--
