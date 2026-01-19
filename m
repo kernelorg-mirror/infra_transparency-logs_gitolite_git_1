@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/tpm2-protocol
-Date: Mon, 19 Jan 2026 23:08:09 -0000
-Message-Id: <176886408955.3305971.8268686690789419239@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/abelloni/linux
+Date: Mon, 19 Jan 2026 23:08:21 -0000
+Message-Id: <176886410193.3306234.13929662695251526758@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/tpm2-protocol
-user: jarkko
+repo: pub/scm/linux/kernel/git/abelloni/linux
+user: abelloni
 changes:
-  - ref: refs/heads/main
-    old: afe985c4d53a706c75879954e8fb2b3e817c9cbc
-    new: 59a16b34d542a2cb45fd95393ae0312c82f0e74d
+  - ref: refs/heads/rtc-fixes
+    old: 35dd0bf382a9118f5a519492acefb61428e3b036
+    new: c6cf26c15ce7f19d6c9d3366d40b360e58fe22aa
     log: |
-         59a16b34d542a2cb45fd95393ae0312c82f0e74d chore: bump version to 0.16.6
+         c6cf26c15ce7f19d6c9d3366d40b360e58fe22aa rtc: interface: Alarm race handling should not discard preceding error
          
