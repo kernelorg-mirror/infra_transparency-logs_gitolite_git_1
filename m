@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vireshk/pm
-Date: Mon, 19 Jan 2026 05:50:35 -0000
-Message-Id: <176880183514.2379867.13887466004179938101@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sunxi/linux
+Date: Mon, 19 Jan 2026 05:57:39 -0000
+Message-Id: <176880225950.2384120.12208160611757759958@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vireshk/pm
-user: vireshk
+repo: pub/scm/linux/kernel/git/sunxi/linux
+user: wens
 changes:
-  - ref: refs/heads/cpufreq/arm/linux-next
-    old: 28e2725838c0f5a1dee9f03b3c095e386cc3092d
-    new: ff2de1c570f6a3c0320c868b4ecd46db9c71d660
+  - ref: refs/heads/sunxi/dt-for-6.20
+    old: f8ad8bbb8827c5bfd83bdf5e1ab512d2dc5db643
+    new: db5e9260be8d3437222df74b5074359b22f1f029
     log: |
-         ff2de1c570f6a3c0320c868b4ecd46db9c71d660 cpufreq/amd-pstate: Add comment explaining nominal_perf usage for performance policy
+         db5e9260be8d3437222df74b5074359b22f1f029 ARM: dts: allwinner: Replace status "failed" with "fail"
          
