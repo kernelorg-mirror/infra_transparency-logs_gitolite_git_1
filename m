@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2219640255946068703=="
+Content-Type: multipart/mixed; boundary="===============3942612761313580515=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Mon, 19 Jan 2026 08:52:27 -0000
-Message-Id: <176881274792.2514226.17000633943287700076@gitolite.kernel.org>
+Date: Mon, 19 Jan 2026 08:52:57 -0000
+Message-Id: <176881277769.2514600.11111949718973023551@gitolite.kernel.org>
 
---===============2219640255946068703==
+--===============3942612761313580515==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,15 +16,51 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: d613f96096e48b3646217f006bcccc6ff973c428
-    new: ad26c1788e012206531f471ae704df69333abc39
-    log: revlist-d613f96096e4-ad26c1788e01.txt
+    old: ad26c1788e012206531f471ae704df69333abc39
+    new: 04f1d414dc7e3182768098880e383f26f81dc117
+    log: revlist-ad26c1788e01-04f1d414dc7e.txt
+  - ref: refs/heads/tip/urgent
+    old: d4c13b0b9350181eccde59de82f5359d63be3044
+    new: d1e947d3582dea1f9a4a810de7113e3b83a31f02
+    log: revlist-d4c13b0b9350-d1e947d3582d.txt
+  - ref: refs/tags/v6.19-rc6
+    old: 0000000000000000000000000000000000000000
+    new: c8a4a774a9b0d2c86593492625874e27e9cbc9a9
 
---===============2219640255946068703==
+--===============3942612761313580515==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d613f96096e4-ad26c1788e01.txt
+Content-Disposition: attachment; filename=revlist-ad26c1788e01-04f1d414dc7e.txt
+
+d1e947d3582dea1f9a4a810de7113e3b83a31f02 Merge branch into tip/master: 'irq/urgent'
+8ed924698ef6edf8091a8a0528d96bfee553ed9b Merge branch into tip/master: 'irq/core'
+90142a1caeb6f0e4f49229e9e964d211d56511ab Merge branch into tip/master: 'irq/drivers'
+c41c9079289a6b994e5835d0827ff0ba0e821d1c Merge branch into tip/master: 'irq/msi'
+6926ba0283d8ff69b91c59bb0053e33f54c1d42f Merge branch into tip/master: 'locking/core'
+cdd04d5c4be84e9ec33cc1e36b411ebeeb702ce3 Merge branch into tip/master: 'perf/core'
+477c0d5641089e0177bab62f64d276c9fb3ee063 Merge branch into tip/master: 'sched/core'
+8474f99d019523520a1a9a2e3c460d2430b2de66 Merge branch into tip/master: 'timers/core'
+9583b0f9cf2731d0fd499e2bcf1563b1de213db7 Merge branch into tip/master: 'timers/vdso'
+7fcea512e5181a2dc5f36df4245d517a5669d4c5 Merge branch into tip/master: 'x86/alternatives'
+5cc591a6f319b230948ab2b53f04251557b9d1f0 Merge branch into tip/master: 'x86/boot'
+942ef34bdef2ae1d0887b53e6f572e062f20f19d Merge branch into tip/master: 'x86/bugs'
+7e13579e8028e77f60fb7945de49fef70af625a8 Merge branch into tip/master: 'x86/cache'
+4667cb464201655c0ee1a7f227ef64159007033a Merge branch into tip/master: 'x86/cleanups'
+b55308b8508e72559acc73f65fb9626b85e5b6ea Merge branch into tip/master: 'x86/core'
+79a02a116a52c96311b04be8051030c8bd730bb8 Merge branch into tip/master: 'x86/cpu'
+eae7f85ee2391bcda55845f6bcfb515980bf5770 Merge branch into tip/master: 'x86/entry'
+278f5debb897d679acc2a59bfdd326de8efe30c8 Merge branch into tip/master: 'x86/irq'
+17bc2b9cb15e124ac662d979a76e92614a4b02c6 Merge branch into tip/master: 'x86/microcode'
+43e700c381ff5c2bec063b1ce9c19cc01dc3f8f3 Merge branch into tip/master: 'x86/misc'
+7babbb172206ad6416f1c818ba0674bdb440593f Merge branch into tip/master: 'x86/paravirt'
+04f1d414dc7e3182768098880e383f26f81dc117 Merge branch into tip/master: 'x86/sev'
+
+--===============3942612761313580515==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-d4c13b0b9350-d1e947d3582d.txt
 
 49400b701eca849c1b53717b1f5d779a8d066ec0 dmaengine: mmp_pdma: fix DMA mask handling
 c7d436a6c1a274c1ac28d5fb3b8eb8f03b6d0e10 dmaengine: xilinx: xdma: Fix regmap max_register
@@ -129,6 +165,6 @@ f8907398a6d941b204b90b6a40eecfdfd7d00c44 Merge tag 'ext4_for_linus-6.19-rc6' of 
 6f32aa91612ae7e6a59f7ed228ce6274231a9332 Merge tag 'cgroup-for-6.19-rc5-fixes-2' of git://git.kernel.org/pub/scm/linux/kernel/git/tj/cgroup
 90a855e75a99f2932b19f4d04bac1edef158d95e Merge tag 'landlock-6.19-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/mic/linux
 24d479d26b25bce5faea3ddd9fa8f3a6c3129ea7 Linux 6.19-rc6
-ad26c1788e012206531f471ae704df69333abc39 Merge branch 'linus'
+d1e947d3582dea1f9a4a810de7113e3b83a31f02 Merge branch into tip/master: 'irq/urgent'
 
---===============2219640255946068703==--
+--===============3942612761313580515==--
