@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5396386528603684139=="
+Content-Type: multipart/mixed; boundary="===============5368163260988486693=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/klassert/ipsec
-Date: Mon, 19 Jan 2026 08:54:32 -0000
-Message-Id: <176881287214.2515574.4925200267053761356@gitolite.kernel.org>
+Date: Mon, 19 Jan 2026 08:54:56 -0000
+Message-Id: <176881289684.2515917.6267709556914715622@gitolite.kernel.org>
 
---===============5396386528603684139==
+--===============5368163260988486693==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/klassert/ipsec
 user: klassert
 changes:
-  - ref: refs/heads/testing
+  - ref: refs/heads/master
     old: c196def07bbc6e8306d7a274433913444b0db20a
     new: f40ddcc0c0ca1a0122a7f4440b429f97d5832bdf
     log: revlist-c196def07bbc-f40ddcc0c0ca.txt
 
---===============5396386528603684139==
+--===============5368163260988486693==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -1051,4 +1051,4 @@ b47adaab8b3d443868096bac08fdbb3d403194ba veth: fix data race in veth_get_ethtool
 a92a6c50e35b75a8021265507f3c2a9084df0b94 net: sfp: add potron quirk to the H-COM SPP425H-GAB4 SFP+ Stick
 f40ddcc0c0ca1a0122a7f4440b429f97d5832bdf Revert "nfc/nci: Add the inconsistency check between the input data length and count"
 
---===============5396386528603684139==--
+--===============5368163260988486693==--
