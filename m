@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7240570128355037691=="
+Content-Type: multipart/mixed; boundary="===============1947193641194434565=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/klassert/ipsec-next
-Date: Mon, 19 Jan 2026 08:53:17 -0000
-Message-Id: <176881279775.2514971.15070249134867137515@gitolite.kernel.org>
+Date: Mon, 19 Jan 2026 08:53:36 -0000
+Message-Id: <176881281625.2515209.7881594092340248534@gitolite.kernel.org>
 
---===============7240570128355037691==
+--===============1947193641194434565==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/klassert/ipsec-next
 user: klassert
 changes:
-  - ref: refs/heads/testing
+  - ref: refs/heads/master
     old: 8e7148b5602321be48614bcde048cbe1c738ce3e
     new: b4e486e2c46f754a515571a8ca1238fa567396dd
     log: revlist-8e7148b56023-b4e486e2c46f.txt
 
---===============7240570128355037691==
+--===============1947193641194434565==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -951,4 +951,4 @@ d1c7ed5dfa35d142b5aec4cf9b28eb40f1240fc3 net: macb: convert to use .get_rx_ring_
 c4279332f479a811e4c3c413eb4cd71bc8463288 net: txgbe: convert to use .get_rx_ring_count
 b4e486e2c46f754a515571a8ca1238fa567396dd Merge branch 'net-convert-drivers-to-get_rx_ring_count-part-2'
 
---===============7240570128355037691==--
+--===============1947193641194434565==--
