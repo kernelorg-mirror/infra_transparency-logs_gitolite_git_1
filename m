@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============5320709423170216981=="
+Content-Type: multipart/mixed; boundary="===============6646358152472212894=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Mon, 19 Jan 2026 14:28:15 -0000
-Message-Id: <176883289556.2885486.6236741562592548317@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jgg/iommufd
+Date: Mon, 19 Jan 2026 14:28:28 -0000
+Message-Id: <176883290815.2885712.17946534905959956214@gitolite.kernel.org>
 
---===============5320709423170216981==
+--===============6646358152472212894==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rdma/rdma
+repo: pub/scm/linux/kernel/git/jgg/iommufd
 user: jgg
 changes:
   - ref: refs/heads/linus
@@ -26,7 +26,7 @@ changes:
     old: 0000000000000000000000000000000000000000
     new: c8a4a774a9b0d2c86593492625874e27e9cbc9a9
 
---===============5320709423170216981==
+--===============6646358152472212894==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -625,4 +625,4 @@ f8907398a6d941b204b90b6a40eecfdfd7d00c44 Merge tag 'ext4_for_linus-6.19-rc6' of 
 90a855e75a99f2932b19f4d04bac1edef158d95e Merge tag 'landlock-6.19-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/mic/linux
 24d479d26b25bce5faea3ddd9fa8f3a6c3129ea7 Linux 6.19-rc6
 
---===============5320709423170216981==--
+--===============6646358152472212894==--
