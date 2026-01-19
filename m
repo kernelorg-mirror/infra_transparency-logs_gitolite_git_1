@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jarkko/tpm2-protocol
-Date: Mon, 19 Jan 2026 23:07:23 -0000
-Message-Id: <176886404392.3305613.2418641926165197969@gitolite.kernel.org>
+Date: Mon, 19 Jan 2026 23:08:09 -0000
+Message-Id: <176886408955.3305971.8268686690789419239@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/jarkko/tpm2-protocol
 user: jarkko
 changes:
   - ref: refs/heads/main
-    old: d00ffc63fbc1c14683b0e8b88916a53630745bf8
-    new: afe985c4d53a706c75879954e8fb2b3e817c9cbc
+    old: afe985c4d53a706c75879954e8fb2b3e817c9cbc
+    new: 59a16b34d542a2cb45fd95393ae0312c82f0e74d
     log: |
-         afe985c4d53a706c75879954e8fb2b3e817c9cbc fix(data): correct type for TpmSignCommand.in_scheme
+         59a16b34d542a2cb45fd95393ae0312c82f0e74d chore: bump version to 0.16.6
          
