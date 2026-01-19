@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mic/linux
-Date: Mon, 19 Jan 2026 21:29:38 -0000
-Message-Id: <176885817884.3227996.5797035491530704380@gitolite.kernel.org>
+Date: Mon, 19 Jan 2026 21:30:18 -0000
+Message-Id: <176885821810.3231120.16345066913802820978@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,15 +12,15 @@ repo: pub/scm/linux/kernel/git/mic/linux
 user: mic
 changes:
   - ref: refs/heads/next
-    old: 24d479d26b25bce5faea3ddd9fa8f3a6c3129ea7
-    new: be7c9643b05f77d0f02f2e768970887214e36846
+    old: be7c9643b05f77d0f02f2e768970887214e36846
+    new: bdb672bf4c5d0833b9beacb9c2204168b92cc48d
     log: |
-         7453b2e097488054d2b4257df62b2495bcb13ebe landlock: Add access_mask_subset() helper
-         0ec5fd0f47515c0f03ab82220d3f714852630ee5 landlock: Transpose the layer masks data structure
-         c706ddfbdc16f29fb587fb33da0a5b4432276faf landlock: Add LANDLOCK_SCOPE_PATHNAME_UNIX_SOCKET scope bit to uAPI
-         257ee527854022dffccb23ff64012a5bfaef831f landlock: Implement LANDLOCK_SCOPE_PATHNAME_UNIX_SOCKET
-         7d7244679c737d99c9ab651f9ccb71d009701b67 samples/landlock: Support LANDLOCK_SCOPE_PATHNAME_UNIX_SOCKET
-         412d14841ddc8dc1add577a6ce1de604caf9f2a9 selftests/landlock: Support pathname socket path in set_unix_address
-         b0388ebe9a7788887247756534c5f077e829eeb0 selftests/landlock: Repurpose scoped_abstract_unix_test.c for pathname sockets too.
-         be7c9643b05f77d0f02f2e768970887214e36846 selftests/landlock: Add pathname socket variants for more tests
+         3846ae34ebfa2877c26cbff56c2e561ed192ece2 landlock: Add access_mask_subset() helper
+         1ebf8e8d3245f6c985ba1c2cdfa0a7d1cd74438f landlock: Transpose the layer masks data structure
+         2f8b58d641ac2f76af06d77734cd735704bbb0bc landlock: Add LANDLOCK_SCOPE_PATHNAME_UNIX_SOCKET scope bit to uAPI
+         62e435108457f033507bfecc2fc28c9d9917f295 landlock: Implement LANDLOCK_SCOPE_PATHNAME_UNIX_SOCKET
+         90d13090d92415674b6af2713522c3b9101bb56c samples/landlock: Support LANDLOCK_SCOPE_PATHNAME_UNIX_SOCKET
+         6ee9a14a54a3240e0539ad66e2bed60b907a7c69 selftests/landlock: Support pathname socket path in set_unix_address
+         4e1890fabf91ef447d6f2ccdbecb04c61d892f81 selftests/landlock: Repurpose scoped_abstract_unix_test.c for pathname sockets too.
+         bdb672bf4c5d0833b9beacb9c2204168b92cc48d selftests/landlock: Add pathname socket variants for more tests
          
