@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8386247204912148696=="
+Content-Type: multipart/mixed; boundary="===============7280056584990838258=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Mon, 19 Jan 2026 03:20:16 -0000
-Message-Id: <176879281658.2267549.8544180192107010384@gitolite.kernel.org>
+Date: Mon, 19 Jan 2026 03:20:23 -0000
+Message-Id: <176879282311.2268009.1260029978562820887@gitolite.kernel.org>
 
---===============8386247204912148696==
+--===============7280056584990838258==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/cel/linux
 user: cel
 changes:
-  - ref: refs/heads/nfsd-next
-    old: 0beee30f11fabfa862bec190a5fc2f178dedae0f
-    new: 9cc98e89201a7759191481bf3733b2a14a29c2e9
-    log: revlist-0beee30f11fa-9cc98e89201a.txt
+  - ref: refs/heads/master
+    old: 0f61b1860cc3f52aef9036d7235ed1f017632193
+    new: 24d479d26b25bce5faea3ddd9fa8f3a6c3129ea7
+    log: revlist-0f61b1860cc3-24d479d26b25.txt
 
---===============8386247204912148696==
+--===============7280056584990838258==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0beee30f11fa-9cc98e89201a.txt
+Content-Disposition: attachment; filename=revlist-0f61b1860cc3-24d479d26b25.txt
 
 3d5221af9c7711b7aec8da1298c8fc393ef6183d xfrm: Fix inner mode lookup in tunnel mode GSO segmentation
 49400b701eca849c1b53717b1f5d779a8d066ec0 dmaengine: mmp_pdma: fix DMA mask handling
@@ -431,28 +431,5 @@ f8907398a6d941b204b90b6a40eecfdfd7d00c44 Merge tag 'ext4_for_linus-6.19-rc6' of 
 6f32aa91612ae7e6a59f7ed228ce6274231a9332 Merge tag 'cgroup-for-6.19-rc5-fixes-2' of git://git.kernel.org/pub/scm/linux/kernel/git/tj/cgroup
 90a855e75a99f2932b19f4d04bac1edef158d95e Merge tag 'landlock-6.19-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/mic/linux
 24d479d26b25bce5faea3ddd9fa8f3a6c3129ea7 Linux 6.19-rc6
-664bdf6a2f65465d6703978e3a67b9380e39b67c NFSD: Clean up nfsd4_check_open_attributes()
-1e2d9fce48e18bf91fde721cdca2633dd9bb3058 xdrgen: improve error reporting for invalid void declarations
-5b0a0f6e72cbfe1187ca8ba20ea4122cc60e9291 NFSD: Add instructions on how to deal with xdrgen files
-f10c3dfdb5ad728417725b316abf6536fcce6f96 xdrgen: Generate "if" instead of "switch" for boolean union enumerators
-e28e3671f4357003d1e2e39b679f1ed7c2856ad2 xdrgen: Address some checkpatch whitespace complaints
-eecf30f7a1b7744da66b1f7d8e470f2c55d7d5d6 locks: ensure vfs_test_lock() never returns FILE_LOCK_DEFERRED
-6bd7bd65fd98599c2a63d72cb2f10a7584c4019d nfsd: prefix notification in nfsd4_finalize_deleg_timestamps() with "nfsd: "
-bdf0c850c048a39f45f8fb1795b43dd0bb071a76 xdrgen: Fix struct prefix for typedef types in program wrappers
-703efd7a65112f4d132ab6133a363d4fab4add7d xdrgen: Emit the program number definition
-ad4090496944e8a3cb3ff7161df00d7f161e0653 NFS: NFSERR_INVAL is not defined by NFSv2
-33229c45dc932afe541868b54ab53f678c9ae163 nfsd: use workqueue enable/disable APIs for v4_end_grace sync
-b6fc8b8da02c17f660a7a4c79add8b32b3837388 nfsd: fix nfs4_file refcount leak in nfsd_get_dir_deleg()
-e2d3c78f75438e453e1621988be13d0edc7295a3 xdrgen: Implement short (16-bit) integer types
-de781a01a173b5dfe6e1b96f8a3ab860adb36de8 NFSD: fix setting FMODE_NOCMTIME in nfs4_open_delegation
-715772043a8a3670d72b7b947f982909a57511bf xdrgen: Initialize data pointer for zero-length items
-ff3d7641cdbe8f6e3eeff57a64d1df4451f19e0a xdrgen: Remove inclusion of nlm4.h header
-17a580e53fd1c3328276905e2a90aa2c1f36214b xdrgen: Improve parse error reporting
-4ca6afdf812b1da1806340d30fcaa7079764a830 nfsd: never defer requests during idmap lookup
-7411f200d6343e08d99b47200a133408c6e42b4a nfsd: fix return error code for nfsd_map_name_to_[ug]id
-37b224dc7c498f46c4457b5ba5f55c608cd8d5a6 SUNRPC: auth_gss: fix memory leaks in XDR decoding error paths
-5b73618f9effdd06f0e9433f97492413ad434139 xdrgen: Extend error reporting to AST transformation phase
-664285279ec49c6369b47407d7dd5fdfac52f031 xdrgen: Emit a max_arg_sz macro
-9cc98e89201a7759191481bf3733b2a14a29c2e9 xdrgen: Add enum value validation to generated decoders
 
---===============8386247204912148696==--
+--===============7280056584990838258==--
