@@ -1,76 +1,77 @@
-Content-Type: multipart/mixed; boundary="===============8203613384165745760=="
+Content-Type: multipart/mixed; boundary="===============0304393990530441897=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vbabka/linux
-Date: Mon, 19 Jan 2026 11:33:33 -0000
-Message-Id: <176882241304.2697348.12467036928860843559@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vbabka/slab
+Date: Mon, 19 Jan 2026 11:34:03 -0000
+Message-Id: <176882244301.2697631.423880536223654835@gitolite.kernel.org>
 
---===============8203613384165745760==
+--===============0304393990530441897==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vbabka/linux
+repo: pub/scm/linux/kernel/git/vbabka/slab
 user: vbabka
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/b4/sheaves-for-all
-    old: 0c334fe075cdc9212e809508705679e94b613289
-    new: 82dc7c1aac438beade7d5528101dc8f465b11dc8
-    log: revlist-0c334fe075cd-82dc7c1aac43.txt
+  - ref: refs/heads/slab/for-7.0/sheaves
+    old: aa2ab7f1e8dc9d27b9130054e48b0c6accddfcba
+    new: 7d37c07679ed8b1e9fca25bdd7b5f1d5737344b2
+    log: revlist-aa2ab7f1e8dc-7d37c07679ed.txt
 
---===============8203613384165745760==
+--===============0304393990530441897==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher A940D434992C2E8E99103D50224FA7E7CC82A664 1768822408 +0100
-pushee gitolite.kernel.org:pub/scm/linux/kernel/git/vbabka/linux.git
-nonce 1768822408-19ff99e09609a759f62e7f3d64bfe0e123c69e63
+pusher A940D434992C2E8E99103D50224FA7E7CC82A664 1768822438 +0100
+pushee gitolite.kernel.org:pub/scm/linux/kernel/git/vbabka/slab.git
+nonce 1768822438-dc26dbaeb1511e6a73e84d93aca89c2c68e3c764
 
-0c334fe075cdc9212e809508705679e94b613289 82dc7c1aac438beade7d5528101dc8f465b11dc8 refs/heads/b4/sheaves-for-all
+aa2ab7f1e8dc9d27b9130054e48b0c6accddfcba 7d37c07679ed8b1e9fca25bdd7b5f1d5737344b2 refs/heads/slab/for-7.0/sheaves
 -----BEGIN PGP SIGNATURE-----
 
-iQFPBAABCAA5FiEEe7vIQRWZI0iWSE3xu+CwddJFiJoFAmluFogbFIAAAAAABAAO
-bWFudTIsMi41KzEuMTEsMiwyAAoJELvgsHXSRYialhcH/1a+61ZUjcKnG3BtPLCB
-uv1wBcX2Wbw/Ao5+TgFQxmvuGtFBZ2zVeCqKe+l+JwolRHVaBV0ulnsqy5kKkF2D
-eaoDdWL+Oo/RZHD4fAmPd5TQLKhLbw5MsGVQEvGeR9yrKVPxJYgwBULZry7+q6xX
-Ft4QtYKjdIab7t/Jz6atGOJD7h4ocHyUUmLXJejb+nimZsP6i8pMBcRCo9HVqWzd
-kRPHwRTcpwywxK7wCtveE49ml8mo8Yk3dTPuNzdB680IsL14zLwmS3XkRFT0eoLz
-kgNWMc9gfW0RRJi/jScNdhkeUeDNMhWtpbiI5G4PJqJtFkBDzGbmwav4EyENLCgj
-K28=
-=TEnY
+iQFPBAABCAA5FiEEe7vIQRWZI0iWSE3xu+CwddJFiJoFAmluFqYbFIAAAAAABAAO
+bWFudTIsMi41KzEuMTEsMiwyAAoJELvgsHXSRYiag/AIAJb4VjBVGxWyFzEiVM5N
+k3DSY41rUeskI5OzjB1mD9EIaF5m+xo4rrFP/rsyaIPQ5+SzggbXXje3vxp9BatE
+4kTlrMDM3EJFgP+/XQfy/nnenQM8PWLauQUjcebowpxwGYXyKZfwC/1lM74vTDu7
+C3O6yqOXyrCrCn/BUuCxLVuUzsX8hDzf281oU66ya8za0TxkSf3eeAnORcxpTPYU
+icq57bwRKE68eL6xPKos6idGxAe8VqZfc+PXwfVy1Dd26TUzsyjte7iUtrUhIqDT
+/fvIRIU48Lx8nBjcIlFq1H38i8n8mffh/qCsx2BaqygVSKYlgW/UY7d0KgPAWHnP
+vdQ=
+=wqmY
 -----END PGP SIGNATURE-----
 
---===============8203613384165745760==
+--===============0304393990530441897==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0c334fe075cd-82dc7c1aac43.txt
+Content-Disposition: attachment; filename=revlist-aa2ab7f1e8dc-7d37c07679ed.txt
 
-b26b81758cf7ad96a2e867e17cf90f8a6dc64c92 slab: add SLAB_CONSISTENCY_CHECKS to SLAB_NEVER_MERGE
-efc42ee1225ba1c3d37ef99632125fdc6a56140a mm/slab: move and refactor __kmem_cache_alias()
-0036077935fd26be83e4f9c194072780973274af mm/slab: make caches with sheaves mergeable
-38709d47fa797c76a6121ee41904cb1cdb12ebae slab: add sheaves to most caches
-7f62331087abca2b0e842646d50ef1d86d20f8db slab: introduce percpu sheaves bootstrap
-b119f3996618e50c8c0e32934e06b3c144f144d6 slab: make percpu sheaves compatible with kmalloc_nolock()/kfree_nolock()
-eb1d0e9378aa96cee624c2a6668246f31884e35f slab: handle kmalloc sheaves bootstrap
-b26ac2d8b7af1da97fb215f53cd0ad113e839aad slab: add optimized sheaf refill from partial list
-0ba52d517a2fd2c8380bac979efe6cb71e2021b9 slab: remove cpu (partial) slabs usage from allocation paths
-256024d181a13d027a92bbb0f919d89baf0149de slab: remove SLUB_CPU_PARTIAL
-2a1d645a207fa62f88e1d04b556655ddc637be6f slab: remove the do_slab_free() fastpath
-e0767cd12c2b5464ec78077fca7e19d2e53d30dd slab: remove defer_deactivate_slab()
-02b73bc5b7b893f335674d893ace995f9e425a26 slab: simplify kmalloc_nolock()
-893dd5b83a571c953a5ab57246ebc1bec1256b94 slab: remove struct kmem_cache_cpu
-19be14fd28316501278f5cf9fcfe71d35f81f608 slab: remove unused PREEMPT_RT specific macros
-be9e562071a9089fb65a00cbd67e0c49bc6e41d3 slab: refill sheaves from all nodes
-432c6c6d0b13dbc11395ad63233ac359b44e85cb slab: update overview comments
-496a314f425c51d9ae450a0ffb6aafaf511ddfd1 slab: remove frozen slab checks from __slab_free()
-8dd36cb19cce3aa923812bb4e6675d4668694c2f mm/slub: remove DEACTIVATE_TO_* stat items
-82dc7c1aac438beade7d5528101dc8f465b11dc8 mm/slub: cleanup and repurpose some stat items
+773cdb2e3ac3c638e587bd90c6a84504a38d8803 mm/slab: add rcu_barrier() to kvfree_rcu_barrier_on_cache()
+b018f802b8b4d66f3d8145c48b40a09e5ae41a2d slab: add SLAB_CONSISTENCY_CHECKS to SLAB_NEVER_MERGE
+5bb547f837a6a5a4c771d0cca1beb95c69d4538e mm/slab: move and refactor __kmem_cache_alias()
+4f84aa5161e01d364906cdb3dade86f729a5acb1 mm/slab: make caches with sheaves mergeable
+3af8d65458c3ae0f20dce7e2a99dc5bbe0945336 slab: add sheaves to most caches
+f3565ce6b206238340a269151fb8531558a91af0 slab: introduce percpu sheaves bootstrap
+7bb9f759d0772202bd763761f8d921945fd75658 slab: make percpu sheaves compatible with kmalloc_nolock()/kfree_nolock()
+19838b52ba6d0dad3e526d4cb0baa955e516cf1f slab: handle kmalloc sheaves bootstrap
+3ff8f4e9014dda2b5a99f73dbb2961b01ce00f71 slab: add optimized sheaf refill from partial list
+c1249332cb8bf76ad78a6858dc909eee6e06846c slab: remove cpu (partial) slabs usage from allocation paths
+fef1acb387b73c31a695ece2aeb586e8fd1458cf slab: remove SLUB_CPU_PARTIAL
+36793e661fab1a7223810c03a548421b71ddd40f slab: remove the do_slab_free() fastpath
+5d1d7b669aa388bf06cdbd9ac7a6785a08def9df slab: remove defer_deactivate_slab()
+da6ed0180825dd390c1f83b6be2fbbaedbb9cc7a slab: simplify kmalloc_nolock()
+2ebb8b5a6e64c520f8356e020555565b2d744e3c slab: remove struct kmem_cache_cpu
+dc8a829ee3f7a42f6ded6baa4e633969c736cf85 slab: remove unused PREEMPT_RT specific macros
+fc27a0c02079f6f14b59b6888d66249a871ca466 slab: refill sheaves from all nodes
+49a98ca2bf3e9db8b69c0e2e22337fae0e40d9da slab: update overview comments
+d24187834269bf6209e18eea0c0cd36220d13954 slab: remove frozen slab checks from __slab_free()
+86250a98d5cda0d1cad32f348b237ce54c9b609e mm/slub: remove DEACTIVATE_TO_* stat items
+7d37c07679ed8b1e9fca25bdd7b5f1d5737344b2 mm/slub: cleanup and repurpose some stat items
 
---===============8203613384165745760==--
+--===============0304393990530441897==--
