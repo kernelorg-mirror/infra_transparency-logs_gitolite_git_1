@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3908768441374393091=="
+Content-Type: multipart/mixed; boundary="===============3054399447897553255=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/geert/linux-m68k
-Date: Mon, 19 Jan 2026 11:13:39 -0000
-Message-Id: <176882121995.2677504.2817586932990927534@gitolite.kernel.org>
+Date: Mon, 19 Jan 2026 11:13:52 -0000
+Message-Id: <176882123282.2677751.2231455073399212499@gitolite.kernel.org>
 
---===============3908768441374393091==
+--===============3054399447897553255==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/geert/linux-m68k
 user: geert
 changes:
-  - ref: refs/heads/master
-    old: 634df17853975c4219460d9eda73d1835750deb8
-    new: 889df66a8ef7752ff77c8f273a798edee0261317
-    log: revlist-634df1785397-889df66a8ef7.txt
+  - ref: refs/heads/m68k-queue
+    old: 3e1eec798920b5c0177cf1cbac4036dce47f85a2
+    new: 4f45d142fc12b60bda63c25d0aae0d5a21d9b8b2
+    log: revlist-3e1eec798920-4f45d142fc12.txt
 
---===============3908768441374393091==
+--===============3054399447897553255==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-634df1785397-889df66a8ef7.txt
+Content-Disposition: attachment; filename=revlist-3e1eec798920-4f45d142fc12.txt
 
 3d5221af9c7711b7aec8da1298c8fc393ef6183d xfrm: Fix inner mode lookup in tunnel mode GSO segmentation
 49400b701eca849c1b53717b1f5d779a8d066ec0 dmaengine: mmp_pdma: fix DMA mask handling
@@ -763,7 +763,8 @@ f8907398a6d941b204b90b6a40eecfdfd7d00c44 Merge tag 'ext4_for_linus-6.19-rc6' of 
 6f32aa91612ae7e6a59f7ed228ce6274231a9332 Merge tag 'cgroup-for-6.19-rc5-fixes-2' of git://git.kernel.org/pub/scm/linux/kernel/git/tj/cgroup
 90a855e75a99f2932b19f4d04bac1edef158d95e Merge tag 'landlock-6.19-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/mic/linux
 24d479d26b25bce5faea3ddd9fa8f3a6c3129ea7 Linux 6.19-rc6
-f8bbdd567d06ef628165da81eca3b48fb42d7214 Merge tag 'v6.19-rc5'
-889df66a8ef7752ff77c8f273a798edee0261317 Merge tag 'v6.19-rc6'
+6831e7c74729a002bb083b76b8c03037232752f6 m68k: atari: usb: Add ISP1160 USB host controller support
+331247efbf4b7d069377299d8cf4ac387d7bc185 m68k: atari: Update Kconfig.bus help text
+4f45d142fc12b60bda63c25d0aae0d5a21d9b8b2 m68k: defconfig: Enable Atari EtherNAT and NetUSBee USB support
 
---===============3908768441374393091==--
+--===============3054399447897553255==--
