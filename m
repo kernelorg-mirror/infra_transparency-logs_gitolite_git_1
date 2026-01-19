@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sunxi/linux
-Date: Mon, 19 Jan 2026 05:58:10 -0000
-Message-Id: <176880229072.2384460.1142579285403069069@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/andy/linux-auxdisplay
+Date: Mon, 19 Jan 2026 07:25:21 -0000
+Message-Id: <176880752179.2449229.14791412263443067857@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sunxi/linux
-user: wens
+repo: pub/scm/linux/kernel/git/andy/linux-auxdisplay
+user: andy
 changes:
-  - ref: refs/heads/sunxi/for-next
-    old: f8ad8bbb8827c5bfd83bdf5e1ab512d2dc5db643
-    new: db5e9260be8d3437222df74b5074359b22f1f029
-    log: |
-         db5e9260be8d3437222df74b5074359b22f1f029 ARM: dts: allwinner: Replace status "failed" with "fail"
-         
+  - ref: refs/tags/v6.19-rc6
+    old: 0000000000000000000000000000000000000000
+    new: c8a4a774a9b0d2c86593492625874e27e9cbc9a9
