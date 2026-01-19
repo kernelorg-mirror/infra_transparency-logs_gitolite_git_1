@@ -1,56 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============7300714098927190650=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Mon, 19 Jan 2026 11:50:18 -0000
-Message-Id: <176882341808.2712548.45196870845860599@gitolite.kernel.org>
-
---===============7300714098927190650==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/mediatek/linux
+Date: Mon, 19 Jan 2026 11:56:22 -0000
+Message-Id: <176882378214.2716987.12772025276060363896@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/mediatek/linux
+user: angelogioacchino.delregno
 changes:
-  - ref: refs/heads/master
-    old: 09a3ee1846d03d340cde6574f61b479f129a7107
-    new: fa66d9f850e71217009529adf29d36bc1b196bc2
+  - ref: refs/heads/v6.19-next/soc
+    old: 3da293d70005496317d1ff3a49b89c29dd7c21e8
+    new: 29bccd98f6151c8dafbcf7ca80ff0a03c3afd235
     log: |
-         fa66d9f850e71217009529adf29d36bc1b196bc2 6.18-stable patches
+         b8c1b01801d3f22cf64973184b028d15a9c63452 mailbox: mtk-cmdq: Add cmdq private data to cmdq_pkt for generating instruction
+         ff27f170c636c1b96fe11d09f05b1c8d5993ccf9 mailbox: mtk-cmdq: Add GCE hardware virtualization configuration
+         ff3a9d968d039d4afb806b9464585e0c86e5b102 mailbox: mtk-cmdq: Add mminfra_offset configuration for DRAM transaction
+         dde84bd146a25ae94f1351fb2125dd5052753981 mailbox: mtk-cmdq: Add driver data to support for MT8196
+         38091aedc5f9272d964284e6e0e62b986610b35a soc: mediatek: mtk-cmdq: Add cmdq_get_mbox_priv() in cmdq_pkt_create()
+         cef56c15811eafcf825b9890ab42514b9a7cfbcf soc: mediatek: mtk-cmdq: Add pa_base parsing for hardware without subsys ID support
+         9f1dfbec83497174231749b0bc10362f3ec1b24d soc: mediatek: mtk-cmdq: Extend cmdq_pkt_write API for SoCs without subsys ID
+         29bccd98f6151c8dafbcf7ca80ff0a03c3afd235 soc: mediatek: mtk-cmdq: Add mminfra_offset adjustment for DRAM addresses
          
-
---===============7300714098927190650==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1768823417 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1768823416-4eef9b54a446993c181fb3d393d705cdb26c1526
-
-09a3ee1846d03d340cde6574f61b479f129a7107 fa66d9f850e71217009529adf29d36bc1b196bc2 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmluGnkbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+dfUQANCObOoRa7r9aoF7PKYR
-y4PVd5fcdVlUXO/mDYCvJyv/Dye7Y6WfzWWAS083YNY4FJ6gm5QUNt8D1ghW0JEB
-MxmJycRokIfh9XigknvzWbN2SGGq1Nqh3m0si2pCNsGGI1vgiqJcAKh7IAFa2x34
-RiaISa47OZTYHa13D4rm86tCpxi6kf0usfXfPl+vDKPIN+qp464Fal2LLkT/yaKL
-8kvTvPqdM+lgmLMaZtpKscaa2gJMraAsJoWdlnu8pdEGUOjXSKMh4ckcPDj4tX4c
-PTx5qNMqjrzGf5N0bmHmKq7uaXd+h1dJaQxD+XHHQ2GiEyFOi6BpM7jtwyWaYQzs
-fNvv5DWBD8EvN6yIk8M6/yrQWIVY0A7hinP7bmHnK92uchwRstJ9ZPs86F3NVhgQ
-jbj9fys0Jze2+NbzwrJoU5S5Tnqg0xign75uUAjqGc/GUETFag/jgP2kPX9DJv1q
-ZuHgQG177StzOUFjqyXw0d4ZjTyLfSMssU+YtBSqjwQ+ffQHY/1+WEwBmI+ckoBv
-+3/5YWJ86Qz4o+S1XiruIg8IMaIq/jdkRnHEa3Zjvz2qVtkUQZPOBbKPA/WBBiSQ
-aBZspt0R33OZcq6nhifRDGV+ivhOZbh/9EhyTOTAGLXuSPed9MTAVZDQvjw9a0Zh
-EeXagsRq8caT0Obbsa7P9Bbm
-=cYlL
------END PGP SIGNATURE-----
-
---===============7300714098927190650==--
