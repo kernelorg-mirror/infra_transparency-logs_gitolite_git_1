@@ -1,56 +1,42 @@
-Content-Type: multipart/mixed; boundary="===============7272072144200617106=="
+Content-Type: multipart/mixed; boundary="===============0231579060827883554=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/security/vulns
-Date: Mon, 19 Jan 2026 12:22:37 -0000
-Message-Id: <176882535730.2789337.16522443960475589100@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
+Date: Mon, 19 Jan 2026 12:46:33 -0000
+Message-Id: <176882679344.2806923.5059243509911978465@gitolite.kernel.org>
 
---===============7272072144200617106==
+--===============0231579060827883554==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/security/vulns
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/peterz/queue
+user: peterz
 changes:
-  - ref: refs/heads/master
-    old: a382613b8c0373c81e260f91b6bdbd7f5b620beb
-    new: 115ddb86fa175f1d9781c725c70262d7a91440e4
-    log: |
-         115ddb86fa175f1d9781c725c70262d7a91440e4 updates for new stable kernel releases
-         
+  - ref: refs/heads/perf/core
+    old: 69044a0cbfdcc6e788c8a1f8e050d108038461d6
+    new: 54e0af32f0ce7e9b1cd62756986cafa2c19d9a2e
+    log: revlist-69044a0cbfdc-54e0af32f0ce.txt
 
---===============7272072144200617106==
+--===============0231579060827883554==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-69044a0cbfdc-54e0af32f0ce.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1768825354 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
-nonce 1768825354-71c3a3f81ef8c51e6c4c0741446b8229e767775d
+d55c571e4333fac71826e8db3b9753fadfbead6a x86/uprobes: Fix XOL allocation failure for 32-bit tasks
+2d96bb326ffb0f668f1c42cd5d31fcf4190f6c59 perf/amd/ibs: Throttle interrupts with filtered ldlat samples
+d054d83d674e166624ab76207f4cb9d228564277 perf/amd/ibs: Limit ldlat->l3missonly dependency to Zen5
+055f6794caebd0aac205e6e12d3b08ec1e15c01a perf/amd/ibs: Preserve PhyAddrVal bit when clearing PhyAddr MSR
+e0d8cf7de10a94c78ed6a1a44616147229c63ac4 perf/amd/ibs: Avoid race between event add and NMI
+e4f2c815018eb415364ff95d2c603485ab1ed6ec perf/amd/ibs: Define macro for ldlat mask
+7f81b0d6bf41fe4ab37b2072923ff7a4ba76ac08 perf/amd/ibs: Add new MSRs and CPUID bits definitions
+554fde69ee1b1d72f5b1714acea1dde0ee9c1d70 to eliminate RMW race
+56c93e49ddef610561fad01e018a6a48b7ec2c45 perf/amd/ibs: Enable fetch latency filtering
+4dd83cae356103c6acb57023514f9d0174009e0f perf/amd/ibs: Enable RIP bit63 hardware filtering
+6263059dad7391bbd6fba4dcf184e00dfd34fad5 perf/amd/ibs: Enable streaming store filter
+54e0af32f0ce7e9b1cd62756986cafa2c19d9a2e perf/amd/ibs: Advertise remote socket capability
 
-a382613b8c0373c81e260f91b6bdbd7f5b620beb 115ddb86fa175f1d9781c725c70262d7a91440e4 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmluIgobHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+D1oP/0fLWr3O2tUBXx9c/WSo
-e/pszMNZ1bIey+9ISJ8D1n3ybumUeUdHOHBfCe9qEvHyqxRTi6+wSUBZOI2FHp88
-5FLwjsGk15ekbqSTZdpbPlZ6NtbIk/o59OCqm+OTF+HVVC1rfJzves0efvtKb1NA
-sHVIKDX4OGNWv/HP9ahi37B3LP6dyGqDaOeFolSg7iPebqKiFIfbTxJpVeDUB+OW
-clgrv3jwTKNeo3fBanNtGlLTMbCR1TEJ6qdI31P00xe/JJxGaoVBsin0fdAQQb8+
-TGumDgv7CJRdXXAtVsQo1e+qH+uBHxzQK26bwjLCPj4IS02fTb/9AEoWYcfT20Up
-eHkyOfOBdux401UUo5VzHCEz3dPa9zNij2lbog8hD2lWD+TJO1VzcEO2prOUdTNk
-45c5eKX7P1vU/Ac07oPNzux5TZsts6Cfv7vHRPFH4Lres4o/MBMB1uYQ4OVEkfGS
-OFRv9nYoxBmSFyh3GDn+WkidpEPy4DW0fto0EXNdoOtnsJNKk4snW0vqqbOVOlaG
-9Pu7UyVDhG9X4jP0GCMzDY0corjQV7BDgXKqNtkCQDsALGGy3/PKW27DY90Yf859
-Laiy1zm162NNX0jo82fq4MLf4wwJW68VmZ+Uk2Dmn+w0qM600RUnDXoe5Xn9AxeT
-/vUcCbeWtDM0TXrgqNHNASlP
-=X/IL
------END PGP SIGNATURE-----
-
---===============7272072144200617106==--
+--===============0231579060827883554==--
