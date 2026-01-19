@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0304393990530441897=="
+Content-Type: multipart/mixed; boundary="===============6582081221005522040=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/vbabka/slab
-Date: Mon, 19 Jan 2026 11:34:03 -0000
-Message-Id: <176882244301.2697631.423880536223654835@gitolite.kernel.org>
+Date: Mon, 19 Jan 2026 11:43:36 -0000
+Message-Id: <176882301657.2705264.8023236660586047273@gitolite.kernel.org>
 
---===============0304393990530441897==
+--===============6582081221005522040==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,41 +16,41 @@ repo: pub/scm/linux/kernel/git/vbabka/slab
 user: vbabka
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/slab/for-7.0/sheaves
-    old: aa2ab7f1e8dc9d27b9130054e48b0c6accddfcba
-    new: 7d37c07679ed8b1e9fca25bdd7b5f1d5737344b2
-    log: revlist-aa2ab7f1e8dc-7d37c07679ed.txt
+  - ref: refs/heads/slab/for-next
+    old: 93ffa8995966a0bd29021e18813221ab155243d6
+    new: 121f860b3ef4787d4e707f2358a9c59224c7bcba
+    log: revlist-93ffa8995966-121f860b3ef4.txt
 
---===============0304393990530441897==
+--===============6582081221005522040==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher A940D434992C2E8E99103D50224FA7E7CC82A664 1768822438 +0100
+pusher A940D434992C2E8E99103D50224FA7E7CC82A664 1768823011 +0100
 pushee gitolite.kernel.org:pub/scm/linux/kernel/git/vbabka/slab.git
-nonce 1768822438-dc26dbaeb1511e6a73e84d93aca89c2c68e3c764
+nonce 1768823011-b13f76893de451f492967458bc9a7afc20f21d71
 
-aa2ab7f1e8dc9d27b9130054e48b0c6accddfcba 7d37c07679ed8b1e9fca25bdd7b5f1d5737344b2 refs/heads/slab/for-7.0/sheaves
+93ffa8995966a0bd29021e18813221ab155243d6 121f860b3ef4787d4e707f2358a9c59224c7bcba refs/heads/slab/for-next
 -----BEGIN PGP SIGNATURE-----
 
-iQFPBAABCAA5FiEEe7vIQRWZI0iWSE3xu+CwddJFiJoFAmluFqYbFIAAAAAABAAO
-bWFudTIsMi41KzEuMTEsMiwyAAoJELvgsHXSRYiag/AIAJb4VjBVGxWyFzEiVM5N
-k3DSY41rUeskI5OzjB1mD9EIaF5m+xo4rrFP/rsyaIPQ5+SzggbXXje3vxp9BatE
-4kTlrMDM3EJFgP+/XQfy/nnenQM8PWLauQUjcebowpxwGYXyKZfwC/1lM74vTDu7
-C3O6yqOXyrCrCn/BUuCxLVuUzsX8hDzf281oU66ya8za0TxkSf3eeAnORcxpTPYU
-icq57bwRKE68eL6xPKos6idGxAe8VqZfc+PXwfVy1Dd26TUzsyjte7iUtrUhIqDT
-/fvIRIU48Lx8nBjcIlFq1H38i8n8mffh/qCsx2BaqygVSKYlgW/UY7d0KgPAWHnP
-vdQ=
-=wqmY
+iQFPBAABCAA5FiEEe7vIQRWZI0iWSE3xu+CwddJFiJoFAmluGOMbFIAAAAAABAAO
+bWFudTIsMi41KzEuMTEsMiwyAAoJELvgsHXSRYiagfcH/3mFfMdaIe6MEf+ikxK2
+r4bQXC2Y3xaBFXy0H0yGwsquxxauMzM4mqhlThVJQIVPvVUVi11Xf+mO073xloJ5
+VSBtLezqr8cnqH/Zs8M60qgBRguiHjSdTJq6CISiQFjHLC6/su96UAyVfA1yF8Im
+QT3m4c5p8AVILaTC0sqyYhCYew1dEzdhjLM3SE5jd54Q/zr3UDSzgQ0xAmKsvCWX
+GzTEmzm3hxHXyDBe1Yh8ytfPE3IV/Ko1tLLWEEb1FPLA5mt3rFitfsJzoDqJWv/g
+MNhVQ3I2nLx6oLXk47PQJVDAmZMnNERRgpQQFtPi1tRbTH2YVE//1OCuf5idJ4fk
+jtE=
+=EQrv
 -----END PGP SIGNATURE-----
 
---===============0304393990530441897==
+--===============6582081221005522040==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-aa2ab7f1e8dc-7d37c07679ed.txt
+Content-Disposition: attachment; filename=revlist-93ffa8995966-121f860b3ef4.txt
 
 773cdb2e3ac3c638e587bd90c6a84504a38d8803 mm/slab: add rcu_barrier() to kvfree_rcu_barrier_on_cache()
 b018f802b8b4d66f3d8145c48b40a09e5ae41a2d slab: add SLAB_CONSISTENCY_CHECKS to SLAB_NEVER_MERGE
@@ -73,5 +73,6 @@ fc27a0c02079f6f14b59b6888d66249a871ca466 slab: refill sheaves from all nodes
 d24187834269bf6209e18eea0c0cd36220d13954 slab: remove frozen slab checks from __slab_free()
 86250a98d5cda0d1cad32f348b237ce54c9b609e mm/slub: remove DEACTIVATE_TO_* stat items
 7d37c07679ed8b1e9fca25bdd7b5f1d5737344b2 mm/slub: cleanup and repurpose some stat items
+121f860b3ef4787d4e707f2358a9c59224c7bcba Merge branch 'slab/for-7.0/obj_metadata' into slab/for-next
 
---===============0304393990530441897==--
+--===============6582081221005522040==--
