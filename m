@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6963620168060084047=="
+Content-Type: multipart/mixed; boundary="===============6852355214030641603=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Mon, 19 Jan 2026 09:24:47 -0000
-Message-Id: <176881468706.2538979.11824020685489311259@gitolite.kernel.org>
+Date: Mon, 19 Jan 2026 09:24:50 -0000
+Message-Id: <176881469085.2539192.3640724715318649435@gitolite.kernel.org>
 
---===============6963620168060084047==
+--===============6852355214030641603==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: f8f9c1f4d0c7a64600e2ca312dec824a0bc2f1da
+  - ref: refs/heads/usb-linus
+    old: dd83dc1249737b837ac5d57c81f2b0977c613d9f
     new: 24d479d26b25bce5faea3ddd9fa8f3a6c3129ea7
-    log: revlist-f8f9c1f4d0c7-24d479d26b25.txt
+    log: revlist-dd83dc124973-24d479d26b25.txt
 
---===============6963620168060084047==
+--===============6852355214030641603==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1768814686 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1768814690 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1768814685-4ab212e3b81b1e8755a6305f9c91439618d45b36
+nonce 1768814689-52e6e15cd03b83e080985f522f8bc894f8df42aa
 
-f8f9c1f4d0c7a64600e2ca312dec824a0bc2f1da 24d479d26b25bce5faea3ddd9fa8f3a6c3129ea7 refs/heads/main
+dd83dc1249737b837ac5d57c81f2b0977c613d9f 24d479d26b25bce5faea3ddd9fa8f3a6c3129ea7 refs/heads/usb-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmlt+F4bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk++g0P/2TUV9ccll8gTcTgxHRh
-QEfRZTgSxnTQ3ucSI8j3Qp68wFdRepyQu76P4TvklE0JZCxID4P9WIHBcd8rWeu6
-xuAtXkWkKigrI5LhlS4m3UUhW28Ilj17GAD7idkbujkTBjZ6oVmwrm19rHmruW3x
-e28PIVpbuBk7mVVqUQgIB5PXY4tGQqKyBrCodYdZr4NCpp081g9x4sizIbo1Ag6K
-GBvsKvbhaKhvfPnRm4KgKE9LoRrFOIWiWbiGmbT39NfrXTrBJBd3PM0dua08W0Cu
-G9FapvwhKxEPIocVP20BVSNMTd2aJgEuNm6xdjRWI8aQGpaFN1Fx5xaoO0fBve2i
-Sp/POpuFM6AunWvCDijI2+2inZ/F0s6N8K1peimYCZ4p2tvtpKJOFJ9vS6OjYSdR
-1NWGFcM8FqDH97cGVAWSYDen1fufICgSXjCihZ9p/T835n/nAbEmD8hOJuJ73NkD
-bmoJoSlsdD7EH+4nUo+yVfXDKvrZpg+O0yJwcOwrBxtLRILC8hQq9YkYeBeX+rTn
-SRQClc1KrHAHIOpzIeyYEA9f8HCXvuCzgI5EM25NjZNa2nXhKFLCzE6M0j2AuY/e
-ccVHhrAgL2NXKMAMui9MV3+oPp6DGbQ1O6UlW4SG65JLWqPNBWRKXiFopjDRcWEh
-Hu2+P+akhsbYQ/8ZgsSCXNnc
-=tPQO
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmlt+GIbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+17MQAJgpQAhIBAdoMS0h2Iew
+7rEdo7ybAH7NtwHnkc6ECFwkRBRDb61SrGn3ANmkOXeT9KTMmyRB4qzvR26PqveG
+XAreGfHLbMpfwLepVgzSQ1vQ6BK9a/EKnIDiVjrBiKEQtEtVzqVtXu6YJFKLgI36
+aEz4ghZC0dFV7iGK4KsJ8RQZLLeSRBXkimqTuSLClRxwmUPr4PgsVxDMaidaHAkQ
+eoYb/YyNsuAjJcPmSFVmENvHm7A47wFQrRoanynXxFzbpLy1Zqs6OftmEzVJN6rv
+JmNuqYZzD9pr6Yx+epNykWaDKKmTGIDifcIOaV2omWfo+pcKrjFzOhWsrmoPpuoz
+8l1mL8navijaw+CA3ROKxKlzUYEpUxNhUttcJ/iCQxxz60Fa1hSUHKzOXCYdu6cw
+V3kdO/JnLF9qH57Hl9Cvb7yq7SPyHJnYtxxibIZKopAXQltqtPSoSmFBVqtizpXv
+LMtj9C1o6sxGRq6sa2ODSGRCAssSes/9FzaXdK68kYb4iKrW068xAkBP3sgefPZh
+BJXB7pcCw7lFNc7rx0BBWzYlDMqJ6Ugp22TTsnLKqsTUtzVnnUqUrFdlMVgMFgI7
+BzIumuHn2SOLuKugcg8TK5mO9OUjagaOWMlsjByKX8evrLaf/Ubo/Huu9HhrsOgs
+QG3eI16z4MBQMtXQxjmrj2Ir
+=yZFW
 -----END PGP SIGNATURE-----
 
---===============6963620168060084047==
+--===============6852355214030641603==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f8f9c1f4d0c7-24d479d26b25.txt
+Content-Disposition: attachment; filename=revlist-dd83dc124973-24d479d26b25.txt
 
 3d5221af9c7711b7aec8da1298c8fc393ef6183d xfrm: Fix inner mode lookup in tunnel mode GSO segmentation
 49400b701eca849c1b53717b1f5d779a8d066ec0 dmaengine: mmp_pdma: fix DMA mask handling
@@ -653,11 +653,6 @@ c06bc3557542307b9658fbd43cc946a14250347b HID: quirks: Add another Chicony HP 5MP
 f287ba5951a4b3a47305b64a3fcde5d0911adb9b selftests/hid: add a test for the Digitizer/Button Type pressurepad
 2704024d83fa9eb8e5f16925aae340fd9d246694 loop: add missing bd_abort_claiming in loop_set_status
 9670db22e7ab4aefe2b2619589a47fef9d3e0c7e blk-mq: avoid stall during boot due to synchronize_rcu_expedited
-0ed91d47959cb7573c17e06487f0fb891d59dfb3 usb: dwc3: Check for USB4 IP_NAME
-1366cd228b0c67b60a2c0c26ef37fe9f7cfedb7f tcpm: allow looking for role_sw device in the main node
-db0635a30462f6dbdc7284a712f65ec5345a0caa dt-bindings: usb: qcom,dwc3: Correct IPQ5018 interrupts
-1d32389dc52f6e0305228988243b61cbe687414d dt-bindings: usb: qcom,dwc3: Correct MSM8994 interrupts
-2740ac33c87b3d0dfa022efd6ba04c6261b1abbd usb: core: add USB_QUIRK_NO_BOS for devices that hang on BOS descriptor
 d9186faeae6efb7d0841a5e8eb213ff4c7966614 drm/vmwgfx: Fix KMS with 3D on HW version 10
 37a0cff4551c14aca4cfa6ef3f2f0e0f61d66825 drm/vmwgfx: Merge vmw_bo_release and vmw_bo_free functions
 902300d332a951b68dc1d75a2b55922f71dd36d5 Merge tag 'arm-soc/for-6.19/devicetree-arm64-fixes' of https://github.com/Broadcom/stblinux into arm/fixes
@@ -861,17 +856,14 @@ c360004c0160dbe345870f59f24595519008926f xfs: set max_agbno to allow sparse allo
 436326bc525d467e38db1da576139ec5f28268c5 objtool: fix build failure due to missing libopcodes check
 1e0a2ba7afb1b60f02599093d84b72ce62ad11c0 sched: Provide idle_rq() helper
 ca1e8eede4fc68ce85a9fdce1a6c13ad64933318 sched/deadline: Fix server stopping with runnable tasks
-8af4274ab5999831f4757dfd5bd11665ba3b1569 USB: serial: option: add Telit LE910 MBIM composition
 12d4fd9a657174496677cff2841315090f1c11fc soundwire: bus: fix off-by-one when allocating slave IDs
 8e29db1b08808f709231e6fd4c79dcdee5b17a17 ASoC: amd: yc: Fix microphone on ASUS M6500RE
 cbd46cbc5470f9cb0bbeff70561a3dd3e0769fe1 ALSA: hda/realtek: Add quirk for Asus Zephyrus G14 2025 using CS35L56, fix speakers
-c0afe95e62984ceea171c3ea319beaf84a21181c USB: serial: ftdi_sio: add support for PICAXE AXE027 cable
 c5e96e54eca3876d4ce8857e2e22adbe9f44f4a2 ALSA: hda/cirrus_scodec_test: Fix incorrect setup of gpiochip
 6a0243c4020636482797acfd48d7d9b0ea2f2a20 ALSA: hda/cirrus_scodec_test: Fix test suite name
 dc2d5ddb193e363187bae2ad358245642d2721fb drm/gud: fix NULL fb and crtc dereferences on USB disconnect
 ef5749ef8b307bf8717945701b1b79d036af0a15 ALSA: usb-audio: Prevent excessive number of frames
 40b94ec7edbbb867c4e26a1a43d2b898f04b93c5 null_blk: fix kmemleak by releasing references to fault configfs items
-cd644b805da8a253198718741bf363c4c58862ff USB: serial: f81232: fix incomplete serial port generation
 6ee98aabdc700b5705e4f1833e2edc82a826b53b x86/resctrl: Add missing resctrl initialization for Hygon
 2fa8961d3a6a1c2395d8d560ffed2c782681bade nvmet-tcp: fixup hang in nvmet_tcp_listen_data_ready()
 747d2464e6e3c690184fabc7cc104c1a2064c9c3 dt-bindings: i2c: brcm,iproc-i2c: Allow 2 reg entries for brcm,iproc-nic-i2c
@@ -908,14 +900,6 @@ be7664c81d3129fc313ef62ff275fd3d33cfecd4 ASoC: tlv320adcx140: fix null pointer
 d89aad92cfd15edbd704746f44c98fe687f9366f ASoC: tlv320adcx140: Propagate error codes during probe
 46378ab9fcb796dca46b51e10646f636e2c661f9 ASoC: tlv320adcx140: fix word length
 e07dea3de508cd6950c937cec42de7603190e1ca phy: rockchip: inno-usb2: Fix a double free bug in rockchip_usb2phy_probe()
-c4380ee3ccbf591d855317249f31c820b7b73a46 usb: dwc3: apple: Set USB2 PHY mode before dwc3 init
-01ef7f1b8713a78ab1a9512cf8096d2474c70633 USB: OHCI/UHCI: Add soft dependencies on ehci_platform
-d13b6a128a12e528bb18f971f2969feb286f45c7 usb: host: xhci-tegra: Use platform_get_irq_optional() for wake IRQs
-42c85d89b8d677b51f6a75569c69299a46d9f03d usb: dwc3: apple: Ignore USB role switches to the active role
-2edc1acb1a2512843425aa19d0c6060a0a924605 usb: gadget: uvc: fix req_payload_size calculation
-010dc57cb5163e5f4a32430dd5091cc29efd0471 usb: gadget: uvc: fix interval_duration calculation
-0bce8f19bba16277257a915e4fb94e1cfe99d760 usb: gadget: uvc: return error from uvcg_queue_init()
-9bcb4c4c330ca36ba7ab398c03d75c15b769d59d usb: gadget: uvc: retry vb2_reqbufs() with vb_vmalloc_memops if use_sg fail
 0edb475ac0a7d153318a24d4dca175a270a5cc4f nvme: fix PCIe subsystem reset controller state transition
 f2ec4723defbc66a50e0abafa830ae9f8bceb0d7 phy: freescale: imx8m-pcie: assert phy reset during power on
 d19954ee63b2211fcc14175d6cb07cbc040980d5 Merge tag 'media/v6.19-3' of git://git.kernel.org/pub/scm/linux/kernel/git/mchehab/linux-media
@@ -1004,8 +988,6 @@ e008ec6c7904ed99d3b2cb634b6545b008a99288 sched: Deadline has dynamic priority
 09444bef413fcafabe965c1ff14e3bc9c2c0f4f9 MAINTAINERS: Add Chen Ridong as cpuset reviewer
 a1b3421a023e920b006d9a55eac334b14d115687 kernel: cgroup: Add SPDX-License-Identifier lines
 84697bf5532923f70ac99ea9784fab325c560df0 kernel: cgroup: Add LGPL-2.1 SPDX license ID to legacy_freezer.c
-9fa015bdd8913f55cb528724db83adf99c381802 Merge tag 'usb-serial-6.19-rc6' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/johan/usb-serial into usb-linus
-dd83dc1249737b837ac5d57c81f2b0977c613d9f xhci: sideband: don't dereference freed ring when removing sideband endpoint
 b5a69c4869211a6ab61a95f5cc987b25f383dbc3 arm_mpam: Remove duplicate linux/srcu.h header
 b9f5c38e4af1a094384650d2fc79fb992d6d5e64 arm_mpam: Use non-atomic bitops when modifying feature bitmap
 d51e68b7007b9c1c3456c4f93657a153ae3816ec Merge branch 'pm-em'
@@ -1054,4 +1036,4 @@ f8907398a6d941b204b90b6a40eecfdfd7d00c44 Merge tag 'ext4_for_linus-6.19-rc6' of 
 90a855e75a99f2932b19f4d04bac1edef158d95e Merge tag 'landlock-6.19-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/mic/linux
 24d479d26b25bce5faea3ddd9fa8f3a6c3129ea7 Linux 6.19-rc6
 
---===============6963620168060084047==--
+--===============6852355214030641603==--
