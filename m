@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
-Date: Mon, 19 Jan 2026 20:10:15 -0000
-Message-Id: <176885341528.3165480.902171173380920504@gitolite.kernel.org>
+Subject: post-receive: pub/scm/editors/uemacs/uemacs
+Date: Mon, 19 Jan 2026 20:22:57 -0000
+Message-Id: <176885417764.3174166.14073755768282043330@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/25-new
-user: akpm
+repo: pub/scm/editors/uemacs/uemacs
+user: torvalds
 changes:
   - ref: refs/heads/master
-    old: 043c3a259630f30b1c20d2fa470990223662b2df
-    new: 148d5d100b7d8bd8408a30055aeb1db1d713c190
+    old: 5d36b7f22c00874ee20fa837cb12197d259d7620
+    new: 7f1a6a45ead8f20af6085ab154a0874078cd028b
     log: |
-         148d5d100b7d8bd8408a30055aeb1db1d713c190 foo
+         7f1a6a45ead8f20af6085ab154a0874078cd028b Add local dictionaries if they exist
          
