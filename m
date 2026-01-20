@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/atorgue/stm32
-Date: Tue, 20 Jan 2026 08:57:30 -0000
-Message-Id: <176889945053.3806822.9391935900391178841@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Tue, 20 Jan 2026 09:11:49 -0000
+Message-Id: <176890030965.3818056.6884322053806114408@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/atorgue/stm32
-user: atorgue
+repo: pub/scm/linux/kernel/git/tip/tip
+user: tglx
 changes:
-  - ref: refs/heads/stm32-dt-for-v6.20
-    old: 0000000000000000000000000000000000000000
-    new: 1636348aab60830a1bc58a55916b218ce18712b5
+  - ref: refs/heads/irq/urgent
+    old: cd4a3ced4d1cdb14ffe905657b98a91e9d239dfb
+    new: 8d76a7d89c12d08382b66e2f21f20d0627d14859
+    log: |
+         8d76a7d89c12d08382b66e2f21f20d0627d14859 irqchip/gic-v3-its: Avoid truncating memory addresses
+         
