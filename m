@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6398397433701677900=="
+Content-Type: multipart/mixed; boundary="===============1163427268683711624=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/cip/linux-cip
-Date: Tue, 20 Jan 2026 05:11:01 -0000
-Message-Id: <176888586149.3598079.10157244761638662551@gitolite.kernel.org>
+Date: Tue, 20 Jan 2026 05:15:48 -0000
+Message-Id: <176888614824.3620669.8036426377912395462@gitolite.kernel.org>
 
---===============6398397433701677900==
+--===============1163427268683711624==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,27 +15,27 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/cip/linux-cip
 user: iwamatsu
 changes:
-  - ref: refs/heads/linux-6.1.y-cip
-    old: 62898cb3bfbf10d30c4f3c8b5d0784b2e27b9f6f
-    new: f8dcc95835e18bfa003914955ac3aebf8042d25c
-    log: revlist-62898cb3bfbf-f8dcc95835e1.txt
+  - ref: refs/heads/linux-6.12.y-cip
+    old: 2d78a20e1140deca71a6d232a2ee6814611d470e
+    new: d77b29052b64f5101db70c6fde4e94d1c7a3f99a
+    log: revlist-2d78a20e1140-d77b29052b64.txt
 
---===============6398397433701677900==
+--===============1163427268683711624==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-62898cb3bfbf-f8dcc95835e1.txt
+Content-Disposition: attachment; filename=revlist-2d78a20e1140-d77b29052b64.txt
 
-80d86147808da42fa81848383804669a171e704b clk: renesas: r9a09g056: Add clock and reset entries for USB2.0
-681b9d817f0f6ae15b951c0d1b6dc902f7e0ee52 dt-bindings: reset: renesas,rzv2h-usb2phy: Document RZ/V2N SoC support
-bf4f29263f7edda9f5cabbf959fa957d58399596 dt-bindings: usb: renesas,usbhs: Add RZ/V2N SoC support
-84969b819178503891b435412034066259288af1 dt-bindings: phy: renesas,usb2-phy: Document RZ/V2N SoC support
-aba98e8fc1a4d34abb51e5d3473111411cad37b0 arm64: dts: renesas: r9a09g056: Add USB2.0 support
-b1642dbf72c327859f6aa3e0e50560494c59b254 arm64: dts: renesas: r9a09g056n48-rzv2n-evk: Enable USB2.0 support
-6893af5139edde44fea31f37af7a5787ad0c77d8 dt-bindings: clock: renesas,r9a09g056/57-cpg: Add XSPI core clock
-0a7594ae046d10b0141e5fab99014ebbc76cb341 clk: renesas: r9a09g056: Add support for xspi mux and divider
-283533f12ebb45601a445749da543bb9e13412cc clk: renesas: r9a09g056: Add XSPI clock/reset
-1235b29643163b74aa1a862871d7a00f91d7dabb arm64: dts: renesas: r9a09g056: Add XSPI node
-f8dcc95835e18bfa003914955ac3aebf8042d25c arm64: dts: renesas: r9a09g056n48-rzv2n-evk: Enable serial NOR FLASH
+8ae00f1c1e13a22e71d929bed5f31efb95be6804 clk: renesas: r9a09g056: Add clock and reset entries for USB2.0
+e45e678e7a805aeeefd2da1a59f0ae6e8b3c1efc dt-bindings: reset: renesas,rzv2h-usb2phy: Document RZ/V2N SoC support
+650a00905aafe481bc5599845e8d4231f6ebc90f dt-bindings: usb: renesas,usbhs: Add RZ/V2N SoC support
+c93539eea71ae5e511464b9dca361ffc773037de dt-bindings: phy: renesas,usb2-phy: Document RZ/V2N SoC support
+5ac72fec1655489638ee12c30c3174f07185e093 arm64: dts: renesas: r9a09g056: Add USB2.0 support
+2585169f514ea86db936a0f49edb0d1bb813fdf7 arm64: dts: renesas: r9a09g056n48-rzv2n-evk: Enable USB2.0 support
+93d66eb7f3c736a15af0fc6c6b774635c991bf24 dt-bindings: clock: renesas,r9a09g056/57-cpg: Add XSPI core clock
+c8531f36fe8e2be9668bc38c4d365d8cc1f12d91 clk: renesas: r9a09g056: Add support for xspi mux and divider
+01dde5e9daddea6e30cd288fc250eefbefc54d70 clk: renesas: r9a09g056: Add XSPI clock/reset
+c086de6235e7fd82aff30158e9777bfb18d65bef arm64: dts: renesas: r9a09g056: Add XSPI node
+d77b29052b64f5101db70c6fde4e94d1c7a3f99a arm64: dts: renesas: r9a09g056n48-rzv2n-evk: Enable serial NOR FLASH
 
---===============6398397433701677900==--
+--===============1163427268683711624==--
