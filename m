@@ -1,25 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ukleinek/linux
-Date: Tue, 20 Jan 2026 08:30:41 -0000
-Message-Id: <176889784156.3784804.1471003797149081210@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pinctrl/intel
+Date: Tue, 20 Jan 2026 08:36:07 -0000
+Message-Id: <176889816721.3789453.5973717408728940746@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ukleinek/linux
-user: ukleinek
+repo: pub/scm/linux/kernel/git/pinctrl/intel
+user: andy
 changes:
-  - ref: refs/heads/pwm/for-next
-    old: bfdac69b8d3d85ff8d7e0d319ecba298bd471c57
-    new: 33e48e73367ecca4c93cbbdfe2e72933fd97f651
+  - ref: refs/heads/review-andy
+    old: bfec8ce11af00971909b454fafc07341620bfa9f
+    new: 069bb6f69afadcea3ac5e3e00af45e8519de380a
     log: |
-         33e48e73367ecca4c93cbbdfe2e72933fd97f651 drivers: pwm: replace `kernel::c_str!` with C-Strings
-         
-  - ref: refs/heads/pwm/for-nexxt
-    old: bfdac69b8d3d85ff8d7e0d319ecba298bd471c57
-    new: 33e48e73367ecca4c93cbbdfe2e72933fd97f651
-    log: |
-         33e48e73367ecca4c93cbbdfe2e72933fd97f651 drivers: pwm: replace `kernel::c_str!` with C-Strings
+         069bb6f69afadcea3ac5e3e00af45e8519de380a pinctrl: intel: platform: Add Nova Lake to the list of supported
          
