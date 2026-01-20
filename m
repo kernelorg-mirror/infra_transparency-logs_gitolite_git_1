@@ -1,50 +1,45 @@
-Content-Type: multipart/mixed; boundary="===============2713703309843431074=="
+Content-Type: multipart/mixed; boundary="===============0345812638963903754=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/fustini/linux
-Date: Tue, 20 Jan 2026 18:21:13 -0000
-Message-Id: <176893327381.90478.13423926301320561114@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Tue, 20 Jan 2026 18:36:30 -0000
+Message-Id: <176893419063.103161.12894544543017505008@gitolite.kernel.org>
 
---===============2713703309843431074==
+--===============0345812638963903754==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/fustini/linux
-user: fustini
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
-  - ref: refs/heads/b4/ssqosid-cbqri
-    old: da2d5c60605e1ab4013aa2d09903f2adea2e3f21
-    new: 97daa4d147ea9c2de950b96e97dfbaa903edc574
-    log: revlist-da2d5c60605e-97daa4d147ea.txt
+  - ref: refs/heads/master
+    old: 24d479d26b25bce5faea3ddd9fa8f3a6c3129ea7
+    new: c03e9c42ae8f9be76a0cf55ef3f88663f0f6a63a
+    log: revlist-24d479d26b25-c03e9c42ae8f.txt
 
---===============2713703309843431074==
+--===============0345812638963903754==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-da2d5c60605e-97daa4d147ea.txt
+Content-Disposition: attachment; filename=revlist-24d479d26b25-c03e9c42ae8f.txt
 
-6e01e3a815965b2ae9e873f2f693796033d5875c RISC-V: QoS: add CBQRI resctrl interface
-0cfe268d201aaa8eb3c8b90b6f71adf90e8eb24d dt-bindings: riscv: Add Ssqosid extension description
-3b6b12444be43306c0cbbacb7f3b88fd179cc123 RISC-V: Detect the Ssqosid extension
-935ec3ca19596e6494c88d721ca2059e8436c384 RISC-V: Add support for srmcfg CSR from Ssqosid ext
-e8f20375784c2526a1d2a0f9868d630609c82b7f RISC-V: QoS: define properties of CBQRI controllers
-49a1a4801b122adfbca59aecbcfe250176082d25 RISC-V: QoS: define CBQRI capacity and bandwidth capabilities
-a42940105bfe71104af803c925609e342544f551 RISC-V: QoS: define CBQRI resctrl resources and domains
-6beed6eb4e6a6989e162ef19d763ef3a97650308 RISC-V: QoS: define prototypes for resctrl interface
-2a91fdded20c8a8f9f920d08af101de3b0573189 RISC-V: QoS: add resctrl interface for CBQRI controllers
-583f7e151cecda4c50b799df75696aff0a6cd20d RISC-V: QoS: expose implementation to resctrl
-19d5697c40c0fc2edda3f0955ef8d3fda3c3a5ac RISC-V: QoS: add late_initcall to setup resctrl interface
-9b206aa96ebc42f6fe8517e8596538015fe917d5 RISC-V: QoS: add to build when CONFIG_RISCV_ISA_SSQOSID set
-3ff8dfda6f1bb4b863d5d26e8be4eb18c8226830 RISC-V: QoS: make CONFIG_RISCV_ISA_SSQOSID select resctrl
-7c03fa32ce9b3c55e20b44db4afa66dcc8824655 dt-bindings: riscv: add riscv,cbqri bindings
-ec88dacafbcc3aaa4487dfe613a8b238532f4b8b [NFU] resctrl: riscv: add CBQRI cache controller driver
-b4633ba0770fba09315384aee7828ac0bc342e59 [NFU] resctrl: riscv: add CBQRI bandwidth controller driver
-f85d5af0fe62ff226d6de111a22a4fe1e5a406bc [NFU] resctrl: riscv: build CBQRI drivers
-2a1098bfcab6cafe7b0690f6146a00c4fde9a8e0 [NFU] riscv: dts: qemu: add dump from virt machine
-eaa634782de4c4a9a43bef2ea01ef4a5d107d578 [NFU] riscv: dts: qemu: add CBQRI controller nodes
-97daa4d147ea9c2de950b96e97dfbaa903edc574 [NFU] riscv: dts: build qemu dtb for CONFIG_ARCH_VIRT
+ea4d4ea6d10a561043922d285f1765c7e4bfd32a ata: ahci: Do not read the per port area for unimplemented ports
+8f3fb33f8f3f825c708ece800c921977c157f9b6 ata: libata: Call ata_dev_config_lpm() for ATAPI devices
+ce83767ea323baf8509a75eb0c783cd203e14789 ata: libata-sata: Improve link_power_management_supported sysfs attribute
+a6bee5e5243ad02cae575becc4c83df66fc29573 ata: libata: Add cpr_log to ata_dev_print_features() early return
+89531b68fc293e91187bf0992147e8d22c65cff3 ata: libata: Add DIPM and HIPM to ata_dev_print_features() early return
+c8c6fb886f57d5bf71fb6de6334a143608d35707 ata: libata: Print features also for ATAPI devices
+b31ac41b59b6b6f1f6d426e2088e5c391bf89bf3 dma/pool: Improve pool lookup
+6626734dd2b151753e134730e27d17e64784c345 mm_zone: Generalise has_managed_dma()
+c6ccd098807483762ccd726e1498bac5a71d0005 dma/pool: Avoid allocating redundant pools
+c198b7773ca5bc3bdfb15b85e414fb9a99a5e5ba pwm: Ensure ioctl() returns a negative errno on error
+63faf32666e03a78cc985bcbae196418cf7d7938 pwm: max7360: Populate missing .sizeof_wfhw in max7360_pwm_ops
+73c9007d9b94065cbb60f318ff0d3637d1c8283e Merge tag 'ata-6.19-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/libata/linux
+0a155a8a24ddc647aaf28ce7cdb14af7270c158f MAINTAINERS: Add myself as reviewer for PWM rust drivers
+8f7537efbe5636a798cf885ea2fa0e4889995fa9 Merge tag 'pwm/for-6.19-rc7-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/ukleinek/linux
+c03e9c42ae8f9be76a0cf55ef3f88663f0f6a63a Merge tag 'dma-mapping-6.19-2026-01-20' of git://git.kernel.org/pub/scm/linux/kernel/git/mszyprowski/linux
 
---===============2713703309843431074==--
+--===============0345812638963903754==--
