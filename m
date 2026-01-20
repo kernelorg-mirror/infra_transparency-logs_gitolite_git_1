@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8001870281569765125=="
+Content-Type: multipart/mixed; boundary="===============1309109353866437635=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Tue, 20 Jan 2026 03:59:27 -0000
-Message-Id: <176888156703.3541672.3283244327458452946@gitolite.kernel.org>
+Date: Tue, 20 Jan 2026 03:59:28 -0000
+Message-Id: <176888156859.3541833.11777319394621203365@gitolite.kernel.org>
 
---===============8001870281569765125==
+--===============1309109353866437635==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/mm-new
-    old: 545c47420ce23e13297100a386132a5092169f4d
-    new: e4348a62bb1acacafcdeb149c9363291fae08c0c
-    log: revlist-545c47420ce2-e4348a62bb1a.txt
+  - ref: refs/heads/mm-unstable
+    old: ac1303686c1e823c9c88b20c5f8587629ad94a11
+    new: bd361423f30912263920dd83326dcf142c16ce31
+    log: revlist-ac1303686c1e-bd361423f309.txt
 
---===============8001870281569765125==
+--===============1309109353866437635==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-545c47420ce2-e4348a62bb1a.txt
+Content-Disposition: attachment; filename=revlist-ac1303686c1e-bd361423f309.txt
 
 3d5221af9c7711b7aec8da1298c8fc393ef6183d xfrm: Fix inner mode lookup in tunnel mode GSO segmentation
 49400b701eca849c1b53717b1f5d779a8d066ec0 dmaengine: mmp_pdma: fix DMA mask handling
@@ -746,82 +746,5 @@ f55e87f4a5b050d6f181dd1546d140995156edeb mm/vma: use unmap_desc in exit_mmap() a
 d35baa6f2e91b442c6b9c7f1713deb7a751bb451 mm/vma: use unmap_region() in vms_clear_ptes()
 d79d0d57df05db74c233fce0299afc3673560cf0 mm: use unmap_desc struct for freeing page tables
 bd361423f30912263920dd83326dcf142c16ce31 mm/vma: temporary build fix
-0a0f53ab0f3390894b577d0c24aed99a99480c18 ksm: initialize the addr only once in rmap_walk_ksm
-7568f3e4f2ac4486d485940433b1bf2c45818965 ksm: optimize rmap_walk_ksm by passing a suitable addressrange
-0061257b15b55c077f7df31ccf6a244a0996459e mm: memcontrol: remove dead code of checking parent memory cgroup
-9d2a02fcc39a70a18ec7ded9b53139089c50449f mm: workingset: use folio_lruvec() in workingset_refault()
-f691e0b6e91b642d85aa6dbe7185b75c33bfcf3b mm: rename unlock_page_lruvec_irq and its variants
-075a7bb05617d56f7581a90d46a73a5bcbbc5741 mm: vmscan: prepare for the refactoring the move_folios_to_lru()
-86b853915a6752374599d0ce1cd889e6a855581f mm: vmscan: refactor move_folios_to_lru()
-cb3476cbcdec62d8100d2ecae1cb33b8df94fd3d mm: memcontrol: allocate object cgroup for non-kmem case
-7c2800c2466385193d032a02e111a15c2a818ecc mm: memcontrol: return root object cgroup for root memory cgroup
-ad64770dc4e98518dd9043abafac59395dff08e0 mm: memcontrol: prevent memory cgroup release in get_mem_cgroup_from_folio()
-794e42727444e83954d35bf9196ae2f20bcac452 buffer: prevent memory cgroup release in folio_alloc_buffers()
-3422307d57af78e5cc8649721ee2a8bb2478d220 writeback: prevent memory cgroup release in writeback module
-05680f801f3a0b4456b9667e6dbbd8d8441859dc mm: memcontrol: prevent memory cgroup release in count_memcg_folio_events()
-57602f08b13d8320a1fc6468426a073dec47cc36 mm: page_io: prevent memory cgroup release in page_io module
-707c59b8e142f2a12608a5bdba4144f338c4c93d mm: migrate: prevent memory cgroup release in folio_migrate_mapping()
-84002ca29613a76294853bb06588f113cedb8354 mm: mglru: prevent memory cgroup release in mglru
-b0094a7e0c65c2603730512223509813347a082e mm: memcontrol: prevent memory cgroup release in mem_cgroup_swap_full()
-169f845a5f6c3c29cfcc10be71f1b2899326b663 mm: workingset: prevent memory cgroup release in lru_gen_eviction()
-ed91ea74741c402050f940b5e7af59cfd0584704 mm: thp: prevent memory cgroup release in folio_split_queue_lock{_irqsave}()
-de627a6079632a1eccd7b9cf3a3f2c1e2d9d4f2a mm: zswap: prevent memory cgroup release in zswap_compress()
-2956d8b52d3f7fba15485621d76e7a5b33d7b730 mm: workingset: prevent lruvec release in workingset_refault()
-d86e71fa85a5e12a2ef2e34fd49cb03deeaf6d94 mm: zswap: prevent lruvec release in zswap_folio_swapin()
-397bd828022ab4b02a903a8249a13494dac58bf4 mm: swap: prevent lruvec release in lru_gen_clear_refs()
-71f726fbf38722df6f6bbcff8109440ed9f37719 mm: workingset: prevent lruvec release in workingset_activation()
-54c46c86ddae9390997dd9de33fac51672625109 mm: do not open-code lruvec lock
-25106576682cdb19ce0dde23335f994f0befbd7f mm: memcontrol: prepare for reparenting LRU pages for lruvec lock
-77a67ff967a04daf9949ca65a7496b3ca7b53bce mm: vmscan: prepare for reparenting traditional LRU folios
-82f487b88d5046cc773b07d6962a2054fadc9b8a mm: vmscan: prepare for reparenting MGLRU folios
-eb6d27f1654274f450e9f65e007371933347442d mm: mglru: do not call update_lru_size() during reparenting
-a69a0bcccd97a8ac8291fe5df2b2eeb84a3d11ba mm: memcontrol: refactor memcg_reparent_objcgs()
-79635b96cb3c0a343efeb4d628b009928cb30c61 mm: memcontrol: prepare for reparenting state_local
-fa9d054b9e5550dd6287b4dea8fa3a31d4847182 mm: memcontrol: fix lruvec_stats->state_local reparenting
-a97eb005ee7538db957a8d8c1c5247dc003019a8 mm: memcontrol: change state_locals to atomic_long_t type
-072003d94dc2460c44f22fde676d2541a6769f31 mm: memcontrol: eliminate the problem of dying memory cgroup for LRU folios
-c87937dcf16b4726bb0f655ceb9eceea21d042f2 mm-memcontrol-eliminate-the-problem-of-dying-memory-cgroup-for-lru-folios-fix
-50d0174e019818dab157feacdb7dee004ffafdd7 mm: lru: add VM_WARN_ON_ONCE_FOLIO to lru maintenance helpers
-e0767ee0ad0971e109c98d4c1dfb53597852bd78 selftests/mm: remove virtual_address_range test
-b22d1f46e41b433180d09284649b609a406bda21 selftests/damon/sysfs_memcg_path_leak.sh: use kmemleak
-03f327afe8718cccdb806841a000d9000657348e selftests/damon/wss_estimation: test for up to 160 MiB working set size
-0f04d3b4414d17f6440b8c719b3540448e0b8166 selftests/damon/access_memory: add repeat mode
-86aaf505c41c870eba61589feb360fb51145e476 selftests/damon/wss_estimation: ensure number of collected wss
-b90374baff972597bfef75a848f6b14204e107a7 selftests/damon/wss_estimation: deduplicate failed samples output
-703524fafd7af90786032de4ef542ca65d50de7d percpu: add basic double free check
-a3fb97e90e58086f2c70e68394c8f302867f9761 zsmalloc: make common caches global
-7d4315dee922652da4029637419b6547a1fc46af mm/damon: remove damon_operations->cleanup()
-b596a6cbb3b459d0260f815268be8edd320514ad mm/damon/core: cleanup targets and regions at once on kdamond termination
-eda129df8d20b411b8ec154f3396359bd3fce389 mm/damon/core: cancel damos_walk() before damon_ctx->kdamond reset
-eb5229f919a0a1d3761105d5ecd58252e3a2d93c mm/damon/core: process damon_call_control requests on a local list
-e45dd2ca62fa5b50fed87fe2cd14fb2dad23404b mm/damon: document damon_call_control->dealloc_on_cancel repeat behavior
-ad7ef29a8a5a86ea1625360a911c9169164ec878 mm/damon/core: rename damos_filter_out() to damos_core_filter_out()
-565a6f9a52ccd9ebf6615f1bad1cd1b576ea5331 mm/damon: rename DAMON_MIN_REGION to DAMON_MIN_REGION_SZ
-8527d486ce4bba40392cd33e362e9f236eba4db3 mm/damon: rename min_sz_region of damon_ctx to min_region_sz
-e3590c66256e33b1356bd1cadc66e302a253a444 mm: update kernel-doc for __swap_cache_clear_shadow()
-025ead1056a5a239ae989498ff30ef53453a6f95 Docs/mm/damon/index: simplify the intro
-ef66f6c3d8621ade595a28b5a93394198858ae79 Docs/mm/damon/design: link repology instead of Fedora package
-f9f1b4a5a0b140a61c7866914658ad73ce1cdfe5 Docs/mm/damon/design: document DAMON sample modules
-505f89f21734d1d418cf1bd88cfc8c9b9bfa17f7 Docs/mm/damon/design: add reference to DAMON_STAT usage
-76bd2eb7100f68ca093314a423f970a5f83b60c7 Docs/admin-guide/mm/damon/usage: introduce DAMON modules at the beginning
-d0c346bce545372edb1d9920b8cfc1a3f6378a5f Docs/admin-guide/mm/damon/usage: update stats update process for refresh_ms
-b391b8622db9bc9e7038d76b701ae0cd00859531 Docs/mm/damon/maintainer-profile: fix wrong MAITNAINERS section name
-0bb15715f18f2c2f4abeaaa55ba528d38873591f Docs/mm/damon/maintainer-profile: remove damon-tests/perf suggestion
-59952e3c6d31beaf502ba00fe759dfc41f8b0730 maple_tree: update mas_next[_range] docs
-29e74772ab3c2ff3f5ba83995825fafb5d1eddf2 mm/vma: use lockdep where we can, reduce duplication
-0393606781abdb7713ecbd2eea11a1faed5f1c1a mm: add vma_assert_stabilised()
-86a0a2d184e669d421483684df8fe7a7cd6d93b1 mm: rename vma_flag_test/set_atomic() to vma_test/set_atomic_flag()
-98e40b13ea101ff4a8e04952fdd4601956f88770 mm: add mk_vma_flags() bitmap flag macro helper
-09879b0a0cede82cb9cd71d23b3344d20f01b347 tools: bitmap: add missing bitmap_[subset(), andnot()]
-21791dbcc464a82a67e82cb1f30fe6a8142d9db3 mm: add basic VMA flag operation helper functions
-b9a7362d7bfd71c7db3c40aa82816ed3209c3967 mm: update hugetlbfs to use VMA flags on mmap_prepare
-73c4b787ccff6a33fa08933547fbc53ea1702a4d mm: update secretmem to use VMA flags on mmap_prepare
-cdfb45a8ddd0c1edfdc4230291c702c1a31ec9fa mm: update shmem_[kernel]_file_*() functions to use vma_flags_t
-2234c82792669874a37445022942862da9135f93 mm-update-shmem__file_-functions-to-use-vma_flags_t-fix
-ccbdd8044f13617fe9f2bce61aed556314544664 mm: update all remaining mmap_prepare users to use vma_flags_t
-465a621b0d84e3e77f5c1d431453d52157a4694d mm: make vm_area_desc utilise vma_flags_t only
-2d8212c62ac5f7387d94f5df1355d2c5b296cf15 tools/testing/vma: separate VMA userland tests into separate files
-bc255a8143499d5d4d03ceb005a292d57528e187 tools/testing/vma: separate out vma_internal.h into logical headers
-e4348a62bb1acacafcdeb149c9363291fae08c0c tools/testing/vma: add VMA userland tests for VMA flag functions
 
---===============8001870281569765125==--
+--===============1309109353866437635==--
