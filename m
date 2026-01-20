@@ -1,41 +1,49 @@
-Content-Type: multipart/mixed; boundary="===============1163427268683711624=="
+Content-Type: multipart/mixed; boundary="===============4563346648632581183=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/cip/linux-cip
-Date: Tue, 20 Jan 2026 05:15:48 -0000
-Message-Id: <176888614824.3620669.8036426377912395462@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tzungbi/chrome-platform
+Date: Tue, 20 Jan 2026 06:06:04 -0000
+Message-Id: <176888916496.3676537.2422027303680259884@gitolite.kernel.org>
 
---===============1163427268683711624==
+--===============4563346648632581183==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/cip/linux-cip
-user: iwamatsu
+repo: pub/scm/linux/kernel/git/tzungbi/chrome-platform
+user: tzungbi
 changes:
-  - ref: refs/heads/linux-6.12.y-cip
-    old: 2d78a20e1140deca71a6d232a2ee6814611d470e
-    new: d77b29052b64f5101db70c6fde4e94d1c7a3f99a
-    log: revlist-2d78a20e1140-d77b29052b64.txt
+  - ref: refs/heads/gpio_rev
+    old: fa04d23b46095c5f8e0676dcc54f8db19fea9f97
+    new: 1187251bc6a1d00baee93b4b003abcd972117bed
+    log: revlist-fa04d23b4609-1187251bc6a1.txt
 
---===============1163427268683711624==
+--===============4563346648632581183==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2d78a20e1140-d77b29052b64.txt
+Content-Disposition: attachment; filename=revlist-fa04d23b4609-1187251bc6a1.txt
 
-8ae00f1c1e13a22e71d929bed5f31efb95be6804 clk: renesas: r9a09g056: Add clock and reset entries for USB2.0
-e45e678e7a805aeeefd2da1a59f0ae6e8b3c1efc dt-bindings: reset: renesas,rzv2h-usb2phy: Document RZ/V2N SoC support
-650a00905aafe481bc5599845e8d4231f6ebc90f dt-bindings: usb: renesas,usbhs: Add RZ/V2N SoC support
-c93539eea71ae5e511464b9dca361ffc773037de dt-bindings: phy: renesas,usb2-phy: Document RZ/V2N SoC support
-5ac72fec1655489638ee12c30c3174f07185e093 arm64: dts: renesas: r9a09g056: Add USB2.0 support
-2585169f514ea86db936a0f49edb0d1bb813fdf7 arm64: dts: renesas: r9a09g056n48-rzv2n-evk: Enable USB2.0 support
-93d66eb7f3c736a15af0fc6c6b774635c991bf24 dt-bindings: clock: renesas,r9a09g056/57-cpg: Add XSPI core clock
-c8531f36fe8e2be9668bc38c4d365d8cc1f12d91 clk: renesas: r9a09g056: Add support for xspi mux and divider
-01dde5e9daddea6e30cd288fc250eefbefc54d70 clk: renesas: r9a09g056: Add XSPI clock/reset
-c086de6235e7fd82aff30158e9777bfb18d65bef arm64: dts: renesas: r9a09g056: Add XSPI node
-d77b29052b64f5101db70c6fde4e94d1c7a3f99a arm64: dts: renesas: r9a09g056n48-rzv2n-evk: Enable serial NOR FLASH
+ec90ab5b03e4decca368a672ee42155a90541b40 gpiolib: cdev: Fix resource leaks on errors in lineinfo_changed_notify()
+ce024e946cb860c9b11db88c9fbca1d750264caf gpiolib: Access `gpio_bus_type` in gpiochip_setup_dev()
+8a90856ee43456206873cfed3b994c4f7ec89741 gpiolib: Remove redundant check for struct gpio_chip
+4cdb3d012325cf7c59f57c48622ef9aeb370de3c gpiolib: sysfs: Remove redundant check for struct gpio_chip
+2cd87dba1be6d83a89c019dbbf8f424009e2c85a gpiolib: Ensure struct gpio_chip for gpiochip_setup_dev()
+b6385a1d17f4efc764729969b2ef93924bdcfbb6 gpiolib: cdev: Don't check struct gpio_chip in gpio_chrdev_open()
+4c596b4a59336c722c1dc9efee5dda19f81b5509 selftests: gpio: Add gpio-cdev-uaf tests
+b74ce45e1cdde91a1ea20517a713423e0094660f gpiolib: Add revocable provider handle for struct gpio_chip
+b046ea1e7eaee0d478ba85e6ff5f4f15a6cc2611 gpiolib: cdev: Leverage revocable for gpio_fileops
+3152b4dd7def13401c8f50fefcd126b37cfe1b83 gpiolib: cdev: Leverage revocable for linehandle_fileops
+5772a717bd8c93a222ecff00231e9a5e3fcf064b gpiolib: cdev: Leverage revocable for line_fileops
+d8f3fd8852f6eab2ee0a2abae290caf146ca18fe gpiolib: cdev: Leverage revocable for lineevent_fileops
+3365e5055e83269626c4a6837fa6585e536755d7 gpiolib: cdev: Leverage revocable for lineinfo_changed_notify
+c7506cad7f96d711dba13bc6f10776e0fdf6711c gpiolib: Leverage revocable for gpiolib_sops
+d5b52ffbb080ccba4958ac694eb3deaac5501e8f revocable: Support to define revocable consumer handle on stack
+9b84d5be9d53f4030f10a0425f9a9ac17711b887 revocable: Add Kunit test case for DEFINE_REVOCABLE()
+a9f192cfb7d77a49a81f65fe485ff13d449e240b selftests: revocable: Add test case for DEFINE_REVOCABLE()
+67a7bcf54f9837d26fd352d9a9adef9c1d2b16e4 gpiolib: Leverage revocable for other independent lifecycle instances
+1187251bc6a1d00baee93b4b003abcd972117bed gpiolib: Remove unused `chip` and `srcu` in struct gpio_device
 
---===============1163427268683711624==--
+--===============4563346648632581183==--
