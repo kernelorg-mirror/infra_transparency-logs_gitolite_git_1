@@ -1,50 +1,29 @@
-Content-Type: multipart/mixed; boundary="===============8956045324714389753=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Tue, 20 Jan 2026 17:04:40 -0000
-Message-Id: <176892868099.19711.473091290257988861@gitolite.kernel.org>
-
---===============8956045324714389753==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/dhowells/linux-fs
+Date: Tue, 20 Jan 2026 17:04:56 -0000
+Message-Id: <176892869617.19994.17124829559848894549@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
-user: broonie
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/dhowells/linux-fs
+user: dhowells
 changes:
-  - ref: refs/heads/regulator-6.19
-    old: 24d479d26b25bce5faea3ddd9fa8f3a6c3129ea7
-    new: e3b76494d675e49fa032ec47f58487875a1de70a
+  - ref: refs/heads/keys-pqc
+    old: 03517ef507224b615f5c66e363e89cf79a4cc247
+    new: ccf892e44da99bf108dcef071f31fe948ce24bd8
     log: |
-         e3b76494d675e49fa032ec47f58487875a1de70a regulator: fp9931: Add missing memory allocation check
+         94852ecfe006b7773a413c5c3065c5a00eeb0600 pkcs7: Allow the signing algo to calculate the digest itself
+         7221627c857264e5d0921d56114a8f650e3920cc pkcs7: Allow direct signing of data with ML-DSA
+         cf98f381736718540a328b3c854a0e451ae8fea1 pkcs7, x509: Add ML-DSA support
+         31f0e25a52646bcc1fce3a42bcc05ba337923fdb modsign: Enable ML-DSA module signing
+         af83bfea6e1e96c69b20deaf326381b1739fdbb3 crypto: Add supplementary info param to asymmetric key signature verification
+         9abea7039c90c3e2065d4820da58ef01e0f2c6f5 crypto: Add RSASSA-PSS support
+         1ef688f399aae1d8cf66e0c2d6a2d61365af669a pkcs7, x509: Add RSASSA-PSS support
+         3fb0db69998a90039ed8f7ccbbb80b3e147b487b modsign: Enable RSASSA-PSS module signing
+         62a87cf4cb64cf4403431c62e54557c8facedce6 pkcs7: Add FIPS selftest for RSASSA-PSS
+         9c8f84f365d31f64764f56dc6b4cc114d9127370 x509, pkcs7: Limit crypto combinations that may be used for module signing
+         ccf892e44da99bf108dcef071f31fe948ce24bd8 pkcs7: Add ML-DSA FIPS selftest
          
-
---===============8956045324714389753==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1768928679 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1768928678-08d2975010bc53c52d37cd838d2398ec0d9f1663
-
-24d479d26b25bce5faea3ddd9fa8f3a6c3129ea7 e3b76494d675e49fa032ec47f58487875a1de70a refs/heads/regulator-6.19
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmlvtacACgkQJNaLcl1U
-h9DCXQf/XdPHRnBopHVaqYMlLmHVzvnwzo+V5zVi7h9Mufygw1jHTbNfTc5c3LfX
-T6+4/1QnveNXDOJbAHmgZcENB4dzwJUQ6sL35nFU4L6KhPeBwYEMb4am1zrOhi2h
-BdhQzcyzDa3zDnU261Jg256Pjvf1jd70KsnDZjfk07k2n+XX5USQTy53FRuerF4K
-xWUnY6qtMmiOWrXJQd+FMeidBG4g3xEDl4WS/pOCkFqJMOoUFW09ipPVO7kxFaVi
-VF9FCopd/SoTvqOAiNpF41V156f01iUO0nGpDVoFeSdS6szShxy7EhKgTfvHKmrp
-M8IWpqP5ygN+oq6oWOX7lgRgMxW1RA==
-=xVko
------END PGP SIGNATURE-----
-
---===============8956045324714389753==--
