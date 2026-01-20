@@ -1,29 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/dtor/input
-Date: Tue, 20 Jan 2026 19:52:57 -0000
-Message-Id: <176893877774.166290.17261905472317846063@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/fio
+Date: Tue, 20 Jan 2026 19:57:40 -0000
+Message-Id: <176893906003.170515.13637248771055342815@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/dtor/input
-user: dtor
+repo: pub/scm/linux/kernel/git/axboe/fio
+user: axboe
 changes:
   - ref: refs/heads/master
-    old: f8a6e5eac701369afb5d69aba875dc5fec93003d
-    new: 5383e76483dc2529c2c5ca7e98cd679eb77d8327
+    old: 2625269de926fe836c681e0946151c61c4fdfd5e
+    new: bfe306e16932382069d4c4de3eb0bae9de1e9b09
     log: |
-         05c7f348f64281e62da38da20a8821da2df9b9d6 Input: ili210x - convert to dev_err_probe()
-         9b352327add1ab93a607992456835659787a0233 dt-bindings: input: touchscreen: edt-ft5x06: Add FocalTech FT3518
-         5383e76483dc2529c2c5ca7e98cd679eb77d8327 Input: edt-ft5x06 - add support for FocalTech FT3518
-         
-  - ref: refs/heads/next
-    old: f8a6e5eac701369afb5d69aba875dc5fec93003d
-    new: 5383e76483dc2529c2c5ca7e98cd679eb77d8327
-    log: |
-         05c7f348f64281e62da38da20a8821da2df9b9d6 Input: ili210x - convert to dev_err_probe()
-         9b352327add1ab93a607992456835659787a0233 dt-bindings: input: touchscreen: edt-ft5x06: Add FocalTech FT3518
-         5383e76483dc2529c2c5ca7e98cd679eb77d8327 Input: edt-ft5x06 - add support for FocalTech FT3518
+         067ffa4db43f7ed05747c9aaf87dc56430ed5240 engines/rbd: add support for LUKS encryption
+         26cb608bd12e3e6fa24f3cb067c56d10ccf32c7d Merge branch 'rbd-encryption-support' of https://github.com/Greenpepper15/fio
+         bfe306e16932382069d4c4de3eb0bae9de1e9b09 Fixups for rbd luks support
          
