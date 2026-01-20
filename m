@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6455298800660947978=="
+Content-Type: multipart/mixed; boundary="===============9140443670121152391=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-Date: Tue, 20 Jan 2026 14:57:28 -0000
-Message-Id: <176892104817.4103422.2496148290103033084@gitolite.kernel.org>
+Date: Tue, 20 Jan 2026 14:57:43 -0000
+Message-Id: <176892106397.4103683.102080838259823802@gitolite.kernel.org>
 
---===============6455298800660947978==
+--===============9140443670121152391==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,7 +16,7 @@ repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
 user: ij
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/review-ilpo-fixes
+  - ref: refs/heads/fixes
     old: 9b8e78f78056080ef91802ab44b0145262f34599
     new: b3914291d985124e15ddc91b84fbb9dc356883e7
     log: |
@@ -28,24 +28,24 @@ changes:
          b3914291d985124e15ddc91b84fbb9dc356883e7 platform/x86: asus-armoury: add support for GA403WW
          
 
---===============6455298800660947978==
+--===============9140443670121152391==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1768921045 +0200
+pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1768921061 +0200
 pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86.git
-nonce 1768921044-fd8d601ae78952a9b8574291c4637103ebf9c294
+nonce 1768921061-582eb1d2370819d51c7c02f96a6dca841d71c7d1
 
-9b8e78f78056080ef91802ab44b0145262f34599 b3914291d985124e15ddc91b84fbb9dc356883e7 refs/heads/review-ilpo-fixes
+9b8e78f78056080ef91802ab44b0145262f34599 b3914291d985124e15ddc91b84fbb9dc356883e7 refs/heads/fixes
 -----BEGIN PGP SIGNATURE-----
 
-iHUEABYIAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCaW+X1wAKCRBZrE9hU+XO
-McwkAP9NZcbCrTx6l2UJlUyfMk6CCne7gs1Sl4mmqOqibI4HhwD9FyDPlD09ADD7
-pnU9k09Sz7vM60Rckbs4gEJoelc0UQw=
-=pivt
+iHUEABYIAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCaW+X5wAKCRBZrE9hU+XO
+MU/SAP9lwOlKIX7xHh3n1sqJ8Jpm0tgYskALob1Ou0bssWUeGwD7BpsTQ5hvuxHA
+i/gyYxMDAGTGdeMN58KEJQwfEoloiQQ=
+=5Zg1
 -----END PGP SIGNATURE-----
 
---===============6455298800660947978==--
+--===============9140443670121152391==--
