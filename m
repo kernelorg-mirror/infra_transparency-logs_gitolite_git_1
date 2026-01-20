@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============5057788510392822794=="
+Content-Type: multipart/mixed; boundary="===============6842192586709346032=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
-Date: Tue, 20 Jan 2026 23:48:03 -0000
-Message-Id: <176895288363.357678.12087649201750705148@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
+Date: Tue, 20 Jan 2026 23:48:39 -0000
+Message-Id: <176895291921.358173.10998589319743365987@gitolite.kernel.org>
 
---===============5057788510392822794==
+--===============6842192586709346032==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/perf/perf-tools-next
+repo: pub/scm/linux/kernel/git/acme/linux
 user: acme
 changes:
   - ref: refs/heads/tmp.perf-tools-next
@@ -20,7 +20,7 @@ changes:
     new: 2ae5c6ad2ffb226d0f062239d6ea144cb5b66bc0
     log: revlist-571d29baa07e-2ae5c6ad2ffb.txt
 
---===============5057788510392822794==
+--===============6842192586709346032==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -65,4 +65,4 @@ a70493e2bb0878885aa7a8178162550270693eb1 perf cs-etm: Fix decoding for sparse CP
 3877ac62565b4307208f4619675b45772d5eb61d perf list: Don't write to const memory
 2ae5c6ad2ffb226d0f062239d6ea144cb5b66bc0 perf list: Signal changing const memory is ok
 
---===============5057788510392822794==--
+--===============6842192586709346032==--
