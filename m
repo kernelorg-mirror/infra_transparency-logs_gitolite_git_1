@@ -1,25 +1,50 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/boqun/linux
-Date: Tue, 20 Jan 2026 13:30:36 -0000
-Message-Id: <176891583673.4034052.15250796205217851073@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============8469222350708958001=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+Date: Tue, 20 Jan 2026 13:37:18 -0000
+Message-Id: <176891623859.4038428.11522379022281016475@gitolite.kernel.org>
+
+--===============8469222350708958001==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/boqun/linux
-user: boqun
+repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+user: ij
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/rust-sync
-    old: 32597e89dfbfaf6f982c19dd267db85217fad2f1
-    new: db2e7e9e2da47f889bb42b5e76f43d3dbce239b0
+  - ref: refs/heads/for-next
+    old: 8ca7515d3c76a8b629f703ff8301a75f503bcc50
+    new: 90959cd1b2470491a3f5d8ab943579475b2baccb
     log: |
-         abb22362145c229f5c0286d67b399b47ed3d2a42 rust: helpers: Generify the definitions of rust_helper_*_{read,set}*
-         bd07a7744d9bacf0e513885c54918b67646e5c9a rust: helpers: Generify the definitions of rust_helper_*_xchg*
-         0ef5a1c43c78f416831fce6ac89351a9941dc39e rust: helpers: Generify the definitions of rust_helper_*_cmpxchg*
-         a7e5b3e05123f28453c0f7d9f51afdfdcb344e58 rust: sync: atomic: Add Atomic<*mut T> support
-         adfd54b114100e1fc56e774c30bcdfa2189a8c92 rust: sync: rcu: Add RCU protected pointer
-         898bb962b5064a08edb3bd2fddfab00710b547ae rust: sync: atomic: Remove bound `T: Sync` for `Atomic::from_ptr()`
-         db2e7e9e2da47f889bb42b5e76f43d3dbce239b0 rust: sync: atomic: Add atomic operation helpers over raw pointers
+         6588b8845e7387438d4b91ea86e7cb6d838b3108 tools/power/x86/intel-speed-select: Allow non root users
+         21adcd5ec99f342489a49e9d237a987b1bd9fab5 tools/power/x86/intel-speed-select: Use pkg-config for libnl-3.0 detection
+         56c17ee151c6e1a73d77e15b82a8e2130cd8dd16 tools/power/x86/intel-speed-select: Fix file descriptor leak in isolate_cpus()
+         6142b726e6e64870ab0c7ffb158bffa141f83bb6 tools/power/x86/intel-speed-select: v1.25 release
+         90959cd1b2470491a3f5d8ab943579475b2baccb Merge branch 'intel-sst' of https://github.com/spandruvada/linux-kernel into for-next
          
+
+--===============8469222350708958001==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1768916234 +0200
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86.git
+nonce 1768916234-717e894583dc45ef05190c27b41042eff9395783
+
+8ca7515d3c76a8b629f703ff8301a75f503bcc50 90959cd1b2470491a3f5d8ab943579475b2baccb refs/heads/for-next
+-----BEGIN PGP SIGNATURE-----
+
+iHUEABYIAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCaW+FDgAKCRBZrE9hU+XO
+MdtIAQDtSiaaag+e4xR6ywFmBdhPERjPGVO4YoDtANCGQWorwgD/ZKgv98INxNk2
+mAmdRBSCK20QTjDQqA4C1gF4zexhGws=
+=GK1r
+-----END PGP SIGNATURE-----
+
+--===============8469222350708958001==--
