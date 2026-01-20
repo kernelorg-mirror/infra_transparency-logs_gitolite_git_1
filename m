@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2036494001233800232=="
+Content-Type: multipart/mixed; boundary="===============4315677848369733869=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Tue, 20 Jan 2026 20:43:15 -0000
-Message-Id: <176894179592.208611.3386644184506260441@gitolite.kernel.org>
+Date: Tue, 20 Jan 2026 20:43:18 -0000
+Message-Id: <176894179842.208851.12012718753970446849@gitolite.kernel.org>
 
---===============2036494001233800232==
+--===============4315677848369733869==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/10GbE
+  - ref: refs/heads/40GbE
     old: a74c7a58ca2ca1cbb93f4c01421cf24b8642b962
     new: b97d5eedf4976cc94321243be83b39efe81a0e15
     log: revlist-a74c7a58ca2c-b97d5eedf497.txt
 
---===============2036494001233800232==
+--===============4315677848369733869==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -59,4 +59,4 @@ d837fbee92453fbb829f950c8e7cf76207d73f33 net/sched: qfq: Use cl_is_active to det
 5d54aa40c7b7e9dee5746cca99e9ddbcca13e895 vsock/test: Do not filter kallsyms by symbol type
 b97d5eedf4976cc94321243be83b39efe81a0e15 netdevsim: fix a race issue related to the operation on bpf_bound_progs list
 
---===============2036494001233800232==--
+--===============4315677848369733869==--
