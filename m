@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/editors/uemacs/uemacs
-Date: Tue, 20 Jan 2026 18:19:37 -0000
-Message-Id: <176893317716.86796.13779706955879303631@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/iwlwifi/android-os
+Date: Tue, 20 Jan 2026 18:19:44 -0000
+Message-Id: <176893318425.87035.15968371257276203133@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/editors/uemacs/uemacs
-user: torvalds
+repo: pub/scm/linux/kernel/git/iwlwifi/android-os
+user: mkorenbl
 changes:
-  - ref: refs/heads/master
-    old: bf02f2ee3abf3da399df1b347991fdc4f760b3f3
-    new: 5a7d194d76bf7df1b3869b2eed529745f6b25c88
-    log: |
-         5a7d194d76bf7df1b3869b2eed529745f6b25c88 Add 'next_column()' helper function
-         
+  - ref: refs/heads/android17-6.18-desktop__release/core102
+    old: 0000000000000000000000000000000000000000
+    new: 646ec9005a8b6a5b31a5fcaf9d5bd9ec593585b3
+  - ref: refs/tags/android17-6.18-desktop__release/core102-2026-01-20
+    old: 0000000000000000000000000000000000000000
+    new: 266395c79397624374c6f732c8382eca148d247c
