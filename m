@@ -1,22 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/herbert/crypto-2.6
-Date: Tue, 20 Jan 2026 06:41:06 -0000
-Message-Id: <176889126609.3703103.10846277972445139051@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ukleinek/linux
+Date: Tue, 20 Jan 2026 08:30:41 -0000
+Message-Id: <176889784156.3784804.1471003797149081210@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/herbert/crypto-2.6
-user: herbert
+repo: pub/scm/linux/kernel/git/ukleinek/linux
+user: ukleinek
 changes:
-  - ref: refs/heads/master
-    old: 961ac9d97be72267255f1ed841aabf6694b17454
-    new: 2397e9264676be7794f8f7f1e9763d90bd3c7335
+  - ref: refs/heads/pwm/for-next
+    old: bfdac69b8d3d85ff8d7e0d319ecba298bd471c57
+    new: 33e48e73367ecca4c93cbbdfe2e72933fd97f651
     log: |
-         2397e9264676be7794f8f7f1e9763d90bd3c7335 crypto: authencesn - reject too-short AAD (assoclen<8) to match ESP/ESN spec
+         33e48e73367ecca4c93cbbdfe2e72933fd97f651 drivers: pwm: replace `kernel::c_str!` with C-Strings
          
-  - ref: refs/tags/v6.19-p4
-    old: 0000000000000000000000000000000000000000
-    new: 4aba2cac72209ce958c5701e9dc2b7c151edbe80
+  - ref: refs/heads/pwm/for-nexxt
+    old: bfdac69b8d3d85ff8d7e0d319ecba298bd471c57
+    new: 33e48e73367ecca4c93cbbdfe2e72933fd97f651
+    log: |
+         33e48e73367ecca4c93cbbdfe2e72933fd97f651 drivers: pwm: replace `kernel::c_str!` with C-Strings
+         
