@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3270668756931546015=="
+Content-Type: multipart/mixed; boundary="===============2633813224242002692=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Tue, 20 Jan 2026 20:48:19 -0000
-Message-Id: <176894209915.214323.8215086165626628110@gitolite.kernel.org>
+Date: Tue, 20 Jan 2026 20:48:21 -0000
+Message-Id: <176894210161.214460.4135947047240607827@gitolite.kernel.org>
 
---===============3270668756931546015==
+--===============2633813224242002692==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/10GbE
+  - ref: refs/heads/40GbE
     old: 74ecff77dace0f9aead6aac852b57af5d4ad3b85
     new: 77b9c4a438fc66e2ab004c411056b3fb71a54f2c
     log: revlist-74ecff77dace-77b9c4a438fc.txt
 
---===============3270668756931546015==
+--===============2633813224242002692==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -114,4 +114,4 @@ ab771c938d9a57d510bb70c565c9388b10494090 selftests/net: Make NetDrvContEnv suppo
 931420a2fc363817c92990fa14eb1bdec024ce04 selftests/net: Add netkit container tests
 77b9c4a438fc66e2ab004c411056b3fb71a54f2c Merge branch 'netkit-support-for-io_uring-zero-copy-and-af_xdp'
 
---===============3270668756931546015==--
+--===============2633813224242002692==--
