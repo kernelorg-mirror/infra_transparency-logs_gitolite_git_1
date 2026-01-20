@@ -1,22 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux
-Date: Tue, 20 Jan 2026 18:05:31 -0000
-Message-Id: <176893233169.73979.422599716671992270@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ukleinek/linux
+Date: Tue, 20 Jan 2026 18:06:13 -0000
+Message-Id: <176893237363.74727.3164452173427291041@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux
-user: axboe
+repo: pub/scm/linux/kernel/git/ukleinek/linux
+user: ukleinek
 changes:
-  - ref: refs/heads/syztest
-    old: 926424ac0d1495f47c4c6ca0105294bdab432ebe
-    new: c45d825f1322c7b5725e0efc224b9d72c570cab6
+  - ref: refs/heads/pwm/for-next
+    old: 0332d0408d59a35edba128036246c3f60a6953dc
+    new: dcce06fb729e672fb2cc1e921dad2e91284e13e0
     log: |
-         4b9748055457ac3a0710bf210c229d01ea1b01b9 io_uring/rw: free potentially allocated iovec on cache put failure
-         b994ace83a2bc7699420f6a4c6b860c8da133159 io_uring/waitid: fix KCSAN warning on io_waitid->head
-         10dc959398175736e495f71c771f8641e1ca1907 io_uring/io-wq: check IO_WQ_BIT_EXIT inside work run loop
-         c45d825f1322c7b5725e0efc224b9d72c570cab6 Merge branch 'io_uring-6.19' into syztest
+         dcce06fb729e672fb2cc1e921dad2e91284e13e0 pwm: Update MAINTAINER entry
+         
+  - ref: refs/heads/pwm/for-nexxt
+    old: 0332d0408d59a35edba128036246c3f60a6953dc
+    new: dcce06fb729e672fb2cc1e921dad2e91284e13e0
+    log: |
+         dcce06fb729e672fb2cc1e921dad2e91284e13e0 pwm: Update MAINTAINER entry
          
