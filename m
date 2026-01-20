@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8469222350708958001=="
+Content-Type: multipart/mixed; boundary="===============2865830393146380072=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-Date: Tue, 20 Jan 2026 13:37:18 -0000
-Message-Id: <176891623859.4038428.11522379022281016475@gitolite.kernel.org>
+Date: Tue, 20 Jan 2026 13:37:58 -0000
+Message-Id: <176891627875.4038741.8722488694913594753@gitolite.kernel.org>
 
---===============8469222350708958001==
+--===============2865830393146380072==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,35 +16,34 @@ repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
 user: ij
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/for-next
-    old: 8ca7515d3c76a8b629f703ff8301a75f503bcc50
-    new: 90959cd1b2470491a3f5d8ab943579475b2baccb
+  - ref: refs/heads/fixes
+    old: 791c3c82091eecd862f0d55a7c7a3302a518f599
+    new: 9b8e78f78056080ef91802ab44b0145262f34599
     log: |
-         6588b8845e7387438d4b91ea86e7cb6d838b3108 tools/power/x86/intel-speed-select: Allow non root users
-         21adcd5ec99f342489a49e9d237a987b1bd9fab5 tools/power/x86/intel-speed-select: Use pkg-config for libnl-3.0 detection
-         56c17ee151c6e1a73d77e15b82a8e2130cd8dd16 tools/power/x86/intel-speed-select: Fix file descriptor leak in isolate_cpus()
-         6142b726e6e64870ab0c7ffb158bffa141f83bb6 tools/power/x86/intel-speed-select: v1.25 release
-         90959cd1b2470491a3f5d8ab943579475b2baccb Merge branch 'intel-sst' of https://github.com/spandruvada/linux-kernel into for-next
+         66f26bcc8aba2f3e6ae4af2f3c7eb72b5e3918b8 platform/x86: asus-armoury: fix ppt data for FA608UM
+         1dfc441140ede4f19b7c135664452465fb6a95d4 platform/x86: asus-armoury: add support for G835L
+         3072c1c919aeca8a09cada4465c32f1e933c6c5e platform/x86: asus-armoury: keep the list ordered alphabetically
+         9b8e78f78056080ef91802ab44b0145262f34599 platform/x86: asus-armoury: add support for GA403WW
          
 
---===============8469222350708958001==
+--===============2865830393146380072==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1768916234 +0200
+pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1768916276 +0200
 pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86.git
-nonce 1768916234-717e894583dc45ef05190c27b41042eff9395783
+nonce 1768916276-be7d57cdd13c6ce4b109a01e320348cb02f7f1dd
 
-8ca7515d3c76a8b629f703ff8301a75f503bcc50 90959cd1b2470491a3f5d8ab943579475b2baccb refs/heads/for-next
+791c3c82091eecd862f0d55a7c7a3302a518f599 9b8e78f78056080ef91802ab44b0145262f34599 refs/heads/fixes
 -----BEGIN PGP SIGNATURE-----
 
-iHUEABYIAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCaW+FDgAKCRBZrE9hU+XO
-MdtIAQDtSiaaag+e4xR6ywFmBdhPERjPGVO4YoDtANCGQWorwgD/ZKgv98INxNk2
-mAmdRBSCK20QTjDQqA4C1gF4zexhGws=
-=GK1r
+iHUEABYIAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCaW+FNgAKCRBZrE9hU+XO
+MTdvAP9cwHf+Dn+poPLzq2E9YDmiuForM1k7qO/s6RCczDOSWwD/XzGodGi6tfIs
+FEl7MNJTRQIyS3esMuylCkhDjzAYxQQ=
+=uPv6
 -----END PGP SIGNATURE-----
 
---===============8469222350708958001==--
+--===============2865830393146380072==--
