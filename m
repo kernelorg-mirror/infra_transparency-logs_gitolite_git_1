@@ -1,58 +1,58 @@
-Content-Type: multipart/mixed; boundary="===============5188483553583170554=="
+Content-Type: multipart/mixed; boundary="===============3780974556950309226=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
-Date: Tue, 20 Jan 2026 15:19:38 -0000
-Message-Id: <176892237820.4123180.10707450060423030361@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Tue, 20 Jan 2026 15:19:41 -0000
+Message-Id: <176892238156.4123368.13038111419530893474@gitolite.kernel.org>
 
---===============5188483553583170554==
+--===============3780974556950309226==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regulator
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.19
+  - ref: refs/heads/regulator-6.19
     old: 9ace4753a5202b02191d54e9fdf7f9e3d02b85eb
     new: 24d479d26b25bce5faea3ddd9fa8f3a6c3129ea7
     log: revlist-9ace4753a520-24d479d26b25.txt
-  - ref: refs/heads/for-6.20
+  - ref: refs/heads/regulator-6.20
     old: 62b04225e99a5d1c71c5c73d2aa6618bc2c0738f
     new: 20c4701b75a3d6ce09d61e17125aefe77e7eb333
     log: |
          20c4701b75a3d6ce09d61e17125aefe77e7eb333 dt-bindings: regulator: mark regulator-suspend-microvolt as deprecated
          
 
---===============5188483553583170554==
+--===============3780974556950309226==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1768922376 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/regulator.git
-nonce 1768922376-3a67c03b2e0a660c4e1b555feed0c3846020fd30
+pusher C3F436CA30F5D8EB 1768922379 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1768922379-ea20b4879f8f076c92c46eb35a28cbf70fa37b85
 
-9ace4753a5202b02191d54e9fdf7f9e3d02b85eb 24d479d26b25bce5faea3ddd9fa8f3a6c3129ea7 refs/heads/for-6.19
-62b04225e99a5d1c71c5c73d2aa6618bc2c0738f 20c4701b75a3d6ce09d61e17125aefe77e7eb333 refs/heads/for-6.20
+9ace4753a5202b02191d54e9fdf7f9e3d02b85eb 24d479d26b25bce5faea3ddd9fa8f3a6c3129ea7 refs/heads/regulator-6.19
+62b04225e99a5d1c71c5c73d2aa6618bc2c0738f 20c4701b75a3d6ce09d61e17125aefe77e7eb333 refs/heads/regulator-6.20
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmlvnQgACgkQJNaLcl1U
-h9AxMAf/YkX48Ymkhv77+omTgrjA0vyiNCW9cpBsLGen0UQlmJ3EIx8VJX3lzLXj
-Dn68rxK3qzlO5gXrZhzhuPb+qDTsuN2G69USAkt8girwJoQVJwvslwOTOsmy4Xik
-hhMwrUYF/alBZkMNYhF7BIXyHk7YLdnOGrXaZbpn99eFc2UvDSeh+QsaBRvEdVjb
-p26aQX71k2FQCuWXdTLUIQcSaKDJi4GAjovNHIL69zt3EtHLYW5SXcbjsud2XAtM
-bC4HXZ/xnbRvTSf8qchYFptNJ1VW5LA4tBlHqmRLjoGRemhnGyyuVi5HsZD8WPdk
-rMtMgUE8Kn+oFd0eUOdwUQU0Pnu5QQ==
-=jMD7
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmlvnQsACgkQJNaLcl1U
+h9D6eAf/RQ04/Tman5/+9x6OBtfCufoRp5iwQP3zSpyG4qRfXuUa0uthoMNvbq1t
+yCXB2LptCJYuR26w2w8+wF8Fea+XGq7SM0GjhjmIRVYXyrileIMOPF96HUTj3x+z
+TBmT06lZ/Ssj+kXCk82IEAh8sixnX4HCatQS9BqtsDW59u2WdrogsrVWZ6liNLBW
+/b6U8uULDgB+36ncq8MofRlVY/QDFnoJJFfY+P+duKuKfpI8NLFjWoO2fe+2x5QK
+1LMZ2XlsVYCgVB905747Tzehbujk1JZwD9CusP/EuNfs8MgrrNwlYHzAxV+Hrnxb
+U8y/W7DcKq8yXGaa6Wj1IfGPlwpT2w==
+=AiCc
 -----END PGP SIGNATURE-----
 
---===============5188483553583170554==
+--===============3780974556950309226==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -796,4 +796,4 @@ f8907398a6d941b204b90b6a40eecfdfd7d00c44 Merge tag 'ext4_for_linus-6.19-rc6' of 
 90a855e75a99f2932b19f4d04bac1edef158d95e Merge tag 'landlock-6.19-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/mic/linux
 24d479d26b25bce5faea3ddd9fa8f3a6c3129ea7 Linux 6.19-rc6
 
---===============5188483553583170554==--
+--===============3780974556950309226==--
