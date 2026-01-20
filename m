@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/utils/korgalore/korgalore
-Date: Tue, 20 Jan 2026 21:33:20 -0000
-Message-Id: <176894480019.251197.8743493628820518466@gitolite.kernel.org>
+Date: Tue, 20 Jan 2026 21:33:31 -0000
+Message-Id: <176894481101.251427.17216317962752546028@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,10 +11,9 @@ service: git-receive-pack
 repo: pub/scm/utils/korgalore/korgalore
 user: mricon
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/stable-0.4.y
     old: 9f36824d3446bc45cda49743052f4edc65ab64ec
-    new: 3091296c14bfb39ac72dc61c1129d0e5b4440be4
+    new: 537e050cd50afb11aecc0d9cd31c1f51cef5d288
     log: |
-         1d39f0931b6a2d93fb2c367b98a0baec506df3be Bump version to 0.5-dev
-         3091296c14bfb39ac72dc61c1129d0e5b4440be4 GUI: redirect output to /dev/null and log to systemd journal
+         537e050cd50afb11aecc0d9cd31c1f51cef5d288 GUI: redirect output to /dev/null and log to systemd journal
          
