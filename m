@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/shawnguo/linux
-Date: Tue, 20 Jan 2026 01:06:41 -0000
-Message-Id: <176887120182.3407901.5830387323108307966@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gustavoars/linux
+Date: Tue, 20 Jan 2026 01:10:15 -0000
+Message-Id: <176887141567.3411664.17310638142225307906@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/shawnguo/linux
-user: shawnguo
+repo: pub/scm/linux/kernel/git/gustavoars/linux
+user: gustavoars
 changes:
-  - ref: refs/tags/imx-defconfig-6.20
+  - ref: refs/heads/testing/wfamnae-next20260119
     old: 0000000000000000000000000000000000000000
-    new: c26ed34729ab098700d8c3e7b85725a2f6bd430b
+    new: 5201a58337ea7b1b5059cca1926162d174efa21f
