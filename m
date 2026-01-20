@@ -1,19 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
-Date: Tue, 20 Jan 2026 09:51:58 -0000
-Message-Id: <176890271873.3850568.8457060659119558402@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mmind/linux-rockchip
+Date: Tue, 20 Jan 2026 09:52:56 -0000
+Message-Id: <176890277681.3851175.12600818654065261876@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/brgl/linux
-user: brgl
+repo: pub/scm/linux/kernel/git/mmind/linux-rockchip
+user: mmind
 changes:
-  - ref: refs/heads/gpio/for-current
-    old: 70b3c280533167749a8f740acaa8ef720f78f984
-    new: 8a8c942cad4cd12f739a8bb60cac77fd173c4e07
+  - ref: refs/heads/for-next
+    old: 20682b319782b886928c90791e6a12875b1f6567
+    new: b4ba3a10a32e325a8b645dd91f2166fbbaacb3e1
     log: |
-         8a8c942cad4cd12f739a8bb60cac77fd173c4e07 gpio: cdev: Fix resource leaks on errors in gpiolib_cdev_register()
+         e546c69ac54e907d0c33bc1fde55689db301981f ARM: dts: rockchip: rk3036: remove mshc aliases
+         b4ba3a10a32e325a8b645dd91f2166fbbaacb3e1 Merge branch 'v6.20-armsoc/dts32' into for-next
+         
+  - ref: refs/heads/v6.20-armsoc/dts32
+    old: e74470cf3101da79666f20186c9406192223e9a8
+    new: e546c69ac54e907d0c33bc1fde55689db301981f
+    log: |
+         e546c69ac54e907d0c33bc1fde55689db301981f ARM: dts: rockchip: rk3036: remove mshc aliases
          
