@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
-Date: Tue, 20 Jan 2026 09:53:59 -0000
-Message-Id: <176890283983.3851747.3339533237306198170@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/driver-core/driver-core
+Date: Tue, 20 Jan 2026 09:57:36 -0000
+Message-Id: <176890305664.3855698.12745478115223525964@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/xiang/erofs-utils
-user: xiang
+repo: pub/scm/linux/kernel/git/driver-core/driver-core
+user: dakr
 changes:
-  - ref: refs/heads/experimental
-    old: 19ed6c054a4ab2731548244cfa3495124d7b9c6c
-    new: afafd5027590bdcfbebb909d39f2d813bf1e2369
+  - ref: refs/heads/driver-core-next
+    old: 61f5ec54c8a64c8b2d035215294389dd021318c7
+    new: 744905705113a6ab4c38127f18cc0d71594cfaec
     log: |
-         a10927468b053b7d491dfed028b60bb12010c7e4 erofs-utils: lib: fix incorrect mtime under -Edot-omitted
-         afafd5027590bdcfbebb909d39f2d813bf1e2369 erofs-utils: mkfs: add `--xattr-inode-digest` option
+         744905705113a6ab4c38127f18cc0d71594cfaec rust: debugfs: Use kernel Atomic type in docs example
          
