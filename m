@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Tue, 20 Jan 2026 09:11:49 -0000
-Message-Id: <176890030965.3818056.6884322053806114408@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ukleinek/linux
+Date: Tue, 20 Jan 2026 09:17:01 -0000
+Message-Id: <176890062163.3822168.2208336059849117985@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: tglx
+repo: pub/scm/linux/kernel/git/ukleinek/linux
+user: ukleinek
 changes:
-  - ref: refs/heads/irq/urgent
-    old: cd4a3ced4d1cdb14ffe905657b98a91e9d239dfb
-    new: 8d76a7d89c12d08382b66e2f21f20d0627d14859
-    log: |
-         8d76a7d89c12d08382b66e2f21f20d0627d14859 irqchip/gic-v3-its: Avoid truncating memory addresses
-         
+  - ref: refs/tags/pwm/for-6.19-rc7-fixes
+    old: 0000000000000000000000000000000000000000
+    new: 547b13f16c5aa23fa4ced620f48c4cda8d1094dc
