@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Tue, 20 Jan 2026 19:38:54 -0000
-Message-Id: <176893793409.153483.3919952593515926828@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Tue, 20 Jan 2026 19:42:28 -0000
+Message-Id: <176893814834.157437.15465354316844886869@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: andrii
+repo: pub/scm/linux/kernel/git/tip/tip
+user: mingo
 changes:
   - ref: refs/heads/master
-    old: f81c07a6e98e3171d0c4c5ab79f5aeff71b42c44
-    new: 2e6690d4f7fc41c4fae7d0a4c0bf11f1973e5650
+    old: ebf780d083c47d713960285e4e24fcd3cf816717
+    new: 605462d8a005e442ab2302724b7c6cff606e0aa5
     log: |
-         2e6690d4f7fc41c4fae7d0a4c0bf11f1973e5650 selftests/bpf: Add perfbuf multi-producer benchmark
+         53ed3d91a141f5c8b3bce45b0004fbbfefe77956 x86/segment: Use MOVL when reading segment registers
+         605462d8a005e442ab2302724b7c6cff606e0aa5 Merge branch into tip/master: 'x86/cleanups'
          
