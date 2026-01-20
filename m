@@ -1,28 +1,52 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/lee/leds
-Date: Tue, 20 Jan 2026 16:03:51 -0000
-Message-Id: <176892503195.4163113.15015912906597896205@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============5916903616355539863=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+Date: Tue, 20 Jan 2026 16:05:56 -0000
+Message-Id: <176892515635.4166511.8122334871032541186@gitolite.kernel.org>
+
+--===============5916903616355539863==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/lee/leds
-user: lee
+repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+user: ij
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/for-leds-next
-    old: 33e822f6f4eba2cfbd09ffd080af221cf8c542b2
-    new: 416ea3dc367b62f80ec9beab02c033d46a30d80c
+  - ref: refs/heads/review-ilpo-next
+    old: 779bda29f17f99ecef3d6b1be3eb689d2a477a26
+    new: 4f1d65b3650f52e86f4c807238a5eab05a5f7a97
     log: |
-         90c98c69de4d8a1884e9fbc556bc2e19b4f1a823 leds: expresswire: Fix chip state breakage
-         fc27237bdaafcb15c4f13463fdcd327c311871c4 dt-bindings: leds: Add issi,is31fl3293 to leds-is31fl32xx
-         40caf047dee2b35a61764191da054022b2d3071d leds: is31f132xx: Re-order code to remove forward declarations
-         05d142022e02a27f90def7a8c48e332ed701d748 leds: is31f132xx: Add support for is31fl3293
-         014efef297240de5933b121f59f04800f732a09a dt-bindings: leds: add TI/National Semiconductor LP5812 LED Driver
-         8f340fd7f54d9fa7ebd8b29c21796b4cb0f70ab1 leds: lp55xx: Simplify with scoped for each OF child loop
-         e5cb330cc704203952c64707490513321c1b6a23 dt-bindings: leds: Allow differently named multicolor LEDs
-         f23ead3e84085cb6119ff07584b9e30a89ee30c4 dt-bindings: leds: leds-qcom-lpg: Add support for PMH0101 PWM
-         df0f3b485401784b157d8bea5fbff018dcf7e7e2 dt-bindings: leds: qcom,spmi-flash-led: Add PMH0101 compatible
-         416ea3dc367b62f80ec9beab02c033d46a30d80c leds: qcom-lpg: Check the return value of regmap_bulk_write()
+         50a95d66cb94ea3e689a762635ed602e7bc08cdf platform/x86/amd/pmf: Prevent TEE errors after hibernate
+         0ae50b0cb6b3a75afa723b96a54975fbdd86ac9d crypto: ccp - Declare PSP dead if PSP_CMD_TEE_RING_INIT fails
+         4844ff202a85327b902a00baac13491bf2d5fe5d crypto: ccp - Add an S4 restore flow
+         641a63de3dbf338832133416910460afb9ce2d98 crypto: ccp - Factor out ring destroy handling to a helper
+         160a8a2583f26f2d67b6584fedc04199e93277c0 crypto: ccp - Send PSP_CMD_TEE_RING_DESTROY when PSP_CMD_TEE_RING_INIT fails
+         618b77ea18d9dd8ebe9dc3ab8a94499d379d6b90 platform/x86/amd/pmf: Introduce new interface to export NPU metrics
+         4f1d65b3650f52e86f4c807238a5eab05a5f7a97 platform/x86: ideadpad-laptop: Clean up style warnings and checks
          
+
+--===============5916903616355539863==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1768925151 +0200
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86.git
+nonce 1768925149-6dabac9cabed02c03e9aff35d481cf9223b32ff2
+
+779bda29f17f99ecef3d6b1be3eb689d2a477a26 4f1d65b3650f52e86f4c807238a5eab05a5f7a97 refs/heads/review-ilpo-next
+-----BEGIN PGP SIGNATURE-----
+
+iHUEABYIAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCaW+n4wAKCRBZrE9hU+XO
+MWsHAP91nUKTaNsCJGkqzWm99G6GpYaP3YoFWw5nqdXGa/6sKQEApfzVGfdESCP9
+eMgjs69aa+I0KR3dI7gKNFKLs9CL5wY=
+=NLgG
+-----END PGP SIGNATURE-----
+
+--===============5916903616355539863==--
