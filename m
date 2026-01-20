@@ -1,58 +1,58 @@
-Content-Type: multipart/mixed; boundary="===============3472682385956064845=="
+Content-Type: multipart/mixed; boundary="===============7810383607337799767=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Tue, 20 Jan 2026 12:16:33 -0000
-Message-Id: <176891139318.3969655.9242371745035045572@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Tue, 20 Jan 2026 12:16:36 -0000
+Message-Id: <176891139656.3969822.6716768706297177938@gitolite.kernel.org>
 
---===============3472682385956064845==
+--===============7810383607337799767==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.19
+  - ref: refs/heads/asoc-6.19
     old: be5a39e7994ec9f003c8569b670c794a4e5d1551
     new: 24d479d26b25bce5faea3ddd9fa8f3a6c3129ea7
     log: revlist-be5a39e7994e-24d479d26b25.txt
-  - ref: refs/heads/for-6.20
+  - ref: refs/heads/asoc-6.20
     old: 7a3d1b04d938f31e112fe09c0ffc1af830ba1f6d
     new: a18467a50eddbd7c6548b53b25b68e5454ceb587
     log: |
          a18467a50eddbd7c6548b53b25b68e5454ceb587 ASoC: realtek: fix misspelling of "minimum" in comments
          
 
---===============3472682385956064845==
+--===============7810383607337799767==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1768911391 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1768911390-11013769fb0c031f752a3b8df9a0884d3605eb12
+pusher C3F436CA30F5D8EB 1768911394 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1768911394-f8004415cc87e628cb9a0192a2baa0fc61a32630
 
-be5a39e7994ec9f003c8569b670c794a4e5d1551 24d479d26b25bce5faea3ddd9fa8f3a6c3129ea7 refs/heads/for-6.19
-7a3d1b04d938f31e112fe09c0ffc1af830ba1f6d a18467a50eddbd7c6548b53b25b68e5454ceb587 refs/heads/for-6.20
+be5a39e7994ec9f003c8569b670c794a4e5d1551 24d479d26b25bce5faea3ddd9fa8f3a6c3129ea7 refs/heads/asoc-6.19
+7a3d1b04d938f31e112fe09c0ffc1af830ba1f6d a18467a50eddbd7c6548b53b25b68e5454ceb587 refs/heads/asoc-6.20
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmlvch8ACgkQJNaLcl1U
-h9CWcwf7BdjbBFqet2/Pla6hrHXBdzQMsc644NVPBgIHWdSOpXRbFiGf2ZSFaNHt
-9OAV8qK7ugtq7FpZRBycBxu1O11XGw5+T5MjXvHf473xN1gji3hAOCqSxq7H0gnX
-iLIMft/o+o3bXgvZPBlTcweETZO7JnrywZgIB7bzYrAfdmuhC4fjI9HkqjIerEzI
-DoSDMvOe/EgxAm3lVXGG/OfQXVglSL1bjJf8nXVXbx6PivCObX2zdpr48YwTVcK3
-nFAvOw+vZgIewLGlCrAccqS4Y5/569HsvD/VeCC8c+O6watwyhTVrh+w4lIACo/l
-6YXYP3fUz9WzjlHQqB3lbVPVR8Za4w==
-=5i/5
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmlvciIACgkQJNaLcl1U
+h9Dqegf/YI3xFTkKsbhowI4+yKHeGURJMBeldwoncXu4ynoo76QMRekSzQnYcSIr
+nJssmkUnzpoemKirZniMvoNXuePDKVifNoCL9lQXxhDCgGxqkuazqA2ARQO8JyUo
+S61OzDjQe4Emlc/Lqc26f/IHZkQOldgSY49b6nBPz5PhvgYptW+768YbnwNcuX5N
+LQsJ0vUo3bZN+SlPPsruOsI50xt5vwyIF7aBYgDVL0DGDtATwPosTrBwRYFDyIfL
+7DS1mDr4rlDTwu7kDaItejOq0Lbw9W0Lrzw/WY5lr4IKWtggue4zkIRwvGOawTlK
+ySABQkqShTQhKki9JM30q7g9Jy0lxQ==
+=O8MT
 -----END PGP SIGNATURE-----
 
---===============3472682385956064845==
+--===============7810383607337799767==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -435,4 +435,4 @@ f8907398a6d941b204b90b6a40eecfdfd7d00c44 Merge tag 'ext4_for_linus-6.19-rc6' of 
 90a855e75a99f2932b19f4d04bac1edef158d95e Merge tag 'landlock-6.19-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/mic/linux
 24d479d26b25bce5faea3ddd9fa8f3a6c3129ea7 Linux 6.19-rc6
 
---===============3472682385956064845==--
+--===============7810383607337799767==--
