@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/iwlwifi/android-os
-Date: Tue, 20 Jan 2026 18:19:44 -0000
-Message-Id: <176893318425.87035.15968371257276203133@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/fustini/linux
+Date: Tue, 20 Jan 2026 18:20:08 -0000
+Message-Id: <176893320853.89490.15978510379746193983@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/iwlwifi/android-os
-user: mkorenbl
+repo: pub/scm/linux/kernel/git/fustini/linux
+user: fustini
 changes:
-  - ref: refs/heads/android17-6.18-desktop__release/core102
+  - ref: refs/heads/ssqosid-cbqri-rfc-v1
     old: 0000000000000000000000000000000000000000
-    new: 646ec9005a8b6a5b31a5fcaf9d5bd9ec593585b3
-  - ref: refs/tags/android17-6.18-desktop__release/core102-2026-01-20
-    old: 0000000000000000000000000000000000000000
-    new: 266395c79397624374c6f732c8382eca148d247c
+    new: e1cbc7e54be8f4280653a376d8bd8b47fadea6fc
