@@ -1,47 +1,23 @@
-Content-Type: multipart/mixed; boundary="===============6697683279716578269=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-Date: Wed, 21 Jan 2026 09:19:41 -0000
-Message-Id: <176898718120.819083.15866937056763686953@gitolite.kernel.org>
-
---===============6697683279716578269==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
+Date: Wed, 21 Jan 2026 09:20:26 -0000
+Message-Id: <176898722633.821779.12657559658705533783@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-user: ij
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/pci/pci
+user: mani
 changes:
-  - ref: refs/heads/fixes
-    old: b3914291d985124e15ddc91b84fbb9dc356883e7
-    new: 4b11f2336e23d5c55b76591bd8ac39b059f68ad0
+  - ref: refs/heads/controller/dwc
+    old: 68ac85fb42cfeb081cf029acdd8aace55ed375a2
+    new: 86cbb7a81068434fdc1d5afb96d91ab971fb279e
     log: |
-         40901719bd28a129471f80f98edca42548273458 platform/x86: acer-wmi: Extend support for Acer Nitro AN515-58
-         4b11f2336e23d5c55b76591bd8ac39b059f68ad0 platform/x86: acer-wmi: Fix missing capability check
+         1bcf245c837bc66fdaddea222bab9eb5c978a9d7 PCI: dwc: Return -ENODEV from dw_pcie_wait_for_link() if device is not found
+         01d16b8afb7afcc17f999f8b4a9b9cfe6c6fae71 PCI: dwc: Return -EIO from dw_pcie_wait_for_link() if device is not active
+         36dd677f7d76ddec96d50cf57f543ba7d612087c PCI: dwc: Rename and move ltssm_status_string() to pcie-designware.c
+         d266f63b385a3bad5fd6f23797b6de57de998677 PCI: dwc: Rework the error print of dw_pcie_wait_for_link()
+         86cbb7a81068434fdc1d5afb96d91ab971fb279e PCI: dwc: Fail dw_pcie_host_init() if dw_pcie_wait_for_link() returns -ETIMEDOUT
          
-
---===============6697683279716578269==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1768987178 +0200
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86.git
-nonce 1768987177-4006b5cb7ed0f9383d4bb40546cf4e6c8c2a6c15
-
-b3914291d985124e15ddc91b84fbb9dc356883e7 4b11f2336e23d5c55b76591bd8ac39b059f68ad0 refs/heads/fixes
------BEGIN PGP SIGNATURE-----
-
-iHUEABYIAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCaXCaLgAKCRBZrE9hU+XO
-MdSoAQDtug2wDAVB0RdrC/WVs0EK8EOg5J6oT/I8GzDViNHvewEAgQe7E7ZZB/Om
-j45gRevPNgAdEVPazTSymyFZt/qYjAw=
-=IaCH
------END PGP SIGNATURE-----
-
---===============6697683279716578269==--
