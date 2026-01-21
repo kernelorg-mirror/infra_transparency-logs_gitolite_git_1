@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7701496432826562036=="
+Content-Type: multipart/mixed; boundary="===============4461578104763973133=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Wed, 21 Jan 2026 16:41:34 -0000
-Message-Id: <176901369415.1204652.5807953654303507866@gitolite.kernel.org>
+Date: Wed, 21 Jan 2026 16:41:36 -0000
+Message-Id: <176901369665.1204868.14908584027818280234@gitolite.kernel.org>
 
---===============7701496432826562036==
+--===============4461578104763973133==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/10GbE
+  - ref: refs/heads/40GbE
     old: b97d5eedf4976cc94321243be83b39efe81a0e15
     new: ba1096c315283ee3292765f6aea4cca15816c4f7
     log: revlist-b97d5eedf497-ba1096c31528.txt
 
---===============7701496432826562036==
+--===============4461578104763973133==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -43,4 +43,4 @@ c7159e960f1472a5493ac99aff0086ab1d683594 usbnet: limit max_mtu based on device's
 cdf8de9c6bfe94508d251cb290ee66e34e6f3368 Octeontx2-pf: Update xdp features
 ba1096c315283ee3292765f6aea4cca15816c4f7 netrom: fix double-free in nr_route_frame()
 
---===============7701496432826562036==--
+--===============4461578104763973133==--
