@@ -1,22 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============4026346879677214143=="
+Content-Type: multipart/mixed; boundary="===============4732798524022871732=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Wed, 21 Jan 2026 17:03:27 -0000
-Message-Id: <176901500725.1224728.15994155983716657453@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Wed, 21 Jan 2026 17:03:30 -0000
+Message-Id: <176901501090.1224942.11567594201066969630@gitolite.kernel.org>
 
---===============4026346879677214143==
+--===============4732798524022871732==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.20
+  - ref: refs/heads/asoc-6.20
     old: 9ef552fcf0e0fbc0d8a7d6a5903a08a90eb97f34
     new: be9d8d966447aeb8f0f8047503195bdd128ecd31
     log: |
@@ -32,28 +32,28 @@ changes:
          be9d8d966447aeb8f0f8047503195bdd128ecd31 ASoC: cs35l56: Add support for new Dell laptops
          
 
---===============4026346879677214143==
+--===============4732798524022871732==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1769015005 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1769015005-3fae4dd4e46a9bff608bb05d5a3615a78828104f
+pusher C3F436CA30F5D8EB 1769015009 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1769015008-098ba18ffb749846eefb35e8d52b2119a1be2636
 
-9ef552fcf0e0fbc0d8a7d6a5903a08a90eb97f34 be9d8d966447aeb8f0f8047503195bdd128ecd31 refs/heads/for-6.20
+9ef552fcf0e0fbc0d8a7d6a5903a08a90eb97f34 be9d8d966447aeb8f0f8047503195bdd128ecd31 refs/heads/asoc-6.20
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmlxBt0ACgkQJNaLcl1U
-h9A9hwf/QSbZIUoQSlsx5sb5FR9UPRXlM4xB4KQQDt8yNrgf70gQ/QPafBun9FPv
-cFfTILq68k5WAIC7ys4xTxH4AFY4z3v2Y0wdX72T7y62K1lXeftvCsdyCDstg3+o
-aPC89V5lE+wnfDcsBqq2g84q71klurdBchgcsBpaw9Czw6d5CAvXdFrreSG2d71J
-rIqpZsO+65NUXQJL96A7oE27GBHNRkz0U2lUEAOh8gP+zpcd7vSxzI5/esFdSuPN
-VsZYDlB2oFhoVZ+qnZGeZ1hWmq+/NPE2AsFwyaqwn0NDDiqcNf5UbPGCiw8bMPtw
-nJ0p4fIollQ6Wha05EA072eC90dNXA==
-=uJ25
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmlxBuEACgkQJNaLcl1U
+h9DC4Af/bXbKz5wLddeecPDsQXEkLFT/6yIoAvEsRP2qSvw0GWcbJhFUx1w0i3N9
+l2KavnyMdHlqjxZe7nO86jkJ0EihmD63pZCiuWPje2sMxmSYKrsXeyPlf2bQIDC1
+eLSAs8tqQmFJTsl8nUTSoeS8f89S5et7qJ27LrscEp1Lrbd7myKB98JkAMVfG5Cj
+IG1Mj0XbV+TRTbB+ItYlpnSmvHGnykAgaVNMm2wPrSMDCD/wusg6nDkOVUdz7ctI
+o9wPikxR7BZNn7nqlqtHfkKQRKIzY0Pw83T369/CMun/TGHVeViW9+eAXHkvdjU4
+Op5XJquSWJNZMCqzxcS5MRvuZfJMBA==
+=AuHt
 -----END PGP SIGNATURE-----
 
---===============4026346879677214143==--
+--===============4732798524022871732==--
