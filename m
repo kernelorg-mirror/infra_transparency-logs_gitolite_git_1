@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux
-Date: Wed, 21 Jan 2026 14:45:47 -0000
-Message-Id: <176900674743.1102700.8694452913767766397@gitolite.kernel.org>
+Date: Wed, 21 Jan 2026 14:46:32 -0000
+Message-Id: <176900679211.1103419.7005933169680034010@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,15 +12,15 @@ repo: pub/scm/linux/kernel/git/axboe/linux
 user: axboe
 changes:
   - ref: refs/heads/block-6.19
-    old: 07a1bc5c14c9ef6401b21c1873c6c087075ff292
-    new: 52d962778502251a92f96db9d2382a416c938ba1
+    old: 52d962778502251a92f96db9d2382a416c938ba1
+    new: 47bdf1d29caec7207b7f112230055db36602dfc0
     log: |
-         52d962778502251a92f96db9d2382a416c938ba1 ublk: fix ublksrv pid handling for pid namespaces
+         47bdf1d29caec7207b7f112230055db36602dfc0 ublk: fix ublksrv pid handling for pid namespaces
          
   - ref: refs/heads/for-next
-    old: 11aa34cda330d65e14a0117e41172058b697f89f
-    new: a7191142161c232622a541530483d71aa389ef6e
+    old: a7191142161c232622a541530483d71aa389ef6e
+    new: 2c52c74c3bce95ce3c33ba73299310fe5bfa94c1
     log: |
-         52d962778502251a92f96db9d2382a416c938ba1 ublk: fix ublksrv pid handling for pid namespaces
-         a7191142161c232622a541530483d71aa389ef6e Merge branch 'block-6.19' into for-next
+         47bdf1d29caec7207b7f112230055db36602dfc0 ublk: fix ublksrv pid handling for pid namespaces
+         2c52c74c3bce95ce3c33ba73299310fe5bfa94c1 Merge branch 'block-6.19' into for-next
          
