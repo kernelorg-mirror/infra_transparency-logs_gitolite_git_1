@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux
-Date: Wed, 21 Jan 2026 14:37:37 -0000
-Message-Id: <176900625731.1095363.13318988586514001538@gitolite.kernel.org>
+Date: Wed, 21 Jan 2026 14:45:47 -0000
+Message-Id: <176900674743.1102700.8694452913767766397@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,18 +11,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/axboe/linux
 user: axboe
 changes:
-  - ref: refs/heads/for-7.0/block
-    old: f7bc22ca0d55bdcb59e3a4a028fb811d23e53959
-    new: 880528eaa67fc6446a0b5c16757f0d6a2639ccda
+  - ref: refs/heads/block-6.19
+    old: 07a1bc5c14c9ef6401b21c1873c6c087075ff292
+    new: 52d962778502251a92f96db9d2382a416c938ba1
     log: |
-         d7a4693a250ee2f185ce5c878e74252e533ac4b9 rust: block: mq: use pin_init::zeroed() for queue_limits
-         880528eaa67fc6446a0b5c16757f0d6a2639ccda rust: block: mq: use pin_init::zeroed() for tag_set
+         52d962778502251a92f96db9d2382a416c938ba1 ublk: fix ublksrv pid handling for pid namespaces
          
   - ref: refs/heads/for-next
-    old: 44fd89ad9db2b2e40cad0e04267582173f9084a0
-    new: 11aa34cda330d65e14a0117e41172058b697f89f
+    old: 11aa34cda330d65e14a0117e41172058b697f89f
+    new: a7191142161c232622a541530483d71aa389ef6e
     log: |
-         d7a4693a250ee2f185ce5c878e74252e533ac4b9 rust: block: mq: use pin_init::zeroed() for queue_limits
-         880528eaa67fc6446a0b5c16757f0d6a2639ccda rust: block: mq: use pin_init::zeroed() for tag_set
-         11aa34cda330d65e14a0117e41172058b697f89f Merge branch 'for-7.0/block' into for-next
+         52d962778502251a92f96db9d2382a416c938ba1 ublk: fix ublksrv pid handling for pid namespaces
+         a7191142161c232622a541530483d71aa389ef6e Merge branch 'block-6.19' into for-next
          
