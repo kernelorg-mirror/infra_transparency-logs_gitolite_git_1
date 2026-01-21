@@ -1,40 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux
-Date: Wed, 21 Jan 2026 14:55:37 -0000
-Message-Id: <176900733761.1112282.7372659085257816897@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============6255035549411827833=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Wed, 21 Jan 2026 15:14:21 -0000
+Message-Id: <176900846169.1124610.535617902528865781@gitolite.kernel.org>
+
+--===============6255035549411827833==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux
-user: axboe
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/block-6.19
-    old: f5f2bad67a45cd1ef6f5b727da104694a81b3666
-    new: e7e1cc18f120a415646be12470169a978a1adcd9
+  - ref: refs/heads/master
+    old: 25311d48ad7887ae034b1fadcb6d8338f51c23b4
+    new: e12001f7037c2d8e0d2f31bf3198807d5a9a461e
     log: |
-         75aad5ffe099a1b1a342257236dc260493917ed2 selftests/ublk: fix IO thread idle check
-         23e62cf75518825aac12e9a22bdc40f062428898 selftests/ublk: fix error handling for starting device
-         e7e1cc18f120a415646be12470169a978a1adcd9 selftests/ublk: fix garbage output in foreground mode
+         e12001f7037c2d8e0d2f31bf3198807d5a9a461e 5.10-stable patches
          
-  - ref: refs/heads/for-next
-    old: 7aeba154e3bc434290f60c38a925076a63020f17
-    new: 26d6a51c4a8a2aad364957adb95b9279d9a82872
-    log: |
-         75aad5ffe099a1b1a342257236dc260493917ed2 selftests/ublk: fix IO thread idle check
-         23e62cf75518825aac12e9a22bdc40f062428898 selftests/ublk: fix error handling for starting device
-         e7e1cc18f120a415646be12470169a978a1adcd9 selftests/ublk: fix garbage output in foreground mode
-         73061dbeca783aaf311e1af9610f8cba1c1176cd selftests/io_uring: add io_uring_queue_init_params
-         145e0074392587606aa5df353d0e761f0b8357d5 selftests/io_uring: support NO_SQARRAY in miniliburing
-         2143e98137d4c35b1073ecf127f5181eaf2feb2d Merge branch 'io_uring-6.19' into for-next
-         26d6a51c4a8a2aad364957adb95b9279d9a82872 Merge branch 'block-6.19' into for-next
-         
-  - ref: refs/heads/io_uring-6.19
-    old: 10dc959398175736e495f71c771f8641e1ca1907
-    new: 145e0074392587606aa5df353d0e761f0b8357d5
-    log: |
-         73061dbeca783aaf311e1af9610f8cba1c1176cd selftests/io_uring: add io_uring_queue_init_params
-         145e0074392587606aa5df353d0e761f0b8357d5 selftests/io_uring: support NO_SQARRAY in miniliburing
-         
+
+--===============6255035549411827833==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1769008459 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1769008455-fdc6cc3feaf537c422844253275c04ab7b344b48
+
+25311d48ad7887ae034b1fadcb6d8338f51c23b4 e12001f7037c2d8e0d2f31bf3198807d5a9a461e refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmlw7UsbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+B4gQAIWCjByTGNhHHgn9FdQp
+xUYxXqMhJI88e+tAmRyUpT5f+uuJtAwe0UIKYOwa9ywjBWqrEm+rwEnR72kgcVNn
+5WaPW2RDz3Kis571pfGGcmYwnD18EN8BQRzyD6c8URHzT3MgBjnUiGIA4/MWdXsx
+U+tTH2N4EZ/h3lgaS8aay8lwHUS1mVZ5ZdZrj0ujghqI72IOaDwuNGVmLpJFAj6p
+GMZWSwzRkI9KOnDWfh7gb9BvAVANxhjJBRHbWDy7moNN1IFCum91y7p1nJgT73wq
+ufQxmH1t2RVRZAR/zK2mkSR/TDNr3QPOjt33EvahPnIiw2ruwVZQLllAuMIR1blf
+2/gkH4PNs2i3cC5oR7Axddgxmmpzhn4nUdcv5S9asZj4oz/RMFJoy409/YjGRfnZ
+XQwJoLIuC35eSbjuQHXihJwoOPPJVSPPgn/ohheglbj5VWxBlf0Z0PqoAVQg7rKW
+ONJpS2VBQmWVtzJEWDbCXFvKqUFUoFG4KCUsuLQg3nh+W+d8r/YYXf8OsVmBjbjh
+vUFngjh+llVf3BJ8GgrEW3pKD13PMpSMfN66AHlcqgf+YRxao6qslXdH6hA2DlBy
+ndPB+acMCo9Ii0jz6/slxH8bbaXSTeO8uVBZietveXBxUFb7ssmIDuYp0YuhwwsN
+H9qhLKrsowzGLGTLl2CKhbmw
+=z+i9
+-----END PGP SIGNATURE-----
+
+--===============6255035549411827833==--
