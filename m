@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/boqun/linux
-Date: Wed, 21 Jan 2026 14:28:59 -0000
-Message-Id: <176900573991.1086660.9055807199938180212@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/toke/linux
+Date: Wed, 21 Jan 2026 14:32:13 -0000
+Message-Id: <176900593365.1090289.13513785700565802004@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/boqun/linux
-user: boqun
+repo: pub/scm/linux/kernel/git/toke/linux
+user: toke
 changes:
-  - ref: refs/heads/rust-rcu-alloc
-    old: 765caa59d7ab93d6a35488358da976c39e59cd73
-    new: f2f3387f0aea9d80cad118025106b6a36f8bfa75
-    log: |
-         f2f3387f0aea9d80cad118025106b6a36f8bfa75 rust: sync: arc: Implement DropRcu for Arc
-         
+  - ref: refs/heads/cake_mq-6.12
+    old: 0000000000000000000000000000000000000000
+    new: 332d7e010c296358b766cecce6471354644daab6
