@@ -1,60 +1,28 @@
-Content-Type: multipart/mixed; boundary="===============5400885850463249655=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vbabka/linux
-Date: Wed, 21 Jan 2026 19:08:39 -0000
-Message-Id: <176902251964.1334537.6384211581782137117@gitolite.kernel.org>
-
---===============5400885850463249655==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
+Date: Wed, 21 Jan 2026 19:22:54 -0000
+Message-Id: <176902337491.1345858.13381789590842230978@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vbabka/linux
-user: vbabka
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/peterz/queue
+user: peterz
 changes:
-  - ref: refs/heads/b4/sheaves-for-all
-    old: e5766b18a83a1967d88ab3d4cbf6aabb01a6987c
-    new: fb4dea6d87f68e5b770017a52108f55767db3ab6
+  - ref: refs/heads/locking/core
+    old: 0c961e6d4d87977f98c54ffc30ff98df6860c081
+    new: 33d9e7fdf9c17417347d1f06ddebaf25f21ab62a
     log: |
-         7914c07c7e2ba16815654b8024a718fba524816e slab: remove the do_slab_free() fastpath
-         cee37dbcb04e59872c043f6bf4238fcadf1e230a slab: remove defer_deactivate_slab()
-         a5bb454fca3dd2894ea2d48c114269c1968292f5 slab: simplify kmalloc_nolock()
-         87e510cc6dc1cd6700a678019aace9435048f44f slab: remove struct kmem_cache_cpu
-         4f9011a02f45217c1d837a0d479b1115ce8a15f7 slab: remove unused PREEMPT_RT specific macros
-         4e2af38c8741d77490bb6611c903058a2e85fb6f slab: refill sheaves from all nodes
-         335ac7813ef0bd5b044b2bfe9a179bebce478498 slab: update overview comments
-         c2f7a87f3ae3d6ab80e9d8cdf3c9f8b7d7805d5c slab: remove frozen slab checks from __slab_free()
-         f543d8b9630ad0606e34ff233a0402072896d43e mm/slub: remove DEACTIVATE_TO_* stat items
-         fb4dea6d87f68e5b770017a52108f55767db3ab6 mm/slub: cleanup and repurpose some stat items
+         420570c3dcf6a97f0af485da86c578e1a9a29b60 cleanup: Make __DEFINE_LOCK_GUARD handle commas in initializers
+         c761d49f054ed59be7426385b3a88b43f0697b0f compiler-context-analysis: Introduce scoped init guards
+         89c6599a1365d6d2d5d7582503176af07398a2f9 kcov: Use scoped init guard
+         d95484f56408f86d1c882dd14aaa42cea657b55f crypto: Use scoped init guard
+         b8bd198c70c608041fc808b3a6df3b077f4ef756 tomoyo: Use scoped init guard
+         e344a8cfac3bb472c26e63618ad5e0c9031b2fb8 compiler-context-analysis: Remove __assume_ctx_lock from initializers
+         98618beca29ef3413ec1b5531d71333a9f09aadf compiler-context-analysys: Add __cond_releases()
+         91e782f21969024b07fc5863c87db90794139993 locking/mutex: Add context analysis
+         a31a1351e9ec9df7a72ea4877a8e53a9c02e8641 locking/rtmutex: Add context analysis
+         33d9e7fdf9c17417347d1f06ddebaf25f21ab62a futex: Convert to compiler context analysis
          
-
---===============5400885850463249655==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher A940D434992C2E8E99103D50224FA7E7CC82A664 1769022513 +0100
-pushee gitolite.kernel.org:pub/scm/linux/kernel/git/vbabka/linux.git
-nonce 1769022513-7bd229cb20ee8c50068e103b902d63305735fcbc
-
-e5766b18a83a1967d88ab3d4cbf6aabb01a6987c fb4dea6d87f68e5b770017a52108f55767db3ab6 refs/heads/b4/sheaves-for-all
------BEGIN PGP SIGNATURE-----
-
-iQFPBAABCAA5FiEEe7vIQRWZI0iWSE3xu+CwddJFiJoFAmlxJDEbFIAAAAAABAAO
-bWFudTIsMi41KzEuMTEsMiwyAAoJELvgsHXSRYiaTu8H/0AiOrQe3f0hb+ANWwD0
-RUehEFsTfga7lhzPuZ+I288IFQerX8sq+WlvfWIDxQQLUvaoRHVzJ2cpYxzYi6c+
-TQmck8/tle4e8aLmCeSuOVHZV39ykBmK7jSLpzS4ovhkDZAj6zefijdVOVH4x91X
-K9A2kKp1vTiM6Pw0bIYQjMEMgFozkid99ARRUjEWons60Mro48BKYG6yY2km+ZjB
-jN5hZXJEHLv6j1HzZaBftRjqPHOvm7hD9p/mn0XaKGGuumwpTkwJo5uLYcy6leKI
-VMYea8B8mZs94HGKYm62aPYkZxyoHZGDSNNwSg96zuP78fSoGXLziPMp8FzHFpwb
-6ZA=
-=jFM6
------END PGP SIGNATURE-----
-
---===============5400885850463249655==--
