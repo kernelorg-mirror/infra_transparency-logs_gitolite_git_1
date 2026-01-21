@@ -1,19 +1,85 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Wed, 21 Jan 2026 03:22:39 -0000
-Message-Id: <176896575924.541460.11677270234390229953@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============0125558358167497257=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
+Date: Wed, 21 Jan 2026 03:50:56 -0000
+Message-Id: <176896745621.563653.12116601661528319886@gitolite.kernel.org>
+
+--===============0125558358167497257==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/linux/kernel/git/akpm/25-new
+user: akpm
 changes:
-  - ref: refs/heads/main
-    old: cdf8de9c6bfe94508d251cb290ee66e34e6f3368
-    new: ba1096c315283ee3292765f6aea4cca15816c4f7
-    log: |
-         ba1096c315283ee3292765f6aea4cca15816c4f7 netrom: fix double-free in nr_route_frame()
-         
+  - ref: refs/heads/master
+    old: 4abc25d288ad6ad7aff560989b7c263c278cfe3e
+    new: 9b99abf93fa43bbab762479c93c73a030ce88353
+    log: revlist-4abc25d288ad-9b99abf93fa4.txt
+
+--===============0125558358167497257==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-4abc25d288ad-9b99abf93fa4.txt
+
+a4facc51660897a2418b2bd558a5b4dfcba8eee4 foo
+850b114c0fdda336ef0c00ea1ce9345791a0995a foo
+9f247f4a8a1e84e53659316be10e90f7fcd8ce17 foo
+1908658c3b3bde6a2cf0e024b688db200ba1cc97 foo
+9d8c59df5555086be6c7ab68fbfee0a9ccfd6ee2 foo
+a9e850faec37ac303059e0439d99d016fc9fdd20 foo
+b2df5686c159e2e1497a4490fa44241ce4ee3bdc foo
+4b126ce74848e527fe9291b5f734399a92e6f18b foo
+d393c7972f58d4f880c53acda04fe598876eedcf foo
+20d4027af5d67ab63f0bde6b9465900cc0019337 foo
+91a42d465ef3b12ca6fc785f82151471a4364b39 foo
+cd56a0ec7aba3410a813b552d025f853b2459f9a foo
+81b1c7f0a45db8b7f16aef53151725b70b163e2d foo
+35a2c706263ea8ffdb70000567838036d0702239 foo
+fcf0c68f2287c21b2fadd934f21aa4e7879b2be3 foo
+3f6bf46b8a1e5edd8f72c030477df11ab632820f foo
+4c59f7e2bb52af477660e64f1e07f4bfa08150fc foo
+01f25a28b66f52c23f4e1eb643a0d03faf0ef89f foo
+20b9eb9ac8be2ba0f9ecc84878a3ae4044e65996 foo
+68c09de58c6a57dc16e5060b3ae97455456e733e foo
+269960541c1959a16ce7847c0c75f508a6a66aea foo
+6908de40f9279524b549bda4fb217865d1781b31 foo
+3cfe533c9bfd5e1922a93980efdf78de66f67072 foo
+cc3f871014a93f49185a2d09976aaef2ddf9733b foo
+f532eb783542f05d73c4eca61c307bfc00d73cf9 foo
+d89a6364d79c6ed33fab3a3e518783b1dfdcf08c foo
+6042d34ecb0a56a21f556c10fb23a19d3476694a foo
+5dc6bb9f09717cbc3bd704759a25e3286624fda8 foo
+7386b4f39d6936eb357e051fef4376c1b41dfaab foo
+b1bf6aa85d462f6b312e37227bbd440a72faf045 foo
+75749855d182e0b98e466d49951d43c8be4d0096 foo
+5922c20a2de509faa287d776709e11704afb67fd foo
+fa1e37491cd896d789dc7994b7915623e342ff39 foo
+95b4df5d44f1086670b1f9e4b72661b1a2068ead foo
+42b36c12aac65c7a5552aa8e5b97abe52bb32495 foo
+dbaeaeeb19f7bdd8ea54e4cf680b223888581cfa foo
+3bafc40f17c694469d5019b954d6238acd825402 foo
+61efb9d942d4ebf6184234ef9cbe6c1383e643a9 foo
+677b47f2b3cf4f36bb6ea64eec9b4583649597a1 foo
+b6d0fa985900295877fb66a5be4412a8f3627dd8 foo
+6397f2041b56b7a642d4c69771b8e9dd3e17ad74 foo
+cfbea8b52b875ec8bd5dcf09003f1ee47014ae7f foo
+86b6bef52148c1775bbf6dbad80ddb49c90289c0 foo
+683c9fdb9512460bba378b80168053f9f8e587c6 foo
+075ff67cb3964631e97d54be4a1d8c98270f0daf foo
+11b3c587574433eb03422b1848f19523e4bc1bcb foo
+80f602bf1f224a12a3df0e92f56294cc9946e370 foo
+5282545159f7ef9c16ae2f4b3064cf8948430469 foo
+6eb309ddf797cecacb6ed30c7afac9170f8f99fa foo
+b3770a3f3a509b09228dca48f939e8c22fa52362 foo
+fcba6d91191c1e91b1c8d852c7b18b4f862b4e53 foo
+2189fdf71a20bd816781a577dcb5d5ae7f00e6c1 foo
+d03e5dc841982b1aad3dbeed02171c1ca9c51f62 foo
+4e7ca73e43e0e55dcdad37258d7d1b516420c5f1 foo
+9b99abf93fa43bbab762479c93c73a030ce88353 foo
+
+--===============0125558358167497257==--
