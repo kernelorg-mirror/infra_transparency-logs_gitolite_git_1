@@ -1,25 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ukleinek/linux
-Date: Wed, 21 Jan 2026 17:42:23 -0000
-Message-Id: <176901734317.1261198.17191133722456208101@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Wed, 21 Jan 2026 17:42:46 -0000
+Message-Id: <176901736659.1261557.1855545309447758714@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ukleinek/linux
-user: ukleinek
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: ast
 changes:
-  - ref: refs/heads/pwm/for-next
-    old: d2252319f89e475d7e127f2e0d044c3f8bd9e199
-    new: 75e7ed52ac7c1da90f304dcda2906636404df921
+  - ref: refs/heads/master
+    old: ca674a032fb3ecc8e658ba24dd40b8c3dfff4dff
+    new: d0f5d4f8f3285349bfb94fa84555ab267d2c041d
     log: |
-         75e7ed52ac7c1da90f304dcda2906636404df921 pwm: tiehrpwm: Enable pwmchip's parent device before setting configuration
-         
-  - ref: refs/heads/pwm/for-nexxt
-    old: d2252319f89e475d7e127f2e0d044c3f8bd9e199
-    new: 75e7ed52ac7c1da90f304dcda2906636404df921
-    log: |
-         75e7ed52ac7c1da90f304dcda2906636404df921 pwm: tiehrpwm: Enable pwmchip's parent device before setting configuration
+         d0f5d4f8f3285349bfb94fa84555ab267d2c041d bpf: Revert "bpf: drop KF_ACQUIRE flag on BPF kfunc bpf_get_root_mem_cgroup()"
          
