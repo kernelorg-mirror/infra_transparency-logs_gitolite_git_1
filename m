@@ -1,26 +1,31 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
-Date: Wed, 21 Jan 2026 08:22:35 -0000
-Message-Id: <176898375516.773984.11120721797804957245@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vireshk/linux
+Date: Wed, 21 Jan 2026 08:28:10 -0000
+Message-Id: <176898409023.778398.11606229528485327681@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tiwai/sound
-user: tiwai
+repo: pub/scm/linux/kernel/git/vireshk/linux
+user: vireshk
 changes:
-  - ref: refs/heads/for-linus
-    old: 930e69757b74c3ae083b0c3c7419bfe7f0edc7b2
-    new: 70b4db7d258118a7464f039112a74ddb49a95b06
+  - ref: refs/heads/virtio/msg
+    old: 8a9514c687cbedd6a7b41f7c9107ed5ea701fd02
+    new: f3cda6c0d888c0df12b263b9914117ebfe7daadc
     log: |
-         70b4db7d258118a7464f039112a74ddb49a95b06 ALSA: usb-audio: Use the right limit for PCM OOB check
+         f3cda6c0d888c0df12b263b9914117ebfe7daadc vsock: Add shared-memory support for virtio and loopback
          
-  - ref: refs/heads/master
-    old: ae56962d333070a6c3c9cb3f7f13fee126789cac
-    new: 6e5cadef6d0a761daeef870ce13f8f607b87cbf1
+  - ref: refs/heads/virtio/msg-xen
+    old: 2978a84b82627a16bee8e2cd5718a51de47e7d5e
+    new: 7cc979887f823ceafcdee62302e080eac781cc5a
     log: |
-         70b4db7d258118a7464f039112a74ddb49a95b06 ALSA: usb-audio: Use the right limit for PCM OOB check
-         6e5cadef6d0a761daeef870ce13f8f607b87cbf1 Merge branch 'for-linus'
+         f3cda6c0d888c0df12b263b9914117ebfe7daadc vsock: Add shared-memory support for virtio and loopback
+         04afec1877e6a9046299e7e579ba5495b977eb0c virtio-msg: ffa: Add passive-mode host support
+         5e60b821c331cde7b572b28107dbadd773aa6c13 DNU: firmware: arm_ffa: Keep host driver alive until guests enumerate
+         85be0fa1b54b2f678fa327707f2dca31d2a22e9e DNU: firmware: arm_ffa: Force-match virtio-msg-ffa UUID
+         646576559758a45d73cfc2e71a671afb9e5e336b DNU: defconfig: arm64: Reset to baseline
+         ccce5dd7d56bcdd0947c109e1a40d62b9c519bf8 DNU: defconfig: arm64/x86_64: Enable virtio-msg and qemu/xen options
+         7cc979887f823ceafcdee62302e080eac781cc5a DNU: defconfig: arm64: Enable built-in initramfs for guest testing
          
