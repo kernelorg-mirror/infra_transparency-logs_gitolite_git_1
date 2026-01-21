@@ -1,28 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
-Date: Wed, 21 Jan 2026 22:29:17 -0000
-Message-Id: <176903455710.1493120.3992054988644257068@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
+Date: Wed, 21 Jan 2026 22:29:30 -0000
+Message-Id: <176903457012.1493410.7560890122348160455@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kdave/linux
-user: kdave
+repo: pub/scm/linux/kernel/git/akpm/25-new
+user: akpm
 changes:
-  - ref: refs/heads/for-next
-    old: 1f3a18eb0c87f441b1b20b3d81612288a76fa791
-    new: 670341a5f0a63d76f505b7985c9f15d526f5cf01
+  - ref: refs/heads/master
+    old: 2d01347b4d0ad52c8383769153c743a3437ebb6e
+    new: cb12b298459fe001e0ca16384d3d2a8001588e76
     log: |
-         f31c0683c80658e12412591bd09117b28a64ebbc btrfs: fallback to buffered IO if the data profile has duplication
-         706360ccaef1941836921dc7072bde03b22c095a btrfs: === misc-next on b-for-next ===
-         e2c890404e89ace5e8f52741bd5528d82544afd7 btrfs: tests: remove invalid file extent map tests
-         0f0bc214fa33a9d2bf95effc710f4189ddcc727a btrfs: tests: prepare extent map tests for strict alignment checks
-         ab0a6e03131ea9469a020c404c183346541f7a44 btrfs: add strict extent map alignment checks
-         e0b76d0af59bc2957c2c95a4839b4a7a67f93ef8 Merge branch 'misc-6.19' into for-next-current-v6.18-20260121
-         2fab5f5982df5ec53f7d4af72b91c14d4e12e539 Merge branch 'b-for-next' into for-next-next-v6.19-20260121
-         2d72032d01eb2d33a1032eba52c2e8580a267b8e Merge branch 'misc-next' into for-next-next-v6.19-20260121
-         87aebcbc137c2e65be74bad54c0970b734509c0f Merge branch 'for-next-current-v6.18-20260121' into for-next-20260121
-         670341a5f0a63d76f505b7985c9f15d526f5cf01 Merge branch 'for-next-next-v6.19-20260121' into for-next-20260121
+         afd789d80c6955c35090f36bc4aa5264f1d49dc2 foo
+         12ac62fa8690025f70a2b015396375ba3cfe1854 foo
+         45c472b354c957846909c6f0b552ff12dc82f755 foo
+         cb12b298459fe001e0ca16384d3d2a8001588e76 foo
          
