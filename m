@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4054298367646694874=="
+Content-Type: multipart/mixed; boundary="===============1584799920127899190=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Wed, 21 Jan 2026 18:37:54 -0000
-Message-Id: <176902067437.1308813.6318211377753697077@gitolite.kernel.org>
+Date: Wed, 21 Jan 2026 18:38:19 -0000
+Message-Id: <176902069937.1309238.6702209391940762598@gitolite.kernel.org>
 
---===============4054298367646694874==
+--===============1584799920127899190==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,15 +16,51 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: 8e52b44263ac9f8933979a178d64438250210034
-    new: 8a4016ebca5574168aa97f21590ec16b75aaf2b4
-    log: revlist-8e52b44263ac-8a4016ebca55.txt
+    old: 8a4016ebca5574168aa97f21590ec16b75aaf2b4
+    new: ea275d999e5864384974d8941b80662858b93ad6
+    log: revlist-8a4016ebca55-ea275d999e58.txt
+  - ref: refs/heads/tip/urgent
+    old: 0da63ad81f41d6602505d130c3421d752ba84ab0
+    new: c3865aa59b4315e59072924a59f68a936b3937cd
+    log: revlist-0da63ad81f41-c3865aa59b43.txt
 
---===============4054298367646694874==
+--===============1584799920127899190==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8e52b44263ac-8a4016ebca55.txt
+Content-Disposition: attachment; filename=revlist-8a4016ebca55-ea275d999e58.txt
+
+8a4761cca6dc72c1dbc081458095d788fa3d5aa6 Merge branch into tip/master: 'irq/urgent'
+7422f0aeeb736c8d37cae99971cd5985053738a4 Merge branch into tip/master: 'perf/urgent'
+bb9549a5b90ee0c32a23baa0d3b00669c6923752 Merge branch into tip/master: 'sched/urgent'
+c3865aa59b4315e59072924a59f68a936b3937cd Merge branch into tip/master: 'timers/urgent'
+0b6aace4484d33bf93bdcea786ac4121f77397d7 Merge branch into tip/master: 'irq/core'
+f87cbbb5066b42b0e985855c17ecc8009c615dca Merge branch into tip/master: 'irq/drivers'
+34958113db5c7f9d012b7d55873f059ec49991ae Merge branch into tip/master: 'irq/msi'
+0343d1869a11b9c2579294a0d7fbcbef49beb63c Merge branch into tip/master: 'locking/core'
+ff269e6e154f66086990aa148c2c68dc11046047 Merge branch into tip/master: 'perf/core'
+b2edc07589dbee9bbd93d097bdf3baa3a67248d0 Merge branch into tip/master: 'sched/core'
+a1658cb48c1613292c6a1d9ee7aa8c75e577a679 Merge branch into tip/master: 'timers/core'
+7eab8c94c5c0099981235d1a4ed8726c4fec9d85 Merge branch into tip/master: 'timers/vdso'
+afa06690b136e4465e8bba4222817ccc37171984 Merge branch into tip/master: 'x86/alternatives'
+47bdabc8c9b17aa5a16add6b3cc7f82da49d9981 Merge branch into tip/master: 'x86/boot'
+03f940a64dca548063886c9b3df7da71068ac57a Merge branch into tip/master: 'x86/bugs'
+48b38a12d4811c669c4ff2aa844b3bfde79ff569 Merge branch into tip/master: 'x86/cache'
+ac10e450499054f1397e664bff0187312bf6f563 Merge branch into tip/master: 'x86/cleanups'
+1123228043fb081e3ba742a162dd0b8ee1077c51 Merge branch into tip/master: 'x86/core'
+469954df177ace65d87ee51ae223348b7bd908bc Merge branch into tip/master: 'x86/cpu'
+467934e682979609c349dfb1cb9264af05a1cbe0 Merge branch into tip/master: 'x86/entry'
+770fd071c63d5b2a8414f5d0df794c057414b3e2 Merge branch into tip/master: 'x86/irq'
+8d4b2df8cfd6e679c1377d393919358acdb60501 Merge branch into tip/master: 'x86/microcode'
+ce32d20562adca4b1aa9da3c72151385661530b2 Merge branch into tip/master: 'x86/misc'
+7f90538a76af09a3458d9cbb805bcf531e9faa9a Merge branch into tip/master: 'x86/paravirt'
+ea275d999e5864384974d8941b80662858b93ad6 Merge branch into tip/master: 'x86/sev'
+
+--===============1584799920127899190==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-0da63ad81f41-c3865aa59b43.txt
 
 5497ffe305b2ea31ae62d4a311d7cabfb671f54a arm64: dts: rockchip: Fix voltage threshold for volume keys for Pinephone Pro
 8bb3754909cde5df4f8c1012bde220b97d8ee3bc arm64: dts: qcom: talos: Correct UFS clocks ordering
@@ -66,6 +102,9 @@ f45385c511141683379a6e090fe74c6002337b5e arm64: dts: rockchip: Fix pinctrl prope
 07eebd934c9cb9f12f589ea5b826fa7ca056cb4d Merge tag 'for-6.19-rc6-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
 119d1cbc6ee3c72620b1ab24dc3c89de31981d82 Merge tag 'slab-for-6.19-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/vbabka/slab
 cf38b2340c0e60ef695b7137440a4d187ed49c88 Merge tag 'soc-fixes-6.19-2' of git://git.kernel.org/pub/scm/linux/kernel/git/soc/soc
-8a4016ebca5574168aa97f21590ec16b75aaf2b4 Merge branch 'linus'
+8a4761cca6dc72c1dbc081458095d788fa3d5aa6 Merge branch into tip/master: 'irq/urgent'
+7422f0aeeb736c8d37cae99971cd5985053738a4 Merge branch into tip/master: 'perf/urgent'
+bb9549a5b90ee0c32a23baa0d3b00669c6923752 Merge branch into tip/master: 'sched/urgent'
+c3865aa59b4315e59072924a59f68a936b3937cd Merge branch into tip/master: 'timers/urgent'
 
---===============4054298367646694874==--
+--===============1584799920127899190==--
