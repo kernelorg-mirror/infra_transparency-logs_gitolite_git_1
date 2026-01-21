@@ -1,23 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/dhowells/linux-fs
-Date: Wed, 21 Jan 2026 22:35:59 -0000
-Message-Id: <176903495984.1500796.3304960005623748145@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/dtor/input
+Date: Wed, 21 Jan 2026 22:41:53 -0000
+Message-Id: <176903531369.1504932.11778360364968475336@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/dhowells/linux-fs
-user: dhowells
+repo: pub/scm/linux/kernel/git/dtor/input
+user: dtor
 changes:
-  - ref: refs/heads/keys-pqc
-    old: 20c0c09497600904a1ca5406fb90df2872ef6eb9
-    new: 64442598acdae4c1a278f6a6f236492aa73ccfd3
+  - ref: refs/heads/master
+    old: 3d9586f1f90c9101b1abf5b0e9d70ca45f5f16db
+    new: 8a8e63fedbe433b888143fcb7ff55b7a87fa3163
     log: |
-         d3b6dd90e23ef1b57143e60668175ecd890948d1 crypto: Add ML-DSA crypto_sig support
-         88662f93249b50901a7d5f0159def47550111e60 x509: Separately calculate sha256 for blacklist
-         1da0fd356dd2f8eadb8e902047a4948cce0e6761 pkcs7: Allow the signing algo to do whatever digestion it wants itself
-         e66da00c68ff67d35b9a29b1233ea8021ecc1c80 pkcs7, x509: Add ML-DSA support
-         64442598acdae4c1a278f6a6f236492aa73ccfd3 modsign: Enable ML-DSA module signing
+         8a8e63fedbe433b888143fcb7ff55b7a87fa3163 Input: appletouch - fix potential race between resume and open
+         
+  - ref: refs/heads/next
+    old: 3d9586f1f90c9101b1abf5b0e9d70ca45f5f16db
+    new: 8a8e63fedbe433b888143fcb7ff55b7a87fa3163
+    log: |
+         8a8e63fedbe433b888143fcb7ff55b7a87fa3163 Input: appletouch - fix potential race between resume and open
          
