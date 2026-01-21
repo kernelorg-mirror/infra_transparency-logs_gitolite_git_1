@@ -1,75 +1,49 @@
-Content-Type: multipart/mixed; boundary="===============5014257536369881377=="
+Content-Type: multipart/mixed; boundary="===============0542051150020930936=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
-Date: Wed, 21 Jan 2026 10:22:22 -0000
-Message-Id: <176899094219.870484.12938818613686173430@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/cip/linux-cip
+Date: Wed, 21 Jan 2026 10:31:43 -0000
+Message-Id: <176899150382.878368.5628337185346814039@gitolite.kernel.org>
 
---===============5014257536369881377==
+--===============0542051150020930936==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/peterz/queue
-user: peterz
+repo: pub/scm/linux/kernel/git/cip/linux-cip
+user: pavel
 changes:
-  - ref: refs/heads/locking/core
-    old: 142e9c9766947b8bbaf252d4a2a3958681d2b0e7
-    new: 0c961e6d4d87977f98c54ffc30ff98df6860c081
-    log: revlist-142e9c976694-0c961e6d4d87.txt
+  - ref: refs/heads/linux-6.12.y-cip
+    old: d77b29052b64f5101db70c6fde4e94d1c7a3f99a
+    new: 44f0ead7280ffc2a2d68b8fb920f6e137677b884
+    log: revlist-d77b29052b64-44f0ead7280f.txt
 
---===============5014257536369881377==
+--===============0542051150020930936==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-142e9c976694-0c961e6d4d87.txt
+Content-Disposition: attachment; filename=revlist-d77b29052b64-44f0ead7280f.txt
 
-0e2036a06dcf61dbd100168830287d6c42cd61e1 scripts/atomic: Fix kerneldoc spelling in try_cmpxchg()
-4d26d4a158f37cb53b22a23b4dc6c4e5bfa1369e compiler-context-analysys: Fix CONFIG_MODVERSION
-a45026cef17d1080c985adf28234d6c8475ad66f locking/local_lock: Include more missing headers
-86f4a271dc1962e389ea512d07a77626dbd8c1d8 rust: sync: Refactor static_lock_class!() macro
-106ab474e5a711ea08e0908a42cfa89d691e57ad rust: sync: Clean up LockClassKey and its docs
-8a581130b1cbc17c702298b8325e3df98c792760 rust: sync: set_once: Implement Send and Sync
-09248ed8cdb6345afc883c02aecd79dfbd9c2a9c rust: sync: Implement Unpin for ARef
-2cc3d5d6adbee058858f2e66de701a203b032746 rust: helpers: Add i8/i16 atomic_read_acquire/atomic_set_release helpers
-300e53b3d3b59e72a972a12ee5c6438aab4860a4 rust: helpers: Add i8/i16 relaxed atomic helpers
-5dbc0a692459bc49cdb7add281086291da547750 rust: helpers: Add i8/i16 atomic xchg helpers
-ab717dd98bee964add2161d94193d756fdef614c rust: helpers: Add i8/i16 atomic xchg_acquire helpers
-1bfca1e7e845a55fa82046727666f713d24ebdad rust: helpers: Add i8/i16 atomic xchg_release helpers
-910cbddc416cc30d83966baf378f44e59f3dc5d7 rust: helpers: Add i8/i16 atomic xchg_relaxed helpers
-164e4b5600b32b4ddeac58bb5b37bc1490a1dce4 rust: helpers: Add i8/i16 atomic try_cmpxchg helpers
-fed6aaa392c301721144303d64b7c68575d9d5ef rust: helpers: Add i8/i16 atomic try_cmpxchg_acquire helpers
-b5992f07a9736ab6279181c848f42227af9945bf rust: helpers: Add i8/i16 atomic try_cmpxchg_release helpers
-8de731a6c75547602601a5d219b5cf259ce2b38b rust: helpers: Add i8/i16 atomic try_cmpxchg_relaxed helpers
-2bb8c41e61b29ccdf7b6d716c3a8fe8488aa202a rust: sync: atomic: Prepare AtomicOps macros for i8/i16 support
-cf4c3bc1445152c1949a4b5fef56d07579fadb1e arch: um/x86: Select ARCH_SUPPORTS_ATOMIC_RMW for UML_X86
-b33796d554f270e19141c0c1fa0a90705a511d2b rust: sync: atomic: Add i8/i16 load and store support
-7b001c97d9bdaea50e1e1834040c58f7ef9f4e89 rust: sync: atomic: Add store_release/load_acquire tests
-584f286f822afecc1a6521a27b3caf3e2f515d41 rust: sync: atomic: Add i8/i16 xchg and cmpxchg support
-06bd0e52bfd78eae1c7dd5db163ce64161b495e7 rust: sync: atomic: Add atomic bool support via i8 representation
-4bac28727a2b3f33e6375aeafdf31df67deff5d0 rust: sync: atomic: Add atomic bool tests
-323e4bfcbe2dc6c6cac6e007dded0ba4f89a6458 rust: list: Switch to kernel::sync atomic primitives
-7f4c8b4dcde7174a3bd5d001790d8453c9aefa3c rust_binder: Switch to kernel::sync atomic primitives
-aa574e0f21a6e7a28e4b8794ad4238d3bfd4f9df rust: barrier: Add __rust_helper to helpers
-71a4d13fa1cf2b7a4f45a6ee41548c27783f7940 rust: blk: Add __rust_helper to helpers
-1c7a6f48f7eeb3014584d2fc55fc67f0cbaeef69 rust: completion: Add __rust_helper to helpers
-9f658bd5378d5c357d5eeb1e699f1504a7498dbf rust: cpu: Add __rust_helper to helpers
-a87e6fe8738fabf9881758b79b0db592c057acbd rust: processor: Add __rust_helper to helpers
-5e03edaed373f41e7a3c8617e01891eb680d62aa rust: rcu: Add __rust_helper to helpers
-9ba1aaf25ab7dadb910348b6857865e87b4c5689 rust: refcount: Add __rust_helper to helpers
-d4ad4de929ba27ed241c6ef1098b1687001ced1f rust: sync: Add __rust_helper to helpers
-5f1193d55a4311780136044355b1f09e7b5abac7 rust: task: Add __rust_helper to helpers
-75b6034780e8dc8c71096313534ccb720fa633f9 rust: time: Add __rust_helper to helpers
-5628f0510a4c64908c5d2f36a676b092e1e5d174 rust: wait: Add __rust_helper to helpers
-abf2111d8d900c834993d443f59b836291b8d0fc rust: helpers: Move #define __rust_helper out of atomic.c
-ccf9e070116a81d29aae30db501d562c8efd1ed8 rust: sync: Inline various lock related methods
-0aaf43dd816b79522a0bff966b5dc845ceab68d2 cleanup: Make __DEFINE_LOCK_GUARD handle commas in initializers
-52f500ac13bbb9e0f642b2f7c219150bc58a17a7 compiler-context-analysis: Introduce scoped init guards
-0bab1fc8c52da6768dd34bba3cdeba8e21c10f67 kcov: Use scoped init guard
-30736e6440c9af391b1605fa8f8f752494ae0966 crypto: Use scoped init guard
-45eec5c33b1e659e63410e6f24a3e8e97e79de9a tomoyo: Use scoped init guard
-0c961e6d4d87977f98c54ffc30ff98df6860c081 compiler-context-analysis: Remove __assume_ctx_lock from initializers
+4de0537e495a7787ad8f6a4af85928403ac4d8ed PM: domains: Add flags to specify power on attach/detach
+f7c0934b4cc9133ce4a02b2238872c2cecc2942f PM: domains: Add helper to check for PM domain detach on unbind cleanup
+a6fc863090f56b2eb8749feb0ad29f14576244e2 PM: domains: Detach on device_unbind_cleanup()
+cc2a5bf024884cb9b05bd76770e73fd3caad9a1b driver core: platform: Drop dev_pm_domain_detach() call
+51aae6f3ac1862056fdb0acb459145fd8bc5aaa2 mmc: sdio: Drop dev_pm_domain_detach() call
+221334f5f1be9b1c938bb06102de98dfae1ac31c spi: Drop dev_pm_domain_detach() call
+d9d000fd15e97c6937a13bc56ea6cbe0904e2fbc driver core: auxiliary bus: Drop dev_pm_domain_detach() call
+0342e88df3da37abed11276c625e0b1c8f31c6dc i2c: core: Drop dev_pm_domain_detach() call
+ef47753054dd6e161c47218fb9362bcb4886dc4a clk: renesas: rzg2l: Move pointers after hw member
+58537b712da5ac94a7ba1c3dabeb3b11edd61248 clk: renesas: rzg2l: Add macro to loop through module clocks
+306763383955769852f08a30f7646c10596cc83d clk: renesas: rzg2l: Add support for MSTOP in clock enable/disable API
+4d2e58a5201c2a9faa11c1e21bbb77b7a15112fe clk: renesas: r9a08g045: Drop power domain instantiation
+924112eb266793273cfcc9e3c884adb3f9275941 clk: renesas: rzg2l: Drop MSTOP based power domain support
+05b967e6ba2166f2f470f4b04de67e64e0ec62eb dt-bindings: clock: rzg2l: Drop power domain IDs
+272116538b2fc965a551d0d4f958c358d99a4145 Revert "dt-bindings: clock: renesas,rzg2l-cpg: Update #power-domain-cells = <1> for RZ/G3S"
+8e44c0ecfa42929ce4925c60939715d0b8095646 clk: renesas: r9a08g045: Add MSTOP for coupled clocks as well
+ba02d6fef0c63889cb541512af9b0b54909532ba clk: renesas: r9a08g045: Add MSTOP for GPIO
+34e299ffc4ff6e13ab6e18041fa21f706c3350d0 clk: renesas: r9a07g044: Add MSTOP for RZ/G2L
+44f0ead7280ffc2a2d68b8fb920f6e137677b884 clk: renesas: r9a07g043: Add MSTOP for RZ/G2UL
 
---===============5014257536369881377==--
+--===============0542051150020930936==--
