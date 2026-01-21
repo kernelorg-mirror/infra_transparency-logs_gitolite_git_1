@@ -1,19 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
-Date: Wed, 21 Jan 2026 09:51:15 -0000
-Message-Id: <176898907534.846145.10477087883010236357@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ukleinek/linux
+Date: Wed, 21 Jan 2026 10:14:59 -0000
+Message-Id: <176899049913.862268.2013311249776165990@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/brgl/linux
-user: brgl
+repo: pub/scm/linux/kernel/git/ukleinek/linux
+user: ukleinek
 changes:
-  - ref: refs/heads/at24/for-next
-    old: c6e79d34bf80c008e5f5fba2c8cce3df81a84335
-    new: de284988c270cc16a3fb41f8f6955394d4af2a12
+  - ref: refs/heads/pwm/for-next
+    old: dcce06fb729e672fb2cc1e921dad2e91284e13e0
+    new: d2252319f89e475d7e127f2e0d044c3f8bd9e199
     log: |
-         de284988c270cc16a3fb41f8f6955394d4af2a12 dt-bindings: eeprom: at24: Add compatible for Puya P24C128F
+         d2252319f89e475d7e127f2e0d044c3f8bd9e199 pwm: tiehrpwm: Enable pwmchip's parent device before setting configuration
+         
+  - ref: refs/heads/pwm/for-nexxt
+    old: dcce06fb729e672fb2cc1e921dad2e91284e13e0
+    new: d2252319f89e475d7e127f2e0d044c3f8bd9e199
+    log: |
+         d2252319f89e475d7e127f2e0d044c3f8bd9e199 pwm: tiehrpwm: Enable pwmchip's parent device before setting configuration
          
