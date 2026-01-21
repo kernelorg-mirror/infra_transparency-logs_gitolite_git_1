@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Wed, 21 Jan 2026 02:48:13 -0000
-Message-Id: <176896369328.513638.5144241208512879718@gitolite.kernel.org>
+Date: Wed, 21 Jan 2026 02:57:56 -0000
+Message-Id: <176896427655.521360.1691158160094373171@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/netdev/net-next
 user: kuba
 changes:
   - ref: refs/heads/main
-    old: 6406fc709ace081575de2a8a7eee12e63d4c96c6
-    new: 1be080b78fd37fffe27b15edf19a3ff1b3867fe4
+    old: 1be080b78fd37fffe27b15edf19a3ff1b3867fe4
+    new: 0d035fb5dcd925385e607605c57acc7a5c6eee75
     log: |
-         1be080b78fd37fffe27b15edf19a3ff1b3867fe4 net: macb: Replace open-coded device config retrieval with of_device_get_match_data()
+         0d035fb5dcd925385e607605c57acc7a5c6eee75 net: phy: simplify PHY fixup registration
          
