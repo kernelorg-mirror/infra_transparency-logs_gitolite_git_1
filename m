@@ -1,23 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
-Date: Wed, 21 Jan 2026 21:23:57 -0000
-Message-Id: <176903063758.1441058.3848115948281369484@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
+Date: Wed, 21 Jan 2026 21:28:04 -0000
+Message-Id: <176903088442.1445052.9701960696644818248@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/25-new
-user: akpm
+repo: pub/scm/linux/kernel/git/kdave/linux
+user: kdave
 changes:
-  - ref: refs/heads/master
-    old: d8cfd2c59ec3125ce74a7a2cf42289e76713d85a
-    new: a0088e45caeeaff3b737f71463f445fe88046cbb
+  - ref: refs/heads/for-next
+    old: e60757469a1416f407abc6baec4ee58cd40075b6
+    new: 57a8a869dc27de993c9f599d27304047babd9d1c
     log: |
-         9668bc8de06e0318daf5a95ce8ca04025f8ad616 foo
-         1642aa59e55a0587bb65b9595969a9994bf2d1be foo
-         b070612f8ee536b9de33432de7f423383234beea foo
-         fd5f7420acca23a47d8badb59e6da3fdb6bfe1c4 foo
-         a0088e45caeeaff3b737f71463f445fe88046cbb foo
+         c99d49398e454bf424da7ac31c846a1b48ef9340 btrfs: tests: remove invalid file extent map tests
+         b0b0364c572b83ead9ab3e33241fb2d5a124e072 btrfs: tests: prepare extent map tests for strict alignment checks
+         1a4f23030c279a087bd522fe78ae79ed6fda8cbe btrfs: add strict extent map alignment checks
+         ade7f4423b79cc2453f31e9e6420958dea7a1683 Merge branch 'misc-6.19' into for-next-current-v6.18-20260121
+         864973a9c9607e5b824b7f5408bcb822a8f6f73f Merge branch 'b-for-next' into for-next-next-v6.19-20260121
+         20326a344f9e86510478e533ca23aa180e3c7c1e Merge branch 'misc-next' into for-next-next-v6.19-20260121
+         d68075d6b1699407fe1ab2e8a96797c8306cf15d Merge branch 'for-next-current-v6.18-20260121' into for-next-20260121
+         57a8a869dc27de993c9f599d27304047babd9d1c Merge branch 'for-next-next-v6.19-20260121' into for-next-20260121
          
