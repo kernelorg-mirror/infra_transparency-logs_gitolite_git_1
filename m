@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6821427515754862082=="
+Content-Type: multipart/mixed; boundary="===============1745500244601862114=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Wed, 21 Jan 2026 17:40:36 -0000
-Message-Id: <176901723653.1259805.11870293788874191100@gitolite.kernel.org>
+Date: Wed, 21 Jan 2026 17:40:39 -0000
+Message-Id: <176901723905.1259923.10316476547190847145@gitolite.kernel.org>
 
---===============6821427515754862082==
+--===============1745500244601862114==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/40GbE
+  - ref: refs/heads/100GbE
     old: 77b9c4a438fc66e2ab004c411056b3fb71a54f2c
     new: d8f87aa5fa0a4276491fa8ef436cd22605a3f9ba
     log: revlist-77b9c4a438fc-d8f87aa5fa0a.txt
 
---===============6821427515754862082==
+--===============1745500244601862114==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -65,4 +65,4 @@ f117205ad70b52070810051391b8f6dfa671a25e net/xen-netback: Fix mispelling of "Sof
 670ade3bfae6f8a06213b65be3435b445c11c36d tcp: move tcp_rate_skb_delivered() to tcp_input.c
 d8f87aa5fa0a4276491fa8ef436cd22605a3f9ba net: remove HIPPI support and RoadRunner HIPPI driver
 
---===============6821427515754862082==--
+--===============1745500244601862114==--
