@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0875114411872576332=="
+Content-Type: multipart/mixed; boundary="===============3418995250021331599=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/vbabka/slab
-Date: Wed, 21 Jan 2026 10:32:11 -0000
-Message-Id: <176899153166.878760.10551563943371872256@gitolite.kernel.org>
+Date: Wed, 21 Jan 2026 10:34:47 -0000
+Message-Id: <176899168755.879720.3308024333903967027@gitolite.kernel.org>
 
---===============0875114411872576332==
+--===============3418995250021331599==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,33 +16,36 @@ repo: pub/scm/linux/kernel/git/vbabka/slab
 user: vbabka
 git_push_cert_status: E
 changes:
-  - ref: refs/tags/slab-for-6.19-rc7
-    old: 0000000000000000000000000000000000000000
-    new: c8f1296dcb521434eb6e1c8b0f2afc2764ad518d
+  - ref: refs/heads/slab/for-next-fixes
+    old: a4ae75d1b6a2401dac55045e6b6b372de6400f65
+    new: 99a3e3a1cfc93b8fe318c0a3a5cfb01f1d4ad53c
+    log: |
+         99a3e3a1cfc93b8fe318c0a3a5cfb01f1d4ad53c slab: fix kmalloc_nolock() context check for PREEMPT_RT
+         
 
---===============0875114411872576332==
+--===============3418995250021331599==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher A940D434992C2E8E99103D50224FA7E7CC82A664 1768991527 +0100
+pusher A940D434992C2E8E99103D50224FA7E7CC82A664 1768991683 +0100
 pushee gitolite.kernel.org:pub/scm/linux/kernel/git/vbabka/slab.git
-nonce 1768991526-732b71de6d1db789cf6685c22d6f91111282d4b5
+nonce 1768991682-a95995ced7c21f742f3bfa65c606679c674d8d02
 
-0000000000000000000000000000000000000000 c8f1296dcb521434eb6e1c8b0f2afc2764ad518d refs/tags/slab-for-6.19-rc7
+a4ae75d1b6a2401dac55045e6b6b372de6400f65 99a3e3a1cfc93b8fe318c0a3a5cfb01f1d4ad53c refs/heads/slab/for-next-fixes
 -----BEGIN PGP SIGNATURE-----
 
-iQFPBAABCAA5FiEEe7vIQRWZI0iWSE3xu+CwddJFiJoFAmlwqycbFIAAAAAABAAO
-bWFudTIsMi41KzEuMTEsMiwyAAoJELvgsHXSRYiaHQoIAICJE67TxUbSN66HNuEC
-5/lffF/PG7mAZzHvLzK8j7sZ6I7nQ0xOEerZwHm4yDaFVd0vz1poAlKvdRhC5/PE
-NJCEk6/+RRK5tCD2rp5n5kJrWvpEgFgGGNd4AUQqbWrB4rO5Bfj6Pj/uObZ6Kza9
-qWm4SVn2330I2SHhusid1deVTi5OEnFyfH736sGEe7NwPWuIvdOx5z+RWE3R9yQG
-nh2n7C8N9wSyk8AnqoUIC9k3DD5C6qoWR17MT+b9kuAjzdVVgQUzdka15Ncv6rVd
-wpZF7Tilob1ratfcB7aqkMQbRAe2yY8ARmGq8tt4ux/OIWJK+lNgVlZPb//CS/NC
-1Xc=
-=6fGq
+iQFPBAABCAA5FiEEe7vIQRWZI0iWSE3xu+CwddJFiJoFAmlwq8MbFIAAAAAABAAO
+bWFudTIsMi41KzEuMTEsMiwyAAoJELvgsHXSRYiau/wH/3k9AqeCM6KQUQMF4Eke
+6ut+eis87s+PSsZ15+3tADoc0OB33aZ3XvmVQOryLIDj2mbSVknkgnL/tPL24Wdc
+yR+ImJTvJG+7CyVjeMFrBGuTTA2HSIURsiEvwJqCoWjr6oLsk1vQ+tuCgyVcpUzy
+F5lKhsHvewRIfLvfAymKDF8dRtMw/KHX8ylvEkjvSRBXGv9HCkocjenQYwm9+LmN
+YiIy+muiIgwJ6JeCaV3bqQ7VxZi2CyM5jx3HyDlaQJ0KIjxPfQ7e1WGxR6vJBMg5
+/A4EaI8XPwzaqD4mqc49XCuCODuHJezWDauakw2s3kWKavXl+bsEdWBpVrZQPQzm
+vqk=
+=P3C+
 -----END PGP SIGNATURE-----
 
---===============0875114411872576332==--
+--===============3418995250021331599==--
