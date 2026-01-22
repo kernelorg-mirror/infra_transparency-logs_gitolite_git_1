@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Thu, 22 Jan 2026 03:19:45 -0000
-Message-Id: <176905198506.1727930.2929117731516210908@gitolite.kernel.org>
+Date: Thu, 22 Jan 2026 03:21:26 -0000
+Message-Id: <176905208604.1731444.1555266067235884889@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/netdev/net
 user: kuba
 changes:
   - ref: refs/heads/main
-    old: 2030c4358bd8451583f2e010108607de5cdac5dc
-    new: 8215794403d264739cc676668087512950b2ff31
+    old: 8215794403d264739cc676668087512950b2ff31
+    new: 04708606fd7bdc34b69089a4ff848ff36d7088f9
     log: |
-         8215794403d264739cc676668087512950b2ff31 be2net: Fix NULL pointer dereference in be_cmd_get_mac_from_list
+         04708606fd7bdc34b69089a4ff848ff36d7088f9 selftests: net: amt: wait longer for connection before sending packets
          
