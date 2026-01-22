@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0641308194392314112=="
+Content-Type: multipart/mixed; boundary="===============7326226043742270533=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Thu, 22 Jan 2026 20:47:57 -0000
-Message-Id: <176911487714.2615417.1157709552300583213@gitolite.kernel.org>
+Date: Thu, 22 Jan 2026 20:48:14 -0000
+Message-Id: <176911489434.2615720.3210805213766249927@gitolite.kernel.org>
 
---===============0641308194392314112==
+--===============7326226043742270533==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/100GbE
-    old: d8f87aa5fa0a4276491fa8ef436cd22605a3f9ba
-    new: b00a7b3a612925faa7362f5c61065e3e5f393fff
-    log: revlist-d8f87aa5fa0a-b00a7b3a6129.txt
+  - ref: refs/heads/200GbE
+    old: bb93254d44fd5faa1d0af89331cbfb2921f2c7bb
+    new: 12de85b92bff9ac9d773901063cd636ada0e3b57
+    log: revlist-bb93254d44fd-12de85b92bff.txt
 
---===============0641308194392314112==
+--===============7326226043742270533==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d8f87aa5fa0a-b00a7b3a6129.txt
+Content-Disposition: attachment; filename=revlist-bb93254d44fd-12de85b92bff.txt
 
 6f93616a7323d646d18db9c09f147e453b40fdd7 netfilter: nf_tables: reset table validation state on abort
 8a49fc8d8a3e83dc51ec05bcd4007bdea3c56eec netfilter: nf_conntrack: Add allow_clash to generic protocol handler
@@ -77,5 +77,15 @@ b6d5a62231acd628c4a989cad562fe37958b1218 t Merge branch 'a-series-of-minor-optim
 cbe38d2e52cf1798b0838e440b3d95723a56dcc2 net: ifb: use u64_stats_t with u64_stats_sync properly
 a2ba9902e4b932537df402494b2657bd249fcf0b xen/netfront: Use u64_stats_t with u64_stats_sync properly
 b00a7b3a612925faa7362f5c61065e3e5f393fff net: atp: drop ancient parallel-port Ethernet driver
+9bb78b070357d7e78ef297948d0297f74a25ddb7 idpf: introduce local idpf structure to store virtchnl queue chunks
+b4f2d2856ee85fa3b479c77b66744f1272a0e295 idpf: introduce idpf_q_vec_rsrc struct and move vector resources to it
+982ab5735ace6d511799d25de17f4007e3dc6b11 idpf: move queue resources to idpf_q_vec_rsrc structure
+689a00ea9154bb9026d947298ea0bb02d807e75d idpf: move some iterator declarations inside for loops
+c2c330d8c862f4131674bac063149543d8ff45e8 idpf: reshuffle idpf_vport struct members to avoid holes
+2632d3053a2a5eac40dbedf9ad7dee7e7f5221cc idpf: add rss_data field to RSS function parameters
+1fe710e2b60997fd773431f9792a900213725584 idpf: remove vport pointer from queue sets
+e89eceab1c7cbbe152a37296e72f4af6b848b97d idpf: generalize send virtchnl message API
+36871560a87828f3c3a2cda8a7017d1ec3b74574 idpf: avoid calling get_rx_ptypes for each vport
+12de85b92bff9ac9d773901063cd636ada0e3b57 idpf: generalize mailbox API
 
---===============0641308194392314112==--
+--===============7326226043742270533==--
