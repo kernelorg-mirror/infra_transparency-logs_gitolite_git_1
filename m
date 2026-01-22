@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0566219877529980056=="
+Content-Type: multipart/mixed; boundary="===============7802602188465783806=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Thu, 22 Jan 2026 20:47:51 -0000
-Message-Id: <176911487179.2615138.4497703729933982454@gitolite.kernel.org>
+Date: Thu, 22 Jan 2026 20:47:54 -0000
+Message-Id: <176911487445.2615329.8251621614636130508@gitolite.kernel.org>
 
---===============0566219877529980056==
+--===============7802602188465783806==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/10GbE
+  - ref: refs/heads/40GbE
     old: d8f87aa5fa0a4276491fa8ef436cd22605a3f9ba
     new: b00a7b3a612925faa7362f5c61065e3e5f393fff
     log: revlist-d8f87aa5fa0a-b00a7b3a6129.txt
 
---===============0566219877529980056==
+--===============7802602188465783806==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -78,4 +78,4 @@ cbe38d2e52cf1798b0838e440b3d95723a56dcc2 net: ifb: use u64_stats_t with u64_stat
 a2ba9902e4b932537df402494b2657bd249fcf0b xen/netfront: Use u64_stats_t with u64_stats_sync properly
 b00a7b3a612925faa7362f5c61065e3e5f393fff net: atp: drop ancient parallel-port Ethernet driver
 
---===============0566219877529980056==--
+--===============7802602188465783806==--
