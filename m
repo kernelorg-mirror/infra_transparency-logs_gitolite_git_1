@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/firmware/linux-firmware
-Date: Thu, 22 Jan 2026 11:55:10 -0000
-Message-Id: <176908291086.2175862.15345741105761970188@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Thu, 22 Jan 2026 11:57:27 -0000
+Message-Id: <176908304795.2177031.12534003577650616117@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/firmware/linux-firmware
-user: jwboyer
+repo: pub/scm/linux/kernel/git/netdev/net
+user: pabeni
 changes:
   - ref: refs/heads/main
-    old: ed7a76faccbc8a6c768464b74a828afc6d4374d5
-    new: 1b7b9f6c3461815b4f656178d31a6b6a90e045ec
+    old: 19e4175e997a5b85eab97d522f00cc99abd1873c
+    new: cc4816bdb08639e5cd9acb295a02d6f0f09736b4
     log: |
-         e22074558beb4c7c9929790053af97f0d75bc70b Intel IPU7: Update firmware binary for Panther Lake
-         1b7b9f6c3461815b4f656178d31a6b6a90e045ec Merge branch 'robot/patch-0-1769048722' into 'main'
+         cc4816bdb08639e5cd9acb295a02d6f0f09736b4 net: openvswitch: fix data race in ovs_vport_get_upcall_stats
          
