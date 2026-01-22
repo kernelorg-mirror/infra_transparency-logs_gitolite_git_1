@@ -1,22 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tglx/devel
-Date: Thu, 22 Jan 2026 22:35:01 -0000
-Message-Id: <176912130198.2701616.17143900000351264976@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux
+Date: Thu, 22 Jan 2026 22:47:44 -0000
+Message-Id: <176912206414.2712392.17443487612041279027@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tglx/devel
-user: tglx
+repo: pub/scm/linux/kernel/git/axboe/linux
+user: axboe
 changes:
-  - ref: refs/heads/timers/clocksource
-    old: dc73b092f0a81a6ce4e25e0f0e69fadd0aed19cb
-    new: 20cbd3a60db9b092529461651973cb0ba8533758
+  - ref: refs/heads/for-7.0/io_uring
+    old: 0105b0562a5ed6374f06e5cd4246a3f1311a65a0
+    new: 5247c034a67f5a93cc1faa15e9867eec5b22f38a
     log: |
-         a891ebd26307cd1c0191539b8563998e0d2f1ae2 parisc: Remove unused clocksource flags
-         7ef9697d5f4cd006de02baba270d82a32b6fe63d MIPS: Dont select CLOCKSOURCE_WATCHDOG
-         3fa003a4b876a6e7bed4876212b0015e8e3afdf2 x86/tsc: Handle CLOCK_SOURCE_VALID_FOR_HRES correctly
-         20cbd3a60db9b092529461651973cb0ba8533758 clocksource: Rewrite watchdog code completely
+         5247c034a67f5a93cc1faa15e9867eec5b22f38a io_uring: introduce non-circular SQ
+         
+  - ref: refs/heads/for-next
+    old: 4b31801afb025bccb55414bffcfd05321bace6b8
+    new: b5e3a5335209b2671a96c590ba66ac3817be01e9
+    log: |
+         5247c034a67f5a93cc1faa15e9867eec5b22f38a io_uring: introduce non-circular SQ
+         b5e3a5335209b2671a96c590ba66ac3817be01e9 Merge branch 'for-7.0/io_uring' into for-next
          
