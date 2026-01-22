@@ -1,26 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux
-Date: Thu, 22 Jan 2026 22:47:44 -0000
-Message-Id: <176912206414.2712392.17443487612041279027@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/liburing
+Date: Thu, 22 Jan 2026 22:55:29 -0000
+Message-Id: <176912252949.2719750.7862229883554536153@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux
+repo: pub/scm/linux/kernel/git/axboe/liburing
 user: axboe
 changes:
-  - ref: refs/heads/for-7.0/io_uring
-    old: 0105b0562a5ed6374f06e5cd4246a3f1311a65a0
-    new: 5247c034a67f5a93cc1faa15e9867eec5b22f38a
+  - ref: refs/heads/master
+    old: 2df7d3e3ba0e0c958b3a68dfda13f14c4c0ae46b
+    new: c6af4a04b836e0870e2d97e7b4413e028e0c7873
     log: |
-         5247c034a67f5a93cc1faa15e9867eec5b22f38a io_uring: introduce non-circular SQ
-         
-  - ref: refs/heads/for-next
-    old: 4b31801afb025bccb55414bffcfd05321bace6b8
-    new: b5e3a5335209b2671a96c590ba66ac3817be01e9
-    log: |
-         5247c034a67f5a93cc1faa15e9867eec5b22f38a io_uring: introduce non-circular SQ
-         b5e3a5335209b2671a96c590ba66ac3817be01e9 Merge branch 'for-7.0/io_uring' into for-next
+         c22129cf0b8c936eb478d920ef84e53d89c6a5cc src/queue: Add support for non circular SQ
+         346c063d16bda52f02d00feb744aafe35b4002a9 tests: add SETUP_SQ_REWIND tests
+         c6af4a04b836e0870e2d97e7b4413e028e0c7873 man: add IORING_SETUP_SQ_REWIND documentation
          
