@@ -1,26 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/util-linux/util-linux
-Date: Thu, 22 Jan 2026 19:03:42 -0000
-Message-Id: <176910862204.2530554.9417226464176045852@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
+Date: Thu, 22 Jan 2026 19:17:27 -0000
+Message-Id: <176910944714.2541963.293763620572692128@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/util-linux/util-linux
-user: kzak
+repo: pub/scm/linux/kernel/git/jic23/iio
+user: jic23
 changes:
-  - ref: refs/heads/master
-    old: c4fcb11334652f00e24ee16c2d0cf848caa4f592
-    new: db6c2b8fe4520090f0cf903d6fae1ca24a662d87
+  - ref: refs/heads/testing
+    old: 65cd145f7f8cdfb19f66bbbc2f3f26e81f12e0db
+    new: 31e83c448b179fdf21c256aa6775a0f6f8b472b6
     log: |
-         8b8da020f57414c90981371da71fdf32d2253ac7 libfdisk: (dos) fix logical partition start
-         bf3d4aeec708fae7aa30530a1bf42ee1d35366f8 tests: fdisk: add regression test for missing EBR gap between logical partitions
-         17b2647536294b6c598e9e4636cd603920183bbd lsfd: fix dependency on errnos.h
-         f7a360162d738265fb04fa690e42c78b05c356aa Merge branch 'master' of https://github.com/martinjungblut/util-linux into PR/libfdisk-EBR-gap
-         88a84f68f9a232707f6eb1779b73e722bbdb0b65 tests: (fdisk) make sure test_strerror avalable
-         aee58b605cdefa677e8b10f6b9045f3ebcbb3126 libfdisk: remove duplicate code
-         e554e1078e9fa4b8551f743e36668d93472a5ecf tests: simplify TS_DESC in fdisk/mbr-logical-ebr-gap
-         db6c2b8fe4520090f0cf903d6fae1ca24a662d87 Merge branch 'PR/libfdisk-EBR-gap' of https://github.com/karelzak/util-linux-work
+         5ee8e40546a54d271193bcc29e3d95f05aac3c05 iio: core: Add and export __iio_dev_mode_lock()
+         256e9cc5af3a2efaf0a579ffb68b3439f138f5ac iio: core: Refactor iio_device_claim_direct() implementation
+         26344d59644c7e6bf36ff65bc2f6d98b8249c5b3 iio: core: Match iio_device_claim_*() semantics and implementation
+         ae3d51bfa2951177777c68c53047de2f9bf06de2 iio: core: Add cleanup.h support for iio_device_claim_*()
+         5cb37ad492bf53d73375a57d8efdf8d75c99a785 iio: light: vcnl4000: Use IIO cleanup helpers
+         299b30b418ed3791bd84517aea2df0a64952c75a iio: health: max30102: Use IIO cleanup helpers
+         31e83c448b179fdf21c256aa6775a0f6f8b472b6 iio: light: opt4060: Use IIO cleanup helpers
          
