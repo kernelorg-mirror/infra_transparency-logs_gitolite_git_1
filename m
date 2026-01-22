@@ -1,79 +1,74 @@
-Content-Type: multipart/mixed; boundary="===============8185703405369129513=="
+Content-Type: multipart/mixed; boundary="===============8960778268494064923=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vbabka/linux
-Date: Thu, 22 Jan 2026 09:57:02 -0000
-Message-Id: <176907582237.2041667.16230758340311637970@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+Date: Thu, 22 Jan 2026 10:09:45 -0000
+Message-Id: <176907658558.2050463.4828422707443665236@gitolite.kernel.org>
 
---===============8185703405369129513==
+--===============8960778268494064923==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vbabka/linux
-user: vbabka
+repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+user: ij
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/b4/sheaves-for-all
-    old: 09a22902d8490b6dde59c799af16ff0ca8aec144
-    new: 2d9e57cf846078dda5fe1f9c76727a242a372b9d
-    log: revlist-09a22902d849-2d9e57cf8460.txt
+  - ref: refs/heads/for-next
+    old: 90959cd1b2470491a3f5d8ab943579475b2baccb
+    new: 2ccbdb612d0d95f25c38189b83666ff0fb2bfb47
+    log: revlist-90959cd1b247-2ccbdb612d0d.txt
 
---===============8185703405369129513==
+--===============8960778268494064923==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher A940D434992C2E8E99103D50224FA7E7CC82A664 1769075816 +0100
-pushee gitolite.kernel.org:pub/scm/linux/kernel/git/vbabka/linux.git
-nonce 1769075816-034fd8a4887d341f139fbd957283088b13bd23d7
+pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1769076581 +0200
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86.git
+nonce 1769076580-56e85ae26e8014044aab25fb65acea7498260133
 
-09a22902d8490b6dde59c799af16ff0ca8aec144 2d9e57cf846078dda5fe1f9c76727a242a372b9d refs/heads/b4/sheaves-for-all
+90959cd1b2470491a3f5d8ab943579475b2baccb 2ccbdb612d0d95f25c38189b83666ff0fb2bfb47 refs/heads/for-next
 -----BEGIN PGP SIGNATURE-----
 
-iQFPBAABCAA5FiEEe7vIQRWZI0iWSE3xu+CwddJFiJoFAmlx9GgbFIAAAAAABAAO
-bWFudTIsMi41KzEuMTEsMiwyAAoJELvgsHXSRYiaBzgIAJcioxaLSUJzuoNc/Z9Z
-umYuDsp8r6uACQ3CQQsOjsWef3NmNjaEBxmUm1HSX95yX7sMiIgDHwAcnubMEXHg
-MpyZPnxj6LTRUYsUWqNJchTVMqSlglR2QbOfzJtuUdhEMXN8MPv9HQGnR9hjGQht
-oTKIdBJQz8OwakkFZdLn/nN6lNAxr2z/eXaHbYmvskkLGsmp4LOUIxz8RxS5aja2
-kScGpaNs6j20BOc+VjXKFmwt8Cfyv6US0+8OyY9H/YB6s6huezcxfrcdzyB6M5uY
-COxuNcfSu7KYBn7KcQwPgxcgUYStsJKj6i+sbgpdXMu5B8H1vLm2ovfgbON7j6sG
-Y5U=
-=ZWQ5
+iHUEABYIAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCaXH3aAAKCRBZrE9hU+XO
+MQWCAP9x/I0jGSSCuMD/MzTXRq08aTkvrglDUbrWrVsH8bL5XAEA9N4xGa82/WsB
+hvzMJ0KArSR6eWXwh7xzJeAoK/Tq9AA=
+=ztrl
 -----END PGP SIGNATURE-----
 
---===============8185703405369129513==
+--===============8960778268494064923==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-09a22902d849-2d9e57cf8460.txt
+Content-Disposition: attachment; filename=revlist-90959cd1b247-2ccbdb612d0d.txt
 
-f9715d44c01bb0fc6646faa04690d808657e8109 slab: replace cpu (partial) slabs with sheaves
-7c90610b77533565b47cd903d99ac3badd01791d mm/slab: add rcu_barrier() to kvfree_rcu_barrier_on_cache()
-3d1d70f9ada4c0e97ad111f1ded532d7bea8f5f2 mm/slab: fix false lockdep warning in __kfree_rcu_sheaf()
-f4cdfe5a4afdcc5d4d8212f470bd12c54ddb5b05 slab: add SLAB_CONSISTENCY_CHECKS to SLAB_NEVER_MERGE
-76dc40ca1835c5091235fe3f54214496e705033e mm/slab: move and refactor __kmem_cache_alias()
-dfc3ff901e70cb957757f37afa7587e8e50eca6a mm/slab: make caches with sheaves mergeable
-5b8b631620e0e07f8745b9d5d67150256856eba5 slab: add sheaves to most caches
-38f52bbfe47efecd16ac95b5687b45a39595a065 slab: introduce percpu sheaves bootstrap
-085c7acdcae00f31776193d8131359575945afc9 slab: make percpu sheaves compatible with kmalloc_nolock()/kfree_nolock()
-9c00f52655870647c12c4b3a36fd4ea1af455f8c slab: handle kmalloc sheaves bootstrap
-da0b6cd0ca7d07aece117922fddcb227933ec33f slab: add optimized sheaf refill from partial list
-08192cd4003914012ddd8ab53df7bf70aeb7552d slab: remove cpu (partial) slabs usage from allocation paths
-9576563020753ec278edbbd3194b178861115e18 slab: remove SLUB_CPU_PARTIAL
-100fb6383de672e6add467dd17a37dfa864c0f19 slab: remove the do_slab_free() fastpath
-91f36558bb66b4f4c3a9cb5f14fbb40b91e6bb5b slab: remove defer_deactivate_slab()
-b01a087e355f6b567645248e8e3800d2348aef48 slab: simplify kmalloc_nolock()
-900f6ff832a7179457cdab217454e5aa64361ac5 slab: remove struct kmem_cache_cpu
-5c1abcdf2323eb5d59c44026c298e80a5df2b4a4 slab: remove unused PREEMPT_RT specific macros
-86a69b4b556cbf70f1cb88854ee6937e7ac2ff23 slab: refill sheaves from all nodes
-2a6051c7aaac024d925cd7cf183737e9e6bf370c slab: update overview comments
-088fffa199e5b8c2131c882036fb14fdff767eb4 slab: remove frozen slab checks from __slab_free()
-36f1fd02afee95e7fc2a56a07e90531aa5ea5b94 mm/slub: remove DEACTIVATE_TO_* stat items
-2d9e57cf846078dda5fe1f9c76727a242a372b9d mm/slub: cleanup and repurpose some stat items
+015b70a6ae697f5dac3562e4ab45ee275d98860b platform/wmi: Introduce marshalling support
+29dfba69c3ddb7945cd772042c6a9ce770c1ba22 platform/wmi: Add kunit test for the marshalling code
+b990a06f7ec6dc3ceecd8015c3b421690f267122 platform/wmi: Add helper functions for WMI string conversions
+0e1a8143e79713eef7e027737fed259aa58866e7 platform/wmi: Add kunit test for the string conversion code
+534f685d8a952371148e1374576f8ede2919ec1d platform/x86: intel-wmi-sbl-fw-update: Use new buffer-based WMI API
+e210986f52b657301d009e23344e3effec12bbeb platform/x86/intel/wmi: thunderbolt: Use new buffer-based WMI API
+bb7527c63f8567d69a22a818aa5999be47c5d479 platform/x86: xiaomi-wmi: Use new buffer-based WMI API
+926a266575a21e96c4c0b9c16b1da1f7fda5a519 platform/x86: wmi-bmof: Use new buffer-based WMI API
+2177a02246ffef9ed4a01af2942119e601312965 platform/wmi: Update driver development guide
+465dc9da8ff61a69e649ec2d402d8e06034f4585 platform/x86: lenovo-wmi-helpers: Convert returned buffer into u32
+f28d76b17561bd5f1b7b2c8f139a00158218c2d2 platform/x86: Rename lenovo-wmi-capdata01 to lenovo-wmi-capdata
+4ff1a029531441a27288eed8ba57d48fe11ba79a platform/x86: lenovo-wmi-{capdata,other}: Support multiple Capability Data
+c05f67e6c2e508f5462f30a5394a1607ef683ff9 platform/x86: lenovo-wmi-capdata: Add support for Capability Data 00
+012a8f967a87dea3f25c3a3ae32610c0dd145f34 platform/x86: lenovo-wmi-capdata: Add support for Fan Test Data
+67d9a39ce85fafc2d88f82c9229ace111aaa8c1f platform/x86: lenovo-wmi-capdata: Wire up Fan Test Data
+51ed34282f63fab5b3996477cc56135eb4de5284 platform/x86: lenovo-wmi-other: Add HWMON for fan reporting/tuning
+48d229c7047128dd52eaf863881bb3e62b5896e5 platform/x86/amd/pmf: Prevent TEE errors after hibernate
+5e599d7871bf852e94e8aa08b99724635f2cbf96 crypto: ccp - Declare PSP dead if PSP_CMD_TEE_RING_INIT fails
+0ba2035026d0ab6c7c7e65ad8b418dc73d5700d9 crypto: ccp - Add an S4 restore flow
+d95f87a65bce5f2f2a02ca6094ca4841d4073df3 crypto: ccp - Factor out ring destroy handling to a helper
+7b85137caf110a09a4a18f00f730de4709f9afc8 crypto: ccp - Send PSP_CMD_TEE_RING_DESTROY when PSP_CMD_TEE_RING_INIT fails
+118222e20d16caf38264b850d7a386e5f063008c platform/x86/amd/pmf: Introduce new interface to export NPU metrics
+2ccbdb612d0d95f25c38189b83666ff0fb2bfb47 platform/x86: ideadpad-laptop: Clean up style warnings and checks
 
---===============8185703405369129513==--
+--===============8960778268494064923==--
