@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4200940377106770323=="
+Content-Type: multipart/mixed; boundary="===============5697416553133017986=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Thu, 22 Jan 2026 21:14:44 -0000
-Message-Id: <176911648410.2637514.14201825109925389986@gitolite.kernel.org>
+Date: Thu, 22 Jan 2026 21:14:46 -0000
+Message-Id: <176911648659.2637603.9329633577833180674@gitolite.kernel.org>
 
---===============4200940377106770323==
+--===============5697416553133017986==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
+  - ref: refs/heads/10GbE
     old: ba1096c315283ee3292765f6aea4cca15816c4f7
     new: 4a3dba48188208e4f66822800e042686784d29d1
     log: revlist-ba1096c31528-4a3dba481882.txt
 
---===============4200940377106770323==
+--===============5697416553133017986==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -70,4 +70,4 @@ fb2bb2a1ebf7b9514c32b03bb5c3be5d518d437b hinic3: Fix netif_queue_set_napi queue_
 f3ddbaaaaf4d0633b40482f471753f9c71294a4a dpll: Prevent duplicate registrations
 4a3dba48188208e4f66822800e042686784d29d1 Octeontx2-af: Add proper checks for fwdata
 
---===============4200940377106770323==--
+--===============5697416553133017986==--
