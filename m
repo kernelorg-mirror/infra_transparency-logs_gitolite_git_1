@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0444730224246089164=="
+Content-Type: multipart/mixed; boundary="===============4484398014489298123=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
-Date: Thu, 22 Jan 2026 09:03:15 -0000
-Message-Id: <176907259545.1996706.18332567383331199077@gitolite.kernel.org>
+Date: Thu, 22 Jan 2026 09:08:02 -0000
+Message-Id: <176907288241.2000719.13646638604690428128@gitolite.kernel.org>
 
---===============0444730224246089164==
+--===============4484398014489298123==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,58 +16,46 @@ repo: pub/scm/linux/kernel/git/soc/soc
 user: krzk
 git_push_cert_status: Y
 changes:
-  - ref: refs/heads/soc/dt
-    old: aa5f91ce4fd897d7fdc24521650b6de48e834c34
-    new: ccbd9e92c43670109e3a07fbbfb4b3d9beb50aea
-    log: revlist-aa5f91ce4fd8-ccbd9e92c436.txt
-  - ref: refs/heads/rockchip/dt64
-    old: 0000000000000000000000000000000000000000
-    new: da0de806d8b46238ac3891a894806da4d1c26cdf
-  - ref: refs/heads/rockchip/dt32
-    old: 0000000000000000000000000000000000000000
-    new: e74470cf3101da79666f20186c9406192223e9a8
-  - ref: refs/heads/juno/dt
-    old: 0000000000000000000000000000000000000000
-    new: f0d0f087227c4b63538e4ed8292f1fa26f8d6633
+  - ref: refs/heads/for-next
+    old: f5ffe348f6c08944e1f53a9f0d29b407f5f6b23d
+    new: a206c9845748bdbdc44afa079a4ecdfcdeedf233
+    log: revlist-f5ffe348f6c0-a206c9845748.txt
 
---===============0444730224246089164==
+--===============4484398014489298123==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher krzk@kernel.org 1769072593 +0100
+pusher krzk@kernel.org 1769072880 +0100
 pushee kernel.org:/pub/scm/linux/kernel/git/soc/soc.git
-nonce 1769072592-7e550f5bd5466fd04eaf561c965678679cd1936f
+nonce 1769072880-1de49e822c267c46323e060fdd2d0ce4f8a31ecd
 
-aa5f91ce4fd897d7fdc24521650b6de48e834c34 ccbd9e92c43670109e3a07fbbfb4b3d9beb50aea refs/heads/soc/dt
-0000000000000000000000000000000000000000 da0de806d8b46238ac3891a894806da4d1c26cdf refs/heads/rockchip/dt64
-0000000000000000000000000000000000000000 e74470cf3101da79666f20186c9406192223e9a8 refs/heads/rockchip/dt32
-0000000000000000000000000000000000000000 f0d0f087227c4b63538e4ed8292f1fa26f8d6633 refs/heads/juno/dt
+f5ffe348f6c08944e1f53a9f0d29b407f5f6b23d a206c9845748bdbdc44afa079a4ecdfcdeedf233 refs/heads/for-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmlx59EQHGtyemtAa2Vy
-bmVsLm9yZwAKCRDBN2bmhouD11LFD/4/J9Wt4HpMB6ww22Tmn3QFPS2I6YFzl0U9
-gkvRNKFmze0knaAjyFvDfuDE9davK0jLNnRwrW65Ydm0q3ZVevHFuSeaB96nF9G1
-xHXSiK18vc3sE5UFS7VWTKpBE+UEY8y6VF2uQgBCr5d771FuM1oujYcOYoZ2DqyE
-PaFZoZxk5lIRVTO4pNdj3aJsLPr0Jr/aiVvy+t+5UgBXqKCfkbljnZe/G8QwhdM2
-BTiFfOKkG9QCNATeR1BtD6XWZXhnrUtc9lwDG2bh8jQ3AZWc+3xyH6jvTLt8bcId
-5vwtakx7yyQSfXSNNes5JyrD2oqI5C2oh3EHQCdi4+evI52/pDpxX9/pak15Cf05
-NvHibM9t+2zKW+RRk4MbVmyOiwRa0EV9smJsBbE0SkpzfbS2x1bwi3B0pl6773TK
-pey7TTGvRUMWEmnFOIa4LedjsZeLw85C3du8fL6Fk1VlroDuW7Xb23e7wBHOA+8A
-p9By4Kj6E02AXDatX44jaaWOByNkt35lG4kVGeCytwM33EN1Fcz8ek+Q1lW6S0yx
-KbEMGCjCiMU0xq9flcmN29KV/3Db7LWgmaD6ZxU6wlopLvmOKtA1KAw/C0jKsJA2
-vDIujdZZ3ZpvT3c80RZlUTP8eB6vl3W2Hnp9VgSGgkTIJPmsqpGpdf1Fz3BSAK8y
-r/IBT1j8zw==
-=hn2W
+iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmlx6PAQHGtyemtAa2Vy
+bmVsLm9yZwAKCRDBN2bmhouD12+PD/9+uKdBdXoG7CjO2eZGwgPdy+/4LfvH4vHI
+V5fK1TV7guh7NhchdY6UjdcRFHgKysuZrCmYYL99uRnSqgMAa4OlxFwGx2suOnHv
+wyRwE/dkcSv3SfnSH2VN15r4jtBDOGiohYneQDKf0nnx2WgmdYLpw01fqR8Z8ZW/
+NoIkwfB+pjkxFdGSadaSiMkcXIf68pjtb/BvKZuJtvayT9v4ahKwpfdFNYdmE3+/
+HrrXwhVk5Yx0mrh3cGkP5KgcnPYopXPBrpbCOh/TqE62YaIpyxrAKp6cv55fXBw3
+tG+3BtPGQqkhacXHxIRHEVnt2UBg/SZYSIXv9JqPh6TGnqLcyO/0OaFMO7PcZHnJ
+TFZ94xsdNyXQRYNLPsFAkKoh8p4X6Ear3RkqV8tigwoZegP1LX17Es5hqdy750Hf
+D2fxJBHq2BdnccigKgnfy/nPdE3ZM+tn/NglKwe3uqPWckMOB4p5UNIT5YY2fEfF
+AKE7pnrU7ElXl5n8SRxy8NrRt8LVLIq8WR/dpQOcJ38DDZcQ28LscL8m51pS5+n3
+067w5Ot2iHinmsWKY6NnwZXzuG9QJD9E4qwI6Ysho+jPQeRtR68WpjrZd46ZPmqi
+54g0xp4VWTcV81lbF0hmDGwhQI8wpD1unaWi0R33VcU665Jzq/w3uXCp5SclHq9S
+HSh5hcByQg==
+=wHdq
 -----END PGP SIGNATURE-----
 
---===============0444730224246089164==
+--===============4484398014489298123==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-aa5f91ce4fd8-ccbd9e92c436.txt
+Content-Disposition: attachment; filename=revlist-f5ffe348f6c0-a206c9845748.txt
 
 01a23e376e2afd578c5ecb8c8263e107de3240b9 arm64: dts: morello: Add CMN PMU
 e74470cf3101da79666f20186c9406192223e9a8 ARM: dts: rockchip: Add vdec node for RK3288
@@ -115,5 +103,7 @@ da0de806d8b46238ac3891a894806da4d1c26cdf arm64: dts: rockchip: Add the vdpu383 V
 94cdfe3980539d1ac2387e6e51a35226785d2df2 Merge tag 'juno-updates-7.0' of https://git.kernel.org/pub/scm/linux/kernel/git/sudeep.holla/linux into soc/dt
 43fdf9c12093135dc5bc953ef8d3ad3af12ed71c Merge tag 'v6.20-rockchip-dts32-1' of https://git.kernel.org/pub/scm/linux/kernel/git/mmind/linux-rockchip into soc/dt
 ccbd9e92c43670109e3a07fbbfb4b3d9beb50aea Merge tag 'v6.20-rockchip-dts64-1' of https://git.kernel.org/pub/scm/linux/kernel/git/mmind/linux-rockchip into soc/dt
+dd6919e6a6de8b4a8929a9aa96c325a1d8af202b Merge branch 'soc/dt' into for-next
+a206c9845748bdbdc44afa079a4ecdfcdeedf233 soc: document merges
 
---===============0444730224246089164==--
+--===============4484398014489298123==--
