@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============5724339964758455690=="
+Content-Type: multipart/mixed; boundary="===============6127740362361634755=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Thu, 22 Jan 2026 01:57:54 -0000
-Message-Id: <176904707416.1663997.8366548651546683250@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
+Date: Thu, 22 Jan 2026 01:58:04 -0000
+Message-Id: <176904708434.1664284.15411120430445722943@gitolite.kernel.org>
 
---===============5724339964758455690==
+--===============6127740362361634755==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/acme/linux
+repo: pub/scm/linux/kernel/git/perf/perf-tools-next
 user: acme
 changes:
   - ref: refs/heads/perf-tools-next
@@ -20,7 +20,7 @@ changes:
     new: d40c68a49f69c9bdb4ca14b3e6a0422bbaeb5d8f
     log: revlist-571d29baa07e-d40c68a49f69.txt
 
---===============5724339964758455690==
+--===============6127740362361634755==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -67,4 +67,4 @@ a70493e2bb0878885aa7a8178162550270693eb1 perf cs-etm: Fix decoding for sparse CP
 cb68cba4453d3e021b27c2a08fcefdd1376a5ef0 tools/lib: Add list_is_first()
 d40c68a49f69c9bdb4ca14b3e6a0422bbaeb5d8f perf header: Support CPU DOMAIN relation info
 
---===============5724339964758455690==--
+--===============6127740362361634755==--
