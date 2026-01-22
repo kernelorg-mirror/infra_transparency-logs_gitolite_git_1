@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
-Date: Thu, 22 Jan 2026 19:43:04 -0000
-Message-Id: <176911098400.2562208.4875884823806922360@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/liburing
+Date: Thu, 22 Jan 2026 19:59:01 -0000
+Message-Id: <176911194168.2573744.6447544345718045830@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/25-new
-user: akpm
+repo: pub/scm/linux/kernel/git/axboe/liburing
+user: axboe
 changes:
   - ref: refs/heads/master
-    old: 170f6cef354f51b7f98f850e845793c14c307943
-    new: 121373c159b466608b7d0088698fde79ec090a3d
+    old: 371d987e2473d7aeed24e307fbcf66287bfe2d50
+    new: eda0f432d192413d8fcd6edf4742f0d2d4f53f46
     log: |
-         121373c159b466608b7d0088698fde79ec090a3d foo
+         eda0f432d192413d8fcd6edf4742f0d2d4f53f46 src/setup: track sqes mmap size for correct cleanup
          
