@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kbuild/linux
-Date: Thu, 22 Jan 2026 00:03:37 -0000
-Message-Id: <176904021732.1568170.18367203656791346325@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
+Date: Thu, 22 Jan 2026 00:10:17 -0000
+Message-Id: <176904061777.1574961.11458381300366915582@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kbuild/linux
-user: nathan
+repo: pub/scm/linux/kernel/git/pci/pci
+user: helgaas
 changes:
-  - ref: refs/heads/kbuild-for-next
-    old: d4271702ab2fb0e4474ce66e3c68dfbdf8dc3e4c
-    new: 502678b88cb3b01908315bc2ba91557f4d2cf49a
+  - ref: refs/heads/virtualization
+    old: 61317d30d5f5aad4477922331d36bec896091250
+    new: 693d34dd6ce35563e53bc0ebb99408f047eb6994
     log: |
-         983233ac2ef1b6a423419e0542734e8f79802124 Documentation/kbuild: Document gendwarfksyms build dependencies
-         301a02d405a3ac4c7661b47571e2b843671e9c60 Documentation/kbuild: gendwarfksyms: Style cleanup
-         502678b88cb3b01908315bc2ba91557f4d2cf49a kbuild: Reject unexpected values for LLVM=
+         693d34dd6ce35563e53bc0ebb99408f047eb6994 PCI: Add ACS quirk for Pericom PI7C9X2G404 switches [12d8:b404]
          
