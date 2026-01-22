@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
-Date: Thu, 22 Jan 2026 18:21:11 -0000
-Message-Id: <176910607141.2494211.2356001673344702397@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mricon/korg-helpers
+Date: Thu, 22 Jan 2026 18:21:55 -0000
+Message-Id: <176910611579.2494558.1377107464909432094@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pci/pci
-user: helgaas
+repo: pub/scm/linux/kernel/git/mricon/korg-helpers
+user: mricon
 changes:
-  - ref: refs/heads/pm
-    old: 4d982084507d663df160546c4c48066a8887ed89
-    new: 0a15a7b6178034aa87a207fc2185a483d3986bc9
+  - ref: refs/heads/master
+    old: 774dd7242e9344fdcc3a99da6de4d6a8d0a6873d
+    new: 44169ff49ab3707fb1c84f2ed2ab340c47ff698e
     log: |
-         0a15a7b6178034aa87a207fc2185a483d3986bc9 PCI/PM: Prevent runtime suspend until devices are fully initialized
+         4681d5cf14a4753d96c3efcbc92e08c1df3b7786 bugzilla-junker: actually open shelf with writeback
+         44169ff49ab3707fb1c84f2ed2ab340c47ff698e git-patchwork-bot: fix pull request matching with URL rewrites
          
