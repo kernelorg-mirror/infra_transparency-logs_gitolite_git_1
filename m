@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0065743325362832276=="
+Content-Type: multipart/mixed; boundary="===============5478680551594321581=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Thu, 22 Jan 2026 05:56:02 -0000
-Message-Id: <176906136223.1852927.2087214785584670905@gitolite.kernel.org>
+Date: Thu, 22 Jan 2026 05:56:03 -0000
+Message-Id: <176906136371.1853133.7270798430220420713@gitolite.kernel.org>
 
---===============0065743325362832276==
+--===============5478680551594321581==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/mm-new
-    old: 74daaa378c853e693bf1822327648b98c7d491ec
-    new: dc4fe40a11269aead253fa0beb098b00417b8694
-    log: revlist-74daaa378c85-dc4fe40a1126.txt
+  - ref: refs/heads/mm-unstable
+    old: 2742298cbf455f694490d8267f770ff2915301ee
+    new: 8c333d09b41503ace25e13ab40fbc4caed9338fc
+    log: revlist-2742298cbf45-8c333d09b415.txt
 
---===============0065743325362832276==
+--===============5478680551594321581==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-74daaa378c85-dc4fe40a1126.txt
+Content-Disposition: attachment; filename=revlist-2742298cbf45-8c333d09b415.txt
 
 92d22034a5d66f8ea9253777793d30f000f35023 kho: init alloc tags when restoring pages from reserved memory
 a41b2e956f2eb9475d8f5497a23aeedbbf4a5642 mm/shmem, swap: fix race of truncate and swap entry split
@@ -283,58 +283,5 @@ ba39863f6ad2c5eb3bc99c6c4109041c47d5d552 mm: rmap: support batched unmapping for
 b35ec379e84266511a4bb3a0fe6a0cd377bc610a mm: fix uffd-wp bit loss when batching file folio unmapping
 4c18ff17e0271614fdca147c395f232b3d3c9d75 ksm: initialize the addr only once in rmap_walk_ksm
 8c333d09b41503ace25e13ab40fbc4caed9338fc ksm: optimize rmap_walk_ksm by passing a suitable addressrange
-d3b994003ca372d2770aab6ad13c955c680aa8e4 percpu: add basic double free check
-335eb662c4c8ee140385b865e6c39600cc335afb zsmalloc: make common caches global
-91db7134589ebfbd62024b6f3deb70dd5068e9c2 maple_tree: update mas_next[_range] docs
-36fb23dd38185c2f0d6f05e8f2e92bf1aa70ed54 mm/vma: use lockdep where we can, reduce duplication
-aac3e25e88aaae421d93df0d36f585f678c7274c mm: add vma_assert_stabilised()
-ff5a0ab2490a0fb42d09ae2914a1b359a6feb867 mm: rename vma_flag_test/set_atomic() to vma_test/set_atomic_flag()
-a56bb107ef3a45556e8a683bff6f0d6b9a6ecbc9 mm: add mk_vma_flags() bitmap flag macro helper
-bb2159f7b02db1136d82a619185adfa3ca69f987 tools: bitmap: add missing bitmap_[subset(), andnot()]
-ccb260beacf7cb42f08d1090eb800fb70c77745d mm: add basic VMA flag operation helper functions
-4a3672716e9b1bd39fff02705262aca10197289a mm: update hugetlbfs to use VMA flags on mmap_prepare
-d8809c0c2026eae5ee9e42b87ef995ae5fc02bbf mm: update secretmem to use VMA flags on mmap_prepare
-9343a6da092f0a35d9c12d59cc02c346981ba068 mm: update shmem_[kernel]_file_*() functions to use vma_flags_t
-b7749bdcedd5a89da8149127fa2d84ce2ef1659c mm-update-shmem__file_-functions-to-use-vma_flags_t-fix
-9bd4fdcaf6ba8363520b12c0489964d186e2e167 mm: update all remaining mmap_prepare users to use vma_flags_t
-9cc72d69d42b9b4c9af723cc03a7bd380ccbd62f mm: make vm_area_desc utilise vma_flags_t only
-4f535f17e376628b8e61e6403c65dcbd2e3a1f2a tools/testing/vma: separate VMA userland tests into separate files
-0936881b503237179991fdc3ad77f90955f79ab2 tools/testing/vma: separate out vma_internal.h into logical headers
-d0740927af003a557606470fa2dbee3fec0af1f5 tools/testing/vma: add VMA userland tests for VMA flag functions
-2143a4772baa1a4c88950484a1cc784251ec3880 mm/pagewalk: use min() to simplify the code
-8e3e32a6a73dbf33f427fe4c0d9de8632e1e57af mm-pagewalk-use-min-to-simplify-the-code-fix
-1681d5d1f97d98367a21aa695902904bed9da728 selftests/mm: add memory failure anonymous page test
-ce9b369feafe8c65aa134b0c8791bf7f19e463e2 selftests/mm: add memory failure clean pagecache test
-781c636898e8a397051f8e3ed806acf951e8de46 selftests/mm: add memory failure dirty pagecache test
-efc7c4af60dc6c3c05c0a55e743ae3d37aea3cdb mm: zswap: use SG list decompression APIs from zsmalloc
-0b8c9358dd29781c81ac5dba1079126457e13e35 maple_tree: fix mas_dup_alloc() sparse warning
-c2f62e634d99632ceda5fa5e2a0a3bcb1e159b15 maple_tree: move mas_spanning_rebalance loop to function
-8974fb764e5da3a818332bde42a24d2e1b0f8f53 maple_tree: extract use of big node from mas_wr_spanning_store()
-5781a3604b5ae9cf00e90387f57df7229521b78b maple_tree: remove unnecessary assignment of orig_l index
-146c6d4b6c79ce9dfe547d99c62c129df9cc771a maple_tree: inline mas_spanning_rebalance() into mas_wr_spanning_rebalance()
-3ff303547f49b0a099c660e44368994b7013672d maple_tree: make ma_wr_states reliable for reuse in spanning store
-b531a7b1b8c8bfaeaaddb2d53b4ae7992be7ca54 maple_tree: remove l_wr_mas from mas_wr_spanning_rebalance
-8f37d76b9e2db95f3e46c640392e333d4f97c9bb maple_tree: don't pass through height in mas_wr_spanning_store
-fe0edb7ea9102e0f827c20d6d3390228199e25de maple_tree: move maple_subtree_state from mas_wr_spanning_store to mas_wr_spanning_rebalance
-4245c94df4696270db9bc2bc71a525d1bb6b88ba maple_tree: correct right ma_wr_state end pivot in mas_wr_spanning_store()
-c93becaa5be466e785d8f3296053c7e9bed88d6e maple_tree: introduce maple_copy node and use it in mas_spanning_rebalance()
-4abbf00e0178f40beeeef847921438d60b0831ad maple_tree: testing update for spanning store
-456a57403155f1fb5b427126b4ec5e284e434a25 maple_tree: inline mas_spanning_rebalance_loop() into mas_wr_spanning_rebalance()
-216ab37d828a10f1092944ee80c11b1afb5b8723 maple_tree: change initial big node setup in mas_wr_spanning_rebalance()
-0ead4f84f8fe475ac04a810166b2271cfce16b0e maple_tree: introduce ma_leaf_max_gap()
-5b34155319679247cdaa87e3773f024fd9a7f23e maple_tree: add gap support, slot and pivot sizes for maple copy
-a67dbdcf06cf473352c3752565633ec4f175d53e maple_tree: start using maple copy node for destination
-89bb490ed4dded15742cb84262e42a3dfe92045b maple_tree: inline mas_wr_spanning_rebalance()
-78ff198f047d6c2fa9acb9c72ae7bdcc218d937c maple_tree: remove unnecessary return statements
-77fc5a5253c8e9e92c0e7762e44adae97e2d0cfa maple_tree: separate wr_split_store and wr_rebalance store type code path
-92b1de14e522aff177f9317e434399b926bf5ce1 maple_tree: add cp_is_new_root() helper
-3a84c534b593d23dab51ba54131abe0cbf6de80b maple_tree: use maple copy node for mas_wr_rebalance() operation
-669ef9a078d7778a1e88b12d167916c3e5deff04 maple_tree: add copy_tree_location() helper
-94adf3aa5bf0c442c879e736fdc1ccee2c7b33df maple_tree: add cp_converged() helper
-2b87422213100be05247128f7f30ca48d7e37680 maple_tree: use maple copy node for mas_wr_split()
-b653979abfa1d1f7dee98419e6fbded94e2a0912 maple_tree: remove maple big node and subtree structs
-2c014bdc1898f285684506256cdf39d7e5080eee maple_tree: pass maple copy node to mas_wmb_replace()
-4ec2c96815599925cdde538665b81814821d6329 maple_tree: don't pass end to mas_wr_append()
-dc4fe40a11269aead253fa0beb098b00417b8694 maple_tree: clean up mas_wr_node_store()
 
---===============0065743325362832276==--
+--===============5478680551594321581==--
