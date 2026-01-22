@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4737437010611058525=="
+Content-Type: multipart/mixed; boundary="===============7669392191546765218=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Thu, 22 Jan 2026 21:14:54 -0000
-Message-Id: <176911649451.2638069.13478705766467981686@gitolite.kernel.org>
+Date: Thu, 22 Jan 2026 21:15:12 -0000
+Message-Id: <176911651281.2640726.16633902601106576355@gitolite.kernel.org>
 
---===============4737437010611058525==
+--===============7669392191546765218==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/200GbE
-    old: ba1096c315283ee3292765f6aea4cca15816c4f7
-    new: 4a3dba48188208e4f66822800e042686784d29d1
-    log: revlist-ba1096c31528-4a3dba481882.txt
+  - ref: refs/heads/dev-queue
+    old: 3acd6f9c1cf8159f12dffaff1b303442fe83e231
+    new: 403356c6eadc5e23d13096ba5c8f0f259059c512
+    log: revlist-3acd6f9c1cf8-403356c6eadc.txt
 
---===============4737437010611058525==
+--===============7669392191546765218==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ba1096c31528-4a3dba481882.txt
+Content-Disposition: attachment; filename=revlist-3acd6f9c1cf8-403356c6eadc.txt
 
 9282a1e171ad8d2205067e8ec3bbe4e3cef4f29f wifi: ath10k: fix dma_free_coherent() pointer
 bb97131fbf9b708dd9616ac2bdc793ad102b5c48 wifi: ath12k: fix dma_free_coherent() pointer
@@ -69,5 +69,38 @@ fb2bb2a1ebf7b9514c32b03bb5c3be5d518d437b hinic3: Fix netif_queue_set_napi queue_
 27880b0b0d35ad1c98863d09788254e36f874968 net/sched: act_ife: avoid possible NULL deref
 f3ddbaaaaf4d0633b40482f471753f9c71294a4a dpll: Prevent duplicate registrations
 4a3dba48188208e4f66822800e042686784d29d1 Octeontx2-af: Add proper checks for fwdata
+6f15ecc156d05d03b50a0d15e4932c6da4f8118a ice: fix fwlog after driver reinit
+c3cec7b3e15948e5f67e6c0fd28fa37139e16555 ice: Fix enable_cnt imbalance on resume
+74785e261fa9de91d2284b0aa2a110d75397a6bf ice: Fix enable_cnt imbalance on PCIe error recovery
+a77df0673c231c76beac38b296915480dd48f0ec i40e: Fix enable_cnt imbalance on PCIe error recovery
+b4d247c928e14162182bc50e08603e21437fbb9e i40e: fix src IP mask checks and memcpy argument names in cloud filter
+238bb25b177e2bb3a17aa337be54a520a57d79fe ice: fix missing TX timestamps interrupts on E825 devices
+861d7afed486caf84d96364091f81b67a86daef4 ice: stop counting UDP csum mismatch as rx_errors
+16b14105da9ad70ec9e3fe009cfcff262069b0dd i40e: fix ptp time increment while link is down
+bf553908f7d601af8445eaf1010544d9b5c1e05b ixgbevf: fix link setup issue
+b3c3d594cfd311c74b6d77800e94a224acfb8230 idpf: read lower clock bits inside the time sandwich
+4da5bef5ccbbfbdba9a267c3ebba416748004c6c ice: Fix persistent failure in ice_get_rxfh
+e479d9d23ced1be2fba771ada9bbc6c37ed5f86e ixgbe: fix memory leaks in the ixgbe_recovery_probe() path
+d66e6749f92f1f78043a2b3585491a5299df5008 ixgbe: don't initialize aci lock in ixgbe_recovery_probe()
+7416c15507a0b76ba35d4483aeb81193b478bfb7 ice: fix 'adjust' timer programming for E830 devices
+cb9a6766502e9076d2a215d9f18320933285d63e ice: add missing ice_deinit_hw() in devlink reinit path
+dd10298cf43d7d91cdc85d00b5559e9a1e811d60 ice: Fix NULL pointer dereference in ice_vsi_set_napi_queues
+a09ce45d6fb30c86efe0fcce8f484113a06e0266 ice: recap the VSI and QoS info after rebuild
+e145b5b305ab2e9fcd2f1072701b9e2f5a2c27b0 i40e: drop udp_tunnel_get_rx_info() call from i40e_open()
+c3f93da0a1328253eb21c4d111acf6fc8b8b1891 ice: drop udp_tunnel_get_rx_info() call from ndo_open()
+eeafb598bdaf5ba169fe0a39c6e47e41cf2e987e ice: fix devlink reload call trace
+5f08719ebf0c78641c7258b573f91ec8244b6c34 idpf: increment completion queue next_to_clean in sw marker wait routine
+b41c26ae9895ecfcdf6e5791ee458507e59a1782 ice: fix adding AQ LLDP filter for VF
+8c1641a74f5d51b01eac48b999eec02c1d893c20 ice: fix setting RSS VSI hash for E830
+cdee93b36bbe57ce233f982a2adecdc980d45f32 e1000e: correct TIMINCA on ADP/TGP systems with wrong XTAL frequency
+566a91169b9fea69a94404243848696d1381e6b4 e1000e: introduce new board type for Panther Lake PCH
+cb3af1b353db0b346e19a3d7304db5e19ce58e5d e1000e: clear DPG_EN after reset to avoid autonomous power-gating
+088890f669cdc659f816d38356c20d4d40b33e8d idpf: skip deallocating bufq_sets from rx_qgrp if it is NULL.
+a34088758b804e604433f8a32e2ba2932fac0f15 idpf: skip deallocating txq group's txqs if it is NULL.
+4555d63f6f4d357b5593cf64a17d8c2dfcf2af31 idpf: Fix flow rule delete failure due to invalid validation
+e5ab46edc2273ba6328b9f567bc2df3ff4a164e1 ice: reintroduce retry mechanism for indirect AQ
+851d7ebc6f2f5857938dbc0f863f7a9cb30e48f9 ice: fix retry for AQ command 0x06EE
+9462e0530631feed856624bc6f69c2a4339242af igb: Fix trigger of incorrect irq in igb_xsk_wakeup
+403356c6eadc5e23d13096ba5c8f0f259059c512 igc: Fix trigger of incorrect irq in igc_xsk_wakeup function
 
---===============4737437010611058525==--
+--===============7669392191546765218==--
