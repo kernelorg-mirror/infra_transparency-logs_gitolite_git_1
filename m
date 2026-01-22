@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netfilter/nf-next
-Date: Thu, 22 Jan 2026 16:18:47 -0000
-Message-Id: <176909872706.2392033.15506157788622106307@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux
+Date: Thu, 22 Jan 2026 16:25:04 -0000
+Message-Id: <176909910452.2399101.1208313351699799894@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netfilter/nf-next
-user: fwestphal
+repo: pub/scm/linux/kernel/git/axboe/linux
+user: axboe
 changes:
-  - ref: refs/tags/nf-next-26-01-22
+  - ref: refs/heads/io_uring-wait-tw-split
     old: 0000000000000000000000000000000000000000
-    new: 2bfae8168b38c204a7fb454585349de2f416b082
+    new: 0105b0562a5ed6374f06e5cd4246a3f1311a65a0
