@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mricon/korg-helpers
-Date: Thu, 22 Jan 2026 18:21:55 -0000
-Message-Id: <176910611579.2494558.1377107464909432094@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/arm64/linux
+Date: Thu, 22 Jan 2026 18:22:18 -0000
+Message-Id: <176910613838.2494869.6311185372502240860@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mricon/korg-helpers
-user: mricon
+repo: pub/scm/linux/kernel/git/arm64/linux
+user: cmarinas
 changes:
-  - ref: refs/heads/master
-    old: 774dd7242e9344fdcc3a99da6de4d6a8d0a6873d
-    new: 44169ff49ab3707fb1c84f2ed2ab340c47ff698e
+  - ref: refs/heads/for-next/fixes
+    old: d2907cbe9ea0a54cbe078076f9d089240ee1e2d9
+    new: 812281fa807854b9edce50ee53a80911b7fd8d02
     log: |
-         4681d5cf14a4753d96c3efcbc92e08c1df3b7786 bugzilla-junker: actually open shelf with writeback
-         44169ff49ab3707fb1c84f2ed2ab340c47ff698e git-patchwork-bot: fix pull request matching with URL rewrites
+         812281fa807854b9edce50ee53a80911b7fd8d02 arm64: Set __nocfi on swsusp_arch_resume()
          
