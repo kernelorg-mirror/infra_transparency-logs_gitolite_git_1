@@ -1,26 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
-Date: Fri, 23 Jan 2026 00:57:05 -0000
-Message-Id: <176912982559.2816798.14906133129946766869@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/trace/linux-trace
+Date: Fri, 23 Jan 2026 01:14:28 -0000
+Message-Id: <176913086812.2834265.4259130819032756656@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/perf/perf-tools-next
-user: acme
+repo: pub/scm/linux/kernel/git/trace/linux-trace
+user: rostedt
 changes:
-  - ref: refs/heads/perf-tools-next
-    old: d40c68a49f69c9bdb4ca14b3e6a0422bbaeb5d8f
-    new: 800af362d68945e589f73cda429d04bfe4287feb
+  - ref: refs/heads/tools/for-next
+    old: fb8b8183208d8efe824e8d2c73fb1ab5ad1191fd
+    new: 6ea8a206108fe8b5940c2797afc54ae9f5a7bbdd
     log: |
-         c3030995f23b3d35f94b9bc4375706ec5916fd55 perf sched stats: Add record and rawdump support
-         55657d7ac8caa98c7c0ef241bf64e176db899b4d perf sched stats: Add schedstat v16 support
-         805da27252a290984782abfdb313a78e7c157369 perf sched stats: Add schedstat v17 support
-         5a357ae6ad63fd101a4f20d081f8893b51cc0790 perf sched stats: Add support for report subcommand
-         00093b3133984ffe80697b5d2e7f204983660dd9 perf sched stats: Add support for live mode
-         064790a3d4a89536d00a61d7a02de67ad319bdc5 perf sched stats: Add support for diff subcommand
-         c6b1f5707509c2718832a8f79e1d1510c85bcc75 perf sched stats: Add basic 'perf sched stats' test
-         800af362d68945e589f73cda429d04bfe4287feb perf sched stats: Add details in man page
+         6ea8a206108fe8b5940c2797afc54ae9f5a7bbdd rtla: Fix parse_cpu_set() bug introduced by strtoi()
          
