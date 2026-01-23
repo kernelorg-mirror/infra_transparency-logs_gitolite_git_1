@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/next-utils/tools
-Date: Fri, 23 Jan 2026 15:47:11 -0000
-Message-Id: <176918323172.3649111.12285293038897413511@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/korgalore/korgalore
+Date: Fri, 23 Jan 2026 15:48:34 -0000
+Message-Id: <176918331475.3649639.17383836124598824060@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/next-utils/tools
-user: broonie
+repo: pub/scm/utils/korgalore/korgalore
+user: mricon
 changes:
-  - ref: refs/heads/main
-    old: 0000000000000000000000000000000000000000
-    new: b4371d6256ba932125414dcc3255ae382c1734ee
+  - ref: refs/heads/master
+    old: 3091296c14bfb39ac72dc61c1129d0e5b4440be4
+    new: 9bb41b2c9c464dac1d6b5c2306c23850f6850d42
+    log: |
+         9bb41b2c9c464dac1d6b5c2306c23850f6850d42 Centralize User-Agent handling across all remote connections
+         
