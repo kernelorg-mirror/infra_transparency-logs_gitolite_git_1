@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1234450995120401817=="
+Content-Type: multipart/mixed; boundary="===============2160955613877332563=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/vbabka/slab
-Date: Fri, 23 Jan 2026 06:59:11 -0000
-Message-Id: <176915155117.3105198.2662582414509169426@gitolite.kernel.org>
+Date: Fri, 23 Jan 2026 07:00:59 -0000
+Message-Id: <176915165957.3108353.6519279555113579201@gitolite.kernel.org>
 
---===============1234450995120401817==
+--===============2160955613877332563==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,41 +16,41 @@ repo: pub/scm/linux/kernel/git/vbabka/slab
 user: vbabka
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/slab/for-7.0/sheaves
-    old: d02b5a81945588801cafb4d1a955dcb1344093f5
-    new: 5948efeda073819fa0bff82438c470f2c94d71e2
-    log: revlist-d02b5a819455-5948efeda073.txt
+  - ref: refs/heads/slab/for-next
+    old: ad53e0cce0a4de8750255a336e69a4721e4b747b
+    new: 022ab5e1bb954bb8ab4cfd12e94595ad0f6b636d
+    log: revlist-ad53e0cce0a4-022ab5e1bb95.txt
 
---===============1234450995120401817==
+--===============2160955613877332563==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher A940D434992C2E8E99103D50224FA7E7CC82A664 1769151547 +0100
+pusher A940D434992C2E8E99103D50224FA7E7CC82A664 1769151655 +0100
 pushee gitolite.kernel.org:pub/scm/linux/kernel/git/vbabka/slab.git
-nonce 1769151546-e4ba5181ebdbf301d489cad760a4789af1f3089c
+nonce 1769151655-82c05790782d412ffcd59cf15d096e479336636f
 
-d02b5a81945588801cafb4d1a955dcb1344093f5 5948efeda073819fa0bff82438c470f2c94d71e2 refs/heads/slab/for-7.0/sheaves
+ad53e0cce0a4de8750255a336e69a4721e4b747b 022ab5e1bb954bb8ab4cfd12e94595ad0f6b636d refs/heads/slab/for-next
 -----BEGIN PGP SIGNATURE-----
 
-iQFPBAABCAA5FiEEe7vIQRWZI0iWSE3xu+CwddJFiJoFAmlzHDsbFIAAAAAABAAO
-bWFudTIsMi41KzEuMTEsMiwyAAoJELvgsHXSRYia5vQH/3O9UHdi2u6+tBaCDm0Y
-Cn+5aHJdgyjPIIxrlSU0k+o2KPhsam4mL8Dbnik0PtqBXisNu3APPEqHd8gE9V7L
-SASP9HdSuV5Ls9FZSg+T9dZE1lfqng8QUuIq3ZgvEdHPzC01JKzeZmvCh74j0g6Z
-8dKm4t43zziZswdJYr/uWfLal59no5zymPSZgWLGkjIhQOw3nk4eUT6pYiqtvE9A
-SJXlnWFP3hhyNeiIx3Ol3jWUimuwHH1slNpZkRi3pM4bTSJ5v8ENPPOHDqO1eu7L
-eRupsldIWl+zY1zrUmWZMGMJ5WEMafm1Ovth8m+yfF1jljVif7OQXgOyZPQuyv+f
-d1k=
-=Grct
+iQFPBAABCAA5FiEEe7vIQRWZI0iWSE3xu+CwddJFiJoFAmlzHKcbFIAAAAAABAAO
+bWFudTIsMi41KzEuMTEsMiwyAAoJELvgsHXSRYiaVCMH/25Hc30sJXM0CtC9Gpc6
+W/MJBLKLk4Iyg3IJrdayh5XHgz5zyzLCEnN5mjYNP2Aerk33Xli5Yev6aTrmXTGA
+qBE6x6JgHSlTNIByoM7jT9QMBKMIh8MhjSJ2EUPLX4hD0czIP4Bc96fqbWGJcBHY
+NfAWxlb/E3QdQt+i5v1Fr4XVzXYcVUDeE3w9tFNvAK6X08jrD8F8IX+n7ppODWNf
+L/4OMUhaHnjiuHiZIxepID0nAuoCFZ5LqWP1vSVGq2bT8yunarZokdrw7tQC6TOf
+Hi/fhQxLg8oIn9gtyJAQQudnKnK0NS0ofqxCqLrAYkI8RVzBTTc4PTCUu59j6iL6
+w6w=
+=+dfO
 -----END PGP SIGNATURE-----
 
---===============1234450995120401817==
+--===============2160955613877332563==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d02b5a819455-5948efeda073.txt
+Content-Disposition: attachment; filename=revlist-ad53e0cce0a4-022ab5e1bb95.txt
 
 8d6f093d83fe1350b5762331fe9dd8244fc31734 mm/slab: add rcu_barrier() to kvfree_rcu_barrier_on_cache()
 8c75e58114344f0263dea5d414db13c870ef64f9 mm/slab: fix false lockdep warning in __kfree_rcu_sheaf()
@@ -74,5 +74,6 @@ cd690b3d2dc954cee41b6b06a7604d035f0a8cab slab: update overview comments
 2889a3338a3e7e8d10776ac28a2706693d777777 slab: remove frozen slab checks from __slab_free()
 9a4f142d629a9cd54002eb262a7d6b9d168b8b16 mm/slub: remove DEACTIVATE_TO_* stat items
 5948efeda073819fa0bff82438c470f2c94d71e2 mm/slub: cleanup and repurpose some stat items
+022ab5e1bb954bb8ab4cfd12e94595ad0f6b636d Merge branch 'slab/for-7.0/sheaves' into slab/for-next
 
---===============1234450995120401817==--
+--===============2160955613877332563==--
