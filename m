@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8682366235431029705=="
+Content-Type: multipart/mixed; boundary="===============5437462920212787437=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Fri, 23 Jan 2026 23:04:48 -0000
-Message-Id: <176920948863.4012914.15978758157055049429@gitolite.kernel.org>
+Date: Fri, 23 Jan 2026 23:05:13 -0000
+Message-Id: <176920951380.4015575.9648314043536435074@gitolite.kernel.org>
 
---===============8682366235431029705==
+--===============5437462920212787437==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,15 +16,51 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: e6029d808bf16cc20a391dc1e658a3e55968b502
-    new: 235ffdfdddbc2af3b490ef2ed94ec623ea180024
-    log: revlist-e6029d808bf1-235ffdfdddbc.txt
+    old: 235ffdfdddbc2af3b490ef2ed94ec623ea180024
+    new: fb6421e4831c85a525b9da74c492b6614b5e7057
+    log: revlist-235ffdfdddbc-fb6421e4831c.txt
+  - ref: refs/heads/tip/urgent
+    old: bc4b44c8b4cb3c607ed50e884eabe4fbaecfdc63
+    new: ef5f00c12c172fb2de8d6d08b9b5bd3f80c54a24
+    log: revlist-bc4b44c8b4cb-ef5f00c12c17.txt
 
---===============8682366235431029705==
+--===============5437462920212787437==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e6029d808bf1-235ffdfdddbc.txt
+Content-Disposition: attachment; filename=revlist-235ffdfdddbc-fb6421e4831c.txt
+
+31804533254a46ac0e5cc30ee0e76fd644c7a5fe Merge branch into tip/master: 'irq/urgent'
+4f9928307064aff48c4148781d110962eb9cefa5 Merge branch into tip/master: 'objtool/urgent'
+cda6aa6df59e18cdd95de210ddc254f5aa4e1d9c Merge branch into tip/master: 'perf/urgent'
+31a7cc7b870f5e5874f4a505f71f0c9ceeb5e49e Merge branch into tip/master: 'sched/urgent'
+ef5f00c12c172fb2de8d6d08b9b5bd3f80c54a24 Merge branch into tip/master: 'timers/urgent'
+2bc1ea38d086bd5cc793212b502e6e657b0482e0 Merge branch into tip/master: 'irq/core'
+3809f890cc9230e0dd0b004186b00cb24ae0471d Merge branch into tip/master: 'irq/drivers'
+5ed9bb0caa195d91f6d0ffdda02bc2a5084190f7 Merge branch into tip/master: 'irq/msi'
+1d3e2bfdd6b464a991ad3c1350498ff194e31aaf Merge branch into tip/master: 'locking/core'
+1257398cb049b236afede97b8c93956ed7f78c5b Merge branch into tip/master: 'perf/core'
+378014637b926cf0a42f5bbd5f05e6d2aea1acc2 Merge branch into tip/master: 'sched/core'
+eb360a41674d13effcafb5428f20fe71f6c1756d Merge branch into tip/master: 'timers/core'
+d4efac068b5c5eb0fdb3d837f91477c2985959ee Merge branch into tip/master: 'timers/vdso'
+e27b6bbdff42cfeed4f7f940ea73a4c4c560d205 Merge branch into tip/master: 'x86/alternatives'
+acc0bea4dc2818d251594474736a770323669ff5 Merge branch into tip/master: 'x86/boot'
+18b9f16c7a541fd4b229cd98d27685e14fbc26bc Merge branch into tip/master: 'x86/bugs'
+ba9f4badce931d74a751c2f9f37bdb3e8c1b9e7c Merge branch into tip/master: 'x86/cache'
+d9904a8f320ac02eb653d45b3b7d088735412409 Merge branch into tip/master: 'x86/cleanups'
+11847a22db691891e7964bf2180830c99109d72a Merge branch into tip/master: 'x86/cpu'
+fbda0df49e6691682eff4cd8d809c267ee65f7c7 Merge branch into tip/master: 'x86/entry'
+0d27061cc151b619466ef2c9862b04768907609c Merge branch into tip/master: 'x86/irq'
+d4c6fa4708c244934a27e10fd75174401bef2082 Merge branch into tip/master: 'x86/microcode'
+39a7df297386a5ab7d9a1a09ee56c6dd4a444090 Merge branch into tip/master: 'x86/misc'
+4cdc7bc240782bb60e287f17e12c37eb1ceceffa Merge branch into tip/master: 'x86/paravirt'
+fb6421e4831c85a525b9da74c492b6614b5e7057 Merge branch into tip/master: 'x86/sev'
+
+--===============5437462920212787437==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-bc4b44c8b4cb-ef5f00c12c17.txt
 
 3009738a855cf938bbfc9078bec725031ae623a4 mmc: sdhci-of-dwcmshc: Prevent illegal clock reduction in HS200/HS400 mode
 2de5bdc2d9819d645b4d0e91d3a520b7fee87294 drm/mediatek: Fix platform_get_irq() error checking
@@ -165,6 +201,10 @@ d4be90cce60e60cf99c419b74105d217eec194c1 Merge tag 'mmc-v6.19-rc3' of git://git.
 e85d3e9d581eb6047a2a79f088b1934e30d81a9b Merge tag 'arm64-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/arm64/linux
 3a622041d78bb0737cc9dd507ead099b66abdda2 Merge tag 's390-6.19-4' of git://git.kernel.org/pub/scm/linux/kernel/git/s390/linux
 62085877ae6592be830c2267e35dc469cb706308 Merge tag 'kbuild-fixes-6.19-2' of git://git.kernel.org/pub/scm/linux/kernel/git/kbuild/linux
-235ffdfdddbc2af3b490ef2ed94ec623ea180024 Merge branch 'linus'
+31804533254a46ac0e5cc30ee0e76fd644c7a5fe Merge branch into tip/master: 'irq/urgent'
+4f9928307064aff48c4148781d110962eb9cefa5 Merge branch into tip/master: 'objtool/urgent'
+cda6aa6df59e18cdd95de210ddc254f5aa4e1d9c Merge branch into tip/master: 'perf/urgent'
+31a7cc7b870f5e5874f4a505f71f0c9ceeb5e49e Merge branch into tip/master: 'sched/urgent'
+ef5f00c12c172fb2de8d6d08b9b5bd3f80c54a24 Merge branch into tip/master: 'timers/urgent'
 
---===============8682366235431029705==--
+--===============5437462920212787437==--
