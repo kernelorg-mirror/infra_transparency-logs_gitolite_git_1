@@ -1,25 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
-Date: Fri, 23 Jan 2026 20:56:04 -0000
-Message-Id: <176920176450.3912495.2046432274598191426@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux
+Date: Fri, 23 Jan 2026 20:59:58 -0000
+Message-Id: <176920199814.3913664.1873475706394115515@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rafael/linux-pm
-user: rafael
+repo: pub/scm/linux/kernel/git/axboe/linux
+user: axboe
 changes:
-  - ref: refs/heads/bleeding-edge
-    old: 6a924b2ff912341762efff524e0f8a5d5e31f808
-    new: 7e9b0371ed5b9bf9a80c59487f47fca0ba638f61
+  - ref: refs/heads/for-7.0/io_uring
+    old: 1edf0891d0f4a6c186721e41323c9a3b86ceceda
+    new: 816095894c0f44aaba4372d92c874121af687596
     log: |
-         80606f4eb8d7484ab7f7d6f0fd30d71e6fbcf328 cpuidle: governors: menu: Always check timers with tick stopped
-         4bd2221f231d798b01027367857d9ba2f24f6ea0 cpuidle: governors: teo: Avoid selecting states with zero-size bins
-         60836533b4c7b69e6cb815c87f089e39c2878acd cpuidle: governors: teo: Avoid fake intercepts produced by tick
-         475ca3470b3739150720f1b285646de38103e7b7 cpuidle: governors: teo: Refine tick_intercepts vs total events check
-         40bea8700510ee4cc1c460319fae4a4d69cfd737 Merge branch 'pm-cpuidle' into bleeding-edge
-         9635c586a559ba0e45b2bfbff79c937ddbaf1a62 thermal: intel: x86_pkg_temp_thermal: Handle invalid temperature
-         7e9b0371ed5b9bf9a80c59487f47fca0ba638f61 Merge branch 'thermal-intel' into bleeding-edge
+         816095894c0f44aaba4372d92c874121af687596 io_uring/io-wq: handle !sysctl_hung_task_timeout_secs
+         
+  - ref: refs/heads/for-next
+    old: 76cb68282cd6fed2b1cf6b95c7be067fbcb88cd9
+    new: 050b3122bd67d7dbb24816242af8731f345642d2
+    log: |
+         816095894c0f44aaba4372d92c874121af687596 io_uring/io-wq: handle !sysctl_hung_task_timeout_secs
+         050b3122bd67d7dbb24816242af8731f345642d2 Merge branch 'for-7.0/io_uring' into for-next
          
