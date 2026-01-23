@@ -1,24 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
-Date: Fri, 23 Jan 2026 18:00:54 -0000
-Message-Id: <176919125495.3766522.5381626432054753184@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux
+Date: Fri, 23 Jan 2026 18:02:50 -0000
+Message-Id: <176919137086.3767410.8022245649069220672@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/perf/perf-tools-next
-user: acme
+repo: pub/scm/linux/kernel/git/axboe/linux
+user: axboe
 changes:
-  - ref: refs/heads/tmp.perf-tools-next
-    old: 6b738132013c41eddb4ebb4724375254ac5e89bf
-    new: cabdc7b84a22908eefeec3500778f01c529f08fc
+  - ref: refs/heads/io_uring-bpf-restrictions.4
+    old: 706995767a6b6ab3a7ca7e75d2d3efeace56a0c6
+    new: 1df64630102311bb3ce0fafcaaa054bfdfcef6a6
     log: |
-         00a2f42539d084178bbbbe2d51470cbbb8c8364e perf disasm: Refactor arch__find and initialization of arch structs
-         1d92876f76906de763ce84ee7e05e4e966607208 perf disasm: Minor layout tweaks for 'struct arch'
-         02d646af09d37beaafe8e63da948531f8ee6f7b0 perf inject: With --convert-callchain ignore the dummy event for dwarf stacks
-         93ab8351b7303a08191b886626c01a9d4d5b3d1b perf tests sched: Avoid error in cleanup on loaded machines
-         702ec90de045890da8582323b98319c8d859f0ca perf annotate: Fix memcpy size in arch__grow_instructions()
-         cabdc7b84a22908eefeec3500778f01c529f08fc perf regs: Refactor use of arch__sample_reg_masks() to perf_reg_name()
+         17b8a3b2837f884258fef6af8cf3e00328c3b4a4 io_uring: add support for BPF filtering for opcode restrictions
+         f95e8a16cae8af6a23012cbbec536a8876948e8a io_uring/net: allow filtering on IORING_OP_SOCKET data
+         ecd2353a5cf871fe453bba8b7c34ccf5eb285652 io_uring/bpf_filter: allow filtering on contents of struct open_how
+         b7df00e1ca201305063590c6e9142b62026217e2 io_uring/bpf_filter: cache lookup table in ctx->bpf_filters
+         f39c52696259f08f13eb585abd2de31beba9a571 io_uring/bpf_filter: add ref counts to struct io_bpf_filter
+         4aaf2a50d484e366212974156231798bc3deb8c7 io_uring: add task fork hook
+         1df64630102311bb3ce0fafcaaa054bfdfcef6a6 io_uring: allow registration of per-task restrictions
          
