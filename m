@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============6779847418740464976=="
+Content-Type: multipart/mixed; boundary="===============4007539080387862219=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
-Date: Fri, 23 Jan 2026 17:16:41 -0000
-Message-Id: <176918860160.3728836.9957041020645066028@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
+Date: Fri, 23 Jan 2026 17:16:57 -0000
+Message-Id: <176918861776.3729142.8353480451216848828@gitolite.kernel.org>
 
---===============6779847418740464976==
+--===============4007539080387862219==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/perf/perf-tools-next
+repo: pub/scm/linux/kernel/git/acme/linux
 user: acme
 changes:
   - ref: refs/heads/tmp.perf-tools-next
@@ -20,7 +20,7 @@ changes:
     new: 6b738132013c41eddb4ebb4724375254ac5e89bf
     log: revlist-800af362d689-6b738132013c.txt
 
---===============6779847418740464976==
+--===============4007539080387862219==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -53,4 +53,4 @@ a1ab11f5ece95d14f5ad5cd16c9c6be19de2776f perf map_symbol: Switch from holding ma
 9af06798064ffcc66e5c927e380abea8a096d2e2 perf inject: With --convert-callchain ignore the dummy event for dwarf stacks
 6b738132013c41eddb4ebb4724375254ac5e89bf perf tests sched: Avoid error in cleanup on loaded machines
 
---===============6779847418740464976==--
+--===============4007539080387862219==--
