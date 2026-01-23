@@ -1,23 +1,51 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kvmarm/kvmarm
-Date: Fri, 23 Jan 2026 11:46:56 -0000
-Message-Id: <176916881615.3437592.9084731588335551209@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============7241080877877937504=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
+Date: Fri, 23 Jan 2026 11:55:11 -0000
+Message-Id: <176916931176.3463423.2092326024912665607@gitolite.kernel.org>
+
+--===============7241080877877937504==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kvmarm/kvmarm
-user: maz
+repo: pub/scm/linux/kernel/git/peterz/queue
+user: peterz
 changes:
-  - ref: refs/heads/next
-    old: f42da2d8d8650410c713d2297fc288e1985a5ddd
-    new: c6839b4d69ff109f6b256865d9e856fd003900e5
-    log: |
-         c103c2dfe4975da31b67a0fcb95761359f30992d KVM: arm64: Remove dead code resetting HCR_EL2 for pKVM
-         f35abcbb8a084db4c24b66ccc8db0405c08e2f61 KVM: arm64: Trap MTE access and discovery when MTE is disabled
-         5ee8ad69da07d0e2cffa0ce2f2339c9ad2d587f2 KVM: arm64: Inject UNDEF when accessing MTE sysregs with MTE disabled
-         230b080623fec2e1302df2afe2cf2dcb34f9c89b KVM: arm64: Use kvm_has_mte() in pKVM trap initialization
-         c6839b4d69ff109f6b256865d9e856fd003900e5 Merge branch kvm-arm64/pkvm-no-mte into kvmarm-master/next
-         
+  - ref: refs/heads/sched/core
+    old: 81b74125144d2db6f40a345b875f085addbcd230
+    new: 917e8c45d49b241c3ab0a814b77b617b40285a90
+    log: revlist-81b74125144d-917e8c45d49b.txt
+
+--===============7241080877877937504==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-81b74125144d-917e8c45d49b.txt
+
+4fe82cf3024a4bdd2571d584efc25598533d5c96 sched/debug: Convert copy_from_user() + kstrtouint() to kstrtouint_from_user()
+d7a5da7a0f7fa7ff081140c4f6f971db98882703 rseq: Add fields and constants for time slice extension
+f8380f976804533df4c6c3d3a0b2cd03c2d262bc rseq: Provide static branch for time slice extensions
+b5b8282441bc4f8f1ff505e19d566dbd7b805761 rseq: Add statistics for time slice extensions
+28621ec2d46c6adf7d33a6facbd83e2fa566bd34 rseq: Add prctl() to enable time slice extensions
+99d2592023e5d0a31f5f5a83c694df48239a1e6c rseq: Implement sys_rseq_slice_yield()
+dd0a04606937af5810e9117d343ee3792635bd3d rseq: Implement syscall entry work for time slice extensions
+0ac3b5c3dc45085b28a10ee730fb2860841f08ef rseq: Implement time slice extension enforcement timer
+7ee58f98b59b0ec32ea8a92f0bc85cb46fcd3de3 rseq: Reset slice extension when scheduled
+dfb630f548a7c715efb0651c6abf334dca75cd52 rseq: Implement rseq_grant_slice_extension()
+3c78aaec19b0621bf952756670c8b066a55202fe entry: Hook up rseq time slice extension
+830969e7821af377bdc1bb016929ff28c78490e8 selftests/rseq: Implement time slice extension test
+d6200245c75e832af2087bc60ba2e6641a90eee9 rseq: Allow registering RSEQ with slice extension
+e1d7f54900f1e1d3003a85b78cd7105a64203ff7 rseq: Move slice_ext_nsec to debugfs
+21c0e92d0681fbd10ac024311bd09bca439e0bb1 rseq: Lower default slice extension
+5d6446f409da00e5a389125ddb5ce09f5bc404c9 hrtimer: Fix trace oddity
+bb332a9e5a057d2cb9b90e307b26cce9b1f6f660 selftests/rseq: Add rseq slice histogram script
+4b603f1551a73e2868b9e7a14b3938c23275cefb sched: Update rq->avg_idle when a task is moved to an idle CPU
+377521af0341083bc9d196cf021ec7265dc47c20 sched: remove task_struct->faults_disabled_mapping
+3ecfb4c0df2ae155251cf419528498a36d5fe2a4 sched/rt: Skip currently executing CPU in rto_next_cpu()
+917e8c45d49b241c3ab0a814b77b617b40285a90 sched/cpufreq: Use %pe format for PTR_ERR() printing
+
+--===============7241080877877937504==--
