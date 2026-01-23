@@ -1,22 +1,28 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
-Date: Fri, 23 Jan 2026 19:11:53 -0000
-Message-Id: <176919551391.3825681.8353087568352057619@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux
+Date: Fri, 23 Jan 2026 19:13:29 -0000
+Message-Id: <176919560944.3826537.18435506315269545646@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rafael/linux-pm
-user: rafael
+repo: pub/scm/linux/kernel/git/axboe/linux
+user: axboe
 changes:
-  - ref: refs/heads/bleeding-edge
-    old: 0e3f8660b54bdf12d98aad8a49a2abbcd0afa251
-    new: 6a924b2ff912341762efff524e0f8a5d5e31f808
+  - ref: refs/heads/for-7.0/block
+    old: e4d3fc6a22f53e5bbe51e28b43cb32bc130d9f87
+    new: 420bcbf67b4575d6455a4fa0de06695d98d340b1
     log: |
-         5315c0ddbefe415abba4c89568ecfd27f79c5aba ACPI: video: simplify code with acpi_get_local_u64_address()
-         8a0e765fb00351bd6cc878aa62d3ee4a4bd1fe78 Merge branch 'acpi-driver' into bleeding-edge
-         ed0a1ac2aa936a0abc2d940eff51158de6e8cec0 ACPI: PCI: simplify code with acpi_get_local_u64_address()
-         6a924b2ff912341762efff524e0f8a5d5e31f808 Merge branch 'acpi-pci' into bleeding-edge
+         f50af896932f5edb1ff7b407753ecfa285c30b7a ublk: rename auto buffer registration helpers
+         420bcbf67b4575d6455a4fa0de06695d98d340b1 ublk: document IO reference counting design
+         
+  - ref: refs/heads/for-next
+    old: 4c9d43fe1d5fe539ecb54390c0edcc3d36a851fd
+    new: 76cb68282cd6fed2b1cf6b95c7be067fbcb88cd9
+    log: |
+         f50af896932f5edb1ff7b407753ecfa285c30b7a ublk: rename auto buffer registration helpers
+         420bcbf67b4575d6455a4fa0de06695d98d340b1 ublk: document IO reference counting design
+         76cb68282cd6fed2b1cf6b95c7be067fbcb88cd9 Merge branch 'for-7.0/block' into for-next
          
