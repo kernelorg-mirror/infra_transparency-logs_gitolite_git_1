@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5910345016277454619=="
+Content-Type: multipart/mixed; boundary="===============4960882045394505561=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Fri, 23 Jan 2026 16:17:26 -0000
-Message-Id: <176918504655.3674012.4349147420616233991@gitolite.kernel.org>
+Date: Fri, 23 Jan 2026 16:19:31 -0000
+Message-Id: <176918517186.3674932.15441229593364351596@gitolite.kernel.org>
 
---===============5910345016277454619==
+--===============4960882045394505561==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,59 +17,49 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/usb-testing
-    old: 5ac87cd859eca21ebf657d94affd29f40003bede
-    new: 1360eb44d2af7baa9357a7c4dd4952c6dd5e9d6f
-    log: revlist-5ac87cd859ec-1360eb44d2af.txt
+    old: 1360eb44d2af7baa9357a7c4dd4952c6dd5e9d6f
+    new: 72fe00b71067e141908153dda66bc0cebe3094ea
+    log: |
+         dfd7b082c0a22ff0d697605a2a6bb62d9a4730a6 usb: typec: Add mode_control field to port property
+         4ec128733f68f77af452b0d97d8688cd33cd963e platform/chrome: cros_ec_typec: Set no_mode_control flag
+         027b304ca3f6989f6946b5b3bcc727cf3f54774f usb: typec: Expose alternate mode priority via sysfs
+         fb2abc754672f769ca0bc36bdeb3c2f81927f446 usb: typec: Implement mode selection
+         be727d4000669a64a3ce6697669150d78bb2d492 usb: typec: Introduce mode_selection bit
+         ab2588c040fe6e87e5b1ca5a0d005cc4df14aced usb: typec: ucsi: Support mode selection to activate altmodes
+         ffbe78fdbbbdf774a92b47ac138bc1a0a7482096 usb: typec: ucsi: Enforce mode selection for cros_ec_ucsi
+         53cc2d90542cfee42bf73627c26318372e7ea50e usb: phy: tegra: use phy type directly
+         8acc379b664ec987dcc7eca25a5f5c4a9a4eb9c4 usb: phy: tegra: add HSIC support
+         72fe00b71067e141908153dda66bc0cebe3094ea usb: typec: tcpm/tcpci_maxim: deprecate WAR for setting charger mode
+         
 
---===============5910345016277454619==
+--===============4960882045394505561==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1769185042 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1769185167 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1769185041-ebf0faf83f33614ef67022e7c23df093ff8870e5
+nonce 1769185166-9e711f488d0b9babe59f54a934cbb59f8c44583f
 
-5ac87cd859eca21ebf657d94affd29f40003bede 1360eb44d2af7baa9357a7c4dd4952c6dd5e9d6f refs/heads/usb-testing
+1360eb44d2af7baa9357a7c4dd4952c6dd5e9d6f 72fe00b71067e141908153dda66bc0cebe3094ea refs/heads/usb-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmlznxIbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+vxQQALBk7OoAv14g8Z7WFXBz
-ZKUXPuBr4Y4/aDjpUI6xl3nJW7RQG0cPQoMvlPh48w6JQO+Tg5O3qKMMM1N3xG2O
-jtbOPEJgcmKBVCDDmYZK3V0OylHpdRnJ+KN3ZrTInnOkskxxcbGP7JD5y+kyPupA
-pvrrlgOlff4a50VKa1ZhrVS724UHPe26EVaIvvSbYvVY6rTHVxsLByDaMoTM2AJU
-zYObTA0rSThlRxuWwDsmWuYow38EMADK/ffpGOzdDgHDLwxbAv1sksCSb1sxRjNs
-WE1z3d3fXgbnlLbf8YuxXMe/Sk/Rs0jlZB1xJmrENCIyHthJeUq5xcFWpLye2USo
-hmVlU/UwyIQ/JBhi69MQF3CMUsFwg2r0IxybN6U3SLNd7cxiG7GNISR4ktwqDC63
-TEtZgvMkbtvg2Pny+Y8a4fCYyo9jjKkCok2XTZ440Dx0Y7xmCTe6boJcY7UK93t+
-FJyWRB1mx8WKUMsXVqqm9hqFKS5ygwlQLlgna/ojbMGA/EzSsHI90lzAPmSnznNw
-kCQ0tEi/+/YAYI0Hj3XLfDTwjj0O/GYy5uz/39fU+Dg7bM3oWTg5AZKn/WLfEcd+
-1y78gglUJ9adChQUSJPsSLmWUgzQbsndlGvagTz9qjEqX4iDOlYDHEZCZX2Dplqh
-H1yR/2oZoQm7gEvwg9Y/Nrta
-=PK/j
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmlzn48bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+OQcQAIcD+FwedQKe25GkkmXn
+cwlhVm/wD/VoJGu1D8zlzJVFQmDZEVEMV2EuRr4LnhwZQ45FteheMESk5zsOWfhj
+wyiSnlUV48pvt4CA/Q+VYLlegTjXPkOXjR/zxY5PyDM8SEN2r3MQegIxERf2b9IB
+pMBNHt5pEYGW/S5X0AaW2qcoUoJtw1iHkEbmChId/Wphj3eCyPZJIgJT6xz0AJcd
+OURRLTumYjF9GNs+kBZcHK6TeM92Keqqrh2DJde8x/Yl/4tDWbe614+ltZAlu36V
+N2RfLq5IqnyFzm1w55xMTm+aQYaerl3Js0TNYTXN8Yq2KzvEadfdNZVk0tFBOHdv
+3ls8BkFDTJEjtqmGDo/TaIVMfHePRXakHNzY/ibfQsi43cE/LoiLt71MDAZrZWJe
+6bJ+YTyZCG4rHejo0UiTzvfRBIYKn+Kn0RHDEBemrPLxK/4V3Vysq7DRE5q5rPuu
+zmJfk3JUirKfAewK5stjJTPhyazJoGMlU78rMlkBL0nKf57W7KKAEAbSJ4zv9RxY
+/U0uffFEjqfMbvEvK5SS4zjMPfpuP8yH3WK6OtpVaXSMzWhOjtepe9LDWbHsAloG
+7l6xv5xXz7Jl+7HqWtSFbyTPMO4frcU5TDrZvJ32VT3rJDjFyiy1D5TRjsqim1OL
+9qoupHLNQ1GGjqHRq7ys1FR1
+=9qNw
 -----END PGP SIGNATURE-----
 
---===============5910345016277454619==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5ac87cd859ec-1360eb44d2af.txt
-
-ef548189fd3f44786fb813af0018cc8b3bbed2b9 usb: host: tegra: Remove manual wake IRQ disposal
-4298475deecbd12f7d5a83b340f59ae644c37a5e usb: dwc3: google: Remove redundant dev_err()
-27fbc19e52b9a76b79a1de691b0b978e335c4c35 usb: typec: hd3ss3220: Enable VBUS based on role state
-a30c923c42508c6467aa65612b578bcba6c277f2 xhci: dbc: prepare to expose strings through sysfs
-412de639b55fcf1ab5ad50a6be84f5164104abe3 xhci: dbc: allow setting device serial number through sysfs
-33d15312e35d4cfd26b68ab4c1b0143cc43d8b16 xhci: dbc: allow setting product string through sysfs
-db7fd1955e6825756d0241343add1d172098bb18 xhci: dbc: allow setting manufacturer string through sysfs
-f1195ca3b4bbd001d3f1264dce91f83dec7777f5 usb: bdc: fix sleep during atomic
-65c4b312f1f13f4b45e18387f4a8bb19c1ea3ff3 tools: usb: usbip: remove dead-link from README
-7fa47c1314939bc8250f04e0b15cc10d19328a08 usbip: Reduce CONNRESET message noise in dmesg from stub
-62b718d23348b675411b6858931932bf4541fc4b usb: phy: generic: Always use dev in usb_phy_generic_probe()
-300034f97b04761c57111e899eb9d7ce08fcdcd1 usb: phy: generic: Convert to devm_clk_get_optional()
-c9d032cbcac4ee81602232d25a3da0c8d934e1c2 usb: phy: generic: Convert to dev_err_probe()
-1360eb44d2af7baa9357a7c4dd4952c6dd5e9d6f usb: phy: generic: Convert to device property API
-
---===============5910345016277454619==--
+--===============4960882045394505561==--
