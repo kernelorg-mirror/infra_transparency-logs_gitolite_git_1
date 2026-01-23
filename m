@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6884398383160096586=="
+Content-Type: multipart/mixed; boundary="===============7408477085464431497=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Fri, 23 Jan 2026 05:17:39 -0000
-Message-Id: <176914545958.3027629.3314181812686162401@gitolite.kernel.org>
+Date: Fri, 23 Jan 2026 05:17:41 -0000
+Message-Id: <176914546138.3027728.13780540298816906405@gitolite.kernel.org>
 
---===============6884398383160096586==
+--===============7408477085464431497==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/mm-new
-    old: dc4fe40a11269aead253fa0beb098b00417b8694
-    new: a68cbc54bd72560c3f583166170f226d6a3f29ea
-    log: revlist-dc4fe40a1126-a68cbc54bd72.txt
+  - ref: refs/heads/mm-unstable
+    old: 8c333d09b41503ace25e13ab40fbc4caed9338fc
+    new: a11ff148251716473236993a4830172ff6616613
+    log: revlist-8c333d09b415-a11ff1482517.txt
 
---===============6884398383160096586==
+--===============7408477085464431497==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-dc4fe40a1126-a68cbc54bd72.txt
+Content-Disposition: attachment; filename=revlist-8c333d09b415-a11ff1482517.txt
 
 cb326a72a9dc5dd923086fb18b4962fdf38cbf69 mm/shmem, swap: fix race of truncate and swap entry split
 29e9d3520c3deddf05ea2694cd5621af1227b990 mm/kasan: fix KASAN poisoning in vrealloc()
@@ -289,68 +289,5 @@ d860dfdcae93dc88d0e13ed3d61c9a970c49305c arm64: mm: implement the architecture-s
 1d837bb09d8aeb771727de76ae1a3ed6b1a31881 mm: rmap: skip batched unmapping for UFFD vmas
 59f733745641c9ebe0b46785739226b86de110a6 ksm: initialize the addr only once in rmap_walk_ksm
 a11ff148251716473236993a4830172ff6616613 ksm: optimize rmap_walk_ksm by passing a suitable addressrange
-98cece626e6a6d4bfa351b23ac4e683681863fe0 percpu: add basic double free check
-7ac6c4193db426d6b5c5ffde378eca1bba872442 zsmalloc: make common caches global
-ad82837069e6c657d746b95c5b9a5b00cb91d6c8 maple_tree: update mas_next[_range] docs
-04a2427eea6d0d01a68ba38dae423d45ae34692f mm/vma: rename VMA_LOCK_OFFSET to VM_REFCNT_EXCLUDE_READERS_FLAG
-deb1fb539fa00219561d884a6ce50ef1d4291832 mm/vma: document possible vma->vm_refcnt values and reference comment
-f25b780c479ada1789830ce22923a28e454b2f03 mm/vma: rename is_vma_write_only(), separate out shared refcount put
-6b8d9b99593ed227cea9d1092fcce0f18962a9ee mm/vma: add+use vma lockdep acquire/release defines
-373eb2490df2681917d3459576edc7fbcccbf598 mm/vma: de-duplicate __vma_enter_locked() error path
-c31c0f3ad4833d628b56dc991db194c4644728ba mm/vma: clean up __vma_enter/exit_locked()
-338d3cbfaa91488654023b8d633c7fe31fa26258 mm/vma: introduce helper struct + thread through exclusive lock fns
-cbe28f07f6b6b8eba925c761725e231d058de8ca mm/vma: improve and document __is_vma_write_locked()
-8a5284e439f4d9c76bd75e43390dec5bb029ccb8 mm/vma: update vma_assert_locked() to use lockdep
-b2c369566df65200d668dd1b49dfd595ac677c85 mm/vma: add and use vma_assert_stabilised()
-d72f92a2515dac9ebdbb716d06b969a45177c357 mm/vma: remove __private sparse decoration from vma_flags_t
-793d129d6575d86011f9d4545ade3aca531fd8b9 mm: rename vma_flag_test/set_atomic() to vma_test/set_atomic_flag()
-8a76cb3a632e2cf7c6287f4e9d2c2d7deef71e3a mm: add mk_vma_flags() bitmap flag macro helper
-b00a197b391c763265e71a0cde5f60f3da4beb0a tools: bitmap: add missing bitmap_[subset(), andnot()]
-85f4a585e660f4e3000bfe19917599d5c748b15e mm: add basic VMA flag operation helper functions
-39ba3b289dcc69570b2ea1f1de5bcdf025c22be6 mm: update hugetlbfs to use VMA flags on mmap_prepare
-cfe233d462475e07001f9eb650c33308b230265c mm: update secretmem to use VMA flags on mmap_prepare
-de0a3d18a45e18119ee80ffe82379f767e932e60 mm: update shmem_[kernel]_file_*() functions to use vma_flags_t
-009b88aee736e0965b24899cae1ad2e4d701a172 mm: update all remaining mmap_prepare users to use vma_flags_t
-c7f147448ecb167cf4cd295100a74da7a1677732 mm: make vm_area_desc utilise vma_flags_t only
-49156f21a197b07fb3f0b19a7650b9949b1459df tools/testing/vma: separate VMA userland tests into separate files
-1fa6f4b9ac76550e65c4b17fbe4fbe034edbe255 tools/testing/vma: separate out vma_internal.h into logical headers
-01f4b4d8abdf665e97ecf76fc60d042688aaff1f tools/testing/vma: add VMA userland tests for VMA flag functions
-35d7a936032e4cb4e6b642ab988c112eaf11b1a9 mm/pagewalk: use min() to simplify the code
-2e9dce9ff1c9b35f486ccdc6492259ce8395e9bc mm-pagewalk-use-min-to-simplify-the-code-fix
-718ce86f98baa21e182614cc3c60e8b3fde77cb1 selftests/mm: add memory failure anonymous page test
-74e7c828d073009c60a53899b5f5f5a48ae42c78 selftests/mm: add memory failure clean pagecache test
-cfee038b985696c33f5dc63213f93558b7bb7ca3 selftests/mm: add memory failure dirty pagecache test
-2f5eb03ec4ab38b0f8674c31d3b27c203dea2821 mm: zswap: use SG list decompression APIs from zsmalloc
-8ab09485c5edc91307ca6243d6c7c36acf89b8ca maple_tree: fix mas_dup_alloc() sparse warning
-9178b12255c2cbf138e9cbd66e8e299b4b4b8358 maple_tree: move mas_spanning_rebalance loop to function
-35f002a8662f61ee9ba1ba818a59e37f76d586b9 maple_tree: extract use of big node from mas_wr_spanning_store()
-6f01ab34450ac8372f9f045a7370d78df7cc3d9d maple_tree: remove unnecessary assignment of orig_l index
-265a4d7831e31194d11b2bc6b5ad079efba2559b maple_tree: inline mas_spanning_rebalance() into mas_wr_spanning_rebalance()
-dcb4f8af74b7f9a7cff4abc311cb8f38a8361ad9 maple_tree: make ma_wr_states reliable for reuse in spanning store
-b88917e0b02f86cec47fac406bf79c0f1d6d21fc maple_tree: remove l_wr_mas from mas_wr_spanning_rebalance
-88a4de4b7af6da93dcede79bf05475ce054f1cb4 maple_tree: don't pass through height in mas_wr_spanning_store
-4cb4e8d1557d21816cd5a2659798d61b1125d7b6 maple_tree: move maple_subtree_state from mas_wr_spanning_store to mas_wr_spanning_rebalance
-115f9b691895b37900321db4d791b3d544407098 maple_tree: correct right ma_wr_state end pivot in mas_wr_spanning_store()
-29e2de2a424e92f2724eb45c1e43302b88c0593a maple_tree: introduce maple_copy node and use it in mas_spanning_rebalance()
-9d18e53f534e473195a142bfd8f2a81fd8c958fb maple_tree: testing update for spanning store
-a44b6080b2e0fe5537c8321af2e80a756f86c796 maple_tree: inline mas_spanning_rebalance_loop() into mas_wr_spanning_rebalance()
-5a157d1369cc5e7bc4ed2a13da27119c58663283 maple_tree: change initial big node setup in mas_wr_spanning_rebalance()
-2f058e30169f8a782e49d10099363f0adc627fd4 maple_tree: introduce ma_leaf_max_gap()
-b1723e773138535e9eed3d5ead0435fa5fb453d5 maple_tree: add gap support, slot and pivot sizes for maple copy
-e5efc3adc8ab059b2b53c134b2c5764bb8fc1e52 maple_tree: start using maple copy node for destination
-0e81211b44120f0c079cea94664e2b03ca8281f5 maple_tree: inline mas_wr_spanning_rebalance()
-cc207839ba51ec73c859e275bbe0816f906d1175 maple_tree: remove unnecessary return statements
-cdda99c75abdec2a1e1c635a9e3ead60521e2a2e maple_tree: separate wr_split_store and wr_rebalance store type code path
-9769ee3087e9c35acfd15b5780e1dab292ec0b84 maple_tree: add cp_is_new_root() helper
-24e7d6d5216ef8fb2e78e6d8cd3481d65fc34175 maple_tree: use maple copy node for mas_wr_rebalance() operation
-d48013b74f619702e3f9fae143ceba8865a27344 maple_tree: add copy_tree_location() helper
-740537b2c61c43f663305fa9fb3a62445e4ddd06 maple_tree: add cp_converged() helper
-594895843975c67ed36843e86d83d2f3603a35c9 maple_tree: use maple copy node for mas_wr_split()
-2f72ea666ba244ecf0ccd67780af03f9a4b0ad1a maple_tree: remove maple big node and subtree structs
-9d3b13b33142feca15cd790cd914197effdd3270 maple_tree: pass maple copy node to mas_wmb_replace()
-d6d5fc89bee653f64afcf4ef52827d173b221743 maple_tree: don't pass end to mas_wr_append()
-46336cd8a634f9f170a4ac2de89adad529bdf88a maple_tree: clean up mas_wr_node_store()
-66a40c32f537c0646d52a5f60966aa16ca4cc338 kasan: remove unnecessary sync argument from start_report()
-a68cbc54bd72560c3f583166170f226d6a3f29ea hugetlb: increase hugepage reservations when using node-specific "hugepages=" cmdline
 
---===============6884398383160096586==--
+--===============7408477085464431497==--
