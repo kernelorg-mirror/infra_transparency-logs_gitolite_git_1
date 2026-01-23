@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1099113360217878169=="
+Content-Type: multipart/mixed; boundary="===============0341561422632916175=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netfilter/nf-next
-Date: Fri, 23 Jan 2026 16:27:03 -0000
-Message-Id: <176918562308.3684045.16839082987533184673@gitolite.kernel.org>
+Date: Fri, 23 Jan 2026 16:27:12 -0000
+Message-Id: <176918563249.3684343.13519626999050352888@gitolite.kernel.org>
 
---===============1099113360217878169==
+--===============0341561422632916175==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/netfilter/nf-next
 user: fwestphal
 changes:
-  - ref: refs/heads/testing
-    old: d17b52f6a63e6b90ec39acf3c188ba98ff80ae91
+  - ref: refs/heads/main
+    old: a7c708dc0d1c090ae6cf8978de2bbae594edb23c
     new: 9abf22075da98c615be2f608ec1167329a71eafd
-    log: revlist-d17b52f6a63e-9abf22075da9.txt
+    log: revlist-a7c708dc0d1c-9abf22075da9.txt
 
---===============1099113360217878169==
+--===============0341561422632916175==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d17b52f6a63e-9abf22075da9.txt
+Content-Disposition: attachment; filename=revlist-a7c708dc0d1c-9abf22075da9.txt
 
 49400b701eca849c1b53717b1f5d779a8d066ec0 dmaengine: mmp_pdma: fix DMA mask handling
 c7d436a6c1a274c1ac28d5fb3b8eb8f03b6d0e10 dmaengine: xilinx: xdma: Fix regmap max_register
@@ -526,7 +526,16 @@ e8ca461f7d19464b47c64fe4cf2f83162421bcc0 net: pcs: pcs-mtk-lynxi: report in-band
 19e4175e997a5b85eab97d522f00cc99abd1873c octeontx2-af: Fix error handling
 79f255b2e9a2f714efcd91777ccb9e4827e20006 Merge tag 'perf-tools-fixes-for-v6.19-2026-01-21' of git://git.kernel.org/pub/scm/linux/kernel/git/perf/perf-tools
 a66191c590b3b58eaff05d2277971f854772bd5b Merge tag 'hyperv-fixes-signed-20260121' of git://git.kernel.org/pub/scm/linux/kernel/git/hyperv/linux
+0b42aeb46873c0204c15ff3f11d31f3a4133776b net: dsa: yt921x: Add LAG offloading support
+11ea9b8a88dd7524c23dffc22d8173504273a9db net: bonding: use workqueue to make sure peer notify updated in lacp mode
+70fc6649b36cf22167bbd7e2a6cc0960b746316e net: bonding: move bond_should_notify_peers, e.g. into rtnl lock block
+f1986b3a9f2e281c6c784d1ece70a065f3f9545e net: bonding: skip the 2nd trylock when first one fail
+429208aab9db641e52ee2a2da3ab50fa9eacdb9f net: bonding: add the READ_ONCE/WRITE_ONCE for outside lock accessing
+b6d5a62231acd628c4a989cad562fe37958b1218 t Merge branch 'a-series-of-minor-optimizations-of-the-bonding-module'
+40cb4cb77ea26d65156f0442c846d5f7ff497839 cipso: harden use of skb_cow() in cipso_v4_skbuff_setattr()
 cc4816bdb08639e5cd9acb295a02d6f0f09736b4 net: openvswitch: fix data race in ovs_vport_get_upcall_stats
+cbe38d2e52cf1798b0838e440b3d95723a56dcc2 net: ifb: use u64_stats_t with u64_stats_sync properly
+a2ba9902e4b932537df402494b2657bd249fcf0b xen/netfront: Use u64_stats_t with u64_stats_sync properly
 ca1bb3fedf26a08ed31974131bc0064d4fe33649 net: fec: account for VLAN header in frame length calculations
 b00a7b3a612925faa7362f5c61065e3e5f393fff net: atp: drop ancient parallel-port Ethernet driver
 3ef3d52a1a9860d094395c7a3e593f3aa26ff012 vsock/virtio: fix potential underflow in virtio_transport_get_credit()
@@ -557,4 +566,4 @@ d07d7c3dd9446b47507d15fdfbb835638a2f6f50 selftests: net: Add kernel selftest for
 0b87bbf65d7d33754fd12df5984b9741e886dc69 net: phy: Grammar update for comment in genphy_update_link
 9abf22075da98c615be2f608ec1167329a71eafd Merge git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 
---===============1099113360217878169==--
+--===============0341561422632916175==--
