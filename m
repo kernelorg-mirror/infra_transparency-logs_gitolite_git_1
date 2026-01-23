@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4443269766160064906=="
+Content-Type: multipart/mixed; boundary="===============1606175092943969060=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Fri, 23 Jan 2026 16:45:42 -0000
-Message-Id: <176918674279.3701770.9937838367779744523@gitolite.kernel.org>
+Date: Fri, 23 Jan 2026 16:45:45 -0000
+Message-Id: <176918674578.3701977.7464833641425341558@gitolite.kernel.org>
 
---===============4443269766160064906==
+--===============1606175092943969060==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
+  - ref: refs/heads/10GbE
     old: 4a3dba48188208e4f66822800e042686784d29d1
     new: 108948f723b13874b7ebf6b3f1cc598a7de38622
     log: revlist-4a3dba481882-108948f723b1.txt
 
---===============4443269766160064906==
+--===============1606175092943969060==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -434,4 +434,4 @@ a66191c590b3b58eaff05d2277971f854772bd5b Merge tag 'hyperv-fixes-signed-20260121
 0a80e38d0fe1fe7b59c1e93ad908c4148a15926a Merge tag 'net-6.19-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 108948f723b13874b7ebf6b3f1cc598a7de38622 net/mlx5: Fix memory leak in esw_acl_ingress_lgcy_setup()
 
---===============4443269766160064906==--
+--===============1606175092943969060==--
