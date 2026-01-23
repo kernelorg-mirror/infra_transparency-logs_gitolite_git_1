@@ -1,19 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/trace/linux-trace
-Date: Fri, 23 Jan 2026 01:14:28 -0000
-Message-Id: <176913086812.2834265.4259130819032756656@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tglx/devel
+Date: Fri, 23 Jan 2026 01:18:14 -0000
+Message-Id: <176913109405.2838090.645873857973080864@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/trace/linux-trace
-user: rostedt
+repo: pub/scm/linux/kernel/git/tglx/devel
+user: tglx
 changes:
-  - ref: refs/heads/tools/for-next
-    old: fb8b8183208d8efe824e8d2c73fb1ab5ad1191fd
-    new: 6ea8a206108fe8b5940c2797afc54ae9f5a7bbdd
+  - ref: refs/heads/timers/clocksource
+    old: 20cbd3a60db9b092529461651973cb0ba8533758
+    new: 31cbde401e729d196c576f16536441053dd9b7d0
     log: |
-         6ea8a206108fe8b5940c2797afc54ae9f5a7bbdd rtla: Fix parse_cpu_set() bug introduced by strtoi()
+         807bc29d5997a6b3738c6f970afc60d85e9c41fc parisc: Remove unused clocksource flags
+         a68027b159fe5d3a7baef8ebd7a646104aa87ca0 MIPS: Dont select CLOCKSOURCE_WATCHDOG
+         092322574f09062909f620232e48f780eae8568e x86/tsc: Handle CLOCK_SOURCE_VALID_FOR_HRES correctly
+         38382a16c6bbe609186f591035ab0e4b9de6a0ba clocksource: Dont use non-continuous clocksources as watchdog
+         31cbde401e729d196c576f16536441053dd9b7d0 clocksource: Rewrite watchdog code completely
          
