@@ -1,19 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
-Date: Fri, 23 Jan 2026 00:45:44 -0000
-Message-Id: <176912914419.2807247.17464678398133117187@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
+Date: Fri, 23 Jan 2026 00:56:53 -0000
+Message-Id: <176912981300.2816508.15685543181289907261@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/25-new
-user: akpm
+repo: pub/scm/linux/kernel/git/acme/linux
+user: acme
 changes:
-  - ref: refs/heads/master
-    old: 62405a85273b70c6adcd92117fd63e2de7584cba
-    new: 208a6a84685f4c877eab486c40523c1e02b695d2
+  - ref: refs/heads/perf-tools-next
+    old: d40c68a49f69c9bdb4ca14b3e6a0422bbaeb5d8f
+    new: 800af362d68945e589f73cda429d04bfe4287feb
     log: |
-         208a6a84685f4c877eab486c40523c1e02b695d2 foo
+         c3030995f23b3d35f94b9bc4375706ec5916fd55 perf sched stats: Add record and rawdump support
+         55657d7ac8caa98c7c0ef241bf64e176db899b4d perf sched stats: Add schedstat v16 support
+         805da27252a290984782abfdb313a78e7c157369 perf sched stats: Add schedstat v17 support
+         5a357ae6ad63fd101a4f20d081f8893b51cc0790 perf sched stats: Add support for report subcommand
+         00093b3133984ffe80697b5d2e7f204983660dd9 perf sched stats: Add support for live mode
+         064790a3d4a89536d00a61d7a02de67ad319bdc5 perf sched stats: Add support for diff subcommand
+         c6b1f5707509c2718832a8f79e1d1510c85bcc75 perf sched stats: Add basic 'perf sched stats' test
+         800af362d68945e589f73cda429d04bfe4287feb perf sched stats: Add details in man page
          
