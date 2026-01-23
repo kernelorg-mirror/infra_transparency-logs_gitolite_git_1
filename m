@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2451548048538330758=="
+Content-Type: multipart/mixed; boundary="===============4147179097238736456=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
-Date: Fri, 23 Jan 2026 11:55:26 -0000
-Message-Id: <176916932640.3464002.13460190102082319304@gitolite.kernel.org>
+Date: Fri, 23 Jan 2026 11:55:38 -0000
+Message-Id: <176916933845.3464293.11326248815943279610@gitolite.kernel.org>
 
---===============2451548048538330758==
+--===============4147179097238736456==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,19 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/peterz/queue
 user: peterz
 changes:
-  - ref: refs/heads/sched/hrtick
-    old: ea5f1954ddc8ff435121aa7c24bedf7c1c6730d2
-    new: 7dc44123591791d4edf5a6731300c8df768dda7f
-    log: revlist-ea5f1954ddc8-7dc441235917.txt
+  - ref: refs/heads/sched/flat
+    old: eaad49852269b521e02cff73adc8b8a432fda88e
+    new: 9721ff9bcfc12a3aeacd62cee13af006734fcbca
+    log: revlist-eaad49852269-9721ff9bcfc1.txt
 
---===============2451548048538330758==
+--===============4147179097238736456==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ea5f1954ddc8-7dc441235917.txt
+Content-Disposition: attachment; filename=revlist-eaad49852269-9721ff9bcfc1.txt
 
-0b2b27058692d437b12d3f2a3bf0fa699af7376e net: dsa: b53: allow VID 0 for BCM5325/65
-8d92057c4a9bb14683c9f87f2f26b97564d72b2f Merge branch 'net-dsa-b53-fix-arl-accesses-for-bcm5325-65-and-allow-vid-0'
 596c696301b1bcb9e482e22a4f7f582858eefbcc Revert "r8169: add DASH support for RTL8127AP"
 e1de33c377b685298da406bb4838bd9814194f96 net/mlx5e: Use u64 instead of __u64 in ieee_setmaxrate
 e1098bb02f2d9a85a127aecad6378e4f159acce5 net/mlx5e: Rename upper_limit_mbps to upper_limit_100mbps
@@ -1050,5 +1048,7 @@ bb332a9e5a057d2cb9b90e307b26cce9b1f6f660 selftests/rseq: Add rseq slice histogra
 06d77f86cf2c3d2c2e9e972118b9bb7fa400ae79 hrtimer: Re-arrange hrtimer_interrupt()
 4f30602a68f52156ade6b2ee2638537caba0f7bb entry,hrtimer: Push reprogramming timers into the interrupt return path
 7dc44123591791d4edf5a6731300c8df768dda7f sched: Default enable HRTICK
+aea3c803f4eee1324383f14226aee33d14d08d3f sched/fair: Increase weight bits for avg_vruntime
+9721ff9bcfc12a3aeacd62cee13af006734fcbca sched/fair: Add newidle balance to pick_task_fair()
 
---===============2451548048538330758==--
+--===============4147179097238736456==--
