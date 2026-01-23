@@ -1,23 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tglx/devel
-Date: Fri, 23 Jan 2026 23:02:55 -0000
-Message-Id: <176920937503.4011822.10590183677018976279@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/cxl/cxl
+Date: Fri, 23 Jan 2026 23:03:54 -0000
+Message-Id: <176920943496.4012430.4701147342427246703@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tglx/devel
-user: tglx
+repo: pub/scm/linux/kernel/git/cxl/cxl
+user: djiang
 changes:
-  - ref: refs/heads/timers/clocksource
-    old: d5d1d01dc3c929b6db58521aeb52b1296606565f
-    new: b0d625cda6d12b60b10a0018c784fe42be4a9604
+  - ref: refs/heads/next
+    old: 914c743509d56067eeeb2b5e341a44a68ef8377d
+    new: 3f7938b1aec7f06d5b23adca83e4542fcf027001
     log: |
-         22bd21d343436a0a4adefca324093a9a1299fb3c parisc: Remove unused clocksource flags
-         197cd57e151ddc8d6a7549392ca27d850f7489ba MIPS: Don't select CLOCKSOURCE_WATCHDOG
-         49600d43307b405ae0fa89b4a1a67e17055500fa x86/tsc: Handle CLOCK_SOURCE_VALID_FOR_HRES correctly
-         a34929a6905fd2b3b1e8947e76c1b3b9d7a9c547 clocksource: Don't use non-continuous clocksources as watchdog
-         b0d625cda6d12b60b10a0018c784fe42be4a9604 clocksource: Rewrite watchdog code completely
+         10016118b6fade907143a32a7aeaa777063dc79c cxl/mem: Fix devm_cxl_memdev_edac_release() confusion
+         1f1cb7f0c25574cf51501f8c8cece0047d7e8848 cxl/mem: Arrange for always-synchronous memdev attach
+         ae201a0092362ffdec7206efa1ec85e260fab8d2 cxl/port: Arrange for always synchronous endpoint attach
+         6e1d21903ff213f1384ce43daa279c0965904116 cxl/mem: Convert devm_cxl_add_memdev() to scope-based-cleanup
+         f2546eba53bbe38c4bb950f78625ccf4b1a2cbc8 cxl/mem: Drop @host argument to devm_cxl_add_memdev()
+         29317f8dc6ed601ec54575689c2cd55cc470bcce cxl/mem: Introduce cxl_memdev_attach for CXL-dependent operation
+         bc62f5b308cbdedf29132fe96e9d591e526527e1 dax/hmem, e820, resource: Defer Soft Reserved insertion until hmem is ready
+         3f7938b1aec7f06d5b23adca83e4542fcf027001 Merge branch 'for-7.0/cxl-init' into cxl-for-next
          
