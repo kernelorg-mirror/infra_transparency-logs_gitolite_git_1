@@ -1,20 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Fri, 23 Jan 2026 22:40:29 -0000
-Message-Id: <176920802971.3995267.10143330106744760473@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Fri, 23 Jan 2026 23:00:07 -0000
+Message-Id: <176920920778.4010616.3404788625793960096@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
-user: broonie
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
-  - ref: refs/heads/selftests-mm-run-suites-separately
-    old: 3de54e645795c77d45997d82282bac3fef111fd3
-    new: 89a1993cf639acac361625350687ced8c1f0fa12
+  - ref: refs/heads/master
+    old: 3a622041d78bb0737cc9dd507ead099b66abdda2
+    new: 62085877ae6592be830c2267e35dc469cb706308
     log: |
-         dab5fbc4f6c764584633512b3f13d79fc3818fc9 EDITME: cover title for selftests-mm-run-suites-separately
-         89a1993cf639acac361625350687ced8c1f0fa12 selftests/mm: Have the harness run each test category separately
+         946d462346d2ded161cfd3dc62a61d7050d9f9ec kbuild: prefer ${NM} in check-function-names.sh
+         baaecfcac559bcac73206df447eb5c385fa22f2a kconfig: fix static linking of nconf
+         62085877ae6592be830c2267e35dc469cb706308 Merge tag 'kbuild-fixes-6.19-2' of git://git.kernel.org/pub/scm/linux/kernel/git/kbuild/linux
          
