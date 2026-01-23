@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/firmware/linux-firmware
-Date: Fri, 23 Jan 2026 19:30:09 -0000
-Message-Id: <176919660944.3842466.1465924801688067003@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/zohar/linux-integrity
+Date: Fri, 23 Jan 2026 19:32:31 -0000
+Message-Id: <176919675145.3843551.11282397454881231196@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/firmware/linux-firmware
-user: jwboyer
+repo: pub/scm/linux/kernel/git/zohar/linux-integrity
+user: zohar
 changes:
-  - ref: refs/heads/main
-    old: f1d0a487b846544b2b6913b8251b36bc5a9d4f97
-    new: 0882248d05045565bfefe1f07cbfc22276c9f058
+  - ref: refs/heads/next-integrity
+    old: 46c23f2ac831e0d20dc3a30e4dc345f69a931318
+    new: 0496fc9cdc384f67be4413b1c6156eb64fccd5c4
     log: |
-         ff3470eca79b782c603d0d4e19b5304b63fa1594 intel/ish: Add Lenovo ISH firmware support for X1 and X9 systems
-         0882248d05045565bfefe1f07cbfc22276c9f058 Merge branch 'lenovo-ish-uspstream-clean' into 'main'
+         0496fc9cdc384f67be4413b1c6156eb64fccd5c4 evm: Use ordered xattrs list to calculate HMAC in evm_init_hmac()
          
