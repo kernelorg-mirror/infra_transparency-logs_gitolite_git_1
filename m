@@ -1,19 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/zohar/linux-integrity
-Date: Fri, 23 Jan 2026 19:18:07 -0000
-Message-Id: <176919588770.3831533.7282543162818455602@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Fri, 23 Jan 2026 19:23:42 -0000
+Message-Id: <176919622299.3835793.13063583974486143805@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/zohar/linux-integrity
-user: zohar
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: ast
 changes:
-  - ref: refs/heads/next-integrity
-    old: 377cae9851e8559e9d8b82a78c1ac0abeb18839c
-    new: 46c23f2ac831e0d20dc3a30e4dc345f69a931318
+  - ref: refs/heads/master
+    old: 82f3b142c99cf44c7b1e70b7720169c646b9760f
+    new: c99225b1bd63483eed157b4e54f923547bf72209
     log: |
-         46c23f2ac831e0d20dc3a30e4dc345f69a931318 evm: Use ordered xattrs list to calculate HMAC in evm_init_hmac()
+         af46ae41da7c8cd269362c0b69881db109298411 bpf, verifier: Support direct helper calls from prologue/epilogue
+         5c2106d441689ccbc28519ffe135e798e5667d20 bpf: net_sched: Use direct helper calls instead of kfuncs in pro/epilogue
+         d3ddc749df28243b2da1b4097b7379687f6f5ae2 selftests/bpf: Remove tests for prologue/epilogue with kfuncs
+         68d23a660c4f18aa5f0bb489a59a2912332bcc1a bpf: Remove kfunc support in prologue and epilogue
+         c99225b1bd63483eed157b4e54f923547bf72209 Merge branch 'switch-from-kfuncs-to-direct-helper-calls-in-prologue-epilogue'
          
