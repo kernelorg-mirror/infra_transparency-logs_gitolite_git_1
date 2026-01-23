@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8120290237441242642=="
+Content-Type: multipart/mixed; boundary="===============6893336706535649166=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Fri, 23 Jan 2026 17:07:02 -0000
-Message-Id: <176918802266.3719699.1643100595413216043@gitolite.kernel.org>
+Date: Fri, 23 Jan 2026 17:07:05 -0000
+Message-Id: <176918802577.3719986.5241370695802629255@gitolite.kernel.org>
 
---===============8120290237441242642==
+--===============6893336706535649166==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/10GbE
+  - ref: refs/heads/40GbE
     old: b00a7b3a612925faa7362f5c61065e3e5f393fff
     new: 9abf22075da98c615be2f608ec1167329a71eafd
     log: revlist-b00a7b3a6129-9abf22075da9.txt
 
---===============8120290237441242642==
+--===============6893336706535649166==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -556,4 +556,4 @@ d07d7c3dd9446b47507d15fdfbb835638a2f6f50 selftests: net: Add kernel selftest for
 0b87bbf65d7d33754fd12df5984b9741e886dc69 net: phy: Grammar update for comment in genphy_update_link
 9abf22075da98c615be2f608ec1167329a71eafd Merge git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 
---===============8120290237441242642==--
+--===============6893336706535649166==--
