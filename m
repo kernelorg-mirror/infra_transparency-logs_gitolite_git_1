@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0287530599154872986=="
+Content-Type: multipart/mixed; boundary="===============6280947379120984573=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Fri, 23 Jan 2026 08:01:54 -0000
-Message-Id: <176915531462.3154403.14998144440176274451@gitolite.kernel.org>
+Date: Fri, 23 Jan 2026 08:02:20 -0000
+Message-Id: <176915534001.3154757.8533525130680769191@gitolite.kernel.org>
 
---===============0287530599154872986==
+--===============6280947379120984573==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,15 +16,51 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: 8da4162e60c82a658038f7940e1ad2fd0c137690
-    new: a94d87a7373fd1b42a53d77837ac1999f19f782f
-    log: revlist-8da4162e60c8-a94d87a7373f.txt
+    old: a94d87a7373fd1b42a53d77837ac1999f19f782f
+    new: 6b1b635914f8f7b1b2d2f48887156de30ebed373
+    log: revlist-a94d87a7373f-6b1b635914f8.txt
+  - ref: refs/heads/tip/urgent
+    old: d581b3573b8db1fb2f3bd49f6633e94765628390
+    new: 117947562d5ba5587524bda204b99693325a8805
+    log: revlist-d581b3573b8d-117947562d5b.txt
 
---===============0287530599154872986==
+--===============6280947379120984573==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8da4162e60c8-a94d87a7373f.txt
+Content-Disposition: attachment; filename=revlist-a94d87a7373f-6b1b635914f8.txt
+
+9245b631cb2c9513ede7f1fbe3531e040ea5d548 Merge branch into tip/master: 'irq/urgent'
+be1e6c5392240b4c2040abaa774ca24ec7f350e8 Merge branch into tip/master: 'objtool/urgent'
+f19390c300aa3ba1dc08ef0a6e6e2247d17e3bf6 Merge branch into tip/master: 'perf/urgent'
+81704e02e34e38b78c6df9ecdae7564e87047641 Merge branch into tip/master: 'sched/urgent'
+117947562d5ba5587524bda204b99693325a8805 Merge branch into tip/master: 'timers/urgent'
+7a13d665730428425541fb3c253fe7108ebf82de Merge branch into tip/master: 'irq/core'
+b71f066694a525668d88b8804f65c480c6c32666 Merge branch into tip/master: 'irq/drivers'
+1270f9e49eff00952517f3b0b5738ca5eefd1af1 Merge branch into tip/master: 'irq/msi'
+468156ca05cfa031b236e72c6fbebabb91231ff6 Merge branch into tip/master: 'locking/core'
+cc7a824fd3fd38f3da5c4f46b923ecad56aef3bc Merge branch into tip/master: 'perf/core'
+0fd90434bf5a1ee308cbd186ad739ea412d65de5 Merge branch into tip/master: 'sched/core'
+c4e9c2c01986d6027ca3930e26facf67edee48c4 Merge branch into tip/master: 'timers/core'
+1c908bf15f839836ed9aab73e8a028d7d774d712 Merge branch into tip/master: 'timers/vdso'
+5f522a420426aeb87a2d78a22e36e56b1847d81c Merge branch into tip/master: 'x86/alternatives'
+cc8351b66f44cea3433719966d5911450b65dcc8 Merge branch into tip/master: 'x86/boot'
+ea3cd3a7b49351d65f2729690602e6adce42a1bd Merge branch into tip/master: 'x86/bugs'
+220ad5a107a362ca9a26b173262539d88b0daa2a Merge branch into tip/master: 'x86/cache'
+f76f595afc0e9782c29786360cd51e9eeb2788b5 Merge branch into tip/master: 'x86/cleanups'
+7d3e53d8df3fbcf750a434017d7d0da3b35549bb Merge branch into tip/master: 'x86/cpu'
+5698942ed16414b1e9df97fd2cf5c868f10b5d76 Merge branch into tip/master: 'x86/entry'
+d3c55104cc4567793a3565235450b789250f5b7b Merge branch into tip/master: 'x86/irq'
+78bca0877c8970f9b3468514fa81dfd47c80ca9d Merge branch into tip/master: 'x86/microcode'
+d15c1b0d0787b0d06243e905b26d0c89460f97e1 Merge branch into tip/master: 'x86/misc'
+3d8a85eac83b485cc9981d4dbde11c2418febe69 Merge branch into tip/master: 'x86/paravirt'
+6b1b635914f8f7b1b2d2f48887156de30ebed373 Merge branch into tip/master: 'x86/sev'
+
+--===============6280947379120984573==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-d581b3573b8d-117947562d5b.txt
 
 9282a1e171ad8d2205067e8ec3bbe4e3cef4f29f wifi: ath10k: fix dma_free_coherent() pointer
 bb97131fbf9b708dd9616ac2bdc793ad102b5c48 wifi: ath12k: fix dma_free_coherent() pointer
@@ -140,6 +176,10 @@ f3ddbaaaaf4d0633b40482f471753f9c71294a4a dpll: Prevent duplicate registrations
 0a80e38d0fe1fe7b59c1e93ad908c4148a15926a Merge tag 'net-6.19-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 614da1d3d4cdbd6e41aea06bc97ec15aacff6daf x86: make page fault handling disable interrupts properly
 c072629f05d7bca1148ab17690d7922a31423984 Merge tag 'v6.19-p4' of git://git.kernel.org/pub/scm/linux/kernel/git/herbert/crypto-2.6
-a94d87a7373fd1b42a53d77837ac1999f19f782f Merge branch 'linus'
+9245b631cb2c9513ede7f1fbe3531e040ea5d548 Merge branch into tip/master: 'irq/urgent'
+be1e6c5392240b4c2040abaa774ca24ec7f350e8 Merge branch into tip/master: 'objtool/urgent'
+f19390c300aa3ba1dc08ef0a6e6e2247d17e3bf6 Merge branch into tip/master: 'perf/urgent'
+81704e02e34e38b78c6df9ecdae7564e87047641 Merge branch into tip/master: 'sched/urgent'
+117947562d5ba5587524bda204b99693325a8805 Merge branch into tip/master: 'timers/urgent'
 
---===============0287530599154872986==--
+--===============6280947379120984573==--
