@@ -1,61 +1,55 @@
-Content-Type: multipart/mixed; boundary="===============3908261772192945578=="
+Content-Type: multipart/mixed; boundary="===============6058478269974994023=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/chao/linux
-Date: Fri, 23 Jan 2026 07:36:43 -0000
-Message-Id: <176915380344.3135311.8915111017692064164@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Fri, 23 Jan 2026 08:00:58 -0000
+Message-Id: <176915525850.3153865.1864794331528953851@gitolite.kernel.org>
 
---===============3908261772192945578==
+--===============6058478269974994023==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/chao/linux
-user: chao
+repo: pub/scm/linux/kernel/git/tip/tip
+user: mingo
 changes:
-  - ref: refs/heads/feature/lock_trace
-    old: 8b4ba091519eacf89ed0c2f2e3bff90c30d7f4a1
-    new: f6ad6b23500acc9003fdb5384a73502488902057
-    log: revlist-8b4ba091519e-f6ad6b23500a.txt
+  - ref: refs/heads/master
+    old: 586df58d0b10523fe114b1591ea381c1aac345df
+    new: 8da4162e60c82a658038f7940e1ad2fd0c137690
+    log: revlist-586df58d0b10-8da4162e60c8.txt
 
---===============3908261772192945578==
+--===============6058478269974994023==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8b4ba091519e-f6ad6b23500a.txt
+Content-Disposition: attachment; filename=revlist-586df58d0b10-8da4162e60c8.txt
 
-3996b70209f145bfcf2afc7d05dd92c27b233b48 Revert "f2fs: block cache/dio write during f2fs_enable_checkpoint()"
-ce2739e482bce8d2c014d76c4531c877f382aa54 f2fs: fix to avoid UAF in f2fs_write_end_io()
-1dd3b437d49ce09f0bd72acc1d694e212f26d1fe f2fs: make FAULT_DISCARD obsolete
-e48e16f3e37fac76e2f0c14c58df2b0398a323b0 f2fs: support non-4KB block size without packed_ssa feature
-f7b929eda1f1c28ec80ab613cb23410d84755591 f2fs: clean up the type parameter in f2fs_sync_meta_pages()
-0a736109c9d29de0c26567e42cb99b27861aa8ba f2fs: fix to do sanity check on node footer in __write_node_folio()
-50ac3ecd8e05b6bcc350c71a4307d40c030ec7e4 f2fs: fix to do sanity check on node footer in {read,write}_end_io
-93ffb6c28ff180560d2d7313ac106efcd9e012b8 f2fs: detect more inconsistent cases in sanity_check_node_footer()
-540d34c18272d124ef3113b7dbe499304ce0023c f2fs: avoid unnecessary block mapping lookups in f2fs_read_data_large_folio
-6afd05ca6d45b834af36c8e1257e7203b2604583 f2fs: add 'folio_in_bio' to handle readahead folios with no BIO submission
-d194f112a9e6504ea23bd4a7b350c089fae9defd f2fs: advance index and offset after zeroing in large folio read
-fe2961fb77e4784261976ca887135b1aecd8a9f1 f2fs: avoid f2fs_map_blocks() for consecutive holes in readpages
-5c145c03188bc9ba1c29e0bc4d527a5978fc47f9 f2fs: fix to avoid mapping wrong physical block for swapfile
-ec8bb999dc0c5d64a3366ce8765a479305a82029 f2fs: use folio_end_read
-fe15bc3d447c5ee61dbea41c9e9a11fa2968d32d f2fs: fix error path handling in f2fs_read_data_large_folio()
-a5d8b9d94e1863f3ebb7182c238b2c713f6f4efd f2fs: fix to unlock folio in f2fs_read_data_large_folio()
-993663874be557a80d4cdc9700b760bb6d27c098 Revert "f2fs: add timeout in f2fs_enable_checkpoint()"
-254ef6c7e1afa071a1edd42b27f05242dfd1c7f5 f2fs: check skipped write in f2fs_enable_checkpoint()
-a848dbd9795747a30e3f4ee0f9f5d2f393afee0b f2fs: introduce FAULT_SKIP_WRITE
-9af7dbef989058f676150f005aa193c34d22e68c f2fs: fix to show simulate_lock_timeout correctly
-9612a422483046dda8cf3976543ab638f2650291 f2fs: pin files do not require sbi->writepages lock for ordering
-10f96e94b38d5aaa719557b83c25874875308fc2 f2fs: add write latency stats for NAT and SIT blocks in f2fs_write_checkpoint
-b760e753aa1ac372839f7ad32101a8c5434d9943 f2fs: change size parameter of __has_cursum_space() to unsigned int
-e501cda410c88e79590c2048463cccc8a8409cb5 f2fs: optimize NAT block loading during checkpoint write
-6ca0ae2d1e3271ca995e87f942dcecc1bb4712eb f2fs: decrease maximum flush retry count in f2fs_enable_checkpoint()
-c604f206c5f6bb4fef7468f46d89ae21c9b39648 f2fs: uplift priority of f2fs_ckpt thread
-44a240c6f91a0735f104142652358e8726cff694 f2fs: uplift priority of f2fs_gc thread
-d0d38c5d3ef923c4ec38ab30018174a716f81714 f2fs: fix lock priority inversion issue
-59e11fcfeed39143e94478b813399373cb66095b f2fs: introduce trace_f2fs_priority_update
-eeea07f77842d1748c5f978d5215866701f1fa55 f2fs: sysfs introduce adjust_lock_priority
-f6ad6b23500acc9003fdb5384a73502488902057 f2fs: sysfs: introduce critical_task_nice
+5b1592b3da0c69552862290522c34d67ea2997e8 Merge branch into tip/master: 'irq/urgent'
+2bc5542a422d46bcfce1ab7484f271e9f6b5e10b Merge branch into tip/master: 'objtool/urgent'
+ecac0e43e3fcf0d3bee39837903c08719f0939c0 Merge branch into tip/master: 'perf/urgent'
+8d6d1ba53dbc78778c40b87313e9978fbfa46c22 Merge branch into tip/master: 'sched/urgent'
+9dc909a103818cb92afcf1dd0ba38ceea09ad8f6 Merge branch into tip/master: 'timers/urgent'
+5ff3131ac0e1c95eabf0103e2986619d28fde3f0 Merge branch into tip/master: 'irq/core'
+bd3af091b9f7e16f571982d8ca16121ad8741c15 Merge branch into tip/master: 'irq/drivers'
+c7ad5b9f3ed1eb2a21fad36643f6705aa20e7213 Merge branch into tip/master: 'irq/msi'
+a8cd2dbda2b2a41ea89625bd3344884c5f56c6d0 Merge branch into tip/master: 'locking/core'
+40867adc713050676ec79dcbaca72e171a00cc92 Merge branch into tip/master: 'perf/core'
+a63e504b76f6b2e6ac25cc1eceee7af24ffa9a3f Merge branch into tip/master: 'sched/core'
+089489333248c73df1a5a36d47a49a3c322b495e Merge branch into tip/master: 'timers/core'
+b064dc28569d2210e25bc3c95cae45fcb24d12db Merge branch into tip/master: 'timers/vdso'
+51bb4d264764927a964bd7a653e5693ced0860ec Merge branch into tip/master: 'x86/alternatives'
+ff3ad7a62e823f613d7a303ecfac31995a61d633 Merge branch into tip/master: 'x86/boot'
+d55369e853a2969a91f2b73d374d9cc33c6dfe10 Merge branch into tip/master: 'x86/bugs'
+5e0af3a0dda9cc3ae96cad7aed55e0b73b9ced47 Merge branch into tip/master: 'x86/cache'
+b3b7ec97b5412897f3e2c6ac68df5c0b928b77d5 Merge branch into tip/master: 'x86/cleanups'
+e329592ba614573479d052a59c9fb63bd7d72310 Merge branch into tip/master: 'x86/cpu'
+c9ca71e67f42f7288c96f879ff26e3f780433103 Merge branch into tip/master: 'x86/entry'
+ed0270c1fcd9419236683cf39ee7f8c86e537507 Merge branch into tip/master: 'x86/irq'
+274794dfa88cf8beb246a3c762831abc3890c289 Merge branch into tip/master: 'x86/microcode'
+c5a63cd7609eefce50717f3cc1a3ec6ceee1a320 Merge branch into tip/master: 'x86/misc'
+d0efd1653b5421542bf33822dc429feb4f7ae3dc Merge branch into tip/master: 'x86/paravirt'
+8da4162e60c82a658038f7940e1ad2fd0c137690 Merge branch into tip/master: 'x86/sev'
 
---===============3908261772192945578==--
+--===============6058478269974994023==--
