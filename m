@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============8275598943546068888=="
+Content-Type: multipart/mixed; boundary="===============8339126518839213636=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
-Date: Fri, 23 Jan 2026 19:59:40 -0000
-Message-Id: <176919838035.3864882.11296843612931962638@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
+Date: Fri, 23 Jan 2026 20:00:18 -0000
+Message-Id: <176919841809.3867623.768807261465327326@gitolite.kernel.org>
 
---===============8275598943546068888==
+--===============8339126518839213636==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/perf/perf-tools-next
+repo: pub/scm/linux/kernel/git/acme/linux
 user: acme
 changes:
   - ref: refs/heads/perf-tools-next
@@ -20,7 +20,7 @@ changes:
     new: 3d06db9bad1ad8e67c3981964cfba224c07fc306
     log: revlist-800af362d689-3d06db9bad1a.txt
 
---===============8275598943546068888==
+--===============8339126518839213636==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -43,4 +43,4 @@ c5e47e4d00fbc15f2390bb6ed8d9c21836363291 perf tests sched: Avoid error in cleanu
 f0d98c78f8bf73ce2a9b7793f66cda240fa9ab10 perf annotate: Fix memcpy size in arch__grow_instructions()
 3d06db9bad1ad8e67c3981964cfba224c07fc306 perf regs: Refactor use of arch__sample_reg_masks() to perf_reg_name()
 
---===============8275598943546068888==--
+--===============8339126518839213636==--
