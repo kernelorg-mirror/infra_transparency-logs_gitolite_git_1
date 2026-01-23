@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1239193806953614263=="
+Content-Type: multipart/mixed; boundary="===============6579083321038348692=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs
-Date: Fri, 23 Jan 2026 12:03:05 -0000
-Message-Id: <176916978542.3469685.1504271444689269659@gitolite.kernel.org>
+Date: Fri, 23 Jan 2026 12:03:20 -0000
+Message-Id: <176916980071.3470047.17373470573946921322@gitolite.kernel.org>
 
---===============1239193806953614263==
+--===============6579083321038348692==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/xiang/erofs
 user: xiang
 changes:
-  - ref: refs/heads/dev-test
+  - ref: refs/heads/dev
     old: 58d081ea4eab924b9e5a55cbb151bde847068c8d
     new: d86d7817c042dd651d47b1873f4b6eaefbedd890
     log: revlist-58d081ea4eab-d86d7817c042.txt
 
---===============1239193806953614263==
+--===============6579083321038348692==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -41,4 +41,4 @@ e77762e8966c9466a84b22680ad04880dab11914 erofs: using domain_id in the safer way
 9364b55a4dbf1ae9a8cb077cb8b7d0c7401d00fc erofs: support compressed inodes for page cache share
 d86d7817c042dd651d47b1873f4b6eaefbedd890 erofs: implement .fadvise for page cache share
 
---===============1239193806953614263==--
+--===============6579083321038348692==--
