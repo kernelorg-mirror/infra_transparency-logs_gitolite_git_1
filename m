@@ -1,24 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/sysdarch
-Date: Sat, 24 Jan 2026 09:35:36 -0000
-Message-Id: <176924733642.317797.13632525271507816525@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/at91/linux
+Date: Sat, 24 Jan 2026 09:36:50 -0000
+Message-Id: <176924741072.318676.18006708381751658726@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/sysdarch
-user: jarkko
+repo: pub/scm/linux/kernel/git/at91/linux
+user: claudiu.beznea
 changes:
-  - ref: refs/heads/main
-    old: b0e1890c01156ad2d8f97d35c40eb59a6a9b451b
-    new: 796091d81db40513aa4a93e4c5a4e43ee47234ae
-    log: |
-         794e160321e52957ec584c45cc67b9cf496b50c5 ssh: Add QEMU configuration
-         d6c57f2e96beff50ed13d917cc77b5349ecbbfae install: Add SPDX identifier
-         8d7eedba3aaab21cde91b717262e8752e7892ba4 install: Change interpreter to bash
-         a7c09faafe46800d10366783da2a780121d33971 install: Streamline dependency check
-         85251863411f969c344504b41824c5ad90cf40bd install: Add new dependencies
-         796091d81db40513aa4a93e4c5a4e43ee47234ae install: Install yay
-         
+  - ref: refs/tags/at91-dt-6.20
+    old: 0000000000000000000000000000000000000000
+    new: 0c8217301fd070204a4d852a0b4f7e667b792570
+  - ref: refs/tags/at91-soc-6.20
+    old: 0000000000000000000000000000000000000000
+    new: fd189f851927858b10738e6a236da1dec162a47c
+  - ref: refs/tags/clk-microchip-6.20
+    old: 0000000000000000000000000000000000000000
+    new: 72b97dac3e8e7742b7c2276c6372ff99f21c504d
