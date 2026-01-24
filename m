@@ -1,60 +1,53 @@
-Content-Type: multipart/mixed; boundary="===============7009145832687803000=="
+Content-Type: multipart/mixed; boundary="===============4576657187523235275=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Sat, 24 Jan 2026 11:59:23 -0000
-Message-Id: <176925596354.427917.4430770871472755369@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
+Date: Sat, 24 Jan 2026 11:59:53 -0000
+Message-Id: <176925599314.428258.427204104390914690@gitolite.kernel.org>
 
---===============7009145832687803000==
+--===============4576657187523235275==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/tty
+repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/tty-next
-    old: 0e19f73ffde187458fadfff60eb4771bff704296
-    new: d000422a46aad32217cf1be747eb61d641baae2f
-    log: |
-         b64da5b16ab3c5dcc6e95180891d1c10eda83ffd serial: 8250: omap: set out-of-band wakeup if wakeup pinctrl exists
-         b05bebaa60e4e58f36631f41a73716edd8c56d3e dt-bindings: serial: renesas,scif: Document RZ/G3L SoC
-         1250ebacd4cc59ede613f95e16aba309f364c0f6 serial: 8250_omap: Remove custom deprecated baud setting routine
-         3f0716c604e81d8440b16d0d8f5420c4a6f3c17a serial: 8250_pci: Remove custom deprecated baud setting routine
-         d000422a46aad32217cf1be747eb61d641baae2f tty: tty_port: add workqueue to flip TTY buffer
-         
+  - ref: refs/heads/usb-testing
+    old: 72fe00b71067e141908153dda66bc0cebe3094ea
+    new: 8acc379b664ec987dcc7eca25a5f5c4a9a4eb9c4
 
---===============7009145832687803000==
+--===============4576657187523235275==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1769255962 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1769255962-b93c9f6ad14c2d2be36680dfbdd167ca3d2b63e7
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1769255990 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
+nonce 1769255989-4e514b07701406b24f4c5eea753d785961268be1
 
-0e19f73ffde187458fadfff60eb4771bff704296 d000422a46aad32217cf1be747eb61d641baae2f refs/heads/tty-next
+72fe00b71067e141908153dda66bc0cebe3094ea 8acc379b664ec987dcc7eca25a5f5c4a9a4eb9c4 refs/heads/usb-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAml0tBobHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+KpwQANJEeKg5MWYG7XtgqO54
-ombgd3AEUG6yPQ+/hdx0hYfimICQZA5CD5tcxjL1dHNPegDfQQ5yjCVCaLkg9oKU
-ioQu0cKivcWOy83FQQVDdj6RFvpbyxDb3bb3lNYlYNu8bDj+Qf+3j3gUPJEHnhH/
-50yjAa/IAr2e158ZPGvGAn2a9goT6l+ig1kc7+JMJxRUuzyMnuf/71NBJHOz0oeV
-b5oURNkLf7BApm+6kdnvWCFNuGN8tVAvjZUI6HaAVmBB4ZN/Dy3r/NWBcC1HxSqh
-17DjolBEYhuKbAWDHdx9cfToAYtEE0kIx5EqwcAWzlXviejA14Tro07cXckwlQtF
-xFe3WdplEFR9NAWo8pyvOa4ojyzsxl90pSoRy40XdIN7KPnNreaLPB/C/aptMzge
-6dVwuLYGCgFhLRkcNvpZelXVNl1HsaL2ogQfzfV/vHynaSFVraybpc7/vcayN/uN
-qO6q/h82uplmX/e5YqDsAwzgAPGxLPS//rggdU1MKfPNfHp+mmG90vq5shw/xFpH
-2rpBBRIsgzhGVQv5c+MCjeRebt6Pis+pgcIUGd9v85Fqq5droyTyUIjKUQAYNkr3
-fvdnKsCvr5yMeu/Rg7JaHewzPEplEtWjaRnTFeB2eLJYBPSIDSsDvRquRB9yAtJE
-csoGZQ2Zs1/NK9cdzfyjH1Nn
-=tKcG
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAml0tDYbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+G5oQAL/SAbB0LZxENtAPDncw
+r5oDjQkBa9mKmZWICle/2inxFUhDf1rFlgevFYAFOK+H1RLysFYQDm1KvWWb88/j
+5GH8+p3slJWoyDh5FcQVmcyz0fQDgT+qgaqF1qga4CSCsCdEqSuGnhoYQaBI/Ani
+XsoZ58N2eFEzZCLSViYxRXHyKwOJcvGvFYnIn/1AXl+GcoM+1d/qa4BlpJhy948z
+DWY7lebHpaVVx5dINwB8hltubE/jWNV6oICj3ugayz3orPJ4iTr9yMZQ9UxA/D8d
+gXgr2RCDV42dpqwL69J/F5Sh/hgmI67jlYjomVOvTl9z9D+1w/oyuHEGvgjDDwtc
+rfWCiRApc9c4ZP5nvITkOL1Tz7FneHku+nP6q2E0tIrm6Jbz7bN1a+H7wQeffsMP
+NKCQgLvggR1vCNCmwFpifVmc3NgpZBVcosnecnUp1Qt7uy0EeU2w+5M7lfAWTros
+szGyYZFNYyRqV3v8tyICRarmlKHleIdvYE709Uo6cbYq7cpDtMUYPyDgXhrxne4N
+tR9lG45Fy6+L7Gj82ocUvr2bd+i8vJQzEGiRqSJsVcUe/O48l7UBOOMrGzaAaqix
+VDc3x+SEFAPfc30z3wWHS6kdKZFsBKF0yoxAtbEp44p+wHOTTNBjVz1wRBpNB7AS
+T3rl8vi+nuFxjiwnF40LueQq
+=1qt4
 -----END PGP SIGNATURE-----
 
---===============7009145832687803000==--
+--===============4576657187523235275==--
