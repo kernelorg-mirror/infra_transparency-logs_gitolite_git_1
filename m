@@ -1,65 +1,60 @@
-Content-Type: multipart/mixed; boundary="===============5713812362860400762=="
+Content-Type: multipart/mixed; boundary="===============7009145832687803000=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Sat, 24 Jan 2026 11:58:53 -0000
-Message-Id: <176925593337.427528.4216434780214599267@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
+Date: Sat, 24 Jan 2026 11:59:23 -0000
+Message-Id: <176925596354.427917.4430770871472755369@gitolite.kernel.org>
 
---===============5713812362860400762==
+--===============7009145832687803000==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/char-misc
+repo: pub/scm/linux/kernel/git/gregkh/tty
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/char-misc-next
-    old: 4f423d896f13e989deff8b655c81232759920dcf
-    new: ec833566da57811d9fa3f11745e7153d9155ad66
+  - ref: refs/heads/tty-next
+    old: 0e19f73ffde187458fadfff60eb4771bff704296
+    new: d000422a46aad32217cf1be747eb61d641baae2f
     log: |
-         5abb6c7aca41d827320113b6865f56d2038a4f2c dt-bindings: spmi: Add MediaTek MT8196 SPMI 2 Arbiter/Controllers
-         078117963b2c678921c86f2485b0d5baf5b86131 spmi: mtk-pmif: Add multi-bus support for SPMI 2.0
-         63cbabb003ba314be113700ca58ec320b6ce2b33 spmi: mtk-pmif: Keep spinlock until read is fully done
-         ab1b3469fc284ad8c7b28f881329448786bdc252 spmi: mtk-pmif: Implement Request Capable Slave (RCS) interrupt
-         1f5be2d7f743e5ffc6317af50276ca5508ddb5ec spmi: mtk-pmif: Add support for MT8196 SPMI Controller
-         6c54b0a801dd8227237ba0bf0728bb42681cf027 spmi: apple: Add "apple,t8103-spmi" compatible
-         e9ae440c97e8f68cd7ce1dde47c04a36d8792bf0 dt-bindings: spmi: split out common QCOM SPMI PMIC arbiter properties
-         0914498171b9a0acc742cd4289134c418eabf095 dt-bindings: spmi: add support for glymur-spmi-pmic-arb (arbiter v8)
-         815be38ad8c8503cec8b2c0c632e975692ab42e1 spmi: spmi-pmic-arb: add support for PMIC arbiter v8
-         ec833566da57811d9fa3f11745e7153d9155ad66 dt-bindings: spmi: spmi-mtk-pmif: Add compatible for MT8189 SoC
+         b64da5b16ab3c5dcc6e95180891d1c10eda83ffd serial: 8250: omap: set out-of-band wakeup if wakeup pinctrl exists
+         b05bebaa60e4e58f36631f41a73716edd8c56d3e dt-bindings: serial: renesas,scif: Document RZ/G3L SoC
+         1250ebacd4cc59ede613f95e16aba309f364c0f6 serial: 8250_omap: Remove custom deprecated baud setting routine
+         3f0716c604e81d8440b16d0d8f5420c4a6f3c17a serial: 8250_pci: Remove custom deprecated baud setting routine
+         d000422a46aad32217cf1be747eb61d641baae2f tty: tty_port: add workqueue to flip TTY buffer
          
 
---===============5713812362860400762==
+--===============7009145832687803000==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1769255932 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1769255932-1d441599fefc0dac223aebea3b575b52ca9366a6
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1769255962 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
+nonce 1769255962-b93c9f6ad14c2d2be36680dfbdd167ca3d2b63e7
 
-4f423d896f13e989deff8b655c81232759920dcf ec833566da57811d9fa3f11745e7153d9155ad66 refs/heads/char-misc-next
+0e19f73ffde187458fadfff60eb4771bff704296 d000422a46aad32217cf1be747eb61d641baae2f refs/heads/tty-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAml0s/wbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+f7wP/iPSbjycuLT7NDn5SdOV
-JJYtEUAr3CKJPMyDBpYaOfGpEciJdVpaoagabzuwdE7g+SE3b7r7hyJW0WcNFs84
-780bbCEzXO7FjPu0c4OsBkm5+WEz8rCPiAO+bTqD15KWbERizYYj/FjQtxZE/7D1
-q3eihdWZIG/wdA1XPnqfQ60Nrhk+uCkj6IbMjvw0nSlesPbzUz3pY2rU1eIuWTdI
-rIioYAC0uyrdj0UfIGpKdVOFdhfUN0ysnjY7k34TvYYk2qrdO5ptofVt13zaZSD/
-VZIE9oF3EuBAaDayKQZbZECWh6HD1ypeDB6Sezrfs5Bf3PEp/+S1v91Odseh6nte
-QPmSlaT0/PNkmIxMO62VojpCRkCo5dS1p7lvexHGcUFQ9kYjMjpvoTdzNcvIDMB4
-LSICdyjM7s9VD+i7yvPxrj4J/WqsUfhN9yze1z5gXawrK0PtnWqHSgYMcRQqSZFQ
-dnpkA223ifWtXCWPr0BjKsZMS/jHMCC3Of4NrdqmfM2FqSrwOlMwVoV11Np2xyHU
-9vs6zJxOuap3OqJZDuFTROLXrFfSrAr77nTfm0IMVAFdRyQPYPXBy3isQ5Y394MR
-bTXac/Q6iTqxiSrC5P2Nd9/4Jr3Ej16XMKw4WLrYk+v8POQGFv57yRnV7s/c7l2M
-PsQglD3pg8sjs17gl7Damojf
-=FWzy
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAml0tBobHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+KpwQANJEeKg5MWYG7XtgqO54
+ombgd3AEUG6yPQ+/hdx0hYfimICQZA5CD5tcxjL1dHNPegDfQQ5yjCVCaLkg9oKU
+ioQu0cKivcWOy83FQQVDdj6RFvpbyxDb3bb3lNYlYNu8bDj+Qf+3j3gUPJEHnhH/
+50yjAa/IAr2e158ZPGvGAn2a9goT6l+ig1kc7+JMJxRUuzyMnuf/71NBJHOz0oeV
+b5oURNkLf7BApm+6kdnvWCFNuGN8tVAvjZUI6HaAVmBB4ZN/Dy3r/NWBcC1HxSqh
+17DjolBEYhuKbAWDHdx9cfToAYtEE0kIx5EqwcAWzlXviejA14Tro07cXckwlQtF
+xFe3WdplEFR9NAWo8pyvOa4ojyzsxl90pSoRy40XdIN7KPnNreaLPB/C/aptMzge
+6dVwuLYGCgFhLRkcNvpZelXVNl1HsaL2ogQfzfV/vHynaSFVraybpc7/vcayN/uN
+qO6q/h82uplmX/e5YqDsAwzgAPGxLPS//rggdU1MKfPNfHp+mmG90vq5shw/xFpH
+2rpBBRIsgzhGVQv5c+MCjeRebt6Pis+pgcIUGd9v85Fqq5droyTyUIjKUQAYNkr3
+fvdnKsCvr5yMeu/Rg7JaHewzPEplEtWjaRnTFeB2eLJYBPSIDSsDvRquRB9yAtJE
+csoGZQ2Zs1/NK9cdzfyjH1Nn
+=tKcG
 -----END PGP SIGNATURE-----
 
---===============5713812362860400762==--
+--===============7009145832687803000==--
