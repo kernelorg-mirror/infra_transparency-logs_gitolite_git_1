@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8407573750742251667=="
+Content-Type: multipart/mixed; boundary="===============3628420131387954937=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Sat, 24 Jan 2026 03:49:15 -0000
-Message-Id: <176922655523.43676.12157542577338427317@gitolite.kernel.org>
+Date: Sat, 24 Jan 2026 03:49:19 -0000
+Message-Id: <176922655963.43896.11396101495272027594@gitolite.kernel.org>
 
---===============8407573750742251667==
+--===============3628420131387954937==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,9 +16,9 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-queue
-    old: 66b3a72b87b7bae070c0400515f88a325fb876e7
-    new: 2128411a397cc516c17cf5aa739cd41e33457c74
+  - ref: refs/heads/6.20/scsi-queue
+    old: ee8112a2e0f96d7a125c6ad3a7851e0d598c28a8
+    new: a9e03ec01ef2633288fd1b506980f54ae41c5a85
     log: |
          07959ef517b853e834eadd0647d3860252af8f99 scsi: ufs: exynos: Call phy_notify_state() from hibern8 callbacks
          695df7ea6099aadc11fac8d510e4b7c5839508e3 scsi: ufs: core: Handle sentinel value for dHIDAvailableSize
@@ -30,33 +30,33 @@ changes:
          a9e03ec01ef2633288fd1b506980f54ae41c5a85 Merge patch series "Clean up the SCSI disk driver source code"
          
 
---===============8407573750742251667==
+--===============3628420131387954937==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1769226535 -0500
+pusher 75C5DE3D 1769226558 -0500
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1769226535-bcdbece180f322f8a5875204d26866301d74700c
+nonce 1769226557-915414398045ae7947060dcdda4d6d1a46fec462
 
-66b3a72b87b7bae070c0400515f88a325fb876e7 2128411a397cc516c17cf5aa739cd41e33457c74 refs/tags/mkp-scsi-queue
+ee8112a2e0f96d7a125c6ad3a7851e0d598c28a8 a9e03ec01ef2633288fd1b506980f54ae41c5a85 refs/heads/6.20/scsi-queue
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAml0QScACgkQ7ulgGnXF
-3j3b1Q//ZFgxgjFbIaD9KnxVDVW9BX6Jn3Q7DNcvpKRRVqeWHyq4BMAUCxhZlqrd
-vorEG5KpOoydljvc3uD6NOxhCaLHJ6ISfmFL24MfkEQRtYy4sZMxcrlhx9vfPxFO
-Kg6CX1Oel16QPnEfw/9AMIJ4LScCy01uNz/6sHChb8PCrssi4wEO9t51/65sOvMi
-Z+ioFEX6olPcLU2Vkj7SlUzeHUjXd0iup1kkTTsEzDQlj7d2iQlM9l3PbG9KykCy
-IdCba1szXii/FK+GQF1g4at3JaoTTQZTBRMBM85rR9jCFbeWzUO529mrxxFTom2H
-9fIiwsEUmrPsGPXF1sBGAlEEOQNv3D/C2VWVMh9fr3KItyK3Zhh8j4acPM1V0c+V
-yk756JgWlW/pGu800k07Nqb+rh7//eX3sSKiI6b5VkPwsX8LmFPNUMK3lVkLpMiM
-M/DqF1XRbqP88j/zUSIh6TiHiyi9hLIuY92vYvN1NsfKmjCqolZzJRVMPwnGY61S
-rdpo4EiHP0KuBShtLDwXSOVG4Saqbl/RXpyrlXr/nOO5ZF5pJ+Oj/zfMyAMA+Ypn
-uAnFksTMGb/vxiALLb+ygK4tLzL1zc3J09bwYgKZ57ds8NaAxXBV0nvC14u+6/f3
-AwVYTluko/2BOzUBvdvir899fAOD810oO2JzrYn2YIE8d1Q6ZOM=
-=JxJU
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAml0QT4ACgkQ7ulgGnXF
+3j1ISg/+LCejrTMC2jdNofwbnaW17vLQEr4tFgvJEPTH19Lho5J9crxj+LMvPNdm
+usmOfP1Tp8/TVsVOatMLtsSG9goIzbNmuJDB7SuFMHWdTH9HsZ43ixIbuy+ZYktE
+NUgmPKBvPt4S8IUterFC5mGL/edkqaR4uBhd1dDGOybjIkh7bhCPnvcocgVHFaZI
+99ZZW+mM5Y1O7RrEiIbSic0ZMQlhcf+UPdyYNfpur6F2ZPSH+3rieONJ32EYTDpp
+bmNLqzCamztbsbxzyh4yo6iNoBHBQZpFCsZJjWhhdHoNQ5CkD8Qr+ltBqYCcce3e
+17hImr9LHYz9OfSRLEFBTvs7N64lrFZk8EmAJKngBAyw1p7jt1uqGrV+p9mCJC5j
+hzsD9B6e6AGHQ/8foIWCfNp5vHEfc3WuOCMKybtV3CPyBVE9dYftFe9wVDACGDMk
+At+ZpwHRzXIiz3gMlMnxvXjazQXGAVI8ZwNwaGh+rfRY6KXmapcK98urds/4BVA6
+6fSMz8VQgS44/NNumW/aifVZT397hCGrG9xkAR25IsRH6bsxQqPzixefsDeTLHQ3
+rLQlvQy/Q1YFI+vgjVU9nPUaDMpsRFNNm/VYRUjyPiyPhF+DyFrjAN0TZoxVm/pj
+ahO48J1Jzs5F0PkZKhgwdJV/CKxepj/TMjnNm6ToCH1aW1uAy34=
+=eqqN
 -----END PGP SIGNATURE-----
 
---===============8407573750742251667==--
+--===============3628420131387954937==--
