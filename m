@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4564029111809123021=="
+Content-Type: multipart/mixed; boundary="===============8862252837432670688=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Sat, 24 Jan 2026 03:49:24 -0000
-Message-Id: <176922656410.44033.1010903854256686056@gitolite.kernel.org>
+Date: Sat, 24 Jan 2026 03:49:48 -0000
+Message-Id: <176922658869.44405.9709642751664205915@gitolite.kernel.org>
 
---===============4564029111809123021==
+--===============8862252837432670688==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,47 +16,69 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/queue
-    old: ee8112a2e0f96d7a125c6ad3a7851e0d598c28a8
-    new: a9e03ec01ef2633288fd1b506980f54ae41c5a85
-    log: |
-         07959ef517b853e834eadd0647d3860252af8f99 scsi: ufs: exynos: Call phy_notify_state() from hibern8 callbacks
-         695df7ea6099aadc11fac8d510e4b7c5839508e3 scsi: ufs: core: Handle sentinel value for dHIDAvailableSize
-         4f39a4870a59971797be86fed72423b83b6b4e00 scsi: sd: Move the sd_remove() function definition
-         c0daf4836114fcbdf64bf817cab00b75ce712945 scsi: sd: Move the sd_config_discard() function definition
-         3899cff5056f417071c74371a4a9744225823a40 scsi: sd: Move the scsi_disk_release() function definition
-         6e07e5333cc3154e042a5e7de073459765616fa7 scsi: sd: Move the sd_fops definition
-         cb429866a8259705e4dec104585bfba517f2ebc2 scsi: sd: Do not split error messages
-         a9e03ec01ef2633288fd1b506980f54ae41c5a85 Merge patch series "Clean up the SCSI disk driver source code"
-         
+  - ref: refs/tags/mkp-scsi-staging
+    old: 74a798c3eda5efefd0ba069abe7db2f4705b13e3
+    new: 80a7437387fcada785136f942c67727bd17b84d7
+    log: revlist-74a798c3eda5-80a7437387fc.txt
 
---===============4564029111809123021==
+--===============8862252837432670688==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1769226562 -0500
+pusher 75C5DE3D 1769226568 -0500
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1769226562-5d4c76deec3994f591b5042d2f267065ea093807
+nonce 1769226567-8523e5ab2fd4c1301158733bc1a005cbd4285b51
 
-ee8112a2e0f96d7a125c6ad3a7851e0d598c28a8 a9e03ec01ef2633288fd1b506980f54ae41c5a85 refs/heads/queue
+74a798c3eda5efefd0ba069abe7db2f4705b13e3 80a7437387fcada785136f942c67727bd17b84d7 refs/tags/mkp-scsi-staging
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAml0QUIACgkQ7ulgGnXF
-3j3hyhAAgW3CI4viVGyZryMugaNm+MUPqkpYc/kTSFV8/bGRDA748jWgbmHbe0Zx
-1ysTOuPKTdFVDrqW7STULX9q3eOhqx5ZYizJ2oegLwTFDSnhhpUdDz2OF1Dg/feE
-vG4+uAanuMJCkW40aFUHzKG10zTBqEuDa3yIl4qUeiSe8j3NisTVoN5v2pmWkA36
-mdNka1U0qPs13o2OJJ/BWAnefi0mkXgnuwRIJitZe5cslbdpvRUgDiTyNcdBaSf0
-x7X9uYWqQSsF0WGhK+P6Gu3yWNR0A685ACzS7OF0f525LnwVWo1te3DeySbb1Tam
-m68z08lbSD2fRva8qTheR095g1bWfzCHyOS6fHAf5Kk2e0ddUKCItMvxz7Brkprm
-7Tse7OdQxLqGdTwSNMREKwXBQeEhglyJ18IZxlavikz38rS/qFCDauwDdZeWKXw6
-u/R8P5FoGE0dYsiRKyEkxdnfdILLr5mygkhP9RMJQuajdFctjUZirrpEpibxy8+N
-tuPyVc8rtwhdKeOOEO8VmLHa7uigzWjymklJa/HwOLExmHkuLh16bWvq1rUWwG67
-PfJXI1ZtT5NstzSF6YkOF2jRdXTav4iIkBtTxmFMgObaAkgDp7xu2ftNiMhNDZLb
-3CmNS60C04bZj6ql3n9jaDCTlhxNpgfIMVBz8c1WkrSUP7D0hYI=
-=1s30
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAml0QUgACgkQ7ulgGnXF
+3j3mKg//bkliTR3SxWZ/4SZd7XJYtsfXk/Irm8/oUHK7EdrLszAplX5+LCLW3avt
+VxZVVKaploBGFuxc3mn0L7D8ysZ0qUwASEl9v/l6M1vtt38ukCI3QNgQpGAZTvP2
+1nKOrCykCygIPbcrjvZi0+e6/AehGzN7t/RzC+UaNX8XjkHZLvDPuAZKmBMO22lT
+OmfZg9dmswEW/yGuyWccSFHS41GfU/w/Fpb3mGfBMvZi4qJppXzHQu+ycs/fX/Aq
+qT17Q1Xya6peISJvRhUHI38gfPDeYmwP3TbPChsLpK2cvZs0MkvLgn2SOlrFqpjs
+XUCLbtA0D11sZp5wyAnYOe54mTL10gWnRmdZ1u3UKblfvUM4u3ZhpMCsGUhG2nEf
+CJ7KqlLuUcYREbdPwI/PMkPgyZ1HM45PuRAjN6g1IAwC6RFQ/K8+ge7ifbJvlvdY
+lJBiDzV8m0HOCNXtOxVr6pRJ+eUx7cCduxjSxFDuxW6J2r/MnG9GcRSKBDzvxDi8
+xQsZsQBXGM4rChhD0Ruzr6SYlSsIF0H813f95c9dUaNWmtIKCQq92m/XxFUjn1zA
+hJ5zIOyhc1F5/9YuF6jb/3D+jZqfReMV+Nn+trHYDMr2sZZZhVr/iJr3m2Hjanx2
+5GkoPFid6NDz4XhmXcHqcrN18TfqzFpFgnV+Qg1XLNPcAXARUOs=
+=xkmm
 -----END PGP SIGNATURE-----
 
---===============4564029111809123021==--
+--===============8862252837432670688==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-74a798c3eda5-80a7437387fc.txt
+
+1bf0febfb2621d30c36af05f0f5e47e01a8bf060 scsi: aha152x: Return SCSI_MLQUEUE_HOST_BUSY instead of 0x2003
+a9fe8cab1283f55dbe1dd8b176e70992623e4dc2 scsi: megaraid: Return SCSI_MLQUEUE_HOST_BUSY instead of 1
+a784911099b1602db1074377dd2ac9c76296b5e3 scsi: megaraid_sas: Return SCSI_MLQUEUE_HOST_BUSY instead of 1
+5612404d026d349278e6eb3b1ee55bd60b38ae3c scsi: qla2xxx: Declare qla2xxx_mqueuecommand() static
+0db3f51839fe703173966f34a4327e3a0c7cc089 scsi: Change the return type of the .queuecommand() callback
+92da3818aaf6dd9c49ef8fdc39c024c76b52cba8 Merge patch series "Change the return type of the .queuecommand() callback"
+7f386b05f994fc08d4e73c0c91b76ab47da36250 scsi: MAINTAINERS: Broaden UFS Qualcomm binding file pattern
+e2725ed2a7fb5f5f468020a52bd9ffc54caa7c8c scsi: ufs: dt-bindings: Document bindings for SA8255P UFS Host Controller
+26c06d0baeb7999e44cf6717fc12d58a359eba99 scsi: ufs: core: Enforce minimum PM level for sysfs configuration
+ad44cf1b2845303285fec8bb25a02d0d0f103a82 scsi: ufs: ufs-qcom: Add support for firmware-managed resource abstraction
+15df721f6297224a14bafde390146413be0d6942 Merge patch series "ufs: ufs-qcom: Add support firmware managed platforms"
+24de8b1d243b86678e92f7d0fd9d9a2954728b97 scsi: mpi3mr: Add module parameter to control threaded IRQ polling
+d0d19250ed81907eac707be8221eb31e5b96b647 scsi: mpi3mr: Rename log data save helper to reflect threaded/BH context
+7a67d9262288f40ceec1de9d2def8368ea44134b scsi: mpi3mr: Avoid redundant diag-fault resets
+c273c14b0294f11ce45afc4da2e8f91ab3f07270 scsi: mpi3mr: Use negotiated link rate from DevicePage0
+d0654335d90053f0573db293b60a93d855748f83 scsi: mpi3mr: Update MPI Headers to revision 39
+ec54b348f274fdd2bd32bbe74de6d62ae1a10a18 scsi: mpi3mr: Record and report controller firmware faults
+8612d94348f4209b71917b771f24c0013aed6a29 scsi: mpi3mr: Fixed the W=1 compilation warning
+943e9049e84a8ff379534ed8945a929cec722a5a scsi: mpi3mr: Driver version update to 8.17.0.3.50
+d24e091dff06d49c1873bbd5818b204202cc118f Merge patch series "mpi3mr: Enhancements for mpi3mr"
+267345b6d1dc3467c5d57d6bbe833107baa00dbc scsi: qla4xxx: Add WQ_PERCPU to alloc_workqueue() users
+e4c7c844fae0ebfae6e84ae0dab135306ba4da1b scsi: qla2xxx: Add WQ_PERCPU to alloc_workqueue() users
+e6b42979ea61370a2046bacee63e6ec0ac033280 scsi: qla2xxx: target: Add WQ_PERCPU to alloc_workqueue() users
+a48ca06cf343423faa01c573aeafba9fa5f92577 Merge patch series "Add WQ_PERCPU to alloc_workqueue() users"
+
+--===============8862252837432670688==--
