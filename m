@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1385581632555483033=="
+Content-Type: multipart/mixed; boundary="===============3281579601060022047=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/virt/kvm/kvm
-Date: Sat, 24 Jan 2026 07:44:53 -0000
-Message-Id: <176924069360.228846.11303577792513680792@gitolite.kernel.org>
+Date: Sat, 24 Jan 2026 07:45:17 -0000
+Message-Id: <176924071733.231408.3239929658864839661@gitolite.kernel.org>
 
---===============1385581632555483033==
+--===============3281579601060022047==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/virt/kvm/kvm
 user: bonzini
 changes:
-  - ref: refs/heads/master
-    old: 3611ca7c12b740e250d83f8bbe3554b740c503b0
-    new: e89f0e9a0a007e8c3afb8ecd739c0b3255422b00
-    log: revlist-3611ca7c12b7-e89f0e9a0a00.txt
+  - ref: refs/tags/for-linus
+    old: 6416aeb8097377bfbc63b358f47f23bfe96d4380
+    new: 570f70c5c3aee74132c61fd9a50efecbc44b6b63
+    log: revlist-6416aeb80973-570f70c5c3ae.txt
 
---===============1385581632555483033==
+--===============3281579601060022047==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3611ca7c12b7-e89f0e9a0a00.txt
+Content-Disposition: attachment; filename=revlist-6416aeb80973-570f70c5c3ae.txt
 
 3d5221af9c7711b7aec8da1298c8fc393ef6183d xfrm: Fix inner mode lookup in tunnel mode GSO segmentation
 49400b701eca849c1b53717b1f5d779a8d066ec0 dmaengine: mmp_pdma: fix DMA mask handling
@@ -910,4 +910,4 @@ f8907398a6d941b204b90b6a40eecfdfd7d00c44 Merge tag 'ext4_for_linus-6.19-rc6' of 
 24d479d26b25bce5faea3ddd9fa8f3a6c3129ea7 Linux 6.19-rc6
 e89f0e9a0a007e8c3afb8ecd739c0b3255422b00 Merge tag 'kvmarm-fixes-6.19-1' of https://git.kernel.org/pub/scm/linux/kernel/git/kvmarm/kvmarm into HEAD
 
---===============1385581632555483033==--
+--===============3281579601060022047==--
