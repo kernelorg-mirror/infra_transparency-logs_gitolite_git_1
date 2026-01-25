@@ -1,24 +1,27 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Sun, 25 Jan 2026 17:53:12 -0000
-Message-Id: <176936359256.1838556.1913142513409762766@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+Date: Sun, 25 Jan 2026 18:04:48 -0000
+Message-Id: <176936428814.1846829.9708973814156228769@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+user: jarkko
 changes:
-  - ref: refs/heads/master
-    old: d91a46d6805af41e7f2286e0fc22d498f45a682b
-    new: 913fb068e259079bf9564c9e84ff9e65c37dcac7
+  - ref: refs/heads/queue
+    old: 7b2311efa7ed4901268274ad97d0cd0537ddd5bf
+    new: 565a833dbcddc7290c6798e34fd6e83d5fd6b6ce
     log: |
-         e351836a54e3b0b4483f896abcd6a0dc71097693 i2c: spacemit: drop IRQF_ONESHOT flag from IRQ request
-         e6e09d34118477fa3cb4dcea330ba2f6c5bdaf4d Merge tag 'i2c-host-fixes-6.19-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/andi.shyti/linux into i2c/for-current
-         2934325f56150ad8dab8ab92cbe2997242831396 Input: i8042 - add quirk for ASUS Zenbook UX425QA_UM425QA
-         19a5d9ba6208e9006a2a9d5962aea4d6e427d8ab Input: i8042 - add quirks for MECHREVO Wujie 15X Pro
-         c1a5135e60f1a026f135c6b0964cc8f4e1c4a8bb Merge tag 'input-for-v6.19-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/dtor/input
-         913fb068e259079bf9564c9e84ff9e65c37dcac7 Merge tag 'i2c-for-6.19-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
+         62914cea999a3a9ec0417d0f8d82210c84ca1974 tpm: Change tpm_get_random() opportunistic
+         2c2e3cf9b799a076669f1e0fc7456c280a61f167 tpm2-sessions: Define TPM2_NAME_MAX_SIZE
+         7c1538a983f179dbfd9827cda1c97790d17434a6 KEYS: trusted: Open code tpm2_buf_append()
+         0bb426fd6e8266c84b48fe05daf53edcc96ec91d KEYS: trusted: Remove dead branch from tpm2_unseal_cmd
+         e192dc198a56f3f391cdff95ebeb7561be4a93f2 KEYS: trusted: Re-orchestrate tpm2_read_public() calls
+         7de26b4f7d770d7acd265344aebc2b753b62a433 tpm2-sessions: Remove the support for more than one authorization
+         f0042cc0ed8905822c16b4fef86bd77f596e5fa4 tpm-buf: Remove tpm_buf_append_handle
+         c2506ed4e8332fd0ff89198969cd98950e28c64b tpm-buf: Merge TPM_BUF_BOUNDARY_ERROR and TPM_BUF_OVERFLOW
+         565a833dbcddc7290c6798e34fd6e83d5fd6b6ce tpm-buf: Implement managed allocations
          
