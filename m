@@ -1,44 +1,47 @@
-Content-Type: multipart/mixed; boundary="===============5376845342991615905=="
+Content-Type: multipart/mixed; boundary="===============8488449722692306249=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Sun, 25 Jan 2026 02:58:43 -0000
-Message-Id: <176930992300.1109076.6664678997444165045@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Sun, 25 Jan 2026 02:58:55 -0000
+Message-Id: <176930993566.1109371.13688895582127102349@gitolite.kernel.org>
 
---===============5376845342991615905==
+--===============8488449722692306249==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: ast
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
-  - ref: refs/heads/for-next
-    old: c7900f225a102219f5fe2c1c93a7dec5467315ee
-    new: c390adfda2440e4a907ecedae03ff392511bcf95
-    log: revlist-c7900f225a10-c390adfda244.txt
+  - ref: refs/heads/master
+    old: 5dbeeb268b63ea2d9795b3e5e8ffb48c236f5bb0
+    new: d91a46d6805af41e7f2286e0fc22d498f45a682b
+    log: revlist-5dbeeb268b63-d91a46d6805a.txt
 
---===============5376845342991615905==
+--===============8488449722692306249==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c7900f225a10-c390adfda244.txt
+Content-Disposition: attachment; filename=revlist-5dbeeb268b63-d91a46d6805a.txt
 
-2d419c44658f75e7655794341a95c0687830f3df bpf: add fsession support
-f1b56b3cbdb2d2a51d8ea91008eddf4d1d9f277b bpf: use the least significant byte for the nr_args in trampoline
-8fe4dc4f6456b3d2c9e6f8aeb1f978b7bff0f6c8 bpf: change prototype of bpf_session_{cookie,is_return}
-27d89baa6da8e5e546585c53a959176d1302d46e bpf: support fsession for bpf_session_is_return
-eeee4239dbb155a98f8ba737324ac081acde8417 bpf: support fsession for bpf_session_cookie
-37c7ba1b39c493229d1b3c1f6ab466a23362e21e bpf,x86: introduce emit_store_stack_imm64() for trampoline
-98770bd4e6df50db81cbdf5876f8836baefa3005 bpf,x86: add fsession support for x86_64
-257c43688b143fd9805cdfef9d2623dde92989e6 libbpf: add fsession support
-85fc4be6d811372f8f9a2a131a092735418fdbf2 bpftool: add fsession support
-f7afef5617b685c3491db3593ca09abc33815774 selftests/bpf: add testcases for fsession
-a5533a6eaa5b602fe54e53d85f787e09eab4e771 selftests/bpf: test bpf_get_func_* for fsession
-8909b3fb23e245f8ade903dfcfcc43522cf28a56 selftests/bpf: add testcases for fsession cookie
-cb4bfacfb0110aa1b10ab60c64a3df0e176998c5 selftests/bpf: test fsession mixed with fentry and fexit
-c390adfda2440e4a907ecedae03ff392511bcf95 Merge branch 'bpf-fsession-support'
+69132c2d4c11858fa43edeb19a911eab625567f9 Documentation: riscv: uabi: Clarify ISA spec version for canonical order
+eaa9bb1d39d59e7c17b06cec12622b7c586ab629 riscv: clocksource: Fix stimecmp update hazard on RV32
+75870639bf5d1c447ddba4d738ff72771a69f2a1 riscv: kvm: Fix vstimecmp update hazard on RV32
+344c5281f43851b22c7cc223fd0250c143fcbc79 riscv: suspend: Fix stimecmp update hazard on RV32
+521cadb4b69e7b19cba3d926f3b3dbf0015bd8f5 riscv: ERRATA_STARFIVE_JH7100: Fix missing dependency on new CONFIG_CACHEMAINT_FOR_DMA
+8fdc61faa730e1213e925b8b2ea488d03e3510ac soc: renesas: Fix missing dependency on new CONFIG_CACHEMAINT_FOR_DMA
+bdce162f2e57a969803e5e9375999a3e0546905f riscv: Use 64-bit variable for output in __get_user_asm
+2ccb5e8dbcd2dedf13e0270165ac48bd79b7f673 ntb: transport: Fix uninitialized mutex
+841e47d56cef9b96fd2314220e3d0f1d92c719f4 riscv: Add intermediate cast to 'unsigned long' in __get_user_asm
+90f9f5d64cae4e72defd96a2a22760173cb3c9ec tracing: Fix crash on synthetic stacktrace field usage
+00f13e28a9c3acd40f0551cde7e9d2d1a41585bf tracing: Avoid possible signed 64-bit truncation
+c9703d17d2c86eda38fe4917ca70c27ec9dbe162 function_graph: Fix args pointer mismatch in print_graph_retval()
+361eb853c655288f3b5c8020f6cd95d69ffe6479 scripts/tracepoint-update: Fix memory leak in add_string() on failure
+102606402f4f5943266160e263c450fdfe4dd981 Documentation: Project continuity
+b83a8ff87a0c10c1d86eb7f96e14009d91fae024 Merge tag 'trace-v6.19-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
+d04ed417d20a79c111a7d8fef005ae9fe1e73b38 Merge tag 'ntb-6.19-bugfixes' of https://github.com/jonmason/ntb
+d91a46d6805af41e7f2286e0fc22d498f45a682b Merge tag 'riscv-for-linus-6.19-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/riscv/linux
 
---===============5376845342991615905==--
+--===============8488449722692306249==--
