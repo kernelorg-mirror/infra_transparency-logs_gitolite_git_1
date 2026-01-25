@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Sun, 25 Jan 2026 18:07:40 -0000
-Message-Id: <176936446049.1850860.13620937426569378764@gitolite.kernel.org>
+Date: Sun, 25 Jan 2026 18:08:22 -0000
+Message-Id: <176936450268.1851329.6027974507411766272@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,15 +12,13 @@ repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
 user: jarkko
 changes:
   - ref: refs/heads/queue
-    old: 565a833dbcddc7290c6798e34fd6e83d5fd6b6ce
-    new: fe90546c3960348a17dbea193344bffd8cd5f401
+    old: fe90546c3960348a17dbea193344bffd8cd5f401
+    new: d421378261fe78048b3531afa0cd65374fe1870b
     log: |
-         d5331723917eae102619dbc75e51118d92c6f091 tpm2-sessions: Define TPM2_NAME_MAX_SIZE
-         bead44754a63f1f3284a271da8317eddf395498b KEYS: trusted: Open code tpm2_buf_append()
-         d8fb07f4d612d9116e00660e818ac70e7534bfbe KEYS: trusted: Remove dead branch from tpm2_unseal_cmd
-         80f2f751e346619f343554dd009b0ab12b539a54 KEYS: trusted: Re-orchestrate tpm2_read_public() calls
-         bf325ca5119022eb75fd5468128a28bdd15b862c tpm2-sessions: Remove the support for more than one authorization
-         33512f2d4cb8b13eb3a6398b869561e4e9fd9dc0 tpm-buf: Remove tpm_buf_append_handle
-         db62f0204e26055a116abc3d27a00a173a563f0c tpm-buf: Merge TPM_BUF_BOUNDARY_ERROR and TPM_BUF_OVERFLOW
-         fe90546c3960348a17dbea193344bffd8cd5f401 tpm-buf: Implement managed allocations
+         47e1fcbd4cfe3383efbb31c2d9f81731a851eae9 KEYS: trusted: Remove dead branch from tpm2_unseal_cmd
+         7895041508233a23dcafae8f37403cb9456b1756 KEYS: trusted: Re-orchestrate tpm2_read_public() calls
+         67a0e52127ec9057ddcb47bca6cd267f2a3d20a7 tpm2-sessions: Remove the support for more than one authorization
+         cde39668b2a308742660e8d8937182acb80d54ca tpm-buf: Remove tpm_buf_append_handle
+         55a06e9e6a5c671b7f0bb5a123687f85b62b36ab tpm-buf: Merge TPM_BUF_BOUNDARY_ERROR and TPM_BUF_OVERFLOW
+         d421378261fe78048b3531afa0cd65374fe1870b tpm-buf: Implement managed allocations
          
