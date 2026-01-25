@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3421710933248271458=="
+Content-Type: multipart/mixed; boundary="===============5376845342991615905=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Sun, 25 Jan 2026 02:58:36 -0000
-Message-Id: <176930991653.1108816.18357237707734171165@gitolite.kernel.org>
+Date: Sun, 25 Jan 2026 02:58:43 -0000
+Message-Id: <176930992300.1109076.6664678997444165045@gitolite.kernel.org>
 
---===============3421710933248271458==
+--===============5376845342991615905==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: ast
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/for-next
     old: c7900f225a102219f5fe2c1c93a7dec5467315ee
     new: c390adfda2440e4a907ecedae03ff392511bcf95
     log: revlist-c7900f225a10-c390adfda244.txt
 
---===============3421710933248271458==
+--===============5376845342991615905==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -41,4 +41,4 @@ a5533a6eaa5b602fe54e53d85f787e09eab4e771 selftests/bpf: test bpf_get_func_* for 
 cb4bfacfb0110aa1b10ab60c64a3df0e176998c5 selftests/bpf: test fsession mixed with fentry and fexit
 c390adfda2440e4a907ecedae03ff392511bcf95 Merge branch 'bpf-fsession-support'
 
---===============3421710933248271458==--
+--===============5376845342991615905==--
