@@ -1,20 +1,27 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux
-Date: Sun, 25 Jan 2026 04:48:26 -0000
-Message-Id: <176931650613.1193003.1659584075919526020@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/lenb/linux
+Date: Sun, 25 Jan 2026 05:09:49 -0000
+Message-Id: <176931778934.1208372.11339159282910295346@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux
-user: axboe
+repo: pub/scm/linux/kernel/git/lenb/linux
+user: lenb
 changes:
-  - ref: refs/heads/for-next
-    old: eb5f0ef856d5eb3b92207f9b5ebcf604524d2532
-    new: f2fe9f2ac78d856d3c35a38a0facdc9ddf80fcd5
+  - ref: refs/heads/next
+    old: 83a899f345d436c119066b91be0466cc66fabf88
+    new: bb6c12cb80b2bad8738f280d082d7977b8ee46cb
     log: |
-         aa7050dc91e6450adc7d28e2ed78f5415adb866c io_uring: add debug dumping for when the ring can't exit
-         f2fe9f2ac78d856d3c35a38a0facdc9ddf80fcd5 Merge branch 'io_uring-syzbot-cancel' into for-next
+         d38972e826361cb0eb3f3ae5e255823b700a5c8c tools/power turbostat: Rename "LLCkRPS" column to "LLCMRPS"
+         bb6c12cb80b2bad8738f280d082d7977b8ee46cb tools/power turbostat: Add L2 cache stats for MTL and ARL
+         
+  - ref: refs/heads/turbostat
+    old: 83a899f345d436c119066b91be0466cc66fabf88
+    new: bb6c12cb80b2bad8738f280d082d7977b8ee46cb
+    log: |
+         d38972e826361cb0eb3f3ae5e255823b700a5c8c tools/power turbostat: Rename "LLCkRPS" column to "LLCMRPS"
+         bb6c12cb80b2bad8738f280d082d7977b8ee46cb tools/power turbostat: Add L2 cache stats for MTL and ARL
          
