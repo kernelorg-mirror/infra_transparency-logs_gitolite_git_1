@@ -1,22 +1,28 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Sun, 25 Jan 2026 17:03:52 -0000
-Message-Id: <176936063272.1798533.8725549234209005057@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux
+Date: Sun, 25 Jan 2026 17:08:20 -0000
+Message-Id: <176936090087.1802545.17106642376116335195@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-user: jarkko
+repo: pub/scm/linux/kernel/git/axboe/linux
+user: axboe
 changes:
-  - ref: refs/heads/master
-    old: fde683547013cf5cb48fe22b588f49deeeede388
-    new: e64ea39a9d4e4530f2b362a96e11477faf98da97
+  - ref: refs/heads/for-7.0/io_uring
+    old: 816095894c0f44aaba4372d92c874121af687596
+    new: e26f51f6f68749fb5ee6b3b8f7a5a91bf2633e39
     log: |
-         6342969dafbc63597cfc221aa13c3b123c2800c5 keys/trusted_keys: fix handle passed to tpm_buf_append_name during unseal
-         0ede736ea1d87533d730bcd6d6e2759a9223c2de tpm: tpm_i2c_infineon: Fix locality leak on get_burstcount() failure
-         3c5366fb5f1a5764e5fac3d49b1cdf8ea64140bc tpm: st33zp24: Fix missing cleanup on get_burstcount() error
-         e64ea39a9d4e4530f2b362a96e11477faf98da97 char: tpm: cr50: Remove IRQF_ONESHOT
+         6e0d71c288fdcf5866f5d0c6cde850a091cc3c55 io_uring/futex: use GFP_KERNEL_ACCOUNT for futex data allocation
+         e26f51f6f68749fb5ee6b3b8f7a5a91bf2633e39 io_uring/rsrc: use GFP_KERNEL_ACCOUNT consistently
+         
+  - ref: refs/heads/for-next
+    old: f2fe9f2ac78d856d3c35a38a0facdc9ddf80fcd5
+    new: e830cca043a90e55ab7f8f90db6056961e249a90
+    log: |
+         6e0d71c288fdcf5866f5d0c6cde850a091cc3c55 io_uring/futex: use GFP_KERNEL_ACCOUNT for futex data allocation
+         e26f51f6f68749fb5ee6b3b8f7a5a91bf2633e39 io_uring/rsrc: use GFP_KERNEL_ACCOUNT consistently
+         e830cca043a90e55ab7f8f90db6056961e249a90 Merge branch 'for-7.0/io_uring' into for-next
          
