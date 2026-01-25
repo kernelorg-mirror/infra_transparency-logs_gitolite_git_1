@@ -1,24 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jejb/scsi
-Date: Sun, 25 Jan 2026 18:45:33 -0000
-Message-Id: <176936673361.1881988.14128885000693343547@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+Date: Sun, 25 Jan 2026 19:12:18 -0000
+Message-Id: <176936833805.1901052.10722148762681597829@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jejb/scsi
-user: jejb
+repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+user: jarkko
 changes:
-  - ref: refs/tags/scsi-fixes
-    old: f9eb7de6917c6ff8bb24ea4bdd3871d22b9b3c81
-    new: 4702bc5eb1d5a5f9677a10e0328e44fe3ddf4e2d
+  - ref: refs/heads/queue
+    old: d421378261fe78048b3531afa0cd65374fe1870b
+    new: 70287c1be1e2f70458e5803c20000ec2555ac728
     log: |
-         901a5f309daba412e2a30364d7ec1492fa11c32c scsi: xen: scsiback: Fix potential memory leak in scsiback_remove()
-         9eacec5d18f98f89be520eeeef4b377acee3e4b8 scsi: storvsc: Process unsupported MODE_SENSE_10
-         fe2f8ad6f0999db3b318359a01ee0108c703a8c3 scsi: core: Wake up the error handler when final completions race against each other
-         9411a89e9e7135cc459178fa77a3f1d6191ae903 scsi: target: iscsi: Fix use-after-free in iscsit_dec_conn_usage_count()
-         84dc6037390b8607c5551047d3970336cb51ba9a scsi: target: iscsi: Fix use-after-free in iscsit_dec_session_usage_count()
-         19bc5f2a6962dfaa0e32d0e0bc2271993d85d414 scsi: qla2xxx: Sanitize payload size to prevent member overflow
+         70287c1be1e2f70458e5803c20000ec2555ac728 tpm-buf: Implement managed allocations
          
