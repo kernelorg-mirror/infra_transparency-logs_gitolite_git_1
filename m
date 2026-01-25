@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7816568475718088168=="
+Content-Type: multipart/mixed; boundary="===============9177654382817048339=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Sun, 25 Jan 2026 11:57:21 -0000
-Message-Id: <176934224143.1513757.7457330438868377085@gitolite.kernel.org>
+Date: Sun, 25 Jan 2026 11:57:44 -0000
+Message-Id: <176934226483.1514132.14307585417151497271@gitolite.kernel.org>
 
---===============7816568475718088168==
+--===============9177654382817048339==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,15 +16,46 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: 922d90341c6fe04340b3526c410c5b072de85bbc
-    new: 1d431be70ae15bc6526b3666a1b916b5726e4542
-    log: revlist-922d90341c6f-1d431be70ae1.txt
+    old: 1d431be70ae15bc6526b3666a1b916b5726e4542
+    new: 361de91ffe3d47bbd649f587cb402836fe492629
+    log: revlist-1d431be70ae1-361de91ffe3d.txt
+  - ref: refs/heads/tip/urgent
+    old: 87020fe119c36435876227f7048a321b2d194a31
+    new: d91a46d6805af41e7f2286e0fc22d498f45a682b
+    log: revlist-87020fe119c3-d91a46d6805a.txt
 
---===============7816568475718088168==
+--===============9177654382817048339==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-922d90341c6f-1d431be70ae1.txt
+Content-Disposition: attachment; filename=revlist-1d431be70ae1-361de91ffe3d.txt
+
+5abe8644d238cf4c8f9c95cdc5e7b487d42bf761 Merge branch into tip/master: 'irq/core'
+ec3e9a0e402066fc97a522522e068605dfff6409 Merge branch into tip/master: 'irq/drivers'
+00615d3ba65617e43818724496d26ec10963695c Merge branch into tip/master: 'irq/msi'
+7af693d76fd57f618a32d65356c07fce660bebb8 Merge branch into tip/master: 'locking/core'
+7eb6f544e9adfcbcde79e4c2601c8eb5179988a6 Merge branch into tip/master: 'perf/core'
+23c4fc48cb027c13fd4fac450d3c5fc99594c730 Merge branch into tip/master: 'sched/core'
+3ce64131ef374eb4423a58c57b516c89c46af249 Merge branch into tip/master: 'timers/core'
+5715e83395f80641e879f09ee22e42cae1db282e Merge branch into tip/master: 'timers/vdso'
+a36c8b8f6146a7fbbcb59d68a6e17df777ad2806 Merge branch into tip/master: 'x86/alternatives'
+4abb18522d80a2ba6c95500e6798f89e69cd3830 Merge branch into tip/master: 'x86/boot'
+3885358ce82676284a66991f1e1bc0e534fb53a1 Merge branch into tip/master: 'x86/bugs'
+1f4f673fd71c85a709485f5748a46fa3adaa44ba Merge branch into tip/master: 'x86/cache'
+7ca8107c1eae4b6f3cbd9b47ab70d84da73f8bb0 Merge branch into tip/master: 'x86/cleanups'
+78c199cf4938fe37e9f7ac2dbf22bdb909b0441b Merge branch into tip/master: 'x86/cpu'
+3c23ec9fb7a84b30f6cf77d83046f734ec0803e6 Merge branch into tip/master: 'x86/entry'
+cb607771d3fcc68a36e036aa80bcbadf06a12092 Merge branch into tip/master: 'x86/irq'
+e5d7e88064abf85c30b1a7d08d8e082bcb65ddfe Merge branch into tip/master: 'x86/microcode'
+ff87738284df78de487fc3f4da3284658f144e5a Merge branch into tip/master: 'x86/misc'
+75be10cb8571be6c0c6c4f24c94976a3fe3cd61d Merge branch into tip/master: 'x86/paravirt'
+361de91ffe3d47bbd649f587cb402836fe492629 Merge branch into tip/master: 'x86/sev'
+
+--===============9177654382817048339==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-87020fe119c3-d91a46d6805a.txt
 
 5e8b511c39f35dcbf2e548a75d49782778c2df48 KVM: arm64: gic: Check for vGICv3 when clearing TWI
 8d8e882c2b4b73a3f894c3cad74718b633e3d166 KVM: arm64: Fix EL2 S1 XN handling for hVHE setups
@@ -69,6 +100,5 @@ af5a3fae860df6d065d796810a3e3a03fbb6f895 Merge tag 'sched-urgent-2026-01-24' of 
 b83a8ff87a0c10c1d86eb7f96e14009d91fae024 Merge tag 'trace-v6.19-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
 d04ed417d20a79c111a7d8fef005ae9fe1e73b38 Merge tag 'ntb-6.19-bugfixes' of https://github.com/jonmason/ntb
 d91a46d6805af41e7f2286e0fc22d498f45a682b Merge tag 'riscv-for-linus-6.19-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/riscv/linux
-1d431be70ae15bc6526b3666a1b916b5726e4542 Merge branch 'linus'
 
---===============7816568475718088168==--
+--===============9177654382817048339==--
