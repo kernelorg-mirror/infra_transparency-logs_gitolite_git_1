@@ -1,28 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Sun, 25 Jan 2026 17:43:26 -0000
-Message-Id: <176936300600.1830972.2222048144456102982@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Sun, 25 Jan 2026 17:53:12 -0000
+Message-Id: <176936359256.1838556.1913142513409762766@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-user: jarkko
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
-  - ref: refs/heads/queue
-    old: a8a2095482cb47f1541a3655be667ccf04e6641a
-    new: 7b2311efa7ed4901268274ad97d0cd0537ddd5bf
+  - ref: refs/heads/master
+    old: d91a46d6805af41e7f2286e0fc22d498f45a682b
+    new: 913fb068e259079bf9564c9e84ff9e65c37dcac7
     log: |
-         2236b9352db479d9e177f4aecae773a5dff39d36 tpm: Orchestrate TPM commands in tpm_get_random()
-         6e056cce693423a5e2238c6c8b4531534e18fe70 tpm: Change tpm_get_random() opportunistic
-         a2bc0066bdc7391620d11ba02c24561a29788efb tpm2-sessions: Define TPM2_NAME_MAX_SIZE
-         e681f1773c7fc4fefab2631af1cc8d69d4ac48ec KEYS: trusted: Open code tpm2_buf_append()
-         3d011422a8244db6d3b724154a0858c9ade45ed9 KEYS: trusted: Remove dead branch from tpm2_unseal_cmd
-         427f64c84884f4a7d89b978315a0e0d8acbb6cd2 KEYS: trusted: Re-orchestrate tpm2_read_public() calls
-         0e52f770d6a745f51154e62fa4c666d31bd02a20 tpm2-sessions: Remove the support for more than one authorization
-         b6c07246e83159689a38ae31e65177f335491010 tpm-buf: Remove tpm_buf_append_handle
-         1a0fb54b8f41c3a7715a5f387420a6d10b5699be tpm-buf: Merge TPM_BUF_BOUNDARY_ERROR and TPM_BUF_OVERFLOW
-         7b2311efa7ed4901268274ad97d0cd0537ddd5bf tpm-buf: Implement managed allocations
+         e351836a54e3b0b4483f896abcd6a0dc71097693 i2c: spacemit: drop IRQF_ONESHOT flag from IRQ request
+         e6e09d34118477fa3cb4dcea330ba2f6c5bdaf4d Merge tag 'i2c-host-fixes-6.19-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/andi.shyti/linux into i2c/for-current
+         2934325f56150ad8dab8ab92cbe2997242831396 Input: i8042 - add quirk for ASUS Zenbook UX425QA_UM425QA
+         19a5d9ba6208e9006a2a9d5962aea4d6e427d8ab Input: i8042 - add quirks for MECHREVO Wujie 15X Pro
+         c1a5135e60f1a026f135c6b0964cc8f4e1c4a8bb Merge tag 'input-for-v6.19-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/dtor/input
+         913fb068e259079bf9564c9e84ff9e65c37dcac7 Merge tag 'i2c-for-6.19-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
          
