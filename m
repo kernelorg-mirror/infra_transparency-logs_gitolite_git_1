@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Sun, 25 Jan 2026 13:42:17 -0000
-Message-Id: <176934853725.1644631.9778709657852420289@gitolite.kernel.org>
+Date: Sun, 25 Jan 2026 14:04:05 -0000
+Message-Id: <176934984522.1659873.2229122323095421296@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,9 @@ repo: pub/scm/linux/kernel/git/rdma/rdma
 user: leon
 changes:
   - ref: refs/heads/wip/leon-for-next
-    old: d3922f6dad69b3d1f7656c9035bd0e82f73091b7
-    new: 12985e5915a0b8354796efadaaeb201eed115377
+    old: 12985e5915a0b8354796efadaaeb201eed115377
+    new: 2529aead51673814ebf464723626ac608b8635a5
     log: |
-         12985e5915a0b8354796efadaaeb201eed115377 RDMA/rxe: Fix iova-to-va conversion for MR page sizes != PAGE_SIZE
+         2b7c2ba1308a545a2be2d3d041c2c1cde95b700a RDMA/irdma: Add enum defs for reserved CQs/QPs
+         2529aead51673814ebf464723626ac608b8635a5 RDMA/irdma: Use CQ ID for CEQE context
          
