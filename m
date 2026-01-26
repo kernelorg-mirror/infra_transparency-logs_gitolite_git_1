@@ -1,51 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============1379048753166078851=="
+Content-Type: multipart/mixed; boundary="===============5469628939845778264=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
-Date: Mon, 26 Jan 2026 22:09:17 -0000
-Message-Id: <176946535762.3241094.17611431211659843544@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Mon, 26 Jan 2026 22:09:20 -0000
+Message-Id: <176946536088.3241277.7950472606022196852@gitolite.kernel.org>
 
---===============1379048753166078851==
+--===============5469628939845778264==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regulator
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.19
+  - ref: refs/heads/regulator-6.19
     old: e3b76494d675e49fa032ec47f58487875a1de70a
     new: 41399c5d476156635c9a58de870d39318e22fa09
     log: revlist-e3b76494d675-41399c5d4761.txt
 
---===============1379048753166078851==
+--===============5469628939845778264==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1769465355 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/regulator.git
-nonce 1769465355-dcd56f1c22251badf3174e10718e6451ed20e1a2
+pusher C3F436CA30F5D8EB 1769465359 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1769465358-01257333a8009efe68016c8004f278681c95ebdc
 
-e3b76494d675e49fa032ec47f58487875a1de70a 41399c5d476156635c9a58de870d39318e22fa09 refs/heads/for-6.19
+e3b76494d675e49fa032ec47f58487875a1de70a 41399c5d476156635c9a58de870d39318e22fa09 refs/heads/regulator-6.19
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAml35gsACgkQJNaLcl1U
-h9ACRwf/blWQL3C+nHAi2+fLh5PuHuYjf/D/YY8zD+1cpR2c1AFAcXE2EmIvcuyM
-M5vfcJCUoy4FYzxGbpvz7NlbZ0i/fDYjRypqf88KYLKqSCRXFjQdbN/XCui0JIIR
-fj7JzNjDy76HlCN3hJIqWA08lIIVjPSakOgLg3RdHK4ShkMUBbCoZKEpDO5OUTCW
-DKyl0aKVDHuQVUSXFo4S7wpt3MZEelHLr/btfphtnh4jNy4D8ckp7XFaC4MCkcj1
-m3QJ+LCPO2L8NBHyrRFnmKo3ZTDzF/RAUBKKd15MBiEBK2FPI1IdzhtYVbn+DlhJ
-z7f9rLzwq9ThJY60tU5jZK1k+K0hbw==
-=ggn2
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAml35g8ACgkQJNaLcl1U
+h9BV5wf/d1/RaF+W6TravsmGMFAKDy2oB0XeQadxg3jdTeL9+9WgT0vVQx8OPKiF
+QkhaM6xaPTF0p6UnK150//7B4VYvq6nwRGQGq4wL+jNGn5MG+39FMCVwZNIJU+nD
+WnuZTAAii6moSn9hEGIiXZw7WAVwPQI9KgLOPjAGiOMM0l4KhWZIIqv0EY02PDhJ
+yuCcMx0cgFzo7kXh+VvXgaANU0E6unb9S/vyBVEfr1PA8I4LeCK+BUaLQ+dZJQQS
+306grL2wSyG83MCzZ9SxOPt/5QcVaGmCjW81LnD47QirmESkZA0r0UVX3yRRpDXu
+rgUwv266Pg3GED+uUTDZE/mtRH6vQw==
+=k8Qx
 -----END PGP SIGNATURE-----
 
---===============1379048753166078851==
+--===============5469628939845778264==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -504,4 +504,4 @@ f9e6e6d210669f24697e615b68b5abbae9d7a32e Merge tag 'keys-trusted-next-6.19-rc7' 
 63804fed149a6750ffd28610c5c1c98cce6bd377 Linux 6.19-rc7
 41399c5d476156635c9a58de870d39318e22fa09 regulator: spacemit-p1: Fix n_voltages for BUCK and LDO regulators
 
---===============1379048753166078851==--
+--===============5469628939845778264==--
