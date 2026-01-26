@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0381386863330218815=="
+Content-Type: multipart/mixed; boundary="===============2406612386520281346=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Mon, 26 Jan 2026 11:04:39 -0000
-Message-Id: <176942547971.2688437.8397521816399404324@gitolite.kernel.org>
+Date: Mon, 26 Jan 2026 11:04:45 -0000
+Message-Id: <176942548507.2688663.1301253339511186737@gitolite.kernel.org>
 
---===============0381386863330218815==
+--===============2406612386520281346==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/char-misc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: 0f61b1860cc3f52aef9036d7235ed1f017632193
+  - ref: refs/heads/char-misc-linus
+    old: 88da5f4b46f55717202fb1d81052e91d4f88b296
     new: 63804fed149a6750ffd28610c5c1c98cce6bd377
-    log: revlist-0f61b1860cc3-63804fed149a.txt
+    log: revlist-88da5f4b46f5-63804fed149a.txt
 
---===============0381386863330218815==
+--===============2406612386520281346==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1769425478 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1769425484 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1769425477-31882f2cc44703320d5ff3f79931e243037797bd
+nonce 1769425482-4031554fccf50c3c2df95254591085ba52e91643
 
-0f61b1860cc3f52aef9036d7235ed1f017632193 63804fed149a6750ffd28610c5c1c98cce6bd377 refs/heads/main
+88da5f4b46f55717202fb1d81052e91d4f88b296 63804fed149a6750ffd28610c5c1c98cce6bd377 refs/heads/char-misc-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAml3SkcbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+iJAP/iu2WLvLDdzlDaNEfRcR
-D0wE4NAF848gzCX0baRpXot5yvLyf96OdguZUurKSmGnBTJjLlFLWjuJVGa6i2yt
-W+p1dm4cJ3eJh4GqYcWeD1N49u2bLEZKDOtHURDbe6y+l4bp5evFeQGy4UZg1iNT
-WZxghGViX9TuJ1E0+cffMTdAwXtjVPTu4XQzVzqJY7pA+lRaUWAZNb2s3uSg1obm
-JbtTz4iTyd7uceWt1rb5htakvgyyHIlZp9sIGiLL9YZ00VxczkN2aoTj5Plo2ecc
-L35pEuHgNpD4SUNKxM8tH2JE4u2fcpijwqQ5RoYUOxfrRhQ/l9KPIZtMtHrR4Xx7
-k8xrAx+mQuDxq9pSQwFx7pjukgLVexjydYWkEEzLCn+zMaLMXHINAP65hyl6lrpJ
-bVSm5/MVYWBVR4kyWlW1tAQmkY75qErjHBT4enFhh1nvDKb7PyHBEBsKv0nsv6bD
-Spzpy+zNIJUadOJaVZJmfchVC901Jo+UE/ngP+2e828/nHK4KYQdbMh+WGK9amdZ
-tT1bJF6jBXahlEnhFnB3VeJWm0gbcyT+tbkE2OH+jqGU3+ny+8Y1i6h31dDCZAAN
-6uQyd3Oq7ZkUkJa7DOSSTidSHbVCrlAIzM3Q+/cxnWHa0bN1aVPVJGUba9FGWiHc
-qqR/V1fJcFMk1HNQy8tL4PAn
-=gVgl
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAml3SkwbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+hiIP/0t2jhQBNo9DZiU0Ppun
+/7BhOv/gFhFZP8mczJ3H4+8Yln6IlJpFs7DqH9d0xlPqM/d+fId7fYT3VEZ2m46H
+M8047RtJi6pwhY4vXxLGoKMRWNQMGxwXSvHm7gwfx735mv+5VsklB2zZIrzw2Vc8
+6d6zVYPb2AVgHiSdn8bfcr/Thwrnn5+NvdKVdxSpZGvstdEzqaCGHcztm/MUAUcz
+T0LuvZ420f/7WhgRV9pW8CmC+l9dCxDXwQKNJAm255GqPIsAUocg5203DB4XNc0C
+1uLLjykBasTlMuV++BVQ6SYegutIOciHXWf6R7G1T5Ke+Wu87f03A/cdNox2plrg
+4bqpy4D7JtuoDtziRgHB7Fdo9tZMHlie4DJYqSWghGFwjdvjL36BTUFwpP33WzkQ
+NaSlw6ij8sUNEyrh/bndptrrhLyWcQa42kADM5d3XO5dLbCgcZClmbrVYGmL0Qvg
+it6gpZ9qS373OUEjpRaEuW7OVWG3pNnEIPJAjoZmDuFRBBmbR832QYAtVhg/4ItQ
+1wUzKQ2u4mSrZ5vAbTCw/D0wA3ivbOyGnNe4n1oPhUsqbmWHer7lrBEg97v0vN5h
+5KM24guDa/Tc4NmCrWERN2UJap+1RqFTMONBEPMgwSqAB/4JlMxOrtCiZiVVMh8O
+4EttHX/PmHzG35O/x9bzsLtu
+=8btp
 -----END PGP SIGNATURE-----
 
---===============0381386863330218815==
+--===============2406612386520281346==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0f61b1860cc3-63804fed149a.txt
+Content-Disposition: attachment; filename=revlist-88da5f4b46f5-63804fed149a.txt
 
 3d5221af9c7711b7aec8da1298c8fc393ef6183d xfrm: Fix inner mode lookup in tunnel mode GSO segmentation
 49400b701eca849c1b53717b1f5d779a8d066ec0 dmaengine: mmp_pdma: fix DMA mask handling
@@ -95,22 +95,8 @@ c0732fe78728718c853ef8e7af5bbb05262acbd1 dmaengine: xilinx_dma: Fix uninitialize
 9dbc9bed01837717b8ab755cf5067a6f8d35b00f arm64: dts: qcom: sm8550: Fix compile warnings in USB controller node
 1f6ca557088eb96c8c554f853eb7c60862f8a0a8 arm64: dts: qcom: sm8650: Fix compile warnings in USB controller node
 92c172ae16a2718aba0d8fec5a62fc1b8aa452dc mshv: hide x86-specific functions on arm64
-761fcf46a1bd797bd32d23f3ea0141ffd437668a w1: therm: Fix off-by-one buffer overflow in alarms_store
 52f758edc9f9f0b1f4f83eb668a5f76482ce00ca hyperv: Avoid -Wflex-array-member-not-at-end warning
 173d6f64f9558ff022a777a72eb8669b6cdd2649 mshv: release mutex on region invalidation failure
-472100721b4b1d357e99512306ba7dda7bddad6f dt-bindings: interconnect: qcom,sa8775p-rpmh: Fix incorrectly added reg and clocks
-a305df4125d17f23d3ce777bb1af9f9bba05efb1 MAINTAINERS: Add interconnect-clk.h to interconnect API entry
-dbdb442218cd9d613adeab31a88ac973f22c4873 iio: adc: at91-sama5d2_adc: Fix potential use-after-free in sama5d2_adc driver
-6b39824ac4c15783787e6434449772bfb2e31214 iio: adc: ad7280a: handle spi_setup() errors in probe()
-c5512e016817a150fd6de97fbb3e74aa799ea3c1 iio: adc: ad7606: Fix incorrect type for error return variable
-92452b1760ff2d1d411414965d4d06f75e1bda9a iio: adc: ad9467: fix ad9434 vref mask
-da934ef0fdff5ba21e82ec3ab3f95fe73137b0c9 iio: adc: pac1934: Fix clamped value in pac1934_reg_snapshot
-c34e2e2d67b3bb8d5a6d09b0d6dac845cdd13fb3 iio: imu: st_lsm6dsx: fix iio_chan_spec for sensors without event detection
-4ff39d6de4bf359ec6d5cd2be34b36d077dd0a07 iio: accel: adxl380: fix handling of unavailable "INT1" interrupt
-441ac29923c9172bc5e4b2c4f52ae756192f5715 iio: dac: ad5686: add AD5695R to ad5686_chip_info_tbl
-ea6b4feba85e996e840e0b661bc42793df6eb701 iio: adc: exynos_adc: fix OF populate on driver rebind
-943cbf906956a6c081636bec2458a31dbe482170 iio: imu: inv_icm45600: fix temperature offset reporting
-81d5a5366d3c20203fb9d7345e1aa46d668445a2 iio: chemical: scd4x: fix reported channel endianness
 7c6bbcb010b1b8e4e6452de109f0506bb05d6efb arm64: dts: rockchip: Fix wifi interrupts flag on Sakura Pi RK3308B
 cd8967ea3105d30adb878a9fea0e34a9378df610 arm64: dts: rockchip: fix unit-address for RK3588 NPU's core1 and core2's IOMMU
 0368e4afcf20f377c81fa77b1c7d0dee4a625a44 arm64: dts: rockchip: remove dangerous max-link-speed from helios64
@@ -137,8 +123,6 @@ e4aa4461d4acb922ef45785581232f0588a6eea8 selftests/landlock: NULL-terminate unix
 03a0ff99ef2e4958141f7b4c573722fc8f4b9539 landlock: Improve erratum documentation
 aa9877d74c07045f712a4ec82105505e69cd5efe landlock: Clean up hook_ptrace_access_check()
 6548fb521822a5c0a688e423df28b2248a59543b landlock: Fix spelling
-9910159f06590c17df4fbddedaabb4c0201cc4cb iio: core: add separate lockdep class for info_exist_lock
-cc8f92e41eb76f450f05234fef2054afc3633100 w1: fix redundant counter decrement in w1_attach_slave_device()
 602acfb541195eb35584d7a3fc7d1db676f059bd landlock: Optimize stack usage when !CONFIG_AUDIT
 14c00e30d3a29a7fb6053fcaa54aeb6c07fb1055 selftests/landlock: Fix typo in fs_test
 7aa593d8fb64b884bf00c13e01387b0733f3d786 selftests/landlock: Fix missing semicolon
@@ -294,13 +278,10 @@ c8a49a2f9117f4a7c574cbb709dc92a2b602ec00 Merge tag 'for-net-2026-01-09' of git:/
 4ef8512e1427111f7ba92b4a847d181ff0aeec42 net/mlx5e: Pass netdev to mlx5e_destroy_netdev instead of priv
 5629f8859dca7ef74d7314b60de6a957f23166c0 net/mlx5e: Restore destroying state bit after profile cleanup
 16ce6e6fa946ca6fd1e4fce6926b52b6263d98a8 Merge branch 'mlx5e-profile-change-fix'
-b8f15d1df2e73322e2112de21a4a7f3553c7fb60 iio: accel: iis328dq: fix gain values
-978d28136c53df38f8f0b747191930e2f95e9084 iio: dac: ad3552r-hs: fix out-of-bound write in ad3552r_hs_write_data_source
 db8061bbb9b23534ecd69bccdfbd70f5c9543189 drm/rockchip: dw_hdmi_qp: Switch to gpiod_set_value_cansleep()
 3f747004bbd641131d9396d87b5d2d3d1e182728 dmaengine: qcom: gpi: Fix memory leak in gpi_peripheral_config()
 2e1136acf8a8887c29f52e35a77b537309af321f dmaengine: omap-dma: fix dma_pool resource leak in error paths
 76cba1e60b69c9cd53b9127d017a7dc5945455b1 dmaengine: apple-admac: Add "apple,t8103-admac" compatible
-8cc27f5c6dd17dd090f3a696683f04336c162ff5 interconnect: debugfs: initialize src_node and dst_node to empty strings
 901a5f309daba412e2a30364d7ec1492fa11c32c scsi: xen: scsiback: Fix potential memory leak in scsiback_remove()
 c18790018799155e58d5a11c6697f9c398bf8b60 gpio: davinci: implement .get_direction()
 471e998c0e31206ff0eac7202b2659698cf9b46e gpiolib: remove redundant callback check
@@ -404,7 +385,6 @@ b31ac41b59b6b6f1f6d426e2088e5c391bf89bf3 dma/pool: Improve pool lookup
 c6ccd098807483762ccd726e1498bac5a71d0005 dma/pool: Avoid allocating redundant pools
 b91a565ed14fcf900b4d95e86882b4b763860986 drm/sysfb: Remove duplicate declarations
 d7f1b4bdc7108be1b178e1617b5f45c8918e88d7 efi/cper: Fix cper_bits_to_str buffer handling and return value
-36a70608a31487a2ecb8f501877813e94cf78b70 Merge tag 'iio-fixes-for-6.19a' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/jic23/iio into char-misc-linus
 c0c50e3743e467ec4752c638e10e97f89c8644e2 i2c: qcom-geni: make sure I2C hub controllers can't use SE DMA
 f2a3f51365bf672dab4b58d1e8954926a9196b44 i2c: imx-lpi2c: change to PIO mode in system-wide suspend/resume progress
 946d462346d2ded161cfd3dc62a61d7050d9f9ec kbuild: prefer ${NM} in check-function-names.sh
@@ -563,28 +543,10 @@ a1b3421a023e920b006d9a55eac334b14d115687 kernel: cgroup: Add SPDX-License-Identi
 dd83dc1249737b837ac5d57c81f2b0977c613d9f xhci: sideband: don't dereference freed ring when removing sideband endpoint
 b5a69c4869211a6ab61a95f5cc987b25f383dbc3 arm_mpam: Remove duplicate linux/srcu.h header
 b9f5c38e4af1a094384650d2fc79fb992d6d5e64 arm_mpam: Use non-atomic bitops when modifying feature bitmap
-0ea4cc93d5ec6dcc388291e261b0833bee05b348 Merge tag 'icc-6.19-rc6' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/djakov/icc into char-misc-linus
 fdee1b09721605f532352628d0a24623e7062efb platform/x86: hp-bioscfg: Fix kobject warnings for empty attribute names
 fb47423dc7bf43301048d77289ce0114959de4de serial: qcom_geni: Fix BT failure regression on RB2 platform
 27aff0a56b3c77ea1a73641c9b3c4172a8f7238f serial: 8250_pci: Fix broken RS485 for F81504/508/512
 d51e68b7007b9c1c3456c4f93657a153ae3816ec Merge branch 'pm-em'
-9aeacd2ff31e1520bd302e40f7d2500cb98a2401 mux: mmio: Fix IS_ERR() vs NULL check in probe()
-10d28cffb3f6ec7ad67f0a4cd32c2afa92909452 comedi: Fix getting range information for subdevices 16 to 255
-95fc36a234da24bbc5f476f8104a5a15f99ed3e3 intel_th: fix device leak on output open()
-aa3f64a98b23c524ce768661779d7f640f59c4da intel_th: rename error label
-0b52edaeb5c2ae9d9d25476554671014d2a1057b slimbus: core: fix OF node leak on registration failure
-0eb4ff6596114aabba1070a66afa2c2f5593739f slimbus: core: fix runtime PM imbalance on report present
-9391380eb91ea5ac792aae9273535c8da5b9aa01 slimbus: core: fix device reference leak on report present
-4c6da2fdc811391c4a5e594c6e976803b54198b7 slimbus: core: amend slim_get_device() kernel doc
-7831f710553dcda6a67b3fe3f7a9d2f9a7233c3f slimbus: core: fix of_slim_get_device() kernel doc
-bba7fd1258cd72f9a9d9e7d86c155851fff23ae2 slimbus: core: clean up of_slim_get_device()
-a3bece3678f6c88db1f44c602b2a63e84b4040ac uacce: fix cdev handling in the cleanup path
-98eec349259b1fd876f350b1c600403bcef8f85d uacce: fix isolate sysfs check condition
-02695347be532b628f22488300d40c4eba48b9b7 uacce: implement mremap in uacce_vm_ops to return -EPERM
-26c08dabe5475d99a13f353d8dd70e518de45663 uacce: ensure safe queue release with state management
-054e1c0e6114aaf08672c5ad25d796362bc7e76b uio: pci_sva: correct '-ENODEV' check logic
-06d5a7afe1d0b47102936d8fba568572c2b4b941 mei: trace: treat reg parameter as string
-e03b29b55f2b7c345a919a6ee36633b06bf3fb56 comedi: dmm32at: serialize use of paged registers
 375629c92fd842bc2a229bb34c4453f62e097169 can: dev: alloc_candev_mqs(): add missing default CAN capabilities
 79a6d1bfe1148bc921b8d7f3371a7fbce44e30f7 can: gs_usb: gs_usb_receive_bulk_callback(): unanchor URL on usb_submit_urb() error
 353c6f43ab690b5746289c057c1701a389b12f98 Merge tag 'xfs-fixes-6.19-rc6' of git://git.kernel.org/pub/scm/fs/xfs/xfs-linux
@@ -717,7 +679,6 @@ aebc29dec67aa998a9ea6d34aacba7b5c6a74d33 wifi: mac80211: apply advertised TTLM f
 8d76a7d89c12d08382b66e2f21f20d0627d14859 irqchip/gic-v3-its: Avoid truncating memory addresses
 98d5110f90ae0dbc5f2f13f033e06f6d57009e0d iommupt: Make it clearer to the compiler that pts.level == 0 for single page
 e806f7dde8ba28bc72a7a0898589cac79f6362ac timekeeping: Adjust the leap state for the correct auxiliary timekeeper
-88da5f4b46f55717202fb1d81052e91d4f88b296 Merge tag 'w1-drv-6.20' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/krzk/linux-w1 into char-misc-linus
 8a8c942cad4cd12f739a8bb60cac77fd173c4e07 gpio: cdev: Fix resource leaks on errors in gpiolib_cdev_register()
 122610220134b32c742cc056eaf64f7017ac8cd9 mmc: rtsx_pci_sdmmc: implement sdmmc_card_busy function
 930e69757b74c3ae083b0c3c7419bfe7f0edc7b2 ALSA: usb-audio: Fix use-after-free in snd_usb_mixer_free()
@@ -915,4 +876,4 @@ f9e6e6d210669f24697e615b68b5abbae9d7a32e Merge tag 'keys-trusted-next-6.19-rc7' 
 0237777974728cc5a6f45347b7eca473ab6ef90a Merge tag 'scsi-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
 63804fed149a6750ffd28610c5c1c98cce6bd377 Linux 6.19-rc7
 
---===============0381386863330218815==--
+--===============2406612386520281346==--
