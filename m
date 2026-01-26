@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7118657548002726324=="
+Content-Type: multipart/mixed; boundary="===============7404654263834036256=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Mon, 26 Jan 2026 16:48:03 -0000
-Message-Id: <176944608352.2975844.6762189012174553979@gitolite.kernel.org>
+Date: Mon, 26 Jan 2026 16:48:05 -0000
+Message-Id: <176944608587.2975960.7859903903004560878@gitolite.kernel.org>
 
---===============7118657548002726324==
+--===============7404654263834036256==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
+  - ref: refs/heads/10GbE
     old: 108948f723b13874b7ebf6b3f1cc598a7de38622
     new: 709bbb015538dfd5c97308b77c950d41a4d95cd3
     log: revlist-108948f723b1-709bbb015538.txt
 
---===============7118657548002726324==
+--===============7404654263834036256==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -44,4 +44,4 @@ f0813bcd2d9d97fdbdf2efb9532ab03ae92e99e6 net: wwan: t7xx: fix potential skb->fra
 ca12c4a155ebf84e9ef29b05ce979bc89364290f net/mlx5: Fix return type mismatch in mlx5_esw_vport_vhca_id()
 709bbb015538dfd5c97308b77c950d41a4d95cd3 net: dsa: yt921x: Fix MIB overflow wraparound routine
 
---===============7118657548002726324==--
+--===============7404654263834036256==--
