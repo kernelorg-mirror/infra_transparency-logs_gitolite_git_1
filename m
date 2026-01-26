@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4385147242105262576=="
+Content-Type: multipart/mixed; boundary="===============0089585678049520115=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Mon, 26 Jan 2026 17:27:15 -0000
-Message-Id: <176944843582.3010095.1437350088248533283@gitolite.kernel.org>
+Date: Mon, 26 Jan 2026 17:27:18 -0000
+Message-Id: <176944843832.3010262.18297230146530137105@gitolite.kernel.org>
 
---===============4385147242105262576==
+--===============0089585678049520115==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/10GbE
+  - ref: refs/heads/40GbE
     old: 9abf22075da98c615be2f608ec1167329a71eafd
     new: bf2e36c9dab95e41516fbcf7b1cc804539b2d021
     log: revlist-9abf22075da9-bf2e36c9dab9.txt
 
---===============4385147242105262576==
+--===============0089585678049520115==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -105,4 +105,4 @@ c2e99887807eb1b4fea7e5f63bbd6b5512879293 net: usb: sr9700: use ETH_ALEN instead 
 116af5f2d015da415c036b3bc992c04522d0ae80 Merge branch '200GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/next-queue
 bf2e36c9dab95e41516fbcf7b1cc804539b2d021 dt-bindings: net: dsa: fix typos in bindings docs
 
---===============4385147242105262576==--
+--===============0089585678049520115==--
