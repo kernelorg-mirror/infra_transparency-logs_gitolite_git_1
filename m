@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3888893793087248973=="
+Content-Type: multipart/mixed; boundary="===============5766869610836036058=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Mon, 26 Jan 2026 15:11:16 -0000
-Message-Id: <176944027657.2895781.3930417911658515893@gitolite.kernel.org>
+Date: Mon, 26 Jan 2026 15:12:02 -0000
+Message-Id: <176944032283.2896339.11549515454486459997@gitolite.kernel.org>
 
---===============3888893793087248973==
+--===============5766869610836036058==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/cel/linux
 user: cel
 changes:
-  - ref: refs/heads/nfsd-next
-    old: 9cc98e89201a7759191481bf3733b2a14a29c2e9
-    new: 5288993c4d1a8e59310e007aa68cf9b856551cc6
-    log: revlist-9cc98e89201a-5288993c4d1a.txt
+  - ref: refs/heads/nfsd-testing
+    old: 445084cba116a95c1f4d022432daecfa5d2772fd
+    new: db5daedafcca3219bb0cda4579945ff73c80014d
+    log: revlist-445084cba116-db5daedafcca.txt
 
---===============3888893793087248973==
+--===============5766869610836036058==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9cc98e89201a-5288993c4d1a.txt
+Content-Disposition: attachment; filename=revlist-445084cba116-db5daedafcca.txt
 
 5497ffe305b2ea31ae62d4a311d7cabfb671f54a arm64: dts: rockchip: Fix voltage threshold for volume keys for Pinephone Pro
 8bb3754909cde5df4f8c1012bde220b97d8ee3bc arm64: dts: qcom: talos: Correct UFS clocks ordering
@@ -501,5 +501,36 @@ f9c206cdc4266caad6a9a7f46341420a10f03ccb nfsd: never defer requests during idmap
 63a5425ff5e077c54eb2719c735108e2aa1f9eb6 xdrgen: Extend error reporting to AST transformation phase
 4c53b89032f14577e94d747a3ca0aee63f18d856 xdrgen: Emit a max_arg_sz macro
 5288993c4d1a8e59310e007aa68cf9b856551cc6 xdrgen: Add enum value validation to generated decoders
+9813a142ea361f5dee2480a0f0178bdbd1d8dd7e sunrpc: split svc_set_num_threads() into two functions
+48d5bf37b408b9374e80996f62a87d8889276ad6 sunrpc: remove special handling of NULL pool from svc_start/stop_kthreads()
+2a0240d81dd33035d69d36d78f6f39408478c8af sunrpc: track the max number of requested threads in a pool
+2dd55b2397e345c16835328266dbcbb6e78bedf7 sunrpc: introduce the concept of a minimum number of threads per pool
+538fbd0c832fe1045233e10e8c7f4175c835cce5 sunrpc: split new thread creation into a separate function
+99696630815faca91f32fc4c82365a349438e7af sunrpc: allow svc_recv() to return -ETIMEDOUT and -EBUSY
+50a2880fa4e6070fc66dfd762f8a1d3e9783e108 nfsd: adjust number of running nfsd threads based on activity
+94d7f266503c9c2204796b3db5bf8c6b99bac0d0 nfsd: add controls to set the minimum number of threads per pool
+39ccc75a73e34d136a2094a6e2540ef8092d5342 nfsd: cancel async COPY operations when admin revokes filesystem state
+cc445642420fce4008d13c91774bff3d35001b9a xdrgen: Implement pass-through lines in specifications
+fe804e3ded4d1a4b4f66b3e251e767590021dc0b NFSD: Add a Kconfig setting to enable support for NFSv4 POSIX ACLs
+78cbfc0016b3e097cc7065fa79d01e419dd4863d Add RPC language definition of NFSv4 POSIX ACL extension
+a76711b656d04cb93f58726a3a2474d07275daaa NFSD: Add nfsd4_encode_fattr4_acl_trueform
+d5ea782379ab92b4281c1c971ee68b5388939c22 NFSD: Add nfsd4_encode_fattr4_acl_trueform_scope
+5ca04cf7cf1a41cb5714b79541592eefdbc2dc96 NFSD: Add nfsd4_encode_fattr4_posix_default_acl
+70a8b3ce9e74cf50a720021143403600fef156ab NFSD: Add nfsd4_encode_fattr4_posix_access_acl
+696901dbaaab0d8d199b5f4484deda1b05ac92f9 NFSD: Do not allow NFSv4 (N)VERIFY to check POSIX ACL attributes
+60a343d345903cd2afd01f1d7e36347228fabf35 NFSD: Refactor nfsd_setattr()'s ACL error reporting
+bd5bde48db30dc41db7ed585b49f71bc93419003 NFSD: Add support for XDR decoding POSIX draft ACLs
+2c64f7fd71e0b40c90f7ad89a68b3f8cf35ce77e NFSD: Add support for POSIX draft ACLs for file creation
+070afa59e9847533adbc4ce61176e68ed9e8ec60 NFSD: Add POSIX draft ACL support to the NFSv4 SETATTR operation
+b485cde3396227507158d942f5c8cea674597d39 NFSD: Add POSIX ACL file attributes to SUPPATTR bitmasks
+c8884c077197967bfb6863d85249e0e5c308f964 nfsd/sunrpc: add svc_rqst->rq_private pointer and remove rq_lease_breaker
+b69df0ae80a4ceea794173695614d2d1f3b88721 nfsd/sunrpc: move rq_cachetype into struct nfsd_thread_local_info
+428f718d48a1651ad3c85e6ad264098492aeea03 sunrpc/cache: improve RCU safety in cache_list walking.
+339fad445e0049670cafee86ecc15081bfa1cd28 NFSD: Track SCSI Persistent Registration Fencing per Client with xarray
+a9bbe3e75755c2d075245bf3da84ab4e3bb6cc45 SUNRPC: Replace KUnit tests for memcmp() with KUNIT_EXPECT_MEMEQ_MSG()
+6dee171a5a6773549398b2025b751a1e073bb8a0 nfsd: Fix cred ref leak in nfsd_nl_threads_set_doit().
+82acd5ed6bb6950a8d57126ffa267fb367e5e73a nfsd: Fix cred ref leak in nfsd_nl_listener_set_doit().
+e7e64489f515c1f475de24b477b11593844fee19 [DEBUG] Add instrumentation for nfsd_mutex contention debugging
+db5daedafcca3219bb0cda4579945ff73c80014d siw: Enable try_gso
 
---===============3888893793087248973==--
+--===============5766869610836036058==--
