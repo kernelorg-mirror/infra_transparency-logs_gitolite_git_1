@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Mon, 26 Jan 2026 21:36:25 -0000
-Message-Id: <176946338561.3214355.11971022609953816476@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+Date: Mon, 26 Jan 2026 21:40:50 -0000
+Message-Id: <176946365031.3217916.11062129516402563355@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: dborkman
+repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+user: jarkko
 changes:
-  - ref: refs/heads/master
-    old: 78980b4c7fcb5ef74b7af65fbef5ce8d718cf791
-    new: 95ffdbda5eecffeb9bb8f18926de05400c7b799a
+  - ref: refs/heads/vcam
+    old: c2908133d2dd375982047c8f741009a6b653e113
+    new: b98e7e414f640664e12bca5fa5f127bcff9b3c2c
     log: |
-         95ffdbda5eecffeb9bb8f18926de05400c7b799a bpf: Fix tcx/netkit detach permissions when prog fd isn't given
+         b98e7e414f640664e12bca5fa5f127bcff9b3c2c media: v4l2-vcam
          
