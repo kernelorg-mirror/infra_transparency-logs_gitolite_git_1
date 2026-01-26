@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/remoteproc/linux
-Date: Mon, 26 Jan 2026 17:24:13 -0000
-Message-Id: <176944825379.3005815.11673875920131078994@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ardb/linux
+Date: Mon, 26 Jan 2026 17:25:04 -0000
+Message-Id: <176944830408.3007969.5876415541644136533@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/remoteproc/linux
-user: mjp
+repo: pub/scm/linux/kernel/git/ardb/linux
+user: ardb
 changes:
-  - ref: refs/heads/rproc-next
-    old: 1aab44c02ad26f0c59bf015bc01cc63c4f9e2d68
-    new: d935187cfb27fc4168f78f3959aef4eafaae76bb
-    log: |
-         d935187cfb27fc4168f78f3959aef4eafaae76bb remoteproc: mediatek: Break lock dependency to `prepare_lock`
-         
+  - ref: refs/heads/arm64-kernel-linear-alias
+    old: f2c93f44674c109309604008cc30a8234814b8a1
+    new: 0000000000000000000000000000000000000000
