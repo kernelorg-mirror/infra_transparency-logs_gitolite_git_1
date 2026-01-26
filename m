@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2036406682185352826=="
+Content-Type: multipart/mixed; boundary="===============8229626831046472405=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/gregkh
-Date: Mon, 26 Jan 2026 09:13:56 -0000
-Message-Id: <176941883668.2597813.8621479417894020629@gitolite.kernel.org>
+Date: Mon, 26 Jan 2026 09:15:41 -0000
+Message-Id: <176941894114.2600575.2555217882751396166@gitolite.kernel.org>
 
---===============2036406682185352826==
+--===============8229626831046472405==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/gregkh
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/rndis
-    old: 390e9da2e864c521bde0410eb50f56c32c85ec31
-    new: 7ea5544ca65f60d29036e8f095c78eb472b555a8
-    log: revlist-390e9da2e864-7ea5544ca65f.txt
+  - ref: refs/heads/readfile
+    old: c2d738278e390e46cf1b227cb200901c195a7d1f
+    new: ca48b755b0f479e7148736099a198a313428e950
+    log: revlist-c2d738278e39-ca48b755b0f4.txt
 
---===============2036406682185352826==
+--===============8229626831046472405==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1769418806 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1769418911 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/gregkh.git
-nonce 1769418803-ecdc20b6ea0c77712cf869e87359046491280178
+nonce 1769418906-c4b4eb8c5e248a8850a066647ee908dedf9344d6
 
-390e9da2e864c521bde0410eb50f56c32c85ec31 7ea5544ca65f60d29036e8f095c78eb472b555a8 refs/heads/rndis
+c2d738278e390e46cf1b227cb200901c195a7d1f ca48b755b0f479e7148736099a198a313428e950 refs/heads/readfile
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAml3MDYbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+PGgQAMG6Z8Zofqoas5IRlEcA
-8QEdJ8gaCxZMcx9M5jM8EHPl/qAD7sXMkyPyEUdP1OjY6A0uhHZ6xo6uE9dUunmK
-iJLZJR8OXyDPfqBjGEUUzoB1etmO1l3fcgVPXBGjwcmyJlQqCpZ2WG5bA2AUul4S
-SxvQJ8LBvzqX6PLfWCmsoOKHoO//mR5oBKolEjDi/3mBlues0R3bxbFlI/4rIxVm
-0fvMMo7p8RTNX1Yo5b8Ex6IDzI8tQ2rIckxlcdMo4l2bFKlcxXzowV3x79cQ0mc0
-nCGhm4qapP+mER31yTfVubJVdIkE3H8n0ScdEoLxCSeS4nDe7F9HHiwL6lOonNXm
-1tPgEry7ksg35H3CswkiEvntxHrDPYgt4qCJTrh2WEa2K2tFsS1EQKLvwVwSg0Ce
-eqlPWlAFrGDV2xfdwu5rGoLdDD39RMFVyG0Uo6BwQXL6Ta2Ooupd8FQCKhVsQiL3
-Qiquj2KNtBiT+N02lztLoPpiK6STyReEMJDx+MZZ3fwp6fsE+yU0vZH62N3z7oLV
-yY3DOKo1f13FPzReTrBkwE7YvV17MywFob6y3UMaNP1vMm4rMffhRPAWvvW0c8vN
-GjdOzYHqh7n8lfKsJZj57zc0i3fOn0k3AgmErJqyqx5Y4/vvjLUN8AqxKY6U1Dao
-E0gRII/Z0sOKf+c+qhP6jvVG
-=h6CP
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAml3MJ8bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+fEAP/jQiVAWPUbIfOcQwVNNN
+h361UUb21ScNd+WBPSbWpH8Eni8GSPGGwg1gLKNEo7WD2530Kg4/mhchRmg9s7hh
+ImfZlM3MjmN3gUN5S66FQjIHEbQyP596l0p21Gkn1ra3+7yHt2BmndZa0KAUE1mw
+Lpbw/g2TBTsatmVEo4BCRLr2isxN4DMWLacM3MQPR+r4Y8Imxh4mWPvSD+AZTzN5
+S+aLVM6myGVM4NZgeo/usE2z1VL/z+MaNfqL0yYd1UWmhxEy3+iVrK4gWCAoWJP6
+bag2PvUbfWiCZwUrBfM6YUtt5xlHr+mLT/aS3l913DYH6agqjdKxolFCEporYWUy
+l3M0MevQWz0FeSnSqlx52NrSZ3RjcF/kDMS8OnxMeQLuIY9hP8p8zda3d7ADyvFm
+UXqy3iboeSco1HavzZp+gOBkJs/VTfXybSJ0wYy3VOb5vQXxagpda7oGqZRzWC7/
+ppwvC3UjJeRkG7ZWUhaGPqezUfIG0icPFOT8PrDhnHdPS9om4aT4SDWTEk5V5DxT
+bVN0i4hUCB3scJ8P3FRNBQfBAs11ZxZuMAbtekroiy1CyBz3ECuKz4kmiuibJB0R
+horBRhMMJpx4Z7sEhslXOgK/FM8Q7tprbBXIxOCAq+rqkqXAYvdhSbuseqDZnSL/
+DeESHtHsuC3yOL82mhabZ7DC
+=EWtN
 -----END PGP SIGNATURE-----
 
---===============2036406682185352826==
+--===============8229626831046472405==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-390e9da2e864-7ea5544ca65f.txt
+Content-Disposition: attachment; filename=revlist-c2d738278e39-ca48b755b0f4.txt
 
 5497ffe305b2ea31ae62d4a311d7cabfb671f54a arm64: dts: rockchip: Fix voltage threshold for volume keys for Pinephone Pro
 8bb3754909cde5df4f8c1012bde220b97d8ee3bc arm64: dts: qcom: talos: Correct UFS clocks ordering
@@ -509,7 +509,10 @@ c1a5135e60f1a026f135c6b0964cc8f4e1c4a8bb Merge tag 'input-for-v6.19-rc6' of git:
 f9e6e6d210669f24697e615b68b5abbae9d7a32e Merge tag 'keys-trusted-next-6.19-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/jarkko/linux-tpmdd
 0237777974728cc5a6f45347b7eca473ab6ef90a Merge tag 'scsi-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
 63804fed149a6750ffd28610c5c1c98cce6bd377 Linux 6.19-rc7
-14769d6ecf9131bc27607ea1594c8613d7b45146 USB: disable all RNDIS protocol drivers
-7ea5544ca65f60d29036e8f095c78eb472b555a8 USB: potential rndis host fix
+7421394b74a9669dfd142d1ad6f9a3586f5ec566 readfile: implement readfile syscall
+fbfd0860181039e511bf1fa5d5cd1a9b8842972b arch: wire up the readfile syscall
+ef0fe4631365edfc592b2507f0d8ed6d4f4bc0f0 selftests: add readfile(2) selftests
+25a6aa398b14f8e3bfb2a893b976dcbc07f657cb readfile.2: new page describing readfile(2)
+ca48b755b0f479e7148736099a198a313428e950 driver core: faux: stop using static struct device
 
---===============2036406682185352826==--
+--===============8229626831046472405==--
