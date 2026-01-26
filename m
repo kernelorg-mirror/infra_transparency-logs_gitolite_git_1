@@ -1,111 +1,61 @@
-Content-Type: multipart/mixed; boundary="===============7509351255196245890=="
+Content-Type: multipart/mixed; boundary="===============4271433550021320721=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-Date: Mon, 26 Jan 2026 14:29:12 -0000
-Message-Id: <176943775257.2856562.14184813089725310498@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
+Date: Mon, 26 Jan 2026 14:29:21 -0000
+Message-Id: <176943776169.2856825.6747405836160009628@gitolite.kernel.org>
 
---===============7509351255196245890==
+--===============4271433550021320721==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-user: ij
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/jlayton/linux
+user: jlayton
 changes:
-  - ref: refs/heads/review-ilpo-next
-    old: 2ccbdb612d0d95f25c38189b83666ff0fb2bfb47
-    new: 4884d4795a5ce8077bbb5b97e4c2fd51e312087f
-    log: revlist-2ccbdb612d0d-4884d4795a5c.txt
+  - ref: refs/heads/exportfs-nfsd
+    old: 82c9e42284df2008de654a27b033fa004aea3a3e
+    new: c1e2a65961f23e148d9ce6a92f40e9f214ed2ecb
+    log: revlist-82c9e42284df-c1e2a65961f2.txt
 
---===============7509351255196245890==
+--===============4271433550021320721==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-82c9e42284df-c1e2a65961f2.txt
 
-certificate version 0.1
-pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1769437748 +0200
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86.git
-nonce 1769437747-fff8b3e31ef12d4ffbf7f926bd218741a893eab4
+e417a8bdd24de6864b53ec2ca7673c2b45f5546f fs: require filesystems to explicitly opt-in to nfsd export support
+64b729a1ef2cfe894881170b24f2cbb474615ffe Documentation: document EXPORT_OP_NOLOCKS
+13f7049ba7642a9d20d4b6407cf00552834c8039 exportfs: add new EXPORT_OP_STABLE_HANDLES flag
+80a1732ca038e59b41fa33ac058106d162f0c4c9 tmpfs: add EXPORT_OP_STABLE_HANDLES flag to export operations
+e9038c79bbe4bcc0cfdb1f85d0984185cd846416 ext4: add EXPORT_OP_STABLE_HANDLES flag to export operations
+6d3c6bb0e9c90c1398e5385200b61190aec16aee ext2: add EXPORT_OP_STABLE_HANDLES flag to export operations
+1cafa02214aa41c3f2bad9b26933e766742fdd22 erofs: add EXPORT_OP_STABLE_HANDLES flag to export operations
+acb6dce60cd694b9448e2b76f884b3481a165a2e efs: add EXPORT_OP_STABLE_HANDLES flag to export operations
+20d93c4a43e4a2c10469ebce20a52701fa11994e xfs: add EXPORT_OP_STABLE_HANDLES flag to export operations
+3760da8168511b470fe4242ee92fc7a0463a92b8 ceph: add EXPORT_OP_STABLE_HANDLES flag to export operations
+0e0890581ec7154108a675dfcbdedf7437cbcc8f btrfs: add EXPORT_OP_STABLE_HANDLES flag to export operations
+1a7ee29da6091d40d5ee07181db328300482adf6 befs: add EXPORT_OP_STABLE_HANDLES flag to export operations
+98d05c204f28d1a360ecd96e6fa1010dc5f341a1 ufs: add EXPORT_OP_STABLE_HANDLES flag to export operations
+3f827f36e0c98423e9362bddc6acc670e42c9f6b udf: add EXPORT_OP_STABLE_HANDLES flag to export operations
+02c57a2fdd30e4e788feb6075c6cea712d849d2e affs: add EXPORT_OP_STABLE_HANDLES flag to export operations
+538710e37c6e93177bfea2b3838fe4b05c1fc37c squashfs: add EXPORT_OP_STABLE_HANDLES flag to export operations
+fe394da90c41c9952fb9f7dc45894c6f9889367a smb/client: add EXPORT_OP_STABLE_HANDLES flag to export operations
+93af7e03a94aa27836579b8c5fd3315b986ae954 ovl: add EXPORT_OP_STABLE_HANDLES flag to export operations
+eb109d8ca4fce9f19ef031b1ad571d41cc7c6aec orangefs: add EXPORT_OP_STABLE_HANDLES flag to export operations
+5873a82eb6451a741cf99fdc1ad8ac3342461487 ocfs2: add EXPORT_OP_STABLE_HANDLES flag to export operations
+97291561152d43a156e7dcf3740ac5e7cca84176 ntfs3: add EXPORT_OP_STABLE_HANDLES flag to export operations
+28f51a43e1c38844325c937a0a1c222de8181182 nilfs2: add EXPORT_OP_STABLE_HANDLES flag to export operations
+792293f3b70cfd241f9536d13b0378afc819b9f8 nfs: add EXPORT_OP_STABLE_HANDLES flag to export operations
+98eb21f2a8c17727f53fae7e1bf0ff2d15dde41f jfs: add EXPORT_OP_STABLE_HANDLES flag to export operations
+baff33a7df6c62f1b2f9c9fabaa90dd31e69c97f jffs2: add EXPORT_OP_STABLE_HANDLES flag to export operations
+08456a171b2aedf77ff8a7b81e74a325cbca691f isofs: add EXPORT_OP_STABLE_HANDLES flag to export operations
+2180ed2e35a7fe0c69761078bd3ae40a29b08d52 gfs2: add EXPORT_OP_STABLE_HANDLES flag to export operations
+b8197414d6002c3961b7768458d0b4a87839b5f8 fuse: add EXPORT_OP_STABLE_HANDLES flag to export operations
+dd831bb42c52cdaf7bf1a3532f5cb485075d19de fat: add EXPORT_OP_STABLE_HANDLES flag to export operations
+65b9e1702c2bc5e9bbaa488d35c765bba261ca53 f2fs: add EXPORT_OP_STABLE_HANDLES flag to export operations
+c1e2a65961f23e148d9ce6a92f40e9f214ed2ecb nfsd: only allow filesystems that set EXPORT_OP_STABLE_HANDLES
 
-2ccbdb612d0d95f25c38189b83666ff0fb2bfb47 4884d4795a5ce8077bbb5b97e4c2fd51e312087f refs/heads/review-ilpo-next
------BEGIN PGP SIGNATURE-----
-
-iHUEABYIAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCaXd6NwAKCRBZrE9hU+XO
-MWFIAQD7hRBNyMa9fHI92SPGLwyBUd5xX7lD/8ugTN6DdnwASgD/VjrRJPfw+iiE
-dw2CZmMhp/ILAK3GnKuBkwowa93I/w0=
-=de4X
------END PGP SIGNATURE-----
-
---===============7509351255196245890==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2ccbdb612d0d-4884d4795a5c.txt
-
-433f7744cb302ac22800dc0cd50494319ce64ba0 platform/x86: alienware-wmi-wmax: Add support for new Area-51 laptops
-a584644a490d276907e56817694859eaac2a4199 platform/x86: alienware-wmi-wmax: Add AWCC support for Alienware x16
-7f3c2499da24551968640528fee9aed3bb4f0c3f platform/x86: alienware-wmi-wmax: Add support for Alienware 16X Aurora
-4dcb6e4af15bf45aa1526834e8f5e296ad7ce867 platform/x86/uniwill: Add TUXEDO Book BA15 Gen10
-e521dc1687834d0e8c7506f1fdf00daab4ebb51d platform/x86: asus-nb-wmi: Add keymap for display toggle
-f13bce715d1600698310a4a7832f6a52499d5395 platform/mellanox: mlxbf-pmc: Remove trailing whitespaces from event names
-a5b9fdd33c59a964a26d12c39b636ef85a25b074 platform/x86: dell-lis3lv02d: Add Latitude 5400
-05126063605f26f9228c69b1ff232ac6e78f72ab platform/x86: think-lmi: Add WMI certificate thumbprint support for ThinkCenter
-1461209cf813b6ee6d40f29b96b544587df6d2b1 platform/x86: msi-laptop: add missing sysfs_remove_group()
-15dd100349b8526cbdf2de0ce3e72e700eb6c208 platform/x86: ibm_rtl: fix EBDA signature search pointer arithmetic
-20e20b147cf7cb6780a5b95da2a0e37c52cd1015 platform/x86/intel/vsec: correct kernel-doc comments
-00c22b1e84288bf0e17ab1e7e59d75237cf0d0dc platform/x86/intel/pmt: Fix kobject memory leak on init failure
-d37cd54ebeac37a763fbf303ed25f8a6e98328ff platform/x86: samsung-galaxybook: Fix problematic pointer cast
-cbf3dc32609b9703b87fbd444c271821664478c6 platform/x86: ideapad-laptop: Reassign KEY_CUT to KEY_SELECTIVE_SCREENSHOT
-063185ba32747f69159777c66097cd8f428e8b7a platform/x86: asus-armoury: add support for GU605CR
-a05117150256dd0787f4e6d56b577b41488f28a4 platform/x86: asus-armoury: add support for GA403WR
-a22d893f490d9cd517dbf02549701add2318594c platform/x86: asus-armoury: add support for FA608UM
-499d987b65c03bacf3c17f32c2ad1408b751c708 platform/x86: asus-armoury: add support for G615LR
-e44c42c830b7ab36e3a3a86321c619f24def5206 platform/x86: hp-bioscfg: Fix out-of-bounds array access in ACPI package parsing
-66e245db16f0175af656cd812b6dc1a5e1f7b80a platform/x86/intel/pmt/discovery: use valid device pointer in dev_err_probe
-6a02651c4c4b710ecbaf798eb4feb57c97f2bc14 platform/x86: asus-armoury: fix ppt data for FA507R
-c6703f10c8cc36f53b867bdbdd5bacaaa47ce799 platform/x86: asus-armoury: add support for G835LW
-f5fc40734b0fcd356eabb8ab5abd57b80c286da6 platform/x86: asus-armoury: add support for GA403WM
-487764a514e97e3b921c4eb13ab35920e09f6b7d asus-armoury: fix ppt data for GA403U* renaming to GA403UI
-a54e9902e7edf74d0f305fb9107d15daa6549c2c platform/x86: asus-armoury: add support for GA403UV
-efbc288d15ca85fecbe6c19d1e55249138d68ca9 docs: alienware-wmi: fix typo
-c92724b40c2f36ca0f2a789cf8cb80dd51107f25 docs: fix PPR for AMD EPYC broken link
-3113bcf4ccf06c938f0bc0c34cf6efe03278badc platform/mellanox: Fix SN5640/SN5610 LED platform data
-2bf1877b7094c684e1d652cac6912cfbc507ad3e platform/x86/amd: Fix memory leak in wbrf_record()
-2e91919a67953609d34786807697410a6ffb760e platform/x86: asus-armoury: Add power limits for Asus G513QY
-e11e3e801193d149d0e322e0764778477337d731 platform/x86: asus-armoury: add support for GV302XV
-a06bb57b2e71d57c11054ba90b956c39210fcd67 platform/x86: asus-armoury: add support for FA401UV
-8ba4e0598d127f46f9ac74b8c54456a470ce685e platform/x86: asus-armoury: add support for FA617XT
-f7fffd2e3f92ff526bf3a620e5bdd58bbbb96ccd platform/x86: asus-wmi: fix sending OOBE at probe
-fdee1b09721605f532352628d0a24623e7062efb platform/x86: hp-bioscfg: Fix kobject warnings for empty attribute names
-25150715e0b049b99df664daf05dab12f41c3e13 platform/x86: hp-bioscfg: Fix kernel panic in GET_INSTANCE_ID macro
-467d4afc6caa64b84a6db1634f8091e931f4a7cb platform/x86: hp-bioscfg: Fix automatic module loading
-43098a53939e98e6c8191db4bac3c7ef9eed503c platform/x86: asus-armoury: fix ppt data for FA608UM
-d40d7f8e402bdf24d285f0ea5d6cbdae396e6810 platform/x86: asus-armoury: add support for G835L
-01f31c2fffae7550ec3bd392256b2566f9233834 platform/x86: asus-armoury: keep the list ordered alphabetically
-b3914291d985124e15ddc91b84fbb9dc356883e7 platform/x86: asus-armoury: add support for GA403WW
-40901719bd28a129471f80f98edca42548273458 platform/x86: acer-wmi: Extend support for Acer Nitro AN515-58
-4b11f2336e23d5c55b76591bd8ac39b059f68ad0 platform/x86: acer-wmi: Fix missing capability check
-6343e06788e2edb822cd871e3e198a4ef69e3223 Merge branch 'fixes' of into for-next
-2ee832305a25657d7cfb577bc30d8c1d43bfb951 platform/x86/amd: Use scope-based cleanup for wbrf_record()
-d8c560f76dcac7ff4c630d5d84958183adbf19d2 platform/x86: uniwill-laptop: Introduce device descriptor system
-7c9aa38a59f611c619d026c2d082d0e8c9b9069f platform/x86/uniwill: Implement cTGP setting
-8164a14b15008579801ba6ba3ae00d37ecc310e5 platform/x86/amd/pmf: Added a module parameter to disable the Smart PC function
-5d4ae0bffb6eeada6dd16ba52150457ae96c3725 platform/wmi: string-kunit: Add missing oversized string test case
-0cd98ed97f1cab77822f0afea2bd4dabadd12a8b HID: asus: simplify RGB init sequence
-3415a1beb3d876769e476cae2085bedb6b94da35 HID: asus: initialize additional endpoints only for certain devices
-629771528f76df2e6d8b1d5b9297a0c95b317676 HID: asus: use same report_id in response
-a96ec7a12e41a3f37784f3f69396facc659ec2d4 HID: asus: fortify keyboard handshake
-8baca948f6aad8866b4722f527d01bb4d4e22b6f HID: asus: move vendor initialization to probe
-ee1de467511811c71075e5750785d3c95cf45c5f HID: asus: early return for ROG devices
-efdcbec427f15e6514388c27cf5599604c95b788 platform/x86: asus-wmi: Add support for multiple kbd led handlers
-ba374d424cdd3050d2e1864e7b18393cf3a4d06f HID: asus: listen to the asus-wmi brightness device instead of creating one
-d384a3994712ddaec10ae37549c6f0b1a10e7b98 platform/x86: asus-wmi: remove unused keyboard backlight quirk
-f9a21738c6993c6720b8b82a7ead644a74497487 platform/x86: asus-wmi: add keyboard brightness event handler
-4884d4795a5ce8077bbb5b97e4c2fd51e312087f HID: asus: add support for the asus-wmi brightness handler
-
---===============7509351255196245890==--
+--===============4271433550021320721==--
