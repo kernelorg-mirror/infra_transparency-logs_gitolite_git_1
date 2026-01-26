@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7572337427739509224=="
+Content-Type: multipart/mixed; boundary="===============2867914615351512239=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Mon, 26 Jan 2026 21:28:57 -0000
-Message-Id: <176946293718.3205723.13590398852895831101@gitolite.kernel.org>
+Date: Mon, 26 Jan 2026 21:29:09 -0000
+Message-Id: <176946294963.3206088.14761427551264177551@gitolite.kernel.org>
 
---===============7572337427739509224==
+--===============2867914615351512239==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,36 +16,40 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: d3577a18f20cf564b4c5e49b02894e75d5629594
-    new: c6ab9603c91e7ec3c0f46444dcddd5d442e4eae3
-    log: revlist-d3577a18f20c-c6ab9603c91e.txt
+    old: c6ab9603c91e7ec3c0f46444dcddd5d442e4eae3
+    new: 7e82db0823d507831b2d80e5131924d5773cf94b
+    log: revlist-c6ab9603c91e-7e82db0823d5.txt
 
---===============7572337427739509224==
+--===============2867914615351512239==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d3577a18f20c-c6ab9603c91e.txt
+Content-Disposition: attachment; filename=revlist-c6ab9603c91e-7e82db0823d5.txt
 
-441172cffbcf18d959f5e334046c8aa6ca61e3b6 Merge branch into tip/master: 'irq/core'
-d1a8b29b06bc661bd83350e70d39fa48cfac83c8 Merge branch into tip/master: 'irq/drivers'
-fec3f810ddc6eda6380af140245a18873fc451f8 Merge branch into tip/master: 'irq/msi'
-0b5fd5451892eb345f04692527554d9bb32503ef Merge branch into tip/master: 'locking/core'
-55be0459117e868cccaa3e26de17b6ecda631fbf Merge branch into tip/master: 'perf/core'
-d409f2574c66bde7bcc071bf3b0d6c54f160c909 Merge branch into tip/master: 'sched/core'
-09399874c1d6b2e171b41353d62c86271affd93c Merge branch into tip/master: 'timers/core'
-c93dca535e86d89c1a60a92f315a9fd56eb52869 Merge branch into tip/master: 'timers/vdso'
-ebc5b2113a573c5ee2aef6c62ca536ced1fa8486 Merge branch into tip/master: 'x86/alternatives'
-a70b83a835c7d59c52483d168517c2f66d9f0413 Merge branch into tip/master: 'x86/apic'
-def6426a4cfe89ef205684561621573b4d907b14 Merge branch into tip/master: 'x86/boot'
-547b28651452c805b7fd13b20dd44d8094008e30 Merge branch into tip/master: 'x86/bugs'
-78820638f3f139c9289260ae46b152e07704fdf3 Merge branch into tip/master: 'x86/cache'
-133e8f30fb5f7d31c956c292f6f88923589c7343 Merge branch into tip/master: 'x86/cleanups'
-ca9b7046508426412984ce4581afc21bc38fcfb3 Merge branch into tip/master: 'x86/cpu'
-37cc657bfc8cf8cca04476673cc17efeb9bd3dfc Merge branch into tip/master: 'x86/entry'
-da8c3fa52e772d984bdd6e22dda94467f88f0bed Merge branch into tip/master: 'x86/irq'
-24c3ea338a118cfc3277ffebf59602f0d55fdac3 Merge branch into tip/master: 'x86/microcode'
-8e5cf6523ff6f235a5c61c16999aa3944a0a7019 Merge branch into tip/master: 'x86/misc'
-774956b33149b8d7dcda9b0f00660238992b0527 Merge branch into tip/master: 'x86/paravirt'
-c6ab9603c91e7ec3c0f46444dcddd5d442e4eae3 Merge branch into tip/master: 'x86/sev'
+cab012375122304a6343c1ed09404e5143b9dc01 fuse: fix conversion of fuse_reverse_inval_entry() to start_removing()
+10dcd5110678c6b241bbcf062f72ea14fb3597f3 nfs: properly disallow delegation requests on directories
+b9a9be4d3557b97303ac6c8b5e153b7ef569d886 smb/client: properly disallow delegations on directories
+5d65a70bd0437d2a7762164eb5015f6975937986 9p: don't allow delegations to be set on directories
+ce946c4fb98c95519ee39ab7d4b117ff15f09efa gfs2: don't allow delegations to be set on directories
+ffb321045b0f1cd8bcea215269fbaa17c12da038 ceph: don't allow delegations to be set on directories
+8a5511eeaa5c4e5c2be6209abe549302b70311b0 vboxsf: don't allow delegations to be set on directories
+7d42f2b1cc3a60a71784967384ddcf29fe3f35ed Merge patch series "vfs: properly deny directory leases on filesystems with special lease handling"
+c644bce62b9c6b441143a03c910f986109c47001 readdir: require opt-in for d_type flags
+543467d6fe97e27e22a26e367fda972dbefebbff writeback: fix 100% CPU usage when dirtytime_expire_interval is 0
+30ef9a20f1fdf6ab483d64fe3d54ba7d07b9b46f docs: clarify that dirtytime_expire_seconds=0 disables writeback
+e16688084df76e719b329a1a56b338ec491002e0 Merge patch series "Fix vm.dirtytime_expire_seconds=0 causing 100% CPU"
+ab7ad7abb3660c58ffffdf07ff3bb976e7e0afa0 romfs: check sb_set_blocksize() return value
+561940a7ee81319b9cba06d2b7ba6b45a5c41cbc iomap: wait for batched folios to be stable in __iomap_get_folio
+e93b31d0816201f9fd8daeaf69d6db99463d3e05 writeback: use round_jiffies_relative for dirtytime_work
+4973d95679fb4f8bb4413dcb3bce435ef848285d fuse: use private naming for fuse hash size
+cb8d2bdcb8241b66ca4ac4868f20e12cd6881ebc fuse: fix race when disposing stale dentries
+1e2c1af1beb395841743e240a59ab37edc9a7d33 fuse: make sure dentry is evicted if stale
+09f7a43ae501541030f42670351032f3c8bfa06e fuse: add need_resched() before unlocking bucket
+3926746b553455faaff2387b9a617c98d936980d fuse: clean up fuse_dentry_tree_work()
+fa79401a9c35fe2ba590599d7617789761f574a9 fuse: shrink once after all buckets have been scanned
+79d11311f64d3e9fbc20ac95b7df6f917221329f vfs: document d_dispose_if_unused()
+6358461178ca29a87c66495f1ce854388b0107c3 Merge patch series "fuse: fixes and cleanups for expired dentry eviction"
+fcb70a56f4d81450114034b2c61f48ce7444a0e2 Merge tag 'vfs-6.19-rc8.fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
+7e82db0823d507831b2d80e5131924d5773cf94b Merge branch 'linus'
 
---===============7572337427739509224==--
+--===============2867914615351512239==--
