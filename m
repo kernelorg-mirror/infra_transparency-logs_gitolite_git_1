@@ -1,26 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============3335467143334765803=="
+Content-Type: multipart/mixed; boundary="===============6871399763329651653=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/westeri/thunderbolt
-Date: Mon, 26 Jan 2026 11:00:54 -0000
-Message-Id: <176942525405.2686135.9253560356109042853@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pinctrl/intel
+Date: Mon, 26 Jan 2026 11:01:37 -0000
+Message-Id: <176942529773.2686627.5244401150635605784@gitolite.kernel.org>
 
---===============3335467143334765803==
+--===============6871399763329651653==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/westeri/thunderbolt
+repo: pub/scm/linux/kernel/git/pinctrl/intel
 user: westeri
 changes:
-  - ref: refs/heads/fixes
+  - ref: refs/heads/master
     old: 24d479d26b25bce5faea3ddd9fa8f3a6c3129ea7
     new: 63804fed149a6750ffd28610c5c1c98cce6bd377
     log: revlist-24d479d26b25-63804fed149a.txt
 
---===============3335467143334765803==
+--===============6871399763329651653==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -479,4 +479,4 @@ f9e6e6d210669f24697e615b68b5abbae9d7a32e Merge tag 'keys-trusted-next-6.19-rc7' 
 0237777974728cc5a6f45347b7eca473ab6ef90a Merge tag 'scsi-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
 63804fed149a6750ffd28610c5c1c98cce6bd377 Linux 6.19-rc7
 
---===============3335467143334765803==--
+--===============6871399763329651653==--
