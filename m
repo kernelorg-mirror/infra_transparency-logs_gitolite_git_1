@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8538219839880195755=="
+Content-Type: multipart/mixed; boundary="===============0375818497404027497=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ulfh/mmc
-Date: Mon, 26 Jan 2026 10:56:34 -0000
-Message-Id: <176942499428.2681491.9698105601782905611@gitolite.kernel.org>
+Date: Mon, 26 Jan 2026 10:56:53 -0000
+Message-Id: <176942501389.2681935.11430372723850522084@gitolite.kernel.org>
 
---===============8538219839880195755==
+--===============0375818497404027497==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,20 +15,74 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ulfh/mmc
 user: ulfh
 changes:
-  - ref: refs/heads/next
-    old: a2131c41dcbf636e3b4bb0ba548edfbd97b31bbf
-    new: 9d737f9f1fcd5a83157ba68aa30b16bc1dc1b615
-    log: revlist-a2131c41dcbf-9d737f9f1fcd.txt
-  - ref: refs/tags/v6.19-rc7
-    old: 0000000000000000000000000000000000000000
-    new: ed4cdcc0b03e72cfdffbff9f0ea24338517bc893
+  - ref: refs/heads/fixes
+    old: 5cfc828502cbd0c827113bdb5694c2658af2c37c
+    new: 63804fed149a6750ffd28610c5c1c98cce6bd377
+    log: revlist-5cfc828502cb-63804fed149a.txt
 
---===============8538219839880195755==
+--===============0375818497404027497==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a2131c41dcbf-9d737f9f1fcd.txt
+Content-Disposition: attachment; filename=revlist-5cfc828502cb-63804fed149a.txt
 
+1054f19572acbbec80e2339dbf61f2b40ffb918c Merge tag 'drm-xe-fixes-2025-12-30' of https://gitlab.freedesktop.org/drm/xe/kernel into drm-fixes
+9abfe0b2e0cb93b9cf59a82cdcc0185148c53cdf Merge tag 'drm-misc-fixes-2025-12-29' of https://gitlab.freedesktop.org/drm/misc/kernel into drm-fixes
+7be19f9327d9a015ff97f97381e3bec163cd93cb Merge tag 'drm-intel-fixes-2025-12-31' of https://gitlab.freedesktop.org/drm/i915/kernel into drm-fixes
+95cc9e7cf03d3646abce4129d5c013af33a7df99 x86/kvm: Avoid freeing stack-allocated node in kvm_async_pf_queue_task
+9be25402d8522e16e5ebe84f2b1b6c5de082a388 ALSA: hda/realtek: Add quirk for Acer Nitro AN517-55
+7711f4bb4b360d9c0ff84db1c0ec91e385625047 netfilter: nft_set_pipapo: fix range overlap detection
+a675d1caa2041f05f6343fad67b04f8babf32217 selftests: netfilter: nft_concat_range.sh: add check for overlap detection bug
+36a3200575642846a96436d503d46544533bb943 netfilter: nft_synproxy: avoid possible data-race on update operation
+2bafeb8d2f380c3a81d98bd7b78b854b564f9cd4 netfilter: replace -EEXIST with -EBUSY
+fb21116099bbea1fc59efa9207e63c4be390ab72 phy: broadcom: ns-usb3: Fix Wvoid-pointer-to-enum-cast warning (again)
+bc277212b41ade2137b6278db24652d0847e9a91 pinctrl: pic64gx-gpio2: Add REGMAP_MMIO dependency
+ebc18e9854e5a2b62a041fb57b216a903af45b85 pinctrl: qcom: lpass-lpi: mark the GPIO controller as sleeping
+5623eb1ed035f01dfa620366a82b667545b10c82 io_uring/tctx: add separate lock for list of tctx's in ctx
+70eafc743016b1df73e00fd726ffedd44ce1bdd3 io_uring/memmap: drop unused sz param in io_uring_validate_mmap_request()
+69153e8b97ebe2afc0dd101767a9805130305500 block, bfq: update outdated comment
+9700b0fccf386b671e6f8401ddea6c5669cd0914 gpiolib: allow multiple lookup tables per consumer
+cb0451e33be047fff7137f58d9996370e11fb344 gpio: shared: verify con_id when adding proxy lookup
+49416483a953662aa53c6d9bef651757d4a95ba5 gpio: shared: allow sharing a reset-gpios pin between reset-gpio and gpiolib
+a7ac22d53d0990152b108c3f4fe30df45fcb0181 gpiolib: fix race condition for gdev->srcu
+014a17deb41201449f76df2b20c857a9c3294a7c gpio: pca953x: handle short interrupt pulses on PCAL devices
+d077e8119ddbb4fca67540f1a52453631a47f221 netfilter: nf_tables: fix memory leak in nf_tables_newrule()
+7811ba452402d58628e68faedf38745b3d485e3c netfilter: nf_conncount: update last_gc only when GC has been performed
+1e876e5a0875e71e34148c9feb2eedd3bf6b2b43 gpio: mpsse: fix reference leak in gpio_mpsse_probe() error paths
+9ed7a28225af02b74f61e7880d460db49db83758 ALSA: hda/realtek: add HP Laptop 15s-eq1xxx mute LED quirk
+047b4e783ce2af73b3287dfabfeaa51684932757 Merge tag 'v6.19-rc3-smb3-client-fixes' of git://git.samba.org/sfrench/cifs-2.6
+e3a97ab1bbc36be6467fd606c0af1120b6146ddc Merge tag 'v6.19-rc3-smb3-server-fixes' of git://git.samba.org/ksmbd
+9b043680446067358913edc2e9dd71bf8ffae208 Merge tag 'drm-fixes-2026-01-02' of https://gitlab.freedesktop.org/drm/kernel
+32cb3840386fd3684fbe8294cfc0a6684417139e rust: dma: fix broken intra-doc links
+a9a42f0754b6c69525612d678b73da790e28b9fd rust: device: fix broken intra-doc links
+c6c209ceb87f64a6ceebe61761951dcbbf4a0baa NFSD: Remove NFSERR_EAGAIN
+e901c7fce59e72d9f3c92733c379849c4034ac50 NFSD: Fix permission check for read access to executable-only files
+2857bd59feb63fcf40fe4baf55401baea6b4feb4 nfsd: provide locking for v4_end_grace
+fb321998de7639f1954430674475e469fb529d9c nfsd: use correct loop termination in nfsd4_revoke_states()
+d0424066fcd294977f310964bed6f2a487fa4515 nfsd: check that server is running in unlock_filesystem
+0b88bfa42e5468baff71909c2f324a495318532b NFSD: net ref data still needs to be freed even if net hasn't startup
+b993744a972722b4e15b8d2afee1a053767f4dd4 Merge tag 'loongarch-fixes-6.19-1' of git://git.kernel.org/pub/scm/linux/kernel/git/chenhuacai/linux-loongson
+71b62ed6cea91f13b05530d013d3e82bd8a856aa Merge tag 'x86-urgent-2026-01-02' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+509b5b1152181447bb001f7beb0a852530ad2a74 Merge tag 'io_uring-6.19-20260102' of git://git.kernel.org/pub/scm/linux/kernel/git/axboe/linux
+bea82c80a5d64247045280b6d23e3ff95c355f56 Merge tag 'block-6.19-20260102' of git://git.kernel.org/pub/scm/linux/kernel/git/axboe/linux
+3d35fa1190a1b4d413cb1cfa4baf74215b0b9565 Merge tag 'linux_kselftest-fixes-6.19-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/shuah/linux-kselftest
+6ce4d44fb0ca00644756c7e857166d12ffb4b833 Merge tag 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/rdma/rdma
+dec1ecf2c707ff34aa3224fd49aeee0a852a62f7 Merge tag 'libcrypto-fixes-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/ebiggers/linux
+bbbc721033c076bad736c48a2b9f75bee4003607 Merge tag 'pm-6.19-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
+235a1eb8d2dcc49a6cf0a5ee1aa85544a5d0054b of: unittest: Fix memory leak in unittest_data_add()
+805f9a061372164d43ddef771d7cd63e3ba6d845 Merge tag 'perf-tools-fixes-for-v6.19-2026-01-02' of git://git.kernel.org/pub/scm/linux/kernel/git/perf/perf-tools
+3de49966499634454fd59e0e6fecd50baab7febd pmdomain: imx8m-blk-ctrl: Remove separate rst and clk mask for 8mq vpu
+aacb0a6d604ac9953b261963efe25ae7521b7c58 Merge tag 'pmdomain-v6.19-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/ulfh/linux-pm
+c1ef9a6cabb34dbc09e31417b0c0a672fe0de13a Revert "drm/atomic-helper: Re-order bridge chain pre-enable and post-disable"
+33e8150bd32d7dc25c977bb455f1f5d54bfd5241 Revert "drm/mediatek: dsi: Fix DSI host and panel bridge pre-enable order"
+d1c7dc57ff2400b141e6582a8d2dc5170108cf81 drm/atomic-helper: Export and namespace some functions
+2fc04340cf30d7960eed2525d26ffb8905aca02b drm/tidss: Fix enable/disable order
+e8b3627bec357698f2d4d6dbf27cdcfa0e9d8715 nouveau: don't attempt fwsec on sb on newer platforms.
+d42d5715dcb559342ff356327b241c53a67584d9 EDAC/i3200: Fix a resource leak in i3200_probe1()
+0ff7c44106b4715fc27a2e455d9f57f1dfcfd54f EDAC/x38: Fix a resource leak in x38_probe1()
+54e82e93ca93e49cb4c33988adec5c8cb9d0df31 Merge tag 'core_urgent_for_v6.19_rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+a428e0da1248c353557970848994f35fd3f005e2 net: marvell: prestera: fix NULL dereference on devlink_alloc() failure
+d7065436e8a04520f60c18240b775861be7999d2 net: bnge: add AUXILIARY_BUS to Kconfig dependencies
 3128df6be147768fe536986fbb85db1d37806a9f bridge: fix C-VLAN preservation in 802.1ad vlan_tunnel egress
 34f3ff52cb9fa7dbf04f5c734fcc4cb6ed5d1a95 net: mscc: ocelot: Fix crash when adding interface under a lag
 4c0856c225b39b1def6c9a6bc56faca79550da13 inet: ping: Fix icmp out counting
@@ -996,62 +1050,5 @@ c1a5135e60f1a026f135c6b0964cc8f4e1c4a8bb Merge tag 'input-for-v6.19-rc6' of git:
 f9e6e6d210669f24697e615b68b5abbae9d7a32e Merge tag 'keys-trusted-next-6.19-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/jarkko/linux-tpmdd
 0237777974728cc5a6f45347b7eca473ab6ef90a Merge tag 'scsi-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
 63804fed149a6750ffd28610c5c1c98cce6bd377 Linux 6.19-rc7
-0f0390c11249f4639be3bccfb1040d06c5b29bd9 mmc: dw_mmc: Remove unused struct dma_pdata
-abddd785e3df7d4294de387cd10dc9592354e647 mmc: dw_mmc: add dw_mci_prepare_desc() for both of 32bit and 64bit DMA
-429b79a38fb1176d93096b2eeb977ecebf482f43 mmc: sdhci-msm: Enable ICE for CQE-capable controllers with non-CQE cards
-b40ebb75b7461c69ee4da1e49cc2fed309a96349 mmc: core: Adjust MDT beyond 2025
-bf60037e32e963f8053c3372c438ba272b7c30c0 mmc: core: Add quirk for incorrect manufacturing date
-2656cda762104393b6ffa59a709cf23999307a1f dt-bindings: mmc: mtk-sd: Add support for MT8189 SoC
-a698be4e3501765d4812bb5722387bfbcc783e86 mmc: mtk-sd: add support for SPM resource release control
-8a48aa53f3fc412e9d7f5915be79ea8f91889033 mmc: mtk-sd: add support for MT8189 SoC
-41cd37939d5aec7b4c55e974958840bbfeacf0c6 mmc: sdhci-esdhc-imx: wait for data transfer completion before reset
-29d762da6a6dd31e4a1f79964aa820ec35a4c479 dt-bindings: mmc: cdns,sdhci: Drop required "resets" on AMD Pensando ELBA
-1b2437f7d720d13fd45042690648c25cfe48d561 dt-bindings: mmc: brcm,iproc-sdhci: Allow "dma-coherent" and "iommus" properties
-4eb333d2b7c7d272596a562a4aac952d3dab7775 dt-bindings: mmc: arasan,sdhci: Allow "dma-coherent" property
-803d6558e8df908747acef1e4aa8fae3b9522750 mmc: dw_mmc: Remove vqmmc_enabled from struct dw_mci and update the reset
-251b9e641964db18a1703e713db7e04472b866ae mmc: dw_mmc: Remove check before calling mmc_regulator_set_ocr()
-1a3aca97f4661277c0c0f28f5caeaad113b19695 mmc: dw_mmc: Remove unused header files and keep alphabetical order
-1183d1cfc7058b513dcbbe9203fe770224416281 mmc: dw_mmc: Move struct mmc_host from struct dw_mci_slot to struct dw_mci
-db01e9318bd8583229bf9acaa2dd387e2ac29e0f mmc: dw_mmc: Let variant drivers to use struct dw_mci as possible
-56d42dd1abc588ce315095dd04809ed8c2cecd57 mmc: dw_mmc: Move flags from struct dw_mci_slot to struct dw_mci
-dd14670b9b717b245bf8f2c9306f962faae69f20 mmc: dw_mmc: Remove id and ctype from dw_mci_slot
-2c924f47fb74b696e3e9b49ed1345b7cc868690e mmc: dw_mmc: Remove sdio_id from struct dw_mci_slot
-579533ee1e8e0c6d73d5ae66b1c42998601435a5 mmc: dw_mmc: Move clock rate stuff from struct dw_mci_slot to struct dw_mci
-cc3d225a5c98b7bfea8af7f3b496c8528561161b mmc: dw_mmc: Remove mrq from struct dw_mci_slot
-f849eaa031071e902b568217417fb9d138ae02f5 mmc: dw_mmc: Remove queue from dw_mci
-8523955de0cb00434b463e8975e693cd30fa499a mmc: dw_mmc: Introduce dw_mci_alloc_host()
-49482ab5d2af65c7928c0ddbc5ed0af94fba10a6 mmc: dw_mmc: Remove struct dw_mci_slot
-a883b88ea76b497c8d89d4d36bc9d05ec989b033 dt-bindings: mmc: spacemit,sdhci: add reset support
-eca3cdbd15d4ad24b1f9afd3a81721e598cbadcf mmc: sdhci-of-k1: add reset support
-65cb057223a127d9979ca68197c67e8dcac23290 mmc: cavium: Use clamp to simplify cvm_mmc_set_clock
-0e510c97f5b4d78bb11d6de92c4dbaa07af1b9f5 mmc: atmel-mci: Simplify with scoped for each OF child loop
-220923eee48d13158d014e64914383b604b2f94f mmc: cavium-octeon: Simplify with scoped for each OF child loop
-088e5673438154b3bf29c6806965d69dfebf7470 mmc: jz4740: Fix Wvoid-pointer-to-enum-cast warning
-2c8e217dee7cfe53a1199f017113fbb56ad91499 mmc: sdhci-of-aspeed: Simplify with scoped for each OF child loop
-b5fd5741cd6de4e3dcb40e639b829226c7478d97 dt-bindings: mmc: arm,pl18x: Do not use plural form of a proper noun PrimeCell
-51b5795c5b7e15f2062b59c5e315fe6901d87a89 mmc: dw_mmc-rockchip: Fix runtime PM support for internal phase support
-345e83fda3f5dc76c7639d3901794f35bdc04f7d mmc: dw_mmc: Check return value of dma_ops->init() in resume
-695803460050d9ae22b30db5ac0cbbf9efa995ad mmc: dw_mmc: Remove dma_ops from struct dw_mci_board
-004cea0178b637d08396c45537e5a6f6b29089a4 mmc: dw_mmc: Remove SDMMC_INT_ERROR
-9544921740df7873c2a856d5e59af53dd920b4a6 mmc: dw_mmc: Remove assignment of pdata in dw_mci_pltfm_register()
-3d2858f6ccc1a3330bbdce4a972c632af5777fa8 mmc: dw_mmc: Remove caps2 and pm_caps from struct dw_mci_board
-297c03eaaa76ebbeeee617ece1202202e09253a7 mmc: dw_mmc: Move rstc from struct dw_mci_board to struct dw_mci
-aad634393c3e4a6b5c5e3483f4297259c8b401d2 mmc: dw_mmc: Remove fifo_depth from struct dw_mci_board
-e7389b09ff3b1216345c98173c358db5ee844707 mmc: dw_mmc: Move detect_delay_ms from struct dw_mci_board to struct dw_mci
-248622b21fc1fc048fa9b51a543c327e8b6ca645 mmc: dw_mmc: Remove bus_hz from struct dw_mci_board
-1fd247a66f8899060a2a40eed1d9fee735856784 mmc: dw_mmc: Remove struct dw_mci_board
-023996e93ead37371a0cbe354edf83cb5c82c35a mmc: dw_mmc: Remove redundant struct mmc_data forward declaration
-289e030821aaae90e644e44d6a9d1a6ab7795a36 mmc: dw_mmc: Remove DW_MCI_SEND_STATUS and DW_MCI_RECV_STATUS macros
-1dc59d7190ec072d077c7a10941cadac21871e1f mmc: dw_mmc: Improve dw_mci_get_cd()
-cf4a5659ecb33c57550ea8da34c015cdab8b6a83 mmc: dw_mmc: Remove unused register access macros
-5a6db200cb27bf034d5fd6628011b4939f7bee62 mmc: dw_mmc: Remove check before calling mmc_regulator_set_vqmmc()
-df55e743eacb2130866f0e8bbd65a29da84f945b mmc: dw_mmc-pci: Use BAR_2 and pcim_iomap_region()
-72235cc4b371f35631bc0af7a2d5ac0d4e2dc62b mmc: dw_mmc-pltfm: use modern PM macros
-dfa7a054c81b69d9ddf63f1ef66e1273c24e823f mmc: dw_mmc: Implement Host Software Queue support
-c1631932959880428fb37e251a9d6e79d89f4a2a mmc: sdio: add NXP vendor and IW61x device IDs
-bd97b1b0f013f5c2b73716dc7c17a246e4685776 mmc: sdhci: Stop advertising the driver in dmesg
-b9e3c45e181958c681bdbbcedee9f4219373469b mmc: mmci: Fix device_node reference leak in of_get_dml_pipe_index()
-a144002c6fbb049cd7a621e4a85b540e454463dd dt-bindings: mmc: spacemit,sdhci: add support for K3 SoC
-9d737f9f1fcd5a83157ba68aa30b16bc1dc1b615 mmc: sdhci-of-k1: spacemit: Add support for K3 SoC
 
---===============8538219839880195755==--
+--===============0375818497404027497==--
