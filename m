@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8061788020551794953=="
+Content-Type: multipart/mixed; boundary="===============6182227645370279275=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Mon, 26 Jan 2026 11:04:54 -0000
-Message-Id: <176942549439.2688934.16275806668917147725@gitolite.kernel.org>
+Date: Mon, 26 Jan 2026 11:04:57 -0000
+Message-Id: <176942549762.2689073.8670477013705424598@gitolite.kernel.org>
 
---===============8061788020551794953==
+--===============6182227645370279275==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,42 @@ repo: pub/scm/linux/kernel/git/gregkh/char-misc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/char-misc-next
+  - ref: refs/heads/char-misc-testing
     old: ec833566da57811d9fa3f11745e7153d9155ad66
     new: dbd91d4f55ac4917b0b7f48b02eb8539805d0c85
     log: revlist-ec833566da57-dbd91d4f55ac.txt
 
---===============8061788020551794953==
+--===============6182227645370279275==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1769425490 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1769425497 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1769425489-c1fe71b814c735a4243845e5313d9132a69fc55d
+nonce 1769425496-bbbd3de7ddba8b2b76a55f48b5446a5a52b45f21
 
-ec833566da57811d9fa3f11745e7153d9155ad66 dbd91d4f55ac4917b0b7f48b02eb8539805d0c85 refs/heads/char-misc-next
+ec833566da57811d9fa3f11745e7153d9155ad66 dbd91d4f55ac4917b0b7f48b02eb8539805d0c85 refs/heads/char-misc-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAml3SlIbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+uysP/0n7Tq8hUwHlDsZ7lMjO
-pNbps+yAQxxkH5LcOjwFP/D1zTTj+OGPWshMFUoJMEvCJBiZ230+mvnm27ZQVpcR
-CNFbg+H4+ncqo/DBcoy73YaKLsR1cDiZ4KXv1oGeert+mvedFKkZ+Ao8RdDq45dn
-BP/qC37lHhfAPy4RDD/PRrcJ8dIwidvnumVFm/97GEgxwz2WSArKHk4NxN5hEdLO
-B6g09J0Lk+wTsveC2koBhsCQ6gOeQMWJ3A0jJtsYa4JQNT/xwDpwyscTDf25KU6/
-fZGpXLlFt8qrSk1LD8uY5cz4XB3sRTONDJvy3KzbxdBIcBc+5BTU+CvmHggwUsbW
-5BrZkUiK8LrkwUTXXx4HCJNSWhv2Es8kHp3swjvra0e7pGAFxq8gnx/NtNwEYOcA
-dSeh8HR7eOQMgYsq+HRzEEEzyWVxM+Rcbr2uty8AHkZE2H28Rjj4VuDkRmDNB7Mm
-0kW+f50Sivg3NfULWrNOiFWlXfc2FNN4HlOybURmALpBfbHiyiP36pCsvpaEz7X7
-ckiR6CMzfM8xKbAShf2OuBl8ynCj+oknrPYmrD+g0YTwsUkL4JRek5IPWlHaYFkl
-+eRH14ZHW7DAf0rPwEZkxG6JANSS8T07/Sqac1/SWEHlaVRm1CUx31XxkAuIKTM5
-B3HucOz94Qb2SI1VKBsc477O
-=7pwi
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAml3SlkbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+3QUP+gJzR4qpSBu8x9890Vo/
+fQKgDaMMSN0oH763YNs13E8PqfvcvxbNqP8gJoRoMO7fKArn3mblEGHEy2F5tT2E
+EgJ0A9AjzI/iqiAIkieqbsuzSEG9Tq52dJ4MOsyDR/chMsafk3NkF9HEkVIzGQ8s
+32T0XEoJDcrqVPqN36wwUxNNS9mYrwN2gz5kUwRsg5C94d2mynfLyJPXB0SATq31
+hLDUhZo1dkYi7YHLyOZiKgw9PQMq5szqiCJY3Ect4doLWODaLDW1WqzXej3HXoRS
+dU7Zmkhqav/aglKM7psIEB4j+AUmPPfDXEaUEepQPH3tR1xrLN0tG8fgHyEYzi+G
+H9xFT6CdBac1/WMR8Yhy/WV81l946LOWR9l9oC9ltVpMg/ZQnzgvERThw+EZInXb
+Bzxo3h5MNumPX4iM19BrHiCCH6IV+UOdJSQEOY5IOC4y2W9Qb+qWIaXNQmRCJBhG
+i2ZkD4gwWFYeeFRv7wDzJPBeGY2XIjx1McQaSq2CzEonjRa5lDpNt82U9yjIE8Ws
+B3/TpPjDzy9DYOp07abQTFj4nCfCMDmVnZyrcTuRbDsTBap5HLDYZvKekJYm8fmK
+E2X0/f9DpeTSWzZ5H1Nl/foUKu22+ik94cOKoFjLpRoIJVYgCrN4RjjRX+vCnauZ
+CHZ0S3YIgPm+vVR3ST+c/bfP
+=HE18
 -----END PGP SIGNATURE-----
 
---===============8061788020551794953==
+--===============6182227645370279275==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -916,4 +916,4 @@ f9e6e6d210669f24697e615b68b5abbae9d7a32e Merge tag 'keys-trusted-next-6.19-rc7' 
 63804fed149a6750ffd28610c5c1c98cce6bd377 Linux 6.19-rc7
 dbd91d4f55ac4917b0b7f48b02eb8539805d0c85 Merge 6.19-rc7 into char-misc-next
 
---===============8061788020551794953==--
+--===============6182227645370279275==--
