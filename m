@@ -1,19 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Mon, 26 Jan 2026 21:59:20 -0000
-Message-Id: <176946476013.3231224.12898862922210252502@gitolite.kernel.org>
+Subject: post-receive: pub/scm/bluetooth/bluez
+Date: Mon, 26 Jan 2026 22:00:50 -0000
+Message-Id: <176946485013.3234251.3583856600332873845@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-user: jarkko
+repo: pub/scm/bluetooth/bluez
+user: vudentz
 changes:
-  - ref: refs/heads/vcam
-    old: b98e7e414f640664e12bca5fa5f127bcff9b3c2c
-    new: 66d4872e5d77335526a8e5af516eb94f8dcb04bb
+  - ref: refs/heads/master
+    old: 521088388babaa02deca64abf729ebae9d7f1a2b
+    new: 687c62a08ee824edad4aab34c966b42ce7eb2a12
     log: |
-         66d4872e5d77335526a8e5af516eb94f8dcb04bb media: v4l2-vcam
+         3f21f7817a405c765737cc177148c31618bd0b69 doc: Update .gitignore for new daemon man page locations
+         76cfed12730d74ca634eb8001ef3d047af76ecb3 doc/qualification: Add PICS and howto for the GAP qualification
+         2c72364163e0db6b3f61ccb78a2b1b10f908c1cf doc/qualification: Add PICS and howto for the GATT qualification
+         687c62a08ee824edad4aab34c966b42ce7eb2a12 doc/qualification: Add PICS and howto for the SM qualification
          
