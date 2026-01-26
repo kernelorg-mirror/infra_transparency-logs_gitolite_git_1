@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2877277891618452329=="
+Content-Type: multipart/mixed; boundary="===============6694491037305539420=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netfilter/nf-next
-Date: Mon, 26 Jan 2026 17:14:21 -0000
-Message-Id: <176944766152.2997697.15993597619947788910@gitolite.kernel.org>
+Date: Mon, 26 Jan 2026 17:15:25 -0000
+Message-Id: <176944772589.3000348.1678849125417048817@gitolite.kernel.org>
 
---===============2877277891618452329==
+--===============6694491037305539420==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/netfilter/nf-next
 user: fwestphal
 changes:
-  - ref: refs/heads/main
+  - ref: refs/heads/testing
     old: 9abf22075da98c615be2f608ec1167329a71eafd
-    new: bf2e36c9dab95e41516fbcf7b1cc804539b2d021
-    log: revlist-9abf22075da9-bf2e36c9dab9.txt
+    new: 000693f7e695b5337ad4af05ddca060b64268a89
+    log: revlist-9abf22075da9-000693f7e695.txt
 
---===============2877277891618452329==
+--===============6694491037305539420==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9abf22075da9-bf2e36c9dab9.txt
+Content-Disposition: attachment; filename=revlist-9abf22075da9-000693f7e695.txt
 
 d83d80347dea37e568ca9abf969ee909859a5a7d idpf: introduce local idpf structure to store virtchnl queue chunks
 d1061502f353d5e1a8937181b84b722e75fabf11 idpf: introduce idpf_q_vec_rsrc struct and move vector resources to it
@@ -104,5 +104,14 @@ c2e99887807eb1b4fea7e5f63bbd6b5512879293 net: usb: sr9700: use ETH_ALEN instead 
 4a7bbaa663f58f63c6e99930ec1ddee418104f92 net: usb: sr9700: rename register write commands for clarity
 116af5f2d015da415c036b3bc992c04522d0ae80 Merge branch '200GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/next-queue
 bf2e36c9dab95e41516fbcf7b1cc804539b2d021 dt-bindings: net: dsa: fix typos in bindings docs
+12940bd724a04bb48a5eb3014a57e7d1cd7b643c netfilter: Add ctx pointer in nf_flow_skb_encap_protocol/nf_flow_ip4_tunnel_proto signature
+552f0962033cdbdeb687e10e06f3261c51b88013 netfilter: Introduce tunnel metadata info in nf_flowtable_ctx struct
+54e5502c896d80e95e3e1325337bd344439ccc82 netfilter: flowtable: Add IP6IP6 rx sw acceleration
+1ff3279217b85f45f0cecbe7548cc94abb003375 netfilter: flowtable: Add IP6IP6 tx sw acceleration
+51bc577d07e141c35bc75f389526a6efc254c6ef selftests: netfilter: nft_flowtable.sh: Add IP6IP6 flowtable selftest
+db7a57de5002a80ac2f699dbdb59cddf9b2ca617 netfilter: xt_time: use is_leap_year() helper
+79378d3c8fe06138ba7f27349ae6e970fb2a231c netfilter: nfnetlink_queue: optimize verdict lookup with hash table
+c75ab5d02084299bae12442b190f2ca927ae05c5 netfilter: nfnetlink_queue: do shared-unconfirmed check before segmentation
+000693f7e695b5337ad4af05ddca060b64268a89 selftests: netfilter: nft_queue.sh: add udp fraglist gro test case
 
---===============2877277891618452329==--
+--===============6694491037305539420==--
