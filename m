@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
-Date: Mon, 26 Jan 2026 14:45:44 -0000
-Message-Id: <176943874417.2872822.9501030866243685129@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/next-utils/tools
+Date: Mon, 26 Jan 2026 14:52:15 -0000
+Message-Id: <176943913576.2877135.1439232313248286214@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/soc/soc
-user: arnd
+repo: pub/scm/utils/next-utils/tools
+user: broonie
 changes:
-  - ref: refs/heads/tegra/dt32
-    old: 0000000000000000000000000000000000000000
-    new: 4d93678236678c4b6b0076fd11f4611a22b7e70b
+  - ref: refs/heads/main
+    old: c1a8f58b294740d89896afedde8038c99e38023c
+    new: c05bc103ca40726ccf4f7ad4a3231ab7879b4150
+    log: |
+         c05bc103ca40726ccf4f7ad4a3231ab7879b4150 do_merge: Fix logic inversion
+         
