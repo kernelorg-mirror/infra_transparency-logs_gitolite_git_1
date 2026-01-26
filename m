@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5315986700475704912=="
+Content-Type: multipart/mixed; boundary="===============6319930237246657960=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Mon, 26 Jan 2026 14:56:22 -0000
-Message-Id: <176943938231.2881544.17197149745733020620@gitolite.kernel.org>
+Date: Mon, 26 Jan 2026 14:56:28 -0000
+Message-Id: <176943938832.2881765.350952055954577833@gitolite.kernel.org>
 
---===============5315986700475704912==
+--===============6319930237246657960==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,47 +16,50 @@ repo: pub/scm/linux/kernel/git/gregkh/tty
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: f8f9c1f4d0c7a64600e2ca312dec824a0bc2f1da
+  - ref: refs/heads/tty-linus
+    old: 32f37e57583f869140cff445feedeea8a5fea986
     new: 63804fed149a6750ffd28610c5c1c98cce6bd377
-    log: revlist-f8f9c1f4d0c7-63804fed149a.txt
+    log: revlist-32f37e57583f-63804fed149a.txt
 
---===============5315986700475704912==
+--===============6319930237246657960==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1769439381 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1769439387 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1769439381-d4201cafc71cdefe987da1ef03ad3e9a6b101e78
+nonce 1769439385-731218b1adad816dd50fcb1b1949cb543fb8e606
 
-f8f9c1f4d0c7a64600e2ca312dec824a0bc2f1da 63804fed149a6750ffd28610c5c1c98cce6bd377 refs/heads/main
+32f37e57583f869140cff445feedeea8a5fea986 63804fed149a6750ffd28610c5c1c98cce6bd377 refs/heads/tty-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAml3gJUbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+wOMQAIZnIJgp6lcOp7/hveER
-gC9bkldwOM/VgQtq2N2G5tqM1oabUXpVXNDc355n/hytxFLIHAt0r488id69Al/s
-TbnkLfKLfoqNR+rjgnLTv0D+CluSOfxcrXOSDBg/ebud7oqJxlSj0Kc+89cOdpxB
-2GEKzCWKPcxyTeT6R/5Yq8tDPolY1Nt515RtuYdepaEq1lk6J/FCvsIDLHLD7Pq/
-UEErj8T9Spwf+z0Y3sP4/v8I8CsrVTt33MiegDpYEkox9/gsSkmZE7eC+wQQJ4+m
-mG6OE1vLgYVJXehItk3Iet9dBe/9K9AfoIg0ml34oHxJVFOL+0nlQVnO8OKZ31Sl
-CJxXuUlRMv1R2k/qwCT4x9MeJdW/8wNdEvMw3stRcK90S4YOs++9vzOkQQsX2HrD
-wsc/iYlEymDbzIJvsYmJ0tKH9IfhstBDvugMeCIh4nnItRpkBeHFVoXr5OP8v8WC
-TXdy07vRS3KO0MrC6S/FL2S4gluo6YG6FdIZmy2VVjUwSi/z5/UAqWxlxz0EDuxH
-tCkIK3JvMOFxKW179mwBcS3shtQAfYv/q+FUKpOakZGxOpd9lGBgGNLx2a5/RPCi
-TK0CgSWx0wJJT/oO+fRf++8+Bs9RoXo3GPtS7ZprM7KEg4BaqR7zeArPqCbznCro
-2iTswEXJyYEl0LabgS0TOKq5
-=q1A1
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAml3gJsbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+edMQAIzRHfVUjSQzZmXDOuSM
+VpfF/KofB3rKFql1aeKX1vxn+EpeExljyr/QBOIBoFyyAynfE8X3YvwxOA8k2U6r
+7lOtw8aCVv1v1e/eOK2ikYsm4P0EYhMbja2RBNvWP55C9rKrj53g4Tv48pb7LgIu
+u59GAJ3pkBN39as6+7iCazSRECPVpRc9UVPj2zUnraeX5/sr6KppicoXq+RX1les
+/by495U/ZFotWTW5pGbJ/y/x0qgBX901Kw/LO+n3xlaJ8gjFHlgf1u8CBSpSo1vN
+2i8Yf7SisRK5OFzWdXNHOulvZj9zrVmiMCmOoLVdXbR3K4eJNx8kyMB6/CTqisbG
+euUakQDDs+ADJtkSw0cQezUcHj1hSWDw5jO4kJgS1kbgC0Y4J/GbdajWrRtqs8La
+kTxcUHLywZaSP9N3MDXclgWou9AvKRq6wvAOKJJSnLk8TRF/4tKF289ubFIxYbQQ
+nI3MTTWCoXAuMNVq4TuHkPQ64krk+T6AK4IMfdf1GxEdAbvsa9R7c68+hHjdicWx
+hDjmSXUiB1MVqJjkZUEIjnBMSJpe8NpRFI/Ghu7Ub6bukfkYjGmTuu+EeK0SareS
+usvmTGka7vZokO+L0osVeWGubYVbkom+LuWlfzh8VJBDR2gwmmCBQz4tXa7yCRTg
+3q1OZbXQxLRRcCz6pKDaxCmD
+=bAtt
 -----END PGP SIGNATURE-----
 
---===============5315986700475704912==
+--===============6319930237246657960==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f8f9c1f4d0c7-63804fed149a.txt
+Content-Disposition: attachment; filename=revlist-32f37e57583f-63804fed149a.txt
 
+1054f19572acbbec80e2339dbf61f2b40ffb918c Merge tag 'drm-xe-fixes-2025-12-30' of https://gitlab.freedesktop.org/drm/xe/kernel into drm-fixes
+9abfe0b2e0cb93b9cf59a82cdcc0185148c53cdf Merge tag 'drm-misc-fixes-2025-12-29' of https://gitlab.freedesktop.org/drm/misc/kernel into drm-fixes
+7be19f9327d9a015ff97f97381e3bec163cd93cb Merge tag 'drm-intel-fixes-2025-12-31' of https://gitlab.freedesktop.org/drm/i915/kernel into drm-fixes
 95cc9e7cf03d3646abce4129d5c013af33a7df99 x86/kvm: Avoid freeing stack-allocated node in kvm_async_pf_queue_task
 9be25402d8522e16e5ebe84f2b1b6c5de082a388 ALSA: hda/realtek: Add quirk for Acer Nitro AN517-55
 7711f4bb4b360d9c0ff84db1c0ec91e385625047 netfilter: nft_set_pipapo: fix range overlap detection
@@ -732,8 +735,6 @@ b5a69c4869211a6ab61a95f5cc987b25f383dbc3 arm_mpam: Remove duplicate linux/srcu.h
 b9f5c38e4af1a094384650d2fc79fb992d6d5e64 arm_mpam: Use non-atomic bitops when modifying feature bitmap
 0ea4cc93d5ec6dcc388291e261b0833bee05b348 Merge tag 'icc-6.19-rc6' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/djakov/icc into char-misc-linus
 fdee1b09721605f532352628d0a24623e7062efb platform/x86: hp-bioscfg: Fix kobject warnings for empty attribute names
-fb47423dc7bf43301048d77289ce0114959de4de serial: qcom_geni: Fix BT failure regression on RB2 platform
-27aff0a56b3c77ea1a73641c9b3c4172a8f7238f serial: 8250_pci: Fix broken RS485 for F81504/508/512
 d51e68b7007b9c1c3456c4f93657a153ae3816ec Merge branch 'pm-em'
 9aeacd2ff31e1520bd302e40f7d2500cb98a2401 mux: mmio: Fix IS_ERR() vs NULL check in probe()
 10d28cffb3f6ec7ad67f0a4cd32c2afa92909452 comedi: Fix getting range information for subdevices 16 to 255
@@ -1035,7 +1036,6 @@ b91adbe83093629a675c77d39ac638610630b1e8 Merge tag 'mediatek-drm-fixes-20260119'
 c072629f05d7bca1148ab17690d7922a31423984 Merge tag 'v6.19-p4' of git://git.kernel.org/pub/scm/linux/kernel/git/herbert/crypto-2.6
 4f70f106bca1a56bd66d00830ac91680bd754974 sched/fair: Disable scheduler feature NEXT_BUDDY
 15257cc2f905dbf5813c0bfdd3c15885f28093c4 sched/fair: Revert force wakeup preemption
-32f37e57583f869140cff445feedeea8a5fea986 serial: Fix not set tty->port race condition
 d6112dddbf354d21ff2fcd49338df68782492c73 Merge tag 'drm-fixes-2026-01-23' of https://gitlab.freedesktop.org/drm/kernel
 6e49f9e05c528055c005bb42018a6b5a615b45b9 Merge tag 'sound-6.19-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/tiwai/sound
 e2f8216ca2d8e61a23cb6ec355616339667e0ba6 arm64: Set __nocfi on swsusp_arch_resume()
@@ -1082,4 +1082,4 @@ f9e6e6d210669f24697e615b68b5abbae9d7a32e Merge tag 'keys-trusted-next-6.19-rc7' 
 0237777974728cc5a6f45347b7eca473ab6ef90a Merge tag 'scsi-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
 63804fed149a6750ffd28610c5c1c98cce6bd377 Linux 6.19-rc7
 
---===============5315986700475704912==--
+--===============6319930237246657960==--
