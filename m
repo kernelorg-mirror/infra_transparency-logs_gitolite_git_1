@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5891422474525727144=="
+Content-Type: multipart/mixed; boundary="===============2036406682185352826=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/gregkh
-Date: Mon, 26 Jan 2026 09:12:58 -0000
-Message-Id: <176941877807.2597183.10232471180083907251@gitolite.kernel.org>
+Date: Mon, 26 Jan 2026 09:13:56 -0000
+Message-Id: <176941883668.2597813.8621479417894020629@gitolite.kernel.org>
 
---===============5891422474525727144==
+--===============2036406682185352826==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/gregkh
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: 24d479d26b25bce5faea3ddd9fa8f3a6c3129ea7
-    new: 63804fed149a6750ffd28610c5c1c98cce6bd377
-    log: revlist-24d479d26b25-63804fed149a.txt
+  - ref: refs/heads/rndis
+    old: 390e9da2e864c521bde0410eb50f56c32c85ec31
+    new: 7ea5544ca65f60d29036e8f095c78eb472b555a8
+    log: revlist-390e9da2e864-7ea5544ca65f.txt
 
---===============5891422474525727144==
+--===============2036406682185352826==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1769418772 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1769418806 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/gregkh.git
-nonce 1769418771-45be2b3921b7cfef8a15631f5bd7f0a310d3c837
+nonce 1769418803-ecdc20b6ea0c77712cf869e87359046491280178
 
-24d479d26b25bce5faea3ddd9fa8f3a6c3129ea7 63804fed149a6750ffd28610c5c1c98cce6bd377 refs/heads/main
+390e9da2e864c521bde0410eb50f56c32c85ec31 7ea5544ca65f60d29036e8f095c78eb472b555a8 refs/heads/rndis
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAml3MBQbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+BhEP/AvxgMPr6InroknL81Sv
-/0sJN4uNXw0sNW5QM0aQdmvBaiFRlyIK9/IqcvqA1eAJBVNa6vRTFhzmnOnbBpVf
-/BOjP2bnS3rMh+qf6kHxk6vDvPJwu3a89Nq4UuA7BPKroKTk2gfzreTUCjUjYzum
-0DGyyrw9CfjU53t1WYYHSSZbU6e3bFOn/gRqkIVRDGLO3dkew6EKRut5tZTyZse4
-UQTcM//Wk3FkblUP+bS3N4AXgSafzWqqwU2Akc6YbC4O+yTScj79vYjd35AwMvz7
-Ls2pE4dl/cmdPbyLAi+4wHvc/BEl9TCLLEzZ9Imv8g8L2DjQMVdAVXs/3SSHgHeA
-totj9iSWNUmBLYNLjKfRGbVpjoWRYkuUOTknkbfKMOTl7fK8z9aoOXqFE95jOjyr
-pB+UdmYQsM33dCok0dFXwpMeg7JaJTgXsTWFqlebUfH1tuMkQ+K4BCodEr6FKu06
-aDh8qTZ11Btx3eRYNx+h+VIFL+CGOG8Ew1bR34F6LnV5Itl9Lcf94JKdkdPXxaR8
-rLL/qC2Q/RB8BNi3Mv4I8XWR2Wn/VNddFdZ3bLyOu9ceDcsifaUvrR3LPoq3xTxR
-+xVyA8x6PLlDnBRWhPAUHzJ8dXHv+4Il8gMUkm5a98CELvEbpH2VLt0X3NjntBno
-vIj6FT8km8EquXOgRuvqajBM
-=tsqR
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAml3MDYbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+PGgQAMG6Z8Zofqoas5IRlEcA
+8QEdJ8gaCxZMcx9M5jM8EHPl/qAD7sXMkyPyEUdP1OjY6A0uhHZ6xo6uE9dUunmK
+iJLZJR8OXyDPfqBjGEUUzoB1etmO1l3fcgVPXBGjwcmyJlQqCpZ2WG5bA2AUul4S
+SxvQJ8LBvzqX6PLfWCmsoOKHoO//mR5oBKolEjDi/3mBlues0R3bxbFlI/4rIxVm
+0fvMMo7p8RTNX1Yo5b8Ex6IDzI8tQ2rIckxlcdMo4l2bFKlcxXzowV3x79cQ0mc0
+nCGhm4qapP+mER31yTfVubJVdIkE3H8n0ScdEoLxCSeS4nDe7F9HHiwL6lOonNXm
+1tPgEry7ksg35H3CswkiEvntxHrDPYgt4qCJTrh2WEa2K2tFsS1EQKLvwVwSg0Ce
+eqlPWlAFrGDV2xfdwu5rGoLdDD39RMFVyG0Uo6BwQXL6Ta2Ooupd8FQCKhVsQiL3
+Qiquj2KNtBiT+N02lztLoPpiK6STyReEMJDx+MZZ3fwp6fsE+yU0vZH62N3z7oLV
+yY3DOKo1f13FPzReTrBkwE7YvV17MywFob6y3UMaNP1vMm4rMffhRPAWvvW0c8vN
+GjdOzYHqh7n8lfKsJZj57zc0i3fOn0k3AgmErJqyqx5Y4/vvjLUN8AqxKY6U1Dao
+E0gRII/Z0sOKf+c+qhP6jvVG
+=h6CP
 -----END PGP SIGNATURE-----
 
---===============5891422474525727144==
+--===============2036406682185352826==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-24d479d26b25-63804fed149a.txt
+Content-Disposition: attachment; filename=revlist-390e9da2e864-7ea5544ca65f.txt
 
 5497ffe305b2ea31ae62d4a311d7cabfb671f54a arm64: dts: rockchip: Fix voltage threshold for volume keys for Pinephone Pro
 8bb3754909cde5df4f8c1012bde220b97d8ee3bc arm64: dts: qcom: talos: Correct UFS clocks ordering
@@ -509,5 +509,7 @@ c1a5135e60f1a026f135c6b0964cc8f4e1c4a8bb Merge tag 'input-for-v6.19-rc6' of git:
 f9e6e6d210669f24697e615b68b5abbae9d7a32e Merge tag 'keys-trusted-next-6.19-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/jarkko/linux-tpmdd
 0237777974728cc5a6f45347b7eca473ab6ef90a Merge tag 'scsi-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
 63804fed149a6750ffd28610c5c1c98cce6bd377 Linux 6.19-rc7
+14769d6ecf9131bc27607ea1594c8613d7b45146 USB: disable all RNDIS protocol drivers
+7ea5544ca65f60d29036e8f095c78eb472b555a8 USB: potential rndis host fix
 
---===============5891422474525727144==--
+--===============2036406682185352826==--
