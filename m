@@ -1,67 +1,38 @@
-Content-Type: multipart/mixed; boundary="===============9188034566373119373=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vbabka/slab
-Date: Mon, 26 Jan 2026 07:39:14 -0000
-Message-Id: <176941315478.2524809.17852679284030590403@gitolite.kernel.org>
-
---===============9188034566373119373==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
+Date: Mon, 26 Jan 2026 08:43:28 -0000
+Message-Id: <176941700822.2573088.16346701979336062998@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vbabka/slab
-user: vbabka
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/tiwai/sound
+user: tiwai
 changes:
-  - ref: refs/heads/slab/for-7.0/obj_metadata
-    old: 6edcc2867ee1ba95ae6c7695d66124bfdf0771a1
-    new: b404e9aeee6ad8489a05c89f22409f607ee6e1a2
-    log: revlist-6edcc2867ee1-b404e9aeee6a.txt
-
---===============9188034566373119373==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher A940D434992C2E8E99103D50224FA7E7CC82A664 1769413150 +0100
-pushee gitolite.kernel.org:pub/scm/linux/kernel/git/vbabka/slab.git
-nonce 1769413150-af49265edc62b18adaa4510440ee5de7b45c0670
-
-6edcc2867ee1ba95ae6c7695d66124bfdf0771a1 b404e9aeee6ad8489a05c89f22409f607ee6e1a2 refs/heads/slab/for-7.0/obj_metadata
------BEGIN PGP SIGNATURE-----
-
-iQFPBAABCAA5FiEEe7vIQRWZI0iWSE3xu+CwddJFiJoFAml3Gh4bFIAAAAAABAAO
-bWFudTIsMi41KzEuMTEsMiwyAAoJELvgsHXSRYia5NAH/03dYT+vww2hQRh9B2P8
-6JrOb0HrT1/hS/zF6uP9ybJnDyP/3fU4nvgCz3kJc2hHL8EhL2EbswM2Gcv9H3+3
-dKQgTKhmab8LvsI8juVcAlm0S8PRHhj4d3F/dtcdzSeGbH3++bMzvs4Wd6g/tIBH
-g71i28ZpD8Md2HZR2SKyivHzjueNnG7IqqyAop3dcDZrfQLwcACFlN4EzQwqDO6S
-TITfnl3m0JfIGgtGCccREqgpxfcYHLCMEjrF2zOW2Q78PD8dXgn9F8/nf2jge+rs
-PkLIuYfbCB72mb/5tvabr0emMfoQm/r0M+2Xv7d2/BXlXUobbNSABU1eQDMNimws
-aAo=
-=47gV
------END PGP SIGNATURE-----
-
---===============9188034566373119373==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6edcc2867ee1-b404e9aeee6a.txt
-
-650a9ddde22ff2e5e2278f34fe6f4d061caa3673 mm/slab: avoid allocating slabobj_ext array from its own slab
-baf56cdbabc79f7e986194d80d020573d2258828 slub: clarify object field layout comments
-8092561a4c9cd22fceb64e3b47ae56c8fd82eebc mm/slab: use unsigned long for orig_size to ensure proper metadata align
-cfd2d2796552d59cda5069267c4b63566ba933f9 mm/slab: allow specifying free pointer offset when using constructor
-bb7157f1811ca646a3a86c65606938150fd29cd3 ext4: specify the free pointer offset for ext4_inode_cache
-21a2956ade094e38ed786399293b271abab376bc mm/slab: abstract slabobj_ext access via new slab_obj_ext() helper
-f50596e60e98fb1f158da3bbbe50987ea77fb4b8 mm/slab: use stride to access slabobj_ext
-1eda14bd7a2abf4ae4a78bbe29c76b6b98c48240 mm/memcontrol,alloc_tag: handle slabobj_ext access under KASAN poison
-0983ad7e8e0550bebb513ffe55f8892a29da7fa9 mm/slab: save memory by allocating slabobj_ext array from leftover
-4cfd25f44d76afe71ced5ee48da5a43c60e1a049 mm/slab: move [__]ksize and slab_ksize() to mm/slub.c
-b404e9aeee6ad8489a05c89f22409f607ee6e1a2 mm/slab: place slabobj_ext metadata in unused space within s->size
-
---===============9188034566373119373==--
+  - ref: refs/heads/for-linus
+    old: 1aaedafb21f38cb872d44f7608b4828a1e14e795
+    new: 9e18920e783d0bcd4c127a7adc66565243ab9655
+    log: |
+         891b77d459d0ce993c68365d899134bc9fd47ac0 ALSA: hda/realtek: fix right sounds and mute/micmute LEDs for HP machine
+         9e18920e783d0bcd4c127a7adc66565243ab9655 ALSA: hda/realtek: Add quirk for Inspur S14-G1
+         
+  - ref: refs/heads/for-next
+    old: aab275ca8fa48d8c25b782c2a53a080f5e8fef78
+    new: c459ba5cbb4d840638f2bcddc85d80ec2bd9b506
+    log: |
+         c7d6ddf74b19a8235364153eae31bc69adf2da83 ALSA: jack: Improve string handling in jack_kctl_name_gen
+         c459ba5cbb4d840638f2bcddc85d80ec2bd9b506 ALSA: hda/tas2781: Add tas2781_hda::catlog_id init
+         
+  - ref: refs/heads/master
+    old: 96abbae391cc5cc2f4b06cde6c2a949b239c1d08
+    new: 85a133de86b3e6fcedb6e0e344cfcfb0c14a7d31
+    log: |
+         c7d6ddf74b19a8235364153eae31bc69adf2da83 ALSA: jack: Improve string handling in jack_kctl_name_gen
+         c459ba5cbb4d840638f2bcddc85d80ec2bd9b506 ALSA: hda/tas2781: Add tas2781_hda::catlog_id init
+         b491ba447ff01b419f387beacb54d215f5f36889 Merge branch 'for-next'
+         891b77d459d0ce993c68365d899134bc9fd47ac0 ALSA: hda/realtek: fix right sounds and mute/micmute LEDs for HP machine
+         9e18920e783d0bcd4c127a7adc66565243ab9655 ALSA: hda/realtek: Add quirk for Inspur S14-G1
+         85a133de86b3e6fcedb6e0e344cfcfb0c14a7d31 Merge branch 'for-linus'
+         
