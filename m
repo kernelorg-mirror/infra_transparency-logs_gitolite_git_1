@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6728247815864955023=="
+Content-Type: multipart/mixed; boundary="===============2530927096180694192=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/klassert/ipsec
-Date: Mon, 26 Jan 2026 10:45:08 -0000
-Message-Id: <176942430864.2672153.16174075515519334023@gitolite.kernel.org>
+Date: Mon, 26 Jan 2026 10:45:29 -0000
+Message-Id: <176942432962.2672416.3826507747854087799@gitolite.kernel.org>
 
---===============6728247815864955023==
+--===============2530927096180694192==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/klassert/ipsec
 user: klassert
 changes:
-  - ref: refs/heads/testing
+  - ref: refs/heads/master
     old: f40ddcc0c0ca1a0122a7f4440b429f97d5832bdf
     new: 709bbb015538dfd5c97308b77c950d41a4d95cd3
     log: revlist-f40ddcc0c0ca-709bbb015538.txt
 
---===============6728247815864955023==
+--===============2530927096180694192==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -531,4 +531,4 @@ f0813bcd2d9d97fdbdf2efb9532ab03ae92e99e6 net: wwan: t7xx: fix potential skb->fra
 ca12c4a155ebf84e9ef29b05ce979bc89364290f net/mlx5: Fix return type mismatch in mlx5_esw_vport_vhca_id()
 709bbb015538dfd5c97308b77c950d41a4d95cd3 net: dsa: yt921x: Fix MIB overflow wraparound routine
 
---===============6728247815864955023==--
+--===============2530927096180694192==--
