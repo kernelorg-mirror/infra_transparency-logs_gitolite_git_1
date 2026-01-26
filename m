@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4651746382471355201=="
+Content-Type: multipart/mixed; boundary="===============6692087337312879442=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/klassert/ipsec-next
-Date: Mon, 26 Jan 2026 10:43:32 -0000
-Message-Id: <176942421277.2669006.56928790415423866@gitolite.kernel.org>
+Date: Mon, 26 Jan 2026 10:44:11 -0000
+Message-Id: <176942425178.2669470.17986181217433647392@gitolite.kernel.org>
 
---===============4651746382471355201==
+--===============6692087337312879442==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/klassert/ipsec-next
 user: klassert
 changes:
-  - ref: refs/heads/testing
+  - ref: refs/heads/master
     old: b4e486e2c46f754a515571a8ca1238fa567396dd
     new: bf2e36c9dab95e41516fbcf7b1cc804539b2d021
     log: revlist-b4e486e2c46f-bf2e36c9dab9.txt
 
---===============4651746382471355201==
+--===============6692087337312879442==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -778,4 +778,4 @@ c2e99887807eb1b4fea7e5f63bbd6b5512879293 net: usb: sr9700: use ETH_ALEN instead 
 116af5f2d015da415c036b3bc992c04522d0ae80 Merge branch '200GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/next-queue
 bf2e36c9dab95e41516fbcf7b1cc804539b2d021 dt-bindings: net: dsa: fix typos in bindings docs
 
---===============4651746382471355201==--
+--===============6692087337312879442==--
