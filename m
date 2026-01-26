@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6915216546024401419=="
+Content-Type: multipart/mixed; boundary="===============7170321310522438728=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Mon, 26 Jan 2026 08:47:24 -0000
-Message-Id: <176941724457.2577359.16024643807820291475@gitolite.kernel.org>
+Date: Mon, 26 Jan 2026 08:47:47 -0000
+Message-Id: <176941726792.2577642.830406889390383599@gitolite.kernel.org>
 
---===============6915216546024401419==
+--===============7170321310522438728==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,15 +16,49 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: 361de91ffe3d47bbd649f587cb402836fe492629
-    new: 914fc4991aec05fd34c2d4d8b88147e60c38a66a
-    log: revlist-361de91ffe3d-914fc4991aec.txt
+    old: 914fc4991aec05fd34c2d4d8b88147e60c38a66a
+    new: 74f3c1ef0e27a6e0a86e6e60e2fb5b4c74940156
+    log: revlist-914fc4991aec-74f3c1ef0e27.txt
+  - ref: refs/heads/tip/urgent
+    old: d91a46d6805af41e7f2286e0fc22d498f45a682b
+    new: 63804fed149a6750ffd28610c5c1c98cce6bd377
+    log: revlist-d91a46d6805a-63804fed149a.txt
+  - ref: refs/tags/v6.19-rc7
+    old: 0000000000000000000000000000000000000000
+    new: ed4cdcc0b03e72cfdffbff9f0ea24338517bc893
 
---===============6915216546024401419==
+--===============7170321310522438728==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-361de91ffe3d-914fc4991aec.txt
+Content-Disposition: attachment; filename=revlist-914fc4991aec-74f3c1ef0e27.txt
+
+48a1ad5a339d742063fff0ce567f6956d6e8f470 Merge branch into tip/master: 'irq/core'
+f2e8cca619fb5386f1221917abe595752172f4bc Merge branch into tip/master: 'irq/drivers'
+2198e35bd7e6619c0e2e08081ed255a7c3804d24 Merge branch into tip/master: 'irq/msi'
+574634d3ea613050fb1b4770c4a2348758da4067 Merge branch into tip/master: 'locking/core'
+c84a8684107b683ce3b362434af5b2ff60bde274 Merge branch into tip/master: 'perf/core'
+d75f7d062809bc66468ca2277cd83a8e972f9fda Merge branch into tip/master: 'sched/core'
+42331880fdca4fc7e2251255098c1e14c7373689 Merge branch into tip/master: 'timers/core'
+b0b42a93b0b456bd7454bedf82e93c6f3650477a Merge branch into tip/master: 'timers/vdso'
+bbfe578c1a2d846f5c3d375087377ec8fe7c6e1f Merge branch into tip/master: 'x86/alternatives'
+750818576b6a6f7496aa88e66490ec1568fbd50e Merge branch into tip/master: 'x86/boot'
+6e506630ad876b4cc46dc06c77c29db97b02cbd1 Merge branch into tip/master: 'x86/bugs'
+2ba9b9eb2c4a9e3a515b2bb274b348a9e5af3ad7 Merge branch into tip/master: 'x86/cache'
+4278afd4e85a81e8dee172fce71574746e9944ee Merge branch into tip/master: 'x86/cleanups'
+184491af02bd192832e1edf711237bb6d7832fd2 Merge branch into tip/master: 'x86/cpu'
+c4cabec93872e1a33b801587ee84c8df925d7e6d Merge branch into tip/master: 'x86/entry'
+2e92f19b050eb9104a091b6222fe8acc7e207e5c Merge branch into tip/master: 'x86/irq'
+ec714dcac009dce06c4cce8101e1dcdc1d38e512 Merge branch into tip/master: 'x86/microcode'
+7596f34589d74f7d565a24c92f09ec7aa3c2f0d1 Merge branch into tip/master: 'x86/misc'
+ccd7458ceb8a232854568bda8a9a4798e34a8ea5 Merge branch into tip/master: 'x86/paravirt'
+74f3c1ef0e27a6e0a86e6e60e2fb5b4c74940156 Merge branch into tip/master: 'x86/sev'
+
+--===============7170321310522438728==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-d91a46d6805a-63804fed149a.txt
 
 761fcf46a1bd797bd32d23f3ea0141ffd437668a w1: therm: Fix off-by-one buffer overflow in alarms_store
 472100721b4b1d357e99512306ba7dda7bddad6f dt-bindings: interconnect: qcom,sa8775p-rpmh: Fix incorrectly added reg and clocks
@@ -86,6 +120,5 @@ c1a5135e60f1a026f135c6b0964cc8f4e1c4a8bb Merge tag 'input-for-v6.19-rc6' of git:
 f9e6e6d210669f24697e615b68b5abbae9d7a32e Merge tag 'keys-trusted-next-6.19-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/jarkko/linux-tpmdd
 0237777974728cc5a6f45347b7eca473ab6ef90a Merge tag 'scsi-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
 63804fed149a6750ffd28610c5c1c98cce6bd377 Linux 6.19-rc7
-914fc4991aec05fd34c2d4d8b88147e60c38a66a Merge branch 'linus'
 
---===============6915216546024401419==--
+--===============7170321310522438728==--
