@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
-Date: Mon, 26 Jan 2026 22:37:09 -0000
-Message-Id: <176946702930.3264970.14225203461648550692@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+Date: Mon, 26 Jan 2026 22:38:11 -0000
+Message-Id: <176946709138.3265445.3375007177430132018@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
-user: vudentz
+repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+user: jarkko
 changes:
-  - ref: refs/heads/master
-    old: 8e7c7cb168a51237155389b196b6c7387f5ffa6f
-    new: 7c3fcc3d0819fabf3ec162679bcd34ad82232927
+  - ref: refs/heads/vcam
+    old: 23580da84c0a62226b896a3bf5fb2a2e95a1763c
+    new: abf2406cbdcb7ac5ab44d2480ac6e205e35a55d6
     log: |
-         7c3fcc3d0819fabf3ec162679bcd34ad82232927 Bluetooth: L2CAP: Fix not tracking outstanding TX ident
+         abf2406cbdcb7ac5ab44d2480ac6e205e35a55d6 media: v4l2-vcam
          
