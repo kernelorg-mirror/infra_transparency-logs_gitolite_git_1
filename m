@@ -1,73 +1,46 @@
-Content-Type: multipart/mixed; boundary="===============1652476154872338331=="
+Content-Type: multipart/mixed; boundary="===============7255299886708081970=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
-Date: Mon, 26 Jan 2026 11:54:51 -0000
-Message-Id: <176942849102.2729295.13551591579531043598@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
+Date: Mon, 26 Jan 2026 11:58:52 -0000
+Message-Id: <176942873201.2733034.7980783939550773963@gitolite.kernel.org>
 
---===============1652476154872338331==
+--===============7255299886708081970==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rafael/linux-pm
-user: rafael
+repo: pub/scm/linux/kernel/git/maz/arm-platforms
+user: maz
 changes:
-  - ref: refs/heads/bleeding-edge
-    old: 7e9b0371ed5b9bf9a80c59487f47fca0ba638f61
-    new: 0b5e6eced3d429eb2f3e87e04e445bd462782658
-    log: revlist-7e9b0371ed5b-0b5e6eced3d4.txt
-  - ref: refs/heads/linux-next
-    old: 510f18ea7bf74feda7a9666a8116e2ab662630d7
-    new: 39105382599c43aecadbe6b2cc65d8ca2daa0b2f
-    log: revlist-510f18ea7bf7-39105382599c.txt
-  - ref: refs/heads/testing
-    old: 510f18ea7bf74feda7a9666a8116e2ab662630d7
-    new: 39105382599c43aecadbe6b2cc65d8ca2daa0b2f
-    log: revlist-510f18ea7bf7-39105382599c.txt
+  - ref: refs/heads/kvm-arm64/resx
+    old: 346d7371609f6ed08ddb782db90586b39b462c36
+    new: 138dfd794a7895eccd4069c5ce362b1525c75d4d
+    log: revlist-346d7371609f-138dfd794a78.txt
 
---===============1652476154872338331==
+--===============7255299886708081970==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7e9b0371ed5b-0b5e6eced3d4.txt
+Content-Disposition: attachment; filename=revlist-346d7371609f-138dfd794a78.txt
 
-22f1318de2000e7ccdbaa3c379b8b0603c355fc4 Merge branch 'acpica' into linux-next
-6c61a1d0b0a1ee48593898c8c6462c02ba45a6bf Merge branches 'acpi-pm', 'acpi-sysfs', 'acpi-resource' and 'acpi-misc' into linux-next
-4a423609119c9334a5a96095f8f46fc6eadc2786 Merge branch 'acpi-bus' into linux-next
-8822077091cae7b5c113d54b78cf989b5eaf06b7 Merge branch 'acpi-driver' into linux-next
-86bb68f42fda45e0172a0ff6eaadd1b53cccbdd3 Merge branches 'acpi-battery', 'acpi-pci' and 'acpi-processor' into linux-next
-35a112276cba9f30dd855e273689beb91e41a494 Merge branch 'acpi-apei' into linux-next
-e02e8bed5bb1335f2f4448e0dc6cd81ab75b57c8 Merge branches 'pm-cpuidle' and 'pm-cpufreq' into linux-next
-e9f432de45da5fa0d578a4b44c805301eec0c08e Merge branches 'pm-sleep' and 'pm-runtime' into linux-next
-6459cfc42e11e0d41c2615b29d16f7e43bb5d5dd Merge branches 'pm-powercap' and 'pm-tools' into linux-next
-39105382599c43aecadbe6b2cc65d8ca2daa0b2f Merge branches 'thermal-core', 'thermal-intel' and 'thermal-tools' into linux-next
-0b5e6eced3d429eb2f3e87e04e445bd462782658 Merge branch 'pm-runtime-cleanup' into bleeding-edge
+2c679865bbb3a37a269f12ea84388baa03f295d6 KVM: arm64: Extend unified RESx handling to runtime sanitisation
+60c771c2190c38868f0f2254396c746afd6cb052 KVM: arm64: Inherit RESx bits from FGT register descriptors
+18d7adcb33b92d771cb9dd66be81dd84b5e5fcb9 KVM: arm64: Allow RES1 bits to be inferred from configuration
+43ae5e0197878a09a34af7d027d5943c0e0f6044 KVM: arm64: Correctly handle SCTLR_EL1 RES1 bits for unsupported features
+406f061e55c0359017e71f9923419a2b3f09e68b KVM: arm64: Convert HCR_EL2.RW to AS_RES1
+d96a64889f8a8b037b24a5f9a5f67bed00222100 KVM: arm64: Simplify FIXED_VALUE handling
+03d72de528f1280ff4f361801b2c1464d837d1d2 KVM: arm64: Add REQUIRES_E2H1 constraint as configuration flags
+9c23f64b372d07b097d56a042da0b9506550a0ff KVM: arm64: Add RESx_WHEN_E2Hx constraints as configuration flags
+08a7ed986d93d272fb6bab2f597efb58c79036f7 KVM: arm64: Move RESx into individual register descriptors
+4372b37fb0ae7ff6afd0ddb4f2e47554b053ae78 KVM: arm64: Simplify handling of HCR_EL2.E2H RESx
+ecad4a0c5b97ca96f074411683f86adf239109c7 KVM: arm64: Get rid of FIXED_VALUE altogether
+9edc1ae24b730c3695a72f25be94b8366d88b91d KVM: arm64: Simplify handling of full register invalid constraint
+1b178a3cb99160dcc4c056f87d18a96228806ae2 KVM: arm64: Remove all traces of FEAT_TME
+1e4504c9f77639598fd28f29aa43f6c88f08267e KVM: arm64: Remove all traces of HCR_EL2.MIOCNCE
+0d542903892cad1f74b4ba79901f5132f5c4d218 KVM: arm64: Add sanitisation to SCTLR_EL2
+138dfd794a7895eccd4069c5ce362b1525c75d4d KVM: arm64: Add debugfs file dumping computed RESx values
 
---===============1652476154872338331==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-510f18ea7bf7-39105382599c.txt
-
-5315c0ddbefe415abba4c89568ecfd27f79c5aba ACPI: video: simplify code with acpi_get_local_u64_address()
-ed0a1ac2aa936a0abc2d940eff51158de6e8cec0 ACPI: PCI: simplify code with acpi_get_local_u64_address()
-80606f4eb8d7484ab7f7d6f0fd30d71e6fbcf328 cpuidle: governors: menu: Always check timers with tick stopped
-4bd2221f231d798b01027367857d9ba2f24f6ea0 cpuidle: governors: teo: Avoid selecting states with zero-size bins
-60836533b4c7b69e6cb815c87f089e39c2878acd cpuidle: governors: teo: Avoid fake intercepts produced by tick
-475ca3470b3739150720f1b285646de38103e7b7 cpuidle: governors: teo: Refine tick_intercepts vs total events check
-9635c586a559ba0e45b2bfbff79c937ddbaf1a62 thermal: intel: x86_pkg_temp_thermal: Handle invalid temperature
-22f1318de2000e7ccdbaa3c379b8b0603c355fc4 Merge branch 'acpica' into linux-next
-6c61a1d0b0a1ee48593898c8c6462c02ba45a6bf Merge branches 'acpi-pm', 'acpi-sysfs', 'acpi-resource' and 'acpi-misc' into linux-next
-4a423609119c9334a5a96095f8f46fc6eadc2786 Merge branch 'acpi-bus' into linux-next
-8822077091cae7b5c113d54b78cf989b5eaf06b7 Merge branch 'acpi-driver' into linux-next
-86bb68f42fda45e0172a0ff6eaadd1b53cccbdd3 Merge branches 'acpi-battery', 'acpi-pci' and 'acpi-processor' into linux-next
-35a112276cba9f30dd855e273689beb91e41a494 Merge branch 'acpi-apei' into linux-next
-e02e8bed5bb1335f2f4448e0dc6cd81ab75b57c8 Merge branches 'pm-cpuidle' and 'pm-cpufreq' into linux-next
-e9f432de45da5fa0d578a4b44c805301eec0c08e Merge branches 'pm-sleep' and 'pm-runtime' into linux-next
-6459cfc42e11e0d41c2615b29d16f7e43bb5d5dd Merge branches 'pm-powercap' and 'pm-tools' into linux-next
-39105382599c43aecadbe6b2cc65d8ca2daa0b2f Merge branches 'thermal-core', 'thermal-intel' and 'thermal-tools' into linux-next
-
---===============1652476154872338331==--
+--===============7255299886708081970==--
