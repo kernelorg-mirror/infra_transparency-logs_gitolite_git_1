@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3038099172805722697=="
+Content-Type: multipart/mixed; boundary="===============6124878749058728519=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/andi.shyti/linux
-Date: Mon, 26 Jan 2026 17:45:08 -0000
-Message-Id: <176944950817.3026130.2326920407393828353@gitolite.kernel.org>
+Date: Mon, 26 Jan 2026 17:45:10 -0000
+Message-Id: <176944951031.3026216.6544281129097186597@gitolite.kernel.org>
 
---===============3038099172805722697==
+--===============6124878749058728519==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,18 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/andi.shyti/linux
 user: andi.shyti
 changes:
-  - ref: refs/heads/i2c/i2c-host-fixes
-    old: e351836a54e3b0b4483f896abcd6a0dc71097693
-    new: 913fb068e259079bf9564c9e84ff9e65c37dcac7
-    log: revlist-e351836a54e3-913fb068e259.txt
+  - ref: refs/heads/i2c/i2c-host-next
+    old: 3ff1ca821d57befcb4c8cfb6b276ed75d1394dcf
+    new: e5d4c5082ccaef6f7cdbabcf597ceede3bc9815e
+    log: revlist-3ff1ca821d57-e5d4c5082cca.txt
 
---===============3038099172805722697==
+--===============6124878749058728519==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e351836a54e3-913fb068e259.txt
+Content-Disposition: attachment; filename=revlist-3ff1ca821d57-e5d4c5082cca.txt
 
-1384cc00bc5f444ddfb66e027fb20c33844b21e1 drm/mediatek: mtk_hdmi_ddc_v2: Fix multi-byte writes
 10845a105bbcb030647a729f1716c2309da71d33 blk-mq: skip CPU offline notify on unmapped hctx
 dbf8fe85a16a33d6b6bd01f2bc606fc017771465 Merge tag 'net-6.19-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 0cc13256b60510936c34098ee7b929098eed823b PCI: qcom: Remove ASPM L0s support for MSM8996 SoC
@@ -1050,5 +1049,6 @@ d91a46d6805af41e7f2286e0fc22d498f45a682b Merge tag 'riscv-for-linus-6.19-rc7' of
 19a5d9ba6208e9006a2a9d5962aea4d6e427d8ab Input: i8042 - add quirks for MECHREVO Wujie 15X Pro
 c1a5135e60f1a026f135c6b0964cc8f4e1c4a8bb Merge tag 'input-for-v6.19-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/dtor/input
 913fb068e259079bf9564c9e84ff9e65c37dcac7 Merge tag 'i2c-for-6.19-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
+e5d4c5082ccaef6f7cdbabcf597ceede3bc9815e Merge branch 'i2c/i2c-host-fixes' into i2c/i2c-host-next
 
---===============3038099172805722697==--
+--===============6124878749058728519==--
