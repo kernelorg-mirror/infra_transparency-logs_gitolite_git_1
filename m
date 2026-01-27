@@ -1,24 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/liburing
-Date: Tue, 27 Jan 2026 18:23:51 -0000
-Message-Id: <176953823160.41783.421038881130434170@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
+Date: Tue, 27 Jan 2026 18:24:27 -0000
+Message-Id: <176953826792.42454.17670106486863321712@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/liburing
-user: axboe
+repo: pub/scm/linux/kernel/git/rafael/linux-pm
+user: rafael
 changes:
-  - ref: refs/heads/bpf-restrictions
-    old: 306a298d7da68a1676f957a6104313b80e18904a
-    new: d0a29878863424fda7700f3ee2e913e39c02e71e
+  - ref: refs/heads/bleeding-edge
+    old: 8ef92bd80a74955b2aadd797714c1fcb3c4fd4f9
+    new: 81abbcf79344cc96718fe29eccf5e8a910507010
     log: |
-         1aba982786e6425c8404cc65f68cee1652b00304 Add support for classic BPF (cBPF) filters
-         f39138325431dfecbf3e6c91a239bf133d9d860a test/cbpf_filter: add ring-level BPF filter tests
-         99d2b34d4f6cbd660db9b7fbc8ab5a1518803849 man: add io_uring_register_bpf_filter.3 man page
-         401c9811296952e497bfdf1ed2848a98c21aa1ea man/io_uring_register_bpf_filter.3: add IORING_OP_OPENAT/OPENAT2 notes
-         4dc69976dabd3bbc3b62dcfda08c5c9be6384ebb test/cbpf_filter: add IORING_OP_OPENAT/OPENAT2 filter tests
-         d0a29878863424fda7700f3ee2e913e39c02e71e io_uring/bpf_filter.h: update for IORING_OP_OPENAT/OPENAT2
+         182422c7356d6c6a5612b5e0339da28425c0c696 ACPI: processor: idle: Convert acpi_processor_setup_cpuidle_states() to void
+         a7a9c877ba6baa1b67e0f67858309e5aba7f9047 ACPI: processor: idle: Convert acpi_processor_setup_cpuidle_dev() to void
+         cac173bea57d62c599f8717fde77b7824c6021ed ACPI: processor: idle: Rework the handling of acpi_processor_ffh_lpi_probe()
+         81abbcf79344cc96718fe29eccf5e8a910507010 Merge branch 'acpi-processor' into bleeding-edge
          
+  - ref: refs/heads/experimental/acpi-driver-conversion
+    old: 0000000000000000000000000000000000000000
+    new: 327d756bf68c3f5e5bafc1fd0839b036f88638bb
