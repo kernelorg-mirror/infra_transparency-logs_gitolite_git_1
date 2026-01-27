@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============6807246051957396046=="
+Content-Type: multipart/mixed; boundary="===============8008920660734407696=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Tue, 27 Jan 2026 04:01:41 -0000
-Message-Id: <176948650138.3529993.7381042334952772979@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
+Date: Tue, 27 Jan 2026 04:01:47 -0000
+Message-Id: <176948650755.3530212.18324134182494814577@gitolite.kernel.org>
 
---===============6807246051957396046==
+--===============8008920660734407696==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/acme/linux
+repo: pub/scm/linux/kernel/git/perf/perf-tools-next
 user: acme
 changes:
   - ref: refs/heads/perf-tools-next
@@ -20,7 +20,7 @@ changes:
     new: 0a6fb6604746c92bccc71867fd0bf3d3294335d1
     log: revlist-3d06db9bad1a-0a6fb6604746.txt
 
---===============6807246051957396046==
+--===============8008920660734407696==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ dda5f926a1006c735b00ed5c27291fce64236656 perf annotate: Fix BUILD_NONDISTRO=1 mi
 2becdd163ab37c9dca05f31da7e943f59f55e510 perf unwind-libdw: Wire up e_flags for CSKY
 0a6fb6604746c92bccc71867fd0bf3d3294335d1 perf session: Print all machines in session dump
 
---===============6807246051957396046==--
+--===============8008920660734407696==--
