@@ -1,22 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Tue, 27 Jan 2026 02:53:17 -0000
-Message-Id: <176948239767.3471494.8750385675642481535@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Tue, 27 Jan 2026 02:59:12 -0000
+Message-Id: <176948275255.3475694.6893754853303418692@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: ast
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
-  - ref: refs/heads/for-next
-    old: 78980b4c7fcb5ef74b7af65fbef5ce8d718cf791
-    new: 8016abd6314ed1ed01ff09404e3c82ceb13c185b
+  - ref: refs/heads/main
+    old: 3da35aa8af345abf6cd180cfc0538c753b927a18
+    new: 76961e5b334ae9d974b3add005c1501982c8a43c
     log: |
-         f21fae57744607330ae5dabdd996538faac7f5ab selftests/bpf: Add a few helpers for bpftool testing
-         1c0b505908a201054dadc87930f550bea2631c1e selftests/bpf: convert test_bpftool_metadata.sh into test_progs framework
-         2d96bbdfd3b5d28306001036c0161fcb1713f964 selftests/bpf: convert test_bpftool_map_access.sh into test_progs framework
-         8016abd6314ed1ed01ff09404e3c82ceb13c185b Merge branch 'selftests-bpf-migrate-a-few-bpftool-testing-scripts'
+         6e9674a980f583c9545a6a12b434e277fee28e19 net: alacritech: Use u64_stats_t with u64_stats_sync properly
+         9271fc31901d5f0894dd484a4e4437e37054c4ec net: bcmasp: clean up some legacy logic
+         1fd1281250c38408d793863c8dcaa43c7de8932c net: bcmasp: streamline early exit in probe
+         76961e5b334ae9d974b3add005c1501982c8a43c Merge branch 'code-clean-up'
          
