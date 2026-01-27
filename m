@@ -1,46 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============0314285699459323050=="
+Content-Type: multipart/mixed; boundary="===============8120889835632971671=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kas/linux
-Date: Tue, 27 Jan 2026 16:49:50 -0000
-Message-Id: <176953259010.4149894.16687446669596326151@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vbabka/slab
+Date: Tue, 27 Jan 2026 16:50:13 -0000
+Message-Id: <176953261307.4152494.4986868398357780112@gitolite.kernel.org>
 
---===============0314285699459323050==
+--===============8120889835632971671==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kas/linux
-user: kas
+repo: pub/scm/linux/kernel/git/vbabka/slab
+user: vbabka
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/compound_head
-    old: bfd91acf112563d64dad37bd746b6f4928a9d180
-    new: 3b277ce52c27192b030183e981392b00f98883ea
-    log: revlist-bfd91acf1125-3b277ce52c27.txt
+  - ref: refs/heads/slab/for-7.0/misc
+    old: 6505bc455e5ac266a4f62d205949a32f42093042
+    new: 3241400cdabfd450f2fc058c5aff9f2c6e6cee4c
+    log: |
+         3241400cdabfd450f2fc058c5aff9f2c6e6cee4c mm/slab: factor out slab_args_unmergeable()
+         
 
---===============0314285699459323050==
+--===============8120889835632971671==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-bfd91acf1125-3b277ce52c27.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-9ba86dadd419bfd55485b3a56cb23a65e505a5b8 mm: Move MAX_FOLIO_ORDER definition to mmzone.h
-1e872b5ef0cf1c32aeb1db516039d54f2c9ec573 mm: Change the interface of prep_compound_tail()
-4347f386c606a3d19edcd870ff17f5ea747d61a9 mm: Rename the 'compound_head' field in the 'struct page' to 'compound_info'
-110e5517d333c207092e819b486c36c37aa9c6ff mm: Move set/clear_compound_head() next to compound_head()
-117fcfb483ec54820f9959a31db01475c8adeb6d riscv/mm: Align vmemmap to maximal folio size
-6b7d1a71928fa353daf9e17da5a46263d6a9f21a LoongArch/mm: Align vmemmap to maximal folio size
-5dee78a24b24c34b51da2ae3754a918bbb825bd8 mm: Rework compound_head() for power-of-2 sizeof(struct page)
-7b6a55a01df8e2622b33bad53d57cdadd7e53655 mm: Make page_zonenum() use head page
-e6b5ba11ef5a35dd91241bec95182b5ffcc731cb mm/sparse: Check memmap alignment for compound_info_has_mask()
-67eca16acbac6556c9d8de0f8970091dbb955bf5 mm/hugetlb: Refactor code around vmemmap_walk
-26f97576246e3da1bf979b51ea83443482712798 mm/hugetlb: Remove fake head pages
-31326983f38845bd03842805b175ca80c6b5d1c3 mm: Drop fake head checks
-859e904f5e2784daa925ef1d677c5cd9722f5e0f hugetlb: Remove VMEMMAP_SYNCHRONIZE_RCU
-4414a0c44a281d2979016117f678795b5392d19c mm/hugetlb: Remove hugetlb_optimize_vmemmap_key static key
-9a895c9c507b8890d5c1d5c709d954559fd6086e mm: Remove the branch from compound_head()
-3b277ce52c27192b030183e981392b00f98883ea hugetlb: Update vmemmap_dedup.rst
+certificate version 0.1
+pusher A940D434992C2E8E99103D50224FA7E7CC82A664 1769532609 +0100
+pushee gitolite.kernel.org:pub/scm/linux/kernel/git/vbabka/slab.git
+nonce 1769532608-724a899e8803943dbbbba42196c63fe419502972
 
---===============0314285699459323050==--
+6505bc455e5ac266a4f62d205949a32f42093042 3241400cdabfd450f2fc058c5aff9f2c6e6cee4c refs/heads/slab/for-7.0/misc
+-----BEGIN PGP SIGNATURE-----
+
+iQFPBAABCAA5FiEEe7vIQRWZI0iWSE3xu+CwddJFiJoFAml47MEbFIAAAAAABAAO
+bWFudTIsMi41KzEuMTEsMiwyAAoJELvgsHXSRYiaE9UH/jZm5JtjUYhQnRoiyKFf
+/4lwzpAmMCRMlx/xuEpjj3fG54AOs/M1sFnjZoxA7BXeELOEByTuQV/jvM/Y11le
+1FOqqZTgkVODPY5Qz1doRi/gJG6RbvpDyqFz2fjepklBwlK7M1952ZfbQFMQ1hHd
+QCCUR7YbHbHniFnihFPhHPiSa2OrYMOmZldZy8PQq4fllyxT6FTn7yCmUBCAnBqi
+HQws3Gi09dN7n40EwGz8BYTmyIutCFvaPxl+bjhes6kpRZbRp2Vyz193iqyokF5Q
+2dQXyqwNCKl0lLpfrKHJQ1alYeuHoF+4Zuyy+kGoTk87QFXJ/fzZbq085KskhZe2
+rxM=
+=zSma
+-----END PGP SIGNATURE-----
+
+--===============8120889835632971671==--
