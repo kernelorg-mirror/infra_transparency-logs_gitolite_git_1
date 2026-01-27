@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2665575183094712088=="
+Content-Type: multipart/mixed; boundary="===============7696894825896810052=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Tue, 27 Jan 2026 00:21:28 -0000
-Message-Id: <176947328824.3349034.1874757376187869205@gitolite.kernel.org>
+Date: Tue, 27 Jan 2026 00:21:29 -0000
+Message-Id: <176947328984.3349259.11184063390742752238@gitolite.kernel.org>
 
---===============2665575183094712088==
+--===============7696894825896810052==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/mm-new
-    old: 5a3704ed2dce0b54a7f038b765bb752b87ee8cc2
-    new: 94e47674af8005bd797650d03cd97ec2f60d4c25
-    log: revlist-5a3704ed2dce-94e47674af80.txt
+  - ref: refs/heads/mm-unstable
+    old: 10de4550639e9df9242e32e9affc90ed75a27c7d
+    new: 56b860c5e6fb015efb81d321a52a7dee44cb5798
+    log: revlist-10de4550639e-56b860c5e6fb.txt
 
---===============2665575183094712088==
+--===============7696894825896810052==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5a3704ed2dce-94e47674af80.txt
+Content-Disposition: attachment; filename=revlist-10de4550639e-56b860c5e6fb.txt
 
 7553d55e5b16ace30a196e7dbaebdd461d974484 mm/shmem, swap: fix race of truncate and swap entry split
 6c3b7b814d7b54f47fbb4a39d1576d9bb1737d6a mm/kasan: fix KASAN poisoning in vrealloc()
@@ -349,19 +349,5 @@ e3f6ef030ffac1ddc9044f429f2042b120f6126f maple_tree: add cp_converged() helper
 3ade63f270fee5c5483eac86a5ea9cfaa7691ef9 maple_tree: pass maple copy node to mas_wmb_replace()
 ad24d8f8548201db1c4ec0fcdb49e5801afd9b0e maple_tree: don't pass end to mas_wr_append()
 56b860c5e6fb015efb81d321a52a7dee44cb5798 maple_tree: clean up mas_wr_node_store()
-fc8efb1d41180e63370a8ea894f3f2f3718c13f1 zsmalloc: make common caches global
-1337c195d1a1e5fd3d8d03e55c7f5c54b60f349c maple_tree: update mas_next[_range] docs
-2619e5a810365a7f84713f6f5eef82f35f79e547 selftests/mm: add memory failure anonymous page test
-aca88b58aa3636478ff9fe81096afbdd63d6064c selftests/mm: add memory failure clean pagecache test
-747d05aadbd46dbb9573db637e2939cebd5de815 selftests/mm: add memory failure dirty pagecache test
-406c5d0cc9f8529c8a8b7412ea7640d0d054de94 mm: zswap: use SG list decompression APIs from zsmalloc
-a1ce206cf6ce6263ee33bf3907eee85e023a2178 kasan: remove unnecessary sync argument from start_report()
-20ffb2b79b34a5ed35103439b96dafd090c2ac45 hugetlb: increase hugepage reservations when using node-specific "hugepages=" cmdline
-966b1ca34b5ee1309b61457f66e1681a4d163b29 percpu: add double free check to pcpu_free_area()
-3a97696dcfecf5e0fe35847b7b80260cfbae658b selftests/mm: have the harness run each test category separately
-2ee54c84358e7698a00221b0e8fc556fbe2eca7d memfd: export memfd_{add,get}_seals()
-ec7dee1127cc670a742d6b140e041cd95accdbf2 mm: memfd_luo: preserve file seals
-5cb14d39609cf2c08f752378d5650a9ed0634125 mm/cma: replace snprintf with strscpy in cma_new_area
-94e47674af8005bd797650d03cd97ec2f60d4c25 mm: folio_zero_user: open code range computation in folio_zero_user()
 
---===============2665575183094712088==--
+--===============7696894825896810052==--
