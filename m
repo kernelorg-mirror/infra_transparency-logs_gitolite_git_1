@@ -1,24 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/liburing
-Date: Tue, 27 Jan 2026 17:56:23 -0000
-Message-Id: <176953658383.16711.15324597387198684558@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
+Date: Tue, 27 Jan 2026 17:57:31 -0000
+Message-Id: <176953665123.17319.5407817676879435064@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/liburing
-user: axboe
+repo: pub/scm/linux/kernel/git/tnguy/net-queue
+user: tnguy
 changes:
-  - ref: refs/heads/bpf-restrictions
-    old: d086b1aa7e8ae22fc1364e3192df609560f90d58
-    new: 45124e9d937b458dbe7afecfb71ff5079c2a63cf
+  - ref: refs/heads/1GbE
+    old: 709bbb015538dfd5c97308b77c950d41a4d95cd3
+    new: e9acda52fd2ee0cdca332f996da7a95c5fd25294
     log: |
-         5085584ee1bf2306857b40e14fcbd8d55a26aba3 Add support for classic BPF (cBPF) filters
-         40d5891a24aabae65e97a18ea1303b1678a9cae5 test/cbpf_filter: add ring-level BPF filter tests
-         24f051a7a3d668c92bbc766123e3ed63c5acb774 man: add io_uring_register_bpf_filter.3 man page
-         ec6175e57291655b0c89a922fd0004c89abfdfaa man/io_uring_register_bpf_filter.3: add IORING_OP_OPENAT/OPENAT2 notes
-         220e8d3a15512a1a296659a625f195e99c0dd77b test/cbpf_filter: add IORING_OP_OPENAT/OPENAT2 filter tests
-         45124e9d937b458dbe7afecfb71ff5079c2a63cf io_uring/bpf_filter.h: update for IORING_OP_OPENAT/OPENAT2
+         8d7ba71e46216b8657a82ca2ec118bc93812a4d0 rocker: fix memory leak in rocker_world_port_post_fini()
+         e2a9eeb69f7d4ca4cf4c70463af77664fdb6ab1d mptcp: fix race in mptcp_pm_nl_flush_addrs_doit()
+         2c84959167d6493dbdac88965c7389b8ab88bf4e net: spacemit: Check for netif_carrier_ok() in emac_stats_update()
+         165c34fb6068ff153e3fc99a932a80a9d5755709 nfc: llcp: Fix memleak in nfc_llcp_send_ui_frame().
+         e9acda52fd2ee0cdca332f996da7a95c5fd25294 bonding: fix use-after-free due to enslave fail after slave array update
          
