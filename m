@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8499556143348263149=="
+Content-Type: multipart/mixed; boundary="===============8833524033418907447=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
-Date: Tue, 27 Jan 2026 05:45:11 -0000
-Message-Id: <176949271143.3614725.17990233348657758181@gitolite.kernel.org>
+Date: Tue, 27 Jan 2026 05:45:17 -0000
+Message-Id: <176949271736.3614945.4864880155750859714@gitolite.kernel.org>
 
---===============8499556143348263149==
+--===============8833524033418907447==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,21 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/perf/perf-tools-next
 user: acme
 changes:
-  - ref: refs/heads/tmp.perf-tools-next
-    old: 23262369e650c9995505eb4f69f16449467e6bfe
+  - ref: refs/heads/perf-tools-next
+    old: 0a6fb6604746c92bccc71867fd0bf3d3294335d1
     new: 68abacb0686651dd3f0bbce2fa94b438afeb2fc4
-    log: revlist-23262369e650-68abacb06866.txt
+    log: revlist-0a6fb6604746-68abacb06866.txt
 
---===============8499556143348263149==
+--===============8833524033418907447==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-23262369e650-68abacb06866.txt
+Content-Disposition: attachment; filename=revlist-0a6fb6604746-68abacb06866.txt
 
+7ce6dfc603ed01044ebe58472a584d9995281ca2 perf script: Fix script_fetch_insn for more than just x86
+f33e7aa42ea79f2142f073df777c01125def45e5 perf callchain: Switch callchain_param_setup from an arch to an e_machine
+4b870f62c5079b48a6a19c852f4db5d2569a5239 perf thread-stack: Switch thread_stack__init() to use e_machine
+23262369e650c9995505eb4f69f16449467e6bfe perf disasm: Constify variables storing the result of bsearch() on const tables
 b42868624c7d00206f77d19a6fbfea73a44ff6f2 perf metricgroup: Constify variables storing the result of strchr() on const tables
 678ed6b707e4b2db250f255d2f959322896dae65 perf strlist: Don't write to const memory
 f1321cce848c558fde4c0c6bcd5e53f3cefd3af2 perf session: Don't write to memory pointed to a const pointer
@@ -38,4 +42,4 @@ f1321cce848c558fde4c0c6bcd5e53f3cefd3af2 perf session: Don't write to memory poi
 8bf093acb3f1f07d846c86e32308f9f9954ed579 perf bpf-event: Constify variables storing the result of strchr() on const tables
 68abacb0686651dd3f0bbce2fa94b438afeb2fc4 perf jitdump: Constify variables storing the result of strchr() on const tables
 
---===============8499556143348263149==--
+--===============8833524033418907447==--
