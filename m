@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Tue, 27 Jan 2026 04:56:55 -0000
-Message-Id: <176948981513.3574517.4693711738276685997@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Tue, 27 Jan 2026 05:00:38 -0000
+Message-Id: <176949003820.3578447.14193261439995377235@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-user: jarkko
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
-  - ref: refs/heads/vcam
-    old: 4fa6033b7c74b72719b8608a01660b9e6e06d14b
-    new: 766f3f53305e91959ca9672da850dd3c17aaead0
+  - ref: refs/heads/main
+    old: a84a1fe0fb2e9bfccb1d5a2929a249960a93264d
+    new: 3eef6c061f97ab2a942dc98291bcdae9a16e5bda
     log: |
-         766f3f53305e91959ca9672da850dd3c17aaead0 media: vcamera
+         5c05b3dbccb17ddd6515a6c749feee9b657a5640 netdevsim: use u64_stats_t with u64_stats_sync properly
+         3eef6c061f97ab2a942dc98291bcdae9a16e5bda net: ethernet: ti: netcp: Use u64_stats_t with u64_stats_sync properly
          
