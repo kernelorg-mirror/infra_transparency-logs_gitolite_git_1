@@ -1,21 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/korgalore/korgalore
-Date: Tue, 27 Jan 2026 22:20:42 -0000
-Message-Id: <176955244225.231009.14544530940047260698@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
+Date: Tue, 27 Jan 2026 22:26:33 -0000
+Message-Id: <176955279315.235222.4399589672896848952@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/korgalore/korgalore
-user: mricon
+repo: pub/scm/linux/kernel/git/tnguy/net-queue
+user: tnguy
 changes:
-  - ref: refs/heads/master
-    old: 4fef55f94d6a258bc4246fe9a685904561c128a6
-    new: 117c578403a91cf1ecf73f3d6c0a3a7cd218517a
+  - ref: refs/heads/10GbE
+    old: e9acda52fd2ee0cdca332f996da7a95c5fd25294
+    new: 05faf2c0a76581d0a7fdbb8ec46477ba183df95b
     log: |
-         fe6ab5347313b8bc428bcd3d0fe0932f346b2d37 Add Message-ID deduplication for JMAP and IMAP targets
-         27512230046451f78a048da2438161c388b1be30 Add X-Korgalore-Trace header injection for message provenance
-         117c578403a91cf1ecf73f3d6c0a3a7cd218517a Remove temporary JMAP deduplication test
+         638344712aefeba97b6e0d90f560815fd88abd0f ixgbe: fix memory leaks in the ixgbe_recovery_probe() path
+         100cf7b4ca6ed770ec4287f3789b1da2e340a05a ixgbe: don't initialize aci lock in ixgbe_recovery_probe()
+         9bb30be4d89ff9a8d7ab1aa0eb2edaca83431f85 ice: Fix NULL pointer dereference in ice_vsi_set_napi_queues
+         05faf2c0a76581d0a7fdbb8ec46477ba183df95b ice: stop counting UDP csum mismatch as rx_errors
          
