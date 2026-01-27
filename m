@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6180228075110987033=="
+Content-Type: multipart/mixed; boundary="===============7572183932979223687=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
-Date: Tue, 27 Jan 2026 22:36:58 -0000
-Message-Id: <176955341800.247060.11501671533419815226@gitolite.kernel.org>
+Date: Tue, 27 Jan 2026 22:38:07 -0000
+Message-Id: <176955348724.247730.4282878350987544729@gitolite.kernel.org>
 
---===============6180228075110987033==
+--===============7572183932979223687==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/pci/pci
 user: helgaas
 changes:
-  - ref: refs/heads/resource
-    old: c68fdfe15153c23697f796eb819e7ceaaf4ca46b
-    new: 5d413c735175fd3a862cd747b330d0097f74abce
-    log: revlist-c68fdfe15153-5d413c735175.txt
+  - ref: refs/heads/next
+    old: 40880ffac17ded5a8b583ea7d052afccd4029f99
+    new: 97f308dcfed586d61b0265e793aaf086d4acbafe
+    log: revlist-40880ffac17d-97f308dcfed5.txt
 
---===============6180228075110987033==
+--===============7572183932979223687==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c68fdfe15153-5d413c735175.txt
+Content-Disposition: attachment; filename=revlist-40880ffac17d-97f308dcfed5.txt
 
 bc75c8e5071120e919beb39e69f0979cccfdf219 PCI: Rewrite bridge window head alignment function
 3958bf16e2fe1b1c95467e58694102122c951a31 PCI: Stop over-estimating bridge window size
@@ -47,5 +47,35 @@ fd29d4ea09baa54b87f7ec7278768d0db00382a8 PCI: Separate CardBus setup & build it 
 cad3337bb6c3a2ba2307d6a9061e752e15681d2b PCI: Add dword #defines for Bus Number + Secondary Latency Timer
 3cbb40c3d46415bff4ba4b75ccc96007217112f0 PCI: Add pbus_validate_busn() for Bus Number validation
 5d413c735175fd3a862cd747b330d0097f74abce PCI: Move CardBus bridge scanning to setup-cardbus.c
+e9ddabda1314ab9b66e1a80f2dae839327ab6b9a Merge branch 'pci/endpoint'
+34af040168e9f96225a15557db1944fae3a04019 Merge branch 'pci/enumeration'
+c0a6a600dea442b44c99d92ab4779e87f3b1147c Merge branch 'pci/iommu'
+dd15fcd2dd03bba994a6f711ea43e0e2c2569ce0 Merge branch 'pci/p2pdma'
+32357b313a03251ddb872f62d857ea49aec34ca3 Merge branch 'pci/pm'
+2c294362ae709cad408ce5c08a6f5057fabb770c Merge branch 'pci/portdrv'
+0cb0be7607e78c848fcb252f6350bb10079d88d9 Merge branch 'pci/ptm'
+98459fd42ec9f5afee6fd946ca4984fa4b79829f Merge branch 'pci/pwrctrl'
+7628ed6ed7b8cc1dcb8e56f4d59195d07f24eaf0 Merge branch 'pci/resource'
+7df373c57e49bcc63aa0bf2c0a65fd5db8a65530 Merge branch 'pci/trace'
+f0d63776924f323b8111fdeb33a15cb2875cc6d5 Merge branch 'pci/virtualization'
+b61bd7fc19ed13f0a4b45d6e895f446cc83d1647 Merge branch 'pci/workqueue'
+a32e21231aed00b30429ea5ae77f4f478863e55a Merge branch 'pci/dt-bindings'
+51aa64d4c19f0f00fd50cafd37cc2328675053ab Merge branch 'pci/controller/aspeed'
+d73ce6c2017305c48776286d637dfe9747041630 Merge branch 'pci/controller/cadence'
+8ac3b6157696165aa43579dc6372c516eafc5523 Merge branch 'pci/controller/cadence-j721e'
+000b556cd9ef5868d837d67dd170634039ecb23b Merge branch 'pci/controller/dwc'
+3f51910fd2902287a66abb6fc6bca35bbbd3c16e Merge branch 'pci/controller/dwc-imx6'
+7b689e6dadfcfe2bacb264eb7d96c2270d372591 Merge branch 'pci/controller/dwc-qcom'
+a58450e72490c0c739bb08eecb75ed2858430cbf Merge branch 'pci/controller/dwc-qcom-ep'
+3f08991145306be1cc8c19e4acf30aa3a00a8987 Merge branch 'pci/controller/dwc-rockchip'
+d48ec32bb250181bb9bc8ca1f9e8b9257119c553 Merge branch 'pci/controller/dwc-sophgo'
+406c76bdb91cbe79ae86bf564729b53429cbd727 Merge branch 'pci/controller/mediatek'
+411d690948645965583c44e191fc2ad7cdda945b Merge branch 'pci/controller/plda-starfive'
+4a22eee6dbb51dfb202e7c0ed2667f17628494f9 Merge branch 'pci/controller/rzg3s-host'
+cab5a3c6deac27e52322c6f22f5582b3d7947bae Merge branch 'pci/controller/tegra'
+26b998476b78272494980ab16dd3d054a60dafc1 Merge branch 'pci/controller/tegra194'
+4b4d34118f2b273e3eaa412df2f50b1af24db91a Merge branch 'pci/controller/xilinx'
+86db99581a0240de4d103045e034a48a8a7977ce Merge branch 'pci/controller/misc'
+97f308dcfed586d61b0265e793aaf086d4acbafe Merge branch 'pci/misc'
 
---===============6180228075110987033==--
+--===============7572183932979223687==--
