@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8848225614038147259=="
+Content-Type: multipart/mixed; boundary="===============7248628581836725914=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Tue, 27 Jan 2026 14:49:25 -0000
-Message-Id: <176952536583.4046081.2385198148045761621@gitolite.kernel.org>
+Date: Tue, 27 Jan 2026 14:51:35 -0000
+Message-Id: <176952549504.4049377.254524625060325130@gitolite.kernel.org>
 
---===============8848225614038147259==
+--===============7248628581836725914==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,41 +17,47 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/staging-testing
-    old: 6007fd46039d56a67024f92fffa262418509ce73
-    new: cc34db609ff98c1d9709c3d48fa4f98450fab739
+    old: cc34db609ff98c1d9709c3d48fa4f98450fab739
+    new: 1d264b88aea94c41470fb3e02caf068053396c73
     log: |
-         2c1312898d0362c9b1fb5d42e049f3b12bb1cf54 staging: rtl8723bs: remove unnecessary boolean comparisons
-         cc34db609ff98c1d9709c3d48fa4f98450fab739 staging: sm750fb: rename initParm to init_parm
+         00883ce1d48a8aecc6573d05ce8a44d4686948a9 staging: rtl8723bs: rename RegEnableTxPowerLimit to reg_enable_tx_power_limit
+         a3f440616a4236b6830427c4948f0b096ba102f5 staging: rtl8723bs: rename RegEnableTxPowerByRate to reg_enable_tx_power_by_rate
+         43e165f7e0238c8f0bbb6f17a56e12e0143224b6 staging: rtl8723bs: rename RegPowerBase to reg_power_base
+         7c347fbe211391808a947fca28a6a9af1914e443 staging: rtl8723bs: rename RegPwrTblSel to reg_pwr_tbl_sel
+         6af021ad7b19eb5e90724d56481ff4a3c6804094 staging: rtl8723bs: remove unused variable TxBBSwing_2G
+         88773d6b322539b8fe7417418cb26ef056c3b207 staging: rtl8723bs: remove unused variable AmplifierType_2G
+         c003c3789876fc8edcc4014eaf011fca6c8de986 staging: rtl8723bs: remove unused variable bEn_RFE
+         1d264b88aea94c41470fb3e02caf068053396c73 staging: rtl8723bs: remove unused variable RFE_Type
          
 
---===============8848225614038147259==
+--===============7248628581836725914==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1769525362 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1769525491 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1769525362-1940ecab4addcb97f525517647b82377569bc4a6
+nonce 1769525491-c799c1d2e5e85aac14e02db51843c50f64495392
 
-6007fd46039d56a67024f92fffa262418509ce73 cc34db609ff98c1d9709c3d48fa4f98450fab739 refs/heads/staging-testing
+cc34db609ff98c1d9709c3d48fa4f98450fab739 1d264b88aea94c41470fb3e02caf068053396c73 refs/heads/staging-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAml40HIbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+tXUP/04HJFKtsASu2Uh8aZdc
-x+Yzxv2H2l2q+9o8V3owsbKDudqf4aNjYlOcrzESiayuMB3s/JDr1yCPgG9ew5Ac
-KpNxrJYtTerFY7tPjA9rd51ogdqy9uvmX/HDr3drkTdfUsjqmESfM1mt0mDURpGo
-NEZQFpAYYNlnhQV6oJOxGNtjp6y5m5p5fmsRGfUthQyC0v7aYnQyKYcWzJEBJ3fe
-yoBZ5bUdz6kn/psh/MhgExVFg09CmbxGFd/havhaHPkaiFpQw4gMwjhD5H91xbHy
-T+gt3lY/EsIq9VhyvqAlPNAKsDrZkrjvVjxJcMoh9/yC8qQiKrnSlfdqm/36UrBu
-xUnv/yfGB0rFOCyMuhq4yH1tGahXIX/WDhgqSdmqJiFnLwjfZw8BQD5qv/YTFYq0
-mmBtCRjt6WCEV0hgArGs5lxlYprAyfj3Ykm9ITikNX+QT3dQBkoc0KJiR7tH7/+F
-2RtshPiPpibGokcYDblF/kR7ruTjzYOtNN2CzyQhIDnzg8ZUe6XY0Vr/+3AUsPN2
-jCV4zyAZrGbWerXYhpoEz/hJ2LpOEdmGzBk9kcGUz63sDLJP0jh7+RBrJ5KJN40r
-iicFpjru3DLLDsFsPw1RKUCa6AsExcfELmOm4U+dXzPb1hoPdFwyUyCk0MKW1lpy
-CfdlEamMt1qB7K4L/a5RJjqY
-=e3rE
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAml40PMbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+uLEQALLefMigEPUt8QNJ/+3B
+U3KVq7ZcXvx8GAoIAlWfpsly5q4GrUo+gCmwiBR3Vy26I+lMZG4+uSZADN217TPv
+Q1UWPIhTGULJd0BFSMlSRGIykc0yI5F6u9Zgc1r2zj6w36udUeFsBGrG4b+60+lI
+iLJA9J2Q63Je8D/4WVsBi4VzcrS7bE2YgsgtB9Q5yFIbDd68z9hh2PZIQHqaaE7B
+uSD9VLxdQuQezykNSRt//aQX94oBDc8XMFNcUBZKnZMZhBPG17Zh0f2U4xmI9OBV
+ch/xlr2kFFEsb6o/L2DkBbGE5E7bx2C5n1zNQApBMXNeQDuAWPq0hQYWA1R1Yr4V
+37vcDgiG+W9j2Lmo6ytplVFkdbLo4RfTUON07bTnYPt8+NZoQSdA8CXDRXFuKr2G
+pwasQnfxc9gC5assZ4EuuQSF4RyXC4FP5HHbenp8clZc4Mk99l4hBk9NdpTv5KxE
+4xOgW3bzzc3G/0ih1of8s0fHrOt9iz1STLDU2HMHY43xhY//zTj5lZ/wTysuBlAU
+5L+ucqDXE6YrZLYWPhTnQFy5PPyNDWc0XCqe+sdpRAy2iCH/TzB4A7UKX1FToGlg
+tCfAC7dfYjh5Qoz7oQg7+Fr2gIYUDqBmxGDlLNLhRlgkANx5hLouVzeb0G+9CdEj
+660iAqIYh8AMyry7CBoReJso
+=I9Hq
 -----END PGP SIGNATURE-----
 
---===============8848225614038147259==--
+--===============7248628581836725914==--
