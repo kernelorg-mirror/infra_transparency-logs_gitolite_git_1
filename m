@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Tue, 27 Jan 2026 03:36:48 -0000
-Message-Id: <176948500842.3509292.4230838598424377836@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Tue, 27 Jan 2026 03:42:52 -0000
+Message-Id: <176948537273.3513666.1527690502092647219@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-user: jarkko
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: sashal
 changes:
-  - ref: refs/heads/vcam
-    old: 453a0b2adb9705b2be1a39d390d7c920a6a3e0b2
-    new: f4c54af763def51df0fcd13425bb19df61a5691f
+  - ref: refs/heads/master
+    old: 7348af480abb1c749914a95e9757104b675fb30e
+    new: ffd7e40a1930ead94f73ed6fe1cf8226e74cbe84
     log: |
-         f4c54af763def51df0fcd13425bb19df61a5691f media: vcamera
+         ffd7e40a1930ead94f73ed6fe1cf8226e74cbe84 Fixes for all trees
          
