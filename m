@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
-Date: Tue, 27 Jan 2026 20:21:39 -0000
-Message-Id: <176954529900.138132.6222379397546864257@gitolite.kernel.org>
+Date: Tue, 27 Jan 2026 20:29:12 -0000
+Message-Id: <176954575269.143146.8516428062334635959@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,12 +12,28 @@ repo: pub/scm/linux/kernel/git/rafael/linux-pm
 user: rafael
 changes:
   - ref: refs/heads/bleeding-edge
-    old: 81abbcf79344cc96718fe29eccf5e8a910507010
-    new: 51e95238f024aac1987374410d745b2a09753a85
+    old: 51e95238f024aac1987374410d745b2a09753a85
+    new: 4b321758e82c95202304394603aef3990ed2b38a
     log: |
-         600024e37505ef7ed70758f9b93a5000dd0cc738 cpufreq: CPPC: Add generic helpers for sysfs show/store
-         a8a00cc65ec98097a0cbbe2e7e534c7ef4f0e660 Merge branch 'pm-cpufreq' into bleeding-edge
-         7cb6f10ce3edc9b7bb543daafd72c396a96978ee ACPI: CPPC: Clean up cppc_perf_caps and cppc_perf_ctrls structs
-         83e2908c1d425a6ef2e96457ad95b886b8ddfc48 ACPI: CPPC: Rename EPP constants for clarity
-         51e95238f024aac1987374410d745b2a09753a85 Merge branch 'acpi-cppc' into bleeding-edge
+         793374c09f29c441ffb9646382aecdd9e3b844fb Merge branches 'thermal-core' and 'thermal-intel' into linux-next
+         cf472704a9d1faffce99b73abedae8291dd8f80a Merge branch 'fixes' into linux-next
+         8cc25a6996b866aa04842c97dfed099a59e0ad5a Merge branches 'pm-cpufreq' and 'pm-opp' into linux-next
+         d4cf8d56bdff4b926c0eb456bee0d3e041c340f2 Merge branch 'pm-cpufreq' into bleeding-edge
+         4b321758e82c95202304394603aef3990ed2b38a Merge branches 'acpi-irq', 'acpi-processor' and 'acpi-cppc' into bleeding-edge
+         
+  - ref: refs/heads/linux-next
+    old: 2842112d943a3e66ddbd60a8249720e1f2b75d30
+    new: 8cc25a6996b866aa04842c97dfed099a59e0ad5a
+    log: |
+         793374c09f29c441ffb9646382aecdd9e3b844fb Merge branches 'thermal-core' and 'thermal-intel' into linux-next
+         cf472704a9d1faffce99b73abedae8291dd8f80a Merge branch 'fixes' into linux-next
+         8cc25a6996b866aa04842c97dfed099a59e0ad5a Merge branches 'pm-cpufreq' and 'pm-opp' into linux-next
+         
+  - ref: refs/heads/testing
+    old: 2842112d943a3e66ddbd60a8249720e1f2b75d30
+    new: 8cc25a6996b866aa04842c97dfed099a59e0ad5a
+    log: |
+         793374c09f29c441ffb9646382aecdd9e3b844fb Merge branches 'thermal-core' and 'thermal-intel' into linux-next
+         cf472704a9d1faffce99b73abedae8291dd8f80a Merge branch 'fixes' into linux-next
+         8cc25a6996b866aa04842c97dfed099a59e0ad5a Merge branches 'pm-cpufreq' and 'pm-opp' into linux-next
          
