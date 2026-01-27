@@ -1,56 +1,21 @@
-Content-Type: multipart/mixed; boundary="===============1893823393933335680=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/spdx
-Date: Tue, 27 Jan 2026 14:57:50 -0000
-Message-Id: <176952587024.4055604.12705726922430338414@gitolite.kernel.org>
-
---===============1893823393933335680==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/daeinki/drm-exynos
+Date: Tue, 27 Jan 2026 14:59:32 -0000
+Message-Id: <176952597294.4056615.17697595648719618180@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/spdx
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/daeinki/drm-exynos
+user: daeinki
 changes:
-  - ref: refs/heads/spdx-linus
-    old: 330eb955ea9e7c74e72caadffe39ccc838a66267
-    new: c86d39d6805474ab879c00ca6b938c6dd7e4d33f
+  - ref: refs/heads/exynos-drm-next
+    old: b2c6627e406d00bc53903ff6204aabb0c6a22b1a
+    new: d24ebeeac9443bdb9273d0f6f155ef63aa80815d
     log: |
-         c86d39d6805474ab879c00ca6b938c6dd7e4d33f kernel: debug: Add SPDX license ids to kdb files
+         0160772b3432dc8b21695a2b9c333ac8e8546c74 drm/exynos: vidi: use priv->vidi_dev for ctx lookup in vidi_connection_ioctl()
+         1a9157fbafbb7c8b6883301032319a568d47fbf5 drm/exynos: vidi: fix to avoid directly dereferencing user pointer
+         d24ebeeac9443bdb9273d0f6f155ef63aa80815d drm/exynos: vidi: use ctx->lock to protect struct vidi_context member variables related to memory alloc/free
          
-
---===============1893823393933335680==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1769525866 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/spdx.git
-nonce 1769525865-6dd8f3df2241dd1f425539a55d22040086789f4f
-
-330eb955ea9e7c74e72caadffe39ccc838a66267 c86d39d6805474ab879c00ca6b938c6dd7e4d33f refs/heads/spdx-linus
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAml40mobHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+0AQP/j4qX0mbwupsxSqWIT1E
-0ZN7+TeuzK6ZPwQpgGXTVOrZRG9ahM5cn1dWykHejNdtz9xJfa6/jkW4FFtVjrud
-NHhrRN5KyXi1LmlRg4hXFU8tzRGJWfSZvn68SRbWfMyFOa2idseCjUwqvaaPvefw
-A/pMZA2mJXMZR8Jcr/RG/s/u1rptZbb+AW5y8nnE/AoPRWLcc5q8Qro1inDfDhuJ
-bo4TOIREMxy4JTemOQR6UldeHiEpJZKdo5RzSlH8EcZkN2BQmsGT6FEZes1JxbzA
-vJV7ZyyixHscFHpYafWEqo9PubcB+jlYRC2JYw1Q+sRTGvNlSwVB34MVmgzWXRbk
-4WJsrbVU7EcUOY5HJa8qcCSwKK1Z0nwDbzTgca2fbuWu+E45uRr6/iA+b55YAjSz
-P0Z+JYozv08DXBM1TMDxNnLmrwUKqHiD/sYzwwgQirRyFI3gKd/BTtCQUEGpXriZ
-nfBbevTKrWfB9HFLtDhzHzW4OU5cgrUMCwt0lb7KAa+x8XPLKmOjkdzUyAwPwRM9
-vgWBEYHbFPhyZE/o1NGoMZ1hvY9LKs5QC0Lgv9ZM0ahmxu3wac+RUHPVO5AxN3xi
-vCyryZo1//bgOLW0zKQp/cNgh7N1abNcI+kJT61QVV6woQUDhAA7gOCB9CKYZ7wx
-abVFOcVK8Ivz99zHXFoSWitG
-=BPAu
------END PGP SIGNATURE-----
-
---===============1893823393933335680==--
