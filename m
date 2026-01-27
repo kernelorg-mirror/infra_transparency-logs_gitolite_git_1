@@ -1,56 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============5956896542041289979=="
+Content-Type: multipart/mixed; boundary="===============5138527872295638347=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Tue, 27 Jan 2026 10:41:24 -0000
-Message-Id: <176951048411.3844943.4437732026427631430@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Tue, 27 Jan 2026 10:56:21 -0000
+Message-Id: <176951138199.3857155.4526271495117494828@gitolite.kernel.org>
 
---===============5956896542041289979==
+--===============5138527872295638347==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/tip/tip
+user: mingo
 changes:
   - ref: refs/heads/master
-    old: ffd7e40a1930ead94f73ed6fe1cf8226e74cbe84
-    new: dcbf54f969ac652d6ebd636da4d564a845b6d86f
-    log: |
-         dcbf54f969ac652d6ebd636da4d564a845b6d86f drop queue-5.15/scsi-core-wake-up-the-error-handler-when-final-compl.patch
-         
+    old: bbfc0cddcbe8a08eb3a2793315bce117d25d2e89
+    new: cb663892aa3c09997e5f302e5a1de7c223f92052
+    log: revlist-bbfc0cddcbe8-cb663892aa3c.txt
 
---===============5956896542041289979==
+--===============5138527872295638347==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-bbfc0cddcbe8-cb663892aa3c.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1769510480 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1769510479-f5e29dc726ac0c14b1e0fc0415ad656e461f63a8
+f447e12f762bc8e4174fd7bf14ab0aa13fd969f8 Merge branch into tip/master: 'irq/core'
+0ac3ba5771f0be388faa37d939d0559b197819a3 Merge branch into tip/master: 'irq/drivers'
+c6827f18e075bb466278d08caf37cc9fc1e6aec2 Merge branch into tip/master: 'irq/msi'
+3a4b14db689b64ed2b9c83e04ef2d157ebb89640 Merge branch into tip/master: 'locking/core'
+a435d9c5593e8ff5c3bbc96672a2854d7ee7c5b8 Merge branch into tip/master: 'perf/core'
+65d8c1d82e62fd22bd31a0d79cae790c1d8ea32e Merge branch into tip/master: 'sched/core'
+bb9438b202e37e1d434011f61e08bd8e3f655e1a Merge branch into tip/master: 'timers/core'
+81af88269abb3c6e0d925db9f0aedf0665f2d22c Merge branch into tip/master: 'timers/vdso'
+baa5e8e864b2c8e91946539b5c05422ec4468fe9 Merge branch into tip/master: 'x86/alternatives'
+8dd46ac89b53fa1499df99b9df45634c1874fc74 Merge branch into tip/master: 'x86/apic'
+82fe39063a0c474c416bf8ebf2e0a4d6881b770d Merge branch into tip/master: 'x86/boot'
+33e69d23b9ed62e2709813ff0cb5bb8ba2b9ac45 Merge branch into tip/master: 'x86/bugs'
+367225a4bf1345709ea93b06669011a45ed788d2 Merge branch into tip/master: 'x86/cache'
+59930516d83e56839bb9ee3cdba0e9b442990d2f Merge branch into tip/master: 'x86/cleanups'
+e7777f044e634b0fb34c536d109980fb48401070 Merge branch into tip/master: 'x86/cpu'
+f278a96155f8a315b8771cfaf96f54b657ed8a0d Merge branch into tip/master: 'x86/entry'
+15784f7651fd320840e2ce68420d57ea1598776b Merge branch into tip/master: 'x86/irq'
+c3b57b35c0abfc9e40749f3966f9131bc8a8f94b Merge branch into tip/master: 'x86/microcode'
+ad2776679dd549ad82bee06d8e03db2f3e6c6b8f Merge branch into tip/master: 'x86/misc'
+24cf159a94e52a5baef94ec4977c4c36900f7227 Merge branch into tip/master: 'x86/paravirt'
+cb663892aa3c09997e5f302e5a1de7c223f92052 Merge branch into tip/master: 'x86/sev'
 
-ffd7e40a1930ead94f73ed6fe1cf8226e74cbe84 dcbf54f969ac652d6ebd636da4d564a845b6d86f refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAml4llAbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+WEMP/i+EsClsSpv0fwbka4ZU
-VhN+jivArPRV0pCDEF9244ucFBQ1WWHkWQngDzCTAVChaU9favNMsHIb6M8bBx9M
-WWYByqhlL/hPv8xlE5QdRdb61Fn+tsqcJnoVPVRuww+xzcp02kcG7r79NIzLJSFK
-Lg2r4pt2Ibis0MoxPbzceZLdyhzAGONK2Mg9Orjc247R64eexPXN+QAPTfvcjvs8
-MKg3ro795lpIXb/q+QhQd1GIywV1EHTehDQ5WE9KYJ1MvDzUW7BWQRoDFFVl3HTi
-mfEOLFtZGFArvp5UK785VZM/INZOW7H4FFTZkS5r031WHVTTJKta5VXsWWv2/OSr
-XT3SUKc6WyadiiS49MZazg/B25QWjeNh6N4ViIgYmvCLtCMqk6NF+EnoLYbkYB4g
-QbTTN19Wy53Se4X3hXxy7+3s99v0a+5qsXjWsxWN4KeMs1oPb2RtdORMj38g55ot
-geXV3kdEOovRilQ+P8md+RQUOwqr0KBbtdA3sbuiiNmaNJ4xG8ux/dBDOH4E/TtC
-gQy+KEtrYDJDfoD4ecxOA73jOEpLs3rEbeFuaDTZfshBIjJwice9bOtsThM4SdfN
-36YO6P7F/+JTerLJNVn+MWgsjJ+GnE+ptStD/eIYKRLimstZbhNcjVjbik7PBGL+
-pEbSjw2BotFwJPViSYe/czHA
-=/wdB
------END PGP SIGNATURE-----
-
---===============5956896542041289979==--
+--===============5138527872295638347==--
