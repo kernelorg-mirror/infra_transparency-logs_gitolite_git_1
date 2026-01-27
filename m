@@ -1,37 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Tue, 27 Jan 2026 12:53:10 -0000
-Message-Id: <176951839000.3950288.14686901968667806854@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============1573882205125224689=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
+Date: Tue, 27 Jan 2026 13:05:00 -0000
+Message-Id: <176951910050.3958612.3232412440816085960@gitolite.kernel.org>
+
+--===============1573882205125224689==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/gregkh/tty
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/20260122_peng_fan_asoc_codec_remove_ak4641_pxa2xx_ac97_and_convert_to_gpio_descriptors
-    old: 0000000000000000000000000000000000000000
-    new: c76d50b71e898694c946993eb3c77f50efa97254
-  - ref: refs/heads/file8SG04t
-    old: 0000000000000000000000000000000000000000
-    new: 213c4e51267fd825cd21a08a055450cac7e0b7fb
-  - ref: refs/heads/fileaRqhTY
-    old: 0000000000000000000000000000000000000000
-    new: a8b6e3738c872d35f1cf7b3cd3ce67d86d38e7cf
-  - ref: refs/heads/filebnbu9N
-    old: 0000000000000000000000000000000000000000
-    new: 6ffdc7eb48bd2268c37c2accad454c043b9cc987
-  - ref: refs/heads/fileRQk25a
-    old: 0000000000000000000000000000000000000000
-    new: 74823db9ba2e13f3ec007b354759b3d8125e462c
-  - ref: refs/heads/v3_20260120_chin_ting_kuo_spi_aspeed_improve_handling_of_shared_spi_controllers
-    old: 0000000000000000000000000000000000000000
-    new: 04f7516ab70f7b82aae1d2830af2ee6f17f3fe98
-  - ref: refs/heads/v3_20260123_sheetal_regmap_reg_default_cb_for_flat_cache_defaults
-    old: 0000000000000000000000000000000000000000
-    new: 70a65c53d228562cf0c8ae0f38c847d2a5dd59e6
-  - ref: refs/heads/v4_20260120_stavinsky_asoc_sophgo_add_cv1800_i2s_controllers_support
-    old: 0000000000000000000000000000000000000000
-    new: b3eb755e2db07d85c30e8ff4043ffb9a14b4ece7
+  - ref: refs/heads/tty-testing
+    old: d000422a46aad32217cf1be747eb61d641baae2f
+    new: 0a15f43b92ddaa2fdb476891a12ac2e207c7fcd2
+    log: |
+         0a15f43b92ddaa2fdb476891a12ac2e207c7fcd2 Revert "tty: tty_port: add workqueue to flip TTY buffer"
+         
+
+--===============1573882205125224689==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1769519097 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
+nonce 1769519097-6b5155e09410952042fa6c4cc8a8f9250f43cb93
+
+d000422a46aad32217cf1be747eb61d641baae2f 0a15f43b92ddaa2fdb476891a12ac2e207c7fcd2 refs/heads/tty-testing
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAml4t/kbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+irYP/2i/gIVya+aH3eJlQ4Px
+O+/0ZteYWa+DDIrtTADmt471/JHZmb6Utc1l4CUc4wMHvra+wF1Pgkr1+Qg4S8yD
+kpmYplb4+2UzgGx/kSj/4kdw3Ho5msrn5WJAnJpVr1PZkmnuilxchFbFpfyEeygr
+qg/XIqX3imGd8uZrOlirgI1xxVPXTCsPWFVsdz2aIYxJzbqUd3VYeIlfosGTg95I
+GHlxEbtXs9EZ+lsXC6myJp8F/Z9gpriKn2AnE5ON8RoV4wgr3x+ieYLA6igt8LII
+yEH2f5323tXc2WR94F6CN1RwgIAdJNoak4RIk/K5/SOawKg9zMZEdCm6GTqWNr2V
+2WfuI2zo2o5sDGcROHG71MWCC4b3PX8yPv4silSHZH1tN+4lr8Oj5YBPQI736Uqz
+ZVmv+GRCb1HpOgALaVFS/+i+FiBW/Vj+WAYGqOv3pMCNZLU6anT7Q3uDfLQ6m5bn
+II5yJ9fSSOvL01mzpQNPPxPGGW9yGiv+QNk24KGgtDyVlAub02kNg4+8E2AfKaRv
+oP3zU4YYngV137nIzGPvFcu602wB5InzBWsLzIv3nwgx3xwiZKBkcZLYPjw6TCzW
+l8mp2/E1YBqIMHxnjGzO9cCGO0FbmuSxT+xl8Ex9EvO5gfCMeeE+mR0QLmXWKOU/
+E6QgrlMwkV7u2bdlBYyXIhVA
+=5IZu
+-----END PGP SIGNATURE-----
+
+--===============1573882205125224689==--
