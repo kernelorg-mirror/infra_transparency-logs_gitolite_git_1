@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd-test
-Date: Tue, 27 Jan 2026 23:18:07 -0000
-Message-Id: <176955588777.279296.5647266854156643528@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+Date: Tue, 27 Jan 2026 23:20:03 -0000
+Message-Id: <176955600383.281883.15088642901842780268@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd-test
+repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
 user: jarkko
 changes:
-  - ref: refs/heads/main
-    old: 2760d7a328fd4f6630a4057f0e89cd119b08164c
-    new: 6c250f8a67055f583fade717262a52a39e5d5f5e
+  - ref: refs/heads/vcam
+    old: 5f7f95e505ab151db6c2b2b1f945aa0c4a1f0508
+    new: 6dbb70c604138a1930e9764c6eb0aaa42a52ef0b
     log: |
-         6c250f8a67055f583fade717262a52a39e5d5f5e Add test code for v4l2-vcam
+         6dbb70c604138a1930e9764c6eb0aaa42a52ef0b media: Virtual camera driver
          
