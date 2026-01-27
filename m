@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============5222956511320182981=="
+Content-Type: multipart/mixed; boundary="===============8499556143348263149=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Tue, 27 Jan 2026 05:45:00 -0000
-Message-Id: <176949270030.3612158.7054563533762373735@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
+Date: Tue, 27 Jan 2026 05:45:11 -0000
+Message-Id: <176949271143.3614725.17990233348657758181@gitolite.kernel.org>
 
---===============5222956511320182981==
+--===============8499556143348263149==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/acme/linux
+repo: pub/scm/linux/kernel/git/perf/perf-tools-next
 user: acme
 changes:
   - ref: refs/heads/tmp.perf-tools-next
@@ -20,7 +20,7 @@ changes:
     new: 68abacb0686651dd3f0bbce2fa94b438afeb2fc4
     log: revlist-23262369e650-68abacb06866.txt
 
---===============5222956511320182981==
+--===============8499556143348263149==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -38,4 +38,4 @@ f1321cce848c558fde4c0c6bcd5e53f3cefd3af2 perf session: Don't write to memory poi
 8bf093acb3f1f07d846c86e32308f9f9954ed579 perf bpf-event: Constify variables storing the result of strchr() on const tables
 68abacb0686651dd3f0bbce2fa94b438afeb2fc4 perf jitdump: Constify variables storing the result of strchr() on const tables
 
---===============5222956511320182981==--
+--===============8499556143348263149==--
