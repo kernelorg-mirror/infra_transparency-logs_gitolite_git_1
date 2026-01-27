@@ -1,57 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============4757323598190939587=="
+Content-Type: multipart/mixed; boundary="===============1893823393933335680=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Tue, 27 Jan 2026 14:56:29 -0000
-Message-Id: <176952578986.4054750.992420116806517896@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/spdx
+Date: Tue, 27 Jan 2026 14:57:50 -0000
+Message-Id: <176952587024.4055604.12705726922430338414@gitolite.kernel.org>
 
---===============4757323598190939587==
+--===============1893823393933335680==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/char-misc
+repo: pub/scm/linux/kernel/git/gregkh/spdx
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/char-misc-testing
-    old: 79cb49ebb43ec39b4d9156e069fcc745ecbeedd0
-    new: 62bb2054f9e84ec89c416d4558dbd574c54beddf
+  - ref: refs/heads/spdx-linus
+    old: 330eb955ea9e7c74e72caadffe39ccc838a66267
+    new: c86d39d6805474ab879c00ca6b938c6dd7e4d33f
     log: |
-         3fcd9a0fbb7dfbad3caa5057054d21b903157079 eeprom: at25: add support for Infineon Cypress QSN FRAMs
-         62bb2054f9e84ec89c416d4558dbd574c54beddf eeprom: at25: expose JEDEC ID via sysfs
+         c86d39d6805474ab879c00ca6b938c6dd7e4d33f kernel: debug: Add SPDX license ids to kdb files
          
 
---===============4757323598190939587==
+--===============1893823393933335680==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1769525786 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1769525786-de48a82b09db334819099758770f1a9cb61f9de0
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1769525866 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/spdx.git
+nonce 1769525865-6dd8f3df2241dd1f425539a55d22040086789f4f
 
-79cb49ebb43ec39b4d9156e069fcc745ecbeedd0 62bb2054f9e84ec89c416d4558dbd574c54beddf refs/heads/char-misc-testing
+330eb955ea9e7c74e72caadffe39ccc838a66267 c86d39d6805474ab879c00ca6b938c6dd7e4d33f refs/heads/spdx-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAml40hobHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+DWIP/jDQt1Jjkf6n3BavUvUo
-Erz3FR89GwEZLFzrmYgvfYwhm/Enk0hNR0IrHjpHKF+NsGCOBS5aEsLaAc1sIvs/
-I5shXlydepnyXhtq58iKOUyW47SaA0PAkl3s3WLiELjd1lF77uQTda2a1TGVOHc4
-E9fi1m7JX+xIr14zbUIqjY0QnIp+9Z0B/uPxCuqdPoJgK2W+pn47njeXyK2Xf0gH
-3qsbV0vZHk44/wtDia7dtmPl31g8PJpAqCxbrL3oJTbfVT6FCaZuWg4JM2QpzX23
-hhQy7Uzh8kIF8UkqXhu4zeVZN8cv6yZBu2m1VH7IKOFJCyA9v+JvsaJxln8A4Nky
-Md1YddN9g+vXzsEAgXXDZvFLrtg6NLPDNnk1je6Pq4Kbc1P3bObej+kdowQ/d4W2
-h+ca3DjTrn6SlTKRz98IrXg62YITuwtiFtXtQafx4cIHT9T4FXOezgDVv7ySP6af
-da3KCPjgLqsboyMKY8/zMPezqg+c4tviWkO5Dp9CYdQtTokl+lPHlTVpncrmyx2F
-EKw+k8DkzaoBah43sOd7OaydVl6dHhJ1Yzuc3arO6VDAZU5fg3hM1EH+eZGQQPw6
-pvP1XMfN8OjVHBu+U4yB5lYBXR7OHsSbwwjXsBsYyaLibFkNq3cOn4js9+ydSbMK
-HpohCEpwbPYDwJ1kZo1595KO
-=yCCK
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAml40mobHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+0AQP/j4qX0mbwupsxSqWIT1E
+0ZN7+TeuzK6ZPwQpgGXTVOrZRG9ahM5cn1dWykHejNdtz9xJfa6/jkW4FFtVjrud
+NHhrRN5KyXi1LmlRg4hXFU8tzRGJWfSZvn68SRbWfMyFOa2idseCjUwqvaaPvefw
+A/pMZA2mJXMZR8Jcr/RG/s/u1rptZbb+AW5y8nnE/AoPRWLcc5q8Qro1inDfDhuJ
+bo4TOIREMxy4JTemOQR6UldeHiEpJZKdo5RzSlH8EcZkN2BQmsGT6FEZes1JxbzA
+vJV7ZyyixHscFHpYafWEqo9PubcB+jlYRC2JYw1Q+sRTGvNlSwVB34MVmgzWXRbk
+4WJsrbVU7EcUOY5HJa8qcCSwKK1Z0nwDbzTgca2fbuWu+E45uRr6/iA+b55YAjSz
+P0Z+JYozv08DXBM1TMDxNnLmrwUKqHiD/sYzwwgQirRyFI3gKd/BTtCQUEGpXriZ
+nfBbevTKrWfB9HFLtDhzHzW4OU5cgrUMCwt0lb7KAa+x8XPLKmOjkdzUyAwPwRM9
+vgWBEYHbFPhyZE/o1NGoMZ1hvY9LKs5QC0Lgv9ZM0ahmxu3wac+RUHPVO5AxN3xi
+vCyryZo1//bgOLW0zKQp/cNgh7N1abNcI+kJT61QVV6woQUDhAA7gOCB9CKYZ7wx
+abVFOcVK8Ivz99zHXFoSWitG
+=BPAu
 -----END PGP SIGNATURE-----
 
---===============4757323598190939587==--
+--===============1893823393933335680==--
