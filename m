@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0220096457860533878=="
+Content-Type: multipart/mixed; boundary="===============9058659595937358577=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Tue, 27 Jan 2026 18:02:18 -0000
-Message-Id: <176953693808.22834.7577135582309727952@gitolite.kernel.org>
+Date: Tue, 27 Jan 2026 18:02:20 -0000
+Message-Id: <176953694058.23021.4824007826060572145@gitolite.kernel.org>
 
---===============0220096457860533878==
+--===============9058659595937358577==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/10GbE
+  - ref: refs/heads/40GbE
     old: bf2e36c9dab95e41516fbcf7b1cc804539b2d021
     new: a18056a6c11cab562a77d16b5931f6fdf55e7ec9
     log: revlist-bf2e36c9dab9-a18056a6c11c.txt
 
---===============0220096457860533878==
+--===============9058659595937358577==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -63,4 +63,4 @@ afe813fd89ecde068a5f972714c4abf896715167 net: dsa: mxl-gsw1xx: add support for I
 4778a04c1574babd8a79561d60cd5e243585ffaa Merge branch 'extend-bit-width-in-the-flow-director-of-hns3-driver'
 a18056a6c11cab562a77d16b5931f6fdf55e7ec9 tcp: move sk_forced_mem_schedule() to tcp.c
 
---===============0220096457860533878==--
+--===============9058659595937358577==--
