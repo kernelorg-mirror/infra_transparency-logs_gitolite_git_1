@@ -1,22 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Tue, 27 Jan 2026 17:12:45 -0000
-Message-Id: <176953396500.4172424.6299728541686530527@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/zx2c4/cgit
+Date: Tue, 27 Jan 2026 17:19:27 -0000
+Message-Id: <176953436771.4177064.1447813832580355988@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: ast
+repo: pub/scm/linux/kernel/git/zx2c4/cgit
+user: zx2c4
 changes:
-  - ref: refs/heads/for-next
-    old: 1456ebb291ddee67c9144c8f7f38a6dddcd32ed7
-    new: 35538dba51b4a64f790aefdc6972772dc36b9826
+  - ref: refs/heads/ch/git-2-53
+    old: f5c2061671223c33ca9d33b6929cec56e4299993
+    new: 7ba66b1dda44915f93f08fbeef71251810c026e4
     log: |
-         b40cc5adaa80e1471095a62d78233b611d7a558c bpf, sockmap: Fix incorrect copied_seq calculation
-         929e30f9312514902133c45e51c79088421ab084 bpf, sockmap: Fix FIONREAD for sockmap
-         17e2ce02bf5669dfa659976e93d409228cba98f9 selftests/bpf: Add tests for FIONREAD and copied_seq
-         35538dba51b4a64f790aefdc6972772dc36b9826 Merge branch 'bpf-fix-fionread-and-copied_seq-issues'
+         7ba66b1dda44915f93f08fbeef71251810c026e4 RFC: git: update to v2.53.0-rc2
          
