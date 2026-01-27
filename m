@@ -1,73 +1,47 @@
-Content-Type: multipart/mixed; boundary="===============8800457917576829365=="
+Content-Type: multipart/mixed; boundary="===============4818902146383836798=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
-Date: Tue, 27 Jan 2026 10:33:26 -0000
-Message-Id: <176951000601.3837463.15388950364515687421@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/util-linux/util-linux
+Date: Tue, 27 Jan 2026 10:38:21 -0000
+Message-Id: <176951030195.3841413.185716959666960651@gitolite.kernel.org>
 
---===============8800457917576829365==
+--===============4818902146383836798==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vfs/vfs
-user: brauner
+repo: pub/scm/utils/util-linux/util-linux
+user: kzak
 changes:
-  - ref: refs/heads/vfs-7.0.misc
-    old: 6cbfdf89470ef3c2110f376a507d135e7a7a7378
-    new: 9396bfdacb5aa2bcb3d2242b0de527e7d4f8a3cd
-    log: |
-         fc94368bcee555b2cc44c2f4e7c4fcbb50404cd3 fs/file: optimize close_range() complexity from O(N) to O(Sparse)
-         9396bfdacb5aa2bcb3d2242b0de527e7d4f8a3cd fs: reset read-only fsflags together with xflags
-         
-  - ref: refs/heads/vfs-7.0.namespace
-    old: 1bce1a664ac25d37a327c433a01bc347f0a81bd6
-    new: 720e20ccc79f40c68c0b4f504faea86418ebed42
-    log: |
-         a2707cd19c277e5879c3ed6ea49ff5f0c2337c02 mount: start iterating from start of rbtree
-         1d497d97fb22dfd3cd215a38f8dd56fc974c76a7 mount: simplify __do_loopback()
-         4f5ba37ddcdf5eaac2408178050183345d56b2d3 mount: add FSMOUNT_NAMESPACE
-         6f05f0c9455c87321ef5050edd0c9268fa0cd6f2 tools: update mount.h header
-         c76a572bb04ed430b0129ae71ef11314bf57093c selftests/statmount: add statmount_alloc() helper
-         7a74ec0b769453c27881c125b334f71f56131249 selftests: add FSMOUNT_NAMESPACE tests
-         84e9796ac600634aba2e169609849a603f9aaafb selftests/open_tree_ns: fix compilation
-         720e20ccc79f40c68c0b4f504faea86418ebed42 Merge patch series "fsmount: add FSMOUNT_NAMESPACE"
-         
-  - ref: refs/heads/vfs.all
-    old: f77e21ac4082da5b04ed8eeccaa3ebfc5cd2dbc4
-    new: ded671eb4092538a8e4327e663a1a48ff64bf5f1
-    log: revlist-f77e21ac4082-ded671eb4092.txt
+  - ref: refs/heads/master
+    old: 6fb39c43d4fdb50621fefd11f1fdfe3cafc8b8a3
+    new: ffa45b5a85c0d656533bd811a1777a3e7c2fa888
+    log: revlist-6fb39c43d4fd-ffa45b5a85c0.txt
 
---===============8800457917576829365==
+--===============4818902146383836798==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f77e21ac4082-ded671eb4092.txt
+Content-Disposition: attachment; filename=revlist-6fb39c43d4fd-ffa45b5a85c0.txt
 
-fc94368bcee555b2cc44c2f4e7c4fcbb50404cd3 fs/file: optimize close_range() complexity from O(N) to O(Sparse)
-9396bfdacb5aa2bcb3d2242b0de527e7d4f8a3cd fs: reset read-only fsflags together with xflags
-a2707cd19c277e5879c3ed6ea49ff5f0c2337c02 mount: start iterating from start of rbtree
-1d497d97fb22dfd3cd215a38f8dd56fc974c76a7 mount: simplify __do_loopback()
-4f5ba37ddcdf5eaac2408178050183345d56b2d3 mount: add FSMOUNT_NAMESPACE
-6f05f0c9455c87321ef5050edd0c9268fa0cd6f2 tools: update mount.h header
-c76a572bb04ed430b0129ae71ef11314bf57093c selftests/statmount: add statmount_alloc() helper
-7a74ec0b769453c27881c125b334f71f56131249 selftests: add FSMOUNT_NAMESPACE tests
-84e9796ac600634aba2e169609849a603f9aaafb selftests/open_tree_ns: fix compilation
-720e20ccc79f40c68c0b4f504faea86418ebed42 Merge patch series "fsmount: add FSMOUNT_NAMESPACE"
-a5005b25053351dee3cf28540f9f8a1d0a4a357d Merge branch 'vfs.fixes' into vfs.all
-9d544cf912d8d692db6f31e822305e35164d223f Merge branch 'vfs-7.0.misc' into vfs.all
-72fc0123c8afbdb5249e83b53c08c3df00541221 Merge branch 'vfs-7.0.iomap' into vfs.all
-94625fdb158494bbf052ddf3d280e325a2f1edd8 Merge branch 'vfs-7.0.initrd' into vfs.all
-d4bdacb15a8829928394529a77564073370aeaa3 Merge branch 'vfs-7.0.namespace' into vfs.all
-775b413ddd008f48706e0bd4e3cb97cbe02f8ac7 Merge branch 'vfs-7.0.rust' into vfs.all
-e37ed879e7a00a458f3ba2b40db9523867b09368 Merge branch 'vfs-7.0.atomic_open' into vfs.all
-c94d645503635a1ec22fc577e6ca319a88d19857 Merge branch 'vfs-7.0.fserror' into vfs.all
-c6d30e44cba152d96137bf4b5512c015bd0ae09a Merge branch 'vfs-7.0.nonblocking_timestamps' into vfs.all
-97c6cf1f6860c18fda90251d52a83864b0f7182b Merge branch 'vfs-7.0.leases' into vfs.all
-1dde23aa8d586c8c36e4b67f3536ef9427183af5 Merge branch 'vfs-7.0.nullfs' into vfs.all
-59249d4f81c3490a752401e5f66d9d27cbb58d6f Merge branch 'vfs-7.0.btrfs' into vfs.all
-ded671eb4092538a8e4327e663a1a48ff64bf5f1 Merge branch 'vfs-7.0.minix' into vfs.all
+46f8541f94ab02ce940cc2a6a4eec37c2d026f2b lib/path: add NULL checks for path in statx and access
+cbf3d1839f94b532133cf35759b82a520a9a30af lib/pager: Remove unused struct field "out"
+ccf080224f5c8e3091502c2953b880fb621127e5 lib/pager: Remove unused struct entry `err`
+8d03bf597b8f32e36d8eda7d2a6988fcb290215b lib/pager: Remove unused define
+c4aa03eae60b0912e13fee1cc7f2ec6acbd263c5 lib/pager: Remove struct field preexec_cb
+f1ecf7b35caf7d136586d7c8e4cb13e3e49e7943 lib/pager: Remove struct field `no_stdin`
+695f8a7171479c0e06a0f342f9dddca0dc36072e lib/pager: The variable need_in is always 1
+f18ada61fafe8ddc7f054b03560fc3543e18e8b8 lib/pager: Merge wait_or_whine into wait_for_pager
+910cb6c592835b626854f72227e34996a7652f6b lib/pager: Simplify wait_for_pager
+008bbf43d30092b457bddf3e070c01ee03cd9e86 lib/pager: Fix typos
+505d5dc68420d75f95eb12c88c5ebeda84898e2b lib: (pidutils) improve 'PID:inode' parsing logic
+82fc20e3087a187dc787664186721d1499a6c142 lib: (pidutils) add a routine to parse pids and err() on failure
+0a8bd23a42c385a3558121c4aaa8785bbc4a6f22 lib: (pidutils) improve the return protocol
+09e9b0edf9279f686284be555a0690e3badf3356 lsns: make the synopsis more coherent
+f7f39f893c679c5b137e7185e5895a94a528f62a Merge branch 'PR/libpath-nonnull-check' of https://github.com/karelzak/util-linux-work
+e8c3b3f152ba354d446229b2221b1451469561b6 Merge branch 'pager_removals' of https://github.com/stoeckmann/util-linux
+ffa45b5a85c0d656533bd811a1777a3e7c2fa888 Merge branch 'pidutils_improve' of https://github.com/cgoesche/util-linux-fork
 
---===============8800457917576829365==--
+--===============4818902146383836798==--
