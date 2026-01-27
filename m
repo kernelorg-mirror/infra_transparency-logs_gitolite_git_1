@@ -1,20 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
-Date: Tue, 27 Jan 2026 23:27:32 -0000
-Message-Id: <176955645235.287875.8658048488458620012@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/fio
+Date: Tue, 27 Jan 2026 23:38:21 -0000
+Message-Id: <176955710145.295663.3773691211602026463@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/groeck/linux-staging
-user: groeck
+repo: pub/scm/linux/kernel/git/axboe/fio
+user: axboe
 changes:
-  - ref: refs/heads/hwmon-next
-    old: 53fb882448b58b8dc746c642104d15cdc00a4d27
-    new: e7f6e6ed814866bb6b8a12cd8fc5fcf810ee576a
+  - ref: refs/heads/master
+    old: bfe306e16932382069d4c4de3eb0bae9de1e9b09
+    new: 13b8ee321afe09619930df58bc9d7a969e035d8b
     log: |
-         84bfd96935e3ef656e36f10f6a4bceeaf28f393a dt-bindings: trivial-devices: Add hitron,hac300s
-         e7f6e6ed814866bb6b8a12cd8fc5fcf810ee576a hwmon: Add support for HiTRON HAC300S PSU
+         23a8d270f9d0c4225ad9976ba65a4ea1a9b515e9 man: Update the description for `verify_only` explaining phantom writes
+         e2e90ae52be17877d61bb58cf50e9781810d3d49 Merge branch 'issue_1499' of https://github.com/gautammenghani/fio
+         13b8ee321afe09619930df58bc9d7a969e035d8b engines/io_uring: don't flag iowait for GET_EVENTS if feasible
          
