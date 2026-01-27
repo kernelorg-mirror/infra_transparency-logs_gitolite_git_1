@@ -1,26 +1,59 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
-Date: Tue, 27 Jan 2026 14:32:29 -0000
-Message-Id: <176952434956.4032684.10660700179328600224@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============5952085770528371630=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
+Date: Tue, 27 Jan 2026 14:34:55 -0000
+Message-Id: <176952449536.4033494.18354951935222193416@gitolite.kernel.org>
+
+--===============5952085770528371630==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rafael/linux-pm
-user: rafael
+repo: pub/scm/linux/kernel/git/gregkh/staging
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/bleeding-edge
-    old: a3e88290b3e8ec3a60f2074184356f4ab153658a
-    new: 8ef92bd80a74955b2aadd797714c1fcb3c4fd4f9
+  - ref: refs/heads/staging-testing
+    old: 5080a15d755be4ff72bc92df97475cf69ccf5e58
+    new: 72000df579c7434b0e37b81a131328b0bafd0c86
     log: |
-         8d9ad85dbf9bfe7f12e548e8f749b4c058d60bd1 Merge ACPICA material for 6.20 to satisfy dependencies
-         0323897a88afd4ddb3d44cd6b1b33ccd6a4b76cb irqdomain: Add parent field to struct irqchip_fwid
-         a08df2fbba47be20b5769b054d9a19ddee567bdc PCI/MSI: Make the pci_msi_map_rid_ctlr_node() interface firmware agnostic
-         1c406fcdf0b0b8d99b69b382252207fafc0529d7 irqchip/gic-v5: Split IRS probing into OF and generic portions
-         35866efa52feaf48cc54a0745851a555654e1446 irqchip/gic-v5: Add ACPI IRS probing
-         a97efa5ba594642b86fb6702f38ed0d18e3b0269 irqchip/gic-v5: Add ACPI ITS probing
-         05bff3419adaa272713be4c07d287756a4b2c5f5 irqchip/gic-v5: Add ACPI IWB probing
-         8ef92bd80a74955b2aadd797714c1fcb3c4fd4f9 Merge branch 'acpi-irq' into bleeding-edge
+         d847f2e128c0da0944755175bd15a25408a03d59 staging: rtl8723bs: fix spacing around operators
+         d15b4527e87c019b1743c014b2f668e4c7bfd3a5 staging: rtl8723bs: fix alignment to match open parenthesis
+         3a0b68e30194e1a064fde8d7451fa90b4609d3ce staging: most: dim2: replace macro with static function
+         72000df579c7434b0e37b81a131328b0bafd0c86 staging: axis-fifo: Fix indentation
          
+
+--===============5952085770528371630==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1769524492 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
+nonce 1769524491-1e2643e18e1961680cf44c1daeeadc5176444b73
+
+5080a15d755be4ff72bc92df97475cf69ccf5e58 72000df579c7434b0e37b81a131328b0bafd0c86 refs/heads/staging-testing
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAml4zQwbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+OKQP/28kNO+QC9wcVlxQ47fz
+Ek4F20jTTKP08y/eeBwoD3TbVWzUEdgfRSsRmBDKzl7hTwHwpdYR7FZP4tAlgb9n
+rrOfCtgBPHHIlJPlBAEH13bQbLdNe0jt9GPGiOWcDOIfDbsEMXMormsZVC2N11JG
+wHKKk4RYwRuO06eVEnbXySrT16ateh7Qdaww2oO5HCjDgkoAyOVBX6hFaHGM2aeL
+S+NJt7MkKU28TOAsbHUrpZLeXC8rDl+Nz/7fFEQw93e3AzUQEfsGyEE/k7KQmHqF
+80JI5f8qvncCbeBB24NozMkzeckYrJ/ycYdUrTKXG1tlGttl1P/3X/JxyQlzj0jG
+U6eKTz7lBp0PGnY22POWhbUzDK20AzHoCdfVl7n3E/kUN2L1R8wd2cFQfhcOxK10
+2PTjuakQU9WeMdQ9JmDbB6EELuQ5wleP66LE6fcK5b4pYRS9C50Bi7LoGFQ1c3ER
+UeZLjQZfIHf4zYBby3+rX/jpaR5PiEchteiKZRbL7tXtZWSFvMRXh2a27RBh9RgE
+5OtusSugDyI0kow/0Tj1AKgwMDdMhr6iZre7MtVeLjoElGA2AQiyjFXawQbLqx9P
+yX025OgWecnaJQ0lCObcid6I/0nPVUjn0+ohWToZ/2VThIwsPwdOkJ3ZiWl8VfGL
+Ow/qj34t34bdT1oNwWlRHtQA
+=89FY
+-----END PGP SIGNATURE-----
+
+--===============5952085770528371630==--
