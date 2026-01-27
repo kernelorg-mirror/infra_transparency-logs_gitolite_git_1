@@ -1,44 +1,21 @@
-Content-Type: multipart/mixed; boundary="===============9054249516330872707=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/s390/linux
-Date: Tue, 27 Jan 2026 12:26:05 -0000
-Message-Id: <176951676500.3930279.7336833782412766303@gitolite.kernel.org>
-
---===============9054249516330872707==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Tue, 27 Jan 2026 12:36:43 -0000
+Message-Id: <176951740360.3938004.12345601250220567548@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/s390/linux
-user: heiko
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: pabeni
 changes:
-  - ref: refs/heads/for-next
-    old: 3ee2967c40b5f0c3325044a638aed7e3d5034c2d
-    new: d06f05df104d3cefd48cbf8d2eb76b8e73f39ae1
-    log: revlist-3ee2967c40b5-d06f05df104d.txt
-
---===============9054249516330872707==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3ee2967c40b5-d06f05df104d.txt
-
-e5f3e67de587b8e876ca04d5bd021d751fe9c4d2 s390: Add CC_HAS_ASM_IMMEDIATE_STRINGS
-e3abd056ffc9d6397766817eadbd4297632aceaf s390/bug: Convert to inline assembly with input operands
-2b71b8ab971889edba278b71f1d3ff82cd42e175 s390/bug: Use BUG_FORMAT for DEBUG_BUGVERBOSE_DETAILED
-8cbfd13601af7d71bb86c2ea686489a6f139c0ba s390/bug: Introduce and use monitor code macro
-ee44f4e7ebb56f1a2a3aaed8b01ea052fc225680 s390/traps: Copy monitor code to pt_regs
-04dabb4261c387318affbdb22c15c31138a989f5 s390/bug: Implement __WARN_printf()
-940cfea4270436edf515bf07d0a778eed6cec16d s390/bug: Implement WARN_ONCE()
-79996065cfa258de95c123ca9ed93754ab60d8c8 s390/bug: Skip __WARN_trap() in call traces
-9f9d68c308cb63de67d35171925ce3875d076d4f s390/bug: Prevent tail-call optimization
-0875816a58d855d674305a7330c44d25ce27dca2 Merge branch 'warn-exception'
-0d453ba04044bb1b0df366d4a0a9098481f14621 s390/Kconfig: Define non-zero ILLEGAL_POINTER_VALUE
-b2c04fc1239062b39ddfdd8731ee1a10810dfb74 s390/perf: Disable register readout on sampling events
-9e2703c72141be7673d7962b69ed223df6349f6e Merge branch 'fixes' into for-next
-d06f05df104d3cefd48cbf8d2eb76b8e73f39ae1 Merge branch 'features' into for-next
-
---===============9054249516330872707==--
+  - ref: refs/heads/main
+    old: 4c17c01c317a432382393b34cc9f65bf4ca310aa
+    new: 4778a04c1574babd8a79561d60cd5e243585ffaa
+    log: |
+         878406d4d6ef85c37fab52074771cc916e532c16 net: hns3: extend HCLGE_FD_AD_QID to 11 bits
+         6a0fc0ea61bddc2909030b911e224963523b0cb7 net: hns3: extend HCLGE_FD_AD_COUNTER_NUM to 8 bits
+         4778a04c1574babd8a79561d60cd5e243585ffaa Merge branch 'extend-bit-width-in-the-flow-director-of-hns3-driver'
+         
