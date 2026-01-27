@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Tue, 27 Jan 2026 03:30:06 -0000
-Message-Id: <176948460696.3504170.4504360808043106988@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Tue, 27 Jan 2026 03:33:14 -0000
+Message-Id: <176948479467.3505551.7386931747212928895@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
+repo: pub/scm/linux/kernel/git/netdev/net-next
 user: kuba
 changes:
   - ref: refs/heads/main
-    old: 709bbb015538dfd5c97308b77c950d41a4d95cd3
-    new: 8d7ba71e46216b8657a82ca2ec118bc93812a4d0
+    old: bd323fab96fba4a134d3c69bd12892f8ae3940bc
+    new: a84a1fe0fb2e9bfccb1d5a2929a249960a93264d
     log: |
-         8d7ba71e46216b8657a82ca2ec118bc93812a4d0 rocker: fix memory leak in rocker_world_port_post_fini()
+         5e3c5a2b85da973c1f20c93ccc9b251da1c64142 r8169: add support for extended chip version id and RTL9151AS
+         3ccf393cdd091ad18be1135d19773d3739d09caa r8169: remove optional size argument in calls to strscpy
+         a84a1fe0fb2e9bfccb1d5a2929a249960a93264d selftests: net: fix wrong boolean evaluation in __exit__
          
