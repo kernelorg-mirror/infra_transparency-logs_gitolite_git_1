@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Tue, 27 Jan 2026 01:03:50 -0000
-Message-Id: <176947583076.3385224.4593076263532151920@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd-test
+Date: Tue, 27 Jan 2026 01:12:15 -0000
+Message-Id: <176947633508.3393537.7643709504876597531@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: kuba
+repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd-test
+user: jarkko
 changes:
   - ref: refs/heads/main
-    old: bf2e36c9dab95e41516fbcf7b1cc804539b2d021
-    new: 3da35aa8af345abf6cd180cfc0538c753b927a18
+    old: c8ecd9f0b640a0d09c0bae52370b40f1c8ff9ed2
+    new: 2fcfbd585196dbc20165bacfe102ed9ea85b2095
     log: |
-         3da35aa8af345abf6cd180cfc0538c753b927a18 net: include <linux/hex.h> from sysctl_net_core.c
+         2fcfbd585196dbc20165bacfe102ed9ea85b2095 Add test code for v4l2-vcam
          
