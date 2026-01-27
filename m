@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Tue, 27 Jan 2026 03:51:41 -0000
-Message-Id: <176948590109.3521779.13479612351950138879@gitolite.kernel.org>
+Date: Tue, 27 Jan 2026 03:53:23 -0000
+Message-Id: <176948600351.3522582.5668146101815445716@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,9 +12,8 @@ repo: pub/scm/linux/kernel/git/netdev/net
 user: kuba
 changes:
   - ref: refs/heads/main
-    old: 8d7ba71e46216b8657a82ca2ec118bc93812a4d0
-    new: 2c84959167d6493dbdac88965c7389b8ab88bf4e
+    old: 2c84959167d6493dbdac88965c7389b8ab88bf4e
+    new: 165c34fb6068ff153e3fc99a932a80a9d5755709
     log: |
-         e2a9eeb69f7d4ca4cf4c70463af77664fdb6ab1d mptcp: fix race in mptcp_pm_nl_flush_addrs_doit()
-         2c84959167d6493dbdac88965c7389b8ab88bf4e net: spacemit: Check for netif_carrier_ok() in emac_stats_update()
+         165c34fb6068ff153e3fc99a932a80a9d5755709 nfc: llcp: Fix memleak in nfc_llcp_send_ui_frame().
          
