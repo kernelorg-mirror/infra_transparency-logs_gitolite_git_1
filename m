@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd-test
-Date: Tue, 27 Jan 2026 04:37:51 -0000
-Message-Id: <176948867166.3558169.12412467629832817343@gitolite.kernel.org>
+Date: Tue, 27 Jan 2026 04:39:21 -0000
+Message-Id: <176948876183.3559014.15378800854404059116@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd-test
 user: jarkko
 changes:
   - ref: refs/heads/main
-    old: a9be998c8d5c58383c7c282e53efeb566d9aa4d8
-    new: db51ae072a9e02920ab2aa8953d84a290ac1b925
+    old: db51ae072a9e02920ab2aa8953d84a290ac1b925
+    new: dfd2b80ea58c98200357440f9b22451cacdb559f
     log: |
-         db51ae072a9e02920ab2aa8953d84a290ac1b925 Add test code for v4l2-vcam
+         dfd2b80ea58c98200357440f9b22451cacdb559f Add test code for v4l2-vcam
          
