@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3981783635319011802=="
+Content-Type: multipart/mixed; boundary="===============7264586719350462310=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/klassert/ipsec-next
-Date: Tue, 27 Jan 2026 06:35:19 -0000
-Message-Id: <176949571908.3654600.13416848793935821425@gitolite.kernel.org>
+Date: Tue, 27 Jan 2026 06:35:34 -0000
+Message-Id: <176949573445.3655127.4633621358725477911@gitolite.kernel.org>
 
---===============3981783635319011802==
+--===============7264586719350462310==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/klassert/ipsec-next
 user: klassert
 changes:
-  - ref: refs/heads/testing
+  - ref: refs/heads/master
     old: bf2e36c9dab95e41516fbcf7b1cc804539b2d021
     new: 3eef6c061f97ab2a942dc98291bcdae9a16e5bda
     log: revlist-bf2e36c9dab9-3eef6c061f97.txt
 
---===============3981783635319011802==
+--===============7264586719350462310==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -39,4 +39,4 @@ a84a1fe0fb2e9bfccb1d5a2929a249960a93264d selftests: net: fix wrong boolean evalu
 5c05b3dbccb17ddd6515a6c749feee9b657a5640 netdevsim: use u64_stats_t with u64_stats_sync properly
 3eef6c061f97ab2a942dc98291bcdae9a16e5bda net: ethernet: ti: netcp: Use u64_stats_t with u64_stats_sync properly
 
---===============3981783635319011802==--
+--===============7264586719350462310==--
