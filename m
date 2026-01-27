@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/deller/linux-fbdev
-Date: Tue, 27 Jan 2026 20:47:02 -0000
-Message-Id: <176954682226.158718.12401508246476842852@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
+Date: Tue, 27 Jan 2026 21:07:00 -0000
+Message-Id: <176954802011.173632.14772202652082792129@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/deller/linux-fbdev
-user: deller
+repo: pub/scm/linux/kernel/git/rafael/linux-pm
+user: rafael
 changes:
-  - ref: refs/heads/for-next
-    old: 55f26155256900c11a6b507621e3993b9b1fc63b
-    new: 77b6c0a7b3eb0622fb6a8a2b51c4ec1a0b34ea1c
+  - ref: refs/heads/bleeding-edge
+    old: 4b321758e82c95202304394603aef3990ed2b38a
+    new: 4802892d9bdbe890394af0856826bb87b9a6f8c3
     log: |
-         77b6c0a7b3eb0622fb6a8a2b51c4ec1a0b34ea1c fbdev: fix fb_pad_unaligned_buffer mask
+         785632d82648569b1ce8f11854d0775b219e2706 ACPI: sysfs: Replace sprintf() with sysfs_emit()
+         4802892d9bdbe890394af0856826bb87b9a6f8c3 Merge branch 'acpi-sysfs' into bleeding-edge
          
