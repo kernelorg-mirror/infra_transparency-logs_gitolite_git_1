@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7886518824382432323=="
+Content-Type: multipart/mixed; boundary="===============1433248375945607334=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/johan/usb-serial
-Date: Tue, 27 Jan 2026 15:28:04 -0000
-Message-Id: <176952768492.4081814.1965507092464545922@gitolite.kernel.org>
+Date: Tue, 27 Jan 2026 15:28:28 -0000
+Message-Id: <176952770860.4082080.13933442398935486529@gitolite.kernel.org>
 
---===============7886518824382432323==
+--===============1433248375945607334==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/johan/usb-serial
 user: johan
 changes:
-  - ref: refs/heads/usb-next
+  - ref: refs/heads/master
     old: f8f9c1f4d0c7a64600e2ca312dec824a0bc2f1da
     new: 24d479d26b25bce5faea3ddd9fa8f3a6c3129ea7
     log: revlist-f8f9c1f4d0c7-24d479d26b25.txt
 
---===============7886518824382432323==
+--===============1433248375945607334==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1023,4 +1023,4 @@ f8907398a6d941b204b90b6a40eecfdfd7d00c44 Merge tag 'ext4_for_linus-6.19-rc6' of 
 90a855e75a99f2932b19f4d04bac1edef158d95e Merge tag 'landlock-6.19-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/mic/linux
 24d479d26b25bce5faea3ddd9fa8f3a6c3129ea7 Linux 6.19-rc6
 
---===============7886518824382432323==--
+--===============1433248375945607334==--
