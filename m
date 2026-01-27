@@ -1,51 +1,25 @@
-Content-Type: multipart/mixed; boundary="===============5434204611950491416=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vbabka/slab
-Date: Tue, 27 Jan 2026 16:37:52 -0000
-Message-Id: <176953187296.4140935.5682418891481917365@gitolite.kernel.org>
-
---===============5434204611950491416==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux
+Date: Tue, 27 Jan 2026 16:42:19 -0000
+Message-Id: <176953213988.4145039.920806885685778082@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vbabka/slab
-user: vbabka
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/axboe/linux
+user: axboe
 changes:
-  - ref: refs/heads/slab/for-7.0/misc
-    old: 79a8b50ac12acbd2ad51dd7157b6f4eb0f62a3c7
-    new: 6505bc455e5ac266a4f62d205949a32f42093042
+  - ref: refs/heads/io_uring-bpf-restrictions.4
+    old: 1df64630102311bb3ce0fafcaaa054bfdfcef6a6
+    new: 3e499ce604db3c17bf2890a7caf4cffae22f0fab
     log: |
-         6505bc455e5ac266a4f62d205949a32f42093042 mm/slab: factor out slab_args_unmergeable()
+         e5d4e78d07453ea40debf9a286909cf8966f441d io_uring: add support for BPF filtering for opcode restrictions
+         de0c388d9e9c3a1cd24291cbd52d4adb98028207 io_uring/net: allow filtering on IORING_OP_SOCKET data
+         f0564dcb24046539295383c751a2c29ed01959de io_uring/bpf_filter: allow filtering on contents of struct open_how
+         95a9dab1f1dd9dd958f30ac56027890689c040fe io_uring/bpf_filter: cache lookup table in ctx->bpf_filters
+         ac48f1d73a90619a89fd913977e7063ee19ee42c io_uring/bpf_filter: add ref counts to struct io_bpf_filter
+         5de9d73ebd15df3fcbd7d73461f0a0c63068d215 io_uring: add task fork hook
+         3e499ce604db3c17bf2890a7caf4cffae22f0fab io_uring: allow registration of per-task restrictions
          
-
---===============5434204611950491416==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher A940D434992C2E8E99103D50224FA7E7CC82A664 1769531869 +0100
-pushee gitolite.kernel.org:pub/scm/linux/kernel/git/vbabka/slab.git
-nonce 1769531868-3453eb31606930019f92f0a67fcc043745678adf
-
-79a8b50ac12acbd2ad51dd7157b6f4eb0f62a3c7 6505bc455e5ac266a4f62d205949a32f42093042 refs/heads/slab/for-7.0/misc
------BEGIN PGP SIGNATURE-----
-
-iQFPBAABCAA5FiEEe7vIQRWZI0iWSE3xu+CwddJFiJoFAml46d0bFIAAAAAABAAO
-bWFudTIsMi41KzEuMTEsMiwyAAoJELvgsHXSRYiatI4H/AvuRiY/ieyTshoZKofG
-5deK+hgx/+YAEfC2zXRJ3Ox50p6QmjMs2ZZt1NYJFDPT5Mw3TLgKsIZ5Tv3PXIGt
-Ogq1bwzWAA9seavOhrQekHOWoZkhGZbmSIUy+W6TFB8nhDIZ8PyxkpkE6TqXyYF4
-npETGdQoJhraH+jQb3UIazhpSE7gHnrTrBCJE7YAM7/J3VG+bQfxNxS63cm9JGQK
-GYq1ZjvYk2waI1Ox6sRzz+/5C6kWs36U9sY3w+ykohqzLWQ40DTQirIwLt4tGyTI
-aK/BDN0rc0j4qlXn82fQ6do7FWw0PhLmZovjpWDbUovdRxZj9IWet+JVOnE2IBgC
-fo0=
-=sMgJ
------END PGP SIGNATURE-----
-
---===============5434204611950491416==--
