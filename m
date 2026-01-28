@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============2323615042628235031=="
+Content-Type: multipart/mixed; boundary="===============3212012754224095149=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Wed, 28 Jan 2026 16:46:03 -0000
-Message-Id: <176961876328.1198304.7201459796679809260@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jgg/iommufd
+Date: Wed, 28 Jan 2026 16:46:16 -0000
+Message-Id: <176961877610.1198646.710314623206125643@gitolite.kernel.org>
 
---===============2323615042628235031==
+--===============3212012754224095149==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rdma/rdma
+repo: pub/scm/linux/kernel/git/jgg/iommufd
 user: jgg
 changes:
   - ref: refs/heads/linus
@@ -23,7 +23,7 @@ changes:
     old: 0000000000000000000000000000000000000000
     new: ed4cdcc0b03e72cfdffbff9f0ea24338517bc893
 
---===============2323615042628235031==
+--===============3212012754224095149==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -514,4 +514,4 @@ f58442788fdac580c49e0c42379fd32438cff6d7 dt-bindings: pinctrl: marvell,armada371
 1f97d9dcf53649c41c33227b345a36902cbb08ad Merge tag 'vfio-v6.19-rc8' of https://github.com/awilliam/linux-vfio
 8dfce8991b95d8625d0a1d2896e42f93b9d7f68d Merge tag 'pinctrl-v6.19-3' of git://git.kernel.org/pub/scm/linux/kernel/git/linusw/linux-pinctrl
 
---===============2323615042628235031==--
+--===============3212012754224095149==--
