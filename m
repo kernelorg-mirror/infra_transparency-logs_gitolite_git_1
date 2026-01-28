@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/daniel.lezcano/linux
-Date: Wed, 28 Jan 2026 17:10:52 -0000
-Message-Id: <176962025296.1219845.9151973544405291114@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/thermal/linux
+Date: Wed, 28 Jan 2026 17:11:43 -0000
+Message-Id: <176962030316.1220413.16142174319872584581@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/daniel.lezcano/linux
+repo: pub/scm/linux/kernel/git/thermal/linux
 user: daniel.lezcano
 changes:
-  - ref: refs/tags/timers-v7.0
+  - ref: refs/tags/thermal-v7.0
     old: 0000000000000000000000000000000000000000
-    new: 9cac6b6393661f6666bf3699f360a0cb2f682b80
+    new: 963affc7e6326fb6d85243225444cd1110dd1c2c
