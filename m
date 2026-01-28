@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
-Date: Wed, 28 Jan 2026 20:40:04 -0000
-Message-Id: <176963280455.1399845.432823048823228539@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Wed, 28 Jan 2026 20:42:01 -0000
+Message-Id: <176963292108.1401501.17248207440008852430@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/25-new
-user: akpm
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/master
-    old: ef94069c00b76e086a61be3d24edd3e0aa36b5de
-    new: 615ea6ff557bc4c4d0ffc57f3fb5ddf85f03eea2
-    log: |
-         615ea6ff557bc4c4d0ffc57f3fb5ddf85f03eea2 foo
-         
+  - ref: refs/heads/v4_20260122_miquel_raynal_spi_cadence_qspi_add_renesas_rz_n1_support
+    old: 0000000000000000000000000000000000000000
+    new: 77ee3ba5d4152f01ba4674b0e0ae51f8a51250bf
