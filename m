@@ -1,60 +1,57 @@
-Content-Type: multipart/mixed; boundary="===============6620168459830699266=="
+Content-Type: multipart/mixed; boundary="===============3483619194945256811=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux
-Date: Wed, 28 Jan 2026 08:14:55 -0000
-Message-Id: <176958809577.769801.3871492354050205850@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux-dt
+Date: Wed, 28 Jan 2026 08:16:35 -0000
+Message-Id: <176958819593.772893.14794675842462726251@gitolite.kernel.org>
 
---===============6620168459830699266==
+--===============3483619194945256811==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/krzk/linux
+repo: pub/scm/linux/kernel/git/krzk/linux-dt
 user: krzk
 git_push_cert_status: Y
 changes:
   - ref: refs/heads/for-next
-    old: e2211f5d980086dd9fbdab3bcd86b715e12cae13
-    new: 4b2dd5ec2cab75875fab9507c7665899e2e51f42
-    log: |
-         4b2dd5ec2cab75875fab9507c7665899e2e51f42 Merge branches 'next/clk', 'next/drivers' and 'next/dt64' into for-next
-         
+    old: cde5448c1296d8bfdbae942f6c2842fb8186aa56
+    new: 5cd532f7f017460395836d8f129ad3ee5ae63110
   - ref: refs/heads/next/dt
-    old: 549089586a4a45720702c3bbc9fd4fa2ad60ac6d
+    old: 0fa50c575c1f33be0ab353d0d3820e20357e83fe
     new: 8f0b4cce4481fb22653697cced8d0d04027cb1e8
 
---===============6620168459830699266==
+--===============3483619194945256811==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher krzk@kernel.org 1769588090 +0100
-pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux.git
-nonce 1769588088-5c0cf8377f3c0b124ca5b4afd9cc774c8f71222c
+pusher krzk@kernel.org 1769588194 +0100
+pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux-dt.git
+nonce 1769588193-9e3c90e97f473d7c5972f9315d45a19cb182d766
 
-e2211f5d980086dd9fbdab3bcd86b715e12cae13 4b2dd5ec2cab75875fab9507c7665899e2e51f42 refs/heads/for-next
-549089586a4a45720702c3bbc9fd4fa2ad60ac6d 8f0b4cce4481fb22653697cced8d0d04027cb1e8 refs/heads/next/dt
+cde5448c1296d8bfdbae942f6c2842fb8186aa56 5cd532f7f017460395836d8f129ad3ee5ae63110 refs/heads/for-next
+0fa50c575c1f33be0ab353d0d3820e20357e83fe 8f0b4cce4481fb22653697cced8d0d04027cb1e8 refs/heads/next/dt
 -----BEGIN PGP SIGNATURE-----
 
-iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAml5xXoQHGtyemtAa2Vy
-bmVsLm9yZwAKCRDBN2bmhouD15F6D/9XNiHRs8TdkrLlTEGIfcdaO14ODa+JEYG1
-dR2qN5wHrTeQfPV5Pt+JlSBVvRY3TP+hkPItZZIyLpo2B9jy3FvYnn3X5roC89Y9
-aFmlHNEDpyrVESmy+e48mp2io0ypNuN1Qp/n2l2uGaQsNmY22v0uOldtK1fk6YKT
-ZDOk6aG41b+7dKrlO0efRdyRcOEq+YzK9LgCYC1OmberTp1UBSwk6lQWycVp08NV
-9zRG8uwiPhKyvfN3LhQw92ZrFQ1CZZWulpcMNXEFnG/LolZqYCLVi70X3GINv7jf
-oM76YA9qdAtER0epWqs9VZymTl4RYPiCZ6zs3OP9pugJqDkrDKH3O2wxhy0Qp5m4
-PEaD5gciBUgUVjD6sQpu7OAHdOv2q44qKIYOh/jW6qREPUdwVj2QcVtjELMYCMin
-9iefYkEMVvu6fMkDnt0/ll9h+P/8lttHQms6kZCKKHcL94w2vEpmGLJYeL8wvkaa
-lYwiDgVm+PR3Z8Oqx9DnfAOn4MIy0GeXRZI5zQqlmvMeF3eYS1GmvDhe65SMikdA
-ObbkjgFxJ2gK/3nOlki6VjA0zXwqn+r0aLzNVkhLP0A8QsWiBYUWpzTNJBsOislt
-TR/KnckD+Nje7WjWTcmT5hBndIyM2abNsKixgWX6xtPQV5Q2WHS3if40AJXj2r/r
-c4sgUXgGcA==
-=vz9p
+iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAml5xeIQHGtyemtAa2Vy
+bmVsLm9yZwAKCRDBN2bmhouD1ySID/41IHQZixM2/7H3kmqItu4ZBIbTpWOJPtfK
+cnlwaP6XKMktLMAWF1a94vilRLsXu3Cv9wjsIXXiK5DWML1PROIvy4gbhYz8g/tV
+I9iAn3/P34ZtDQ63v/kQU2Zeooe9uSMLYJo7fPt+pJjJZIMmU9ruXrpCQg25ngzi
+NiSa8EFBI328JS2usSRTuqlbtxO3jx+IXx0FYdE+Wm/qeZk3xO+GhaQUvis8k5t4
+DS1WmoPw50wAi6EcqcBkcJN4Wj9x/7dMuyBGFPhWN38ZciWgpiXViwhtbH3mzAKI
+pxIB+bioQt0j8ycmPzzojWBfUxdbzxVNn1wgVzmaIQXkiCcpj/71/MUdy8ruomcy
+6v0zRvNeJc4QMDV9g6K3MA2YqeB2JER48trghhoR70O6IXSc/EOFRZzpomzwkGL6
+qPlGpMx9BsdEkWqPvx/gN2gRAO4TWoAYC4nY9fFkxI5DosUZltFaSEAtUZBsnFM6
+CqdIzlFTS/2Xe36+R0urhMoa+2+y3Jc9t6TaEgiReROmm7t/11YNU0jHNaQosLNs
+7FvVQ3lix/piUStLTXtINyNR9NW3UIt2neRWJZtvMv/qKzxKn1KhoqD+0x59nTVW
+2dMd2Dh/PycBV/vxSNPeAMB0dZXJhvsj8oj6echzQi5ReEREOMIzvGkFjaZBThqB
+DnpQjHH4Vg==
+=XPQw
 -----END PGP SIGNATURE-----
 
---===============6620168459830699266==--
+--===============3483619194945256811==--
