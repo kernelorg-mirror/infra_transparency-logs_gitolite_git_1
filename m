@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regmap
-Date: Wed, 28 Jan 2026 04:31:26 -0000
-Message-Id: <176957468627.601775.1677695056129873640@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+Date: Wed, 28 Jan 2026 04:51:28 -0000
+Message-Id: <176957588883.617168.1070942703942396705@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regmap
-user: broonie
+repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+user: jarkko
 changes:
-  - ref: refs/heads/for-next
-    old: 64986a8a439efc69ae63a611785a5d303037d6f5
-    new: 4651c87b0083925540f6c3d26a6c5b4868d7b884
+  - ref: refs/heads/vcam
+    old: e3e2216b1e200ec0a7203637a09bf457f70492c0
+    new: 65059b241b688d02e8c66205a99cbce990a3e9ff
     log: |
-         dc65b1ed4bb34ab6235ff2cc6a917b9295c04c2c regmap: Add reg_default_cb callback for flat cache defaults
-         70a65c53d228562cf0c8ae0f38c847d2a5dd59e6 regmap: add KUnit coverage for reg_default_cb callback
-         4651c87b0083925540f6c3d26a6c5b4868d7b884 regmap: reg_default_cb for flat cache defaults
+         65059b241b688d02e8c66205a99cbce990a3e9ff media: Virtual camera driver
          
