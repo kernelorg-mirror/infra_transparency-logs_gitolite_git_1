@@ -1,62 +1,36 @@
-Content-Type: multipart/mixed; boundary="===============7571608635055611687=="
+Content-Type: multipart/mixed; boundary="===============2320129240284362450=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Wed, 28 Jan 2026 03:01:32 -0000
-Message-Id: <176956929269.507482.16364576302398502185@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Wed, 28 Jan 2026 03:01:44 -0000
+Message-Id: <176956930459.507718.9619284640864517156@gitolite.kernel.org>
 
---===============7571608635055611687==
+--===============2320129240284362450==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/asoc-6.19
+  - ref: refs/heads/for-linus
     old: 9502b7df5a3c7e174f74f20324ac1fe781fc5c2d
     new: 213c4e51267fd825cd21a08a055450cac7e0b7fb
     log: |
          213c4e51267fd825cd21a08a055450cac7e0b7fb ASoC: Intel: sof_es8336: fix headphone GPIO logic inversion
          
-  - ref: refs/heads/asoc-6.20
-    old: 74823db9ba2e13f3ec007b354759b3d8125e462c
-    new: 75ca86026b891c21d656dda38c3e7ae6a848b440
-    log: revlist-74823db9ba2e-75ca86026b89.txt
+  - ref: refs/heads/for-next
+    old: 38f759ce778fa9794f5cd01749104fb310bf9d05
+    new: 06f2e5a491dcb38ae42954c470424ea808103824
+    log: revlist-38f759ce778f-06f2e5a491dc.txt
 
---===============7571608635055611687==
+--===============2320129240284362450==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1769569289 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1769569288-cdb9603dbeb502e255b6f673d8204fff08ea7c07
-
-9502b7df5a3c7e174f74f20324ac1fe781fc5c2d 213c4e51267fd825cd21a08a055450cac7e0b7fb refs/heads/asoc-6.19
-74823db9ba2e13f3ec007b354759b3d8125e462c 75ca86026b891c21d656dda38c3e7ae6a848b440 refs/heads/asoc-6.20
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAml5fAkACgkQJNaLcl1U
-h9A2Vwf9EOyUZvdOPZeYgSWX7Z/1dawQMppCOk0sNFWh7GmtWp+WaqlAhQmDbx3R
-OnYS8IGFh5RcbbxYU7EeI+7VjPOrtKdPVcSdCPULFENQ4PXXBsbHiz5hDiXcuha9
-3WT6rZ2RQQbFh96y1w0GBz0BCG7i+sbI7hqa27O1/s9My/hO3urrzAZypA0KFEFh
-q9Ev9vwbRLiQj5A9uUpxV9y5M+3GpeWNSSRr9QOu7DjuFseV4Mea52SNP3y5LWDY
-8Cevy8ELYqQ2dITdqmS1ve85NHN2ax8go9Yr9UjF4L2lAoZcNqfufBztDOquSvQX
-vpLOuJvv0OOxGzNrCeCP7I8PmHWr0g==
-=snmL
------END PGP SIGNATURE-----
-
---===============7571608635055611687==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-74823db9ba2e-75ca86026b89.txt
+Content-Disposition: attachment; filename=revlist-38f759ce778f-06f2e5a491dc.txt
 
 5497ffe305b2ea31ae62d4a311d7cabfb671f54a arm64: dts: rockchip: Fix voltage threshold for volume keys for Pinephone Pro
 8bb3754909cde5df4f8c1012bde220b97d8ee3bc arm64: dts: qcom: talos: Correct UFS clocks ordering
@@ -522,6 +496,7 @@ af6d53db28e6448b1e0ce9aa314bc5da494d35ab ASoC: soc-dapm: tidyup function naming
 4d3b56b8a3504dab98d5f9a91ed9091431749863 ASoC: dt-bindings: fsl,sai: Add AUDMIX mode support on i.MX952
 291f2f908823832e932582500816ad614631d568 ASoC: fsl_audmix: Add support for i.MX952 platform
 19b08fd23b20593ebe43708308dbddb02507877d ASoC: fsl_sai: Add AUDMIX mode support on i.MX952
+213c4e51267fd825cd21a08a055450cac7e0b7fb ASoC: Intel: sof_es8336: fix headphone GPIO logic inversion
 d7e1f9e84af460c5f1e5352eda8f036000cfcf0a ASoC: codec: Remove ak4641
 b094de7810f3c0340a3aebaf6b8fc60c81c0cf91 ASoC: codec: Remove pxa2xx-ac97.c
 be829277ef79aa626e952e17030d711bdb6c1eef ASoC: pxa2xx-ac97: Remove platform_data
@@ -537,5 +512,6 @@ ab2e3fa491734b655e1d37aee058fa7195174d74 ASoC: fsl_audmix: Support the i.MX952 p
 1924bd68a0c06f9f2c06cf35e60dfc55cdc34a91 ASoC: codec: Remove ak4641/pxa2xx-ac97 and convert to
 b4ee17729a11f13fbb15cd1fb54549642cd1c44c ASoC: capsuling struct snd_soc_dapm_context
 75ca86026b891c21d656dda38c3e7ae6a848b440 ASoC: sophgo: add CV1800 I2S controllers support
+06f2e5a491dcb38ae42954c470424ea808103824 Merge remote-tracking branch 'asoc/for-6.20' into asoc-next
 
---===============7571608635055611687==--
+--===============2320129240284362450==--
