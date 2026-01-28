@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6344835103180512707=="
+Content-Type: multipart/mixed; boundary="===============1511693626141011499=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Wed, 28 Jan 2026 16:36:09 -0000
-Message-Id: <176961816939.1189111.7854793358390179326@gitolite.kernel.org>
+Date: Wed, 28 Jan 2026 16:36:11 -0000
+Message-Id: <176961817175.1189300.6246948435449487753@gitolite.kernel.org>
 
---===============6344835103180512707==
+--===============1511693626141011499==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/10GbE
+  - ref: refs/heads/40GbE
     old: a18056a6c11cab562a77d16b5931f6fdf55e7ec9
     new: 239f09e258b906deced5c2a7c1ac8aed301b558b
     log: revlist-a18056a6c11c-239f09e258b9.txt
 
---===============6344835103180512707==
+--===============1511693626141011499==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -53,4 +53,4 @@ bbabce5d4d2d20e087fd0b02ca5a4e7d363edd10 Merge branch '100GbE' of git://git.kern
 166e664e702ed96b83df2a87c1ea2138a995b604 selftests: ptp: use KSFT_SKIP exit code for skip scenarios
 239f09e258b906deced5c2a7c1ac8aed301b558b selftests: ptp: treat unsupported PHC operations as skip
 
---===============6344835103180512707==--
+--===============1511693626141011499==--
