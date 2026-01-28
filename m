@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/fustini/linux
-Date: Wed, 28 Jan 2026 19:48:07 -0000
-Message-Id: <176962968753.1354422.3241808261536327638@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd-test
+Date: Wed, 28 Jan 2026 19:50:24 -0000
+Message-Id: <176962982464.1357566.1138813304781554501@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/fustini/linux
-user: fustini
+repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd-test
+user: jarkko
 changes:
-  - ref: refs/heads/thead-dt-for-next
-    old: 8f0b4cce4481fb22653697cced8d0d04027cb1e8
-    new: 6a4889d9c6bf1878bf6c68aac1262a0187044fed
+  - ref: refs/heads/main
+    old: cd613e0e15333f269ddc71dcce8e78a7c5515a9b
+    new: 1d3c46d04ff13fd8b4371dd232ee1eb743f09f6c
     log: |
-         fa5186a67cb7e46841ed73ff6a43f94b7c086e57 riscv: dts: thead: add DPU and HDMI device tree nodes
-         6a4889d9c6bf1878bf6c68aac1262a0187044fed riscv: dts: thead: lichee-pi-4a: enable HDMI
+         1d3c46d04ff13fd8b4371dd232ee1eb743f09f6c Add test code for v4l2-vcam
          
