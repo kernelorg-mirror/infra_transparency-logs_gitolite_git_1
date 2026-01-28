@@ -1,58 +1,58 @@
-Content-Type: multipart/mixed; boundary="===============2825072595252224794=="
+Content-Type: multipart/mixed; boundary="===============4506658595867385966=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regmap
-Date: Wed, 28 Jan 2026 03:47:10 -0000
-Message-Id: <176957203039.544761.5019234185101199909@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Wed, 28 Jan 2026 03:47:13 -0000
+Message-Id: <176957203376.544971.16915398043869231736@gitolite.kernel.org>
 
---===============2825072595252224794==
+--===============4506658595867385966==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regmap
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.19
+  - ref: refs/heads/regmap-6.19
     old: 4b58aac989c1e3fafb1c68a733811859df388250
     new: 63804fed149a6750ffd28610c5c1c98cce6bd377
     log: revlist-4b58aac989c1-63804fed149a.txt
-  - ref: refs/heads/for-6.20
+  - ref: refs/heads/regmap-6.20
     old: dccc66b0e92d48d9a1908a3ccb8142e0ee3381f5
     new: 6ffdc7eb48bd2268c37c2accad454c043b9cc987
     log: |
          6ffdc7eb48bd2268c37c2accad454c043b9cc987 regcache: Demote defaults readback from HW to debug print
          
 
---===============2825072595252224794==
+--===============4506658595867385966==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1769572028 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/regmap.git
-nonce 1769572028-55a602ed0039ee3eb93968839fc10f8e9393eceb
+pusher C3F436CA30F5D8EB 1769572032 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1769572031-90bae40aed81e3199ccde5faef4cac8e0fcb8e09
 
-4b58aac989c1e3fafb1c68a733811859df388250 63804fed149a6750ffd28610c5c1c98cce6bd377 refs/heads/for-6.19
-dccc66b0e92d48d9a1908a3ccb8142e0ee3381f5 6ffdc7eb48bd2268c37c2accad454c043b9cc987 refs/heads/for-6.20
+4b58aac989c1e3fafb1c68a733811859df388250 63804fed149a6750ffd28610c5c1c98cce6bd377 refs/heads/regmap-6.19
+dccc66b0e92d48d9a1908a3ccb8142e0ee3381f5 6ffdc7eb48bd2268c37c2accad454c043b9cc987 refs/heads/regmap-6.20
 -----BEGIN PGP SIGNATURE-----
 
-iQEyBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAml5hrwACgkQJNaLcl1U
-h9BvZgf4rX7WB64SVwncyNMV1A0ua0dGUtKb8DYQQNb11kR/pNYBXX3D//UsHnN5
-va+K/qu84JnAunmMQpzvscAALYstjs1owh38xk61KDR8mAl3tzk3XayneuQ1Iz7s
-L9Jyh5AAOGebsm78quDuW0sfZh8BrZo+P5BW6QMuA2tDKpLIzEAYUKYbGIrnpair
-dM/2uch3wb6wVEUpyX4Mc2Z1orYLyqPLTQkJXLcQiRQXA3SiJh8xGsIC5qHoGstH
-SQGMXTE+FSF4LYJNWUfieiFo7t4T7FOv3639uIDE0vqlQICktSFdJzpG5UeM1f0r
-Pmt+27+olhhQDjMFyPy9y+x5PXWa
-=6w6L
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAml5hsAACgkQJNaLcl1U
+h9AYKgf/R/b+X+xqaxJMi3+JJudngMQcrD5hgHiXczfEo+Dvs8H8GExDhcMxdNGC
+/aThHYHKSzTF3RxpibLFadcf/Uos7hP6s9EyeazkK5AVeeaWjxwY41D0UHMoQcSH
+PVaNPzrWW/EqsEgyfTz30Ghe5GYY8g4Yj0AOmtbN/KnigEOPl2TnApIT1C4rVOZ4
+NzegFJtqfw9d/XLTyxI/GR8Yi7Jqcd5E48FDp7BGgctxI0jn6c7kbt/xRGfakUUv
+T4oHDR3JLWSewFBq7rU2ue3Eg3bKFvByW9OdKNZiMCKHX+Zdmlt+SVtBH/lQhwP5
+dm8IO4nhHWiGVMB+V1N5888TGzgFaA==
+=HvPG
 -----END PGP SIGNATURE-----
 
---===============2825072595252224794==
+--===============4506658595867385966==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1083,4 +1083,4 @@ f9e6e6d210669f24697e615b68b5abbae9d7a32e Merge tag 'keys-trusted-next-6.19-rc7' 
 0237777974728cc5a6f45347b7eca473ab6ef90a Merge tag 'scsi-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
 63804fed149a6750ffd28610c5c1c98cce6bd377 Linux 6.19-rc7
 
---===============2825072595252224794==--
+--===============4506658595867385966==--
