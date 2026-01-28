@@ -1,19 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Wed, 28 Jan 2026 00:02:55 -0000
-Message-Id: <176955857581.314935.17179867810216150055@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Wed, 28 Jan 2026 00:03:01 -0000
+Message-Id: <176955858128.315170.10094181227020201483@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-user: jarkko
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
-  - ref: refs/heads/vcam
-    old: c85e4386dd57e12c28d99ac0d79adc4d1d0979ba
-    new: 40b53f5500d5615a5284687a75c1e41b796ea342
+  - ref: refs/heads/main
+    old: 62777c8015f3d86ab7853790192b24f0cee8a647
+    new: 3b721117fe150fc4d78628d78627f9b446930b44
     log: |
-         40b53f5500d5615a5284687a75c1e41b796ea342 media: Virtual camera driver
+         5023479627e3e85a97807f612bea2eddbf202e1d ipv6: Switch to higher-level SHA-1 functions
+         9ddfabcc1ed884ef47bcca317e77596c797bef83 lib/crypto: sha1: Remove low-level functions from API
+         90defad242fbfd47967f03ee3bb39f09427195c2 Merge branch 'remove-low-level-sha-1-functions'
+         3b721117fe150fc4d78628d78627f9b446930b44 net: usb: sr9700: replace magic numbers with register bit macros
          
