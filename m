@@ -1,30 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tj/sched_ext
-Date: Wed, 28 Jan 2026 01:48:56 -0000
-Message-Id: <176956493686.428490.13047886735270701090@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/cip/linux-cip
+Date: Wed, 28 Jan 2026 01:53:08 -0000
+Message-Id: <176956518856.432281.10213366187858941616@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tj/sched_ext
-user: tj
+repo: pub/scm/linux/kernel/git/cip/linux-cip
+user: iwamatsu
 changes:
-  - ref: refs/heads/for-6.20
-    old: 2f8d489897ae7183b535b1881478b2c6b66d520b
-    new: 36929ebd17ae66ed3acde9056a9daf611d81a2e5
+  - ref: refs/heads/linux-6.12.y-cip
+    old: 3aed66b26cbd91b9c135a84e6248173aabb0a7f1
+    new: b4a92890c7c837dcf525c02759eed34a00349f30
     log: |
-         cc4448d0856d424e52b5f53b2592575598233eac tools/sched_ext: add scx_userland scheduler
-         f0262b102c7ce43f3744bdb0278ddf0d15bb1a71 tools/sched_ext: add scx_pair scheduler
-         36929ebd17ae66ed3acde9056a9daf611d81a2e5 tools/sched_ext: add arena based scheduler
-         
-  - ref: refs/heads/for-next
-    old: 4e705d310176314a09a56b6d790d204dedf3cda5
-    new: fe10bd652d0026f780df9dc17473e5d900d43ecd
-    log: |
-         cc4448d0856d424e52b5f53b2592575598233eac tools/sched_ext: add scx_userland scheduler
-         f0262b102c7ce43f3744bdb0278ddf0d15bb1a71 tools/sched_ext: add scx_pair scheduler
-         36929ebd17ae66ed3acde9056a9daf611d81a2e5 tools/sched_ext: add arena based scheduler
-         fe10bd652d0026f780df9dc17473e5d900d43ecd Merge branch 'for-6.20' into for-next
+         c5f3ebd03522bcc0f7adf0581baa9b2930534610 mmc: renesas_sdhi: Deassert the reset signal on probe
+         07cc70cde78b79caf063008be1bd49f90ee2d383 mmc: renesas_sdhi: Switch to SYSTEM_SLEEP_PM_OPS()/RUNTIME_PM_OPS() and pm_ptr()
+         b4a92890c7c837dcf525c02759eed34a00349f30 mmc: renesas_sdhi: Add suspend/resume hooks
          
