@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/fustini/linux
-Date: Wed, 28 Jan 2026 19:54:29 -0000
-Message-Id: <176963006968.1359469.15698254908562401620@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
+Date: Wed, 28 Jan 2026 19:54:32 -0000
+Message-Id: <176963007205.1359550.12032760194456608159@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/fustini/linux
-user: fustini
+repo: pub/scm/linux/kernel/git/akpm/25-new
+user: akpm
 changes:
-  - ref: refs/heads/tenstorrent-dt-for-next
-    old: 0075f4c3aade0d436925026eaefb14be1ec52a69
-    new: 8f0b4cce4481fb22653697cced8d0d04027cb1e8
+  - ref: refs/heads/master
+    old: 52602573692d25f56b9aa0ff79c28d599714bbb3
+    new: ef94069c00b76e086a61be3d24edd3e0aa36b5de
+    log: |
+         ef94069c00b76e086a61be3d24edd3e0aa36b5de foo
+         
