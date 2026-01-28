@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Wed, 28 Jan 2026 02:40:16 -0000
-Message-Id: <176956801618.491000.1224027518176007181@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Wed, 28 Jan 2026 02:47:05 -0000
+Message-Id: <176956842511.495863.13191552648538259402@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: ast
+repo: pub/scm/linux/kernel/git/netdev/net
+user: kuba
 changes:
-  - ref: refs/heads/for-next
-    old: 35538dba51b4a64f790aefdc6972772dc36b9826
-    new: ae23bc81ddf7c17b663c4ed1b21e35527b0a7131
+  - ref: refs/heads/main
+    old: d32ba904a450633429eff08046a7a8e258b85add
+    new: a040afa3bca415019d96a586b96b5f17b1f55a90
     log: |
-         ae23bc81ddf7c17b663c4ed1b21e35527b0a7131 bpf: Fix tcx/netkit detach permissions when prog fd isn't given
+         a040afa3bca415019d96a586b96b5f17b1f55a90 gve: fix probe failure if clock read fails
          
