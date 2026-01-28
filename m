@@ -1,39 +1,29 @@
-Content-Type: multipart/mixed; boundary="===============1147215315047246235=="
+Content-Type: multipart/mixed; boundary="===============4446649812788130251=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next
-Date: Wed, 28 Jan 2026 16:19:20 -0000
-Message-Id: <176961716064.1171048.2712552070953208580@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next-history
+Date: Wed, 28 Jan 2026 16:19:34 -0000
+Message-Id: <176961717491.1171343.4905651274696203271@gitolite.kernel.org>
 
---===============1147215315047246235==
+--===============4446649812788130251==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/next/linux-next
+repo: pub/scm/linux/kernel/git/next/linux-next-history
 user: broonie
 changes:
   - ref: refs/heads/master
     old: 4f938c7d3b25d87b356af4106c2682caf8c835a2
     new: 3f24e4edcd1b8981c6b448ea2680726dedd87279
     log: revlist-4f938c7d3b25-3f24e4edcd1b.txt
-  - ref: refs/heads/stable
-    old: fcb70a56f4d81450114034b2c61f48ce7444a0e2
-    new: 1f97d9dcf53649c41c33227b345a36902cbb08ad
-    log: |
-         61ceaf236115f20f4fdd7cf60f883ada1063349a vfio: Prevent from pinned DMABUF importers to attach to VFIO DMABUF
-         1f97d9dcf53649c41c33227b345a36902cbb08ad Merge tag 'vfio-v6.19-rc8' of https://github.com/awilliam/linux-vfio
-         
-  - ref: refs/tags/next-20251028
-    old: 33b5a67d76ce575ea38bc3de55719a6cdf42287d
-    new: 0000000000000000000000000000000000000000
   - ref: refs/tags/next-20260128
     old: 0000000000000000000000000000000000000000
     new: e39ec59a1a568f759052f25df6cd223d2fc9f1d7
 
---===============1147215315047246235==
+--===============4446649812788130251==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1064,4 +1054,4 @@ a500328958318d3618b6d6acb31f9e44b5963250 Merge branch 'pwrseq/for-next' of https
 51ca24819b2b7ab6ecb632f14cb5975563fe933f cma: Fix stub for cma_skip_dt_default_reserved_mem()
 3f24e4edcd1b8981c6b448ea2680726dedd87279 Add linux-next specific files for 20260128
 
---===============1147215315047246235==--
+--===============4446649812788130251==--
