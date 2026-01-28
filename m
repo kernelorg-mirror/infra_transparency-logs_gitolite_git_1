@@ -1,26 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Wed, 28 Jan 2026 11:07:11 -0000
-Message-Id: <176959843161.909561.14724433288381593832@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============6543348090532811379=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Wed, 28 Jan 2026 11:13:15 -0000
+Message-Id: <176959879516.913980.2729676566807194861@gitolite.kernel.org>
+
+--===============6543348090532811379==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
-user: broonie
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-linus
-    old: 213c4e51267fd825cd21a08a055450cac7e0b7fb
-    new: 5e037759b4b8288d66e791d686b79653a6615115
+  - ref: refs/heads/master
+    old: 92b3256c20632394768d633dc7b40d18b6fc1b01
+    new: 540fc4ca564240d191b4756543a4532e1c6b80bd
     log: |
-         5e037759b4b8288d66e791d686b79653a6615115 spi: dw: Remove not-going-to-be-supported code for Baikal SoC
+         540fc4ca564240d191b4756543a4532e1c6b80bd 6.12-stable patches
          
-  - ref: refs/heads/for-next
-    old: 06f2e5a491dcb38ae42954c470424ea808103824
-    new: 77d6a8d6d03fe4bd384608442ec302af4f68867d
-    log: |
-         5e037759b4b8288d66e791d686b79653a6615115 spi: dw: Remove not-going-to-be-supported code for Baikal SoC
-         77d6a8d6d03fe4bd384608442ec302af4f68867d Merge remote-tracking branch 'asoc/for-6.20' into asoc-next
-         
+
+--===============6543348090532811379==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1769598793 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1769598792-f2d383d301cd30db125e9fe42d4bf356b85ba273
+
+92b3256c20632394768d633dc7b40d18b6fc1b01 540fc4ca564240d191b4756543a4532e1c6b80bd refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAml570obHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+ynkP/R0zMcMzAgGwXDRWtAvS
+mFVR+Mi8mCtVAcH10ivvE7vnMVS/KrQkZoxcPbkymzwOJLu9U0JRbzK35lVSAQd1
+8s0Nng1AYO4OX5F1l1elsT68EDeXpRXjys/vpx/KHjyvYsJyrHZXHYc31M+fOaZO
+d7JBVNLak+uSw9VdADFCn5W9RItZDZq/sD1iuyXd9ElPz+YSV0Tn2xiOO7Rde2nc
+WDRO2/6V5LvhnHg/kVDC5WqlShMEjpzauraPdMDY98ZZzJebr/92/L/jSXLUszhX
+Q6mfedy/21czjyA2ywUWJowPOn1DhV3seWH8prr+8PPoQ/12iDupRlI5++DCR4Fa
+JCfSWe+ijEJNn8CwLknHXBbzAwVOppbTPwSZmuVVlN/I46gUMtJYiE/MusqLPepj
+WdaW908UzzDuheq/GfKGzgpMxmFQQgrydkQRK8qDzNNZikuAxn/j75+GBcESO1SS
+jSsUHRWaUAyGQIC9V7x1x1s88J803Q1PXzIYoIGOXD9qyz1+DCw1kg0CwrWMGo88
+qqQzOD7yjswZ9wYcPq+YIn3SGNaivZkSXJ9oCFNMBX/fALDs619oHmKFDe8/qqHL
+XqxfXMEe53IwVGVwBW7nG4C+TrvCC4rwQdvTVy837NjcVSU+yrxuDJVb2HLZeQSW
+7G/d3n2a3yw5EJh8gvDBdQmv
+=tLtQ
+-----END PGP SIGNATURE-----
+
+--===============6543348090532811379==--
