@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jack/linux-fs
-Date: Wed, 28 Jan 2026 08:59:21 -0000
-Message-Id: <176959076189.805604.11035187355447786067@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
+Date: Wed, 28 Jan 2026 09:10:53 -0000
+Message-Id: <176959145334.816085.5584622126760464227@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jack/linux-fs
-user: jack
+repo: pub/scm/linux/kernel/git/brgl/linux
+user: brgl
 changes:
-  - ref: refs/heads/for_next
-    old: 41ab1bbb2bba036e953f9d26f39f47b52a7ba155
-    new: 93a803d2ab6413e159926d34f08ff0a598b65d2c
+  - ref: refs/heads/gpio/for-next
+    old: 274ea0f1687a849ded4f92d10e4c0e77f37740c9
+    new: 4c4ff6e38768f2431ed153f110f2d1fcce848af8
     log: |
-         18a777eee28938a70a7fb103e37ff4ba56e5b673 isofs: support full length file names (255 instead of 253)
-         93a803d2ab6413e159926d34f08ff0a598b65d2c Pull isofs name length improvement.
+         4c4ff6e38768f2431ed153f110f2d1fcce848af8 gpio: max77620: Implement .get_direction() callback
          
