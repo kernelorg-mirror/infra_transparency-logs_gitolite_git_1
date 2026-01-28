@@ -1,19 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/korgalore/korgalore
-Date: Wed, 28 Jan 2026 17:01:02 -0000
-Message-Id: <176961966295.1211452.16033181999410868772@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Wed, 28 Jan 2026 17:08:39 -0000
+Message-Id: <176962011904.1216008.4721435195001176814@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/korgalore/korgalore
-user: mricon
+repo: pub/scm/linux/kernel/git/tip/tip
+user: mingo
 changes:
-  - ref: refs/heads/stable-0.5.y
-    old: 0000000000000000000000000000000000000000
-    new: b61b434c755c749f9676a6638e8a319ff2bb3265
-  - ref: refs/tags/v0.5.0
-    old: 0000000000000000000000000000000000000000
-    new: ba21915dc84164d600bc765783f5ad586daf2d14
+  - ref: refs/heads/master
+    old: fe6586b57c6efd1b41919d87e8f9a2d2aa4bda14
+    new: 06b7270835142f86b854868e0e943a5291d5fe39
+    log: |
+         28f24068387169722b508bba6b5257cb68b86e74 pinctrl: meson: mark the GPIO controller as sleeping
+         1fbe3abb449c5ef2178e1c3e3e8b9a43a7a410ac pinctrl: qcom: sm8350-lpass-lpi: Merge with SC7280 to fix I2S2 and SWR TX pins
+         304c3ebcaff36560d76e3030ba0839e629635f47 pinctrl: th1520: Fix typo
+         4f0d22ec60cee420125f4055af76caa0f373a3fe pinctrl: lpass-lpi: implement .get_direction() for the GPIO driver
+         f58442788fdac580c49e0c42379fd32438cff6d7 dt-bindings: pinctrl: marvell,armada3710-xb-pinctrl: fix 'usb32_drvvbus0' group name
+         8dfce8991b95d8625d0a1d2896e42f93b9d7f68d Merge tag 'pinctrl-v6.19-3' of git://git.kernel.org/pub/scm/linux/kernel/git/linusw/linux-pinctrl
+         06b7270835142f86b854868e0e943a5291d5fe39 Merge branch 'linus'
+         
