@@ -1,72 +1,58 @@
-Content-Type: multipart/mixed; boundary="===============5170266543286481796=="
+Content-Type: multipart/mixed; boundary="===============1649134859695674504=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
-Date: Wed, 28 Jan 2026 22:42:40 -0000
-Message-Id: <176964016068.1502084.14675934884794481499@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
+Date: Wed, 28 Jan 2026 22:43:44 -0000
+Message-Id: <176964022403.1502547.10006609746939275266@gitolite.kernel.org>
 
---===============5170266543286481796==
+--===============1649134859695674504==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/soc/soc
-user: arnd
+repo: pub/scm/linux/kernel/git/kdave/linux
+user: kdave
 changes:
   - ref: refs/heads/for-next
-    old: 4619c1f7401a78d837bbd7559a93dc82f2bb53c3
-    new: 08f9189a05b0607e7f5dd3201aac52af36ff8b14
-    log: revlist-4619c1f7401a-08f9189a05b0.txt
-  - ref: refs/heads/soc/dt
-    old: 2120005213ce4fdfc652e3f16e6ee20e85cfa4f6
-    new: 25ed1e98403c1d759ac2eeb999b4cf12f6accecf
-    log: revlist-2120005213ce-25ed1e98403c.txt
+    old: f13c9b601eee938069b75988bdafee5629ec8040
+    new: b4f459c63070521a58e3dc3d35ebe38f1739e9ad
+    log: revlist-f13c9b601eee-b4f459c63070.txt
 
---===============5170266543286481796==
+--===============1649134859695674504==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4619c1f7401a-08f9189a05b0.txt
+Content-Disposition: attachment; filename=revlist-f13c9b601eee-b4f459c63070.txt
 
-6f86a41d2162eea97946a952de4032db149d54c8 riscv: dts: microchip: fix mailbox description
-26535e84449abbf5d207a4b1db12891edf52e35e riscv: dts: microchip: convert clock and reset to use syscon
-d2091990c5c1da38e9cc41240f03c420743af1bf dt-bindings: riscv: starfive: Append JH-7110 SoC compatible to VisionFive 2 Lite board
-7c9a5fd6bb19d08d687a416705c494eed0c55134 riscv: dts: starfive: Append JH-7110 SoC compatible to VisionFive 2 Lite board
-4297ddbf1d148a6007b91b2aec51853454253b96 riscv: dts: starfive: Append JH-7110 SoC compatible to VisionFive 2 Lite eMMC board
-fff010c776f715904ba0823bb347eac00dccffa2 dt-bindings: riscv: update ratified version of h, svinval, svnapot, svpbmt
-0cdb7fc1879b1b858463125630f4dd5af6b111ad dt-bindings: riscv: Add B ISA extension description
-b321256a4f36227e0c1ae54e8c6c48524dcba83d dt-bindings: riscv: Add descriptions for Za64rs, Ziccamoa, Ziccif, and Zicclsm
-c712413333f8e19cc3de4e9cd1a3ed8a53169cc9 dt-bindings: riscv: Add Ssccptr, Sscounterenw, Sstvala, Sstvecd, Ssu64xl
-89febd6a02768200fcfc86ee57f1ece632805bff dt-bindings: riscv: Add Sha and its comprised extensions
-a36b2aaae742dd2253063ee0cc447aa86f94b4fb dt-bindings: riscv: extensions: Drop unnecessary select schema
-18649ffbb63bca40896f973b6997914f9d603b1e riscv: dts: anlogic: dr1v90: Add "b" ISA extension
-d83bcab6842f01bad024056c3801c39f55e61f30 dt-bindings: arm: realtek: Add Kent Soc family compatibles
-b095c27fc874ef5e26a025a0ddbdacfc3c94d663 arm64: dts: realtek: Add Kent SoC and EVB device trees
-25ed1e98403c1d759ac2eeb999b4cf12f6accecf Merge tag 'riscv-dt-for-v6.20' of https://git.kernel.org/pub/scm/linux/kernel/git/conor/linux into soc/dt
-08f9189a05b0607e7f5dd3201aac52af36ff8b14 Merge branch 'soc/dt' into for-next
+4b40b1c47f9373c11aa1331d647ed915482d6e2c btrfs: fix copying the flags of btrfs_bio after split
+e47e03501f06e8f8e9d9713aeec7551499b9ad08 btrfs: zoned: use local fs_info variable in btrfs_load_block_group_dup()
+2d749b38f5a1ee28fd4818675a7ec2608c1b2614 btrfs: fix copying the flags of btrfs_bio after split
+134f626374edcbbe40895896417e1cf321155560 btrfs: fix block_group_tree dirty_list corruption
+11769e56a939daad813257af89be74064bae0e74 btrfs: abort transaction on error in btrfs_remove_block_group()
+547840f34d5e00cd0f35a187557d2247a8e0b281 btrfs: do not BUG_ON() in btrfs_remove_block_group()
+c2cd529d7a91bf9065bd321cd19876ce3b819702 btrfs: continue trimming remaining devices on failure
+227c8e3bbac306873c9df6d42303fd8604a2aa14 btrfs: preserve first error in btrfs_trim_fs()
+8444e3163fc85a58d0cd5bc7eff64a74a649919d btrfs: handle user interrupt properly in btrfs_trim_fs()
+f23b87963fd65adcb88a9ad5d825c0e989963a12 btrfs: fix transaction commit blocking during trim of unallocated space
+b1a8d10f41e430dce95562b180d7520381511968 btrfs: === misc-next on b-for-next ===
+247fd9674367d6db6f9510e2134a3b0b3758e876 btrfs: fix EEXIST abort due to non-consecutive gaps in chunk allocation
+5cfdff327b5d0c6d00c455f49c2eb83929aed1aa btrfs: unit tests for pending extent walking functions
+84fe7062b9f7580e8f165781c1c4046947267acb btrfs: forward declare btrfs_fs_info in volumes.h
+731d3fe8f5fa0a291da9eb8d188527bd7fca129c btrfs: introduce lzo_compress_bio() helper
+9173fa635b1082e172c050c3d7ecd62c29bbb136 btrfs: introduce zstd_compress_bio() helper
+62dcefd6d77c9a754a45026e57c5e53ffcd4b4e8 btrfs: introduce zlib_compress_bio() helper
+9af06112e584f8c9d94c97a3b3762f3874ff3d7f btrfs: introduce btrfs_compress_bio() helper
+27ff11f351e5433fbc9b96a0725dfdf89a607e2d btrfs: switch to btrfs_compress_bio() interface for compressed writes
+e5f812a4becbfa7edb4191041908e2209cfc13f2 btrfs: remove the old btrfs_compress_folios() infrastructures
+a5d5e299de7d1ad2fa82115dc2ef875d261c5456 btrfs: get rid of compressed_folios[] usage for compressed read
+88cbfb2521453bea60c693474afc432dfaf34e44 btrfs: get rid of compressed_folios[] usage for encoded writes
+778e63032356bdd47b74db5ddcc753d133bfd897 btrfs: get rid of compressed_bio::compressed_folios[]
+d534d2fefedd8aa22464a63d8162ed8a9b073371 Merge branch 'misc-6.19' into for-next-current-v6.18-20260128
+15531ceacb7bf354490d7a624eb349819e8ea363 Merge branch 'b-for-next' into for-next-next-v6.19-20260128
+25a49bd28fd47b23f667b25151e6b8ea3948162f Merge branch 'misc-next' into for-next-next-v6.19-20260128
+1c66eafab9ee8642d5434433bc83e59fad9620f3 Merge branch 'for-next-current-v6.18-20260128' into for-next-20260128
+b4f459c63070521a58e3dc3d35ebe38f1739e9ad Merge branch 'for-next-next-v6.19-20260128' into for-next-20260128
 
---===============5170266543286481796==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2120005213ce-25ed1e98403c.txt
-
-6f86a41d2162eea97946a952de4032db149d54c8 riscv: dts: microchip: fix mailbox description
-26535e84449abbf5d207a4b1db12891edf52e35e riscv: dts: microchip: convert clock and reset to use syscon
-d2091990c5c1da38e9cc41240f03c420743af1bf dt-bindings: riscv: starfive: Append JH-7110 SoC compatible to VisionFive 2 Lite board
-7c9a5fd6bb19d08d687a416705c494eed0c55134 riscv: dts: starfive: Append JH-7110 SoC compatible to VisionFive 2 Lite board
-4297ddbf1d148a6007b91b2aec51853454253b96 riscv: dts: starfive: Append JH-7110 SoC compatible to VisionFive 2 Lite eMMC board
-fff010c776f715904ba0823bb347eac00dccffa2 dt-bindings: riscv: update ratified version of h, svinval, svnapot, svpbmt
-0cdb7fc1879b1b858463125630f4dd5af6b111ad dt-bindings: riscv: Add B ISA extension description
-b321256a4f36227e0c1ae54e8c6c48524dcba83d dt-bindings: riscv: Add descriptions for Za64rs, Ziccamoa, Ziccif, and Zicclsm
-c712413333f8e19cc3de4e9cd1a3ed8a53169cc9 dt-bindings: riscv: Add Ssccptr, Sscounterenw, Sstvala, Sstvecd, Ssu64xl
-89febd6a02768200fcfc86ee57f1ece632805bff dt-bindings: riscv: Add Sha and its comprised extensions
-a36b2aaae742dd2253063ee0cc447aa86f94b4fb dt-bindings: riscv: extensions: Drop unnecessary select schema
-18649ffbb63bca40896f973b6997914f9d603b1e riscv: dts: anlogic: dr1v90: Add "b" ISA extension
-d83bcab6842f01bad024056c3801c39f55e61f30 dt-bindings: arm: realtek: Add Kent Soc family compatibles
-b095c27fc874ef5e26a025a0ddbdacfc3c94d663 arm64: dts: realtek: Add Kent SoC and EVB device trees
-25ed1e98403c1d759ac2eeb999b4cf12f6accecf Merge tag 'riscv-dt-for-v6.20' of https://git.kernel.org/pub/scm/linux/kernel/git/conor/linux into soc/dt
-
---===============5170266543286481796==--
+--===============1649134859695674504==--
