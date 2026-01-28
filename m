@@ -1,31 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
-Date: Wed, 28 Jan 2026 16:56:51 -0000
-Message-Id: <176961941154.1207098.17947884013275040467@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/korgalore/korgalore
+Date: Wed, 28 Jan 2026 17:00:49 -0000
+Message-Id: <176961964943.1210985.2024422877570431000@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ath/ath
-user: jjohnson
+repo: pub/scm/utils/korgalore/korgalore
+user: mricon
 changes:
-  - ref: refs/heads/main-pending
-    old: c8732a6ac392eae1088c2f24f4f222b0a6dc6379
-    new: cad12d8a8b4932195da55e52b91c280e06b20dd2
+  - ref: refs/notes/signatures/tar
+    old: e2b439751deb06e738f63df6cd8011486dc411fa
+    new: b9c050e94cfe51175fbdd4946bc5813f4c718fc6
     log: |
-         bd0fa21b6c9a31affd32759a1be561ff4b1b1fcc wifi: ath10k: fix lock protection in ath10k_wmi_event_peer_sta_ps_state_chg()
-         117a8dd82071a390696ba81a00414d270e504d80 wifi: ath10k: sdio: add missing lock protection in ath10k_sdio_fw_crashed_dump()
-         cad12d8a8b4932195da55e52b91c280e06b20dd2 Merge branch 'pending' into main-pending
+         b9c050e94cfe51175fbdd4946bc5813f4c718fc6 Notes added by 'git notes add'
          
-  - ref: refs/heads/pending
-    old: c3082331434979280aab59207044a12b67114e92
-    new: 117a8dd82071a390696ba81a00414d270e504d80
-    log: |
-         bd0fa21b6c9a31affd32759a1be561ff4b1b1fcc wifi: ath10k: fix lock protection in ath10k_wmi_event_peer_sta_ps_state_chg()
-         117a8dd82071a390696ba81a00414d270e504d80 wifi: ath10k: sdio: add missing lock protection in ath10k_sdio_fw_crashed_dump()
-         
-  - ref: refs/tags/ath-pending-202601281631
-    old: 0000000000000000000000000000000000000000
-    new: cad12d8a8b4932195da55e52b91c280e06b20dd2
