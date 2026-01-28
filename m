@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd-test
-Date: Wed, 28 Jan 2026 05:21:59 -0000
-Message-Id: <176957771913.641249.5416469557564759342@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs
+Date: Wed, 28 Jan 2026 06:05:55 -0000
+Message-Id: <176958035586.674050.15259705931925478951@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd-test
-user: jarkko
+repo: pub/scm/linux/kernel/git/xiang/erofs
+user: xiang
 changes:
-  - ref: refs/heads/main
-    old: 81f024e385237fef9df4537e4691720dc69d5656
-    new: 6597b5b13dd9d8a4edc5dc263e807a9e758b2d2f
+  - ref: refs/heads/dev-test
+    old: b19e22369ecb4d6085ff3a01045eb64db5295c52
+    new: fb5241d59cdf6b12064e486cae78a0f978bcfbc3
     log: |
-         6597b5b13dd9d8a4edc5dc263e807a9e758b2d2f Add test code for v4l2-vcam
+         fb5241d59cdf6b12064e486cae78a0f978bcfbc3 erofs: use inode_set_cached_link()
          
