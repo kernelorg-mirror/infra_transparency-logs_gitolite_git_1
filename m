@@ -1,58 +1,58 @@
-Content-Type: multipart/mixed; boundary="===============0638657821904890179=="
+Content-Type: multipart/mixed; boundary="===============7571608635055611687=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Wed, 28 Jan 2026 03:01:27 -0000
-Message-Id: <176956928771.507264.3951518821898069338@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Wed, 28 Jan 2026 03:01:32 -0000
+Message-Id: <176956929269.507482.16364576302398502185@gitolite.kernel.org>
 
---===============0638657821904890179==
+--===============7571608635055611687==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.19
+  - ref: refs/heads/asoc-6.19
     old: 9502b7df5a3c7e174f74f20324ac1fe781fc5c2d
     new: 213c4e51267fd825cd21a08a055450cac7e0b7fb
     log: |
          213c4e51267fd825cd21a08a055450cac7e0b7fb ASoC: Intel: sof_es8336: fix headphone GPIO logic inversion
          
-  - ref: refs/heads/for-6.20
+  - ref: refs/heads/asoc-6.20
     old: 74823db9ba2e13f3ec007b354759b3d8125e462c
     new: 75ca86026b891c21d656dda38c3e7ae6a848b440
     log: revlist-74823db9ba2e-75ca86026b89.txt
 
---===============0638657821904890179==
+--===============7571608635055611687==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1769569284 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1769569284-7cd859d75630f9b902ebfad3ffd3039511fc614c
+pusher C3F436CA30F5D8EB 1769569289 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1769569288-cdb9603dbeb502e255b6f673d8204fff08ea7c07
 
-9502b7df5a3c7e174f74f20324ac1fe781fc5c2d 213c4e51267fd825cd21a08a055450cac7e0b7fb refs/heads/for-6.19
-74823db9ba2e13f3ec007b354759b3d8125e462c 75ca86026b891c21d656dda38c3e7ae6a848b440 refs/heads/for-6.20
+9502b7df5a3c7e174f74f20324ac1fe781fc5c2d 213c4e51267fd825cd21a08a055450cac7e0b7fb refs/heads/asoc-6.19
+74823db9ba2e13f3ec007b354759b3d8125e462c 75ca86026b891c21d656dda38c3e7ae6a848b440 refs/heads/asoc-6.20
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAml5fAQACgkQJNaLcl1U
-h9Dh0gf/SptkvobOeBwRrAAXbFI1qd9CT6DzH0eQT45Lv6tRcxV82qCfAt71stLI
-OX6hV6v4Bh2QCQthPQu7tVbjCE8KTD8Sz5Ae3i4rcv/MoQHktbumf5fchXVOWjHs
-WF6Cxoi6agIzSq58DugeYqwPvv4FOb8p0/owoHQDia8qvPEus9s74w2niboX96W1
-yRx9/8++u3aKZzRYEla9c5fQ0/P4X1ODDKFMeF3MhmLaqi4/jw+HbVPzC0w1kFBQ
-qfWkJzsgiqFe0qu6WPISIKc5cKWMbAw8Xi4JLa83qlOvOPn+7ePfw9CKh6aVI0v9
-4QhnoeAxZeANBkV7AZDIawOn3YbJKQ==
-=+q9p
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAml5fAkACgkQJNaLcl1U
+h9A2Vwf9EOyUZvdOPZeYgSWX7Z/1dawQMppCOk0sNFWh7GmtWp+WaqlAhQmDbx3R
+OnYS8IGFh5RcbbxYU7EeI+7VjPOrtKdPVcSdCPULFENQ4PXXBsbHiz5hDiXcuha9
+3WT6rZ2RQQbFh96y1w0GBz0BCG7i+sbI7hqa27O1/s9My/hO3urrzAZypA0KFEFh
+q9Ev9vwbRLiQj5A9uUpxV9y5M+3GpeWNSSRr9QOu7DjuFseV4Mea52SNP3y5LWDY
+8Cevy8ELYqQ2dITdqmS1ve85NHN2ax8go9Yr9UjF4L2lAoZcNqfufBztDOquSvQX
+vpLOuJvv0OOxGzNrCeCP7I8PmHWr0g==
+=snmL
 -----END PGP SIGNATURE-----
 
---===============0638657821904890179==
+--===============7571608635055611687==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -538,4 +538,4 @@ ab2e3fa491734b655e1d37aee058fa7195174d74 ASoC: fsl_audmix: Support the i.MX952 p
 b4ee17729a11f13fbb15cd1fb54549642cd1c44c ASoC: capsuling struct snd_soc_dapm_context
 75ca86026b891c21d656dda38c3e7ae6a848b440 ASoC: sophgo: add CV1800 I2S controllers support
 
---===============0638657821904890179==--
+--===============7571608635055611687==--
