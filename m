@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sergeh/linux
-Date: Wed, 28 Jan 2026 03:30:52 -0000
-Message-Id: <176957105214.530770.2771986563399054653@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ebiggers/linux
+Date: Wed, 28 Jan 2026 03:31:56 -0000
+Message-Id: <176957111628.531256.9684690679994559775@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sergeh/linux
-user: sergeh
+repo: pub/scm/linux/kernel/git/ebiggers/linux
+user: ebiggers
 changes:
-  - ref: refs/heads/caps-next
-    old: 740c67ca6ec6a0a6aa4d92aa2f3819cb974dd925
-    new: 071588136007482d70fd2667b827036bc60b1f8f
-    log: |
-         071588136007482d70fd2667b827036bc60b1f8f ipc: don't audit capability check in ipc_permissions()
-         
+  - ref: refs/heads/net-pending
+    old: 8067588f274bdbc137c0d466ea37d1f6958ea1a3
+    new: 0000000000000000000000000000000000000000
