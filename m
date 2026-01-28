@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs
-Date: Wed, 28 Jan 2026 00:05:42 -0000
-Message-Id: <176955874202.318687.12200121266892767253@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
+Date: Wed, 28 Jan 2026 00:25:36 -0000
+Message-Id: <176955993632.333360.9538029058127968668@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jaegeuk/f2fs
-user: jaegeuk
+repo: pub/scm/linux/kernel/git/acme/linux
+user: acme
 changes:
-  - ref: refs/heads/dev-test
-    old: 6bb9010f78d7f0ff0e4a17b1be951e76d96757a5
-    new: 8e943c6351c0bc14d0de02ddb66807eb2e1af121
+  - ref: refs/heads/perf-tools-next
+    old: 68abacb0686651dd3f0bbce2fa94b438afeb2fc4
+    new: 297c9d96e3085116c5cde18170dba716a1f2591e
     log: |
-         8e943c6351c0bc14d0de02ddb66807eb2e1af121 f2fs: fix incomplete block usage in compact SSA summaries
+         612e4022c616eba66ed15e6b7a9924251e0298e8 perf strlist: Remove dont_dupstr logic, used only once
+         297c9d96e3085116c5cde18170dba716a1f2591e perf jevents: Handle deleted JSONS in out of source builds
          
