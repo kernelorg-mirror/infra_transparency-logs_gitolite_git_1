@@ -1,31 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vireshk/linux
-Date: Wed, 28 Jan 2026 10:57:55 -0000
-Message-Id: <176959787525.900638.16989036237076571926@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============2658428363127609049=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Wed, 28 Jan 2026 11:04:57 -0000
+Message-Id: <176959829720.905178.12313571481873293409@gitolite.kernel.org>
+
+--===============2658428363127609049==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vireshk/linux
-user: vireshk
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/virtio/msg
-    old: f3cda6c0d888c0df12b263b9914117ebfe7daadc
-    new: 08cfd9134af6f556554cdedba40f97c5952d7561
+  - ref: refs/heads/master
+    old: 581ec295346f5a9a3d7765ea6dd1e124a2ad1bf7
+    new: 92b3256c20632394768d633dc7b40d18b6fc1b01
     log: |
-         08cfd9134af6f556554cdedba40f97c5952d7561 vsock: Add shared-memory support for virtio and loopback
+         92b3256c20632394768d633dc7b40d18b6fc1b01 6.18-stable patches
          
-  - ref: refs/heads/virtio/msg-xen
-    old: 7cc979887f823ceafcdee62302e080eac781cc5a
-    new: 76427c94d00817c6ba0956ffa50ece35759aa37c
-    log: |
-         08cfd9134af6f556554cdedba40f97c5952d7561 vsock: Add shared-memory support for virtio and loopback
-         3c1274da34d921f364c9c0f683b785091eecb6c6 virtio-msg: ffa: Add passive-mode host support
-         6850304a71cb934a3d92890eab8649d924efd369 DNU: firmware: arm_ffa: Keep host driver alive until guests enumerate
-         52f08c7d70b325c7c4bdf8c7f8bc96b7b31a2e6a DNU: firmware: arm_ffa: Force-match virtio-msg-ffa UUID
-         7479718223ec9357d23f046480eee41ff66c7438 DNU: defconfig: arm64: Reset to baseline
-         e10da20b6a5a02464db0759b389e9febded37c74 DNU: defconfig: arm64/x86_64: Enable virtio-msg and qemu/xen options
-         76427c94d00817c6ba0956ffa50ece35759aa37c DNU: defconfig: arm64: Enable built-in initramfs for guest testing
-         
+
+--===============2658428363127609049==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1769598296 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1769598294-3ffa4fa5435427ddc9de62a4295d93dc41b65413
+
+581ec295346f5a9a3d7765ea6dd1e124a2ad1bf7 92b3256c20632394768d633dc7b40d18b6fc1b01 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAml57VgbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+O0AP/3l5AShjSt0/m2uzW3A0
+4sFuytDzo+5Ns8opwJkFLjngsn4Mba/w8Y275r19P+p8xc9KClatWLcIjDgeJULn
+g588ICM8yu5Br4pMHMhYjkKXfyabEKGEIsYy2QYQFs9s80Y1Ea0IbMu9KTbqM0ks
+FJCUbNbcPNiRc0YqJ2bEK2dQv0ru3UAXw0qGyQrc23dG1SKojkXoPmH99oS3LEFu
+h0+RxOukkx0Rd/x9T2CVaVRRVpLMROSdflb+LGymZ8mzM8sGHs1sYcBSgZUCDM+8
+Lm2q0+HTrNv5D5rIESJBFBptf8XzGPQx/vHNW9mvI96vasmbnBbCHMNL8Jd2QNu1
+FJTQAlwG4ygn2QG/iVIG/7P2s57aoEaTE4C+4yZUT0+AcVSu2+yG0X+7a8/gndfJ
++QjcYLzNYqoknquli26c79OUKh4Ouy0n8vEeWy2uaZrwniVLHD5HCn2hMQcIJVMI
+NZQfzNRITLC4hWeY7fHIM0ExfIi8tDkMLyB9O/ZcjL74nBNN6Ir0SR4vU3ZzAYAJ
+xqS94g2z6bVqogaxsyESwV9lcMAqltOq4f4cKtK5bcAGyXiwCUbs65jj5dQ7HuPI
+/f+Dk5s1MR6PylRJRyvnHqpooNJj30sCONFpGs66Cqw+jWOd6iVoqrg7IGEMiYtp
+DJUOMbnDLU0k+9e1u57MlHOF
+=KQhW
+-----END PGP SIGNATURE-----
+
+--===============2658428363127609049==--
