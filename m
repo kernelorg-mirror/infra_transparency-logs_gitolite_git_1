@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
-Date: Wed, 28 Jan 2026 19:00:08 -0000
-Message-Id: <176962680888.1313731.11706498103830410400@gitolite.kernel.org>
+Date: Wed, 28 Jan 2026 19:03:36 -0000
+Message-Id: <176962701691.1315163.4108685803737834077@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,9 +12,9 @@ repo: pub/scm/linux/kernel/git/ath/ath
 user: jjohnson
 changes:
   - ref: refs/heads/pending
-    old: e1a9543d54a7f4e6d57e91e6cfd086b8bdec8200
-    new: 8fb8b1cce54b081d331d03183407ebb7df14b80f
+    old: 8fb8b1cce54b081d331d03183407ebb7df14b80f
+    new: 58986469be032100457c2644088c5fc90a63ff2b
     log: |
-         79dae653e12b8b7f440c0a3676f87a3043d3a15c wifi: ath11k: add usecase firmware handling based on device compatible
-         8fb8b1cce54b081d331d03183407ebb7df14b80f dt-bindings: net: wireless: ath11k-pci: deprecate 'firmware-name' property
+         f5b4588e6c6654e9fc06a8abecaf61320c19cc7f wifi: ath12k: add WMI support for spatial reuse parameter configuration
+         58986469be032100457c2644088c5fc90a63ff2b wifi: ath12k: support OBSS PD configuration for AP mode
          
