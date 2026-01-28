@@ -1,22 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ulfh/linux-pm
-Date: Wed, 28 Jan 2026 12:27:48 -0000
-Message-Id: <176960326898.975084.17838985060989711960@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux
+Date: Wed, 28 Jan 2026 12:28:24 -0000
+Message-Id: <176960330437.975490.17782626236048037544@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ulfh/linux-pm
-user: ulfh
+repo: pub/scm/linux/kernel/git/axboe/linux
+user: axboe
 changes:
-  - ref: refs/heads/next
-    old: 99b05359d0d28cbc8e5ae37ed897991359c9bbcf
-    new: d5e0049ec3540799e28ed3e48cb72efc3eada27e
+  - ref: refs/heads/for-7.0/block
+    old: 7c746eb71fc3737340c32f44c31b111f74f5632c
+    new: f46ebb910989a1db244f95bd1f937907591aa2ee
     log: |
-         74c238c8ab0af6497bb9908e66a6f419c18c2efe pmdomain: core: Restructure domain idle states data for genpd in debugfs
-         8e9db27fe5198b49a94e51f6cf3a240fa34e8be3 pmdomain: core: Show latency/residency for domain idle states in debugfs
-         c0036e41505d2b2fe5184727697e9242a7079793 pmdomain: core: Extend statistics for domain idle states with s2idle data
-         d5e0049ec3540799e28ed3e48cb72efc3eada27e pmdomain: Merge branch fixes into next
+         f46ebb910989a1db244f95bd1f937907591aa2ee block: Replace snprintf with strscpy in check_partition
+         
+  - ref: refs/heads/for-next
+    old: 15818cae0b40c504a3d51cdd093dfa08ec15e9a0
+    new: 01e05b07528a941960f2c225908331d220ae5b4f
+    log: |
+         f46ebb910989a1db244f95bd1f937907591aa2ee block: Replace snprintf with strscpy in check_partition
+         01e05b07528a941960f2c225908331d220ae5b4f Merge branch 'for-7.0/block' into for-next
          
