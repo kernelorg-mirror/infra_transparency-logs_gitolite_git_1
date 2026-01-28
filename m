@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs
-Date: Wed, 28 Jan 2026 06:05:55 -0000
-Message-Id: <176958035586.674050.15259705931925478951@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mszyprowski/linux
+Date: Wed, 28 Jan 2026 06:40:24 -0000
+Message-Id: <176958242488.699850.186289918429152@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/xiang/erofs
-user: xiang
+repo: pub/scm/linux/kernel/git/mszyprowski/linux
+user: mszyprowski
 changes:
-  - ref: refs/heads/dev-test
-    old: b19e22369ecb4d6085ff3a01045eb64db5295c52
-    new: fb5241d59cdf6b12064e486cae78a0f978bcfbc3
+  - ref: refs/heads/dma-mapping-fixes
+    old: 05d6113cb1bd4408d4f9cf6497d076e08a6bfe3d
+    new: 77ce59c6e3b12734ec2634ea8323426b10ab4c38
     log: |
-         fb5241d59cdf6b12064e486cae78a0f978bcfbc3 erofs: use inode_set_cached_link()
+         77ce59c6e3b12734ec2634ea8323426b10ab4c38 of: reserved_mem: Allow reserved_mem framework detect "cma=" kernel param
          
