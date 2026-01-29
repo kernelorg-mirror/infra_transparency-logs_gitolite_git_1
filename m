@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/wens/wireless-regdb
-Date: Thu, 29 Jan 2026 07:25:33 -0000
-Message-Id: <176967153397.1933957.8640997955389851829@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/deller/linux-fbdev
+Date: Thu, 29 Jan 2026 07:44:42 -0000
+Message-Id: <176967268256.1946812.8462111025236191530@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/wens/wireless-regdb
-user: wens
+repo: pub/scm/linux/kernel/git/deller/linux-fbdev
+user: deller
 changes:
-  - ref: refs/heads/master
-    old: 61a463705f02b617239969c269e4882bcb5af035
-    new: 5cefe5536421bc21d31b6429f1320d6dfdf8c7fd
+  - ref: refs/heads/for-next
+    old: 83cc91c241840e62276179a22ad3041766ea52c0
+    new: dc0f47d1d3b680077abe4ef5d9b7a53ca7241a2c
     log: |
-         5cefe5536421bc21d31b6429f1320d6dfdf8c7fd wireless-regdb: Update regulatory info for Tunisia (TN) on 6GHz for 2025
+         dc0f47d1d3b680077abe4ef5d9b7a53ca7241a2c fbdev: au1100fb: Check return value of clk_enable() in .resume()
          
