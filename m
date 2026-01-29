@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux
-Date: Thu, 29 Jan 2026 20:15:39 -0000
-Message-Id: <176971773921.2615126.17803562747193881308@gitolite.kernel.org>
+Date: Thu, 29 Jan 2026 20:17:20 -0000
+Message-Id: <176971784084.2615749.3286544183545839872@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,10 +11,18 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/axboe/linux
 user: axboe
 changes:
-  - ref: refs/heads/io_uring-waitwake
-    old: 2fcc25d7fb42d19f99b7df5967bc3fe4878978f3
-    new: 0e21c2da15e23c53f8261726f9c2ea166e72b3d5
+  - ref: refs/heads/for-7.0/block
+    old: 0921abdcbd1cbd6605ea425e85758bd4a19b9b32
+    new: 2719bd1ee1a1cd0535bc62e89b52822f2bbd14eb
     log: |
-         1b6ae6b5d7c946a14abfaedf996fa35865c5d3ea io_uring/waitwake: add support for waiting and waiting
-         0e21c2da15e23c53f8261726f9c2ea166e72b3d5 io_uring/waitwake: queued support
+         068f5b5ef5bf97e25568950f06ba32325bdc660b block: cleanup queue limit features definition
+         2719bd1ee1a1cd0535bc62e89b52822f2bbd14eb block: introduce blk_queue_rot()
+         
+  - ref: refs/heads/for-next
+    old: 0b12b91c3af38cf7cbfc0524c5fcd27241405f03
+    new: d4b7351a401004a1f6eaff5d21010f95b400860f
+    log: |
+         068f5b5ef5bf97e25568950f06ba32325bdc660b block: cleanup queue limit features definition
+         2719bd1ee1a1cd0535bc62e89b52822f2bbd14eb block: introduce blk_queue_rot()
+         d4b7351a401004a1f6eaff5d21010f95b400860f Merge branch 'for-7.0/block' into for-next
          
