@@ -1,20 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux
-Date: Thu, 29 Jan 2026 02:02:04 -0000
-Message-Id: <176965212471.1667175.6833138374656133296@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/trace/linux-trace
+Date: Thu, 29 Jan 2026 02:02:38 -0000
+Message-Id: <176965215818.1667713.13359716091546313219@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux
-user: axboe
+repo: pub/scm/linux/kernel/git/trace/linux-trace
+user: rostedt
 changes:
-  - ref: refs/heads/io_uring-waitwake
-    old: 34ee7fd64dda1d836b4d7c8fd00a3da7dea7a805
-    new: 96322cc0c9e68a5db22da074dedefe826e43a52d
+  - ref: refs/heads/trace/for-next
+    old: e1bc0d82f65e909fd4a3e33509b88b8ae94cdbac
+    new: 84c2344b0660cabe114ef889207f445def7996bd
     log: |
-         95f3cd413d0f0d65fca6d60d39bc357bb01bc52d io_uring: make io_cqe_overflow() usable for opcodes
-         96322cc0c9e68a5db22da074dedefe826e43a52d io_uring/waitwake: add support for waiting and waiting
+         45641096c9c3eb8213616df50beaa5f92b201876 tracing: Have hist_debug show what function a field uses
+         ef742dc5f8cd941bd7ad7dda132458909cb298d2 tracing: Remove notrace from trace_event_raw_event_synth()
+         e62750b6ab4d57f6cf4ea1550de8d2e111adb675 tracing: Up the hist stacktrace size from 16 to 31
+         9df0e49c5b9b8d051529be9994e4f92f2d20be6f tracing: Remove duplicate ENABLE_EVENT_STR and DISABLE_EVENT_STR macros
+         84c2344b0660cabe114ef889207f445def7996bd MAINTAINERS: add Rust files to STATIC BRANCH/CALL and TRACING
          
