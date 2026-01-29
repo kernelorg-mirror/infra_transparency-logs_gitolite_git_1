@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6203820093747131606=="
+Content-Type: multipart/mixed; boundary="===============5227243636637392715=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Thu, 29 Jan 2026 18:33:02 -0000
-Message-Id: <176971158240.2533188.7954386366505668616@gitolite.kernel.org>
+Date: Thu, 29 Jan 2026 18:33:05 -0000
+Message-Id: <176971158523.2533455.14700234896849525421@gitolite.kernel.org>
 
---===============6203820093747131606==
+--===============5227243636637392715==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/10GbE
+  - ref: refs/heads/40GbE
     old: 239f09e258b906deced5c2a7c1ac8aed301b558b
     new: e75e408dc524ba32b3bd66e89d2ba1e337877bfa
     log: revlist-239f09e258b9-e75e408dc524.txt
 
---===============6203820093747131606==
+--===============5227243636637392715==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -49,4 +49,4 @@ d98103575dcdd3a730e0901ab457791a9ac6930c netfilter: flowtable: Add IP6IP6 rx sw 
 e19079adcd26a25d7d3e586b1837493361fdf8b6 netfilter: nfnetlink_queue: optimize verdict lookup with hash table
 e75e408dc524ba32b3bd66e89d2ba1e337877bfa Merge tag 'nf-next-26-01-29' of https://git.kernel.org/pub/scm/linux/kernel/git/netfilter/nf-next
 
---===============6203820093747131606==--
+--===============5227243636637392715==--
