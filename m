@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Thu, 29 Jan 2026 21:55:30 -0000
-Message-Id: <176972373018.2693933.9828754899291928059@gitolite.kernel.org>
+Date: Thu, 29 Jan 2026 22:03:11 -0000
+Message-Id: <176972419160.2698812.8351590376957934693@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
 user: jarkko
 changes:
   - ref: refs/heads/vcam
-    old: 282ca89dccc56205b7eab4387278e03a0403cf9d
-    new: 66aeeac40b77b2afa7f094fc748254fd6d55b42c
+    old: 66aeeac40b77b2afa7f094fc748254fd6d55b42c
+    new: f652f477ecb82c5c94b2fe9127eed3cc45b7daca
     log: |
-         66aeeac40b77b2afa7f094fc748254fd6d55b42c media: Virtual camera driver
+         f652f477ecb82c5c94b2fe9127eed3cc45b7daca media: Virtual camera driver
          
