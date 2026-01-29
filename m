@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/git/git
-Date: Thu, 29 Jan 2026 22:49:18 -0000
-Message-Id: <176972695884.2735541.6210181110890383128@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Thu, 29 Jan 2026 22:50:21 -0000
+Message-Id: <176972702104.2738554.14687702224410083357@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/git/git
-user: junio
+repo: pub/scm/linux/kernel/git/tip/tip
+user: tglx
 changes:
-  - ref: refs/heads/todo
-    old: 704134c62e231d159434fe52cea52f173bf8ec28
-    new: 6e9f4f2a3f930bb8ea4a6d727ba66cb148525b6f
+  - ref: refs/heads/irq/msi
+    old: 1a8d4c6ecb4c81261bcdf13556abd4a958eca202
+    new: 37f9d5026cd78fbe80a124edbbadab382b26545f
     log: |
-         10ad3e3d41b7fe9e956ebe65efa064c4b37d922a What's cooking (2026/01 #09)
-         6e9f4f2a3f930bb8ea4a6d727ba66cb148525b6f What's cooking (2026/01 #10)
+         37f9d5026cd78fbe80a124edbbadab382b26545f genirq/redirect: Prevent writing MSI message on affinity change
          
