@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4958077268779911621=="
+Content-Type: multipart/mixed; boundary="===============9159160142393874436=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/vbabka/slab
-Date: Thu, 29 Jan 2026 09:09:49 -0000
-Message-Id: <176967778957.2055763.8934274277382924027@gitolite.kernel.org>
+Date: Thu, 29 Jan 2026 09:10:26 -0000
+Message-Id: <176967782676.2058486.3931406546302500086@gitolite.kernel.org>
 
---===============4958077268779911621==
+--===============9159160142393874436==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,36 +16,36 @@ repo: pub/scm/linux/kernel/git/vbabka/slab
 user: vbabka
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/slab/for-next
-    old: e4aef66f8d907019cddb0c88ce6e2c95cfb820ba
-    new: bfbf5520710369d96104ec7c5f557d89c5a8051c
+  - ref: refs/heads/slab/for-7.0/sheaves
+    old: 6f1912181ddfcf851a6670b4fa9c7dfdaf3ed46d
+    new: 40fd0acc45d06709b3b1eea77e50e13f4145dff0
     log: |
-         bfbf5520710369d96104ec7c5f557d89c5a8051c slub: avoid list_lock contention from __refill_objects_any()
+         40fd0acc45d06709b3b1eea77e50e13f4145dff0 slub: avoid list_lock contention from __refill_objects_any()
          
 
---===============4958077268779911621==
+--===============9159160142393874436==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher A940D434992C2E8E99103D50224FA7E7CC82A664 1769677785 +0100
+pusher A940D434992C2E8E99103D50224FA7E7CC82A664 1769677823 +0100
 pushee gitolite.kernel.org:pub/scm/linux/kernel/git/vbabka/slab.git
-nonce 1769677784-431047516042d6ae7997ae98becbe39e7a49bf99
+nonce 1769677822-26f9ab694fc5526e37947b8331fca7d6df758701
 
-e4aef66f8d907019cddb0c88ce6e2c95cfb820ba bfbf5520710369d96104ec7c5f557d89c5a8051c refs/heads/slab/for-next
+6f1912181ddfcf851a6670b4fa9c7dfdaf3ed46d 40fd0acc45d06709b3b1eea77e50e13f4145dff0 refs/heads/slab/for-7.0/sheaves
 -----BEGIN PGP SIGNATURE-----
 
-iQFPBAABCAA5FiEEe7vIQRWZI0iWSE3xu+CwddJFiJoFAml7I9kbFIAAAAAABAAO
-bWFudTIsMi41KzEuMTEsMiwyAAoJELvgsHXSRYiaiDQH/1xgBmwbpdZEeI8r/y8b
-nqgFYSM63uh9xIqkN63/M1XCNv/qKrWRBhG97wpN6fehYoWEP8pqttGfShhhS/FI
-KE3FWirPhPXqhFJkig/quYdtZvqufrwyXz+/ZdSWelUUsPe+40Csor8uw1mvUCc6
-SMr8niSJbHN/fOGbqTEkCG6JzIGk/1lzKrL08nMmjfbRXhcZ4IDFb8cfq7kwld/P
-6uWMRQ3DujC1tlQLPUr+Ie8GJGtDJPWANcAr3Odtcnsr2Ee4j+6h54j9U3OzXmV5
-1bO1W5tPYcuRVeCd7JTMYn/WEuX7F7/lKkbjzrypxtLM7VaUYFscoz96PHyHHJNT
-hoM=
-=huBQ
+iQFPBAABCAA5FiEEe7vIQRWZI0iWSE3xu+CwddJFiJoFAml7I/8bFIAAAAAABAAO
+bWFudTIsMi41KzEuMTEsMiwyAAoJELvgsHXSRYiaZM4H/1wkFopzl97fWJpk9Orc
+a5LwsNdzyS/YhhJayDi/PFZ1s9xC9f8Evha8sjGFx27ae21l+T4cZQu47fWgdf3U
+jrBnbQpav7Bq9ZNHTvkGCctpwt5HPVsr9Rg65x2YZN9JRisJ5yXZMoAiLvbeaOsq
+/nBRi/32/dCBV/37cf4v9d6PQQLY31pu7k3dquK7vF4AQXpNeJzFEV10ZJUVYuki
+YwAMOMaLuDn4+oGvl6K4oNKxWl0i9iBb/RueSBTcXOMrP3qnUm+QCN/MLpfT45iR
+iC2V89GGH9TPix+WDeLArOmLcCsgPhfhV3svWm0cDDUUmzpZiBV6YXqx/kxfU7NW
+DcY=
+=P77J
 -----END PGP SIGNATURE-----
 
---===============4958077268779911621==--
+--===============9159160142393874436==--
