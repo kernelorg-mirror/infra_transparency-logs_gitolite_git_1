@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============4300403951737172557=="
+Content-Type: multipart/mixed; boundary="===============4067148889378015129=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
-Date: Thu, 29 Jan 2026 00:41:49 -0000
-Message-Id: <176964730927.1597471.12707887434350329991@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
+Date: Thu, 29 Jan 2026 00:42:04 -0000
+Message-Id: <176964732452.1597813.8621437057973737539@gitolite.kernel.org>
 
---===============4300403951737172557==
+--===============4067148889378015129==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/perf/perf-tools-next
+repo: pub/scm/linux/kernel/git/acme/linux
 user: acme
 changes:
   - ref: refs/heads/perf-tools-next
@@ -20,7 +20,7 @@ changes:
     new: e205952db7717557f71f22baa96589f0a56d83c5
     log: revlist-297c9d96e308-e205952db771.txt
 
---===============4300403951737172557==
+--===============4067148889378015129==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -70,4 +70,4 @@ e74f72a7e21782332bb7b9541634199278f3461b perf jevents: Add mesh bandwidth satura
 82e53e7ae09a054b00cf3afdddf7c378351cf3e0 perf jevents: Add cycles breakdown metric for arm64/AMD/Intel
 e205952db7717557f71f22baa96589f0a56d83c5 perf jevents: Validate that all names given an Event
 
---===============4300403951737172557==--
+--===============4067148889378015129==--
