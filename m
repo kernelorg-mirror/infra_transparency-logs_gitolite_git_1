@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Thu, 29 Jan 2026 20:52:34 -0000
-Message-Id: <176971995406.2643238.17292367999338058003@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
+Date: Thu, 29 Jan 2026 20:56:14 -0000
+Message-Id: <176972017486.2646855.10447668049817235684@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-user: jarkko
+repo: pub/scm/linux/kernel/git/pci/pci
+user: helgaas
 changes:
-  - ref: refs/heads/vcam
-    old: f29b36ecc2e18e1d170008dd2401fea768fac4f0
-    new: 2bc5f6f64d556f944af445ad636fb877f071f0c7
-    log: |
-         2bc5f6f64d556f944af445ad636fb877f071f0c7 media: Virtual camera driver
-         
+  - ref: refs/heads/reset
+    old: 0000000000000000000000000000000000000000
+    new: 9419f4a45410a7df0fdf3d87261d5ee87063404a
