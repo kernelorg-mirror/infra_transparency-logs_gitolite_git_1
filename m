@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Thu, 29 Jan 2026 04:35:50 -0000
-Message-Id: <176966135066.1788081.2398582103402695107@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd-test
+Date: Thu, 29 Jan 2026 04:38:48 -0000
+Message-Id: <176966152843.1789093.14065163403840940416@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd-test
+user: jarkko
 changes:
   - ref: refs/heads/main
-    old: a62f7d62d2b115e67c7224e36ace4ef12a9650b4
-    new: 2aa1545ba8d4801fba5be83a404e28014b80196a
+    old: 90f92864a49134db1c168580bec57715ea6c20b6
+    new: 08b67c54d42fd8df823fa105116ffa670dc04bfd
     log: |
-         2aa1545ba8d4801fba5be83a404e28014b80196a net: phy: micrel: fix clk warning when removing the driver
+         08b67c54d42fd8df823fa105116ffa670dc04bfd Add test code for vcam driver
          
