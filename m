@@ -1,43 +1,29 @@
-Content-Type: multipart/mixed; boundary="===============8715791978475057313=="
+Content-Type: multipart/mixed; boundary="===============0591466935003974757=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next
-Date: Thu, 29 Jan 2026 16:39:41 -0000
-Message-Id: <176970478174.2421194.6567203743441720070@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next-history
+Date: Thu, 29 Jan 2026 16:39:56 -0000
+Message-Id: <176970479679.2421470.16812599590948873919@gitolite.kernel.org>
 
---===============8715791978475057313==
+--===============0591466935003974757==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/next/linux-next
+repo: pub/scm/linux/kernel/git/next/linux-next-history
 user: broonie
 changes:
   - ref: refs/heads/master
     old: 3f24e4edcd1b8981c6b448ea2680726dedd87279
     new: 33a647c659ffa5bdb94abc345c8c86768ff96215
     log: revlist-3f24e4edcd1b-33a647c659ff.txt
-  - ref: refs/heads/stable
-    old: 1f97d9dcf53649c41c33227b345a36902cbb08ad
-    new: 8dfce8991b95d8625d0a1d2896e42f93b9d7f68d
-    log: |
-         28f24068387169722b508bba6b5257cb68b86e74 pinctrl: meson: mark the GPIO controller as sleeping
-         1fbe3abb449c5ef2178e1c3e3e8b9a43a7a410ac pinctrl: qcom: sm8350-lpass-lpi: Merge with SC7280 to fix I2S2 and SWR TX pins
-         304c3ebcaff36560d76e3030ba0839e629635f47 pinctrl: th1520: Fix typo
-         4f0d22ec60cee420125f4055af76caa0f373a3fe pinctrl: lpass-lpi: implement .get_direction() for the GPIO driver
-         f58442788fdac580c49e0c42379fd32438cff6d7 dt-bindings: pinctrl: marvell,armada3710-xb-pinctrl: fix 'usb32_drvvbus0' group name
-         8dfce8991b95d8625d0a1d2896e42f93b9d7f68d Merge tag 'pinctrl-v6.19-3' of git://git.kernel.org/pub/scm/linux/kernel/git/linusw/linux-pinctrl
-         
-  - ref: refs/tags/next-20251029
-    old: c9a389ffad27e7847c69f4d2b67ba56b77190209
-    new: 0000000000000000000000000000000000000000
   - ref: refs/tags/next-20260129
     old: 0000000000000000000000000000000000000000
     new: 5d67b1f204472df70f7c7189c01fa405f3ccb503
 
---===============8715791978475057313==
+--===============0591466935003974757==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1068,4 +1054,4 @@ b8061ce80fa74cc6d1cadcd05a51fff738bd167e Merge branch 'for-next' of https://gith
 e9c4b94472e912e22a6041bcbb5cf35ffa46278d Merge branch 'for-next' of https://git.kernel.org/pub/scm/linux/kernel/git/frederic/linux-dynticks.git
 33a647c659ffa5bdb94abc345c8c86768ff96215 Add linux-next specific files for 20260129
 
---===============8715791978475057313==--
+--===============0591466935003974757==--
