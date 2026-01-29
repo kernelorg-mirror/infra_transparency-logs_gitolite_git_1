@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux
-Date: Thu, 29 Jan 2026 15:35:38 -0000
-Message-Id: <176970093856.2368391.16768930665625845143@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/abelloni/linux
+Date: Thu, 29 Jan 2026 15:42:17 -0000
+Message-Id: <176970133709.2372951.9670743620233454010@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux
-user: axboe
+repo: pub/scm/linux/kernel/git/abelloni/linux
+user: abelloni
 changes:
-  - ref: refs/heads/io_uring-waitwake
-    old: d568d0e2d31fc8c1188c8c40c6871a4d3ca1fca4
-    new: b61bdadbb92b35125ac0e1c7d3dbbb1b207a7c94
+  - ref: refs/heads/rtc-next
+    old: a380a02ea3ddc69c1c1ccca3882748dee33ec3d3
+    new: 1932db202c9326747c6046959284992ab4124bac
     log: |
-         b61bdadbb92b35125ac0e1c7d3dbbb1b207a7c94 io_uring/waitwake: add support for waiting and waiting
+         1932db202c9326747c6046959284992ab4124bac rtc: amlogic-a4: Remove IRQF_ONESHOT
          
