@@ -1,452 +1,567 @@
-Content-Type: multipart/mixed; boundary="===============3906058790309379234=="
+Content-Type: multipart/mixed; boundary="===============1603347085694714108=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/djwong/xfsprogs-dev
-Date: Thu, 29 Jan 2026 18:18:56 -0000
-Message-Id: <176971073673.2516177.4433199336490165866@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/djwong/xfstests-dev
+Date: Thu, 29 Jan 2026 18:20:17 -0000
+Message-Id: <176971081779.2519258.11715058855821826443@gitolite.kernel.org>
 
---===============3906058790309379234==
+--===============1603347085694714108==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/djwong/xfsprogs-dev
+repo: pub/scm/linux/kernel/git/djwong/xfstests-dev
 user: djwong
 changes:
-  - ref: refs/heads/attr-leaf-freemap-fixes
-    old: b7ff547dcefd8be9e00f0bb59c88aa57b94116e1
-    new: 2b0c6c8acbc887d342129b5db5a22e689ff00a0e
-    log: revlist-b7ff547dcefd-2b0c6c8acbc8.txt
-  - ref: refs/heads/attr-pptr-speedup
-    old: fc07cb13e4686d7eb1312d351adcd94ad6e859f0
-    new: be3f99ea1ee09a1fd136fee63170661236933d9e
-    log: revlist-fc07cb13e468-be3f99ea1ee0.txt
+  - ref: refs/heads/capture-mount-failures
+    old: 431fdf29336842d4879db96e8e800c87d8f1ec79
+    new: 99c968e67383d5ac39701965d4c13ca820cc6be7
+    log: revlist-431fdf293368-99c968e67383.txt
   - ref: refs/heads/djwong-wtf
-    old: 76e288a03098fc96779ec7dca1abe7a3eb5f9de5
-    new: 3a025d81e70a8798c9543cf686abf0c75a68312a
-    log: revlist-76e288a03098-3a025d81e70a.txt
+    old: 2c2680cefde2f3305caa594e9d9019c74b784063
+    new: e66ac6c97f1802fa825db538058ff2359c02574d
+    log: revlist-2c2680cefde2-e66ac6c97f18.txt
+  - ref: refs/heads/filesystem-error-reporting
+    old: 08b0aed861dc93ecec411a8cb24998fa6b2e84da
+    new: ae51e1cedb8d90b30a78f081f96a8f2c9fd7575d
+    log: revlist-08b0aed861dc-ae51e1cedb8d.txt
+  - ref: refs/heads/fuse2fs
+    old: ad5bdf3771b157235c0ed7d2d44736f270a5d6ac
+    new: 9718022e42b78e2c1ba1d7a07c2b3a39d6204154
+    log: revlist-ad5bdf3771b1-9718022e42b7.txt
+  - ref: refs/heads/fuzz-baseline
+    old: c05e8760ac99a6d92a0eb472bb1f146b1443e6f0
+    new: 7daed7228cdeb4c25078c7351c62cde4b46235fe
+    log: revlist-c05e8760ac99-7daed7228cde.txt
   - ref: refs/heads/health-monitoring
-    old: 7a484a9b9470900c477724b7a540b1e51081766b
-    new: 2cab51649fe8f38aefe63fb9e8e5f29e6d6423ce
-    log: revlist-7a484a9b9470-2cab51649fe8.txt
-  - ref: refs/heads/libxfs-6.19-sync
-    old: b3b15b3b068aee1841d62bbef1bcb31512983f7e
-    new: 0bbea776ef14eb1e3ac53f91083e5c2b73edc202
-    log: revlist-b3b15b3b068a-0bbea776ef14.txt
+    old: e7755007059258f2d3d2d9e497e84b176c0965f5
+    new: 295a7b49cb349c20def89243dd79cc7b7e4643fb
+    log: revlist-e77550070592-295a7b49cb34.txt
+  - ref: refs/heads/logwrites-fix-zeroing
+    old: 2c416d9da132829cfa89215aabe940f01ad1bb70
+    new: 332dd8902b5a95ba14b740ee8cdf80967646318b
+    log: revlist-2c416d9da132-332dd8902b5a.txt
+  - ref: refs/heads/master
+    old: 63a29724a85f1999e49bf0a9bf0d22643b6116e5
+    new: 69cd20bd0498f8d112623be88ce855c063091f19
+    log: revlist-63a29724a85f-69cd20bd0498.txt
   - ref: refs/heads/random-fixes
-    old: c227a7bd3afa0e7fee661ff25faecf0d2d36bf71
-    new: bfd25f74b45e5026de4450c08f980951c07c19f3
-    log: revlist-c227a7bd3afa-bfd25f74b45e.txt
+    old: 7cae4e17ec5e549e119496b89991efec119fcec2
+    new: 7495e645b091685d08a82fd540f520db2d3b01e1
+    log: revlist-7cae4e17ec5e-7495e645b091.txt
   - ref: refs/heads/upgrade-newer-features
-    old: 1cb7bbcc8d641720495e4549e241c2f86dc20762
-    new: 48b79dd6854270ab5b923bbd0a84822bfb47a4c0
-    log: revlist-1cb7bbcc8d64-48b79dd68542.txt
-  - ref: refs/tags/libxfs-6.19-sync_2026-01-29
-    old: 0000000000000000000000000000000000000000
-    new: b749318236f0603f6428dfdaad09a09d13e110e0
+    old: b18e6308b644338eea2130c235c835f665329aac
+    new: c84ea28704d8711658014abfb88e0e1ed6b2d106
+    log: revlist-b18e6308b644-c84ea28704d8.txt
+  - ref: refs/heads/upgrade-older-features
+    old: 9a785c325614303cb2d8e074efd1997380585154
+    new: ac9165df79a1ba019e8c76c41628285140c35382
+    log: revlist-9a785c325614-ac9165df79a1.txt
   - ref: refs/tags/random-fixes_2026-01-29
     old: 0000000000000000000000000000000000000000
-    new: 2ec48bbde501d3a917b0ab296916bad5c5a3c3e3
+    new: f6866c4e008f1595b94c0578883044b3e2b0ad6b
+  - ref: refs/tags/logwrites-fix-zeroing_2026-01-29
+    old: 0000000000000000000000000000000000000000
+    new: 9b9a9851e03565f06535ec9435f1b98fed1fe424
+  - ref: refs/tags/upgrade-older-features_2026-01-29
+    old: 0000000000000000000000000000000000000000
+    new: 5eb6f0de79f6f7869d7032839cfc4c9c92495950
+  - ref: refs/tags/capture-mount-failures_2026-01-29
+    old: 0000000000000000000000000000000000000000
+    new: b2c10c23826ca723244f6ae44217d4c0447a2cce
+  - ref: refs/tags/filesystem-error-reporting_2026-01-29
+    old: 0000000000000000000000000000000000000000
+    new: 769c11ee3bc5ea5ed3afdbb4eec2376be404db65
   - ref: refs/tags/health-monitoring_2026-01-29
     old: 0000000000000000000000000000000000000000
-    new: 1b641cb733864bb926cb2666f5108a591d02000f
-  - ref: refs/tags/attr-leaf-freemap-fixes_2026-01-29
-    old: 0000000000000000000000000000000000000000
-    new: a32684dec1cf48291865b6f80003714df8812591
-  - ref: refs/tags/attr-pptr-speedup_2026-01-29
-    old: 0000000000000000000000000000000000000000
-    new: 49541c3ff3e3f4084ef1c65b2b1776efa2464cb9
+    new: 527147ddb1bdd33ca4875fd458242333511fb9e0
   - ref: refs/tags/upgrade-newer-features_2026-01-29
     old: 0000000000000000000000000000000000000000
-    new: 04079a1dc2aa8acacc0d86380b74d1d22ff0afb4
+    new: 7ea18f4e1e752356e895fbc75d9e0a4ff8ac473d
+  - ref: refs/tags/fuse2fs_2026-01-29
+    old: 0000000000000000000000000000000000000000
+    new: 6447a36486a2051ddd56570c77d04e12cc2a6ae0
+  - ref: refs/tags/fuzz-baseline_2026-01-29
+    old: 0000000000000000000000000000000000000000
+    new: b2042555a0545c3eadc5e9925ed51da66b9a3db9
   - ref: refs/tags/djwong-wtf_2026-01-29
     old: 0000000000000000000000000000000000000000
-    new: 099a187342e5c601d917198ab34c923b14b9da59
+    new: e4b73fce343615be89091d48e6f674fb2cd1bd5a
 
---===============3906058790309379234==
+--===============1603347085694714108==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b7ff547dcefd-2b0c6c8acbc8.txt
+Content-Disposition: attachment; filename=revlist-431fdf293368-99c968e67383.txt
 
-354a46cd57d929667cab4183e64eed63bac2f2b1 xfs: error tag to force zeroing on debug kernels
-f6082e3da149f806f3b8a72d90cac86011b04e63 xfs: use blkdev_report_zones_cached()
-e22e40151d0276e1c7977f096ba4827d2a211879 xfs: add a xfs_groups_to_rfsbs helper
-0c1b82832e4869e0122f86a29790251541889ef0 xfs: use a lockref for the xfs_dquot reference count
-83df7348b4c58e4ef0e69e28a7150c8c5bc89572 xfs: add a XLOG_CYCLE_DATA_SIZE constant
-4c7f0a3db40414931c50563c4c9e101443db35d2 xfs: remove xlog_in_core_2_t
-47679f6d540dbe54d237f3183c5e99c7e9cb52a8 xfs: remove the xlog_rec_header_t typedef
-eae2ec3e4e695f2f2fd7bbd55aec76d29a3941e1 xfs: remove xarray mark for reclaimable zones
-771d731966bb03e4e737a92dedb267569afb950f xfs: validate that zoned RT devices are zone aligned
-c4ed5ea87999f3ae2c8f2aa544bfeca885c68438 xfs: mark __xfs_rtgroup_extents static
-56f28aa4c89768552b5b9e649d4485e118b3f5b7 xfs: fix an overly long line in xfs_rtgroup_calc_geometry
-0bbea776ef14eb1e3ac53f91083e5c2b73edc202 xfs: set max_agbno to allow sparse alloc of last full inode chunk
-e76fbb39f70233e48942f6bee9f08813dea47657 mkfs: set rtstart from user-specified dblocks
-9f3b6d39a9fcc75461cb580e0ea63c9381aea7a6 xfs_logprint: print log data to the screen in host-endian order
-27c2a01c75f3ed4d96a5890d00fe0749a3887cb2 mkfs: quiet down warning about insufficient write zones
-f8fe744f91aec26391311d056695565afa3dd215 xfs_mdrestore: fix restoration on filesystems with 4k sectors
-bfd25f74b45e5026de4450c08f980951c07c19f3 debian: don't explicitly reload systemd from postinst
-c66cd024f5ac57b3090f1fb71ee36889b13c3f4b xfs: create a special file to pass filesystem health to userspace
-9f4dd0f5dc620a37c861b9169dccebc1db4349bd xfs: create event queuing, formatting, and discovery infrastructure
-358d4710dc843760b5442897241524e983f125a2 xfs: report filesystem unmount events through healthmon
-6b963cb039f6c22bffa7c4134242faa08486f320 xfs: convey metadata health events to the health monitor
-86c67784b8aaf1d7b132aafc8c5a7e03b051fe29 xfs: report shutdown events through healthmon
-7411fd30363fed602ba557473a52041bd2336795 xfs: report media errors through healthmon
-95ff4d0a9096e61e042f15f4dba8e779d442e419 xfs: report file io errors through healthmon
-9a21c7206dd94685c63c9176d28ee1f00979a043 xfs: check if an open file is on the health monitored fs
-85d6ee8604eb826976435a8f424f1abab911d00b xfs: add media verification ioctl
-73900d57b577cafac502125f2c407db4944d70d1 libfrog: add a function to grab the path from an open fd and a file handle
-3a8126b34971d37d8e6019173de166da69716eb1 libfrog: create healthmon event log library functions
-1c9f1f6a1fb523027b7c4db11ab013681f46673f libfrog: add support code for starting systemd services programmatically
-f1869506ec0926e92cb7421461c720ae221c8d92 man2: document the healthmon ioctl
-cf7c26cc0e634d6726b9bfc2edfb9fc1df653836 man2: document the media verification ioctl
-88264376f7eba8414cb2a88ec00ed2004c47b335 xfs_io: monitor filesystem health events
-0ca29b40eb3574bac378b96c13972fe041ab605c xfs_io: add a media verify command
-6887a2922d8bb871ec6bb509799f27866a5bddc5 xfs_healer: create daemon to listen for health events
-d891509ce13227d910e8ac13f67825f006026a0a xfs_healer: enable repairing filesystems
-8f674142f8503184c34991c53e4a7e86c43640d3 xfs_healer: use getparents to look up file names
-b025469c149bf509616290ef9e51770ec582239c xfs_healer: create a per-mount background monitoring service
-fa0fb2c679729416d4cf9e8c935f6c7021e4c96d xfs_healer: create a service to start the per-mount healer service
-2c7e685a37aed9f7f745f32f6d3c2cebddb00647 xfs_healer: don't start service if kernel support unavailable
-6c07cd9ed8ba55ea12c002c4ef63cc2e39783c78 xfs_healer: use the autofsck fsproperty to select mode
-26a52c2216a6b6ab3715968291c3bb19b70f7a44 xfs_healer: run full scrub after lost corruption events or targeted repair failure
-df8f126677683f3d3d2c878813d9654a0c0c76de xfs_healer: use getmntent to find moved filesystems
-dc701304cbc105c2a116613f6183699652964d56 xfs_healer: validate that repair fds point to the monitored fs
-b501443b44d9c679bd4043ec1a7239bf97297a95 xfs_healer: add a manual page
-ce79248ee445afe13a6cd68ff227341ca1e80fd1 xfs_scrub: use the verify media ioctl during phase 6 if possible
-c30fc851733f81302cbf1699775937b014d39773 xfs_scrub: perform media scanning of the log region
-a86b71938f5acadb5b81c6ab402212c5f7325c23 xfs_io: add listmount command
-e202bb37aabfb86e8e473e6581b95d7f4999e52e debian: enable xfs_healer on the root filesystem by default
-2cab51649fe8f38aefe63fb9e8e5f29e6d6423ce debian/control: listify the build dependencies
-468d2ce140ea03c526bbb674245989c3e74db0f7 xfs: delete attr leaf freemap entries when empty
-f67472fcf074b4b9da16f7a5c3ab5852db1f738b xfs: fix freemap adjustments when adding xattrs to leaf blocks
-f8c9be3771a30bc63669cff35fc6549ee046851a xfs: refactor attr3 leaf table size computation
-2fde8213d2e5944d317e10b8fb9c7442b31d982f xfs: strengthen attr leaf block freemap checking
-2f71561650c7791154aae982ed247a71efa05b37 xfs_repair: actually check xattr leaf freemaps
-2b0c6c8acbc887d342129b5db5a22e689ff00a0e xfs_repair: handle incomplete xattrs less destructively
+8dad086a47019bf46a5b559efb382525324b9254 btrfs: test power failure after fsync and rename exchanging directories
+e0ded76267f99ecfeb3e27696489df98d75d7209 fsx: add missing -T option to getopt_long()
+a4dbdc5486b43294f73c44f62cc355cc3ed2458e generic/108: fix test hand upon failure to create LV
+facf3325d90dd6b650983b2cae2369c837d92bf8 xfstests: hfs/hfsplus don't support metadata journaling
+8d2e1bd3d2947689921c9496b3aebb3f2a09851c fstests: btrfs/131: add explicit v1 space cache requirement
+bc74aaf6859c097439530505dc25fc06dce77c9a fstests: btrfs: add a new test case that is future-proof
+725b08a6d61ad5f860198f8c67e09d34b9563954 generic/371: Fix the test to be compatible block sizes upto 64k
+42c2ccaf370065c15d2f26e99f502a62c1a7c7f7 ext4/307: allocate donor file size dynamically
+754368070ac5e548de9ad331bd686b61fa98e437 xfs/614: fix test for parent pointers
+096adc20b3df8f983727f3130c8cd9fd4fd221a6 f2fs/015: Test correct mkfs options for error cases
+31f7192f90a89a6f808a37c3a3cd30491bd50eba misc: allow zero duration for fsstress and fsx
+69cd20bd0498f8d112623be88ce855c063091f19 xfs: test reproducible builds
+482e0350d76d43ac60ba3ed86643ebd3f0efe1fb xfs/018: remove inline xattr recovery tests
+5c01578fc3c86c71b0438ecd1e333f6bb8cf4ab7 xfs/620: force xattr leaf format for this test
+7495e645b091685d08a82fd540f520db2d3b01e1 generic/749: don't write a ton of _mread output to seqres.full
+9034b913fc633546d1b3952aac4408eb8c0b2752 logwrites: warn if we don't think read after discard returns zeroes
+ecb7fdb1147cb9eb3d3509c91382a17d0b3f18d1 logwrites: use BLKZEROOUT if it's available
+332dd8902b5a95ba14b740ee8cdf80967646318b logwrites: only use BLKDISCARD if we know discard zeroes data
+ac9165df79a1ba019e8c76c41628285140c35382 xfs: test upgrading old features
+4f46b39a6e0285fe67359fc1ce872d9162b4a007 treewide: convert all $MOUNT_PROG to _mount
+99c968e67383d5ac39701965d4c13ca820cc6be7 check: capture dmesg of mount failures if test fails
 
---===============3906058790309379234==
+--===============1603347085694714108==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-fc07cb13e468-be3f99ea1ee0.txt
+Content-Disposition: attachment; filename=revlist-2c2680cefde2-e66ac6c97f18.txt
 
-354a46cd57d929667cab4183e64eed63bac2f2b1 xfs: error tag to force zeroing on debug kernels
-f6082e3da149f806f3b8a72d90cac86011b04e63 xfs: use blkdev_report_zones_cached()
-e22e40151d0276e1c7977f096ba4827d2a211879 xfs: add a xfs_groups_to_rfsbs helper
-0c1b82832e4869e0122f86a29790251541889ef0 xfs: use a lockref for the xfs_dquot reference count
-83df7348b4c58e4ef0e69e28a7150c8c5bc89572 xfs: add a XLOG_CYCLE_DATA_SIZE constant
-4c7f0a3db40414931c50563c4c9e101443db35d2 xfs: remove xlog_in_core_2_t
-47679f6d540dbe54d237f3183c5e99c7e9cb52a8 xfs: remove the xlog_rec_header_t typedef
-eae2ec3e4e695f2f2fd7bbd55aec76d29a3941e1 xfs: remove xarray mark for reclaimable zones
-771d731966bb03e4e737a92dedb267569afb950f xfs: validate that zoned RT devices are zone aligned
-c4ed5ea87999f3ae2c8f2aa544bfeca885c68438 xfs: mark __xfs_rtgroup_extents static
-56f28aa4c89768552b5b9e649d4485e118b3f5b7 xfs: fix an overly long line in xfs_rtgroup_calc_geometry
-0bbea776ef14eb1e3ac53f91083e5c2b73edc202 xfs: set max_agbno to allow sparse alloc of last full inode chunk
-e76fbb39f70233e48942f6bee9f08813dea47657 mkfs: set rtstart from user-specified dblocks
-9f3b6d39a9fcc75461cb580e0ea63c9381aea7a6 xfs_logprint: print log data to the screen in host-endian order
-27c2a01c75f3ed4d96a5890d00fe0749a3887cb2 mkfs: quiet down warning about insufficient write zones
-f8fe744f91aec26391311d056695565afa3dd215 xfs_mdrestore: fix restoration on filesystems with 4k sectors
-bfd25f74b45e5026de4450c08f980951c07c19f3 debian: don't explicitly reload systemd from postinst
-c66cd024f5ac57b3090f1fb71ee36889b13c3f4b xfs: create a special file to pass filesystem health to userspace
-9f4dd0f5dc620a37c861b9169dccebc1db4349bd xfs: create event queuing, formatting, and discovery infrastructure
-358d4710dc843760b5442897241524e983f125a2 xfs: report filesystem unmount events through healthmon
-6b963cb039f6c22bffa7c4134242faa08486f320 xfs: convey metadata health events to the health monitor
-86c67784b8aaf1d7b132aafc8c5a7e03b051fe29 xfs: report shutdown events through healthmon
-7411fd30363fed602ba557473a52041bd2336795 xfs: report media errors through healthmon
-95ff4d0a9096e61e042f15f4dba8e779d442e419 xfs: report file io errors through healthmon
-9a21c7206dd94685c63c9176d28ee1f00979a043 xfs: check if an open file is on the health monitored fs
-85d6ee8604eb826976435a8f424f1abab911d00b xfs: add media verification ioctl
-73900d57b577cafac502125f2c407db4944d70d1 libfrog: add a function to grab the path from an open fd and a file handle
-3a8126b34971d37d8e6019173de166da69716eb1 libfrog: create healthmon event log library functions
-1c9f1f6a1fb523027b7c4db11ab013681f46673f libfrog: add support code for starting systemd services programmatically
-f1869506ec0926e92cb7421461c720ae221c8d92 man2: document the healthmon ioctl
-cf7c26cc0e634d6726b9bfc2edfb9fc1df653836 man2: document the media verification ioctl
-88264376f7eba8414cb2a88ec00ed2004c47b335 xfs_io: monitor filesystem health events
-0ca29b40eb3574bac378b96c13972fe041ab605c xfs_io: add a media verify command
-6887a2922d8bb871ec6bb509799f27866a5bddc5 xfs_healer: create daemon to listen for health events
-d891509ce13227d910e8ac13f67825f006026a0a xfs_healer: enable repairing filesystems
-8f674142f8503184c34991c53e4a7e86c43640d3 xfs_healer: use getparents to look up file names
-b025469c149bf509616290ef9e51770ec582239c xfs_healer: create a per-mount background monitoring service
-fa0fb2c679729416d4cf9e8c935f6c7021e4c96d xfs_healer: create a service to start the per-mount healer service
-2c7e685a37aed9f7f745f32f6d3c2cebddb00647 xfs_healer: don't start service if kernel support unavailable
-6c07cd9ed8ba55ea12c002c4ef63cc2e39783c78 xfs_healer: use the autofsck fsproperty to select mode
-26a52c2216a6b6ab3715968291c3bb19b70f7a44 xfs_healer: run full scrub after lost corruption events or targeted repair failure
-df8f126677683f3d3d2c878813d9654a0c0c76de xfs_healer: use getmntent to find moved filesystems
-dc701304cbc105c2a116613f6183699652964d56 xfs_healer: validate that repair fds point to the monitored fs
-b501443b44d9c679bd4043ec1a7239bf97297a95 xfs_healer: add a manual page
-ce79248ee445afe13a6cd68ff227341ca1e80fd1 xfs_scrub: use the verify media ioctl during phase 6 if possible
-c30fc851733f81302cbf1699775937b014d39773 xfs_scrub: perform media scanning of the log region
-a86b71938f5acadb5b81c6ab402212c5f7325c23 xfs_io: add listmount command
-e202bb37aabfb86e8e473e6581b95d7f4999e52e debian: enable xfs_healer on the root filesystem by default
-2cab51649fe8f38aefe63fb9e8e5f29e6d6423ce debian/control: listify the build dependencies
-468d2ce140ea03c526bbb674245989c3e74db0f7 xfs: delete attr leaf freemap entries when empty
-f67472fcf074b4b9da16f7a5c3ab5852db1f738b xfs: fix freemap adjustments when adding xattrs to leaf blocks
-f8c9be3771a30bc63669cff35fc6549ee046851a xfs: refactor attr3 leaf table size computation
-2fde8213d2e5944d317e10b8fb9c7442b31d982f xfs: strengthen attr leaf block freemap checking
-2f71561650c7791154aae982ed247a71efa05b37 xfs_repair: actually check xattr leaf freemaps
-2b0c6c8acbc887d342129b5db5a22e689ff00a0e xfs_repair: handle incomplete xattrs less destructively
-dca5e2b69a20e599747735f0040e76d3ab28cd3a xfs: reduce xfs_attr_try_sf_addname parameters
-4687d9c56658a6768e66df9ac5cbd9a07a9ba895 xfs: speed up parent pointer operations when possible
-be3f99ea1ee09a1fd136fee63170661236933d9e xfs: add a method to replace shortform attrs
+8dad086a47019bf46a5b559efb382525324b9254 btrfs: test power failure after fsync and rename exchanging directories
+e0ded76267f99ecfeb3e27696489df98d75d7209 fsx: add missing -T option to getopt_long()
+a4dbdc5486b43294f73c44f62cc355cc3ed2458e generic/108: fix test hand upon failure to create LV
+facf3325d90dd6b650983b2cae2369c837d92bf8 xfstests: hfs/hfsplus don't support metadata journaling
+8d2e1bd3d2947689921c9496b3aebb3f2a09851c fstests: btrfs/131: add explicit v1 space cache requirement
+bc74aaf6859c097439530505dc25fc06dce77c9a fstests: btrfs: add a new test case that is future-proof
+725b08a6d61ad5f860198f8c67e09d34b9563954 generic/371: Fix the test to be compatible block sizes upto 64k
+42c2ccaf370065c15d2f26e99f502a62c1a7c7f7 ext4/307: allocate donor file size dynamically
+754368070ac5e548de9ad331bd686b61fa98e437 xfs/614: fix test for parent pointers
+096adc20b3df8f983727f3130c8cd9fd4fd221a6 f2fs/015: Test correct mkfs options for error cases
+31f7192f90a89a6f808a37c3a3cd30491bd50eba misc: allow zero duration for fsstress and fsx
+69cd20bd0498f8d112623be88ce855c063091f19 xfs: test reproducible builds
+482e0350d76d43ac60ba3ed86643ebd3f0efe1fb xfs/018: remove inline xattr recovery tests
+5c01578fc3c86c71b0438ecd1e333f6bb8cf4ab7 xfs/620: force xattr leaf format for this test
+7495e645b091685d08a82fd540f520db2d3b01e1 generic/749: don't write a ton of _mread output to seqres.full
+9034b913fc633546d1b3952aac4408eb8c0b2752 logwrites: warn if we don't think read after discard returns zeroes
+ecb7fdb1147cb9eb3d3509c91382a17d0b3f18d1 logwrites: use BLKZEROOUT if it's available
+332dd8902b5a95ba14b740ee8cdf80967646318b logwrites: only use BLKDISCARD if we know discard zeroes data
+ac9165df79a1ba019e8c76c41628285140c35382 xfs: test upgrading old features
+4f46b39a6e0285fe67359fc1ce872d9162b4a007 treewide: convert all $MOUNT_PROG to _mount
+99c968e67383d5ac39701965d4c13ca820cc6be7 check: capture dmesg of mount failures if test fails
+ae51e1cedb8d90b30a78f081f96a8f2c9fd7575d generic: test fsnotify filesystem error reporting
+2fa39cdac05d4c9dd128caf30e68c6cca65cdab1 xfs: test health monitoring code
+0fae711fe69116db4203f2305b76c2df61a7977b xfs: test for metadata corruption error reporting via healthmon
+2c0b54367f35c0ef95178cf43bb1fb6aa7de5aba xfs: test io error reporting via healthmon
+295a7b49cb349c20def89243dd79cc7b7e4643fb xfs: test new xfs_healer daemon
+e0596e4a4c63cc665538567af826824eb9ca7c58 xfs/1856: add metadir upgrade to test matrix
+4b87b880a042845df0ba94bef9d17c6d8b8711a6 xfs/1856: add rtrmapbt upgrade to test matrix
+44081b0baec7bdda1622210689ac3dcaba3ecc0b xfs/1856: add rtreflink upgrade to test matrix
+c84ea28704d8711658014abfb88e0e1ed6b2d106 xfs/1856: tweak need_metadir for zoned filesystems
+4db4981f091c163cabac5eb3ed9e9f60dd9b3768 misc: adapt tests to handle the fuse ext[234] drivers
+5b55a3d00f1c1db950348574d61978a11d3573ed generic/740: don't run this test for fuse ext* implementations
+6887107d0da3006ffe775025877ee040bac156c1 ext/052: use popdir.pl for much faster directory creation
+e381e8673b8cc125ce04f59b2a7012536bd1df5c common/rc: skip test if swapon doesn't work for ext*
+c4282a16055c0cdd41443cd3d0f1975ed372b515 common/rc: streamline _scratch_remount
+a82a1931506ccf1e739c116d24d6dae0d1b01c6a ext/039: require metadata journalling
+5bf67fcb69df0255950663ff15f6af7a5d3465ad populate: don't check for htree directories on fuse.ext4
+3fd154bf7e0c1cb659d65cfe4a493345f772f50e misc: convert _scratch_mount -o remount to _scratch_remount
+3396c36b7c952b7a2a37646e015e6b7de5895448 misc: use explicitly $FSTYP'd mount calls
+f7a39ef0b46862918cd4c3e09cc6af42d2dcee71 common/ext4: explicitly format with $FSTYP
+80d6091319b3ffce2ecf66599782ee130692009f tests/ext*: refactor open-coded _scratch_mkfs_sized calls
+54071bd2f8fe1d3f0b2ef702aa3124385daefb1d generic/732: disable for fuse.ext4
+ae1a6c53bbb7036775099ddea70c83c7253f26a6 defrag: fix ext4 defrag ioctl test
+fb2bb93f7737ea266b83a8487f9654c3e9556b30 misc: explicitly require online resize support
+4faa81384cc8d5d74d32cb354a629bac0dff91ef ext4/004: disable for fuse2fs
+5cdf6c5fbd1820aed56cc4f81dbfac15481f3f77 generic/679: disable for fuse2fs
+ff86753eb0e9e4835f52dc5cd950ca58e34fa0f9 ext4/045: don't run the long dirent test on fuse2fs
+1c37219db8a193f5e6bc64c70ae9229ff386aa74 generic/338: skip test if we can't mount with strictatime
+fa7c5f4adb1d36947cf6343740ff7c1de4487ac7 generic/563: fuse doesn't support cgroup-aware writeback accounting
+52f01a108f979b45814427f9713584db85b0cdab misc: use a larger buffer size for pwrites
+b587f87a57e88f9ead9469b9f583476eb5490582 ext4/046: don't run this test if dioread_nolock not supported
+908e5854d2adab72535808741681e074ffecb82d generic/631: don't run test if we can't mount overlayfs
+bd5ee0baaab9fddad9ab860505dbbb75188933b7 generic/{409,410,411,589}: check for stacking mount support
+da1858bcbdfb58a0bcee4bceae17104bab6423e9 generic: add _require_hardlinks to tests that require hardlinks
+079e553732b7667c230aeb8588d674326b441a99 ext4/001: check for fiemap support
+467a1c80ec40feceda80149b1c894e43fb3b5d3f generic/622: check that strictatime/lazytime actually work
+5a50ecb5a7d4c295eac3e93ced745fd92bb11465 generic/050: skip test because fuse2fs doesn't have stable output
+6e7f94e44a7b673ad6486830a79a45485ce1ffb3 generic/405: don't stall on mkfs asking for input
+1fb612c742b99cca04fc56da1d79a841d13c0dec ext4/006: fix this test
+12b582adb49da28838fd8e39b42a1605fd49b7df ext4/009: fix ENOSPC errors
+5028d415f572903aed018c56c9679cad1e2a7670 ext4/022: adjust to fuse2fs i_extra_size behavior
+61d6b671aa4e16eee82a0fb4c12df62a408947ff generic/730: adapt test for fuse filesystems
+9718022e42b78e2c1ba1d7a07c2b3a39d6204154 fuse2fs: hack around weird corruption problems
+a06837c982893c2b88ee726b9aeab4659f2ab326 xfs: online fuzz test known output
+f10b5711e0a89c4023efd1663582abe2744278b1 xfs: offline fuzz test known output
+c89e6c43e062a1a86b62229840da2970e07cc452 xfs: norepair fuzz test known output
+7daed7228cdeb4c25078c7351c62cde4b46235fe xfs: bothrepair fuzz test known output
+7570b7840770f2aa9125affdc326ecabe9965c61 debug some arm problem
+e1ee3433230d1fe262ba656aa4d244565e46cb20 generic/230: extend grace period to 6 seconds
+ac3cdf3fdf281e83eb10bea6ecbce831237a7b21 does this fix the writeback invalidation test on arm64?
+878429be74a46263b7ab8b32f872bec3c93b6ded force local definition until we stabilize abi
+efed212f324a4c712d970d049af29b41e9dffbb0 revert commit 790f4d8444fa4b ("xfs: new EOF fragmentation tests")
+e66ac6c97f1802fa825db538058ff2359c02574d selftest: add tests for dmesg and mount failure collection
 
---===============3906058790309379234==
+--===============1603347085694714108==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-76e288a03098-3a025d81e70a.txt
+Content-Disposition: attachment; filename=revlist-08b0aed861dc-ae51e1cedb8d.txt
 
-354a46cd57d929667cab4183e64eed63bac2f2b1 xfs: error tag to force zeroing on debug kernels
-f6082e3da149f806f3b8a72d90cac86011b04e63 xfs: use blkdev_report_zones_cached()
-e22e40151d0276e1c7977f096ba4827d2a211879 xfs: add a xfs_groups_to_rfsbs helper
-0c1b82832e4869e0122f86a29790251541889ef0 xfs: use a lockref for the xfs_dquot reference count
-83df7348b4c58e4ef0e69e28a7150c8c5bc89572 xfs: add a XLOG_CYCLE_DATA_SIZE constant
-4c7f0a3db40414931c50563c4c9e101443db35d2 xfs: remove xlog_in_core_2_t
-47679f6d540dbe54d237f3183c5e99c7e9cb52a8 xfs: remove the xlog_rec_header_t typedef
-eae2ec3e4e695f2f2fd7bbd55aec76d29a3941e1 xfs: remove xarray mark for reclaimable zones
-771d731966bb03e4e737a92dedb267569afb950f xfs: validate that zoned RT devices are zone aligned
-c4ed5ea87999f3ae2c8f2aa544bfeca885c68438 xfs: mark __xfs_rtgroup_extents static
-56f28aa4c89768552b5b9e649d4485e118b3f5b7 xfs: fix an overly long line in xfs_rtgroup_calc_geometry
-0bbea776ef14eb1e3ac53f91083e5c2b73edc202 xfs: set max_agbno to allow sparse alloc of last full inode chunk
-e76fbb39f70233e48942f6bee9f08813dea47657 mkfs: set rtstart from user-specified dblocks
-9f3b6d39a9fcc75461cb580e0ea63c9381aea7a6 xfs_logprint: print log data to the screen in host-endian order
-27c2a01c75f3ed4d96a5890d00fe0749a3887cb2 mkfs: quiet down warning about insufficient write zones
-f8fe744f91aec26391311d056695565afa3dd215 xfs_mdrestore: fix restoration on filesystems with 4k sectors
-bfd25f74b45e5026de4450c08f980951c07c19f3 debian: don't explicitly reload systemd from postinst
-c66cd024f5ac57b3090f1fb71ee36889b13c3f4b xfs: create a special file to pass filesystem health to userspace
-9f4dd0f5dc620a37c861b9169dccebc1db4349bd xfs: create event queuing, formatting, and discovery infrastructure
-358d4710dc843760b5442897241524e983f125a2 xfs: report filesystem unmount events through healthmon
-6b963cb039f6c22bffa7c4134242faa08486f320 xfs: convey metadata health events to the health monitor
-86c67784b8aaf1d7b132aafc8c5a7e03b051fe29 xfs: report shutdown events through healthmon
-7411fd30363fed602ba557473a52041bd2336795 xfs: report media errors through healthmon
-95ff4d0a9096e61e042f15f4dba8e779d442e419 xfs: report file io errors through healthmon
-9a21c7206dd94685c63c9176d28ee1f00979a043 xfs: check if an open file is on the health monitored fs
-85d6ee8604eb826976435a8f424f1abab911d00b xfs: add media verification ioctl
-73900d57b577cafac502125f2c407db4944d70d1 libfrog: add a function to grab the path from an open fd and a file handle
-3a8126b34971d37d8e6019173de166da69716eb1 libfrog: create healthmon event log library functions
-1c9f1f6a1fb523027b7c4db11ab013681f46673f libfrog: add support code for starting systemd services programmatically
-f1869506ec0926e92cb7421461c720ae221c8d92 man2: document the healthmon ioctl
-cf7c26cc0e634d6726b9bfc2edfb9fc1df653836 man2: document the media verification ioctl
-88264376f7eba8414cb2a88ec00ed2004c47b335 xfs_io: monitor filesystem health events
-0ca29b40eb3574bac378b96c13972fe041ab605c xfs_io: add a media verify command
-6887a2922d8bb871ec6bb509799f27866a5bddc5 xfs_healer: create daemon to listen for health events
-d891509ce13227d910e8ac13f67825f006026a0a xfs_healer: enable repairing filesystems
-8f674142f8503184c34991c53e4a7e86c43640d3 xfs_healer: use getparents to look up file names
-b025469c149bf509616290ef9e51770ec582239c xfs_healer: create a per-mount background monitoring service
-fa0fb2c679729416d4cf9e8c935f6c7021e4c96d xfs_healer: create a service to start the per-mount healer service
-2c7e685a37aed9f7f745f32f6d3c2cebddb00647 xfs_healer: don't start service if kernel support unavailable
-6c07cd9ed8ba55ea12c002c4ef63cc2e39783c78 xfs_healer: use the autofsck fsproperty to select mode
-26a52c2216a6b6ab3715968291c3bb19b70f7a44 xfs_healer: run full scrub after lost corruption events or targeted repair failure
-df8f126677683f3d3d2c878813d9654a0c0c76de xfs_healer: use getmntent to find moved filesystems
-dc701304cbc105c2a116613f6183699652964d56 xfs_healer: validate that repair fds point to the monitored fs
-b501443b44d9c679bd4043ec1a7239bf97297a95 xfs_healer: add a manual page
-ce79248ee445afe13a6cd68ff227341ca1e80fd1 xfs_scrub: use the verify media ioctl during phase 6 if possible
-c30fc851733f81302cbf1699775937b014d39773 xfs_scrub: perform media scanning of the log region
-a86b71938f5acadb5b81c6ab402212c5f7325c23 xfs_io: add listmount command
-e202bb37aabfb86e8e473e6581b95d7f4999e52e debian: enable xfs_healer on the root filesystem by default
-2cab51649fe8f38aefe63fb9e8e5f29e6d6423ce debian/control: listify the build dependencies
-468d2ce140ea03c526bbb674245989c3e74db0f7 xfs: delete attr leaf freemap entries when empty
-f67472fcf074b4b9da16f7a5c3ab5852db1f738b xfs: fix freemap adjustments when adding xattrs to leaf blocks
-f8c9be3771a30bc63669cff35fc6549ee046851a xfs: refactor attr3 leaf table size computation
-2fde8213d2e5944d317e10b8fb9c7442b31d982f xfs: strengthen attr leaf block freemap checking
-2f71561650c7791154aae982ed247a71efa05b37 xfs_repair: actually check xattr leaf freemaps
-2b0c6c8acbc887d342129b5db5a22e689ff00a0e xfs_repair: handle incomplete xattrs less destructively
-dca5e2b69a20e599747735f0040e76d3ab28cd3a xfs: reduce xfs_attr_try_sf_addname parameters
-4687d9c56658a6768e66df9ac5cbd9a07a9ba895 xfs: speed up parent pointer operations when possible
-be3f99ea1ee09a1fd136fee63170661236933d9e xfs: add a method to replace shortform attrs
-dd57733eab95bf8bacca3c9db5aa914ddfac4762 xfs_repair: allow sysadmins to add free inode btree indexes
-8fb10ae0886f39566caf3f86b6cbbb5f8ab6ae6a xfs_repair: allow sysadmins to add reflink
-a75fbd10d0498fe44dd534e98cf685201e14035b xfs_repair: allow sysadmins to add reverse mapping indexes
-5ce9cda39fdef9e3b3cd0c854ee34233bc337bb2 xfs_repair: upgrade an existing filesystem to have parent pointers
-be48ea7d30eb39c34e027f402951fe3f558987d7 xfs_repair: allow sysadmins to add metadata directories
-97adb56ce721f035ac1644f1ca489c03d0ae6c9a xfs_repair: upgrade filesystems to support rtgroups when adding metadir
-c5918f3428e32c2a2c55eeed7e6d0981b14ede3c xfs_repair: allow sysadmins to add realtime reverse mapping indexes
-424732e906cdfb6d08e4fa7d36b356c0d5ef62bf xfs_repair: allow sysadmins to add realtime reflink
-48ff9a3af0863307889ee485e12691de6cc537f1 xfs_repair: skip free space checks when upgrading
-48b79dd6854270ab5b923bbd0a84822bfb47a4c0 xfs_repair: allow adding rmapbt to reflink filesystems
-10c720339fdf332a87d5a4e6861e2c6002b889fb xfs_db: add merkle tree geometry calculations
-d0974b02600d6b06aa3f24e162133936cd454dd7 mkfs: allow specification of default options via configuration file
-7d4468b50d1a262a9dcee496dd6150608c95748e xfs: upgrade filesystem features
-0df4ea6942a4c01ae8b81691d6160f5938c7847e debug xfs/422 rmap shutdowns
-15abd00ff12c272686035af9d00b483ae3168a58 xfs_scrub: retry threaded phase4 repairs
-55cdc669d6ea782b479f293b392341eb38ba47f2 xfs_scrub: quiet down unicrash warnings about weird names
-c3dc1b4d289539224079bbb16fbd3f30799dd4f8 xfs_scrub: complain about case-insensitive names
-3a025d81e70a8798c9543cf686abf0c75a68312a xfs_scrub/healer: enable everything via a systemd preset file
+8dad086a47019bf46a5b559efb382525324b9254 btrfs: test power failure after fsync and rename exchanging directories
+e0ded76267f99ecfeb3e27696489df98d75d7209 fsx: add missing -T option to getopt_long()
+a4dbdc5486b43294f73c44f62cc355cc3ed2458e generic/108: fix test hand upon failure to create LV
+facf3325d90dd6b650983b2cae2369c837d92bf8 xfstests: hfs/hfsplus don't support metadata journaling
+8d2e1bd3d2947689921c9496b3aebb3f2a09851c fstests: btrfs/131: add explicit v1 space cache requirement
+bc74aaf6859c097439530505dc25fc06dce77c9a fstests: btrfs: add a new test case that is future-proof
+725b08a6d61ad5f860198f8c67e09d34b9563954 generic/371: Fix the test to be compatible block sizes upto 64k
+42c2ccaf370065c15d2f26e99f502a62c1a7c7f7 ext4/307: allocate donor file size dynamically
+754368070ac5e548de9ad331bd686b61fa98e437 xfs/614: fix test for parent pointers
+096adc20b3df8f983727f3130c8cd9fd4fd221a6 f2fs/015: Test correct mkfs options for error cases
+31f7192f90a89a6f808a37c3a3cd30491bd50eba misc: allow zero duration for fsstress and fsx
+69cd20bd0498f8d112623be88ce855c063091f19 xfs: test reproducible builds
+482e0350d76d43ac60ba3ed86643ebd3f0efe1fb xfs/018: remove inline xattr recovery tests
+5c01578fc3c86c71b0438ecd1e333f6bb8cf4ab7 xfs/620: force xattr leaf format for this test
+7495e645b091685d08a82fd540f520db2d3b01e1 generic/749: don't write a ton of _mread output to seqres.full
+9034b913fc633546d1b3952aac4408eb8c0b2752 logwrites: warn if we don't think read after discard returns zeroes
+ecb7fdb1147cb9eb3d3509c91382a17d0b3f18d1 logwrites: use BLKZEROOUT if it's available
+332dd8902b5a95ba14b740ee8cdf80967646318b logwrites: only use BLKDISCARD if we know discard zeroes data
+ac9165df79a1ba019e8c76c41628285140c35382 xfs: test upgrading old features
+4f46b39a6e0285fe67359fc1ce872d9162b4a007 treewide: convert all $MOUNT_PROG to _mount
+99c968e67383d5ac39701965d4c13ca820cc6be7 check: capture dmesg of mount failures if test fails
+ae51e1cedb8d90b30a78f081f96a8f2c9fd7575d generic: test fsnotify filesystem error reporting
 
---===============3906058790309379234==
+--===============1603347085694714108==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7a484a9b9470-2cab51649fe8.txt
+Content-Disposition: attachment; filename=revlist-ad5bdf3771b1-9718022e42b7.txt
 
-354a46cd57d929667cab4183e64eed63bac2f2b1 xfs: error tag to force zeroing on debug kernels
-f6082e3da149f806f3b8a72d90cac86011b04e63 xfs: use blkdev_report_zones_cached()
-e22e40151d0276e1c7977f096ba4827d2a211879 xfs: add a xfs_groups_to_rfsbs helper
-0c1b82832e4869e0122f86a29790251541889ef0 xfs: use a lockref for the xfs_dquot reference count
-83df7348b4c58e4ef0e69e28a7150c8c5bc89572 xfs: add a XLOG_CYCLE_DATA_SIZE constant
-4c7f0a3db40414931c50563c4c9e101443db35d2 xfs: remove xlog_in_core_2_t
-47679f6d540dbe54d237f3183c5e99c7e9cb52a8 xfs: remove the xlog_rec_header_t typedef
-eae2ec3e4e695f2f2fd7bbd55aec76d29a3941e1 xfs: remove xarray mark for reclaimable zones
-771d731966bb03e4e737a92dedb267569afb950f xfs: validate that zoned RT devices are zone aligned
-c4ed5ea87999f3ae2c8f2aa544bfeca885c68438 xfs: mark __xfs_rtgroup_extents static
-56f28aa4c89768552b5b9e649d4485e118b3f5b7 xfs: fix an overly long line in xfs_rtgroup_calc_geometry
-0bbea776ef14eb1e3ac53f91083e5c2b73edc202 xfs: set max_agbno to allow sparse alloc of last full inode chunk
-e76fbb39f70233e48942f6bee9f08813dea47657 mkfs: set rtstart from user-specified dblocks
-9f3b6d39a9fcc75461cb580e0ea63c9381aea7a6 xfs_logprint: print log data to the screen in host-endian order
-27c2a01c75f3ed4d96a5890d00fe0749a3887cb2 mkfs: quiet down warning about insufficient write zones
-f8fe744f91aec26391311d056695565afa3dd215 xfs_mdrestore: fix restoration on filesystems with 4k sectors
-bfd25f74b45e5026de4450c08f980951c07c19f3 debian: don't explicitly reload systemd from postinst
-c66cd024f5ac57b3090f1fb71ee36889b13c3f4b xfs: create a special file to pass filesystem health to userspace
-9f4dd0f5dc620a37c861b9169dccebc1db4349bd xfs: create event queuing, formatting, and discovery infrastructure
-358d4710dc843760b5442897241524e983f125a2 xfs: report filesystem unmount events through healthmon
-6b963cb039f6c22bffa7c4134242faa08486f320 xfs: convey metadata health events to the health monitor
-86c67784b8aaf1d7b132aafc8c5a7e03b051fe29 xfs: report shutdown events through healthmon
-7411fd30363fed602ba557473a52041bd2336795 xfs: report media errors through healthmon
-95ff4d0a9096e61e042f15f4dba8e779d442e419 xfs: report file io errors through healthmon
-9a21c7206dd94685c63c9176d28ee1f00979a043 xfs: check if an open file is on the health monitored fs
-85d6ee8604eb826976435a8f424f1abab911d00b xfs: add media verification ioctl
-73900d57b577cafac502125f2c407db4944d70d1 libfrog: add a function to grab the path from an open fd and a file handle
-3a8126b34971d37d8e6019173de166da69716eb1 libfrog: create healthmon event log library functions
-1c9f1f6a1fb523027b7c4db11ab013681f46673f libfrog: add support code for starting systemd services programmatically
-f1869506ec0926e92cb7421461c720ae221c8d92 man2: document the healthmon ioctl
-cf7c26cc0e634d6726b9bfc2edfb9fc1df653836 man2: document the media verification ioctl
-88264376f7eba8414cb2a88ec00ed2004c47b335 xfs_io: monitor filesystem health events
-0ca29b40eb3574bac378b96c13972fe041ab605c xfs_io: add a media verify command
-6887a2922d8bb871ec6bb509799f27866a5bddc5 xfs_healer: create daemon to listen for health events
-d891509ce13227d910e8ac13f67825f006026a0a xfs_healer: enable repairing filesystems
-8f674142f8503184c34991c53e4a7e86c43640d3 xfs_healer: use getparents to look up file names
-b025469c149bf509616290ef9e51770ec582239c xfs_healer: create a per-mount background monitoring service
-fa0fb2c679729416d4cf9e8c935f6c7021e4c96d xfs_healer: create a service to start the per-mount healer service
-2c7e685a37aed9f7f745f32f6d3c2cebddb00647 xfs_healer: don't start service if kernel support unavailable
-6c07cd9ed8ba55ea12c002c4ef63cc2e39783c78 xfs_healer: use the autofsck fsproperty to select mode
-26a52c2216a6b6ab3715968291c3bb19b70f7a44 xfs_healer: run full scrub after lost corruption events or targeted repair failure
-df8f126677683f3d3d2c878813d9654a0c0c76de xfs_healer: use getmntent to find moved filesystems
-dc701304cbc105c2a116613f6183699652964d56 xfs_healer: validate that repair fds point to the monitored fs
-b501443b44d9c679bd4043ec1a7239bf97297a95 xfs_healer: add a manual page
-ce79248ee445afe13a6cd68ff227341ca1e80fd1 xfs_scrub: use the verify media ioctl during phase 6 if possible
-c30fc851733f81302cbf1699775937b014d39773 xfs_scrub: perform media scanning of the log region
-a86b71938f5acadb5b81c6ab402212c5f7325c23 xfs_io: add listmount command
-e202bb37aabfb86e8e473e6581b95d7f4999e52e debian: enable xfs_healer on the root filesystem by default
-2cab51649fe8f38aefe63fb9e8e5f29e6d6423ce debian/control: listify the build dependencies
+8dad086a47019bf46a5b559efb382525324b9254 btrfs: test power failure after fsync and rename exchanging directories
+e0ded76267f99ecfeb3e27696489df98d75d7209 fsx: add missing -T option to getopt_long()
+a4dbdc5486b43294f73c44f62cc355cc3ed2458e generic/108: fix test hand upon failure to create LV
+facf3325d90dd6b650983b2cae2369c837d92bf8 xfstests: hfs/hfsplus don't support metadata journaling
+8d2e1bd3d2947689921c9496b3aebb3f2a09851c fstests: btrfs/131: add explicit v1 space cache requirement
+bc74aaf6859c097439530505dc25fc06dce77c9a fstests: btrfs: add a new test case that is future-proof
+725b08a6d61ad5f860198f8c67e09d34b9563954 generic/371: Fix the test to be compatible block sizes upto 64k
+42c2ccaf370065c15d2f26e99f502a62c1a7c7f7 ext4/307: allocate donor file size dynamically
+754368070ac5e548de9ad331bd686b61fa98e437 xfs/614: fix test for parent pointers
+096adc20b3df8f983727f3130c8cd9fd4fd221a6 f2fs/015: Test correct mkfs options for error cases
+31f7192f90a89a6f808a37c3a3cd30491bd50eba misc: allow zero duration for fsstress and fsx
+69cd20bd0498f8d112623be88ce855c063091f19 xfs: test reproducible builds
+482e0350d76d43ac60ba3ed86643ebd3f0efe1fb xfs/018: remove inline xattr recovery tests
+5c01578fc3c86c71b0438ecd1e333f6bb8cf4ab7 xfs/620: force xattr leaf format for this test
+7495e645b091685d08a82fd540f520db2d3b01e1 generic/749: don't write a ton of _mread output to seqres.full
+9034b913fc633546d1b3952aac4408eb8c0b2752 logwrites: warn if we don't think read after discard returns zeroes
+ecb7fdb1147cb9eb3d3509c91382a17d0b3f18d1 logwrites: use BLKZEROOUT if it's available
+332dd8902b5a95ba14b740ee8cdf80967646318b logwrites: only use BLKDISCARD if we know discard zeroes data
+ac9165df79a1ba019e8c76c41628285140c35382 xfs: test upgrading old features
+4f46b39a6e0285fe67359fc1ce872d9162b4a007 treewide: convert all $MOUNT_PROG to _mount
+99c968e67383d5ac39701965d4c13ca820cc6be7 check: capture dmesg of mount failures if test fails
+ae51e1cedb8d90b30a78f081f96a8f2c9fd7575d generic: test fsnotify filesystem error reporting
+2fa39cdac05d4c9dd128caf30e68c6cca65cdab1 xfs: test health monitoring code
+0fae711fe69116db4203f2305b76c2df61a7977b xfs: test for metadata corruption error reporting via healthmon
+2c0b54367f35c0ef95178cf43bb1fb6aa7de5aba xfs: test io error reporting via healthmon
+295a7b49cb349c20def89243dd79cc7b7e4643fb xfs: test new xfs_healer daemon
+e0596e4a4c63cc665538567af826824eb9ca7c58 xfs/1856: add metadir upgrade to test matrix
+4b87b880a042845df0ba94bef9d17c6d8b8711a6 xfs/1856: add rtrmapbt upgrade to test matrix
+44081b0baec7bdda1622210689ac3dcaba3ecc0b xfs/1856: add rtreflink upgrade to test matrix
+c84ea28704d8711658014abfb88e0e1ed6b2d106 xfs/1856: tweak need_metadir for zoned filesystems
+4db4981f091c163cabac5eb3ed9e9f60dd9b3768 misc: adapt tests to handle the fuse ext[234] drivers
+5b55a3d00f1c1db950348574d61978a11d3573ed generic/740: don't run this test for fuse ext* implementations
+6887107d0da3006ffe775025877ee040bac156c1 ext/052: use popdir.pl for much faster directory creation
+e381e8673b8cc125ce04f59b2a7012536bd1df5c common/rc: skip test if swapon doesn't work for ext*
+c4282a16055c0cdd41443cd3d0f1975ed372b515 common/rc: streamline _scratch_remount
+a82a1931506ccf1e739c116d24d6dae0d1b01c6a ext/039: require metadata journalling
+5bf67fcb69df0255950663ff15f6af7a5d3465ad populate: don't check for htree directories on fuse.ext4
+3fd154bf7e0c1cb659d65cfe4a493345f772f50e misc: convert _scratch_mount -o remount to _scratch_remount
+3396c36b7c952b7a2a37646e015e6b7de5895448 misc: use explicitly $FSTYP'd mount calls
+f7a39ef0b46862918cd4c3e09cc6af42d2dcee71 common/ext4: explicitly format with $FSTYP
+80d6091319b3ffce2ecf66599782ee130692009f tests/ext*: refactor open-coded _scratch_mkfs_sized calls
+54071bd2f8fe1d3f0b2ef702aa3124385daefb1d generic/732: disable for fuse.ext4
+ae1a6c53bbb7036775099ddea70c83c7253f26a6 defrag: fix ext4 defrag ioctl test
+fb2bb93f7737ea266b83a8487f9654c3e9556b30 misc: explicitly require online resize support
+4faa81384cc8d5d74d32cb354a629bac0dff91ef ext4/004: disable for fuse2fs
+5cdf6c5fbd1820aed56cc4f81dbfac15481f3f77 generic/679: disable for fuse2fs
+ff86753eb0e9e4835f52dc5cd950ca58e34fa0f9 ext4/045: don't run the long dirent test on fuse2fs
+1c37219db8a193f5e6bc64c70ae9229ff386aa74 generic/338: skip test if we can't mount with strictatime
+fa7c5f4adb1d36947cf6343740ff7c1de4487ac7 generic/563: fuse doesn't support cgroup-aware writeback accounting
+52f01a108f979b45814427f9713584db85b0cdab misc: use a larger buffer size for pwrites
+b587f87a57e88f9ead9469b9f583476eb5490582 ext4/046: don't run this test if dioread_nolock not supported
+908e5854d2adab72535808741681e074ffecb82d generic/631: don't run test if we can't mount overlayfs
+bd5ee0baaab9fddad9ab860505dbbb75188933b7 generic/{409,410,411,589}: check for stacking mount support
+da1858bcbdfb58a0bcee4bceae17104bab6423e9 generic: add _require_hardlinks to tests that require hardlinks
+079e553732b7667c230aeb8588d674326b441a99 ext4/001: check for fiemap support
+467a1c80ec40feceda80149b1c894e43fb3b5d3f generic/622: check that strictatime/lazytime actually work
+5a50ecb5a7d4c295eac3e93ced745fd92bb11465 generic/050: skip test because fuse2fs doesn't have stable output
+6e7f94e44a7b673ad6486830a79a45485ce1ffb3 generic/405: don't stall on mkfs asking for input
+1fb612c742b99cca04fc56da1d79a841d13c0dec ext4/006: fix this test
+12b582adb49da28838fd8e39b42a1605fd49b7df ext4/009: fix ENOSPC errors
+5028d415f572903aed018c56c9679cad1e2a7670 ext4/022: adjust to fuse2fs i_extra_size behavior
+61d6b671aa4e16eee82a0fb4c12df62a408947ff generic/730: adapt test for fuse filesystems
+9718022e42b78e2c1ba1d7a07c2b3a39d6204154 fuse2fs: hack around weird corruption problems
 
---===============3906058790309379234==
+--===============1603347085694714108==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b3b15b3b068a-0bbea776ef14.txt
+Content-Disposition: attachment; filename=revlist-c05e8760ac99-7daed7228cde.txt
 
-354a46cd57d929667cab4183e64eed63bac2f2b1 xfs: error tag to force zeroing on debug kernels
-f6082e3da149f806f3b8a72d90cac86011b04e63 xfs: use blkdev_report_zones_cached()
-e22e40151d0276e1c7977f096ba4827d2a211879 xfs: add a xfs_groups_to_rfsbs helper
-0c1b82832e4869e0122f86a29790251541889ef0 xfs: use a lockref for the xfs_dquot reference count
-83df7348b4c58e4ef0e69e28a7150c8c5bc89572 xfs: add a XLOG_CYCLE_DATA_SIZE constant
-4c7f0a3db40414931c50563c4c9e101443db35d2 xfs: remove xlog_in_core_2_t
-47679f6d540dbe54d237f3183c5e99c7e9cb52a8 xfs: remove the xlog_rec_header_t typedef
-eae2ec3e4e695f2f2fd7bbd55aec76d29a3941e1 xfs: remove xarray mark for reclaimable zones
-771d731966bb03e4e737a92dedb267569afb950f xfs: validate that zoned RT devices are zone aligned
-c4ed5ea87999f3ae2c8f2aa544bfeca885c68438 xfs: mark __xfs_rtgroup_extents static
-56f28aa4c89768552b5b9e649d4485e118b3f5b7 xfs: fix an overly long line in xfs_rtgroup_calc_geometry
-0bbea776ef14eb1e3ac53f91083e5c2b73edc202 xfs: set max_agbno to allow sparse alloc of last full inode chunk
+8dad086a47019bf46a5b559efb382525324b9254 btrfs: test power failure after fsync and rename exchanging directories
+e0ded76267f99ecfeb3e27696489df98d75d7209 fsx: add missing -T option to getopt_long()
+a4dbdc5486b43294f73c44f62cc355cc3ed2458e generic/108: fix test hand upon failure to create LV
+facf3325d90dd6b650983b2cae2369c837d92bf8 xfstests: hfs/hfsplus don't support metadata journaling
+8d2e1bd3d2947689921c9496b3aebb3f2a09851c fstests: btrfs/131: add explicit v1 space cache requirement
+bc74aaf6859c097439530505dc25fc06dce77c9a fstests: btrfs: add a new test case that is future-proof
+725b08a6d61ad5f860198f8c67e09d34b9563954 generic/371: Fix the test to be compatible block sizes upto 64k
+42c2ccaf370065c15d2f26e99f502a62c1a7c7f7 ext4/307: allocate donor file size dynamically
+754368070ac5e548de9ad331bd686b61fa98e437 xfs/614: fix test for parent pointers
+096adc20b3df8f983727f3130c8cd9fd4fd221a6 f2fs/015: Test correct mkfs options for error cases
+31f7192f90a89a6f808a37c3a3cd30491bd50eba misc: allow zero duration for fsstress and fsx
+69cd20bd0498f8d112623be88ce855c063091f19 xfs: test reproducible builds
+482e0350d76d43ac60ba3ed86643ebd3f0efe1fb xfs/018: remove inline xattr recovery tests
+5c01578fc3c86c71b0438ecd1e333f6bb8cf4ab7 xfs/620: force xattr leaf format for this test
+7495e645b091685d08a82fd540f520db2d3b01e1 generic/749: don't write a ton of _mread output to seqres.full
+9034b913fc633546d1b3952aac4408eb8c0b2752 logwrites: warn if we don't think read after discard returns zeroes
+ecb7fdb1147cb9eb3d3509c91382a17d0b3f18d1 logwrites: use BLKZEROOUT if it's available
+332dd8902b5a95ba14b740ee8cdf80967646318b logwrites: only use BLKDISCARD if we know discard zeroes data
+ac9165df79a1ba019e8c76c41628285140c35382 xfs: test upgrading old features
+4f46b39a6e0285fe67359fc1ce872d9162b4a007 treewide: convert all $MOUNT_PROG to _mount
+99c968e67383d5ac39701965d4c13ca820cc6be7 check: capture dmesg of mount failures if test fails
+ae51e1cedb8d90b30a78f081f96a8f2c9fd7575d generic: test fsnotify filesystem error reporting
+2fa39cdac05d4c9dd128caf30e68c6cca65cdab1 xfs: test health monitoring code
+0fae711fe69116db4203f2305b76c2df61a7977b xfs: test for metadata corruption error reporting via healthmon
+2c0b54367f35c0ef95178cf43bb1fb6aa7de5aba xfs: test io error reporting via healthmon
+295a7b49cb349c20def89243dd79cc7b7e4643fb xfs: test new xfs_healer daemon
+e0596e4a4c63cc665538567af826824eb9ca7c58 xfs/1856: add metadir upgrade to test matrix
+4b87b880a042845df0ba94bef9d17c6d8b8711a6 xfs/1856: add rtrmapbt upgrade to test matrix
+44081b0baec7bdda1622210689ac3dcaba3ecc0b xfs/1856: add rtreflink upgrade to test matrix
+c84ea28704d8711658014abfb88e0e1ed6b2d106 xfs/1856: tweak need_metadir for zoned filesystems
+4db4981f091c163cabac5eb3ed9e9f60dd9b3768 misc: adapt tests to handle the fuse ext[234] drivers
+5b55a3d00f1c1db950348574d61978a11d3573ed generic/740: don't run this test for fuse ext* implementations
+6887107d0da3006ffe775025877ee040bac156c1 ext/052: use popdir.pl for much faster directory creation
+e381e8673b8cc125ce04f59b2a7012536bd1df5c common/rc: skip test if swapon doesn't work for ext*
+c4282a16055c0cdd41443cd3d0f1975ed372b515 common/rc: streamline _scratch_remount
+a82a1931506ccf1e739c116d24d6dae0d1b01c6a ext/039: require metadata journalling
+5bf67fcb69df0255950663ff15f6af7a5d3465ad populate: don't check for htree directories on fuse.ext4
+3fd154bf7e0c1cb659d65cfe4a493345f772f50e misc: convert _scratch_mount -o remount to _scratch_remount
+3396c36b7c952b7a2a37646e015e6b7de5895448 misc: use explicitly $FSTYP'd mount calls
+f7a39ef0b46862918cd4c3e09cc6af42d2dcee71 common/ext4: explicitly format with $FSTYP
+80d6091319b3ffce2ecf66599782ee130692009f tests/ext*: refactor open-coded _scratch_mkfs_sized calls
+54071bd2f8fe1d3f0b2ef702aa3124385daefb1d generic/732: disable for fuse.ext4
+ae1a6c53bbb7036775099ddea70c83c7253f26a6 defrag: fix ext4 defrag ioctl test
+fb2bb93f7737ea266b83a8487f9654c3e9556b30 misc: explicitly require online resize support
+4faa81384cc8d5d74d32cb354a629bac0dff91ef ext4/004: disable for fuse2fs
+5cdf6c5fbd1820aed56cc4f81dbfac15481f3f77 generic/679: disable for fuse2fs
+ff86753eb0e9e4835f52dc5cd950ca58e34fa0f9 ext4/045: don't run the long dirent test on fuse2fs
+1c37219db8a193f5e6bc64c70ae9229ff386aa74 generic/338: skip test if we can't mount with strictatime
+fa7c5f4adb1d36947cf6343740ff7c1de4487ac7 generic/563: fuse doesn't support cgroup-aware writeback accounting
+52f01a108f979b45814427f9713584db85b0cdab misc: use a larger buffer size for pwrites
+b587f87a57e88f9ead9469b9f583476eb5490582 ext4/046: don't run this test if dioread_nolock not supported
+908e5854d2adab72535808741681e074ffecb82d generic/631: don't run test if we can't mount overlayfs
+bd5ee0baaab9fddad9ab860505dbbb75188933b7 generic/{409,410,411,589}: check for stacking mount support
+da1858bcbdfb58a0bcee4bceae17104bab6423e9 generic: add _require_hardlinks to tests that require hardlinks
+079e553732b7667c230aeb8588d674326b441a99 ext4/001: check for fiemap support
+467a1c80ec40feceda80149b1c894e43fb3b5d3f generic/622: check that strictatime/lazytime actually work
+5a50ecb5a7d4c295eac3e93ced745fd92bb11465 generic/050: skip test because fuse2fs doesn't have stable output
+6e7f94e44a7b673ad6486830a79a45485ce1ffb3 generic/405: don't stall on mkfs asking for input
+1fb612c742b99cca04fc56da1d79a841d13c0dec ext4/006: fix this test
+12b582adb49da28838fd8e39b42a1605fd49b7df ext4/009: fix ENOSPC errors
+5028d415f572903aed018c56c9679cad1e2a7670 ext4/022: adjust to fuse2fs i_extra_size behavior
+61d6b671aa4e16eee82a0fb4c12df62a408947ff generic/730: adapt test for fuse filesystems
+9718022e42b78e2c1ba1d7a07c2b3a39d6204154 fuse2fs: hack around weird corruption problems
+a06837c982893c2b88ee726b9aeab4659f2ab326 xfs: online fuzz test known output
+f10b5711e0a89c4023efd1663582abe2744278b1 xfs: offline fuzz test known output
+c89e6c43e062a1a86b62229840da2970e07cc452 xfs: norepair fuzz test known output
+7daed7228cdeb4c25078c7351c62cde4b46235fe xfs: bothrepair fuzz test known output
 
---===============3906058790309379234==
+--===============1603347085694714108==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c227a7bd3afa-bfd25f74b45e.txt
+Content-Disposition: attachment; filename=revlist-e77550070592-295a7b49cb34.txt
 
-354a46cd57d929667cab4183e64eed63bac2f2b1 xfs: error tag to force zeroing on debug kernels
-f6082e3da149f806f3b8a72d90cac86011b04e63 xfs: use blkdev_report_zones_cached()
-e22e40151d0276e1c7977f096ba4827d2a211879 xfs: add a xfs_groups_to_rfsbs helper
-0c1b82832e4869e0122f86a29790251541889ef0 xfs: use a lockref for the xfs_dquot reference count
-83df7348b4c58e4ef0e69e28a7150c8c5bc89572 xfs: add a XLOG_CYCLE_DATA_SIZE constant
-4c7f0a3db40414931c50563c4c9e101443db35d2 xfs: remove xlog_in_core_2_t
-47679f6d540dbe54d237f3183c5e99c7e9cb52a8 xfs: remove the xlog_rec_header_t typedef
-eae2ec3e4e695f2f2fd7bbd55aec76d29a3941e1 xfs: remove xarray mark for reclaimable zones
-771d731966bb03e4e737a92dedb267569afb950f xfs: validate that zoned RT devices are zone aligned
-c4ed5ea87999f3ae2c8f2aa544bfeca885c68438 xfs: mark __xfs_rtgroup_extents static
-56f28aa4c89768552b5b9e649d4485e118b3f5b7 xfs: fix an overly long line in xfs_rtgroup_calc_geometry
-0bbea776ef14eb1e3ac53f91083e5c2b73edc202 xfs: set max_agbno to allow sparse alloc of last full inode chunk
-e76fbb39f70233e48942f6bee9f08813dea47657 mkfs: set rtstart from user-specified dblocks
-9f3b6d39a9fcc75461cb580e0ea63c9381aea7a6 xfs_logprint: print log data to the screen in host-endian order
-27c2a01c75f3ed4d96a5890d00fe0749a3887cb2 mkfs: quiet down warning about insufficient write zones
-f8fe744f91aec26391311d056695565afa3dd215 xfs_mdrestore: fix restoration on filesystems with 4k sectors
-bfd25f74b45e5026de4450c08f980951c07c19f3 debian: don't explicitly reload systemd from postinst
+8dad086a47019bf46a5b559efb382525324b9254 btrfs: test power failure after fsync and rename exchanging directories
+e0ded76267f99ecfeb3e27696489df98d75d7209 fsx: add missing -T option to getopt_long()
+a4dbdc5486b43294f73c44f62cc355cc3ed2458e generic/108: fix test hand upon failure to create LV
+facf3325d90dd6b650983b2cae2369c837d92bf8 xfstests: hfs/hfsplus don't support metadata journaling
+8d2e1bd3d2947689921c9496b3aebb3f2a09851c fstests: btrfs/131: add explicit v1 space cache requirement
+bc74aaf6859c097439530505dc25fc06dce77c9a fstests: btrfs: add a new test case that is future-proof
+725b08a6d61ad5f860198f8c67e09d34b9563954 generic/371: Fix the test to be compatible block sizes upto 64k
+42c2ccaf370065c15d2f26e99f502a62c1a7c7f7 ext4/307: allocate donor file size dynamically
+754368070ac5e548de9ad331bd686b61fa98e437 xfs/614: fix test for parent pointers
+096adc20b3df8f983727f3130c8cd9fd4fd221a6 f2fs/015: Test correct mkfs options for error cases
+31f7192f90a89a6f808a37c3a3cd30491bd50eba misc: allow zero duration for fsstress and fsx
+69cd20bd0498f8d112623be88ce855c063091f19 xfs: test reproducible builds
+482e0350d76d43ac60ba3ed86643ebd3f0efe1fb xfs/018: remove inline xattr recovery tests
+5c01578fc3c86c71b0438ecd1e333f6bb8cf4ab7 xfs/620: force xattr leaf format for this test
+7495e645b091685d08a82fd540f520db2d3b01e1 generic/749: don't write a ton of _mread output to seqres.full
+9034b913fc633546d1b3952aac4408eb8c0b2752 logwrites: warn if we don't think read after discard returns zeroes
+ecb7fdb1147cb9eb3d3509c91382a17d0b3f18d1 logwrites: use BLKZEROOUT if it's available
+332dd8902b5a95ba14b740ee8cdf80967646318b logwrites: only use BLKDISCARD if we know discard zeroes data
+ac9165df79a1ba019e8c76c41628285140c35382 xfs: test upgrading old features
+4f46b39a6e0285fe67359fc1ce872d9162b4a007 treewide: convert all $MOUNT_PROG to _mount
+99c968e67383d5ac39701965d4c13ca820cc6be7 check: capture dmesg of mount failures if test fails
+ae51e1cedb8d90b30a78f081f96a8f2c9fd7575d generic: test fsnotify filesystem error reporting
+2fa39cdac05d4c9dd128caf30e68c6cca65cdab1 xfs: test health monitoring code
+0fae711fe69116db4203f2305b76c2df61a7977b xfs: test for metadata corruption error reporting via healthmon
+2c0b54367f35c0ef95178cf43bb1fb6aa7de5aba xfs: test io error reporting via healthmon
+295a7b49cb349c20def89243dd79cc7b7e4643fb xfs: test new xfs_healer daemon
 
---===============3906058790309379234==
+--===============1603347085694714108==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1cb7bbcc8d64-48b79dd68542.txt
+Content-Disposition: attachment; filename=revlist-2c416d9da132-332dd8902b5a.txt
 
-354a46cd57d929667cab4183e64eed63bac2f2b1 xfs: error tag to force zeroing on debug kernels
-f6082e3da149f806f3b8a72d90cac86011b04e63 xfs: use blkdev_report_zones_cached()
-e22e40151d0276e1c7977f096ba4827d2a211879 xfs: add a xfs_groups_to_rfsbs helper
-0c1b82832e4869e0122f86a29790251541889ef0 xfs: use a lockref for the xfs_dquot reference count
-83df7348b4c58e4ef0e69e28a7150c8c5bc89572 xfs: add a XLOG_CYCLE_DATA_SIZE constant
-4c7f0a3db40414931c50563c4c9e101443db35d2 xfs: remove xlog_in_core_2_t
-47679f6d540dbe54d237f3183c5e99c7e9cb52a8 xfs: remove the xlog_rec_header_t typedef
-eae2ec3e4e695f2f2fd7bbd55aec76d29a3941e1 xfs: remove xarray mark for reclaimable zones
-771d731966bb03e4e737a92dedb267569afb950f xfs: validate that zoned RT devices are zone aligned
-c4ed5ea87999f3ae2c8f2aa544bfeca885c68438 xfs: mark __xfs_rtgroup_extents static
-56f28aa4c89768552b5b9e649d4485e118b3f5b7 xfs: fix an overly long line in xfs_rtgroup_calc_geometry
-0bbea776ef14eb1e3ac53f91083e5c2b73edc202 xfs: set max_agbno to allow sparse alloc of last full inode chunk
-e76fbb39f70233e48942f6bee9f08813dea47657 mkfs: set rtstart from user-specified dblocks
-9f3b6d39a9fcc75461cb580e0ea63c9381aea7a6 xfs_logprint: print log data to the screen in host-endian order
-27c2a01c75f3ed4d96a5890d00fe0749a3887cb2 mkfs: quiet down warning about insufficient write zones
-f8fe744f91aec26391311d056695565afa3dd215 xfs_mdrestore: fix restoration on filesystems with 4k sectors
-bfd25f74b45e5026de4450c08f980951c07c19f3 debian: don't explicitly reload systemd from postinst
-c66cd024f5ac57b3090f1fb71ee36889b13c3f4b xfs: create a special file to pass filesystem health to userspace
-9f4dd0f5dc620a37c861b9169dccebc1db4349bd xfs: create event queuing, formatting, and discovery infrastructure
-358d4710dc843760b5442897241524e983f125a2 xfs: report filesystem unmount events through healthmon
-6b963cb039f6c22bffa7c4134242faa08486f320 xfs: convey metadata health events to the health monitor
-86c67784b8aaf1d7b132aafc8c5a7e03b051fe29 xfs: report shutdown events through healthmon
-7411fd30363fed602ba557473a52041bd2336795 xfs: report media errors through healthmon
-95ff4d0a9096e61e042f15f4dba8e779d442e419 xfs: report file io errors through healthmon
-9a21c7206dd94685c63c9176d28ee1f00979a043 xfs: check if an open file is on the health monitored fs
-85d6ee8604eb826976435a8f424f1abab911d00b xfs: add media verification ioctl
-73900d57b577cafac502125f2c407db4944d70d1 libfrog: add a function to grab the path from an open fd and a file handle
-3a8126b34971d37d8e6019173de166da69716eb1 libfrog: create healthmon event log library functions
-1c9f1f6a1fb523027b7c4db11ab013681f46673f libfrog: add support code for starting systemd services programmatically
-f1869506ec0926e92cb7421461c720ae221c8d92 man2: document the healthmon ioctl
-cf7c26cc0e634d6726b9bfc2edfb9fc1df653836 man2: document the media verification ioctl
-88264376f7eba8414cb2a88ec00ed2004c47b335 xfs_io: monitor filesystem health events
-0ca29b40eb3574bac378b96c13972fe041ab605c xfs_io: add a media verify command
-6887a2922d8bb871ec6bb509799f27866a5bddc5 xfs_healer: create daemon to listen for health events
-d891509ce13227d910e8ac13f67825f006026a0a xfs_healer: enable repairing filesystems
-8f674142f8503184c34991c53e4a7e86c43640d3 xfs_healer: use getparents to look up file names
-b025469c149bf509616290ef9e51770ec582239c xfs_healer: create a per-mount background monitoring service
-fa0fb2c679729416d4cf9e8c935f6c7021e4c96d xfs_healer: create a service to start the per-mount healer service
-2c7e685a37aed9f7f745f32f6d3c2cebddb00647 xfs_healer: don't start service if kernel support unavailable
-6c07cd9ed8ba55ea12c002c4ef63cc2e39783c78 xfs_healer: use the autofsck fsproperty to select mode
-26a52c2216a6b6ab3715968291c3bb19b70f7a44 xfs_healer: run full scrub after lost corruption events or targeted repair failure
-df8f126677683f3d3d2c878813d9654a0c0c76de xfs_healer: use getmntent to find moved filesystems
-dc701304cbc105c2a116613f6183699652964d56 xfs_healer: validate that repair fds point to the monitored fs
-b501443b44d9c679bd4043ec1a7239bf97297a95 xfs_healer: add a manual page
-ce79248ee445afe13a6cd68ff227341ca1e80fd1 xfs_scrub: use the verify media ioctl during phase 6 if possible
-c30fc851733f81302cbf1699775937b014d39773 xfs_scrub: perform media scanning of the log region
-a86b71938f5acadb5b81c6ab402212c5f7325c23 xfs_io: add listmount command
-e202bb37aabfb86e8e473e6581b95d7f4999e52e debian: enable xfs_healer on the root filesystem by default
-2cab51649fe8f38aefe63fb9e8e5f29e6d6423ce debian/control: listify the build dependencies
-468d2ce140ea03c526bbb674245989c3e74db0f7 xfs: delete attr leaf freemap entries when empty
-f67472fcf074b4b9da16f7a5c3ab5852db1f738b xfs: fix freemap adjustments when adding xattrs to leaf blocks
-f8c9be3771a30bc63669cff35fc6549ee046851a xfs: refactor attr3 leaf table size computation
-2fde8213d2e5944d317e10b8fb9c7442b31d982f xfs: strengthen attr leaf block freemap checking
-2f71561650c7791154aae982ed247a71efa05b37 xfs_repair: actually check xattr leaf freemaps
-2b0c6c8acbc887d342129b5db5a22e689ff00a0e xfs_repair: handle incomplete xattrs less destructively
-dca5e2b69a20e599747735f0040e76d3ab28cd3a xfs: reduce xfs_attr_try_sf_addname parameters
-4687d9c56658a6768e66df9ac5cbd9a07a9ba895 xfs: speed up parent pointer operations when possible
-be3f99ea1ee09a1fd136fee63170661236933d9e xfs: add a method to replace shortform attrs
-dd57733eab95bf8bacca3c9db5aa914ddfac4762 xfs_repair: allow sysadmins to add free inode btree indexes
-8fb10ae0886f39566caf3f86b6cbbb5f8ab6ae6a xfs_repair: allow sysadmins to add reflink
-a75fbd10d0498fe44dd534e98cf685201e14035b xfs_repair: allow sysadmins to add reverse mapping indexes
-5ce9cda39fdef9e3b3cd0c854ee34233bc337bb2 xfs_repair: upgrade an existing filesystem to have parent pointers
-be48ea7d30eb39c34e027f402951fe3f558987d7 xfs_repair: allow sysadmins to add metadata directories
-97adb56ce721f035ac1644f1ca489c03d0ae6c9a xfs_repair: upgrade filesystems to support rtgroups when adding metadir
-c5918f3428e32c2a2c55eeed7e6d0981b14ede3c xfs_repair: allow sysadmins to add realtime reverse mapping indexes
-424732e906cdfb6d08e4fa7d36b356c0d5ef62bf xfs_repair: allow sysadmins to add realtime reflink
-48ff9a3af0863307889ee485e12691de6cc537f1 xfs_repair: skip free space checks when upgrading
-48b79dd6854270ab5b923bbd0a84822bfb47a4c0 xfs_repair: allow adding rmapbt to reflink filesystems
+8dad086a47019bf46a5b559efb382525324b9254 btrfs: test power failure after fsync and rename exchanging directories
+e0ded76267f99ecfeb3e27696489df98d75d7209 fsx: add missing -T option to getopt_long()
+a4dbdc5486b43294f73c44f62cc355cc3ed2458e generic/108: fix test hand upon failure to create LV
+facf3325d90dd6b650983b2cae2369c837d92bf8 xfstests: hfs/hfsplus don't support metadata journaling
+8d2e1bd3d2947689921c9496b3aebb3f2a09851c fstests: btrfs/131: add explicit v1 space cache requirement
+bc74aaf6859c097439530505dc25fc06dce77c9a fstests: btrfs: add a new test case that is future-proof
+725b08a6d61ad5f860198f8c67e09d34b9563954 generic/371: Fix the test to be compatible block sizes upto 64k
+42c2ccaf370065c15d2f26e99f502a62c1a7c7f7 ext4/307: allocate donor file size dynamically
+754368070ac5e548de9ad331bd686b61fa98e437 xfs/614: fix test for parent pointers
+096adc20b3df8f983727f3130c8cd9fd4fd221a6 f2fs/015: Test correct mkfs options for error cases
+31f7192f90a89a6f808a37c3a3cd30491bd50eba misc: allow zero duration for fsstress and fsx
+69cd20bd0498f8d112623be88ce855c063091f19 xfs: test reproducible builds
+482e0350d76d43ac60ba3ed86643ebd3f0efe1fb xfs/018: remove inline xattr recovery tests
+5c01578fc3c86c71b0438ecd1e333f6bb8cf4ab7 xfs/620: force xattr leaf format for this test
+7495e645b091685d08a82fd540f520db2d3b01e1 generic/749: don't write a ton of _mread output to seqres.full
+9034b913fc633546d1b3952aac4408eb8c0b2752 logwrites: warn if we don't think read after discard returns zeroes
+ecb7fdb1147cb9eb3d3509c91382a17d0b3f18d1 logwrites: use BLKZEROOUT if it's available
+332dd8902b5a95ba14b740ee8cdf80967646318b logwrites: only use BLKDISCARD if we know discard zeroes data
 
---===============3906058790309379234==--
+--===============1603347085694714108==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-63a29724a85f-69cd20bd0498.txt
+
+8dad086a47019bf46a5b559efb382525324b9254 btrfs: test power failure after fsync and rename exchanging directories
+e0ded76267f99ecfeb3e27696489df98d75d7209 fsx: add missing -T option to getopt_long()
+a4dbdc5486b43294f73c44f62cc355cc3ed2458e generic/108: fix test hand upon failure to create LV
+facf3325d90dd6b650983b2cae2369c837d92bf8 xfstests: hfs/hfsplus don't support metadata journaling
+8d2e1bd3d2947689921c9496b3aebb3f2a09851c fstests: btrfs/131: add explicit v1 space cache requirement
+bc74aaf6859c097439530505dc25fc06dce77c9a fstests: btrfs: add a new test case that is future-proof
+725b08a6d61ad5f860198f8c67e09d34b9563954 generic/371: Fix the test to be compatible block sizes upto 64k
+42c2ccaf370065c15d2f26e99f502a62c1a7c7f7 ext4/307: allocate donor file size dynamically
+754368070ac5e548de9ad331bd686b61fa98e437 xfs/614: fix test for parent pointers
+096adc20b3df8f983727f3130c8cd9fd4fd221a6 f2fs/015: Test correct mkfs options for error cases
+31f7192f90a89a6f808a37c3a3cd30491bd50eba misc: allow zero duration for fsstress and fsx
+69cd20bd0498f8d112623be88ce855c063091f19 xfs: test reproducible builds
+
+--===============1603347085694714108==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-7cae4e17ec5e-7495e645b091.txt
+
+ffd562ecf44aff10b74c35c6f961614db5198ca9 punch-alternating: prevent punching all extents
+f02d4965d48f59f53a729e9ddd55fb8fcc373f85 generic: use _qmount_option and _qmount
+f4ec120ffd251564cc78d6d0dae78ca93cb5b648 xfs: add a test that zoned file systems with rump RTG can't be mounted
+960384aa2c46622dc0048f417a18be2d09166f83 xfs: test that RT growfs not aligned to zone size fails
+7e972aff4801afb44b9faea4a7598a311b887fc0 xfs: test that mkfs creates zone-aligned RT devices
+eb2ad950ea90d8d8d861f8beac138d6a19f0f819 dmflakey: override SCRATCH_DEV in _init_flakey
+5dbc7499a3b2e4a99c02c1b45c3a2d33d443a8b6 ext4/006: call e2fsck directly
+a63b4556fc740792188a56b2ae61afb6b02635ac common: add a _check_dev_fs helper
+cd74736e17949b32c6e680b8f83755f147558a6f ext4/032: use _check_dev_fs
+901f00980f0e0cc28d15e9a4865d1a58d8c35af5 generic/590: split XFS RT specific bits out
+255cb1f0dd6e9c604f01acc49b1d735916e80514 xfs/157: don't override SCRATCH_{,LOG,RT}DEV
+4460f5d01c7e6f1ac62fd9d62f7f9c300d998e6e xfs/185: don't use SCRATCH_{,RT}DEV helpers
+30ee67e320de8af77f28c96d280f34c606b54d6a xfs/424: don't use SCRATCH_DEV helpers
+0d89f8063ece5ece81d44acef2dbd51bc74f8ae5 xfs/521: require a real SCRATCH_RTDEV
+e157f480a308e0c9e4d8abcc8c3f6463c61905fc xfs/521: call _require_scratch_size
+70824203cb6827179236de0b37ea41123cbe462e xfs/528: require a real SCRATCH_RTDEV
+90f6065005e7feec44a0fa45785284df3a1b525d xfs/530: require a real SCRATCH_RTDEV
+cfb2146bc959fde3633bcec1ed53f359babea4cb xfs/650: require a real SCRATCH_RTDEV
+1a1521a039d43a106b301bef17267c82686ddf6a fstests: fix flaky device name in _cleanup_flakey
+36836607c9e79c9d18de5affcc05ce723ad16a7b check: put temporary files in TMPDIR, not /tmp
+d49e334213756882160117c27afa5c3b627760e6 common/rc: fix _xfs_is_realtime_file for internal rt devices
+fdc576ef62e27179e4b606e6b4797a1b38ea2f7a xfs/649: fix various problems
+fb14379b8dbcc96b58773934ed1e2e31288e6d96 MAINTAINERS: update entry for Anand Jain
+ad2b96dd66ef34798c83aef841930bf90797b874 xfs/490: fix failure due to deprecated ikeep mount option
+1da7f10cd89d3392f68cadf7c08f43107c9c0295 fstests: btrfs: add a new test case to verify quick qgroup inherit
+657410a19ab577a946d1d8ba94e0254b5a034ab1 fstests: generic/746: update the parser to handle block group tree
+80259c855ad782c66133e5ed06cf569857dd1f97 fstests: btrfs/301: use correct blocksize to fill the fs
+4c7968b86932ad2e8ae6fa480896ec7174dec9df fstests: btrfs/226: skip the test for bs > ps cases
+71131073bc76e4559b9689625687e063c4704ba9 common/quota: fix to wait for all inodes been evicted in _check_quota_usage()
+e45c90fedb0b6107ea73ee2812ce823f4f2a0f6e generic/020: limit xattr value by 3802 bytes
+63a29724a85f1999e49bf0a9bf0d22643b6116e5 xfstests: add HFS/HFS+ and NILFS2 into supported FS table
+8dad086a47019bf46a5b559efb382525324b9254 btrfs: test power failure after fsync and rename exchanging directories
+e0ded76267f99ecfeb3e27696489df98d75d7209 fsx: add missing -T option to getopt_long()
+a4dbdc5486b43294f73c44f62cc355cc3ed2458e generic/108: fix test hand upon failure to create LV
+facf3325d90dd6b650983b2cae2369c837d92bf8 xfstests: hfs/hfsplus don't support metadata journaling
+8d2e1bd3d2947689921c9496b3aebb3f2a09851c fstests: btrfs/131: add explicit v1 space cache requirement
+bc74aaf6859c097439530505dc25fc06dce77c9a fstests: btrfs: add a new test case that is future-proof
+725b08a6d61ad5f860198f8c67e09d34b9563954 generic/371: Fix the test to be compatible block sizes upto 64k
+42c2ccaf370065c15d2f26e99f502a62c1a7c7f7 ext4/307: allocate donor file size dynamically
+754368070ac5e548de9ad331bd686b61fa98e437 xfs/614: fix test for parent pointers
+096adc20b3df8f983727f3130c8cd9fd4fd221a6 f2fs/015: Test correct mkfs options for error cases
+31f7192f90a89a6f808a37c3a3cd30491bd50eba misc: allow zero duration for fsstress and fsx
+69cd20bd0498f8d112623be88ce855c063091f19 xfs: test reproducible builds
+482e0350d76d43ac60ba3ed86643ebd3f0efe1fb xfs/018: remove inline xattr recovery tests
+5c01578fc3c86c71b0438ecd1e333f6bb8cf4ab7 xfs/620: force xattr leaf format for this test
+7495e645b091685d08a82fd540f520db2d3b01e1 generic/749: don't write a ton of _mread output to seqres.full
+
+--===============1603347085694714108==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-b18e6308b644-c84ea28704d8.txt
+
+8dad086a47019bf46a5b559efb382525324b9254 btrfs: test power failure after fsync and rename exchanging directories
+e0ded76267f99ecfeb3e27696489df98d75d7209 fsx: add missing -T option to getopt_long()
+a4dbdc5486b43294f73c44f62cc355cc3ed2458e generic/108: fix test hand upon failure to create LV
+facf3325d90dd6b650983b2cae2369c837d92bf8 xfstests: hfs/hfsplus don't support metadata journaling
+8d2e1bd3d2947689921c9496b3aebb3f2a09851c fstests: btrfs/131: add explicit v1 space cache requirement
+bc74aaf6859c097439530505dc25fc06dce77c9a fstests: btrfs: add a new test case that is future-proof
+725b08a6d61ad5f860198f8c67e09d34b9563954 generic/371: Fix the test to be compatible block sizes upto 64k
+42c2ccaf370065c15d2f26e99f502a62c1a7c7f7 ext4/307: allocate donor file size dynamically
+754368070ac5e548de9ad331bd686b61fa98e437 xfs/614: fix test for parent pointers
+096adc20b3df8f983727f3130c8cd9fd4fd221a6 f2fs/015: Test correct mkfs options for error cases
+31f7192f90a89a6f808a37c3a3cd30491bd50eba misc: allow zero duration for fsstress and fsx
+69cd20bd0498f8d112623be88ce855c063091f19 xfs: test reproducible builds
+482e0350d76d43ac60ba3ed86643ebd3f0efe1fb xfs/018: remove inline xattr recovery tests
+5c01578fc3c86c71b0438ecd1e333f6bb8cf4ab7 xfs/620: force xattr leaf format for this test
+7495e645b091685d08a82fd540f520db2d3b01e1 generic/749: don't write a ton of _mread output to seqres.full
+9034b913fc633546d1b3952aac4408eb8c0b2752 logwrites: warn if we don't think read after discard returns zeroes
+ecb7fdb1147cb9eb3d3509c91382a17d0b3f18d1 logwrites: use BLKZEROOUT if it's available
+332dd8902b5a95ba14b740ee8cdf80967646318b logwrites: only use BLKDISCARD if we know discard zeroes data
+ac9165df79a1ba019e8c76c41628285140c35382 xfs: test upgrading old features
+4f46b39a6e0285fe67359fc1ce872d9162b4a007 treewide: convert all $MOUNT_PROG to _mount
+99c968e67383d5ac39701965d4c13ca820cc6be7 check: capture dmesg of mount failures if test fails
+ae51e1cedb8d90b30a78f081f96a8f2c9fd7575d generic: test fsnotify filesystem error reporting
+2fa39cdac05d4c9dd128caf30e68c6cca65cdab1 xfs: test health monitoring code
+0fae711fe69116db4203f2305b76c2df61a7977b xfs: test for metadata corruption error reporting via healthmon
+2c0b54367f35c0ef95178cf43bb1fb6aa7de5aba xfs: test io error reporting via healthmon
+295a7b49cb349c20def89243dd79cc7b7e4643fb xfs: test new xfs_healer daemon
+e0596e4a4c63cc665538567af826824eb9ca7c58 xfs/1856: add metadir upgrade to test matrix
+4b87b880a042845df0ba94bef9d17c6d8b8711a6 xfs/1856: add rtrmapbt upgrade to test matrix
+44081b0baec7bdda1622210689ac3dcaba3ecc0b xfs/1856: add rtreflink upgrade to test matrix
+c84ea28704d8711658014abfb88e0e1ed6b2d106 xfs/1856: tweak need_metadir for zoned filesystems
+
+--===============1603347085694714108==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-9a785c325614-ac9165df79a1.txt
+
+8dad086a47019bf46a5b559efb382525324b9254 btrfs: test power failure after fsync and rename exchanging directories
+e0ded76267f99ecfeb3e27696489df98d75d7209 fsx: add missing -T option to getopt_long()
+a4dbdc5486b43294f73c44f62cc355cc3ed2458e generic/108: fix test hand upon failure to create LV
+facf3325d90dd6b650983b2cae2369c837d92bf8 xfstests: hfs/hfsplus don't support metadata journaling
+8d2e1bd3d2947689921c9496b3aebb3f2a09851c fstests: btrfs/131: add explicit v1 space cache requirement
+bc74aaf6859c097439530505dc25fc06dce77c9a fstests: btrfs: add a new test case that is future-proof
+725b08a6d61ad5f860198f8c67e09d34b9563954 generic/371: Fix the test to be compatible block sizes upto 64k
+42c2ccaf370065c15d2f26e99f502a62c1a7c7f7 ext4/307: allocate donor file size dynamically
+754368070ac5e548de9ad331bd686b61fa98e437 xfs/614: fix test for parent pointers
+096adc20b3df8f983727f3130c8cd9fd4fd221a6 f2fs/015: Test correct mkfs options for error cases
+31f7192f90a89a6f808a37c3a3cd30491bd50eba misc: allow zero duration for fsstress and fsx
+69cd20bd0498f8d112623be88ce855c063091f19 xfs: test reproducible builds
+482e0350d76d43ac60ba3ed86643ebd3f0efe1fb xfs/018: remove inline xattr recovery tests
+5c01578fc3c86c71b0438ecd1e333f6bb8cf4ab7 xfs/620: force xattr leaf format for this test
+7495e645b091685d08a82fd540f520db2d3b01e1 generic/749: don't write a ton of _mread output to seqres.full
+9034b913fc633546d1b3952aac4408eb8c0b2752 logwrites: warn if we don't think read after discard returns zeroes
+ecb7fdb1147cb9eb3d3509c91382a17d0b3f18d1 logwrites: use BLKZEROOUT if it's available
+332dd8902b5a95ba14b740ee8cdf80967646318b logwrites: only use BLKDISCARD if we know discard zeroes data
+ac9165df79a1ba019e8c76c41628285140c35382 xfs: test upgrading old features
+
+--===============1603347085694714108==--
