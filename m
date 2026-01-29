@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8490280170352257607=="
+Content-Type: multipart/mixed; boundary="===============6693979724514922332=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netfilter/nf-next
-Date: Thu, 29 Jan 2026 16:27:34 -0000
-Message-Id: <176970405459.2411392.17600962701923944326@gitolite.kernel.org>
+Date: Thu, 29 Jan 2026 16:27:41 -0000
+Message-Id: <176970406139.2411618.14136160383648273980@gitolite.kernel.org>
 
---===============8490280170352257607==
+--===============6693979724514922332==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/netfilter/nf-next
 user: fwestphal
 changes:
-  - ref: refs/heads/testing
-    old: 000693f7e695b5337ad4af05ddca060b64268a89
-    new: 60ed777d98a9cbdffd3763fea3b7290d7b2994ed
-    log: revlist-000693f7e695-60ed777d98a9.txt
+  - ref: refs/heads/main
+    old: bf2e36c9dab95e41516fbcf7b1cc804539b2d021
+    new: e75e408dc524ba32b3bd66e89d2ba1e337877bfa
+    log: revlist-bf2e36c9dab9-e75e408dc524.txt
 
---===============8490280170352257607==
+--===============6693979724514922332==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-000693f7e695-60ed777d98a9.txt
+Content-Disposition: attachment; filename=revlist-bf2e36c9dab9-e75e408dc524.txt
 
 fb5b8f3c887067a925e021c148ae41bb88f4d22b ice: pass pointer to ice_fetch_u64_stats_per_ring
 b470944ee6e8f51c1d561899c045286b6c416b46 ice: remove ice_q_stats struct and use struct_group
@@ -110,8 +110,5 @@ d98103575dcdd3a730e0901ab457791a9ac6930c netfilter: flowtable: Add IP6IP6 rx sw 
 77fd1b4c6e084619beff1a55cb66e65c6a66615c netfilter: xt_time: use is_leap_year() helper
 e19079adcd26a25d7d3e586b1837493361fdf8b6 netfilter: nfnetlink_queue: optimize verdict lookup with hash table
 e75e408dc524ba32b3bd66e89d2ba1e337877bfa Merge tag 'nf-next-26-01-29' of https://git.kernel.org/pub/scm/linux/kernel/git/netfilter/nf-next
-65654ef38e8ca54a4df48cb74d479c26defb6c26 netfilter: nfnetlink_queue: do shared-unconfirmed check before segmentation
-2beed4ae9e8049a8b2f7cc764c02c0c30668358d selftests: netfilter: nft_queue.sh: add udp fraglist gro test case
-60ed777d98a9cbdffd3763fea3b7290d7b2994ed netfilter: nft_set_rbtree: don't gc elements on insert
 
---===============8490280170352257607==--
+--===============6693979724514922332==--
