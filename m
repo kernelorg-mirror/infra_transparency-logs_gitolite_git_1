@@ -1,22 +1,43 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tzungbi/chrome-platform
-Date: Thu, 29 Jan 2026 13:59:40 -0000
-Message-Id: <176969518073.2289469.15295164140149171957@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mst/vhost
+Date: Thu, 29 Jan 2026 14:08:10 -0000
+Message-Id: <176969569085.2297110.3104407078912199462@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tzungbi/chrome-platform
-user: tzungbi
+repo: pub/scm/linux/kernel/git/mst/vhost
+user: mst
 changes:
-  - ref: refs/heads/revocable
-    old: 0ced044b69af51bfbe46cb36d55765d6baffb7a5
-    new: e5d44c6c8b2e622e03e93eeac85a23e9e56def06
+  - ref: refs/heads/linux-next
+    old: 45dbbb43cedcbd6062702f76851dd64c6e25fcba
+    new: e601909b058587bb3d3cfa13d05e9bebb871f7b1
     log: |
-         ebae9143a5072895e8443c576a4f06e4d68bade3 revocable: Fix races in revocable_alloc() using RCU
-         99883b5b7f4daca9f1984d34d78acc1720fef741 revocable: Add KUnit test for provider lifetime races
-         a3d88a6127de50bb4a9cd67da7a9fe703fc324d8 revocable: Fix SRCU index corruption by removing heap allocation
-         e5d44c6c8b2e622e03e93eeac85a23e9e56def06 revocable: Add KUnit test for concurrent access
+         b381542686726cc6614fb0e4fc2adb939580c8a7 nvdimm: virtio_pmem: serialize flush requests
+         99711a9b663b380b196cedb3468dd9be3250bc43 vdpa/mlx5: update mlx_features with driver state check
+         06a3ece7da45f8bf7e8ca47da97c1e6aea9f1b81 vdpa/mlx5: reuse common function for MAC address updates
+         f0269b0e5e4b7336bf5c9b099db0207873f2b0db vdpa/mlx5: update MAC address handling in mlx5_vdpa_set_attr()
+         e601909b058587bb3d3cfa13d05e9bebb871f7b1 vhost: fix caching attributes of MMIO regions by setting them explicitly
+         
+  - ref: refs/heads/test
+    old: 45dbbb43cedcbd6062702f76851dd64c6e25fcba
+    new: e601909b058587bb3d3cfa13d05e9bebb871f7b1
+    log: |
+         b381542686726cc6614fb0e4fc2adb939580c8a7 nvdimm: virtio_pmem: serialize flush requests
+         99711a9b663b380b196cedb3468dd9be3250bc43 vdpa/mlx5: update mlx_features with driver state check
+         06a3ece7da45f8bf7e8ca47da97c1e6aea9f1b81 vdpa/mlx5: reuse common function for MAC address updates
+         f0269b0e5e4b7336bf5c9b099db0207873f2b0db vdpa/mlx5: update MAC address handling in mlx5_vdpa_set_attr()
+         e601909b058587bb3d3cfa13d05e9bebb871f7b1 vhost: fix caching attributes of MMIO regions by setting them explicitly
+         
+  - ref: refs/heads/vhost
+    old: 45dbbb43cedcbd6062702f76851dd64c6e25fcba
+    new: e601909b058587bb3d3cfa13d05e9bebb871f7b1
+    log: |
+         b381542686726cc6614fb0e4fc2adb939580c8a7 nvdimm: virtio_pmem: serialize flush requests
+         99711a9b663b380b196cedb3468dd9be3250bc43 vdpa/mlx5: update mlx_features with driver state check
+         06a3ece7da45f8bf7e8ca47da97c1e6aea9f1b81 vdpa/mlx5: reuse common function for MAC address updates
+         f0269b0e5e4b7336bf5c9b099db0207873f2b0db vdpa/mlx5: update MAC address handling in mlx5_vdpa_set_attr()
+         e601909b058587bb3d3cfa13d05e9bebb871f7b1 vhost: fix caching attributes of MMIO regions by setting them explicitly
          
