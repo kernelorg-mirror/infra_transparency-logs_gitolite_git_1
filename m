@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux
-Date: Thu, 29 Jan 2026 18:20:19 -0000
-Message-Id: <176971081917.2519362.2186237932217474828@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Thu, 29 Jan 2026 18:21:01 -0000
+Message-Id: <176971086142.2520235.4310170566050669118@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux
-user: axboe
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/io_uring-waitwake
-    old: a5a59d7e39fd02fb6ea517e387d8390d9100f2d3
-    new: 2fcc25d7fb42d19f99b7df5967bc3fe4878978f3
+  - ref: refs/heads/spi-6.20
+    old: 65ce1155f9275990b9a80e743d503909740e75af
+    new: da0a672268b34279aa999664860e6becc38f3f51
     log: |
-         2fcc25d7fb42d19f99b7df5967bc3fe4878978f3 io_uring/waitwake: add support for waiting and waiting
+         da0a672268b34279aa999664860e6becc38f3f51 spi: dw: Remove not-going-to-be-supported code for Baikal SoC
          
