@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Thu, 29 Jan 2026 04:32:50 -0000
-Message-Id: <176966117031.1784488.15222912675633295051@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Thu, 29 Jan 2026 04:35:50 -0000
+Message-Id: <176966135066.1788081.2398582103402695107@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-user: jarkko
+repo: pub/scm/linux/kernel/git/netdev/net
+user: kuba
 changes:
-  - ref: refs/heads/vcam
-    old: af5e226e9c3ff4706a684902f7ffbf1caf78a375
-    new: f29b36ecc2e18e1d170008dd2401fea768fac4f0
+  - ref: refs/heads/main
+    old: a62f7d62d2b115e67c7224e36ace4ef12a9650b4
+    new: 2aa1545ba8d4801fba5be83a404e28014b80196a
     log: |
-         f29b36ecc2e18e1d170008dd2401fea768fac4f0 media: Virtual camera driver
+         2aa1545ba8d4801fba5be83a404e28014b80196a net: phy: micrel: fix clk warning when removing the driver
          
