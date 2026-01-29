@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Thu, 29 Jan 2026 03:30:24 -0000
-Message-Id: <176965742435.1737437.14165351438210860897@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Thu, 29 Jan 2026 03:36:45 -0000
+Message-Id: <176965780544.1741785.4674561378151957296@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-user: jarkko
+repo: pub/scm/linux/kernel/git/netdev/net
+user: kuba
 changes:
-  - ref: refs/heads/vcam
-    old: bc77f4be8a92a351a87ce07b316e85e853cbf907
-    new: af5e226e9c3ff4706a684902f7ffbf1caf78a375
+  - ref: refs/heads/main
+    old: a040afa3bca415019d96a586b96b5f17b1f55a90
+    new: cc0cf10fdaeadf5542d64a55b5b4120d3df90b7d
     log: |
-         af5e226e9c3ff4706a684902f7ffbf1caf78a375 media: Virtual camera driver
+         d2492688bb9fed6ab6e313682c387ae71a66ebae nfc: nci: Fix race between rfkill and nci_unregister_device().
+         cc0cf10fdaeadf5542d64a55b5b4120d3df90b7d net: bridge: fix static key check
          
