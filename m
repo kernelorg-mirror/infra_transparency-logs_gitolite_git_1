@@ -1,52 +1,54 @@
-Content-Type: multipart/mixed; boundary="===============1683356915700664934=="
+Content-Type: multipart/mixed; boundary="===============8353280198180942709=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/wireless/wireless
-Date: Thu, 29 Jan 2026 11:03:33 -0000
-Message-Id: <176968461382.2149166.13434573824719920785@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Thu, 29 Jan 2026 11:12:08 -0000
+Message-Id: <176968512873.2156589.7057912775936177164@gitolite.kernel.org>
 
---===============1683356915700664934==
+--===============8353280198180942709==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/wireless/wireless
-user: jberg
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/broonie/sound
+user: broonie
+git_push_cert_status: G
 changes:
-  - ref: refs/tags/wireless-2026-01-29
-    old: 0000000000000000000000000000000000000000
-    new: 3f7d42149ee4c0f0eb5e41f1c49d60e8a2589a0b
+  - ref: refs/heads/for-6.20
+    old: 88340fc880cae6a2953a366aa6ad0900fd9830da
+    new: fc15f8a41e38d48937078643b31888f9d96f5afd
+    log: |
+         dc65b1ed4bb34ab6235ff2cc6a917b9295c04c2c regmap: Add reg_default_cb callback for flat cache defaults
+         70a65c53d228562cf0c8ae0f38c847d2a5dd59e6 regmap: add KUnit coverage for reg_default_cb callback
+         0ba6286a71581aaf8413a55b9bd90ea3463fd23b ASoC: tegra: Add AHUB writeable_reg for RX holes
+         9409d18bf7d58ab716337749e28e2caba0d64cb0 ASoC: tegra: set reg_default_cb callback
+         fc15f8a41e38d48937078643b31888f9d96f5afd regmap: reg_default_cb for flat cache defaults
+         
 
---===============1683356915700664934==
+--===============8353280198180942709==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 7BF9099A 1769684583 +0100
-pushee ssh+git://korg/pub/scm/linux/kernel/git/wireless/wireless.git
-nonce 1769684583-c5f5e4f0b4f06f12136ac6e2a369f66867e6c2a1
+pusher C3F436CA30F5D8EB 1769685126 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
+nonce 1769685125-1c124debcc0b8396cebf8053914b3141a737c4df
 
-0000000000000000000000000000000000000000 3f7d42149ee4c0f0eb5e41f1c49d60e8a2589a0b refs/tags/wireless-2026-01-29
+88340fc880cae6a2953a366aa6ad0900fd9830da fc15f8a41e38d48937078643b31888f9d96f5afd refs/heads/for-6.20
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCgAdFiEEpeA8sTs3M8SN2hR410qiO8sPaAAFAml7PmcACgkQ10qiO8sP
-aAD0YA/+OB9iHoPF8HoSASzktNKMEimUleF1EEfgctaoIJ79hNhivh4X0d023pGW
-1hmEJngIk6Fw5JFesit3fLhYeqiyzdH3R/o0eWG8fTit4OlOMQ8DjaO6lPXDqBRs
-3Ls25nekYkFNOTCEqY3A53wafczE4n50L+PKI3izsdrSwI1EQ6dXmHLrR/Gbi/23
-GCHP6NyrqH6z3WZ6priXy5SxIDm4FaHVnhDfRHg3H66GN/uy3HuzIvS6DHdVfUxU
-kZFkAZrJHefqj9UvcgWaC7MJrEoz2o8TndkBdb6tQ6wWR2qIXkPtNr/z6zfOtxGt
-0TF04/4OEImBBtl383LouBaA7y0zs0E/Ky4Mp9cYJ9yORfCXkO57b2ZnOXR654eW
-zzCH0Zf+yOpFwkJthOMDLxFeDRLvlu7Rfsom5UnLoAurPlYL3RaJYLrP14AwGXvC
-xlcVAnVKYJhLjBR33V/ff4BFaedzJpDUGPHAEyZdtpRH3SGqSay0P/Gpfc0V5Apz
-vhI9ua0IL9f+C49TvHXUpgy/DRzjCyyI4D22eSmLb/nD4t4FMf/3HoDU9EiIqmL6
-h9b0e3pQcP7RXkD0dDQtE5tkRGndefTeMr/2h/FZzYfiVEKHoYE3E5wcyXY00KXw
-eUTffSFyxz1qx4pOWEysbIAFh7OHaGtjuK9z0VSZ68jeEb/SO5o=
-=y1ws
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAml7QIYACgkQJNaLcl1U
+h9ALAAgAg8V/BZDnCiwNz8NftYCql6gB2vh1cyGp/Wzkp8DcATnHjlsadyhBIKS7
+uoJelOobtiwqSOVjTiGuJCL3L95uWi03N9E9uder76iiPrqkMbhnund58UhjWtqO
+XXm8JQHB7FQfQlnoion9py6Dr1wA2PE3TmCQ0cH2muiGg0eaL/As/COPvMy5l7Zk
+7F2Td3ORaOkToz1V4HYhoZYlqm9G/B2T8QtjsJTAAYaQ/1+5m3Ho5/RSSG7BZJXr
+UJAlXhV39SjWwiwzX2p9PoDppw96Behg7n/6qdaeaPa3XOghX/WL/1AQBxhUI6gt
+W0ueYx0S50csb/CmE3kThvpji8ja8w==
+=1bC2
 -----END PGP SIGNATURE-----
 
---===============1683356915700664934==--
+--===============8353280198180942709==--
