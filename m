@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/cip/linux-cip
-Date: Thu, 29 Jan 2026 08:50:19 -0000
-Message-Id: <176967661990.2013857.7640265531295738601@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
+Date: Thu, 29 Jan 2026 08:52:22 -0000
+Message-Id: <176967674207.2023005.6162374460443050435@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/cip/linux-cip
-user: uli
+repo: pub/scm/linux/kernel/git/soc/soc
+user: arnd
 changes:
-  - ref: refs/notes/signatures/tar
-    old: 9bc28e541ab36902b5dfbc4e16a15380c8a1c664
-    new: bd48e192bf6cd0263237ded7dbe4c17214d90517
-    log: |
-         bd48e192bf6cd0263237ded7dbe4c17214d90517 Notes added by 'git notes add'
-         
+  - ref: refs/heads/mediatek/defconfig
+    old: 0000000000000000000000000000000000000000
+    new: 81841b41a8bcd024f77a15d0634bc229d4d44db1
