@@ -1,20 +1,47 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Thu, 29 Jan 2026 12:27:26 -0000
-Message-Id: <176968964633.2217325.3980680131547700067@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============5553489399066282043=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+Date: Thu, 29 Jan 2026 12:39:09 -0000
+Message-Id: <176969034953.2225605.13129957939597621409@gitolite.kernel.org>
+
+--===============5553489399066282043==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: pabeni
+repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+user: ij
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/main
-    old: df8b9be3d41281e7bf5f14cd078be2c5c5cc7698
-    new: 0858206732250d24bb43b0e95beb50dffcbae665
+  - ref: refs/heads/review-ilpo-fixes
+    old: fe747d7112283f47169e9c16e751179a9b38611e
+    new: 008bec8ffe6e7746588d1e12c5b3865fa478fc91
     log: |
-         1eab33aa63c993685dd341e03bd5b267dd7403fa wifi: mac80211: correctly decode TTLM with default link map
-         0858206732250d24bb43b0e95beb50dffcbae665 Merge tag 'wireless-2026-01-29' of https://git.kernel.org/pub/scm/linux/kernel/git/wireless/wireless
+         6222883af286e2feb3c9ff2bf9fd8fdf4220c55a platform/x86: hp-bioscfg: Skip empty attribute names
+         008bec8ffe6e7746588d1e12c5b3865fa478fc91 platform/x86/intel/tpmi/plr: Make the file domain<n>/status writeable
          
+
+--===============5553489399066282043==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1769690347 +0200
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86.git
+nonce 1769690346-e287c7060a2c431abe6b9a5eef3a6f21b48ab305
+
+fe747d7112283f47169e9c16e751179a9b38611e 008bec8ffe6e7746588d1e12c5b3865fa478fc91 refs/heads/review-ilpo-fixes
+-----BEGIN PGP SIGNATURE-----
+
+iHUEABYIAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCaXtU7gAKCRBZrE9hU+XO
+MUHUAP0WcyyFzDWWHt0zMWIWFaAlhjWxIyMKjibwaJ1NFatj3gD/WhB0xx+vfYy7
+2cIiqdw6jhYKXzBMaTg5HruZFociXQo=
+=Itpd
+-----END PGP SIGNATURE-----
+
+--===============5553489399066282043==--
