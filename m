@@ -1,20 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs
-Date: Thu, 29 Jan 2026 09:41:45 -0000
-Message-Id: <176967970501.2085676.13885800819308985363@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/util-linux/util-linux
+Date: Thu, 29 Jan 2026 09:48:32 -0000
+Message-Id: <176968011262.2090301.4640602090520728490@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/xiang/erofs
-user: xiang
+repo: pub/scm/utils/util-linux/util-linux
+user: kzak
 changes:
-  - ref: refs/heads/dev
-    old: d86d7817c042dd651d47b1873f4b6eaefbedd890
-    new: 136ac9be862e943657b88c183f90c141de2684ef
+  - ref: refs/heads/master
+    old: 88c0438336319cef23cb829038f5989b1e5554b3
+    new: 648edd40d9067307771beb70812b2fe0e2c18b01
     log: |
-         1729f7c67544b31569836f48f142e8f7c0952b26 erofs: mark inodes without acls in erofs_read_inode()
-         136ac9be862e943657b88c183f90c141de2684ef erofs: use inode_set_cached_link()
+         2286e90983a4f65d29681f9e9b5941467c937abc tests: add a helper command, test_open_twice
+         b911b536828d62c661894841fcacdb34b9a07e52 lsfd: (bugfix) do not reuse stat(2) buffer for files with identical names
+         648edd40d9067307771beb70812b2fe0e2c18b01 Merge branch 'lsfd--dont-reuse-stat-buffer' of https://github.com/masatake/util-linux
          
