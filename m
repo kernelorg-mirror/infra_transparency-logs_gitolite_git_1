@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
-Date: Thu, 29 Jan 2026 22:54:08 -0000
-Message-Id: <176972724811.2740006.5250357733739959242@gitolite.kernel.org>
+Subject: post-receive: pub/scm/bluetooth/bluez
+Date: Thu, 29 Jan 2026 23:10:09 -0000
+Message-Id: <176972820922.2753990.7667037932608938755@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
-user: paulmck
+repo: pub/scm/bluetooth/bluez
+user: vudentz
 changes:
-  - ref: refs/heads/dev
-    old: 9dc8cf1e0badf4e0d8dbda42710d3224db4ca499
-    new: 754b2f169d2c6c184a9d66fd30fc7b7f3d0946c3
+  - ref: refs/heads/master
+    old: ebb33150ba76f3b20280bfd30e410bf45e052dc1
+    new: 358ab8994207ddbe601631dcf0725a939030463e
     log: |
-         754b2f169d2c6c184a9d66fd30fc7b7f3d0946c3 squash! EXP rcu/repro: Add generic reproducer torture-test module
+         358ab8994207ddbe601631dcf0725a939030463e client: Expand GATT submenu documentation
          
