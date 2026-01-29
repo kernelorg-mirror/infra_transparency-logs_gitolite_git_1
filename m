@@ -1,50 +1,48 @@
-Content-Type: multipart/mixed; boundary="===============6917254417880763126=="
+Content-Type: multipart/mixed; boundary="===============0256576817427280176=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/boqun/linux
-Date: Thu, 29 Jan 2026 15:59:44 -0000
-Message-Id: <176970238481.2386532.12684132210477440584@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
+Date: Thu, 29 Jan 2026 16:02:18 -0000
+Message-Id: <176970253847.2390006.13802089809850467347@gitolite.kernel.org>
 
---===============6917254417880763126==
+--===============0256576817427280176==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/boqun/linux
-user: boqun
+repo: pub/scm/linux/kernel/git/jic23/iio
+user: jic23
 changes:
-  - ref: refs/heads/rust-sync
-    old: d613169d01d07e14a2285bf61408298903b41d05
-    new: ec72dc631df0005c974fb6181367d6f4e9b63773
-    log: revlist-d613169d01d0-ec72dc631df0.txt
+  - ref: refs/heads/togreg
+    old: 4296b1fb54d65906911e677a0eb33471c626e799
+    new: f52690c50893ef1504990199c8a2dfbb869f38c6
+    log: revlist-4296b1fb54d6-f52690c50893.txt
 
---===============6917254417880763126==
+--===============0256576817427280176==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d613169d01d0-ec72dc631df0.txt
+Content-Disposition: attachment; filename=revlist-4296b1fb54d6-f52690c50893.txt
 
-e6de07249ef381b674f0d65adf9defcdab76b768 rust: sync: Replace `kernel::c_str!` with C-Strings
-944e3f7562c55fa37ebcdd58e5f60f296c81a854 tools: Update context analysis macros in compiler_types.h
-f88a31308db6a856229150039b0f56d59696ed31 seqlock: fix scoped_seqlock_read kernel-doc
-3b9ed30344a866f6f96896b3ce64303b9074682b cleanup: Make __DEFINE_LOCK_GUARD handle commas in initializers
-d084a73714f818ce509022e1aa9483cabf797c16 compiler-context-analysis: Introduce scoped init guards
-b7be9442a3758a27a4b09b75ad79f3626b16ec3d kcov: Use scoped init guard
-f39261f55b3ee58d85e96142763c25b945399b2f crypto: Use scoped init guard
-41539433b32d71aea9f7ada84dc6a8bd014ca50d tomoyo: Use scoped init guard
-b682b70d016f6aee20d91dcbaa319a932008a83a compiler-context-analysis: Remove __assume_ctx_lock from initializers
-6cace2a4f6d7b4c22193e3ca9ca0a2349714c56a rust: sync: atomic: Remove bound `T: Sync` for `Atomic::from_ptr()`
-1b03e2ba1d7b2aa8f9ade6bc55f6730b90937957 rust: sync: atomic: Add example for Atomic::get_mut()
-d3b753c42ae711bc491612f21ce70f83cf66aae7 rust: helpers: Generify the definitions of rust_helper_*_{read,set}*
-457c3beb16827fe2d44cef554c447a42cc561b13 rust: helpers: Generify the definitions of rust_helper_*_xchg*
-8e557e7269816f6bfa75a2eabd49c71b9a4a4100 rust: helpers: Generify the definitions of rust_helper_*_cmpxchg*
-c04fdd98753adc1a063816a8285b18d46a2393b6 rust: sync: atomic: Clarify the need of CONFIG_ARCH_SUPPORTS_ATOMIC_RMW
-43a337d307fe58bf80a2510c259deade4bb74dcc rust: sync: atomic: Add Atomic<*{mut,const} T> support
-75f0cc0d20adb69bcc432694af659d05039ed4ed rust: sync: atomic: Add perfromance-optimal Flag type for atomic booleans
-0836ae6d56ea8d1de0d8209913eaa09cbe4fb4c3 rust: list: Use AtomicFlag in AtomicTracker
-95d99af6e326a866159fbf2a2648aa34d1306838 rust: sync: atomic: Add atomic operation helpers over raw pointers
-ec72dc631df0005c974fb6181367d6f4e9b63773 rust: sync: rcu: Add RCU protected pointer
+88fd1f90792411226f49e5f285bf3faca5ac970b iio: core: Add and export __iio_dev_mode_lock()
+c37ec9d507966a827913f42e06179e3475a00181 iio: core: Refactor iio_device_claim_direct() implementation
+2daee817df13fb539be01a6a8094d52667d402f6 iio: core: Match iio_device_claim_*() semantics and implementation
+7a38b75da1dc38a8cd9563c41b87367b2475b975 iio: core: Add cleanup.h support for iio_device_claim_*()
+6a3fe0fc9e623352ccf65650cb31c4309f853d1d iio: light: vcnl4000: Use IIO cleanup helpers
+421ac0c231cd66bd8cd7fea6a7b79a59ea2f7f1a iio: health: max30102: Use IIO cleanup helpers
+8284a498541623414abc616450371b08f24a4aac iio: light: opt4060: Use IIO cleanup helpers
+2f55ae3a891e3fea38327a7abb2c1f3679e8543a dt-bindings: iio: adc: ad7768-1: add new supported parts
+fa087f5babbc24db76d5b24073216fa2d7d7b57d iio: adc: ad7768-1: introduce chip info for future multidevice support
+404a3b4c36f2e1987ff28d1d61d309292d2e33cb units: add conversion macros for percentage related units
+e7b0312c60a67431ad249b95c624b98fa782f33f iio: adc: ad7768-1: refactor ad7768_write_raw()
+ff085189cb1703b3be8176310545afbe544cd1f4 iio: adc: ad7768-1: add support for ADAQ776x-1 ADC Family
+b0913a44a9ae02f498682e6010b57f773e44f845 iio: pressure: mprls0025pa: remove error message
+c1b14015224cfcccd5356333763f2f4f401bd810 iio: accel: adxl380: Avoid reading more entries than present in FIFO
+6939484a425a87d3d8fd168f721d9cf8a0fa86dd iio: accel: adxl380: Optimize reading of FIFO entries in interrupt handler
+b010880b9936da14f8035585ab57577aa05be23a drivers: iio: mpu3050: use dev_err_probe for regulator request
+2f7bc8f01a9ba4ba4b1521e53a8c23b21a4c04e8 dt-bindings: iio: dac: Add max22007
+f52690c50893ef1504990199c8a2dfbb869f38c6 iio: dac: Add MAX22007 DAC driver support
 
---===============6917254417880763126==--
+--===============0256576817427280176==--
