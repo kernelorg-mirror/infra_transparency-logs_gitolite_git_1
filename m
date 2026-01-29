@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs
-Date: Thu, 29 Jan 2026 03:02:26 -0000
-Message-Id: <176965574698.1715375.1598164335662789883@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+Date: Thu, 29 Jan 2026 03:08:07 -0000
+Message-Id: <176965608793.1719490.17770858026758420210@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/xiang/erofs
-user: xiang
+repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+user: jarkko
 changes:
-  - ref: refs/heads/dev-test
-    old: 713acdda5f818fb4f2286238a4f9f1f5f519b9da
-    new: 6a2fcaba34dad6fab4d56aa9f24bf3573801bdad
+  - ref: refs/heads/vcam
+    old: 2c5011ab5021e74267bd7a11ddc430a9207b6a43
+    new: bc77f4be8a92a351a87ce07b316e85e853cbf907
     log: |
-         6a2fcaba34dad6fab4d56aa9f24bf3573801bdad erofs: separate plain and compressed filesystems formally
+         bc77f4be8a92a351a87ce07b316e85e853cbf907 media: Virtual camera driver
          
