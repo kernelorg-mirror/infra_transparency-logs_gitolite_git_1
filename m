@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2976164601758524743=="
+Content-Type: multipart/mixed; boundary="===============7815848241759938449=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Thu, 29 Jan 2026 18:29:12 -0000
-Message-Id: <176971135267.2528030.7998152220845715370@gitolite.kernel.org>
+Date: Thu, 29 Jan 2026 18:29:15 -0000
+Message-Id: <176971135526.2528247.10319108417896907262@gitolite.kernel.org>
 
---===============2976164601758524743==
+--===============7815848241759938449==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,22 +15,21 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/10GbE
-    old: 05faf2c0a76581d0a7fdbb8ec46477ba183df95b
+  - ref: refs/heads/40GbE
+    old: a040afa3bca415019d96a586b96b5f17b1f55a90
     new: 426ca15c7f6cb6562a081341ca88893a50c59fa2
-    log: revlist-05faf2c0a765-426ca15c7f6c.txt
+    log: revlist-a040afa3bca4-426ca15c7f6c.txt
 
---===============2976164601758524743==
+--===============7815848241759938449==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-05faf2c0a765-426ca15c7f6c.txt
+Content-Disposition: attachment; filename=revlist-a040afa3bca4-426ca15c7f6c.txt
 
-2ae8c7edea87f54609bda30963a099cd3c64b0bb net/mlx5: Fix Unbinding uplink-netdev in switchdev mode
-f67666938ae626cbda63fbf5176b3583c07e7124 net/mlx5e: TC, delete flows only for existing peers
-476681f10cc1e0e56e26856684e75d4678b072b2 net/mlx5e: Account for netdev stats in ndo_get_stats64
-d32ba904a450633429eff08046a7a8e258b85add Merge branch 'mlx5-misc-fixes-2026-01-26'
-a040afa3bca415019d96a586b96b5f17b1f55a90 gve: fix probe failure if clock read fails
+638344712aefeba97b6e0d90f560815fd88abd0f ixgbe: fix memory leaks in the ixgbe_recovery_probe() path
+100cf7b4ca6ed770ec4287f3789b1da2e340a05a ixgbe: don't initialize aci lock in ixgbe_recovery_probe()
+9bb30be4d89ff9a8d7ab1aa0eb2edaca83431f85 ice: Fix NULL pointer dereference in ice_vsi_set_napi_queues
+05faf2c0a76581d0a7fdbb8ec46477ba183df95b ice: stop counting UDP csum mismatch as rx_errors
 d2492688bb9fed6ab6e313682c387ae71a66ebae nfc: nci: Fix race between rfkill and nci_unregister_device().
 cc0cf10fdaeadf5542d64a55b5b4120d3df90b7d net: bridge: fix static key check
 2b73e754389d32063c36b5a6a990161063653ef6 Merge branch '10GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/net-queue
@@ -50,4 +49,4 @@ df8b9be3d41281e7bf5f14cd078be2c5c5cc7698 Merge branch 'mptcp-avoid-dup-nl-events
 0858206732250d24bb43b0e95beb50dffcbae665 Merge tag 'wireless-2026-01-29' of https://git.kernel.org/pub/scm/linux/kernel/git/wireless/wireless
 426ca15c7f6cb6562a081341ca88893a50c59fa2 net: fix segmentation of forwarding fraglist GRO
 
---===============2976164601758524743==--
+--===============7815848241759938449==--
