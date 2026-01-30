@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jpoimboe/linux
-Date: Fri, 30 Jan 2026 21:27:57 -0000
-Message-Id: <176980847780.4022470.6509712104237270034@gitolite.kernel.org>
+Date: Fri, 30 Jan 2026 21:29:06 -0000
+Message-Id: <176980854670.4023026.15488088185512831260@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,9 +12,9 @@ repo: pub/scm/linux/kernel/git/jpoimboe/linux
 user: jpoimboe
 changes:
   - ref: refs/heads/objtool/urgent
-    old: bebe0857f43a6ac241a986f9e6e006ed6785e1d5
-    new: 9e727ac191e5aedc358ba5ed3c8be6ed2bd7eb07
+    old: 9e727ac191e5aedc358ba5ed3c8be6ed2bd7eb07
+    new: 3243eba144c8c9bac7c7dc6cfeacd137e3dc86ec
     log: |
-         6b961f47c66e10bc257f2e67ee92620d56332280 livepatch: Fix having __klp_objects relocs in non-livepatch modules
-         9e727ac191e5aedc358ba5ed3c8be6ed2bd7eb07 livepatch: Free klp_{object,func}_ext data after initialization
+         ca24b04e2f48682a4db127066f4c8291ac38d963 livepatch: Fix having __klp_objects relics in non-livepatch modules
+         3243eba144c8c9bac7c7dc6cfeacd137e3dc86ec livepatch: Free klp_{object,func}_ext data after initialization
          
