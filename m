@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Fri, 30 Jan 2026 19:50:02 -0000
-Message-Id: <176980260250.3947737.17135230653987574819@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ath/linux-firmware
+Date: Fri, 30 Jan 2026 20:18:51 -0000
+Message-Id: <176980433108.3969585.16791425630806654979@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
-user: broonie
+repo: pub/scm/linux/kernel/git/ath/linux-firmware
+user: jjohnson
 changes:
-  - ref: refs/heads/kunit-fix-leap-year
+  - ref: refs/heads/ath-20260130
     old: 0000000000000000000000000000000000000000
-    new: 7c099bd0ccb525eed9cea863ba1d0909b821a621
+    new: 09167289ec698099435e499e45c5788015d26783
