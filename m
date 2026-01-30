@@ -1,21 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/damon-hack
-Date: Fri, 30 Jan 2026 16:07:04 -0000
-Message-Id: <176978922481.3768780.15252549181741314576@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/cxl/cxl
+Date: Fri, 30 Jan 2026 16:15:58 -0000
+Message-Id: <176978975874.3776291.2178644103528149261@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/damon-hack
-user: sj
+repo: pub/scm/linux/kernel/git/cxl/cxl
+user: djiang
 changes:
-  - ref: refs/heads/master
-    old: 854ec4a0d1b7657d2b2c10480ee7bc56867c1cea
-    new: 95bd59c84d9fd69285ce4cfa8dd611161395db43
+  - ref: refs/heads/next
+    old: 3f7938b1aec7f06d5b23adca83e4542fcf027001
+    new: 63050be0bfe0b280cce5d701b31940fd84858609
     log: |
-         61a9a85cb067171a847d070881d7b8b3b685ad9e todo: update
-         24bbc3f1d29359cfc27bfa4d8c708787f483c511 patches/next: add Li's stat patch
-         95bd59c84d9fd69285ce4cfa8dd611161395db43 patches/next: rebase to latest mm-new
+         7b6f9d9b1ea05c9c22570126547c780e8c6c3f62 cxl: Fix premature commit_end increment on decoder commit failure
+         63050be0bfe0b280cce5d701b31940fd84858609 Merge branch 'for-7.0/cxl-misc' into cxl-for-next
          
