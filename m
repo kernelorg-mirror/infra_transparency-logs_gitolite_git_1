@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Fri, 30 Jan 2026 01:30:16 -0000
-Message-Id: <176973661656.2869877.9693718794020716005@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux
+Date: Fri, 30 Jan 2026 01:33:26 -0000
+Message-Id: <176973680615.2871264.17278276910884358428@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/linux/kernel/git/axboe/linux
+user: axboe
 changes:
-  - ref: refs/heads/main
-    old: 1cac38910ecb881b09f61f57545a771bbe57ba68
-    new: 37d312bf957b95346fae2b3f82ce043474ea66c9
+  - ref: refs/heads/io_uring-waitwake
+    old: 71085c0a4568c9fdf14df683f0c72e5b21eb7357
+    new: 990b9f9e6b2d11e9763fbb29419a2b5506e20609
     log: |
-         37d312bf957b95346fae2b3f82ce043474ea66c9 MAINTAINERS: add an entry for PSP
+         990b9f9e6b2d11e9763fbb29419a2b5506e20609 io_uring/waitwake: queued support
          
