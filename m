@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4825671519188230504=="
+Content-Type: multipart/mixed; boundary="===============8866975421041869572=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
-Date: Fri, 30 Jan 2026 14:58:26 -0000
-Message-Id: <176978510602.3708913.14756815005674891258@gitolite.kernel.org>
+Date: Fri, 30 Jan 2026 14:58:27 -0000
+Message-Id: <176978510721.3708996.13692885667461547569@gitolite.kernel.org>
 
---===============4825671519188230504==
+--===============8866975421041869572==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,19 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ath/ath
 user: jjohnson
 changes:
-  - ref: refs/heads/main
-    old: 8c6bd5e9db28152563c984d8c48322610cac8609
-    new: 2c52bb395bf4a813744529eaa402ea5adb4a0a20
-    log: revlist-8c6bd5e9db28-2c52bb395bf4.txt
-  - ref: refs/tags/ath-202601301439
-    old: 0000000000000000000000000000000000000000
-    new: 2c52bb395bf4a813744529eaa402ea5adb4a0a20
+  - ref: refs/heads/ath-current
+    old: 0a80e38d0fe1fe7b59c1e93ad908c4148a15926a
+    new: 1cac38910ecb881b09f61f57545a771bbe57ba68
+    log: revlist-0a80e38d0fe1-1cac38910ecb.txt
 
---===============4825671519188230504==
+--===============8866975421041869572==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8c6bd5e9db28-2c52bb395bf4.txt
+Content-Disposition: attachment; filename=revlist-0a80e38d0fe1-1cac38910ecb.txt
 
 761fcf46a1bd797bd32d23f3ea0141ffd437668a w1: therm: Fix off-by-one buffer overflow in alarms_store
 472100721b4b1d357e99512306ba7dda7bddad6f dt-bindings: interconnect: qcom,sa8775p-rpmh: Fix incorrectly added reg and clocks
@@ -370,10 +367,5 @@ df8b9be3d41281e7bf5f14cd078be2c5c5cc7698 Merge branch 'mptcp-avoid-dup-nl-events
 426ca15c7f6cb6562a081341ca88893a50c59fa2 net: fix segmentation of forwarding fraglist GRO
 e829083bc46d3d79b9aade758c350ec12342c9bd Merge tag 'for-6.19-rc7-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
 1cac38910ecb881b09f61f57545a771bbe57ba68 Merge tag 'net-6.19-rc8' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
-04f28643bc31daa0267b68dff0b56321999a8040 Merge branch 'ath-next'
-b79408a7cc4ed10f44decdc8a2bdbfdef1cad3b0 Merge branch 'ath-current'
-b8405d4a2b0a8839b38a2f07dccbdfa75a85412b Merge remote-tracking branch 'mhi/mhi-next'
-8f3d95537ed371079914b25e097a32eebd7f33f1 Add localversion-wireless-testing-ath
-2c52bb395bf4a813744529eaa402ea5adb4a0a20 bnxt_en: Fix build break on non-x86 platforms
 
---===============4825671519188230504==--
+--===============8866975421041869572==--
