@@ -1,44 +1,60 @@
-Content-Type: multipart/mixed; boundary="===============2594795908641644471=="
+Content-Type: multipart/mixed; boundary="===============3340900722926852329=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/chao/linux
-Date: Fri, 30 Jan 2026 03:58:35 -0000
-Message-Id: <176974551547.2987414.6333265923794617798@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/powerpc/linux
+Date: Fri, 30 Jan 2026 04:00:47 -0000
+Message-Id: <176974564796.2990652.7876383972802797813@gitolite.kernel.org>
 
---===============2594795908641644471==
+--===============3340900722926852329==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/chao/linux
-user: chao
+repo: pub/scm/linux/kernel/git/powerpc/linux
+user: maddy
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/feature/lock_trace
-    old: f6ad6b23500acc9003fdb5384a73502488902057
-    new: 6c41a3391b747e9a5e8c6fe63003d2a8157d2610
-    log: revlist-f6ad6b23500a-6c41a3391b74.txt
+  - ref: refs/heads/next-test
+    old: 33c1c6d8a28a2761ac74b0380b2563cf546c2a3a
+    new: 1d72a02d65a733ad124bacc2db3fb90fa81a612b
+    log: |
+         88372ad4b060a283a475f0ebc31451c9059ebaa5 pseries/plpks: fix kernel-doc comment inconsistencies
+         40850c909fcf2a66237dea6b96c8e12003cf6d43 powerpc/pseries: move the PLPKS config inside its own sysfs directory
+         447eb1d5ef00f7da918221ed690cac980385d993 pseries/plpks: expose PowerVM wrapping features via the sysfs
+         133aa79e211d2572c5c9b9671461a55d50bebda8 pseries/plpks: add HCALLs for PowerVM Key Wrapping Module
+         c99fcb0d735bdb6f06dfe6eb7134d5d988d32dae keys/trusted_keys: establish PKWM as a trusted source
+         1d72a02d65a733ad124bacc2db3fb90fa81a612b docs: trusted-encryped: add PKWM as a new trust source
+         
 
---===============2594795908641644471==
+--===============3340900722926852329==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f6ad6b23500a-6c41a3391b74.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-ab59919c8a041bf0fc6c8fe65dd10729e19de88c f2fs: check skipped write in f2fs_enable_checkpoint()
-1120764691736cb803cd763c82aa151b1fee2b8e f2fs: introduce FAULT_SKIP_WRITE
-252cf8c4d679fc40cdb934da6c5128e5943fec3f f2fs: fix to show simulate_lock_timeout correctly
-be38b5717a2953648dd294418b7c2dfdb8e81d7a f2fs: pin files do not require sbi->writepages lock for ordering
-401a3034d3b9f33e0fd085f6964512fe999ba135 f2fs: add write latency stats for NAT and SIT blocks in f2fs_write_checkpoint
-7c9ee0ed2bd4e30192d83de529c9094e18ab6f41 f2fs: change size parameter of __has_cursum_space() to unsigned int
-1db4b3609aa13efceddeae2e58749acb62d42d71 f2fs: optimize NAT block loading during checkpoint write
-6bb9010f78d7f0ff0e4a17b1be951e76d96757a5 f2fs: decrease maximum flush retry count in f2fs_enable_checkpoint()
-8e943c6351c0bc14d0de02ddb66807eb2e1af121 f2fs: fix incomplete block usage in compact SSA summaries
-ea581585794290038e10ac4f1343bb1f5013cc60 f2fs: fix lock priority inversion issue
-e0080119d78861f4cf0ee929ffeb4b791277b424 f2fs: introduce trace_f2fs_priority_update
-f48f8ffdcdecea676f7310ed5dd803b55d306e70 f2fs: uplift priority of f2fs_ckpt thread
-61a68204bc4710c8831dd734c83a3957a2e61136 f2fs: uplift priority of f2fs_gc thread
-6c41a3391b747e9a5e8c6fe63003d2a8157d2610 f2fs: sysfs: introduce critical_task_nice
+certificate version 0.1
+pusher Madhavan Srinivasan <maddy@linux.ibm.com> 1769745642 +0530
+pushee gitolite.kernel.org:pub/scm/linux/kernel/git/powerpc/linux
+nonce 1769745641-1e89791d81da55f33f81407bd318920c9d4fed22
 
---===============2594795908641644471==--
+33c1c6d8a28a2761ac74b0380b2563cf546c2a3a 1d72a02d65a733ad124bacc2db3fb90fa81a612b refs/heads/next-test
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAABCgAdFiEEqX2DNAOgU8sBX3pRpnEsdPSHZJQFAml8LOoACgkQpnEsdPSH
+ZJQEuA/+PXwM/KL248DzvSRQh2nXVp5cTYc7hHKb9+LB2UW91GSy6uxX/qs23rZ2
+msZeIxEJdi09f1q2/kb1pRLZjfNnULp7A8IPMgzO/BurJpO6/J+zS0EZ8KoPZIlH
+JZVMqDPBrzETHp1SDBvt8pSMrFmgUp1MgJyneb6T2JnuiuF3vfeFv+v621hawGwY
+UYkGkoGaX8GRmvE0Vuzqaxf5xhFz6mFBtCaoDlWvIMcqpWfOMc42+gSwkrpDNyMy
+KssDYGXnbcOP4aaYoyi4axorV5dCpcifUgcReEB3+/jHWK+p903q0ViYhli52nND
+Bp+QSSJdZ7qdNa4QjBGLZj1fuIWWSrtlPiWc6AAAbpOHb2EPVfGqOtWRDxvzk/es
+ppOzVX7NZXL4MgDjVeG2L1wgZKA1NwXAvrXVTpAqr51FHQocaAfWpjS4XoOxCzAs
+sf01hvhZP+wMseqGjhak58xmBDTwnq4UdrV5oclX//Y5i4lTalvL3UOJ2fiUHoZc
+3WImBSBXT8FvPhn/x8QE5bEFzsmMtiTvHGWc11aWwkAa8Cgzsef9y6+nz3RHzrZq
+eng86bTakpKV6ywQIXETRjoYFBEzKNy3gzR01doVXATHE3RG+ZRZOn1o4J9oeAoM
+ldV1vYvrScZjDM7vVmlYOLmG/WPhCEWyLwOzdOQzUTbRSgMMKCw=
+=0EYq
+-----END PGP SIGNATURE-----
+
+--===============3340900722926852329==--
