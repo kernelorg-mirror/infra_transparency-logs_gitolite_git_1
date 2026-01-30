@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Fri, 30 Jan 2026 00:16:13 -0000
-Message-Id: <176973217352.2806080.7224802045772679618@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kbuild/linux
+Date: Fri, 30 Jan 2026 00:17:05 -0000
+Message-Id: <176973222539.2806473.3829180860979960257@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-user: jarkko
+repo: pub/scm/linux/kernel/git/kbuild/linux
+user: nathan
 changes:
-  - ref: refs/heads/vcam
-    old: 2a5745200e533aa117cc561a6d988118c4068811
-    new: f28a5ca005aa367aa5ce1049723ac668e7053229
+  - ref: refs/heads/kbuild-next
+    old: a5b46cd1a08ceb8af35b01a335ee810c855b87e2
+    new: 76c73cfde7988976474e58c16e14ec3372f8cdaf
     log: |
-         f28a5ca005aa367aa5ce1049723ac668e7053229 media: Virtual camera driver
+         76c73cfde7988976474e58c16e14ec3372f8cdaf kbuild: dummy-tools: Add python3
          
