@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7453724324537144502=="
+Content-Type: multipart/mixed; boundary="===============1538928563291678767=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Fri, 30 Jan 2026 17:03:14 -0000
-Message-Id: <176979259429.3815103.4514492729221848767@gitolite.kernel.org>
+Date: Fri, 30 Jan 2026 17:03:20 -0000
+Message-Id: <176979260030.3815347.5887370714446895066@gitolite.kernel.org>
 
---===============7453724324537144502==
+--===============1538928563291678767==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/dev-queue
-    old: aad27ae042e6c666dadc728d420a366b1abffd74
-    new: 1b352c3f836b3ef287b72ffb78823c15f5d33bc0
-    log: revlist-aad27ae042e6-1b352c3f836b.txt
+  - ref: refs/heads/1GbE
+    old: e75e408dc524ba32b3bd66e89d2ba1e337877bfa
+    new: 6ad42b24413630199cb9f35d073f71768788f8dc
+    log: revlist-e75e408dc524-6ad42b244136.txt
 
---===============7453724324537144502==
+--===============1538928563291678767==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-aad27ae042e6-1b352c3f836b.txt
+Content-Disposition: attachment; filename=revlist-e75e408dc524-6ad42b244136.txt
 
 761fcf46a1bd797bd32d23f3ea0141ffd437668a w1: therm: Fix off-by-one buffer overflow in alarms_store
 472100721b4b1d357e99512306ba7dda7bddad6f dt-bindings: interconnect: qcom,sa8775p-rpmh: Fix incorrectly added reg and clocks
@@ -633,73 +633,5 @@ c858ac8735ae6b5808a0655d72e0753edbe6b5ac bng_en: Add support to handle AGG event
 58165c99324e0590c7eb0e3addffd3bd5ca18780 bng_en: Add TPA related functions
 c2effd12c96d4b4a5fe11c0b4bcf3d781654b657 bng_en: Add support for TPA events
 6ad42b24413630199cb9f35d073f71768788f8dc Merge branch 'bng_en-enhancements-for-rx-and-tx-datapath'
-b52778572404ac52da994b7365154e778a65cdb2 ice: Fix enable_cnt imbalance on resume
-2b017dbb99b259d6003e76047382b2dda8029ab4 ice: Fix enable_cnt imbalance on PCIe error recovery
-33906b7d0cf3b017cdccca62c54fc283a311ca29 i40e: Fix enable_cnt imbalance on PCIe error recovery
-9392795e1d76e305eeabb9e8f4e0494195145f59 i40e: fix src IP mask checks and memcpy argument names in cloud filter
-fcf0bea0802c0a32b90fed416caa7541da8e5294 virtchnl: create 'include/linux/intel' and move necessary header files
-85ce7706decf5e2a1ec7dba2d97393323219c333 virtchnl: introduce control plane version fields
-113b36c1759fe3f43bd4001bde4d28d4bd8b667a libie: add PCI device initialization helpers to libie
-9c89e2534b35219ab47b05547a2eaab897ec90b6 libeth: allow to create fill queues without NAPI
-1c9fc5ec6aa2ed7c5707fb08450aee4c2adc7e98 libie: add control queue support
-11d60e925d31be033daa1725c052c822bff9502c libie: add bookkeeping support for control queue messages
-223dadd5910a272e566973fd60a2a59576feb521 idpf: remove 'vport_params_reqd' field
-73f9f3b9502bf18340db06e5e44cc0a5110386d6 idpf: refactor idpf to use libie_pci APIs
-7b579c48946a6fd93ad6472cf1de455055827dc3 idpf: refactor idpf to use libie control queues
-051ac414e1eaf2990c6739aea53cffcf36f5e15a idpf: make mbx_task queueing and cancelling more consistent
-dc30277fb17ad59f484f072fa7c4a2e1a7289418 idpf: print a debug message and bail in case of non-event ctlq message
-9e29bcdef835d8e1192759e238d03109769f185d ixd: add basic driver framework for Intel(R) Control Plane Function
-d3c54454ccf5af76ab3bc98e543c877a57975be5 ixd: add reset checks and initialize the mailbox
-cb558938bfd0e4318eb6dfe8e97d0cc83f764aff ixd: add the core initialization
-03be1180d038b2312a69ef1fda006001d9848366 ixd: add devlink support
-5e9f04f7c5d43bcb8dee4aeb3b89febe83e30f0a ice: fix missing TX timestamps interrupts on E825 devices
-fab22eb1210ac9e7a225131d7ad1fdd9f0af7d7c ice: stop counting UDP csum mismatch as rx_errors
-99f2ca4e663e7680d7101223ac57bdf74d803224 i40e: fix ptp time increment while link is down
-f5b03f5abecd48b911f3c4c0ed7dbe1a7fd2ef08 ice: fix adding AQ LLDP filter for VF
-b420a189dbd88f4ff7d79c3a1d04067a2f0f9c77 ice: Fix NULL pointer dereference in ice_vsi_set_napi_queues
-8edf0342adc76f949add6e242880f7ab515f252e ixgbevf: fix link setup issue
-738889e4ea28d2354687d493e03beee4f73dd740 ixgbe: fix memory leaks in the ixgbe_recovery_probe() path
-641b64d31edeb41b0662792409510e4be61a23fb ixgbe: don't initialize aci lock in ixgbe_recovery_probe()
-89b296731946554bec54912310e06db54c7e6ee8 ice: fix 'adjust' timer programming for E830 devices
-840776059da404e419da0727b12311bd93e1e579 i40e: drop udp_tunnel_get_rx_info() call from i40e_open()
-0f7d3ca32378e8e35703b9d1eacd5313cd8fdbe4 ice: drop udp_tunnel_get_rx_info() call from ndo_open()
-d915e3582e9c9170763f22e8aa3e070b0e4d348b i40e: drop useless bitmap_weight() call in i40e_set_rxfh_fields()
-95af86b6230ddc8ac67e573535de0fa33adc64cb idpf: increment completion queue next_to_clean in sw marker wait routine
-407aaefdfee54c40a7b8a340e7a0a09bc466c9d6 ice: fix setting RSS VSI hash for E830
-0b5af72c2cb3fcff27c5327910bd9c9ff1846190 e1000e: correct TIMINCA on ADP/TGP systems with wrong XTAL frequency
-94ce4ccaed0158185af2f14b74be4a229400d87e e1000e: introduce new board type for Panther Lake PCH
-8e931eb335832c368fc2d6ce7cc860359dd630f3 e1000e: clear DPG_EN after reset to avoid autonomous power-gating
-61dcb923774aadd50b66d103ede20ca5b0f36cd2 idpf: skip deallocating bufq_sets from rx_qgrp if it is NULL.
-ecf34b98917290e3757a218e2e510b050b360483 idpf: skip deallocating txq group's txqs if it is NULL.
-a9b80cbf49ae48d0fcce8e806eb07ee452fe3abf idpf: Fix flow rule delete failure due to invalid validation
-f2b85a835b1ec82b4e192ae9a7391f997437203b ice: reintroduce retry mechanism for indirect AQ
-33c3f8e086b63f6dc698ad714b825f6adb755dd3 ice: fix retry for AQ command 0x06EE
-f501bf69d10ac738756cac3f04703da58e02c52d libeth: pass Rx queue index to PP when creating a fill queue
-2ec1c435e4a495a51e6f585cd06558d657444277 libeth: handle creating pools with unreadable buffers
-00fbaf8d17c186b55e9da5bcf4852cb235c197ec ice: migrate to netdev ops lock
-111a8e2be488325d76726f813984c068799d7a79 ice: implement Rx queue management ops
-34c18d8868656b8fd11c72f78cf59f7c326a7989 ice: add support for transmitting unreadable frags
-9a2e38da171cd3897f74d833ff6d49796b2ace94 igb: Fix trigger of incorrect irq in igb_xsk_wakeup
-63f99328effe5504f5395cce3e8af364866c2277 igc: Fix trigger of incorrect irq in igc_xsk_wakeup function
-f79bba1914df669e7333519e93267fecfa67afd9 ice: Fix PTP NULL pointer dereference during VSI rebuild
-66502aadeb00296391c7b292fb133d2201182b1e ice: PTP: fix missing timestamps on E825 hardware
-747de366d8cc4904a8a981ea75e93be37fdde204 ice: add support for unmanaged DPLL on E830 NIC
-b86e21103e040ee76d69737a3571ea8840f1b8c9 ice: Fix memory leak in ice_set_ringparam()
-7d5ac8d0a8581ad34f5086b1e84e05a1ae8a283e idpf: nullify pointers after they are freed
-72cbf2b730228473528b961c09fead004f66aba6 ixgbe: refactor: use DECLARE_BITMAP for ring state field
-fa60fcbe83de255ab38e116b96a64b05ef5e5452 igb: set skb hash type from RSS_TYPE
-ee493795e35e73a4ecb40708e485d9e4f3f5b7eb i40e: Add missing header
-cc8777d755443bff8b10532debb55f7ff9d74574 idpf: change IRQ naming to match netdev and ethtool queue numbering
-a38d6631c4eae6f805e22060a7c01155531806c6 ixgbe: fix unaligned u32 access in
-d64c76f10918888f8e7b92c0e72f3cf468c122c8 ixgbe: E610: add discovering EEE capability
-5c62542f3dafdab61ed1865777b450f9dc4ce217 ixgbe: E610: use new version of 0x601 ACI command buffer
-3296cc9ca06d3417ec3a2c60a3e69ac16254a081 ixgbe: E610: update EEE supported speeds
-ff852bfffa383f4db1a3448f08104dba5dd6d2f1 ixgbe: E610: update ACI command structs with EEE fields
-b4c90069577df7bcaef462adc2f745b459180144 ixgbe: move EEE config validation out of ixgbe_set_eee()
-486b3c6c125da1a66a3f69f116feb6456e1d82a7 ixgbe: E610: add EEE support
-6439a98b3cab2608679d9e12843afd27ee653307 igb: prepare for RSS key get/set support
-cdcf56f68f119b2f8a37aef09388ea805f0e4a4d igb: expose RSS key via ethtool get_rxfh
-d3b084c5c0978986cbb269579c1d47559ead5483 igb: allow configuring RSS key via ethtool set_rxfh
-1b352c3f836b3ef287b72ffb78823c15f5d33bc0 ice: Make name member of struct ice_cgu_pin_desc const
 
---===============7453724324537144502==--
+--===============1538928563291678767==--
