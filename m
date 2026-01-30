@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Fri, 30 Jan 2026 02:33:49 -0000
-Message-Id: <176974042967.2918220.5417875942390851968@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rcu/linux
+Date: Fri, 30 Jan 2026 02:39:53 -0000
+Message-Id: <176974079368.2922380.12529058811958495602@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-user: jarkko
+repo: pub/scm/linux/kernel/git/rcu/linux
+user: boqun
 changes:
-  - ref: refs/heads/vcam
-    old: 8ad6db5717e9a5edc262d4ec4e5152cc5e47c428
-    new: 757d9ca73044a77057a8129a37f7512a7be60d9a
-    log: |
-         757d9ca73044a77057a8129a37f7512a7be60d9a media: Virtual camera driver
-         
+  - ref: refs/heads/rcu-misc.20260129a
+    old: 0000000000000000000000000000000000000000
+    new: 5e1ecab4659af7cb808f932f273721e16af93110
