@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs
-Date: Fri, 30 Jan 2026 08:02:37 -0000
-Message-Id: <176976015733.3173699.14532361796744719800@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Fri, 30 Jan 2026 08:05:36 -0000
+Message-Id: <176976033654.3178052.8248984485595121318@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/xiang/erofs
-user: xiang
+repo: pub/scm/linux/kernel/git/tip/tip
+user: tglx
 changes:
-  - ref: refs/heads/dev
-    old: 136ac9be862e943657b88c183f90c141de2684ef
-    new: 886176025101af8775089b64dd1b324bb66cbcd2
+  - ref: refs/heads/irq/core
+    old: dd9f6d30c64001ca4dde973ac04d8d155e856743
+    new: 2dfc417414c6eea4e167b2f46283cded846c531a
     log: |
-         f1e60f596d8454b70682d75b9f86f85decfe6299 erofs: separate plain and compressed filesystems formally
-         886176025101af8775089b64dd1b324bb66cbcd2 erofs: handle end of filesystem properly for file-backed mounts
+         2dfc417414c6eea4e167b2f46283cded846c531a genirq/proc: Replace snprintf with strscpy in register_handler_proc
          
