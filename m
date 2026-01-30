@@ -1,26 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============0986219487759920432=="
+Content-Type: multipart/mixed; boundary="===============1777154536368745661=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Fri, 30 Jan 2026 00:27:30 -0000
-Message-Id: <176973285092.2814831.11266774809027412754@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
+Date: Fri, 30 Jan 2026 00:36:39 -0000
+Message-Id: <176973339962.2822191.11957058475653346477@gitolite.kernel.org>
 
---===============0986219487759920432==
+--===============1777154536368745661==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/kdave/linux
+user: kdave
 changes:
   - ref: refs/heads/master
     old: 8dfce8991b95d8625d0a1d2896e42f93b9d7f68d
     new: 4d310797262f0ddf129e76c2aad2b950adaf1fda
     log: revlist-8dfce8991b95-4d310797262f.txt
 
---===============0986219487759920432==
+--===============1777154536368745661==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -103,4 +103,4 @@ bcb6058a4b4596f12065276faeb9363dc4887ea9 Merge tag 'mm-hotfixes-stable-2026-01-2
 e9f6ac972ec0139a7988fe713740a957aea5d999 Merge tag 'mtd/fixes-for-6.19-rc8' of git://git.kernel.org/pub/scm/linux/kernel/git/mtd/linux
 4d310797262f0ddf129e76c2aad2b950adaf1fda Merge tag 'pm-6.19-rc8' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
 
---===============0986219487759920432==--
+--===============1777154536368745661==--
