@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/abelloni/linux
-Date: Fri, 30 Jan 2026 23:17:48 -0000
-Message-Id: <176981506877.4113706.1428330106943075718@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Fri, 30 Jan 2026 23:30:56 -0000
+Message-Id: <176981585688.4124683.12919643275085461247@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/abelloni/linux
-user: abelloni
+repo: pub/scm/linux/kernel/git/tip/tip
+user: tglx
 changes:
-  - ref: refs/heads/rtc-next
-    old: 770a54accf80fa6b68df0753eb0c527a4ecf5402
-    new: 8eeb611b3d16241559bbf81ae5d938368c87818c
-    log: |
-         8eeb611b3d16241559bbf81ae5d938368c87818c rtc: s35390a: implement nvmem support
-         
+  - ref: refs/tags/entry-for-arm64-26-01-31
+    old: 0000000000000000000000000000000000000000
+    new: 31c9387d0d84bc1d643a0c30155b6d92d05c92fc
