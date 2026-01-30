@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/damon-hack
-Date: Fri, 30 Jan 2026 17:47:12 -0000
-Message-Id: <176979523241.3852862.17399177218840665473@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+Date: Fri, 30 Jan 2026 17:48:55 -0000
+Message-Id: <176979533533.3853488.13819298924152239331@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/damon-hack
-user: sj
+repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+user: jarkko
 changes:
-  - ref: refs/heads/master
-    old: 95bd59c84d9fd69285ce4cfa8dd611161395db43
-    new: 49cb7c0c4a60692ac0f0b246acb7626a0307d07a
+  - ref: refs/heads/vcam
+    old: 08b7320fcebd1a359b1ee9ac46e5bbb7e57db184
+    new: 2a57bcb2ca2d5a491decbbf5245f21f0b58df33b
     log: |
-         49cb7c0c4a60692ac0f0b246acb7626a0307d07a scripts: add a script for updating development repos
+         2a57bcb2ca2d5a491decbbf5245f21f0b58df33b media: Virtual camera driver
          
