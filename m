@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4716722301768315622=="
+Content-Type: multipart/mixed; boundary="===============2687801995248166867=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mips/linux
-Date: Fri, 30 Jan 2026 11:25:40 -0000
-Message-Id: <176977234072.3544620.17840627397436185794@gitolite.kernel.org>
+Date: Fri, 30 Jan 2026 11:25:54 -0000
+Message-Id: <176977235487.3545142.6492052681959628616@gitolite.kernel.org>
 
---===============4716722301768315622==
+--===============2687801995248166867==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/mips/linux
 user: tsbogend
 changes:
-  - ref: refs/heads/mips-fixes
-    old: 680ad315caaa2860df411cb378bf3614d96c7648
+  - ref: refs/heads/mips-next
+    old: 8f0b4cce4481fb22653697cced8d0d04027cb1e8
     new: 63804fed149a6750ffd28610c5c1c98cce6bd377
-    log: revlist-680ad315caaa-63804fed149a.txt
+    log: revlist-8f0b4cce4481-63804fed149a.txt
 
---===============4716722301768315622==
+--===============2687801995248166867==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-680ad315caaa-63804fed149a.txt
+Content-Disposition: attachment; filename=revlist-8f0b4cce4481-63804fed149a.txt
 
 95cc9e7cf03d3646abce4129d5c013af33a7df99 x86/kvm: Avoid freeing stack-allocated node in kvm_async_pf_queue_task
 9be25402d8522e16e5ebe84f2b1b6c5de082a388 ALSA: hda/realtek: Add quirk for Acer Nitro AN517-55
@@ -1051,4 +1051,4 @@ f9e6e6d210669f24697e615b68b5abbae9d7a32e Merge tag 'keys-trusted-next-6.19-rc7' 
 0237777974728cc5a6f45347b7eca473ab6ef90a Merge tag 'scsi-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
 63804fed149a6750ffd28610c5c1c98cce6bd377 Linux 6.19-rc7
 
---===============4716722301768315622==--
+--===============2687801995248166867==--
