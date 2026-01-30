@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1538928563291678767=="
+Content-Type: multipart/mixed; boundary="===============1605333385573285740=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Fri, 30 Jan 2026 17:03:20 -0000
-Message-Id: <176979260030.3815347.5887370714446895066@gitolite.kernel.org>
+Date: Fri, 30 Jan 2026 17:03:23 -0000
+Message-Id: <176979260354.3815505.13284790117144266825@gitolite.kernel.org>
 
---===============1538928563291678767==
+--===============1605333385573285740==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
+  - ref: refs/heads/10GbE
     old: e75e408dc524ba32b3bd66e89d2ba1e337877bfa
     new: 6ad42b24413630199cb9f35d073f71768788f8dc
     log: revlist-e75e408dc524-6ad42b244136.txt
 
---===============1538928563291678767==
+--===============1605333385573285740==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -634,4 +634,4 @@ c858ac8735ae6b5808a0655d72e0753edbe6b5ac bng_en: Add support to handle AGG event
 c2effd12c96d4b4a5fe11c0b4bcf3d781654b657 bng_en: Add support for TPA events
 6ad42b24413630199cb9f35d073f71768788f8dc Merge branch 'bng_en-enhancements-for-rx-and-tx-datapath'
 
---===============1538928563291678767==--
+--===============1605333385573285740==--
