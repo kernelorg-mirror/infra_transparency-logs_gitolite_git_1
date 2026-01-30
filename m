@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vireshk/pm
-Date: Fri, 30 Jan 2026 07:38:52 -0000
-Message-Id: <176975873220.3153847.3041952918654569509@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/chrome-platform/linux
+Date: Fri, 30 Jan 2026 08:00:31 -0000
+Message-Id: <176976003197.3172465.3595654767260443471@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vireshk/pm
-user: vireshk
+repo: pub/scm/linux/kernel/git/chrome-platform/linux
+user: tzungbi
 changes:
-  - ref: refs/heads/opp/linux-next
-    old: 0b7277e02dabba2a9921a7f4761ae6e627e7297a
-    new: fc72a587c6c9e40926b67452d880ee85bd2b87a3
+  - ref: refs/heads/for-next
+    old: a4065662998fbee4a0ca9886b9aa50aa9694e0e7
+    new: ec0dd36dbf8b0b209e63d0cd795451fa2203c736
     log: |
-         fc72a587c6c9e40926b67452d880ee85bd2b87a3 OPP: debugfs: Use performance level if available to distinguish between rates
+         ec0dd36dbf8b0b209e63d0cd795451fa2203c736 platform/chrome: cros_ec_lightbar: Fix response size initialization
          
