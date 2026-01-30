@@ -1,49 +1,57 @@
-Content-Type: multipart/mixed; boundary="===============0267085310818930951=="
+Content-Type: multipart/mixed; boundary="===============3032505113918768115=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
-Date: Fri, 30 Jan 2026 15:28:41 -0000
-Message-Id: <176978692168.3735256.16798588888110920506@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/security/vulns
+Date: Fri, 30 Jan 2026 15:36:54 -0000
+Message-Id: <176978741456.3742607.16986988581882397436@gitolite.kernel.org>
 
---===============0267085310818930951==
+--===============3032505113918768115==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ath/ath
-user: jjohnson
+repo: pub/scm/linux/security/vulns
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: 2c52bb395bf4a813744529eaa402ea5adb4a0a20
-    new: 221854f82e358b7ed113b2b72b3bd74f7476b729
-    log: revlist-2c52bb395bf4-221854f82e35.txt
-  - ref: refs/tags/ath-202601301517
-    old: 0000000000000000000000000000000000000000
-    new: 221854f82e358b7ed113b2b72b3bd74f7476b729
+  - ref: refs/heads/master
+    old: 678889835e0aa0fea0fab69ca5f9808bef363967
+    new: 918bfbf2d903bb7f69cdc3a77f21691b8a92bbb1
+    log: |
+         3a38c0010991dc91c13d7b6c59419e4ab1b26518 updates based on new stable releases.
+         918bfbf2d903bb7f69cdc3a77f21691b8a92bbb1 update cvelistV5
+         
 
---===============0267085310818930951==
+--===============3032505113918768115==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2c52bb395bf4-221854f82e35.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-afcf3ec615c918dd71139e7ca2f4812ceea48cd7 wifi: ath10k: snoc: support powering on the device via pwrseq
-820ba7dd6859ef8b1eaf6014897e7aa4756fc65d wifi: ath10k: fix lock protection in ath10k_wmi_event_peer_sta_ps_state_chg()
-e55ac348089e579fc224569c7bd90340bf2439f9 wifi: ath10k: sdio: add missing lock protection in ath10k_sdio_fw_crashed_dump()
-c386a2b1068910538e87ef1cf2fc938ebf7e218f wifi: ath11k: add usecase firmware handling based on device compatible
-adce4fa499611c1c6eaf19d6fb0305ec0731d06f dt-bindings: net: wireless: ath11k-pci: deprecate 'firmware-name' property
-6dbd496a170b62c7ac56a0cb3aaf170b3ecbb515 wifi: ath12k: add WMI support for spatial reuse parameter configuration
-7b789ea390457d5751ae5b1ede81ca8564a618d1 wifi: ath12k: support OBSS PD configuration for AP mode
-e4763898bb1325dbb3792961b6d607b5c6452d64 wifi: ath12k: Fix index decrement when array_len is zero
-f20de310882d3c9b0a051b30dc39d0b640cc9cbc wifi: ath12k: Add support RX PDEV stats
-05e810c8cffb3e96f6b967c9a57c34d4a6a6347e wifi: ath12k: Add support TX hardware queue stats
-2c1ba9c2adf0fda96eaaebd8799268a7506a8fc9 wifi: ath12k: clear stale link mapping of ahvif->links_map
-75d858e2dc5a51056fe7d391aed97ac1aabfacb7 Merge branch 'ath-next'
-e56bdeb0400db6652ce32f3a9e64b8dadfaeaa7e Merge branch 'ath-current'
-2eaa59e0ae53e432fac7b615efd24e19b7b412e1 Merge remote-tracking branch 'mhi/mhi-next'
-d28b6ddcbbae2ee3b831f2c12f3c894ad380400d Add localversion-wireless-testing-ath
-221854f82e358b7ed113b2b72b3bd74f7476b729 bnxt_en: Fix build break on non-x86 platforms
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1769787407 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
+nonce 1769787410-497f976c02fb5cde1e08ad40afad33e448ff2e21
 
---===============0267085310818930951==--
+678889835e0aa0fea0fab69ca5f9808bef363967 918bfbf2d903bb7f69cdc3a77f21691b8a92bbb1 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAml80A8bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+6IAQAMgCX9nJbSG44FB4nRqG
+pxl+UPFBbdto9xOPcbT02chMLZ2gQuC+rIXT6E+VCJ5nOOgw2A7TgD2y/e3WX6H2
+EXR3ftXWOJP+EyS1S2JmcI/+NLxTlLZ3Runx3auJHF19Gd7igy+ObbrQdROwF5xV
+0rwL69eT0AQkaVmPsWPmLKGW8+b6PA+4yjmNfjEKj2Es83h49Pf2oQDIRF5sEFcC
+wsl4zMzCf9EC0Kd7HmLkftwqv4hAaEWCnPWlN7He0CANox6BMG4i8kpwGx3IMLHW
+6up4YOZFQAqXZffjqpx41RG3XjZMaw1PXRg9G6e6X4hZQHdah6NSLbrkWBf1VzDQ
+0Lc4Jtme6oxNP3SUEmfyZ62uOa/hi/0Xf9x3VlEwf7qoD3fWHGi2llZMueMD06li
+xBpp9UF7ACRDLW06p6wuJ+dceBAQQT3YQ5Ac1Iz6iIq3CnMTdoCB6uRlDCmH+/pD
+B0ktTEQEzcApS6ASfcPaidVs+4FD6Etuqk9mx1JLjiedYtOIwwpQ5bRhfdMQZfOk
+Xqqhx0bpH93HouhYbyErr3jlnEGm6bcwudCZlvBaK+QyA8Qf8J165s7Fnp+qVz8c
+lKKfRo1MAE3P/kXHlyPKpuWDq2sBBZhmuY2Fa+rfuwC+sW9w+deSpTTd1xhfv7jE
+lORoVSNLGb3qVnTiGDA7Xlos
+=2SAr
+-----END PGP SIGNATURE-----
+
+--===============3032505113918768115==--
