@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4249445514193952149=="
+Content-Type: multipart/mixed; boundary="===============8695798031312017318=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Fri, 30 Jan 2026 16:06:28 -0000
-Message-Id: <176978918827.3767974.6641108242497931818@gitolite.kernel.org>
+Date: Fri, 30 Jan 2026 16:06:29 -0000
+Message-Id: <176978918979.3768148.11046430235133312022@gitolite.kernel.org>
 
---===============4249445514193952149==
+--===============8695798031312017318==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/mm-new
-    old: 0241748f8b68fc2bf637f4901b9d7ca660d177ca
-    new: e718cb376cef0ab9dd28b4eec3339dc1a4371434
-    log: revlist-0241748f8b68-e718cb376cef.txt
+  - ref: refs/heads/mm-unstable
+    old: de52e837a8d4750bb21d6cfe78ab07c7bb32179e
+    new: 8fe55e92d85334d79100124b41a10603afa069fc
+    log: revlist-de52e837a8d4-8fe55e92d853.txt
 
---===============4249445514193952149==
+--===============8695798031312017318==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0241748f8b68-e718cb376cef.txt
+Content-Disposition: attachment; filename=revlist-de52e837a8d4-8fe55e92d853.txt
 
 2ff937650b42286d080f3493b0d5790c0f70d85f mm/hugetlb: restore failed global reservations to subpool
 5f2135a4b0e5d7a0736d19399ef8614938a941c7 x86/kfence: fix booting on 32bit non-PAE systems
@@ -212,45 +212,5 @@ f9d92bb7f33bc8959a999704c462c7413a819024 mm: rmap: support batched unmapping for
 c503aa130993d803e1bd2796d3985c96b9086ba6 mm: zswap: use SG list decompression APIs from zsmalloc
 6f94f228de89a4cc94c5c51b7557d6cd61e1748b mm/cma: replace snprintf with strscpy in cma_new_area
 8fe55e92d85334d79100124b41a10603afa069fc mm: folio_zero_user: open code range computation in folio_zero_user()
-8e5e96384ab2acd82c814699f0b8daf281ab2c87 maple_tree: fix mas_dup_alloc() sparse warning
-384d40ba7dedcf3f0faebddb3d3275975e308e02 maple_tree: move mas_spanning_rebalance loop to function
-d9abdf38ce1359e662ccfd3978420536007f306c maple_tree: extract use of big node from mas_wr_spanning_store()
-9a465344d5fdd39464ef89fa12998edc45beba27 maple_tree: remove unnecessary assignment of orig_l index
-a5d0cb1ae50c907182fc8becf5571bae177941aa maple_tree: inline mas_spanning_rebalance() into mas_wr_spanning_rebalance()
-bab1cbab14a796199597d8065100101c81c9c43e maple_tree: make ma_wr_states reliable for reuse in spanning store
-dce7b443b63cb7826b7d19cbebaefd02d7d22458 maple_tree: remove l_wr_mas from mas_wr_spanning_rebalance
-e45d404b2ceaadde4513559ea65bd5bb820521f4 maple_tree: don't pass through height in mas_wr_spanning_store
-b9da549ba3f4af4266bb313ae9c15513dc08fd3a maple_tree: move maple_subtree_state from mas_wr_spanning_store to mas_wr_spanning_rebalance
-444e6199d483c8a11d12b25659b20c1b9a7aa30d maple_tree: correct right ma_wr_state end pivot in mas_wr_spanning_store()
-cb7f9998387dd84f815d07c0e90745211402ec57 maple_tree: introduce maple_copy node and use it in mas_spanning_rebalance()
-2d7826f99321175f156ec5c85d36012541c93084 maple_tree: testing update for spanning store
-f5f2dfd427e3e1de86eca58203455e88396d224e maple_tree: inline mas_spanning_rebalance_loop() into mas_wr_spanning_rebalance()
-11b2db7c22150974daf695b34752c9a9afb832f8 maple_tree: change initial big node setup in mas_wr_spanning_rebalance()
-d5b5fbebcc9f29ffb2c727d6698818e8cb1c8551 maple_tree: introduce ma_leaf_max_gap()
-bebe8759845b2afaeb9817c2cb688d9dd161e9a6 maple_tree: add gap support, slot and pivot sizes for maple copy
-f45783afef425a0ce7666c7f3c9154132abfee6b maple_tree: start using maple copy node for destination
-492b8e984f8b6d19a69ca11cf6ac5de85564c44c maple_tree-start-using-maple-copy-node-for-destination-fix
-a2d20b80d777c3a0b2e43de1986aa3fd38069869 maple_tree: inline mas_wr_spanning_rebalance()
-ced685fb7b5bb7ae167f7a13bf2069c380825167 maple_tree: remove unnecessary return statements
-7d36e84a97fdd320f5b96d9412278027e2d2b929 maple_tree: separate wr_split_store and wr_rebalance store type code path
-ca7c4bd8b45b0b7e4458005de8e8f4889de08c46 maple_tree: add cp_is_new_root() helper
-395d3cdebfd64485b423de36b5e3670946cba319 maple_tree: use maple copy node for mas_wr_rebalance() operation
-5d1b737932c6b9f0a5107e8a98ed1962247aac60 maple_tree: add copy_tree_location() helper
-1b640d9bacc24aa0ca480f6199c4bde1d39c5293 maple_tree: add cp_converged() helper
-d0479a5b921e4632afe8be3872e2dada9f5ce534 maple_tree: use maple copy node for mas_wr_split()
-e36371af6aa29f0d39e191a74e3edc317a5eb2d5 maple_tree: remove maple big node and subtree structs
-86b63c04421d015dc09646929751ac55088932a2 maple_tree: pass maple copy node to mas_wmb_replace()
-053d7707c642983c5990f1298698584aeb0b052d maple_tree: don't pass end to mas_wr_append()
-10f6870dcc1d7c033cbb328af4521f88db2a5520 maple_tree: clean up mas_wr_node_store()
-673c53936ed55f5f70fb2f1c3fe95264a79daa80 zsmalloc: make common caches global
-c2f2820b9c4fc502ec2074a3243b9338fdce1ce6 maple_tree: update mas_next[_range] docs
-e97f75f2c69c289c1b7341cf848a7a69e828ddd4 selftests/mm: add memory failure anonymous page test
-7ec70086a84cae35767de1ecf77ed5a40993da4e selftests/mm: add memory failure clean pagecache test
-535b245e4c5d0e447b7c30b181425a53de548f2a selftests/mm: add memory failure dirty pagecache test
-dab7b6d8822a46ddbbb1f441f9cbbb7a7df844e6 memfd: export memfd_{add,get}_seals()
-fb0c3deb4a34beb0aa8ff6b48cc9ae33a9faaa07 mm: memfd_luo: preserve file seals
-a152ac79cdee789b00ce50e58d3493cdc4a69cee mm/page_alloc: avoid overcounting bulk alloc in watermark check
-859030e1a623286555c6d3ea57f8daa8e106211a mm/damon: unify address range representation with damon_addr_range
-e718cb376cef0ab9dd28b4eec3339dc1a4371434 mm: refactor vma_map_pages to use vm_insert_pages
 
---===============4249445514193952149==--
+--===============8695798031312017318==--
