@@ -1,19 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Fri, 30 Jan 2026 17:48:55 -0000
-Message-Id: <176979533533.3853488.13819298924152239331@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
+Date: Fri, 30 Jan 2026 17:50:57 -0000
+Message-Id: <176979545762.3856864.7123532748775187713@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-user: jarkko
+repo: pub/scm/linux/kernel/git/pci/pci
+user: helgaas
 changes:
-  - ref: refs/heads/vcam
-    old: 08b7320fcebd1a359b1ee9ac46e5bbb7e57db184
-    new: 2a57bcb2ca2d5a491decbbf5245f21f0b58df33b
+  - ref: refs/heads/controller/dwc
+    old: 0e2b9294512c140576c340b7ccd24230a593f30b
+    new: a24149881558e3cc32e6c1ae7c78df0b5d7a6206
     log: |
-         2a57bcb2ca2d5a491decbbf5245f21f0b58df33b media: Virtual camera driver
+         ffcc4850a16133d8db0f11ee6dde319201800451 PCI: endpoint: pci-epf-test: Allow overriding default BAR sizes
+         43d67ec26b329f8aea34ba9dff23d69b84a8e564 PCI: dwc: ep: Fix resizable BAR support for multi-PF configurations
+         b386d03d6aad27fcfacc86e2f8156d0cc1c40196 PCI: dwc: ep: Add per-PF BAR and inbound ATU mapping support
+         a24149881558e3cc32e6c1ae7c78df0b5d7a6206 PCI: dwc: ep: Add comment explaining controller level PTM access in multi PF setup
          
