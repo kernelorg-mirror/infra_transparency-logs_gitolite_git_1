@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4664080823610010263=="
+Content-Type: multipart/mixed; boundary="===============6904585585672440438=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Fri, 30 Jan 2026 16:28:37 -0000
-Message-Id: <176979051751.3785819.2266144266514731291@gitolite.kernel.org>
+Date: Fri, 30 Jan 2026 16:45:14 -0000
+Message-Id: <176979151484.3800137.3285935500946921872@gitolite.kernel.org>
 
---===============4664080823610010263==
+--===============6904585585672440438==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/dev-queue
-    old: 5a028dbfd06ce7dc768a8f7a0170172cf6f0fe2a
-    new: 7af1af1f41319e9d7355c1e437ea2c58e6dbe158
-    log: revlist-5a028dbfd06c-7af1af1f4131.txt
+  - ref: refs/heads/1GbE
+    old: 426ca15c7f6cb6562a081341ca88893a50c59fa2
+    new: 31a7a0bbeb006bac2d9c81a2874825025214b6d8
+    log: revlist-426ca15c7f6c-31a7a0bbeb00.txt
 
---===============4664080823610010263==
+--===============6904585585672440438==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5a028dbfd06c-7af1af1f4131.txt
+Content-Disposition: attachment; filename=revlist-426ca15c7f6c-31a7a0bbeb00.txt
 
 761fcf46a1bd797bd32d23f3ea0141ffd437668a w1: therm: Fix off-by-one buffer overflow in alarms_store
 472100721b4b1d357e99512306ba7dda7bddad6f dt-bindings: interconnect: qcom,sa8775p-rpmh: Fix incorrectly added reg and clocks
@@ -327,34 +327,5 @@ ed48a84a72fefb20a82dd90a7caa7807e90c6f66 dpaa2-switch: prevent ZERO_SIZE_PTR der
 6cbba46934aefdfb5d171e0a95aec06c24f7ca30 net: liquidio: Fix off-by-one error in VF setup_nic_devices() cleanup
 82deb2816ebbdc79083e2d76e0ef141a48aec69c Merge branch 'net-liquidio-fix-memory-leaks-in-setup_nic_devices'
 31a7a0bbeb006bac2d9c81a2874825025214b6d8 dpaa2-switch: add bounds check for if_id in IRQ handler
-6a8bc2ae2355e1bbc95ff3678a86177c614fdaa5 ice: fix fwlog after driver reinit
-dd6bfacfb9d824b2895914e7bf77a6542b43d3ba ice: Fix enable_cnt imbalance on resume
-e24c4bf418c5b6b7da792ac9d874f9d9d269b67f ice: Fix enable_cnt imbalance on PCIe error recovery
-629b5f11ac80fee4847862121c4f017ed7bb7525 i40e: Fix enable_cnt imbalance on PCIe error recovery
-346e3d4764c948942425f6f7dc556c3aba97047e i40e: fix src IP mask checks and memcpy argument names in cloud filter
-3530205f8d99e828cdb3a2bb6c787ed0fe48d135 ice: fix missing TX timestamps interrupts on E825 devices
-25d7ac2bb887a192c7e955a1af28ce07676e2843 i40e: fix ptp time increment while link is down
-0fb05354b720ed114a8b42f7f0ed1e04389bd99d ixgbevf: fix link setup issue
-799676f2ac4ec119120962faa67dbe523b27c783 ice: fix 'adjust' timer programming for E830 devices
-db54c0fa8c78e229fc9f82dc9fb8967f9b165916 i40e: drop udp_tunnel_get_rx_info() call from i40e_open()
-81321115e42a1bb36e899030f85e2c7d431297ca ice: drop udp_tunnel_get_rx_info() call from ndo_open()
-86b488f1ace80d1596a2be969f5c8990ceb6404e idpf: increment completion queue next_to_clean in sw marker wait routine
-d00c2ce659ebc8e4e3218360df4dc8339bbd7a87 ice: fix adding AQ LLDP filter for VF
-7fa6eb177a2e439ae1d5a9ca6f4e30a77a0f9fc4 ice: fix setting RSS VSI hash for E830
-f40e142dca84f95f362a4e6ed7318c0ba06d042e e1000e: correct TIMINCA on ADP/TGP systems with wrong XTAL frequency
-fb8b3c325ba4a9cea0d39763741f24a7c1caf74e e1000e: introduce new board type for Panther Lake PCH
-53bd6f56bfac4c5e084bc53baa2f618cf41849eb e1000e: clear DPG_EN after reset to avoid autonomous power-gating
-993a8834468a152d58b7cbf6b65b09b351516ddb idpf: skip deallocating bufq_sets from rx_qgrp if it is NULL.
-eb9e61f3e6a9ccef211e1ab472addd1e097eb5c4 idpf: skip deallocating txq group's txqs if it is NULL.
-309cde4385ba7cde2b96aab6034fd81911d7be43 idpf: Fix flow rule delete failure due to invalid validation
-5a6e1faa1acfdd4a312309c13ca17248a900dc62 ice: reintroduce retry mechanism for indirect AQ
-7576c48153a325676b85cfed2b3730b42006bdab ice: fix retry for AQ command 0x06EE
-b3f449a8afdb0dd8e610c1b46cba890ce9e12058 igb: Fix trigger of incorrect irq in igb_xsk_wakeup
-7eca3923c49686c2bb5ead094e1be7080a44aab4 igc: Fix trigger of incorrect irq in igc_xsk_wakeup function
-4e9fe6133d86540ee06f240fa99c119b455a1d3d ice: Fix PTP NULL pointer dereference during VSI rebuild
-d923fe57f0e62fb33684fbf1e753f6709b0ebc11 ice: PTP: fix missing timestamps on E825 hardware
-5a7efbb86f149dc6140332f62052878d345046fc ice: Fix memory leak in ice_set_ringparam()
-22da50475d8aa667c12e6219893acc1631f51dc7 idpf: nullify pointers after they are freed
-7af1af1f41319e9d7355c1e437ea2c58e6dbe158 idpf: change IRQ naming to match netdev and ethtool queue numbering
 
---===============4664080823610010263==--
+--===============6904585585672440438==--
