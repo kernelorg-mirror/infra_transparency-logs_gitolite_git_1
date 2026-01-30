@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1477051016489497480=="
+Content-Type: multipart/mixed; boundary="===============8673157980830633316=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
-Date: Fri, 30 Jan 2026 15:14:59 -0000
-Message-Id: <176978609942.3722034.11662479872622281582@gitolite.kernel.org>
+Date: Fri, 30 Jan 2026 15:15:11 -0000
+Message-Id: <176978611152.3724538.17724465041636517153@gitolite.kernel.org>
 
---===============1477051016489497480==
+--===============8673157980830633316==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ath/ath
 user: jjohnson
 changes:
-  - ref: refs/heads/ath-next
-    old: c30e188bd2a886258be5facb970a804d8ef549b5
+  - ref: refs/heads/pending
+    old: c81f1866655a2e1753bf3df449a5661b1925c849
     new: 2c1ba9c2adf0fda96eaaebd8799268a7506a8fc9
-    log: revlist-c30e188bd2a8-2c1ba9c2adf0.txt
+    log: revlist-c81f1866655a-2c1ba9c2adf0.txt
 
---===============1477051016489497480==
+--===============8673157980830633316==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c30e188bd2a8-2c1ba9c2adf0.txt
+Content-Disposition: attachment; filename=revlist-c81f1866655a-2c1ba9c2adf0.txt
 
 afcf3ec615c918dd71139e7ca2f4812ceea48cd7 wifi: ath10k: snoc: support powering on the device via pwrseq
 820ba7dd6859ef8b1eaf6014897e7aa4756fc65d wifi: ath10k: fix lock protection in ath10k_wmi_event_peer_sta_ps_state_chg()
@@ -38,4 +38,4 @@ f20de310882d3c9b0a051b30dc39d0b640cc9cbc wifi: ath12k: Add support RX PDEV stats
 05e810c8cffb3e96f6b967c9a57c34d4a6a6347e wifi: ath12k: Add support TX hardware queue stats
 2c1ba9c2adf0fda96eaaebd8799268a7506a8fc9 wifi: ath12k: clear stale link mapping of ahvif->links_map
 
---===============1477051016489497480==--
+--===============8673157980830633316==--
