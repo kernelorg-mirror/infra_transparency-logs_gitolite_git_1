@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2378660144753679113=="
+Content-Type: multipart/mixed; boundary="===============2457535594827587607=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Fri, 30 Jan 2026 16:45:17 -0000
-Message-Id: <176979151793.3800276.14962792832416942049@gitolite.kernel.org>
+Date: Fri, 30 Jan 2026 16:45:20 -0000
+Message-Id: <176979152083.3800463.17692472785347931613@gitolite.kernel.org>
 
---===============2378660144753679113==
+--===============2457535594827587607==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/10GbE
+  - ref: refs/heads/40GbE
     old: 426ca15c7f6cb6562a081341ca88893a50c59fa2
     new: 31a7a0bbeb006bac2d9c81a2874825025214b6d8
     log: revlist-426ca15c7f6c-31a7a0bbeb00.txt
 
---===============2378660144753679113==
+--===============2457535594827587607==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -328,4 +328,4 @@ ed48a84a72fefb20a82dd90a7caa7807e90c6f66 dpaa2-switch: prevent ZERO_SIZE_PTR der
 82deb2816ebbdc79083e2d76e0ef141a48aec69c Merge branch 'net-liquidio-fix-memory-leaks-in-setup_nic_devices'
 31a7a0bbeb006bac2d9c81a2874825025214b6d8 dpaa2-switch: add bounds check for if_id in IRQ handler
 
---===============2378660144753679113==--
+--===============2457535594827587607==--
