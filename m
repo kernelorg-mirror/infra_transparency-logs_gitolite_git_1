@@ -1,74 +1,96 @@
-Content-Type: multipart/mixed; boundary="===============3928543761087167393=="
+Content-Type: multipart/mixed; boundary="===============6883386722252446477=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Fri, 30 Jan 2026 09:08:19 -0000
-Message-Id: <176976409944.3225231.7948907518253786486@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
+Date: Fri, 30 Jan 2026 09:20:38 -0000
+Message-Id: <176976483840.3235557.2497250507042717989@gitolite.kernel.org>
 
---===============3928543761087167393==
+--===============6883386722252446477==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: mingo
+repo: pub/scm/linux/kernel/git/stable/linux
+user: gregkh
+git_push_cert_status: G
 changes:
   - ref: refs/heads/master
-    old: 10db504831f8a093cda84f62e6e1d7df635d0244
-    new: 5631c5953dcda921d2ee0bc82f2921e304bcee05
-    log: revlist-10db504831f8-5631c5953dcd.txt
-  - ref: refs/heads/tip/urgent
-    old: 8c2b170b9de516da800c63356e67ae5b236782e2
-    new: 9289fe5ee30a66729d73f0a057529c7f8c499285
-    log: revlist-8c2b170b9de5-9289fe5ee30a.txt
+    old: 63804fed149a6750ffd28610c5c1c98cce6bd377
+    new: 4d310797262f0ddf129e76c2aad2b950adaf1fda
+    log: revlist-63804fed149a-4d310797262f.txt
 
---===============3928543761087167393==
+--===============6883386722252446477==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-10db504831f8-5631c5953dcd.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-5dbde086695a81b74100bba2f8773204da63e57a Merge branch into tip/master: 'irq/urgent'
-9289fe5ee30a66729d73f0a057529c7f8c499285 Merge branch into tip/master: 'objtool/urgent'
-d40ce8b5e5a6a19669a008d65a635e7e9b2d703f Merge branch into tip/master: 'irq/core'
-5b70ff4f54733dab32392b137c1db84ee49ba5a2 Merge branch into tip/master: 'irq/drivers'
-e86522d899c62c4b62beac73e36f7b30cc85d65c Merge branch into tip/master: 'irq/msi'
-e542d96f1b9c1d51b5c18443d8249a53b095da73 Merge branch into tip/master: 'locking/core'
-0cefa94aed41aa7465beb9b49cf9fbabcce8cd7b Merge branch into tip/master: 'perf/core'
-718a4afbd41c8be09e54507ff31610d256efd93f Merge branch into tip/master: 'sched/core'
-e0a39b471b7166e8d056f8484572780df70dcd62 Merge branch into tip/master: 'timers/clocksource'
-b31afe48b7671500cc8491a5cf265fb113bec2f1 Merge branch into tip/master: 'timers/core'
-0386d149e81682ee0c892f13009b4212454c91e9 Merge branch into tip/master: 'timers/vdso'
-ef971caf7ac7f3c90c7cd60aea3410d81376f4ae Merge branch into tip/master: 'x86/alternatives'
-58694c42a51343751555f6db0eddae87a41cd86e Merge branch into tip/master: 'x86/apic'
-4374fd5c225c4db4cf374d0c060b8842cb8dbb32 Merge branch into tip/master: 'x86/boot'
-e22e40168a4e6544bc853266733f4f628095a72f Merge branch into tip/master: 'x86/bugs'
-9894d858ea6b4831fc205205ee293dc1c8e0b058 Merge branch into tip/master: 'x86/cache'
-b89e45712120d65fe92fb9baedf77bc6acbfbc2d Merge branch into tip/master: 'x86/cleanups'
-278c594f76571bab75776d84a00fbe0621d06905 Merge branch into tip/master: 'x86/cpu'
-42ebc0904cf47ccb7298bbe49c92dd4a663f022e Merge branch into tip/master: 'x86/entry'
-4dfe9664a482697399768fdf73c91e189542678f Merge branch into tip/master: 'x86/irq'
-c98a3e4d8fb274882e983e078f7f53ee01ff1f49 Merge branch into tip/master: 'x86/microcode'
-d6b65152b55913afb5af3f81ca0509bef90a6c83 Merge branch into tip/master: 'x86/misc'
-f313b1470a83cefd4eab4fd9e86e88f8a46f8edc Merge branch into tip/master: 'x86/paravirt'
-2f50e6b98c01321f2b0cc5c16472fc6bf7d75ffc Merge branch into tip/master: 'x86/platform'
-5631c5953dcda921d2ee0bc82f2921e304bcee05 Merge branch into tip/master: 'x86/sev'
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1769764837 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
+nonce 1769764836-0619a081b3e27fa674ea440383aa66ad2cc43631
 
---===============3928543761087167393==
+63804fed149a6750ffd28610c5c1c98cce6bd377 4d310797262f0ddf129e76c2aad2b950adaf1fda refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAml8d+UbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+L0IQAJ8UYzIxtkEgkmfx2N6I
+2G1UkpJPE2JWA1Yt+eOZpwRt7V/orP7fqh1vsQmdNQwiK9E4VUtht1J0AarOKVYU
+IBNTZRcb3+eRbw88biZMEzF8lxs16fryN9hY6GpPnZkMdEjsQ73Y/CTamB5sUBBH
+96nEAQXIcIlCaCoexBOa3K/y9qq0GQn/gqAJJLRpl7rh1riQyvJTsvClnlMK7t5V
+QeKK2eu4nby47nM7LUTztPjYqQGpBiKO+zekI2s9MlHXKU8qKuWxe8bf1Aenwdk7
+2/D7obwDShvB7w6tP+9y45uZa7AO5NBtp8AMmeEG3eOzlQCDDvnikgiia3vo2Bmi
+UYAo2zGLdrHlcj8J2tRKreihJRYImdmkeN+Drq+AgtCH6CT7TThZEqQrEfPu46FI
+jveB9Hw6eieImzejxQCaupn0HGHiGv0sc23fI7FhRIGf7ZjLQ/kl/gOTg6uSvTA1
+jdquEMbkyr9L5QqBJ5rCqY2vLQ1m2Q5bJ6BMo8IAZ+gqe7s2mz4XzEtErQ2Bc6Kr
+2q/Khn3ETp64/SoXL6dD5PgPXwbYdwEKB1GQMei8WrSuUMH43N56ZHSbybECzgJL
+mAT/Ltetk7vlzYwbxtODWC+kKu8rSfRIFqQivcYJuyzSBJ1xw2FHdtFCwWQjh1Lm
+qpBVAHMr44hz2tAHiDqNxU3t
+=i+A3
+-----END PGP SIGNATURE-----
+
+--===============6883386722252446477==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8c2b170b9de5-9289fe5ee30a.txt
+Content-Disposition: attachment; filename=revlist-63804fed149a-4d310797262f.txt
 
 2f6d2c8d9ac05a7a1c02333f6ad30868246880d8 Revert "mtd: spinand: esmt: fix id code for F50D1G41LB"
+cab012375122304a6343c1ed09404e5143b9dc01 fuse: fix conversion of fuse_reverse_inval_entry() to start_removing()
+10dcd5110678c6b241bbcf062f72ea14fb3597f3 nfs: properly disallow delegation requests on directories
+b9a9be4d3557b97303ac6c8b5e153b7ef569d886 smb/client: properly disallow delegations on directories
+5d65a70bd0437d2a7762164eb5015f6975937986 9p: don't allow delegations to be set on directories
+ce946c4fb98c95519ee39ab7d4b117ff15f09efa gfs2: don't allow delegations to be set on directories
+ffb321045b0f1cd8bcea215269fbaa17c12da038 ceph: don't allow delegations to be set on directories
+8a5511eeaa5c4e5c2be6209abe549302b70311b0 vboxsf: don't allow delegations to be set on directories
+7d42f2b1cc3a60a71784967384ddcf29fe3f35ed Merge patch series "vfs: properly deny directory leases on filesystems with special lease handling"
+c644bce62b9c6b441143a03c910f986109c47001 readdir: require opt-in for d_type flags
+543467d6fe97e27e22a26e367fda972dbefebbff writeback: fix 100% CPU usage when dirtytime_expire_interval is 0
+30ef9a20f1fdf6ab483d64fe3d54ba7d07b9b46f docs: clarify that dirtytime_expire_seconds=0 disables writeback
+e16688084df76e719b329a1a56b338ec491002e0 Merge patch series "Fix vm.dirtytime_expire_seconds=0 causing 100% CPU"
+ab7ad7abb3660c58ffffdf07ff3bb976e7e0afa0 romfs: check sb_set_blocksize() return value
+561940a7ee81319b9cba06d2b7ba6b45a5c41cbc iomap: wait for batched folios to be stable in __iomap_get_folio
+e93b31d0816201f9fd8daeaf69d6db99463d3e05 writeback: use round_jiffies_relative for dirtytime_work
+4973d95679fb4f8bb4413dcb3bce435ef848285d fuse: use private naming for fuse hash size
+cb8d2bdcb8241b66ca4ac4868f20e12cd6881ebc fuse: fix race when disposing stale dentries
+1e2c1af1beb395841743e240a59ab37edc9a7d33 fuse: make sure dentry is evicted if stale
+09f7a43ae501541030f42670351032f3c8bfa06e fuse: add need_resched() before unlocking bucket
+3926746b553455faaff2387b9a617c98d936980d fuse: clean up fuse_dentry_tree_work()
+fa79401a9c35fe2ba590599d7617789761f574a9 fuse: shrink once after all buckets have been scanned
+79d11311f64d3e9fbc20ac95b7df6f917221329f vfs: document d_dispose_if_unused()
+6358461178ca29a87c66495f1ce854388b0107c3 Merge patch series "fuse: fixes and cleanups for expired dentry eviction"
+28f24068387169722b508bba6b5257cb68b86e74 pinctrl: meson: mark the GPIO controller as sleeping
+1fbe3abb449c5ef2178e1c3e3e8b9a43a7a410ac pinctrl: qcom: sm8350-lpass-lpi: Merge with SC7280 to fix I2S2 and SWR TX pins
+304c3ebcaff36560d76e3030ba0839e629635f47 pinctrl: th1520: Fix typo
 4e159150a9a56d66d247f4b5510bed46fe58aa1c btrfs: do not strictly require dirty metadata threshold for metadata writepages
 0d0f1314e8f86f5205f71f9e31e272a1d008e40b btrfs: zlib: fix the folio leak on S390 hardware acceleration
 0baa4d3170d72a2a8dc93bf729d6d04ad113dc72 can: at91_can: Fix memory leak in at91_can_probe()
 0c3cd7a0b862c37acbee6d9502107146cc944398 Bluetooth: hci_uart: fix null-ptr-deref in hci_uart_write_work
 1b9c17fd0a7fdcbe69ec5d6fe8e50bc5ed7f01f2 Bluetooth: MGMT: Fix memory leak in set_ssp_complete
 108948f723b13874b7ebf6b3f1cc598a7de38622 net/mlx5: Fix memory leak in esw_acl_ingress_lgcy_setup()
+61ceaf236115f20f4fdd7cf60f883ada1063349a vfio: Prevent from pinned DMABUF importers to attach to VFIO DMABUF
 494fc029f662c331e06b7c2031deff3c64200eed can: gs_usb: gs_usb_receive_bulk_callback(): fix error message
 deb5c201aa4e39858a2297530b70f70cc4d536e5 MAINTAINERS: Update be2net maintainers
 d48c896cb2c122a24545c4300f7d50812f68eeb9 Merge tag 'for-net-2026-01-22' of git://git.kernel.org/pub/scm/linux/kernel/git/bluetooth/bluetooth
@@ -83,6 +105,7 @@ f66f5c212e7407fda7b7ce864f94420c46b086cb Merge tag 'linux-can-fixes-for-6.19-202
 f0813bcd2d9d97fdbdf2efb9532ab03ae92e99e6 net: wwan: t7xx: fix potential skb->frags overflow in RX path
 ca12c4a155ebf84e9ef29b05ce979bc89364290f net/mlx5: Fix return type mismatch in mlx5_esw_vport_vhca_id()
 709bbb015538dfd5c97308b77c950d41a4d95cd3 net: dsa: yt921x: Fix MIB overflow wraparound routine
+fcb70a56f4d81450114034b2c61f48ce7444a0e2 Merge tag 'vfs-6.19-rc8.fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
 8a1968bd997f45a9b11aefeabdd1232e1b6c7184 mm/shmem, swap: fix race of truncate and swap entry split
 9b47d4eea3f7c1f620e95bda1d6221660bde7d7b mm/kasan: fix KASAN poisoning in vrealloc()
 a0f3c0845a4ff68d403c568266d17e9cc553e561 mm, swap: restore swap_space attr aviod kernel panic
@@ -104,8 +127,11 @@ e2a9eeb69f7d4ca4cf4c70463af77664fdb6ab1d mptcp: fix race in mptcp_pm_nl_flush_ad
 2c84959167d6493dbdac88965c7389b8ab88bf4e net: spacemit: Check for netif_carrier_ok() in emac_stats_update()
 165c34fb6068ff153e3fc99a932a80a9d5755709 nfc: llcp: Fix memleak in nfc_llcp_send_ui_frame().
 7e3debb4c72fe840d60014192cf93950871fb3be cpufreq: qcom-nvmem: add sentinel to qcom_cpufreq_ipq806x_match_list
+4f0d22ec60cee420125f4055af76caa0f373a3fe pinctrl: lpass-lpi: implement .get_direction() for the GPIO driver
+f58442788fdac580c49e0c42379fd32438cff6d7 dt-bindings: pinctrl: marvell,armada3710-xb-pinctrl: fix 'usb32_drvvbus0' group name
 1730daa3b425ea8c88ae599af6e1a4957bd2d81a Merge tag 'cpufreq-arm-fixes-6.19-rc8' of git://git.kernel.org/pub/scm/linux/kernel/git/vireshk/pm
 e9acda52fd2ee0cdca332f996da7a95c5fd25294 bonding: fix use-after-free due to enslave fail after slave array update
+1f97d9dcf53649c41c33227b345a36902cbb08ad Merge tag 'vfio-v6.19-rc8' of https://github.com/awilliam/linux-vfio
 638344712aefeba97b6e0d90f560815fd88abd0f ixgbe: fix memory leaks in the ixgbe_recovery_probe() path
 100cf7b4ca6ed770ec4287f3789b1da2e340a05a ixgbe: don't initialize aci lock in ixgbe_recovery_probe()
 9bb30be4d89ff9a8d7ab1aa0eb2edaca83431f85 ice: Fix NULL pointer dereference in ice_vsi_set_napi_queues
@@ -115,6 +141,7 @@ f67666938ae626cbda63fbf5176b3583c07e7124 net/mlx5e: TC, delete flows only for ex
 476681f10cc1e0e56e26856684e75d4678b072b2 net/mlx5e: Account for netdev stats in ndo_get_stats64
 d32ba904a450633429eff08046a7a8e258b85add Merge branch 'mlx5-misc-fixes-2026-01-26'
 a040afa3bca415019d96a586b96b5f17b1f55a90 gve: fix probe failure if clock read fails
+8dfce8991b95d8625d0a1d2896e42f93b9d7f68d Merge tag 'pinctrl-v6.19-3' of git://git.kernel.org/pub/scm/linux/kernel/git/linusw/linux-pinctrl
 d2492688bb9fed6ab6e313682c387ae71a66ebae nfc: nci: Fix race between rfkill and nci_unregister_device().
 cc0cf10fdaeadf5542d64a55b5b4120d3df90b7d net: bridge: fix static key check
 2b73e754389d32063c36b5a6a990161063653ef6 Merge branch '10GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/net-queue
@@ -138,7 +165,5 @@ e829083bc46d3d79b9aade758c350ec12342c9bd Merge tag 'for-6.19-rc7-tag' of git://g
 bcb6058a4b4596f12065276faeb9363dc4887ea9 Merge tag 'mm-hotfixes-stable-2026-01-29-09-41' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
 e9f6ac972ec0139a7988fe713740a957aea5d999 Merge tag 'mtd/fixes-for-6.19-rc8' of git://git.kernel.org/pub/scm/linux/kernel/git/mtd/linux
 4d310797262f0ddf129e76c2aad2b950adaf1fda Merge tag 'pm-6.19-rc8' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
-5dbde086695a81b74100bba2f8773204da63e57a Merge branch into tip/master: 'irq/urgent'
-9289fe5ee30a66729d73f0a057529c7f8c499285 Merge branch into tip/master: 'objtool/urgent'
 
---===============3928543761087167393==--
+--===============6883386722252446477==--
