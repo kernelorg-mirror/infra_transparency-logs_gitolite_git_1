@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/libs/libgpiod/libgpiod
-Date: Fri, 30 Jan 2026 17:20:36 -0000
-Message-Id: <176979363665.3832017.17524600827974992511@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+Date: Fri, 30 Jan 2026 17:30:58 -0000
+Message-Id: <176979425868.3840331.7328071254149599745@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/libs/libgpiod/libgpiod
-user: brgl
+repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+user: jarkko
 changes:
-  - ref: refs/heads/master
-    old: fbc0a4471215732e8f8e4296f5cebf9b2b05112f
-    new: 39a1b67b3a02826c648d8ab6fb9ce5855ec3c76e
+  - ref: refs/heads/vcam
+    old: 1bdbc945de4de880953354787aacc5ae5ef90907
+    new: 08b7320fcebd1a359b1ee9ac46e5bbb7e57db184
     log: |
-         39a1b67b3a02826c648d8ab6fb9ce5855ec3c76e tools: gpiomon: add initial-state option
+         08b7320fcebd1a359b1ee9ac46e5bbb7e57db184 media: Virtual camera driver
          
