@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============7377771061812408870=="
+Content-Type: multipart/mixed; boundary="===============4131781243303836046=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jgg/iommufd
-Date: Fri, 30 Jan 2026 21:38:49 -0000
-Message-Id: <176980912945.4031080.5448021536956772698@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/fwctl/fwctl
+Date: Fri, 30 Jan 2026 21:38:51 -0000
+Message-Id: <176980913102.4031188.4489965254787034907@gitolite.kernel.org>
 
---===============7377771061812408870==
+--===============4131781243303836046==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jgg/iommufd
+repo: pub/scm/linux/kernel/git/fwctl/fwctl
 user: jgg
 changes:
   - ref: refs/heads/linus
@@ -20,7 +20,7 @@ changes:
     new: 4d310797262f0ddf129e76c2aad2b950adaf1fda
     log: revlist-8dfce8991b95-4d310797262f.txt
 
---===============7377771061812408870==
+--===============4131781243303836046==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -103,4 +103,4 @@ bcb6058a4b4596f12065276faeb9363dc4887ea9 Merge tag 'mm-hotfixes-stable-2026-01-2
 e9f6ac972ec0139a7988fe713740a957aea5d999 Merge tag 'mtd/fixes-for-6.19-rc8' of git://git.kernel.org/pub/scm/linux/kernel/git/mtd/linux
 4d310797262f0ddf129e76c2aad2b950adaf1fda Merge tag 'pm-6.19-rc8' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
 
---===============7377771061812408870==--
+--===============4131781243303836046==--
