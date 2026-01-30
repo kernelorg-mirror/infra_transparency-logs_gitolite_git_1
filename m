@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============3593400829009570458=="
+Content-Type: multipart/mixed; boundary="===============3929603468196116403=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/chanwoo/extcon
-Date: Fri, 30 Jan 2026 23:13:23 -0000
-Message-Id: <176981480398.4108846.7880623957270746436@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/chanwoo/linux
+Date: Fri, 30 Jan 2026 23:14:28 -0000
+Message-Id: <176981486877.4109353.5133923491121523232@gitolite.kernel.org>
 
---===============3593400829009570458==
+--===============3929603468196116403==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/chanwoo/extcon
+repo: pub/scm/linux/kernel/git/chanwoo/linux
 user: chanwoo
 changes:
-  - ref: refs/heads/extcon-fixes
-    old: dcb6fa37fd7bc9c3d2b066329b0d27dedf8becaa
+  - ref: refs/heads/devfreq-fixes
+    old: 6146a0f1dfae5d37442a9ddcba012add260bceb0
     new: 63804fed149a6750ffd28610c5c1c98cce6bd377
-    log: revlist-dcb6fa37fd7b-63804fed149a.txt
+    log: revlist-6146a0f1dfae-63804fed149a.txt
 
---===============3593400829009570458==
+--===============3929603468196116403==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-dcb6fa37fd7b-63804fed149a.txt
+Content-Disposition: attachment; filename=revlist-6146a0f1dfae-63804fed149a.txt
 
 95cc9e7cf03d3646abce4129d5c013af33a7df99 x86/kvm: Avoid freeing stack-allocated node in kvm_async_pf_queue_task
 9be25402d8522e16e5ebe84f2b1b6c5de082a388 ALSA: hda/realtek: Add quirk for Acer Nitro AN517-55
@@ -1051,4 +1051,4 @@ f9e6e6d210669f24697e615b68b5abbae9d7a32e Merge tag 'keys-trusted-next-6.19-rc7' 
 0237777974728cc5a6f45347b7eca473ab6ef90a Merge tag 'scsi-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
 63804fed149a6750ffd28610c5c1c98cce6bd377 Linux 6.19-rc7
 
---===============3593400829009570458==--
+--===============3929603468196116403==--
