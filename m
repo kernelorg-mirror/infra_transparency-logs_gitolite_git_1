@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Fri, 30 Jan 2026 20:24:03 -0000
-Message-Id: <176980464359.3974200.991702998081605513@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+Date: Fri, 30 Jan 2026 20:29:39 -0000
+Message-Id: <176980497958.3978214.18019752619327865590@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: ast
+repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+user: jarkko
 changes:
-  - ref: refs/heads/for-next
-    old: b18a761ca0f6ef7c07b0ae5cee28315a0c5478a8
-    new: cd77618c418254b827f2a807b4c27b97088fdb52
+  - ref: refs/heads/vcam
+    old: 2a57bcb2ca2d5a491decbbf5245f21f0b58df33b
+    new: 5594272686abda041d12024625fc90448fc8998f
     log: |
-         cd77618c418254b827f2a807b4c27b97088fdb52 selftests/bpf: Make bpf get_preempt_count() work for v6.14+ kernels
+         5594272686abda041d12024625fc90448fc8998f media: Virtual camera driver
          
