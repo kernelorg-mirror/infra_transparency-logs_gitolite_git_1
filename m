@@ -1,27 +1,62 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Fri, 30 Jan 2026 03:51:00 -0000
-Message-Id: <176974506063.2982511.2748459285902832363@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============4775547250415201029=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/powerpc/linux
+Date: Fri, 30 Jan 2026 03:52:13 -0000
+Message-Id: <176974513390.2983069.14439061083543354458@gitolite.kernel.org>
+
+--===============4775547250415201029==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: kuba
+repo: pub/scm/linux/kernel/git/powerpc/linux
+user: maddy
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/main
-    old: 86a8e8e0ddbc3d14c799536eb888180b84d002f3
-    new: 6ad42b24413630199cb9f35d073f71768788f8dc
+  - ref: refs/heads/next-test
+    old: 1790f2f2939716be454170508d595758121894df
+    new: 33c1c6d8a28a2761ac74b0380b2563cf546c2a3a
     log: |
-         705c7933d9981e690790edc48cc50889e47163d4 bng_en: Extend bnge_set_ring_params() for rx-copybreak
-         4d6a60057c34b7db611905d5a65ef2e6a36ec731 bng_en: Add RX support
-         23cfc4e8e149012a137aba13f25667f311d4e670 bng_en: Handle an HWRM completion request
-         bd5ad9c052c855c0c8a0e98f5405a22f5887b298 bng_en: Add TX support
-         5deaeae186b4e3b2e2f1dd16f6279873424935aa bng_en: Add ndo_features_check support
-         c858ac8735ae6b5808a0655d72e0753edbe6b5ac bng_en: Add support to handle AGG events
-         58165c99324e0590c7eb0e3addffd3bd5ca18780 bng_en: Add TPA related functions
-         c2effd12c96d4b4a5fe11c0b4bcf3d781654b657 bng_en: Add support for TPA events
-         6ad42b24413630199cb9f35d073f71768788f8dc Merge branch 'bng_en-enhancements-for-rx-and-tx-datapath'
+         15513beeb673765c05cdd8e526ccee33906375cb powerpc64/bpf: Moving tail_call_cnt to bottom of frame
+         2ed2d8f6fb3853daa536d79e0799cbac91fac9f5 powerpc64/bpf: Support tailcalls with subprogs
+         88cb7f40344d8b81ecfc4709b5382a956739c272 powerpc64/bpf: Avoid tailcall restore from trampoline
+         b1c24f089bcf23faa23397dfb5e05f82a8c6cf56 powerpc64/bpf: Add arch_bpf_stack_walk() for BPF JIT
+         c169930292f7f31a6e500803e6c5ffbb9d5e6e4b powerpc64/bpf: Support exceptions
+         11d45eee9f42f7d3f9c9f190a6f79e570d345fe2 powerpc64/bpf: Additional NVR handling for bpf_throw
+         4acc549e800e1035475995b6b144040561115fa8 powerpc: kgdb: Remove OUTBUFMAX constant
+         33c1c6d8a28a2761ac74b0380b2563cf546c2a3a powerpc/smp: Add check for kcalloc() failure in parse_thread_groups()
          
+
+--===============4775547250415201029==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Madhavan Srinivasan <maddy@linux.ibm.com> 1769745129 +0530
+pushee gitolite.kernel.org:pub/scm/linux/kernel/git/powerpc/linux
+nonce 1769745127-230b83a03029fe23415db0ee1892192880198719
+
+1790f2f2939716be454170508d595758121894df 33c1c6d8a28a2761ac74b0380b2563cf546c2a3a refs/heads/next-test
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAABCgAdFiEEqX2DNAOgU8sBX3pRpnEsdPSHZJQFAml8KukACgkQpnEsdPSH
+ZJSUhA/+NdnqeUHhteD2pYR3Kng9CNn4hZc5tg9dKq7xtefxE9Hnu53XgTQn5Sf5
+KZKJjAndKxkbdEjrbLjmhkMdFn1oyLCb/wLd7JetCecpyiJhpFBXI9O74eXu8WG1
+IFr0ZIEvLUNrq0J0aZpHOXv3Esl/Yx9CBlgcP3MjLmtSijuUWiAruN8ZkmrASXr8
+lHzH8E9R+0ssdfSee+OiaSaHd5RLd9PyJQZqdqFkrtoSIhP7vP7ASuT+rCBX/zic
+FRdEoyQ7qq3JHW/Tz6TzpAqYlbCIeu4ndanGRKX4z1mYsyVuIjU36zIOeG80+T0i
+4h1KCmgDO2CpcYONRSUNc4H/oucYzQZqSneQaPvdWbu9lf8zb/1yo7kj7wpY0uDV
+wghxX+17pB+zYyzn+pu2kBD7xVqW1Ab+tdQOJb4YJZSnjQCuTfq+ZjTFrcq3dTd3
+PjHtGykJWP4SC8ijCtZP9Y2w/k8i08Tr84+DutPDboQEUNG8aGws6lJOudAJ1Q6J
+SBZWFLcSfykId8dze3InkfKEP7KdsqPuAe6FypHQX3x2iCW8AbRoTjZjdMJj3KY3
+OlvOd4joVSO7PJ0wjB085B6Z5RO4qKYbtmMTVn9+hbkS/CoZPF4MLcwSz66A3klv
+21NIc2CjXZo5gdhdSG7ZU7bJj95Y67iz+DdN9OcmC2e+eEU7BCo=
+=iEQL
+-----END PGP SIGNATURE-----
+
+--===============4775547250415201029==--
