@@ -1,31 +1,40 @@
-Content-Type: multipart/mixed; boundary="===============0059607144303653262=="
+Content-Type: multipart/mixed; boundary="===============4204368183175158025=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/chanwoo/extcon
-Date: Fri, 30 Jan 2026 23:15:57 -0000
-Message-Id: <176981495780.4112504.15656453645224047092@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/chanwoo/linux
+Date: Fri, 30 Jan 2026 23:16:34 -0000
+Message-Id: <176981499484.4112876.2829747399613485966@gitolite.kernel.org>
 
---===============0059607144303653262==
+--===============4204368183175158025==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/chanwoo/extcon
+repo: pub/scm/linux/kernel/git/chanwoo/linux
 user: chanwoo
 changes:
-  - ref: refs/heads/extcon-testing
-    old: 925e04713b380ad2b73ffcf2ece5ee1bfaa2689f
-    new: 67ceff534b7c9352aaa66c7e7d6345d13e5d763f
-    log: revlist-925e04713b38-67ceff534b7c.txt
+  - ref: refs/heads/devfreq-testing
+    old: d9ab9c052b720b0673e771a13c798d2f41ae3f27
+    new: 63804fed149a6750ffd28610c5c1c98cce6bd377
+    log: revlist-d9ab9c052b72-63804fed149a.txt
 
---===============0059607144303653262==
+--===============4204368183175158025==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-925e04713b38-67ceff534b7c.txt
+Content-Disposition: attachment; filename=revlist-d9ab9c052b72-63804fed149a.txt
 
+95cc9e7cf03d3646abce4129d5c013af33a7df99 x86/kvm: Avoid freeing stack-allocated node in kvm_async_pf_queue_task
+9be25402d8522e16e5ebe84f2b1b6c5de082a388 ALSA: hda/realtek: Add quirk for Acer Nitro AN517-55
+7711f4bb4b360d9c0ff84db1c0ec91e385625047 netfilter: nft_set_pipapo: fix range overlap detection
+a675d1caa2041f05f6343fad67b04f8babf32217 selftests: netfilter: nft_concat_range.sh: add check for overlap detection bug
+36a3200575642846a96436d503d46544533bb943 netfilter: nft_synproxy: avoid possible data-race on update operation
+2bafeb8d2f380c3a81d98bd7b78b854b564f9cd4 netfilter: replace -EEXIST with -EBUSY
+fb21116099bbea1fc59efa9207e63c4be390ab72 phy: broadcom: ns-usb3: Fix Wvoid-pointer-to-enum-cast warning (again)
+bc277212b41ade2137b6278db24652d0847e9a91 pinctrl: pic64gx-gpio2: Add REGMAP_MMIO dependency
+ebc18e9854e5a2b62a041fb57b216a903af45b85 pinctrl: qcom: lpass-lpi: mark the GPIO controller as sleeping
 5623eb1ed035f01dfa620366a82b667545b10c82 io_uring/tctx: add separate lock for list of tctx's in ctx
 70eafc743016b1df73e00fd726ffedd44ce1bdd3 io_uring/memmap: drop unused sz param in io_uring_validate_mmap_request()
 69153e8b97ebe2afc0dd101767a9805130305500 block, bfq: update outdated comment
@@ -1041,14 +1050,5 @@ c1a5135e60f1a026f135c6b0964cc8f4e1c4a8bb Merge tag 'input-for-v6.19-rc6' of git:
 f9e6e6d210669f24697e615b68b5abbae9d7a32e Merge tag 'keys-trusted-next-6.19-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/jarkko/linux-tpmdd
 0237777974728cc5a6f45347b7eca473ab6ef90a Merge tag 'scsi-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
 63804fed149a6750ffd28610c5c1c98cce6bd377 Linux 6.19-rc7
-dc0955b5d89174c258ff9c669c3a0b878c844206 extcon: ptn5150: handle pending IRQ events during system resume
-e0e6cf19804e3d6adabc7b69c0f784fcb98d56e4 extcon: int3496: replace use of system_wq with system_percpu_wq
-d43d02522d9bfcf39f8a41643be070035a2f04c0 extcon: Fixed sysfs duplicate filename issue
-635e7a71b152c2f330ac99aaa86b06753ba9f09d dt-bindings: extcon: ptn5150: Allow "connector" node to present
-1243bd0574761e5b98f9b443b4e9d11b689de65e extcon: ptn5150: Add Type-C orientation switch support
-b3e87c7fd0621d26063aa39f0d6e99ec8127fea5 extcon: ptn5150: Support USB role switch via connector fwnode
-cc59e9ce5c15e0272c0eb189c1b3e10424168ff0 extcon: usbc-tusb320: Make typec-power-opmode optional
-e30879ea56bc18f1acb79aff45d8614dc798f24e dt-bindings: extcon: document Samsung S2M series PMIC extcon device
-67ceff534b7c9352aaa66c7e7d6345d13e5d763f extcon: add support for Samsung S2M series PMIC extcon devices
 
---===============0059607144303653262==--
+--===============4204368183175158025==--
