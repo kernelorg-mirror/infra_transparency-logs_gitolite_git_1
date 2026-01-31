@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Sat, 31 Jan 2026 15:10:04 -0000
-Message-Id: <176987220456.660519.13844086288735159311@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kbuild/linux
+Date: Sat, 31 Jan 2026 15:12:58 -0000
+Message-Id: <176987237873.662859.13039025905309373386@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-user: jarkko
+repo: pub/scm/linux/kernel/git/kbuild/linux
+user: nsc
 changes:
-  - ref: refs/heads/vcam
-    old: 4b3eb0507d1c422ff70c8d5aa7c8325453c5e57a
-    new: bbdcc2eceb8b4a36d57ab95aa31fa23cb6b2014f
+  - ref: refs/heads/kbuild-fixes-unstable
+    old: 6d60354ea2f90352b22039ed8371c4f4321df90e
+    new: 8e24994872361212531a952c93adb01c485148f1
     log: |
-         bbdcc2eceb8b4a36d57ab95aa31fa23cb6b2014f media: Virtual camera driver
+         8e24994872361212531a952c93adb01c485148f1 kbuild: Do not run kernel-doc when building external modules
          
