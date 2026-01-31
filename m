@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
-Date: Sat, 31 Jan 2026 17:13:28 -0000
-Message-Id: <176987960800.762510.7166937241904589197@gitolite.kernel.org>
+Date: Sat, 31 Jan 2026 17:15:22 -0000
+Message-Id: <176987972213.765647.1047404467817761390@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/jic23/iio
 user: jic23
 changes:
   - ref: refs/heads/testing
-    old: 050f8e73acc3397e2e185631df61ac665f3a9242
-    new: ac5b6f298708870a067a42e076b48014d82caba5
+    old: ac5b6f298708870a067a42e076b48014d82caba5
+    new: 04ef68bdfc48bbad01152250c66f62309929ba4e
     log: |
-         ac5b6f298708870a067a42e076b48014d82caba5 MAINTAINERS: add entry for ADL8113 driver
+         04ef68bdfc48bbad01152250c66f62309929ba4e iio: pressure: hsc030pa: Improve i2c_transfer return value handling
          
