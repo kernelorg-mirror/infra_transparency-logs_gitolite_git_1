@@ -1,22 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Sat, 31 Jan 2026 21:51:34 -0000
-Message-Id: <176989629478.974751.16247506671655990130@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ardb/linux
+Date: Sat, 31 Jan 2026 21:54:02 -0000
+Message-Id: <176989644214.975526.8122779682386418707@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: ast
+repo: pub/scm/linux/kernel/git/ardb/linux
+user: ardb
 changes:
-  - ref: refs/heads/for-next
-    old: f0b5b3d6b56f8717e255406366d81bbcd3631660
-    new: 4bebb99140c7b6ee6d894c40557f938804fa8693
+  - ref: refs/heads/x86-pie-v4-wip
+    old: fe8b22fe544dd4bad84a13048be0c5698bdc242d
+    new: 2b63aad2629c6c635b749d6de05a4d20fd29e3e6
     log: |
-         8798902f2b8bcae6f90229a1a1496b48ddda2972 bpf: Add bpf_jit_supports_fsession()
-         e3aa56b3ac175bccb8fe60d652a3df2ea6a68a1e bpf, arm64: Add fsession support
-         7f10da2133b18b0f1bc02d58671883537e212279 selftests/bpf: Enable get_func_args and get_func_ip tests on arm64
-         4bebb99140c7b6ee6d894c40557f938804fa8693 Merge branch 'bpf-arm64-add-fsession-support'
+         e07d74a405f8a71b1ca29518077d03ce0bac509c x86/boot: Use relative references to seed the initial page tables
+         256391632c5b38212080fff7c7a9875cd77e6df7 x86/boot: Apply ELF PIE relocation fixups during startup
+         2b63aad2629c6c635b749d6de05a4d20fd29e3e6 x86/kernel: Switch to PIE linking for the relocatable kernel
          
