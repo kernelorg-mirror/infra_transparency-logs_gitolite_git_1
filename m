@@ -1,42 +1,54 @@
-Content-Type: multipart/mixed; boundary="===============3250899529486437008=="
+Content-Type: multipart/mixed; boundary="===============3191987375335858138=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Sat, 31 Jan 2026 21:01:11 -0000
-Message-Id: <176989327179.935370.8603600627098117881@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Sat, 31 Jan 2026 21:08:59 -0000
+Message-Id: <176989373981.940129.7489332581640217178@gitolite.kernel.org>
 
---===============3250899529486437008==
+--===============3191987375335858138==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: kuba
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
-  - ref: refs/heads/main
-    old: df31a6b0a3057e66994ad6ccf5d95b9b9514f033
-    new: a22f57757f7e88c890499265c383ecb32900b645
-    log: revlist-df31a6b0a305-a22f57757f7e.txt
+  - ref: refs/heads/master
+    old: ad9a728a3388dc5f66eab6b7135e0154249e9403
+    new: 162b42445b585cd89f45475848845db353539605
+    log: revlist-ad9a728a3388-162b42445b58.txt
 
---===============3250899529486437008==
+--===============3191987375335858138==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-df31a6b0a305-a22f57757f7e.txt
+Content-Disposition: attachment; filename=revlist-ad9a728a3388-162b42445b58.txt
 
-1766de15a571662fcd9c0a870de3a06890142a1e dt-bindings: can: renesas,rcar-canfd: Document renesas,fd-only property
-9a2b56a48c219d189366dd9bf4c2b42afde2f361 can: rcar_canfd: Add support for FD-Only mode
-065b273098db37e15aaea4962f3fab74c8ee17de Merge patch series "Add FD-Only mode support for R-Car CANFD"
-af6b427c7ad096724da7399b180dc3bb9f033322 dt-bindings: can: renesas,rcar-canfd: Specify reset-names
-c74ab6275c34315b3987750760c900136b1009fe dt-bindings: can: renesas,rcar-canfd: Document RZ/V2H(P) and RZ/V2N SoCs
-1e3710b1fe915e24ff78f6b7a838eb9557c5baca dt-bindings: can: renesas,rcar-canfd: Document RZ/T2H and RZ/N2H SoCs
-e8e46378825b058feefff799537e797fae321858 can: rcar_canfd: Add RZ/T2H support
-f9c08bc13eb267a1b0dd557212f654f46f5e6989 Merge patch series "Add CANFD support to R9A09G056/057/077/087 SoCs"
-a6c89d75fd33b0df5e4f88ae9458d455f21fc656 can: sja1000: sja1000_err(): make use of sja1000_get_berr_counter() to read error counters
-22ca24978337477969b955b9bfc46d28b59b5bf7 can: sja1000: sja1000_err(): use error counter for error state
-173eb9a902d1d9ce6d0d6a88546f0f7a07bfbdf4 Merge patch series "can: sja1000: clean up CAN state handling"
-a22f57757f7e88c890499265c383ecb32900b645 Merge tag 'linux-can-next-for-6.20-20260131' of git://git.kernel.org/pub/scm/linux/kernel/git/mkl/linux-can-next
+4b22ec1685ce1fc0d862dcda3225d852fb107995 efivarfs: fix error propagation in efivar_entry_get()
+6dd0fdc908c02318c28ec2c0979661846ee0a9f7 ASoC: cs35l45: Corrects ASP_TX5 DAPM widget channel
+2e48020fd7ced9e9953c55b57a5cb608e64deee0 ASoC: dt-bindings: fsl,sai: Add support for i.MX952 platform
+9210f5ff6318163835d9e42ee68006be4da0f531 ASoC: fsl: imx-card: Do not force slot width to sample width
+018b211b1d321a52ed8d8de74ce83ce52a2e1224 ASoC: amd: yc: Add ASUS ExpertBook PM1503CDA to quirks list
+630fbc6e870eb06c5126cc97a3abecbe012272c8 ALSA: hda/realtek - fixed speaker no sound
+2733634a5f7b7faa95e81565d3c9178dc1b6e563 Merge tag 'asoc-fix-v6.19-rc6' of https://git.kernel.org/pub/scm/linux/kernel/git/broonie/sound into for-linus
+1aaedafb21f38cb872d44f7608b4828a1e14e795 ALSA: hda/realtek: Really fix headset mic for TongFang X6AR55xU.
+891b77d459d0ce993c68365d899134bc9fd47ac0 ALSA: hda/realtek: fix right sounds and mute/micmute LEDs for HP machine
+9e18920e783d0bcd4c127a7adc66565243ab9655 ALSA: hda/realtek: Add quirk for Inspur S14-G1
+403a0591be681eebc0c4825f8b42afe7fd13ee7f ASoC: soc-acpi-intel-ptl-match: fix name_prefix of rt1320-2
+9502b7df5a3c7e174f74f20324ac1fe781fc5c2d ASoC: amd: yc: Add DMI quirk for Acer TravelMate P216-41-TCO
+213c4e51267fd825cd21a08a055450cac7e0b7fb ASoC: Intel: sof_es8336: fix headphone GPIO logic inversion
+62089b804895e845f82e132ea9d46a1fc53ed5a7 kbuild: rpm-pkg: Generate debuginfo package manually
+6d60354ea2f90352b22039ed8371c4f4321df90e kbuild: Fix permissions of modules.builtin.modinfo
+5815d9303c67cef5f47cd01e73b671e6b9c40ef3 iommupt: Only cache flush memory changed by unmap
+94e5baff3ee3cd1a5246c85b0744092eab1c5d42 ASoC: sof_sdw: Add a quirk for Lenovo laptop using sidecar amps with cs42l43
+00f32dfceda29f8dc6c34b159123f3bf78ad3b4c Merge tag 'asoc-fix-v6.19-rc7' of https://git.kernel.org/pub/scm/linux/kernel/git/broonie/sound into for-linus
+80f1a2c2332fee0edccd006fe87fc8a6db94bab3 iommu/tegra241-cmdqv: Reset VCMDQ in tegra241_vcmdq_hw_init_user()
+8e24994872361212531a952c93adb01c485148f1 kbuild: Do not run kernel-doc when building external modules
+44f4119c7c6aac5f6d476b51a0bc62dcbfcaad12 Merge tag 'kbuild-fixes-6.19-3' of git://git.kernel.org/pub/scm/linux/kernel/git/kbuild/linux
+9827b1fb558a58b40e5c6f0689acb8597c2dea00 Merge tag 'sound-6.19-rc8' of git://git.kernel.org/pub/scm/linux/kernel/git/tiwai/sound
+d097a0783102a9e966ed0a70f54def4a1d091b6a Merge tag 'efi-fixes-for-v6.19-3' of git://git.kernel.org/pub/scm/linux/kernel/git/efi/efi
+162b42445b585cd89f45475848845db353539605 Merge tag 'iommu-fixes-v6.19-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/iommu/linux
 
---===============3250899529486437008==--
+--===============3191987375335858138==--
