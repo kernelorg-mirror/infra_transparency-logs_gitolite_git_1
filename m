@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/chao/linux
-Date: Sat, 31 Jan 2026 02:15:19 -0000
-Message-Id: <176982571939.62070.816783398720000587@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+Date: Sat, 31 Jan 2026 02:27:54 -0000
+Message-Id: <176982647447.70666.14276003406274973839@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/chao/linux
-user: chao
+repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+user: jarkko
 changes:
-  - ref: refs/heads/feature/lock_trace
-    old: 2f5e02735119529ef64c2657a02ac6be6942e64a
-    new: 78f8106ba20143343d61e28df52412cd4546e3ea
+  - ref: refs/heads/vcam
+    old: f79d6d485641febbe4f1060ee3e34227d6ca2516
+    new: ea32f07888ec91ef77d6f6ce8cdfe5c431157bb7
+    log: |
+         ea32f07888ec91ef77d6f6ce8cdfe5c431157bb7 media: Virtual camera driver
+         
