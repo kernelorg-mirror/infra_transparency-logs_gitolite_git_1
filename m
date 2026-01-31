@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6804193516445324126=="
+Content-Type: multipart/mixed; boundary="===============7413163347776066579=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Sat, 31 Jan 2026 17:29:31 -0000
-Message-Id: <176988057158.774269.3526427054002568603@gitolite.kernel.org>
+Date: Sat, 31 Jan 2026 17:29:41 -0000
+Message-Id: <176988058170.774561.14511620011166042892@gitolite.kernel.org>
 
---===============6804193516445324126==
+--===============7413163347776066579==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tip/tip
 user: bp
 changes:
-  - ref: refs/heads/tip/urgent
-    old: deb96d5972ec97c3d76f51eba890548d828848fb
-    new: f3717de1e883f8b0f5005117ab064ab4919b5f60
-    log: revlist-deb96d5972ec-f3717de1e883.txt
+  - ref: refs/heads/master
+    old: 224eba10a82dfc04cd50d6afb4146a53d8ccd5ea
+    new: 00d313b3655507e363b7f41f937fefe8815b0928
+    log: revlist-224eba10a82d-00d313b36555.txt
 
---===============6804193516445324126==
+--===============7413163347776066579==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-deb96d5972ec-f3717de1e883.txt
+Content-Disposition: attachment; filename=revlist-224eba10a82d-00d313b36555.txt
 
 600559b9817f6eaa927035eebb12534fadb35ee8 rust: rbtree: fix minor typo in comment
 45f6aed8a835ee2bdd0a5d5ee626a91fe285014f rust: rbtree: fix documentation typo in CursorMut peek_next method
@@ -102,18 +102,53 @@ dfd64f6e8cd7b59238cdaf8af7a55711f13a89db drm/amdgpu/gfx12: adjust KGQ reset sequ
 016bf66866d1aff89be273520de9179148a772b1 Merge tag 'amd-drm-fixes-6.19-2026-01-29' of https://gitlab.freedesktop.org/agd5f/linux into drm-fixes
 3a390a21ff0bc53800433441045c00b51de9d439 Merge tag 'drm-misc-fixes-2026-01-29' of https://gitlab.freedesktop.org/drm/misc/kernel into drm-fixes
 4327db89f5e02458001b9c296a961265b8613395 Merge tag 'drm-fixes-2026-01-30' of https://gitlab.freedesktop.org/drm/kernel
+03150a9f84b328f5c724b8ed9ff8600c2d7e2d7b entry: Remove unused syscall argument from syscall_trace_enter()
+e1647100c22eb718e9833211722cbb78e339047c entry: Rework syscall_exit_to_user_mode_work() for architecture reuse
+578b21fd3ab2d9901ce40ed802e428a41a40610d entry: Add arch_ptrace_report_syscall_entry/exit()
+31c9387d0d84bc1d643a0c30155b6d92d05c92fc entry: Inline syscall_exit_work() and syscall_trace_enter()
+5c4378b7b0e1f45cf38e77db9305ee2c7bf88002 Merge branch 'core/entry' into sched/core
 d941a3f65605113db18d1485d65f0e175238beea Merge tag 'gpio-fixes-for-v6.19-rc8' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux
+56534673cea7f00d96a64deb58057298fe9f192e tick/nohz: Optimize check_tick_dependency() with early return
 2b54ac9e0cf8986e138736840f20d537db22ce79 Merge tag 'dma-mapping-6.19-2026-01-30' of git://git.kernel.org/pub/scm/linux/kernel/git/mszyprowski/linux
 03610bd6b53cc5e42ce767faddd489220f0011ef Merge tag 'block-6.19-20260130' of git://git.kernel.org/pub/scm/linux/kernel/git/axboe/linux
 115135422562e2f791e98a6f55ec57b2da3b3a95 sched/deadline: Fix 'stuck' dl_server
 76ed27608f7dd235b727ebbb12163438c2fbb617 perf: sched: Fix perf crash with new is_user_task() helper
+386ced19e9a348e8131d20f009e692fa8fcc4568 PCI/MSI: Convert the boolean no_64bit_msi flag to a DMA address mask
+52f0d862f595a2fa18ef44532619a080c24fe4cb PCI/MSI: Check the device specific address mask in msi_verify_entries()
+617562bbe12df796fc21df5fbf262eadf083a90f drm/radeon: Make MSI address limit based on the device DMA limit
+cb9b6f9d2be6bda1b0117b147df40f982ce06888 ALSA: hda/intel: Make MSI address limit based on the device DMA limit
 367b81ef010ad3d0986af32f594c3a2e5807b40a Merge tag 'rust-fixes-6.19' of git://git.kernel.org/pub/scm/linux/kernel/git/ojeda/linux
 283073725700d494d0d8f0085f76bb4e3ff063ce Merge tag 'riscv-for-linus-6.19-rc8' of git://git.kernel.org/pub/scm/linux/kernel/git/riscv/linux
 2912d799e5342de7c06821668b930fd94639bd78 Merge tag 'firewire-fixes-6.19-rc8' of git://git.kernel.org/pub/scm/linux/kernel/git/ieee1394/linux1394
 ad9a728a3388dc5f66eab6b7135e0154249e9403 Merge tag 'for-linus-iommufd' of git://git.kernel.org/pub/scm/linux/kernel/git/jgg/iommufd
+8c89d3ad3095808ac130c535ad7ed3d1344d5986 x86/sev: Don't emit BSS_DECRYPTED section unless it is in use
 f2e22595438b72935e654476660410f1193210b0 Merge irq/urgent into tip/urgent
 e4938a799703f3a61026373530713dea648005c9 Merge objtool/urgent into tip/urgent
 cf20c47f1c0c680b3fd826ce4ac05d0adfddf651 Merge sched/urgent into tip/urgent
 f3717de1e883f8b0f5005117ab064ab4919b5f60 Merge perf/urgent into tip/urgent
+69660ef10b9254544cda72887f86855d6ae96f9b Merge x86/irq into tip/master
+361604f27c183a7a8f4498e19a85de27c4575e01 Merge x86/bugs into tip/master
+8b4ff8310fc4a6c51b983be191df2a7408543ee9 Merge x86/cpu into tip/master
+9d273485fcca46c85e7e256d5f8a726f00131caa Merge x86/alternatives into tip/master
+8d02de6ab0b754cc675e8fecfc180d841afba18a Merge x86/cache into tip/master
+3ae80c65d7876244a907966d9c25c58c1ea366a4 Merge x86/microcode into tip/master
+df5f963de930bdbe9915b4b501567311983572c5 Merge x86/misc into tip/master
+60b9a204e44f785a96c3af46183c34a5e3e22333 Merge x86/paravirt into tip/master
+acaf7a5b073f6cd80917f8d2b04f3d1e2ba1ba5e Merge perf/core into tip/master
+e934bf4fad834acfbe37e66a537d5358cf2db968 Merge x86/boot into tip/master
+72392b86a9becc26b6edd5fc73f286f55830e25e Merge x86/cleanups into tip/master
+d03d7be8b1512ac7ffe52c72387d0e1dc28ce1de Merge x86/apic into tip/master
+c8dedf0b12bd67f123d41a0c1e674943bfd8501e Merge irq/drivers into tip/master
+f8e7d406f0c3bf378309402fe12582c717e1b98f Merge timers/vdso into tip/master
+3b53229fae37bac15cdb554bc90903908bdb9f8e Merge x86/entry into tip/master
+d05465ba5e5b2dad447d0a53a9e04e628f4addbd Merge x86/platform into tip/master
+92beac0665946b9cf248322170613497a4116306 Merge locking/core into tip/master
+c4d486b023825e828360d337384c97dd662959bb Merge timers/clocksource into tip/master
+08929249c9cd18e9e891f6ed651ffe08cab218b5 Merge irq/core into tip/master
+865d463668db9f385e16710ceb19839a95c5e2d4 Merge core/entry into tip/master
+b7c2168c271baedee6f202e8db8b26b786642a5e Merge sched/core into tip/master
+8b6d746313742bc74588f3d8165503afe6453f0e Merge timers/core into tip/master
+17f0a54d9612e52de0fe489bb8789dd86d6e653a Merge irq/msi into tip/master
+00d313b3655507e363b7f41f937fefe8815b0928 Merge x86/sev into tip/master
 
---===============6804193516445324126==--
+--===============7413163347776066579==--
