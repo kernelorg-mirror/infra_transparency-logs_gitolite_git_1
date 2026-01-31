@@ -1,22 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ardb/linux
-Date: Sat, 31 Jan 2026 14:02:46 -0000
-Message-Id: <176986816604.608691.17811016028283554110@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Sat, 31 Jan 2026 14:07:02 -0000
+Message-Id: <176986842272.612829.5511430529956951440@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ardb/linux
-user: ardb
+repo: pub/scm/linux/kernel/git/tip/tip
+user: bp
 changes:
-  - ref: refs/heads/x86-pie-v4-wip
-    old: e9f5aeeb17ad1f5b0b86a198e03718ebae0b30a7
-    new: fe8b22fe544dd4bad84a13048be0c5698bdc242d
+  - ref: refs/heads/x86/sev
+    old: af05e558988ed004a20fc4de7d0f80cfbba663f0
+    new: 8c89d3ad3095808ac130c535ad7ed3d1344d5986
     log: |
-         9e5a500f82f5610729100d703d44faaa22de77f5 x86/boot: Store virtual KASLR seed in boot_params
-         41b307fcae8732e19effeda2f63b99ada38d4c90 x86/boot: Use relative references to seed the initial page tables
-         28dde57b2bc3f68671960ab2085afef1cea6c7cc x86/boot: Apply ELF PIE relocation fixups during startup
-         fe8b22fe544dd4bad84a13048be0c5698bdc242d x86/kernel: Switch to PIE linking for the relocatable kernel
+         8c89d3ad3095808ac130c535ad7ed3d1344d5986 x86/sev: Don't emit BSS_DECRYPTED section unless it is in use
          
