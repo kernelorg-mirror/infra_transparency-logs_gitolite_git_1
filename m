@@ -1,57 +1,42 @@
-Content-Type: multipart/mixed; boundary="===============4728196599197157684=="
+Content-Type: multipart/mixed; boundary="===============3250899529486437008=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/shemminger/iproute2
-Date: Sat, 31 Jan 2026 19:44:24 -0000
-Message-Id: <176988866448.876764.1406828096171683281@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Sat, 31 Jan 2026 21:01:11 -0000
+Message-Id: <176989327179.935370.8603600627098117881@gitolite.kernel.org>
 
---===============4728196599197157684==
+--===============3250899529486437008==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/shemminger/iproute2
-user: shemminger
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
   - ref: refs/heads/main
-    old: f2b24087e1546c65593d39ee2ba7cb55d58f8a0b
-    new: 72f679c0d07629fe9e462c2c52bbe48aaeaa7f83
-    log: |
-         96e411ae8e4f248b49ee3e321525ae500be2ea90 man/tc-actions: fix typo
-         72f679c0d07629fe9e462c2c52bbe48aaeaa7f83 man: Fix spelling in tipc-link man page
-         
+    old: df31a6b0a3057e66994ad6ccf5d95b9b9514f033
+    new: a22f57757f7e88c890499265c383ecb32900b645
+    log: revlist-df31a6b0a305-a22f57757f7e.txt
 
---===============4728196599197157684==
+--===============3250899529486437008==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-df31a6b0a305-a22f57757f7e.txt
 
-certificate version 0.1
-pusher Stephen Hemminger <stephen@networkplumber.org> 1769888663 -0800
-pushee gitolite.kernel.org:pub/scm/linux/kernel/git/shemminger/iproute2.git
-nonce 1769888663-a6e90da0227e76286b52a6f941092626c6534b98
+1766de15a571662fcd9c0a870de3a06890142a1e dt-bindings: can: renesas,rcar-canfd: Document renesas,fd-only property
+9a2b56a48c219d189366dd9bf4c2b42afde2f361 can: rcar_canfd: Add support for FD-Only mode
+065b273098db37e15aaea4962f3fab74c8ee17de Merge patch series "Add FD-Only mode support for R-Car CANFD"
+af6b427c7ad096724da7399b180dc3bb9f033322 dt-bindings: can: renesas,rcar-canfd: Specify reset-names
+c74ab6275c34315b3987750760c900136b1009fe dt-bindings: can: renesas,rcar-canfd: Document RZ/V2H(P) and RZ/V2N SoCs
+1e3710b1fe915e24ff78f6b7a838eb9557c5baca dt-bindings: can: renesas,rcar-canfd: Document RZ/T2H and RZ/N2H SoCs
+e8e46378825b058feefff799537e797fae321858 can: rcar_canfd: Add RZ/T2H support
+f9c08bc13eb267a1b0dd557212f654f46f5e6989 Merge patch series "Add CANFD support to R9A09G056/057/077/087 SoCs"
+a6c89d75fd33b0df5e4f88ae9458d455f21fc656 can: sja1000: sja1000_err(): make use of sja1000_get_berr_counter() to read error counters
+22ca24978337477969b955b9bfc46d28b59b5bf7 can: sja1000: sja1000_err(): use error counter for error state
+173eb9a902d1d9ce6d0d6a88546f0f7a07bfbdf4 Merge patch series "can: sja1000: clean up CAN state handling"
+a22f57757f7e88c890499265c383ecb32900b645 Merge tag 'linux-can-next-for-6.20-20260131' of git://git.kernel.org/pub/scm/linux/kernel/git/mkl/linux-can-next
 
-f2b24087e1546c65593d39ee2ba7cb55d58f8a0b 72f679c0d07629fe9e462c2c52bbe48aaeaa7f83 refs/heads/main
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEn2/DRbBb5+dmuDyPgKd/YJXN5H4FAml+W5cbHHN0ZXBoZW5A
-bmV0d29ya3BsdW1iZXIub3JnAAoJEICnf2CVzeR+PTcQAKCnKE0Fi7lOp4HZKtbm
-BP9iGbtxRaDwd6Wiopq5roMpYEOJoqbRbaeiErwHfWWODzVNS65hoRzx2ht5dH4H
-lfLWGL2K39B6+1RBhsuJO3fJxunaKmNieLZO15viny8IAYs2dwKbuJn+ahrIc+6o
-EZKpln9tBB2oXLEaycS0+HSZ3ye3OrCS7Cr1dDZIqYoGux1YcWZ95KhEXL8vc6ga
-RNo0D5YO+S1/Cs3MQU6VXM4YMMIUMt1Ty8x3kGASIzjOioSLIh5M3jN3RtQtiqf8
-m19W2sMqnjhY1wZDovvp26S83y945Nf5+qN1IgAWDgsX9SyWhgssWOvqGD5uyH/t
-HKVu824xjCM3T6mNPhkCD5CIZnLrdjpXuoUyVpH7zUlep1yM8N2Fgxi8WuHWmj0V
-5GRyDdG+w5QBPHChSMVM69lFwp5HRdvhm80Pqw9gM9iBFPHDYzcXRQlUD3iSBuv7
-aBcrkmnGWLdF2TwcBIrG3NAAWXjwUzCxGAPsa5QgnowdMxYUW4WQIQFIIGBWyDqR
-E3GgY0ANphIidARuKybLrVNMWiSW8QpFN8V5wKBUGHWydEQuQDcW9vC0CbP2/xOu
-LM4fm/peouzgZZy526AxLs7FhuNbh0PPTe0ASRgrmeTI8yzCov92HmH0/Fp5d39L
-UqW9MJtgjSNMU56vuoFQCSOZ
-=64XJ
------END PGP SIGNATURE-----
-
---===============4728196599197157684==--
+--===============3250899529486437008==--
