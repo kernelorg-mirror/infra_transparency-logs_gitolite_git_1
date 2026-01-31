@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Sat, 31 Jan 2026 16:22:52 -0000
-Message-Id: <176987657214.721652.16996044770427159235@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/iommu/linux
+Date: Sat, 31 Jan 2026 16:30:20 -0000
+Message-Id: <176987702015.728571.6156273620533638900@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-user: jarkko
+repo: pub/scm/linux/kernel/git/iommu/linux
+user: joro
 changes:
-  - ref: refs/heads/vcam
-    old: 48552833e5dd39a651df4aef27c9be3375050bde
-    new: d463ec4c992171908e95ccffa533d5a421aff1d2
-    log: |
-         d463ec4c992171908e95ccffa533d5a421aff1d2 media: Virtual camera driver
-         
+  - ref: refs/tags/iommu-fixes-v6.19-rc7
+    old: 0000000000000000000000000000000000000000
+    new: 0c7317e2afabd2d73ce6cc5f8468a4e7d695a3b3
