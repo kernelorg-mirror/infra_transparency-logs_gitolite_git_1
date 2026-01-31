@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kbuild/linux
-Date: Sat, 31 Jan 2026 15:13:10 -0000
-Message-Id: <176987239025.663163.2577475474884368317@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/nsc/kbuild
+Date: Sat, 31 Jan 2026 15:21:52 -0000
+Message-Id: <176987291279.671698.14378984894737617171@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kbuild/linux
+repo: pub/scm/linux/kernel/git/nsc/kbuild
 user: nsc
 changes:
-  - ref: refs/heads/kbuild-fixes-for-next
-    old: 6d60354ea2f90352b22039ed8371c4f4321df90e
-    new: 8e24994872361212531a952c93adb01c485148f1
-    log: |
-         8e24994872361212531a952c93adb01c485148f1 kbuild: Do not run kernel-doc when building external modules
-         
+  - ref: refs/tags/kbuild-fixes-6.19-3rc
+    old: 0000000000000000000000000000000000000000
+    new: 09458791b9a9fc5969e4cf6f4e0db8f3f7f8acee
