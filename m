@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Sun, 01 Feb 2026 08:45:32 -0000
-Message-Id: <176993553283.1472871.1153191361828587554@gitolite.kernel.org>
+Date: Sun, 01 Feb 2026 08:49:07 -0000
+Message-Id: <176993574779.1474283.8447370011359558844@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,6 +11,6 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
-  - ref: refs/tags/objtool-urgent-2026-02-01
+  - ref: refs/tags/perf-urgent-2026-02-01
     old: 0000000000000000000000000000000000000000
-    new: f09a9af8d29bc73e598fc961fb381248d8c12b16
+    new: 96ed63e11a0775837dc28f6d3dc6eeb32c63aa35
