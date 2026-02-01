@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Sun, 01 Feb 2026 04:30:05 -0000
-Message-Id: <176992020591.1282699.18376351842056633839@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
+Date: Sun, 01 Feb 2026 04:34:18 -0000
+Message-Id: <176992045871.1284316.17764980832756722443@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-user: jarkko
+repo: pub/scm/linux/kernel/git/akpm/25-new
+user: akpm
 changes:
-  - ref: refs/heads/vcam
-    old: 7cbc3708b5cdce4e1fb9a77d797d1dab4e85404d
-    new: 853ebe2abdfd30af39b9c777e8b340297bd814d2
+  - ref: refs/heads/master
+    old: a77dbb64f4e5dcfe2da12d9c111dba02d4f2c88a
+    new: f0f786dbf4ea22c49513c82bbb5855987a29cb4d
     log: |
-         853ebe2abdfd30af39b9c777e8b340297bd814d2 media: Virtual camera driver
+         f0f786dbf4ea22c49513c82bbb5855987a29cb4d foo
          
