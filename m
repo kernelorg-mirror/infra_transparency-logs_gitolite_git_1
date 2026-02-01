@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Sun, 01 Feb 2026 12:46:31 -0000
-Message-Id: <176994999115.1654911.10881094835549890578@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
+Date: Sun, 01 Feb 2026 12:49:52 -0000
+Message-Id: <176995019287.1655872.12710269445906432162@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-user: jarkko
+repo: pub/scm/linux/kernel/git/rafael/linux-pm
+user: rafael
 changes:
-  - ref: refs/heads/vcam
-    old: 6a9fdeda2d3006019c7ef9bc8c45108c0e692953
-    new: fa0b694b8e42aafcdadee9a7e413f04d267787d2
+  - ref: refs/heads/bleeding-edge
+    old: c0be52333b2b518d73c77408cee2822c1e50f13c
+    new: 9773c90876219f10ed57e88d8847a1852c95c550
     log: |
-         fa0b694b8e42aafcdadee9a7e413f04d267787d2 media: Virtual camera driver
+         bb1256e0ddc7e9e406164319769b9f8d8389f056 ACPI: battery: fix incorrect charging status when current is zero
+         9773c90876219f10ed57e88d8847a1852c95c550 Merge branch 'acpi-battery' into bleeding-edge
          
