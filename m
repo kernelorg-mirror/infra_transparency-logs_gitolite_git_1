@@ -1,19 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Sun, 01 Feb 2026 13:44:41 -0000
-Message-Id: <176995348147.1699385.2212233979904431090@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jejb/scsi
+Date: Sun, 01 Feb 2026 14:08:51 -0000
+Message-Id: <176995493172.1717601.4795586352848835540@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rdma/rdma
-user: leon
+repo: pub/scm/linux/kernel/git/jejb/scsi
+user: jejb
 changes:
-  - ref: refs/heads/wip/leon-for-next
-    old: 58b604dfc7bb753f91bc0ccd3fa705e14e6edfb4
-    new: e5b0cfa32b1c3e7f153373bfdc20ccdd3c342de2
+  - ref: refs/tags/scsi-fixes
+    old: 4702bc5eb1d5a5f9677a10e0328e44fe3ddf4e2d
+    new: ca3c57f69b83a7650daff11edcb3f17248971358
     log: |
-         e5b0cfa32b1c3e7f153373bfdc20ccdd3c342de2 MAINTAINERS: Drop RDMA files from Hyper-V section
+         56bd3c0f749f45793d1eae1d0ddde4255c749bf6 scsi: qla2xxx: edif: Fix dma_free_coherent() size
+         4747bafaa50115d9667ece446b1d2d4aba83dc7f scsi: be2iscsi: Fix a memory leak in beiscsi_boot_get_sinfo()
+         b2d6b1d443009ed4da2d69f5423ab38e5780505a scsi: firewire: sbp-target: Fix overflow in sbp_make_tpg()
+         0444568edbf87c1da76b61c798ce0f1c1e478467 scsi: ufs: amd-versal2: Fix PHY initialization in HCE enable notify
          
