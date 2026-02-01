@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7791696554870430021=="
+Content-Type: multipart/mixed; boundary="===============3520085892417665567=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Sun, 01 Feb 2026 00:13:13 -0000
-Message-Id: <176990479322.1082821.9873275917415687900@gitolite.kernel.org>
+Date: Sun, 01 Feb 2026 00:13:14 -0000
+Message-Id: <176990479474.1083026.3821486112687068075@gitolite.kernel.org>
 
---===============7791696554870430021==
+--===============3520085892417665567==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/mm-new
-    old: e718cb376cef0ab9dd28b4eec3339dc1a4371434
-    new: 9b54ebe937d11a01000d02e7e802a86aba1bb7c8
-    log: revlist-e718cb376cef-9b54ebe937d1.txt
+  - ref: refs/heads/mm-unstable
+    old: 8fe55e92d85334d79100124b41a10603afa069fc
+    new: 6e7edd486721d4f4fa449d9353da989c96d9bc4c
+    log: revlist-8fe55e92d853-6e7edd486721.txt
 
---===============7791696554870430021==
+--===============3520085892417665567==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e718cb376cef-9b54ebe937d1.txt
+Content-Disposition: attachment; filename=revlist-8fe55e92d853-6e7edd486721.txt
 
 f84b65b045f186b8fbaa32e090688ef3282b56c3 Merge branch 'mm-hotfixes-stable' into mm-stable to pick up "mm/shmem, swap: fix race of truncate and swap entry split", needed for merging "mm, swap: cleanup swap entry management workflow".
 7832e4d583ee7c6a7907731c568ca40b160d8a5e mm/khugepaged: remove unnecessary goto 'skip' label
@@ -235,15 +235,5 @@ be1e41b85fb3fbad3823c05543ebe494ab6ea0ea maple_tree: pass maple copy node to mas
 fe4400c7b0799002993bf611e7da1ca673ef9a2a mm/damon: unify address range representation with damon_addr_range
 525e0ed92d272370a10bc8af939f2b7e9829758b mm: refactor vma_map_pages to use vm_insert_pages
 6e7edd486721d4f4fa449d9353da989c96d9bc4c mm: khugepaged: fix NR_FILE_PAGES and NR_SHMEM in collapse_file()
-f55b895688baea65b39cf4132323b05c45b843f0 zsmalloc: make common caches global
-667619408828b015559638508675564986b1bcb1 maple_tree: update mas_next[_range] docs
-4d7fb813dd4608002034c19dd40209c2cb77cb3d selftests/mm: add memory failure anonymous page test
-cc3eedaafc47a75d4a568b387cac53d4ac01fbb8 selftests/mm: add memory failure clean pagecache test
-8a04673ad6deda23d9d8207934434c765edbf6c7 selftests/mm: add memory failure dirty pagecache test
-c769fc51b33bf62fea78bb861a5dee3d450c2bc9 memfd: export memfd_{add,get}_seals()
-e05ba492868b969577105d5104223ca75f570dee mm: memfd_luo: preserve file seals
-7524db01d61c86c5538bd0662f9baeea8fe5d375 mm/page_alloc: avoid overcounting bulk alloc in watermark check
-9c22598f0cceac516abf8750a525a95f140f035d mm/damon/stat: remove __read_mostly from memory_idle_ms_percentiles
-9b54ebe937d11a01000d02e7e802a86aba1bb7c8 arm64: mm: fix pass user prot to ioremap_prot in generic_access_phys
 
---===============7791696554870430021==--
+--===============3520085892417665567==--
