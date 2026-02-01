@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6031635970671531706=="
+Content-Type: multipart/mixed; boundary="===============6241455075989854548=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Sun, 01 Feb 2026 17:42:05 -0000
-Message-Id: <176996772528.1883430.7941390958256142013@gitolite.kernel.org>
+Date: Sun, 01 Feb 2026 17:42:06 -0000
+Message-Id: <176996772681.1883614.588339661086273971@gitolite.kernel.org>
 
---===============6031635970671531706==
+--===============6241455075989854548==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/mm-new
-    old: 9b54ebe937d11a01000d02e7e802a86aba1bb7c8
-    new: 909da7c26150f78e64a8e44ec336f1a5c2002006
-    log: revlist-9b54ebe937d1-909da7c26150.txt
+  - ref: refs/heads/mm-unstable
+    old: 6e7edd486721d4f4fa449d9353da989c96d9bc4c
+    new: 2c263046cbe6d9d5fce3dfeba063f199f7e6298f
+    log: revlist-6e7edd486721-2c263046cbe6.txt
 
---===============6031635970671531706==
+--===============6241455075989854548==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9b54ebe937d1-909da7c26150.txt
+Content-Disposition: attachment; filename=revlist-6e7edd486721-2c263046cbe6.txt
 
 944218b4bd35cc9e08ba42edac787e9ebb1c088f mm/hugetlb: restore failed global reservations to subpool
 9ba8ec588a53d1044a832cfe5500a32833e157ae x86/kfence: fix booting on 32bit non-PAE systems
@@ -122,15 +122,5 @@ aab586d481dcd66a157d96d940ef6a55682a0b06 maple_tree: add cp_converged() helper
 618f6c09bb2f98ea0e2356e60111c3b36b11213f mm/damon: unify address range representation with damon_addr_range
 892fd893e6cf99b4ccca4ab4cf7a7af0f6e7db4f mm: refactor vma_map_pages to use vm_insert_pages
 2c263046cbe6d9d5fce3dfeba063f199f7e6298f mm: khugepaged: fix NR_FILE_PAGES and NR_SHMEM in collapse_file()
-8d052fe5a4e69f738340e006f5fcb9d9338be113 zsmalloc: make common caches global
-d163dcd187c16a5b722525f480a7ed965074eaae maple_tree: update mas_next[_range] docs
-2098f91b44014333b62d2c8b5aeef3d533f0da20 selftests/mm: add memory failure anonymous page test
-d05f125cd2c6013730b54ed70bf24a3f614fdff1 selftests/mm: add memory failure clean pagecache test
-fac60385320c26182315f2a82854b5c6c8e2d1a4 selftests/mm: add memory failure dirty pagecache test
-d8204ce278adf78012f19bf9a63d73982cbf6f71 memfd: export memfd_{add,get}_seals()
-af6fd870bd4a6f3d098f3028eb0dc651bf1c5c72 mm: memfd_luo: preserve file seals
-0fd7e12a0892cb90fb669896c9c7d0aab5e31fe1 mm/page_alloc: avoid overcounting bulk alloc in watermark check
-e2a12268f31052a2419945018e50d2cab1085128 mm/damon/stat: remove __read_mostly from memory_idle_ms_percentiles
-909da7c26150f78e64a8e44ec336f1a5c2002006 arm64: mm: fix pass user prot to ioremap_prot in generic_access_phys
 
---===============6031635970671531706==--
+--===============6241455075989854548==--
