@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6954061089495908670=="
+Content-Type: multipart/mixed; boundary="===============1949982540456089031=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Sun, 01 Feb 2026 12:38:29 -0000
-Message-Id: <176994950990.1647032.8367376226411937608@gitolite.kernel.org>
+Date: Sun, 01 Feb 2026 12:38:34 -0000
+Message-Id: <176994951497.1647246.13696472042592658461@gitolite.kernel.org>
 
---===============6954061089495908670==
+--===============1949982540456089031==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/rdma/rdma
 user: leon
 changes:
-  - ref: refs/heads/wip/leon-for-rc
+  - ref: refs/heads/for-rc
     old: 24d479d26b25bce5faea3ddd9fa8f3a6c3129ea7
     new: 4d310797262f0ddf129e76c2aad2b950adaf1fda
     log: revlist-24d479d26b25-4d310797262f.txt
 
---===============6954061089495908670==
+--===============1949982540456089031==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -587,4 +587,4 @@ bcb6058a4b4596f12065276faeb9363dc4887ea9 Merge tag 'mm-hotfixes-stable-2026-01-2
 e9f6ac972ec0139a7988fe713740a957aea5d999 Merge tag 'mtd/fixes-for-6.19-rc8' of git://git.kernel.org/pub/scm/linux/kernel/git/mtd/linux
 4d310797262f0ddf129e76c2aad2b950adaf1fda Merge tag 'pm-6.19-rc8' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
 
---===============6954061089495908670==--
+--===============1949982540456089031==--
