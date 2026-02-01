@@ -1,56 +1,55 @@
-Content-Type: multipart/mixed; boundary="===============4908553304750907337=="
+Content-Type: multipart/mixed; boundary="===============1461102208094491881=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/firmware/linux-firmware
-Date: Sun, 01 Feb 2026 19:49:40 -0000
-Message-Id: <176997538058.1978971.12128637039846256905@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sj/damo
+Date: Sun, 01 Feb 2026 21:05:22 -0000
+Message-Id: <176997992251.2038271.17261051206704589922@gitolite.kernel.org>
 
---===============4908553304750907337==
+--===============1461102208094491881==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/firmware/linux-firmware
-user: jwboyer
+repo: pub/scm/linux/kernel/git/sj/damo
+user: sj
 changes:
-  - ref: refs/heads/main
-    old: 0882248d05045565bfefe1f07cbfc22276c9f058
-    new: 4b3f8c411f17b89f9fe06c39f1007c5dca29d070
-    log: revlist-0882248d0504-4b3f8c411f17.txt
+  - ref: refs/heads/next
+    old: 4810a1bf1651188200e73b54da997a311b12f071
+    new: 18f2d283880001abf5c926ba7ade71c87cc7564e
+    log: revlist-4810a1bf1651-18f2d2838800.txt
 
---===============4908553304750907337==
+--===============1461102208094491881==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0882248d0504-4b3f8c411f17.txt
+Content-Disposition: attachment; filename=revlist-4810a1bf1651-18f2d2838800.txt
 
-afae3262fa2ff868c51321762b93ad332eb4503a amdgpu: DMCUB updates for various ASICs
-8ae6479889d26c899d526ae57cc1306793852f15 Merge branch 'amd-staging' into 'main'
-1ccefae136c436be78d5863ed0f6bde347c13ced qcom: Remove ADSP SensorPD json for Radxa Dragon Q6A
-a7bd257ea49692c97699dddda8646d9949a46d3b qcom: Update ADSP and add CDSP firmware for qcs6490-radxa-dragon-q6a
-5eca37faca610231eabc374a4fff9801fd2073bd Merge branch 'dragon-q6a-fw-upd' into 'main'
-d8fc350033550f348260081594f71c81d67cf1c1 Update firmware for NPU PHX, STX and STX HALO
-f484e17077f2e4d6ca00c827298030d53ac19148 Merge branch 'upstream_fw' into 'main'
-f9c84ebaefbf22f30a5a327aef97884be5ed5e22 rtw89: 8852c: update REGD R73-R60, txpwr R82 and element of diag MAC
-a80ebbccb82683c385b758028b20ab6d1b84fd12 rtw89: 8922a: update REGD R73-R08, txpwr R46 and element of diag MAC
-2e5a8b0550ba3255bccc2bac57c520259968f5e9 Merge branch 'main' into 'main'
-db024df1e153c8fd5d3c7f79ce5ad08f09c10f64 cirrus: cs35l56: Add WHENCE links for 17aa233c spkid0 firmware
-140f21507590c8cc75a1ccc6f07b74cee7ada48d Merge branch 'robot/pr-0-1769706989' into 'main'
-dfff492a66a096d1bf62eaf681cc7b9fbd55c01a ice: update DDP LAG package to 1.3.2.0
-819dee21e338d86ef9d1d24f835ec1e5f373be88 Merge branch 'robot/pr-1-1769706992' into 'main'
-0fa5e69a0d9e295b9a2f7b41c8df97d7eacd8ce8 rtl_nic: add firmware rtl8125cp-1 for RTL8125cp
-dba64c4a05651bd344a5a315f027e6b264f0f2f2 Merge branch 'robot/patch-0-1769654600' into 'main'
-fb1cfb1989ea58ba10508d668fc9e43c5bda0e97 linux-firmware: update Aeonsemi AS21x1x firmware to 1.9.1
-2c6dc0a932e82d9c2779d615ed0b8a53a2a34009 Merge branch 'robot/patch-0-1768948282' into 'main'
-9a727f07bc60a06adb1ed50b554d66bd398deb36 amdgpu: DMCUB updates for various ASICs
-82e3e0e4c96fea2d584869faef91d2fbe0f01772 Merge branch 'amd-staging' into 'main'
-f18b40ebf5e8119bd5d6b0a4f4cbc0e1cb849e64 linux-firmware: Add Dell ISH firmware for Intel panther lake systems
-2251c616bbc3f1f64cb7847878fdc17758be1731 Merge branch 'wip/cragw/dell-581.7779.0' into 'main'
-1043c0303910c9f209959dfa39493ab9ea403291 linux-firmware: Add firmware for airoha-npu-7581 driver used for MT7990 offloading
-5f391573e93d59823affa9785e19a5c9fe4c9799 Merge branch 'robot/patch-0-1769587466' into 'main'
-af03e44a2029a93ddc95dcf3c9e2ffabafad3fcb WHENCE: Correct 2 trailing whitespaces
-4b3f8c411f17b89f9fe06c39f1007c5dca29d070 Merge branch 'robot/pr-0-1769787060' into 'main'
+595711a80d482cab07dc16aa5c24af151319d211 src/damo_pa_layout: return open-ended range from default_paddr_region()
+d062baf06ef251bcd4d93d66230eb234fe7f81fe TODO: update
+41e791a10b28e82fe761e6ca64c6e21d53795af9 README: clarify deprecated features support
+c90c9d30e1bcfd9cfc6d4283564f57668b7b9282 damo_report_sysinfo: show available DAMON modules by default
+cf8ca3a9d71fd563fa0cc876f949915965e5d4f1 TODO: update items for lru_sort and stat new features checking
+65e5268db594e23f29febba194378d4a03d21dd5 damo_report_damon: show non-sysfs module stats
+4497a1766ca6bb2fff2fd5e8466e2d018369d351 release_note: update for next release
+c1f700e3ea29ab782778033c74cec895b7f0c20f _damon_features: add stat/aggr_interval and stat/negative_idle_time features
+5622cbb20a4ddd794767c3001a1581f7dc5d68d3 _damo_sysinfo: check stat/aggr_interval and stat/negative_idle_time
+cc41736d1a1f6d3895daafa9bd40b71a9fc72ed7 damo_report_sysinfo: print damon_stat features
+11ffd0902af3ce8b1c583e4b0754172516c59b0d TODO: update
+6812901762f68b7323d59f1785c48319fd9dc4d6 _damo_cli_complete: add Option.non_positional_candidates
+ccad80676064fe9124eed10a17b89838644d0fb1 _damo_cli_complete: use non_positional_arguments for damo report sysinfo --print
+510e13a6920220c99c10a86a6ece9fc97dcad2fa _damon_features: s/module\//interface\//
+02921d835148b9848dc6b0de3a4e7970b7dd8c75 damo_report_sysinfo: print interfaces before features
+934c2408ac3c73d3dabf750a32a087d790f80d8c _damo_cli_complete: s/modules/interfaces/
+1ab238222c0c30a6ca6ad621ea788f7e8e590e09 damo_report_damon: exclude sample modules from output
+9de33aa02e58d184face577b7bbba45a7a32c273 damo_record: split out kdamonds retrieval for ongoing target
+d48e0d9c4dde45c3a8e8d00252ad9cb9a2d6c8cd _damon: fix wrong default schemes of DamonCtx()
+31e95727061c867167dafc76058ac5f3b0f4e598 _damon: add interface field to Kdamond
+eb8234d7a69a002bfa52009940d00c9a570b286b _damo_records: support damon_stat generated kdamonds
+5382526b589a2f2df41a3ba9c5764689d35b15cc damo_record: support ongoing target with damon_stat kdamond
+6a168d0939361d272b72465a0862d159f392fdc4 release_note: update for damon_stat recording support
+f1ff8a17132446733bb1d2e07c05b9a0f2a62e85 damo_record: support damon_stat recording without explicit ongoing target
+18f2d283880001abf5c926ba7ade71c87cc7564e release_note: update for next release
 
---===============4908553304750907337==--
+--===============1461102208094491881==--
