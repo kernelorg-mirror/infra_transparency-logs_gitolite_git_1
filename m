@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Sun, 01 Feb 2026 12:58:42 -0000
-Message-Id: <176995072260.1664022.4837800774431372058@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
+Date: Sun, 01 Feb 2026 13:00:55 -0000
+Message-Id: <176995085594.1667566.8881792312403000536@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-user: jarkko
+repo: pub/scm/linux/kernel/git/rafael/linux-pm
+user: rafael
 changes:
-  - ref: refs/heads/vcam
-    old: cdac6aa9edc2074697cba867a919fea330ac0e53
-    new: 12d50ddfc6e990871162969b4937468e5f69f500
+  - ref: refs/heads/bleeding-edge
+    old: 9773c90876219f10ed57e88d8847a1852c95c550
+    new: 534893ccf20087cf5e31fdaec25247bff6ec82a7
     log: |
-         12d50ddfc6e990871162969b4937468e5f69f500 media: Virtual camera driver
+         9eb9c350bc553fae5d77d698192198087ca47c64 drivers: thermal: intel: tcc_cooling: Drop redundant local variable
+         534893ccf20087cf5e31fdaec25247bff6ec82a7 Merge branch 'thermal-intel' into bleeding-edge
          
