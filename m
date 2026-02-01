@@ -1,22 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/damon-hack
-Date: Sun, 01 Feb 2026 00:13:46 -0000
-Message-Id: <176990482683.1083550.10580372386487743387@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
+Date: Sun, 01 Feb 2026 00:19:07 -0000
+Message-Id: <176990514708.1088466.3857264770072949924@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/damon-hack
-user: sj
+repo: pub/scm/linux/kernel/git/akpm/25-new
+user: akpm
 changes:
   - ref: refs/heads/master
-    old: 6f39eb77552f980b1515d6e4a85f1184b8f4aa4d
-    new: 2392c460da52aded27bad0ffee67c91b99e3c06f
+    old: ca6cad0b9b0d72c6d7034eb20e0277680b488a27
+    new: a77dbb64f4e5dcfe2da12d9c111dba02d4f2c88a
     log: |
-         563954fc3354cac006c9d1a02e1bb539a92264ef patches/next: add damos core filters efficeincy work
-         32da9da0b8a7fa623c0f0b34a00d827a16b16436 patches/posted: add DAMOS core filter efficiency rfc v1
-         5331fbab1ee05af7d843d83485a1813a318e8ada patches/posted: add msgids for DAMOS core filters efficiency rfc v1
-         2392c460da52aded27bad0ffee67c91b99e3c06f patches/next: rebase to latest mm-new
+         e9313485b8515309904d8d541139ea072ae308ce foo
+         0a8fe1acbd11abb7b3467700c18d8d583b197b65 foo
+         2a32a5a2b79b226474291eb0ead33c520598c160 foo
+         04c162f81f2e33ea84890295c0a05416276dd82a foo
+         8fa7a40bb5c5b1aebb0c611731d4e6b756e8b848 foo
+         a77dbb64f4e5dcfe2da12d9c111dba02d4f2c88a foo
          
