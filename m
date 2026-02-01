@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Sun, 01 Feb 2026 01:34:14 -0000
-Message-Id: <176990965419.1147244.10843097522271458647@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
+Date: Sun, 01 Feb 2026 01:38:36 -0000
+Message-Id: <176990991654.1151025.2133007948505630375@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-user: jarkko
+repo: pub/scm/linux/kernel/git/groeck/linux-staging
+user: groeck
 changes:
-  - ref: refs/heads/vcam
-    old: a616ff1cb2f7448994cade0e89bebf17b1f3b2ed
-    new: 68781e43e055ecda664571c87298eb36fa13bb29
+  - ref: refs/heads/hwmon-next
+    old: 1117702454262fb361869451be5b006c022eb08a
+    new: 676f2cc2c7da7b5d5dcc6fc249bf005647c0abbd
     log: |
-         68781e43e055ecda664571c87298eb36fa13bb29 media: Virtual camera driver
+         676f2cc2c7da7b5d5dcc6fc249bf005647c0abbd hwmon: (spd5118) Explicitly enable temperature sensor in probe function
          
