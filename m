@@ -1,30 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tj/cgroup
-Date: Mon, 02 Feb 2026 16:17:46 -0000
-Message-Id: <177004906685.3056839.4440828481938377220@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pcmoore/lsm
+Date: Mon, 02 Feb 2026 16:19:01 -0000
+Message-Id: <177004914158.3057450.13555870383024374909@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tj/cgroup
-user: tj
+repo: pub/scm/linux/kernel/git/pcmoore/lsm
+user: pcmoore
 changes:
-  - ref: refs/heads/for-6.19-fixes
-    old: 84697bf5532923f70ac99ea9784fab325c560df0
-    new: 99a2ef500906138ba58093b9893972a5c303c734
+  - ref: refs/heads/next
+    old: e097fefb11ca085e178b77ee6da4e80aaaa10853
+    new: 5e76cfc2aae2fe2c2ab737ec414154fca7b39c2e
     log: |
-         43151f812886be1855d2cba059f9c93e4729460b cgroup/dmem: fix NULL pointer dereference when setting max
-         592a68212c5664bcaa88f24ed80bf791282790fe cgroup/dmem: avoid rcu warning when unregister region
-         99a2ef500906138ba58093b9893972a5c303c734 cgroup/dmem: avoid pool UAF
+         bdde21d3e77da55121885fd2ef42bc6a15ac2f0c lsm: preserve /proc/sys/vm/mmap_min_addr when !CONFIG_SECURITY
+         5e76cfc2aae2fe2c2ab737ec414154fca7b39c2e Automated merge of 'dev' into 'next'
          
-  - ref: refs/heads/for-next
-    old: 068b8cd1fc9b52c9633e64f71a27e79203b0ec4f
-    new: cdab91959f725a63396b947212e185556bc4539a
+  - ref: refs/heads/stable-6.19
+    old: bc14c0bdde677433f93fde8fe37add80a71e8f8b
+    new: bdde21d3e77da55121885fd2ef42bc6a15ac2f0c
     log: |
-         43151f812886be1855d2cba059f9c93e4729460b cgroup/dmem: fix NULL pointer dereference when setting max
-         592a68212c5664bcaa88f24ed80bf791282790fe cgroup/dmem: avoid rcu warning when unregister region
-         99a2ef500906138ba58093b9893972a5c303c734 cgroup/dmem: avoid pool UAF
-         cdab91959f725a63396b947212e185556bc4539a Merge branch 'for-6.19-fixes' into for-next
+         bdde21d3e77da55121885fd2ef42bc6a15ac2f0c lsm: preserve /proc/sys/vm/mmap_min_addr when !CONFIG_SECURITY
          
