@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
-Date: Mon, 02 Feb 2026 14:32:19 -0000
-Message-Id: <177004273959.2966000.16069544895984965786@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
+Date: Mon, 02 Feb 2026 14:33:28 -0000
+Message-Id: <177004280879.2966579.6629707962981236423@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jlayton/linux
-user: jlayton
+repo: pub/scm/linux/kernel/git/ath/ath
+user: jjohnson
 changes:
-  - ref: refs/heads/kdevops
-    old: bd0fa3d341809a28c3c88f32d23e9b079c2ff129
-    new: 054f762f0773756af35b95985036c4af7eb3dfe6
-    log: |
-         054f762f0773756af35b95985036c4af7eb3dfe6 nfsd: don't do strict validation of nfsd threads calls
-         
+  - ref: refs/tags/ath-next-20260202
+    old: 0000000000000000000000000000000000000000
+    new: 50f22ffd10bc23225f54d5c3df17ea9947867e95
