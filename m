@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8010383714815602253=="
+Content-Type: multipart/mixed; boundary="===============1603736636743509763=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netfilter/nf-next
-Date: Mon, 02 Feb 2026 16:42:07 -0000
-Message-Id: <177005052769.3078409.3868092718213560359@gitolite.kernel.org>
+Date: Mon, 02 Feb 2026 16:42:18 -0000
+Message-Id: <177005053869.3078658.647655373327043366@gitolite.kernel.org>
 
---===============8010383714815602253==
+--===============1603736636743509763==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/netfilter/nf-next
 user: fwestphal
 changes:
-  - ref: refs/heads/testing
-    old: eadf471cb397543fc0ef193c42ef974af4b00a5d
-    new: c3b8bf0e011c3965dc97294a9f6a5141e2d5f5ef
-    log: revlist-eadf471cb397-c3b8bf0e011c.txt
+  - ref: refs/heads/main
+    old: e75e408dc524ba32b3bd66e89d2ba1e337877bfa
+    new: a22f57757f7e88c890499265c383ecb32900b645
+    log: revlist-e75e408dc524-a22f57757f7e.txt
 
---===============8010383714815602253==
+--===============1603736636743509763==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-eadf471cb397-c3b8bf0e011c.txt
+Content-Disposition: attachment; filename=revlist-e75e408dc524-a22f57757f7e.txt
 
 761fcf46a1bd797bd32d23f3ea0141ffd437668a w1: therm: Fix off-by-one buffer overflow in alarms_store
 472100721b4b1d357e99512306ba7dda7bddad6f dt-bindings: interconnect: qcom,sa8775p-rpmh: Fix incorrectly added reg and clocks
@@ -664,11 +664,5 @@ eec90ea4ef946d40d82286878477d8becb7cb450 Merge branch 'net-wwan-add-nmea-port-ty
 82fff3b055d498bde37104eab219be25af3ddbe9 net: ax25: remove plumbing for never-implemented DAMA Master support
 df31a6b0a3057e66994ad6ccf5d95b9b9514f033 Revert "net/smc: Introduce TCP ULP support"
 a22f57757f7e88c890499265c383ecb32900b645 Merge tag 'linux-can-next-for-6.20-20260131' of git://git.kernel.org/pub/scm/linux/kernel/git/mkl/linux-can-next
-9a755d2ea77a3349a6704ed604ffa934e2b1945f netfilter: nft_set_rbtree: don't gc elements on insert
-4e621926e5385ef82dcb6f1b5a4753ac6b906416 netfilter: nfnetlink_queue: do shared-unconfirmed check before segmentation
-70560e7c7e2396ac8fd5547dd2ca05bbd15811fe selftests: netfilter: nft_queue.sh: add udp fraglist gro test case
-69b2a21c06e52642b8eba8d6abf2dfaa1467f3c2 netfilter: flowtable: dedicated slab for flow entry
-f2747b9403edb947dcf71fd58a0b75edfb5a107b selftests: netfilter: add IPV6_TUNNEL to config
-c3b8bf0e011c3965dc97294a9f6a5141e2d5f5ef netfilter: nft_set_hash: fix get operation on big endian
 
---===============8010383714815602253==--
+--===============1603736636743509763==--
