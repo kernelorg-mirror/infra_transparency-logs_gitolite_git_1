@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd-test
-Date: Mon, 02 Feb 2026 20:41:42 -0000
-Message-Id: <177006490258.3276692.7300123831677873473@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Mon, 02 Feb 2026 20:47:00 -0000
+Message-Id: <177006522002.3280830.13293808756186043620@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd-test
-user: jarkko
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
-  - ref: refs/heads/main
-    old: b584f99af4d74a8f6125340f55d6ddef63e9eae1
-    new: be935d0f2c9e982c707249a94d151f1e68f986b5
+  - ref: refs/heads/master
+    old: 18f7fcd5e69a04df57b563360b88be72471d6b62
+    new: dee65f79364c18033cabdf0728c7e7025405cf40
     log: |
-         be935d0f2c9e982c707249a94d151f1e68f986b5 Add test code for vcam driver patch set v2
+         bdde21d3e77da55121885fd2ef42bc6a15ac2f0c lsm: preserve /proc/sys/vm/mmap_min_addr when !CONFIG_SECURITY
+         dee65f79364c18033cabdf0728c7e7025405cf40 Merge tag 'lsm-pr-20260202' of git://git.kernel.org/pub/scm/linux/kernel/git/pcmoore/lsm
          
