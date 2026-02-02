@@ -1,21 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jj/linux-apparmor
-Date: Mon, 02 Feb 2026 12:16:55 -0000
-Message-Id: <177003461517.2853988.15919316414955768547@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/firmware/linux-firmware
+Date: Mon, 02 Feb 2026 12:20:07 -0000
+Message-Id: <177003480797.2857321.306540530954969127@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jj/linux-apparmor
-user: jj
+repo: pub/scm/linux/kernel/git/firmware/linux-firmware
+user: jwboyer
 changes:
-  - ref: refs/heads/apparmor-next
-    old: df9ac55abd18628bd8cff687ea043660532a3654
-    new: 9058798652c8bc0584ed1fb0766a1015046c06e8
+  - ref: refs/heads/main
+    old: 40c017e718f95c1674fd0ea4104f27b6b7ae19f0
+    new: 1f806c75e479fea9f222579deb6e69d285b614fc
     log: |
-         3734b9463bd4fb5ac350842db55e2e0ccbf1b7a5 apparmor: fix kernel-doc comments for inview
-         102ada7ca37ed8358bd70c6f8e6475ebacf6f76d apparmor: fix fmt string type error in process_strs_entry
-         9058798652c8bc0584ed1fb0766a1015046c06e8 apparmor: fix aa_label to return state from compount and component match
+         fbf93476b78933a87073d3bf116a84f2599b37b5 rtl_bt: Update RTL8822C BT USB and UART firmware to 0x0673
+         1f806c75e479fea9f222579deb6e69d285b614fc Merge branch 'robot/patch-0-1770033531' into 'main'
          
