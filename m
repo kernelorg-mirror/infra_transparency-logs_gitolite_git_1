@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6145220722720865187=="
+Content-Type: multipart/mixed; boundary="===============7456598497526562784=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/klassert/ipsec
-Date: Mon, 02 Feb 2026 06:55:20 -0000
-Message-Id: <177001532023.2551950.7701019144093005956@gitolite.kernel.org>
+Date: Mon, 02 Feb 2026 06:55:46 -0000
+Message-Id: <177001534664.2552249.10545624614321244343@gitolite.kernel.org>
 
---===============6145220722720865187==
+--===============7456598497526562784==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/klassert/ipsec
 user: klassert
 changes:
-  - ref: refs/heads/testing
+  - ref: refs/heads/master
     old: 709bbb015538dfd5c97308b77c950d41a4d95cd3
     new: fdf3f6800be36377e045e2448087f12132b88d2f
     log: revlist-709bbb015538-fdf3f6800be3.txt
 
---===============6145220722720865187==
+--===============7456598497526562784==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -364,4 +364,4 @@ f8db6475a83649689c087a8f52486fcc53e627e9 macvlan: fix error recovery in macvlan_
 6d06bc83a5ae8777a5f7a81c32dd75b8d9b2fe04 net: usb: r8152: fix resume reset deadlock
 fdf3f6800be36377e045e2448087f12132b88d2f net: don't touch dev->stats in BPF redirect paths
 
---===============6145220722720865187==--
+--===============7456598497526562784==--
