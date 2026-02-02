@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4236294274252442090=="
+Content-Type: multipart/mixed; boundary="===============0306515915246484580=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/chenhuacai/linux-loongson
-Date: Mon, 02 Feb 2026 09:39:55 -0000
-Message-Id: <177002519586.2730469.10315209062383333516@gitolite.kernel.org>
+Date: Mon, 02 Feb 2026 09:43:30 -0000
+Message-Id: <177002541006.2734158.10390481546141474705@gitolite.kernel.org>
 
---===============4236294274252442090==
+--===============0306515915246484580==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/chenhuacai/linux-loongson
 user: chenhuacai
 changes:
-  - ref: refs/heads/loongarch-kvm
-    old: cf991b57ffc808d69cb1f911563b1d4658774ccf
-    new: 2f54cbfd092ccb880cb95137843f7651ad0083c3
-    log: revlist-cf991b57ffc8-2f54cbfd092c.txt
+  - ref: refs/heads/loongarch-next
+    old: c17b811b171259c0aa43dd40871ffa3120a6b9e5
+    new: cde0a836d89a484c972c558322c8e7cd4adab386
+    log: revlist-c17b811b1712-cde0a836d89a.txt
 
---===============4236294274252442090==
+--===============0306515915246484580==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-cf991b57ffc8-2f54cbfd092c.txt
+Content-Disposition: attachment; filename=revlist-c17b811b1712-cde0a836d89a.txt
 
 4b22ec1685ce1fc0d862dcda3225d852fb107995 efivarfs: fix error propagation in efivar_entry_get()
 6dd0fdc908c02318c28ec2c0979661846ee0a9f7 ASoC: cs35l45: Corrects ASP_TX5 DAPM widget channel
@@ -77,5 +77,26 @@ f9ba9008f3776a60518a5e3ddf95929ffbd73786 LoongArch: KVM: Check VM msgint feature
 d720f1a89e4cfac2e8106d851ce5a21132e04717 LoongArch: KVM: Add paravirt preempt feature in hypervisor side
 0ea5d1d014784caba327cae6bc40d1d3a305dc53 LoongArch: KVM: Add paravirt vcpu_is_preempted() support in guest side
 2f54cbfd092ccb880cb95137843f7651ad0083c3 KVM: LoongArch: selftests: Add steal time test case
+ac8ccb1be02113f46ae18ac8a4b236fbda270ee9 LoongArch: Select HAVE_CMPXCHG_LOCAL in Kconfig
+3ec29fc8a67dd31c3b7d623220361db174881529 LoongArch: Add detection for SCQ support
+694fb0af8ca0aedde37efd18a40ac12ef0fbbcd7 LoongArch: Add 128-bit atomic cmpxchg support
+9d42c06021d967064b266d38d8114d1acbb59a99 LoongArch: Replace seq_printf() with seq_puts() for simple strings
+9e9d7aacce027513c46ef88ffe1fcc32e686589c LoongArch: Wire up memfd_secret system call
+97ad4891f7c2e88daf0f8296937c28976870d1d0 LoongArch: Make cpumask_of_node() robust against NUMA_NO_NODE
+b8af87fa8a232eed83d7a44a2b7d580b1e299af4 LoongArch: Add HOTPLUG_SMT implementation
+15dd5d9608e4b91b372c45be0ac19123bd3ae749 LoongArch: Prefer top-down allocation after arch_mem_init()
+788410d36b826bff6fb0aa9aa209d7b6570b4ce6 LoongArch: Use %px to print unmodified unwinding address
+ee4c4e6c070194f1b98c6574b64e7ce622e10cb9 LoongArch: Handle percpu handler address for ORC unwinder
+818ec690028993bed776fb1dd81e229b564e8933 LoongArch: Guard percpu handler under !CONFIG_PREEMPT_RT
+6165134d48f68b26edfebf75178a210c3968ad86 LoongArch: Remove some extern variables in source files
+cf7b53eae8dadab584020716f388efd231fbdf4d LoongArch: Disable instrumentation for setup_ptwalker()
+034110c8b7957e6313f17d5b17d877b326276cac LoongArch: Rework KASAN initialization for PTW-enabled systems
+2fc57442d9012528dba39a25eebf0e7f5a9ca0b0 LoongArch: Use IS_ERR_PCPU() macro for KGDB
+aed0b1166005a1a1791c789a4b644a970ef681a6 LoongArch: BPF: Use BPF prog pack allocator
+0f1555c2a822c4ee5c39073ac9d800d06e7d3cef LoongArch: BPF: Implement PROBE_MEM32 pseudo instructions
+609cfabeff07102f6edf7d00a23cf729be21a9a7 LoongArch: BPF: Implement bpf_addr_space_cast instruction
+78c16138d8c8cacad16a61a4b797e71b76a05778 LoongArch: dts: loongson-2k0500: Add nand controller support
+4dabb0bd5ba018aada3804689e8b22660aabadc9 LoongArch: dts: loongson-2k1000: Add nand controller support
+cde0a836d89a484c972c558322c8e7cd4adab386 Merge branch 'loongarch-kvm' into loongarch-next
 
---===============4236294274252442090==--
+--===============0306515915246484580==--
