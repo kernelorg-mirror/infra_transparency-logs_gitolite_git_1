@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/xen/tip
-Date: Mon, 02 Feb 2026 06:42:32 -0000
-Message-Id: <177001455237.2540657.16956924382206998386@gitolite.kernel.org>
+Date: Mon, 02 Feb 2026 06:48:30 -0000
+Message-Id: <177001491086.2544945.929111872363150941@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,9 @@ repo: pub/scm/linux/kernel/git/xen/tip
 user: jgross
 changes:
   - ref: refs/heads/linux-next
-    old: b13cd24c15d74f6dfcddf0d53ae6efb58d3f0461
-    new: c74a1a68a990e940b798000a7ec30db191c039ec
+    old: c74a1a68a990e940b798000a7ec30db191c039ec
+    new: c307b6dc9c4f68d00524ec10899cdf21466b5c1e
     log: |
-         c74a1a68a990e940b798000a7ec30db191c039ec xen/mcelog: simplify MCE_GETCLEAR_FLAGS using xchg()
+         e08dd1ee49838750a514e83c0aa60cd12ba6ecbb xenbus: Use .freeze/.thaw to handle xenbus devices
+         c307b6dc9c4f68d00524ec10899cdf21466b5c1e xenbus: Rename helpers to freeze/thaw/restore
          
