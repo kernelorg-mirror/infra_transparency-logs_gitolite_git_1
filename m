@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Mon, 02 Feb 2026 21:52:34 -0000
-Message-Id: <177006915484.3335038.14976131253731391461@gitolite.kernel.org>
+Date: Mon, 02 Feb 2026 22:03:23 -0000
+Message-Id: <177006980361.3343078.4572448199650046807@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,6 +11,6 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/broonie/ci
 user: broonie
 changes:
-  - ref: refs/heads/filegAzRee
-    old: 0000000000000000000000000000000000000000
-    new: 8a066a81ee0c1b6cdbd81393536c3b2d19ccef25
+  - ref: refs/heads/v6_20260123_dlechner_spi_add_multi_lane_support
+    old: 0ec5ed7c95d1ba6a74491928ff38abb351dbed36
+    new: 0000000000000000000000000000000000000000
