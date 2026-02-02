@@ -1,23 +1,46 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Mon, 02 Feb 2026 14:17:41 -0000
-Message-Id: <177004186170.2954333.6289436714951834263@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============7526026150176176446=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/linkinjeon/ntfs
+Date: Mon, 02 Feb 2026 14:26:34 -0000
+Message-Id: <177004239440.2961920.12891512376215290241@gitolite.kernel.org>
+
+--===============7526026150176176446==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rdma/rdma
-user: leon
+repo: pub/scm/linux/kernel/git/linkinjeon/ntfs
+user: linkinjeon
 changes:
-  - ref: refs/heads/wip/leon-for-next
-    old: e5b0cfa32b1c3e7f153373bfdc20ccdd3c342de2
-    new: 42e3aac65c1c9eb36cdee0d8312a326196e0822f
-    log: |
-         e72d45d274d8edd8c1c365444403a02147f484a6 RDMA/bnxt_re: Add support for QP rate limiting
-         13edc7d4e0aa4abb5d50a062b61b9bffb01b0327 RDMA/bnxt_re: Report packet pacing capabilities when querying device
-         949e7c062d3769d9522e8a4abe080fb92ddd61bf RDMA/bnxt_re: Report QP rate limit in debugfs
-         cae42d97d94e9c9803554ca6d577297a2270d471 RDMA/mlx5: Support rate limit only for Raw Packet QP
-         42e3aac65c1c9eb36cdee0d8312a326196e0822f IB/core: Extend rate limit support for RC QPs
-         
+  - ref: refs/heads/ntfs-next
+    old: 7a305a47bcefc8d9f628f92a700c741fa16e65a0
+    new: fa25a4cfebdf4edefd48fa36bdd71f6b1886ced3
+    log: revlist-7a305a47bcef-fa25a4cfebdf.txt
+
+--===============7526026150176176446==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-7a305a47bcef-fa25a4cfebdf.txt
+
+c093359b6a6994b38d32680e64674aeb21bbe9ef Revert "fs: Remove NTFS classic"
+3cf347cbcf9ad205e9d2365a49e6c6d054709e1e Documentation: filesystems: update NTFS driver documentation
+3699947fbbfa991bf503c2332d89f86237272ca5 fs: add generic FS_IOC_SHUTDOWN definitions
+49f69082e8bf11ce6987407f5399c23ff73420ad ntfs: update in-memory, on-disk structures and headers
+517e2121de8425aa309efdfcc10b868452b361d0 ntfs: update super block operations
+6e95d0998f454e9e6e27f03404260e7d33df4401 ntfs: update inode operations
+a3edf3efefa377352aaa9354cd967743e0f5fc0e ntfs: update directory operations
+37d08d4def330bd6c3cb345c83713e2c78feb944 ntfs: update file operations
+c2114fc28481e5f204d4a10b9a3d395bdbcc1472 ntfs: update iomap and address space operations
+d5f8d007e5f3f213f143b5a6ec7ede2b3482edaf ntfs: update attrib operations
+b9f9845634374837b0db5b8a266f5dfd15a5c8fa ntfs: update runlist handling and cluster allocator
+bb89270b8789e4b3c3793701dd93cfa0d9111758 ntfs: add reparse and ea operations
+e9a79c1a042b31f22427c0f4c11a9fd69ba9de28 ntfs: update misc operations
+5e40258768e94378b90d4f94ce2a43351844138d ntfs3: remove legacy ntfs driver support
+a9769422dcfc76cf0834755d75b2535ff95948dd ntfs: add Kconfig and Makefile
+fa25a4cfebdf4edefd48fa36bdd71f6b1886ced3 MAINTAINERS: update ntfs filesystem entry
+
+--===============7526026150176176446==--
