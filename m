@@ -1,20 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Mon, 02 Feb 2026 13:37:50 -0000
-Message-Id: <177003947087.2922690.11495525888207613809@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/hid/hid
+Date: Mon, 02 Feb 2026 13:38:45 -0000
+Message-Id: <177003952517.2923177.1758162522342739913@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rdma/rdma
-user: leon
+repo: pub/scm/linux/kernel/git/hid/hid
+user: jikos
 changes:
-  - ref: refs/heads/for-next
-    old: 5ee62b4a91137557ee4b09d1604f1dfd0b4344a8
-    new: e5b0cfa32b1c3e7f153373bfdc20ccdd3c342de2
+  - ref: refs/heads/for-6.19/upstream-fixes
+    old: af4fe07a9d963a72438ade96cf090e84b3399d0c
+    new: 56f7db581ee73af53cd512e00a6261a025bf1d58
     log: |
-         58b604dfc7bb753f91bc0ccd3fa705e14e6edfb4 RDMA/uverbs: Add __GFP_NOWARN to ib_uverbs_unmarshall_recv() kmalloc
-         e5b0cfa32b1c3e7f153373bfdc20ccdd3c342de2 MAINTAINERS: Drop RDMA files from Hyper-V section
+         56f7db581ee73af53cd512e00a6261a025bf1d58 HID: intel-ish-hid: fix NULL-ptr-deref in ishtp_bus_remove_all_clients
+         
+  - ref: refs/heads/for-next
+    old: 4f61bb4e236bf4aa5b958d81eb4bc8bc4c8bcedf
+    new: dd65fb48a5d603a49c974189555494efaa296c86
+    log: |
+         56f7db581ee73af53cd512e00a6261a025bf1d58 HID: intel-ish-hid: fix NULL-ptr-deref in ishtp_bus_remove_all_clients
+         dd65fb48a5d603a49c974189555494efaa296c86 Merge branch 'for-6.19/upstream-fixes' into for-next
          
