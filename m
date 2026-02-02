@@ -1,40 +1,46 @@
-Content-Type: multipart/mixed; boundary="===============1953431640774705916=="
+Content-Type: multipart/mixed; boundary="===============6887749331063832509=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/util-linux/util-linux
-Date: Mon, 02 Feb 2026 12:55:39 -0000
-Message-Id: <177003693973.2888923.1704098194191173946@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tzungbi/chrome-platform
+Date: Mon, 02 Feb 2026 13:04:01 -0000
+Message-Id: <177003744161.2894122.16248647837534056259@gitolite.kernel.org>
 
---===============1953431640774705916==
+--===============6887749331063832509==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/util-linux/util-linux
-user: kzak
+repo: pub/scm/linux/kernel/git/tzungbi/chrome-platform
+user: tzungbi
 changes:
-  - ref: refs/heads/master
-    old: 2c1bb35c2b22542039063e8fd55c7494f14bb24f
-    new: dcdf40efec22fc6a3eb2d41991f8fadcd78f110a
-    log: revlist-2c1bb35c2b22-dcdf40efec22.txt
+  - ref: refs/heads/gpio_rev
+    old: 88966678e4be5ffb2536300e6d83960c5f77a4e9
+    new: 82a5f6506ca827dc1bb9d3bfad2e2dfc7a22a162
+    log: revlist-88966678e4be-82a5f6506ca8.txt
 
---===============1953431640774705916==
+--===============6887749331063832509==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2c1bb35c2b22-dcdf40efec22.txt
+Content-Disposition: attachment; filename=revlist-88966678e4be-82a5f6506ca8.txt
 
-d6ef492f12eb30b5617a64df9bb610338a677df2 chfn: allow --help and --version without login.defs restrictions
-00b4753502f280d09e7426c82f4a7853fb3f95a1 lib: (pidfd-utils) provide a more liberal variant of ul_get_valid_pidfd_or_err()
-aa4b4c28e94226b0a9790d1a4fbdb7d8d1365daa waitpid: refactor to improve maintainability
-c32fd73f64360fd5d13c9e771a92ccae7158610d waitpid: support 'PID:inode' process addressing format
-e290321825982efa8a501cddafd047d4cf66c5c3 waitpid: close fd after removal from epoll interest list
-089181ebbc68e32976eaa28fa1afe15c7d74d415 waitpid: (manpage) document the support for the "PID:inode" addressing format
-18605bf5f45294921d6e22ebb9bb6b03f191e6f4 tests: (waitpid) move waitpid tests to a dedicated subdir
-cc04dd58da415a092f110804311cf26b2fd57534 tests: (waitpid) add tests for the pidfd inode format support
-98df75c215e3c561570926ed5dba3aa4c1fb5801 Merge branch 'PR/chfn-version-help' of https://github.com/karelzak/util-linux-work
-dcdf40efec22fc6a3eb2d41991f8fadcd78f110a Merge PR #3953: waitpid pidfd inode format support
+ebae9143a5072895e8443c576a4f06e4d68bade3 revocable: Fix races in revocable_alloc() using RCU
+99883b5b7f4daca9f1984d34d78acc1720fef741 revocable: Add KUnit test for provider lifetime races
+d2de3bc471e9d5884a6dfca25ca90594535e59c9 revocable: fix SRCU index corruption by requiring caller-provided storage
+616f1702824bcad0af9efea4f35e083ee803e936 revocable: Add KUnit test for concurrent access
+fb64bce0e0981e7b9f7bb2b0e5ad59e0a456707f gpio: Fix resource leaks on errors in gpiochip_add_data_with_key()
+4e619f9fac7460cda921e796cb004b92376c9bfd gpio: Access `gpio_bus_type` in gpiochip_setup_dev()
+7e115b0da18e49951dc591e8ab5058e5afdfc3ad gpio: Remove redundant check for struct gpio_chip
+93b8b55b3587da99020b258221726c672fd943dd gpio: sysfs: Remove redundant check for struct gpio_chip
+fea801e5a1f6d21940bc46c32d03546878509cfb gpio: Ensure struct gpio_chip for gpiochip_setup_dev()
+98264a8e172edfa36f26ba0e1305f06712293a34 gpio: cdev: Don't check struct gpio_chip in gpio_chrdev_open()
+e7f4dc5f03e5893e0e9a52adfffb41731bae78da selftests: gpio: Add gpio-cdev-uaf tests
+ea7511ca6ccd83d74ddb5c4ca966a48c8685e6c8 gpio: Add revocable provider handle for struct gpio_chip
+707518c5c3326576c5b4ab08d67ac63fb8d9e06e gpio: cdev: Leverage revocable for accessing struct gpio_chip
+3fb4c15456c5bb1689f34bd6bd0bcbd86e2aa6da gpio: Remove gpio_chip_guard by using revocable
+a6ffa1b354c96c8121e5046d1ade75476943b51c gpio: Leverage revocable for accessing struct gpio_chip
+82a5f6506ca827dc1bb9d3bfad2e2dfc7a22a162 gpio: Remove unused `chip` and `srcu` in struct gpio_device
 
---===============1953431640774705916==--
+--===============6887749331063832509==--
