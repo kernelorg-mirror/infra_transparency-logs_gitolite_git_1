@@ -1,22 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rcu/linux
-Date: Mon, 02 Feb 2026 06:35:33 -0000
-Message-Id: <177001413339.2535231.5917232531614403363@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/devicetree/devicetree-rebasing
+Date: Mon, 02 Feb 2026 06:39:34 -0000
+Message-Id: <177001437416.2536699.15396861080692322332@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rcu/linux
-user: boqun
+repo: pub/scm/linux/kernel/git/devicetree/devicetree-rebasing
+user: ijc
 changes:
-  - ref: refs/tags/rcu.release.v7.0
-    old: 9e27b4a38d6e97eed4135970a378ea0db29aa909
-    new: 986aff6e8de53514ed7770c3b7e7f5e6091fbfe3
+  - ref: refs/heads/master
+    old: 8330000d64b9c1400f9d64d2c7f311d600568f07
+    new: 1f9a05ba82aa33a9ca49cbee70cc0b3235982421
     log: |
-         d92eca60fea944b2e9272603308a0fde8b6ae447 rcu/nocb: Remove unnecessary WakeOvfIsDeferred wake path
-         b11c1efa7ffedbb3e880d31370d2cb37394ef9f4 rcu/nocb: Remove dead callback overload handling
-         cc74050f13e5f15de7835b96d633484dd6776f53 rcu/nocb: Extract nocb_defer_wakeup_cancel() helper
-         ed062c41dfda2de8d1712c91e089303dae013bb7 Merge branch 'rcu-nocb.20260123a'
+         164dd16eee3f348a8f6b014477b19e03cc3b4eb7 ASoC: dt-bindings: fsl,sai: Add support for i.MX952 platform
+         83d4f0ccb003bff73d8a1cc97a83cee553dd5e50 dt-bindings: pinctrl: marvell,armada3710-xb-pinctrl: fix 'usb32_drvvbus0' group name
+         1f3b793812ad3c5f6d4d44d1a00b823d46e92b71 Merge tag 'pinctrl-v6.19-3' of git://git.kernel.org/pub/scm/linux/kernel/git/linusw/linux-pinctrl
+         a1331106ed0e0606bda46010c59248dd74b6e29b Merge tag 'sound-6.19-rc8' of git://git.kernel.org/pub/scm/linux/kernel/git/tiwai/sound
+         1f9a05ba82aa33a9ca49cbee70cc0b3235982421 Merge tag 'v6.19-rc8-dts-raw'
          
