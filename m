@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2837975510914027784=="
+Content-Type: multipart/mixed; boundary="===============4983504166719502098=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/geert/linux-m68k
-Date: Mon, 02 Feb 2026 09:51:02 -0000
-Message-Id: <177002586212.2742732.10089084631186842271@gitolite.kernel.org>
+Date: Mon, 02 Feb 2026 09:51:14 -0000
+Message-Id: <177002587425.2743081.15241763915830682492@gitolite.kernel.org>
 
---===============2837975510914027784==
+--===============4983504166719502098==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/geert/linux-m68k
 user: geert
 changes:
-  - ref: refs/heads/master
-    old: f2693a92627bad63deaee86b1b68b72da8654dbd
-    new: 4af85fdda409a89e538c3b03ddc6c573934a231d
-    log: revlist-f2693a92627b-4af85fdda409.txt
+  - ref: refs/heads/m68k-queue
+    old: d86ad26a0b7456a966bbcdf8ab99e46c214439b7
+    new: db61e2e2c0c1049bfce9fa18b9b859b59a594b5e
+    log: revlist-d86ad26a0b74-db61e2e2c0c1.txt
 
---===============2837975510914027784==
+--===============4983504166719502098==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f2693a92627b-4af85fdda409.txt
+Content-Disposition: attachment; filename=revlist-d86ad26a0b74-db61e2e2c0c1.txt
 
 2f6d2c8d9ac05a7a1c02333f6ad30868246880d8 Revert "mtd: spinand: esmt: fix id code for F50D1G41LB"
 600559b9817f6eaa927035eebb12534fadb35ee8 rust: rbtree: fix minor typo in comment
@@ -259,6 +259,10 @@ e53ada651abea14481336091fbe2428ff05a8eee Merge tag 'sched-urgent-2026-02-01' of 
 c00a8791646a226b77d24980ffad0c5e8e268b07 Merge tag 'perf-urgent-2026-02-01' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 9f2693489ef8558240d9e80bfad103650daed0af Merge tag 'scsi-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
 18f7fcd5e69a04df57b563360b88be72471d6b62 Linux 6.19-rc8
-4af85fdda409a89e538c3b03ddc6c573934a231d Merge tag 'v6.19-rc8'
+e73b361cfb4006b9fc1cda60f9b98b98dea7121f nubus: Call put_device() in bus initialization error path
+b984e637125135fb3303f2a493b47ec13a92f77d m68k: sun3: Replace vsprintf() with bounded vsnprintf()
+d07af61b40b8cdee72fc408e678457f753cae3a9 m68k: atari: usb: Add ISP1160 USB host controller support
+6e9b9d902a0ebec13738bdb64e5b555edd0acf02 m68k: atari: Update Kconfig.bus help text
+db61e2e2c0c1049bfce9fa18b9b859b59a594b5e m68k: defconfig: Enable Atari EtherNAT and NetUSBee USB support
 
---===============2837975510914027784==--
+--===============4983504166719502098==--
