@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/damon-hack
-Date: Mon, 02 Feb 2026 00:06:25 -0000
-Message-Id: <176999078538.2178803.5271495156463377337@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jassibrar/mailbox
+Date: Mon, 02 Feb 2026 00:53:33 -0000
+Message-Id: <176999361350.2212753.12516623390429186555@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/damon-hack
-user: sj
+repo: pub/scm/linux/kernel/git/jassibrar/mailbox
+user: jassibrar
 changes:
-  - ref: refs/heads/master
-    old: 99a614ddbdb382cb4f39c4377d4a7109aab6e793
-    new: b33f3b5562ea96ad224776d61183e022968fae76
+  - ref: refs/heads/for-next
+    old: 66e4442966172ed0eaec9b95a72d570e8f6aadc7
+    new: fa84883d44422208b45869a67c0265234fdce1f0
     log: |
-         b33f3b5562ea96ad224776d61183e022968fae76 update mm tree status
+         60436eb0d618717c7f51eae2e4e9245abeae349c mailbox: Remove mailbox_client.h from controller drivers
+         fa84883d44422208b45869a67c0265234fdce1f0 mailbox: bcm-ferxrm-mailbox: Use default primary handler
          
