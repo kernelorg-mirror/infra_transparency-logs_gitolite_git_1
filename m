@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/git/git
-Date: Mon, 02 Feb 2026 17:01:14 -0000
-Message-Id: <177005167438.3097578.5372048240793632157@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Mon, 02 Feb 2026 17:04:28 -0000
+Message-Id: <177005186882.3098622.17229745934557994275@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/git/git
-user: junio
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/todo
-    old: 6e9f4f2a3f930bb8ea4a6d727ba66cb148525b6f
-    new: 376d73e2feef5f5bb7b622b59f47d6b4fee0132a
-    log: |
-         376d73e2feef5f5bb7b622b59f47d6b4fee0132a What's cooking (2026/02 #01)
-         
+  - ref: refs/heads/20260129_sen_asoc_ti_davinci_mcasp_add_asynchronous_mode_support_for_mcasp
+    old: 703961a213682b76ed12b67c0cd46bedaa4035ba
+    new: 0000000000000000000000000000000000000000
