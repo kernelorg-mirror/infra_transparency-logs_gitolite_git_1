@@ -1,19 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ebiggers/linux
-Date: Mon, 02 Feb 2026 22:18:36 -0000
-Message-Id: <177007071629.3354718.16487335286175412186@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
+Date: Mon, 02 Feb 2026 22:23:29 -0000
+Message-Id: <177007100923.3358817.17267873460179828284@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ebiggers/linux
-user: ebiggers
+repo: pub/scm/linux/kernel/git/tnguy/net-queue
+user: tnguy
 changes:
-  - ref: refs/heads/libcrypto-next
-    old: fbfeca74043777b48add294089cd4c4f68ed3377
-    new: 3992db977ff59f348be44f9c1a3631feef198859
+  - ref: refs/heads/main
+    old: 31a7a0bbeb006bac2d9c81a2874825025214b6d8
+    new: fdf3f6800be36377e045e2448087f12132b88d2f
     log: |
-         3992db977ff59f348be44f9c1a3631feef198859 lib/crypto: mldsa: Clarify the documentation for mldsa_verify() slightly
+         adcbadfd8e05d3558c9cfaa783f17c645181165f net: sfp: Fix quirk for Ubiquiti U-Fiber Instant SFP module
+         f8db6475a83649689c087a8f52486fcc53e627e9 macvlan: fix error recovery in macvlan_common_newlink()
+         6d06bc83a5ae8777a5f7a81c32dd75b8d9b2fe04 net: usb: r8152: fix resume reset deadlock
+         fdf3f6800be36377e045e2448087f12132b88d2f net: don't touch dev->stats in BPF redirect paths
          
