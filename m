@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux
-Date: Mon, 02 Feb 2026 15:20:39 -0000
-Message-Id: <177004563992.3008635.5747709244135661282@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/teigland/linux-dlm
+Date: Mon, 02 Feb 2026 15:41:43 -0000
+Message-Id: <177004690319.3024613.7509847835599269694@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux
-user: axboe
+repo: pub/scm/linux/kernel/git/teigland/linux-dlm
+user: teigland
 changes:
-  - ref: refs/heads/for-next
-    old: b19e4deb85adb849002075bc3d61b8a9ce8cd2f3
-    new: 39caf43d13a7c24379d5718530d1249af69529d3
+  - ref: refs/heads/next
+    old: 6dda4f0a31b0b8c0824cb63ebda600e6da886e1d
+    new: 2c3a0b730012ef87aaaf35243e1fbe9880666f7c
     log: |
-         38aa434ab9335ce2d178b7538cdf01d60b2014c3 io_uring/io-wq: add exit-on-idle state
-         91214661489467f8452d34edbf257488d85176e4 io_uring: allow io-wq workers to exit when unused
-         39caf43d13a7c24379d5718530d1249af69529d3 Merge branch 'for-7.0/io_uring' into for-next
+         2c3a0b730012ef87aaaf35243e1fbe9880666f7c dlm: Avoid -Wflex-array-member-not-at-end warning
          
