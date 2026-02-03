@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8617316179039702170=="
+Content-Type: multipart/mixed; boundary="===============2727282954663428496=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Tue, 03 Feb 2026 11:26:25 -0000
-Message-Id: <177011798564.4014864.13393264301598104469@gitolite.kernel.org>
+Date: Tue, 03 Feb 2026 11:26:51 -0000
+Message-Id: <177011801163.4015237.1137896891533263351@gitolite.kernel.org>
 
---===============8617316179039702170==
+--===============2727282954663428496==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,29 +16,40 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: f7b0270f839807026805e1490c1440002938299f
-    new: 5eb0dc53f42f6dc58a8f0472c5db6c402960489d
-    log: revlist-f7b0270f8398-5eb0dc53f42f.txt
+    old: 5eb0dc53f42f6dc58a8f0472c5db6c402960489d
+    new: faee66660b703935da23b7ae2f955f91472d6487
+    log: revlist-5eb0dc53f42f-faee66660b70.txt
 
---===============8617316179039702170==
+--===============2727282954663428496==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f7b0270f8398-5eb0dc53f42f.txt
+Content-Disposition: attachment; filename=revlist-5eb0dc53f42f-faee66660b70.txt
 
-3e4067169c573fba9dd8f77480f3a6e9c723b507 Merge branch 'v6.19-rc8'
-3cb3b27693bf30defb16aa096158a3b24583b8d2 sched/deadline: Clear the defer params
-6080fb211672aec6ce8f2f5a2e0b4eae736f2027 sched/debug: Fix updating of ppos on server write ops
-68ec89d0e99156803bdea3c986c0198624e40ea2 sched/debug: Stop and start server based on if it was active
-cd959a3562050d1c676be37f1d256a96cb067868 sched_ext: Add a DL server for sched_ext tasks
-76d12132ba459ab929cb66eb2030c666aacdb69a sched/debug: Add support to change sched_ext server params
-5a40a9bb56d455e7548ba4b6d7787918323cbaf0 sched/debug: Fix dl_server (re)start conditions
-be621a76341caa911ff98175114ff072618d7d4a selftests/sched_ext: Add test for sched_ext dl_server
-dd6a37e8faa723c680cb8615efa5b042691b927f selftests/sched_ext: Add test for DL server total_bw consistency
-505da6689305b1103e9a8ab6636c6a7cf74cd5b1 sched/clock: Avoid false sharing for sched_clock_irqtime
-94894c9c477e53bcea052e075c53f89df3d2a33e sched/rt: Skip currently executing CPU in rto_next_cpu()
-742fe830b7d9c01b5c36add9f664a5267caca4f5 sched/cpufreq: Use %pe format for PTR_ERR() printing
-e34881c84c255bc300f24d9fe685324be20da3d1 sched: Re-evaluate scheduling when migrating queued tasks out of throttled cgroups
-5eb0dc53f42f6dc58a8f0472c5db6c402960489d Merge branch into tip/master: 'sched/core'
+d6e7711a180950094d7d16954ce0239edf67435e Merge branch into tip/master: 'core/entry'
+f495f5e4203cb83bb49af923a3ae8c6d3fd474de Merge branch into tip/master: 'irq/cleanups'
+7f7d876711700b6e56ef587e32a078807b286415 Merge branch into tip/master: 'irq/core'
+cc0d743e3d5203f2b776d1b7d0440d2a55a45a34 Merge branch into tip/master: 'irq/drivers'
+22d4b806420fe816fcc36cbb1860781dc2048f8d Merge branch into tip/master: 'irq/msi'
+24040ed8b12651a46d73ff87a63f95c696b70b88 Merge branch into tip/master: 'locking/core'
+3ef47d2f46ff70a172c67ce2691ad629c872161b Merge branch into tip/master: 'perf/core'
+1e262b9fe4d45274b6c821e900cd54b2967e68c1 Merge branch into tip/master: 'sched/core'
+0c10cb521eb9d0a1b397f84f96eb9943762d3089 Merge branch into tip/master: 'timers/clocksource'
+ff4066cad64d4d14f8bc8b61ab9294236e3141d9 Merge branch into tip/master: 'timers/core'
+c32ac8066fe1cdd90fbdb761ebb0b10c0356dfb1 Merge branch into tip/master: 'timers/vdso'
+d0613496c2a84ada3e5666ee6dd8194d25eb4c5b Merge branch into tip/master: 'x86/alternatives'
+f8f37b6598ee939e5c1ecb3eae3d1f32c3e73bb3 Merge branch into tip/master: 'x86/apic'
+6b10266a03564dac1fb732c5c6f690791224f650 Merge branch into tip/master: 'x86/boot'
+df694a9dbf4815d50e5ba966ecbfab5c329fdaac Merge branch into tip/master: 'x86/bugs'
+829f7ee71c07b648bb903825bc40150218be15e3 Merge branch into tip/master: 'x86/cache'
+a856318d4b13a39b78dc1dfb2718c39836e48c61 Merge branch into tip/master: 'x86/cleanups'
+18ceb34f15fde91daed59625ceb82327cdf49763 Merge branch into tip/master: 'x86/cpu'
+22d45837175700c6a4c4232221ec56040c32f45a Merge branch into tip/master: 'x86/entry'
+44f9923b2dc268e98298966b6a5d7e286d930fac Merge branch into tip/master: 'x86/irq'
+09b31885bc0776dc7bdfef15ba12ffe441758859 Merge branch into tip/master: 'x86/microcode'
+f2c80dd2c6bea2fe7871a63890e077d0d0de2148 Merge branch into tip/master: 'x86/misc'
+55d91dc724fac4b2747b7eb2c697139ff48bd975 Merge branch into tip/master: 'x86/paravirt'
+270985c55a0754ce4f0b7dd95410c2417ce78076 Merge branch into tip/master: 'x86/platform'
+faee66660b703935da23b7ae2f955f91472d6487 Merge branch into tip/master: 'x86/sev'
 
---===============8617316179039702170==--
+--===============2727282954663428496==--
