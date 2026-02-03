@@ -1,25 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tj/wq
-Date: Tue, 03 Feb 2026 19:42:03 -0000
-Message-Id: <177014772368.234825.3163099010720255482@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+Date: Tue, 03 Feb 2026 20:15:26 -0000
+Message-Id: <177014972628.260324.4145831886574094685@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tj/wq
-user: tj
+repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+user: jarkko
 changes:
-  - ref: refs/heads/for-6.20
-    old: 51cd2d2decf365a248ddc304b7aa6f0cadc748c3
-    new: 32d572e39031920691abfada68cdb19ad44b4eeb
+  - ref: refs/heads/vcam
+    old: 0010607e8f9020fbea1825d390d5a4faadd861cb
+    new: ff0f31721fe04e707831710abf32bde3f21325c1
     log: |
-         32d572e39031920691abfada68cdb19ad44b4eeb workqueue: add CONFIG_BOOTPARAM_WQ_STALL_PANIC option
-         
-  - ref: refs/heads/for-next
-    old: 51cd2d2decf365a248ddc304b7aa6f0cadc748c3
-    new: 32d572e39031920691abfada68cdb19ad44b4eeb
-    log: |
-         32d572e39031920691abfada68cdb19ad44b4eeb workqueue: add CONFIG_BOOTPARAM_WQ_STALL_PANIC option
+         ff0f31721fe04e707831710abf32bde3f21325c1 media: Virtual camera driver
          
