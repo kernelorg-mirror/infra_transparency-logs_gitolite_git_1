@@ -1,23 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/s390/linux
-Date: Tue, 03 Feb 2026 11:50:57 -0000
-Message-Id: <177011945707.4034716.11333263496885817044@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/chao/linux
+Date: Tue, 03 Feb 2026 12:00:21 -0000
+Message-Id: <177012002124.4041958.7940966395244660123@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/s390/linux
-user: heiko
+repo: pub/scm/linux/kernel/git/chao/linux
+user: chao
 changes:
-  - ref: refs/heads/for-next
-    old: d06f05df104d3cefd48cbf8d2eb76b8e73f39ae1
-    new: 2b0da6d3aba97bccd27ba0bb0b23924995a20b84
+  - ref: refs/heads/feature/lock_trace
+    old: aaea452f9b59e2894ba39aafaa40a3073e25496f
+    new: 065126e6214310b075902cd020b9f9922cda1750
     log: |
-         cab7d81de304bd33ac41d2f0fb0d1721b08b7f88 s390: Document s390 stackprotector support
-         b8555fbc16311346ccf332010898c6307ec145c3 s390/configs: Enable BLK_DEV_NULL_BLK as module
-         f8a9c11000e52a8e59f15e49edaf5a2857705f9a s390/kexec: Emit an error message when cmdline is too long
-         9c742ccbcb62c29965ff020c39b6e2b663d0e20f Merge branch 'fixes' into for-next
-         2b0da6d3aba97bccd27ba0bb0b23924995a20b84 Merge branch 'features' into for-next
+         b83d9bb36f1f0f0c0da234e0af09fecb6b732c4d f2fs: uplift priority of f2fs_ckpt thread
+         f0797ef254a6d80823bc8ac2692a6c009f6d4b3e f2fs: uplift priority of f2fs_gc thread
+         80cd13762a1fc9423495e4be67ca2641a9f88ae0 f2fs: sysfs: introduce critical_task_priority
+         cdfebafad8087e05b8cb1b99ab5adffda6ca42bf [FOR TEST ONLY] f2fs: uplift priority in lock duration by default
+         065126e6214310b075902cd020b9f9922cda1750 [FOR TEST ONLY] f2fs: update default task priority to 119
          
