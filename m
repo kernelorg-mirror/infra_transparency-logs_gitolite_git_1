@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Tue, 03 Feb 2026 04:02:21 -0000
-Message-Id: <177009134118.3649918.8519525732038140357@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/vcam-test
+Date: Tue, 03 Feb 2026 04:04:32 -0000
+Message-Id: <177009147244.3650663.4702916997316263236@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+repo: pub/scm/linux/kernel/git/jarkko/vcam-test
 user: jarkko
 changes:
-  - ref: refs/heads/vcam
-    old: bd6e0de6cbc88f245e2d7de884de7a4db171662a
-    new: 9ac202884d39519107d153eae44036236a6f28b5
+  - ref: refs/heads/main
+    old: 85af64dbe78fdbe7a18221d26c03be8abcece603
+    new: ceb83d05ad651cf598ef626c7f87a44072ddc939
     log: |
-         9ac202884d39519107d153eae44036236a6f28b5 media: Virtual camera driver
+         ceb83d05ad651cf598ef626c7f87a44072ddc939 Update to patch set v3 uAPI
          
