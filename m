@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============9096049266782644888=="
+Content-Type: multipart/mixed; boundary="===============3308145022717584080=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Tue, 03 Feb 2026 17:08:53 -0000
-Message-Id: <177013853362.108039.14173774941177943451@gitolite.kernel.org>
+Date: Tue, 03 Feb 2026 17:08:56 -0000
+Message-Id: <177013853629.108130.5996904797340572437@gitolite.kernel.org>
 
---===============9096049266782644888==
+--===============3308145022717584080==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/40GbE
+  - ref: refs/heads/100GbE
     old: a22f57757f7e88c890499265c383ecb32900b645
     new: 667539f6dce27aa7db0a711375f94e14e714a698
     log: revlist-a22f57757f7e-667539f6dce2.txt
 
---===============9096049266782644888==
+--===============3308145022717584080==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -99,4 +99,4 @@ f326f1f17f3772dae4b37360c639ed6b76fe6354 tcp: accecn: retransmit SYN/ACK without
 f85d9c45f1d48a146f37cfd3d244aac4157ea390 selftests/net: packetdrill: add TCP Accurate ECN cases
 667539f6dce27aa7db0a711375f94e14e714a698 Merge branch 'accecn-protocol-case-handling-series'
 
---===============9096049266782644888==--
+--===============3308145022717584080==--
