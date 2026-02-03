@@ -1,25 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Tue, 03 Feb 2026 02:24:17 -0000
-Message-Id: <177008545796.3567343.6995105492687114282@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Tue, 03 Feb 2026 02:24:20 -0000
+Message-Id: <177008546008.3567428.16355159310312005432@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
+repo: pub/scm/linux/kernel/git/netdev/net
 user: kuba
 changes:
   - ref: refs/heads/main
-    old: 74ad1dfe2335df7c1fd36139261c2fba6bcaea40
-    new: 84b86025f6d7844a208c53702c31b1d41aafe2c4
+    old: d9f5824d5d9a7b8c717c03d8d54dc2c2df991037
+    new: 79987ce1bce9f6a756c2cf3c78f8a759a507a0e1
     log: |
-         436510df0cafb1bc36f12e92e0e76599be28d8f4 mptcp: add eat_recv_skb helper
-         250d9766a984a45f05893a496df6b682c105fbbc mptcp: implement .read_sock
-         2d85088d467ffbfa4377881be050937e3f0304bc tcp: export tcp_splice_state
-         22f3bd9bf8e850e2b365ad65916ef5aadc79bb61 mptcp: implement .splice_read
-         6a059c6bfb557a8c72634d761d78463a6e224547 selftests: mptcp: add splice io mode
-         2f2dc84645fb25960a0f52aff4d754fce43edea4 selftests: mptcp: connect: cover splice mode
-         84b86025f6d7844a208c53702c31b1d41aafe2c4 Merge branch 'mptcp-implement-read_sock-and-splice_read'
+         99854c167cfc113ad863832b1601c4ca1a639cfe ice: fix missing TX timestamps interrupts on E825 devices
+         88b68f35eb43ad5ac77ac1107059040b04e6f477 ice: PTP: fix missing timestamps on E825 hardware
+         fc6f36eaaedcf4b81af6fe1a568f018ffd530660 ice: Fix PTP NULL pointer dereference during VSI rebuild
+         234e615bfece9e3e91c50fe49ab9e68ee37c791a ice: drop udp_tunnel_get_rx_info() call from ndo_open()
+         40857194956dcaf3d2b66d6bd113d844c93bef54 i40e: drop udp_tunnel_get_rx_info() call from i40e_open()
+         79987ce1bce9f6a756c2cf3c78f8a759a507a0e1 Merge branch '100GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/net-queue
          
