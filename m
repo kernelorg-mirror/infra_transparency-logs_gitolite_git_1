@@ -1,63 +1,49 @@
-Content-Type: multipart/mixed; boundary="===============0157375509698710347=="
+Content-Type: multipart/mixed; boundary="===============7834556204229081233=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/clk/linux
-Date: Tue, 03 Feb 2026 00:25:23 -0000
-Message-Id: <177007832362.3463350.12736026437480929848@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/boqun/linux
+Date: Tue, 03 Feb 2026 00:33:06 -0000
+Message-Id: <177007878608.3469104.17262599012022984129@gitolite.kernel.org>
 
---===============0157375509698710347==
+--===============7834556204229081233==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/clk/linux
-user: sboyd
+repo: pub/scm/linux/kernel/git/boqun/linux
+user: boqun
 changes:
-  - ref: refs/heads/clk-mediatek
-    old: aa2ad19210a6a444111bce55e8b69579f29318fb
-    new: 385b580fda0a377844e1f0f92b86aa60a3c1584f
-    log: |
-         385b580fda0a377844e1f0f92b86aa60a3c1584f Revert "clk: Respect CLK_OPS_PARENT_ENABLE during recalc"
-         
-  - ref: refs/heads/clk-next
-    old: c099ccb60bc99900dd54ac22d7e68b8e56f15e4b
-    new: 75687e66d9b0872c641a1775564a1e554c0b90d5
-    log: revlist-c099ccb60bc9-75687e66d9b0.txt
-  - ref: refs/heads/clk-microchip
-    old: 0000000000000000000000000000000000000000
-    new: f08e7edbe2ab9134ce23b21c019867fff855ebfd
-  - ref: refs/heads/clk-aspeed
-    old: 0000000000000000000000000000000000000000
-    new: c2e9908316734fb48d35a6e51191fdffc946e46e
-  - ref: refs/heads/clk-rockchip
-    old: 0000000000000000000000000000000000000000
-    new: 2fa598ae9799646145a8bd5281ebef92228b9028
+  - ref: refs/heads/rust-sync
+    old: dd0ccc8e8d8528531cbd3c0d92060e74dd6c7d12
+    new: 04c35250bb394d7bc867e1527c3250e49d486025
+    log: revlist-dd0ccc8e8d85-04c35250bb39.txt
 
---===============0157375509698710347==
+--===============7834556204229081233==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c099ccb60bc9-75687e66d9b0.txt
+Content-Disposition: attachment; filename=revlist-dd0ccc8e8d85-04c35250bb39.txt
 
-a8d722f03923b1c6166d39482c6df8f017e185d9 clk: rockchip: Fix error pointer check after rockchip_clk_register_gate_link()
-d93faac66dc04650d924f8f9584216d14f48fb14 clk: microchip: core: remove duplicate determine_rate on pic32_sclk_ops
-5df96d141cccb37f0c3112a22fc1112ea48e9246 clk: microchip: core: correct return value on *_get_parent()
-69ccb0f338ea00732d51c164ccfcfdb703bf3839 clk: microchip: core: remove unused include asm/traps.h
-dfb208b9aebb32dece9ceddfecf84b35a876fbd3 clk: microchip: drop POLARFIRE from ARCH_MICROCHIP_POLARFIRE
-e6584bda8d4584a58f020b559617ae7cfde51644 dt-bindings: clock: mpfs-ccc: Add pic64gx compatibility
-ec8c1f35b5aa7aa63bd398add63a8633adad532c dt-bindings: clock: mpfs-clkcfg: Add pic64gx compatibility
-2216460fd728e9150191a455cea48492f0e64a54 clk: aspeed: Move the existing ASPEED clk drivers into aspeed subdirectory.
-f3c4f2a27d04946f4585106b63e5837123d3a0dc MAINTAINERS: Add entry for ASPEED clock drivers.
-dc345e213f16d3ae5dce01bb0002e46bc4eaff4c clk: aspeed: add AST2700 clock driver
-2fa598ae9799646145a8bd5281ebef92228b9028 Merge tag 'v6.20-rockchip-clk-1' of https://git.kernel.org/pub/scm/linux/kernel/git/mmind/linux-rockchip into clk-rockchip
-c2e9908316734fb48d35a6e51191fdffc946e46e Merge tag 'aspeed-clk-for-v6.20-rc1' of https://github.com/billy-tsai/linux into clk-aspeed
-f08e7edbe2ab9134ce23b21c019867fff855ebfd Merge tag 'clk-microchip-6.20' of https://git.kernel.org/pub/scm/linux/kernel/git/at91/linux into clk-microchip
-850e7376c8c9b4a466098301e5e5ba4d13241493 Merge branch 'clk-rockchip' into clk-next
-9b15a0ec0a7a47132bc0dd3aa9ba70f9f546b059 Merge branch 'clk-microchip' into clk-next
-a8c7caf223c3ddd81d81251af166ebef5f8f7b0b Merge branch 'clk-aspeed' into clk-next
-385b580fda0a377844e1f0f92b86aa60a3c1584f Revert "clk: Respect CLK_OPS_PARENT_ENABLE during recalc"
-75687e66d9b0872c641a1775564a1e554c0b90d5 Merge branch 'clk-mediatek' into clk-next
+451c3a0356099483218535aed17fcf94ab5764a3 rcu: Mark lockdep_assert_rcu_helper() __always_inline
+93cbb2042385dbdfba96d9d6d3285199537c6e7e rust: sync: atomic: Remove bound `T: Sync` for `Atomic::from_ptr()`
+a3e8bcd466003cca5c6a95d44a051f2fc8fe3278 rust: sync: atomic: Add example for Atomic::get_mut()
+8c0ad10de7cc4d8f9ec117e5d9f2ec7fd522feb2 rust: helpers: Generify the definitions of rust_helper_*_{read,set}*
+e5bc3b96289c023f86c69a079bedc4c1c4c17b46 rust: helpers: Generify the definitions of rust_helper_*_xchg*
+1869cad58a5a8dd5d968bc1199816485fb3e8e3e rust: helpers: Generify the definitions of rust_helper_*_cmpxchg*
+e8be64c73156cf028ed30e5c28611e594be2e1a2 rust: sync: atomic: Clarify the need of CONFIG_ARCH_SUPPORTS_ATOMIC_RMW
+da4edbccfca9be6a2644f5f6b980374de02bad55 rust: sync: atomic: Add Atomic<*{mut,const} T> support
+53dfce4aa04ebb5b3b97640222f83cbf2f8976a3 rust: sync: atomic: Add perfromance-optimal Flag type for atomic booleans
+37e0a143881b51a9b736519de798166e0d1dd585 rust: list: Use AtomicFlag in AtomicTracker
+f2c69c8e674015c77367815024de63d56fa0b939 rust: sync: atomic: Add atomic operation helpers over raw pointers
+a65f3bf55d74a5e3f97a7a4d716d4fbcbb07068f rust: sync: rcu: Add RCU protected pointer
+4cf3639eae71c9af6902c036e45f41555d39f0cf preempt: Introduce HARDIRQ_DISABLE_BITS
+c7095e41925107eea85df5fc4a53e12c011079f3 preempt: Track NMI nesting to separate per-CPU counter
+647173838d497eb311909ee9a92ca36119daf393 preempt: Introduce __preempt_count_{sub, add}_return()
+b3bf6948d9799cfe6ddc2ab8edb970dc8a61b058 openrisc: Include <linux/cpumask.h> in smp.h
+c54b183eeade43270288ca1fa71cb4731bc78e8e irq & spin_lock: Add counted interrupt disabling/enabling
+1efef1e3bea23ab3b643c3ea97c50b2023d58372 irq: Add KUnit test for refcounted interrupt enable/disable
+04c35250bb394d7bc867e1527c3250e49d486025 locking: Switch to _irq_{disable,enable}() variants in cleanup guards
 
---===============0157375509698710347==--
+--===============7834556204229081233==--
