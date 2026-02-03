@@ -1,19 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Tue, 03 Feb 2026 18:54:09 -0000
-Message-Id: <177014484934.195011.1697707272747977633@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Tue, 03 Feb 2026 18:57:35 -0000
+Message-Id: <177014505534.198688.16629722048788702538@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-user: jarkko
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: ast
 changes:
-  - ref: refs/heads/vcam
-    old: e65990576dbab4fe81f84ee97c1465608dd0fc16
-    new: 792bdf60952055792cda2fe099090e7f70955354
+  - ref: refs/heads/master
+    old: f941479a709a534911715cb08d3d71c7074882bd
+    new: f11f7cf90ee09dbcf76413818063ffc38ed2d9fe
     log: |
-         792bdf60952055792cda2fe099090e7f70955354 media: Virtual camera driver
+         63328bb23f2693fe36e8bcdb972c6040e84d16e4 bpf: Add bpf_stream_print_stack stack dumping kfunc
+         954fa97e215ea8fb1fe70d117d25875f3d3938ea selftests/bpf: Add selftests for bpf_stream_print_stack
+         9ddfa24e16747da8d98464b4285ee66e37ddc5c0 bpf: Allow BPF stream kfuncs while holding a lock
+         4d99137eea48b18387d8d17443e28d124177ab7b selftests/bpf: Add selftests for stream functions under lock
+         f11f7cf90ee09dbcf76413818063ffc38ed2d9fe Merge branch 'bpf-add-bpf_stream_print_stack-kfunc'
          
