@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============9033801484053172434=="
+Content-Type: multipart/mixed; boundary="===============8562851826049538426=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Tue, 03 Feb 2026 16:57:00 -0000
-Message-Id: <177013782096.97528.2281553776118228529@gitolite.kernel.org>
+Date: Tue, 03 Feb 2026 16:57:03 -0000
+Message-Id: <177013782352.97665.14895785869001420621@gitolite.kernel.org>
 
---===============9033801484053172434==
+--===============8562851826049538426==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
+  - ref: refs/heads/10GbE
     old: fdf3f6800be36377e045e2448087f12132b88d2f
     new: 3125fc17016945b11e9725c6aff30ff3326fd58f
     log: revlist-fdf3f6800be3-3125fc170169.txt
 
---===============9033801484053172434==
+--===============8562851826049538426==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -43,4 +43,4 @@ d9f5824d5d9a7b8c717c03d8d54dc2c2df991037 Merge branch 'enetc-v4-hardware-integra
 79987ce1bce9f6a756c2cf3c78f8a759a507a0e1 Merge branch '100GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/net-queue
 3125fc17016945b11e9725c6aff30ff3326fd58f net: spacemit: k1-emac: fix jumbo frame support
 
---===============9033801484053172434==--
+--===============8562851826049538426==--
