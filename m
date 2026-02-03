@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============5770802174891380757=="
+Content-Type: multipart/mixed; boundary="===============0607290332663769950=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
-Date: Tue, 03 Feb 2026 11:05:29 -0000
-Message-Id: <177011672938.3998219.7761187224276426281@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Tue, 03 Feb 2026 11:14:51 -0000
+Message-Id: <177011729188.4003435.13151351195108560375@gitolite.kernel.org>
 
---===============5770802174891380757==
+--===============0607290332663769950==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/peterz/queue
+repo: pub/scm/linux/kernel/git/tip/tip
 user: peterz
 changes:
   - ref: refs/heads/sched/core
-    old: bb1463e1ef9fee835c7587aff6fa3e59df19ee7f
+    old: 5c4378b7b0e1f45cf38e77db9305ee2c7bf88002
     new: e34881c84c255bc300f24d9fe685324be20da3d1
-    log: revlist-bb1463e1ef9f-e34881c84c25.txt
+    log: revlist-5c4378b7b0e1-e34881c84c25.txt
 
---===============5770802174891380757==
+--===============0607290332663769950==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-bb1463e1ef9f-e34881c84c25.txt
+Content-Disposition: attachment; filename=revlist-5c4378b7b0e1-e34881c84c25.txt
 
 003c03a4b40085784d5b661133d1124f7e587e02 riscv: configs: Clean up references to non-existing configs
 7cc3fe8e754eb1b7d9876c8ae2ee77dd2fb47b6d tracing: Drop unneeded assignment to soft_mode
@@ -1051,4 +1051,4 @@ dd6a37e8faa723c680cb8615efa5b042691b927f selftests/sched_ext: Add test for DL se
 742fe830b7d9c01b5c36add9f664a5267caca4f5 sched/cpufreq: Use %pe format for PTR_ERR() printing
 e34881c84c255bc300f24d9fe685324be20da3d1 sched: Re-evaluate scheduling when migrating queued tasks out of throttled cgroups
 
---===============5770802174891380757==--
+--===============0607290332663769950==--
