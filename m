@@ -1,29 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/fs/fsverity/linux
-Date: Tue, 03 Feb 2026 01:16:26 -0000
-Message-Id: <177008138667.3513067.17616996495848907894@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Tue, 03 Feb 2026 01:19:28 -0000
+Message-Id: <177008156866.3513997.17772812845197576007@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/fs/fsverity/linux
-user: ebiggers
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
-  - ref: refs/heads/for-next
-    old: 09318a3cd5bbd75ee2b19e9fe45ff74cd5a725e1
-    new: 217ba69341bbe4dc4f02c9f7fa7e1c3444047c65
+  - ref: refs/heads/master
+    old: dee65f79364c18033cabdf0728c7e7025405cf40
+    new: 6bd9ed02871f22beb0e50690b0c3caf457104f7c
     log: |
-         314b652b7e7ad335fa20b693c8878a4850dae098 ext4: move ->read_folio and ->readahead to readpage.c
-         f1a6cf44b344b1ac2cefb387779e3002be237a7e fsverity: kick off hash readahead at data I/O submission time
-         7e36e044958da7d2cbff391dcfda405f5472ae1d fsverity: deconstify the inode pointer in struct fsverity_info
-         47bc2ac9b63da87362ce890543d8d955e0ccc36a fsverity: push out fsverity_info lookup
-         f6ae956dfb3402bf6d5726080c2999f107bb5dd2 fs: consolidate fsverity_info lookup in buffer.c
-         8a82f18c4dc3a23946cc2c46bcd11b790aedc217 ext4: consolidate fsverity_info lookup
-         3428cd0a9498a5a4484fa480dc10c8bc8b514207 f2fs: consolidate fsverity_info lookup
-         44db1940137abb5d55d4afadc08817338167bb16 btrfs: consolidate fsverity_info lookup
-         7a21f393fd377fd29df705be55b7a62eb40bf83d fsverity: use a hashtable to find the fsverity_info
-         e1d6d3d6908d275b34477babef952ec907a3d380 fsverity: remove inode from fsverity_verification_ctx
-         217ba69341bbe4dc4f02c9f7fa7e1c3444047c65 fsverity: add missing fsverity_free_info()
+         43151f812886be1855d2cba059f9c93e4729460b cgroup/dmem: fix NULL pointer dereference when setting max
+         592a68212c5664bcaa88f24ed80bf791282790fe cgroup/dmem: avoid rcu warning when unregister region
+         99a2ef500906138ba58093b9893972a5c303c734 cgroup/dmem: avoid pool UAF
+         6bd9ed02871f22beb0e50690b0c3caf457104f7c Merge tag 'cgroup-for-6.19-rc8-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/tj/cgroup
          
