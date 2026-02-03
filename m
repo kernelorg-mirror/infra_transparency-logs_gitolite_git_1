@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/libs/klibc/klibc
-Date: Tue, 03 Feb 2026 21:28:23 -0000
-Message-Id: <177015410332.319407.11792591659419255864@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
+Date: Tue, 03 Feb 2026 21:30:15 -0000
+Message-Id: <177015421539.322193.13579536903297863123@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/libs/klibc/klibc
-user: bwh
+repo: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
+user: vudentz
 changes:
   - ref: refs/heads/master
-    old: 1d27e1732f1326eaf98f4624100f83232d843616
-    new: 259b87d50457760b804ef8be8a7905afa4ca283f
+    old: eba86d86eec8428bd743523ec76932838e0b30f7
+    new: ba96a6fc642a54909f5ec91d1b09a432fc141b33
     log: |
-         f34399e4f0ec35332b47e68f0ee430ed02ceea3c [klibc] remove unneeded syscalls.mk dependencies
-         259b87d50457760b804ef8be8a7905afa4ca283f [klibc] fix arm stub alignment
+         ba96a6fc642a54909f5ec91d1b09a432fc141b33 Bluetooth: btusb: MT7922: Add VID/PID 0489/e174
          
