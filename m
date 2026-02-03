@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
-Date: Tue, 03 Feb 2026 16:00:54 -0000
-Message-Id: <177013445416.47814.13053761030148388783@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/remoteproc/linux
+Date: Tue, 03 Feb 2026 16:24:51 -0000
+Message-Id: <177013589156.64925.6613633396175286282@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kdave/linux
-user: kdave
+repo: pub/scm/linux/kernel/git/remoteproc/linux
+user: mjp
 changes:
-  - ref: refs/tags/for-6.19-rc8-tag
-    old: 0000000000000000000000000000000000000000
-    new: d453d8fcaee8eb13ac723505f4fd9fa598369fee
+  - ref: refs/heads/rproc-next
+    old: d935187cfb27fc4168f78f3959aef4eafaae76bb
+    new: 26aa5295010ffaebcf8f1991c53fa7cf2ee1b20d
+    log: |
+         26aa5295010ffaebcf8f1991c53fa7cf2ee1b20d remoteproc: imx_rproc: Fix invalid loaded resource table detection
+         
