@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/docs/kernel/pgpkeys
-Date: Tue, 03 Feb 2026 02:48:41 -0000
-Message-Id: <177008692190.3587130.11299803239413158150@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs
+Date: Tue, 03 Feb 2026 03:06:22 -0000
+Message-Id: <177008798288.3603769.9109827635755096974@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/docs/kernel/pgpkeys
-user: mricon
+repo: pub/scm/linux/kernel/git/xiang/erofs
+user: xiang
 changes:
-  - ref: refs/heads/master
-    old: 94cea2f43ac3ca5132f7285c43a88797db9b75b5
-    new: bebb72eba929139a0d085d6ee894e38108a112b3
+  - ref: refs/heads/dev-test
+    old: 886176025101af8775089b64dd1b324bb66cbcd2
+    new: bc804a8d7e865ef47fb7edcaf5e77d18bf444ebc
     log: |
-         bebb72eba929139a0d085d6ee894e38108a112b3 Add 59277E2D006C3075 (Yosry Ahmed)
+         72558e2bed272b5ca8771ba14390160c876207f4 erofs: use inode_set_cached_link()
+         7cef3c8341940febf75db6c25199cd83fb74d52f erofs: separate plain and compressed filesystems formally
+         bc804a8d7e865ef47fb7edcaf5e77d18bf444ebc erofs: handle end of filesystem properly for file-backed mounts
          
