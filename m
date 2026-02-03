@@ -1,28 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Tue, 03 Feb 2026 14:03:17 -0000
-Message-Id: <177012739783.4138435.4432902113573869741@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/liburing
+Date: Tue, 03 Feb 2026 14:09:03 -0000
+Message-Id: <177012774337.4142658.2143409873509440310@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/axboe/liburing
+user: axboe
 changes:
-  - ref: refs/heads/20260203_yung_chuan_liao_asoc_sof_intel_reserve_link_dma_for_sdw_bpt_stream
-    old: 0000000000000000000000000000000000000000
-    new: 330d1deb410fe75f7f79bd1e5025f2827365eb83
-  - ref: refs/heads/20260203_zhangyi_add_es9356_focused_soundwire_codec
-    old: 0000000000000000000000000000000000000000
-    new: dfb833a9fd1b660ad0dccb4ccc2b8b3dd6770389
-  - ref: refs/heads/file7Y5890
-    old: 0000000000000000000000000000000000000000
-    new: 4c9d53794bcfd3db45103269696b019d5ef09d41
-  - ref: refs/heads/filePxRMu6
-    old: 0000000000000000000000000000000000000000
-    new: 6e1e735181e0c18e1f4ecb0118be4b1e2ee439d1
-  - ref: refs/heads/fileRm6O1J
-    old: 0000000000000000000000000000000000000000
-    new: bb6a3c2db281c7d5aaa79b2a6fa00bcd10c0bb8f
+  - ref: refs/heads/master
+    old: 14000b9c0dc5d67057a81f664a8c03fce99a0943
+    new: 3a59094ca8197c9d598de0fdce50e63ba9d67196
+    log: |
+         3f6d38262de451664cda99970f8fe9d55d8dd4bc test/io-wq: verify unused workers exit
+         3a59094ca8197c9d598de0fdce50e63ba9d67196 Merge branch 'idle' of https://github.com/FirstLoveLife/liburing
+         
