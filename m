@@ -1,61 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============8978858839481631552=="
+Content-Type: multipart/mixed; boundary="===============0857872798168861039=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Tue, 03 Feb 2026 12:03:27 -0000
-Message-Id: <177012020793.4044074.16955487167063293606@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Tue, 03 Feb 2026 12:03:31 -0000
+Message-Id: <177012021175.4044257.18192801196474116929@gitolite.kernel.org>
 
---===============8978858839481631552==
+--===============0857872798168861039==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.19
-    old: 1425900231372acf870dd89e8d3bb4935f7f0c81
-    new: 10db9f6899dd3a2dfd26efd40afd308891dc44a8
-    log: |
-         6b641122d31f9d33e7d60047ee0586d1659f3f54 ASoC: Intel: sof_es8336: Add DMI quirk for Huawei BOD-WXX9
-         e77a4081d7e324dfa876a9560b2a78969446ba82 ASoC: cs42l43: Correct handling of 3-pole jack load detection
-         611c7d2262d5645118e0b3a9a88475d35a8366f2 ASoC: amd: yc: Add quirk for HP 200 G2a 16
-         10db9f6899dd3a2dfd26efd40afd308891dc44a8 firmware: cs_dsp: rate-limit log messages in KUnit builds
-         
-  - ref: refs/heads/for-6.20
+  - ref: refs/heads/asoc-6.20
     old: 8a066a81ee0c1b6cdbd81393536c3b2d19ccef25
     new: d83039b5dc3daca93ea8202678d95fc48cb0a120
     log: revlist-8a066a81ee0c-d83039b5dc3d.txt
 
---===============8978858839481631552==
+--===============0857872798168861039==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1770120205 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1770120205-1fbf2c6e817f2a22d4d636cd3e9a2562284334f8
+pusher C3F436CA30F5D8EB 1770120209 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1770120209-f14a3443ab83b29cee1fa777f09d82ae7efaa2fb
 
-1425900231372acf870dd89e8d3bb4935f7f0c81 10db9f6899dd3a2dfd26efd40afd308891dc44a8 refs/heads/for-6.19
-8a066a81ee0c1b6cdbd81393536c3b2d19ccef25 d83039b5dc3daca93ea8202678d95fc48cb0a120 refs/heads/for-6.20
+8a066a81ee0c1b6cdbd81393536c3b2d19ccef25 d83039b5dc3daca93ea8202678d95fc48cb0a120 refs/heads/asoc-6.20
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmmB5A0ACgkQJNaLcl1U
-h9Auigf9E4/qGebcXhRdC6ODATFtPmVCwrZ+ZI/9XmiMWa7K2Vy/QDwANJy9i1eI
-y/bY+D3X8X8bA3WcpdaWpErIr4Q2sn8OZiKZqf/yu9StwOsm3G/LPgdYNYYbiY5M
-QCFDOtTLM14US3Xr1WOhGEY4jVW1IGljQmw0QLfhEjU1+tBTv833Ms3QugcS8E9F
-Qag+D0QJJSyNO18dei5rK5DnBEbiFJtJCZqr/ybM6V5jLmPtP8Z0/1anw+6iLQX4
-C4KHfv7BYSUGpmrvmuyM5b+OzLdZEcUx6pXQMUY2ROkcCl3pu7nZwh3nGh66wIHp
-9ntwuHA/fZ5JNUM3uFKdf4eGGPDnxw==
-=0wkf
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmmB5BEACgkQJNaLcl1U
+h9CwEAf+PVILO8WV2Lf1f1yBNpixu/+O0dn9R9bjGmBEwZ2sTINexElDIsa0NPQT
+ZNZ+Oo7/62e3DGxOlj3bnzM53qIsQy0F5tG9Kqns6zGdMsNXVUH46G5r/2AGEkze
+TNq6wLVJfNNSLzeKE68Nrzm/o2mgxg3krhpN+w2Ihx9gqBX9kvE9ATC1x7dAXZzj
+zcF2hZEGktYNvwUgaRfquzgu6s3p9bSu7aPzwPax9e624XQvJtOSJUZujamGyBnE
+V8+GD7C5lWjTMKdq9qJtJnziyHQAfprJ+CYCTT82pn8cUeBNOOFXA0vHUG6x+XLq
+cVj3pdF31se2NrhB2TwTsdSiOn8Clg==
+=knqi
 -----END PGP SIGNATURE-----
 
---===============8978858839481631552==
+--===============0857872798168861039==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -309,4 +299,4 @@ c1b835eefb7887266ac39573054a224a8e32207f Anbernic RG-DS AW87391 Speaker Amps
 0f625fc2def8f36561444d16847206982f39f726 ASoC: amd: acp: Add ACP7.0 match entries for Cirrus
 d83039b5dc3daca93ea8202678d95fc48cb0a120 ASoC: es8328: error handling and resume fixes
 
---===============8978858839481631552==--
+--===============0857872798168861039==--
