@@ -1,36 +1,29 @@
-Content-Type: multipart/mixed; boundary="===============4632017016573247940=="
+Content-Type: multipart/mixed; boundary="===============8233335614705965131=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next
-Date: Tue, 03 Feb 2026 19:15:46 -0000
-Message-Id: <177014614694.214730.4466244229385339013@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next-history
+Date: Tue, 03 Feb 2026 19:16:03 -0000
+Message-Id: <177014616380.215134.17558198084212198716@gitolite.kernel.org>
 
---===============4632017016573247940==
+--===============8233335614705965131==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/next/linux-next
+repo: pub/scm/linux/kernel/git/next/linux-next-history
 user: broonie
 changes:
   - ref: refs/heads/master
     old: 193579fe01389bc21aff0051d13f24e8ea95b47d
     new: 5c009020744fe129e4728e71c44a6c7816c9105e
     log: revlist-193579fe0138-5c009020744f.txt
-  - ref: refs/heads/stable
-    old: 18f7fcd5e69a04df57b563360b88be72471d6b62
-    new: de0674d9bc69699c497477d45172493393ae9007
-    log: revlist-18f7fcd5e69a-de0674d9bc69.txt
-  - ref: refs/tags/next-20251103
-    old: cd8eb1cf3dad15dad65060f5d18a59ab99485d01
-    new: 0000000000000000000000000000000000000000
   - ref: refs/tags/next-20260203
     old: 0000000000000000000000000000000000000000
     new: 9642022691a0a4f49cf95415f61d84c338be54c7
 
---===============4632017016573247940==
+--===============8233335614705965131==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1041,30 +1034,4 @@ b5be8365495c82ad927d730c58c47a0a7153e790 Merge branch 'for-next' of https://gith
 d8aa39e3043d3edc139905cfcee0d03bf93b3a24 Merge branch 'for-next' of https://git.kernel.org/pub/scm/linux/kernel/git/frederic/linux-dynticks.git
 5c009020744fe129e4728e71c44a6c7816c9105e Add linux-next specific files for 20260203
 
---===============4632017016573247940==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-18f7fcd5e69a-de0674d9bc69.txt
-
-43b0b7eff4b3fb684f257d5a24376782e9663465 platform/x86: panasonic-laptop: Fix sysfs group leak in error path
-128497456756e1b952bd5a912cd073836465109d platform/x86: toshiba_haps: Fix memory leaks in add/remove routines
-98bdc485b281da7e20e67b13a8cc834956d68e9c platform/x86/intel/vsec: Add Nova Lake PUNIT support
-25e9e322d2ab5c03602eff4fbf4f7c40019d8de2 platform/x86: intel_telemetry: Fix swapped arrays in PSS output
-39e9c376ac42705af4ed4ae39eec028e8bced9b4 platform/x86: intel_telemetry: Fix PSS event register mask
-2b4e00d8e70ca8736fda82447be6a4e323c6d1f5 platform/x86/amd/pmc: Add quirk for MECHREVO Wujie 15X Pro
-662c9cb86fc322038647d8808e751f5c6c0cc13f platform/x86: lg-laptop: Recognize 2022-2025 models
-fe747d7112283f47169e9c16e751179a9b38611e platform/x86: classmate-laptop: Add missing NULL pointer checks
-6222883af286e2feb3c9ff2bf9fd8fdf4220c55a platform/x86: hp-bioscfg: Skip empty attribute names
-008bec8ffe6e7746588d1e12c5b3865fa478fc91 platform/x86/intel/tpmi/plr: Make the file domain<n>/status writeable
-bdde21d3e77da55121885fd2ef42bc6a15ac2f0c lsm: preserve /proc/sys/vm/mmap_min_addr when !CONFIG_SECURITY
-43151f812886be1855d2cba059f9c93e4729460b cgroup/dmem: fix NULL pointer dereference when setting max
-592a68212c5664bcaa88f24ed80bf791282790fe cgroup/dmem: avoid rcu warning when unregister region
-99a2ef500906138ba58093b9893972a5c303c734 cgroup/dmem: avoid pool UAF
-dee65f79364c18033cabdf0728c7e7025405cf40 Merge tag 'lsm-pr-20260202' of git://git.kernel.org/pub/scm/linux/kernel/git/pcmoore/lsm
-6bd9ed02871f22beb0e50690b0c3caf457104f7c Merge tag 'cgroup-for-6.19-rc8-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/tj/cgroup
-29fb415a6a72c9207d118dd0a7a37184a14a3680 btrfs: raid56: fix memory leak of btrfs_raid_bio::stripe_uptodate_bitmap
-d0452e3ea094e1fd4959fb3fd67f8827a4c04743 Merge tag 'platform-drivers-x86-v6.19-4' of git://git.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-de0674d9bc69699c497477d45172493393ae9007 Merge tag 'for-6.19-rc8-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
-
---===============4632017016573247940==--
+--===============8233335614705965131==--
