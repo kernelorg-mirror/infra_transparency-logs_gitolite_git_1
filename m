@@ -1,46 +1,43 @@
-Content-Type: multipart/mixed; boundary="===============4126606026435062323=="
+Content-Type: multipart/mixed; boundary="===============1823516313093875977=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Tue, 03 Feb 2026 16:57:10 -0000
-Message-Id: <177013783075.98188.11180796400342631076@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+Date: Tue, 03 Feb 2026 16:57:20 -0000
+Message-Id: <177013784029.98461.5518587123587832676@gitolite.kernel.org>
 
---===============4126606026435062323==
+--===============1823516313093875977==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/net-queue
-user: tnguy
+repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+user: ij
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/200GbE
-    old: fdf3f6800be36377e045e2448087f12132b88d2f
-    new: 3125fc17016945b11e9725c6aff30ff3326fd58f
-    log: revlist-fdf3f6800be3-3125fc170169.txt
+  - ref: refs/tags/platform-drivers-x86-v6.19-4
+    old: 0000000000000000000000000000000000000000
+    new: 651c302f5016f414f04181dfc659359a1a3ab609
 
---===============4126606026435062323==
+--===============1823516313093875977==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-fdf3f6800be3-3125fc170169.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-99854c167cfc113ad863832b1601c4ca1a639cfe ice: fix missing TX timestamps interrupts on E825 devices
-88b68f35eb43ad5ac77ac1107059040b04e6f477 ice: PTP: fix missing timestamps on E825 hardware
-fc6f36eaaedcf4b81af6fe1a568f018ffd530660 ice: Fix PTP NULL pointer dereference during VSI rebuild
-234e615bfece9e3e91c50fe49ab9e68ee37c791a ice: drop udp_tunnel_get_rx_info() call from ndo_open()
-40857194956dcaf3d2b66d6bd113d844c93bef54 i40e: drop udp_tunnel_get_rx_info() call from i40e_open()
-83b67cc9be9223183caf91826d9c194d7fb128fa linkwatch: use __dev_put() in callers to prevent UAF
-1c172febdf065375359b2b95156e476bfee30b60 net: rss: fix reporting RXH_XFRM_NO_CHANGE as input_xfrm for contexts
-dbbec8c5a79f4c7aa8d07da8c0b5a34d76c50699 net: stmmac: fix stm32 (and potentially others) resume regression
-74d9391e8849e70ded5309222d09b0ed0edbd039 tipc: use kfree_sensitive() for session key material
-a69c17230cab07bd156f894fdc82bd78b43ea72f net: enetc: Remove SI/BDR cacheability AXI settings for ENETC v4
-9ae13b2e64fcd2ca00a76b7d60fc4641a6b9209d net: enetc: Remove CBDR cacheability AXI settings for ENETC v4
-21d0fc95b5920ae8e69a2c0394bef82b8392bcc9 net: enetc: Convert 16-bit register writes to 32-bit for ENETC v4
-c28d765ec5da160d3a48d0928528084cef97bf19 net: enetc: Convert 16-bit register reads to 32-bit for ENETC v4
-d9f5824d5d9a7b8c717c03d8d54dc2c2df991037 Merge branch 'enetc-v4-hardware-integration-fixes'
-79987ce1bce9f6a756c2cf3c78f8a759a507a0e1 Merge branch '100GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/net-queue
-3125fc17016945b11e9725c6aff30ff3326fd58f net: spacemit: k1-emac: fix jumbo frame support
+certificate version 0.1
+pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1770137838 +0200
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86.git
+nonce 1770137837-e2f87c6602accb631b34c7d8a8ed2c54488fee1a
 
---===============4126606026435062323==--
+0000000000000000000000000000000000000000 651c302f5016f414f04181dfc659359a1a3ab609 refs/tags/platform-drivers-x86-v6.19-4
+-----BEGIN PGP SIGNATURE-----
+
+iHUEABYIAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCaYIo7wAKCRBZrE9hU+XO
+MV2zAP9nzJ/DWT0kKIxyo/4/r61vkmzFVnc7AJShVU2IQX5ISAD/Y3PjUk8iH+tW
+DoR/SJGI4yISyF4a2YoTQRrrC1i10Qc=
+=4y8v
+-----END PGP SIGNATURE-----
+
+--===============1823516313093875977==--
