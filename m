@@ -1,40 +1,29 @@
-Content-Type: multipart/mixed; boundary="===============7344436710441276281=="
+Content-Type: multipart/mixed; boundary="===============5460652675216014015=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next
-Date: Wed, 04 Feb 2026 14:53:42 -0000
-Message-Id: <177021682239.1248165.221678457582741405@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next-history
+Date: Wed, 04 Feb 2026 14:53:56 -0000
+Message-Id: <177021683689.1248512.5048258726203241667@gitolite.kernel.org>
 
---===============7344436710441276281==
+--===============5460652675216014015==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/next/linux-next
+repo: pub/scm/linux/kernel/git/next/linux-next-history
 user: broonie
 changes:
   - ref: refs/heads/master
     old: 5c009020744fe129e4728e71c44a6c7816c9105e
     new: 0f8a890c4524d6e4013ff225e70de2aed7e6d726
     log: revlist-5c009020744f-0f8a890c4524.txt
-  - ref: refs/heads/stable
-    old: de0674d9bc69699c497477d45172493393ae9007
-    new: 5fd0a1df5d05ad066e5618ccdd3d0fa6cb686c27
-    log: |
-         e3a43633023e3cacaca60d4b8972d084a2b06236 smb/client: fix memory leak in smb2_open_file()
-         67b3da8d3051fba7e1523b3afce4f71c658f15f8 smb/client: fix memory leak in SendReceive()
-         5fd0a1df5d05ad066e5618ccdd3d0fa6cb686c27 Merge tag 'v6.19rc8-smb3-client-fixes' of git://git.samba.org/sfrench/cifs-2.6
-         
-  - ref: refs/tags/next-20251104
-    old: 3102b8d152f660d382e187c34c17c7e5a90e546f
-    new: 0000000000000000000000000000000000000000
   - ref: refs/tags/next-20260204
     old: 0000000000000000000000000000000000000000
     new: a6d038b66a1dc3ff75d7e867cf0380c56d0ce163
 
---===============7344436710441276281==
+--===============5460652675216014015==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -862,4 +851,4 @@ b223f6a36fdcf5489a27d008fb1383146941651d Merge branch 'caps-next' of https://git
 ca41f04025175f722ffeded842f2fd5dcc6d8029 Merge branch 'for-next' of https://git.kernel.org/pub/scm/linux/kernel/git/frederic/linux-dynticks.git
 0f8a890c4524d6e4013ff225e70de2aed7e6d726 Add linux-next specific files for 20260204
 
---===============7344436710441276281==--
+--===============5460652675216014015==--
