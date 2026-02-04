@@ -1,22 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/libs/libtrace/libtraceevent
-Date: Wed, 04 Feb 2026 15:12:32 -0000
-Message-Id: <177021795201.1264263.16611682637424125532@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Wed, 04 Feb 2026 15:13:04 -0000
+Message-Id: <177021798446.1264661.16059197709192391679@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/libs/libtrace/libtraceevent
-user: rostedt
+repo: pub/scm/linux/kernel/git/tip/tip
+user: tglx
 changes:
-  - ref: refs/heads/libtraceevent
-    old: 239b063c82cf90916984a5928cec5ae631dae659
-    new: 6a3a8155848f0e2f54827ff31f1f7db8329beea5
+  - ref: refs/heads/irq/drivers
+    old: 889588d750506d86ba16ae3b968b5ffc5937d5f8
+    new: 6054b10c328813e88bca31ac0d02eaff06057db0
     log: |
-         aa49dceba4363d6a38ca17aedbb662d54e1c1f1c libtraceevent: Split out btf func init code from tep_btf_print_args()
-         5e4ef1f89e22c3adf8697799bafc1f06c777c066 libtraceevent: Add tep_btf_list_args()
-         31fc91bf7f568bc01affa0729c52a6b53dd46462 libtraceevent: Add tep_parse_last_boot_info()
-         6a3a8155848f0e2f54827ff31f1f7db8329beea5 libtraceevent: Add tep_load_modules() API
+         6054b10c328813e88bca31ac0d02eaff06057db0 irqchip/gic-v5: Fix spelling mistake "ouside" -> "outside"
          
