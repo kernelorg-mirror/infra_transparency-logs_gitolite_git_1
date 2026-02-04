@@ -1,23 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Wed, 04 Feb 2026 22:11:37 -0000
-Message-Id: <177024309711.1630983.8947973764007341640@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tj/sched_ext
+Date: Wed, 04 Feb 2026 22:23:40 -0000
+Message-Id: <177024382043.1639483.6369930518543694389@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
-user: broonie
+repo: pub/scm/linux/kernel/git/tj/sched_ext
+user: tj
 changes:
-  - ref: refs/heads/for-next
-    old: 538503bc9be7513908a9f5783ed6dd4f96c0f8b9
-    new: f0b0677d8a1ebcd55d6395ff0303a8086597e211
+  - ref: refs/heads/for-6.19-fixes
+    old: c9894e6f0160414b57e895332c580cf5c8da6780
+    new: 0eca95cba2b7bf7b7b4f2fa90734a85fcaa72782
     log: |
-         50464497b5874b7c2f3ab991cec81e916d40743c spi: geni-qcom: Improve target mode allocation by using proper allocation functions
-         96e041647bb0f9d92f95df1d69cb7442d7408b79 spi: geni-qcom: Fix abort sequence execution for serial engine errors
-         9934383f98c91d8dfdf16d0e980431041c2d17ee spi: geni-qcom: Drop unused msg parameter from timeout handlers
-         6516169fa7f6110ce42a5958c921255f2d0968bc spi: geni-qcom: Add target abort support
-         f0b0677d8a1ebcd55d6395ff0303a8086597e211 Merge remote-tracking branch 'spi/for-6.20' into spi-next
+         0eca95cba2b7bf7b7b4f2fa90734a85fcaa72782 sched_ext: Short-circuit sched_class operations on dead tasks
+         
+  - ref: refs/heads/for-next
+    old: b9bf48c5f1a81a9779f3d06a790bd0830299cc34
+    new: 3445c57d73330a05e4a0b88f87ab3ccddac7f708
+    log: |
+         0eca95cba2b7bf7b7b4f2fa90734a85fcaa72782 sched_ext: Short-circuit sched_class operations on dead tasks
+         3445c57d73330a05e4a0b88f87ab3ccddac7f708 Merge branch 'for-6.19-fixes' into for-next
          
