@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Wed, 04 Feb 2026 13:51:34 -0000
-Message-Id: <177021309475.1194427.7393892202041556359@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
+Date: Wed, 04 Feb 2026 13:52:26 -0000
+Message-Id: <177021314684.1194837.15554586347002414443@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/kdave/linux
+user: kdave
 changes:
-  - ref: refs/heads/20260204_zhangyi_add_es9356_focused_soundwire_codec
-    old: cf5db537deba52e28cb62af1e4f1539624a1cedc
-    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/for-6.20-part2
+    old: 0000000000000000000000000000000000000000
+    new: df321b214f626898f845c9ba507072cb9de75c4d
