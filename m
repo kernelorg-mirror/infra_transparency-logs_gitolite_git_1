@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7207808011784900617=="
+Content-Type: multipart/mixed; boundary="===============4576421445729100174=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Wed, 04 Feb 2026 23:05:12 -0000
-Message-Id: <177024631207.1674771.5175383560550722278@gitolite.kernel.org>
+Date: Wed, 04 Feb 2026 23:05:14 -0000
+Message-Id: <177024631437.1674889.5992454035878737998@gitolite.kernel.org>
 
---===============7207808011784900617==
+--===============4576421445729100174==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/10GbE
+  - ref: refs/heads/40GbE
     old: 3125fc17016945b11e9725c6aff30ff3326fd58f
     new: 7576bd9017e35379db1ab1ef6b0e1d570eb28429
     log: revlist-3125fc170169-7576bd9017e3.txt
 
---===============7207808011784900617==
+--===============4576421445729100174==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -38,4 +38,4 @@ c0b5dc73a38f954e780f93a549b8fe225235c07a net: cpsw_new: Execute ndo_set_rx_mode 
 0b8c878d117319f2be34c8391a77e0f4d5c94d79 net: cpsw: Execute ndo_set_rx_mode callback in a work queue
 7576bd9017e35379db1ab1ef6b0e1d570eb28429 Merge branch 'net-cpsw-execute-ndo_set_rx_mode-callback-in-a-work-queue'
 
---===============7207808011784900617==--
+--===============4576421445729100174==--
