@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8493077649359710103=="
+Content-Type: multipart/mixed; boundary="===============2971532223211991827=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/andi.shyti/linux
-Date: Wed, 04 Feb 2026 01:50:01 -0000
-Message-Id: <177016980140.530096.18127953025829577652@gitolite.kernel.org>
+Date: Wed, 04 Feb 2026 01:50:04 -0000
+Message-Id: <177016980463.532146.16134028481538569816@gitolite.kernel.org>
 
---===============8493077649359710103==
+--===============2971532223211991827==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/andi.shyti/linux
 user: andi.shyti
 changes:
-  - ref: refs/heads/i2c/i2c-host-fixes
-    old: 35f98b8eddc05198331d7c73aab1678f7cbd4a6b
-    new: b126097b0327437048bd045a0e4d273dea2910dd
-    log: revlist-35f98b8eddc0-b126097b0327.txt
+  - ref: refs/heads/i2c/i2c-host-next
+    old: 31b352b0a7ccc20f1e040c35e54c75bf34f3ed11
+    new: 0af28ce5fbc636bf98ab282e82c3f5dbf3d9ecde
+    log: revlist-31b352b0a7cc-0af28ce5fbc6.txt
 
---===============8493077649359710103==
+--===============2971532223211991827==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-35f98b8eddc0-b126097b0327.txt
+Content-Disposition: attachment; filename=revlist-31b352b0a7cc-0af28ce5fbc6.txt
 
 2f6d2c8d9ac05a7a1c02333f6ad30868246880d8 Revert "mtd: spinand: esmt: fix id code for F50D1G41LB"
 761fcf46a1bd797bd32d23f3ea0141ffd437668a w1: therm: Fix off-by-one buffer overflow in alarms_store
@@ -314,5 +314,6 @@ c00a8791646a226b77d24980ffad0c5e8e268b07 Merge tag 'perf-urgent-2026-02-01' of g
 9f2693489ef8558240d9e80bfad103650daed0af Merge tag 'scsi-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
 18f7fcd5e69a04df57b563360b88be72471d6b62 Linux 6.19-rc8
 b126097b0327437048bd045a0e4d273dea2910dd i2c: imx: preserve error state in block data length handler
+0af28ce5fbc636bf98ab282e82c3f5dbf3d9ecde Merge branch 'i2c/i2c-host-fixes' into i2c/i2c-host-next
 
---===============8493077649359710103==--
+--===============2971532223211991827==--
