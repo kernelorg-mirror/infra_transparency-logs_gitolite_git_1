@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6322641487176602183=="
+Content-Type: multipart/mixed; boundary="===============4689050048866965967=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/driver-core/driver-core
-Date: Wed, 04 Feb 2026 08:22:29 -0000
-Message-Id: <177019334900.888172.14574986692337992626@gitolite.kernel.org>
+Date: Wed, 04 Feb 2026 08:23:24 -0000
+Message-Id: <177019340444.888605.14841806386215506644@gitolite.kernel.org>
 
---===============6322641487176602183==
+--===============4689050048866965967==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,40 +17,40 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/driver-core-testing
-    old: dd7762c73b1cc0de391b8f39d8e634d2ac58dcbd
-    new: 36ea9b6151c366c18d044f14593c126ad978c68e
+    old: 36ea9b6151c366c18d044f14593c126ad978c68e
+    new: c5048ddee936ca5ce0aeb79172ce512130779d31
     log: |
-         36ea9b6151c366c18d044f14593c126ad978c68e driver core: disable revocable code from build
+         c5048ddee936ca5ce0aeb79172ce512130779d31 driver core: disable revocable code from build
          
 
---===============6322641487176602183==
+--===============4689050048866965967==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1770193342 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1770193401 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/driver-core/driver-core.git
-nonce 1770193339-0649ca094e33042a0158a7100e87ebf05353771e
+nonce 1770193399-fe12771ea163c963e6ef4af151186dc98fe967be
 
-dd7762c73b1cc0de391b8f39d8e634d2ac58dcbd 36ea9b6151c366c18d044f14593c126ad978c68e refs/heads/driver-core-testing
+36ea9b6151c366c18d044f14593c126ad978c68e c5048ddee936ca5ce0aeb79172ce512130779d31 refs/heads/driver-core-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmmDAb4bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+NCAP/2WSYH2RTjTpZsWRaQZJ
-QghflbLWYOcnUj6xbSiPGpO3IBWO+ESbs1H9JVgz8RJbGUX5D0LWcig/D6T/0509
-CPD8N05IYxXv836Wyh2GTIH5m4b/pnxvbN2mBagJz4pzsjldSlIMBBpLAXqCrjos
-x8+qLZo2fTpb5m1pd29V0CudDeuaSNQxpp+CXEybN4Ig689NHkWANuxMw8xtgAJU
-XkeC1fQxbBfHfxEoGR94t98kjR0B81X343KbParaeZy0X8PaviDpUv2dNjo66gsF
-274zQa5npD8cl+kq5nz6t5FmmoJun9GpPVEiAhXaGOgBx72sO7o2frTdjwI2aTW+
-/hEakgbzXmx55E+jsc5/ylto3s3ImYEnxK822AaKDktBhdDR7FonFkF1eW8fAAr1
-OhGNSsOSA3+EmuETqLBrkJOCiSsUMCPfkS8gS8mL2o/YVVkpVl1RTytfnZ1NOzcv
-gTNMJoOin27sLIY/3PwNM/CDFBMgnxDdwE2V3OzV+YH+ag1p9oEAL04Mzl0tIWcF
-m0m213PhqtrAxHziur8T/MQeJMBF81OP+8XPoxKA+6FkM3Nh9EkIQTdtYj/O0ju/
-zMywcKVkQIXr1juleYkW+jU3L3GQU2MmRusRbgH5J+qNt5g+iklwX53u76TRYrTh
-evW00baK3+BEkjdRer9qg9Jb
-=4pKw
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmmDAfkbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+X/wP/3mtKa4r6Iuim7xciOHe
+bTjeT22Uqp7291WY+BquIa/wQugi/oJewPDfgF65k8yJ4YrqxQGLK9MtF1iQRtng
+shocXd7my3+ZRXz2Tpc3Evl3qD2JCZmd3PAI8msGGJUSQomNn+/z/uspHa7S0N/2
+9NpBaudvkPxIAMSt52kyWUn7qvbTze/HFBK8tNWgyZsVnvCBuf6ppjwjTNutm5ad
+vn4aFcU6PdLavfnhIMamEWLASDIK+UJy1SaRNzEMdrU2BYDljaLfGCSiT3eoGgKB
+YQDX52WKbFHGuIzUTBYv7X9Bl+fXfmCjdurvpG870YZfuXmgggFV8Xu48pqbC1hW
+zqHiZj5QXtkz8nNI/rORf++tTeM+LNosoIf8QtlK7sSCEVIIMHZ4NEhZUeDK7irz
+lyYg4nK3n9urrXMNnvs2O2J5mbW3rm3abIVG9Qxwxp8cLMl7Avm3IEzWDa76ay1x
+gJcPzfuSjqpL5rRBs1Ar1mLFhbEKeqBTdocxKpqBBD3/jDFyres8JgqidK3Abff6
+aNtUwO5t9iJpZDUg5b4qDPnkgyJfVBTk/C9wPY43JOwx5AerwxqRIK3RV7x6Zji2
+DHEQAmW+jFJ/njNmk6Dhom8dpsR25q5vGCGaBkV86fjpCOtcQfVhpYPHVf16Jmz6
+GXfCagCTFnXIuqtSzZzMTIfI
+=9u++
 -----END PGP SIGNATURE-----
 
---===============6322641487176602183==--
+--===============4689050048866965967==--
