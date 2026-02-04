@@ -1,25 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/arighi/linux
-Date: Tue, 03 Feb 2026 23:39:04 -0000
-Message-Id: <177016194458.422208.16542424827489440241@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kbuild/linux
+Date: Wed, 04 Feb 2026 00:16:03 -0000
+Message-Id: <177016416360.451605.13686290484849605842@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/arighi/linux
-user: arighi
+repo: pub/scm/linux/kernel/git/kbuild/linux
+user: nathan
 changes:
-  - ref: refs/heads/scx
-    old: 5f197a89b53baf1683ffb97c290f9e7c19a32bd8
-    new: a99f2f48ef2e3ea50fc423b1000dfc61f5aca230
+  - ref: refs/heads/kbuild-next
+    old: 87abe931fbc349d13407a3dd61e6e9a899389141
+    new: f2445d6f264c64e90b5094d4e8ed33f30cfb7fc4
     log: |
-         e5a1c9fb0e25a33b79fb7fbe55f7037c78c2739f sched_ext: Fix ops.dequeue() semantics
-         fa9fd4b2c5dd75c60872ff5f38b2fb4710839d20 selftests/sched_ext: Add test to validate ops.dequeue() semantics
-         6124fb2274d7a786eb34ff124d2b49e2b9d3ad2f sched: Relocate sched_smt_present definition to core.c
-         6066335058e3799fbd0f89aef81a9c563332c62d sched: Expose sd_llc_shared->has_idle_cores to other sched classes
-         26bbf76e38f0aebc2f574dac8ba8b8d49dc3864e sched_ext: idle: Reuse sd_llc_shared->has_idle_cores
-         754f7dd7bd47f64d053de28f703d07fb08121805 sched_ext: Skip resched for IN_BALANCE CPUs
-         a99f2f48ef2e3ea50fc423b1000dfc61f5aca230 sched_ext: Skip dispatch buffer for same-CPU local DSQ dispatches
+         3cd9763ce4ad999d015cf0734e6b968cead95077 modpost: Amend ppc64 save/restfpr symnames for -Os build
+         1f77593d304e734890bc66bcb2b723c181c698f5 MAINTAINERS: Add scripts/install.sh into Kbuild entry
+         f2445d6f264c64e90b5094d4e8ed33f30cfb7fc4 rust: kconfig: Don't require RUST_IS_AVAILABLE for rustc-option
          
