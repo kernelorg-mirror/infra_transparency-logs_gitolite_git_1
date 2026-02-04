@@ -1,22 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============3296297433058832774=="
+Content-Type: multipart/mixed; boundary="===============0257251130379198855=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Wed, 04 Feb 2026 22:11:02 -0000
-Message-Id: <177024306238.1630118.3721612395257040370@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Wed, 04 Feb 2026 22:11:05 -0000
+Message-Id: <177024306572.1630284.10622317894853782043@gitolite.kernel.org>
 
---===============3296297433058832774==
+--===============0257251130379198855==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.20
+  - ref: refs/heads/spi-6.20
     old: 4cc4ace709860c37f7f8019e950380a4694eb101
     new: 6516169fa7f6110ce42a5958c921255f2d0968bc
     log: |
@@ -26,28 +26,28 @@ changes:
          6516169fa7f6110ce42a5958c921255f2d0968bc spi: geni-qcom: Add target abort support
          
 
---===============3296297433058832774==
+--===============0257251130379198855==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1770243060 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
-nonce 1770243060-59a8179ec8ca07265d58df3d156c07294d5ebb2b
+pusher C3F436CA30F5D8EB 1770243064 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1770243063-aa3e51d3e318bae0cb98e0b87dda9331ca297af3
 
-4cc4ace709860c37f7f8019e950380a4694eb101 6516169fa7f6110ce42a5958c921255f2d0968bc refs/heads/for-6.20
+4cc4ace709860c37f7f8019e950380a4694eb101 6516169fa7f6110ce42a5958c921255f2d0968bc refs/heads/spi-6.20
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmmDw/QACgkQJNaLcl1U
-h9Ck5Qf6Ag2f9KwPuQ+BpeFo08UNT9UDby5BOBF4mOtQnm9sqWKbq9N8scspMso9
-zUdIQXWAid0BW6B66iGIVwF4B2O2lemWOCImSwSnHKesTP2XGmTJ4UvsosrkGkok
-MfmHTn+iP4CL2HVSnNRaFhRZUm37ZpbXsPC64fQkAZ+Yl/SVzJAjXFxa9eJZp8JI
-0GlGE3dQvxpFRN0LKdJ/WTiHV/QpgdlVkxns9ierwJgqppaIgHEXb0PBDutATJd6
-z5ZDKD7jIe1hnZhHb4Z7eaJPQH+47aCgsiuHtSS1w3X/g1WzxXCxfM5haYB68u41
-DMDoFAxjL9NqoFkgGSSoljw7engC/w==
-=2/xl
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmmDw/gACgkQJNaLcl1U
+h9D1aQf+KHILw0Bld4m4e/QCi5RyuHRnKKqX+rnxF6w+BtZq6ae5anY5YT4V4xnf
+I+IF1hE+d3IEn63Zd7Mtu3SwZqxboAXIaikyIAkXQJvPBxRF50AWDBJ6hoybR19y
+XIJpj1sKIs8A70mgL8W3OKHzuORi4aue6qfcUNo3ZgY9qqkUlUZFzgf/oPTVxqs2
+1jHnEOvA2IIxJXiwFnFGaU8yJ8+Qe7sr4N8C+1/RNd64IhaXPsG28Obx01uNbRgB
+RIrZ2HlNNsr1PKTrx+zEI6PmF0mpC5oQg6E1VOI65w59az9zrfquZzkjBRfSi+wq
+zuA/qIEjd3JZxS8S54eB+yFlcGjamQ==
+=6vod
 -----END PGP SIGNATURE-----
 
---===============3296297433058832774==--
+--===============0257251130379198855==--
