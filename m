@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/damo
-Date: Wed, 04 Feb 2026 02:06:47 -0000
-Message-Id: <177017080784.546875.6615312846723884430@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Wed, 04 Feb 2026 02:06:52 -0000
+Message-Id: <177017081205.547067.11628439509008450373@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/damo
-user: sj
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
-  - ref: refs/heads/next
-    old: a0233c7b5538eefded9e78fb357c98f8d7321700
-    new: cc564cc5f9ff1041d6253596c2a62cd1dcbc9d93
+  - ref: refs/heads/master
+    old: de0674d9bc69699c497477d45172493393ae9007
+    new: 5fd0a1df5d05ad066e5618ccdd3d0fa6cb686c27
     log: |
-         cc564cc5f9ff1041d6253596c2a62cd1dcbc9d93 _damo_sysinfo: restore append_plus initialization in infer_damon_version()
+         e3a43633023e3cacaca60d4b8972d084a2b06236 smb/client: fix memory leak in smb2_open_file()
+         67b3da8d3051fba7e1523b3afce4f71c658f15f8 smb/client: fix memory leak in SendReceive()
+         5fd0a1df5d05ad066e5618ccdd3d0fa6cb686c27 Merge tag 'v6.19rc8-smb3-client-fixes' of git://git.samba.org/sfrench/cifs-2.6
          
