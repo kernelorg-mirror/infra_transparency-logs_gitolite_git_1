@@ -1,58 +1,52 @@
-Content-Type: multipart/mixed; boundary="===============2007286906195928155=="
+Content-Type: multipart/mixed; boundary="===============3037031694913095946=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Wed, 04 Feb 2026 13:02:19 -0000
-Message-Id: <177021013943.1154653.4588853719435159274@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Wed, 04 Feb 2026 13:02:24 -0000
+Message-Id: <177021014456.1154890.522201317734011258@gitolite.kernel.org>
 
---===============2007286906195928155==
+--===============3037031694913095946==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/char-misc
-user: gregkh
+repo: pub/scm/linux/kernel/git/broonie/sound
+user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/char-misc-next
-    old: 9991bbc6d5e8fdfa0b1bcfeebf4637e8fd764bd8
-    new: 4df29fb5bcebeea28b29386dec18355949512ca1
+  - ref: refs/heads/for-6.19
+    old: 6e1e735181e0c18e1f4ecb0118be4b1e2ee439d1
+    new: f514248727606b9087bc38a284ff686e0093abf1
     log: |
-         38ac9179a79d81ab1db3807ddd6c03fab29eb19b rust_binder: fix needless borrow in context.rs
-         9caa30dada9e8ec9b1b09cf95e6d1a806c86d101 drivers: android: binder: Update ARef imports from sync::aref
-         4df29fb5bcebeea28b29386dec18355949512ca1 rust_binder: return p from rust_binder_transaction_target_node()
+         7f67ba5413f98d93116a756e7f17cd2c1d6c2bd6 ASoC: amd: fix memory leak in acp3x pdm dma ops
+         85352e59de4ce09de8322b2591a26f515fbde9c0 ASoC: dt-bindings: ti,tlv320aic3x: Add compatible string ti,tlv320aic23
+         f514248727606b9087bc38a284ff686e0093abf1 ASoC: fsl_xcvr: fix missing lock in fsl_xcvr_mode_put()
          
 
---===============2007286906195928155==
+--===============3037031694913095946==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1770210138 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1770210138-3ed40a74e9ff36062ac9561dff250e6604f7e79a
+pusher C3F436CA30F5D8EB 1770210143 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
+nonce 1770210142-d492e565a75f446810d3eefe09e482d7abde1756
 
-9991bbc6d5e8fdfa0b1bcfeebf4637e8fd764bd8 4df29fb5bcebeea28b29386dec18355949512ca1 refs/heads/char-misc-next
+6e1e735181e0c18e1f4ecb0118be4b1e2ee439d1 f514248727606b9087bc38a284ff686e0093abf1 refs/heads/for-6.19
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmmDQ1obHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+hl4P/j+TNyzC0+9sLGiytlMN
-Q4yh1Mt+DoMrAj3qH5e4hohNpgyucU53qPZbU8vSzXJXxHz01F4Bfb9SWmO57y4a
-X2nHtT6U4girX6U7yBhrZZ1JwFMdt9Vvm6LFfYnq6DNEWPfRgfWXEKI0If0GUgup
-ZyeWHL/IgJ65xUkIHTUMGGNiGYjfiBcuMRz7sM/pAtNLTyfgKg6V8zVaGwyZVyv5
-5TVW3LS37gzVcOPL+q5A8CbxW/+aKAMcULqgB5WpSBUz15afh39s8mjTZ9nq2Afi
-ZG0E7bMQQ131QY64O2kwrg3YvilSH5bqu2YcIhngpZ2PYk1DaevAwxlAAG+DLQkO
-bF+qrLv/iGMFPtt3ddAGjaswmce9IWuPzbqBw8ikT/WhHchEhVXQ2McsesqX0klF
-4ikNBW3oM6+EAEPgfRl8qzvEfGGkNzQWa2kaoZGQ9JyzszMrhADlhwGuBk6lqy3o
-aG6XSRCKCWOB3VmD0myM99oLtQm3pXfnQzjOGxwnycJ1jvNnLijuvCJnHitK817G
-9Pdi9WIv30G9IaFWHtXUEcxWdGDqPTNLm2SZEImNHAZzBvR8msqqum3hZYWRhkab
-22M8/P2YX6jLwCP1FmOO9zL1bwVyC5oAYwN0mTWjh8uNpAeZ4P3GzJvxgAvS0ahR
-dj8jEibtoaPkpL7/CVhZGVK4
-=PVZF
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmmDQ18ACgkQJNaLcl1U
+h9CgHAf9Fjh/NdVJv8naDKb/IH2r/ni6NdFLuHcw5AWx3QWQIiCZ8ZWX3Wa0/lNl
+kRgrWuPvQLnhuUInHxG0vLB0ATE/S6dJ6XOgplPpzOq4cQFEX5SQ8c+qrjIRbYzy
+xftnOAtJAh7FEjWlUdGw1Ppmt7uWdz8ziGWeBf9WxhEfZCFGQ/ZWJFog3zSNgE6M
+z2YDUSZ3dALKmfLff1MPezLn8ixFq9jnWmnJGZCbOpJ+wNlvhTlGmHngpVRpjFAF
+u9vJLMOoNQHRRxvcJsnSUFHSybCC8Mk+G8+lpIBMWhH8/KWT+JLf7a73Kpx1t9XS
+haUrmm1CaS9Ddxb3ZUbq3FmgNHoDgQ==
+=UPq7
 -----END PGP SIGNATURE-----
 
---===============2007286906195928155==--
+--===============3037031694913095946==--
