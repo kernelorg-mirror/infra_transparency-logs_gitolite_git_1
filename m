@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5263920887431952962=="
+Content-Type: multipart/mixed; boundary="===============4584713832404646396=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/robh/linux
-Date: Wed, 04 Feb 2026 02:58:47 -0000
-Message-Id: <177017392747.625344.11868746382006157001@gitolite.kernel.org>
+Date: Wed, 04 Feb 2026 02:58:54 -0000
+Message-Id: <177017393418.625564.14629386125285866357@gitolite.kernel.org>
 
---===============5263920887431952962==
+--===============4584713832404646396==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/robh/linux
 user: robh
 changes:
-  - ref: refs/heads/dt/next
+  - ref: refs/heads/for-next
     old: bd0e727302aa95a95324643fa461a5ae5e0ff54e
     new: 39451ebcf7fe19f21c65b39b03fbfb90c3d1a350
     log: revlist-bd0e727302aa-39451ebcf7fe.txt
 
---===============5263920887431952962==
+--===============4584713832404646396==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -81,4 +81,4 @@ f82fa1d592021642b89977f77b4c3fc6eb9404ce clk: imx: imx27: Simplify with scoped f
 a91b99fa779a2097f147b6a2a05fa7a6207013c7 cpufreq: s5pv210: Simplify with scoped for each OF child loop
 39451ebcf7fe19f21c65b39b03fbfb90c3d1a350 dt-bindings: firmware: fsl,scu: Mark multi-channel MU layouts as deprecated
 
---===============5263920887431952962==--
+--===============4584713832404646396==--
