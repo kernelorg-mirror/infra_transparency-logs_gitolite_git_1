@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs
-Date: Wed, 04 Feb 2026 09:39:57 -0000
-Message-Id: <177019799747.949529.10387134517740223854@gitolite.kernel.org>
+Date: Wed, 04 Feb 2026 09:41:11 -0000
+Message-Id: <177019807104.952717.2812621809520107269@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,15 +12,16 @@ repo: pub/scm/linux/kernel/git/xiang/erofs
 user: xiang
 changes:
   - ref: refs/heads/dev
-    old: c7c707cbaa5ed277836364da4033e141ff985678
-    new: b7824adad9ce7e31505f3d2b5b9bfa9fc000e636
+    old: b7824adad9ce7e31505f3d2b5b9bfa9fc000e636
+    new: 1ec50c082d4fe08d75e80b926dfb1e3fecf2454b
     log: |
-         3f17452cbcfafbc67e4c351ab5ff89b9cd20d85f erofs: fix inline data read failure for ztailpacking pclusters
-         b7824adad9ce7e31505f3d2b5b9bfa9fc000e636 erofs: update compression algorithm status
+         f7d18c4e54a32e48271ecd3f99af73c62b66994c erofs: fix inline data read failure for ztailpacking pclusters
+         1ec50c082d4fe08d75e80b926dfb1e3fecf2454b erofs: update compression algorithm status
          
   - ref: refs/heads/dev-test
-    old: 3f17452cbcfafbc67e4c351ab5ff89b9cd20d85f
-    new: b7824adad9ce7e31505f3d2b5b9bfa9fc000e636
+    old: b7824adad9ce7e31505f3d2b5b9bfa9fc000e636
+    new: 1ec50c082d4fe08d75e80b926dfb1e3fecf2454b
     log: |
-         b7824adad9ce7e31505f3d2b5b9bfa9fc000e636 erofs: update compression algorithm status
+         f7d18c4e54a32e48271ecd3f99af73c62b66994c erofs: fix inline data read failure for ztailpacking pclusters
+         1ec50c082d4fe08d75e80b926dfb1e3fecf2454b erofs: update compression algorithm status
          
