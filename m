@@ -1,55 +1,40 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mst/vhost
-Date: Wed, 04 Feb 2026 19:14:31 -0000
-Message-Id: <177023247167.1484730.9810185723241980568@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============4926132531114462498=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
+Date: Wed, 04 Feb 2026 19:20:30 -0000
+Message-Id: <177023283047.1491719.8838519497044855056@gitolite.kernel.org>
+
+--===============4926132531114462498==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mst/vhost
-user: mst
+repo: pub/scm/linux/kernel/git/rafael/linux-pm
+user: rafael
 changes:
-  - ref: refs/heads/linux-next
-    old: 39051db5c13fa14f88267a81c84cb4f40e510937
-    new: 996b8da17999a4a1c281920d37ac757b6ff1ea9f
-    log: |
-         719d959274da85eb0e1eb448dd807b1c435c19a1 vdpa/mlx5: update mlx_features with driver state check
-         2f61e6eda7a793bca4df6efea95815375e122f3a vdpa/mlx5: reuse common function for MAC address updates
-         503ef41e88080fb2d2399173e34d26e59567fb5e vdpa/mlx5: update MAC address handling in mlx5_vdpa_set_attr()
-         5145b277309f3818e2db507f525d19ac3b910922 vhost: fix caching attributes of MMIO regions by setting them explicitly
-         51797f395ee5482d3630873994123667e9f63d43 mm/numa_emulation: skip 'U' suffix after parsing node count
-         1561a04cfe52c1b79dfb301680f1b1db8be88382 mm/numa_emulation: add hotplug= option for fake NUMA nodes
-         01a5e7dcc188a30f1fea0c31980f6ec5170d1e9b Documentation: add numa=fake hotplug= parameter documentation
-         56d1441563e19b8a777a9de1cdba47c1aa7c9e11 Documentation/mm: explain movable_node safety mechanism and verification
-         996b8da17999a4a1c281920d37ac757b6ff1ea9f vduse: avoid adding implicit padding
-         
-  - ref: refs/heads/test
-    old: 39051db5c13fa14f88267a81c84cb4f40e510937
-    new: 996b8da17999a4a1c281920d37ac757b6ff1ea9f
-    log: |
-         719d959274da85eb0e1eb448dd807b1c435c19a1 vdpa/mlx5: update mlx_features with driver state check
-         2f61e6eda7a793bca4df6efea95815375e122f3a vdpa/mlx5: reuse common function for MAC address updates
-         503ef41e88080fb2d2399173e34d26e59567fb5e vdpa/mlx5: update MAC address handling in mlx5_vdpa_set_attr()
-         5145b277309f3818e2db507f525d19ac3b910922 vhost: fix caching attributes of MMIO regions by setting them explicitly
-         51797f395ee5482d3630873994123667e9f63d43 mm/numa_emulation: skip 'U' suffix after parsing node count
-         1561a04cfe52c1b79dfb301680f1b1db8be88382 mm/numa_emulation: add hotplug= option for fake NUMA nodes
-         01a5e7dcc188a30f1fea0c31980f6ec5170d1e9b Documentation: add numa=fake hotplug= parameter documentation
-         56d1441563e19b8a777a9de1cdba47c1aa7c9e11 Documentation/mm: explain movable_node safety mechanism and verification
-         996b8da17999a4a1c281920d37ac757b6ff1ea9f vduse: avoid adding implicit padding
-         
-  - ref: refs/heads/vhost
-    old: 39051db5c13fa14f88267a81c84cb4f40e510937
-    new: 996b8da17999a4a1c281920d37ac757b6ff1ea9f
-    log: |
-         719d959274da85eb0e1eb448dd807b1c435c19a1 vdpa/mlx5: update mlx_features with driver state check
-         2f61e6eda7a793bca4df6efea95815375e122f3a vdpa/mlx5: reuse common function for MAC address updates
-         503ef41e88080fb2d2399173e34d26e59567fb5e vdpa/mlx5: update MAC address handling in mlx5_vdpa_set_attr()
-         5145b277309f3818e2db507f525d19ac3b910922 vhost: fix caching attributes of MMIO regions by setting them explicitly
-         51797f395ee5482d3630873994123667e9f63d43 mm/numa_emulation: skip 'U' suffix after parsing node count
-         1561a04cfe52c1b79dfb301680f1b1db8be88382 mm/numa_emulation: add hotplug= option for fake NUMA nodes
-         01a5e7dcc188a30f1fea0c31980f6ec5170d1e9b Documentation: add numa=fake hotplug= parameter documentation
-         56d1441563e19b8a777a9de1cdba47c1aa7c9e11 Documentation/mm: explain movable_node safety mechanism and verification
-         996b8da17999a4a1c281920d37ac757b6ff1ea9f vduse: avoid adding implicit padding
-         
+  - ref: refs/heads/thermal
+    old: 74dd4d1f4c7d2e49bbeb1374f1ebea95d963eac0
+    new: 8035d70cf85e86f36f5eb1e07b243f300a936b8b
+    log: revlist-74dd4d1f4c7d-8035d70cf85e.txt
+
+--===============4926132531114462498==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-74dd4d1f4c7d-8035d70cf85e.txt
+
+169934ba2b73f07df59c3371acdc26f45eb99c5e thermal: intel: intel_tcc_cooling: Add CPU models in the support list
+3e0873527c599b5acae9eee1543806752ed254f7 thermal: intel: intel_pch_thermal: Drop explicit driver data clearing
+a499c24cc0720258376b6c66d7a0c73b47a0e30a thermal: int340x: processor_thermal: Enable slow workload type hints
+8190b9ea30fef5b9067825b91fb3ec6d678ee5e3 thermal: intel: selftests: workload_hint: Support slow workload hints
+2b91b8176d673346ec0604c2ae55575335f4abdf thermal: intel: int340x: Use sysfs_emit{_at}() in sysfs show functions
+47c9ef95a79a72653a5e5274e46f013df6b04626 thermal: intel: fix typo "nagative" in comment for cpu argument
+75faabf6b92ad1d14fce8d45cf40f6db53cf96fd thermal: intel: Use sysfs_emit() in a sysfs show function
+9635c586a559ba0e45b2bfbff79c937ddbaf1a62 thermal: intel: x86_pkg_temp_thermal: Handle invalid temperature
+9eb9c350bc553fae5d77d698192198087ca47c64 drivers: thermal: intel: tcc_cooling: Drop redundant local variable
+8035d70cf85e86f36f5eb1e07b243f300a936b8b Merge branch 'thermal-intel'
+
+--===============4926132531114462498==--
