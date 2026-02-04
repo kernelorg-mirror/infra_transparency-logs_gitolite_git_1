@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7151694029677914594=="
+Content-Type: multipart/mixed; boundary="===============3960195681567350216=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Wed, 04 Feb 2026 23:09:19 -0000
-Message-Id: <177024655964.1677719.16586787754156365302@gitolite.kernel.org>
+Date: Wed, 04 Feb 2026 23:09:21 -0000
+Message-Id: <177024656194.1677931.5473475484930200380@gitolite.kernel.org>
 
---===============7151694029677914594==
+--===============3960195681567350216==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/10GbE
+  - ref: refs/heads/40GbE
     old: 667539f6dce27aa7db0a711375f94e14e714a698
     new: 9a9424c756feee9ee6e717405a9d6fa7bacdef08
     log: revlist-667539f6dce2-9a9424c756fe.txt
 
---===============7151694029677914594==
+--===============3960195681567350216==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -47,4 +47,4 @@ e9a1a28af9d2da3f3e6a489f6a9fbfba8fb9fa1a Merge branch 'net-ethernet-renesas-rcar
 61e94cbdf8220915c033ec5f07977a2de1b1d790 net: usb: introduce usbnet_mii_ioctl helper function
 9a9424c756feee9ee6e717405a9d6fa7bacdef08 net: usb: sr9700: remove code to drive nonexistent multicast filter
 
---===============7151694029677914594==--
+--===============3960195681567350216==--
