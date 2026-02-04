@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/libs/libtrace/libtraceevent
-Date: Wed, 04 Feb 2026 19:03:50 -0000
-Message-Id: <177023183055.1457256.4742092233515295962@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/cip/linux-cip
+Date: Wed, 04 Feb 2026 19:04:51 -0000
+Message-Id: <177023189167.1457917.8343991353264795653@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/libs/libtrace/libtraceevent
-user: rostedt
+repo: pub/scm/linux/kernel/git/cip/linux-cip
+user: pavel
 changes:
-  - ref: refs/tags/libtraceevent-1.9.0
-    old: 0000000000000000000000000000000000000000
-    new: 7a577b4a75a03854f3ac283623d27f1989f85ab6
+  - ref: refs/notes/signatures/tar
+    old: 701263412721313fc1550319ea2c3134dd43ca74
+    new: 08dcf39b063bb42cd139603cda2e15d84df76958
+    log: |
+         08dcf39b063bb42cd139603cda2e15d84df76958 Notes added by 'git notes add'
+         
