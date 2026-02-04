@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============0433776887895045693=="
+Content-Type: multipart/mixed; boundary="===============3958433126945358611=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/trace-cmd/trace-cmd
-Date: Wed, 04 Feb 2026 20:27:22 -0000
-Message-Id: <177023684297.1543665.10602516689366447581@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rostedt/trace-cmd
+Date: Wed, 04 Feb 2026 20:27:27 -0000
+Message-Id: <177023684701.1543916.5893662721659789683@gitolite.kernel.org>
 
---===============0433776887895045693==
+--===============3958433126945358611==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/trace-cmd/trace-cmd
+repo: pub/scm/linux/kernel/git/rostedt/trace-cmd
 user: rostedt
 changes:
   - ref: refs/heads/master
@@ -20,7 +20,7 @@ changes:
     new: 7585088acab60e7b90d8a21da1b5fbd933ed3990
     log: revlist-a67331baff77-7585088acab6.txt
 
---===============0433776887895045693==
+--===============3958433126945358611==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -43,4 +43,4 @@ bb488239f61cd47a942721e6c0a34031e91c5bdc trace-cmd record: Add -K flag to keep c
 573b54ec0e09aa289e3907ebc48e89c25aca5197 trace-cmd record: Add section for /proc/modules
 7585088acab60e7b90d8a21da1b5fbd933ed3990 trace-cmd: Make the minimum libtraceevent version 1.9
 
---===============0433776887895045693==--
+--===============3958433126945358611==--
