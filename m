@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/andi.shyti/linux
-Date: Wed, 04 Feb 2026 01:55:24 -0000
-Message-Id: <177017012452.538516.14078396003540796263@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sj/damo
+Date: Wed, 04 Feb 2026 02:06:47 -0000
+Message-Id: <177017080784.546875.6615312846723884430@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/andi.shyti/linux
-user: andi.shyti
+repo: pub/scm/linux/kernel/git/sj/damo
+user: sj
 changes:
-  - ref: refs/heads/i2c/i2c-host-next
-    old: 0af28ce5fbc636bf98ab282e82c3f5dbf3d9ecde
-    new: d036abe0218da5a63624f5821ae0f79707c53581
+  - ref: refs/heads/next
+    old: a0233c7b5538eefded9e78fb357c98f8d7321700
+    new: cc564cc5f9ff1041d6253596c2a62cd1dcbc9d93
     log: |
-         b4b4d88ebfbfd3aadb4c9a0f2bfe1abdbaf5822c i2c: imx-lpi2c: fix SMBus block read NACK after byte count
-         d036abe0218da5a63624f5821ae0f79707c53581 Merge branch 'i2c/i2c-host-fixes' into i2c/i2c-host-next
+         cc564cc5f9ff1041d6253596c2a62cd1dcbc9d93 _damo_sysinfo: restore append_plus initialization in infer_damon_version()
          
