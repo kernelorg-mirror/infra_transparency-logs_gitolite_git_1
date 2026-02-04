@@ -1,20 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/firmware/linux-firmware
-Date: Wed, 04 Feb 2026 17:40:10 -0000
-Message-Id: <177022681063.1389423.8396599337081568432@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Wed, 04 Feb 2026 17:46:22 -0000
+Message-Id: <177022718263.1395344.10661577358594188620@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/firmware/linux-firmware
-user: jwboyer
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: martin.lau
 changes:
-  - ref: refs/heads/main
-    old: aeea3bf80600892be582a61de1551cf431341d9e
-    new: e97d6b6153ac71b6c6f7860d57a933d93891545a
+  - ref: refs/heads/master
+    old: b28dac3fc99bb6f1d0b029f1b742a96e7bc797d6
+    new: 78a16058e4250daff763c14c3ee76e7830b4fb2e
     log: |
-         81a99dba039a21fd83d37a67a7de0fb80152e065 ath10k: WCN3990 hw1.0: update board-2.bin
-         e97d6b6153ac71b6c6f7860d57a933d93891545a Merge branch 'robot/pr-0-1770225592' into 'main'
+         f06581392e9d56ac86d8fcc29c0931441ee82f4a bpf: Use sk_is_inet() and sk_is_unix() in __cgroup_bpf_run_filter_sock_addr().
+         c26b098bf42c71111ca976ce330ea5c66b9a5d8e bpf: Don't check sk_fullsock() in bpf_skc_to_unix_sock().
+         78a16058e4250daff763c14c3ee76e7830b4fb2e Merge branch 'bpf-misc-changes-around-af_unix'
          
