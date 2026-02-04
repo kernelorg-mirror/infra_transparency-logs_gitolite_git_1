@@ -1,20 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
-Date: Wed, 04 Feb 2026 03:26:43 -0000
-Message-Id: <177017560375.649977.8516509838292395832@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Wed, 04 Feb 2026 03:28:00 -0000
+Message-Id: <177017568089.650472.4819296823204714276@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/xiang/erofs-utils
-user: xiang
+repo: pub/scm/linux/kernel/git/netdev/net
+user: kuba
 changes:
-  - ref: refs/heads/experimental
-    old: 8d4b023b42f14517b1c7888143784da69b17f900
-    new: 7d121fc2b75877ab8050a751badd989be4f44070
+  - ref: refs/heads/main
+    old: f613e8b4afea0cd17c7168e8b00e25bc8d33175d
+    new: 6788d44b936c7e494b0d179c8843a72188287473
     log: |
-         dabacac17bafdeff3d346bb9810f8cf770430c53 erofs-utils: lib: cache: pass abort semantics down to .flush()
-         7d121fc2b75877ab8050a751badd989be4f44070 erofs-utils: mkfs: add `--xattr-inode-digest` option
+         5c2c3c38be396257a6a2e55bd601a12bb9781507 net: gro: fix outer network offset
+         bee60ce21b751275b3a7766f614373ef02dde512 selftest: net: add a test-case for encap segmentation after GRO
+         6788d44b936c7e494b0d179c8843a72188287473 Merge branch 'net-gro-fix-outer-network-offset'
          
