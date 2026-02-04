@@ -1,20 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/fs/fsverity/linux
-Date: Wed, 04 Feb 2026 03:33:24 -0000
-Message-Id: <177017600474.657351.15097072769183204634@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Wed, 04 Feb 2026 03:35:38 -0000
+Message-Id: <177017613824.660236.2941786503775007212@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/fs/fsverity/linux
-user: ebiggers
+repo: pub/scm/linux/kernel/git/netdev/net
+user: kuba
 changes:
-  - ref: refs/heads/for-next
-    old: 217ba69341bbe4dc4f02c9f7fa7e1c3444047c65
-    new: 487e08eea3b2fb64d86846e0b5f206b97b06fe15
+  - ref: refs/heads/main
+    old: 6788d44b936c7e494b0d179c8843a72188287473
+    new: 279fe484dde428d305eeb8e3acdaa7ddfaa62a42
     log: |
-         55410a1a752ad1a6622ae3e1395449c19d162157 fsverity: use a hashtable to find the fsverity_info
-         487e08eea3b2fb64d86846e0b5f206b97b06fe15 fsverity: remove inode from fsverity_verification_ctx
+         7b9ebcce0296e104a0d82a6b09d68564806158ff gve: Fix stats report corruption on queue count change
+         c7db85d579a1dccb624235534508c75fbf2dfe46 gve: Correct ethtool rx_dropped calculation
+         279fe484dde428d305eeb8e3acdaa7ddfaa62a42 Merge branch 'gve-stats-reporting-fixes'
          
