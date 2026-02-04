@@ -1,21 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vkoul/dmaengine
-Date: Wed, 04 Feb 2026 17:14:52 -0000
-Message-Id: <177022529211.1366430.4602598432237543790@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/trace/linux-trace
+Date: Wed, 04 Feb 2026 17:17:45 -0000
+Message-Id: <177022546523.1369966.10434503931092993133@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vkoul/dmaengine
-user: vkoul
+repo: pub/scm/linux/kernel/git/trace/linux-trace
+user: rostedt
 changes:
-  - ref: refs/heads/next
-    old: 3c8a86ed002ab8fb287ee4ec92f0fd6ac5b291d2
-    new: ab736ed52e3409b58a4888715e4425b6e8ac444f
+  - ref: refs/heads/for-next
+    old: 1ce0053755e65b9878dab7aea03ab55ed1ccf0c2
+    new: 2ad0b4fafa91a04f98391465686fb5926da5ce16
     log: |
-         666c53e94c1d0bf0bdf14c49505ece9ddbe725bc dmaengine: fsl-edma: don't explicitly disable clocks in .remove()
-         876cbb60227fcfbcfcabf458eee5bc52cf5fbac0 dt-bindings: dma: qcom,gpi: Update max interrupts lines to 16
-         ab736ed52e3409b58a4888715e4425b6e8ac444f dmaengine: add Frank Li as reviewer
+         73c12f209462d1712c5f55f3021a1b65b2e084c3 kprobes: Use dedicated kthread for kprobe optimizer
+         baa5d8ff99cf854a30c86a038c7337f8714f3ba6 Merge latency/for-next
+         2c394cb7af49c3a7f3d248e94f54aad78eb8be71 Merge probes/for-next
+         2ad0b4fafa91a04f98391465686fb5926da5ce16 Merge tools/for-next
          
