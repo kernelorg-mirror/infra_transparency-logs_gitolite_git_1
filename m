@@ -1,47 +1,47 @@
-Content-Type: multipart/mixed; boundary="===============5863380213123986431=="
+Content-Type: multipart/mixed; boundary="===============7040624635517727368=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/linkinjeon/ntfs
-Date: Wed, 04 Feb 2026 07:29:17 -0000
-Message-Id: <177019015798.844623.7901473270456411354@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/hyperv/linux
+Date: Wed, 04 Feb 2026 07:32:08 -0000
+Message-Id: <177019032854.848272.6477075256885833871@gitolite.kernel.org>
 
---===============5863380213123986431==
+--===============7040624635517727368==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/linkinjeon/ntfs
-user: linkinjeon
+repo: pub/scm/linux/kernel/git/hyperv/linux
+user: wei.liu
 changes:
-  - ref: refs/heads/ntfs-next
-    old: fa25a4cfebdf4edefd48fa36bdd71f6b1886ced3
-    new: 9c76d50f1975da7d69e8bd7a0ac739e15fbd8182
-    log: revlist-fa25a4cfebdf-9c76d50f1975.txt
+  - ref: refs/heads/hyperv-next
+    old: 18f7fcd5e69a04df57b563360b88be72471d6b62
+    new: afefdb2bc94571f0f9297dc129b2069942a70f4b
+    log: revlist-18f7fcd5e69a-afefdb2bc945.txt
 
---===============5863380213123986431==
+--===============7040624635517727368==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-fa25a4cfebdf-9c76d50f1975.txt
+Content-Disposition: attachment; filename=revlist-18f7fcd5e69a-afefdb2bc945.txt
 
-31c38eb6ecbaec97dd051b1b31c73997206e6846 Revert "fs: Remove NTFS classic"
-b5a076a18a0a397453ede7114405fa037b183cc3 fs: add generic FS_IOC_SHUTDOWN definitions
-f47dc8e788dc3e39464862d1855266cf345d0d34 ntfs: update in-memory, on-disk structures and headers
-df8203b93e21161002c891626d3e87e16c03a8a8 ntfs: update super block operations
-2ddcb6c7ac0f855a8b250569bd62291820a3653d ntfs: update inode operations
-79ec28464c66b21aabba25c35371b8d30b0b5416 ntfs: update mft operations
-c518a2e6aa1a22ca14e72065a3580387879ea1ed ntfs: update directory operations
-fe4d9061bbbd894068b0cbd3a05a9204babce59e ntfs: update file operations
-a277d14a628caeca34709fe548dfb2f97db2fd1c ntfs: update iomap and address space operations
-e7831547073927077c794de1323734db8dfd2c0b ntfs: update attrib operations
-4e8935a635eb0a3640116c111fc7a7516da689ab ntfs: update runlist handling and cluster allocator
-d86c89f15b2429173e23ef12c15e447c9534df2f ntfs: add reparse and ea operations
-7450e4c6084e270874cef021998857b098eb229a ntfs: update misc operations
-32e872a6a39c563283b48ceb52180b840674503d ntfs3: remove legacy ntfs driver support
-811bc482f05343405e3b0c2866c901739d1ea0b6 ntfs: add Kconfig and Makefile
-8b93c10e5b51dd9e09109d9a9602b7eefb825427 Documentation: filesystems: update NTFS driver documentation
-9c76d50f1975da7d69e8bd7a0ac739e15fbd8182 MAINTAINERS: update ntfs filesystem entry
+90fb0a25f6543d2403dcd82e6f0bece92fa7f54c PCI: hv: Remove unused field pci_bus in struct hv_pcibus_device
+754cf84504ea7dad1e9439b93f8729409ef2c2f2 mshv: Fix compiler warning about cast converting incompatible function type
+956efd32f9e5d258a82c086e5c18a4f5abdd10c4 x86/hyperv: fix a compiler warning in hv_crash.c
+8d1294d4b54464a6b826709c871878c80e3c219e mshv: Use EPOLLIN and EPOLLHUP instead of POLLIN and POLLHUP
+7538b80e5a4b473b73428d13b3a47ceaad9a8a7c mshv: Ignore second stats page map result failure
+2de4516aa8f726946eadb9831c610b7aeb5bc682 mshv: Use typed hv_stats_page pointers
+1ba923d8cd837ec6ee33525f60f84daaaa26d4e9 mshv: Improve mshv_vp_stats_map/unmap(), add them to mshv_root.h
+c527c7aee28f266423afff872df7bff4fad3e084 mshv: Always map child vp stats pages regardless of scheduler type
+df40f32c87be64c96ee974573968592e147a4ded mshv: Update hv_stats_page definitions
+c23271b636db45156933d0c55c49109766f12f5a mshv: Add data for printing stats page counters
+ff225ba9ad71c4c5f900b9aa1b757adafcfb449d mshv: Add debugfs to view hypervisor statistics
+93f039fe7a775007d7602c34d51b570f4a382bd7 PCI: hv: remove unnecessary module_init/exit functions
+c3a6ae7ea2d3f507cbddb5818ccc65b9d84d6dc7 x86/hyperv: Move hv crash init after hypercall pg setup
+0236e75df4d0802a23e3c8d794dbce329cd34a60 Drivers: hv: Use memremap()/memunmap() instead of ioremap_cache()/iounmap()
+5ed8cbcaccc0e0ed90e03dac153d01d5b13f6724 x86/hyperv: Use memremap()/memunmap() instead of ioremap_cache()/iounmap()
+2b4246153e2184e3a3b4edc8cc35337d7a2455a6 mshv: clear eventfd counter on irqfd shutdown
+afefdb2bc94571f0f9297dc129b2069942a70f4b x86/hyperv: Update comment in hyperv_cleanup()
 
---===============5863380213123986431==--
+--===============7040624635517727368==--
