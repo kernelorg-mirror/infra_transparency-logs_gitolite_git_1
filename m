@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/mm
-Date: Wed, 04 Feb 2026 23:55:39 -0000
-Message-Id: <177024933989.1717334.7649824390876449735@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Thu, 05 Feb 2026 00:08:01 -0000
+Message-Id: <177025008187.1726118.5144926769300913824@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/mm
-user: akpm
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/tags/mm-hotfixes-stable-2026-02-04-15-55
-    old: 0000000000000000000000000000000000000000
-    new: 18aea07b85b95772602ec24fe12453e9a042a9c0
-  - ref: refs/tags/v6.19-rc8
-    old: 0000000000000000000000000000000000000000
-    new: 4ff7d63728ef2315d402a608cef1376248aa5c56
+  - ref: refs/heads/v7_20260122_andre_draszik_samsung_s2mpg10_regulator_and_s2mpg11_pmic_drivers
+    old: fe8429a2717fc01082502b0adf680a50b230eff7
+    new: 0000000000000000000000000000000000000000
