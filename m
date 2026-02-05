@@ -1,51 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============0673054334825522753=="
+Content-Type: multipart/mixed; boundary="===============9185293653482268926=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
-Date: Thu, 05 Feb 2026 11:04:00 -0000
-Message-Id: <177028944045.2297025.5781843811336999872@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Thu, 05 Feb 2026 11:04:04 -0000
+Message-Id: <177028944420.2297289.14521837239285144950@gitolite.kernel.org>
 
---===============0673054334825522753==
+--===============9185293653482268926==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regulator
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.20
+  - ref: refs/heads/regulator-6.20
     old: 20c4701b75a3d6ce09d61e17125aefe77e7eb333
     new: 914809c666d6c96d130da4755daa5bb0a57f0e12
     log: revlist-20c4701b75a3-914809c666d6.txt
 
---===============0673054334825522753==
+--===============9185293653482268926==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1770289437 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/regulator.git
-nonce 1770289437-1c7dd71c739ef092b7aabccc6bd3611b8a783789
+pusher C3F436CA30F5D8EB 1770289442 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1770289441-7bc475931688d01fa7a1948b7c1f7545522ed2d7
 
-20c4701b75a3d6ce09d61e17125aefe77e7eb333 914809c666d6c96d130da4755daa5bb0a57f0e12 refs/heads/for-6.20
+20c4701b75a3d6ce09d61e17125aefe77e7eb333 914809c666d6c96d130da4755daa5bb0a57f0e12 refs/heads/regulator-6.20
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmmEeR0ACgkQJNaLcl1U
-h9AJRgf+KWvDAj+xwl7jhk54YXBhCd3NOoj5nSk268uXv5GHuIh94/eUCc3A+XNN
-ndqszWOULbDDpxdUfrcOiYLNUd2gxcJEBkZicTAxEDH+rFWSdyXHfpulrFcjwsof
-DweV40EGeqxZEmxkutQnHJci2N3EehcCUatJgZRsBnW5aSOg1+mKcgB4fMf+iJMa
-U6B3cXaQFTLVuP/h02MGAiOCu0fCBJTJI1YVQ56Jyfo+Dv+toovdoc2HDzb1oodh
-PqTqEHjlT+NyUYgsjwFtFlrXTZqBDt5gh147AO9dlu6H73Go4CFLDszPAfNvYnkP
-D145dO3w8/tvqmMmSZUV1kOghtqzwg==
-=ztGZ
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmmEeSIACgkQJNaLcl1U
+h9Cu7wf+N04sM0QXzd2R4b0LKhVyZAYCJrsUJ2CJY6r78cj2ZJQeWHwWm/eRvfmB
+lCWAbvZEmC21T7QcMfEQwZER8k3li79pXWIcXaZ0VMqp6eGnfx8zOOhU2AEluSBA
+ltMT1RkQHMPEVaDNDPqJxsWeN9jy6ASwlXbONS+pcD+7aPCG5fqUW5yFH6dQFuhX
+lH92XA1mhWgYgfrDHzzacf6br1auK60u1QH1ZSEGkmhfUTw1/UbFLdtp9JveffDD
+9Fuis7oxc0vEzteAweF0Yq8zS1/vrfcHUCT4KQ6zlKs/1dlzqE4NgRN/KQRosrX0
+7HVc1EZ7NVKYNDTS2ZFzSlG77fkUJA==
+=+DwK
 -----END PGP SIGNATURE-----
 
---===============0673054334825522753==
+--===============9185293653482268926==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -75,4 +75,4 @@ a2b8b9f33ce30ab51b33b52dc52e55d6930b9a02 regulator: s2mps11: add S2MPG10 regulat
 fe8429a2717fc01082502b0adf680a50b230eff7 regulator: s2mps11: more descriptive gpio consumer name
 914809c666d6c96d130da4755daa5bb0a57f0e12 Samsung S2MPG10 regulator and S2MPG11 PMIC drivers
 
---===============0673054334825522753==--
+--===============9185293653482268926==--
