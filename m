@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Thu, 05 Feb 2026 04:58:36 -0000
-Message-Id: <177026751623.2004731.17131453037749333956@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kuninori.morimoto.gx/linux
+Date: Thu, 05 Feb 2026 05:15:42 -0000
+Message-Id: <177026854203.2019098.16130515856579714790@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: kuba
+repo: pub/scm/linux/kernel/git/kuninori.morimoto.gx/linux
+user: kuninori.morimoto.gx
 changes:
-  - ref: refs/heads/main
-    old: 15dd03dfeb1ca0c851092628d397233370fa8367
-    new: 14eb64db8ff07b58a35b98375f446d9e20765674
-    log: |
-         14eb64db8ff07b58a35b98375f446d9e20765674 net: stmmac: remove support for lpi_intr_o
-         
+  - ref: refs/heads/renesas-bsp/v6.12.102-2026-02-05
+    old: 0000000000000000000000000000000000000000
+    new: f087981ed3a846ae4b4ca8db12f85a8cafece8fa
