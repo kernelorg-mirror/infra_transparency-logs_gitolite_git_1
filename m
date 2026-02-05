@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/damon-hack
-Date: Thu, 05 Feb 2026 06:17:47 -0000
-Message-Id: <177027226759.2066257.6336579914419721497@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
+Date: Thu, 05 Feb 2026 06:21:38 -0000
+Message-Id: <177027249881.2070389.15516081034289903078@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/damon-hack
+repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/master
-    old: a7dc197374bfdc7c0d5f15bc8f555699b54d1624
-    new: 59656c31d42e67612585737c66de924a8d586d03
+  - ref: refs/heads/damon/next
+    old: 4eb96a2e35e0642ae663b064a77f8e7a69f6a622
+    new: 572cab549b4ec14b17a041e26d1f686a7c3c79e6
     log: |
-         59656c31d42e67612585737c66de924a8d586d03 patches/next: damon_{reclaim,lru_sort,acma}: cover all system rams
+         572cab549b4ec14b17a041e26d1f686a7c3c79e6 mm/damon/core: unify damon_warn_fix_nr_accesses_corruption() with damon_verify_reset_aggregated()
          
