@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux
-Date: Thu, 05 Feb 2026 15:44:04 -0000
-Message-Id: <177030624462.2529874.4470521745795464642@gitolite.kernel.org>
+Date: Thu, 05 Feb 2026 15:45:02 -0000
+Message-Id: <177030630207.2530903.11076207401116179823@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,16 +11,20 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/axboe/linux
 user: axboe
 changes:
-  - ref: refs/heads/for-7.0/io_uring
-    old: ccd18ce290726053faff75b6fc3e541301ac99f9
-    new: 7bbc38f133b4a269335c4a9e18076accd397c25b
+  - ref: refs/heads/block-6.19
+    old: 4da7c5c3ec34d839bba6e035c3d05c447a2f9d4f
+    new: 7e210d5e934c8af0f74a1e1b4852a8996a6cb5a5
     log: |
-         7bbc38f133b4a269335c4a9e18076accd397c25b io_uring/kbuf: fix memory leak if io_buffer_add_list fails
+         071be3b0b6575d45be9df9c5b612f5882bfc5e88 nvme-pci: handle changing device dma map requirements
+         52a0a98549344ca20ad81a4176d68d28e3c05a5c nvmet-tcp: add bounds checks in nvmet_tcp_build_pdu_iovec
+         7e210d5e934c8af0f74a1e1b4852a8996a6cb5a5 Merge tag 'nvme-6.19-2026-02-05' of git://git.infradead.org/nvme into block-6.19
          
   - ref: refs/heads/for-next
-    old: 294a3fef5e0ffd5e43817b1883f37f9ae9215b38
-    new: 8910941b29f43fbfcb6d363770bf51597d8c9bd0
+    old: 8910941b29f43fbfcb6d363770bf51597d8c9bd0
+    new: eb80df196b83e5f239e90c2c485523f37e611b66
     log: |
-         7bbc38f133b4a269335c4a9e18076accd397c25b io_uring/kbuf: fix memory leak if io_buffer_add_list fails
-         8910941b29f43fbfcb6d363770bf51597d8c9bd0 Merge branch 'for-7.0/io_uring' into for-next
+         071be3b0b6575d45be9df9c5b612f5882bfc5e88 nvme-pci: handle changing device dma map requirements
+         52a0a98549344ca20ad81a4176d68d28e3c05a5c nvmet-tcp: add bounds checks in nvmet_tcp_build_pdu_iovec
+         7e210d5e934c8af0f74a1e1b4852a8996a6cb5a5 Merge tag 'nvme-6.19-2026-02-05' of git://git.infradead.org/nvme into block-6.19
+         eb80df196b83e5f239e90c2c485523f37e611b66 Merge branch 'block-6.19' into for-next
          
