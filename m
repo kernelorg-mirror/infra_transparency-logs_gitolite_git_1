@@ -1,24 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kbuild/linux
-Date: Thu, 05 Feb 2026 19:23:00 -0000
-Message-Id: <177031938062.2733494.4567981103947385710@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Thu, 05 Feb 2026 19:29:53 -0000
+Message-Id: <177031979328.2738295.14434622256559924101@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kbuild/linux
-user: nathan
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/kbuild-next
-    old: f2445d6f264c64e90b5094d4e8ed33f30cfb7fc4
-    new: c7c88b20cd4226af0c9fbdb365fb6f221501c7da
-    log: |
-         621fd65adc825b69a59367b97a7c2aa73e382909 scripts/make_fit: Speed up operation
-         26428e7dd6a51e328776dd333f613445d1951658 scripts/make_fit: Support an initial ramdisk
-         873c2836982e1f7389d487afca4cc42ed373ba4b scripts/make_fit: Move dtb processing into a function
-         9a329df6e004190ce7422cc040c09374efa34289 kbuild: Support a FIT_EXTRA_ARGS environment variable
-         fcdcf22a34b0768471d6c834254ef041e3d9c3dc scripts/make_fit: Support a few more parallel compressors
-         c7c88b20cd4226af0c9fbdb365fb6f221501c7da scripts/make_fit: Compress dtbs in parallel
-         
+  - ref: refs/heads/fileQXlf8l
+    old: 0000000000000000000000000000000000000000
+    new: a0a75b40c919b9f6d3a0b6c978e6ccf344c1be5a
