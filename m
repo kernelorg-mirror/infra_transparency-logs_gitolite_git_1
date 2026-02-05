@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7039509361243616537=="
+Content-Type: multipart/mixed; boundary="===============5970292173101906193=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Thu, 05 Feb 2026 22:17:39 -0000
-Message-Id: <177032985998.2882348.18311163077917090684@gitolite.kernel.org>
+Date: Thu, 05 Feb 2026 22:18:06 -0000
+Message-Id: <177032988641.2882750.9792012557373102123@gitolite.kernel.org>
 
---===============7039509361243616537==
+--===============5970292173101906193==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,20 +16,60 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: 4535198ef3fa63fbfc6b24a331c428019f2ccc6c
-    new: 996a2ae877fb1f2317e25fc9c408a57b1b3d4892
-    log: revlist-4535198ef3fa-996a2ae877fb.txt
+    old: 996a2ae877fb1f2317e25fc9c408a57b1b3d4892
+    new: 780fe5826ef4053377d7353343a5bf4e8348ae64
+    log: revlist-996a2ae877fb-780fe5826ef4.txt
+  - ref: refs/heads/tip/urgent
+    old: cfa04369dc10cd482ca38374da1055ee7dcabb29
+    new: 5904487619ef55c47f3d15ec5fa4d19d226d7200
+    log: revlist-cfa04369dc10-5904487619ef.txt
 
---===============7039509361243616537==
+--===============5970292173101906193==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4535198ef3fa-996a2ae877fb.txt
+Content-Disposition: attachment; filename=revlist-996a2ae877fb-780fe5826ef4.txt
+
+a8b0ec4eb86aea6a45c7425323491119b589b4d0 Merge branch into tip/master: 'objtool/urgent'
+5904487619ef55c47f3d15ec5fa4d19d226d7200 Merge branch into tip/master: 'sched/urgent'
+df565f9ebfc22daa8cbf7c21e6a7fbbe000e49e7 Merge branch into tip/master: 'core/entry'
+269c10451d0d890e735257b3e1397014354e28eb Merge branch into tip/master: 'irq/cleanups'
+d06549fd34c43718929a54d150b7139061ffdc7e Merge branch into tip/master: 'irq/core'
+60dea59e843495e946552d33e5278557f0cdccb9 Merge branch into tip/master: 'irq/drivers'
+08fc58f1e90b9acb79eaadd95e8af5ab7392dc82 Merge branch into tip/master: 'irq/msi'
+c92689f104ba1447c519dd47ae9df3bab65da7f2 Merge branch into tip/master: 'locking/core'
+b9d97853d5fe074687be6910959b3047caadf542 Merge branch into tip/master: 'locking/futex'
+597fa68d73b3fc94f31302d764dd3fe2c6eb6590 Merge branch into tip/master: 'perf/core'
+7e7dcfb36f9c14233a745c52cc2fe810574bec00 Merge branch into tip/master: 'sched/core'
+b9768ee44135b48f2cf5936ea9ff2521e383fbea Merge branch into tip/master: 'timers/clocksource'
+d964b8f1ea6edce4323b1b0226b1ddc023022a2e Merge branch into tip/master: 'timers/core'
+ba2e658f9029d906bfba721f933a12ffad82cdc2 Merge branch into tip/master: 'timers/vdso'
+27f1f1be4bd87f3bfd8fef105cef0c22b1695d7c Merge branch into tip/master: 'x86/alternatives'
+e7743c3396e6e460de4988628b94aae4130477b0 Merge branch into tip/master: 'x86/apic'
+2486fbc8772bf1e3de932e44316717e15c850c38 Merge branch into tip/master: 'x86/boot'
+a62158db240f0ba4ce00aa2475e4af3d528e82c8 Merge branch into tip/master: 'x86/bugs'
+2c359d8528c76bad039c4d1d716d44f2335dfe6e Merge branch into tip/master: 'x86/cache'
+cd6e24a6020f2155c69fd47313acfc3c9bfd9e7a Merge branch into tip/master: 'x86/cleanups'
+069e7fa96f3510b4b0b2dd53152d22db67327c43 Merge branch into tip/master: 'x86/cpu'
+137bf347182ca2872e33158cd1f13d138fbd5874 Merge branch into tip/master: 'x86/entry'
+f3cd5ca399ed541ff2472704942f0fdd10fd56ed Merge branch into tip/master: 'x86/irq'
+7de2a348960dc1eb7aacaf3a9eaa957510cd4024 Merge branch into tip/master: 'x86/microcode'
+e338c56a2009ecf77df18f4043b5903b6484e7d5 Merge branch into tip/master: 'x86/misc'
+c6d0fa9c883a3714dfc47d88ced91b0af874e4d4 Merge branch into tip/master: 'x86/paravirt'
+d5a63fb3f53d44f32f954afc63addc881eaed5d9 Merge branch into tip/master: 'x86/platform'
+780fe5826ef4053377d7353343a5bf4e8348ae64 Merge branch into tip/master: 'x86/sev'
+
+--===============5970292173101906193==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-cfa04369dc10-5904487619ef.txt
 
 731bb3118f859d2a68444a9ae580681522d32bc0 Revert "PCI/TSM: Report active IDE streams"
 8370af2019dee9ca004ca7c5e36b1f629ecb1e39 PCI/IDE: Fix off by one error calculating VF RID range
 0b50f116af5e29724b756a5ee6ae268deaae2d29 PCI/IDE: Fix reading a wrong reg for unused sel stream initialization
 894148a25aebeaeb7ec397fdf1a1f1958d55496d coco/tsm: Remove unused variable tsm_rwsem
+a8ff29f0ca1d63a215ef445102662850a912d127 livepatch/klp-build: Require Clang assembler >= 20
 37d312bf957b95346fae2b3f82ce043474ea66c9 MAINTAINERS: add an entry for PSP
 13e00fdc9236bd4d0bff4109d2983171fbcb74c4 net: add skb_header_pointer_careful() helper
 cabd1a976375780dabab888784e356f574bbaed8 net/sched: cls_u32: use skb_header_pointer_careful()
@@ -87,9 +127,14 @@ f14faaf3a1fb3b9e4cf2e56269711fb85fba9458 Merge tag 'tsm-fixes-for-6.19' of git:/
 b20624608f350c5dadd74577629e90715d351e2c Merge tag 'mm-hotfixes-stable-2026-02-04-15-55' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
 7d6ba706ae5ef7d3d00b67140d2873ae1da6d41f Merge tag 'wireless-2026-02-04' of https://git.kernel.org/pub/scm/linux/kernel/git/wireless/wireless
 f41c5d151078c5348271ffaf8e7410d96f2d82f8 netfilter: nf_tables: fix inverted genmask check in nft_map_catchall_activate()
+ab10815472fcbc2c772dc21a979460b7f74f0145 livepatch: Fix having __klp_objects relics in non-livepatch modules
+b525fcaf0a76507f152d58c6f9e5ef67b3ff552c livepatch: Free klp_{object,func}_ext data after initialization
+18328546dd59b6adc111cf84a0ee4cdd3a867611 objtool/klp: Fix symbol correlation for orphaned local symbols
+f495054bd12e2abe5068e243bdf344b704c303c6 objtool/klp: Fix unexported static call key access for manually built livepatch modules
 d9eb317812288700f15965fa20d7db22c54c5e9d Merge tag 'nf-26-02-05' of https://git.kernel.org/pub/scm/linux/kernel/git/netfilter/nf
 bbf4a17ad9ffc4e3d7ec13d73ecd59dea149ed25 ipv6: Fix ECMP sibling count mismatch when clearing RTF_ADDRCONF
 8fdb05de0e2db89d8f56144c60ab784812e8c3b7 Merge tag 'net-6.19-rc9' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
-996a2ae877fb1f2317e25fc9c408a57b1b3d4892 Merge branch 'linus'
+a8b0ec4eb86aea6a45c7425323491119b589b4d0 Merge branch into tip/master: 'objtool/urgent'
+5904487619ef55c47f3d15ec5fa4d19d226d7200 Merge branch into tip/master: 'sched/urgent'
 
---===============7039509361243616537==--
+--===============5970292173101906193==--
