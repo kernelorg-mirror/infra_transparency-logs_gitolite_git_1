@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============9122963543316957482=="
+Content-Type: multipart/mixed; boundary="===============0709095637480274184=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Thu, 05 Feb 2026 21:38:50 -0000
-Message-Id: <177032753020.2848248.7663424280205317993@gitolite.kernel.org>
+Date: Thu, 05 Feb 2026 21:38:52 -0000
+Message-Id: <177032753291.2848461.5732649969360711499@gitolite.kernel.org>
 
---===============9122963543316957482==
+--===============0709095637480274184==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/10GbE
+  - ref: refs/heads/40GbE
     old: 9a9424c756feee9ee6e717405a9d6fa7bacdef08
     new: a182a62ff77f705f7dd3d98cf05cb3d03751a8f0
     log: revlist-9a9424c756fe-a182a62ff77f.txt
 
---===============9122963543316957482==
+--===============0709095637480274184==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -424,4 +424,4 @@ a90f6dcefca6d5ad765435b3188a3a440ed193a1 net/sched: don't use dynamic lockdep ke
 8fdb05de0e2db89d8f56144c60ab784812e8c3b7 Merge tag 'net-6.19-rc9' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 a182a62ff77f705f7dd3d98cf05cb3d03751a8f0 Merge git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 
---===============9122963543316957482==--
+--===============0709095637480274184==--
