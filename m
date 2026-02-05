@@ -1,27 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/viro/vfs
-Date: Thu, 05 Feb 2026 18:54:56 -0000
-Message-Id: <177031769605.2710792.15632154942172745822@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kbuild/linux
+Date: Thu, 05 Feb 2026 19:23:00 -0000
+Message-Id: <177031938062.2733494.4567981103947385710@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/viro/vfs
-user: viro
+repo: pub/scm/linux/kernel/git/kbuild/linux
+user: nathan
 changes:
-  - ref: refs/heads/fixes
-    old: 99a706fa47949ece1fb02b5b1206efd4fb031d25
-    new: 2005aabe94eaab8608879d98afb901bc99bc3a31
+  - ref: refs/heads/kbuild-next
+    old: f2445d6f264c64e90b5094d4e8ed33f30cfb7fc4
+    new: c7c88b20cd4226af0c9fbdb365fb6f221501c7da
     log: |
-         351ea48ae880b1673abcf232947c577183fdf712 rust_binderfs: fix a dentry leak
-         2005aabe94eaab8608879d98afb901bc99bc3a31 functionfs: use spinlock for FFS_DEACTIVATED/FFS_CLOSING transitions
-         
-  - ref: refs/tags/pull-fixes
-    old: d6eba8a9435622e09f10fe9a15417159cb984b80
-    new: ce9eb8c6778f6497700c92649d00e47f1c079acc
-    log: |
-         351ea48ae880b1673abcf232947c577183fdf712 rust_binderfs: fix a dentry leak
-         2005aabe94eaab8608879d98afb901bc99bc3a31 functionfs: use spinlock for FFS_DEACTIVATED/FFS_CLOSING transitions
+         621fd65adc825b69a59367b97a7c2aa73e382909 scripts/make_fit: Speed up operation
+         26428e7dd6a51e328776dd333f613445d1951658 scripts/make_fit: Support an initial ramdisk
+         873c2836982e1f7389d487afca4cc42ed373ba4b scripts/make_fit: Move dtb processing into a function
+         9a329df6e004190ce7422cc040c09374efa34289 kbuild: Support a FIT_EXTRA_ARGS environment variable
+         fcdcf22a34b0768471d6c834254ef041e3d9c3dc scripts/make_fit: Support a few more parallel compressors
+         c7c88b20cd4226af0c9fbdb365fb6f221501c7da scripts/make_fit: Compress dtbs in parallel
          
