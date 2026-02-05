@@ -1,76 +1,51 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/djwong/e2fsprogs
-Date: Thu, 05 Feb 2026 23:11:37 -0000
-Message-Id: <177033309701.2929185.12103495511368044221@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/djwong/libfuse
+Date: Thu, 05 Feb 2026 23:12:43 -0000
+Message-Id: <177033316350.2930064.15665632459732222224@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/djwong/e2fsprogs
+repo: pub/scm/linux/kernel/git/djwong/libfuse
 user: djwong
 changes:
-  - ref: refs/heads/fuse-iomap-bpf
-    old: bd665a947fab2bb5f6f0803c71f27c392c9be7b2
-    new: 9b330c846be3c80766823952beb49bcb4adc6ec1
+  - ref: refs/heads/djwong-wtf
+    old: 00f34f74056dadc8c7b123ab20ea54db4dd9a720
+    new: ec5e1a757cd395db5c82749444a061ef5d7f8d82
     log: |
-         9b330c846be3c80766823952beb49bcb4adc6ec1 fuse4fs: add dynamic iomap bpf prototype which will break FIEMAP
+         6e921c4da3fc489bc5ef0a8fe40cbbd2fbfd9482 libfuse: allow fuse servers to upload bpf code for iomap functions
+         048ff8694118c53ceb923679d433f645fca50973 libfuse: import packaging
+         ec5e1a757cd395db5c82749444a061ef5d7f8d82 libfuse: modify debian packaging for development tree
          
-  - ref: refs/tags/origin/next_2026-02-05
+  - ref: refs/heads/fuse-iomap-bpf
+    old: 021d22eaa4a8422b093a59bc2da5eb3275cc8050
+    new: 6e921c4da3fc489bc5ef0a8fe40cbbd2fbfd9482
+    log: |
+         6e921c4da3fc489bc5ef0a8fe40cbbd2fbfd9482 libfuse: allow fuse servers to upload bpf code for iomap functions
+         
+  - ref: refs/tags/origin/master_2026-02-05
     old: 0000000000000000000000000000000000000000
-    new: c23de7fb0a23e7188f1e87e6455b7bf5002dcaa2
-  - ref: refs/tags/fuse2fs-locking_2026-02-05
+    new: ca4554f9df378a3a21b00dc5935c599b2b77d731
+  - ref: refs/tags/fuse-iomap-fileio_2026-02-05
     old: 0000000000000000000000000000000000000000
-    new: 00b9b9cd9cdc5983c0defb516344d7abf8e5842f
-  - ref: refs/tags/fuse2fs-new-features_2026-02-05
+    new: 4ddf0ac70223b3dd738042b2b64eacaeae5a7f06
+  - ref: refs/tags/fuse-root-nodeid_2026-02-05
     old: 0000000000000000000000000000000000000000
-    new: 63a937ca38b9a57f1d10239c48274c1f8b9f5710
-  - ref: refs/tags/fuse2fs-refactor-operation-startup_2026-02-05
+    new: 7bb7eda0ee121b18f8f9c4ea439840f8e8c5811a
+  - ref: refs/tags/fuse-iomap-attrs_2026-02-05
     old: 0000000000000000000000000000000000000000
-    new: 4c568cb066635c6c78415b932cb28e6f43724ed1
-  - ref: refs/tags/fuse2fs-refactor-unmounting_2026-02-05
+    new: 1760df3a2e51fc5fc1d044eed45899e2786cdd73
+  - ref: refs/tags/fuse-iomap-cache_2026-02-05
     old: 0000000000000000000000000000000000000000
-    new: f82e05b19b8102c81ac521ddf6017832774265de
-  - ref: refs/tags/fuse2fs-refactor-mounting_2026-02-05
+    new: d315f75d848c6f559eafa15d8a8d8109e068557c
+  - ref: refs/tags/fuse-service-container_2026-02-05
     old: 0000000000000000000000000000000000000000
-    new: af8ebf8e51443f43e7bbf1c56f82bf6bdfef7a13
-  - ref: refs/tags/fuse2fs-tracing_2026-02-05
-    old: 0000000000000000000000000000000000000000
-    new: d08d0307d4e5ef6a54aeaa8d02df9b369600ee7b
-  - ref: refs/tags/fuse2fs-writability_2026-02-05
-    old: 0000000000000000000000000000000000000000
-    new: 5fa65c85744cc0916306ba7ca9b2aba3071bfffd
-  - ref: refs/tags/fuse2fs-library-upgrade_2026-02-05
-    old: 0000000000000000000000000000000000000000
-    new: c76a32d5fc6da37009180d8bba157b1331fffbd9
-  - ref: refs/tags/fuse4fs-fork_2026-02-05
-    old: 0000000000000000000000000000000000000000
-    new: 5f4eb617745b5bb5b8db845910a1672863692327
-  - ref: refs/tags/libext2fs-iomap-prep_2026-02-05
-    old: 0000000000000000000000000000000000000000
-    new: e8e7297e25ac39e83da4792522d5c83bb396c1a0
-  - ref: refs/tags/fuse2fs-iomap-fileio_2026-02-05
-    old: 0000000000000000000000000000000000000000
-    new: 322342cf20faf426317df2004e32a3bd604173cf
-  - ref: refs/tags/fuse2fs-root-nodeid_2026-02-05
-    old: 0000000000000000000000000000000000000000
-    new: 6bd3be5f97c2754541050248eb4e5ca65d9002db
-  - ref: refs/tags/fuse2fs-iomap-attrs_2026-02-05
-    old: 0000000000000000000000000000000000000000
-    new: 7e172567d0d41c3d66d6686b2683b27245ce078c
-  - ref: refs/tags/fuse2fs-iomap-cache_2026-02-05
-    old: 0000000000000000000000000000000000000000
-    new: 79130fc8e26b2bdcf56ea0500bddd2b3e1a32ec4
-  - ref: refs/tags/fuse2fs-caching_2026-02-05
-    old: 0000000000000000000000000000000000000000
-    new: 974700e5e697fcca75a5c655cc8f319fbd0bae68
-  - ref: refs/tags/fuse4fs-service-container_2026-02-05
-    old: 0000000000000000000000000000000000000000
-    new: e786062891773f4076080a3356ab633608b1ac20
-  - ref: refs/tags/fuse4fs-memory-reclaim_2026-02-05
-    old: 0000000000000000000000000000000000000000
-    new: 5bd508d62c64c07d9c889af7c93c566d146b56f1
+    new: 8b362dadf96695de5e75b0ddd789bb00c6e75daf
   - ref: refs/tags/fuse-iomap-bpf_2026-02-05
     old: 0000000000000000000000000000000000000000
-    new: 8f1625d331b77145f0319aa9ed8a14285167f2a4
+    new: 47de99c6b88b4e644c4091d181255ab60c10288f
+  - ref: refs/tags/djwong-wtf_2026-02-05
+    old: 0000000000000000000000000000000000000000
+    new: f6aedde9adfbff791bb3d3263e76cc2a12f7c26e
