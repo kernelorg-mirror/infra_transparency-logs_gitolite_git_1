@@ -1,21 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/damon-hack
-Date: Thu, 05 Feb 2026 00:49:24 -0000
-Message-Id: <177025256400.1760937.5960317924416769632@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Thu, 05 Feb 2026 02:14:39 -0000
+Message-Id: <177025767929.1832489.4168416276537206593@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/damon-hack
-user: sj
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: ast
 changes:
   - ref: refs/heads/master
-    old: 87d332e09db870b6cfab7601c31028e626d71bee
-    new: 23043322cd62ff2f60af341510168c3483650402
+    old: 6e951a9b1af5dc063dfe9e17ca433be099527c43
+    new: 75cd3beb64d0977009e3d1a2d0c03715d3e5e156
     log: |
-         7f25356f8ea13a5cbc479abd33ec46b20166bd0e patches/m/summary: update
-         807d909ccdade90e9156fdb1d48756132a42edc0 patches/next: rebase to latest mm-new
-         23043322cd62ff2f60af341510168c3483650402 todo: update
+         81502d7f20bf862b706f5174979bed88d3ab82b3 bpf: Check for running wq callback when freeing bpf_async_cb
+         5000a097f82c7695b7760c5b67c95f0eab4d209b bpf: Reset prog callback in bpf_async_cancel_and_free()
+         75cd3beb64d0977009e3d1a2d0c03715d3e5e156 Merge branch 'fix-for-bpf_wq-retry-loop-during-free'
          
