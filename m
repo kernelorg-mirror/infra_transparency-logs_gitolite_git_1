@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Thu, 05 Feb 2026 06:21:38 -0000
-Message-Id: <177027249881.2070389.15516081034289903078@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sj/damon-hack
+Date: Thu, 05 Feb 2026 06:21:59 -0000
+Message-Id: <177027251977.2070760.7140027130315932720@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/linux
+repo: pub/scm/linux/kernel/git/sj/damon-hack
 user: sj
 changes:
-  - ref: refs/heads/damon/next
-    old: 4eb96a2e35e0642ae663b064a77f8e7a69f6a622
-    new: 572cab549b4ec14b17a041e26d1f686a7c3c79e6
+  - ref: refs/heads/master
+    old: 59656c31d42e67612585737c66de924a8d586d03
+    new: 3b3246aed05e5cd202b6fafb61cc0f73fbf91792
     log: |
-         572cab549b4ec14b17a041e26d1f686a7c3c79e6 mm/damon/core: unify damon_warn_fix_nr_accesses_corruption() with damon_verify_reset_aggregated()
+         3b3246aed05e5cd202b6fafb61cc0f73fbf91792 patches/next: CONFIG_DAMON_HARDENED cleanup
          
