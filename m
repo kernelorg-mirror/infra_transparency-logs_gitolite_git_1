@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/dinguyen/linux
-Date: Thu, 05 Feb 2026 12:03:14 -0000
-Message-Id: <177029299477.2344689.8289712308504937363@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ulfh/mmc
+Date: Thu, 05 Feb 2026 12:09:36 -0000
+Message-Id: <177029337633.2349027.6611787374072671779@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/dinguyen/linux
-user: dinguyen
+repo: pub/scm/linux/kernel/git/ulfh/mmc
+user: ulfh
 changes:
-  - ref: refs/tags/socfpga_firmware_update_for_v6.20
-    old: 0000000000000000000000000000000000000000
-    new: f9a24d01f51fa91a402de5e68d3a58323ce1f07d
+  - ref: refs/heads/next
+    old: e2ccce3c5986dac1a77db9a94bec6427aa9043ac
+    new: 13dc45d829d5ae06f6eee3fbd3cd1f6818c08e48
+    log: |
+         13dc45d829d5ae06f6eee3fbd3cd1f6818c08e48 mmc: host: renesas_sdhi_core: support selecting an optional mux
+         
