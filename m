@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8329464507221459250=="
+Content-Type: multipart/mixed; boundary="===============1368320621515977681=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Thu, 05 Feb 2026 21:24:32 -0000
-Message-Id: <177032667279.2833373.16965133235627236292@gitolite.kernel.org>
+Date: Thu, 05 Feb 2026 21:24:35 -0000
+Message-Id: <177032667542.2833465.1557797557851919197@gitolite.kernel.org>
 
---===============8329464507221459250==
+--===============1368320621515977681==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/10GbE
+  - ref: refs/heads/40GbE
     old: 7576bd9017e35379db1ab1ef6b0e1d570eb28429
     new: c89477ad79446867394360b29bb801010fc3ff22
     log: revlist-7576bd9017e3-c89477ad7944.txt
 
---===============8329464507221459250==
+--===============1368320621515977681==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -237,4 +237,4 @@ bbf4a17ad9ffc4e3d7ec13d73ecd59dea149ed25 ipv6: Fix ECMP sibling count mismatch w
 6a65c0cb0ff20b3cbc5f1c87b37dd22cdde14a1c tipc: fix RCU dereference race in tipc_aead_users_dec()
 c89477ad79446867394360b29bb801010fc3ff22 inet: RAW sockets using IPPROTO_RAW MUST drop incoming ICMP
 
---===============8329464507221459250==--
+--===============1368320621515977681==--
