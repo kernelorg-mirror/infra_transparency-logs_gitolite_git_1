@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4293415846406683777=="
+Content-Type: multipart/mixed; boundary="===============6586376216595224222=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Thu, 05 Feb 2026 21:38:39 -0000
-Message-Id: <177032751912.2847893.10743096259230334092@gitolite.kernel.org>
+Date: Thu, 05 Feb 2026 21:38:47 -0000
+Message-Id: <177032752741.2848158.8559346678609683516@gitolite.kernel.org>
 
---===============4293415846406683777==
+--===============6586376216595224222==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/dev-queue
-    old: 73d204ebf2206ac303f13a64e7685f6c83e7e80a
-    new: 1195dd1edebedb5dae2c55f19bda4a80167e2615
-    log: revlist-73d204ebf220-1195dd1edebe.txt
+  - ref: refs/heads/1GbE
+    old: 9a9424c756feee9ee6e717405a9d6fa7bacdef08
+    new: a182a62ff77f705f7dd3d98cf05cb3d03751a8f0
+    log: revlist-9a9424c756fe-a182a62ff77f.txt
 
---===============4293415846406683777==
+--===============6586376216595224222==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-73d204ebf220-1195dd1edebe.txt
+Content-Disposition: attachment; filename=revlist-9a9424c756fe-a182a62ff77f.txt
 
 2f6d2c8d9ac05a7a1c02333f6ad30868246880d8 Revert "mtd: spinand: esmt: fix id code for F50D1G41LB"
 600559b9817f6eaa927035eebb12534fadb35ee8 rust: rbtree: fix minor typo in comment
@@ -423,71 +423,5 @@ a90765c6f60317fe28a4cd2cdc7b13f97ed6e12f tcp: move reqsk_fastopen_remove to net/
 a90f6dcefca6d5ad765435b3188a3a440ed193a1 net/sched: don't use dynamic lockdep keys with clsact/ingress/noqueue
 8fdb05de0e2db89d8f56144c60ab784812e8c3b7 Merge tag 'net-6.19-rc9' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 a182a62ff77f705f7dd3d98cf05cb3d03751a8f0 Merge git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
-475702bfcaf9ea0e8a9ca6fc4cea03970fc7359f ice: Fix enable_cnt imbalance on resume
-9bd2d9b0c1cdcc9c33744bbc6b70cecc9eead108 ice: Fix enable_cnt imbalance on PCIe error recovery
-79898d89071aa5fd5b9654ff8dbe9d888ba3cd3f i40e: Fix enable_cnt imbalance on PCIe error recovery
-b0200d489f00d913628fde440905a8213f3a400b i40e: fix src IP mask checks and memcpy argument names in cloud filter
-f776c961550956b65b34c8cf1f3a36fb0d0b37a2 virtchnl: create 'include/linux/intel' and move necessary header files
-ccd2cce94da4a52c1dca16af5069b0e09b0cb2b3 virtchnl: introduce control plane version fields
-b07a6e4a7cc7e2adda0bd811c32e003d7d4f95d2 libie: add PCI device initialization helpers to libie
-5207f12799a4f58e2aab3dc9c63057a9f8d94ba5 libeth: allow to create fill queues without NAPI
-b0cd7897bfeb81674f58d9f54a93d4ac904439f7 libie: add control queue support
-42aae7b6c40b8a50cdb79500f4a678e9ddcb6f90 libie: add bookkeeping support for control queue messages
-bb7c014a0bfa00e8cb4eaf48a9460513c043415d idpf: remove 'vport_params_reqd' field
-de6256800f9194c9b28746cde857f315d82c7030 idpf: refactor idpf to use libie_pci APIs
-c7fc21f8e0a90b8fed577e587a3b2c26be9fa148 idpf: refactor idpf to use libie control queues
-34bac87bd8b960e94bf865a240e6f0545c1bd978 idpf: make mbx_task queueing and cancelling more consistent
-dd608dd40297edf3b650bdd56cbf74caef353035 idpf: print a debug message and bail in case of non-event ctlq message
-4d7938d49d884507629d471257bb77e4bead0bdd ixd: add basic driver framework for Intel(R) Control Plane Function
-78b5244cd7fb43210b68d1791e8b1bb8a5306b0d ixd: add reset checks and initialize the mailbox
-1b7e923a4777a939ade5e2ff58de06c83902f837 ixd: add the core initialization
-cd3043cb50257de9d66b6e64a2b570c3a2e3aa4a ixd: add devlink support
-631517538e62fad056457b56bc4dd2d2b9ee073f i40e: fix ptp time increment while link is down
-9c47e253b656ec858044b115237b5764162cc725 ice: fix adding AQ LLDP filter for VF
-49aa55d6798e0f9af6184fd1d452336986521a7a ixgbevf: fix link setup issue
-f9967b117bd50ce05f317c3f750fe9d410cf5b8c ice: fix 'adjust' timer programming for E830 devices
-2323b83acdd46b0a0ef3d24c82556a832d8a7351 i40e: drop useless bitmap_weight() call in i40e_set_rxfh_fields()
-4d987f16d68e83d041e2cbed9dc86bb39d43e9a2 idpf: increment completion queue next_to_clean in sw marker wait routine
-598d13c87de23ab52cb4a4198d26cb4a579a035b ice: fix setting RSS VSI hash for E830
-b56b2023b757e34c738a566119caa7851fc344d2 e1000e: correct TIMINCA on ADP/TGP systems with wrong XTAL frequency
-0d9e9b0937cf51873419fbcc4c1e79bf504f032a e1000e: introduce new board type for Panther Lake PCH
-db315c707276e8801f2e43be5b8e89233d2f9163 e1000e: clear DPG_EN after reset to avoid autonomous power-gating
-44b22735b845fa97f1845caad940dd1787383390 idpf: skip deallocating bufq_sets from rx_qgrp if it is NULL.
-44401944877f3efaeee38128ac93c220c658de80 idpf: skip deallocating txq group's txqs if it is NULL.
-e95bbe5af2e5415c814e3295b78b9a7fb0779d61 idpf: Fix flow rule delete failure due to invalid validation
-169fb3304fa97a9553e9e35dc0f6205797686f4d ice: reintroduce retry mechanism for indirect AQ
-01c75f59798fd62077d5a183ab39fbe69dbd5a75 ice: fix retry for AQ command 0x06EE
-22a3e27e1be40dbdf542ed8ead72c1c6335ebe42 libeth: pass Rx queue index to PP when creating a fill queue
-4e8c6f18d928fc7198550af6937644816f5e779b libeth: handle creating pools with unreadable buffers
-faf2e580afc7d592206cd4b076edcf9917e27daf ice: migrate to netdev ops lock
-6af1e92d9b216d763c36f7670e6d3a25682e2e0e ice: implement Rx queue management ops
-ab4773524939df62e2326e7ad02ddc962b6c3470 ice: add support for transmitting unreadable frags
-73059a71d6d39346ab35875ef0922fa889067b4a igb: Fix trigger of incorrect irq in igb_xsk_wakeup
-b8c73e70a44c44bf90ae58dd238df5c0f4afd54f igc: Fix trigger of incorrect irq in igc_xsk_wakeup function
-f46a28ea8418429a0ae1074356d9949a509253fd ice: Fix memory leak in ice_set_ringparam()
-d4c1161e91caf33dafb8fed2dac7a5dadb3e4942 idpf: nullify pointers after they are freed
-90cb5cbb661de8d92a85261fbe66d1c3a4b0cc23 ixgbe: refactor: use DECLARE_BITMAP for ring state field
-82e9b402de23ed9e2f80beab562cc4f329cbf89f igb: set skb hash type from RSS_TYPE
-0cfdacaea61a18bbf3d235d34b71f76f4916f8a5 i40e: Add missing header
-f326d74c9395870c12493feee054caeb9435e747 idpf: change IRQ naming to match netdev and ethtool queue numbering
-eb44a4c4a430641f7998869ec3a5c8879a3d85b4 ixgbe: fix unaligned u32 access in
-ae3f89db136ef5a44ea6fcb0f26a949857b333e7 ixgbe: E610: add discovering EEE capability
-10d2a714bc811f36a5e0d5339b7129e285e92847 ixgbe: E610: use new version of 0x601 ACI command buffer
-4b3e1afca54f0be94842c372c6d95972a8e6d050 ixgbe: E610: update EEE supported speeds
-8f3dfeb5bebe29d5e7837f9a4926b2d8787b98b5 ixgbe: E610: update ACI command structs with EEE fields
-51ec1f36a86ca8922e3624c0eef3fe93443be28b ixgbe: move EEE config validation out of ixgbe_set_eee()
-1f7b5d2d7460efb70cb0ea5f5f827f3d521d22bd ixgbe: E610: add EEE support
-abefe523e17e81a39775bcfc1a7bcab9937d2a5f ice: Make name member of struct ice_cgu_pin_desc const
-8c16bc1362513c8fb706ad59c2e35f8c50240229 ice: recap the VSI and QoS info after rebuild
-ff9aff0a090a2365d5967345c22213dd7bce72a1 iavf: fix PTP use-after-free during reset
-9c57662ecfc2ef30f123241b9aa9a68b01ef9736 i40e: only timestamp PTP event packets
-70742aaa390246242e4ee07cce7a52620b4ea741 ice: ptp: don't WARN when controlling PF is unavailable
-61023f5a9ee989965724edf3f6946d30f029d59d e1000e: reconfigure PLL clock gate value and re-enable K1 on Meteor Lake
-46d4b20b634d5f2b2a4dfef05e89294b745533e9 igb: prepare for RSS key get/set support
-4f18c3c510525cc9442a6b319c5eb86cd9dcd048 igb: expose RSS key via ethtool get_rxfh
-af31ac994e922c2f14e0ee2b8fc374a26f179bc8 igb: allow configuring RSS key via ethtool set_rxfh
-b73c1ba1a2909d80ec34c8f7941674c64343b8f2 igc: prepare for RSS key get/set support
-978eedd467210ebc655151aaae8f94f538f3c091 igc: expose RSS key via ethtool get_rxfh
-1195dd1edebedb5dae2c55f19bda4a80167e2615 igc: allow configuring RSS key via ethtool set_rxfh
 
---===============4293415846406683777==--
+--===============6586376216595224222==--
