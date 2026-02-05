@@ -1,20 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/andi.shyti/linux
-Date: Thu, 05 Feb 2026 11:57:27 -0000
-Message-Id: <177029264788.2340308.9883357343734985207@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/dinguyen/linux
+Date: Thu, 05 Feb 2026 12:03:14 -0000
+Message-Id: <177029299477.2344689.8289712308504937363@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/andi.shyti/linux
-user: andi.shyti
+repo: pub/scm/linux/kernel/git/dinguyen/linux
+user: dinguyen
 changes:
-  - ref: refs/heads/i2c/i2c-host-next
-    old: 9f914ce0fa7dec9ba2c0e7576d958c956d4be195
-    new: 9212e4556711551b00ff86b52f3c6059347ac410
-    log: |
-         e3bd389018a940714a14404dffeb3e5e5a02c0a6 dt-bindings: i2c: Add CP2112 HID USB to SMBus Bridge
-         9212e4556711551b00ff86b52f3c6059347ac410 Merge branch 'i2c/i2c-host-2' into i2c/i2c-host-next
-         
+  - ref: refs/tags/socfpga_firmware_update_for_v6.20
+    old: 0000000000000000000000000000000000000000
+    new: f9a24d01f51fa91a402de5e68d3a58323ce1f07d
