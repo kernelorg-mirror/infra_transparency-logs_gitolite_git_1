@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Thu, 05 Feb 2026 16:58:32 -0000
-Message-Id: <177031071268.2602963.15003356327807498243@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
+Date: Thu, 05 Feb 2026 17:01:28 -0000
+Message-Id: <177031088805.2606954.4439373652630893020@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/brgl/linux
+user: brgl
 changes:
-  - ref: refs/heads/20260205_rf_asoc_cs35l56_more_support_for_new_dell_laptops
-    old: 0000000000000000000000000000000000000000
-    new: 6f220440399afba29165e0597fa2c3aa836191d7
+  - ref: refs/heads/gpio/for-current
+    old: c62e0658d458d8f100445445c3ddb106f3824a45
+    new: e34f77b09080c86c929153e2a72da26b4f8947ff
+    log: |
+         e34f77b09080c86c929153e2a72da26b4f8947ff gpio: loongson-64bit: Fix incorrect NULL check after devm_kcalloc()
+         
