@@ -1,20 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/damon-hack
-Date: Thu, 05 Feb 2026 06:07:59 -0000
-Message-Id: <177027167985.2058113.13143296716056522441@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
+Date: Thu, 05 Feb 2026 06:17:27 -0000
+Message-Id: <177027224725.2065882.16641803626491819477@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/damon-hack
+repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/master
-    old: dd595248033739404753de6255f4735cc3b729cb
-    new: a7dc197374bfdc7c0d5f15bc8f555699b54d1624
+  - ref: refs/heads/damon/next
+    old: 4e60990f498c2da580a178f44c560626d9b0c693
+    new: 4eb96a2e35e0642ae663b064a77f8e7a69f6a622
     log: |
-         4be44a048b24241c98bb4faf2e0f956f3b0e5e1a patches/next: improve sis overflow handling
-         a7dc197374bfdc7c0d5f15bc8f555699b54d1624 patches/next: fixup damon_stat monitoring range
+         40694f236a991eb33bd20d3048c65a7920c930d8 mm/damon/reclaim: work for all system rams
+         e902c49c3fd49402f4c081436850969e698ca834 mm/damon/lru_sort: cover all system rams
+         85cd30cb9cd670c9dbdc94408aecb7949b78930b mm/damon/acma: cover all system rams
+         0086f4933282255211fb5b3dffdaf78f73478253 mm/damon/core: add kernel-doc for damon_set_region_system_rams_default()
+         4eb96a2e35e0642ae663b064a77f8e7a69f6a622 mm/damon/core: remove damon_set_region_biggest_system_ram_default()
          
