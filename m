@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
-Date: Thu, 05 Feb 2026 17:01:28 -0000
-Message-Id: <177031088805.2606954.4439373652630893020@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Thu, 05 Feb 2026 17:02:14 -0000
+Message-Id: <177031093447.2607486.8672382703968746527@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/brgl/linux
-user: brgl
+repo: pub/scm/linux/kernel/git/netdev/net
+user: kuba
 changes:
-  - ref: refs/heads/gpio/for-current
-    old: c62e0658d458d8f100445445c3ddb106f3824a45
-    new: e34f77b09080c86c929153e2a72da26b4f8947ff
-    log: |
-         e34f77b09080c86c929153e2a72da26b4f8947ff gpio: loongson-64bit: Fix incorrect NULL check after devm_kcalloc()
-         
+  - ref: refs/tags/net-6.19-rc9
+    old: 0000000000000000000000000000000000000000
+    new: 066d5b7638dfb14660df9b0eab03d4bc23268096
