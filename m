@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/fs/xfs/xfs-linux
-Date: Fri, 06 Feb 2026 11:33:26 -0000
-Message-Id: <177037760622.3581530.1519431544532042349@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/deller/linux-fbdev
+Date: Fri, 06 Feb 2026 11:36:38 -0000
+Message-Id: <177037779830.3585373.14993832741209099620@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/fs/xfs/xfs-linux
-user: cem
+repo: pub/scm/linux/kernel/git/deller/linux-fbdev
+user: deller
 changes:
-  - ref: refs/tags/xfs-merge-7.0
-    old: 0000000000000000000000000000000000000000
-    new: 44606115e996df0ed5531a10e69aa0a848fc2c2f
+  - ref: refs/heads/for-next
+    old: a39cfe1fe2de5dbafe98870fed8e41d73f98767d
+    new: 0000000000000000000000000000000000000000
