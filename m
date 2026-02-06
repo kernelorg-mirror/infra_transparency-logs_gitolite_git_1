@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
-Date: Fri, 06 Feb 2026 22:41:09 -0000
-Message-Id: <177041766908.202412.9026761870958744120@gitolite.kernel.org>
+Date: Fri, 06 Feb 2026 22:48:44 -0000
+Message-Id: <177041812481.207105.5335147057949729020@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,9 +11,6 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/pci/pci
 user: helgaas
 changes:
-  - ref: refs/heads/enumeration
-    old: 9abf79c8d7b40db0e5a34aa8c744ea60ff9a3fcf
-    new: 699722468a0fca8b1b9ce1ffe2532171ddcaff95
-    log: |
-         699722468a0fca8b1b9ce1ffe2532171ddcaff95 PCI/PME: Replace RMW of Root Status register with direct write
-         
+  - ref: refs/heads/controller/generic
+    old: 0000000000000000000000000000000000000000
+    new: 3a11167d918a0b727239cedc7bb83f2329bcc49f
