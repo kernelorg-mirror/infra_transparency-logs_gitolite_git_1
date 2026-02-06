@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3833985780111902160=="
+Content-Type: multipart/mixed; boundary="===============7737621347649354686=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Fri, 06 Feb 2026 22:51:24 -0000
-Message-Id: <177041828480.210654.750610022907650959@gitolite.kernel.org>
+Date: Fri, 06 Feb 2026 22:52:02 -0000
+Message-Id: <177041832235.211099.17341649096931274840@gitolite.kernel.org>
 
---===============3833985780111902160==
+--===============7737621347649354686==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: martin.lau
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/for-next
     old: b8c89f5cc2037b1902d680d169332fda71a0d38e
     new: db975debcb8c4cd367a78811bc1ba84c83f854bd
     log: revlist-b8c89f5cc203-db975debcb8c.txt
 
---===============3833985780111902160==
+--===============7737621347649354686==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -45,4 +45,4 @@ cdce7b0848f6f2be4c6d7dbf243244981d315f6f selftests/bpf: Choose another percpu va
 97b859b5ed04dbbe99be19895d8498009a19553f selftests/bpf: Fix outdated test on storage->smap
 db975debcb8c4cd367a78811bc1ba84c83f854bd Merge branch 'remove-task-and-cgroup-local-storage-percpu-counters'
 
---===============3833985780111902160==--
+--===============7737621347649354686==--
