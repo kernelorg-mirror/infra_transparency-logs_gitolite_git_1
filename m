@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/leon/linux-rdma
-Date: Fri, 06 Feb 2026 12:03:44 -0000
-Message-Id: <177037942473.3606339.14814383001584679318@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/firmware/linux-firmware
+Date: Fri, 06 Feb 2026 12:10:10 -0000
+Message-Id: <177037981004.3613480.18350647189188303228@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/leon/linux-rdma
-user: leon
+repo: pub/scm/linux/kernel/git/firmware/linux-firmware
+user: jwboyer
 changes:
-  - ref: refs/heads/refactor-umem-v1
-    old: 6bdb565b89f2b4bc7e72da1c2335f5f20c3cc873
-    new: 0d26271fa608cbf1182561abfb3a2ff8c3a53566
+  - ref: refs/heads/main
+    old: f2dbd7a7a74be0d309d8058a55308dcea33a41d6
+    new: 38ed165326bd2d18356dcfb0a3fcb9fc45e7bfc0
     log: |
-         0d26271fa608cbf1182561abfb3a2ff8c3a53566 RDMA/core: Remove unused ib_resize_cq() implementation
+         2bb21553d510073cff360555692643a3cba24d11 qcom: vpu: add video firmware for Glymur
+         38ed165326bd2d18356dcfb0a3fcb9fc45e7bfc0 Merge branch 'robot/pr-0-1770372868' into 'main'
          
