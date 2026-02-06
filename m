@@ -1,51 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============8171953166747599577=="
+Content-Type: multipart/mixed; boundary="===============5614405848334979180=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Fri, 06 Feb 2026 00:28:18 -0000
-Message-Id: <177033769815.2995563.13218894363865290584@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Fri, 06 Feb 2026 00:28:21 -0000
+Message-Id: <177033770144.2995698.14462202335375738024@gitolite.kernel.org>
 
---===============8171953166747599577==
+--===============5614405848334979180==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.20
+  - ref: refs/heads/asoc-6.20
     old: 84faa91585fa22a161763f2fe8f84a602a196c87
     new: dacaa439fa3ac8780847392342d886f14ad1b765
     log: revlist-84faa91585fa-dacaa439fa3a.txt
 
---===============8171953166747599577==
+--===============5614405848334979180==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1770337696 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1770337696-dc94c64c85663910e4e90385acaccbd88ce9e163
+pusher C3F436CA30F5D8EB 1770337699 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1770337699-3027aaffedf594dc208e6bfd0de5ccb478a81b14
 
-84faa91585fa22a161763f2fe8f84a602a196c87 dacaa439fa3ac8780847392342d886f14ad1b765 refs/heads/for-6.20
+84faa91585fa22a161763f2fe8f84a602a196c87 dacaa439fa3ac8780847392342d886f14ad1b765 refs/heads/asoc-6.20
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmmFNaAACgkQJNaLcl1U
-h9BiBgf/WW4z9T8BeSPM0ZEt6o8GayjAHkjuMQtn4CXJuE5+f10iVsfqyZJ9HRjX
-Hb7YI+nLiTJz3bw9rY+u3o8iS9XZQTjUFSD1gHlMtCTz9uIBBKPJ7guDUTxFSeb4
-pCzSqUzNc4kc2mYGCk5I7eARCl0plo6RG9XUG49kxdp8IA9rEws7LUTLv+G0SSTN
-C4YR0g7dvamEuzEATH4XeWhdhCfVeUeSl9xLgknsuafcVn+Z/gHUPaZs7mv6CqdO
-uME8+LDS3F5YUlow6afvx7R+xzBMti88O20DtPljikHx7S/ykQHdypBa/BBdUit4
-hAdlL7mD0Ya1SH4u6UQq7BhZy0PbHw==
-=VP04
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmmFNaMACgkQJNaLcl1U
+h9Aj4Af+P4llTh2xOgFjVcvtoQ6AGAshqekE3MSNtrC4bbCM0/F7aSRWZEIp0dUV
++6wm8VyOmi8aFgT7i1Pe+SQyP5/h5fZhom05dqLZ5SlbG6UTcoECBUfS30XSiGdR
+cyVe8eDNBTlA+N6qA0oWNKCjsPMQWyc7QMeGhmW4vy+rWxxu6o55aPYMDdsRj1vp
+z/c/4tVc+zs/1GenBVPEfTZGd+Uv1qnvCRvaxTW3Ni3li6qeSW87V0uOlWFXrqBc
+/l11eUV8tZIllZ4lfS3P+Ti73njIqydajg6wz28paPq/EaKARAecRuHXxMo/R8TR
+5vgd4e29e2xd/8nTDpIeaFkhRagf0Q==
+=C30/
 -----END PGP SIGNATURE-----
 
---===============8171953166747599577==
+--===============5614405848334979180==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -67,4 +67,4 @@ d94ea902462ac39846d878aa67b78408727e0674 ASoC: rockchip: spdif: Convert to FIELD
 5209af4db0591452477b17ef2718734c18483476 ASoC: cs35l56: More support for new Dell laptops
 dacaa439fa3ac8780847392342d886f14ad1b765 ASoC: rockchip: spdif: Cleanups and port features
 
---===============8171953166747599577==--
+--===============5614405848334979180==--
