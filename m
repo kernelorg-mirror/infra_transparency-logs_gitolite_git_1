@@ -1,56 +1,49 @@
-Content-Type: multipart/mixed; boundary="===============0225630021349956187=="
+Content-Type: multipart/mixed; boundary="===============3701049020087302794=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Fri, 06 Feb 2026 11:09:49 -0000
-Message-Id: <177037618914.3561458.10726835923746132645@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gmonaco/linux
+Date: Fri, 06 Feb 2026 11:22:26 -0000
+Message-Id: <177037694699.3573044.3168344074586664505@gitolite.kernel.org>
 
---===============0225630021349956187==
+--===============3701049020087302794==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/gmonaco/linux
+user: gmonaco
 changes:
-  - ref: refs/heads/master
-    old: 55a4687fb8031f3c5c266c9fa93a80e22e22ba92
-    new: 4ca4ee1d7f630c195abb86ddcdd24215c31c3118
-    log: |
-         4ca4ee1d7f630c195abb86ddcdd24215c31c3118 drop selftest patches that would not run
-         
+  - ref: refs/heads/rv_tools_tests
+    old: 4facb269e09867b60363193c93d32e313765a61a
+    new: 2277eaa834bc21d359e1e51b13f6f0207e271c6c
+    log: revlist-4facb269e098-2277eaa834bc.txt
 
---===============0225630021349956187==
+--===============3701049020087302794==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-4facb269e098-2277eaa834bc.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1770376184 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1770376182-933d7304c4d2ed823a7af347e6bd48de4c98dafe
+924400c1c29006d835408ea0962446d4a481e774 sched: Export hidden tracepoints to modules
+e8637a7b2ca735a589930bfb7485e3cf7ba32330 rv: Unify DA event handling functions across monitor types
+4cc36129f2fb05cd779c1a760b1081e42996072f rv: Add Hybrid Automata monitor type
+570e5e1ebfc3db3de699400320fb74aa1972ce58 verification/rvgen: Allow spaces in and events strings
+2e569f68c57ad8ecab1ac30d2d005647ab02bbee verification/rvgen: Add support for Hybrid Automata
+c961e23b896bd90bb5edd6a53af07d29727bb0bb Documentation/rv: Add documentation about hybrid automata
+e4edc126ce1e2aa70ea058d3883e9256e30d20b9 rv: Add sample hybrid monitors stall
+d502692033e6c639e9dd837957123db6e6eddb76 rv: Convert the opid monitor to a hybrid automaton
+72cc7f04a873c91b4ceb541fba34e8d68df6fe65 sched: Add deadline tracepoints
+7af6e61f3f53ee94934657835dcb7dc9a6a4d59d sched: Add task enqueue/dequeue trace points
+7e74aefc79235c9ce5316567d7ac7daf335e972b rv: Add enqueue/dequeue to snroc monitor
+0e5c92c5f7d1b65d501b15552b07a1d0dfd55b37 rv: Add support for per-object monitors in DA/HA
+23e31f2ae731626c97001324b924d217bfd00359 verification/rvgen: Add support for per-obj monitors
+566f5ad2e497e2a7d5f143056d18a6b86c08eb57 sched/deadline: Move some utility functions to deadline.h
+736455eb6adeb5079985c96a7c6a07b66c205655 rv: Add deadline monitors
+18214366db6f9eb090ec198b08c988210cfd91f7 rv: Add dl_server specific monitors
+a042f5dbb437211cdbe83dcc8bb2f047c721e260 verification/rvgen: Fix options shared among commands
+c4f1d897bd2e8e5159ad7bc72c014e14e790f322 tools/rv: Add selftests
+2277eaa834bc21d359e1e51b13f6f0207e271c6c verification/rvgen: Add selftests
 
-55a4687fb8031f3c5c266c9fa93a80e22e22ba92 4ca4ee1d7f630c195abb86ddcdd24215c31c3118 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmmFy/gbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+qmkP/iRROp2HRgexo8OZ8ZBy
-XXs3TwHDbQCRMEg/aZfpwcj5BVjS4DmhKaKKXOU1O+nVnbBZC+ZYfDnZXSzznzEN
-n60xGqqKvh7+MaxH2iW8iH1+CRfcMvUCnX7f5d7Ox12L1X3Z9+6aX8HsTJBwP5BI
-owSWITDyue0EdxJSDh8cio0jT2t+4v5bSoRDgVJ2pqeNo1YU3Mt8lsLkqq2+JnSo
-7f81dv94IkiMiaZRmnX6+ZmC1z6j4/eBoMJlINC4eEG+rJrWqakMJkJxfWIaRhMC
-b6hjyjAWaGxMhSw0jW/1y1SRipXQOwGf3EBEAuLvEZOZRXh0H2hioLVZ2UakmJZy
-z/bZi1g/Lc4NksCKCY6VX5+JciwXEfvsOL1JQykbc1xX2UgppdtI8Tw5ao7DLNWh
-3cY+WWiQ7NR5eBpMgwzIiQ95uZIA3V8ekpXeT9H/dJuob7AsitRzKxpyGkp72HjD
-j+xnmB1pS2MHBX0FDHlhxWOO3cltrlK1B0tXxV8kOhImGg8T2JR/00CwnVTqL09V
-a+O5uyNUhItKLVa+BOpp9Nw9P/zkUBIglUrAtq+jt4v1XGpENbX7QGiTdylh2NGs
-udbDkZQb2bhfGcnz8FcDigRIjm8wtdogC9rl825ltW8ljhLbvvV/rjmD7NnpjN0R
-XgJGB52T29eN4OAcsN0xn6aE
-=NpzR
------END PGP SIGNATURE-----
-
---===============0225630021349956187==--
+--===============3701049020087302794==--
