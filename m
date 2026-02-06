@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0837902132623938404=="
+Content-Type: multipart/mixed; boundary="===============3083197250288909198=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Fri, 06 Feb 2026 07:51:32 -0000
-Message-Id: <177036429222.3359797.8376870172573060681@gitolite.kernel.org>
+Date: Fri, 06 Feb 2026 07:51:59 -0000
+Message-Id: <177036431921.3360192.18107319177694870131@gitolite.kernel.org>
 
---===============0837902132623938404==
+--===============3083197250288909198==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,15 +16,54 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: 780fe5826ef4053377d7353343a5bf4e8348ae64
-    new: 24ea42a35c9128bdc0110091b6e5cbb6f8b61a79
-    log: revlist-780fe5826ef4-24ea42a35c91.txt
+    old: 24ea42a35c9128bdc0110091b6e5cbb6f8b61a79
+    new: cf0997a46ae030f12e42cfbcbd220ddaf8f68310
+    log: revlist-24ea42a35c91-cf0997a46ae0.txt
+  - ref: refs/heads/tip/urgent
+    old: 5904487619ef55c47f3d15ec5fa4d19d226d7200
+    new: 273071a4a79317da26cd4584dc26d25ac78ba24a
+    log: revlist-5904487619ef-273071a4a793.txt
 
---===============0837902132623938404==
+--===============3083197250288909198==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-780fe5826ef4-24ea42a35c91.txt
+Content-Disposition: attachment; filename=revlist-24ea42a35c91-cf0997a46ae0.txt
+
+47782c23a923d9cc3c0500a0a762dc6a184165a5 Merge branch into tip/master: 'objtool/urgent'
+273071a4a79317da26cd4584dc26d25ac78ba24a Merge branch into tip/master: 'sched/urgent'
+9dc6efee77c0a42946d5eadbea2815a536c8f15e Merge branch into tip/master: 'core/entry'
+11f0888cb0a0dd648978a5157c7e71a4054a06e2 Merge branch into tip/master: 'irq/cleanups'
+f25f3ab55156587cc34098bca7600ffba2eaff37 Merge branch into tip/master: 'irq/core'
+8b06b506b3dc209e1c0c6cfc14faedbb7d09ece0 Merge branch into tip/master: 'irq/drivers'
+8b29e646882646b036fe90f196d1ef2b695e8893 Merge branch into tip/master: 'irq/msi'
+88f9826bca81bba7a141b329af3e424e604f816e Merge branch into tip/master: 'locking/core'
+322e2771c70ddc2f2e6162dae1d0ed0b257eb304 Merge branch into tip/master: 'locking/futex'
+183cc24d316f29fb1980a5c8f57bb939c5b0b1d8 Merge branch into tip/master: 'perf/core'
+1b99bcdc584b054b28dd085094a5d72e6f54ce5f Merge branch into tip/master: 'sched/core'
+e16fcbafe34620090ac46761a70ba7203471c98d Merge branch into tip/master: 'timers/clocksource'
+f9541ad0c76f188ceb84dbea1ce009a529624912 Merge branch into tip/master: 'timers/core'
+a766223363d8250b1411c0a7b11f800741b39a48 Merge branch into tip/master: 'timers/vdso'
+00a0ad53e115a872ba15363909e296bae3727694 Merge branch into tip/master: 'x86/alternatives'
+fea1f4e4d085703935e2d0c6d0af70e9a64355d8 Merge branch into tip/master: 'x86/apic'
+47d93faedc9a5fdd5ae45d9559b423aa48bddd35 Merge branch into tip/master: 'x86/boot'
+f5f09d16fc607dc6693474da06a7fc3ebd009549 Merge branch into tip/master: 'x86/bugs'
+d45bb8fd81ede36bf1e83d73d7143a207ec89125 Merge branch into tip/master: 'x86/cache'
+a858feab5420619da95d1f61467c30d2729d68d8 Merge branch into tip/master: 'x86/cleanups'
+cb86c98fae9ab8bf4afe2ebebee91f07ec09b5b4 Merge branch into tip/master: 'x86/cpu'
+cda837aa06cfe59a49ddd5d1dd4c58afea8f50de Merge branch into tip/master: 'x86/entry'
+5159e7da15622b34ebc5075203241e1f13814979 Merge branch into tip/master: 'x86/irq'
+a250fdc4819be462636807daba22eb80371c94ea Merge branch into tip/master: 'x86/microcode'
+79d4fe40f0a216a75576339a42943a8a0970b190 Merge branch into tip/master: 'x86/misc'
+66eff07e85ae3be7c0528ec647c16cd8770e3317 Merge branch into tip/master: 'x86/paravirt'
+8e77a189c4205d78e5e73d18ef49bf8619f7abd8 Merge branch into tip/master: 'x86/platform'
+cf0997a46ae030f12e42cfbcbd220ddaf8f68310 Merge branch into tip/master: 'x86/sev'
+
+--===============3083197250288909198==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-5904487619ef-273071a4a793.txt
 
 830e0bef79aaaea8b1ef426b8032e70c63a58653 hwmon: (dell-smm) Add Dell G15 5510 to fan control whitelist
 615901b57b7ef8eb655f71358f7e956e42bcd16b hwmon: (acpi_power_meter) Fix deadlocks related to acpi_power_meter_notify()
@@ -68,6 +107,7 @@ cb8455cbf343791eea3c9fa142807a99c186b323 Merge tag 'drm-xe-fixes-2026-02-05' of 
 7ef92d2ecef7486d46eda0f911dc53b873fdf567 Merge tag 'amd-drm-fixes-6.19-2026-02-05' of https://gitlab.freedesktop.org/agd5f/linux into drm-fixes
 8185461e531c39d67aa4705d7f94873feb87adfd Merge tag 'drm-fixes-2026-02-06' of https://gitlab.freedesktop.org/drm/kernel
 b7ff7151e653aa296ab6c5495b2c1ab7c21eb250 Merge tag 'hwmon-for-v6.19-final' of git://git.kernel.org/pub/scm/linux/kernel/git/groeck/linux-staging
-24ea42a35c9128bdc0110091b6e5cbb6f8b61a79 Merge branch 'linus'
+47782c23a923d9cc3c0500a0a762dc6a184165a5 Merge branch into tip/master: 'objtool/urgent'
+273071a4a79317da26cd4584dc26d25ac78ba24a Merge branch into tip/master: 'sched/urgent'
 
---===============0837902132623938404==--
+--===============3083197250288909198==--
