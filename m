@@ -1,52 +1,69 @@
-Content-Type: multipart/mixed; boundary="===============7662934588387029470=="
+Content-Type: multipart/mixed; boundary="===============0968704702705952710=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
-Date: Fri, 06 Feb 2026 09:34:01 -0000
-Message-Id: <177037044132.3439984.11345622556263740131@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vbabka/slab
+Date: Fri, 06 Feb 2026 09:40:04 -0000
+Message-Id: <177037080427.3446475.16475185202651226720@gitolite.kernel.org>
 
---===============7662934588387029470==
+--===============0968704702705952710==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/xiang/erofs-utils
-user: xiang
+repo: pub/scm/linux/kernel/git/vbabka/slab
+user: vbabka
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/experimental-tests
-    old: 3ce0c4848c97876485993c352052a42b08bd1ad1
-    new: b8245a61e99ee8d49380c6bf80b9337144be71dc
-    log: revlist-3ce0c4848c97-b8245a61e99e.txt
+  - ref: refs/heads/slab/for-7.0/obj_metadata
+    old: ec15c383fcda77ca3cf2ef1f009a54a38563ff17
+    new: 98e99fc4ad4b30dd28c09ba19686ec583af345b4
+    log: revlist-ec15c383fcda-98e99fc4ad4b.txt
 
---===============7662934588387029470==
+--===============0968704702705952710==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3ce0c4848c97-b8245a61e99e.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-776d384d3069aeef640627a64d5f14038e5d9433 erofs-utils: introduce a built-in test framework
-188019d32eaaa7b8ec10b1a1e2c8ff526ce1d049 erofs-utils: tests: add fssum tool
-23aae501b421171ec02b6133b208c4e167cbdd57 erofs-utils: tests: add basic testcases
-243300abfca29f2160f798feb686e8fdc2fa519e erofs-utils: tests: testcase for bad lz4 versions
-e6c47d63807593c31beb0147f4c427a702f776d9 erofs-utils: tests: add test for # of hardlinks
-680a5cc26ac26ad4eece1f588ccf229a4446f87b erofs-utils: tests: add test to avoid hardlinked directories
-37b81233903c788ba0386d11143f679d9dfd3516 erofs-utils: tests: check for cross-device submounts
-8f2062adc874258008f225fad3955d0318886f19 erofs-utils: tests: check battach on full buffer block
-3412dcd15dd33c50675559344947db0aa099eac9 erofs-utils: tests: check uncompressed image with random dirs
-2cf0905942dfbd20ab6edeb4bc66a183a1001d9d erofs-utils: tests: check the compress-hints functionality
-c39d9f16b337546bf172ca5dafcb02ce42a339f6 erofs-utils: tests: add test for MicroLZMA compression
-41cace356e76244a707fe4994ddf2e98e7e5f328 erofs-utils: tests: add generic helper for xattrs
-ef5df92388b754a9c3db883563639405c4f31d16 erofs-utils: tests: add test for xattrs
-89cae370b3326b8615e4539749210b2b997f8b9e erofs-utils: tests: add test for xattrs in different layouts
-358e8fdc80bc57a4795976cb2c1985f252c3c41e erofs-utils: tests: add test for xattr crossing block boundary
-a057109bb35e031147c0c1f9dd49c8d04e5f588f erofs-utils: tests: add test for long xattr name prefixes
-a2501ff4675a8c7d3c416b811eca25ea04595181 erofs-utils: tests: add test for xattrs in random layouts
-86afeca58802fb78b4e287156a4cae756332c844 erofs-utils: tests: add test for DEFLATE compression
-03fd834c2ac0ea92a8ef6d3dbcaf748ad60842a2 erofs-utils: update .gitignore for test results and tools
-2a16a95bc6ee24ba18a6669af1703b033636585a erofs-utils: tests: add test for corrupted directories with hardlinks
-a04fc441d9f4bd33983489af0ce3ec4cd2437290 erofs-utils: tests: add compression algorithms check for tests
-b8245a61e99ee8d49380c6bf80b9337144be71dc erofs-utils: tests: add test for Zstandard compression
+certificate version 0.1
+pusher A940D434992C2E8E99103D50224FA7E7CC82A664 1770370798 +0100
+pushee gitolite.kernel.org:pub/scm/linux/kernel/git/vbabka/slab.git
+nonce 1770370798-255ec6ed3c66e0f089176bd0500358bcbe45354b
 
---===============7662934588387029470==--
+ec15c383fcda77ca3cf2ef1f009a54a38563ff17 98e99fc4ad4b30dd28c09ba19686ec583af345b4 refs/heads/slab/for-7.0/obj_metadata
+-----BEGIN PGP SIGNATURE-----
+
+iQFPBAABCAA5FiEEe7vIQRWZI0iWSE3xu+CwddJFiJoFAmmFtu4bFIAAAAAABAAO
+bWFudTIsMi41KzEuMTEsMiwyAAoJELvgsHXSRYianMIH/j+pvUb2izCTX+jb1/Ys
+ayajME6UdfTVDM5heUibFPCc3aqFtpZyHjf/RYG30v4kphYRFJrzM0tWTWeweKXO
+50Tn1EfPyNKlXZzKOVvsB7okpp8RGhpSCo82DI598yrvSflys4mM62V6QMBKJj4o
+LN5xUkBvfIjrRRxhD6fQlAkkww8rmFTICFDbIXKldkMvp6L5TFtPIwc5Sr2Or3qy
+Ew9O/MjM+XMjnFWShxHfebsVRDqL+28qGnVcu0e8qAoEIbNZzqAcPdMXLatCTq6J
+Obb85KhgvytzLkWXmhvG+Y8jQOi1vcOpSkj+F3tYhvADiI9eQ1WX0NZad7p1H7DK
+3/I=
+=h1ld
+-----END PGP SIGNATURE-----
+
+--===============0968704702705952710==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-ec15c383fcda-98e99fc4ad4b.txt
+
+280ea9c3154b2af7d841f992c9fc79e9d6534e03 mm/slab: avoid allocating slabobj_ext array from its own slab
+9346ee2b53936758afe49519318865dd7c2b1843 slub: clarify object field layout comments
+b85f369b81aed457acbea4ad3314218254a72fd2 mm/slab: use unsigned long for orig_size to ensure proper metadata align
+a13b68d79d5caa5ec0d34b4c0fb2dedf3259fc32 mm/slab: allow specifying free pointer offset when using constructor
+43d9bb4236fd1dd2e4646bee7f556542eefa422a ext4: specify the free pointer offset for ext4_inode_cache
+52f1ca8a459a73cf423a0b71b59f0b950e522cab mm/slab: abstract slabobj_ext access via new slab_obj_ext() helper
+7a8e71bc619d34c7607adef0e368d10421b7d4f6 mm/slab: use stride to access slabobj_ext
+4b1530f89c28dfbc3ec10b0cb860ec11e4538dbe mm/memcontrol,alloc_tag: handle slabobj_ext access under KASAN poison
+70089d018807506e8a6acd03eede33a0619ec417 mm/slab: save memory by allocating slabobj_ext array from leftover
+fab0694646d75d5b03e9898ffb85899fb23320ea mm/slab: move [__]ksize and slab_ksize() to mm/slub.c
+a77d6d338685025cbf84f6e3abd92a8e59a4d894 mm/slab: place slabobj_ext metadata in unused space within s->size
+2f35fee943435b5b1a3e403c7fb9bd19727754d8 mm/slab: only allow SLAB_OBJ_EXT_IN_OBJ for unmergeable caches
+98e99fc4ad4b30dd28c09ba19686ec583af345b4 slub: let need_slab_obj_exts() return false if SLAB_NO_OBJ_EXT is set
+
+--===============0968704702705952710==--
