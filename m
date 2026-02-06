@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8927648959615811272=="
+Content-Type: multipart/mixed; boundary="===============3328978559882453580=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gmonaco/linux
-Date: Fri, 06 Feb 2026 06:38:17 -0000
-Message-Id: <177035989728.3297147.1769239301544261071@gitolite.kernel.org>
+Date: Fri, 06 Feb 2026 06:38:37 -0000
+Message-Id: <177035991728.3297406.683147698170258948@gitolite.kernel.org>
 
---===============8927648959615811272==
+--===============3328978559882453580==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/gmonaco/linux
 user: gmonaco
 changes:
-  - ref: refs/heads/rv_mon_kunit
-    old: f5957f5c7c706427a3e1ae6bc638214770b8dc5e
-    new: 36e655743d4c7fe87f0f95c98a62939eb0a36890
-    log: revlist-f5957f5c7c70-36e655743d4c.txt
+  - ref: refs/heads/rv_bpf_monitors
+    old: 573d36a82665ace92d0596fb389fc4ed753c6cef
+    new: fd019d156c7aa601443d0eda85c153b4c1d2318e
+    log: revlist-573d36a82665-fd019d156c7a.txt
 
---===============8927648959615811272==
+--===============3328978559882453580==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f5957f5c7c70-36e655743d4c.txt
+Content-Disposition: attachment; filename=revlist-573d36a82665-fd019d156c7a.txt
 
 72cc7f04a873c91b4ceb541fba34e8d68df6fe65 sched: Add deadline tracepoints
 7af6e61f3f53ee94934657835dcb7dc9a6a4d59d sched: Add task enqueue/dequeue trace points
@@ -34,9 +34,12 @@ Content-Disposition: attachment; filename=revlist-f5957f5c7c70-36e655743d4c.txt
 566f5ad2e497e2a7d5f143056d18a6b86c08eb57 sched/deadline: Move some utility functions to deadline.h
 736455eb6adeb5079985c96a7c6a07b66c205655 rv: Add deadline monitors
 18214366db6f9eb090ec198b08c988210cfd91f7 rv: Add dl_server specific monitors
-47b5b119fe0470922558ae8b66d41ebb49b3ae1b rv: Add KUnit stub to rv_react() and rv_*_task_monitor_slot()
-2a12e5bb96ffadb8b0af89466e437c882185fa0e rv: Add KUnit tests for some DA/HA monitors
-fecf49fb4999a958c083218707599ea762c7f068 rv: Add kunit stubs for current and smp_processor_id()
-36e655743d4c7fe87f0f95c98a62939eb0a36890 rv: Add KUnit tests for some LTL monitors
+0098f710147ed9a9c671ceacd16a4e1ac0739160 rv: Refactor da_trace() functions to get strings internally
+7a200d2c5ef3795150f05c1507357448b79df4dd tools/rv: Move argument parsing from in_kernel to utils
+cb4c0d3663c85a15cedea2250420087c4ef6e700 tools/build: Add a feature test for bpftool-btf
+90a30524783a2c6a4ad8ad05fa767fb702850adc tools/rv: Implement BPF monitor discovery and listing
+cb1898d0a1ca01f1a6422d9ffeb8e212d01d28d2 tools/rv: Implement BPF monitor loading and tracing
+900c0df6dc6f8be6a521be1bb87c0476708d67c5 tools/rv: Add BPF monitors
+fd019d156c7aa601443d0eda85c153b4c1d2318e verification/rvgen: Add support for BPF monitors
 
---===============8927648959615811272==--
+--===============3328978559882453580==--
