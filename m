@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/firmware/linux-firmware
-Date: Fri, 06 Feb 2026 07:20:10 -0000
-Message-Id: <177036241072.3330735.837748448887651226@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs
+Date: Fri, 06 Feb 2026 07:26:16 -0000
+Message-Id: <177036277621.3336896.5895545453381801917@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/firmware/linux-firmware
-user: jwboyer
+repo: pub/scm/linux/kernel/git/xiang/erofs
+user: xiang
 changes:
-  - ref: refs/heads/main
-    old: 90b8507fd17e137947132e81981161874162bbb2
-    new: f2dbd7a7a74be0d309d8058a55308dcea33a41d6
+  - ref: refs/heads/dev-test
+    old: 8f2fb72fd17eecd5a47c73ce7e228d157e613b80
+    new: 4dbb3b4df2f568139dfcb82e9f459cb061ef8179
     log: |
-         8fafd2481eeda49dc2203bb31076b0d9361e1dbd qcom: add QUPv3 firmware for x1e80100 platform
-         f2dbd7a7a74be0d309d8058a55308dcea33a41d6 Merge branch 'robot/pr-0-1770355730' into 'main'
+         4dbb3b4df2f568139dfcb82e9f459cb061ef8179 erofs: fix UAF issue for file-backed mounts w/ directio option
          
