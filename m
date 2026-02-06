@@ -1,26 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
-Date: Fri, 06 Feb 2026 13:46:26 -0000
-Message-Id: <177038558607.3692288.12834923622912133462@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/arighi/linux
+Date: Fri, 06 Feb 2026 13:48:12 -0000
+Message-Id: <177038569280.3693493.16706108675939367553@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tiwai/sound
-user: tiwai
+repo: pub/scm/linux/kernel/git/arighi/linux
+user: arighi
 changes:
-  - ref: refs/heads/for-next
-    old: e3474301824926ecce1d45f2ede7ecdda9a35840
-    new: ee1afacc356c84bba4b89e0655ffdcfa84d4f714
+  - ref: refs/heads/scx-dequeue
+    old: da6bfda1fb768413827aaff4b5c8e838eadf19e6
+    new: d5e43f4962e894423ff0f3ff33d7313421a3839f
     log: |
-         ee1afacc356c84bba4b89e0655ffdcfa84d4f714 ALSA: oss: delete self assignment
-         
-  - ref: refs/heads/master
-    old: 345d081803f003256553aaccd1597866fee4bbb9
-    new: 7372bf6e58cba1a281e7be8e95f3e657465aa8de
-    log: |
-         ee1afacc356c84bba4b89e0655ffdcfa84d4f714 ALSA: oss: delete self assignment
-         7372bf6e58cba1a281e7be8e95f3e657465aa8de Merge branch 'for-next'
+         a8992c491faf662520b7f5810d7ccc54da0315b3 sched_ext: Fix ops.dequeue() semantics
+         9db85a8efa68c720bf2c67022b8c203f4ff45f23 selftests/sched_ext: Add test to validate ops.dequeue() semantics
+         d5e43f4962e894423ff0f3ff33d7313421a3839f sched_ext: Invalidate dispatch decisions on CPU affinity changes
          
