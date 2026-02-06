@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7588189097797535984=="
+Content-Type: multipart/mixed; boundary="===============0161890761426192561=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Fri, 06 Feb 2026 15:58:06 -0000
-Message-Id: <177039348610.3914394.11864133996953990172@gitolite.kernel.org>
+Date: Fri, 06 Feb 2026 15:58:08 -0000
+Message-Id: <177039348813.3914524.3298790540314210921@gitolite.kernel.org>
 
---===============7588189097797535984==
+--===============0161890761426192561==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/mm-new
-    old: 80c1cbddac8c632f1f840682895ac37e75294692
-    new: a1a876489abcc1e75b03bd3b2f6739ceeaaec8c5
-    log: revlist-80c1cbddac8c-a1a876489abc.txt
+  - ref: refs/heads/mm-unstable
+    old: 145197c9801f90fed517447e24a9d20f3927cf27
+    new: 5813eaaa73be2805b3680662fc58b17277747621
+    log: revlist-145197c9801f-5813eaaa73be.txt
 
---===============7588189097797535984==
+--===============0161890761426192561==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-80c1cbddac8c-a1a876489abc.txt
+Content-Disposition: attachment; filename=revlist-145197c9801f-5813eaaa73be.txt
 
 b5cbacd7f86f4f62b8813688c8e73be94e8e1951 procfs: avoid fetching build ID while holding VMA lock
 ae9fd76c111bb4a5293c2831a1ad373605251dd6 mm/memory-failure: reject unsupported non-folio compound page
@@ -91,51 +91,5 @@ f7cab0809eef6ce7903b2adf5cc59abf3b118782 arm64-mm-implement-the-architecture-spe
 cf2929c618fec0a22702b3abd0778bbdde6e458e selftests/mm: add memory failure anonymous page test
 df061aec2425f3748fac0dd121602d3c0e41b998 selftests/mm: add memory failure clean pagecache test
 5813eaaa73be2805b3680662fc58b17277747621 selftests/mm: add memory failure dirty pagecache test
-8ac4804f5268a85c06144b5d6135b5eebd93222a ksm: initialize the addr only once in rmap_walk_ksm
-5cc2fea51f427004242144b32778c4abe085f5cf ksm: optimize rmap_walk_ksm by passing a suitable addressrange
-9335b9e95cbbcc9a5e12f85934045b09dc0178fd maple_tree: fix mas_dup_alloc() sparse warning
-f0a65ccda8a34b54dbd5e7e31d5aeff5f32105a6 maple_tree: move mas_spanning_rebalance loop to function
-1d3e852b94a37d3959a8ba8e6597d8a4445d0a22 maple_tree: extract use of big node from mas_wr_spanning_store()
-b540c722031aff0a2947d15f8cd9fc9180cd3d19 maple_tree: remove unnecessary assignment of orig_l index
-a5c4ea5ef997aeacdba4ab736509361fca984f9c maple_tree: inline mas_spanning_rebalance() into mas_wr_spanning_rebalance()
-01d7383f859d616ec7b26b914b880fb3154d9c05 maple_tree: make ma_wr_states reliable for reuse in spanning store
-3cc765c552214ea12c8afee65a6e248a2e6c54fa maple_tree: remove l_wr_mas from mas_wr_spanning_rebalance
-5d74711d3a93cc6ed0adcb36f4853b465e4331c2 maple_tree: don't pass through height in mas_wr_spanning_store
-242832496c1c1f521f5f7980d7afe48fb8fa67a8 maple_tree: move maple_subtree_state from mas_wr_spanning_store to mas_wr_spanning_rebalance
-0a622892c3e60f40cd72a92867d6adc237eff7c3 maple_tree: correct right ma_wr_state end pivot in mas_wr_spanning_store()
-9e5c8d7b2d1674ab15e9e2a0a5d46ca0eba83fdc maple_tree: introduce maple_copy node and use it in mas_spanning_rebalance()
-03eed5e11afed908924509a1046e8dac31bc01ff maple_tree: testing update for spanning store
-0686410e2b66fe85aa2cc111a2644d75664301b8 maple_tree: inline mas_spanning_rebalance_loop() into mas_wr_spanning_rebalance()
-7d702f3f7cdf74c4e8f5c57dc35c34b2d9e23fbb maple_tree: change initial big node setup in mas_wr_spanning_rebalance()
-980f5c494fc0fdeb07edbe984a96bbf6e09ab83e maple_tree: introduce ma_leaf_max_gap()
-e2b91bebe77526c8709d48dff2d8da5a820578ee maple_tree: add gap support, slot and pivot sizes for maple copy
-aa8a6714808aaa5bc38a5408867999c3e07584a3 maple_tree: start using maple copy node for destination
-f776deea5765f40d5cf81969550dc6732231fd45 maple_tree-start-using-maple-copy-node-for-destination-checkpatch-fixes
-1dafea3c7c1841dc78ecbde4ed2ca5b09a598ab8 maple_tree: inline mas_wr_spanning_rebalance()
-181d01d3ac313a5b80fe63e1e6b3a9d064a27f5d maple_tree: remove unnecessary return statements
-fda95406848c1348d4cfb6c33a79c39a006f002d maple_tree: separate wr_split_store and wr_rebalance store type code path
-44e71a9e5703c31416b84d8743c25259580b8c21 maple_tree: add cp_is_new_root() helper
-c8a4ca25e2adbb01c42b5b778ef5fcfb085fe9a1 maple_tree-add-cp_is_new_root-helper-fix
-7fe13de263e7c499ecd588d688f659d4bb7424a5 maple_tree-add-cp_is_new_root-helper-fix-fix
-1ade66a2d70d9d852e5bd4c4a8c8f3cc7bcee5f7 maple_tree: use maple copy node for mas_wr_rebalance() operation
-e0471c7efb13edec44b9eb9e437e50b1358bc815 maple_tree: add test for rebalance calculation off-by-one
-cc183edd1558871f521a44d20eecb0b1626b500f maple_tree: add copy_tree_location() helper
-ca83929555c18a40648047d52e83b519863f37e6 maple_tree: add cp_converged() helper
-4a85bd3cd2fae3242581eafbc5318148bc89b786 maple_tree: use maple copy node for mas_wr_split()
-bc2855740a69047d468a2fec48edf01b7b080421 maple_tree: remove maple big node and subtree structs
-409d23aedffa3411cc79de623346f813be0cb9c4 maple_tree: pass maple copy node to mas_wmb_replace()
-fdceba18633bbcacd3d81592180b640cec1deb21 maple_tree: don't pass end to mas_wr_append()
-b0275e84c8aea884014ede7a0c4e85513fc57675 maple_tree: clean up mas_wr_node_store()
-f138bda353610b612922194bd9dde5ba5f4f1aa3 maple_tree: update mas_next[_range] docs
-db3ae1dfd359a53b400854943b9496435f01a023 memfd: export memfd_{add,get}_seals()
-ec4967c2db1400f95b3ffc54a28c5530c2f70560 mm: memfd_luo: preserve file seals
-7235a985b8126d891dbd4e7f20546ff3002b6363 mm/page_alloc: avoid overcounting bulk alloc in watermark check
-6c1e7e622a2fc16331196025045731e1b01e54a4 arm64: mm: fix pass user prot to ioremap_prot in generic_access_phys
-1737b521f42fcd0a053eca195c5c5580bb4df78d mm/fadvise: validate offset in generic_fadvise
-89a88e60cc0eca24064dacc8ae79763645bffd4d mm: numa_memblks: identify the accurate NUMA ID of CFMW
-051667a04f8a6949c9502e1cae4f4d021abfb006 mm/damon/ops-common: remove redudnant mmu notifier call in pmdp mkold
-8c9780c0b256f335955a493f1c8daf38bf40d6ee mm/shrinker: fix refcount leak in shrink_slab_memcg()
-e35277d481b500c8c26a486b45fcd957b99fd217 mm/huge_memory: fix early failure try_to_migrate() when split huge pmd for shared thp
-a1a876489abcc1e75b03bd3b2f6739ceeaaec8c5 fs: hugetlb: simplify remove_inode_hugepages() return type
 
---===============7588189097797535984==--
+--===============0161890761426192561==--
