@@ -1,21 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mtd/linux
-Date: Fri, 06 Feb 2026 13:38:10 -0000
-Message-Id: <177038509017.3684687.776231767512192128@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
+Date: Fri, 06 Feb 2026 13:46:26 -0000
+Message-Id: <177038558607.3692288.12834923622912133462@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mtd/linux
-user: mraynal
+repo: pub/scm/linux/kernel/git/tiwai/sound
+user: tiwai
 changes:
-  - ref: refs/heads/nand/next
-    old: 0f8a217670b6e3c28afff5cdf5985190633f62e1
-    new: e82269e7cb93a2d33368418be4ee56015b4adc27
+  - ref: refs/heads/for-next
+    old: e3474301824926ecce1d45f2ede7ecdda9a35840
+    new: ee1afacc356c84bba4b89e0655ffdcfa84d4f714
     log: |
-         89b831ebdaca0df4ca3b226f7e7a1d1db1629060 mtd: rawnand: pl353: Fix software ECC support
-         1e06dbfdfb851170b243d6498e442b449324c664 mtd: rawnand: pl353: Add message about ECC mode
-         e82269e7cb93a2d33368418be4ee56015b4adc27 mtd: spinand: fix NULL pointer dereference in spinand_support_vendor_ops()
+         ee1afacc356c84bba4b89e0655ffdcfa84d4f714 ALSA: oss: delete self assignment
+         
+  - ref: refs/heads/master
+    old: 345d081803f003256553aaccd1597866fee4bbb9
+    new: 7372bf6e58cba1a281e7be8e95f3e657465aa8de
+    log: |
+         ee1afacc356c84bba4b89e0655ffdcfa84d4f714 ALSA: oss: delete self assignment
+         7372bf6e58cba1a281e7be8e95f3e657465aa8de Merge branch 'for-next'
          
