@@ -1,26 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Fri, 06 Feb 2026 15:18:16 -0000
-Message-Id: <177039109649.3768296.10963161569397856813@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/alarsson/linux-sparc
+Date: Fri, 06 Feb 2026 15:19:16 -0000
+Message-Id: <177039115666.3769107.7482143729040473931@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/acme/linux
-user: acme
+repo: pub/scm/linux/kernel/git/alarsson/linux-sparc
+user: alarsson
 changes:
-  - ref: refs/heads/tmp.perf-tools-next
-    old: 84cb36da81413c2dff805150b9f4db1524460269
-    new: e5e66adfe45a6480d96b4e40edc05883915f44b2
+  - ref: refs/heads/for-next
+    old: d2da7ee74f842389431b0ab97fe73962e2dcb4be
+    new: d844152d85cfcc7d2ef9430a25882604c12da279
     log: |
-         a108a6a4b9e8d81f6be0c0f8b93d3fbd57d2359e perf record: Make logs more readable for event open failures
-         1d9622c3c1c12e317b0d3a16a26ea17090435d61 perf tests: Additional 'perf stat' tests
-         f637bb2eedc01aa533f2b1e57b6abd8ca864fea8 perf tests: build-test coverage for NO_JEVENTS=1
-         cee275edcdb1acfdc8270f80e96f30750b633220 perf metricgroup: Don't early exit if no CPUID table exists
-         c2e28ae2946f473d6c340ebbeac0cf87be46d582 perf regs: Fix abort for "-I" or "--user-regs" options
-         e716e69cf67bb45c49653b884f88d8e97f454f50 perf arch: Update arch headers to use relative UAPI paths
-         16dccbb84203196dab2e578b27c3c8f549ebff66 perf regs: Remove __weak attributive arch__xxx_reg_mask() functions
-         e5e66adfe45a6480d96b4e40edc05883915f44b2 perf regs: Remove __weak attributive arch_sdt_arg_parse_op() function
+         e38eba3b77878ada327a572a41596a3b0b44e522 sparc: Synchronize user stack on fork and clone
+         2153b2e8917b73e9e7fae8963f03b8e60bd8f5ff sparc: Add architecture support for clone3
+         674fb053e95d63b4810142c3a2fa357353014d29 sparc: vio: Replace snprintf with strscpy in vio_create_one
+         be0bccffcde3308150d2a90e55fc10e249098909 sparc: don't reference obsolete termio struct for TC* constants
+         9796ba918e58f170df5cff337be316a2f7cf1e58 sparc64: fix unused variable warning
+         d844152d85cfcc7d2ef9430a25882604c12da279 sparc: remove unused variable strtab
          
