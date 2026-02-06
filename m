@@ -1,59 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============4036200942348737910=="
+Content-Type: multipart/mixed; boundary="===============2690079856540917832=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
-Date: Fri, 06 Feb 2026 15:45:47 -0000
-Message-Id: <177039274730.3836003.11984246489931041252@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Fri, 06 Feb 2026 15:47:35 -0000
+Message-Id: <177039285523.3850160.16317982036554799393@gitolite.kernel.org>
 
---===============4036200942348737910==
+--===============2690079856540917832==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kdave/linux
-user: kdave
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
   - ref: refs/heads/master
-    old: 06bc4e26310f9f2c0dd2fbf4885483306c5235cb
-    new: b7ff7151e653aa296ab6c5495b2c1ab7c21eb250
-    log: revlist-06bc4e26310f-b7ff7151e653.txt
+    old: 0830cfc9c0afecf52968aefc8da58df733a40614
+    new: f3cf1e58824fb7202166a8c2fdafe547784898fe
+    log: |
+         f3cf1e58824fb7202166a8c2fdafe547784898fe Linux 6.1.162
+         
 
---===============4036200942348737910==
+--===============2690079856540917832==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-06bc4e26310f-b7ff7151e653.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-830e0bef79aaaea8b1ef426b8032e70c63a58653 hwmon: (dell-smm) Add Dell G15 5510 to fan control whitelist
-615901b57b7ef8eb655f71358f7e956e42bcd16b hwmon: (acpi_power_meter) Fix deadlocks related to acpi_power_meter_notify()
-6c65db809796717f0a96cf22f80405dbc1a31a4b Revert "drm/nouveau/disp: Set drm_mode_config_funcs.atomic_(check|commit)"
-78f1421dc3ac2588fb59b55e2b4c2c55a442913e Revert "drm/gma500: use drm_crtc_vblank_crtc()"
-f5c092787c48296633c2dd7240752f88fa9710fc hwmon: (gpio-fan) Fix set_rpm() return value
-52fb36a5f9c15285b7d67c0ff87dc17b3206b5df hwmon: (gpio-fan) Allow to stop FANs when CONFIG_PM is disabled
-1478a34470bf4755465d29b348b24a610bccc180 drm/amd: Set minimum version for set_hw_resource_1 on gfx11 to 0x52
-243b467dea1735fed904c2e54d248a46fa417a2d Revert "drm/amd: Check if ASPM is enabled from PCIe subsystem"
-8f959d37c1f2efec6dac55915ee82302e98101fb drm/amd/display: fix wrong color value mapping on MCM shaper LUT
-d25b32aa829a3ed5570138e541a71fb7805faec3 drm/amd/display: extend delta clamping logic to CM3 LUT helper
-84962445cd8a83dc5bed4c8ad5bbb2c1cdb249a0 drm/amd/display: remove assert around dpp_base replacement
-6b61a54e684006ca0d92d684a1d3c3a00f077d8f drm/amdgpu: Fix double deletion of validate_list
-90caca3b7264cc3e92e347b2004fff4e386fc26e nouveau/gsp: use rpc sequence numbers properly.
-8f8a4dce64013737701d13565cf6107f42b725ea nouveau: add a third state to the fini handler.
-8302d0afeaec0bc57d951dd085e0cffe997d4d18 nouveau/gsp: fix suspend/resume regression on r570 firmware
-0e0c8f4d16de92520623aa1ea485cadbf64e6929 drm/mgag200: fix mgag200_bmc_stop_scanout()
-7ee9b3e091c63da71e15c72003f1f07e467f5158 drm/xe/query: Fix topology query pointer advance
-e022c16965b8345af3c384c9136c7ca541a25f72 drm/xe: Fix kerneldoc for xe_migrate_exec_queue
-51db5eef2ce39311cee2919623cda2ac0fc13c02 drm/xe: Fix kerneldoc for xe_gt_tlb_inval_init_early
-16264a3b594282a7f25028745158bc59a9cf7f96 drm/xe: Fix kerneldoc for xe_tlb_inval_job_alloc_dep
-bb36170d959fad7f663f91eb9c32a84dd86bef2b drm/xe/pm: Disable D3Cold for BMG only on specific platforms
-831a2b27914cc880130ffe8fb8d1e65a5324d07f hwmon: (occ) Mark occ_init_attribute() as __printf
-40b24d9cdd4141ef43eeaa7e57c3efc07a567473 drm/bridge: imx8mp-hdmi-pai: enable PM runtime
-4cb1b327135dddf3d0ec2544ea36ed05ba2252bc drm/xe/guc: Fix CFI violation in debugfs access.
-4e3b2f0db48ebc277855dace4b4b746f166fecb3 Merge tag 'drm-misc-fixes-2026-02-05' of https://gitlab.freedesktop.org/drm/misc/kernel into drm-fixes
-cb8455cbf343791eea3c9fa142807a99c186b323 Merge tag 'drm-xe-fixes-2026-02-05' of https://gitlab.freedesktop.org/drm/xe/kernel into drm-fixes
-7ef92d2ecef7486d46eda0f911dc53b873fdf567 Merge tag 'amd-drm-fixes-6.19-2026-02-05' of https://gitlab.freedesktop.org/agd5f/linux into drm-fixes
-8185461e531c39d67aa4705d7f94873feb87adfd Merge tag 'drm-fixes-2026-02-06' of https://gitlab.freedesktop.org/drm/kernel
-b7ff7151e653aa296ab6c5495b2c1ab7c21eb250 Merge tag 'hwmon-for-v6.19-final' of git://git.kernel.org/pub/scm/linux/kernel/git/groeck/linux-staging
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1770392853 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1770392853-724452060326305a6daf837ddfffd1c26c5e7e02
 
---===============4036200942348737910==--
+0830cfc9c0afecf52968aefc8da58df733a40614 f3cf1e58824fb7202166a8c2fdafe547784898fe refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmmGDRYbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+piwP/0xg+x387N9rPmuOzlvY
+PTKCHagfxT50m6I/ycJ3Sa6p0fU9i6GGJb3tf+djfrXWlseGd8wgSItuyDSoVsIf
+NHZXDJ/ImYdaQfWFAaxFZ4iw+4JryUEmKZRtaqoVddKEswUeL62aHAI1N7GhxXcP
+3aIwaqD0Itl+9ksWRWZFT/0yLze8NL/YhSiy1SuOyGaygNinQLwtBJuxK25/gdIV
+V+qJwW4CJlHLMIrObOgpQt8nql2pCLL+Q99rkOaZernZ7xEX2HTVya4cm0573qUI
+qEgWF1EPLVqSzTTOjMNjZre2n3dlM9gOuCJvCJT2zY9o5gw1MIG6DRlwsFEhlB1e
+r/44OJHIGh9BsIxvcjF6NUJf6HYbM4dP/rUWaSaWljewnLWa3q6yZVf076mg3bnK
+3lQy0+yyrmp/QIykLEMK/D/7CT2YVe1HH+bCLKYqP+7OzEPZd4qUgQ7ocERFURxH
+aEGpafgAvFVi16/TcHkFF7VOogyWwmkGQBiKSm1s6lHX36eDD3Da1T9/3niQhaqi
+t4SCLBbRSVrKLHEOWqtUlU/wdIs69m1lf/lTkVzZeaACSGg5PDI3zwVsZh127dy3
+JwKn3zRT+V9DRK1ZbkYQUQ2vF7FB9RRhvg5KML4/X4I1ksr6ZeykgXtxoNaDCcno
+7SRMgp/ogoOlbHjRxwzNj7Sr
+=y3vR
+-----END PGP SIGNATURE-----
+
+--===============2690079856540917832==--
