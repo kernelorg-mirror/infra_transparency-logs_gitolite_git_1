@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1395248565849022021=="
+Content-Type: multipart/mixed; boundary="===============8292748801709043411=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Sat, 07 Feb 2026 13:46:18 -0000
-Message-Id: <177047197821.959363.11409091468473014161@gitolite.kernel.org>
+Date: Sat, 07 Feb 2026 14:11:27 -0000
+Message-Id: <177047348730.978115.10789410153927901432@gitolite.kernel.org>
 
---===============1395248565849022021==
+--===============8292748801709043411==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,47 +17,40 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/staging-testing
-    old: ab67d4c6d5d33f408df9a43d0fa94f54a32995a8
-    new: 11c6c251fa9fa78c834c864639b42a53a8b2064e
+    old: 11c6c251fa9fa78c834c864639b42a53a8b2064e
+    new: 319e3ff5ed7bc16a9932423159b1665418a1a9a0
     log: |
-         5ed9ef2703adafbbc02258de76c07fa604a354de staging: rtl8723bs: introduce kmemdup() where applicable
-         9577f3b3332b499202ce533cb0e25e2ea58abc9e staging: rtl8723bs: replace rtw_malloc() with kmalloc()
-         980cd426a25747daf8ed25e2a1904b2d26ffbb3d staging: rtl8723bs: replace rtw_zmalloc() with kzalloc()
-         9fe6f146a3b24e0c8232f817f19d364084d24745 staging: rtl8723bs: use standard skb allocation APIs
-         0dced5c061bb9064e6ead08d75ac7ad6ce95e885 staging: rtl8723bs: remove unused allocation wrapper functions
-         a20463de5166e6d1b66150c7702f3557a0bc71d4 staging: rtl8723bs: remove stale TODO item regarding %pM
-         bad0520ee2b755769a06f439d590882e4adf24da staging: rtl8723bs: remove unnecessary blank lines in rtw_io.c
-         11c6c251fa9fa78c834c864639b42a53a8b2064e staging: rtl8723bs: rename CamelCase function Set_MSR to set_msr
+         319e3ff5ed7bc16a9932423159b1665418a1a9a0 staging: rtl8723bs: refactor ODM_SetIQCbyRFpath to reduce duplication
          
 
---===============1395248565849022021==
+--===============8292748801709043411==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1770471961 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1770473483 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1770471960-33ec3672fbe05624cb083b7571da76df83040413
+nonce 1770473482-588f773942638d23abef01f9ad7041d84d8fe4ec
 
-ab67d4c6d5d33f408df9a43d0fa94f54a32995a8 11c6c251fa9fa78c834c864639b42a53a8b2064e refs/heads/staging-testing
+11c6c251fa9fa78c834c864639b42a53a8b2064e 319e3ff5ed7bc16a9932423159b1665418a1a9a0 refs/heads/staging-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmmHQhkbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+9SsQAI2zKQWvYzhDJ0IFJw7b
-sT1WvOFF0yCVlESNSMyZPDk1TgXfZIXywT7lfCFoREgPAjHF62nc1yWF/R7Q3H0w
-bBPVRunMJ9wgX8M4JXzzqJqnPj4MMhv2/rvvHeImOBE0kGBquureTzwSBxMkDl+z
-S9NsTurgCCYo6jAcs+/bEaY5+czd1LIwC0UJlICm/17nXZY/Bqa7R0q+31ZQukSW
-tFnSk30MQUsyI4tnVjPUah7/v5UOwSdKgtzyF5vwkSjZqmW7QG3ZPeKa0DBUBVLZ
-wd7LBoc8PKj1x7tqC7CZLwlTNM94XpU11QIhQaFXjEUmWEemIdzFXWOkrpo/JTGH
-/QiGm50qWf4fATG8+IXiwx3aKtG9/I88tYZx30tIXWc9SqhG7Vj0PdF1TkQDFt1Q
-1N8df55XqCLfdZrpbFP2IcBgZDn6+9wvJVOJuemAp8cHt+D3svaQULH1KdVeVaTp
-goRFw5PjFMmuaWBNRIClK9CBTt+LyWx0eURWFz1j2otsEKMn3mjo5u6H23Rh2eGj
-StWl7pz0QYpRA1Xxp8JOPJ1huXovWGI71QLKpA21msVg6nXINRezb1byVrhQtmu7
-ANlFnUxKPt+ul+NCo6Xv0UhjdpB1AUkXrTvMN/SXqZS5Rj05GztWU4gejSBsVl9f
-//r7/x/Ap4ohyjG/P1q4Fi86
-=gh7o
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmmHSAsbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+ZL8QALMzq5PtUdhmMN7VqiBh
+3UJGqff2HYZbGa1kWyLzIpxihFJJaC1PadpPu3yKio9CVqPwu88XHTdYHNQ1qDDs
+UrjVy5sk1HbiYEtuv2LdrP6zHxH7idnf1vSlKIaPVCLO22BU32DDAchVySrG7zPI
+EpMQJs2n1vUVvQgoKPBsCp33Rbl2olqY6VDWbLokJvPIb/c+S+ISaY5rZQqWzYg7
+x7dDVNaFPTBbDoaObgOadQL9Ln29xhnblaN1DrLgWE7JRFd6OxAPkJV89iAvRthP
+kx+o4g0yzT+ahuCsbaDXw6HknQrHSlt+MpsLBaXSbUPCZjOYU2ZCI+UrHpzmC3fb
+XSZwUO/Ow1PgIY0IA5t/5OBH9465M2wbLRS8RAtPOZaRgQmgqFCHc1tzeZ9WsJmX
+BWZTgKPg+GFrXP8VfNTi76w8VVMdQ5D5kSQc26dkaIk10ovLy9F3n1khtNT4RPmT
+kB9B6SjHeHVwNhmp9la2PeugyLgmALR3JwAr4xBSJfHoKkr66Xrem2abxsySrpGd
+88gImfMTPknn4pBhLwXmOfrolrXt1zLmBkpG3ZZgiCuVt0biix0Be8al7xRTA30q
+YlzFDN0OedqXkE30UIHJbLKtj0INFSfVzTdrrCNrlfbCbDEbNQLWbpe2WXLWA2FT
+WDc278ekcR/mFVTVhxDu34A2
+=a6h3
 -----END PGP SIGNATURE-----
 
---===============1395248565849022021==--
+--===============8292748801709043411==--
