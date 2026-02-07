@@ -1,56 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============8292748801709043411=="
+Content-Type: multipart/mixed; boundary="===============5161622961921448671=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Sat, 07 Feb 2026 14:11:27 -0000
-Message-Id: <177047348730.978115.10789410153927901432@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Sat, 07 Feb 2026 14:36:30 -0000
+Message-Id: <177047499045.997511.1560385308010999447@gitolite.kernel.org>
 
---===============8292748801709043411==
+--===============5161622961921448671==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/staging
+repo: pub/scm/linux/kernel/git/stable/stable-queue
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/staging-testing
-    old: 11c6c251fa9fa78c834c864639b42a53a8b2064e
-    new: 319e3ff5ed7bc16a9932423159b1665418a1a9a0
+  - ref: refs/heads/master
+    old: 691be1846e5dae9cd4355c6619c0dfaceabd61ef
+    new: dbebbad2111b5afee3852e13497667cdc26ef9ae
     log: |
-         319e3ff5ed7bc16a9932423159b1665418a1a9a0 staging: rtl8723bs: refactor ODM_SetIQCbyRFpath to reduce duplication
+         dbebbad2111b5afee3852e13497667cdc26ef9ae 5.15-stable patches
          
 
---===============8292748801709043411==
+--===============5161622961921448671==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1770473483 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1770473482-588f773942638d23abef01f9ad7041d84d8fe4ec
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1770474988 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1770474986-f8160e820ad4f38c7f2c5f20620c86f6966a4128
 
-11c6c251fa9fa78c834c864639b42a53a8b2064e 319e3ff5ed7bc16a9932423159b1665418a1a9a0 refs/heads/staging-testing
+691be1846e5dae9cd4355c6619c0dfaceabd61ef dbebbad2111b5afee3852e13497667cdc26ef9ae refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmmHSAsbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+ZL8QALMzq5PtUdhmMN7VqiBh
-3UJGqff2HYZbGa1kWyLzIpxihFJJaC1PadpPu3yKio9CVqPwu88XHTdYHNQ1qDDs
-UrjVy5sk1HbiYEtuv2LdrP6zHxH7idnf1vSlKIaPVCLO22BU32DDAchVySrG7zPI
-EpMQJs2n1vUVvQgoKPBsCp33Rbl2olqY6VDWbLokJvPIb/c+S+ISaY5rZQqWzYg7
-x7dDVNaFPTBbDoaObgOadQL9Ln29xhnblaN1DrLgWE7JRFd6OxAPkJV89iAvRthP
-kx+o4g0yzT+ahuCsbaDXw6HknQrHSlt+MpsLBaXSbUPCZjOYU2ZCI+UrHpzmC3fb
-XSZwUO/Ow1PgIY0IA5t/5OBH9465M2wbLRS8RAtPOZaRgQmgqFCHc1tzeZ9WsJmX
-BWZTgKPg+GFrXP8VfNTi76w8VVMdQ5D5kSQc26dkaIk10ovLy9F3n1khtNT4RPmT
-kB9B6SjHeHVwNhmp9la2PeugyLgmALR3JwAr4xBSJfHoKkr66Xrem2abxsySrpGd
-88gImfMTPknn4pBhLwXmOfrolrXt1zLmBkpG3ZZgiCuVt0biix0Be8al7xRTA30q
-YlzFDN0OedqXkE30UIHJbLKtj0INFSfVzTdrrCNrlfbCbDEbNQLWbpe2WXLWA2FT
-WDc278ekcR/mFVTVhxDu34A2
-=a6h3
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmmHTewbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+M3sQAKsTisE5WMaVo3rT0n9f
+FuP666WTIB0W4EZ9PP4z63SW7cFkCniCCNFvzIPPzhK1dT2UsdFCToH/shfyqym6
+ChCdXDzyQQ6zKXxoMpsyZmlTqpTwToeKI5KP2JhY60V8OhMgYxUXkdCtxQ1PgzJ5
+mhOlO6nxoSgYguucEO6w+3+vaxa2tAQVQ1jBC7JRy5CuGL9YGcU6NIyXOscIYGOd
+uFNNKj6yQsoeZrp5TVPQWyYj9sqAJ1wAoXywcqmVyKH4VAtQI1qp/7M/2M7mct+t
+r38eREub+Ruz5FFv9a7TppXgLmqQebOEZZ9NFuq5wpFiG9t7p9ewf5oZBoOtewG7
+QSFtswbwfupdKAmeJi4Y/5TDqjI0MtGvoFGHhAp/tX3UoY8eHWqARtdcORb8VaOR
+lQvu/xSK9jew0LCd4QtMIuEC7L8LzBC2Ut6ngLTddTb8/k8FFAxRjYNRKh8g6Izy
+boBIFlJbN0zL9Ws7WKSezN3QDJjXS8FoTvQmRNikTA9TKTv7m+HgClx7mBUU0oVQ
+rL2wMCVy3e0wA6tXuKGvBJyj+ayUa5kqI6GdJROC7Vy9S8W5Cr2+h5zlZZNtURC7
+w3eh46CfAAlNX3pdGKgWEzwKYhB8ULf9+vZcq5wQI02fgNOneBKzBP03l73dkStM
+dXjUKTP1CRuBF09dqfYWJeqO
+=c2BJ
 -----END PGP SIGNATURE-----
 
---===============8292748801709043411==--
+--===============5161622961921448671==--
