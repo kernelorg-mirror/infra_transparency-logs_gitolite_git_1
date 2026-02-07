@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Sat, 07 Feb 2026 10:07:55 -0000
-Message-Id: <177045887506.791075.16795036235272954161@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mic/linux
+Date: Sat, 07 Feb 2026 10:16:05 -0000
+Message-Id: <177045936577.798573.3994086894554036866@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: mingo
+repo: pub/scm/linux/kernel/git/mic/linux
+user: mic
 changes:
-  - ref: refs/tags/sched-urgent-2026-02-07
-    old: 0000000000000000000000000000000000000000
-    new: a5795b4f9efc87de1f85aeeaabb7e5c01d2594cb
+  - ref: refs/heads/next
+    old: 3678c650c9725baa68b64897814e5bb6e149fd49
+    new: a89abf299d7d1cc7c79a316240a6594d9ddf4066
+    log: |
+         a89abf299d7d1cc7c79a316240a6594d9ddf4066 landlock: Transpose the layer masks data structure
+         
