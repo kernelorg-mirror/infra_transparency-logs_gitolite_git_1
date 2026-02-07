@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4669778605397645572=="
+Content-Type: multipart/mixed; boundary="===============8662844382469209734=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Sat, 07 Feb 2026 17:58:23 -0000
-Message-Id: <177048710370.1164207.6706839157885265686@gitolite.kernel.org>
+Date: Sat, 07 Feb 2026 17:58:52 -0000
+Message-Id: <177048713202.1164555.13599143442663351482@gitolite.kernel.org>
 
---===============4669778605397645572==
+--===============8662844382469209734==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,15 +16,52 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: 45a7d33aaa8a1bfb6f04bfefff96e9f881566144
-    new: 09e6b1f628ed56390e2eba74b04bcfa5dc0b440c
-    log: revlist-45a7d33aaa8a-09e6b1f628ed.txt
+    old: 09e6b1f628ed56390e2eba74b04bcfa5dc0b440c
+    new: 8a3386b477974d183edb83341f2c8c7265f825ce
+    log: revlist-09e6b1f628ed-8a3386b47797.txt
+  - ref: refs/heads/tip/urgent
+    old: 577443d0b8a119c3caba7c0be8ddc69387e07462
+    new: e7aa57247700733e52a8e2e4dee6a52c2a76de02
+    log: revlist-577443d0b8a1-e7aa57247700.txt
 
---===============4669778605397645572==
+--===============8662844382469209734==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-45a7d33aaa8a-09e6b1f628ed.txt
+Content-Disposition: attachment; filename=revlist-09e6b1f628ed-8a3386b47797.txt
+
+632b6c4e489d9b78b0de754180926ff40f03edf1 Merge branch into tip/master: 'core/entry'
+186d8f05f55f3b07a79c1a9740fae8eae500779c Merge branch into tip/master: 'irq/cleanups'
+d96af2f8fe49acaacf1e7026faa4c49a40013a36 Merge branch into tip/master: 'irq/core'
+958f9754d10cad2f05edecc211b085977ce5f83b Merge branch into tip/master: 'irq/drivers'
+b3a0028632225fcf504a5c1a6e75ba86fccdc20f Merge branch into tip/master: 'irq/msi'
+979cb42718fcfa3795807f2d20594119871a1c11 Merge branch into tip/master: 'locking/core'
+909ac138fbf31d9f46fe622f63798c932b8ceb97 Merge branch into tip/master: 'locking/futex'
+9e0dc42562d03266412f3e871f0d5df9058f190c Merge branch into tip/master: 'perf/core'
+f2cb43da10a2839612aa7f51bec79c3c2afc664e Merge branch into tip/master: 'sched/core'
+5b3cbae892ed5830d11cf0cf371e449c88895948 Merge branch into tip/master: 'timers/clocksource'
+27aa587aaad0079dcd4fc9f9c928708ed09071bb Merge branch into tip/master: 'timers/core'
+6c0c864c7d3d2d13e5ba2847d26784ecea75ccdc Merge branch into tip/master: 'timers/vdso'
+1baf884a4635d35bec1559522207cd1cf8a7074b Merge branch into tip/master: 'x86/alternatives'
+e085318ad5a36d5f4f3662d8ea85c4baf77dcf40 Merge branch into tip/master: 'x86/apic'
+b253d3eee43501b6422350412e9093fb0e108521 Merge branch into tip/master: 'x86/boot'
+96a40f50d86f6688a4876c124ec4971eaca2e2e0 Merge branch into tip/master: 'x86/bugs'
+9a5f03227fce9900a64f37625c39f8df7e286e23 Merge branch into tip/master: 'x86/cache'
+42815a220fe10895f87e97c0f86628da1bea0e7d Merge branch into tip/master: 'x86/cleanups'
+1933e1fc301d5aef6d895304bf654042fd2346a6 Merge branch into tip/master: 'x86/cpu'
+f7057afbcaf238a03308d732bf68779f5f8017b0 Merge branch into tip/master: 'x86/entry'
+a60e818dbcc506a9aecbc987a420a7f745b71196 Merge branch into tip/master: 'x86/irq'
+189bc138e388141d7839a2f15df93dbcc2373d33 Merge branch into tip/master: 'x86/microcode'
+d00fa2ea10759513b65daf032df5e03475f32142 Merge branch into tip/master: 'x86/misc'
+1fb06217214f311425a5e73dc55e7486399b65f6 Merge branch into tip/master: 'x86/paravirt'
+e0f060f32f975ca684cc278f3593b97baf028557 Merge branch into tip/master: 'x86/platform'
+8a3386b477974d183edb83341f2c8c7265f825ce Merge branch into tip/master: 'x86/sev'
+
+--===============8662844382469209734==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-577443d0b8a1-e7aa57247700.txt
 
 41399c5d476156635c9a58de870d39318e22fa09 regulator: spacemit-p1: Fix n_voltages for BUCK and LDO regulators
 8f589c9c3be539d6c2b393c82940c3783831082f rust_binder: correctly handle FDA objects of length zero
@@ -46,6 +83,5 @@ dda5df9823630a26ed24ca9150b33a7f56ba4546 Merge tag 'sched-urgent-2026-02-07' of 
 b0e7d3f88e563b5ca793fca23c7d7fa1352c1079 Merge tag 'char-misc-6.19-final' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/char-misc
 142fdd7bb7095c114d027b1ee36878a67b869228 Merge tag 'regulator-fix-v6.19-rc8' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/regulator
 e7aa57247700733e52a8e2e4dee6a52c2a76de02 Merge tag 'spi-fix-v6.19-rc8' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/spi
-09e6b1f628ed56390e2eba74b04bcfa5dc0b440c Merge branch 'linus'
 
---===============4669778605397645572==--
+--===============8662844382469209734==--
