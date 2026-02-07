@@ -1,28 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/thomas.weissschuh/linux
-Date: Sat, 07 Feb 2026 15:40:13 -0000
-Message-Id: <177047881347.1055450.16161218029705507385@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============2254446584029684116=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Sat, 07 Feb 2026 15:42:51 -0000
+Message-Id: <177047897144.1056656.17029407251145984237@gitolite.kernel.org>
+
+--===============2254446584029684116==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/thomas.weissschuh/linux
-user: thomas.weissschuh
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/b4/kbuild-uapi-libc
-    old: 9f2ce252d5f1b625e013269265f25f86540cbdf3
-    new: 1a0680ed5fe52674763444fdc8a924b3a3cd91fd
+  - ref: refs/heads/master
+    old: 74eb8a81ec93208ea7c8cfeee3270afddd66c636
+    new: ececfc220346028b04910fee91737d97e31794ff
     log: |
-         da1aa55244638a9527de888a1d6ecef7d0409e59 hexagon: uapi: Fix structure alignment attribute
-         6a5ed87110878886cfde2f07f4c3d05383c9a5e5 kbuild: uapi: test linux/bpf_perf_event.h on powerpc
-         623237802e602c93a85d04b53a7e5085fd45f220 kbuild: uapi: deduplicate linux/bpf_perf_event.h exclusions
-         132a531cc69f97d0ecdffcf162ed859efb708769 kbuild: uapi: completely exclude linux/bpf_perf_event.h on nios2
-         948122e6daa369161285538195f4575304e0be05 kbuild: uapi: only use dummy-include for headers which use libc
-         9fdd6483e8b4b87906bf65a88a0e8fa6886a396c kbuild: uapi: provide stub includes for some libc headers
-         124a3da11ba6862f0e6cb6534d40c4e6cb1174eb kbuild: uapi: use custom stub headers instead of libc ones
-         15338994d863277222a733f5b95d11f6e9d9bb53 kbuild: uapi: simplify libc dependency logic
-         db045c4c55fbbbebbeb66f9f77327169faa218c7 kbuild: uapi: remove now unneeded guard headers
-         1a0680ed5fe52674763444fdc8a924b3a3cd91fd check-uapi
+         ececfc220346028b04910fee91737d97e31794ff 5.10-stable patches
          
+
+--===============2254446584029684116==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1770478970 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1770478969-4c6dc23b14c220f57a11a2b727306575cdd4c0df
+
+74eb8a81ec93208ea7c8cfeee3270afddd66c636 ececfc220346028b04910fee91737d97e31794ff refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmmHXXobHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+tYUQAJFYA2Yg0A3vZ0lfGeIW
+QHYgzwuP0pAl0Ak2wQwY8T1qcD6H5UG0nke0IUuHL4hqbHs5kLl66cIU0Eqvwrbe
+D14DJHQHh7uOBM2j3mKc5u0NZLMLBAFTuUzZmx7xaxXwWVmKBQzkUW7jk1iWHoeR
+1oQxEvhsGU0EqvJdO/NSTbeNwySpf2h2EyNkKNNjVt/ijmU66MmiXYjmUOxsH0pO
+kjlQmThfNdpkTAJV7OkGb5rztAxcDYj3oEZNCm1XdxsSdgE+5KUfuUE6X7IaDUvx
+6tB/I8Ul4nD89aJMXEKj3PbViNo5c/PCvtXHKOt1ziP6hfJGx+aT/hDON/zjDV6g
+xXpdq7yJJBeqOzG9ioSxaJqyKUUZoGL8B5DqA4U5atw36NDLNffERcRq9MuPaUm3
+j7f+w7Lqpthd4Bb6GIS3jOaHGsiDf/E1nr8w8Mx1NzfdBQOa2Be7KkZcmk0SEXp5
+ic8cnllu4T7/US1LVGCdNuisKOVrxKq51pdXMNhUwJRqTXdtE46sd2/UIG8h7ZpL
+8OPdTu7TrWo01e5yupGCzelrqAcKomYWplTdTyn3o8/upLcuU0RpHRUyadq5uUrN
+rxrr9v9eiLJ7lR4Iw8RFwMeZFgwC8fPeUbdmmBSQsEZoS3pcmEO9NDNmUtAtCjrD
+tkArWZNofUUv+fue+nQcgrqJ
+=HQ4Y
+-----END PGP SIGNATURE-----
+
+--===============2254446584029684116==--
