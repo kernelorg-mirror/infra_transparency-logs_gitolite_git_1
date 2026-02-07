@@ -1,59 +1,24 @@
-Content-Type: multipart/mixed; boundary="===============0045050341720053208=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Sat, 07 Feb 2026 13:09:08 -0000
-Message-Id: <177046974815.928904.9792520478977587970@gitolite.kernel.org>
-
---===============0045050341720053208==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
+Date: Sat, 07 Feb 2026 13:09:49 -0000
+Message-Id: <177046978943.929325.15032236922054001790@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/staging
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/jic23/iio
+user: jic23
 changes:
-  - ref: refs/heads/staging-testing
-    old: 7de30d5d76aa614777a02a9807d29ed65b0704a0
-    new: 8ae0398e70d9d64309708471cf7747097a5f755e
+  - ref: refs/heads/fixes-togreg
+    old: 4a2a522823b313f406bc985b761b237a36621cab
+    new: 0f11bb7985ceef2aeeb5c45c3c7bfff3f5a16e03
     log: |
-         01e28097a0a8c79be02d1abe27dfa16138994e2c staging: rtl8723bs: rename u1bTmp to val
-         908c03bf95eb8977afd4fdf5a5338fd1077968e4 staging: rtl8723bs: fix spacing around operators
-         3db124820614e0ce66def7dc86458fc70330be69 staging: rtl8723bs: modernize hex output in rtw_report_sec_ie
-         8ae0398e70d9d64309708471cf7747097a5f755e staging: rtl8723bs: remove dead debugging code in rtw_mlme_ext.c
+         a5ef1823d9c60a9fb8b23c41371a5f0d5704e7a0 iio: frequency: adf4377: Fix duplicated soft reset mask
+         0016ce49f70177d57d61f38b3df71f96a5f98f9d iio: imu: inv-mpu9150: fix irq ack preventing irq storms
+         d0b4e533f12ccc9d56757ed6ff18b4af7ff67e6c iio: potentiometer: mcp4131: fix double application of wiper shift
+         059c69bc7990694de0658033340f8e68e99c35f8 iio: imu: inv_icm45600: fix INT1 drive bit inverted
+         76f76701c2332f75bab81289ae5f1cb26d6ba3ca iio: dac: ds4424: reject -128 RAW value
+         0f11bb7985ceef2aeeb5c45c3c7bfff3f5a16e03 iio: chemical: bme680: Fix measurement wait duration calculation
          
-
---===============0045050341720053208==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1770469741 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1770469741-921d3487b149b61b181721c15bc532c539fce4c7
-
-7de30d5d76aa614777a02a9807d29ed65b0704a0 8ae0398e70d9d64309708471cf7747097a5f755e refs/heads/staging-testing
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmmHOW0bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+C3wQAI4F45okWPDWgn4kVsbh
-ShCQ+tWDeNrl9k1dVC44T1hmLrFRT1GeFItNeG6meH8mMtXhZZ5PbYUnrN9/ebeE
-rmWpYj7Mdu0c5MMVb1zE6C+XTBwqPSc0G7YnXtPH+x6fU1Yqz/lcmr8Dz/bhkdv/
-cmDCnPgglVnExTIE6mIH5TAQpo2JJyM0dWl6Z4O6EfbGajbrv5P3JSQMDBDYhmPk
-5qGVKaEsFHtmAd0D+xNTbxa0zbDjePIInmYal7pi7sOJ94G4MZX2obmsZ8MjGhj7
-bjTxxallyErqUZg7SGu9YGTgh8du1nOHqPgBbPXmoBMpqn7nrW7KB+Q28qNuCk3I
-zrCgpXXHIxxpDEyqFp6RheuLStpdmnFuxmKpL6Flz4x7NIagZevlfX3XOMjXfaiu
-1cMY1tX1RKZujfsIEv5uNXGMW8IbT/EZTYpR2OiPcJmPA1P0it9/kstPRlwBJdBP
-jteMJGAmD3U9NuTscgXlG1yw90rBIh5kEFKbfMzmcCkgVZheP/ZkaDrbLcbrO+XN
-ffHcn3fJVdbWjo7zAm3b+gg4IsYb3RRCPPqlxMx0ou+QYqztGUj99AuoUEJsBqYF
-YdY1rJ0MD6hvxX0CbAJ/pJzlFn55UT0KxTLY86UeiDMBmgkE+2a+hciYfFAYFkqE
-6MIMnlYVlnJLKVN87KvoBs5Z
-=J1E/
------END PGP SIGNATURE-----
-
---===============0045050341720053208==--
