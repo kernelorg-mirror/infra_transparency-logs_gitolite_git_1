@@ -1,57 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============3963235240562930239=="
+Content-Type: multipart/mixed; boundary="===============5222800042569835761=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
-Date: Sat, 07 Feb 2026 08:02:48 -0000
-Message-Id: <177045136831.642635.6403513760752714219@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
+Date: Sat, 07 Feb 2026 08:50:41 -0000
+Message-Id: <177045424131.731521.482632920225509697@gitolite.kernel.org>
 
---===============3963235240562930239==
+--===============5222800042569835761==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/linux
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/kdave/linux
+user: kdave
 changes:
   - ref: refs/heads/master
     old: b7ff7151e653aa296ab6c5495b2c1ab7c21eb250
     new: 2687c848e57820651b9f69d30c4710f4219f7dbf
     log: revlist-b7ff7151e653-2687c848e578.txt
 
---===============3963235240562930239==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1770451367 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
-nonce 1770451366-ddebbd3b735b47c5815323eaf8ce30fb141b99d4
-
-b7ff7151e653aa296ab6c5495b2c1ab7c21eb250 2687c848e57820651b9f69d30c4710f4219f7dbf refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmmG8acbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+bwsP/iO7p5mwva7rnCFj19Ew
-I+7Az9Y/U6XODqDsWnrpBI4NMwwOhzkv0IZVPQRYN1lwWDs4vIfQSKEr412h2D/9
-MHpneDjvTtwzR0VTprt8h69y1SzCWWV9oToFoVBlnvTx0YxqiD75Xod2MV8SEbCn
-ov84EEMtbVUNcdbpGqwvGkO4G6j5EpImq+QY6gVOU+17RjZycqaM403CVh2R6+Wl
-2qaB9CqUpy1xVdHFOMd7wDE3Ua1k4lqazQxHTT5xvlMRcAtF8a1zoMlGc7wjCJ5L
-1pv2cn3Jw5MAixnTgFI+hFyT+HRPiHw0ID4+g5+CfLpbx5kEbU65TJwSTjznWBAY
-4hJ1rwT9ohQdOQgzA+twa9gkISj4dixx+hKdOOPRLmHygzvZNhq74b9SleJxGpFX
-VnZQTqtcH3wum6bjUOtLD8anGhJNXkP3sfvCmFsxvvnMZELGhvCp6RYs1p99u54/
-/3TzHqFImRewSO3HDq1OxTvuuOEKLxf6Das+w6hTOT0eZiUPkjoxHRLUmvNz43BJ
-fTUV2MzmApxAAT7kgsYXWnFHk7jU8En7O4Pe3e+Qj0y5NsjYlx4ptu24Hq5h7Xi1
-egwcL8rPH7kntjAu/hprMFVSYHyVVFTSaHll/VvazO+QsVvW62z0EkfcyjnO3cEc
-qKDdJwbto3BkanOTvPaPgLBK
-=Ksax
------END PGP SIGNATURE-----
-
---===============3963235240562930239==
+--===============5222800042569835761==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -101,4 +70,4 @@ bab849a908496a593af61a9832eea26f1ec3e279 Merge tag 'trace-v6.19-rc7' of git://gi
 3dc58c9ce1c5802fec680cb8e95962f1430d5771 Merge tag 'mm-hotfixes-stable-2026-02-06-12-37' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
 2687c848e57820651b9f69d30c4710f4219f7dbf x86/vmware: Fix hypercall clobbers
 
---===============3963235240562930239==--
+--===============5222800042569835761==--
