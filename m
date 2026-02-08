@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Sun, 08 Feb 2026 09:58:05 -0000
-Message-Id: <177054468543.1884252.13831858046357674928@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ojeda/linux
+Date: Sun, 08 Feb 2026 12:05:02 -0000
+Message-Id: <177055230281.1978821.2947894645275051112@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: mingo
+repo: pub/scm/linux/kernel/git/ojeda/linux
+user: ojeda
 changes:
-  - ref: refs/tags/locking-core-2026-02-08
+  - ref: refs/tags/rust-6.20-7.0
     old: 0000000000000000000000000000000000000000
-    new: 458661b768d0edd9242ba518e34b5bece68782ff
+    new: 385b5f05876994dbccf5eb81f7fcf43b5e7cbd13
