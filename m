@@ -1,20 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/fio
-Date: Sun, 08 Feb 2026 15:39:57 -0000
-Message-Id: <177056519733.2145482.4537184401109348654@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
+Date: Sun, 08 Feb 2026 16:38:24 -0000
+Message-Id: <177056870464.2190141.16712165110878978140@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/fio
-user: axboe
+repo: pub/scm/linux/kernel/git/tiwai/sound
+user: tiwai
 changes:
-  - ref: refs/heads/master
-    old: 9387e61b5fcfbce1e4ed29b0cd19890a37ba1766
-    new: 6783ccc569c8e427cb3cfe4e8b37e18fa0601d9f
+  - ref: refs/heads/for-next
+    old: f5183ee97bd67b3dd3cc6fb2fc97f2a6d3e36458
+    new: 3a92733e052753d87fdd56bd6f621f969be28447
     log: |
-         d943089b9484ff3934018250d863c6b32683bba8 Revert "parse: check for NULL input"
-         6783ccc569c8e427cb3cfe4e8b37e18fa0601d9f options: ensure callback handlers handle NULL input
+         3a92733e052753d87fdd56bd6f621f969be28447 ALSA: ctxfi: Add quirk for SE-300PCIE variant (160b:0102)
+         
+  - ref: refs/heads/master
+    old: 26a5b79251d008210621b3d54e4cc69534c9ca45
+    new: 2a8eb807b08d2c2641212a8a6679d3dd74ee357c
+    log: |
+         3a92733e052753d87fdd56bd6f621f969be28447 ALSA: ctxfi: Add quirk for SE-300PCIE variant (160b:0102)
+         2a8eb807b08d2c2641212a8a6679d3dd74ee357c Merge branch 'for-next'
          
