@@ -1,26 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/wsa/linux
-Date: Sun, 08 Feb 2026 17:22:11 -0000
-Message-Id: <177057133109.2224787.9846179241755742601@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Sun, 08 Feb 2026 17:28:25 -0000
+Message-Id: <177057170543.2229084.10178230707553361509@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/wsa/linux
-user: wsa
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
-  - ref: refs/heads/i2c/for-mergewindow
-    old: 8ed5a41afd0ef8db995a4f90668e73075b1cf940
-    new: efdc383d1cc28d45cbf5a23b5ffa997010aaacb4
+  - ref: refs/heads/master
+    old: e7aa57247700733e52a8e2e4dee6a52c2a76de02
+    new: e98f34af61167aee238e666bfbc97d1620afd88a
     log: |
-         efdc383d1cc28d45cbf5a23b5ffa997010aaacb4 i2c: imx-lpi2c: fix SMBus block read NACK after byte count
-         
-  - ref: refs/heads/i2c/for-next
-    old: 10592191e3e2a4d0c15b697acb835ae88b4e017d
-    new: 0f519443d553a71e5ff88eb401375a1e8a602422
-    log: |
-         efdc383d1cc28d45cbf5a23b5ffa997010aaacb4 i2c: imx-lpi2c: fix SMBus block read NACK after byte count
-         0f519443d553a71e5ff88eb401375a1e8a602422 Merge branch 'i2c/for-mergewindow' into i2c/for-next
+         b126097b0327437048bd045a0e4d273dea2910dd i2c: imx: preserve error state in block data length handler
+         e98f34af61167aee238e666bfbc97d1620afd88a Merge tag 'i2c-for-6.19-final' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
          
