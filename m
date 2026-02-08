@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
-Date: Sun, 08 Feb 2026 18:20:09 -0000
-Message-Id: <177057480902.2269489.1716871887175620707@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Sun, 08 Feb 2026 18:29:39 -0000
+Message-Id: <177057537955.2274822.2497798980608982991@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/maz/arm-platforms
-user: maz
+repo: pub/scm/linux/kernel/git/tip/tip
+user: mingo
 changes:
-  - ref: refs/heads/arm64/nmi-WIP
-    old: 4bc7fb6cff9e616eabec921cc577d4098b9b11c1
-    new: db456c513304cc91922c70ee2fb3d63745293977
+  - ref: refs/heads/master
+    old: 8a3386b477974d183edb83341f2c8c7265f825ce
+    new: 4c72940f2457a588e8a400c6cef0d73b8827a864
     log: |
-         db456c513304cc91922c70ee2fb3d63745293977 WIP
+         b126097b0327437048bd045a0e4d273dea2910dd i2c: imx: preserve error state in block data length handler
+         e98f34af61167aee238e666bfbc97d1620afd88a Merge tag 'i2c-for-6.19-final' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
+         4c72940f2457a588e8a400c6cef0d73b8827a864 Merge branch 'linus'
          
