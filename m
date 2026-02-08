@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3515803946885025733=="
+Content-Type: multipart/mixed; boundary="===============1973473252599955714=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Sun, 08 Feb 2026 02:01:51 -0000
-Message-Id: <177051611164.1529121.3990587228789553932@gitolite.kernel.org>
+Date: Sun, 08 Feb 2026 02:01:56 -0000
+Message-Id: <177051611601.1529341.8410729553911199928@gitolite.kernel.org>
 
---===============3515803946885025733==
+--===============1973473252599955714==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,9 +16,9 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-queue
-    old: 8a6afcc16df299d94a7ee389fa301b0904177051
-    new: 3f13428b6f610646d99f956f0f575412759d3352
+  - ref: refs/heads/6.20/scsi-queue
+    old: a48ca06cf343423faa01c573aeafba9fa5f92577
+    new: 1982257570b84dc33753d536dd969fd357a014e9
     log: |
          4d0538dd5d7e21b4615fbc81424b0fae0b12a9fb scsi: ufs: core: Use a host-wide tagset in SDB mode
          1508301d4a47212faec673d63359241146993acf scsi: efct: Use IRQF_ONESHOT and default primary handler
@@ -31,33 +31,33 @@ changes:
          1982257570b84dc33753d536dd969fd357a014e9 scsi: csiostor: Fix dereference of null pointer rn
          
 
---===============3515803946885025733==
+--===============1973473252599955714==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1770516090 -0500
+pusher 75C5DE3D 1770516114 -0500
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1770516090-fa2638eb111d6c0cd26fbe5a4b2846d83068dc49
+nonce 1770516114-b50cb3393baa8dbff0ceca2c01ac8ead3aa60633
 
-8a6afcc16df299d94a7ee389fa301b0904177051 3f13428b6f610646d99f956f0f575412759d3352 refs/tags/mkp-scsi-queue
+a48ca06cf343423faa01c573aeafba9fa5f92577 1982257570b84dc33753d536dd969fd357a014e9 refs/heads/6.20/scsi-queue
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmmH7noACgkQ7ulgGnXF
-3j1b0w//USqX3R0mrtZbE+X2z8efM8K2/oPm0AZaeI+IPIPoT/C9Gftm9P2wT/yp
-LGcYAK4WefRyeqW3ZY7lJIvPceihsysFK4VnvT5i0ljcMilygiwBw4XeMZmQTnIx
-r15lLZ37z5SC+2XtJYgYXqtXUn3lzM79TRopBVejp2LVsO50fPCWWDOuiT7RlmIi
-pH+IQtXHj4sXQZWUp6hfb4kFsOe2Vy5FDCw3fTuWu45eu3JhNi5TVF+NKWDEsmjc
-nW8fLkJA7VTql+EEK36dVUcQ1ot/jxV4a4dgeR8w7MAgTRIh/uJZ5OrS9Zjh5Wv3
-5mDABBXCcNDHJTF+zo/656+pdN0EZxQQth2A5uoWHHUXxpmGvIhJGZIdqdSptjVn
-EyIcThZuePbrW+0C1QQEHBKWvHgDAi9GB54y6un7z+0sKqq1EqTGwWJ/udu6UmXU
-Gl1NLuNbV/36fqbUZAINiRKDgQ1pq4XoiXhSkxHTnTIdsVdG+Yyu5PqKH5hHGOm1
-WiUBLe7GGG+GUPPjTIxItQXIzOow69dgFggc1NfhHH+AnBQEPB2J/Dvs+UzoPcka
-RFlcBlomp7wJ4vbim8SchpQqrwgZ1XHtW66W+bi3qsP6OyVeEaPsO+auV0pPgRmn
-KrZiaA3dQU44oJ2KY2gdCrPkF8+rA09sjEv7oFQcYdEbpe0t5ws=
-=wTTn
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmmH7pIACgkQ7ulgGnXF
+3j0mLg/9H9FQLgqbbCYvIAFM+QZC9Mkp1j9wW8Pak8uZ5o/J0UKcLcdz0HSKup3R
+CvJnvZjODD3zAiTmxxdN3RFGYsEmCpCitZ+8JN0zhAg8ANpHidsbNhofqDzSWZdh
+YuzU7SMagjh6DFiznp/9BUC3pOosXXfSA3AxHsBx1m5B9Urfzt5zT3ZVoTNbDU4E
+vS8XsXd039+/E/kff127h7+BbBbpC3aHhOU7zI7aE+dKwvtWkzvE8ja/FkTN8oUz
+o2Mwz5eqpqxpvoL2vG0QcD/thRm8XQyxm/whgQgCvaXkEsYfkk/N7+i20h/kfzfj
+4I0LR4FyanzWi6TKEEFVJf1g0eaixLW8F6r2cb2J/Nc3l9RCQIWaQGEtIB795tYr
+bswF8HTL0rhwnZLkVQTz/PzzlShbKzhF2YnKlNjrYigkzaSXVetEs6/4y8gFo7Nh
+N0Y7hEM0kSTL2CzSKp/9sTaqx2+fqZBOfaHxbnpI4HZsqeHeGsuT4ASh41Cq3G5S
+GbZWiLoc4RLhtWBlYR49EOToUDJ9OxQ4SaXi1WBWk1dblA00Ah3P/7ZOSBS6/CFh
+toS7lzl3dqw8L9J9v7Ha9Th92I5xN+Fp3oCrTmiFO45Rghn7Rz4/M2sOd38RWAm1
+HoEnO5MRBx1wT3RiKJ58XWrjZ3t7JDoOL+LeSgVJYXyzv1ucgEY=
+=jS0C
 -----END PGP SIGNATURE-----
 
---===============3515803946885025733==--
+--===============1973473252599955714==--
