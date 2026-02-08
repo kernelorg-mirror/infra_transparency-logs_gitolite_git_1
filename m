@@ -1,20 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Sun, 08 Feb 2026 17:28:25 -0000
-Message-Id: <177057170543.2229084.10178230707553361509@gitolite.kernel.org>
+Subject: post-receive: pub/scm/fs/xfs/xfstests-dev
+Date: Sun, 08 Feb 2026 17:36:45 -0000
+Message-Id: <177057220544.2236497.9430029085106157937@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/fs/xfs/xfstests-dev
+user: zlang
 changes:
-  - ref: refs/heads/master
-    old: e7aa57247700733e52a8e2e4dee6a52c2a76de02
-    new: e98f34af61167aee238e666bfbc97d1620afd88a
+  - ref: refs/heads/patches-in-queue
+    old: 1ec21c2911f39b4aa3bb21d5560f1b6da72b0b5e
+    new: d290a3c1b673bdb9904681c06364f678702bcd9c
     log: |
-         b126097b0327437048bd045a0e4d273dea2910dd i2c: imx: preserve error state in block data length handler
-         e98f34af61167aee238e666bfbc97d1620afd88a Merge tag 'i2c-for-6.19-final' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
+         163dbbfaacf0b6d1c62e9363546356e198644f45 xfs/841: create a block device that must exist
+         98dd6070d7eb5b037501345a1da5503daaab1697 xfs/018: remove inline xattr recovery tests
+         08989d57ae35221d68d0835de6cadd7603b5e1dd xfs/620: force xattr leaf format for this test
+         d290a3c1b673bdb9904681c06364f678702bcd9c generic/749: don't write a ton of _mread output to seqres.full
          
