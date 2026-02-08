@@ -1,24 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Sun, 08 Feb 2026 21:20:55 -0000
-Message-Id: <177058565574.2408673.3612586624493353306@gitolite.kernel.org>
+Subject: post-receive: pub/scm/bluetooth/bluez
+Date: Sun, 08 Feb 2026 21:25:31 -0000
+Message-Id: <177058593146.2412237.3198257241481930010@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
-user: broonie
+repo: pub/scm/bluetooth/bluez
+user: holtmann
 changes:
-  - ref: refs/heads/for-next
-    old: 8310e0c5db3d537a7954bfc87b1bc14e7fd8fcba
-    new: 5073eaa2462ce6365f2295c6906e70aef9ea4424
+  - ref: refs/heads/master
+    old: 6704b44cce887d8c3d4111e604665e90faba01c9
+    new: 74770b1fd2be612f9c2cf807db81fcdcc35e6560
     log: |
-         37bb773b4a5a5107b92beda3447a7c6c0cfc1237 ASoC: dt-bindings: fsl,imx-asrc: Add support for i.MX952 platform
-         83447a38ba9abac52bc110566d3e117753899f69 ASoC: fsl_asrc_m2m: Add option to start ASRC before DMA device for M2M
-         6a8c6f5587337eceb387812b6f47bc16c125b883 ASoC: fsl_asrc: Add support for i.MX952 platform
-         b010c782341b79edbeb80706360b772db908daa6 ASoC: fsl_asrc_dma: allocate memory from dma device
-         77d31948a88368f1e8516cb74614ab2e0340e840 ASoC: amd: maintainer information
-         5073eaa2462ce6365f2295c6906e70aef9ea4424 Merge remote-tracking branch 'asoc/for-6.20' into asoc-next
+         11dc12880e1d405e1f87a9521697a13a0ad24e54 build: Update library version
+         f9781ed9e2a8580f37a0b534360a5175a81f24fe build: Add test-rap binary to ignore list
+         74770b1fd2be612f9c2cf807db81fcdcc35e6560 Release 5.86
          
