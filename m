@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3297813835437864526=="
+Content-Type: multipart/mixed; boundary="===============5659287528432214596=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/trace/linux-trace
-Date: Mon, 09 Feb 2026 02:20:50 -0000
-Message-Id: <177060365056.2647753.8584917001693874540@gitolite.kernel.org>
+Date: Mon, 09 Feb 2026 02:23:48 -0000
+Message-Id: <177060382839.2649185.6883329845188509066@gitolite.kernel.org>
 
---===============3297813835437864526==
+--===============5659287528432214596==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/trace/linux-trace
 user: rostedt
 changes:
-  - ref: refs/heads/trace/for-next
-    old: a46023d5616ed3ed781e56ca93400eb9490e3646
-    new: c4f1fe47b106e9200cbb1b8951bd75f036d53bd3
-    log: revlist-a46023d5616e-c4f1fe47b106.txt
+  - ref: refs/heads/for-next
+    old: 8a2316b7eb980fd63e63d7a026c58bea7a747eb0
+    new: 671632a052f570cee8b094d1198ea445959b3545
+    log: revlist-8a2316b7eb98-671632a052f5.txt
 
---===============3297813835437864526==
+--===============5659287528432214596==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a46023d5616e-c4f1fe47b106.txt
+Content-Disposition: attachment; filename=revlist-8a2316b7eb98-671632a052f5.txt
 
 02b75ece53bb6e7b75b987d5728949451d1dc8a9 tracing: Add kerneldoc to trace_event_buffer_reserve()
 1c48f7ab72a8c9d6419622931e622e5247e979f5 tracing: Rename `eval_map_wq` and allow other parts of tracing use it
@@ -46,5 +46,9 @@ af1eea12ad24f62d65714c5318841894278a7aaa tracing: Use system_state in trace_prin
 694b3f6fe0b6c86ff75e94302708f5a718027297 tracing: Rename trace_array field max_buffer to snapshot_buffer
 e4c1a09afbe2f02fc66b5ccbc96aa3a7109f9b79 tracing: Add tracer_uses_snapshot() helper to remove #ifdefs
 c4f1fe47b106e9200cbb1b8951bd75f036d53bd3 tracing: Better separate SNAPSHOT and MAX_TRACE options
+766a2e438d9f11ca357f361a0c58bd61faeb1a6b Merge bootconfig/for-next
+634b4984d97147d0bacea22c820b3cc8540f1bef Merge latency/for-next
+300331c0c92ff5cd577f9f5ea8600284ff5ae0d9 Merge probes/for-next
+671632a052f570cee8b094d1198ea445959b3545 Merge tools/for-next
 
---===============3297813835437864526==--
+--===============5659287528432214596==--
