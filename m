@@ -1,32 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
-Date: Mon, 09 Feb 2026 15:08:52 -0000
-Message-Id: <177064973249.3378842.5643296822785392748@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
+Date: Mon, 09 Feb 2026 15:12:51 -0000
+Message-Id: <177064997145.3382778.17164104289112820366@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tiwai/sound
-user: tiwai
+repo: pub/scm/linux/kernel/git/sj/linux
+user: sj
 changes:
-  - ref: refs/heads/for-linus
-    old: 084d5d44418148662365eced3e126ad1a81ee3e2
-    new: fe7cd89f0e29f0852316857b4861309f9b891370
+  - ref: refs/heads/damon/next
+    old: 74672caf715ec5f49e15d405b8030ce9cb686d4f
+    new: a8c204a2a82057d70dd8944476dd043dc52561ed
     log: |
-         fe7cd89f0e29f0852316857b4861309f9b891370 ALSA: usb-audio: Add DSD support for iBasso DC04U
-         
-  - ref: refs/heads/for-next
-    old: 084d5d44418148662365eced3e126ad1a81ee3e2
-    new: fe7cd89f0e29f0852316857b4861309f9b891370
-    log: |
-         fe7cd89f0e29f0852316857b4861309f9b891370 ALSA: usb-audio: Add DSD support for iBasso DC04U
-         
-  - ref: refs/heads/master
-    old: 376b1f8fa4038d3fb0968d0e38b415da074c8fea
-    new: 5a55ed0c9cf927bf628ecaa47cdbb19d86505203
-    log: |
-         fe7cd89f0e29f0852316857b4861309f9b891370 ALSA: usb-audio: Add DSD support for iBasso DC04U
-         5a55ed0c9cf927bf628ecaa47cdbb19d86505203 Merge branch 'for-linus'
+         a8c204a2a82057d70dd8944476dd043dc52561ed Revert "mm/damon/core: unify damon_warn_fix_nr_accesses_corruption() with damon_verify_reset_aggregated()"
          
