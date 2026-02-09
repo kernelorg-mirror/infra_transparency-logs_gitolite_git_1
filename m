@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/network/connman/connman
-Date: Mon, 09 Feb 2026 13:17:12 -0000
-Message-Id: <177064303260.3279608.14328376925130918248@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rmk/linux
+Date: Mon, 09 Feb 2026 13:21:07 -0000
+Message-Id: <177064326772.3283392.15305923784337159638@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/network/connman/connman
-user: holtmann
+repo: pub/scm/linux/kernel/git/rmk/linux
+user: rmk
 changes:
-  - ref: refs/heads/master
-    old: 9d1c951a738a34b430e52cc20c9baf628cacbbdd
-    new: 6095db097412d11c4ceb29ccabe7bb6b6b1b2a4b
+  - ref: refs/heads/for-next
+    old: d0d7c5d49f324f1d825259ca6746bbe1f04b38f1
+    new: b9cbb9e3bed3ffd40201fc28398f5f0a5f9a324a
     log: |
-         6095db097412d11c4ceb29ccabe7bb6b6b1b2a4b dhcpv6: Fix issue with time_t and format string
+         561f60dfd1c10acaaf81bf523de2fe1ff39e2645 ARM: 9470/1: Handle BE8 vs BE32 in ARCH_CC_CAN_LINK
+         b9cbb9e3bed3ffd40201fc28398f5f0a5f9a324a Merge branches 'fixes' and 'misc' into for-next
          
