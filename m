@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Mon, 09 Feb 2026 17:23:36 -0000
-Message-Id: <177065781667.3491020.12713398352942841367@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
+Date: Mon, 09 Feb 2026 17:25:04 -0000
+Message-Id: <177065790475.3493874.17742527231945689405@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: daveh
+repo: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
+user: vudentz
 changes:
-  - ref: refs/tags/x86_entry_for_7.0-rc1
-    old: 0000000000000000000000000000000000000000
-    new: 347c43c2242d743cccb780c9767cd5c5f2d53a60
+  - ref: refs/heads/master
+    old: 294cf04ca959817d017b4cf165a8038dd46368ee
+    new: 13f98d3499ab2e139ec6fff56baa1be43cc04853
+    log: |
+         13f98d3499ab2e139ec6fff56baa1be43cc04853 Bluetooth: L2CAP: Fix invalid response to L2CAP_ECRED_RECONF_REQ
+         
