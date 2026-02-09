@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
-Date: Mon, 09 Feb 2026 17:25:04 -0000
-Message-Id: <177065790475.3493874.17742527231945689405@gitolite.kernel.org>
+Subject: post-receive: pub/scm/docs/kernel/pgpkeys
+Date: Mon, 09 Feb 2026 17:31:16 -0000
+Message-Id: <177065827696.3498450.4545163515627965291@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
-user: vudentz
+repo: pub/scm/docs/kernel/pgpkeys
+user: mricon
 changes:
   - ref: refs/heads/master
-    old: 294cf04ca959817d017b4cf165a8038dd46368ee
-    new: 13f98d3499ab2e139ec6fff56baa1be43cc04853
+    old: a998aa870debada4e7632a7889052e48cf871d04
+    new: 1ef906520e26ba04ff6035c0c3b8de1821c1a41d
     log: |
-         13f98d3499ab2e139ec6fff56baa1be43cc04853 Bluetooth: L2CAP: Fix invalid response to L2CAP_ECRED_RECONF_REQ
+         1ef906520e26ba04ff6035c0c3b8de1821c1a41d Periodic update from keyservers
          
