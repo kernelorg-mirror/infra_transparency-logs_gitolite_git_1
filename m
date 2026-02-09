@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
-Date: Mon, 09 Feb 2026 09:33:07 -0000
-Message-Id: <177062958716.3041988.282751544521266835@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/klassert/ipsec
+Date: Mon, 09 Feb 2026 09:34:47 -0000
+Message-Id: <177062968788.3042605.16937204589996279267@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/brgl/linux
-user: brgl
+repo: pub/scm/linux/kernel/git/klassert/ipsec
+user: klassert
 changes:
-  - ref: refs/heads/pwrseq/for-next
-    old: e1dccb485c2876ac1318f36ccc0155416c633a48
-    new: ecfcae7885f105b29898ff71d3cb70abd56ef96e
+  - ref: refs/heads/testing
+    old: 0a4524bc69882a4ddb235bb6b279597721bda197
+    new: 4efa91a28576054aae0e6dad9cba8fed8293aef8
     log: |
-         ecfcae7885f105b29898ff71d3cb70abd56ef96e power: sequencing: qcom-wcn: fix error path for VDDIO handling
+         4efa91a28576054aae0e6dad9cba8fed8293aef8 xfrm: always flush state and policy upon NETDEV_UNREGISTER event
          
