@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============0536553844864028508=="
+Content-Type: multipart/mixed; boundary="===============9160982722714514939=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux
-Date: Mon, 09 Feb 2026 08:53:05 -0000
-Message-Id: <177062718580.3008160.2519855302254701699@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux-dt
+Date: Mon, 09 Feb 2026 08:53:10 -0000
+Message-Id: <177062719039.3008376.12254521647662959859@gitolite.kernel.org>
 
---===============0536553844864028508==
+--===============9160982722714514939==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/krzk/linux
+repo: pub/scm/linux/kernel/git/krzk/linux-dt
 user: krzk
 git_push_cert_status: Y
 changes:
@@ -24,38 +24,38 @@ changes:
     old: 0000000000000000000000000000000000000000
     new: e9ec05addd1a067fc7cb218f20ecdc1b1b0898c0
 
---===============0536553844864028508==
+--===============9160982722714514939==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher krzk@kernel.org 1770627180 +0100
-pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux.git
-nonce 1770627180-a3cb37120166a6ddd1883d852bcd8bcb5a982591
+pusher krzk@kernel.org 1770627188 +0100
+pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux-dt.git
+nonce 1770627188-5347437f6a376f341197fb9cfbd909b43ac0f9e2
 
 8f0b4cce4481fb22653697cced8d0d04027cb1e8 05f7e89ab9731565d8a62e3b5d1ec206485eeb0b refs/heads/master
 0000000000000000000000000000000000000000 e9ec05addd1a067fc7cb218f20ecdc1b1b0898c0 refs/tags/v6.19
 -----BEGIN PGP SIGNATURE-----
 
-iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmmJoGwQHGtyemtAa2Vy
-bmVsLm9yZwAKCRDBN2bmhouD18mHD/0SVqkoz4EWPHcRM5iaKjpM8QfsiFYFevBf
-zexLZ+2nfboHVPxZrbkhgfNJEIx1Kbuc+tCQLT6IV/eMCEdhgwSudCk5+3WF9Syf
-1Zorue5mUkKVLAnSk3Q/biTKZxPjqkLTLBmpbCHc+3odH3yoDPnyeJ+Khpfbxxc6
-gpwiLOOZNdODrYCLH5gHePXdD61+TQF0hZOctg5oBBK9cXs4GNhhaZNIk7UAIvEm
-aoeP5TFPEglT72T0k+6Gdu+O8tGIIk9s9hNGeqGYqAp2/WVcI32btrpx6K56Xm14
-wjgYb5cJ87PcojzDbNpOcIBY4duBbYIFjotsNbjLx8idTpoCI8sPUGiPUMOdwrtf
-qyyQiiguPu8T5MZo7VKIB4DcOZzjsqZ0bMC6Dnrz/wkgN8eVM14gJIx/ccFyJYiF
-8Y3FdPGHVtdq/vXal8/nQKRubVUiXyCSnihb/maShCi7bpHpFExPgqv2Rik7q1gQ
-ua0WLuNpkRiO2Er2R8AK+LQ27thQw9dEVoEnHwWan0TJ9TM96XYHDJ005QdOdcKf
-ZybsQegIWuUpdRiZ5jp9oVJr4RE/Q7hmwlKZAUpmPL2BAY3Leob0yDu81IG5CVVE
-BAnZXW30rwl/FZK9xcwB21XuW+rX2j9rfxQshjChy4WDjuSw/78ENPtDFdTNHfQU
-4LrB5GvRgA==
-=xJAT
+iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmmJoHQQHGtyemtAa2Vy
+bmVsLm9yZwAKCRDBN2bmhouD12FMD/4uB9SOSR2XxRW+tEw9aRbPzPuJ0I7zfpsl
+JRMlxpBt1lRsINYUaZi2A/3jdEiojifSFpXHHoskdMBvd4plnRvKAsXQYmAPX7ct
+KRaj1rKBVzUyqhm+8tt50dc5wzGuQ0w1VBvaOTET+GaohO0sak1+a/z7NppEoCKH
+pUUCD96sd4MCqRlKjLP3UNstPu7FwbxWRQximHsIyfDZ/aRqYNdK01Gcgu7NIAdy
+WyAiOzgSyK2BZaSzmvLKM7Zr2S2YCK0Nn6BAx6cvvWG9ePNywG71PCS4vLvl8+6t
+QB/JVc4CEoY12/ATpwNFPz86Keul0hXjTOgsJo4Ah2Fpn1vmE/mgBBysM6eTBejb
+RT0tt55ac7LnLAeno3R2Ko+vuYTyxPZLclyXhSQqGY7u8T/7LdXmrZL7RbC6A3kV
+awWPSmn76HFkwKz+yl5PiMzcPQtd9WZ2Md70Cyh6Obnz5Euw8uBJA/R33IS8wfMy
+/ACwvE/wNzbqrlLEGhfp6bu3rqJzr/pz3IE5LpfMLR6T/d2OSGEWO6iLww1QWb6Y
+zQbl11BcRAbDZQePJ7DYaIdmr8EmpI9u8ab3rrvl/Yc9t6+wK8KQ/RGcUm0NjAgg
+IKGnL6M60UldET25v898b8FMmnlFYVt4NH/qv3VJgM+v8EwuWb7z4eFWwAoJpy2+
+qV7sbeKbPg==
+=KvwD
 -----END PGP SIGNATURE-----
 
---===============0536553844864028508==
+--===============9160982722714514939==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1086,4 +1086,4 @@ e7aa57247700733e52a8e2e4dee6a52c2a76de02 Merge tag 'spi-fix-v6.19-rc8' of git://
 e98f34af61167aee238e666bfbc97d1620afd88a Merge tag 'i2c-for-6.19-final' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
 05f7e89ab9731565d8a62e3b5d1ec206485eeb0b Linux 6.19
 
---===============0536553844864028508==--
+--===============9160982722714514939==--
