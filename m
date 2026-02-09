@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/alarsson/linux-sparc
-Date: Mon, 09 Feb 2026 12:15:42 -0000
-Message-Id: <177063934212.3226778.1590074481286005750@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Mon, 09 Feb 2026 12:27:49 -0000
+Message-Id: <177064006902.3234932.351507253644043764@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/alarsson/linux-sparc
-user: alarsson
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/tags/sparc-for-7.0-tag1
+  - ref: refs/heads/file7cha5y
     old: 0000000000000000000000000000000000000000
-    new: e5e3c9b5aa112bd988dd12bef959add786ab7fdb
+    new: 5af56f30c4fcbade4a92f94dadfea517d1db9703
+  - ref: refs/heads/filefbw3GT
+    old: 0000000000000000000000000000000000000000
+    new: f8f774913b4b599169381073f6674e20976e5529
