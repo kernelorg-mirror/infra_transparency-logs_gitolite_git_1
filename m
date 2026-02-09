@@ -1,41 +1,60 @@
-Content-Type: multipart/mixed; boundary="===============5497997006321279578=="
+Content-Type: multipart/mixed; boundary="===============2961951456599470703=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
-Date: Mon, 09 Feb 2026 12:37:05 -0000
-Message-Id: <177064062531.3244651.12227243568242073664@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Mon, 09 Feb 2026 12:38:09 -0000
+Message-Id: <177064068908.3245331.11916347620155594288@gitolite.kernel.org>
 
---===============5497997006321279578==
+--===============2961951456599470703==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kdave/linux
-user: kdave
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-next
-    old: 29c5694011a2f75745b6eb239f6b33c78d109015
-    new: 7f786cd3d2e4566f2882b5a17e15a5b73f73b2f7
-    log: revlist-29c5694011a2-7f786cd3d2e4.txt
+  - ref: refs/heads/master
+    old: 427bf2e94494fe0f95449db13081ccc24d673a05
+    new: 925121aca4eb993637036152b0861a6872593a10
+    log: |
+         32a6168f76eb26a4735e9c66c930bcf0e09eaad5 5.15-stable patches
+         416ab94e29979bb4b80ee35439473a143517764a 6.1-stable patches
+         f7f93c4da8447d3adf7d9ec73ea31456bab3622d 6.6-stable patches
+         710aafc8c95e7410805928b897e4ae45e61284bf 6.18-stable patches
+         925121aca4eb993637036152b0861a6872593a10 Merge branch 'master' of gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue
+         
 
---===============5497997006321279578==
+--===============2961951456599470703==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-29c5694011a2-7f786cd3d2e4.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-f489822c23324c118a0fdb4875ae71b0ff670702 btrfs: handle unexpected exact match in btrfs_set_inode_index_count()
-36ca17dbebce77f1d69b6fc69d8ad62be167ac61 btrfs: replace BUG() with error handling in __btrfs_balance()
-cc8828540909bdb8f2b8c4a013dc46145895f178 btrfs: reset block group size class when it becomes empty
-a1df918b36521f9da7394c8edc42adaab45f813a btrfs: do not ASSERT() when the fs flips RO inside btrfs_repair_io_failure()
-13e71b9a4bab2a6a686252dbc87ce1d43b79500d btrfs: use the correct type to initialize block reserve for delayed refs
-3e60a33ab1280424273c7e0c807dcae8826f1ef3 btrfs: change unaligned root messages to error level in btrfs_validate_super()
-14675c8c15a7fb23382c7e76a146ba19530017df btrfs: fix lost return value on error in finish_verity()
-549fe06390c18c311b555e67e95560e0386604a3 btrfs: fix lost error return in btrfs_find_orphan_roots()
-88b896e3e3535ef13a8929f68d25b8ac645ecdff btrfs: fix invalid leaf access in btrfs_quota_enable() if ref key not found
-6b314d85e8ebea6fedf1c2026b76fead0c87f971 Merge branch 'misc-6.20' into for-next-current-v6.19-20260209
-7f786cd3d2e4566f2882b5a17e15a5b73f73b2f7 Merge branch 'for-next-current-v6.19-20260209' into for-next-20260209
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1770640687 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1770640686-38b21672477057cc5159b45e4c3705914b12f7a0
 
---===============5497997006321279578==--
+427bf2e94494fe0f95449db13081ccc24d673a05 925121aca4eb993637036152b0861a6872593a10 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmmJ1TAbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+9qYQAJm/n/y9A5tQGCihn1p7
+YofHGruQcze1Zi2TAWqfn9wdvH9ZLHhmgu7dEX+35A+kb51Qx6AujHYsXLyaN9l6
+eFc6xHr1mRLQcTiLaB/wbYEU+B3eUxeBGgoALbRjqxUS6xBBkWOb7KHl336pAETp
+QcoBW2fxqTwcXRI2MO8GVI6POdoHsT5W3hH4GF22Ie03XPSN0bQTpgUPiSEyq69C
+SdyJoevtmVp6EWHNTLz6TTa2gX+Nw1RLbAoBGOz1/80E7NQotK+D/JaemUFPyg8j
+U0jUMXMcNwxg/+7misbcERIKyXSrzzyuiilC+wG3iNDXjVLp9DIhN2Rak0NgKVqp
+ACohqohvYwIoGoAr36KRafU04/+xBxDk48HrH1aUIzFzNPLPK01ypQbgWsQTjaC6
+6zzrjmPI8lM29ljw8auAaxrK+jyQBIV6LGjhhaA1H7V+UTwUNq4LtMVjfvY6FoOc
+cna0O7QoUYYV2kvHdWMkWuZbivGxr28ekoqoNHMjMfrnIh+sFzhIVTfn5IN7TjE3
+TKmhKQROs2dt0hXNDYgZtFnVU798kN9mhtfnQe4ADDwqztKVZB3U8ro9GXMUTcyy
+j51gOQD+ZtfleCOYqW9wwSPanxwQ3prurbQWqYiZRywLLWCaXlVftJT0J+13j3hw
+o2xgQNwkwfYkIjNoFZedi4X5
+=Fp0q
+-----END PGP SIGNATURE-----
+
+--===============2961951456599470703==--
