@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gfs2/linux-gfs2
-Date: Mon, 09 Feb 2026 13:52:09 -0000
-Message-Id: <177064512965.3308879.6207576493119705015@gitolite.kernel.org>
+Subject: post-receive: pub/scm/network/connman/connman
+Date: Mon, 09 Feb 2026 13:53:09 -0000
+Message-Id: <177064518953.3309441.17260839568587162350@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gfs2/linux-gfs2
-user: agruen
+repo: pub/scm/network/connman/connman
+user: holtmann
 changes:
-  - ref: refs/tags/gfs2-for-7.0
-    old: 0000000000000000000000000000000000000000
-    new: c7d6bd3f60cf6b35b5634c3c1114363daa78d93c
+  - ref: refs/heads/master
+    old: 098f9b001e2a99c473243cc9b3f2f121905ca1cc
+    new: a4f8ebde9a14a38a8704f1d607934d4451b71c6d
+    log: |
+         a4f8ebde9a14a38a8704f1d607934d4451b71c6d build: Fix location for tap-driver.sh
+         
