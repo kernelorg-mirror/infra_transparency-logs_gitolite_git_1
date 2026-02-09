@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ardb/linux
-Date: Mon, 09 Feb 2026 13:15:28 -0000
-Message-Id: <177064292860.3278616.2712386622553189485@gitolite.kernel.org>
+Subject: post-receive: pub/scm/network/connman/connman
+Date: Mon, 09 Feb 2026 13:17:12 -0000
+Message-Id: <177064303260.3279608.14328376925130918248@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ardb/linux
-user: ardb
+repo: pub/scm/network/connman/connman
+user: holtmann
 changes:
-  - ref: refs/heads/x86-slaunch
-    old: 0000000000000000000000000000000000000000
-    new: 2b38d157e670679138d4e391a6a1c8b93ec10b7d
+  - ref: refs/heads/master
+    old: 9d1c951a738a34b430e52cc20c9baf628cacbbdd
+    new: 6095db097412d11c4ceb29ccabe7bb6b6b1b2a4b
+    log: |
+         6095db097412d11c4ceb29ccabe7bb6b6b1b2a4b dhcpv6: Fix issue with time_t and format string
+         
