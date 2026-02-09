@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8918546849051674175=="
+Content-Type: multipart/mixed; boundary="===============8087225056007070179=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/geert/linux-m68k
-Date: Mon, 09 Feb 2026 08:57:36 -0000
-Message-Id: <177062745691.3013240.13828689548212988883@gitolite.kernel.org>
+Date: Mon, 09 Feb 2026 08:57:49 -0000
+Message-Id: <177062746958.3013525.1191919684476989091@gitolite.kernel.org>
 
---===============8918546849051674175==
+--===============8087225056007070179==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/geert/linux-m68k
 user: geert
 changes:
-  - ref: refs/heads/master
-    old: 4af85fdda409a89e538c3b03ddc6c573934a231d
-    new: ae5c45732d34367350709e99169854eb6eaad7a4
-    log: revlist-4af85fdda409-ae5c45732d34.txt
+  - ref: refs/heads/m68k-queue
+    old: db61e2e2c0c1049bfce9fa18b9b859b59a594b5e
+    new: 926c59abffbc3392da6c35074cc9227ee4aecd34
+    log: revlist-db61e2e2c0c1-926c59abffbc.txt
 
---===============8918546849051674175==
+--===============8087225056007070179==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4af85fdda409-ae5c45732d34.txt
+Content-Disposition: attachment; filename=revlist-db61e2e2c0c1-926c59abffbc.txt
 
 cfbe371194d1f342bdd88f87a9b36407d1ec0f52 KVM: SVM: Check vCPU ID against max x2AVIC ID if and only if x2AVIC is enabled
 b4d37cdb77a0015f51fee083598fa227cc07aaf1 KVM: Don't clobber irqfd routing type when deassigning irqfd
@@ -243,6 +243,10 @@ b0e7d3f88e563b5ca793fca23c7d7fa1352c1079 Merge tag 'char-misc-6.19-final' of git
 e7aa57247700733e52a8e2e4dee6a52c2a76de02 Merge tag 'spi-fix-v6.19-rc8' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/spi
 e98f34af61167aee238e666bfbc97d1620afd88a Merge tag 'i2c-for-6.19-final' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
 05f7e89ab9731565d8a62e3b5d1ec206485eeb0b Linux 6.19
-ae5c45732d34367350709e99169854eb6eaad7a4 Merge tag 'v6.19'
+d207baf90aef46a0157dc677539c7c9b116c4b8c nubus: Call put_device() in bus initialization error path
+39cd048f69978b40408e38922abda1603bb2754f m68k: sun3: Replace vsprintf() with bounded vsnprintf()
+2cb049b22796ae3788d918115a3b997fd594b246 m68k: atari: usb: Add ISP1160 USB host controller support
+967e1497634185b394f1e4f9d1ce1a23984bf5b6 m68k: atari: Update Kconfig.bus help text
+926c59abffbc3392da6c35074cc9227ee4aecd34 m68k: defconfig: Enable Atari EtherNAT and NetUSBee USB support
 
---===============8918546849051674175==--
+--===============8087225056007070179==--
