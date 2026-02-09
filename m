@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============7169924556314282307=="
+Content-Type: multipart/mixed; boundary="===============3935758017607693690=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pinctrl/samsung
-Date: Mon, 09 Feb 2026 08:53:19 -0000
-Message-Id: <177062719959.3008690.11381362932353310980@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux-w1
+Date: Mon, 09 Feb 2026 08:53:24 -0000
+Message-Id: <177062720416.3009005.12139676576262227065@gitolite.kernel.org>
 
---===============7169924556314282307==
+--===============3935758017607693690==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pinctrl/samsung
+repo: pub/scm/linux/kernel/git/krzk/linux-w1
 user: krzk
 git_push_cert_status: Y
 changes:
@@ -24,38 +24,38 @@ changes:
     old: 0000000000000000000000000000000000000000
     new: e9ec05addd1a067fc7cb218f20ecdc1b1b0898c0
 
---===============7169924556314282307==
+--===============3935758017607693690==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher krzk@kernel.org 1770627197 +0100
-pushee kernel.org:/pub/scm/linux/kernel/git/pinctrl/samsung.git
-nonce 1770627197-33519efcad181a1da37103f7359a888b4c941d71
+pusher krzk@kernel.org 1770627202 +0100
+pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux-w1.git
+nonce 1770627201-6e58bef23f708e52ffff264cb4fff4487e3bbce9
 
 8f0b4cce4481fb22653697cced8d0d04027cb1e8 05f7e89ab9731565d8a62e3b5d1ec206485eeb0b refs/heads/master
 0000000000000000000000000000000000000000 e9ec05addd1a067fc7cb218f20ecdc1b1b0898c0 refs/tags/v6.19
 -----BEGIN PGP SIGNATURE-----
 
-iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmmJoH0QHGtyemtAa2Vy
-bmVsLm9yZwAKCRDBN2bmhouD17e5D/9y3YJMeHVCwWKXCQ+CKkRZzedWqIyai+N6
-YasQnVLDZ/htsoOVsy/L70ClkTfnpmHy4LqBzSK1TJaySvkgBHx40js8/hWh3qlv
-h14WvE2knbt36ZsIhGX2QNCTGZCl77JZgTt3AYx2h3i4iHKNUIcrCGtMR97ARYXQ
-GzFL/zJLbCDX2ryKxK3afFZ9VXPU9G6Le5L/ET8aK3BsfyYhJBEFjxz5JcSUPXTN
-+vY6+fjUDIFasZaHTWaRpYQXzkGUilH/AlD5X6h0SJ9yNMJDq72xw4pEda8gO7Nq
-oUN606OzLdypnMpRF+H3K8x8U5/oCIX7Kc9/P+0U1cxDUdI8pblnYxHWu51AMgUw
-epnvx3eab2sr5rctI5meaHdEtvznm4fsKmg2YS9yDO9pE5ZXNFNxOl+scLfrWbYB
-ZhpL4wld1uisAuwIZjWHh/TIqyaKglpH8oDI48utEBVYcfkvQ8mVMt0Nq3qw/HYx
-e+9+4/fw4RxfSwUT2Cb/3LQOqwZDapiSAek79NIGybFd3Sa4N2iATIVVU1dEvHp0
-twFS/XqfSbW1qOWQ7070ykvXoUZbDx4SKzANSbuJoqk3n67UG17smnMMRrMymJ8b
-7b7QhOYLFkhfjZxoNi1lASgQFHsjXdpj4P84ppO1MONydBQtepKcSiX1eoWPha74
-kEnfm53Gvw==
-=IC9j
+iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmmJoIIQHGtyemtAa2Vy
+bmVsLm9yZwAKCRDBN2bmhouD1x0gD/0fUZbZ891PF07xxGwTBRd2tA1tRuEcgAGU
+eK4RP2sqQFz+MVy+Nsi6BrOOQUejQc/HXB5xYMHcUm396xZOBS7bCzNWU0I03Kp1
+x4RsuxXm/VuFFyl6wJ+O2LwvffEfyfUfViYWZlSbT//TnGuuODPbu6TxvC7r7Svr
+LiNgnD5sdkpfduSw1OcWbmeN34exyCJET3zBR2XknxFD/2PjY0dvgdS8bJdiqu+z
+nbQJCDzrSIgkrAXE1v9kSW3rMIVOMgvGX4HSBHYyQvyNhLIelF+vxJgLV8RZWnpt
+kV0EdlkCLiTA00vpnahJdvpFyPbZS7HUgLVhLgJlDaSQeH1oZ8H66xd+5u1v2GY2
+iryzXsAf6SCRt+0OxeaBK7AazysckESw1qRg//lgd2EydnyFRm+nJ+rx8VitB9mx
+b5EpBE6pY35RAhEBiu9n6FUTXpr3Ffte4sXzj4Dm3kn1PbAM9AtmDZvXwA1MO2Xh
+cV0lCB3AIpFeYQjwesPYvkw4YkjeAOXDPDWmd42yedz6HW32AsiEUpKRwHnOW5a1
+7y0/GvhSs5OFcD1KThR6PrGzXGA8gXeqhxCTQAZq7RCEBY1SnjzSY6FTWUplynTP
+G56uVFYa0xBrfx7VoxoASv5KRTqMyMDw1c/aXr1jNUeo0LDJj9TLDZrZw6Mx3BmK
+SDoBckGFZw==
+=bJ11
 -----END PGP SIGNATURE-----
 
---===============7169924556314282307==
+--===============3935758017607693690==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1086,4 +1086,4 @@ e7aa57247700733e52a8e2e4dee6a52c2a76de02 Merge tag 'spi-fix-v6.19-rc8' of git://
 e98f34af61167aee238e666bfbc97d1620afd88a Merge tag 'i2c-for-6.19-final' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
 05f7e89ab9731565d8a62e3b5d1ec206485eeb0b Linux 6.19
 
---===============7169924556314282307==--
+--===============3935758017607693690==--
