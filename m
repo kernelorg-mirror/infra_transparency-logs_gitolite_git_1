@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ulfh/linux-pm
-Date: Mon, 09 Feb 2026 12:08:29 -0000
-Message-Id: <177063890992.3218975.16238495690431375670@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
+Date: Mon, 09 Feb 2026 12:10:44 -0000
+Message-Id: <177063904469.3222284.12450854334038020978@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ulfh/linux-pm
-user: ulfh
+repo: pub/scm/linux/kernel/git/maz/arm-platforms
+user: maz
 changes:
-  - ref: refs/tags/v6.19
-    old: 0000000000000000000000000000000000000000
-    new: e9ec05addd1a067fc7cb218f20ecdc1b1b0898c0
-  - ref: refs/tags/v7.0
-    old: 0000000000000000000000000000000000000000
-    new: fee2407ac9499d6ade8f88f50cc7774903dce230
+  - ref: refs/heads/arm64/nmi-WIP
+    old: db456c513304cc91922c70ee2fb3d63745293977
+    new: dfc568249542f64dadb9d23fb59ef6b8910ef2cb
+    log: |
+         dfc568249542f64dadb9d23fb59ef6b8910ef2cb KVM: arm64: Propagate ALLINT masking on exception injection
+         
