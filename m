@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============0292839452106783970=="
+Content-Type: multipart/mixed; boundary="===============7169924556314282307=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux-mem-ctrl
-Date: Mon, 09 Feb 2026 08:53:15 -0000
-Message-Id: <177062719509.3008493.13279198421401346800@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pinctrl/samsung
+Date: Mon, 09 Feb 2026 08:53:19 -0000
+Message-Id: <177062719959.3008690.11381362932353310980@gitolite.kernel.org>
 
---===============0292839452106783970==
+--===============7169924556314282307==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/krzk/linux-mem-ctrl
+repo: pub/scm/linux/kernel/git/pinctrl/samsung
 user: krzk
 git_push_cert_status: Y
 changes:
@@ -24,38 +24,38 @@ changes:
     old: 0000000000000000000000000000000000000000
     new: e9ec05addd1a067fc7cb218f20ecdc1b1b0898c0
 
---===============0292839452106783970==
+--===============7169924556314282307==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher krzk@kernel.org 1770627193 +0100
-pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux-mem-ctrl.git
-nonce 1770627192-0a0bd5fcd028363e6505226cb45e8480e7924949
+pusher krzk@kernel.org 1770627197 +0100
+pushee kernel.org:/pub/scm/linux/kernel/git/pinctrl/samsung.git
+nonce 1770627197-33519efcad181a1da37103f7359a888b4c941d71
 
 8f0b4cce4481fb22653697cced8d0d04027cb1e8 05f7e89ab9731565d8a62e3b5d1ec206485eeb0b refs/heads/master
 0000000000000000000000000000000000000000 e9ec05addd1a067fc7cb218f20ecdc1b1b0898c0 refs/tags/v6.19
 -----BEGIN PGP SIGNATURE-----
 
-iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmmJoHkQHGtyemtAa2Vy
-bmVsLm9yZwAKCRDBN2bmhouD1zwyD/sGmRN+eWvZS0LYXnvluMQSwYsEIQ1srY85
-oFdxUQs6ks+8yG7QDam3Hp2ysCyPpoEKbyWu0oHYYVpMiDFHc81zgULiB2y2a5eV
-nb9VdMf/NTnL9QrGEczVo/JHcYJC43Ll5wkVKA4Xj5KB1SLSjtTvxqJitTDcTS7R
-jSJSCFWb9h9DkN2YdBZXui1A5Sb0wY5JUn3W+K+ibGbXmc+jbTzWfvkIIEb2nCc3
-afLEjnvWkY0MJB2+6ZFinx+StCvRLI1t8dCKlGN6ePN01rH9OgpDj38aphuzpZ3j
-xl19wh7jiv7XrIySmk21/3DxJuMgznpk3roy/1mCeoV9Wp8fNqXXhMwDJXlBVf9q
-oZ7XPWV0SQpaz+BWTnWzUmw/1mS0tpucsUWlKx31SjxYGA455eiZrAkCQ6HjKQ9O
-4ZUikLG75FPm2RFgZi61FgJBGUTo/yENKhLt3cSRlSOVQ+Q+sDfRarxitW3HW0Zq
-/mju5De5W/JsQjfgwJ3+yLXvck0F8jaYAkzfoh6SzTp10T2w7pT+iACcInt16ZmN
-fOR1diVJNM0sLM1XNkiFh5q0DqZLucWBntw6+mU2mdNJ4alkDkDiaYglvs6FTjch
-oUJvrdAP140iV6uoyfDrtgPAZAlYa9wGWFGjdLpLYmCjcKigYPhpyk/QcTouDydv
-dRvm+wC4mg==
-=n64n
+iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmmJoH0QHGtyemtAa2Vy
+bmVsLm9yZwAKCRDBN2bmhouD17e5D/9y3YJMeHVCwWKXCQ+CKkRZzedWqIyai+N6
+YasQnVLDZ/htsoOVsy/L70ClkTfnpmHy4LqBzSK1TJaySvkgBHx40js8/hWh3qlv
+h14WvE2knbt36ZsIhGX2QNCTGZCl77JZgTt3AYx2h3i4iHKNUIcrCGtMR97ARYXQ
+GzFL/zJLbCDX2ryKxK3afFZ9VXPU9G6Le5L/ET8aK3BsfyYhJBEFjxz5JcSUPXTN
++vY6+fjUDIFasZaHTWaRpYQXzkGUilH/AlD5X6h0SJ9yNMJDq72xw4pEda8gO7Nq
+oUN606OzLdypnMpRF+H3K8x8U5/oCIX7Kc9/P+0U1cxDUdI8pblnYxHWu51AMgUw
+epnvx3eab2sr5rctI5meaHdEtvznm4fsKmg2YS9yDO9pE5ZXNFNxOl+scLfrWbYB
+ZhpL4wld1uisAuwIZjWHh/TIqyaKglpH8oDI48utEBVYcfkvQ8mVMt0Nq3qw/HYx
+e+9+4/fw4RxfSwUT2Cb/3LQOqwZDapiSAek79NIGybFd3Sa4N2iATIVVU1dEvHp0
+twFS/XqfSbW1qOWQ7070ykvXoUZbDx4SKzANSbuJoqk3n67UG17smnMMRrMymJ8b
+7b7QhOYLFkhfjZxoNi1lASgQFHsjXdpj4P84ppO1MONydBQtepKcSiX1eoWPha74
+kEnfm53Gvw==
+=IC9j
 -----END PGP SIGNATURE-----
 
---===============0292839452106783970==
+--===============7169924556314282307==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1086,4 +1086,4 @@ e7aa57247700733e52a8e2e4dee6a52c2a76de02 Merge tag 'spi-fix-v6.19-rc8' of git://
 e98f34af61167aee238e666bfbc97d1620afd88a Merge tag 'i2c-for-6.19-final' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
 05f7e89ab9731565d8a62e3b5d1ec206485eeb0b Linux 6.19
 
---===============0292839452106783970==--
+--===============7169924556314282307==--
