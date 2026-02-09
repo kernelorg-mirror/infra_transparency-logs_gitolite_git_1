@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/network/connman/connman
-Date: Mon, 09 Feb 2026 13:53:09 -0000
-Message-Id: <177064518953.3309441.17260839568587162350@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/andrea/synthmerge
+Date: Mon, 09 Feb 2026 13:57:00 -0000
+Message-Id: <177064542078.3313273.9797164286556309210@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/network/connman/connman
-user: holtmann
+repo: pub/scm/linux/kernel/git/andrea/synthmerge
+user: andrea
 changes:
-  - ref: refs/heads/master
-    old: 098f9b001e2a99c473243cc9b3f2f121905ca1cc
-    new: a4f8ebde9a14a38a8704f1d607934d4451b71c6d
-    log: |
-         a4f8ebde9a14a38a8704f1d607934d4451b71c6d build: Fix location for tap-driver.sh
-         
+  - ref: refs/heads/main
+    old: 066cf388eaec01e4ed7547bc9334555a6a2ca660
+    new: 049d967bdef8efed1a8726484507f8b2f4396cd5
