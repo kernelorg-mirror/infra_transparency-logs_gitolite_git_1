@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bmc/linux
-Date: Mon, 09 Feb 2026 05:14:59 -0000
-Message-Id: <177061409940.2781209.8047808001623019269@gitolite.kernel.org>
+Date: Mon, 09 Feb 2026 05:26:58 -0000
+Message-Id: <177061481806.2791996.4158968660772339142@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,10 +11,10 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bmc/linux
 user: arj
 changes:
-  - ref: refs/heads/for-next
-    old: 9576b3f41a64637a1f10ec60458be291c69a00d9
-    new: 50774fa74dbe4ae888153ab698714458f9d55f3a
+  - ref: refs/heads/aspeed/arm/dt
+    old: 6bb62204e9782727f5ce6e78b3f204bd3db485ab
+    new: 86c99a2b8efa9d707f4264dc302dc4dcbd677b3d
     log: |
-         504503b0f8a84dedff149c1a3dc4b87cfe909503 soc: aspeed: socinfo: Mask table entries for accurate SoC ID matching
-         50774fa74dbe4ae888153ab698714458f9d55f3a Merge branches 'aspeed/arm/dt', 'aspeed/fixes' and 'nuvoton/arm64/dt' into for-next
+         6bfffc73d4eac164ede9e9cbebcdba89070c795c dt-bindings: arm: aspeed: Add Asrock Paul IPMI card
+         86c99a2b8efa9d707f4264dc302dc4dcbd677b3d ARM: dts: aspeed: Add Asrock Paul IPMI card
          
