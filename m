@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2855122774203563369=="
+Content-Type: multipart/mixed; boundary="===============7317323525269952559=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Tue, 10 Feb 2026 20:49:18 -0000
-Message-Id: <177075655875.610690.807292942051517720@gitolite.kernel.org>
+Date: Tue, 10 Feb 2026 20:49:25 -0000
+Message-Id: <177075656515.610944.1972279200411185636@gitolite.kernel.org>
 
---===============2855122774203563369==
+--===============7317323525269952559==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: ast
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/for-next
     old: db975debcb8c4cd367a78811bc1ba84c83f854bd
     new: a9aabb3b839aba094ed80861054993785c61462c
     log: revlist-db975debcb8c-a9aabb3b839a.txt
 
---===============2855122774203563369==
+--===============7317323525269952559==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ f17b474e36647c23801ef8fdaf2255ab66dd2973 Merge tag 'bpf-next-7.0' of git://git.k
 f144367d012929326f15a399394a9a8be4f98acb Merge tag 'bitmap-for-6.20' of https://github.com/norov/linux
 a9aabb3b839aba094ed80861054993785c61462c Merge tag 'rust-6.20-7.0' of git://git.kernel.org/pub/scm/linux/kernel/git/ojeda/linux
 
---===============2855122774203563369==--
+--===============7317323525269952559==--
