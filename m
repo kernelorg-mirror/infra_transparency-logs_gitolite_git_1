@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Tue, 10 Feb 2026 10:34:01 -0000
-Message-Id: <177071964136.109526.7800746996134024621@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/arighi/linux
+Date: Tue, 10 Feb 2026 10:34:48 -0000
+Message-Id: <177071968838.109946.7754065428542341087@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: pabeni
+repo: pub/scm/linux/kernel/git/arighi/linux
+user: arighi
 changes:
-  - ref: refs/heads/main
-    old: 6d2f142b1e4b203387a92519d9d2e34752a79dbb
-    new: ae88a5d2f29b69819dc7b04086734439d074a643
+  - ref: refs/heads/scx-dequeue
+    old: 2fd76c21af808f10a3e871d4ec908ef92314ed79
+    new: 9641cfe630a72bf6a2e1c823c9dd69ec30582735
     log: |
-         ae88a5d2f29b69819dc7b04086734439d074a643 net: atm: fix crash due to unvalidated vcc pointer in sigd_send()
+         15f281359088126207ec7801cf05b58b45c70a59 sched_ext: Fix ops.dequeue() semantics
+         6dbeff7a22cf4a8a852c5d78725f19131ccb1fbf selftests/sched_ext: Add test to validate ops.dequeue() semantics
+         9641cfe630a72bf6a2e1c823c9dd69ec30582735 sched_ext: Invalidate dispatch decisions on CPU affinity changes
          
