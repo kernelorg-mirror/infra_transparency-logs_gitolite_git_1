@@ -1,22 +1,41 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/docs/man-pages/man-pages
-Date: Tue, 10 Feb 2026 23:02:27 -0000
-Message-Id: <177076454719.721771.11615916116417764534@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============2777271414632806627=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Tue, 10 Feb 2026 23:07:03 -0000
+Message-Id: <177076482360.725853.16138114285402286800@gitolite.kernel.org>
+
+--===============2777271414632806627==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/docs/man-pages/man-pages
-user: alx
+repo: pub/scm/linux/kernel/git/tip/tip
+user: mingo
 changes:
   - ref: refs/heads/master
-    old: 350a2540805b9b1d10f65ca4764ce84bc71f6aef
-    new: 2eb783456af6d5b07add73f1a4794c7b195fce42
-    log: |
-         9e57246ed5ea19060f61e1c17ec1d465457eaf73 man/man7/feature_test_macros.7: Add _ISOC23_SOURCE, _ISOC2X_SOURCE
-         89bcb3ffb60bdc2ec62f98a46cf311ae2fadf64b man/man7/feature_test_macros.7: Drop _ISOC9X_SOURCE
-         f7c47844b601830e3606afd138ce8030036fb284 man/man3/timespec_get.3: Refactor to prepare for new time bases
-         2eb783456af6d5b07add73f1a4794c7b195fce42 man/man3/timespec_get.3: Add ISO C23 time bases
-         
+    old: 49a8e13bd75b850d3561acc70de11ca894e4ca57
+    new: fc2be91224753a088df2fe13fa9d5b92a06eefcf
+    log: revlist-49a8e13bd75b-fc2be9122475.txt
+
+--===============2777271414632806627==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-49a8e13bd75b-fc2be9122475.txt
+
+4d84667627c4ff70826b349c449bbaf63b9af4e5 Merge tag 'perf-core-2026-02-09' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+0923fd0419a1a2c8846e15deacac11b619e996d9 Merge tag 'locking-core-2026-02-08' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+36ae1c45b2cede43ab2fc679b450060bbf119f1b Merge tag 'sched-core-2026-02-09' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+5668a64622cf238ea954ea71cf2bed60967dba16 Merge tag 'x86-boot-2026-02-09' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+3516cadc70a742ab2a08b17d3176d242945bd12d Merge tag 'x86-apic-2026-02-09' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+b490d2a83f5daf0c2c928a3efa865bae8e705cf8 Merge tag 'x86-cpu-2026-02-09' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+a4d963b9d6eead4cbd4b702832acf2921189a692 Merge tag 'x86-platform-2026-02-09' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+4e21e585b65b2d47f7ccb95120e7bb37a08d7d0e Merge tag 'irq-cleanups-2026-02-09' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+66bbe4a8ed73f1187a4271c58f0ea30f42debe0d Merge tag 'irq-core-2026-02-09' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+dc855b77719fe452d670cae2cf64da1eb51f16cc Merge tag 'irq-drivers-2026-02-09' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+fc2be91224753a088df2fe13fa9d5b92a06eefcf Merge branch 'linus'
+
+--===============2777271414632806627==--
