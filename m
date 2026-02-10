@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/docs/man-pages/man-pages
-Date: Tue, 10 Feb 2026 21:00:45 -0000
-Message-Id: <177075724566.624034.10786136743548853066@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/arighi/linux
+Date: Tue, 10 Feb 2026 21:07:07 -0000
+Message-Id: <177075762717.628712.13115211015484360183@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/docs/man-pages/man-pages
-user: alx
+repo: pub/scm/linux/kernel/git/arighi/linux
+user: arighi
 changes:
-  - ref: refs/heads/master
-    old: 7617f61964f26b195eb255c2d63d019bec924caa
-    new: d10b642221253d312be15736035bc6048890a62e
-    log: |
-         d10b642221253d312be15736035bc6048890a62e man/man3/pthread_create.3: SYNOPSIS: Use _Nullable where appropriate
-         
+  - ref: refs/heads/sched-asym-smt
+    old: 0000000000000000000000000000000000000000
+    new: 235dea10d08a9ad0e98a0f74dfa10afebcd344e7
