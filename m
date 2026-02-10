@@ -1,51 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============0406590783738322014=="
+Content-Type: multipart/mixed; boundary="===============2033124546778637435=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Tue, 10 Feb 2026 20:49:58 -0000
-Message-Id: <177075659820.611448.2250218905159376214@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Tue, 10 Feb 2026 20:50:01 -0000
+Message-Id: <177075660158.611596.1586858816963536854@gitolite.kernel.org>
 
---===============0406590783738322014==
+--===============2033124546778637435==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-6.20
+  - ref: refs/heads/asoc-6.20
     old: 5578da7d957fbaf91f6c39ba2363c2d2e4273183
     new: f14c94d21f3ffcd6652217c2c74a26b6ba9ad741
     log: revlist-5578da7d957f-f14c94d21f3f.txt
 
---===============0406590783738322014==
+--===============2033124546778637435==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1770756596 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1770756596-ae0eaf2c24719d1dd905ac0f428de7382bc04f8d
+pusher C3F436CA30F5D8EB 1770756599 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1770756599-1ac04ed087871c7354afb1cc502b3d0c146d60ff
 
-5578da7d957fbaf91f6c39ba2363c2d2e4273183 f14c94d21f3ffcd6652217c2c74a26b6ba9ad741 refs/heads/for-6.20
+5578da7d957fbaf91f6c39ba2363c2d2e4273183 f14c94d21f3ffcd6652217c2c74a26b6ba9ad741 refs/heads/asoc-6.20
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmmLmfQACgkQJNaLcl1U
-h9AqYQf+Lfxadps1zRQ5Cka994e7PPyaj3ELkK2CD6A4Nvrm33RAxFQao2odElBg
-kgcPCUDu2/vDmR5OjcGePAohG0WMzWNLf47bTkenHfMxkXDOYcSO2K4uLYGf4h6h
-GXJOB/SpGDNYJ0ayEFLwCK63zYaO439bOBbiaP+UcOXpcEJnqO9X1oGSC7bP9bH+
-nAlNDZfgvY4R1+WQDdoOldz1hAh2dtjVWv4XwFk30qDgRi1C8w+qIiEpZLxJTC9B
-WAmaoju/+NgLE/rVr5v+KnwknlII2FJTxGa8yUdZk6Pg7M2qLsqUsi9j1Ssg7KlZ
-NLcM0aBHQi/k3PjVAZ0Y4IY2j916KA==
-=cnj2
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmmLmfcACgkQJNaLcl1U
+h9AoQAgAhWj0/S5Xn0ASrE2b/Ov4PdagpXLWMnIBbUbekzeFs+KiLvxiF5x/K9Aw
+mLIVEbINCQz17egiYKEd/E3CjeLr0SEeLhenPQRvk09ymix3r5vrA7Lvqp2idYDT
+hrh8FpJUdoWQHifR9lXqa2xWPD7IyiHo61WmrGZxAmcW1jZp05hskYBDsMTPMW2H
+11HBYbXmMPhL9VJycna7GZkTP5t3dBN3s+5Nb36WCYPOwBXJAqsGNLkPicacP/wo
+VP+N8QeorvCLq8aef54y1liXcioyRhbo/rwpDwJgqt+GiVqsZ5+nrOZV8Rajp56l
+5PVg4MJ4LNL9K9CdZIJ6Y+bTD1tqqQ==
+=M/dw
 -----END PGP SIGNATURE-----
 
---===============0406590783738322014==
+--===============2033124546778637435==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -270,4 +270,4 @@ e98f34af61167aee238e666bfbc97d1620afd88a Merge tag 'i2c-for-6.19-final' of git:/
 05f7e89ab9731565d8a62e3b5d1ec206485eeb0b Linux 6.19
 f14c94d21f3ffcd6652217c2c74a26b6ba9ad741 ASoC: Merge up release
 
---===============0406590783738322014==--
+--===============2033124546778637435==--
