@@ -1,55 +1,34 @@
-Content-Type: multipart/mixed; boundary="===============2033124546778637435=="
+Content-Type: multipart/mixed; boundary="===============2277644237172285384=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Tue, 10 Feb 2026 20:50:01 -0000
-Message-Id: <177075660158.611596.1586858816963536854@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Tue, 10 Feb 2026 20:50:08 -0000
+Message-Id: <177075660881.614235.3948986627582132647@gitolite.kernel.org>
 
---===============2033124546778637435==
+--===============2277644237172285384==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/asoc-6.20
-    old: 5578da7d957fbaf91f6c39ba2363c2d2e4273183
+  - ref: refs/heads/for-linus
+    old: 7fc8187b8d58ae84998a889965706a89eb2a84a5
     new: f14c94d21f3ffcd6652217c2c74a26b6ba9ad741
-    log: revlist-5578da7d957f-f14c94d21f3f.txt
+    log: revlist-7fc8187b8d58-f14c94d21f3f.txt
+  - ref: refs/heads/for-next
+    old: 7fc8187b8d58ae84998a889965706a89eb2a84a5
+    new: f14c94d21f3ffcd6652217c2c74a26b6ba9ad741
+    log: revlist-7fc8187b8d58-f14c94d21f3f.txt
 
---===============2033124546778637435==
+--===============2277644237172285384==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1770756599 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1770756599-1ac04ed087871c7354afb1cc502b3d0c146d60ff
-
-5578da7d957fbaf91f6c39ba2363c2d2e4273183 f14c94d21f3ffcd6652217c2c74a26b6ba9ad741 refs/heads/asoc-6.20
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmmLmfcACgkQJNaLcl1U
-h9AoQAgAhWj0/S5Xn0ASrE2b/Ov4PdagpXLWMnIBbUbekzeFs+KiLvxiF5x/K9Aw
-mLIVEbINCQz17egiYKEd/E3CjeLr0SEeLhenPQRvk09ymix3r5vrA7Lvqp2idYDT
-hrh8FpJUdoWQHifR9lXqa2xWPD7IyiHo61WmrGZxAmcW1jZp05hskYBDsMTPMW2H
-11HBYbXmMPhL9VJycna7GZkTP5t3dBN3s+5Nb36WCYPOwBXJAqsGNLkPicacP/wo
-VP+N8QeorvCLq8aef54y1liXcioyRhbo/rwpDwJgqt+GiVqsZ5+nrOZV8Rajp56l
-5PVg4MJ4LNL9K9CdZIJ6Y+bTD1tqqQ==
-=M/dw
------END PGP SIGNATURE-----
-
---===============2033124546778637435==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5578da7d957f-f14c94d21f3f.txt
+Content-Disposition: attachment; filename=revlist-7fc8187b8d58-f14c94d21f3f.txt
 
 cfbe371194d1f342bdd88f87a9b36407d1ec0f52 KVM: SVM: Check vCPU ID against max x2AVIC ID if and only if x2AVIC is enabled
 b4d37cdb77a0015f51fee083598fa227cc07aaf1 KVM: Don't clobber irqfd routing type when deassigning irqfd
@@ -120,11 +99,6 @@ fdf3f6800be36377e045e2448087f12132b88d2f net: don't touch dev->stats in BPF redi
 daafcc0ef0b358d9d622b6e3b7c43767aa3814ee tracing/dma: Cap dma_map_sg tracepoint arrays to prevent buffer overflow
 c33efdfcfa6f80e05ce1ee33694c1bad4994cd78 dma: contiguous: Check return value of dma_contiguous_reserve_area()
 78f1421dc3ac2588fb59b55e2b4c2c55a442913e Revert "drm/gma500: use drm_crtc_vblank_crtc()"
-1425900231372acf870dd89e8d3bb4935f7f0c81 ASoC: sof_sdw: Add a quirk for Lenovo laptop using sidecar amps with cs42l43
-6b641122d31f9d33e7d60047ee0586d1659f3f54 ASoC: Intel: sof_es8336: Add DMI quirk for Huawei BOD-WXX9
-e77a4081d7e324dfa876a9560b2a78969446ba82 ASoC: cs42l43: Correct handling of 3-pole jack load detection
-611c7d2262d5645118e0b3a9a88475d35a8366f2 ASoC: amd: yc: Add quirk for HP 200 G2a 16
-10db9f6899dd3a2dfd26efd40afd308891dc44a8 firmware: cs_dsp: rate-limit log messages in KUnit builds
 0ae91d8ab70922fb74c22c20bedcb69459579b1c io_uring/zcrx: fix page array leak
 af07330e28ad65352126270b0b3af226df46e307 io_uring/zcrx: fix rq flush locking
 41d9a6795b95d6ea28439ac1e9ce8c95bbca20fc spi: tegra: Fix a memory leak in tegra_slink_probe()
@@ -158,8 +132,6 @@ d6ba734814266bbf7ee01f9030436597116805f3 rust_binderfs: fix ida_alloc_max() uppe
 ec4ddc90d201d09ef4e4bef8a2c6d9624525ad68 binderfs: fix ida_alloc_max() upper bound
 5ff641011ab7fb63ea101251087745d9826e8ef5 wifi: iwlwifi: mld: cancel mlo_scan_start_wk
 fb7f54aa2a99b07945911152c5d3d4a6eb39f797 wifi: iwlwifi: mvm: pause TCM on fast resume
-284e70ace9ecdeb8644fbe65c5da12c90b377545 ASoC: SOF: Intel: use hdev->info.link_mask directly
-6e1e735181e0c18e1f4ecb0118be4b1e2ee439d1 ASoC: rt1320: fix intermittent no-sound issue
 826af7fa62e347464b1b4e0ba2fe19a92438084f ALSA: aloop: Fix racy access at PCM trigger
 b1dfe4e0fcef0cc01233a70ec8fd95b900024a5a io_uring/fdinfo: kill unnecessary newline feed in CQE32 printing
 124bdc6eccc8c5cba68fee00e01c084c116c4360 ALSA: usb-audio: fix broken logic in snd_audigy2nx_led_update()
@@ -196,9 +168,6 @@ c62e0658d458d8f100445445c3ddb106f3824a45 gpiolib: acpi: Fix gpio count with stri
 47ee94efccf6732e4ef1a815c451aacaf1464757 sched/mmcid: Protect transition on weakly ordered systems
 007d84287c7466ca68a5809b616338214dc5b77b sched/mmcid: Drop per CPU CID immediately when switching to per task mode
 4463c7aa11a6e67169ae48c6804968960c4bffea sched/mmcid: Optimize transitional CIDs when scheduling out
-7f67ba5413f98d93116a756e7f17cd2c1d6c2bd6 ASoC: amd: fix memory leak in acp3x pdm dma ops
-85352e59de4ce09de8322b2591a26f515fbde9c0 ASoC: dt-bindings: ti,tlv320aic3x: Add compatible string ti,tlv320aic23
-f514248727606b9087bc38a284ff686e0093abf1 ASoC: fsl_xcvr: fix missing lock in fsl_xcvr_mode_put()
 45a66b75bf10c84060c9948e3be664e03454515d Merge tag 'iwlwifi-fixes-2026-02-03' of https://git.kernel.org/pub/scm/linux/kernel/git/iwlwifi/iwlwifi-next
 7ee9b3e091c63da71e15c72003f1f07e467f5158 drm/xe/query: Fix topology query pointer advance
 e022c16965b8345af3c384c9136c7ca541a25f72 drm/xe: Fix kerneldoc for xe_migrate_exec_queue
@@ -270,4 +239,4 @@ e98f34af61167aee238e666bfbc97d1620afd88a Merge tag 'i2c-for-6.19-final' of git:/
 05f7e89ab9731565d8a62e3b5d1ec206485eeb0b Linux 6.19
 f14c94d21f3ffcd6652217c2c74a26b6ba9ad741 ASoC: Merge up release
 
---===============2033124546778637435==--
+--===============2277644237172285384==--
