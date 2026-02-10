@@ -1,31 +1,34 @@
-Content-Type: multipart/mixed; boundary="===============1642508972763244484=="
+Content-Type: multipart/mixed; boundary="===============0497235240374374192=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/arighi/linux
-Date: Tue, 10 Feb 2026 09:34:18 -0000
-Message-Id: <177071605860.61751.7654514287788516585@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
+Date: Tue, 10 Feb 2026 09:50:21 -0000
+Message-Id: <177071702124.75737.780112495729839249@gitolite.kernel.org>
 
---===============1642508972763244484==
+--===============0497235240374374192==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/arighi/linux
-user: arighi
+repo: pub/scm/linux/kernel/git/kdave/linux
+user: kdave
 changes:
-  - ref: refs/heads/scx-dequeue
-    old: 39c8047d9ca3453509c96f1db76043d2257ee4d4
-    new: 2fd76c21af808f10a3e871d4ec908ef92314ed79
-    log: revlist-39c8047d9ca3-2fd76c21af80.txt
+  - ref: refs/heads/master
+    old: 05f7e89ab9731565d8a62e3b5d1ec206485eeb0b
+    new: 72c395024dac5e215136cbff793455f065603b06
+    log: revlist-05f7e89ab973-72c395024dac.txt
 
---===============1642508972763244484==
+--===============0497235240374374192==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-39c8047d9ca3-2fd76c21af80.txt
+Content-Disposition: attachment; filename=revlist-05f7e89ab973-72c395024dac.txt
 
+41670a5900a8866b8cab52ab5936b5e9ef06fe91 get rid of audit_reusename()
+ca2a04e84af79596e5cd9cfe697d5122ec39c8ce ntfs: ->d_compare() must not block
+8ba29c85e2ef24764a05b557ebeca32f9bfafada getname_flags() massage, part 1
 8f2ac8481731fb5d01ad54f66aa0334a8913b3c2 getname_flags() massage, part 2
 c3a3577cdb351e74d6ff6bc328c3bee18ce69298 struct filename: use names_cachep only for getname() and friends
 8c888b31903cc2acfbf054c23d702caf68857810 struct filename: saner handling of long names
@@ -1047,8 +1050,5 @@ b33c3b84045e880d8a7596f260860038c71cf393 Merge tag 'm68k-for-v7.0-tag1' of git:/
 33120a2f8fc47f388506b7df1209bd5ac85dd584 Merge tag 'for-linus-7.0-rc1-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/xen/tip
 0c61526621ec1916527d6f6226d8a466340cca22 Merge tag 'efi-next-for-v7.0' of git://git.kernel.org/pub/scm/linux/kernel/git/efi/efi
 72c395024dac5e215136cbff793455f065603b06 Merge tag 'docs-7.0' of git://git.kernel.org/pub/scm/linux/kernel/git/docs/linux
-6d5669c823f75c1df370342cab1e72bd74bf22f5 sched_ext: Fix ops.dequeue() semantics
-8230858d6a51dfdb854cd8e70852eb73bcf37c60 selftests/sched_ext: Add test to validate ops.dequeue() semantics
-2fd76c21af808f10a3e871d4ec908ef92314ed79 sched_ext: Invalidate dispatch decisions on CPU affinity changes
 
---===============1642508972763244484==--
+--===============0497235240374374192==--
