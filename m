@@ -1,23 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jolsa/perf
-Date: Tue, 10 Feb 2026 20:24:51 -0000
-Message-Id: <177075509197.590716.9421349551322163443@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
+Date: Tue, 10 Feb 2026 20:44:25 -0000
+Message-Id: <177075626552.606006.17834083113304439414@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jolsa/perf
-user: jolsa
+repo: pub/scm/linux/kernel/git/acme/linux
+user: acme
 changes:
-  - ref: refs/heads/usdt_nop
-    old: 8422369ec8d82fb99695a75e99837172bae085c6
-    new: 782de2275973744777128c1ad7d0c3574bc8da10
+  - ref: refs/heads/perf-tools-next
+    old: 3d012b8614ee020666f3dd15af9f65dc487e3f5f
+    new: 5d1ab659fb93eed85d6d8b2937013360157032f4
     log: |
-         57ef23b86f3093de03c30cdde1a121d150bf7f2c selftests/bpf: Emit nop,no5 instructions combo for x86_64 arch
-         fd6833f36ee9cb8934e2c9e36e1d12c0c6e24611 libbpf: Add uprobe syscall feature detection
-         99881ee51d65b10c67d583a5f29536c251e01c35 libbpf: Add support to detect nop,nop5 instructions combo for usdt probe
-         e939fc1d1f25d320c32adf17354b6f9dac107ce3 selftests/bpf: Add test for checking correct nop of optimized usdt
-         782de2275973744777128c1ad7d0c3574bc8da10 selftests/bpf: Add usdt trigger bench
+         84a654f786414a74a15a7b61929d1ced06687310 tools build: Make test-rust.bin be removed by the 'clean' target
+         1f12fb138de81e63c1140689257548966cfb88a3 tools build: Emit dependencies file for test-rust.bin
+         bc105a8918fd8458ec3a5b947018b0f8059da529 Revert "perf tool_pmu: More accurately set the cpus for tool events"
+         63b320aaac08ba267268ec21a195ce3c82dcb8ab perf stat-shadow: In prepare_metric fix guard on reading NULL perf_stat_evsel
+         ff8548172f63288b5c2b0fda5a4a4be294f610f1 perf evlist: Special map propagation for tool events that read on 1 CPU
+         47172912c9933103bc2c68627b1dafd9058d035e perf evlist: Missing TPEBS close in evlist__close()
+         d484361550ebdc4da77ea16f6cb08badde33e799 perf evlist: Reduce affinity use and move into iterator, fix no affinity
+         5d1ab659fb93eed85d6d8b2937013360157032f4 perf stat: Add no-affinity flag
          
