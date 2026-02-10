@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3204869030201728013=="
+Content-Type: multipart/mixed; boundary="===============9145998317061523288=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Tue, 10 Feb 2026 06:18:31 -0000
-Message-Id: <177070431160.4104818.1123631318885272221@gitolite.kernel.org>
+Date: Tue, 10 Feb 2026 06:19:12 -0000
+Message-Id: <177070435242.4105330.13491908444526241570@gitolite.kernel.org>
 
---===============3204869030201728013==
+--===============9145998317061523288==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,16 +16,54 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: 3d355d6183636bac9f1d0a7387fb8bf4b644bde0
-    new: ced2d93a213b025578e1e935e85fba716a09f65b
-    log: revlist-3d355d618363-ced2d93a213b.txt
+    old: ced2d93a213b025578e1e935e85fba716a09f65b
+    new: 54e7a32abecad8d802a253a16d103b3f3a4bc86d
+    log: revlist-ced2d93a213b-54e7a32abeca.txt
+  - ref: refs/heads/tip/urgent
+    old: 05f7e89ab9731565d8a62e3b5d1ec206485eeb0b
+    new: 72c395024dac5e215136cbff793455f065603b06
+    log: revlist-05f7e89ab973-72c395024dac.txt
 
---===============3204869030201728013==
+--===============9145998317061523288==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3d355d618363-ced2d93a213b.txt
+Content-Disposition: attachment; filename=revlist-ced2d93a213b-54e7a32abeca.txt
 
+567a1849e5a776e37700b0c45a3b3c9acba4757b Merge branch into tip/master: 'core/entry'
+9cb5707003aab5f7f40bb615f7137ac22ef1bc1f Merge branch into tip/master: 'irq/cleanups'
+508a242781db9ce376d6a037a9e79a950f2027a5 Merge branch into tip/master: 'irq/core'
+5c89f5fc776d8699f959b415c5914791a6eb0507 Merge branch into tip/master: 'irq/drivers'
+3670c4971eb6f2fb02ed956ef56f7e491cf2a888 Merge branch into tip/master: 'irq/msi'
+a8ca1c35e6e4304b3aaa8e34b4de401bb3f0a6c0 Merge branch into tip/master: 'locking/core'
+c998213f6bd551afc80cddfe762bd0d926d830a2 Merge branch into tip/master: 'locking/futex'
+25104a45eb2096b260f0406e1169a724a5550c3f Merge branch into tip/master: 'perf/core'
+9a71ee99d100b0df254d32a9d0f710a63b290154 Merge branch into tip/master: 'sched/core'
+0bf0e0bfb9eb194e430f3fd06dca42c803af870d Merge branch into tip/master: 'timers/clocksource'
+54e7d1c99a00b7c7de8b08f38cf18d5f970a3d64 Merge branch into tip/master: 'timers/core'
+a22a6b075434fe9107ca929006eb37dfe0915124 Merge branch into tip/master: 'timers/vdso'
+1da83a19ef54473987f7e6d3c36d5eefafa003bd Merge branch into tip/master: 'x86/alternatives'
+78428256a3804d2b2f0015ed1034f0e6e933598c Merge branch into tip/master: 'x86/apic'
+5883fef8702ddbac727b6c6342e94dc2819cca55 Merge branch into tip/master: 'x86/boot'
+27d90fbe5a5f586ddac939e2da52c135a8393115 Merge branch into tip/master: 'x86/bugs'
+b78bfac42028b302232318268a8c61d950d258b7 Merge branch into tip/master: 'x86/cache'
+6099b1843a1aab7d31784aabf5d831007f4ee40e Merge branch into tip/master: 'x86/cleanups'
+ac4f5b3d39c381ce7219f009a8626809fa2cffe8 Merge branch into tip/master: 'x86/cpu'
+54d3210a893a1f513c43a5d46e53285689932150 Merge branch into tip/master: 'x86/entry'
+bf705a27fa40479d7cca91c789a0e928a2b99993 Merge branch into tip/master: 'x86/irq'
+5692a691c487e66cebf15d4700dd812bfed5c846 Merge branch into tip/master: 'x86/microcode'
+acf9398478b9f3910f3041075d3c381413f693ba Merge branch into tip/master: 'x86/misc'
+bc774376dd72f78bb96d7a45783b453f280777be Merge branch into tip/master: 'x86/paravirt'
+499d675cc6d27e9171443ab00501dc20313e05da Merge branch into tip/master: 'x86/platform'
+54e7a32abecad8d802a253a16d103b3f3a4bc86d Merge branch into tip/master: 'x86/sev'
+
+--===============9145998317061523288==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-05f7e89ab973-72c395024dac.txt
+
+41670a5900a8866b8cab52ab5936b5e9ef06fe91 get rid of audit_reusename()
 ca2a04e84af79596e5cd9cfe697d5122ec39c8ce ntfs: ->d_compare() must not block
 8ba29c85e2ef24764a05b557ebeca32f9bfafada getname_flags() massage, part 1
 8f2ac8481731fb5d01ad54f66aa0334a8913b3c2 getname_flags() massage, part 2
@@ -1049,6 +1087,5 @@ b33c3b84045e880d8a7596f260860038c71cf393 Merge tag 'm68k-for-v7.0-tag1' of git:/
 33120a2f8fc47f388506b7df1209bd5ac85dd584 Merge tag 'for-linus-7.0-rc1-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/xen/tip
 0c61526621ec1916527d6f6226d8a466340cca22 Merge tag 'efi-next-for-v7.0' of git://git.kernel.org/pub/scm/linux/kernel/git/efi/efi
 72c395024dac5e215136cbff793455f065603b06 Merge tag 'docs-7.0' of git://git.kernel.org/pub/scm/linux/kernel/git/docs/linux
-ced2d93a213b025578e1e935e85fba716a09f65b Merge branch 'linus'
 
---===============3204869030201728013==--
+--===============9145998317061523288==--
