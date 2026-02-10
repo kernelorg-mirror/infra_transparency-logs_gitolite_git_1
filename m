@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1154304946530874265=="
+Content-Type: multipart/mixed; boundary="===============4518536679674117073=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Tue, 10 Feb 2026 13:19:57 -0000
-Message-Id: <177072959757.243226.1820274259999522923@gitolite.kernel.org>
+Date: Tue, 10 Feb 2026 13:22:41 -0000
+Message-Id: <177072976157.246623.2736894922534927010@gitolite.kernel.org>
 
---===============1154304946530874265==
+--===============4518536679674117073==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,27 +16,27 @@ repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
 user: jarkko
 changes:
   - ref: refs/heads/container
-    old: f9593578eb4fd3314e6c63d8313b385f6c3d73f2
-    new: a158c47a8b7018b86b17c9cde110b9bd33d1b833
-    log: revlist-f9593578eb4f-a158c47a8b70.txt
+    old: a158c47a8b7018b86b17c9cde110b9bd33d1b833
+    new: ac4ec62cd4decf787406c1407f18ade110d80c5a
+    log: revlist-a158c47a8b70-ac4ec62cd4de.txt
 
---===============1154304946530874265==
+--===============4518536679674117073==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f9593578eb4f-a158c47a8b70.txt
+Content-Disposition: attachment; filename=revlist-a158c47a8b70-ac4ec62cd4de.txt
 
-da17d576a3fbbed61907b5875ea83406a401f294 containers: Introduce a container type
-2b75b1d95ebc4292ca47466a730e8efdbc42c7e5 containers: Implement container_{create,wait,kill}
-78dc217a0cf91b4283313e73af03cafe64026c58 containers: Provide /proc/containers
-70e990f8342550fca6fee8f84203766bdae375aa containers: Add container_fork
-db7ce2874d46c810c6055186e227f47a17f53774 net: Pass netns into __sys_socket
-2bd8b6336ea84b3fa6f2a6338be0d7b5af34a284 containers: Add container_socket() syscall
-73c0f3aa053ee506ff596474078b2c62ed2e82ab containers, vfs: Allow syscall dirfd arguments to take a container fd
-64dc5608c5334706a68f5d1b97c00b3cfcbe6e4b containers: Make fsopen() able to create a superblock in a container
-9c8e8b6b9ee80a9f48975ebf7b2e59fe70ffc626 containers, vfs: Allow CONTAINER_NEW_EMPTY_FS_NS
-b983f507213496f8309bf919579f427b919f0382 vfs: Allow mounting to other namespaces
-20644278e447be6f632a5acd3c77706b53ec74ae containers: Provide fs_context op for container setting
-a158c47a8b7018b86b17c9cde110b9bd33d1b833 containers: Sample program for driving container objects
+b8b3e02b49a0272cd4c567ab01a110d1e40b5f5a containers: Introduce a container type
+a6d6debbfd935af085882cb334e3d21130c17177 containers: Implement container_{create,wait,kill}
+aff263837265b4bd42e54db505a9c03b7a292d6c containers: Provide /proc/containers
+d7a21d9f8e341f3848375e87adc7a40d35e16bc1 containers: Add container_fork
+393e12e7f32409ef4cdaf373b6731900f759e1bf net: Pass netns into __sys_socket
+87ada2d843a5eb4a45928c496d790aada5efabac containers: Add container_socket() syscall
+167ec3ecfd9d60064e1ab15abd42e5bd0ec67674 containers, vfs: Allow syscall dirfd arguments to take a container fd
+eae87346ef7094984596a12c9096148d3989c983 containers: Make fsopen() able to create a superblock in a container
+ba2b74edae817d4832a91a21df3c1c0fcc843981 containers, vfs: Allow CONTAINER_NEW_EMPTY_FS_NS
+734256f0a1a9594a24aefbf12d82f0fb17b5e6eb vfs: Allow mounting to other namespaces
+c758cb9ffdcbef96b351d0060ccbfd74908cb1fd containers: Provide fs_context op for container setting
+ac4ec62cd4decf787406c1407f18ade110d80c5a containers: Sample program for driving container objects
 
---===============1154304946530874265==--
+--===============4518536679674117073==--
