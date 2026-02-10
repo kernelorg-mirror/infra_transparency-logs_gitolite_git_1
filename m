@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8611215457623490336=="
+Content-Type: multipart/mixed; boundary="===============8700323076630079446=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Tue, 10 Feb 2026 20:02:07 -0000
-Message-Id: <177075372781.573065.4280020166893287099@gitolite.kernel.org>
+Date: Tue, 10 Feb 2026 20:02:52 -0000
+Message-Id: <177075377210.573499.2674308021044751549@gitolite.kernel.org>
 
---===============8611215457623490336==
+--===============8700323076630079446==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,15 +16,53 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: 42cde58c54a08fb9823ca3883468fa568970a04f
-    new: 8afbf321018bd1b202e515019cb080c6bbeed246
-    log: revlist-42cde58c54a0-8afbf321018b.txt
+    old: 8afbf321018bd1b202e515019cb080c6bbeed246
+    new: 49a8e13bd75b850d3561acc70de11ca894e4ca57
+    log: revlist-8afbf321018b-49a8e13bd75b.txt
+  - ref: refs/heads/tip/urgent
+    old: 72c395024dac5e215136cbff793455f065603b06
+    new: a9aabb3b839aba094ed80861054993785c61462c
+    log: revlist-72c395024dac-a9aabb3b839a.txt
 
---===============8611215457623490336==
+--===============8700323076630079446==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-42cde58c54a0-8afbf321018b.txt
+Content-Disposition: attachment; filename=revlist-8afbf321018b-49a8e13bd75b.txt
+
+14f99e80206061794c1ce2d90492558998c49615 Merge branch into tip/master: 'locking/merge'
+a1f41fa65409d212fc35a493c32a5d1607678da6 Merge branch into tip/master: 'core/debugobjects'
+951dbd60429ce56be2d13d5fe295374f1de38074 Merge branch into tip/master: 'core/entry'
+5c1d5a05ad92454e2e9f60fb737e362c1a0a44c7 Merge branch into tip/master: 'irq/cleanups'
+e6c7ffc613fc96dc9bf6a6128bf56267a0b93b08 Merge branch into tip/master: 'irq/core'
+f43c291625e7e5f8455d3a6a5552e1504085a84b Merge branch into tip/master: 'irq/drivers'
+31962a135b0ba934348113d1f066d551a5d5a513 Merge branch into tip/master: 'irq/msi'
+5e82f321cc00c902dc625db521091e29545c29d3 Merge branch into tip/master: 'locking/futex'
+f31f6b03bd412d1df2dcb2d3a86cc96dcf142004 Merge branch into tip/master: 'perf/core'
+a2f441b0a6c44156b49e104e1dc920ac5fbb0f14 Merge branch into tip/master: 'sched/core'
+91ceceb2b733249f8876d1cd7618d8f666b10414 Merge branch into tip/master: 'timers/clocksource'
+37ee4ac9f21094c5f2d2c91a49229ad0c7fcdb1a Merge branch into tip/master: 'timers/core'
+85d642a3b7b4731ea8da658e6e5706768df18bab Merge branch into tip/master: 'timers/vdso'
+974c418966dab06109012deea3413558a359216b Merge branch into tip/master: 'x86/alternatives'
+bc24d911499440de27a75982beded7fd63c5463f Merge branch into tip/master: 'x86/apic'
+9dfce95df02129386f44c060210562fb765c31f6 Merge branch into tip/master: 'x86/boot'
+5d45fd9ed6bb8cc4b6d3aeee202ac4e0616678f2 Merge branch into tip/master: 'x86/bugs'
+8b5035d9ecfe792dc57beb70816fea7a6034ca59 Merge branch into tip/master: 'x86/cache'
+4596fc44d1d12f867595b26014f7d31f5fc18360 Merge branch into tip/master: 'x86/cleanups'
+f43299cd626d9ce03338ebbaf63b7f1d7d4382e9 Merge branch into tip/master: 'x86/cpu'
+d09784331aa7f76dd9ed502ad489a08923861272 Merge branch into tip/master: 'x86/entry'
+002ed667ccdd306375de8693f462452b488e4221 Merge branch into tip/master: 'x86/irq'
+a457dcfc70753d9a33610852683664b43adfb818 Merge branch into tip/master: 'x86/microcode'
+019c3b7b93366280adea91d82ac425462baacf5d Merge branch into tip/master: 'x86/misc'
+b003394f4d72ea4ce4e3d2fdf70dd3dceaa6cfb1 Merge branch into tip/master: 'x86/paravirt'
+c8ac097e207a5cd7a01f9f8d03af95e28ba7894d Merge branch into tip/master: 'x86/platform'
+49a8e13bd75b850d3561acc70de11ca894e4ca57 Merge branch into tip/master: 'x86/sev'
+
+--===============8700323076630079446==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-72c395024dac-a9aabb3b839a.txt
 
 81f88f6ab674973d361b6d176aa4d3ebd32253ab libbpf: Add debug messaging in dedup equivalence/identity matching
 1588c81b9f215170bd596984691eda2f05a84a1f bpf: Allow verifier to fixup kernel module kfuncs
@@ -622,8 +660,5 @@ a7423e6ea2f8f6f453de79213c26f7a36c86d9a2 Merge tag 'modules-7.0-rc1' of git://gi
 f17b474e36647c23801ef8fdaf2255ab66dd2973 Merge tag 'bpf-next-7.0' of git://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf-next
 f144367d012929326f15a399394a9a8be4f98acb Merge tag 'bitmap-for-6.20' of https://github.com/norov/linux
 a9aabb3b839aba094ed80861054993785c61462c Merge tag 'rust-6.20-7.0' of git://git.kernel.org/pub/scm/linux/kernel/git/ojeda/linux
-4a66fe8053a14778786981fcf731817552a36659 Merge branch 'linus'
-efa10b71d51c71b87c1ca6447790ddc0c5c0fe3c Merge branch 'locking/core' into locking/merge, to ease integration testing
-8afbf321018bd1b202e515019cb080c6bbeed246 Merge branch 'locking/merge'
 
---===============8611215457623490336==--
+--===============8700323076630079446==--
