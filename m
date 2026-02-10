@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6304032114169818548=="
+Content-Type: multipart/mixed; boundary="===============7649873076893583436=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/security/vulns
-Date: Tue, 10 Feb 2026 11:47:20 -0000
-Message-Id: <177072404044.171143.2692558415720764017@gitolite.kernel.org>
+Date: Tue, 10 Feb 2026 11:49:02 -0000
+Message-Id: <177072414230.171713.16076448144152686020@gitolite.kernel.org>
 
---===============6304032114169818548==
+--===============7649873076893583436==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,40 +17,41 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/master
-    old: d6a44787e4b7504bdc412ea152af825887b43bc5
-    new: 8b7b374d24440bb25ddc816dbdf095e799dcef94
+    old: 8b7b374d24440bb25ddc816dbdf095e799dcef94
+    new: 4e1d2ce31bac8cd3fc2e5b138ffbb16a2757c031
     log: |
-         8b7b374d24440bb25ddc816dbdf095e799dcef94 update cvelistV5
+         70ccb334a7a072f555c820310ef26caf8a00541e Proposed: Add Allen's v6.18.9 results
+         4e1d2ce31bac8cd3fc2e5b138ffbb16a2757c031 Reject CVE-2025-68789 on review
          
 
---===============6304032114169818548==
+--===============7649873076893583436==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1770724039 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1770724141 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
-nonce 1770724039-9f055a745fd2378de58c4e762487a5587e858ebf
+nonce 1770724141-a35d0a0295b46da17b6880da1d02f5ee49b2aa65
 
-d6a44787e4b7504bdc412ea152af825887b43bc5 8b7b374d24440bb25ddc816dbdf095e799dcef94 refs/heads/master
+8b7b374d24440bb25ddc816dbdf095e799dcef94 4e1d2ce31bac8cd3fc2e5b138ffbb16a2757c031 refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmmLGsgbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+TT0P+wStqE8MNl7RsK6kAsCJ
-X5JTC5cGGNwuqWxMfn59NRLqRLSvYSRnbViBoDxX4Rnqb7H8uAfuNtC7aWr2FLit
-UOsAKMdLs2MLaz4kYvIzWWB6uP2IJpwrVdFwdkQVq+HakPcEQn96KqrjSFo6FZoH
-T3fyHf6h9JUc8FO+taJuXf3UqjqMHdf8yWcXMb57ygJthBoi5c4E+mSYVwbVd/iC
-omhco3g3caw8ANDtf0oMAvvAmjjAYg3NTl0ilorR2wlYhfwOInlF9FiWKUTaY+62
-GZDt9nW58OpQ5VjoMAm4maw17bkfdwEHHodIhHCIksF7Vp7aMgyJrfBQpY30S4Zs
-RvMcxtKY53pQhSwotprOhDFrVdRyWCe0sty7hNwqm9JYvw4zX045cB2M8ZndmZQZ
-VBkWR94uoBCo2Ocs+3vgvBcX6AP36gAeeKFuhez9piRcEM2BGpJwibkUTTZDHhcA
-+C9HoCcGvjeq2UxbBFeKMxUuKLXSmhXTosnxXaUsxMeNiMEHhYWW2sZ1mHdQaiyK
-8031SpcYm99yoGrkjpKPOZOE7/9qbBuZwoOjiOofJXzfV4LMMDKQpKKL076yXlNi
-8SrKRZZ8hun2+/Y0L7WRMG5Lmf3DdNWCFVbB6tJIhPNLadu8dI4S5dNT5kF9Izt5
-6cm6c6K17E3wgo86oxKXh+zE
-=H2LX
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmmLGy0bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+sHYP/i+LoDHp8bWHX5BWBWN8
+Bxf4AG82kTynDqaImdDF/YP0wWnVe+Zhu3SetDrARJWAWvvxYV+avtclQxKp3MMH
+3HwvtUEP7wN1Na8EalDXwgbE5ABTEhCaY0hmQje+QpjsNyN+ZpPD600StfbKXDEs
+sawI4/XxChizuImYJWpLux0RAEjw3P3ekPrDZribPYTWIFDCRHXO74/Xv+S10Uv/
+YO0WXlR9xIitv7Vdj1DvdAG29IVowOssdTa9dKs08vGKYfdFTWOIJ1Yer2V80VKu
+0S6fdRAG+ksV8+IrdYoGdFRDZqqyKw8XH93iNduUJJnMGOoy52lJ4SJmsWuOT7NW
+CGwBizfKN2vVg8+lj8xNVvzkvBGgbaUbbhsPDzTnlFhPhAO8PlRoVWadqhJJ59P8
+Lxro2GIaYEtPI301Mjsu9aE7ROWMxWfYMojGnV0LggUhtpP3b3I3W7YkclsHwDWb
+ZbdHrkycaV99kuts4BpEZp8vfxHbNkuxIRrgfFtOmJNkkB7IMsLW2bFoN/j2t3gT
+auI6fL+M0ej8a7j7sj7v7wkfZMzLYT4j9z7eiySHbW7LLaJm+f7q9HGIFy3b7ff5
+0hNvZXeTQJ1NCB3IKelxtf9Un5Fkk4S5UF37RkQVPb79JnUWf1tc3SXo5hvFLHPa
+tYKg8VLnUqrYQ2M36xmJLjG7
+=JATv
 -----END PGP SIGNATURE-----
 
---===============6304032114169818548==--
+--===============7649873076893583436==--
