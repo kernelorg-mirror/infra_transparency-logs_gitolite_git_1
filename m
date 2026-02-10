@@ -1,26 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
-Date: Tue, 10 Feb 2026 15:30:07 -0000
-Message-Id: <177073740766.352408.13926316116769442750@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mic/linux
+Date: Tue, 10 Feb 2026 15:32:37 -0000
+Message-Id: <177073755727.353634.4118434493879272599@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
-Content-Transfer-Encoding: 7bit
+Content-Transfer-Encoding: 8bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/perf/perf-tools-next
-user: acme
+repo: pub/scm/linux/kernel/git/mic/linux
+user: mic
 changes:
-  - ref: refs/heads/tmp.perf-tools-next
-    old: 3d012b8614ee020666f3dd15af9f65dc487e3f5f
-    new: 5d1ab659fb93eed85d6d8b2937013360157032f4
+  - ref: refs/heads/next
+    old: f179e1859c711214412876c57f56f9b0cfb13264
+    new: 9f0c490b4ed2ebf16ddd8b78a366be783f57a018
     log: |
-         84a654f786414a74a15a7b61929d1ced06687310 tools build: Make test-rust.bin be removed by the 'clean' target
-         1f12fb138de81e63c1140689257548966cfb88a3 tools build: Emit dependencies file for test-rust.bin
-         bc105a8918fd8458ec3a5b947018b0f8059da529 Revert "perf tool_pmu: More accurately set the cpus for tool events"
-         63b320aaac08ba267268ec21a195ce3c82dcb8ab perf stat-shadow: In prepare_metric fix guard on reading NULL perf_stat_evsel
-         ff8548172f63288b5c2b0fda5a4a4be294f610f1 perf evlist: Special map propagation for tool events that read on 1 CPU
-         47172912c9933103bc2c68627b1dafd9058d035e perf evlist: Missing TPEBS close in evlist__close()
-         d484361550ebdc4da77ea16f6cb08badde33e799 perf evlist: Reduce affinity use and move into iterator, fix no affinity
-         5d1ab659fb93eed85d6d8b2937013360157032f4 perf stat: Add no-affinity flag
+         1b693433fb0880a066fd0dc7ba1513e2f4760b89 selftests/landlock: Add filesystem access benchmark
+         f78044bd4e02b484f8f9eb9a591e14d905930e83 landlock: Add access_mask_subset() helper
+         a7f1a8187e535bddee7b1466b8023803e9d58ae7 landlock: Transpose the layer masks data structure
+         9f0c490b4ed2ebf16ddd8b78a366be783f57a018 mailmap: Add entry for Mickaël Salaün
          
