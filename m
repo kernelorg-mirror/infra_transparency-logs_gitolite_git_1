@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1869337010217183683=="
+Content-Type: multipart/mixed; boundary="===============6304032114169818548=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/security/vulns
-Date: Tue, 10 Feb 2026 11:46:56 -0000
-Message-Id: <177072401639.170765.3740409423385434897@gitolite.kernel.org>
+Date: Tue, 10 Feb 2026 11:47:20 -0000
+Message-Id: <177072404044.171143.2692558415720764017@gitolite.kernel.org>
 
---===============1869337010217183683==
+--===============6304032114169818548==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,44 +17,40 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/master
-    old: bb8b1b465b5ea1ee2915381b9b9775c64a86af84
-    new: d6a44787e4b7504bdc412ea152af825887b43bc5
+    old: d6a44787e4b7504bdc412ea152af825887b43bc5
+    new: 8b7b374d24440bb25ddc816dbdf095e799dcef94
     log: |
-         7622fd67e5805b1190e86a6fd6cd86b072925e3b update_dyad.rs: print out raw command line arguments
-         f70a107fcc7eceec12b2acb25f826934ee33d93a upate_dyad.rs: switch to using logging and not home-made macros
-         955b03286ea4de98a74d200707a92122ab87c8b7 update_dyad.rs: run rustfmt
-         965c1aaef92b7a68302a219e0c465cedad475d21 update_dyad: handle multiple options on the command line
-         d6a44787e4b7504bdc412ea152af825887b43bc5 update_dyad.rs: get a big list of all ids to update first
+         8b7b374d24440bb25ddc816dbdf095e799dcef94 update cvelistV5
          
 
---===============1869337010217183683==
+--===============6304032114169818548==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1770724015 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1770724039 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
-nonce 1770724015-151fa3f51eb4fcf9f2c9cc1f51496976f75191fe
+nonce 1770724039-9f055a745fd2378de58c4e762487a5587e858ebf
 
-bb8b1b465b5ea1ee2915381b9b9775c64a86af84 d6a44787e4b7504bdc412ea152af825887b43bc5 refs/heads/master
+d6a44787e4b7504bdc412ea152af825887b43bc5 8b7b374d24440bb25ddc816dbdf095e799dcef94 refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmmLGrAbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+IxIQALlwwSIGDPaDYGcnWEWf
-acoWG23bfZLnlZc8K+RVYnKss7PspvxwjuLdmNa/vhxX5+00stqTzO5x4asAPRH8
-r1fVugKiRlW/G+4PwDOF7uEf3Sl9UOPR+QgHZPhowzwKSDi4x89Rky1GR5wkk9zS
-RKOG3B6CDfel9mQ3WPl5zfP9yiJ0btQ/nXplN1ZkqxGo1NrE7UOajXnxrcgABRbV
-SfqevxjIl8j3MEef7JekxdDDNg7AkuW0KAWl/lrSsoCBfbjKtMZ09vEcOiUYSoGo
-4GLCN4cUGjoj6jgKvHrYIWoVz79MiapodA19kD7WwifIclmzJnaKmx2CcrJu8MBb
-QlrtQqLgyDdjrNlml6P98sjmQEgzFQgGungiv+BkTb34tWepWOs69aL0HHStxHsG
-rcXLcecADw/j3KmrAXfwOyKawz/lepsmpA1iFsU8fX4GTakCr6G+JquCrc2a4HOR
-mW2CzFSzwnfDAfxWjR+UyOLHrQsMlD0qoyzhLlJ5H4Dslu33Qv+VXU47vc080nj8
-38zw7KMvF3zRpGsoN79LaTsGiIPznBbZg0Bnji9fUhdV4gqYSN4fw810WkgHyEkk
-kTH39DpEu5o2e6sdhaectwA/Kel6meRsiFa4OCPfkLd4UkZwOgBxtEENZQWq08i3
-+vByT53ahrZpteDuY/BikoGx
-=lyk7
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmmLGsgbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+TT0P+wStqE8MNl7RsK6kAsCJ
+X5JTC5cGGNwuqWxMfn59NRLqRLSvYSRnbViBoDxX4Rnqb7H8uAfuNtC7aWr2FLit
+UOsAKMdLs2MLaz4kYvIzWWB6uP2IJpwrVdFwdkQVq+HakPcEQn96KqrjSFo6FZoH
+T3fyHf6h9JUc8FO+taJuXf3UqjqMHdf8yWcXMb57ygJthBoi5c4E+mSYVwbVd/iC
+omhco3g3caw8ANDtf0oMAvvAmjjAYg3NTl0ilorR2wlYhfwOInlF9FiWKUTaY+62
+GZDt9nW58OpQ5VjoMAm4maw17bkfdwEHHodIhHCIksF7Vp7aMgyJrfBQpY30S4Zs
+RvMcxtKY53pQhSwotprOhDFrVdRyWCe0sty7hNwqm9JYvw4zX045cB2M8ZndmZQZ
+VBkWR94uoBCo2Ocs+3vgvBcX6AP36gAeeKFuhez9piRcEM2BGpJwibkUTTZDHhcA
++C9HoCcGvjeq2UxbBFeKMxUuKLXSmhXTosnxXaUsxMeNiMEHhYWW2sZ1mHdQaiyK
+8031SpcYm99yoGrkjpKPOZOE7/9qbBuZwoOjiOofJXzfV4LMMDKQpKKL076yXlNi
+8SrKRZZ8hun2+/Y0L7WRMG5Lmf3DdNWCFVbB6tJIhPNLadu8dI4S5dNT5kF9Izt5
+6cm6c6K17E3wgo86oxKXh+zE
+=H2LX
 -----END PGP SIGNATURE-----
 
---===============1869337010217183683==--
+--===============6304032114169818548==--
