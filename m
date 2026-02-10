@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7908844598646504245=="
+Content-Type: multipart/mixed; boundary="===============3107252240404572518=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/security/vulns
-Date: Tue, 10 Feb 2026 11:41:58 -0000
-Message-Id: <177072371845.166568.14330728105190731202@gitolite.kernel.org>
+Date: Tue, 10 Feb 2026 11:44:53 -0000
+Message-Id: <177072389343.167566.15080166629121666956@gitolite.kernel.org>
 
---===============7908844598646504245==
+--===============3107252240404572518==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,40 +17,40 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/gregkh-update_dyad_rework
-    old: 57aaa7098612d75da872d3f276f1873e38b8ee36
-    new: e20cd46177318dc05c93947009072558190a7392
+    old: e20cd46177318dc05c93947009072558190a7392
+    new: d6a44787e4b7504bdc412ea152af825887b43bc5
     log: |
-         e20cd46177318dc05c93947009072558190a7392 update_dyad.rs: get a big list of all ids to update first
+         d6a44787e4b7504bdc412ea152af825887b43bc5 update_dyad.rs: get a big list of all ids to update first
          
 
---===============7908844598646504245==
+--===============3107252240404572518==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1770723715 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1770723892 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
-nonce 1770723715-09bce8368f411fdac13b68f0239b992cb10b1a83
+nonce 1770723892-e48cd9c6b70e47bcbe95a2984d2b51f0c0568965
 
-57aaa7098612d75da872d3f276f1873e38b8ee36 e20cd46177318dc05c93947009072558190a7392 refs/heads/gregkh-update_dyad_rework
+e20cd46177318dc05c93947009072558190a7392 d6a44787e4b7504bdc412ea152af825887b43bc5 refs/heads/gregkh-update_dyad_rework
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmmLGYMbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+peYQAL4BVb5BGSRQfrPf84Ln
-JbxDEGRKnQD4gd4xdfbRkMJWx71+ZttZM1tRNrvrBNLgIYOeXjL+B96J/2wPHm0p
-iJhlEY0k+d7NnzhGMBjXD7az1Vxz3XuvXyhugHxy8al3KaQ3Hs/m5xEBVyjJQnh0
-tlJxGmtWqZmL+iHoHA8HUW28GJxSlyD3IWMQX79LNxQSCzKfW6+arKzxabnxMyBM
-4M7ABn6j8/c3cNCFgCROkjvlQze9nRl+lhfEU6Ou9f9yKkU5pjzmf2+zeQ4KeJm4
-ak4mzam350NnUZsbt7zPKQpxbs2yoSr0ihCfp+b6fT8lEJ0bhB+czlO7zWz58c42
-edj6gmYewATxKru2HPL9LCUMNB4c1rMAUy6IPnsJxWYiiPHmjjwY2xfzhylEuoYg
-VmVSLDtXHI2Sjsd3oe0bWwa0cIaR6KIdTzET5GXjTFojYfIUIJd1FQt9tNMIYHzo
-/NNiioBnlxyAbEFqTfZqIeUHIyI9/Phxwgjuf0TzPOeCNA0GahNc32la3Sn6bPcq
-PweqG1z4m5eYTp9h2/4qDVyiXpiUaUS+eGY4WSCjkxeRyuSPKpAKC6EW86yiw5WJ
-wJGS//b9kk3sLVhZ3cNjQN0KJcPePmqLsGLgSgQMpXlMsA7e8MotLJ+iyHoTbcsR
-KFCZRosyoaGYaHVsD04Rt8Ry
-=L+7R
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmmLGjUbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+OCYP/ieBisgajHxCC2bMmDed
+K8ELEsPeXLsMzGLVZkz2Bdiqx/AAWYbFFfZaytcq0WFyI9EXTURHREeQwaXdNPtg
+5nQTPbjCaKJRiEZr7PZuvWhj8nyEtUKyIyf0gla8JPoOXn3LWP7kptuk7tNEMqu5
+yO+BDi4FIOLbnY+6T6M1DYPWlF3XLwqy9TTmdVKLO3r+dFWq2F2fxMM/n8nEUNnb
+qRPveY1nYe6gbUJH4Sdvl4wagVGak3giE2IwkNXvBUTSOAKjk55BRx8w/mO0w515
+vVXc6J3wfAUUCBDIK5AfOYZDEqXyUyO+IminPxT0WLBW4+3I2HNvDB6j2C0JzBZ3
+6Ni4cyWdzojZUeVXqNs8Qwwvh0EuFVmJKpZfb0KdpNRqgBjE6tgtyHLOIhJW+Ucb
+OKBjhGkzD7Qi+M2h80lYftHmIijyCxfnQgtlq+qX8/dkj2HyoQ5KxD/23s26jy3F
+4odRfyFSvy1ROpzdx80pwhIKS8P8aWwPbcn1v13iKYfycuTQWa+KrNzMxWhzNfgn
+XIQRlwCEQQtUPDAAGDClFdeAMrUBTYlmCy9iMdeirjFqdPxX6tnXQH1A0LPCIggk
+CaAzL0e3mM/r6+0lVZLcYL6r1nUWZ4UGpYHpkvtryjMsMhgVtjnx9+Shu7ISVYv9
+b7hq3PcXdjU+dSqq9ht2XU4e
+=7fwE
 -----END PGP SIGNATURE-----
 
---===============7908844598646504245==--
+--===============3107252240404572518==--
