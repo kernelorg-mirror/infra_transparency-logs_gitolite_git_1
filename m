@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6648263387267727278=="
+Content-Type: multipart/mixed; boundary="===============4534936265198141308=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Tue, 10 Feb 2026 22:43:23 -0000
-Message-Id: <177076340350.706633.17588235751442186140@gitolite.kernel.org>
+Date: Tue, 10 Feb 2026 22:43:30 -0000
+Message-Id: <177076341062.706852.15365126143546308900@gitolite.kernel.org>
 
---===============6648263387267727278==
+--===============4534936265198141308==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: ast
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/for-next
     old: a9aabb3b839aba094ed80861054993785c61462c
     new: dc855b77719fe452d670cae2cf64da1eb51f16cc
     log: revlist-a9aabb3b839a-dc855b77719f.txt
 
---===============6648263387267727278==
+--===============4534936265198141308==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -338,4 +338,4 @@ a4d963b9d6eead4cbd4b702832acf2921189a692 Merge tag 'x86-platform-2026-02-09' of 
 66bbe4a8ed73f1187a4271c58f0ea30f42debe0d Merge tag 'irq-core-2026-02-09' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 dc855b77719fe452d670cae2cf64da1eb51f16cc Merge tag 'irq-drivers-2026-02-09' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 
---===============6648263387267727278==--
+--===============4534936265198141308==--
