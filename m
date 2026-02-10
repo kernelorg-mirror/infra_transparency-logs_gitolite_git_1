@@ -1,46 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============8512943928005143055=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-Date: Tue, 10 Feb 2026 15:23:28 -0000
-Message-Id: <177073700807.345342.496967660682269364@gitolite.kernel.org>
-
---===============8512943928005143055==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
+Date: Tue, 10 Feb 2026 15:28:35 -0000
+Message-Id: <177073731559.349533.9979749758222871335@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-user: ij
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/acme/linux
+user: acme
 changes:
-  - ref: refs/heads/review-ilpo-next
-    old: eeeb4c9874bb7ad11d322156443b1d3ebfaaa1cf
-    new: 5a5203a45b063a594e89a2aeaf9e4923893a5b4c
+  - ref: refs/heads/tmp.perf-tools-next
+    old: 3d012b8614ee020666f3dd15af9f65dc487e3f5f
+    new: 5d1ab659fb93eed85d6d8b2937013360157032f4
     log: |
-         5a5203a45b063a594e89a2aeaf9e4923893a5b4c platform/x86: lenovo-wmi-{capdata,other}: Fix HWMON channel visibility
+         84a654f786414a74a15a7b61929d1ced06687310 tools build: Make test-rust.bin be removed by the 'clean' target
+         1f12fb138de81e63c1140689257548966cfb88a3 tools build: Emit dependencies file for test-rust.bin
+         bc105a8918fd8458ec3a5b947018b0f8059da529 Revert "perf tool_pmu: More accurately set the cpus for tool events"
+         63b320aaac08ba267268ec21a195ce3c82dcb8ab perf stat-shadow: In prepare_metric fix guard on reading NULL perf_stat_evsel
+         ff8548172f63288b5c2b0fda5a4a4be294f610f1 perf evlist: Special map propagation for tool events that read on 1 CPU
+         47172912c9933103bc2c68627b1dafd9058d035e perf evlist: Missing TPEBS close in evlist__close()
+         d484361550ebdc4da77ea16f6cb08badde33e799 perf evlist: Reduce affinity use and move into iterator, fix no affinity
+         5d1ab659fb93eed85d6d8b2937013360157032f4 perf stat: Add no-affinity flag
          
-
---===============8512943928005143055==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1770737004 +0200
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86.git
-nonce 1770737000-460b6b96d47690e8cbec89aca5f6272670f8fe5d
-
-eeeb4c9874bb7ad11d322156443b1d3ebfaaa1cf 5a5203a45b063a594e89a2aeaf9e4923893a5b4c refs/heads/review-ilpo-next
------BEGIN PGP SIGNATURE-----
-
-iHUEABYIAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCaYtNbgAKCRBZrE9hU+XO
-MXqvAP9zEIVdfbNfcYo6NRrjAz6siMabvocAiVLFce3Ds91MyQD/ZtFxEbvT6R4k
-oY/phC9MAkOOAvWAGEoUqAKWH4hHTQ0=
-=L6eF
------END PGP SIGNATURE-----
-
---===============8512943928005143055==--
