@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mips/linux
-Date: Tue, 10 Feb 2026 15:49:34 -0000
-Message-Id: <177073857443.366381.477581211050947720@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/trace/linux-trace
+Date: Tue, 10 Feb 2026 15:51:49 -0000
+Message-Id: <177073870970.369835.2522322050293876614@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mips/linux
-user: tsbogend
+repo: pub/scm/linux/kernel/git/trace/linux-trace
+user: rostedt
 changes:
-  - ref: refs/heads/mips-next
-    old: 0bce126ab7e5719ead2f9144057b83bd285b1b23
-    new: 720452a6d0fdc94ec3301f31ea10b43102eaeeef
+  - ref: refs/heads/trace/for-next
+    old: c4f1fe47b106e9200cbb1b8951bd75f036d53bd3
+    new: f743435f988cb0cf1f521035aee857851b25e06d
     log: |
-         df136764e86e4d271133359e2ecd2b6717cc5040 Revert "clk: microchip: fix typo in reference to a config option"
-         720452a6d0fdc94ec3301f31ea10b43102eaeeef Revert "clk: microchip: core: allow driver to be compiled with COMPILE_TEST"
+         b4bade506b18eb2e5e34ac84f915d7ee6156d4e2 tracing: Move d_max_latency out of CONFIG_FSNOTIFY protection
+         f743435f988cb0cf1f521035aee857851b25e06d tracing: Fix false sharing in hwlat get_sample()
          
