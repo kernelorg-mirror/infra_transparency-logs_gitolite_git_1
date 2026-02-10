@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/geert/renesas-drivers
-Date: Tue, 10 Feb 2026 16:16:04 -0000
-Message-Id: <177074016414.390825.17388092964072529681@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Tue, 10 Feb 2026 16:18:05 -0000
+Message-Id: <177074028589.391562.859650400226876657@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/geert/renesas-drivers
-user: geert
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/renesas-clk-for-v6.21
-    old: ccb32af17c5c85550a86df3e9d6f88b4b4f987e5
+  - ref: refs/heads/fileehdAej
+    old: 1a4b0c999101b2532723f9bd9818b70ffa7580f4
     new: 0000000000000000000000000000000000000000
