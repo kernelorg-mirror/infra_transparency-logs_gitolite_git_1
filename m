@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/utils/korgalore/korgalore
-Date: Wed, 11 Feb 2026 15:56:14 -0000
-Message-Id: <177082537434.1688271.5188316712951553426@gitolite.kernel.org>
+Date: Wed, 11 Feb 2026 16:01:05 -0000
+Message-Id: <177082566538.1692469.17909417146981989610@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,9 +11,9 @@ service: git-receive-pack
 repo: pub/scm/utils/korgalore/korgalore
 user: mricon
 changes:
-  - ref: refs/heads/master
-    old: f3cbb367b8dc898d6ee225522115cb9e66431dbc
-    new: 14ba4eea81279759c3cd21b32c9f598139eb8715
+  - ref: refs/notes/signatures/tar
+    old: 9b05a8261e8d8ee2452427985abc262cde358b06
+    new: 96ae55acf35e4bec7e37a1b1146dc97dddbad87e
     log: |
-         14ba4eea81279759c3cd21b32c9f598139eb8715 Improve GUI startup error reporting and debug logging
+         96ae55acf35e4bec7e37a1b1146dc97dddbad87e Notes added by 'git notes add'
          
