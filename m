@@ -1,22 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/korgalore/korgalore
-Date: Wed, 11 Feb 2026 16:01:16 -0000
-Message-Id: <177082567653.1692718.17550529659914331430@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tzungbi/chrome-platform
+Date: Wed, 11 Feb 2026 16:08:55 -0000
+Message-Id: <177082613541.1697255.11416140046367902646@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/korgalore/korgalore
-user: mricon
+repo: pub/scm/linux/kernel/git/tzungbi/chrome-platform
+user: tzungbi
 changes:
-  - ref: refs/heads/stable-0.5.y
-    old: 468719b8c87cdb99752ce6bc75d560d45b110e46
-    new: c5ad8956d581b4787009c37e52b22fa20ed66911
+  - ref: refs/heads/revocable
+    old: 0fab305c6443f72ce66412d745efdb015e90aa0e
+    new: 73af229dff5e97a4f3563f8c7b0280d2563e37a7
     log: |
-         c5ad8956d581b4787009c37e52b22fa20ed66911 Release v0.5.2
+         73af229dff5e97a4f3563f8c7b0280d2563e37a7 selftests: revocable: Add kselftest cases
          
-  - ref: refs/tags/v0.5.2
-    old: 0000000000000000000000000000000000000000
-    new: f82595096b397317d7b4403f662cbc0e2a13c936
