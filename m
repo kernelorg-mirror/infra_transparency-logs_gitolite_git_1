@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1196812740367556264=="
+Content-Type: multipart/mixed; boundary="===============3960844604950596550=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Wed, 11 Feb 2026 20:44:00 -0000
-Message-Id: <177084264050.1919522.9172676244301427966@gitolite.kernel.org>
+Date: Wed, 11 Feb 2026 20:44:17 -0000
+Message-Id: <177084265787.1919888.6392059303368665104@gitolite.kernel.org>
 
---===============1196812740367556264==
+--===============3960844604950596550==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,15 +16,23 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: c1fb070390bf4d76f2f100b357defe368a05427a
-    new: f161ecf54fea3a1657e3a8fa8db332338e5b090c
-    log: revlist-c1fb070390bf-f161ecf54fea.txt
+    old: f161ecf54fea3a1657e3a8fa8db332338e5b090c
+    new: d1d12a9c2211cfcbce5eccb144e71ac12c29678f
+    log: |
+         82841c8bde06c6e84d6d81fd9ba2422049b3dd4e Merge branch into tip/master: 'timers/urgent'
+         38bb4fadbb58b4e01acc105605afaf916f3d3d99 Merge branch into tip/master: 'core/debugobjects'
+         d1d12a9c2211cfcbce5eccb144e71ac12c29678f Merge branch into tip/master: 'locking/futex'
+         
+  - ref: refs/heads/tip/urgent
+    old: 72aee470ba4961366bff3e620a5a0d2a8d3b4e7a
+    new: 82841c8bde06c6e84d6d81fd9ba2422049b3dd4e
+    log: revlist-72aee470ba49-82841c8bde06.txt
 
---===============1196812740367556264==
+--===============3960844604950596550==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c1fb070390bf-f161ecf54fea.txt
+Content-Disposition: attachment; filename=revlist-72aee470ba49-82841c8bde06.txt
 
 5395bb7f7c361310d0f329c8169d2190809b05c1 spi: imx: introduce helper to clear DMA mode logic
 a5f298581d454c5ea77c5fb6f4ee1bff61eb2b2c spi: imx: avoid dmaengine_terminate_all() on TX prep failure
@@ -1049,6 +1057,6 @@ a31980dba7b957df21fd99d158dd0be516825676 Merge tag 'hid-for-linus-2026020901' of
 0d6dd4738dbcc32b60c0c0c1388d41e171b76845 Merge tag 'firewire-updates-7.0' of git://git.kernel.org/pub/scm/linux/kernel/git/ieee1394/linux1394
 d061251387903e8502843ac983553f0b2e098ef8 Merge tag 'sound-7.0-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tiwai/sound
 b7ef56a07672e0d7ebe71c9d9b45f959f0c2f8e8 Merge tag 'media/v7.0-2' of git://git.kernel.org/pub/scm/linux/kernel/git/mchehab/linux-media
-f161ecf54fea3a1657e3a8fa8db332338e5b090c Merge branch 'linus'
+82841c8bde06c6e84d6d81fd9ba2422049b3dd4e Merge branch into tip/master: 'timers/urgent'
 
---===============1196812740367556264==--
+--===============3960844604950596550==--
