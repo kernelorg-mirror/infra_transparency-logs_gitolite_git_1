@@ -1,44 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============1800722052606253097=="
+Content-Type: multipart/mixed; boundary="===============8727900972217288421=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netfilter/nf
-Date: Wed, 11 Feb 2026 11:54:02 -0000
-Message-Id: <177081084284.1332701.18026872246478046283@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Wed, 11 Feb 2026 11:56:40 -0000
+Message-Id: <177081100072.1336245.4040584732821640780@gitolite.kernel.org>
 
---===============1800722052606253097==
+--===============8727900972217288421==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netfilter/nf
-user: fwestphal
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: 6d2f142b1e4b203387a92519d9d2e34752a79dbb
-    new: 943f3b8bfbf297cf74392b50a7108ce1fe4cbd8c
-    log: revlist-6d2f142b1e4b-943f3b8bfbf2.txt
+  - ref: refs/heads/master
+    old: c8a1691e3c7390f70ff145e2076aa33781343e08
+    new: 38579f643c9bc23ba53a7260c6387344a5c2efc1
+    log: |
+         38579f643c9bc23ba53a7260c6387344a5c2efc1 5.15-stable patches
+         
 
---===============1800722052606253097==
+--===============8727900972217288421==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6d2f142b1e4b-943f3b8bfbf2.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-ae88a5d2f29b69819dc7b04086734439d074a643 net: atm: fix crash due to unvalidated vcc pointer in sigd_send()
-8c5d17834ec104d0abd1bda52fbc04e647fab274 net: sunhme: Fix sbus regression
-81b84de32bb27ae1ae2eb9acf0420e9d0d14bf00 xfrm: fix ip_rt_bug race in icmp_route_lookup reverse path
-d01103fdcb871fd83fd06ef5803d576507c6a801 net: ethernet: marvell: skge: remove incorrect conflicting PCI ID
-308e7e4d0a846359685f40aade023aee7b27284c serial: caif: fix use-after-free in caif_serial ldisc_close()
-36bd7d5deef936c4e1e3cd341598140e5c14c1d3 net: wan/fsl_ucc_hdlc: Fix dma_free_coherent() in uhdlc_memclean()
-73e6ffa37cebee152c07c5f2b8bc70fd2899ea6e octeon_ep: disable per ring interrupts
-ce8fe3fc4f99efd872120301c0f72f2e90ab9769 octeon_ep: ensure dbell BADDR updation
-484e834d53cffa91c311631271f83130cf6e9e7c octeon_ep_vf: ensure dbell BADDR updation
-3a23b80dd72de245d931394381fea6a573935c9f Merge branch 'disable-interrupts-and-ensure-dbell-updation'
-3def995c4ede842adf509c410e92d09a0cedc965 octeontx2-af: CGX: fix bitmap leaks
-cdb1634de3bf197c0d86487d1fb84c128a79cc7c ionic: Rate limit unknown xcvr type messages
-e9a5073a98d940837cbb95e71eed1f28f48e7b30 net: renesas: rswitch: fix forwarding offload statemachine
-943f3b8bfbf297cf74392b50a7108ce1fe4cbd8c octeontx2-pf: Unregister devlink on probe failure
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1770810998 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1770810995-8fa763c9f7f0b6e5d4dac292659adfe21a532ced
 
---===============1800722052606253097==--
+c8a1691e3c7390f70ff145e2076aa33781343e08 38579f643c9bc23ba53a7260c6387344a5c2efc1 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmmMbnYbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+pkcQAIyJcLBR8RBK+RUuaaGf
+E77o+lJS8dc1sc+igMmxxhfpn1g/IZT2ujIUdwIxaC3YkeGXjuaNRREXt+KL2OlA
+jVMibKpn+st29Zfu1a+JhL9jJGCcHFwH/QVuzzrcaUj8xz07jVZEskAxSUZs7ZBu
+AIjbTWDbRlZhs3DkFRz2L4fjzD8POFKii6QQhFAue16eKOYA1rkyG2belfTBq78o
+uO6Kn2aHI9x2zyktlLRrRMNlH8e9dyVTdUd4eNdKqL5FY3gqqCyWnM6VVyt+n6CL
+KIyBh5r10/ES7RWeDA6emE1hrWCJnaA51IQCPdlG+qrGhpzjjb2nOTNTvrMwoFuD
+jzd2xrulW4LjkTK3zewNsmPJIEB0YFRXfYsULCszth+Wz2D8XS7FGAKYvlhq2ulK
+XZlN1P+R7Bq+OMuS4FmLQptYl08uz6hLhbGWvEQ6hQCaXWtg7lEMXTYHGk9cuqpX
+TnkI36WfwCR/H38VZVXQcptEm1QRMPZGNjUk3hkWZCmQHIxlfwekOYARuVBzKdXq
+WSSjkLuKc9i3uJ7D7BYiGUHBd8iXM3bzcImXBoM/3cIWG/I8gWcNp10q5ggrKwAd
+O/chcehIyJAArQz4dpw/8V/OaW/d9kmUXK7xkJVWBquTtzCRVu8VwATxFLjnB5zJ
+pqkp+AjagfYV3LyjtvTm71Eh
+=dalx
+-----END PGP SIGNATURE-----
+
+--===============8727900972217288421==--
