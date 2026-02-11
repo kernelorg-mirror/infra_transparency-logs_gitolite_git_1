@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5637650349637645153=="
+Content-Type: multipart/mixed; boundary="===============1805933330181933807=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Wed, 11 Feb 2026 00:33:33 -0000
-Message-Id: <177077001384.794203.7458793189489137505@gitolite.kernel.org>
+Date: Wed, 11 Feb 2026 00:33:36 -0000
+Message-Id: <177077001615.794319.3358634837329384684@gitolite.kernel.org>
 
---===============5637650349637645153==
+--===============1805933330181933807==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/10GbE
+  - ref: refs/heads/40GbE
     old: ee9241524b4682a34ed4b66d8c68c33304810b93
     new: 3a23b80dd72de245d931394381fea6a573935c9f
     log: revlist-ee9241524b46-3a23b80dd72d.txt
 
---===============5637650349637645153==
+--===============1805933330181933807==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -44,4 +44,4 @@ ce8fe3fc4f99efd872120301c0f72f2e90ab9769 octeon_ep: ensure dbell BADDR updation
 484e834d53cffa91c311631271f83130cf6e9e7c octeon_ep_vf: ensure dbell BADDR updation
 3a23b80dd72de245d931394381fea6a573935c9f Merge branch 'disable-interrupts-and-ensure-dbell-updation'
 
---===============5637650349637645153==--
+--===============1805933330181933807==--
