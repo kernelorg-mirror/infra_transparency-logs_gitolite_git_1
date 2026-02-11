@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mmind/linux-rockchip
-Date: Wed, 11 Feb 2026 09:26:56 -0000
-Message-Id: <177080201628.1215671.2483634365514494852@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/conor/linux
+Date: Wed, 11 Feb 2026 09:27:17 -0000
+Message-Id: <177080203795.1216087.1961072409361508671@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mmind/linux-rockchip
-user: mmind
+repo: pub/scm/linux/kernel/git/conor/linux
+user: conor
 changes:
-  - ref: refs/heads/v6.19-armsoc/dtsfixes
-    old: 56e7cc8dadf91cd2164e5d6dac9258f448d50182
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/v6.19-rockchip-dtsfixes1
-    old: 33c0150fbab5088d8dfea8971aa440ae2c3a7491
-    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/bla
+    old: ec09dae5347688adbcd5f22665e5c726ca1cd279
+    new: c56c28493a0fa602da51621a58911285e06a8751
+    log: |
+         08e209274b00a98d006dbf87093d0a0a264f5190 soc: microchip: add mpfs gpio interrupt mux driver
+         c56c28493a0fa602da51621a58911285e06a8751 riscv: dts: microchip: update mpfs gpio interrupts to better match the SoC
+         
