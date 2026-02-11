@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mmind/linux-rockchip
-Date: Wed, 11 Feb 2026 09:28:28 -0000
-Message-Id: <177080210864.1216835.1928294444451060843@gitolite.kernel.org>
+Date: Wed, 11 Feb 2026 09:29:14 -0000
+Message-Id: <177080215406.1217230.2287217142672140591@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,12 +11,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/mmind/linux-rockchip
 user: mmind
 changes:
-  - ref: refs/heads/v6.20-armsoc/dts32
-    old: e546c69ac54e907d0c33bc1fde55689db301981f
+  - ref: refs/heads/v6.20-armsoc/dts64
+    old: 46c56b737161060dfa468f25ae699749047902a2
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/v6.20-rockchip-dts32-1
-    old: 9674342c9ef46a9abf02c507aa55169b7ee97e78
+  - ref: refs/tags/v6.20-rockchip-dts64-1
+    old: ff61dea634eb3561a0f2ab0ee132af22a14af849
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/v6.20-rockchip-dts32-2
-    old: f9a2ee3bd2e22396aa3d9123604113ec0be89890
+  - ref: refs/tags/v6.20-rockchip-dts64-2
+    old: 89a10b1f02e109d5f0d051396bc729a5360cbc46
     new: 0000000000000000000000000000000000000000
