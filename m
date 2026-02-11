@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/korgalore/korgalore
-Date: Wed, 11 Feb 2026 19:45:00 -0000
-Message-Id: <177083910088.1870606.1321968258901371612@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
+Date: Wed, 11 Feb 2026 19:51:13 -0000
+Message-Id: <177083947360.1877377.17408530635084796177@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/korgalore/korgalore
-user: mricon
+repo: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
+user: vudentz
 changes:
   - ref: refs/heads/master
-    old: 3be0291f37897218f66f3e4f838fab4b6e168489
-    new: dd76b071c7b0699262e08d30e8958d2304772f61
+    old: f266be5c8533471dd97c5d974d9ee8b489e4ae71
+    new: c2b82511ef7dfe3d096261a9741e83dfd4e717e5
     log: |
-         dd76b071c7b0699262e08d30e8958d2304772f61 Implement kgl subscribe command group
+         c2b82511ef7dfe3d096261a9741e83dfd4e717e5 Bluetooth: qca: Refactor code on the basis of chipset names
          
