@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8141219402569565036=="
+Content-Type: multipart/mixed; boundary="===============8843703307740385302=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Wed, 11 Feb 2026 20:22:39 -0000
-Message-Id: <177084135917.1902189.16473812586662929748@gitolite.kernel.org>
+Date: Wed, 11 Feb 2026 20:22:45 -0000
+Message-Id: <177084136542.1902407.17248665361426262959@gitolite.kernel.org>
 
---===============8141219402569565036==
+--===============8843703307740385302==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: ast
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/for-next
     old: dc855b77719fe452d670cae2cf64da1eb51f16cc
     new: 192c0159402e6bfbe13de6f8379546943297783d
     log: revlist-dc855b77719f-192c0159402e.txt
 
---===============8141219402569565036==
+--===============8843703307740385302==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ bdbddf72a2ab1cfea699959795d70df3931eefe7 Merge tag 'soc-drivers-7.0' of git://gi
 8ad8d24d962804d3c54b5b7542c4cb7cd6bacb3b Merge tag 'parisc-for-7.0-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/deller/parisc-linux
 192c0159402e6bfbe13de6f8379546943297783d Merge tag 'powerpc-7.0-1' of git://git.kernel.org/pub/scm/linux/kernel/git/powerpc/linux
 
---===============8141219402569565036==--
+--===============8843703307740385302==--
