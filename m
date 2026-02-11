@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8998362555820463225=="
+Content-Type: multipart/mixed; boundary="===============7909973145109336637=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Wed, 11 Feb 2026 22:47:41 -0000
-Message-Id: <177085006192.2021375.2100901778490582488@gitolite.kernel.org>
+Date: Wed, 11 Feb 2026 22:47:59 -0000
+Message-Id: <177085007985.2021675.1809688740063002822@gitolite.kernel.org>
 
---===============8998362555820463225==
+--===============7909973145109336637==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,15 +16,23 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: d1d12a9c2211cfcbce5eccb144e71ac12c29678f
-    new: d81ad81162ca83efb5f8528757e5f9d5cdcd5ab5
-    log: revlist-d1d12a9c2211-d81ad81162ca.txt
+    old: d81ad81162ca83efb5f8528757e5f9d5cdcd5ab5
+    new: 2d555034ba4fcfed4e90ce9c2185d03c902ee942
+    log: |
+         edc2db9c8ffedcba787387ffc964b621c4179cd2 Merge branch into tip/master: 'timers/urgent'
+         c3d5543ccbdc572332814cfde8ae74e0804c2e5d Merge branch into tip/master: 'core/debugobjects'
+         2d555034ba4fcfed4e90ce9c2185d03c902ee942 Merge branch into tip/master: 'locking/futex'
+         
+  - ref: refs/heads/tip/urgent
+    old: 82841c8bde06c6e84d6d81fd9ba2422049b3dd4e
+    new: edc2db9c8ffedcba787387ffc964b621c4179cd2
+    log: revlist-82841c8bde06-edc2db9c8ffe.txt
 
---===============8998362555820463225==
+--===============7909973145109336637==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d1d12a9c2211-d81ad81162ca.txt
+Content-Disposition: attachment; filename=revlist-82841c8bde06-edc2db9c8ffe.txt
 
 bd5840819aa12d1fc2831be1ceafb42237141be7 drm/xe/cri: Enable I2C controller
 d69d3636f5f7a84bae7cd43473b3701ad9b7d544 drm/xe: Increase TDF timeout
@@ -1049,6 +1057,6 @@ d19d963d2a4acb5bbf03e25733ba565a7f6e1422 accel/amdxdna: Fix incorrect DPM level 
 2f5db9b4002470ea19380326c5a390647c56e780 Merge tag 'drm-xe-next-fixes-2026-02-05' of https://gitlab.freedesktop.org/drm/xe/kernel into drm-next
 939faf71cf7ca9ab3d1bd2912ac0e203d4d7156a Merge tag 'drm-next-2026-02-11' of https://gitlab.freedesktop.org/drm/kernel
 1e83ccd5921a610ef409a7d4e56db27822b4ea39 sched/mmcid: Don't assume CID is CPU owned on mode switch
-d81ad81162ca83efb5f8528757e5f9d5cdcd5ab5 Merge branch 'linus'
+edc2db9c8ffedcba787387ffc964b621c4179cd2 Merge branch into tip/master: 'timers/urgent'
 
---===============8998362555820463225==--
+--===============7909973145109336637==--
