@@ -1,20 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/leon/linux-rdma
-Date: Wed, 11 Feb 2026 14:55:12 -0000
-Message-Id: <177082171278.1638290.379770289859738578@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/liburing
+Date: Wed, 11 Feb 2026 15:00:42 -0000
+Message-Id: <177082204268.1642740.9282086642665160836@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/leon/linux-rdma
-user: leon
+repo: pub/scm/linux/kernel/git/axboe/liburing
+user: axboe
 changes:
-  - ref: refs/heads/refactor-umem-v1
-    old: 54d9a80a05e9f9e024c9e1b66abcf04d60baa20a
-    new: 19d29a33419062cacd272a5de96f69d8696e6b8e
+  - ref: refs/heads/master
+    old: 06a47be5e18d442a193d4fcec529ee64f1ceb551
+    new: 9d429ddedafd6e486c30cdf78fbdd8a6e627b80f
     log: |
-         8a648d6afe8439dfeda0b5c7c83e08a5cb1f53fb RDMA/mlx5: Reduce CQ memory footprint
-         19d29a33419062cacd272a5de96f69d8696e6b8e RDMA/mthca: Use generic resize-CQ lock
+         b60263c07dba230fadd22ff9e179591c8d01ff2a Bump version to 2.15
+         119169ff0812baaccf4f9168546d4479a6ecd3e5 bpf filter: add pdu_size support and expose struct io_uring_bpf
+         9d429ddedafd6e486c30cdf78fbdd8a6e627b80f test/cbpf_filter: add pdu_size validation tests
          
