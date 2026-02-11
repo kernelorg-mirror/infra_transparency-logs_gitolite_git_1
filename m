@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3451866887835326892=="
+Content-Type: multipart/mixed; boundary="===============6316489893217734722=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/kbuild/linux
-Date: Wed, 11 Feb 2026 23:08:54 -0000
-Message-Id: <177085133405.2038171.12258956436968855876@gitolite.kernel.org>
+Date: Wed, 11 Feb 2026 23:09:23 -0000
+Message-Id: <177085136345.2038507.3129507781713556981@gitolite.kernel.org>
 
---===============3451866887835326892==
+--===============6316489893217734722==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/kbuild/linux
 user: nathan
 changes:
-  - ref: refs/heads/kbuild-fixes-unstable
+  - ref: refs/heads/kbuild-fixes-for-next
     old: 8e24994872361212531a952c93adb01c485148f1
     new: 0869bdc84a2c9a2b705a65f8039d52f0978ca94b
     log: revlist-8e2499487236-0869bdc84a2c.txt
 
---===============3451866887835326892==
+--===============6316489893217734722==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -477,4 +477,4 @@ e98f34af61167aee238e666bfbc97d1620afd88a Merge tag 'i2c-for-6.19-final' of git:/
 6d253174ff4375bdbda3c7143180de8e1e25262b kernel: rpm-pkg: Restore find-debuginfo.sh approach to -debuginfo package
 0869bdc84a2c9a2b705a65f8039d52f0978ca94b kbuild: Add objtool to top-level clean target
 
---===============3451866887835326892==--
+--===============6316489893217734722==--
