@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tzungbi/chrome-platform
-Date: Wed, 11 Feb 2026 16:08:55 -0000
-Message-Id: <177082613541.1697255.11416140046367902646@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/korgalore/korgalore
+Date: Wed, 11 Feb 2026 16:32:28 -0000
+Message-Id: <177082754831.1716512.14567760342775650221@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tzungbi/chrome-platform
-user: tzungbi
+repo: pub/scm/utils/korgalore/korgalore
+user: mricon
 changes:
-  - ref: refs/heads/revocable
-    old: 0fab305c6443f72ce66412d745efdb015e90aa0e
-    new: 73af229dff5e97a4f3563f8c7b0280d2563e37a7
+  - ref: refs/heads/master
+    old: 14ba4eea81279759c3cd21b32c9f598139eb8715
+    new: 3be0291f37897218f66f3e4f838fab4b6e168489
     log: |
-         73af229dff5e97a4f3563f8c7b0280d2563e37a7 selftests: revocable: Add kselftest cases
+         f7c38471c8ddbb617ebfaffbe98528e00a7592df Document Maildir subfolder and strftime support
+         3be0291f37897218f66f3e4f838fab4b6e168489 Fix rst warnings in configuration docs
          
