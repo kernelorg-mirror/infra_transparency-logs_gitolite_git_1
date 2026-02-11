@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6663341018195186401=="
+Content-Type: multipart/mixed; boundary="===============3716052162629105314=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Wed, 11 Feb 2026 00:29:11 -0000
-Message-Id: <177076975103.789452.16169503316410911640@gitolite.kernel.org>
+Date: Wed, 11 Feb 2026 00:29:13 -0000
+Message-Id: <177076975343.789667.2781106972619690926@gitolite.kernel.org>
 
---===============6663341018195186401==
+--===============3716052162629105314==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/10GbE
+  - ref: refs/heads/40GbE
     old: 24cf78c738318f3d2b961a1ab4b3faf1eca860d7
     new: ad1f18e985cb2758c60f644c8fbc92a97bb6d2ba
     log: revlist-24cf78c73831-ad1f18e985cb.txt
 
---===============6663341018195186401==
+--===============3716052162629105314==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -105,4 +105,4 @@ efeb214411730dbbd7271bd0ad71823dec525289 net: ftgmac100: Always register the MDI
 c22ba07c827f2ac84573ac788383a8e1eafe21bc net: dsa: eliminate local type for tc policers
 ad1f18e985cb2758c60f644c8fbc92a97bb6d2ba net/mlx5e: remove declarations of mlx5e_shampo_{fill_umr,dealloc_hd}
 
---===============6663341018195186401==--
+--===============3716052162629105314==--
