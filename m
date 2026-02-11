@@ -1,20 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/bluetooth/bluez
-Date: Wed, 11 Feb 2026 17:58:12 -0000
-Message-Id: <177083269292.1785420.3427771574994977458@gitolite.kernel.org>
+Subject: post-receive: pub/scm/docs/man-pages/man-pages
+Date: Wed, 11 Feb 2026 18:02:27 -0000
+Message-Id: <177083294756.1789231.5251319768895795271@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/bluetooth/bluez
-user: vudentz
+repo: pub/scm/docs/man-pages/man-pages
+user: alx
 changes:
   - ref: refs/heads/master
-    old: f1eedda9cefc3080b642f58342a38cfcc264d3d8
-    new: 30acac54935cc175649612633f685a4fbcdda5c6
+    old: e35318ed54c81039fef18302e521666ca4d2731b
+    new: 2ac2562f7fe5a1c74ec6e683c111ef1944a7ec5d
     log: |
-         6b2a732b434fef055e90bb845106b35c09288ed7 client: Add mgmt.exp-iso command
-         30acac54935cc175649612633f685a4fbcdda5c6 bluetoothctl-mgmt: Add documentation to exp-iso command
+         c420f73ec92dacd8c6801283e2e4c47e9a1828b7 Changes: Ready for 6.17
+         397a13f40afb22d7c59f6c04950a4f86687611fb lsm: Released 6.17
+         2ac2562f7fe5a1c74ec6e683c111ef1944a7ec5d */: Say GNU+Linux instead of GNU/Linux
          
