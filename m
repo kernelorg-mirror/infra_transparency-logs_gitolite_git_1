@@ -1,22 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/conor/linux
-Date: Wed, 11 Feb 2026 09:25:27 -0000
-Message-Id: <177080192738.1215110.12132477929295741011@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mmind/linux-rockchip
+Date: Wed, 11 Feb 2026 09:26:56 -0000
+Message-Id: <177080201628.1215671.2483634365514494852@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/conor/linux
-user: conor
+repo: pub/scm/linux/kernel/git/mmind/linux-rockchip
+user: mmind
 changes:
-  - ref: refs/heads/bla
-    old: 6124ffbb452bacd43bf2679507cf0908b229701a
-    new: ec09dae5347688adbcd5f22665e5c726ca1cd279
-    log: |
-         65a49b75dec8e542ff38a469877afc4c2018ae34 gpio: mpfs: Add interrupt support
-         058105b69cf6881e737ed29f44c56e77b40c34da dt-bindings: soc: microchip: document PolarFire SoC's gpio interrupt mux
-         50eac2efd4d594edd6b66da025c84bc2272a79cd soc: microchip: add mpfs gpio interrupt mux driver
-         ec09dae5347688adbcd5f22665e5c726ca1cd279 riscv: dts: microchip: update mpfs gpio interrupts to better match the SoC
-         
+  - ref: refs/heads/v6.19-armsoc/dtsfixes
+    old: 56e7cc8dadf91cd2164e5d6dac9258f448d50182
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/tags/v6.19-rockchip-dtsfixes1
+    old: 33c0150fbab5088d8dfea8971aa440ae2c3a7491
+    new: 0000000000000000000000000000000000000000
