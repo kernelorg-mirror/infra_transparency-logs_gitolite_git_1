@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
-Date: Wed, 11 Feb 2026 19:11:19 -0000
-Message-Id: <177083707940.1844142.13371248655657968220@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/firmware/linux-firmware
+Date: Wed, 11 Feb 2026 19:35:10 -0000
+Message-Id: <177083851043.1862630.583328478674628093@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
-user: vudentz
+repo: pub/scm/linux/kernel/git/firmware/linux-firmware
+user: jwboyer
 changes:
-  - ref: refs/heads/master
-    old: ac0c6f1b6a58466bfd0c3d499332e5b04b574eab
-    new: 5c3d538e7be51b43ae61007acb6d7784e07f9869
+  - ref: refs/heads/main
+    old: d87f4693ed96d0f3f6f16b0f09be42f3b8acb9e0
+    new: e72747d3ca7b2b5be471b4f1faf9ccf3c0709f6a
     log: |
-         5c3d538e7be51b43ae61007acb6d7784e07f9869 Bluetooth: L2CAP: Fix result of L2CAP_ECRED_CONN_RSP when MTU is too short
+         65a3c868b360019395e9210539ed67ccc4c6719e ath11k: QCA6390 hw2.0: update board-2.bin
+         cbd0f9753754fd9605df129ff04b0c4b4fc82568 ath11k: WCN6855 hw2.0: update board-2.bin
+         e72747d3ca7b2b5be471b4f1faf9ccf3c0709f6a Merge branch 'robot/pr-0-1770832508' into 'main'
          
