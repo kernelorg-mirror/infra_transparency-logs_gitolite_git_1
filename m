@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/cxl/cxl
-Date: Thu, 12 Feb 2026 18:40:46 -0000
-Message-Id: <177092164648.3064628.5321911790645989504@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/akpm/mm
+Date: Thu, 12 Feb 2026 18:48:54 -0000
+Message-Id: <177092213450.3069047.5311472209219062426@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/cxl/cxl
-user: djiang
+repo: pub/scm/linux/kernel/git/akpm/mm
+user: akpm
 changes:
-  - ref: refs/tags/cxl-for-7.0
+  - ref: refs/tags/mm-nonmm-stable-2026-02-12-10-28
     old: 0000000000000000000000000000000000000000
-    new: 2d2758deb021bf13fb09c97cc5d1b06300d5e2b1
+    new: 93e2c03c64e8846bda6d24209df660eba6f7d26d
+  - ref: refs/tags/mm-nonmm-stable-2026-02-12-10-48
+    old: 0000000000000000000000000000000000000000
+    new: bef04829ebcd3537ad467d013ab62db96788547e
