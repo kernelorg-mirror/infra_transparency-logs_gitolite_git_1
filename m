@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3713171555837448384=="
+Content-Type: multipart/mixed; boundary="===============4780803324410838799=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
-Date: Thu, 12 Feb 2026 20:46:07 -0000
-Message-Id: <177092916749.3160615.13047404865719920818@gitolite.kernel.org>
+Date: Thu, 12 Feb 2026 20:46:23 -0000
+Message-Id: <177092918326.3160871.4465765973352366713@gitolite.kernel.org>
 
---===============3713171555837448384==
+--===============4780803324410838799==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,18 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/perf/perf-tools-next
 user: acme
 changes:
-  - ref: refs/heads/perf-tools-next
-    old: 5d1ab659fb93eed85d6d8b2937013360157032f4
+  - ref: refs/heads/tmp.perf-tools-next
+    old: 3cbfc1cbe368d1ef4c6e5f087ddb30c46fd96362
     new: dbf0108347bdb5d4ccef8910555b16c1f1a505f8
-    log: revlist-5d1ab659fb93-dbf0108347bd.txt
+    log: revlist-3cbfc1cbe368-dbf0108347bd.txt
 
---===============3713171555837448384==
+--===============4780803324410838799==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5d1ab659fb93-dbf0108347bd.txt
+Content-Disposition: attachment; filename=revlist-3cbfc1cbe368-dbf0108347bd.txt
 
+5d1ab659fb93eed85d6d8b2937013360157032f4 perf stat: Add no-affinity flag
 1a6c45969a85d1be43dbbf0705aef4bc8eb515a8 perf libunwind: Fix calls to thread__e_machine()
 804490c3eb26098b60c5e858fa20c0e6f2c2c1d8 tools build: Fix feature test for rust compiler
 adc1284bae3cfd25df785d55b900a8778ad79366 perf test data_type_profiling.sh: Skip just the Rust tests if code_with_type workload is missing
@@ -39,4 +40,4 @@ fc4577b52a891da3828af52c1e1c7167b9dcd4dc perf test: Test pipe mode with data con
 2273697781d27c6ac033cdca7b5f5f5ad12e28f9 perf test script: Add perl script testing support
 dbf0108347bdb5d4ccef8910555b16c1f1a505f8 perf test script: Add python script testing support
 
---===============3713171555837448384==--
+--===============4780803324410838799==--
