@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============6255011728542368603=="
+Content-Type: multipart/mixed; boundary="===============6136620578029835050=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jgg/iommufd
-Date: Thu, 12 Feb 2026 18:29:30 -0000
-Message-Id: <177092097090.3050302.5292661912883474682@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/fwctl/fwctl
+Date: Thu, 12 Feb 2026 18:29:55 -0000
+Message-Id: <177092099564.3050710.14275187018737254289@gitolite.kernel.org>
 
---===============6255011728542368603==
+--===============6136620578029835050==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jgg/iommufd
+repo: pub/scm/linux/kernel/git/fwctl/fwctl
 user: jgg
 changes:
   - ref: refs/heads/linus
@@ -23,7 +23,7 @@ changes:
     old: 0000000000000000000000000000000000000000
     new: e9ec05addd1a067fc7cb218f20ecdc1b1b0898c0
 
---===============6255011728542368603==
+--===============6136620578029835050==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -1054,4 +1054,4 @@ c6e62d002b7f0613f02d8707c80f2a7bd66808a0 Merge tag 'driver-core-7.0-rc1' of git:
 098b6e44cbaa2d526d06af90c862d13fb414a0ec Merge tag 'devicetree-for-7.0' of git://git.kernel.org/pub/scm/linux/kernel/git/robh/linux
 37a93dd5c49b5fda807fd204edf2547c3493319c Merge tag 'net-next-7.0' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net-next
 
---===============6255011728542368603==--
+--===============6136620578029835050==--
