@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2182620240467037332=="
+Content-Type: multipart/mixed; boundary="===============6406325265145574865=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sudeep.holla/linux
-Date: Thu, 12 Feb 2026 10:36:23 -0000
-Message-Id: <177089258326.2573843.571671549462262468@gitolite.kernel.org>
+Date: Thu, 12 Feb 2026 10:36:28 -0000
+Message-Id: <177089258870.2574032.6781997878254132096@gitolite.kernel.org>
 
---===============2182620240467037332==
+--===============6406325265145574865==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sudeep.holla/linux
 user: sudeep.holla
 changes:
-  - ref: refs/heads/for-next/ffa/updates
-    old: be4d4543f78074fbebd530ba5109d39a2a34e668
+  - ref: refs/heads/for-next/juno/updates
+    old: f0d0f087227c4b63538e4ed8292f1fa26f8d6633
     new: 05f7e89ab9731565d8a62e3b5d1ec206485eeb0b
-    log: revlist-be4d4543f780-05f7e89ab973.txt
+    log: revlist-f0d0f087227c-05f7e89ab973.txt
 
---===============2182620240467037332==
+--===============6406325265145574865==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-be4d4543f780-05f7e89ab973.txt
+Content-Disposition: attachment; filename=revlist-f0d0f087227c-05f7e89ab973.txt
 
 803e18641fd444a614415711a5af53dcde21104b NFS: Don't immediately return directory delegations when disabled
 f93fc5d12d69012788f82151bee55fce937e1432 net: octeon_ep_vf: fix free_irq dev_id mismatch in IRQ rollback
@@ -1051,4 +1051,4 @@ e7aa57247700733e52a8e2e4dee6a52c2a76de02 Merge tag 'spi-fix-v6.19-rc8' of git://
 e98f34af61167aee238e666bfbc97d1620afd88a Merge tag 'i2c-for-6.19-final' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
 05f7e89ab9731565d8a62e3b5d1ec206485eeb0b Linux 6.19
 
---===============2182620240467037332==--
+--===============6406325265145574865==--
