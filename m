@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3780950214710904620=="
+Content-Type: multipart/mixed; boundary="===============0622470536688270017=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/driver-core/driver-core
-Date: Thu, 12 Feb 2026 13:27:56 -0000
-Message-Id: <177090287626.2813373.7540413393818647266@gitolite.kernel.org>
+Date: Thu, 12 Feb 2026 13:28:03 -0000
+Message-Id: <177090288385.2813633.488663441378618825@gitolite.kernel.org>
 
---===============3780950214710904620==
+--===============0622470536688270017==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,47 +16,56 @@ repo: pub/scm/linux/kernel/git/driver-core/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/driver-core-linus
-    old: 63804fed149a6750ffd28610c5c1c98cce6bd377
+  - ref: refs/heads/driver-core-next
+    old: ba268514ea14b44570030e8ed2aef92a38679e85
     new: 37a93dd5c49b5fda807fd204edf2547c3493319c
-    log: revlist-63804fed149a-37a93dd5c49b.txt
+    log: revlist-ba268514ea14-37a93dd5c49b.txt
 
---===============3780950214710904620==
+--===============0622470536688270017==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1770902875 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1770902882 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/driver-core/driver-core.git
-nonce 1770902874-b96bfe05967f231eadc6977dc219fc935b830de0
+nonce 1770902880-a6ac6be09f62b6e4979d336755e835f6e8f67e03
 
-63804fed149a6750ffd28610c5c1c98cce6bd377 37a93dd5c49b5fda807fd204edf2547c3493319c refs/heads/driver-core-linus
+ba268514ea14b44570030e8ed2aef92a38679e85 37a93dd5c49b5fda807fd204edf2547c3493319c refs/heads/driver-core-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmmN1VsbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+psIP/idtM2K1/46Zzwh79CJN
-WGtg6R0zS0o3IYD15YUkHeyRgfKaW18pDCfRG8oMkZmSAs+Y4vpbIFAbnPQsXW6K
-eKvfeDEOS1vGIudGhx33az0G0HVVa46lWPw/v/Mbo75VyQkI5eNL5koNyLQ80dof
-xa42Ex5YSicID2qiZYpNBMni0xKFwVPKLBMJEGHGUYHcMwxJFh+qhg0Ha+6IgBvb
-rofTkvwYf/NVkY5d5AftMfVLqswF2qSowZDycRZ8/M4JqNK85UNRzaBzM/asDgDo
-0nRgWgwPCzPoF1gROrgjNGjlQ7WzbnxFIfnPK1LQhmRQHgi3YwLLDs8NsketLV7N
-044kiDHZypGZdD3T+IXCnjleRZd2wfo5D68gQLP2Xcd4ggPgM8HHaXfhviJ8DGZb
-w8QNV486altmuRfK+/+rzC2Vm4bk3OE4atgKesqsOr2ZTYtbcpcJQLPPeu7/qOLh
-bgrp52R6vDkYtyJyAwgL4g1O6Dla0s2MZMo2TqoiZPrTOrvVLSYbEipiAcEKg9U8
-gv8FCHwXIQTz9s1XXrXJBENtYF294OVw0WubbVAdo/46E0+yDAICnvLbc6AAW1wB
-LQ9PHkt1KMTJ5HjyN3a0WwhpjDFrupxZjqwobA2NxkQBvaA8w1HFZEbJmdAVtc3G
-m4YrJavlvoyoxz0/0tPkllJS
-=FDmN
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmmN1WIbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+pVEQAKP643p5NYQN9XAdy8o3
+V6phmqpjsGiIQz7dASVikgTdx5eGdfEWEQ2yLhMkrxnUijKoQ5hosFWWtvFV1tTV
+7++X3p2epCmX6MtbXzSJ/SuH9gLGiutsHTXdDulXqPUanU1f99nnOhpZ8KPjB9Co
+Txox5pOuU7mudduP3LjUNmqs3tdeEH2NXnUGWBuQDUHYBa8EUEI26X2/OJ16mqlU
+WBqkRUDJQdLAQSFKwpCaXAAPkBtgkkigvomal2jNtPoqCPeL0K5D6yciwF1QCvt4
+ZmqRrm87iQLFwatpa/e2fleQBBiaHaaxRZwuCi66VlrdZRMHDzrR7gmP3NaqSsnX
+M2PSxmFSBj1hVZ4BAkGrNqrKusl+wg8E03rwNiowrz23l+jCPQ2g3PAtXJ0d5WK/
+CDqHaSmaER4AwO5NCoDt7zLXruMgoBBj0rEgvdC594DS6YE07qXt1uJrRRbK7x+o
+Is9E+KzXgSJ6vfnRlFfeR1Eng+YlybOIimB+Zo0yaQisekhyrZGEei9pre+whXfF
+0p5Mb0Lk6DkyJK+MLd4qxR8CKYxEWejsIGCwp1Acxx38MR8b1Dvj2JFyT8ZA8gE0
+IsB2BH/Ax8dmWHUy6++opgJ2nfEf8Rt02kHuJsIUuZtsvr3tZkgCtA2E9a1IgHZi
+pOA5kYSvnj7dtT+V6gvzFo2r
+=NPBx
 -----END PGP SIGNATURE-----
 
---===============3780950214710904620==
+--===============0622470536688270017==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-63804fed149a-37a93dd5c49b.txt
+Content-Disposition: attachment; filename=revlist-ba268514ea14-37a93dd5c49b.txt
 
+2f803980988884213de1f1bea0c9dde380d3db84 PCI: Remove superfluous HK_TYPE_WQ check
+012fef0e4859d1ffb41f5f7d72b3c61068829e6b kthread: Refine naming of affinity related fields
+5564c12385b7a6a2991e31017d12fcef96fa830a kthread: Include unbound kthreads in the managed affinity list
+92a734606e901cf7af239e3bd3cfb0c3a11d7b5e kthread: Include kthreadd to the managed affinity list
+041ee6f3727a5efdc497d0363ab5ffbd98a2c77c kthread: Rely on HK_TYPE_DOMAIN for preferred affinity management
+bf5b0c27fad2626789624deea10f43da499ad740 sched: Switch the fallback task allowed cpumask to HK_TYPE_DOMAIN
+79c0abaf06fca6e715cf792daed580542fc4a2c4 sched/arm64: Move fallback task cpumask to HK_TYPE_DOMAIN
+e894f633980804a528a2d6996c4ea651df631632 kthread: Honour kthreads preferred affinity after cpuset changes
+60ba9c38b9316efa3eb1c8a927bee6f8a4f101a5 kthread: Comment on the purpose and placement of kthread_affine_node() call
 d279138a2788ac22cff23710b2d4a3ebd160c09d kthread: Document kthread_affine_preferred()
 fa39ec4f89f2637ed1cdbcde3656825951787668 doc: Add housekeeping documentation
 e3474301824926ecce1d45f2ede7ecdda9a35840 ALSA: hda/realtek: Add quirk for Minisforum V3 SE
@@ -227,7 +236,6 @@ effcf3df282ba66e60718cefd08c6a3ed57d9dd3 s390/tape: Remove tape load display sup
 f51d34065de4f29fd237276a49cad06ac7356a55 Merge tag 'socfpga_dts_updates_for_v6.20_v3' of git://git.kernel.org/pub/scm/linux/kernel/git/dinguyen/linux into soc/dt
 cfd00b7e26c8331e3bb0f03ca770888866c15ff4 Merge tag 'soc_fsl-6.20-1' of https://git.kernel.org/pub/scm/linux/kernel/git/chleroy/linux into soc/drivers
 0e0c8f4d16de92520623aa1ea485cadbf64e6929 drm/mgag200: fix mgag200_bmc_stop_scanout()
-c5048ddee936ca5ce0aeb79172ce512130779d31 driver core: disable revocable code from build
 280ea9c3154b2af7d841f992c9fc79e9d6534e03 mm/slab: avoid allocating slabobj_ext array from its own slab
 9346ee2b53936758afe49519318865dd7c2b1843 slub: clarify object field layout comments
 b85f369b81aed457acbea4ad3314218254a72fd2 mm/slab: use unsigned long for orig_size to ensure proper metadata align
@@ -465,8 +473,6 @@ ad1df4f2d591e167bc64b8a7ce6328a2735e3d58 ice: dpll: Support E825-C SyncE and dyn
 7a4cd71fa4514cd85df39b3cf99da8142660cdcd net: add vlan_get_protocol_offset_inline() helper
 965e9a2cf23b066d8bdeb690dff9cd7089c5f667 pkcs7: Change a pr_warn() to pr_warn_once()
 7e210d5e934c8af0f74a1e1b4852a8996a6cb5a5 Merge tag 'nvme-6.19-2026-02-05' of git://git.infradead.org/nvme into block-6.19
-d79ff2d612022548b09c3427c69263bedf7f16df sysfs: remove exports of sysfs_*change_owner()
-f55ae0bfa00e446ea751d09f468daeafc303e03f driver core: remove device_change_owner() export
 ab10815472fcbc2c772dc21a979460b7f74f0145 livepatch: Fix having __klp_objects relics in non-livepatch modules
 b525fcaf0a76507f152d58c6f9e5ef67b3ff552c livepatch: Free klp_{object,func}_ext data after initialization
 18328546dd59b6adc111cf84a0ee4cdd3a867611 objtool/klp: Fix symbol correlation for orphaned local symbols
@@ -581,9 +587,6 @@ be0bccffcde3308150d2a90e55fc10e249098909 sparc: don't reference obsolete termio 
 d844152d85cfcc7d2ef9430a25882604c12da279 sparc: remove unused variable strtab
 9fd99788f3e5a129908c242bb29946077ca46611 io_uring: add task fork hook
 ed82f35b926b2e505c14b7006473614b8f58b4f4 io_uring: allow registration of per-task restrictions
-379a5aad4e8ce7bd0b1600c03ae0c9a28f66a183 Revert "selftests: revocable: Add kselftest cases"
-7149ce34dd48886b3f69153c7f5533dd3fd5f47e Revert "revocable: Add Kunit test cases"
-21bab791346e5b7902a04709231c0642ff6d69bc Revert "revocable: Revocable resource management"
 42fc7e6543f6d17d2cf9ed3e5021f103a3d11182 landlock: Multithreading support for landlock_restrict_self()
 50c058e3eafe31a5197d4cffb599f2f5f165d4eb selftests/landlock: Add LANDLOCK_RESTRICT_SELF_TSYNC tests
 39508405f6e6c8ce8a0f4bf93b344610d9051043 landlock: Document LANDLOCK_RESTRICT_SELF_TSYNC
@@ -607,8 +610,6 @@ b8c89f5cc2037b1902d680d169332fda71a0d38e Merge branch 'fix-some-corner-cases-in-
 fe70b3260e39ce4915a01cf3556a3ffe5b7f8817 Merge tag 'iommu-fix-v6.19-rc8' of git://git.kernel.org/pub/scm/linux/kernel/git/iommu/linux
 23b0d2f7c2864099fba140672017e3e69ddf88a0 Merge tag 'dma-mapping-6.19-2026-02-06' of git://git.kernel.org/pub/scm/linux/kernel/git/mszyprowski/linux
 240b8d8227468344e814c6bc7eb8ae532e3b8a09 Merge tag 'ceph-for-6.19-rc9' of https://github.com/ceph/ceph-client
-408e4f9408ec5e4dfec4a3adc8b411b046f85a8e samples: rust: pci: Remove some additional `.as_ref()` for `dev_*` print
-66fb10bc5c25c83ab268be0390863dd4299d063c rust: dma: add missing __rust_helper annotations
 bab849a908496a593af61a9832eea26f1ec3e279 Merge tag 'trace-v6.19-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
 3dc58c9ce1c5802fec680cb8e95962f1430d5771 Merge tag 'mm-hotfixes-stable-2026-02-06-12-37' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
 e43e2aa557040bbcc5de0eaa1c59ee3ae9e31793 PCI: rzg3s-host: Fix device node reference leak in rzg3s_pcie_host_parse_port()
@@ -694,7 +695,6 @@ db7e826030dc6775b862468476c1fd08b10f0799 parisc: Enhance debug code for PAT firm
 e3217ddf29cb2fe7c9c12978aac89ee1651599f1 parisc: Fix minor printk issues in iosapic debug code
 62c544bc108caa4ce68bfb9864a2500c4480ff56 parisc: Detect 64-bit free running platform counter
 1651d69443c3a5fc12f1dee1229d526e7af9020a parisc: lba_pci: Add debug code to show IO and PA ranges
-ba268514ea14b44570030e8ed2aef92a38679e85 rust: devres: fix race condition due to nesting
 05363abc7625cf18c96e67f50673cd07f11da5e9 pstore: ram_core: fix incorrect success return when vmap() fails
 5669645c052f235726a85f443769b6fc02f66762 pstore/ram: fix buffer overflow in persistent_ram_save_old()
 dc8f3d9ae804e8bb47dd49b051fe8b303db3b95c crypto: testmgr - Add test vectors for authenc(hmac(md5),cbc(des3_ede))
@@ -1082,4 +1082,4 @@ c6e62d002b7f0613f02d8707c80f2a7bd66808a0 Merge tag 'driver-core-7.0-rc1' of git:
 098b6e44cbaa2d526d06af90c862d13fb414a0ec Merge tag 'devicetree-for-7.0' of git://git.kernel.org/pub/scm/linux/kernel/git/robh/linux
 37a93dd5c49b5fda807fd204edf2547c3493319c Merge tag 'net-next-7.0' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net-next
 
---===============3780950214710904620==--
+--===============0622470536688270017==--
