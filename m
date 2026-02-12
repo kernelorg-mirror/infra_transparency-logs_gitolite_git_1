@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2594720337537332290=="
+Content-Type: multipart/mixed; boundary="===============4574753743093718036=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
-Date: Thu, 12 Feb 2026 15:03:37 -0000
-Message-Id: <177090861724.2885951.17829002180529897847@gitolite.kernel.org>
+Date: Thu, 12 Feb 2026 15:05:47 -0000
+Message-Id: <177090874771.2889270.9897018425951503396@gitolite.kernel.org>
 
---===============2594720337537332290==
+--===============4574753743093718036==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,36 +16,30 @@ repo: pub/scm/linux/kernel/git/xiang/erofs-utils
 user: xiang
 changes:
   - ref: refs/heads/experimental-tests
-    old: 2ae5b4e61afd96b4655224fc28fc2140b51b75c8
-    new: cb3579c6d69d96e860dfabf5c8e50dc23ede7e3a
-    log: revlist-2ae5b4e61afd-cb3579c6d69d.txt
+    old: cb3579c6d69d96e860dfabf5c8e50dc23ede7e3a
+    new: b7023b467409f73f9e4826de3e3c0f37fa62c4f1
+    log: revlist-cb3579c6d69d-b7023b467409.txt
 
---===============2594720337537332290==
+--===============4574753743093718036==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2ae5b4e61afd-cb3579c6d69d.txt
+Content-Disposition: attachment; filename=revlist-cb3579c6d69d-b7023b467409.txt
 
-155365fcf59031aac0a88e145a259b8068bb3d8e erofs-utils: tests: add fssum tool
-bdcfdb4025ef9837fa3ffeabb18d53785bc76e5c erofs-utils: tests: add basic testcases
-75db44a0f8e5dfe60c3b62daaf75e3752489c5d6 erofs-utils: tests: testcase for bad lz4 versions
-1d00933b2e700597d5c3d3a5e0908c133e2cda09 erofs-utils: tests: add test for # of hardlinks
-402e1fcb8291284f5d9513192ecd977b5265cc86 erofs-utils: tests: add test to avoid hardlinked directories
-ed6708ce4083f08a0a4ef46a06407346512b2449 erofs-utils: tests: check for cross-device submounts
-0e74b351385968ef382cf20b6139c12ad7016630 erofs-utils: tests: check battach on full buffer block
-aa3b8138e674e8cdd45f7d4245945ab8769ea328 erofs-utils: tests: check uncompressed image with random dirs
-f3a0fb9d0a629ad34a005cd75fdc006c74ff8647 erofs-utils: tests: check the compress-hints functionality
-a84a3f455a23f60a2adafbe392b67860ab8fb5e5 erofs-utils: tests: add test for MicroLZMA compression
-41ff2e164c1879370680b59e5edf7a06d742da0d erofs-utils: tests: add generic helper for xattrs
-7eefab0c1955af9ea48ccce683c5f9be56c83126 erofs-utils: tests: add test for xattrs
-a87b0ec17460fb11a0591cd0776b787395864249 erofs-utils: tests: add test for xattrs in different layouts
-4d76540798bba971a38dad966656ecdc71d5c80e erofs-utils: tests: add test for xattr crossing block boundary
-475b723f3e458dfa4922a06b377cabaa316baf9c erofs-utils: tests: add test for long xattr name prefixes
-30005fc5bf49889bb5b903e4f4f2cbc4d3db4b93 erofs-utils: tests: add test for xattrs in random layouts
-c7efe6858db30095e6891bb1ed768d96d3395a6b erofs-utils: tests: add test for DEFLATE compression
-f988e65f74cad7451764e190962427bfa276b883 erofs-utils: update .gitignore for test results and tools
-33abd39059edcc5a36ecb0e473739131eba996b2 erofs-utils: tests: add test for corrupted directories with hardlinks
-68595b2754f7620410403c516d78d9af2e9ac5ca erofs-utils: tests: add compression algorithms check for tests
-cb3579c6d69d96e860dfabf5c8e50dc23ede7e3a erofs-utils: tests: add test for Zstandard compression
+a36c724a901796fdddd2f1de70e386d9ea2f1110 erofs-utils: tests: check battach on full buffer block
+8f9cc4a6753e66ff56d83e85e79dc9354e88bf60 erofs-utils: tests: check uncompressed image with random dirs
+ee752bf6480e04c3a63dab51e87d12aa411124bd erofs-utils: tests: check the compress-hints functionality
+cd4d87abd6336ef5f0b3b9f7d828b840a1e24722 erofs-utils: tests: add test for MicroLZMA compression
+a9f4cf77062e6f58bbe34cb88d241fcd55e1d2d3 erofs-utils: tests: add generic helper for xattrs
+cc98b1c2bd802e91299fabe35da34eeace85dce1 erofs-utils: tests: add test for xattrs
+fa21d6c339f070a234e13b7290cf3c1e09774ca4 erofs-utils: tests: add test for xattrs in different layouts
+101849d0ed603b497146b0fab3c4e981cbf86c04 erofs-utils: tests: add test for xattr crossing block boundary
+15e03f75bb1b7c3929e718f15a4a51d3dcf8ba39 erofs-utils: tests: add test for long xattr name prefixes
+6703b69b8b4e10674d5e8aba7f8c86189bc6c78a erofs-utils: tests: add test for xattrs in random layouts
+2400dd1d6a161f094b967834a6fee644e66ea7f6 erofs-utils: tests: add test for DEFLATE compression
+40c9dc8ec58a6a97fdb05308e1cacd6d2561bc18 erofs-utils: update .gitignore for test results and tools
+df8c3e555c2a3b0fa26dc0ecbbf746f599970da0 erofs-utils: tests: add test for corrupted directories with hardlinks
+59b88f93c84ec7e70c54ad17b2e39d7388737087 erofs-utils: tests: add compression algorithms check for tests
+b7023b467409f73f9e4826de3e3c0f37fa62c4f1 erofs-utils: tests: add test for Zstandard compression
 
---===============2594720337537332290==--
+--===============4574753743093718036==--
