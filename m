@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4681515688703840065=="
+Content-Type: multipart/mixed; boundary="===============2169364110161789247=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/kbuild/linux
-Date: Thu, 12 Feb 2026 16:37:03 -0000
-Message-Id: <177091422370.2965221.2183854497514586792@gitolite.kernel.org>
+Date: Thu, 12 Feb 2026 16:37:14 -0000
+Message-Id: <177091423406.2965511.1603486514166636892@gitolite.kernel.org>
 
---===============4681515688703840065==
+--===============2169364110161789247==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/kbuild/linux
 user: nathan
 changes:
-  - ref: refs/heads/kbuild-fixes-unstable
+  - ref: refs/heads/kbuild-fixes-for-next
     old: 0869bdc84a2c9a2b705a65f8039d52f0978ca94b
     new: 553b0975820a271d748ca4331b52ead0956ea7fe
     log: revlist-0869bdc84a2c-553b0975820a.txt
 
---===============4681515688703840065==
+--===============2169364110161789247==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -73,4 +73,4 @@ df989b01b5f97dae8f9869cfacbda1308f2182c1 Merge 7.0 Kbuild changes into kbuild-fi
 34d534c5b2a035c4bd3737822b1bece8aa464900 kbuild: rpm-pkg: Restrict manual debug package creation
 553b0975820a271d748ca4331b52ead0956ea7fe kernel: rpm-pkg: Restore find-debuginfo.sh approach to -debuginfo package
 
---===============4681515688703840065==--
+--===============2169364110161789247==--
