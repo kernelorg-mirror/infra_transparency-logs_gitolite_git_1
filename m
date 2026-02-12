@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
-Date: Thu, 12 Feb 2026 21:27:42 -0000
-Message-Id: <177093166271.3204675.4941764482512079918@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
+Date: Thu, 12 Feb 2026 22:12:12 -0000
+Message-Id: <177093433256.3238519.13079421248717394427@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pci/pci
-user: helgaas
+repo: pub/scm/linux/kernel/git/akpm/25-new
+user: akpm
 changes:
-  - ref: refs/heads/msi
-    old: 0000000000000000000000000000000000000000
-    new: a648eed65a7b683a1198692bf53c8faa6fdf20cd
+  - ref: refs/heads/master
+    old: 6cdb3706ea5d9bf127d8ba06889873b7b9a47de8
+    new: 22a169de6957e60d97d28a206af3b670ecdd0c83
+    log: |
+         22a169de6957e60d97d28a206af3b670ecdd0c83 foo
+         
