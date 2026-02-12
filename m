@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6004834485717028069=="
+Content-Type: multipart/mixed; boundary="===============6797384676882122649=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Thu, 12 Feb 2026 08:56:33 -0000
-Message-Id: <177088659378.2497289.17033938220567969951@gitolite.kernel.org>
+Date: Thu, 12 Feb 2026 08:56:52 -0000
+Message-Id: <177088661244.2497634.922450453390162724@gitolite.kernel.org>
 
---===============6004834485717028069==
+--===============6797384676882122649==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,15 +16,23 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: 2d555034ba4fcfed4e90ce9c2185d03c902ee942
-    new: 2f96359e15ab712b86a2fdff7c3969495bbbd618
-    log: revlist-2d555034ba4f-2f96359e15ab.txt
+    old: 2f96359e15ab712b86a2fdff7c3969495bbbd618
+    new: 776b56ccd92c54be16a669f5a368c3a513a2092c
+    log: |
+         6f44303c9695402b2f01fed341f1d8107e75216b Merge branch into tip/master: 'timers/urgent'
+         3d52e42d9c78413f0fed992ecc9058e8834c5bed Merge branch into tip/master: 'core/debugobjects'
+         776b56ccd92c54be16a669f5a368c3a513a2092c Merge branch into tip/master: 'locking/futex'
+         
+  - ref: refs/heads/tip/urgent
+    old: edc2db9c8ffedcba787387ffc964b621c4179cd2
+    new: 6f44303c9695402b2f01fed341f1d8107e75216b
+    log: revlist-edc2db9c8ffe-6f44303c9695.txt
 
---===============6004834485717028069==
+--===============6797384676882122649==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-2d555034ba4f-2f96359e15ab.txt
+Content-Disposition: attachment; filename=revlist-edc2db9c8ffe-6f44303c9695.txt
 
 e8f4005ab2d4819805c2f6b19e8bd633f8579bd0 netconsole: add STATE_DEACTIVATED to track targets disabled by low level
 5b114087438dcd229c8754c093c44619c346d67c netconsole: clear dev_name for devices bound by mac
@@ -1049,6 +1057,6 @@ c22e26bd0906e9c8325462993f01adb16b8ea2c0 Merge tag 'landlock-7.0-rc1' of git://g
 c6e62d002b7f0613f02d8707c80f2a7bd66808a0 Merge tag 'driver-core-7.0-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/driver-core/driver-core
 098b6e44cbaa2d526d06af90c862d13fb414a0ec Merge tag 'devicetree-for-7.0' of git://git.kernel.org/pub/scm/linux/kernel/git/robh/linux
 37a93dd5c49b5fda807fd204edf2547c3493319c Merge tag 'net-next-7.0' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net-next
-2f96359e15ab712b86a2fdff7c3969495bbbd618 Merge branch 'linus'
+6f44303c9695402b2f01fed341f1d8107e75216b Merge branch into tip/master: 'timers/urgent'
 
---===============6004834485717028069==--
+--===============6797384676882122649==--
