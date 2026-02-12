@@ -1,25 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/trace/linux-trace
-Date: Thu, 12 Feb 2026 14:17:59 -0000
-Message-Id: <177090587924.2851172.7031028352948034630@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
+Date: Thu, 12 Feb 2026 14:18:24 -0000
+Message-Id: <177090590412.2851524.4938902730235654433@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/trace/linux-trace
-user: rostedt
+repo: pub/scm/linux/kernel/git/xiang/erofs-utils
+user: xiang
 changes:
-  - ref: refs/heads/for-next
-    old: 1f37c538ff24e5b14e9047923951597b7d5cb89e
-    new: 9d0e23f4670c1afbdf37b2528d4d66487ead501d
+  - ref: refs/heads/dev
+    old: 75924229dd7c97b9c9031dda6ec6f46b69fb7c51
+    new: 684430f18a3ee89f544112db630e014e4dd07e72
     log: |
-         f844282deed7481cf2f813933229261e27306551 tracing: Fix to set write permission to per-cpu buffer_size_kb
-         804c4a2209bcf6ed4c45386f033e4d0f7c5bfda5 tracing: Reset last_boot_info if ring buffer is reset
-         fa4820b893843f7ad5e1b5c446a92426c5c946ce tracing: Fix indentation of return statement in print_trace_fmt()
-         8ae2dfe9b3cc7706c9fe704dbf35193f51f1a16b Merge bootconfig/for-next
-         e37c73c1294744092c4f79bb37cdc99f46cbc49e Merge latency/for-next
-         02492e0ecab636bf9e5ba64ef4928be0e414994c Merge probes/for-next
-         9d0e23f4670c1afbdf37b2528d4d66487ead501d Merge tools/for-next
+         848c42a7494888c4c884051f52c92e8a1db42c5b erofs-utils: manpage: only install mount.erofs.8 with the command
+         ef1c25dc288bcd1efc7d283d1f5d4653da29bb75 erofs-utils: lib: cache: pass abort semantics down to .flush()
+         a729584ef975db16c7fd1b464c734df5c56a192d erofs-utils: mkfs: avoid hanging if fragment is on and tmpdir is full
+         5e7cdf7593ae62a3256299dd0118c06cc56944d5 erofs-utils: mkfs: add `--xattr-inode-digest` option
+         76499b5787800c70c3e7a40e2d70f01288d233e0 erofs-utils: mount: mark OCI as experimental
+         684430f18a3ee89f544112db630e014e4dd07e72 erofs-utils: manpage: document missing --quiet option for mkfs.erofs
          
