@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6843540095426541166=="
+Content-Type: multipart/mixed; boundary="===============0331173069811936045=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Thu, 12 Feb 2026 20:18:53 -0000
-Message-Id: <177092753309.3137965.1159701417672520195@gitolite.kernel.org>
+Date: Thu, 12 Feb 2026 20:19:10 -0000
+Message-Id: <177092755002.3138291.15449905088481003934@gitolite.kernel.org>
 
---===============6843540095426541166==
+--===============0331173069811936045==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,15 +16,23 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: 776b56ccd92c54be16a669f5a368c3a513a2092c
-    new: 3b4ce184f6f2d78a771610902a8de18dea69ef32
-    log: revlist-776b56ccd92c-3b4ce184f6f2.txt
+    old: 3b4ce184f6f2d78a771610902a8de18dea69ef32
+    new: 2c48bab428e6fc27dc65b953e67b2184dd5ad9d6
+    log: |
+         0e1e03cc7c0e3eb7303b4b393b806b988f1043d1 Merge branch into tip/master: 'timers/urgent'
+         803df66fa2886291a14031be26a477736d29c589 Merge branch into tip/master: 'core/debugobjects'
+         2c48bab428e6fc27dc65b953e67b2184dd5ad9d6 Merge branch into tip/master: 'locking/futex'
+         
+  - ref: refs/heads/tip/urgent
+    old: 6f44303c9695402b2f01fed341f1d8107e75216b
+    new: 0e1e03cc7c0e3eb7303b4b393b806b988f1043d1
+    log: revlist-6f44303c9695-0e1e03cc7c0e.txt
 
---===============6843540095426541166==
+--===============0331173069811936045==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-776b56ccd92c-3b4ce184f6f2.txt
+Content-Disposition: attachment; filename=revlist-6f44303c9695-0e1e03cc7c0e.txt
 
 9218dc26fd922b09858ecd3666ed57dfd8098da8 jfs: nlink overflow in jfs_rename
 eb0cfcf265714b419cc3549895a00632e76732ae jfs: Add missing set_freezable() for freezable kthread
@@ -185,6 +193,6 @@ cf559d9011140087abf84b34871849ee8e305bca Merge tag 'for-linus-7.0-ofs1' of git:/
 997f9640c9238b991b6c8abf5420b37bbba5d867 Merge tag 'fsverity-for-linus' of git://git.kernel.org/pub/scm/fs/fsverity/linux
 a8ed22870f5304a6ac64f694572cafc12801a9cf Merge tag 'fsnotify_for_v6.20-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/jack/linux-fs
 541c43310e85dbf35368b43b720c6724bc8ad8ec Merge tag 'fs_for_v6.20-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/jack/linux-fs
-3b4ce184f6f2d78a771610902a8de18dea69ef32 Merge branch 'linus'
+0e1e03cc7c0e3eb7303b4b393b806b988f1043d1 Merge branch into tip/master: 'timers/urgent'
 
---===============6843540095426541166==--
+--===============0331173069811936045==--
