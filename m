@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/security/vulns
-Date: Thu, 12 Feb 2026 15:57:19 -0000
-Message-Id: <177091183989.2932184.3207367310175852854@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/superm1/amd-debug-tools
+Date: Thu, 12 Feb 2026 16:00:36 -0000
+Message-Id: <177091203607.2935554.3523859417946570876@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/security/vulns
-user: lee
+repo: pub/scm/linux/kernel/git/superm1/amd-debug-tools
+user: superm1
 changes:
   - ref: refs/heads/master
-    old: a80338ad568cadefbd431fccbd5bf58e268477a7
-    new: 41fa437b190eb48b9cd5ff17e2f14ce4a7f77b5a
+    old: 9df36c9a14fe33e5b51daddf2f995a965958ad5a
+    new: 8150b4427f9c54d496a300de71ff0677587ab1bb
     log: |
-         41fa437b190eb48b9cd5ff17e2f14ce4a7f77b5a proposed: Add Lee's v6.18.8 results
+         8150b4427f9c54d496a300de71ff0677587ab1bb Revert "Switch to systemd-run instead of sudo for showing report"
          
