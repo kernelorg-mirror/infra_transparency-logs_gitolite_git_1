@@ -1,20 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kbuild/linux
-Date: Thu, 12 Feb 2026 16:39:56 -0000
-Message-Id: <177091439613.2966437.8897210224932695048@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
+Date: Thu, 12 Feb 2026 16:42:55 -0000
+Message-Id: <177091457579.2969991.4550666697664544562@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kbuild/linux
-user: nathan
+repo: pub/scm/linux/kernel/git/cel/linux
+user: cel
 changes:
-  - ref: refs/heads/kbuild-fixes-for-next
-    old: 553b0975820a271d748ca4331b52ead0956ea7fe
-    new: d59d7292d8b2f3123450e0ba573da6072fd869ef
+  - ref: refs/heads/nfsd-testing
+    old: e3934bbd57c73b3835a77562ca47b5fbc6f34287
+    new: 2e069b1479bb947fed35309ddc407803ce5717b9
     log: |
-         7b441a90763ae444719412dcee926ab7a22faf54 kbuild: rpm-pkg: Restrict manual debug package creation
-         d59d7292d8b2f3123450e0ba573da6072fd869ef kernel: rpm-pkg: Restore find-debuginfo.sh approach to -debuginfo package
+         622534d4910f8cddbf7cccb502cd896e023b654f NFSD: Add a key for signing filehandles
+         482e15caec14726c6612dba3f482ad525deb0be5 NFSD/export: Add sign_fh export option
+         b4169318a0afd386290548418e8d5f23b2cf2cc3 NFSD: Sign filehandles
+         a563fb9ef12d1283f45973956503eceba13a7b89 [DEBUG] Add instrumentation for nfsd_mutex contention debugging
+         2e069b1479bb947fed35309ddc407803ce5717b9 siw: Enable try_gso
          
