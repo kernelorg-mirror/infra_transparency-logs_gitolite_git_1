@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6890557420954002689=="
+Content-Type: multipart/mixed; boundary="===============1530423538677590004=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Thu, 12 Feb 2026 21:22:25 -0000
-Message-Id: <177093134585.3198878.2366784545228036739@gitolite.kernel.org>
+Date: Thu, 12 Feb 2026 21:22:31 -0000
+Message-Id: <177093135109.3199138.17973489741833461037@gitolite.kernel.org>
 
---===============6890557420954002689==
+--===============1530423538677590004==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
+  - ref: refs/heads/10GbE
     old: 83310d613382f74070fc8b402f3f6c2af8439ead
     new: 37a93dd5c49b5fda807fd204edf2547c3493319c
     log: revlist-83310d613382-37a93dd5c49b.txt
 
---===============6890557420954002689==
+--===============1530423538677590004==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -1051,4 +1051,4 @@ c6e62d002b7f0613f02d8707c80f2a7bd66808a0 Merge tag 'driver-core-7.0-rc1' of git:
 098b6e44cbaa2d526d06af90c862d13fb414a0ec Merge tag 'devicetree-for-7.0' of git://git.kernel.org/pub/scm/linux/kernel/git/robh/linux
 37a93dd5c49b5fda807fd204edf2547c3493319c Merge tag 'net-next-7.0' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net-next
 
---===============6890557420954002689==--
+--===============1530423538677590004==--
