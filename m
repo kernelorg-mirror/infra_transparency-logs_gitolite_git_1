@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Thu, 12 Feb 2026 00:59:38 -0000
-Message-Id: <177085797829.2124815.16096855892936494554@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
+Date: Thu, 12 Feb 2026 00:59:53 -0000
+Message-Id: <177085799306.2125048.9491533484760158091@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/next-queue
+repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
   - ref: refs/heads/dev-queue
-    old: 75f9db283542a4ece0aac824d07f8dfd754aca19
-    new: 6239572b2b8ff3e04f6aa55b438e89eb6e6291bf
+    old: cc274905db424f0b69a7584a3f5890541391c03a
+    new: d5fd7701831e4908103b62a336b488dcc62c495a
     log: |
-         6239572b2b8ff3e04f6aa55b438e89eb6e6291bf ice: fix race condition in TX timestamp ring cleanup
+         d5fd7701831e4908103b62a336b488dcc62c495a ice: fix race condition in TX timestamp ring cleanup
          
