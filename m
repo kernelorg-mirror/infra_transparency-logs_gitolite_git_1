@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1595143394811115075=="
+Content-Type: multipart/mixed; boundary="===============1970029377546280297=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ulfh/mmc
-Date: Thu, 12 Feb 2026 10:59:53 -0000
-Message-Id: <177089399323.2589594.6865569986161355206@gitolite.kernel.org>
+Date: Thu, 12 Feb 2026 11:00:21 -0000
+Message-Id: <177089402197.2592123.1382113783694171291@gitolite.kernel.org>
 
---===============1595143394811115075==
+--===============1970029377546280297==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ulfh/mmc
 user: ulfh
 changes:
-  - ref: refs/heads/next
-    old: 7160b0e2b4d7a7eb99894aaeb009e2ad4797809e
-    new: a2319d162fca92c46abc25f7e61524e36df3a913
-    log: revlist-7160b0e2b4d7-a2319d162fca.txt
+  - ref: refs/heads/fixes
+    old: 63804fed149a6750ffd28610c5c1c98cce6bd377
+    new: 05f7e89ab9731565d8a62e3b5d1ec206485eeb0b
+    log: revlist-63804fed149a-05f7e89ab973.txt
 
---===============1595143394811115075==
+--===============1970029377546280297==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7160b0e2b4d7-a2319d162fca.txt
+Content-Disposition: attachment; filename=revlist-63804fed149a-05f7e89ab973.txt
 
 2f6d2c8d9ac05a7a1c02333f6ad30868246880d8 Revert "mtd: spinand: esmt: fix id code for F50D1G41LB"
 600559b9817f6eaa927035eebb12534fadb35ee8 rust: rbtree: fix minor typo in comment
@@ -476,70 +476,5 @@ b0e7d3f88e563b5ca793fca23c7d7fa1352c1079 Merge tag 'char-misc-6.19-final' of git
 e7aa57247700733e52a8e2e4dee6a52c2a76de02 Merge tag 'spi-fix-v6.19-rc8' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/spi
 e98f34af61167aee238e666bfbc97d1620afd88a Merge tag 'i2c-for-6.19-final' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
 05f7e89ab9731565d8a62e3b5d1ec206485eeb0b Linux 6.19
-4cfba0d7768f5b823d98ccf84bf5f08bc4d55f57 mmc: dw_mmc: Remove unused struct dma_pdata
-f0ae9fe93a4cfe2164b1238235f2d3395c7f30ce mmc: dw_mmc: add dw_mci_prepare_desc() for both of 32bit and 64bit DMA
-9424e87c24e9100d8e62ff579523ba34f849feb7 mmc: sdhci-msm: Enable ICE for CQE-capable controllers with non-CQE cards
-a1f2fbf3a674b8450fb990293ed8e1c802ccccb3 mmc: core: Adjust MDT beyond 2025
-0343e83aedb89b2ac45db46477ad35f77bb98737 mmc: core: Add quirk for incorrect manufacturing date
-63456b2bc218dad6b137dcf4f9304dbd51ec0319 dt-bindings: mmc: mtk-sd: Add support for MT8189 SoC
-9d7d65c2cf36a1d18187915cbb39002c14053c49 mmc: mtk-sd: add support for SPM resource release control
-e56d15117a5e209343792c55fd2e53ddbd87e307 mmc: mtk-sd: add support for MT8189 SoC
-f3babbb88ab16bfed67efca7e524303b3eefe535 mmc: sdhci-esdhc-imx: wait for data transfer completion before reset
-7eebae002843241f20da950b1338d00dd582cfa1 dt-bindings: mmc: cdns,sdhci: Drop required "resets" on AMD Pensando ELBA
-6d34ec555492672ba95863aa13af6970a5fec905 dt-bindings: mmc: brcm,iproc-sdhci: Allow "dma-coherent" and "iommus" properties
-8e069a3ccc136820176e994be4621c2c4c9f1b9b dt-bindings: mmc: arasan,sdhci: Allow "dma-coherent" property
-5c556deb58b76a4fedffb0b55905a4f790164055 mmc: dw_mmc: Remove vqmmc_enabled from struct dw_mci and update the reset
-16705b695066563f72e7a7724c3e9c8dff2db85d mmc: dw_mmc: Remove check before calling mmc_regulator_set_ocr()
-93fb8b93c7cd1d716552664dd7fe29dfb018e8bb mmc: dw_mmc: Remove unused header files and keep alphabetical order
-76c8990326fde41ac0b18909d0e94ed4b988e460 mmc: dw_mmc: Move struct mmc_host from struct dw_mci_slot to struct dw_mci
-b62ecd8735bfbd7bc654f30c1b908b45cf65ba9d mmc: dw_mmc: Let variant drivers to use struct dw_mci as possible
-85d900addf5998326d3521980bbe00258a23a149 mmc: dw_mmc: Move flags from struct dw_mci_slot to struct dw_mci
-df40b088da3a3f2b822ed564ddb1f5f7fea0c4ba mmc: dw_mmc: Remove id and ctype from dw_mci_slot
-abdb71a9674da2b1ef6a6bf29fb3c434af94bd21 mmc: dw_mmc: Remove sdio_id from struct dw_mci_slot
-301fc6f52de2117a926f20a5e19b96f29ab56c17 mmc: dw_mmc: Move clock rate stuff from struct dw_mci_slot to struct dw_mci
-097b5f01d40508304c75948e03f6157ddf20877d mmc: dw_mmc: Remove mrq from struct dw_mci_slot
-60e873e4fb21233df73391145778fc57cd839c48 mmc: dw_mmc: Remove queue from dw_mci
-4296ae3e2b27db4dc5b60b6083e33955885347f5 mmc: dw_mmc: Introduce dw_mci_alloc_host()
-19de3b333fa799b077aaa3d6cc89b78a8de743df mmc: dw_mmc: Remove struct dw_mci_slot
-ba2812a3d9712d9fcdabb6db59b374abfca8cc71 dt-bindings: mmc: spacemit,sdhci: add reset support
-287680c7d8a43e3827c162ca248087888ead133f mmc: sdhci-of-k1: add reset support
-66edd3b423bdbd6a427ba3b70a7bf65130f207ec mmc: cavium: Use clamp to simplify cvm_mmc_set_clock
-96afe864177b54b22e421ebf7551f56c8aaaadf9 mmc: atmel-mci: Simplify with scoped for each OF child loop
-0044cec83637eb8f032617bf7ae449a6ee5be73b mmc: cavium-octeon: Simplify with scoped for each OF child loop
-855209fbb55a9c3a1932d37faedf0c05b721b14d mmc: jz4740: Fix Wvoid-pointer-to-enum-cast warning
-a51b1768c8332ac8a93236fb6edf85d6865d5f64 mmc: sdhci-of-aspeed: Simplify with scoped for each OF child loop
-c21cb42164f11a92dc606c0ef5b0f8682434af1d dt-bindings: mmc: arm,pl18x: Do not use plural form of a proper noun PrimeCell
-71fc2bd58c0a99a50be2df94671ae3834be8f21a mmc: dw_mmc-rockchip: Fix runtime PM support for internal phase support
-08b4d1cf7dc300a20f4f73a0d685196f09626ebe mmc: dw_mmc: Check return value of dma_ops->init() in resume
-0f93a9481e5a931e5b36bb700467b587bee9f446 mmc: dw_mmc: Remove dma_ops from struct dw_mci_board
-13176129db796d7379f08fbeb3f5cc4fdaa4a4f5 mmc: dw_mmc: Remove SDMMC_INT_ERROR
-a9a69fa5f5f0fb50c4ebc9e32c4a9edc4932724c mmc: dw_mmc: Remove assignment of pdata in dw_mci_pltfm_register()
-1679776ecf13c6d3463e6482323ac81d89e4b96c mmc: dw_mmc: Remove caps2 and pm_caps from struct dw_mci_board
-1de792dd783cf4c514a7f5c6d76a421ddc71867f mmc: dw_mmc: Move rstc from struct dw_mci_board to struct dw_mci
-fe2f205cb89fcb14d01cddf1f8417c2c23b09859 mmc: dw_mmc: Remove fifo_depth from struct dw_mci_board
-7c2d4a958595ebb022c78053d11c40bf89632397 mmc: dw_mmc: Move detect_delay_ms from struct dw_mci_board to struct dw_mci
-330aabf43af16fcfd0f1b7311e73b44a9021413b mmc: dw_mmc: Remove bus_hz from struct dw_mci_board
-71c112ce7d1897028152ee94525817f46631c573 mmc: dw_mmc: Remove struct dw_mci_board
-0ff33c449a0a85423c5c1b1a4690db60ebcfc15a mmc: dw_mmc: Remove redundant struct mmc_data forward declaration
-97716bc0e2cd4078f8d0f414a8e7777c6d78fcd4 mmc: dw_mmc: Remove DW_MCI_SEND_STATUS and DW_MCI_RECV_STATUS macros
-2aee4b3b5d72c8f164bbbc691c198e4c65600f28 mmc: dw_mmc: Improve dw_mci_get_cd()
-e63a56b93cf0ec5777e910c802c59e0d180a3495 mmc: dw_mmc: Remove unused register access macros
-d90b5cf1d7d767a4670824e80d1a8f6adf431bbf mmc: dw_mmc-pci: Use BAR_2 and pcim_iomap_region()
-4801f823523a0ca25f0f385cc6d0761517d2b7af mmc: dw_mmc-pltfm: use modern PM macros
-241f50900202c692d174257723f989b054b8b0b0 mmc: sdio: add NXP vendor and IW61x device IDs
-5608e76d34251be5b852b26f2e9d870d94b9e8bd mmc: sdhci: Stop advertising the driver in dmesg
-96d6ac1d2e0ba4bc030e1e3d500f9b35c6558ec6 mmc: mmci: Fix device_node reference leak in of_get_dml_pipe_index()
-f66f1eaaedf9a66232f590f158ea68ef1d62286c dt-bindings: mmc: spacemit,sdhci: add support for K3 SoC
-0d8c60fcb398352fd2de3604a74b62b6a3aff89f mmc: sdhci-of-k1: spacemit: Add support for K3 SoC
-994f46bbf132d3a75250893a43ba9b6cd0fed41b dt-bindings: mmc: add binding for BST DWCMSHC SDHCI controller
-4f9f8c8919985fa2f6ad90cce380b64fb0bcf4a2 mmc: sdhci: allow drivers to pre-allocate bounce buffer
-26901631a95755445e81a26951080a8e9496d15e mmc: sdhci: add Black Sesame Technologies BST C1200 controller driver
-750a82ceabad77d054bb7bc3bb977860554c70d4 MAINTAINERS: add MMC files to BST entry
-6858533b7b69817b7184ac88c737a40b6ac7afe4 arm64: dts: hisilicon: hikey960/970: Convert to use standard mmc alias
-7a2b8d1bd844947020c4135362331925066a2734 mmc: dw_mmc-k3: Remove mshc alias support
-ea2952aac6f0827698c0ec930f632fd781e23770 mmc: dw_mmc: Remove mshc alias support
-ad015e9e57a25d2a53e5e11de8286216ddc2a7ba mmc: loongson2-mmc: drop redundant memset after dma_alloc_coherent()
-a91433542d8c045d20ea2eb9dac362df1978c476 mmc: dw_mmc: move pmops into core driver
-a2319d162fca92c46abc25f7e61524e36df3a913 mmc: core: Optimize time for secure erase/trim for some Kingston eMMCs
 
---===============1595143394811115075==--
+--===============1970029377546280297==--
