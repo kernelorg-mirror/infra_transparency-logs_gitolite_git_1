@@ -1,34 +1,35 @@
-Content-Type: multipart/mixed; boundary="===============6468366872586238245=="
+Content-Type: multipart/mixed; boundary="===============6057853530364019915=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tj/cgroup
-Date: Thu, 12 Feb 2026 17:28:51 -0000
-Message-Id: <177091733116.3004786.5814227042747556828@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tj/sched_ext
+Date: Thu, 12 Feb 2026 17:29:01 -0000
+Message-Id: <177091734196.3005029.11631176194874507446@gitolite.kernel.org>
 
---===============6468366872586238245==
+--===============6057853530364019915==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tj/cgroup
+repo: pub/scm/linux/kernel/git/tj/sched_ext
 user: tj
 changes:
   - ref: refs/heads/for-next
-    old: cdab91959f725a63396b947212e185556bc4539a
-    new: f97129ebd5f60bcf4d86103bcac8ee02cce2b885
-    log: revlist-cdab91959f72-f97129ebd5f6.txt
+    old: 3445c57d73330a05e4a0b88f87ab3ccddac7f708
+    new: 5897d90dce61d9ac7496ba3dcb19230c8aa214b8
+    log: revlist-3445c57d7333-5897d90dce61.txt
   - ref: refs/heads/for-7.0-fixes
     old: 0000000000000000000000000000000000000000
-    new: 5ee01f1a7343d6a3547b6802ca2d4cdce0edacb1
+    new: 11fece49e956ef97318177f5af15a84317594244
 
---===============6468366872586238245==
+--===============6057853530364019915==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-cdab91959f72-f97129ebd5f6.txt
+Content-Disposition: attachment; filename=revlist-3445c57d7333-5897d90dce61.txt
 
+fa39ec4f89f2637ed1cdbcde3656825951787668 doc: Add housekeeping documentation
 e3474301824926ecce1d45f2ede7ecdda9a35840 ALSA: hda/realtek: Add quirk for Minisforum V3 SE
 9fc7900b14727d39457bd3724f26e6e3faca3efd block: convert nr_requests to unsigned int
 1db61b0afdd7e8aa9289c423fdff002603b520b5 blk-mq-sched: unify elevators checking for async requests
@@ -310,7 +311,6 @@ b2821311abbd05d3340ad7f09fe89f088572b682 Merge branch 'bpf-add-bitwise-tracking-
 7a433e519364c3c19643e5c857f4fbfaebec441c bpf: Support negative offsets, BPF_SUB, and alu32 for linked register tracking
 47fcf4dc0a346dd0b873a679c547d6848bd85a37 selftests/bpf: Add tests for improved linked register tracking
 6e951a9b1af5dc063dfe9e17ca433be099527c43 Merge branch 'bpf-improve-linked-register-tracking'
-0eca95cba2b7bf7b7b4f2fa90734a85fcaa72782 sched_ext: Short-circuit sched_class operations on dead tasks
 831a2b27914cc880130ffe8fb8d1e65a5324d07f hwmon: (occ) Mark occ_init_attribute() as __printf
 3c7b4d1994f63d6fa3984d7d5ad06dbaad96f167 Merge tag 'sched_ext-for-6.19-rc8-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/tj/sched_ext
 f14faaf3a1fb3b9e4cf2e56269711fb85fba9458 Merge tag 'tsm-fixes-for-6.19' of git://git.kernel.org/pub/scm/linux/kernel/git/devsec/tsm
@@ -1051,7 +1051,7 @@ c22e26bd0906e9c8325462993f01adb16b8ea2c0 Merge tag 'landlock-7.0-rc1' of git://g
 c6e62d002b7f0613f02d8707c80f2a7bd66808a0 Merge tag 'driver-core-7.0-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/driver-core/driver-core
 098b6e44cbaa2d526d06af90c862d13fb414a0ec Merge tag 'devicetree-for-7.0' of git://git.kernel.org/pub/scm/linux/kernel/git/robh/linux
 37a93dd5c49b5fda807fd204edf2547c3493319c Merge tag 'net-next-7.0' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net-next
-5ee01f1a7343d6a3547b6802ca2d4cdce0edacb1 cgroup: fix race between task migration and iteration
-f97129ebd5f60bcf4d86103bcac8ee02cce2b885 Merge branch 'for-7.0-fixes' into for-next
+11fece49e956ef97318177f5af15a84317594244 tools/sched_ext: scx_flatcg: zero-initialize stats counter array
+5897d90dce61d9ac7496ba3dcb19230c8aa214b8 Merge branch 'for-7.0-fixes' into for-next
 
---===============6468366872586238245==--
+--===============6057853530364019915==--
