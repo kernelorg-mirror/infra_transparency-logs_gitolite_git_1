@@ -1,20 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
-Date: Thu, 12 Feb 2026 13:50:15 -0000
-Message-Id: <177090421571.2832560.8589521148515309094@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/trace/linux-trace
+Date: Thu, 12 Feb 2026 14:15:50 -0000
+Message-Id: <177090575003.2850495.4295785456415931311@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rafael/linux-pm
-user: rafael
+repo: pub/scm/linux/kernel/git/trace/linux-trace
+user: rostedt
 changes:
-  - ref: refs/heads/bleeding-edge
-    old: 3581a6f4132d38aa0e63c1f8b6ab1850802a6282
-    new: 9e046413910681463c51b1a7940e1536e38a12ae
+  - ref: refs/heads/trace/for-next
+    old: f743435f988cb0cf1f521035aee857851b25e06d
+    new: fa4820b893843f7ad5e1b5c446a92426c5c946ce
     log: |
-         c7d54dafa042cf379859dba265fe5afef6fa8770 powercap: intel_rapl_tpmi: Remove FW_BUG from invalid version check
-         9e046413910681463c51b1a7940e1536e38a12ae Merge branch 'pm-powercap' into bleeding-edge
+         f844282deed7481cf2f813933229261e27306551 tracing: Fix to set write permission to per-cpu buffer_size_kb
+         804c4a2209bcf6ed4c45386f033e4d0f7c5bfda5 tracing: Reset last_boot_info if ring buffer is reset
+         fa4820b893843f7ad5e1b5c446a92426c5c946ce tracing: Fix indentation of return statement in print_trace_fmt()
          
