@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5058713950709136647=="
+Content-Type: multipart/mixed; boundary="===============4685467614296595704=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Thu, 12 Feb 2026 21:23:00 -0000
-Message-Id: <177093138095.3199959.5640483270971679463@gitolite.kernel.org>
+Date: Thu, 12 Feb 2026 21:23:13 -0000
+Message-Id: <177093139343.3200268.2757769588777702266@gitolite.kernel.org>
 
---===============5058713950709136647==
+--===============4685467614296595704==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,47 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/dev-queue
-    old: d5fd7701831e4908103b62a336b488dcc62c495a
-    new: 639970869287c7c5cb50e39e499c699b50c95444
-    log: revlist-d5fd7701831e-639970869287.txt
+  - ref: refs/heads/10GbE
+    old: bf9cf80cab81e39701861a42877a28295ade266f
+    new: 37a93dd5c49b5fda807fd204edf2547c3493319c
+    log: revlist-bf9cf80cab81-37a93dd5c49b.txt
 
---===============5058713950709136647==
+--===============4685467614296595704==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-d5fd7701831e-639970869287.txt
+Content-Disposition: attachment; filename=revlist-bf9cf80cab81-37a93dd5c49b.txt
 
+6e1e735181e0c18e1f4ecb0118be4b1e2ee439d1 ASoC: rt1320: fix intermittent no-sound issue
+89e1d632bb29e0915d801629d4a842ff609514e2 ASoC: SOF: Intel: add hda_dsp_stream_pair_get/put helpers
+8834ae896bfe10f239d49adb9cc76bb6a57c431c ASoC: SOF: Intel: add hda_dma_prepare/cleanup helpers
+330d1deb410fe75f7f79bd1e5025f2827365eb83 ASoC: SOF: Intel: hda-sdw-bpt: support simultaneous audio and BPT streams
+023dfedec1478d506ba42d45f7993578fe38fa11 ASoC: SOF: Intel: allow module parameter override BT link to 0
+754b3dade5ddbfd849e6ca9864cef45ce34cd7f6 ASoC: Intel: soc-acpi-intel-ptl-match: drop rt721 related match tables
+bb6a3c2db281c7d5aaa79b2a6fa00bcd10c0bb8f ASoC: SOF: Intel: hda: add SDCA property check
+4c9d53794bcfd3db45103269696b019d5ef09d41 dt-bindings: spi: Add binding for Faraday FTSSP010
+a63daf73a5870d73929546a525fca3b3fc08fece net: dsa: tag_yt921x: clarify priority and code fields
+8cdb2cc9a11b589b564bd0fc72e524e1be69e967 net: dsa: tag_yt921x: add priority support
+75b85703fd48bc63fcc91bf9206f71c4a2c592ec net: dsa: yt921x: Refactor VLAN awareness setting
+95e6bcab3c08e8a717c253631a14cd1a5e46eb8a net: dsa: yt921x: Refactor yt921x_chip_setup()
+d5f778353fd443efd55069b93f3cd0447cfb9276 net: dsa: yt921x: Add DCB/QoS support
+72163a19093193e71755d8a2f26b2fdde6aea671 Merge branch 'net-dsa-yt921x-add-dcb-qos-support'
+7885ce0147401d5f6908ad4da660334031d836b7 tcp: try to avoid safer when ACKs are thinned
+ab4c8b6f7fcbca7644487e08e76e4e224414bca5 gro: flushing when CWR is set negatively affects AccECN
+6f74bc8b6e8d0e8218c1342682dadb156603d13e selftests/net: gro: add self-test for TCP CWR flag
+100f946b8d44b64bc0b8a8c30d283105031c0a77 tcp: ECT_1_NEGOTIATION and NEEDS_ACCECN identifiers
+e68c28f22f46ecfdec3656ae785dd8ccbb4d557d tcp: disable RFC3168 fallback identifier for CC modules
+c5ff6b83715919767f181f13e992b5055812a194 tcp: accecn: handle unexpected AccECN negotiation feedback
+3ae62b8b4a4848f745d5ed12f10056cb4e4c81f0 tcp: accecn: retransmit downgraded SYN in AccECN negotiation
+f1eaea5585e4d193e007d671f0916f4371c72c0b tcp: add TCP_SYNACK_RETRANS synack_type
+f326f1f17f3772dae4b37360c639ed6b76fe6354 tcp: accecn: retransmit SYN/ACK without AccECN option or non-AccECN SYN/ACK
+4024081feb87fb11ac7bd36d8c397ccdd81ed302 tcp: accecn: unset ECT if receive or send ACE=0 in AccECN negotiaion
+2ed661248e2b920f53db61ddfc74bc68ed10c83d tcp: accecn: fallback outgoing half link to non-AccECN
+1247fb19cafee6f9fa350ae378e4e1e9965cc253 tcp: accecn: detect loss ACK w/ AccECN option and add TCP_ACCECN_OPTION_PERSIST
+4fa4ac5e584841c0f9b01c2f7dd0c2e3caa8bca0 tcp: accecn: add tcpi_ecn_mode and tcpi_option2 in tcp_info
+8ae3e8e6ceedfb3cf74ca18169c942e073586a39 tcp: accecn: enable AccECN
+f85d9c45f1d48a146f37cfd3d244aac4157ea390 selftests/net: packetdrill: add TCP Accurate ECN cases
+667539f6dce27aa7db0a711375f94e14e714a698 Merge branch 'accecn-protocol-case-handling-series'
 ee4784a83fb21a2d16ebfdf8877fa6f6a1129150 block: don't use strcpy to copy blockdev name
 2d05068610a336e0ddc7b090e34b6d9932e6fd90 memcg: Prepare to protect against concurrent isolated cpuset change
 69e227e45069d613767c3dbd5d6a5570a2dddba8 mm: vmstat: Prepare to protect against concurrent isolated cpuset change
@@ -1020,35 +1050,5 @@ c22e26bd0906e9c8325462993f01adb16b8ea2c0 Merge tag 'landlock-7.0-rc1' of git://g
 c6e62d002b7f0613f02d8707c80f2a7bd66808a0 Merge tag 'driver-core-7.0-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/driver-core/driver-core
 098b6e44cbaa2d526d06af90c862d13fb414a0ec Merge tag 'devicetree-for-7.0' of git://git.kernel.org/pub/scm/linux/kernel/git/robh/linux
 37a93dd5c49b5fda807fd204edf2547c3493319c Merge tag 'net-next-7.0' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net-next
-ba6528206e2afba5bd3750cc0839f8da152c22ec ice: fix fwlog after driver reinit
-028bdd2e4b5017af240a3afed0fa0f3fb53eb4fa ice: Fix enable_cnt imbalance on resume
-d2b53ca34b00d3a5ed1954cc10210f371b1b3e71 ice: Fix enable_cnt imbalance on PCIe error recovery
-2b15d5644707c78a5cb9b4623e1308efe86e2f9a i40e: Fix enable_cnt imbalance on PCIe error recovery
-77f0686f8a6a766299ff14992f2424c6b70dd1b9 i40e: fix src IP mask checks and memcpy argument names in cloud filter
-939918c3f1e25c2c9f1e691ee6dfad6399b42628 ixgbevf: fix link setup issue
-e0e1efe23491aec0f61d2dd2d7d229d64080c0d9 ice: fix 'adjust' timer programming for E830 devices
-c81c54010da6521d04bbffec820cb03e6ffac600 idpf: increment completion queue next_to_clean in sw marker wait routine
-f6d31e27844da8143a9cdf6d0190f7b4a9bb1b3d ice: fix adding AQ LLDP filter for VF
-396d4c1b398347995dfe2588d313ac87f725fe48 ice: fix setting RSS VSI hash for E830
-0bbeb774646c03b8bc458b17b67b5852f8521a4e e1000e: correct TIMINCA on ADP/TGP systems with wrong XTAL frequency
-c60df97d7d0917d73b8b72f61eb55cfeb88729d0 e1000e: introduce new board type for Panther Lake PCH
-f61fa9b375ad62ddf463aae70f4e4afe1cf6b7f0 e1000e: clear DPG_EN after reset to avoid autonomous power-gating
-9a1dc7e2b717f58eefe2f467c8bc0f0a84c4f8e7 idpf: skip deallocating bufq_sets from rx_qgrp if it is NULL.
-8d5192deeb02c04f1131431208b795d3e442aafb idpf: skip deallocating txq group's txqs if it is NULL.
-7b92e9f772b4a762007cf23dafce1457f6bcd449 idpf: Fix flow rule delete failure due to invalid validation
-c14f98f4d750b19eac9a4288a8837095d1d29a25 ice: reintroduce retry mechanism for indirect AQ
-80d120a2bc6fa40afebd1f7b316556ab42814084 ice: fix retry for AQ command 0x06EE
-50a28bd72f66b174bbaf22657a64cf6030a2826c igb: Fix trigger of incorrect irq in igb_xsk_wakeup
-2f74039277c1c22d4a1a307c40d3b11b67d24378 igc: Fix trigger of incorrect irq in igc_xsk_wakeup function
-f8f258f03f21e5850adcdf74fc7932688a9d9f12 ice: Fix memory leak in ice_set_ringparam()
-90bb6ed7cfdece92729fa16a969012feaeead8a7 idpf: nullify pointers after they are freed
-e3b48702a09698501bb2f261352848d78fa0793e idpf: change IRQ naming to match netdev and ethtool queue numbering
-d637415cbaa152167b255b4673b67ebbbe94010e ice: recap the VSI and QoS info after rebuild
-0e75a28e758c278833bc1804da3a794481af148f iavf: fix PTP use-after-free during reset
-a3b3807c0eca0b016e22181b5351c1b9dd9f5944 ice: ptp: don't WARN when controlling PF is unavailable
-42db3d1fb773630568d6a696b956b6331f7db30b e1000e: reconfigure PLL clock gate value and re-enable K1 on Meteor Lake
-e7ea5f38e996dce546651e08b5d9a18fb2860ae0 ice: fix crash in ethtool offline loopback test
-c24eea3cd3fed0fef41ea5832311fae886a28139 i40e: Fix preempt count leak in napi poll tracepoint
-639970869287c7c5cb50e39e499c699b50c95444 ice: fix race condition in TX timestamp ring cleanup
 
---===============5058713950709136647==--
+--===============4685467614296595704==--
