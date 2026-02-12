@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5512217918229646838=="
+Content-Type: multipart/mixed; boundary="===============4681515688703840065=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/kbuild/linux
-Date: Thu, 12 Feb 2026 16:36:19 -0000
-Message-Id: <177091417908.2964836.14706360919575102639@gitolite.kernel.org>
+Date: Thu, 12 Feb 2026 16:37:03 -0000
+Message-Id: <177091422370.2965221.2183854497514586792@gitolite.kernel.org>
 
---===============5512217918229646838==
+--===============4681515688703840065==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/kbuild/linux
 user: nathan
 changes:
-  - ref: refs/heads/kbuild-fixes
-    old: 05f7e89ab9731565d8a62e3b5d1ec206485eeb0b
-    new: df989b01b5f97dae8f9869cfacbda1308f2182c1
-    log: revlist-05f7e89ab973-df989b01b5f9.txt
+  - ref: refs/heads/kbuild-fixes-unstable
+    old: 0869bdc84a2c9a2b705a65f8039d52f0978ca94b
+    new: 553b0975820a271d748ca4331b52ead0956ea7fe
+    log: revlist-0869bdc84a2c-553b0975820a.txt
 
---===============5512217918229646838==
+--===============4681515688703840065==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-05f7e89ab973-df989b01b5f9.txt
+Content-Disposition: attachment; filename=revlist-0869bdc84a2c-553b0975820a.txt
 
 a4df2071f1a2bb5b003eb179e1a51625d26b04d5 modpost: drop '*_probe' from section check whitelist
 18e2d526bf24525995d4312937e82d9b6810f663 kconfig: move XPM icons to separate files
@@ -67,5 +67,10 @@ fcdcf22a34b0768471d6c834254ef041e3d9c3dc scripts/make_fit: Support a few more pa
 c7c88b20cd4226af0c9fbdb365fb6f221501c7da scripts/make_fit: Compress dtbs in parallel
 d8ad80a85b96649a6ef30976762660245ae61a25 kbuild: remove dependency of run-command on config
 df989b01b5f97dae8f9869cfacbda1308f2182c1 Merge 7.0 Kbuild changes into kbuild-fixes
+68b4fe32d73789dea23e356f468de67c8367ef8f kbuild: Add objtool to top-level clean target
+9e02fdcc328be48535f903937e71988fcd5bb9a1 kbuild: Fix CC_CAN_LINK detection
+4b83e4cfa11151dbc4df28afa9de81249085e161 scripts/make_fit.py: Drop explicit LZMA parallel compression
+34d534c5b2a035c4bd3737822b1bece8aa464900 kbuild: rpm-pkg: Restrict manual debug package creation
+553b0975820a271d748ca4331b52ead0956ea7fe kernel: rpm-pkg: Restore find-debuginfo.sh approach to -debuginfo package
 
---===============5512217918229646838==--
+--===============4681515688703840065==--
