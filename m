@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============8441771874038140908=="
+Content-Type: multipart/mixed; boundary="===============1253735049944588108=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Thu, 12 Feb 2026 20:44:28 -0000
-Message-Id: <177092906857.3157119.11996180930187143855@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
+Date: Thu, 12 Feb 2026 20:44:40 -0000
+Message-Id: <177092908057.3157387.4869781872981860067@gitolite.kernel.org>
 
---===============8441771874038140908==
+--===============1253735049944588108==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/acme/linux
+repo: pub/scm/linux/kernel/git/perf/perf-tools-next
 user: acme
 changes:
   - ref: refs/heads/tmp.perf-tools-next
@@ -20,7 +20,7 @@ changes:
     new: 3cbfc1cbe368d1ef4c6e5f087ddb30c46fd96362
     log: revlist-5d1ab659fb93-3cbfc1cbe368.txt
 
---===============8441771874038140908==
+--===============1253735049944588108==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -40,4 +40,4 @@ b7763082746a0df8ee1b20ad31600ad01695d85a perf test: perf data --to-ctf testing
 47e3f1f133aa78d5648a5fdab068f827be1fb442 perf test script: Add perl script testing support
 3cbfc1cbe368d1ef4c6e5f087ddb30c46fd96362 perf test script: Add python script testing support
 
---===============8441771874038140908==--
+--===============1253735049944588108==--
