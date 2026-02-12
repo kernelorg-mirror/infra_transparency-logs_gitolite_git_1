@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5057070867872530758=="
+Content-Type: multipart/mixed; boundary="===============3780950214710904620=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/driver-core/driver-core
-Date: Thu, 12 Feb 2026 13:27:51 -0000
-Message-Id: <177090287101.2813158.13771337961440949050@gitolite.kernel.org>
+Date: Thu, 12 Feb 2026 13:27:56 -0000
+Message-Id: <177090287626.2813373.7540413393818647266@gitolite.kernel.org>
 
---===============5057070867872530758==
+--===============3780950214710904620==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,42 @@ repo: pub/scm/linux/kernel/git/driver-core/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
+  - ref: refs/heads/driver-core-linus
     old: 63804fed149a6750ffd28610c5c1c98cce6bd377
     new: 37a93dd5c49b5fda807fd204edf2547c3493319c
     log: revlist-63804fed149a-37a93dd5c49b.txt
 
---===============5057070867872530758==
+--===============3780950214710904620==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1770902848 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1770902875 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/driver-core/driver-core.git
-nonce 1770902848-320e1cf2f0e65e4ee9474e7974901c0d007d4ebc
+nonce 1770902874-b96bfe05967f231eadc6977dc219fc935b830de0
 
-63804fed149a6750ffd28610c5c1c98cce6bd377 37a93dd5c49b5fda807fd204edf2547c3493319c refs/heads/main
+63804fed149a6750ffd28610c5c1c98cce6bd377 37a93dd5c49b5fda807fd204edf2547c3493319c refs/heads/driver-core-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmmN1UAbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+zqMQAMu5wxzZkgPyW1aKvkUd
-NQEqwnHdW2YWnPvxE4nsn5aqjw1I/X+t9Aag/hrQXyMUbtkiOghepaTsXt8rurQM
-WMAIArTfVmNXG0C1gbnvW72sorDGtu2pjUAuWVgI27Sh0zIdaKPLjTOcAT7f07+G
-wqFA4+0iSxe1IPenb20XF3jsVIoL9ToQbbAWFtvAJ0lTCkXQ/NfwZTSFMFD092DM
-wwqCYxB2vuR3WhAY6FBx8e1vodHV+7WxM9jlbAcUDpHwU9PY8gj44R2ECF2U5sEQ
-bdO1xweU7GiKMVm2omSqhnN5wDMvQGxzsfHIpdzkaJ+Lmj/SSrMP/hg8HL+hf8Lh
-5VVwLDk+ix3t7IKUWhwiTDShk54F8HROcDktEq94xcF3uDJswvDJJyYvXg3uNIdt
-Fhb59mfCy6khfKFoA0xLEIeoBBz2G4m/3L1+0qz6i9VRbPdrTFzl2N3uhB+PIllk
-SQ6MdlJHOuin3WHlors3d2Aazkl7Lccho+nP0f4FT3Epl9xxsoYBmG4tDnHOwN0G
-8U6HSWkiMvigimkrGBT1lSDRPO3Ubk47V/H6B8q+MJnDmUQ4gSKQp54I6sMsqZu3
-+SUeVvfVMWHPSjHFD0X/WXEEtAL8cKzp50575RSKe4KKjjWH3+KSJofipzopfbXe
-otKM41TkjNOjIGqqGG2pt8gT
-=Ls1R
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmmN1VsbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+psIP/idtM2K1/46Zzwh79CJN
+WGtg6R0zS0o3IYD15YUkHeyRgfKaW18pDCfRG8oMkZmSAs+Y4vpbIFAbnPQsXW6K
+eKvfeDEOS1vGIudGhx33az0G0HVVa46lWPw/v/Mbo75VyQkI5eNL5koNyLQ80dof
+xa42Ex5YSicID2qiZYpNBMni0xKFwVPKLBMJEGHGUYHcMwxJFh+qhg0Ha+6IgBvb
+rofTkvwYf/NVkY5d5AftMfVLqswF2qSowZDycRZ8/M4JqNK85UNRzaBzM/asDgDo
+0nRgWgwPCzPoF1gROrgjNGjlQ7WzbnxFIfnPK1LQhmRQHgi3YwLLDs8NsketLV7N
+044kiDHZypGZdD3T+IXCnjleRZd2wfo5D68gQLP2Xcd4ggPgM8HHaXfhviJ8DGZb
+w8QNV486altmuRfK+/+rzC2Vm4bk3OE4atgKesqsOr2ZTYtbcpcJQLPPeu7/qOLh
+bgrp52R6vDkYtyJyAwgL4g1O6Dla0s2MZMo2TqoiZPrTOrvVLSYbEipiAcEKg9U8
+gv8FCHwXIQTz9s1XXrXJBENtYF294OVw0WubbVAdo/46E0+yDAICnvLbc6AAW1wB
+LQ9PHkt1KMTJ5HjyN3a0WwhpjDFrupxZjqwobA2NxkQBvaA8w1HFZEbJmdAVtc3G
+m4YrJavlvoyoxz0/0tPkllJS
+=FDmN
 -----END PGP SIGNATURE-----
 
---===============5057070867872530758==
+--===============3780950214710904620==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -1082,4 +1082,4 @@ c6e62d002b7f0613f02d8707c80f2a7bd66808a0 Merge tag 'driver-core-7.0-rc1' of git:
 098b6e44cbaa2d526d06af90c862d13fb414a0ec Merge tag 'devicetree-for-7.0' of git://git.kernel.org/pub/scm/linux/kernel/git/robh/linux
 37a93dd5c49b5fda807fd204edf2547c3493319c Merge tag 'net-next-7.0' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net-next
 
---===============5057070867872530758==--
+--===============3780950214710904620==--
