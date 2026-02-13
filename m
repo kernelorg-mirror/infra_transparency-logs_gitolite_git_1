@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/network/connman/connman
-Date: Fri, 13 Feb 2026 21:16:19 -0000
-Message-Id: <177101737985.317980.4816739848439258609@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
+Date: Fri, 13 Feb 2026 21:19:49 -0000
+Message-Id: <177101758937.319037.6760487716965197162@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/network/connman/connman
-user: holtmann
+repo: pub/scm/linux/kernel/git/rafael/linux-pm
+user: rafael
 changes:
-  - ref: refs/heads/master
-    old: 78bb6523c07e5b634a77a7c6b4f78690812dd773
-    new: 9e46e4a021cd8566b942d1a72b41b14a0a58f506
+  - ref: refs/heads/bleeding-edge
+    old: 91b3f4ea434947f13eaa1eb64142aeff42c50d8e
+    new: 98a6068a3cb1c13d125abed7f2623665d74c2730
     log: |
-         9e46e4a021cd8566b942d1a72b41b14a0a58f506 systemd-resolved: Use DNS servers of the default service
+         2995e713d8a76249bde325b464183430e21266aa ACPI: video: Clear driver_data pointer on remove
+         85d0bd1d4cccd8e91e11de2d5dddf9691d780468 ACPI: driver: Drop driver_data pointer clearing from two drivers
+         98a6068a3cb1c13d125abed7f2623665d74c2730 Merge branch 'acpi-driver' into bleeding-edge
          
