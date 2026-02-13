@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
-Date: Fri, 13 Feb 2026 14:15:22 -0000
-Message-Id: <177099212207.4176777.10780154260012200692@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mszyprowski/linux
+Date: Fri, 13 Feb 2026 14:27:37 -0000
+Message-Id: <177099285798.4185463.5290037269858031488@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/maz/arm-platforms
-user: maz
+repo: pub/scm/linux/kernel/git/mszyprowski/linux
+user: mszyprowski
 changes:
-  - ref: refs/heads/arm64/wfxt-fixes
+  - ref: refs/tags/dma-mapping-7.0-2026-02-13
     old: 0000000000000000000000000000000000000000
-    new: 337470768dd479c2b471a66cdfe727c434e60895
+    new: 88e4ef4537b320082f5ef5f136502847b0176cd2
