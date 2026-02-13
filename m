@@ -1,56 +1,46 @@
-Content-Type: multipart/mixed; boundary="===============3910770664077224516=="
+Content-Type: multipart/mixed; boundary="===============0798583197960153478=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/security/vulns
-Date: Fri, 13 Feb 2026 13:26:47 -0000
-Message-Id: <177098920763.4081318.16883471088342963950@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+Date: Fri, 13 Feb 2026 13:28:09 -0000
+Message-Id: <177098928946.4082000.9748505391077327973@gitolite.kernel.org>
 
---===============3910770664077224516==
+--===============0798583197960153478==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/security/vulns
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+user: jarkko
 changes:
-  - ref: refs/heads/master
-    old: e9d77395894e5840b57eea0775fce9aaa65ed19d
-    new: 64358d5afd710a32de228dcfed26a7987ac0bc34
-    log: |
-         64358d5afd710a32de228dcfed26a7987ac0bc34 update cvelistV5
-         
+  - ref: refs/heads/container
+    old: 76f4da8021d926fa4f232644312f7df7a607d4ea
+    new: b256194ac45c53077637f2872b0fafad5d199c4c
+    log: revlist-76f4da8021d9-b256194ac45c.txt
 
---===============3910770664077224516==
+--===============0798583197960153478==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-76f4da8021d9-b256194ac45c.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1770989207 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
-nonce 1770989207-da67ad1a5f753eef40c03c21809e6de928fda063
+0adfdf6dc83352dfd5e231ffb91abffab4aebf71 containers: Declare container object and flags
+65c71e23306b19a21f4b36f6a9dabfe0cdec1eb9 fork: Handle task's container in fork and exit
+4a5be70d113e123b8020872cd6bb464a3151634d security: Add container LSM hooks
+f49b888df6217a437195b1d8df27c46072a3c24c containers: Implement container_create()
+e45878be5ab5f8cd93ad20ac261251500b11037a containers: Implement container_wait()
+0732c7bf1fb1f8621711272100a18655f263d3af containers: Implement container_kill()
+1a953da4340f992fa3d4896aa5ab226c8d86f971 containers: Implement container_fork()
+3206e596d6fa639d3a2240819551070a2e24c4e0 net: Pass netns into __sys_socket
+3e9af033d3395e7a6d88a6ea96b4d7cbca483806 containers: Implement container_socket()
+84fe6718e8a465c4aed7eb8c271f63195790b462 containers: Implement /proc/containers
+069698ca1eb4742521e70bc36589cf7175d1a718 containers, vfs: Allow syscall dirfd arguments to take a container fd
+7eabaf8b6b53b4178083c2b8ec16d65d98076850 containers: Make fsopen() able to create a superblock in a container
+c5537618e72402857f118f1d6076405982767026 containers, vfs: Allow CONTAINER_NEW_EMPTY_FS_NS
+c842e68cbec5657907741635ab57f09ff7077427 vfs: Allow mounting to other namespaces
+7ef4cc3f277403900d0afffebbbc237a0240042d containers: kselftest
+b256194ac45c53077637f2872b0fafad5d199c4c MAINTAINERS: add CONTAINER OBJECTS entry
 
-e9d77395894e5840b57eea0775fce9aaa65ed19d 64358d5afd710a32de228dcfed26a7987ac0bc34 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmmPJpcbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+CaQP/jxL1x9JOR5lCefiIwik
-lUoPGU/k+zkfS8Xkdx+OAPpl8Ndr/1cHLnl5B/nQpp43UEtWWR6vbDQhorIp/sVe
-dBwhcYfXc5PxFEjAEruwCnxzb+PPkqLVkdBePtmw59/bAq93iUbwlhYc8B0azfuu
-9WAI07CxjIchOcQm7CA5jLeO41MjbxO/hcUCFQkg4AMgfTkcetIJLzmasKv5K0CD
-DHhpNItRHoW6RIrsQBvN9aDhHE8yKZQQ5Y81fepru/D2DZZvzyDiJt1M6Pt8RmaA
-Zk489sXWhDMLZIUL44x0VsDnTHegskuRgIwNwQKnesgMFObgioK70lzEia2Zv9sE
-hw6Lkjce/OXn9p6jXebr5tXAXDQbcrFPPrXNrOvXYtd66DvXRVJcw+ElKdZhodGo
-ka4v6oV+mAsrZBSoEqkDMMVE+QuBA02srH+ScPC0FohrFA8iTtyk7rLYRSueK8cO
-Rd2trwssBQHv2RWnb4+oXyMqfYUUyKEVve1iNTgoj6gr6BNEvhjZoH6ni149Ax2U
-oPgmuzp1GExAz47yXAwufBh8+IYtr0rmfiJSVNuhlwl8G/9DheW9g9sIi5Iqcqxg
-gqZEbOoGEk+jiuGH/dmFvawQhFwgd9mSz/KnE9+AtwkdAZYa9umyIX/LAECROvZ3
-7NQpfiXcZQN9roIdU0rLxuMO
-=Asi2
------END PGP SIGNATURE-----
-
---===============3910770664077224516==--
+--===============0798583197960153478==--
