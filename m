@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5709374819449988743=="
+Content-Type: multipart/mixed; boundary="===============5359011145335065435=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
-Date: Fri, 13 Feb 2026 10:01:39 -0000
-Message-Id: <177097689995.3910665.153507782354664002@gitolite.kernel.org>
+Date: Fri, 13 Feb 2026 10:01:52 -0000
+Message-Id: <177097691223.3910953.17178944554197529899@gitolite.kernel.org>
 
---===============5709374819449988743==
+--===============5359011145335065435==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,21 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/peterz/queue
 user: peterz
 changes:
-  - ref: refs/heads/sched/core
-    old: b4d41dc4bf3014b6002db3239102255cedbc8423
-    new: bdba3187771c828428d7e52b0581aa474c4b5e5f
-    log: revlist-b4d41dc4bf30-bdba3187771c.txt
+  - ref: refs/heads/sched/flat
+    old: 77bf44f0574dac862768cff9bb101232defd9129
+    new: 2bd899617ca34f2df57f351bf912d5630958d855
+    log: revlist-77bf44f0574d-2bd899617ca3.txt
 
---===============5709374819449988743==
+--===============5359011145335065435==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-b4d41dc4bf30-bdba3187771c.txt
+Content-Disposition: attachment; filename=revlist-77bf44f0574d-2bd899617ca3.txt
 
-478b152ab309a3fb94f4955ac661a38c7f150101 scsi: qla2xxx: Validate MCU signature before executing MBC 03h
-d74181ca110e3de9d7dc4fba7f9f6026033e2e5d scsi: qla2xxx: Add bsg interface to support firmware img validation
-b0335ee4fb94832a4ef68774ca7e7b33b473c7a6 scsi: qla2xxx: Allow recovery for tape devices
-8890bf450e0b6b283f48ac619fca5ac2f14ddd62 scsi: qla2xxx: Delay module unload while fabric scan in progress
 7adbd2b7809066c75f0433e5e2a8e114b429f30f scsi: qla2xxx: Free sp in error path to fix system crash
 b6df15aec8c3441357d4da0eaf4339eb20f5999f scsi: qla2xxx: Validate sp before freeing associated memory
 42b2dab4340d39b71334151e10c6d7d9b0040ffa scsi: qla2xxx: Query FW again before proceeding with login
@@ -1050,5 +1046,9 @@ b0558944fd92e324578aa5856d8d7bf9b6d9b090 sched/fair: Fix lag clamp
 0b7607f93bbb5e749cafb7428a43e41dcc5ef27b sched/fair: Increase weight bits for avg_vruntime
 edaf1f797e45aa0fbc978b489c3ea8b52280fe50 sched/fair: Revert 6d71a9c61604 ("sched/fair: Fix EEVDF entity placement bug causing scheduling lag")
 bdba3187771c828428d7e52b0581aa474c4b5e5f sched/fair: Use full weight to __calc_delta()
+87a46bf4cbac0dc54e2d74d173588b95409ab221 Merge branch 'tglx/sched/hrtick'
+3f98a62b6ebaff92b0fcf428e648a944c36ab740 sched/fair: Add newidle balance to pick_task_fair()
+d80ef4715d611ac04974654b94ee976914a1effd sched: Remove sched_class::pick_next_task()
+2bd899617ca34f2df57f351bf912d5630958d855 sched/eevdf: Move to a single runqueue
 
---===============5709374819449988743==--
+--===============5359011145335065435==--
