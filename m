@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7407229075997005644=="
+Content-Type: multipart/mixed; boundary="===============2451644951003061761=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
 Date: Fri, 13 Feb 2026 13:47:14 -0000
-Message-Id: <177099043415.4153665.3515833502254491962@gitolite.kernel.org>
+Message-Id: <177099043447.4153691.3475257483724301440@gitolite.kernel.org>
 
---===============7407229075997005644==
+--===============2451644951003061761==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,12 +16,12 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-6.19.y
-    old: 51b73e738eb4a64e408b4ef0f5c484182a1f14b1
-    new: fa43a671068f9a18372cad5a170127f71fee718f
-    log: revlist-51b73e738eb4-fa43a671068f.txt
+  - ref: refs/heads/linux-6.18.y
+    old: 590b626f0f628f2bc5faf6ac006f3e558d492a3d
+    new: 1dd43fd284b6ab499dac1355db7b07d12669f73b
+    log: revlist-590b626f0f62-1dd43fd284b6.txt
 
---===============7407229075997005644==
+--===============2451644951003061761==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -32,80 +32,80 @@ pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1770990432 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
 nonce 1770990431-550110a5452b33a2d16b7867a2b5ef6cf2eeb126
 
-51b73e738eb4a64e408b4ef0f5c484182a1f14b1 fa43a671068f9a18372cad5a170127f71fee718f refs/heads/linux-6.19.y
+590b626f0f628f2bc5faf6ac006f3e558d492a3d 1dd43fd284b6ab499dac1355db7b07d12669f73b refs/heads/linux-6.18.y
 -----BEGIN PGP SIGNATURE-----
 
 iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmmPK2AbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+/n8P/3CQI2CGjxesBIEVwtd1
-Yq4R389radl4VjVrJ4qyu50X/xvHubhS8tIzQHujOj1ZzVvtpL1MF9ENpoTQW95K
-xXG8K4aTaPGY6IHhizQWiSpGtNDpqsjQizmTRk+5Ir4ujLUoKT7C3vHY4UvhLY6Y
-FxFAHYMBBgVlnDQGF0uJlFj9acnGfwMEJNAqhQvwV88idGeLVZuXk0/sosK1l3sQ
-UlOp4veigAH/5S/OCxPWRJvTVXToFBqGzuZeVPE9WA7I25JJuOTqX7+as7HYHzmW
-t6VlSed3USPUko0r9Gwb3+fFz3Bg3VSHNEdP5S9k++azCNUYM3V6tvYby5G0XenL
-M8VZoGweCHRhaMDgH1BTouXESZoxrSY0Mfyah826Fowi8QJstK4vQo8ymR6QUV3b
-m2AAGhCjpk1BFBtmjrN8oJ0KFLiNQDVZm3UQeOA4zxIiOTiHL9p4CqSc7aG6cckr
-5J+4DNYmCzZuw1LIhhPvLLotBDmuE2RTOy3x/TLn829SXZ8vCgtkfJr2uu8fPx+G
-smZ2h47Y3muPQM8htaXrULIthgM7bPFJRPveVh7wGnAop864HwNgxSO9txxw2HgU
-UBrLzNgYK0ZGEsyQsIH3uhVmm50+BeVD19P9wr5p9g/xkH3bvs6Oda3rG3rRC16J
-l8My77ccwx71WqYwjrz2zcup
-=eT70
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+lj0P/39hy1lwRsONSYox6zW7
+kgcffiXZns6q6JkvT0uMrCaWrLbEZxTLoz6KWahJwv/oCOCvFoXuXVSapRdIiGK3
+wumOYPZXOpeSaFu4ZeSMroPl65dc2RCkKKgOI3juiU7rJm9Klxzq4+umEqKq0BOh
+h/FPpIFicUPT8v4yAZlDkPaffqLCf2ppqi3kYdkMm496zWFKbG8Fi6NdfTXF3ZCb
+YdfSEbrubAYWHcT8E3H9P5XbAH/92pv1N4XP8UzRr5RwkszEfaCjqV822hbumr1w
+/iwVWavNblf1ISMVs2C6OmQn14RMcXwN864OE/XkWcPvxGBxxE9ajSurYh0M7JSO
+/ChF7S9MA1SUYeI57R3VswiWOmptzAr/jwF5EPs/tcpifBEq+9iC93WgeC9W2dpG
+CTZ3a/qS/wV3/Ytr8B+FW3jG1PeBWd4XWL+azHKi2akB5OguTCcQFTQPLBtFhgVJ
+q+Y0Ec3zYvxQj70B3K5e4yoHgRE5nyO0QhyWi2yIf2LxT6YERVuH5rK5zFNJPSlR
+2H5TaKUXkKmsanvWFKEanojTYA8z467mrYNU5hm0a3ANIaxqm9p6p/kdC/aaDWMb
+azziKa2LnCU5CKhyxOHXAfkl2KIivbjj1/0K8r+Bb0+I6oRnZ5R8+RllC6IvbhAb
+O9SzBseNlO8bmxrYL+Z19R0f
+=MK7W
 -----END PGP SIGNATURE-----
 
---===============7407229075997005644==
+--===============2451644951003061761==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-51b73e738eb4-fa43a671068f.txt
+Content-Disposition: attachment; filename=revlist-590b626f0f62-1dd43fd284b6.txt
 
-16c1784dcee138f0c278c7f93ad28c3a50124fd3 io_uring/io-wq: add exit-on-idle state
-a7d381a63038d8bc0ed103bf2f9c4deb52584fa3 io_uring: allow io-wq workers to exit when unused
-ee112e22f9345afc64b4fb60331374897db5ad50 smb: client: split cached_fid bitfields to avoid shared-byte RMW races
-c235cd1d40b7935d5f104633d3b5c2984e06a7b1 ksmbd: fix infinite loop caused by next_smb2_rcv_hdr_off reset in error paths
-6e3a25dd7e6783264dea14d7b3a997b264795a41 ksmbd: add chann_lock to protect ksmbd_chann_list xarray
-258f9424d86d446ac5599458ea0d5a1f1093fae9 smb: server: fix leak of active_num_conn in ksmbd_tcp_new_connection()
-f5ad8986bef3a1a2f5e0cbba4a0086f7a7a757de smb: smbdirect: introduce smbdirect_socket.recv_io.credits.available
-c7086122ccddae1b558e97b862e9b3445197098f smb: smbdirect: introduce smbdirect_socket.send_io.bcredits.*
-561e591a437721cd976d01af5caba193209154ec smb: server: make use of smbdirect_socket.recv_io.credits.available
-1a563aa1271f16064c6b57244ac8de892c122fec smb: server: let recv_done() queue a refill when the peer is low on credits
-ab73a8c82a2c566aca07787b87b0793dd0851a61 smb: server: make use of smbdirect_socket.send_io.bcredits
-0ab896cff42a5ac63aa333030003eed9a992ff58 smb: server: fix last send credit problem causing disconnects
-21c2c7c0e9cce6724196f415d5e2e6123d80ad58 smb: server: let send_done handle a completion without IB_SEND_SIGNALED
-7c624734fb8347b8a4c09684c3755412f22b9c38 smb: client: make use of smbdirect_socket.recv_io.credits.available
-598ca3e2d32d3c7ac16ff3d004ffce93ba97ef27 smb: client: let recv_done() queue a refill when the peer is low on credits
-8922d2dee645b3b11752828efa92e9b14c329289 smb: client: let smbd_post_send() make use of request->wr
-826e06000eb5856ef180784a40ffd03c4698e3cc smb: client: remove pointless sc->recv_io.credits.count rollback
-99f6e0ec90baeb140a0c3ff155a1ab0b26bdeee0 smb: client: remove pointless sc->send_io.pending handling in smbd_post_send_iter()
-07232aeab692d88595c176012aeea561824330fc smb: client: port and use the wait_for_credits logic used by server
-c4a10fc047314ec1a7551f514e3647978cb16b28 smb: client: split out smbd_ib_post_send()
-76a10b5fa62047789fb81c2ccd5f09a7debcc09c smb: client: introduce and use smbd_{alloc, free}_send_io()
-2f607393c6e539bf0f3cd7e8394d0b9b33494f1b smb: client: use smbdirect_send_batch processing
-9b7ef94f7455f92c7f4be945e26d165e410532fb smb: client: make use of smbdirect_socket.send_io.bcredits
-fdcffbee0c34c89fc69d1edd28d89879e85f040b smb: client: fix last send credit problem causing disconnects
-058d4538b6eea69f69ca2c37fa397aa4a847024a smb: client: let smbd_post_send_negotiate_req() use smbd_post_send()
-93a66c06ba353354a21f18fa5c6bab60f880766b smb: client: let send_done handle a completion without IB_SEND_SIGNALED
-b740723834c7a87e2448d3a72b9e7c0f2fb6bbf6 driver core: enforce device_lock for driver_match_device()
-08fa2540b14bf7d6f96d942099a9bb9c7fab6c80 Bluetooth: btusb: Add USB ID 7392:e611 for Edimax EW-7611UXB
-a00cb0bbd0d7f0ecc0da378e4f1fbe8f2f0b8c2c ALSA: hda/conexant: Add quirk for HP ZBook Studio G4
-30d572b8cd02bdc39559a659e72afd1fbf806cfb crypto: iaa - Fix out-of-bounds index in find_empty_iaa_compression_mode
-e0834e548fd40a501d374d048e2d5edaa9e8c09a crypto: octeontx - Fix length check to avoid truncation in ucode_load_store
-7c76fd0b8e491eb9fd357ad7ba6ae6622e8ba71b crypto: omap - Allocate OMAP_CRYPTO_FORCE_COPY scatterlists correctly
-b6e6edea8a6b3c98a093391c6c13876138feaa48 crypto: virtio - Add spinlock protection with virtqueue notification
-350267539c297820a82435e96022cb64c871c6fa crypto: virtio - Remove duplicated virtqueue_kick in virtio_crypto_skcipher_crypt_req
-4f772cefce8f52d629a33edf8255504dd189d1e0 nilfs2: Fix potential block overflow that cause system hang
-227b2f990684432351a83b1574068f7a281925b5 hfs: ensure sb->s_fs_info is always cleaned up
-caae282b91f6d3e839116a2ebd256267dfa481a9 wifi: rtw88: Fix alignment fault in rtw_core_enable_beacon()
-881e85e92a94551d1e7c4abd45c981ce83932616 scsi: qla2xxx: Validate sp before freeing associated memory
-b8111081072c6c8c3060cc3fc9b665b315a607ec scsi: qla2xxx: Allow recovery for tape devices
-00a18a20fe03ce18ba3c46ef6a9e02fac62c821a scsi: qla2xxx: Delay module unload while fabric scan in progress
-c3df6fbf4dbfd42e4be4c4bb0b493dd167aecfbe scsi: qla2xxx: Free sp in error path to fix system crash
-c35cfa3770ec42b3d9db3e056f70ae162c9d9e2b scsi: qla2xxx: Query FW again before proceeding with login
-90eeb53730e0e82cbcb0f7a42ff96ed026959a08 sched/mmcid: Don't assume CID is CPU owned on mode switch
-030700ec373926660a92e194311b95e18783c0ee bus: fsl-mc: fix use-after-free in driver_override_show()
-1e6b6395c9d0fa5d3879548c22d85af1a3a151a2 erofs: fix UAF issue for file-backed mounts w/ directio option
-56eb0401fe82a2ade060aa0972f6e4b3511ff1cb xfs: fix UAF in xchk_btree_check_block_owner
-a9649b2e8fe703b7e685b8dbcad3d079dc9a2eab drm/exynos: vidi: use ctx->lock to protect struct vidi_context member variables related to memory alloc/free
-3c8edfac56599206fbf8d0de8988c66afbc77b46 PCI: endpoint: Avoid creating sub-groups asynchronously
-666197123694ac6cf360f50f100a2c9c51f2bb94 wifi: rtl8xxxu: fix slab-out-of-bounds in rtl8xxxu_sta_add
-fa43a671068f9a18372cad5a170127f71fee718f Linux 6.19.1-rc1
+f5e3be4ed199ef1f7be476d7335ce5fbe975b3b7 io_uring/io-wq: add exit-on-idle state
+a27b6240199f92856e789f811bbef8c74c2c3abb io_uring: allow io-wq workers to exit when unused
+c207126550900c4f22c6a05ec76a0aefb2c9953f smb: client: split cached_fid bitfields to avoid shared-byte RMW races
+0ed4cb4dda3c02ac495b5677f652d3bd20700ad1 ksmbd: fix infinite loop caused by next_smb2_rcv_hdr_off reset in error paths
+19d71340491a342c36688abe2dab4df2c0b94616 ksmbd: add chann_lock to protect ksmbd_chann_list xarray
+e04cb2a25898f3d100022a9c13374cc76dee4846 smb: server: fix leak of active_num_conn in ksmbd_tcp_new_connection()
+4841b9186f85e0adedbe74c753f477aad4a90f6b smb: smbdirect: introduce smbdirect_socket.recv_io.credits.available
+6ac31d3f124fc9f481a96af970e02344ca06aec4 smb: smbdirect: introduce smbdirect_socket.send_io.bcredits.*
+5d48d62a1c79ed63a49ca3c8cac6a9ceee4bd631 smb: server: make use of smbdirect_socket.recv_io.credits.available
+d4d933812f81406b38bda1273215eac9dd7b9d19 smb: server: let recv_done() queue a refill when the peer is low on credits
+f9b26f8815b9808ef5f7c07ddfc800ac0cd41c82 smb: server: make use of smbdirect_socket.send_io.bcredits
+58607039515c66c7accf490f1160b231089ccd62 smb: server: fix last send credit problem causing disconnects
+00ac82eb9325a6c5fbbcc423d08e10a8896f0da7 smb: server: let send_done handle a completion without IB_SEND_SIGNALED
+fda0c35c6dd674d49ca3fb000ec2098d56e0a1c0 smb: client: make use of smbdirect_socket.recv_io.credits.available
+65df45b75dcc376baf5368711f923e151f98071b smb: client: let recv_done() queue a refill when the peer is low on credits
+06b37fce185651a5aff3dfd3e4660e5cebfb6ad3 smb: client: let smbd_post_send() make use of request->wr
+b2a2112592fe83ad91a314e9cf982bb921d1b7eb smb: client: remove pointless sc->recv_io.credits.count rollback
+c3d66d5980174913dd82d8268e94ac7badef308a smb: client: remove pointless sc->send_io.pending handling in smbd_post_send_iter()
+c27112dcc7f84b13c4ef87a50f344d33716f0c21 smb: client: port and use the wait_for_credits logic used by server
+877ab3a0f0efe2c14cd282d268d7005224eb7430 smb: client: split out smbd_ib_post_send()
+e2373ff0ed7aaecdaf9fa4c78b4c253f3bb0ca78 smb: client: introduce and use smbd_{alloc, free}_send_io()
+c4443c8d959d754445c242c46dc1295588b5a069 smb: client: use smbdirect_send_batch processing
+46d2133fa50e67cf160231488d58645333688245 smb: client: make use of smbdirect_socket.send_io.bcredits
+7b12a42d0b960b0e34495815b7731dfd0fd492cc smb: client: fix last send credit problem causing disconnects
+089bf791a33e50d36076ea125c4e22bb1c2b5aab smb: client: let smbd_post_send_negotiate_req() use smbd_post_send()
+779b9063ea1a0b8d568a7f3f33f9bafb03f49d53 smb: client: let send_done handle a completion without IB_SEND_SIGNALED
+3a565630eb78e6417cf31027126af35ce1abb02e driver core: enforce device_lock for driver_match_device()
+347b70a70ac75713a5eedca2ad8dfd8909568a88 Bluetooth: btusb: Add USB ID 7392:e611 for Edimax EW-7611UXB
+1be8454a4e1014b98ab2fafad16bb85809e352c8 ALSA: hda/conexant: Add quirk for HP ZBook Studio G4
+2e29b204661b80a6af9df336e2a7f7df633c09e0 crypto: iaa - Fix out-of-bounds index in find_empty_iaa_compression_mode
+0cdcedf25f18018967d7e2502ebae5c9dae31f06 crypto: octeontx - Fix length check to avoid truncation in ucode_load_store
+738a8fef6770df8732aaa39838e53042f4cd2f50 crypto: omap - Allocate OMAP_CRYPTO_FORCE_COPY scatterlists correctly
+29c6783f12af0483e49b79dbd751477194c338f5 crypto: virtio - Add spinlock protection with virtqueue notification
+d8fda167fbc09e324e979e2cbe55fb4d92b8680b crypto: virtio - Remove duplicated virtqueue_kick in virtio_crypto_skcipher_crypt_req
+a7cfac2b0fbfdbb785fbd8c4b8c44c19a7b4fad1 nilfs2: Fix potential block overflow that cause system hang
+5bafcbf4da1e4d104b04b027640413f53e62d940 hfs: ensure sb->s_fs_info is always cleaned up
+e18919e76dea3e81777152e8b1f1cb372553980f wifi: rtw88: Fix alignment fault in rtw_core_enable_beacon()
+6831ccd1e9e802cf2f497376bce6a9edace17ee8 scsi: qla2xxx: Validate sp before freeing associated memory
+fec14616b95e820bdf54e314e7d473a08f17c0db scsi: qla2xxx: Allow recovery for tape devices
+78cdc1dd313d0d9e368d149fd3fe2524526688f9 scsi: qla2xxx: Delay module unload while fabric scan in progress
+18f63b1b5dc04acf02d26969ab715b10a5fc292f scsi: qla2xxx: Free sp in error path to fix system crash
+e65ff8f9cf1332afe0d07c3cc17799c1f8f8bb1c scsi: qla2xxx: Query FW again before proceeding with login
+350639edd2a26fb36834f061194724473d4b547d bus: fsl-mc: fix use-after-free in driver_override_show()
+7737cd7990d874f0f916c11dd9d9eece0dbcf28c erofs: fix UAF issue for file-backed mounts w/ directio option
+5f19984742d16581ec88451019fd547e053424d0 xfs: fix UAF in xchk_btree_check_block_owner
+01cb7dc5bef02f7b25cf439d58812be5b495160e drm/exynos: vidi: use ctx->lock to protect struct vidi_context member variables related to memory alloc/free
+c17ded88fef871e260d2c3c3bfa5c00f4b9d6b50 PCI: endpoint: Avoid creating sub-groups asynchronously
+c49fcd6f3dcf9c11c5243d8d85474948426fa03a wifi: rtl8xxxu: fix slab-out-of-bounds in rtl8xxxu_sta_add
+ccb60e91d86fba9061d2f56e741a55a80addf9e5 gpio: omap: do not register driver in probe()
+1dd43fd284b6ab499dac1355db7b07d12669f73b Linux 6.18.11-rc1
 
---===============7407229075997005644==--
+--===============2451644951003061761==--
