@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3347577063526370283=="
+Content-Type: multipart/mixed; boundary="===============3622501745423229577=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Fri, 13 Feb 2026 13:43:13 -0000
-Message-Id: <177099019324.4096050.6422989169809984138@gitolite.kernel.org>
+Date: Fri, 13 Feb 2026 13:43:14 -0000
+Message-Id: <177099019404.4096165.5373901294667960181@gitolite.kernel.org>
 
---===============3347577063526370283==
+--===============3622501745423229577==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,12 +16,12 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-6.6.y
-    old: 324a0a65fb1030239c6cee3bafa70b096ed1c5b0
-    new: 347be5ec490c71d246d7a02789217edce8eeb237
-    log: revlist-324a0a65fb10-347be5ec490c.txt
+  - ref: refs/heads/linux-6.12.y
+    old: 419724c9600a55ba5f8b0edeabf593e70ddaa60b
+    new: 0ae0140e738172d7b9f253689e52028f1b7c7c93
+    log: revlist-419724c9600a-0ae0140e7381.txt
 
---===============3347577063526370283==
+--===============3622501745423229577==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -32,55 +32,54 @@ pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1770990189 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
 nonce 1770990187-93a1efec3326b995f632a5f3e64f953369fe9938
 
-324a0a65fb1030239c6cee3bafa70b096ed1c5b0 347be5ec490c71d246d7a02789217edce8eeb237 refs/heads/linux-6.6.y
+419724c9600a55ba5f8b0edeabf593e70ddaa60b 0ae0140e738172d7b9f253689e52028f1b7c7c93 refs/heads/linux-6.12.y
 -----BEGIN PGP SIGNATURE-----
 
 iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmmPKm0bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+1h4P/03HnN69BzIhqQTuRiMn
-K2hvl0+ecXs+N4/s67aaRP4kmnzJJGyPN6cKBxtmtEjFkmVUeaEw+jjfl4NRO9WX
-3UTlCuOa1+bCKnMrZFUGjuRIcJCiflelnFufFi2L/3mZbXIC07eWME2LwffkwVGD
-uFrDEP5Cyr0HK0EGIyjVqtYu1bn+ej0jHUiBLAQ3qbs7bX5u750HdcAjhOU051wH
-a7bsZu5CBzR9MrbA3bL6eKilQCJZRsWmxP6k4/Ru3PLzwtQ9rFpPC++j7Oda5Ay2
-kxoSyiMJ0QxyZ1iT7tRGM0/gDBi0uh1lLhD9aXM5pcfDHOkLQ4H24bFA7EH3IswZ
-C+dUE3Lcjx1M9H+dWFK7fcdqmRfqPd6pPP3gEqk19YouOl0g8ysGMJP0xYr27Iyy
-N62gKzj7RJBSZ7eFOEkvzrKfnB/NYg+6cG3xrGvl1M7ZKSRkkERdcKJcwPmG265Z
-syhC0Ihcy6/6SnAFlir6nEUo1EwXc8JuTV25SkmjFAhQMAHurCFov68g+h34PfBm
-4a2DiJcbKeV+MnVdTDUPn2oMrF6brnDM9Qc5hno/SqTe9B6Q5sk9qIvAVFkmMi/0
-uJPfVwEbJ4S46cPJRF4D+S2BpKbF0UN2AHseTo2Oc/ufYUTjW8mP5UaDkhNacDhz
-9kz5qPbYmi8VRXBJpo+dFj2w
-=9X+r
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+TssP/2KYOYpjZ8keIJ/S6bBC
+RiblUpoFwV1Xtq4nSrWnaun6KZD/URWt2PNdnjKRKCW7sJVoj60bQYY/WTa53Gzg
+DftOgeNe47mXSyQw6UXuFMmfR+iQqgE1WJ408L0bAsyTp4fZ+30VlgmMUndpAO8N
+u3Jz1eOKOAqv1rpHs5n9ZRq5BBWQC+Ev9icZGDbjrr8F5sxMPk5MoTN3JeogLE7L
+9ptwwherOfFNkh9Gb+W7CH233NoN2kcaedRvd95ba9n8vlboXGqdMAhBgSIVIj/C
+TDVEqG9alVnOik80LzqgWH14CtINeYlfVEKmUqBlPlYITJtyjx2nOlhP5OeXWY6x
+M/772FPzNSHPjTlZME4/aU5qTGPE6GLFYmUMLZUd46hSDKuQKkmd2KdQbbwDqphQ
+xld9FrXICDtfOQrq6AVp2UOMuOfQI4fZ99+DcKKs7MY82VIp2H1gS90DCfxgFYzo
+IyrFIJrs0skjDXaOmNupt1QBBJECPpDdqz+Uz/Pr4EdXsnifuTdD8wxnYhOmploS
+zs+Y3qHwZH0409Nm6S3fvLggAkpJaT0rHVIQyF8MWNR6smnzOUxn35ewqn3slaJh
+upUwB5eBQ//O64HYLFsFzsCyshcbKHxJR9sF/k+SQTUaxKL7YY35g0BYHTI7XurT
+JDdud0sHntIHrCh4zhtO/nlb
+=5yfI
 -----END PGP SIGNATURE-----
 
---===============3347577063526370283==
+--===============3622501745423229577==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-324a0a65fb10-347be5ec490c.txt
+Content-Disposition: attachment; filename=revlist-419724c9600a-0ae0140e7381.txt
 
-93cf39f962155f6ec17b7c5b0343b78f1ea2bfd2 smb: client: split cached_fid bitfields to avoid shared-byte RMW races
-1954938dcbd1718b4953e4fbc6c403aac8af6fc1 ksmbd: fix infinite loop caused by next_smb2_rcv_hdr_off reset in error paths
-af6cd5a070c2f1bf0db8ce51e999e1c380a2896d smb: server: fix leak of active_num_conn in ksmbd_tcp_new_connection()
-ab4710b8ffafabf89a271cc557e879a39b0268e8 driver core: enforce device_lock for driver_match_device()
-42c99fce9d0603d57ed4e95ffa7ef2ab50334b2b Bluetooth: btusb: Add USB ID 7392:e611 for Edimax EW-7611UXB
-af33cdea2f8f775707cdf01cb63f28eeac6c692f crypto: octeontx - Fix length check to avoid truncation in ucode_load_store
-e3d4d387063f4b7a0664e1dadb51ac8577741bc9 crypto: omap - Allocate OMAP_CRYPTO_FORCE_COPY scatterlists correctly
-0c66f585b15a6a9d07aab8726dba67c01f777cba crypto: virtio - Add spinlock protection with virtqueue notification
-de936b9dbbd77635e0d0f90ceda858d21ddd0c0a crypto: virtio - Remove duplicated virtqueue_kick in virtio_crypto_skcipher_crypt_req
-e4432f0d5b454b8242698b75592eae12c1ebd5a9 nilfs2: Fix potential block overflow that cause system hang
-6d0c39affb024714d2965051acab64f85bb70f34 wifi: rtw88: Fix alignment fault in rtw_core_enable_beacon()
-e7a56822c6fb4811ab34e1afe5b5f703762d461a scsi: qla2xxx: Validate sp before freeing associated memory
-ba99c8a5355a02b1867673ed57547759628eeb7a scsi: qla2xxx: Allow recovery for tape devices
-185f9493e329f8a32c9218a9a4a46466a27aeb3d scsi: qla2xxx: Delay module unload while fabric scan in progress
-2f1a1ebe449b132fb89bc855a2e97c305822571d scsi: qla2xxx: Free sp in error path to fix system crash
-8cf4a82b389db29ec35c36058ed87e52ff47473b scsi: qla2xxx: Query FW again before proceeding with login
-0225621c47d83fff1e2cbb2d4c4073780287b4d9 net: sfp: Fix quirk for Ubiquiti U-Fiber Instant SFP module
-4476157e7f72494bfe4d5f17278199d1a372ee7f nfsd: don't ignore the return code of svc_proc_register()
-61635ee0a595e53392c764667ede30438f85e1e2 netfilter: nf_tables: missing objects with no memcg accounting
-862676db9fbd734ab426efdd6b12bf1221cba67d netfilter: nft_set_pipapo: prevent overflow in lookup table allocation
-3ffeb25d77e734668d5740ba470dd81a9366d844 vsock/test: verify socket options after setting them
-7b98bf4030cf2f4030efabc2f4e12289e865407e spi: cadence-quadspi: Implement refcount to handle unbind during busy
-a6c2cc40a7c50ea2ed561dc25d8268605ac3eb58 selftests: mptcp: pm: ensure unknown flags are ignored
-ec3b4d3a811be9548d722d8d5574efea919b0199 mptcp: fix race in mptcp_pm_nl_flush_addrs_doit()
-347be5ec490c71d246d7a02789217edce8eeb237 Linux 6.6.125-rc1
+7509ac5d07606c5bc4eec158c755911f95db112c smb: client: split cached_fid bitfields to avoid shared-byte RMW races
+fd3c2ed03890d4d5a430f53f50785c4ddb78e34d ksmbd: fix infinite loop caused by next_smb2_rcv_hdr_off reset in error paths
+adf618ae242fe23d6c199f48a3b89b5a3b6fe734 smb: server: fix leak of active_num_conn in ksmbd_tcp_new_connection()
+5efc551e8f6b40a19b5212b45dbd67ae2d5611c5 driver core: enforce device_lock for driver_match_device()
+220b95871d7e279b97551d078f0558ab281c87b1 Bluetooth: btusb: Add USB ID 7392:e611 for Edimax EW-7611UXB
+3ede071cea38beb230c8be98ca0eb9d6f64eb3e0 crypto: iaa - Fix out-of-bounds index in find_empty_iaa_compression_mode
+7e67a2c1797a942436264427ac63ac00642d478c crypto: octeontx - Fix length check to avoid truncation in ucode_load_store
+c9ef5f18f933e3caa0b18e87b70549660b77d9be crypto: omap - Allocate OMAP_CRYPTO_FORCE_COPY scatterlists correctly
+7bd4e589703465534112142aa0f8d631e742098b crypto: virtio - Add spinlock protection with virtqueue notification
+763f99476f5bd9d439f1f174fe6ca16474a9fcbd crypto: virtio - Remove duplicated virtqueue_kick in virtio_crypto_skcipher_crypt_req
+d8f14b5455e34dfec6c777f2568d7f777288a89f nilfs2: Fix potential block overflow that cause system hang
+8766a850055b86f28868b2127eb55634f65baaba wifi: rtw88: Fix alignment fault in rtw_core_enable_beacon()
+d40e7ea8b079c2871434ec8d2e057361e31ea53c scsi: qla2xxx: Validate sp before freeing associated memory
+6937e03001f46a58f170adc13bb50a234cce04b5 scsi: qla2xxx: Allow recovery for tape devices
+b9df3efe86b304aef89691181f39cb1de4271fd9 scsi: qla2xxx: Delay module unload while fabric scan in progress
+27737d3f38d5e923a15ac6f7e864a1c0a62d04f2 scsi: qla2xxx: Free sp in error path to fix system crash
+324bd8d36e98d971d75f3e8b4d9dde5aaa13914a scsi: qla2xxx: Query FW again before proceeding with login
+0e8abd3e1ae866afd5f24c78a801586453cb7f4d bus: mhi: host: pci_generic: Add Telit FE990B40 modem support
+59417db612e73b2110648761a85eca9397984262 mptcp: fix race in mptcp_pm_nl_flush_addrs_doit()
+fae036c640af769039b1ca9d00890a6afe1a00da erofs: fix UAF issue for file-backed mounts w/ directio option
+2b1f4abc06cd7b1377866ea45101648873681913 xfs: fix UAF in xchk_btree_check_block_owner
+6cc619097074635ee1f47bc0e871c4b05deb9e30 PCI: endpoint: Avoid creating sub-groups asynchronously
+a490da0be7cf5d1a8aec21513638259851581a7b wifi: rtl8xxxu: fix slab-out-of-bounds in rtl8xxxu_sta_add
+0ae0140e738172d7b9f253689e52028f1b7c7c93 Linux 6.12.72-rc1
 
---===============3347577063526370283==--
+--===============3622501745423229577==--
