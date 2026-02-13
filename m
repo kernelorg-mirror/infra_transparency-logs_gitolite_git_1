@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0647583370473918733=="
+Content-Type: multipart/mixed; boundary="===============4970108387602587664=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Fri, 13 Feb 2026 00:53:05 -0000
-Message-Id: <177094398572.3369048.7114491457450792409@gitolite.kernel.org>
+Date: Fri, 13 Feb 2026 00:53:07 -0000
+Message-Id: <177094398708.3369149.11763364273274148022@gitolite.kernel.org>
 
---===============0647583370473918733==
+--===============4970108387602587664==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,20 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/mm-unstable
-    old: 3651bc97781c3bb48c5f82df06079c2efa826c79
-    new: 9fff1ab283e0982c2b8e73f1d2246fd38caf40c8
-    log: revlist-3651bc97781c-9fff1ab283e0.txt
+  - ref: refs/heads/mm-stable
+    old: fb4ddf2085115ed28dedc427d9491707b476bbfe
+    new: ac1ea219590c09572ed5992dc233bbf7bb70fef9
+    log: revlist-fb4ddf208511-ac1ea219590c.txt
 
---===============0647583370473918733==
+--===============4970108387602587664==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3651bc97781c-9fff1ab283e0.txt
+Content-Disposition: attachment; filename=revlist-fb4ddf208511-ac1ea219590c.txt
 
-1d3f9bb4c8af70304d19c22e30f5d16a2d589bb5 mm/hugetlb: restore failed global reservations to subpool
-338ad1e84d15078a9ae46d7dd7466329ae0bfa61 mm/page_alloc: skip debug_check_no_{obj,locks}_freed with FPI_TRYLOCK
-61dc9f776705d6db6847c101b98fa4f0e9eb6fa3 procfs: fix possible double mmput() in do_procmap_query()
 1aceed565ff172fc0331dd1d5e7e65139b711139 mm/vmscan: fix demotion targets checks in reclaim/demotion
 7ec9ecf217f8e565577bde8a47915a51491ef3a3 mm/vmscan: select the closest preferred node in demote_folio_list()
 3f54ef56fd4540142d2d9a7e7cf0b70dd221c1e1 mm: folio_zero_user: open code range computation in folio_zero_user()
@@ -65,7 +62,5 @@ ff4ef2fbd10192357da76fd80796b7262df21b78 selftests/mm: add memory failure anonym
 12e8a2fae372c55c17a410929cfa60f96b93d17a selftests/mm: add memory failure clean pagecache test
 d51b5076c7468fad568645caf38a6979458a5de1 selftests/mm: add memory failure dirty pagecache test
 ac1ea219590c09572ed5992dc233bbf7bb70fef9 mm/page_alloc: clear page->private in free_pages_prepare()
-39a7efa0282b49ca4f564e427dfb2e29c19b348e mm: allow __GFP_RETRY_MAYFAIL in vmalloc
-9fff1ab283e0982c2b8e73f1d2246fd38caf40c8 foo
 
---===============0647583370473918733==--
+--===============4970108387602587664==--
