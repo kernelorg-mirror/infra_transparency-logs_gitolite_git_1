@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/docs/kernel/pgpkeys
-Date: Fri, 13 Feb 2026 21:54:39 -0000
-Message-Id: <177101967979.347104.9116070828061276860@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
+Date: Fri, 13 Feb 2026 21:58:49 -0000
+Message-Id: <177101992901.350943.3901818728879892906@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/docs/kernel/pgpkeys
-user: mricon
+repo: pub/scm/linux/kernel/git/akpm/25-new
+user: akpm
 changes:
   - ref: refs/heads/master
-    old: dbd30863e192a2ddb4ccac4dfde5cb097cf1ef23
-    new: c755208739f0630bcc6aae8da54bfc09eea04533
+    old: 4ec54c7d0730b79e28fde2d4da83882b03d6219a
+    new: aa7c50725b995c01b68a45013444f90bed52511e
     log: |
-         18e933a3ab4b05520a78ea344439e5dda74e686c Drop expired subkey from description of 41633B9FE837F581 (Mike Frysinger)
-         c755208739f0630bcc6aae8da54bfc09eea04533 Drop expired subkey from description of BF53AD52308AD4EC (Sakari Ailus)
+         aa7c50725b995c01b68a45013444f90bed52511e foo
          
