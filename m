@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============9178481902415377248=="
+Content-Type: multipart/mixed; boundary="===============1194325083045473194=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/linkinjeon/ntfs
-Date: Fri, 13 Feb 2026 07:53:46 -0000
-Message-Id: <177096922630.3757981.6744728728395059138@gitolite.kernel.org>
+Date: Fri, 13 Feb 2026 08:05:23 -0000
+Message-Id: <177096992398.3768955.772145783093894493@gitolite.kernel.org>
 
---===============9178481902415377248==
+--===============1194325083045473194==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,34 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/linkinjeon/ntfs
 user: linkinjeon
 changes:
-  - ref: refs/heads/master
-    old: 7839932417dd53bb09eb5a585a7a92781dfd7cb2
-    new: cee73b1e840c154f64ace682cb477c1ae2e29cc4
-    log: revlist-7839932417dd-cee73b1e840c.txt
+  - ref: refs/heads/ntfs-next
+    old: 5a93b8e1c9b44ad6f6e9194506819aab8ff38ff1
+    new: f455785682aa0eb916053348d8d58b5ecab0e1d8
+    log: revlist-5a93b8e1c9b4-f455785682aa.txt
 
---===============9178481902415377248==
+--===============1194325083045473194==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-7839932417dd-cee73b1e840c.txt
+Content-Disposition: attachment; filename=revlist-5a93b8e1c9b4-f455785682aa.txt
 
-a91b99fa779a2097f147b6a2a05fa7a6207013c7 cpufreq: s5pv210: Simplify with scoped for each OF child loop
-39451ebcf7fe19f21c65b39b03fbfb90c3d1a350 dt-bindings: firmware: fsl,scu: Mark multi-channel MU layouts as deprecated
-1508301d4a47212faec673d63359241146993acf scsi: efct: Use IRQF_ONESHOT and default primary handler
-1384a81e54fa73b852a6ec2593f2e29cbcf57747 bng_en: fix misleading error message for generic firmware version
-78211543d2e44f84093049b4ef5f5bfa535f4645 net: ethernet: adi: adin1110: Check return value of devm_gpiod_get_optional() in adin1110_check_spi()
-f8ef441811ec413717f188f63d99182f30f0f08e scsi: ufs: core: Flush exception handling work when RPM level is zero
-6dfa3df797bbea7ae2527c21eaff58de5ae8c580 net: bridge: use sysfs_emit instead of sprintf
-21a16f0f02263db5a1bc4739036abca698b8808f scsi: mpi3mr: Make driver probing asynchronous
-f613e8b4afea0cd17c7168e8b00e25bc8d33175d net: add proper RCU protection to /proc/net/ptype
-41b37312bd9722af77ec7817ccf22d7a4880c289 scsi: smartpqi: Fix memory leak in pqi_report_phys_luns()
-5c2c3c38be396257a6a2e55bd601a12bb9781507 net: gro: fix outer network offset
-bee60ce21b751275b3a7766f614373ef02dde512 selftest: net: add a test-case for encap segmentation after GRO
-6788d44b936c7e494b0d179c8843a72188287473 Merge branch 'net-gro-fix-outer-network-offset'
-9672ed3de7d772ceddd713c769c05e832fc69bae scsi: ufs: mediatek: Fix page faults in ufs_mtk_clk_scale() trace event
-7b9ebcce0296e104a0d82a6b09d68564806158ff gve: Fix stats report corruption on queue count change
-c7db85d579a1dccb624235534508c75fbf2dfe46 gve: Correct ethtool rx_dropped calculation
-279fe484dde428d305eeb8e3acdaa7ddfaa62a42 Merge branch 'gve-stats-reporting-fixes'
 bbb8d98fb4536594cb104fd630ea0f7dce3771d6 scsi: ufs: host: mediatek: Require CONFIG_PM
 ffd42b6d0420c4be97cc28fd1bb5f4c29e286e98 lib/crypto: mldsa: Clarify the documentation for mldsa_verify() slightly
 e17f0d4cc006265dd92129db4bf9da3a2e4a4f66 scsi: buslogic: Reduce stack usage
@@ -1050,5 +1033,22 @@ e812928be2ee1c2744adf20ed04e0ce1e2fc5c13 Merge tag 'cxl-for-7.0' of git://git.ke
 7449f86bafcdb588422bb14a4babfd285e723670 Merge tag 'nfs-for-7.0-1' of git://git.linux-nfs.org/projects/anna/linux-nfs
 7563f7e0e9fc79c41b2aea045a87b8de942fd616 Merge tag 'for-v7.0' of git://git.kernel.org/pub/scm/linux/kernel/git/sre/linux-power-supply
 cee73b1e840c154f64ace682cb477c1ae2e29cc4 Merge tag 'riscv-for-linus-7.0-mw1' of git://git.kernel.org/pub/scm/linux/kernel/git/riscv/linux
+8ebf022cdaca598f6c306089a0d9bcb202205fd2 Revert "fs: Remove NTFS classic"
+d54fe809d4c43b4ed075202b0cef707526f91781 fs: add generic FS_IOC_SHUTDOWN definitions
+d732f222c194d962bccae8ab27abfc95b3d3e9e3 ntfs: update in-memory, on-disk structures and headers
+addfb4380589acff9aa3b543ee5222d1bdfff882 ntfs: update super block operations
+0c3b37ce13616df53a745c8ac7e5fd347280bb02 ntfs: update inode operations
+3e6883fe0154f7702bfc492b473ca5a967a0dbd5 ntfs: update mft operations
+320a060ea3bf8f828f6d0f62e1cb0499b4f112bd ntfs: update directory operations
+d0c31eb47929c8ad4d601d1397e11924d3c0833a ntfs: update file operations
+f0f6a4fca158bfeba292c7852fe6b6731c35e630 ntfs: update iomap and address space operations
+642b13dd3bc9c2662df9166a31e259bd4a581bd6 ntfs: update attrib operations
+460eee83be3a18596262b2f9a064c9a5869e9646 ntfs: update runlist handling and cluster allocator
+64e76a791ac6d81341708f87f89e40dce3a1be51 ntfs: add reparse and ea operations
+82350fb15cd94b72994f28b8fb5bb19e9342be0c ntfs: update misc operations
+14e0663ab2c1ac60d08b41278254b4d7ce41fe02 ntfs3: remove legacy ntfs driver support
+7886675f2860df542f4721b3d1c5c5c659894292 ntfs: add Kconfig and Makefile
+aeaa8265c0781f9e6d9533c3a15d2a0c26ab381e Documentation: filesystems: update NTFS driver documentation
+f455785682aa0eb916053348d8d58b5ecab0e1d8 MAINTAINERS: update ntfs filesystem entry
 
---===============9178481902415377248==--
+--===============1194325083045473194==--
