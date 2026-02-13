@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/kbuild/linux
-Date: Fri, 13 Feb 2026 19:28:09 -0000
-Message-Id: <177101088963.231495.4219472347974036437@gitolite.kernel.org>
+Date: Fri, 13 Feb 2026 19:28:22 -0000
+Message-Id: <177101090237.231768.7670252456051925739@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,7 +11,7 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/kbuild/linux
 user: nathan
 changes:
-  - ref: refs/heads/kbuild-fixes-unstable
+  - ref: refs/heads/kbuild-fixes-for-next
     old: d59d7292d8b2f3123450e0ba573da6072fd869ef
     new: afdfb71c018e9a0aa2e51fb8186d3fb1acdd3f0e
     log: |
