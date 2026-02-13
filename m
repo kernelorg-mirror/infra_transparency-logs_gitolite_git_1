@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0441579037672767039=="
+Content-Type: multipart/mixed; boundary="===============6981584001306768002=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Fri, 13 Feb 2026 08:22:22 -0000
-Message-Id: <177097094233.3781249.16392770265257596229@gitolite.kernel.org>
+Date: Fri, 13 Feb 2026 08:22:40 -0000
+Message-Id: <177097096031.3781515.1641975607808068684@gitolite.kernel.org>
 
---===============0441579037672767039==
+--===============6981584001306768002==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,15 +16,23 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: c87b8dcfb7323d10c60e7a89a3c1227658433f6e
-    new: dc3fbeb04edeb2548c75baae6206bd26a6a25f94
-    log: revlist-c87b8dcfb732-dc3fbeb04ede.txt
+    old: dc3fbeb04edeb2548c75baae6206bd26a6a25f94
+    new: 89958a994c7a6f3e5f1c119c5a399c93ebe6742f
+    log: |
+         f45bd2c29389a2d2e97646c2e985c005e9c0a281 Merge branch into tip/master: 'timers/urgent'
+         e3f01bf1327cc544301470bf39762b800ca326c3 Merge branch into tip/master: 'core/debugobjects'
+         89958a994c7a6f3e5f1c119c5a399c93ebe6742f Merge branch into tip/master: 'locking/futex'
+         
+  - ref: refs/heads/tip/urgent
+    old: f8b4496f7da16ff16c6a24bdf2b389cbd9c52035
+    new: f45bd2c29389a2d2e97646c2e985c005e9c0a281
+    log: revlist-f8b4496f7da1-f45bd2c29389.txt
 
---===============0441579037672767039==
+--===============6981584001306768002==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-c87b8dcfb732-dc3fbeb04ede.txt
+Content-Disposition: attachment; filename=revlist-f8b4496f7da1-f45bd2c29389.txt
 
 e8fe098170142416f11a0cae201254cd779f7fe9 ata: libata-scsi: Remove superfluous local_irq_save()
 151cabd140322205e27dae5c4bbf261ede0056e3 ata: libata: avoid long timeouts on hot-unplugged SATA DAS
@@ -428,6 +436,6 @@ e812928be2ee1c2744adf20ed04e0ce1e2fc5c13 Merge tag 'cxl-for-7.0' of git://git.ke
 7449f86bafcdb588422bb14a4babfd285e723670 Merge tag 'nfs-for-7.0-1' of git://git.linux-nfs.org/projects/anna/linux-nfs
 7563f7e0e9fc79c41b2aea045a87b8de942fd616 Merge tag 'for-v7.0' of git://git.kernel.org/pub/scm/linux/kernel/git/sre/linux-power-supply
 cee73b1e840c154f64ace682cb477c1ae2e29cc4 Merge tag 'riscv-for-linus-7.0-mw1' of git://git.kernel.org/pub/scm/linux/kernel/git/riscv/linux
-dc3fbeb04edeb2548c75baae6206bd26a6a25f94 Merge branch 'linus'
+f45bd2c29389a2d2e97646c2e985c005e9c0a281 Merge branch into tip/master: 'timers/urgent'
 
---===============0441579037672767039==--
+--===============6981584001306768002==--
