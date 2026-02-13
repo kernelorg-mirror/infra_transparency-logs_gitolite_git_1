@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0661944121682705701=="
+Content-Type: multipart/mixed; boundary="===============9180037765553870690=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Fri, 13 Feb 2026 13:47:03 -0000
-Message-Id: <177099042378.4153016.1608759714929416031@gitolite.kernel.org>
+Date: Fri, 13 Feb 2026 13:47:04 -0000
+Message-Id: <177099042450.4153104.6247171886079174529@gitolite.kernel.org>
 
---===============0661944121682705701==
+--===============9180037765553870690==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,49 +16,57 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-5.10.y
-    old: 020e2d8d3b4adc9e3857b6b286e3089ccd168b1f
-    new: 78b861a3606c900f3cbfab5450034502794fe114
-    log: |
-         84bcf53fdf95faf096a62602eb346672c68b5db8 driver core: enforce device_lock for driver_match_device()
-         8c969ddd1847c3187c2ff7033dddba26343f62dd crypto: octeontx - Fix length check to avoid truncation in ucode_load_store
-         12027287a5ab87b72cd250e407ff22f386860066 crypto: omap - Allocate OMAP_CRYPTO_FORCE_COPY scatterlists correctly
-         a695a7bb832561e3f16747d8d95756e1ac928684 crypto: virtio - Add spinlock protection with virtqueue notification
-         42b3ca4076f22f03ad41c0d904bc9ea52cf5df3a nilfs2: Fix potential block overflow that cause system hang
-         7a360df8e98f3245c1ace3f73ffcdff6dce13837 scsi: qla2xxx: Delay module unload while fabric scan in progress
-         adf6b59168dc492e457c424702ddbc0b0f193bca scsi: qla2xxx: Query FW again before proceeding with login
-         746d9a5eb9412dbf0eb2af76156c9ac40e161dfe gpio: omap: do not register driver in probe()
-         78b861a3606c900f3cbfab5450034502794fe114 Linux 5.10.251-rc1
-         
+  - ref: refs/heads/linux-5.15.y
+    old: 989e8b6db89b311d8449ca35f3696b931b0606c9
+    new: 7be43ad02c6bea3d9ea42da54259b59154574b47
+    log: revlist-989e8b6db89b-7be43ad02c6b.txt
 
---===============0661944121682705701==
+--===============9180037765553870690==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1770990422 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1770990423 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1770990421-852ed6ad1cb3a49310b4814dab77fd31da65b5be
+nonce 1770990422-48d7f46f392c0207e1a90a5cb8c0c18fda7e68a8
 
-020e2d8d3b4adc9e3857b6b286e3089ccd168b1f 78b861a3606c900f3cbfab5450034502794fe114 refs/heads/linux-5.10.y
+989e8b6db89b311d8449ca35f3696b931b0606c9 7be43ad02c6bea3d9ea42da54259b59154574b47 refs/heads/linux-5.15.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmmPK1YbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+4b0QAI9UUj//QN8NhH/1jkuA
-cgKrdp8lcPHwXnn6D6u7p7FRi1xZDLM9HW/UZoVx4NwG9thJYD7dOxNAW207Q26i
-08TuWpseehhOCg0crozDITgoaQyjXojlMTEQEpTnYJvpPG+q16nBGiVrgCvc7Qvp
-uQkYLTtBpP5iazvbXtkOEcFn0N8qxA40czznc8MNjQMZ4CPjq6nG9wH0jc9EBICg
-aUSeChoj8sFj9/6NAT9Ox7upPh39q2aV0zP3ugY1cOBJ5StudD3AsiZIAAj2rpeS
-HMYml6shxpD05nJz5wQabd5Mr+xtQ8YoDkdljKeDqGpI8FSJJj/Xc4ELH1didoUo
-14JWOcyh0+dAwBu06age89dw2ht6onXLLQsRYjXwkQmYSDeUvMywDNk0rw5LZR/f
-bAcAu+Pr68PAOYxyBR2x/FyrPV7jF9bZKs0CdcFLULc4wVgeERRm/2wXMOFCuMhC
-h+MNp5aEMxTDqiUT9R9PduAlLrR8tk1Vnw1LYvR8Ukp1ogdisudxqIZFodRCX24q
-L9XDcKifsYccXtSAOZ5r72EEk2kj4/JqcLZyiC9T/QqiQSRLHRKydUWfj+TEVeWH
-6LZQbAe8XDifKEIKomSs7Gh9kT0hd2xbIFGfLUTD+DOGk247Ryb2g2le5uzxR8pL
-8YxdAKhqFWzI7S4BN2FcJW/X
-=0IA8
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmmPK1cbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+X8wQAJ/EgirueeXPHYdbCisZ
+eBVfwZRuas14qdzHBhTmt5hmbKbX57GDilJBRpI9DkN95l/J6/V1RCADD+bVV/7f
+zcxTbyXWSz3302m+sxTFEb9hR25lHJmxvod0v57e2l9vACVrOFgmkz+hvWZ3IU1/
+l6yLEbaZeOrck7VoRM8ycT/NtVT+xrnro1yl2Q14qtPMlEWScGWMNjJi5toxP0Ys
+6Dy8LbDG5c7gmZ8iuK9dkiDHgtNr2fethcLWw8F1o/BU4MXGMZn4qHqQUyDlC6i4
+3v5ARhBffpGMRbHgECIR+EjOc1cUNvOnHcLwcCYH7AXRy/AqMdnLmskG42YvAkJU
+J9dlE/i+6+4VHeibc6hRRMk6xZ6RIny6bHOWaCONt8CKL0QcMz+Xs4FTLRCoQNrz
+tJcyxSaSi1JBXJqjNBTCEEqNh3LN+Ta2TCs/1kV+peFwZmVFCMGx1FUo1CWNB1Ff
+7Ji+zU9Qqo9RrW7Nbiu5oPOqYPc7ZBxz+9fm8dhjb/NnOLIpSCij2Wgq3Mymqk6x
+7X1njwzuTCNeITQlgLY7DbBySTvOOzOAKSyWWX7ykWqibbhv2dJ9608uclTpcdR3
+seDLveeceEPfZW6Z3fMEcBZN/EhI7PqOmZx6TCJAn37IWswKcEUfPvutA7/Dka+u
+w3frmaL6RCu2bVDn17fcrrGq
+=iO7q
 -----END PGP SIGNATURE-----
 
---===============0661944121682705701==--
+--===============9180037765553870690==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-989e8b6db89b-7be43ad02c6b.txt
+
+8cfebb1576f204eb2b29b58e484b89c637ff5b50 driver core: Add a guard() definition for the device_lock()
+ddffcfc5f2b8ec33cf9cc662726786306cd6c6b7 driver core: enforce device_lock for driver_match_device()
+c36ec4b5e44876beaa5113c207fb62c45d100d8b crypto: octeontx - Fix length check to avoid truncation in ucode_load_store
+cedc32c7fcdb8d1af0dbfe1a971cdd99052715fb crypto: omap - Allocate OMAP_CRYPTO_FORCE_COPY scatterlists correctly
+6ac5786235f217c28cab36a737ca3c07c7f615a3 crypto: virtio - Add spinlock protection with virtqueue notification
+42c4f223df657afb9c9a0f2d3525bc2fbbf50252 nilfs2: Fix potential block overflow that cause system hang
+a2e4937b39d6605a5edd36c2396231a3621e6fd9 scsi: qla2xxx: Validate sp before freeing associated memory
+9e27939bbcb9b77562a764256c250a1b708ec403 scsi: qla2xxx: Delay module unload while fabric scan in progress
+450018a988e963f5ae2dd1d3335b0621e897e018 scsi: qla2xxx: Query FW again before proceeding with login
+19d3b50400427b25a56b29e67e76c43188a45ee2 gpio: omap: do not register driver in probe()
+7be43ad02c6bea3d9ea42da54259b59154574b47 Linux 5.15.201-rc1
+
+--===============9180037765553870690==--
