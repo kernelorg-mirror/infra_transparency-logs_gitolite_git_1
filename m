@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/docs/kernel/pgpkeys
-Date: Fri, 13 Feb 2026 21:52:44 -0000
-Message-Id: <177101956446.346315.11664120953060684547@gitolite.kernel.org>
+Date: Fri, 13 Feb 2026 21:54:39 -0000
+Message-Id: <177101967979.347104.9116070828061276860@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,9 @@ repo: pub/scm/docs/kernel/pgpkeys
 user: mricon
 changes:
   - ref: refs/heads/master
-    old: b0126f8860dcc92b239a96cdd59a64dd515b16f7
-    new: dbd30863e192a2ddb4ccac4dfde5cb097cf1ef23
+    old: dbd30863e192a2ddb4ccac4dfde5cb097cf1ef23
+    new: c755208739f0630bcc6aae8da54bfc09eea04533
     log: |
-         dbd30863e192a2ddb4ccac4dfde5cb097cf1ef23 Drop revoked certificate for Harald Hoyer
+         18e933a3ab4b05520a78ea344439e5dda74e686c Drop expired subkey from description of 41633B9FE837F581 (Mike Frysinger)
+         c755208739f0630bcc6aae8da54bfc09eea04533 Drop expired subkey from description of BF53AD52308AD4EC (Sakari Ailus)
          
