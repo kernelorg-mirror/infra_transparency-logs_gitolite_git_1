@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4464896201431105617=="
+Content-Type: multipart/mixed; boundary="===============2356021496372572593=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Fri, 13 Feb 2026 15:43:39 -0000
-Message-Id: <177099741917.52641.13345607961902180659@gitolite.kernel.org>
+Date: Fri, 13 Feb 2026 15:43:41 -0000
+Message-Id: <177099742120.52729.15845010944954247778@gitolite.kernel.org>
 
---===============4464896201431105617==
+--===============2356021496372572593==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,137 +15,91 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/damon/next
-    old: bb0b978f7af01d1b8943d179e50765d5a4a29ef3
-    new: a3a4548779a7e2d7b72ce4befb42798b01996d3d
-    log: revlist-bb0b978f7af0-a3a4548779a7.txt
+  - ref: refs/heads/master
+    old: 7449f86bafcdb588422bb14a4babfd285e723670
+    new: cee73b1e840c154f64ace682cb477c1ae2e29cc4
+    log: revlist-7449f86bafcd-cee73b1e840c.txt
 
---===============4464896201431105617==
+--===============2356021496372572593==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-bb0b978f7af0-a3a4548779a7.txt
+Content-Disposition: attachment; filename=revlist-7449f86bafcd-cee73b1e840c.txt
 
-f4bf92a05a842d662870e8133afb3e4a029ec418 mm/damon: remove unused target param of get_scheme_score()
-641af9fc01cd0d30afb7d129d5de28fe40832aaf === hacks in progress ===
-6c35d1a989d2ee19e59c6860322675eb50055e26 ==== damos filter fixup ====
-5e36f4906e8fae65b558c426a20e32c383917497 mm/damon/core: set quota-score histogram with core filters
-60bf65ff890763cb9c6dbba87476194ef6fc73c1 mm/damon/core: do non-safe region walk on kdamond_apply_schemes()
-d418fb1752dcc2687a4790164eb64ec44029baf3 ==== selective DAMOS quota goal tuner ====
-bfc1ddcceb396b7877bae2c4759626778b14d0d7 mm/damon/core: introduce damos_quota_goal_tuner
-de290bf6a450bd395e1cee3b33d34debc2202f45 mm/damon/core: introduce DAMOS_QUOTA_GOAL_TUNER_TEMPORAL
-abe626016d6942644d3a7756605ed82ac84a3c8f mm/damon/sysfs-schemes: implement quotas->goal_tuner file
-8b4fce20ecbeda91af7e522ef1f4e9ba7a77d6d0 Docs/mm/damon/design: document the goal-based quota tuner selections
-0283dbc94bcb8fdcc443bda9a1eb2c4733acf31e Docs/admin-guide/mm/damon/usage: document goal_tuner sysfs file
-d9caa0cafd8d0f19596c24d9c8c7fff6d8f48015 ==== fault/report-based monitoring for per-cpu and write ====
-1ddde36e46aae9382a64ddc90c6136e052eb3783 mm/damon/core: implement damon_report_access()
-7d12c686d4b405054863803d4797e1249c705bd1 mm/damon: define struct damon_sample_control
-b8d21bcc51f6ca91ed8b42b612627d2125d0099c mm/damon/core: commit damon_sample_control
-45fb06a4d3a5345a0adf4af0fb060f791d47ea29 mm/damon/core: implement damon_report_page_fault()
-06b6444a78b62bf36ec741be513d3413535cb32e mm/{mprotect,memory}: (no upstream-aimed hack) implement MM_CP_DAMON
-cc5d5749921b59c0db96cfddc0bcfc039d807816 mm/damon/paddr: support page fault access check primitive
-6692c508d67e78c3d76bd0d2c378958ef51aa7e4 mm/damon/core: apply access reports to high level snapshot
-073525f16b83768ec0b60cad07a0bcf14d94f639 mm/damon/sysfs: implement monitoring_attrs/sample/ dir
-a875f19a36d964b07ce8eaa50a5c8885013df482 mm/damon/sysfs: implement sample/primitives/ dir
-4cfb54cdc8be356e57988f6b0a5318191ced6611 mm/damon/sysfs: connect primitives directory with core
-0c390ba0d62a09807598f0e836d6b92201f1651f Docs/mm/damon/design: document page fault sampling primitive
-c047bf45ca9fa7d5992a29c4eaaa2021e3bb6259 Docs/admin-guide/mm/damon/usage: document sample primitives dir
-af8f76dc9a88eae0869b2aee455afcc39bb9ca2e mm/damon: extend damon_access_report for origin CPU reporting
-68fd40f2585e07908bbeb490c30a37ca22f953c4 mm/damon/core: report access origin cpu of page faults
-df4ef3165ec3a64c0c6a68be298018895dce9fbf mm/damon: implement sample filter data structure for cpus-only monitoring
-f82263f4dfb2d71ce8a0de2fff641f2331ac58a8 mm/damon/core: implement damon_sample_filter manipulations
-0ee57b728312dcda58ca5c18b2509b96a002fa12 mm/damon/core: commit damon_sample_filters
-64b4bf4ccc546a45ce8d993504df4bcf1560d3ac mm/damon/core: apply sample filter to access reports
-09ac4b387d9f543ccf6985d59b26dad8d27b8553 mm/damon/sysfs: implement sample/filters/ directory
-6f489f0ab25027e2992d291603aba86a468377a9 mm/damon/sysfs: implement sample filter directory
-99bfa94f3a966610cc1c4ce4d8624c7166fd5159 mm/damon/sysfs: implement type, matching, allow files under sample filter dir
-a75a4e316fe346b9fdb53f3f7411a09ac6e239eb mm/damon/sysfs: implement cpumask file under sample filter dir
-8cd46babce3998f7f8520ac5db55c871801eb39e mm/damon/sysfs: connect sample filters with core layer
-224c35f7c5a4497a6fdcda6723ca9ff3b69a0925 Docs/mm/damon/design: document sample filters
-d5243934dc3d524ed00b18559e04e28717dfe53a Docs/admin-guide/mm/damon/usage: document sample filters dir
-543b05d1d4bd70b650faf9ee433c77f49f1701fb mm/damon: extend damon_access_report for access-origin thread info
-bbed2c7aee97085cac248e575093b275a689e001 mm/damon/core: report access-generated thread id of the fault event
-579d41125fe901aee43a7127b767418476382eda mm/damon: extend damon_sample_filter for threads
-80d44baf0959f98520e493a08a8cdb6b0f1e8d10 mm/damon/core: support threads type sample filter
-2535409f18ea30657d3f0e338f68dec7c662a1c7 mm/damon/sysfs: support thread based access sample filtering
-a3d0262976e2ac84059b44a43dda21eac4e7c229 Docs/mm/damon/design: document threads type sample filter
-df6bf3b16ce499ac97b94a2f3e6d35105d4a9105 Docs/admin-guide/mm/damon/usage: document tids_arr file
-d5df626e76f8f70b41f4fe0778188d43c94bb10d mm/damon: support reporting write access
-e13f3e53eed42b5393821556413194671ad6148f mm/damon/core: report whether the page fault was for writing
-a42924341c81bacbdb9f4c03fb160ceaac9cfc6c mm/damon/core: support write access sample filter
-311ae84a75ee1cb2086955262c3ab003780e749d mm/damon/sysfs: support write-type access sample filter
-bfc58b7bc7b318ca93fcf3d2a8f6d801a773eef1 Docs/mm/damon/design: document write access sample filter type
-b495fc75f42beb6af5776187e923ab69b50ae014 mm/damon/core: elaborate access reports dropping behavior
-97967af7ea0d0739cd163f5a17be86331fb1726a ===== fault-based vaddr monitoring =====
-9bf9d78e73cdbab5fb3522ae59b19cf422c059c2 mm/damon: rename damon_access_report->addr to ->paddr
-ff21d1926d7f70fa30ef25a218bd80fe6a050066 mm/damon: extend damon_access_report for virtual address
-5450a76175836322b3172154baa273cf28b5eec7 mm/damon/core: set damon_access_report->vaddr from page fault report
-5a2248b3d0ffb59f7f587ecf7e4286ffe8d18d2b mm/damon/core: support vaddr reports
-03c4754bbb5ac5fe1a51ca3d7b0e512a5a7d322b ==== docs for DAMON and mm ====
-b48dfa2614a21bb9a5c365781543edcb07ac38a1 Docs/mm/damon/design: add table of contents for overall and DAMOS
-30b22c8c0a0289bd3e5aa667dcaf495ea2226ee3 Docs/process/2.Process: Update mm tree URL
-d20e6dc45b71259c5d2fab08bf70f2c9d5ece96d Docs/mm/damon/design: add API link to damon_ctx
-6aba8b02eba93b5e969d59631c254b352de2102e ==== ACMA ====
-129fc82ec4cb3781c32fe056a4161358fb86dac2 mm/damon: implement DAMOS actions for access-aware contiguous memory allocation
-fd5cd8dfe6c62135021b5e16df7c2e7059615cca mm/damon: add the initial part of access/contiguity-aware memory auto-scaling module
-6f48f6389bf0cf9cbc553e0307814e53d9413823 mm/page_reporting: implement a function for reporting specific pfn range
-86f059401d4a81ba6ff4efbd901cb19be26fd2d2 mm/damon/acma: implement scale down feature
-1a9254e69ddbc8b79f1317b1b240ff3f39e45bae mm/damon/acma: implement scale up feature
-c589a7f09f7e69cdb6a7fdb35e09d749b340b440 drivers/virtio/virtio_balloon: integrate ACMA and ballooning
-a066e33844ba3d4cb11cb3310111554c9d5536f3 === commits aiming not to be posted ===
-729e857b92c91f8aead408b77a9fbdbb5e3821ff mm/damon/core: add debugging log for intervals auto-tuning
-8d2490f1a0165291bbd8ec09f62fa7c5fc9ce89e mm/damon/core: add todo for DAMOS interval validation
-a249f67ea3e3933e487fece148e02203ff851e05 mm/damon/core: add debugging-purpose log of tuned esz
-c5fd912e8baf04f12635aed0f6738a49cba931d3 Add debug log for PSI
-897ca54a343a309b0fbb3fc15c95873ec1a59cc2 ==== config_damon_hardened ====
-75eb46aaaf25a6c10b60762cf36d799870906530 mm/damon: add CONFIG_DAMON_HARDENED
-64cfd7f402ce4de1ba6c4a8f0fc06e616e3648d9 mm/damon/core: add damon_new_region() hardening
-6cb3e42e75304f61fc4742c0e32111e2e1f9187f mm/damon/core: verify damon_del_region()
-55169a24c20a94e211a59a2881cbb1d1c30a4e29 mm/damon/core: add damon_nr_regions() hardening
-fdc0778e36458bd103c94a0a4ff4ac4fbf49c25d mm/damon/core: add damon_reset_aggregated() hardening
-80a8233a6ab0b22acdaad70f77fbb197edbfd329 mm/damon/core: add damon_merge_two_regions() hardening
-107253320b5c25a715f52f108975317f07835d76 mm/damon/core: add damon_merge_regions_of() hardening
-6c182c3d2d2322f936e5f337c4f285fe6003f459 mm/damon/core: add damon_split_region_at() hardening
-6dc76a8ac71a47c49e398230ee019370e8aba735 ==== biggest_system_ram fixup ====
-f13fc592e64e530e856540d11c6635e717530f20 mm/damon/core: adjust end address on walk_system_ram() for inclusiveness
-ea8fa2a476c9368f414286614c726b800dcf9823 mm/damon/core: support LPAE on damon_find_biggest_system_ram()
-2cd527caf608f29f2f8cb268b62ed4cd873b191e mm/damon/core: receive addr_unit on damon_set_region_biggest_system_ram_default()
-f858529b4088611208afec2217a18b16516e5a48 mm/damon/reclaim: respect addr_unit for biggest system ram use case
-ea113d997d62da81d64b502f8ab34e2e73436804 mm/damon/lru_sort: support addr_unit for biggest system ram use case
-0b09b89ec2c23716d2ead7b5f8b4e4d25a521af8 ==== strictly respect min_nr_regions ====
-d0d3f210d6cad107eacd2debfa43d6ee9a509590 mm/damon/core: split regions to respect min_nr_regions
-de2186fcc5cce5ca5b39dd59d4b0acf1df1a830d mm/damon/tests/core-kunit: implement a test for kdamond_ensure_sz_limit()
-ea949f4aa9648e4e5c8c6b7e9ad16da887c0a7b6 mm/damon/core: align region size uppr limit by min_region_sz
-27c84046e834a590cbd5684915434d98fc1e82d6 ==== sis overflow fix ====
-e9c7d48fb9ea63536414b20a09f0652cee22dd74 mm/damon/core: remove damos_set_next_apply_sis() duplicates
-797f64b23892616e89bd8c3ff0e7792865ca35e7 mm/damon/core: use time_before() for next_apply_sis
-8551396337212acc9e779d18d664128b878789c1 mm/damon/core: use time_after_eq() in kdamond_fn()
-0209a02f95581d2716c33eb9599ad7ef28c953dd ==== monitor all system rams ====
-4ec43ae0fe70cf2d191bf0b650a7e4199b1c5374 mm/damon/core: implement a function for setting all system rams as the target region
-72378ba067d6cc6e615cb8a8a2da8ae5403bcd4e mm/damon/stat: cover all system rams
-8463a8f9c2294aec6f1d38f400b6c7191be085ce mm/damon/reclaim: work for all system rams
-6e149bb9dc45a39f0acb3e27e840497617d5bc2f mm/damon/lru_sort: cover all system rams
-7ce833248af33fa8b77ddd5d36a313cf3fef277b mm/damon/acma: cover all system rams
-f0216306ff27505b3c857661ac4775d477f92a9d mm/damon/core: remove damon_set_region_biggest_system_ram_default()
-8a9831156633e90902c997178e5f2cd4e4954eaf Docs/admin-guide/mm/damon/reclaim: update for entire memory monitoring
-ca8e93def79dad77314970c21c336311f09717c3 Docs/admin-guide/mm/damon/lru_sort: update for entire memory monitoring
-b85aba9051945bf340540f6560e8b754f61cafc2 ==== misc fixups ====
-c2830281935837405d694dedc24d47bc430d4421 mm/damon/tests/core-kunit: add a test for damon_is_last_region()
-826009702c952ca5806ad722f03d42b22092d93c Docs/admin-guide/mm/damn/lru_sort: fix intervals autotune parameter name
-aa2eef2c20c3330c915118d00796bd2997e344cd mm/damon/core: use mult_frac()
-7706e7fb7e5c3bbe98835d17ae7c2e92b3a8fe1b mm/damon/core: clarify damon_set_attrs() usage
-bfa6f6e8ec5cd85b0828db5dc6180089c7eb8753 ==== damon_stat: add kdamond_pid ====
-cddb39633bb2f25935a976e0b34f2efd5949ffcd mm/damon/stat: add a parameter for reading kdamond pid
-cf9cd2afc251904ba5b7edd8b236d00ea46ed15c Docs/admin-guide/mm/damon/stat: document kdamond_pid parameter
-8dc949d1c5d22a3772ad2c96af505669842d1d11 ==== damon_reclaim: introduce monitoring intervals autotune ====
-238d623955822b92befb969ac123a6d8f8bebdd4 mm/damon/reclaim: add autotune_monitoring_intervals parameter
-fad20781ba3d82879849b0860ce2ec2365eca2f5 ==== deprecate core_filters sysfs dir ====
-e4a78e023cb9170630ea5d132ec6701c914e535d Docs/admin-guide/mm/damon/usage: mark scheme filters sysfs dir as deprecated
-6c016530ab1178b0a45560358a2419ffccb38761 ==== uncategorized ====
-bb4dbd929b9eeac4ca775439f4d441cc28e9b7e0 mm/damon/core: add an hacking idea concept interface prototype
-d8b85698dca0e7119d47d6196f9f3b341dcf7c89 mm/damon/core: restrict total_charged_{sz,ns} to avoid overflows
-5b149c49911a1f8a9dcc85ea2f210a3ccec588ce mm/memory: implement functions and data structures for page faults monitoring
-d0a2e8a6266a8195b0d438cd3691780d1b4b09cb mm/memory: introduce do_{,huge_pmd_}faults_monitor_page()
-a3a4548779a7e2d7b72ce4befb42798b01996d3d mm/memory: mark faults_monitor_controls_lock as static
+e312b7e3183d2d806609ee0e905da807ff5d891f power: supply: bd99954: Remove unused gpio include header
+38673fd9d622318eed1e35cfad5998b4056edc1e power: supply: bq256xx: Remove unused gpio include header
+3d74b6dfd703ba812c624c689451b0ae573b4f0b power: supply: bq25980: Remove unused gpio include header
+91a4f92de8454621e9d4e77a58c19c9d60a69581 power: supply: cw2015: Remove unused gpio include header
+ce3bc8469e4c387fd937e2ef96a6d45b7e22afc7 power: supply: ucs1002: Remove unused gpio include header
+c4af8a98bb52825a5331ae1d0604c0ea6956ba4b power: supply: ab8500: Fix use-after-free in power_supply_changed()
+3291c51d4684d048dd2eb91b5b65fcfdaf72141f power: supply: act8945a: Fix use-after-free in power_supply_changed()
+8005843369723d9c8975b7c4202d1b85d6125302 power: supply: bq256xx: Fix use-after-free in power_supply_changed()
+5f0b1cb41906e86b64bf69f5ededb83b0d757c27 power: supply: bq25980: Fix use-after-free in power_supply_changed()
+642f33e34b969eedec334738fd5df95d2dc42742 power: supply: cpcap-battery: Fix use-after-free in power_supply_changed()
+b2ce982e2e0c888dc55c888ad0e20ea04daf2e6b power: supply: goldfish: Fix use-after-free in power_supply_changed()
+838767f5074700552d3f006d867caed65edc7328 power: supply: pf1550: Fix use-after-free in power_supply_changed()
+62914959b35e9a1e29cc0f64cb8cfc5075a5366f power: supply: pm8916_bms_vm: Fix use-after-free in power_supply_changed()
+b7508129978ae1e2ed9b0410396abc05def9c4eb power: supply: pm8916_lbc: Fix use-after-free in power_supply_changed()
+e2febe375e5ea5afed92f4cd9711bde8f24ee6d2 power: supply: rt9455: Fix use-after-free in power_supply_changed()
+8d59cf3887fbabacef53bfba473e33e8a8d9d07b power: supply: sbs-battery: Fix use-after-free in power_supply_changed()
+36b05629226413836cfbb3fbe6689cd188bca156 power: reset: nvmem-reboot-mode: respect cell size for nvmem_cell_write
+688364a11647dc09ba1e4429313e0008066ec790 power: supply: bq27xxx: fix wrong errno when bus ops are unsupported
+2c7e46e1318d4fbf514f454d5a746a1b76d06ebe power: supply: sysfs: Constify pointer passed to dev_attr_psp()
+81963d1c5689168731dca0652093c73b90bed1d3 power: supply: ab8500_chargalg: improve kernel-doc
+04aa3d6dddaf39ecc9735d0b62f46899db71d35e MAINTAINERS: adjust file entry in ROHM BD71828 CHARGER
+39fe0eac6d755ef215026518985fcf8de9360e9e power: supply: wm97xx: Fix NULL pointer dereference in power_supply_changed()
+432b119ab8d8bf1f550c247f7fbe960e87ba6c92 docs: power: update documentation about removed function
+9f77b4c5c38c5734c45fe6223d57e48715dbffb8 riscv: mm: define copy_user_page() as copy_page()
+5bfb287891d455a6ac9209d58873092044b0871c riscv: defconfig: enable NLS_ISO8859_1
+3127718ad9552c9ca90e6eab37cd504c6806bfe4 iommu/riscv: Simplify maximum determination in riscv_iommu_init_check()
+98036587a475f371005e42d3fff9feb9cf713880 mm: add VM_SHADOW_STACK definition for riscv
+f94645fc03b864cf0823548c87a455346e87c22c dt-bindings: riscv: document zicfilp and zicfiss in extensions.yaml
+df11708566d7458d1ce11eb28a59ef6a42ee5236 riscv: zicfiss / zicfilp enumeration
+41a2452c99f327f2b57811e63f6d2497a4a96a9f riscv: add Zicfiss / Zicfilp extension CSR and bit definitions
+79dd4f2f40d0414aab670c46b801b11850306448 riscv: Add usercfi state for task and save/restore of CSR_SSP on trap entry/exit
+6c7559f22b6fcb2d4b52c445434c71ade36b004c riscv/mm: ensure PROT_WRITE leads to VM_READ | VM_WRITE
+f56ffb8ada46aae61580905d93c31e4006572240 riscv/mm: manufacture shadow stack ptes
+c68c2ef9d64169317a6e0e6f0506953637760409 riscv/mm: teach pte_mkwrite to manufacture shadow stack PTEs
+540de7ade1e1327119e367ec5f662a627b3fe9f9 riscv/mm: update write protect to work on shadow stacks
+c70772afd5cc93c28f83b53d33ce9fbcd8d015da riscv/mm: Implement map_shadow_stack() syscall
+fd44a4a8551698757d0e7eeaa964735b471f7407 riscv/shstk: If needed allocate a new shadow stack on clone
+61a0200211d31e20380c35d619960a40113da872 riscv: Implement arch-agnostic shadow stack prctls
+5ca243f6e3c30b979a54a96b96df355dda2b4d0f prctl: add arch-agnostic prctl()s for indirect branch tracking
+8a9e22d2ca5855263d6e3f83509eabf16d7b8a0a riscv: Implement indirect branch tracking prctls
+9d42fc28fc178e5031eddc6f80df561fc586caf4 riscv/traps: Introduce software check exception and uprobe handling
+66c9c713de597f9b40a319ebda4d3466ce2cdff0 riscv/signal: save and restore the shadow stack on a signal
+9d0e75e25e3be74828ffb7657992ce0f03352cc3 riscv/kernel: update __show_regs() to print shadow stack register
+2af7c9cf021c5dabe880b68e5cc22c618060d954 riscv/ptrace: expose riscv CFI status and state via ptrace and in core files
+462a94fb8ae8ba0d4d3901c7283b4af052ab8804 riscv: hwprobe: add support for RISCV_HWPROBE_KEY_IMA_EXT_1
+30c3099036a9544ec24e899abc8a81a7cc030f99 riscv/hwprobe: add zicfilp / zicfiss enumeration in hwprobe
+c9b859c4d8f56c014b3d5fbd1bcfb916c34955a1 riscv: add kernel command line option to opt out of user CFI
+41213bf2ae6c936f51a79986b37f95da9ecbb970 riscv: enable kernel access to shadow stack memory via the FWFT SBI call
+37f57bd3faeac92e898c3381355f4fd2b6a80901 arch/riscv: compile vdso with landing pad and shadow stack note
+ccad8c1336b6511e3c7ca5c02f797b1fd2cf67e1 arch/riscv: add dual vdso creation logic and select vdso based on hw
+22c1e263af2ac7dad3d2af258336318ee4c4a0ae riscv: create a Kconfig fragment for shadow stack and landing pad support
+f6eeb67b917238fe2295d27ef0c8fe2cab8de5b5 riscv: add documentation for landing pad / indirect branch tracking
+c8350aa2ed7828175468696ae95f34a431342175 riscv: add documentation for shadow stack
+d30c1683aaecb93d2ab95685dc4300a33d3cea7a kselftest/riscv: add kselftest for user mode CFI
+8cdb04bd06c167461b357150b3ca46983eb70dc3 riscv: ptrace: return ENODATA for inactive vector extension
+562357a6310f79e45844c3e980d410a1e8e02ce6 power: reset: tdx-ec-poweroff: fix restart
+23067259919663580c6f81801847cfc7bd54fd1f power: supply: pm8916_lbc: Fix use-after-free for extcon in IRQ handler
+72db889394d89ffde61e7438f0cdfc0135c9da48 power: supply: wm97xx: Use devm_kcalloc()
+3db37475d78ed0c2857f289a535dd44b045a904a power: supply: wm97xx: Use devm_power_supply_register()
+c655f45480637aee326b5bd96488d35ab90db2b0 power: supply: qcom_battmgr: Recognize "LiP" as lithium-polymer
+4c3f02f843999a590f4481791f59a2f9a7f34fe4 dt-bindings: power: supply: google,goldfish-battery: Convert to DT schema
+cb3aa2b540b0116caa900ea644d785cc583feed5 Merge tag 'ib-mfd-clk-gpio-power-regulator-rtc-v6.20' into psy-next
+12bdf471e374b34cb0e48b29bb9eb9127ed26fc5 power: supply: bd71828: Use dev_err_probe()
+ef3ff40346db8476a9ef7269fc9d1837e7243c40 riscv: vector: init vector context with proper vlenb
+fd515e037efb3b6300eace247e14ab2bc7e38db5 riscv: csr: define vtype register elements
+f4be988f5b547dc4b305c15a078a52cdde76a8f5 riscv: ptrace: validate input vector csr registers
+600f72ded8c877be95322ce806d23345ea5e89bc selftests: riscv: test ptrace vector interface
+66d03044891df63c82b18ae1da07bc4bc077ae48 selftests: riscv: verify initial vector state with ptrace
+3789d5eecd5ae01149d0ef5ba70e8120da2f55db selftests: riscv: verify syscalls discard vector context
+30eb191c895b086c21fc04c5c1482cb1bb0f3caf selftests: riscv: verify ptrace rejects invalid vector csr inputs
+849f05ae1ea6e1ff621243dce27fe455fdc9d0ff selftests: riscv: verify ptrace accepts valid vector csr values
+098921ec6818291d98bd3a4002c9dfbe2e75aac2 selftests: riscv: vstate_exec_nolibc: Use the regular prctl() function
+18be4ca5cb4e5a86833de97d331f5bc14a6c5a6d riscv: lib: optimize strlen loop efficiency
+7563f7e0e9fc79c41b2aea045a87b8de942fd616 Merge tag 'for-v7.0' of git://git.kernel.org/pub/scm/linux/kernel/git/sre/linux-power-supply
+cee73b1e840c154f64ace682cb477c1ae2e29cc4 Merge tag 'riscv-for-linus-7.0-mw1' of git://git.kernel.org/pub/scm/linux/kernel/git/riscv/linux
 
---===============4464896201431105617==--
+--===============2356021496372572593==--
