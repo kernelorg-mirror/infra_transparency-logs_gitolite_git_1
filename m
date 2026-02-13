@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0513430503274316869=="
+Content-Type: multipart/mixed; boundary="===============2897386886886960592=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Fri, 13 Feb 2026 00:15:28 -0000
-Message-Id: <177094172897.3338388.1439640795967587434@gitolite.kernel.org>
+Date: Fri, 13 Feb 2026 00:15:51 -0000
+Message-Id: <177094175140.3338691.9276831689244595996@gitolite.kernel.org>
 
---===============0513430503274316869==
+--===============2897386886886960592==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,15 +16,23 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: 2c48bab428e6fc27dc65b953e67b2184dd5ad9d6
-    new: 8421cd4fdec5f6cd69998e45d327b7332f747ff3
-    log: revlist-2c48bab428e6-8421cd4fdec5.txt
+    old: 8421cd4fdec5f6cd69998e45d327b7332f747ff3
+    new: c87b8dcfb7323d10c60e7a89a3c1227658433f6e
+    log: |
+         f8b4496f7da16ff16c6a24bdf2b389cbd9c52035 Merge branch into tip/master: 'timers/urgent'
+         dab97be7587b72546649391d42ee39a355080e89 Merge branch into tip/master: 'core/debugobjects'
+         c87b8dcfb7323d10c60e7a89a3c1227658433f6e Merge branch into tip/master: 'locking/futex'
+         
+  - ref: refs/heads/tip/urgent
+    old: 0e1e03cc7c0e3eb7303b4b393b806b988f1043d1
+    new: f8b4496f7da16ff16c6a24bdf2b389cbd9c52035
+    log: revlist-0e1e03cc7c0e-f8b4496f7da1.txt
 
---===============0513430503274316869==
+--===============2897386886886960592==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2c48bab428e6-8421cd4fdec5.txt
+Content-Disposition: attachment; filename=revlist-0e1e03cc7c0e-f8b4496f7da1.txt
 
 11aa4a18094f04a8ba7e403c272a9a5d85c9c9fc tools/rtla: Remove unused function declarations
 c219d4ee1d63b772d5fa8ed453b9cec18a9e2f6a rtla: Set stop threshold after all instances are enabled
@@ -512,6 +520,6 @@ cafe4074a7221dca2fa954dd1ab0cf99b6318e23 watchdog/softlockup: fix sample ring in
 a67594c977234b0ad6887202740e9e8b9821473a Merge tag 'for-linus' of https://github.com/openrisc/linux
 f75c03a761b737c4ee94c17f154967261f00ab4d Merge tag 'trace-rv-v7.0' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
 582a1ef360a05bff4350bbf6e383f61d26b804f0 Merge tag 'trace-rtla-v7.0' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
-8421cd4fdec5f6cd69998e45d327b7332f747ff3 Merge branch 'linus'
+f8b4496f7da16ff16c6a24bdf2b389cbd9c52035 Merge branch into tip/master: 'timers/urgent'
 
---===============0513430503274316869==--
+--===============2897386886886960592==--
