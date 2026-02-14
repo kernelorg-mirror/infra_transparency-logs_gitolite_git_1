@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2891135709040960140=="
+Content-Type: multipart/mixed; boundary="===============2665297911650131324=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ebiggers/linux
-Date: Sat, 14 Feb 2026 22:22:05 -0000
-Message-Id: <177110772521.1491935.14916005656113425941@gitolite.kernel.org>
+Date: Sat, 14 Feb 2026 22:22:09 -0000
+Message-Id: <177110772979.1492102.8069948788996927930@gitolite.kernel.org>
 
---===============2891135709040960140==
+--===============2665297911650131324==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ebiggers/linux
 user: ebiggers
 changes:
-  - ref: refs/heads/libcrypto-fixes
-    old: 74d74bb78aeccc9edc10db216d6be121cf7ec176
+  - ref: refs/heads/crc-next
+    old: dcb6fa37fd7bc9c3d2b066329b0d27dedf8becaa
     new: 64275e9fda3702bfb5ab3b95f7c2b9b414667164
-    log: revlist-74d74bb78aec-64275e9fda37.txt
+    log: revlist-dcb6fa37fd7b-64275e9fda37.txt
 
---===============2891135709040960140==
+--===============2665297911650131324==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-74d74bb78aec-64275e9fda37.txt
+Content-Disposition: attachment; filename=revlist-dcb6fa37fd7b-64275e9fda37.txt
 
 b582090005d5c66bfdb73a85b91ddb42a868aff6 mptcp: Change some dubious min_t(int, ...) to min()
 f7f4e8e9448c5c142a3f0b74cec961818a565878 selftests: mptcp: diag: sort all #include
@@ -1051,4 +1051,4 @@ f0a475aedd190db95cf92914ca7760c06fbdb704 Merge tag 'mailbox-v6.20' of git://git.
 787fe1d43a21d688afac740f92485e9373d19f01 Merge tag 'memblock-v7.0-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/rppt/memblock
 64275e9fda3702bfb5ab3b95f7c2b9b414667164 Merge tag 'loongarch-7.0' of git://git.kernel.org/pub/scm/linux/kernel/git/chenhuacai/linux-loongson
 
---===============2891135709040960140==--
+--===============2665297911650131324==--
