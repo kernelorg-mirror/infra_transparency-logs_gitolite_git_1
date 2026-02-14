@@ -1,45 +1,80 @@
-Content-Type: multipart/mixed; boundary="===============2431572486594032592=="
+Content-Type: multipart/mixed; boundary="===============7869064155131718945=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Sat, 14 Feb 2026 03:13:44 -0000
-Message-Id: <177103882424.600651.8575474939026654099@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Sat, 14 Feb 2026 03:42:24 -0000
+Message-Id: <177104054498.622970.14840719316176808263@gitolite.kernel.org>
 
---===============2431572486594032592==
+--===============7869064155131718945==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-user: jarkko
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
-  - ref: refs/heads/container
-    old: b256194ac45c53077637f2872b0fafad5d199c4c
-    new: 7f9e9427f0c3c472422a9fef1db071e9703a3df1
-    log: revlist-b256194ac45c-7f9e9427f0c3.txt
+  - ref: refs/heads/master
+    old: f50822fd8675c68d294e89bd102f7b487ca3acd3
+    new: 770aaedb461a055f79b971d538678942b6607894
+    log: revlist-f50822fd8675-770aaedb461a.txt
 
---===============2431572486594032592==
+--===============7869064155131718945==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b256194ac45c-7f9e9427f0c3.txt
+Content-Disposition: attachment; filename=revlist-f50822fd8675-770aaedb461a.txt
 
-114776ba50ee0fd40d1578c4766f1890331ce265 nsproxy: Export create_new_namespaces()
-fb16b8c71568d7c788ead11e86558d47620c729d nsproxy: Pass explicit nsproxy to create_new_namespaces()
-d2cce457650d5a2db55b7cbfcab2077980dd4cde containers: Declare container object and flags
-42996ec37b4719207acf834226c4badf7f0452e4 fork: Handle task's container in fork and exit
-484257c3619a3d72a96fde252eb0f6d3aa31a4fb containers: Implement container_create()
-8b317f0d641f478d8391e8d9b20dfb6974ca7c6b containers: Implement container_wait()
-cf1222a6c2031a1d47a48b3b1d5e05b75e8df1b3 containers: Implement container_kill()
-0755f9ab291414b5bd8e462dd40dd4398e8865a8 containers: Implement container_fork()
-f773e604766867955c45128a0da8ca8225609e75 net: Pass netns into __sys_socket
-d39c45fa1a763eb743b5e83e2110fa6187527dff containers: Make fsopen() able to create a superblock in a container
-3959a6059e22c08a3baa3c1fbc9531caa1dc496b containers, vfs: Allow CONTAINER_NEW_EMPTY_FS_NS
-e1b178699c4ad793431e91e430f389d7711940b8 vfs: Allow mounting to other namespaces
-8db68b9122493c07c1c6e5739634c4eeb94dd7e5 security: Add container LSM hooks
-2c912131d96b002c2266a1cfdedbddeb414e2e74 containers: kselftest
-7f9e9427f0c3c472422a9fef1db071e9703a3df1 MAINTAINERS: add CONTAINER OBJECTS entry
+0550069cc25f513ce1f109c88f7c1f01d63297db tracing: Properly process error handling in event_hist_trigger_parse()
+a4e0ea0e10a262fb6f1ad55a8a9d203bad776678 tracing: Remove redundant call to event_trigger_reset_filter() in event_hist_trigger_parse()
+2cddfc2e8fc78c13b0f5286ea5dd48cdf527ad41 tracing: Add bitmask-list option for human-readable bitmask display
+e5136678b1c861ed7d0c985c1acdecd37f949937 tracing: Replace use of system_wq with system_dfl_wq
+729757b96a662d87e334fe8b837707800d8fd551 tracing: Add show_event_filters to expose active event filters
+6a80838814eea232a83fab3ac33282cd1243da5b tracing: Add show_event_triggers to expose active event triggers
+e4ef389e761bc37904f5cf64b99af5c6c603f2ba tracing: Check the return value of tracing_update_buffers()
+8aa76aa415897f6c1ba47d9f131fa463499c4169 ring-buffer: Use a housekeeping CPU to wake up waiters
+2d8b7f9bf8e6e7ae4e5a457bbaee2f84cdfd61f1 tracing: Have show_event_trigger/filter format a bit more in columns
+a9e0c5897a787751c373812ea21fabf955625b34 ftrace: Introduce and use ENTRIES_PER_PAGE_GROUP macro
+6bdf07302f42783345289caec7d91fa364e013ec tracing: Disable trace_printk buffer on warning too
+45641096c9c3eb8213616df50beaa5f92b201876 tracing: Have hist_debug show what function a field uses
+ef742dc5f8cd941bd7ad7dda132458909cb298d2 tracing: Remove notrace from trace_event_raw_event_synth()
+e62750b6ab4d57f6cf4ea1550de8d2e111adb675 tracing: Up the hist stacktrace size from 16 to 31
+9df0e49c5b9b8d051529be9994e4f92f2d20be6f tracing: Remove duplicate ENABLE_EVENT_STR and DISABLE_EVENT_STR macros
+84c2344b0660cabe114ef889207f445def7996bd MAINTAINERS: add Rust files to STATIC BRANCH/CALL and TRACING
+16718274ee75d24a21b10ebc8998c48cc14a656a tracing: perf: Have perf tracepoint callbacks always disable preemption
+f7d327654b886a768fb3baa5b43d151b63e2d4ff bpf: Have __bpf_trace_run() use rcu_read_lock_dont_migrate()
+a77cb6a8676672ee08c9f1feff4215575e06357b srcu: Fix warning to permit SRCU-fast readers in NMI handlers
+a46023d5616ed3ed781e56ca93400eb9490e3646 tracing: Guard __DECLARE_TRACE() use of __DO_TRACE_CALL() with SRCU-fast
+02b75ece53bb6e7b75b987d5728949451d1dc8a9 tracing: Add kerneldoc to trace_event_buffer_reserve()
+1cadf2819bc91ab5cb060ec3ce473bae30c9e52d bootconfig: Terminate value search if it hits a newline
+8c5d862fcb2116ebf5ce762a82db827a38a7d8ee bootconfig: Check the parsed output of the good examples
+1c48f7ab72a8c9d6419622931e622e5247e979f5 tracing: Rename `eval_map_wq` and allow other parts of tracing use it
+0c2580a8094693578afa9b6cbcee406cf131920e blktrace: Make init_blk_tracer() asynchronous
+2cdfe39dc9447a09c568da1b6351c70b770dd923 tracing/kprobes: Skip setup_boot_kprobe_events() when no cmdline event
+c8b039c3e3763281c867489a926c52716337da59 tracing: Have all triggers expect a file parameter
+326669faf3cbfda31b2203f0a66aa87812062e5f tracing: Move tracing_set_filter_buffering() into trace_events_hist.c
+ba73713da50e5c24499ca8941171593466ea34f7 tracing: Clean up use of trace_create_maxlat_file()
+64dee86ad7de3d59bae041e0d8f80ef89ddc4cf6 tracing: Make tracing_disabled global for tracing system
+a4f77ffc8eb6247ad00c53d297a145e47594ce76 tracing: Make tracing_selftest_running global to the tracing subsystem
+0e730bc067e7a790d61344dbf6d9dfdce7f99ea3 tracing: Move __trace_buffer_{un}lock_*() functions to trace.h
+3e6c8f80e5ddd0644e509547c61366a2c09117b0 tracing: Move ftrace_trace_stack() out of trace.c and into trace.h
+1c53d781d42541adc5ba76b4f843a3ff382e01fb tracing: Make printk_trace global for tracing system
+93c88d06accdeceee4fbd243b084d3749bcd96d7 tracing: Make tracing_update_buffers() take NULL for global_trace
+f377912b3dd71312cbf9eaf2c60263cb6e7cba59 tracing: Have trace_printk functions use flags instead of using global_trace
+af1eea12ad24f62d65714c5318841894278a7aaa tracing: Use system_state in trace_printk_init_buffers()
+27931ee8f45415db3a10586f9d5b6f77ef7d7d84 tracing: Move trace_printk functions out of trace.c and into trace_printk.c
+98021e37d694ddc48f45b690045df013054fd69c tracing: Move pid filtering into trace_pid.c
+694b3f6fe0b6c86ff75e94302708f5a718027297 tracing: Rename trace_array field max_buffer to snapshot_buffer
+e4c1a09afbe2f02fc66b5ccbc96aa3a7109f9b79 tracing: Add tracer_uses_snapshot() helper to remove #ifdefs
+c4f1fe47b106e9200cbb1b8951bd75f036d53bd3 tracing: Better separate SNAPSHOT and MAX_TRACE options
+b4bade506b18eb2e5e34ac84f915d7ee6156d4e2 tracing: Move d_max_latency out of CONFIG_FSNOTIFY protection
+f743435f988cb0cf1f521035aee857851b25e06d tracing: Fix false sharing in hwlat get_sample()
+f844282deed7481cf2f813933229261e27306551 tracing: Fix to set write permission to per-cpu buffer_size_kb
+804c4a2209bcf6ed4c45386f033e4d0f7c5bfda5 tracing: Reset last_boot_info if ring buffer is reset
+fa4820b893843f7ad5e1b5c446a92426c5c946ce tracing: Fix indentation of return statement in print_trace_fmt()
+53b2fae90ff01fede6520ca744ed5e8e366497ba function_graph: Restore direct mode when callbacks drop to one
+3c6e577d5ae705edebed9882ff474d7a48a47dd2 Merge tag 'trace-v7.0' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
+770aaedb461a055f79b971d538678942b6607894 Merge tag 'bootconfig-v7.0' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
 
---===============2431572486594032592==--
+--===============7869064155131718945==--
