@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/git/git
-Date: Fri, 13 Feb 2026 23:52:44 -0000
-Message-Id: <177102676402.445268.15156802938143028741@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ast/bpf
+Date: Sat, 14 Feb 2026 00:01:45 -0000
+Message-Id: <177102730502.452654.7175752601794079013@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/git/git
-user: junio
+repo: pub/scm/linux/kernel/git/ast/bpf
+user: ast
 changes:
-  - ref: refs/heads/todo
-    old: e3de8cba334c6dc76e8cce246c7ca18c7aeb136c
-    new: fce518414b1c1449c474dd66b248a02aaea44888
-    log: |
-         fce518414b1c1449c474dd66b248a02aaea44888 What's cooking (2026/02 #05)
-         
+  - ref: refs/heads/qp-trie
+    old: 0000000000000000000000000000000000000000
+    new: 85dca79aa9199152741f7429b86cf4cb78f21124
