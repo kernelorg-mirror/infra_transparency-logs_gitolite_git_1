@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6797852068346043849=="
+Content-Type: multipart/mixed; boundary="===============6005127971210629824=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Sat, 14 Feb 2026 11:41:29 -0000
-Message-Id: <177106928912.993357.15150178133998086196@gitolite.kernel.org>
+Date: Sat, 14 Feb 2026 11:44:13 -0000
+Message-Id: <177106945385.994352.15413317876627023254@gitolite.kernel.org>
 
---===============6797852068346043849==
+--===============6005127971210629824==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,30 +16,30 @@ repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
 user: jarkko
 changes:
   - ref: refs/heads/container
-    old: 84979cdefd7e8511abb001cb8bba3c51bb674584
-    new: 57988f3e1b61de35fa19c3654ad0073987054002
-    log: revlist-84979cdefd7e-57988f3e1b61.txt
+    old: 57988f3e1b61de35fa19c3654ad0073987054002
+    new: e3557bb4d647de4b44abb2462bc23e9f3107ef57
+    log: revlist-57988f3e1b61-e3557bb4d647.txt
 
---===============6797852068346043849==
+--===============6005127971210629824==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-84979cdefd7e-57988f3e1b61.txt
+Content-Disposition: attachment; filename=revlist-57988f3e1b61-e3557bb4d647.txt
 
-ec63ae1993be7b5717af5739a6d5a02eb76344ef nsproxy: Export create_new_namespaces()
-41e60ab030d24fa41095ce759278ba8a15f019d7 nsproxy: Pass explicit nsproxy to create_new_namespaces()
-610c84ea034f24585e3a9ff245c6019e94530f38 containers: Declare container object and flags
-be70220227afe8058d845b5bca0e629c3759aa66 fork: Handle task's container in fork and exit
-15e0a03c358eb81a723125c19764349f1e1176a0 containers: Implement container_create()
-9334fcb54e2d66c6e1d2f90a14ff7a116f64b5d2 containers: Implement container_wait()
-49798af21c23a116eef4036cb0bc9a411396c171 containers: Implement container_kill()
-21f968504b1af265868fe332ac546c4c9ee5a07f containers: Implement container_fork()
-952ef8f8118403187bc5dc5a36cb07fd86e85ec5 net: Pass netns into __sys_socket
-7311ff963cf5bb6a32199f22eea1bded3a5ccb48 containers: Make fsopen() able to create a superblock in a container
-8fdd9fcf154696e554e44a322a3b5f15352c4d34 containers, vfs: Allow CONTAINER_NEW_EMPTY_FS_NS
-41b587cd41e95af8b413a793cea33009e2d6de88 vfs: Allow mounting to other namespaces
-f8a6a07b05a5b32f6ffb8565c0a4bc0085fe2bef security: Add container LSM hooks
-1614d52d581975057efb331aeacf9ddfdd678fa1 containers: kselftest
-57988f3e1b61de35fa19c3654ad0073987054002 MAINTAINERS: Add entry for CONTAINER SPACE
+e81680e75ce65e065e5e001e0738ada174d292e1 nsproxy: Export create_new_namespaces()
+d3b56f199b603f4d429b64d5fa36c4313a08d405 nsproxy: Pass explicit nsproxy to create_new_namespaces()
+7d137bd3d7abe1fb1947899251ace2e5d153ba10 containers: Declare container object and flags
+32ec22dd1e318def3025c52d5c89246f34f25215 fork: Handle task's container in fork and exit
+2c980188aa282b016e19aea1815a455156846763 containers: Implement container_create()
+a42358a5b421e90af9b4f3df74fb665e3249c361 containers: Implement container_wait()
+424589f5eb942b3accd92050236b87e1c52c614e containers: Implement container_kill()
+db3f3daefd0b7794407574fc0774a0ee95229810 containers: Implement container_fork()
+7d2fa9a10e62abe78c95ef9d19849842db5944f7 net: Pass netns into __sys_socket
+65d8c0f0858b1bbf0ae0d8a8e0f58eb607c7969c containers: Make fsopen() able to create a superblock in a container
+f9723173de717c8c9b582049daf90c083c86dd3f containers, vfs: Allow CONTAINER_NEW_EMPTY_FS_NS
+e7b9229db7952240e952282065e4272934d9e0c8 vfs: Allow mounting to other namespaces
+afed8d25f676afd8e570127c4b66368bdc930bd7 security: Add container LSM hooks
+cc6b73f8d29792ed36d44e20a64564887114660d containers: kselftest
+e3557bb4d647de4b44abb2462bc23e9f3107ef57 MAINTAINERS: Add entry for CONTAINER SPACE
 
---===============6797852068346043849==--
+--===============6005127971210629824==--
