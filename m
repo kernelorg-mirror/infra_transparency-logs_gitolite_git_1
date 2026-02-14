@@ -1,25 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/dtc/dtc
-Date: Sat, 14 Feb 2026 02:11:36 -0000
-Message-Id: <177103509624.552512.8216156047015285642@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
+Date: Sat, 14 Feb 2026 02:30:38 -0000
+Message-Id: <177103623802.567263.15747439115126893996@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/dtc/dtc
-user: dwg
+repo: pub/scm/linux/kernel/git/xiang/erofs-utils
+user: xiang
 changes:
-  - ref: refs/heads/main
-    old: adba02caf554a213ed900e5eebb4141c6a7a830a
-    new: 68b960e299f7a31c986d6e5c6244a31f3dd4b8fd
+  - ref: refs/heads/experimental
+    old: 97b442c6503d034e944732dcd0d24d3b099a576c
+    new: 132ba56f56f88be143b70457418950d9f45760d2
     log: |
-         68b960e299f7a31c986d6e5c6244a31f3dd4b8fd fdtdump: Remove dtb version check
-         
-  - ref: refs/heads/master
-    old: adba02caf554a213ed900e5eebb4141c6a7a830a
-    new: 68b960e299f7a31c986d6e5c6244a31f3dd4b8fd
-    log: |
-         68b960e299f7a31c986d6e5c6244a31f3dd4b8fd fdtdump: Remove dtb version check
+         132ba56f56f88be143b70457418950d9f45760d2 erofs-utils: manpage: document missing options for mkfs.erofs
          
