@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4406696106616427229=="
+Content-Type: multipart/mixed; boundary="===============4400551427044314664=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/security/vulns
-Date: Sat, 14 Feb 2026 15:16:33 -0000
-Message-Id: <177108219379.1156513.5197756264872472235@gitolite.kernel.org>
+Date: Sat, 14 Feb 2026 15:23:22 -0000
+Message-Id: <177108260237.1161743.9263083885259533176@gitolite.kernel.org>
 
---===============4406696106616427229==
+--===============4400551427044314664==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,43 +17,42 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/master
-    old: 9b8b62cc68c549549d49273aa033e48eb7d1235b
-    new: a88ef4ce1b041ee8b489287eab573288a5fc7ce0
+    old: a88ef4ce1b041ee8b489287eab573288a5fc7ce0
+    new: 85f13ac595fed4d331e1018609bc3addc7f1875b
     log: |
-         40131d7430bde09b514670c1bd3c0ec4e73034d9 update 6.18.8 review from greg
-         287aa453139bb2eecf1c163a36e646e409a8b1e8 allocate some more 6.18.8 cve ids
-         c5d84c83d15c6e504ecef0b4783d03d3bfc20f25 mark 6.18.8 review as completed
-         a88ef4ce1b041ee8b489287eab573288a5fc7ce0 strip the new mbox files
+         6d44f91b3b58d65acf8aad0cb021c3662dc378dd update 6.18.6 review from greg
+         b9444b2692406c3decff97cc60cd956968766906 assign some more 6.18.6 cve ids
+         85f13ac595fed4d331e1018609bc3addc7f1875b mark 6.18.6 review as completed
          
 
---===============4406696106616427229==
+--===============4400551427044314664==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1771082192 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1771082601 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
-nonce 1771082192-b64712c80f4f919fd2207d0e67ee456685985d97
+nonce 1771082601-8b44e8cc285293de961797f5780d39e96dc75515
 
-9b8b62cc68c549549d49273aa033e48eb7d1235b a88ef4ce1b041ee8b489287eab573288a5fc7ce0 refs/heads/master
+a88ef4ce1b041ee8b489287eab573288a5fc7ce0 85f13ac595fed4d331e1018609bc3addc7f1875b refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmmQkdAbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+fbcQAJMk9LR33LEbJSBZ3kvD
-DEk6BeALSl3Z5UFrFxYs37XkAThV+l+OgfxTOqshNJSx6mtVsYlxTIiXOcg6fg8x
-Yr8WMSapQ/li1AvavdTu16GC83sgvTDDjhVBL3ctPHlKo2RA/aX+50yW3SQUPhb5
-gSaD00AEjlY1AQP4E1YtSuQStRqGcMotBStplnLqfw/VKtGXOPBDPN+NKIa/UI7G
-3Ps5++fjbGy3/o32GQKOwDoOzWQo2CMfo63A1FI3HFgM2pEfE5+v9Zt48BN3N9O/
-qO2GcULC5e5u7S4UGazbv0q+0/xVRmp7OugQQP5RZb2m3f0yUjKsnVL7wDB4H7NQ
-iGH0HpZYU3AjcTx3xkvfpuD2GeFaa6ZtJQLQu3nSrzd8w6psHcmOfABzn5CcSg1f
-tYNJvPl6KqmjNmun+70qtPBung0DMt6Z0ah8f7Zv31yGQ7tDazugnHY9iLiuS/Ux
-LCS9dixwV1ecsCcdmS1HcxPNBZeITbORn7c5KSg7NqBw5Z/ebOuRyIwkuV94Cb/2
-pJDZmxtZ8YXodRjFMKngTTukWrKFm2S3zGxApLX+llJ6rCWBnW1mCdT9aWCWRplt
-3j+TAy4QH9Iz6HJyH3sVxPvuDB/+FVAMgKWzeFNlhFSlQp87CLcACcbCUPu65nqb
-VMKbqMscCNAzV7rWeK58UjOw
-=urxq
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmmQk2kbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+kWgP/2iRf6n0hglQy1XWQiKb
+ZDQt+ujUU7B4a6INylBCsL8srCb6PgIrN5Ex2gFpeK8wYvcyaMQH2XG+tOK5xmAT
+CCGgzGPeFEZRgCe2NHgUFuO1vjGIGkC3xjwTRLPQsZor10vH+wAtvoIy1T2J6wnS
+X0fzXehoF0JdKdWmNlKWu8IGbcsS2imWAC4/EoDZptk9y9X82bbs9WVS/IrEsk0W
+pO5h6vcghM/dJcGsSzz19+0jpd9rrRJ6ziU03w9zI3UvGdwW7jiSyG0EHwNFcdb5
+VIaFujCuLSnoUi54KWia8MZHUlbzSEXQmxC0kMFAsX6um83JG9YAAe4JBU0hAmIL
++hWMTkUYdJrVqwaCLUoba2wtBWUdb3H9lGX5DXKiZmElGGxQlsE1LjtQBGrZ4b17
+KScy0Ho8LV4y815xF2fbHGmT4GZrTrIubqHr7HNt3pA0YMJrEqBTaZp8uVDJwVjx
+w08i/jX5Gm1rSEzBCamm3UfsQ4+RTRI/FScct6pdCDJzqQcGx3LJPSlx7D/yO0kz
+iqMRnTRgi1ZRvJRJ4goxaEPAWcppNY+KOspg3McT0GLBR+cru6dq96eUKVp6Flis
+PBLeHUnZwRqEs6321J5MtKBapm+8d+sx9iokNH+Gcm3bFS8zUuFIPHn0EXYYt/1o
+C5B9gnpsHXfYq/qP5Dyo250/
+=ERmh
 -----END PGP SIGNATURE-----
 
---===============4406696106616427229==--
+--===============4400551427044314664==--
