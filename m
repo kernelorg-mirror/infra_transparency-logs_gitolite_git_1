@@ -1,77 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/djwong/e2fsprogs
-Date: Sat, 14 Feb 2026 16:08:42 -0000
-Message-Id: <177108532291.1198216.9920098265880966985@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============4192030452283354954=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/security/vulns
+Date: Sat, 14 Feb 2026 16:24:36 -0000
+Message-Id: <177108627659.1210675.9994603557565503629@gitolite.kernel.org>
+
+--===============4192030452283354954==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/djwong/e2fsprogs
-user: djwong
+repo: pub/scm/linux/security/vulns
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/fuse-iomap-bpf
-    old: 085a0ce06aa5e0cf2f2a4ee209df72d39a2e1ca1
-    new: a7437d249f18fe181ab708d74b736dbcbc380d16
+  - ref: refs/heads/master
+    old: 54471acc47f009dfdd5063ce37eb715e53a5c3c3
+    new: 4a1aa4b540d324606df430ac777941ee3e570b60
     log: |
-         cb45a68bef5ebabf82bb6afff4e12685c4d90791 fuse4fs: wire up caching examples to fuse iomap bpf program
-         a7437d249f18fe181ab708d74b736dbcbc380d16 fuse4fs: adjust test bpf program to deal with opaque inodes
+         4a1aa4b540d324606df430ac777941ee3e570b60 6.18.10 review from greg added
          
-  - ref: refs/tags/origin/next_2026-02-14
-    old: 0000000000000000000000000000000000000000
-    new: 929d41160dbc4afe19cb08bac8bb7c688aef03a6
-  - ref: refs/tags/fuse2fs-locking_2026-02-14
-    old: 0000000000000000000000000000000000000000
-    new: 2462adb6485cc459b12a6b478730ebffed1ef7a1
-  - ref: refs/tags/fuse2fs-new-features_2026-02-14
-    old: 0000000000000000000000000000000000000000
-    new: a3e0f89e31d9021da61273e42ed1d5ee79244ea6
-  - ref: refs/tags/fuse2fs-refactor-operation-startup_2026-02-14
-    old: 0000000000000000000000000000000000000000
-    new: 1df9027818296cd0a153b6b5a4ab56ad297e64d4
-  - ref: refs/tags/fuse2fs-refactor-unmounting_2026-02-14
-    old: 0000000000000000000000000000000000000000
-    new: 6293acdd349daad652bd5d60c4f1d1fcf193aeb9
-  - ref: refs/tags/fuse2fs-refactor-mounting_2026-02-14
-    old: 0000000000000000000000000000000000000000
-    new: dd0963261b8e27ada3449ede093d001b78e17562
-  - ref: refs/tags/fuse2fs-tracing_2026-02-14
-    old: 0000000000000000000000000000000000000000
-    new: fb0ec1b25f337ead1f4f3821d5e0765eda127092
-  - ref: refs/tags/fuse2fs-writability_2026-02-14
-    old: 0000000000000000000000000000000000000000
-    new: 48090ca1690129a2fe31e413ed919ca716e885c9
-  - ref: refs/tags/fuse2fs-library-upgrade_2026-02-14
-    old: 0000000000000000000000000000000000000000
-    new: 5e52fd13fc9e55cfd5b1f0d6237a4f4f679359c6
-  - ref: refs/tags/fuse4fs-fork_2026-02-14
-    old: 0000000000000000000000000000000000000000
-    new: 2164de0235117e8ceb66fdf4650d0a98c8140cf2
-  - ref: refs/tags/libext2fs-iomap-prep_2026-02-14
-    old: 0000000000000000000000000000000000000000
-    new: 8b0c7a773d6cbfcbe5002ce33e1e38bc19049c98
-  - ref: refs/tags/fuse2fs-iomap-fileio_2026-02-14
-    old: 0000000000000000000000000000000000000000
-    new: 4c3b66110a85e2bbd418ccd30cada74a1508fc36
-  - ref: refs/tags/fuse2fs-root-nodeid_2026-02-14
-    old: 0000000000000000000000000000000000000000
-    new: 021283906953ccc1003242a6b818b6e1a4947fea
-  - ref: refs/tags/fuse2fs-iomap-attrs_2026-02-14
-    old: 0000000000000000000000000000000000000000
-    new: 5f8dab398c1d6583fccbd964b7d053414e072bdd
-  - ref: refs/tags/fuse2fs-iomap-cache_2026-02-14
-    old: 0000000000000000000000000000000000000000
-    new: 441666cfc5f403deffa12582f170d48a4f741c6c
-  - ref: refs/tags/fuse2fs-caching_2026-02-14
-    old: 0000000000000000000000000000000000000000
-    new: 16de484a130838c703c21540c4a2c9093a97d935
-  - ref: refs/tags/fuse4fs-service-container_2026-02-14
-    old: 0000000000000000000000000000000000000000
-    new: 5da9f0c2410bf23d813b3fa42a588b1adc675c5f
-  - ref: refs/tags/fuse4fs-memory-reclaim_2026-02-14
-    old: 0000000000000000000000000000000000000000
-    new: 087434d119be6c7dcacbddbfbded4a3fee051e1e
-  - ref: refs/tags/fuse-iomap-bpf_2026-02-14
-    old: 0000000000000000000000000000000000000000
-    new: 7ff859be05aa359e04c853c29f8db16c95dcb561
+
+--===============4192030452283354954==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1771086273 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
+nonce 1771086273-bb9ef7478d8f042dfd5c597a76b58f43a36dad0a
+
+54471acc47f009dfdd5063ce37eb715e53a5c3c3 4a1aa4b540d324606df430ac777941ee3e570b60 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmmQocEbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+gHIQAKs0E4RM7qMPhFXyJkZp
+zFgC6JZkqS4zYJuHby9FcCl02wueMBfg5ojr8KItp6K2dqkMznvEBdpcg68OfWXb
+1UIHd+2IrmULnPetdSRD+fsI/odhsVZx15eGaFaDex4jmWwPRikFyyf/wW3stLdb
+QHEcmNgQk8tXy5e9NvZZxO7FDoP+fHlodSFXNV2sSpbAB28ZuQcnLuvwvFyrWBmX
+APnUyq4ZSca3ytvEjf2dbQTjBNpgP2h+MapCezQr7XBVkXzURm+xQOE3o94cFud1
++Lo29mNiDAoPopkkIePfhqyEwf6rot8w4JWKX1xAGceoOzqV7srUKh96zjDJzUQR
+HJ4/ThA4dEHonhwHXEiHLeXMIG6VRKzHo/02hBFBsOWMmSPM5SfQdPu/DmmTnIBG
+kBwMSk8WhG+dfOahfZX+34B5db8BWk+hfEWHeItZdW5lFz5PmwnYS9f4y2xss+Z2
+0QhdGgQ8vu+qjphRlMlH5MCOl8ExpHCqOyRj955bveQCekibZ4OM7cKFxnuAaU62
+y2v2pJepKK26GWR5i1tfmo9VU3HKuGtyR6TFP3sYKx6TUS6yOWooHxK5oBWN+Kdk
+pBhOmSp6xslBRj/rNUDg8wdfuMgPhbgKeuV/bbn9wFlFXxCIiZewpL7jocUlwBkl
+wsOiiNvRfFwnyegwRLKXvwTI
+=KZiT
+-----END PGP SIGNATURE-----
+
+--===============4192030452283354954==--
