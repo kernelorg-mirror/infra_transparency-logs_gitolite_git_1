@@ -1,21 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf
-Date: Sat, 14 Feb 2026 20:10:04 -0000
-Message-Id: <177109980434.1387302.13386541500739052070@gitolite.kernel.org>
+Subject: post-receive: pub/scm/network/ethtool/ethtool
+Date: Sat, 14 Feb 2026 20:30:38 -0000
+Message-Id: <177110103801.1403431.12079570989606201703@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf
-user: ast
+repo: pub/scm/network/ethtool/ethtool
+user: kuba
 changes:
   - ref: refs/heads/master
-    old: b0b1a8583d8e797114e613139e3e3318a1704690
-    new: 886bf921ecfc30f8f31341bc26560d8bf08b937b
+    old: 8e5c615a319f1b7314f2d270ecebeea8b52389fc
+    new: f6f1f28798c82fb929e33ce75675e68d08f221e3
     log: |
-         623e7b898a0b5e6ebc667134b5b830dbcaf28365 libbpf: Do not use PROG_TYPE_TRACEPOINT program for feature gating
-         9e07e5f57d93b8c8fc70ae9766e77b3f2a7bb5d9 libbpf: Delay feature gate check until object prepare time
-         886bf921ecfc30f8f31341bc26560d8bf08b937b Merge branch 'libbpf-fix-perm-errors-for-ldimm_64_full_range_off-use'
+         f6f1f28798c82fb929e33ce75675e68d08f221e3 Release version 6.19.
          
+  - ref: refs/tags/v6.19
+    old: 0000000000000000000000000000000000000000
+    new: 7ecf6a9e33342a5a8d5bc56d0aba89c6bc6b04ae
