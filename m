@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3651833129255916120=="
+Content-Type: multipart/mixed; boundary="===============6786387919257454955=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Sat, 14 Feb 2026 18:27:17 -0000
-Message-Id: <177109363728.1308943.158097930924306595@gitolite.kernel.org>
+Date: Sat, 14 Feb 2026 18:27:31 -0000
+Message-Id: <177109365173.1309288.9061747878634713741@gitolite.kernel.org>
 
---===============3651833129255916120==
+--===============6786387919257454955==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,15 +16,23 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: 487312bc14c29a2d269fd1ff776ed7493548b1f6
-    new: 738bbd0815690751f508a2c1dcf0d811999bdd06
-    log: revlist-487312bc14c2-738bbd081569.txt
+    old: 738bbd0815690751f508a2c1dcf0d811999bdd06
+    new: 39964a9356dc1988ba11ed1b1942ec56265e862d
+    log: |
+         7e94474d6981849eba5ac2bff9867534b9c11087 Merge branch into tip/master: 'timers/urgent'
+         075f294efe39f7041fb36f97b250edb746c04b03 Merge branch into tip/master: 'core/debugobjects'
+         39964a9356dc1988ba11ed1b1942ec56265e862d Merge branch into tip/master: 'locking/futex'
+         
+  - ref: refs/heads/tip/urgent
+    old: 6bce1a7e507bf08c789d9c3f739b6164ecc8caa1
+    new: 7e94474d6981849eba5ac2bff9867534b9c11087
+    log: revlist-6bce1a7e507b-7e94474d6981.txt
 
---===============3651833129255916120==
+--===============6786387919257454955==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-487312bc14c2-738bbd081569.txt
+Content-Disposition: attachment; filename=revlist-6bce1a7e507b-7e94474d6981.txt
 
 05e65c14ea59a401cec4284e9d612f9d5dc1b3f8 f2fs: support large folio for immutable non-compressed case
 903c6e95bc9a4a3556d37e727853fc0ffb7f3acb f2fs: add a tracepoint to see large folio read submission
@@ -88,6 +96,6 @@ d860974a7e38d35e9e2c4dc8a9f4223b38b6ad99 f2fs: optimize f2fs_overwrite_io() for 
 bc367775f60214312befa33f101b31fe74bba48a f2fs: introduce trace_f2fs_priority_update
 52190933c37a96164b271f3f30c16099d9eb8c09 f2fs: sysfs: introduce critical_task_priority
 3e48a11675c50698374d4ac596fb506736eb1c53 Merge tag 'f2fs-for-7.0-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/jaegeuk/f2fs
-738bbd0815690751f508a2c1dcf0d811999bdd06 Merge branch 'linus'
+7e94474d6981849eba5ac2bff9867534b9c11087 Merge branch into tip/master: 'timers/urgent'
 
---===============3651833129255916120==--
+--===============6786387919257454955==--
