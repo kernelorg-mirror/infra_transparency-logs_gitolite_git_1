@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4222209241577540124=="
+Content-Type: multipart/mixed; boundary="===============6091191658114952204=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/fs/fscrypt/linux
-Date: Sat, 14 Feb 2026 22:22:56 -0000
-Message-Id: <177110777644.1492954.4948830690694628565@gitolite.kernel.org>
+Date: Sat, 14 Feb 2026 22:23:00 -0000
+Message-Id: <177110778050.1493147.7915945405156024613@gitolite.kernel.org>
 
---===============4222209241577540124==
+--===============6091191658114952204==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/fs/fscrypt/linux
 user: ebiggers
 changes:
-  - ref: refs/heads/for-next
-    old: 211ddde0823f1442e4ad052a2f30f050145ccada
+  - ref: refs/heads/for-current
+    old: 1e39da974ce621ed874c6d3aaf65ad14848c9f0d
     new: 64275e9fda3702bfb5ab3b95f7c2b9b414667164
-    log: revlist-211ddde0823f-64275e9fda37.txt
+    log: revlist-1e39da974ce6-64275e9fda37.txt
 
---===============4222209241577540124==
+--===============6091191658114952204==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-211ddde0823f-64275e9fda37.txt
+Content-Disposition: attachment; filename=revlist-1e39da974ce6-64275e9fda37.txt
 
 b582090005d5c66bfdb73a85b91ddb42a868aff6 mptcp: Change some dubious min_t(int, ...) to min()
 f7f4e8e9448c5c142a3f0b74cec961818a565878 selftests: mptcp: diag: sort all #include
@@ -1051,4 +1051,4 @@ f0a475aedd190db95cf92914ca7760c06fbdb704 Merge tag 'mailbox-v6.20' of git://git.
 787fe1d43a21d688afac740f92485e9373d19f01 Merge tag 'memblock-v7.0-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/rppt/memblock
 64275e9fda3702bfb5ab3b95f7c2b9b414667164 Merge tag 'loongarch-7.0' of git://git.kernel.org/pub/scm/linux/kernel/git/chenhuacai/linux-loongson
 
---===============4222209241577540124==--
+--===============6091191658114952204==--
