@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4971757392938931859=="
+Content-Type: multipart/mixed; boundary="===============2180083461265336011=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Sat, 14 Feb 2026 21:47:48 -0000
-Message-Id: <177110566849.1461504.8267415027312862402@gitolite.kernel.org>
+Date: Sat, 14 Feb 2026 21:48:00 -0000
+Message-Id: <177110568089.1461776.6981461153762307553@gitolite.kernel.org>
 
---===============4971757392938931859==
+--===============2180083461265336011==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,15 +16,23 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: 39964a9356dc1988ba11ed1b1942ec56265e862d
-    new: c341e0005143f8a5f50fd6d2b672462091d22797
-    log: revlist-39964a9356dc-c341e0005143.txt
+    old: c341e0005143f8a5f50fd6d2b672462091d22797
+    new: 0c05264f37bcabfccfa223261e44716bb33e213d
+    log: |
+         4d477d6a5932fa8149fbe8f930dac16d2f1976a9 Merge branch into tip/master: 'timers/urgent'
+         be22bbbb3f947625670f15b826c06b480a384842 Merge branch into tip/master: 'core/debugobjects'
+         0c05264f37bcabfccfa223261e44716bb33e213d Merge branch into tip/master: 'locking/futex'
+         
+  - ref: refs/heads/tip/urgent
+    old: 7e94474d6981849eba5ac2bff9867534b9c11087
+    new: 4d477d6a5932fa8149fbe8f930dac16d2f1976a9
+    log: revlist-7e94474d6981-4d477d6a5932.txt
 
---===============4971757392938931859==
+--===============2180083461265336011==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-39964a9356dc-c341e0005143.txt
+Content-Disposition: attachment; filename=revlist-7e94474d6981-4d477d6a5932.txt
 
 c38d8b66c82c585199e2ad67282295f21cfa489f rpmsg: virtio: EPOLLOUT support
 42023d4b6d2661a40ee2dcf7e1a3528a35c638ca rpmsg: core: fix race in driver_override_show() and use core helper
@@ -165,6 +173,6 @@ f0a475aedd190db95cf92914ca7760c06fbdb704 Merge tag 'mailbox-v6.20' of git://git.
 8b3c75a39cc3cde78332f0e10898104a5e1e2807 Merge tag 'fbdev-for-7.0-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/deller/linux-fbdev
 787fe1d43a21d688afac740f92485e9373d19f01 Merge tag 'memblock-v7.0-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/rppt/memblock
 64275e9fda3702bfb5ab3b95f7c2b9b414667164 Merge tag 'loongarch-7.0' of git://git.kernel.org/pub/scm/linux/kernel/git/chenhuacai/linux-loongson
-c341e0005143f8a5f50fd6d2b672462091d22797 Merge branch 'linus'
+4d477d6a5932fa8149fbe8f930dac16d2f1976a9 Merge branch into tip/master: 'timers/urgent'
 
---===============4971757392938931859==--
+--===============2180083461265336011==--
