@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0200257695422736747=="
+Content-Type: multipart/mixed; boundary="===============4614936131401239987=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/wsa/linux
-Date: Sat, 14 Feb 2026 17:40:02 -0000
-Message-Id: <177109080211.1269482.8559140941907236669@gitolite.kernel.org>
+Date: Sat, 14 Feb 2026 17:44:21 -0000
+Message-Id: <177109106129.1273031.5604790673426262716@gitolite.kernel.org>
 
---===============0200257695422736747==
+--===============4614936131401239987==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,28 +16,27 @@ repo: pub/scm/linux/kernel/git/wsa/linux
 user: wsa
 changes:
   - ref: refs/heads/renesas/hwspinlock/refactor-alloc-buildtest
-    old: d52a5165d1428debb5772cb5363a286aaad35aed
-    new: 5366b15a91c224c834714533b6b284e51d8bf2e4
-    log: revlist-d52a5165d142-5366b15a91c2.txt
+    old: 5366b15a91c224c834714533b6b284e51d8bf2e4
+    new: 501a4f992f42d8b89b16a09390d15f8f1d404539
+    log: revlist-5366b15a91c2-501a4f992f42.txt
 
---===============0200257695422736747==
+--===============4614936131401239987==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d52a5165d142-5366b15a91c2.txt
+Content-Disposition: attachment; filename=revlist-5366b15a91c2-501a4f992f42.txt
 
-791d83a5c88df4c5740147813387b803617ffd21 hwspinlock: add helpers to retrieve core data
-56f4a836347242310ea800c0020bc6dd36ead35a hwspinlock: add callback to fill private data of a hwspinlock
-8b22ca701e5f19fcfde4f29fbf8375982f711c2e hwspinlock: omap: use new callback to initialize hwspinlock priv
-9563812b150e4089cd346fac8df2c04dc766cdc4 hwspinlock: qcom: use new callback to initialize hwspinlock priv
-6e0f3302eed29f12e1de6d3a2ebc94a314ff4807 hwspinlock: sprd: use new callback to initialize hwspinlock priv
-07d4d8631b45770a301e6fe3f6e9c23dcd5fbf14 hwspinlock: stm32: use new callback to initialize hwspinlock priv
-0e5815603c1727c2f8f82fc932efe0de42841bc0 hwspinlock: sun6i: use new callback to initialize hwspinlock priv
-45ec1e07665942853700f43cf391efc3695a8878 hwspinlock: handle hwspinlock device allocation in the core
-4f47adc30d8d97240b1bcfb8bc3e5a75a0759b48 hwspinlock: move entries from internal to public header
-3d9fd187f616968def885d1069dab9b1a4745b7b hwspinlock: remove internal header
-1fd1ca4c7f725b7ace2abf6996bf8420b9c58100 hwspinlock: sort include and update copyright
-894684779d5dd23d4b9b800f3109191f22b85912 hwspinlock: refactor provider.h from public header
-5366b15a91c224c834714533b6b284e51d8bf2e4 hwspinlock: refactor consumer.h from public header
+ada0bd2a9472c17d1af23bca27b42d1cd1cae669 hwspinlock: add callback to fill private data of a hwspinlock
+dd02a0f63053f163a91a17ff7d00c6c362d1dc19 hwspinlock: omap: use new callback to initialize hwspinlock priv
+2f44fef32589cf390fb29ad627ffa66eb8e531ce hwspinlock: qcom: use new callback to initialize hwspinlock priv
+b0328379c7a66577a72bed12b8bed6b1c151d32d hwspinlock: sprd: use new callback to initialize hwspinlock priv
+aa6866a3a63c1742f2752325bd30a5921682a5e0 hwspinlock: stm32: use new callback to initialize hwspinlock priv
+ad0c61c652f00b08c902613f675800e792d5d17e hwspinlock: sun6i: use new callback to initialize hwspinlock priv
+800499f81a78f711317eb3cb2a9a6f7d38af9ba9 hwspinlock: handle hwspinlock device allocation in the core
+4f0f5d8dc8b45a694d4e07f6ed7736d23c872968 hwspinlock: move entries from internal to public header
+13bd5a5559010ea08f204e4f48b2e77e20dd3b96 hwspinlock: remove internal header
+27304b10b49d6e673253d3cd9a4381a958e7bcac hwspinlock: sort include and update copyright
+17e132fa5023c1c33bf2ccbfe7528748b5611a6b hwspinlock: refactor provider.h from public header
+501a4f992f42d8b89b16a09390d15f8f1d404539 hwspinlock: refactor consumer.h from public header
 
---===============0200257695422736747==--
+--===============4614936131401239987==--
