@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4787426319024470345=="
+Content-Type: multipart/mixed; boundary="===============8904933936364033354=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Sat, 14 Feb 2026 10:56:06 -0000
-Message-Id: <177106656648.958307.1574011421014774506@gitolite.kernel.org>
+Date: Sat, 14 Feb 2026 10:56:24 -0000
+Message-Id: <177106658428.958675.12662876866651752153@gitolite.kernel.org>
 
---===============4787426319024470345==
+--===============8904933936364033354==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,15 +16,23 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: 89958a994c7a6f3e5f1c119c5a399c93ebe6742f
-    new: 0898954938717cd9b133e6bf36da789155afb3b0
-    log: revlist-89958a994c7a-089895493871.txt
+    old: 0898954938717cd9b133e6bf36da789155afb3b0
+    new: 487312bc14c29a2d269fd1ff776ed7493548b1f6
+    log: |
+         6bce1a7e507bf08c789d9c3f739b6164ecc8caa1 Merge branch into tip/master: 'timers/urgent'
+         487649e93508be92f70ae14be5a7c9587682174c Merge branch into tip/master: 'core/debugobjects'
+         487312bc14c29a2d269fd1ff776ed7493548b1f6 Merge branch into tip/master: 'locking/futex'
+         
+  - ref: refs/heads/tip/urgent
+    old: f45bd2c29389a2d2e97646c2e985c005e9c0a281
+    new: 6bce1a7e507bf08c789d9c3f739b6164ecc8caa1
+    log: revlist-f45bd2c29389-6bce1a7e507b.txt
 
---===============4787426319024470345==
+--===============8904933936364033354==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-89958a994c7a-089895493871.txt
+Content-Disposition: attachment; filename=revlist-f45bd2c29389-6bce1a7e507b.txt
 
 a75a1dec037ff3de863375fa3a74569619667184 mtd: spinand: add support for Dosilicon DS35Q1GA/DS35M1GA
 dd0a2d47cfc4c5ffb3e866c94a80c03ff5ecdd70 platform/x86: intel/pmt: Replace sprintf() with sysfs_emit()
@@ -581,6 +589,6 @@ a353e7260b5951a62dce43630ae9265accd96a4b Merge tag 'for_linus' of git://git.kern
 f50822fd8675c68d294e89bd102f7b487ca3acd3 Merge tag 'platform-drivers-x86-v7.0-1' of git://git.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
 3c6e577d5ae705edebed9882ff474d7a48a47dd2 Merge tag 'trace-v7.0' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
 770aaedb461a055f79b971d538678942b6607894 Merge tag 'bootconfig-v7.0' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
-0898954938717cd9b133e6bf36da789155afb3b0 Merge branch 'linus'
+6bce1a7e507bf08c789d9c3f739b6164ecc8caa1 Merge branch into tip/master: 'timers/urgent'
 
---===============4787426319024470345==--
+--===============8904933936364033354==--
