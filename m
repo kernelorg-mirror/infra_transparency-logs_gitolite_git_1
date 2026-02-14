@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2703482369489304469=="
+Content-Type: multipart/mixed; boundary="===============2864202431057104513=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Sat, 14 Feb 2026 17:46:54 -0000
-Message-Id: <177109121411.1276484.7800222602445207314@gitolite.kernel.org>
+Date: Sat, 14 Feb 2026 17:47:04 -0000
+Message-Id: <177109122417.1276795.13625306290799352428@gitolite.kernel.org>
 
---===============2703482369489304469==
+--===============2864202431057104513==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,44 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/cel/linux
 user: cel
 changes:
-  - ref: refs/heads/nfsd-next
-    old: e939bd675634fd52d559b90e2cf58333e16afea8
-    new: ec3bef5782bcff4c830b829704661435f2d133af
-    log: revlist-e939bd675634-ec3bef5782bc.txt
+  - ref: refs/heads/nfsd-testing
+    old: 2e069b1479bb947fed35309ddc407803ce5717b9
+    new: 92e0f138b68bb98f0ae74f36d679b85598c58c46
+    log: revlist-2e069b1479bb-92e0f138b68b.txt
 
---===============2703482369489304469==
+--===============2864202431057104513==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-e939bd675634-ec3bef5782bc.txt
+Content-Disposition: attachment; filename=revlist-2e069b1479bb-92e0f138b68b.txt
 
-50464497b5874b7c2f3ab991cec81e916d40743c spi: geni-qcom: Improve target mode allocation by using proper allocation functions
-96e041647bb0f9d92f95df1d69cb7442d7408b79 spi: geni-qcom: Fix abort sequence execution for serial engine errors
-9934383f98c91d8dfdf16d0e980431041c2d17ee spi: geni-qcom: Drop unused msg parameter from timeout handlers
-6516169fa7f6110ce42a5958c921255f2d0968bc spi: geni-qcom: Add target abort support
-63fbf275fa9f18f7020fb8acf54fa107e51d0f23 Merge branch 'for-7.0/cxl-prm-translation' into cxl-for-next
-5e6e1dc43a217624087ce45bafd20ac2cfb3c190 resolve_btfids: Refactor the sort_btf_by_name function
-f1ef70a4a32042984d29b8d02bdf6167474373af ASoC: dt-bindings: davinci-mcasp: Add properties for asynchronous mode
-e683cb088fdcbdc86fc30008319312cc0bb80226 ASoC: ti: davinci-mcasp: Disambiguate mcasp_is_synchronous function
-016efcaa470cdbc658df46d968d875f6a1cf9a78 ASoC: ti: davinci-mcasp: Streamline pdir behavior across rx & tx streams
-9db327083f7e0da702e2ec0169f8a34f3576f371 ASoC: ti: davinci-mcasp: Add asynchronous mode support
-8035d70cf85e86f36f5eb1e07b243f300a936b8b Merge branch 'thermal-intel'
-27db1ae6ecdf23f4176276da6037eaafbd23bf94 Merge tag 'for-linus' of git://git.kernel.org/pub/scm/virt/kvm/kvm
-719d959274da85eb0e1eb448dd807b1c435c19a1 vdpa/mlx5: update mlx_features with driver state check
-2f61e6eda7a793bca4df6efea95815375e122f3a vdpa/mlx5: reuse common function for MAC address updates
-503ef41e88080fb2d2399173e34d26e59567fb5e vdpa/mlx5: update MAC address handling in mlx5_vdpa_set_attr()
-5145b277309f3818e2db507f525d19ac3b910922 vhost: fix caching attributes of MMIO regions by setting them explicitly
-a9ba6733c7f1096c4506bf4e34a546e07242df74 nvdimm: virtio_pmem: serialize flush requests
-d0b57f0962adcc2a92947a9fd9b86216b5322797 ext4: consolidate fsverity_info lookup
-45dcb3ac9832650e5fdc2046cc7cdb97cebbb888 f2fs: consolidate fsverity_info lookup
-b0160e4501bb3572d9ef6e4f8edf758193ee37aa btrfs: consolidate fsverity_info lookup
-f77f281b61183a5c0b87e6a4d101c70bd32c1c79 fsverity: use a hashtable to find the fsverity_info
-433fbcac9ebe491b518b21c7305fba9a748c7d2c fsverity: remove inode from fsverity_verification_ctx
-6d367141eb68ced4d1e1fc97e97c59be1daa3085 Merge branch 'pm-cpuidle'
-c233403593f55c5211c0806d9869508490f218c7 Merge branch 'pm-sleep'
-073dcc0283703035cd4e6bf6aa11fbc63b8a9ca5 Merge branch 'pm-runtime'
-c4d53e567d3b6f6211d013e6c5c3672b26a49845 nouveau/vmm: rewrite pte tracker using a struct and bitfields.
-9dc983a85eb9b546bbe2ef3f2345e338aa655789 nouveau/vmm: increase size of vmm pte tracker struct to u32 (v2)
 d19512f5abb198daf29da877f6a02c667a95c03d nouveau/vmm: start tracking if the LPT PTE is valid. (v6)
 931688a44a2b1a115cfaa229accb255f890196f3 Merge branches 'pm-powercap', 'pm-opp' and 'pm-em'
 0f64b6acb0e14559daf1de7be5dbcee3874512aa Merge branch 'pm-tools'
@@ -1050,5 +1023,32 @@ fc254f4630596e97d8095bf883f7702a5fe8b3c5 nfsd/sunrpc: move rq_cachetype into str
 6a725eb6af2c96afcd34dedad68be023629d43b5 SUNRPC: Replace KUnit tests for memcmp() with KUNIT_EXPECT_MEMEQ_MSG()
 407fd3d71ce82a9e0ed4c1d06c68a80a2233b46a nfsd: Fix cred ref leak in nfsd_nl_threads_set_doit().
 ec3bef5782bcff4c830b829704661435f2d133af nfsd: Fix cred ref leak in nfsd_nl_listener_set_doit().
+fe355fe1e33eba9cf81ae31a395b3ac0f8981b5a nfsd: add a runtime switch for disabling delegated timestamps
+620255402f41f610aee5d8f000fd42522a0f2614 nfsd: remove NFSD_V4_DELEG_TIMESTAMPS Kconfig option
+cbf464f3cc83bb477c0d5ff462d3e62f9f97d947 lockd: Simplify cast_status() in svcproc.c
+128baaa6adba7ad44c7716626486d2bb4a2b249d lockd: Relocate and rename nlm_drop_reply
+c5148d6f09841f16b923f29a845b3f497f7ef596 lockd: Introduce nlm__int__deadlock
+af43f7e41cdd2c09ad4ce8ece724cf11bad2de02 lockd: Have nlm_fopen() return errno values
+57bd9abb2dfb3566fb2f2a3c00f1c6edc981861a lockd: Relocate nlmsvc_unlock API declarations
+e007807d3fc37aa7554d76ffe85790fc2e7145f1 NFS: Use nlmclnt_shutdown_rpc_clnt() to safely shut down NLM
+85889d787bbfa49994c2b0c70c25673dbea0430a lockd: Move xdr4.h from include/linux/lockd/ to fs/lockd/
+540daf0d88c4283a8f70313956c3838aae64dd56 lockd: Move share.h from include/linux/lockd/ to fs/lockd/
+a0dd9de5fff26d6c4e9f2a7e07f1b281f14e978a lockd: Relocate include/linux/lockd/lockd.h
+25fd625fe58fbf108f50f7e4542d30dfabdd4bb6 lockd: Remove lockd/debug.h
+d3c9b5915fbf758b7453a5c72a978f1ea8d0aafa lockd: Move xdr.h from include/linux/lockd/ to fs/lockd/
+f1048dcd705b9666e02aa2613c7558e4fa877930 lockd: Make linux/lockd/nlm.h an internal header
+a475808d21dc65706f9c1825a2b959e388ec05f9 lockd: Move nlm4svc_set_file_lock_range()
+91acc897cfabfdd5a99dcd91148ff59b64e5299e lockd: Relocate svc_version definitions to XDR layer
+cbda054c7f5450afe1270175bc0f4a32991f0de7 nfs/blocklayout: Fix compilation error (`make W=1`) in bl_write_pagelist()
+9cabb21b0b7837e24e2fbfcdde41172e06cbfad2 sunrpc: Kill RPC_IFDEBUG()
+fc8e227cf6f4b48d1e25fce2a40c1470616ae526 sunrpc: Fix compilation error (`make W=1`) when dprintk() is no-op
+2d51142152bb26edef84506dcdf68ffba03256d2 NFSD: fix nfs4_file access extra count in nfsd4_add_rdaccess_to_wrdeleg
+dc74b83336b398695279652ab081297028b4eaff nfsd: report the requested maximum number of threads instead of number running
+ef9abeaddee92fe2b17c05595f9e62028c225ac3 NFSD: Add a key for signing filehandles
+20c6605bd67f302061f75c1aa60b569622576929 NFSD/export: Add sign_fh export option
+8cca1bc1a655c7cc008c47f771938c3ca5d9c5a2 NFSD: Sign filehandles
+8a9a5045cd97543d1beea834803cb81966e57040 NFSD: Enforce timeout on layout recall and integrate lease manager fencing
+041259f506332b4ee970297ba1ad6f390d0983ab [DEBUG] Add instrumentation for nfsd_mutex contention debugging
+92e0f138b68bb98f0ae74f36d679b85598c58c46 siw: Enable try_gso
 
---===============2703482369489304469==--
+--===============2864202431057104513==--
