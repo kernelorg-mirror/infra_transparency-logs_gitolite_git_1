@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Sun, 15 Feb 2026 17:57:47 -0000
-Message-Id: <177117826776.2435147.3787976613073633413@gitolite.kernel.org>
+Subject: post-receive: pub/scm/docs/man-pages/man-pages
+Date: Sun, 15 Feb 2026 17:58:15 -0000
+Message-Id: <177117829568.2435600.12002843346718433257@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/cel/linux
-user: cel
+repo: pub/scm/docs/man-pages/man-pages
+user: alx
 changes:
-  - ref: refs/heads/nfsd-testing
-    old: 953c8226cb2febafabb06a2667e860a2bfe43660
-    new: 6a15c85e779a1a818c4704ae500785a35e95ca5b
+  - ref: refs/heads/master
+    old: 8797d267978bc6b45febc183ce7c5c9c4726470a
+    new: 20753b3eb95e6d0840f0cb2cb1953669e0b6daf4
     log: |
-         a8c05e55d9fc531374b21821732619ce37d42bf6 NFSD: Enforce timeout on layout recall and integrate lease manager fencing
-         ac919787579a9f8e838a424b651d21b8a881555b [DEBUG] Add instrumentation for nfsd_mutex contention debugging
-         6a15c85e779a1a818c4704ae500785a35e95ca5b siw: Enable try_gso
+         20753b3eb95e6d0840f0cb2cb1953669e0b6daf4 man/: EXAMPLES: Use consistent syntax for forever loops
          
