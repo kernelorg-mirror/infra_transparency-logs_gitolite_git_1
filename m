@@ -1,37 +1,42 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux
-Date: Sun, 15 Feb 2026 22:13:23 -0000
-Message-Id: <177119360321.2626106.5671334743871762585@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============1640806716020957822=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/wsa/linux
+Date: Sun, 15 Feb 2026 22:51:46 -0000
+Message-Id: <177119590671.2655437.14228162545794776130@gitolite.kernel.org>
+
+--===============1640806716020957822==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux
-user: axboe
+repo: pub/scm/linux/kernel/git/wsa/linux
+user: wsa
 changes:
-  - ref: refs/heads/for-next
-    old: 3bc0e24a606f13dfb2fb6e2fd64e2f38556e0b1d
-    new: 0f044f28a9fd8de8fb31b2e1b96f5b7f9156fec6
-    log: |
-         a983aae397767e9da931128ff2b5bf9066513ce3 io_uring/zcrx: fix sgtable leak on mapping failures
-         5d540e4508950c674d6feef1d95463d039bbf4f5 io_uring/zcrx: fix post open error handling
-         66da7de2b896dfd731ed089a418f836662944ba5 Merge branch 'io_uring-7.0' into for-next
-         7496e658a76a61758b20e27cea8abcfeafe3aec4 io_uring/zcrx: check unsupported flags on import
-         c29214677a9fc1a3a4ee65e189afeb5fd10d676f io_uring/query: return support for custom rx page size
-         6b34f8edf8b807b7f87901623aa52dfa1b29ef93 io_uring/query: add query.h copyright notice
-         56112578c71213a10c995a56835bddb5e9ab1ed0 io_uring: delay sqarray static branch disablement
-         0f044f28a9fd8de8fb31b2e1b96f5b7f9156fec6 Merge branch 'io_uring-7.0' into for-next
-         
-  - ref: refs/heads/io_uring-7.0
-    old: d7d95207caf41a8b5a595ed257cb4ce69726d3d7
-    new: 56112578c71213a10c995a56835bddb5e9ab1ed0
-    log: |
-         a983aae397767e9da931128ff2b5bf9066513ce3 io_uring/zcrx: fix sgtable leak on mapping failures
-         5d540e4508950c674d6feef1d95463d039bbf4f5 io_uring/zcrx: fix post open error handling
-         7496e658a76a61758b20e27cea8abcfeafe3aec4 io_uring/zcrx: check unsupported flags on import
-         c29214677a9fc1a3a4ee65e189afeb5fd10d676f io_uring/query: return support for custom rx page size
-         6b34f8edf8b807b7f87901623aa52dfa1b29ef93 io_uring/query: add query.h copyright notice
-         56112578c71213a10c995a56835bddb5e9ab1ed0 io_uring: delay sqarray static branch disablement
-         
+  - ref: refs/heads/renesas/hwspinlock/refactor-alloc-buildtest
+    old: 501a4f992f42d8b89b16a09390d15f8f1d404539
+    new: 1e45111e9e994689a7a49d0b10fcf42e53e3cefd
+    log: revlist-501a4f992f42-1e45111e9e99.txt
+
+--===============1640806716020957822==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-501a4f992f42-1e45111e9e99.txt
+
+aec09b630171901d57fd37f96b41645f90b7004d hwspinlock: add callback to fill private data of a hwspinlock
+2377cd8abbfe813a8ab58833a0ba0c8c9df76656 hwspinlock: omap: use new callback to initialize hwspinlock priv
+7f02c454789b4aebbc6ead6a2a442e2f54e15b2c hwspinlock: qcom: use new callback to initialize hwspinlock priv
+560953f311e5c0747c4ad03f785a07d89aa7c4f7 hwspinlock: sprd: use new callback to initialize hwspinlock priv
+e8bced08100a452edfdb91e197acce05907c825a hwspinlock: stm32: use new callback to initialize hwspinlock priv
+d2b55cddb831fa2f0968c84f5cc675340b166a3e hwspinlock: sun6i: use new callback to initialize hwspinlock priv
+60ea0489ad19632dd12f746fb38b65da82973dd6 hwspinlock: handle hwspinlock device allocation in the core
+006a0252924edcd63086aaa71c758e055f3ddb3f hwspinlock: move entries from internal to public header
+e9ca4a2ccc75d61c6c0f731f7910af860a655cd0 hwspinlock: remove internal header
+fe5dda414a55f973d225af27731dc96b2c1add92 hwspinlock: sort include and update copyright
+5658e7b806acfba17b4d5ae6d33ecb4da3858940 hwspinlock: refactor provider.h from public header
+1e45111e9e994689a7a49d0b10fcf42e53e3cefd hwspinlock: refactor consumer.h from public header
+
+--===============1640806716020957822==--
