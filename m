@@ -1,25 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/legion/kbd
-Date: Sun, 15 Feb 2026 17:32:09 -0000
-Message-Id: <177117672989.2416063.17390233720142935976@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/deller/linux-fbdev
+Date: Sun, 15 Feb 2026 17:42:41 -0000
+Message-Id: <177117736101.2423836.1470517170922537839@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/legion/kbd
-user: legion
+repo: pub/scm/linux/kernel/git/deller/linux-fbdev
+user: deller
 changes:
-  - ref: refs/heads/master
-    old: 58c802a9e6c76535145e076bd91aaaf57e9eabe2
-    new: 8efa53f399adb1902e9f5aadb4d12f190d348c6c
+  - ref: refs/heads/for-next
+    old: bb7a3fc2c976b5d0deb35a54ca237519816d7ba9
+    new: ee85fc15bdf86bc023b330c4e02f35847675c798
     log: |
-         d92b7365dc1435f95e03efead3ac36e7d3ee5944 libkeymap: prevent out-of-bounds access on deep include nesting
-         0590d91893afadd69e227e007e2a26b44d893ac8 libkeymap: avoid undefined behavior when parsing include path from env
-         f18076dbf1b546c84ab7e04af76a26094fd5d8ea libkeymap: keep function table consistent under memory pressure
-         86d25f26a229c16fe5846ee2d21910a44c615d78 libkeymap: fail safely on diacritic/keyline allocation errors
-         70cdc24ec9cb670c3294e779d1d234d14529b49e libkeymap: reject invalid negative indices
-         18152e1d5469ad23b1fa4d08077ed8ac2d9c7f70 libkeymap: report array init failures with correct errno text
-         8efa53f399adb1902e9f5aadb4d12f190d348c6c libkeymap: keep array element count consistent on updates
+         bc4a4fb045540efff63d89a3618006b22c4a3db3 fbdev: au1100fb: Don't store device specific data in global variables
+         943002fe552149577e86ccd94ab995548f60fb90 fbdev: au1100fb: Mark several local functions as static
+         8aea5dcc7e39ad6e489fc3039137a03a07670219 fbdev: au1100fb: Use proper conversion specifiers in printk formats
+         3996886c35b2a9691e9f18aa51bc098e37dd7a41 fbdev: au1100fb: Make driver compilable on non-mips platforms
+         aa5fd3c527c50dc27090f1afefcfcc95a16e1e77 fbdev: au1100fb: Replace custom printk wrappers by pr_*
+         7f8154240a023098633c2e2755eafb8b3c144ead fbdev: au1100fb: Fold au1100fb.h into its only user
+         ee85fc15bdf86bc023b330c4e02f35847675c798 fbdev: au1100fb: Replace license boilerplate by SPDX header
          
