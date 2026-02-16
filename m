@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2395981736862366634=="
+Content-Type: multipart/mixed; boundary="===============0703837312037746034=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Mon, 16 Feb 2026 21:16:04 -0000
-Message-Id: <177127656417.4057019.7931179476026345168@gitolite.kernel.org>
+Date: Mon, 16 Feb 2026 21:16:07 -0000
+Message-Id: <177127656703.4057200.11571135198246826119@gitolite.kernel.org>
 
---===============2395981736862366634==
+--===============0703837312037746034==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-6.12.63/nfsd-testing
-    old: b82d20ad527817059e73cd1a4c3a612513df4d38
-    new: 92a3396a8b98315ecef4690b0ef26296eb134403
-    log: revlist-b82d20ad5278-92a3396a8b98.txt
+  - ref: refs/heads/kernel-6.12.63/nfsd-testing-canary
+    old: dd71fec5677e109468fb35ec39550f7191e0094f
+    new: c439109b6ea94089acb41398222a74487b3ce65e
+    log: revlist-dd71fec5677e-c439109b6ea9.txt
 
---===============2395981736862366634==
+--===============0703837312037746034==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b82d20ad5278-92a3396a8b98.txt
+Content-Disposition: attachment; filename=revlist-dd71fec5677e-c439109b6ea9.txt
 
 9fc164216b6f62a89ff0a8ac8e5d13c51e3fc85e SUNRPC: svcauth_gss: avoid NULL deref on zero length gss_token in gss_read_proxy_verf
 0ca978027c37118067e7956ba759e4ce134db5cb svcrdma: use rc_pageoff for memcpy byte offset
@@ -81,9 +81,10 @@ f07da7f9da1d47082f46b822551bf0d3afa635e4 NFSD: Add support for XDR decoding POSI
 cfd50ea4725d523bd5d945c20f9670eff61c6fd8 NFSD: Add support for POSIX draft ACLs for file creation
 b1ca0b6ca03abbb3649e58da6fdadd49cd3b0000 NFSD: Add POSIX draft ACL support to the NFSv4 SETATTR operation
 dadb01fd80db93a89f207908dad4ae79e963d157 NFSD: Add POSIX ACL file attributes to SUPPATTR bitmasks
-0290a1afdaae53212d36123aa63fd5f857286ac4 nfs/blocklayout: Fix compilation error (`make W=1`) in bl_write_pagelist()
-4b334ce0d58589065e284ab16aefe48b7e032d94 sunrpc: Kill RPC_IFDEBUG()
-97c559835935b2ddd545314cbe1ac90860f397fc sunrpc: Fix compilation error (`make W=1`) when dprintk() is no-op
-92a3396a8b98315ecef4690b0ef26296eb134403 NFSD: fix nfs4_file access extra count in nfsd4_add_rdaccess_to_wrdeleg
+f9d45f9e15e3bebe5dc1312676f5ef90e6128d1a NFSD: interlock the use of NFSD_IO_DIRECT for NFS READ and WRITE
+f242a11c8f329dc66063378574c944403a331f1f NFSD: add NFSD_IO_DIRECT heuristic for small IO
+5b4b7b233889478ad95c11b9d52daada8dce8ae5 NFSD: add nfsd_direct_misaligned_num_pages modparam
+ac16137258d73d966b0403f54a0321bad43a7d3b NFSD: Enable return of an updated stable_how to NFS clients
+c439109b6ea94089acb41398222a74487b3ce65e NFSD: add new NFSD_IO_DIRECT variants that may override stable_how
 
---===============2395981736862366634==--
+--===============0703837312037746034==--
