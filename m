@@ -1,45 +1,58 @@
-Content-Type: multipart/mixed; boundary="===============7263294418353839817=="
+Content-Type: multipart/mixed; boundary="===============1277455177977342585=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/wsa/linux
-Date: Mon, 16 Feb 2026 08:55:03 -0000
-Message-Id: <177123210390.3167186.3960428009196846688@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/security/vulns
+Date: Mon, 16 Feb 2026 09:03:13 -0000
+Message-Id: <177123259331.3173394.2040396958852393576@gitolite.kernel.org>
 
---===============7263294418353839817==
+--===============1277455177977342585==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/wsa/linux
-user: wsa
+repo: pub/scm/linux/security/vulns
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/renesas/x5h/mfis-single-driver-experimental
-    old: 72bce219a1c52e1fc76f95f9bd4695ea5f681773
-    new: 2005978a5b9931169275ad3980d2c4942107de47
-    log: revlist-72bce219a1c5-2005978a5b99.txt
+  - ref: refs/heads/master
+    old: 3ff20294733817f2e3272e1aad27268e580c2717
+    new: b3074638b80009a4a1068110280eabfd48d9b276
+    log: |
+         a4fc4c7d862dcaeb2af83fc34d843701ec8121f7 dyad: fix up `cargo test` to build properly
+         6beaa07030d9010d387b5aece3c23d49fb9d07a3 update cvelistV5
+         b3074638b80009a4a1068110280eabfd48d9b276 update records based on new .vulnerable files being added
+         
 
---===============7263294418353839817==
+--===============1277455177977342585==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-72bce219a1c5-2005978a5b99.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-72cf5b484dc87b1273669a0f3b59582dd3f9fea6 dt-bindings: soc: Add Renesas MFIS[-SCP] bindings
-59d676f751b6fbac24bce7abcd87d8b0d42d3fb4 soc: renesas: Add Renesas R-Car MFIS driver
-823bb129963a284f21ae6d3b158f9e98c24b9b36 arm64: renesas_defconfig: Enable Renesas MFIS
-fff6830890e9de5ddc8b1d5963b1caabf4e290ab arm64: defconfig: Enable Renesas MFIS
-16ba4a5dddedd6f104eabb5c02f45ebd5efe20db arm64: renesas: r8a779g0: add MFIS node
-661def06fa65e072716cfcdd3dda87edaf8b94d5 arm64: renesas: r8a78000: enable to use MFIS/MFIS-SCP
-cd05b6093c3ac699dfe8e86d6d247613e728c310 arm64: renesas: r8a78000-ironhide: enable to use SCMI
-3f910f0921d7fda8c168de98626271ca4c855486 WIP: arm64: renesas: sparrow-hawk: enable MFIS
-20e875db230d868f6d83293acffbe0d6faedbbf3 FIXME: arm64: renesas: r8a78000: Switch HSCIF0 back to dummy clock, enable HSCIF1 with SCMI clock
-371c707295eaf6f059c3584556d55f1f99ee1eb0 arm64: renesas: r8a78000: use polling with SCMI
-05bfcfa431dbc29983e952345d6efd303a997357 FIXME: firmware: arm_scmi: Print shortname-to-ID mapping
-40633cfbd261c75f2423486af3eac066900f7701 DTSI changes
-795d869d849ac700f6a74b4dc792d6b01b8e921c DTS updates
-a3d6080d2a01e784d1714c732532b2d1dade274b remove counting channels
-2005978a5b9931169275ad3980d2c4942107de47 WIP
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1771232584 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
+nonce 1771232584-19f8d00bba867cdade2b26dd4afe4710bf85ca08
 
---===============7263294418353839817==--
+3ff20294733817f2e3272e1aad27268e580c2717 b3074638b80009a4a1068110280eabfd48d9b276 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmmS3UkbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+AFQP/RruGljB0CJm58LDGJ52
+0YpwgDZKsDoZQU7YC6GNmS44M5xM6nL9ZbUWzglId+oyGMPRcg3Z2t+7EXYyIf/R
+ggA9FJQBABfshKjs3OyBfaJV4R29E5GY3gPewlb5NG9z/IKb+uj0tf06IWujD4sB
+7qD+CWmp5uVDRuHogxTRH4al4Ujixe/ESIZlZvqaSNV+zdnpbD0Ce62HfyDCLwsi
+jkf6DTuXOS9rDhVZ5in67W1jkHkk0O+nTRMEgOrgEuSy3N2iTpdQTv2XBd7K4nID
+KcW5G6BWr0n+PB6Ht0TJFmscXIRAk/1bN7k2fS/sAhjJKenY0DjTa4Jc8QD1TGMJ
+5FgW4zuK1+m+PiH4+auyHnaORNO1hZQwHZiJBCqkBZYulnUUWfZm/1NeW+Ebu9XT
+ufV8kxKF4HkNPZ7DJRXmwHq+WCGMAZXXy8fvBlpy0jXxHmDDdzMq21e0I0CTxT8E
+7LU7Qn7pVEr8yNU1mwTHhVT0UdGZxv+1KTFseQ/ywTqcGlTHLLpTGOsNUZ1/VWBz
+w7/PH24wO6Psg+FFsf+l2rjs25q7WMlqa652lTk7LdPplIU4kHD3mho22j/Bv9D9
+o+xo04+gRLDWrvQEQaBD+FUz1l57NK+9QaWrIbFpn+WsOtx8mj3Vpm2JLOHe7Xif
+DLUhldMIkmqOJUdlg0mRfDVq
+=P88G
+-----END PGP SIGNATURE-----
+
+--===============1277455177977342585==--
