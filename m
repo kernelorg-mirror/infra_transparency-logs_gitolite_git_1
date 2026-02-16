@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/util-linux/util-linux
-Date: Mon, 16 Feb 2026 13:46:09 -0000
-Message-Id: <177124956958.3577017.15672794240509601251@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/security/vulns
+Date: Mon, 16 Feb 2026 14:05:04 -0000
+Message-Id: <177125070407.3590931.17890804967650748792@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/util-linux/util-linux
-user: kzak
+repo: pub/scm/linux/security/vulns
+user: sashal
 changes:
   - ref: refs/heads/master
-    old: 2d838b735851a1eee84a779b1d7edc7c43e5d2fe
-    new: 1a4727283332f42ed6923fe6ab6429b66fe6a301
+    old: 39bd75b579c2f4dec9387055c933aeaadbc0d4c8
+    new: e79a5540782154965ffd8a091957600c630e35d8
     log: |
-         4a96a26d193538d1befedcacf7f8f80bded8f2a0 style: convert tabs to spaces in meson.build
-         1a4727283332f42ed6923fe6ab6429b66fe6a301 Merge branch 'master' of https://github.com/add-uos/util-linux
+         766cea903882434ae9eb953eb2501d636a568712 sasha: review v6.18.11
+         e79a5540782154965ffd8a091957600c630e35d8 sasha: review v6.19.1
          
