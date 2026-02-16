@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rw/misc
-Date: Mon, 16 Feb 2026 10:39:53 -0000
-Message-Id: <177123839365.3419786.8425200880909504580@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
+Date: Mon, 16 Feb 2026 10:43:06 -0000
+Message-Id: <177123858606.3423310.5802413208775611026@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rw/misc
-user: rw
+repo: pub/scm/linux/kernel/git/vfs/vfs
+user: brauner
 changes:
-  - ref: refs/heads/x86_clear_cpu_bug
+  - ref: refs/heads/work.inode.seqcount
     old: 0000000000000000000000000000000000000000
-    new: bcece83b7d1ca967f64c5c086802827e131f7d0d
+    new: 34ab237e63d333c68d42c93464fe5b49b6467e64
