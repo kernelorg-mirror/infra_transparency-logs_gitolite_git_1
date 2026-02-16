@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5389947432895279899=="
+Content-Type: multipart/mixed; boundary="===============4575099512006650655=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Mon, 16 Feb 2026 20:55:04 -0000
-Message-Id: <177127530424.4039084.7755717780075984587@gitolite.kernel.org>
+Date: Mon, 16 Feb 2026 20:55:19 -0000
+Message-Id: <177127531942.4040035.2878715320279143700@gitolite.kernel.org>
 
---===============5389947432895279899==
+--===============4575099512006650655==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,15 +16,23 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: 4714ae9d8c803f17b6a11acb3c73f2a8636049ed
-    new: a20bbc16d5faffe61573ad4b2b73affb945cde6f
-    log: revlist-4714ae9d8c80-a20bbc16d5fa.txt
+    old: a20bbc16d5faffe61573ad4b2b73affb945cde6f
+    new: a8e9487dc32341a7822f0715efdd15e9af34c870
+    log: |
+         7217e54db5a4af07ab57e7e7c1b7df0a980b55bb Merge branch into tip/master: 'timers/urgent'
+         7b9023b1e8324d0811e5a757780f6f1dcc291572 Merge branch into tip/master: 'core/debugobjects'
+         a8e9487dc32341a7822f0715efdd15e9af34c870 Merge branch into tip/master: 'locking/futex'
+         
+  - ref: refs/heads/tip/urgent
+    old: 21ad18e49eb528232358f8117d072c53fb8db5fa
+    new: 7217e54db5a4af07ab57e7e7c1b7df0a980b55bb
+    log: revlist-21ad18e49eb5-7217e54db5a4.txt
 
---===============5389947432895279899==
+--===============4575099512006650655==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4714ae9d8c80-a20bbc16d5fa.txt
+Content-Disposition: attachment; filename=revlist-21ad18e49eb5-7217e54db5a4.txt
 
 c4b3133c6a2fc283cb3d34c64d40ed2fa254b608 Input: byd - use %*ph for Z packet dump
 a4a508df2aa34f8650afde54ea804321c618f45f Merge tag 'v6.18' into next
@@ -542,6 +550,6 @@ c4f414becb6ac9c71ea80dd8b28478d357c62bb7 Merge tag 'tsm-for-7.0' of git://git.ke
 4bfa4a54b02029b3996b9f9021f5f745c71e9064 Merge tag 'backlight-next-6.20' of git://git.kernel.org/pub/scm/linux/kernel/git/lee/backlight
 2228d9cf7a562d1b0ca86bd529f6acb94f4bb80f Merge tag 'leds-next-6.20' of git://git.kernel.org/pub/scm/linux/kernel/git/lee/leds
 57d76ceccee4b497eb835831206b50e72915a501 Merge tag 'linux-watchdog-6.20-rc1' of git://www.linux-watchdog.org/linux-watchdog
-a20bbc16d5faffe61573ad4b2b73affb945cde6f Merge branch 'linus'
+7217e54db5a4af07ab57e7e7c1b7df0a980b55bb Merge branch into tip/master: 'timers/urgent'
 
---===============5389947432895279899==--
+--===============4575099512006650655==--
