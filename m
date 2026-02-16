@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/rppt/linux
-Date: Mon, 16 Feb 2026 12:11:28 -0000
-Message-Id: <177124388883.3497506.8464661745421863871@gitolite.kernel.org>
+Date: Mon, 16 Feb 2026 12:11:30 -0000
+Message-Id: <177124389061.3497658.13869943131914578345@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,6 +11,6 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/rppt/linux
 user: rppt
 changes:
-  - ref: refs/heads/numa/cleanup
-    old: bfd55545afd30f2df2df9067eb45290cee5b75e9
+  - ref: refs/heads/numa/cleanups
+    old: 9463f6b30914c8bd173bd9e12392cc9b1ea94bf4
     new: 0000000000000000000000000000000000000000
