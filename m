@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0814979098273616625=="
+Content-Type: multipart/mixed; boundary="===============0298110617272253138=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bcain/linux
-Date: Mon, 16 Feb 2026 20:40:54 -0000
-Message-Id: <177127445425.4027926.7711575457426131174@gitolite.kernel.org>
+Date: Mon, 16 Feb 2026 20:41:01 -0000
+Message-Id: <177127446164.4028573.3537947588540159252@gitolite.kernel.org>
 
---===============0814979098273616625==
+--===============0298110617272253138==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bcain/linux
 user: bcain
 changes:
-  - ref: refs/tags/bcain-boot-qemu-16-Feb-2026
+  - ref: refs/heads/bcain/boot_qemu
     old: 7866f842a87a7ae571938c2de2a28d2ec254887e
     new: 62702f080dc2ac995b8515a4e564fac852471147
     log: revlist-7866f842a87a-62702f080dc2.txt
 
---===============0814979098273616625==
+--===============0298110617272253138==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -51,4 +51,4 @@ a06d9b82a920e8de1d9cb6dc39496c9c6fd2a4c1 hexagon: update cache flush API to upda
 6ae86a4b5617059c8e5b967121d0620cb0da92b1 hexagon: support bootloader-provided device tree
 62702f080dc2ac995b8515a4e564fac852471147 hexagon: prefer DTB bootargs over CONFIG_CMDLINE
 
---===============0814979098273616625==--
+--===============0298110617272253138==--
