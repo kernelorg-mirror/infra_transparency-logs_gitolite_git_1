@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2591376521691505152=="
+Content-Type: multipart/mixed; boundary="===============0974060272500989270=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
-Date: Mon, 16 Feb 2026 16:12:12 -0000
-Message-Id: <177125833288.3755155.1348108090748186747@gitolite.kernel.org>
+Date: Mon, 16 Feb 2026 16:12:16 -0000
+Message-Id: <177125833626.3755354.4000247706519181093@gitolite.kernel.org>
 
---===============2591376521691505152==
+--===============0974060272500989270==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,38 @@ repo: pub/scm/linux/kernel/git/stable/linux
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-6.19.y
-    old: afae5c9524c5304a4369a4cfb528cc08d2674c0e
-    new: aa95a019990986bee50ff2bcede0185035b2e1e0
-    log: |
-         03db4dc9ad6eb91e640b517e00373ce877682854 Revert "driver core: enforce device_lock for driver_match_device()"
-         aa95a019990986bee50ff2bcede0185035b2e1e0 Linux 6.19.2
-         
+  - ref: refs/tags/v6.19.2
+    old: 0000000000000000000000000000000000000000
+    new: c5a1a77f3a7ed4b8f77e0b1eeb54ade17973437e
 
---===============2591376521691505152==
+--===============0974060272500989270==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1771258331 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1771258335 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
-nonce 1771258330-9976a832742aa1bcba0ef4db2c7dffd8bb403e49
+nonce 1771258334-2bbb5a0a651c4dafd1871dac27b5953b991a24fd
 
-afae5c9524c5304a4369a4cfb528cc08d2674c0e aa95a019990986bee50ff2bcede0185035b2e1e0 refs/heads/linux-6.19.y
+0000000000000000000000000000000000000000 c5a1a77f3a7ed4b8f77e0b1eeb54ade17973437e refs/tags/v6.19.2
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmmTQdsbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+ik0P/2s3pm9K0rAzGIt4sjUT
-cTfwP2Krjg1wCaQqLHhRL/+9bynQ/VXQs7JRcaBr1lRdN8gNSjT3PjSncI/Tx/iI
-l3OkjGe1zoavMAJVX/Y7GSgP8K5x2emblxFpRI7TUpFFRXJBA+1pUPVTu9w95MtM
-vZmv34MgTkPamTRRWCI1g4Tl423QldQ5Lgwoc40oSVKVb1Q1jGCikx3dyEzrHSNh
-xO0esYOUdVKIkQbWGbCREr+6cyA2LjEGTYOGqg5l4rGcsuRa8tvf155q0mzleCwM
-zOKTcoVyJZorpUwZ7KaJPyfxjFi13dudzeQ/qduuLneIb7jbBeIZSC7FFqRzSNIB
-jAv4JMSUq6lJG/1w8N0f3fl//DuKB25t6mZPS6ljX3yFPzlHntzqSUj73xfLuNO9
-FPzmf1uyUEI1Ququ5npUIrbZ+ngDjv7pJh9po2z6e0i0lqWwZqOmGuV7/0JA5DzP
-Ig8B6RtOcYkdqec5YKW8bNzmOI4Ctwyau2lejcZAKUimen6/FiSO1z0+MLdalPuG
-hQzxe5NyDmx+M0Nd10lXEsM2LmG/6zyy34apN+W7E0RAvub5qqxM9BJDPe2O7/tV
-Y+2GpIoLK1wDZp6S5rITBOVmHyZ+QZYa9kGmEPI5HRCeNXAyB4IhCk7Cp/m2e18Z
-Bm5lXTZYWlnAhuDVje6uRY/T
-=E95P
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmmTQd8bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+9SAQAMfVZWEQLXDTUcvav9sb
+d1wcEwVn7yd4XgwC/QxUaFiRwDXwbr8d1ioM52wEu1Bok7cTbocqTZtYrvLD2d1U
+/W0yySHstf3yJfiKVUNqnUo0OP3RFqE9gM8ySYR5PyTYr81bhD0czJqq2jTzGs6/
+r8aBFQWUaZr7cRycW66RsmPfU9AT22sfis71sl1V7tN6XU+ryfXNUM/ngESs1438
+yP/wsX9Sh3ExtFuPu2eRwt9JQfOgPLw80PpKRQjINttM0k9So48ektOB9NUrf9Td
+8i0TXdpAFN/CBUzIeDh171awzol0LSi3SemzDLFS1whdkaU2vgBKgyBK9ZqJ1067
+3GpyN/+Z++kynLPSDXNBWjP9FdO44JDSsffudPgKO7XBiRxJfmVkNufEaW8dNH2l
+TJnfqeQPMC2KoCHexx5pcpI/Nm+Bh4ms/RZfV/+qJEkML6t93XkdxMfvz8bsD/RB
+1WDiIoAv2cLlVc2e3cXi7a4hcXOdN6usBXNgiiAmS4r0cIGLiB8OKuWYC+ynHwb+
+pxJVYRa+3wYQ6TRavJD9GktKPtNu4IrSUyqGcSy4b2uJL8+wHPqZHchucrEC3OM2
+48wW7nJxsXmlDgbeSnNK9iJaNiEui0wytD6k5yF7EHyndC9OkFfp4tglq0I9B6Z5
+uQCASogt+cSp7cgvktqEDSe1
+=wMdY
 -----END PGP SIGNATURE-----
 
---===============2591376521691505152==--
+--===============0974060272500989270==--
