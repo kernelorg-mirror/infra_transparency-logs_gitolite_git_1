@@ -1,56 +1,43 @@
-Content-Type: multipart/mixed; boundary="===============9089920347600505654=="
+Content-Type: multipart/mixed; boundary="===============4214003238819915947=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/shemminger/iproute2
-Date: Mon, 16 Feb 2026 01:18:06 -0000
-Message-Id: <177120468681.2773094.9897601518337419836@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ebiggers/linux
+Date: Mon, 16 Feb 2026 01:27:12 -0000
+Message-Id: <177120523294.2780786.14327364338479427508@gitolite.kernel.org>
 
---===============9089920347600505654==
+--===============4214003238819915947==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/shemminger/iproute2
-user: shemminger
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/ebiggers/linux
+user: ebiggers
 changes:
-  - ref: refs/heads/main
-    old: 72f679c0d07629fe9e462c2c52bbe48aaeaa7f83
-    new: 9f13435a4837343aa9d9c19328bc13d038635cf9
-    log: |
-         9f13435a4837343aa9d9c19328bc13d038635cf9 uapi: headers update from 7.0-rc0
-         
+  - ref: refs/heads/wip-aes
+    old: 2fcf92e8eb8b3fcebf125ff1147df3510ce32394
+    new: 8895fed4c18339c8cd86e534302a83972a4c8892
+    log: revlist-2fcf92e8eb8b-8895fed4c183.txt
 
---===============9089920347600505654==
+--===============4214003238819915947==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-2fcf92e8eb8b-8895fed4c183.txt
 
-certificate version 0.1
-pusher Stephen Hemminger <stephen@networkplumber.org> 1771204685 -0800
-pushee gitolite.kernel.org:pub/scm/linux/kernel/git/shemminger/iproute2.git
-nonce 1771204685-980fb3d200da79af9aa7d45de60e2d69b028086f
+097784469ae09c69f79fa379e4fe1f5e6fe75d02 Bluetooth: SMP: Rename aes_cmac() to smp_aes_cmac()
+c4708d4ef784d0ba26775996d896a1867b15d827 lib/crypto: aes: Add AES-CMAC, AES-XCBC, and AES-CBC-MAC support
+0b29e9dcdc06bb170d1644e193dd10aadcce5ff2 crypto: aes - Add cmac, xcbc, and cbcmac algorithms using library
+9dc3608fc910a9598da517b891794c030241b678 lib/crypto: arm64/aes-cmac: Migrate optimized code into library
+facada414fdd2411c883fa286e52b17b4c8d05c4 lib/crypto: tests: Add KUnit tests for AES-CMAC, AES-XCBC, and AES-CBC-MAC
+7971d3a971b598c98f3869c2aea5043d08c100e2 smb: client: Use AES-CMAC library for SMB3 signature calculation
+8e610e129a78a4d1c2dfa14d73bbbbd966ece756 smb: client: Remove obsolete cmac(aes) allocation
+726b7abacfa7b27db5f0b882d4d1fd901a684088 smb: client: Make generate_key() return void
+7246fa78c643e20ec1c507a5d6dfc3e4ea5ee571 smb: client: Drop 'allocate_crypto' arg from smb*_calc_signature()
+167031ac276b23cf37bbb407fa4432133e5d17e8 ksmbd: Use AES-CMAC library for SMB3 signature calculation
+b6bd870586378fdc97a68e279a1d51bd5a49ba2b Bluetooth: SMP: Use AES-CMAC library API
+39cc5700bc8a822a7193a15493425af619ea7dfa wifi: mac80211: Use AES-CMAC library in ieee80211_aes_cmac()
+8895fed4c18339c8cd86e534302a83972a4c8892 wifi: mac80211: Use AES-CMAC library in aes_s2v()
 
-72f679c0d07629fe9e462c2c52bbe48aaeaa7f83 9f13435a4837343aa9d9c19328bc13d038635cf9 refs/heads/main
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCAA5FiEEn2/DRbBb5+dmuDyPgKd/YJXN5H4FAmmScE0bHHN0ZXBoZW5A
-bmV0d29ya3BsdW1iZXIub3JnAAoJEICnf2CVzeR+Dh0QAIzmK+bH0KKZDMFCr1uX
-hW/IhtrrPNcxDaTgFfyOE6O027scWD/kO2OefSRJaBFNxSiQS9k6IQAg/y1w65WL
-PrwpkYqDD0o0tPCnpEUckzwjJq5DyRGEp5HdEhdc4mehW04EklYMeJyw1W7E0B3L
-fWVgKVfvdpU+AoTejRmLDPTvyFjjz0zzzcLeESYlZ4/6+pfMgeMkqK04MS63N80z
-NGbXMjlI/ZVUmJV/f0QmMt16tMzIOsOuZD6iPUkkkDYWolGiV2dA5U4xqAKpMXzA
-QiiYObUxh0p5kZxNRReSsRcRfGVbaF4vF4VgZ9ci0YFyzhXiiRWIRoTDRGr7PK+K
-2pRFMiRfeY+5bz0BUaz3Cf1TifgAbwFaTxsKo//Q2lGtXjXLJFCbDMhhIp40rqO+
-3qp0Lo5FVM0hS3hp0phrV4Gf+ZaqS5pBNYJ3LFEpuyF6Mqm7PUUTjDO1JRQ9qPZK
-Q+HbOq0rQr0WGR15Q6HkN2cYiADYZxqCzK5vacFNw+8OtCxi6Np/jKR7feu5ihsR
-e1abglCHbDP5DZbJ0O5dzxTPus/rRNFZMTVvUpqx5vGoq0F/8cpN9mq8N56VpFr2
-LIBJVqdeIl3YXaQd1exLB0uLlx8zbvEjKxe5w+CddJs4LHe4AA006n82N7uGY0dQ
-aBA44vYTM/9XsDqLpEVDCBnT
-=ADzW
------END PGP SIGNATURE-----
-
---===============9089920347600505654==--
+--===============4214003238819915947==--
