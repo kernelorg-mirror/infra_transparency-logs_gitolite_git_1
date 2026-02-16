@@ -1,58 +1,60 @@
-Content-Type: multipart/mixed; boundary="===============4736679193325521452=="
+Content-Type: multipart/mixed; boundary="===============3238281990774004204=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/util-linux/util-linux
-Date: Mon, 16 Feb 2026 10:12:25 -0000
-Message-Id: <177123674511.3397147.10004545340120004375@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mptcp/linux
+Date: Mon, 16 Feb 2026 10:13:56 -0000
+Message-Id: <177123683633.3397997.16172726456196444121@gitolite.kernel.org>
 
---===============4736679193325521452==
+--===============3238281990774004204==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/util-linux/util-linux
-user: kzak
+repo: pub/scm/linux/kernel/git/mptcp/linux
+user: matttbe
 changes:
-  - ref: refs/heads/master
-    old: 4a4eb88f263bfffeee75cfcabcb6e364ef5900a3
-    new: e36048f52f5fd72eb2539d9cc5618636553fd578
-    log: revlist-4a4eb88f263b-e36048f52f5f.txt
+  - ref: refs/heads/export
+    old: bbda850b8b17819251e42c903b0a2dd80c28a401
+    new: c22747e83300f73ee470dc1fc0c1a201cdef0e51
+    log: revlist-bbda850b8b17-c22747e83300.txt
 
---===============4736679193325521452==
+--===============3238281990774004204==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4a4eb88f263b-e36048f52f5f.txt
+Content-Disposition: attachment; filename=revlist-bbda850b8b17-c22747e83300.txt
 
-f43ea8bbd45a8333c48ea6c30ea642fdcace0a0e lsfd: (cosmetic) delete an empty line
-778e3bf89d3960371e5514a78d5a0ff40c2f7f8d lsfd: (comment) update the description of sock_xinfo::netns_inode
-11d9efb9fcecda04c8198f81ead6ba8563d8aca4 lsfd: make pidfd for the target process available while collecting fds
-9d76cfb729bfe7995f7626f150f9e727636a4bd2 lsfd: (refactor) make call_with_foreign_fd reusable
-b758882680564a2f8e295cb821edb686d893723d lsfd: add inspect_target_fd method to file_class
-8bb703a38424d0df6f253b3095898531f3778285 tests: (test_mkfd::tcp-bare) new factory creating an unbound/unconnected TCP socket
-5b375501ac20244490319023025acca4ec97ea41 tests: (test_mkfds:netns) conditionally report EPERM when ioctl(SIOCGSKNS) fails
-1a99298310c7e5675d4ea45bdaf89816f8eb4d06 lsfd: fill SOCK.NETNS even when sock_diag netlink can't report sockets
-962c9105aea34c9b62f2f7b447d2c93e800f94f4 dmesg: Split preparing and printing of buffer
-8c1e720992187d21d1a1d9aa2a07c8f8f176145f dmesg: Add release_buffer function
-c673579bb1e327286fd7c3afb727680c5749cddc dmesg: Fix short memory allocation with 32 bit
-6ad316b6b7a8fd87c2126984a1db42e29c999190 lib/pager: Improve signal handling in pager_close
-d05fa7833890adca38e10e26c14e32e252e04ec0 lib/pager: Flush outputs in pager_close
-b6816b60d9ed9ad04030b492f9bfa03ae40fc9ea lib/pager: Clear potential stdout/stderr errors
-44072df7a09fed719fe63d3e92bb56ca9fe19276 lib/pager: Release resources on pager_open error
-925350164786f787015640ef2e0cc9d3397fbcda lib/pager: Use pager_open/close for pager_redirect
-3d9040c084c143bf9dc4f8710045cc3772571865 lib/pager: Use original stderr in pager_close
-623502eef6c83a757ec3c21b5f5fb223eaa15224 column: add option '--table-header-as-columns' for using first line as table columns names.
-603fd60dd101611196621e78990d03e2e39e0cbd column: add bash-completion for table-header-as-columns
-841d504b64a56bea1f2b8391a99dcafa95ca7d1c Merge branch 'lsfd--SIOCGSKNS-based-SOCK_NETNS' of https://github.com/masatake/util-linux
-915abd78a4f5cfb5c2cd89539c122dbc8f825631 Merge branch 'dmesg32' of https://github.com/stoeckmann/util-linux
-aa2e0f145a7178aa88f6beb09c1ded588bcbfe73 dmesg: improve buffer size error message
-44e3e6f5c139e778d807a7d16fd736a5b16d461c Merge branch 'dmesg_io_split' of https://github.com/stoeckmann/util-linux
-76d3b305f3d1ccb88a8dd854bb3831bbcd3b8d27 dmesg: update prepare_buffer() comment
-a48b4986449de3e3216a3c28c9f09b786e6d5c24 Merge branch 'pager_leak' of https://github.com/stoeckmann/util-linux
-f8c5fb006c1e31cbd5b7fdd89f2ae50cbc99d56c Merge branch 'pager_fd' of https://github.com/stoeckmann/util-linux
-945fac033408183d836cc81e7d29b0e7f4eb6cad lib/pager: Rename caught_signal to pager_caught_signal
-e36048f52f5fd72eb2539d9cc5618636553fd578 Merge branch 'feat/3971' of https://github.com/echoechoin/util-linux
+358148c8986c50b04991222be353cf7a7662a8a9 DO-NOT-MERGE: git markup: net
+149d6101d782b14630d399f3da0923e872d12799 DO-NOT-MERGE: git markup: fixes other trees
+a28ebd70f6ba29aa6d0d6cb69eb2dedad1fbc80c DO-NOT-MERGE: git markup: fixes net
+be740d729ddc6f0f0c9eb6105a0ac11dffe1d337 DO-NOT-MERGE: mptcp: add CI support
+304c0d0dfe6845168c69c985a4491efa0664f93d DO-NOT-MERGE: git markup: end common net net-next
+c04838bdb354454389613940ea24007b2937f1f4 TopGit-driven merge of branches:
+b1b45e99568d60514fd16cb8e3492babb7f35251 DO-NOT-MERGE: git markup: net-next
+92862948eb46437afaff671498df7a41095e8b5a DO-NOT-MERGE: git markup: fixes net-next
+72a8c010c2fe86ebde9778625870411c7b9aae96 mptcp: pm: init and release mptcp_pm_ops
+dba9fbd0b22632422c39e6a1eed7db71ff45f048 mptcp: pm: add get_local_id() interface
+01c607228895fcaed636c0f9724d5e7614af0fc9 mptcp: pm: add get_priority() interface
+f1b3f529d8539173c760cd63a13e2e3783ea950f TMP-FIX: mark some simult flows tests as flaky
+c152bb556d7b7c0e9af07d55124989bea5a94387 mptcp: better mptcp-level RTT estimator
+7487a7341cc6238a480add2046339ee98c060198 mptcp: add receive queue awareness in tcp_rcv_space_adjust()
+210acd1704e7e7ffe3d324b6cfd2c251d28cfeb6 DO-NOT-MERGE: git markup: features net-next
+53c9232f30a44f92e374f72d02d4f9a54e68fa60 DO-NOT-MERGE: git markup: features net-next-next
+7a5eb65e64de8b670d2365acad48af033b1c4c20 bpf: Add mptcp_subflow bpf_iter
+0db7682194c482242fe42e66afa2987d1bdf5dcf selftests/bpf: More endpoints for endpoint_init
+9d54927f9cd14e5f05e88ef9884513627b306746 selftests/bpf: Drop cgroup_fd of run_mptcpify
+08c92371e09340da40da29c10ecf4e14958ab2b5 bpf: Add mptcp packet scheduler struct_ops
+8ca80af5ad0da279400729283adeae794735f18f bpf: Export mptcp packet scheduler helpers
+9e5e6a4ca6f421b9e586400299e2fd5f7a296c02 selftests/bpf: Add bpf scheduler test
+390af334e2af3dc94a325acc4343e71d17d39c51 selftests/bpf: Add bpf_first scheduler & test
+42b7a61cc11ee55f95a7b9fa146733c530cf3cee selftests/bpf: Add bpf_bkup scheduler & test
+73710352d2dc0e6459e2dbc12052547b8a5bc07e selftests/bpf: Add bpf_rr scheduler & test
+7a5e45d845a58ea43af4c16794f08c0e736f757f selftests/bpf: Add bpf_red scheduler & test
+3fef3b83cfbaf6a045d321874b6e0bdc8c109d6f selftests/bpf: Add bpf_burst scheduler & test
+5f4f5fca733b227317aeff744bfbb99e96c7cffa DO-NOT-MERGE: git markup: features other trees
+8bc80eddb39dd64b797ce476fb17f437925b2d49 DO-NOT-MERGE: mptcp: improve code coverage for CI
+c22747e83300f73ee470dc1fc0c1a201cdef0e51 DO-NOT-MERGE: mptcp: enabled by default
 
---===============4736679193325521452==--
+--===============3238281990774004204==--
