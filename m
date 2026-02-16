@@ -1,20 +1,29 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/paulmck/perfbook
-Date: Mon, 16 Feb 2026 20:05:02 -0000
-Message-Id: <177127230222.3997668.2910988910754079480@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bcain/linux
+Date: Mon, 16 Feb 2026 20:09:41 -0000
+Message-Id: <177127258194.4001475.6548697733376246661@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/paulmck/perfbook
-user: paulmck
+repo: pub/scm/linux/kernel/git/bcain/linux
+user: bcain
 changes:
-  - ref: refs/heads/master
-    old: 252c345e0a494842ef1f4755f7ac32e43e332267
-    new: c266b61d9ba9dc11f88b1f7232ff570de954e2fd
+  - ref: refs/heads/bcain/boot_qemu
+    old: ed0968ffeee877f8f95703933ab1aca99c643408
+    new: 7866f842a87a7ae571938c2de2a28d2ec254887e
     log: |
-         ed5b8006d661f79f95bc4f1bfc403cd96e42b576 defer: Fix typos across Chapter 9
-         c266b61d9ba9dc11f88b1f7232ff570de954e2fd howto: Fix punctcheck issue in Pekka's book title
+         cf63a6dd211e30b31408cb8f87fcc0e30d0bfa0d smp: enforce 8-byte alignment on __call_single_node
+         88e9c5188ea5f946d236e1182ee920932747578b fixup! hexagon: add external_buffer declaration to setup.h
+         0b79c3f52b043d8471386e00df633f138af7f4ae fixup! hexagon: add QEMU platform defconfig
+         c93641a6cf67b2bfdcbd7f592994ab5c915e9131 hexagon: support bootloader-provided device tree
+         7866f842a87a7ae571938c2de2a28d2ec254887e hexagon: prefer DTB bootargs over CONFIG_CMDLINE
          
+  - ref: refs/tags/v6.19-rc7
+    old: 0000000000000000000000000000000000000000
+    new: ed4cdcc0b03e72cfdffbff9f0ea24338517bc893
+  - ref: refs/tags/v6.19-rc8
+    old: 0000000000000000000000000000000000000000
+    new: 4ff7d63728ef2315d402a608cef1376248aa5c56
