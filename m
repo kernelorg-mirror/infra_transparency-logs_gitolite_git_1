@@ -1,29 +1,36 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Tue, 17 Feb 2026 14:47:53 -0000
-Message-Id: <177133967303.772195.9109648427337531257@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
+Date: Tue, 17 Feb 2026 14:51:40 -0000
+Message-Id: <177133990058.776012.13923079219781905110@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-user: jarkko
+repo: pub/scm/linux/kernel/git/rafael/linux-pm
+user: rafael
 changes:
-  - ref: refs/heads/container
-    old: de0a7cb340f6d2f9486a65f9d8e1e45d8f296c1c
-    new: c76ca1167761e58720db2285b0f70f408f2bdb8e
+  - ref: refs/heads/bleeding-edge
+    old: 9845fb1786f7a52e0ed3563a056eef917593b2cf
+    new: 2ea3c5304b219f05b937e7cab78dd788355a250e
     log: |
-         a7b2d192503ea3822a8f3c8050fd631002a1b0a0 containers: Implement container_create()
-         0f44bc4db2ca2f38f943ce070cabfd5e3c9a7ee4 containers: Implement container_wait()
-         ab9f0c35fc6ec843a204194662e91ddeb14fdef6 containers: Implement container_kill()
-         bded6fc1ca98a96851af3d2fe047cd0dd96ac0d1 containers: Implement container_fork()
-         556decd1d23257533ff0ec5262326dd26cfaa00f net: Pass netns into __sys_socket
-         ac8646528625df40c984f7219364cc46b3f0b38f containers: Make fsopen() able to create a superblock in a container
-         d49fcafbb191c4c7e2ab46c98cc84c61a7790da1 containers, vfs: Honour CONTAINER_NEW_EMPTY_FS_NS
-         4a7a252c75548dd93f0d855e8f67b6d38e08bbe7 vfs: Allow mounting to other namespaces
-         6b772a7e121af562c214ac44d0302d43822dade9 security: Add container LSM hooks
-         575502b72b00f3033e512a2c258bbedcbc348711 containers: kselftest
-         c76ca1167761e58720db2285b0f70f408f2bdb8e MAINTAINERS: Add entry for CONTAINER NAMESPACE
+         e5c9ffc6ae1bcdb1062527d611043681ac301aca cpuidle: Skip governor when only one idle state is available
+         9b9c0ff095f04c27da1f761d77c19cd53594d18e cpuidle: haltpoll: Remove single state handling
+         825d5d347935d5fc339df969c572e382393f40ec cpuidle: teo: Remove single state handling
+         93983a9f3beea791c21d77c2425488ad327d4fda cpuidle: menu: Remove single state handling
+         0311d245e5dc88b6a257cdf1459d5bc189b09952 Merge branch 'pm-cpuidle' into linux-next
+         a3c67b186feda464384dbe44b7746fda6930879d Merge branch 'linux-next' into bleeding-edge
+         8ee7308048b6fbd324f64fb12049ad80848b6ccf Merge branch 'pm-runtime-cleanup' into bleeding-edge
+         2ea3c5304b219f05b937e7cab78dd788355a250e Merge branch 'experimental/acpi-driver-conversion' into bleeding-edge
+         
+  - ref: refs/heads/linux-next
+    old: ed2b8f8ab4d5d9f75d69ed46978148b9a0fbce1d
+    new: 0311d245e5dc88b6a257cdf1459d5bc189b09952
+    log: |
+         e5c9ffc6ae1bcdb1062527d611043681ac301aca cpuidle: Skip governor when only one idle state is available
+         9b9c0ff095f04c27da1f761d77c19cd53594d18e cpuidle: haltpoll: Remove single state handling
+         825d5d347935d5fc339df969c572e382393f40ec cpuidle: teo: Remove single state handling
+         93983a9f3beea791c21d77c2425488ad327d4fda cpuidle: menu: Remove single state handling
+         0311d245e5dc88b6a257cdf1459d5bc189b09952 Merge branch 'pm-cpuidle' into linux-next
          
