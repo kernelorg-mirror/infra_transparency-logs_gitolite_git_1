@@ -1,26 +1,43 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
-Date: Tue, 17 Feb 2026 16:56:18 -0000
-Message-Id: <177134737889.881588.3051232671053751185@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============3333681621640416677=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+Date: Tue, 17 Feb 2026 17:07:46 -0000
+Message-Id: <177134806623.890116.4190491394501791276@gitolite.kernel.org>
+
+--===============3333681621640416677==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/maz/arm-platforms
-user: maz
+repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+user: jarkko
 changes:
-  - ref: refs/heads/irq/fsl_mc-declutter
-    old: 26b850504d88ce20086eb3b523b449d8d5d876e2
-    new: 4307777c6c5bd468978d04db53259ebda785fa7d
-    log: |
-         b1da389ed79bb40902bf01c6da1e27b8aa546102 fsl-mc: Remove MSI domain propagation to sub-devices
-         81acd11416fd679697134bbf6c1e43ec78f14cbc fsl-mc: Divorce DID retrival from IRQ domain
-         c29c6372ff8b13800e97a3f4da767b96333fbe4d genirq/msi: Add initiator id retrival to msi_domain_ops
-         8192cf11cd8ce908321af18ad07427e4991ef801 fsl_mc: Add minimal infrastructure to use platform MSI
-         1b92b35e8edfe7c9f7558302eed3d2b20ff3e374 irqchip/gic-v3-its: Plumb fsl_mc into platform MSI handling
-         24b7ca44ba0f5f4206ab79543d28a53ce01939fa fsl_mc: Switch over to platform MSI
-         2ab701004557a170691a24baee953906eae789c3 fsl_mc: Remove legacy MSI implementation
-         4307777c6c5bd468978d04db53259ebda785fa7d platform-msi: Remove stale comment
-         
+  - ref: refs/heads/container
+    old: 2e6c23c99f12c826b2fd9981aa0f4ae5968e2714
+    new: e512ee7926cc19523b28b0e0f263839cfaa501f1
+    log: revlist-2e6c23c99f12-e512ee7926cc.txt
+
+--===============3333681621640416677==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-2e6c23c99f12-e512ee7926cc.txt
+
+3bf0a8ca09d36218fafe86f5b9d44098b059f756 containers: Declare container shenanigans
+10ee83fed20401f0be6b010feba23974bc9717bd fork: Handle copy_process() and do_exit()
+d2c3c760bab2baa299e7bc8400aed6667450aed6 containers: Implement container_create()
+4cb62d6c1a3e9404f154c9f585db1b7d9f66670c containers: Implement container_wait()
+f8cb11a53609096f1276157c7a2a6ad8bc1d7177 containers: Implement container_kill()
+43aa7d9a87b05525aff69b32764102af341a43f8 containers: Implement container_fork()
+d89cd2e24a4378e281f0e9f66c3e778cee94462a net: Pass netns into __sys_socket
+62c08c725b9d669283c0c216d76a4a1fe57a89d9 containers: Make fsopen() able to create a superblock in a container
+c1a15e6efe8579c71303cfa88ecf462629af99e8 containers, vfs: Honour CONTAINER_FEATURE_EMPTY_FS
+ee1eb3ded41d2479b935ba5171ff1a990625e69b vfs: Allow mounting to other namespaces
+cbb01e156bc86bef6afd7e3b1116cb371c41cbab security: Add container LSM hooks
+c909e011931d33c4030c8de30d2215b91b3b76ff containers: kselftest
+e512ee7926cc19523b28b0e0f263839cfaa501f1 MAINTAINERS: Add entry for CONTAINER NAMESPACE
+
+--===============3333681621640416677==--
