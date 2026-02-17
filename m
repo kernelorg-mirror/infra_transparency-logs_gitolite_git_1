@@ -1,20 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/util-linux/util-linux
-Date: Tue, 17 Feb 2026 10:23:49 -0000
-Message-Id: <177132382913.482336.15557905259154262811@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/wsa/linux
+Date: Tue, 17 Feb 2026 10:28:42 -0000
+Message-Id: <177132412271.486427.4032284522781397333@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/util-linux/util-linux
-user: kzak
+repo: pub/scm/linux/kernel/git/wsa/linux
+user: wsa
 changes:
-  - ref: refs/heads/master
-    old: 0c13ec5273b2108ca38742879be5242f4beee7e5
-    new: 1afa3e0de91845905d378506e87df5b0e4bac32e
+  - ref: refs/heads/renesas/x5h/mfis-single-driver-experimental
+    old: e201eeba5d83c8c2cf43a7e28c59c4937502c202
+    new: bac448e73889f45b4394424259feecd4d55f3b82
     log: |
-         d3a6660ce089310fdb19bdcb589655d3e5dd9823 blkdev: Correct zone report size calculation
-         1afa3e0de91845905d378506e87df5b0e4bac32e Merge branch 'master-branch-1' of https://github.com/Leefancy/util-linux
+         1c4b4d7f278268cca341425c76e0f5afca8837ed mailbox: test: really ignore optional memory resources
+         c5652ebba17923595bd45479f50ed4bdcf5a71f4 DTSI changes
+         0545a100ff4f18cddac3d005ea3c5ae206fb11f9 DTS updates
+         5cf57fc6267247521e26a24f044a52c09b51c74b remove counting channels
+         4df17b1fa7de0cbc6ce92229e951073e5758ef09 WIP
+         bac448e73889f45b4394424259feecd4d55f3b82 DTS mailbox test
          
