@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0680945151589486821=="
+Content-Type: multipart/mixed; boundary="===============4647512241990974756=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
 Date: Tue, 17 Feb 2026 18:38:32 -0000
-Message-Id: <177135351232.971129.1186382590853473413@gitolite.kernel.org>
+Message-Id: <177135351280.971196.10460621554758080942@gitolite.kernel.org>
 
---===============0680945151589486821==
+--===============4647512241990974756==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,12 +16,12 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-6.18.y
-    old: f620f05566a02f0f9bb0d966c1f6b0243f3c74dc
-    new: 49d5d4bc546a86287e709e50d0b420252861cbca
-    log: revlist-f620f05566a0-49d5d4bc546a.txt
+  - ref: refs/heads/linux-6.12.y
+    old: 4ac6a0f0d2e6c6308a1efb8598e3e1af6819420e
+    new: eb2a5dbdf04042e4348e0b33f38af4a250da0edb
+    log: revlist-4ac6a0f0d2e6-eb2a5dbdf040.txt
 
---===============0680945151589486821==
+--===============4647512241990974756==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -32,72 +32,73 @@ pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1771353510 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
 nonce 1771353508-1da7805c15aaee453060863c61ed2a575d40f1e0
 
-f620f05566a02f0f9bb0d966c1f6b0243f3c74dc 49d5d4bc546a86287e709e50d0b420252861cbca refs/heads/linux-6.18.y
+4ac6a0f0d2e6c6308a1efb8598e3e1af6819420e eb2a5dbdf04042e4348e0b33f38af4a250da0edb refs/heads/linux-6.12.y
 -----BEGIN PGP SIGNATURE-----
 
 iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmmUtaYbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+QVEP/0jdsR4vc2CLL1yRWdu2
-vyWVbLHNV4TtDLs+dxcLNO31zZlShaJIOBZvZLhSERkSaLQJsqlkjTLTQo+zc6tW
-9qOz2PvYBTSp/zEjwrm/NQEahLOgzdF3VJWgRIDBU0sIlzpR4S/DWblaB9bv7WYy
-yTaQKJgfUIGQQQR/GcWAilMG4RcSzYrHKoST1TC7Yw4FydpJGPfYprIIGsARkf9R
-ohwMd19MjicNNFLazcY6dXrej9t+FLG9omd3m6SJJudKi0d4A6ooQ7B7JJFii2gM
-i4RjJNnb9BSiZufpjDNeUbesm7dAnbE6YmjyfuvMBwFzNZLvQEeRvyUmuJSjS5ay
-EDmaG/phKZ2y0KeRm8AXEuNF0ZGvLCL9FSYXTWm1kA4aSN5bW/1TRUsWq04Wr8B0
-vto02U6FqsErsor8jhXIa5Qd62HnB1qWjep7qWCOZBXNTDx6r9I+fWIE/elKrrid
-jcfkpuWbm7+77G6JEwh41JqTV7NgC0mzzNHvd29kobZ3IqSJ0211Bs45EBH1Ab32
-pFZGFXY20nIYUjj2ed5+Oc7M2nidlLu21rv4wB0wdgOqJpPSDm30cniogqYEeghz
-k87h2SK8ImtX7Y0IMRhi+tXLFMP8iLEJE4/xhoeJoTVB91Drm77IaeT7YQ2TBjYS
-JURF/28eeGbXrGEfC1tfNX6a
-=VwkS
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+nLAQAJwBC+zZNV0G2hLSeL5G
+6SkV8Ba1wM8BKvs/zHOsf+J618zFUSe8aCN8+PPNH0EU16Ouh83w5QoUz2JSxnyl
+6j3EHd1Ph6FHm6OXfFJtaxz2G53n0a1HqEczYVmHt9qNCmkjl+/jqnzSqGq81gSa
+Ezi56zecWU3sRmNTPVoL9cTdm7GBuPAkcg0cgUiW5hyANzsU2szVngippfDzDJ3I
+ODvZqPFW6EKJoaRemABOEpzOrXzoCdwxO4Z+hHuQBK9p4L5j2bH5x5GTifBMb3+d
+KSWqFR3omgY/xw8HNUl9qVrUqHYXgNHT+A6s0Ob7COixwfKHGpOvwDwhBiJOL7Wm
+SkrB9vrPUweHQxw6bVfGFNHiYawMxiqYR4wY3K2kRwlsPnWw7wnYcM3tHwwjNleh
+lta6XAHVtKU0cVJy/XfO1kqLEOVBdHWJyVwTEVY6reoQUDs8KkInPtYYmxdXm3GH
+mSYp90FEZRBf6NpzNaFQO9xvx+P3qFEkGLie5OQMksJrTWPqyjEAJ03l1a8sacog
+rQ0s5ZNGhbrMS7ZFSeVzxfngoC4DvJIkrA+VBgC6tF5+XmMJQtaNaZvJF9I6eKGc
+KlxjA6lscs7OA9UNk8mhl2p63bnU9SYLazb14hbNyBdACCZKoHdCAPIMOgrl8Vq2
+l41xNL51ETjCk/VlWxLvimq+
+=vEGz
 -----END PGP SIGNATURE-----
 
---===============0680945151589486821==
+--===============4647512241990974756==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-f620f05566a0-49d5d4bc546a.txt
+Content-Disposition: attachment; filename=revlist-4ac6a0f0d2e6-eb2a5dbdf040.txt
 
-e2fa8dc3da43a52cec02d9014315534efcabf23a scsi: qla2xxx: Fix bsg_done() causing double free
-892c2539599b4d2d67663eb1a3b4ac4e764f42a1 rust: device: fix broken intra-doc links
-61b04ab50c2bed2818df07bdb6b4c961207a3942 rust: dma: fix broken intra-doc links
-16bde3949454798d9930d4f19030dbc38347e0b3 rust: driver: fix broken intra-doc links to example driver types
-3c2b953a1e022a0384926ef0bbe774e0f573884a ASoC: amd: yc: Add ASUS ExpertBook PM1503CDA to quirks list
-5e45c6862fd5bcd8bb62416f9af20edeb362742e gpio: sprd: Change sprd_gpio lock to raw_spin_lock
-6196d7a96b0520dad2d1b431b819dc00179b2593 ALSA: hda/realtek: Add quirk for Inspur S14-G1
-970945c60733b8e3c64060277694ebe954f35359 ASoC: cs35l45: Corrects ASP_TX5 DAPM widget channel
-b89c8506abb5da4d77f937781120d47caa2e1a30 ALSA: hda/realtek - fixed speaker no sound
-c186aaa3bf46b95d04063ec2ce3cae1003e70b1b romfs: check sb_set_blocksize() return value
-560be5a63f19ac7e31e7118193568d2bb1325013 drm/tegra: hdmi: sor: Fix error: variable ‘j’ set but not used
-370fdfaa26d902491acc8d502f4816fb90fcff64 platform/x86: classmate-laptop: Add missing NULL pointer checks
-b5447c20613913acef479ccf2f7267cf8c172bba ASoC: Intel: sof_es8336: Add DMI quirk for Huawei BOD-WXX9
-01bd4a34816383b9c8e65ae5c3d18b8b79d91ac7 ASoC: amd: yc: Add quirk for HP 200 G2a 16
-3def49683bd8c132d27884644b4cb27841b529c2 ALSA: hda/realtek: Enable headset mic for Acer Nitro 5
-63029731e15f6c781e5d05ab7c812a849c173e08 platform/x86/amd/pmc: Add quirk for MECHREVO Wujie 15X Pro
-80595ae0b9d5a2a11aacca8218d3099eabbf1f0d ASoC: sof_sdw: Add a quirk for Lenovo laptop using sidecar amps with cs42l43
-fd3ec4d53e09cd2e65e04e8d6a6d3a3435fa42c7 platform/x86: panasonic-laptop: Fix sysfs group leak in error path
-b4f01343ce286c6116bb43ca989917e2f3109d80 ASoC: cs42l43: Correct handling of 3-pole jack load detection
-6e3a29b4f0a90c555e1f79a89209253ea1d66fe1 tracing/dma: Cap dma_map_sg tracepoint arrays to prevent buffer overflow
-e078b7f65600ad4be54c89e2d1c25f9aa8a21594 drm/amd/display: extend delta clamping logic to CM3 LUT helper
-14964dcbedec732e66f3e731dab473214344b6ad drm/amd/display: remove assert around dpp_base replacement
-a40c3b2be20cd2bdd54eb09e77fd12914ffb992e ASoC: fsl_xcvr: fix missing lock in fsl_xcvr_mode_put()
-1ba01addd549c01d56fc1d20bd02899ce52d33b6 io_uring/fdinfo: be a bit nicer when looping a lot of SQEs/CQEs
-001babd303c8575304b76e2d6a3955a2d90ee3a0 gpiolib: acpi: Fix gpio count with string references
-7d0df98889d769090c2408ba791ff44722c1d1e9 arm64: dts: mediatek: mt8183: Add missing endpoint IDs to display graph
-d4119759f9c16286cc145ff2ac48f3fa9a0f5d50 mm/hugetlb: fix excessive IPI broadcasts when unsharing PMD tables using mmu_gather
-4a874a49882b1330d9419fa68bf1801c9a8cf267 LoongArch: Rework KASAN initialization for PTW-enabled systems
-aad18a6a8cd794d75caeab2f906eb10347be8958 cpuset: Fix missing adaptation for cpuset_is_populated
-53784ce5a2c8f1df2dd615f5cecb600cd7f5f779 fbdev: rivafb: fix divide error in nv3_arb()
-bc248222568967d2c8faa2441a59cc32a6f0d17b fbdev: smscufx: properly copy ioctl memory to kernelspace
-d730b973783272f35df90fedff196bb6d64b5763 f2fs: fix to add gc count stat in f2fs_gc_range
-83d4307b3c35bf2c301a165c1e05faa721b68fe3 f2fs: fix to check sysfs filename w/ gc_pin_file_thresh correctly
-7b8355eeb99fea8c9e257783cf8253311f1ac12f f2fs: fix IS_CHECKPOINTED flag inconsistency issue caused by concurrent atomic commit and checkpoint writes
-fd264be4fce8771593068c090fcf9397500c8add f2fs: fix out-of-bounds access in sysfs attribute read/write
-ef0de4fca366774ecd702a3fe22194712b7b205c f2fs: fix to avoid UAF in f2fs_write_end_io()
-d82abd0069fab49030f47387a0feb7dfcef7f103 f2fs: support non-4KB block size without packed_ssa feature
-813e589a37b3ff32a3b81550d73f30f2d377b8e4 f2fs: fix to avoid mapping wrong physical block for swapfile
-09f972f67f7d533f015479f0cddd1cc689dd83e2 f2fs: optimize f2fs_overwrite_io() for f2fs_iomap_begin
-feddc7219fa07136708f5ccd66e32a4a3df74797 iommu/arm-smmu-qcom: do not register driver in probe()
-1797107c794ff8fdab96668badbb005fe34464b8 USB: serial: option: add Telit FN920C04 RNDIS compositions
-49d5d4bc546a86287e709e50d0b420252861cbca Linux 6.18.13-rc1
+d57ec74dca4c8a60ca9648664e4e1a8726d4736b scsi: qla2xxx: Fix bsg_done() causing double free
+b8f049f3256242cab3e3907c914a8ce505b59ced bnxt_en: Change FW message timeout warning
+34338e85768a592abf703ed88186413df785f6f3 bnxt_en: hide CONFIG_DETECT_HUNG_TASK specific code
+667d00a6cea0323218670e82c8b97929e22ff274 bus: fsl-mc: Replace snprintf and sprintf with sysfs_emit in sysfs show functions
+cec4de75fb94f23295ced317f386362e0ed710b0 bus: fsl-mc: fix use-after-free in driver_override_show()
+76700b4e1551d42b95bf2f925e75a201c564ec03 ALSA: hda/realtek: Fix headset mic for TongFang X6AR55xU
+853cffc5fe49eb1b7d20913de43b7d7964049914 ASoC: amd: yc: Add ASUS ExpertBook PM1503CDA to quirks list
+6792d253b152d2ce952b195e6923aac8dcc61400 gpio: sprd: Change sprd_gpio lock to raw_spin_lock
+8b5cb959fe5bbefe90d211e9ad5115f65a2e7e44 ALSA: hda/realtek: Add quirk for Inspur S14-G1
+87aef5da21c1e58017a5b85780bc695f78780cd7 ASoC: cs35l45: Corrects ASP_TX5 DAPM widget channel
+3a93ab1e1f55a70fa9efb68aca6bcddc46102cbc ALSA: hda/realtek - fixed speaker no sound
+29af107384f1be1624211fe9135f65654b5fec7f romfs: check sb_set_blocksize() return value
+0fc2c66d3e2a6ae63c40c3a2a194cedb700f9c4d drm/tegra: hdmi: sor: Fix error: variable ‘j’ set but not used
+14f7576c79ebecc81311be172975a9236c252a70 platform/x86: classmate-laptop: Add missing NULL pointer checks
+95e780acc75b43162cdc015f2609827fe7f428de ASoC: Intel: sof_es8336: Add DMI quirk for Huawei BOD-WXX9
+2d6da68d4428a7acdf149b00c2b15d75dbb11264 ASoC: amd: yc: Add quirk for HP 200 G2a 16
+0ecbf5b1df8485e572db1b0694a4d8b2d974c5c5 ALSA: hda/realtek: Enable headset mic for Acer Nitro 5
+2bc9bd70853526139becd757c139aa73ba1486d6 platform/x86/amd/pmc: Add quirk for MECHREVO Wujie 15X Pro
+1f6ea0e3a6365dc638f18b1b580cec00af903768 platform/x86: panasonic-laptop: Fix sysfs group leak in error path
+b6527e3909bdaeaed512a6ec3fbb224834c9895b ASoC: cs42l43: Correct handling of 3-pole jack load detection
+d6109a629c01d5858df8ccbec6c113bdc3c939d4 tracing/dma: Cap dma_map_sg tracepoint arrays to prevent buffer overflow
+fee14d934936bed913c5d67e90c6650a76e526b1 drm/amd/display: extend delta clamping logic to CM3 LUT helper
+079a7a143969a02cca20d73de2dedbd09e6af718 drm/amd/display: remove assert around dpp_base replacement
+70874242b0b072e4989ac8a774aaa5eba5aa6e9c ASoC: fsl_xcvr: fix missing lock in fsl_xcvr_mode_put()
+da7742ba129652c3f7fa66d21c7a1937ebf46074 gpiolib: acpi: Fix gpio count with string references
+eb1cc5d584f45263a7cfa8a66d76807107a8f369 mm/hugetlb: fix copy_hugetlb_page_range() to use ->pt_share_count
+8d179e52b5ed1408bfd4fa4d3f325a7a79ca72dd mm/hugetlb: fix hugetlb_pmd_shared()
+ac2ccf0eb4ecd670c47ef18ac747c1a64f29a0fb mm/hugetlb: fix two comments related to huge_pmd_unshare()
+3b0238ee48db3067a58a63c58adf4d89b4ec5e6b mm/hugetlb: fix excessive IPI broadcasts when unsharing PMD tables using mmu_gather
+58bfe9cdca3cd1a374aeb4bf960911e1fa5e4a04 LoongArch: Rework KASAN initialization for PTW-enabled systems
+45d6c8f13dad11038f13fa3b4c7b3264c08ab703 Revert "wireguard: device: enable threaded NAPI"
+813886f4d1a799c63ac327d1c58b81d29367c1f9 cpuset: Fix missing adaptation for cpuset_is_populated
+1a8ac12b07d217ddd3e2e35b27022a35679823f1 fbdev: rivafb: fix divide error in nv3_arb()
+40b3e210ef2539bac50c4f114d9838475d6cdff5 fbdev: smscufx: properly copy ioctl memory to kernelspace
+992a0d2199bb74b3fa53ba25a730e8e158b4a472 f2fs: fix to add gc count stat in f2fs_gc_range
+3255c145ec98345372f942a83299b87f35c5c3dc f2fs: fix to check sysfs filename w/ gc_pin_file_thresh correctly
+4d69598479b7f0c58dcf5fc1d5043139d93d1aaf f2fs: fix out-of-bounds access in sysfs attribute read/write
+d7c08b5760dc6a2fcad3803c350648df261796bc f2fs: fix to avoid mapping wrong physical block for swapfile
+07e85852759bd0f4ab921c200ff7d8706b40e154 iommu/arm-smmu-qcom: do not register driver in probe()
+351dc5cd9dadf62cfb203c6bead8fc969d6e566a f2fs: fix to avoid UAF in f2fs_write_end_io()
+605c3e2e2da2b707a38fdaefe167bfdf24ea5609 f2fs: fix IS_CHECKPOINTED flag inconsistency issue caused by concurrent atomic commit and checkpoint writes
+7b3d65dd6e8720c1ead35e99fdadf9ba3d760148 USB: serial: option: add Telit FN920C04 RNDIS compositions
+eb2a5dbdf04042e4348e0b33f38af4a250da0edb Linux 6.12.74-rc1
 
---===============0680945151589486821==--
+--===============4647512241990974756==--
