@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8178550451843593214=="
+Content-Type: multipart/mixed; boundary="===============1341353828378469706=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Tue, 17 Feb 2026 03:09:16 -0000
-Message-Id: <177129775676.149956.11559989673748020947@gitolite.kernel.org>
+Date: Tue, 17 Feb 2026 03:09:19 -0000
+Message-Id: <177129775920.150172.6729218439688009214@gitolite.kernel.org>
 
---===============8178550451843593214==
+--===============1341353828378469706==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-6.12.63/main
+  - ref: refs/tags/v6.12.63-7
     old: b49651bde023f9de84cc16a1d35343b4d5b2de73
     new: 07cae741484816bc41dea0c4f555d4f517b98c04
     log: revlist-b49651bde023-07cae7414848.txt
 
---===============8178550451843593214==
+--===============1341353828378469706==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -60,4 +60,4 @@ e530fb0c58eb07954e21299cd154f02bba77d0b5 kernel-6.12.63-3
 3ed3676a83e14c9cc1bc074891a5ddec7a9ac73f kernel-6.12.63-6
 07cae741484816bc41dea0c4f555d4f517b98c04 kernel-6.12.63-7
 
---===============8178550451843593214==--
+--===============1341353828378469706==--
