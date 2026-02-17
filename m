@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/damon-hack
-Date: Tue, 17 Feb 2026 15:35:29 -0000
-Message-Id: <177134252945.814836.4039332173327012369@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/phy/linux-phy
+Date: Tue, 17 Feb 2026 15:36:45 -0000
+Message-Id: <177134260554.815341.17011995304793249833@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/damon-hack
-user: sj
+repo: pub/scm/linux/kernel/git/phy/linux-phy
+user: vkoul
 changes:
-  - ref: refs/heads/master
-    old: 99a649ac1c64ed0051a9eb74eeb96bf5247d1ff6
-    new: 3a8640f809154e5d6d56db87dadddd528b7ccfa5
-    log: |
-         3a8640f809154e5d6d56db87dadddd528b7ccfa5 patches/next: fix mtier unused variable warning
-         
+  - ref: refs/tags/phy-for-7.0
+    old: 0000000000000000000000000000000000000000
+    new: 755ca652e48fb6f28d0707bfaec04bb5725b18c7
