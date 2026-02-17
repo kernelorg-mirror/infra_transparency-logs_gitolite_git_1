@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/liburing
-Date: Tue, 17 Feb 2026 02:59:16 -0000
-Message-Id: <177129715645.141145.4533690709257759193@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
+Date: Tue, 17 Feb 2026 03:09:13 -0000
+Message-Id: <177129775387.149842.9733137710995219910@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/liburing
-user: axboe
+repo: pub/scm/linux/kernel/git/snitzer/linux
+user: snitzer
 changes:
-  - ref: refs/heads/master
-    old: 1a9c1df6c0cf1aa8c3bc255e56d8a9dca0dd4f64
-    new: e28534ecc9581668515e14750176676ab79d45c9
+  - ref: refs/heads/kernel-6.12.63/nfs4_acl-passthru
+    old: 59d5916acef0480bdc0948c4bdb723c0b26a3c71
+    new: 9e4eca0b011a7d6e13932758c9c86f6346dc59d4
     log: |
-         e28534ecc9581668515e14750176676ab79d45c9 io_uring_cqe_nr: assign cqe shift value to unsigned int upfront
+         0cd1f2c699d36ae08116f4cebf801f55f0b9f483 NFSv4: add reexport support for SETACL nfs4_acl passthru
+         5874715fcab1c9cfba156949f9439b2b71ccb0f3 NFSv4: add reexport support for GETACL nfs4_acl passthru
+         9e4eca0b011a7d6e13932758c9c86f6346dc59d4 NFSv4: set EXPORT_OP_NFSV4_ACL_PASSTHRU flag
          
