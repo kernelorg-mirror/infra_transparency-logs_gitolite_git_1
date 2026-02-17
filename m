@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8796428539392188068=="
+Content-Type: multipart/mixed; boundary="===============6465791492404430415=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/driver-core/driver-core
-Date: Tue, 17 Feb 2026 13:18:32 -0000
-Message-Id: <177133431210.695707.10448637355911153762@gitolite.kernel.org>
+Date: Tue, 17 Feb 2026 13:18:35 -0000
+Message-Id: <177133431567.695822.11644456131810767278@gitolite.kernel.org>
 
---===============8796428539392188068==
+--===============6465791492404430415==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,42 @@ repo: pub/scm/linux/kernel/git/driver-core/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/driver-core-linus
+  - ref: refs/heads/driver-core-next
     old: 37a93dd5c49b5fda807fd204edf2547c3493319c
     new: 9702969978695d9a699a1f34771580cdbb153b33
     log: revlist-37a93dd5c49b-970296997869.txt
 
---===============8796428539392188068==
+--===============6465791492404430415==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1771334311 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1771334314 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/driver-core/driver-core.git
-nonce 1771334310-fc8698a0f88885101c9b53595d080ef511f2c73a
+nonce 1771334314-9d0c281d7e5e370b0b7f0e13c56c67591776e733
 
-37a93dd5c49b5fda807fd204edf2547c3493319c 9702969978695d9a699a1f34771580cdbb153b33 refs/heads/driver-core-linus
+37a93dd5c49b5fda807fd204edf2547c3493319c 9702969978695d9a699a1f34771580cdbb153b33 refs/heads/driver-core-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmmUaqcbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+OYoP/3kVZu/R9uHCLbYVWfiQ
-DduH7w/LsTglItdUfSzJWZQcAmRIX9JXslcmdxpV0/muY/fGuot17gCp/L/mnppB
-DiPxNQt+Sp3FypAlcygsV0v09Eg40OFE7/SxhRoUosKWBVH5ot3z4TVTXr8eIqej
-MLtDFYFc2Mbl0Ej4CZmMbvXgMTWVM0zLmpda83zKfHBlBl3ROTgKtFOPx9azdeiP
-5HWC/zZg2hrlwGILVHq6gyuVf9KClBONkjqUCe2/vQ8tXe543qiHPSqnOc/WMvcQ
-609sSInKNvi0WJnikzi5gg65xydq0fhhhz4o8Yl0KfTaShpiqtSz+HN22A+fVTBF
-wOMngcsoh6rWKRCsvSh6wQ3TDagHoj1C5cpJMH6Q0EKM0vKP8D4ds5yxRJHHLi/G
-qBO9lBNFpnJBojGis95fORIdTJyA6o5zxRAJSZtLL91t9zbgk8WScwq00SoNLwTh
-CPKmtQdh+6Jxc3ntDlvPayr41X065qMDgBtSl0EjgqgthnAEMirlhAG3ET/Ry+lT
-eehouBRl9ksKRZZqkT/0AdpvF9kwvMzZQ/f/vrH4I2+ojkzNQ8f4C2yDGbwfm5DH
-wjmVruPJvqkiI9ssJMtXrYC7H0saV8aprcmaQ0T1VsELfYprSUcagJInIVlRfDqO
-8uc8ndP2NIEbRDsE4ppdToZm
-=6119
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmmUaqobHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+RQ8P/RP0kI//qM6daOVKUqAi
+Hc+5ST3ykwXoCAP4FXjiZrljp6LoHj3sxTs4mE8GMO2blgwNO3pcJeUGVfPEr4cj
+1akziLT+ASHj6MzKrO8e6a2o9RkIQeBuZDjzPa2mJzPEcmwNkmOBrM4MOdXVnW+s
+6z2p4RF5wlRpyGl3euwfUWfAsRlcsSJ2gNblOWswLtlEbuatZ6rtWbhGMvGqsymc
+0yA6+QsSy1wFfIkEysu2aRQAfEiKxktxfokDYPBZKZadBp24tV05BkKPaW/sQlJe
+P3Bk1rScEBc/dxDY3QaZTTHowzGzNRhkxKjsLZ6gi+MoaJcIm9ZwzsvOnPtTqh2w
+wagmMDZc4qbtJKLP+F2SqTI3P72jsLkQ32WiddQRlFz9jpACr9YaCk9slMElN+zy
+d1lnEhqAMuZVDI+qQvf8ENCWaqUHpn8HYmhZrn7ciEm4SXOOIoKxfYehDlJ68+b3
+GjpDuy0Pf3dDLq5FwyVhxEu1SEvNw1o9ww3Dpl+jxT1buUN/jkD2XFvuslvc0KPX
+oIianfKXT7zQSrQPDA9gvZlMI3R+zKq2ccoiAGd7lBENSH8I3SEPvTZMAoxNMVm3
+soqaQhfKbAI90Q8LzZ+q+CiYdxcDIIrZog+Ktq1s4bkGakvggKZHoZONCUnY8Km6
+PXXkfjbhOj7Sb4N8bv/uNRN9
+=Ge9U
 -----END PGP SIGNATURE-----
 
---===============8796428539392188068==
+--===============6465791492404430415==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -1082,4 +1082,4 @@ c4f414becb6ac9c71ea80dd8b28478d357c62bb7 Merge tag 'tsm-for-7.0' of git://git.ke
 45a43ac5acc90b8f4835eea92692f620e561a06b Merge tag 'vfs-7.0-rc1.misc.2' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
 9702969978695d9a699a1f34771580cdbb153b33 Merge tag 'slab-for-7.0-part2' of git://git.kernel.org/pub/scm/linux/kernel/git/vbabka/slab
 
---===============8796428539392188068==--
+--===============6465791492404430415==--
