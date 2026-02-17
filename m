@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3294335217450575550=="
+Content-Type: multipart/mixed; boundary="===============5700685848646876031=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Tue, 17 Feb 2026 21:14:17 -0000
-Message-Id: <177136285724.1104424.12680371331709486153@gitolite.kernel.org>
+Date: Tue, 17 Feb 2026 21:14:19 -0000
+Message-Id: <177136285972.1104538.11355133926927711191@gitolite.kernel.org>
 
---===============3294335217450575550==
+--===============5700685848646876031==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
+  - ref: refs/heads/10GbE
     old: 37a93dd5c49b5fda807fd204edf2547c3493319c
     new: 77c5e3fdd2793f478e6fdae55c9ea85b21d06f8f
     log: revlist-37a93dd5c49b-77c5e3fdd279.txt
 
---===============3294335217450575550==
+--===============5700685848646876031==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -76,4 +76,4 @@ ce9f6aec0fb780dafc1dfc5f47c688422aff464a selftests: forwarding: vxlan_bridge_1d_
 a8c198d16c64cdf57f481a4cd3e769502802369e selftests: forwarding: fix pedit tests failure with br_netfilter enabled
 77c5e3fdd2793f478e6fdae55c9ea85b21d06f8f Merge branch 'selftests-forwarding-fix-br_netfilter-related-test-failures'
 
---===============3294335217450575550==--
+--===============5700685848646876031==--
