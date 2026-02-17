@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3411402340007309579=="
+Content-Type: multipart/mixed; boundary="===============9104361138507675759=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Tue, 17 Feb 2026 18:39:16 -0000
-Message-Id: <177135355635.971930.296745732069724608@gitolite.kernel.org>
+Date: Tue, 17 Feb 2026 18:39:17 -0000
+Message-Id: <177135355709.972027.10226469126127770190@gitolite.kernel.org>
 
---===============3411402340007309579==
+--===============9104361138507675759==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,71 +16,63 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-5.10.y
-    old: 184de89e013ed409e7af57081d6e0215aa55b8b6
-    new: 7afacdbbb5acc874ed11c7f2f7272bcba553b850
-    log: revlist-184de89e013e-7afacdbbb5ac.txt
+  - ref: refs/heads/linux-6.19.y
+    old: 973195d423ac525e1908e97598fa9a9606b5e6b6
+    new: 9925abb772793ebe3dbc10b7295658e027e9d6ef
+    log: revlist-973195d423ac-9925abb77279.txt
 
---===============3411402340007309579==
+--===============9104361138507675759==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1771353554 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1771353555 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1771353553-f6f519151f1ed8b61f42f9e19810a69cb6b48a92
+nonce 1771353555-bda273ae7dbce99bef57d513a760d13a54252922
 
-184de89e013ed409e7af57081d6e0215aa55b8b6 7afacdbbb5acc874ed11c7f2f7272bcba553b850 refs/heads/linux-5.10.y
+973195d423ac525e1908e97598fa9a9606b5e6b6 9925abb772793ebe3dbc10b7295658e027e9d6ef refs/heads/linux-6.19.y
 -----BEGIN PGP SIGNATURE-----
 
 iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmmUtdMbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+ZIAP/jYw2380aYALmcfgcw+b
-xJ3AvZXZ9+IDo9n/XBGUlTkA684iRoAJ63eI4/ytPesxBbglp8eJKfY7pTXg1YEP
-ygzX/2bsZcOC0fdPN7IEihPgQy37VVm8CVW6s/YxX6dxt+D6j3PojPWg1QFc0zMe
-epAltHLQt8YP1Cj6W2nmHotRFin0p/Yir7rktg6b9OidSVE9ML1tqMexhhTFDeo9
-5Z6NRnhAvzhNTsXAp7dU6LP7PzDLOGKK7w677a5qfqFzCTnMYc9BYjkRLnL/UYu3
-JSjAlgga27N/YO3YnSnb8RZ6A8Z1IFmYHPQ41jTWDS+TScFS1fIJN0x7PB48PKWB
-L5u1Z0hV6TQuRjvNnr/p6yCG1i1nAGq7t5XpX4I8wyYm4Lhuc7qcKOiiVfYbHF5R
-qhKEu1F0fdDQqVQ5MEWZt2SMDC9qts1/ERl/XGQnoEJNSbbCzWA1AJRxSFTOGugF
-5/0Vi36PKm/35hRGZk+IaWwMkhYAV7osFNzWYVowfktWVM+4utMW2ciwfJZtdZU5
-d3OIAFTZ2PSJG8BT0O9AcrG2dOQOHTrimxTjlrIyUJmeXBqWOXVQbjbJxA3Vo31Z
-jtZYU4iqAEl7pjQ08320hBoj/7EarGF0HITgf48EXcSmBBDV6LAsRc1+QqoJvocV
-urp1/OITsrOQxmQfcbKJGgwb
-=zKYl
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+TEIP/070Fl5HRlWnCnnwiso+
+Nl6fO2vI3N2lOoESSbpLF6F4kYGyIC+VlB/NKiOsM3Vv1pmq3vGEiHNl8tqSQ+7s
++UD82AY9ADhBwkoRkRG6VzY8JbfLzZ0kpy/vNrCMm+bS3djl7TfufuLQorDApvgH
+Oivpk/DpwezSf6ZVzThDu7i572sNTtNtrbDpqCwsPbnc4DXH4gSEYArE/uMP5hSC
+mOhvHg65dSHIsh5vughBjSx4TCzgLl3m1P++a/u/h/e6yK61fvlXfaDM0GkByWgY
+UZpNKuJiKAOzdCDIWpqMZ1C92YchcOm3iXDeqgnTWl9EKFfPHhXRaQFQTn5EKzjB
+CK0YUeVsIfHxiUTIeZgW+n7zTiZDD9/js7rrBDqX98CR/bnOkFJqVCtuTOZX/uBK
+c1x/9xMhaHUmEFHqVl1TMSIN/xiJ2SLcVsi/iXwwdbd2En4MrIJySsWFN2f7f01T
+kaLeBqCVTkCP8MFP7FLk1JFw6i+2MvFhnV9ovfz+SHF+DnobapoJNTSLZ7svcGoN
+fV9RYMU5X+9Npo7D39/0j5eTtEkbfbaLiot+2Mp60fkFBmP9VpzY5S90J8cXtAoo
+GSpC/qPfs5bbTcaPLUbJAA8d2xkRSenpjRvjwvPJnnMPnadcB21JdSHEa5Z0lHyW
+mzDHslu/OsqChYt1e1eNKyP2
+=lRY0
 -----END PGP SIGNATURE-----
 
---===============3411402340007309579==
-Content-Type: text/plain; charset="utf-8"
+--===============9104361138507675759==
+Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
-Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-184de89e013e-7afacdbbb5ac.txt
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-973195d423ac-9925abb77279.txt
 
-1fafa85582f2972755ebca64e9f88b67bd4f22ab crypto: octeontx - Fix length check to avoid truncation in ucode_load_store
-f5edf7924c2e738b1b110cc040a2dd788d64a532 crypto: omap - Allocate OMAP_CRYPTO_FORCE_COPY scatterlists correctly
-874325a1df59345e59e2b02d0d231b09a639f778 crypto: virtio - Add spinlock protection with virtqueue notification
-240e940484a388618b08f68480ed50610baae140 nilfs2: Fix potential block overflow that cause system hang
-a9303d4bf308c77fbe20d302ef590522d7cfd21b scsi: qla2xxx: Delay module unload while fabric scan in progress
-2a3cd4b2e35e199ccf039ec36f3683fc31cd3cc8 scsi: qla2xxx: Query FW again before proceeding with login
-ba1b4f28ed5585a14f94ba50e623a68f78cdea69 gpio: omap: do not register driver in probe()
-8523147a467c2c49e976110e660e88812ac0a74a ALSA: hda/realtek: Fix headset mic for TongFang X6AR55xU
-43a72f416dc84e723714c52a7ae8d65f1dc0d155 gpio: sprd: Change sprd_gpio lock to raw_spin_lock
-21c9a2b9b65444cdefbb98fa08464749bc1ebe40 romfs: check sb_set_blocksize() return value
-4733acfe3a223f898cbbe209db07ea613c81d6a5 drm/tegra: hdmi: sor: Fix error: variable ‘j’ set but not used
-eb2ceb655d59f266d969f17cfb7114fdb613d357 platform/x86: classmate-laptop: Add missing NULL pointer checks
-8718fd39feed6c2b9b3fe0cebf23becbd9028e45 gpiolib: acpi: Fix gpio count with string references
-be78a218495cf100dbb8fb588dbc6d4f30021e79 fs: dlm: fix invalid derefence of sb_lvbptr
-e301190c122cb2b8f84236a9998963eb36fada4c selftests: mptcp: pm: ensure unknown flags are ignored
-f65cc2846bdab13bcd64f61cf5131589533a0890 crypto: virtio - Remove duplicated virtqueue_kick in virtio_crypto_skcipher_crypt_req
-33f49f753309ba1f8c8c9929e8fd659316f80f82 scsi: qla2xxx: Validate sp before freeing associated memory
-969e952d06a944d03ab48ba9d712ec1572d9d748 scsi: qla2xxx: Free sp in error path to fix system crash
-355f55c3741b95efbb9922e5075c9fcf86436b69 scsi: qla2xxx: Fix bsg_done() causing double free
-068d17c1bacd9a6151ff7f4afea4147a6995a847 fbdev: rivafb: fix divide error in nv3_arb()
-dd30140dc786c4726c3a074954326c01af0d4da6 fbdev: smscufx: properly copy ioctl memory to kernelspace
-549d509165d86e19b7477aa0e37cfd1328a443d8 f2fs: fix out-of-bounds access in sysfs attribute read/write
-c0d66e84389af2716ee6f3c7f22563aa6e7a06c0 f2fs: fix to avoid UAF in f2fs_write_end_io()
-578b38618275fbdfb75ebf40ca6cd349077f8b08 USB: serial: option: add Telit FN920C04 RNDIS compositions
-7afacdbbb5acc874ed11c7f2f7272bcba553b850 Linux 5.10.251-rc1
+2b970dd8db37047cfdfe47b9861c5d42dce43a45 scsi: qla2xxx: Fix bsg_done() causing double free
+e4901511d9811c1c811cd7eab49f914cb276c2f2 arm64: dts: mediatek: mt8183: Add missing endpoint IDs to display graph
+37718411a749eb0610b66f58f8c578bd9a30e93e LoongArch: Rework KASAN initialization for PTW-enabled systems
+99fc199d0d1b7f1c5dbd658b93d1b2662d0c1688 fbdev: rivafb: fix divide error in nv3_arb()
+5877b7d9a77fd70fb9fac138288d856e3021d7b4 fbdev: smscufx: properly copy ioctl memory to kernelspace
+1ca4d0855e51cd209a0d520375b63ee3072f665e f2fs: fix to add gc count stat in f2fs_gc_range
+bfb70b40c75eaa84658409cc557e453220c86fbc f2fs: fix to check sysfs filename w/ gc_pin_file_thresh correctly
+be2eb06f832e6b6b7192d402dfaebf3ff5cd3e20 f2fs: fix IS_CHECKPOINTED flag inconsistency issue caused by concurrent atomic commit and checkpoint writes
+6cf2b4d1fec83bce9f00052e91388a390935876b f2fs: fix out-of-bounds access in sysfs attribute read/write
+c619905f9e22d3c342f45fa53d57f2b5f36121b3 f2fs: fix to avoid UAF in f2fs_write_end_io()
+8187524763059a0b82ac529e433f253371074587 f2fs: support non-4KB block size without packed_ssa feature
+96b62239d0ce806be41b7a11ac19f3ad5037cc80 f2fs: fix to avoid mapping wrong physical block for swapfile
+d9b10d40769e6efb5ddc15fe13b385f91fab997b f2fs: optimize f2fs_overwrite_io() for f2fs_iomap_begin
+18e0d54ed887ae6be80ea79e0eefb0d054b75ac2 iommu/arm-smmu-qcom: do not register driver in probe()
+c5c610089c7ecd14f0878d1ec9c2c33817f94d42 Revert "f2fs: block cache/dio write during f2fs_enable_checkpoint()"
+4d2fe121895fbc0932255d5f81e674e0eeefbe29 USB: serial: option: add Telit FN920C04 RNDIS compositions
+9925abb772793ebe3dbc10b7295658e027e9d6ef Linux 6.19.3-rc1
 
---===============3411402340007309579==--
+--===============9104361138507675759==--
