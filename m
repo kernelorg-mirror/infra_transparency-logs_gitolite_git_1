@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Tue, 17 Feb 2026 10:59:38 -0000
-Message-Id: <177132597897.512255.18077870278784183448@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mark/linux
+Date: Tue, 17 Feb 2026 11:00:54 -0000
+Message-Id: <177132605462.515316.2702719893293978546@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: pabeni
+repo: pub/scm/linux/kernel/git/mark/linux
+user: mark
 changes:
-  - ref: refs/heads/main
-    old: 9e7021d2aeae57c323a6f722ed7915686cdcc123
-    new: 6d1dc8014334c7fb25719999bca84d811e60a559
-    log: |
-         6d1dc8014334c7fb25719999bca84d811e60a559 xen-netback: reject zero-queue configuration from guest
-         
+  - ref: refs/heads/arm64/entry/recursive
+    old: 0000000000000000000000000000000000000000
+    new: d47442ec55d3f5ca2384e36bc0bbbe9f0001d5ca
