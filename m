@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7317084054154274303=="
+Content-Type: multipart/mixed; boundary="===============5901415590746434586=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Tue, 17 Feb 2026 13:17:43 -0000
-Message-Id: <177133426361.694460.8014053277305675648@gitolite.kernel.org>
+Date: Tue, 17 Feb 2026 13:17:49 -0000
+Message-Id: <177133426995.694679.6924664107081031742@gitolite.kernel.org>
 
---===============7317084054154274303==
+--===============5901415590746434586==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/char-misc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: 63804fed149a6750ffd28610c5c1c98cce6bd377
+  - ref: refs/heads/char-misc-linus
+    old: ec4ddc90d201d09ef4e4bef8a2c6d9624525ad68
     new: 05f7e89ab9731565d8a62e3b5d1ec206485eeb0b
-    log: revlist-63804fed149a-05f7e89ab973.txt
+    log: revlist-ec4ddc90d201-05f7e89ab973.txt
 
---===============7317084054154274303==
+--===============5901415590746434586==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1771334259 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1771334269 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1771334259-af4bced16bb60149a58231f8fd9455d09b9be691
+nonce 1771334267-c1bbedded26e5ee0cdfa8f18c975aa8548a45b45
 
-63804fed149a6750ffd28610c5c1c98cce6bd377 05f7e89ab9731565d8a62e3b5d1ec206485eeb0b refs/heads/main
+ec4ddc90d201d09ef4e4bef8a2c6d9624525ad68 05f7e89ab9731565d8a62e3b5d1ec206485eeb0b refs/heads/char-misc-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmmUanMbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+J8kP/ilVNEJiuX1bH5JXcBqg
-pY4PexX4C8E2zJcSnWrBwdsKyS+mZ9BbcmlNEaF9GSuv3noxPvnArrv64wQSYg6R
-YsfNOunjct1ZFFwUKaTZMC16HcE65wwSWWVmfcfkG0y6NbyYOUXoFPAq/Dm2A+1J
-3orlCH2XdFUf1BHfeE7sn3XnQmcQ+1ftiUKUtWdmTQCxzkVLo14wD0Ru+aNMGJ/G
-02ij6FgvggCJdUqzmaev7+G6ZnNqWDJUfB1yzTkp4gV1cM+/VVQ9Qw0YGqSldSHA
-Y/Nxf5MUsEns9PgrJxMND869GwJCwGS4ByVjjhCtjSAQIX4Phmh6bZ9VXtYIueF7
-JR6d6tjPoqXWSFqOebZCr4TGFepgUkMULI1BemstcdFCX+n+rZwqPoLoijRhXXrZ
-KZzvo05mIIIfemOD11qtI/o5k+DL3WoMVc6NpSK6MA+AAWMqNdWlKgKwRhLt5nzG
-G4Iyipw6JzBhQ/jLarm5JoPiAjIsZpiQlS5z8d4ZMEVrac4FWf1Bpw/ohrk9p6bT
-t2o1Wf0HfqRoqyr19jPhUOFFjl9eIuI20i7XCvKHRLHV8VTuoW5+d73D1j9LYgOR
-4i2R3D5OltJ5osn8GXUKsrzW8uE7jmax8md/7fKagKE61VztctC2t3/ry4cg309C
-GzzhfRMOgRTroXH7Bhp89r+k
-=tnYN
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmmUan0bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+ptIQAIZUaAqyC/nSXxKD27jT
+5gKFQ2uhdCUI+W0pBZFG6GVa2PQQK2knIPeiw4/XTjjKUoXxs0ePGstbLazvtnhO
+lRe1F0c+/OOObOMztY3wFkdoQo9//71ulrrY2AVzHActKBMOUHm0AXwmMb1lrBcR
+yTbpDOPfIs7l5y/Ly4PlCnvXkmfYWlYvpmwm4hWnzp9QckulI3IgT7ElbAv9QrFd
+Qap6BvoiLulKAyk7pMCBWl8w2voOLBpdFGsfKxO31xap0jGCwBuJHxeAaQ4iN96U
+SkIDwrj2Xe3nJq2tpd7L8+x2nw9V+uLYOW+/EutTAsFQASITACP8+fsRpQAdSiGb
+k4RxVYqoZG2Ffa+rv31xyMw/gN1i73GYrREYFKyHLZfpDNOGrfkeAwSAlIoNVuPC
+Hy6s4MnhbRzkX+YWxFkwxk1iBPNM9Wd+HQFU7FbV15PFKmkxPXce9PRUDeqcM2sw
+pYdU+l4918dYRwVxs8rv0lKWdWS2N505WM/hvZ5GhyL5vxtpwHZQ3DgR5JCrvPmS
+ZenCxRFl3wt22+RZ3RVWdiwd9WNKekrIGsIG3PPt19YrYkL2Q3+5znRuEqUmhoi/
+7n6a+Mrg7vU9kTk6nIs5Srat2qNHz8jcKBtBTujpvN6FqLEk9TWhPsPp9fCPBZz2
+hXPp2lvnX5poT0hL3/i2j2Aa
+=Rr/I
 -----END PGP SIGNATURE-----
 
---===============7317084054154274303==
+--===============5901415590746434586==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-63804fed149a-05f7e89ab973.txt
+Content-Disposition: attachment; filename=revlist-ec4ddc90d201-05f7e89ab973.txt
 
 2f6d2c8d9ac05a7a1c02333f6ad30868246880d8 Revert "mtd: spinand: esmt: fix id code for F50D1G41LB"
 600559b9817f6eaa927035eebb12534fadb35ee8 rust: rbtree: fix minor typo in comment
@@ -175,10 +175,6 @@ ca8dcfedac480e424b8860e3d1394afdcdc550fe drm/xe: derive mem copy capability from
 39e9c376ac42705af4ed4ae39eec028e8bced9b4 platform/x86: intel_telemetry: Fix PSS event register mask
 2b4e00d8e70ca8736fda82447be6a4e323c6d1f5 platform/x86/amd/pmc: Add quirk for MECHREVO Wujie 15X Pro
 662c9cb86fc322038647d8808e751f5c6c0cc13f platform/x86: lg-laptop: Recognize 2022-2025 models
-8f589c9c3be539d6c2b393c82940c3783831082f rust_binder: correctly handle FDA objects of length zero
-5e8a3d01544282e50d887d76f30d1496a0a53562 binder: fix UAF in binder_netlink_report()
-d047248190d86a52164656d47bec9bfba61dc71e rust_binder: add additional alignment checks
-1769f90e5ba2a6d24bb46b85da33fe861c68f005 binder: fix BR_FROZEN_REPLY error log
 fcb70a56f4d81450114034b2c61f48ce7444a0e2 Merge tag 'vfs-6.19-rc8.fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
 9502b7df5a3c7e174f74f20324ac1fe781fc5c2d ASoC: amd: yc: Add DMI quirk for Acer TravelMate P216-41-TCO
 8a1968bd997f45a9b11aefeabdd1232e1b6c7184 mm/shmem, swap: fix race of truncate and swap entry split
@@ -393,8 +389,6 @@ f1675db3c7f1838dbbec4f1768d680e0acbc6721 mailmap: update Alexander Mikhalitsyn's
 1a47837bfafed7e9ef93f5dfdea6d70869b0c3ab Documentation: document liveupdate cmdline parameter
 3125fc17016945b11e9725c6aff30ff3326fd58f net: spacemit: k1-emac: fix jumbo frame support
 29fb415a6a72c9207d118dd0a7a37184a14a3680 btrfs: raid56: fix memory leak of btrfs_raid_bio::stripe_uptodate_bitmap
-d6ba734814266bbf7ee01f9030436597116805f3 rust_binderfs: fix ida_alloc_max() upper bound
-ec4ddc90d201d09ef4e4bef8a2c6d9624525ad68 binderfs: fix ida_alloc_max() upper bound
 5ff641011ab7fb63ea101251087745d9826e8ef5 wifi: iwlwifi: mld: cancel mlo_scan_start_wk
 fb7f54aa2a99b07945911152c5d3d4a6eb39f797 wifi: iwlwifi: mvm: pause TCM on fast resume
 284e70ace9ecdeb8644fbe65c5da12c90b377545 ASoC: SOF: Intel: use hdev->info.link_mask directly
@@ -508,4 +502,4 @@ e7aa57247700733e52a8e2e4dee6a52c2a76de02 Merge tag 'spi-fix-v6.19-rc8' of git://
 e98f34af61167aee238e666bfbc97d1620afd88a Merge tag 'i2c-for-6.19-final' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
 05f7e89ab9731565d8a62e3b5d1ec206485eeb0b Linux 6.19
 
---===============7317084054154274303==--
+--===============5901415590746434586==--
