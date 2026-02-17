@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7889038032674425807=="
+Content-Type: multipart/mixed; boundary="===============0960269264609474740=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Tue, 17 Feb 2026 18:42:23 -0000
-Message-Id: <177135374371.976605.682263997444011045@gitolite.kernel.org>
+Date: Tue, 17 Feb 2026 18:42:36 -0000
+Message-Id: <177135375642.976914.13894149654018635943@gitolite.kernel.org>
 
---===============7889038032674425807==
+--===============0960269264609474740==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,15 +16,24 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: 2fe00f8997b6dac7a4d15119319c342e825ab80e
-    new: ac203c5eb2766218a6ed1674540d9684e851550d
-    log: revlist-2fe00f8997b6-ac203c5eb276.txt
+    old: ac203c5eb2766218a6ed1674540d9684e851550d
+    new: d15e1c78bbbebe78a9ffe34c95069d61a8692600
+    log: |
+         b03f8312e5dba8eca2ef4b42676792f9aaf34a6e Merge branch into tip/master: 'irq/urgent'
+         5ff64e00429e6b0558c9df8e8117621ae5b83b01 Merge branch into tip/master: 'timers/urgent'
+         10f5cf7375408d9f3ee8fcffaeff647d353b5b7a Merge branch into tip/master: 'core/debugobjects'
+         d15e1c78bbbebe78a9ffe34c95069d61a8692600 Merge branch into tip/master: 'locking/futex'
+         
+  - ref: refs/heads/tip/urgent
+    old: 39b5cf220fc6df3ea97b890db2d9d277cb0bfcc1
+    new: 5ff64e00429e6b0558c9df8e8117621ae5b83b01
+    log: revlist-39b5cf220fc6-5ff64e00429e.txt
 
---===============7889038032674425807==
+--===============0960269264609474740==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2fe00f8997b6-ac203c5eb276.txt
+Content-Disposition: attachment; filename=revlist-39b5cf220fc6-5ff64e00429e.txt
 
 9e51d1da5b245c9bf97fc49b06cca7e901c0fe94 firmware: stratix10-svc: Delete some stray tabs
 7ff9fc55d36ae392626ae8704bd8d22eafd2605a staging: vme_user: name function parameters
@@ -623,6 +632,7 @@ a5f22b9b139762685810aa5a41fd0181488aea13 Merge tag 'staging-7.0-rc1' of git://gi
 3ad7945754000d868ed86315d33085a914c422c1 Merge tag 'tty-7.0-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/tty
 17f8d2009367c3da82882f70ccbdca9f8c7b5f20 Merge tag 'usb-7.0-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/usb
 d295082ea672e7277388e1cf7c5af73788cf8029 Merge tag 'spdx-7.0-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/spdx
-ac203c5eb2766218a6ed1674540d9684e851550d Merge branch 'linus'
+b03f8312e5dba8eca2ef4b42676792f9aaf34a6e Merge branch into tip/master: 'irq/urgent'
+5ff64e00429e6b0558c9df8e8117621ae5b83b01 Merge branch into tip/master: 'timers/urgent'
 
---===============7889038032674425807==--
+--===============0960269264609474740==--
