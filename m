@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5200086210744699595=="
+Content-Type: multipart/mixed; boundary="===============2176773505409269612=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Tue, 17 Feb 2026 17:51:04 -0000
-Message-Id: <177135066484.928526.3208393197911140027@gitolite.kernel.org>
+Date: Tue, 17 Feb 2026 17:51:05 -0000
+Message-Id: <177135066545.928574.13477439423170439258@gitolite.kernel.org>
 
---===============5200086210744699595==
+--===============2176773505409269612==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,12 +16,12 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-6.12.y
-    old: 7d07cfe6e9153fff15adff950ff51c21b6179278
-    new: 9c38207c6aa1a83f37e66565075127427d019604
-    log: revlist-7d07cfe6e915-9c38207c6aa1.txt
+  - ref: refs/heads/linux-6.6.y
+    old: f67de83a8c24f9fbd0f882809bc607d3a8939371
+    new: c81ada37d768cb7556e0091bb4a88db6abb65bd2
+    log: revlist-f67de83a8c24-c81ada37d768.txt
 
---===============5200086210744699595==
+--===============2176773505409269612==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -32,72 +32,69 @@ pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1771350662 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
 nonce 1771350653-43102980578005fba9ba919dc70ce7599175546f
 
-7d07cfe6e9153fff15adff950ff51c21b6179278 9c38207c6aa1a83f37e66565075127427d019604 refs/heads/linux-6.12.y
+f67de83a8c24f9fbd0f882809bc607d3a8939371 c81ada37d768cb7556e0091bb4a88db6abb65bd2 refs/heads/linux-6.6.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmmUqoYbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+dVsP/0fiRvu96sn6I4YuCEwr
-7K08xok+a5N5vjLr/UxUN9nQewaz8r69MQWw5bV5PganpMhsM9SJ2OAq6/uAivA+
-100DO5v4jhEuWC6etrC1cTVdPb9cIEboCi855dPA5wclSjFa+blP9nITjkUEYwQk
-9VOyxN5nD1alyLafQeH2kckGOOdlenYCWspNRFPZZ03zZGd2nFyiRXTfQgdXNypw
-ZjsP95o3CQKA8Emu8511ZDLz5cFAY6tm90d9oz1QSb1CncpGejOJIso48jl/5bPJ
-IKLQBmdAehCf8KFn4MzqCyZxUM2iD8bjKjXld46rpbbUaGpjD+dMF2sxozfgoWCG
-24R7QeEqas5uHkvDc6rCNHQY/mrBsh/89oYq2Ai9p0i9VlRAsGzVFihHj14I6QJW
-71CWSEPdJuiGwaJ5teTAnlrhVoWOLFhbWBVmLJDb368AP0eXT4pu7owHwBqxC3AT
-hbyDyxu2G7FYuNNccN2ETYpsOqy1MMDOoYuceszfixfva5TLLDMgAgDJXiTjxYHy
-rOzrchNuNUiJvnBA6eRyJsLaREnJYLLijqzXtsJj0Ik5C2vvQ3QnVRsaH2fhTIMy
-P3h5hyIhm7aHLVx9ToeLudI42AdQ4nGrsUPWPKD+J33ll7CjYLyNvMeavTY2+Iqt
-goCiOv7vS8UklEYqhXBRMEgX
-=nPvu
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmmUqocbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+vC8P/2gtOW759AOQTMM2FmzJ
+I7101EVzMHMUxaCsSDEsUmWoxjvgBhuImArpEzzc2LhH8HS8KmE283UnE817stR+
+Hkj3AQaNka4KLCN5FE1ZaGBFGcAH6cddyZ4GBiPIHNHDVSc1MfeVUpi6N+7WjcJr
+Ex7PjKIJC9MLjm6bT5ARxhlTP/ZFMs20psWtV8cOQjYcjYvRGRkgsjNSjAFEC5jW
+BhfuGXulyMoCG6pYGxH78G2qGfS/9iCSjFZRMyL/2FYY+QflpNf/j42ZmHfvPfCZ
+MbdY9f36ozbl4f1WdwKDK2IlVPsWiaqCuIoyfPGe/fsoEVt64f3tJIfSjPDC3EkE
+O4WG6Mzg0eoHq3RVwiAy6p7XFveFgBs5rfhPbURNAZ0dgmy+Y+MmYrBRKPH9lnPx
+Sf5jjncaEwudoU+E7rqUT/Vwj/qRRoOnVsN+j0P+5z/vqYCOLlCWmT8ZIPSTQoPu
+6lW0DZg+JR6CdY9EGJjodHKWE6V8PfQZ+WnsgcNX7Kj+2jQ/b3geJZTN8tInKoh5
+1k8+VNf0Ae6KH/XlJfqF3YaA0TjGtGcIycpjfcwa36anvB4Ipcad3cdnFQLkTp1N
+HRsngSIrrqWvhOKhQo9xT0tjFjL0F9AfpKyAnuXfeZloV7XaR6flV5Gti3INabfm
+X6T8XuThtdSK2U/MlB+mX5G6
+=TCYD
 -----END PGP SIGNATURE-----
 
---===============5200086210744699595==
+--===============2176773505409269612==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-7d07cfe6e915-9c38207c6aa1.txt
+Content-Disposition: attachment; filename=revlist-f67de83a8c24-c81ada37d768.txt
 
-ba0d868097eb0b42e1be27835cb4a30cf3db15ce scsi: qla2xxx: Fix bsg_done() causing double free
-3d164fda4bb9fdf1dde8219750e5288005216585 bnxt_en: Change FW message timeout warning
-0b301f456c7e869a8bb16da4d8606b01d13fa3b3 bnxt_en: hide CONFIG_DETECT_HUNG_TASK specific code
-00193323e0451ec88cc4cd6dd588d646468d3ca7 bus: fsl-mc: Replace snprintf and sprintf with sysfs_emit in sysfs show functions
-c020714331118eb5e4be9b68aab1c1159610b329 bus: fsl-mc: fix use-after-free in driver_override_show()
-704772871be6c5c8456546ceb40fcaf3d7d6bc82 ALSA: hda/realtek: Fix headset mic for TongFang X6AR55xU
-9cf19e574a890dcf60977d0b6e5dd432859745c6 ASoC: amd: yc: Add ASUS ExpertBook PM1503CDA to quirks list
-c3dd49d5b0ff56421c11775a1f4f6499f6e113d9 gpio: sprd: Change sprd_gpio lock to raw_spin_lock
-27557d692b225132117d065ee8fb9c291c0ee777 ALSA: hda/realtek: Add quirk for Inspur S14-G1
-6fc26f6e3a6c2523943628e6fca680fe2420aa9d ASoC: cs35l45: Corrects ASP_TX5 DAPM widget channel
-24c9e95948fe1f2e93eb1f2833fd19425ae39267 ALSA: hda/realtek - fixed speaker no sound
-adffa09daa04cf12c395ee821c30e6bec258678b romfs: check sb_set_blocksize() return value
-9c2fc6a0f6724edee91c152fbc14d748b3b1121b drm/tegra: hdmi: sor: Fix error: variable ‘j’ set but not used
-accebc0b11c91223efba65ff707e84a5363906f7 platform/x86: classmate-laptop: Add missing NULL pointer checks
-4e650448e589fe305a0533bf2a1312dfcca0bc0d ASoC: Intel: sof_es8336: Add DMI quirk for Huawei BOD-WXX9
-35fcc571fc21f55be00067c2ddc2ebacd8f93840 ASoC: amd: yc: Add quirk for HP 200 G2a 16
-6bbdc4ebf2c22cd0f41775d184c45904e2db9f0d ALSA: hda/realtek: Enable headset mic for Acer Nitro 5
-038c5919bb6bc2c16b75060825bc75798bb306b3 platform/x86/amd/pmc: Add quirk for MECHREVO Wujie 15X Pro
-5d477c459111ca5a50997ca438ba515416117471 platform/x86: panasonic-laptop: Fix sysfs group leak in error path
-de729535d33207c2e7f21f91cc319f04ea4c98e9 ASoC: cs42l43: Correct handling of 3-pole jack load detection
-6974f0470098eeefb43cde597d153fb7e1164f74 tracing/dma: Cap dma_map_sg tracepoint arrays to prevent buffer overflow
-2a662b3614e13b72b33ed7c324aee63a335c89a8 drm/amd/display: extend delta clamping logic to CM3 LUT helper
-4ebdff83c97fb3db56d73d5ad0b5afcd245f8b7c drm/amd/display: remove assert around dpp_base replacement
-afe6968ce0eda4d796159d231fb8cad2c3723291 ASoC: fsl_xcvr: fix missing lock in fsl_xcvr_mode_put()
-090878230336520a31256bb90a08ac5d0574e757 gpiolib: acpi: Fix gpio count with string references
-d3b3c47ba3dddcb1200a15815ce31ae7df06c2bc mm/hugetlb: fix copy_hugetlb_page_range() to use ->pt_share_count
-3785dd91890aebc0885cb754bded689781bf6c1b mm/hugetlb: fix hugetlb_pmd_shared()
-eacd9df3d70572e157fdbd37e51281f4a27dc8bb mm/hugetlb: fix two comments related to huge_pmd_unshare()
-5f3a6bf54b03b9e50db2729cc3ac5606abfe662f mm/hugetlb: fix excessive IPI broadcasts when unsharing PMD tables using mmu_gather
-daedd6651eb988615ca090125ded4b28145d3f40 LoongArch: Rework KASAN initialization for PTW-enabled systems
-9c4c1db8cb15bf8ce3cf6efc24e7527fd5a41162 Revert "wireguard: device: enable threaded NAPI"
-9efbf85760c6acebe1587fe9387f61adf98179ba cpuset: Fix missing adaptation for cpuset_is_populated
-e7ce6505b90b4c3438e48d2520b0e9df9a167fb6 fbdev: rivafb: fix divide error in nv3_arb()
-c376055f58a87bda410292f741a458d5e230caae fbdev: smscufx: properly copy ioctl memory to kernelspace
-207e53c44f01bf138ceb6805ba3ddca5fe8de53d f2fs: fix to add gc count stat in f2fs_gc_range
-ab4e5e2007e620b34abf0a5ad4cade3f010db40f f2fs: fix to check sysfs filename w/ gc_pin_file_thresh correctly
-d5518a2fe44990e5f2e2b6f5b4d69abc50baaaeb f2fs: fix out-of-bounds access in sysfs attribute read/write
-f52a1a7d6b20e9647dbfd81d7a9a4f6ad6d1cc3d f2fs: fix to avoid mapping wrong physical block for swapfile
-ce7678365d32662607cc5b4a9706fb9eff0fe0d9 iommu/arm-smmu-qcom: do not register driver in probe()
-f0fe2d55f9de3ee669f211856b5c53633f17ce60 f2fs: fix to avoid UAF in f2fs_write_end_io()
-dd62c07009bb9858c87924fc5eaa16fbc138d2c2 f2fs: fix IS_CHECKPOINTED flag inconsistency issue caused by concurrent atomic commit and checkpoint writes
-9c38207c6aa1a83f37e66565075127427d019604 Linux 6.12.74-rc1
+3da0c48d5fc4c8bab1354bdabb162233d20cb4fe scsi: qla2xxx: Fix bsg_done() causing double free
+9db24e754308d88547942e7fe3736c2777f9cfaa PCI: endpoint: Remove unused field in struct pci_epf_group
+b2ee561d8f8ac8eebc9f535df08043931a8b1d9c PCI: endpoint: Avoid creating sub-groups asynchronously
+0d054c8cb007928436af12c416fdc78be82d57d9 bus: fsl-mc: Replace snprintf and sprintf with sysfs_emit in sysfs show functions
+13cfe7667318dc19ced11dae8164912e61b9be3d bus: fsl-mc: fix use-after-free in driver_override_show()
+381845ec013ccc473c12e5b41ee79d53cf578d4c ALSA: hda/realtek: Fix headset mic for TongFang X6AR55xU
+5a7b5315998b821c8449cad1e61b84b306e64428 ASoC: amd: yc: Add ASUS ExpertBook PM1503CDA to quirks list
+efa7df180f1dd8676c23c5c8319ccee35d43cc87 gpio: sprd: Change sprd_gpio lock to raw_spin_lock
+d5944b7e48e801c34ae09a825ec07cde717639af ALSA: hda/realtek: Add quirk for Inspur S14-G1
+5095a2556a48288e0d129afda3a8fdb5b0884f7d ASoC: cs35l45: Corrects ASP_TX5 DAPM widget channel
+1d1e557264cee6e7b7e280b92eaf4fe56c853e6b romfs: check sb_set_blocksize() return value
+8ad33a563854762ccb355c29a17c6a8155c3593e drm/tegra: hdmi: sor: Fix error: variable ‘j’ set but not used
+b287b267255fa71bf87b054ea1c9a0d1c5a45d30 platform/x86: classmate-laptop: Add missing NULL pointer checks
+fde5b33a3e4136952fcd1d0dc9051e2c384ca9c3 ASoC: Intel: sof_es8336: Add DMI quirk for Huawei BOD-WXX9
+daf5ffcebe3a48aa3ef6852e239df8ef07b54438 ASoC: amd: yc: Add quirk for HP 200 G2a 16
+6fa31e0d212e679bdf34b703091b70a7ed684072 platform/x86/amd/pmc: Add quirk for MECHREVO Wujie 15X Pro
+518456fc5f91ac195302e632072041be3a0a056c platform/x86: panasonic-laptop: Fix sysfs group leak in error path
+6c2b8ef809556f3c24d213d6be6d78a670366bf4 ASoC: cs42l43: Correct handling of 3-pole jack load detection
+8ec35fee3022a481ad09850d13bfa3aae9dedc2a ASoC: fsl_xcvr: fix missing lock in fsl_xcvr_mode_put()
+ad13f7ad29e8d3142be13b35c5690e263d671db9 gpiolib: acpi: Fix gpio count with string references
+b77718293756883ad3b85e69fe959d57935f3e20 LoongArch: Add WriteCombine shadow mapping in KASAN
+189f9e04afff70eb463cccda0ac19c0e22d1a829 LoongArch: Rework KASAN initialization for PTW-enabled systems
+c48a0239623c0060cb954d664065dad1e8aa685f Revert "wireguard: device: enable threaded NAPI"
+7e1f41422edab355af3977346d319aeb6d3e2809 mm/hugetlb: fix copy_hugetlb_page_range() to use ->pt_share_count
+ed68de4673402fd4bfc70b8d34b73aacf4dde077 mm/hugetlb: fix hugetlb_pmd_shared()
+5d6c15f592c4d51af1bd2b08903be5835c151c5d mm/hugetlb: fix two comments related to huge_pmd_unshare()
+406435ae01d6463042bb9eb3b51ac264bfbb0ddb mm/hugetlb: fix excessive IPI broadcasts when unsharing PMD tables using mmu_gather
+266995b83ea9ca91260d05ec07e3016d832c58af cpuset: Fix missing adaptation for cpuset_is_populated
+1a211f6e282bf58162ed2528214d7a528ce77aae LoongArch: Add writecombine support for DMW-based ioremap()
+e80dcdacecaa7009d9c60a6c06cb913ff08a9ba0 fbdev: rivafb: fix divide error in nv3_arb()
+3b50d140a7a50eb301cdcdf5827c0a289b3256e6 fbdev: smscufx: properly copy ioctl memory to kernelspace
+5edbf01c892efa8ff1153a00dbead1cbaf5a360b f2fs: fix to add gc count stat in f2fs_gc_range
+54cfbd44fc30b6f55e312a5de32244302810587b f2fs: fix out-of-bounds access in sysfs attribute read/write
+25c16e6a887d89ca748190916eb07c0c1108ff53 iommu/arm-smmu-qcom: do not register driver in probe()
+8923d50811fd3c65e723f0a8fba66f6ba5707f23 f2fs: fix IS_CHECKPOINTED flag inconsistency issue caused by concurrent atomic commit and checkpoint writes
+6b21070d7237926fa221033670178d9269e16441 f2fs: fix to avoid UAF in f2fs_write_end_io()
+8b17d90793990c743701740c5a6d63b36d5a993b f2fs: fix zoned block device information initialization
+bbbeb28092b74c95b6e55164d0a13dc2f60c940b f2fs: fix to avoid mapping wrong physical block for swapfile
+c81ada37d768cb7556e0091bb4a88db6abb65bd2 Linux 6.6.127-rc1
 
---===============5200086210744699595==--
+--===============2176773505409269612==--
