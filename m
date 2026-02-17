@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7384912143294257300=="
+Content-Type: multipart/mixed; boundary="===============3962930379467972756=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Tue, 17 Feb 2026 20:00:13 -0000
-Message-Id: <177135841315.1046459.6951701820129339469@gitolite.kernel.org>
+Date: Tue, 17 Feb 2026 20:00:14 -0000
+Message-Id: <177135841472.1046560.18139158650451301387@gitolite.kernel.org>
 
---===============7384912143294257300==
+--===============3962930379467972756==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,89 +16,90 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-6.12.y
-    old: 1e7ed39e71185fff0f522e44f7383e20d1624322
-    new: 5d01fe87b74b01ce29d48c36150c450422bab3e7
-    log: revlist-1e7ed39e7118-5d01fe87b74b.txt
+  - ref: refs/heads/linux-6.18.y
+    old: e254a19d61ac172c4f889050f45be17b6f8822be
+    new: bfeb677476263df97d83e5cd15052591f3d3fb76
+    log: revlist-e254a19d61ac-bfeb67747626.txt
 
---===============7384912143294257300==
+--===============3962930379467972756==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1771358411 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1771358413 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
 nonce 1771358409-ae1803fc8b7fda9a8c671cfba234ae022aa53593
 
-1e7ed39e71185fff0f522e44f7383e20d1624322 5d01fe87b74b01ce29d48c36150c450422bab3e7 refs/heads/linux-6.12.y
+e254a19d61ac172c4f889050f45be17b6f8822be bfeb677476263df97d83e5cd15052591f3d3fb76 refs/heads/linux-6.18.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmmUyMsbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+XN0P/jcHVN9poBFb7SFOjdLs
-E8EwzP75BfQlKxgRxqnLgcBkXfnmwt8exR6gTx4AiqSMc/qd5aX/HOsH4z/HmCFK
-piN8//zWnz/Vcnojw126xfdVBZ8lcj/G5jCs8BZQFobQ5pyC0U6Tj3yB2pqDscew
-33/k/K2MnQqifxpwsJMAoaj+FT5plBOv11dRR5SXDZCN9B8ob/A9b1jgrrEM31Zt
-zzvGbabi2dp1YzG2/YW0N8Jwztb88ACDaHc0IwHT2eNp7AKYgv4JdWCKPC0CPhx6
-qmhClQu6NwyqE9y9sSKqBqA5EfOu9H4fcX7UgYoEsY9N1OAz+2QMnaATnLmbU4q1
-Wa693LtinRQdXfTdr9tOoJONiv8jmOoB/UhA514NyCnUeUcUBBBkLG5+aIFKJAbU
-nTS8DE3Oiep3holjY37UlSr2fQWDVpJexMbehpave6SZnOKWCBTo35DxaKsPy1TU
-P+K4UjXMfWEQq4eFJXt7HZwXkhKa8T+X+Uc3iDOIZroOdRcgzjTkobFdS7Gozh7R
-eZOl1CXIXF7bimGbf91oCaeV79iojl6BsvcoBCgq6LT5pXZoWyCmIi9a6c1kEpd3
-T540juS6X5wlxESupX1+6fipgLjwko9HpbYnstwNpV3l1C0CKDAl2kQf+gLKgC7J
-d/1v8RRLPHUyiypjVFLWCJyY
-=DM8S
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmmUyM0bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+7/EP/iPNCL+8YRPckosdByzJ
+lcylZZ7W2cDZDqM8BmDVtBGeM8BzEarT4UlgCP7QGoJvkU0IrTWwQUK2BuBdW63B
+6iyLWh9yQyHs4t157eCi4lYd7thqrokBZRU2dAfnEElarr+2cflxtoAOs+Ja99OR
+BT+ngugGSgbaIonYfyk6x6JB6lF7/ztwr9Mo5jg03KtG86DLyLUdMBxADIN6mJg1
+kYDPpZcpvL2wIvYLkAt8SwX4RVmSlCA214stNSCAt1hJX8+HEcWytc22/57ng3u9
+NhIyect61jYgn1mlsrlLutf9puuufOiu4BRJZrgOEDxC7aQixSFGmiQMdu0hjnMw
+Hsz5ImYGGP9CVRs//mU8Kps2GoVDzTK/r/kEI8YUMEsDlb30Lj/hxm0zth9VwLHY
+hJzhsCW4u/8TezxNY7osWPlajRbiNiqqZO0NljOYrnjUmoz+Gv+HJdyCq3LSdseO
+oj3XFs6osAcKmlTFQ/n4m58uWMK17OM0T5JZMQMNcjqv+Dhan42Et9tcYm0I4f17
+kFu06asIhfN27pL4tb/HzkWtcZr8E5lbMXcHX5khL5KB3FYoRPfZzc9gLT0koJn0
+ptt/DEqucwZUquXmSLRUPF5WbpGj/w87HtkipQ+T6XVsX2VidEGqvf1Qy/oNTnm6
+pZacM6DA9rKuYavf+Mpzisfp
+=y7Oh
 -----END PGP SIGNATURE-----
 
---===============7384912143294257300==
+--===============3962930379467972756==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-1e7ed39e7118-5d01fe87b74b.txt
+Content-Disposition: attachment; filename=revlist-e254a19d61ac-bfeb67747626.txt
 
-4737352c99b04d0c085cf60fc2e55e6864a5546c scsi: qla2xxx: Fix bsg_done() causing double free
-5d22de0aebda72fe209858629f23aa03234f9f09 bnxt_en: Change FW message timeout warning
-5ea68afb47641046727b84cbf2cd444e16c5bb73 bnxt_en: hide CONFIG_DETECT_HUNG_TASK specific code
-3cb0a6fdf0cad508a20c577f84d6c6b988525afb bus: fsl-mc: Replace snprintf and sprintf with sysfs_emit in sysfs show functions
-74141062e8d596b7e99850b5be478014fe460788 bus: fsl-mc: fix use-after-free in driver_override_show()
-9e0bfa15c40eb1eba2083567b4ca3dbfcd9a7e5b ALSA: hda/realtek: Fix headset mic for TongFang X6AR55xU
-085a8aae465b42bae51238f833ac1a4594d6e341 ASoC: amd: yc: Add ASUS ExpertBook PM1503CDA to quirks list
-1590df8bba547eca0972a0f949839282a71df578 gpio: sprd: Change sprd_gpio lock to raw_spin_lock
-e24ab9af2ecf56b26aa6d0f0c0a073f949dfc68a ALSA: hda/realtek: Add quirk for Inspur S14-G1
-feb0789c2c66afcdce17f7ecd694591c44343190 ASoC: cs35l45: Corrects ASP_TX5 DAPM widget channel
-d1024e8c6bfdb037cbe2aa72eff57e46890d5549 ALSA: hda/realtek - fixed speaker no sound
-5270d5f3d9b0e2fa5a143e69bd4a85d013249342 romfs: check sb_set_blocksize() return value
-da049fd72b50b1451cc0a8a7b9a9e725e2603592 drm/tegra: hdmi: sor: Fix error: variable ‘j’ set but not used
-708fbc1be5f7ce041eeeda9010f5e73a4b329280 platform/x86: classmate-laptop: Add missing NULL pointer checks
-5bb0eb9f9ee3049c4f68566d50229ef8cbe6b36b ASoC: Intel: sof_es8336: Add DMI quirk for Huawei BOD-WXX9
-792652c8da17ce31a257b69aa76adc0bab05c16a ASoC: amd: yc: Add quirk for HP 200 G2a 16
-f786020b5770cea9f336033bde7b9d358518789f ALSA: hda/realtek: Enable headset mic for Acer Nitro 5
-ac4efdd7cb78eaa8fe06aefedadb2b3b83286e94 platform/x86/amd/pmc: Add quirk for MECHREVO Wujie 15X Pro
-111b8adfa1a33058d6618b308b232a86df999ca8 platform/x86: panasonic-laptop: Fix sysfs group leak in error path
-ecc45a570f1e486cc61009c8e9f1cf6a5c22226c ASoC: cs42l43: Correct handling of 3-pole jack load detection
-61a5fcd1fd7d6bc3cabe9656223e35ab21726b68 tracing/dma: Cap dma_map_sg tracepoint arrays to prevent buffer overflow
-d047a4c30cfc102ab9bb4d9c52d5ca609fba0714 drm/amd/display: extend delta clamping logic to CM3 LUT helper
-49437ee978f3e31d47ebe3c880bdc07b77ea1c41 drm/amd/display: remove assert around dpp_base replacement
-50d899affe447717b7923d8b66a5f2c07800787e ASoC: fsl_xcvr: fix missing lock in fsl_xcvr_mode_put()
-c2e08ea3b2b2990eed5c9119de72053e6a053976 gpiolib: acpi: Fix gpio count with string references
-658c367784a738ac89ccb90bd9cc15d2b7660528 mm/hugetlb: fix copy_hugetlb_page_range() to use ->pt_share_count
-dfcb3d693437c29693bfc310bc29a6d991fa536a mm/hugetlb: fix hugetlb_pmd_shared()
-a28b6bc7d8e1cfc8ac2c9f6937d8d6b04aed0799 mm/hugetlb: fix two comments related to huge_pmd_unshare()
-f988830e3c8f8fe0cc1ce749c596ed20fb523a71 mm/hugetlb: fix excessive IPI broadcasts when unsharing PMD tables using mmu_gather
-36a724977aa88416471c36d1a36eb40d57e47464 LoongArch: Rework KASAN initialization for PTW-enabled systems
-af02f40173d3f502c5b164e688be1b8034cbed08 Revert "wireguard: device: enable threaded NAPI"
-d215ed6820c7693661177a29205519d20735be3a cpuset: Fix missing adaptation for cpuset_is_populated
-0cefe341a477c1057ccd8ffcf7cc5ec1dae03291 fbdev: rivafb: fix divide error in nv3_arb()
-d7b8b254fdd312c7c1fa1f918b3ed59004edc438 fbdev: smscufx: properly copy ioctl memory to kernelspace
-ab8cc23f029aa8436df3571930d14371369d83cf f2fs: fix to add gc count stat in f2fs_gc_range
-b54e38f222eb4ba4e7a296b4b5d9fdca245e1e16 f2fs: fix to check sysfs filename w/ gc_pin_file_thresh correctly
-d720a5e32fbf9cd4458f44d78449a60dd2ba66b3 f2fs: fix out-of-bounds access in sysfs attribute read/write
-8e7cb962fb16cd81854f391bfbf483e133f236fe f2fs: fix to avoid mapping wrong physical block for swapfile
-72b6dfeb0e142552aa65b2e1ae3debd14b784eb2 iommu/arm-smmu-qcom: do not register driver in probe()
-e3bde46e1c1824880901877a93dd6ab42ba2df3c f2fs: fix to avoid UAF in f2fs_write_end_io()
-986a5ed9f7d89c03f18864b7d9f4765c940c9865 f2fs: fix IS_CHECKPOINTED flag inconsistency issue caused by concurrent atomic commit and checkpoint writes
-af78618dfabb972ccf192c7f59b1373da0a9b084 USB: serial: option: add Telit FN920C04 RNDIS compositions
-5d01fe87b74b01ce29d48c36150c450422bab3e7 Linux 6.12.74-rc1
+4b33454b7b4ef351942df479a32344aa113cb62e scsi: qla2xxx: Fix bsg_done() causing double free
+c7ce6321eeb8fd520543ccbea8b01e61c78cb077 rust: device: fix broken intra-doc links
+d6c093b722875c4fc58185a615375d12a1f81ba5 rust: dma: fix broken intra-doc links
+f0b9072a9032de07b89995a53cc05403f47855b6 rust: driver: fix broken intra-doc links to example driver types
+caf90584180af8e84cc9c714c3fb1fc3668a33ea ASoC: amd: yc: Add ASUS ExpertBook PM1503CDA to quirks list
+0bccde886035c3fa7defe052093036ffbee41a98 gpio: sprd: Change sprd_gpio lock to raw_spin_lock
+4fb4fb5512e715962c56f0ed2e5b501215a418b9 ALSA: hda/realtek: Add quirk for Inspur S14-G1
+5d4314b5653ffa981bbeb6bbf8109090269959a8 ASoC: cs35l45: Corrects ASP_TX5 DAPM widget channel
+3cfa9dcdfbaa6a9030514b049e74975e48a0982e ALSA: hda/realtek - fixed speaker no sound
+004aa82dcdd9cb542cdff023b6dddb384321caaa romfs: check sb_set_blocksize() return value
+c0b739a3e1329236e83c23661bc2883c715e8b8b drm/tegra: hdmi: sor: Fix error: variable ‘j’ set but not used
+f737b4a71326f000aa485035abe715db426e393c platform/x86: classmate-laptop: Add missing NULL pointer checks
+524db67bf52e5917daf0a6c1b90e7365fd7eb9af ASoC: Intel: sof_es8336: Add DMI quirk for Huawei BOD-WXX9
+314ac3567f34f0dfbcdd05540a19b1d21b91aede ASoC: amd: yc: Add quirk for HP 200 G2a 16
+cb34e9f5f7073d7bd2cf5da2679c38fb37d5ee20 ALSA: hda/realtek: Enable headset mic for Acer Nitro 5
+9528714a7b516c814de7103dd2af5426ad3ed6b1 platform/x86/amd/pmc: Add quirk for MECHREVO Wujie 15X Pro
+023a43fdddd13997ef5ac608440b41a971640313 ASoC: sof_sdw: Add a quirk for Lenovo laptop using sidecar amps with cs42l43
+8739d73c5cdd9494a4512d2486a930dc6931cdce platform/x86: panasonic-laptop: Fix sysfs group leak in error path
+3b046109b621ea656182a57bd59412bcc49f38a5 ASoC: cs42l43: Correct handling of 3-pole jack load detection
+fbb306291061e43e5dd5dbfce404be0cb9d9a756 tracing/dma: Cap dma_map_sg tracepoint arrays to prevent buffer overflow
+72f8f4c1fcf505567dfd4370fc9ef81e806d1c1c drm/amd/display: extend delta clamping logic to CM3 LUT helper
+6c828512e53e17b61df357d76d025faeafb0e0b0 drm/amd/display: remove assert around dpp_base replacement
+6dfc7ad3945a837e2a75327fd1df56f991dbc149 ASoC: fsl_xcvr: fix missing lock in fsl_xcvr_mode_put()
+d8145b4838200a45d891071ca841348441b676f2 io_uring/fdinfo: be a bit nicer when looping a lot of SQEs/CQEs
+3aff5c08e58745f7cf9af6ad919e01372c8c0da8 gpiolib: acpi: Fix gpio count with string references
+1466b5e2b37f1069423f2359f09eef822d800cf8 arm64: dts: mediatek: mt8183: Add missing endpoint IDs to display graph
+11192af8f8829e63821bfe5bd34f4a7b7507976d mm/hugetlb: fix excessive IPI broadcasts when unsharing PMD tables using mmu_gather
+ef0ee92fc0338d2f8e117d5fe5807557762a260a LoongArch: Rework KASAN initialization for PTW-enabled systems
+4d00ac669166c326ad3a6f937dac08855b5f4b3f cpuset: Fix missing adaptation for cpuset_is_populated
+9b14130c6980f310d756ba633eb9513d69362d17 fbdev: rivafb: fix divide error in nv3_arb()
+ddccc46aa6aaff2a9488daadbe617463ce33921b fbdev: smscufx: properly copy ioctl memory to kernelspace
+5fe44224ecb1e74a6fcfc142c41d5a4673db52a5 f2fs: fix to add gc count stat in f2fs_gc_range
+a714a1bafef52ae9f95b2fe27307d7ab13c20313 f2fs: fix to check sysfs filename w/ gc_pin_file_thresh correctly
+2360d2d7aea5949eaf2daebf579564ca4e81bb28 f2fs: fix IS_CHECKPOINTED flag inconsistency issue caused by concurrent atomic commit and checkpoint writes
+53679c2983019220ada6a1fa1815ab4b5d1e905e f2fs: fix out-of-bounds access in sysfs attribute read/write
+e743699004473a811d12db8497d109fc3c2db95f f2fs: fix to avoid UAF in f2fs_write_end_io()
+12d0f81a86fa8e8ae4889c6ec1188d54a5c56588 f2fs: support non-4KB block size without packed_ssa feature
+81259787cd42f39ee7bbd9ba35eb19c8fb519856 f2fs: fix to avoid mapping wrong physical block for swapfile
+347669e42d12d655e51d3e5bf4c5d2218d23ee9a f2fs: optimize f2fs_overwrite_io() for f2fs_iomap_begin
+498ef862110588d43b36dc4345230e9624db8c76 iommu/arm-smmu-qcom: do not register driver in probe()
+c37af351e621e37a1b6020cb4611c8e7f5fe0fc6 USB: serial: option: add Telit FN920C04 RNDIS compositions
+70d06b53d8cec51a15ce2dfefc27a46d4ad674dc f2fs: fix to do sanity check on node footer in __write_node_folio()
+a6a2e56f1a4de7832e5da73f460c8961e7a80454 f2fs: fix to do sanity check on node footer in {read,write}_end_io
+bfeb677476263df97d83e5cd15052591f3d3fb76 Linux 6.18.13-rc1
 
---===============7384912143294257300==--
+--===============3962930379467972756==--
