@@ -1,21 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
-Date: Tue, 17 Feb 2026 18:40:04 -0000
-Message-Id: <177135360482.975141.14447002197272974750@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/fdmanana/linux
+Date: Tue, 17 Feb 2026 18:42:12 -0000
+Message-Id: <177135373249.976345.10046723458033313225@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
-user: vudentz
+repo: pub/scm/linux/kernel/git/fdmanana/linux
+user: fdmanana
 changes:
-  - ref: refs/heads/master
-    old: c53e4c6306b8a212ffb032a04e50cb85bb5b022c
-    new: 003ca042a386599b23d2db62fd1176966841e518
+  - ref: refs/heads/for-next
+    old: 787f57359eda57ee5b07f73fcc948d980595881c
+    new: 0b22d8603f4aa62ee42531cca027a50c71115148
     log: |
-         18f858cee25b70412ec3e9e2f7e33cc6b327b1a5 Bluetooth: btbcm: Add entry for BCM4343A2 UART Bluetooth
-         caa53589f0bd3c3f9f862e025c8f6c7549c8cdfa Bluetooth: Fix CIS host feature condition
-         003ca042a386599b23d2db62fd1176966841e518 Bluetooth: mgmt: Fix race condition in mesh handling
+         c07ed2562090d0cccde059f406ea593428c5aa02 btrfs: fix error message in btrfs_delete_delayed_dir_index()
+         b8f5f5923e2d3c9b8b86f9a003fdcb0fdf2f4891 btrfs: reserve transaction space for qgroup ioctls
+         7c059830f53491b626290f8645c8ea3f046f82a0 btrfs: fix zero size inode with non-zero size after log replay
+         0b22d8603f4aa62ee42531cca027a50c71115148 btrfs: pass a btrfs inode to tree-log.c:fill_inode_item()
          
