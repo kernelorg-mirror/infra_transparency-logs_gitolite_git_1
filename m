@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============6501780205311143023=="
+Content-Type: multipart/mixed; boundary="===============5798550757274501279=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jgg/iommufd
-Date: Tue, 17 Feb 2026 18:37:59 -0000
-Message-Id: <177135347970.969944.2854061730370457670@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/fwctl/fwctl
+Date: Tue, 17 Feb 2026 18:38:17 -0000
+Message-Id: <177135349752.970316.11562223802224417596@gitolite.kernel.org>
 
---===============6501780205311143023==
+--===============5798550757274501279==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jgg/iommufd
+repo: pub/scm/linux/kernel/git/fwctl/fwctl
 user: jgg
 changes:
   - ref: refs/heads/linus
@@ -20,7 +20,7 @@ changes:
     new: d295082ea672e7277388e1cf7c5af73788cf8029
     log: revlist-37a93dd5c49b-d295082ea672.txt
 
---===============6501780205311143023==
+--===============5798550757274501279==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ a5f22b9b139762685810aa5a41fd0181488aea13 Merge tag 'staging-7.0-rc1' of git://gi
 17f8d2009367c3da82882f70ccbdca9f8c7b5f20 Merge tag 'usb-7.0-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/usb
 d295082ea672e7277388e1cf7c5af73788cf8029 Merge tag 'spdx-7.0-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/spdx
 
---===============6501780205311143023==--
+--===============5798550757274501279==--
