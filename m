@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============1401430680949060579=="
+Content-Type: multipart/mixed; boundary="===============7201750219144543964=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/thomas.weissschuh/linux
-Date: Tue, 17 Feb 2026 11:12:14 -0000
-Message-Id: <177132673443.525295.11637516009502975388@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
+Date: Tue, 17 Feb 2026 11:12:24 -0000
+Message-Id: <177132674477.525575.11804796297736268099@gitolite.kernel.org>
 
---===============1401430680949060579==
+--===============7201750219144543964==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/thomas.weissschuh/linux
-user: thomas.weissschuh
+repo: pub/scm/linux/kernel/git/kdave/linux
+user: kdave
 changes:
-  - ref: refs/heads/b4/vdso-compat-checkflags
-    old: 1a699db03cf3a438a7938cc4a050648238e93394
-    new: 38574b5744b8ed48b0cb07503a30d54afee585c6
-    log: revlist-1a699db03cf3-38574b5744b8.txt
+  - ref: refs/heads/master
+    old: 0f2acd3148e0ef42bdacbd477f90e8533f96b2ac
+    new: 9702969978695d9a699a1f34771580cdbb153b33
+    log: revlist-0f2acd3148e0-970296997869.txt
 
---===============1401430680949060579==
+--===============7201750219144543964==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1a699db03cf3-38574b5744b8.txt
+Content-Disposition: attachment; filename=revlist-0f2acd3148e0-970296997869.txt
 
 a035b23b59c54c959cd4b89094aa4c44c6b41383 pinctrl: fix compile test defaults
 255b721c96046d4c57fa2268e4c72607868ce91f pinctrl: mediatek: make devm allocations safer and clearer in mtk_eint_do_init()
@@ -250,14 +250,5 @@ df136764e86e4d271133359e2ecd2b6717cc5040 Revert "clk: microchip: fix typo in ref
 543b9b63394ee67ecf5298fe42cbe65b21a16eac Merge tag 'kernel-7.0-rc1.misc' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
 45a43ac5acc90b8f4835eea92692f620e561a06b Merge tag 'vfs-7.0-rc1.misc.2' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
 9702969978695d9a699a1f34771580cdbb153b33 Merge tag 'slab-for-7.0-part2' of git://git.kernel.org/pub/scm/linux/kernel/git/vbabka/slab
-9ffd61d4b0b811f0d43f170f0bfb3c6273708fd9 vdso: development hacks
-831fd757e8eb683657d81adbd05e08b9426dde39 vDSO: Use 32-bit CHECKFLAGS for compat vDSO
-95ed2e55b9ca26592d7e54c9d1911789f4eb3087 sparc64: vdso: Use 32-bit CHECKFLAGS for compat vDSO
-8487c627bdb205b9ac521b78ea42a54ca24d59b1 x86/vdso: Use 32-bit CHECKFLAGS for compat vDSO
-366b47a7c75f567ae091a0749164bf515ef073d2 s390: Trim includes in linker scripts
-70f3e4a6ce73eb52e992f460a6b457f41766e907 Revert "s390: Trim includes in linker scripts"
-b76c628308c3fb8e9401d085a2839159b38ae726 s390
-11e2057b5c960c1fd685eaef49a8f0d0374e6f93 powerpc/audit: directly include unistd_32.h from compat_audit.c
-38574b5744b8ed48b0cb07503a30d54afee585c6 asm-generic/bitsperlong.h: Add sanity checks for __BITS_PER_LONG
 
---===============1401430680949060579==--
+--===============7201750219144543964==--
