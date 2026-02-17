@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4868938241870036168=="
+Content-Type: multipart/mixed; boundary="===============8871578659108183615=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
 Date: Tue, 17 Feb 2026 14:21:45 -0000
-Message-Id: <177133810543.750183.17459859703470520732@gitolite.kernel.org>
+Message-Id: <177133810585.750274.18394252778239184507@gitolite.kernel.org>
 
---===============4868938241870036168==
+--===============8871578659108183615==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,12 +16,12 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-6.6.y
-    old: 609dd638c2adca8c6d329d25c73c0731e12cc653
-    new: f67de83a8c24f9fbd0f882809bc607d3a8939371
-    log: revlist-609dd638c2ad-f67de83a8c24.txt
+  - ref: refs/heads/linux-5.15.y
+    old: 48c966b111d98d0b09ca900810e75d27199d127b
+    new: 58196192635f13c68ee1ce2d7ff375919448bb89
+    log: revlist-48c966b111d9-58196192635f.txt
 
---===============4868938241870036168==
+--===============8871578659108183615==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -32,64 +32,67 @@ pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1771338102 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
 nonce 1771338102-68d9dfac0cfbe5fbda4dc3df956cdd1e9938077a
 
-609dd638c2adca8c6d329d25c73c0731e12cc653 f67de83a8c24f9fbd0f882809bc607d3a8939371 refs/heads/linux-6.6.y
+48c966b111d98d0b09ca900810e75d27199d127b 58196192635f13c68ee1ce2d7ff375919448bb89 refs/heads/linux-5.15.y
 -----BEGIN PGP SIGNATURE-----
 
 iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmmUeXcbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+KMkP/ji2y9gqG5XUOh1QfK0Y
-of/qbcsQO9riqSgR/rcj+dcTlNS8eSXxQVboLtNSnNWZSHpvlazrpRhV6N8p28VI
-PGwiGqzuO1jd37fMW3kIiWc4MuObHSCpR9NxyjSEX76PfALCoBuA4nTz9H5Sqxbk
-u+aEqBJ4jRgR3wU8KXAvQKPHVoLC60HvRw2gfs1iV18A0ovkPs87bTCeofYvjJi9
-VYspqBJ4dc/D50h4Ib2HIvTMFFRGTcYkzOk1rsP+zfPrj5SyaOlj0JZPzEpEo+cw
-NEHEdssICGY7IuQau0b0PvOeeUodZzVFwKSIIod/yBKPKnfjVjE1l9i6RDQz+XR3
-z3m1xdPLqAQXIquIUapfrEk8AobgjH8exo5pbJIidbTaBKVhSfNdv681FP9kTi5/
-Mn13uq0DMKRq/wixQ1LPnu8zVzZLB9nPOv68/jJPddQHQh+3aejU3pMnnG0TDuw+
-a8xs9y1x6lW583/60rQMsTUO7Di96hsov8burKmxTwAa7lpUw8Ut+7M2RtkLs+OB
-+uz29b1BYn2juJZG2FKYbQ8tcE+e6JIuS7pAH7EAPXAIMrUZ5HsjWMqf90KyBg2k
-/wU/F+IjrR4s1hJ7Jz2kdYo0QBdZXs0wPDe09w2KEuLAduzT+CISMe0eO8ppID7/
-wviD+8Fo5H4u0Ki9bt5X29iK
-=JI8Z
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+dAQP/1lDQtjONzhaBGlZK3W7
+FE2uzMp4jDh56oZYj5f1xMl9cCGGnVfg2nPYQRjw3vexm3IE3sONnVayzcEMcQhX
+IY6x4q4ffWoAQ8Qo+DDwYlKw11yYLL2wSLKumYYzYM3ZmcxzHLXlS7owVkqae68W
+yTbCHVpTd6NVIuXRGePpTVTH7zqp7qanU/mK0ZA5kD6Ztkb1CxHQW9DeHROOiem/
+c42sM5ePA1WwK42iTwRuJ6IvIzc4IghtrbALvovDEqCnhhNK1W5JkRCIjyVw6/pj
+gAO9fitDTBwuESRbsdZ+VQJz8AAnKO6T8bhXAyCqLbg8MlL9OYAunZOhvCugfnsl
+2/B5yIsKW73P4sOrLBgU1j85od2G2T4PdSiQycVZHTr/DvX/ZLPSwZWEhqYetOZr
+S2n4Fsgy91I2NFfFQqxMYv1kpA5JQ9Yq5sgTJmoYU7kwiJPTzBNOfdo1nS+2ofC6
+5GtztBsEenkpfHYikJyhSnATuDh5Z6jaW8C/Yem0kb8F4Q7u9mj5cQ5P8vf+FE+D
+ZCMjvHbYnTUKTutSWHiP3LoL0gsWk+ocxa+AYPx3ZCvgmi2cbySSI0svfBpTYDW0
+X6ft6GuvCrmr2964qdHHRKwapmE3u5Xiq34AE3JKdjftf70ins5kUtFwsQD+9jsF
+qnwjVG/DEt1BJREntdB1UuvC
+=m6v7
 -----END PGP SIGNATURE-----
 
---===============4868938241870036168==
+--===============8871578659108183615==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-609dd638c2ad-f67de83a8c24.txt
+Content-Disposition: attachment; filename=revlist-48c966b111d9-58196192635f.txt
 
-3f1e918dbfc9184043b4ec6847c444d286dca4ce scsi: qla2xxx: Fix bsg_done() causing double free
-72bad5c71aa50683f0581aab3504ca01d208a7a8 PCI: endpoint: Remove unused field in struct pci_epf_group
-c4800a423f511a61cd68212d5e6389653bd51a58 PCI: endpoint: Avoid creating sub-groups asynchronously
-5cc1b2980ad98b03e7d9f8e768dbe27178df3bda bus: fsl-mc: Replace snprintf and sprintf with sysfs_emit in sysfs show functions
-b61e5ad5129bc85d441d08605fd49fd5e8a18f56 bus: fsl-mc: fix use-after-free in driver_override_show()
-bae84eecf83017be3a00b26ac370fd72fca2f515 ALSA: hda/realtek: Fix headset mic for TongFang X6AR55xU
-4ec7fd39dbcfca4c6b550d4d43ec3cca971bd38b ASoC: amd: yc: Add ASUS ExpertBook PM1503CDA to quirks list
-4c941c7d151105db977d0c4afc961964d1078c4f gpio: sprd: Change sprd_gpio lock to raw_spin_lock
-a8f62b64949aff3148ae926583605321ae43717c ALSA: hda/realtek: Add quirk for Inspur S14-G1
-a8f60d5e8362478e8885868b2ad7223176e7c106 ASoC: cs35l45: Corrects ASP_TX5 DAPM widget channel
-0f806aaafc898924b18d009384067f49ad19bd0a romfs: check sb_set_blocksize() return value
-7d299f747b21267cb71b083ae86736903b6d86fe drm/tegra: hdmi: sor: Fix error: variable ‘j’ set but not used
-6553ba0209e084add234a8a84286c1c5a3a23629 platform/x86: classmate-laptop: Add missing NULL pointer checks
-9ae7ea84bbb2eec91e0041af0704abd2e9eb6595 ASoC: Intel: sof_es8336: Add DMI quirk for Huawei BOD-WXX9
-27bcec480f3f48fe524aa2ca30a0ccdfe103d763 ASoC: amd: yc: Add quirk for HP 200 G2a 16
-700520ca84c1b01cd84c0f2a9879594ea70d7e7f platform/x86/amd/pmc: Add quirk for MECHREVO Wujie 15X Pro
-3a3a95c136e3d85c1aa4058420b147bd0cfc6350 platform/x86: panasonic-laptop: Fix sysfs group leak in error path
-46b52f7935c23b964e27ba23bb85375541e506c2 ASoC: cs42l43: Correct handling of 3-pole jack load detection
-af85a4d6c2c5a0f9ab7dfb1443f3db8ab8d327a7 ASoC: fsl_xcvr: fix missing lock in fsl_xcvr_mode_put()
-1b72c996110dc315f376cff45a2c95fb0305fa3a gpiolib: acpi: Fix gpio count with string references
-f0aa8dab8e11166c501c96b3a9512810d77d6490 LoongArch: Add WriteCombine shadow mapping in KASAN
-0c523efed581e34405c4e69248ab52a94d6228f8 LoongArch: Rework KASAN initialization for PTW-enabled systems
-eac08c9b6cb819ff4fa385bd0a1a7fa4fb95dff3 Revert "wireguard: device: enable threaded NAPI"
-64a3c332c27489cb21496c7a68a384d55f393dde mm/hugetlb: fix copy_hugetlb_page_range() to use ->pt_share_count
-250be8ded97206dddec7a938ff96901a40f99760 mm/hugetlb: fix hugetlb_pmd_shared()
-9f0e2b41a1c284d490d7a70bcb687f7e6ec3e3a6 mm/hugetlb: fix two comments related to huge_pmd_unshare()
-fbf3ab5f8301348b9f2567f72823a08e56d59e56 mm/hugetlb: fix excessive IPI broadcasts when unsharing PMD tables using mmu_gather
-7ce060534ded22083fc2f212972ad96c595bd53e cpuset: Fix missing adaptation for cpuset_is_populated
-7801e05273e5a4fe5861bf0e6b69b568b13492ca LoongArch: Add writecombine support for DMW-based ioremap()
-bf8d4f2edfde2264550194c1fb0162b94d4576a8 fbdev: rivafb: fix divide error in nv3_arb()
-396e53a0ad4897d85c70304e9908d4a518f5b2ce fbdev: smscufx: properly copy ioctl memory to kernelspace
-95f041787958181843216823055eada1bc92e75e f2fs: fix to add gc count stat in f2fs_gc_range
-23a7f3665c4a8ffe75dfe4453af7704a1e2ca4e4 f2fs: fix out-of-bounds access in sysfs attribute read/write
-f67de83a8c24f9fbd0f882809bc607d3a8939371 Linux 6.6.127-rc1
+21dbad1297aa9e1f04915447c348af15ef2f035d crypto: octeontx - Fix length check to avoid truncation in ucode_load_store
+5b56dac23109738d38aacd3cd395556e42c5157e crypto: omap - Allocate OMAP_CRYPTO_FORCE_COPY scatterlists correctly
+91691aefbdfe4d26a309d8b7271fa319c41b056a crypto: virtio - Add spinlock protection with virtqueue notification
+a240e9bff0bfe7707a6d160691fbc3103023934e nilfs2: Fix potential block overflow that cause system hang
+301ceff3d8e49226e010f3d61feee78a66058e69 scsi: qla2xxx: Validate sp before freeing associated memory
+f45638e879ca84ff8cddb2b6a038d3a76f8d8b2b scsi: qla2xxx: Delay module unload while fabric scan in progress
+8a2f9928e2dad1ee28b5940b7b2e666cb001070a scsi: qla2xxx: Query FW again before proceeding with login
+82568d311aa5f33fd669caca1b1e80a9e2c04c3b gpio: omap: do not register driver in probe()
+c285875ae9eab6747531ca8bec2a8c3c2f30be72 ALSA: hda/realtek: Fix headset mic for TongFang X6AR55xU
+60df615918c8b5d43fe7e1253b62dc2be34ab26c gpio: sprd: Change sprd_gpio lock to raw_spin_lock
+96fff0f49fb69ab155df294153b782488943c752 romfs: check sb_set_blocksize() return value
+b0571fa43b153c6a590090ca7096e88ec9709f8a drm/tegra: hdmi: sor: Fix error: variable ‘j’ set but not used
+f48f5557b20c1342f102e35a7ffb92a0f5120108 platform/x86: classmate-laptop: Add missing NULL pointer checks
+278ed7d3b65d234673a4c6876c885547b8217090 platform/x86: panasonic-laptop: Fix sysfs group leak in error path
+94b664f0c40522a8a59631fed41f61e7cb4d8fb8 ASoC: fsl_xcvr: fix missing lock in fsl_xcvr_mode_put()
+ec12c3e9fa045f627b5b01210469d8d4e84f6a2f gpiolib: acpi: Fix gpio count with string references
+1c3b3e55a391ed5f8363edbfd33cd73b793e6407 Revert "wireguard: device: enable threaded NAPI"
+33d50c23ce5498dc928685538b9821dbb10f7001 btrfs: fix racy bitfield write in btrfs_clear_space_info_full()
+9d12f797a6a544e544d3fb957065315d426ad82e smb: client: set correct id, uid and cruid for multiuser automounts
+9cb494646aef4677cc9418bc6096096279b3e7d4 net: dsa: free routing table on probe failure
+abca61773117ba0e2068768cac8baa9c5869f051 selftests: mptcp: pm: ensure unknown flags are ignored
+8be5a8d923aeee999263d908f578748cec05b215 mptcp: fix race in mptcp_pm_nl_flush_addrs_doit()
+f6c91a762d2724af0fd96af10e6b229da1bfca3f crypto: virtio - Remove duplicated virtqueue_kick in virtio_crypto_skcipher_crypt_req
+b947cb095e432a7ae880f26e95fe042028a11278 smb: server: fix leak of active_num_conn in ksmbd_tcp_new_connection()
+a3b974c77736f37ad50b17dad2b0555f310fccac bus: fsl-mc: Replace snprintf and sprintf with sysfs_emit in sysfs show functions
+4d31a9d920f79dc870216cdd2877853ede503fe9 bus: fsl-mc: fix use-after-free in driver_override_show()
+08f58450786cb73768b11556d8347193ec919235 scsi: qla2xxx: Fix bsg_done() causing double free
+ad28ae41a9f7bee2fab838733fd4c9fa9763803e scsi: qla2xxx: Use named initializers for port_[d]state_str
+2e41384c5812b6a5d7c07e84154f48174b40fb81 scsi: qla2xxx: Remove dead code (GNN ID)
+e3a746ad92bfb55b4790682343a5643bb6da18d8 scsi: qla2xxx: Reduce fabric scan duplicate code
+2ead23f91deb011ef83d2438b89ea900de797699 scsi: qla2xxx: Free sp in error path to fix system crash
+5849788b1d00d946eb4c08c4f45b4546cd20e274 PCI: endpoint: Automatically create a function specific attributes group
+a896fa0d9d9fa3587d6e52d0ab900f0cf50ea028 PCI: endpoint: Remove unused field in struct pci_epf_group
+20a296fdb6e0a3408936bb4b0c01af1fc86b532b PCI: endpoint: Avoid creating sub-groups asynchronously
+80dbd260405fe21d7b769fea1de366b2e867ef8b fbdev: rivafb: fix divide error in nv3_arb()
+f4369b8a8e0aaf68147f26a47642d51054221680 fbdev: smscufx: properly copy ioctl memory to kernelspace
+58196192635f13c68ee1ce2d7ff375919448bb89 Linux 5.15.201-rc1
 
---===============4868938241870036168==--
+--===============8871578659108183615==--
