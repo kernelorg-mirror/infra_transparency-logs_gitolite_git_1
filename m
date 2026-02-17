@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5711391209824982393=="
+Content-Type: multipart/mixed; boundary="===============8978338932007773827=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Tue, 17 Feb 2026 18:12:18 -0000
-Message-Id: <177135193864.946365.9503926030161939603@gitolite.kernel.org>
+Date: Tue, 17 Feb 2026 18:12:25 -0000
+Message-Id: <177135194580.946671.6186285044846369987@gitolite.kernel.org>
 
---===============5711391209824982393==
+--===============8978338932007773827==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,70 +16,85 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-5.10.y
-    old: af6b1c6398f344e5971c8363dc112f5254c92cbe
-    new: e99d2cedf68c74583b2d2a076a3d5821ea1cc2ef
-    log: revlist-af6b1c6398f3-e99d2cedf68c.txt
+  - ref: refs/heads/linux-5.15.y
+    old: df701149db6b72e0ad20b48a41b0fa7bfb19d0f9
+    new: 04bcf843e6340d6b70520b9d998233ff96582154
+    log: revlist-df701149db6b-04bcf843e634.txt
 
---===============5711391209824982393==
+--===============8978338932007773827==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1771351936 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1771351943 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1771351932-457b5e7449f00e5ab5f9960224390d1921c724e0
+nonce 1771351936-c1f9902e0c0c20f98898ae5e369045c84e94fdae
 
-af6b1c6398f344e5971c8363dc112f5254c92cbe e99d2cedf68c74583b2d2a076a3d5821ea1cc2ef refs/heads/linux-5.10.y
+df701149db6b72e0ad20b48a41b0fa7bfb19d0f9 04bcf843e6340d6b70520b9d998233ff96582154 refs/heads/linux-5.15.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmmUr4AbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+yycP/2vRigrxsrxOjKM0lyTq
-Z1O6FJ5+vHxsNJGZJ/1cG+f1o9LzAwf7hw+fBEKe7udCma54GhqkyoenivgovjT5
-c9xET52/mb7QNF0aTF5zDVWAHjoZZVUGtHNZJlgI4GvaSR9a6VczM9NyZIZ06BRv
-gxuT061L/E8fd61XhQj3cF2TgaBJ45J+GCM1ehh0JS48ZNrGUgJiRdA/n0eI9KjJ
-1h5932ypoMk2d7RU2R+YM1do19QMyStiNBFa5Nbxn9YstRj+HgQ10TFjq2LttFuA
-uUcn6kXDjjAtJnKGX5YUnarR0dxs4fkHJYN9IhQ0JgTVHxBAx8xL8dQUcw1WAJvj
-vOaKBBlqa+l8JjRnAunSsvuQwQrTzB4aeoVXtwvXNxxVv6kiIH2eeqiYrwfbGkX5
-oKBSsJHw7yJBnVe1q43oXF054sc6G34bQ4TTm48mEjZlTHOPGSDRxnkfRpi2w37T
-4IIv7kwfY2UGWB0drpQRANgaxC6dMhBNmQ1wUSD4fiI2IdfGi+LOJqJDtIg+Lk/O
-RlD2z+N75DarEq4jNDXQOGgyNJCNjE3WQz2slo4lSlSTLklOJmnY8wJFJgdkbhdr
-Ra1BTceiNU42V4ICM1D+vzr15ez7GtkxCwHntG0LH5unQFiE1L0g7NLP0iW8DNFf
-a0Sa9YLcOK8A1NMvwVE0zvzT
-=V49f
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmmUr4cbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+GhsQAJrGilZE08Qs131/gmTF
+qlaUm3n7UbaGlMcPrbOUv+LaHzrXfKwF3Sq943+M1/flumfOcZdNsuYKI4xQoAsD
+5x6/6d7UPlcsyZWKmpuKevfxWOu6CP0qYuQkvRVDA+AOly3cE2oUHn/IymNRX6G7
+ON6SoVMxDFYi7zvOE+tyBBiwvpoaOEiAWTcz6VS4ua5D4yOTCF6OF+xcN02v+yQc
+J2xp+en6b8X7uz2UQi1L35tnKZiRM4cQgWLZXA3NdhCI+2YmJesRpWxfVwqaw4uT
+WKGbvKDmvnuU4K73HxL1Amh+BkcfksEeO3cQq7Llo6vsp9LVn28HMzJFHFBQa9Cz
+gzrgxhlX8ewJDgFKyNTK3K7S/QSieSTSSg+Br8SyScwj1ylOv+qOKvfojDbpxMyL
+l4AfWW8kPWmqSCYamkGuag5ZHBkRxbfZMjE5iGpVI5hjidCqZWaI6dDW2kt15gam
+CU04jocmFHkmKCkl8QBeki2U+4xJEjJzuPaAmID+R3fMnGQPh8TOHChIdk/y8jRR
+D7DWO1xqYb1CGTTziuSRaqlIQpjnwGSGUSWllkQZCVF+C/k+7s4kusZoRH0dCQOY
+p3cOwCN/Wz2i5Yj2/AscpsZoEjXByEbfEcg6qUUU8tg8bCb5Tt0KCZK03aXjRZCG
+perY0gpBM3uAZNzdZId06Vcw
+=j/Gf
 -----END PGP SIGNATURE-----
 
---===============5711391209824982393==
+--===============8978338932007773827==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-af6b1c6398f3-e99d2cedf68c.txt
+Content-Disposition: attachment; filename=revlist-df701149db6b-04bcf843e634.txt
 
-1e7a63b11ce7de2a47538ee407080312bfcf3a3c crypto: octeontx - Fix length check to avoid truncation in ucode_load_store
-1a0a2612a98adece18033241639f08bf8c78d88f crypto: omap - Allocate OMAP_CRYPTO_FORCE_COPY scatterlists correctly
-73e0a1ffbf5b6856a5ab0f6f8d21e02c5531fb28 crypto: virtio - Add spinlock protection with virtqueue notification
-a9e6270e79d22c333a8a9df576ee456f7af9a763 nilfs2: Fix potential block overflow that cause system hang
-18a4b38f2ed8ebd26f575093a870deab5ea477d1 scsi: qla2xxx: Delay module unload while fabric scan in progress
-b72a1beded9c60623aa73656d84962586ae3a9ae scsi: qla2xxx: Query FW again before proceeding with login
-68d5588636d02b5db3a202cd0fd5437011cd42f2 gpio: omap: do not register driver in probe()
-c19e8c465c2e8d7198fc2db0a9f4a940917527d2 ALSA: hda/realtek: Fix headset mic for TongFang X6AR55xU
-e93cd5108ba5832bf5dbfb049a146dd2f5805ee3 gpio: sprd: Change sprd_gpio lock to raw_spin_lock
-bb60022af8f4b5636f8232b4840fa2a81e34e8ef romfs: check sb_set_blocksize() return value
-b7fcc25d9b65cbb0ce2e6a7611994bef5c23b1d5 drm/tegra: hdmi: sor: Fix error: variable ‘j’ set but not used
-59757c80be05fd7b392e40b485d558e515b0e037 platform/x86: classmate-laptop: Add missing NULL pointer checks
-fafcd1c09a275ce799192c9066ce18f81b04776f gpiolib: acpi: Fix gpio count with string references
-8224babbfbf258771f65cd15bc05ef904c38d4c8 fs: dlm: fix invalid derefence of sb_lvbptr
-f55dfaf0f5ca778594191dfa15600b3dc25ef98f selftests: mptcp: pm: ensure unknown flags are ignored
-be640558717f6e8b3b7d15bdb7d46d6a680fcebb crypto: virtio - Remove duplicated virtqueue_kick in virtio_crypto_skcipher_crypt_req
-75c5068436a84d9109b4f0570f17e42d2b8da837 scsi: qla2xxx: Validate sp before freeing associated memory
-d712be8adb26302dc999e7c182de0d7d825bb67f scsi: qla2xxx: Free sp in error path to fix system crash
-2463029988ad058990565efc0f912fbf0b7bc1eb scsi: qla2xxx: Fix bsg_done() causing double free
-53b13fefe096d214ab23657af3e44ee10d1933bd fbdev: rivafb: fix divide error in nv3_arb()
-e94cced0b7c05435fc9bd4479c715fe5193127e8 fbdev: smscufx: properly copy ioctl memory to kernelspace
-e342466cb934d6152a04ea5fbab4a1df89acce2d f2fs: fix out-of-bounds access in sysfs attribute read/write
-c8739d2358a25f76be923c6ccd6a4f2ee9ab65a7 f2fs: fix to avoid UAF in f2fs_write_end_io()
-e99d2cedf68c74583b2d2a076a3d5821ea1cc2ef Linux 5.10.251-rc1
+4903ca7e6ece4153b470e09e975130aa8b048772 crypto: octeontx - Fix length check to avoid truncation in ucode_load_store
+7022259111e25f07ca1dbeab87a1ace310ac6ddb crypto: omap - Allocate OMAP_CRYPTO_FORCE_COPY scatterlists correctly
+9b9fdb2927ab449275cef414e30e720208051bd8 crypto: virtio - Add spinlock protection with virtqueue notification
+5ae7463c7ac4723b0aafbd804052a1f5ff538f41 nilfs2: Fix potential block overflow that cause system hang
+ba3545c69e59279203d778186ea131b9cb759565 scsi: qla2xxx: Validate sp before freeing associated memory
+87f88b3537fe2458f36ab739c2f1c015bd4cc9ab scsi: qla2xxx: Delay module unload while fabric scan in progress
+6bec27ef063d5ebaec3e1a70f6dd185e89020348 scsi: qla2xxx: Query FW again before proceeding with login
+818de84a1df7411a917f27cdf47dbcb79c817010 gpio: omap: do not register driver in probe()
+11271ebb30659297e2b60ca68e63575be35a004e ALSA: hda/realtek: Fix headset mic for TongFang X6AR55xU
+26d4446a78cfabee427a8cefe331a066e150b783 gpio: sprd: Change sprd_gpio lock to raw_spin_lock
+50b6f659a73327903bdd63e393f592aaa06a48ec romfs: check sb_set_blocksize() return value
+84942087640abceb0558fbd5eec55a5fd654a19e drm/tegra: hdmi: sor: Fix error: variable ‘j’ set but not used
+9647e664ea81e6b1f140784bbc9d811bf7be1726 platform/x86: classmate-laptop: Add missing NULL pointer checks
+91ff53705582d295ad3c8aba08242e3ae2c7a57f platform/x86: panasonic-laptop: Fix sysfs group leak in error path
+166cacc090c4a04f7f407ce1aa8f8068c73d6cd4 ASoC: fsl_xcvr: fix missing lock in fsl_xcvr_mode_put()
+05d3c0619016351357bae904be06f85c55ef5318 gpiolib: acpi: Fix gpio count with string references
+0a410009d4bb8a0c79bd6a6e05006bcc97bbde7b Revert "wireguard: device: enable threaded NAPI"
+83d500bd0b51520a1bdf79da2c9e7d0e12ad1594 btrfs: fix racy bitfield write in btrfs_clear_space_info_full()
+1b4f9cb7bb5c3945d9619d65be28f18eba920a05 smb: client: set correct id, uid and cruid for multiuser automounts
+580752e67cee8078e46ae341063f6cea803ef2a0 net: dsa: free routing table on probe failure
+cb270dedc6f5f174e9178ca837daf1175288b46c selftests: mptcp: pm: ensure unknown flags are ignored
+2812cb0c26bfd4736f3a90baa7fb583d82c412ec mptcp: fix race in mptcp_pm_nl_flush_addrs_doit()
+04330995eb5e9a7500f1f0fb8059bd837419c99b crypto: virtio - Remove duplicated virtqueue_kick in virtio_crypto_skcipher_crypt_req
+f6596db215a2cab61f77e94851b1f791bb0c8d1b smb: server: fix leak of active_num_conn in ksmbd_tcp_new_connection()
+48efb7f68976c8d44f53ad14aaca5ac20b84edb9 bus: fsl-mc: Replace snprintf and sprintf with sysfs_emit in sysfs show functions
+576aed6cfb36fcf1b8dbd917ff6a0beca3810a4d bus: fsl-mc: fix use-after-free in driver_override_show()
+80c18ba92aaacd0c0dc685a559c733805bbdd312 scsi: qla2xxx: Fix bsg_done() causing double free
+df5319954f2d37f1d60aa669d2f2e3516aad2d44 scsi: qla2xxx: Use named initializers for port_[d]state_str
+e31b5c0a61a098d7dd2e193294041ad057b6db1d scsi: qla2xxx: Remove dead code (GNN ID)
+36a24be30d7072cb76e14bb116bc18fd66cc89bd scsi: qla2xxx: Reduce fabric scan duplicate code
+a1bbb7a0fe0655f32ff0c0f50e1cdb7c4cdc4da2 scsi: qla2xxx: Free sp in error path to fix system crash
+dd49cfc0607f157615b1cff832893cdb6b1add34 PCI: endpoint: Automatically create a function specific attributes group
+d4be3702d523795f5a587067ab7c59ad4e75b060 PCI: endpoint: Remove unused field in struct pci_epf_group
+d4e4be588a04d9e2a6a41a74f9201a2a1ca7226c PCI: endpoint: Avoid creating sub-groups asynchronously
+ba9c285bb1cbee5f5b9bc3933bcbd8fe61bf8ba6 fbdev: rivafb: fix divide error in nv3_arb()
+2b0c34a229ab0e9df1caa395964c2d95ef63e881 fbdev: smscufx: properly copy ioctl memory to kernelspace
+6d02813b8da2756aae817b14ef0ea5bcd955f174 f2fs: fix to avoid UAF in f2fs_write_end_io()
+400515873fad3a9d7933a734b6b1e2aeb13bff2f f2fs: fix out-of-bounds access in sysfs attribute read/write
+04bcf843e6340d6b70520b9d998233ff96582154 Linux 5.15.201-rc1
 
---===============5711391209824982393==--
+--===============8978338932007773827==--
