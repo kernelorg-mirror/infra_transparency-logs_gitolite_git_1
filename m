@@ -1,29 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Tue, 17 Feb 2026 19:52:31 -0000
-Message-Id: <177135795128.1037605.6944022543530468565@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/wsa/linux
+Date: Tue, 17 Feb 2026 19:56:28 -0000
+Message-Id: <177135818834.1041525.5066312127777375582@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-user: jarkko
+repo: pub/scm/linux/kernel/git/wsa/linux
+user: wsa
 changes:
-  - ref: refs/heads/container
-    old: a54483fce513246021a9bacb257d80ed05c54244
-    new: f2cb04785ffcad8da91f2dd18140132afc92ea2d
+  - ref: refs/heads/renesas/x5h/mfis-single-driver-experimental
+    old: bac448e73889f45b4394424259feecd4d55f3b82
+    new: dfee8ccad94fbe8357b8a96ae2c97170434677d4
     log: |
-         f166bce24c8c4441d6eaa7ff30bbf67ea3b2bee5 containers: Implement container_create()
-         0e7a5f3b278d006dd51215103b4fc3b4e8d608a8 containers: Implement container_wait()
-         3b0a8aefe4c3051747cf09d270b40a6ea0923160 containers: Implement container_kill()
-         48b9eb9245135676a62a79e983b39bcdbc0f3231 containers: Implement container_fork()
-         f5fb83d00455cc1826992230096fcb38fc4f51d4 net: Pass netns into __sys_socket
-         14f742ab9082f1b684600a18fc1bf0e85c42d8d3 containers: Make fsopen() able to create a superblock in a container
-         d774315f7d010995acfef401515cb82a70b6cf9b containers, vfs: Implement CONTAINER_NS_FS
-         48f1730fd064517898d3f674182fe71bc3f821f3 vfs: Allow mounting to other namespaces
-         264ccc7d42c1b050963bdb8a5f937d308a34d54a security: Add container LSM hooks
-         372647c0f321594c55e28bb70be7df9aabfe0ba6 MAINTAINERS: Add entry for CONTAINER NAMESPACE
-         f2cb04785ffcad8da91f2dd18140132afc92ea2d containers: kselftest
+         512e65d6c5e520e2f21013ff997d009032fc4462 DTSI changes
+         fc35a7fd699b6c7314946557f7536b7360cd0a1b DTS updates
+         36c3e1221841552d72defdc098aab2ff5a40914a remove counting channels
+         57f1b32082126f5387f8646f5bf6c40cff721fc3 WIP
+         6ded84d9f4ad598fefd65a8db3154482cdc90604 DTS mailbox test
+         dfee8ccad94fbe8357b8a96ae2c97170434677d4 mailbox: test: really ignore optional memory resources
          
