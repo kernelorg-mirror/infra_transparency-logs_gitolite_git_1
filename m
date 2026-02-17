@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3454625436060990042=="
+Content-Type: multipart/mixed; boundary="===============2506302640125509659=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Tue, 17 Feb 2026 12:38:57 -0000
-Message-Id: <177133193771.599184.11152474198540192591@gitolite.kernel.org>
+Date: Tue, 17 Feb 2026 12:39:19 -0000
+Message-Id: <177133195912.599618.8849781765404037999@gitolite.kernel.org>
 
---===============3454625436060990042==
+--===============2506302640125509659==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,15 +16,24 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: a8e9487dc32341a7822f0715efdd15e9af34c870
-    new: 6b69d8b1c9e76f9e5139d1be6d8efe19c7957954
-    log: revlist-a8e9487dc323-6b69d8b1c9e7.txt
+    old: 6b69d8b1c9e76f9e5139d1be6d8efe19c7957954
+    new: 2fe00f8997b6dac7a4d15119319c342e825ab80e
+    log: |
+         2c96f2d7d38ca5bb4a18204f07370cc705c06b6e Merge branch into tip/master: 'irq/urgent'
+         39b5cf220fc6df3ea97b890db2d9d277cb0bfcc1 Merge branch into tip/master: 'timers/urgent'
+         1ede02dfc53ae2a80bdfff6c0188e087519b2de9 Merge branch into tip/master: 'core/debugobjects'
+         2fe00f8997b6dac7a4d15119319c342e825ab80e Merge branch into tip/master: 'locking/futex'
+         
+  - ref: refs/heads/tip/urgent
+    old: 7217e54db5a4af07ab57e7e7c1b7df0a980b55bb
+    new: 39b5cf220fc6df3ea97b890db2d9d277cb0bfcc1
+    log: revlist-7217e54db5a4-39b5cf220fc6.txt
 
---===============3454625436060990042==
+--===============2506302640125509659==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a8e9487dc323-6b69d8b1c9e7.txt
+Content-Disposition: attachment; filename=revlist-7217e54db5a4-39b5cf220fc6.txt
 
 fc94368bcee555b2cc44c2f4e7c4fcbb50404cd3 fs/file: optimize close_range() complexity from O(N) to O(Sparse)
 9396bfdacb5aa2bcb3d2242b0de527e7d4f8a3cd fs: reset read-only fsflags together with xflags
@@ -58,7 +67,7 @@ c4d6d7829817f762dfdce829ffd0c14ea3bad7fe mm/slab: allow freeing kmalloc_nolock()
 1072020685f4b81f6efad3b412cdae0bd62bb043 irqchip/sifive-plic: Fix frozen interrupt due to affinity setting
 ce9e40a9a5e5cff0b1b0d2fa582b3d71a8ce68e8 irqchip/gic-v3-its: Limit number of per-device MSIs to the range the ITS supports
 f0617176be5e497b67b3c87bac35b26ebccac499 irqchip/mmp: Make icu_irq_chip variable static const
-dc02d9474a16cbfe0b0664d1767f86f764a3274f Merge branch 'linus'
-6b69d8b1c9e76f9e5139d1be6d8efe19c7957954 Merge branch into tip/master: 'irq/urgent'
+2c96f2d7d38ca5bb4a18204f07370cc705c06b6e Merge branch into tip/master: 'irq/urgent'
+39b5cf220fc6df3ea97b890db2d9d277cb0bfcc1 Merge branch into tip/master: 'timers/urgent'
 
---===============3454625436060990042==--
+--===============2506302640125509659==--
