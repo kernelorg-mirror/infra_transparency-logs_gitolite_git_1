@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2780758061012548196=="
+Content-Type: multipart/mixed; boundary="===============1981855123150993031=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Wed, 18 Feb 2026 06:21:44 -0000
-Message-Id: <177139570451.1659374.10854969141062216775@gitolite.kernel.org>
+Date: Wed, 18 Feb 2026 06:21:54 -0000
+Message-Id: <177139571451.1659650.7087412549632195591@gitolite.kernel.org>
 
---===============2780758061012548196==
+--===============1981855123150993031==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,42 @@ repo: pub/scm/linux/kernel/git/gregkh/staging
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/staging-next
+  - ref: refs/heads/staging-testing
     old: 319e3ff5ed7bc16a9932423159b1665418a1a9a0
     new: 2961f841b025fb234860bac26dfb7fa7cb0fb122
     log: revlist-319e3ff5ed7b-2961f841b025.txt
 
---===============2780758061012548196==
+--===============1981855123150993031==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1771395703 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1771395713 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1771395699-4f94a71696cc51d0000ffe7cad5aca86e28baed2
+nonce 1771395709-aedceb92c354232eabd2c181288ba03c4f51e8aa
 
-319e3ff5ed7bc16a9932423159b1665418a1a9a0 2961f841b025fb234860bac26dfb7fa7cb0fb122 refs/heads/staging-next
+319e3ff5ed7bc16a9932423159b1665418a1a9a0 2961f841b025fb234860bac26dfb7fa7cb0fb122 refs/heads/staging-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmmVWncbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+YVEP/02yyrHDxaAOSGi+dva9
-Pz6pnVEeb1EtlHOACYEXhU852zQx+nfd2wG6m7nvQmUo+iE0m/FYACorkX8O+PAx
-CkozCA+9WdPbjd+tCOQJQe4Et3XKO/gu7UX/+HJj/r7lOQrxHXmOX9Bcd25Ws2u8
-cLd4PFvHDJGnP5JGShKUdm7muZZihzx5oV74qxzgCfC5bxKo1YUiJyO0kRxyhu38
-eIUNz6rlpKT+PLwpHalYNyIMBN/AQDguVmnixRkjf8z3r+OiMPjCu6cut1bhn89U
-VP8org2VZSMh7gHpHeito7TwHYmXtQy27D1Z6WGX+H/EXbRX3P4DB0KHSRTOXm3Q
-l6wGQ3QSKYPfzMj2Q+abuTlKH+XmumJMYQIm5fZGYM9bWbynhE4stsjxaEZvFE4I
-EYlkaO7SG3UZ3t7kh4SeXqFUXkI8vlN0w9HzHgeru1xfS4IwcveNBG8Ko6maGGla
-LdWQV7Oa6taOiIH7PDjMPS6yDKy9N5C5tbTGR0oskmNgFUAEjwL0+lWNNpq6ltnu
-YO/ZReE9Z2q3Xe5mAZfFe1l+WW5/+T35s85fDUV3rv30SMYkLdiS9x7VEzXLB7u4
-IR9CwdG+CWKwymNa9TP4aJRRjCMSypauZ9+Zqia/a0Gf1HcT8mIMEalF/odC3aGz
-ORwpHnOz4rJTjKB71b665HxB
-=rlc4
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmmVWoEbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+0k0P/2FL867Gj1Jld3BsjiJc
+lJtfJkFlOGkCtLT4X526mCgp4WL8vGwlKXRwSYve6D217Vxz44DMnq2UaXE7c57P
+Pp9WAmCp7Erce0DmQo1fz6ilauBkbAJO4Rs8lFqqHwR5N4Btjgq4Xlbz7MeuQjSJ
+cO66Wagm5eUoN/9AfBeP+dJPAvBxoVvvsapEWY5aiVwkY3Rmms+I/pC6fSsoM4ds
+YfkVLpbM/di/AE1ttiAWjxcb++hxpMbJWBlhFT/cbY8rIcH/E878aOvaomrdUFEq
+fAipAnrnLwxSKK2CEOtG7kZe/4/ogZ9XNfMPZQ4s918NM/VyJsIf5Juw5gAGgLph
+LfoAy6S2HChOOX3wgXQV4Kerr4exj0bGyC6+R8I9pS8G2D4A9xMx2A3UxRXSA3hV
+FG+WaYJq9KnGoRJgfzDbq4hnudMI5b0aIlDeE/AmuCUqnayahMGNOzS9gHg9qlTc
+IgIRa43EXhR3sbxV0lqmrqTg5QsarJkbMG9GlC4ZOACORIlxh1QxW8kNpcFvqHza
+OIkQCPG+D+8tHKJaxOhlwAZYZtzmcbUOqfDIZmKt9C34jLepgir0vKB68+pXFiz/
+DYjEzi8Sld2r+tUejpuvoWcp6C6X0cnY+0Fp6tdUKcluQNQUrP5LEv8VW2GzIora
+QZVaCGGzby0YheBshlRSRWSF
+=wK2f
 -----END PGP SIGNATURE-----
 
---===============2780758061012548196==
+--===============1981855123150993031==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -1082,4 +1082,4 @@ e81dd54f62c753dd423d1a9b62481a1c599fb975 Merge tag 'dmaengine-7.0-rc1' of git://
 75a452d31ba697fc986609dd4905294e07687992 Merge tag 'ntfs3_for_7.0' of https://github.com/Paragon-Software-Group/linux-ntfs3
 2961f841b025fb234860bac26dfb7fa7cb0fb122 Merge tag 'turbostat-2026.02.14' of git://git.kernel.org/pub/scm/linux/kernel/git/lenb/linux
 
---===============2780758061012548196==--
+--===============1981855123150993031==--
