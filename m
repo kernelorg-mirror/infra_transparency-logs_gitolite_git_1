@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============3781818760481686339=="
+Content-Type: multipart/mixed; boundary="===============7070016417323999773=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pcmoore/selinux
-Date: Wed, 18 Feb 2026 16:18:22 -0000
-Message-Id: <177143150208.2137842.18272600050897902197@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pcmoore/audit
+Date: Wed, 18 Feb 2026 16:18:27 -0000
+Message-Id: <177143150747.2138070.9648966831475116993@gitolite.kernel.org>
 
---===============3781818760481686339==
+--===============7070016417323999773==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pcmoore/selinux
+repo: pub/scm/linux/kernel/git/pcmoore/audit
 user: pcmoore
 changes:
   - ref: refs/heads/main
-    old: 17684514ed025c6a8e4f7b512989036c706227cb
-    new: 2328a929690810e1df788ae83d3513ae78680f4f
-    log: revlist-17684514ed02-2328a9296908.txt
+    old: aa64b2f9dfff3be0c10a81403fd12240d48d3cd5
+    new: 8aed2ef1cfeedf4115cd0d3367d02c7e85b62253
+    log: revlist-aa64b2f9dfff-8aed2ef1cfee.txt
 
---===============3781818760481686339==
+--===============7070016417323999773==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-17684514ed02-2328a9296908.txt
+Content-Disposition: attachment; filename=revlist-aa64b2f9dfff-8aed2ef1cfee.txt
 
 f93fc5d12d69012788f82151bee55fce937e1432 net: octeon_ep_vf: fix free_irq dev_id mismatch in IRQ rollback
 8f334e35220721f65180bc2e0fe9187436c2c475 ACPI: PM: s2idle: Add missing checks to acpi_s2idle_begin_lps0()
@@ -1049,6 +1049,6 @@ b0e7d3f88e563b5ca793fca23c7d7fa1352c1079 Merge tag 'char-misc-6.19-final' of git
 e7aa57247700733e52a8e2e4dee6a52c2a76de02 Merge tag 'spi-fix-v6.19-rc8' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/spi
 e98f34af61167aee238e666bfbc97d1620afd88a Merge tag 'i2c-for-6.19-final' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
 05f7e89ab9731565d8a62e3b5d1ec206485eeb0b Linux 6.19
-2328a929690810e1df788ae83d3513ae78680f4f selinux: add a SELinux specific README.md and SECURITY.md
+8aed2ef1cfeedf4115cd0d3367d02c7e85b62253 audit: add a Linux Audit specific README.md and SECURITY.md
 
---===============3781818760481686339==--
+--===============7070016417323999773==--
