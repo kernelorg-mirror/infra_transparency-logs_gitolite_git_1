@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
-Date: Wed, 18 Feb 2026 09:57:02 -0000
-Message-Id: <177140862253.1833554.7695904585042014733@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xen/tip
+Date: Wed, 18 Feb 2026 10:20:42 -0000
+Message-Id: <177141004250.1852304.12045776554510286860@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/brgl/linux
-user: brgl
+repo: pub/scm/linux/kernel/git/xen/tip
+user: jgross
 changes:
-  - ref: refs/heads/gpio/for-current
-    old: 6766f59012301f1bf3f46c6e7149caca45d92309
-    new: fbd03587ba732c612b8a569d1cf5bed72bd3a27c
+  - ref: refs/heads/linux-next
+    old: c307b6dc9c4f68d00524ec10899cdf21466b5c1e
+    new: 5043d7ed39dfdce3107d6642aa31bb7736547104
     log: |
-         fbd03587ba732c612b8a569d1cf5bed72bd3a27c gpio: amd-fch: ionly return allowed values from amd_fch_gpio_get()
+         5043d7ed39dfdce3107d6642aa31bb7736547104 x86/xen: Fix Xen PV guest boot
          
