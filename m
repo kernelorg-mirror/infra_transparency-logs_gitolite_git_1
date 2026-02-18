@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6909575197181097283=="
+Content-Type: multipart/mixed; boundary="===============8690327010245334016=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mptcp/linux
-Date: Wed, 18 Feb 2026 12:03:31 -0000
-Message-Id: <177141621163.1931479.18352304894286804609@gitolite.kernel.org>
+Date: Wed, 18 Feb 2026 12:04:03 -0000
+Message-Id: <177141624321.1931884.9116681729858015678@gitolite.kernel.org>
 
---===============6909575197181097283==
+--===============8690327010245334016==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/mptcp/linux
 user: matttbe
 changes:
-  - ref: refs/heads/export
-    old: c22747e83300f73ee470dc1fc0c1a201cdef0e51
-    new: 556d709b7114ccb3e58cf81f3ba3c7aa20b72543
-    log: revlist-c22747e83300-556d709b7114.txt
+  - ref: refs/heads/export-net
+    old: d8b476dcafa197a8e66cf6e87f2441848269af0a
+    new: f6884874f5a698212aec0e139577ef7996107cb5
+    log: revlist-d8b476dcafa1-f6884874f5a6.txt
 
---===============6909575197181097283==
+--===============8690327010245334016==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c22747e83300-556d709b7114.txt
+Content-Disposition: attachment; filename=revlist-d8b476dcafa1-f6884874f5a6.txt
 
 93686c472eb7b09a51b97a096449e7092fefcd1f ovpn: set sk_user_data before overriding callbacks
 a5ec7baa44ea3a1d6aa0ca31c0ad82edf9affe41 ovpn: fix possible use-after-free in ovpn_net_xmit
@@ -62,35 +62,13 @@ ffe68c3766997d82e9ccaf1cdbd47eba269c4aa2 net: ethernet: ec_bhf: Fix dma_free_coh
 a07c33c6f2fc693bf9c67514fcc15d9d417f390d vsock: document namespace mode sysctls
 be054cc66f739a9ba615dba9012a07fab8e7dd6f net/sched: act_skbedit: fix divide-by-zero in tcf_skbedit_hash()
 ccd8e87748ad083047d6c8544c5809b7f96cc8df eth: fbnic: Add validation for MTU changes
-005d2252fc023c0f402648da7186b5ca78e7f87a DO-NOT-MERGE: git markup: net
-8fe4c02ec05f93cc5a9a81fccb1e1cdd362e1908 DO-NOT-MERGE: git markup: fixes other trees
-61aa54306b678cec971a1a73a0ee763b29da8f33 DO-NOT-MERGE: git markup: fixes net
-9bb7502a92cc2f8ee3db4041420a0136c15baf81 DO-NOT-MERGE: mptcp: add CI support
-9bf2b3e093c11dd4d23a9d2fd561511dea474f4b DO-NOT-MERGE: git markup: end common net net-next
-bf6fadc0a1a346f16f311fa5b0038e2476fbb9fc TopGit-driven merge of branches:
-79a8e8ff555838f21adfe8a26d79c1a1eca8b363 DO-NOT-MERGE: git markup: net-next
-ce9d2bc46346e743426b25420346b85c44a33f36 DO-NOT-MERGE: git markup: fixes net-next
-86d159b23aa3c0ab67d72bf2be4210ac2341f4c7 mptcp: pm: init and release mptcp_pm_ops
-ff898bf2283f9975a7cafe9d6d2bbc929932d39c mptcp: pm: add get_local_id() interface
-74124bbc85477018d166abf64db0b561d290d21d mptcp: pm: add get_priority() interface
-fba386b55744ef044e6c6bd586aef63aeffebd2f TMP-FIX: mark some simult flows tests as flaky
-c2e3f1aa48c65b44a8fcc818fd04c62bbc077a26 mptcp: better mptcp-level RTT estimator
-345edfca620939f28dff094709c25bc46859a5e2 mptcp: add receive queue awareness in tcp_rcv_space_adjust()
-2165b0c304735eaf9026e6202cab0d068115125c DO-NOT-MERGE: git markup: features net-next
-69d31bb2c5add39480e21dd66f5072038198bc34 DO-NOT-MERGE: git markup: features net-next-next
-205503f2c061af5bbd9bfdafd7f4796b860b75f6 bpf: Add mptcp_subflow bpf_iter
-579c5b956eb404b1b85e4842a54e7f6a48c3c1a9 selftests/bpf: More endpoints for endpoint_init
-b2ab70cdc42d422f47c5261742e3273ddfd950ba selftests/bpf: Drop cgroup_fd of run_mptcpify
-88f3d73b14a77f7e81aa739162c14a5bf852f7ad bpf: Add mptcp packet scheduler struct_ops
-ca9c9e998f96ea1886788816bc246cd9f09bead2 bpf: Export mptcp packet scheduler helpers
-772cafa963bfd1d87d5bc3e9856f573d01758370 selftests/bpf: Add bpf scheduler test
-f4c561e9f98d9350e1e8c83cb2ba4ea06f9f717f selftests/bpf: Add bpf_first scheduler & test
-6ddd9ac65eead0cc1461ac7b0556972b5f365d10 selftests/bpf: Add bpf_bkup scheduler & test
-624d2248e989364dececf793ef33c30db391bc0a selftests/bpf: Add bpf_rr scheduler & test
-87b0b051d4b0fe8d501991690817751fc5685ecc selftests/bpf: Add bpf_red scheduler & test
-f6fb4fe0fae7d3b4efa32935b55ab787549d7d33 selftests/bpf: Add bpf_burst scheduler & test
-042e3606f421d29d3eb6c233b5b8bfe1cb6ebbe7 DO-NOT-MERGE: git markup: features other trees
-ed3d9cc80899439a1310e5d4efb4891d6f053419 DO-NOT-MERGE: mptcp: improve code coverage for CI
-556d709b7114ccb3e58cf81f3ba3c7aa20b72543 DO-NOT-MERGE: mptcp: enabled by default
+a094ccaf8a2328cbd0efc2fc4ea69918c5f973e5 DO-NOT-MERGE: git markup: net
+b63dd470d4c84dbbc0431e1915775866a8df0171 DO-NOT-MERGE: git markup: fixes other trees
+8284330998bc8566120cd519b499943b5a1971c9 DO-NOT-MERGE: git markup: fixes net
+8b16a17bda7c41d1c8df9a7da1344bf9a3514f67 DO-NOT-MERGE: mptcp: add CI support
+5c88a70b7fb91c265757a29e83ceb5d45357ef18 DO-NOT-MERGE: git markup: end common net net-next
+5484abf9b5a5da16604ea2c4d350235995ebd316 DO-NOT-MERGE: git markup: fixes net only
+5dd7cb07b71320284537e38e248ef846c698bec7 DO-NOT-MERGE: mptcp: improve code coverage for CI (net)
+f6884874f5a698212aec0e139577ef7996107cb5 DO-NOT-MERGE: mptcp: enabled by default (net)
 
---===============6909575197181097283==--
+--===============8690327010245334016==--
