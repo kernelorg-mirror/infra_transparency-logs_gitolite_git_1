@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6915973759548283402=="
+Content-Type: multipart/mixed; boundary="===============1221429837562246540=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/shemminger/iproute2
-Date: Wed, 18 Feb 2026 15:38:15 -0000
-Message-Id: <177142909554.2105882.12360086596727781628@gitolite.kernel.org>
+Date: Wed, 18 Feb 2026 15:39:49 -0000
+Message-Id: <177142918971.2106582.10816941191904585177@gitolite.kernel.org>
 
---===============6915973759548283402==
+--===============1221429837562246540==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,41 +16,38 @@ repo: pub/scm/linux/kernel/git/shemminger/iproute2
 user: shemminger
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: 9f13435a4837343aa9d9c19328bc13d038635cf9
-    new: dac1bc6021693902b25a961227e289791e429b91
-    log: |
-         dac1bc6021693902b25a961227e289791e429b91 v6.19.0
-         
+  - ref: refs/tags/v6.19.0
+    old: 0000000000000000000000000000000000000000
+    new: 1c3fb363807eab47b37da6b4151f34223b65e8e7
 
---===============6915973759548283402==
+--===============1221429837562246540==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Stephen Hemminger <stephen@networkplumber.org> 1771429095 -0800
+pusher Stephen Hemminger <stephen@networkplumber.org> 1771429189 -0800
 pushee gitolite.kernel.org:pub/scm/linux/kernel/git/shemminger/iproute2.git
-nonce 1771429095-5d67974eb07c1a0506327f4e21f910fca3add437
+nonce 1771429189-f84f19a32a0cfb00d769621c343095852892c62a
 
-9f13435a4837343aa9d9c19328bc13d038635cf9 dac1bc6021693902b25a961227e289791e429b91 refs/heads/main
+0000000000000000000000000000000000000000 1c3fb363807eab47b37da6b4151f34223b65e8e7 refs/tags/v6.19.0
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCAA5FiEEn2/DRbBb5+dmuDyPgKd/YJXN5H4FAmmV3OcbHHN0ZXBoZW5A
-bmV0d29ya3BsdW1iZXIub3JnAAoJEICnf2CVzeR+y7kP/1dnQwVP5ctGf6Z//Xj7
-CKBvIH5/24ncK3iArV3PnLhULQc2w9+sAawsbrI0e13PlSFdIK8RwsraHAtDegcl
-jS6CTbcVrI9O+/7r/f6T6WwH/xvvFzfbBdZjiW5cM31f2Ixm/ZvXJ/7NYwIcGaJu
-GEOrFOm1S8oAzyK1TlWbfZOGXO7TKmI2brGxkZvlRgqMRukAHPoFQw3Vgkkxnfr2
-1dJeCrfIFWD0QyJwI1Jza0aRDFNXxLUXB1eL6ScTbV/JTP59r8IJbNAw75X+SlCX
-Kzd76xZPQ3kcpVcDt2pmMY91/1ewkf3tojS8SejOTqh333QlxcQUo9yaj8v8T5p8
-BEnjZf68dC52MpNplO0bz4PG5/ynGWUO9p8uaTPTaEA3a8jNlCL6D8n96ciYJeTd
-zk3QQnELf36UZ1O5QWzPZhJn1dMqEoxAOFWYbh57mx++X91K4lZbljRV+WWvcv3A
-pUTCoPo3BkU5onBqke+zsLQSlXrzSqj7VHw2SZtgJsRGfouCJ5n7wPJ7x6TwsTXg
-2cHlApHYRGhr/gUYuAwL3r/5wLjm64zSIEe8TecObJzdbqthCe0vrRXDOI1BHjJY
-9CJ+4XvNFlnLKx9+DM+hnsrnkBCEOFcdlwKL04EYeG+Vy+dAWapsdqjC88YPbASC
-3oPfwHws/WON9xwJC/wga84s
-=vSu1
+iQJPBAABCAA5FiEEn2/DRbBb5+dmuDyPgKd/YJXN5H4FAmmV3UUbHHN0ZXBoZW5A
+bmV0d29ya3BsdW1iZXIub3JnAAoJEICnf2CVzeR+vuEP/R0vngzn90+XZ2mIGaml
++ClH8HhzO3+eRS0cmoFXGyz5w/dsHyRV3qs4EB9NyMAEBtIkaNjtfmuzSoJxCGDt
+yRFu1pvWd6iYayzLm8t4nQ5VEAgXZaHQ+OC/MCCShtuXxHgO7eKfaYqpsviN6Ofz
+JAoTNX41MBHFPS/unlGgDNrEUGGigjlS1dnleMd60Gl8AqRPeTlMlZdv5uLY2biG
+GGEFKbJ1NJeQIZga+M3AaJiJZMdWuTqsOMU0irRFOpGMQldsBHS8SbmPvcZLkzCs
+TBFd5Jd4oUAbuKe7SCVJtCgraaqANPhD8ieL1ltWctnD/4WgPiigFKltWBZbtU/0
+9mmZhy+YWZsMuskNPXzM2yNqRSFWeIUSRHes8c3p2Yu703NH8ZF4eozHJjTnR+Df
+R2ev80lIWnfAIecNuHBnIzK28KCE3azXuEuEY4bIlSJw6UG8d6lfKD1T7EW0my14
+E81Ldkbo821l7QG7kETou5gIMMSnF1gsinXiP6EF09RsZj+4WYJZHqu6X2Od2ur3
+Pt+9/4F7rXoP21RrrZycpgWjxu76z99I4p64GG/xAwpMX/YzJrd/OyrurM4Vqsi8
+NltLpEiMnKJY+O8e+UcaQybWjilAwOX7X/zaxDzpn3upUSFx9VW3j0876suIUeOn
+rAvCs5dcnzXe7v/JxxIoGwby
+=ox9v
 -----END PGP SIGNATURE-----
 
---===============6915973759548283402==--
+--===============1221429837562246540==--
