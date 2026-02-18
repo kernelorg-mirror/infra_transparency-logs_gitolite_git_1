@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7034841641273747228=="
+Content-Type: multipart/mixed; boundary="===============1024278835061521108=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/chanwoo/extcon
-Date: Wed, 18 Feb 2026 01:26:20 -0000
-Message-Id: <177137798066.1313317.8718146852978206762@gitolite.kernel.org>
+Date: Wed, 18 Feb 2026 01:26:31 -0000
+Message-Id: <177137799193.1313590.7632763134013680024@gitolite.kernel.org>
 
---===============7034841641273747228==
+--===============1024278835061521108==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,24 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/chanwoo/extcon
 user: chanwoo
 changes:
-  - ref: refs/heads/extcon-fixes
-    old: 05f7e89ab9731565d8a62e3b5d1ec206485eeb0b
-    new: 2961f841b025fb234860bac26dfb7fa7cb0fb122
-    log: revlist-05f7e89ab973-2961f841b025.txt
+  - ref: refs/heads/extcon-next
+    old: 5f6df0e289dba98bc4f10e201c2eba354dea0fea
+    new: d56589ed99146eb2754bbde783e66c95d78f185b
+    log: revlist-5f6df0e289db-d56589ed9914.txt
 
---===============7034841641273747228==
+--===============1024278835061521108==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-05f7e89ab973-2961f841b025.txt
+Content-Disposition: attachment; filename=revlist-5f6df0e289db-d56589ed9914.txt
 
-a2c86aa621c22f2a7e26c654f936d65cfff0aa91 bpf: Require frozen map for calculating map hash
-4d1e3e2c404dc30e039d81ba7396c8bb82ade991 ASoC: cs35l56: Support for reading speaker ID from on-chip GPIOs
-9bca0f05cea49ad11b464672ccdf6efd6a814a45 ASoC: cs35l56-shared: KUnit tests for onchip speaker ID gpios
-6f220440399afba29165e0597fa2c3aa836191d7 ASoC: cs35l56: KUnit tests for parsing and using onchip GPIOs
-e411d74cc5ba290f85d0dd5e4d1df8f1d6d975d2 gfs2: fiemap page fault fix
-d323769d64f21865ea2a9132aea0da7c6badc479 net: stmmac: rk: introduce flags indicating support for RGMII/RMII
-a9d4aff670eda7ab76a35d509d3586f253ea0e5f net: stmmac: rk: replace empty set_to_rmii() with supports_rmii
 f365541bf7b6a32759c32c047df4ea80ff1cab86 net: stmmac: rk: rk3328: gmac2phy only supports RMII
 d7d92037cbd82ac6581ef9c97f14d2432f921fba net: stmmac: rk: rk3528: gmac0 only supports RMII
 5c1fc7cb81dfed0c84ae19b1022d8ca977bd6f5d net: stmmac: rk: use rk_encode_wm16() for clock selection
@@ -1050,5 +1043,12 @@ e81dd54f62c753dd423d1a9b62481a1c599fb975 Merge tag 'dmaengine-7.0-rc1' of git://
 87a367f1bffadf1db5def15bd0cd2148acd057ad Merge tag 'ceph-for-7.0-rc1' of https://github.com/ceph/ceph-client
 75a452d31ba697fc986609dd4905294e07687992 Merge tag 'ntfs3_for_7.0' of https://github.com/Paragon-Software-Group/linux-ntfs3
 2961f841b025fb234860bac26dfb7fa7cb0fb122 Merge tag 'turbostat-2026.02.14' of git://git.kernel.org/pub/scm/linux/kernel/git/lenb/linux
+e3f5060c4668bd9f6a5ae390485db6b0d5619a68 extcon: ptn5150: handle pending IRQ events during system resume
+4bc8f49734e3fbc804b952e664d29110996f9c6a extcon: int3496: replace use of system_wq with system_percpu_wq
+f482fc6db0f7b000b92cb7a2c389ffde776527c1 extcon: Fixed sysfs duplicate filename issue
+ee95c3a87301e623295a89d2575c142932ef9495 dt-bindings: extcon: ptn5150: Allow "connector" node to present
+b41b5db4028c55196b21c34957303ad82b7df286 extcon: ptn5150: Add Type-C orientation switch support
+9d43dd30d3c91fa3a7828127cc31fa1b796638fb extcon: ptn5150: Support USB role switch via connector fwnode
+d56589ed99146eb2754bbde783e66c95d78f185b extcon: usbc-tusb320: Make typec-power-opmode optional
 
---===============7034841641273747228==--
+--===============1024278835061521108==--
