@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
-Date: Wed, 18 Feb 2026 17:55:38 -0000
-Message-Id: <177143733841.2218844.6391440651320183233@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
+Date: Wed, 18 Feb 2026 18:05:35 -0000
+Message-Id: <177143793586.2226283.9826114660741010541@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pci/pci
-user: helgaas
+repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
+user: paulmck
 changes:
-  - ref: refs/heads/for-linus
-    old: e5f72cb9cea599dc9f5a9b80a33560a1d06f01cc
-    new: a7b3343bbb57a2487254765714167900b5371c41
+  - ref: refs/heads/dev
+    old: 3c3d6cf3d1b70c0efbd1597a23a80b3662c4ca12
+    new: ee48914cfa6efd3d0366a2d5ccbfcb5848fc1584
     log: |
-         a7b3343bbb57a2487254765714167900b5371c41 PCI: endpoint: pci-epf-test: Select configfs
+         ee48914cfa6efd3d0366a2d5ccbfcb5848fc1584 stop_machine: Fix the documentation for a NULL cpus argument
          
