@@ -1,23 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/devel/pahole/pahole
-Date: Wed, 18 Feb 2026 16:52:16 -0000
-Message-Id: <177143353644.2166610.15984779117931933240@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/fdmanana/linux
+Date: Wed, 18 Feb 2026 16:58:56 -0000
+Message-Id: <177143393698.2171142.16635341860806752372@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/devel/pahole/pahole
-user: almagui
+repo: pub/scm/linux/kernel/git/fdmanana/linux
+user: fdmanana
 changes:
-  - ref: refs/heads/next
-    old: b30d6f3fa152be08e8ee9b2a81e971138b5ba62f
-    new: faaa3f1a6e97d669baa6917873e31e921e7480b6
+  - ref: refs/heads/for-next
+    old: 0b22d8603f4aa62ee42531cca027a50c71115148
+    new: f4267e2d75ae6d1cf5a88b86616ff27ed08e2469
     log: |
-         109e5e4554f663e5f12fb634bc54cceb710aec61 dwarf_loader/btf_encoder: Detect reordered parameters
-         c4685c364d5abc272e801ce041026b27c687b00d btf_encoder: Add true_signature feature support for "."-suffixed functions
-         fbd82a534ccd9b9191f3a54e3061c1bdc6a658d8 test: add gcc true signature test
-         67adc83b342ce9a8f6bbd53771603436397ed2bb man-pages: document true_signature btf_feature
-         faaa3f1a6e97d669baa6917873e31e921e7480b6 btf_encoder: Prefer strong function definitions for BTF generation
+         481ca8dcbba1b44717307918cd062d5c37f1161b btrfs: reserve transaction space for qgroup ioctls
+         260203fac3aba988330d02d064a229af7c840678 btrfs: fix zero size inode with non-zero size after log replay
+         527297d4d1ec79969367eec3b33e119e519426e1 btrfs: pass a btrfs inode to tree-log.c:fill_inode_item()
+         f4267e2d75ae6d1cf5a88b86616ff27ed08e2469 btrfs: avoid unnecessary root node COW during snapshotting
          
