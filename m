@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5930530615456749999=="
+Content-Type: multipart/mixed; boundary="===============4040686714255550976=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Wed, 18 Feb 2026 05:28:14 -0000
-Message-Id: <177139249461.1563213.556620761484530632@gitolite.kernel.org>
+Date: Wed, 18 Feb 2026 05:28:19 -0000
+Message-Id: <177139249921.1563361.8798129001030886630@gitolite.kernel.org>
 
---===============5930530615456749999==
+--===============4040686714255550976==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,47 +16,49 @@ repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/usb-linus
-    old: 24d479d26b25bce5faea3ddd9fa8f3a6c3129ea7
+  - ref: refs/heads/usb-next
+    old: da87d45b195148d670ab995367d52aa9e8a9a1fa
     new: 2961f841b025fb234860bac26dfb7fa7cb0fb122
-    log: revlist-24d479d26b25-2961f841b025.txt
+    log: revlist-da87d45b1951-2961f841b025.txt
 
---===============5930530615456749999==
+--===============4040686714255550976==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1771392493 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1771392497 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1771392492-4533880e5d3408a3786e40c09e7eb8b6ab75d430
+nonce 1771392497-1fbc390256ebd33876387843590fcd334cf6bb3f
 
-24d479d26b25bce5faea3ddd9fa8f3a6c3129ea7 2961f841b025fb234860bac26dfb7fa7cb0fb122 refs/heads/usb-linus
+da87d45b195148d670ab995367d52aa9e8a9a1fa 2961f841b025fb234860bac26dfb7fa7cb0fb122 refs/heads/usb-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmmVTe0bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+MBUP/0Ps7ZmB2mJ5+X2F9HfS
-DceVY2dsa8lwMscoIp9Y+blSokuZk+x3cNd44s0y5k2jfoHtbS4VH1VDAuAGwNJz
-NSdypAQ2S7tpVgGiQjZp/KGGwscmOCT3fs98/VVj9cveVZkDfQtGqm0Bqz0PQp7y
-8DvNpijAuMqUTG/FItQ7VGY6PD4Qvry8xDP/OW/y6H7/IDlnEW32653G42z0++Xq
-oiSgBS10gGrUfj6/oErQiySSpx/KiReXsZ015oRR1w7ppcBeEsZ0y5n71sOjqW+O
-0fevKbs0iQiimZisofZH9+PuTP5N9JLuI90mKeiPNIqnaIOVe9ByzzsxQ0k8+Pgc
-1OfbyirDou7I2IwoHa12jdC2EQBZSaPZ1nT3x3+eqJY/EivfpSYtBfFjwlN1IN9m
-UCmz+8yCMZbC78GSNveJyTpzawsyzeWBoc+NYKQEpKUk98HGxpz0D8pVCuEJZ1hF
-10H24fB9dAPNlx//KmPba2ZxG83pYpzctBhkTPWvWLqxCeJ9XobAOTVwOOjjy+2d
-60N8bW8Iysnu6fD18r+dN9BO/tWH79xlJJ3zifEDPd57vpWYFIxZmoLFUWPHZ17Y
-2FDMP9LBDbvjz0cZ52zImm18PaxvYQE7SHfo6nKgnOQ3npNrqZYoEfnB0fVarTal
-5baIDEuqLKfcxw4Pos5Zz+u6
-=5Xwx
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmmVTfIbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+CzsP/3PNpOlA54AZW2FxWSB0
+C4/h/lTHbH81DHVpw+XeV3zHEU2ob25LXxaWEV4LfVz0GRjHn0GyhDLKPH7Hmm4n
+B+of57wc+YbsAjlyFtGmNaF/EHdeCdHAdi8SQVjjgRAOakg6PWGSAYIfr4+kCzYg
++bTZ5jBz7aa3aAkzkNQeGxPzERtOC2OifAmKLU9vFS8nkxHuEu3nmlvs9ORfxuOl
+tYrn1ca1vlCLTejMJonKxMZsCEhPH1Az+lb6pbNCK3cNa8JpZ3fxkTeTxaUVq4pi
+Uxcvy4HlRiwWN7w5XKXTSzb0/cnV6AKYQxF9grpvM358PGLjoo1T9sYvi9EeHqNG
+t93Feis2oDwT/+4lk4LGvkyxwrkfBmFjPPdP5zjFoJ/V7UMPRhKl070xVUz8AV9c
+5ydDeS3WIP0ynzgfRhlneGw/BFUP8MZVuydlxO4+YyQcX2jfzlD29dc845DSpi/O
+CyeZ0Ej+zLVerv3PYCQqDdPlb977Gcgp7X/jzgvo5fvYrPkOG/2+ElrVbhE87CdT
+eNNhobPmjsdvnwTAhVUO0BqtZcxWDrun8jqraZ65W8FKluo9x+4EtUCa3ni98BAI
+RPMqwJ736HPPCtB0gG/twdyOKe3o0lc/7KubcE031PUfv6zHkmJTFhP+bcbbYD/4
+JAeRNeHK5840c3en7rBuC8yO
+=hWNL
 -----END PGP SIGNATURE-----
 
---===============5930530615456749999==
+--===============4040686714255550976==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-24d479d26b25-2961f841b025.txt
+Content-Disposition: attachment; filename=revlist-da87d45b1951-2961f841b025.txt
 
+730b0af2748a74528e0ad25f2bcd3272e96db10a ASoC: rockchip: spdif: Use dev_err_probe
+72bcc223032cb71e640e466eb644537e369959a5 ASoC: rockchip: spdif: Improve sample rate support
 7bdde9a2fd6577e18cd99e4f0e71e466ba626e77 ASoC: rockchip: spdif: Swap PCM and DAI component registration order
 298082783a0d6d07109f8ce09ab410a1de12876d ASoC: rockchip: spdif: Add support for set mclk rate
 c43ec509019842c0b836e858dc486c216b51b087 ASoC: rockchip: spdif: Add support for format S32_LE
@@ -114,7 +116,6 @@ b07829d546c83134629591f02c5348d57cea0c1e vsnprintf: drop __printf() attributes o
 98e99fc4ad4b30dd28c09ba19686ec583af345b4 slub: let need_slab_obj_exts() return false if SLAB_NO_OBJ_EXT is set
 02f9d76a76adb5ea16b4e3b403496c42033f8fd1 iommu/vt-d: Treat PAGE_SNOOP and PWSNP separately
 ad095636604604b3574c1920260b1360c25ced6f Merge branches 'fixes', 'arm/smmu/updates', 'intel/vt-d', 'amd/amd-vi' and 'core' into next
-b3f9d6e491fda73c319547881b78cdd2a222b293 usb: typec: hd3ss3220: Check if regulator needs to be switched
 90f7520b76fab89852287d78ed7919a647c68c1d crypto: ccp - Add sysfs attribute for boot integrity
 f7ab71f178d56447e5efb55b65436feb68662f8f KVM: s390: Add explicit padding to struct kvm_s390_keyop
 3cd3059af122faa3cc58dddacbc86d46e654c757 hwrng: optee - simplify OP-TEE context match
@@ -161,7 +162,6 @@ d844152d85cfcc7d2ef9430a25882604c12da279 sparc: remove unused variable strtab
 6c7860aa28b81b7e909b8d2072ed76fa22db6eda mtd: spi-nor: hisi-sfc: fix refcounting bug in hisi_spi_nor_register_all()
 9fd99788f3e5a129908c242bb29946077ca46611 io_uring: add task fork hook
 ed82f35b926b2e505c14b7006473614b8f58b4f4 io_uring: allow registration of per-task restrictions
-da87d45b195148d670ab995367d52aa9e8a9a1fa usb: typec: ucsi: Add Thunderbolt alternate mode support
 379a5aad4e8ce7bd0b1600c03ae0c9a28f66a183 Revert "selftests: revocable: Add kselftest cases"
 7149ce34dd48886b3f69153c7f5533dd3fd5f47e Revert "revocable: Add Kunit test cases"
 21bab791346e5b7902a04709231c0642ff6d69bc Revert "revocable: Revocable resource management"
@@ -1082,4 +1082,4 @@ e81dd54f62c753dd423d1a9b62481a1c599fb975 Merge tag 'dmaengine-7.0-rc1' of git://
 75a452d31ba697fc986609dd4905294e07687992 Merge tag 'ntfs3_for_7.0' of https://github.com/Paragon-Software-Group/linux-ntfs3
 2961f841b025fb234860bac26dfb7fa7cb0fb122 Merge tag 'turbostat-2026.02.14' of git://git.kernel.org/pub/scm/linux/kernel/git/lenb/linux
 
---===============5930530615456749999==--
+--===============4040686714255550976==--
