@@ -1,16 +1,27 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Wed, 18 Feb 2026 23:41:02 -0000
-Message-Id: <177145806233.2493160.11316439365359659682@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Wed, 18 Feb 2026 23:47:41 -0000
+Message-Id: <177145846165.2497532.2591483290007678551@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
-user: broonie
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
-  - ref: refs/tags/asoc-fix-v7.0-merge-window
-    old: 0000000000000000000000000000000000000000
-    new: f5d938a9779a204b6cc58bb249cf67262404969d
+  - ref: refs/heads/master
+    old: fa2827e72cfcfac683e2e3ab355a0dbc97d52522
+    new: 956b9cbd7f156c8672dac94a00de3c6a0939c692
+    log: |
+         df989b01b5f97dae8f9869cfacbda1308f2182c1 Merge 7.0 Kbuild changes into kbuild-fixes
+         68b4fe32d73789dea23e356f468de67c8367ef8f kbuild: Add objtool to top-level clean target
+         be55899b71630c79ad01df54c92e467e47644f87 kbuild: Fix CC_CAN_LINK detection
+         59f18d88d96e87e8c1faa171904dae43b19729db scripts/make_fit.py: Drop explicit LZMA parallel compression
+         6d6b8b0e28c468263d7fcb071e5cb284ae343df2 kbuild: rpm-pkg: Restrict manual debug package creation
+         ffe9ac1ad56df8f915896b97bd7645f522c47ce9 kernel: rpm-pkg: Restore find-debuginfo.sh approach to -debuginfo package
+         afdfb71c018e9a0aa2e51fb8186d3fb1acdd3f0e kbuild: rpm-pkg: Fix manual debuginfo generation when using .src.rpm
+         f94711255a73d8938cf3bb405a0af3a4d2700ed1 kbuild: rpm-pkg: Disable automatic requires for manual debuginfo package
+         956b9cbd7f156c8672dac94a00de3c6a0939c692 Merge tag 'kbuild-fixes-7.0-1' of git://git.kernel.org/pub/scm/linux/kernel/git/kbuild/linux
+         
