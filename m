@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0214104636351069693=="
+Content-Type: multipart/mixed; boundary="===============5302774018852227669=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Wed, 18 Feb 2026 20:27:49 -0000
-Message-Id: <177144646905.2335147.6357781653193511396@gitolite.kernel.org>
+Date: Wed, 18 Feb 2026 20:28:31 -0000
+Message-Id: <177144651180.2335672.14208559173815603976@gitolite.kernel.org>
 
---===============0214104636351069693==
+--===============5302774018852227669==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,15 +16,24 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: 37377960acd1599922e985406c37c40a1d3c25dc
-    new: a2b82dfb66e9d0da9cc7d3c011ae9c93ec8327c4
-    log: revlist-37377960acd1-a2b82dfb66e9.txt
+    old: a2b82dfb66e9d0da9cc7d3c011ae9c93ec8327c4
+    new: c8b6237049860adbf093ab6f864f7db50066aeb0
+    log: |
+         484e1751e0bbb105fba8a401e920f0d2f5afea98 Merge branch into tip/master: 'irq/urgent'
+         27bcdfdd6c2c99b49f767493dd05285581649b01 Merge branch into tip/master: 'timers/urgent'
+         e5af92d723cefecac0d681ee96743e268dda8afd Merge branch into tip/master: 'core/debugobjects'
+         c8b6237049860adbf093ab6f864f7db50066aeb0 Merge branch into tip/master: 'locking/futex'
+         
+  - ref: refs/heads/tip/urgent
+    old: 27788b9eacbaa73a4dd59a0a0e7697d897f5135b
+    new: 27bcdfdd6c2c99b49f767493dd05285581649b01
+    log: revlist-27788b9eacba-27bcdfdd6c2c.txt
 
---===============0214104636351069693==
+--===============5302774018852227669==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-37377960acd1-a2b82dfb66e9.txt
+Content-Disposition: attachment; filename=revlist-27788b9eacba-27bcdfdd6c2c.txt
 
 486401052432f1ba1628e1eed59b3e6bfb07b5c1 sysctl: Add missing kernel-doc for proc_dointvec_conv
 b22d81fb683f22304f017b1b1674e6937bdd6d49 alloc_tag: move memory_allocation_profiling_sysctls into .rodata
@@ -40,6 +49,7 @@ d174174c6776a340f5c25aab1ac47a2dd950f380 sysctl: replace SYSCTL_INT_CONV_CUSTOM 
 ef0e60083f768b32cda17b1b0ca9519405db89a6 tools/power turbostat: Fix AMD RAPL regression
 7ad54bbbc9c512ba3bc90e4368264bcf15c25759 Merge tag 'turbostat-2026.02.14-AMD-RAPL-fix' of git://git.kernel.org/pub/scm/linux/kernel/git/lenb/linux
 23b0f90ba871f096474e1c27c3d14f455189d2d9 Merge tag 'sysctl-7.00-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/sysctl/sysctl
-a2b82dfb66e9d0da9cc7d3c011ae9c93ec8327c4 Merge branch 'linus'
+484e1751e0bbb105fba8a401e920f0d2f5afea98 Merge branch into tip/master: 'irq/urgent'
+27bcdfdd6c2c99b49f767493dd05285581649b01 Merge branch into tip/master: 'timers/urgent'
 
---===============0214104636351069693==--
+--===============5302774018852227669==--
