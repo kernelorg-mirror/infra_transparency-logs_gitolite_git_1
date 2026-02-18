@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4436094293134523313=="
+Content-Type: multipart/mixed; boundary="===============0017660093861285628=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Wed, 18 Feb 2026 02:45:12 -0000
-Message-Id: <177138271297.1381360.15345096524240618513@gitolite.kernel.org>
+Date: Wed, 18 Feb 2026 02:45:36 -0000
+Message-Id: <177138273617.1381612.13693683415850881956@gitolite.kernel.org>
 
---===============4436094293134523313==
+--===============0017660093861285628==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,9 +16,9 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-staging
-    old: c74abfe787e556a9bd6832347e63031d4101b87c
-    new: 518d7b67d7355a3cd9a2461d2dabf5a94ac9b0d9
+  - ref: refs/heads/7.0/scsi-staging
+    old: 1982257570b84dc33753d536dd969fd357a014e9
+    new: 97af85787c1964a7e7b146c5d4e021f089af47ea
     log: |
          bffda93a51b40afd67c11bf558dc5aae83ca0943 scsi: lpfc: Properly set WC for DPP mapping
          57297736c08233987e5d29ce6584c6ca2a831b12 scsi: storvsc: Fix scheduling while atomic on PREEMPT_RT
@@ -31,33 +31,33 @@ changes:
          97af85787c1964a7e7b146c5d4e021f089af47ea scsi: snic: MAINTAINERS: Update snic maintainers
          
 
---===============4436094293134523313==
+--===============0017660093861285628==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1771382678 -0500
+pusher 75C5DE3D 1771382716 -0500
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1771382677-154166f253585850ee7aab1a4841414678b69645
+nonce 1771382715-eeb86037e1c6ec5ddf162891de800ad3f6833d4f
 
-c74abfe787e556a9bd6832347e63031d4101b87c 518d7b67d7355a3cd9a2461d2dabf5a94ac9b0d9 refs/tags/mkp-scsi-staging
+1982257570b84dc33753d536dd969fd357a014e9 97af85787c1964a7e7b146c5d4e021f089af47ea refs/heads/7.0/scsi-staging
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmmVJ5YACgkQ7ulgGnXF
-3j2Q1RAApXXYw4VK8YlxYggm2OAafRAqF+2ik9e96Fla/xnj2HoNRhim2brZTBxW
-zpYrGxK1ug/N8VmGPf8sHBYVqbFUUR/alzuPqBiv2Vjo6QduSXdQmFZ8W1PaH45q
-0S4NcJoFJqIfWe6NDBditop0WFt7kETriLpRs9HShiJSGMi+gLkSmWVWmcgvIb56
-J6sTe0iIzFic4hiFgAh/cOoxkFlC1YSyAjfKNxB9qoKGQwPrbNUHZsQmVlDLVakK
-on6enx0tNVHhqKLhEg8goVFt+pU0y3Uc3HEHUudRlEV2S2iipHDZUAqc9YWMeILv
-nz4uRh/r85rZGFXfMvr2F6uiqq2TpUX6oyRyJ3jFGeBTupW+hIy79spPe0qY1yKZ
-4bssWsp9Hb3m4V4ImF2Irwwn1yAzPCwLdBTjIQMF6Pnd3elkhHqNRS537ERusea/
-FvuuL91jD/6iv8SVZH99SnAizPBwwR2X/impHd1sbsPgKhzvu5gnGJZz6gHcMxUm
-m0sL8Jkb0FS5GwCIFn3/3I4yAtkTgOqtl0kBsiquYBdsXDFGtgHb8iquDI0+pljZ
-al3vCNWeMdBocGd3uvN+CW7NUcElJ16yfsCaGEjvSZoActyHmaNe2/ut2/zayzMi
-0IrHL9F4jnsfYKFc0dw2PDPfi5qzJCsNKQsOdKLYyZCsgZrWzJ4=
-=2EeA
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmmVJ7wACgkQ7ulgGnXF
+3j1Qug//Vnal0w0gN+Iduezr4/t5mEBwJS/QMtYpKzxqNxSo9HTdd3L5wPaFMjYI
+/D8uKtJOmZMDk9dqjaVN7m1tQUyLQ0xxN4tsxzjRrJ7IcwM+5MpneYh8VPpOR8AT
+n06SnHj+2zscD/v/bJleF/TEnlg47Gw8xSTe7iKUd29WGtHVVuRcnfcxCZOKYqfd
+EE2W85CzB53buoKKHli1zesQW++wmTsyeoC2zODa7LH6QhXhyn1gOiYz5SfNPs/8
+XkjbAnZacsMF/me14PQr41nD68wsWpRZW+kd/CyUtTM3+Y/8dRNDTnDfBGCj8KZE
+PgIgqC4Ea8xHiASNnKNmWENw4Qkfp2hjliZUZrXmY5b6PJRWc1o980IUkucinS+F
+1ZYjrTu7p1DOt9HtKzfxNgW8UWkim5C9G0Rbxiw/Uyn2IsTosJF8Z/tIMOBQlOSK
+g3IpggaorgCeHDxSw6coPbDyA4plnAevz1pWadirT2De+6uY5K0ha8Ab9Y1jJ1iE
+HYEOQqDujHJdmGmIpH7XjvAM0NFcZIoY/saqA1Fi4OKK3OxbB+HAYkTDTMapNnxk
+eFK20gwlGQ5MYY8Hew+AzD8qggQI3na+2r31uOvDiXyukysW3ZtiSJ+oPw6ovAOX
+46OlJ6GYG2afarfSP+3uqXziI7/j/JdX7s+DixPDN5xZpVOezy4=
+=iPcK
 -----END PGP SIGNATURE-----
 
---===============4436094293134523313==--
+--===============0017660093861285628==--
