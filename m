@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8362177346223783298=="
+Content-Type: multipart/mixed; boundary="===============8541796197763925306=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Wed, 18 Feb 2026 20:59:08 -0000
-Message-Id: <177144834800.2361940.14187100590094261030@gitolite.kernel.org>
+Date: Wed, 18 Feb 2026 20:59:10 -0000
+Message-Id: <177144835030.2362029.16454158722609583100@gitolite.kernel.org>
 
---===============8362177346223783298==
+--===============8541796197763925306==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
+  - ref: refs/heads/10GbE
     old: 77c5e3fdd2793f478e6fdae55c9ea85b21d06f8f
     new: ccd8e87748ad083047d6c8544c5809b7f96cc8df
     log: revlist-77c5e3fdd279-ccd8e87748ad.txt
 
---===============8362177346223783298==
+--===============8541796197763925306==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -40,4 +40,4 @@ a07c33c6f2fc693bf9c67514fcc15d9d417f390d vsock: document namespace mode sysctls
 be054cc66f739a9ba615dba9012a07fab8e7dd6f net/sched: act_skbedit: fix divide-by-zero in tcf_skbedit_hash()
 ccd8e87748ad083047d6c8544c5809b7f96cc8df eth: fbnic: Add validation for MTU changes
 
---===============8362177346223783298==--
+--===============8541796197763925306==--
