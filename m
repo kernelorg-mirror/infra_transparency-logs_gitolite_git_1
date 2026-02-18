@@ -1,44 +1,23 @@
-Content-Type: multipart/mixed; boundary="===============8747962566553232923=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Wed, 18 Feb 2026 19:04:02 -0000
-Message-Id: <177144144279.2269141.12901355614768274609@gitolite.kernel.org>
-
---===============8747962566553232923==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/zohar/linux-integrity
+Date: Wed, 18 Feb 2026 19:13:49 -0000
+Message-Id: <177144202924.2276997.16550303373918251179@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/zohar/linux-integrity
+user: zohar
 changes:
-  - ref: refs/heads/master
-    old: 2961f841b025fb234860bac26dfb7fa7cb0fb122
-    new: 23b0f90ba871f096474e1c27c3d14f455189d2d9
-    log: revlist-2961f841b025-23b0f90ba871.txt
-
---===============8747962566553232923==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2961f841b025-23b0f90ba871.txt
-
-486401052432f1ba1628e1eed59b3e6bfb07b5c1 sysctl: Add missing kernel-doc for proc_dointvec_conv
-b22d81fb683f22304f017b1b1674e6937bdd6d49 alloc_tag: move memory_allocation_profiling_sysctls into .rodata
-a2564d0688db20a1ee1660f45d7823075feb12a7 loadpin: Implement custom proc_handler for enforce
-f7386f545e49e5e6229a14d92b39340d155b0b3f sysctl: Remove unused ctl_table forward declarations
-11400f86c28eaeb8d0cc22fef3f16fdd87d46214 sysctl: Return -ENOSYS from proc_douintvec_conv when CONFIG_PROC_SYSCTL=n
-ac3d6a4b60ef1b26b29517d35ca28966142fc65e sysctl: clarify proc_douintvec_minmax doc
-6036dc03c39a3cb0df14899f29323b6b4b58dfe9 sysctl: Add CONFIG_PROC_SYSCTL guards for converter macros
-8fc344a5af7e73178e6ac54d396327655e9ea358 sysctl: Replace UINT converter macros with functions
-b3af263b8a83f2ed033ae83fe008004b061b84f4 sysctl: Add kernel doc to proc_douintvec_conv
-ef153851af5b05c23b3484e7eebaadd18f2da6a9 sysctl: Replace unidirectional INT converter macros with functions
-d174174c6776a340f5c25aab1ac47a2dd950f380 sysctl: replace SYSCTL_INT_CONV_CUSTOM macro with functions
-ef0e60083f768b32cda17b1b0ca9519405db89a6 tools/power turbostat: Fix AMD RAPL regression
-7ad54bbbc9c512ba3bc90e4368264bcf15c25759 Merge tag 'turbostat-2026.02.14-AMD-RAPL-fix' of git://git.kernel.org/pub/scm/linux/kernel/git/lenb/linux
-23b0f90ba871f096474e1c27c3d14f455189d2d9 Merge tag 'sysctl-7.00-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/sysctl/sysctl
-
---===============8747962566553232923==--
+  - ref: refs/heads/next-integrity-testing
+    old: 46c23f2ac831e0d20dc3a30e4dc345f69a931318
+    new: 12564e61497a9ed1474eb5c311b1f55d393717a2
+    log: |
+         0496fc9cdc384f67be4413b1c6156eb64fccd5c4 evm: Use ordered xattrs list to calculate HMAC in evm_init_hmac()
+         077be3c82f0ef6acd894e76f5c783e8ce641157f integrity: Make arch_ima_get_secureboot integrity-wide
+         8171c123bb020337e6d7bcd0d5fdd2f8f81e86a7 evm: Don't enable fix mode when secure boot is enabled
+         72591acc133335f85e5d3308ece2620f51840331 s390: Drop unnecessary CONFIG_IMA_SECURE_AND_OR_TRUSTED_BOOT
+         12564e61497a9ed1474eb5c311b1f55d393717a2 ima: fallback to using i_version to detect file change
+         
