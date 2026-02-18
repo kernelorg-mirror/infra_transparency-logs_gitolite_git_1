@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============5563324923378500226=="
+Content-Type: multipart/mixed; boundary="===============4393838911265607924=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/leon/linux-rdma
-Date: Wed, 18 Feb 2026 13:43:28 -0000
-Message-Id: <177142220852.2011391.6887936581958888085@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mellanox/linux
+Date: Wed, 18 Feb 2026 13:43:43 -0000
+Message-Id: <177142222326.2011612.4084738423646191338@gitolite.kernel.org>
 
---===============5563324923378500226==
+--===============4393838911265607924==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/leon/linux-rdma
+repo: pub/scm/linux/kernel/git/mellanox/linux
 user: leon
 changes:
   - ref: refs/heads/master
@@ -20,7 +20,7 @@ changes:
     new: 05f7e89ab9731565d8a62e3b5d1ec206485eeb0b
     log: revlist-24d479d26b25-05f7e89ab973.txt
 
---===============5563324923378500226==
+--===============4393838911265607924==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -929,4 +929,4 @@ e7aa57247700733e52a8e2e4dee6a52c2a76de02 Merge tag 'spi-fix-v6.19-rc8' of git://
 e98f34af61167aee238e666bfbc97d1620afd88a Merge tag 'i2c-for-6.19-final' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
 05f7e89ab9731565d8a62e3b5d1ec206485eeb0b Linux 6.19
 
---===============5563324923378500226==--
+--===============4393838911265607924==--
