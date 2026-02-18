@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2268693795804731591=="
+Content-Type: multipart/mixed; boundary="===============8358964181020446108=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/chanwoo/linux
-Date: Wed, 18 Feb 2026 01:27:20 -0000
-Message-Id: <177137804047.1314551.365892314047205502@gitolite.kernel.org>
+Date: Wed, 18 Feb 2026 01:27:28 -0000
+Message-Id: <177137804875.1314784.6298640617231237746@gitolite.kernel.org>
 
---===============2268693795804731591==
+--===============8358964181020446108==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,18 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/chanwoo/linux
 user: chanwoo
 changes:
-  - ref: refs/heads/devfreq-next
-    old: b477b5cd0e0886d12e4c0e617b6e1c24a6a8bb0c
-    new: d89f901f8a354719216d4cb38799875da7dc1ac0
-    log: revlist-b477b5cd0e08-d89f901f8a35.txt
+  - ref: refs/heads/devfreq-testing
+    old: 05f7e89ab9731565d8a62e3b5d1ec206485eeb0b
+    new: 2961f841b025fb234860bac26dfb7fa7cb0fb122
+    log: revlist-05f7e89ab973-2961f841b025.txt
 
---===============2268693795804731591==
+--===============8358964181020446108==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-b477b5cd0e08-d89f901f8a35.txt
+Content-Disposition: attachment; filename=revlist-05f7e89ab973-2961f841b025.txt
 
+a2c86aa621c22f2a7e26c654f936d65cfff0aa91 bpf: Require frozen map for calculating map hash
 4d1e3e2c404dc30e039d81ba7396c8bb82ade991 ASoC: cs35l56: Support for reading speaker ID from on-chip GPIOs
 9bca0f05cea49ad11b464672ccdf6efd6a814a45 ASoC: cs35l56-shared: KUnit tests for onchip speaker ID gpios
 6f220440399afba29165e0597fa2c3aa836191d7 ASoC: cs35l56: KUnit tests for parsing and using onchip GPIOs
@@ -1049,6 +1050,5 @@ e81dd54f62c753dd423d1a9b62481a1c599fb975 Merge tag 'dmaengine-7.0-rc1' of git://
 87a367f1bffadf1db5def15bd0cd2148acd057ad Merge tag 'ceph-for-7.0-rc1' of https://github.com/ceph/ceph-client
 75a452d31ba697fc986609dd4905294e07687992 Merge tag 'ntfs3_for_7.0' of https://github.com/Paragon-Software-Group/linux-ntfs3
 2961f841b025fb234860bac26dfb7fa7cb0fb122 Merge tag 'turbostat-2026.02.14' of git://git.kernel.org/pub/scm/linux/kernel/git/lenb/linux
-d89f901f8a354719216d4cb38799875da7dc1ac0 PM / devfreq: Remove unneeded casting for HZ_PER_KHZ
 
---===============2268693795804731591==--
+--===============8358964181020446108==--
