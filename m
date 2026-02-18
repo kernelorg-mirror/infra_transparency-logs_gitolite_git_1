@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/cip/linux-cip
-Date: Wed, 18 Feb 2026 05:09:59 -0000
-Message-Id: <177139139984.1489921.5482270554994755106@gitolite.kernel.org>
+Date: Wed, 18 Feb 2026 05:13:33 -0000
+Message-Id: <177139161363.1512249.16550891134326680366@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,11 +11,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/cip/linux-cip
 user: iwamatsu
 changes:
-  - ref: refs/heads/linux-6.12.y-cip
-    old: ecbde0dc33194f21f119b0fd1d74158d22ac5b74
-    new: be083b67adf49a6629979839ca41aea5769fa124
+  - ref: refs/heads/linux-6.1.y-cip
+    old: 2bdddbb7e29cb5f8500678b21332131e06e176bf
+    new: be222cfc6d8bf70e21659be8a2f03be81f0ee610
     log: |
-         0c61e7373a965572382e4a6437f49474a002b8b9 arm64: dts: renesas: r9a09g057: Add Mali-G31 GPU node
-         235dd1adb1ee86c26891e233aa4f02cdef62f113 arm64: dts: renesas: r9a09g057h44-rzv2h-evk: Enable Mali-G31
-         be083b67adf49a6629979839ca41aea5769fa124 arm64: dts: renesas: r9a09g057h44-rzv2h-evk: Rename fixed regulator node names
+         6f9fccf30d37827793ddfcd35e4acb54eb5f88e2 arm64: dts: renesas: r9a09g057: Add Mali-G31 GPU node
+         100f864111f206287cef4c4f74027e725ee277bc arm64: dts: renesas: r9a09g057h44-rzv2h-evk: Enable Mali-G31
+         691625022b55804ca9491d83ed10be3e384cc805 arm64: dts: renesas: r9a09g057h44-rzv2h-evk: Rename fixed regulator node names
+         be222cfc6d8bf70e21659be8a2f03be81f0ee610 i2c: riic: Move suspend handling to NOIRQ phase
          
