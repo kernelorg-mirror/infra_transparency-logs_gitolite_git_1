@@ -1,20 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ulfh/mmc
-Date: Wed, 18 Feb 2026 11:28:02 -0000
-Message-Id: <177141408242.1904795.11449191707099088771@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/util-linux/util-linux
+Date: Wed, 18 Feb 2026 11:42:17 -0000
+Message-Id: <177141493722.1916139.7629811312445972527@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ulfh/mmc
-user: ulfh
+repo: pub/scm/utils/util-linux/util-linux
+user: kzak
 changes:
-  - ref: refs/heads/next
-    old: 1104a0364b8c9d7b82422a3408711b98d313438c
-    new: b8d0bdb310460ccc55dd5615d86ce056b63c82d7
+  - ref: refs/heads/master
+    old: ae8bbd3630ab9f111b9f0f09a6dd8407f8745e94
+    new: 59f95edffb874a3fd22c851909dd179f7855179d
     log: |
-         45d39f1a32fd2d0d7347fb6c6e675d66f6dc6255 mmc: sdhci-brcmstb: use correct register offset for V1 pin_sel restore
-         b8d0bdb310460ccc55dd5615d86ce056b63c82d7 mmc: Merge branch fixes into next
+         f2a5997869d8edcf2801a82aa2075f3f7498b73a nsenter: Support specifying namespace by ID
+         381d35a2898b274ebc3847260edca58bef509917 pidfd-utils: define HAVE_PIDFD_* when syscall fallbacks are used
+         1746d13022024cd49b6dd4bd30d9a25723ad28a6 pidfd-utils: move USE_PIDFD_INO_SUPPORT after syscall fallbacks
+         611a54c76e813bfe18ff013efd1f984822d60a1d nsenter: fix minor issues with namespace ID support
+         d48a6626b45a0968ba67701eef097d6149f2bd74 nsenter: use USE_NAMESPACE_ID_SUPPORT macro for nsid feature
+         59f95edffb874a3fd22c851909dd179f7855179d Merge branch 'PR/pidfd-utils-have-defines' of https://github.com/karelzak/util-linux-work
          
