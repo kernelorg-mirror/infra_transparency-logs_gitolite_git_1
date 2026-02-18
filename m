@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0994930446643183765=="
+Content-Type: multipart/mixed; boundary="===============6906888822606258311=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/chanwoo/linux
-Date: Wed, 18 Feb 2026 00:40:11 -0000
-Message-Id: <177137521157.1269590.14808627502903819103@gitolite.kernel.org>
+Date: Wed, 18 Feb 2026 00:40:15 -0000
+Message-Id: <177137521581.1269692.17814053547796701802@gitolite.kernel.org>
 
---===============0994930446643183765==
+--===============6906888822606258311==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/chanwoo/linux
 user: chanwoo
 changes:
-  - ref: refs/heads/devfreq-testing
+  - ref: refs/heads/master
     old: 63804fed149a6750ffd28610c5c1c98cce6bd377
     new: 05f7e89ab9731565d8a62e3b5d1ec206485eeb0b
     log: revlist-63804fed149a-05f7e89ab973.txt
 
---===============0994930446643183765==
+--===============6906888822606258311==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -477,4 +477,4 @@ e7aa57247700733e52a8e2e4dee6a52c2a76de02 Merge tag 'spi-fix-v6.19-rc8' of git://
 e98f34af61167aee238e666bfbc97d1620afd88a Merge tag 'i2c-for-6.19-final' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
 05f7e89ab9731565d8a62e3b5d1ec206485eeb0b Linux 6.19
 
---===============0994930446643183765==--
+--===============6906888822606258311==--
