@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3159936758818102272=="
+Content-Type: multipart/mixed; boundary="===============5988072480635111043=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Wed, 18 Feb 2026 07:38:52 -0000
-Message-Id: <177140033279.1724672.5905549741895275952@gitolite.kernel.org>
+Date: Wed, 18 Feb 2026 07:39:05 -0000
+Message-Id: <177140034544.1725057.10744016609568397284@gitolite.kernel.org>
 
---===============3159936758818102272==
+--===============5988072480635111043==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,15 +16,24 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: d15e1c78bbbebe78a9ffe34c95069d61a8692600
-    new: dc7a049aed8cbd69a86404aefbd2678aac19e7b2
-    log: revlist-d15e1c78bbbe-dc7a049aed8c.txt
+    old: dc7a049aed8cbd69a86404aefbd2678aac19e7b2
+    new: 37377960acd1599922e985406c37c40a1d3c25dc
+    log: |
+         a40a8f71a9bb9f524d2de201ede39547f9440017 Merge branch into tip/master: 'irq/urgent'
+         27788b9eacbaa73a4dd59a0a0e7697d897f5135b Merge branch into tip/master: 'timers/urgent'
+         90340da0cfff6ae71a2edbd373990f78715989d9 Merge branch into tip/master: 'core/debugobjects'
+         37377960acd1599922e985406c37c40a1d3c25dc Merge branch into tip/master: 'locking/futex'
+         
+  - ref: refs/heads/tip/urgent
+    old: 5ff64e00429e6b0558c9df8e8117621ae5b83b01
+    new: 27788b9eacbaa73a4dd59a0a0e7697d897f5135b
+    log: revlist-5ff64e00429e-27788b9eacba.txt
 
---===============3159936758818102272==
+--===============5988072480635111043==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d15e1c78bbbe-dc7a049aed8c.txt
+Content-Disposition: attachment; filename=revlist-5ff64e00429e-27788b9eacba.txt
 
 f87e5575a6bd1925cd55f500b61b661724372e5f soundwire: intel_auxdevice: add cs42l45 codec to wake_capable_list
 82ab754d102273f4c974a285aa8025bed7521b15 soundwire: qcom: Use guard to avoid mixing cleanup and goto
@@ -324,6 +333,7 @@ e81dd54f62c753dd423d1a9b62481a1c599fb975 Merge tag 'dmaengine-7.0-rc1' of git://
 87a367f1bffadf1db5def15bd0cd2148acd057ad Merge tag 'ceph-for-7.0-rc1' of https://github.com/ceph/ceph-client
 75a452d31ba697fc986609dd4905294e07687992 Merge tag 'ntfs3_for_7.0' of https://github.com/Paragon-Software-Group/linux-ntfs3
 2961f841b025fb234860bac26dfb7fa7cb0fb122 Merge tag 'turbostat-2026.02.14' of git://git.kernel.org/pub/scm/linux/kernel/git/lenb/linux
-dc7a049aed8cbd69a86404aefbd2678aac19e7b2 Merge branch 'linus'
+a40a8f71a9bb9f524d2de201ede39547f9440017 Merge branch into tip/master: 'irq/urgent'
+27788b9eacbaa73a4dd59a0a0e7697d897f5135b Merge branch into tip/master: 'timers/urgent'
 
---===============3159936758818102272==--
+--===============5988072480635111043==--
