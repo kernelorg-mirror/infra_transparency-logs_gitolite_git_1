@@ -1,21 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ebiggers/linux
-Date: Wed, 18 Feb 2026 01:07:36 -0000
-Message-Id: <177137685664.1295201.6233179498402707771@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Wed, 18 Feb 2026 01:10:02 -0000
+Message-Id: <177137700283.1297128.10265804334645611987@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ebiggers/linux
-user: ebiggers
+repo: pub/scm/linux/kernel/git/netdev/net
+user: kuba
 changes:
-  - ref: refs/heads/fsverity-pending
-    old: d92bcf65f9660f5bbad5932948424bbe8045ce32
-    new: 3b451531206c2ec236ee119ab8881def69462308
+  - ref: refs/heads/main
+    old: 452a3eee22c57a5786ae6db5c97f3b0ec13bb3b7
+    new: a047497f952831e377564b606dcb74a7cb309384
     log: |
-         5d0e9c84dedd8182e74f9f600b326d3df2099004 f2fs: remove unnecessary ClearPageUptodate in f2fs_verify_cluster()
-         f784acfffe25b366fb81d312487d11ccadd32f20 f2fs: make f2fs_verify_cluster() partially large-folio-aware
-         3b451531206c2ec236ee119ab8881def69462308 fsverity: remove fsverity_verify_page()
+         6e980df452169f82674f2e650079c1fe0aee343d net: psp: select CONFIG_SKB_EXTENSIONS
+         0943404b1f3b178e1e54386dadcbf4f2729c7762 net: do not delay zero-copy skbs in skb_attempt_defer_free()
+         a047497f952831e377564b606dcb74a7cb309384 dpll: zl3073x: Fix ref frequency setting
          
