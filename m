@@ -1,53 +1,21 @@
-Content-Type: multipart/mixed; boundary="===============8429795067184508626=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Wed, 18 Feb 2026 07:31:49 -0000
-Message-Id: <177139990904.1719646.2614331335817035749@gitolite.kernel.org>
-
---===============8429795067184508626==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/hyperv/linux
+Date: Wed, 18 Feb 2026 07:32:05 -0000
+Message-Id: <177139992524.1719945.5538548351568706988@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/tty
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/hyperv/linux
+user: wei.liu
 changes:
-  - ref: refs/tags/tty-7.0-rc1
-    old: bd553e3d92fd43d0ce7de4ece00fdfd6e9a90add
-    new: 0000000000000000000000000000000000000000
-
---===============8429795067184508626==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1771399908 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1771399908-6fda2f13f1398e4ace273732fee433e62efd4e91
-
-bd553e3d92fd43d0ce7de4ece00fdfd6e9a90add 0000000000000000000000000000000000000000 refs/tags/tty-7.0-rc1
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmmVauQbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+RCQP/jhohHMUAGU3n5EicwUE
-Q1SdGVVyt5YMi9M4P80NXYLWdUl8ohMSCU5p22o+4n0izD4cfqjr1oyl9SGQL9LC
-GeT1uiac3VEQgwEMaqubTVuKG4wm48ZOL9Qa8rPho15ASv2KTEEDPeyPZPCv/h5c
-D7hht+va5FLH70p+q+kBqC8ZpWOQpFT/dQauuQBLJXEyWdGiy1/F8bQQXgwT8skv
-vB+sIUBOtOrRa0KRFAC75AnxhvbR9ZpH8pqxg1FKql60Y5dVfe9J/fhwgguAsvh5
-Yjg5xHKRy6o1xxTWjKtJSPHJJ+tP4ca3I10F1t6XEVf7b5z/xsylnWSg5AzxR7Gn
-0awqA+zPKQ633qDF+RkZqADH8rySEAmJOwlyIyHMhS3/aBh5p7QEYg6gede9WIAj
-oQqjRWsE/IStwLEf90sDThH8UGD793LWxOZXfOAv5aO95n/gN0U1flRDkn/EmzuW
-OHBpXKeVfL93ebA/mDmoUMQOpWeWJuQ4q09W9lsOUE9EI8MyRYmOHdu8TDjCpA9H
-FMfAR1jwDL+JwOfu1iDHsjyBvZjWdez5BCd/cltLlSolLEsUTK5L6676m77ygIT5
-cEmRnJ/LbxlA1RKtW1izdq09LOVRf3xdZGEQS8fFTKPXz/IByB5Ez0DzTlFQMwMU
-NxbjW/E81422t0pBrfx/i2gL
-=Sp/X
------END PGP SIGNATURE-----
-
---===============8429795067184508626==--
+  - ref: refs/heads/hyperv-next
+    old: 2e7577cd5ddc1f86d1b6c48caf3cfa87dbb14e34
+    new: f8e6343b7a89c7c649db5a9e309ba7aa20401813
+    log: |
+         834ef6aa0996121184728279c4b81a3b70ee649b x86/hyperv: Use savesegment() instead of inline asm() to save segment registers
+         885e78d71f772dd4c83f83530814870062115f85 x86/hyperv: Remove ASM_CALL_CONSTRAINT with VMMCALL insn
+         f8e6343b7a89c7c649db5a9e309ba7aa20401813 Drivers: hv: vmbus: Use kthread for vmbus interrupts on PREEMPT_RT
+         
