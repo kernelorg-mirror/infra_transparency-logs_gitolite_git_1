@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/lenb/linux
-Date: Wed, 18 Feb 2026 02:51:17 -0000
-Message-Id: <177138307797.1386373.4208369334198555417@gitolite.kernel.org>
+Date: Wed, 18 Feb 2026 02:57:31 -0000
+Message-Id: <177138345178.1390635.6719591229771936890@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,15 +11,6 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/lenb/linux
 user: lenb
 changes:
-  - ref: refs/heads/next
-    old: 51496091dd37b405e6e399a9638da3f1da3f4c64
-    new: cfd5ff044914fd5f7fae2403675b68593f986055
-    log: |
-         cfd5ff044914fd5f7fae2403675b68593f986055 tools/power turbostat: Fix AMD RAPL regression
-         
-  - ref: refs/heads/turbostat
-    old: 51496091dd37b405e6e399a9638da3f1da3f4c64
-    new: cfd5ff044914fd5f7fae2403675b68593f986055
-    log: |
-         cfd5ff044914fd5f7fae2403675b68593f986055 tools/power turbostat: Fix AMD RAPL regression
-         
+  - ref: refs/tags/turbostat-v2026.02.14+AMD
+    old: 0000000000000000000000000000000000000000
+    new: 0df3b7d15b845b6209d14d1f5758af706fd5321b
