@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1024278835061521108=="
+Content-Type: multipart/mixed; boundary="===============7398327505465454974=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/chanwoo/extcon
-Date: Wed, 18 Feb 2026 01:26:31 -0000
-Message-Id: <177137799193.1313590.7632763134013680024@gitolite.kernel.org>
+Date: Wed, 18 Feb 2026 01:26:42 -0000
+Message-Id: <177137800293.1313824.1743762572338621902@gitolite.kernel.org>
 
---===============1024278835061521108==
+--===============7398327505465454974==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,19 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/chanwoo/extcon
 user: chanwoo
 changes:
-  - ref: refs/heads/extcon-next
-    old: 5f6df0e289dba98bc4f10e201c2eba354dea0fea
-    new: d56589ed99146eb2754bbde783e66c95d78f185b
-    log: revlist-5f6df0e289db-d56589ed9914.txt
+  - ref: refs/heads/extcon-testing
+    old: 6e521077ee40a288ebef3cc839b991b7a70ec55d
+    new: 90520846a2ff1697a678e1112ef935e3bd4d7c78
+    log: revlist-6e521077ee40-90520846a2ff.txt
 
---===============1024278835061521108==
+--===============7398327505465454974==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-5f6df0e289db-d56589ed9914.txt
+Content-Disposition: attachment; filename=revlist-6e521077ee40-90520846a2ff.txt
 
-f365541bf7b6a32759c32c047df4ea80ff1cab86 net: stmmac: rk: rk3328: gmac2phy only supports RMII
-d7d92037cbd82ac6581ef9c97f14d2432f921fba net: stmmac: rk: rk3528: gmac0 only supports RMII
 5c1fc7cb81dfed0c84ae19b1022d8ca977bd6f5d net: stmmac: rk: use rk_encode_wm16() for clock selection
 b10d56b0db3ae9fa61b0b39c13e854a6bdae800d net: stmmac: rk: rk3506, rk3528 and rk3588 have rmii_mode in clock register
 77dc4a72b0f1704a1e4e0ecd58a57d9e02a685c8 Merge branch 'net-stmmac-rk-final-cleanups-part'
@@ -1043,12 +1041,14 @@ e81dd54f62c753dd423d1a9b62481a1c599fb975 Merge tag 'dmaengine-7.0-rc1' of git://
 87a367f1bffadf1db5def15bd0cd2148acd057ad Merge tag 'ceph-for-7.0-rc1' of https://github.com/ceph/ceph-client
 75a452d31ba697fc986609dd4905294e07687992 Merge tag 'ntfs3_for_7.0' of https://github.com/Paragon-Software-Group/linux-ntfs3
 2961f841b025fb234860bac26dfb7fa7cb0fb122 Merge tag 'turbostat-2026.02.14' of git://git.kernel.org/pub/scm/linux/kernel/git/lenb/linux
-e3f5060c4668bd9f6a5ae390485db6b0d5619a68 extcon: ptn5150: handle pending IRQ events during system resume
-4bc8f49734e3fbc804b952e664d29110996f9c6a extcon: int3496: replace use of system_wq with system_percpu_wq
-f482fc6db0f7b000b92cb7a2c389ffde776527c1 extcon: Fixed sysfs duplicate filename issue
-ee95c3a87301e623295a89d2575c142932ef9495 dt-bindings: extcon: ptn5150: Allow "connector" node to present
-b41b5db4028c55196b21c34957303ad82b7df286 extcon: ptn5150: Add Type-C orientation switch support
-9d43dd30d3c91fa3a7828127cc31fa1b796638fb extcon: ptn5150: Support USB role switch via connector fwnode
-d56589ed99146eb2754bbde783e66c95d78f185b extcon: usbc-tusb320: Make typec-power-opmode optional
+a2f51d59c85c604e81f722255c11af1640fabf01 extcon: ptn5150: handle pending IRQ events during system resume
+59ccb23178909c2ec8fb764b0304d9e6bb445b6e extcon: int3496: replace use of system_wq with system_percpu_wq
+997c245a744585018646c8e678bede1fb249aafc extcon: Fixed sysfs duplicate filename issue
+4266cd0ad37bf90cee8ec1f26ba0e8c3a3dec3e4 dt-bindings: extcon: ptn5150: Allow "connector" node to present
+2c598c34807647e19db414674a5b49e66fe6eb7f extcon: ptn5150: Add Type-C orientation switch support
+239193105edc660156750f58fcfee874af9c792b extcon: ptn5150: Support USB role switch via connector fwnode
+4ca6d5e610f0b2c0c70d5ce1c2ee7cb71c26d181 extcon: usbc-tusb320: Make typec-power-opmode optional
+387c9c273a84565271e2c2fb8e6779c8446aed2c dt-bindings: extcon: document Samsung S2M series PMIC extcon device
+90520846a2ff1697a678e1112ef935e3bd4d7c78 extcon: add support for Samsung S2M series PMIC extcon devices
 
---===============1024278835061521108==--
+--===============7398327505465454974==--
