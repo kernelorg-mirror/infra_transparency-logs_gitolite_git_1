@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ebiggers/linux
-Date: Wed, 18 Feb 2026 21:08:49 -0000
-Message-Id: <177144892952.2370524.9660207618233834834@gitolite.kernel.org>
+Date: Wed, 18 Feb 2026 21:08:54 -0000
+Message-Id: <177144893419.2370767.10263638852923045080@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,6 +11,6 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ebiggers/linux
 user: ebiggers
 changes:
-  - ref: refs/heads/aes-cmac-v1
-    old: 0000000000000000000000000000000000000000
-    new: 2705df10acdb60a1d1fd2673c78a9c10898e58a3
+  - ref: refs/heads/wip-aes
+    old: cc8f01b461f0bd98b35c3ec93cf36877ec12dc64
+    new: 0000000000000000000000000000000000000000
