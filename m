@@ -1,43 +1,53 @@
-Content-Type: multipart/mixed; boundary="===============7983058480522542853=="
+Content-Type: multipart/mixed; boundary="===============0884083659152970447=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ebiggers/linux
-Date: Wed, 18 Feb 2026 07:18:16 -0000
-Message-Id: <177139909649.1704601.9283110581467278420@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
+Date: Wed, 18 Feb 2026 07:18:22 -0000
+Message-Id: <177139910280.1704895.17757474550547168796@gitolite.kernel.org>
 
---===============7983058480522542853==
+--===============0884083659152970447==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ebiggers/linux
-user: ebiggers
+repo: pub/scm/linux/kernel/git/gregkh/char-misc
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/wip-aes
-    old: 8e5144583c2037ef1320956c88849dca6c3b7e89
-    new: cc8f01b461f0bd98b35c3ec93cf36877ec12dc64
-    log: revlist-8e5144583c20-cc8f01b461f0.txt
+  - ref: refs/tags/char-misc-7.0-rc1
+    old: 9372f5d20b6a5b4465b68c679a8af0017793c5f5
+    new: 0000000000000000000000000000000000000000
 
---===============7983058480522542853==
+--===============0884083659152970447==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8e5144583c20-cc8f01b461f0.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-b9639c3fb6e15d9e77044f67d57b6c260ff9b3da crypto: aes - Add cmac, xcbc, and cbcmac algorithms using library
-c4c8e6fc495c0092b8f6fbacc8756b6e1e0b68c2 crypto: arm64/aes - Fix 32-bit aes_mac_update() arg treated as 64-bit
-b01db7c08478714c347b6463300092f9c9dd1cc4 lib/crypto: arm64/aes: Move assembly code for AES modes into libaes
-861240907c450fa2fc3fb9c8df708b3983bb2720 lib/crypto: arm64/aes: Migrate optimized CBC-based MACs into library
-4d53f987503c0a0a2d4fdefc75a23cd1015e63f2 lib/crypto: tests: Add KUnit tests for CBC-based MACs
-29ca102e4d664a59899d171c748693ffa8cb764e smb: client: Use AES-CMAC library for SMB3 signature calculation
-ea50e93ae67140f9475726d833f46eae6570b2f7 smb: client: Remove obsolete cmac(aes) allocation
-6e1fde817da06c8bd16d7f958369287b42826f47 smb: client: Make generate_key() return void
-ff9fbc0806f848d2e7cfda00085f9d4c1000eddf smb: client: Drop 'allocate_crypto' arg from smb*_calc_signature()
-8547b6f0868fee90c4aa6f2f0bdee7455c10df3e ksmbd: Use AES-CMAC library for SMB3 signature calculation
-b379e1ec138abc04193aff7f2fe299fd4ccc4c52 Bluetooth: SMP: Use AES-CMAC library API
-43beb2429e7ad26bb7c49beb0c4040ef24dc2be2 wifi: mac80211: Use AES-CMAC library in ieee80211_aes_cmac()
-cc8f01b461f0bd98b35c3ec93cf36877ec12dc64 wifi: mac80211: Use AES-CMAC library in aes_s2v()
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1771399102 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
+nonce 1771399101-702e57cf2c7872eb75aa7afa58ad3b253d34de0d
 
---===============7983058480522542853==--
+9372f5d20b6a5b4465b68c679a8af0017793c5f5 0000000000000000000000000000000000000000 refs/tags/char-misc-7.0-rc1
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmmVZ74bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+oWQQAJmxiL4g1qWdoBlpufyx
+91BDLq9mYpwx0Sbg1BKU0lwbE3sE32ucpN2mEoyNOjs9lBPlUSTBC71T5HVzMhnV
+suvr8AQfA51S7Du+zLqu2nYTOHQdbtg6rEbb3OH9Ix8Ejp7rl3xx510XjDnXuAfl
+2mejGwlbHgYaiZaEJqM8WDLSPa+zEGE6PL8ZWYa9mc6caB6nRp95nVQRto57Hm6a
+tHGBIr27Vj3Bbdn2wVBaz3o8kZWrvTifRrrPsEqoZpLxEsu4+j2YbAaikBwWRunG
+hu0vY3ZQcliwMO10H8C0Y5qfRLMURBEEfu6RUkeLIQ++wbv7QwAsEuTYcVnPhVnm
+RLOmoOacDTATKwwfTycuEU6cRoarat0gamh8UUkn8LcomDwei2HVzIaDQmqt20P/
+rFICyggoZADVfUzj1YDN4XCGAvS4Bsd9Z5i8qlw2ze7EEpHEU8JRBy3gKTS8IQcA
+5XJv67ytx9jvI46EffL7D2bhMB9Wlp2EYxkJxqflMhgB97vlgIjouMBmnM7XDKmz
+fqZOXoLHb8AKLTwQ6G6wflWIxbU7OAOqLj16ssR0EeeuWftLTCLb4UMJHtFPZEnJ
+mQ+KuPoRa4QxWXtlsPYK2foY6wpnJfEvrnhDcttmWIht8ovtLywqupUcU8cE6Vbi
+zQ0q7aPf5xHQBF+B+HL5Dx6r
+=pwxu
+-----END PGP SIGNATURE-----
+
+--===============0884083659152970447==--
