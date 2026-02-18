@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3985325568408611920=="
+Content-Type: multipart/mixed; boundary="===============2780758061012548196=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Wed, 18 Feb 2026 06:21:34 -0000
-Message-Id: <177139569452.1659094.5041908078272322934@gitolite.kernel.org>
+Date: Wed, 18 Feb 2026 06:21:44 -0000
+Message-Id: <177139570451.1659374.10854969141062216775@gitolite.kernel.org>
 
---===============3985325568408611920==
+--===============2780758061012548196==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,47 +16,79 @@ repo: pub/scm/linux/kernel/git/gregkh/staging
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/staging-linus
-    old: 8f0b4cce4481fb22653697cced8d0d04027cb1e8
+  - ref: refs/heads/staging-next
+    old: 319e3ff5ed7bc16a9932423159b1665418a1a9a0
     new: 2961f841b025fb234860bac26dfb7fa7cb0fb122
-    log: revlist-8f0b4cce4481-2961f841b025.txt
+    log: revlist-319e3ff5ed7b-2961f841b025.txt
 
---===============3985325568408611920==
+--===============2780758061012548196==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1771395693 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1771395703 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1771395692-d31408c49098839e1b187ff8256846bec2a9522a
+nonce 1771395699-4f94a71696cc51d0000ffe7cad5aca86e28baed2
 
-8f0b4cce4481fb22653697cced8d0d04027cb1e8 2961f841b025fb234860bac26dfb7fa7cb0fb122 refs/heads/staging-linus
+319e3ff5ed7bc16a9932423159b1665418a1a9a0 2961f841b025fb234860bac26dfb7fa7cb0fb122 refs/heads/staging-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmmVWm0bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+KIEP/ijLOjgNLWPD7e+TWeU6
-irS8R647n/zw+7SV8DjKpf49J6LIKjO5ZWhZX+US09zmRvh7bvja258kqB+5tS5o
-41FQDpb2pXuIV21xybO+PhS7RLrgFAEs8hip7XuIiT2aZVqBJTYLMdB9dQLo0eO+
-O6GjYhom7CjCeMEwNdxyz0baYpiyKHNwMYjo3eIKXTzRdV91hyxKCxRj9Unx5llk
-HiG82Px8Zjm31CUebeYKQ9TBIms6ksXb89EJiCu4zHo29nIhgwQ72i7WrdHi+dZ0
-v/3ZzeOBi7+rq69YSn3+BnlMPj/rSFbzquGJjt0N4J7c+HRMK+/lEteKWWQmvpJ7
-Yi75Y1P43dNWUWwYAmjGugKLdpH+1sXzzwqd26L3OXOL2C0G3xmxJQEtUkwKUUXS
-ObujPrTC6RJnRT4LzjFfbLkTr3MensiFsmKeP+oFL7gDoW0/vWZBtqnYxIVZU4Ml
-WyGOiJX9JG2RhziYfQhET71Z5A+KAdxaRzcaOouuXVCBZ7ikSYj2EqOi6TSbZYUy
-IKAnCWPMsj0yLpBSa4rFtf2a9oI7njAy7+Xx0UTGx+agvtl6+ni6nws/Z26BplcQ
-g1yxRhdrv3v7QZjkkLEfmW0DxKk052Va86SaO7zWnw4rVJySJBDHNAAjtfY78yvd
-+4I/eWIh5gUPD27eAlBZ6waJ
-=HFu1
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmmVWncbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+YVEP/02yyrHDxaAOSGi+dva9
+Pz6pnVEeb1EtlHOACYEXhU852zQx+nfd2wG6m7nvQmUo+iE0m/FYACorkX8O+PAx
+CkozCA+9WdPbjd+tCOQJQe4Et3XKO/gu7UX/+HJj/r7lOQrxHXmOX9Bcd25Ws2u8
+cLd4PFvHDJGnP5JGShKUdm7muZZihzx5oV74qxzgCfC5bxKo1YUiJyO0kRxyhu38
+eIUNz6rlpKT+PLwpHalYNyIMBN/AQDguVmnixRkjf8z3r+OiMPjCu6cut1bhn89U
+VP8org2VZSMh7gHpHeito7TwHYmXtQy27D1Z6WGX+H/EXbRX3P4DB0KHSRTOXm3Q
+l6wGQ3QSKYPfzMj2Q+abuTlKH+XmumJMYQIm5fZGYM9bWbynhE4stsjxaEZvFE4I
+EYlkaO7SG3UZ3t7kh4SeXqFUXkI8vlN0w9HzHgeru1xfS4IwcveNBG8Ko6maGGla
+LdWQV7Oa6taOiIH7PDjMPS6yDKy9N5C5tbTGR0oskmNgFUAEjwL0+lWNNpq6ltnu
+YO/ZReE9Z2q3Xe5mAZfFe1l+WW5/+T35s85fDUV3rv30SMYkLdiS9x7VEzXLB7u4
+IR9CwdG+CWKwymNa9TP4aJRRjCMSypauZ9+Zqia/a0Gf1HcT8mIMEalF/odC3aGz
+ORwpHnOz4rJTjKB71b665HxB
+=rlc4
 -----END PGP SIGNATURE-----
 
---===============3985325568408611920==
+--===============2780758061012548196==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-8f0b4cce4481-2961f841b025.txt
+Content-Disposition: attachment; filename=revlist-319e3ff5ed7b-2961f841b025.txt
 
+6f220440399afba29165e0597fa2c3aa836191d7 ASoC: cs35l56: KUnit tests for parsing and using onchip GPIOs
+e34f77b09080c86c929153e2a72da26b4f8947ff gpio: loongson-64bit: Fix incorrect NULL check after devm_kcalloc()
+e411d74cc5ba290f85d0dd5e4d1df8f1d6d975d2 gfs2: fiemap page fault fix
+d323769d64f21865ea2a9132aea0da7c6badc479 net: stmmac: rk: introduce flags indicating support for RGMII/RMII
+a9d4aff670eda7ab76a35d509d3586f253ea0e5f net: stmmac: rk: replace empty set_to_rmii() with supports_rmii
+f365541bf7b6a32759c32c047df4ea80ff1cab86 net: stmmac: rk: rk3328: gmac2phy only supports RMII
+d7d92037cbd82ac6581ef9c97f14d2432f921fba net: stmmac: rk: rk3528: gmac0 only supports RMII
+5c1fc7cb81dfed0c84ae19b1022d8ca977bd6f5d net: stmmac: rk: use rk_encode_wm16() for clock selection
+b10d56b0db3ae9fa61b0b39c13e854a6bdae800d net: stmmac: rk: rk3506, rk3528 and rk3588 have rmii_mode in clock register
+77dc4a72b0f1704a1e4e0ecd58a57d9e02a685c8 Merge branch 'net-stmmac-rk-final-cleanups-part'
+d5c539155431cfb93d3ea8080649ea093102a490 inet: move reqsk_queue_alloc() to net/ipv4/inet_connection_sock.c
+a90765c6f60317fe28a4cd2cdc7b13f97ed6e12f tcp: move reqsk_fastopen_remove to net/ipv4/tcp_fastopen.c
+7d2064eb731716f34677fb2627a4a1b5cd1f14ce net: get rid of net/core/request_sock.c
+22c1264415ef0d4564dd74e3de66e1895d3f7bc0 tcp: move __reqsk_free() out of line
+047c5265ec8b0ee6648211cc4ab671b48f5e87d1 Merge branch 'tcp-remove-net-core-request_sock-c-and-no-longer-inline-__reqsk_free'
+85d05e28171240ae357a085dc689b91e0ff44f50 ipv6: change inet6_sk_rebuild_header() to use inet->cork.fl.u.ip6
+7e7fcfb0798a038b31fa3825734b5194c46b3e86 net: stmmac: imx: fix iMX93 register definitions
+84faa91585fa22a161763f2fe8f84a602a196c87 ASoC: fsl: imx-rpmsg: use snd_soc_find_dai_with_mutex() in probe
+a90f6dcefca6d5ad765435b3188a3a440ed193a1 net/sched: don't use dynamic lockdep keys with clsact/ingress/noqueue
+8fdb05de0e2db89d8f56144c60ab784812e8c3b7 Merge tag 'net-6.19-rc9' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
+a182a62ff77f705f7dd3d98cf05cb3d03751a8f0 Merge git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
+89b831ebdaca0df4ca3b226f7e7a1d1db1629060 mtd: rawnand: pl353: Fix software ECC support
+1e06dbfdfb851170b243d6498e442b449324c664 mtd: rawnand: pl353: Add message about ECC mode
+442ae406603a94f1a263654494f425302ceb0445 io_uring/kbuf: fix memory leak if io_buffer_add_list fails
+2b97f5cd1a956a9ac948ec57775600158988dadd spi: dt-bindings: cdns,qspi-nor: Add Renesas RZ/N1D400 to the list
+324ecc7788c2e21d0d9197a8c015ff75382122d9 spi: cadence-qspi: Kill cqspi_jh7110_clk_init
+a40236feb62ccbf2b36d288550a483122b3205e5 spi: cadence-qspi: Add support for the Renesas RZ/N1 controller
+27b5096ef0f3a78441128b993f0353a77f2f5f53 ASoC: rockchip: spdif: Use device_get_match_data()
+45df1f66b99340e1d6e90501f1e938400a3e9768 ASoC: rockchip: spdif: Move DT compatible table
+7e2de68e4dbaee65864b0c5972e1b03037243632 ASoC: rockchip: spdif: Fully convert to device managed resources
+730b0af2748a74528e0ad25f2bcd3272e96db10a ASoC: rockchip: spdif: Use dev_err_probe
+72bcc223032cb71e640e466eb644537e369959a5 ASoC: rockchip: spdif: Improve sample rate support
 7bdde9a2fd6577e18cd99e4f0e71e466ba626e77 ASoC: rockchip: spdif: Swap PCM and DAI component registration order
 298082783a0d6d07109f8ce09ab410a1de12876d ASoC: rockchip: spdif: Add support for set mclk rate
 c43ec509019842c0b836e858dc486c216b51b087 ASoC: rockchip: spdif: Add support for format S32_LE
@@ -339,39 +371,7 @@ c0165fcb8d9f444817843964027ed191d85d66c4 net: mana: Remove jumbo_remove step fro
 1fdad81d880349756414b1a7d4e2a8bdf52664e6 Merge branch 'big-tcp-without-hbh-in-ipv6'
 6d2f142b1e4b203387a92519d9d2e34752a79dbb net: hns3: fix double free issue for tx spare buffer
 57be33f85e369ce9f69f61eaa34734e0d3bd47a7 nfc: nxp-nci: remove interrupt trigger type
-bc4df274dca66a8f534feff5d3e1881f3c9b9bf6 staging: rtl8723bs: update _rtw_pktfile_read() to return error codes
-b59f9bc5f372390157bff6a00a288cebb2c543af staging: rtl8723bs: clean up _rtw_pktfile_read()
-11f4e5250241529198c96da37a5258ee3e9dfe7f staging: rtl8723bs: remove unnecessary braces
-ad3521dc9c2f9b369f57de1bbcc14f85458a3828 staging: rtl8723bs: constify _action_public_str array
-54911107352dfe04b56828dd9f81fd570c1b76b0 staging: most: video: fix potential race in list iteration
-2a9fa972e3082343e0bb103bb272b7c604fa303a staging: rtl8723bs: fix open parenthesis alignment
-d868ba303275e6454f38f71799d4e0c26fe786b2 staging: rtl8723bs: fix multiple blank line check
-ce154efc0463707ecac422750f6ecf0fb199f97b staging: rtl8723bs: fix missing blank line after declaration
-d4f0c3edccddc0af112714f73c35a58892d31b03 staging: rtl8723bs: fix line length check
-500cf758c865fb6fb8c1f70e6b020729928647c1 staging: rtl8723bs: standardize comment style in HAL
-c42727601a4f83441baf5d21770c9196d3795824 staging: rtl8723bs: remove redundant check on status
-a6fe09b40b610ca0d459fdc53524cc923df0d2e1 staging: rtl8723bs: remove unnecessary parentheses
-4dba9d6c691327f06276619ae97bab8aa48b2dbe staging: rtl8723bs: fix firmware memory leak on error
-c41ac3530710e9d49e0ddd5e6f338407f6d4ab00 staging: rtl8723bs: remove thread wraper functions and add IS_ERR() check
-7de30d5d76aa614777a02a9807d29ed65b0704a0 staging: rtl8723bs: remove unused private debug counters
-01e28097a0a8c79be02d1abe27dfa16138994e2c staging: rtl8723bs: rename u1bTmp to val
-908c03bf95eb8977afd4fdf5a5338fd1077968e4 staging: rtl8723bs: fix spacing around operators
-3db124820614e0ce66def7dc86458fc70330be69 staging: rtl8723bs: modernize hex output in rtw_report_sec_ie
-8ae0398e70d9d64309708471cf7747097a5f755e staging: rtl8723bs: remove dead debugging code in rtw_mlme_ext.c
-02df7c635bd3463abcd92414e32a2cb906089e72 staging: rtl8723bs: fix potential race in expire_timeout_chk
 1585cf83e98db32463e5d54161b06a5f01fe9976 ALSA: hda/conexant: Add quirk for HP ZBook Studio G4
-17d2ff404153a616b4b9426a46021c199fe69568 staging: rtl8723bs: use unaligned access macros in rtw_security.c
-41460a19654c32d39fd0e3a3671cd8d4b7b8479f staging: rtl8723bs: fix null dereference in find_network
-ab67d4c6d5d33f408df9a43d0fa94f54a32995a8 staging: sm750fb: Clean up variable names
-5ed9ef2703adafbbc02258de76c07fa604a354de staging: rtl8723bs: introduce kmemdup() where applicable
-9577f3b3332b499202ce533cb0e25e2ea58abc9e staging: rtl8723bs: replace rtw_malloc() with kmalloc()
-980cd426a25747daf8ed25e2a1904b2d26ffbb3d staging: rtl8723bs: replace rtw_zmalloc() with kzalloc()
-9fe6f146a3b24e0c8232f817f19d364084d24745 staging: rtl8723bs: use standard skb allocation APIs
-0dced5c061bb9064e6ead08d75ac7ad6ce95e885 staging: rtl8723bs: remove unused allocation wrapper functions
-a20463de5166e6d1b66150c7702f3557a0bc71d4 staging: rtl8723bs: remove stale TODO item regarding %pM
-bad0520ee2b755769a06f439d590882e4adf24da staging: rtl8723bs: remove unnecessary blank lines in rtw_io.c
-11c6c251fa9fa78c834c864639b42a53a8b2064e staging: rtl8723bs: rename CamelCase function Set_MSR to set_msr
-319e3ff5ed7bc16a9932423159b1665418a1a9a0 staging: rtl8723bs: refactor ODM_SetIQCbyRFpath to reduce duplication
 7e0b172c80ad797061dfa32e18bf908c81ceab0e Merge tag 'objtool-urgent-2026-02-07' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 f84c9dd34e8dce3fb42598344da711573b383626 workqueue: add time-based panic for stalls
 9cb8b0f289560728dbb8b88158e7a957e2e90a14 workqueue: replace BUG_ON with panic in panic_on_wq_watchdog
@@ -1082,4 +1082,4 @@ e81dd54f62c753dd423d1a9b62481a1c599fb975 Merge tag 'dmaengine-7.0-rc1' of git://
 75a452d31ba697fc986609dd4905294e07687992 Merge tag 'ntfs3_for_7.0' of https://github.com/Paragon-Software-Group/linux-ntfs3
 2961f841b025fb234860bac26dfb7fa7cb0fb122 Merge tag 'turbostat-2026.02.14' of git://git.kernel.org/pub/scm/linux/kernel/git/lenb/linux
 
---===============3985325568408611920==--
+--===============2780758061012548196==--
