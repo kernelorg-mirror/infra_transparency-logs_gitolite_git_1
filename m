@@ -1,9 +1,13 @@
+Content-Type: multipart/mixed; boundary="===============2325843877120601295=="
+MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Wed, 18 Feb 2026 14:35:03 -0000
-Message-Id: <177142530336.2051930.10170092718819688925@gitolite.kernel.org>
+Date: Wed, 18 Feb 2026 14:37:22 -0000
+Message-Id: <177142544257.2054514.13773888991785139091@gitolite.kernel.org>
+
+--===============2325843877120601295==
+Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
@@ -12,19 +16,28 @@ repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
 user: jarkko
 changes:
   - ref: refs/heads/container
-    old: 322545d60dd20abbe7456256165d81cd33aa1689
-    new: 5ecfd2771d6cbb997737027a07704f15b343c21a
-    log: |
-         31006e8f65ec1278834b7fe2d1e5fd82f4ab9e39 containers: Implement container_create()
-         11c292649c244804473e768ad22848e2811ddac7 containers: Implement container_wait()
-         47616b3aa897e3ce7c83189c3d3da06c3ad31836 containers: Implement container_kill()
-         b45bdefd82a860dfca19028bbfd99380aefb0f6c containers: Implement container_enter()
-         243c76826f964c503f0213cf8745adc96a30d171 net: Pass netns into __sys_socket
-         9bcdae45178f42814d92385803835df9691d4f38 containers: Make fsopen() able to create a superblock in a container
-         e37d579dfb0c9d9dcf9307b582e8c4f4d67337f5 containers, vfs: Support empty mount namespace root setup
-         c4d86f8cd0f63422a7405ee8e920b237db392d27 vfs: Allow mounting to other namespaces
-         614bfb5e523b0c4137a0e872477d532dc30e4513 security: Add container LSM hooks
-         896a089b8280fbd581b3c15b8cb227fbdef78eef docs: describe container namespace uAPI
-         ed647b3006a27fc93b2d3b08ddadeb79c7c5d7d6 MAINTAINERS: Add entry for CONTAINER NAMESPACE
-         5ecfd2771d6cbb997737027a07704f15b343c21a containers: kselftest
-         
+    old: 5ecfd2771d6cbb997737027a07704f15b343c21a
+    new: af898d86b31f8f5ce2226a0e76d55753da08f6e4
+    log: revlist-5ecfd2771d6c-af898d86b31f.txt
+
+--===============2325843877120601295==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-5ecfd2771d6c-af898d86b31f.txt
+
+ada4ed4628df477e296e214fa146add6006ac5ad fork: Handle copy_process() and do_exit()
+9366717285f5de3f9803cfd78654206749cc387b containers: Implement container_create()
+86f8d185d8908d4ef5cfa027915020b07ba21244 containers: Implement container_wait()
+b30d053810ce6163066e8a6572c1e4e6a41d9e1b containers: Implement container_kill()
+4da10c2d4a76133725eb3281bcf916211328ff43 containers: Implement container_enter()
+226ec8f3ffe34cd1b86753de8ad32b2cf6578af6 net: Pass netns into __sys_socket
+47e82e9f2e56433f79550d6f67b96ae6a913c634 containers: Make fsopen() able to create a superblock in a container
+878bca2732543a7fc45f97cd609bc9ae75fb625f containers, vfs: Support empty mount namespace root setup
+d930d9647c4144a2f22f7ff91188828e9f947b82 vfs: Allow mounting to other namespaces
+7dd9703cb606075a09a4957edc9b46b8f91b5706 security: Add container LSM hooks
+692bf7a7930cc633e140eebb966e0b77c44696c5 docs: describe container namespace uAPI
+165e8da08a84f6bd5a35b2ccc0e27bacd345da6f MAINTAINERS: Add entry for CONTAINER NAMESPACE
+af898d86b31f8f5ce2226a0e76d55753da08f6e4 containers: kselftest
+
+--===============2325843877120601295==--
