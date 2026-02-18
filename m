@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5026199794388661195=="
+Content-Type: multipart/mixed; boundary="===============5652790062545786951=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/spdx
-Date: Wed, 18 Feb 2026 07:23:45 -0000
-Message-Id: <177139942517.1710779.9110017171942203873@gitolite.kernel.org>
+Date: Wed, 18 Feb 2026 07:23:49 -0000
+Message-Id: <177139942990.1711016.7330354880049759646@gitolite.kernel.org>
 
---===============5026199794388661195==
+--===============5652790062545786951==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/spdx
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: 0f61b1860cc3f52aef9036d7235ed1f017632193
+  - ref: refs/heads/spdx-linus
+    old: c86d39d6805474ab879c00ca6b938c6dd7e4d33f
     new: 2961f841b025fb234860bac26dfb7fa7cb0fb122
-    log: revlist-0f61b1860cc3-2961f841b025.txt
+    log: revlist-c86d39d68054-2961f841b025.txt
 
---===============5026199794388661195==
+--===============5652790062545786951==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1771399423 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1771399428 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/spdx.git
-nonce 1771399423-a31e00742b4e76752fbc8e2b676beca7ea43c85b
+nonce 1771399427-0d6725ef4504f57105b011c1a6e9aa31c3a2f349
 
-0f61b1860cc3f52aef9036d7235ed1f017632193 2961f841b025fb234860bac26dfb7fa7cb0fb122 refs/heads/main
+c86d39d6805474ab879c00ca6b938c6dd7e4d33f 2961f841b025fb234860bac26dfb7fa7cb0fb122 refs/heads/spdx-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmmVaP8bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+ymcQAKWfvYmZRgwDBBVUeDZG
-4GGvJsNBXLkD2Ts3gvxqZKFFPMPr9WbzpPmrHs9WLK4UreLlmm3XIIZyk3E0Tk7r
-g4Y16fqFUv3Hy3unomVtgv7FXvMJzk0xZtwfEJ/mZNwtLlbqfHup28+a1Zekm+64
-hz6DQczxZd3YW/c+cxUx5qythIPYzOit6DUZPoHTXZHaw90T7ws6G2ehJpiBTPyp
-QBe80qKa9KWThkNmzcfHRIEqbFN6Yg644o2i/DWkRckBHbgXjXcSbs5tmO9FbBMO
-eid8XGa6QzRefRqVEDP+6OjbwaHFI+X4XosWZC/Rv4ChcVBWqjD2xVWJVNwpxUMS
-42i5VxnjTCtpxDsxxhEDeP23f+pqlzZppT7iSHW3rggC2CS+TD2ZxY6RtMuNRKba
-jo7khwF/yT/KwDEVSEZ5vZbr3wEeu8fmO+mVzUUTGCgJetpAKmd3I1THMpwLeTiP
-pJhbXdeN3t7Awd2UcjPr30wMA2mZpma+TU5z/7vquYoEaMXJFV74gQEETYfNGUne
-6hu4HhgcP3g0/l1a3ase6zKnZCwxztWonuoG5MFUZOrRZ4sLSlD/QL/WC/HOAMhr
-GzQyHo0NWB7jxLmsicpjAJbFJo3DV7feF1LVs/oPyXzdWNrQVrKzXcXYUCOClgEE
-bjdg7JMgxjy7RVwUqLVjbgAu
-=5zi7
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmmVaQQbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+RJYQANQexETldVyFPVoWuSde
+SpqKwZ1wHS7Zjj0vxapTpr70CWxnkS5wJpDhSS3vsQDGzQ0mv9rgfveuVQC414Dg
+K/xqf0t0+zPFVresW9MSbAp1d190yCOC7wqNsEgGUFPtkrGuoWKKRmBva0fpLfDt
+zRYt7JNRxVaTqH8h8TM7NGn05GPpyTtW6z4Fm6L+8JQFT5MPWoFv+nFHgcXpBAVH
+ECwwXunprLNM56JUz7eFQb5NZIz5qR/dYhtk0ndt/BGt1vlOcEq9hV1FCE/lS6+B
+aDMNSON2aUwwcn7h/ctshHJ1TH0LIzSN2OmqPxc25VsHdoZurCGXxpbaDVgJ3AIe
+P/NGNQk75mMVcQ6nIS2lIrw2/cbSPqscwJiXBj3XX6QDgKnI9OjjYsWky1Zj1m+d
+mSvM7eSZyUFpGFX54csIZX33BTCUBLnSUMirAkfRLzWiUs7R557Bm8+ebNdMIzfM
+I3UJ1ypM33jw+DnHut/g0/IyGTeASciLpiuDm1/9a5xCfv47Vt85P/4KeC1YSwrC
+o/65/S3tMb/Pyyqsk/Gv8CM2bO5VaX81VvxBeu+zzqt0YHe8hb1J587mS3/srMdA
++DA1cB5kPT44oeulw4XvKB57HGhzsI4S71EFk41kNcs73I+Acdw4dG5JPt8EbrC9
+vBD7TG14pgzKNPYlU8kupapv
+=MrAG
 -----END PGP SIGNATURE-----
 
---===============5026199794388661195==
+--===============5652790062545786951==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-0f61b1860cc3-2961f841b025.txt
+Content-Disposition: attachment; filename=revlist-c86d39d68054-2961f841b025.txt
 
 7bdde9a2fd6577e18cd99e4f0e71e466ba626e77 ASoC: rockchip: spdif: Swap PCM and DAI component registration order
 298082783a0d6d07109f8ce09ab410a1de12876d ASoC: rockchip: spdif: Add support for set mclk rate
@@ -1082,4 +1082,4 @@ e81dd54f62c753dd423d1a9b62481a1c599fb975 Merge tag 'dmaengine-7.0-rc1' of git://
 75a452d31ba697fc986609dd4905294e07687992 Merge tag 'ntfs3_for_7.0' of https://github.com/Paragon-Software-Group/linux-ntfs3
 2961f841b025fb234860bac26dfb7fa7cb0fb122 Merge tag 'turbostat-2026.02.14' of git://git.kernel.org/pub/scm/linux/kernel/git/lenb/linux
 
---===============5026199794388661195==--
+--===============5652790062545786951==--
