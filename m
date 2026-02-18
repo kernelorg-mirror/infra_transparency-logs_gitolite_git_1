@@ -1,23 +1,28 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bcain/linux
-Date: Wed, 18 Feb 2026 06:24:01 -0000
-Message-Id: <177139584114.1660732.2107386601885542355@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+Date: Wed, 18 Feb 2026 07:06:50 -0000
+Message-Id: <177139841008.1693996.10643765360206355987@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bcain/linux
-user: bcain
+repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+user: jarkko
 changes:
-  - ref: refs/heads/bcain/ebpf
-    old: 38d7c7bdbf3b9315d186ca99ac219a0ea1aad3b3
-    new: 20942a320c34a14587bd2fff48e695221e8bb9aa
+  - ref: refs/heads/container
+    old: c4c2ebfda61e95c02b056a7ef85b1210dc50b51c
+    new: 95275d1e1afd4f1890c44b8c84606c4d1e6d8bc4
     log: |
-         e3346c299647a7b469835da18c4fb3cf0e7ac13c hexagon: add eBPF JIT compiler
-         3b9b248093f8105064d24642951369c371ed6185 hexagon: enable HAVE_EBPF_JIT in Kconfig
-         ec3209be884cfb29661c57517d0a768d21e419a1 hexagon: enable BPF in qemu_defconfig
-         51958f4172660eec805e7444fe7efe6852c0c3b6 hexagon: bpf: add div/mod, variable shifts, and atomic support
-         20942a320c34a14587bd2fff48e695221e8bb9aa hexagon: clean up Makefile and remove debug prints
+         a5258b03ccc01755667d864d509d4993ac370780 containers: Implement container_kill()
+         99928ce3d5675cb527eb927173cdb99c6a641666 containers: Implement container_fork()
+         5d9eaa2f7f35a789a9d61644599f641ec0256a4a net: Pass netns into __sys_socket
+         0362692fbc291f0aa49d61bbb7ff70e1b4876569 containers: Make fsopen() able to create a superblock in a container
+         68b24397034167fb983007884dd0dd1dfc4d782a containers, vfs: Implement CONTAINER_NS_FS
+         ffd62a3611156b936348070f6b3f15394aba72ba vfs: Allow mounting to other namespaces
+         c8d6bca0197c4bb2ed76f4a516a772c5d506c008 security: Add container LSM hooks
+         c413f95fa9a6dc39c6fc079628e38c9e57657b95 MAINTAINERS: Add entry for CONTAINER NAMESPACE
+         8f74123475fdc2bb72a95e55ea1aed87bf566015 containers: kselftest
+         95275d1e1afd4f1890c44b8c84606c4d1e6d8bc4 docs: describe container namespace uAPI
          
