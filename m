@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1389519515405513844=="
+Content-Type: multipart/mixed; boundary="===============7360863030731152590=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Wed, 18 Feb 2026 15:22:20 -0000
-Message-Id: <177142814030.2093878.730262281632152052@gitolite.kernel.org>
+Date: Wed, 18 Feb 2026 15:22:29 -0000
+Message-Id: <177142814918.2094109.2257233132879374084@gitolite.kernel.org>
 
---===============1389519515405513844==
+--===============7360863030731152590==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,57 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/cel/linux
 user: cel
 changes:
-  - ref: refs/heads/nfsd-next
-    old: 6a725eb6af2c96afcd34dedad68be023629d43b5
-    new: 290f4b2075690355d681256133da1a33d8b809dd
-    log: revlist-6a725eb6af2c-290f4b207569.txt
+  - ref: refs/heads/nfsd-testing
+    old: 6a15c85e779a1a818c4704ae500785a35e95ca5b
+    new: a808fa17f302b73a1dd1c1ac801930fa99cae1f8
+    log: revlist-6a15c85e779a-a808fa17f302.txt
 
---===============1389519515405513844==
+--===============7360863030731152590==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6a725eb6af2c-290f4b207569.txt
+Content-Disposition: attachment; filename=revlist-6a15c85e779a-a808fa17f302.txt
 
-b77f0370b072af3275970e0b314cc20a159ca1c1 i2c: st: Use HZ_PER_GHZ constant instead of plain number
-361ad74a549d99c613d423e1ed0baebfbc493503 i2c: synquacer: Use HZ_PER_GHZ constant instead of plain number
-57db74bdaa546881f8351a35c9b6b4e9da4e0cc8 pinctrl: baytrail: Convert to use intel_gpio_add_pin_ranges()
-bfec8ce11af00971909b454fafc07341620bfa9f pinctrl: lynxpoint: Convert to use intel_gpio_add_pin_ranges()
-1aab44c02ad26f0c59bf015bc01cc63c4f9e2d68 Merge branch '20260105-kvmrprocv10-v10-0-022e96815380@oss.qualcomm.com' of https://git.kernel.org/pub/scm/linux/kernel/git/qcom/linux into rproc-next
-f8a6e5eac701369afb5d69aba875dc5fec93003d Input: adp5589 - remove a leftover header file
-b53232fd220ad5ecc29b1cb4d4e1355365bc5026 i2c: tegra: Do not configure DMA if not supported
-8b80b61e6f4fea1fab4f48ed6af2d9b8946f8049 i2c: tegra: Use separate variables for fast and fastplus
-81d4c5350f0148543bd4541a6d1fb06d9c835aeb i2c: tegra: Update Tegra256 timing parameters
-978b3ccbbac326cc5fe48c98a0440bdc79d9fd93 i2c: tegra: Add HS mode support
-6077cfd716fbd4d1f2a3702e49ae8bf65c072685 i2c: tegra: Add support for SW mutex register
-1ac9e16dd226a26a479c7392c9ec28f1c9eec61c i2c: tegra: Add Tegra264 support
-aa1292d109a65c9145e3311057ee28098fad78a8 dt-bindings: i2c: i2c-mt65xx: Add compatible for MT8189 SoC
-1a1c74b66af815c5eacf73d5ec6e79e21e102fcf i2c: core: Check for error pointer for fwnode
-861e0f8d81d727389311b58539952d0ca2095b9d i2c: core: Replace custom implementation of device_match_fwnode()
-71ebc45fa052c2c20e4255f01176a54c437eecd2 i2c: core: Use dev_fwnode()
-bc78670a29769458e31536693170dcfb755cf4d2 i2c: mlxbf: Remove unused bus speed definitions
-8c4ef23bbc60123d7b566672ec2da564f5cd545c i2c: mlxbf: Use HZ_PER_KHZ in the driver
-1ec5e098ef5f9cefdaccca3747b5e3802fb8b2bf iio: pressure: abp2030pa: fix typo in Kconfig description
-b82f3047dae4aba38cb26c55c28444db4d77f521 iio: pressure: abp2030pa: remove error message
-877686f9f42b58b04e4e25d07034bc95cadc20f3 phy: sun4i-usb: replace use of system_wq with system_percpu_wq
-ed0a26aa453b6ec7faec32ddb4fb3d4360e1676c dt-bindings: phy: qcom,sc8280xp-qmp-ufs-phy: document the Milos QMP UFS PHY
-3554ded4f02aa8e95af66911aa666b2cd192022d phy: qcom-qmp-ufs: Add Milos support
-24991bfbbd84d68d5710e1563752047914db941a phy: qcom: qmp-combo: Add polarity inversion support for SAR2130P
-a632a2a0db8b4d24076a03889efa25c6058d0746 dt-bindings: phy: Add PHY_TYPE_XAUI definition
-02cf3710c55d55d956f080e6610b841e2b6ddca0 phy: cadence-torrent: Add PCIe + XAUI multilink configuration for 100MHz refclk
-69efc71162b5742381de29f661c913013b254c2b dt-bindings: phy: qcom,sc8280xp-qmp-usb43dp-phy: Add Kaanapali QMP PHY
-a6a9aeaba36f42ed6dc4cdb865ae6b7ded4e855b dt-bindings: phy: qcom,m31-eusb2-phy: Document M31 eUSB2 PHY for Kaanapali
-be9d2cf10b46bc2c177aa9cb27b71d665d1e0e7e dt-bindings: phy: qcom,sc8280xp-qmp-ufs-phy: Add QMP UFS PHY compatible
-e48407ba576c5bc8b4324df41de5507f7928771e Merge tag 'counter-updates-for-6.20' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/wbg/counter into char-misc-next
-a699808928937000e550a7cd5355db93ef99e236 Merge tag 'phy_common_properties' into next
-70812056fbfb9348788e35b7641ff959b711840e phy: qcom: edp: Fix NULL pointer dereference for phy v6 (x1e80100)
-ba7693014d52e709797ae430cfe6ac1c8cadd3e6 dt-bindings: pinctrl: spacemit: k3: fix drive-strength doc
-7d55b44e2be1069504e22253d26d08982884f930 phy: apple: atc: Actually check return value of devm_apple_tunable_parse
-bc148def8924e43245c353c52ced47079a5026da phy: apple: atc: Reset USB2 PHY during probe as well
-f16741314f68091a8edf116ad5c134a72ffab854 phy: socionext: usb2: Simplify with scoped for each OF child loop
-876dc58c3fa532e38cd1b287a7b8143a1a4c5dc7 dt-bindings: phy: google: Add Google Tensor G5 USB PHY
-cbce66669c82ee9ae0e26523c0fcd3c721fcfe85 phy: Add Google Tensor SoC USB PHY driver
-da0faa257f10da39052ca7f1cfa35179ca8749e5 usb: gadget: f_tcm: initialize data_len in UAS path for consistency
-8e4c1d06183c25022f6b0002a5cab84979ca6337 usb: gadget: f_fs: Fix ioctl error handling
 0145e7acd29855dfba4a2f387d455b5d9a520f0e usb: gadget: f_fs: fix DMA-BUF OUT queues
 e02264af6b49d21bbc2223b19c2ddfd2ae8260a6 usb: dwc3: drd: extend dwc3_pre_set_role() to extcon and otg usecase
 ab785d6bd02b854d15c8eb53769fed8b4831b390 usb: dwc3: imx8mp: rename dwc3 to dwc3_pdev in struct dwc3_imx8mp
@@ -1050,5 +1010,45 @@ c8c0c246135fb8533ab4eb79676eb71a64b7e166 lockd: Move xdr.h from include/linux/lo
 940e61fd5c41531bc5cc77e71ee6d8ae7085c897 lockd: Make linux/lockd/nlm.h an internal header
 834aa5f66c1f94c99253263c96212494332947ac lockd: Move nlm4svc_set_file_lock_range()
 290f4b2075690355d681256133da1a33d8b809dd lockd: Relocate svc_version definitions to XDR layer
+e742d052b949798952182c1084481d0cb7ecfe47 nfs/blocklayout: Fix compilation error (`make W=1`) in bl_write_pagelist()
+9910dc48aaa65ad4b4eef9cb9fc6d14f8f0c47f3 sunrpc: Kill RPC_IFDEBUG()
+d3cb23abc4d54be55fd7a69cf3a885c7dee51153 sunrpc: Fix compilation error (`make W=1`) when dprintk() is no-op
+4164fc3f62646f527e54e4104968f748a21d46c2 NFSD: fix nfs4_file access extra count in nfsd4_add_rdaccess_to_wrdeleg
+025ce4a522e41e008d2aeb4a9a3021c2a28af468 nfsd: report the requested maximum number of threads instead of number running
+e64bb617a571b30808f8d62924417bf0350a50c7 NFSD: Add a key for signing filehandles
+af314c2dd5da869c8188f51a8e46eb305bc1bae8 NFSD/export: Add sign_fh export option
+210dfffc085194ee1aa355493708bc38b2d4c765 NFSD: Sign filehandles
+7514dfb17a3914c1ac01fddbb35f20ee3561b245 NFSD: Enforce timeout on layout recall and integrate lease manager fencing
+b4e9f68a7c71d94f80662892ea92df14cf907f05 Documentation: Add the RPC language description of NLM version 4
+0cfe595dede35b0a8d81da7a55d4e261dc1cf413 lockd: Use xdrgen XDR functions for the NLMv4 NULL procedure
+c170f25d1b19b19c72dd134346ccfcd7cdab6e88 lockd: Use xdrgen XDR functions for the NLMv4 TEST procedure
+c82b29744a813fa5926275ae9a252c6ee815acba lockd: Use xdrgen XDR functions for the NLMv4 LOCK procedure
+bcf922dd1e67592f88586f9268e65a6639a5c422 lockd: Use xdrgen XDR functions for the NLMv4 CANCEL procedure
+06a342d721b4410c67b66ac5a572908eafec028e lockd: Use xdrgen XDR functions for the NLMv4 UNLOCK procedure
+6af65150121101d802a8b20f645f31f9de93965c lockd: Use xdrgen XDR functions for the NLMv4 GRANTED procedure
+6eafd665630944f68125b00bb42168270ac30115 lockd: Refactor nlm4svc_callback()
+dbe5737780c7872a87d28c6fd77d8d7199e5f174 lockd: Use xdrgen XDR functions for the NLMv4 TEST_MSG procedure
+796932bfce9e5741bd54caee74cc112c88ff0b1e lockd: Use xdrgen XDR functions for the NLMv4 LOCK_MSG procedure
+082714885632610da6a1e6bfadced2433418c287 lockd: Use xdrgen XDR functions for the NLMv4 CANCEL_MSG procedure
+28d559d6a7b59ca491cd9bc258e8b507efd71dd7 lockd: Use xdrgen XDR functions for the NLMv4 UNLOCK_MSG procedure
+26c9f81333c9893cd08d90f1da2083d73343b174 lockd: Use xdrgen XDR functions for the NLMv4 GRANTED_MSG procedure
+7fbcddc02c790b6137e20ab66d21f75a60dd4aaf lockd: Use xdrgen XDR functions for the NLMv4 TEST_RES procedure
+b5b2437bd08d00f35f0a31812631e6bdd92d2ec3 lockd: Use xdrgen XDR functions for the NLMv4 LOCK_RES procedure
+36a449dca271bbaa0fe11cf5564e7a617204ddcf lockd: Use xdrgen XDR functions for the NLMv4 CANCEL_RES procedure
+a05b28f11bffd2e2f5c116fcbb09f8013a0a42d2 lockd: Use xdrgen XDR functions for the NLMv4 UNLOCK_RES procedure
+f1ac6b4e5eb3d68ab59c975ddb9821d40b26a7e7 lockd: Use xdrgen XDR functions for the NLMv4 GRANTED_RES procedure
+2f72029cc3201d70a47d4161ca22b0857d5c1047 lockd: Use xdrgen XDR functions for the NLMv4 SM_NOTIFY procedure
+556bfbe3a94d94244865b13c5a41351f79bca136 lockd: Convert server-side undefined procedures to xdrgen
+9259918f5d7cdc176d1c9b4f58873daa21e44cd9 lockd: Hoist file_lock init out of nlm4svc_decode_shareargs()
+3ac7780fb986ede180e688b0817a99c0081161d9 lockd: Prepare share helpers for xdrgen conversion
+d45136f7695c8925cf4021e2bfcfda9bb48976a1 lockd: Use xdrgen XDR functions for the NLMv4 SHARE procedure
+76a6b734b21f36e2ee34d2edd8f207f23a278efc lockd: Use xdrgen XDR functions for the NLMv4 UNSHARE procedure
+a0e3ecd40bcc39b0e96da99197b8cf8ceab921c2 lockd: Use xdrgen XDR functions for the NLMv4 NM_LOCK procedure
+f753bda4ac40575c285fd7141306ef8db3736c56 lockd: Use xdrgen XDR functions for the NLMv4 FREE_ALL procedure
+0bc7d3a5b0581ffb1fa54830550f21d3acef0432 lockd: Add LOCKD_SHARE_SVID constant for DOS sharing mode
+0cadee9058fad6732f52ad9e07209672cccbf783 lockd: Remove C macros that are no longer used
+447ffb61deeaaab9a9c1dfea3c092fdf10f4c7bd lockd: Remove dead code from fs/lockd/xdr4.c
+d4c885d54bf58a7ab801829e7e82f4c06b0e829f [DEBUG] Add instrumentation for nfsd_mutex contention debugging
+a808fa17f302b73a1dd1c1ac801930fa99cae1f8 siw: Enable try_gso
 
---===============1389519515405513844==--
+--===============7360863030731152590==--
