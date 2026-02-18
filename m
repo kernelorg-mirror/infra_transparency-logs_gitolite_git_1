@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============5528520002354735345=="
+Content-Type: multipart/mixed; boundary="===============1628343911919673869=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/chanwoo/extcon
-Date: Wed, 18 Feb 2026 00:36:17 -0000
-Message-Id: <177137497771.1265405.1610127410437344924@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/chanwoo/linux
+Date: Wed, 18 Feb 2026 00:39:58 -0000
+Message-Id: <177137519891.1266739.8126534091876004528@gitolite.kernel.org>
 
---===============5528520002354735345==
+--===============1628343911919673869==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/chanwoo/extcon
+repo: pub/scm/linux/kernel/git/chanwoo/linux
 user: chanwoo
 changes:
-  - ref: refs/heads/extcon-testing
-    old: 67ceff534b7c9352aaa66c7e7d6345d13e5d763f
-    new: 6e521077ee40a288ebef3cc839b991b7a70ec55d
-    log: revlist-67ceff534b7c-6e521077ee40.txt
+  - ref: refs/heads/devfreq-fixes
+    old: 63804fed149a6750ffd28610c5c1c98cce6bd377
+    new: 05f7e89ab9731565d8a62e3b5d1ec206485eeb0b
+    log: revlist-63804fed149a-05f7e89ab973.txt
 
---===============5528520002354735345==
+--===============1628343911919673869==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-67ceff534b7c-6e521077ee40.txt
+Content-Disposition: attachment; filename=revlist-63804fed149a-05f7e89ab973.txt
 
 2f6d2c8d9ac05a7a1c02333f6ad30868246880d8 Revert "mtd: spinand: esmt: fix id code for F50D1G41LB"
 600559b9817f6eaa927035eebb12534fadb35ee8 rust: rbtree: fix minor typo in comment
@@ -476,14 +476,5 @@ b0e7d3f88e563b5ca793fca23c7d7fa1352c1079 Merge tag 'char-misc-6.19-final' of git
 e7aa57247700733e52a8e2e4dee6a52c2a76de02 Merge tag 'spi-fix-v6.19-rc8' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/spi
 e98f34af61167aee238e666bfbc97d1620afd88a Merge tag 'i2c-for-6.19-final' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
 05f7e89ab9731565d8a62e3b5d1ec206485eeb0b Linux 6.19
-0f10f75e9b42884c398d6c3916bfe2c89b678855 extcon: ptn5150: handle pending IRQ events during system resume
-60155256fda22f32e8c90772877cbae04f362109 extcon: int3496: replace use of system_wq with system_percpu_wq
-d934e66099ae53d6a2ae344dfaf14e643a85f21b extcon: Fixed sysfs duplicate filename issue
-8b540e10051c1069f23b6fc84f3c4cebaac8c53e dt-bindings: extcon: ptn5150: Allow "connector" node to present
-892f4a23a3f73ac1d3ebfb02af7a07abb8b1d7a4 extcon: ptn5150: Add Type-C orientation switch support
-6d4cfbc7c775729efbd1ce28f8afb4e3005e9ef6 extcon: ptn5150: Support USB role switch via connector fwnode
-069a9ad947ac215d492e1679c2245f44d9b7e91e extcon: usbc-tusb320: Make typec-power-opmode optional
-286f5e2a5941e5d53c5628cac922185c12968e28 dt-bindings: extcon: document Samsung S2M series PMIC extcon device
-6e521077ee40a288ebef3cc839b991b7a70ec55d extcon: add support for Samsung S2M series PMIC extcon devices
 
---===============5528520002354735345==--
+--===============1628343911919673869==--
