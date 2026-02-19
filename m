@@ -1,24 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/rt-tests/rt-tests
-Date: Thu, 19 Feb 2026 21:22:51 -0000
-Message-Id: <177153617108.3747811.3421106722576373874@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
+Date: Thu, 19 Feb 2026 21:25:21 -0000
+Message-Id: <177153632104.3751038.4696090987170894347@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/rt-tests/rt-tests
-user: jkacur
+repo: pub/scm/linux/kernel/git/pci/pci
+user: helgaas
 changes:
-  - ref: refs/heads/main
-    old: 4e68b52f0e0c9777c91088948374c6ee3d4a1f6b
-    new: 6a5f894206f965aa5c4178db79a4b63c0b7fc45e
+  - ref: refs/heads/enumeration
+    old: b07c1ca6682647271359f541388d414624e663c3
+    new: 79d5cc2cc2fcf1f929f57b2f72fe5cf9f09b28e2
     log: |
-         446854b6454f0ad10cb608cdc3459d6b1f3cc9ad rt-tests: hwlatdetect: Add field count to samples output
-         03f4bdb45701e6a450025c10d1d90ac63a36ddba hwlatdetect: Make count field backward compatible
-         1944197a3251fcf282a93eb0768b72c2c3c4bc48 hwlatdetect: correctly get CPU number from different sample formats
-         eb0051851f5b8d1eac9b4ec711da9795586762c2 rt-utils.c: Fix write() return value check
-         77d532b4ab261a73f9ac3fddf22749f3788b5f54 hwlatdetect: Add bounds checking and improve code readability
-         6a5f894206f965aa5c4178db79a4b63c0b7fc45e rt-tests: cyclictest: Remove duplicate option in getopt string
+         4874c66bbefda1e397ecd00788b5f3e81d99203c PCI: Always lift 2.5GT/s restriction in PCIe failed link retraining
+         c76d54887d56187f24a0694427e55894dc9e0317 PCI: Use pcie_get_speed_cap() in PCIe failed link retraining
+         79d5cc2cc2fcf1f929f57b2f72fe5cf9f09b28e2 PCI: Bail out early for 2.5GT/s devices in PCIe failed link retraining
          
