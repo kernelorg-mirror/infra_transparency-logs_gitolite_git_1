@@ -1,53 +1,27 @@
-Content-Type: multipart/mixed; boundary="===============7415832007829590117=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/gregkh
-Date: Thu, 19 Feb 2026 14:46:41 -0000
-Message-Id: <177151240184.3212876.4156551957531354425@gitolite.kernel.org>
-
---===============7415832007829590117==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/thomas.weissschuh/linux
+Date: Thu, 19 Feb 2026 14:57:01 -0000
+Message-Id: <177151302147.3220570.1907718698192992588@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/gregkh
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/thomas.weissschuh/linux
+user: thomas.weissschuh
 changes:
-  - ref: refs/heads/clanker
-    old: 0000000000000000000000000000000000000000
-    new: 8ac3eaa2ff53c9137f24dba8b9a26e819457a341
-
---===============7415832007829590117==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1771512372 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/gregkh.git
-nonce 1771512368-b6038e5ea7fd6f3d5c1204c4bf8caa64d48cbaab
-
-0000000000000000000000000000000000000000 8ac3eaa2ff53c9137f24dba8b9a26e819457a341 refs/heads/clanker
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmmXIjQbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+boMP/jIPPM+SD5JB4cYgA18C
-E3RpprKqeHYjJRgPIlkk42pzjuyDVPeAFShLGYtsSquzGNbiyQzq3lBVsuYzPHKx
-yJfW5XI3pt2pj1pfslm9e0/C0GLAwHB+gs3jnikX7jSpZqnQMLrGjb/m8RBlDStu
-4aOj51GH3kU1EKVFxTtcybpp3LEqXSB7S4OWKpIyBrfIu1nr/V9a5WUFlq807GH2
-u/zBjwBlyAjfRu8Uq1I4Jetj4C4WmpNkWhe1o0O0W5mOSHjfx67SYUWABf44kG5e
-adxKJ3bNXwsu0sj4ifSTPalqeysRXr54tL+PffsaIQqRFlAp2ZFsAK0CaHdaRgTd
-vqErW6xZrGoN87fpyLvabwKMwF496YlW4f/MXd5uAZTK0Vkcr56LoFROxwISPdcM
-z4/flRh8ijMGHfpY5asB3nUmPv7+8LSa/J823TqcZaC45f//IQC9o+6+6T8m+W+p
-WIWXD68CPder2mlXVGAdjtVIFHo994HBIVNv+a+RDRiCPlCAo36nelikuj7p3+hq
-JwWAWCVB4kjnaZZRCFKWMbLdDjk8JKphzpeiXzMo+f5GBMoaPZTQqi3lRWm9VHNo
-BTy1PWMrB1iT/7WbFrAigkuDnvD0draQmMwF3J3rA0B3yYVlbtOYgHwQ/xDc4tyI
-pYWU1nSObuITHno4v1oriLJZ
-=btl+
------END PGP SIGNATURE-----
-
---===============7415832007829590117==--
+  - ref: refs/heads/b4/vdso-compat_32bit_time
+    old: e69bbbde3f8693c038d290cc6d2e9451201df15b
+    new: 4e9af982187f63fabc4967c32d2483337c19a12e
+    log: |
+         c81c7a21c297a8dde2a3e512229a77d9162ab800 vdso: development hacks
+         9c3e1265f89d2e9f5bb4cee8ac47751c134654ee vDSO: Respect COMPAT_32BIT_TIME
+         c23c4a95b6926525635cbcf5798c6d40e1638eb2 x86/vdso: Respect COMPAT_32BIT_TIME
+         a31ad9bafb7555cb9fe7ec06a0aa7f41d9977206 ARM: VDSO: Respect COMPAT_32BIT_TIME
+         06f23b9ad38fdc80a0a12a304bc60fa472f06a06 arm64: vdso32: Respect COMPAT_32BIT_TIME
+         3a27678294fcad5f81aa6db95677ba31ec86bf47 powerpc/vdso: Respect COMPAT_32BIT_TIME
+         7e644defc1cb3c803cf1e67d56f6355eefc8a065 MIPS: VDSO: Drop kconfig MIPS_CLOCK_VSYSCALL
+         501678b8db4f90af6b8d13734a08efa19e69367b MIPS: VDSO: Respect COMPAT_32BIT_TIME
+         4e9af982187f63fabc4967c32d2483337c19a12e vdso/gettimeofday: Verify COMPAT_32BIT_TIME interactions
+         
