@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5107456100304778480=="
+Content-Type: multipart/mixed; boundary="===============1897752373839331216=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkl/linux-can
-Date: Thu, 19 Feb 2026 12:43:49 -0000
-Message-Id: <177150502909.3109488.8484769434152223999@gitolite.kernel.org>
+Date: Thu, 19 Feb 2026 12:44:12 -0000
+Message-Id: <177150505207.3109862.13459600832066304933@gitolite.kernel.org>
 
---===============5107456100304778480==
+--===============1897752373839331216==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,47 +16,37 @@ repo: pub/scm/linux/kernel/git/mkl/linux-can
 user: mkl
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/main
-    old: cdb1634de3bf197c0d86487d1fb84c128a79cc7c
-    new: 45be47bf5d7db0f762a93e9c0ede6cb3c91edf3b
-    log: revlist-cdb1634de3bf-45be47bf5d7d.txt
-  - ref: refs/heads/master
-    old: cdb1634de3bf197c0d86487d1fb84c128a79cc7c
-    new: 45be47bf5d7db0f762a93e9c0ede6cb3c91edf3b
-    log: revlist-cdb1634de3bf-45be47bf5d7d.txt
+  - ref: refs/heads/testing
+    old: 6293e2e9100de9dc1c649c693f5504efa1dd3b36
+    new: 918db6fb343793024d6ca980a90a8214baa2528a
+    log: revlist-6293e2e9100d-918db6fb3437.txt
 
---===============5107456100304778480==
+--===============1897752373839331216==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Marc Kleine-Budde <mkl@pengutronix.de> 1771505024 +0100
+pusher Marc Kleine-Budde <mkl@pengutronix.de> 1771505047 +0100
 pushee gitolite.kernel.org:pub/scm/linux/kernel/git/mkl/linux-can.git
-nonce 1771505022-2995bded4e8b47659a167fbcee3ba4075ca73361
+nonce 1771505040-65003bfef315a8aa844a89833c0f795b3b4ce26d
 
-cdb1634de3bf197c0d86487d1fb84c128a79cc7c 45be47bf5d7db0f762a93e9c0ede6cb3c91edf3b refs/heads/main
-cdb1634de3bf197c0d86487d1fb84c128a79cc7c 45be47bf5d7db0f762a93e9c0ede6cb3c91edf3b refs/heads/master
+6293e2e9100de9dc1c649c693f5504efa1dd3b36 918db6fb343793024d6ca980a90a8214baa2528a refs/heads/testing
 -----BEGIN PGP SIGNATURE-----
 
-iIkEABYKADEWIQSl+MghEFFAdY3pYJLMOmT6rpmt0gUCaZcFgBMcbWtsQHBlbmd1
-dHJvbml4LmRlAAoJEMw6ZPquma3SN1MA/1Q31o2yzgy6BatyWiUGBZ3Jsjo8ayMC
-zgwN7/NaUP/8AQCB/GDBf/VWW+J76rRfSJAFxgQmyr8VbShxLOc36cPKBw==
-=HZ6i
+iIkEABYKADEWIQSl+MghEFFAdY3pYJLMOmT6rpmt0gUCaZcFlxMcbWtsQHBlbmd1
+dHJvbml4LmRlAAoJEMw6ZPquma3SK/8BAMpo2rkpG75iLTbjgXudqFi3IFPY1zLT
+1EvQTr/8TXDdAQCEc3BIGw3M0tQaA6MU8Jre4At00UfPQPjaahw5W7dUAQ==
+=U4Aw
 -----END PGP SIGNATURE-----
 
---===============5107456100304778480==
+--===============1897752373839331216==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-cdb1634de3bf-45be47bf5d7d.txt
+Content-Disposition: attachment; filename=revlist-6293e2e9100d-918db6fb3437.txt
 
-f11f7cf90ee09dbcf76413818063ffc38ed2d9fe Merge branch 'bpf-add-bpf_stream_print_stack-kfunc'
-750817a7c41de083ca5d73052e97bb7b67d7c394 accel/amdxdna: Fix incorrect error code returned for failed chain command
-32d572e39031920691abfada68cdb19ad44b4eeb workqueue: add CONFIG_BOOTPARAM_WQ_STALL_PANIC option
-283182c1c239f6873d1a50e9e710c1a699f2256b perf: arm_spe: Properly set hw.state on failures
-36c0de02575ce59dfd879eb4ef63d53a68bbf9ce perf/arm-cmn: Reject unsupported hardware configurations
 bd3884a204c3b507e6baa9a4091aa927f9af5404 rbd: check for EOD after exclusive lock is ensured to be held
 bc8dedae022ce3058659c3addef3ec4b41d15e00 ceph: fix oops due to invalid pointer for kfree() in parse_longname()
 b126097b0327437048bd045a0e4d273dea2910dd i2c: imx: preserve error state in block data length handler
@@ -1076,5 +1066,10 @@ b1216f1d667be672d1594e59c8c94b7669519711 Merge branch 'icmp-better-deal-with-ddo
 0da1dba72616b178a64a762a235a24e9899e495d net/mlx5e: XSK, Fix unintended ICOSQ change
 284f1f176f29ef0db4be806e3255b7154b250c92 Merge tag 'nf-26-02-17' of https://git.kernel.org/pub/scm/linux/kernel/git/netfilter/nf
 45be47bf5d7db0f762a93e9c0ede6cb3c91edf3b octeontx2-af: Fix default entries mcam entry action
+7edcfd3ce5a0bceb4266edc59936e43d5d673d36 can: dummy_can: dummy_can_init(): fix packet statistics
+e2f2b536af0a2d3369ee9be8784f99c6e185fdca can: mcp251x: fix deadlock in error path of mcp251x_open
+1280960dd7292aa68952d38fca5da10f9a2b8e03 can: esd_usb: add endpoint type validation
+1a657b67a2326037bf493044f684e22f0eea79b5 can: bcm: fix locking for bcm_op runtime updates
+918db6fb343793024d6ca980a90a8214baa2528a can: gs_usb: gs_can_open(): always configure bitrates before starting device
 
---===============5107456100304778480==--
+--===============1897752373839331216==--
