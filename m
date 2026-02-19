@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/network/iproute2/iproute2-next
-Date: Thu, 19 Feb 2026 16:57:22 -0000
-Message-Id: <177152024287.3537455.16082955720941372199@gitolite.kernel.org>
+Date: Thu, 19 Feb 2026 16:58:42 -0000
+Message-Id: <177152032276.3538101.3068519412453155617@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,16 +12,19 @@ repo: pub/scm/network/iproute2/iproute2-next
 user: dsahern
 changes:
   - ref: refs/heads/main
-    old: 55600ddd9b6b48b735f1ba875e6c4458b0821892
-    new: 446dd2c18952b4932f5ad1fc274536f26bbaffed
+    old: 446dd2c18952b4932f5ad1fc274536f26bbaffed
+    new: f120cdb35da76ca99932d0428a0917bd01a843da
     log: |
-         bbe2c8b3229df1752083d1fe7861f1eef5936d2d devlink: Pull the value printing logic out of pr_out_param_value()
-         446dd2c18952b4932f5ad1fc274536f26bbaffed devlink: support displaying and resetting to default params
+         dac1bc6021693902b25a961227e289791e429b91 v6.19.0
+         f120cdb35da76ca99932d0428a0917bd01a843da Merge remote-tracking branch 'main' into next
          
   - ref: refs/heads/master
-    old: 55600ddd9b6b48b735f1ba875e6c4458b0821892
-    new: 446dd2c18952b4932f5ad1fc274536f26bbaffed
+    old: 446dd2c18952b4932f5ad1fc274536f26bbaffed
+    new: f120cdb35da76ca99932d0428a0917bd01a843da
     log: |
-         bbe2c8b3229df1752083d1fe7861f1eef5936d2d devlink: Pull the value printing logic out of pr_out_param_value()
-         446dd2c18952b4932f5ad1fc274536f26bbaffed devlink: support displaying and resetting to default params
+         dac1bc6021693902b25a961227e289791e429b91 v6.19.0
+         f120cdb35da76ca99932d0428a0917bd01a843da Merge remote-tracking branch 'main' into next
          
+  - ref: refs/tags/v6.19.0
+    old: 0000000000000000000000000000000000000000
+    new: 1c3fb363807eab47b37da6b4151f34223b65e8e7
