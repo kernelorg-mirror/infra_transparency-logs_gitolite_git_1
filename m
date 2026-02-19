@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4502051895985747912=="
+Content-Type: multipart/mixed; boundary="===============7169373925116515837=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netfilter/nf-next
-Date: Thu, 19 Feb 2026 19:55:28 -0000
-Message-Id: <177153092850.3680541.9611121860197787068@gitolite.kernel.org>
+Date: Thu, 19 Feb 2026 19:55:54 -0000
+Message-Id: <177153095420.3680831.2352746882751693351@gitolite.kernel.org>
 
---===============4502051895985747912==
+--===============7169373925116515837==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,19 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/netfilter/nf-next
 user: fwestphal
 changes:
-  - ref: refs/heads/main
-    old: 37a93dd5c49b5fda807fd204edf2547c3493319c
-    new: 8bf22c33e7a172fbc72464f4cc484d23a6b412ba
-    log: revlist-37a93dd5c49b-8bf22c33e7a1.txt
+  - ref: refs/heads/testing
+    old: 6df83ad2b880fc345c6ff8c7918909052adac912
+    new: 4aed386b0b567e5ee493a8abd784c65cefaf8d4e
+    log: revlist-6df83ad2b880-4aed386b0b56.txt
 
---===============4502051895985747912==
+--===============7169373925116515837==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-37a93dd5c49b-8bf22c33e7a1.txt
+Content-Disposition: attachment; filename=revlist-6df83ad2b880-4aed386b0b56.txt
 
-07de55cbf5762cb4a7e9e0db7aba5c10c8cfe079 f2fs: fix lock priority inversion issue
-bc367775f60214312befa33f101b31fe74bba48a f2fs: introduce trace_f2fs_priority_update
 f84b65b045f186b8fbaa32e090688ef3282b56c3 Merge branch 'mm-hotfixes-stable' into mm-stable to pick up "mm/shmem, swap: fix race of truncate and swap entry split", needed for merging "mm, swap: cleanup swap entry management workflow".
 7832e4d583ee7c6a7907731c568ca40b160d8a5e mm/khugepaged: remove unnecessary goto 'skip' label
 3ab981c1fca08721a2cc100d4e097d4e0c9e149b mm/khugepaged: change collapse_pte_mapped_thp() to return void
@@ -1050,5 +1048,7 @@ d451994ebc7d4392610bd4b2ab339b255deb4143 net/mlx5: Fix misidentification of writ
 571dcbeb8e635182bb825ae758399831805693c2 net: nfc: nci: Fix parameter validation for packet data
 4f13d0dabc87fb585b96d90cc4b29f67a2995405 Merge tag 'bpf-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf
 8bf22c33e7a172fbc72464f4cc484d23a6b412ba Merge tag 'net-7.0-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
+0057dd04b6d8bf17bddd0e2d3ecea99393ca1ae2 ipv6: export fib6_lookup for nft_fib_ipv6
+4aed386b0b567e5ee493a8abd784c65cefaf8d4e netfilter: nft_fib_ipv6: switch to fib6_lookup
 
---===============4502051895985747912==--
+--===============7169373925116515837==--
