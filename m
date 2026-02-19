@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6568298603145514631=="
+Content-Type: multipart/mixed; boundary="===============3686677779950051237=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
-Date: Thu, 19 Feb 2026 08:45:02 -0000
-Message-Id: <177149070222.2919860.2915802547429031590@gitolite.kernel.org>
+Date: Thu, 19 Feb 2026 08:45:15 -0000
+Message-Id: <177149071580.2922377.7796433342785177939@gitolite.kernel.org>
 
---===============6568298603145514631==
+--===============3686677779950051237==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,50 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/peterz/queue
 user: peterz
 changes:
-  - ref: refs/heads/perf/urgent
-    old: 91dcfae0ff2b9b9ab03c1ec95babaceefbffb9f4
-    new: 673d875d4babf061d5991b2472e9a4f316444678
-    log: revlist-91dcfae0ff2b-673d875d4bab.txt
+  - ref: refs/heads/perf/core
+    old: 63fddff79bc5e3cea31d8b8dd3685cb8b33fe8f7
+    new: 829b375bbe73bccca5ed10fcfc9db2bef53df891
+    log: revlist-63fddff79bc5-829b375bbe73.txt
 
---===============6568298603145514631==
+--===============3686677779950051237==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-91dcfae0ff2b-673d875d4bab.txt
+Content-Disposition: attachment; filename=revlist-63fddff79bc5-829b375bbe73.txt
 
-003b9dae53ae795930c54945e0b0a41bbd527b44 RISC-V: KVM: Skip IMSIC update if vCPU IMSIC state is not initialized
-f326e846ff89c82083c09fa495457442c252983e riscv: KVM: allow Zilsd and Zclsd extensions for Guest/VM
-ab2a7b7b6b8831348646688345c3209cdaee5d46 KVM: riscv: selftests: add Zilsd and Zclsd extension to get-reg-list test
-39ad809dd2579d9b7400bbc50a5b95d84527b75e KVM: riscv: selftests: Add riscv vm satp modes
-655d330c058f4e16de46d5c9b203008c630b59c8 RISC-V: KVM: Allow Zalasr extensions for Guest/VM
-671995ff4c308fc1adf01727df670c83434ffb5a RISC-V: KVM: selftests: Add Zalasr extensions to get-reg-list test
-ed7ae7a34bea06f81270866dfbe619a22518666b RISC-V: KVM: Transparent huge page support
-376e2f8cca2816c489a9196e65cc904d1a907fd2 irqchip/riscv-imsic: Adjust the number of available guest irq files
-ee1afacc356c84bba4b89e0655ffdcfa84d4f714 ALSA: oss: delete self assignment
-e38eba3b77878ada327a572a41596a3b0b44e522 sparc: Synchronize user stack on fork and clone
-2153b2e8917b73e9e7fae8963f03b8e60bd8f5ff sparc: Add architecture support for clone3
-674fb053e95d63b4810142c3a2fa357353014d29 sparc: vio: Replace snprintf with strscpy in vio_create_one
-be0bccffcde3308150d2a90e55fc10e249098909 sparc: don't reference obsolete termio struct for TC* constants
-9796ba918e58f170df5cff337be316a2f7cf1e58 sparc64: fix unused variable warning
-d844152d85cfcc7d2ef9430a25882604c12da279 sparc: remove unused variable strtab
-6c7860aa28b81b7e909b8d2072ed76fa22db6eda mtd: spi-nor: hisi-sfc: fix refcounting bug in hisi_spi_nor_register_all()
-9fd99788f3e5a129908c242bb29946077ca46611 io_uring: add task fork hook
-ed82f35b926b2e505c14b7006473614b8f58b4f4 io_uring: allow registration of per-task restrictions
-da87d45b195148d670ab995367d52aa9e8a9a1fa usb: typec: ucsi: Add Thunderbolt alternate mode support
-379a5aad4e8ce7bd0b1600c03ae0c9a28f66a183 Revert "selftests: revocable: Add kselftest cases"
-7149ce34dd48886b3f69153c7f5533dd3fd5f47e Revert "revocable: Add Kunit test cases"
-21bab791346e5b7902a04709231c0642ff6d69bc Revert "revocable: Revocable resource management"
-42fc7e6543f6d17d2cf9ed3e5021f103a3d11182 landlock: Multithreading support for landlock_restrict_self()
-50c058e3eafe31a5197d4cffb599f2f5f165d4eb selftests/landlock: Add LANDLOCK_RESTRICT_SELF_TSYNC tests
-39508405f6e6c8ce8a0f4bf93b344610d9051043 landlock: Document LANDLOCK_RESTRICT_SELF_TSYNC
-bbb6f53e905ca119f99ccab8496f8921d9db9c50 landlock: Minor reword of docs for TCP access rights
-d90ba69e3335aba96c25a0ea7d46c5c115cd4756 landlock: Refactor TCP socket type check
-6100f2904e0ea1f2c832ab6e93573fae47d3b13e landlock: Add backwards compatibility for restrict flags
-fe72ce6710cba088b67e3279de87d7341fafc357 landlock: Add errata documentation section
-de4b09abf088ba0a6a0bebb8b618fd29b9ce5c35 landlock: Document audit blocker field format
-f896d1c03e8dba2178c14d717d188ea43db016e6 Merge tag 'for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/rmk/linux
-37bb773b4a5a5107b92beda3447a7c6c0cfc1237 ASoC: dt-bindings: fsl,imx-asrc: Add support for i.MX952 platform
-83447a38ba9abac52bc110566d3e117753899f69 ASoC: fsl_asrc_m2m: Add option to start ASRC before DMA device for M2M
 6a8c6f5587337eceb387812b6f47bc16c125b883 ASoC: fsl_asrc: Add support for i.MX952 platform
 b010c782341b79edbeb80706360b772db908daa6 ASoC: fsl_asrc_dma: allocate memory from dma device
 42e41b2a0afa04ca49ee2725aadf90ccb058ed28 selftests/xsk: properly handle batch ending in the middle of a packet
@@ -1050,5 +1017,38 @@ eeccf287a2a517954b57cf9d733b3cf5d47afa34 Merge tag 'mm-stable-2026-02-18-19-48' 
 c3c327e4ee27e2d7fb005ed9bda06abf91ee335c perf/core: Fix invalid wait context in ctx_sched_in()
 624dbf2f27b6beaf766ea74b73c2712ab52a5b3e perf/x86/intel/uncore: Add per-scheduler IMC CAS count events
 673d875d4babf061d5991b2472e9a4f316444678 perf/core: Fix refcount bug and potential UAF in perf_mmap
+6e065aca270b37a9bd3747bb972e551f5257b9d6 perf/amd/ibs: Account interrupt for discarded samples
+b6a86cb69d33d25024cb7d99878ef8e3f77663b6 perf/amd/ibs: Limit ldlat->l3missonly dependency to Zen5
+62ce69a42d37a26d8616d561a44de36c49812077 perf/amd/ibs: Preserve PhyAddrVal bit when clearing PhyAddr MSR
+db5d24d1faa73f63507bb621080e00b9fef6f504 perf/amd/ibs: Avoid calling perf_allow_kernel() from the IBS NMI handler
+c8260d4fd7511adc5519033397ac14e5b0464397 perf/amd/ibs: Avoid race between event add and NMI
+94bd7ed1fe6d9bbefd1c13cfa76ad6f1167d1990 perf/amd/ibs: Define macro for ldlat mask and shift
+dd1ac48725b2585e14c8703ed356c8e5f73b9e4d perf/amd/ibs: Add new MSRs and CPUID bits definitions
+1b63c1fa9d07230fb365d9bdb6ea3bf3157a70a6 to eliminate RMW race
+bde94c7ffda3defac0de4c4ddf6e4baf2d85cbd4 perf/amd/ibs: Enable fetch latency filtering
+cb72eb13ab05cb652ceb81a8ddc9471aeee06539 perf/amd/ibs: Enable RIP bit63 hardware filtering
+0467afe4d9a57f8d7e809c815ce81865b96e799f perf/amd/ibs: Enable streaming store filter
+3cb6abe132cce2267682c830a773d252faabf20c perf/amd/ibs: Advertise remote socket capability
+46636fb8859b7c8fc34d8f94f1af2aedce527c51 perf/x86/intel: Enable large PEBS sampling for XMMs
+e99472373090bdaacff50f64a37f7c26f2ec60c3 perf/x86/intel: Convert x86_perf_regs to per-cpu variables
+d83c16a4c7ee4dc580b1f408eeb38c190dcb12bb perf: Eliminate duplicate arch-specific functions definations
+6aca1039f75e336cced06dd4c7b5da5892b03103 perf/x86: Use x86_perf_regs in the x86 nmi handler
+659660d55046929b329877722a7d6e3fa16a6dbf perf/x86: Introduce x86-specific x86_pmu_setup_regs_data()
+5cca5123d5656f9502ca4e0f268c418f06fdadba x86/fpu/xstate: Add xsaves_nmi() helper
+8a8e60cb4ff69b610d2e37c536513a008abe41b0 x86/fpu: Ensure TIF_NEED_FPU_LOAD is set after saving FPU state
+3d36ce3af9f11e293627978669bfe7c1c1a07811 perf: Move and rename has_extended_regs() for ARCH-specific use
+08c88576c3f87c117979534b3881b5cff0fa838d perf/x86: Enable XMM Register Sampling for Non-PEBS Events
+df643371c1ade66181def0564b0087f4c24d95a5 perf/x86: Enable XMM register sampling for REGS_USER case
+832e4b4ed9c07fa6c5e07e505c82f421e373e1d4 perf: Add sampling support for SIMD registers
+b61c7e4692484ef6737f6d04f79a1ad26860a84f perf/x86: Enable XMM sampling using sample_simd_vec_reg_* fields
+d99493aa06d53993d8159bcfedacb57d6012ef73 perf/x86: Enable YMM sampling using sample_simd_vec_reg_* fields
+e0f9bdbfca5039696d35149fcf1c98382021dae2 perf/x86: Enable ZMM sampling using sample_simd_vec_reg_* fields
+12c5d695903b07ec88211e376ff3a3fb2a7385a1 perf/x86: Enable OPMASK sampling using sample_simd_pred_reg_* fields
+20f833984b7798c78d271d25295afc0cf1660e85 perf: Enhance perf_reg_validate() with simd_enabled argument
+25f4532606e2eb3ae72bb89c674eeb366b22fe74 perf/x86: Enable eGPRs sampling using sample_regs_* fields
+88993171f7d156586e14d2cd02040aa5c0fed9c6 perf/x86: Enable SSP sampling using sample_regs_* fields
+9eb8f0c3fb3478b81f280481371347493a62ed0e perf/x86/intel: Enable PERF_PMU_CAP_SIMD_REGS capability
+944932b9f48566980449bb98b4d6965c68e78e9b perf/x86/intel: Enable arch-PEBS based SIMD/eGPRs/SSP sampling
+829b375bbe73bccca5ed10fcfc9db2bef53df891 perf/x86: Activate back-to-back NMI detection for arch-PEBS induced NMIs
 
---===============6568298603145514631==--
+--===============3686677779950051237==--
