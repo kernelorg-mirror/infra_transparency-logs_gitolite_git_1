@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0930556268830516541=="
+Content-Type: multipart/mixed; boundary="===============3261187652021280332=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
-Date: Thu, 19 Feb 2026 08:44:07 -0000
-Message-Id: <177149064710.2918730.13117636988503706847@gitolite.kernel.org>
+Date: Thu, 19 Feb 2026 08:44:19 -0000
+Message-Id: <177149065911.2918964.11474836751895947403@gitolite.kernel.org>
 
---===============0930556268830516541==
+--===============3261187652021280332==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,18 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/peterz/queue
 user: peterz
 changes:
-  - ref: refs/heads/x86/urgent
-    old: 695d896472d6543523de43110b0016b8b4469643
-    new: 1bc4ab670454e849b5b01d2e98dc6c5793a892c1
-    log: revlist-695d896472d6-1bc4ab670454.txt
+  - ref: refs/heads/locking/core
+    old: 39ffb0e5ef8e21aa5a24bd388194c1a2d0759461
+    new: 60c4c18ef62df77a97d3315efb477ab67bc7ab42
+    log: revlist-39ffb0e5ef8e-60c4c18ef62d.txt
 
---===============0930556268830516541==
+--===============3261187652021280332==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-695d896472d6-1bc4ab670454.txt
+Content-Disposition: attachment; filename=revlist-39ffb0e5ef8e-60c4c18ef62d.txt
 
-aeb1d17d1af5924f7357d7204a293bd8fc06ea13 RISC-V: KVM: Fix null pointer dereference in kvm_riscv_aia_imsic_rw_attr()
 003b9dae53ae795930c54945e0b0a41bbd527b44 RISC-V: KVM: Skip IMSIC update if vCPU IMSIC state is not initialized
 f326e846ff89c82083c09fa495457442c252983e riscv: KVM: allow Zilsd and Zclsd extensions for Guest/VM
 ab2a7b7b6b8831348646688345c3209cdaee5d46 KVM: riscv: selftests: add Zilsd and Zclsd extension to get-reg-list test
@@ -1048,7 +1047,8 @@ fa2827e72cfcfac683e2e3ab355a0dbc97d52522 Merge tag 'thermal-7.0-rc1-2' of git://
 956b9cbd7f156c8672dac94a00de3c6a0939c692 Merge tag 'kbuild-fixes-7.0-1' of git://git.kernel.org/pub/scm/linux/kernel/git/kbuild/linux
 eeccf287a2a517954b57cf9d733b3cf5d47afa34 Merge tag 'mm-stable-2026-02-18-19-48' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
 2b7a25df823dc7d8f56f8ce7c2d2dac391cea9c2 Merge tag 'mm-nonmm-stable-2026-02-18-19-56' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
-bb39730838340013392a5c0962b9b3f7454d07fd x86/headers: Replace __ASSEMBLY__ stragglers with __ASSEMBLER__
-1bc4ab670454e849b5b01d2e98dc6c5793a892c1 x86/cfi: Fix CFI rewrite for odd alignments
+d10f702abe8f246023971262fe635153e03e3b2d locking/mutex: Rename mutex_init_lockep()
+f15f48b9805abe9fd9bcd45c738bfcf3af08462b locking/mutex: Fix wrong comment for CONFIG_DEBUG_LOCK_ALLOC
+60c4c18ef62df77a97d3315efb477ab67bc7ab42 locking/mutex: Add killable flavor to guard definitions
 
---===============0930556268830516541==--
+--===============3261187652021280332==--
