@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1097286442407453030=="
+Content-Type: multipart/mixed; boundary="===============0408470283531462965=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Thu, 19 Feb 2026 20:51:17 -0000
-Message-Id: <177153427717.3724153.16349235459455541308@gitolite.kernel.org>
+Date: Thu, 19 Feb 2026 20:52:07 -0000
+Message-Id: <177153432765.3724505.10065208989024347959@gitolite.kernel.org>
 
---===============1097286442407453030==
+--===============0408470283531462965==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,56 +15,41 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/cel/linux
 user: cel
 changes:
-  - ref: refs/heads/nfsd-5.15.y
-    old: e45d5d41c1343aad8c7587a5b15d58e99aff4c8a
-    new: 3330a8d33e086f76608bb4e80a3dc569d04a8814
-    log: revlist-e45d5d41c134-3330a8d33e08.txt
+  - ref: refs/heads/nfsd-5.10.y
+    old: 97e917a395af4602fb897a797fa810c1ac859dd7
+    new: 3e2558088a1a3dc941eec8edafd002758ae97d77
+    log: revlist-97e917a395af-3e2558088a1a.txt
 
---===============1097286442407453030==
+--===============0408470283531462965==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-e45d5d41c134-3330a8d33e08.txt
+Content-Disposition: attachment; filename=revlist-97e917a395af-3e2558088a1a.txt
 
-a60b17cedb44237c1336a549b079698e57524a4d crypto: octeontx - Fix length check to avoid truncation in ucode_load_store
-31aff96a41ae6f1f1687c065607875a27c364da8 crypto: omap - Allocate OMAP_CRYPTO_FORCE_COPY scatterlists correctly
-8ee8ccfd60bf17cbdab91069d324b5302f4f3a30 crypto: virtio - Add spinlock protection with virtqueue notification
-ba18e5f22f26aa4ef78bc3e81f639d1d4f3845e6 nilfs2: Fix potential block overflow that cause system hang
-a46f81c1e627437de436e517f5fd4b725c15a1e6 scsi: qla2xxx: Validate sp before freeing associated memory
-891f9969a29e9767a453cef4811c8d2472ccab49 scsi: qla2xxx: Delay module unload while fabric scan in progress
-7e0b2cdbe66045ff9fe6af227556578339ebba3a scsi: qla2xxx: Query FW again before proceeding with login
-86588916e1887a5edb8a9161cd7ae81e47a7ed25 gpio: omap: do not register driver in probe()
-1fe2603fb171a8a38ead7daa17280293709e9276 ALSA: hda/realtek: Fix headset mic for TongFang X6AR55xU
-f14e997a372a6dfec8f9578b9c15c3f4945e48b9 gpio: sprd: Change sprd_gpio lock to raw_spin_lock
-f2521ab1f63a8c244f06a080319e5ff9a2e1bd95 romfs: check sb_set_blocksize() return value
-72f97ee4950d095b5b23a04c186c4c977772b82c drm/tegra: hdmi: sor: Fix error: variable ‘j’ set but not used
-af673209d43b46257540997aba042b90ef3258c0 platform/x86: classmate-laptop: Add missing NULL pointer checks
-ff96318c22fa6e76719b2c1873cf9eda51f3860e platform/x86: panasonic-laptop: Fix sysfs group leak in error path
-612ffe1f4f0499b3011f16d06e354a76dae2e2d1 ASoC: fsl_xcvr: fix missing lock in fsl_xcvr_mode_put()
-20c83788eafed018fe6908f18e464f813878f431 gpiolib: acpi: Fix gpio count with string references
-cfdb22762f903d95c36ab91e9fe6167f22fa9f6d Revert "wireguard: device: enable threaded NAPI"
-b0bb67385480a3aa4c54b139e4f371ddd06b5150 btrfs: fix racy bitfield write in btrfs_clear_space_info_full()
-4a6e4c56721a3e6e2550b72ec56aab306c4607a7 smb: client: set correct id, uid and cruid for multiuser automounts
-51df5513cca6349d0bea01bab95cd96cf869976e net: dsa: free routing table on probe failure
-ec7b6a042414268b84e1d1a9b1b10f3546396db8 selftests: mptcp: pm: ensure unknown flags are ignored
-338d40bab283da2639780ee3e458fb61f1567d8c mptcp: fix race in mptcp_pm_nl_flush_addrs_doit()
-dc5f09466448253f58681662d45a58714348982a crypto: virtio - Remove duplicated virtqueue_kick in virtio_crypto_skcipher_crypt_req
-6dd2645cf080a75be31fa66063c7332b291f46f0 smb: server: fix leak of active_num_conn in ksmbd_tcp_new_connection()
-38770e103e4ef955e244886bf54ca71a1541298d bus: fsl-mc: Replace snprintf and sprintf with sysfs_emit in sysfs show functions
-c71dfb7833db7af652ee8f65011f14c97c47405d bus: fsl-mc: fix use-after-free in driver_override_show()
-f2bbb4db0e4a4fbd5e649c0b5d8733f61da24720 scsi: qla2xxx: Fix bsg_done() causing double free
-da9939b1ed8be80d82d7f261cc5ec332f8a717b9 scsi: qla2xxx: Use named initializers for port_[d]state_str
-23507a811081f0d0cb00fdeb5c138901038802fa scsi: qla2xxx: Remove dead code (GNN ID)
-794563147038824443f986c453740f0bc35ab1ef scsi: qla2xxx: Reduce fabric scan duplicate code
-b74408de1f2264220979f0c6a5a9d5e50b5b534b scsi: qla2xxx: Free sp in error path to fix system crash
-8055827352b7a3de2a2a949631203efe98ee24e5 PCI: endpoint: Automatically create a function specific attributes group
-7036aff5a5e8fb6c0f88de659d8b9910fb871099 PCI: endpoint: Remove unused field in struct pci_epf_group
-fa9fb38f5fe9c80094c2138354d45cdc8d094d69 PCI: endpoint: Avoid creating sub-groups asynchronously
-52916878db2b8e3769743a94484729f0844352df fbdev: rivafb: fix divide error in nv3_arb()
-6167af934f956d3ae1e06d61f45cd0d1004bbe1a fbdev: smscufx: properly copy ioctl memory to kernelspace
-2f67ff1e15a8a4d0e4ffc6564ab20d03d7398fe9 f2fs: fix to avoid UAF in f2fs_write_end_io()
-438a405fbad6882df0e34b3e1a16839a71f04240 f2fs: fix out-of-bounds access in sysfs attribute read/write
-cfd5eadd051a872a8437cff6b5e382cdb3fb55ad USB: serial: option: add Telit FN920C04 RNDIS compositions
-3330a8d33e086f76608bb4e80a3dc569d04a8814 Linux 5.15.201
+7342594a7456d019f1eeae744281573c32aeae2e crypto: octeontx - Fix length check to avoid truncation in ucode_load_store
+953c81941b0ad373674656b8767c00234ebf17ac crypto: omap - Allocate OMAP_CRYPTO_FORCE_COPY scatterlists correctly
+552475d0b6cece73a52c0fa5faa0ce45e99df74b crypto: virtio - Add spinlock protection with virtqueue notification
+6457d3ee41a4c15082ac49c5aa7fb933b4a043f3 nilfs2: Fix potential block overflow that cause system hang
+d8af012f92eee021c6ebb7093e65813c926c336b scsi: qla2xxx: Delay module unload while fabric scan in progress
+582657333570f2fec14f73df71cb96cda65eb253 scsi: qla2xxx: Query FW again before proceeding with login
+57bcd3feffa79544c73a1a1872472389a391cc79 gpio: omap: do not register driver in probe()
+5b2d999cb0d110686fa149232d10e12aab5a3e20 ALSA: hda/realtek: Fix headset mic for TongFang X6AR55xU
+8d7a73b8e2471062dc127ca5a13d6c40ffda37e2 gpio: sprd: Change sprd_gpio lock to raw_spin_lock
+a381f0f61b35c8894b0bd0d6acef2d8f9b08b244 romfs: check sb_set_blocksize() return value
+6a65919b7b9cdd038cdacfaf8624f960780de176 drm/tegra: hdmi: sor: Fix error: variable ‘j’ set but not used
+993708fc18d0d0919db438361b4e8c1f980a8d1b platform/x86: classmate-laptop: Add missing NULL pointer checks
+ede3ed691f632052a0ad5ad04e474ab44e358764 gpiolib: acpi: Fix gpio count with string references
+ef3033b435a6bac547166b793025578fab2f9df3 fs: dlm: fix invalid derefence of sb_lvbptr
+4a9b23e0f937329c00ef2e7803ec9aaf842db526 selftests: mptcp: pm: ensure unknown flags are ignored
+d577f850287537cc534f305149504e1b696f4720 crypto: virtio - Remove duplicated virtqueue_kick in virtio_crypto_skcipher_crypt_req
+85c0890fea6baeba9c4ae6ae090182cbb1a93fb2 scsi: qla2xxx: Validate sp before freeing associated memory
+b410ab8b9431d6d63d04caa1d69909fcc8b25eae scsi: qla2xxx: Free sp in error path to fix system crash
+057a5bdc481e58ab853117254867ffb22caf9f6e scsi: qla2xxx: Fix bsg_done() causing double free
+ec5a58f4fd581875593ea92a65485e1906a53c0f fbdev: rivafb: fix divide error in nv3_arb()
+061cfeb560aa3ddc174153dbe5be9d0b55eb7248 fbdev: smscufx: properly copy ioctl memory to kernelspace
+e85a99db9ab85dfc30d93b0ca0e9156f3127f55a f2fs: fix out-of-bounds access in sysfs attribute read/write
+0fb58aff0dafd6837cc91f4154f3ed6e020358fa f2fs: fix to avoid UAF in f2fs_write_end_io()
+4227696cf750b36d5c34b78055ed82ca106414b7 USB: serial: option: add Telit FN920C04 RNDIS compositions
+3e2558088a1a3dc941eec8edafd002758ae97d77 Linux 5.10.251
 
---===============1097286442407453030==--
+--===============0408470283531462965==--
