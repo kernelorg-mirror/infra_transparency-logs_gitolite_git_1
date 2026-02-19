@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7289857873682860095=="
+Content-Type: multipart/mixed; boundary="===============8986687310601078664=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Thu, 19 Feb 2026 21:59:05 -0000
-Message-Id: <177153834590.3776168.17840834642538031440@gitolite.kernel.org>
+Date: Thu, 19 Feb 2026 21:59:23 -0000
+Message-Id: <177153836350.3776488.15319992706547568590@gitolite.kernel.org>
 
---===============7289857873682860095==
+--===============8986687310601078664==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,53 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/main
-    old: ccd8e87748ad083047d6c8544c5809b7f96cc8df
-    new: 8bf22c33e7a172fbc72464f4cc484d23a6b412ba
-    log: revlist-ccd8e87748ad-8bf22c33e7a1.txt
+  - ref: refs/heads/dev-queue
+    old: ce30fecc2aa8d19194e63903721849a9fd699256
+    new: 305c5a79f612a39307b36b657aa2cb1e8f704ca3
+    log: revlist-ce30fecc2aa8-305c5a79f612.txt
 
---===============7289857873682860095==
+--===============8986687310601078664==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ccd8e87748ad-8bf22c33e7a1.txt
+Content-Disposition: attachment; filename=revlist-ce30fecc2aa8-305c5a79f612.txt
 
-3227c3a89d65fe7482312b7b27038d9ebd86f210 irqchip/gic-v5: Check if impl is virt capable
-b4af7d194dc879353829f3c56988a68fbba1fbdd mtd: spinand: Disable continuous read during probe
-d55d3fe2d1470ac5b6e93efe7998b728013c9fc8 MIPS: Loongson: Make cpumask_of_node() robust against NUMA_NO_NODE
-d463fc5ca1ace0b2e8bb764df04fc12ecd6f8e2b mips: LOONGSON32: drop a dangling Kconfig symbol
-4f82eef99abf7a1c1e718303b24bdb8b490e5a26 MIPS: pic32: include linux/io.h header on several files
-18635a70801cdd5635c7a82e0acb4c5075f74a91 MIPS: pic32: include linux/types.h on pic32.h
-3391d097cda8f803c062fb6326f0736a3379e2f9 MIPS: pic32: drop unused include linux/io.h from pic32.h
-d095d2dbcc8df60ede1674e28ce0f0a478d37535 MIPS: copy pic32.h header file from asm/mach-pic32/ to include/platform-data/
-d1c7ad04413717c0f61db33404a1592f0dd26f4f MAINTAINERS: add include/linux/platform_data/pic32.h to MIPS entry
-77485091b61399df20fad8b2fdf3e8cac3530bb1 MIPS: update include to use pic32.h from platform_data
-07caa83edd9a98d24769c1648b482b03839602ed clk: microchip: core: update include to use pic32.h from platform_data
-06e6f8112bc618101f242f77e45986ddbb11217f irqchip/irq-pic32-evic: update include to use pic32.h from platform_data
-d6618d277c1a8740ca37b8e4d4a35075e75a7c40 mmc: sdhci-pic32: update include to use pic32.h from platform_data
-b8694faa1a0fa848cb0a593ab2d7723868277926 pinctrl: pic32: update include to use pic32.h from platform_data
-ed65ae9f6c6b030e0a5912b7a88ca02f57cbc43e rtc: pic32: update include to use pic32.h from platform_data
-24cad1a22848bb7cece0000e443c368e205b551f serial: pic32_uart: update include to use pic32.h from platform_data
-0f8a61ca78d65e470eaf0d1c01f28d53ab56d0a7 watchdog: pic32-dmt: update include to use pic32.h from platform_data
-5aa5879eeebbef9cea33b3ca127d713a293d75d0 watchdog: pic32-wdt: update include to use pic32.h from platform_data
-89ace0736208de07577ecc16962927930baf4e7d MIPS: drop unused pic32.h header
-026d70dcfe5de1543bb8edb8e50d22dc16863e6b clk: microchip: core: allow driver to be compiled with COMPILE_TEST
-e4ec36bf7bc7023e1d207b1277755b0da381f20f MIPS: Loongson64: dts: fix phy-related definition of LS7A GMAC
-16718274ee75d24a21b10ebc8998c48cc14a656a tracing: perf: Have perf tracepoint callbacks always disable preemption
-f7d327654b886a768fb3baa5b43d151b63e2d4ff bpf: Have __bpf_trace_run() use rcu_read_lock_dont_migrate()
-a77cb6a8676672ee08c9f1feff4215575e06357b srcu: Fix warning to permit SRCU-fast readers in NMI handlers
-a46023d5616ed3ed781e56ca93400eb9490e3646 tracing: Guard __DECLARE_TRACE() use of __DO_TRACE_CALL() with SRCU-fast
-02b75ece53bb6e7b75b987d5728949451d1dc8a9 tracing: Add kerneldoc to trace_event_buffer_reserve()
-96657eb5ab7e231f6333a3fbc674c0451f13f7f1 Merge tag 'icc-6.20-rc1' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/djakov/icc into char-misc-next
-63050be0bfe0b280cce5d701b31940fd84858609 Merge branch 'for-7.0/cxl-misc' into cxl-for-next
-e5e45ea615a13edac86d6f84bbd5fc1c5d532a10 NFS: Move nfs40_call_sync_ops into nfs40proc.c
-c96c05fcfe395e93f738d924dfd40571ca4302ca NFS: Split out the nfs40_reboot_recovery_ops into nfs40client.c
-0e854d761e2bc316b810296c493d479fef92b2c6 NFS: Split out the nfs40_nograce_recovery_ops into nfs40proc.c
-963707b122ac22b03e9c0e54137045c139271ff1 NFS: Split out the nfs40_state_renewal_ops into nfs40proc.c
-b6ee9a9ba7a506d69171d637c1eab42a479c4c6c NFS: Split out the nfs40_mig_recovery_ops to nfs40proc.c
-0cba208fb979509721031d2469b31c45140e3063 NFS: Move the NFS v4.0 minor version ops into nfs40proc.c
-c30493d8c517e6138c9ba303a9b6484c8f0bd744 NFS: Make the various NFS v4.0 operations static again
-c695ac2d60f495a50aa2aceb4fdeb587e1008f65 NFS: Move nfs40_shutdown_client into nfs40client.c
 214359fe1689999048809cf752a997847d538dc6 NFS: Move nfs40_init_client into nfs40client.c
 424a3a71b8059cdb8e755bac35c29184a4ef4482 NFS: Move NFS v4.0 pathdown recovery into nfs40client.c
 211891374353c91f9aa4bb8cfca5d681b990f3d6 NFS: Pass a struct nfs_client to nfs4_init_sequence()
@@ -1050,5 +1014,41 @@ d451994ebc7d4392610bd4b2ab339b255deb4143 net/mlx5: Fix misidentification of writ
 571dcbeb8e635182bb825ae758399831805693c2 net: nfc: nci: Fix parameter validation for packet data
 4f13d0dabc87fb585b96d90cc4b29f67a2995405 Merge tag 'bpf-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf
 8bf22c33e7a172fbc72464f4cc484d23a6b412ba Merge tag 'net-7.0-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
+feb6f7b705999dd3c530f1776c8069a407a4ce56 ice: fix fwlog after driver reinit
+66a78f47009bc111c1a80c8a54ad4d037ac8c3f1 ice: Fix enable_cnt imbalance on resume
+537c1bf1e83c3293b3dd6426a181bd1befc0209d ice: Fix enable_cnt imbalance on PCIe error recovery
+848f9dab8311af2d6435b4f01de71c28463ae402 i40e: Fix enable_cnt imbalance on PCIe error recovery
+374a86bbda8b266f260ba4c5a7bd366efc52ad53 i40e: fix src IP mask checks and memcpy argument names in cloud filter
+d93139ad27349e8206dd761dc1bd6805a39b193b ixgbevf: fix link setup issue
+a73411a39e475d8f6679c18d1a8abe9f013d5a6e ice: fix 'adjust' timer programming for E830 devices
+b66d6dbd3e5369ca13a3ac09dffd3da566da22fd idpf: increment completion queue next_to_clean in sw marker wait routine
+91d15eeeb0fb52f4f08bda451d2a8ff975792002 ice: fix adding AQ LLDP filter for VF
+d012ab43df6f4c67eb15a429fd936fe0cc99d0cb ice: fix setting RSS VSI hash for E830
+65c658abe8157675d769349d51060d628e1a5c89 e1000e: correct TIMINCA on ADP/TGP systems with wrong XTAL frequency
+9c8499a7ec14986bd9d6ed41f58d2ca0b435c156 e1000e: introduce new board type for Panther Lake PCH
+2b89a0afdde702080caebeab79cfb1fb38ba879f e1000e: clear DPG_EN after reset to avoid autonomous power-gating
+80c3f6ac8486194cf3ca1ff644a4e8ba880e152f idpf: skip deallocating bufq_sets from rx_qgrp if it is NULL.
+39d870f6bee569684b87d42e765335ae0d53f9b8 idpf: skip deallocating txq group's txqs if it is NULL.
+c33836ed0328d13440f67a56eb58763d3e1ece61 idpf: Fix flow rule delete failure due to invalid validation
+241e0c25b436be7fbfeae54ae18857d7813cb177 ice: reintroduce retry mechanism for indirect AQ
+42ab4c9467abc4d6656b3e1f83034cb845ca7d44 ice: fix retry for AQ command 0x06EE
+733ae77380353fca33d09d520f124b1bdc1dddcc igb: Fix trigger of incorrect irq in igb_xsk_wakeup
+70d785f6b772762fc61d114a68ba5834890c0045 igc: Fix trigger of incorrect irq in igc_xsk_wakeup function
+ef87ad7f5e077cde8d2c68a3cd1c029ff4b68358 ice: Fix memory leak in ice_set_ringparam()
+fbe3f83706f47f9d995f9e6a2c94e52c79b503e5 idpf: nullify pointers after they are freed
+22c014b8674e069ddc27e1824b40f50072354f5f idpf: change IRQ naming to match netdev and ethtool queue numbering
+09d5883a7629782077ebcdb37603d120e2b5bff4 ice: recap the VSI and QoS info after rebuild
+e921ba945e58e2372947f4d8ba238ece9954fbdd iavf: fix PTP use-after-free during reset
+5cfd658bd1166ecbf97998962edf92177df0aaae ice: ptp: don't WARN when controlling PF is unavailable
+9fc3a8fc873c9b9b5401b71266ca3b6de5c483b5 ice: fix crash in ethtool offline loopback test
+c5cc74e12db12947e9a92203078412ffbc059bec i40e: Fix preempt count leak in napi poll tracepoint
+8a4e780949458820b8034217ebc7423d86543ff1 ice: fix race condition in TX timestamp ring cleanup
+ef3bb9db5affd110b1d529d6862c366b8629a508 ice: dpll: fix rclk pin state get and misplaced header macros
+44836459480abaa8b02daeea217e80ecfb016df5 iavf: fix netdev->max_mtu to respect actual hardware limit
+4fb236c3cbc08562279913bb58d329b81547e89e libie: prevent memleak in fwlog code
+d11516d79b52fe4a975747440dbb6e16f2b9d7e0 libie: don't unroll if fwlog isn't supported
+324a874133a06788f4f907ad0cf8e546f51d1241 iavf: fix incorrect reset handling in callbacks
+dab8a860b0ab0807be71f84a3ac33283232941ce ice: fix inverted ready check for VF representors
+305c5a79f612a39307b36b657aa2cb1e8f704ca3 ice: use ice_update_eth_stats() for representor stats
 
---===============7289857873682860095==--
+--===============8986687310601078664==--
