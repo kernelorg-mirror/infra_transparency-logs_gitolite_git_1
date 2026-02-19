@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bcain/linux
-Date: Thu, 19 Feb 2026 01:59:59 -0000
-Message-Id: <177146639943.2607129.1448352337492486173@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+Date: Thu, 19 Feb 2026 02:34:33 -0000
+Message-Id: <177146847333.2633818.17877336386025124943@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bcain/linux
-user: bcain
+repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+user: jarkko
 changes:
-  - ref: refs/tags/bcain-boot-qemu-18-Feb-2026
-    old: 0000000000000000000000000000000000000000
-    new: 55f8c91f29c779d5ede68b3b991c4c7d0912c0b2
+  - ref: refs/heads/rootns
+    old: 6502bc364ac412cb7a4e7b10575d969821bb7f72
+    new: 00d38354ad67c2f537579f896439f0b48f21be93
+    log: |
+         00d38354ad67c2f537579f896439f0b48f21be93 rootns: kselftest
+         
