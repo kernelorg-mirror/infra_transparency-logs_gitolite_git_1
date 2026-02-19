@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Thu, 19 Feb 2026 02:34:33 -0000
-Message-Id: <177146847333.2633818.17877336386025124943@gitolite.kernel.org>
+Date: Thu, 19 Feb 2026 02:42:46 -0000
+Message-Id: <177146896635.2641085.14054284007202456671@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
 user: jarkko
 changes:
   - ref: refs/heads/rootns
-    old: 6502bc364ac412cb7a4e7b10575d969821bb7f72
-    new: 00d38354ad67c2f537579f896439f0b48f21be93
+    old: 00d38354ad67c2f537579f896439f0b48f21be93
+    new: 7d1d2cdd0ca4b394b805534b904f119e9a506637
     log: |
-         00d38354ad67c2f537579f896439f0b48f21be93 rootns: kselftest
+         7d1d2cdd0ca4b394b805534b904f119e9a506637 rootns: kselftest
          
