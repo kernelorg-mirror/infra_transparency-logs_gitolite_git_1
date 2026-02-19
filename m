@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6817375606196728386=="
+Content-Type: multipart/mixed; boundary="===============9134546342987720950=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Thu, 19 Feb 2026 21:46:52 -0000
-Message-Id: <177153761203.3767562.8232913529838152068@gitolite.kernel.org>
+Date: Thu, 19 Feb 2026 21:47:04 -0000
+Message-Id: <177153762430.3767816.724998362809396064@gitolite.kernel.org>
 
---===============6817375606196728386==
+--===============9134546342987720950==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,15 +16,24 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: 7531d1edc2c3ca642ec736e14cebc8d53efb44c6
-    new: 31cf20b36f1340e34059df15475d8e9456e7e2b8
-    log: revlist-7531d1edc2c3-31cf20b36f13.txt
+    old: 31cf20b36f1340e34059df15475d8e9456e7e2b8
+    new: 1ae8bfb59ef1888585920fc7fcc17fef65ae358d
+    log: |
+         0256fe124c3692dbf93c181d7dfdb67ce4076431 Merge branch into tip/master: 'irq/urgent'
+         4a2d3908b575e3098bae1a38d281056067ca7b0d Merge branch into tip/master: 'timers/urgent'
+         20e1d4211506b7109f310a49be3774c9064a7fa1 Merge branch into tip/master: 'core/debugobjects'
+         1ae8bfb59ef1888585920fc7fcc17fef65ae358d Merge branch into tip/master: 'locking/futex'
+         
+  - ref: refs/heads/tip/urgent
+    old: 363783f4c9c65885f4bd6e177daaa37908ab4a4e
+    new: 4a2d3908b575e3098bae1a38d281056067ca7b0d
+    log: revlist-363783f4c9c6-4a2d3908b575.txt
 
---===============6817375606196728386==
+--===============9134546342987720950==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7531d1edc2c3-31cf20b36f13.txt
+Content-Disposition: attachment; filename=revlist-363783f4c9c6-4a2d3908b575.txt
 
 93686c472eb7b09a51b97a096449e7092fefcd1f ovpn: set sk_user_data before overriding callbacks
 a5ec7baa44ea3a1d6aa0ca31c0ad82edf9affe41 ovpn: fix possible use-after-free in ovpn_net_xmit
@@ -141,6 +150,7 @@ d451994ebc7d4392610bd4b2ab339b255deb4143 net/mlx5: Fix misidentification of writ
 571dcbeb8e635182bb825ae758399831805693c2 net: nfc: nci: Fix parameter validation for packet data
 4f13d0dabc87fb585b96d90cc4b29f67a2995405 Merge tag 'bpf-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf
 8bf22c33e7a172fbc72464f4cc484d23a6b412ba Merge tag 'net-7.0-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
-31cf20b36f1340e34059df15475d8e9456e7e2b8 Merge branch 'linus'
+0256fe124c3692dbf93c181d7dfdb67ce4076431 Merge branch into tip/master: 'irq/urgent'
+4a2d3908b575e3098bae1a38d281056067ca7b0d Merge branch into tip/master: 'timers/urgent'
 
---===============6817375606196728386==--
+--===============9134546342987720950==--
