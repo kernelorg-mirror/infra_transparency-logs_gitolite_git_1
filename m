@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
-Date: Thu, 19 Feb 2026 20:09:29 -0000
-Message-Id: <177153176939.3689872.11720536066685882976@gitolite.kernel.org>
+Date: Thu, 19 Feb 2026 20:10:14 -0000
+Message-Id: <177153181481.3692644.17255126724569283321@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/xiang/erofs-utils
 user: xiang
 changes:
   - ref: refs/heads/experimental
-    old: 67dc648cecbe8e08006fbd3f8e7555a7e5daab2a
-    new: 5b46ffc83c67cfdb07c1fc964ae6ae6002595889
+    old: 5b46ffc83c67cfdb07c1fc964ae6ae6002595889
+    new: 77892ebe2f53c2e466474521c0fa712a179a0af1
     log: |
-         5b46ffc83c67cfdb07c1fc964ae6ae6002595889 erofs-utils: lib: fix false-positive uninitialized variable warning
+         77892ebe2f53c2e466474521c0fa712a179a0af1 erofs-utils: lib: fix false-positive uninitialized variable warning
          
