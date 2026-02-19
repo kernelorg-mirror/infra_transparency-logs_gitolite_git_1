@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
-Date: Thu, 19 Feb 2026 22:35:48 -0000
-Message-Id: <177154054811.3806913.15768462795039990939@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Thu, 19 Feb 2026 22:43:49 -0000
+Message-Id: <177154102995.3811870.9009649000318244806@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
-user: paulmck
+repo: pub/scm/linux/kernel/git/netdev/net
+user: kuba
 changes:
-  - ref: refs/heads/dev
-    old: ee48914cfa6efd3d0366a2d5ccbfcb5848fc1584
-    new: 4b1c07e4f0ed69e49f43b601559b92bda64260b3
+  - ref: refs/heads/main
+    old: 64868f5ecadeb359a49bc4485bfa7c497047f13a
+    new: f1e2f0ce704e4a14e3f367d3b97d3dd2d8e183b7
     log: |
-         4b1c07e4f0ed69e49f43b601559b92bda64260b3 EXP repro: Add writer reacquisition and make readers block
+         f1e2f0ce704e4a14e3f367d3b97d3dd2d8e183b7 net: usb: lan78xx: scan all MDIO addresses on LAN7801
          
