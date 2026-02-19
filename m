@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7058766643445697161=="
+Content-Type: multipart/mixed; boundary="===============2014290335986984119=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/linkinjeon/ntfs
-Date: Thu, 19 Feb 2026 12:47:42 -0000
-Message-Id: <177150526208.3113653.5424341383927885445@gitolite.kernel.org>
+Date: Thu, 19 Feb 2026 12:51:28 -0000
+Message-Id: <177150548833.3117383.2152255223993770937@gitolite.kernel.org>
 
---===============7058766643445697161==
+--===============2014290335986984119==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,34 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/linkinjeon/ntfs
 user: linkinjeon
 changes:
-  - ref: refs/heads/master
-    old: cee73b1e840c154f64ace682cb477c1ae2e29cc4
-    new: 2b7a25df823dc7d8f56f8ce7c2d2dac391cea9c2
-    log: revlist-cee73b1e840c-2b7a25df823d.txt
+  - ref: refs/heads/ntfs-next
+    old: 225383c049d157bd7d3af29707c830a9474bf74a
+    new: 2dec6931ee04cab66658a50f6dbe5dd5a2cf4de2
+    log: revlist-225383c049d1-2dec6931ee04.txt
 
---===============7058766643445697161==
+--===============2014290335986984119==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-cee73b1e840c-2b7a25df823d.txt
+Content-Disposition: attachment; filename=revlist-225383c049d1-2dec6931ee04.txt
 
-541b1e867ea1c3c9021ce684113859e0494094ea dt-bindings: mfd: Add Bitmain BM1880 System Controller
-cd18e9af79ad17db88c0799197ed1fd948396388 mfd: core: Simplify with scoped for each OF child loop
-7d60a2b8c23a7109f3048c6cee77cc9ffa832755 mfd: core: Simplify storing device_node in mfd_match_of_node_to_dev()
-f78263a87336056b5948396c646d7d8413a2c2ea mfd: axp20x: AXP717: Add type-C CC registers
-9d1e2d5f2b24a24b32aca451d6a7feb081ad5a62 mfd: Kconfig: Default MFD_SPACEMIT_P1 to 'm' if ARCH_SPACEMIT
-e46de99c91de2eb1c6517a9be6934086cefb85b8 dt-bindings: mfd: nxp: Add NXP LPC32xx System Control Block
-414f65d6736342c77d4ec5e7373039f4a09250dd mfd: macsmc: Initialize mutex
-8f34c1a64c5394d2b51d3fba197947dc4b0b48a0 mfd: simple-mfd-i2c: Add Delta TN48M CPLD support
-b60c2dba6d3c3ad72a7c30bbd8eda07d8a49bc7f mfd: sec: Fix IRQ domain names duplication
-321c8fa2b6c8475634af246c6b2d51c31dbb60aa dt-bindings: mfd: qnap,ts433-mcu: Add qnap,ts133-mcu compatible
-a212772791d7bb44440d60485bd1102fbedb0bb1 mfd: qnap-mcu: Add driver data for TS133 variant
-42e4a9aab4775683b52dfdb8c7f2072817758152 dt-bindings: mfd: syscon: Allow syscon compatible for mediatek,mt7981-topmisc
-27a8acea47a93fea6ad0e2df4c20a9b51490e4d9 mfd: qcom-pm8xxx: Fix OF populate on driver rebind
-24804ba508a3e240501c521685a1c4eb9f574f8e mfd: omap-usb-host: Fix OF populate on driver rebind
-6647a80dfbbe10b920b6d6d3cc7b6bdc9168a29e dt-bindings: mfd: atmel,sama5d2-flexcom: Add microchip,lan9691-flexcom
-2872d17a9633bf710e3dcbe3c250daa9a11ba495 dt-bindings: mfd: mediatek,mt8195-scpsys: Add mediatek,mt6795-scpsys
-71ae8abaf100f92b72e99bed4801953b199a7ed4 dt-bindings: mfd: mediatek: mt6397: Add missing MT6331 regulator compat
 e11a9ad38095fe7bd1322ed6962c46f51523e885 mfd: ls2kbmc: Fully convert to use managed resources
 9e87c8bff5390791b3b9b22781110489e2437d0e mfd: ls2kbmc: Use PCI API instead of direct accesses
 cefd793fa17de708d043adab50e7f96f414b0f1d mfd: intel-lpss: Add Intel Nova Lake-S PCI IDs
@@ -1050,5 +1033,22 @@ fa2827e72cfcfac683e2e3ab355a0dbc97d52522 Merge tag 'thermal-7.0-rc1-2' of git://
 956b9cbd7f156c8672dac94a00de3c6a0939c692 Merge tag 'kbuild-fixes-7.0-1' of git://git.kernel.org/pub/scm/linux/kernel/git/kbuild/linux
 eeccf287a2a517954b57cf9d733b3cf5d47afa34 Merge tag 'mm-stable-2026-02-18-19-48' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
 2b7a25df823dc7d8f56f8ce7c2d2dac391cea9c2 Merge tag 'mm-nonmm-stable-2026-02-18-19-56' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
+1e9ea7e04472d4e5e12e58c881eaacfb3e49b669 Revert "fs: Remove NTFS classic"
+1f662195dbc07a66241cb5fe483036e5d07fb642 fs: add generic FS_IOC_SHUTDOWN definitions
+40796051991d9dacadebbdbee11e0c851215c4c4 ntfs: update in-memory, on-disk structures and headers
+6251f0b0de7d645e3591931ca4c11d8322c1866f ntfs: update super block operations
+af0db57d4293cc9fe6ce99fb5592dc2652228c9d ntfs: update inode operations
+115380f9a2f9675c7924563cbba70d40cae8fb81 ntfs: update mft operations
+0a8ac0c1fa0b99a5b29002bc7f232ed7eafddef0 ntfs: update directory operations
+9c87959601e80b39a45250e362e6ddfec17cb0fa ntfs: update file operations
+b041ca562526b3c4a71b41b80ba5e520eac636ad ntfs: update iomap and address space operations
+495e90fa334828d4119061e2726af51d0a0fb4ed ntfs: update attrib operations
+11ccc9107dc460de28af90fac1f42404d9802735 ntfs: update runlist handling and cluster allocator
+fc053f05ca282a5e760b41f6560ac835c4e28037 ntfs: add reparse and ea operations
+5218cd102aec7ae8df6af6e681ebb0b6d8e798f4 ntfs: update misc operations
+f3b47720c2b1e3ded09ad86c55b50af24b4170bb ntfs3: remove legacy ntfs driver support
+47503f989736d6c4c9f8bfca1c28d267473ccd4b ntfs: add Kconfig and Makefile
+ab00f20ab6c74d7594dd93eed0d543313e4713c7 Documentation: filesystems: update NTFS driver documentation
+2dec6931ee04cab66658a50f6dbe5dd5a2cf4de2 MAINTAINERS: update ntfs filesystem entry
 
---===============7058766643445697161==--
+--===============2014290335986984119==--
