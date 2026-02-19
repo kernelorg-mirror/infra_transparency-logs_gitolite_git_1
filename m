@@ -1,23 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gmonaco/linux
-Date: Thu, 19 Feb 2026 06:31:52 -0000
-Message-Id: <177148271235.2818508.11484438809664319787@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/nsc/kbuild
+Date: Thu, 19 Feb 2026 06:34:05 -0000
+Message-Id: <177148284572.2819370.18252697860843809232@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gmonaco/linux
-user: gmonaco
+repo: pub/scm/linux/kernel/git/nsc/kbuild
+user: nsc
 changes:
-  - ref: refs/heads/rv_hybrid_automata
-    old: 523014a019cde1da4eb7810ee3eb851b797c6a79
-    new: 697d475c0b365eae846c3c74aba4d62dcab31eaa
+  - ref: refs/heads/b4/kconfig-error-out-on-duplicated-inclusion
+    old: 4e7f403df7b4c9a58b6cfb0fad75c6f1145405c8
+    new: 222ffe3ccc57a98827056a4f4e0d6f4670302de0
     log: |
-         17c5c1dda549825f1a53174d72d15b6d22f652aa rv: Add dl_server specific monitors
-         09186dff044352e8c094b97d95f715b1e1519a6e fixup! rv: Add deadline monitors
-         754f0e40dc1427c84ae40ea969988eba574c626c fixup! verification/rvgen: Add support for Hybrid Automata
-         80e516487f0d73be0a2e72834d689c6cb3d00e8e fixup! sched: Add deadline tracepoints
-         697d475c0b365eae846c3c74aba4d62dcab31eaa fixup! rv: Add dl_server specific monitors
+         222ffe3ccc57a98827056a4f4e0d6f4670302de0 kconfig: Error out on duplicated kconfig inclusion
          
