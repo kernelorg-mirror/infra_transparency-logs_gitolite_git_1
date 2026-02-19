@@ -1,40 +1,73 @@
-Content-Type: multipart/mixed; boundary="===============2349657078798923570=="
+Content-Type: multipart/mixed; boundary="===============5585950658682747267=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Thu, 19 Feb 2026 09:31:42 -0000
-Message-Id: <177149350200.2957439.6527755320186621188@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
+Date: Thu, 19 Feb 2026 09:34:07 -0000
+Message-Id: <177149364779.2958609.1221926453843785837@gitolite.kernel.org>
 
---===============2349657078798923570==
+--===============5585950658682747267==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: mingo
+repo: pub/scm/linux/kernel/git/gregkh/char-misc
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/master
-    old: 85a0c64cb533e45aeb8cd9bcdd9cfbafb4a6e400
-    new: 7531d1edc2c3ca642ec736e14cebc8d53efb44c6
-    log: |
-         ec233a5efb05ed3ab9bd0e10d3d8be39b87407a8 Merge branch into tip/master: 'irq/urgent'
-         363783f4c9c65885f4bd6e177daaa37908ab4a4e Merge branch into tip/master: 'timers/urgent'
-         d3d73dfa09d6034c8cc7ee8d44594c50b257ca55 Merge branch into tip/master: 'core/debugobjects'
-         7531d1edc2c3ca642ec736e14cebc8d53efb44c6 Merge branch into tip/master: 'locking/futex'
-         
-  - ref: refs/heads/tip/urgent
-    old: 27bcdfdd6c2c99b49f767493dd05285581649b01
-    new: 363783f4c9c65885f4bd6e177daaa37908ab4a4e
-    log: revlist-27bcdfdd6c2c-363783f4c9c6.txt
+  - ref: refs/heads/main
+    old: 2961f841b025fb234860bac26dfb7fa7cb0fb122
+    new: 2b7a25df823dc7d8f56f8ce7c2d2dac391cea9c2
+    log: revlist-2961f841b025-2b7a25df823d.txt
 
---===============2349657078798923570==
+--===============5585950658682747267==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-27bcdfdd6c2c-363783f4c9c6.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1771493644 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
+nonce 1771493644-4d1f91ae52f6d891cacb2f97b2455b15cefd5833
+
+2961f841b025fb234860bac26dfb7fa7cb0fb122 2b7a25df823dc7d8f56f8ce7c2d2dac391cea9c2 refs/heads/main
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmmW2Q0bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Ym8P/3W0UCXBZ56eryZROiTs
+hNCjo9EU55Ese5m9tweIOlRbmYYfcSWJwu3AVSAJ8yoBJbytOBgGFiLwNlaQCCO9
+o2sC97v1BMGD+cJchuASHOnw/BlY0mceVGSmRIhyOb0blU6gn2cRcinBE0pLcyIh
+gKNiTdpKBpTtqNmtdGL9Iy9boYtO0DCg4/NfcBhyROwVOBWOGIju3MTOTTBkIYIQ
+BVTao2YlM2+DeHxndR/j3WwQoIoJk94JtlxlN1MId3nleWFlqDzQGMn/yIm2q/oy
+D33FlZUhOlZamKaJ1AaTNJGkD4F9Ew1RkeBN0Q/ywJbvK+mWzC5LytyhpFigrg/X
+quhxJ7Uo/dpqM4uSo53pU/xZv42pZJbWN52Z8R4OOkS9vWxR47uZnofRWqt+RjUR
+zZQjBcuG+9QnI37JuJcMzJEn+7rpODT+B6BBFwZP7Nu/TP18iZEJeWYPb8aR8qJL
+DMBKCeJkvNqkSPeO5nlAzOFDQBzbLRIZj0/kXm6xtS609WmYJovNcIlw6JuX/ZKW
+rsqpVMcHbbzS0RRngQ+/tTHcygeXo1DstqD36sjBwhpep3t0NUY5plX7L0CF+uRO
+sdPiKfiY2WexiH+M8gwx+veYTTUJOPaiXXvCswvIEHZdsIpVorm2VMmdp3YcjTqt
+DRyzn+NCQzneMJ5r+HtFeJo+
+=itJT
+-----END PGP SIGNATURE-----
+
+--===============5585950658682747267==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-2961f841b025-2b7a25df823d.txt
+
+486401052432f1ba1628e1eed59b3e6bfb07b5c1 sysctl: Add missing kernel-doc for proc_dointvec_conv
+b22d81fb683f22304f017b1b1674e6937bdd6d49 alloc_tag: move memory_allocation_profiling_sysctls into .rodata
+a2564d0688db20a1ee1660f45d7823075feb12a7 loadpin: Implement custom proc_handler for enforce
+f7386f545e49e5e6229a14d92b39340d155b0b3f sysctl: Remove unused ctl_table forward declarations
+11400f86c28eaeb8d0cc22fef3f16fdd87d46214 sysctl: Return -ENOSYS from proc_douintvec_conv when CONFIG_PROC_SYSCTL=n
+ac3d6a4b60ef1b26b29517d35ca28966142fc65e sysctl: clarify proc_douintvec_minmax doc
+6036dc03c39a3cb0df14899f29323b6b4b58dfe9 sysctl: Add CONFIG_PROC_SYSCTL guards for converter macros
+8fc344a5af7e73178e6ac54d396327655e9ea358 sysctl: Replace UINT converter macros with functions
+b3af263b8a83f2ed033ae83fe008004b061b84f4 sysctl: Add kernel doc to proc_douintvec_conv
+ef153851af5b05c23b3484e7eebaadd18f2da6a9 sysctl: Replace unidirectional INT converter macros with functions
+d174174c6776a340f5c25aab1ac47a2dd950f380 sysctl: replace SYSCTL_INT_CONV_CUSTOM macro with functions
 15176b818e048ccf6ef4b96db34eda7b7e98938a thermal: int340x: Fix sysfs group leak on DLVR registration failure
 7537bae8b6eb635583e0e6260f61d13ddbd52087 powercap: intel_rapl: Remove incorrect CPU check in PMU context
 525e0064f3d81764277036036932e873608a47af powercap: intel_rapl: Expose all package CPUs in PMU cpumask
@@ -106,6 +139,9 @@ e5c9ffc6ae1bcdb1062527d611043681ac301aca cpuidle: Skip governor when only one id
 9b9c0ff095f04c27da1f761d77c19cd53594d18e cpuidle: haltpoll: Remove single state handling
 825d5d347935d5fc339df969c572e382393f40ec cpuidle: teo: Remove single state handling
 93983a9f3beea791c21d77c2425488ad327d4fda cpuidle: menu: Remove single state handling
+ef0e60083f768b32cda17b1b0ca9519405db89a6 tools/power turbostat: Fix AMD RAPL regression
+7ad54bbbc9c512ba3bc90e4368264bcf15c25759 Merge tag 'turbostat-2026.02.14-AMD-RAPL-fix' of git://git.kernel.org/pub/scm/linux/kernel/git/lenb/linux
+23b0f90ba871f096474e1c27c3d14f455189d2d9 Merge tag 'sysctl-7.00-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/sysctl/sysctl
 becbdde56a5c0e40c9bbbb6b8d5ffbb8de635d63 Merge branches 'pm-powercap' and 'pm-cpuidle'
 ca8ee553dbc497228e4f85ee1eef83ed7fac363c Merge branches 'acpi-pm' and 'acpi-cppc'
 b89d8be0dcf9d734583f10d88b85256ec67dd0dd Merge branches 'acpi-battery', 'acpi-button' and 'acpi-driver'
@@ -115,7 +151,5 @@ fa2827e72cfcfac683e2e3ab355a0dbc97d52522 Merge tag 'thermal-7.0-rc1-2' of git://
 956b9cbd7f156c8672dac94a00de3c6a0939c692 Merge tag 'kbuild-fixes-7.0-1' of git://git.kernel.org/pub/scm/linux/kernel/git/kbuild/linux
 eeccf287a2a517954b57cf9d733b3cf5d47afa34 Merge tag 'mm-stable-2026-02-18-19-48' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
 2b7a25df823dc7d8f56f8ce7c2d2dac391cea9c2 Merge tag 'mm-nonmm-stable-2026-02-18-19-56' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
-ec233a5efb05ed3ab9bd0e10d3d8be39b87407a8 Merge branch into tip/master: 'irq/urgent'
-363783f4c9c65885f4bd6e177daaa37908ab4a4e Merge branch into tip/master: 'timers/urgent'
 
---===============2349657078798923570==--
+--===============5585950658682747267==--
