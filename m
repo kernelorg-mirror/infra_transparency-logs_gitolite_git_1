@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3036592355010781402=="
+Content-Type: multipart/mixed; boundary="===============5991916076188542046=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Thu, 19 Feb 2026 22:12:00 -0000
-Message-Id: <177153912077.3787873.1770893395904635909@gitolite.kernel.org>
+Date: Thu, 19 Feb 2026 22:12:04 -0000
+Message-Id: <177153912446.3788143.5287180577001345505@gitolite.kernel.org>
 
---===============3036592355010781402==
+--===============5991916076188542046==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/40GbE
+  - ref: refs/heads/100GbE
     old: ccd8e87748ad083047d6c8544c5809b7f96cc8df
     new: 8bf22c33e7a172fbc72464f4cc484d23a6b412ba
     log: revlist-ccd8e87748ad-8bf22c33e7a1.txt
 
---===============3036592355010781402==
+--===============5991916076188542046==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ d451994ebc7d4392610bd4b2ab339b255deb4143 net/mlx5: Fix misidentification of writ
 4f13d0dabc87fb585b96d90cc4b29f67a2995405 Merge tag 'bpf-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf
 8bf22c33e7a172fbc72464f4cc484d23a6b412ba Merge tag 'net-7.0-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 
---===============3036592355010781402==--
+--===============5991916076188542046==--
