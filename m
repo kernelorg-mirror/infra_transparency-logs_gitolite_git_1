@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0854595413351334530=="
+Content-Type: multipart/mixed; boundary="===============2349657078798923570=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Thu, 19 Feb 2026 09:31:29 -0000
-Message-Id: <177149348930.2956995.15928869689844397718@gitolite.kernel.org>
+Date: Thu, 19 Feb 2026 09:31:42 -0000
+Message-Id: <177149350200.2957439.6527755320186621188@gitolite.kernel.org>
 
---===============0854595413351334530==
+--===============2349657078798923570==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,15 +16,24 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: c8b6237049860adbf093ab6f864f7db50066aeb0
-    new: 85a0c64cb533e45aeb8cd9bcdd9cfbafb4a6e400
-    log: revlist-c8b623704986-85a0c64cb533.txt
+    old: 85a0c64cb533e45aeb8cd9bcdd9cfbafb4a6e400
+    new: 7531d1edc2c3ca642ec736e14cebc8d53efb44c6
+    log: |
+         ec233a5efb05ed3ab9bd0e10d3d8be39b87407a8 Merge branch into tip/master: 'irq/urgent'
+         363783f4c9c65885f4bd6e177daaa37908ab4a4e Merge branch into tip/master: 'timers/urgent'
+         d3d73dfa09d6034c8cc7ee8d44594c50b257ca55 Merge branch into tip/master: 'core/debugobjects'
+         7531d1edc2c3ca642ec736e14cebc8d53efb44c6 Merge branch into tip/master: 'locking/futex'
+         
+  - ref: refs/heads/tip/urgent
+    old: 27bcdfdd6c2c99b49f767493dd05285581649b01
+    new: 363783f4c9c65885f4bd6e177daaa37908ab4a4e
+    log: revlist-27bcdfdd6c2c-363783f4c9c6.txt
 
---===============0854595413351334530==
+--===============2349657078798923570==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c8b623704986-85a0c64cb533.txt
+Content-Disposition: attachment; filename=revlist-27bcdfdd6c2c-363783f4c9c6.txt
 
 15176b818e048ccf6ef4b96db34eda7b7e98938a thermal: int340x: Fix sysfs group leak on DLVR registration failure
 7537bae8b6eb635583e0e6260f61d13ddbd52087 powercap: intel_rapl: Remove incorrect CPU check in PMU context
@@ -106,6 +115,7 @@ fa2827e72cfcfac683e2e3ab355a0dbc97d52522 Merge tag 'thermal-7.0-rc1-2' of git://
 956b9cbd7f156c8672dac94a00de3c6a0939c692 Merge tag 'kbuild-fixes-7.0-1' of git://git.kernel.org/pub/scm/linux/kernel/git/kbuild/linux
 eeccf287a2a517954b57cf9d733b3cf5d47afa34 Merge tag 'mm-stable-2026-02-18-19-48' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
 2b7a25df823dc7d8f56f8ce7c2d2dac391cea9c2 Merge tag 'mm-nonmm-stable-2026-02-18-19-56' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
-85a0c64cb533e45aeb8cd9bcdd9cfbafb4a6e400 Merge branch 'linus'
+ec233a5efb05ed3ab9bd0e10d3d8be39b87407a8 Merge branch into tip/master: 'irq/urgent'
+363783f4c9c65885f4bd6e177daaa37908ab4a4e Merge branch into tip/master: 'timers/urgent'
 
---===============0854595413351334530==--
+--===============2349657078798923570==--
