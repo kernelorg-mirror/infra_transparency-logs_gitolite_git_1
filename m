@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/mm
-Date: Thu, 19 Feb 2026 03:56:59 -0000
-Message-Id: <177147341937.2700951.8989285660979305264@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bmc/linux
+Date: Thu, 19 Feb 2026 04:34:38 -0000
+Message-Id: <177147567879.2727766.6449500233431048641@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/mm
-user: akpm
+repo: pub/scm/linux/kernel/git/bmc/linux
+user: arj
 changes:
-  - ref: refs/tags/mm-nonmm-stable-2026-02-18-19-56
-    old: 0000000000000000000000000000000000000000
-    new: 1b91b375c9fb7bff4e938713d018619cc4ba36d0
+  - ref: refs/heads/aspeed/arm/dt
+    old: 86c99a2b8efa9d707f4264dc302dc4dcbd677b3d
+    new: 3ac0361957408095d0714b6d1cf4e93884612ba6
+    log: |
+         3ac0361957408095d0714b6d1cf4e93884612ba6 ARM: dts: aspeed: anacapa: add NFC device
+         
