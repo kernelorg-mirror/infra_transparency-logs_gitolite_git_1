@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3261187652021280332=="
+Content-Type: multipart/mixed; boundary="===============2366858034373469637=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
-Date: Thu, 19 Feb 2026 08:44:19 -0000
-Message-Id: <177149065911.2918964.11474836751895947403@gitolite.kernel.org>
+Date: Thu, 19 Feb 2026 08:44:36 -0000
+Message-Id: <177149067696.2919309.13477829412162834855@gitolite.kernel.org>
 
---===============3261187652021280332==
+--===============2366858034373469637==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,22 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/peterz/queue
 user: peterz
 changes:
-  - ref: refs/heads/locking/core
-    old: 39ffb0e5ef8e21aa5a24bd388194c1a2d0759461
-    new: 60c4c18ef62df77a97d3315efb477ab67bc7ab42
-    log: revlist-39ffb0e5ef8e-60c4c18ef62d.txt
+  - ref: refs/heads/sched/urgent
+    old: 30c0369ce382675a616a8cf7ff5a3c4b86d10f2f
+    new: 72e8b07a4b83e5bae237c274003762362efd10c3
+    log: revlist-30c0369ce382-72e8b07a4b83.txt
 
---===============3261187652021280332==
+--===============2366858034373469637==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-39ffb0e5ef8e-60c4c18ef62d.txt
+Content-Disposition: attachment; filename=revlist-30c0369ce382-72e8b07a4b83.txt
 
-003b9dae53ae795930c54945e0b0a41bbd527b44 RISC-V: KVM: Skip IMSIC update if vCPU IMSIC state is not initialized
-f326e846ff89c82083c09fa495457442c252983e riscv: KVM: allow Zilsd and Zclsd extensions for Guest/VM
-ab2a7b7b6b8831348646688345c3209cdaee5d46 KVM: riscv: selftests: add Zilsd and Zclsd extension to get-reg-list test
-39ad809dd2579d9b7400bbc50a5b95d84527b75e KVM: riscv: selftests: Add riscv vm satp modes
-655d330c058f4e16de46d5c9b203008c630b59c8 RISC-V: KVM: Allow Zalasr extensions for Guest/VM
 671995ff4c308fc1adf01727df670c83434ffb5a RISC-V: KVM: selftests: Add Zalasr extensions to get-reg-list test
 ed7ae7a34bea06f81270866dfbe619a22518666b RISC-V: KVM: Transparent huge page support
 376e2f8cca2816c489a9196e65cc904d1a907fd2 irqchip/riscv-imsic: Adjust the number of available guest irq files
@@ -1047,8 +1042,13 @@ fa2827e72cfcfac683e2e3ab355a0dbc97d52522 Merge tag 'thermal-7.0-rc1-2' of git://
 956b9cbd7f156c8672dac94a00de3c6a0939c692 Merge tag 'kbuild-fixes-7.0-1' of git://git.kernel.org/pub/scm/linux/kernel/git/kbuild/linux
 eeccf287a2a517954b57cf9d733b3cf5d47afa34 Merge tag 'mm-stable-2026-02-18-19-48' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
 2b7a25df823dc7d8f56f8ce7c2d2dac391cea9c2 Merge tag 'mm-nonmm-stable-2026-02-18-19-56' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
-d10f702abe8f246023971262fe635153e03e3b2d locking/mutex: Rename mutex_init_lockep()
-f15f48b9805abe9fd9bcd45c738bfcf3af08462b locking/mutex: Fix wrong comment for CONFIG_DEBUG_LOCK_ALLOC
-60c4c18ef62df77a97d3315efb477ab67bc7ab42 locking/mutex: Add killable flavor to guard definitions
+e38ca0ed75f8c2bf0ed87bfd9f4a1051544f0016 sched/fair: Fix zero_vruntime tracking
+2679e685c2de7011f3c918b887601618ad0bbf78 sched/fair: Only set slice protection at pick time
+abd2e7aba00eb0db32705dcc3e5fba0aa695e73a sched/eevdf: Update se->vprot in reweight_entity()
+ddc471608bb90d0dfede8ba83697f953dc6e189f sched/fair: Fix lag clamp
+20b5f4bf6ef23c706911e8c10322113b2481211c rseq: Mark rseq_arm_slice_extension_timer() __always_inline
+536291458d1a624bae6f20d9d328052cbc9162b3 sched/core: Fix wakeup_preempt's next_class tracking
+3c37ac64d5189b494ad54ecccec1be3d7d9953f6 rseq: Clarify rseq registration rseq_size bound check comment
+72e8b07a4b83e5bae237c274003762362efd10c3 rseq: slice ext: Ensure rseq feature size differs from original rseq size
 
---===============3261187652021280332==--
+--===============2366858034373469637==--
