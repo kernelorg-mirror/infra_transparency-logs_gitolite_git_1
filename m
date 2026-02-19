@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4042064843045837924=="
+Content-Type: multipart/mixed; boundary="===============0159875803510997389=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/gregkh
-Date: Thu, 19 Feb 2026 13:56:11 -0000
-Message-Id: <177150937195.3171344.8697670064718186431@gitolite.kernel.org>
+Date: Thu, 19 Feb 2026 13:56:38 -0000
+Message-Id: <177150939827.3171675.10227612653134146296@gitolite.kernel.org>
 
---===============4042064843045837924==
+--===============0159875803510997389==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/gregkh
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/readfile
-    old: 874c8b6593496cc826ed6a2f6302f27967a8d829
-    new: 99ef1551538ea253b411748e9ad6d49ac8261da5
-    log: revlist-874c8b659349-99ef1551538e.txt
+  - ref: refs/heads/main
+    old: 9702969978695d9a699a1f34771580cdbb153b33
+    new: 2b7a25df823dc7d8f56f8ce7c2d2dac391cea9c2
+    log: revlist-970296997869-2b7a25df823d.txt
 
---===============4042064843045837924==
+--===============0159875803510997389==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1771509348 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1771509375 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/gregkh.git
-nonce 1771509344-65251c7773875e4d06053098d67e837740f1b8a2
+nonce 1771509373-99014ce3a861f8b97a01d78cd620fcdc01f5d3b6
 
-874c8b6593496cc826ed6a2f6302f27967a8d829 99ef1551538ea253b411748e9ad6d49ac8261da5 refs/heads/readfile
+9702969978695d9a699a1f34771580cdbb153b33 2b7a25df823dc7d8f56f8ce7c2d2dac391cea9c2 refs/heads/main
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmmXFmQbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+DskP/jrTLc+x8aO+NIxPOuk2
-xtuWI7GlhAGJpDtJT2hB+yAJoZtuPddhSeFuLKXR/+Kh8lyiZsNr6Gr1qj+18oDS
-5zrsLDU0XSvmPseAwe3wst9wJ6+a6olT0wpOiuPV+a00uydn8fzQYnTge8sNDdrL
-KZ5QzjyMOEVzDA9nhjrRK4eC4VP8zcSXiyzes7qaLHE49iHZLe4C0CILWspptAWA
-rO1+8AZdKdr3+HzJ6XX9NiALLAQBOKnSe17X6zuG+2KWt4rtSksH5Qg32yEVWnWW
-gnTPwswilVb+QdMh4Q8oNLtlncxKDG6HLlitKc/l83HBWXA4ZrZ6A20uGF47DrtI
-U2PtVP09k6KuhyBCxUc0f1gDkHRcCAsPMx2pxod2WHUvb41+g+k9wpDB9BrlcfY6
-X8azWf1BtzGslJMC3nIU6sqNK6XA16ydLy8wFskUrQLbVTWw+o9vBaGlhSjsGGvT
-wF3v7Y5fh8BdPL6B0V/VHkEYtSPRaBv4V+xarHVmvvKF1QeZoA5LpdfZN4cME4ms
-crq2uI2r5jWAUTsIWkxdDFotx4qsRLVf4Mf/G/YL2aknIM8Y9CxH7oULAjrgqnZ1
-4EMzzV6kp4dqIW201ETIsZzC68GBTgbtsFpzBpO6I3A22TCKyJ4qDzhS3RvqZ7vb
-cJv9vOUHZ1yeWx3SrZ5lQ2oh
-=u3bP
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmmXFn8bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+fp4QAIqcOuqN4nkoFYmsPT3n
+IWyq5J9fdTCbS/9zgEmdizWQfe0/HP16CZy2ZrWk8naGdsBEv7Z+DMR4TRRDjZZO
+kxqIPohekTRjA+zT9s8o2QQqNdQ/eYgUg0oxpUdqsmAa/+LCkADL9i2yjWBi+bbA
+00aPXfrQNM1jHwH1wT3I/gmPkohPzVVYoJe/0z9u4fIbjkwS+WvchRIq6zjdBclW
+2GJyP955mZ451C97t4z3mJARMQr+bWsHFJ7MA69wKXsZOZjgN+8p1y8xE51+QPBt
+E/+P8g4Eu8EkLMFgUuum/Outl0aFH6vNgZDQ8q94MQ+VE1zLklUu83qW1qcdaAug
+tH7ALzNCkOQ+ZnGlHhknX/79jcoMfBK9pEpByjDVMQWQEo9Y1LyduhUzB9HnNbBS
+uSmMCpOoMMg+ifZEaj8gdNn2S9n+8L4859akfgG/5I85Za9KacbI1fmIKjf9YSLG
+TQhsr3S5KocznTdD3Y2p/TB2t4GuyFj0pAQrVcAaqULjSgTkJB/zkQ1reskh5/I1
+svY0LDexFvFNSkA3x5A6qX55SjfqnIr+xsk9Hy+DyPKitIYWFGOtaencGVi+CeJk
+GSqTa+PNfCpg0KNy+1uMIoqxnKKV8ARb3fxPe+Ry0Nf/t48fLX1GQ7kzT1n1r1lg
+mnH1XD8IWKb7ez3A4VDTKLwM
+=u0xa
 -----END PGP SIGNATURE-----
 
---===============4042064843045837924==
+--===============0159875803510997389==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-874c8b659349-99ef1551538e.txt
+Content-Disposition: attachment; filename=revlist-970296997869-2b7a25df823d.txt
 
 9e51d1da5b245c9bf97fc49b06cca7e901c0fe94 firmware: stratix10-svc: Delete some stray tabs
 f87e5575a6bd1925cd55f500b61b661724372e5f soundwire: intel_auxdevice: add cs42l45 codec to wake_capable_list
@@ -1046,9 +1046,5 @@ fa2827e72cfcfac683e2e3ab355a0dbc97d52522 Merge tag 'thermal-7.0-rc1-2' of git://
 956b9cbd7f156c8672dac94a00de3c6a0939c692 Merge tag 'kbuild-fixes-7.0-1' of git://git.kernel.org/pub/scm/linux/kernel/git/kbuild/linux
 eeccf287a2a517954b57cf9d733b3cf5d47afa34 Merge tag 'mm-stable-2026-02-18-19-48' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
 2b7a25df823dc7d8f56f8ce7c2d2dac391cea9c2 Merge tag 'mm-nonmm-stable-2026-02-18-19-56' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
-33690abb2b51050a14a93feba7e56bd528704713 readfile: implement readfile syscall
-41fbc047b795f7bb257341e7e54866c2dea84005 arch: wire up the readfile syscall
-8134a01501906992ad27e51cea425907481f59e8 readfile.2: new page describing readfile(2)
-99ef1551538ea253b411748e9ad6d49ac8261da5 selftests: add readfile(2) selftests
 
---===============4042064843045837924==--
+--===============0159875803510997389==--
