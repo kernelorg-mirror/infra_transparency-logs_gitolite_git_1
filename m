@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4251182711358882953=="
+Content-Type: multipart/mixed; boundary="===============3048647932414414358=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Fri, 20 Feb 2026 00:35:51 -0000
-Message-Id: <177154775129.3900246.6107766216507328979@gitolite.kernel.org>
+Date: Fri, 20 Feb 2026 00:36:23 -0000
+Message-Id: <177154778366.3900673.1627497189773729137@gitolite.kernel.org>
 
---===============4251182711358882953==
+--===============3048647932414414358==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,101 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/main
-    old: 37a93dd5c49b5fda807fd204edf2547c3493319c
-    new: 8bf22c33e7a172fbc72464f4cc484d23a6b412ba
-    log: revlist-37a93dd5c49b-8bf22c33e7a1.txt
+  - ref: refs/heads/dev-queue
+    old: 8137e3db7f1c02548b11fd905bdc2cfd5255f6c7
+    new: b213d8025d7ee1e4ae1cd7fdd1e4645c1b7ae53e
+    log: revlist-8137e3db7f1c-b213d8025d7e.txt
 
---===============4251182711358882953==
+--===============3048647932414414358==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-37a93dd5c49b-8bf22c33e7a1.txt
+Content-Disposition: attachment; filename=revlist-8137e3db7f1c-b213d8025d7e.txt
 
-07de55cbf5762cb4a7e9e0db7aba5c10c8cfe079 f2fs: fix lock priority inversion issue
-bc367775f60214312befa33f101b31fe74bba48a f2fs: introduce trace_f2fs_priority_update
-f84b65b045f186b8fbaa32e090688ef3282b56c3 Merge branch 'mm-hotfixes-stable' into mm-stable to pick up "mm/shmem, swap: fix race of truncate and swap entry split", needed for merging "mm, swap: cleanup swap entry management workflow".
-7832e4d583ee7c6a7907731c568ca40b160d8a5e mm/khugepaged: remove unnecessary goto 'skip' label
-3ab981c1fca08721a2cc100d4e097d4e0c9e149b mm/khugepaged: change collapse_pte_mapped_thp() to return void
-40bd4ff090685746459b05f59f00049ff58493e8 mm/khugepaged: use enum scan_result for result variables and return types
-9c284c91b08e9a669e9e9657814be9ff49310fa2 mm/khugepaged: make khugepaged_collapse_control static
-6e31add91a10e3804f020ec4e87cb9c3b2b6c3ec vmw_balloon: adjust BALLOON_DEFLATE when deflating while migrating
-d2346b09c51574fd6c281e3b8092116df1e42f81 vmw_balloon: remove vmballoon_compaction_init()
-5b3342cbf0f4493fa955675df79f9d10ab778662 powerpc/pseries/cmm: remove cmm_balloon_compaction_init()
-6af05dfe9af7df4756494e460289fc9a9d2fc531 mm/balloon_compaction: improve comments for WARN_ON_ONCE(!b_dev_info)
-1258460bd31ed6e0d504adeaf9df7e6c1b348d14 mm/balloon_compaction: centralize basic page migration handling
-a00de9ba30aa71fe68ab45a9d2df595a7c39dd74 mm/balloon_compaction: centralize adjust_managed_page_count() handling
-c33b47c334f933d846cadf7c2cff24433e5b3bb0 vmw_balloon: stop using the balloon_dev_info lock
-8202313e3dfa9bdeb73427b564cfe2bfd02e4807 mm/balloon_compaction: use a device-independent balloon (list) lock
-a3fafdd3896719923f7055b6d7f10f6ee1950d8b mm/balloon_compaction: remove dependency on page lock
-ddc50a97bef1e34c096bf3f0dc9590d7f570ed7b mm/balloon_compaction: make balloon_mops static
-aa974cbf949e94c79b46a0053d40229bc634f9be mm/balloon_compaction: drop fs.h include from balloon_compaction.h
-f7e15373143aba99a6ec51dc4db7187bff6c9a0a drivers/virtio/virtio_balloon: stop using balloon_page_push/pop()
-0fa3e9a48bafde8aa5a5b994b05396e9b86ce156 mm/balloon_compaction: remove balloon_page_push/pop()
-9d792ef33e40c8511b00a38e5e2e63f20bd2d815 mm/balloon_compaction: fold balloon_mapping_gfp_mask() into balloon_page_alloc()
-03d6a2f68419b808d51ba39c84aedd6e9a6a92d8 mm/balloon_compaction: move internal helpers to balloon_compaction.c
-631eb2282630dc0cccd8284c4ea37e29d17d1f48 mm/balloon_compaction: assert that the balloon_pages_lock is held
-eee00d04142172c07466ab1192d1dccc6d5a2f87 mm/balloon_compaction: mark remaining functions for having proper kerneldoc
-92ec9260d53b245d3266f74ecc66d8ea47aaec3d mm/balloon_compaction: remove "extern" from functions
-a3db9e136ce1996d528dd4fc8d1d2bae7f8bef09 mm/vmscan: drop inclusion of balloon_compaction.h
-25b48b4cdf912f70998336b861a4bf767ee3d332 mm: rename balloon_compaction.(c|h) to balloon.(c|h)
-7cf3318a25877c0908e450919f7e1517908e24f1 mm/kconfig: make BALLOON_COMPACTION depend on MIGRATION
-cd8e95d80bc29b3c72288bd31e845b11755ef6a5 mm: rename CONFIG_BALLOON_COMPACTION to CONFIG_BALLOON_MIGRATION
-1421758055ca6028d3b758914863f38d434bf36b mm: rename CONFIG_MEMORY_BALLOON -> CONFIG_BALLOON
-c0f609f799212e8ae0086b83a24ac616e0cd5696 MAINTAINERS: move memory balloon infrastructure to "MEMORY MANAGEMENT - BALLOON"
-6efc548d8a08ae918020225e16d040ce3903bff7 zram: rename init_lock to dev_lock
-d468d8f86d80383e52ab6cf59e916b9f5578d46a mm: drop filename from page_alloc.c header comment
-77bcee8d4015a1191e1e3f5c5c51589086493ab0 alloc_tag: fix rw permission issue when handling boot parameter
-5898aa8f9a0b42fe1f65c7364010ab15ec5c38bf mm: fix OOM killer inaccuracy on large many-core systems
-dc9fe9b7056a44ad65715def880e7d91d32c047f mm/vmscan: mitigate spurious kswapd_failures reset from direct reclaim
-a45088376d8a847a5e3b1982fcfceb41644e3b1d mm/vmscan: add tracepoint and reason for kswapd_failures reset
-94350fe6cad77b46c3dcb8c96543bef7647efbc0 mm/highmem: fix __kmap_to_page() build error
-a1c655f554441561bf4b256dc75d977a1433753c mm/hugetlb: remove unnecessary if condition
-824b8c96c421e677cf0fe6f69939ff0082665a34 mm/hugetlb: enforce brace style
-0bcbd7cf6596826cfb0ca653f47fb9e9410b3f2e mm: replace use of system_unbound_wq with system_dfl_wq
-73b2162126ff0b811929f700cec9475622c9cb11 mm: replace use of system_wq with system_percpu_wq
-ed0a826ce3025832c8d8b79924fd638f75b62bb7 mm: add WQ_PERCPU to alloc_workqueue users
-3a64d5b82eccc0dc629d43cde791a2c19bd67dfc sparc/mm: export symbols for lazy_mmu_mode KUnit tests
-4ac76c51709dff01b285a2d8afea80ca7ae66d28 selftests/mm: default KDIR to build directory
-1821be740d2e9329805cafa368e476064fde0789 selftests/mm: remove flaky header check
-7f532d19c8be76ad2fcd7ab6b0c9eb618f70966b selftests/mm: pass down full CC and CFLAGS to check_config.sh
-bce1dabd310e87fefe0645fec9ba98b84d37e418 selftests/mm: fix usage of FORCE_READ() in cow tests
-20d3fac43608a1d7ef71991935abc4456baa1da7 selftests/mm: check that FORCE_READ() succeeded
-dd2b4e04c09808ff921e3460a608537d1a94595d selftests/mm: introduce helper to read every page
-7e938f00b00319510ae097e20b7487dfa578d53f selftests/mm: fix faulting-in code in pagemap_ioctl test
-148e5879532f835118e00c3040acef077b57721a selftests/mm: fix exit code in pagemap_ioctl
-fde8353121aa304ee88542f011dd5dc83ced47e4 selftests/mm: report SKIP in pfnmap if a check fails
-c83109e95c9d78e41b39e65b6490e511f4b8fba2 mm: page_isolation: introduce page_is_unmovable()
-9a8e0c31b3121df8ed193437b59969adabc7e721 mm: page_alloc: optimize pfn_range_valid_contig()
-5a74b9f1dc3d75635ca8918e53664d5d2ee0fff5 mm: hugetlb: optimize replace_free_hugepage_folios()
-d925730734e9e936146b7ba691aa02f1b60f2c61 mm: hugetlb_cma: optimize hugetlb_cma_alloc_frozen_folio()
-ae85e5610813c9904ea4a111bf47edd1940ebf63 mm: hugetlb_cma: mark hugetlb_cma{_only} as __ro_after_init
-dd2c6ec24fca9235ccd1b9bfd382d0ddb419e41a selftests/mm: remove virtual_address_range test
-94a62284ede0250e48c886416041ad65907ee917 selftests/damon/sysfs_memcg_path_leak.sh: use kmemleak
-891d206e27dc1a684e460b079d2b53e17135d693 selftests/damon/wss_estimation: test for up to 160 MiB working set size
-514d1bcb58e0ef93fafa4f9c3035d604a4219867 selftests/damon/access_memory: add repeat mode
-57525e596bdbf2cb125df8b45902530f219ba444 selftests/damon/wss_estimation: ensure number of collected wss
-6f06f86a6f219037a7617e3044e1c2120798320e selftests/damon/wss_estimation: deduplicate failed samples output
-50962b16c0d63725fa73f0a5b4b831f740cf7208 mm/damon: remove damon_operations->cleanup()
-1736047a4e9606f11e044431dfe61516e3a7600b mm/damon/core: cleanup targets and regions at once on kdamond termination
-69714a74c19f5ae8b21e25558d62d893d48a3f18 mm/damon/core: cancel damos_walk() before damon_ctx->kdamond reset
-ebc4734ad2219aaf76c497a6c94a98a2bcdaebc1 mm/damon/core: process damon_call_control requests on a local list
-177c8a272968b6bcdbcc8589a72e3eaa32f975d0 mm/damon: document damon_call_control->dealloc_on_cancel repeat behavior
-52c5d3ee8a64ebbbd53f6090bb42ea268247a314 mm/damon/core: rename damos_filter_out() to damos_core_filter_out()
-dfb1b0c9dc0d61e422905640e1e7334b3cf6f384 mm/damon: rename DAMON_MIN_REGION to DAMON_MIN_REGION_SZ
-cc1db8dff8e751ec3ab352483de366b7f23aefe2 mm/damon: rename min_sz_region of damon_ctx to min_region_sz
-b94c317903ee5222c0b61ca3066ace3bddbac64c mm: update kernel-doc for __swap_cache_clear_shadow()
-32d11b3208971e6ca29ff574dddf25f0d180aed8 Docs/mm/damon/index: simplify the intro
-feb6241209b741b726d447da19c019ebc6235ef9 Docs/mm/damon/design: link repology instead of Fedora package
-63464f5b850755c8f6d0896838778b2140c5896a Docs/mm/damon/design: document DAMON sample modules
-83cefa8d7e7a598d17cb0330d47db42486cf5bc7 Docs/mm/damon/design: add reference to DAMON_STAT usage
-e7df7a0bfc9090f83e9a2f40905bdfc58097330d Docs/admin-guide/mm/damon/usage: introduce DAMON modules at the beginning
-652fd06d20da688d6c37cb33efc38a249fce11a3 Docs/admin-guide/mm/damon/usage: update stats update process for refresh_ms
-b71e496f815a3bc6e8907a9b495e61e431631794 Docs/mm/damon/maintainer-profile: fix wrong MAITNAINERS section name
-4c8f08d9939efcac4b82f3a4b6ee0d800a3f2da2 Docs/mm/damon/maintainer-profile: remove damon-tests/perf suggestion
-25faccd69977d9a72739fd425040c2a1c2d67e46 mm/vma: rename VMA_LOCK_OFFSET to VM_REFCNT_EXCLUDE_READERS_FLAG
-ef4c0cea1e15dc6b1b5b9bb72fa4605b14f2125e mm/vma: document possible vma->vm_refcnt values and reference comment
-180355d4cfbd25f370e2e0912877a36aa350ff64 mm/vma: rename is_vma_write_only(), separate out shared refcount put
 1f2e7efc3ee9b32095d5a331d1f8672623f311bf mm/vma: add+use vma lockdep acquire/release defines
 e5aeb75dc4049d92f6ad0da23cc6b22ffcbb9d39 mm/vma: de-duplicate __vma_enter_locked() error path
 28f590f35da8435f75e2aee51431c6c1b8d91f54 mm/vma: clean up __vma_enter/exit_locked()
@@ -1050,5 +966,89 @@ d451994ebc7d4392610bd4b2ab339b255deb4143 net/mlx5: Fix misidentification of writ
 571dcbeb8e635182bb825ae758399831805693c2 net: nfc: nci: Fix parameter validation for packet data
 4f13d0dabc87fb585b96d90cc4b29f67a2995405 Merge tag 'bpf-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf
 8bf22c33e7a172fbc72464f4cc484d23a6b412ba Merge tag 'net-7.0-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
+ae2e15f73ed04ae7c51f010596b1a0f511259971 ice: Fix enable_cnt imbalance on resume
+dbf8f87c35983d79a709dd1d87c39dd93c19c758 ice: Fix enable_cnt imbalance on PCIe error recovery
+77f71797636607f053fa54938e2524fb9307704f i40e: Fix enable_cnt imbalance on PCIe error recovery
+35dea20ce5456b729cd253a56c505cfc0cbc0c0a i40e: fix src IP mask checks and memcpy argument names in cloud filter
+3b5e95710ed573b9b54a2bd333e320da7196b707 virtchnl: create 'include/linux/intel' and move necessary header files
+5ecc39e20e4ef4e6acfc10965623f02f9748139e virtchnl: introduce control plane version fields
+6e4c8b5f2f583e5ce18d5de935484dd6c5066c2c libie: add PCI device initialization helpers to libie
+33f630294b81aa5b0c98bc6cccecec1931f413c8 libeth: allow to create fill queues without NAPI
+54399d6303f336cbc94fa2171e5ccf99a0b2594e libie: add control queue support
+802613f0c14d454662bfcf8d50804496febfd402 libie: add bookkeeping support for control queue messages
+4c916b96faad42d65228c44d0d3acae9f954c9c0 idpf: remove 'vport_params_reqd' field
+e333617d9333ddb5450b6de73c09d01c837f5104 idpf: refactor idpf to use libie_pci APIs
+419cbbc6c674ebf0d71213f0328fdc53e2f08ec4 idpf: refactor idpf to use libie control queues
+de24f0bf445d962b2dc620eda9a7a26c92b67eab idpf: make mbx_task queueing and cancelling more consistent
+bcbbf14e8beb804110e43b89ff3c7ccfac7e98d1 idpf: print a debug message and bail in case of non-event ctlq message
+c24d5ec60549a93bc59ceb25200dad3a448ad8ef ixd: add basic driver framework for Intel(R) Control Plane Function
+1cf3f44c3b6e19845a37143e8b1540850607bbf3 ixd: add reset checks and initialize the mailbox
+1d76b266479b3266dd2556612bff4d04b8ff56a1 ixd: add the core initialization
+cc2341d2324d76af9c803d2a1b0ca23591fb7fe3 ixd: add devlink support
+7a0188cb03b207b6baf53d15398fb6bc75dbc377 ice: fix adding AQ LLDP filter for VF
+8f9cdeb8daf534815aace1ce87955d481f1766e8 ixgbevf: fix link setup issue
+7495f3d90e08508e7da24e61f4611bc5b1aeb5b3 ice: fix 'adjust' timer programming for E830 devices
+f48a6176c0b7ca2bfcbfd648cccd0ceec84dc1a8 i40e: drop useless bitmap_weight() call in i40e_set_rxfh_fields()
+6fddd38bcef2dc2ba4638510bb55dbb1be418f31 idpf: increment completion queue next_to_clean in sw marker wait routine
+ac1faf2da57d54874370c5bbab1093c03bdde41f ice: fix setting RSS VSI hash for E830
+a1f14e88cca66668e51cdf70f7656399ac941eaa e1000e: correct TIMINCA on ADP/TGP systems with wrong XTAL frequency
+3d1488f7558916c8eb53118df2e71117923aab34 e1000e: introduce new board type for Panther Lake PCH
+0f583ab8ad6b231d515c82b51d033fe12fadd880 e1000e: clear DPG_EN after reset to avoid autonomous power-gating
+46d708899f3246b484fac0bc0e8b770c76beacd6 idpf: skip deallocating bufq_sets from rx_qgrp if it is NULL.
+b4fbcedc2dab250e99e46342016f428acfa94c6f idpf: skip deallocating txq group's txqs if it is NULL.
+b6b21fd7ec81a8057e514648462570e3e09f6126 idpf: Fix flow rule delete failure due to invalid validation
+ed3f6412ee1eef6f950b3a21837f335390378c48 ice: reintroduce retry mechanism for indirect AQ
+7aae2a86f70feaa858d5285fe33b67c80a2ab9c4 ice: fix retry for AQ command 0x06EE
+80ae52e27c5a4030428b8a3218704486d668ece6 libeth: pass Rx queue index to PP when creating a fill queue
+fec6901944881b0a0370919d830a0c472b3980e5 libeth: handle creating pools with unreadable buffers
+02846a1a4b8ef898e0b3576a3af97c9f66481bef ice: migrate to netdev ops lock
+92faa44c444ffe25d8737818e0f427231d4011aa ice: implement Rx queue management ops
+7b4e446dd4af7a1ebfe940e8ccbc07399f5eed23 ice: add support for transmitting unreadable frags
+593d3f92d1d53ff6c9995bb356886ab61cd67b2f igb: Fix trigger of incorrect irq in igb_xsk_wakeup
+b07c791a64fbd028b8a740b1f53a2d9b84cbbc0f igc: Fix trigger of incorrect irq in igc_xsk_wakeup function
+7384ace76007dfdcf560a6dbeb75cb72f9e2bb78 ice: Fix memory leak in ice_set_ringparam()
+485c763d211aa1297ca89cd0e8f4f08dec57b33d idpf: nullify pointers after they are freed
+0d5296ccb877bf8c6d1fc2e9155d37e90b1e24af ixgbe: refactor: use DECLARE_BITMAP for ring state field
+bcee30e08d87299037534e13e297515ca8465037 igb: set skb hash type from RSS_TYPE
+b6af40a6ae1927423d7ab11c24c0cb4b079ae781 i40e: Add missing header
+62100915927a904f32c756d392bc93513aae0e3c idpf: change IRQ naming to match netdev and ethtool queue numbering
+e2138feef686371389d1783e7983b111a9266141 ixgbe: E610: add discovering EEE capability
+68278aeacdb993b7b3f0a077e986e3630a5bf30a ixgbe: E610: use new version of 0x601 ACI command buffer
+c46775cc98e14e5cb3482514e3784c74149b1a4e ixgbe: E610: update EEE supported speeds
+342092f3fad887e1df90f3665e7a934b45b8c2a1 ixgbe: E610: update ACI command structs with EEE fields
+8f19f52def5c98e02e1803ef964eccf3b40e0d20 ixgbe: move EEE config validation out of ixgbe_set_eee()
+149f53cfea04a1233aaf0a549984c8a8d8704666 ixgbe: E610: add EEE support
+dc0287e788f4520b20aa1e87c1fa7618bb631d71 ice: Make name member of struct ice_cgu_pin_desc const
+ecde06890275f01a48e89c13a18ec6616f7cb8ea ice: recap the VSI and QoS info after rebuild
+1bf8fce2fcc9959fa1f41a4e84af7c58be74e8af iavf: fix PTP use-after-free during reset
+b86d3fe439837f6c6de6b9c11706d7b91e557710 i40e: only timestamp PTP event packets
+13d6779e01832f80b89427e31238bad735af772b ice: ptp: don't WARN when controlling PF is unavailable
+3da99cda81e2bef9374def142c660b0de926678b igb: prepare for RSS key get/set support
+ada80361751d699175ddba977e8a9a1d4d3b5034 igb: expose RSS key via ethtool get_rxfh
+421d4b65f14d5a2362ae99a323a659f6796fd3c1 igb: allow configuring RSS key via ethtool set_rxfh
+956fbe0587cf27508a4ff8d137962097d843186a igc: prepare for RSS key get/set support
+d3afb684da823610428dedf02e53e5db3fb1279f igc: expose RSS key via ethtool get_rxfh
+677a2d4069484cf5f948dfac8d56a90486fe2bbb igc: allow configuring RSS key via ethtool set_rxfh
+00ae858925c7c3fa43c19f0c332012674a7e4115 ice: fix crash in ethtool offline loopback test
+c98c1177fe698296fa616849187be345b9cc80ed ixgbe: e610: add ACI dynamic debug
+a881e4d9b7ea8600de5b3d0dd3e52c8fd2b5d0f8 ixgbe: e610: remove redundant assignment
+5eda0dbfa9f97b637c9205442b18ffa0d085a927 i40e: Fix preempt count leak in napi poll tracepoint
+221d9548cab71de5f7425f65c8fbecc2bb34564d ice: in dvm, use outer VLAN in MAC, VLAN lookup
+198909dc0d0c33461592888e611eb223c104b97a ice: allow creating mac, vlan filters along mac filters
+82e5f5c42fd5a8cd5fd1f47f378d726300ea6b44 ice: allow overriding lan_en, lb_en in switch
+8ffb663f00efe9f2676764e424399f87d415d939 ice: update mac, vlan rules when toggling between VEB and VEPA
+d04d8e60e6f923b6be1d9c9a0a3469b654fb10dc ice: add functions to query for vsi's pvids
+d5ba7f93a7ca6178c47f62c061cded4760d6fbe6 ice: add mac vlan to filter API
+c6db08436912c60f75fdeaa19e179d23d3ba488c ice: in VEB, prevent "cross-vlan" traffic from hitting loopback
+a697ca7a07998b3a83361eda6d2e86dca4c654b5 ice: fix race condition in TX timestamp ring cleanup
+3475f03a16c9e349178e083f921b248a603580fd ice: dpll: fix rclk pin state get and misplaced header macros
+443bb7cfc2b7a26d79e1bce7b5d5e18f095ab3ab iavf: fix netdev->max_mtu to respect actual hardware limit
+57aeaa85b4c4ebcd7b641ca5989da95b75850b37 libie: prevent memleak in fwlog code
+4c90618c4f0be0252fa50926fd0efbcbf1573f68 libie: don't unroll if fwlog isn't supported
+22f93c0113008a042442f21a0b6b30ab50aa1b2b iavf: fix incorrect reset handling in callbacks
+e26b0aef9fdfa2e979b90e1d43dd67f5db0cdaa9 ice: fix inverted ready check for VF representors
+c62d41ad5a31d952b7d6def6498e3edb147b475f ice: use ice_update_eth_stats() for representor stats
+e777eb493503468361686d767b5a8f953b509369 drivers: net: ice: fix devlink parameters get without irdma
+b213d8025d7ee1e4ae1cd7fdd1e4645c1b7ae53e ixgbe: fix unaligned u32 access in ixgbe_update_flash_X550()
 
---===============4251182711358882953==--
+--===============3048647932414414358==--
