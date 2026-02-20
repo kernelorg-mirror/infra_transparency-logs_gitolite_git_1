@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5468491422508154500=="
+Content-Type: multipart/mixed; boundary="===============6512430496666503391=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Fri, 20 Feb 2026 11:37:58 -0000
-Message-Id: <177158747878.296792.5931436682321368571@gitolite.kernel.org>
+Date: Fri, 20 Feb 2026 11:38:05 -0000
+Message-Id: <177158748579.297054.6225232689518172393@gitolite.kernel.org>
 
---===============5468491422508154500==
+--===============6512430496666503391==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,42 @@ repo: pub/scm/linux/kernel/git/gregkh/staging
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/staging-linus
+  - ref: refs/heads/staging-next
     old: 2b7a25df823dc7d8f56f8ce7c2d2dac391cea9c2
     new: 8bf22c33e7a172fbc72464f4cc484d23a6b412ba
     log: revlist-2b7a25df823d-8bf22c33e7a1.txt
 
---===============5468491422508154500==
+--===============6512430496666503391==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1771587477 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1771587484 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1771587476-75561b7c363cbc1f7b5fb98fd5613f1ede7b8021
+nonce 1771587484-44bb75e476dd50c71f0462d7dd364474563884ba
 
-2b7a25df823dc7d8f56f8ce7c2d2dac391cea9c2 8bf22c33e7a172fbc72464f4cc484d23a6b412ba refs/heads/staging-linus
+2b7a25df823dc7d8f56f8ce7c2d2dac391cea9c2 8bf22c33e7a172fbc72464f4cc484d23a6b412ba refs/heads/staging-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmmYR5UbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+oFoQAM3UdCsLr8mJ4T+eCniO
-h1+oenH5P0rJSnEbMtf7w0l+Od6GRBWWLWG3bPFhAvECTQZHvv1XiBw11Fo85AoH
-lIzVOpVT7WOmpHw3dUHEVa+bnstFbCumJeT7KWIYTJp40ev0y68DDUrDmPFBuYPy
-4WIAQC3kAG7Azb4CfTswGNYrxl7JRGj8bVSOx2Gj7D2dsGRfr/AOz8vYfm/f7v/N
-X7Kmoaua/e4M0TZiTesJMZneI8am1UvE3I+PY27b7uyL6pzvyVPvu46Bex6tsCGt
-a6xKCPFCWQhVVaU9oJZhT9f218VTJyW8XNj+mXFMm9G2Eeajnh5flkXhw9+xDq0f
-9hBGA1I5AUhjkYdU2F2l/5av5ZMBKMGW+gguvrdSi6nsOnBXZdG8wfLhzgtUUMPS
-6d/SsTQ1XA0MLqtrJd25BP2Y6xgiKtBVEFfUiSNdRNom50AC8hwZFeNg3ovbs1AB
-jd1G/xfCpyAK0BCWXfr01hG5lYUL91O7/TM7B1EU5aZzX+bYSrUDz8DMQzWd02yG
-Fv5uwR2Qqyq23FHMl2M+9zxBnPc5JFjhQUpSRgwwGJaXEeuIM4SNkSY9atq5myOh
-wO3leaooV028MHObcprLiP40RHlehVV6nFumTeQLVUX87xiJ2npsb32ZInitN82i
-AL3scH4pkEovKRY4E/e9NKQs
-=EHDh
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmmYR5wbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+RREP/22BM7ZOt1IT6rM8Bhdw
+SeXsauzCzOXUKbBvvVISG8Ov4DE0lz3xjYxc8sX2sDmytY2dtKSdEX9aPV1fm2+O
+C30TMNsMjrZKj7/Ep4WKfQJs95geoZ1ZZO1RzWHWyDHRBqF8PCTwXZaZYN/v/8vA
+lXY00mpI4HmJz4Qz3SORORHViSFg18W/MVr6ReyMOYN8pUaDRurr1qLNenA83klQ
+++Seox8kbwAqSXf0+ZJSzunQDPZIhr2eMd1bmKjAcfrA+wm4P5U50p7snAYJ1vo6
+0esO4yekVnBgkpi95YswPWKh/vSGU6gqkANTH3j4RPEb+PIN8Jqqum/PV0Gmn0tG
+U288XDedrz+r0DETUXlsSd/WiRB5qXVdJEjz8iCJ3X8TcPv69tQoRiWBUg9NaeM0
+HoqqeS5E1XWGPehoXjJNKxIc9IILHKUasm11O+RmiO+BnmRBbKxN0k2yg2MRD4lk
+WoUNnDVj0Z/IEG5LqxsK2lWXpLEO3gPJD+g6Paw2ke3gNAMzt3S+rCWyjm7k3V3W
++D4pjdoqgrFuynZPxsgdESJuXSancaGw5JKPxJYpzUAkGUJh3+D4Cdgjend/gEkE
+WRU5m+juVSxWFAjwrG+HAEoQJ7jBbd2LDvArEYQCntZ0il4vIia+65JUSm4trPIA
+DY2JIkDPxq5BEaYNeaLU6OXw
+=Txmx
 -----END PGP SIGNATURE-----
 
---===============5468491422508154500==
+--===============6512430496666503391==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -173,4 +173,4 @@ d451994ebc7d4392610bd4b2ab339b255deb4143 net/mlx5: Fix misidentification of writ
 4f13d0dabc87fb585b96d90cc4b29f67a2995405 Merge tag 'bpf-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf
 8bf22c33e7a172fbc72464f4cc484d23a6b412ba Merge tag 'net-7.0-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 
---===============5468491422508154500==--
+--===============6512430496666503391==--
