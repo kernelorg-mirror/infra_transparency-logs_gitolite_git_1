@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7835916683943637125=="
+Content-Type: multipart/mixed; boundary="===============7278176694157108751=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Fri, 20 Feb 2026 01:03:18 -0000
-Message-Id: <177154939830.3926293.15498560937102933508@gitolite.kernel.org>
+Date: Fri, 20 Feb 2026 01:03:20 -0000
+Message-Id: <177154940025.3926487.22602281479711582@gitolite.kernel.org>
 
---===============7835916683943637125==
+--===============7278176694157108751==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,61 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/mm-new
-    old: adbd51a03f6e4599473b04b3112e17ca5098b2c0
-    new: 75508938eb42ca8ff137dc57aacb5dccc6bbacf0
-    log: revlist-adbd51a03f6e-75508938eb42.txt
+  - ref: refs/heads/mm-unstable
+    old: ea9cdc934f6bc3dc468b05b9443854da1edf9e53
+    new: 1aeb295e16f9e9e1de417f58c7e94803d7decb14
+    log: revlist-ea9cdc934f6b-1aeb295e16f9.txt
 
---===============7835916683943637125==
+--===============7278176694157108751==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-adbd51a03f6e-75508938eb42.txt
+Content-Disposition: attachment; filename=revlist-ea9cdc934f6b-1aeb295e16f9.txt
 
+403e935f915896243ff93f9a2ff44e5bb6619032 bpf: Convert bpf_selem_unlink to failable
+8dabe34b9d5b1135b084268396ed2267107e64c1 bpf: Change local_storage->lock and b->lock to rqspinlock
+4a98c2efa613f0b01bc3aa0acb8c3ff7ae29b6f9 bpf: Remove task local storage percpu counter
+5254de7b9607dd341795cd693185f719a9e7298a bpf: Remove cgroup local storage percpu counter
+3417dffb58331d1e7e4f3e30ec95cc0f8114ff10 bpf: Remove unused percpu counter from bpf_local_storage_map_free
+c8be3da14718f1e732afcb61e8ee5b78e8d93808 bpf: Prepare for bpf_selem_unlink_nofail()
+699722468a0fca8b1b9ce1ffe2532171ddcaff95 PCI/PME: Replace RMW of Root Status register with direct write
+3a11167d918a0b727239cedc7bb83f2329bcc49f PCI: host-generic: Avoid reporting incorrect 'missing reg property' error
+5d800f87d0a5ea1b156c47a4b9fd128479335153 bpf: Support lockless unlink when freeing map or local storage
+0be08389c7f2f9db0194ee666d2e4870886e6ffb bpf: Switch to bpf_selem_unlink_nofail in bpf_local_storage_{map_free, destroy}
+d652f425d5e332125d358a92158a840084061107 selftests/bpf: Update sk_storage_omem_uncharge test
+e4772031d1053e7640e3094834916ee2605f288f selftests/bpf: Update task_local_storage/recursion test
+902a79b6389ff39fd736c6fd1581ded1372adbf5 selftests/bpf: Update task_local_storage/task_storage_nodeadlock test
+e02cf06b85f8ae337c86db1bad5a0fd54c7bd301 selftests/bpf: Remove test_task_storage_map_stress_lookup
+cdce7b0848f6f2be4c6d7dbf243244981d315f6f selftests/bpf: Choose another percpu variable in bpf for btf_dump test
+97b859b5ed04dbbe99be19895d8498009a19553f selftests/bpf: Fix outdated test on storage->smap
+db975debcb8c4cd367a78811bc1ba84c83f854bd Merge branch 'remove-task-and-cgroup-local-storage-percpu-counters'
+2687c848e57820651b9f69d30c4710f4219f7dbf x86/vmware: Fix hypercall clobbers
+beb2f81792a8a619e5122b6b24a374861309c54b PCI: Mark ASM1164 SATA controller to avoid bus reset
+c81a2ce6b6a844d1a57d2a69833a9d0f00403f00 PCI: Mark Nvidia GB10 to avoid bus reset
+9368d1ee62829b08aa31836b3ca003803caf0b72 PCI: Fix pci_slot_trylock() error handling
+1f5e57c622b4dc9b8e7d291d560138d92cfbe5bf PCI: Fix pci_slot_lock () device locking
+183c291caa34cc1e721a571058a3f972c5b35122 PCI: Use lockdep_assert_held(pci_bus_sem) to verify lock is held
+f06e0ad226fdb875cfd6278882ef28fe817283c5 PCI: Use device_lock_assert() to verify device lock is held
+44d2f70b1fd72c339c72983fcffa181beae3e113 PCI: Add ACS quirk for Qualcomm Hamoa & Glymur
+5907a90551e9f7968781f3a6ab8684458959beb3 PCI: Add ACS quirk for Pericom PI7C9X2G404 switches [12d8:b404]
+c41e2fb67e26b04d919257875fa954aa5f6e392e PCI: Enable ACS after configuring IOMMU for OF platforms
+8f05a5f6745ccc9ff784736608c5a38edb09acc8 PCI: Cache ACS Capabilities register
+b26d7fb4a53e671a95b282b4f3922e79dfb1470d PCI: Disable ACS SV for IDT 0x80b5 switch
+b5f88a3947055e4ef8c04222ec75950d2fdfa79f PCI: Disable ACS SV for IDT 0x8090 switch
+46a9f70e93ef73860d1dbbec75ef840031f8f30a PCI/bwctrl: Disable BW controller on Intel P45 using a quirk
+88632421689766f394fe69513e5a4d7c31d36caa Merge branch 'pci/aer'
+7ac2359cf1063de8f3d241aaa871b14a81999bc9 Merge branch 'pci/bwctrl'
+4021a9df0a08b8495b38f0ddc778ee4ee8d99ab1 Merge branch 'pci/endpoint'
+2304eeaf2fcad24449002f9e1f24f6573305dc48 Merge branch 'pci/enumeration'
+a89fdcb98ac82675879f43b9dfe69ba16be01255 Merge branch 'pci/iommu'
+1cb15d2054064b554e31993fe72b9e93233cb10a Merge branch 'pci/iov'
+26cc2bd5aa82085e82ca3cd7e1298d9128248c19 Merge branch 'pci/p2pdma'
+85fdfc522afd2e81921656853b5f23a1f22984f5 Merge branch 'pci/pm'
+077557d13f092ebef03f39ba7940e76fce1fd82a Merge branch 'pci/portdrv'
+65a5ac66cd975d61e674f5633755e68c432888be Merge branch 'pci/ptm'
+bf37448d9b7793544904ccf21e5844b6ff4af3c0 Merge branch 'pci/pwrctrl'
+73b4779864b1e6adad015d14047ae63b88ef9c4c Merge branch 'pci/resource'
+401b356520f403a6ce8627c1eb74ffd13d38f8d3 Merge branch 'pci/trace'
 2095b9dd2eb7a944619d49653adff95238586270 Merge branch 'pci/virtualization'
 0bf920768e062e98e209f06e0d3b2e552173e2b8 Merge branch 'pci/workqueue'
 10973851fc9d20347b137b42dca94562c5f1b314 Merge branch 'pci/dt-bindings'
@@ -1006,49 +1050,5 @@ accfdc005db84cba027d65f9af67425be042a719 mm/kfence: disable KFENCE upon KASAN HW
 8513bcccd289de66d853479a3f7107ec33db0173 MAINTAINERS, mailmap: update e-mail address for Vlastimil Babka
 c769bdf9c34f4a311e07e6734c4b18ca77830383 Squashfs: check metadata block offset is within range
 1aeb295e16f9e9e1de417f58c7e94803d7decb14 mm, swap: speed up hibernation allocation and writeout
-b2880cf50933ffe423faa28f4d7f217928e88a69 mm/migrate_device: remove dead migration entry check in migrate_vma_collect_huge_pmd()
-27b53ecbdfdb7a900e1c8729134062f9b3ed8a33 mm/page_alloc: avoid overcounting bulk alloc in watermark check
-5e800e97d057c3f36b20685c7037aa84bc1edd2a mm/damon/ops-common: remove redudnant mmu notifier call in pmdp mkold
-dc5b64bef3a2697a294957a50c4491d1caae799a mm/shrinker: fix refcount leak in shrink_slab_memcg()
-4478df5bf90c34a0ef54396a7e0c72a3ee62aa7a fs: hugetlb: simplify remove_inode_hugepages() return type
-2ee44066227a7caea37cecc9b4b96191e7a46fc7 ksm: initialize the addr only once in rmap_walk_ksm
-872049beef1f3b9e22ac20fab95c0d33446c96a2 ksm: optimize rmap_walk_ksm by passing a suitable address range
-6917f3653b28df43518dd82dc4713d52789ccae8 mm/fadvise: validate offset in generic_fadvise
-e9c2709032cc3c72c9fef5930106c7b33e2563e6 maple_tree: fix mas_dup_alloc() sparse warning
-fc12250ee2e317b6f3684f7d8b104f07d559bda9 maple_tree: move mas_spanning_rebalance loop to function
-43bad1b5f55bd1ab53d68216d7959f66ab89cfb0 maple_tree: extract use of big node from mas_wr_spanning_store()
-479f15531fb9a05c08604c9e9112ea7c11c3b396 maple_tree: remove unnecessary assignment of orig_l index
-7fec50e95cb0583a3671fdcf1a1ddc6d7c972cc2 maple_tree: inline mas_spanning_rebalance() into mas_wr_spanning_rebalance()
-4fbda4e826d961c4534bbc7408b383b6a9eef17f maple_tree: make ma_wr_states reliable for reuse in spanning store
-6390580101c7cedb8b7a232f4ee7b1e5d46cbdfe maple_tree: remove l_wr_mas from mas_wr_spanning_rebalance
-a545ae7dcae0a1340ed9f8943bcf2f29eb7eee0d maple_tree: don't pass through height in mas_wr_spanning_store
-27c050a7883cd21bdffe672bbb65acd554ef5e8d maple_tree: move maple_subtree_state from mas_wr_spanning_store to mas_wr_spanning_rebalance
-4b7efa3852d460f91201ed2fafc08d3da10817af maple_tree: correct right ma_wr_state end pivot in mas_wr_spanning_store()
-35e1c16b88e9d5b834a9ed6d63f79214c0327ecc maple_tree: introduce maple_copy node and use it in mas_spanning_rebalance()
-634bfad466a2fbd7d4922ff204d6537857724522 maple_tree: testing update for spanning store
-a3d84f433da4a3acbbf236adf4346072d169b116 maple_tree: inline mas_spanning_rebalance_loop() into mas_wr_spanning_rebalance()
-2e17d6f98fee7dc8a9e4a09593ad4f210de94044 maple_tree: change initial big node setup in mas_wr_spanning_rebalance()
-249dd24bbbb7b5add4233cba5ddfa587c72a181c maple_tree: introduce ma_leaf_max_gap()
-8233362898473fea109c2f95b6f3d075b7c3107f maple_tree: add gap support, slot and pivot sizes for maple copy
-3bbe7e70d024b5f1add6ccd54e0870cf41fb8583 maple_tree: start using maple copy node for destination
-d774a73f824d1f61abf6d6c410578078033f89a1 maple_tree-start-using-maple-copy-node-for-destination-checkpatch-fixes
-fe5ecce15850e3af0a1d1154c27e88e23fd2e09e maple_tree: inline mas_wr_spanning_rebalance()
-79c76b8567d6ae1f8d1c8f484068a31e2a2242c8 maple_tree: remove unnecessary return statements
-da243eb734d851059012b02546a7a0669c7144f5 maple_tree: separate wr_split_store and wr_rebalance store type code path
-a0992c9d4845841bf6bedd77d2bc55c4dfa8925c maple_tree: add cp_is_new_root() helper
-fa71202e8c17e9647430fe2361122a0812c57871 maple_tree-add-cp_is_new_root-helper-fix
-db82316fd164e5b3680f944a1223bd53bb3c6954 maple_tree-add-cp_is_new_root-helper-fix-fix
-4ac80fcbf18e0f3f7fc9c657cc58fbb91b73437b maple_tree: use maple copy node for mas_wr_rebalance() operation
-473dabd5e19486809d3c0b98cf64601d30ae20a1 maple_tree: add test for rebalance calculation off-by-one
-ba8faa0061ca5f3736b36576355e0d45e91cacc4 maple_tree: add copy_tree_location() helper
-5fbffdd48268a049bfbb6536b112c7f03592405f maple_tree: add cp_converged() helper
-d457ec882e46036fe4722004eaa7702332a09bf8 maple_tree: use maple copy node for mas_wr_split()
-c4757f5fde5e081070f099609874585c4b92e50d maple_tree: remove maple big node and subtree structs
-147d96b3b3007a19e121e7b6f50dc4d074b1ac84 maple_tree: pass maple copy node to mas_wmb_replace()
-ce433ceb87859c967e7cac6adfaeea72cf4c20a9 maple_tree: don't pass end to mas_wr_append()
-4fc0901df7fa67a00e79f78033f526be6b5ea9a6 maple_tree: clean up mas_wr_node_store()
-78a988a0c7d95f92005b80a5df8e3c9f7ff985d8 mm, memcg: optimize stat output for 11% sys time reduction
-0e138a626a38e54b30a0d0abe1e6d8f6aea18a14 arm64: mm: fix pass user prot to ioremap_prot in generic_access_phys
-75508938eb42ca8ff137dc57aacb5dccc6bbacf0 mm/vmscan: avoid false-positive -Wuninitialized warning
 
---===============7835916683943637125==--
+--===============7278176694157108751==--
