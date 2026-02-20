@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0605043512445190379=="
+Content-Type: multipart/mixed; boundary="===============3601497239950886453=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Fri, 20 Feb 2026 09:23:35 -0000
-Message-Id: <177157941573.136067.990234585711908833@gitolite.kernel.org>
+Date: Fri, 20 Feb 2026 09:23:39 -0000
+Message-Id: <177157941911.136229.8274558197705405625@gitolite.kernel.org>
 
---===============0605043512445190379==
+--===============3601497239950886453==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,42 @@ repo: pub/scm/linux/kernel/git/gregkh/char-misc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
+  - ref: refs/heads/char-misc-linus
     old: 2b7a25df823dc7d8f56f8ce7c2d2dac391cea9c2
     new: 8bf22c33e7a172fbc72464f4cc484d23a6b412ba
     log: revlist-2b7a25df823d-8bf22c33e7a1.txt
 
---===============0605043512445190379==
+--===============3601497239950886453==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1771579414 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1771579418 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1771579414-608832b68816993959b31406c4cb5d9cf80ba69a
+nonce 1771579417-87b7418d646daf7114ca8558105d8664af4aaa5c
 
-2b7a25df823dc7d8f56f8ce7c2d2dac391cea9c2 8bf22c33e7a172fbc72464f4cc484d23a6b412ba refs/heads/main
+2b7a25df823dc7d8f56f8ce7c2d2dac391cea9c2 8bf22c33e7a172fbc72464f4cc484d23a6b412ba refs/heads/char-misc-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmmYKBcbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+kDIP/RIU8p+/OOCnZathEEGF
-hZcY+Tn8DJtSzYYxiDmyrCBZG8BGYsBotqXifpZgwj14gyRo8MkwHyG6KpinLOxk
-IDj5GXVS4/+uv9aay58tJVG0ygHJXbl4D6tBletG1qF3mzxl8Sw8KMHnTkn2VohJ
-xCKJx6s4yS5NjtImtSVCIVsPyB324XC/qbyYIGe71yePw43AXdosyGHoBG0U15w6
-zaizCyEKIwY4YJJOW1NId1OQc9jjfbgRN5MXrljeSWzKJufFMncoaHuMi9ZwXCZ5
-eClHLF3MalaDUsJRbFFAGMDXVwIaSk9JvY8TxGjmfnvgFVkBVSibVTsSc814z39C
-66J38SRF7uLi9JDGEhBxkwtuUvIaSogBJDh1dA214xXTCPQWqo64wp5BxxATS2yJ
-JlJ/g+l6OduV+lZSqt5z//f05TtH4yeYCo/Q+uWPsRkiWciLe1DuwuL70b1yFLVW
-uIoZ6P89jnO5lnzc6AHfteeQwuZdEznY0ZM2r69mtn5WjCK4NrOVNDEI0ppRcU63
-3tviTRdtvIme48m6zI/Ytow2eRh+Btm+tL8ni6zQX6ce8mniXMnt61ESw70qoIMJ
-9EWMWQwXHB0rvKrecAGMWm51LZXCVNWu1LbvmyQ92K+y4oOhYzyA+4My8vanFQRn
-fgt7pr+C1pSCQL+w5JTQCICf
-=6val
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmmYKBobHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+TAEP/23tpkhfrdiyVbJqZ1ZZ
+fUUcHvHMgZumbD7IlufoVZ1bew4qdCZuDf/xMgiRgPnlq3q85GAUqSMyC3LE9u41
+eZvpChtnpNhbhs53fqhIMGyygFYRyQIZRBxlDh9X4yXK+/BU3Lpio9nRrrozYIQO
+muWj2cnEl+HT3wzHMs882NBA3V5a54u+8P2lJAvD0EtDOkgPF6wZkBpppfSR/7bT
+FEo7+nNpHIJsEN3x0jqvTi0wQ2U5ayMcweJ6MMgMRdKVZwT0vFU2sVx4Tne3Vtc0
+oMsZYv7BHskA87GLecANGM2E0eGr8+TeXtwOttzc5t7MsRRvHobFff6sz/6RC5FD
+HKbDBh7WoIuyL2zpTNfNWBJ/yCteZ3ciZnGQhsx1JM8ReOEYmaDc16MQqUIO3DCw
+UQ8GPv7cLm5QAjVJsD1v2QpHtuoiAIC8uWyN3FExBpYqoOuWVQaOrodIppth8Lwa
+EDpC43sK0eYHlFLX+InjkKKez222EX6mMMY54jB3WbvjhYTe7jX34Gji7n0m+pDh
+xPKhgagZQAf35th+zGKoc3ArdruqGy3/9bcB5haXJ5fI4oCQhqG/cAZw7dJ4nK/Y
+YlUIeTUvahMkUOG3Ix/Zk5F38XjQLwe7bA4VlKf27OkyZdGAKD/nh64AGOKHTe87
+3Ac4e3kp4mAqMS4xylp6DykB
+=jdri
 -----END PGP SIGNATURE-----
 
---===============0605043512445190379==
+--===============3601497239950886453==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -173,4 +173,4 @@ d451994ebc7d4392610bd4b2ab339b255deb4143 net/mlx5: Fix misidentification of writ
 4f13d0dabc87fb585b96d90cc4b29f67a2995405 Merge tag 'bpf-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf
 8bf22c33e7a172fbc72464f4cc484d23a6b412ba Merge tag 'net-7.0-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 
---===============0605043512445190379==--
+--===============3601497239950886453==--
