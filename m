@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
-Date: Fri, 20 Feb 2026 23:46:29 -0000
-Message-Id: <177163118905.865865.11750385557935858039@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Fri, 20 Feb 2026 23:57:13 -0000
+Message-Id: <177163183357.873893.14061082589109363788@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/25-new
-user: akpm
+repo: pub/scm/linux/kernel/git/netdev/net
+user: kuba
 changes:
-  - ref: refs/heads/master
-    old: deaa4cca7d76b3d7401e8a1373115a797c5be5fd
-    new: bc6dbfe9662b54d1565a1ab02f3615c532c9f809
+  - ref: refs/heads/main
+    old: bfd264fbbbca7a39ea430d7bc2baf8ee2ea958e4
+    new: 9b8eeccd7110d10f9c1b1aa456f5efac23e4e383
     log: |
-         bc6dbfe9662b54d1565a1ab02f3615c532c9f809 foo
+         9b8eeccd7110d10f9c1b1aa456f5efac23e4e383 MAINTAINERS: update enic and usnic maintainers
          
