@@ -1,26 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux
-Date: Fri, 20 Feb 2026 14:09:16 -0000
-Message-Id: <177159655693.415886.17553389687175198902@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netfilter/nf-next
+Date: Fri, 20 Feb 2026 14:18:07 -0000
+Message-Id: <177159708795.423409.13647041450889098847@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux
-user: axboe
+repo: pub/scm/linux/kernel/git/netfilter/nf-next
+user: fwestphal
 changes:
-  - ref: refs/heads/block-7.0
-    old: 81b1f046ff8a5ad5da2c970cff354b61dfa1d6b1
-    new: 0d195d3b205ca90db30d70d09d7bb6909aac178f
+  - ref: refs/heads/testing
+    old: ad4ccf0dfd22a6ef8923549d6baab2deb0db2bee
+    new: c5ce84b58c6d532befc9cbfcab3ac7a5baa59968
     log: |
-         0d195d3b205ca90db30d70d09d7bb6909aac178f drbd: fix null-pointer dereference on local read error
-         
-  - ref: refs/heads/for-next
-    old: 3642fd58afc72553c43044cd6a4ce3de846ea3c7
-    new: af70ba1393224374b9b78fd72dbfcbc76873492b
-    log: |
-         0d195d3b205ca90db30d70d09d7bb6909aac178f drbd: fix null-pointer dereference on local read error
-         af70ba1393224374b9b78fd72dbfcbc76873492b Merge branch 'block-7.0' into for-next
+         32773ee46d63e7c0aa3c61ffdbf43616727d7508 netfilter: nft_set_rbtree: don't disable bh when acquiring tree lock
+         33d6ad21d4e82af220a998321e4c464554d1b99a netfilter: nf_tables: drop obsolete EXPORT_SYMBOLs
+         c5ce84b58c6d532befc9cbfcab3ac7a5baa59968 netfilter: nf_tables: remove register tracking infrastructure
          
