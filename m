@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8069300174421302838=="
+Content-Type: multipart/mixed; boundary="===============4834533333385783307=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Fri, 20 Feb 2026 06:56:56 -0000
-Message-Id: <177157061671.23593.7124931256479323850@gitolite.kernel.org>
+Date: Fri, 20 Feb 2026 06:58:09 -0000
+Message-Id: <177157068950.24367.1170070308987022768@gitolite.kernel.org>
 
---===============8069300174421302838==
+--===============4834533333385783307==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,173 +16,225 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: sashal
 changes:
   - ref: refs/heads/queue/5.10
-    old: f68ba620fed9ea678241f19a485cc4b9ddc39d12
-    new: 674d2ad3358835d994b1ca4b4b006bfaaa731ce5
-    log: revlist-f68ba620fed9-674d2ad33588.txt
+    old: 674d2ad3358835d994b1ca4b4b006bfaaa731ce5
+    new: fafc2b8d5a18d40fd594881427943d5d9bc490cf
+    log: |
+         7a77875d571415cd51e6f5732e30d4c19f3df7c0 RDMA/siw: Fix potential NULL pointer dereference in header processing
+         fafc2b8d5a18d40fd594881427943d5d9bc490cf RDMA/umad: Reject negative data_len in ib_umad_write
+         
   - ref: refs/heads/queue/5.15
-    old: 002db9aad4419c9e76a06212a9fa8f2ed1303513
-    new: c1ed35c778419b3627398a4866dfaf9f5dd89ca6
-    log: revlist-002db9aad441-c1ed35c77841.txt
+    old: c1ed35c778419b3627398a4866dfaf9f5dd89ca6
+    new: 364654994b2f8a62a1c9115bcb5a05c9ccc3874d
+    log: |
+         218072f30a855b0bdefde41e7b94a3daa4ffec60 RDMA/siw: Fix potential NULL pointer dereference in header processing
+         364654994b2f8a62a1c9115bcb5a05c9ccc3874d RDMA/umad: Reject negative data_len in ib_umad_write
+         
   - ref: refs/heads/queue/6.1
-    old: 364e76bbb7edc0317d85cb6bc333a7b849058b23
-    new: c127771bf0098163669c0115913e1e3d4b4abf14
-    log: revlist-364e76bbb7ed-c127771bf009.txt
+    old: c127771bf0098163669c0115913e1e3d4b4abf14
+    new: 1955c1de98af50efd0067c4b74b3e6534641e7e1
+    log: |
+         d341694d5f99706f1066d24c10a9e9e30f3107bf RDMA/siw: Fix potential NULL pointer dereference in header processing
+         1955c1de98af50efd0067c4b74b3e6534641e7e1 RDMA/umad: Reject negative data_len in ib_umad_write
+         
+  - ref: refs/heads/queue/6.12
+    old: 90154b0a71da85521b4f082d2587b31430492466
+    new: cb4277b85c1df9ff37649b28766190ae2262cf34
+    log: revlist-90154b0a71da-cb4277b85c1d.txt
+  - ref: refs/heads/queue/6.18
+    old: 397e7e549cd967680f9cc029e2676bffaa014383
+    new: 53e92b689132c43caaec8b0a65a481e5b16e38a4
+    log: revlist-397e7e549cd9-53e92b689132.txt
+  - ref: refs/heads/queue/6.19
+    old: ec8afbb2e47027c357027bf48e05f23619d7afcd
+    new: 5a48bfc7b9bbcb1c4e1e91aceffbe0cc4f1051bc
+    log: revlist-ec8afbb2e470-5a48bfc7b9bb.txt
+  - ref: refs/heads/queue/6.6
+    old: a9d2fcca9a0f0aadaae1be50f78acf09353c5389
+    new: 781a9e3432311173facf262e01ed5a3345d84668
+    log: revlist-a9d2fcca9a0f-781a9e343231.txt
 
---===============8069300174421302838==
+--===============4834533333385783307==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-f68ba620fed9-674d2ad33588.txt
+Content-Disposition: attachment; filename=revlist-90154b0a71da-cb4277b85c1d.txt
 
-7342594a7456d019f1eeae744281573c32aeae2e crypto: octeontx - Fix length check to avoid truncation in ucode_load_store
-953c81941b0ad373674656b8767c00234ebf17ac crypto: omap - Allocate OMAP_CRYPTO_FORCE_COPY scatterlists correctly
-552475d0b6cece73a52c0fa5faa0ce45e99df74b crypto: virtio - Add spinlock protection with virtqueue notification
-6457d3ee41a4c15082ac49c5aa7fb933b4a043f3 nilfs2: Fix potential block overflow that cause system hang
-d8af012f92eee021c6ebb7093e65813c926c336b scsi: qla2xxx: Delay module unload while fabric scan in progress
-582657333570f2fec14f73df71cb96cda65eb253 scsi: qla2xxx: Query FW again before proceeding with login
-57bcd3feffa79544c73a1a1872472389a391cc79 gpio: omap: do not register driver in probe()
-5b2d999cb0d110686fa149232d10e12aab5a3e20 ALSA: hda/realtek: Fix headset mic for TongFang X6AR55xU
-8d7a73b8e2471062dc127ca5a13d6c40ffda37e2 gpio: sprd: Change sprd_gpio lock to raw_spin_lock
-a381f0f61b35c8894b0bd0d6acef2d8f9b08b244 romfs: check sb_set_blocksize() return value
-6a65919b7b9cdd038cdacfaf8624f960780de176 drm/tegra: hdmi: sor: Fix error: variable ‘j’ set but not used
-993708fc18d0d0919db438361b4e8c1f980a8d1b platform/x86: classmate-laptop: Add missing NULL pointer checks
-ede3ed691f632052a0ad5ad04e474ab44e358764 gpiolib: acpi: Fix gpio count with string references
-ef3033b435a6bac547166b793025578fab2f9df3 fs: dlm: fix invalid derefence of sb_lvbptr
-4a9b23e0f937329c00ef2e7803ec9aaf842db526 selftests: mptcp: pm: ensure unknown flags are ignored
-d577f850287537cc534f305149504e1b696f4720 crypto: virtio - Remove duplicated virtqueue_kick in virtio_crypto_skcipher_crypt_req
-85c0890fea6baeba9c4ae6ae090182cbb1a93fb2 scsi: qla2xxx: Validate sp before freeing associated memory
-b410ab8b9431d6d63d04caa1d69909fcc8b25eae scsi: qla2xxx: Free sp in error path to fix system crash
-057a5bdc481e58ab853117254867ffb22caf9f6e scsi: qla2xxx: Fix bsg_done() causing double free
-ec5a58f4fd581875593ea92a65485e1906a53c0f fbdev: rivafb: fix divide error in nv3_arb()
-061cfeb560aa3ddc174153dbe5be9d0b55eb7248 fbdev: smscufx: properly copy ioctl memory to kernelspace
-e85a99db9ab85dfc30d93b0ca0e9156f3127f55a f2fs: fix out-of-bounds access in sysfs attribute read/write
-0fb58aff0dafd6837cc91f4154f3ed6e020358fa f2fs: fix to avoid UAF in f2fs_write_end_io()
-4227696cf750b36d5c34b78055ed82ca106414b7 USB: serial: option: add Telit FN920C04 RNDIS compositions
-3e2558088a1a3dc941eec8edafd002758ae97d77 Linux 5.10.251
-a0ec53ec0ba6d09297d33ec4beab8e8b679aa24e RDMA/siw: Fix potential NULL pointer dereference in header processing
-674d2ad3358835d994b1ca4b4b006bfaaa731ce5 RDMA/umad: Reject negative data_len in ib_umad_write
+871f6236da96c4a9712b8a29d7f555f767a47e95 scsi: qla2xxx: Fix bsg_done() causing double free
+7096cc734240e59774cb944d120a9f3ebb263d85 bnxt_en: Change FW message timeout warning
+a22fe7581f113df777be367bddb0f8fb1340643f bnxt_en: hide CONFIG_DETECT_HUNG_TASK specific code
+b7a5b454b7f7a85a07fc047f3b0dbc672e55561f bus: fsl-mc: Replace snprintf and sprintf with sysfs_emit in sysfs show functions
+dd8ba8c0c3f3916d4ee1e3a09da9cd5caff5d227 bus: fsl-mc: fix use-after-free in driver_override_show()
+209d027747cb8eb964c9f0d80d4784b40a12d491 ALSA: hda/realtek: Fix headset mic for TongFang X6AR55xU
+8a6e19a406d87d02ac18f7afa6311d4e4ed3210e ASoC: amd: yc: Add ASUS ExpertBook PM1503CDA to quirks list
+5beb4ddac6a9857a1fa49c2151fb0ff091f74fa2 gpio: sprd: Change sprd_gpio lock to raw_spin_lock
+284ded9e5b7225d58167503992ac96ec03218d68 ALSA: hda/realtek: Add quirk for Inspur S14-G1
+10a948cb71d16db2fcf33e76b52580454d391e2a ASoC: cs35l45: Corrects ASP_TX5 DAPM widget channel
+59ec2c61fe031533cefec6b1ed24f3a37f6e3371 ALSA: hda/realtek - fixed speaker no sound
+9b203b8ddd7359270e8a694d0584743555128e2c romfs: check sb_set_blocksize() return value
+45668b63be013a0a665be7d73588c2651e859de1 drm/tegra: hdmi: sor: Fix error: variable ‘j’ set but not used
+da6e06a5fdbabea3870d18c227734b5dea5b3be6 platform/x86: classmate-laptop: Add missing NULL pointer checks
+a1ad7bbeafd7bdf2ebe1edc27a23ce3f94d12bc3 ASoC: Intel: sof_es8336: Add DMI quirk for Huawei BOD-WXX9
+c9575a0cd571ebc3f2e70cbeecb0f6e83cffcf38 ASoC: amd: yc: Add quirk for HP 200 G2a 16
+db8799e80cb7367b4dd6fd400fec916e1b1ab04c ALSA: hda/realtek: Enable headset mic for Acer Nitro 5
+bc3da98445cf238c8a85e36cd37bc1241e0cb61b platform/x86/amd/pmc: Add quirk for MECHREVO Wujie 15X Pro
+b3851fb4aba8b86d48cc1d74cd4c7e3fc7f1c2f5 platform/x86: panasonic-laptop: Fix sysfs group leak in error path
+ded6043c33584b219ce4c327d1b049468473aa79 ASoC: cs42l43: Correct handling of 3-pole jack load detection
+02d209bb018a40dee9eac89e91860253dee9605b tracing/dma: Cap dma_map_sg tracepoint arrays to prevent buffer overflow
+7165dc5133fb798dfd41bc023ff954c3a83f67c3 drm/amd/display: extend delta clamping logic to CM3 LUT helper
+67484f35c447eec9500eb2fafe87fc6d69fd1881 drm/amd/display: remove assert around dpp_base replacement
+daaf4fe333e0d48b2037cd2270bf1ff8f70d5068 ASoC: fsl_xcvr: fix missing lock in fsl_xcvr_mode_put()
+56ef68a5b8a1720dee56364bd8c7915eae58494b gpiolib: acpi: Fix gpio count with string references
+b285b1fd51fa52f9104b29dec3d3503f58f42482 mm/hugetlb: fix copy_hugetlb_page_range() to use ->pt_share_count
+3a18b452dd5f7f1652c2e92f8ae769aa17a66c9e mm/hugetlb: fix hugetlb_pmd_shared()
+baa198a934016b8215f92668976da2d6b69a0fdd mm/hugetlb: fix two comments related to huge_pmd_unshare()
+da06bb0ca45b1ca6f1ab55023e34e61a520337f3 mm/hugetlb: fix excessive IPI broadcasts when unsharing PMD tables using mmu_gather
+56db97af7c892b1fcb421a75e347034458eeafd6 LoongArch: Rework KASAN initialization for PTW-enabled systems
+e94b369ff82f9bc84f090f271bd78f41c9f6ab2f Revert "wireguard: device: enable threaded NAPI"
+7b7829839dac277f5a69fb6838aabdb67e366227 cpuset: Fix missing adaptation for cpuset_is_populated
+9efa0dc46270a8723c158c64afbcf1dead72b28c fbdev: rivafb: fix divide error in nv3_arb()
+52917e265aa5f848212f60fc50fc504d8ef12866 fbdev: smscufx: properly copy ioctl memory to kernelspace
+aeb70609e6b57541d077f575300c7c7e2d838418 f2fs: fix to add gc count stat in f2fs_gc_range
+b72d775424f578a1c76fba5c569504aa611e6c45 f2fs: fix to check sysfs filename w/ gc_pin_file_thresh correctly
+4ef30b9f1641c9e877792df6b049f1cf507d002d f2fs: fix out-of-bounds access in sysfs attribute read/write
+1ff415eef513bf12deb058fc50d57788c46c48e6 f2fs: fix to avoid mapping wrong physical block for swapfile
+121f787e740d67320a424432b6e1d0d4cec467ae iommu/arm-smmu-qcom: do not register driver in probe()
+cf4a9e1bc8129eb63fda5f8bdcd8d87f0bd76f42 f2fs: fix to avoid UAF in f2fs_write_end_io()
+962c167b0f262b9962207fbeaa531721d55ea00e f2fs: fix IS_CHECKPOINTED flag inconsistency issue caused by concurrent atomic commit and checkpoint writes
+9001c6815e5390d10ae750e2cd4379eb8833adc2 USB: serial: option: add Telit FN920C04 RNDIS compositions
+444b39ef6108313e8452010b22aaba588e8fb92b Linux 6.12.74
+d714b64e5ce05b8ef65cbf91e20ef13765cdbaf6 RDMA/siw: Fix potential NULL pointer dereference in header processing
+cb4277b85c1df9ff37649b28766190ae2262cf34 RDMA/umad: Reject negative data_len in ib_umad_write
 
---===============8069300174421302838==
+--===============4834533333385783307==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-002db9aad441-c1ed35c77841.txt
+Content-Disposition: attachment; filename=revlist-397e7e549cd9-53e92b689132.txt
 
-a60b17cedb44237c1336a549b079698e57524a4d crypto: octeontx - Fix length check to avoid truncation in ucode_load_store
-31aff96a41ae6f1f1687c065607875a27c364da8 crypto: omap - Allocate OMAP_CRYPTO_FORCE_COPY scatterlists correctly
-8ee8ccfd60bf17cbdab91069d324b5302f4f3a30 crypto: virtio - Add spinlock protection with virtqueue notification
-ba18e5f22f26aa4ef78bc3e81f639d1d4f3845e6 nilfs2: Fix potential block overflow that cause system hang
-a46f81c1e627437de436e517f5fd4b725c15a1e6 scsi: qla2xxx: Validate sp before freeing associated memory
-891f9969a29e9767a453cef4811c8d2472ccab49 scsi: qla2xxx: Delay module unload while fabric scan in progress
-7e0b2cdbe66045ff9fe6af227556578339ebba3a scsi: qla2xxx: Query FW again before proceeding with login
-86588916e1887a5edb8a9161cd7ae81e47a7ed25 gpio: omap: do not register driver in probe()
-1fe2603fb171a8a38ead7daa17280293709e9276 ALSA: hda/realtek: Fix headset mic for TongFang X6AR55xU
-f14e997a372a6dfec8f9578b9c15c3f4945e48b9 gpio: sprd: Change sprd_gpio lock to raw_spin_lock
-f2521ab1f63a8c244f06a080319e5ff9a2e1bd95 romfs: check sb_set_blocksize() return value
-72f97ee4950d095b5b23a04c186c4c977772b82c drm/tegra: hdmi: sor: Fix error: variable ‘j’ set but not used
-af673209d43b46257540997aba042b90ef3258c0 platform/x86: classmate-laptop: Add missing NULL pointer checks
-ff96318c22fa6e76719b2c1873cf9eda51f3860e platform/x86: panasonic-laptop: Fix sysfs group leak in error path
-612ffe1f4f0499b3011f16d06e354a76dae2e2d1 ASoC: fsl_xcvr: fix missing lock in fsl_xcvr_mode_put()
-20c83788eafed018fe6908f18e464f813878f431 gpiolib: acpi: Fix gpio count with string references
-cfdb22762f903d95c36ab91e9fe6167f22fa9f6d Revert "wireguard: device: enable threaded NAPI"
-b0bb67385480a3aa4c54b139e4f371ddd06b5150 btrfs: fix racy bitfield write in btrfs_clear_space_info_full()
-4a6e4c56721a3e6e2550b72ec56aab306c4607a7 smb: client: set correct id, uid and cruid for multiuser automounts
-51df5513cca6349d0bea01bab95cd96cf869976e net: dsa: free routing table on probe failure
-ec7b6a042414268b84e1d1a9b1b10f3546396db8 selftests: mptcp: pm: ensure unknown flags are ignored
-338d40bab283da2639780ee3e458fb61f1567d8c mptcp: fix race in mptcp_pm_nl_flush_addrs_doit()
-dc5f09466448253f58681662d45a58714348982a crypto: virtio - Remove duplicated virtqueue_kick in virtio_crypto_skcipher_crypt_req
-6dd2645cf080a75be31fa66063c7332b291f46f0 smb: server: fix leak of active_num_conn in ksmbd_tcp_new_connection()
-38770e103e4ef955e244886bf54ca71a1541298d bus: fsl-mc: Replace snprintf and sprintf with sysfs_emit in sysfs show functions
-c71dfb7833db7af652ee8f65011f14c97c47405d bus: fsl-mc: fix use-after-free in driver_override_show()
-f2bbb4db0e4a4fbd5e649c0b5d8733f61da24720 scsi: qla2xxx: Fix bsg_done() causing double free
-da9939b1ed8be80d82d7f261cc5ec332f8a717b9 scsi: qla2xxx: Use named initializers for port_[d]state_str
-23507a811081f0d0cb00fdeb5c138901038802fa scsi: qla2xxx: Remove dead code (GNN ID)
-794563147038824443f986c453740f0bc35ab1ef scsi: qla2xxx: Reduce fabric scan duplicate code
-b74408de1f2264220979f0c6a5a9d5e50b5b534b scsi: qla2xxx: Free sp in error path to fix system crash
-8055827352b7a3de2a2a949631203efe98ee24e5 PCI: endpoint: Automatically create a function specific attributes group
-7036aff5a5e8fb6c0f88de659d8b9910fb871099 PCI: endpoint: Remove unused field in struct pci_epf_group
-fa9fb38f5fe9c80094c2138354d45cdc8d094d69 PCI: endpoint: Avoid creating sub-groups asynchronously
-52916878db2b8e3769743a94484729f0844352df fbdev: rivafb: fix divide error in nv3_arb()
-6167af934f956d3ae1e06d61f45cd0d1004bbe1a fbdev: smscufx: properly copy ioctl memory to kernelspace
-2f67ff1e15a8a4d0e4ffc6564ab20d03d7398fe9 f2fs: fix to avoid UAF in f2fs_write_end_io()
-438a405fbad6882df0e34b3e1a16839a71f04240 f2fs: fix out-of-bounds access in sysfs attribute read/write
-cfd5eadd051a872a8437cff6b5e382cdb3fb55ad USB: serial: option: add Telit FN920C04 RNDIS compositions
-3330a8d33e086f76608bb4e80a3dc569d04a8814 Linux 5.15.201
-cd52df0a30dbd5e57345d906f5a4ff9c5ca38417 RDMA/siw: Fix potential NULL pointer dereference in header processing
-c1ed35c778419b3627398a4866dfaf9f5dd89ca6 RDMA/umad: Reject negative data_len in ib_umad_write
+31f33b856d2324d86bcaef295f4d210477a1c018 scsi: qla2xxx: Fix bsg_done() causing double free
+68dd6c5ebe7991aa8dee221ca78bc8b93958e92b rust: device: fix broken intra-doc links
+7d82e965fe0e3aa6776d4965af1f42dd132281f4 rust: dma: fix broken intra-doc links
+464a50c6b23aab9bd0041725e84f386c3cf9af9f rust: driver: fix broken intra-doc links to example driver types
+652667ac1369eaf1eb03ef7db01bd94ac12dcc53 ASoC: amd: yc: Add ASUS ExpertBook PM1503CDA to quirks list
+b0b2cb84b64a9e380a27ab7e006cb1dd2474a4a7 gpio: sprd: Change sprd_gpio lock to raw_spin_lock
+1bdbcf326474cd962a2388df52525e14b42a44d5 ALSA: hda/realtek: Add quirk for Inspur S14-G1
+20bc7062c352fcb252dce1901930c3948d4585c7 ASoC: cs35l45: Corrects ASP_TX5 DAPM widget channel
+d2e01e0c5e947da0b5005ca89efa82baeb232adc ALSA: hda/realtek - fixed speaker no sound
+4b71ad7676564a94ec5f7d18298f51e8ae53db73 romfs: check sb_set_blocksize() return value
+efdb9c8ca3cfb132b29d68d506e3bb5dee3b9c83 drm/tegra: hdmi: sor: Fix error: variable ‘j’ set but not used
+97528b1622b8f129574d29a571c32a3c85eafa3c platform/x86: classmate-laptop: Add missing NULL pointer checks
+c3b2e922924bfbb9a2f4541bec2c7d2249399631 ASoC: Intel: sof_es8336: Add DMI quirk for Huawei BOD-WXX9
+78783e8d588cf79abcbe487b1c4da80621c39070 ASoC: amd: yc: Add quirk for HP 200 G2a 16
+a9584e9e464480042a5fc43bf097fa0837da8856 ALSA: hda/realtek: Enable headset mic for Acer Nitro 5
+bb6ff25035da56aa915e4974f68649fa74659e66 platform/x86/amd/pmc: Add quirk for MECHREVO Wujie 15X Pro
+2ca80dd4bb0e2050586bb8c549bcc72d16bd8bcd ASoC: sof_sdw: Add a quirk for Lenovo laptop using sidecar amps with cs42l43
+a8ed5b974a24418d43697c2ee828df10c450b987 platform/x86: panasonic-laptop: Fix sysfs group leak in error path
+7bc40c6f36575291ed04470e0e15bddb19f5b6b6 ASoC: cs42l43: Correct handling of 3-pole jack load detection
+f2584f791a10343bdc995ff6ff402db45b95de69 tracing/dma: Cap dma_map_sg tracepoint arrays to prevent buffer overflow
+8e6f50396170939e4444ae18cd488f24b41bd5fd drm/amd/display: extend delta clamping logic to CM3 LUT helper
+00c57e2369386e244de92db0d58548cea574fedd drm/amd/display: remove assert around dpp_base replacement
+cab928242853a832ffa7efda270ecfb9efeebb6e ASoC: fsl_xcvr: fix missing lock in fsl_xcvr_mode_put()
+fa4938e0d0d64a5623629470eefb5547495e7aa6 io_uring/fdinfo: be a bit nicer when looping a lot of SQEs/CQEs
+6d66464d1a059d92df8a5454d5bc9414f6ec0b03 gpiolib: acpi: Fix gpio count with string references
+0c74d37343b93ac6503fceb762459d1fb9dea486 arm64: dts: mediatek: mt8183: Add missing endpoint IDs to display graph
+9b671f6f432be07c0ddd66e437d6d0e0db684f83 mm/hugetlb: fix excessive IPI broadcasts when unsharing PMD tables using mmu_gather
+eaa9fcf57934cda01e9f34b232ca78187b344ad1 LoongArch: Rework KASAN initialization for PTW-enabled systems
+98d91080517d4c642820b5d8219cb759ddaf79b7 cpuset: Fix missing adaptation for cpuset_is_populated
+3e4cbd1d46c246dfa684c8e9d8c20ae0b960c50a fbdev: rivafb: fix divide error in nv3_arb()
+1c008ad0f0d1c1523902b9cdb08e404129677bfc fbdev: smscufx: properly copy ioctl memory to kernelspace
+fb9f7e52273db15dd8c0e2fc107a986b87240bb4 f2fs: fix to add gc count stat in f2fs_gc_range
+70cf1e96bde07a1a75ce3a479132d06b4950c801 f2fs: fix to check sysfs filename w/ gc_pin_file_thresh correctly
+bd66b4c487d5091d2a65d6089e0de36f0c26a4c7 f2fs: fix IS_CHECKPOINTED flag inconsistency issue caused by concurrent atomic commit and checkpoint writes
+d4a594dd952df123cbdcdee9b9640d9d55e4a954 f2fs: fix out-of-bounds access in sysfs attribute read/write
+995030be4ce6338c6ff814583c14166446a64008 f2fs: fix to avoid UAF in f2fs_write_end_io()
+97e4f479939e5ac6272e2e2473297942c6549ed3 f2fs: support non-4KB block size without packed_ssa feature
+fee27b69dde1a05908b350eea42937af2387c4fe f2fs: fix to avoid mapping wrong physical block for swapfile
+0415ae51a40e346ca233dcc1b4b7c486d70e69d2 f2fs: optimize f2fs_overwrite_io() for f2fs_iomap_begin
+f611dafe0ffd33bc3fe522506af38903f34ffcc1 iommu/arm-smmu-qcom: do not register driver in probe()
+715a7a72e47361548a377996effb8f4ed869e84e USB: serial: option: add Telit FN920C04 RNDIS compositions
+cd2fec912a0f04390d446ed692f73f2da842855f f2fs: fix to do sanity check on node footer in __write_node_folio()
+855c54f1803e3ebc613677b4f389c7f92656a1fc f2fs: fix to do sanity check on node footer in {read,write}_end_io
+df337ba02ca53ca9cfcefc1ed7ca38424daa52a0 f2fs: fix incomplete block usage in compact SSA summaries
+25e0b1c206e3def1bd3bf9dcba980c5138c637a9 Linux 6.18.13
+42f9edab2a6d691eedc668cff85487fcb9b4e402 RDMA/siw: Fix potential NULL pointer dereference in header processing
+53e92b689132c43caaec8b0a65a481e5b16e38a4 RDMA/umad: Reject negative data_len in ib_umad_write
 
---===============8069300174421302838==
+--===============4834533333385783307==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-ec8afbb2e470-5a48bfc7b9bb.txt
+
+708003e1bc857dd014d4c44278d7d77c26f91b1c scsi: qla2xxx: Fix bsg_done() causing double free
+502851d28d3db42e38002dd848754753145f181f arm64: dts: mediatek: mt8183: Add missing endpoint IDs to display graph
+db47a9bc78429dccf721e2e1d5b209ed7d554b57 LoongArch: Rework KASAN initialization for PTW-enabled systems
+73f0391e92d404da68f7484e57c106c5e673dc7e fbdev: rivafb: fix divide error in nv3_arb()
+f1e91bd4efeae48b0f42caed7e8ce2e3a0d05b02 fbdev: smscufx: properly copy ioctl memory to kernelspace
+b78f61cf6982c3a8a24aa6103e14dd9afe9845e9 f2fs: fix to add gc count stat in f2fs_gc_range
+3b485db70acfb99deccf68e6a21f60eb757a6fd4 f2fs: fix to check sysfs filename w/ gc_pin_file_thresh correctly
+ed81bc5885460905f9160e7b463e5708fd056324 f2fs: fix IS_CHECKPOINTED flag inconsistency issue caused by concurrent atomic commit and checkpoint writes
+3a905e183c047577b154f08a78ac3039e9454703 f2fs: fix out-of-bounds access in sysfs attribute read/write
+a42f99be8a16b32a0bb91bb6dda212a6ad61be5d f2fs: fix to avoid UAF in f2fs_write_end_io()
+eacd5d96e9ec18450e4faf4c6b833157035b1260 f2fs: support non-4KB block size without packed_ssa feature
+607cb9d83838d2cd9f0406c2403ed61aadf0edff f2fs: fix to avoid mapping wrong physical block for swapfile
+a2eee7fb2fd0ca4b533d4a2e3291dd4bf1c8ddc1 f2fs: optimize f2fs_overwrite_io() for f2fs_iomap_begin
+bb99c464230f1bb5c18f3fb2e5265be2cfb2e0dc iommu/arm-smmu-qcom: do not register driver in probe()
+b6382273801bc7c778545dd8004c9a9d750b4f62 Revert "f2fs: block cache/dio write during f2fs_enable_checkpoint()"
+73cadc0efc60d2cd659806688cf022ead20921e5 USB: serial: option: add Telit FN920C04 RNDIS compositions
+971aa8e2a4043d92bf62061b79f74fd4ac59165a f2fs: fix to do sanity check on node footer in __write_node_folio()
+c386753db52b3a80afa6612bfdcb925aa5ca260f f2fs: fix to do sanity check on node footer in {read,write}_end_io
+c1ca57dc5055975915761505935982803fb2517b f2fs: fix incomplete block usage in compact SSA summaries
+598cf272195d27d2a45462baa051959dc53690e5 Linux 6.19.3
+9d5ed00ea1f096f4a7d20f4461484233717154f8 RDMA/siw: Fix potential NULL pointer dereference in header processing
+5a48bfc7b9bbcb1c4e1e91aceffbe0cc4f1051bc RDMA/umad: Reject negative data_len in ib_umad_write
+
+--===============4834533333385783307==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-364e76bbb7ed-c127771bf009.txt
+Content-Disposition: attachment; filename=revlist-a9d2fcca9a0f-781a9e343231.txt
 
-569fecc56bfe4df66f05734d67daef887746656b smb: client: split cached_fid bitfields to avoid shared-byte RMW races
-fb3b66bd72deb5543addaefa67963b34fb163a7b ksmbd: fix infinite loop caused by next_smb2_rcv_hdr_off reset in error paths
-7ddd69cd1338c6197e1b6b19cec60d99c8633e4f smb: server: fix leak of active_num_conn in ksmbd_tcp_new_connection()
-ccc4ee0118826e19380f25365fd080efbdeaaa34 crypto: octeontx - Fix length check to avoid truncation in ucode_load_store
-79f95b51d4278044013672c27519ae88d07013d8 crypto: omap - Allocate OMAP_CRYPTO_FORCE_COPY scatterlists correctly
-c9e594194795c86ca753ad6ed64c2762e9309d0d crypto: virtio - Add spinlock protection with virtqueue notification
-74eff0dbb9dfe9656ef2d7da42449897b476b8f1 crypto: virtio - Remove duplicated virtqueue_kick in virtio_crypto_skcipher_crypt_req
-2438982f635e6cc2009be68ba2efb2998727d8d4 nilfs2: Fix potential block overflow that cause system hang
-044131fce27749cb6ea986baf861fbe63c6d8a17 scsi: qla2xxx: Validate sp before freeing associated memory
-88848ba1a7cd420769af320b99208d823700702f scsi: qla2xxx: Allow recovery for tape devices
-984dc1a51bf6fc3ca4e726abe790ec38952935d8 scsi: qla2xxx: Delay module unload while fabric scan in progress
-48b87ba9487a82bde9710fda79a4f4531b4f7447 scsi: qla2xxx: Query FW again before proceeding with login
-a29215961d833f4de33a09c3964d31ebc6083033 gpio: omap: do not register driver in probe()
-55835646da78e83e7ad06abd741ca8fd8c0b0ea7 btrfs: fix racy bitfield write in btrfs_clear_space_info_full()
-c0aa43f9c34ab50439e241e0f3abb4c84ecaca84 net: sfp: Fix quirk for Ubiquiti U-Fiber Instant SFP module
-2ceba8ae1bd1f5589548cb722a5c583ca3a2dede smb: client: set correct id, uid and cruid for multiuser automounts
-27ac9679c43a09e54e2d9aae9980ada045b428e0 scsi: qla2xxx: Fix bsg_done() causing double free
-85cc6f93384f42c4e948f52cc00c4e7206c458a6 PCI: endpoint: Automatically create a function specific attributes group
-aec85d6157147ae163340c90bd284efa34a4c414 PCI: endpoint: Remove unused field in struct pci_epf_group
-5f609b3bffd4207cf9f2c9b41e1978457a5a1ea9 PCI: endpoint: Avoid creating sub-groups asynchronously
-996275f754d9be19ca23e3d877a9a4299a3cd9e6 bus: fsl-mc: Replace snprintf and sprintf with sysfs_emit in sysfs show functions
-c424e72cfa67e7e1477035058a8a659f2c0ea637 bus: fsl-mc: fix use-after-free in driver_override_show()
-08491bef181995149d827c0aeba0e431160ab3b0 scsi: qla2xxx: Remove dead code (GNN ID)
-54556a19047f20a61db6ed37cf264f046237cc2c scsi: qla2xxx: Reduce fabric scan duplicate code
-8e7597b4efee6143439641bc6522f247d585e060 scsi: qla2xxx: Free sp in error path to fix system crash
-dcb53a6b13b42bd5f73585a24c238f71a8a39fbc cacheinfo: Decrement refcount in cache_setup_of_node()
-2cceca9e2e1cf249d1821923d4a6749363e007bc cacheinfo: Remove of_node_put() for fw_token
-1d280ce34cfd2990f2893729584c693a11efef97 ALSA: hda/realtek: Fix headset mic for TongFang X6AR55xU
-dbf212f427f18982ce792aaf9259c78eb59a5354 ASoC: amd: yc: Add ASUS ExpertBook PM1503CDA to quirks list
-677fadb3258593ddafdcac87516c7cae7169ede5 gpio: sprd: Change sprd_gpio lock to raw_spin_lock
-8accaafb860da6a4f9f5535bcb6d9c96ad630aed ALSA: hda/realtek: Add quirk for Inspur S14-G1
-0cbc74a9fc67b8eabb330336f20cbcd485bd8c62 ASoC: cs35l45: Corrects ASP_TX5 DAPM widget channel
-2c5829cd8fbbc91568c520b666898f57cdcb8cf6 romfs: check sb_set_blocksize() return value
-ee05d704a5fb223dd63c405c121caff9eedaf846 drm/tegra: hdmi: sor: Fix error: variable ‘j’ set but not used
-eb214804f03c829decf10998e9b7dd26f4c8ab9e platform/x86: classmate-laptop: Add missing NULL pointer checks
-569ace52c8b3b45bb936a135117b77c86ceaf2ca ASoC: Intel: sof_es8336: Add DMI quirk for Huawei BOD-WXX9
-8cb0750afc5c3e448eb75563dec4de98717538f8 platform/x86: panasonic-laptop: Fix sysfs group leak in error path
-38354c82abe7bcbcd1182a06af89d3cc16d3e2c7 ASoC: fsl_xcvr: fix missing lock in fsl_xcvr_mode_put()
-468d059bae97aee7189c7e6e913917347b2aaf50 gpiolib: acpi: Fix gpio count with string references
-42bc3f45425b607a5ca7b7aaaab661b54407c8f8 Revert "wireguard: device: enable threaded NAPI"
-2e4e7e0fd5869eb0b94b44b3f832210f450f7c62 selftests: mptcp: pm: ensure unknown flags are ignored
-ba0a6a0ac2a8de351ca6e3bc87c40ee2e26ccf66 mptcp: schedule rtx timer only after pushing data
-226fff52e7ed9fc8cd63327133739b3d92537ffd mptcp: ensure context reset on disconnect()
-498ab7b590859be81df303af80f449dc8a59c3ec selftests: mptcp: check no dup close events after error
-21e9d434cf823a2c60a67021732918df78613df5 selftests: mptcp: check subflow errors in close events
-1def2a98628654e6e4efc57c4a4b9303aa8a85f0 selftests: mptcp: join: fix local endp not being tracked
-975b372313dc018b9bd6cc0d85d188787054b19e xsk: Fix race condition in AF_XDP generic RX path
-90e51e20bcec9bff5b2421ce1bd95704764655f5 devlink: rate: Unset parent pointer in devl_rate_nodes_destroy
-847d5dd788ce05f0aaaa36ea174f7f0b9cf86f7d clk: mediatek: fix of_iomap memory leak
-51da899c209a9624e48be416bd30e7ed5cd6c3d8 nfsd: don't ignore the return code of svc_proc_register()
-c7ab587bd33ce45e2aa6b6d2d36be7ef0bd16614 ksmbd: set ATTR_CTIME flags when setting mtime
-2fbc85da9ac9386bd89fcc94e0aadaea19d47784 ACPI: APEI: send SIGBUS to current task if synchronous memory error not recovered
-2fbf67ddb8a0d0efc00d2df496a9843ec318d48b net: stmmac: Fix accessing freed irq affinity_hint
-6c20894d21600ca1e8549086dfbb986e277bf8a6 net: dsa: free routing table on probe failure
-7896dbe990d56d5bb8097863b2645355633665eb mptcp: fix race in mptcp_pm_nl_flush_addrs_doit()
-defe9ce121160788547e8e6ec4438ad8a14f40dd wifi: cfg80211: Add missing lock in cfg80211_check_and_end_cac()
-9f8a6ec1eff8dcfe9700b2b2290fca5430c78288 cpuset: Fix missing adaptation for cpuset_is_populated
-526460a96c5443e2fc0fd231edd1f9c49d2de26b fbdev: rivafb: fix divide error in nv3_arb()
-a0321e6e58facb39fe191caa0e52ed9aab6a48fe fbdev: smscufx: properly copy ioctl memory to kernelspace
-32bc3c9fe18881d50dd51fd5f26d19fe1190dc0d f2fs: fix IS_CHECKPOINTED flag inconsistency issue caused by concurrent atomic commit and checkpoint writes
-505e1c0530db6152cab3feef8e3e4da3d3e358c9 f2fs: fix to avoid UAF in f2fs_write_end_io()
-6a6c07a9b49e43f0df42d7118fc76aa555c73d98 f2fs: fix out-of-bounds access in sysfs attribute read/write
-5fd85edc4a55dd0c56e100adb76eeeea80d07adb USB: serial: option: add Telit FN920C04 RNDIS compositions
-6dedc8c2a4bfc64ef07410634e944c0506eb98c1 net: tunnel: make skb_vlan_inet_prepare() return drop reasons
-779f9571ac3e3b2c969690d09e5353f56b7ed4ef Linux 6.1.164
-f6b430da46a1ee5c66d04804bb212e915222af32 RDMA/siw: Fix potential NULL pointer dereference in header processing
-c127771bf0098163669c0115913e1e3d4b4abf14 RDMA/umad: Reject negative data_len in ib_umad_write
+74e7458537cd9349cf019862e51491f670871707 scsi: qla2xxx: Fix bsg_done() causing double free
+68c9fdb01af8ac31bc046268235fceb77c6c1ddd PCI: endpoint: Remove unused field in struct pci_epf_group
+8cb905eca73944089a0db01443c7628a9e87012d PCI: endpoint: Avoid creating sub-groups asynchronously
+3118a9c6875b8318f35123e7923783a0ab248a3a bus: fsl-mc: Replace snprintf and sprintf with sysfs_emit in sysfs show functions
+b1983840287303e0dfb401b1b6cecc5ea7471e90 bus: fsl-mc: fix use-after-free in driver_override_show()
+2accd79be906f2ea16b2e7205b136296f564a63e ALSA: hda/realtek: Fix headset mic for TongFang X6AR55xU
+4cfb1aed47539626e4310652fef8bb13ad4d6154 ASoC: amd: yc: Add ASUS ExpertBook PM1503CDA to quirks list
+b204c5ec24a238f5d06cfa688fb3b80d1afdb91c gpio: sprd: Change sprd_gpio lock to raw_spin_lock
+6834804ad484fabbc6bc994a77110f8d52cfe179 ALSA: hda/realtek: Add quirk for Inspur S14-G1
+79100c3bc0c4679df3bb63a46e51b5124351a9fd ASoC: cs35l45: Corrects ASP_TX5 DAPM widget channel
+cbd9931e6456822067725354d83446c5bb813030 romfs: check sb_set_blocksize() return value
+e120bae4c56d162f38e23ba67097077bf3e43cdd drm/tegra: hdmi: sor: Fix error: variable ‘j’ set but not used
+9cf4b9b8ad09d6e05307abc4e951cabdff4be652 platform/x86: classmate-laptop: Add missing NULL pointer checks
+d7d7b93aca648d991a8343f42388a910c5c13641 ASoC: Intel: sof_es8336: Add DMI quirk for Huawei BOD-WXX9
+c3876edb0184338fcfc6c30c92ff286e68b74547 ASoC: amd: yc: Add quirk for HP 200 G2a 16
+e8f5d1306a3a5516fe699039614040c084bd6341 platform/x86/amd/pmc: Add quirk for MECHREVO Wujie 15X Pro
+329bb274a3a9144d2fe5a16cdc9b3b05000116b3 platform/x86: panasonic-laptop: Fix sysfs group leak in error path
+f49d2497da140a4dbb7d6373264553ea04b37691 ASoC: cs42l43: Correct handling of 3-pole jack load detection
+61e007657bf7740d54ca2aadce0fb5997839818e ASoC: fsl_xcvr: fix missing lock in fsl_xcvr_mode_put()
+16f137fb74c178799271cb7c34e2eebe7dc0651f gpiolib: acpi: Fix gpio count with string references
+f507fc06c7cd440724f740dd29f6f1d7046b862e LoongArch: Add WriteCombine shadow mapping in KASAN
+78e706f9b1977ff7a86c4b49dd1fac5e1ea71c48 LoongArch: Rework KASAN initialization for PTW-enabled systems
+168ee1549fa24fff2ab924a2ca7b1d85f30e062d Revert "wireguard: device: enable threaded NAPI"
+8c9a1b0710510c3cc25526c815ca798705cb1936 mm/hugetlb: fix copy_hugetlb_page_range() to use ->pt_share_count
+51dcf459845fd28f5a0d83d408a379b274ec5cc5 mm/hugetlb: fix hugetlb_pmd_shared()
+2eeca9383efebb27c85a5ed12ba261c282f7a716 mm/hugetlb: fix two comments related to huge_pmd_unshare()
+ff37dd18ce7739a26aab0cc2d31006a45e6bde63 mm/hugetlb: fix excessive IPI broadcasts when unsharing PMD tables using mmu_gather
+6e5eccdef67ee879d7c0474c7e19e8b683f27dbe cpuset: Fix missing adaptation for cpuset_is_populated
+f42a2d49c46526cdfbfba95a61dd2caac69aff9b LoongArch: Add writecombine support for DMW-based ioremap()
+78daf5984d96edec3b920c72a93bd6821b8710b7 fbdev: rivafb: fix divide error in nv3_arb()
+0634e8d650993602fc5b389ff7ac525f6542e141 fbdev: smscufx: properly copy ioctl memory to kernelspace
+81193503af1fb9102fdd0c5f906af4dc39551e21 f2fs: fix to add gc count stat in f2fs_gc_range
+eebd72cff518ac87e660aefb8a41224bd88c32ce f2fs: fix out-of-bounds access in sysfs attribute read/write
+75e19da068adf0dc5dd269dd157392434b9117d4 f2fs: fix IS_CHECKPOINTED flag inconsistency issue caused by concurrent atomic commit and checkpoint writes
+acc2c97fc0005846e5cf11b5ba3189fef130c9b3 f2fs: fix to avoid UAF in f2fs_write_end_io()
+20a8bad29d18127890f7292f0638075103a21076 f2fs: fix zoned block device information initialization
+d4534a7f6c92baaf7e12a45fc6e37332cafafc33 f2fs: fix to avoid mapping wrong physical block for swapfile
+35ac888bf8aca1366a5b99531cccbc1a370d2d08 USB: serial: option: add Telit FN920C04 RNDIS compositions
+f478b8239d6564b20bbf2972e441c31f945a2b76 net: tunnel: make skb_vlan_inet_prepare() return drop reasons
+7a137e9bfa0e1919555d60f9dc0c05a7a5ba75d0 Linux 6.6.127
+7a1c459ff8ebbd06dd96fe0e316fa930be45468d RDMA/siw: Fix potential NULL pointer dereference in header processing
+781a9e3432311173facf262e01ed5a3345d84668 RDMA/umad: Reject negative data_len in ib_umad_write
 
---===============8069300174421302838==--
+--===============4834533333385783307==--
