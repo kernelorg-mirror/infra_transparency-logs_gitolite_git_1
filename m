@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0472195890323593091=="
+Content-Type: multipart/mixed; boundary="===============0783560281368132345=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mptcp/linux
-Date: Fri, 20 Feb 2026 09:20:27 -0000
-Message-Id: <177157922774.134764.15651490689039366530@gitolite.kernel.org>
+Date: Fri, 20 Feb 2026 09:20:47 -0000
+Message-Id: <177157924770.134999.3302878474146165677@gitolite.kernel.org>
 
---===============0472195890323593091==
+--===============0783560281368132345==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,38 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/mptcp/linux
 user: matttbe
 changes:
-  - ref: refs/heads/export
-    old: 25379c913adee1109fed7d282e9baab9fc120876
-    new: 210836190006024e1aa9ea546c1199634137f72e
-    log: revlist-25379c913ade-210836190006.txt
+  - ref: refs/heads/export-net
+    old: 2154c201f7ca02bcc1a3d1e3e57d62067aae20d9
+    new: 9fa75bb50482e49705049473749043150c39d906
+    log: revlist-2154c201f7ca-9fa75bb50482.txt
 
---===============0472195890323593091==
+--===============0783560281368132345==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-25379c913ade-210836190006.txt
+Content-Disposition: attachment; filename=revlist-2154c201f7ca-9fa75bb50482.txt
 
+9d46e83a72392a644604458448a72d7c45977f0f KVM: arm64: nv: Add trap config for DBGWCR<15>_EL1
+82a32eacbacc6f7e372f98999e5ee1ee0dd7462d KVM: arm64: Fix various comments
+4a03431b742b4edc24fe1a14d355de1df6d80f86 KVM: arm64: gic-v3: Switch vGIC-v3 to use generated ICH_VMCR_EL2
+b583177aafe3ca753ddd3624c8731a93d0cd0b37 arm64/sysreg: Drop ICH_HFGRTR_EL2.ICC_HAPR_EL1 and make RES1
+9435c1e1431003e23aa34ef8e46c30d09c3dbcb5 KVM: arm64: gic: Set vgic_model before initing private IRQs
+3227c3a89d65fe7482312b7b27038d9ebd86f210 irqchip/gic-v5: Check if impl is virt capable
+b4af7d194dc879353829f3c56988a68fbba1fbdd mtd: spinand: Disable continuous read during probe
+d55d3fe2d1470ac5b6e93efe7998b728013c9fc8 MIPS: Loongson: Make cpumask_of_node() robust against NUMA_NO_NODE
+d463fc5ca1ace0b2e8bb764df04fc12ecd6f8e2b mips: LOONGSON32: drop a dangling Kconfig symbol
+4f82eef99abf7a1c1e718303b24bdb8b490e5a26 MIPS: pic32: include linux/io.h header on several files
+18635a70801cdd5635c7a82e0acb4c5075f74a91 MIPS: pic32: include linux/types.h on pic32.h
+3391d097cda8f803c062fb6326f0736a3379e2f9 MIPS: pic32: drop unused include linux/io.h from pic32.h
+d095d2dbcc8df60ede1674e28ce0f0a478d37535 MIPS: copy pic32.h header file from asm/mach-pic32/ to include/platform-data/
+d1c7ad04413717c0f61db33404a1592f0dd26f4f MAINTAINERS: add include/linux/platform_data/pic32.h to MIPS entry
+77485091b61399df20fad8b2fdf3e8cac3530bb1 MIPS: update include to use pic32.h from platform_data
+07caa83edd9a98d24769c1648b482b03839602ed clk: microchip: core: update include to use pic32.h from platform_data
+06e6f8112bc618101f242f77e45986ddbb11217f irqchip/irq-pic32-evic: update include to use pic32.h from platform_data
+d6618d277c1a8740ca37b8e4d4a35075e75a7c40 mmc: sdhci-pic32: update include to use pic32.h from platform_data
+b8694faa1a0fa848cb0a593ab2d7723868277926 pinctrl: pic32: update include to use pic32.h from platform_data
+ed65ae9f6c6b030e0a5912b7a88ca02f57cbc43e rtc: pic32: update include to use pic32.h from platform_data
+24cad1a22848bb7cece0000e443c368e205b551f serial: pic32_uart: update include to use pic32.h from platform_data
 0f8a61ca78d65e470eaf0d1c01f28d53ab56d0a7 watchdog: pic32-dmt: update include to use pic32.h from platform_data
 5aa5879eeebbef9cea33b3ca127d713a293d75d0 watchdog: pic32-wdt: update include to use pic32.h from platform_data
 89ace0736208de07577ecc16962927930baf4e7d MIPS: drop unused pic32.h header
@@ -1020,35 +1041,14 @@ e1512c1db9e8794d8d130addd2615ec27231d994 espintcp: Fix race condition in espintc
 64868f5ecadeb359a49bc4485bfa7c497047f13a net: usb: kaweth: remove TX queue manipulation in kaweth_set_rx_mode
 f1e2f0ce704e4a14e3f367d3b97d3dd2d8e183b7 net: usb: lan78xx: scan all MDIO addresses on LAN7801
 bfd264fbbbca7a39ea430d7bc2baf8ee2ea958e4 net: dsa: sja1105: protect link replay helpers against NULL phylink instance
-1ee3780eec3ebd544069005e4a370e7e2b20c4ad DO-NOT-MERGE: git markup: net
-db10f20bb0d8fdf0572c93315a65a2a4b8e0e8a2 DO-NOT-MERGE: git markup: fixes other trees
-feee03d24bf043d009c5a789feaefcf50331ddc5 selftests: mptcp: more stable simult_flows tests
-f1df8c59ba742255008ae3a6f308225f4fdcb3ed DO-NOT-MERGE: git markup: fixes net
-f7065ccc4386518e4a240a7884b039ba005776f2 DO-NOT-MERGE: mptcp: add CI support
-d30f79d3d4f2f6f30a606d1381292448b03f0fb1 DO-NOT-MERGE: git markup: end common net net-next
-67b0732481abb4ffcefc5ca5d0c48987f3c01472 TopGit-driven merge of branches:
-bce075ff2363db603cf39b4c1bbd745dee9f13e5 DO-NOT-MERGE: git markup: net-next
-f512f68848945d44b70e072094c9f080ee706b38 DO-NOT-MERGE: git markup: fixes net-next
-902a2b0d08be70ec94854ea406416f825804e678 mptcp: pm: init and release mptcp_pm_ops
-02ed85fe64809025ccfdfc80fdd20f25efd6cbef mptcp: pm: add get_local_id() interface
-10a565ff817d563860595b1b33fefb70533dc200 mptcp: pm: add get_priority() interface
-b62efcff356052825d42394f2c2a79328b5a9537 mptcp: better mptcp-level RTT estimator
-2f01b9e6278c4ccaa14290922641038ebb6dc71b mptcp: add receive queue awareness in tcp_rcv_space_adjust()
-6ab0175b6c4649e91ff5b247c8264d4e7f186875 DO-NOT-MERGE: git markup: features net-next
-f16763618d1917d9416a451da0dc297a7988b969 DO-NOT-MERGE: git markup: features net-next-next
-9b769bd2314044970bb0310818413fc3e9e08273 bpf: Add mptcp_subflow bpf_iter
-097f85ecd66bb65ccf6622948788a33ee827cf37 selftests/bpf: More endpoints for endpoint_init
-1c37575e567a394d3d0efccf861b5e36f6f152d4 selftests/bpf: Drop cgroup_fd of run_mptcpify
-c39b979dcc26cdf0fa016c45b004b64dcfd9196e bpf: Add mptcp packet scheduler struct_ops
-5d2177768d412be814559a0e684e67836382c267 bpf: Export mptcp packet scheduler helpers
-364edbb8b5b50be3ed6de6bd64781bbb0cb5dc04 selftests/bpf: Add bpf scheduler test
-56d763b3f8efe33bd2dd443a781a8930f7f99e19 selftests/bpf: Add bpf_first scheduler & test
-3a3c4ceb4d096e10ab8ce540469c8f7be35769ee selftests/bpf: Add bpf_bkup scheduler & test
-dfd394b47f82869e134528478d2d8b53364cf1bb selftests/bpf: Add bpf_rr scheduler & test
-6a998f5c026c22571c004187ba8508b21d412b8e selftests/bpf: Add bpf_red scheduler & test
-802356a290c4ccc736cf29ae8e1ca94f5c8f7a97 selftests/bpf: Add bpf_burst scheduler & test
-52dc603ab896167b3b026f0791ce316e82665322 DO-NOT-MERGE: git markup: features other trees
-702d050bdd0b9d827141580946974e07fdf9b185 DO-NOT-MERGE: mptcp: improve code coverage for CI
-210836190006024e1aa9ea546c1199634137f72e DO-NOT-MERGE: mptcp: enabled by default
+a01888c2fce6315505d761fc569a1a118fd45bc4 DO-NOT-MERGE: git markup: net
+6d704d226be48a6b014b57038680c12c19aa8ecf DO-NOT-MERGE: git markup: fixes other trees
+d64c5398205387ec983265c31b1689a4511cdb65 selftests: mptcp: more stable simult_flows tests
+80066061a7909acec8c3028b67b4eb4c335506f5 DO-NOT-MERGE: git markup: fixes net
+e1d9fa02ad5ed997969cf5c3b285630105843e67 DO-NOT-MERGE: mptcp: add CI support
+75a712015001e402a04392819ad8f6a63f357614 DO-NOT-MERGE: git markup: end common net net-next
+9eaa35ebf34c37a57c1c9c1abd4459a5099180a6 DO-NOT-MERGE: git markup: fixes net only
+c3ac6c271889d4c515c7879de911af4c0ba7aa81 DO-NOT-MERGE: mptcp: improve code coverage for CI (net)
+9fa75bb50482e49705049473749043150c39d906 DO-NOT-MERGE: mptcp: enabled by default (net)
 
---===============0472195890323593091==--
+--===============0783560281368132345==--
