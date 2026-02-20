@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7278176694157108751=="
+Content-Type: multipart/mixed; boundary="===============2008107250671359195=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Fri, 20 Feb 2026 01:03:20 -0000
-Message-Id: <177154940025.3926487.22602281479711582@gitolite.kernel.org>
+Date: Fri, 20 Feb 2026 01:03:22 -0000
+Message-Id: <177154940216.3926570.5529424266568317149@gitolite.kernel.org>
 
---===============7278176694157108751==
+--===============2008107250671359195==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,22 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/mm-unstable
-    old: ea9cdc934f6bc3dc468b05b9443854da1edf9e53
-    new: 1aeb295e16f9e9e1de417f58c7e94803d7decb14
-    log: revlist-ea9cdc934f6b-1aeb295e16f9.txt
+  - ref: refs/heads/mm-stable
+    old: ac1ea219590c09572ed5992dc233bbf7bb70fef9
+    new: 8bf22c33e7a172fbc72464f4cc484d23a6b412ba
+    log: revlist-ac1ea219590c-8bf22c33e7a1.txt
 
---===============7278176694157108751==
+--===============2008107250671359195==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-ea9cdc934f6b-1aeb295e16f9.txt
+Content-Disposition: attachment; filename=revlist-ac1ea219590c-8bf22c33e7a1.txt
 
+2ecc1bf14e2fdaff78bd1b8e7ed3dba336a3fad5 PCI: Don't claim disabled bridge windows
+e242d09b58e869f86071b7889acace4cff215935 PCI/AER: Clear stale errors on reporting agents upon probe
+0ccef7079ea8d5f7b896b14be7e400022ff240c6 bpf: Select bpf_local_storage_map_bucket based on bpf_local_storage
+1b7e0cae85accc9e728004511193e995cd040300 bpf: Convert bpf_selem_unlink_map to failable
+fd103ffc57c9a3b8b76bc852ffae5eb630a6ded4 bpf: Convert bpf_selem_link_map to failable
 403e935f915896243ff93f9a2ff44e5bb6619032 bpf: Convert bpf_selem_unlink to failable
 8dabe34b9d5b1135b084268396ed2267107e64c1 bpf: Change local_storage->lock and b->lock to rqspinlock
 4a98c2efa613f0b01bc3aa0acb8c3ff7ae29b6f9 bpf: Remove task local storage percpu counter
@@ -754,6 +759,9 @@ f75c03a761b737c4ee94c17f154967261f00ab4d Merge tag 'trace-rv-v7.0' of git://git.
 582a1ef360a05bff4350bbf6e383f61d26b804f0 Merge tag 'trace-rtla-v7.0' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
 e99785a923d585174a71ea9c081bee708184862e Merge tag 'libnvdimm-for-7.0' of git://git.kernel.org/pub/scm/linux/kernel/git/nvdimm/nvdimm
 041c16acbafbdd8c089cc077c78e060322dde18c Merge tag 'for-7.0/io_uring-zcrx-large-buffers-20260206' of git://git.kernel.org/pub/scm/linux/kernel/git/axboe/linux
+1d3f9bb4c8af70304d19c22e30f5d16a2d589bb5 mm/hugetlb: restore failed global reservations to subpool
+338ad1e84d15078a9ae46d7dd7466329ae0bfa61 mm/page_alloc: skip debug_check_no_{obj,locks}_freed with FPI_TRYLOCK
+61dc9f776705d6db6847c101b98fa4f0e9eb6fa3 procfs: fix possible double mmput() in do_procmap_query()
 d4a379a52c3c2dc44366c4f6722c063a7d0de179 Merge tag 'scsi-misc' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
 9333980c230fc29afb41dc52b58a0dc9ea201f2a delayacct: fix build regression on accounting tool
 b24335521de92fd2ee22460072b75367ca8860b0 selftests/memfd: use IPC semaphore instead of SIGSTOP/SIGCONT
@@ -1042,13 +1050,5 @@ d451994ebc7d4392610bd4b2ab339b255deb4143 net/mlx5: Fix misidentification of writ
 571dcbeb8e635182bb825ae758399831805693c2 net: nfc: nci: Fix parameter validation for packet data
 4f13d0dabc87fb585b96d90cc4b29f67a2995405 Merge tag 'bpf-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf
 8bf22c33e7a172fbc72464f4cc484d23a6b412ba Merge tag 'net-7.0-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
-39058324b281910d325f3a2ed07a3c0c974b8983 mm: allow __GFP_RETRY_MAYFAIL in vmalloc
-accfdc005db84cba027d65f9af67425be042a719 mm/kfence: disable KFENCE upon KASAN HW tags enablement
-219885836a3c3c9140d7eb116e29ee2e6f8685a6 mm: change vma_alloc_folio_noprof() macro to inline function
-9d1472718c1ff90feb0dc467b3c17203accb13ca mm: thp: deny THP for files on anonymous inodes
-3b02a6e133b46c97d2fdcc131d0a7b8ec68280c3 liveupdate: luo_file: remember retrieve() status
-8513bcccd289de66d853479a3f7107ec33db0173 MAINTAINERS, mailmap: update e-mail address for Vlastimil Babka
-c769bdf9c34f4a311e07e6734c4b18ca77830383 Squashfs: check metadata block offset is within range
-1aeb295e16f9e9e1de417f58c7e94803d7decb14 mm, swap: speed up hibernation allocation and writeout
 
---===============7278176694157108751==--
+--===============2008107250671359195==--
