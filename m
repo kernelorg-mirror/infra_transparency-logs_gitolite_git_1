@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2765167220309859779=="
+Content-Type: multipart/mixed; boundary="===============5017213054643045848=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
-Date: Fri, 20 Feb 2026 10:40:04 -0000
-Message-Id: <177158400477.249788.6147594297553773134@gitolite.kernel.org>
+Date: Fri, 20 Feb 2026 10:58:27 -0000
+Message-Id: <177158510716.262699.10197960309530139507@gitolite.kernel.org>
 
---===============2765167220309859779==
+--===============5017213054643045848==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jic23/iio
 user: jic23
 changes:
-  - ref: refs/heads/testing
-    old: 326c0d39a3a68614d61149c16d03f71e860078ad
-    new: 002cb6b42d9b97437bb356eb2782d33aba415a6d
-    log: revlist-326c0d39a3a6-002cb6b42d9b.txt
+  - ref: refs/heads/fixes-togreg
+    old: 0ed988eed64479db43f4bf4cf9fa25cbec18fb5a
+    new: c44a4a3b86033548176ae1b5e558a45fd67a1ed7
+    log: revlist-0ed988eed644-c44a4a3b8603.txt
 
---===============2765167220309859779==
+--===============5017213054643045848==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-326c0d39a3a6-002cb6b42d9b.txt
+Content-Disposition: attachment; filename=revlist-0ed988eed644-c44a4a3b8603.txt
 
 486401052432f1ba1628e1eed59b3e6bfb07b5c1 sysctl: Add missing kernel-doc for proc_dointvec_conv
 b22d81fb683f22304f017b1b1674e6937bdd6d49 alloc_tag: move memory_allocation_profiling_sysctls into .rodata
@@ -120,22 +120,22 @@ fa2827e72cfcfac683e2e3ab355a0dbc97d52522 Merge tag 'thermal-7.0-rc1-2' of git://
 956b9cbd7f156c8672dac94a00de3c6a0939c692 Merge tag 'kbuild-fixes-7.0-1' of git://git.kernel.org/pub/scm/linux/kernel/git/kbuild/linux
 eeccf287a2a517954b57cf9d733b3cf5d47afa34 Merge tag 'mm-stable-2026-02-18-19-48' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
 2b7a25df823dc7d8f56f8ce7c2d2dac391cea9c2 Merge tag 'mm-nonmm-stable-2026-02-18-19-56' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
-8f142ed100c0709b11858eaafd659698ae3671e0 iio: industrialio-backend: support backend capabilities
-e1df7b4f7c00efe91bf3304d8083a5d6dac87211 iio: adc: adi-axi-adc: define supported iio-backend capabilities
-e8b412ce6af260f45c17b5a3b7b36a3e7ee60bc6 iio: dac: adi-axi-dac: define supported iio-backend capabilities
-9671f5edb9ff45bd09e1939ba339a7ce39430b33 iio: adc: sd_adc_modulator: define supported iio-backend capabilities
-b8d14fae95c77e2a38dc68b02ef03104d4199bd9 iio: adc: ad9467: simplify device pointer in probe
-d1c1d338a1e9f2e619bbae06bd5a813ac152a170 iio: adc: ad9467: check for backend capabilities
-942707b8f874ce6be53e7aeca555e4cdeb90b310 dt-bindings: iio: proximity: hx9023s: support firmware-name property
-4488f01e12cd27da4856210b8e0985899e4ce30a iio: proximity: hx9023s: support firmware-name property
-57f2b8bd3fa6a2bb1da87404f92d5259c238ee49 iio: adc: pac1934: Return -ENOMEM on memory allocation failure
-b0032add599cb529a396ecaf42e974ac6ba0c755 iio: frequency: adf4350: Return -ENOMEM on memory allocation failure
-919bf0f8afcb2cb1b97255d69d62a91fdcbd2d92 iio: adc: ad4062: Add missing IS_ERR() check
-79576be9ca4964a16c836d6df27a0e5aad8260c8 dt-bindings: iio: adc: adi,ad7380: add spi-rx-bus-width property
-afad84bded6d6d794831e79a96d1f7d875f8c087 iio: adc: ad7380: add support for multiple SPI lanes
-2d2078f2133ae4efc5696de5e12ca21f9815263f dt-bindings: iio: light: vcnl4000: add Capella CM36686 and CM36672P
-4df1c3f571bc501da4ba2b37c463b7ef64c1ae06 iio: light: vcnl4000: add support for Capella CM36686 and CM36672P
-037f1f9579723c596b3a08e8c94f96cc2b430a93 iio: magnetometer: bmc150_magn: replace msleep with fsleep
-002cb6b42d9b97437bb356eb2782d33aba415a6d iio: magnetometer: bmc150_magn: minor formatting cleanup
+3b73c6287f07155a86f49fd45f568f397f8b0ee3 iio: imu: inv_icm42600: fix odr switch to the same value
+0cb632cdedb847e785888895679ad0065667b4a7 iio: imu: inv_icm42600: fix odr switch when turning buffer off
+7b3893b1c5c6ce68560b6650bb60b65bb1bbee2b iio: light: bh1780: fix PM runtime leak on error path
+7c28d5891525f10ae5d653cbb6d43a1ff2ce48e9 iio: frequency: adf4377: Fix duplicated soft reset mask
+057f37cafdb3bc3193f927ee2791a0ff059cf495 iio: imu: inv-mpu9150: fix irq ack preventing irq storms
+59a2423d8498f2940610aa4a64a7ef21b8c72853 iio: potentiometer: mcp4131: fix double application of wiper shift
+45641ea2bf6cd46da3e255747376ed65fb8dba99 iio: imu: inv_icm45600: fix INT1 drive bit inverted
+557d7fca635e82e2e2362ee8bb3fce2781dd804d iio: dac: ds4424: reject -128 RAW value
+6f7693a36e98694d1648abf6fd0ba191657c33b2 iio: chemical: bme680: Fix measurement wait duration calculation
+eb016bc8847f07cd8db3b660f9db97fc43346f3b iio: proximity: hx9023s: fix assignment order for __counted_by
+066e1ae0ec7f9021431a6a54824ba3d1b9ab0219 iio: proximity: hx9023s: Protect against division by zero in set_samp_freq
+7f49261f282780c6234c9d1ec022395762a32518 iio: magnetometer: tlv493d: remove erroneous shift in X-axis data
+193938732aa813bd1c25119f5a43712dfe76c474 iio: chemical: sps30_i2c: fix buffer size in sps30_i2c_read_meas()
+1ae66c0ad0a22ade54b06a5cbdf44cfa5ba33872 iio: chemical: sps30_serial: fix buffer size in sps30_serial_read_meas()
+b84a73df5986c13e2e42bc442a24202a34eb53d4 iio: adc: ad7768-1: Fix ERR_PTR dereference in ad7768_fill_scale_tbl
+315365c250782c05ebfc360ef9e1a092a9ad7b62 iio: gyro: mpu3050-i2c: fix pm_runtime error handling
+c44a4a3b86033548176ae1b5e558a45fd67a1ed7 iio: gyro: mpu3050-core: fix pm_runtime error handling
 
---===============2765167220309859779==--
+--===============5017213054643045848==--
