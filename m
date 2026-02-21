@@ -1,20 +1,27 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/firmware/linux-firmware
-Date: Sat, 21 Feb 2026 02:40:10 -0000
-Message-Id: <177164161015.1002631.4904346112079751312@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tj/sched_ext
+Date: Sat, 21 Feb 2026 03:19:02 -0000
+Message-Id: <177164394205.1031862.4113693324002995801@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/firmware/linux-firmware
-user: jwboyer
+repo: pub/scm/linux/kernel/git/tj/sched_ext
+user: tj
 changes:
-  - ref: refs/heads/main
-    old: 88ed0d0ded91efb0806149b914f768ed56dcd391
-    new: 599764611a8ac213c6aa6dad17c941c2f46b53cb
+  - ref: refs/heads/for-7.0-fixes
+    old: 625be3456b3ced6e2dca6166962c0cf6cc2e546d
+    new: 640c9dc72f21f325700a4b0f839ad568ff21c697
     log: |
-         30a139cb656157cba7a27fd7727b5ffbd302ff60 qcom: vpu: fix SC7280 VPU Gen2 firmware and add compatibility symlink
-         599764611a8ac213c6aa6dad17c941c2f46b53cb Merge branch 'robot/pr-0-1771573522' into 'main'
+         f892f9f99464bead942a75d2b00dda6be07de97f tools/sched_ext: scx_userland: fix data races on shared counters
+         640c9dc72f21f325700a4b0f839ad568ff21c697 tools/sched_ext: fix getopt not re-parsed on restart
+         
+  - ref: refs/heads/for-next
+    old: 625be3456b3ced6e2dca6166962c0cf6cc2e546d
+    new: 640c9dc72f21f325700a4b0f839ad568ff21c697
+    log: |
+         f892f9f99464bead942a75d2b00dda6be07de97f tools/sched_ext: scx_userland: fix data races on shared counters
+         640c9dc72f21f325700a4b0f839ad568ff21c697 tools/sched_ext: fix getopt not re-parsed on restart
          
