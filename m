@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/deller/linux-fbdev
-Date: Sat, 21 Feb 2026 17:23:15 -0000
-Message-Id: <177169459540.1675889.17326656824541840770@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+Date: Sat, 21 Feb 2026 17:48:27 -0000
+Message-Id: <177169610753.1694638.11921203229623606143@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/deller/linux-fbdev
-user: deller
+repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+user: jarkko
 changes:
-  - ref: refs/heads/for-next
-    old: 0000000000000000000000000000000000000000
-    new: 05f7e89ab9731565d8a62e3b5d1ec206485eeb0b
+  - ref: refs/heads/rootns
+    old: 359a5197d115ba7a640fac1b12e42be6820d9126
+    new: 3bfad8077e62a40e6655a4516b124fa8ddfc15a7
+    log: |
+         3bfad8077e62a40e6655a4516b124fa8ddfc15a7 rootns: kselftest
+         
