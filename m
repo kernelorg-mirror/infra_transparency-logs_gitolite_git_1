@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8712483729927109893=="
+Content-Type: multipart/mixed; boundary="===============1143140302060245296=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Sat, 21 Feb 2026 14:11:42 -0000
-Message-Id: <177168310278.1528680.11560060740049363978@gitolite.kernel.org>
+Date: Sat, 21 Feb 2026 14:12:02 -0000
+Message-Id: <177168312294.1529002.17205278497481912872@gitolite.kernel.org>
 
---===============8712483729927109893==
+--===============1143140302060245296==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
 user: jarkko
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/next
     old: 3e91b44c93ad2871f89fc2a98c5e4fe6ca5db3d9
     new: d79526b89571ae447c1a5cfd3d627efa07098348
     log: revlist-3e91b44c93ad-d79526b89571.txt
 
---===============8712483729927109893==
+--===============1143140302060245296==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -1051,4 +1051,4 @@ bc1d4e705f48f001f3a5480f04067c48bd00bcf0 Merge tag 'sound-fix-7.0-rc1' of git://
 0de6219fd74440199fb0bfc6ce02bb8bdb8e9466 Merge tag 'regulator-fix-v7.0-merge-window' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/regulator
 d79526b89571ae447c1a5cfd3d627efa07098348 Merge tag 'spi-fix-v7.0-merge-window' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/spi
 
---===============8712483729927109893==--
+--===============1143140302060245296==--
