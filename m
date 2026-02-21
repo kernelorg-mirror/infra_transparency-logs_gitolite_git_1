@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/damon-hack
-Date: Sat, 21 Feb 2026 01:23:39 -0000
-Message-Id: <177163701999.942391.616222598704590161@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/firmware/linux-firmware
+Date: Sat, 21 Feb 2026 02:40:10 -0000
+Message-Id: <177164161015.1002631.4904346112079751312@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/damon-hack
-user: sj
+repo: pub/scm/linux/kernel/git/firmware/linux-firmware
+user: jwboyer
 changes:
-  - ref: refs/heads/master
-    old: 76b5362812e1d2d4085bad168e9d8229bb082867
-    new: 2c8d1808d160383fe7fadbff423a2c5bb1333db6
+  - ref: refs/heads/main
+    old: 88ed0d0ded91efb0806149b914f768ed56dcd391
+    new: 599764611a8ac213c6aa6dad17c941c2f46b53cb
     log: |
-         cb6403da99f27506200c416c7285ef44dbe46a20 patches/mm: update
-         2c8d1808d160383fe7fadbff423a2c5bb1333db6 patches/next: rebase to latest mm-new
+         30a139cb656157cba7a27fd7727b5ffbd302ff60 qcom: vpu: fix SC7280 VPU Gen2 firmware and add compatibility symlink
+         599764611a8ac213c6aa6dad17c941c2f46b53cb Merge branch 'robot/pr-0-1771573522' into 'main'
          
