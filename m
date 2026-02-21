@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/next-utils/tools
-Date: Sat, 21 Feb 2026 14:29:37 -0000
-Message-Id: <177168417712.1541395.13280227923236514747@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Sat, 21 Feb 2026 15:40:18 -0000
+Message-Id: <177168841895.1595924.7423577739789350930@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/next-utils/tools
-user: broonie
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: sashal
 changes:
-  - ref: refs/heads/main
-    old: 408f60967fe2c1a992770eee467aea73594165c3
-    new: d58d3d381a531d1d5bfebcd9f6ddff4515e88e1e
+  - ref: refs/heads/master
+    old: 3bfc724a0d280523be6e385f118c414c8fbf640d
+    new: 085abc7a6620fcfbe4ef2dd22dcc9c3281413ead
     log: |
-         d58d3d381a531d1d5bfebcd9f6ddff4515e88e1e next-status: Script the weekly report to Linus
+         085abc7a6620fcfbe4ef2dd22dcc9c3281413ead Fixes for all trees
          
