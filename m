@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1143140302060245296=="
+Content-Type: multipart/mixed; boundary="===============9109308627566177378=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Sat, 21 Feb 2026 14:12:02 -0000
-Message-Id: <177168312294.1529002.17205278497481912872@gitolite.kernel.org>
+Date: Sat, 21 Feb 2026 14:20:26 -0000
+Message-Id: <177168362647.1536177.3870329847184454683@gitolite.kernel.org>
 
---===============1143140302060245296==
+--===============9109308627566177378==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,34 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
 user: jarkko
 changes:
-  - ref: refs/heads/next
-    old: 3e91b44c93ad2871f89fc2a98c5e4fe6ca5db3d9
-    new: d79526b89571ae447c1a5cfd3d627efa07098348
-    log: revlist-3e91b44c93ad-d79526b89571.txt
+  - ref: refs/heads/rootns
+    old: bbfe3fc31c861befc0d2aa15a02e672b2e248cd6
+    new: 359a5197d115ba7a640fac1b12e42be6820d9126
+    log: revlist-bbfe3fc31c86-359a5197d115.txt
 
---===============1143140302060245296==
+--===============9109308627566177378==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-3e91b44c93ad-d79526b89571.txt
+Content-Disposition: attachment; filename=revlist-bbfe3fc31c86-359a5197d115.txt
 
-4101b3b571701cdf1081b2f96124b1daaeaebbf1 lib/tests: add KUnit test for bitops
-92010ab6dbacc0e0f3566d92a84ff00a939e7fd4 lib/find_bit: fix uninitialized variable use in FIND_NTH_BIT
-9d6f6764939f9594d2de24ab3b2701d6ee592c0a bitops: Add more files to the MAINTAINERS
-6711069dd72fcbafe010fb16be504364e5ced190 lib/tests: extend KUnit test for bitops with more cases
-c8b039c3e3763281c867489a926c52716337da59 tracing: Have all triggers expect a file parameter
-326669faf3cbfda31b2203f0a66aa87812062e5f tracing: Move tracing_set_filter_buffering() into trace_events_hist.c
-ba73713da50e5c24499ca8941171593466ea34f7 tracing: Clean up use of trace_create_maxlat_file()
-64dee86ad7de3d59bae041e0d8f80ef89ddc4cf6 tracing: Make tracing_disabled global for tracing system
-a4f77ffc8eb6247ad00c53d297a145e47594ce76 tracing: Make tracing_selftest_running global to the tracing subsystem
-0e730bc067e7a790d61344dbf6d9dfdce7f99ea3 tracing: Move __trace_buffer_{un}lock_*() functions to trace.h
-3e6c8f80e5ddd0644e509547c61366a2c09117b0 tracing: Move ftrace_trace_stack() out of trace.c and into trace.h
-1c53d781d42541adc5ba76b4f843a3ff382e01fb tracing: Make printk_trace global for tracing system
-93c88d06accdeceee4fbd243b084d3749bcd96d7 tracing: Make tracing_update_buffers() take NULL for global_trace
-f377912b3dd71312cbf9eaf2c60263cb6e7cba59 tracing: Have trace_printk functions use flags instead of using global_trace
-af1eea12ad24f62d65714c5318841894278a7aaa tracing: Use system_state in trace_printk_init_buffers()
-27931ee8f45415db3a10586f9d5b6f77ef7d7d84 tracing: Move trace_printk functions out of trace.c and into trace_printk.c
-98021e37d694ddc48f45b690045df013054fd69c tracing: Move pid filtering into trace_pid.c
 694b3f6fe0b6c86ff75e94302708f5a718027297 tracing: Rename trace_array field max_buffer to snapshot_buffer
 e4c1a09afbe2f02fc66b5ccbc96aa3a7109f9b79 tracing: Add tracer_uses_snapshot() helper to remove #ifdefs
 c4f1fe47b106e9200cbb1b8951bd75f036d53bd3 tracing: Better separate SNAPSHOT and MAX_TRACE options
@@ -1050,5 +1033,22 @@ bc1d4e705f48f001f3a5480f04067c48bd00bcf0 Merge tag 'sound-fix-7.0-rc1' of git://
 3f6eb5a6d27b56ea44c2de9f9028d803aeccbfe8 Merge tag 'pci-v7.0-fixes-1' of git://git.kernel.org/pub/scm/linux/kernel/git/pci/pci
 0de6219fd74440199fb0bfc6ce02bb8bdb8e9466 Merge tag 'regulator-fix-v7.0-merge-window' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/regulator
 d79526b89571ae447c1a5cfd3d627efa07098348 Merge tag 'spi-fix-v7.0-merge-window' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/spi
+b45948964a1c11d25fd70897d8dc55d3be19a55f nsproxy: Export create_new_namespaces()
+e4303a36bd1de478e0b9a5092e95a773973b5b1c nsproxy: Pass explicit nsproxy to create_new_namespaces()
+778d6635d0cb08dd9d914e90efff687f3d02e674 rootns: Declare rootns shenanigans
+36b1c7042fa2b5b96886f6c79c9d986bd4c2b421 fork: Handle copy_process() and do_exit()
+962af6364b813d38e7f4446aba722262ad5fd4fa rootns: Implement rootns_create()
+474419384ce57407c989eefc90f8d5e849a76e1e rootns: Implement rootns_wait()
+6bafa5b8f0d646f4732f3f6fc83a1b846317d587 rootns: Implement rootns_kill()
+2175ea4da71093539cf9d399166e5d2f0af9b803 rootns: Implement rootns_enter()
+1ba599169fc4839ae0eb820c923f3f3aebe72915 net: Pass netns into __sys_socket
+fa7a68395a17678e520176f8230d2b96735b3ee0 rootns, fs: Create a superblock in fsopen()
+c1ecad0ba1ebca55274a8dd7c3b72634876ff531 rootns, vfs: Install rootns root mount tree
+5306e382c3dfabae7a3134d63feefd0dbccbd5cc vfs: Allow mounting to other namespaces
+4ab743290714b606d98800498109114af3bb435e security: Add rootns LSM hooks
+876289ac4f5e6969255722d8fcb10ae7166e3900 docs: Document root namespace uAPI
+ac0743312af6a4c2971a59fa047e26d4e58c9a87 MAINTAINERS: Add entry for ROOT NAMESPACE
+7b9027ac578404fdee9e5fb2f7c255efb9436717 rootns: kselftest
+359a5197d115ba7a640fac1b12e42be6820d9126 rootns: fix krootns client
 
---===============1143140302060245296==--
+--===============9109308627566177378==--
