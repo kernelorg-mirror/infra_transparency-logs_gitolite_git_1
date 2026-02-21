@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/hkml
-Date: Sat, 21 Feb 2026 22:54:52 -0000
-Message-Id: <177171449252.1931906.11716051441354074171@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Sat, 21 Feb 2026 23:15:59 -0000
+Message-Id: <177171575913.1949875.8931906278948558652@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/hkml
-user: sj
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
   - ref: refs/heads/master
-    old: 33896f897b2c5cfc4269b7efd8c0e078abe4ffbd
-    new: a887c6203c9263bdde5366032eb8f792852a3e57
+    old: 8934827db5403eae57d4537114a9ff88b0a8460f
+    new: fa5c82f4d2bbde10e9fd3a32aecacfe3813919ba
     log: |
-         0f7e77f08423409c6949fd2c789c686c9150e351 _hkml: handle LookupError from email.makeheader
-         a887c6203c9263bdde5366032eb8f792852a3e57 hkml_patch: allow link tag add failure for cover letter
+         fa5c82f4d2bbde10e9fd3a32aecacfe3813919ba slab.h: disable completely broken overflow handling in flex allocations
          
