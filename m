@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8611363770013398230=="
+Content-Type: multipart/mixed; boundary="===============0454381752118187859=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Sat, 21 Feb 2026 09:27:41 -0000
-Message-Id: <177166606163.1315081.18102853526600082462@gitolite.kernel.org>
+Date: Sat, 21 Feb 2026 09:27:59 -0000
+Message-Id: <177166607936.1315365.4031033080420800267@gitolite.kernel.org>
 
---===============8611363770013398230==
+--===============0454381752118187859==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,15 +16,24 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: 1ae8bfb59ef1888585920fc7fcc17fef65ae358d
-    new: 6881c17455bda008a6b1c93431045b642efb50ad
-    log: revlist-1ae8bfb59ef1-6881c17455bd.txt
+    old: 6881c17455bda008a6b1c93431045b642efb50ad
+    new: 22a5469105174bdd310276302ea996a6a5ce2995
+    log: |
+         cc704149b7e64567f4d9bd31593a25ceafd1d20c Merge branch into tip/master: 'irq/urgent'
+         5ff49da464dd7bec3f7b7299d40187f477ff8929 Merge branch into tip/master: 'timers/urgent'
+         337a564297d8197ce2dde75aa1a7af722dd691e2 Merge branch into tip/master: 'core/debugobjects'
+         22a5469105174bdd310276302ea996a6a5ce2995 Merge branch into tip/master: 'locking/futex'
+         
+  - ref: refs/heads/tip/urgent
+    old: 4a2d3908b575e3098bae1a38d281056067ca7b0d
+    new: 5ff49da464dd7bec3f7b7299d40187f477ff8929
+    log: revlist-4a2d3908b575-5ff49da464dd.txt
 
---===============8611363770013398230==
+--===============0454381752118187859==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1ae8bfb59ef1-6881c17455bd.txt
+Content-Disposition: attachment; filename=revlist-4a2d3908b575-5ff49da464dd.txt
 
 0d4b3ca115b5436d7e68453527566db3e87ab7f0 xtensa: align: validate access in fast_load_store
 0f9b0076ff05492aac2fb38129506892b81748cf ecryptfs: keystore: Fix typo 'the the' in comment
@@ -376,6 +385,7 @@ bc1d4e705f48f001f3a5480f04067c48bd00bcf0 Merge tag 'sound-fix-7.0-rc1' of git://
 3f6eb5a6d27b56ea44c2de9f9028d803aeccbfe8 Merge tag 'pci-v7.0-fixes-1' of git://git.kernel.org/pub/scm/linux/kernel/git/pci/pci
 0de6219fd74440199fb0bfc6ce02bb8bdb8e9466 Merge tag 'regulator-fix-v7.0-merge-window' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/regulator
 d79526b89571ae447c1a5cfd3d627efa07098348 Merge tag 'spi-fix-v7.0-merge-window' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/spi
-6881c17455bda008a6b1c93431045b642efb50ad Merge branch 'linus'
+cc704149b7e64567f4d9bd31593a25ceafd1d20c Merge branch into tip/master: 'irq/urgent'
+5ff49da464dd7bec3f7b7299d40187f477ff8929 Merge branch into tip/master: 'timers/urgent'
 
---===============8611363770013398230==--
+--===============0454381752118187859==--
