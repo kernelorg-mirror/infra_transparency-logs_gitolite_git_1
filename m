@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5538063958506985501=="
+Content-Type: multipart/mixed; boundary="===============4335464285747748858=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
-Date: Sat, 21 Feb 2026 21:14:52 -0000
-Message-Id: <177170849263.1857086.1243848290911996653@gitolite.kernel.org>
+Date: Sat, 21 Feb 2026 21:15:01 -0000
+Message-Id: <177170850180.1857336.11992852831913514644@gitolite.kernel.org>
 
---===============5538063958506985501==
+--===============4335464285747748858==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/perf/perf-tools-next
 user: acme
 changes:
-  - ref: refs/heads/tmp.perf-tools-next
+  - ref: refs/heads/perf-tools-next
     old: dbf0108347bdb5d4ccef8910555b16c1f1a505f8
     new: 8934827db5403eae57d4537114a9ff88b0a8460f
     log: revlist-dbf0108347bd-8934827db540.txt
 
---===============5538063958506985501==
+--===============4335464285747748858==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -1051,4 +1051,4 @@ f9d66e64a2bcb979d47eb7d67aa7e9b454fd5d15 Merge tag 'io_uring-20260221' of git://
 c7decec2f2d2ab0366567f9e30c0e1418cece43f Merge tag 'perf-tools-for-v7.0-1-2026-02-21' of git://git.kernel.org/pub/scm/linux/kernel/git/perf/perf-tools
 8934827db5403eae57d4537114a9ff88b0a8460f Merge tag 'kmalloc_obj-treewide-v7.0-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/kees/linux
 
---===============5538063958506985501==--
+--===============4335464285747748858==--
