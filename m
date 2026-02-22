@@ -1,32 +1,31 @@
-Content-Type: multipart/mixed; boundary="===============7254071465868385790=="
+Content-Type: multipart/mixed; boundary="===============0599975032591457829=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/fs/fsverity/linux
-Date: Sun, 22 Feb 2026 22:46:32 -0000
-Message-Id: <177180039209.3076908.11319528723185192447@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ebiggers/linux
+Date: Sun, 22 Feb 2026 22:47:13 -0000
+Message-Id: <177180043375.3077337.10505125318021719638@gitolite.kernel.org>
 
---===============7254071465868385790==
+--===============0599975032591457829==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/fs/fsverity/linux
+repo: pub/scm/linux/kernel/git/ebiggers/linux
 user: ebiggers
 changes:
-  - ref: refs/heads/for-next
-    old: 693680b9add63dbebb2505a553ff52f8c706c8c0
-    new: 6de23f81a5e08be8fbf5e8d7e9febc72a5b5f27f
-    log: revlist-693680b9add6-6de23f81a5e0.txt
+  - ref: refs/heads/fsverity-pending
+    old: f387c03c9a4bf0630a5efa6042a82056a9dfaca5
+    new: 47ef626b7f6af6e38cc0b07550931025fc0a48ec
+    log: revlist-f387c03c9a4b-47ef626b7f6a.txt
 
---===============7254071465868385790==
+--===============0599975032591457829==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-693680b9add6-6de23f81a5e0.txt
+Content-Disposition: attachment; filename=revlist-f387c03c9a4b-47ef626b7f6a.txt
 
-05134d15375ce9fc57a91453999729d861efe9f9 perf util: Fix NULL check in cpumask_to_cpulist()
 b03b95b4d71edbb10bfb1588dc59cfea8d13796c perf sched stats: Add NULL check for cd_map
 7284dc7e19fab1ff425579cbb4721fff292ac70e perf sched stats: correct spelling of function name
 f7dc49645346d9d47825b60c4557da6885d48037 perf sched stats: Define macro for SEP_LEN
@@ -1050,5 +1049,6 @@ aaf96df9593bf4ab1b73c17891e4efe7570fdef3 CREDITS: Add -next to Stephen Rothwell'
 75e1f66a9ed09f29c6883ea379c174e8cf31f7cc Merge tag 'libcrypto-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/ebiggers/linux
 fbf33803618ad4f531f78fe15cf328fe6c7f9978 Merge tag 'fsverity-for-linus' of git://git.kernel.org/pub/scm/fs/fsverity/linux
 6de23f81a5e08be8fbf5e8d7e9febc72a5b5f27f Linux 7.0-rc1
+47ef626b7f6af6e38cc0b07550931025fc0a48ec fsverity: add dependency on 64K or smaller pages
 
---===============7254071465868385790==--
+--===============0599975032591457829==--
