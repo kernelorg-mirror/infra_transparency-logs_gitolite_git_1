@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3552383029122845501=="
+Content-Type: multipart/mixed; boundary="===============3207737018818978011=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Sun, 22 Feb 2026 07:41:00 -0000
-Message-Id: <177174606015.2331241.3487910908889633790@gitolite.kernel.org>
+Date: Sun, 22 Feb 2026 07:41:10 -0000
+Message-Id: <177174607035.2331578.10136899384624963123@gitolite.kernel.org>
 
---===============3552383029122845501==
+--===============3207737018818978011==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,42 @@ repo: pub/scm/linux/kernel/git/gregkh/char-misc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
+  - ref: refs/heads/char-misc-linus
     old: 8bf22c33e7a172fbc72464f4cc484d23a6b412ba
     new: 32a92f8c89326985e05dce8b22d3f0aa07a3e1bd
     log: revlist-8bf22c33e7a1-32a92f8c8932.txt
 
---===============3552383029122845501==
+--===============3207737018818978011==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1771746038 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1771746069 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1771746038-ae3e24e13e9748c29f40fc713d081aaf5e76b5de
+nonce 1771746068-75685a173419798c3203f9f9e302846920b8c275
 
-8bf22c33e7a172fbc72464f4cc484d23a6b412ba 32a92f8c89326985e05dce8b22d3f0aa07a3e1bd refs/heads/main
+8bf22c33e7a172fbc72464f4cc484d23a6b412ba 32a92f8c89326985e05dce8b22d3f0aa07a3e1bd refs/heads/char-misc-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmmasvYbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+mw0QALxqgBL7556XC/V2KIhN
-MemHSdawvyPVh8SWa1z3AIL4/RgYbSbYEINDiVK5UM5lLzN6slAkw7nWmUWufGLk
-0ITBhX1uP+FzG2QUQuNnz8/T1QwZYphXr6+97GlQLZUG+zJU3WijYlQGTDjNyJbc
-tpUasbvodI2w9TnGN80kmoBtQhgvklkgvaefUJb5n/b6RPlS3ueik+vzcX0IvfPA
-SuhnwFQLJwnRi/kTy90zh6XtGDhipIFDaGWNK/b60XllZughES8GwriW+rp/G2PY
-3DpCFl3VW2RttfOZuqr/fu3WQKkkJYFRsy2c6uAZ1moIMSNRmpkcDfSIjoU5U+zw
-xI+PgyZf6XT9YdiinOORIFknVqlRpkZ2MYVX26n1B9yyyJhbOhhdxmQ9ZGoDZti2
-iyq+fGJl/C35hryFex05TkI0XsLsTw+jusXFqNHZJ3yc0j02+T5Wv00AoLWQuKg/
-LcezxYj6ZZLCQOhar4uO4PQs5/hIV5CPdSo7zGBOSaRqMiyA30DXx0XTaW3rRH5T
-zc+ikAVfXDZKCigBd98IkLnw4kpf6+NjDMPhCCzYe4376Isjp2loPXmKfVq00xFh
-TsmOGHCK//wxB00dNrVQk1ueqTUzBQptgNQvcOt9Q56/kgHstEJfEI+IbhrIktv/
-VU2N0UIAYkCwEbPO+zvfNmYU
-=/LCL
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmmasxUbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+2z8P/jYpK2VNbyK4IAcY3OqR
+cRiTESvHzXXniZVU4dbyZjUGc4zE4bVO1SyxfwshjQbDJJdQNZnFOAAGNslFrk9C
++g9D8XdzGUAeShooPJRSPGMejQHfdY+yhDdI26iq7Jfa6y9xiaiTJcQxb3AyDFqP
+jobADheCDFjkW54a6qN3x7y2umAolO2f/O/XMnA+SwJEMpJKKkl0LuW8z69zKMoU
+n1tGsKY1erWWlrZB+7xanq5EnTbzkep2U9CgYRnEf3MFVVuECQGQP80mxLc1IksO
+jhXnGrSG/rWrS/MlqqUoTXXpqEJxCppbTQtLSoYDasK2Sctf6BEtacnTPBbqtO3E
+FTkHxqzs595jE61MAmkYJaHePUhfwwT2fAnmLzdULVCZgvBoP+JLm1L7H7BLhTyo
+p72N9RSjMmuHtPO3KQ6KhKl8Yyx1HdhYOfV34LR+I5nC3VFlRLidK3U56QImCntg
+aPVtjMJQK9Q26U8eRzGkRcYTGsBhf9/YWFCJqGVSWpfLR6iYa4cUT8TET6MTN/4+
+fBSZ+25okBDknsCZc+hMLzSJu73FVjRkx8O5s5IWAP7nmOnUg0TJfoalRgfxARxY
+5K3jIs5IxtlzALF0VsWKQeH0SJzixlLZB0ZlU0/NG5A7jTs/ZlETgIFrmt4jUYE1
+qOj5zcRI8dpZbME0A7iu5G4M
+=CNcm
 -----END PGP SIGNATURE-----
 
---===============3552383029122845501==
+--===============3207737018818978011==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -713,4 +713,4 @@ bf4afc53b77aeaa48b5409da5c8da6bb4eff7f43 Convert 'alloc_obj' family to use the n
 323bbfcf1ef8836d0d2ad9e2c1f1c684f0e3b5b3 Convert 'alloc_flex' family to use the new default GFP_KERNEL argument
 32a92f8c89326985e05dce8b22d3f0aa07a3e1bd Convert more 'alloc_obj' cases to default GFP_KERNEL arguments
 
---===============3552383029122845501==--
+--===============3207737018818978011==--
