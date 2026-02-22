@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1177450668180373803=="
+Content-Type: multipart/mixed; boundary="===============2929456553325759277=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ebiggers/linux
-Date: Sun, 22 Feb 2026 22:45:20 -0000
-Message-Id: <177180032044.3075157.6241139049714157940@gitolite.kernel.org>
+Date: Sun, 22 Feb 2026 22:45:24 -0000
+Message-Id: <177180032421.3075268.1067742319546196957@gitolite.kernel.org>
 
---===============1177450668180373803==
+--===============2929456553325759277==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ebiggers/linux
 user: ebiggers
 changes:
-  - ref: refs/heads/libcrypto-fixes
+  - ref: refs/heads/crc-next
     old: 64275e9fda3702bfb5ab3b95f7c2b9b414667164
     new: 6de23f81a5e08be8fbf5e8d7e9febc72a5b5f27f
     log: revlist-64275e9fda37-6de23f81a5e0.txt
 
---===============1177450668180373803==
+--===============2929456553325759277==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ aaf96df9593bf4ab1b73c17891e4efe7570fdef3 CREDITS: Add -next to Stephen Rothwell'
 fbf33803618ad4f531f78fe15cf328fe6c7f9978 Merge tag 'fsverity-for-linus' of git://git.kernel.org/pub/scm/fs/fsverity/linux
 6de23f81a5e08be8fbf5e8d7e9febc72a5b5f27f Linux 7.0-rc1
 
---===============1177450668180373803==--
+--===============2929456553325759277==--
