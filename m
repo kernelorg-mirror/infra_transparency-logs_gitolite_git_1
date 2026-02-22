@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5670100264532943863=="
+Content-Type: multipart/mixed; boundary="===============7254071465868385790=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/fs/fsverity/linux
-Date: Sun, 22 Feb 2026 22:46:28 -0000
-Message-Id: <177180038861.3076680.11431739400007977156@gitolite.kernel.org>
+Date: Sun, 22 Feb 2026 22:46:32 -0000
+Message-Id: <177180039209.3076908.11319528723185192447@gitolite.kernel.org>
 
---===============5670100264532943863==
+--===============7254071465868385790==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,21 @@ service: git-receive-pack
 repo: pub/scm/fs/fsverity/linux
 user: ebiggers
 changes:
-  - ref: refs/heads/for-current
-    old: 64275e9fda3702bfb5ab3b95f7c2b9b414667164
+  - ref: refs/heads/for-next
+    old: 693680b9add63dbebb2505a553ff52f8c706c8c0
     new: 6de23f81a5e08be8fbf5e8d7e9febc72a5b5f27f
-    log: revlist-64275e9fda37-6de23f81a5e0.txt
+    log: revlist-693680b9add6-6de23f81a5e0.txt
 
---===============5670100264532943863==
+--===============7254071465868385790==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-64275e9fda37-6de23f81a5e0.txt
+Content-Disposition: attachment; filename=revlist-693680b9add6-6de23f81a5e0.txt
 
+05134d15375ce9fc57a91453999729d861efe9f9 perf util: Fix NULL check in cpumask_to_cpulist()
+b03b95b4d71edbb10bfb1588dc59cfea8d13796c perf sched stats: Add NULL check for cd_map
+7284dc7e19fab1ff425579cbb4721fff292ac70e perf sched stats: correct spelling of function name
+f7dc49645346d9d47825b60c4557da6885d48037 perf sched stats: Define macro for SEP_LEN
 34b0a58eef04a49376e4103efc5b09f1e33e594a perf sched stats: Fixes in man page
 a537c0da168a08b0b6a7f7bd9e75f4cc8d45ff57 tools: Fix bitfield dependency failure
 7a0ba3891104da77cfd1a16d41699e0fdf45603a perf: Remove redundant kernel.h include
@@ -828,10 +832,6 @@ ef0e60083f768b32cda17b1b0ca9519405db89a6 tools/power turbostat: Fix AMD RAPL reg
 ccd8e87748ad083047d6c8544c5809b7f96cc8df eth: fbnic: Add validation for MTU changes
 834ef6aa0996121184728279c4b81a3b70ee649b x86/hyperv: Use savesegment() instead of inline asm() to save segment registers
 885e78d71f772dd4c83f83530814870062115f85 x86/hyperv: Remove ASM_CALL_CONSTRAINT with VMMCALL insn
-079220c56f83b8abaf74724903c52cbad06d7163 f2fs: remove unnecessary ClearPageUptodate in f2fs_verify_cluster()
-78cdb14893614dc46a06fe075abf19e0d8eddc66 f2fs: make f2fs_verify_cluster() partially large-folio-aware
-5959495449caf325a0394602568e287f2b829818 fsverity: remove fsverity_verify_page()
-693680b9add63dbebb2505a553ff52f8c706c8c0 fsverity: fix build error by adding fsverity_readahead() stub
 f8e6343b7a89c7c649db5a9e309ba7aa20401813 Drivers: hv: vmbus: Use kthread for vmbus interrupts on PREEMPT_RT
 65ff3a8d0b0ab127b2580fcf334a06f76ae4744d ALSA: core: Add SPDX license id to files
 246184460766dc6f6c915720fb028badd02c96ee ALSA: isa: Add SPDX id lines to some files
@@ -1051,4 +1051,4 @@ aaf96df9593bf4ab1b73c17891e4efe7570fdef3 CREDITS: Add -next to Stephen Rothwell'
 fbf33803618ad4f531f78fe15cf328fe6c7f9978 Merge tag 'fsverity-for-linus' of git://git.kernel.org/pub/scm/fs/fsverity/linux
 6de23f81a5e08be8fbf5e8d7e9febc72a5b5f27f Linux 7.0-rc1
 
---===============5670100264532943863==--
+--===============7254071465868385790==--
