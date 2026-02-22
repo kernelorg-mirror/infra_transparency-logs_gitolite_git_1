@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
-Date: Sun, 22 Feb 2026 13:26:01 -0000
-Message-Id: <177176676199.2642793.9485861483212454291@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd-test
+Date: Sun, 22 Feb 2026 13:33:14 -0000
+Message-Id: <177176719442.2647424.8893106668150066360@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jic23/iio
-user: jic23
+repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd-test
+user: jarkko
 changes:
-  - ref: refs/heads/fixes-togreg
-    old: c44a4a3b86033548176ae1b5e558a45fd67a1ed7
-    new: 0939b89084bad71c7de878f61f807df0213fad76
+  - ref: refs/heads/main
+    old: 3045e9e6bfbe8ede93dd207caa4994838cc1f7ca
+    new: d82302805b44d88ddc963006e3ed735cdf162a94
     log: |
-         be8a8a8ed78f9c801e04d2ba9cd97509af1c26c6 iio: buffer: Fix wait_queue not being removed
-         0939b89084bad71c7de878f61f807df0213fad76 iio: imu: inv_icm45600: fix regulator put warning when probe fails
+         d82302805b44d88ddc963006e3ed735cdf162a94 Add rootns test
          
