@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Sat, 21 Feb 2026 23:15:59 -0000
-Message-Id: <177171575913.1949875.8931906278948558652@gitolite.kernel.org>
+Subject: post-receive: pub/scm/docs/man-pages/man-pages
+Date: Sun, 22 Feb 2026 00:45:14 -0000
+Message-Id: <177172111434.2016574.18152358426911871062@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/docs/man-pages/man-pages
+user: alx
 changes:
   - ref: refs/heads/master
-    old: 8934827db5403eae57d4537114a9ff88b0a8460f
-    new: fa5c82f4d2bbde10e9fd3a32aecacfe3813919ba
+    old: 707b47ed0e29dd8ebab93c6c5baa400320160c8b
+    new: 8f299601fb600d305279acc03a92437a8378d0b6
     log: |
-         fa5c82f4d2bbde10e9fd3a32aecacfe3813919ba slab.h: disable completely broken overflow handling in flex allocations
+         8f299601fb600d305279acc03a92437a8378d0b6 man/man3/strnul.3: New page
          
