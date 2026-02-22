@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5988128401633919380=="
+Content-Type: multipart/mixed; boundary="===============8613485212005092001=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/driver-core/driver-core
-Date: Sun, 22 Feb 2026 07:45:19 -0000
-Message-Id: <177174631998.2346739.673751045717948231@gitolite.kernel.org>
+Date: Sun, 22 Feb 2026 07:45:25 -0000
+Message-Id: <177174632508.2351362.18398537183726981742@gitolite.kernel.org>
 
---===============5988128401633919380==
+--===============8613485212005092001==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,42 @@ repo: pub/scm/linux/kernel/git/driver-core/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/driver-core-linus
+  - ref: refs/heads/driver-core-next
     old: 8bf22c33e7a172fbc72464f4cc484d23a6b412ba
     new: 32a92f8c89326985e05dce8b22d3f0aa07a3e1bd
     log: revlist-8bf22c33e7a1-32a92f8c8932.txt
 
---===============5988128401633919380==
+--===============8613485212005092001==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1771746319 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1771746324 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/driver-core/driver-core.git
-nonce 1771746318-7abab2cd27d9e3e54f2149ddc44cf89a120f144f
+nonce 1771746323-f649e3c68920c6556243b60fc13623777f321f84
 
-8bf22c33e7a172fbc72464f4cc484d23a6b412ba 32a92f8c89326985e05dce8b22d3f0aa07a3e1bd refs/heads/driver-core-linus
+8bf22c33e7a172fbc72464f4cc484d23a6b412ba 32a92f8c89326985e05dce8b22d3f0aa07a3e1bd refs/heads/driver-core-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmmatA8bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+qaIP/1dHQuY1PpFlnUGGJPJS
-Gmkdzcq86t3PqsOYz3ffsAEaWnRy1cVvrZgdTmGSKL2cQNLiI5vgAvD4MrGQRE0p
-96JHqazpBuTpD4hPotd3Mx4anI7opVMOvwaZ81+gxzplFhR6TtfJJ2LDhD/49OqU
-PK78MrNrl6yQGIOskPo9QhBLpPf4lLHF7TEdph436Kfg+xJ3IwyPEUfwusWyQNi1
-+NM1eIPiaCyoaVetDfgMZ/kOtqCJUeLIt0cE474NIp7Zt9HTZopmkm/K5iZrUxPX
-kGA/bMfQk7gSpDr31xp1GiEk8CWSBp2YkNY9jLGUSFUAh7WojoGZu+281xO1G2Xa
-7/A4gZKoepecfGt4IPA10eHzbmZWwaNi/2F0B5YxIFYdGbguCM9dNf/NEJsb1T9Y
-5err40rH3YtXXEAVFA+YKyI3dN53IJSjmWB6UIbdvlBpvPGNM+VIZfvnHZUIJOaX
-DptkaZRb2deCz9fNTTwwnB+MGrEh0DKmc4p9Vr0ZDsdYqD9caG58MmA6o6Y2Z7CQ
-zq6qGNs+WtdwOnjDdhQS9HBTIJFhaaSWleYwYKtmik/Lxi2jZztpCtnyBWsr6zMH
-Ff1VDgq8UQd5SpCazYqOCfovpKm31DHWufvhxUDgOEv+dfc7NCvLlt3zSWOJJ/X2
-dnoMVPEjre/AtmXnFmPVEomI
-=KJQn
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmmatBQbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+hikP/jfyT5qwOdXi0HCD5hPu
+qyqAGIiGQrj5cQGhRjesCi5tUnCnKPfwfe5V1oAX/glOVIGwk/igtGWBFCGZ8QbX
+jk+awRijQA/9TT1GxEPo2hXPH4fdwT0QXtDiJofk0Mn42GSMulIO8wAvNbl7XBql
+wRZAzIxZ52IuP4iJyUl1UlaOvXbCA+U7KFr994MeQC8O36bnwYCBOd83jKCPNFxJ
+akJ3nY55WikPOeNWxF7sfklKijh9F1lSW2Za8srIbirUWcWFXsKUeNuH+x+N0cSy
+WuKkxkyVunA7RP7ef5IZnGnbxFYiwbbmqjzLcKFqPwht8HMnPIHUpTFLBOHnvOwH
+UUSbj7AOyk4Z9Fwx1FNBbDK5vzt9HTcojTozGFWlZYHfBSTz9/cuhbYajZy7fh+E
+nNz9rLJ+O3u3tMYEAyaQ2So0wLLzI5H7Pbdq+Xvii164FDVD5/vaG8obIIYhrpAq
+AwoDi8D/TvXTgmWwahLrrXcCT3DH7phuICghYAKyKgSuGY60YBhXKLemjDGqT5O0
+opm+yboPqacljrtttuj96JaxXokkK5rOhLIOU0GBgYfLez3+6ErJABZHpbqIw1Nv
+Stuxy89Gcf7B/yoSqjTfasKT1r68uqsLaMWgYEsClbf8bh9RIBQ6LsdMUCK92fCf
++PyKOdj+9P4OltTpscOXLo3+
+=MPzw
 -----END PGP SIGNATURE-----
 
---===============5988128401633919380==
+--===============8613485212005092001==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -713,4 +713,4 @@ bf4afc53b77aeaa48b5409da5c8da6bb4eff7f43 Convert 'alloc_obj' family to use the n
 323bbfcf1ef8836d0d2ad9e2c1f1c684f0e3b5b3 Convert 'alloc_flex' family to use the new default GFP_KERNEL argument
 32a92f8c89326985e05dce8b22d3f0aa07a3e1bd Convert more 'alloc_obj' cases to default GFP_KERNEL arguments
 
---===============5988128401633919380==--
+--===============8613485212005092001==--
