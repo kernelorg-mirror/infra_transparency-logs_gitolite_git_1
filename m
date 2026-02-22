@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2893997448151357840=="
+Content-Type: multipart/mixed; boundary="===============2645103742356217502=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/driver-core/driver-core
-Date: Sun, 22 Feb 2026 22:44:18 -0000
-Message-Id: <177180025889.3071424.12419978984926558220@gitolite.kernel.org>
+Date: Sun, 22 Feb 2026 22:44:23 -0000
+Message-Id: <177180026375.3071621.3000349945810019613@gitolite.kernel.org>
 
---===============2893997448151357840==
+--===============2645103742356217502==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/driver-core/driver-core
 user: dakr
 changes:
-  - ref: refs/heads/driver-core-testing
+  - ref: refs/heads/driver-core-next
     old: 32a92f8c89326985e05dce8b22d3f0aa07a3e1bd
     new: 6de23f81a5e08be8fbf5e8d7e9febc72a5b5f27f
     log: revlist-32a92f8c8932-6de23f81a5e0.txt
 
---===============2893997448151357840==
+--===============2645103742356217502==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -67,4 +67,4 @@ aaf96df9593bf4ab1b73c17891e4efe7570fdef3 CREDITS: Add -next to Stephen Rothwell'
 fbf33803618ad4f531f78fe15cf328fe6c7f9978 Merge tag 'fsverity-for-linus' of git://git.kernel.org/pub/scm/fs/fsverity/linux
 6de23f81a5e08be8fbf5e8d7e9febc72a5b5f27f Linux 7.0-rc1
 
---===============2893997448151357840==--
+--===============2645103742356217502==--
