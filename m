@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6019809775513621066=="
+Content-Type: multipart/mixed; boundary="===============0246100858031106725=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/gregkh
-Date: Sun, 22 Feb 2026 07:41:24 -0000
-Message-Id: <177174608470.2332070.720133033076294604@gitolite.kernel.org>
+Date: Sun, 22 Feb 2026 07:42:58 -0000
+Message-Id: <177174617879.2332649.11909859102776828382@gitolite.kernel.org>
 
---===============6019809775513621066==
+--===============0246100858031106725==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/gregkh
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/rndis
-    old: 0ef2250a91e93beb617db3281c90535f66da5be1
-    new: 3b2147efde1c7fd27442cc0f4499f9c066daa6c0
-    log: revlist-0ef2250a91e9-3b2147efde1c.txt
+  - ref: refs/heads/clanker
+    old: 8ac3eaa2ff53c9137f24dba8b9a26e819457a341
+    new: 2b845eb32089a88872d9c5419f81790fc32131a2
+    log: revlist-8ac3eaa2ff53-2b845eb32089.txt
 
---===============6019809775513621066==
+--===============0246100858031106725==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1771746070 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1771746163 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/gregkh.git
-nonce 1771746060-a9ccdd0a27273b96b468cc58c9be1ffbff4f1da5
+nonce 1771746159-d10b18f0b258071edfac9ac6aab11e3b24e2f585
 
-0ef2250a91e93beb617db3281c90535f66da5be1 3b2147efde1c7fd27442cc0f4499f9c066daa6c0 refs/heads/rndis
+8ac3eaa2ff53c9137f24dba8b9a26e819457a341 2b845eb32089a88872d9c5419f81790fc32131a2 refs/heads/clanker
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmmasxYbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+1mQP/3/dI5R8MCKdO3XnswlK
-61nFSTxeWkeyxhfpZvJnkY3R+YipNTWNqpYIFtL83G7Z49G2qeWzq+rz4GUpVcSO
-Dz8Pr7vfgPMyMZeHt4gLMW4hMsctmkk+FZjLcMlQpp3An+QRiutHdy6+dFrq0V1A
-3EqA+fIT4Dc2LI7VPDeIAqK055DyrhAJ+DnG8wN3ZdLqANd3s4s1i95B/FekGj0+
-50SVIT20wj9ubt28M1tvv1VofTOMgefbi2FEttQnNvZrkd8kNnznVWLozYhbM2KH
-eMIRHO6g5wb38GXsOWmct0FFm2dpTmx8g7VmMNNgWAhOlSZxHs4UL2GfZR8etKSR
-5OqRbUEILqAymKbkeT2Fw1fI+jO3nQgqZVnFDd+Gu7yY6To0N5wvu5VYFkgC2WrC
-wXD61qPizLcOVpiFZhFOYqJM6qzDdfZ/91JsmIyKsL3R+uMNUsjYpIQ24R3SZn7U
-IHubfQVkaqMAC6b64MbGiHsjOeEnHIqoNHEdA1+kUk/BmEARhTLmtvk6ZsGPac5g
-PXAgUTeRWO8fWFp2BLoxxWkzrmAUMKYxYsuwZBQ7vCh+fWu2uni7+hOpTMBNgbKO
-NcpEvvVmrBFY2KS9HhY24ibAVoosNQW0ROyyznyaE7uhI4QaKz+nrNXjVVDGXBRr
-WZvB53tAaKqyqn0jSaAs6iM7
-=W6oL
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmmas3MbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+0EsQANgAgAObfoTszHlURnfp
+dLGCYiUHYhxHQ9Oz4EiE22yQrWhB/utV38AYTMBrqUg0yZVyzK5pInSfJ0MeynPv
+ezCSWvq0XdxsM04HIRvF3UA3bycJM21zxV0NG9lZDcjh3jFUPQehxTDGcF5pap25
++NZy7rfFZVG7kIXla7PcOkiSaprzC/lTYoatZxntrIjcqPz1cnYX/ktYB1JIL9VG
+BH4TwAkblskZwNF6y/rMbM+N9JzVM/mzpxkx3xkDFl1V+97xDlrzOr6pHH2bRgNe
+ZRkueS11+VONrnWe5DadT/+TctNyxOpB3hOU6d1ABR+pximq+O7lFxfmjkXRCNZ4
+59wfg7dVpySpLshTeiuUk5lpntJXD3jZLiK87+Q+fZ8GwPdElN7IfYWNOt+V6AEP
+MBsmWfwBjRPn8uwsMWlhXJjs9CdrthzZb+YDoS1yDnAQXkY95Az/RYH0GiDxC6TI
+MckqJMFS0daQVCjWZozoMPqOYo5huLvAcF+xKqlzSAwC6ESsflt16CR2GoOQdNGq
+AkmPz77t3kuIcZCoAqXWSU2P57/egqC3KwyavdQihR0/F05XO6WfXD+v0W7FsjP4
+1MoskF9MuRRXGTXfsvMTbbooNqRySv1TjXyoecQgtGNouTDDrUVM9DApdwxiKHRB
+X8zhzXzQHMPJLEFM/+DhR9nZ
+=Msqu
 -----END PGP SIGNATURE-----
 
---===============6019809775513621066==
+--===============0246100858031106725==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0ef2250a91e9-3b2147efde1c.txt
+Content-Disposition: attachment; filename=revlist-8ac3eaa2ff53-2b845eb32089.txt
 
 0d4b3ca115b5436d7e68453527566db3e87ab7f0 xtensa: align: validate access in fast_load_store
 d311783bc68b011c77a4ef81321de2c94d7deffc perf list: Remove unused 'sep' variable
@@ -827,7 +827,7 @@ e19e1b480ac73c3e62ffebbca1174f0f511f43e7 add default_gfp() helper macro and use 
 bf4afc53b77aeaa48b5409da5c8da6bb4eff7f43 Convert 'alloc_obj' family to use the new default GFP_KERNEL argument
 323bbfcf1ef8836d0d2ad9e2c1f1c684f0e3b5b3 Convert 'alloc_flex' family to use the new default GFP_KERNEL argument
 32a92f8c89326985e05dce8b22d3f0aa07a3e1bd Convert more 'alloc_obj' cases to default GFP_KERNEL arguments
-8ad172cc7ee84a31cb79adb9e6173654587c7848 USB: disable all RNDIS protocol drivers
-3b2147efde1c7fd27442cc0f4499f9c066daa6c0 USB: potential rndis host fix
+481eb4c459f4994c51a42919a404ac4050b3fbf5 leds: qcom-lpg: Check for array overflow when selecting the high resolution
+2b845eb32089a88872d9c5419f81790fc32131a2 HID: Add HID_CLAIMED_INPUT guards in raw_event callbacks missing them
 
---===============6019809775513621066==--
+--===============0246100858031106725==--
