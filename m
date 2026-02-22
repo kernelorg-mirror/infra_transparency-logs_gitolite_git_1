@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
-Date: Sun, 22 Feb 2026 16:21:45 -0000
-Message-Id: <177177730594.2775856.12969037276771004546@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Sun, 22 Feb 2026 16:30:22 -0000
+Message-Id: <177177782234.2783428.24042930912783275@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jic23/iio
-user: jic23
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
-  - ref: refs/heads/testing
-    old: 12ad5857b73c1c3482fd614aac3a7919b2c6734f
-    new: 495c103b18c316573fdd1e2257d114ec4a82341e
+  - ref: refs/heads/master
+    old: 32a92f8c89326985e05dce8b22d3f0aa07a3e1bd
+    new: 189f164e573e18d9f8876dbd3ad8fcbe11f93037
     log: |
-         ded922b6488ce93b7001896e8cf853253a22eddc iio: adc: nxp-sar-adc: Remove unnecessary type casting
-         495c103b18c316573fdd1e2257d114ec4a82341e iio: core: Clean up device correctly on viio_trigger_alloc() failure
+         189f164e573e18d9f8876dbd3ad8fcbe11f93037 Convert remaining multi-line kmalloc_obj/flex GFP_KERNEL uses
          
