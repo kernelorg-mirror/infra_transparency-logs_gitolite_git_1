@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/sysdarch
-Date: Sun, 22 Feb 2026 09:59:55 -0000
-Message-Id: <177175439548.2488835.8947219694444639801@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
+Date: Sun, 22 Feb 2026 13:26:01 -0000
+Message-Id: <177176676199.2642793.9485861483212454291@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/sysdarch
-user: jarkko
+repo: pub/scm/linux/kernel/git/jic23/iio
+user: jic23
 changes:
-  - ref: refs/heads/main
-    old: 796091d81db40513aa4a93e4c5a4e43ee47234ae
-    new: 65f9650d1588343bc689e812595eca64c68e0fd8
+  - ref: refs/heads/fixes-togreg
+    old: c44a4a3b86033548176ae1b5e558a45fd67a1ed7
+    new: 0939b89084bad71c7de878f61f807df0213fad76
     log: |
-         65f9650d1588343bc689e812595eca64c68e0fd8 Add zip and imagemagick
+         be8a8a8ed78f9c801e04d2ba9cd97509af1c26c6 iio: buffer: Fix wait_queue not being removed
+         0939b89084bad71c7de878f61f807df0213fad76 iio: imu: inv_icm45600: fix regulator put warning when probe fails
          
