@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5755996388429930698=="
+Content-Type: multipart/mixed; boundary="===============7822217616780217742=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Sun, 22 Feb 2026 07:39:49 -0000
-Message-Id: <177174598918.2327284.18179856548608681473@gitolite.kernel.org>
+Date: Sun, 22 Feb 2026 07:39:52 -0000
+Message-Id: <177174599287.2327420.8128071960040112986@gitolite.kernel.org>
 
---===============5755996388429930698==
+--===============7822217616780217742==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,42 @@ repo: pub/scm/linux/kernel/git/gregkh/staging
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
+  - ref: refs/heads/staging-linus
     old: 8bf22c33e7a172fbc72464f4cc484d23a6b412ba
     new: 32a92f8c89326985e05dce8b22d3f0aa07a3e1bd
     log: revlist-8bf22c33e7a1-32a92f8c8932.txt
 
---===============5755996388429930698==
+--===============7822217616780217742==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1771745964 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1771745992 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1771745964-f4fe73c585a20920f27d572b7ccfdb0aa0c016af
+nonce 1771745991-06ff9517f659219a660fb3d56d8d9d5bda906892
 
-8bf22c33e7a172fbc72464f4cc484d23a6b412ba 32a92f8c89326985e05dce8b22d3f0aa07a3e1bd refs/heads/main
+8bf22c33e7a172fbc72464f4cc484d23a6b412ba 32a92f8c89326985e05dce8b22d3f0aa07a3e1bd refs/heads/staging-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmmasqwbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+HSQP/iB0MrMlWQIM6JC89Cdi
-3dnJ5N4nSSQCk/ILErjgtBWpuupRCLOjCPbdQn4SMZBTt+BUJHuWts07CAghaxfL
-xlzSH9t8D3UPjiOKl9o9SLIxN58hWME1CQacFFNh3aHkeI+pHD8PE4hY1VGNj7zx
-oK/zYGadyNNGsaTasDzDosyQiLtmnL75k2rzbInehbYpxexMB/qc8oiA0np6EZqn
-PUyn9WbZCtVlbBputB8jKTe8yjax6j0YVdiW8Emt5KT/uNmIu2rEw8Gqhcbu8qhk
-sF2AQxDKgL0tJvewy5Aa9sZCN3PXKbw2EyaonUhbRIkiRF9RDtquXNfT2Jx2EypB
-LO/PSQO44soxLY7Vy5NvUnfmitVIS9lAuinezP5JMQLV3XlFg3fm/uWFd0oljtTK
-uVyZGHJWdROoW5c7lriH/B4z2tsxEFIs5JqObFoE1HB+39t2RrxpXtLlBC96GOg+
-L85MR94nvN1sEG0xfdf7z5P06QmpHiWYPSH3syvBpnBwfMZB7bA/idNDrBWOAsH1
-G8ThphHHp2NmWP4HnClPEwI7EO6YL6QVE2ygyr3mrmNM/epBlJEB1bk2plN3bO4k
-QCsOp1V/w3ovURZHLhM5WZc4BrEZbXOzQpqSSL8Os90Ahshu7DGEe/YoNBj6XLuF
-e8pq0j3+eegR/LVmrrHL2VpI
-=IgK1
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmmassgbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+YScP/3sr59tAG+k7qDgh2jYC
+dr90Ek7q9khH9Ne10FlVwUtkPRU7rxcaMVFEfCITeIJas+996WJ63OozS8hpcZfq
+0kg0lPfZLOTGRwu2eGL9XgKnNgUez9iEiszD3QY9JMnOvpT4zkWa+RNystybhf+7
+NHbWnydPqqAW05qjdKhKlPURZmLcd9ieVXliQGeBPYay0cGqVY4WmKt1Ex+JA0Xv
+H5GEDp0C+0jCgwDKx/7gO5aLKYQHMGXzLUqQFrkO1IQ1O6aV0wzqGOrCkPSkJA+O
+XB03JRpZ9kkcnak509pRaZ8f45MOpFFmvTlFC75FcA0mf5hYe0oaX2TQ01D43rbj
+4AQ2+DoR+8jwJS+YT9QB6VVooOcrgzX/xaEAJOt/5NjpxgfOX34feM8OwqUBpKwF
+PGAOR9YNqzwK99ojfJUYRbjQ3C6IK1WDsCK3Wa+7eNJVF9fBs2AcDg4VKCMH5ns4
+ON5aCQVz3T/PgSrGhZ/nCFSEK7A8WVqM15SkBvDZj9NRwJJh6OaVciiFN7JnVC+9
+KAS2DwJRAdW8uxnVfv84sA7yLi/nIBQc75yLE19vbDGrJn6ztLRuXjjXit0hG31a
+Pn24fb2rrvVQuMTarHT531J3x99mdhekePhVlBCffmv9LFwe/mbNiRitO1hxybe4
+75S+UZHKS1JLiMejuZ6UFJFq
+=BImn
 -----END PGP SIGNATURE-----
 
---===============5755996388429930698==
+--===============7822217616780217742==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -713,4 +713,4 @@ bf4afc53b77aeaa48b5409da5c8da6bb4eff7f43 Convert 'alloc_obj' family to use the n
 323bbfcf1ef8836d0d2ad9e2c1f1c684f0e3b5b3 Convert 'alloc_flex' family to use the new default GFP_KERNEL argument
 32a92f8c89326985e05dce8b22d3f0aa07a3e1bd Convert more 'alloc_obj' cases to default GFP_KERNEL arguments
 
---===============5755996388429930698==--
+--===============7822217616780217742==--
