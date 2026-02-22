@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6876239919122673607=="
+Content-Type: multipart/mixed; boundary="===============5988128401633919380=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/driver-core/driver-core
-Date: Sun, 22 Feb 2026 07:45:14 -0000
-Message-Id: <177174631463.2341793.4509685866211888494@gitolite.kernel.org>
+Date: Sun, 22 Feb 2026 07:45:19 -0000
+Message-Id: <177174631998.2346739.673751045717948231@gitolite.kernel.org>
 
---===============6876239919122673607==
+--===============5988128401633919380==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,42 @@ repo: pub/scm/linux/kernel/git/driver-core/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
+  - ref: refs/heads/driver-core-linus
     old: 8bf22c33e7a172fbc72464f4cc484d23a6b412ba
     new: 32a92f8c89326985e05dce8b22d3f0aa07a3e1bd
     log: revlist-8bf22c33e7a1-32a92f8c8932.txt
 
---===============6876239919122673607==
+--===============5988128401633919380==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1771746293 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1771746319 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/driver-core/driver-core.git
-nonce 1771746293-28cff8db08a263a434cec69aac8342dba26f2a07
+nonce 1771746318-7abab2cd27d9e3e54f2149ddc44cf89a120f144f
 
-8bf22c33e7a172fbc72464f4cc484d23a6b412ba 32a92f8c89326985e05dce8b22d3f0aa07a3e1bd refs/heads/main
+8bf22c33e7a172fbc72464f4cc484d23a6b412ba 32a92f8c89326985e05dce8b22d3f0aa07a3e1bd refs/heads/driver-core-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmmas/UbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+heMQANYW7S5epkemUMXLT7Jc
-5Rz6pZTjUklyXwYF41APzeUSy0JDS/RfQZAiLy9Rj5I/DdUtIXWqygKIgf/q5tiQ
-9Ezg3l6kEEaA63LtZWinFa+73ok9UYCmG0TTIf110P67sj1KYq2O8OgXN2W+1Unu
-kVcezL33/PIZrPgmbGXv7lbgmZ9CUs0oywQE9XU+21WgSeI0qoH1wLkZW+mEmXXb
-ZR84tgWbEr+P0Ar4h3quhdc0uJTgrK82f4kXRVt1L68qx0eW+rK/g9NZZfGoAtdF
-zgTAmHjIpTqXcK6SUNH+mdGyPEF9RZjWa5zn/f7dc4CZHcDERlnePT5Oz+bA2Omi
-f6fV3JGOs4pbG/oD8FtFrtikormgmQCiGlGHz95ZY44GYTNrhfX+AKc4hsZWtZrj
-a8r9AZ2AEjtbjbrQjhLI1//3QKJ7+4ERKKZgLPlnbwRm81QGAZA/GabpjIGsyq9w
-qioFT4zuwOItbcSrI6WLg51+PbeoqLSXBC8yfZOrK6AoxZJQdkmpapulgpQlh0iX
-9WUuortNPBKQiv4MyRoR5tMTAxily4G2WZAcrEFPLiH3orXOOhfqohQrUXruHQJN
-PhL8WoV+ddaqObjy4MDib+0lmQIGJhLmabMH0OTgEadYAlr4zptQI0QnTVxHqZE8
-yllH4l3FuQiu4fA9qCPN/q8A
-=1yax
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmmatA8bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+qaIP/1dHQuY1PpFlnUGGJPJS
+Gmkdzcq86t3PqsOYz3ffsAEaWnRy1cVvrZgdTmGSKL2cQNLiI5vgAvD4MrGQRE0p
+96JHqazpBuTpD4hPotd3Mx4anI7opVMOvwaZ81+gxzplFhR6TtfJJ2LDhD/49OqU
+PK78MrNrl6yQGIOskPo9QhBLpPf4lLHF7TEdph436Kfg+xJ3IwyPEUfwusWyQNi1
++NM1eIPiaCyoaVetDfgMZ/kOtqCJUeLIt0cE474NIp7Zt9HTZopmkm/K5iZrUxPX
+kGA/bMfQk7gSpDr31xp1GiEk8CWSBp2YkNY9jLGUSFUAh7WojoGZu+281xO1G2Xa
+7/A4gZKoepecfGt4IPA10eHzbmZWwaNi/2F0B5YxIFYdGbguCM9dNf/NEJsb1T9Y
+5err40rH3YtXXEAVFA+YKyI3dN53IJSjmWB6UIbdvlBpvPGNM+VIZfvnHZUIJOaX
+DptkaZRb2deCz9fNTTwwnB+MGrEh0DKmc4p9Vr0ZDsdYqD9caG58MmA6o6Y2Z7CQ
+zq6qGNs+WtdwOnjDdhQS9HBTIJFhaaSWleYwYKtmik/Lxi2jZztpCtnyBWsr6zMH
+Ff1VDgq8UQd5SpCazYqOCfovpKm31DHWufvhxUDgOEv+dfc7NCvLlt3zSWOJJ/X2
+dnoMVPEjre/AtmXnFmPVEomI
+=KJQn
 -----END PGP SIGNATURE-----
 
---===============6876239919122673607==
+--===============5988128401633919380==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -713,4 +713,4 @@ bf4afc53b77aeaa48b5409da5c8da6bb4eff7f43 Convert 'alloc_obj' family to use the n
 323bbfcf1ef8836d0d2ad9e2c1f1c684f0e3b5b3 Convert 'alloc_flex' family to use the new default GFP_KERNEL argument
 32a92f8c89326985e05dce8b22d3f0aa07a3e1bd Convert more 'alloc_obj' cases to default GFP_KERNEL arguments
 
---===============6876239919122673607==--
+--===============5988128401633919380==--
