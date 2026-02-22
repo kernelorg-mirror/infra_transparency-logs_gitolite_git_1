@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/driver-core/driver-core
-Date: Sun, 22 Feb 2026 23:17:08 -0000
-Message-Id: <177180222859.3104338.13707338710165518506@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Sun, 22 Feb 2026 23:32:40 -0000
+Message-Id: <177180316053.3116080.4739884497719867585@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/driver-core/driver-core
-user: dakr
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: sashal
 changes:
-  - ref: refs/heads/driver-core-linus
-    old: 6de23f81a5e08be8fbf5e8d7e9febc72a5b5f27f
-    new: 2692c614f8f05929d692b3dbfd3faef1f00fbaf0
+  - ref: refs/heads/master
+    old: afefff96739d0f94a0c90a0a1eab69531547553e
+    new: b50e4e2ad54ed517aa89e2963ab2a836bba50b89
     log: |
-         2692c614f8f05929d692b3dbfd3faef1f00fbaf0 device property: Allow secondary lookup in fwnode_get_next_child_node()
+         a2b7003dcbbca381109d36859d76b9f47fd2f88d drop fbcon patches from some queues
+         b50e4e2ad54ed517aa89e2963ab2a836bba50b89 Fixes for all trees
          
