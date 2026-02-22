@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7822217616780217742=="
+Content-Type: multipart/mixed; boundary="===============1209085768366519840=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Sun, 22 Feb 2026 07:39:52 -0000
-Message-Id: <177174599287.2327420.8128071960040112986@gitolite.kernel.org>
+Date: Sun, 22 Feb 2026 07:39:56 -0000
+Message-Id: <177174599617.2327610.4202470098159556807@gitolite.kernel.org>
 
---===============7822217616780217742==
+--===============1209085768366519840==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,42 @@ repo: pub/scm/linux/kernel/git/gregkh/staging
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/staging-linus
+  - ref: refs/heads/staging-next
     old: 8bf22c33e7a172fbc72464f4cc484d23a6b412ba
     new: 32a92f8c89326985e05dce8b22d3f0aa07a3e1bd
     log: revlist-8bf22c33e7a1-32a92f8c8932.txt
 
---===============7822217616780217742==
+--===============1209085768366519840==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1771745992 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1771745995 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1771745991-06ff9517f659219a660fb3d56d8d9d5bda906892
+nonce 1771745994-d7a12935e49ccbdb4c6db515426a8b17e1953e64
 
-8bf22c33e7a172fbc72464f4cc484d23a6b412ba 32a92f8c89326985e05dce8b22d3f0aa07a3e1bd refs/heads/staging-linus
+8bf22c33e7a172fbc72464f4cc484d23a6b412ba 32a92f8c89326985e05dce8b22d3f0aa07a3e1bd refs/heads/staging-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmmassgbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+YScP/3sr59tAG+k7qDgh2jYC
-dr90Ek7q9khH9Ne10FlVwUtkPRU7rxcaMVFEfCITeIJas+996WJ63OozS8hpcZfq
-0kg0lPfZLOTGRwu2eGL9XgKnNgUez9iEiszD3QY9JMnOvpT4zkWa+RNystybhf+7
-NHbWnydPqqAW05qjdKhKlPURZmLcd9ieVXliQGeBPYay0cGqVY4WmKt1Ex+JA0Xv
-H5GEDp0C+0jCgwDKx/7gO5aLKYQHMGXzLUqQFrkO1IQ1O6aV0wzqGOrCkPSkJA+O
-XB03JRpZ9kkcnak509pRaZ8f45MOpFFmvTlFC75FcA0mf5hYe0oaX2TQ01D43rbj
-4AQ2+DoR+8jwJS+YT9QB6VVooOcrgzX/xaEAJOt/5NjpxgfOX34feM8OwqUBpKwF
-PGAOR9YNqzwK99ojfJUYRbjQ3C6IK1WDsCK3Wa+7eNJVF9fBs2AcDg4VKCMH5ns4
-ON5aCQVz3T/PgSrGhZ/nCFSEK7A8WVqM15SkBvDZj9NRwJJh6OaVciiFN7JnVC+9
-KAS2DwJRAdW8uxnVfv84sA7yLi/nIBQc75yLE19vbDGrJn6ztLRuXjjXit0hG31a
-Pn24fb2rrvVQuMTarHT531J3x99mdhekePhVlBCffmv9LFwe/mbNiRitO1hxybe4
-75S+UZHKS1JLiMejuZ6UFJFq
-=BImn
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmmasssbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+wo4P/0iqyCo1tHJLehdJCo96
+dTqkREU8fCJCql+jhiOrVBm/InC+TEJf14OEcrZco6vcWmsGJdbWDSO1fPw/h2it
+ljG4qenIGPJ0XQL1cOMwSDHLtacifazhw8UYcqV6/LM0B2x7WBmZ5OGVSaKzej/V
+JFpLyWWq9o9qr8KG4Gmmmqjpzt9FTxil0cctEC0y6nX7uatveAUUKm78xwWHOftd
+G7byo+t1LKtao3+rUBm5G/gZDA53dr3QPpTtnAjNdSuxHUDcE70LXWcWuHIwdLWe
++65Npja8Xg+UNWb2c9bQ8pSU6/5jjjwoKlr8Ffsjuq0GW0NeACF8osLVGFwklgXi
+3Cm0ohT4hECHgb+OgHzEsr4uOjEhwenjfIhNuElkgkziYFXA/0zafLuKV+7vC/VN
+fzOuYhg+ILKkdWQCqxvFELngMTbAly10ssAgxiSBDrIhSFLmp4zC+47R6LJEsKrC
+8amd0yFeh4H9H2tBOYBRB3MFuCokccrpsmRLNIG72E6MBXYd1De3+SWcoG64pZgC
+fiVvsBWslnO50HYVpt+U99r/x+JBcnbYargQxqg/0cmnkuGLD8ijHNWjpJeByfzy
+c392U3l2k2+Ow9pVpA8ImvXM++41Jn6yloyQfaxbzn3ugMLUg+eXmLQTINvHckWk
+NCQTiQ/WjYlgOIKLN1z0M7Q2
+=gVmn
 -----END PGP SIGNATURE-----
 
---===============7822217616780217742==
+--===============1209085768366519840==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -713,4 +713,4 @@ bf4afc53b77aeaa48b5409da5c8da6bb4eff7f43 Convert 'alloc_obj' family to use the n
 323bbfcf1ef8836d0d2ad9e2c1f1c684f0e3b5b3 Convert 'alloc_flex' family to use the new default GFP_KERNEL argument
 32a92f8c89326985e05dce8b22d3f0aa07a3e1bd Convert more 'alloc_obj' cases to default GFP_KERNEL arguments
 
---===============7822217616780217742==--
+--===============1209085768366519840==--
