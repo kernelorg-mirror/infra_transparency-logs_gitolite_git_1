@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3369693542568155239=="
+Content-Type: multipart/mixed; boundary="===============4455735090031133313=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ulfh/linux-pm
-Date: Mon, 23 Feb 2026 10:59:39 -0000
-Message-Id: <177184437986.3777969.18147976712094068596@gitolite.kernel.org>
+Date: Mon, 23 Feb 2026 10:59:59 -0000
+Message-Id: <177184439974.3778231.4722502656208230439@gitolite.kernel.org>
 
---===============3369693542568155239==
+--===============4455735090031133313==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,20 +15,34 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ulfh/linux-pm
 user: ulfh
 changes:
-  - ref: refs/heads/next
-    old: 1fca2a4426aac222a724770a56c71e6bb3cf96f2
-    new: 7ad7f43e568b8601586657ff9024fb4f30de7d36
-    log: revlist-1fca2a4426aa-7ad7f43e568b.txt
-  - ref: refs/tags/v7.0-rc1
-    old: 0000000000000000000000000000000000000000
-    new: 559f264e403e4d58d56a17595c60a1de011c5e20
+  - ref: refs/heads/dt
+    old: 76cbb84eecbeba449eb46b3e9429786897c4a9ca
+    new: 82d58440cd72dd4bf719e50eddfb9c4ef50f2deb
+    log: revlist-76cbb84eecbe-82d58440cd72.txt
 
---===============3369693542568155239==
+--===============4455735090031133313==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-1fca2a4426aa-7ad7f43e568b.txt
+Content-Disposition: attachment; filename=revlist-76cbb84eecbe-82d58440cd72.txt
 
+bcc8fd3e1573c502edc0cb61abea0e113a761799 Merge tag 'lsm-pr-20260203' of git://git.kernel.org/pub/scm/linux/kernel/git/pcmoore/lsm
+1d3ffe6233b1b6e8697f5027b9441ce70385c997 perf tests workload: Formatting for code_with_type.rs
+6252e917b9006dfa2f3d884fe0dbaf3e676c4108 Merge tag 'selinux-pr-20260203' of git://git.kernel.org/pub/scm/linux/kernel/git/pcmoore/selinux
+42e7c876b182da65723700f6bc507a8aecb10d3b fs/nfs: Fix readdir slow-start regression
+fdc0396b3cc05dc9b678627af23c3fdc7dbe930e nfs: unify security_inode_listsecurity() calls
+3d57c44e918012db1f901d50bc9195a8812ad602 NFSv4: pass lease period in seconds to nfs4_set_lease_period()
+e29a3e61eef6b6c2e60bc1872e9da3bcdbc46c17 NFSv4: limit lease period in nfs4_set_lease_period()
+4b6c6bc6fab51684cc129f91211734f87db6b065 Merge tag 'vfs-7.0-rc1.rust' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
+2a400eeba40b4cf1fb28f78f41bf73a898b00d06 perf test code_with_type.sh: Skip test if rust wasn't available at build time
+bdc5071d7f7bb82589737741e9bf19820ceb7a6a coccinelle: Add kmalloc_objs conversion script
+3d012b8614ee020666f3dd15af9f65dc487e3f5f perf test: Fix test case perftool-testsuite_report for s390
+996812c453cafa042f2e674738dbf8fa495661f3 Merge tag 'vfs-7.0-rc1.initrd' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
+728bea264883031c377fcc9c465b650dbfd1bbf5 sunrpc: rpc_debug and others are defined even if CONFIG_SUNRPC_DEBUG unset
+afb24505ff6583eb5150b4a54086188494d25c28 SUNRPC: Change list definition method
+1075e8e826b27aac92925c44d6d3c794e4d2ce0b nfs: nfs4proc: Convert comma to semicolon
+74554251dfc9374ebf1a9dfc54d6745d56bb9265 Merge tag 'vfs-7.0-rc1.nonblocking_timestamps' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
+b211a30690f8263b79f30b6b1770ffe216fa378c docs: kdoc_parser: allow __exit in function prototypes
 6c5c07bc85890a8eadcad484d9bbaa239ca8e623 docs: process: maintainer-pgp-guide: update kernel.org docs link
 aa2a0fcd4c7b9801be32482755a450a80a3c36a2 Merge tag 'vfs-7.0-rc1.leases' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
 dd466ea0029961ee0ee6e8e468faa1506275c8a9 Merge tag 'vfs-7.0-rc1.fserror' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
@@ -1036,22 +1050,5 @@ d28cb72e07b21acb90204be201966b9e92eca75a dt-bindings: power: define ID for Marve
 425fec07d42954a7eb4d0694dc33be4991d67420 dt-bindings: power: mt8196-gpufreq: Describe nvmem provider ability
 3cdac25e80a23ca107189b55deaadf0a49bab44b dt-bindings: power: mt7622-power: Add MT7622_POWER_DOMAIN_AUDIO
 82d58440cd72dd4bf719e50eddfb9c4ef50f2deb dt-bindings: power: Add MediaTek MT8189 power domain
-e00e36e427486b50a2abf67b94baefac92d1d2de pmdomain: imx93-blk-ctrl: cleanup error path
-a348288cd4cccb6f4217d57c108904c9d5ca4873 pmdomain: imx93-blk-ctrl: convert to devm_* only
-4a0c3257120e512dc510bff3578b1112b5669bd8 pmdomain: imx93-blk-ctrl: add support for optional subnodes
-5caa0e8aa144a5833b50280e15538aedb58c61e6 pmdomain: add audio power island for Marvell PXA1908 SoC
-13a77761ece5f75c3a54e77deccefa374341c350 pmdomain: mediatek: mtk-mfg: Expose shader_present as nvmem cell
-d58aeecadc58d81dabd83bf3d630324688c8c097 pmdomain: ti_sci: handle wakeup constraint for out-of-band wakeup
-fc866ec88bca174633660011531208d7bb9ec793 pmdomain: mediatek: Simplify with scoped for each OF child loop
-b901bf3f40dedc9f60d8febdfb5c11599ced7ed8 pmdomain: mediatek: scpsys: Add MT7622 Audio power domain to legacy driver
-4dc9888e3e5228682b1d22f9680f89c19b2c667b pmdomain: ti: omap_prm: Fix a reference leak on device node
-42d645974ebebf0efecfdeb8092c5a5663e616cb pmdomain: imx: scu-pd: Fix device_node reference leak during ->probe()
-08e20c97c2fd42383560e856ed2af548e1397978 pmdomain: qcom: rpmpd: drop stray semicolon
-508793ebaff27b622b2c2a62d26206266b10fd88 pmdomain: core: Restructure domain idle states data for genpd in debugfs
-3fa57cd5eeee1d3cfd78cb44ef9518938778b99a pmdomain: core: Show latency/residency for domain idle states in debugfs
-0a07c70da9010fd5ffd758ffce6ae5872d338a16 pmdomain: core: Extend statistics for domain idle states with s2idle data
-b1c32fbe935df84d5140c386314ea86d618ec2a3 pmdomain: mediatek: Add bus protect control flow for MT8189
-90a8400e1f886595796f5f0c5a4af4c2b48cdf08 pmdomain: mediatek: Add power domain driver for MT8189 SoC
-7ad7f43e568b8601586657ff9024fb4f30de7d36 pmdomain: de-constify fields struct dev_pm_domain_attach_data
 
---===============3369693542568155239==--
+--===============4455735090031133313==--
