@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2575343198441522299=="
+Content-Type: multipart/mixed; boundary="===============1691511476444050584=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mips/linux
-Date: Mon, 23 Feb 2026 15:16:12 -0000
-Message-Id: <177185977228.3995483.17743579602790361248@gitolite.kernel.org>
+Date: Mon, 23 Feb 2026 15:16:37 -0000
+Message-Id: <177185979797.3995716.13253251081519002338@gitolite.kernel.org>
 
---===============2575343198441522299==
+--===============1691511476444050584==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/mips/linux
 user: tsbogend
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/mips-fixes
     old: 63804fed149a6750ffd28610c5c1c98cce6bd377
     new: 6de23f81a5e08be8fbf5e8d7e9febc72a5b5f27f
     log: revlist-63804fed149a-6de23f81a5e0.txt
 
---===============2575343198441522299==
+--===============1691511476444050584==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -1051,4 +1051,4 @@ aaf96df9593bf4ab1b73c17891e4efe7570fdef3 CREDITS: Add -next to Stephen Rothwell'
 fbf33803618ad4f531f78fe15cf328fe6c7f9978 Merge tag 'fsverity-for-linus' of git://git.kernel.org/pub/scm/fs/fsverity/linux
 6de23f81a5e08be8fbf5e8d7e9febc72a5b5f27f Linux 7.0-rc1
 
---===============2575343198441522299==--
+--===============1691511476444050584==--
