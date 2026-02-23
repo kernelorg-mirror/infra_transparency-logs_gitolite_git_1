@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5877561986238526151=="
+Content-Type: multipart/mixed; boundary="===============0011988356735298800=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Mon, 23 Feb 2026 07:55:25 -0000
-Message-Id: <177183332565.3623078.10160761644555084859@gitolite.kernel.org>
+Date: Mon, 23 Feb 2026 07:55:41 -0000
+Message-Id: <177183334183.3623654.2894290130300394065@gitolite.kernel.org>
 
---===============5877561986238526151==
+--===============0011988356735298800==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,15 +16,27 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: 22a5469105174bdd310276302ea996a6a5ce2995
-    new: 270aef4321e9b034b35ea2b7edb413868ff05c04
-    log: revlist-22a546910517-270aef4321e9.txt
+    old: 270aef4321e9b034b35ea2b7edb413868ff05c04
+    new: 7dc4fcf63834308457d86679d40663e88d31f464
+    log: |
+         6b1ade9c63b8237b15c33bcd54478b398cd1a6ef Merge branch into tip/master: 'irq/urgent'
+         236cbb8d17589a646923f54cb60a0868ea99ab02 Merge branch into tip/master: 'timers/urgent'
+         2a8545d2dc8bcf3deb17274817124b253996d599 Merge branch into tip/master: 'core/debugobjects'
+         7dc4fcf63834308457d86679d40663e88d31f464 Merge branch into tip/master: 'locking/futex'
+         
+  - ref: refs/heads/tip/urgent
+    old: 5ff49da464dd7bec3f7b7299d40187f477ff8929
+    new: 236cbb8d17589a646923f54cb60a0868ea99ab02
+    log: revlist-5ff49da464dd-236cbb8d1758.txt
+  - ref: refs/tags/v7.0-rc1
+    old: 0000000000000000000000000000000000000000
+    new: 559f264e403e4d58d56a17595c60a1de011c5e20
 
---===============5877561986238526151==
+--===============0011988356735298800==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-22a546910517-270aef4321e9.txt
+Content-Disposition: attachment; filename=revlist-5ff49da464dd-236cbb8d1758.txt
 
 d311783bc68b011c77a4ef81321de2c94d7deffc perf list: Remove unused 'sep' variable
 f6f41aef53761517391b6192fe5b4bc30b2d717a perf diff: Constify strchr() return variables
@@ -371,6 +383,7 @@ aaf96df9593bf4ab1b73c17891e4efe7570fdef3 CREDITS: Add -next to Stephen Rothwell'
 75e1f66a9ed09f29c6883ea379c174e8cf31f7cc Merge tag 'libcrypto-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/ebiggers/linux
 fbf33803618ad4f531f78fe15cf328fe6c7f9978 Merge tag 'fsverity-for-linus' of git://git.kernel.org/pub/scm/fs/fsverity/linux
 6de23f81a5e08be8fbf5e8d7e9febc72a5b5f27f Linux 7.0-rc1
-270aef4321e9b034b35ea2b7edb413868ff05c04 Merge branch 'linus'
+6b1ade9c63b8237b15c33bcd54478b398cd1a6ef Merge branch into tip/master: 'irq/urgent'
+236cbb8d17589a646923f54cb60a0868ea99ab02 Merge branch into tip/master: 'timers/urgent'
 
---===============5877561986238526151==--
+--===============0011988356735298800==--
