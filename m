@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Mon, 23 Feb 2026 14:49:47 -0000
-Message-Id: <177185818748.3970388.16193588466560992330@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/conor/linux
+Date: Mon, 23 Feb 2026 14:52:47 -0000
+Message-Id: <177185836772.3974306.12328132347791510693@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/conor/linux
+user: conor
 changes:
-  - ref: refs/heads/v4_20260206_guodong_regulator_spacemit_p1_support_board_power_tree_via_dt_properties
-    old: fbb4c52ccdcb4a612d2b7f800aa57090eeee16d7
-    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/qspi-issue
+    old: 9718977b7019e2fc22e5fe8dcae53f00531da58d
+    new: a2855339dd9a8eb97f29a7c878d4e7c803a17efb
+    log: |
+         a2855339dd9a8eb97f29a7c878d4e7c803a17efb duplicate definition of setup...
+         
