@@ -1,61 +1,61 @@
-Content-Type: multipart/mixed; boundary="===============2846756430707767404=="
+Content-Type: multipart/mixed; boundary="===============2249201991684293890=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/gregkh
-Date: Mon, 23 Feb 2026 07:04:14 -0000
-Message-Id: <177183025474.3567572.452363587400466718@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
+Date: Mon, 23 Feb 2026 07:04:17 -0000
+Message-Id: <177183025775.3567859.8191946227763572366@gitolite.kernel.org>
 
---===============2846756430707767404==
+--===============2249201991684293890==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/gregkh
+repo: pub/scm/linux/kernel/git/gregkh/staging
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/rndis
-    old: 3b2147efde1c7fd27442cc0f4499f9c066daa6c0
-    new: 2509f429597c553473ca4dd37cd1e4adf8fd3e63
-    log: revlist-3b2147efde1c-2509f429597c.txt
+  - ref: refs/heads/staging-linus
+    old: 32a92f8c89326985e05dce8b22d3f0aa07a3e1bd
+    new: 6de23f81a5e08be8fbf5e8d7e9febc72a5b5f27f
+    log: revlist-32a92f8c8932-6de23f81a5e0.txt
 
---===============2846756430707767404==
+--===============2249201991684293890==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1771830235 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/gregkh.git
-nonce 1771830231-d8bf1689d898c2695606039c666218ebb58f4760
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1771830256 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
+nonce 1771830256-8c0a22f8192e7f798f89bd19e1cb34ce1714d985
 
-3b2147efde1c7fd27442cc0f4499f9c066daa6c0 2509f429597c553473ca4dd37cd1e4adf8fd3e63 refs/heads/rndis
+32a92f8c89326985e05dce8b22d3f0aa07a3e1bd 6de23f81a5e08be8fbf5e8d7e9febc72a5b5f27f refs/heads/staging-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmmb+9sbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+sEEP/RTsJ+ql5Lyg5kIdRbUO
-MlFFRaFI+xPd/EwxOzONg5q4fzCVI8gvQ11Q6zKpMqnO4ld4KkBdpGY28PSSvhjr
-OkBERlK/Msja+AXg6AKKWWP5GH3UQjc2r18AR0v9sKMEpJQqe4PCbmSGtJDv28wW
-CuPM8+IAm2CfGCdG/txrwqYDekef66OGEAaQ2N9QxOVSsPY4q48q8F6iWTKoA0SH
-SZACZ7wcQ9nAa48vUE2xPV2ceMitshDV09YLAltP8D4xRMUHdaYs10bM2Tz/2wQS
-k4uX9RDQPn7Ls/Nv6cBWgl7aQlypd8UJBzgqSIe2SYoO2IlirZjHsLSi2GIrcO58
-Or6sKzsiC0+jX+DdrzQspm4WqoPjwqLG19l1WG2nrJ5FmNQ8bqpPHXH4asuC+glw
-qroTfjLOWdZLt9cppV2SwGrk/yioQtL80PqCiaNubxcmSyXPgzTwnBYY3rGcdSPT
-CZjEYOhd7J6mrjv3KhC3adiXhUd1cj/qGjh7+3M8MVGrVyKqZT4Q/4C6aoiD2MMp
-CLrlo17w9WnNBRJSvrgKms7lF1MYWOlCfSg2ifmX8lxCacDexrXw21ttnlCqA496
-UCt7nAlyg+kpUNoxjfsy6kYEnAMUbNnkOVTOBLn9UvPiOos88KicWgC/tIPsu/aR
-HgSm4aw4poAHdHphub/C0gTr
-=FNgn
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmmb+/AbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+rMMQAJhA1Tl2/DPdEwS6uafH
+upEyqm+Y0Uv2UFyjJ8lAjVYQCWYczy59q2bHfMzZyYeEnTfEBSDMrG+z9Cs2++UP
+DOOyf1XFcfhqIAm5eKdc9X7ZGvoO4S0MvXeTh2bHDzNnJZddf2n+3T1CXIk6IYc6
+de6nYO3clnO7/8AaNptmE1QSwRCWB/wr8VLS4Vlg+0zWUyKSfiiy/gYuS7NplIM8
+LK202qdVdB8NNLNrtu8/SNh1jxjjfiffRjxkKTQCPzUUTGJY4Z/vBtb3NXemQANC
+KqXGytdQ6LtSBpzjc0p3FURRV1ogySkjM5V+YOIWf91Q4+hbHt8y+ZHc3KFFmRKn
+iquQvsqiNlzi90XgHJhTgFdV0b/SKmOjuuvm06aOcB5qt51TvhLRUdSJvgtUenET
+I8ZPwAu2Z47JAkYML2G26Qh6cWlHEY+sra6Zx+aaWmTpe2EAy/FkzdEraDwVFdd1
+m0pEi4quVQxb1uYd363T57/JljAb+8XtCt1sg6Eda8qUkb5hzrLFA24TcI06dwDA
+C67KaeodHMUdGDMzzjT9cLdKXxyLfAxHFet6JQW9gD6aZXqxptcLt5vldWyH3TH8
+cfXBMIwLgJ0LuXJOllqxCv+tN3Xf1TLZrV4exeUD5dQYcqJi0gF0VVAOVWt+Fl7v
+DzlARHZCBIejf6kNEXrSvXFw
+=VmYX
 -----END PGP SIGNATURE-----
 
---===============2846756430707767404==
+--===============2249201991684293890==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3b2147efde1c-2509f429597c.txt
+Content-Disposition: attachment; filename=revlist-32a92f8c8932-6de23f81a5e0.txt
 
 f9ecfd9bfedba9fd9d4b015b33b847571f7fdd42 rtc: nvvrs: Add ARCH_TEGRA to the NV VRS RTC driver
 d5aca9a17f6de884febc56018f92d743b8ea1298 rtc: max31335: use correct CONFIG symbol in IS_REACHABLE()
@@ -97,7 +97,5 @@ aaf96df9593bf4ab1b73c17891e4efe7570fdef3 CREDITS: Add -next to Stephen Rothwell'
 75e1f66a9ed09f29c6883ea379c174e8cf31f7cc Merge tag 'libcrypto-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/ebiggers/linux
 fbf33803618ad4f531f78fe15cf328fe6c7f9978 Merge tag 'fsverity-for-linus' of git://git.kernel.org/pub/scm/fs/fsverity/linux
 6de23f81a5e08be8fbf5e8d7e9febc72a5b5f27f Linux 7.0-rc1
-638c7a670ff4ad46361b1446d56c41cb137bffae USB: disable all RNDIS protocol drivers
-2509f429597c553473ca4dd37cd1e4adf8fd3e63 USB: potential rndis host fix
 
---===============2846756430707767404==--
+--===============2249201991684293890==--
