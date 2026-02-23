@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4446689404184358693=="
+Content-Type: multipart/mixed; boundary="===============3987223379544359153=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
-Date: Mon, 23 Feb 2026 08:50:09 -0000
-Message-Id: <177183660992.3667849.2743888190517610541@gitolite.kernel.org>
+Date: Mon, 23 Feb 2026 08:50:14 -0000
+Message-Id: <177183661438.3668359.18158267634293200083@gitolite.kernel.org>
 
---===============4446689404184358693==
+--===============3987223379544359153==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/brgl/linux
 user: brgl
 changes:
-  - ref: refs/heads/davinci/for-next
+  - ref: refs/heads/davinci/for-current
     old: 8f0b4cce4481fb22653697cced8d0d04027cb1e8
     new: 6de23f81a5e08be8fbf5e8d7e9febc72a5b5f27f
     log: revlist-8f0b4cce4481-6de23f81a5e0.txt
 
---===============4446689404184358693==
+--===============3987223379544359153==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -1051,4 +1051,4 @@ aaf96df9593bf4ab1b73c17891e4efe7570fdef3 CREDITS: Add -next to Stephen Rothwell'
 fbf33803618ad4f531f78fe15cf328fe6c7f9978 Merge tag 'fsverity-for-linus' of git://git.kernel.org/pub/scm/fs/fsverity/linux
 6de23f81a5e08be8fbf5e8d7e9febc72a5b5f27f Linux 7.0-rc1
 
---===============4446689404184358693==--
+--===============3987223379544359153==--
