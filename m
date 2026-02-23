@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6686160670207629072=="
+Content-Type: multipart/mixed; boundary="===============5350295841980152255=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ti/linux
-Date: Mon, 23 Feb 2026 04:27:30 -0000
-Message-Id: <177182085070.3426811.11384769487437976840@gitolite.kernel.org>
+Date: Mon, 23 Feb 2026 04:27:44 -0000
+Message-Id: <177182086415.3427133.9256355800456732071@gitolite.kernel.org>
 
---===============6686160670207629072==
+--===============5350295841980152255==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ti/linux
 user: vigneshr
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/ti-dts-stage
     old: 8f0b4cce4481fb22653697cced8d0d04027cb1e8
     new: 6de23f81a5e08be8fbf5e8d7e9febc72a5b5f27f
     log: revlist-8f0b4cce4481-6de23f81a5e0.txt
 
---===============6686160670207629072==
+--===============5350295841980152255==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -1051,4 +1051,4 @@ aaf96df9593bf4ab1b73c17891e4efe7570fdef3 CREDITS: Add -next to Stephen Rothwell'
 fbf33803618ad4f531f78fe15cf328fe6c7f9978 Merge tag 'fsverity-for-linus' of git://git.kernel.org/pub/scm/fs/fsverity/linux
 6de23f81a5e08be8fbf5e8d7e9febc72a5b5f27f Linux 7.0-rc1
 
---===============6686160670207629072==--
+--===============5350295841980152255==--
