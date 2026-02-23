@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1778278203828730607=="
+Content-Type: multipart/mixed; boundary="===============2876117081905873053=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Mon, 23 Feb 2026 19:48:15 -0000
-Message-Id: <177187609557.43116.1390067174105956996@gitolite.kernel.org>
+Date: Mon, 23 Feb 2026 19:48:25 -0000
+Message-Id: <177187610520.43343.14052875333552249811@gitolite.kernel.org>
 
---===============1778278203828730607==
+--===============2876117081905873053==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/rdma/rdma
 user: leon
 changes:
-  - ref: refs/heads/for-next
-    old: d6c58f4eb3d00a695f5a610ea780cad322ec714e
+  - ref: refs/heads/wip/leon-for-rc
+    old: 4d310797262f0ddf129e76c2aad2b950adaf1fda
     new: 6de23f81a5e08be8fbf5e8d7e9febc72a5b5f27f
-    log: revlist-d6c58f4eb3d0-6de23f81a5e0.txt
+    log: revlist-4d310797262f-6de23f81a5e0.txt
 
---===============1778278203828730607==
+--===============2876117081905873053==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-d6c58f4eb3d0-6de23f81a5e0.txt
+Content-Disposition: attachment; filename=revlist-4d310797262f-6de23f81a5e0.txt
 
 9e03b7caf4e65f5a5841dfed540fdcc3ff061734 Merge tag 'kvm-x86-misc-6.20' of https://github.com/kvm-x86/linux into HEAD
 2f81bdbdb3aa3fccd9b5420df5674730c40af554 Merge tag 'i3c/for-6.20' of git://git.kernel.org/pub/scm/linux/kernel/git/i3c/linux
@@ -1051,4 +1051,4 @@ aaf96df9593bf4ab1b73c17891e4efe7570fdef3 CREDITS: Add -next to Stephen Rothwell'
 fbf33803618ad4f531f78fe15cf328fe6c7f9978 Merge tag 'fsverity-for-linus' of git://git.kernel.org/pub/scm/fs/fsverity/linux
 6de23f81a5e08be8fbf5e8d7e9febc72a5b5f27f Linux 7.0-rc1
 
---===============1778278203828730607==--
+--===============2876117081905873053==--
