@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============6814212408834872286=="
+Content-Type: multipart/mixed; boundary="===============2252051705989599423=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/wireless/wireless-next
-Date: Mon, 23 Feb 2026 07:50:58 -0000
-Message-Id: <177183305851.3618623.1627277635380836108@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/wireless/wireless
+Date: Mon, 23 Feb 2026 07:51:08 -0000
+Message-Id: <177183306806.3618965.4394646048893209872@gitolite.kernel.org>
 
---===============6814212408834872286==
+--===============2252051705989599423==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/wireless/wireless-next
+repo: pub/scm/linux/kernel/git/wireless/wireless
 user: jberg
 git_push_cert_status: E
 changes:
@@ -21,36 +21,36 @@ changes:
     new: 8bf22c33e7a172fbc72464f4cc484d23a6b412ba
     log: revlist-37a93dd5c49b-8bf22c33e7a1.txt
 
---===============6814212408834872286==
+--===============2252051705989599423==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 7BF9099A 1771833053 +0100
-pushee ssh+git://korg/pub/scm/linux/kernel/git/wireless/wireless-next.git
-nonce 1771833053-d6bc5a248069088347933d020f45c02f0fd046f5
+pusher 7BF9099A 1771833061 +0100
+pushee ssh+git://korg/pub/scm/linux/kernel/git/wireless/wireless.git
+nonce 1771833061-5bf86ff38bd746344589b189113f19abf8afb0d9
 
 37a93dd5c49b5fda807fd204edf2547c3493319c 8bf22c33e7a172fbc72464f4cc484d23a6b412ba refs/heads/main
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCgAdFiEEpeA8sTs3M8SN2hR410qiO8sPaAAFAmmcBt0ACgkQ10qiO8sP
-aACBVBAApLOMRjI2InxBLxoxeEIiS8VvgaoqMiliOqkWsmWjcGr2Nnbux7h9dWMl
-SubPB0vZIGU8S+REzddSPAAwpaNbtybiL+kx+zN8Z4bC9qfBxZTHnOoSNV+opU/G
-HYYx9M/FnpkFiy5KZ5aZZ4jT9V3Slk/uLPWoo06VImtcv1ri5v2x9/nu/jLAw2Wf
-Wq9S8zDbxxXRnLOT7kM/f1c2ThN0dOyx5DTV3E7amq2BbnBDJCqQsJUFX9BULt43
-dOVEKMKhChcProGj48jsdR9yQKvV9os3CcqlayRmshk+l8RPfBTLoZ1fL1ucMpn7
-9niw1vmSr/UDRs/U93qtuhlH/fb2fP8z9Qti2abtAO0rjfI2ZooILxxkArsBP+jQ
-xbQtywaLrZfcmWEqbfDTyAxU/lkAnb0CLkC6t3nvw8o57Yq9bO+w2ynzBZGr4Tlp
-l61IYKjOmzt7bHXgcRS/mJ3yskjsw13cDAWgkPmlfnx6tXoMJFzsr5OiVwNuoIy5
-6t8Vl+wAuCnK6lNtrYTgUuTfs4sb+EPpj5/3fy0owb787YXqMO1uDvJLlXalTvBx
-EUBs/bLvcfq/kJ12zdbr2J7P37cJcUT51gvHCU3bN4ZV+b4VkCyk3FCQyyT0SrGp
-ZM0ZYuavJNmoYbqXkeNX9QHaYwA2V5k4phTEdZIL+7y5H9hc4Fo=
-=8uOJ
+iQIzBAABCgAdFiEEpeA8sTs3M8SN2hR410qiO8sPaAAFAmmcBuUACgkQ10qiO8sP
+aAASeA//TlJxfvT4qBx+krCbxg/zsD6SlpygZcrmbv/ptlD8iEyItY382kxd80PR
+9j/AHEoRR9hmVxwPVLiiK944athDhY6hIkXwwmpnn+SpEFp9rq9uBMhUV8VIfAuI
+optU8ceIQL+5J6ursYQwIqD9KHHCPodIleyHJnqIn69ViWL6+97ybVzRPQ86QzWc
+ssnDWC+cH/p6YYLhsUwpDJVDhb2tHzhkCBRs82Zlc8jo2jaKddqrvU8F+ZIfZsgI
+Am/YST/1L38ocjqoFTynjY/+9F6GuZpXryqVdj4rSQN92yBdPR+0ymdLOB40Au5o
+XaTCudESyPuh+OqdnRgF/qJY4l319ukNAQBa7+xC6X6LvMBXoqu65wUDyfHVvNlM
+tlVPsbZQ8h3574ID8QyyqKmDATq6nKovG8OybczALRUAX/itfQJ8GC3ycG78KUqH
+7F4F3CUkPd3OOip+uoNnYD0NK19IlxDKTOBhGe8gHH0oeuoX9NuqSKZpUWPmlVOV
+rKyuJhIBmOvSbvLkWVAr2iOZde4Nzs3QLgczef/3Mg/hUHSBSj7TMbrbGOLQ54jZ
+uZAsxHpoJkK0TFPnLaESrNiPLlZd78sl6oKN5h694UE5Nib48sXMVPedA9iWkVX/
+wEpLn25tY4nSn70NGSYHdHOFnpCnt47mupzhEgjigWJYxmcGvvI=
+=MAB1
 -----END PGP SIGNATURE-----
 
---===============6814212408834872286==
+--===============2252051705989599423==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1081,4 +1081,4 @@ d451994ebc7d4392610bd4b2ab339b255deb4143 net/mlx5: Fix misidentification of writ
 4f13d0dabc87fb585b96d90cc4b29f67a2995405 Merge tag 'bpf-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf
 8bf22c33e7a172fbc72464f4cc484d23a6b412ba Merge tag 'net-7.0-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 
---===============6814212408834872286==--
+--===============2252051705989599423==--
