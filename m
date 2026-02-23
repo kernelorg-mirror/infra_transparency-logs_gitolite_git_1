@@ -1,30 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============4776227288069113371=="
+Content-Type: multipart/mixed; boundary="===============2722986852792516500=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/coresight/linux
-Date: Mon, 23 Feb 2026 11:47:24 -0000
-Message-Id: <177184724465.3817557.4446796493702605455@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+Date: Mon, 23 Feb 2026 11:48:21 -0000
+Message-Id: <177184730185.3817973.17986035068526532766@gitolite.kernel.org>
 
---===============4776227288069113371==
+--===============2722986852792516500==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/coresight/linux
-user: suzukikp
+repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+user: ij
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/next
-    old: eebe8dbd8630f51cf70b1f68a440cd3d7f7a914d
+  - ref: refs/heads/master
+    old: 8f0b4cce4481fb22653697cced8d0d04027cb1e8
     new: 6de23f81a5e08be8fbf5e8d7e9febc72a5b5f27f
-    log: revlist-eebe8dbd8630-6de23f81a5e0.txt
+    log: revlist-8f0b4cce4481-6de23f81a5e0.txt
 
---===============4776227288069113371==
+--===============2722986852792516500==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1771847297 +0200
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86.git
+nonce 1771847296-0d01ac291c129e5571e7bb19169640219ea891b8
+
+8f0b4cce4481fb22653697cced8d0d04027cb1e8 6de23f81a5e08be8fbf5e8d7e9febc72a5b5f27f refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iHUEABYIAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCaZw+hAAKCRBZrE9hU+XO
+MUiEAP9OOAECV1OW5oDuPN/uUDMcenV8U4RRutZLkIvOB/fYFAEA5xqlhLiV00yX
+I6Wu+hELIVeBes5XQZJwkK1AujMctww=
+=P5WK
+-----END PGP SIGNATURE-----
+
+--===============2722986852792516500==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-eebe8dbd8630-6de23f81a5e0.txt
+Content-Disposition: attachment; filename=revlist-8f0b4cce4481-6de23f81a5e0.txt
 
 9e03b7caf4e65f5a5841dfed540fdcc3ff061734 Merge tag 'kvm-x86-misc-6.20' of https://github.com/kvm-x86/linux into HEAD
 2f81bdbdb3aa3fccd9b5420df5674730c40af554 Merge tag 'i3c/for-6.20' of git://git.kernel.org/pub/scm/linux/kernel/git/i3c/linux
@@ -1051,4 +1072,4 @@ aaf96df9593bf4ab1b73c17891e4efe7570fdef3 CREDITS: Add -next to Stephen Rothwell'
 fbf33803618ad4f531f78fe15cf328fe6c7f9978 Merge tag 'fsverity-for-linus' of git://git.kernel.org/pub/scm/fs/fsverity/linux
 6de23f81a5e08be8fbf5e8d7e9febc72a5b5f27f Linux 7.0-rc1
 
---===============4776227288069113371==--
+--===============2722986852792516500==--
