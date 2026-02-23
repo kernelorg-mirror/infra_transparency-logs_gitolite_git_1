@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7540520997140935818=="
+Content-Type: multipart/mixed; boundary="===============1130581783158732359=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs
-Date: Mon, 23 Feb 2026 10:04:36 -0000
-Message-Id: <177184107631.3729455.16191723745248059894@gitolite.kernel.org>
+Date: Mon, 23 Feb 2026 10:05:37 -0000
+Message-Id: <177184113770.3732716.7431628032368138677@gitolite.kernel.org>
 
---===============7540520997140935818==
+--===============1130581783158732359==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/xiang/erofs
 user: xiang
 changes:
-  - ref: refs/heads/dev-test
+  - ref: refs/heads/dev
     old: 3ffed4445ae77110da7fc8031f0e5176484748b7
     new: 03c0d030f5874eec6ce22750b2b8751d6d4303b5
     log: revlist-3ffed4445ae7-03c0d030f587.txt
 
---===============7540520997140935818==
+--===============1130581783158732359==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -1051,4 +1051,4 @@ fbf33803618ad4f531f78fe15cf328fe6c7f9978 Merge tag 'fsverity-for-linus' of git:/
 6de23f81a5e08be8fbf5e8d7e9febc72a5b5f27f Linux 7.0-rc1
 03c0d030f5874eec6ce22750b2b8751d6d4303b5 erofs: allow sharing page cache with the same aops only
 
---===============7540520997140935818==--
+--===============1130581783158732359==--
