@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/network/ethtool/ethtool
-Date: Mon, 23 Feb 2026 00:06:20 -0000
-Message-Id: <177180518095.3147511.13459400091686127603@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bmc/linux
+Date: Mon, 23 Feb 2026 01:38:14 -0000
+Message-Id: <177181069427.3222016.1031026604386109739@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/network/ethtool/ethtool
-user: mkubecek
+repo: pub/scm/linux/kernel/git/bmc/linux
+user: arj
 changes:
-  - ref: refs/heads/next
-    old: de3d3c94132c71673a553cfb86fce19970c52cc2
-    new: 9e862c0034afad5e104982a4f5ba4d4879eb9612
+  - ref: refs/heads/aspeed/arm/dt
+    old: c5902c06742c7fd241508c3573fb0cff0c97f33a
+    new: 76b4ec8efdc3887cdbf730da2e55881fc1a18770
     log: |
-         9e862c0034afad5e104982a4f5ba4d4879eb9612 man: ethtool: Fix small typos in manpage
+         76b4ec8efdc3887cdbf730da2e55881fc1a18770 ARM: dts: aspeed: anacapa: Add retimer EEPROMs
          
