@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2872382807014597833=="
+Content-Type: multipart/mixed; boundary="===============4149363404099761925=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Mon, 23 Feb 2026 10:19:52 -0000
-Message-Id: <177184199269.3742606.17741151651135740345@gitolite.kernel.org>
+Date: Mon, 23 Feb 2026 10:20:13 -0000
+Message-Id: <177184201365.3745213.14645682171054388421@gitolite.kernel.org>
 
---===============2872382807014597833==
+--===============4149363404099761925==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,18 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tip/tip
 user: peterz
 changes:
-  - ref: refs/heads/x86/urgent
-    old: 24d479d26b25bce5faea3ddd9fa8f3a6c3129ea7
-    new: 237dc6a054f6787c2a8f61c59086030267e5e1c5
-    log: revlist-24d479d26b25-237dc6a054f6.txt
+  - ref: refs/heads/locking/core
+    old: 7a562d5d2396c9c78fbbced7ae81bcfcfa0fde3f
+    new: 50214dc4382055352fb1d7b9779550dabf5059e5
+    log: revlist-7a562d5d2396-50214dc43820.txt
 
---===============2872382807014597833==
+--===============4149363404099761925==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-24d479d26b25-237dc6a054f6.txt
+Content-Disposition: attachment; filename=revlist-7a562d5d2396-50214dc43820.txt
 
+698749164aa53cc313248efd2dc1c25dcf25c99c Merge tag 'audit-pr-20260203' of git://git.kernel.org/pub/scm/linux/kernel/git/pcmoore/audit
 bcc8fd3e1573c502edc0cb61abea0e113a761799 Merge tag 'lsm-pr-20260203' of git://git.kernel.org/pub/scm/linux/kernel/git/pcmoore/lsm
 1d3ffe6233b1b6e8697f5027b9441ce70385c997 perf tests workload: Formatting for code_with_type.rs
 6252e917b9006dfa2f3d884fe0dbaf3e676c4108 Merge tag 'selinux-pr-20260203' of git://git.kernel.org/pub/scm/linux/kernel/git/pcmoore/selinux
@@ -1046,9 +1047,8 @@ aaf96df9593bf4ab1b73c17891e4efe7570fdef3 CREDITS: Add -next to Stephen Rothwell'
 75e1f66a9ed09f29c6883ea379c174e8cf31f7cc Merge tag 'libcrypto-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/ebiggers/linux
 fbf33803618ad4f531f78fe15cf328fe6c7f9978 Merge tag 'fsverity-for-linus' of git://git.kernel.org/pub/scm/fs/fsverity/linux
 6de23f81a5e08be8fbf5e8d7e9febc72a5b5f27f Linux 7.0-rc1
-aa280a08e7d8fae58557acc345b36b3dc329d595 x86/fred: Correct speculative safety in fred_extint()
-a0cb371b521dde44f32cfe954b6ef6f82b407393 x86/bug: Handle __WARN_printf() trap in early_fixup_exception()
-24c8147abb39618d74fcc36e325765e8fe7bdd7a x86/cfi: Fix CFI rewrite for odd alignments
-237dc6a054f6787c2a8f61c59086030267e5e1c5 x86/headers: Replace __ASSEMBLY__ stragglers with __ASSEMBLER__
+8b65eb52d93e4e496bd26e6867152344554eb39e locking/mutex: Rename mutex_init_lockep()
+babcde3be8c9148aa60a14b17831e8f249854963 locking/mutex: Fix wrong comment for CONFIG_DEBUG_LOCK_ALLOC
+50214dc4382055352fb1d7b9779550dabf5059e5 locking/mutex: Add killable flavor to guard definitions
 
---===============2872382807014597833==--
+--===============4149363404099761925==--
