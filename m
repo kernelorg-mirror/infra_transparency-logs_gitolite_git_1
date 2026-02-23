@@ -1,39 +1,40 @@
-Content-Type: multipart/mixed; boundary="===============7292772261887136298=="
+Content-Type: multipart/mixed; boundary="===============3990202242983366085=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Mon, 23 Feb 2026 10:20:47 -0000
-Message-Id: <177184204721.3745588.5836539596457780952@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/geert/renesas-devel
+Date: Mon, 23 Feb 2026 10:23:27 -0000
+Message-Id: <177184220779.3746754.8290874589514994676@gitolite.kernel.org>
 
---===============7292772261887136298==
+--===============3990202242983366085==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: peterz
+repo: pub/scm/linux/kernel/git/geert/renesas-devel
+user: geert
 changes:
-  - ref: refs/heads/sched/urgent
-    old: 4463c7aa11a6e67169ae48c6804968960c4bffea
-    new: 3b68df978133ac3d46d570af065a73debbb68248
-    log: revlist-4463c7aa11a6-3b68df978133.txt
+  - ref: refs/heads/master
+    old: e088fdb8a3706d87e6b78e5a0e41da77f01f9ce9
+    new: 494f5fa720fdc6962e0746e2085338f86a509d2d
+    log: revlist-e088fdb8a370-494f5fa720fd.txt
+  - ref: refs/tags/renesas-devel-2026-02-23-v7.0-rc1
+    old: 0000000000000000000000000000000000000000
+    new: 49b6ba88c58d1bc5ec2aaff9993c509feb0846db
+  - ref: refs/tags/renesas-next-2026-02-23-v7.0-rc1
+    old: 0000000000000000000000000000000000000000
+    new: d437490c62b3dd6ccc061c19b77370310d3e42de
+  - ref: refs/tags/v7.0-rc1
+    old: 0000000000000000000000000000000000000000
+    new: 559f264e403e4d58d56a17595c60a1de011c5e20
 
---===============7292772261887136298==
+--===============3990202242983366085==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-4463c7aa11a6-3b68df978133.txt
+Content-Disposition: attachment; filename=revlist-e088fdb8a370-494f5fa720fd.txt
 
-fdc0396b3cc05dc9b678627af23c3fdc7dbe930e nfs: unify security_inode_listsecurity() calls
-3d57c44e918012db1f901d50bc9195a8812ad602 NFSv4: pass lease period in seconds to nfs4_set_lease_period()
-e29a3e61eef6b6c2e60bc1872e9da3bcdbc46c17 NFSv4: limit lease period in nfs4_set_lease_period()
-4b6c6bc6fab51684cc129f91211734f87db6b065 Merge tag 'vfs-7.0-rc1.rust' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
-2a400eeba40b4cf1fb28f78f41bf73a898b00d06 perf test code_with_type.sh: Skip test if rust wasn't available at build time
-bdc5071d7f7bb82589737741e9bf19820ceb7a6a coccinelle: Add kmalloc_objs conversion script
-3d012b8614ee020666f3dd15af9f65dc487e3f5f perf test: Fix test case perftool-testsuite_report for s390
-996812c453cafa042f2e674738dbf8fa495661f3 Merge tag 'vfs-7.0-rc1.initrd' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
 728bea264883031c377fcc9c465b650dbfd1bbf5 sunrpc: rpc_debug and others are defined even if CONFIG_SUNRPC_DEBUG unset
 afb24505ff6583eb5150b4a54086188494d25c28 SUNRPC: Change list definition method
 1075e8e826b27aac92925c44d6d3c794e4d2ce0b nfs: nfs4proc: Convert comma to semicolon
@@ -1042,13 +1043,21 @@ aaf96df9593bf4ab1b73c17891e4efe7570fdef3 CREDITS: Add -next to Stephen Rothwell'
 75e1f66a9ed09f29c6883ea379c174e8cf31f7cc Merge tag 'libcrypto-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/ebiggers/linux
 fbf33803618ad4f531f78fe15cf328fe6c7f9978 Merge tag 'fsverity-for-linus' of git://git.kernel.org/pub/scm/fs/fsverity/linux
 6de23f81a5e08be8fbf5e8d7e9febc72a5b5f27f Linux 7.0-rc1
-b3d99f43c72b56cf7a104a364e7fb34b0702828b sched/fair: Fix zero_vruntime tracking
-bcd74b2ffdd0a2233adbf26b65c62fc69a809c8e sched/fair: Only set slice protection at pick time
-ff38424030f98976150e42ca35f4b00e6ab8fa23 sched/eevdf: Update se->vprot in reweight_entity()
-6e3c0a4e1ad1e0455b7880fad02b3ee179f56c09 sched/fair: Fix lag clamp
-4c652a47722f69c6f2685f05b17490ea97f643a8 rseq: Mark rseq_arm_slice_extension_timer() __always_inline
-5324953c06bd929c135d9e04be391ee2c11b5a19 sched/core: Fix wakeup_preempt's next_class tracking
-26d43a90be81fc90e26688a51d3ec83188602731 rseq: Clarify rseq registration rseq_size bound check comment
-3b68df978133ac3d46d570af065a73debbb68248 rseq: slice ext: Ensure rseq feature size differs from original rseq size
+c3bf7db8ba15af5a7540c31c34af138eff207a59 arm64: dts: renesas: sparrow-hawk: Mark OTP and HSCIF0 pins as bootph-all
+4625f8364c597ad726b1d6cad0a77822cfa2c836 arm64: dts: renesas: r8a77951: Describe PCIe root ports
+dd1df3988df202262a51bb2af14f68e2dad1219b arm64: dts: renesas: r8a77960: Describe PCIe root ports
+51fda16228ffd72e751bbbac72ea4b084d4eb6e9 arm64: dts: renesas: r8a77961: Describe PCIe root ports
+2952d18f12cec4fb5fcc9dc32adf82172308bcc0 arm64: dts: renesas: r8a77965: Describe PCIe root ports
+5c13a9532e260d2bd96c878500a06b7faa9b57d6 arm64: dts: renesas: r8a77990: Describe PCIe root port
+5df93633d82275385b00b5093024e461eafcd3f6 arm64: dts: renesas: r8a77990: Add USB 3.0 PHY and USB3S0 clock nodes
+94127efd3417ca1ebadfb391fb744f7f4cd247f3 arm64: dts: renesas: r9a09g056: Add RTC node
+ad7906d4070fb9363f8c9a94f342f83b6b6bae62 arm64: dts: renesas: r9a09g056n48-rzv2n-evk: Enable RTC
+a771ed1c162f39af7bfea8d2a393cd7dda3aeeae arm64: dts: renesas: salvator-common: Describe PCIe/USB3.0 clock generator
+a13c1100b9025f174e6509ffaf431470f3c70b70 arm64: dts: renesas: ulcb: ulcb-kf: Describe PCIe/USB3.0 clock generator
+6c0494275767623712bd222a6fac57d77c447396 arm64: dts: renesas: ebisu: Describe PCIe/USB3.0 clock generator
+22ba25fce3b44548d700a9ed49420f926c184421 Merge branch 'renesas-dts-for-v7.1' into renesas-next
+c930f516e25eb4215484b8361382f7dd320884b3 Merge tag 'v7.0-rc1' into renesas-devel
+6c3ec78f018305e5a86e1416c2f3bd87f5384c6a Merge branch 'renesas-next' into renesas-devel
+494f5fa720fdc6962e0746e2085338f86a509d2d Merge branch 'topic/renesas-defconfig' into renesas-devel
 
---===============7292772261887136298==--
+--===============3990202242983366085==--
