@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3816764863135854146=="
+Content-Type: multipart/mixed; boundary="===============6398195102838321850=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Mon, 23 Feb 2026 19:23:23 -0000
-Message-Id: <177187460301.21828.592924555277482295@gitolite.kernel.org>
+Date: Mon, 23 Feb 2026 19:25:51 -0000
+Message-Id: <177187475100.25325.7181652910092143307@gitolite.kernel.org>
 
---===============3816764863135854146==
+--===============6398195102838321850==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,42 +17,40 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/usb-linus
-    old: 93cd0d664661f58f7e7bed7373714ab2ace41734
-    new: 0d6c8144ca4d93253de952a5ea0028c19ed7ab68
+    old: 0d6c8144ca4d93253de952a5ea0028c19ed7ab68
+    new: 7a875c09899ba0404844abfd8f0d54cdc481c151
     log: |
-         b9fde507355342a2d64225d582dc8b98ff5ecb19 usb: gadget: f_tcm: Fix NULL pointer dereferences in nexus handling
-         fde0634ad9856b3943a2d1a8cc8de174a63ac840 usb: legacy: ncm: Fix NPE in gncm_bind
-         0d6c8144ca4d93253de952a5ea0028c19ed7ab68 usb: gadget: f_ncm: Fix atomic context locking issue
+         7a875c09899ba0404844abfd8f0d54cdc481c151 usb: yurex: fix race in probe
          
 
---===============3816764863135854146==
+--===============6398195102838321850==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1771874599 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1771874748 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1771874596-45e18c17dc4083e353bf435899795d63cdcc09c1
+nonce 1771874746-dd80fece621c9fb1531bc9619e471d44456d5faf
 
-93cd0d664661f58f7e7bed7373714ab2ace41734 0d6c8144ca4d93253de952a5ea0028c19ed7ab68 refs/heads/usb-linus
+0d6c8144ca4d93253de952a5ea0028c19ed7ab68 7a875c09899ba0404844abfd8f0d54cdc481c151 refs/heads/usb-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmmcqScbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+pQsQAM0lTXX5j4WlFZPECoFK
-a1QNLMD9mqZ7XjwQv+5ALRfr49CT5v8/RcCcZR8l7Em/OUOs7JysEFciK2ptiS+/
-ogPdRC4I6hUvOQC6vuPzAo/t72zuVxKZO92jQT5hXS0UKNwSNJZZlv59iZQ695AI
-f1JMT6oG/PzRTTWgqnHFW2ZvVG3FbkUtJXWdMw6jFu3okG8Ij09SUp5aeJmzImAq
-Gj3q+QJ/WW4f/k7jeckYoHwmd5D/halOBel7DsB02ScUKhq0rs2Akxy+H1IgVEUF
-/3foWx4QJM/ItAytoVjDBgnVJEZKrPzGp9AXqlcE19vCl3ZQtoA2MBue2KrVztpa
-u77DaJM17dwNF64XKbpxC5MYFX8eC9kBQmqrxB6/dg/PecE4/sHPpzUNIe1NPQOf
-tN+oG1GNYgGoXo92qiVSUTxEkJPjPQexrbZltKwkM4MbV1tPyvyQlLR0iJSlq4qy
-mo4Ao8AIzTygIn8KLJmMYBbGwfFmdXhCKtIJUXlaq9LQJsmprb6Ol839kqB/OgmY
-U20cUB2Qtf9SrrZdL+4G+bGsup27VcIscqZlPMwDcch77CFtOgMt2WcNtobfQYbl
-YKe4fuMeRbmT/tude2VZIlV5peUfXjwJwwFQC1TMLtc3j8wsxA8N+u2XOcOcGkca
-KArQa7kd0CwIFWv6EclUKuTe
-=n81A
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmmcqbwbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+oW8QAKOCaolryflbPqwSeCYl
+psWLNbfYDmL6DIknlFlPWHOyVguUwwKUyiNphE3Mo1ZAhvbqIGyJF/FZP7OWE4z5
+z8/wGi6FzfrIF/xmV0vqkfhjIg88g/s5B9OmvANucHDtm7m22d2czw/4eBgNPrjR
+s+2rQRJo/jYiAvprtwcSnSpwjQRs9nX8CZyrabZSB++304Vq8pZBb0SsJA6RzwGG
+iwRmbWSwSivI8C8XJgBVaYpzRfGYUFeHfvm8dmfj/IV8SY6ahMiECLB8zh82HcZe
+6StLyZFXMtvb/5/fuu7rywsM2xI2oFBkyTD3z9sDI09HoAnoVM7IJX9CpzvvoeYJ
+I3nBJIwlnmhPR0XQT5l7OWQm46dZyf2MwzOE8bxZsDNxLc/V8Wkpr0RFes7mQ5q7
+kMZUhQpYPLjWFIa1AgDVf8S6FdEjD8SPyjzWUyqG5JGtxjK2iEysAcI6SrtGBC36
+R7YRMOMzv6sIW+rZuMSBm/NQYWlVllHN3NJTulOIcPPey+Lyggboo9TXMmavu/2w
+s/bMY3+DcEWU0u4aHQGw+AVYko7PIVp9tYNA+SrcHyX3utxaNEElGVBTOTJOk810
+q2sshCqMket/tJkb4vNqqsL/1PuNzxxqGpLkWlSVa0agosFwRGqFFWkG6mg61Q/X
+Eu7Ceotj8i/OxeXCK4EC0mE/
+=3gSC
 -----END PGP SIGNATURE-----
 
---===============3816764863135854146==--
+--===============6398195102838321850==--
