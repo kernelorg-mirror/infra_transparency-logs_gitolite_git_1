@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2131464450949518594=="
+Content-Type: multipart/mixed; boundary="===============0451861744260282028=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Mon, 23 Feb 2026 07:03:01 -0000
-Message-Id: <177183018127.3566315.15182205392934948422@gitolite.kernel.org>
+Date: Mon, 23 Feb 2026 07:03:04 -0000
+Message-Id: <177183018453.3566576.10911811411507258869@gitolite.kernel.org>
 
---===============2131464450949518594==
+--===============0451861744260282028==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,42 @@ repo: pub/scm/linux/kernel/git/gregkh/char-misc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/char-misc-linus
+  - ref: refs/heads/char-misc-next
     old: 32a92f8c89326985e05dce8b22d3f0aa07a3e1bd
     new: 6de23f81a5e08be8fbf5e8d7e9febc72a5b5f27f
     log: revlist-32a92f8c8932-6de23f81a5e0.txt
 
---===============2131464450949518594==
+--===============0451861744260282028==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1771830179 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1771830183 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1771830179-c0fa137eabc8b789e50046047dc04587b38e92f7
+nonce 1771830183-a8fb5cd0f8e7f2d17dd1856e270a119663befa01
 
-32a92f8c89326985e05dce8b22d3f0aa07a3e1bd 6de23f81a5e08be8fbf5e8d7e9febc72a5b5f27f refs/heads/char-misc-linus
+32a92f8c89326985e05dce8b22d3f0aa07a3e1bd 6de23f81a5e08be8fbf5e8d7e9febc72a5b5f27f refs/heads/char-misc-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmmb+6MbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+/boP/jWEpVXUhOq1hWYS0s6k
-yqcxxsBxwjV76WoCKvQ2nyr8wZrn/BulkSODbaj5b79FAxzL4sv6OVeMjeOSps8e
-1wTJdJKoNHqE1lzkzOmHfuA93DfIxN2NMTLM3WJuoMSKu24ba+p2JQi6rjr4PXrk
-70Wlqavi5ydZCqEYqeRC1fsCgJaq9Uqjat2O1tSHZ/W8lZkhuRfGv77bnX/ovbJ9
-JBvSQrZqQoPPdKTu73EsEvVWF5hU4OflMkkRxSxemDinEoBw/3BXTY7+yHPzy5D7
-YTnsrSRb1UKqRMzxnI4Kr5zLGotkbkXrOhhpimr3IbYDnC0RjulcjfhTGIE5nraC
-D8mNFmh29VSSiRS19ouOW0PjvyypPEt7f2wAD2z7QCwVyXR8NapCP0SIOKkDwcZ7
-4NYWueeQX2lchoBE0lMF6b2wzeE76EblVM1DtQ2CcqX0iJXTQzi3bxp4pS7u+yp4
-k+5X51V2CyD5uDOa04SRJCw6odphZ5dGazQtcDvuADyEeI/IhgUbeO152MT/lB71
-PDyuJOxpY8hJ+OPTKZ8ybXX0JAdNhhW6ezT/F1hicNZJixP717NmUu2EYNcyusZW
-uXYMRj4RW5NHNhVSOSE6jqMlIec6hYjNnoCepLEj9qrtuMwrupH2+UXy0hQBX8S7
-ei4n20eLYvEsMjTCSKLaPVXW
-=QHIr
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmmb+6cbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+gPcQAMb7SY92voNZwbgsofYC
+O50RsGKQXj1yg6s8zPYWaeBsg5Ne9mXqNgeT9F1RWz4sd/CjllEt8SGPq34lDnYq
+KmSTQV4qgCEOaoWs7Izt5Lxns7WCG+mVG88ceXUs43lqWLiHAiRqPitrZUIhI0bP
++Tcrf0mg8syQjN3TLf46jx1WNXNUqIgxEZqEB1+oKqiMMmKGd29QcUViYNVJOjsr
+iyvBThDQuvs+ZHzUPhMXyLJ3lIWvPM9vjPc0m8zXyN82nMB+GuO9WCs5zfKPObqB
+vL5I0UBaHzTcW/pZdD51QP60Wr1Xd2//TLxsr99IyfP+Nek6YX9Yq56YAy9YOUmo
+lvdpu/qluaVfZJtXbF3OIKSKoN3ZHiKOmB17inpUo88OsQDCQE1CtEYSVaS1DjKp
+Y4gPdHWau5r6gOd3yyQaNTZG7IoQm6+qBZaDqvGP5HEZwqSbQgKzVcoBlIuYeBHl
+lFZQBmWKeTfFq5SXuxuaCIusqhi8FdkNX1pzWoQZx3r80VOW0tQwNN9pxP0/NZ/e
++tXlwcJw3uRGuMFUaJXWtYBnCY61KHP3WSBuE5rH49BweljMILwLxP5MLdLcnbI1
+5e1X7yxXyDlGaWk9uZdhUXkQ/Yl861wbu/PFiB18mn1o2Uo7B+G078wmIcsBOZfj
+L0+zuxUvafqv0Dg81j4W2yjR
+=HndX
 -----END PGP SIGNATURE-----
 
---===============2131464450949518594==
+--===============0451861744260282028==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -98,4 +98,4 @@ aaf96df9593bf4ab1b73c17891e4efe7570fdef3 CREDITS: Add -next to Stephen Rothwell'
 fbf33803618ad4f531f78fe15cf328fe6c7f9978 Merge tag 'fsverity-for-linus' of git://git.kernel.org/pub/scm/fs/fsverity/linux
 6de23f81a5e08be8fbf5e8d7e9febc72a5b5f27f Linux 7.0-rc1
 
---===============2131464450949518594==--
+--===============0451861744260282028==--
