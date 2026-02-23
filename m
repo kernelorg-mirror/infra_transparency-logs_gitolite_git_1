@@ -1,51 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============3717175444872990825=="
+Content-Type: multipart/mixed; boundary="===============9148232833038375329=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Mon, 23 Feb 2026 18:39:20 -0000
-Message-Id: <177187196061.4175782.3671632329942436719@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Mon, 23 Feb 2026 18:39:24 -0000
+Message-Id: <177187196406.4175899.6797085414384461756@gitolite.kernel.org>
 
---===============3717175444872990825==
+--===============9148232833038375329==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-7.1
+  - ref: refs/heads/asoc-7.1
     old: 6de23f81a5e08be8fbf5e8d7e9febc72a5b5f27f
     new: 910a78d816e4b0277f4917d607a1213e0dd6cdd6
     log: revlist-6de23f81a5e0-910a78d816e4.txt
 
---===============3717175444872990825==
+--===============9148232833038375329==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1771871958 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1771871958-746c9cbec51e01872a2049b7a0ea9180f74f1c94
+pusher C3F436CA30F5D8EB 1771871962 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1771871961-aa36dcc827f305ccb647ecb9238c56a38aeb30be
 
-6de23f81a5e08be8fbf5e8d7e9febc72a5b5f27f 910a78d816e4b0277f4917d607a1213e0dd6cdd6 refs/heads/for-7.1
+6de23f81a5e08be8fbf5e8d7e9febc72a5b5f27f 910a78d816e4b0277f4917d607a1213e0dd6cdd6 refs/heads/asoc-7.1
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmmcntYACgkQJNaLcl1U
-h9B1awf+KG71ZH6VNY7MaIv7uw86q6ksLxVU9d4NVvw/APSneAiMO2e4vdqgPYaQ
-M1taXMzbmjqwrRqMZ1uxvSk+zN7g8S8rZ9J8BoVhzT4MmhGqcskr+U5EnpczznhR
-4fnR2sXKpeoAG8gf1Eoi/et1bj4l+6BGw0rg4OqVowHb9y9NJceLweRSrwXu9mvh
-/n/Ci6gCWVFZuPFO9O2nsP0KF5Z1J8VYoErXA7vDSlTezkDnmo35qAjHRMKff+fd
-MwSiGz9Wf6EVuQR111Cw9TIAWpr+nC9+H0KxdE/xosQ+qHzhY23Pz7DNL3/sl2fb
-YAV8jPK63y5qJLhMUwg1o6CqFmfo/A==
-=a1YC
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmmcntoACgkQJNaLcl1U
+h9AIsQf/bDAb2M26XEbcNYSmO+DZ7zZBPLG+I1V3uGcnEruZDRLSoyQJCCuPZPa1
+aDVLXg/n2ajYFvXSNYpKnPnv+XMOujN7IKXiTxuUBseZWp7wx0MRHT+mMi4bSRDt
+818joUTRINSCMSAMN0h19rkmFpriMOqRBG4Rv5fYi/wYx96mjh+1T+sGj5De2lOh
+E4RmAivv1ShQzN119Myf/aQz2XyPIIpm4G1wqUJBV0dTe6ND8tE2sDzpEGGtqY9z
+aeeYbTCCfmVrdPZAbogQMO579sOUwKtCeutVQtyvw73/RV6Fgp9DPvd/Eq+5t2+u
+sheOTRR1qADLvE4XOXa3dh4MSMdOcg==
+=ijFc
 -----END PGP SIGNATURE-----
 
---===============3717175444872990825==
+--===============9148232833038375329==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -68,4 +68,4 @@ d075cef4af6327a5de4bee7bf77591e3201e54f4 ASoC: simple-card-utils: add sysclk ord
 85b47b36303e9fc5fe8077ac495a2c79643bdec3 Bitmask logic fix and firmware-name support for
 910a78d816e4b0277f4917d607a1213e0dd6cdd6  ASoC rt5677: Prepare to support Lenovo Yoga Book tablets
 
---===============3717175444872990825==--
+--===============9148232833038375329==--
