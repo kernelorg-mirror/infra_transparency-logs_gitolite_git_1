@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0451861744260282028=="
+Content-Type: multipart/mixed; boundary="===============6210072972822257056=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Mon, 23 Feb 2026 07:03:04 -0000
-Message-Id: <177183018453.3566576.10911811411507258869@gitolite.kernel.org>
+Date: Mon, 23 Feb 2026 07:03:08 -0000
+Message-Id: <177183018812.3566789.10498342988260200188@gitolite.kernel.org>
 
---===============0451861744260282028==
+--===============6210072972822257056==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,42 @@ repo: pub/scm/linux/kernel/git/gregkh/char-misc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/char-misc-next
+  - ref: refs/heads/char-misc-testing
     old: 32a92f8c89326985e05dce8b22d3f0aa07a3e1bd
     new: 6de23f81a5e08be8fbf5e8d7e9febc72a5b5f27f
     log: revlist-32a92f8c8932-6de23f81a5e0.txt
 
---===============0451861744260282028==
+--===============6210072972822257056==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1771830183 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1771830186 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1771830183-a8fb5cd0f8e7f2d17dd1856e270a119663befa01
+nonce 1771830186-0daf124c45be7ccaed919527b1395fa504673e0a
 
-32a92f8c89326985e05dce8b22d3f0aa07a3e1bd 6de23f81a5e08be8fbf5e8d7e9febc72a5b5f27f refs/heads/char-misc-next
+32a92f8c89326985e05dce8b22d3f0aa07a3e1bd 6de23f81a5e08be8fbf5e8d7e9febc72a5b5f27f refs/heads/char-misc-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmmb+6cbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+gPcQAMb7SY92voNZwbgsofYC
-O50RsGKQXj1yg6s8zPYWaeBsg5Ne9mXqNgeT9F1RWz4sd/CjllEt8SGPq34lDnYq
-KmSTQV4qgCEOaoWs7Izt5Lxns7WCG+mVG88ceXUs43lqWLiHAiRqPitrZUIhI0bP
-+Tcrf0mg8syQjN3TLf46jx1WNXNUqIgxEZqEB1+oKqiMMmKGd29QcUViYNVJOjsr
-iyvBThDQuvs+ZHzUPhMXyLJ3lIWvPM9vjPc0m8zXyN82nMB+GuO9WCs5zfKPObqB
-vL5I0UBaHzTcW/pZdD51QP60Wr1Xd2//TLxsr99IyfP+Nek6YX9Yq56YAy9YOUmo
-lvdpu/qluaVfZJtXbF3OIKSKoN3ZHiKOmB17inpUo88OsQDCQE1CtEYSVaS1DjKp
-Y4gPdHWau5r6gOd3yyQaNTZG7IoQm6+qBZaDqvGP5HEZwqSbQgKzVcoBlIuYeBHl
-lFZQBmWKeTfFq5SXuxuaCIusqhi8FdkNX1pzWoQZx3r80VOW0tQwNN9pxP0/NZ/e
-+tXlwcJw3uRGuMFUaJXWtYBnCY61KHP3WSBuE5rH49BweljMILwLxP5MLdLcnbI1
-5e1X7yxXyDlGaWk9uZdhUXkQ/Yl861wbu/PFiB18mn1o2Uo7B+G078wmIcsBOZfj
-L0+zuxUvafqv0Dg81j4W2yjR
-=HndX
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmmb+6obHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+InYP/RAD0JzXuBmBwwUu7I6l
+p1xQaelkEf7iugCvr9eMkoxroBoK3znf6PKzQ9hj4jUUoR3yKlqKw3GaRRpvIRt4
+8ridtbwQrLgozrbBARdJxJbM+eyF3SBNuIiEocP4CqNm0xzGisR8NoF/CV+7fLOZ
+PX/9CW0Sj9ixG0A7AccvTn0SNd+sLVlgDSdTvvTBremwGj84r7W4Hg0gV9w5P7F6
+jwlKqxBfLhqmA4Cytj7TpIUP1q6FwZTf/DxNMeWPrQLhSGamdTaJo2KVIqJtBa3M
+iqidsCDG4XaPBZmzHVweOB0F1nUpqLS5AKtSLBBPMRU13tTJdkg9cAKowcr/R/s7
+YQCjkjKQ8h0y/uDa4bicO5EMQ4THn+F+Mi7WRiTz4uGF3bf6TRpqa1HCmWXS83tg
+Qh1Bqf9gnsxcKhlaIgdCC76RBwnvWmerT9LAq2yftx0q80kbhtzaC1STNpgLSif9
+Qy0pewxATOq+HYLSe0yXsTixp7dy3X2/59X6UJDDPWS59aTeAS1yZsFAmv6AaVVT
+14IOlJ6nTHYEbzp+EPmZtj++TcYSozZtfwpP1sKVvSP3o+QHshhov8xA8xn8B6LV
+9o+mHadK+AHps5akoYnAgSNPDc/7ZvnQVh7W0INGK1084R6wv1KIvnTLnR4VwhPx
+qVmGGTKLKKe/JWxe7KJ8gjZk
+=GRhK
 -----END PGP SIGNATURE-----
 
---===============0451861744260282028==
+--===============6210072972822257056==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -98,4 +98,4 @@ aaf96df9593bf4ab1b73c17891e4efe7570fdef3 CREDITS: Add -next to Stephen Rothwell'
 fbf33803618ad4f531f78fe15cf328fe6c7f9978 Merge tag 'fsverity-for-linus' of git://git.kernel.org/pub/scm/fs/fsverity/linux
 6de23f81a5e08be8fbf5e8d7e9febc72a5b5f27f Linux 7.0-rc1
 
---===============0451861744260282028==--
+--===============6210072972822257056==--
