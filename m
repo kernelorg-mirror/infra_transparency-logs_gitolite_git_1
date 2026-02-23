@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8020525530049999393=="
+Content-Type: multipart/mixed; boundary="===============2575343198441522299=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mips/linux
-Date: Mon, 23 Feb 2026 15:15:48 -0000
-Message-Id: <177185974887.3995115.5391121405605890230@gitolite.kernel.org>
+Date: Mon, 23 Feb 2026 15:16:12 -0000
+Message-Id: <177185977228.3995483.17743579602790361248@gitolite.kernel.org>
 
---===============8020525530049999393==
+--===============2575343198441522299==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,19 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/mips/linux
 user: tsbogend
 changes:
-  - ref: refs/heads/mips-next
-    old: 720452a6d0fdc94ec3301f31ea10b43102eaeeef
+  - ref: refs/heads/master
+    old: 63804fed149a6750ffd28610c5c1c98cce6bd377
     new: 6de23f81a5e08be8fbf5e8d7e9febc72a5b5f27f
-    log: revlist-720452a6d0fd-6de23f81a5e0.txt
+    log: revlist-63804fed149a-6de23f81a5e0.txt
 
---===============8020525530049999393==
+--===============2575343198441522299==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-720452a6d0fd-6de23f81a5e0.txt
+Content-Disposition: attachment; filename=revlist-63804fed149a-6de23f81a5e0.txt
 
-687603fb2bf1205d6f7028e30848434e3b126a7a Merge tag 'kvm-x86-vmx-6.20' of https://github.com/kvm-x86/linux into HEAD
-4215ee0d7bb5358882375c84d3cd0488bb5813b2 Merge tag 'kvm-x86-svm-6.20' of https://github.com/kvm-x86/linux into HEAD
 9e03b7caf4e65f5a5841dfed540fdcc3ff061734 Merge tag 'kvm-x86-misc-6.20' of https://github.com/kvm-x86/linux into HEAD
 2f81bdbdb3aa3fccd9b5420df5674730c40af554 Merge tag 'i3c/for-6.20' of git://git.kernel.org/pub/scm/linux/kernel/git/i3c/linux
 37b4fbf8dbdfb694f2972d1bd7fcd36304a520dd Merge tag 'tpmdd-next-7.0-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/jarkko/linux-tpmdd
@@ -225,6 +223,8 @@ ce8fe3fc4f99efd872120301c0f72f2e90ab9769 octeon_ep: ensure dbell BADDR updation
 9adbe8935152c511c1e43a47d69f44f0e969afc8 selftests/landlock: Add filesystem access benchmark
 45f2a2926b2187d1b08132d2728af50785b007a7 landlock: Add access_mask_subset() helper
 65b691f84dba54a446518c51b25d3d4f1739dec5 landlock: Transpose the layer masks data structure
+df136764e86e4d271133359e2ecd2b6717cc5040 Revert "clk: microchip: fix typo in reference to a config option"
+720452a6d0fdc94ec3301f31ea10b43102eaeeef Revert "clk: microchip: core: allow driver to be compiled with COMPILE_TEST"
 35149653ee29d925ea0c2b5ca0eacf0af32be34f smb client: Add generated file to gitignore file
 13d83ea9d81ddcb08b46377dcc9de6e5df1248d1 Merge tag 'libcrypto-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/ebiggers/linux
 08df88fa142f3ba298bf0f7840fa9187e2fb5956 Merge tag 'v7.0-p1' of git://git.kernel.org/pub/scm/linux/kernel/git/herbert/crypto-2.6
@@ -1051,4 +1051,4 @@ aaf96df9593bf4ab1b73c17891e4efe7570fdef3 CREDITS: Add -next to Stephen Rothwell'
 fbf33803618ad4f531f78fe15cf328fe6c7f9978 Merge tag 'fsverity-for-linus' of git://git.kernel.org/pub/scm/fs/fsverity/linux
 6de23f81a5e08be8fbf5e8d7e9febc72a5b5f27f Linux 7.0-rc1
 
---===============8020525530049999393==--
+--===============2575343198441522299==--
