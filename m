@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============5398876683632392116=="
+Content-Type: multipart/mixed; boundary="===============6368214144450770162=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pinctrl/intel
-Date: Mon, 23 Feb 2026 09:19:25 -0000
-Message-Id: <177183836531.3690595.5211145761924276769@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/andy/linux-auxdisplay
+Date: Mon, 23 Feb 2026 09:19:44 -0000
+Message-Id: <177183838414.3690872.13282611090383446807@gitolite.kernel.org>
 
---===============5398876683632392116==
+--===============6368214144450770162==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pinctrl/intel
+repo: pub/scm/linux/kernel/git/andy/linux-auxdisplay
 user: andy
 changes:
   - ref: refs/heads/review-andy
-    old: 8e03e6ecc23537531ddae6488c9dd67546486a7b
+    old: 693142d4d761dd188ead136a7bca1e870a6af8cd
     new: 6de23f81a5e08be8fbf5e8d7e9febc72a5b5f27f
-    log: revlist-8e03e6ecc235-6de23f81a5e0.txt
+    log: revlist-693142d4d761-6de23f81a5e0.txt
 
---===============5398876683632392116==
+--===============6368214144450770162==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-8e03e6ecc235-6de23f81a5e0.txt
+Content-Disposition: attachment; filename=revlist-693142d4d761-6de23f81a5e0.txt
 
 9e03b7caf4e65f5a5841dfed540fdcc3ff061734 Merge tag 'kvm-x86-misc-6.20' of https://github.com/kvm-x86/linux into HEAD
 2f81bdbdb3aa3fccd9b5420df5674730c40af554 Merge tag 'i3c/for-6.20' of git://git.kernel.org/pub/scm/linux/kernel/git/i3c/linux
@@ -1051,4 +1051,4 @@ aaf96df9593bf4ab1b73c17891e4efe7570fdef3 CREDITS: Add -next to Stephen Rothwell'
 fbf33803618ad4f531f78fe15cf328fe6c7f9978 Merge tag 'fsverity-for-linus' of git://git.kernel.org/pub/scm/fs/fsverity/linux
 6de23f81a5e08be8fbf5e8d7e9febc72a5b5f27f Linux 7.0-rc1
 
---===============5398876683632392116==--
+--===============6368214144450770162==--
