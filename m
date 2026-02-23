@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/docs/man-pages/man-pages
-Date: Mon, 23 Feb 2026 15:40:09 -0000
-Message-Id: <177186120988.4017466.17739770655974013365@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
+Date: Mon, 23 Feb 2026 15:40:41 -0000
+Message-Id: <177186124107.4017874.15714356247582083936@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/docs/man-pages/man-pages
-user: alx
+repo: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
+user: vudentz
 changes:
-  - ref: refs/heads/statmount
-    old: 77b85e0183321e5f74e353b09972669a699115b2
-    new: 2ab1aa01590171e6ef1c433d9b2fb378788de24b
+  - ref: refs/heads/master
+    old: fa5643fbc394ad551252eb5512c303ff30733085
+    new: 6a4f124c550d9d46b0c94c026cc9bd206bd0b8e7
     log: |
-         39462b9cb0019eddcfdff20f1f3bd0d85f3cfdfc man/man2/statmount.2: Document STATMOUNT_{UIDMAP,GIDMAP}
-         98dd36521ad3edcc1798a4d78eaaa03c6843adbf man/man2/statmount.2: Document STATMOUNT_SUPPORTED_MASK
-         2ab1aa01590171e6ef1c433d9b2fb378788de24b man/man2/statmount.2: Document req.mnt_ns_fd
+         6a4f124c550d9d46b0c94c026cc9bd206bd0b8e7 Bluetooth: L2CAP: Fix not checking output MTU is acceptable on L2CAP_ECRED_CONN_REQ
          
