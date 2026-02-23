@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/libs/libgpiod/libgpiod
-Date: Mon, 23 Feb 2026 10:24:44 -0000
-Message-Id: <177184228481.3747829.337978759996030600@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/geert/renesas-devel
+Date: Mon, 23 Feb 2026 10:27:21 -0000
+Message-Id: <177184244102.3751479.7583706586145609476@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/libs/libgpiod/libgpiod
-user: brgl
+repo: pub/scm/linux/kernel/git/geert/renesas-devel
+user: geert
 changes:
-  - ref: refs/tags/v2.2.3
-    old: 0000000000000000000000000000000000000000
-    new: 7cf4b094a651215c4f2d77a99e8d6c7be15dfb07
+  - ref: refs/tags/renesas-next-2026-02-23-v7.0-rc1
+    old: d437490c62b3dd6ccc061c19b77370310d3e42de
+    new: 0000000000000000000000000000000000000000
