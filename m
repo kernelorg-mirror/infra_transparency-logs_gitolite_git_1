@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6617289790283211835=="
+Content-Type: multipart/mixed; boundary="===============6085223710278814651=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ti/linux
-Date: Mon, 23 Feb 2026 04:25:14 -0000
-Message-Id: <177182071458.3411488.12707802411766120117@gitolite.kernel.org>
+Date: Mon, 23 Feb 2026 04:25:56 -0000
+Message-Id: <177182075630.3425154.6637122394177074624@gitolite.kernel.org>
 
---===============6617289790283211835==
+--===============6085223710278814651==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ti/linux
 user: vigneshr
 changes:
-  - ref: refs/heads/ti-k3-dts-next
-    old: 53289af62b66812d07a7b0f5f9d62f429c94d317
+  - ref: refs/heads/ti-next
+    old: 18258938db0c4ffcd51d7bebaf80db92564117f2
     new: 6de23f81a5e08be8fbf5e8d7e9febc72a5b5f27f
-    log: revlist-53289af62b66-6de23f81a5e0.txt
+    log: revlist-18258938db0c-6de23f81a5e0.txt
 
---===============6617289790283211835==
+--===============6085223710278814651==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-53289af62b66-6de23f81a5e0.txt
+Content-Disposition: attachment; filename=revlist-18258938db0c-6de23f81a5e0.txt
 
 9e03b7caf4e65f5a5841dfed540fdcc3ff061734 Merge tag 'kvm-x86-misc-6.20' of https://github.com/kvm-x86/linux into HEAD
 2f81bdbdb3aa3fccd9b5420df5674730c40af554 Merge tag 'i3c/for-6.20' of git://git.kernel.org/pub/scm/linux/kernel/git/i3c/linux
@@ -1051,4 +1051,4 @@ aaf96df9593bf4ab1b73c17891e4efe7570fdef3 CREDITS: Add -next to Stephen Rothwell'
 fbf33803618ad4f531f78fe15cf328fe6c7f9978 Merge tag 'fsverity-for-linus' of git://git.kernel.org/pub/scm/fs/fsverity/linux
 6de23f81a5e08be8fbf5e8d7e9febc72a5b5f27f Linux 7.0-rc1
 
---===============6617289790283211835==--
+--===============6085223710278814651==--
