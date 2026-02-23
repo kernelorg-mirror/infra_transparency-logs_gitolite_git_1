@@ -1,31 +1,38 @@
-Content-Type: multipart/mixed; boundary="===============7316581338172474596=="
+Content-Type: multipart/mixed; boundary="===============5904427616101456991=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/thomas.weissschuh/linux
-Date: Mon, 23 Feb 2026 14:14:58 -0000
-Message-Id: <177185609821.3937480.6101043718353474521@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/chunkuang.hu/linux
+Date: Mon, 23 Feb 2026 14:15:31 -0000
+Message-Id: <177185613163.3940585.17618225516810101849@gitolite.kernel.org>
 
---===============7316581338172474596==
+--===============5904427616101456991==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/thomas.weissschuh/linux
-user: thomas.weissschuh
+repo: pub/scm/linux/kernel/git/chunkuang.hu/linux
+user: chunkuang.hu
 changes:
-  - ref: refs/heads/b4/vdso-selftest-cleanups
-    old: 8cef3c81eb4c97e9c403c8980029eaaf1529a2dd
-    new: d7054ee92d61ba055906d413e2a15c077b198200
-    log: revlist-8cef3c81eb4c-d7054ee92d61.txt
+  - ref: refs/heads/mediatek-drm-fixes
+    old: b9639c5e313e14ff1feaf175f2a93b4640732a8e
+    new: 6de23f81a5e08be8fbf5e8d7e9febc72a5b5f27f
+    log: revlist-b9639c5e313e-6de23f81a5e0.txt
 
---===============7316581338172474596==
+--===============5904427616101456991==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-8cef3c81eb4c-d7054ee92d61.txt
+Content-Disposition: attachment; filename=revlist-b9639c5e313e-6de23f81a5e0.txt
 
+9e03b7caf4e65f5a5841dfed540fdcc3ff061734 Merge tag 'kvm-x86-misc-6.20' of https://github.com/kvm-x86/linux into HEAD
+2f81bdbdb3aa3fccd9b5420df5674730c40af554 Merge tag 'i3c/for-6.20' of git://git.kernel.org/pub/scm/linux/kernel/git/i3c/linux
+37b4fbf8dbdfb694f2972d1bd7fcd36304a520dd Merge tag 'tpmdd-next-7.0-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+698749164aa53cc313248efd2dc1c25dcf25c99c Merge tag 'audit-pr-20260203' of git://git.kernel.org/pub/scm/linux/kernel/git/pcmoore/audit
+bcc8fd3e1573c502edc0cb61abea0e113a761799 Merge tag 'lsm-pr-20260203' of git://git.kernel.org/pub/scm/linux/kernel/git/pcmoore/lsm
+1d3ffe6233b1b6e8697f5027b9441ce70385c997 perf tests workload: Formatting for code_with_type.rs
+6252e917b9006dfa2f3d884fe0dbaf3e676c4108 Merge tag 'selinux-pr-20260203' of git://git.kernel.org/pub/scm/linux/kernel/git/pcmoore/selinux
 42e7c876b182da65723700f6bc507a8aecb10d3b fs/nfs: Fix readdir slow-start regression
 fdc0396b3cc05dc9b678627af23c3fdc7dbe930e nfs: unify security_inode_listsecurity() calls
 3d57c44e918012db1f901d50bc9195a8812ad602 NFSv4: pass lease period in seconds to nfs4_set_lease_period()
@@ -1043,12 +1050,5 @@ aaf96df9593bf4ab1b73c17891e4efe7570fdef3 CREDITS: Add -next to Stephen Rothwell'
 75e1f66a9ed09f29c6883ea379c174e8cf31f7cc Merge tag 'libcrypto-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/ebiggers/linux
 fbf33803618ad4f531f78fe15cf328fe6c7f9978 Merge tag 'fsverity-for-linus' of git://git.kernel.org/pub/scm/fs/fsverity/linux
 6de23f81a5e08be8fbf5e8d7e9febc72a5b5f27f Linux 7.0-rc1
-1e58e3f5cd55a865e91cbdac01dcae6b3aadde3a selftests: vDSO: Assorted cleanups and improvements
-3224c6d65dc95dc4b706f365445104aa89c4e945 Revert "selftests: vDSO: parse_vdso: Use UAPI headers instead of libc headers"
-aaee97a0422d12d41eef4d02c85f93315eeb9956 selftests: vDSO: vdso_test_gettimeofday: Remove nolibc checks
-fb4f9eb65dc11f9018e88dc54be1cc5adad08a02 selftests: vDSO: vdso_test_correctness: Drop SYS_getcpu fallbacks
-8db5d67d11ab51e5460c7d4ebb9042baabf9df2b selftests: vDSO: vdso_test_correctness: Handle different tv_usec types
-f348391fafcbe836860319cc287b2edeac8bae4b selftests: vDSO: vdso_test_correctness: Use facilities from parse_vdso.c
-d7054ee92d61ba055906d413e2a15c077b198200 selftests: vDSO: vdso_test_correctness: Add a test for time()
 
---===============7316581338172474596==--
+--===============5904427616101456991==--
