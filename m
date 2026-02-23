@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7991134970901724834=="
+Content-Type: multipart/mixed; boundary="===============5954240248601023498=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
-Date: Mon, 23 Feb 2026 21:03:18 -0000
-Message-Id: <177188059812.107027.14057077935512869214@gitolite.kernel.org>
+Date: Mon, 23 Feb 2026 21:05:25 -0000
+Message-Id: <177188072560.110354.14812773024881945976@gitolite.kernel.org>
 
---===============7991134970901724834==
+--===============5954240248601023498==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,22 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jic23/iio
 user: jic23
 changes:
-  - ref: refs/heads/togreg
-    old: 0be8a2716187607daaa8ba80687a926438d88432
-    new: 70a9ae59c5b1f2f5501e78e2d85bfeefd153f854
-    log: revlist-0be8a2716187-70a9ae59c5b1.txt
+  - ref: refs/heads/testing
+    old: aa870ced7b15d4566186005dd952a625854baeff
+    new: c99ccbba912c859fd579fe3a00071adc5fd0236d
+    log: revlist-aa870ced7b15-c99ccbba912c.txt
 
---===============7991134970901724834==
+--===============5954240248601023498==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0be8a2716187-70a9ae59c5b1.txt
+Content-Disposition: attachment; filename=revlist-aa870ced7b15-c99ccbba912c.txt
 
-0e2af0fc30eca0ae92abcf1c8fc7be94a8cc95c3 staging: iio: impedance-analyzer: ad5933: use div64_ul() instead of do_div()
-d1e13ac7c2641a8ec815a9fe10835726eaf05302 iio: adc: nxp-sar-adc: Remove unnecessary type casting
-12b393486c707dc005540da58f6c7a60776941ac iio: core: Clean up device correctly on viio_trigger_alloc() failure
-3d8fedcc62b663f6c04b1d172e7298c71bbddb8f iio: filter: admv8818: remove redundant else after return
-b40be056eefe458698d75ff2b78ed853efdf5e8a iio: adc: ad7266: simplify error return
 4d9fccb3e98712df571936ec3d31338e3b906690 iio: core: Simplify IIO core managed APIs
 4b0d26cb9a79d38fcf61fdcf821e70b335718610 iio: adc: ade9000: use dev_err_probe() in probe path
 2ee227268c3673031335c10be0dfeaa5222f87f6 MAINTAINERS: Add missing maintainer entry for AD8366 driver
@@ -45,5 +40,6 @@ d5e02d0d00b99bb37f935f250181bf310d3d6e85 iio: amplifiers: ad8366: add device tre
 d99a03d6dda43226fd3138e5cd89ddba739a11cf iio: amplifiers: ad8366: consume enable gpio
 76878a3820b52ef463c2f63f107d37a8c6fe7bc6 iio: amplifiers: ad8366: update device support
 70a9ae59c5b1f2f5501e78e2d85bfeefd153f854 iio: adc: at91_adc: change at91_ts_sample to return void
+c99ccbba912c859fd579fe3a00071adc5fd0236d Merge branch 'ib-iio-thermal-qcom-pmic5' into togreg Immutable branch to allow this base work to be merged into thermal.
 
---===============7991134970901724834==--
+--===============5954240248601023498==--
