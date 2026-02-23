@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============4693390889725669827=="
+Content-Type: multipart/mixed; boundary="===============3879030547478951504=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pinctrl/intel
-Date: Mon, 23 Feb 2026 08:02:28 -0000
-Message-Id: <177183374885.3628729.11732122327415594260@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/johan/usb-serial
+Date: Mon, 23 Feb 2026 08:46:24 -0000
+Message-Id: <177183638455.3662326.3192001584257646668@gitolite.kernel.org>
 
---===============4693390889725669827==
+--===============3879030547478951504==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pinctrl/intel
-user: westeri
+repo: pub/scm/linux/kernel/git/johan/usb-serial
+user: johan
 changes:
-  - ref: refs/heads/for-next
-    old: 8e03e6ecc23537531ddae6488c9dd67546486a7b
+  - ref: refs/heads/usb-next
+    old: 509f403f3ccec14188036212118651bf23599396
     new: 6de23f81a5e08be8fbf5e8d7e9febc72a5b5f27f
-    log: revlist-8e03e6ecc235-6de23f81a5e0.txt
+    log: revlist-509f403f3cce-6de23f81a5e0.txt
 
---===============4693390889725669827==
+--===============3879030547478951504==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-8e03e6ecc235-6de23f81a5e0.txt
+Content-Disposition: attachment; filename=revlist-509f403f3cce-6de23f81a5e0.txt
 
 9e03b7caf4e65f5a5841dfed540fdcc3ff061734 Merge tag 'kvm-x86-misc-6.20' of https://github.com/kvm-x86/linux into HEAD
 2f81bdbdb3aa3fccd9b5420df5674730c40af554 Merge tag 'i3c/for-6.20' of git://git.kernel.org/pub/scm/linux/kernel/git/i3c/linux
@@ -1051,4 +1051,4 @@ aaf96df9593bf4ab1b73c17891e4efe7570fdef3 CREDITS: Add -next to Stephen Rothwell'
 fbf33803618ad4f531f78fe15cf328fe6c7f9978 Merge tag 'fsverity-for-linus' of git://git.kernel.org/pub/scm/fs/fsverity/linux
 6de23f81a5e08be8fbf5e8d7e9febc72a5b5f27f Linux 7.0-rc1
 
---===============4693390889725669827==--
+--===============3879030547478951504==--
