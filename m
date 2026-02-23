@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============9055907272085980232=="
+Content-Type: multipart/mixed; boundary="===============5546806061165690641=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/docs/linux
-Date: Mon, 23 Feb 2026 21:59:25 -0000
-Message-Id: <177188396586.153401.9093968382348595502@gitolite.kernel.org>
+Date: Mon, 23 Feb 2026 21:59:27 -0000
+Message-Id: <177188396778.153484.15256941675169864472@gitolite.kernel.org>
 
---===============9055907272085980232==
+--===============5546806061165690641==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/docs/linux
 user: corbet
 changes:
-  - ref: refs/heads/docs-mw
+  - ref: refs/heads/docs-next
     old: e1e828a1e9a79af76a7cdc271e0a506e496c2eaa
     new: fe539166e3f867c9761208d09a4f295bd9b7e910
     log: revlist-e1e828a1e9a7-fe539166e3f8.txt
 
---===============9055907272085980232==
+--===============5546806061165690641==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -1051,4 +1051,4 @@ c99fcb58501e1fbbfa5c9ee6f272db0623553f69 docs: Fix an erroneous reference to sph
 32437123ee1c5a091adbf9531e3992c0ca0a97a1 docs/zh_TW: remove trailing space
 fe539166e3f867c9761208d09a4f295bd9b7e910 doc: early_userspace_support.rst: trivial fix: directory -> file
 
---===============9055907272085980232==--
+--===============5546806061165690641==--
