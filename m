@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
-Date: Mon, 23 Feb 2026 14:04:49 -0000
-Message-Id: <177185548936.3929235.12188847838135181766@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rw/misc
+Date: Mon, 23 Feb 2026 14:07:58 -0000
+Message-Id: <177185567890.3932775.11774320698856047119@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kdave/linux
-user: kdave
+repo: pub/scm/linux/kernel/git/rw/misc
+user: rw
 changes:
-  - ref: refs/heads/master
-    old: fbf33803618ad4f531f78fe15cf328fe6c7f9978
-    new: 6de23f81a5e08be8fbf5e8d7e9febc72a5b5f27f
-    log: |
-         6de23f81a5e08be8fbf5e8d7e9febc72a5b5f27f Linux 7.0-rc1
-         
+  - ref: refs/heads/rw/drbd9
+    old: 0000000000000000000000000000000000000000
+    new: bf25dcf596c5e954ec59b0521208f284c3e4ed47
