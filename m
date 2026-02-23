@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6493639410910542887=="
+Content-Type: multipart/mixed; boundary="===============4846241311317059932=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/andy/linux-auxdisplay
-Date: Mon, 23 Feb 2026 09:19:50 -0000
-Message-Id: <177183839042.3691087.12683622207785221206@gitolite.kernel.org>
+Date: Mon, 23 Feb 2026 09:19:56 -0000
+Message-Id: <177183839632.3691311.15644744234724147667@gitolite.kernel.org>
 
---===============6493639410910542887==
+--===============4846241311317059932==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/andy/linux-auxdisplay
 user: andy
 changes:
-  - ref: refs/heads/for-next
-    old: 693142d4d761dd188ead136a7bca1e870a6af8cd
+  - ref: refs/heads/fixes
+    old: 9ace4753a5202b02191d54e9fdf7f9e3d02b85eb
     new: 6de23f81a5e08be8fbf5e8d7e9febc72a5b5f27f
-    log: revlist-693142d4d761-6de23f81a5e0.txt
+    log: revlist-9ace4753a520-6de23f81a5e0.txt
 
---===============6493639410910542887==
+--===============4846241311317059932==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-693142d4d761-6de23f81a5e0.txt
+Content-Disposition: attachment; filename=revlist-9ace4753a520-6de23f81a5e0.txt
 
 9e03b7caf4e65f5a5841dfed540fdcc3ff061734 Merge tag 'kvm-x86-misc-6.20' of https://github.com/kvm-x86/linux into HEAD
 2f81bdbdb3aa3fccd9b5420df5674730c40af554 Merge tag 'i3c/for-6.20' of git://git.kernel.org/pub/scm/linux/kernel/git/i3c/linux
@@ -1051,4 +1051,4 @@ aaf96df9593bf4ab1b73c17891e4efe7570fdef3 CREDITS: Add -next to Stephen Rothwell'
 fbf33803618ad4f531f78fe15cf328fe6c7f9978 Merge tag 'fsverity-for-linus' of git://git.kernel.org/pub/scm/fs/fsverity/linux
 6de23f81a5e08be8fbf5e8d7e9febc72a5b5f27f Linux 7.0-rc1
 
---===============6493639410910542887==--
+--===============4846241311317059932==--
