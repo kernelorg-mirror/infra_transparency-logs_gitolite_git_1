@@ -1,36 +1,35 @@
-Content-Type: multipart/mixed; boundary="===============6843510834206552418=="
+Content-Type: multipart/mixed; boundary="===============5251261130670331868=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
-Date: Mon, 23 Feb 2026 14:45:42 -0000
-Message-Id: <177185794295.3967702.4288878620262428454@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Mon, 23 Feb 2026 14:45:48 -0000
+Message-Id: <177185794851.3967922.8341506826007863999@gitolite.kernel.org>
 
---===============6843510834206552418==
+--===============5251261130670331868==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regulator
+repo: pub/scm/linux/kernel/git/broonie/spi
 user: broonie
 changes:
   - ref: refs/heads/for-linus
-    old: f25a96f5b590f8cd4eecc0012c3946a7210b9ffd
-    new: be704107e79696e855aa41e901a926039b6d2410
-    log: revlist-f25a96f5b590-be704107e796.txt
+    old: 31361df475b20771b18f66dd498d833efd1fc0aa
+    new: 6de23f81a5e08be8fbf5e8d7e9febc72a5b5f27f
+    log: revlist-31361df475b2-6de23f81a5e0.txt
   - ref: refs/heads/for-next
-    old: f25a96f5b590f8cd4eecc0012c3946a7210b9ffd
-    new: be704107e79696e855aa41e901a926039b6d2410
-    log: revlist-f25a96f5b590-be704107e796.txt
+    old: 31361df475b20771b18f66dd498d833efd1fc0aa
+    new: 6de23f81a5e08be8fbf5e8d7e9febc72a5b5f27f
+    log: revlist-31361df475b2-6de23f81a5e0.txt
 
---===============6843510834206552418==
+--===============5251261130670331868==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-f25a96f5b590-be704107e796.txt
+Content-Disposition: attachment; filename=revlist-31361df475b2-6de23f81a5e0.txt
 
-ef852baaf6a73551cfaa0d082477b50d842b79b8 Merge tag 'rcu.release.v7.0' of git://git.kernel.org/pub/scm/linux/kernel/git/rcu/linux
 687603fb2bf1205d6f7028e30848434e3b126a7a Merge tag 'kvm-x86-vmx-6.20' of https://github.com/kvm-x86/linux into HEAD
 4215ee0d7bb5358882375c84d3cd0488bb5813b2 Merge tag 'kvm-x86-svm-6.20' of https://github.com/kvm-x86/linux into HEAD
 9e03b7caf4e65f5a5841dfed540fdcc3ff061734 Merge tag 'kvm-x86-misc-6.20' of https://github.com/kvm-x86/linux into HEAD
@@ -213,6 +212,7 @@ efeb214411730dbbd7271bd0ad71823dec525289 net: ftgmac100: Always register the MDI
 7ac5dddef5168b13e490402802f7628d012f477d net: ftgmac100: Use devm_mdiobus_alloc/devm_of_mdiobus_register
 86dbebfb9053cd8626ee7c0297e991ce4843bd3f Merge branch 'net-ftgmac100-various-probe-cleanups'
 5578da7d957fbaf91f6c39ba2363c2d2e4273183 ASoC: rt721-sdca: Fix issue of fail to detect OMTP jack type
+1a4b0c999101b2532723f9bd9818b70ffa7580f4 regulator: mt6363: Fix interrmittent timeout
 81b84de32bb27ae1ae2eb9acf0420e9d0d14bf00 xfrm: fix ip_rt_bug race in icmp_route_lookup reverse path
 d01103fdcb871fd83fd06ef5803d576507c6a801 net: ethernet: marvell: skge: remove incorrect conflicting PCI ID
 308e7e4d0a846359685f40aade023aee7b27284c serial: caif: fix use-after-free in caif_serial ldisc_close()
@@ -391,6 +391,7 @@ a8c975302868c716afef0f50467bebbd069a35b8 ACPI: x86: Force enabling of PWM2 on th
 56eb0c0ed345da7815274aa821a8546a073d7e97 ACPI: CPPC: Fix remaining for_each_possible_cpu() to use online CPUs
 42a9a5c25615aa1206f893695016a556b345ba85 ASoC: dt-bindings: asahi-kasei,ak5558: Reference common DAI properties
 b82fa9b0c26eeb2fde6017f7de2c3c544484efef ASoC: codecs: aw88261: Fix erroneous bitmask logic in Awinic init
+e243cdd87b911ce9968b62e4ab2b680dfadc4341 regulator: core: Remove regulator supply_name length limit
 8ffe56b104c5a9cdb88e3c7b2d84fa70d8866e64 exfat: improve error code handling in exfat_find_empty_entry()
 0914882bdda645e10cf536b474631e1a023b67c0 exfat: reduce unnecessary writes during mmap write
 967288e9a6f2ca88cf7d004d87bb3aa9db64fbe2 exfat: add cache option for __exfat_ent_get
@@ -593,7 +594,6 @@ a854684986b7056dd1be8730ccce24d0d5a413e9 tools/power turbostat: Unify even/odd/a
 ddf60e38ca048842a34eb6e9d7a0d3e7d459df8d tools/power turbostat: Simplify global core_id calculation
 070e92361eeca21407ce90b582698a877ece5694 tools/power turbostat: Enhance HT enumeration
 6be5c151eb1ebf4d5007b9f60c729f7381255a23 tools/power turbostat: Expunge logical_cpu_id
-888a0a802c467bbe34a42167bdf9d7331333440a spi: wpcm-fiu: Fix potential NULL pointer dereference in wpcm_fiu_probe()
 7e96d76c74175ef9747f6fc14ee567f89d72153c Merge tag 'nand/for-7.0' into mtd/next
 cd7a5651db263b5384aef1950898e5e889425134 alpha: add missing address argument in call to page_table_check_pte_clear()
 0b82cc331d2e23537670878c62c19ee3f4147a93 selftests/sched_ext: Fix rt_stall flaky failure
@@ -721,6 +721,8 @@ e98696edac6945144ece6819b0fad47192df4b2b ALSA: usb-audio: Avoid potentially repe
 10d7c95af043b45a85dc738c3271bf760ff3577e fs/ntfs3: add delayed-allocation (delalloc) support
 ff9cadd1a2c0b2665b7377ac79540d66f212e7e3 ASoC: amd: yc: Add DMI quirk for ASUS Vivobook Pro 15X M6501RR
 957e5be2e1ff10d4b5e86d420c12580897069114 ASoC: qcom: sm8250: Add quinary MI2S support
+5a1256acaa856e6770d74dd786b1b12548969c28 regulator: s2mps11: drop redundant sanity checks in s2mpg10_of_parse_cb()
+09ad01a530bb6ad260bda4fa56bab84619d90968 regulator: s2mps11: fix pctrlsel macro usage in s2mpg10_of_parse_cb()
 4c431a76a288ce958aaa114d8ea6fc0968942832 block: fix enum descriptions kernel-doc
 3678a334a55e869b413e2fb4824e92200b149d73 blk-stat: convert struct blk_stat_callback to kernel-doc
 cd7ef20ba8c6e936dba133b4136537a8ada22976 ACPI: PM: Add unused power resource quirk for THUNDEROBOT ZERO
@@ -781,7 +783,6 @@ dd3411959b57df6e05a3ccbac67b0a836871c0c4 s390/kexec: Make KEXEC_SIG available wh
 9b9c0ff095f04c27da1f761d77c19cd53594d18e cpuidle: haltpoll: Remove single state handling
 825d5d347935d5fc339df969c572e382393f40ec cpuidle: teo: Remove single state handling
 93983a9f3beea791c21d77c2425488ad327d4fda cpuidle: menu: Remove single state handling
-40534d19ed2afb880ecf202dab26a8e7a5808d16 spi: spidev: fix lock inversion between spi_lock and buf_lock
 777a02812f739af9e349cd0f695400a1d84053f4 drm/i915/dp: Add missing slice count check during mode validation
 7b751b01ade7f666de2f5c365bd9562c2dcd7d60 Merge tag 'io_uring-7.0-20260216' of git://git.kernel.org/pub/scm/linux/kernel/git/axboe/linux
 99dfe2d4da67d863ff8f185d1e8033cce28e4c49 Merge tag 'block-7.0-20260216' of git://git.kernel.org/pub/scm/linux/kernel/git/axboe/linux
@@ -1053,6 +1054,5 @@ aaf96df9593bf4ab1b73c17891e4efe7570fdef3 CREDITS: Add -next to Stephen Rothwell'
 75e1f66a9ed09f29c6883ea379c174e8cf31f7cc Merge tag 'libcrypto-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/ebiggers/linux
 fbf33803618ad4f531f78fe15cf328fe6c7f9978 Merge tag 'fsverity-for-linus' of git://git.kernel.org/pub/scm/fs/fsverity/linux
 6de23f81a5e08be8fbf5e8d7e9febc72a5b5f27f Linux 7.0-rc1
-be704107e79696e855aa41e901a926039b6d2410 regulator: dt-bindings: mt6359: make regulator names unique
 
---===============6843510834206552418==--
+--===============5251261130670331868==--
