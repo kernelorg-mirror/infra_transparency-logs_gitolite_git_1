@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6775485471241816391=="
+Content-Type: multipart/mixed; boundary="===============0121839520467906885=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/kees/linux
-Date: Mon, 23 Feb 2026 22:27:05 -0000
-Message-Id: <177188562577.179494.4700821940495886729@gitolite.kernel.org>
+Date: Mon, 23 Feb 2026 22:27:50 -0000
+Message-Id: <177188567094.179885.11201031769172544268@gitolite.kernel.org>
 
---===============6775485471241816391==
+--===============0121839520467906885==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,38 +16,37 @@ repo: pub/scm/linux/kernel/git/kees/linux
 user: kees
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/for-next/kmalloc_obj
-    old: bdc5071d7f7bb82589737741e9bf19820ceb7a6a
+  - ref: refs/heads/for-next/kspp
+    old: 44dd7cfbd1db5199cf7afe03158a578a64b55800
     new: 8e795ac93b645294b77799c373f95e115e46a71b
-    log: revlist-bdc5071d7f7b-8e795ac93b64.txt
+    log: revlist-44dd7cfbd1db-8e795ac93b64.txt
 
---===============6775485471241816391==
+--===============0121839520467906885==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher A5C3F68F229DD60F723E6E138972F4DFDC6DC026 1771885624 -0800
+pusher A5C3F68F229DD60F723E6E138972F4DFDC6DC026 1771885669 -0800
 pushee gitolite.kernel.org:pub/scm/linux/kernel/git/kees/linux.git
-nonce 1771885617-d93a3048a0f208c49c5606c165d5eb6babf09007
+nonce 1771885668-98b6d2c0720c93530420e92b4cfbe18032c4dc0a
 
-bdc5071d7f7bb82589737741e9bf19820ceb7a6a 8e795ac93b645294b77799c373f95e115e46a71b refs/heads/for-next/kmalloc_obj
+44dd7cfbd1db5199cf7afe03158a578a64b55800 8e795ac93b645294b77799c373f95e115e46a71b refs/heads/for-next/kspp
 -----BEGIN PGP SIGNATURE-----
 
-iHUEABYKAB0WIQRSPkdeREjth1dHnSE2KwveOeQkuwUCaZzUOAAKCRA2KwveOeQk
-uxkDAP9BQ3PKZOCz5gltUEJnjvyri6dgiDYlXavsAaRxebLIOgEA955b/1+7saeU
-PZlZfzn+OXtjYXxckW+79jsuLWWM3gc=
-=6YME
+iHUEABYKAB0WIQRSPkdeREjth1dHnSE2KwveOeQkuwUCaZzUZQAKCRA2KwveOeQk
+uwxjAP9Eb+BRbok1poeJJ1b9w8d5MRA3JNcuzURHdjM+lbKF5wD8C4UTLbc8BxBB
+on37C2lvVODjcpzc1AtxZsla+QDibQ8=
+=9bDU
 -----END PGP SIGNATURE-----
 
---===============6775485471241816391==
+--===============0121839520467906885==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-bdc5071d7f7b-8e795ac93b64.txt
+Content-Disposition: attachment; filename=revlist-44dd7cfbd1db-8e795ac93b64.txt
 
-37b4fbf8dbdfb694f2972d1bd7fcd36304a520dd Merge tag 'tpmdd-next-7.0-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/jarkko/linux-tpmdd
 698749164aa53cc313248efd2dc1c25dcf25c99c Merge tag 'audit-pr-20260203' of git://git.kernel.org/pub/scm/linux/kernel/git/pcmoore/audit
 bcc8fd3e1573c502edc0cb61abea0e113a761799 Merge tag 'lsm-pr-20260203' of git://git.kernel.org/pub/scm/linux/kernel/git/pcmoore/lsm
 1d3ffe6233b1b6e8697f5027b9441ce70385c997 perf tests workload: Formatting for code_with_type.rs
@@ -58,6 +57,7 @@ fdc0396b3cc05dc9b678627af23c3fdc7dbe930e nfs: unify security_inode_listsecurity(
 e29a3e61eef6b6c2e60bc1872e9da3bcdbc46c17 NFSv4: limit lease period in nfs4_set_lease_period()
 4b6c6bc6fab51684cc129f91211734f87db6b065 Merge tag 'vfs-7.0-rc1.rust' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
 2a400eeba40b4cf1fb28f78f41bf73a898b00d06 perf test code_with_type.sh: Skip test if rust wasn't available at build time
+bdc5071d7f7bb82589737741e9bf19820ceb7a6a coccinelle: Add kmalloc_objs conversion script
 3d012b8614ee020666f3dd15af9f65dc487e3f5f perf test: Fix test case perftool-testsuite_report for s390
 996812c453cafa042f2e674738dbf8fa495661f3 Merge tag 'vfs-7.0-rc1.initrd' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
 728bea264883031c377fcc9c465b650dbfd1bbf5 sunrpc: rpc_debug and others are defined even if CONFIG_SUNRPC_DEBUG unset
@@ -1072,4 +1072,4 @@ f83c9b9bb421cc7535be7750f995746b4a515927 ubd: Use pointer-to-pointers for io_thr
 ffd2fc428cf4f5c2c0a2d35caa94d20ce40a3d18 kcsan: test: Adjust "expect" allocation type for kmalloc_obj
 8e795ac93b645294b77799c373f95e115e46a71b init/Kconfig: Adjust fixed clang version for __builtin_counted_by_ref
 
---===============6775485471241816391==--
+--===============0121839520467906885==--
