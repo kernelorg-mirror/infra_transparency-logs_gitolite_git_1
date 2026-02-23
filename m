@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2589210124952435518=="
+Content-Type: multipart/mixed; boundary="===============8085016873001977450=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/johan/gnss
-Date: Mon, 23 Feb 2026 08:47:03 -0000
-Message-Id: <177183642398.3663322.16688597317761564830@gitolite.kernel.org>
+Date: Mon, 23 Feb 2026 08:47:12 -0000
+Message-Id: <177183643248.3663592.9281396738369501697@gitolite.kernel.org>
 
---===============2589210124952435518==
+--===============8085016873001977450==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/johan/gnss
 user: johan
 changes:
-  - ref: refs/heads/gnss-next
+  - ref: refs/heads/gnss-linus
     old: 0f61b1860cc3f52aef9036d7235ed1f017632193
     new: 6de23f81a5e08be8fbf5e8d7e9febc72a5b5f27f
     log: revlist-0f61b1860cc3-6de23f81a5e0.txt
 
---===============2589210124952435518==
+--===============8085016873001977450==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -1051,4 +1051,4 @@ aaf96df9593bf4ab1b73c17891e4efe7570fdef3 CREDITS: Add -next to Stephen Rothwell'
 fbf33803618ad4f531f78fe15cf328fe6c7f9978 Merge tag 'fsverity-for-linus' of git://git.kernel.org/pub/scm/fs/fsverity/linux
 6de23f81a5e08be8fbf5e8d7e9febc72a5b5f27f Linux 7.0-rc1
 
---===============2589210124952435518==--
+--===============8085016873001977450==--
