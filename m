@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5851580403298063258=="
+Content-Type: multipart/mixed; boundary="===============8246552577962345280=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/geert/linux-m68k
-Date: Mon, 23 Feb 2026 13:41:19 -0000
-Message-Id: <177185407910.3910201.12605518344813685302@gitolite.kernel.org>
+Date: Mon, 23 Feb 2026 13:44:34 -0000
+Message-Id: <177185427438.3911412.8714879495498387896@gitolite.kernel.org>
 
---===============5851580403298063258==
+--===============8246552577962345280==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,19 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/geert/linux-m68k
 user: geert
 changes:
-  - ref: refs/heads/master
-    old: ae5c45732d34367350709e99169854eb6eaad7a4
-    new: 64632b8ff303d6b960a95659b0957cf8b3894ce3
-    log: revlist-ae5c45732d34-64632b8ff303.txt
+  - ref: refs/heads/m68k-queue
+    old: 926c59abffbc3392da6c35074cc9227ee4aecd34
+    new: 013a2c1c3b40b93c039bb0482703e1490fecbcab
+    log: revlist-926c59abffbc-013a2c1c3b40.txt
 
---===============5851580403298063258==
+--===============8246552577962345280==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-ae5c45732d34-64632b8ff303.txt
+Content-Disposition: attachment; filename=revlist-926c59abffbc-013a2c1c3b40.txt
 
-2f81bdbdb3aa3fccd9b5420df5674730c40af554 Merge tag 'i3c/for-6.20' of git://git.kernel.org/pub/scm/linux/kernel/git/i3c/linux
-37b4fbf8dbdfb694f2972d1bd7fcd36304a520dd Merge tag 'tpmdd-next-7.0-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/jarkko/linux-tpmdd
 698749164aa53cc313248efd2dc1c25dcf25c99c Merge tag 'audit-pr-20260203' of git://git.kernel.org/pub/scm/linux/kernel/git/pcmoore/audit
 bcc8fd3e1573c502edc0cb61abea0e113a761799 Merge tag 'lsm-pr-20260203' of git://git.kernel.org/pub/scm/linux/kernel/git/pcmoore/lsm
 1d3ffe6233b1b6e8697f5027b9441ce70385c997 perf tests workload: Formatting for code_with_type.rs
@@ -1049,6 +1047,8 @@ aaf96df9593bf4ab1b73c17891e4efe7570fdef3 CREDITS: Add -next to Stephen Rothwell'
 75e1f66a9ed09f29c6883ea379c174e8cf31f7cc Merge tag 'libcrypto-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/ebiggers/linux
 fbf33803618ad4f531f78fe15cf328fe6c7f9978 Merge tag 'fsverity-for-linus' of git://git.kernel.org/pub/scm/fs/fsverity/linux
 6de23f81a5e08be8fbf5e8d7e9febc72a5b5f27f Linux 7.0-rc1
-64632b8ff303d6b960a95659b0957cf8b3894ce3 Merge tag 'v7.0-rc1'
+c285d10eea8113682f3cb98027652191b77aa10d m68k: atari: usb: Add ISP1160 USB host controller support
+2dfbe0dd09d17ca97ff6a34a14852a6fabdc4533 m68k: atari: Update Kconfig.bus help text
+013a2c1c3b40b93c039bb0482703e1490fecbcab m68k: defconfig: Enable Atari EtherNAT and NetUSBee USB support
 
---===============5851580403298063258==--
+--===============8246552577962345280==--
