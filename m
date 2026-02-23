@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============1187907628339998137=="
+Content-Type: multipart/mixed; boundary="===============0666369934844432515=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vkoul/soundwire
-Date: Mon, 23 Feb 2026 06:21:19 -0000
-Message-Id: <177182767962.3533125.2809394321373142062@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/phy/linux-phy
+Date: Mon, 23 Feb 2026 06:22:19 -0000
+Message-Id: <177182773972.3533559.281971052876503347@gitolite.kernel.org>
 
---===============1187907628339998137==
+--===============0666369934844432515==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vkoul/soundwire
+repo: pub/scm/linux/kernel/git/phy/linux-phy
 user: vkoul
 changes:
   - ref: refs/heads/fixes
@@ -24,9 +24,9 @@ changes:
     new: 6de23f81a5e08be8fbf5e8d7e9febc72a5b5f27f
     log: revlist-8f0b4cce4481-6de23f81a5e0.txt
   - ref: refs/heads/next
-    old: dc3a6a942e9ee3f18560bfcb16c06bb94f37fabf
+    old: dbeea86fecef7cf2b93aded4525d74f6277376ef
     new: 6de23f81a5e08be8fbf5e8d7e9febc72a5b5f27f
-    log: revlist-dc3a6a942e9e-6de23f81a5e0.txt
+    log: revlist-dbeea86fecef-6de23f81a5e0.txt
   - ref: refs/tags/v7.0-rc1
     old: 0000000000000000000000000000000000000000
     new: 559f264e403e4d58d56a17595c60a1de011c5e20
@@ -40,7 +40,7 @@ changes:
     old: 0000000000000000000000000000000000000000
     new: ed4cdcc0b03e72cfdffbff9f0ea24338517bc893
 
---===============1187907628339998137==
+--===============0666369934844432515==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -1071,7 +1071,7 @@ aaf96df9593bf4ab1b73c17891e4efe7570fdef3 CREDITS: Add -next to Stephen Rothwell'
 fbf33803618ad4f531f78fe15cf328fe6c7f9978 Merge tag 'fsverity-for-linus' of git://git.kernel.org/pub/scm/fs/fsverity/linux
 6de23f81a5e08be8fbf5e8d7e9febc72a5b5f27f Linux 7.0-rc1
 
---===============1187907628339998137==
+--===============0666369934844432515==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -2102,11 +2102,11 @@ aaf96df9593bf4ab1b73c17891e4efe7570fdef3 CREDITS: Add -next to Stephen Rothwell'
 fbf33803618ad4f531f78fe15cf328fe6c7f9978 Merge tag 'fsverity-for-linus' of git://git.kernel.org/pub/scm/fs/fsverity/linux
 6de23f81a5e08be8fbf5e8d7e9febc72a5b5f27f Linux 7.0-rc1
 
---===============1187907628339998137==
+--===============0666369934844432515==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-dc3a6a942e9e-6de23f81a5e0.txt
+Content-Disposition: attachment; filename=revlist-dbeea86fecef-6de23f81a5e0.txt
 
 9e03b7caf4e65f5a5841dfed540fdcc3ff061734 Merge tag 'kvm-x86-misc-6.20' of https://github.com/kvm-x86/linux into HEAD
 2f81bdbdb3aa3fccd9b5420df5674730c40af554 Merge tag 'i3c/for-6.20' of git://git.kernel.org/pub/scm/linux/kernel/git/i3c/linux
@@ -3133,4 +3133,4 @@ aaf96df9593bf4ab1b73c17891e4efe7570fdef3 CREDITS: Add -next to Stephen Rothwell'
 fbf33803618ad4f531f78fe15cf328fe6c7f9978 Merge tag 'fsverity-for-linus' of git://git.kernel.org/pub/scm/fs/fsverity/linux
 6de23f81a5e08be8fbf5e8d7e9febc72a5b5f27f Linux 7.0-rc1
 
---===============1187907628339998137==--
+--===============0666369934844432515==--
