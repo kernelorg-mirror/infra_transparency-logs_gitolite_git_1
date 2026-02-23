@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3882355648319046472=="
+Content-Type: multipart/mixed; boundary="===============3610705209829286737=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-Date: Mon, 23 Feb 2026 11:45:13 -0000
-Message-Id: <177184711316.3816316.7332060249759918332@gitolite.kernel.org>
+Date: Mon, 23 Feb 2026 11:47:13 -0000
+Message-Id: <177184723355.3817333.12155358037503094357@gitolite.kernel.org>
 
---===============3882355648319046472==
+--===============3610705209829286737==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,37 +16,38 @@ repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
 user: ij
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/review-ilpo-fixes
-    old: 008bec8ffe6e7746588d1e12c5b3865fa478fc91
+  - ref: refs/heads/review-ilpo-next
+    old: 5a5203a45b063a594e89a2aeaf9e4923893a5b4c
     new: 6de23f81a5e08be8fbf5e8d7e9febc72a5b5f27f
-    log: revlist-008bec8ffe6e-6de23f81a5e0.txt
+    log: revlist-5a5203a45b06-6de23f81a5e0.txt
 
---===============3882355648319046472==
+--===============3610705209829286737==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1771847106 +0200
+pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1771847229 +0200
 pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86.git
-nonce 1771847106-c79b67a9983418de8545786e41e3fd31e13aa9c5
+nonce 1771847229-7f4ff66c4d9204c3653fcfc3c275c0465e979951
 
-008bec8ffe6e7746588d1e12c5b3865fa478fc91 6de23f81a5e08be8fbf5e8d7e9febc72a5b5f27f refs/heads/review-ilpo-fixes
+5a5203a45b063a594e89a2aeaf9e4923893a5b4c 6de23f81a5e08be8fbf5e8d7e9febc72a5b5f27f refs/heads/review-ilpo-next
 -----BEGIN PGP SIGNATURE-----
 
-iHUEABYIAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCaZw9xwAKCRBZrE9hU+XO
-MTW1AP4kibK88I2S0A+ytHI+FU8KXdCy65BzcBQrbCECvkOg3gEA1ihwPteh7oMF
-pRZLUbqybf3dsNbLCz6W96Nhr8ScGQc=
-=7kjm
+iHUEABYIAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCaZw+QAAKCRBZrE9hU+XO
+MTcQAPsFmoxJdaC8TD5om53IdpjLSZDncdpB3bqwuQrrYU6V5gD9HhjVP5x6VykV
+I6P1/dEq3Ge+n0wRmTQjhFVAYQJpjww=
+=AIWi
 -----END PGP SIGNATURE-----
 
---===============3882355648319046472==
+--===============3610705209829286737==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-008bec8ffe6e-6de23f81a5e0.txt
+Content-Disposition: attachment; filename=revlist-5a5203a45b06-6de23f81a5e0.txt
 
+4215ee0d7bb5358882375c84d3cd0488bb5813b2 Merge tag 'kvm-x86-svm-6.20' of https://github.com/kvm-x86/linux into HEAD
 9e03b7caf4e65f5a5841dfed540fdcc3ff061734 Merge tag 'kvm-x86-misc-6.20' of https://github.com/kvm-x86/linux into HEAD
 2f81bdbdb3aa3fccd9b5420df5674730c40af554 Merge tag 'i3c/for-6.20' of git://git.kernel.org/pub/scm/linux/kernel/git/i3c/linux
 37b4fbf8dbdfb694f2972d1bd7fcd36304a520dd Merge tag 'tpmdd-next-7.0-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/jarkko/linux-tpmdd
@@ -240,7 +241,6 @@ ce8fe3fc4f99efd872120301c0f72f2e90ab9769 octeon_ep: ensure dbell BADDR updation
 3a23b80dd72de245d931394381fea6a573935c9f Merge branch 'disable-interrupts-and-ensure-dbell-updation'
 8bde3e395a85017f12af2b0ba5c3684f5af9c006 Revert "hwmon: (ibmpex) fix use-after-free in high/low store"
 9e33c1dba22431bea9b2bf48adf56859e52fc7ec hwmon: (pmbus/mpq8785) fix VOUT_MODE mismatch during identification
-5a5203a45b063a594e89a2aeaf9e4923893a5b4c platform/x86: lenovo-wmi-{capdata,other}: Fix HWMON channel visibility
 9adbe8935152c511c1e43a47d69f44f0e969afc8 selftests/landlock: Add filesystem access benchmark
 45f2a2926b2187d1b08132d2728af50785b007a7 landlock: Add access_mask_subset() helper
 65b691f84dba54a446518c51b25d3d4f1739dec5 landlock: Transpose the layer masks data structure
@@ -1072,4 +1072,4 @@ aaf96df9593bf4ab1b73c17891e4efe7570fdef3 CREDITS: Add -next to Stephen Rothwell'
 fbf33803618ad4f531f78fe15cf328fe6c7f9978 Merge tag 'fsverity-for-linus' of git://git.kernel.org/pub/scm/fs/fsverity/linux
 6de23f81a5e08be8fbf5e8d7e9febc72a5b5f27f Linux 7.0-rc1
 
---===============3882355648319046472==--
+--===============3610705209829286737==--
