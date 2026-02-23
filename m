@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3130120631308994357=="
+Content-Type: multipart/mixed; boundary="===============3883818832394679298=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Mon, 23 Feb 2026 07:11:21 -0000
-Message-Id: <177183068153.3578958.9981425101225081394@gitolite.kernel.org>
+Date: Mon, 23 Feb 2026 07:12:03 -0000
+Message-Id: <177183072320.3579330.6639328178215092438@gitolite.kernel.org>
 
---===============3130120631308994357==
+--===============3883818832394679298==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,47 +16,62 @@ repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/class_cleanup
-    old: 4fc60fcfdebfa1fa7c5197b7cc3c7a3e0f398c6a
-    new: d466c332e106fe666d1e2f5a24d08e308bebbfa1
-    log: revlist-4fc60fcfdebf-d466c332e106.txt
+  - ref: refs/heads/container_of_const_mess
+    old: ba980c3351e7996615dd76b2bac243edc3085155
+    new: a98c16e188d446e9e27acb575a9d4e658bdd3e59
+    log: revlist-ba980c3351e7-a98c16e188d4.txt
 
---===============3130120631308994357==
+--===============3883818832394679298==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1771830677 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1771830718 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1771830676-cb69ac1c0e070e4f49fc30ffe3b25a54eb178ca7
+nonce 1771830717-5b06486fe4ece98cb2bd445d8e332012b745fc3d
 
-4fc60fcfdebfa1fa7c5197b7cc3c7a3e0f398c6a d466c332e106fe666d1e2f5a24d08e308bebbfa1 refs/heads/class_cleanup
+ba980c3351e7996615dd76b2bac243edc3085155 a98c16e188d446e9e27acb575a9d4e658bdd3e59 refs/heads/container_of_const_mess
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmmb/ZUbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+l0AP/0p4fHxlq+gt/GV8jjqs
-3Ow//9ICptHg4wUZDfLWdDpjK08mYStFgRuWbOcfFI2777Vyb4DJl+EnuIVJ8Hyx
-RSyRGLAPSQuZacENhvy2uSkqhBA5RnsiIWPfMJKErTDPJs7DqTHvO8nLiiXJKV6j
-ZvjrMv+DHAue6V5iMMWhDY1sGIF0QTFtTiM1wnYwuwFJdBpORp45Hq75bOAgkcWp
-nrn9d/5ZjVONt8i69DGay7HY/55cU0R9mXPuqDqL92phreQ+7iLCtWzA+yHtcGAo
-iJlYuc9m0OO2hLkS17lkvrVNmv+nTZiWldswjoTwmnZoYZoAUAF19tPP2pvWtY7e
-9iftxVTwc9nBqBs4DeGoJKXt7PPxThPpRm4bH+hod9LtE3Wlvw/XN0eTmTrC0U1n
-9DYt+I2KlvZuUAPI0/wCApyLSiMytxg6qYUOrsi2Y4SyUCn1vFRjlqvfkfe4sfHd
-MhIZblnmp9ZlTzOaDP6juzMFlAaXkrJ4bd73tRAVJdDg6j8WE33hmi7I8uVpFeTW
-0A7qObBSTbq1tnEOg+lh1RWcVzGUdSmBnF0v7KS0+6ZSwG78Ts7yO3TYvRxf4RO9
-toucUW2QhKIwPAukgtZDk9nXyomnI3pyyMCQbx1dDTYTAxK3WqD7wVLEY9Uuisus
-PMh41nKK0ef9lXr/MzGQgGsh
-=MeTs
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmmb/b4bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+RPQQAMmoumxzyS9Ury49eGla
+LB3wI93k3pGChYPoQzhZfVjh9OAyC+hp7s3WCWQ4F5kJXbVPVopP6ZdFhqLZV+kw
+pLlwn4YgKQfKXK+1vd0oWzOGZPe3AuqAHaWC4Mj9qpKZ/IeVaXHbOCD05MCR+xwW
+HYxG3v1O/MAMn8l0T7iFpSc7mHs8UT6I3jvMmadIrLoYsJFQJD8qPJH6l/+dq+j4
+gFdNLuTLdROMiLNMO0kA1nTyD6ZpkokbaugagljVSZarui2mUy1DMWIWY5PuHDzO
+T8isfYoDFrx4/gG8HVvInFbiWAD7lzpuho/AZ7uHU3cK4sc+BOJjwwhnn7JWUgPv
+EfA+tXMAc35bc9j5gsYJFG8DlkPGMRQ9QrVXjpoGOBK8SE9cWQWfME+naMkmC08s
+3fzsywVQKfefC8ODodYZ5f+0uL3OA2BJa918KCJZunf7+N3kJw2qJTSZ+wpl4X9N
+uQlfwixI+xmOprUVmX9vCYtEihbFO0jzxPVMgnQTP6Br6rR0yFaymoIu1nNhXYaf
+ef6eGXxzUg6z/AFzof7IZ5qbS1nnVi2uMWU6TbrWyfynpahR67biZLSW8JyKSXfm
+F0GWjSLEtoG/GcY5UlIf1NIwR2SHUi8UN9OwRGERB1Yi1oo73K+PXFSHMXyQvtnq
+BueIaMHdTG2yWSlgDc8SXtma
+=c0VF
 -----END PGP SIGNATURE-----
 
---===============3130120631308994357==
+--===============3883818832394679298==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-4fc60fcfdebf-d466c332e106.txt
+Content-Disposition: attachment; filename=revlist-ba980c3351e7-a98c16e188d4.txt
 
+698749164aa53cc313248efd2dc1c25dcf25c99c Merge tag 'audit-pr-20260203' of git://git.kernel.org/pub/scm/linux/kernel/git/pcmoore/audit
+bcc8fd3e1573c502edc0cb61abea0e113a761799 Merge tag 'lsm-pr-20260203' of git://git.kernel.org/pub/scm/linux/kernel/git/pcmoore/lsm
+1d3ffe6233b1b6e8697f5027b9441ce70385c997 perf tests workload: Formatting for code_with_type.rs
+6252e917b9006dfa2f3d884fe0dbaf3e676c4108 Merge tag 'selinux-pr-20260203' of git://git.kernel.org/pub/scm/linux/kernel/git/pcmoore/selinux
+42e7c876b182da65723700f6bc507a8aecb10d3b fs/nfs: Fix readdir slow-start regression
+fdc0396b3cc05dc9b678627af23c3fdc7dbe930e nfs: unify security_inode_listsecurity() calls
+3d57c44e918012db1f901d50bc9195a8812ad602 NFSv4: pass lease period in seconds to nfs4_set_lease_period()
+e29a3e61eef6b6c2e60bc1872e9da3bcdbc46c17 NFSv4: limit lease period in nfs4_set_lease_period()
+4b6c6bc6fab51684cc129f91211734f87db6b065 Merge tag 'vfs-7.0-rc1.rust' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
+2a400eeba40b4cf1fb28f78f41bf73a898b00d06 perf test code_with_type.sh: Skip test if rust wasn't available at build time
+bdc5071d7f7bb82589737741e9bf19820ceb7a6a coccinelle: Add kmalloc_objs conversion script
+3d012b8614ee020666f3dd15af9f65dc487e3f5f perf test: Fix test case perftool-testsuite_report for s390
+996812c453cafa042f2e674738dbf8fa495661f3 Merge tag 'vfs-7.0-rc1.initrd' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
+728bea264883031c377fcc9c465b650dbfd1bbf5 sunrpc: rpc_debug and others are defined even if CONFIG_SUNRPC_DEBUG unset
+afb24505ff6583eb5150b4a54086188494d25c28 SUNRPC: Change list definition method
 1075e8e826b27aac92925c44d6d3c794e4d2ce0b nfs: nfs4proc: Convert comma to semicolon
 74554251dfc9374ebf1a9dfc54d6745d56bb9265 Merge tag 'vfs-7.0-rc1.nonblocking_timestamps' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
 b211a30690f8263b79f30b6b1770ffe216fa378c docs: kdoc_parser: allow __exit in function prototypes
@@ -1063,23 +1078,8 @@ aaf96df9593bf4ab1b73c17891e4efe7570fdef3 CREDITS: Add -next to Stephen Rothwell'
 75e1f66a9ed09f29c6883ea379c174e8cf31f7cc Merge tag 'libcrypto-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/ebiggers/linux
 fbf33803618ad4f531f78fe15cf328fe6c7f9978 Merge tag 'fsverity-for-linus' of git://git.kernel.org/pub/scm/fs/fsverity/linux
 6de23f81a5e08be8fbf5e8d7e9febc72a5b5f27f Linux 7.0-rc1
-bd642868aba5029a8c8852016b7c182b6617fa5e drm/dp: make drm_dp_aux_dev_class constant
-738a1177e3d2d0d872290097b15c8ed2cd1f1754 drm/sysfs: make drm_class constant
-0c3b716b0277e20047f9f2b94862a11a8f960b66 drm/fbdev/core: make fb_class constant
-53791dae31eff9bd48a1746c0bdbded9139145ea dma-buf: heaps: make dma_heap_class constant
-3680cbbcc3006c92e1f39a6450efb3e254651346 media: dvbdev: make dvb_class constant
-0c650f00486d61cbbcd24968478f5e1038b8327f drm/dp: constify the struct device_type usage
-dddf1dba4fcecbadd4f77b927024a48ebd9b5d7b drm/privacy_screen: constify the struct device_type usage
-673d20289ac815e5c577348203027ff0f649ca9e drm/sysfs: constify the struct device_type usage
-d116e51c2e3e6e98718f8f1e0c601397b20610d4 rapidio: make rio_mport_class constant
-8c818abeac2944f31933e7a55d7868bc9fdf159e parport: constify the struct device_type usage
-8b993cc2c6fc1e582731d78885f3dc45df5bb028 coda: psdev: make coda_psdev_class a static const structure
-e8b54e7b36e435629814ad4f5de02462be3da920 cuse: make cuse_class a static const structure
-db5d4bca21913475caf0fb0aa7f2adcab357c079 pstore: pmsg: make pmsg_class a static const structure
-cfcde14c86845822f946c84b67a8a503ed3d3428 netfilter:xt_IDLETIMER: make idletimer_tg_class a static const structure
-87a667ff5b90fabcbd694707732174d8cffaba85 PM: wakeup: make wakeup_class a static const structure
-db0732d2861bcd8f1f6d8e18ff120b7ca111b973 gnss: make gnss_class a static const structure
-58743d8f1bdadfa4696dea0f648d1d278e62979d extcon: make extcon_class a static const structure
-d466c332e106fe666d1e2f5a24d08e308bebbfa1 misc: c2port: core: make c2port_class a static const structure
+c45aca2638daf227729c406262ae5b2203571f47 container_of: switch to be a const call
+d75c895278f5b5cb986e8d3600ec6a4d14bc1fb6 generic: fix up some const issues.
+a98c16e188d446e9e27acb575a9d4e658bdd3e59 bpf: const stuff
 
---===============3130120631308994357==--
+--===============3883818832394679298==--
