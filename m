@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6731041209943198189=="
+Content-Type: multipart/mixed; boundary="===============2131464450949518594=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Mon, 23 Feb 2026 07:02:57 -0000
-Message-Id: <177183017788.3566178.11977770402499073555@gitolite.kernel.org>
+Date: Mon, 23 Feb 2026 07:03:01 -0000
+Message-Id: <177183018127.3566315.15182205392934948422@gitolite.kernel.org>
 
---===============6731041209943198189==
+--===============2131464450949518594==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,42 @@ repo: pub/scm/linux/kernel/git/gregkh/char-misc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
+  - ref: refs/heads/char-misc-linus
     old: 32a92f8c89326985e05dce8b22d3f0aa07a3e1bd
     new: 6de23f81a5e08be8fbf5e8d7e9febc72a5b5f27f
     log: revlist-32a92f8c8932-6de23f81a5e0.txt
 
---===============6731041209943198189==
+--===============2131464450949518594==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1771830176 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1771830179 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1771830176-54577a87c2772c7319f22afed7e20c450dc1723c
+nonce 1771830179-c0fa137eabc8b789e50046047dc04587b38e92f7
 
-32a92f8c89326985e05dce8b22d3f0aa07a3e1bd 6de23f81a5e08be8fbf5e8d7e9febc72a5b5f27f refs/heads/main
+32a92f8c89326985e05dce8b22d3f0aa07a3e1bd 6de23f81a5e08be8fbf5e8d7e9febc72a5b5f27f refs/heads/char-misc-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmmb+6AbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+P6cP/1za0zeLmD4JL5bOSsAx
-Vk0EYMaY6NCHP8Ww2rsCg4dNtKW6Raq9RXw1iYdSv3ByGDf3JEdqrOp3E4HX8ccB
-oZP1HUJqcRwd7qforsr3x46/BWT2/OQvg4XPSk1AsK5rAnO534lsnn8/lirvJQ1Y
-3qYFUC8lS0Ak1Gusbfk0dYot9SbxxsPKOytbi6+rqsdQSYm+jJWdPNf2E93q1PrS
-vnAY6eGbznCr3NztkblpMzLWQVoKlu8aCUSDX+FNLYhvEFio/h14B9tO1iIVwSLH
-mcfU7aGogCzUHKfHVWk9q6TdZjxiVi+2qXKllxSe8JE7zH6c6PKjB7u89MtnUQPJ
-Av2NqdQTmZkDSgrZ3mNxjV1bGuuw8R1aNw3JDy+dl1ofa0V9LmEWvM7HUtKfWg2+
-5Wryl8lMYXcaojRnI+QqISOtI+uD/BJOXvekb46+60y/xVHX0ev8kq2r2acu+0Xt
-7w8YfnGEFnaJ5iu/7GLaotD7tDKNhnmx9tQ+krLJ9jh7dx4Du5w/CX6RTbls/6yd
-WyDd7FvTxG3DZiiGQA0K0/fVcptBSIbM/o0mxfP6eAwuq1U+N+NuNX278n6PtNfc
-ffyfD6lzAx3GSbUqoWgZ8wiHVlOdP1O05KQLT3Kpk5CCYasNTMln22llhcTA20JP
-e0/QRNBQiMFsgz0MZjyaNmyO
-=UBAO
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmmb+6MbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+/boP/jWEpVXUhOq1hWYS0s6k
+yqcxxsBxwjV76WoCKvQ2nyr8wZrn/BulkSODbaj5b79FAxzL4sv6OVeMjeOSps8e
+1wTJdJKoNHqE1lzkzOmHfuA93DfIxN2NMTLM3WJuoMSKu24ba+p2JQi6rjr4PXrk
+70Wlqavi5ydZCqEYqeRC1fsCgJaq9Uqjat2O1tSHZ/W8lZkhuRfGv77bnX/ovbJ9
+JBvSQrZqQoPPdKTu73EsEvVWF5hU4OflMkkRxSxemDinEoBw/3BXTY7+yHPzy5D7
+YTnsrSRb1UKqRMzxnI4Kr5zLGotkbkXrOhhpimr3IbYDnC0RjulcjfhTGIE5nraC
+D8mNFmh29VSSiRS19ouOW0PjvyypPEt7f2wAD2z7QCwVyXR8NapCP0SIOKkDwcZ7
+4NYWueeQX2lchoBE0lMF6b2wzeE76EblVM1DtQ2CcqX0iJXTQzi3bxp4pS7u+yp4
+k+5X51V2CyD5uDOa04SRJCw6odphZ5dGazQtcDvuADyEeI/IhgUbeO152MT/lB71
+PDyuJOxpY8hJ+OPTKZ8ybXX0JAdNhhW6ezT/F1hicNZJixP717NmUu2EYNcyusZW
+uXYMRj4RW5NHNhVSOSE6jqMlIec6hYjNnoCepLEj9qrtuMwrupH2+UXy0hQBX8S7
+ei4n20eLYvEsMjTCSKLaPVXW
+=QHIr
 -----END PGP SIGNATURE-----
 
---===============6731041209943198189==
+--===============2131464450949518594==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -98,4 +98,4 @@ aaf96df9593bf4ab1b73c17891e4efe7570fdef3 CREDITS: Add -next to Stephen Rothwell'
 fbf33803618ad4f531f78fe15cf328fe6c7f9978 Merge tag 'fsverity-for-linus' of git://git.kernel.org/pub/scm/fs/fsverity/linux
 6de23f81a5e08be8fbf5e8d7e9febc72a5b5f27f Linux 7.0-rc1
 
---===============6731041209943198189==--
+--===============2131464450949518594==--
