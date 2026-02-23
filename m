@@ -1,22 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============0466625983205922633=="
+Content-Type: multipart/mixed; boundary="===============7209597450664039867=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Mon, 23 Feb 2026 23:45:31 -0000
-Message-Id: <177189033150.243288.2618541488790507288@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Mon, 23 Feb 2026 23:45:34 -0000
+Message-Id: <177189033465.243473.15995187586531951236@gitolite.kernel.org>
 
---===============0466625983205922633==
+--===============7209597450664039867==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-7.1
+  - ref: refs/heads/asoc-7.1
     old: 910a78d816e4b0277f4917d607a1213e0dd6cdd6
     new: 70bbd833986ae6691b3609a0052a733ff2421565
     log: |
@@ -27,28 +27,28 @@ changes:
          70bbd833986ae6691b3609a0052a733ff2421565 ASoC: Add DMIC support for the AMD RPL platform
          
 
---===============0466625983205922633==
+--===============7209597450664039867==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1771890330 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1771890329-35dce1ef77b23d22dd6e6b5adc1ca0d5d4abc040
+pusher C3F436CA30F5D8EB 1771890333 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1771890332-26588e677a050b502ff8f48dc0374484e755ee48
 
-910a78d816e4b0277f4917d607a1213e0dd6cdd6 70bbd833986ae6691b3609a0052a733ff2421565 refs/heads/for-7.1
+910a78d816e4b0277f4917d607a1213e0dd6cdd6 70bbd833986ae6691b3609a0052a733ff2421565 refs/heads/asoc-7.1
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmmc5poACgkQJNaLcl1U
-h9AoHwf+LJ9xhkc5DJOdO8cJ1CPHwBJ402VozVy+Np2u3+kEEVUP48vQmMD5S9aa
-PXsz2C7daEQCGo5WdzCwlp8IIsdJKWGedxQU3Pc3EjOIsWZVM97HB8FgRpxr/KTo
-aMTxO7Jksi4s3UpxVtOSuq9iKHEsqduynCnwoEax6GF5DSQsoNIicseWO2l+I4Wx
-r4dTLFTdJlxdDElnI6jHqdaxexUxwqY/ygWN8Ug1Od7Jkz5X4ZU7a90SMd1B0DNw
-XkSDPPM4x2+nv36IyKG/PTJXdPzlhejxKlIqCHUXyULfV9OIcX9mc0M+IcLX1L5H
-/zSL2o6DtPnAlGj/smljqfuucsGDBg==
-=i8DO
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmmc5p0ACgkQJNaLcl1U
+h9BK+wf+KhXzNmU8qpqu0XZxpkzAbLHKmNwSpW6WkBHst8HY7QJ4NpVX43GWkRwZ
+d5/jP1JpPH+u+7neDbJK5/pD2tpEEqJNuGURCKse2rGcrZ2LH1LXwriDhkQ2qA/r
+n3VWks/A4txAfvT3Aw4JHlpk7gYstiVr4myp14faJe4cg8v7DCOy4TFiawEUV5CW
+0mUbMQ6Zo1WFzNP7JWFbwshuopjSV1nDQDZWjbvS7s27cqNqau4skJZt5h74yHoN
+VhkHVtGZtH8j4XaeYXNWRHMkVyhGp2p4aGb+tlwSWXeq/yyLYX0Y2Dz10RgCywcV
+Zj1VjEwBAwTK78Z/tPazSO2xkoNyuQ==
+=0O3d
 -----END PGP SIGNATURE-----
 
---===============0466625983205922633==--
+--===============7209597450664039867==--
