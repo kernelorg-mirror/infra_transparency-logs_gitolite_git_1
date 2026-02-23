@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2288216713211714649=="
+Content-Type: multipart/mixed; boundary="===============4818546201946765292=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Mon, 23 Feb 2026 07:06:04 -0000
-Message-Id: <177183036430.3573638.8462199541046033783@gitolite.kernel.org>
+Date: Mon, 23 Feb 2026 07:06:08 -0000
+Message-Id: <177183036837.3573832.7262341730701465350@gitolite.kernel.org>
 
---===============2288216713211714649==
+--===============4818546201946765292==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,42 @@ repo: pub/scm/linux/kernel/git/gregkh/tty
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/tty-linus
+  - ref: refs/heads/tty-next
     old: 8bf22c33e7a172fbc72464f4cc484d23a6b412ba
     new: 6de23f81a5e08be8fbf5e8d7e9febc72a5b5f27f
     log: revlist-8bf22c33e7a1-6de23f81a5e0.txt
 
---===============2288216713211714649==
+--===============4818546201946765292==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1771830362 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1771830366 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1771830362-de5da9d01fad78b6dc63d927410f8f27417d6b5f
+nonce 1771830367-3fea55248903ad3f3b8840157d37f338f059b2e3
 
-8bf22c33e7a172fbc72464f4cc484d23a6b412ba 6de23f81a5e08be8fbf5e8d7e9febc72a5b5f27f refs/heads/tty-linus
+8bf22c33e7a172fbc72464f4cc484d23a6b412ba 6de23f81a5e08be8fbf5e8d7e9febc72a5b5f27f refs/heads/tty-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmmb/FobHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+LmQQANDfWlCCdmPyuyb5QpLO
-3mRfZwisHAicunDl4uNuKg9ox0mXoCu6wTLj8vFb+h1MBCqgCOxvZwDn0cFxrmYI
-hOZpBG9M2h+ZKx+XTOqLVxAmLFAV/89NdWMgcr6dzE8WhxWy/4LjtfSaynL31NQd
-+0G90g3QPIPyesltfB6jamBBedUZyl12NwhfQNLk5mFM5FPBJpe7pg8BY9vu1NSg
-kt3Fa9DouBzUPRGJE8xLOr+o3so6v4OYs160N+4Owq3zx84bGMCGefwy8Ek0wPnJ
-cL8xQ2NF9935D/M9yswGF1aQA6gXpK/dw5VHpoIWgmE4EXrRMWES3dgxCkVPBL2v
-xx41NQcvEIwXd6yhNz1iQdd07ysBdznFe8095RpCTtnuPVvXInzeg16DqMqQhJrG
-LmWcrIi7mWDgXUn2g8lyguarzcmPeRfuiXaxiHL+BeDfHhX1/5inkkG1bJRA3phy
-oAyQliTZ8ByHMsZJd99wb9/Y/f4kA+4KQ9CTp3Iu5XimfGvWTLVwGVScGf/fadcN
-yJVKYCuQ2/2pgJPv4PIUyY3Sgzi3COg3oLqcDQKWkVVivIs5hVGuTuOfkAjYgBdC
-U9gRBwsX8pAlkq/X4Mo/B32jJd3Qb/buM/HfjzeKNTb5x68wAG4/0kxeVq1Y3ZNS
-5dRsgQYE+JoxHse/QndNDvwg
-=YKL1
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmmb/F4bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+iAkP/Ay8vorb4zXIBk5jwXAF
+f0n2CdMr78CeBFdEs9xnHMsKEQ47Y95qmMrPfyngZ4CD0r3kOY9O7j1r7asq7PEj
+X99ZjXx5IJRrWpdMkSRXvcbCVnb/4X/LqFxD0R3iRR5iCEZ/2TxKD6vQinVni4cK
+s9H1BY+NEbbG0cBDTLUA5XH3Ibwt65UXUimrUwM/ol9xiA7Hk16vU/aeU67Y0eOS
+grpZgChXh+xusV97dCvxjvix/BrCQ7kZvHd7vDfPqwrlEbYcN5Tg0Z2EqyGMTOsK
+rAek5b8rf1BSgrivuH+iB/m5a5XAwjTuDEEVXbMxTJRW4YGIO+Mglqt+EYFt0rNw
+krp8kjxW3p3KHdrTvwIa5QC3d77d7FSswRq8AnC/iYfp1OPEyfxoYsQycAkesWL4
+UV4WZ/51z1xAdUr7XOQChTloEuKeShrILQ5/qUIy/Q8ITSbS7dLJDkEpUp3i2x5O
+/XnDXgdTI3MPFXkxfrOBGH8LvqNJIfERZ2cKydEdoPFkDW9N6Kozlm6IMWIgOs8V
+pBpEgYsdsVeHWuO7Wrtry1psHfcvNDqfCq3yc/gtUhPK/+2s6cQDnqnd4t5+GjBg
+pdyAkeYNBpST8x1sNhd5az0P/Vp4ZEMtpCc2I8K5Nyf/FtZKeKZFB0xEm655d0hV
+n2FQO7YOwSA3r+PskNR5VQ2P
+=NvAC
 -----END PGP SIGNATURE-----
 
---===============2288216713211714649==
+--===============4818546201946765292==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -753,4 +753,4 @@ aaf96df9593bf4ab1b73c17891e4efe7570fdef3 CREDITS: Add -next to Stephen Rothwell'
 fbf33803618ad4f531f78fe15cf328fe6c7f9978 Merge tag 'fsverity-for-linus' of git://git.kernel.org/pub/scm/fs/fsverity/linux
 6de23f81a5e08be8fbf5e8d7e9febc72a5b5f27f Linux 7.0-rc1
 
---===============2288216713211714649==--
+--===============4818546201946765292==--
