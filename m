@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3571156759309078602=="
+Content-Type: multipart/mixed; boundary="===============7617952633413273293=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/conor/linux
-Date: Mon, 23 Feb 2026 18:24:28 -0000
-Message-Id: <177187106846.4162117.10457861516447383303@gitolite.kernel.org>
+Date: Mon, 23 Feb 2026 18:27:24 -0000
+Message-Id: <177187124436.4166018.1304743379304966325@gitolite.kernel.org>
 
---===============3571156759309078602==
+--===============7617952633413273293==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,20 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/conor/linux
 user: conor
 changes:
-  - ref: refs/heads/tsu
-    old: 337a7d055cefb232bf76f1e0552cff81009ce694
-    new: 339d2eb2ba654758b2a773f81bd41310b49e61c8
-    log: revlist-337a7d055cef-339d2eb2ba65.txt
+  - ref: refs/heads/pic64gx
+    old: 0ce5da1309c9906802f7948ae7009dc402b85924
+    new: b099450de69fcca4b8b4ce759315f8d1d707f4ce
+    log: revlist-0ce5da1309c9-b099450de69f.txt
 
---===============3571156759309078602==
+--===============7617952633413273293==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-337a7d055cef-339d2eb2ba65.txt
+Content-Disposition: attachment; filename=revlist-0ce5da1309c9-b099450de69f.txt
 
-3d57c44e918012db1f901d50bc9195a8812ad602 NFSv4: pass lease period in seconds to nfs4_set_lease_period()
-e29a3e61eef6b6c2e60bc1872e9da3bcdbc46c17 NFSv4: limit lease period in nfs4_set_lease_period()
-4b6c6bc6fab51684cc129f91211734f87db6b065 Merge tag 'vfs-7.0-rc1.rust' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
 2a400eeba40b4cf1fb28f78f41bf73a898b00d06 perf test code_with_type.sh: Skip test if rust wasn't available at build time
 bdc5071d7f7bb82589737741e9bf19820ceb7a6a coccinelle: Add kmalloc_objs conversion script
 3d012b8614ee020666f3dd15af9f65dc487e3f5f perf test: Fix test case perftool-testsuite_report for s390
@@ -1041,14 +1038,17 @@ aaf96df9593bf4ab1b73c17891e4efe7570fdef3 CREDITS: Add -next to Stephen Rothwell'
 75e1f66a9ed09f29c6883ea379c174e8cf31f7cc Merge tag 'libcrypto-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/ebiggers/linux
 fbf33803618ad4f531f78fe15cf328fe6c7f9978 Merge tag 'fsverity-for-linus' of git://git.kernel.org/pub/scm/fs/fsverity/linux
 6de23f81a5e08be8fbf5e8d7e9febc72a5b5f27f Linux 7.0-rc1
-c204e8428dd5790fc1ca3d40eb15234dc079901a riscv: dts: microchip: add tsu clock to macb on mpfs
-76b94ca757e6e556abe0ce0df46e6b9ff5f48c56 net: macb: rename macb_default_usrio to at91_default_usrio as not all platforms have mii mode control in usrio
-7d0b337a67e11d55d65526631ec2826af89a2bc4 net: macb: np4 doesn't need a usrio pointer
-dbe81bc59894571deaf47070e1a744ad262af2a3 dt-bindings: net: macb: add property indicating timer adjust mode
-1baf4bfa31e3646426c12d966b431c4444e8b312 net: macb: timer adjust mode is not supported
-44332de210670029c32bbd558384b9aa69ca4ee0 net: macb: add mpfs specific usrio configuration
-e1c7f905a54f8458e801712117d34e0ef8b47747 net: macb: warn on pclk use as a tsu_clk fallback
-6eaaa4c14f0e3150a1dfc3e5506fc40ceba39fb5 net: macb: clean up tsu clk rate acquisition
-339d2eb2ba654758b2a773f81bd41310b49e61c8 fixups
+e49bc36dfabc5b9668317af80afbc01ffc7b7959 dt-bindings: soc: microchip: add compatible for the mss-top-sysreg on pic64gx
+3b5b734ccaa917620921a7010e9546802404a3cd dt-bindings: soc: microchip: mpfs-sys-controller: Add pic64gx compatibility
+4a5e9b065be275432b8f2c26f3d09b80e46490c7 soc: microchip: mpfs-sys-controller: add support for pic64gx
+e4fc66ad9d39ce88180a7ebd07d450f390ac5c1b dt-bindings: timer: sifive,clint: add pic64gx compatibility
+a147487dbd425f522a98d80ff4f468d98bd061be riscv: dts: microchip: can on mpfs requires resets to function correctly
+34e5570e81c93b54a317702c788007202e7e8f57 dt-bindings: riscv: microchip: document the PIC64GX curiosity kit
+ef4370b8443937b16300eaa844cb2e357a1fdb00 riscv: dts: microchip: add pic64gx and its curiosity kit
+cb7d2aa66f67e805aa37acede4793f8656abef96 riscv: dts: microchip: remove POLARFIRE mention in Makefile
+6599f74ea8a581b1b7390a64e519411302267a99 i2c: microchip-core: drop POLARFIRE from ARCH_MICROCHIP_POLARFIRE
+7790d54c56150cb7f460caa5a2af6891a56a8b42 pwm: microchip-core: drop POLARFIRE from ARCH_MICROCHIP_POLARFIRE
+dd9bbadc4c0653dc7c1c84eb132026ea4b201d61 rtc: mpfs: drop POLARFIRE from ARCH_MICROCHIP_POLARFIRE
+b099450de69fcca4b8b4ce759315f8d1d707f4ce usb: musb: mpfs: drop POLARFIRE from ARCH_MICROCHIP_POLARFIRE
 
---===============3571156759309078602==--
+--===============7617952633413273293==--
