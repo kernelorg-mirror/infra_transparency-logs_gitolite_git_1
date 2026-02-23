@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7850159837332620099=="
+Content-Type: multipart/mixed; boundary="===============8690870836726379078=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/johan/usb-serial
-Date: Mon, 23 Feb 2026 08:46:32 -0000
-Message-Id: <177183639252.3662566.13528550042478309217@gitolite.kernel.org>
+Date: Mon, 23 Feb 2026 08:46:42 -0000
+Message-Id: <177183640205.3662785.17117740451469653534@gitolite.kernel.org>
 
---===============7850159837332620099==
+--===============8690870836726379078==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/johan/usb-serial
 user: johan
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/usb-linus
     old: 24d479d26b25bce5faea3ddd9fa8f3a6c3129ea7
     new: 6de23f81a5e08be8fbf5e8d7e9febc72a5b5f27f
     log: revlist-24d479d26b25-6de23f81a5e0.txt
 
---===============7850159837332620099==
+--===============8690870836726379078==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -1051,4 +1051,4 @@ aaf96df9593bf4ab1b73c17891e4efe7570fdef3 CREDITS: Add -next to Stephen Rothwell'
 fbf33803618ad4f531f78fe15cf328fe6c7f9978 Merge tag 'fsverity-for-linus' of git://git.kernel.org/pub/scm/fs/fsverity/linux
 6de23f81a5e08be8fbf5e8d7e9febc72a5b5f27f Linux 7.0-rc1
 
---===============7850159837332620099==--
+--===============8690870836726379078==--
