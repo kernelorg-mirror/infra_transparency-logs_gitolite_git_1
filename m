@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bcain/linux
-Date: Mon, 23 Feb 2026 18:42:26 -0000
-Message-Id: <177187214697.4179699.9202686073418871570@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
+Date: Mon, 23 Feb 2026 18:53:29 -0000
+Message-Id: <177187280990.4187697.3800219497105325105@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bcain/linux
-user: bcain
+repo: pub/scm/linux/kernel/git/akpm/25-new
+user: akpm
 changes:
-  - ref: refs/heads/bcain/boot_qemu
-    old: a6b76fb43619a57fe130dcc1551e5a0daf10e544
-    new: e5821aa02512b6fff44e91658d8ce2fb8defbaf1
+  - ref: refs/heads/master
+    old: f35c85f6f68be7583da5e1cd37e90c1f0ee14de6
+    new: f610b461f7c8cd7d7c0dfc7b9f010bfb14853b77
     log: |
-         24c4c3ca929f50beb65e285794562383a872828a hexagon: add IPI polling workaround for QEMU TCG SMP boot
-         49cdd1f9c57840c32fd8ff0fefd6d54f6905901c hexagon: initialize pm_power_off to hexagon_pm_power_off
-         e5821aa02512b6fff44e91658d8ce2fb8defbaf1 hexagon: use semihosting to exit QEMU on power off
+         f610b461f7c8cd7d7c0dfc7b9f010bfb14853b77 foo
          
