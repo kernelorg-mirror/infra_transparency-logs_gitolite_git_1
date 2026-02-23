@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8605431744574070368=="
+Content-Type: multipart/mixed; boundary="===============5169909173120870940=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
-Date: Mon, 23 Feb 2026 15:23:11 -0000
-Message-Id: <177186019195.4001306.15695342663192128771@gitolite.kernel.org>
+Date: Mon, 23 Feb 2026 15:23:20 -0000
+Message-Id: <177186020063.4001528.17901767106238224775@gitolite.kernel.org>
 
---===============8605431744574070368==
+--===============5169909173120870940==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,21 +15,18 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/pci/pci
 user: helgaas
 changes:
-  - ref: refs/heads/main
-    old: 1c2b4a4c2bcb950f182eeeb33d94b565607608cf
+  - ref: refs/heads/for-linus
+    old: 8d275a84f0d117c0e68b9fe997b6b82885d5ca3c
     new: 6de23f81a5e08be8fbf5e8d7e9febc72a5b5f27f
-    log: revlist-1c2b4a4c2bcb-6de23f81a5e0.txt
-  - ref: refs/heads/next
-    old: 1c2b4a4c2bcb950f182eeeb33d94b565607608cf
-    new: 6de23f81a5e08be8fbf5e8d7e9febc72a5b5f27f
-    log: revlist-1c2b4a4c2bcb-6de23f81a5e0.txt
+    log: revlist-8d275a84f0d1-6de23f81a5e0.txt
 
---===============8605431744574070368==
+--===============5169909173120870940==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1c2b4a4c2bcb-6de23f81a5e0.txt
+Content-Disposition: attachment; filename=revlist-8d275a84f0d1-6de23f81a5e0.txt
 
+c0165fcb8d9f444817843964027ed191d85d66c4 net: mana: Remove jumbo_remove step from TX path
 28df1c69271cf826235a3e0f1ec083cc313fafe8 bng_en: Remove jumbo_remove step from TX path
 35f66ce900370ed0eab6553977adc0a2fb9cccfb net/ipv6: Remove HBH helpers
 1fdad81d880349756414b1a7d4e2a8bdf52664e6 Merge branch 'big-tcp-without-hbh-in-ipv6'
@@ -416,7 +413,6 @@ df989b01b5f97dae8f9869cfacbda1308f2182c1 Merge 7.0 Kbuild changes into kbuild-fi
 68b4fe32d73789dea23e356f468de67c8367ef8f kbuild: Add objtool to top-level clean target
 d53f4d93f3d686fd64513abb3977c9116bbfdaf8 Merge tag 'v7.0-rc-part1-ksmbd-and-smbdirect-fixes' of git://git.samba.org/ksmbd
 cf559d9011140087abf84b34871849ee8e305bca Merge tag 'for-linus-7.0-ofs1' of git://git.kernel.org/pub/scm/linux/kernel/git/hubcap/linux
-e5f72cb9cea599dc9f5a9b80a33560a1d06f01cc PCI: Validate window resource type in pbus_select_window_for_type()
 11fece49e956ef97318177f5af15a84317594244 tools/sched_ext: scx_flatcg: zero-initialize stats counter array
 988369d236e46e6bc68d2616fbc008aa6b06a454 tools/sched_ext: scx_central: fix sched_setaffinity() call with the set size
 178574549e421755dbe1e4721e20ca6c10af4900 Merge tag 'jfs-7.0' of github.com:kleikamp/linux-shaggy
@@ -1055,4 +1051,4 @@ aaf96df9593bf4ab1b73c17891e4efe7570fdef3 CREDITS: Add -next to Stephen Rothwell'
 fbf33803618ad4f531f78fe15cf328fe6c7f9978 Merge tag 'fsverity-for-linus' of git://git.kernel.org/pub/scm/fs/fsverity/linux
 6de23f81a5e08be8fbf5e8d7e9febc72a5b5f27f Linux 7.0-rc1
 
---===============8605431744574070368==--
+--===============5169909173120870940==--
