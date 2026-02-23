@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1510859278370188495=="
+Content-Type: multipart/mixed; boundary="===============6350716838380926690=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs
-Date: Mon, 23 Feb 2026 16:54:35 -0000
-Message-Id: <177186567531.4082208.3446273230127689016@gitolite.kernel.org>
+Date: Mon, 23 Feb 2026 16:54:52 -0000
+Message-Id: <177186569222.4082502.6576811049358507217@gitolite.kernel.org>
 
---===============1510859278370188495==
+--===============6350716838380926690==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,15 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jaegeuk/f2fs
 user: jaegeuk
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/dev
     old: e81dd54f62c753dd423d1a9b62481a1c599fb975
     new: 6de23f81a5e08be8fbf5e8d7e9febc72a5b5f27f
     log: revlist-e81dd54f62c7-6de23f81a5e0.txt
-  - ref: refs/tags/v7.0-rc1
-    old: 0000000000000000000000000000000000000000
-    new: 559f264e403e4d58d56a17595c60a1de011c5e20
 
---===============1510859278370188495==
+--===============6350716838380926690==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1014,4 +1011,4 @@ aaf96df9593bf4ab1b73c17891e4efe7570fdef3 CREDITS: Add -next to Stephen Rothwell'
 fbf33803618ad4f531f78fe15cf328fe6c7f9978 Merge tag 'fsverity-for-linus' of git://git.kernel.org/pub/scm/fs/fsverity/linux
 6de23f81a5e08be8fbf5e8d7e9febc72a5b5f27f Linux 7.0-rc1
 
---===============1510859278370188495==--
+--===============6350716838380926690==--
