@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0145971138207070456=="
+Content-Type: multipart/mixed; boundary="===============2917489936357529991=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sudeep.holla/linux
-Date: Mon, 23 Feb 2026 18:02:49 -0000
-Message-Id: <177186976917.4143923.11492768090359778541@gitolite.kernel.org>
+Date: Mon, 23 Feb 2026 18:02:54 -0000
+Message-Id: <177186977449.4144135.12247067379562283364@gitolite.kernel.org>
 
---===============0145971138207070456==
+--===============2917489936357529991==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sudeep.holla/linux
 user: sudeep.holla
 changes:
-  - ref: refs/heads/for-next/ffa/updates
+  - ref: refs/heads/for-next/scmi/updates
     old: 05f7e89ab9731565d8a62e3b5d1ec206485eeb0b
     new: 6de23f81a5e08be8fbf5e8d7e9febc72a5b5f27f
     log: revlist-05f7e89ab973-6de23f81a5e0.txt
 
---===============0145971138207070456==
+--===============2917489936357529991==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -1051,4 +1051,4 @@ aaf96df9593bf4ab1b73c17891e4efe7570fdef3 CREDITS: Add -next to Stephen Rothwell'
 fbf33803618ad4f531f78fe15cf328fe6c7f9978 Merge tag 'fsverity-for-linus' of git://git.kernel.org/pub/scm/fs/fsverity/linux
 6de23f81a5e08be8fbf5e8d7e9febc72a5b5f27f Linux 7.0-rc1
 
---===============0145971138207070456==--
+--===============2917489936357529991==--
