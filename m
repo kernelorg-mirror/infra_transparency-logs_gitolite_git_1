@@ -1,58 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============4738526301428324288=="
+Content-Type: multipart/mixed; boundary="===============3534461223135452699=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux
-Date: Tue, 24 Feb 2026 11:09:01 -0000
-Message-Id: <177193134112.860068.6052264170104773527@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vbabka/slab
+Date: Tue, 24 Feb 2026 11:28:41 -0000
+Message-Id: <177193252122.894100.14244279813536325346@gitolite.kernel.org>
 
---===============4738526301428324288==
+--===============3534461223135452699==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/krzk/linux
-user: krzk
-git_push_cert_status: Y
+repo: pub/scm/linux/kernel/git/vbabka/slab
+user: vbabka
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/for-next
-    old: 6de23f81a5e08be8fbf5e8d7e9febc72a5b5f27f
-    new: 951b8eee0581bbf39e7b0464d679eee8cb9da3e0
+  - ref: refs/heads/slab/for-next-fixes
+    old: 46dbb7e2bc0b43274e917126329f363a727c983b
+    new: b17b7aaa2c1bf4946a80da4620aad3420894f52a
     log: |
-         910e91a6496f7e0af80e945a6b850b589b90669e firmware: exynos-acpm: Use unsigned int for acpm_pmic_linux_errmap index
-         00808ae2e679a97dccc5cf0ee4474ba1e2e8a21a firmware: exynos-acpm: Count number of commands in acpm_xfer
-         951b8eee0581bbf39e7b0464d679eee8cb9da3e0 firmware: exynos-acpm: Count acpm_xfer buffers with __counted_by_ptr
+         b17b7aaa2c1bf4946a80da4620aad3420894f52a mm/slab: initialize slab->stride early to avoid memory ordering issues
          
 
---===============4738526301428324288==
+--===============3534461223135452699==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher krzk@kernel.org 1771931339 +0100
-pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux.git
-nonce 1771931339-9b87c8a47891dc98e86e414621adfb912e2ed695
+pusher A940D434992C2E8E99103D50224FA7E7CC82A664 1771932516 +0100
+pushee gitolite.kernel.org:pub/scm/linux/kernel/git/vbabka/slab.git
+nonce 1771932516-ac36ad1148f08eef29655a5296c9cf5ff28eaefd
 
-6de23f81a5e08be8fbf5e8d7e9febc72a5b5f27f 951b8eee0581bbf39e7b0464d679eee8cb9da3e0 refs/heads/for-next
+46dbb7e2bc0b43274e917126329f363a727c983b b17b7aaa2c1bf4946a80da4620aad3420894f52a refs/heads/slab/for-next-fixes
 -----BEGIN PGP SIGNATURE-----
 
-iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmmdhssQHGtyemtAa2Vy
-bmVsLm9yZwAKCRDBN2bmhouD178VD/9fVkPE8GEN4/hE+upkHJ0Fvdrbv5T6sW+H
-/vGXCK4o2pVZ1hLICfpCLBXpnkZyP3WMJSfRI70jZ2kNcHnzBYV/Rs0QR/z1ygVJ
-vd4PSwhX8r+M+vTT85DnJSSurYfxwHWVaajkUtt1BxZzC6abdHkUJSAQvhMkZ+LT
-hk3G0XLhNH3A82YelwAOcJOEXJpmTfYsj7ReSZ0J1Jj86KjNL/ELVfarnr0Ebu6I
-2DPl6KCQH6DQnHlXb6qyBXKiSuI43o6562PxjVF+Lk6vmiyEAVoGT1fXqW3r06Dr
-73uBqG3IRk8KlFeNDDO/5fVppOA5b++qfYtYvwTLzcvVVT+XQeMaMfuoiRqiRkOn
-EVmF7qsS+AiyV5+8moc9LrRxRy6+5phUa+nKlLaWigaHJCYCBrtpfyO6reKNQZdK
-/AulBAkmvVRxFKCH+OIvGhRJF3OV5lFplasj/4ALA2vOCtAouSoo/oC8Jzm2Eg26
-a0dHtd3iMya1ibnmbeNWRGjXIZxDUDhXrgT3JFgyvs9KDGVz/VWF0Ch79ZAt8Zou
-Sa2zvLmiNdzCS9hKGO8pD650L+2CTLTdkY71RmwArla2f+iXuumgOyNhM0cV1tTu
-b7PaJPBJzU/QPvQWISf5OuAMzM+7KJk8+izSodC5Igw5Xee7XF+JE+Tm2JfOpubr
-6F2CNMQidQ==
-=2QKg
+iQFPBAABCAA5FiEEe7vIQRWZI0iWSE3xu+CwddJFiJoFAmmdi2QbFIAAAAAABAAO
+bWFudTIsMi41KzEuMTEsMiwyAAoJELvgsHXSRYia63YH/R9kR70c4tk62dtvmqcQ
+i69uLNQr3Zp4NxJPeOrvDAefIV6BA2rPiOZyGCRwxl8yAT4Mse0qZ3hsvEHJw+K2
+Yeh9jNB9r0X/Izjto/2KCIT6eja5/oBrigRanvoBufceZ3hoXFbMnupj/1QfIek7
+tMzWYTT0ubEzcC48PE+C34jeHdM+n2oicqvtP2Wtn1z46TpjPeBklmdCm5JsktEL
+0pHrogMnA+VvYkgjOA1s7bZV2PA5YPFpVB+Cr3wGGAhRa6HrPUQblPd7vQIjGY20
+cXOIf6lVVOvfYRfznvZoHR5VCQKjEQYk6+nPZf2gRjubjTZUmSFvrpIhkTUU791y
+XeQ=
+=do/I
 -----END PGP SIGNATURE-----
 
---===============4738526301428324288==--
+--===============3534461223135452699==--
