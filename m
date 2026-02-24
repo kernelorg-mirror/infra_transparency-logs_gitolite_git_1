@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jarkko/sysdarch
-Date: Tue, 24 Feb 2026 23:29:08 -0000
-Message-Id: <177197574854.1523115.6789948862548783664@gitolite.kernel.org>
+Date: Tue, 24 Feb 2026 23:30:04 -0000
+Message-Id: <177197580447.1525270.2408735739704164122@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/jarkko/sysdarch
 user: jarkko
 changes:
   - ref: refs/heads/main
-    old: d58a43bd6c8b9bab0d71ade7dc11df85db438d8c
-    new: 1f9a56b0f7747c3b652f30ebff6091e8331bdb74
+    old: 1f9a56b0f7747c3b652f30ebff6091e8331bdb74
+    new: a809371ed44c4efa056a32ede2f0ec3610a586ed
     log: |
-         1f9a56b0f7747c3b652f30ebff6091e8331bdb74 Add sparse
+         a809371ed44c4efa056a32ede2f0ec3610a586ed Remove rust from install packages
          
