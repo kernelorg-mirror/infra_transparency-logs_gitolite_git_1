@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3204148213812620996=="
+Content-Type: multipart/mixed; boundary="===============2442998773100875973=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/fs/xfs/xfs-linux
-Date: Tue, 24 Feb 2026 14:18:05 -0000
-Message-Id: <177194268592.1068388.8357138654069247047@gitolite.kernel.org>
+Date: Tue, 24 Feb 2026 14:20:44 -0000
+Message-Id: <177194284495.1071883.4418299950993168949@gitolite.kernel.org>
 
---===============3204148213812620996==
+--===============2442998773100875973==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/fs/xfs/xfs-linux
 user: cem
 changes:
-  - ref: refs/heads/xfs-7.0-fixes
+  - ref: refs/heads/for-next
     old: e920893f56ef5f3d1f480c26966ac113e917bc63
     new: d7a47448177783ecdb9faa96770006ce660b7c62
     log: revlist-e920893f56ef-d7a474481777.txt
 
---===============3204148213812620996==
+--===============2442998773100875973==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ fddf473b28fb68aefc56959cd86faf3acb5a8621 xfs: Add comments for usages of some ma
 3ab9082fcda0ce7d1b9fcfc3fee5b66f82c4edf2 xfs: remove duplicate static size checks
 d7a47448177783ecdb9faa96770006ce660b7c62 xfs: add static size checks for ioctl UABI
 
---===============3204148213812620996==--
+--===============2442998773100875973==--
