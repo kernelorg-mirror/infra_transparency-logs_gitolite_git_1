@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs
-Date: Tue, 24 Feb 2026 09:13:17 -0000
-Message-Id: <177192439781.732909.1836828559116134112@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Tue, 24 Feb 2026 09:21:40 -0000
+Message-Id: <177192490095.740296.7935484067768671865@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/xiang/erofs
-user: xiang
+repo: pub/scm/linux/kernel/git/netdev/net
+user: pabeni
 changes:
-  - ref: refs/heads/dev-test
-    old: 03c0d030f5874eec6ce22750b2b8751d6d4303b5
-    new: 13c68b7c12a4661701f839928561d85e45002c58
+  - ref: refs/heads/main
+    old: 3aa677625c8fad39989496c51bcff3872c1f16f1
+    new: 021fd0f87004e949cba6f27199b9925bc24ec3a0
     log: |
-         13c68b7c12a4661701f839928561d85e45002c58 erofs: remove more unnecessary #ifdefs
+         021fd0f87004e949cba6f27199b9925bc24ec3a0 net/rds: fix recursive lock in rds_tcp_conn_slots_available
          
