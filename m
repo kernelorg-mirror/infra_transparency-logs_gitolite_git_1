@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0861221248787342014=="
+Content-Type: multipart/mixed; boundary="===============6446191640589141881=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/geert/renesas-drivers
-Date: Tue, 24 Feb 2026 14:54:49 -0000
-Message-Id: <177194488943.1098264.4690554662651839440@gitolite.kernel.org>
+Date: Tue, 24 Feb 2026 14:55:55 -0000
+Message-Id: <177194495501.1101433.12857645410147385958@gitolite.kernel.org>
 
---===============0861221248787342014==
+--===============6446191640589141881==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,22 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/geert/renesas-drivers
 user: geert
 changes:
-  - ref: refs/heads/renesas-clk-for-v7.1
-    old: ccb32af17c5c85550a86df3e9d6f88b4b4f987e5
+  - ref: refs/heads/renesas-clk
+    old: 4fef3fd633be4a1a18c490a63f4131284f6ee0f4
     new: 84eca77af2ad61cdd45dce940fc175349147b5cd
-    log: revlist-ccb32af17c5c-84eca77af2ad.txt
+    log: revlist-4fef3fd633be-84eca77af2ad.txt
+  - ref: refs/heads/renesas-pinctrl
+    old: 829dde3369a91ad637ac15629ea8d73f3db2c562
+    new: d192fa0d198439e98622dff8b8c95e605a2b3843
+    log: |
+         d192fa0d198439e98622dff8b8c95e605a2b3843 pinctrl: renesas: rzt2h: Fix device node leak in rzt2h_gpio_register()
+         
 
---===============0861221248787342014==
+--===============6446191640589141881==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-ccb32af17c5c-84eca77af2ad.txt
+Content-Disposition: attachment; filename=revlist-4fef3fd633be-84eca77af2ad.txt
 
 698749164aa53cc313248efd2dc1c25dcf25c99c Merge tag 'audit-pr-20260203' of git://git.kernel.org/pub/scm/linux/kernel/git/pcmoore/audit
 bcc8fd3e1573c502edc0cb61abea0e113a761799 Merge tag 'lsm-pr-20260203' of git://git.kernel.org/pub/scm/linux/kernel/git/pcmoore/lsm
@@ -1051,4 +1057,4 @@ fbf33803618ad4f531f78fe15cf328fe6c7f9978 Merge tag 'fsverity-for-linus' of git:/
 dc71d92f0d36dcb68fcf0ef126131a2dedef9393 clk: renesas: r9a09g056: Fix ordering of module clocks array
 84eca77af2ad61cdd45dce940fc175349147b5cd clk: renesas: r9a09g056: Add clock and reset entries for RTC
 
---===============0861221248787342014==--
+--===============6446191640589141881==--
