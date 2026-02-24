@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6718317488575187318=="
+Content-Type: multipart/mixed; boundary="===============8104313786010527289=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Tue, 24 Feb 2026 00:38:02 -0000
-Message-Id: <177189348257.285107.9211908669278127903@gitolite.kernel.org>
+Date: Tue, 24 Feb 2026 00:38:03 -0000
+Message-Id: <177189348394.285226.2584652329838950003@gitolite.kernel.org>
 
---===============6718317488575187318==
+--===============8104313786010527289==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/mm-unstable
-    old: 702dcc7f809004e717d2c5a01439622339765c83
-    new: d501d4b5628db4bf5379cb562482c45e29081173
-    log: revlist-702dcc7f8090-d501d4b5628d.txt
+  - ref: refs/heads/mm-stable
+    old: 8bf22c33e7a172fbc72464f4cc484d23a6b412ba
+    new: 6de23f81a5e08be8fbf5e8d7e9febc72a5b5f27f
+    log: revlist-8bf22c33e7a1-6de23f81a5e0.txt
 
---===============6718317488575187318==
+--===============8104313786010527289==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-702dcc7f8090-d501d4b5628d.txt
+Content-Disposition: attachment; filename=revlist-8bf22c33e7a1-6de23f81a5e0.txt
 
 0d4b3ca115b5436d7e68453527566db3e87ab7f0 xtensa: align: validate access in fast_load_store
 d311783bc68b011c77a4ef81321de2c94d7deffc perf list: Remove unused 'sep' variable
@@ -721,114 +721,5 @@ aaf96df9593bf4ab1b73c17891e4efe7570fdef3 CREDITS: Add -next to Stephen Rothwell'
 75e1f66a9ed09f29c6883ea379c174e8cf31f7cc Merge tag 'libcrypto-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/ebiggers/linux
 fbf33803618ad4f531f78fe15cf328fe6c7f9978 Merge tag 'fsverity-for-linus' of git://git.kernel.org/pub/scm/fs/fsverity/linux
 6de23f81a5e08be8fbf5e8d7e9febc72a5b5f27f Linux 7.0-rc1
-bf16641da83037f77298e413265812d4c8c705f9 mm: allow __GFP_RETRY_MAYFAIL in vmalloc
-a5be4b7b5bbc1f010ba6ad819394175e6874e243 mm/kfence: disable KFENCE upon KASAN HW tags enablement
-49bc9250a160836f61b913b9c4d5e37148f988ef mm: change vma_alloc_folio_noprof() macro to inline function
-e0e9e06bf0fcc99bccb1cadc997dc3d25ce7c6b6 mm: thp: deny THP for files on anonymous inodes
-a8682c09d5809286039cd8b6941c9b84799f81b7 liveupdate: luo_file: remember retrieve() status
-6e868792d5e75b774f0fafbf2cfdf6db71b74b0f MAINTAINERS, mailmap: update e-mail address for Vlastimil Babka
-197210dbbb9f157c3904c5be677d2b98a89ad1af Squashfs: check metadata block offset is within range
-f34fe45f384246c84137ca2550ad7c343a3e8754 mm/damon/core: disallow non-power of two min_region_sz
-6ed485e145170ea14451d5a315e1751480880764 mm/kfence: fix KASAN hardware tag faults during late enablement
-0effcaeae716c9f276a586c0f1806a1495a9168b mm/tracing: rss_stat: ensure curr is false from kthread context
-7dd859e3fb0b320b9dbd7ff2aa59a33894ec3653 mm: fix NULL NODE_DATA dereference for memoryless nodes on boot
-3c0cda2b0dda0dd29d9d74d01524a401e9038e26 mailmap: add entry for Daniele Alessandrelli
-a51c6f1008e4d21d5b81916caf9d7ff7c75046a3 MAINTAINERS: update Yosry Ahmed's email address
-76ec99cfed40514cb46c3b1fcc6c9fdd223b616a mm: memfd_luo: always make all folios uptodate
-b6eb2bd40c1b4434c7ee6a8a8a63eab00ad12524 mm: memfd_luo: always dirty all folios
-1a4cf03ef4eed64c11d6fdab2f69a76729b1ca1b mm, swap: speed up hibernation allocation and writeout
-1de80c790c97937d5059fca75080f6b1b98f064e mm/migrate_device: remove dead migration entry check in migrate_vma_collect_huge_pmd()
-bca5e3bf39fe65632b714a63a7fb71a4ba95b3c5 mm/page_alloc: avoid overcounting bulk alloc in watermark check
-53b6e7c3090e909617b4a6249cb50e9b06fbd2bd mm/damon/ops-common: remove redudnant mmu notifier call in pmdp mkold
-43a8d4703d558cc4761cdefe02e793c17e1e31ce mm/shrinker: fix refcount leak in shrink_slab_memcg()
-40c6116a62305664cac2128467ac4a6013945ee0 fs: hugetlb: simplify remove_inode_hugepages() return type
-06e7403b1c57e1db3a051d1822cd45d9b06de71a ksm: initialize the addr only once in rmap_walk_ksm
-bc2d607ffb2dec04280d4f6288a3ce51e5dbb122 ksm: optimize rmap_walk_ksm by passing a suitable address range
-ce1d1f36025490502f4cf9f3a0518b37dd1e6c74 mm/fadvise: validate offset in generic_fadvise
-00aebbfce81cd95b1f4e9d4c5ad59ac9926da522 maple_tree: fix mas_dup_alloc() sparse warning
-88f391d916b81b3e9e4efa707955a6e96403c3a0 maple_tree: move mas_spanning_rebalance loop to function
-3dee67f3f6bdd6b46664e4d6c566eca6e04bdf13 maple_tree: extract use of big node from mas_wr_spanning_store()
-3f2ead922bbb4735719e4aa03e517f9da7817aaf maple_tree: remove unnecessary assignment of orig_l index
-2e3b23c584a83ee4bb2d3711b43dbe9171dae444 maple_tree: inline mas_spanning_rebalance() into mas_wr_spanning_rebalance()
-f690dfb4c1303c05dece97cd69b014593a3905df maple_tree: make ma_wr_states reliable for reuse in spanning store
-75fe986506a3e6c9f4ea9c75216bbbb4b8e87418 maple_tree: remove l_wr_mas from mas_wr_spanning_rebalance
-390cb8f9b5521360ed652c1d8ca35b2f829075ea maple_tree: don't pass through height in mas_wr_spanning_store
-ce625e9b5a9db663f7075fe0be8a9642cb57d4f1 maple_tree: move maple_subtree_state from mas_wr_spanning_store to mas_wr_spanning_rebalance
-f196706ee0cbd965ff0ece0366c9d8a0ecceb622 maple_tree: correct right ma_wr_state end pivot in mas_wr_spanning_store()
-891c903286c35eb78cff1897527be732d8467e9b maple_tree: introduce maple_copy node and use it in mas_spanning_rebalance()
-6dbf4c3f3b6094e9941bc9c475d4c30be9e7cfb3 maple_tree: testing update for spanning store
-4580435f21686952742078809dc2745d567fcc49 maple_tree: inline mas_spanning_rebalance_loop() into mas_wr_spanning_rebalance()
-f3713692bb0b20410115a5f564bf78cc086f1863 maple_tree: change initial big node setup in mas_wr_spanning_rebalance()
-4dcd0e206d6da6eb6964cd090992a773ff065893 maple_tree: introduce ma_leaf_max_gap()
-28b8331d67dc5d9bb7e07565f22b7f25669c33b6 maple_tree: add gap support, slot and pivot sizes for maple copy
-eae46e3a57ba1b65fc5d3c0972cb70bc9e52a247 maple_tree: start using maple copy node for destination
-c9e19bb0b1462c44315bb5a6d63fdb5503645550 maple_tree-start-using-maple-copy-node-for-destination-checkpatch-fixes
-068164169265bd0ee80a00cf5eef1487b6c91d94 maple_tree: inline mas_wr_spanning_rebalance()
-3c4d377b7c2eb4005d9185a5f360550a40262bae maple_tree: remove unnecessary return statements
-35c802798729d636b924cf949806e6f95d3b1037 maple_tree: separate wr_split_store and wr_rebalance store type code path
-86feaceac7b44cf8bb2e03db82e5c975fc224a7e maple_tree: add cp_is_new_root() helper
-66f5c96529b73fa8f39a1ab15899f32723bdfe72 maple_tree-add-cp_is_new_root-helper-fix
-be5cee682afa5c904596f30656ca9871a125fa67 maple_tree-add-cp_is_new_root-helper-fix-fix
-3fb194d0f0112a887580d81933766e5bfd5b6c76 maple_tree: use maple copy node for mas_wr_rebalance() operation
-12591796dfde62265f883c25068d60f96bb6e881 maple_tree: add test for rebalance calculation off-by-one
-491fdb943cd83a3f07b221349f1b958b2f5b1b48 maple_tree: add copy_tree_location() helper
-454318be684b9effbaf140fbdcae5fed2ca405cb maple_tree: add cp_converged() helper
-afc973974c3f4ee11c1688075805864103c27281 maple_tree: use maple copy node for mas_wr_split()
-08dea66446ad691b6800ecd6b37bf4772a5d2c0a maple_tree: remove maple big node and subtree structs
-96280c445c1c87967edf6f070c38f38700fb9516 maple_tree: pass maple copy node to mas_wmb_replace()
-48420e4842b6b85427c4c950fea14d85d7165ef6 maple_tree: don't pass end to mas_wr_append()
-910936fba2067fb5fac7c00b7d0ed4229756b807 maple_tree: clean up mas_wr_node_store()
-4ef04f42770251a8d85033f5568f8ce499455837 mm, memcg: optimize stat output for 11% sys time reduction
-61421a847fcd050a61ac445191aeaf65fd7210a0 mm/pkeys: remove unused tsk parameter from arch_set_user_pkey_access()
-76e13d60fc928d766eab1bd52972e4efd07943d3 selftests/mm: fix soft-dirty kselftest supported check
-a00631669b3a8caf4687219fb29642ab2a5452e1 selftests/mm: skip migration tests if NUMA is unavailable
-c3f575a4c3b76e337f1dcb10a35a4fc424c9d619 mm: move pgscan, pgsteal, pgrefill to node stats
-b7f4087c4a83a7750496f9cf541bb7a4820a7a6b mm: fix typo in the comment of mod_zone_state()
-d6a0a28d4b6d918cc3836bad7b81d652ae445fd3 mm, swap: protect si->swap_file properly and use as a mount indicator
-9db8cc33e5ac51a46579a83464872506253d4c90 mm, swap: clean up swapon process and locking
-67160ec45fbb56d2248375852d44bc4d07235e0e mm, swap: remove redundant arguments and locking for enabling a device
-22986f7f1ea0b32408652bf6741f725680a6bfe8 mm, swap: consolidate bad slots setup and make it more robust
-a0f6c3e56ad458476f0e9cd1ba1a48fcc0efe81f mm/workingset: leave highest bits empty for anon shadow
-76435aef337e90012e5ef77bc0cdd68de5a5e2b1 mm, swap: implement helpers for reserving data in the swap table
-5d5e87f4ba7efb01720e880a39e495065e435b24 mm, swap: mark bad slots in swap table directly
-d0d9070ce0638ac4496d0a721b045d8d7dacbe5c mm, swap: simplify swap table sanity range check
-ec992faf9548a4ad995f79130bd980908ce9f540 mm, swap: use the swap table to track the swap count
-6544b063b95585df8590176939606f80ebc9cf61 mm-swap-use-the-swap-table-to-track-the-swap-count-fix
-afaa152bdcf42ed5d8cf377e92a2a6819b74cfc6 mm, swap: no need to truncate the scan border
-9ef0e8fff8a23b8156e373b543458fa2bbaa462f mm, swap: simplify checking if a folio is swapped
-9591adbe17c77563d58187c0dac0a5e6746cabdc mm, swap: no need to clear the shadow explicitly
-2594472c15d5ac8365dffb285bfdd17578e99e95 lib: introduce hierarchical per-cpu counters
-8afa34b294ceb65c593e8ac3215cf132333845ab lib-introduce-hierarchical-per-cpu-counters-fix
-cc5a4cf9b77ded52d309a334f4cca70f6e2a486d lib: test hierarchical per-cpu counters
-57b97b4ee02cf125653091bc9b3cf184f50a87fc mm: improve RSS counter approximation accuracy for proc interfaces
-13f2c213cbce9624f6e32481941276830f4a7673 memfd: export memfd_{add,get}_seals()
-72409c2c1b972a76e8c5bd38d8369397c91a84c3 mm: memfd_luo: preserve file seals
-1dc463a54f13b4499bc09d827a5eb5eff5d14eb9 mm/damon: remove unused target param of get_scheme_score()
-4dcccd15d074e9bdc3919ec8cbdc8fa91eb4bf9e memcg: consolidate private id refcount get/put helpers
-c708b2465fe36ae377a39d63ea75fc16cd793a8b mm: zswap: add per-memcg stat for incompressible pages
-c44ffebf38b9a5bf91d5ff9ab731949413378a2b selftests/cgroup: add test for zswap incompressible pages
-160f46e7f920cebcd8e626ed05bbd8dcdd0a18ef mm: remove '!root_reclaim' checking in should_abort_scan()
-c78a77a9531ac27d812fc4373a769d3d6ddc6d35 mm: name the anonymous MMOP enum as enum mmop
-4669fb1c3259f345cb675483bb328bbcd2a80382 mm/shmem: remove unnecessary restrain unmask of swap gfp flags
-8889b557702153c318d1a3d2df42a2b8015d58db mm: don't special case !MMU for is_zero_pfn() and my_zero_pfn()
-77b1fafbf96b30ef00c52759a1da857d296cf207 mm: rename my_zero_pfn() to zero_pfn()
-6c77202608d04927bb99a7367104d6b67c891f96 arch, mm: consolidate empty_zero_page
-5a79f44b654dc548ee4d503ad32eec138aa04411 mm: cache struct page for empty_zero_page and return it from ZERO_PAGE()
-e276b21905145ffa301d245979731876b966eb7e selftests/mm: remove duplicate include of unistd.h
-74741f1f87dc342dbf9f9b6c788f9e599c1518c6 mm: khugepaged: set to next mm direct when mm has MMF_DISABLE_THP_COMPLETELY
-038ea162f3af4d06c6e93506b86940c6f4434073 mm: make ref_unless functions unless_zero only
-27cdc5679b8e7746b29980a5487ed995f920b9fe mm/mmu_notifiers: use hlist_for_each_entry_srcu() for SRCU list traversal
-dc036fbd1a3145be0353d41656b2cc359159cd48 mm/page_idle.c: remove redundant mmu notifier in aging code
-a499b92a4d6e728d4484534dcf8125112f2ee3e3 mm/zswap: remove SWP_SYNCHRONOUS_IO swapcache bypass workaround
-b03569c1eaa693ae43a0b01dbe882a839d03eb3d sparc: use vmemmap_populate_hugepages for vmemmap_populate
-8a365510cf052f5abf039ec09730596579d6d9e7 mm: convert vmemmap_p?d_populate() to static functions
-9db300e51ce153f398786a4bcf9c469f95742dd5 mm/kmemleak: remove unreachable return statement in scan_should_stop()
-c13a301e122972a65229ae9782ad56f7de7f9edf mm/kmemleak: use PF_KTHREAD flag to detect kernel threads
-851f76d07c7d34baf3aa8747f4d63193657a2ab6 mm/mmu_gather: define RCU version tlb_remove_table_one() in CONFIG_MMU_GATHER_RCU_TABLE_FREE
-c45f9d3ad2ccf1aeefff561884bb612d2ddfda2a mm: khugepaged: add trace_mm_khugepaged_scan event
-28e31b1e07b5b84e7756b9cb9d019d2e79dd4ba6 mm: khugepaged: refine scan progress number
-2e713dee5cd10e77400e263a42c474ab5ca3c5e7 mm: add folio_test_lazyfree helper
-80f6f56d9feab06e08941c07b9e15b8c359ee6e8 mm: khugepaged: skip lazy-free folios
-d501d4b5628db4bf5379cb562482c45e29081173 mm: centralize+fix comments about compound_mapcount() in new sync_with_folio_pmd_zap()
 
---===============6718317488575187318==--
+--===============8104313786010527289==--
