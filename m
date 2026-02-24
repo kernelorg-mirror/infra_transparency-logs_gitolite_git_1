@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/klassert/linux-stk
-Date: Tue, 24 Feb 2026 12:33:09 -0000
-Message-Id: <177193638943.966176.7360501973864971368@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Tue, 24 Feb 2026 12:33:49 -0000
+Message-Id: <177193642963.966606.6520395585130228573@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/klassert/linux-stk
-user: klassert
+repo: pub/scm/linux/kernel/git/tip/tip
+user: peterz
 changes:
-  - ref: refs/heads/ipsec-next-merge-esp46-v4
-    old: 354d44185ba5da87fda2d3ac2ea174843b5bf533
-    new: a81608ee1aaf8cce402805af9d0981cb8bdd5144
+  - ref: refs/heads/perf/urgent
+    old: 77de62ad3de3967818c3dbe656b7336ebee461d2
+    new: 5004d5c59874b18c8ecbcb507053750c8b47353c
     log: |
-         a81608ee1aaf8cce402805af9d0981cb8bdd5144 esp: Consolidate esp4 and esp6.
+         5004d5c59874b18c8ecbcb507053750c8b47353c perf: Fix data race in perf_event_set_bpf_handler()
          
