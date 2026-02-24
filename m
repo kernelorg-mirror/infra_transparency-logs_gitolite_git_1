@@ -1,55 +1,39 @@
-Content-Type: multipart/mixed; boundary="===============8545286624286876003=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/wireless/wireless
-Date: Tue, 24 Feb 2026 09:04:27 -0000
-Message-Id: <177192386713.724186.1125611186968692820@gitolite.kernel.org>
-
---===============8545286624286876003==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Tue, 24 Feb 2026 09:05:41 -0000
+Message-Id: <177192394153.727526.6187907723736433582@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/wireless/wireless
-user: jberg
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/tip/tip
+user: mingo
 changes:
-  - ref: refs/heads/main
-    old: 162d331d833dc73a3e905a24c44dd33732af1fc5
-    new: 017c1792525064a723971f0216e6ef86a8c7af11
+  - ref: refs/heads/master
+    old: cb2ae1f90ebed93797ed9bc89ef94efc249bbb7c
+    new: 71b210cd0c1d54f3e2a1fece269dfde82cf8d128
     log: |
-         017c1792525064a723971f0216e6ef86a8c7af11 wifi: mac80211: fix NULL pointer dereference in mesh_rx_csa_frame()
+         12ba33fb0a3d0875feb62c750152bec61064df07 Merge branch into tip/master: 'irq/urgent'
+         93af62865a4af5f3c2cdde63009780c62e1f206c Merge branch into tip/master: 'perf/urgent'
+         91ad303a06133cf1ef77717b6ee2a93519099d1d Merge branch into tip/master: 'sched/urgent'
+         c44abd7679b0148c84a0870cc6b921deb8316105 Merge branch into tip/master: 'timers/urgent'
+         3cd7a394b5c4023be77b4c34835a80d86355ff80 Merge branch into tip/master: 'x86/urgent'
+         e6a007a0c8c996e79523bc7a51b9cfb7b7652cbc Merge branch into tip/master: 'core/debugobjects'
+         02c20495dc7fd13d101a2fd945dde90cf75b5046 Merge branch into tip/master: 'irq/drivers'
+         f190cf3663a9a9b71be06253759670410367cc63 Merge branch into tip/master: 'irq/msi'
+         b320cacd227d9712ed61a31b06f463837010f285 Merge branch into tip/master: 'locking/core'
+         7c8777485fece64f976133767b8bfedfedcc97e2 Merge branch into tip/master: 'locking/futex'
+         71b210cd0c1d54f3e2a1fece269dfde82cf8d128 Merge branch into tip/master: 'timers/core'
          
-
---===============8545286624286876003==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher 7BF9099A 1771923824 +0100
-pushee ssh+git://korg/pub/scm/linux/kernel/git/wireless/wireless.git
-nonce 1771923824-a806f6c6ae7d904f04a403697e173d37b4767cd3
-
-162d331d833dc73a3e905a24c44dd33732af1fc5 017c1792525064a723971f0216e6ef86a8c7af11 refs/heads/main
------BEGIN PGP SIGNATURE-----
-
-iQIzBAABCgAdFiEEpeA8sTs3M8SN2hR410qiO8sPaAAFAmmdaXAACgkQ10qiO8sP
-aADgTw//fwcORtY5AZ0leWTcC/hAurEVfEdwgTYle1Wophz7CZLjLwbKJkOngb29
-grDJ14Ngj+inp8/CdHlh1AJEQZSL7rW5o0YHII9Ks5YY48WMqFMFx5QxRPIjLaMT
-MO8EhCJMWefaZKt7IKwixVUIlPFVIxb8MUWVs5tkC6elxKg3mpmQAQ7cgiij0bw/
-e7siz94lXtFWl5Wi/ehvrVLLFw0licVCJJXNunVNdaZ4CeNUAtJyPmaADD0y9GQJ
-L0IjcZFgBXWbI2z3eI5HiTTwZph4hWEPTPuoKyNeLboMDuJhIWd2Q+T6TwYp7Tu2
-jyVB3Ej3tApR6N5R34aaE+yPxJwtq+QGi9tDvLfRc1VXUGDowtQBdCrR8MUx2Wg+
-MtUrIRAaaGmWlOKofQ1qrKoI8yNCNskKy7LZa7a9W218QA/0YYRiugrOC3Hb0SLD
-MZu5CjCn1CsA8Czs+uWmqcdstrbPTMrdMsPRgUtJpjqSCzIp77BSlR66zVofbUSA
-SiLB4wujHm+oVEMTv/0IUd7WJu8vF+vppqTHWfPyo2E+Oa0iwFJSutUA/xfhsqcN
-W6Y3ewYWu9SgW2BlR/vagTDAIOwgjFsL2rjQ86DBoTCrBhUV9XzOx0u572w6W6eC
-Qre+B+o36a+R0vMB85Gc+kwbmTCF8nqjexE5LuHO0LPoLAeEmqg=
-=bUIQ
------END PGP SIGNATURE-----
-
---===============8545286624286876003==--
+  - ref: refs/heads/tip/urgent
+    old: 71fce27111c75bb59345259a5bc9a6f0be2b324a
+    new: 3cd7a394b5c4023be77b4c34835a80d86355ff80
+    log: |
+         12ba33fb0a3d0875feb62c750152bec61064df07 Merge branch into tip/master: 'irq/urgent'
+         93af62865a4af5f3c2cdde63009780c62e1f206c Merge branch into tip/master: 'perf/urgent'
+         91ad303a06133cf1ef77717b6ee2a93519099d1d Merge branch into tip/master: 'sched/urgent'
+         c44abd7679b0148c84a0870cc6b921deb8316105 Merge branch into tip/master: 'timers/urgent'
+         3cd7a394b5c4023be77b4c34835a80d86355ff80 Merge branch into tip/master: 'x86/urgent'
+         
