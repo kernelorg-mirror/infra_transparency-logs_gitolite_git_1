@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0924805415509472508=="
+Content-Type: multipart/mixed; boundary="===============3982975274773179697=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/chanwoo/extcon
-Date: Tue, 24 Feb 2026 10:55:01 -0000
-Message-Id: <177193050193.820788.8844584028686194517@gitolite.kernel.org>
+Date: Tue, 24 Feb 2026 10:55:17 -0000
+Message-Id: <177193051769.823390.14390071719716297004@gitolite.kernel.org>
 
---===============0924805415509472508==
+--===============3982975274773179697==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,24 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/chanwoo/extcon
 user: chanwoo
 changes:
-  - ref: refs/heads/extcon-fixes
-    old: 05f7e89ab9731565d8a62e3b5d1ec206485eeb0b
-    new: 6de23f81a5e08be8fbf5e8d7e9febc72a5b5f27f
-    log: revlist-05f7e89ab973-6de23f81a5e0.txt
+  - ref: refs/heads/extcon-next
+    old: c7c95e576cfd4569e947ab49d76108c900e03ad5
+    new: 24c76540a08b79c89aa991b9f05aed7d5d81ae95
+    log: revlist-c7c95e576cfd-24c76540a08b.txt
 
---===============0924805415509472508==
+--===============3982975274773179697==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-05f7e89ab973-6de23f81a5e0.txt
+Content-Disposition: attachment; filename=revlist-c7c95e576cfd-24c76540a08b.txt
 
-9e03b7caf4e65f5a5841dfed540fdcc3ff061734 Merge tag 'kvm-x86-misc-6.20' of https://github.com/kvm-x86/linux into HEAD
-2f81bdbdb3aa3fccd9b5420df5674730c40af554 Merge tag 'i3c/for-6.20' of git://git.kernel.org/pub/scm/linux/kernel/git/i3c/linux
-37b4fbf8dbdfb694f2972d1bd7fcd36304a520dd Merge tag 'tpmdd-next-7.0-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-698749164aa53cc313248efd2dc1c25dcf25c99c Merge tag 'audit-pr-20260203' of git://git.kernel.org/pub/scm/linux/kernel/git/pcmoore/audit
-bcc8fd3e1573c502edc0cb61abea0e113a761799 Merge tag 'lsm-pr-20260203' of git://git.kernel.org/pub/scm/linux/kernel/git/pcmoore/lsm
-1d3ffe6233b1b6e8697f5027b9441ce70385c997 perf tests workload: Formatting for code_with_type.rs
-6252e917b9006dfa2f3d884fe0dbaf3e676c4108 Merge tag 'selinux-pr-20260203' of git://git.kernel.org/pub/scm/linux/kernel/git/pcmoore/selinux
 42e7c876b182da65723700f6bc507a8aecb10d3b fs/nfs: Fix readdir slow-start regression
 fdc0396b3cc05dc9b678627af23c3fdc7dbe930e nfs: unify security_inode_listsecurity() calls
 3d57c44e918012db1f901d50bc9195a8812ad602 NFSv4: pass lease period in seconds to nfs4_set_lease_period()
@@ -1050,5 +1043,12 @@ aaf96df9593bf4ab1b73c17891e4efe7570fdef3 CREDITS: Add -next to Stephen Rothwell'
 75e1f66a9ed09f29c6883ea379c174e8cf31f7cc Merge tag 'libcrypto-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/ebiggers/linux
 fbf33803618ad4f531f78fe15cf328fe6c7f9978 Merge tag 'fsverity-for-linus' of git://git.kernel.org/pub/scm/fs/fsverity/linux
 6de23f81a5e08be8fbf5e8d7e9febc72a5b5f27f Linux 7.0-rc1
+c3b72a358d54ac27d0c6a932df01f3a348a30eb5 extcon: ptn5150: handle pending IRQ events during system resume
+c16cb9585ab6fcf1c1c72b9edbafb009a4cda9f7 extcon: int3496: replace use of system_wq with system_percpu_wq
+c5addc9f6cfaa63bba7aae2784719087a1839b40 extcon: Fixed sysfs duplicate filename issue
+d019e3c8b69bc0665dee6f0dfd6b7bbab5848e41 dt-bindings: extcon: ptn5150: Allow "connector" node to present
+ed3368627b2ac3f98ea1c75eea8267ccc8c7b318 extcon: ptn5150: Add Type-C orientation switch support
+b059e26aa1c103a93ef78b6bc602ca27ab188655 extcon: ptn5150: Support USB role switch via connector fwnode
+24c76540a08b79c89aa991b9f05aed7d5d81ae95 extcon: usbc-tusb320: Make typec-power-opmode optional
 
---===============0924805415509472508==--
+--===============3982975274773179697==--
