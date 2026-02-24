@@ -1,88 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/glaubitz/sh-linux
-Date: Tue, 24 Feb 2026 17:32:16 -0000
-Message-Id: <177195433641.1230208.12348951066553070002@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Tue, 24 Feb 2026 17:36:12 -0000
+Message-Id: <177195457291.1234309.2289941716849434219@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/glaubitz/sh-linux
-user: glaubitz
+repo: pub/scm/linux/kernel/git/tip/tip
+user: tglx
 changes:
-  - ref: refs/tags/v6.17
-    old: 0000000000000000000000000000000000000000
-    new: 6063257da111c7639d020c5f15bfb37fb839d8b6
-  - ref: refs/tags/v6.17-rc2
-    old: 0000000000000000000000000000000000000000
-    new: f3c5631f70e434e318c44001e2417d4770f06cd0
-  - ref: refs/tags/v6.17-rc3
-    old: 0000000000000000000000000000000000000000
-    new: 89d926fa53d0a6c257c4e8ac1c00c3d9a194ef31
-  - ref: refs/tags/v6.17-rc4
-    old: 0000000000000000000000000000000000000000
-    new: 5cc61f86dff464a63b6a6e4758f26557fda4d494
-  - ref: refs/tags/v6.17-rc5
-    old: 0000000000000000000000000000000000000000
-    new: 38018d744897d57a1fe8023770d32d622a61611b
-  - ref: refs/tags/v6.17-rc6
-    old: 0000000000000000000000000000000000000000
-    new: 0124ee3e78e4adb40db91280f3e468373e48928e
-  - ref: refs/tags/v6.17-rc7
-    old: 0000000000000000000000000000000000000000
-    new: 02fc12d7c5a58a010fe2bfaedbc0a5b3cc1cc231
-  - ref: refs/tags/v6.18
-    old: 0000000000000000000000000000000000000000
-    new: f7b88edb52c8dd01b7e576390d658ae6eef0e134
-  - ref: refs/tags/v6.18-rc1
-    old: 0000000000000000000000000000000000000000
-    new: cb6649f6217c0331b885cf787f1d175963e2a1d2
-  - ref: refs/tags/v6.18-rc2
-    old: 0000000000000000000000000000000000000000
-    new: ffee675aceb9f44b0502a8bec912abb0c4f4af62
-  - ref: refs/tags/v6.18-rc3
-    old: 0000000000000000000000000000000000000000
-    new: 0edde068997bc3c41f122c9941143a39d604a0dc
-  - ref: refs/tags/v6.18-rc4
-    old: 0000000000000000000000000000000000000000
-    new: 2f112b1c25da9f5346c2261ed35c5b1e0b906471
-  - ref: refs/tags/v6.18-rc5
-    old: 0000000000000000000000000000000000000000
-    new: 62ad2b01b0c7dba966c6843b77e99b06a3b12d27
-  - ref: refs/tags/v6.18-rc6
-    old: 0000000000000000000000000000000000000000
-    new: ec4b6a97aa20d97494d3431434470d91aacb9c6e
-  - ref: refs/tags/v6.18-rc7
-    old: 0000000000000000000000000000000000000000
-    new: c4508223b80908ac095e50f731e68c4387951f0f
-  - ref: refs/tags/v6.19
-    old: 0000000000000000000000000000000000000000
-    new: e9ec05addd1a067fc7cb218f20ecdc1b1b0898c0
-  - ref: refs/tags/v6.19-rc1
-    old: 0000000000000000000000000000000000000000
-    new: 3e7f562e20ee87a25e104ef4fce557d39d62fa85
-  - ref: refs/tags/v6.19-rc2
-    old: 0000000000000000000000000000000000000000
-    new: 2408853dde584f01950a0f976b743739cce30eca
-  - ref: refs/tags/v6.19-rc3
-    old: 0000000000000000000000000000000000000000
-    new: 82791741762a870f5f2ede9f909301770f66f867
-  - ref: refs/tags/v6.19-rc4
-    old: 0000000000000000000000000000000000000000
-    new: f10c325a345fef0a688a2bcdfab1540d1c924148
-  - ref: refs/tags/v6.19-rc5
-    old: 0000000000000000000000000000000000000000
-    new: d0e305301e82474223bf26185e86e7dc2eb85350
-  - ref: refs/tags/v6.19-rc6
-    old: 0000000000000000000000000000000000000000
-    new: c8a4a774a9b0d2c86593492625874e27e9cbc9a9
-  - ref: refs/tags/v6.19-rc7
-    old: 0000000000000000000000000000000000000000
-    new: ed4cdcc0b03e72cfdffbff9f0ea24338517bc893
-  - ref: refs/tags/v6.19-rc8
-    old: 0000000000000000000000000000000000000000
-    new: 4ff7d63728ef2315d402a608cef1376248aa5c56
-  - ref: refs/tags/v7.0-rc1
-    old: 0000000000000000000000000000000000000000
-    new: 559f264e403e4d58d56a17595c60a1de011c5e20
+  - ref: refs/heads/irq/urgent
+    old: f0617176be5e497b67b3c87bac35b26ebccac499
+    new: fe5669e363b129cde285bfb4d45abb72d1d77cfc
+    log: |
+         e08f2adcf990b8cf272e90898401a9e481c1c667 Revert "irqchip/ls-extirq: Use for_each_of_imap_item iterator"
+         fe5669e363b129cde285bfb4d45abb72d1d77cfc irqchip/ls-extirq: Fix devm_of_iomap() error check
+         
