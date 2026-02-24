@@ -1,61 +1,61 @@
-Content-Type: multipart/mixed; boundary="===============3659545285042373847=="
+Content-Type: multipart/mixed; boundary="===============6649776332253521086=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pinctrl/samsung
-Date: Tue, 24 Feb 2026 11:05:23 -0000
-Message-Id: <177193112382.851042.16323356610738357804@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux-w1
+Date: Tue, 24 Feb 2026 11:05:25 -0000
+Message-Id: <177193112565.852592.6412360455860777856@gitolite.kernel.org>
 
---===============3659545285042373847==
+--===============6649776332253521086==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pinctrl/samsung
+repo: pub/scm/linux/kernel/git/krzk/linux-w1
 user: krzk
 git_push_cert_status: Y
 changes:
-  - ref: refs/heads/for-next
-    old: 8c483209a6fc71a555fec4a0c99b05e46a5bd38c
+  - ref: refs/heads/fixes
+    old: cc8f92e41eb76f450f05234fef2054afc3633100
     new: 6de23f81a5e08be8fbf5e8d7e9febc72a5b5f27f
-    log: revlist-8c483209a6fc-6de23f81a5e0.txt
+    log: revlist-cc8f92e41eb7-6de23f81a5e0.txt
 
---===============3659545285042373847==
+--===============6649776332253521086==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher krzk@kernel.org 1771931121 +0100
-pushee kernel.org:/pub/scm/linux/kernel/git/pinctrl/samsung.git
-nonce 1771931121-ee0a9f008bdd17d80955c470213c11b294188f37
+pusher krzk@kernel.org 1771931123 +0100
+pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux-w1.git
+nonce 1771931122-43635e32f75d43929039a2f6a88301137a69cbe1
 
-8c483209a6fc71a555fec4a0c99b05e46a5bd38c 6de23f81a5e08be8fbf5e8d7e9febc72a5b5f27f refs/heads/for-next
+cc8f92e41eb76f450f05234fef2054afc3633100 6de23f81a5e08be8fbf5e8d7e9febc72a5b5f27f refs/heads/fixes
 -----BEGIN PGP SIGNATURE-----
 
-iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmmdhfEQHGtyemtAa2Vy
-bmVsLm9yZwAKCRDBN2bmhouD10oID/9zfL21Tc9prO5JI90RyJ5eLnVJL0Og8BHu
-DXfxYfdefD4foeF4FRjrBoP9Lc349HyBLDBMJaQogCJqZS4MgLvAxFczVZsRPl86
-e4TeLiVRpRs+u1cGicuGLwlIw/U27+C3Z5BxnaF2/An25fFrllBknJXNpsANtQ1I
-5C9Bkrh/6XxAqYlvYSxHkq0FdO9OnkougrirwwVEnzZwt/nDR89xzyBTfknNa5Kg
-VMcWZtq5fVjcavQEE7kmIXShAWwUJpiz/MrCqPD9srNhdNB1En+MjIlT8hfVHNyh
-nDjIkO6oS/3uLRdxXmD8AWGWvQP4hU+4HhY/3bJ8byE17m4ULTOvsLMfV1RjipBt
-CX3tsoekh+AeKMUDVRrtEiPalxXjZCZ1m/oxhPV8dwFe5UC4TwMsEYCTUOlw7PmX
-qIpIwPWSbVTyhcKPVlmXeuFScmnGMpGi3pZKLxtLjfL+41GVPbiQITRUDSEHK+4A
-Ekyb0Y7hvgILhg+975tI9yyMEX4aZzvb7TTvW/+jcvNDHM+f5yZHVGvCMPkHtmUG
-tihPoXr6HOt1TBVfTXdSI8qhDN4esveBpkzaRYVFBB3O0ozzBfAEn5ev8TfuUzS4
-WXXsE3FGpycRA9a6Y8TbKoQdSUKQ4co91Te7Q9oJLsp+gfRaOUXeHZ7zMWKZwd5r
-/VnqNtabFg==
-=Br6A
+iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmmdhfMQHGtyemtAa2Vy
+bmVsLm9yZwAKCRDBN2bmhouD18iXD/4sYZgQX4/gBzlQXpxoWOYLnnY1CvnnBEIV
+0dGCuXmEkXiC/VJaO+JvmkHyv7N1mZ6yg5CPRJ+Y+74Hu0T7myEdIWrNRUAMHca4
+W8uGOXRT77N4iHSmtQyJ73vAk8YrhP9iSkyNQaWhoW45TB5WNryGh/RCn5lQ6uci
+UQv+Tme3qciPrUBD+YuV/Wbrr1O2pKlid8LQYXCpqBTUL2W5ODbfkYiY1a4PIDHj
+F9ivoazi72tEewAehza2ZKCv31DbU2F4E9sVOyTRPMdDlMFNsU6kZOSzjX5EaWpC
+AO7atQhmWhHhSTr+qga78U3tDri6ZHP/vEyfiuUcmOCtSh0EMVJYm1nTrC/jEntl
+Cm1osAlq5Q8Bu8fbPnT5ODZkpaRX5nSY5qD2uHl+s1W/4FYYbvQOLpduw4sLrAuY
+3pG99Qknw3NJuRC6tmBiWJbneFOTuoWcZRMPUVPqW0OKr9RpIxi6LxbRhTULksuA
+XGmbbKKQZtO+9TqRMt8rpwUea9+bOkkmVGp/V/KWPpL9SrqfqWTXv1h+KlS/S3lp
+bfJlSkNL3hxZo+dOQEcidBjZG8HznguMSxM4xKsfI6WtBFx2ZDVHEEtxwSPxrg7s
+t+M7xYaBQC/EwDQgOtLiGpE98Hzl/sZTiRe2/OvGW9mfA0RSBBeMhU5Y3iev+p2W
+Y3Zi+h7aEw==
+=Z/xV
 -----END PGP SIGNATURE-----
 
---===============3659545285042373847==
+--===============6649776332253521086==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-8c483209a6fc-6de23f81a5e0.txt
+Content-Disposition: attachment; filename=revlist-cc8f92e41eb7-6de23f81a5e0.txt
 
 9e03b7caf4e65f5a5841dfed540fdcc3ff061734 Merge tag 'kvm-x86-misc-6.20' of https://github.com/kvm-x86/linux into HEAD
 2f81bdbdb3aa3fccd9b5420df5674730c40af554 Merge tag 'i3c/for-6.20' of git://git.kernel.org/pub/scm/linux/kernel/git/i3c/linux
@@ -1082,4 +1082,4 @@ aaf96df9593bf4ab1b73c17891e4efe7570fdef3 CREDITS: Add -next to Stephen Rothwell'
 fbf33803618ad4f531f78fe15cf328fe6c7f9978 Merge tag 'fsverity-for-linus' of git://git.kernel.org/pub/scm/fs/fsverity/linux
 6de23f81a5e08be8fbf5e8d7e9febc72a5b5f27f Linux 7.0-rc1
 
---===============3659545285042373847==--
+--===============6649776332253521086==--
