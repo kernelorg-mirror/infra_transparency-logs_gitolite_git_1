@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3982975274773179697=="
+Content-Type: multipart/mixed; boundary="===============4948597879403045145=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/chanwoo/extcon
-Date: Tue, 24 Feb 2026 10:55:17 -0000
-Message-Id: <177193051769.823390.14390071719716297004@gitolite.kernel.org>
+Date: Tue, 24 Feb 2026 10:55:32 -0000
+Message-Id: <177193053273.823714.4532845393444176020@gitolite.kernel.org>
 
---===============3982975274773179697==
+--===============4948597879403045145==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,19 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/chanwoo/extcon
 user: chanwoo
 changes:
-  - ref: refs/heads/extcon-next
-    old: c7c95e576cfd4569e947ab49d76108c900e03ad5
-    new: 24c76540a08b79c89aa991b9f05aed7d5d81ae95
-    log: revlist-c7c95e576cfd-24c76540a08b.txt
+  - ref: refs/heads/extcon-testing
+    old: 5eee2e960e2109d432834095d85338a0236f374c
+    new: 2bd5d76830953093f5bd0634e552f71092aa743d
+    log: revlist-5eee2e960e21-2bd5d7683095.txt
 
---===============3982975274773179697==
+--===============4948597879403045145==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-c7c95e576cfd-24c76540a08b.txt
+Content-Disposition: attachment; filename=revlist-5eee2e960e21-2bd5d7683095.txt
 
-42e7c876b182da65723700f6bc507a8aecb10d3b fs/nfs: Fix readdir slow-start regression
-fdc0396b3cc05dc9b678627af23c3fdc7dbe930e nfs: unify security_inode_listsecurity() calls
 3d57c44e918012db1f901d50bc9195a8812ad602 NFSv4: pass lease period in seconds to nfs4_set_lease_period()
 e29a3e61eef6b6c2e60bc1872e9da3bcdbc46c17 NFSv4: limit lease period in nfs4_set_lease_period()
 4b6c6bc6fab51684cc129f91211734f87db6b065 Merge tag 'vfs-7.0-rc1.rust' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
@@ -1043,12 +1041,14 @@ aaf96df9593bf4ab1b73c17891e4efe7570fdef3 CREDITS: Add -next to Stephen Rothwell'
 75e1f66a9ed09f29c6883ea379c174e8cf31f7cc Merge tag 'libcrypto-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/ebiggers/linux
 fbf33803618ad4f531f78fe15cf328fe6c7f9978 Merge tag 'fsverity-for-linus' of git://git.kernel.org/pub/scm/fs/fsverity/linux
 6de23f81a5e08be8fbf5e8d7e9febc72a5b5f27f Linux 7.0-rc1
-c3b72a358d54ac27d0c6a932df01f3a348a30eb5 extcon: ptn5150: handle pending IRQ events during system resume
-c16cb9585ab6fcf1c1c72b9edbafb009a4cda9f7 extcon: int3496: replace use of system_wq with system_percpu_wq
-c5addc9f6cfaa63bba7aae2784719087a1839b40 extcon: Fixed sysfs duplicate filename issue
-d019e3c8b69bc0665dee6f0dfd6b7bbab5848e41 dt-bindings: extcon: ptn5150: Allow "connector" node to present
-ed3368627b2ac3f98ea1c75eea8267ccc8c7b318 extcon: ptn5150: Add Type-C orientation switch support
-b059e26aa1c103a93ef78b6bc602ca27ab188655 extcon: ptn5150: Support USB role switch via connector fwnode
-24c76540a08b79c89aa991b9f05aed7d5d81ae95 extcon: usbc-tusb320: Make typec-power-opmode optional
+19dcbb484250a18cb43cbedd82b7b47683433b96 extcon: ptn5150: handle pending IRQ events during system resume
+42758a4e15a9363f78d136aed6ed1618e34d81c5 extcon: int3496: replace use of system_wq with system_percpu_wq
+4c0226f531e88971932af6935313f604bf29f411 extcon: Fixed sysfs duplicate filename issue
+eeb7d1db078951a2f834aff7695a8e4e74024d9a dt-bindings: extcon: ptn5150: Allow "connector" node to present
+e62ad3879ec96a07422db01ab2857492a36769ba extcon: ptn5150: Add Type-C orientation switch support
+644c553ba90ae0c341773809f54a15c77e7c7808 extcon: ptn5150: Support USB role switch via connector fwnode
+403cb218d505a0a5d054f5fba730e6d455811b98 extcon: usbc-tusb320: Make typec-power-opmode optional
+17270b3a5382637c13c31c03b781119caa4943d7 dt-bindings: extcon: document Samsung S2M series PMIC extcon device
+2bd5d76830953093f5bd0634e552f71092aa743d extcon: add support for Samsung S2M series PMIC extcon devices
 
---===============3982975274773179697==--
+--===============4948597879403045145==--
