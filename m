@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Tue, 24 Feb 2026 18:47:56 -0000
-Message-Id: <177195887656.1295663.193880496852454927@gitolite.kernel.org>
+Subject: post-receive: pub/scm/docs/kernel/ksmap
+Date: Tue, 24 Feb 2026 18:55:12 -0000
+Message-Id: <177195931270.1302503.14213001913681018273@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: ast
+repo: pub/scm/docs/kernel/ksmap
+user: bwh
 changes:
-  - ref: refs/heads/for-next
-    old: 3733f4be287029dad963534da3d91ac806df233d
-    new: e4094d56c5592dd90aa619f9480265b0689ed3d9
+  - ref: refs/heads/master
+    old: e8c7bac5321ba31d63496bd7fecea3db1848e355
+    new: abe9eda186f5ba995eec83c95a3e183fbfe41e4a
     log: |
-         e4094d56c5592dd90aa619f9480265b0689ed3d9 s390/bpf: Do not increment tailcall count when prog is NULL
+         abe9eda186f5ba995eec83c95a3e183fbfe41e4a users: Update bwh's location
          
