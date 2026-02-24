@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Tue, 24 Feb 2026 01:46:41 -0000
-Message-Id: <177189760154.350280.4435640210147161327@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/zx2c4/cgit
+Date: Tue, 24 Feb 2026 01:49:31 -0000
+Message-Id: <177189777109.351134.16436307765161455519@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/linux/kernel/git/zx2c4/cgit
+user: zx2c4
 changes:
-  - ref: refs/heads/main
-    old: 4cfe066a82cdf9e83e48b16000f55280efc98325
-    new: 3aa677625c8fad39989496c51bcff3872c1f16f1
+  - ref: refs/notes/signatures/tar
+    old: a7d29e87a189e4bdce735c8ad00e474e0e92ecd2
+    new: f77ab5ae56a947faaa9786ee435c8d3b60ffdc61
     log: |
-         3aa677625c8fad39989496c51bcff3872c1f16f1 tipc: fix duplicate publication key in tipc_service_insert_publ()
+         f77ab5ae56a947faaa9786ee435c8d3b60ffdc61 Notes added by 'git notes add'
          
