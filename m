@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netfilter/nf-next
-Date: Tue, 24 Feb 2026 19:46:29 -0000
-Message-Id: <177196238901.1344599.10685376385069651825@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/b4/b4
+Date: Tue, 24 Feb 2026 19:48:20 -0000
+Message-Id: <177196250045.1345195.2305032101786486802@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netfilter/nf-next
-user: fwestphal
+repo: pub/scm/utils/b4/b4
+user: mricon
 changes:
-  - ref: refs/tags/nf-next-26-02-24
-    old: 6902cc0d47b2671d5fcd594ba7ae518de5e8cf91
-    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/master
+    old: c761c489277f925d9652ca438a1cbe2789e95950
+    new: 858baa2b2eeb93ea1b0e1b57adfb77e4a126043e
+    log: |
+         858baa2b2eeb93ea1b0e1b57adfb77e4a126043e send: Add --force-cover-letter to send separate cover for single patch patch series
+         
