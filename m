@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs
-Date: Tue, 24 Feb 2026 03:59:40 -0000
-Message-Id: <177190558095.492633.13891532640763918626@gitolite.kernel.org>
+Date: Tue, 24 Feb 2026 04:23:27 -0000
+Message-Id: <177190700762.511177.9035245361840296298@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,5 @@ repo: pub/scm/linux/kernel/git/jaegeuk/f2fs
 user: jaegeuk
 changes:
   - ref: refs/heads/dev-test
-    old: 6c6b3467bebad1680b06468d4127cdf2e45d55af
-    new: 9d837a5ea83029ff129d75d1b26fe6c298f8287e
-    log: |
-         9d837a5ea83029ff129d75d1b26fe6c298f8287e f2fs: avoid reading already updated pages during GC
-         
+    old: 9d837a5ea83029ff129d75d1b26fe6c298f8287e
+    new: 6c6b3467bebad1680b06468d4127cdf2e45d55af
