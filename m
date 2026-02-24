@@ -1,9 +1,13 @@
+Content-Type: multipart/mixed; boundary="===============7693103620894663347=="
+MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/frank.li/linux
-Date: Tue, 24 Feb 2026 20:55:10 -0000
-Message-Id: <177196651070.1398578.6904164033392210409@gitolite.kernel.org>
+Date: Tue, 24 Feb 2026 20:55:12 -0000
+Message-Id: <177196651226.1398749.1323751977676451698@gitolite.kernel.org>
+
+--===============7693103620894663347==
+Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
@@ -11,17 +15,33 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/frank.li/linux
 user: frank.li
 changes:
-  - ref: refs/heads/imx/dt
-    old: a96f415ab504484f10673be0d0d9c0e502ca9290
-    new: 0a54e797d70ebd8c9b93547d897e3aa0cf0784bd
-    log: |
-         c79cb42baf2ab1bbaac49cc46a3536af593e46c3 ARM: dts: imx35: rename emi to emi-bus to fix CHECK_DTBS warning
-         3645ed51986b10560081bc32a8ff66daf7b1c0ed ARM: dts: imx35: rename i2c clock-names to ipg
-         1c764712672bc984691d01716d2838b26230b587 ARM: dts: imx35: remove simple-bus 'usbphy'
-         cf1215fd56cfe552f4d7df17fb995f52a88a2181 ARM: dts: imx51-ts4800: rename fpga@0 to fpga@0,0
-         7e660488ba1377441bab56850b8d72bf868a59f5 ARM: dts: imx51-babbage: rename at45db321d@1 to flash@1
-         8264da70bc552cbc208128486c8e78f0c5ebe90c ARM: dts: imx53: drop fallback compatible "dlg,da9052"
-         e9fa878769a2ffbe3b9ad9a46d97ecdbedf540f9 ARM: dts: imx6qdl-sr-som-ti: use fixed-clock instead of clock-frequency
-         522a512c9f0fd79c5dd6606437e4ce273ab1acf7 ARM: dts: imx53-smd: Add power supply node for fsl,sgtl5000
-         0a54e797d70ebd8c9b93547d897e3aa0cf0784bd ARM: dts: imx7s-warp: Remove data-lanes and clock-lanes for ov2680
-         
+  - ref: refs/heads/imx/dt64
+    old: 89320a1b9b93cf83ba97e18c69568184f8f7fda8
+    new: 12f56ee0ad2b7512808e06a804290bc7720530b1
+    log: revlist-89320a1b9b93-12f56ee0ad2b.txt
+
+--===============7693103620894663347==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-89320a1b9b93-12f56ee0ad2b.txt
+
+43eeae2b00013460193ae44fb71cf005098e16a1 arm64: dts: imx93: Add parallel display output nodes
+8940756346ec498727acce4dd3fb4659b1fd83d3 arm64: dts: imx93-evk/qsb: add m2-pcm-level-shifter-hog to enable BT HFP
+c13e6652c7ea2984b3e3094a18e1e6c441a06ce3 arm64: dts: imx95-19x19-evk: enable lpuart5 for Bluetooth support
+5f93cce741bc9ffbc9ce4b8ca4a1ff6bf1a881f0 arm64: dts: imx8-apalis: Disable the audmix
+722094c436d6e393ca16441da9642eb61d102145 arm64: dts: imx93-14x14-evk: enable lpuart5 for Bluetooth
+b2150811e0efc767928b45ccebc9671fdf5c4c18 arm64: dts: imx943-evk: enable lpuart6 for Bluetooth
+3ae57df0b37e638e587c6d6076847d303db3438b arm64: dts: imx8-apalis: Remove obsolete TODO comment
+92ab53b9bb2a72581c32073755077af916eb9aee arm64: dts: imx8-apalis: Fix LEDs name collision
+0c9d379d436e119285ef39a4f96b012f576ed74c arm64: dts: freescale: imx95-toradex-smarc: fix PMIC_SD2_VSEL label position
+77ae6ab96581773dc799739252e632263a29b58f arm64: dts: imx95: add AONMIX MQS node
+87e4207ddfe945907da45ea7d1d5eb26c879ec59 arm64: dts: imx95-15x15-frdm: support AONMIX MQS
+3eb100e561953d36bb6d1eb4ee27d3676e17c0ab arm64: dts: imx93: Extract common EVK description into shared dtsi
+f245e8eb168932a68c87c6e13d46eacb1893478d arm64: dts: imx93: Move 11x11 EVK specific parts back to imx93-11x11-evk.dts
+6c41fe5964c270d11fceb683c041ccc35c4434d1 arm64: dts: imx93: Add imx93w.dtsi for i.MX93 Wireless SiP
+8c2d3dd02d1a22d3f2c00ba98e90e283c1d0db20 arm64: dts: imx93: Add i.MX93 Wireless EVK board support
+c915f81aa3c71247601edad955602d60d629fcdd arm64: dts: imx95: Reserve eDMA channels 0-1 for V2X
+12f56ee0ad2b7512808e06a804290bc7720530b1 arm64: dts: imx95-evk: update the dma-channel-mask property
+
+--===============7693103620894663347==--
