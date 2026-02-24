@@ -1,19 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Tue, 24 Feb 2026 10:44:09 -0000
-Message-Id: <177192984923.811250.9446830690424606008@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rw/misc
+Date: Tue, 24 Feb 2026 10:46:55 -0000
+Message-Id: <177193001514.814786.14800070110624416212@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: pabeni
+repo: pub/scm/linux/kernel/git/rw/misc
+user: rw
 changes:
-  - ref: refs/heads/main
-    old: 82aec772fca2223bc5774bd9af486fd95766e578
-    new: 983512f3a87fd8dc4c94dfa6b596b6e57df5aad7
+  - ref: refs/heads/rw/drbd9
+    old: c3aa2801254eee00d0e9d6d53eca4aaf9ba95146
+    new: d0aebad1135cb18aa950d7c4f5309497cde7658e
     log: |
-         983512f3a87fd8dc4c94dfa6b596b6e57df5aad7 net: Drop the lock in skb_may_tx_timestamp()
+         ad5ab6f8dc23a36a88804bfd0866f1d53b36dcca drbd: rework module core for DRBD 9 transport and multi-peer
+         cd95fd83ee8ffb8f0ea2391c0326fdece47dc635 drbd: rework receiver for DRBD 9 transport and protocol
+         bfc3247e09241473bd9fa70f626a094cc7c2ac1b drbd: rework netlink interface for DRBD 9 multi-peer config
+         d0aebad1135cb18aa950d7c4f5309497cde7658e drbd: rework support modules for DRBD 9 multi-peer monitoring
          
