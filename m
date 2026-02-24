@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5215384743082893936=="
+Content-Type: multipart/mixed; boundary="===============6718317488575187318=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Tue, 24 Feb 2026 00:38:01 -0000
-Message-Id: <177189348113.284887.15263292732333106059@gitolite.kernel.org>
+Date: Tue, 24 Feb 2026 00:38:02 -0000
+Message-Id: <177189348257.285107.9211908669278127903@gitolite.kernel.org>
 
---===============5215384743082893936==
+--===============6718317488575187318==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/mm-new
-    old: a6fdc327de4678e54b5122441c970371014117b0
-    new: 018018a17770b2d196425fd0afd65c60aeb3af0b
-    log: revlist-a6fdc327de46-018018a17770.txt
+  - ref: refs/heads/mm-unstable
+    old: 702dcc7f809004e717d2c5a01439622339765c83
+    new: d501d4b5628db4bf5379cb562482c45e29081173
+    log: revlist-702dcc7f8090-d501d4b5628d.txt
 
---===============5215384743082893936==
+--===============6718317488575187318==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a6fdc327de46-018018a17770.txt
+Content-Disposition: attachment; filename=revlist-702dcc7f8090-d501d4b5628d.txt
 
 0d4b3ca115b5436d7e68453527566db3e87ab7f0 xtensa: align: validate access in fast_load_store
 d311783bc68b011c77a4ef81321de2c94d7deffc perf list: Remove unused 'sep' variable
@@ -830,12 +830,5 @@ c45f9d3ad2ccf1aeefff561884bb612d2ddfda2a mm: khugepaged: add trace_mm_khugepaged
 2e713dee5cd10e77400e263a42c474ab5ca3c5e7 mm: add folio_test_lazyfree helper
 80f6f56d9feab06e08941c07b9e15b8c359ee6e8 mm: khugepaged: skip lazy-free folios
 d501d4b5628db4bf5379cb562482c45e29081173 mm: centralize+fix comments about compound_mapcount() in new sync_with_folio_pmd_zap()
-40e65d4bf80b7ae5f427d3e3dac9c3e206528c08 mm: vmalloc: streamline vmalloc memory accounting
-47772e0a26ee257a425896729100970f967159eb mm: memcontrol: switch to native NR_VMALLOC vmstat counter
-84ef9c26f7d60899b44b8f3bb32e97f3b68f5ff7 tracing: add __event_in_*irq() helpers
-ebe433020729ae528578320362c1e12631560fb2 mm: vmscan: add cgroup IDs to vmscan tracepoints
-2e28a3d5b23cd97152e62361fd6df37f24fd8a20 mm: vmscan: add PIDs to vmscan tracepoints
-9de2f56afb255bd6e442100fd9a2f8b3c16bf75e arm64: mm: fix pass user prot to ioremap_prot in generic_access_phys
-018018a17770b2d196425fd0afd65c60aeb3af0b mm/vmscan: avoid false-positive -Wuninitialized warning
 
---===============5215384743082893936==--
+--===============6718317488575187318==--
