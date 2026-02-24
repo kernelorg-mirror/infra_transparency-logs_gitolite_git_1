@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1783763579206142384=="
+Content-Type: multipart/mixed; boundary="===============5938168717347073227=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux
-Date: Tue, 24 Feb 2026 11:02:47 -0000
-Message-Id: <177193096750.831370.17331123204783685849@gitolite.kernel.org>
+Date: Tue, 24 Feb 2026 11:02:51 -0000
+Message-Id: <177193097145.831634.13252642034118700549@gitolite.kernel.org>
 
---===============1783763579206142384==
+--===============5938168717347073227==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/krzk/linux
 user: krzk
 git_push_cert_status: Y
 changes:
-  - ref: refs/heads/next/defconfig
-    old: 8f0b4cce4481fb22653697cced8d0d04027cb1e8
+  - ref: refs/heads/next/drivers
+    old: 900131320bc9a9ec1d84702b2694b813c11c91b7
     new: 6de23f81a5e08be8fbf5e8d7e9febc72a5b5f27f
-    log: revlist-8f0b4cce4481-6de23f81a5e0.txt
+    log: revlist-900131320bc9-6de23f81a5e0.txt
 
---===============1783763579206142384==
+--===============5938168717347073227==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher krzk@kernel.org 1771930965 +0100
+pusher krzk@kernel.org 1771930969 +0100
 pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux.git
-nonce 1771930964-56b542e8de454fcf90fdc5bc17d3af4d8e3fc5ae
+nonce 1771930968-0765474a47ed98872548ef397dc358cc7f530b30
 
-8f0b4cce4481fb22653697cced8d0d04027cb1e8 6de23f81a5e08be8fbf5e8d7e9febc72a5b5f27f refs/heads/next/defconfig
+900131320bc9a9ec1d84702b2694b813c11c91b7 6de23f81a5e08be8fbf5e8d7e9febc72a5b5f27f refs/heads/next/drivers
 -----BEGIN PGP SIGNATURE-----
 
-iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmmdhVUQHGtyemtAa2Vy
-bmVsLm9yZwAKCRDBN2bmhouD1zI4D/9pMdLvKA21Dldl7C0W3vhLjn6pn+5aKoOU
-dUD6cN3sIG7eAAPpG8+fCJWh/XUP9RMQMw9mI6PjhSuGf8pmRwcnSMUXqmXmK2fG
-SS9oVCf+fte8YioXki9OSXH13vpLLWTe6yc7KILjyVgB0h7U12sermWsuEHWapbN
-9Z3kZsBKfBVEeKyQSpdunJqGpkwnZnSqtbEt+RnqiZIiE9iLcOuyP9HvL9XT/MJR
-MqNQivW7DhxhUzCG9k2mhfWc4nZSjMMJzImc003tVQtqgt3cgwRPbKtYCD5O03RB
-E21PzbCGetDDIo6MQriOj94S7wL0e3KQ9t/4hvHpPJNmzWrjyzdtC4N5wdeJ7ToB
-oNKkm5ATnGiWupTY+PHWPu1NNDVgzQtqgibI+wNzGmxiLfbNDMLc4AgDuj5jlnP5
-kQVMKHV5XXowtqAyyaJ1NzQ2Q6ASB84JiU6iQ33Jec77aQJ2/D6VC0DK6iul8vt6
-0+/rOVqrRl511dIcQQ8X6620tZVKDLGAlxrzVO0JvZxM2dbtgDQQUwZamnu4SRPt
-rdZgw3AAFvhpTmS8KFmpF1in/8C1Xx1ht7tTnU4Qvqj4oFpdrANHr2jamhiTTR+R
-GyBvbXc1DpKLCbedFaJblHE8rLC68azbBE/9kCFQqX5NKClIHkh4jCoqnEN8Hed+
-nc22Fgqb/w==
-=CJS/
+iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmmdhVkQHGtyemtAa2Vy
+bmVsLm9yZwAKCRDBN2bmhouD14JTEACDkmEAtpOOdbumVx90fu9+518mjhPXOlPg
+pmkIIDNhks3MnffjsI6u3Ftq4QE2tHsmLyY8+eXveA7FnbGaVtdAJcbDvC3Dc3G1
+0dKOpIvWSyzh8gelOGzj6KsizwcuxTxtbCtQKRBqadDs/8qRKhIKbwPxib2FEjGY
+EeRmbnGZULPIyeZuB0pa0ueX/PmPDe3S1FOKwRV9Iwovwj/TuUQBAD0vS/6INJZh
+iy3AwYX7ui+smIhtrJIv6OpTyRIWUCkQmUi6xGdmZJoQPTuGD3JBjXiNWbXQP9Ol
+baa1iKAE3PjrWFdRldqA11iTSCb2FZ/26+WftBz1WNSDEkAa8FWJgLH5nUrMHecg
+l3zMrJba1ENLVSQ2FdIcqk2aOdCkP81Gy2bY/wetIBm1Fz5IPEukz1YPfDFrWfuL
+MoGHuKC3VhMgH3LLWNXbdEyUowYKLe7f84dbCQgCbS0yU1zeyhBKNWhK0jKtyLot
+gC0yrjYC+FvZDHvvEmpqtA8Kmgym13RuDGAR3e+k6crvP5eejPlwD+NQzIJkI/ny
+g++o42CK/asSrCoL6apsRZbW8uzCIoUN21qjWcm20m3Kb0ytDFI+vnmBLe2/WCAu
+GMFSIXlfS776JaMmAHPFcIJXkL43dCgVW5xwAKjislMmfyhO/p68xY0RoRxfDTPz
+xk7A+/1u9g==
+=fe+P
 -----END PGP SIGNATURE-----
 
---===============1783763579206142384==
+--===============5938168717347073227==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-8f0b4cce4481-6de23f81a5e0.txt
+Content-Disposition: attachment; filename=revlist-900131320bc9-6de23f81a5e0.txt
 
 9e03b7caf4e65f5a5841dfed540fdcc3ff061734 Merge tag 'kvm-x86-misc-6.20' of https://github.com/kvm-x86/linux into HEAD
 2f81bdbdb3aa3fccd9b5420df5674730c40af554 Merge tag 'i3c/for-6.20' of git://git.kernel.org/pub/scm/linux/kernel/git/i3c/linux
@@ -1082,4 +1082,4 @@ aaf96df9593bf4ab1b73c17891e4efe7570fdef3 CREDITS: Add -next to Stephen Rothwell'
 fbf33803618ad4f531f78fe15cf328fe6c7f9978 Merge tag 'fsverity-for-linus' of git://git.kernel.org/pub/scm/fs/fsverity/linux
 6de23f81a5e08be8fbf5e8d7e9febc72a5b5f27f Linux 7.0-rc1
 
---===============1783763579206142384==--
+--===============5938168717347073227==--
