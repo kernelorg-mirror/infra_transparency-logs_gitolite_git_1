@@ -1,65 +1,62 @@
-Content-Type: multipart/mixed; boundary="===============1285462639163768912=="
+Content-Type: multipart/mixed; boundary="===============5674681912873253185=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux
-Date: Tue, 24 Feb 2026 11:02:59 -0000
-Message-Id: <177193097928.832231.12972627795592721307@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux-mem-ctrl
+Date: Tue, 24 Feb 2026 11:03:02 -0000
+Message-Id: <177193098271.832499.399447405161261707@gitolite.kernel.org>
 
---===============1285462639163768912==
+--===============5674681912873253185==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/krzk/linux
+repo: pub/scm/linux/kernel/git/krzk/linux-mem-ctrl
 user: krzk
 git_push_cert_status: Y
 changes:
-  - ref: refs/heads/next/dt64
-    old: 024d8f4aa35970c4563c6ef0c4170133719b2103
-    new: 6de23f81a5e08be8fbf5e8d7e9febc72a5b5f27f
-    log: revlist-024d8f4aa359-6de23f81a5e0.txt
+  - ref: refs/heads/for-next
+    old: 3c6133ece23b5c3f90fe90c9e524bc322c52c921
+    new: 0a93f2355cf4922ad2399dbef5ea1049fef116d4
+    log: revlist-3c6133ece23b-0a93f2355cf4.txt
 
---===============1285462639163768912==
+--===============5674681912873253185==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher krzk@kernel.org 1771930977 +0100
-pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux.git
-nonce 1771930976-e7b1de453cb3909e8ee9ae19a3458e5f6f395e7d
+pusher krzk@kernel.org 1771930980 +0100
+pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux-mem-ctrl.git
+nonce 1771930979-dc8fb4a0ec0eaf1a665a725b9370c890778c87a9
 
-024d8f4aa35970c4563c6ef0c4170133719b2103 6de23f81a5e08be8fbf5e8d7e9febc72a5b5f27f refs/heads/next/dt64
+3c6133ece23b5c3f90fe90c9e524bc322c52c921 0a93f2355cf4922ad2399dbef5ea1049fef116d4 refs/heads/for-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmmdhWEQHGtyemtAa2Vy
-bmVsLm9yZwAKCRDBN2bmhouD1+uND/0UNsCso6AmuTSckL9CJ+uNPZNmLVzcCaze
-g95GLVjECymjQirKMvOgQ7dgnrI0adQciiG2RylcaIrztM/3u20H1ceo4KtHawzd
-P4E1DOBdDee1GmjJNEyTYEndGB2Zwe8bssoPCiZc9Ug845Wg9Tmq8KE4DzX9T0yN
-eoyGzbSEOwVZCAjKXRtfnvgziYwMTlqBgRAGMdvr89ba5LF+qaGSZGuJJQdLtoHP
-jUYqkNFNAPVPM5bMF9clhfzB2JW4fnn0x0Yb2jm8jWQz+UoFOsf5MCla8imXRltE
-hRE0BGOBKaVfx2sOCup0sW0m37bgGO8LTN6XozFJKL7lWfC7QzrxN4VenmHv4o0H
-PqDWcPA/JE+KvKdNBAop47uBovs+hTKSd5DT83frojDCmUeKutfTSVqbJ3nqC3pC
-EMI9es4SZ2RIXAJvFu0oy9GHPbl8xZURkoU1gOUAJGIBJcVaMSFmJXslp8BtC5Z1
-WOrNgP4ZWSmsWIMcQaT0ngdAm0pexzf9kny5/h8UphGnRAiI6cZgQKumiY41/g+7
-BNlo5pvDEQOfd42C5mRViXy843DSuhJBm4Al8gp6ZFRsuzbL0rAbx7/lrdVyWdgF
-D+3iOduKT3VyM+c2+U1qzNddA3F0N2kuf4y8tBKe31ryruF60Z8OZgw64Q3lAmiZ
-ezY1H5xEbA==
-=FFB1
+iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmmdhWQQHGtyemtAa2Vy
+bmVsLm9yZwAKCRDBN2bmhouD1yKDD/4nhyqEHNQzmON3u1QQZv213tAMkO8QUcJG
+mS8MyGsuqK3Fj9WfgXB4UFBVxRVMtVailCy8o8K5Yi7rEABXbVpq9C1H94JJnYFZ
+QVFQDdnXNdYV+uNY5Dn5iuekVYV/JF81SYxzVIEX9c9bbLnFxbi3ogLg5GnjPrtT
+doTLW1gHf09DP/VJq1PPh/WGQN0RgMfrlflCvd/9qNbTG+fh6jakFQHiwQjmVEd3
+T4pWe6qo1/6TIgRvcjp9+E3zUt+WjcCCP5iqzMSx91B+bnCcrXVarWmbvtbplCeN
+g2i/OCZCXEcdJjB4QuULCl3nqn7vxXkoTHE35TI60W0QWSZonnSKXGlPsLktL7f1
+TqgUijA2XqDIJo7Q9GerHAyKp/uRhkqzUkj2nVeXq9zlufSKzmrVTuisEuVL0AZ0
+zT+0StsnusPLLPURpc3FmYY3y1GNwi69kNSEc6O2b1VA6QE9vmbv9lew52G30hzQ
+Pa2hGHq2OYzJcyNhfYiQzu86bDDQ0ZyG9KFfocIwf63ZkIlz7gyweUsFCyhfB7u6
+jj8pA9RJN5EUTwT/haSwhdJWCJH2RGJn5CMxB55Q6iAvvkZwFMnDu1K73xkIjUcv
+ktDzgWW+00v4KB8WDZA4sbDrTYd2MafHfcS8qSmNeIwnBAMADLsZ72o9kDhdgIXT
+SrfRK//zbw==
+=RsY2
 -----END PGP SIGNATURE-----
 
---===============1285462639163768912==
+--===============5674681912873253185==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-024d8f4aa359-6de23f81a5e0.txt
+Content-Disposition: attachment; filename=revlist-3c6133ece23b-0a93f2355cf4.txt
 
-9e03b7caf4e65f5a5841dfed540fdcc3ff061734 Merge tag 'kvm-x86-misc-6.20' of https://github.com/kvm-x86/linux into HEAD
-2f81bdbdb3aa3fccd9b5420df5674730c40af554 Merge tag 'i3c/for-6.20' of git://git.kernel.org/pub/scm/linux/kernel/git/i3c/linux
-37b4fbf8dbdfb694f2972d1bd7fcd36304a520dd Merge tag 'tpmdd-next-7.0-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/jarkko/linux-tpmdd
 698749164aa53cc313248efd2dc1c25dcf25c99c Merge tag 'audit-pr-20260203' of git://git.kernel.org/pub/scm/linux/kernel/git/pcmoore/audit
 bcc8fd3e1573c502edc0cb61abea0e113a761799 Merge tag 'lsm-pr-20260203' of git://git.kernel.org/pub/scm/linux/kernel/git/pcmoore/lsm
 1d3ffe6233b1b6e8697f5027b9441ce70385c997 perf tests workload: Formatting for code_with_type.rs
@@ -1081,5 +1078,8 @@ aaf96df9593bf4ab1b73c17891e4efe7570fdef3 CREDITS: Add -next to Stephen Rothwell'
 75e1f66a9ed09f29c6883ea379c174e8cf31f7cc Merge tag 'libcrypto-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/ebiggers/linux
 fbf33803618ad4f531f78fe15cf328fe6c7f9978 Merge tag 'fsverity-for-linus' of git://git.kernel.org/pub/scm/fs/fsverity/linux
 6de23f81a5e08be8fbf5e8d7e9febc72a5b5f27f Linux 7.0-rc1
+ef4d7b9975d6d87a21574f98473945c8e499a0d2 memory: tegra: Add support for DBB clock on Tegra264
+9597ab9a8296ab337e6820f8a717ff621078b632 memory: tegra124-emc: Fix dll_change check
+0a93f2355cf4922ad2399dbef5ea1049fef116d4 memory: tegra30-emc: Fix dll_change check
 
---===============1285462639163768912==--
+--===============5674681912873253185==--
