@@ -1,57 +1,57 @@
-Content-Type: multipart/mixed; boundary="===============9033191008279274928=="
+Content-Type: multipart/mixed; boundary="===============0709112182226776423=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux
-Date: Tue, 24 Feb 2026 11:03:12 -0000
-Message-Id: <177193099261.832855.8356075673458159925@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux-mem-ctrl
+Date: Tue, 24 Feb 2026 11:03:42 -0000
+Message-Id: <177193102243.833428.2996573708189832652@gitolite.kernel.org>
 
---===============9033191008279274928==
+--===============0709112182226776423==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/krzk/linux
+repo: pub/scm/linux/kernel/git/krzk/linux-mem-ctrl
 user: krzk
 git_push_cert_status: Y
 changes:
-  - ref: refs/heads/next/soc64
+  - ref: refs/heads/fixes
     old: 8f0b4cce4481fb22653697cced8d0d04027cb1e8
     new: 6de23f81a5e08be8fbf5e8d7e9febc72a5b5f27f
     log: revlist-8f0b4cce4481-6de23f81a5e0.txt
 
---===============9033191008279274928==
+--===============0709112182226776423==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher krzk@kernel.org 1771930987 +0100
-pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux.git
-nonce 1771930986-d4678e3085cd3cd0b35fb98b59d8e263c3def8b9
+pusher krzk@kernel.org 1771931020 +0100
+pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux-mem-ctrl.git
+nonce 1771931019-c29bef9d71db825b782a8b02905520d7f1c189e4
 
-8f0b4cce4481fb22653697cced8d0d04027cb1e8 6de23f81a5e08be8fbf5e8d7e9febc72a5b5f27f refs/heads/next/soc64
+8f0b4cce4481fb22653697cced8d0d04027cb1e8 6de23f81a5e08be8fbf5e8d7e9febc72a5b5f27f refs/heads/fixes
 -----BEGIN PGP SIGNATURE-----
 
-iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmmdhWsQHGtyemtAa2Vy
-bmVsLm9yZwAKCRDBN2bmhouD14+9D/0eqA78iwxEK60fFIDBgiUk7CwCbOCSpvmR
-lC9DrEjN0WmFNVm2BVphu6zozhBM5GuwcD7f60NkFGypwpk+GNNPiWG63szWFxeU
-kvVwym9XGxhh7iCTvZHl3nPr/jOLHR6kAQpfBYIvLLaL5qS870DEZBcbU3idA96u
-y1Z8F6OzwhyxRFySaxlZKZsc4P4tvNH2SQNBRKqnLhIGPWoqR7CICye2hKkl04xc
-npIcsLSwgMwgZnaLzmmtrxxGHDj27ALhhE8X0IqBH4u4NfulpiGNC8MbpE0MvDb0
-40/4vNKJjOODF9+HtRCR02AvNwhLNCiwbpU1WWj8uTbcYR4jj+faktKI4bvW68VF
-kcc8pXLS1jStiCU6lp5nmq0h5TW1PrZthVIwFufsOY78cfXTs59KynYzxBQEDV1E
-vQzKiNySSrWzUetzMLtKM2VVD2H2GyBMSnpBsoDlwAtyo+0sTZObjFpn6nBa+cQH
-FfFYcG6vCfcxn+sCveONfgt8YMFuRrcd723cq1Vbxnew65j7mC+/pRKtauKQt7Hz
-cgD/vFZ6HGEPpr6B7RoRfT/+7l0+a+BxGVk3HMfJdkr2+LTs4XXAMXKl0L08gClY
-Gy8e1ksEicex6XLGcLbvucfVi3z48stk9i0xhqShRov95R9ahP3TmfQouxxBGCPl
-YPuviPKDWA==
-=kezl
+iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmmdhYwQHGtyemtAa2Vy
+bmVsLm9yZwAKCRDBN2bmhouD18MqEACIy/qssrOKytZaSqRmnY/FreGSsDslDD15
+RIWuxImvo/Xhgt6DQQzGO62iQFUDnOgDJzOTLqSth9F5AmLymXMLTQrpI4rMtRcV
+F5Xok7qjoKhlOguAdwpyvwyUCGmIxrbY1Nrw7SYhCayyDhy3CoXpsM4oyPw2fE30
+UAsRMI7E0mfgnFOnlu7MRWrl2ObpBtuJU+w6R+I+j7wph92BVF11vUlx1MoJ3Cm2
++ed/1JX/psk+SYS1j++l04t+/1DWbn8WH9nNrvAIMhihoH8B8opNoZNiAac1JEq9
+F9odJla0ATCm7vOwl9YJ9luDmWFip5cJElDVhjn/0espYdfoUCqyIpBL5Eqzo3Bd
+oHuFhuo6dKFH+G0lNrXZBX7wBqgIVPuce1o25K0OXWlrqX1D10jOoQC7h+MfirCY
+B0z/aAX5wL0LNQs0wsLWAr3bZHdaWLh+mvskDZAYiCNEBNs9/g9vVvVZC0ybaJr5
+RhlADzkCQ3GSMwcyBj7ruey7iP582UAKbckriycA5LgVQjo9ZtWtVIQd09VBIaqA
++A0d/QBsscKWc/xRQussHrchvA3jRNvpk7G3H+uHbgyD3roxEP6hutZ8iQ1t08m6
+JjUFUZZxWJa9+maKYTRl61udivIldugcDCURYakI/b/ER8SHo34WTNsra2vJhFyV
+AaEvpnQ/7Q==
+=dOBB
 -----END PGP SIGNATURE-----
 
---===============9033191008279274928==
+--===============0709112182226776423==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -1082,4 +1082,4 @@ aaf96df9593bf4ab1b73c17891e4efe7570fdef3 CREDITS: Add -next to Stephen Rothwell'
 fbf33803618ad4f531f78fe15cf328fe6c7f9978 Merge tag 'fsverity-for-linus' of git://git.kernel.org/pub/scm/fs/fsverity/linux
 6de23f81a5e08be8fbf5e8d7e9febc72a5b5f27f Linux 7.0-rc1
 
---===============9033191008279274928==--
+--===============0709112182226776423==--
