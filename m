@@ -1,31 +1,57 @@
-Content-Type: multipart/mixed; boundary="===============1568226581068316309=="
+Content-Type: multipart/mixed; boundary="===============8345812688265556618=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/libata/linux
-Date: Tue, 24 Feb 2026 00:47:32 -0000
-Message-Id: <177189405299.294201.4733214730045493815@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/modules/linux
+Date: Tue, 24 Feb 2026 00:53:04 -0000
+Message-Id: <177189438452.298480.11114317271405397853@gitolite.kernel.org>
 
---===============1568226581068316309==
+--===============8345812688265556618==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/libata/linux
-user: dlemoal
+repo: pub/scm/linux/kernel/git/modules/linux
+user: sami
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/for-next
-    old: ff4a46c278ac6a4b3f39be1492a4568b6dcc6105
-    new: 99d6b9014bbd128dc73b7097e78dab1f1f70aab0
-    log: revlist-ff4a46c278ac-99d6b9014bbd.txt
+  - ref: refs/heads/master
+    old: 9448598b22c50c8a5bb77a9103e2d49f134c9578
+    new: 6de23f81a5e08be8fbf5e8d7e9febc72a5b5f27f
+    log: revlist-9448598b22c5-6de23f81a5e0.txt
 
---===============1568226581068316309==
+--===============8345812688265556618==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher 84F5ABB5BBF74265EAF372185A0725AB39A1A77A 1771894382 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/modules/linux.git
+nonce 1771894382-2b22039a1cfa0696b79c5c46b8b79d0f68db87e8
+
+9448598b22c50c8a5bb77a9103e2d49f134c9578 6de23f81a5e08be8fbf5e8d7e9febc72a5b5f27f refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iHUEABYKAB0WIQSE9au1u/dCZerzchhaByWrOaGnegUCaZz2bgAKCRBaByWrOaGn
+eiNDAQDQCgzwu4aTMkQcJbKs6eRxCP67RXw3R6f+rR5xhIcYdAD+Ito+1XCpB/04
+WSp/4fWHmM7QZohGi2mwtLNk0iW1wQE=
+=jn4Y
+-----END PGP SIGNATURE-----
+
+--===============8345812688265556618==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-ff4a46c278ac-99d6b9014bbd.txt
+Content-Disposition: attachment; filename=revlist-9448598b22c5-6de23f81a5e0.txt
 
+9e03b7caf4e65f5a5841dfed540fdcc3ff061734 Merge tag 'kvm-x86-misc-6.20' of https://github.com/kvm-x86/linux into HEAD
+2f81bdbdb3aa3fccd9b5420df5674730c40af554 Merge tag 'i3c/for-6.20' of git://git.kernel.org/pub/scm/linux/kernel/git/i3c/linux
+37b4fbf8dbdfb694f2972d1bd7fcd36304a520dd Merge tag 'tpmdd-next-7.0-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+698749164aa53cc313248efd2dc1c25dcf25c99c Merge tag 'audit-pr-20260203' of git://git.kernel.org/pub/scm/linux/kernel/git/pcmoore/audit
+bcc8fd3e1573c502edc0cb61abea0e113a761799 Merge tag 'lsm-pr-20260203' of git://git.kernel.org/pub/scm/linux/kernel/git/pcmoore/lsm
 1d3ffe6233b1b6e8697f5027b9441ce70385c997 perf tests workload: Formatting for code_with_type.rs
 6252e917b9006dfa2f3d884fe0dbaf3e676c4108 Merge tag 'selinux-pr-20260203' of git://git.kernel.org/pub/scm/linux/kernel/git/pcmoore/selinux
 42e7c876b182da65723700f6bc507a8aecb10d3b fs/nfs: Fix readdir slow-start regression
@@ -1045,10 +1071,5 @@ aaf96df9593bf4ab1b73c17891e4efe7570fdef3 CREDITS: Add -next to Stephen Rothwell'
 75e1f66a9ed09f29c6883ea379c174e8cf31f7cc Merge tag 'libcrypto-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/ebiggers/linux
 fbf33803618ad4f531f78fe15cf328fe6c7f9978 Merge tag 'fsverity-for-linus' of git://git.kernel.org/pub/scm/fs/fsverity/linux
 6de23f81a5e08be8fbf5e8d7e9febc72a5b5f27f Linux 7.0-rc1
-6158e34e594dd150f3f2df81a1b0fe636e156757 ata: libata-core: improve tag checks in ata_qc_issue()
-a21b4040b3886555cba5e72ef475a556ad04700d ata: libata-sata: simplify ata_sas_queuecmd()
-9a5eb2adb1ec90f854d9b45c75f0fcb3ae981356 ata: libata-scsi: simplify ata_scsi_requeue_deferred_qc()
-fa4f81a8c15d4018eb2053b093bf1584777e80d4 ata: libata-scsi: make ata_scsi_simulate() static
-99d6b9014bbd128dc73b7097e78dab1f1f70aab0 ata: libata-scsi: rename and improve ata_qc_done()
 
---===============1568226581068316309==--
+--===============8345812688265556618==--
