@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
-Date: Tue, 24 Feb 2026 10:38:25 -0000
-Message-Id: <177192950532.805846.18102013090363404782@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs
+Date: Tue, 24 Feb 2026 10:38:44 -0000
+Message-Id: <177192952435.806084.12379801837344592831@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pci/pci
-user: mani
+repo: pub/scm/linux/kernel/git/xiang/erofs
+user: xiang
 changes:
-  - ref: refs/heads/endpoint
-    old: 26cd5ca272a44031c4ff381928aa1b816829d18d
-    new: 8eaff52fc101c1f6b3215db93bba02c815155806
+  - ref: refs/heads/dev-test
+    old: 13c68b7c12a4661701f839928561d85e45002c58
+    new: f5436aa3f06f71c9ee979c9b2e3228bad0bcea71
     log: |
-         8eaff52fc101c1f6b3215db93bba02c815155806 PCI: endpoint: pci-epf-vntb: Return -ERANGE for out-of-range MW index
+         bf4fde7db4a8e2613cba36d81ac271f3d66c28f7 erofs: remove more unnecessary #ifdefs
+         f5436aa3f06f71c9ee979c9b2e3228bad0bcea71 erofs: fix interlaced plain identification for encoded extents
          
