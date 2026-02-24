@@ -1,16 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/zx2c4/cgit
-Date: Tue, 24 Feb 2026 01:19:45 -0000
-Message-Id: <177189598554.323489.496109764862291815@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Tue, 24 Feb 2026 01:22:43 -0000
+Message-Id: <177189616317.326995.5795901699510236574@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/zx2c4/cgit
-user: zx2c4
+repo: pub/scm/linux/kernel/git/netdev/net
+user: kuba
 changes:
-  - ref: refs/heads/jd/zx2c4-deployment
-    old: 33e98849f21f6d46414d8f9287552acbdd706d2f
-    new: 543f0f948b97634f19606277cca7c018bc131f79
+  - ref: refs/heads/main
+    old: 41e09ec73d7431dffda01b1e7208a272a5c90fb9
+    new: 7bb09315f93dce6acc54bf59e5a95ba7365c2be4
+    log: |
+         8a8a9fac9efa6423fd74938b940cb7d731780718 net: do not pass flow_id to set_rps_cpu()
+         7bb09315f93dce6acc54bf59e5a95ba7365c2be4 tls: Fix race condition in tls_sw_cancel_work_tx()
+         
