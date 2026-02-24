@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6781517855890589059=="
+Content-Type: multipart/mixed; boundary="===============1929222308919543041=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/chanwoo/linux
-Date: Tue, 24 Feb 2026 10:56:28 -0000
-Message-Id: <177193058846.824988.17620939443946117894@gitolite.kernel.org>
+Date: Tue, 24 Feb 2026 10:56:43 -0000
+Message-Id: <177193060328.825395.815617796248592088@gitolite.kernel.org>
 
---===============6781517855890589059==
+--===============1929222308919543041==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,18 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/chanwoo/linux
 user: chanwoo
 changes:
-  - ref: refs/heads/devfreq-fixes
-    old: 05f7e89ab9731565d8a62e3b5d1ec206485eeb0b
-    new: 6de23f81a5e08be8fbf5e8d7e9febc72a5b5f27f
-    log: revlist-05f7e89ab973-6de23f81a5e0.txt
+  - ref: refs/heads/devfreq-next
+    old: e029911611fcab00db882204edc123c07be8ae21
+    new: 73b32f1304a4748684902d6fcf4712e79c37adb5
+    log: revlist-e029911611fc-73b32f1304a4.txt
 
---===============6781517855890589059==
+--===============1929222308919543041==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-05f7e89ab973-6de23f81a5e0.txt
+Content-Disposition: attachment; filename=revlist-e029911611fc-73b32f1304a4.txt
 
-9e03b7caf4e65f5a5841dfed540fdcc3ff061734 Merge tag 'kvm-x86-misc-6.20' of https://github.com/kvm-x86/linux into HEAD
 2f81bdbdb3aa3fccd9b5420df5674730c40af554 Merge tag 'i3c/for-6.20' of git://git.kernel.org/pub/scm/linux/kernel/git/i3c/linux
 37b4fbf8dbdfb694f2972d1bd7fcd36304a520dd Merge tag 'tpmdd-next-7.0-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/jarkko/linux-tpmdd
 698749164aa53cc313248efd2dc1c25dcf25c99c Merge tag 'audit-pr-20260203' of git://git.kernel.org/pub/scm/linux/kernel/git/pcmoore/audit
@@ -1050,5 +1049,6 @@ aaf96df9593bf4ab1b73c17891e4efe7570fdef3 CREDITS: Add -next to Stephen Rothwell'
 75e1f66a9ed09f29c6883ea379c174e8cf31f7cc Merge tag 'libcrypto-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/ebiggers/linux
 fbf33803618ad4f531f78fe15cf328fe6c7f9978 Merge tag 'fsverity-for-linus' of git://git.kernel.org/pub/scm/fs/fsverity/linux
 6de23f81a5e08be8fbf5e8d7e9febc72a5b5f27f Linux 7.0-rc1
+73b32f1304a4748684902d6fcf4712e79c37adb5 PM / devfreq: Remove unneeded casting for HZ_PER_KHZ
 
---===============6781517855890589059==--
+--===============1929222308919543041==--
