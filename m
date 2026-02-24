@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/thomas.weissschuh/linux
-Date: Tue, 24 Feb 2026 15:21:11 -0000
-Message-Id: <177194647185.1122316.16472287419854794561@gitolite.kernel.org>
+Subject: post-receive: pub/scm/bluetooth/bluez
+Date: Tue, 24 Feb 2026 15:21:46 -0000
+Message-Id: <177194650611.1122627.6230323586103067068@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/thomas.weissschuh/linux
-user: thomas.weissschuh
+repo: pub/scm/bluetooth/bluez
+user: vudentz
 changes:
-  - ref: refs/heads/b4/timespec-x32
-    old: 0000000000000000000000000000000000000000
-    new: 7b90b701433cbd377eef2ffc0059f20a2f2784b7
+  - ref: refs/heads/master
+    old: 290f9973c9069f293367284e95fd338a221ab90d
+    new: 7c9c8630c171093f7c347245ca132ab522b5859b
+    log: |
+         7c9c8630c171093f7c347245ca132ab522b5859b gatt-client:Implement error handling for DB_OUT_OF_SYNC in GATT caching
+         
