@@ -1,21 +1,28 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/robh/linux
-Date: Tue, 24 Feb 2026 20:59:47 -0000
-Message-Id: <177196678700.1400727.5744515186905836283@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux
+Date: Tue, 24 Feb 2026 21:50:29 -0000
+Message-Id: <177196982981.1440728.4483657667125064594@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/robh/linux
-user: robh
+repo: pub/scm/linux/kernel/git/axboe/linux
+user: axboe
 changes:
-  - ref: refs/heads/for-next
-    old: a45ff9dd3fec5d604f99b2665c40db26ce81ec0c
-    new: be4b91d9aae51cfbc1d80f899c0f8aad081fc711
+  - ref: refs/heads/block-7.0
+    old: 0d195d3b205ca90db30d70d09d7bb6909aac178f
+    new: 3c4617117a2b7682cf037be5e5533e379707f050
     log: |
-         0e629783f493ae450196ce8e33c5558ced351d4a dt-bindings: fsl: add compatible string fsl,imx25-aips
-         0220405d7e09955195164292d3938a0bcbdd6924 dt-bindings: arm: cpus: Deprecate Qualcomm generic compatibles
-         be4b91d9aae51cfbc1d80f899c0f8aad081fc711 docs: dt: unittest: update to current unittest filenames
+         6acf7860dcc79ed045cc9e6a79c8a8bb6959dba7 zloop: advertise a volatile write cache
+         3c4617117a2b7682cf037be5e5533e379707f050 zloop: check for spurious options passed to remove
+         
+  - ref: refs/heads/for-next
+    old: 102ed59a0b3ded5ec6fb2a4069783f3d1e2431b8
+    new: 0378a6c80f24c02203e97c78c3c92f5b82808b7f
+    log: |
+         6acf7860dcc79ed045cc9e6a79c8a8bb6959dba7 zloop: advertise a volatile write cache
+         3c4617117a2b7682cf037be5e5533e379707f050 zloop: check for spurious options passed to remove
+         0378a6c80f24c02203e97c78c3c92f5b82808b7f Merge branch 'block-7.0' into for-next
          
