@@ -1,31 +1,40 @@
-Content-Type: multipart/mixed; boundary="===============4948597879403045145=="
+Content-Type: multipart/mixed; boundary="===============0771249796886021674=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/chanwoo/extcon
-Date: Tue, 24 Feb 2026 10:55:32 -0000
-Message-Id: <177193053273.823714.4532845393444176020@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/chanwoo/linux
+Date: Tue, 24 Feb 2026 10:56:05 -0000
+Message-Id: <177193056546.824426.4653175675209410155@gitolite.kernel.org>
 
---===============4948597879403045145==
+--===============0771249796886021674==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/chanwoo/extcon
+repo: pub/scm/linux/kernel/git/chanwoo/linux
 user: chanwoo
 changes:
-  - ref: refs/heads/extcon-testing
-    old: 5eee2e960e2109d432834095d85338a0236f374c
-    new: 2bd5d76830953093f5bd0634e552f71092aa743d
-    log: revlist-5eee2e960e21-2bd5d7683095.txt
+  - ref: refs/heads/master
+    old: 05f7e89ab9731565d8a62e3b5d1ec206485eeb0b
+    new: 6de23f81a5e08be8fbf5e8d7e9febc72a5b5f27f
+    log: revlist-05f7e89ab973-6de23f81a5e0.txt
 
---===============4948597879403045145==
+--===============0771249796886021674==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-5eee2e960e21-2bd5d7683095.txt
+Content-Disposition: attachment; filename=revlist-05f7e89ab973-6de23f81a5e0.txt
 
+9e03b7caf4e65f5a5841dfed540fdcc3ff061734 Merge tag 'kvm-x86-misc-6.20' of https://github.com/kvm-x86/linux into HEAD
+2f81bdbdb3aa3fccd9b5420df5674730c40af554 Merge tag 'i3c/for-6.20' of git://git.kernel.org/pub/scm/linux/kernel/git/i3c/linux
+37b4fbf8dbdfb694f2972d1bd7fcd36304a520dd Merge tag 'tpmdd-next-7.0-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+698749164aa53cc313248efd2dc1c25dcf25c99c Merge tag 'audit-pr-20260203' of git://git.kernel.org/pub/scm/linux/kernel/git/pcmoore/audit
+bcc8fd3e1573c502edc0cb61abea0e113a761799 Merge tag 'lsm-pr-20260203' of git://git.kernel.org/pub/scm/linux/kernel/git/pcmoore/lsm
+1d3ffe6233b1b6e8697f5027b9441ce70385c997 perf tests workload: Formatting for code_with_type.rs
+6252e917b9006dfa2f3d884fe0dbaf3e676c4108 Merge tag 'selinux-pr-20260203' of git://git.kernel.org/pub/scm/linux/kernel/git/pcmoore/selinux
+42e7c876b182da65723700f6bc507a8aecb10d3b fs/nfs: Fix readdir slow-start regression
+fdc0396b3cc05dc9b678627af23c3fdc7dbe930e nfs: unify security_inode_listsecurity() calls
 3d57c44e918012db1f901d50bc9195a8812ad602 NFSv4: pass lease period in seconds to nfs4_set_lease_period()
 e29a3e61eef6b6c2e60bc1872e9da3bcdbc46c17 NFSv4: limit lease period in nfs4_set_lease_period()
 4b6c6bc6fab51684cc129f91211734f87db6b065 Merge tag 'vfs-7.0-rc1.rust' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
@@ -1041,14 +1050,5 @@ aaf96df9593bf4ab1b73c17891e4efe7570fdef3 CREDITS: Add -next to Stephen Rothwell'
 75e1f66a9ed09f29c6883ea379c174e8cf31f7cc Merge tag 'libcrypto-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/ebiggers/linux
 fbf33803618ad4f531f78fe15cf328fe6c7f9978 Merge tag 'fsverity-for-linus' of git://git.kernel.org/pub/scm/fs/fsverity/linux
 6de23f81a5e08be8fbf5e8d7e9febc72a5b5f27f Linux 7.0-rc1
-19dcbb484250a18cb43cbedd82b7b47683433b96 extcon: ptn5150: handle pending IRQ events during system resume
-42758a4e15a9363f78d136aed6ed1618e34d81c5 extcon: int3496: replace use of system_wq with system_percpu_wq
-4c0226f531e88971932af6935313f604bf29f411 extcon: Fixed sysfs duplicate filename issue
-eeb7d1db078951a2f834aff7695a8e4e74024d9a dt-bindings: extcon: ptn5150: Allow "connector" node to present
-e62ad3879ec96a07422db01ab2857492a36769ba extcon: ptn5150: Add Type-C orientation switch support
-644c553ba90ae0c341773809f54a15c77e7c7808 extcon: ptn5150: Support USB role switch via connector fwnode
-403cb218d505a0a5d054f5fba730e6d455811b98 extcon: usbc-tusb320: Make typec-power-opmode optional
-17270b3a5382637c13c31c03b781119caa4943d7 dt-bindings: extcon: document Samsung S2M series PMIC extcon device
-2bd5d76830953093f5bd0634e552f71092aa743d extcon: add support for Samsung S2M series PMIC extcon devices
 
---===============4948597879403045145==--
+--===============0771249796886021674==--
