@@ -1,39 +1,29 @@
-Content-Type: multipart/mixed; boundary="===============2451288532683820070=="
+Content-Type: multipart/mixed; boundary="===============5859026131023606839=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next
-Date: Tue, 24 Feb 2026 14:43:41 -0000
-Message-Id: <177194422170.1089033.14820686344756522297@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next-history
+Date: Tue, 24 Feb 2026 14:43:53 -0000
+Message-Id: <177194423324.1089366.12122626844967989999@gitolite.kernel.org>
 
---===============2451288532683820070==
+--===============5859026131023606839==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/next/linux-next
+repo: pub/scm/linux/kernel/git/next/linux-next-history
 user: broonie
 changes:
   - ref: refs/heads/master
     old: 779cae956c8316aebc1946ef86ca001f99658270
     new: 3ef088b0c5772a6f75634e54aa34f5fc0a2c041c
     log: revlist-779cae956c83-3ef088b0c577.txt
-  - ref: refs/heads/stable
-    old: 6de23f81a5e08be8fbf5e8d7e9febc72a5b5f27f
-    new: 7dff99b354601dd01829e1511711846e04340a69
-    log: |
-         551d44200152cb26f75d2ef990aeb6185b7e37fd default_gfp(): avoid using the "newfangled" __VA_OPT__ trick
-         7dff99b354601dd01829e1511711846e04340a69 Remove WARN_ALL_UNSEEDED_RANDOM kernel config option
-         
-  - ref: refs/tags/next-20251124
-    old: afffb6de50fc67b53c4dc2c433cd3d56c0d0956f
-    new: 0000000000000000000000000000000000000000
   - ref: refs/tags/next-20260224
     old: 0000000000000000000000000000000000000000
     new: 24ff44266af7e3fc0b30fb47a78a2c1e3b52ebd8
 
---===============2451288532683820070==
+--===============5859026131023606839==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -739,4 +729,4 @@ f9487a295f94db5c09b492ac55f3f1ac347af58e Merge branch 'master' of https://git.ke
 3d4dd16d5fe099e0b3c6fc85d57185b1b69067ad Merge branch 'drm-rust-next' of https://gitlab.freedesktop.org/drm/rust/kernel.git
 3ef088b0c5772a6f75634e54aa34f5fc0a2c041c Add linux-next specific files for 20260224
 
---===============2451288532683820070==--
+--===============5859026131023606839==--
