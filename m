@@ -1,24 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Tue, 24 Feb 2026 09:33:00 -0000
-Message-Id: <177192558018.748720.1365078889058808218@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ulfh/mmc
+Date: Tue, 24 Feb 2026 09:33:47 -0000
+Message-Id: <177192562776.749129.953674406390697888@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-user: jarkko
+repo: pub/scm/linux/kernel/git/ulfh/mmc
+user: ulfh
 changes:
-  - ref: refs/heads/rootns
-    old: dd4cab02c2a1ab07db258173374af6221868e32c
-    new: c4c8b213fbfbcf59cdacce8c256f5ffbc0f0a66b
+  - ref: refs/heads/next
+    old: 1ec977d0a77d1585ed80273ea693bfaeac20b529
+    new: 6a4a4c1cc0012590b8bebf6c95d51687d39b420c
     log: |
-         22dc300121d149ba8f3bf4bef502e39f8ef3bf35 rootns, vfs: Install rootns root mount tree
-         63e194ae8a537f050afe370e701ed93781af2922 vfs: Allow mounting to other namespaces
-         f1d54a1c3f34d3e212bcdbdbfdb40f7f6624a798 security: Add rootns LSM hooks
-         3e695b7707e283e99722f5926e5100603cf2f7ff docs: Document root namespace uAPI
-         1ca6e549041808b478adf7555c547834fd90cd47 MAINTAINERS: Add entry for ROOT NAMESPACE
-         c4c8b213fbfbcf59cdacce8c256f5ffbc0f0a66b rootns: kselftest
+         97720432b093e28123c78d39030c8680114b885d mmc: host: Remove unnecessary module_init/exit functions
+         7d608bea4adab7869450442e7985b09fdc84117e dt-bindings: mmc: arasan,sdhci: Add Axiado AX3000 SoC
+         0b02521bbc77b36980ccd77a7f058c333de19754 mmc: sdhci-of-arasan: add support on Axiado AX3000 SoC
+         517b1e3c9455698b5ce7fc479aa0b91731e5d9fa dt-bindings: mmc: rockchip-dw-mshc: Add RV1103B compatible
+         ad1aec8f15bf966d9f1d3fbca9fa878ff6d824a4 mmc: dw_mmc: Rename dw_mci_pltfm_pmops to dw_mci_pmops
+         b13b3203be1a9b5eabe407c1027ea16688e07cb5 mmc: sdhci-pic32: add SPDX license identifier
+         26fd3865e42f3bd3f17f6c3ca36b40d2b90a7254 mmc: sdhci-pic32: allow driver to be compiled with COMPILE_TEST
+         6a4a4c1cc0012590b8bebf6c95d51687d39b420c mmc: Merge branch fixes into next
          
