@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Tue, 24 Feb 2026 14:12:24 -0000
-Message-Id: <177194234455.1064032.3344293574792637937@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux
+Date: Tue, 24 Feb 2026 14:16:16 -0000
+Message-Id: <177194257675.1067771.13017796982977957231@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: pabeni
+repo: pub/scm/linux/kernel/git/axboe/linux
+user: axboe
 changes:
-  - ref: refs/heads/main
-    old: e5a80f5e67ce95c41615471d89ae7412b298cd85
-    new: 8636385b9f0175220318bc23f6926b3fd013b131
+  - ref: refs/heads/master
+    old: 6de23f81a5e08be8fbf5e8d7e9febc72a5b5f27f
+    new: 7dff99b354601dd01829e1511711846e04340a69
     log: |
-         8636385b9f0175220318bc23f6926b3fd013b131 net: microchip: lan743x: add ethtool nway_reset support
+         551d44200152cb26f75d2ef990aeb6185b7e37fd default_gfp(): avoid using the "newfangled" __VA_OPT__ trick
+         7dff99b354601dd01829e1511711846e04340a69 Remove WARN_ALL_UNSEEDED_RANDOM kernel config option
          
