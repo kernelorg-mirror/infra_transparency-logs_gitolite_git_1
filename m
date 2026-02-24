@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1501771001633883908=="
+Content-Type: multipart/mixed; boundary="===============1293405780291879251=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Tue, 24 Feb 2026 17:04:51 -0000
-Message-Id: <177195269153.1204787.5305809249706333294@gitolite.kernel.org>
+Date: Tue, 24 Feb 2026 17:04:54 -0000
+Message-Id: <177195269413.1204925.5362067032202948213@gitolite.kernel.org>
 
---===============1501771001633883908==
+--===============1293405780291879251==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
+  - ref: refs/heads/10GbE
     old: bfd264fbbbca7a39ea430d7bc2baf8ee2ea958e4
     new: 1348659dc92e9f0f3f86961745792102b8afbfff
     log: revlist-bfd264fbbbca-1348659dc92e.txt
 
---===============1501771001633883908==
+--===============1293405780291879251==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -63,4 +63,4 @@ c8dbdc6e380e7e96a51706db3e4b7870d8a9402d net: phy: register phy led_triggers dur
 fb73d0e19f12b793bfe013171d931587f37e3552 MAINTAINERS: Update AMD XGBE driver maintainers
 1348659dc92e9f0f3f86961745792102b8afbfff Merge tag 'for-net-2026-02-23' of git://git.kernel.org/pub/scm/linux/kernel/git/bluetooth/bluetooth
 
---===============1501771001633883908==--
+--===============1293405780291879251==--
