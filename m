@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Tue, 24 Feb 2026 11:45:38 -0000
-Message-Id: <177193353806.909553.10214081673937626142@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
+Date: Tue, 24 Feb 2026 11:47:10 -0000
+Message-Id: <177193363090.910243.53870899494171437@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: pabeni
+repo: pub/scm/linux/kernel/git/kdave/linux
+user: kdave
 changes:
-  - ref: refs/heads/main
-    old: 3d7e6ce34f4fcc7083510c28b17a7c36462a25d4
-    new: c8dbdc6e380e7e96a51706db3e4b7870d8a9402d
+  - ref: refs/heads/master
+    old: 6de23f81a5e08be8fbf5e8d7e9febc72a5b5f27f
+    new: 7dff99b354601dd01829e1511711846e04340a69
     log: |
-         c8dbdc6e380e7e96a51706db3e4b7870d8a9402d net: phy: register phy led_triggers during probe to avoid AB-BA deadlock
+         551d44200152cb26f75d2ef990aeb6185b7e37fd default_gfp(): avoid using the "newfangled" __VA_OPT__ trick
+         7dff99b354601dd01829e1511711846e04340a69 Remove WARN_ALL_UNSEEDED_RANDOM kernel config option
          
