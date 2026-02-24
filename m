@@ -1,22 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Tue, 24 Feb 2026 17:29:20 -0000
-Message-Id: <177195416053.1226138.6779868260111709518@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gfs2/linux-gfs2
+Date: Tue, 24 Feb 2026 17:31:57 -0000
+Message-Id: <177195431770.1229680.9303149328105838363@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/next-queue
-user: tnguy
+repo: pub/scm/linux/kernel/git/gfs2/linux-gfs2
+user: agruen
 changes:
-  - ref: refs/heads/200GbE
-    old: 8bf22c33e7a172fbc72464f4cc484d23a6b412ba
-    new: 8636385b9f0175220318bc23f6926b3fd013b131
+  - ref: refs/heads/for-next
+    old: 2ff7cf7e0640ff071ebc5c7e3dc2df024a7c91e6
+    new: f103ebb33da99365ffbc9eb54cae85180a3e5da4
     log: |
-         f77c7b96014471f2c39823ed9fcb42967e7d9ede selftests/net: add test for IP-in-IPv6 tunneling
-         8ac768bb198ccdb1b6dde4bb3616a115642de65c selftests: tc-testing: preserve list order when removing duplicates
-         e5a80f5e67ce95c41615471d89ae7412b298cd85 net: l2tp_eth: Replace deprecated strcpy with strscpy in l2tp_eth_create
-         8636385b9f0175220318bc23f6926b3fd013b131 net: microchip: lan743x: add ethtool nway_reset support
+         0ac82bc7b7922add7f92d85732b4531af55c1e90 gfs2: Remove unnecessary check in gfs2_evict_inode
+         162ae7efa1eeec2d536a5c4acd31dc4f68cd2054 gfs2: Remove useless transaction in evict_linked_inode
+         38b237589ad9196ba80e6efaac05afcdc6ad7997 gfs2: minor evict_[un]linked_inode cleanup
+         f103ebb33da99365ffbc9eb54cae85180a3e5da4 gfs2: Fix data loss during inode evict
          
