@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/dinguyen/linux
-Date: Wed, 25 Feb 2026 03:43:32 -0000
-Message-Id: <177199101222.1737874.8347546715058043738@gitolite.kernel.org>
+Date: Wed, 25 Feb 2026 03:45:46 -0000
+Message-Id: <177199114602.1741027.14690955522772328770@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,5 +12,5 @@ repo: pub/scm/linux/kernel/git/dinguyen/linux
 user: dinguyen
 changes:
   - ref: refs/tags/stratix10_rsu_fix_for_v7.0
-    old: 61de594d43687564a3b148d5225fafd46f2f282c
-    new: 0000000000000000000000000000000000000000
+    old: 0000000000000000000000000000000000000000
+    new: 198c1e6e6e1f3bc0046f3ce4bcdc24a59d80ab81
