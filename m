@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gmonaco/linux
-Date: Wed, 25 Feb 2026 15:45:00 -0000
-Message-Id: <177203430066.2429056.14505471259885872597@gitolite.kernel.org>
+Subject: post-receive: pub/scm/docs/man-pages/man-pages
+Date: Wed, 25 Feb 2026 15:50:54 -0000
+Message-Id: <177203465454.2435837.16005564323717375938@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gmonaco/linux
-user: gmonaco
+repo: pub/scm/docs/man-pages/man-pages
+user: alx
 changes:
-  - ref: refs/tags/v6.9-rc7
-    old: 74609cb690e2cd9a5e6f20a6564f415ccd0141f7
-    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/master
+    old: cf15e8e165e09f04ed756bb290b2636fd41fae9b
+    new: 10642b3bf98bbff68d6c974c7ef9830841352878
+    log: |
+         10642b3bf98bbff68d6c974c7ef9830841352878 CONTRIBUTING.d/style/c: Split subsections
+         
