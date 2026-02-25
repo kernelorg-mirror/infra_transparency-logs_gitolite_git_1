@@ -1,25 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tj/cgroup
-Date: Wed, 25 Feb 2026 17:40:02 -0000
-Message-Id: <177204120248.2531495.1911618668620773616@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mark/linux
+Date: Wed, 25 Feb 2026 17:41:26 -0000
+Message-Id: <177204128654.2534364.17787222525684038436@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tj/cgroup
-user: tj
+repo: pub/scm/linux/kernel/git/mark/linux
+user: mark
 changes:
-  - ref: refs/heads/for-7.0-fixes
-    old: a7e6e893f58a3c0654deccfefcb5c08d2a33cbd6
-    new: 085f067389d12bd9800c0a9672a174c1de7a8069
+  - ref: refs/heads/sched/preempt-dynamic-optimizations
+    old: 16adb0d62633d31709c26ea63ab9de6ec1bbdf4e
+    new: b07713067f078a16fdbf289db10c6f72a7a75aa0
     log: |
-         085f067389d12bd9800c0a9672a174c1de7a8069 cgroup/cpuset: fix null-ptr-deref in rebuild_sched_domains_cpuslocked
-         
-  - ref: refs/heads/for-next
-    old: a7e6e893f58a3c0654deccfefcb5c08d2a33cbd6
-    new: 085f067389d12bd9800c0a9672a174c1de7a8069
-    log: |
-         085f067389d12bd9800c0a9672a174c1de7a8069 cgroup/cpuset: fix null-ptr-deref in rebuild_sched_domains_cpuslocked
+         b07713067f078a16fdbf289db10c6f72a7a75aa0 HACK: sched: Disable {cond,might}_resched() when ARCH_HAS_PREEMPT_LAZY=y
          
