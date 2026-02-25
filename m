@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Wed, 25 Feb 2026 00:53:55 -0000
-Message-Id: <177198083533.1588251.12897448882439710741@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
+Date: Wed, 25 Feb 2026 00:55:25 -0000
+Message-Id: <177198092542.1591180.16330659195582272897@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: kuba
+repo: pub/scm/linux/kernel/git/ath/ath
+user: jjohnson
 changes:
-  - ref: refs/heads/main
-    old: 8636385b9f0175220318bc23f6926b3fd013b131
-    new: f033335937d6f72a13bb38d82422eef30da31972
+  - ref: refs/heads/pending
+    old: da4eb396a6ae2e545b02dea9943dde7cd3c8b3f1
+    new: 5521423a3814d32aab652f2475f72fca5771c0c4
     log: |
-         2550def53bbf2323894265e0e64363998bf9e5c3 net: __lock_sock() can be static
-         f033335937d6f72a13bb38d82422eef30da31972 udp: move udp6_csum_init() back to net/ipv6/udp.c
+         5521423a3814d32aab652f2475f72fca5771c0c4 wifi: ath12k: fix indentation in ath12k_qmi_aux_uc_load()
          
