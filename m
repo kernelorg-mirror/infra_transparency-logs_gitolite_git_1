@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
-Date: Wed, 25 Feb 2026 16:03:59 -0000
-Message-Id: <177203543971.2446967.7660556483185365930@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kvmarm/kvmarm
+Date: Wed, 25 Feb 2026 16:16:04 -0000
+Message-Id: <177203616463.2459159.10715582896669333520@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ath/ath
-user: jjohnson
+repo: pub/scm/linux/kernel/git/kvmarm/kvmarm
+user: maz
 changes:
-  - ref: refs/heads/pending
-    old: 5521423a3814d32aab652f2475f72fca5771c0c4
-    new: a8b01ec4af26dcd6200af11e309a8b57fe53c85b
-    log: |
-         a8b01ec4af26dcd6200af11e309a8b57fe53c85b wifi: ath12k: add basic hwmon temperature reporting
-         
+  - ref: refs/tags/kvmarm-fixes-7.0-1
+    old: 0000000000000000000000000000000000000000
+    new: 35669767f586cc87a2f11caba049eb07f27ea743
