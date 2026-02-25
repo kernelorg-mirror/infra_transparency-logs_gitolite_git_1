@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7108272414319674759=="
+Content-Type: multipart/mixed; boundary="===============1296722686656390017=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Wed, 25 Feb 2026 17:31:55 -0000
-Message-Id: <177204071546.2525383.6712104559070305193@gitolite.kernel.org>
+Date: Wed, 25 Feb 2026 17:34:07 -0000
+Message-Id: <177204084718.2526238.7124703930607797531@gitolite.kernel.org>
 
---===============7108272414319674759==
+--===============1296722686656390017==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/broonie/ci
 user: broonie
 changes:
-  - ref: refs/heads/selftests-filesystems-devpts-tiocgptpeer
-    old: a402c2277ab6964b5c960ba4a40b22cb3745d134
-    new: 84940b25200297a9faae38f214fce69c9d6eb9e7
-    log: revlist-a402c2277ab6-84940b252002.txt
+  - ref: refs/heads/media-synopsys-hdmirx-fix-gpio-cansleep
+    old: 492c1031d0bb85e347222cf5e167c84eb91b4fc0
+    new: 1b75984cf1a6046a4f48f3eaf4df0bd7687980a8
+    log: revlist-492c1031d0bb-1b75984cf1a6.txt
 
---===============7108272414319674759==
+--===============1296722686656390017==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-a402c2277ab6-84940b252002.txt
+Content-Disposition: attachment; filename=revlist-492c1031d0bb-1b75984cf1a6.txt
 
 37b4fbf8dbdfb694f2972d1bd7fcd36304a520dd Merge tag 'tpmdd-next-7.0-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/jarkko/linux-tpmdd
 698749164aa53cc313248efd2dc1c25dcf25c99c Merge tag 'audit-pr-20260203' of git://git.kernel.org/pub/scm/linux/kernel/git/pcmoore/audit
@@ -1048,7 +1048,7 @@ aaf96df9593bf4ab1b73c17891e4efe7570fdef3 CREDITS: Add -next to Stephen Rothwell'
 75e1f66a9ed09f29c6883ea379c174e8cf31f7cc Merge tag 'libcrypto-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/ebiggers/linux
 fbf33803618ad4f531f78fe15cf328fe6c7f9978 Merge tag 'fsverity-for-linus' of git://git.kernel.org/pub/scm/fs/fsverity/linux
 6de23f81a5e08be8fbf5e8d7e9febc72a5b5f27f Linux 7.0-rc1
-2135b1a2c8ecc1f5ba95ac01d4f741275ac3a970 EDITME: cover title for selftests-filesystems-devpts-tiocgptpeer
-84940b25200297a9faae38f214fce69c9d6eb9e7 selftests/filesystems: Assume that TIOCGPTPEER is defined
+6abb221084155932cb560048fe0ca4e936096101 EDITME: cover title for media-synopsys-hdmirx-fix-gpio-cansleep
+1b75984cf1a6046a4f48f3eaf4df0bd7687980a8 media: synopsys: hdmirx: support use with sleeping GPIOs
 
---===============7108272414319674759==--
+--===============1296722686656390017==--
