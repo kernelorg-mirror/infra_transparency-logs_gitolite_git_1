@@ -1,23 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
-Date: Wed, 25 Feb 2026 01:10:28 -0000
-Message-Id: <177198182868.1609587.16032444023903462224@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Wed, 25 Feb 2026 01:11:11 -0000
+Message-Id: <177198187139.1610463.12978704109358088272@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ath/ath
-user: jjohnson
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: ast
 changes:
-  - ref: refs/heads/main-pending
-    old: f2f72567b87673bed81846f7905f5791360613aa
-    new: 9f24ba2f9924e5a4d8c56728e2c712ed814b68d5
+  - ref: refs/heads/master
+    old: c89b50cc6b9f3df4e21e5b9c10dcdfe830200c72
+    new: 8ebfe65e22d5016c0ef2f7b5831117202493f794
     log: |
-         5521423a3814d32aab652f2475f72fca5771c0c4 wifi: ath12k: fix indentation in ath12k_qmi_aux_uc_load()
-         9f24ba2f9924e5a4d8c56728e2c712ed814b68d5 Merge branch 'pending' into main-pending
+         8ebfe65e22d5016c0ef2f7b5831117202493f794 selftests/bpf: Test accounting of tail calls when prog is NULL
          
-  - ref: refs/tags/ath-pending-202602250055
-    old: 0000000000000000000000000000000000000000
-    new: 9f24ba2f9924e5a4d8c56728e2c712ed814b68d5
