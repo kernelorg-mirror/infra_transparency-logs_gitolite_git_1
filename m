@@ -1,41 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
-Date: Wed, 25 Feb 2026 09:17:58 -0000
-Message-Id: <177201107830.2011613.7718915518689015437@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
+Date: Wed, 25 Feb 2026 09:29:40 -0000
+Message-Id: <177201178069.2020273.10716507234545097570@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tiwai/sound
-user: tiwai
+repo: pub/scm/linux/kernel/git/xiang/erofs-utils
+user: xiang
 changes:
-  - ref: refs/heads/for-linus
-    old: 0d58273be0b9c3cec3be5488ca37f6ddbaf13cf0
-    new: 4e9113c533acee2ba1f72fd68ee6ecd36b64484e
+  - ref: refs/heads/experimental
+    old: 2cd511441c2cbdade81f7b6fb6575eef7d8452a1
+    new: b0f7f58b5c98db04e178b61d9b41aca35300f2a4
     log: |
-         7fe8dec3f628e9779f1631576f8e693370050348 ALSA: usb-audio: Cap the packet size pre-calculations
-         7cb2a5422f5bbdf1cf32eae0eda41000485b9346 ALSA: usb-audio: Check max frame size for implicit feedback mode, too
-         c5bf24c8aba1ff711226ee0f039ff01a5754692b ALSA: usb-audio: Avoid implicit feedback mode on DIYINHK USB Audio 2.0
-         4e9113c533acee2ba1f72fd68ee6ecd36b64484e ALSA: usb-audio: Use inclusive terms
-         
-  - ref: refs/heads/for-next
-    old: 0d58273be0b9c3cec3be5488ca37f6ddbaf13cf0
-    new: 4e9113c533acee2ba1f72fd68ee6ecd36b64484e
-    log: |
-         7fe8dec3f628e9779f1631576f8e693370050348 ALSA: usb-audio: Cap the packet size pre-calculations
-         7cb2a5422f5bbdf1cf32eae0eda41000485b9346 ALSA: usb-audio: Check max frame size for implicit feedback mode, too
-         c5bf24c8aba1ff711226ee0f039ff01a5754692b ALSA: usb-audio: Avoid implicit feedback mode on DIYINHK USB Audio 2.0
-         4e9113c533acee2ba1f72fd68ee6ecd36b64484e ALSA: usb-audio: Use inclusive terms
-         
-  - ref: refs/heads/master
-    old: 8b568c29ef9a45dcdf2edaeaf4d545c1be856779
-    new: 3fa647d73f046d1892fe7033b095bcc25acc1e23
-    log: |
-         7fe8dec3f628e9779f1631576f8e693370050348 ALSA: usb-audio: Cap the packet size pre-calculations
-         7cb2a5422f5bbdf1cf32eae0eda41000485b9346 ALSA: usb-audio: Check max frame size for implicit feedback mode, too
-         c5bf24c8aba1ff711226ee0f039ff01a5754692b ALSA: usb-audio: Avoid implicit feedback mode on DIYINHK USB Audio 2.0
-         4e9113c533acee2ba1f72fd68ee6ecd36b64484e ALSA: usb-audio: Use inclusive terms
-         3fa647d73f046d1892fe7033b095bcc25acc1e23 Merge branch 'for-linus'
+         b0f7f58b5c98db04e178b61d9b41aca35300f2a4 erofs-utils: lib: fix 48bit addressing detection for chunk-based format
          
