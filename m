@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gmonaco/linux
-Date: Wed, 25 Feb 2026 15:34:53 -0000
-Message-Id: <177203369364.2361768.5085539106939095235@gitolite.kernel.org>
+Date: Wed, 25 Feb 2026 15:34:57 -0000
+Message-Id: <177203369747.2361988.9539973047370417288@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,6 +11,6 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/gmonaco/linux
 user: gmonaco
 changes:
-  - ref: refs/tags/v3.8-rc2
-    old: bfad7d20d7080bdba4c0e864fcbdf55baa2d1de2
+  - ref: refs/tags/v3.8-rc3
+    old: d7150026d19ce56fb285b3d812cd6d5e0bfbe262
     new: 0000000000000000000000000000000000000000
