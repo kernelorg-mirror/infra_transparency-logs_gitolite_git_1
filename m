@@ -1,43 +1,25 @@
-Content-Type: multipart/mixed; boundary="===============8242577808024278866=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kees/linux
-Date: Wed, 25 Feb 2026 17:49:04 -0000
-Message-Id: <177204174400.2541289.7278719761419784277@gitolite.kernel.org>
-
---===============8242577808024278866==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/conor/linux
+Date: Wed, 25 Feb 2026 17:50:06 -0000
+Message-Id: <177204180630.2543961.3387258500096572540@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kees/linux
-user: kees
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/conor/linux
+user: conor
 changes:
-  - ref: refs/heads/dev/v6.14-rc2/alloc_obj/v4-treewide
-    old: 106fd376feea1699868859e82416d5b7c50866ee
-    new: 0000000000000000000000000000000000000000
-
---===============8242577808024278866==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher A5C3F68F229DD60F723E6E138972F4DFDC6DC026 1772041743 -0800
-pushee gitolite.kernel.org:pub/scm/linux/kernel/git/kees/linux.git
-nonce 1772041743-92145fee62714270155a33340a325b528b32b71b
-
-106fd376feea1699868859e82416d5b7c50866ee 0000000000000000000000000000000000000000 refs/heads/dev/v6.14-rc2/alloc_obj/v4-treewide
------BEGIN PGP SIGNATURE-----
-
-iHUEABYKAB0WIQRSPkdeREjth1dHnSE2KwveOeQkuwUCaZ82DwAKCRA2KwveOeQk
-u3ERAQDy8ppz5uactKmTjwNCD0gKh/kVUAO3lFHqWha0FEtReAD/UcvvKq9GFFaE
-xqrMjnFHxCgKPlheT+Pu6Nbyofkwdg4=
-=ErFi
------END PGP SIGNATURE-----
-
---===============8242577808024278866==--
+  - ref: refs/heads/tsu
+    old: 339d2eb2ba654758b2a773f81bd41310b49e61c8
+    new: a345e7042dafac9ce4aee8e56317d66568bc7eb3
+    log: |
+         9607e26bcef8795013816dbef95b6532a1f93d87 net: macb: rename macb_default_usrio to at91_default_usrio as not all platforms have mii mode control in usrio
+         b36182d96a9ae1806e8dd4d204e5e83de182fca0 net: macb: np4 doesn't need a usrio pointer
+         68a0420bcdc0ef700365890ecbcbabddd2e01803 dt-bindings: net: macb: add property indicating timer adjust mode
+         01a809db2338ac36225c574f19c69d37a136c096 net: macb: timer adjust mode is not supported
+         099ad82ed51d26dc6a6d4eb1e2e006a7c6d52ae0 net: macb: add mpfs specific usrio configuration
+         e3f16274bc16967d713e41c11973af6c13a40877 net: macb: warn on pclk use as a tsu_clk fallback
+         a345e7042dafac9ce4aee8e56317d66568bc7eb3 net: macb: clean up tsu clk rate acquisition
+         
