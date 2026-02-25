@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/coresight/linux
-Date: Wed, 25 Feb 2026 10:49:44 -0000
-Message-Id: <177201658432.2082779.7632787823607064992@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netfilter/nf
+Date: Wed, 25 Feb 2026 10:52:56 -0000
+Message-Id: <177201677655.2086515.9349566206988269016@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/coresight/linux
-user: suzukikp
+repo: pub/scm/linux/kernel/git/netfilter/nf
+user: fwestphal
 changes:
-  - ref: refs/heads/next
-    old: 6de23f81a5e08be8fbf5e8d7e9febc72a5b5f27f
-    new: 55bf8be6f4a80d44c7f10e9d39b583e9645edf93
-    log: |
-         55bf8be6f4a80d44c7f10e9d39b583e9645edf93 coresight: cti: Move resource release to cti_remove()
-         
+  - ref: refs/tags/nf-26-02-25
+    old: 0000000000000000000000000000000000000000
+    new: 8ab8ab3f71c781d79de7986fb7886d8ba22456ae
