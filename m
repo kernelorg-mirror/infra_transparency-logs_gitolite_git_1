@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7292474739514563488=="
+Content-Type: multipart/mixed; boundary="===============4079103067574136914=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/kbuild/linux
-Date: Wed, 25 Feb 2026 22:09:19 -0000
-Message-Id: <177205735944.2759817.11724797633833496712@gitolite.kernel.org>
+Date: Wed, 25 Feb 2026 22:10:19 -0000
+Message-Id: <177205741945.2762731.13178335310549504663@gitolite.kernel.org>
 
---===============7292474739514563488==
+--===============4079103067574136914==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/kbuild/linux
 user: nathan
 changes:
-  - ref: refs/heads/kbuild-fixes-unstable
+  - ref: refs/heads/kbuild-fixes-for-next
     old: f94711255a73d8938cf3bb405a0af3a4d2700ed1
     new: e4a1c29011f13146bc4bdde4a660838fee628606
     log: revlist-f94711255a73-e4a1c29011f1.txt
 
---===============7292474739514563488==
+--===============4079103067574136914==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -1051,4 +1051,4 @@ fbf33803618ad4f531f78fe15cf328fe6c7f9978 Merge tag 'fsverity-for-linus' of git:/
 678fe9aa0d18781f895fd0752bf401ad5240b842 kbuild: Split .modinfo out from ELF_DETAILS
 e4a1c29011f13146bc4bdde4a660838fee628606 genksyms: Fix parsing a declarator with a preceding attribute
 
---===============7292474739514563488==--
+--===============4079103067574136914==--
