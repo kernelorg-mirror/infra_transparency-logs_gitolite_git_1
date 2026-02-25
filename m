@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
-Date: Wed, 25 Feb 2026 02:21:34 -0000
-Message-Id: <177198609478.1673346.10477004765435490797@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Wed, 25 Feb 2026 02:24:41 -0000
+Message-Id: <177198628149.1674321.8959089632959569919@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/xiang/erofs-utils
-user: xiang
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
-  - ref: refs/heads/experimental
-    old: cc30c4479932ac3bec40a539696a5032a36d4bf1
-    new: 2cd511441c2cbdade81f7b6fb6575eef7d8452a1
+  - ref: refs/heads/main
+    old: 64db5933c7adcdc4dd8f5ef6506cc998ecbe63ac
+    new: fc1f97929ada9e923c3b0c70a999469eeb0b9f94
     log: |
-         2cd511441c2cbdade81f7b6fb6575eef7d8452a1 erofs-utils: lib: fix undefined behavior in zstd dict_size bit shift
+         fc1f97929ada9e923c3b0c70a999469eeb0b9f94 bonding: Optimise is_netpoll_tx_blocked().
          
