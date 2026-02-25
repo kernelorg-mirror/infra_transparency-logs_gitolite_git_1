@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0006814643753808166=="
+Content-Type: multipart/mixed; boundary="===============1617215432486156442=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/klassert/ipsec
-Date: Wed, 25 Feb 2026 07:51:31 -0000
-Message-Id: <177200589118.1945600.16363710447398469277@gitolite.kernel.org>
+Date: Wed, 25 Feb 2026 07:52:40 -0000
+Message-Id: <177200596080.1946025.808742064089880521@gitolite.kernel.org>
 
---===============0006814643753808166==
+--===============1617215432486156442==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/klassert/ipsec
 user: klassert
 changes:
-  - ref: refs/heads/testing
+  - ref: refs/heads/master
     old: 4efa91a28576054aae0e6dad9cba8fed8293aef8
     new: 2f61f38a217462411fed950e843b82bc119884cf
     log: revlist-4efa91a28576-2f61f38a2174.txt
 
---===============0006814643753808166==
+--===============1617215432486156442==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -1051,4 +1051,4 @@ fb73d0e19f12b793bfe013171d931587f37e3552 MAINTAINERS: Update AMD XGBE driver mai
 1348659dc92e9f0f3f86961745792102b8afbfff Merge tag 'for-net-2026-02-23' of git://git.kernel.org/pub/scm/linux/kernel/git/bluetooth/bluetooth
 2f61f38a217462411fed950e843b82bc119884cf net: stmmac: fix timestamping configuration after suspend/resume
 
---===============0006814643753808166==--
+--===============1617215432486156442==--
