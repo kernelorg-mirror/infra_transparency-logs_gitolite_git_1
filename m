@@ -1,22 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rppt/linux
-Date: Wed, 25 Feb 2026 08:11:40 -0000
-Message-Id: <177200710070.1962281.3699542905633092758@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/klassert/ipsec
+Date: Wed, 25 Feb 2026 08:12:10 -0000
+Message-Id: <177200713041.1962687.1816673298037426738@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rppt/linux
-user: rppt
+repo: pub/scm/linux/kernel/git/klassert/ipsec
+user: klassert
 changes:
-  - ref: refs/heads/uffd+guestmemfd/v1
-    old: ea5af993d28d129d273453041a5ad6b3a1a9e31a
-    new: dce5fde0c308b9d720096c7c72595074a2c2ddb3
+  - ref: refs/heads/testing
+    old: 2f61f38a217462411fed950e843b82bc119884cf
+    new: 0c0eef8ccd2413b0a10eb6bbd3442333b1e64dd2
     log: |
-         434b076f194575bb3b654f784d6c6c4941dd7d7c mm: generalize handling of userfaults in __do_fault()
-         9abdb2f2fcb89e9544d97f65198f685ab8cd02e2 KVM: guest_memfd: implement userfaultfd operations
-         325a1634b4823b04d81a0d2ce0ba1d8286435b12 KVM: selftests: test userfaultfd minor for guest_memfd
-         dce5fde0c308b9d720096c7c72595074a2c2ddb3 KVM: selftests: test userfaultfd missing for guest_memfd
+         aa8a3f3c67235422a0c3608a8772f69ca3b7b63f xfrm: add missing extack for XFRMA_SA_PCPU in add_acquire and allocspi
+         b57defcf8f109da5ba9cf59b2a736606faf3d846 xfrm: fix the condition on x->pcpu_num in xfrm_sa_len
+         7d2fc41f91bc69acb6e01b0fa23cd7d0109a6a23 xfrm: call xdo_dev_state_delete during state update
+         0c0eef8ccd2413b0a10eb6bbd3442333b1e64dd2 esp: fix skb leak with espintcp and async crypto
          
