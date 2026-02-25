@@ -1,20 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/wens/wireless-regdb
-Date: Wed, 25 Feb 2026 07:38:15 -0000
-Message-Id: <177200509539.1934020.15575083604704127244@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tj/sched_ext
+Date: Wed, 25 Feb 2026 07:45:56 -0000
+Message-Id: <177200555699.1941287.13886995183036064689@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/wens/wireless-regdb
-user: wens
+repo: pub/scm/linux/kernel/git/tj/sched_ext
+user: tj
 changes:
-  - ref: refs/heads/master
-    old: ea20dfa028cbb1b0e354efcdbcdbeec48308cb97
-    new: 88951a4a9b07d4284fd7e72da396957f73ff4b46
+  - ref: refs/heads/for-7.0-fixes
+    old: ee0ff6690f2641b8f6ba8026ec17f6bc48f86649
+    new: 83236b2e43dba00bee5b82eb5758816b1a674f6a
     log: |
-         dcfad17e607c754a4a585cdd14dfa18d4c9598fc wireless-regdb: Fix regulatory.bin signing with new M2Crypto
-         88951a4a9b07d4284fd7e72da396957f73ff4b46 wireless-regdb: Replace M2Crypto with cryptography package
+         83236b2e43dba00bee5b82eb5758816b1a674f6a sched_ext: Disable preemption between scx_claim_exit() and kicking helper work
+         
+  - ref: refs/heads/for-next
+    old: 4977b3b1ae341f39bd01a22582fd2ca56f05fe04
+    new: f97f98bc0540aec6782f697b876ab9560e263f60
+    log: |
+         83236b2e43dba00bee5b82eb5758816b1a674f6a sched_ext: Disable preemption between scx_claim_exit() and kicking helper work
+         f97f98bc0540aec6782f697b876ab9560e263f60 Merge branch 'for-7.0-fixes' into for-next
          
