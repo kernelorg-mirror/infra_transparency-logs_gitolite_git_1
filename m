@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8104996546242520542=="
+Content-Type: multipart/mixed; boundary="===============6264507018998416644=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Wed, 25 Feb 2026 19:43:11 -0000
-Message-Id: <177204859171.2645298.14135537692473514880@gitolite.kernel.org>
+Date: Wed, 25 Feb 2026 19:43:14 -0000
+Message-Id: <177204859406.2645490.3118720299803590624@gitolite.kernel.org>
 
---===============8104996546242520542==
+--===============6264507018998416644==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/10GbE
+  - ref: refs/heads/40GbE
     old: 8636385b9f0175220318bc23f6926b3fd013b131
     new: d2adf01780b8957b31f4954d56646b02de956f65
     log: revlist-8636385b9f01-d2adf01780b8.txt
 
---===============8104996546242520542==
+--===============6264507018998416644==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -58,4 +58,4 @@ d99aa5912c3af4c0f84738d9471836f068d73d69 selftests: net: py: avoid masking excep
 7235555e9af67be72bd5ef3f8a28416b93ce2a64 Merge branch 'selftests-net-py-improve-bkg-error-reporting'
 d2adf01780b8957b31f4954d56646b02de956f65 net: freescale: ucc_geth: call of_node_put once
 
---===============8104996546242520542==--
+--===============6264507018998416644==--
