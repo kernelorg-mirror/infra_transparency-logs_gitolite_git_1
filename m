@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/andrea/synthmerge
-Date: Wed, 25 Feb 2026 21:25:10 -0000
-Message-Id: <177205471019.2726159.855086571635129270@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/nolibc/linux-nolibc
+Date: Wed, 25 Feb 2026 21:40:48 -0000
+Message-Id: <177205564814.2738265.5501034750613272158@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/andrea/synthmerge
-user: andrea
+repo: pub/scm/linux/kernel/git/nolibc/linux-nolibc
+user: thomas.weissschuh
 changes:
-  - ref: refs/heads/main
-    old: 61249603637fd7b9c189368739a4cef427470e7d
-    new: a14610b8986f9235830910b0473b58156c209f0c
+  - ref: refs/heads/for-next
+    old: 55f1d6a9d6780e779e882a4d2d1b3db311835798
+    new: 5e26f7a628d588b2ee6b7ed7d3e044ca6f49d004
     log: |
-         6831553c9a201296cb6a6782f214b79e2e83c255 vibe: return error in case of any conflict left unresolved
-         a14610b8986f9235830910b0473b58156c209f0c Add Qwen3.5-35B-A3B no think
+         f6f2f1ace209491a5aa38849b321170493fe5b87 selftests/nolibc: Fix build with host headers and libc
+         5e26f7a628d588b2ee6b7ed7d3e044ca6f49d004 tools/nolibc: Optimise and common up the number to ascii functions
          
