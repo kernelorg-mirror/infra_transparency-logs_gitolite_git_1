@@ -1,28 +1,52 @@
+Content-Type: multipart/mixed; boundary="===============6142346008341534042=="
+MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Wed, 25 Feb 2026 19:06:30 -0000
-Message-Id: <177204639028.2610333.11381070864429508588@gitolite.kernel.org>
+Date: Wed, 25 Feb 2026 19:08:43 -0000
+Message-Id: <177204652343.2611366.5055080506069226241@gitolite.kernel.org>
+
+--===============6142346008341534042==
+Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
 repo: pub/scm/linux/kernel/git/broonie/spi
 user: broonie
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-next
-    old: 297318a1c26dabb5a2d8540fdf436c22094eb2d7
-    new: dda5bc0943db00a715ae434c83d23b96f2522173
+  - ref: refs/heads/for-7.1
+    old: 507a071d9868cb60e4e76f8a06fc8eb014f59ae4
+    new: 463279e5881184b608e00b335feba5411a1814e1
     log: |
-         ffef4123043c5bb29e61052a41e577ae1ee6837a spi: allow ancillary devices to share parent's chip selects
-         20a88c156f37634fdd88b746fa34e3622f567130 spi: cs42l43: Don't support sidecar properties on device tree systems
-         837f6691d5f39ea6453e4489dded40fb17755c60 spi: stm32: fix rx DMA request error handling
-         52531750d39b94803e089dda95e43925730c03bd spi: stm32-ospi: Remove exec_op() callback debug log
-         5e897a498a6b45145350e9de5e4753e9eee7d4f6 spi: stm32: Use NULL instead of 0 for pointer
-         4d28f38f64ef69ab27839069ef3346c3c878d137 spi: dt-bindings: renesas,rzv2h-rspi: allow multiple DMAs
-         6f7e9b11549dc726270a7e8539201d4270f15803 spi: omap2-mcspi: add support for 3-wire transfers
-         fed6e5084894373d76270cad4a32eb6479ad8247 spi: atcspi200: Remove redundant assignment to .owner
-         507a071d9868cb60e4e76f8a06fc8eb014f59ae4 spi: pxa2xx: use min() instead of min_t()
-         dda5bc0943db00a715ae434c83d23b96f2522173 Merge remote-tracking branch 'spi/for-7.1' into spi-next
+         7c12f6ead4672cb08b74e6f6115eb04dca8ccfa4 spi: tegra210-quad: Add runtime autosuspend support
+         e02902dd493bf9c9b05353c761737ac514ad7a5c spi: add devm_spi_new_ancillary_device()
+         463279e5881184b608e00b335feba5411a1814e1 spi: add devm_spi_new_ancillary_device()
          
+
+--===============6142346008341534042==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher C3F436CA30F5D8EB 1772046521 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
+nonce 1772046521-32a79fe31936271067f26215893f0566f6d31ba4
+
+507a071d9868cb60e4e76f8a06fc8eb014f59ae4 463279e5881184b608e00b335feba5411a1814e1 refs/heads/for-7.1
+-----BEGIN PGP SIGNATURE-----
+
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmmfSLkACgkQJNaLcl1U
+h9Ay9wf/Vwg2mMbXdrHuIzq8uUYl8Ctxad7ZIu4gwewWxVZWNgLgc9kf/9Lz1Dxu
+ACXq0vk78D9Zr5DORbQYD3AnkiH7LkWAOJoTVVgT7kZ9shHd1/2psHJer4q9g1Ew
+NEsAxrBaAtRS11uEPoipwqIgR7Q6p8Q+xx7SJe+VslU/91WPL/BLMU6azpcLVuZj
+qiDRoaTfGrCb8cfvESVW4asM8eLtX/5Y38FnPlVJ/SbSpE9MFFUOSzfMNTnLitYF
+iJ3NfykqEROrfsIr0+JLUQFCn8hAM3nOvfH7iZ7PdOPedzqyN99B4kAdsc3C5nTL
+PH2LoXeRGBxobz/PIMKFUMYQrEAfUA==
+=hZgY
+-----END PGP SIGNATURE-----
+
+--===============6142346008341534042==--
