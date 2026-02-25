@@ -1,36 +1,38 @@
-Content-Type: multipart/mixed; boundary="===============7520079783263608621=="
+Content-Type: multipart/mixed; boundary="===============5629591303139454413=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/nsc/kbuild
-Date: Wed, 25 Feb 2026 15:53:05 -0000
-Message-Id: <177203478504.2437270.13372955445591869694@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kbuild/linux
+Date: Wed, 25 Feb 2026 15:53:23 -0000
+Message-Id: <177203480356.2437599.1403385009066390122@gitolite.kernel.org>
 
---===============7520079783263608621==
+--===============5629591303139454413==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/nsc/kbuild
+repo: pub/scm/linux/kernel/git/kbuild/linux
 user: nsc
 changes:
-  - ref: refs/heads/kbuild-next
-    old: e2b05b21d69cdf516857ca14f70f301a31fbba75
-    new: 6de23f81a5e08be8fbf5e8d7e9febc72a5b5f27f
-    log: revlist-e2b05b21d69c-6de23f81a5e0.txt
   - ref: refs/heads/kbuild-for-next
-    old: 0000000000000000000000000000000000000000
+    old: d8ad80a85b96649a6ef30976762660245ae61a25
     new: 6de23f81a5e08be8fbf5e8d7e9febc72a5b5f27f
+    log: revlist-d8ad80a85b96-6de23f81a5e0.txt
+  - ref: refs/heads/kbuild-next
+    old: d8ad80a85b96649a6ef30976762660245ae61a25
+    new: 6de23f81a5e08be8fbf5e8d7e9febc72a5b5f27f
+    log: revlist-d8ad80a85b96-6de23f81a5e0.txt
   - ref: refs/heads/kbuild-next-unstable
-    old: 0000000000000000000000000000000000000000
+    old: d8ad80a85b96649a6ef30976762660245ae61a25
     new: 6de23f81a5e08be8fbf5e8d7e9febc72a5b5f27f
+    log: revlist-d8ad80a85b96-6de23f81a5e0.txt
 
---===============7520079783263608621==
+--===============5629591303139454413==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-e2b05b21d69c-6de23f81a5e0.txt
+Content-Disposition: attachment; filename=revlist-d8ad80a85b96-6de23f81a5e0.txt
 
 9e03b7caf4e65f5a5841dfed540fdcc3ff061734 Merge tag 'kvm-x86-misc-6.20' of https://github.com/kvm-x86/linux into HEAD
 2f81bdbdb3aa3fccd9b5420df5674730c40af554 Merge tag 'i3c/for-6.20' of git://git.kernel.org/pub/scm/linux/kernel/git/i3c/linux
@@ -1057,4 +1059,4 @@ aaf96df9593bf4ab1b73c17891e4efe7570fdef3 CREDITS: Add -next to Stephen Rothwell'
 fbf33803618ad4f531f78fe15cf328fe6c7f9978 Merge tag 'fsverity-for-linus' of git://git.kernel.org/pub/scm/fs/fsverity/linux
 6de23f81a5e08be8fbf5e8d7e9febc72a5b5f27f Linux 7.0-rc1
 
---===============7520079783263608621==--
+--===============5629591303139454413==--
