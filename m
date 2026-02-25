@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4389318520603490773=="
+Content-Type: multipart/mixed; boundary="===============5674656204386163866=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/klassert/ipsec-next
-Date: Wed, 25 Feb 2026 07:59:45 -0000
-Message-Id: <177200638568.1950961.12346955369668372144@gitolite.kernel.org>
+Date: Wed, 25 Feb 2026 08:00:19 -0000
+Message-Id: <177200641997.1953727.196240248676265445@gitolite.kernel.org>
 
---===============4389318520603490773==
+--===============5674656204386163866==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/klassert/ipsec-next
 user: klassert
 changes:
-  - ref: refs/heads/testing
+  - ref: refs/heads/master
     old: 3eef6c061f97ab2a942dc98291bcdae9a16e5bda
     new: d2adf01780b8957b31f4954d56646b02de956f65
     log: revlist-3eef6c061f97-d2adf01780b8.txt
 
---===============4389318520603490773==
+--===============5674656204386163866==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -1051,4 +1051,4 @@ d99aa5912c3af4c0f84738d9471836f068d73d69 selftests: net: py: avoid masking excep
 7235555e9af67be72bd5ef3f8a28416b93ce2a64 Merge branch 'selftests-net-py-improve-bkg-error-reporting'
 d2adf01780b8957b31f4954d56646b02de956f65 net: freescale: ucc_geth: call of_node_put once
 
---===============4389318520603490773==--
+--===============5674656204386163866==--
