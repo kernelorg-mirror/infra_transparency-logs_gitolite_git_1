@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1767056866429777903=="
+Content-Type: multipart/mixed; boundary="===============7292474739514563488=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/kbuild/linux
-Date: Wed, 25 Feb 2026 22:08:58 -0000
-Message-Id: <177205733888.2759501.2910790666015120206@gitolite.kernel.org>
+Date: Wed, 25 Feb 2026 22:09:19 -0000
+Message-Id: <177205735944.2759817.11724797633833496712@gitolite.kernel.org>
 
---===============1767056866429777903==
+--===============7292474739514563488==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,19 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/kbuild/linux
 user: nathan
 changes:
-  - ref: refs/heads/kbuild-fixes
+  - ref: refs/heads/kbuild-fixes-unstable
     old: f94711255a73d8938cf3bb405a0af3a4d2700ed1
-    new: 6de23f81a5e08be8fbf5e8d7e9febc72a5b5f27f
-    log: revlist-f94711255a73-6de23f81a5e0.txt
+    new: e4a1c29011f13146bc4bdde4a660838fee628606
+    log: revlist-f94711255a73-e4a1c29011f1.txt
 
---===============1767056866429777903==
+--===============7292474739514563488==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-f94711255a73-6de23f81a5e0.txt
+Content-Disposition: attachment; filename=revlist-f94711255a73-e4a1c29011f1.txt
 
-ebcff9dacaf2c1418f8bc927388186d7d3674603 vduse: avoid adding implicit padding
-5b785b83c2414f2e09927ab6c8b82e3985081dc6 Merge tag 'auxdisplay-v6.20-1' of git://git.kernel.org/pub/scm/linux/kernel/git/andy/linux-auxdisplay
 7d726a34d68597899a43001dd2bc1aeac7801008 Merge tag 'linux_kselftest-kunit-6.20-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/shuah/linux-kselftest
 a0c468eda4386c67082973d21d811fd777a798ed Merge tag 'kvm-x86-selftests-6.20' of https://github.com/kvm-x86/linux into HEAD
 5c40222af1689d89966c4b60e79852d6bc13416a Merge tag 'linux_kselftest-next-6.20-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/shuah/linux-kselftest
@@ -1050,5 +1048,7 @@ aaf96df9593bf4ab1b73c17891e4efe7570fdef3 CREDITS: Add -next to Stephen Rothwell'
 75e1f66a9ed09f29c6883ea379c174e8cf31f7cc Merge tag 'libcrypto-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/ebiggers/linux
 fbf33803618ad4f531f78fe15cf328fe6c7f9978 Merge tag 'fsverity-for-linus' of git://git.kernel.org/pub/scm/fs/fsverity/linux
 6de23f81a5e08be8fbf5e8d7e9febc72a5b5f27f Linux 7.0-rc1
+678fe9aa0d18781f895fd0752bf401ad5240b842 kbuild: Split .modinfo out from ELF_DETAILS
+e4a1c29011f13146bc4bdde4a660838fee628606 genksyms: Fix parsing a declarator with a preceding attribute
 
---===============1767056866429777903==--
+--===============7292474739514563488==--
