@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4331677856605925532=="
+Content-Type: multipart/mixed; boundary="===============2453857838342287436=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/fs/xfs/xfs-linux
-Date: Wed, 25 Feb 2026 13:02:06 -0000
-Message-Id: <177202452640.2195723.1744006386853181809@gitolite.kernel.org>
+Date: Wed, 25 Feb 2026 13:02:47 -0000
+Message-Id: <177202456702.2196061.5077159923983317342@gitolite.kernel.org>
 
---===============4331677856605925532==
+--===============2453857838342287436==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/fs/xfs/xfs-linux
 user: cem
 changes:
-  - ref: refs/heads/xfs-7.0-fixes
+  - ref: refs/heads/for-next
     old: df026203678bae489b9dbe6105ab52e1a39e8e7c
     new: 650b774cf94495465d6a38c31bb1a6ce697b6b37
     log: revlist-df026203678b-650b774cf944.txt
 
---===============4331677856605925532==
+--===============2453857838342287436==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -46,4 +46,4 @@ c2368fc89a684be2900daaa2bbf68cbc147e8d3d xfs: Update lazy counters in xfs_growfs
 e97cbf863d8918452c9f81bebdade8d04e2e7b60 xfs: remove duplicate static size checks
 650b774cf94495465d6a38c31bb1a6ce697b6b37 xfs: add static size checks for ioctl UABI
 
---===============4331677856605925532==--
+--===============2453857838342287436==--
