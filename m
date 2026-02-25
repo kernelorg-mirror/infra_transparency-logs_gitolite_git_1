@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8063319825534564985=="
+Content-Type: multipart/mixed; boundary="===============3751276240617339568=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/s390/linux
-Date: Wed, 25 Feb 2026 16:21:48 -0000
-Message-Id: <177203650801.2465037.8650055234894726312@gitolite.kernel.org>
+Date: Wed, 25 Feb 2026 16:21:58 -0000
+Message-Id: <177203651814.2465381.3665898730199815549@gitolite.kernel.org>
 
---===============8063319825534564985==
+--===============3751276240617339568==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/s390/linux
 user: gor
 changes:
-  - ref: refs/heads/fixes
+  - ref: refs/heads/for-next
     old: 6de23f81a5e08be8fbf5e8d7e9febc72a5b5f27f
-    new: d879ac6756b662a085a743e76023c768c3241579
-    log: revlist-6de23f81a5e0-d879ac6756b6.txt
+    new: 5cd0301c8849012071302d289a817739c118efb1
+    log: revlist-6de23f81a5e0-5cd0301c8849.txt
 
---===============8063319825534564985==
+--===============3751276240617339568==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6de23f81a5e0-d879ac6756b6.txt
+Content-Disposition: attachment; filename=revlist-6de23f81a5e0-5cd0301c8849.txt
 
 0d785e2c324c90662baa4fe07a0d02233ff92824 s390/idle: Fix cpu idle exit cpu time accounting
 dbc0fb35679ed5d0adecf7d02137ac2c77244b3b s390/vtime: Fix virtual timer forwarding
@@ -38,5 +38,6 @@ acbc0437ca3cf6c19005476a4f1f5a7c96ff4256 s390/idle: Remove psw_idle() prototype
 05c58a660543ce52a62b63b540f1f886c8066286 Merge branch 'idle-vtime-fixes-cleanups' into fixes
 1623a554c68f352c17d0a358bc62580dc187f06b s390/kexec: Disable stack protector in s390_reset_system()
 d879ac6756b662a085a743e76023c768c3241579 s390/pfault: Fix virtual vs physical address confusion
+5cd0301c8849012071302d289a817739c118efb1 Merge branch 'fixes' into for-next
 
---===============8063319825534564985==--
+--===============3751276240617339568==--
