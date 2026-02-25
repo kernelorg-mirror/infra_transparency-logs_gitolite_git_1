@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0717023794067235428=="
+Content-Type: multipart/mixed; boundary="===============2312008856563613342=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Wed, 25 Feb 2026 02:01:31 -0000
-Message-Id: <177198489135.1655523.12413290195582533941@gitolite.kernel.org>
+Date: Wed, 25 Feb 2026 02:01:32 -0000
+Message-Id: <177198489274.1655657.16272331307573926308@gitolite.kernel.org>
 
---===============0717023794067235428==
+--===============2312008856563613342==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/mm-new
-    old: 018018a17770b2d196425fd0afd65c60aeb3af0b
-    new: e58d52bda6cbebb71e676677287c7c9ddaba05df
-    log: revlist-018018a17770-e58d52bda6cb.txt
+  - ref: refs/heads/mm-unstable
+    old: d501d4b5628db4bf5379cb562482c45e29081173
+    new: 957a3fab8811b455420128ea5f41c51fd23eb6c7
+    log: revlist-d501d4b5628d-957a3fab8811.txt
 
---===============0717023794067235428==
+--===============2312008856563613342==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-018018a17770-e58d52bda6cb.txt
+Content-Disposition: attachment; filename=revlist-d501d4b5628d-957a3fab8811.txt
 
 09833d99db36d74456a4d13eb29c32d56ff8f2b6 mm/kfence: disable KFENCE upon KASAN HW tags enablement
 eb9549346f7578eda3755683ac2cfb4d94c0675f mm: change vma_alloc_folio_noprof() macro to inline function
@@ -140,14 +140,5 @@ cc8cb905a776d228df192487014333aa7db76cc9 mm: khugepaged: skip lazy-free folios
 87dfc01614031d034bd15bbcc1b3acf703f5126d kho: move alloc tag init to kho_init_{folio,pages}()
 33f0d33fb32d36c2d68244ddf865cee430ffb66a kho: adopt radix tree for preserved memory tracking
 957a3fab8811b455420128ea5f41c51fd23eb6c7 kho: remove finalize state and clients
-6cfd1536a057fc926bd649ee7efa9167cef18882 mm: vmalloc: streamline vmalloc memory accounting
-8e5b1d2d6606cca04e7893f433fe54a4cfdd9ee8 mm: memcontrol: switch to native NR_VMALLOC vmstat counter
-f8ade75c585383907832c9b5e8f067de51f8e537 tracing: add __event_in_*irq() helpers
-7a61975a285039f253c572a98cadcc7e6fe56056 mm: vmscan: add cgroup IDs to vmscan tracepoints
-c20c1b2e42e6a9acc34dcee54d425e115a02e48a mm: vmscan: add PIDs to vmscan tracepoints
-18d2e8531bfabb6c5a010ce4879981f414fe2131 mm/mmu_gather: replace IPI with synchronize_rcu() when batch allocation fails
-df67d0ffeca74a8748b6638ca296e39bf1098d21 mm: introduce a new page type for page pool in page type
-4bb58747a38134453c6d8e19cc956bc6bc742f1e arm64: mm: fix pass user prot to ioremap_prot in generic_access_phys
-e58d52bda6cbebb71e676677287c7c9ddaba05df mm/vmscan: avoid false-positive -Wuninitialized warning
 
---===============0717023794067235428==--
+--===============2312008856563613342==--
