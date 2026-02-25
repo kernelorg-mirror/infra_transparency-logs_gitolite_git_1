@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
-Date: Wed, 25 Feb 2026 14:29:45 -0000
-Message-Id: <177202978533.2266041.2049102308072643669@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Wed, 25 Feb 2026 14:32:49 -0000
+Message-Id: <177202996997.2269606.12931275833098564545@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/xiang/erofs-utils
-user: xiang
+repo: pub/scm/linux/kernel/git/tip/tip
+user: peterz
 changes:
-  - ref: refs/heads/experimental
-    old: b0f7f58b5c98db04e178b61d9b41aca35300f2a4
-    new: 7c24c409d75ab89b0410951586ac0a56b67b31fb
+  - ref: refs/heads/perf/urgent
+    old: 64a6eb7e10513f371cdb26aa155b562e6556c8a2
+    new: c9bc1753b3cc41d0e01fbca7f035258b5f4db0ae
     log: |
-         7c24c409d75ab89b0410951586ac0a56b67b31fb erofs-utils: mkfs: do not enable lz4_0padding for plain images
+         c9bc1753b3cc41d0e01fbca7f035258b5f4db0ae perf: Fix __perf_event_overflow() vs perf_remove_from_context() race
          
