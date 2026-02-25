@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mark/linux
-Date: Wed, 25 Feb 2026 17:41:26 -0000
-Message-Id: <177204128654.2534364.17787222525684038436@gitolite.kernel.org>
+Subject: post-receive: pub/scm/bluetooth/bluez
+Date: Wed, 25 Feb 2026 17:44:18 -0000
+Message-Id: <177204145810.2535237.14387055685781805568@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mark/linux
-user: mark
+repo: pub/scm/bluetooth/bluez
+user: vudentz
 changes:
-  - ref: refs/heads/sched/preempt-dynamic-optimizations
-    old: 16adb0d62633d31709c26ea63ab9de6ec1bbdf4e
-    new: b07713067f078a16fdbf289db10c6f72a7a75aa0
+  - ref: refs/heads/master
+    old: 7c9c8630c171093f7c347245ca132ab522b5859b
+    new: a96f5f4eba9a0dc2924faed5d0584fd7d345e2c6
     log: |
-         b07713067f078a16fdbf289db10c6f72a7a75aa0 HACK: sched: Disable {cond,might}_resched() when ARCH_HAS_PREEMPT_LAZY=y
+         a96f5f4eba9a0dc2924faed5d0584fd7d345e2c6 shared/att: Simplify logic of DB out of sync recovery
          
