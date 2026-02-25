@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/frank.li/linux
-Date: Wed, 25 Feb 2026 00:42:55 -0000
-Message-Id: <177198017561.1580333.5746122329404344608@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Wed, 25 Feb 2026 00:53:55 -0000
+Message-Id: <177198083533.1588251.12897448882439710741@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/frank.li/linux
-user: frank.li
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
-  - ref: refs/heads/imx/fixes
-    old: 8e152c37d5e5af1d47d246a5f614625b5bc11471
-    new: b6c94c71f349479b76fcc0ef0dc7147f3f326dff
+  - ref: refs/heads/main
+    old: 8636385b9f0175220318bc23f6926b3fd013b131
+    new: f033335937d6f72a13bb38d82422eef30da31972
     log: |
-         44db7bc66eb38e85bb32777c5fd3a4e7baa84147 arm64: dts: imx91-tqma9131: improve eMMC pad configuration
-         b6c94c71f349479b76fcc0ef0dc7147f3f326dff arm64: dts: imx93-tqma9352: improve eMMC pad configuration
+         2550def53bbf2323894265e0e64363998bf9e5c3 net: __lock_sock() can be static
+         f033335937d6f72a13bb38d82422eef30da31972 udp: move udp6_csum_init() back to net/ipv6/udp.c
          
