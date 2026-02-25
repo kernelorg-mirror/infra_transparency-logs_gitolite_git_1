@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4714958265084091776=="
+Content-Type: multipart/mixed; boundary="===============8120102379606679360=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Wed, 25 Feb 2026 02:05:21 -0000
-Message-Id: <177198512146.1660306.16907590562252298077@gitolite.kernel.org>
+Date: Wed, 25 Feb 2026 02:05:47 -0000
+Message-Id: <177198514709.1660880.2950819293768619866@gitolite.kernel.org>
 
---===============4714958265084091776==
+--===============8120102379606679360==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,80 +16,46 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/queue
-    old: 1982257570b84dc33753d536dd969fd357a014e9
-    new: 6de23f81a5e08be8fbf5e8d7e9febc72a5b5f27f
-    log: revlist-1982257570b8-6de23f81a5e0.txt
+  - ref: refs/tags/mkp-scsi-staging
+    old: 518d7b67d7355a3cd9a2461d2dabf5a94ac9b0d9
+    new: e6adcd5585ef555d297838ff1e69c6fbd0032e7b
+    log: revlist-518d7b67d735-e6adcd5585ef.txt
 
---===============4714958265084091776==
+--===============8120102379606679360==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1771985119 -0500
+pusher 75C5DE3D 1771985125 -0500
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1771985115-c4c5889c2ab494571f8387cd8730f74d6216682c
+nonce 1771985125-9434978bcf930a6d49c58e9e838a2bca6735f93d
 
-1982257570b84dc33753d536dd969fd357a014e9 6de23f81a5e08be8fbf5e8d7e9febc72a5b5f27f refs/heads/queue
+518d7b67d7355a3cd9a2461d2dabf5a94ac9b0d9 e6adcd5585ef555d297838ff1e69c6fbd0032e7b refs/tags/mkp-scsi-staging
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmmeWN8ACgkQ7ulgGnXF
-3j35hQ/+Oq1GoTsMOP6+D5P5XcJbhQSSo9mDACbSmFJcZPbLuImdydpqEatKf45z
-zFLp3voZZg+V995Ssk+e/HI54UAlrO28+Q6lzonF/HF7lN81YpeXlWSeULo3d13b
-5cvdkT0326eX8rZyzJACT2ynvDTfgJCydZBuxODlkpzxhdfZ1W1O8ae/LtKVaAE6
-Qh1dST26r1rYBET37ijqeOXkXcnTfEOSdRz+KLKh2NmfFUE137YJOnoc83wh4xkW
-kXvETk3DRiZOeJY8mXfQv99/CCepRnrBeovKf7C4jfKACT36zN3Xb7PZOIM/GTI8
-p+2UIkVwIWnHHJSQ6xzyt8uhBobAfFv5hhrOCST6l/50W53TlOnTmtUVLZp/0cZ1
-jH3ZFsCpCd1tPxaSxYwoEr1tmXZ7PRadFGdgAiZ1A+tQe63Wz/dci+iE+P+2hUjB
-Llyc6wOWl7mzd9HXVBnIZu733HwedFP4yP74k/iujfYkr/b2LQyi3xJ7Oa0rYeuE
-CBi8KAsECip05oqbTwLTWVWkICAy//91aD5N7Iv/N4ylaPc/yd9XLMXi++w+AWnq
-0wpzCSLXTquOVcZk49r+vRnRdqOvqqpm04MJaxY4ZIZpbsEz4BgM0vZQu8knKpTi
-Uij3gWmT/7QdGiAfYoBvJlNrGLfe6io2hMFj63tJHfcYiB0dNQo=
-=KS7F
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmmeWOUACgkQ7ulgGnXF
+3j00ThAAkW1CJq6jmLbEgmZo+n3XmUmZuetmw3hKV5LTzy2ai8Zt6JI3iDACTRnh
+cTOBj3JCJvXu2VnnaKOEJeN7KbE4KVqvLAD9jrx49PT+e0u2O03Ma8RZ1v4R0M5U
+M5CdZ4t2bzvdS3T5MrkgRNhZEXR48o+7p7pZTUEzPtCiArbJjM5ohXrvJflars1D
+DLQYi6q5ZrNwn+v0kQXdGJL1+ygS6PPrN9caF3H5EPM5HJ3TSWd5BRWU7WnR5tLQ
+XKgR28bWpw0NYF6v4Ouwc6MeuS0Ov2xZQ2sjGDYmw3hhw+vSFwZ90AE75iI9KgUQ
+VvYeE7BNsaNUjKIZIYyqP4+0f9pXsp4+a5jVgq4mQEBy4ERBFXeIQIZABhGCo+ZU
+WQy4dsOIHR2eRwxlRELL/F4DHlHU6X6kuKyoh79CAc4Henhm2WsGU4y84SzA5v9D
+AEVqlMBy63SLi0WOiTvaz+urovEjghTjWkK1eHqjYdRwrAUeuhWPdVIey1kO7FYI
++mUFaYCqUTz1eCp+by8euCH2mNSJ1htoYmeMv4+qEPJL3foUAD+0o96m7OdwfsRV
+djJjQ3T+rLIh/WxfR2G54yX+IyubXXcDIFMsWW9SiW5w5NFBaVQlj98oJTgZbrrO
+btB2uoZmPf7bQTMMN2INSQc3G4KlCcjW3Vg+vE/sQkZtNwvHI0w=
+=AR0a
 -----END PGP SIGNATURE-----
 
---===============4714958265084091776==
+--===============8120102379606679360==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-1982257570b8-6de23f81a5e0.txt
+Content-Disposition: attachment; filename=revlist-518d7b67d735-e6adcd5585ef.txt
 
-9e03b7caf4e65f5a5841dfed540fdcc3ff061734 Merge tag 'kvm-x86-misc-6.20' of https://github.com/kvm-x86/linux into HEAD
-2f81bdbdb3aa3fccd9b5420df5674730c40af554 Merge tag 'i3c/for-6.20' of git://git.kernel.org/pub/scm/linux/kernel/git/i3c/linux
-37b4fbf8dbdfb694f2972d1bd7fcd36304a520dd Merge tag 'tpmdd-next-7.0-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-698749164aa53cc313248efd2dc1c25dcf25c99c Merge tag 'audit-pr-20260203' of git://git.kernel.org/pub/scm/linux/kernel/git/pcmoore/audit
-bcc8fd3e1573c502edc0cb61abea0e113a761799 Merge tag 'lsm-pr-20260203' of git://git.kernel.org/pub/scm/linux/kernel/git/pcmoore/lsm
-1d3ffe6233b1b6e8697f5027b9441ce70385c997 perf tests workload: Formatting for code_with_type.rs
-6252e917b9006dfa2f3d884fe0dbaf3e676c4108 Merge tag 'selinux-pr-20260203' of git://git.kernel.org/pub/scm/linux/kernel/git/pcmoore/selinux
-42e7c876b182da65723700f6bc507a8aecb10d3b fs/nfs: Fix readdir slow-start regression
-fdc0396b3cc05dc9b678627af23c3fdc7dbe930e nfs: unify security_inode_listsecurity() calls
-3d57c44e918012db1f901d50bc9195a8812ad602 NFSv4: pass lease period in seconds to nfs4_set_lease_period()
-e29a3e61eef6b6c2e60bc1872e9da3bcdbc46c17 NFSv4: limit lease period in nfs4_set_lease_period()
-4b6c6bc6fab51684cc129f91211734f87db6b065 Merge tag 'vfs-7.0-rc1.rust' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
-2a400eeba40b4cf1fb28f78f41bf73a898b00d06 perf test code_with_type.sh: Skip test if rust wasn't available at build time
-bdc5071d7f7bb82589737741e9bf19820ceb7a6a coccinelle: Add kmalloc_objs conversion script
-3d012b8614ee020666f3dd15af9f65dc487e3f5f perf test: Fix test case perftool-testsuite_report for s390
-996812c453cafa042f2e674738dbf8fa495661f3 Merge tag 'vfs-7.0-rc1.initrd' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
-728bea264883031c377fcc9c465b650dbfd1bbf5 sunrpc: rpc_debug and others are defined even if CONFIG_SUNRPC_DEBUG unset
-afb24505ff6583eb5150b4a54086188494d25c28 SUNRPC: Change list definition method
-1075e8e826b27aac92925c44d6d3c794e4d2ce0b nfs: nfs4proc: Convert comma to semicolon
-74554251dfc9374ebf1a9dfc54d6745d56bb9265 Merge tag 'vfs-7.0-rc1.nonblocking_timestamps' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
-b211a30690f8263b79f30b6b1770ffe216fa378c docs: kdoc_parser: allow __exit in function prototypes
-6c5c07bc85890a8eadcad484d9bbaa239ca8e623 docs: process: maintainer-pgp-guide: update kernel.org docs link
-aa2a0fcd4c7b9801be32482755a450a80a3c36a2 Merge tag 'vfs-7.0-rc1.leases' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
-dd466ea0029961ee0ee6e8e468faa1506275c8a9 Merge tag 'vfs-7.0-rc1.fserror' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
-6124fa45e2d919eeb9fc2d6675f5824b44e344b0 Merge tag 'vfs-7.0-rc1.btrfs' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
-7e01a69f5c4f2a6af2d4cd1cc46d48efdeb98230 Merge tag 'vfs-7.0-rc1.minix' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
-dd2fdc3504592d85e549c523b054898a036a6afe SUNRPC: fix gss_auth kref leak in gss_alloc_msg error path
-c84bb79f70c634a95929f21c14340ab2078d7977 Merge tag 'vfs-7.0-rc1.nullfs' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
-8113b3998d5c96aca885b967e6aa47e428ebc632 Merge tag 'vfs-7.0-rc1.atomic_open' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
-ef3ff40346db8476a9ef7269fc9d1837e7243c40 riscv: vector: init vector context with proper vlenb
-fd515e037efb3b6300eace247e14ab2bc7e38db5 riscv: csr: define vtype register elements
-f4be988f5b547dc4b305c15a078a52cdde76a8f5 riscv: ptrace: validate input vector csr registers
-600f72ded8c877be95322ce806d23345ea5e89bc selftests: riscv: test ptrace vector interface
-66d03044891df63c82b18ae1da07bc4bc077ae48 selftests: riscv: verify initial vector state with ptrace
 3789d5eecd5ae01149d0ef5ba70e8120da2f55db selftests: riscv: verify syscalls discard vector context
 30eb191c895b086c21fc04c5c1482cb1bb0f3caf selftests: riscv: verify ptrace rejects invalid vector csr inputs
 849f05ae1ea6e1ff621243dce27fe455fdc9d0ff selftests: riscv: verify ptrace accepts valid vector csr values
@@ -1080,5 +1046,39 @@ aaf96df9593bf4ab1b73c17891e4efe7570fdef3 CREDITS: Add -next to Stephen Rothwell'
 75e1f66a9ed09f29c6883ea379c174e8cf31f7cc Merge tag 'libcrypto-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/ebiggers/linux
 fbf33803618ad4f531f78fe15cf328fe6c7f9978 Merge tag 'fsverity-for-linus' of git://git.kernel.org/pub/scm/fs/fsverity/linux
 6de23f81a5e08be8fbf5e8d7e9febc72a5b5f27f Linux 7.0-rc1
+8ecb3ec244acd7db2a6c071d53eb4870619fb5e6 scsi: lpfc: Update log message when ndlp kref get is unsuccessful
+b4082ac8e62ca669beabddff47238cdb33ea47dc scsi: lpfc: Log discarded and insufficient RQE buffer events
+5f442e54e9ef662aaad736ca1af13f20d0448f08 scsi: lpfc: Add log messages to fabric login error labels
+f8c599ad90f53dbe2246935f90ff49693c26b34f scsi: lpfc: Use min_t() instead of min() in lpfc_sli4_driver_resource_setup
+70b468d41b822e4b510761120be3924df966a62d scsi: lpfc: Reduce pointer chasing when accessing vmid_flag
+f6bfb8d149336661bb80e62980da9a45b920403c scsi: lpfc: Remove unnecessary ndlp kref get in lpfc_check_nlp_post_devloss
+6b0bcf4b6430688984fe1ee69fce7165a3e24b92 scsi: lpfc: Cleanup error exit paths in lpfc_fdmi_cmd() and associated messages
+2da10bcaa58a389ca60f8e788180e0dca00739bc scsi: lpfc: Fix incorrect txcmplq_cnt during cleanup in lpfc_sli_abort_ring()
+559a6c2ab097695f7b3cd4fdd5f6aca81ae3da09 scsi: lpfc: Add clean up of aborted NVMe commands during PCI fcn reset
+9714c5463fd1d963fe30193ed75b9578e84278ab scsi: lpfc: Update class of service bit field to 3 bits for WQE submissions
+5807d96c46d5ccfb4c247f16653e616e8c90ae06 scsi: lpfc: Restrict first burst to non-FCoE and SLI4 adapters only
+107cb8ed4f44eeb17f9624e183603c0b885ef039 scsi: lpfc: Update copyright year string for 2026
+6446e8c2b6c76b4d253c46352540ca1f5fa3f854 scsi: lpfc: Update lpfc version to 14.4.0.14
+2a433bf17ca21d6c79d25dc68dd5051b972ba627 Merge patch series "Update lpfc to revision 14.4.0.14"
+931c105de11c2e0e9675fbc061b16a9c5f134dcf scsi: BusLogic: Replace deprecated strcpy() + strcat() in blogic_rdconfig()
+01517654bc258efb2610e53e99fa4ef641d134b9 scsi: ufs: core: Add debug log for UIC command timeout
+3abe4113e784b4a1135fe0e89828afecbfebf862 scsi: ufs: core: Add debug log for MCQ command timeout
+f707860ebc84dd07148c3855e2f0fa9f41a3ed4a scsi: ufs: core: Support UFSHCI 4.1 CQ entry tag
+05ae65e0cffedab595b775781ae853ad5c455fcc scsi: ufs: qcom,sc7180-ufshc: dt-bindings: Document the Milos UFS Controller
+a76d404af148fb7b70c1db436912dfe031d995ef scsi: qcom: milos: arm64: dts: Add UFS nodes
+3c4c2ea631adce8d71075339431c5064c12c4ec4 scsi: qcom: milos-fairphone-fp6: arm64: dts: Enable UFS
+0e07baae55bc319e4e9559fee352b9252a467db6 scsi: fnic: Use mempool for receive frames
+a59d1caf1ded07e38a0f6e98c6491a75faedd70f scsi: fnic: Do not use GFP_ZERO for mempools
+31eda39bfd468a0fbabc0179e913c0755377e3b5 scsi: fnic: Rename fnic_scsi_fcpio_reset()
+927b5282df6463fea8eeb1342e58cec0fa03b35e scsi: fnic: Refactor in_remove flag and call to fnic_fcpio_reset()
+47e088c9d1a06e0f762ac7ea62ae48c9e16c4def scsi: fnic: Bump up version number
+3d8c1d25880d14135038e11b16bb6928df5d6647 Merge patch series "fnic 1.8.0.3 update"
+b9e7642c47c66f6c90f6951cb0c51c4ea718f4ee Merge patch series "Enable UFS support on Milos"
+d728d0bf3fbdf174b8d2cfa2629719562755ffb7 scsi: ufs: qcom,sc7180-ufshc: dt-bindings: Add UFSHC compatible for x1e80100
+7a941f1f631933972393a735e372fd9b5294f7f0 scsi: qcom: hamoa: arm64: dts: Add UFS nodes for x1e80100 SoC
+38fe636f266bc340e91ac2618c7e5aa473ea54df scsi: qcom: hamoa-iot-evk: arm64: dts: Enable UFS
+621cf20812a932ba8afb694ce9a8a62ce4a09435 Merge patch series "Add UFS support for x1e80100 SoC"
+add5eda41fd460f2a58223f832ed96070feaaff2 scsi: fnic: Make fnic_queuecommand() easier to analyze
+23187576db340953b2c1cb4874eaa7904f16e1fc scsi: megaraid_sas: Protect more code with instance->reset_mutex
 
---===============4714958265084091776==--
+--===============8120102379606679360==--
