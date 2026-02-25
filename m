@@ -1,40 +1,49 @@
-Content-Type: multipart/mixed; boundary="===============3579834082124714221=="
+Content-Type: multipart/mixed; boundary="===============4331677856605925532=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/geert/renesas-drivers
-Date: Wed, 25 Feb 2026 13:01:38 -0000
-Message-Id: <177202449844.2195306.10386705398887639165@gitolite.kernel.org>
+Subject: post-receive: pub/scm/fs/xfs/xfs-linux
+Date: Wed, 25 Feb 2026 13:02:06 -0000
+Message-Id: <177202452640.2195723.1744006386853181809@gitolite.kernel.org>
 
---===============3579834082124714221==
+--===============4331677856605925532==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/geert/renesas-drivers
-user: geert
+repo: pub/scm/fs/xfs/xfs-linux
+user: cem
 changes:
-  - ref: refs/heads/v6.18.10-2026-02-25-x5h-ironhide
-    old: a820de1700681d935394054a85620edd97e01891
-    new: c59e281a56704af2d6ce634956a7b1cf0dd1dfa0
-    log: revlist-a820de170068-c59e281a5670.txt
+  - ref: refs/heads/xfs-7.0-fixes
+    old: df026203678bae489b9dbe6105ab52e1a39e8e7c
+    new: 650b774cf94495465d6a38c31bb1a6ce697b6b37
+    log: revlist-df026203678b-650b774cf944.txt
 
---===============3579834082124714221==
+--===============4331677856605925532==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a820de170068-c59e281a5670.txt
+Content-Disposition: attachment; filename=revlist-df026203678b-650b774cf944.txt
 
-9ba95f898ab0ca041ab09994196953186c6edf7a [RFC] clk: renesas: Add R-Car X5H CPG SCMI remapping driver
-fcc77fd87aeba09427e7cf6fb0ef9ba9dbd3426a [RFC] pmdomain: Add R-Car X5H MDLC SCMI remapping driver
-2940a48c76b76615a3a743814226a0aea376dc7c [RFC] arm64: renesas: dts: r8a78000: Enable SCMI devpd, sys, and reset
-19d4f389bc4aef094abae52302aac37a0ca82ba3 [WIP] arm64: dts: renesas: r8a78000: Add CPG/MDLC nodes
-7a578adae4ae0937d6dc81d131425f17f41077ac [TEST] scsi: ufs: renesas: Add dummy R-Car X5H support
-6661f8541ef1ef588a3d8d0e66e4c65534e5b023 [TEST] arm64: dts: renesas: ironhide: Enable HSCIF1, SCFIF0, and SCIF1
-99538949a18b37dcfce114ecc8c55775c1eab50b [TEST] arm64: dts: renesas: r8a78000: Add dummy UFS node
-bf2456968849b55112eb788377bdb2b94edb231b [REF] squash! dt-bindings: clock: r8a78000-scmi: Add X5H clock via SCMI
-80d545bb72ce000158894e488cd56d7a254a87ac [REF] dt-bindings: power: Add Renesas R-Car X5H SCMI power domains
-c59e281a56704af2d6ce634956a7b1cf0dd1dfa0 [REF] dt-bindings: reset: Add Renesas R-Car X5H SCMI resets
+18c16f602a67782f5eb4b5ab9ba73350b9f711ec xfs: Replace ASSERT with XFS_IS_CORRUPT in xfs_rtcopy_summary()
+a49b7ff63f98ba1c4503869c568c99ecffa478f2 xfs: Refactoring the nagcount and delta calculation
+4ad85e633bc576a5cc8c8310aab141af7ed20efa xfs: Replace &rtg->rtg_group with rtg_group()
+fd81d3fd01a5ee4bd26a7dc440e7a2209277d14b xfs: fix code alignment issues in xfs_ondisk.c
+03a6d6c4c85d2758534638fb2bb5f72e0f8877d0 xfs: cleanup inode counter stats
+47553dd60b1da88df2354f841a4f71dd4de6478a xfs: remove metafile inodes from the active inode stat
+cddfa648f1ab99e30e91455be19cd5ade26338c2 xfs: Fix error pointer dereference
+e764dd439d68cfc16724e469db390d779ab49521 xfs: fix copy-paste error in previous fix
+161456987a1fe4ad73c3f36dec1f684316ac9bdd xfs: fix xfs_group release bug in xfs_verify_report_losses
+eb8550fb75a875657dc29e3925a40244ec6b6bd6 xfs: fix xfs_group release bug in xfs_dax_notify_dev_failure
+94014a23e91a3944947048169ccf38b4561cfd0c xfs: fix potential pointer access race in xfs_healthmon_get
+75690e5fdd74fc4d2a4aec58be9a82aec7cee721 xfs: don't report metadata inodes to fserror
+115ea07b94d2f13942fbd93c6acde376db36b16a xfs: don't report half-built inodes to fserror
+8baa9bccc0156d6952d337bf17f57ce15902dfe4 xfs: Fix xfs_last_rt_bmblock()
+ac1d977096a17d56c55bd7f90be48e81ac4cec3f xfs: Add a comment in xfs_log_sb()
+c2368fc89a684be2900daaa2bbf68cbc147e8d3d xfs: Update lazy counters in xfs_growfs_rt_bmblock()
+9a654a8fa3191e9ea32c4494b943c0872a3f5d27 xfs: Add comments for usages of some macros.
+e97cbf863d8918452c9f81bebdade8d04e2e7b60 xfs: remove duplicate static size checks
+650b774cf94495465d6a38c31bb1a6ce697b6b37 xfs: add static size checks for ioctl UABI
 
---===============3579834082124714221==--
+--===============4331677856605925532==--
