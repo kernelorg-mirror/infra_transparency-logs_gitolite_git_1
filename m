@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0169595417237926393=="
+Content-Type: multipart/mixed; boundary="===============1091557822390259525=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Wed, 25 Feb 2026 02:04:43 -0000
-Message-Id: <177198508338.1657224.8619798334556686355@gitolite.kernel.org>
+Date: Wed, 25 Feb 2026 02:05:08 -0000
+Message-Id: <177198510845.1659942.3664982862238602440@gitolite.kernel.org>
 
---===============0169595417237926393==
+--===============1091557822390259525==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,59 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/fixes
-    old: 0444568edbf87c1da76b61c798ce0f1c1e478467
-    new: 2f38fd99c0004676d835ae96ac4f3b54edc02c82
-    log: revlist-0444568edbf8-2f38fd99c000.txt
+  - ref: refs/tags/mkp-scsi-queue
+    old: e1b99e128b781f2e18e9c6e58520be8994465e77
+    new: bef5cb51104bccd40a5ec8d495e7d1d7c0433bc7
+    log: revlist-e1b99e128b78-bef5cb51104b.txt
 
---===============0169595417237926393==
+--===============1091557822390259525==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1771985081 -0500
+pusher 75C5DE3D 1771985087 -0500
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1771985077-6de3557afbcfeefbeb74f45504b135025e0809ef
+nonce 1771985087-23f054f4a2fb5f81510ef5db6c35105ca5b0b4e7
 
-0444568edbf87c1da76b61c798ce0f1c1e478467 2f38fd99c0004676d835ae96ac4f3b54edc02c82 refs/heads/fixes
+e1b99e128b781f2e18e9c6e58520be8994465e77 bef5cb51104bccd40a5ec8d495e7d1d7c0433bc7 refs/tags/mkp-scsi-queue
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmmeWLkACgkQ7ulgGnXF
-3j1DCw/+KWswAJZy7Hm/bmO1EiAY1XyBHX6sKtvRs4996RKGZBVU3iqhICJ/B/3G
-drwKNaTGQvHGmNruEexMXrIZx1fmqnFeaU8ZxTaLHDVAPZ2O4VAunWeEi0sp1tj5
-7+GAA8uhnwngaIrJflLQPAzECi6biRP5EGftELsjrVkDCh8HV44Kf4IV09Vh/iWI
-m4td9lklHEwGYYnjVLHrKQXZEex4dc0XOQ+0VthbPB9UF6sXDxxptLx5O8vdy43v
-3vyC7DaB+Ez/maGHWircfY/bvqqm9A66sW0XOoIOJPPlXylOdruJlSrgpsjwaNmi
-er+Qp8KNXEHm/TtB+aXQfgGkRxTFhvIUnUqSzGbC0gFJhR7VuHOi8kLybVCzVxXo
-BdWFYiAK28m6qKBLbPSpoxiCWxO6/AxigCbBcG4Bw8R9vGDE4lJrve8/4ujs5JFz
-P86v3FS4P42B0wvhD09XICGy8q9h/TgP0GNKMhUTVzapW4GekXxWWqrloeGFSfUI
-Dd0M0Fg/qvHaDXIRmSYQBa0VJCAFlEK1nyyZ4QU16aiztAf3K/U0HBxJ4yPqorAA
-iEDhQjdug09GP4ojyWajrzpUmbq1euq+Vsq0DZKte3KCKDa9ACSFQ+LSK+1833N5
-zVzL3+XrjTLylNO7D477HyvOZtk0xJF/V7BLODLQ3RSUbGgs4U8=
-=rycA
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmmeWL8ACgkQ7ulgGnXF
+3j0ryw//QAOIKABdxzI3GWWa0z685KveWLztMnpeb3pDpijEkcZpHngsIhaycPw+
++QDLALKaptoEf1oMsDp4jVo0iNtPigr5mjGl8OpGvRL31rw7aGgA7mD2Yja3jMcR
+jm/xxmYBMwM1QMnHd+pM5JsJqxg9oewstGjAVFPqpDrF0gxh10dtQGHKS34oyU3t
+oXpbssaaawbvGlyG0ay4nkXr/CGHYq5N2gMBz2j7tT0QvnPIXgwkQZN2KFLOFR5A
+rQSjlR1XXsehJWp2/qmAM9HjbzSfnvDdMTzeQw8V+nKRSXEIVWriAAgu/HdQh1w2
+6laWt0COV+RhzzQNCotmdQQp+D0AvE+W7WU0WaOgj4hSee+VJv4FDSI+rw00mhnU
+4SMnoAYWxRHm1PbQwAYF4J/tjZjU7qACFS8cLiKJbfKe7EZRGhdCfM8d/NJMJVKR
+L4+CqTbIzFcNp++YK6uQlUSST+/KHyrb5009B3fSGpEnATxoX/S7dTjL3D8FmDOc
+KNuTiuBU7N/0DjPUefLuGeF1wRjcEEdSm3TgfbjLVQkiqwTz7lqP1hgbMVkn6CNp
+9zmM246cFF3ARdoZr92uqqpWXPb854y0rMDg/nFqB6sfrJAhFvJ11lofBoUN4vTN
+OlqtPKvQSJGtktSfTj4o3ez5a4WwXlZ+zj5dgVDtfdXJk53KFBg=
+=49LF
 -----END PGP SIGNATURE-----
 
---===============0169595417237926393==
+--===============1091557822390259525==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-0444568edbf8-2f38fd99c000.txt
+Content-Disposition: attachment; filename=revlist-e1b99e128b78-bef5cb51104b.txt
 
+9e03b7caf4e65f5a5841dfed540fdcc3ff061734 Merge tag 'kvm-x86-misc-6.20' of https://github.com/kvm-x86/linux into HEAD
+2f81bdbdb3aa3fccd9b5420df5674730c40af554 Merge tag 'i3c/for-6.20' of git://git.kernel.org/pub/scm/linux/kernel/git/i3c/linux
+37b4fbf8dbdfb694f2972d1bd7fcd36304a520dd Merge tag 'tpmdd-next-7.0-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+698749164aa53cc313248efd2dc1c25dcf25c99c Merge tag 'audit-pr-20260203' of git://git.kernel.org/pub/scm/linux/kernel/git/pcmoore/audit
+bcc8fd3e1573c502edc0cb61abea0e113a761799 Merge tag 'lsm-pr-20260203' of git://git.kernel.org/pub/scm/linux/kernel/git/pcmoore/lsm
+1d3ffe6233b1b6e8697f5027b9441ce70385c997 perf tests workload: Formatting for code_with_type.rs
+6252e917b9006dfa2f3d884fe0dbaf3e676c4108 Merge tag 'selinux-pr-20260203' of git://git.kernel.org/pub/scm/linux/kernel/git/pcmoore/selinux
+42e7c876b182da65723700f6bc507a8aecb10d3b fs/nfs: Fix readdir slow-start regression
+fdc0396b3cc05dc9b678627af23c3fdc7dbe930e nfs: unify security_inode_listsecurity() calls
+3d57c44e918012db1f901d50bc9195a8812ad602 NFSv4: pass lease period in seconds to nfs4_set_lease_period()
+e29a3e61eef6b6c2e60bc1872e9da3bcdbc46c17 NFSv4: limit lease period in nfs4_set_lease_period()
+4b6c6bc6fab51684cc129f91211734f87db6b065 Merge tag 'vfs-7.0-rc1.rust' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
+2a400eeba40b4cf1fb28f78f41bf73a898b00d06 perf test code_with_type.sh: Skip test if rust wasn't available at build time
 bdc5071d7f7bb82589737741e9bf19820ceb7a6a coccinelle: Add kmalloc_objs conversion script
 3d012b8614ee020666f3dd15af9f65dc487e3f5f perf test: Fix test case perftool-testsuite_report for s390
 996812c453cafa042f2e674738dbf8fa495661f3 Merge tag 'vfs-7.0-rc1.initrd' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
@@ -839,17 +852,8 @@ e3f000f0dee1bfab52e2e61ca6a3835d9e187e35 macvlan: observe an RCU grace period in
 ffe68c3766997d82e9ccaf1cdbd47eba269c4aa2 net: ethernet: ec_bhf: Fix dma_free_coherent() dma handle
 a07c33c6f2fc693bf9c67514fcc15d9d417f390d vsock: document namespace mode sysctls
 be054cc66f739a9ba615dba9012a07fab8e7dd6f net/sched: act_skbedit: fix divide-by-zero in tcf_skbedit_hash()
-bffda93a51b40afd67c11bf558dc5aae83ca0943 scsi: lpfc: Properly set WC for DPP mapping
-57297736c08233987e5d29ce6584c6ca2a831b12 scsi: storvsc: Fix scheduling while atomic on PREEMPT_RT
-2e6b5cd6a4b37a95b78cf8c39a979b58c915c8ed scsi: ufs: core: Fix RPMB region size detection for UFS 2.2
-70ca8caa96ce473647054f5c7b9dab5423902402 scsi: ses: Fix devices attaching to different hosts
-5b313760059c9df7d60aba7832279bcb81b4aec0 scsi: ufs: core: Reset urgent_bkops_lvl to allow runtime PM power mode
-fa96392ebebc8fade2b878acb14cce0f71016503 scsi: mpi3mr: Add NULL checks when resetting request and reply queues
 42ebf3b31709255443df0e280a630feb7c3db0ab Merge tag 'drm-intel-next-fixes-2026-02-13' of https://gitlab.freedesktop.org/drm/i915/kernel into drm-next
-38353c26db28efd984f51d426eac2396d299cca7 scsi: pm8001: Fix use-after-free in pm8001_queue_command()
-af3973e7b4fd91e6884b312526168869fb013d68 scsi: snic: Remove unused linkstatus
 3e2138510b2ad556a12a7b284a025a23992e4aa1 Merge tag 'amd-drm-next-6.20-2026-02-13' of https://gitlab.freedesktop.org/agd5f/linux into drm-next
-97af85787c1964a7e7b146c5d4e021f089af47ea scsi: snic: MAINTAINERS: Update snic maintainers
 ef0e60083f768b32cda17b1b0ca9519405db89a6 tools/power turbostat: Fix AMD RAPL regression
 ccd8e87748ad083047d6c8544c5809b7f96cc8df eth: fbnic: Add validation for MTU changes
 834ef6aa0996121184728279c4b81a3b70ee649b x86/hyperv: Use savesegment() instead of inline asm() to save segment registers
@@ -1076,9 +1080,5 @@ aaf96df9593bf4ab1b73c17891e4efe7570fdef3 CREDITS: Add -next to Stephen Rothwell'
 75e1f66a9ed09f29c6883ea379c174e8cf31f7cc Merge tag 'libcrypto-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/ebiggers/linux
 fbf33803618ad4f531f78fe15cf328fe6c7f9978 Merge tag 'fsverity-for-linus' of git://git.kernel.org/pub/scm/fs/fsverity/linux
 6de23f81a5e08be8fbf5e8d7e9febc72a5b5f27f Linux 7.0-rc1
-be237352f84059344cb9609e55f38fe0e492deee Merge branch '7.0/scsi-queue' into 7.0/scsi-fixes
-30df81f2228d65bddf492db3929d9fcaffd38fc5 scsi: ufs: core: Fix possible NULL pointer dereference in ufshcd_add_command_trace()
-62c015373e1cdb1cdca824bd2dbce2dac0819467 scsi: ufs: core: Move link recovery for hibern8 exit failure to wl_resume
-2f38fd99c0004676d835ae96ac4f3b54edc02c82 scsi: ufs: core: Fix shift out of bounds when MAXQ=32
 
---===============0169595417237926393==--
+--===============1091557822390259525==--
