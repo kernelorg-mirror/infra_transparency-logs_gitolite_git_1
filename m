@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Wed, 25 Feb 2026 22:47:14 -0000
-Message-Id: <177205963469.2791225.3223559884823081694@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/nolibc/linux-nolibc
+Date: Wed, 25 Feb 2026 22:55:18 -0000
+Message-Id: <177206011829.2798235.6042551320566726615@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: daveh
+repo: pub/scm/linux/kernel/git/nolibc/linux-nolibc
+user: thomas.weissschuh
 changes:
-  - ref: refs/heads/x86/tdx
-    old: 6de23f81a5e08be8fbf5e8d7e9febc72a5b5f27f
-    new: b5425f5406ee1b4bd84720f68020ef18ce380bab
+  - ref: refs/heads/for-next
+    old: 40957aa5324d728d6cb06a17c24567eeca0a596b
+    new: c8ece5c8184771088cb74a6cfd7882195e3e658d
     log: |
-         311214bf1df4b110f6b0646615aecfab388a25ef x86/virt/tdx: Retrieve TDX module version
-         b5425f5406ee1b4bd84720f68020ef18ce380bab x86/virt/tdx: Print TDX module version during init
+         c8ece5c8184771088cb74a6cfd7882195e3e658d tools/nolibc/printf: Change variables 'c' to 'ch' and 'tmpbuf[]' to 'outbuf[]'
          
