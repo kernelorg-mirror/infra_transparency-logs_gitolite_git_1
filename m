@@ -1,22 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regmap
-Date: Wed, 25 Feb 2026 19:06:17 -0000
-Message-Id: <177204637726.2609899.2183307171810637798@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
+Date: Wed, 25 Feb 2026 19:06:23 -0000
+Message-Id: <177204638376.2610110.14498004954384650230@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regmap
+repo: pub/scm/linux/kernel/git/broonie/regulator
 user: broonie
 changes:
   - ref: refs/heads/for-next
-    old: 6de23f81a5e08be8fbf5e8d7e9febc72a5b5f27f
-    new: 37983fad7f3ef296fa0504c8e945987459dc5487
+    old: 4b73231b2a61c4142a027613d277a19c484dfcc3
+    new: a21ac8567c003f108f376cb711f65925127eeb0e
     log: |
-         1fcf171178f021ef2005d47e281544624b93c5a5 regcache: Remove duplicate check in regcache_hw_init()
-         c2bcf62ca75c541ec4297e6ff02a68ddc2e02029 regcache: Split regcache_count_cacheable_registers() helper
-         38ab6557234d8629407a824be90e82514d6129a0 regmap: sort header includes
-         37983fad7f3ef296fa0504c8e945987459dc5487 regmap: define cleanup helper for regmap_field
+         82ffa9610ba39d3628a9bec968ddc68fe2fe6612 dt-bindings: mfd: spacemit,p1: Add individual regulator supply properties
+         fbb4c52ccdcb4a612d2b7f800aa57090eeee16d7 regulator: spacemit-p1: Update supply names
+         0556bb42a84ee391a2145ddba86756f9747bc27f regulator: pf0900: Make regu_irqs variable static const
+         f308205e3b370d0bb4be696ae678b0f0ce65d2c7 regulator: spacemit-p1: Support board power tree
+         a21ac8567c003f108f376cb711f65925127eeb0e Merge remote-tracking branch 'regulator/for-7.1' into regulator-next
          
