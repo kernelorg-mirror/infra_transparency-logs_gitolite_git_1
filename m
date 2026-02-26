@@ -1,23 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
-Date: Thu, 26 Feb 2026 22:12:44 -0000
-Message-Id: <177214396400.3944804.12342287522569008051@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
+Date: Thu, 26 Feb 2026 22:13:10 -0000
+Message-Id: <177214399044.3945237.10183243112514430513@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regulator
-user: broonie
+repo: pub/scm/linux/kernel/git/ath/ath
+user: jjohnson
 changes:
-  - ref: refs/heads/for-next
-    old: 1f1c436fe232cbfa495b135fcbeea26fc0260fb0
-    new: ea07847b38e2238d170e930ab911dbe7a57991a8
+  - ref: refs/heads/pending
+    old: ff49eba595df500e4ddccc593088c8a4ab5f2c27
+    new: 192888d371a1d2246e3f776ad0fb48f9be03c198
     log: |
-         5a8ffc5dca9c096fe9c8879fa3a2faff723fbb8a regulator: dt-bindings: cpcap-regulator: convert to DT schema
-         0e5646030212856a7f022387a647694ba65e75a7 regulator: dt-bindings: cpcap-regulator: document Mot regulator
-         d90c0f78379454d51a428e312ac6db573060185c regulator: cpcap-regulator: add support for Mot regulators
-         4add09ab359c8caa6e65b2200911e1de66565eeb mfd: cpcap: convert documentation to schema and add
-         ea07847b38e2238d170e930ab911dbe7a57991a8 Merge remote-tracking branch 'regulator/for-7.1' into regulator-next
+         9d1c79c8260645c4f42f61fefe1e37a24b0e6fcc wifi: ath12k: Fix legacy rate mapping for monitor mode capture
+         192888d371a1d2246e3f776ad0fb48f9be03c198 wifi: ath12k: Fix the assignment of logical link index
          
