@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Thu, 26 Feb 2026 18:55:54 -0000
-Message-Id: <177213215462.3784179.12569900042307545956@gitolite.kernel.org>
+Date: Thu, 26 Feb 2026 19:17:26 -0000
+Message-Id: <177213344608.3799640.15579272916350413643@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,6 +11,6 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/broonie/ci
 user: broonie
 changes:
-  - ref: refs/heads/v3_20260223_clamor95_mfd_cpcap_convert_documentation_to_schema_and_add_mot_board_support
+  - ref: refs/heads/v2_20260225_ckeepax_sdca_improvements
     old: 0000000000000000000000000000000000000000
-    new: d90c0f78379454d51a428e312ac6db573060185c
+    new: 501efdcb3b3ab099fc0ce2f6e668b1c4095dd476
