@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Thu, 26 Feb 2026 10:53:06 -0000
-Message-Id: <177210318632.3378341.14080935226756957023@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jfern/linux
+Date: Thu, 26 Feb 2026 11:07:00 -0000
+Message-Id: <177210402042.3389543.16642255786234969780@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: pabeni
+repo: pub/scm/linux/kernel/git/jfern/linux
+user: jfern
 changes:
-  - ref: refs/heads/main
-    old: 15c9ed1d8286dc0297f01347dc74f5a8cbc173de
-    new: 4916f2e2f3fc9aef289fcd07949301e5c29094c2
+  - ref: refs/heads/nova/mm
+    old: 4c186966b5499599b4f3ace46b6015bae06dcc49
+    new: 015b87df156a00f0a3993288455bf0a395e640b9
     log: |
-         4916f2e2f3fc9aef289fcd07949301e5c29094c2 bonding: print churn state via netlink
+         b554d6dad5356942c758a0ad065b3db125e7ff14 gpu: nova-core: mm: Add BAR1 memory management self-tests
+         015b87df156a00f0a3993288455bf0a395e640b9 gpu: nova-core: mm: Add PRAMIN aperture self-tests
          
