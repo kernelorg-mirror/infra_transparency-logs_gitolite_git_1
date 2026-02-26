@@ -1,19 +1,32 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/leon/linux-rdma
-Date: Thu, 26 Feb 2026 12:58:07 -0000
-Message-Id: <177211068715.3483355.1146049974407369997@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
+Date: Thu, 26 Feb 2026 13:05:58 -0000
+Message-Id: <177211115851.3490512.4430328451462793579@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/leon/linux-rdma
-user: leon
+repo: pub/scm/linux/kernel/git/tiwai/sound
+user: tiwai
 changes:
-  - ref: refs/heads/complete-alloc-conversion-v1
-    old: fb1fe1f98235fb3b369aaeabe5bd3e42566929f9
-    new: d38e8bd489aa0c18912f30b24f630545f9cb42b3
+  - ref: refs/heads/for-linus
+    old: 1a7ba00901438985d817a24628753ef0323a4860
+    new: 786ea2b694f48e1b34f1dcf104e09357fc99ef34
     log: |
-         d38e8bd489aa0c18912f30b24f630545f9cb42b3 RDMA: Complete k[z|m|c]alloc-to-k[z|m]alloc_obj conversion
+         786ea2b694f48e1b34f1dcf104e09357fc99ef34 ALSA: hda: cs35l56: Remove unnecessary struct cs_dsp_client_ops
+         
+  - ref: refs/heads/for-next
+    old: 1a7ba00901438985d817a24628753ef0323a4860
+    new: 786ea2b694f48e1b34f1dcf104e09357fc99ef34
+    log: |
+         786ea2b694f48e1b34f1dcf104e09357fc99ef34 ALSA: hda: cs35l56: Remove unnecessary struct cs_dsp_client_ops
+         
+  - ref: refs/heads/master
+    old: 6674447e6178e9da3a5c5d28d58b188bc6bd54bc
+    new: 004368a3f394c8a0f76b1856b250e0e3e148bcea
+    log: |
+         786ea2b694f48e1b34f1dcf104e09357fc99ef34 ALSA: hda: cs35l56: Remove unnecessary struct cs_dsp_client_ops
+         004368a3f394c8a0f76b1856b250e0e3e148bcea Merge branch 'for-linus'
          
