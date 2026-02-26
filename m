@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Thu, 26 Feb 2026 10:37:02 -0000
-Message-Id: <177210222223.3366017.9137732621559545321@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/geert/renesas-drivers
+Date: Thu, 26 Feb 2026 10:40:04 -0000
+Message-Id: <177210240417.3368418.5578284507590767369@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: pabeni
+repo: pub/scm/linux/kernel/git/geert/renesas-drivers
+user: geert
 changes:
-  - ref: refs/heads/main
-    old: f0a2f2aadbef0d44e6df7b43a32b509fbbf39349
-    new: 7aa767d0d3d04e50ae94e770db7db8197f666970
-    log: |
-         7aa767d0d3d04e50ae94e770db7db8197f666970 net: consume xmit errors of GSO frames
-         
+  - ref: refs/heads/topic/renesas-overlays-v7.0-rc1
+    old: 0000000000000000000000000000000000000000
+    new: fe5e834c85108097561ede1966e38dcea231fb82
+  - ref: refs/heads/topic/overlays-v7.0-rc1
+    old: 0000000000000000000000000000000000000000
+    new: e7e4fbc44c19421f904f1585b2a10fb4dfc964b9
