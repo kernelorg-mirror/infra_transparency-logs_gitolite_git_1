@@ -1,50 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============5611265943570520258=="
+Content-Type: multipart/mixed; boundary="===============0048654541889989907=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/hid/hid
-Date: Thu, 26 Feb 2026 22:52:33 -0000
-Message-Id: <177214635366.4034243.4360570411363480786@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Thu, 26 Feb 2026 23:00:18 -0000
+Message-Id: <177214681869.4041256.187996960689236044@gitolite.kernel.org>
 
---===============5611265943570520258==
+--===============0048654541889989907==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/hid/hid
-user: jikos
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-next
-    old: 999625132c9911f2f5c163ec6821ffe603b5d78b
-    new: 0f96b90e8531b50481b07328943122b16ba59721
-    log: revlist-999625132c99-0f96b90e8531.txt
-  - ref: refs/heads/for-7.1/lenovo
-    old: 0000000000000000000000000000000000000000
-    new: d2c424e80caf8237bda4c94bc2e25398967243f9
+  - ref: refs/heads/master
+    old: cc81ab2f44be0c921895ce1467e0de34041afbde
+    new: 08f2c72545fd46526226105230449470db503ecf
+    log: |
+         08f2c72545fd46526226105230449470db503ecf Linux 6.18.14
+         
 
---===============5611265943570520258==
+--===============0048654541889989907==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-999625132c99-0f96b90e8531.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-b7458de7a74075a0026e6fd81f747fd77b7872e0 include: device.h: Add named device attributes
-3bb54f568ecc35be7675eef5303a47e14aba54bc HID: hid-lenovo-go: Add Lenovo Legion Go Series HID Driver
-b2fd12c205b5a533ba2b1c5ffad669d08d52ce12 HID: hid-lenovo-go: Add Feature Status Attributes
-a8a9ca568ce547634e80e999013ac9f123acff1d HID: hid-lenovo-go: Add Rumble and Haptic Settings
-f0119d450f1d4a5cc2ef2b38c2b522f902698a38 HID: hid-lenovo-go: Add FPS Mode DPI settings
-557d5b34d52974bf4e43c459cbf50bed5615ead4 HID: hid-lenovo-go: Add RGB LED control interface
-1d466a1adbf40e55501d766322d665de3a822b6e HID: hid-lenovo-go: Add Calibration Settings
-b53ccf3f72653c8a843188ffa2edd4bc2443686d HID: hid-lenovo-go: Add OS Mode Toggle
-3d26d7c92f2581900ee98b3963d07d3e071bf505 HID: Include firmware version in the uevent
-4325fdab5dbbfd467df6797e018c9dd0e5c3ae75 HID: hid-lenovo-go-s: Add Lenovo Legion Go S Series HID Driver
-323d8d2ee0a5c51c0e33d76f860fd3f17f2ccf21 HID: hid-lenovo-go-s: Add MCU ID Attribute
-14651777fd67507d19574cd7e7835c16e6174853 HID: hid-lenovo-go-s: Add Feature Status Attributes
-f3ac4e11aaf3cd334d7f2cb205851bd157a2535f HID: hid-lenovo-go-s: Add Touchpad Mode Attributes
-550752e2c153663c3a374b048535654073007c90 HID: hid-lenovo-go-s: Add RGB LED control interface
-041eadd5f2d207dd1d286747d137a7d896dd7d5c HID: hid-lenovo-go-s: Add IMU and Touchpad RO Attributes
-d2c424e80caf8237bda4c94bc2e25398967243f9 HID: Add documentation for Lenovo Legion Go drivers
-0f96b90e8531b50481b07328943122b16ba59721 Merge branch 'for-7.1/lenovo' into for-next
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1772146810 -0800
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1772146817-fe14db2e7319550342736b81265555322bd723de
 
---===============5611265943570520258==--
+cc81ab2f44be0c921895ce1467e0de34041afbde 08f2c72545fd46526226105230449470db503ecf refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmmg0HobHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+fKEP/2va9F3Rj9fOGCFe2DaO
+jb2ccvXZdDhN/+N9rvZEV8XsuliXX8HLndr2FS7W+cJDyhhGrnApBM0fk26LlH9L
+OsQzI7qsY9NXArXYhM3aWJlstrpfCc83gyrMk3tEJO+25T4G3+tesreiQiT2Koid
+hoiXq47WFD+UfPUg1rjwOF5rAg7xQgTErKUykirYQLZcrVbRqamy4NtXNOZlANta
+BW8tPjJZZcItWkPTZaeUKlatSVfxxAeebZs0ZLNM7LL3Fu128S+QyoJxd/Ly7MwJ
+3Py0VDgbYWpDf83Qo3hLdxJeAkqw5wjkHOntoBKELxoOgtMoWvnV1n678WpGkXml
+2WKb7gK3sBwJmu+XrX0UX5ApRAts/yIaNQoJH9iPpRz7Pk/x5PltKmlqNmGA1fj/
+GJmUhuOzygfiU8zRXFtXuO6t3exHm4kPegX30FM5LGWkpZc8Bm2cNbP7tz1hpq5F
+huQH60iSUvtOqX+EOo1hwn6CfZNYk4SWvp6klNzh7cJaM5cKZ5RAHXe3Zox+uo8x
+ppeZDzzSK/w4xXrnAzcNg+4gzBU7FHcehJmGWZwCGd80bFsBhCUmtj/tQ0k87kLf
+tc9ikd4iAB4u+PbFtsXTkKqqOPHEpKUV7/YupFDWV+2RTdex38oOdtt8rRMLafZ/
+zpKJYfDWqVZHmz31DBT8W7Vc
+=7AaN
+-----END PGP SIGNATURE-----
+
+--===============0048654541889989907==--
