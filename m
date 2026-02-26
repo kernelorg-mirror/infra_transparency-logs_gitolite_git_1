@@ -1,21 +1,32 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/b4/b4
-Date: Thu, 26 Feb 2026 16:48:28 -0000
-Message-Id: <177212450840.3680285.12309394541156146907@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
+Date: Thu, 26 Feb 2026 16:58:03 -0000
+Message-Id: <177212508322.3688565.494300600967491782@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/b4/b4
-user: mricon
+repo: pub/scm/linux/kernel/git/tiwai/sound
+user: tiwai
 changes:
-  - ref: refs/heads/master
-    old: 858baa2b2eeb93ea1b0e1b57adfb77e4a126043e
-    new: f57ceb524a15e55daa7573751101d67ccd50a7f9
+  - ref: refs/heads/for-linus
+    old: dc9786a06d53291a5af824e854dd0769b1a97dbe
+    new: 71c1978ab6d2c6d48c31311855f1a85377c152ae
     log: |
-         c5b9ed8d8209ca478459bbcc08d2beb07f1b2997 b4: Fix offline mbox --check case
-         3c4b3211bb94c3ea3c1cf3301b8ae73eecc55978 docs: document --set-presubject and b4.send-presubject
-         f57ceb524a15e55daa7573751101d67ccd50a7f9 ez: allow cleaning multiple branches at once
+         71c1978ab6d2c6d48c31311855f1a85377c152ae ASoC: SDCA: Fix comments for sdca_irq_request()
+         
+  - ref: refs/heads/for-next
+    old: dc9786a06d53291a5af824e854dd0769b1a97dbe
+    new: 71c1978ab6d2c6d48c31311855f1a85377c152ae
+    log: |
+         71c1978ab6d2c6d48c31311855f1a85377c152ae ASoC: SDCA: Fix comments for sdca_irq_request()
+         
+  - ref: refs/heads/master
+    old: a460f9d94af959a033b62be58f952fa22d5239ff
+    new: f7d527f46460c998c7cd4e884b9258a6de259f5f
+    log: |
+         71c1978ab6d2c6d48c31311855f1a85377c152ae ASoC: SDCA: Fix comments for sdca_irq_request()
+         f7d527f46460c998c7cd4e884b9258a6de259f5f Merge branch 'for-linus'
          
