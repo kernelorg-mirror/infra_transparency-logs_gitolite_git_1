@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8974058584971068452=="
+Content-Type: multipart/mixed; boundary="===============2154853703874490885=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Thu, 26 Feb 2026 22:40:14 -0000
-Message-Id: <177214561466.4023999.15871201887774180027@gitolite.kernel.org>
+Date: Thu, 26 Feb 2026 22:40:45 -0000
+Message-Id: <177214564530.4024310.17934315499196232931@gitolite.kernel.org>
 
---===============8974058584971068452==
+--===============2154853703874490885==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/dev-queue
-    old: c8fd3626723e5c41130495ac26ab71408d49d71e
-    new: e0857e9320ce0f6c7f74eb6a55ec0e13707ca5ea
-    log: revlist-c8fd3626723e-e0857e9320ce.txt
+  - ref: refs/heads/1GbE
+    old: 2f61f38a217462411fed950e843b82bc119884cf
+    new: b9c8fc2caea6ff7e45c6942de8fee53515c66b34
+    log: revlist-2f61f38a2174-b9c8fc2caea6.txt
 
---===============8974058584971068452==
+--===============2154853703874490885==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c8fd3626723e-e0857e9320ce.txt
+Content-Disposition: attachment; filename=revlist-2f61f38a2174-b9c8fc2caea6.txt
 
 0d4b3ca115b5436d7e68453527566db3e87ab7f0 xtensa: align: validate access in fast_load_store
 d311783bc68b011c77a4ef81321de2c94d7deffc perf list: Remove unused 'sep' variable
@@ -784,50 +784,5 @@ f0a2f2aadbef0d44e6df7b43a32b509fbbf39349 Merge branch 'vsock-add-write-once-sema
 8a5752c6dcc085a3bfc78589925182e4e98468c5 dpaa2-switch: validate num_ifs to prevent out-of-bounds write
 baed0d9ba91d4f390da12d5039128ee897253d60 netfilter: nf_conntrack_h323: fix OOB read in decode_choice()
 b9c8fc2caea6ff7e45c6942de8fee53515c66b34 Merge tag 'net-7.0-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
-0e8b2b9f6328ea8ad961137394ebf4ba75d6a70b ice: fix fwlog after driver reinit
-7bb71b4e28daad13995a3250325073080136f0b4 ice: Fix enable_cnt imbalance on resume
-734b41cd8451d1855c496a15acc6c85b7982e263 ice: Fix enable_cnt imbalance on PCIe error recovery
-d8f6919fc331e8311a7d1eee35b0252ca16926d3 i40e: Fix enable_cnt imbalance on PCIe error recovery
-a147fdfda6f6a8ee29bfc227ade794f674b49adc i40e: fix src IP mask checks and memcpy argument names in cloud filter
-bd61235af928938ac980758ea1ff5603ee2f8296 ixgbevf: fix link setup issue
-2ffe0394e02910a39d9fd31fe597c64e263af191 ice: fix 'adjust' timer programming for E830 devices
-8006d9be8eecc0a0e2c16f0305a2bde92d73bb43 idpf: increment completion queue next_to_clean in sw marker wait routine
-eab8b7a41680f4c99a88dfa24846a8b73ebb2ca5 ice: fix adding AQ LLDP filter for VF
-356c1a14ffd5ac96c2920e62c172c757bb47dbc9 ice: fix setting RSS VSI hash for E830
-428f5a4079f533d8293fdb1e76f2abd887047f1f e1000e: introduce new board type for Panther Lake PCH
-9d892f4193d7bbf3027d8d2765b2e31837bb3fc0 e1000e: clear DPG_EN after reset to avoid autonomous power-gating
-c0e7691ec2ac1e9cca167ca4482601704e5e3a41 idpf: skip deallocating bufq_sets from rx_qgrp if it is NULL.
-c95ba41a8df03f60afd2881678b2083479e99e4a idpf: skip deallocating txq group's txqs if it is NULL.
-d83ed99ae4493b96c4a71a6219c3d29f81daa763 idpf: Fix flow rule delete failure due to invalid validation
-29f3fd0fa2556f8d8a43c42fef82ed58e7f3136f ice: reintroduce retry mechanism for indirect AQ
-5f92d4f5b80c85cabac00a316321f602cfeed886 ice: fix retry for AQ command 0x06EE
-d72e932ed3365910ee8f03ecedbdf23cf972a9cb igb: Fix trigger of incorrect irq in igb_xsk_wakeup
-c01c60e3952cd3af461483693e2dd1fa7ce1e96f igc: Fix trigger of incorrect irq in igc_xsk_wakeup function
-3b574aaee111067ebcbf184f6d1cc8ab5b0c383e ice: Fix memory leak in ice_set_ringparam()
-a6d275fce92b866569510b1ff87ec3bbd9794285 idpf: nullify pointers after they are freed
-031af30dd1baa88ab6dec7a66aa70b106952c8ad idpf: change IRQ naming to match netdev and ethtool queue numbering
-579c3616bc22fdbda92f858b4a2cd6c88f2d6bc5 ice: recap the VSI and QoS info after rebuild
-71617ca8d87f3831cceb2a581ed93cfa531bfdfc iavf: fix PTP use-after-free during reset
-ce65dbee78d275cf01c4f6a876ac4d24a7bcc536 ice: ptp: don't WARN when controlling PF is unavailable
-ef317e5bb3a2fc0078ff4faffc77e5ef1efae6fa ice: fix crash in ethtool offline loopback test
-1aedffd11afab96121bb2d06fc4bc43750eb5974 i40e: Fix preempt count leak in napi poll tracepoint
-113e6029dc5c8196ffc89e0dc6b4d041f395155c ice: fix race condition in TX timestamp ring cleanup
-cab09d9c718ec9741bdc3fb4283acde0b1a2e9a9 ice: dpll: fix rclk pin state get and misplaced header macros
-ead392dd758382f9d291bbd4c6265a3ddcda117c iavf: fix netdev->max_mtu to respect actual hardware limit
-6c85852e914d5d0f26e23200dea0c0d066155074 libie: prevent memleak in fwlog code
-5382108a4ffe79fcabf7d2d384cd0fad43a1f97b libie: don't unroll if fwlog isn't supported
-a80d5c2ab9ee003933cac2c61efc9a31497e5399 iavf: fix incorrect reset handling in callbacks
-fb0f03aab3ef68a7eaf3b7d5740e2d5d8ef6c33f ice: fix inverted ready check for VF representors
-6a500690840f4434cb7ad1382a8bdbe8f12f1b31 ice: use ice_update_eth_stats() for representor stats
-f5f75a4e9ec10125b088afed5c9d38992861b72f drivers: net: ice: fix devlink parameters get without irdma
-280f154d2e585e2e2b4429d6cc692aab7284355e iavf: fix out-of-bounds writes in iavf_get_ethtool_stats()
-f80baefaf32b557b57075a0f5f6d59ae9e733adb igc: fix missing update of skb->tail in igc_xmit_frame()
-1483a69bf433b4b6df157e01456b6624934fcc5f ice: update PCS latency settings for E825 10G/25Gb modes
-673b7c3435171506df8ee2d322a41afa4dd80c93 ice: fix missing dpll notification for SW pins
-133919703e2452fda0bd0c768965103cacae2876 ice: fix potential NULL pointer deref in error path of ice_set_ringparam()
-7adfed42bb82392aa61d0d51c05a70eb1d2e8682 ice: set max queues in alloc_etherdev_mqs()
-07cbb886052941a8cc1a9dbf9fd8c7f87499a4d5 ice: fix missing SMA pin initialization in DPLL subsystem
-15bdfffdbcd929405346ce23970618d65e3f0ceb igc: fix page fault in XDP TX timestamps handling
-e0857e9320ce0f6c7f74eb6a55ec0e13707ca5ea e1000/e1000e: Fix leak in DMA error cleanup
 
---===============8974058584971068452==--
+--===============2154853703874490885==--
