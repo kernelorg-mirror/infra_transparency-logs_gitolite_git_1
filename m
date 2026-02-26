@@ -1,21 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
-Date: Thu, 26 Feb 2026 16:43:37 -0000
-Message-Id: <177212421768.3676205.713058649889076287@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/b4/b4
+Date: Thu, 26 Feb 2026 16:48:28 -0000
+Message-Id: <177212450840.3680285.12309394541156146907@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tiwai/sound
-user: tiwai
+repo: pub/scm/utils/b4/b4
+user: mricon
 changes:
-  - ref: refs/tags/sound-7.0-rc2
-    old: 0510fc3d3d0e7eec4fd4d6b844712d4bb6956f21
-    new: aa5a619120121e3686822cea4f8a30e4f2ede764
+  - ref: refs/heads/master
+    old: 858baa2b2eeb93ea1b0e1b57adfb77e4a126043e
+    new: f57ceb524a15e55daa7573751101d67ccd50a7f9
     log: |
-         3540cc453f5679d8c4d5ccc9834a1f5f8184af3a ALSA: usb-audio: Drop superfluous kernel-doc markers
-         1d6452a0ce78cd3f4e48943b5ba21d273a658298 ALSA: usb: qcom: Correct parameter comment for uaudio_transfer_buffer_setup()
-         dc9786a06d53291a5af824e854dd0769b1a97dbe ALSA: us144mkii: Drop kernel-doc markers
+         c5b9ed8d8209ca478459bbcc08d2beb07f1b2997 b4: Fix offline mbox --check case
+         3c4b3211bb94c3ea3c1cf3301b8ae73eecc55978 docs: document --set-presubject and b4.send-presubject
+         f57ceb524a15e55daa7573751101d67ccd50a7f9 ez: allow cleaning multiple branches at once
          
