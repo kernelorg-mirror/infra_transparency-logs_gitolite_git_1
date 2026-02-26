@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============2573070139379727083=="
+Content-Type: multipart/mixed; boundary="===============2675025775692911628=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Thu, 26 Feb 2026 13:07:56 -0000
-Message-Id: <177211127697.3491509.10475440255960094537@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jgg/iommufd
+Date: Thu, 26 Feb 2026 13:08:10 -0000
+Message-Id: <177211129056.3491836.5585665568958662889@gitolite.kernel.org>
 
---===============2573070139379727083==
+--===============2675025775692911628==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rdma/rdma
+repo: pub/scm/linux/kernel/git/jgg/iommufd
 user: jgg
 changes:
   - ref: refs/heads/linus
@@ -20,7 +20,7 @@ changes:
     new: f4d0ec0aa20d49f09dc01d82894ce80d72de0560
     log: revlist-d295082ea672-f4d0ec0aa20d.txt
 
---===============2573070139379727083==
+--===============2675025775692911628==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ bfbc0b5b32a8f28ce284add619bf226716a59bc0 media: dvb-core: fix wrong reinitializa
 d9d32e5bd5a4e57675f2b70ddf73c3dc5cf44fc2 Merge tag 'ata-7.0-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/libata/linux
 f4d0ec0aa20d49f09dc01d82894ce80d72de0560 Merge tag 'erofs-for-7.0-rc2-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/xiang/erofs
 
---===============2573070139379727083==--
+--===============2675025775692911628==--
