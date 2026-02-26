@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============7320915144011513341=="
+Content-Type: multipart/mixed; boundary="===============9163436296296704197=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jfern/linux
-Date: Thu, 26 Feb 2026 19:43:32 -0000
-Message-Id: <177213501205.3821996.1870361442963106826@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rcu/linux
+Date: Thu, 26 Feb 2026 19:43:52 -0000
+Message-Id: <177213503214.3822219.13850009778217739504@gitolite.kernel.org>
 
---===============7320915144011513341==
+--===============9163436296296704197==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jfern/linux
+repo: pub/scm/linux/kernel/git/rcu/linux
 user: jfern
 changes:
   - ref: refs/heads/rcu/dev
-    old: dc99fd3fb3891c3eb5c690074be8cd9a03af4282
+    old: 767516f73bf4deb2bf1998f165e5d0548d1cca3e
     new: 8fdee8db341731fba01d5416a472b311aa7e3552
-    log: revlist-dc99fd3fb389-8fdee8db3417.txt
+    log: revlist-767516f73bf4-8fdee8db3417.txt
 
---===============7320915144011513341==
+--===============9163436296296704197==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-dc99fd3fb389-8fdee8db3417.txt
+Content-Disposition: attachment; filename=revlist-767516f73bf4-8fdee8db3417.txt
 
 728bea264883031c377fcc9c465b650dbfd1bbf5 sunrpc: rpc_debug and others are defined even if CONFIG_SUNRPC_DEBUG unset
 afb24505ff6583eb5150b4a54086188494d25c28 SUNRPC: Change list definition method
@@ -1051,4 +1051,4 @@ a85c6f89df8b7b70fe425c9cef2001f44aca506e rcutorture: Add NOCB02 config for nocb 
 4536381d120acef7849683d10a26a0044624bd64 rcu/nocb: Consolidate rcu_nocb_cpu_offload/deoffload functions
 8fdee8db341731fba01d5416a472b311aa7e3552 rcu/nocb: Extract nocb_bypass_needs_flush() to reduce duplication
 
---===============7320915144011513341==--
+--===============9163436296296704197==--
