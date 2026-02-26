@@ -1,21 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/firmware/linux-firmware
-Date: Thu, 26 Feb 2026 14:55:08 -0000
-Message-Id: <177211770869.3584627.16803748098491778557@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/hid/hid
+Date: Thu, 26 Feb 2026 15:01:06 -0000
+Message-Id: <177211806638.3590571.6798594804121740383@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/firmware/linux-firmware
-user: jwboyer
+repo: pub/scm/linux/kernel/git/hid/hid
+user: jikos
 changes:
-  - ref: refs/heads/main
-    old: fb7d64e497d116006542cbdcb8049c5c31ddd998
-    new: d8e138dd8970ffc9f5f879e2d62938abe6cd3f22
+  - ref: refs/heads/for-7.0/upstream-fixes
+    old: 22f8bcec5aeb05104b3eaa950cb5a345e95f0aa8
+    new: 7c698de0dc5daa1e1a5fd1f0c6aa1b6bb2f5d867
     log: |
-         64330a97f0f2785c5ce854d0bd9336050f3c27ca  QCA: Update Bluetooth WCN6856 firmware 2.1.0-00659 to 2.1.0-00665
-         87768b59c8787ebe24ec6148f02ce76af49fff69 qca: Update Bluetooth WCN6750 1.1.3-00105 firmware to 1.1.3-00106
-         d8e138dd8970ffc9f5f879e2d62938abe6cd3f22 Merge branch 'bt-hsp' into 'main'
+         7c698de0dc5daa1e1a5fd1f0c6aa1b6bb2f5d867 HID: apple: Add EPOMAKER TH87 to the non-apple keyboards list
+         
+  - ref: refs/heads/for-next
+    old: 59cb3ae2b9a29aea27812515b7c4d55108fe0478
+    new: a2c759f4df2ea52a35f6e7dbf06d1e53955dd0d1
+    log: |
+         7c698de0dc5daa1e1a5fd1f0c6aa1b6bb2f5d867 HID: apple: Add EPOMAKER TH87 to the non-apple keyboards list
+         a2c759f4df2ea52a35f6e7dbf06d1e53955dd0d1 Merge branch 'for-7.0/upstream-fixes' into for-next
          
