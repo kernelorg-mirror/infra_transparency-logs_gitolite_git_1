@@ -1,86 +1,41 @@
-Content-Type: multipart/mixed; boundary="===============2142785324695481660=="
+Content-Type: multipart/mixed; boundary="===============2962559905652805946=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Thu, 26 Feb 2026 09:01:51 -0000
-Message-Id: <177209651198.3288793.18382639327878294175@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/util-linux/util-linux
+Date: Thu, 26 Feb 2026 09:04:17 -0000
+Message-Id: <177209665738.3289661.8912245597013477606@gitolite.kernel.org>
 
---===============2142785324695481660==
+--===============2962559905652805946==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: mingo
+repo: pub/scm/utils/util-linux/util-linux
+user: kzak
 changes:
   - ref: refs/heads/master
-    old: ae8518c0cc2eb2296d63cde3586dd47200070957
-    new: eba90b464622b8355dcb6af80151bd139bd171e5
-    log: revlist-ae8518c0cc2e-eba90b464622.txt
-  - ref: refs/heads/tip/urgent
-    old: e1fabda04cb321bf5341abf92cb4936fe721b503
-    new: adb7b8318d487b8a0b43fd4133ad31be2bb4b4bb
-    log: revlist-e1fabda04cb3-adb7b8318d48.txt
+    old: cfacc42d7e877966590ffc6a04a52675c920dbb2
+    new: 33e6a5e9a556d9fe9d3b66382c5e7e2c4bd5e82b
+    log: revlist-cfacc42d7e87-33e6a5e9a556.txt
 
---===============2142785324695481660==
+--===============2962559905652805946==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ae8518c0cc2e-eba90b464622.txt
+Content-Disposition: attachment; filename=revlist-cfacc42d7e87-33e6a5e9a556.txt
 
-d36fcc599cfb4d03582abf6bcfc0e7c5db104b12 Merge branch into tip/master: 'irq/urgent'
-935dc42142bfec745662d4ade0985ef3cecdb652 Merge branch into tip/master: 'locking/urgent'
-aa322eb91a579e7f6c9d840d3d0cb148d05e3ade Merge branch into tip/master: 'perf/urgent'
-e2dfa8a0141a62561284833c27a581d4d6ae6e00 Merge branch into tip/master: 'sched/urgent'
-a348e3bf602a5c5854b9ba2d393ee455655e32c1 Merge branch into tip/master: 'timers/urgent'
-adb7b8318d487b8a0b43fd4133ad31be2bb4b4bb Merge branch into tip/master: 'x86/urgent'
-069f3cc594700fb570f157b0ffbeb1d668a9ad5a Merge branch into tip/master: 'core/debugobjects'
-6c3b47c70574540a69d4bdf2b2c7edc8cfab075c Merge branch into tip/master: 'irq/drivers'
-0669b36030c54f360e3d08b54acf0b1f1c50d0a3 Merge branch into tip/master: 'irq/msi'
-513fce8ab914e50aef43cefac1cbc2a04d809a67 Merge branch into tip/master: 'locking/core'
-0d8add5606dbebd24729d94ed401fbab4ef4ad8f Merge branch into tip/master: 'locking/futex'
-ef1c740f3eb9f055b9bc399439550781a80552c8 Merge branch into tip/master: 'sched/core'
-92bf7354d9c5ad9907008787bdfe453a8578298d Merge branch into tip/master: 'timers/core'
-eba90b464622b8355dcb6af80151bd139bd171e5 Merge branch into tip/master: 'x86/tdx'
+4f2308004a3e416dbd5a02eb8db03a2aab3f781b build(deps): bump actions/upload-artifact from 5 to 6
+cbda3c5b71f7dd326714d97d2459c0682a780c11 build(deps): bump actions/cache from 4 to 5
+fe2357732abf6e0f6f2af9900c0c298eff685288 libblkid: fix integer overflow in nvidia_raid size check
+eda846192f80947a4367029261dedb06dc3a6aae libblkid: fix integer overflow in linux_raid checksum size
+e589e409b7fa3ecd6b0baeed7660edbf5f93bb65 libblkid: fix integer overflows in HFS+ offset calculations
+7d1259e35004e53437914363cac9b19a74301e8f dmesg: add bounds checking to parse_kmsg_timestamp()
+3dc8a931e1a197c54cc4d21b10f8009a27e786a5 lib/fileeq: Handle large files on 32 bit correctly
+464d3a3ffe45fcba158b52732b10babc39fcf3e4 Merge branch 'PR/libblkid-superblocks-overflow' of https://github.com/karelzak/util-linux-work
+f9da7fe782729cee73d7b006152ff46db3cc06ec Merge branch 'PR/dmesg-kmsg-timestamp-bounds' of https://github.com/karelzak/util-linux-work
+e2dc9a4b42b45ae6b4e9e5e52290ee71f108217f Merge remote-tracking branch 'github/dependabot/github_actions/actions/cache-5'
+33e6a5e9a556d9fe9d3b66382c5e7e2c4bd5e82b Merge remote-tracking branch 'github/dependabot/github_actions/actions/upload-artifact-6'
 
---===============2142785324695481660==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e1fabda04cb3-adb7b8318d48.txt
-
-cb184dd19154fc486fa3d9e02afe70a97e54e055 fs: init flags_valid before calling vfs_fileattr_get
-9eed043d10f17301c1b5141e16bb98a85a8fd07e writeback: Fix wakeup and logging timeouts for !DETECT_HUNG_TASK
-81f16c9778d730f573d0d565706bb7227e2405f4 statmount: Fix the null-ptr-deref in do_statmount()
-ac83896172798cf82ebc643cf555aa4cdd3a07da iomap: Describe @private in iomap_readahead()
-a41dbf5e004edbe1260883c43a8bd134d9cb0c1c mount: hold namespace_sem across copy in create_new_namespace()
-4a403d7aa9074f527f064ef0806aaab38d14b07c namespace: fix proc mount iteration
-ef0b64741a53e47ce8022c973099e969094aa536 minix: Correct errno in minix_new_inode
-6c4b2243cb6c0755159bd567130d5e12e7b10d9f unshare: fix unshare_fs() handling
-249013e673fce3506c61063c7cbedd75b4c668d8 fsnotify: drop unused helper
-294f54f849d846f4643a67db9b41b63867dc8bfe fserror: fix lockdep complaint when igrabbing inode
-768f4dc4cc318a547303f3ec984e5b366566950b Merge patch series "fserror: bug fixes"
-f6a495484a27150fb85f943e1a7464da88c2a797 proc: Fix pointer error dereference
-03c0d030f5874eec6ce22750b2b8751d6d4303b5 erofs: allow sharing page cache with the same aops only
-eddb98ad9364b4e778768785d46cfab04ce52100 ata: libata-eh: correctly handle deferred qc timeouts
-55db009926634b20955bd8abbee921adbc8d2cb4 ata: libata-core: fix cancellation of a port deferred qc work
-fdcfce93073d990ed4b71752e31ad1c1d6e9d58b eventpoll: Fix integer overflow in ep_loop_check_proc()
-bf4fde7db4a8e2613cba36d81ac271f3d66c28f7 erofs: remove more unnecessary #ifdefs
-4a1ddb0f1c48c2b56f21d8b5200e2e29adf4c1df pidfs: avoid misleading break
-bfbc0b5b32a8f28ce284add619bf226716a59bc0 media: dvb-core: fix wrong reinitialization of ringbuffer on reopen
-4a2d046e4b13202a6301a993961f5b30ae4d7119 erofs: fix interlaced plain identification for encoded extents
-c9bc1753b3cc41d0e01fbca7f035258b5f4db0ae perf: Fix __perf_event_overflow() vs perf_remove_from_context() race
-ab6088e7a95943af3452b20e3b96caaaef3eeebd lib/Kconfig.debug: Require a release version of LLVM 22 for context analysis
-0e335a7745b0a3e0421d6b4fff718c0deeb130ee Merge tag 'vfs-7.0-rc2.fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
-d9d32e5bd5a4e57675f2b70ddf73c3dc5cf44fc2 Merge tag 'ata-7.0-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/libata/linux
-f4d0ec0aa20d49f09dc01d82894ce80d72de0560 Merge tag 'erofs-for-7.0-rc2-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/xiang/erofs
-d36fcc599cfb4d03582abf6bcfc0e7c5db104b12 Merge branch into tip/master: 'irq/urgent'
-935dc42142bfec745662d4ade0985ef3cecdb652 Merge branch into tip/master: 'locking/urgent'
-aa322eb91a579e7f6c9d840d3d0cb148d05e3ade Merge branch into tip/master: 'perf/urgent'
-e2dfa8a0141a62561284833c27a581d4d6ae6e00 Merge branch into tip/master: 'sched/urgent'
-a348e3bf602a5c5854b9ba2d393ee455655e32c1 Merge branch into tip/master: 'timers/urgent'
-adb7b8318d487b8a0b43fd4133ad31be2bb4b4bb Merge branch into tip/master: 'x86/urgent'
-
---===============2142785324695481660==--
+--===============2962559905652805946==--
