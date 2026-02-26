@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Thu, 26 Feb 2026 02:51:34 -0000
-Message-Id: <177207429442.2991658.944422091519304732@gitolite.kernel.org>
+Date: Thu, 26 Feb 2026 02:51:44 -0000
+Message-Id: <177207430480.2991940.4878779784218978154@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/netdev/net
 user: kuba
 changes:
   - ref: refs/heads/main
-    old: 2f61f38a217462411fed950e843b82bc119884cf
-    new: 015fdd8e67d77d6495f535a043175bacf87ab77b
+    old: 015fdd8e67d77d6495f535a043175bacf87ab77b
+    new: 12133a483dfa832241fbbf09321109a0ea8a520e
     log: |
-         015fdd8e67d77d6495f535a043175bacf87ab77b nfc: pn533: properly drop the usb interface reference on disconnect
+         12133a483dfa832241fbbf09321109a0ea8a520e nfc: pn533: properly drop the usb interface reference on disconnect
          
