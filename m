@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
-Date: Thu, 26 Feb 2026 05:10:32 -0000
-Message-Id: <177208263219.3104014.11835846770793598134@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/dinguyen/linux
+Date: Thu, 26 Feb 2026 05:22:36 -0000
+Message-Id: <177208335660.3112265.9465541572982829964@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/xiang/erofs-utils
-user: xiang
+repo: pub/scm/linux/kernel/git/dinguyen/linux
+user: dinguyen
 changes:
-  - ref: refs/heads/experimental
-    old: bdbb5270736ca9b08c027e6d5e65e581ef615c8a
-    new: c5c1f7ebf8142297788725cc878f5d98c764aa4e
+  - ref: refs/heads/socfpga_dts_for_v7.1
+    old: ee0deebb9d5a4e3129b4c433a70cd34db9abbcf6
+    new: ed73039ccc01fb3a0c2f334365cb68cf226c3896
     log: |
-         c5c1f7ebf8142297788725cc878f5d98c764aa4e erofs-utils: fsck: support extracting subtrees
+         ed73039ccc01fb3a0c2f334365cb68cf226c3896 dt-bindings: intel: Add Agilex5 SoCFPGA modular board
          
