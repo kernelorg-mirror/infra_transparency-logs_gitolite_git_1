@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2984073307527541692=="
+Content-Type: multipart/mixed; boundary="===============5339937793176884243=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Thu, 26 Feb 2026 05:29:20 -0000
-Message-Id: <177208376083.3116951.7529921563195625966@gitolite.kernel.org>
+Date: Thu, 26 Feb 2026 05:29:22 -0000
+Message-Id: <177208376223.3117156.17670907289561023866@gitolite.kernel.org>
 
---===============2984073307527541692==
+--===============5339937793176884243==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/mm-new
-    old: e58d52bda6cbebb71e676677287c7c9ddaba05df
-    new: f87ea7499b90d025b8a9d0a111f1058df4d60fbc
-    log: revlist-e58d52bda6cb-f87ea7499b90.txt
+  - ref: refs/heads/mm-unstable
+    old: 957a3fab8811b455420128ea5f41c51fd23eb6c7
+    new: c2607c3ff48e52a3edfe9431675daeb1167c07cd
+    log: revlist-957a3fab8811-c2607c3ff48e.txt
 
---===============2984073307527541692==
+--===============5339937793176884243==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e58d52bda6cb-f87ea7499b90.txt
+Content-Disposition: attachment; filename=revlist-957a3fab8811-c2607c3ff48e.txt
 
 f3d03d5499bfa5265a891164f5c603ee88b440ad mm: allow __GFP_RETRY_MAYFAIL in vmalloc
 814166a273843bfcbffd455983b689e0269be09a mm: memfd_luo: always make all folios uptodate
@@ -137,55 +137,5 @@ ef5327102f809163740ac3f52685222bfa32b49b kho: remove finalize state and clients
 6a543e5d7c8bbdf2410314600d9658d208a32b9e mm: vmscan: add cgroup IDs to vmscan tracepoints
 a236ef8ddb95ef5c21e2cdfea148824b63e2463c mm: vmscan: add PIDs to vmscan tracepoints
 c2607c3ff48e52a3edfe9431675daeb1167c07cd mm/mmu_gather: replace IPI with synchronize_rcu() when batch allocation fails
-8125e7b9292d2a006386f10c7acf4e0a5a7d8aca mm: introduce a new page type for page pool in page type
-da1b3853dac879c50b06c00c4e763cdf68c1f932 mm: Do not allocate shrinker info with cgroup.memory=nokmem
-11e913fe0f95dd7f8869c9e0965cd67852d46de1 mm: introduce vm_mmap_shadow_stack() as a helper for VM_SHADOW_STACK mappings
-61defb9e27f4865c819ebeca9b52b9aaa7601fbf arm64: gcs: use the new common vm_mmap_shadow_stack() helper
-e93d397107eb8b844ba4057a866726622a67eef4 riscv: shstk: use the new common vm_mmap_shadow_stack() helper
-1c6afeca1ff21c1e57c952ec18efc548426de388 x86: shstk: use the new common vm_mmap_shadow_stack() helper
-aa3df08e3ae69a0b2a955ffa2da1b7aa539deb54 mm: do not map the shadow stack as THP
-b36b52d8d27bc306a93a0b2b04ca7bca0017d558 kho: fix deferred init of kho scratch
-418ffd01ba5c7c66991c460981128246fa445438 kho: make preserved pages compatible with deferred struct page init
-39f59d374f5042fc0a687a3fb519aa62bdf09fb0 kfence: add kfence.fault parameter
-33327651c131e3d9fc6b1ee7c88621a262334f53 mm: memcontrol: remove dead code of checking parent memory cgroup
-24a2a96fa959b47fbebdc0f1eec5dfd9b471da23 mm: workingset: use folio_lruvec() in workingset_refault()
-926374d0e3ce9f47ae7ec2b9bb93eb777ecf2a1b mm: rename unlock_page_lruvec_irq and its variants
-5eec06d4e00bf3b084051c7d65d7a25747ff879b mm: vmscan: prepare for the refactoring the move_folios_to_lru()
-9e3122f6ff1f75330a681228e9f2b4d48100f82e mm: vmscan: refactor move_folios_to_lru()
-ff56f1fd9beb37adc95129c2c077b1ac8f0c2c86 mm: memcontrol: allocate object cgroup for non-kmem case
-088c111e914e6730215ff8c5eb688bf2e63bda55 mm: memcontrol: return root object cgroup for root memory cgroup
-b6b30b27719838f4e492b9186f9bb683384f7529 mm: memcontrol: prevent memory cgroup release in get_mem_cgroup_from_folio()
-b72afb22f41d1768cb4d7096eeba6f00bede7135 buffer: prevent memory cgroup release in folio_alloc_buffers()
-062c08a0b2bcc6480d592022758caa81b377b2fa writeback: prevent memory cgroup release in writeback module
-b61161530a8eb21a88db68e2e4837a7366c55be4 mm: memcontrol: prevent memory cgroup release in count_memcg_folio_events()
-39579114eb7c0d3bd37128756387d4391f2852e1 mm: page_io: prevent memory cgroup release in page_io module
-5d7aa35af187bfce53a98a0ee0f312ccbe470830 mm: migrate: prevent memory cgroup release in folio_migrate_mapping()
-cfd8fa90ce5765ca9590663364d8ca8e5b8d0caa mm: mglru: prevent memory cgroup release in mglru
-51944b14205d9a628c881b2e67ccc4541f714cf0 mm: memcontrol: prevent memory cgroup release in mem_cgroup_swap_full()
-985f6b1d9f8315047ce9f9c5296d90286410f3b5 mm: workingset: prevent memory cgroup release in lru_gen_eviction()
-ec767776d405b464276e16a4f75d5f12f4435051 mm: thp: prevent memory cgroup release in folio_split_queue_lock{_irqsave}()
-7c009e0451a61c410b1be186d3aa542b87ed30ff mm: zswap: prevent memory cgroup release in zswap_compress()
-22e6d23c71ba795a6bc705b69235e12c695ad5e8 mm: workingset: prevent lruvec release in workingset_refault()
-7e0bb403e87f5e92aea98e6f67b8af1ade40c042 mm: zswap: prevent lruvec release in zswap_folio_swapin()
-b36847e52810f6d4df9a53bbdd468fe17c850132 mm: swap: prevent lruvec release in lru_gen_clear_refs()
-dd511e65b984655c19e35c2d6cc4edbe7728f047 mm: workingset: prevent lruvec release in workingset_activation()
-76b9fa5c09e1cd257187d979a9c6fc857e520f26 mm: do not open-code lruvec lock
-b0328fa09ec9b97eac0220fd0ba826b4ee8f9e8c mm: memcontrol: prepare for reparenting LRU pages for lruvec lock
-868acb6d8e57e9d99ec6e63834139ed63dcf394f mm: vmscan: prepare for reparenting traditional LRU folios
-697f2483cd96adc8c41ff03cc63688207b35d73b mm: vmscan: prepare for reparenting MGLRU folios
-12e1169a56a922dedbca3f75d2b0edf2b4de8da4 mm: memcontrol: refactor memcg_reparent_objcgs()
-af7321b12be06de7cfb1bca8dafb1f49cc5b97c9 mm: workingset: use lruvec_lru_size() to get the number of lru pages
-a4cbeb895a8212227f1d49dd70ddf599f39ed623 mm: memcontrol: prepare for reparenting non-hierarchical stats
-26efeb4b95c894263e2909fad0bfe55b2bf40623 mm: memcontrol: convert objcg to be per-memcg per-node type
-a42a7ecdb37a371aa15fac238000a58af3d82bc3 mm: memcontrol: eliminate the problem of dying memory cgroup for LRU folios
-e269c8c1d782fd8456db19a435ab653b7f9a7c9c mm: lru: add VM_WARN_ON_ONCE_FOLIO to lru maintenance helpers
-115c0eaa3e36204867f91a9326a3fb1ee08f7eef mm/vmalloc: export clear_vm_uninitialized_flag()
-af603d090d85d8b7bc0261c655276260e7cfbbc1 kho: fix KASAN support for restored vmalloc regions
-2bb36e545f9ce75b4f72798aeaf6fc1ba9e76074 mm: remove stray references to struct pagevec
-4ec371d029a6334ade9a5b99e4d7e5362bee1f84 fs: remove unncessary pagevec.h includes
-c649a1cb337dee07d74cdadd9b4b0cace78252f8 folio_batch: rename pagevec.h to folio_batch.h
-799ffaf2e1d1505a37b71b56c6595346048d47bd folio_batch: rename PAGEVEC_SIZE to FOLIO_BATCH_SIZE
-f072b82afe4b0d1a6894303aa3e086c203d96235 arm64: mm: fix pass user prot to ioremap_prot in generic_access_phys
-f87ea7499b90d025b8a9d0a111f1058df4d60fbc mm/vmscan: avoid false-positive -Wuninitialized warning
 
---===============2984073307527541692==--
+--===============5339937793176884243==--
