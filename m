@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3706732822064463494=="
+Content-Type: multipart/mixed; boundary="===============5031353437759824908=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Thu, 26 Feb 2026 22:40:51 -0000
-Message-Id: <177214565118.4024827.2132105658500682921@gitolite.kernel.org>
+Date: Thu, 26 Feb 2026 22:40:56 -0000
+Message-Id: <177214565681.4025044.4823230103632874862@gitolite.kernel.org>
 
---===============3706732822064463494==
+--===============5031353437759824908==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/10GbE
+  - ref: refs/heads/40GbE
     old: 2f61f38a217462411fed950e843b82bc119884cf
     new: b9c8fc2caea6ff7e45c6942de8fee53515c66b34
     log: revlist-2f61f38a2174-b9c8fc2caea6.txt
 
---===============3706732822064463494==
+--===============5031353437759824908==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -785,4 +785,4 @@ f0a2f2aadbef0d44e6df7b43a32b509fbbf39349 Merge branch 'vsock-add-write-once-sema
 baed0d9ba91d4f390da12d5039128ee897253d60 netfilter: nf_conntrack_h323: fix OOB read in decode_choice()
 b9c8fc2caea6ff7e45c6942de8fee53515c66b34 Merge tag 'net-7.0-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 
---===============3706732822064463494==--
+--===============5031353437759824908==--
