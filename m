@@ -1,31 +1,33 @@
-Content-Type: multipart/mixed; boundary="===============3980507387034574097=="
+Content-Type: multipart/mixed; boundary="===============7302283102644829620=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jfern/linux
-Date: Thu, 26 Feb 2026 04:40:47 -0000
-Message-Id: <177208084767.3079694.10730664906195760494@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rcu/linux
+Date: Thu, 26 Feb 2026 04:41:37 -0000
+Message-Id: <177208089778.3080182.2290394499809165836@gitolite.kernel.org>
 
---===============3980507387034574097==
+--===============7302283102644829620==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jfern/linux
+repo: pub/scm/linux/kernel/git/rcu/linux
 user: jfern
 changes:
   - ref: refs/heads/rcu/next
-    old: 21ccb62bb414d30459a33560a9cdce336fae9507
-    new: 0007a426ae574292a2cadd0a79ce003f85fdea93
-    log: revlist-21ccb62bb414-0007a426ae57.txt
+    old: 0e9b1d2b05601ee54f26a3f562450db708707e85
+    new: ead1cbc92511c5c48121746a815c70374e3fe4a2
+    log: revlist-0e9b1d2b0560-ead1cbc92511.txt
 
---===============3980507387034574097==
+--===============7302283102644829620==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-21ccb62bb414-0007a426ae57.txt
+Content-Disposition: attachment; filename=revlist-0e9b1d2b0560-ead1cbc92511.txt
 
+2ad4e71ec9058db9c123ee399d1e94e07fb3460b staging: rtl8723bs: simplify boolean expressions
+791af501f51c7d7e1a364fb52f38647aac400e9a staging: rtl8723bs: align and split variable declarations
 232046c209666acc56a872d47804c14f308356f9 staging: rtl8723bs: remove unnecessary boolean comparison
 260ef0a2ed41c8625d3d715ca660a3cbfc02444b staging: rtl8723bs: rename camelCase variable
 b38a0d2f24d72aec1a5dfe51e1c05c83b8068fa2 staging: rtl8723bs: Rename camel case enumeration
@@ -1048,7 +1050,5 @@ ace7fc4cc5cfd311dd7d82e72015975d8a42cea2 srcu: Fix s/they disables/they disable/
 9e1ec5dd544aaaf86574949ef531441e3da83b54 rcutorture: Add NOCB01 config for RCU_LAZY torture testing
 f0b49745ca234e8002177cc1cf8bb0156b12e9a2 rcutorture: Add NOCB02 config for nocb poll mode testing
 ead1cbc92511c5c48121746a815c70374e3fe4a2 rcu-tasks: Remove unnecessary smp_store_release() in cblist_init_generic()
-656009bcf69c5f50fd70370c6e9b6ac1fb574f97 rcu/nocb: Consolidate rcu_nocb_cpu_offload/deoffload functions
-0007a426ae574292a2cadd0a79ce003f85fdea93 rcu/nocb: Extract nocb_bypass_needs_flush() to reduce duplication
 
---===============3980507387034574097==--
+--===============7302283102644829620==--
