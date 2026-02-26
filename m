@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1264995194420372194=="
+Content-Type: multipart/mixed; boundary="===============2142785324695481660=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Thu, 26 Feb 2026 09:01:34 -0000
-Message-Id: <177209649499.3288437.2070831379665876000@gitolite.kernel.org>
+Date: Thu, 26 Feb 2026 09:01:51 -0000
+Message-Id: <177209651198.3288793.18382639327878294175@gitolite.kernel.org>
 
---===============1264995194420372194==
+--===============2142785324695481660==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,15 +16,40 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: b4008c39fb1d523c45fb8eef0f01467f32095ff5
-    new: ae8518c0cc2eb2296d63cde3586dd47200070957
-    log: revlist-b4008c39fb1d-ae8518c0cc2e.txt
+    old: ae8518c0cc2eb2296d63cde3586dd47200070957
+    new: eba90b464622b8355dcb6af80151bd139bd171e5
+    log: revlist-ae8518c0cc2e-eba90b464622.txt
+  - ref: refs/heads/tip/urgent
+    old: e1fabda04cb321bf5341abf92cb4936fe721b503
+    new: adb7b8318d487b8a0b43fd4133ad31be2bb4b4bb
+    log: revlist-e1fabda04cb3-adb7b8318d48.txt
 
---===============1264995194420372194==
+--===============2142785324695481660==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b4008c39fb1d-ae8518c0cc2e.txt
+Content-Disposition: attachment; filename=revlist-ae8518c0cc2e-eba90b464622.txt
+
+d36fcc599cfb4d03582abf6bcfc0e7c5db104b12 Merge branch into tip/master: 'irq/urgent'
+935dc42142bfec745662d4ade0985ef3cecdb652 Merge branch into tip/master: 'locking/urgent'
+aa322eb91a579e7f6c9d840d3d0cb148d05e3ade Merge branch into tip/master: 'perf/urgent'
+e2dfa8a0141a62561284833c27a581d4d6ae6e00 Merge branch into tip/master: 'sched/urgent'
+a348e3bf602a5c5854b9ba2d393ee455655e32c1 Merge branch into tip/master: 'timers/urgent'
+adb7b8318d487b8a0b43fd4133ad31be2bb4b4bb Merge branch into tip/master: 'x86/urgent'
+069f3cc594700fb570f157b0ffbeb1d668a9ad5a Merge branch into tip/master: 'core/debugobjects'
+6c3b47c70574540a69d4bdf2b2c7edc8cfab075c Merge branch into tip/master: 'irq/drivers'
+0669b36030c54f360e3d08b54acf0b1f1c50d0a3 Merge branch into tip/master: 'irq/msi'
+513fce8ab914e50aef43cefac1cbc2a04d809a67 Merge branch into tip/master: 'locking/core'
+0d8add5606dbebd24729d94ed401fbab4ef4ad8f Merge branch into tip/master: 'locking/futex'
+ef1c740f3eb9f055b9bc399439550781a80552c8 Merge branch into tip/master: 'sched/core'
+92bf7354d9c5ad9907008787bdfe453a8578298d Merge branch into tip/master: 'timers/core'
+eba90b464622b8355dcb6af80151bd139bd171e5 Merge branch into tip/master: 'x86/tdx'
+
+--===============2142785324695481660==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-e1fabda04cb3-adb7b8318d48.txt
 
 cb184dd19154fc486fa3d9e02afe70a97e54e055 fs: init flags_valid before calling vfs_fileattr_get
 9eed043d10f17301c1b5141e16bb98a85a8fd07e writeback: Fix wakeup and logging timeouts for !DETECT_HUNG_TASK
@@ -46,9 +71,16 @@ bf4fde7db4a8e2613cba36d81ac271f3d66c28f7 erofs: remove more unnecessary #ifdefs
 4a1ddb0f1c48c2b56f21d8b5200e2e29adf4c1df pidfs: avoid misleading break
 bfbc0b5b32a8f28ce284add619bf226716a59bc0 media: dvb-core: fix wrong reinitialization of ringbuffer on reopen
 4a2d046e4b13202a6301a993961f5b30ae4d7119 erofs: fix interlaced plain identification for encoded extents
+c9bc1753b3cc41d0e01fbca7f035258b5f4db0ae perf: Fix __perf_event_overflow() vs perf_remove_from_context() race
+ab6088e7a95943af3452b20e3b96caaaef3eeebd lib/Kconfig.debug: Require a release version of LLVM 22 for context analysis
 0e335a7745b0a3e0421d6b4fff718c0deeb130ee Merge tag 'vfs-7.0-rc2.fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
 d9d32e5bd5a4e57675f2b70ddf73c3dc5cf44fc2 Merge tag 'ata-7.0-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/libata/linux
 f4d0ec0aa20d49f09dc01d82894ce80d72de0560 Merge tag 'erofs-for-7.0-rc2-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/xiang/erofs
-ae8518c0cc2eb2296d63cde3586dd47200070957 Merge branch 'linus'
+d36fcc599cfb4d03582abf6bcfc0e7c5db104b12 Merge branch into tip/master: 'irq/urgent'
+935dc42142bfec745662d4ade0985ef3cecdb652 Merge branch into tip/master: 'locking/urgent'
+aa322eb91a579e7f6c9d840d3d0cb148d05e3ade Merge branch into tip/master: 'perf/urgent'
+e2dfa8a0141a62561284833c27a581d4d6ae6e00 Merge branch into tip/master: 'sched/urgent'
+a348e3bf602a5c5854b9ba2d393ee455655e32c1 Merge branch into tip/master: 'timers/urgent'
+adb7b8318d487b8a0b43fd4133ad31be2bb4b4bb Merge branch into tip/master: 'x86/urgent'
 
---===============1264995194420372194==--
+--===============2142785324695481660==--
