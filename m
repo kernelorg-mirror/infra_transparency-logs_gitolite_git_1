@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kbuild/linux
-Date: Thu, 26 Feb 2026 21:51:32 -0000
-Message-Id: <177214269267.3927546.12073367785921914057@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
+Date: Thu, 26 Feb 2026 21:58:17 -0000
+Message-Id: <177214309772.3932040.7810175674987276644@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kbuild/linux
-user: nathan
+repo: pub/scm/linux/kernel/git/akpm/25-new
+user: akpm
 changes:
-  - ref: refs/heads/kbuild-fixes-for-next
-    old: 116e9262500008b03ec86c4ca64382bf384be3d0
-    new: 153d29932f0b4c39c1ff950e097b9fd8a5af1a98
+  - ref: refs/heads/master
+    old: 9741804c225d54f419966491679216eb22e12a09
+    new: 6ec2b22bde3602b863c278bd09e06d11cad3bcbc
     log: |
-         153d29932f0b4c39c1ff950e097b9fd8a5af1a98 kbuild: install-extmod-build: Package resolve_btfids if necessary
+         6ec2b22bde3602b863c278bd09e06d11cad3bcbc foo
          
