@@ -1,20 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kbuild/linux
-Date: Thu, 26 Feb 2026 18:54:32 -0000
-Message-Id: <177213207295.3780704.18264170148614847587@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
+Date: Thu, 26 Feb 2026 18:54:52 -0000
+Message-Id: <177213209240.3780959.11547505547370242298@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kbuild/linux
-user: nathan
+repo: pub/scm/linux/kernel/git/perf/perf-tools-next
+user: namhyung
 changes:
-  - ref: refs/heads/kbuild-fixes-for-next
-    old: e4a1c29011f13146bc4bdde4a660838fee628606
-    new: 116e9262500008b03ec86c4ca64382bf384be3d0
+  - ref: refs/heads/tmp.perf-tools-next
+    old: 0feca0b788567debbaec6a9a329f5bee1b15c705
+    new: c1f70c83be55e6721267f850dbfaf2ae07a04858
     log: |
-         8678591b47469fe16357234efef9b260317b8be4 kbuild: Split .modinfo out from ELF_DETAILS
-         116e9262500008b03ec86c4ca64382bf384be3d0 genksyms: Fix parsing a declarator with a preceding attribute
+         96f202eab8133f94479b14a32902c636e9bdf6af perf trace: Fix IS_ERR() vs NULL check bug
+         af894feb32570cafea582b100d674b042479544f perf trace: Handle task exit in BPF syscall summary
+         c1f70c83be55e6721267f850dbfaf2ae07a04858 perf bench: Add -t/--threads option to perf bench mem mmap
          
