@@ -1,23 +1,51 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/linkinjeon/ntfs
-Date: Thu, 26 Feb 2026 09:26:33 -0000
-Message-Id: <177209799360.3307782.12085404037314630713@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============0857740736543043396=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vbabka/slab
+Date: Thu, 26 Feb 2026 09:29:03 -0000
+Message-Id: <177209814305.3308575.8438703589602478515@gitolite.kernel.org>
+
+--===============0857740736543043396==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/linkinjeon/ntfs
-user: linkinjeon
+repo: pub/scm/linux/kernel/git/vbabka/slab
+user: vbabka
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/ntfs-next
-    old: 2dec6931ee04cab66658a50f6dbe5dd5a2cf4de2
-    new: 7c76484fbb222e82f1db34009eb441d08db0a158
+  - ref: refs/heads/slab/for-next-fixes
+    old: 7d6d766ec8fa1f4c43affbc137658333236c216e
+    new: 1ab6cffed0ef1d37c9627c68c43bd567a9f86ef1
     log: |
-         40c31f0563ec10e5b112be35e2e003f8ce4afe98 ntfs: Fix null pointer dereference
-         1dbe39666bf33f0713012dc3c0ecb559a1b5c36a ntfs: Remove unneeded semicolon
-         9b4253cd63ac00f6944fa0ac58d981c21859db3b ntfs: repair docum. malformed table
-         ec8676c84f665257f4bf9349d4c12c05e09e31b3 ntfs: Replace ERR_PTR(0) with NULL
-         7c76484fbb222e82f1db34009eb441d08db0a158 ntfs: Remove impossible condition
+         1ab6cffed0ef1d37c9627c68c43bd567a9f86ef1 mm/slab: mark alloc tags empty for sheaves allocated with __GFP_NO_OBJ_EXT
          
+
+--===============0857740736543043396==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher A940D434992C2E8E99103D50224FA7E7CC82A664 1772098138 +0100
+pushee gitolite.kernel.org:pub/scm/linux/kernel/git/vbabka/slab.git
+nonce 1772098138-1d17910cc68560fbdb36dc1c6371a538ba71fbda
+
+7d6d766ec8fa1f4c43affbc137658333236c216e 1ab6cffed0ef1d37c9627c68c43bd567a9f86ef1 refs/heads/slab/for-next-fixes
+-----BEGIN PGP SIGNATURE-----
+
+iQFPBAABCAA5FiEEe7vIQRWZI0iWSE3xu+CwddJFiJoFAmmgElobFIAAAAAABAAO
+bWFudTIsMi41KzEuMTEsMiwyAAoJELvgsHXSRYiax3wH/j4e3lxVYZ3txg/S2zIS
+QbTvoMMIzEba6KAQ2DkYyOgEUQOmywu4rJWR49OIuhWob19LCgIugN60IGdF34cN
+URc+E9ERRPzuNemyT6m1fvRFdJDp3g+TgT5R9cWNKO/ePSDYY3Wq2weTTzudn+1Z
+LOUjTMydpvJoPhmw50L1wyaI0pmAlWaiIRtknXFwF4yqCuZhevgkvFrnHMfAfHlG
+GXWLzwBgbZ8QTzekg7MNQbE90YdjCW2J3lCPFPuq4F5SVX7o9jbVmC0wXOJS3UtF
+a3y6mBUrkJeT8IE4V8kxjQgkqlFNhpbC2QCDcWwPgtGJXpjSOdQPCEp66M+jqjeH
+2m4=
+=kr0C
+-----END PGP SIGNATURE-----
+
+--===============0857740736543043396==--
