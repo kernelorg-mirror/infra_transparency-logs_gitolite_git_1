@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1399685354813655255=="
+Content-Type: multipart/mixed; boundary="===============8219443130804786944=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Fri, 27 Feb 2026 05:37:11 -0000
-Message-Id: <177217063162.227528.5750761026380768481@gitolite.kernel.org>
+Date: Fri, 27 Feb 2026 05:41:56 -0000
+Message-Id: <177217091601.231754.10373309468555789011@gitolite.kernel.org>
 
---===============1399685354813655255==
+--===============8219443130804786944==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,42 +17,42 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/char-misc-testing
-    old: 6de23f81a5e08be8fbf5e8d7e9febc72a5b5f27f
-    new: d31ed22a0678da8948439c3009b01c4806a677c9
+    old: d31ed22a0678da8948439c3009b01c4806a677c9
+    new: 34268365a9e9424e38083c8f318cc34b153dcb07
     log: |
-         f3e0b76fc29c4e1ee542f5173a4a631803e69436 rust_binder: avoid name mangling for get_work[_local]
-         65b6721522892a4994472fbac41386c63c769511 binder: use current_euid() for transaction sender identity
-         d31ed22a0678da8948439c3009b01c4806a677c9 rust_binder: use current_euid() for transaction sender identity
+         47ac2a4b5cd8f0cb826f6368c2fc0eeb97e5d55f rust: kvec: implement shrink_to for KVVec
+         fbfc0d615368ddf71899dbea2205e741c79b23e8 rust: alloc: add KUnit tests for KVVec shrink_to
+         34268365a9e9424e38083c8f318cc34b153dcb07 rust_binder: shrink all_procs when deregistering processes
          
 
---===============1399685354813655255==
+--===============8219443130804786944==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1772170621 -0800
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1772170906 -0800
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1772170629-c807c6ec4b69733fbb0d86747f7e6a678dfcf932
+nonce 1772170913-d16974a43eb38b888c05fa0447ffd5785025fbed
 
-6de23f81a5e08be8fbf5e8d7e9febc72a5b5f27f d31ed22a0678da8948439c3009b01c4806a677c9 refs/heads/char-misc-testing
+d31ed22a0678da8948439c3009b01c4806a677c9 34268365a9e9424e38083c8f318cc34b153dcb07 refs/heads/char-misc-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmmhLX0bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+AvMP/j06w+DE8131t1wJcfmM
-D2uH56do3t4UrupInkz1w/odJBnXKTzDzPsUlVK3kwsefGt2c1b0EpMNyVSpyps5
-VksbD7NDGt197dFvMKXCG0bDsJ3enyEOBOa6DuqIg5o7vcOjvVBcCBJD+p/zLBoP
-Ulnnt8otrRqmcl46yr0SASwDa7VJx81b0z/tRIk4j/SmbkWzhAZtYit43HrVMw6x
-bjCQaDtD3pRAtgyrrIPB3FtINNDCXR2BX3t8PmOTf+xH4JvpY+2OEbG/sGqgsZO1
-sss85b08ibdPHPnVBFD4BadqZlm6ACkuA7UnGkOXVzzNvg8R9tpvf0HDY6Vrqohc
-fEjk/JGu8r/EoOhQiErFMrm4bP+uWqbszqr5qnSOHxvmQlohSEbad2tLjWL0vn7F
-PWGUdh4znPTos07r/gEAAnv3+SDkx8dIwlJGXpjceFceK+ZZJUC023Y/n57b20bl
-JdqumSXgcHn9facEwJIVvua1Wl7jhTGZ3QM2NxwaEcmue8RGAGZMrXco3cG87jZf
-+UTii0ogV08KSoAvncxp4BE8kIJwHOJ3hzLixy7h0ymli0iIWKywRhkjSeP1KS+3
-mNDQIWalSFSAwXSa1fURTSBdBFoXoi9OSASWWQ7OzOYwqQqtcC0CgBAIabyijqBn
-TvNWAncAoyJHa7N4nK68gPgh
-=v42I
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmmhLpobHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+dOoQAJwBgp1LodNRMklIKZ2Z
+rZeBjLD1mhJJb0GdwEvHTeuswlq0RVRl6W8bSDck/Bp3ajgs1NLNQXfaxsAaOnpN
+pfkVuYc9zryT2hVzFv+6MNgkmNofTuDyOtwx6tcKB8AxbNPCKJCGV2XmQJ2+Hs1t
+zS9XKruXoT0b23Wa/diFzdAxdJX158tQnqW+hUN8xRA1BsHd1JXJinbABFNNxTuv
+dvCHV5Mr1CgFhaSyjSvbpHTx6I+8F0VsJljtVdsvWP9zBZFkViXUvDNRSLUf0vPw
+FjCSa0mqQD5053otQ5Tawxs+KDpYFB0B61aPqQJcN9g8Rwepl9a+hqqiDUqs2rF1
+lB3OGP5M5doq/uoK6ZUs7bDxW9Pnc6DJMKlNAbt0pbBgNTMPTbp9ZgqEToFg4Is/
+l6hFkuDZTZ8YiutV4l0DlbqBREtz3OjArn+1+FGS5LvwrIWv1kqFh7MHoPHoUI99
+cZz64Bu9Ak3yKmtQxLdLrhn9N0l9NaMwDjI7ET5L16NuyLPzyLzZzgeD67o2bRXr
+TCYN/3R97YSmyfY6+tdrPyJLcavCBFwaNxj6UhwRkXS4vAZE1R7kr0L164lOhhnW
+HZ2WHUlodEVn+T8EebzcCbFbtMVTJiwHLAIHdEskpqcBFXGJtDjY2WcX3xZfG2ow
+Y94O9jUVjYvtZ7/D08YZNTHx
+=hOAr
 -----END PGP SIGNATURE-----
 
---===============1399685354813655255==--
+--===============8219443130804786944==--
