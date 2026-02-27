@@ -1,41 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============2510883573620287516=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
-Date: Fri, 27 Feb 2026 09:11:09 -0000
-Message-Id: <177218346983.396552.8572931573018489738@gitolite.kernel.org>
-
---===============2510883573620287516==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/fdmanana/linux
+Date: Fri, 27 Feb 2026 09:24:00 -0000
+Message-Id: <177218424003.404828.1967918253537434187@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/brgl/linux
-user: brgl
+repo: pub/scm/linux/kernel/git/fdmanana/linux
+user: fdmanana
 changes:
-  - ref: refs/heads/gpio/for-next
-    old: e8fc8588d06cf46cd7df622886e5a4be57442b65
-    new: c7f92042d3f3d4f084794f5314fa10366084179c
-    log: revlist-e8fc8588d06c-c7f92042d3f3.txt
-
---===============2510883573620287516==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e8fc8588d06c-c7f92042d3f3.txt
-
-b2d51bc1601c762c63f19c119589a0a0c44bc8ec gpio: generic: Don't use 'proxy' headers
-fa4a3a95139e7293c1333a33bd7b19e7261e3bd0 gpio: introduce a header for symbols shared by suppliers and consumers
-eb58f2b9bb0909ebce64e1a90b21b5cc2c9f17df gpiolib: match secondary fwnode too in gpio_device_find_by_fwnode()
-16fdabe143fce2cbf89139677728e17e21b46c28 gpio: Fix resource leaks on errors in gpiochip_add_data_with_key()
-b08b3f16bbf3330d7c764d019564ebff0b68e390 Merge branch 'gpio/dev-init-rework' into gpio/for-next
-cc11f4ef666fbca02c8a2f11d0184d57e6b75579 gpio: Access `gpio_bus_type` in gpiochip_setup_dev()
-049f71131734c47a6aaca2472273aef2cd17a6d8 gpio: Remove redundant check for struct gpio_chip
-395b8e555dfcbab6b28f360e39bd048b2f3e362b gpio: sysfs: Remove redundant check for struct gpio_chip
-cf674f1a0c9893ee1acef832679562007a94250a gpio: Ensure struct gpio_chip for gpiochip_setup_dev()
-ee68f18d1f0d943d93070eb8cb05598b8b7f0922 gpio: cdev: Don't check struct gpio_chip in gpio_chrdev_open()
-c7f92042d3f3d4f084794f5314fa10366084179c selftests: gpio: Add gpio-cdev-uaf tests
-
---===============2510883573620287516==--
+  - ref: refs/heads/for-next
+    old: a8586298cdcc4ddddf12b61a21891d2e3ebdac52
+    new: 707f9bf997d8dc54e4883d5f4f5474a6cdbfb814
+    log: |
+         150993bd428f83d76db97b8d07fb67908498fb18 btrfs: fix transaction abort on file creation due to name hash collision
+         143d050df2599d0d950432c5b96e2b75b5d37317 btrfs: fix transaction abort when snapshotting received subvolumes
+         d5dd557751947cfa0385e8bc487143c49411c387 btrfs: stop checking for -EEXIST return value from btrfs_uuid_tree_add()
+         a375b204687a16c8eccd46bf91cb618d34429d2e btrfs: remove duplicated uuid tree existence check in btrfs_uuid_tree_add()
+         ade03490c273e8ffb2149ef7fa12a2c7e3536ce9 btrfs: remove pointless error check in btrfs_check_dir_item_collision()
+         d226569d11d5daf1def1177f9ef31c251bc0fc24 btrfs: fix transaction abort on set received ioctl due to item overflow
+         acb7312f8678cdd194abc5178d3ebeec89701b64 btrfs: abort transaction on failure to update root in the received subvol ioctl
+         707f9bf997d8dc54e4883d5f4f5474a6cdbfb814 btrfs: remove unnecessary transaction abort in the received subvol ioctl
+         
