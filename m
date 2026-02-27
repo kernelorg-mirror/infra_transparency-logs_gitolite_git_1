@@ -1,21 +1,27 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/zohar/linux-integrity
-Date: Fri, 27 Feb 2026 18:19:22 -0000
-Message-Id: <177221636298.827523.2642366466787930978@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tj/wq
+Date: Fri, 27 Feb 2026 18:22:24 -0000
+Message-Id: <177221654492.831236.17567702790470837623@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/zohar/linux-integrity
-user: zohar
+repo: pub/scm/linux/kernel/git/tj/wq
+user: tj
 changes:
-  - ref: refs/heads/next-integrity
-    old: 397f9c2d778d3394e20143b9f47fa39838ae3bea
-    new: ebe576adc4989904ccdbfeab7893c1889b06b119
+  - ref: refs/heads/for-7.1
+    old: 4a91a33f15c634fb3477d122bdf1eef098d77ee3
+    new: 0bd96853ba723bc3b174e0158a4499758e3296aa
     log: |
-         437aa81f8046e0c3bf28422b9f7d32bf68c54785 ima: efi: Drop unnecessary check for CONFIG_MODULE_SIG/CONFIG_KEXEC_SIG
-         96b0bfb9e45568bb176902d585e7a6425c54fb91 powerpc/ima: Drop unnecessary check for CONFIG_MODULE_SIG
-         ebe576adc4989904ccdbfeab7893c1889b06b119 ima: Define and use a digest_size field in the ima_algo_desc structure
+         a4aa8d94f24317338cf6f62eb3267ad99a2ff7f7 workqueue: Allow to expose ordered workqueues via sysfs
+         0bd96853ba723bc3b174e0158a4499758e3296aa efi: Allow to expose the workqueue via sysfs
+         
+  - ref: refs/heads/for-next
+    old: 4a91a33f15c634fb3477d122bdf1eef098d77ee3
+    new: 0bd96853ba723bc3b174e0158a4499758e3296aa
+    log: |
+         a4aa8d94f24317338cf6f62eb3267ad99a2ff7f7 workqueue: Allow to expose ordered workqueues via sysfs
+         0bd96853ba723bc3b174e0158a4499758e3296aa efi: Allow to expose the workqueue via sysfs
          
