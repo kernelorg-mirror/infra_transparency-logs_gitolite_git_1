@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5305959524542056437=="
+Content-Type: multipart/mixed; boundary="===============1399685354813655255=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Fri, 27 Feb 2026 05:34:55 -0000
-Message-Id: <177217049544.223539.13547844677329640562@gitolite.kernel.org>
+Date: Fri, 27 Feb 2026 05:37:11 -0000
+Message-Id: <177217063162.227528.5750761026380768481@gitolite.kernel.org>
 
---===============5305959524542056437==
+--===============1399685354813655255==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,41 +16,43 @@ repo: pub/scm/linux/kernel/git/gregkh/char-misc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/char-misc-linus
-    old: 2e303f0febb65a434040774b793ba8356698802b
-    new: a0b9b0f1433c845bda708753db32befef78e0f1f
+  - ref: refs/heads/char-misc-testing
+    old: 6de23f81a5e08be8fbf5e8d7e9febc72a5b5f27f
+    new: d31ed22a0678da8948439c3009b01c4806a677c9
     log: |
-         a0b9b0f1433c845bda708753db32befef78e0f1f rust_binder: use lock_vma_under_rcu() in use_page_slow()
+         f3e0b76fc29c4e1ee542f5173a4a631803e69436 rust_binder: avoid name mangling for get_work[_local]
+         65b6721522892a4994472fbac41386c63c769511 binder: use current_euid() for transaction sender identity
+         d31ed22a0678da8948439c3009b01c4806a677c9 rust_binder: use current_euid() for transaction sender identity
          
 
---===============5305959524542056437==
+--===============1399685354813655255==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1772170485 -0800
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1772170621 -0800
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1772170492-f82f8286c47e44c2b6db1dea1c974c444ce63048
+nonce 1772170629-c807c6ec4b69733fbb0d86747f7e6a678dfcf932
 
-2e303f0febb65a434040774b793ba8356698802b a0b9b0f1433c845bda708753db32befef78e0f1f refs/heads/char-misc-linus
+6de23f81a5e08be8fbf5e8d7e9febc72a5b5f27f d31ed22a0678da8948439c3009b01c4806a677c9 refs/heads/char-misc-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmmhLPUbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+GGkP/AhZRgQOvzFzQhtopXYO
-/DhD0ZTg+dMk+UWk7Ks/hinMAaNcwnBlK5ugpBJxh2V+tKaenN8JnJSyQO/GF1KQ
-xxjwmv7MRo6MkKmvdad3KGD0d3TIC1Ifxie1Rrre7GJa7Jqbb9HzqBOxVTS2DwoU
-z+wAOR41vAuKfX3IU/FKl5Vy6zp/S41hhixS/mIqkxgt9op0I25w3da2D5OcZJqD
-RM8J5Vi/B8OAVDycX+rEQlN0SZMFdO3glZBkp7NheRYgZGdnAjlMIiSCypaMOdri
-V6HO2cJ8dUs2eq7zmWfu0VtFvFLhh6TzCKahz5yGIYDTvwY+A+gdeKAwlCeGK/3N
-+TmremKiR8jgpvIh+cwcsSMrKAjA6aBbwNzMBg10spVj6etsPG5fZUn0dZ8kTvmF
-sXJZFQ+fTVAXNU/gyuIiYtC/8suNO6nHIPLU0LPHtkJ2gKszHjYkRoAgF0rYQGgt
-zJXYNPa0byKw9upPeCTiNdMdh97GKGeTRyEivvpCzl9y8ypSEZUJqxiErh710I+C
-Tk3tk7QfOh11efe6uv//IoJXQf7lkGw1jC+kwR891q/raalhq6k/zUKmSt63HhKZ
-P8jdGS4P+9I3AIrWqtCspdVQIe9GGZzoB98D5cC3b6iIy6sfBaMyaM8QMc32qUpN
-hNCYoVNAfmCL/X68ulcOb8QW
-=c/Sh
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmmhLX0bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+AvMP/j06w+DE8131t1wJcfmM
+D2uH56do3t4UrupInkz1w/odJBnXKTzDzPsUlVK3kwsefGt2c1b0EpMNyVSpyps5
+VksbD7NDGt197dFvMKXCG0bDsJ3enyEOBOa6DuqIg5o7vcOjvVBcCBJD+p/zLBoP
+Ulnnt8otrRqmcl46yr0SASwDa7VJx81b0z/tRIk4j/SmbkWzhAZtYit43HrVMw6x
+bjCQaDtD3pRAtgyrrIPB3FtINNDCXR2BX3t8PmOTf+xH4JvpY+2OEbG/sGqgsZO1
+sss85b08ibdPHPnVBFD4BadqZlm6ACkuA7UnGkOXVzzNvg8R9tpvf0HDY6Vrqohc
+fEjk/JGu8r/EoOhQiErFMrm4bP+uWqbszqr5qnSOHxvmQlohSEbad2tLjWL0vn7F
+PWGUdh4znPTos07r/gEAAnv3+SDkx8dIwlJGXpjceFceK+ZZJUC023Y/n57b20bl
+JdqumSXgcHn9facEwJIVvua1Wl7jhTGZ3QM2NxwaEcmue8RGAGZMrXco3cG87jZf
++UTii0ogV08KSoAvncxp4BE8kIJwHOJ3hzLixy7h0ymli0iIWKywRhkjSeP1KS+3
+mNDQIWalSFSAwXSa1fURTSBdBFoXoi9OSASWWQ7OzOYwqQqtcC0CgBAIabyijqBn
+TvNWAncAoyJHa7N4nK68gPgh
+=v42I
 -----END PGP SIGNATURE-----
 
---===============5305959524542056437==--
+--===============1399685354813655255==--
