@@ -1,27 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/robh/linux
-Date: Fri, 27 Feb 2026 23:50:22 -0000
-Message-Id: <177223622222.1195938.13270056514214605001@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
+Date: Fri, 27 Feb 2026 23:53:06 -0000
+Message-Id: <177223638641.1196933.16518998542816147968@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/robh/linux
-user: robh
+repo: pub/scm/linux/kernel/git/ath/ath
+user: jjohnson
 changes:
-  - ref: refs/heads/dt/next
-    old: be4b91d9aae51cfbc1d80f899c0f8aad081fc711
-    new: 60477d78971342c476e221b643e56ed0dce8e888
+  - ref: refs/heads/main-pending
+    old: 68d1e1d5afb2dc41e392d2c88aa81aec280ade73
+    new: 4b0ddc08b60420526da9ce1a0ab8f086a6373f58
     log: |
-         28f060c4b0667a7fbed9818ef19b6974d53ad708 of: fix incorrect device creation for reserved memory nodes
-         60477d78971342c476e221b643e56ed0dce8e888 of: property: fix typo in kernel-doc return description
+         431ccf02239d93330a0571121f4dc36e30894b5d wifi: ath12k: Set up MLO after SSR
+         4b0ddc08b60420526da9ce1a0ab8f086a6373f58 Merge branch 'pending' into main-pending
          
-  - ref: refs/heads/for-next
-    old: be4b91d9aae51cfbc1d80f899c0f8aad081fc711
-    new: 60477d78971342c476e221b643e56ed0dce8e888
-    log: |
-         28f060c4b0667a7fbed9818ef19b6974d53ad708 of: fix incorrect device creation for reserved memory nodes
-         60477d78971342c476e221b643e56ed0dce8e888 of: property: fix typo in kernel-doc return description
-         
+  - ref: refs/tags/ath-pending-202602272342
+    old: 0000000000000000000000000000000000000000
+    new: 4b0ddc08b60420526da9ce1a0ab8f086a6373f58
