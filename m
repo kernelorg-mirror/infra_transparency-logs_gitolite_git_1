@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ulfh/linux-pm
-Date: Fri, 27 Feb 2026 17:11:23 -0000
-Message-Id: <177221228313.776001.8676955869374443012@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
+Date: Fri, 27 Feb 2026 17:49:19 -0000
+Message-Id: <177221455979.803178.2881077262649849801@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ulfh/linux-pm
-user: ulfh
+repo: pub/scm/linux/kernel/git/pci/pci
+user: helgaas
 changes:
-  - ref: refs/heads/next
-    old: 7ad7f43e568b8601586657ff9024fb4f30de7d36
-    new: d6b68670baf5eeead26b64f74a149ced339f871c
+  - ref: refs/heads/ptm
+    old: 4bd6ca14dab60334b2dbfb6b157bd3dc85bb3ad2
+    new: e1092d5e15e6a9b168bf830af9a26d7ea17cd57d
     log: |
-         550bae2c0931dbb664a61b08c21cf156f0a5362a pmdomain: bcm: bcm2835-power: Fix broken reset status read
-         d6b68670baf5eeead26b64f74a149ced339f871c pmdomain: Merge branch fixes into next
+         e1092d5e15e6a9b168bf830af9a26d7ea17cd57d PCI/PTM: Do not enable PTM automatically for Root and Switch Upstream Ports
          
