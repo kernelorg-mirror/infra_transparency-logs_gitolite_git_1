@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kbuild/linux
-Date: Fri, 27 Feb 2026 08:30:35 -0000
-Message-Id: <177218103525.365226.9930354609848343516@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
+Date: Fri, 27 Feb 2026 08:46:55 -0000
+Message-Id: <177218201590.376919.14089247418279027885@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kbuild/linux
-user: nsc
+repo: pub/scm/linux/kernel/git/brgl/linux
+user: brgl
 changes:
-  - ref: refs/heads/kbuild-for-next
-    old: 6de23f81a5e08be8fbf5e8d7e9febc72a5b5f27f
-    new: 102d712ded3ef2ee5b38ee6afa686aff63afd444
-    log: |
-         102d712ded3ef2ee5b38ee6afa686aff63afd444 kconfig: Error out on duplicated kconfig inclusion
-         
+  - ref: refs/tags/gpio-fixes-for-v7.0-rc2
+    old: 0000000000000000000000000000000000000000
+    new: fdd098bf38fb8125c610316d9db49367601f7e56
