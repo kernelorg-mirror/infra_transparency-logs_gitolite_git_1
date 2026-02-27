@@ -1,22 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============2585895583235869833=="
+Content-Type: multipart/mixed; boundary="===============5654171326190139570=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Fri, 27 Feb 2026 06:37:10 -0000
-Message-Id: <177217423060.274224.11267278070360800312@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Fri, 27 Feb 2026 06:37:14 -0000
+Message-Id: <177217423408.274363.4676825504091931051@gitolite.kernel.org>
 
---===============2585895583235869833==
+--===============5654171326190139570==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-7.1
+  - ref: refs/heads/asoc-7.1
     old: 5c74a008ffc62fc57a041602b4517519c8bf9436
     new: f168e849b7b85ef102fb0b889c0fe90a328042af
     log: |
@@ -27,28 +27,28 @@ changes:
          f168e849b7b85ef102fb0b889c0fe90a328042af SDCA Improvements
          
 
---===============2585895583235869833==
+--===============5654171326190139570==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1772174228 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1772174228-0435b5a43bc2f7cdf374f75c30c48e7401ed9454
+pusher C3F436CA30F5D8EB 1772174232 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1772174231-9efd5cbd0fd12feeb633fae2b4f35d43212d90f8
 
-5c74a008ffc62fc57a041602b4517519c8bf9436 f168e849b7b85ef102fb0b889c0fe90a328042af refs/heads/for-7.1
+5c74a008ffc62fc57a041602b4517519c8bf9436 f168e849b7b85ef102fb0b889c0fe90a328042af refs/heads/asoc-7.1
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmmhO5QACgkQJNaLcl1U
-h9CvOgf7BTIrwTyNXrJQoJPbc/GaGuKByi2GoKBGKqbnNEMlxifbZh0nFiO8ICW7
-IeyuxvhwBftYmHBEZA3iSucxN+0CMun3tJgVfiw1Uh3sSMxYLmAQVmaJyzPEFOuv
-7AdayX6Imx2rC+EV0x7Cb8xYBUeCd8PkJzZvbk8W5FdGSHhIPYQWsFTHNUDUfNlM
-8wzUYewwB3qDidmKpHpR2AR4eiMzPBuput6aI/grurb2NzcF95vEtiYMay77SqwE
-X1grQPWkQ49WpYcz6IvTpTZ/yakB70M6JvOjoXXz3/hcQYVGLtJfLiRJZKE77pMS
-hOxuN0fvgN2Rxu9871FgknmHBHRREQ==
-=pOF6
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmmhO5gACgkQJNaLcl1U
+h9A3Nwf8CbU2I9xFktJ3NDcwHjvt0xShtwFR9uxeYjO9Usob9RsqJioM2iCpSYmE
+WGHJhRvKgnm6XTLszxCrDNnCwC9TGdnLGDEWtoOt+rzsCzRZK8HSUpUo3RiSpHMm
+HkfmJxFYsN7HJKbabsXsKWm2bp1Df9W8NRPQ8Om6yRuPdeX8o8vQy5O2UW0WYXII
+qSLkjXyMk53e8k8qcXph43xFQuN3kYvjUBc3diZevdcZLR+KUdsJqou9ZDrTa9F4
+woUc8HLmbcVNOQpY17pfXOrgNXbceZCKeMirN3VQFY6DS5Xlx/M02v73Kyfnk6Uh
+ivy/HjydYg0A5bdo7lwuk46G46cYJw==
+=LCwM
 -----END PGP SIGNATURE-----
 
---===============2585895583235869833==--
+--===============5654171326190139570==--
