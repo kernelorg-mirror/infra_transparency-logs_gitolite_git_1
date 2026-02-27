@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6251622254686700757=="
+Content-Type: multipart/mixed; boundary="===============6847149711484535510=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jack/linux-fs
-Date: Fri, 27 Feb 2026 11:50:32 -0000
-Message-Id: <177219303284.518725.13589822429109815643@gitolite.kernel.org>
+Date: Fri, 27 Feb 2026 11:50:47 -0000
+Message-Id: <177219304702.518973.4170057057497975401@gitolite.kernel.org>
 
---===============6251622254686700757==
+--===============6847149711484535510==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,23 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jack/linux-fs
 user: jack
 changes:
-  - ref: refs/heads/for_next
-    old: 93a803d2ab6413e159926d34f08ff0a598b65d2c
-    new: 83182111b1d26c04bf983a9c8c5998dae07df567
-    log: revlist-93a803d2ab64-83182111b1d2.txt
+  - ref: refs/heads/fsnotify
+    old: 74bd284537b3447c651588101c32a203e4fe1a32
+    new: 4520b96b8136ba2465a3f4dc5c3fb8bdf3d92e4e
+    log: revlist-74bd284537b3-4520b96b8136.txt
 
---===============6251622254686700757==
+--===============6847149711484535510==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-93a803d2ab64-83182111b1d2.txt
+Content-Disposition: attachment; filename=revlist-74bd284537b3-4520b96b8136.txt
 
+ef3ff40346db8476a9ef7269fc9d1837e7243c40 riscv: vector: init vector context with proper vlenb
+fd515e037efb3b6300eace247e14ab2bc7e38db5 riscv: csr: define vtype register elements
+f4be988f5b547dc4b305c15a078a52cdde76a8f5 riscv: ptrace: validate input vector csr registers
+600f72ded8c877be95322ce806d23345ea5e89bc selftests: riscv: test ptrace vector interface
+66d03044891df63c82b18ae1da07bc4bc077ae48 selftests: riscv: verify initial vector state with ptrace
+3789d5eecd5ae01149d0ef5ba70e8120da2f55db selftests: riscv: verify syscalls discard vector context
 30eb191c895b086c21fc04c5c1482cb1bb0f3caf selftests: riscv: verify ptrace rejects invalid vector csr inputs
 849f05ae1ea6e1ff621243dce27fe455fdc9d0ff selftests: riscv: verify ptrace accepts valid vector csr values
 098921ec6818291d98bd3a4002c9dfbe2e75aac2 selftests: riscv: vstate_exec_nolibc: Use the regular prctl() function
@@ -1044,11 +1050,5 @@ f4d0ec0aa20d49f09dc01d82894ce80d72de0560 Merge tag 'erofs-for-7.0-rc2-fixes' of 
 0d5ee3373426395478c355f3e93ba4b1118a04e9 fanotify: avoid/silence premature LSM capability checks
 66052a768d4726a31e939b5ac902f2b0b452c8d5 fanotify: call fanotify_events_supported() before path_permission() and security_path_notify()
 4520b96b8136ba2465a3f4dc5c3fb8bdf3d92e4e fsnotify: inotify: pass mark connector to fsnotify_recalc_mask()
-937c262d4f55e472f5bd66cf8a293f20da2616f4 fs: udf: avoid assignment in condition when selecting allocation goal
-6d942c874f6fc8cea801981b6f2cfd9829a641d4 ext2: remove stale TODO about kmap
-0cf9c58bf654d0f27abe18005281dbf9890de401 ext2: replace BUG_ON with WARN_ON_ONCE in ext2_get_blocks
-ad0e9663f0f5b0ed8e27d3690c5ac9de72243fba ext2: guard reservation window dump with EXT2FS_DEBUG
-19134a133184fcc49c41cf42797cb2e7fef76065 ext2: avoid drop_nlink() during unlink of zero-nlink inode in ext2_unlink()
-83182111b1d26c04bf983a9c8c5998dae07df567 Pull ext2 and udf cleanups
 
---===============6251622254686700757==--
+--===============6847149711484535510==--
