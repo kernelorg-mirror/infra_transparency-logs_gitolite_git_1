@@ -1,29 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
-Date: Fri, 27 Feb 2026 19:06:16 -0000
-Message-Id: <177221917688.866544.17024792183223883296@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/rt-tests/rt-tests
+Date: Fri, 27 Feb 2026 19:08:41 -0000
+Message-Id: <177221932162.867466.5499756888423962922@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ath/ath
-user: jjohnson
+repo: pub/scm/utils/rt-tests/rt-tests
+user: jkacur
 changes:
-  - ref: refs/heads/main-pending
-    old: 77a6730eea57c0322d36616cc4fa29f519876b3f
-    new: df93a060020abc062899ac3eff5bf5e8feb4191f
+  - ref: refs/heads/main
+    old: 6a5f894206f965aa5c4178db79a4b63c0b7fc45e
+    new: 12dd929aebaf21fcc3840854cbe6aa66e8cbd516
     log: |
-         2141355e66fcb7c38258f277c1fd2eec01b173e8 wifi: ath11k: Silence remoteproc probe deferral prints
-         df93a060020abc062899ac3eff5bf5e8feb4191f Merge branch 'pending' into main-pending
+         54eccd484a45f4a145d7d01d5bad53a254ca7996 rt-tests: cyclictest: Fix -A long name in manpage
+         e9ae788aeeefe834a9b4c44fc55c86b9846e70b5 hwlatdetect: Add MTBF calculation
+         12dd929aebaf21fcc3840854cbe6aa66e8cbd516 rt-tests: hwlatdetect: Add check that width is not zero
          
-  - ref: refs/heads/pending
-    old: afc3362c680f1304784e554c5f46906fe520e0b8
-    new: 2141355e66fcb7c38258f277c1fd2eec01b173e8
-    log: |
-         2141355e66fcb7c38258f277c1fd2eec01b173e8 wifi: ath11k: Silence remoteproc probe deferral prints
-         
-  - ref: refs/tags/ath-pending-202602271841
-    old: 0000000000000000000000000000000000000000
-    new: df93a060020abc062899ac3eff5bf5e8feb4191f
