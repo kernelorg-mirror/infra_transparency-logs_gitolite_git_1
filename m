@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
-Date: Fri, 27 Feb 2026 18:40:28 -0000
-Message-Id: <177221762859.846418.17392023631854484676@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/linusw/linux-pinctrl
+Date: Fri, 27 Feb 2026 18:42:41 -0000
+Message-Id: <177221776106.847583.3128589352546863141@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ath/ath
-user: jjohnson
+repo: pub/scm/linux/kernel/git/linusw/linux-pinctrl
+user: linusw
 changes:
-  - ref: refs/heads/pending
-    old: b948fc4cf405ad6557a628a04663eaac217076c2
-    new: afc3362c680f1304784e554c5f46906fe520e0b8
+  - ref: refs/heads/for-next
+    old: 5d9eaad9439d6b059777e89ee2eee3b663827469
+    new: 71be9e450b72e05393c11873923fcde95e8004d8
     log: |
-         afc3362c680f1304784e554c5f46906fe520e0b8 wifi: ath11k: Silence remoteproc probe deferral prints
+         71be9e450b72e05393c11873923fcde95e8004d8 Merge branch 'devel' into for-next
          
