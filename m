@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/linkinjeon/ntfs
-Date: Fri, 27 Feb 2026 09:44:38 -0000
-Message-Id: <177218547850.420634.1042513863152361941@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs
+Date: Fri, 27 Feb 2026 10:03:01 -0000
+Message-Id: <177218658122.435310.17349157418056670590@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/linkinjeon/ntfs
-user: linkinjeon
+repo: pub/scm/linux/kernel/git/xiang/erofs
+user: xiang
 changes:
-  - ref: refs/heads/ntfs-next
-    old: 7c76484fbb222e82f1db34009eb441d08db0a158
-    new: ac9ccb6e75c5af84095bece1019f22cb45ab43e5
+  - ref: refs/heads/dev-test
+    old: 4a2d046e4b13202a6301a993961f5b30ae4d7119
+    new: 5accc861ea0dc0ab8cf02fed17f88f05cf514a34
     log: |
-         c418e96754100a9cafd7bff32c83cad746f32781 ntfs: Place check before dereference
-         1c85157ea88e87644e171c7ae3e1877f43b4b345 ntfs: Add missing error code
-         ac9ccb6e75c5af84095bece1019f22cb45ab43e5 ntfs: Fix possible deadlock
+         5accc861ea0dc0ab8cf02fed17f88f05cf514a34 erofs: set fileio bio failed in short read case
          
