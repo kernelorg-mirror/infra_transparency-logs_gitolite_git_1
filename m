@@ -1,21 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/rt-tests/rt-tests
-Date: Fri, 27 Feb 2026 19:08:41 -0000
-Message-Id: <177221932162.867466.5499756888423962922@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tj/sched_ext
+Date: Fri, 27 Feb 2026 19:18:29 -0000
+Message-Id: <177221990981.875512.12616055909153403787@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/rt-tests/rt-tests
-user: jkacur
+repo: pub/scm/linux/kernel/git/tj/sched_ext
+user: tj
 changes:
-  - ref: refs/heads/main
-    old: 6a5f894206f965aa5c4178db79a4b63c0b7fc45e
-    new: 12dd929aebaf21fcc3840854cbe6aa66e8cbd516
+  - ref: refs/heads/for-7.0-fixes
+    old: 749989b2d90ddc7dd253ad3b11a77cf882721acf
+    new: 032e084f0d43fda78c33abfc704ac13a0891a6e7
     log: |
-         54eccd484a45f4a145d7d01d5bad53a254ca7996 rt-tests: cyclictest: Fix -A long name in manpage
-         e9ae788aeeefe834a9b4c44fc55c86b9846e70b5 hwlatdetect: Add MTBF calculation
-         12dd929aebaf21fcc3840854cbe6aa66e8cbd516 rt-tests: hwlatdetect: Add check that width is not zero
+         032e084f0d43fda78c33abfc704ac13a0891a6e7 tools/sched_ext: fix strtoul() misuse in scx_hotplug_seq()
+         
+  - ref: refs/heads/for-next
+    old: d19e1ccdec559a1f4ec34fae165487475aa4ed22
+    new: 712fac35d7ec6021ce30e9865d89b6c3737efc2d
+    log: |
+         032e084f0d43fda78c33abfc704ac13a0891a6e7 tools/sched_ext: fix strtoul() misuse in scx_hotplug_seq()
+         712fac35d7ec6021ce30e9865d89b6c3737efc2d Merge branch 'for-7.0-fixes' into for-next
          
