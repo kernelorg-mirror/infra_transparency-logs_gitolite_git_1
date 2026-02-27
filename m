@@ -1,58 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============8219443130804786944=="
+Content-Type: multipart/mixed; boundary="===============0418400160367394537=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Fri, 27 Feb 2026 05:41:56 -0000
-Message-Id: <177217091601.231754.10373309468555789011@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/security/vulns
+Date: Fri, 27 Feb 2026 05:49:51 -0000
+Message-Id: <177217139101.236721.8027153682089470505@gitolite.kernel.org>
 
---===============8219443130804786944==
+--===============0418400160367394537==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/char-misc
+repo: pub/scm/linux/security/vulns
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/char-misc-testing
-    old: d31ed22a0678da8948439c3009b01c4806a677c9
-    new: 34268365a9e9424e38083c8f318cc34b153dcb07
+  - ref: refs/heads/master
+    old: b32e027641bff71f7dd8e29f00ca7f185dc3dd70
+    new: 0d74317193f461c66902c4219ba00a5d526b1b9b
     log: |
-         47ac2a4b5cd8f0cb826f6368c2fc0eeb97e5d55f rust: kvec: implement shrink_to for KVVec
-         fbfc0d615368ddf71899dbea2205e741c79b23e8 rust: alloc: add KUnit tests for KVVec shrink_to
-         34268365a9e9424e38083c8f318cc34b153dcb07 rust_binder: shrink all_procs when deregistering processes
+         0d74317193f461c66902c4219ba00a5d526b1b9b update cvelistV5
          
 
---===============8219443130804786944==
+--===============0418400160367394537==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1772170906 -0800
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1772170913-d16974a43eb38b888c05fa0447ffd5785025fbed
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1772171383 -0800
+pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
+nonce 1772171390-34caa185f21debde575e0a7445a1911a94b8c4ae
 
-d31ed22a0678da8948439c3009b01c4806a677c9 34268365a9e9424e38083c8f318cc34b153dcb07 refs/heads/char-misc-testing
+b32e027641bff71f7dd8e29f00ca7f185dc3dd70 0d74317193f461c66902c4219ba00a5d526b1b9b refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmmhLpobHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+dOoQAJwBgp1LodNRMklIKZ2Z
-rZeBjLD1mhJJb0GdwEvHTeuswlq0RVRl6W8bSDck/Bp3ajgs1NLNQXfaxsAaOnpN
-pfkVuYc9zryT2hVzFv+6MNgkmNofTuDyOtwx6tcKB8AxbNPCKJCGV2XmQJ2+Hs1t
-zS9XKruXoT0b23Wa/diFzdAxdJX158tQnqW+hUN8xRA1BsHd1JXJinbABFNNxTuv
-dvCHV5Mr1CgFhaSyjSvbpHTx6I+8F0VsJljtVdsvWP9zBZFkViXUvDNRSLUf0vPw
-FjCSa0mqQD5053otQ5Tawxs+KDpYFB0B61aPqQJcN9g8Rwepl9a+hqqiDUqs2rF1
-lB3OGP5M5doq/uoK6ZUs7bDxW9Pnc6DJMKlNAbt0pbBgNTMPTbp9ZgqEToFg4Is/
-l6hFkuDZTZ8YiutV4l0DlbqBREtz3OjArn+1+FGS5LvwrIWv1kqFh7MHoPHoUI99
-cZz64Bu9Ak3yKmtQxLdLrhn9N0l9NaMwDjI7ET5L16NuyLPzyLzZzgeD67o2bRXr
-TCYN/3R97YSmyfY6+tdrPyJLcavCBFwaNxj6UhwRkXS4vAZE1R7kr0L164lOhhnW
-HZ2WHUlodEVn+T8EebzcCbFbtMVTJiwHLAIHdEskpqcBFXGJtDjY2WcX3xZfG2ow
-Y94O9jUVjYvtZ7/D08YZNTHx
-=hOAr
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmmhMHcbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+u6cP/jWkcRsg2fyN0a6ecz6h
+AEvp4u/jBoQO7+YnlN9mBuLrfa+VtSmBdoadKUGtzsRaaBCP7Ti/goM1RzFJvbOZ
+UKNYd3VHytrJOcSVQqNuQz/vH2AHgkTr+LkFxxfGp8DUYv7BEVwYlbJ8FX9MYbdC
+VLRKdRE0PYk3TCsHuOZBzhccSrsZA808rBlg78OViiFV8CYkJM92ORg21xu7oc1w
+AMpAsXe5FskxL+CcIO6raBUkQweP6ZDHDFMjIpNA41g5juZOnLK0HMYAfAMSzRyd
+ztUWw9Iulc49m3By2LDlMV5i7eUbflUuXtN8VqN0lIG3nQE/yrmYpdob3hDVMJmL
+QU6PWCJvJNf31DXMmfGafQOlqyDzi8qkEKxaYeg6O9Eumhr7Z8yuRIabkuSZITW1
+qct8bvvC2osLiCzfp7HErigq+1zC9REssSfr4bFN7yo01xYgaZBsepQG+cP8rw/M
+v9Sk26iU29cgBSy6XnziZOtHA5+1XLV3kNdW33IZ0BHBuhNq0izqjqsgBBBaR+hZ
+6XVAdFq9icsshDwlJ4/gcGot6JLKxPlqbEG13Jg0Ow8Ik/qFZRROZOU1nHboGn0k
+lF0xM7V4zWs69nN4bGvPsdwXGKfKhcgMuY/svIO14RYberCW2rNxUhfgc5q6HoSy
+k6SJgadGcuLIeLVEsMMe5QCI
+=ss1Z
 -----END PGP SIGNATURE-----
 
---===============8219443130804786944==--
+--===============0418400160367394537==--
