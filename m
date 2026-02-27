@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7307448194186258605=="
+Content-Type: multipart/mixed; boundary="===============5399341899002137308=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
-Date: Fri, 27 Feb 2026 15:41:12 -0000
-Message-Id: <177220687280.701352.5950793872343087295@gitolite.kernel.org>
+Date: Fri, 27 Feb 2026 15:41:23 -0000
+Message-Id: <177220688390.701668.363364546134768112@gitolite.kernel.org>
 
---===============7307448194186258605==
+--===============5399341899002137308==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/peterz/queue
 user: peterz
 changes:
-  - ref: refs/heads/locking/core
-    old: 60c4c18ef62df77a97d3315efb477ab67bc7ab42
-    new: 3dcef70e41ab13483803c536ddea8d5f1803ee25
-    log: revlist-60c4c18ef62d-3dcef70e41ab.txt
+  - ref: refs/heads/perf/core
+    old: 829b375bbe73bccca5ed10fcfc9db2bef53df891
+    new: 65772b382a9865a5480ee527f3fa6e606fafc0e7
+    log: revlist-829b375bbe73-65772b382a98.txt
 
---===============7307448194186258605==
+--===============5399341899002137308==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-60c4c18ef62d-3dcef70e41ab.txt
+Content-Disposition: attachment; filename=revlist-829b375bbe73-65772b382a98.txt
 
 0d4b3ca115b5436d7e68453527566db3e87ab7f0 xtensa: align: validate access in fast_load_store
 d311783bc68b011c77a4ef81321de2c94d7deffc perf list: Remove unused 'sep' variable
@@ -836,11 +836,20 @@ aaf96df9593bf4ab1b73c17891e4efe7570fdef3 CREDITS: Add -next to Stephen Rothwell'
 75e1f66a9ed09f29c6883ea379c174e8cf31f7cc Merge tag 'libcrypto-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/ebiggers/linux
 fbf33803618ad4f531f78fe15cf328fe6c7f9978 Merge tag 'fsverity-for-linus' of git://git.kernel.org/pub/scm/fs/fsverity/linux
 6de23f81a5e08be8fbf5e8d7e9febc72a5b5f27f Linux 7.0-rc1
-8b65eb52d93e4e496bd26e6867152344554eb39e locking/mutex: Rename mutex_init_lockep()
-babcde3be8c9148aa60a14b17831e8f249854963 locking/mutex: Fix wrong comment for CONFIG_DEBUG_LOCK_ALLOC
-50214dc4382055352fb1d7b9779550dabf5059e5 locking/mutex: Add killable flavor to guard definitions
-38e18d825f7281fdc16d3241df5115ce6eaeaf79 locking: Fix rwlock and spinlock lock context annotations
-39be7b21af24d1d2ed3b18caac57dd219fef226e signal: Fix the lock_task_sighand() annotation
-3dcef70e41ab13483803c536ddea8d5f1803ee25 ww-mutex: Fix the ww_acquire_ctx function annotations
+28c75fbfec8f024db1278194918e5f6eda4c570f perf/core: Pass GFP flags to attach_task_ctx_data()
+bec2ee2390c95ed0c44494340464e69e79802e4a perf/core: Try to allocate task_ctx_data quickly
+da45c8d5f051434a3c68397e66ae2d3b3c97cdec perf/core: Simplify __detach_global_ctx_data()
+01336b5559785a136de1cac49705f63a70a755bc perf/amd/ibs: Account interrupt for discarded samples
+898138efc99096c3ee836fea439ba6da3cfafa4d perf/amd/ibs: Limit ldlat->l3missonly dependency to Zen5
+723a290326e015b07931eabc603d3735999377be perf/amd/ibs: Preserve PhyAddrVal bit when clearing PhyAddr MSR
+b0a09142622a994c4f4088c3f61db5da87cfc711 perf/amd/ibs: Avoid calling perf_allow_kernel() from the IBS NMI handler
+1b044ff3c17e9d7fd93ffc0ba541ccdeb992d7f5 perf/amd/ibs: Avoid race between event add and NMI
+f9d55ccf0199d1a80c2519084578f0c345dedd2f perf/amd/ibs: Define macro for ldlat mask and shift
+e267b4178134e36e83ddfe4f7f5b4b162a286148 perf/amd/ibs: Add new MSRs and CPUID bits definitions
+28063f05f38b5c114b0c8d2b0200604196b085ef to eliminate RMW race
+ba6056cabd0fa2c98d016a4ed01731ba009a340b perf/amd/ibs: Enable fetch latency filtering
+62ed6df2c8078725ba5bfb6ca2d06acc8d15bd36 perf/amd/ibs: Enable RIP bit63 hardware filtering
+57218e4794f8b6ddefe2c762020e49bd871c349c perf/amd/ibs: Enable streaming store filter
+65772b382a9865a5480ee527f3fa6e606fafc0e7 perf/amd/ibs: Advertise remote socket capability
 
---===============7307448194186258605==--
+--===============5399341899002137308==--
