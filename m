@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
-Date: Sat, 28 Feb 2026 16:44:17 -0000
-Message-Id: <177229705752.1987360.8853854337529940703@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/b4/b4
+Date: Sat, 28 Feb 2026 16:44:18 -0000
+Message-Id: <177229705814.1987434.7666786152126305797@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/maz/arm-platforms
-user: maz
+repo: pub/scm/utils/b4/b4
+user: mricon
 changes:
-  - ref: refs/heads/kvm-arm64/vgic-fixes-7.0
-    old: 949862c28a5c120ee38a107768b944f39b1b1867
-    new: cf5464cd01842f2b4b3eccb1d59f07db9ac82153
+  - ref: refs/heads/master
+    old: a00f452833bcc1de02ae90b16737942cdf923f34
+    new: a21b8a4c8aef780d0c8f62e97b2c17e851b1a10c
     log: |
-         cf5464cd01842f2b4b3eccb1d59f07db9ac82153 KVM: arm64: Eagerly init vgic dist/redist on vgic creation
+         a21b8a4c8aef780d0c8f62e97b2c17e851b1a10c review: escape markup in title bar subject
          
