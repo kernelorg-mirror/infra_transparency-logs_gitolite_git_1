@@ -1,32 +1,31 @@
-Content-Type: multipart/mixed; boundary="===============9212033870936926571=="
+Content-Type: multipart/mixed; boundary="===============3935361809338000071=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/shuah/linux-kselftest
-Date: Sat, 28 Feb 2026 20:08:08 -0000
-Message-Id: <177230928815.2153008.10672757005952968721@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/shuah/linux
+Date: Sat, 28 Feb 2026 20:15:00 -0000
+Message-Id: <177230970001.2157435.1626488612779116240@gitolite.kernel.org>
 
---===============9212033870936926571==
+--===============3935361809338000071==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/shuah/linux-kselftest
+repo: pub/scm/linux/kernel/git/shuah/linux
 user: shuah
 changes:
-  - ref: refs/heads/test
-    old: 8f0b4cce4481fb22653697cced8d0d04027cb1e8
-    new: 6de23f81a5e08be8fbf5e8d7e9febc72a5b5f27f
-    log: revlist-8f0b4cce4481-6de23f81a5e0.txt
+  - ref: refs/heads/cpupower
+    old: 4ca3c45eb30b9331013a12acb84bb62b20fafe28
+    new: dff8e3c025862001956b8edb29c1287c9efcd902
+    log: revlist-4ca3c45eb30b-dff8e3c02586.txt
 
---===============9212033870936926571==
+--===============3935361809338000071==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-8f0b4cce4481-6de23f81a5e0.txt
+Content-Disposition: attachment; filename=revlist-4ca3c45eb30b-dff8e3c02586.txt
 
-9e03b7caf4e65f5a5841dfed540fdcc3ff061734 Merge tag 'kvm-x86-misc-6.20' of https://github.com/kvm-x86/linux into HEAD
 2f81bdbdb3aa3fccd9b5420df5674730c40af554 Merge tag 'i3c/for-6.20' of git://git.kernel.org/pub/scm/linux/kernel/git/i3c/linux
 37b4fbf8dbdfb694f2972d1bd7fcd36304a520dd Merge tag 'tpmdd-next-7.0-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/jarkko/linux-tpmdd
 698749164aa53cc313248efd2dc1c25dcf25c99c Merge tag 'audit-pr-20260203' of git://git.kernel.org/pub/scm/linux/kernel/git/pcmoore/audit
@@ -1050,5 +1049,6 @@ aaf96df9593bf4ab1b73c17891e4efe7570fdef3 CREDITS: Add -next to Stephen Rothwell'
 75e1f66a9ed09f29c6883ea379c174e8cf31f7cc Merge tag 'libcrypto-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/ebiggers/linux
 fbf33803618ad4f531f78fe15cf328fe6c7f9978 Merge tag 'fsverity-for-linus' of git://git.kernel.org/pub/scm/fs/fsverity/linux
 6de23f81a5e08be8fbf5e8d7e9febc72a5b5f27f Linux 7.0-rc1
+dff8e3c025862001956b8edb29c1287c9efcd902 cpupower: fix swapped power/energy unit labels
 
---===============9212033870936926571==--
+--===============3935361809338000071==--
