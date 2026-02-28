@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bcain/linux
-Date: Sat, 28 Feb 2026 06:27:58 -0000
-Message-Id: <177226007838.1505230.3061901191012933126@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/wsa/linux
+Date: Sat, 28 Feb 2026 07:49:01 -0000
+Message-Id: <177226494198.1565658.1446878854778055141@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bcain/linux
-user: bcain
+repo: pub/scm/linux/kernel/git/wsa/linux
+user: wsa
 changes:
-  - ref: refs/heads/bcain/boot_qemu
-    old: cfb034aa10914a8b9c795db7f2c8de7fa4225125
-    new: 7620f594f60eb28d50a914345a9a3e80ea74b5b6
+  - ref: refs/heads/renesas/x5h/mfis-single-driver-experimental
+    old: 5ddb3ec9c29cfef5738b87a94c971b6783ba55f5
+    new: ff8de1d694c46488635d49960f7c381145638ce6
     log: |
-         7620f594f60eb28d50a914345a9a3e80ea74b5b6 hexagon: use angel0 as persistent console for QEMU
+         626028d45ffba3cdeef2d35971159b7268201326 DTS updates
+         97818297f64219ceb1025fe866ac38f66693d8d5 DTS additions for mailbox-text
+         ff8de1d694c46488635d49960f7c381145638ce6 driver updates
          
