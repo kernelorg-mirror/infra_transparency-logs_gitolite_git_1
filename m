@@ -1,20 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
-Date: Sat, 28 Feb 2026 11:52:44 -0000
-Message-Id: <177227956462.1752260.4325823826265567868@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux
+Date: Sat, 28 Feb 2026 11:58:25 -0000
+Message-Id: <177227990581.1756423.7205909938293753731@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jic23/iio
-user: jic23
+repo: pub/scm/linux/kernel/git/axboe/linux
+user: axboe
 changes:
-  - ref: refs/heads/fixes-togreg
-    old: 91f371964fecc7ef7f5cb85254fcde1d07da7ef0
-    new: fc06aeae84271e01b73d8311844c76ac2f39af2d
+  - ref: refs/heads/for-next
+    old: 251bb9ec90b20f49409592c52e7d47b7f342882a
+    new: f4180b8ce82ec3a9138eb62bba640bd438102dbe
     log: |
-         6aca31cd2ac60d985cf9fcd4e161fc2c71d0eab3 iio: pressure: abp2030pa: Remove IRQF_ONESHOT from devm_request_irq()
-         fc06aeae84271e01b73d8311844c76ac2f39af2d iio: adc: ade9000: move mutex init before IRQ registration
+         0ed2e8bf61d6d5df1d78f4e24b682dff4c394e17 io_uring: correct comment for IORING_SETUP_TASKRUN_FLAG
+         f4180b8ce82ec3a9138eb62bba640bd438102dbe Merge branch 'io_uring-7.0' into for-next
+         
+  - ref: refs/heads/io_uring-7.0
+    old: 3d17d76d1ffb139a7492317b196ee03c8eabc9dc
+    new: 0ed2e8bf61d6d5df1d78f4e24b682dff4c394e17
+    log: |
+         0ed2e8bf61d6d5df1d78f4e24b682dff4c394e17 io_uring: correct comment for IORING_SETUP_TASKRUN_FLAG
          
