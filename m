@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2550772949788766970=="
+Content-Type: multipart/mixed; boundary="===============8494649488341842389=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/shuah/linux-kselftest
-Date: Sat, 28 Feb 2026 19:54:58 -0000
-Message-Id: <177230849866.2141170.5773185548501895848@gitolite.kernel.org>
+Date: Sat, 28 Feb 2026 19:56:28 -0000
+Message-Id: <177230858851.2144513.12250338237333941551@gitolite.kernel.org>
 
---===============2550772949788766970==
+--===============8494649488341842389==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/shuah/linux-kselftest
 user: shuah
 changes:
-  - ref: refs/heads/fixes
-    old: 6e39903c73df08b256322d04c4dfe4a82ec63a45
+  - ref: refs/heads/kunit
+    old: db0c35ca36526f3072affcb573631ccf8c85f827
     new: 6de23f81a5e08be8fbf5e8d7e9febc72a5b5f27f
-    log: revlist-6e39903c73df-6de23f81a5e0.txt
+    log: revlist-db0c35ca3652-6de23f81a5e0.txt
 
---===============2550772949788766970==
+--===============8494649488341842389==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-6e39903c73df-6de23f81a5e0.txt
+Content-Disposition: attachment; filename=revlist-db0c35ca3652-6de23f81a5e0.txt
 
 9e03b7caf4e65f5a5841dfed540fdcc3ff061734 Merge tag 'kvm-x86-misc-6.20' of https://github.com/kvm-x86/linux into HEAD
 2f81bdbdb3aa3fccd9b5420df5674730c40af554 Merge tag 'i3c/for-6.20' of git://git.kernel.org/pub/scm/linux/kernel/git/i3c/linux
@@ -1051,4 +1051,4 @@ aaf96df9593bf4ab1b73c17891e4efe7570fdef3 CREDITS: Add -next to Stephen Rothwell'
 fbf33803618ad4f531f78fe15cf328fe6c7f9978 Merge tag 'fsverity-for-linus' of git://git.kernel.org/pub/scm/fs/fsverity/linux
 6de23f81a5e08be8fbf5e8d7e9febc72a5b5f27f Linux 7.0-rc1
 
---===============2550772949788766970==--
+--===============8494649488341842389==--
