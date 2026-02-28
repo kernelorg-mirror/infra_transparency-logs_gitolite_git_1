@@ -1,20 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Sat, 28 Feb 2026 03:13:50 -0000
-Message-Id: <177224843027.1353194.8820985771807099738@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Sat, 28 Feb 2026 03:34:16 -0000
+Message-Id: <177224965690.1368611.6203579492526846699@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
+repo: pub/scm/linux/kernel/git/netdev/net-next
 user: kuba
 changes:
   - ref: refs/heads/main
-    old: ba14798653bb815b4dcd116c5265a9f748bc0c7f
-    new: b14e82abf78affa50f4cabe8493e17f9adcfcec7
+    old: 9ff2d2a9837015ff4b3579b028aeae8c180aa8d3
+    new: 1e08faf996c3dc7baf584ba72e52215a3d028a8f
     log: |
-         11cb63b0d1a0685e0831ae3c77223e002ef18189 net/sched: Only allow act_ct to bind to clsact/ingress qdiscs and shared blocks
-         b14e82abf78affa50f4cabe8493e17f9adcfcec7 selftests/tc-testing: Create tests to exercise act_ct binding restrictions
+         6466441a5ecd1c1168264e4c322bae455579b156 net: inline skb_add_rx_frag_netmem()
+         2164242c50084bd5b359b7d554d3a124e2c19074 NFC: fix header file kernel-doc warnings
+         57cc8ab3e9f2c460204bc8facb7932b9b53be878 net/handshake: Fixed grammar mistake
+         97c55c1298ac89f4dc00c055a593c13004141661 net: ethernet: litex: use devm_register_netdev() to register netdev
+         621e3634dfab890e8d97e082588b3d6d6d688d91 net: ethernet: litex: use device pointer to simplify code.
+         1e08faf996c3dc7baf584ba72e52215a3d028a8f Merge branch 'net-ethernet-litex-minor-improvment-for-the-codebase'
          
