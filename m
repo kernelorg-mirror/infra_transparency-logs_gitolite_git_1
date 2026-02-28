@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4750876988126557699=="
+Content-Type: multipart/mixed; boundary="===============1954706647881618131=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/shuah/linux
-Date: Sat, 28 Feb 2026 20:16:37 -0000
-Message-Id: <177230979727.2160769.14194001799911059733@gitolite.kernel.org>
+Date: Sat, 28 Feb 2026 20:20:31 -0000
+Message-Id: <177231003113.2164202.17131826241044376806@gitolite.kernel.org>
 
---===============4750876988126557699==
+--===============1954706647881618131==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/shuah/linux
 user: shuah
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/linux-safety
     old: 8f5ae30d69d7543eee0d70083daf4de8fe15d585
     new: 6de23f81a5e08be8fbf5e8d7e9febc72a5b5f27f
     log: revlist-8f5ae30d69d7-6de23f81a5e0.txt
 
---===============4750876988126557699==
+--===============1954706647881618131==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -1051,4 +1051,4 @@ aaf96df9593bf4ab1b73c17891e4efe7570fdef3 CREDITS: Add -next to Stephen Rothwell'
 fbf33803618ad4f531f78fe15cf328fe6c7f9978 Merge tag 'fsverity-for-linus' of git://git.kernel.org/pub/scm/fs/fsverity/linux
 6de23f81a5e08be8fbf5e8d7e9febc72a5b5f27f Linux 7.0-rc1
 
---===============4750876988126557699==--
+--===============1954706647881618131==--
