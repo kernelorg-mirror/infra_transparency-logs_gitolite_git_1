@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Sat, 28 Feb 2026 02:43:06 -0000
-Message-Id: <177224658656.1329901.2156256632333409374@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/linkinjeon/ntfs
+Date: Sat, 28 Feb 2026 03:05:29 -0000
+Message-Id: <177224792940.1347788.1118960872338574618@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: kuba
+repo: pub/scm/linux/kernel/git/linkinjeon/ntfs
+user: linkinjeon
 changes:
-  - ref: refs/heads/main
-    old: c31770c49348fb019167fa95119f330597c99193
-    new: e8e83b67960c20a9e60d4181631509d59f03488b
+  - ref: refs/heads/ntfs-next
+    old: ac9ccb6e75c5af84095bece1019f22cb45ab43e5
+    new: e6eb3a0584628f84e6f3fcf258fba8fd11f42d2e
     log: |
-         e8e83b67960c20a9e60d4181631509d59f03488b r8152: Add 2500baseT EEE status/configuration support
+         e6eb3a0584628f84e6f3fcf258fba8fd11f42d2e ntfs: Fix spelling mistake "initiailized" -> "initialized"
          
