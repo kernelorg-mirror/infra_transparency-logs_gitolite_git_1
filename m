@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Sat, 28 Feb 2026 15:30:54 -0000
-Message-Id: <177229265431.1926134.4402703644793126830@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Sat, 28 Feb 2026 15:39:19 -0000
+Message-Id: <177229315918.1930985.9655609966893292769@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: tglx
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: sashal
 changes:
-  - ref: refs/heads/tip/tip
-    old: 91b788bdb9a4b19a90312beb11f0e9e4db089b32
-    new: 1adb763adac845e65b3a3e5fc0d4df5f75e79b98
+  - ref: refs/heads/master
+    old: 31b6b506d1b1053b6e2e19946c56d17b56784188
+    new: 2370009958172f632d48973387e7b6ae116086b1
     log: |
-         1adb763adac845e65b3a3e5fc0d4df5f75e79b98 auto-sched-next: Add sched/hrtick branch
+         2370009958172f632d48973387e7b6ae116086b1 Drop a broken ACPI patch
          
