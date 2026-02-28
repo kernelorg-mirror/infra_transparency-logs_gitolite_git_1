@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1954706647881618131=="
+Content-Type: multipart/mixed; boundary="===============8946139079427120330=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/shuah/linux
-Date: Sat, 28 Feb 2026 20:20:31 -0000
-Message-Id: <177231003113.2164202.17131826241044376806@gitolite.kernel.org>
+Date: Sat, 28 Feb 2026 20:25:05 -0000
+Message-Id: <177231030581.2168212.9286412400870833248@gitolite.kernel.org>
 
---===============1954706647881618131==
+--===============8946139079427120330==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,22 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/shuah/linux
 user: shuah
 changes:
-  - ref: refs/heads/linux-safety
-    old: 8f5ae30d69d7543eee0d70083daf4de8fe15d585
-    new: 6de23f81a5e08be8fbf5e8d7e9febc72a5b5f27f
-    log: revlist-8f5ae30d69d7-6de23f81a5e0.txt
+  - ref: refs/heads/vimc
+    old: c3a017646b770b76f0f08c96aa74fbc4404ef674
+    new: 4129050d486b363b157d0cd4ba0ef14a8312ae01
+    log: revlist-c3a017646b77-4129050d486b.txt
 
---===============1954706647881618131==
+--===============8946139079427120330==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-8f5ae30d69d7-6de23f81a5e0.txt
+Content-Disposition: attachment; filename=revlist-c3a017646b77-4129050d486b.txt
 
-9e03b7caf4e65f5a5841dfed540fdcc3ff061734 Merge tag 'kvm-x86-misc-6.20' of https://github.com/kvm-x86/linux into HEAD
-2f81bdbdb3aa3fccd9b5420df5674730c40af554 Merge tag 'i3c/for-6.20' of git://git.kernel.org/pub/scm/linux/kernel/git/i3c/linux
-37b4fbf8dbdfb694f2972d1bd7fcd36304a520dd Merge tag 'tpmdd-next-7.0-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-698749164aa53cc313248efd2dc1c25dcf25c99c Merge tag 'audit-pr-20260203' of git://git.kernel.org/pub/scm/linux/kernel/git/pcmoore/audit
-bcc8fd3e1573c502edc0cb61abea0e113a761799 Merge tag 'lsm-pr-20260203' of git://git.kernel.org/pub/scm/linux/kernel/git/pcmoore/lsm
 1d3ffe6233b1b6e8697f5027b9441ce70385c997 perf tests workload: Formatting for code_with_type.rs
 6252e917b9006dfa2f3d884fe0dbaf3e676c4108 Merge tag 'selinux-pr-20260203' of git://git.kernel.org/pub/scm/linux/kernel/git/pcmoore/selinux
 42e7c876b182da65723700f6bc507a8aecb10d3b fs/nfs: Fix readdir slow-start regression
@@ -1050,5 +1045,10 @@ aaf96df9593bf4ab1b73c17891e4efe7570fdef3 CREDITS: Add -next to Stephen Rothwell'
 75e1f66a9ed09f29c6883ea379c174e8cf31f7cc Merge tag 'libcrypto-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/ebiggers/linux
 fbf33803618ad4f531f78fe15cf328fe6c7f9978 Merge tag 'fsverity-for-linus' of git://git.kernel.org/pub/scm/fs/fsverity/linux
 6de23f81a5e08be8fbf5e8d7e9febc72a5b5f27f Linux 7.0-rc1
+55ed8a2c3010ef16eeb47b817f9e1864da3d6b88 media: vimc: add RGB/YUV input entity implementation
+44beda56510cab5a0640453eac292d6e18f5e700 media: vimc: add support for V4L2_FIELD_ALTERNATE in vimc-sensor
+550fc182e42c209c2d40c289e02b42bcab0626cd media: vimc: debayer: add support for multiple RGB formats
+b007e466e3b480996b5068db6ae2238c98803360 media: vimc: capture: support custom bytesperline values
+4129050d486b363b157d0cd4ba0ef14a8312ae01 docs: media: vimc: document RGB/YUV input entity
 
---===============1954706647881618131==--
+--===============8946139079427120330==--
