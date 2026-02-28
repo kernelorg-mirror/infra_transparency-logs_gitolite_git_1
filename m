@@ -1,42 +1,31 @@
-Content-Type: multipart/mixed; boundary="===============8724456254413834298=="
+Content-Type: multipart/mixed; boundary="===============7910442120494508146=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/herbert/crypto-2.6
-Date: Sat, 28 Feb 2026 03:55:06 -0000
-Message-Id: <177225090685.1386452.11143571668492434880@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/herbert/cryptodev-2.6
+Date: Sat, 28 Feb 2026 03:55:19 -0000
+Message-Id: <177225091944.1386715.16774818800789538361@gitolite.kernel.org>
 
---===============8724456254413834298==
+--===============7910442120494508146==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/herbert/crypto-2.6
+repo: pub/scm/linux/kernel/git/herbert/cryptodev-2.6
 user: herbert
 changes:
   - ref: refs/heads/master
     old: 0ce90934c0a6baac053029ad28566536ae50d604
-    new: d240b079a37e90af03fd7dfec94930eb6c83936e
-    log: revlist-0ce90934c0a6-d240b079a37e.txt
+    new: 1eb6c478f1edc4384d8fea765cd13ac01199e8b5
+    log: revlist-0ce90934c0a6-1eb6c478f1ed.txt
 
---===============8724456254413834298==
+--===============7910442120494508146==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-0ce90934c0a6-d240b079a37e.txt
+Content-Disposition: attachment; filename=revlist-0ce90934c0a6-1eb6c478f1ed.txt
 
-698749164aa53cc313248efd2dc1c25dcf25c99c Merge tag 'audit-pr-20260203' of git://git.kernel.org/pub/scm/linux/kernel/git/pcmoore/audit
-bcc8fd3e1573c502edc0cb61abea0e113a761799 Merge tag 'lsm-pr-20260203' of git://git.kernel.org/pub/scm/linux/kernel/git/pcmoore/lsm
-1d3ffe6233b1b6e8697f5027b9441ce70385c997 perf tests workload: Formatting for code_with_type.rs
-6252e917b9006dfa2f3d884fe0dbaf3e676c4108 Merge tag 'selinux-pr-20260203' of git://git.kernel.org/pub/scm/linux/kernel/git/pcmoore/selinux
-42e7c876b182da65723700f6bc507a8aecb10d3b fs/nfs: Fix readdir slow-start regression
-fdc0396b3cc05dc9b678627af23c3fdc7dbe930e nfs: unify security_inode_listsecurity() calls
-3d57c44e918012db1f901d50bc9195a8812ad602 NFSv4: pass lease period in seconds to nfs4_set_lease_period()
-e29a3e61eef6b6c2e60bc1872e9da3bcdbc46c17 NFSv4: limit lease period in nfs4_set_lease_period()
-4b6c6bc6fab51684cc129f91211734f87db6b065 Merge tag 'vfs-7.0-rc1.rust' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
-2a400eeba40b4cf1fb28f78f41bf73a898b00d06 perf test code_with_type.sh: Skip test if rust wasn't available at build time
-bdc5071d7f7bb82589737741e9bf19820ceb7a6a coccinelle: Add kmalloc_objs conversion script
 3d012b8614ee020666f3dd15af9f65dc487e3f5f perf test: Fix test case perftool-testsuite_report for s390
 996812c453cafa042f2e674738dbf8fa495661f3 Merge tag 'vfs-7.0-rc1.initrd' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
 728bea264883031c377fcc9c465b650dbfd1bbf5 sunrpc: rpc_debug and others are defined even if CONFIG_SUNRPC_DEBUG unset
@@ -1050,5 +1039,16 @@ fbf33803618ad4f531f78fe15cf328fe6c7f9978 Merge tag 'fsverity-for-linus' of git:/
 8168a7b72bdee3790b126f63bd30306759206b15 crypto: ccp - allow callers to use HV-Fixed page API when SEV is disabled
 889b0e2721e793eb46cf7d17b965aa3252af3ec8 crypto: ccp - Fix use-after-free on error path
 d240b079a37e90af03fd7dfec94930eb6c83936e crypto: atmel-sha204a - Fix OOM ->tfm_count leak
+a4559a2b37ebbbd3c23041125624f55ef36905d1 crypto: octeontx - Replace scnprintf with strscpy in print_ucode_info
+476466e927ab5354dae90ea0bc3353cfcec0646a crypto: caam - Replace snprintf with strscpy in caam_hash_alloc
+c75daa3730132c55dea7cc9c0f8818aea491fe0c crypto: safexcel - Group authenc ciphersuites
+f050e4209ab0ba3f13bb6272a07ce87cbea922c9 crypto: safexcel - Add support for authenc(hmac(md5),*) suites
+0441ee8d35ad6998da5043c65c4124904e8daee2 crypto: tesmgr - allow authenc(hmac(sha224/sha384),cbc(aes)) in fips mode
+404ba6b46b6e234384b962210a98931f7423f139 crypto: testmgr - Add test vectors for authenc(hmac(md5),cbc(des))
+2127a1bf8940ea76b4fc604fa6b5e4d734ca22ed crypto: virtio - Convert from tasklet to BH workqueue
+b7abbc8c7acaeb60c114b038f1fa91bbedb3d16a crypto: inside-secure/eip93 - fix register definition
+094c276da6a0d4971c3faae09a36b51d096659b2 crypto: atmel-sha204a - Fix error codes in OTP reads
+635c3a757a567b2479639237f5f0d4d9439015f1 crypto: atmel-sha204a - Fix OTP sysfs read and error handling
+1eb6c478f1edc4384d8fea765cd13ac01199e8b5 dt-bindings: crypto: ice: add operating-points-v2 property for QCOM ICE
 
---===============8724456254413834298==--
+--===============7910442120494508146==--
