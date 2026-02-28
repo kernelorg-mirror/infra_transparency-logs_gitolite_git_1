@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Sat, 28 Feb 2026 13:03:33 -0000
-Message-Id: <177228381307.1807801.3844400740206399995@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
+Date: Sat, 28 Feb 2026 13:19:07 -0000
+Message-Id: <177228474702.1819443.2821589548366287488@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
-user: broonie
+repo: pub/scm/linux/kernel/git/jic23/iio
+user: jic23
 changes:
-  - ref: refs/tags/spi-fix-v7.0-rc1
-    old: 0000000000000000000000000000000000000000
-    new: 8a164ad7fa26a837817f1e6ac8249865a8790d45
+  - ref: refs/heads/fixes-togreg
+    old: a81478286f4a7629adbea4a1686e53fcb4831611
+    new: dfe8d50c2467ffd72db597a333f5ffefae827878
+    log: |
+         dfe8d50c2467ffd72db597a333f5ffefae827878 iio: adc: ade9000: fix wrong register in CALIBBIAS case for active power
+         
