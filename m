@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1940342653497699278=="
+Content-Type: multipart/mixed; boundary="===============4120942160742110720=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/at91/linux
-Date: Sat, 28 Feb 2026 13:52:10 -0000
-Message-Id: <177228673038.1846261.16469146287435012949@gitolite.kernel.org>
+Date: Sat, 28 Feb 2026 13:52:13 -0000
+Message-Id: <177228673319.1846416.1552961438824082705@gitolite.kernel.org>
 
---===============1940342653497699278==
+--===============4120942160742110720==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/at91/linux
 user: claudiu.beznea
 changes:
-  - ref: refs/heads/at91-soc
-    old: 0b0f7e6539a7507689445f8a0cace17305272bfe
+  - ref: refs/heads/clk-microchip
+    old: ec8c1f35b5aa7aa63bd398add63a8633adad532c
     new: 6de23f81a5e08be8fbf5e8d7e9febc72a5b5f27f
-    log: revlist-0b0f7e6539a7-6de23f81a5e0.txt
+    log: revlist-ec8c1f35b5aa-6de23f81a5e0.txt
 
---===============1940342653497699278==
+--===============4120942160742110720==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-0b0f7e6539a7-6de23f81a5e0.txt
+Content-Disposition: attachment; filename=revlist-ec8c1f35b5aa-6de23f81a5e0.txt
 
 9e03b7caf4e65f5a5841dfed540fdcc3ff061734 Merge tag 'kvm-x86-misc-6.20' of https://github.com/kvm-x86/linux into HEAD
 2f81bdbdb3aa3fccd9b5420df5674730c40af554 Merge tag 'i3c/for-6.20' of git://git.kernel.org/pub/scm/linux/kernel/git/i3c/linux
@@ -1051,4 +1051,4 @@ aaf96df9593bf4ab1b73c17891e4efe7570fdef3 CREDITS: Add -next to Stephen Rothwell'
 fbf33803618ad4f531f78fe15cf328fe6c7f9978 Merge tag 'fsverity-for-linus' of git://git.kernel.org/pub/scm/fs/fsverity/linux
 6de23f81a5e08be8fbf5e8d7e9febc72a5b5f27f Linux 7.0-rc1
 
---===============1940342653497699278==--
+--===============4120942160742110720==--
