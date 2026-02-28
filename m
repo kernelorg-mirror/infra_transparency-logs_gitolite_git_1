@@ -1,26 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux
-Date: Sat, 28 Feb 2026 11:58:25 -0000
-Message-Id: <177227990581.1756423.7205909938293753731@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mmind/linux-rockchip
+Date: Sat, 28 Feb 2026 12:03:22 -0000
+Message-Id: <177228020286.1760593.5163016696477620950@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux
-user: axboe
+repo: pub/scm/linux/kernel/git/mmind/linux-rockchip
+user: mmind
 changes:
   - ref: refs/heads/for-next
-    old: 251bb9ec90b20f49409592c52e7d47b7f342882a
-    new: f4180b8ce82ec3a9138eb62bba640bd438102dbe
+    old: 0a4016644751b4292ceb09afc15e2f8dfae53ca0
+    new: 807e93f4995aaa49cb1860d54072968751328d4f
     log: |
-         0ed2e8bf61d6d5df1d78f4e24b682dff4c394e17 io_uring: correct comment for IORING_SETUP_TASKRUN_FLAG
-         f4180b8ce82ec3a9138eb62bba640bd438102dbe Merge branch 'io_uring-7.0' into for-next
+         e2919e4299f132823712ecd44c08c8e8fd0a2e3c ARM: dts: rockchip: Remove rockchip,grf from rk3288 tsadc
+         807e93f4995aaa49cb1860d54072968751328d4f Merge branch 'v7.0-armsoc/dtsfixes' into for-next
          
-  - ref: refs/heads/io_uring-7.0
-    old: 3d17d76d1ffb139a7492317b196ee03c8eabc9dc
-    new: 0ed2e8bf61d6d5df1d78f4e24b682dff4c394e17
+  - ref: refs/heads/v7.0-armsoc/dtsfixes
+    old: 696d0082956cac2df3f27fee75cf2c8d4a2c2cfb
+    new: e2919e4299f132823712ecd44c08c8e8fd0a2e3c
     log: |
-         0ed2e8bf61d6d5df1d78f4e24b682dff4c394e17 io_uring: correct comment for IORING_SETUP_TASKRUN_FLAG
+         e2919e4299f132823712ecd44c08c8e8fd0a2e3c ARM: dts: rockchip: Remove rockchip,grf from rk3288 tsadc
          
