@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
-Date: Sat, 28 Feb 2026 12:03:35 -0000
-Message-Id: <177228021557.1760918.5729906364030027649@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/liburing
+Date: Sat, 28 Feb 2026 12:27:50 -0000
+Message-Id: <177228167098.1779662.4722711207090882616@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jic23/iio
-user: jic23
+repo: pub/scm/linux/kernel/git/axboe/liburing
+user: axboe
 changes:
-  - ref: refs/heads/fixes-togreg
-    old: fc06aeae84271e01b73d8311844c76ac2f39af2d
-    new: a81478286f4a7629adbea4a1686e53fcb4831611
+  - ref: refs/heads/master
+    old: 0931f6e72ec2a268865cbefc4cdb99cf21e2d7ed
+    new: bb65e00df7558be8b11101c7632bec67a444f252
     log: |
-         a81478286f4a7629adbea4a1686e53fcb4831611 iio: accel: adxl380: fix FIFO watermark bit 8 always written as 0
+         6e7d75b0bdfcb1e258cb1a558ff3e2d40a58394d change description for IORING_SETUP_TASKRUN_FLAG in iouring.h
+         bb65e00df7558be8b11101c7632bec67a444f252 Merge branch 'master' of https://github.com/mag1c1an1/liburing
          
