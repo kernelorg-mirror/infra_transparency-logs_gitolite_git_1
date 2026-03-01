@@ -1,23 +1,27 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/dakr/linux
-Date: Sun, 01 Mar 2026 23:52:49 -0000
-Message-Id: <177240916909.3439250.3683073724561650358@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/cip/linux-cip
+Date: Sun, 01 Mar 2026 23:59:47 -0000
+Message-Id: <177240958723.3443542.14806827785953289464@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/dakr/linux
-user: dakr
+repo: pub/scm/linux/kernel/git/cip/linux-cip
+user: iwamatsu
 changes:
-  - ref: refs/heads/driver_override
-    old: d5acb56148d016f473e06f641e9e395995f095c0
-    new: 652524dd2faeab34f50cf62e8b7236a3ee71dff8
+  - ref: refs/heads/linux-5.10.y-cip
+    old: ae4236751a84bd62a7ef8483ff9b68fbcd55b19c
+    new: de96b8c0e298067b4bbffa294baeed909a588408
     log: |
-         d976516c72f94b96bdec1aa48e91e980c02986cc driver core: generalize driver_override in struct device
-         2a2a114d74b9d47990669472cbec48780f844cb9 hwmon: axi-fan: don't use driver_override as IRQ name
-         760f17ea8ace29440c3e7cd4fe962207cf095d5e driver core: platform: use generic driver_override infrastructure
-         d789f6d4688120b554352076be5bbe6c791d6fac WIP: treewide: make callsites use generic driver_override
-         652524dd2faeab34f50cf62e8b7236a3ee71dff8 WIP: driver core: remove driver_set_override()
+         c6703c7a9c5154c5ec3b20ba1cf295ca96da7e93 iopoll: Do not use timekeeping in read_poll_timeout_atomic()
+         098d4a2ad1ad8b68c8919efa2975f33360cde6a0 dmaengine: sh: rz-dmac: Fix rz_dmac_terminate_all()
+         aca500650a3ce30a2a371000a6e98100cb40b0fa ASoC: renesas: rz-ssi: Fix channel swap issue in full duplex mode
+         0731b5ee224e7670b337871f2859ba896edaef09 ASoC: renesas: rz-ssi: Fix rz_ssi_priv::hw_params_cache::sample_width
+         c47e0ae39f0499d3a079c6ce42e8f729998cf034 ASoC: renesas: rz-ssi: Use dev variable in probe()
+         1b01f3a66dc56c4e0aee538fb0b9980b0af17091 ASoC: renesas: rz-ssi: Remove trailing comma in the terminator entry
+         58b49b575a0a4e334197fcb4acc451e44ecd3318 ASoC: renesas: rz-ssi: Move DMA configuration
+         1c60cb08d249d4dc265ca5b27ebde3a366013d71 ASoC: renesas: rz-ssi: Add support for 24 bits sample width
+         de96b8c0e298067b4bbffa294baeed909a588408 ASoC: renesas: rz-ssi: Add support for 32 bits sample width
          
