@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4379972730331750269=="
+Content-Type: multipart/mixed; boundary="===============3454953318670629480=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Sun, 01 Mar 2026 02:18:21 -0000
-Message-Id: <177233150152.2441527.3817675010392386450@gitolite.kernel.org>
+Date: Sun, 01 Mar 2026 02:18:45 -0000
+Message-Id: <177233152502.2441860.2643551648977244666@gitolite.kernel.org>
 
---===============4379972730331750269==
+--===============3454953318670629480==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,45 +16,45 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-queue
-    old: bef5cb51104bccd40a5ec8d495e7d1d7c0433bc7
-    new: 563ee8dc1b87ba196ad902d79fd9f6870a42d55d
-    log: revlist-bef5cb51104b-563ee8dc1b87.txt
+  - ref: refs/heads/7.1/scsi-queue
+    old: 6de23f81a5e08be8fbf5e8d7e9febc72a5b5f27f
+    new: e521b77688365e0ed495baa6dae4905428a9f517
+    log: revlist-6de23f81a5e0-e521b7768836.txt
 
---===============4379972730331750269==
+--===============3454953318670629480==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1772331480 -0500
+pusher 75C5DE3D 1772331504 -0500
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1772331480-0694c285e40b55e0380fe550e9bffa91ab4568e8
+nonce 1772331504-96b2603901ce1d159b41e7fe86f9118e20e313a4
 
-bef5cb51104bccd40a5ec8d495e7d1d7c0433bc7 563ee8dc1b87ba196ad902d79fd9f6870a42d55d refs/tags/mkp-scsi-queue
+6de23f81a5e08be8fbf5e8d7e9febc72a5b5f27f e521b77688365e0ed495baa6dae4905428a9f517 refs/heads/7.1/scsi-queue
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmmjodgACgkQ7ulgGnXF
-3j0SWBAArXWoYrvOX0OrcpSvvwdykgHlIwW9lZvdfJ6B9HWRj1jLE2T1IpCg7pb8
-QmB4vfRHxiKRDQNqodUkAgMq8DprpQGZMSW0d9SK9CzU3nfEm6sT9OdCWyLzeZ1n
-wlMfrcQ3ugbtfK0j4pJnTo4e7GfZG6x2S9wGouT/gVfsmhBFp+MjriU0ChbuSEMg
-NDuzIC/kaKZkuK1f9Yzhm/KPpCZKsDmB2QiY+b90LSkZ9hInDUVciRHQITeTDRr3
-Dm2Q0eM58BPLHX1geh8HuREJK3JNesFhH6K0s6ef4QkhJWnZev6lvdY4Ktv+XNrx
-F7Yz0CrpnoRqPxUD19VbNrO/Jnra8ENDzRT9Vv4bHNt4Fh2/OhiS2ARLZD2DMWWA
-/yhH/U35bd5YHzkkpecxjgjTd+lv8r12GsYgLihLIOFa1txAfqjx71hEkwW3MaWn
-Xge6M+QK7TAmuFHumvXg11ngHNXr4UOsIULaIiSYodfWYQ4v8GKkkpn97A63rv0/
-QDjJDdYV7dQPXaRB1qiE//bXrwprdpd480iEn68hpcW9D+0oXSoSQW9ZRUQ5DIA8
-NVS8PWE9Si8Kk004UA8EooTK2wNd4AoDqA1cooDm5uXES4ioyb9pTTMIgRflPh0R
-MhPPoVePL7hQq9fp5JQKABFHePpY/cVjIWPlry5nOO9KyvGMD0k=
-=xtjf
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmmjofAACgkQ7ulgGnXF
+3j1KmQ//XDBu0gouHLWKUihdSZAiMaCJr0q9aVGF5SHgEJ7W/ZCN/LspREGY7Ohl
+aVY+4J2pZORJDBGlHInjdr8wWS2yaOk5+r66ApUuQiZJ0fRa9+lEdzhiDQ+/gpgs
+K3R42U3o1Rek9kA7fEq7KpVhE+qHAzuDRN8pJKRK2qTl8CrLCKpLmZQ5OJ6exN15
+BhD/kPd6sEVp7CdM9Vxc+JWXuTGmbYCn1qqSSnv18KeCSvBzRSsinccwenlE/S7R
+jwdEPhQkFXj0bCKhTzJAuV12z6HbJbVXpow2fQGTG6lBdx9UnRpbEXr2prsbkYli
+i9bMESsEjGOtSxni977CUYkJ0E9qape6F87LZrS0ZxyxmynrFGKe1fcbux2uGQE6
+yuIkHh6JDJpUCjrULm+Jkkk3AVjBs0iMFMR1F/jU8yelT/rT8zflo3PLPmgA+8By
+J3PLiNt/kvpWEYDHwWG1E4DrT+TXOWoX2mRyDGBCgMD8zgyp6hj3NFZWe6qMUSFD
+AdIjeR0dnshOrQqMrq9HzH3hWhfylTJh5w/o2uoJ3dE5YBmwzJ6j10VjHKi/cLap
+co/coXvaSJ+CsjtIQ3wgZ9E/uuHjmgwi3qudzPJMLoacCK+gXoCZTzJq0Msy5UgH
+mgd2xuurBQnl+ZTvs2+cVV+/62He8gv55uQ3l6AQavr+HMl11+U=
+=Rqpg
 -----END PGP SIGNATURE-----
 
---===============4379972730331750269==
+--===============3454953318670629480==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-bef5cb51104b-563ee8dc1b87.txt
+Content-Disposition: attachment; filename=revlist-6de23f81a5e0-e521b7768836.txt
 
 8ecb3ec244acd7db2a6c071d53eb4870619fb5e6 scsi: lpfc: Update log message when ndlp kref get is unsuccessful
 b4082ac8e62ca669beabddff47238cdb33ea47dc scsi: lpfc: Log discarded and insufficient RQE buffer events
@@ -83,4 +83,4 @@ a59d1caf1ded07e38a0f6e98c6491a75faedd70f scsi: fnic: Do not use GFP_ZERO for mem
 fc803a39c42ad3887796cb3afbf7bdd4221199bf scsi: fnic: Make fnic_queuecommand() easier to analyze
 e521b77688365e0ed495baa6dae4905428a9f517 scsi: megaraid_sas: Protect more code with instance->reset_mutex
 
---===============4379972730331750269==--
+--===============3454953318670629480==--
