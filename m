@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7280708143612348738=="
+Content-Type: multipart/mixed; boundary="===============8190998754655244926=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Sun, 01 Mar 2026 17:05:14 -0000
-Message-Id: <177238471482.3120650.7610278089886882826@gitolite.kernel.org>
+Date: Sun, 01 Mar 2026 17:05:21 -0000
+Message-Id: <177238472104.3120937.6156047413272542049@gitolite.kernel.org>
 
---===============7280708143612348738==
+--===============8190998754655244926==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: ast
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/for-next
     old: f620af11c27b8ec9994a39fe968aa778112d1566
     new: 309d8808eef93d29b65ae69241a4475b2c8bd6fe
     log: revlist-f620af11c27b-309d8808eef9.txt
 
---===============7280708143612348738==
+--===============8190998754655244926==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -403,4 +403,4 @@ b9c0a5c48396aea4cde25fc701027ebbc5d78de1 Merge branch 'fix-invariant-violation-f
 eb71ab2bf72260054677e348498ba995a057c463 Merge tag 'bpf-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf
 309d8808eef93d29b65ae69241a4475b2c8bd6fe Merge git://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf before 7.0-rc2
 
---===============7280708143612348738==--
+--===============8190998754655244926==--
