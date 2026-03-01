@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8900378511226002249=="
+Content-Type: multipart/mixed; boundary="===============3209510747535440621=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Sun, 01 Mar 2026 01:20:48 -0000
-Message-Id: <177232804829.2396213.3611777064658213117@gitolite.kernel.org>
+Date: Sun, 01 Mar 2026 01:20:50 -0000
+Message-Id: <177232805019.2396431.2464388314832326969@gitolite.kernel.org>
 
---===============8900378511226002249==
+--===============3209510747535440621==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/mm-new
-    old: 8982358e1c87e3e1dc0aad37f4f93efe9c1cfe03
-    new: ba1da05d3862df940778e1dd40d0ed93eebf3e35
-    log: revlist-8982358e1c87-ba1da05d3862.txt
+  - ref: refs/heads/mm-unstable
+    old: df9c51269a5e2a6fbca2884a756a4011a5e78748
+    new: d57d56360dadf3d510b25748be1010addca7b11d
+    log: revlist-df9c51269a5e-d57d56360dad.txt
 
---===============8900378511226002249==
+--===============3209510747535440621==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8982358e1c87-ba1da05d3862.txt
+Content-Disposition: attachment; filename=revlist-df9c51269a5e-d57d56360dad.txt
 
 e34d951bc036057f3f64d95712291e37b0e786f3 mm: allow __GFP_RETRY_MAYFAIL in vmalloc
 5d5fc4c2de2b7b9f24ecfc1180643529e1d71863 mm: memfd_luo: always make all folios uptodate
@@ -162,84 +162,5 @@ d8a865f49f113e517099c45c73d90a5620a88e69 zram: use statically allocated compress
 eda3b4812fef0c3a7e54c593a67652d520176c68 mm/page_reporting: allow zero page_reporting_order
 8e455ad72c5156b69296e3e246098687f65e4dd5 hv_balloon: change default page reporting order
 d57d56360dadf3d510b25748be1010addca7b11d virtio_balloon: set pr_dev.order to new default
-a1c508d53e151ebd4251aa54a49527c937512ff2 mm: memcontrol: remove dead code of checking parent memory cgroup
-8be9a0b67a4e0b72ea4a1b5b6a2883f52ce8096c mm: workingset: use folio_lruvec() in workingset_refault()
-7bb454dcab7f931c7c4b78cdd6f72056ec8ddef9 mm: rename unlock_page_lruvec_irq and its variants
-17e17f2f1374e8d9cc1790d9351fc5157b0d9bb0 mm: vmscan: prepare for the refactoring the move_folios_to_lru()
-9c6cee7db50a0211697d05a4e9531c1aa4b08761 mm: vmscan: refactor move_folios_to_lru()
-51818f34258fe53651fbce4c3ecd6a5ba5a0f551 mm: memcontrol: allocate object cgroup for non-kmem case
-62617a57c06095701d7b02d60e9f8db08ddec943 mm: memcontrol: return root object cgroup for root memory cgroup
-959b22f77938a411dc41c5975b1653db42f22170 mm: memcontrol: prevent memory cgroup release in get_mem_cgroup_from_folio()
-a0831ccf99df7ca297b66f238e57ff80725ae3b2 buffer: prevent memory cgroup release in folio_alloc_buffers()
-263f44709ca8a9002220b72999a11f5b9ab5ad82 writeback: prevent memory cgroup release in writeback module
-2790fafbf0cf90488413c5c1d42702d86c5782e8 mm: memcontrol: prevent memory cgroup release in count_memcg_folio_events()
-42a5f61901dbd980ecdf699a0efa25963ca6b66a mm: page_io: prevent memory cgroup release in page_io module
-829a54a823f132b885c40989db04ca48b33d78c5 mm: migrate: prevent memory cgroup release in folio_migrate_mapping()
-c38a53ac7e5a2ab6f20710617024fc9d2345b46c mm: mglru: prevent memory cgroup release in mglru
-cda05efe53b19ca49035cf7f9bf357bcddc09d3d mm: memcontrol: prevent memory cgroup release in mem_cgroup_swap_full()
-08c4df39fed390aadbf3e289360ec9a03ec61753 mm: workingset: prevent memory cgroup release in lru_gen_eviction()
-dde5953eb80c542013b8bae4b3aff992ada02088 mm: thp: prevent memory cgroup release in folio_split_queue_lock{_irqsave}()
-352aa1c72067b9efd766a68c3eac095887ea66a5 mm: zswap: prevent memory cgroup release in zswap_compress()
-53adf5a9ecc14d35b557b4594018f809762b3ef7 mm: workingset: prevent lruvec release in workingset_refault()
-31b7afec5e3e80b2818e18689c163ff9ffdbbf2c mm: zswap: prevent lruvec release in zswap_folio_swapin()
-645e7bb75b5be80e3dd3c54316f50c882e282b6e mm: swap: prevent lruvec release in lru_gen_clear_refs()
-646a8565556783c134b47f363d47e8e99b0eb148 mm: workingset: prevent lruvec release in workingset_activation()
-7d223a634f0728a67251c7e2440f5901e2f86e94 mm: do not open-code lruvec lock
-8eb6fc28e39102bf69100eb7bb3707dcaf6c490a mm: memcontrol: prepare for reparenting LRU pages for lruvec lock
-381646ce6e246365a8a4a6068b8cf6dcd121b567 mm: vmscan: prepare for reparenting traditional LRU folios
-0fdd2c191b84e03f8382c6250f0d04414d986a49 mm: vmscan: prepare for reparenting MGLRU folios
-fe1084a371e693cbaebf31c9c1f62eb609efef46 mm: memcontrol: refactor memcg_reparent_objcgs()
-322ad501c014fa35391596de7f83bbfb6e6875d1 mm: workingset: use lruvec_lru_size() to get the number of lru pages
-1a6fb3c7e49b96ed7472193e7f047f951d22b256 mm: memcontrol: prepare for reparenting non-hierarchical stats
-5848e36662122d7517c61a7eef9a782e31240d7d mm-memcontrol-prepare-for-reparenting-non-hierarchical-stats-update
-6a7b9797b91133ad7820bee09ed9ac80103952b6 mm: memcontrol: convert objcg to be per-memcg per-node type
-28fab313cfc3cf0489992c0a191da54d29860efc mm: memcontrol: eliminate the problem of dying memory cgroup for LRU folios
-30890f126727db5ee4bcc7d4cba57ce737f1fb64 mm: lru: add VM_WARN_ON_ONCE_FOLIO to lru maintenance helpers
-a1cf97a72aac9cda0b09d635850650372665b5b3 mm: move MAX_FOLIO_ORDER definition to mmzone.h
-ed6b6b352cc257ce90b03fdda2accfa79f652798 mm: change the interface of prep_compound_tail()
-d11e397f39cced5436dcab67ce3f9d42a93f827d mm: rename the 'compound_head' field in the 'struct page' to 'compound_info'
-1540620c70f11a4267146f4ba20cabcb7e161691 mm: move set/clear_compound_head() next to compound_head()
-dd4fefbcfd5c2909eda7ce8a28a02a14d4bd9ece riscv/mm: align vmemmap to maximal folio size
-316a696bbf36ebdd656e5c441c894be782637f5d LoongArch/mm: align vmemmap to maximal folio size
-0a073751c24e2f92bb7b3cbefec4c30490b78055 mm: rework compound_head() for power-of-2 sizeof(struct page)
-78afd3007d9c9a2256afe305719f226c12a1148c mm/sparse: check memmap alignment for compound_info_has_mask()
-402aaf14c0ea18444e978cc06cf11bcebacb0cea mm/hugetlb: defer vmemmap population for bootmem hugepages
-9913115a7c2cb558af45f8471f34d984d9edbc40 mm/hugetlb: refactor code around vmemmap_walk
-e5938cdd039e9b6bedc0ccb86d730e4da064ff09 x86/vdso: undefine CONFIG_HUGETLB_PAGE_OPTIMIZE_VMEMMAP for vdso32
-5780313b634f4435ba2b832acb8f3bee68a09c7f mm/hugetlb: remove fake head pages
-a246d0b3a9ea20c22aff20a02f09e350df9acdd5 mm: drop fake head checks
-d8e591481a7fb5db7328fa7a523d378611ce8d4f hugetlb: remove VMEMMAP_SYNCHRONIZE_RCU
-c1d3423b88188b08ec36dc0e7d09fd36170bb42d mm/hugetlb: remove hugetlb_optimize_vmemmap_key static key
-eea2258ccec834918dcf5dc9d59c3d58d8781768 mm: remove the branch from compound_head()
-3e9d3a1b927f4a311ada2f15d245aa28ab6dfb84 hugetlb: update vmemmap_dedup.rst
-ce103654c5ace5c1b3f2b246f6aba89e022e7a19 mm/slab: use compound_head() in page_slab()
-9303bf4d5e8966e31c4789587d2f53de0911d8ce mm/damon/core: set quota-score histogram with core filters
-4a317676a6df393ece8879964be7d014f88792d7 mm/damon/core: do non-safe region walk on kdamond_apply_schemes()
-17d34e3ae6b0e0ac61ca1b8cda3443a326b88433 mm: introduce zone lock wrappers
-eefb08cbbd5606eac87f30d7cb37fe3c9dbc7739 mm: convert zone lock users to wrappers
-3671a7289f1a3779510dfec71019ce16ec8d559c mm: convert compaction to zone lock wrappers
-419417a3d101890fc61ab315a8599121b64fee59 mm: rename zone->lock to zone->_lock
-7467f6242e0199584ee5fe7c3efc8ef4f2f0ae6b mm: add tracepoints for zone lock
-81296c7f83c1c2676a6aaa4a463b7d9f720563fb khugepaged: remove redundant index check for pmd-folios
-883de573cd6b6ede1ee3fb385e3e5e8518800e5d mm/pagewalk: drop FW_MIGRATION
-b1f981cf6105ec2cb9342d66169aaf41c324c50a mm: use inline helper functions instead of ugly macros
-d7ce0529e5d7b1fc6b5edafed12f8539014fa23c mm: rename ptep/pmdp_clear_young_notify() to ptep/pmdp_test_and_clear_young_notify()
-1b7ae80f79aa4da7d95da8705244d4826880303f mm: rmap: add a ZONE_DEVICE folio warning in folio_referenced()
-7bb528f89c00b2e55eb38e6a085df2c381702138 mm: add a batched helper to clear the young flag for large folios
-09ef6734035173ba6587a78c3e00bc80cd43500c mm: support batched checking of the young flag for MGLRU
-dd5ce4701955773b76b37b8a2110924f03e086a7 arm64: mm: implement the architecture-specific test_and_clear_young_ptes()
-855744163c6a247931d40303949b12a49efa6957 zram: do not autocorrect bad recompression parameters
-343349fbe7f8194bb0f5d050e12b4e837042ab9b zram: drop ->num_active_comps
-52d400ce9514f7fef36af2a540152b037107d2b5 zram: recompression priority param should override algo
-0635228c7d4fb45c222401a98f2ae96ef09bdca5 zram: update recompression documentation
-7772a059b4ef91bdffec877119787cae2b84f426 zram: remove chained recompression
-1b66c528ac497dd0f7a5c3dcfc739b78d33bbc3c mm/debug_vm_pgtable: replace WRITE_ONCE() with pxd_clear()
-be6137c12b79b2a28f1f558a100cbd6ca6820c58 mm: replace READ_ONCE() in pud_trans_unstable()
-288e22e280afbd56f5dc49b2dde2eb9372768aaa mm/kasan: fix double free for kasan pXds
-322abf1b1edb4a39d9d289c35d4450ce2aecd742 mm/damon/core: split regions for min_nr_regions
-5a8e8d49ee930aa37bcca7a91d093bd0406abc6f mm/damon/vaddr: do not split regions for min_nr_regions
-6547b855782f14fc773f60d436c164b632e30daf mm/damon/test/core-kunit: add damon_apply_min_nr_regions() test
-478bb4578c3737dea8a71e66a197ca73571fd7c1 arm64: mm: fix pass user prot to ioremap_prot in generic_access_phys
-ba1da05d3862df940778e1dd40d0ed93eebf3e35 mm/vmscan: avoid false-positive -Wuninitialized warning
 
---===============8900378511226002249==--
+--===============3209510747535440621==--
