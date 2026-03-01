@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8668064645803160510=="
+Content-Type: multipart/mixed; boundary="===============2022723758804516164=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Sun, 01 Mar 2026 02:18:49 -0000
-Message-Id: <177233152932.2442041.13800167013941077381@gitolite.kernel.org>
+Date: Sun, 01 Mar 2026 02:19:14 -0000
+Message-Id: <177233155425.2442387.9310776452691765585@gitolite.kernel.org>
 
---===============8668064645803160510==
+--===============2022723758804516164==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,71 +16,61 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/queue
-    old: 6de23f81a5e08be8fbf5e8d7e9febc72a5b5f27f
-    new: e521b77688365e0ed495baa6dae4905428a9f517
-    log: revlist-6de23f81a5e0-e521b7768836.txt
+  - ref: refs/tags/mkp-scsi-staging
+    old: e6adcd5585ef555d297838ff1e69c6fbd0032e7b
+    new: 9b2bad5b89001641f5c5c521212aba509a78e384
+    log: revlist-e6adcd5585ef-9b2bad5b8900.txt
 
---===============8668064645803160510==
+--===============2022723758804516164==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1772331527 -0500
+pusher 75C5DE3D 1772331533 -0500
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1772331527-cbe16953bda1c36ec0ab003eef6bf2cd668fa6cd
+nonce 1772331533-3e4bf8be79f1d160e447bea9649b74582b868351
 
-6de23f81a5e08be8fbf5e8d7e9febc72a5b5f27f e521b77688365e0ed495baa6dae4905428a9f517 refs/heads/queue
+e6adcd5585ef555d297838ff1e69c6fbd0032e7b 9b2bad5b89001641f5c5c521212aba509a78e384 refs/tags/mkp-scsi-staging
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmmjogcACgkQ7ulgGnXF
-3j0cvhAAitziOGXXb8D327Xpz6fWgXWdkZrDHYA+JoALXyqWwCaJXsHJutVPm79l
-prjsZ3RUV5AbzhtlgxqEHg+W6TgoB551C9uHpEypWHhN3LcpfJXn3wex2xQKTCrT
-mgfg+aM8ANJPFX8eKSKSig+gQRR0VGVKi4lWSwDOsip5Tx493zoAu5qb8BI0AnTS
-+MiBpxE2/vFxpDqdRg38kZLI+uMdtSthts+PxUvZGvO8kGnQY8uAMDQZt2IieTdL
-hxMkSp099oSkOM4nCEIQvkfQuIy3N+2LTlmBRXg0/z9Ukcqfl7EuRzi+hRoUbqg7
-IakGQjWXwy+pYEfoRoUw3vexqzXh8nMfeawLfFV0KY9gorm8fX5BKhroN1J1j1OJ
-Qo9Pqyi2DeCdy/edpsk5VxZuQQBuLw1oHYEqH2pkYXe8wbrc5PnIYfHqWOAJeMve
-lQzZlAOHanlLlSUFNiAjRoI2ySIdaHzAlGbJF4nrR8LFyWYaiFgTkea4bXX3Jv46
-5H9bdNKrl7QboZ8RAUH0mT2jm8l/QiZrDsea8skcsl5+KNnHN6Vuf7FUMQJX04dZ
-YEfztfQEECLHyat18yBw9XWyVCk2qC2hxTYAyzpVpl2sre+0OsDuSz8XUsSRicwg
-g/JVs45SPNU/28PRlkT1pqz4HkSBO5R4xUOjKh9ti6sh/5LHJFw=
-=M7fL
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmmjog0ACgkQ7ulgGnXF
+3j33/A/+JrV33swaL3uQcFyHQS+hDzQyn2UD75Df6E8iR2Arvp6exUCbc00waLMu
+sAFIIFtfg4wTpZIxdOgMu7NfYBL7OzSd4rAnwSaHmpPC+C3GUganK0j+Yp8GHT5g
+TQDvEpB3Ik9ORYzgPeqKYO5FkPn/w92bkaPK/HXJc5tkq/qi9VwpFrfsWz064IMo
+zaCmtIx48DSmO5YhBOiOHtqLF31bPgIyfbG4AVMxDl6/XFYGuq6lZ/RWEla0PltY
+6CS93Ms1G3D+r/lIYl6kkAeWC3n2PbRN3+ByPr+dlhRjcGC6KV6VLLpR3Zf+ddeu
+vxdZwL0PR+TrMEKF891V2IlB+T8Vj8zCf4riMwOvhXQmgGFs/UFN7Tw7T+dP8ffk
+AjiLtV3z72A7y4SNKU37eZIqrwvTzqTNxOlNwDi4+bbcH8HSeSUGDyvxMk6tsaZN
+ER3/47hsMc83uHzqN/9MoeGvOTu3YrXDv8+O9CXMAVNm9u+w0wXmSNgeMZnN8wEy
+rUZ8MtJ+EV+OFuFGJdBJUrJUstq0BmN++0e6Tp9r5cfwBrGETcgcxW92F0iPMigf
+kazBPdsQXssj+NrTmuCLBo5EMtsnZSVuiXZnVIjIhEOGNUO9gsMJgFoXMSJy8X++
+i57fov6RyTf9hqeZvRu8QnybWcmFHUYaK+8UYvFygFg7Cr0zsAE=
+=n2ux
 -----END PGP SIGNATURE-----
 
---===============8668064645803160510==
+--===============2022723758804516164==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6de23f81a5e0-e521b7768836.txt
+Content-Disposition: attachment; filename=revlist-e6adcd5585ef-9b2bad5b8900.txt
 
-8ecb3ec244acd7db2a6c071d53eb4870619fb5e6 scsi: lpfc: Update log message when ndlp kref get is unsuccessful
-b4082ac8e62ca669beabddff47238cdb33ea47dc scsi: lpfc: Log discarded and insufficient RQE buffer events
-5f442e54e9ef662aaad736ca1af13f20d0448f08 scsi: lpfc: Add log messages to fabric login error labels
-f8c599ad90f53dbe2246935f90ff49693c26b34f scsi: lpfc: Use min_t() instead of min() in lpfc_sli4_driver_resource_setup
-70b468d41b822e4b510761120be3924df966a62d scsi: lpfc: Reduce pointer chasing when accessing vmid_flag
-f6bfb8d149336661bb80e62980da9a45b920403c scsi: lpfc: Remove unnecessary ndlp kref get in lpfc_check_nlp_post_devloss
-6b0bcf4b6430688984fe1ee69fce7165a3e24b92 scsi: lpfc: Cleanup error exit paths in lpfc_fdmi_cmd() and associated messages
-2da10bcaa58a389ca60f8e788180e0dca00739bc scsi: lpfc: Fix incorrect txcmplq_cnt during cleanup in lpfc_sli_abort_ring()
-559a6c2ab097695f7b3cd4fdd5f6aca81ae3da09 scsi: lpfc: Add clean up of aborted NVMe commands during PCI fcn reset
-9714c5463fd1d963fe30193ed75b9578e84278ab scsi: lpfc: Update class of service bit field to 3 bits for WQE submissions
-5807d96c46d5ccfb4c247f16653e616e8c90ae06 scsi: lpfc: Restrict first burst to non-FCoE and SLI4 adapters only
-107cb8ed4f44eeb17f9624e183603c0b885ef039 scsi: lpfc: Update copyright year string for 2026
-6446e8c2b6c76b4d253c46352540ca1f5fa3f854 scsi: lpfc: Update lpfc version to 14.4.0.14
-2a433bf17ca21d6c79d25dc68dd5051b972ba627 Merge patch series "Update lpfc to revision 14.4.0.14"
-931c105de11c2e0e9675fbc061b16a9c5f134dcf scsi: BusLogic: Replace deprecated strcpy() + strcat() in blogic_rdconfig()
-01517654bc258efb2610e53e99fa4ef641d134b9 scsi: ufs: core: Add debug log for UIC command timeout
-3abe4113e784b4a1135fe0e89828afecbfebf862 scsi: ufs: core: Add debug log for MCQ command timeout
-f707860ebc84dd07148c3855e2f0fa9f41a3ed4a scsi: ufs: core: Support UFSHCI 4.1 CQ entry tag
-0e07baae55bc319e4e9559fee352b9252a467db6 scsi: fnic: Use mempool for receive frames
-a59d1caf1ded07e38a0f6e98c6491a75faedd70f scsi: fnic: Do not use GFP_ZERO for mempools
-31eda39bfd468a0fbabc0179e913c0755377e3b5 scsi: fnic: Rename fnic_scsi_fcpio_reset()
-927b5282df6463fea8eeb1342e58cec0fa03b35e scsi: fnic: Refactor in_remove flag and call to fnic_fcpio_reset()
-47e088c9d1a06e0f762ac7ea62ae48c9e16c4def scsi: fnic: Bump up version number
 04d52a5a288ad0349d5d03b384d9cda3cc63d4a1 Merge patch series "fnic 1.8.0.3 update"
 fc803a39c42ad3887796cb3afbf7bdd4221199bf scsi: fnic: Make fnic_queuecommand() easier to analyze
 e521b77688365e0ed495baa6dae4905428a9f517 scsi: megaraid_sas: Protect more code with instance->reset_mutex
+5e0d4fdb98f3ab4c25aabda00b31dd5d4a806638 scsi: lpfc: ELIMINATE kernel-doc warnings in lpfc.h
+cf44b6369b8350e46e66bb69ef975c5aa22cec5e scsi: ufs: qcom,sc7180-ufshc: dt-bindings: Document the Milos UFS Controller
+690d41fae92f0f255b1059d586bf064c63b5bfc3 scsi: ufs: qcom,sc7180-ufshc: dt-bindings: Add UFSHC compatible for x1e80100
+94c125bafa00042daf6d63b4fdd78384abc121fc scsi: core: Add 'serial' sysfs attribute for SCSI/SATA
+3033c471aaf675254efaa0da431e95d91a104b41 scsi: sg: Fix sysctl sg-big-buff register during sg_init()
+d06a310b45e153872033dd0cf19d5a2279121099 scsi: sg: Resolve soft lockup issue when opening /dev/sgX
+50209dec14f8c594a9ef26237b7e7ddd39e12a40 scsi: sg: Remove deprecated sg-big-buff
+7179e626b76eb42f2529c6f6dd6ba88ea2445372 scsi: sd: Enable sector size > PAGE_SIZE in SCSI sd driver
+06933066d88a3093953b062922c016a67d2cdbf8 scsi: target: Add support for completing commands from backend context
+89663fb2e53822863de9cf4bca9636989da96615 scsi: target: Use driver completion preference by default
+e1502d990c8e26fa679b3253ff7db51483e6eb82 scsi: target: Allow userspace to set the completion type
+a4d72d2dd0cbc3ff20f66a9168dd68b191c57409 scsi: vhost-scsi: Report direction completion support
+1bf5c303eb9898930c5313769df14a76c51075c1 Merge patch series "scsi: target: Add support for completing commands from backend context"
 
---===============8668064645803160510==--
+--===============2022723758804516164==--
