@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5805740690429626569=="
+Content-Type: multipart/mixed; boundary="===============7504026695295907410=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/driver-core/driver-core
-Date: Mon, 02 Mar 2026 11:11:20 -0000
-Message-Id: <177244988083.4038436.9729510797512757615@gitolite.kernel.org>
+Date: Mon, 02 Mar 2026 11:12:19 -0000
+Message-Id: <177244993937.4039028.1331515868230328198@gitolite.kernel.org>
 
---===============5805740690429626569==
+--===============7504026695295907410==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/driver-core/driver-core
 user: dakr
 changes:
-  - ref: refs/heads/main
-    old: 6de23f81a5e08be8fbf5e8d7e9febc72a5b5f27f
+  - ref: refs/heads/driver-core-linus
+    old: 78437ab3b769f80526416570f60173c89858dd84
     new: 11439c4635edd669ae435eec308f4ab8a0804808
-    log: revlist-6de23f81a5e0-11439c4635ed.txt
+    log: revlist-78437ab3b769-11439c4635ed.txt
 
---===============5805740690429626569==
+--===============7504026695295907410==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6de23f81a5e0-11439c4635ed.txt
+Content-Disposition: attachment; filename=revlist-78437ab3b769-11439c4635ed.txt
 
 1799d8abeabc68ec05679292aaf6cba93b343c05 xfrm6: fix uninitialized saddr in xfrm6_get_saddr()
 0a4524bc69882a4ddb235bb6b279597721bda197 xfrm: skip templates check for packet offload tunnel mode
@@ -100,9 +100,7 @@ ce5a0f4612dbacc805fe16719f9f6bd18352b70d selftests: drv-net: rss_ctx: test RSS c
 d4f687fbbce45b5e88438e89b5e26c0c15847992 ovpn: tcp - fix packet extraction from stream
 08f97454b7fa39bfcf82524955c771d2d693d6fe KVM: arm64: Fix protected mode handling of pages larger than 4kB
 663c28469d3274d6456f206a6671c91493d85ff1 smb: client: fix cifs_pick_channel when channels are equally loaded
-2692c614f8f05929d692b3dbfd3faef1f00fbaf0 device property: Allow secondary lookup in fwnode_get_next_child_node()
 be704107e79696e855aa41e901a926039b6d2410 regulator: dt-bindings: mt6359: make regulator names unique
-bfcaf4e8ae9b4f52b97fb04ce03be3a01d41cdd0 rust: io: macro_export io_define_read!() and io_define_write!()
 c5794709bc9105935dbedef8b9cf9c06f2b559fa ksmbd: Compare MACs in constant time
 6b4f875aac344cdd52a1f34cc70ed2f874a65757 ksmbd: fix signededness bug in smb_direct_prepare_negotiation()
 47322c469d4a63ac45b705ca83680671ff71c975 dma-mapping: avoid random addr value print out on error path
@@ -217,7 +215,6 @@ bf4fde7db4a8e2613cba36d81ac271f3d66c28f7 erofs: remove more unnecessary #ifdefs
 3d7e6ce34f4fcc7083510c28b17a7c36462a25d4 net: usb: pegasus: enable basic endpoint checking
 4a1ddb0f1c48c2b56f21d8b5200e2e29adf4c1df pidfs: avoid misleading break
 c8dbdc6e380e7e96a51706db3e4b7870d8a9402d net: phy: register phy led_triggers during probe to avoid AB-BA deadlock
-78437ab3b769f80526416570f60173c89858dd84 clk: scu/imx8qxp: do not register driver in probe()
 fb73d0e19f12b793bfe013171d931587f37e3552 MAINTAINERS: Update AMD XGBE driver maintainers
 1348659dc92e9f0f3f86961745792102b8afbfff Merge tag 'for-net-2026-02-23' of git://git.kernel.org/pub/scm/linux/kernel/git/bluetooth/bluetooth
 ab39cc4cb8ceecdc2b61747433e7237f1ac2b789 cpufreq: intel_pstate: Fix NULL pointer dereference in update_cpu_qos_request()
@@ -461,4 +458,4 @@ e2bd1b136926f1ff65d4e0f87ac49b9a4621238c Merge tag 'core-debugobjects-2026-03-01
 949d0a46ad1b9ab3450fb6ed69ff1e3e13c657bd Merge tag 'for-linus' of git://git.kernel.org/pub/scm/virt/kvm/kvm
 11439c4635edd669ae435eec308f4ab8a0804808 Linux 7.0-rc2
 
---===============5805740690429626569==--
+--===============7504026695295907410==--
