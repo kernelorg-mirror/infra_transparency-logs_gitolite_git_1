@@ -1,58 +1,58 @@
-Content-Type: multipart/mixed; boundary="===============3039702879071219115=="
+Content-Type: multipart/mixed; boundary="===============1365919558348127174=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Mon, 02 Mar 2026 13:00:37 -0000
-Message-Id: <177245643730.4131263.16465477482245535934@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Mon, 02 Mar 2026 13:00:40 -0000
+Message-Id: <177245644067.4131353.9250357790046308220@gitolite.kernel.org>
 
---===============3039702879071219115==
+--===============1365919558348127174==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-7.0
+  - ref: refs/heads/spi-7.0
     old: e96493229a6399e902062213c6381162464cdd50
     new: 11439c4635edd669ae435eec308f4ab8a0804808
     log: revlist-e96493229a63-11439c4635ed.txt
-  - ref: refs/heads/for-7.1
+  - ref: refs/heads/spi-7.1
     old: 463279e5881184b608e00b335feba5411a1814e1
     new: d3b693a13b39bce16e284e1c737874966b3a96de
     log: |
          d3b693a13b39bce16e284e1c737874966b3a96de spi: spi-mem: clean up kernel-doc in spi-mem.h
          
 
---===============3039702879071219115==
+--===============1365919558348127174==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1772456435 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
-nonce 1772456435-e703c3d51c44d50fdf1ed025a58b8a194388408f
+pusher C3F436CA30F5D8EB 1772456438 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1772456438-4a683b047e95df15eddd6e3bb9ece9374a9050a8
 
-e96493229a6399e902062213c6381162464cdd50 11439c4635edd669ae435eec308f4ab8a0804808 refs/heads/for-7.0
-463279e5881184b608e00b335feba5411a1814e1 d3b693a13b39bce16e284e1c737874966b3a96de refs/heads/for-7.1
+e96493229a6399e902062213c6381162464cdd50 11439c4635edd669ae435eec308f4ab8a0804808 refs/heads/spi-7.0
+463279e5881184b608e00b335feba5411a1814e1 d3b693a13b39bce16e284e1c737874966b3a96de refs/heads/spi-7.1
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmmlifMACgkQJNaLcl1U
-h9Cz9Qf/fAkm6c2QTByoZpdZesefILVZHWwwxNqASdDqlfiM/K9bPxmdhgrfMoxh
-57jiKFFTSj73boTqf3VPdWVO60lVXA1Oy+lGVpNAUvfFtq2K4gzcbhRQHNs2WT5f
-XoEYggMfbPIhkygRimezW6n4PDUz3gy03Ik0nzKJWhgUe60H+KMw3ws7+eXAfh8r
-oh5JmxbJhQkuhk9n+7S7L3qsJA9sSUm+86E2mhCeD+sOwb9qALlq+0d231SZPLJd
-A9HClcIPlFGRqpTKKMbEG1e970gPXeMi8J9lfNKmeqY9jK4b3oAPGwAktX5t+6x8
-FW+E/eRyBmr0Gq9ccIREuRwD+yDfnw==
-=hPiz
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmmlifcACgkQJNaLcl1U
+h9B5ZAf/cB1b2ohrx8vBuJY+tDENt+GelWh7H2v/73j1BTeLjoeEeW0akMM+jLPq
+Zs3yIdNDa9KKu1l8jVjTiI3XkMcIdWMFtdTo5SieTFpvzGrIBY7BTXamUlHNiE6/
+A3gVTOx0xoEaAHX3+GBryiAWiCRMriWtQwb42YUwmWqSf+0Hk/xpOdXAu6hYo0uq
+ENk1RhRekl/uyyqirlX+pU1cLZwQGgaKVc6o8vNhWmOB2bhSIzB5DpMmV96JuD/D
+7m0PFWE52YfJkqVCB4K7oUDpZOA9FIPzFe9RDTlrRXqZcUgmAugOkUr46aJe4drC
+V5bqMzhlnAU9VlDhkgYZUNBOeajXQw==
+=xMYg
 -----END PGP SIGNATURE-----
 
---===============3039702879071219115==
+--===============1365919558348127174==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -491,4 +491,4 @@ e2bd1b136926f1ff65d4e0f87ac49b9a4621238c Merge tag 'core-debugobjects-2026-03-01
 949d0a46ad1b9ab3450fb6ed69ff1e3e13c657bd Merge tag 'for-linus' of git://git.kernel.org/pub/scm/virt/kvm/kvm
 11439c4635edd669ae435eec308f4ab8a0804808 Linux 7.0-rc2
 
---===============3039702879071219115==--
+--===============1365919558348127174==--
