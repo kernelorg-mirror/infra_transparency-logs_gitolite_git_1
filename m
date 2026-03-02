@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3398409048068291635=="
+Content-Type: multipart/mixed; boundary="===============5291174340125891790=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
-Date: Mon, 02 Mar 2026 14:46:17 -0000
-Message-Id: <177246277763.29190.4237789841356065208@gitolite.kernel.org>
+Date: Mon, 02 Mar 2026 14:46:22 -0000
+Message-Id: <177246278254.29396.7312624499298551702@gitolite.kernel.org>
 
---===============3398409048068291635==
+--===============5291174340125891790==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jlayton/linux
 user: jlayton
 changes:
-  - ref: refs/heads/iino-u64
+  - ref: refs/heads/kdevops
     old: 00d0e8a771d97b079e38fb52e47aba927fdc0932
     new: a78aa308b99423a3e5e38b21caafb407e6f2b047
     log: revlist-00d0e8a771d9-a78aa308b994.txt
 
---===============3398409048068291635==
+--===============5291174340125891790==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -136,4 +136,4 @@ e93673167cff082c5c5a4acffac71eedf512dbc1 dma-buf: replace PRIino with %llu/%llx 
 3bda56dcbd8e28f49f2e599d922dc80d23c463f8 uprobes: replace PRIino with %llu/%llx format strings
 a78aa308b99423a3e5e38b21caafb407e6f2b047 vfs: remove kino_t typedef and PRIino format macro
 
---===============3398409048068291635==--
+--===============5291174340125891790==--
