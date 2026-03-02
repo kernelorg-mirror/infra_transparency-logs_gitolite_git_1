@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2282411975895138329=="
+Content-Type: multipart/mixed; boundary="===============5525273378333576091=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Mon, 02 Mar 2026 23:12:23 -0000
-Message-Id: <177249314305.456985.8438315645594290662@gitolite.kernel.org>
+Date: Mon, 02 Mar 2026 23:21:22 -0000
+Message-Id: <177249368273.464868.12224127290059305548@gitolite.kernel.org>
 
---===============2282411975895138329==
+--===============5525273378333576091==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/broonie/ci
 user: broonie
 changes:
-  - ref: refs/heads/regulator-7.1
-    old: 4add09ab359c8caa6e65b2200911e1de66565eeb
-    new: 4d4becffe425fd8a4ab6bea5a8cb6d23428bd657
-    log: revlist-4add09ab359c-4d4becffe425.txt
+  - ref: refs/heads/regmap-7.1
+    old: 9ab637ac5d3826606947f4e861107da958eda324
+    new: c26137d3a3a8168b49679e30cf3c08177bb2dbe7
+    log: revlist-9ab637ac5d38-c26137d3a3a8.txt
 
---===============2282411975895138329==
+--===============5525273378333576091==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4add09ab359c-4d4becffe425.txt
+Content-Disposition: attachment; filename=revlist-9ab637ac5d38-c26137d3a3a8.txt
 
 1799d8abeabc68ec05679292aaf6cba93b343c05 xfrm6: fix uninitialized saddr in xfrm6_get_saddr()
 0a4524bc69882a4ddb235bb6b279597721bda197 xfrm: skip templates check for packet offload tunnel mode
@@ -460,9 +460,6 @@ f6542af92298d8a44ab5588144086fa2d0edf391 Merge tag 'timers-urgent-2026-03-01' of
 e2bd1b136926f1ff65d4e0f87ac49b9a4621238c Merge tag 'core-debugobjects-2026-03-01' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 949d0a46ad1b9ab3450fb6ed69ff1e3e13c657bd Merge tag 'for-linus' of git://git.kernel.org/pub/scm/virt/kvm/kvm
 11439c4635edd669ae435eec308f4ab8a0804808 Linux 7.0-rc2
-23942b71f07cc99e39d9216a5b370df494759d8c regulator: mt6363: Fix incorrect and redundant IRQ disposal in probe
-2d85ecd6fb0eb2fee0ffa040ec1ddea57b09bc38 regulator: pf9453: Respect IRQ trigger settings from firmware
-e84141846decb77d2826e553318a608b256804e5 regulator: pf9453: Allow shared IRQ
-4d4becffe425fd8a4ab6bea5a8cb6d23428bd657 regulator: pf9453: Fix IRQ trigger and allow
+c26137d3a3a8168b49679e30cf3c08177bb2dbe7 regmap: Merge up v7.0-rc2
 
---===============2282411975895138329==--
+--===============5525273378333576091==--
