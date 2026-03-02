@@ -1,46 +1,71 @@
-Content-Type: multipart/mixed; boundary="===============1841375546179453536=="
+Content-Type: multipart/mixed; boundary="===============6535322438429250683=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/boqun/linux
-Date: Mon, 02 Mar 2026 17:02:44 -0000
-Message-Id: <177247096415.150047.604616075665194839@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
+Date: Mon, 02 Mar 2026 17:10:39 -0000
+Message-Id: <177247143996.157220.8136254958435848667@gitolite.kernel.org>
 
---===============1841375546179453536==
+--===============6535322438429250683==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/boqun/linux
-user: boqun
+repo: pub/scm/linux/kernel/git/tnguy/net-queue
+user: tnguy
 changes:
-  - ref: refs/heads/rust-atomic
-    old: 80f21bf68504b4d6996e3c9c3af0c3e08349b800
-    new: ac7e816ee7b8e36824fdb8c492a00b07e86b6f29
-    log: revlist-80f21bf68504-ac7e816ee7b8.txt
+  - ref: refs/heads/1GbE
+    old: b9c8fc2caea6ff7e45c6942de8fee53515c66b34
+    new: 9439a661c2e80485406ce2c90b107ca17858382d
+    log: revlist-b9c8fc2caea6-9439a661c2e8.txt
 
---===============1841375546179453536==
+--===============6535322438429250683==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-80f21bf68504-ac7e816ee7b8.txt
+Content-Disposition: attachment; filename=revlist-b9c8fc2caea6-9439a661c2e8.txt
 
-38e18d825f7281fdc16d3241df5115ce6eaeaf79 locking: Fix rwlock and spinlock lock context annotations
-39be7b21af24d1d2ed3b18caac57dd219fef226e signal: Fix the lock_task_sighand() annotation
-3dcef70e41ab13483803c536ddea8d5f1803ee25 ww-mutex: Fix the ww_acquire_ctx function annotations
-417d7b2efd2d9f68c7e292be386dbaab3c6b18ac rust: sync: atomic: Remove bound `T: Sync` for `Atomic::from_ptr()`
-4759b747e0ca55f3b8e77d9b79801d2afa4418a8 rust: sync: atomic: Add example for Atomic::get_mut()
-7f848915a83e4c0ecea71a844fb7f117ed2c876c rust: helpers: Generify the definitions of rust_helper_*_{read,set}*
-dfd7644bdc5cd5ebcba5d7dd50a90862ed9e4306 rust: helpers: Generify the definitions of rust_helper_*_xchg*
-2a68baa3956ea6ed635715b5ec453bc05f030ba1 rust: helpers: Generify the definitions of rust_helper_*_cmpxchg*
-2ecb7dd1cafaf56fe598b9ce2e47b5e24878a11d rust: sync: atomic: Clarify the need of CONFIG_ARCH_SUPPORTS_ATOMIC_RMW
-3add7a6a3046a58f2ea1a063472b72a1448a1269 rust: sync: atomic: Add Atomic<*{mut,const} T> support
-57c7cc5064c514873763b53886d5dfa2b8bd43c3 rust: sync: atomic: Add perfromance-optimal Flag type for atomic booleans
-fc0d1ef888281259271057dd2e8fbba4f961388a rust: list: Use AtomicFlag in AtomicTracker
-630440702b81fa092fc7133fac43e1e0dff7556f rust: sync: atomic: Add atomic operation helpers over raw pointers
-1cd7f90964f6ecda4a985d4eff341ee0e17e9414 rust: sync: atomic: Add fetch_sub()
-5c75026eb5fa02df746d20038f98b46e446146dd rust: sync: atomic: Update documentation for `fetch_add()`
-ac7e816ee7b8e36824fdb8c492a00b07e86b6f29 rust: atomic: Update a safety comment in impl of `fetch_add()`
+cfc83a3c71517b59c1047db57da31e26a9dc2f33 batman-adv: Avoid double-rtnl_lock ELP metric worker
+712896ac4bce38a965a1c175f6e7804ed0381334 idpf: increment completion queue next_to_clean in sw marker wait routine
+d11e5da2d6d87d123e339dc9af7bc1682fc533ce idpf: skip deallocating bufq_sets from rx_qgrp if it is NULL
+e403bf4013a665961bdfdf65193e3076c3d155a5 idpf: skip deallocating txq group's txqs if it is NULL
+bc3b31977314433e4685ae92853d1b6e91ad7bc2 idpf: nullify pointers after they are freed
+1500a8662d2d41d6bb03e034de45ddfe6d7d362d idpf: change IRQ naming to match netdev and ethtool queue numbering
+2c31557336a8e4d209ed8d4513cef2c0f15e7ef4 idpf: Fix flow rule delete failure due to invalid validation
+6aa07e23dd3ccd35a0100c06fcb6b6c3b01e7965 ice: recap the VSI and QoS info after rebuild
+a9c354e656597aededa027d63d2ff0973f6b033f ice: fix crash in ethtool offline loopback test
+4b3d54a85bd37ebf2d9836f0d0de775c0ff21af9 i40e: Fix preempt count leak in napi poll tracepoint
+feae40a6a178bb525a15f19288016e5778102a99 ixgbevf: fix link setup issue
+5b644464eeeac485685c6632bcc95347ae6c8677 e1000e: introduce new board type for Panther Lake PCH
+0942fc6d324eb9c6b16187b2aa994c0823557f06 e1000e: clear DPG_EN after reset to avoid autonomous power-gating
+e35626f610f3d2b7953ccddf6a77453da22b3a9e net/sched: ets: fix divide by zero in the offload path
+754a3d081aa205e86af5f889c947157060340185 Merge tag 'batadv-net-pullrequest-20260225' of https://git.open-mesh.org/linux-merge
+2ef2b20cf4e04ac8a6ba68493f8780776ff84300 net: annotate data-races around sk->sk_{data_ready,write_space}
+93c9475c04acad2457a7e7ea4e3ec40a6e6d94a7 bridge: Check relevant per-VLAN options in VLAN range grouping
+13540021be228dcda63d02b2245ce8dad01d8473 selftests: net: Add bridge VLAN range grouping tests
+7e5b450c490ada6f70e08bbd913f0981d33a5a1a Merge branch 'bridge-check-relevant-options-in-vlan-range-grouping'
+be11a537224d72b906db6b98510619770298c8a4 net: ethernet: ti: am65-cpsw-nuss/cpsw-ale: Fix multicast entry handling in ALE table
+62413a9c3cb183afb9bb6e94dd68caf4e4145f4c net/sched: act_gate: snapshot parameters with RCU on replace
+29252397bcc1e0a1f85e5c3bee59c325f5c26341 inet: annotate data-races around isk->inet_num
+0b3cd139be565b85f4a3579e376152b9def6256a net/sched: sch_cake: avoid sync overhead when unlimited
+15c2715a52645fd8e6e18b7abc3449292d118c7c net/sched: sch_cake: fixup cake_mq rate adjustment for diffserv config
+71347b9d8cdaef11c7392718fefe20d2ab512cfb Merge branch 'net-sched-sch_cake-fixes-for-cake_mq'
+ba14798653bb815b4dcd116c5265a9f748bc0c7f selftests: netfilter: nft_queue.sh: avoid flakes on debug kernels
+11cb63b0d1a0685e0831ae3c77223e002ef18189 net/sched: Only allow act_ct to bind to clsact/ingress qdiscs and shared blocks
+b14e82abf78affa50f4cabe8493e17f9adcfcec7 selftests/tc-testing: Create tests to exercise act_ct binding restrictions
+15fba71533bcdfaa8eeba69a5a5a2927afdf664a net: usb: r8152: add TRENDnet TUC-ET2G
+dabffd08545ffa1d7183bc45e387860984025291 net: mana: Ring doorbell at 4 CQ wraparounds
+6996a2d2d0a64808c19c98002aeb5d9d1b2df6a4 udp: Unhash auto-bound connected sk from 4-tuple hash table when disconnected.
+026dfef287c07f37d4d4eef7a0b5a4bfdb29b32d tcp: give up on stronger sk_rcvbuf checks (for now)
+1cc93c48b5d7add5ea038860539893ce1310d72d selftests/net: packetdrill: remove tests for tcp_rcv_*big
+6df0022b6cdbe31c00cf7a47addaf242a2984016 Merge branch '200GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/net-queue
+60abb0ac11dccd6b98fd9182bc5f85b621688861 xsk: Fix fragment node deletion to prevent buffer leak
+f7387d6579d65efd490a864254101cb665f2e7a7 xsk: Fix zero-copy AF_XDP fragment drop
+0eb5965b29989e9e593f502f7c4ef3923141adfd Merge branch 'xsk-fixes-for-af_xdp-fragment-handling'
+74badb9c20b1a9c02a95c735c6d3cd6121679c93 dpaa2-switch: Fix interrupt storm after receiving bad if_id in IRQ handler
+101bacb303e89dc2e0640ae6a5e0fb97c4eb45bb atm: lec: fix null-ptr-deref in lec_arp_clear_vccs
+147792c395db870756a0dc87ce656c75ae7ab7e8 net: ti: icssg-prueth: Fix ping failure after offload mode setup when link speed is not 1G
+9439a661c2e80485406ce2c90b107ca17858382d amd-xgbe: fix MAC_TCR_SS register width for 2.5G and 10M speeds
 
---===============1841375546179453536==--
+--===============6535322438429250683==--
