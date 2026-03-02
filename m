@@ -1,21 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/linusw/linux-integrator
-Date: Mon, 02 Mar 2026 00:07:03 -0000
-Message-Id: <177241002367.3488982.9810930815598290536@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/dakr/linux
+Date: Mon, 02 Mar 2026 00:17:46 -0000
+Message-Id: <177241066687.3515754.13783477393752151189@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/linusw/linux-integrator
-user: linusw
+repo: pub/scm/linux/kernel/git/dakr/linux
+user: dakr
 changes:
-  - ref: refs/heads/b4/aarch64-clear-pages
-    old: 168a83abe293754bfda8e26a9e954999a8594a41
-    new: acb7ab5227dd5a8b7aa87425fdfc8d4acb77773d
+  - ref: refs/heads/driver_override
+    old: 652524dd2faeab34f50cf62e8b7236a3ee71dff8
+    new: 268a990c3f5423afd328f3b8006a627b37979da7
     log: |
-         dbe60c40b86ec4a1168552398b3b64c14c38b2d7 fork: zero vmap stack using clear_pages() instead of memset()
-         c32cdfe40c13abb8b5d602e5a9cbe0f99e8edfef arm64: Implement accelerated clear_pages()
-         acb7ab5227dd5a8b7aa87425fdfc8d4acb77773d arm64: Implement clear_pages()
+         63888832e7721bc563c9074346ea40e3cd604c4a driver core: generalize driver_override in struct device
+         b91e363fd12d08a8e0e3a51374b1bdc605156221 hwmon: axi-fan: don't use driver_override as IRQ name
+         a51a31e782cc9255aad31547e8e80dbd1199ae88 driver core: platform: use generic driver_override infrastructure
+         67f27ae64f38893378fdfb8dad6cfd1dd00c1804 WIP: treewide: make callsites use generic driver_override
+         268a990c3f5423afd328f3b8006a627b37979da7 WIP: driver core: remove driver_set_override()
          
