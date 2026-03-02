@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6997761722723969150=="
+Content-Type: multipart/mixed; boundary="===============4659300102804845133=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs
-Date: Mon, 02 Mar 2026 07:14:37 -0000
-Message-Id: <177243567788.3843861.1865347753644184568@gitolite.kernel.org>
+Date: Mon, 02 Mar 2026 07:15:40 -0000
+Message-Id: <177243574040.3846633.16408891112162236975@gitolite.kernel.org>
 
---===============6997761722723969150==
+--===============4659300102804845133==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/xiang/erofs
 user: xiang
 changes:
-  - ref: refs/heads/master
-    old: 6de23f81a5e08be8fbf5e8d7e9febc72a5b5f27f
-    new: 11439c4635edd669ae435eec308f4ab8a0804808
-    log: revlist-6de23f81a5e0-11439c4635ed.txt
+  - ref: refs/heads/dev-test
+    old: 5accc861ea0dc0ab8cf02fed17f88f05cf514a34
+    new: ba76ecf45d4772d2bee316bb5912d7f4f91b6334
+    log: revlist-5accc861ea0d-ba76ecf45d47.txt
 
---===============6997761722723969150==
+--===============4659300102804845133==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6de23f81a5e0-11439c4635ed.txt
+Content-Disposition: attachment; filename=revlist-5accc861ea0d-ba76ecf45d47.txt
 
 1799d8abeabc68ec05679292aaf6cba93b343c05 xfrm6: fix uninitialized saddr in xfrm6_get_saddr()
 0a4524bc69882a4ddb235bb6b279597721bda197 xfrm: skip templates check for packet offload tunnel mode
@@ -460,5 +460,6 @@ f6542af92298d8a44ab5588144086fa2d0edf391 Merge tag 'timers-urgent-2026-03-01' of
 e2bd1b136926f1ff65d4e0f87ac49b9a4621238c Merge tag 'core-debugobjects-2026-03-01' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 949d0a46ad1b9ab3450fb6ed69ff1e3e13c657bd Merge tag 'for-linus' of git://git.kernel.org/pub/scm/virt/kvm/kvm
 11439c4635edd669ae435eec308f4ab8a0804808 Linux 7.0-rc2
+ba76ecf45d4772d2bee316bb5912d7f4f91b6334 erofs: set fileio bio failed in short read case
 
---===============6997761722723969150==--
+--===============4659300102804845133==--
