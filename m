@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============8642908404371146185=="
+Content-Type: multipart/mixed; boundary="===============6413434927837764027=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/geert/linux-m68k
-Date: Mon, 02 Mar 2026 10:28:47 -0000
-Message-Id: <177244732707.4002070.18186556915154806053@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Mon, 02 Mar 2026 10:30:31 -0000
+Message-Id: <177244743118.4004816.5899307325740329072@gitolite.kernel.org>
 
---===============8642908404371146185==
+--===============6413434927837764027==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/geert/linux-m68k
-user: geert
+repo: pub/scm/linux/kernel/git/tip/tip
+user: bp
 changes:
-  - ref: refs/heads/m68k-queue
-    old: 013a2c1c3b40b93c039bb0482703e1490fecbcab
-    new: 7a8e9ab3b1c23325f34c4a2ce1b34e829488705f
-    log: revlist-013a2c1c3b40-7a8e9ab3b1c2.txt
+  - ref: refs/heads/x86/urgent
+    old: 237dc6a054f6787c2a8f61c59086030267e5e1c5
+    new: 9073428bb204d921ae15326bb7d4558d9d269aab
+    log: revlist-237dc6a054f6-9073428bb204.txt
 
---===============8642908404371146185==
+--===============6413434927837764027==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-013a2c1c3b40-7a8e9ab3b1c2.txt
+Content-Disposition: attachment; filename=revlist-237dc6a054f6-9073428bb204.txt
 
 1799d8abeabc68ec05679292aaf6cba93b343c05 xfrm6: fix uninitialized saddr in xfrm6_get_saddr()
 0a4524bc69882a4ddb235bb6b279597721bda197 xfrm: skip templates check for packet offload tunnel mode
@@ -126,10 +126,6 @@ a8cc55bf81a45772cad44c83ea7bb0e98431094a ALSA: usb-audio: Remove VALIDATE_RATES 
 c17ee635fd3a482b2ad2bf5e269755c2eae5f25e Merge drm/drm-fixes into drm-misc-fixes
 32e0a7ad9c841f46549ccac0f1cca347a40d8685 gpio: shared: fix memory leaks
 03c0d030f5874eec6ce22750b2b8751d6d4303b5 erofs: allow sharing page cache with the same aops only
-aa280a08e7d8fae58557acc345b36b3dc329d595 x86/fred: Correct speculative safety in fred_extint()
-a0cb371b521dde44f32cfe954b6ef6f82b407393 x86/bug: Handle __WARN_printf() trap in early_fixup_exception()
-24c8147abb39618d74fcc36e325765e8fe7bdd7a x86/cfi: Fix CFI rewrite for odd alignments
-237dc6a054f6787c2a8f61c59086030267e5e1c5 x86/headers: Replace __ASSEMBLY__ stragglers with __ASSEMBLER__
 b3d99f43c72b56cf7a104a364e7fb34b0702828b sched/fair: Fix zero_vruntime tracking
 bcd74b2ffdd0a2233adbf26b65c62fc69a809c8e sched/fair: Only set slice protection at pick time
 ff38424030f98976150e42ca35f4b00e6ab8fa23 sched/eevdf: Update se->vprot in reweight_entity()
@@ -460,8 +456,7 @@ f6542af92298d8a44ab5588144086fa2d0edf391 Merge tag 'timers-urgent-2026-03-01' of
 e2bd1b136926f1ff65d4e0f87ac49b9a4621238c Merge tag 'core-debugobjects-2026-03-01' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 949d0a46ad1b9ab3450fb6ed69ff1e3e13c657bd Merge tag 'for-linus' of git://git.kernel.org/pub/scm/virt/kvm/kvm
 11439c4635edd669ae435eec308f4ab8a0804808 Linux 7.0-rc2
-10b583c34bda89493f6215d18af3714a162a7703 m68k: atari: usb: Add ISP1160 USB host controller support
-815ad796df5a6ac89030bcf077f0792b0d559a97 m68k: atari: Update Kconfig.bus help text
-7a8e9ab3b1c23325f34c4a2ce1b34e829488705f m68k: defconfig: Enable Atari EtherNAT and NetUSBee USB support
+4ca191cec17a997d0e3b2cd312f3a884288acc27 x86/boot/sev: Move SEV decompressor variables into the .data section
+9073428bb204d921ae15326bb7d4558d9d269aab x86/sev: Allow IBPB-on-Entry feature for SNP guests
 
---===============8642908404371146185==--
+--===============6413434927837764027==--
