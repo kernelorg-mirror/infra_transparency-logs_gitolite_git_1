@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0480286118140780448=="
+Content-Type: multipart/mixed; boundary="===============7481844350490633523=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mani/mhi
-Date: Mon, 02 Mar 2026 07:41:38 -0000
-Message-Id: <177243729865.3867435.3716712802099352740@gitolite.kernel.org>
+Date: Mon, 02 Mar 2026 07:43:56 -0000
+Message-Id: <177243743681.3868272.9554555651595235537@gitolite.kernel.org>
 
---===============0480286118140780448==
+--===============7481844350490633523==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,18 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/mani/mhi
 user: mani
 changes:
-  - ref: refs/heads/master
-    old: 8f0b4cce4481fb22653697cced8d0d04027cb1e8
-    new: 6de23f81a5e08be8fbf5e8d7e9febc72a5b5f27f
-    log: revlist-8f0b4cce4481-6de23f81a5e0.txt
+  - ref: refs/heads/mhi-next
+    old: 91a0b0dce350766675961892ba4431363c4e29f7
+    new: 6a7084102bb9659f699005c420eb59eade6d3b4f
+    log: revlist-91a0b0dce350-6a7084102bb9.txt
 
---===============0480286118140780448==
+--===============7481844350490633523==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-8f0b4cce4481-6de23f81a5e0.txt
+Content-Disposition: attachment; filename=revlist-91a0b0dce350-6a7084102bb9.txt
 
-9e03b7caf4e65f5a5841dfed540fdcc3ff061734 Merge tag 'kvm-x86-misc-6.20' of https://github.com/kvm-x86/linux into HEAD
 2f81bdbdb3aa3fccd9b5420df5674730c40af554 Merge tag 'i3c/for-6.20' of git://git.kernel.org/pub/scm/linux/kernel/git/i3c/linux
 37b4fbf8dbdfb694f2972d1bd7fcd36304a520dd Merge tag 'tpmdd-next-7.0-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/jarkko/linux-tpmdd
 698749164aa53cc313248efd2dc1c25dcf25c99c Merge tag 'audit-pr-20260203' of git://git.kernel.org/pub/scm/linux/kernel/git/pcmoore/audit
@@ -1050,5 +1049,6 @@ aaf96df9593bf4ab1b73c17891e4efe7570fdef3 CREDITS: Add -next to Stephen Rothwell'
 75e1f66a9ed09f29c6883ea379c174e8cf31f7cc Merge tag 'libcrypto-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/ebiggers/linux
 fbf33803618ad4f531f78fe15cf328fe6c7f9978 Merge tag 'fsverity-for-linus' of git://git.kernel.org/pub/scm/fs/fsverity/linux
 6de23f81a5e08be8fbf5e8d7e9febc72a5b5f27f Linux 7.0-rc1
+6a7084102bb9659f699005c420eb59eade6d3b4f bus: mhi: host: pci_generic: Add Qualcomm SDX35 modem
 
---===============0480286118140780448==--
+--===============7481844350490633523==--
