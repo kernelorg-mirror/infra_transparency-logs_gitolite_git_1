@@ -1,51 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============5280331915576960844=="
+Content-Type: multipart/mixed; boundary="===============1159201138314558686=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
-Date: Mon, 02 Mar 2026 14:45:35 -0000
-Message-Id: <177246273538.27648.1561230541940115148@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Mon, 02 Mar 2026 14:45:38 -0000
+Message-Id: <177246273867.27773.1668106109292417075@gitolite.kernel.org>
 
---===============5280331915576960844==
+--===============1159201138314558686==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regulator
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-7.0
+  - ref: refs/heads/regulator-7.0
     old: bfd7db781e2e7a99b086d645a104d16e368f58ff
     new: 23942b71f07cc99e39d9216a5b370df494759d8c
     log: revlist-bfd7db781e2e-23942b71f07c.txt
 
---===============5280331915576960844==
+--===============1159201138314558686==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1772462733 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/regulator.git
-nonce 1772462733-59ea94d110a2eae94ac96e7b7f2447b8a74ac533
+pusher C3F436CA30F5D8EB 1772462737 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1772462736-cccca5898aa4d3a15e4a4fdfc557270b0b092c70
 
-bfd7db781e2e7a99b086d645a104d16e368f58ff 23942b71f07cc99e39d9216a5b370df494759d8c refs/heads/for-7.0
+bfd7db781e2e7a99b086d645a104d16e368f58ff 23942b71f07cc99e39d9216a5b370df494759d8c refs/heads/regulator-7.0
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmmloo0ACgkQJNaLcl1U
-h9DIfwf/a18zmxW3/v9UAlY2S8AWscW5Ii5/LyVow9O3Q4gkXMjN2Impp1IyDfuN
-0padlr9BZr59sH7Grd8xdRDvFjMQaE1KchvVq1pHnI9ibKuhaIa17XENhdV4nHgR
-a/5gSAunVVmGDyTDYXWQ51tq81O7slqGkZq7VYAp9E0MxNJWEvSUL6PQ9ZUQpmff
-KauYU98iZm189SJ9oj5iv4pL3Pqr/CEraGFAmDCnSRB8dBHhM2QEEcqpj6Pzv4M0
-RlYrZFNNzHGD2dvXucRylwGYVC1Kp34Vo5np2BPt3r4Hrsi+nUOWa4Npf0v1HZOJ
-GN8rr6kzpekGJpgm063SHDYtXsudjw==
-=VjDR
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmmlopEACgkQJNaLcl1U
+h9C4tgf9G5Hwf8E9XTEwn7XJMDP6KZlMX4uQ/7aRr68oPoMNvRX12TkMtFD9LpzU
+y6qfPPpJIBKz8IevOXHMR/id7rlPbJeOGrTwhzQ4DT9Bav3xmKrqR+pBIpiH0TQb
+v1xgXLsSSLIv91d/kpLsJPp9L+tU9G3b23eJtkMX6ZvcsQnXp9CacMWRqy3JD5a3
+jibhkV8KnsUBqafDb8ruohswvLLHfuVzbAamAGE7YNtk8Zb5GY618sVWkXEnWLFm
+IC+NLyA3ynT13qnUYOIFcaR+R4cZARkNfEK7Eyqc05ATpCR/Niic4zYk5QcfLMO5
+RRoBDSqHguljbOtR+MBqvSYHhq/8PQ==
+=wEr4
 -----END PGP SIGNATURE-----
 
---===============5280331915576960844==
+--===============1159201138314558686==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -482,4 +482,4 @@ e2bd1b136926f1ff65d4e0f87ac49b9a4621238c Merge tag 'core-debugobjects-2026-03-01
 11439c4635edd669ae435eec308f4ab8a0804808 Linux 7.0-rc2
 23942b71f07cc99e39d9216a5b370df494759d8c regulator: mt6363: Fix incorrect and redundant IRQ disposal in probe
 
---===============5280331915576960844==--
+--===============1159201138314558686==--
