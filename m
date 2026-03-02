@@ -1,32 +1,31 @@
-Content-Type: multipart/mixed; boundary="===============2263063928489993950=="
+Content-Type: multipart/mixed; boundary="===============4637902615888958233=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/superm1/linux
-Date: Mon, 02 Mar 2026 16:33:17 -0000
-Message-Id: <177246919756.123873.18335889068463514070@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Mon, 02 Mar 2026 16:35:55 -0000
+Message-Id: <177246935583.127348.14638624354024731078@gitolite.kernel.org>
 
---===============2263063928489993950==
+--===============4637902615888958233==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/superm1/linux
-user: superm1
+repo: pub/scm/linux/kernel/git/tip/tip
+user: bp
 changes:
-  - ref: refs/heads/amd-pstate-fixes
-    old: 85d7dda5a9f665ea579741ec873a8841f37e8943
-    new: 11439c4635edd669ae435eec308f4ab8a0804808
-    log: revlist-85d7dda5a9f6-11439c4635ed.txt
+  - ref: refs/heads/x86/misc
+    old: 6b32c93560cb194e10279bd3be3c1d0fa30df3e7
+    new: 9a4af5a00a8bff84d8d499e43d3424173835173c
+    log: revlist-6b32c93560cb-9a4af5a00a8b.txt
 
---===============2263063928489993950==
+--===============4637902615888958233==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-85d7dda5a9f6-11439c4635ed.txt
+Content-Disposition: attachment; filename=revlist-6b32c93560cb-9a4af5a00a8b.txt
 
-41af6215cdbcecd12920f211239479027904abf3 drm/amd/display: Reject cursor plane on DCE when scaled differently than primary
 29b1b0b06defd4dcbb8af246270a9ad8686b89ed drm/amd/pm: use debug port for mode1 reset request on smu 13&14
 d76c66c6ad83994181967d7427385aab4c009ae0 drm/amd/pm: send unload command to smu during modprobe -r amdgpu
 e98bb71e246cd18c9718aba70718e845b6d134e8 drm/amdgpu: Load TA ucode for PSP 15_0_0
@@ -1050,5 +1049,6 @@ f6542af92298d8a44ab5588144086fa2d0edf391 Merge tag 'timers-urgent-2026-03-01' of
 e2bd1b136926f1ff65d4e0f87ac49b9a4621238c Merge tag 'core-debugobjects-2026-03-01' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 949d0a46ad1b9ab3450fb6ed69ff1e3e13c657bd Merge tag 'for-linus' of git://git.kernel.org/pub/scm/virt/kvm/kvm
 11439c4635edd669ae435eec308f4ab8a0804808 Linux 7.0-rc2
+9a4af5a00a8bff84d8d499e43d3424173835173c x86/mtrr: Use kstrtoul() in parse_mtrr_spare_reg()
 
---===============2263063928489993950==--
+--===============4637902615888958233==--
