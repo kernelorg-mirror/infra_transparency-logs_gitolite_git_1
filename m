@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Mon, 02 Mar 2026 13:00:04 -0000
-Message-Id: <177245640415.4129490.14948021670177260266@gitolite.kernel.org>
+Date: Mon, 02 Mar 2026 13:00:08 -0000
+Message-Id: <177245640878.4130254.15138641257391630237@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,9 +11,9 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/broonie/ci
 user: broonie
 changes:
-  - ref: refs/heads/asoc-7.1
-    old: 2974aa42e6696a1d95b727d677dc01a71af5b998
-    new: da37bfe76b5b4ccc01ed8132215098e20d78e5f3
+  - ref: refs/heads/spi-7.1
+    old: 463279e5881184b608e00b335feba5411a1814e1
+    new: d3b693a13b39bce16e284e1c737874966b3a96de
     log: |
-         da37bfe76b5b4ccc01ed8132215098e20d78e5f3 ASoC: cs42xx8: add error checks for constraints in TDM mode
+         d3b693a13b39bce16e284e1c737874966b3a96de spi: spi-mem: clean up kernel-doc in spi-mem.h
          
