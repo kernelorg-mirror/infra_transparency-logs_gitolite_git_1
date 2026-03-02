@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============9047163187328557953=="
+Content-Type: multipart/mixed; boundary="===============7482160754537251021=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/superm1/linux
-Date: Mon, 02 Mar 2026 16:32:03 -0000
-Message-Id: <177246912377.122699.17746384652078757031@gitolite.kernel.org>
+Date: Mon, 02 Mar 2026 16:32:58 -0000
+Message-Id: <177246917818.123239.4863036571215495082@gitolite.kernel.org>
 
---===============9047163187328557953==
+--===============7482160754537251021==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/superm1/linux
 user: superm1
 changes:
-  - ref: refs/heads/bleeding-edge
-    old: 8ea7b97f0589d969a991ed1f11f5383080980864
+  - ref: refs/heads/linux-next
+    old: bb31fef0d03ed17d587b40e3458786be408fb9df
     new: 11439c4635edd669ae435eec308f4ab8a0804808
-    log: revlist-8ea7b97f0589-11439c4635ed.txt
+    log: revlist-bb31fef0d03e-11439c4635ed.txt
 
---===============9047163187328557953==
+--===============7482160754537251021==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8ea7b97f0589-11439c4635ed.txt
+Content-Disposition: attachment; filename=revlist-bb31fef0d03e-11439c4635ed.txt
 
 41af6215cdbcecd12920f211239479027904abf3 drm/amd/display: Reject cursor plane on DCE when scaled differently than primary
 29b1b0b06defd4dcbb8af246270a9ad8686b89ed drm/amd/pm: use debug port for mode1 reset request on smu 13&14
@@ -1051,4 +1051,4 @@ e2bd1b136926f1ff65d4e0f87ac49b9a4621238c Merge tag 'core-debugobjects-2026-03-01
 949d0a46ad1b9ab3450fb6ed69ff1e3e13c657bd Merge tag 'for-linus' of git://git.kernel.org/pub/scm/virt/kvm/kvm
 11439c4635edd669ae435eec308f4ab8a0804808 Linux 7.0-rc2
 
---===============9047163187328557953==--
+--===============7482160754537251021==--
