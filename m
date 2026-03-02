@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0244459598808688327=="
+Content-Type: multipart/mixed; boundary="===============2996117947192295948=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mptcp/linux
-Date: Mon, 02 Mar 2026 12:02:30 -0000
-Message-Id: <177245295080.4083769.4161873069583995272@gitolite.kernel.org>
+Date: Mon, 02 Mar 2026 12:12:09 -0000
+Message-Id: <177245352969.4091466.1758711567495755549@gitolite.kernel.org>
 
---===============0244459598808688327==
+--===============2996117947192295948==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/mptcp/linux
 user: matttbe
 changes:
-  - ref: refs/heads/export
-    old: 8c746bc846a4148976c11a69c1175a049fff5da7
-    new: beb975703c27a05efafe4631a1b8d862aa47764e
-    log: revlist-8c746bc846a4-beb975703c27.txt
+  - ref: refs/heads/export-net
+    old: ca3a60dc7df9f019289be14d7ca6898f8431381e
+    new: 4f98907cab20e473af3a69d0e4c63b321a9f603a
+    log: revlist-ca3a60dc7df9-4f98907cab20.txt
 
---===============0244459598808688327==
+--===============2996117947192295948==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8c746bc846a4-beb975703c27.txt
+Content-Disposition: attachment; filename=revlist-ca3a60dc7df9-4f98907cab20.txt
 
 0d4b3ca115b5436d7e68453527566db3e87ab7f0 xtensa: align: validate access in fast_load_store
 d311783bc68b011c77a4ef81321de2c94d7deffc perf list: Remove unused 'sep' variable
@@ -759,151 +759,54 @@ feae40a6a178bb525a15f19288016e5778102a99 ixgbevf: fix link setup issue
 5b644464eeeac485685c6632bcc95347ae6c8677 e1000e: introduce new board type for Panther Lake PCH
 0942fc6d324eb9c6b16187b2aa994c0823557f06 e1000e: clear DPG_EN after reset to avoid autonomous power-gating
 f4d0ec0aa20d49f09dc01d82894ce80d72de0560 Merge tag 'erofs-for-7.0-rc2-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/xiang/erofs
-376cf4227401f538cce799aee91bc33fb008d388 net/mlx5e: Make mlx5e_rq_param naming consistent
-d3a99b71a29ce6a9c157bba50028a82c4a129c3c net/mlx5e: Extract striding rq param calculation in function
-a2ff2f5f808fe2638361fc634e8f3a2d73353bc8 net/mlx5e: Extract max_xsk_wqebbs into its own function
-ba4f39c256f503b4c6685f83f2a09d0a170a8144 net/mlx5e: Expose and rename xsk channel parameter function
-8a96b9144f18a2c996d3cfead85e4ca0f9e58de7 net/mlx5e: Alloc xsk channel param out of mlx5e_open_xsk()
-099efb294e0a0c8cc4984a8c56b9a69e480ac5e9 net/mlx5e: Move xsk param into new option container struct
-3707a73854c1614a268e43a0fd98292a699f3b35 net/mlx5e: Drop unused channel parameters
-dff1c3164a69284ac9fedb1c25d4c008139e9fb8 net/mlx5e: SHAMPO, Always calculate page size
-3a145cf492a3a154afb288cd460adf6721614eab net/mlx5e: Set page_pool order based on calculated page_shift
-0285cc3dac1b4ceb3dacdfce43627d41d649cf47 net/mlx5e: Alloc rq drop page based on calculated page_shift
-8611660778bf5db9f5f063c9bd58d41012801cb8 net/mlx5e: RX, Make page frag bias more robust
-0fa8c93357601cbfb7006a420fd3b63f4a06af11 net/mlx5e: Add queue config ops for page size
-585cfa99d3578db997423e79c9c99d4e5e428271 net/mlx5e: Pass netdev queue config to param calculations
-5b6e0ddb368625f37b66f6f3efba88e5bc93618e net/mlx5e: Add param helper to calculate max page size
-df5135fced85bf3c3dfe174f1cf853cdf39312e5 net/mlx5e: SHAMPO, Allow high order pages in zerocopy mode
-90fcb0f3bc5ab67773b35030af68ed8c6bd83e1c Merge branch 'net-mlx5e-shampo-allow-high-order-pages-in-zerocopy-mode'
 a382a34276cb94d1cdc620b622dd85c55589a166 selftests/vsock: change tests to respect write-once child ns mode
 102eab95f025b4d3f3a6c0a858400aca2af2fe52 vsock: lock down child_ns_mode as write-once
 b6302e057fdc8f199ddae736ecdf45029f892e5c vsock: document write-once behavior of the child_ns_mode sysctl
 f0a2f2aadbef0d44e6df7b43a32b509fbbf39349 Merge branch 'vsock-add-write-once-semantics-to-child_ns_mode'
 7aa767d0d3d04e50ae94e770db7db8197f666970 net: consume xmit errors of GSO frames
-15c9ed1d8286dc0297f01347dc74f5a8cbc173de pppoe: remove kernel-mode relay support
-4916f2e2f3fc9aef289fcd07949301e5c29094c2 bonding: print churn state via netlink
 8a5752c6dcc085a3bfc78589925182e4e98468c5 dpaa2-switch: validate num_ifs to prevent out-of-bounds write
 baed0d9ba91d4f390da12d5039128ee897253d60 netfilter: nf_conntrack_h323: fix OOB read in decode_choice()
 b9c8fc2caea6ff7e45c6942de8fee53515c66b34 Merge tag 'net-7.0-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
-0314e382cf02983eb3c33ac537ad9701e7858bc9 Merge git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
-5c894879f17c70cd93712b30fa62e6803b1c46e2 net: stmmac: ptp: limit n_per_out
-d68d21ea6b29f87f1c334f007e845ca5fb678c80 docs: net: document neigh gc_interval sysctl
-f22b4e6fbba5c50612ca82220f34f8fa2ad1d24d octeontx2-af: CGX: replace kfree() with rvu_free_bitmap()
-5cf47393d96f211836ce98a22cebdf0eb8555413 docs: ethtool: clarify the bit-by-bit bitset format description
-363c5108e4e2b3b5f99243e61d524dd9c23d8c1b inet: remove three EXPORT_SYMBOL()
 e35626f610f3d2b7953ccddf6a77453da22b3a9e net/sched: ets: fix divide by zero in the offload path
 754a3d081aa205e86af5f889c947157060340185 Merge tag 'batadv-net-pullrequest-20260225' of https://git.open-mesh.org/linux-merge
-1338cfef1ff1b95891990f8677631a834c2cf22d net: macb: fix SGMII with inband aneg disabled
-7f44b2acc5a111471d8a3ae0e809bd419c0237e0 net: macb: add support for reporting SGMII inband link status
-d3549e2b48187dc042c0b37bac387948146a023b net: macb: add the .pcs_inband_caps() callback for SGMII
-ed02c6b8b570d49e9766d60b1d9b48ea5e2cfaed Merge branch 'support-phys-that-have-inband-autoneg-disabled-with-gem'
-b70190d767be4464e092b252185fa65398bcc662 net: atlantic: fix reading SFP module info on some AQC100 cards
-aebf15e8eb09b01e99f043e9f5d423798aac9d32 net: airoha: fix typo in function name
 2ef2b20cf4e04ac8a6ba68493f8780776ff84300 net: annotate data-races around sk->sk_{data_ready,write_space}
 93c9475c04acad2457a7e7ea4e3ec40a6e6d94a7 bridge: Check relevant per-VLAN options in VLAN range grouping
 13540021be228dcda63d02b2245ce8dad01d8473 selftests: net: Add bridge VLAN range grouping tests
 7e5b450c490ada6f70e08bbd913f0981d33a5a1a Merge branch 'bridge-check-relevant-options-in-vlan-range-grouping'
 be11a537224d72b906db6b98510619770298c8a4 net: ethernet: ti: am65-cpsw-nuss/cpsw-ale: Fix multicast entry handling in ALE table
-fd6dad4e1ae296b67b87291256878a58dad36c93 netmem: remove the pp fields from net_iov
 62413a9c3cb183afb9bb6e94dd68caf4e4145f4c net/sched: act_gate: snapshot parameters with RCU on replace
 29252397bcc1e0a1f85e5c3bee59c325f5c26341 inet: annotate data-races around isk->inet_num
-11c0663a595801b6e6f7a937adec8532706ef486 net: phy: micrel: Add support for lan9645x internal phy
-b99ccb37eda85a9070d1f9f275fc8ca1f4e33024 net/hsr: update outdated comments
-5151ec54f5861ad71e08190a7ce2173df788d36a net: use try_cmpxchg() in lock_sock_nested()
 0b3cd139be565b85f4a3579e376152b9def6256a net/sched: sch_cake: avoid sync overhead when unlimited
 15c2715a52645fd8e6e18b7abc3449292d118c7c net/sched: sch_cake: fixup cake_mq rate adjustment for diffserv config
 71347b9d8cdaef11c7392718fefe20d2ab512cfb Merge branch 'net-sched-sch_cake-fixes-for-cake_mq'
-da89f2e3121531804f45abd33db05b432e42606c tls: don't select STREAM_PARSER
-9a04d3b2f0708a9e5e1f731bafb69b040bb934a0 net: ethernet: mtk_eth_soc: avoid writing to ESW registers on MT7628
-c31770c49348fb019167fa95119f330597c99193 vmxnet3: Suppress page allocation warning for massive Rx Data ring
 ba14798653bb815b4dcd116c5265a9f748bc0c7f selftests: netfilter: nft_queue.sh: avoid flakes on debug kernels
-e8e83b67960c20a9e60d4181631509d59f03488b r8152: Add 2500baseT EEE status/configuration support
 11cb63b0d1a0685e0831ae3c77223e002ef18189 net/sched: Only allow act_ct to bind to clsact/ingress qdiscs and shared blocks
 b14e82abf78affa50f4cabe8493e17f9adcfcec7 selftests/tc-testing: Create tests to exercise act_ct binding restrictions
-9ff2d2a9837015ff4b3579b028aeae8c180aa8d3 ipv6: discard fragment queue earlier if there is malformed datagram
-6466441a5ecd1c1168264e4c322bae455579b156 net: inline skb_add_rx_frag_netmem()
-2164242c50084bd5b359b7d554d3a124e2c19074 NFC: fix header file kernel-doc warnings
-57cc8ab3e9f2c460204bc8facb7932b9b53be878 net/handshake: Fixed grammar mistake
-97c55c1298ac89f4dc00c055a593c13004141661 net: ethernet: litex: use devm_register_netdev() to register netdev
-621e3634dfab890e8d97e082588b3d6d6d688d91 net: ethernet: litex: use device pointer to simplify code.
-1e08faf996c3dc7baf584ba72e52215a3d028a8f Merge branch 'net-ethernet-litex-minor-improvment-for-the-codebase'
 15fba71533bcdfaa8eeba69a5a5a2927afdf664a net: usb: r8152: add TRENDnet TUC-ET2G
 dabffd08545ffa1d7183bc45e387860984025291 net: mana: Ring doorbell at 4 CQ wraparounds
-58e443b773ef054ae069cf777ba19adb99d73829 net: fix sock compilation error under CONFIG_PREEMPT_RT
 6996a2d2d0a64808c19c98002aeb5d9d1b2df6a4 udp: Unhash auto-bound connected sk from 4-tuple hash table when disconnected.
 026dfef287c07f37d4d4eef7a0b5a4bfdb29b32d tcp: give up on stronger sk_rcvbuf checks (for now)
 1cc93c48b5d7add5ea038860539893ce1310d72d selftests/net: packetdrill: remove tests for tcp_rcv_*big
 6df0022b6cdbe31c00cf7a47addaf242a2984016 Merge branch '200GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/net-queue
-a9a13c7379ec577e676dca57aa2d7b7980aaa05b keys, dns: Use kmalloc_flex to improve dns_resolver_preparse
 60abb0ac11dccd6b98fd9182bc5f85b621688861 xsk: Fix fragment node deletion to prevent buffer leak
 f7387d6579d65efd490a864254101cb665f2e7a7 xsk: Fix zero-copy AF_XDP fragment drop
 0eb5965b29989e9e593f502f7c4ef3923141adfd Merge branch 'xsk-fixes-for-af_xdp-fragment-handling'
-07993df560917357610e0625a9a2e7531c3211fc gve: Update QPL page registration logic
-a2f19184014f309165d2d4cfb41088b75c1121a4 gve: Enable reading max ring size from the device in DQO-QPL mode
-eed562b2a6d088d1afa83cd60b2eccaec08e81ca Merge branch 'gve-support-larger-ring-sizes-in-dqo-qpl-mode'
 74badb9c20b1a9c02a95c735c6d3cd6121679c93 dpaa2-switch: Fix interrupt storm after receiving bad if_id in IRQ handler
 101bacb303e89dc2e0640ae6a5e0fb97c4eb45bb atm: lec: fix null-ptr-deref in lec_arp_clear_vccs
-ded4a02e7d0497c91ec8665e904c7dc817922993 ipv6: sit: Replace deprecated strcpy with strscpy
-1396771b0b7741d517d591cfb63333d3f97a8f6d octeontx2-af: npc: cn20k: Index management
-5868682b68dd4ff3b8ef7fcbf3db4e2de5ae8cb2 octeontx2-af: npc: cn20k: KPM profile changes
-a2df2f95eac06352f33636c0ba189608a64646ef octeontx2-af: npc: cn20k: Add default profile
-ef992a0f12e8268908ebabe91ab40442a876f303 octeontx2-af: npc: cn20k: MKEX profile support
-09d3b7a1403f018331afb42e16404942d831b029 octeontx2-af: npc: cn20k: Allocate default MCAM indexes
-6d1e70282f7607948085a510ea03b9a10b5571f7 octeontx2-af: npc: cn20k: Use common APIs
-de3f88b465c8fda07b1dc44648a99f7dec390705 octeontx2-af: npc: cn20k: Prepare for new SoC
-4e527f1e5c155ce28164ba34cad47b635d16f827 octeontx2-af: npc: cn20k: Add new mailboxes for CN20K silicon
-645c6e3c19999007446790b4b823452a7b3a3981 octeontx2-af: npc: cn20k: virtual index support
-9000cada7aa9593df9b0c105f906fdfb43a5b341 octeontx2-af: npc: cn20k: Allocate MCAM entry for flow installation
-0d12d26701b0d35fd992551cf5608485a706e686 octeontx2-pf: cn20k: Add TC rules support
-528530dff56b4a39a19b1ead9de376d22d0baf71 octeontx2-af: npc: cn20k: add debugfs support
-2e8aeb7ff0b27966e988b0f464fb1b91e7dfafb7 octeontx2-af: npc: Use common structures
-d578b4729399979f14f7ddd6a80e3ae0832c2e0c Merge branch 'npc-hw-block-support-for-cn20k'
 147792c395db870756a0dc87ce656c75ae7ab7e8 net: ti: icssg-prueth: Fix ping failure after offload mode setup when link speed is not 1G
 9439a661c2e80485406ce2c90b107ca17858382d amd-xgbe: fix MAC_TCR_SS register width for 2.5G and 10M speeds
-595da751c8222ca957cfdc0161d9845a75c67046 icmp: fix ICMP error source address when xfrm policy matches
-5b43d35e571fc957fd126c310663a4665f1e7511 selftests: net: add ICMP error source address test over xfrm tunnel
-52d534aa6640a41f9813c7dfe30b65b11e4d7416 Merge branch 'icmp-fix-icmp-error-source-address-over-xfrm-tunnel'
-ff2998f29f390d963299103f0b247cc79106ced5 net: sched: introduce qdisc-specific drop reason tracing
-3e28f8ad478f165260deba751858afac46cffd2f net: sched: sfq: convert to qdisc drop reasons
-f30d9073ec1909a3b06a9cee57215bed3458da80 net: sched: rename QDISC_DROP_FQ_* to generic names
-9d3e7f9718987338d9cfbd64292aab6a739d9d32 net: sched: rename QDISC_DROP_CAKE_FLOOD to QDISC_DROP_FLOOD_PROTECTION
-67713dff6398315461db56fdf208e7fd7e37078e net: sched: sch_dualpi2: use qdisc_dequeue_drop() for dequeue drops
-01857fc712f6469cab9cc578120cdc80f1c2a634 Merge branch 'net-sched-refactor-qdisc-drop-reasons-into-dedicated-tracepoint'
-81f138be8fd38f6f86e83265e5dc7ce4ecc69fcc DO-NOT-MERGE: git markup: net
-28dafcf06ce69d705c1f7d500658bd508e2fd575 DO-NOT-MERGE: git markup: fixes other trees
-d9aea4ee18fb61183ae808fb0b557e57b1591666 selftests: mptcp: more stable simult_flows tests
-e028069376c1e688956300ebdc95ea0d64c6c9ed mptcp: pm: avoid sending RM_ADDR over same subflow
-2944809b68ebc1d7339f3b81f093adce6813cdc3 selftests: mptcp: join: check RM_ADDR not sent over same subflow
-842a269897f178094365309d9545c3837ab12b61 mptcp: pm: in-kernel: always mark signal+subflow endp as used
-546c825941f98be27a8becd4d1ba8830ed92933c selftests: mptcp: join: check removing signal+subflow endp
-8c4bbd6af6246bb9a84ca487e94552b9af577fe8 DO-NOT-MERGE: git markup: fixes net
-7b5ef834192efa747a057d1e0aaaae8d974477a7 DO-NOT-MERGE: mptcp: add CI support
-867ccba327f47b2fe257c18f63fb4555fdf5617a DO-NOT-MERGE: git markup: end common net net-next
-37014be20f19ae9456670fe55bada3c4eaea5709 TopGit-driven merge of branches:
-ba2937917c5767185cd62efc275f28f1037d993a DO-NOT-MERGE: git markup: net-next
-6f44f3cc493e67ae5a87ba7a9e239ea4f15487b9 DO-NOT-MERGE: git markup: fixes net-next
-d25075124c7b6bda1d9833e55ee89fe749771e5b mptcp: pm: init and release mptcp_pm_ops
-37b02fea091c850a50c197bcdda0e4136e1bb486 mptcp: pm: add get_local_id() interface
-7f3e4544343c99a1e05205d960c0d25824394a75 mptcp: pm: add get_priority() interface
-da3265be496cc6e8e4955ef850a101067e962885 mptcp: better mptcp-level RTT estimator
-6e1aac9dd14f21fb7dbe28fe8bf2463c918270b8 mptcp: add receive queue awareness in tcp_rcv_space_adjust()
-a714de1a26748d154932f14084e6ba7a86d1e11d mptcp: pm: in-kernel: remove mptcp_pm_has_addr_attr_id
-442427e42239e7be4617e0d130ea13446b47d2e4 selftests: mptcp: join: recreate signal endp with same ID
-1ec021683fb314276721c750dea096e80799d811 DO-NOT-MERGE: git markup: features net-next
-e221773ba90c71a1e7e97a17b2b97bc910a01169 DO-NOT-MERGE: git markup: features net-next-next
-2691135ad5b71335c67a98b787b0db3dfbe27436 bpf: Add mptcp_subflow bpf_iter
-d70416663579da8bc2a588615ad9815cfc9259eb selftests/bpf: More endpoints for endpoint_init
-fc644ed5b08ddff2b00872ed3dd3783ad70c3fab selftests/bpf: Drop cgroup_fd of run_mptcpify
-f89a1ebf37cd8e9bc173a561c8c8d2123d7f107d bpf: Add mptcp packet scheduler struct_ops
-2dec236a9fa3a448edf1dd093c6f7f668f620163 bpf: Export mptcp packet scheduler helpers
-fd9d2d7bd77deed7bf2538df65b61ad8f968300e selftests/bpf: Add bpf scheduler test
-b4c5d7f3d02f973d424bc3cf85cf4c7e41f2640f selftests/bpf: Add bpf_first scheduler & test
-840ccc0dea9db593645aead9f4914c73393fdce9 selftests/bpf: Add bpf_bkup scheduler & test
-ded5f3ab94e14760deb9b5d98dcc05c39c9b9bc2 selftests/bpf: Add bpf_rr scheduler & test
-188bbd292880e06aa5a7d5bae92366d64a4c5939 selftests/bpf: Add bpf_red scheduler & test
-4b6f920c2dcdc5c27ef015081979df0bf16d21c9 selftests/bpf: Add bpf_burst scheduler & test
-a87479036f1a5aee08c91ea916a8b7d1f2f84758 DO-NOT-MERGE: git markup: features other trees
-7f217371494f0bb2de77a5c06dc09224ad77451c DO-NOT-MERGE: mptcp: improve code coverage for CI
-beb975703c27a05efafe4631a1b8d862aa47764e DO-NOT-MERGE: mptcp: enabled by default
+674f237d63714e31f6e5f27cdc08b40729740e97 DO-NOT-MERGE: git markup: net
+b19df4b7a867b7fcffe06cb96fca33780315303f DO-NOT-MERGE: git markup: fixes other trees
+1d26676b9a0eaebd3ba7a6380ec6f5ebb2d03aa6 selftests: mptcp: more stable simult_flows tests
+a4841611d53e1e95713c7aeedf7dec34ad0ef39d mptcp: pm: avoid sending RM_ADDR over same subflow
+dd4129f675d5fd03d167f7be4755532f71b74954 selftests: mptcp: join: check RM_ADDR not sent over same subflow
+a9c2d794267896f269707af7aea18b650b2c6573 mptcp: pm: in-kernel: always mark signal+subflow endp as used
+8f502b286647c6c341e3b904015d0a328f45d517 selftests: mptcp: join: check removing signal+subflow endp
+c897033062e6d93b25ffa5ca93aeaab406fd281b DO-NOT-MERGE: git markup: fixes net
+db5f4ed1789e8b339707066735ea7f42df529e11 DO-NOT-MERGE: mptcp: add CI support
+d0edfeee3b2f3673b49f358340d562d4ea692925 DO-NOT-MERGE: git markup: end common net net-next
+77e8dee134c604dc01ea7450c9afc9d72f0c098f DO-NOT-MERGE: git markup: fixes net only
+f6e07faa2aa3684fd7d7733857819ccc45a8ac7d DO-NOT-MERGE: mptcp: improve code coverage for CI (net)
+4f98907cab20e473af3a69d0e4c63b321a9f603a DO-NOT-MERGE: mptcp: enabled by default (net)
 
---===============0244459598808688327==--
+--===============2996117947192295948==--
