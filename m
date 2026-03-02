@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3541978113534915102=="
+Content-Type: multipart/mixed; boundary="===============1278889838251972658=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Mon, 02 Mar 2026 18:36:13 -0000
-Message-Id: <177247657313.229764.16514940370669707435@gitolite.kernel.org>
+Date: Mon, 02 Mar 2026 18:36:15 -0000
+Message-Id: <177247657557.229907.6078054402407999626@gitolite.kernel.org>
 
---===============3541978113534915102==
+--===============1278889838251972658==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
+  - ref: refs/heads/10GbE
     old: 0314e382cf02983eb3c33ac537ad9701e7858bc9
     new: 01857fc712f6469cab9cc578120cdc80f1c2a634
     log: revlist-0314e382cf02-01857fc712f6.txt
 
---===============3541978113534915102==
+--===============1278889838251972658==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -82,4 +82,4 @@ f30d9073ec1909a3b06a9cee57215bed3458da80 net: sched: rename QDISC_DROP_FQ_* to g
 67713dff6398315461db56fdf208e7fd7e37078e net: sched: sch_dualpi2: use qdisc_dequeue_drop() for dequeue drops
 01857fc712f6469cab9cc578120cdc80f1c2a634 Merge branch 'net-sched-refactor-qdisc-drop-reasons-into-dedicated-tracepoint'
 
---===============3541978113534915102==--
+--===============1278889838251972658==--
