@@ -1,62 +1,62 @@
-Content-Type: multipart/mixed; boundary="===============1382377674797742187=="
+Content-Type: multipart/mixed; boundary="===============3039702879071219115=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Mon, 02 Mar 2026 13:00:29 -0000
-Message-Id: <177245642931.4130981.2925140938987965045@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Mon, 02 Mar 2026 13:00:37 -0000
+Message-Id: <177245643730.4131263.16465477482245535934@gitolite.kernel.org>
 
---===============1382377674797742187==
+--===============3039702879071219115==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/spi
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/asoc-7.0
-    old: 32fc4168fa56f6301d858c778a3d712774e9657e
+  - ref: refs/heads/for-7.0
+    old: e96493229a6399e902062213c6381162464cdd50
     new: 11439c4635edd669ae435eec308f4ab8a0804808
-    log: revlist-32fc4168fa56-11439c4635ed.txt
-  - ref: refs/heads/asoc-7.1
-    old: 2974aa42e6696a1d95b727d677dc01a71af5b998
-    new: da37bfe76b5b4ccc01ed8132215098e20d78e5f3
+    log: revlist-e96493229a63-11439c4635ed.txt
+  - ref: refs/heads/for-7.1
+    old: 463279e5881184b608e00b335feba5411a1814e1
+    new: d3b693a13b39bce16e284e1c737874966b3a96de
     log: |
-         da37bfe76b5b4ccc01ed8132215098e20d78e5f3 ASoC: cs42xx8: add error checks for constraints in TDM mode
+         d3b693a13b39bce16e284e1c737874966b3a96de spi: spi-mem: clean up kernel-doc in spi-mem.h
          
 
---===============1382377674797742187==
+--===============3039702879071219115==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1772456427 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1772456426-86391bf0ca9c0cc208e2a56a2b8e66d7be6d5bfb
+pusher C3F436CA30F5D8EB 1772456435 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
+nonce 1772456435-e703c3d51c44d50fdf1ed025a58b8a194388408f
 
-32fc4168fa56f6301d858c778a3d712774e9657e 11439c4635edd669ae435eec308f4ab8a0804808 refs/heads/asoc-7.0
-2974aa42e6696a1d95b727d677dc01a71af5b998 da37bfe76b5b4ccc01ed8132215098e20d78e5f3 refs/heads/asoc-7.1
+e96493229a6399e902062213c6381162464cdd50 11439c4635edd669ae435eec308f4ab8a0804808 refs/heads/for-7.0
+463279e5881184b608e00b335feba5411a1814e1 d3b693a13b39bce16e284e1c737874966b3a96de refs/heads/for-7.1
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmmliesACgkQJNaLcl1U
-h9C/RQf/RkkypNVsg9zBRKWsDfHzQ6N4aDcQhcpGf3Su1hmvBcbhGD53eyw021ZR
-UKPqBkGAuW8KyJHGzoOlNk0qbw3j9qPoEhZbp7XE3XKMFcmRk+N4fj5BWpqv+OA1
-0V2fjP8C5cy6TW+B0te9CNUdlefwte2t8SzRVMEKRYEDwLRJn7Mzqr2roJ30Bnz3
-u8tekiwCFOj02PnaB5pR/4I3FmAHdmXiUEyEIxKYyxUuXWxm6pYG39jucKYt/NZu
-pIWX0xpGZxEXHYzw+x5kd0kBwlCm4D/591HB8b3M0qMyFYGJyf4sRH1AVEteQf8k
-M4yp16QrG4GEfsqrWQ30dZEaMjHB5Q==
-=EZnY
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmmlifMACgkQJNaLcl1U
+h9Cz9Qf/fAkm6c2QTByoZpdZesefILVZHWwwxNqASdDqlfiM/K9bPxmdhgrfMoxh
+57jiKFFTSj73boTqf3VPdWVO60lVXA1Oy+lGVpNAUvfFtq2K4gzcbhRQHNs2WT5f
+XoEYggMfbPIhkygRimezW6n4PDUz3gy03Ik0nzKJWhgUe60H+KMw3ws7+eXAfh8r
+oh5JmxbJhQkuhk9n+7S7L3qsJA9sSUm+86E2mhCeD+sOwb9qALlq+0d231SZPLJd
+A9HClcIPlFGRqpTKKMbEG1e970gPXeMi8J9lfNKmeqY9jK4b3oAPGwAktX5t+6x8
+FW+E/eRyBmr0Gq9ccIREuRwD+yDfnw==
+=hPiz
 -----END PGP SIGNATURE-----
 
---===============1382377674797742187==
+--===============3039702879071219115==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-32fc4168fa56-11439c4635ed.txt
+Content-Disposition: attachment; filename=revlist-e96493229a63-11439c4635ed.txt
 
 1799d8abeabc68ec05679292aaf6cba93b343c05 xfrm6: fix uninitialized saddr in xfrm6_get_saddr()
 0a4524bc69882a4ddb235bb6b279597721bda197 xfrm: skip templates check for packet offload tunnel mode
@@ -179,9 +179,11 @@ af12e64ae0661546e8b4f5d30d55c5f53a11efe7 mmc: mmci: Fix device_node reference le
 6465a8bbb0f6ad98aeb66dc9ea19c32c193a610b mmc: dw_mmc-rockchip: Fix runtime PM support for internal phase support
 79ad471530e0baef0dce991816013df55e401d9c mmc: sdhci-brcmstb: use correct register offset for V1 pin_sel restore
 162d331d833dc73a3e905a24c44dd33732af1fc5 wifi: mac80211: bounds-check link_id in ieee80211_ml_reconfiguration
+6510e1324bcdc8caf21f6d17efe27604c48f0d64 ASoC: cs42l43: Report insert for exotic peripherals
 901084c51a0a8fb42a3f37d2e9c62083c495f824 mmc: core: Avoid bitfield RMW for claim/retune flags
 7a73801fdaf8aee90d23ba77976082a48d156a21 pmdomain: imx: gpcv2: Discard pm_runtime_put() return value
 3afd8df024339c7da1a5a0302f3987866dd16e40 PM: runtime: Change pm_runtime_put() return type to void
+32fc4168fa56f6301d858c778a3d712774e9657e ASoC: amd: yc: Add ASUS EXPERTBOOK BM1503CDA to quirk table
 4b73231b2a61c4142a027613d277a19c484dfcc3 regulator: tps65185: check devm_kzalloc() result in probe
 f895e5df80316a308c2f7d64d13a78494630ea05 ipmi:si: Don't block module unload if the BMC is messed up
 62cd145453d577113f993efd025f258dd86aa183 ipmi:msghandler: Handle error returns from the SMI sender
@@ -252,7 +254,6 @@ fb73d0e19f12b793bfe013171d931587f37e3552 MAINTAINERS: Update AMD XGBE driver mai
 1348659dc92e9f0f3f86961745792102b8afbfff Merge tag 'for-net-2026-02-23' of git://git.kernel.org/pub/scm/linux/kernel/git/bluetooth/bluetooth
 ab39cc4cb8ceecdc2b61747433e7237f1ac2b789 cpufreq: intel_pstate: Fix NULL pointer dereference in update_cpu_qos_request()
 5ede90206273ff156a778254f0f972a55e973c89 ACPI: OSI: Add DMI quirk for Acer Aspire One D255
-297318a1c26dabb5a2d8540fdf436c22094eb2d7 spi: dt-bindings: snps,dw-abp-ssi: Remove unused bindings
 96a1fd0d84b17360840f344826897fa71049870e cxl: Fix race of nvdimm_bus object when creating nvdimm objects
 60b5d1f68338aff2c5af0113f04aefa7169c50c2 cxl/mbox: validate payload size before accessing contents in cxl_payload_from_user_allowed()
 0a70b7cd397e545e926c93715ff6366b67c716f6 cxl: Test CXL_DECODER_F_LOCK as a bitmask
@@ -434,7 +435,6 @@ c45be7c420659391530fe3508191083bc0bbfe15 Merge tag 'for-linus-7.0-1' of https://
 db5781c407dde9f1f037d312c8e0ca986f661e1a Merge tag 'pm-7.0-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
 e094883b508bbcb54f9dfbbd4cdae66c25d86c81 Merge tag 'acpi-7.0-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
 82a499d2cae69341191447de5e0bf35282676892 Merge tag 'drm-xe-fixes-2026-02-26' of https://gitlab.freedesktop.org/drm/xe/kernel into drm-fixes
-e96493229a6399e902062213c6381162464cdd50 spi: stm32: fix missing pointer assignment in case of dma chaining
 944e15f200475d530096cba489833dc6dcd8d1e1 Merge tag 'dma-mapping-7.0-2026-02-26' of git://git.kernel.org/pub/scm/linux/kernel/git/mszyprowski/linux
 103d53eb6fb11cfc3d502eb7b6efa706e139b947 Merge tag 'amd-drm-fixes-7.0-2026-02-26' of https://gitlab.freedesktop.org/agd5f/linux into drm-fixes
 69062f234a2837d2302a41c2ba125521630deea8 Merge tag 'mm-hotfixes-stable-2026-02-26-14-14' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
@@ -491,4 +491,4 @@ e2bd1b136926f1ff65d4e0f87ac49b9a4621238c Merge tag 'core-debugobjects-2026-03-01
 949d0a46ad1b9ab3450fb6ed69ff1e3e13c657bd Merge tag 'for-linus' of git://git.kernel.org/pub/scm/virt/kvm/kvm
 11439c4635edd669ae435eec308f4ab8a0804808 Linux 7.0-rc2
 
---===============1382377674797742187==--
+--===============3039702879071219115==--
