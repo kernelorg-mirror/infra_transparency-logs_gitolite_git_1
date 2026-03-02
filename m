@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============5482807906108807269=="
+Content-Type: multipart/mixed; boundary="===============3903852409513918764=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/westeri/thunderbolt
-Date: Mon, 02 Mar 2026 06:52:08 -0000
-Message-Id: <177243432878.3825301.16207848601970820074@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pinctrl/intel
+Date: Mon, 02 Mar 2026 06:53:07 -0000
+Message-Id: <177243438725.3825858.8712074385930691731@gitolite.kernel.org>
 
---===============5482807906108807269==
+--===============3903852409513918764==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/westeri/thunderbolt
+repo: pub/scm/linux/kernel/git/pinctrl/intel
 user: westeri
 changes:
-  - ref: refs/heads/next
+  - ref: refs/heads/master
     old: 6de23f81a5e08be8fbf5e8d7e9febc72a5b5f27f
-    new: 59b03d12b1f6d14d936a3ebec225f8d914dc3b70
-    log: revlist-6de23f81a5e0-59b03d12b1f6.txt
+    new: 11439c4635edd669ae435eec308f4ab8a0804808
+    log: revlist-6de23f81a5e0-11439c4635ed.txt
 
---===============5482807906108807269==
+--===============3903852409513918764==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6de23f81a5e0-59b03d12b1f6.txt
+Content-Disposition: attachment; filename=revlist-6de23f81a5e0-11439c4635ed.txt
 
 1799d8abeabc68ec05679292aaf6cba93b343c05 xfrm6: fix uninitialized saddr in xfrm6_get_saddr()
 0a4524bc69882a4ddb235bb6b279597721bda197 xfrm: skip templates check for packet offload tunnel mode
@@ -460,7 +460,5 @@ f6542af92298d8a44ab5588144086fa2d0edf391 Merge tag 'timers-urgent-2026-03-01' of
 e2bd1b136926f1ff65d4e0f87ac49b9a4621238c Merge tag 'core-debugobjects-2026-03-01' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 949d0a46ad1b9ab3450fb6ed69ff1e3e13c657bd Merge tag 'for-linus' of git://git.kernel.org/pub/scm/virt/kvm/kvm
 11439c4635edd669ae435eec308f4ab8a0804808 Linux 7.0-rc2
-4573add760b8dd52a215fd134effb76da10ebcf5 thunderbolt: Read router NVM version before applying quirks
-59b03d12b1f6d14d936a3ebec225f8d914dc3b70 thunderbolt: Disable CLx on Titan Ridge-based devices with old firmware
 
---===============5482807906108807269==--
+--===============3903852409513918764==--
