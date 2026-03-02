@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2690464405525090375=="
+Content-Type: multipart/mixed; boundary="===============8688842515769195419=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkl/linux-can
-Date: Mon, 02 Mar 2026 13:52:36 -0000
-Message-Id: <177245955630.4173596.12407139788236495626@gitolite.kernel.org>
+Date: Mon, 02 Mar 2026 13:52:46 -0000
+Message-Id: <177245956665.4173841.8418472733765810854@gitolite.kernel.org>
 
---===============2690464405525090375==
+--===============8688842515769195419==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,55 +16,37 @@ repo: pub/scm/linux/kernel/git/mkl/linux-can
 user: mkl
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/main
-    old: 45be47bf5d7db0f762a93e9c0ede6cb3c91edf3b
-    new: 9439a661c2e80485406ce2c90b107ca17858382d
-    log: revlist-45be47bf5d7d-9439a661c2e8.txt
-  - ref: refs/heads/master
-    old: 45be47bf5d7db0f762a93e9c0ede6cb3c91edf3b
-    new: 9439a661c2e80485406ce2c90b107ca17858382d
-    log: revlist-45be47bf5d7d-9439a661c2e8.txt
+  - ref: refs/heads/testing
+    old: 918db6fb343793024d6ca980a90a8214baa2528a
+    new: 7e1e6d6845329adb2da75110a061557e9c26d9b7
+    log: revlist-918db6fb3437-7e1e6d684532.txt
 
---===============2690464405525090375==
+--===============8688842515769195419==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Marc Kleine-Budde <mkl@pengutronix.de> 1772459551 +0100
+pusher Marc Kleine-Budde <mkl@pengutronix.de> 1772459563 +0100
 pushee gitolite.kernel.org:pub/scm/linux/kernel/git/mkl/linux-can.git
-nonce 1772459551-fc5d3b30cdaf8ac3ecc5040c08217c82e019fa38
+nonce 1772459562-cc2b039cc023ad547083f1338114ae0678c47182
 
-45be47bf5d7db0f762a93e9c0ede6cb3c91edf3b 9439a661c2e80485406ce2c90b107ca17858382d refs/heads/main
-45be47bf5d7db0f762a93e9c0ede6cb3c91edf3b 9439a661c2e80485406ce2c90b107ca17858382d refs/heads/master
+918db6fb343793024d6ca980a90a8214baa2528a 7e1e6d6845329adb2da75110a061557e9c26d9b7 refs/heads/testing
 -----BEGIN PGP SIGNATURE-----
 
-iIkEABYKADEWIQSl+MghEFFAdY3pYJLMOmT6rpmt0gUCaaWWIBMcbWtsQHBlbmd1
-dHJvbml4LmRlAAoJEMw6ZPquma3SpGMBAOFRHHLEweXeLCq+gYhbEBTiRTGvs4Tx
-uj+MqS5ZDti9AP9QMx7aIsS/lbySvQV7WjqnYbz3mxRVBoOENHquFqe0AQ==
-=0cxX
+iIkEABYKADEWIQSl+MghEFFAdY3pYJLMOmT6rpmt0gUCaaWWKxMcbWtsQHBlbmd1
+dHJvbml4LmRlAAoJEMw6ZPquma3S8TMBAKoGa28crwrUEoaRW99Vrhzl0DOlEXTC
+yMez2QZmhSS4AQC/kpIC9O5aPsv+rUocKUzWXZA/CaErX6/b57+6Sdo7Cw==
+=t8ih
 -----END PGP SIGNATURE-----
 
---===============2690464405525090375==
+--===============8688842515769195419==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-45be47bf5d7d-9439a661c2e8.txt
+Content-Disposition: attachment; filename=revlist-918db6fb3437-7e1e6d684532.txt
 
-1d9622c3c1c12e317b0d3a16a26ea17090435d61 perf tests: Additional 'perf stat' tests
-f637bb2eedc01aa533f2b1e57b6abd8ca864fea8 perf tests: build-test coverage for NO_JEVENTS=1
-cee275edcdb1acfdc8270f80e96f30750b633220 perf metricgroup: Don't early exit if no CPUID table exists
-c2e28ae2946f473d6c340ebbeac0cf87be46d582 perf regs: Fix abort for "-I" or "--user-regs" options
-e716e69cf67bb45c49653b884f88d8e97f454f50 perf arch: Update arch headers to use relative UAPI paths
-16dccbb84203196dab2e578b27c3c8f549ebff66 perf regs: Remove __weak attributive arch__xxx_reg_mask() functions
-e5e66adfe45a6480d96b4e40edc05883915f44b2 perf regs: Remove __weak attributive arch_sdt_arg_parse_op() function
-1c48f7ab72a8c9d6419622931e622e5247e979f5 tracing: Rename `eval_map_wq` and allow other parts of tracing use it
-0c2580a8094693578afa9b6cbcee406cf131920e blktrace: Make init_blk_tracer() asynchronous
-2cdfe39dc9447a09c568da1b6351c70b770dd923 tracing/kprobes: Skip setup_boot_kprobe_events() when no cmdline event
-a724a8fce5e25b45b2146abea61d22d6634dde59 perf kvm stat: Fix build error
-04f81f45b432feab13a169a82a032987e948b1a6 perf callchain lbr: Make the leaf IP that of the sample
-446c595dc0dd1759e56a7d736752d65361e13753 perf test addr2line_inlines: Ensure inline information shows on LBR leaves
 bb5a920b9099127915706fdd23eb540c9a69c338 perf stat: Ensure metrics are displayed even with failed events
 64ea7a4620008652c7f72065ae61efbde7af3ea0 perf annotate: Fix register usage in data type profiling
 c73a56ed3c97ae6571c2c50e6bc8772b1cee42e0 perf test: Fix test case Leader sampling on s390
@@ -1076,5 +1058,18 @@ f7387d6579d65efd490a864254101cb665f2e7a7 xsk: Fix zero-copy AF_XDP fragment drop
 101bacb303e89dc2e0640ae6a5e0fb97c4eb45bb atm: lec: fix null-ptr-deref in lec_arp_clear_vccs
 147792c395db870756a0dc87ce656c75ae7ab7e8 net: ti: icssg-prueth: Fix ping failure after offload mode setup when link speed is not 1G
 9439a661c2e80485406ce2c90b107ca17858382d amd-xgbe: fix MAC_TCR_SS register width for 2.5G and 10M speeds
+c35636e91e392e1540949bbc67932167cb48bc3a can: bcm: fix locking for bcm_op runtime updates
+c77bfbdd6aac31b152ee81522cd90ad1de18738f can: dummy_can: dummy_can_init(): fix packet statistics
+ab3f894de216f4a62adc3b57e9191888cbf26885 can: mcp251x: fix deadlock in error path of mcp251x_open
+968b098220e393a10488b6a5dddb302b2eaedf66 can: esd_usb: add endpoint type validation
+38a01c9700b0dcafe97dfa9dc7531bf4a245deff can: ems_usb: ems_usb_read_bulk_callback(): check the proper length of a message
+1e446fd0582ad8be9f6dafb115fc2e7245f9bea7 can: ucan: Fix infinite loop from zero-length messages
+5eaad4f768266f1f17e01232ffe2ef009f8129b7 can: usb: etas_es58x: correctly anchor the urb in the read bulk callback
+7299b1b39a255f6092ce4ec0b65f66e9d6a357af can: usb: f81604: handle short interrupt urb messages properly
+51f94780720fa90c424f67e3e9784cb8ef8190e5 can: usb: f81604: handle bulk write errors properly
+952caa5da10bed22be09612433964f6877ba0dde can: usb: f81604: correctly anchor the urb in the read bulk callback
+6dfd65a69e69a00faadd80b709aea71b71f6967a Merge patch series "can: usb: f81604: handle short interrupt urb messages properly"
+2df6162785f31f1bbb598cfc3b08e4efc88f80b6 can: gs_usb: gs_can_open(): always configure bitrates before starting device
+7e1e6d6845329adb2da75110a061557e9c26d9b7 dt-bindings: net: can: nxp,sja1000: add reference to mc-peripheral-props.yaml
 
---===============2690464405525090375==--
+--===============8688842515769195419==--
