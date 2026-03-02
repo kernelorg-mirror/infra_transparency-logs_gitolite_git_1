@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/coresight/linux
-Date: Mon, 02 Mar 2026 09:23:33 -0000
-Message-Id: <177244341367.3948309.17276690496863377882@gitolite.kernel.org>
+Subject: post-receive: pub/scm/devel/pahole/pahole
+Date: Mon, 02 Mar 2026 09:25:38 -0000
+Message-Id: <177244353805.3951494.1535925996533353197@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/coresight/linux
-user: suzukikp
+repo: pub/scm/devel/pahole/pahole
+user: almagui
 changes:
-  - ref: refs/heads/next
-    old: 87c266bb30dc09979b7b7e8f962598367d626b57
-    new: 061c39a17136376f368a6082d4948301641f7db1
+  - ref: refs/heads/tmp.master
+    old: faaa3f1a6e97d669baa6917873e31e921e7480b6
+    new: 1ca64a2651d042c8c002c14b064ed0bee370cf34
     log: |
-         061c39a17136376f368a6082d4948301641f7db1 drivers/hwtracing/coresight: remove unneeded variable in tmc_crashdata_release()
+         1ca64a2651d042c8c002c14b064ed0bee370cf34 btf_loader: Fix warnings due to type permutation
          
