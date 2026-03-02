@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8624269990651757618=="
+Content-Type: multipart/mixed; boundary="===============5839095761138995465=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ras/ras
-Date: Mon, 02 Mar 2026 13:27:54 -0000
-Message-Id: <177245807461.4152393.17334391888010836330@gitolite.kernel.org>
+Date: Mon, 02 Mar 2026 13:28:30 -0000
+Message-Id: <177245811090.4152858.13225198498364762048@gitolite.kernel.org>
 
---===============8624269990651757618==
+--===============5839095761138995465==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ras/ras
 user: bp
 changes:
-  - ref: refs/heads/edac-drivers
-    old: 1795dc528c13c4cb731c6db2322d0c995c997fa4
+  - ref: refs/heads/edac-for-next
+    old: 148f30165b4bd17983f0b1f7c926fb66725f8959
     new: 62a9fc50e8d947601ea3484e732b1a65a0a54b96
-    log: revlist-1795dc528c13-62a9fc50e8d9.txt
+    log: revlist-148f30165b4b-62a9fc50e8d9.txt
 
---===============8624269990651757618==
+--===============5839095761138995465==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-1795dc528c13-62a9fc50e8d9.txt
+Content-Disposition: attachment; filename=revlist-148f30165b4b-62a9fc50e8d9.txt
 
 2f81bdbdb3aa3fccd9b5420df5674730c40af554 Merge tag 'i3c/for-6.20' of git://git.kernel.org/pub/scm/linux/kernel/git/i3c/linux
 37b4fbf8dbdfb694f2972d1bd7fcd36304a520dd Merge tag 'tpmdd-next-7.0-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/jarkko/linux-tpmdd
@@ -1051,4 +1051,4 @@ fbf33803618ad4f531f78fe15cf328fe6c7f9978 Merge tag 'fsverity-for-linus' of git:/
 6de23f81a5e08be8fbf5e8d7e9febc72a5b5f27f Linux 7.0-rc1
 62a9fc50e8d947601ea3484e732b1a65a0a54b96 EDAC/versalnet: Refactor memory controller initialization and cleanup
 
---===============8624269990651757618==--
+--===============5839095761138995465==--
