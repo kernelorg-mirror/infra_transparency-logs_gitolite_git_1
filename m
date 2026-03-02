@@ -1,53 +1,40 @@
-Content-Type: multipart/mixed; boundary="===============6842634432479060410=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-Date: Mon, 02 Mar 2026 12:15:05 -0000
-Message-Id: <177245370585.4094946.6886364099641420755@gitolite.kernel.org>
-
---===============6842634432479060410==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/utils/util-linux/util-linux
+Date: Mon, 02 Mar 2026 12:15:26 -0000
+Message-Id: <177245372688.4095251.15064975075225156499@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-user: ij
-git_push_cert_status: E
+repo: pub/scm/utils/util-linux/util-linux
+user: kzak
 changes:
-  - ref: refs/heads/fixes
-    old: 9836feedcf559449e82eb0f741084086780104e5
-    new: 3350c2b3f2b8a3b985a020a4ef4f2f050a4b6a1d
+  - ref: refs/heads/master
+    old: a155a7079b62e774e47d131dbbe09fac3a92c6cc
+    new: 8d595cdc64453c883f5875e4b3f809706167d974
     log: |
-         3385ea97c14d271dcb0c6e6fcf16972f819eecd8 platform/x86: oxpec: Add support for OneXPlayer APEX
-         4049c46edb5d44c0de045f6f504371705dd603dd platform/x86: oxpec: Add support for OneXPlayer X1z
-         2a3b4a8c10a64a62c4243007139d253dc1324dfd platform/x86: oxpec: Add support for OneXPlayer X1 Air
-         cd0883055b04586770dab43c64159348bf480a3e platform/x86: oxpec: Add support for Aokzoe A2 Pro
-         916727cfdb72cd01fef3fa6746e648f8cb70e713 platform/x86: hp-bioscfg: Support allocations of larger data
-         622cc8d078e5d7586f0e40dd7aea515a946da48c platform/x86: asus-armoury: add support for GX650RX
-         c55b84fa567ed33bc651675bcaf8d53bd12d910a platform/x86: asus-armoury: add support for FA401UM
-         3350c2b3f2b8a3b985a020a4ef4f2f050a4b6a1d platform_data/mlxreg: mlxreg.h: fix all kernel-doc warnings
+         1f3644e5f1b08ba5374f8f50210ba3363c45e166 meson: define _GNU_SOURCE when testing for 'struct statx'
+         97cc11b16027a0694fcf25ae46a3116a658bec0d tests/lsfd: skip executable mode tests when not running as root
+         0e6b542b41e9681f70f7b90b2a96bce7beacd978 lib/fileeq: Check arithmetic in ul_fileeq_set_size
+         45541fc392974f851c57c3a053b21e9788359552 lib/pager: Do not overwrite LESS environment var
+         ab613312dcb566a15b79c5accd74746c37f571ee lib/pager: Add LV support
+         9edd83d120b82168442f1599f6917a04ed4dc1c0 lib/pager: Drop less workaround
+         dc47ed2f5f6a7736d7b5332d6fe7af6652cf0bd0 libblkid: (probe) Account for IO bias when retrieving buffer from parent
+         ab234e525ad183e5fe13dd74c978455a72194d8e Merge branch 'hardlink_arithmetic' of https://github.com/stoeckmann/util-linux
+         309019d204b430ab153b05b4576e6eedce1790b1 Merge branch 'libblkid/parent-offset' of https://github.com/t-8ch/util-linux
+         8d595cdc64453c883f5875e4b3f809706167d974 Merge branch 'pager_git' of https://github.com/stoeckmann/util-linux
          
-
---===============6842634432479060410==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1772453700 +0200
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86.git
-nonce 1772453700-c6aa8b6928f0dc64998b93c1c4627d48004f8516
-
-9836feedcf559449e82eb0f741084086780104e5 3350c2b3f2b8a3b985a020a4ef4f2f050a4b6a1d refs/heads/fixes
------BEGIN PGP SIGNATURE-----
-
-iHUEABYIAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCaaV/SQAKCRBZrE9hU+XO
-MfmyAQDe6jwGpsRA9H4ibg5cAm08trYApZQoQUMXOroU2///CgEAweKs5Hwc1pMo
-DnsoyB0vQMeQhm7lvjIzvIxSy9J1AgY=
-=Z/A2
------END PGP SIGNATURE-----
-
---===============6842634432479060410==--
+  - ref: refs/heads/stable/v2.42
+    old: 3721d9dcd12e806474b5302a95879b9c775e8bd6
+    new: 2ef8d6fa603dca393639d2310c5faeb9dc6cd53f
+    log: |
+         08a6f5e345561f971c5ba78cb8c0f5dd0b89d4f7 meson: define _GNU_SOURCE when testing for 'struct statx'
+         22f0c430b2f2c62fb5c3a6522f563cadfb9bf7d2 tests/lsfd: skip executable mode tests when not running as root
+         39189ac3136056fd8535d0eed039612016febf6c lib/fileeq: Check arithmetic in ul_fileeq_set_size
+         27c89afb54e435bfeb79d03eef9b461996046887 lib/pager: Do not overwrite LESS environment var
+         7bf62a1c0f30f2e215f523ddf7ad43e5bf6ac35f lib/pager: Add LV support
+         9e488a5c60cf6775770c23dd8a6116b6093ce4b9 lib/pager: Drop less workaround
+         2ef8d6fa603dca393639d2310c5faeb9dc6cd53f libblkid: (probe) Account for IO bias when retrieving buffer from parent
+         
