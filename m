@@ -1,19 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
-Date: Mon, 02 Mar 2026 07:09:36 -0000
-Message-Id: <177243537617.3838484.16238201145413462381@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/devicetree/devicetree-rebasing
+Date: Mon, 02 Mar 2026 07:09:47 -0000
+Message-Id: <177243538763.3838819.1950114567734830779@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/xiang/erofs-utils
-user: xiang
+repo: pub/scm/linux/kernel/git/devicetree/devicetree-rebasing
+user: ijc
 changes:
-  - ref: refs/heads/experimental
-    old: b3afd06ee04df449278e2bee8abb7de6110770e9
-    new: 6687d0939090296a0dbbae0a644c96391513a496
+  - ref: refs/heads/master
+    old: 81f7574087fe01eaf483ea8f54ed13c762031d9a
+    new: a394424f72ae1313f1de04117b6698027c6ad9fb
     log: |
-         6687d0939090296a0dbbae0a644c96391513a496 erofs-utils: mount: fix flag-clearing bug and missing error check in parse_flagopts
+         eb816f7677f76e07a35aa0a0d1a9decd05fe4584 regulator: dt-bindings: mt6359: make regulator names unique
+         1721386357903d1ad6b8cb3bb894b2320aab28ca spi: dt-bindings: snps,dw-abp-ssi: Remove unused bindings
+         d08d81384b5e202fcf8d0fd94efc41bc3a2af9c2 Merge tag 'spi-fix-v7.0-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/spi
+         a394424f72ae1313f1de04117b6698027c6ad9fb Merge tag 'v7.0-rc2-dts-raw'
          
