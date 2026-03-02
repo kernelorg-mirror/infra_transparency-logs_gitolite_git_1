@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2771924850635059951=="
+Content-Type: multipart/mixed; boundary="===============1554056063935185478=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/johan/gnss
-Date: Mon, 02 Mar 2026 11:21:52 -0000
-Message-Id: <177245051201.4049268.3969000553501585257@gitolite.kernel.org>
+Date: Mon, 02 Mar 2026 11:21:58 -0000
+Message-Id: <177245051848.4049570.11351938521592290856@gitolite.kernel.org>
 
---===============2771924850635059951==
+--===============1554056063935185478==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/johan/gnss
 user: johan
 changes:
-  - ref: refs/heads/gnss-next
+  - ref: refs/heads/gnss-linus
     old: 6de23f81a5e08be8fbf5e8d7e9febc72a5b5f27f
     new: 11439c4635edd669ae435eec308f4ab8a0804808
     log: revlist-6de23f81a5e0-11439c4635ed.txt
 
---===============2771924850635059951==
+--===============1554056063935185478==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -461,4 +461,4 @@ e2bd1b136926f1ff65d4e0f87ac49b9a4621238c Merge tag 'core-debugobjects-2026-03-01
 949d0a46ad1b9ab3450fb6ed69ff1e3e13c657bd Merge tag 'for-linus' of git://git.kernel.org/pub/scm/virt/kvm/kvm
 11439c4635edd669ae435eec308f4ab8a0804808 Linux 7.0-rc2
 
---===============2771924850635059951==--
+--===============1554056063935185478==--
