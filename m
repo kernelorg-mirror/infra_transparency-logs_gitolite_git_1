@@ -1,24 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Mon, 02 Mar 2026 23:41:39 -0000
-Message-Id: <177249489908.482660.4190408877489142896@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Mon, 02 Mar 2026 23:50:27 -0000
+Message-Id: <177249542792.489973.10689442389086053778@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/next-queue
-user: tnguy
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
-  - ref: refs/heads/dev-queue
-    old: 69e62558db1ea962d9b7948294692bc2ca9fd631
-    new: 290e82c47e46934e8cdf1bff709e5d1468ed9b69
+  - ref: refs/heads/main
+    old: 01857fc712f6469cab9cc578120cdc80f1c2a634
+    new: f5ada26d6cca4c5d9a20eda55f44e772018b36af
     log: |
-         5d05d82738404bf89237f14d2ed6512deeabb860 igc: Call netif_queue_set_napi() with rntl locked
-         d9a353fae98faddd109f1fd4b5432b57386a7244 igc: Let the PCI core deal with the PM resume flow
-         12833abfb4f8fc07b2dc31503d3205091f2f0b2b igc: Don't reset the hardware on suspend path
-         52632bf8f982cbeaec6917dc5288219229a37d3a ice: remove redundant checks from PTP init
-         63f7b119298726891aa4d5b42365b5e3fca142ef ethtool: treat RXH_GTP_TEID as intrinsically symmetric
-         290e82c47e46934e8cdf1bff709e5d1468ed9b69 ice: implement symmetric RSS hash configuration
+         4ff5801f45b494ad8251a16ec06c9f303ed3b9a0 phy: qcom-sgmii-eth: add .set_mode() and .validate() methods
+         f5ada26d6cca4c5d9a20eda55f44e772018b36af Merge tag 'phy-qcom-sgmii-eth-add-set_mode-and-validate-methods'
          
