@@ -1,22 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
-Date: Mon, 02 Mar 2026 21:04:06 -0000
-Message-Id: <177248544641.349381.12219402440701226173@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
+Date: Mon, 02 Mar 2026 21:04:19 -0000
+Message-Id: <177248545981.349625.6610533474731761587@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ath/ath
-user: jjohnson
+repo: pub/scm/linux/kernel/git/jic23/iio
+user: jic23
 changes:
-  - ref: refs/heads/pending
-    old: 8263e494aee3beecf7a74392fe0df9071209ea12
-    new: cf7cbf97c630c3414302945617b8ac405e2b0dd7
+  - ref: refs/heads/testing
+    old: bfd61205aca379121b1913885d4d06c51857119b
+    new: cd04646c0f3eefdde87538f6ff932420cedc9ba0
     log: |
-         6508c9752451a7e5e44a325e8563897a67f5344b wifi: ath11k: Silence remoteproc probe deferral prints
-         f33a8e41826831fc8ceb5f62833488cd9388ed59 wifi: ath12k: Set up MLO after SSR
-         80a1147469b07a384f6f83a26b31bcd63d6684c0 wifi: ath12k: Enable monitor mode support on IPQ5332
-         cf7cbf97c630c3414302945617b8ac405e2b0dd7 wifi: ath12k: Remove the unused argument from the Rx data path
+         dad46509b63b64f0a56f12caec0f60c8503e26a5 iio: adc: ti-ads1119: Drop redundant error message
+         5c3cf14b82f723ecaef7495fffcfe947e1c4d11e iio: adc: ade9000: remove unused ADE9000_ST_ERROR macro
+         cd04646c0f3eefdde87538f6ff932420cedc9ba0 staging: iio: ad7816: Replace sprintf() with sysfs_emit()
          
