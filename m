@@ -1,34 +1,45 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Mon, 02 Mar 2026 11:25:38 -0000
-Message-Id: <177245073883.4053715.4590906402583359050@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============0071598207776508486=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sudeep.holla/linux
+Date: Mon, 02 Mar 2026 11:32:18 -0000
+Message-Id: <177245113851.4058328.17737619255897808440@gitolite.kernel.org>
+
+--===============0071598207776508486==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: mingo
+repo: pub/scm/linux/kernel/git/sudeep.holla/linux
+user: sudeep.holla
 changes:
-  - ref: refs/heads/master
-    old: ec63c83e4592acf9815dc2998817be787e3c8928
-    new: ab01b8e8df1297221a72acbfd1dfb4fbe5066b08
-    log: |
-         56c0be9505874c0a83bae5cc7dbab0b77fb9f9f2 Merge branch into tip/master: 'x86/urgent'
-         b6fa24fc71ba1c9aa2c78de2f69ae92c91ff1039 Merge branch into tip/master: 'irq/drivers'
-         15563ce4b8c04958d1269c30d3f1bb52bbef8f9d Merge branch into tip/master: 'irq/msi'
-         f62e8d4a551855f57c29995dbdc57eacc114450b Merge branch into tip/master: 'locking/core'
-         3475d4901b5e0600575ff528984e6e28d9198125 Merge branch into tip/master: 'locking/futex'
-         0d139fdeab6393214a4c9e009f30c0d16f295df0 Merge branch into tip/master: 'perf/core'
-         72a2ab46f0458d178712c8cc9546977b4c4e6636 Merge branch into tip/master: 'sched/core'
-         c50f05bd3c4e992c1dfb61b14d6f7d999f1381f9 Merge branch into tip/master: 'sched/hrtick'
-         d5ced074c07c3a4e79a3d46bac4aac7080424ff5 Merge branch into tip/master: 'timers/core'
-         ab01b8e8df1297221a72acbfd1dfb4fbe5066b08 Merge branch into tip/master: 'x86/tdx'
-         
-  - ref: refs/heads/tip/urgent
-    old: c566883cdf350469cad7490cd4b69103865c4dd0
-    new: 56c0be9505874c0a83bae5cc7dbab0b77fb9f9f2
-    log: |
-         56c0be9505874c0a83bae5cc7dbab0b77fb9f9f2 Merge branch into tip/master: 'x86/urgent'
-         
+  - ref: refs/heads/for-next/scmi/updates
+    old: 6de23f81a5e08be8fbf5e8d7e9febc72a5b5f27f
+    new: 390edc5721d5df9cca2813e0557b10922a0cc59d
+    log: revlist-6de23f81a5e0-390edc5721d5.txt
+
+--===============0071598207776508486==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-6de23f81a5e0-390edc5721d5.txt
+
+d308799451ea0723edb89b34933af053561162f8 dt-bindings: firmware: arm,scmi: Document arm,no-completion-irq property
+65564ecec5f126d728bd85a245e0ebf796938039 firmware: arm_scmi: Implement arm,no-completion-irq property
+3b128156081fec2b2b6a272d777b83749d87267d firmware: arm_scpi: Fix device_node reference leak in scpi_probe()
+7d8250741779ee4b7ea6512da593dafb257ac274 firmware: arm_scmi: extract domain ID validation helpers
+398d43109dac8522d3231792471913a5df9a6427 firmware: arm_scmi: Spelling s/mulit/multi/, s/currenly/currently/
+c8be7542574a6b4f3a8eb5ca34fdc5b4d0e76a5e firmware: arm_scmi: Add an optional custom parameter to fastchannel helpers
+8fec4a22c3643569ebc0396edc12fb827b3f23f5 firmware: arm_scmi: Refactor powercap domain layout
+4f32722c6361422e2c7ede41b3e49792e0e3f641 firmware: arm_scmi: Add SCMIv4.0 Powercap basic support
+d67b0953baad4a68954a5b1b58d72dad212409c5 firmware: arm_scmi: Add SCMIv4.0 Powercap FCs support
+60e54de9dcd30059f4e38bdbaf61b31ef62f2c42 firmware: arm_scmi: Add SCMIV4.0 Powercap notifications support
+d546fe6795c5e676fe76e660ce555ed3ae2d135c firmware: arm_scmi: Extend powercap report to include MAI
+dbb510f109293c5828a1c4733e873c829ee41b1b include: trace: Add new parameter to trace_scmi_fc_call
+7ec42a1f5124bef1cfbfe76d3dbd31e2a61fd6d4 powercap: arm_scmi: Enable multiple constraints support
+fd2a1d04f6c0ff0f83dca6a70a26e358708c64c0 firmware: arm_scmi: add Powercap MAI get/set support
+390edc5721d5df9cca2813e0557b10922a0cc59d firmware: arm_scmi: base: Simplify protocol list size calculation
+
+--===============0071598207776508486==--
