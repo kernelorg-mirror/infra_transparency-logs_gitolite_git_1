@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3648892911885705410=="
+Content-Type: multipart/mixed; boundary="===============8642908404371146185=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/geert/linux-m68k
-Date: Mon, 02 Mar 2026 10:28:41 -0000
-Message-Id: <177244732157.4001852.6501310856549008716@gitolite.kernel.org>
+Date: Mon, 02 Mar 2026 10:28:47 -0000
+Message-Id: <177244732707.4002070.18186556915154806053@gitolite.kernel.org>
 
---===============3648892911885705410==
+--===============8642908404371146185==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/geert/linux-m68k
 user: geert
 changes:
-  - ref: refs/heads/master
-    old: 64632b8ff303d6b960a95659b0957cf8b3894ce3
-    new: b879a081bb0f6725a8ca41b6bdbe25acaa6a73dd
-    log: revlist-64632b8ff303-b879a081bb0f.txt
+  - ref: refs/heads/m68k-queue
+    old: 013a2c1c3b40b93c039bb0482703e1490fecbcab
+    new: 7a8e9ab3b1c23325f34c4a2ce1b34e829488705f
+    log: revlist-013a2c1c3b40-7a8e9ab3b1c2.txt
 
---===============3648892911885705410==
+--===============8642908404371146185==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-64632b8ff303-b879a081bb0f.txt
+Content-Disposition: attachment; filename=revlist-013a2c1c3b40-7a8e9ab3b1c2.txt
 
 1799d8abeabc68ec05679292aaf6cba93b343c05 xfrm6: fix uninitialized saddr in xfrm6_get_saddr()
 0a4524bc69882a4ddb235bb6b279597721bda197 xfrm: skip templates check for packet offload tunnel mode
@@ -460,6 +460,8 @@ f6542af92298d8a44ab5588144086fa2d0edf391 Merge tag 'timers-urgent-2026-03-01' of
 e2bd1b136926f1ff65d4e0f87ac49b9a4621238c Merge tag 'core-debugobjects-2026-03-01' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 949d0a46ad1b9ab3450fb6ed69ff1e3e13c657bd Merge tag 'for-linus' of git://git.kernel.org/pub/scm/virt/kvm/kvm
 11439c4635edd669ae435eec308f4ab8a0804808 Linux 7.0-rc2
-b879a081bb0f6725a8ca41b6bdbe25acaa6a73dd Merge tag 'v7.0-rc2'
+10b583c34bda89493f6215d18af3714a162a7703 m68k: atari: usb: Add ISP1160 USB host controller support
+815ad796df5a6ac89030bcf077f0792b0d559a97 m68k: atari: Update Kconfig.bus help text
+7a8e9ab3b1c23325f34c4a2ce1b34e829488705f m68k: defconfig: Enable Atari EtherNAT and NetUSBee USB support
 
---===============3648892911885705410==--
+--===============8642908404371146185==--
