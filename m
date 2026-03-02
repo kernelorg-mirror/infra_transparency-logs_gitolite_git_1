@@ -1,19 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kbuild/linux
-Date: Mon, 02 Mar 2026 22:41:32 -0000
-Message-Id: <177249129209.429143.9167014944100031389@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pcmoore/lsm
+Date: Mon, 02 Mar 2026 22:44:38 -0000
+Message-Id: <177249147864.430165.1525123944360656365@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kbuild/linux
-user: nathan
+repo: pub/scm/linux/kernel/git/pcmoore/lsm
+user: pcmoore
 changes:
-  - ref: refs/heads/kbuild-fixes-for-next
-    old: 9854b6646bb56cb7b4a23e69b2bf8d1fb7503b38
-    new: fdb12c8a24a453bdd6759979b6ef1e04ebd4beb4
+  - ref: refs/heads/dev
+    old: 6de23f81a5e08be8fbf5e8d7e9febc72a5b5f27f
+    new: fe3c03b84ae69f34992a5e72cbb8384b9ebad738
     log: |
-         fdb12c8a24a453bdd6759979b6ef1e04ebd4beb4 kbuild: Leave objtool binary around with 'make clean'
+         fe3c03b84ae69f34992a5e72cbb8384b9ebad738 cred: fix kernel-doc warnings in cred.h
+         
+  - ref: refs/heads/next
+    old: 6de23f81a5e08be8fbf5e8d7e9febc72a5b5f27f
+    new: fe3c03b84ae69f34992a5e72cbb8384b9ebad738
+    log: |
+         fe3c03b84ae69f34992a5e72cbb8384b9ebad738 cred: fix kernel-doc warnings in cred.h
          
