@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Mon, 02 Mar 2026 18:48:22 -0000
-Message-Id: <177247730248.240143.7330229919318174755@gitolite.kernel.org>
+Date: Mon, 02 Mar 2026 18:51:54 -0000
+Message-Id: <177247751472.244000.13086587335411282696@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,13 +12,24 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: ab01b8e8df1297221a72acbfd1dfb4fbe5066b08
-    new: 3646318acfd96115719c6743a844b2974587a77d
+    old: 3646318acfd96115719c6743a844b2974587a77d
+    new: fb126562cb27e564ebe09659367f529d728195e5
     log: |
-         c1455a120f7ee9432da7e2b6c7d525749daa4a22 Merge branch 'sched/hrtick'
-         0a902967b342c744fa85099fce4d3106a39e1337 x86/mm/tlb: Make enter_lazy_tlb() always inline on x86
-         2ad9b46d0a53bcadf2092626fcfd2d96e9b22001 sched: Make raw_spin_rq_unlock() inline
-         9a4af5a00a8bff84d8d499e43d3424173835173c x86/mtrr: Use kstrtoul() in parse_mtrr_spare_reg()
-         5c9182ca0b6c385cfb07644f2ff238e9f696eb78 Merge branch into tip/master: 'sched/core'
-         3646318acfd96115719c6743a844b2974587a77d Merge branch into tip/master: 'x86/misc'
+         bc3b0f4ffc507ee859f3941659894735f40e8397 Merge branch into tip/master: 'x86/urgent'
+         d6b10e5be69ffd6ce13b846654307239b4947cf3 Merge branch into tip/master: 'irq/drivers'
+         c69f038316c93c657fc1a205233704cb09a1c430 Merge branch into tip/master: 'irq/msi'
+         5430d7638a037a5071b49b76c96cffea43a25ae4 Merge branch into tip/master: 'locking/core'
+         cefc0be99a49458cffd6259a951d4e3bcc2b777e Merge branch into tip/master: 'locking/futex'
+         942a95b4ad39ed5a33b0653904a98956ddd08422 Merge branch into tip/master: 'perf/core'
+         d3351d78da469b40da72feae84c8de68a2feacf1 Merge branch into tip/master: 'sched/core'
+         19e7bb2b4507b66787ee3eac5c9e4e59f2906ea4 Merge branch into tip/master: 'sched/hrtick'
+         316ae36aa1188c2a0e1431e0cb88e9f299e40f6c Merge branch into tip/master: 'timers/core'
+         0506efbdd6a55fa5ec0719c332a3d421c617549d Merge branch into tip/master: 'x86/misc'
+         fb126562cb27e564ebe09659367f529d728195e5 Merge branch into tip/master: 'x86/tdx'
+         
+  - ref: refs/heads/tip/urgent
+    old: 56c0be9505874c0a83bae5cc7dbab0b77fb9f9f2
+    new: bc3b0f4ffc507ee859f3941659894735f40e8397
+    log: |
+         bc3b0f4ffc507ee859f3941659894735f40e8397 Merge branch into tip/master: 'x86/urgent'
          
