@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
-Date: Mon, 02 Mar 2026 05:24:22 -0000
-Message-Id: <177242906224.3753229.12014996547001583759@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
+Date: Mon, 02 Mar 2026 05:53:43 -0000
+Message-Id: <177243082354.3776652.8005127145912074566@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/25-new
-user: akpm
+repo: pub/scm/linux/kernel/git/pci/pci
+user: mani
 changes:
-  - ref: refs/heads/master
-    old: 3a58e324d0d3fbd663a4a12a9f69b53cd9967db5
-    new: f1a1c2d11832aa98f5aa4273297b65f40da4d118
+  - ref: refs/heads/endpoint
+    old: f6797680fe312ae6d32a773eb4d33400f24555c2
+    new: 36bfc3642b19a98f1302aed4437c331df9b481f0
     log: |
-         f1a1c2d11832aa98f5aa4273297b65f40da4d118 foo
+         36bfc3642b19a98f1302aed4437c331df9b481f0 PCI: epf-mhi: Return 0, not remaining timeout, when eDMA ops complete
          
