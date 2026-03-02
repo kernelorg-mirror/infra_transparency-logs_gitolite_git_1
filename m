@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/geert/renesas-devel
-Date: Mon, 02 Mar 2026 09:14:15 -0000
-Message-Id: <177244285500.3939708.14580526429764510022@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
+Date: Mon, 02 Mar 2026 09:15:41 -0000
+Message-Id: <177244294116.3942454.9082855216324693093@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/geert/renesas-devel
-user: geert
+repo: pub/scm/linux/kernel/git/maz/arm-platforms
+user: maz
 changes:
-  - ref: refs/tags/renesas-next-2026-03-02-v7.0-rc1
-    old: 976549a357680f3c175b59ed3862d5dcc0f428b8
-    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/usb/cdc-brk
+    old: 0000000000000000000000000000000000000000
+    new: c91763a8097bfc2254646e3044aafadfa8e3c0af
