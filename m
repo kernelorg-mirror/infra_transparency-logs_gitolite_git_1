@@ -1,23 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/dakr/linux
-Date: Mon, 02 Mar 2026 19:39:05 -0000
-Message-Id: <177248034530.279611.15496773896136790975@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
+Date: Mon, 02 Mar 2026 19:42:32 -0000
+Message-Id: <177248055228.283350.13184996007992909785@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/dakr/linux
-user: dakr
+repo: pub/scm/linux/kernel/git/rdma/rdma
+user: leon
 changes:
-  - ref: refs/heads/driver_override
-    old: 268a990c3f5423afd328f3b8006a627b37979da7
-    new: e6f2870238f6442e4c21b9d9ed17880e004da959
+  - ref: refs/heads/wip/leon-for-rc
+    old: 1b3b0ec3df4a69b8981836b54121162938d6a2bb
+    new: cbbdb148c62814b2d60b3f49e10696093c57a987
     log: |
-         6b01046b725e72a18590ac25504c215ea2348a53 driver core: generalize driver_override in struct device
-         894b69328f54cf4b6b741c49030b9504fac6924f hwmon: axi-fan: don't use driver_override as IRQ name
-         50de24c5e3359d12f78f7f0a85d5c15d442bdbd5 driver core: platform: use generic driver_override infrastructure
-         35299a0d4d10aca39fe8f033ae6868fe9bb23b0b WIP: treewide: make callsites use generic driver_override
-         e6f2870238f6442e4c21b9d9ed17880e004da959 WIP: driver core: remove driver_set_override()
+         cbbdb148c62814b2d60b3f49e10696093c57a987 RDMA/ionic: Preserve and set Ethernet source MAC after ib_ud_header_init()
          
