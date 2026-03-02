@@ -1,58 +1,58 @@
-Content-Type: multipart/mixed; boundary="===============1587504984104762451=="
+Content-Type: multipart/mixed; boundary="===============1382377674797742187=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Mon, 02 Mar 2026 13:00:25 -0000
-Message-Id: <177245642569.4130816.6889122623118238906@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Mon, 02 Mar 2026 13:00:29 -0000
+Message-Id: <177245642931.4130981.2925140938987965045@gitolite.kernel.org>
 
---===============1587504984104762451==
+--===============1382377674797742187==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-7.0
+  - ref: refs/heads/asoc-7.0
     old: 32fc4168fa56f6301d858c778a3d712774e9657e
     new: 11439c4635edd669ae435eec308f4ab8a0804808
     log: revlist-32fc4168fa56-11439c4635ed.txt
-  - ref: refs/heads/for-7.1
+  - ref: refs/heads/asoc-7.1
     old: 2974aa42e6696a1d95b727d677dc01a71af5b998
     new: da37bfe76b5b4ccc01ed8132215098e20d78e5f3
     log: |
          da37bfe76b5b4ccc01ed8132215098e20d78e5f3 ASoC: cs42xx8: add error checks for constraints in TDM mode
          
 
---===============1587504984104762451==
+--===============1382377674797742187==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1772456423 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1772456423-df7884bd225855a8d76a98945e7db666d561a227
+pusher C3F436CA30F5D8EB 1772456427 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1772456426-86391bf0ca9c0cc208e2a56a2b8e66d7be6d5bfb
 
-32fc4168fa56f6301d858c778a3d712774e9657e 11439c4635edd669ae435eec308f4ab8a0804808 refs/heads/for-7.0
-2974aa42e6696a1d95b727d677dc01a71af5b998 da37bfe76b5b4ccc01ed8132215098e20d78e5f3 refs/heads/for-7.1
+32fc4168fa56f6301d858c778a3d712774e9657e 11439c4635edd669ae435eec308f4ab8a0804808 refs/heads/asoc-7.0
+2974aa42e6696a1d95b727d677dc01a71af5b998 da37bfe76b5b4ccc01ed8132215098e20d78e5f3 refs/heads/asoc-7.1
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmmliecACgkQJNaLcl1U
-h9ByGwf+MbfeDrx/KWREK8Tnd1g7M/tFkiTm8KwNuSzIEUK+UFHocX9BSqgJb+Oa
-VSJb6mkcry92878ylJfwgwIOFNUcR0UzlQ2lp5KYiwjLQliO+xI2dZcXJNqUPrkn
-v6KdwpiJEQXnqr0j32MNaZCqFQHmLU2dnIMGzMRTkF8Le7IgaOCR+CXYHGvwAb7Z
-n3+Kj38KNUVPjXKxCnjscVQUS46YXIzcS8hy3sexF+nTe2gjqst/d/6QBZbPgBzg
-m6PgD8BAzpi8QDmfJau6KU8YZJtAcJrRQwcY0BqxhLS26PbI7jm7DZJSSZu4Xz0P
-UT2qrluLJFXriBJawdw4jTivH14ldw==
-=r1vb
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmmliesACgkQJNaLcl1U
+h9C/RQf/RkkypNVsg9zBRKWsDfHzQ6N4aDcQhcpGf3Su1hmvBcbhGD53eyw021ZR
+UKPqBkGAuW8KyJHGzoOlNk0qbw3j9qPoEhZbp7XE3XKMFcmRk+N4fj5BWpqv+OA1
+0V2fjP8C5cy6TW+B0te9CNUdlefwte2t8SzRVMEKRYEDwLRJn7Mzqr2roJ30Bnz3
+u8tekiwCFOj02PnaB5pR/4I3FmAHdmXiUEyEIxKYyxUuXWxm6pYG39jucKYt/NZu
+pIWX0xpGZxEXHYzw+x5kd0kBwlCm4D/591HB8b3M0qMyFYGJyf4sRH1AVEteQf8k
+M4yp16QrG4GEfsqrWQ30dZEaMjHB5Q==
+=EZnY
 -----END PGP SIGNATURE-----
 
---===============1587504984104762451==
+--===============1382377674797742187==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -491,4 +491,4 @@ e2bd1b136926f1ff65d4e0f87ac49b9a4621238c Merge tag 'core-debugobjects-2026-03-01
 949d0a46ad1b9ab3450fb6ed69ff1e3e13c657bd Merge tag 'for-linus' of git://git.kernel.org/pub/scm/virt/kvm/kvm
 11439c4635edd669ae435eec308f4ab8a0804808 Linux 7.0-rc2
 
---===============1587504984104762451==--
+--===============1382377674797742187==--
