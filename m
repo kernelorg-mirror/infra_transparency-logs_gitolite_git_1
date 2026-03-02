@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
-Date: Mon, 02 Mar 2026 07:10:31 -0000
-Message-Id: <177243543178.3841817.16650455561207394070@gitolite.kernel.org>
+Date: Mon, 02 Mar 2026 07:12:02 -0000
+Message-Id: <177243552271.3842798.179314653060356662@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/xiang/erofs-utils
 user: xiang
 changes:
   - ref: refs/heads/dev
-    old: c2b6d37f86b1a1057cf39701c6860133e66ecc9e
-    new: 6687d0939090296a0dbbae0a644c96391513a496
+    old: 6687d0939090296a0dbbae0a644c96391513a496
+    new: b094fe375eeb10dbf4ee22fc759cdeb1ad2a1eac
     log: |
-         6687d0939090296a0dbbae0a644c96391513a496 erofs-utils: mount: fix flag-clearing bug and missing error check in parse_flagopts
+         b094fe375eeb10dbf4ee22fc759cdeb1ad2a1eac erofs-utils: mount: fix flag-clearing bug and missing error check in parse_flagopts
          
