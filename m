@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3853826526944210317=="
+Content-Type: multipart/mixed; boundary="===============1392875226373061756=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Mon, 02 Mar 2026 14:01:42 -0000
-Message-Id: <177246010274.4182983.18128550030709844369@gitolite.kernel.org>
+Date: Mon, 02 Mar 2026 14:02:25 -0000
+Message-Id: <177246014522.4183455.12444585396581244033@gitolite.kernel.org>
 
---===============3853826526944210317==
+--===============1392875226373061756==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/cel/linux
 user: cel
 changes:
-  - ref: refs/heads/nfsd-next
-    old: bf2a23724f42ae2f67aa4027502b3785a7d9f17d
-    new: b6b4b93bf3300c185cf48dd0d73e6f245deae198
-    log: revlist-bf2a23724f42-b6b4b93bf330.txt
+  - ref: refs/heads/nfsd-testing
+    old: 8ebb161dd190c65c9187080cc403e02ad206d6e4
+    new: 480e7354605d6d05eaad4282b3556bb8ad444ada
+    log: revlist-8ebb161dd190-480e7354605d.txt
 
---===============3853826526944210317==
+--===============1392875226373061756==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-bf2a23724f42-b6b4b93bf330.txt
+Content-Disposition: attachment; filename=revlist-8ebb161dd190-480e7354605d.txt
 
 1799d8abeabc68ec05679292aaf6cba93b343c05 xfrm6: fix uninitialized saddr in xfrm6_get_saddr()
 0a4524bc69882a4ddb235bb6b279597721bda197 xfrm: skip templates check for packet offload tunnel mode
@@ -485,5 +485,50 @@ a4988699630f59891c794ea1828dce5fc6dc9bcf lockd: Relocate svc_version definitions
 9d6dfd7254a4cb3f6128628aaaaf52e9ffe7bc79 sunrpc: Kill RPC_IFDEBUG()
 94d7e609881e593ec8bd2bb7fa8a83d8a32f89f1 sunrpc: Fix compilation error (`make W=1`) when dprintk() is no-op
 b6b4b93bf3300c185cf48dd0d73e6f245deae198 NFSD: fix nfs4_file access extra count in nfsd4_add_rdaccess_to_wrdeleg
+1543daf2f084d1cef79a202ec6d965727d5b5ef8 NFSD: Enforce timeout on layout recall and integrate lease manager fencing
+0379d2bf6d0539b999bb6b5519cfb67d93a6f892 Documentation: Add the RPC language description of NLM version 4
+465be903055ce03b0c48c2e5fd24783671b7becb lockd: Use xdrgen XDR functions for the NLMv4 NULL procedure
+13f8c145e808c3a1a526869284347d9d0123475e lockd: Use xdrgen XDR functions for the NLMv4 TEST procedure
+30fad06f9e38ce34345d2382f010feee316ac160 lockd: Use xdrgen XDR functions for the NLMv4 LOCK procedure
+f7fbe5a0b22b6662a1188fc6a5ae4c931067a734 lockd: Use xdrgen XDR functions for the NLMv4 CANCEL procedure
+db167c01a4f15c7e2d5c652cde908c58698368a6 lockd: Use xdrgen XDR functions for the NLMv4 UNLOCK procedure
+969d6c110b4c78ad82aee004dc11025fe75bec16 lockd: Use xdrgen XDR functions for the NLMv4 GRANTED procedure
+e422d10cddcf1c9513c3849c7b6b9d9c7a294f1f lockd: Refactor nlm4svc_callback()
+ec57eae8f6c9bd28fd990f2b81e3972c23d42147 lockd: Use xdrgen XDR functions for the NLMv4 TEST_MSG procedure
+dc43414e97f5e37dc4c934fbc381554d05bb26be lockd: Use xdrgen XDR functions for the NLMv4 LOCK_MSG procedure
+0cc223bffae9b2e1d0c9770921e17f1a8ffbf620 lockd: Use xdrgen XDR functions for the NLMv4 CANCEL_MSG procedure
+36a3a46d31c64f1214b025172f27223075f273f7 lockd: Use xdrgen XDR functions for the NLMv4 UNLOCK_MSG procedure
+f951032fc360fd3c899677900ea0a81478109e1d lockd: Use xdrgen XDR functions for the NLMv4 GRANTED_MSG procedure
+dcade3b4ad0e5dc4cb079f30f2c04b3da548c64e lockd: Use xdrgen XDR functions for the NLMv4 TEST_RES procedure
+614b4a03f4155d6f5399ebe0c07115a9e5ecf776 lockd: Use xdrgen XDR functions for the NLMv4 LOCK_RES procedure
+e7e310c901f3f391afdfa75ad9557f56e69ab23c lockd: Use xdrgen XDR functions for the NLMv4 CANCEL_RES procedure
+298f141c35f9a6c4696de18176b823d86b4105e3 lockd: Use xdrgen XDR functions for the NLMv4 UNLOCK_RES procedure
+078b478a3290c5d56a59f64b7e6708baf4178681 lockd: Use xdrgen XDR functions for the NLMv4 GRANTED_RES procedure
+cb2a2b76c6e144190f1746865e8bb2fb0d995680 lockd: Use xdrgen XDR functions for the NLMv4 SM_NOTIFY procedure
+fd2eb0b06fe0feccdc795c90beecd0e275a191e7 lockd: Convert server-side undefined procedures to xdrgen
+66fab486cbcfd5573afc4d175591d2105ebd533c lockd: Hoist file_lock init out of nlm4svc_decode_shareargs()
+11c8d68d955fa582b1308387ab50c6a00e3e2b8a lockd: Prepare share helpers for xdrgen conversion
+b2684663cf9f61e02259ea02a74dd928c93f537f lockd: Use xdrgen XDR functions for the NLMv4 SHARE procedure
+3cf3c0153d4dc9dd3d1f1cefe55b8850b193cf56 lockd: Use xdrgen XDR functions for the NLMv4 UNSHARE procedure
+bd6c59615f89e722bb80b2974597fb0983ca2714 lockd: Use xdrgen XDR functions for the NLMv4 NM_LOCK procedure
+61b7e9e48205d7c41d9580b7d279eeb50acb48e2 lockd: Use xdrgen XDR functions for the NLMv4 FREE_ALL procedure
+e2fd8cf0d1da9c55629e8f296ba951ab74db7dca lockd: Add LOCKD_SHARE_SVID constant for DOS sharing mode
+4c5474f5db72018229f2b490f4070dff614d80e4 lockd: Remove C macros that are no longer used
+cd34f1f722a87be89f5272dc9ec92998a6edefe6 lockd: Remove dead code from fs/lockd/xdr4.c
+c62abda4a9a4a4a0b0eb061565574f851c37280e NFSD: Defer sub-object cleanup in export put callbacks
+acd456093096c4d91c3169ef3e62b3cc65d9f393 NFSD: Hold net reference for the lifetime of /proc/fs/nfs/exports fd
+c26e791fdb3dfcc69a481143f5bf80230f53e2fd sunrpc: Add XPT flags missing from SVC_XPRT_FLAG_LIST
+906264a165129642ba83a8d64e19c95ef97fc5f3 sunrpc: fix cache_request leak in cache_release
+4e1b9abdf8d63ccda1a4b123b6dc69082ffdfc65 sunrpc: convert queue_lock from global spinlock to per-cache-detail lock
+f8f0a38dfa14f83e5a8cc33efb844499e301f72b sunrpc: convert queue_wait from global to per-cache-detail waitqueue
+4b848dbfa274f2d0ef3b90bdcffa7f076158550c sunrpc: split cache_detail queue into request and reader lists
+46e9f16338db1638814bfbe342a3626291897061 nfsd: convert global state_lock to per-net deleg_lock
+190c7f05514adc950717561790e900514c05bcc2 nfsd: fix heap overflow in NFSv4.0 LOCK replay cache
+41d7c7c99be3446686a1ca0557151b843db0d271 nfsd: use dynamic allocation for oversized NFSv4.0 replay cache
+4c311abfdd6dd66e8b15c2eccc3ac3d705f87466 NFSD: Add a key for signing filehandles
+4a80879741f2af93bfae8ead057d652468475232 NFSD/export: Add sign_fh export option
+462d2e5f50cfe7dcc831eccfb594385c1b4444a3 NFSD: Sign filehandles
+7fe3983aa5a7df2ca0bf1b19719b112c4136e616 [DEBUG] Add instrumentation for nfsd_mutex contention debugging
+480e7354605d6d05eaad4282b3556bb8ad444ada siw: Enable try_gso
 
---===============3853826526944210317==--
+--===============1392875226373061756==--
