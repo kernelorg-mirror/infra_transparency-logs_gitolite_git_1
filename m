@@ -1,23 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
-Date: Mon, 02 Mar 2026 02:04:16 -0000
-Message-Id: <177241705691.3602424.1552814161146814585@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/paulmck/perfbook
+Date: Mon, 02 Mar 2026 02:23:05 -0000
+Message-Id: <177241818562.3617203.17189894381428729922@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/xiang/erofs-utils
-user: xiang
+repo: pub/scm/linux/kernel/git/paulmck/perfbook
+user: paulmck
 changes:
-  - ref: refs/heads/dev
-    old: 7c24c409d75ab89b0410951586ac0a56b67b31fb
-    new: c2b6d37f86b1a1057cf39701c6860133e66ecc9e
+  - ref: refs/heads/master
+    old: cb598e7b69f9b445af252fe29fcb1c07d8b176a5
+    new: 19b88ac2de603e0b196ff9dc3941a27a2e215354
     log: |
-         119a0546a1d5a5997b37f9c4b03bf46a3bfb68ac erofs-utils: dump: add missing compat features and separate feature display
-         fc3a86f379cb7bdd28efb7da6cb6d7dae4770fba erofs-utils: lib: converted division to shift in z_erofs_load_compact_lcluster
-         bdbb5270736ca9b08c027e6d5e65e581ef615c8a erofs-utils: lib: fix several compile warnings under glibc-2.43
-         5a1de8fd101061d1ff4e6322fd84d5bbc4962d68 erofs-utils: fsck: support extracting subtrees
-         c2b6d37f86b1a1057cf39701c6860133e66ecc9e erofs-utils: mount: auto-detect platform for OCI recovery files
+         c497b4da0eb6829ea2e6e0a4d51f0b2f1d7d6dac CodeSamples/defer/route_cacm: Use trivial RCU implementation
+         29065f9726db3fdecdcab1a37e28b38415d71ba8 defer: Fix grammar typos in Chapter 9 text
+         2998bb68447a8836b1dcdfe1f8834bc41b0782f1 defer/rcufundamental: Clarify rcu_dereference() ordering semantics
+         19b88ac2de603e0b196ff9dc3941a27a2e215354 defer: Fix grammar issues across Chapter 9 text
          
