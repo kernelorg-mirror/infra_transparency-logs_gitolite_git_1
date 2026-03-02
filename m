@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/device-mapper/linux-dm
-Date: Mon, 02 Mar 2026 15:40:09 -0000
-Message-Id: <177246600919.75088.451898744383641231@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
+Date: Mon, 02 Mar 2026 15:43:21 -0000
+Message-Id: <177246620172.76489.7874187314476647240@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/device-mapper/linux-dm
-user: mikulas
+repo: pub/scm/linux/kernel/git/ath/ath
+user: jjohnson
 changes:
-  - ref: refs/heads/dm-7.1
+  - ref: refs/tags/ath-current-20260302
     old: 0000000000000000000000000000000000000000
-    new: b3929b2cc2a6003b8e301e6540c651e60d24dcb4
+    new: 1693c2d3350acb9d15c9cb9eab52231473c8a616
