@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5525273378333576091=="
+Content-Type: multipart/mixed; boundary="===============0915116772934934502=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Mon, 02 Mar 2026 23:21:22 -0000
-Message-Id: <177249368273.464868.12224127290059305548@gitolite.kernel.org>
+Date: Mon, 02 Mar 2026 23:21:30 -0000
+Message-Id: <177249369068.465093.17006389604875290932@gitolite.kernel.org>
 
---===============5525273378333576091==
+--===============0915116772934934502==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/broonie/ci
 user: broonie
 changes:
-  - ref: refs/heads/regmap-7.1
-    old: 9ab637ac5d3826606947f4e861107da958eda324
-    new: c26137d3a3a8168b49679e30cf3c08177bb2dbe7
-    log: revlist-9ab637ac5d38-c26137d3a3a8.txt
+  - ref: refs/heads/spi-7.1
+    old: d3b693a13b39bce16e284e1c737874966b3a96de
+    new: a4f23717b1d6fa7b438c63537edadf1b5b181b38
+    log: revlist-d3b693a13b39-a4f23717b1d6.txt
 
---===============5525273378333576091==
+--===============0915116772934934502==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9ab637ac5d38-c26137d3a3a8.txt
+Content-Disposition: attachment; filename=revlist-d3b693a13b39-a4f23717b1d6.txt
 
 1799d8abeabc68ec05679292aaf6cba93b343c05 xfrm6: fix uninitialized saddr in xfrm6_get_saddr()
 0a4524bc69882a4ddb235bb6b279597721bda197 xfrm: skip templates check for packet offload tunnel mode
@@ -460,6 +460,6 @@ f6542af92298d8a44ab5588144086fa2d0edf391 Merge tag 'timers-urgent-2026-03-01' of
 e2bd1b136926f1ff65d4e0f87ac49b9a4621238c Merge tag 'core-debugobjects-2026-03-01' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 949d0a46ad1b9ab3450fb6ed69ff1e3e13c657bd Merge tag 'for-linus' of git://git.kernel.org/pub/scm/virt/kvm/kvm
 11439c4635edd669ae435eec308f4ab8a0804808 Linux 7.0-rc2
-c26137d3a3a8168b49679e30cf3c08177bb2dbe7 regmap: Merge up v7.0-rc2
+a4f23717b1d6fa7b438c63537edadf1b5b181b38 spi: Merge up v7.0-rc2
 
---===============5525273378333576091==--
+--===============0915116772934934502==--
