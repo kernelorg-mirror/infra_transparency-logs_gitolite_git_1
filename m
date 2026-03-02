@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6535322438429250683=="
+Content-Type: multipart/mixed; boundary="===============0707789124180774059=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Mon, 02 Mar 2026 17:10:39 -0000
-Message-Id: <177247143996.157220.8136254958435848667@gitolite.kernel.org>
+Date: Mon, 02 Mar 2026 17:10:42 -0000
+Message-Id: <177247144270.157382.3480151814767349078@gitolite.kernel.org>
 
---===============6535322438429250683==
+--===============0707789124180774059==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
+  - ref: refs/heads/10GbE
     old: b9c8fc2caea6ff7e45c6942de8fee53515c66b34
     new: 9439a661c2e80485406ce2c90b107ca17858382d
     log: revlist-b9c8fc2caea6-9439a661c2e8.txt
 
---===============6535322438429250683==
+--===============0707789124180774059==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -68,4 +68,4 @@ f7387d6579d65efd490a864254101cb665f2e7a7 xsk: Fix zero-copy AF_XDP fragment drop
 147792c395db870756a0dc87ce656c75ae7ab7e8 net: ti: icssg-prueth: Fix ping failure after offload mode setup when link speed is not 1G
 9439a661c2e80485406ce2c90b107ca17858382d amd-xgbe: fix MAC_TCR_SS register width for 2.5G and 10M speeds
 
---===============6535322438429250683==--
+--===============0707789124180774059==--
