@@ -1,21 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/andrea/synthmerge
-Date: Mon, 02 Mar 2026 17:45:17 -0000
-Message-Id: <177247351772.187270.10291529323196744975@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Mon, 02 Mar 2026 17:48:21 -0000
+Message-Id: <177247370192.188659.2552927346371613281@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/andrea/synthmerge
-user: andrea
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
-  - ref: refs/heads/main
-    old: 78a2d70e3cd650ce4287aa4bd026daffd913ac0c
-    new: 103ce4b4a87033475c80bbc864ab886063a96f00
+  - ref: refs/heads/master
+    old: 11439c4635edd669ae435eec308f4ab8a0804808
+    new: af4e9ef3d78420feb8fe58cd9a1ab80c501b3c08
     log: |
-         be5d2354b36114ab714584a22638b1116ed323e4 smerge-mode: fix conflict background in dark mode
-         dbece69ad2a2de03d50ed59886a55af656008d9c smerge-mode: clean up smerge-refine on smerge-mode toggle
-         103ce4b4a87033475c80bbc864ab886063a96f00 version
+         1cb968a2013ffa8112d52ebe605009ea1c6a582c nfsd: Fix cred ref leak in nfsd_nl_threads_set_doit().
+         92978c83bb4eef55d02a6c990c01c423131eefa7 nfsd: Fix cred ref leak in nfsd_nl_listener_set_doit().
+         364410170ab33f6e7ef0eb2afb12bf89b0feb3a6 nfsd: report the requested maximum number of threads instead of number running
+         1b37ac211a22d4c65aad1ae2da07f078197e7394 Merge tag 'nfsd-7.0-1' of git://git.kernel.org/pub/scm/linux/kernel/git/cel/linux
+         af4e9ef3d78420feb8fe58cd9a1ab80c501b3c08 uaccess: Fix scoped_user_read_access() for 'pointer to const'
          
