@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4443148814946254209=="
+Content-Type: multipart/mixed; boundary="===============3853826526944210317=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Mon, 02 Mar 2026 14:01:12 -0000
-Message-Id: <177246007233.4182679.17212158673475808898@gitolite.kernel.org>
+Date: Mon, 02 Mar 2026 14:01:42 -0000
+Message-Id: <177246010274.4182983.18128550030709844369@gitolite.kernel.org>
 
---===============4443148814946254209==
+--===============3853826526944210317==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/cel/linux
 user: cel
 changes:
-  - ref: refs/heads/master
-    old: 6de23f81a5e08be8fbf5e8d7e9febc72a5b5f27f
-    new: 11439c4635edd669ae435eec308f4ab8a0804808
-    log: revlist-6de23f81a5e0-11439c4635ed.txt
+  - ref: refs/heads/nfsd-next
+    old: bf2a23724f42ae2f67aa4027502b3785a7d9f17d
+    new: b6b4b93bf3300c185cf48dd0d73e6f245deae198
+    log: revlist-bf2a23724f42-b6b4b93bf330.txt
 
---===============4443148814946254209==
+--===============3853826526944210317==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6de23f81a5e0-11439c4635ed.txt
+Content-Disposition: attachment; filename=revlist-bf2a23724f42-b6b4b93bf330.txt
 
 1799d8abeabc68ec05679292aaf6cba93b343c05 xfrm6: fix uninitialized saddr in xfrm6_get_saddr()
 0a4524bc69882a4ddb235bb6b279597721bda197 xfrm: skip templates check for packet offload tunnel mode
@@ -460,5 +460,30 @@ f6542af92298d8a44ab5588144086fa2d0edf391 Merge tag 'timers-urgent-2026-03-01' of
 e2bd1b136926f1ff65d4e0f87ac49b9a4621238c Merge tag 'core-debugobjects-2026-03-01' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 949d0a46ad1b9ab3450fb6ed69ff1e3e13c657bd Merge tag 'for-linus' of git://git.kernel.org/pub/scm/virt/kvm/kvm
 11439c4635edd669ae435eec308f4ab8a0804808 Linux 7.0-rc2
+524c03b662a5f8aaa7d86c9c96fa83e3f1031c18 nfsd/sunrpc: add svc_rqst->rq_private pointer and remove rq_lease_breaker
+11d777bf48be20b3bff4970238013118c4d08e7d nfsd/sunrpc: move rq_cachetype into struct nfsd_thread_local_info
+05fe5b929cafac2d77d133139d7bfc336079c68c sunrpc/cache: improve RCU safety in cache_list walking.
+17682915a896c1f1bc79168362ed89eeadd673ee NFSD: Track SCSI Persistent Registration Fencing per Client with xarray
+662a81afa318a4e7d02aa87f348e33c608b335f0 SUNRPC: Replace KUnit tests for memcmp() with KUNIT_EXPECT_MEMEQ_MSG()
+46e65589b06a8a101b22e17c24a6bf750beb3c3f nfsd: add a runtime switch for disabling delegated timestamps
+8d32f85e8224ede3b8eecd3185123629a4d684f5 nfsd: remove NFSD_V4_DELEG_TIMESTAMPS Kconfig option
+c3fde802119e6f4a4f1c06cf71eba4d78fd37829 lockd: Simplify cast_status() in svcproc.c
+47587f9d59d53c843a8148e3ace2315c20639bdb lockd: Relocate and rename nlm_drop_reply
+525ec97729b9d3876f6943745d989d86bff35806 lockd: Introduce nlm__int__deadlock
+554cff0f8954acd28953425d787cd36baace77c2 lockd: Have nlm_fopen() return errno values
+37187855cf8ab1655b3d9d8fc59a5f7dce7cc9d0 lockd: Relocate nlmsvc_unlock API declarations
+9dabe114e508682c91577d82003f8c8d0be89fd6 NFS: Use nlmclnt_shutdown_rpc_clnt() to safely shut down NLM
+faaecbf9f814cc260b9834834d2c823895c65958 lockd: Move xdr4.h from include/linux/lockd/ to fs/lockd/
+e59cf88ce1ce0db1db12a867b23143cea8881535 lockd: Move share.h from include/linux/lockd/ to fs/lockd/
+1f920bc526f583bf9786892402cfd912241edeef lockd: Relocate include/linux/lockd/lockd.h
+0143db191f7c43b718434668b2a8aded467ccd56 lockd: Remove lockd/debug.h
+d43c2381e0f78dcc6e662c1841894d5e8e8c2792 lockd: Move xdr.h from include/linux/lockd/ to fs/lockd/
+4359cb9d384393041296ac96ab5e29344e85741e lockd: Make linux/lockd/nlm.h an internal header
+15fae9036df0f507a8170af5f354755352d006f2 lockd: Move nlm4svc_set_file_lock_range()
+a4988699630f59891c794ea1828dce5fc6dc9bcf lockd: Relocate svc_version definitions to XDR layer
+8f33321e7978d3f3d4807580897b9137b001c324 nfs/blocklayout: Fix compilation error (`make W=1`) in bl_write_pagelist()
+9d6dfd7254a4cb3f6128628aaaaf52e9ffe7bc79 sunrpc: Kill RPC_IFDEBUG()
+94d7e609881e593ec8bd2bb7fa8a83d8a32f89f1 sunrpc: Fix compilation error (`make W=1`) when dprintk() is no-op
+b6b4b93bf3300c185cf48dd0d73e6f245deae198 NFSD: fix nfs4_file access extra count in nfsd4_add_rdaccess_to_wrdeleg
 
---===============4443148814946254209==--
+--===============3853826526944210317==--
