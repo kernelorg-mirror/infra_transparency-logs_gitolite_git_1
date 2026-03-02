@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sudeep.holla/linux
-Date: Mon, 02 Mar 2026 11:43:14 -0000
-Message-Id: <177245179479.4067601.13437243104942447066@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mmind/linux-rockchip
+Date: Mon, 02 Mar 2026 12:00:36 -0000
+Message-Id: <177245283606.4081913.1334378744855460174@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sudeep.holla/linux
-user: sudeep.holla
+repo: pub/scm/linux/kernel/git/mmind/linux-rockchip
+user: mmind
 changes:
-  - ref: refs/tags/v7.0-rc2
+  - ref: refs/heads/v7.1-shared/clkids
     old: 0000000000000000000000000000000000000000
-    new: 9fad1d148df6f36105159c2503d0ecb1397bc89a
+    new: 75d627e5571a5ef313f6f553b7749b124c923c3d
