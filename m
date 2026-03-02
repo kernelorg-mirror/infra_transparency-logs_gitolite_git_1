@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1475119794617547136=="
+Content-Type: multipart/mixed; boundary="===============8272349058615747594=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/johan/usb-serial
-Date: Mon, 02 Mar 2026 11:21:11 -0000
-Message-Id: <177245047166.4048242.5854428449686577555@gitolite.kernel.org>
+Date: Mon, 02 Mar 2026 11:21:21 -0000
+Message-Id: <177245048143.4048468.10337599871232380202@gitolite.kernel.org>
 
---===============1475119794617547136==
+--===============8272349058615747594==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/johan/usb-serial
 user: johan
 changes:
-  - ref: refs/heads/usb-next
+  - ref: refs/heads/usb-linus
     old: 6de23f81a5e08be8fbf5e8d7e9febc72a5b5f27f
     new: 11439c4635edd669ae435eec308f4ab8a0804808
     log: revlist-6de23f81a5e0-11439c4635ed.txt
 
---===============1475119794617547136==
+--===============8272349058615747594==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -461,4 +461,4 @@ e2bd1b136926f1ff65d4e0f87ac49b9a4621238c Merge tag 'core-debugobjects-2026-03-01
 949d0a46ad1b9ab3450fb6ed69ff1e3e13c657bd Merge tag 'for-linus' of git://git.kernel.org/pub/scm/virt/kvm/kvm
 11439c4635edd669ae435eec308f4ab8a0804808 Linux 7.0-rc2
 
---===============1475119794617547136==--
+--===============8272349058615747594==--
