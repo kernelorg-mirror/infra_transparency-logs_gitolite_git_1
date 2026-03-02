@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/conor/linux
-Date: Mon, 02 Mar 2026 10:40:19 -0000
-Message-Id: <177244801986.4012649.16217180049891420800@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
+Date: Mon, 02 Mar 2026 10:42:09 -0000
+Message-Id: <177244812992.4013703.6945082366350535394@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/conor/linux
-user: conor
+repo: pub/scm/linux/kernel/git/rdma/rdma
+user: leon
 changes:
-  - ref: refs/heads/tsu
-    old: c4a3ac1511361bd72c2b56c0ae55aa5530cd3255
-    new: d219efa70a6b23581d2f6264a8a599fc37011ae9
+  - ref: refs/heads/wip/leon-for-next
+    old: 58409f0d4dd3f9e987214064e49b088823934304
+    new: 94ff7c59cdfde3a16ab830531acbcb3091b292eb
     log: |
-         d219efa70a6b23581d2f6264a8a599fc37011ae9 simon smatch feedback
+         94ff7c59cdfde3a16ab830531acbcb3091b292eb RDMA: Complete k[z|m|c]alloc-to-k[z|m]alloc_obj conversion
          
