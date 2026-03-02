@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7251085135141415755=="
+Content-Type: multipart/mixed; boundary="===============7806050561009901146=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Mon, 02 Mar 2026 10:21:52 -0000
-Message-Id: <177244691233.3997257.1101632943168701669@gitolite.kernel.org>
+Date: Mon, 02 Mar 2026 10:22:08 -0000
+Message-Id: <177244692812.3997584.13207577150776890586@gitolite.kernel.org>
 
---===============7251085135141415755==
+--===============7806050561009901146==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/rdma/rdma
 user: leon
 changes:
-  - ref: refs/heads/wip/leon-for-rc
+  - ref: refs/heads/for-rc
     old: 7c2889af823340d1d410939b9d547bf184d5fa54
     new: 3f4a08e64442340f4807de63e30aef22cc308830
     log: revlist-7c2889af8233-3f4a08e64442.txt
 
---===============7251085135141415755==
+--===============7806050561009901146==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -139,4 +139,4 @@ e3c81bae4f282a6be56bc22e05e2ce3dd92ae301 Merge tag 'for-linus' of git://git.kern
 795469820c638b4449f3bb90ee5e98ebccfbc480 kcsan: test: Adjust "expect" allocation type for kmalloc_obj
 3f4a08e64442340f4807de63e30aef22cc308830 Merge tag 'kmalloc_obj-v7.0-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/kees/linux
 
---===============7251085135141415755==--
+--===============7806050561009901146==--
