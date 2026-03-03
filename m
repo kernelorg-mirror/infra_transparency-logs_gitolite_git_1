@@ -1,35 +1,37 @@
-Content-Type: multipart/mixed; boundary="===============7616187527228172273=="
+Content-Type: multipart/mixed; boundary="===============2992296771963196528=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Tue, 03 Mar 2026 17:48:29 -0000
-Message-Id: <177256010945.1472503.8348113496963706529@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mic/linux
+Date: Tue, 03 Mar 2026 17:49:27 -0000
+Message-Id: <177256016762.1473144.16306653343592952753@gitolite.kernel.org>
 
---===============7616187527228172273==
+--===============2992296771963196528==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: daveh
+repo: pub/scm/linux/kernel/git/mic/linux
+user: mic
 changes:
-  - ref: refs/heads/x86/cpu
-    old: f8c7600d468bdb6e44ed3b3247c6e53f5be5d8de
-    new: 11439c4635edd669ae435eec308f4ab8a0804808
-    log: revlist-f8c7600d468b-11439c4635ed.txt
+  - ref: refs/heads/next
+    old: 8ff74a72b8af3672beca7f6b6b72557a9db94382
+    new: cb74f062363be380c685cd2ab732d9355d1dc795
+    log: revlist-8ff74a72b8af-cb74f062363b.txt
+  - ref: refs/tags/v7.0-rc1
+    old: 0000000000000000000000000000000000000000
+    new: 559f264e403e4d58d56a17595c60a1de011c5e20
+  - ref: refs/tags/v7.0-rc2
+    old: 0000000000000000000000000000000000000000
+    new: 9fad1d148df6f36105159c2503d0ecb1397bc89a
 
---===============7616187527228172273==
+--===============2992296771963196528==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f8c7600d468b-11439c4635ed.txt
+Content-Disposition: attachment; filename=revlist-8ff74a72b8af-cb74f062363b.txt
 
-41af6215cdbcecd12920f211239479027904abf3 drm/amd/display: Reject cursor plane on DCE when scaled differently than primary
-29b1b0b06defd4dcbb8af246270a9ad8686b89ed drm/amd/pm: use debug port for mode1 reset request on smu 13&14
-d76c66c6ad83994181967d7427385aab4c009ae0 drm/amd/pm: send unload command to smu during modprobe -r amdgpu
-e98bb71e246cd18c9718aba70718e845b6d134e8 drm/amdgpu: Load TA ucode for PSP 15_0_0
 5cc934e089fd70f69e089b0620a83386c99fbcf8 drm/amd/swsmu: Add new param regs for SMU15
 ce1598f018ef7fd65f6e6a5b36a34dbf71aef6c8 drm/amdgpu: Add support for update_table for SMU15
 a0562828d14410bc9b63c80ffb770e1ca7a7b27d drm/admgpu: Update metrics_table for SMU15
@@ -1050,5 +1052,9 @@ f6542af92298d8a44ab5588144086fa2d0edf391 Merge tag 'timers-urgent-2026-03-01' of
 e2bd1b136926f1ff65d4e0f87ac49b9a4621238c Merge tag 'core-debugobjects-2026-03-01' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 949d0a46ad1b9ab3450fb6ed69ff1e3e13c657bd Merge tag 'for-linus' of git://git.kernel.org/pub/scm/virt/kvm/kvm
 11439c4635edd669ae435eec308f4ab8a0804808 Linux 7.0-rc2
+1005bf895157638f18b850ce4a5b0a47e7736113 landlock: Fix formatting
+681e78562fae6c51516929d10058002d648a2c71 landlock: Fully release unused TSYNC work entries
+307fac88dc9e32beb0128cebadd92a774cc315ea landlock: Improve TSYNC types
+cb74f062363be380c685cd2ab732d9355d1dc795 samples/landlock: Bump ABI version to 8
 
---===============7616187527228172273==--
+--===============2992296771963196528==--
