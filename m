@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Tue, 03 Mar 2026 17:25:04 -0000
-Message-Id: <177255870405.1454444.14533984320228206526@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/conor/linux
+Date: Tue, 03 Mar 2026 17:28:18 -0000
+Message-Id: <177255889874.1456080.14107042650281430135@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: ast
+repo: pub/scm/linux/kernel/git/conor/linux
+user: conor
 changes:
-  - ref: refs/heads/for-next
-    old: 44dd647b668984fb52b7fb73952cb1668b76ebed
-    new: 05c9b2eda8a9e3a216e43879fc812981a4890704
-    log: |
-         05c9b2eda8a9e3a216e43879fc812981a4890704 selftests/bpf: Split module_attach into subtests
-         
+  - ref: refs/heads/ditch-_polarfire-kconfig
+    old: e365059bf22ead11e92d9c948b65dc1326c4e279
+    new: 0000000000000000000000000000000000000000
