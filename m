@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/b4/b4
-Date: Tue, 03 Mar 2026 14:10:40 -0000
-Message-Id: <177254704096.1283710.10882824610324028809@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/deller/linux-fbdev
+Date: Tue, 03 Mar 2026 14:14:22 -0000
+Message-Id: <177254726215.1285077.5253625989962384156@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/b4/b4
-user: mricon
+repo: pub/scm/linux/kernel/git/deller/linux-fbdev
+user: deller
 changes:
-  - ref: refs/heads/master
-    old: 6ac2303d5eb4c226566171c87868a9f9217bbebb
-    new: d6685fcf611fcfb9fcac0c8c7c082d7395f86782
+  - ref: refs/heads/for-next
+    old: 35643d4044e19ae4a2ab3a5518b812d7318a716b
+    new: 3bb63f3ebd4e834b4773488125df74e9391e06df
     log: |
-         d6685fcf611fcfb9fcac0c8c7c082d7395f86782 docs: document NO_COLOR environment variable for review TUI
+         6d5fef3d846cb4f66639456b64965bc012185ac7 fbdev: goldfishfb: use devm_platform_ioremap_resource()
+         3bb63f3ebd4e834b4773488125df74e9391e06df fbcon: Fix out-of-bounds memory in fbcon_putcs
          
