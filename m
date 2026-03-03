@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4687861603303352847=="
+Content-Type: multipart/mixed; boundary="===============0056395264341834726=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/fwctl/fwctl
-Date: Tue, 03 Mar 2026 00:10:17 -0000
-Message-Id: <177249661760.510008.6913314621692430280@gitolite.kernel.org>
+Date: Tue, 03 Mar 2026 00:19:54 -0000
+Message-Id: <177249719484.515582.11818572471779048293@gitolite.kernel.org>
 
---===============4687861603303352847==
+--===============0056395264341834726==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/fwctl/fwctl
 user: jgg
 changes:
-  - ref: refs/heads/for-rc
+  - ref: refs/heads/for-next
     old: f8f9c1f4d0c7a64600e2ca312dec824a0bc2f1da
     new: 11439c4635edd669ae435eec308f4ab8a0804808
     log: revlist-f8f9c1f4d0c7-11439c4635ed.txt
 
---===============4687861603303352847==
+--===============0056395264341834726==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ e2bd1b136926f1ff65d4e0f87ac49b9a4621238c Merge tag 'core-debugobjects-2026-03-01
 949d0a46ad1b9ab3450fb6ed69ff1e3e13c657bd Merge tag 'for-linus' of git://git.kernel.org/pub/scm/virt/kvm/kvm
 11439c4635edd669ae435eec308f4ab8a0804808 Linux 7.0-rc2
 
---===============4687861603303352847==--
+--===============0056395264341834726==--
