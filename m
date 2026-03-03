@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/damon-hack
-Date: Tue, 03 Mar 2026 06:10:48 -0000
-Message-Id: <177251824849.900727.4915250341660807010@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
+Date: Tue, 03 Mar 2026 06:23:22 -0000
+Message-Id: <177251900237.908914.16147135660855426258@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/damon-hack
-user: sj
+repo: pub/scm/linux/kernel/git/xiang/erofs-utils
+user: xiang
 changes:
-  - ref: refs/heads/master
-    old: 8b6be683023d3f4cd78287f0f11c390ec3cb2097
-    new: 8c78439fe8591f89446a068483c08602b3a0c27a
+  - ref: refs/heads/experimental
+    old: 4a38031a73c9e68c4d601c30b2b1426e1b972dd3
+    new: 2ce4b1834940f951ea1cd16376381536dc5c8a1f
     log: |
-         8c78439fe8591f89446a068483c08602b3a0c27a todo: update status
+         2ce4b1834940f951ea1cd16376381536dc5c8a1f erofs-utils: lib: fix xattr crash in rebuild path when source has xattr
          
