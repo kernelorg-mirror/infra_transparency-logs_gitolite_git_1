@@ -1,22 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============2581530761061174009=="
+Content-Type: multipart/mixed; boundary="===============1779774361075512995=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Tue, 03 Mar 2026 11:19:09 -0000
-Message-Id: <177253674984.1141141.14815142396459310097@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Tue, 03 Mar 2026 11:19:13 -0000
+Message-Id: <177253675357.1141307.1919357020696646063@gitolite.kernel.org>
 
---===============2581530761061174009==
+--===============1779774361075512995==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-7.0
+  - ref: refs/heads/asoc-7.0
     old: 11439c4635edd669ae435eec308f4ab8a0804808
     new: 70c3054505bbb7c6a876761eb26407f97c36e001
     log: |
@@ -30,37 +30,37 @@ changes:
          a8df7892a9f42b2e2d5851f8835c734bd7fe8ad4 ASoC: dt-bindings: tegra: Add compatible for Tegra238 sound card
          70c3054505bbb7c6a876761eb26407f97c36e001 ASoC: fsl_easrc: Fix control writes
          
-  - ref: refs/heads/for-7.1
+  - ref: refs/heads/asoc-7.1
     old: da37bfe76b5b4ccc01ed8132215098e20d78e5f3
     new: 6dc41d8d3b9692b6336196ae1a330bcd3fad92ee
     log: revlist-da37bfe76b5b-6dc41d8d3b96.txt
 
---===============2581530761061174009==
+--===============1779774361075512995==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1772536747 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1772536746-c93a34c23503cec58bd07c7b9e39369a50f79fd7
+pusher C3F436CA30F5D8EB 1772536751 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1772536751-213b9444acfedc1c057746256347f61b5be8b60e
 
-11439c4635edd669ae435eec308f4ab8a0804808 70c3054505bbb7c6a876761eb26407f97c36e001 refs/heads/for-7.0
-da37bfe76b5b4ccc01ed8132215098e20d78e5f3 6dc41d8d3b9692b6336196ae1a330bcd3fad92ee refs/heads/for-7.1
+11439c4635edd669ae435eec308f4ab8a0804808 70c3054505bbb7c6a876761eb26407f97c36e001 refs/heads/asoc-7.0
+da37bfe76b5b4ccc01ed8132215098e20d78e5f3 6dc41d8d3b9692b6336196ae1a330bcd3fad92ee refs/heads/asoc-7.1
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmmmw6sACgkQJNaLcl1U
-h9BfwQf/VaFMCTgg/63CP2+OAGA0heQ0UQUT1tiAz8q8qDb/Ah7M3jFNS4seEweK
-PzS0nDDutowOIyoo8w++E9sCWwilConvgRN0vCAnBiRBv98DGWe/EiF2xNXlgXhu
-RoNVuXa5DqIlA/qNBpMOoXX653aPKGdgZZ2RHdNZ8Vdb6Wv+lzbmj4kccJ68tIL9
-oZ6rqhAZO6WlPzeNujS395L9EO4j7RWSl8cHrKdVRoAT09ZPg8qzPnXCKevW9P9B
-+gC6YcvMD0xL4S0lbAxwA0M/OVpbZ1oWCEwtPFlRwZB9GA9aGJ/B2D6arM3aBVbW
-AQmFjQ2RoKCTxJ/BHMgeU2asQXXBsg==
-=cS4D
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmmmw68ACgkQJNaLcl1U
+h9AurAf/XEH+mtt3pOR6RTCHLmgN6k5v/nQuCkCfkI1MggzpY4qsGr/5FscGWz5r
+5cfuTMZ5kzhkczL5uC7tAPNwJgCqIwOKybDrVK1a0tjRXEA0ccTi22CT1mG1M3so
+JuoT/SHeC/YQLs2ZjPAEwPFPvTrk3L0CT9OeFaPBArfOjppLrlD+fLnEQZCdSl31
+bcIgp4yyu/4u3sg+SNlWYC7JrRboUnIZpbpuvIHIiuWfV5SrRK7ft7JUEKuGQtGZ
+n+nr4+yTQR8Za+C4XD/56AQb0rLqFiB6NswWmRho6XBA0v3Z46isKyWLZX/DURzz
+vuZfbnjcpOBiEAkiRfqTYSHIPijCXQ==
+=5DHs
 -----END PGP SIGNATURE-----
 
---===============2581530761061174009==
+--===============1779774361075512995==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -519,4 +519,4 @@ a8fd392f6e3ad33b87dfdb6d438f05c5bc29d2e6 ASoC: sti: regmap_field usage improveme
 727d1a1c4eb272164a84d4400dddcdf26ecf502a Support wm_adsp hibernation for runtime suspend
 6dc41d8d3b9692b6336196ae1a330bcd3fad92ee ASoC: tegra: Add support for WM8962 and CPCAP
 
---===============2581530761061174009==--
+--===============1779774361075512995==--
