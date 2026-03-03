@@ -1,20 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/b4/b4
-Date: Tue, 03 Mar 2026 15:44:36 -0000
-Message-Id: <177255267648.1361441.3184424573296820230@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/driver-core/driver-core
+Date: Tue, 03 Mar 2026 15:45:17 -0000
+Message-Id: <177255271739.1364881.13319304722429619795@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/b4/b4
-user: mricon
+repo: pub/scm/linux/kernel/git/driver-core/driver-core
+user: dakr
 changes:
-  - ref: refs/heads/master
-    old: 14da4dcf0618f398dee2b601c9547b3ca177e5cb
-    new: de01dbb97af5d1ae98d7d5b98b62d9deedd4e6ec
-    log: |
-         7a19e062f924f317be0ca85739db07baf895eb21 review: add branch input with suggestions to rebase screen
-         de01dbb97af5d1ae98d7d5b98b62d9deedd4e6ec review: honour user-edited To/Cc fields when sending replies
-         
+  - ref: refs/tags/platform_device_info_swnode-7.1-rc1
+    old: 56566b0b47dc61ce19cc503ba2099c8efd1f6b62
+    new: c4156ffc61c9cde918f9468ed28ee701b421f0df
