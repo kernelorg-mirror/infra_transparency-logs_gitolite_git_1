@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/conor/linux
-Date: Tue, 03 Mar 2026 09:46:08 -0000
-Message-Id: <177253116884.1066027.16555639071898434012@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Tue, 03 Mar 2026 09:55:39 -0000
+Message-Id: <177253173984.1073979.16176226884776438730@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/conor/linux
-user: conor
+repo: pub/scm/linux/kernel/git/netdev/net
+user: pabeni
 changes:
-  - ref: refs/heads/riscv-dt-fixes
-    old: 4ade402d5d89cd0a254d8329209c098417d13ac0
-    new: 6d21d635c42ec962a657c6942f98364c2081f6a3
+  - ref: refs/heads/main
+    old: 1939d9816dbfc057508267f0c5214f9478fbd6d1
+    new: 210fd8f40820c3c1f97ead0cb171374a09fdcbe0
     log: |
-         6d21d635c42ec962a657c6942f98364c2081f6a3 riscv: dts: microchip: add can resets to mpfs
+         479d589b40b836442bbdadc3fdb37f001bb67f26 bpf/bonding: reject vlan+srcmac xmit_hash_policy change when XDP is loaded
+         181cafbd8a01d22f3078a84f079c4a7cc0653068 selftests/bpf: add test for xdp_bonding xmit_hash_policy compat
+         210fd8f40820c3c1f97ead0cb171374a09fdcbe0 Merge branch 'bonding-fix-missing-xdp-compat-check-on-xmit_hash_policy-change'
          
