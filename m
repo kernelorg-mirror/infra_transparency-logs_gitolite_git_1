@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Tue, 03 Mar 2026 12:05:10 -0000
-Message-Id: <177253951074.1180791.1957014535397759560@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Tue, 03 Mar 2026 12:13:54 -0000
+Message-Id: <177254003455.1186060.8902521098963962674@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
+repo: pub/scm/linux/kernel/git/netdev/net-next
 user: pabeni
 changes:
   - ref: refs/heads/main
-    old: 710f5c76580306cdb9ec51fac8fcf6a8faff7821
-    new: 6a877ececd6daa002a9a0002cd0fbca6592a9244
+    old: f56438a74d8809fa0c28811cd782a74477994fdd
+    new: e07bd1f7161fd0918e644d97e11608854c3bf14b
     log: |
-         6a877ececd6daa002a9a0002cd0fbca6592a9244 net/rds: Fix circular locking dependency in rds_tcp_tune
+         e07bd1f7161fd0918e644d97e11608854c3bf14b net: ti: davinci_emac: stop using bus type mdio_bus_type
          
