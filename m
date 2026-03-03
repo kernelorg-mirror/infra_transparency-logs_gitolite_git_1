@@ -1,58 +1,58 @@
-Content-Type: multipart/mixed; boundary="===============4991094578684503741=="
+Content-Type: multipart/mixed; boundary="===============5990251240319519871=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
-Date: Tue, 03 Mar 2026 11:17:48 -0000
-Message-Id: <177253666886.1139442.12867135430698511097@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Tue, 03 Mar 2026 11:17:52 -0000
+Message-Id: <177253667220.1139607.16758740147614549559@gitolite.kernel.org>
 
---===============4991094578684503741==
+--===============5990251240319519871==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regulator
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-7.0
+  - ref: refs/heads/regulator-7.0
     old: 23942b71f07cc99e39d9216a5b370df494759d8c
     new: 2d85ecd6fb0eb2fee0ffa040ec1ddea57b09bc38
     log: |
          2d85ecd6fb0eb2fee0ffa040ec1ddea57b09bc38 regulator: pf9453: Respect IRQ trigger settings from firmware
          
-  - ref: refs/heads/for-7.1
+  - ref: refs/heads/regulator-7.1
     old: 4add09ab359c8caa6e65b2200911e1de66565eeb
     new: 4d4becffe425fd8a4ab6bea5a8cb6d23428bd657
     log: revlist-4add09ab359c-4d4becffe425.txt
 
---===============4991094578684503741==
+--===============5990251240319519871==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1772536667 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/regulator.git
-nonce 1772536666-d60dc25af6d04c7a1ad936530706f374e06799ab
+pusher C3F436CA30F5D8EB 1772536670 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1772536670-6d775664b348091063f27c06b7c48aae34bdd32d
 
-23942b71f07cc99e39d9216a5b370df494759d8c 2d85ecd6fb0eb2fee0ffa040ec1ddea57b09bc38 refs/heads/for-7.0
-4add09ab359c8caa6e65b2200911e1de66565eeb 4d4becffe425fd8a4ab6bea5a8cb6d23428bd657 refs/heads/for-7.1
+23942b71f07cc99e39d9216a5b370df494759d8c 2d85ecd6fb0eb2fee0ffa040ec1ddea57b09bc38 refs/heads/regulator-7.0
+4add09ab359c8caa6e65b2200911e1de66565eeb 4d4becffe425fd8a4ab6bea5a8cb6d23428bd657 refs/heads/regulator-7.1
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmmmw1sACgkQJNaLcl1U
-h9BOtgf/Vcpcshj3xV5EH6AP0mKPlEYAJwItDxmkBen4tJje1OLxi+4eoSPMZlVj
-ra0sGEqKq69+hG9j/QdsqmgXb+vjy+GqsZRpBxAlaR4VPRevbxZy8Qlq9J4gTq/5
-kCGgSDaDxKSVkCu799m+Tzsa9RsV7D3nJDeUgbAcnbbE22UMclXvcwitSuDRT7y5
-k6yTkzz4lFYP7C5kq17loDXfV6d0As76ypRgDs2Yqd8p547HqLeVO5qM5bVfzAhX
-6m+4y9p9t9sX2lc1UpsuYocMDQvMS/QjaZpuZXgZGLxTs4tiNtxVhHweZm/uthQF
-wno1CK06o41A0oBdnM4ZwWWsCx79LQ==
-=yq+/
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmmmw14ACgkQJNaLcl1U
+h9AS2Af/VZHUXuRXpReZhoMoN29SUjFlXxSvPFcG6SQmsfJG1cj0OwBav8UmUJDt
+QBF2yBfUwo1gR4z7iRvg7eMXTf8odbwcEVIv7n+tUpBhyITjBzqGQljZOAn/i62y
+yyvVmZVJ8nrZQkrj9goxFlpnxFicUhFSAXyAIRcHLn0MBU/nQyQ47nCBUJUcuXYY
+r7ubzN8f4L7XJL1bOr7P8VJadRLeeiqcTh5sGBT9UqhGA6QotgiWagAwru0P/IS6
+Y9JLqXhBouptEovUoJN4TGApXImtpqOOGfVCTAuWm43SsINSYPWBQELx300dkpFD
+hvlz/ZT/CMaXqlBtqhgqD4onq9Swpw==
+=lnHk
 -----END PGP SIGNATURE-----
 
---===============4991094578684503741==
+--===============5990251240319519871==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -497,4 +497,4 @@ e2bd1b136926f1ff65d4e0f87ac49b9a4621238c Merge tag 'core-debugobjects-2026-03-01
 e84141846decb77d2826e553318a608b256804e5 regulator: pf9453: Allow shared IRQ
 4d4becffe425fd8a4ab6bea5a8cb6d23428bd657 regulator: pf9453: Fix IRQ trigger and allow
 
---===============4991094578684503741==--
+--===============5990251240319519871==--
