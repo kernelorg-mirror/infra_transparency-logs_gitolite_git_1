@@ -1,44 +1,20 @@
-Content-Type: multipart/mixed; boundary="===============0656012188733845399=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
+Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
 Date: Tue, 03 Mar 2026 16:42:26 -0000
-Message-Id: <177255614604.1415112.4719123939178092416@gitolite.kernel.org>
-
---===============0656012188733845399==
-Content-Type: text/plain; charset="us-ascii"
+Message-Id: <177255614651.1415150.11728282216855465510@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/net-queue
-user: tnguy
+repo: pub/scm/linux/kernel/git/xiang/erofs-utils
+user: xiang
 changes:
-  - ref: refs/heads/1GbE
-    old: 9439a661c2e80485406ce2c90b107ca17858382d
-    new: 1a86a1f7d88996085934139fa4c063b6299a2dd3
-    log: revlist-9439a661c2e8-1a86a1f7d889.txt
-
---===============0656012188733845399==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9439a661c2e8-1a86a1f7d889.txt
-
-7cbe98f7bef965241a5908d50d557008cf998aee net: dsa: realtek: rtl8365mb: fix rtl8365mb_phy_ocp_write return value
-3f10543c5bdd11568d1a54f5b1d955f5652e3095 selftests/net: packetdrill: restore tcp_rcv_big_endseq.pkt
-1939d9816dbfc057508267f0c5214f9478fbd6d1 MAINTAINERS: ena: update AMAZON ETHERNET maintainers
-479d589b40b836442bbdadc3fdb37f001bb67f26 bpf/bonding: reject vlan+srcmac xmit_hash_policy change when XDP is loaded
-181cafbd8a01d22f3078a84f079c4a7cc0653068 selftests/bpf: add test for xdp_bonding xmit_hash_policy compat
-210fd8f40820c3c1f97ead0cb171374a09fdcbe0 Merge branch 'bonding-fix-missing-xdp-compat-check-on-xmit_hash_policy-change'
-18c04a808c436d629d5812ce883e3822a5f5a47f octeon_ep: Relocate counter updates before NAPI
-43b3160cb639079a15daeb5f080120afbfbfc918 octeon_ep: avoid compiler and IQ/OQ reordering
-2ae7d20fb24f598f60faa8f6ecc856dac782261a octeon_ep_vf: Relocate counter updates before NAPI
-6c73126ecd1080351b468fe43353b2f705487f44 octeon_ep_vf: avoid compiler and IQ/OQ reordering
-699f3b2e51d0b6e15a2e88980e34909a11382a36 Merge branch 'avoid-compiler-and-iq-oq-reordering'
-710f5c76580306cdb9ec51fac8fcf6a8faff7821 indirect_call_wrapper: do not reevaluate function pointer
-6a877ececd6daa002a9a0002cd0fbca6592a9244 net/rds: Fix circular locking dependency in rds_tcp_tune
-1a86a1f7d88996085934139fa4c063b6299a2dd3 net: Fix rcu_tasks stall in threaded busypoll
-
---===============0656012188733845399==--
+  - ref: refs/heads/dev
+    old: 21a6f8271df3a96f44f5223b974232375fa06056
+    new: d3fbccba6e409c100843563b416c47cd82c87ca0
+    log: |
+         a7094861fac0f5435423bbae6c8cbb1ad4ede896 erofs-utils: fix interlaced plain identification for encoded extents
+         d3fbccba6e409c100843563b416c47cd82c87ca0 erofs-utils: release 1.9.1
+         
