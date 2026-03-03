@@ -1,54 +1,27 @@
-Content-Type: multipart/mixed; boundary="===============5613815533077721990=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
-Date: Tue, 03 Mar 2026 19:00:14 -0000
-Message-Id: <177256441437.1539077.9313011028459728852@gitolite.kernel.org>
-
---===============5613815533077721990==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
+Date: Tue, 03 Mar 2026 19:03:22 -0000
+Message-Id: <177256460231.1540447.16880832329218930781@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kdave/linux
-user: kdave
+repo: pub/scm/linux/kernel/git/pci/pci
+user: kwilczynski
 changes:
-  - ref: refs/heads/for-next
-    old: 4f6c9109389c40c47f378272e308ed1e71362e4e
-    new: 25da1dbee29d7952728ad46126c6d6781dcbae82
-    log: revlist-4f6c9109389c-25da1dbee29d.txt
-
---===============5613815533077721990==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4f6c9109389c-25da1dbee29d.txt
-
-b85cfdf46b2402a9e57d6b7d43e2c977f9554645 btrfs: print-tree: add remap tree definitions
-b8883b61f2fc50dcf22938cbed40fec05020552f btrfs: hold space_info->lock when clearing periodic reclaim ready
-17da926ca8757cc0432ce3e13230759894a6b017 btrfs: zoned: move btrfs_zoned_reserve_data_reloc_bg() after kthread start
-5131fa077f9bb386a1b901bf5b247041f0ec8f80 btrfs: set BTRFS_ROOT_ORPHAN_CLEANUP during subvol create
-b2840e33127ce0eea880504b7f133e780f567a9b btrfs: add missing RCU unlock in error path in try_release_subpage_extent_buffer()
-ae1238b77feafa2f7f10bcd0432a99e098a98ec6 btrfs: read key again after incrementing slot in move_existing_remaps()
-2d1ababdedd4ba38867c2500eb7f95af5ddeeef7 btrfs: fix transaction abort on file creation due to name hash collision
-e1b18b959025e6b5dbad668f391f65d34b39595a btrfs: fix transaction abort when snapshotting received subvolumes
-87f2c46003fce4d739138aab4af1942b1afdadac btrfs: fix transaction abort on set received ioctl due to item overflow
-0f475ee0ebce5c9492b260027cd95270191675fa btrfs: abort transaction on failure to update root in the received subvol ioctl
-8dd0e6807b54a2411ed7263018139c60d1406e39 btrfs: remove unnecessary transaction abort in the received subvol ioctl
-0749cab6174dc035b1628fb6db03abf758cfda6f btrfs: remove duplicated definition of btrfs_printk_in_rcu()
-42bfd8b7c806f3cb7068b3e834e9288439a89a1d btrfs: extract the max compression chunk size into a macro
-8c0956a4d33c624dde9954faa6f6e6a99bd7c43f btrfs: skip COW for written extent buffers allocated in current transaction
-4903ec3a429d8c5b165c6214582e093413f42ebe btrfs: inhibit extent buffer writeback to prevent COW amplification
-4a31b7776ffbc0d4326e4be740cc5c61deb71d46 btrfs: add tracepoint for search slot restart tracking
-b1ddfde9a4ee041c0a12d41189533c1360805ce0 btrfs: fix leak of kobject name for sub-group space_info
-c304b3b613bb1fb9242279d222ba6e32037207e9 btrfs: === misc-next on b-for-next ===
-83f21ec66956f9952ebe685a14fe3e8d15f3c476 block: remove bdev_nonrot()
-79cd0338aff971ac62da419767ed3c71eb765a44 Merge branch 'misc-7.0' into for-next-current-v6.19-20260303
-2cb2940f6863798727744b04297b1578bdbb6407 Merge branch 'b-for-next' into for-next-next-v7.0-20260303
-4939e98eb104a4f0282a0b45d074bfa7230049e9 Merge branch 'misc-next' into for-next-next-v7.0-20260303
-673b8cdef3d934472eb511b9a62c86a69d8bdf28 Merge branch 'for-next-current-v6.19-20260303' into for-next-20260303
-25da1dbee29d7952728ad46126c6d6781dcbae82 Merge branch 'for-next-next-v7.0-20260303' into for-next-20260303
-
---===============5613815533077721990==--
+  - ref: refs/heads/for-kernelci
+    old: 5598d193748d87cd365a67821f9d27bf6b0ae7b1
+    new: 0045db1a0ad8d172ec983a18d20933f73ee5ddc2
+    log: |
+         f1070bcf63cd3fdbd6738c4553ef03770253b681 PCI/sysfs: Use PCI resource accessor macros
+         20f65dd8c30b2cd0506d1b2230eaef0d53079ece PCI/sysfs: Only allow supported resource types in IO and MMIO helpers
+         cbca1c5e1bf0bca27027d4cc77ea11d9ba6d63bf PCI/sysfs: Use BAR length in pci_llseek_resource() when attr->size is zero
+         864ff415af6676670a28bc1498e99d44a4ccf96f PCI/sysfs: Add CAP_SYS_ADMIN check to __resource_resize_store()
+         bb6aa2351accac3ebad048693947a674ac9be44b PCI/sysfs: Add static PCI resource attribute macros
+         db4b62a8e44fbe44b45c8f34ad2c765dbd4157bc PCI/sysfs: Convert PCI resource files to static attributes
+         c5ffec9b1b44c1f27d8d382edbe512d883832a20 PCI/sysfs: Convert __resource_resize_store() to use static attributes
+         fe9040a38534c663b52767149b2b6069d662cc27 PCI/sysfs: Add stubs for pci_{create,remove}_sysfs_dev_files()
+         0045db1a0ad8d172ec983a18d20933f73ee5ddc2 PCI/sysfs: Limit pci_sysfs_init() late_initcall compile scope
+         
