@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/util-linux/util-linux
-Date: Tue, 03 Mar 2026 11:53:02 -0000
-Message-Id: <177253878208.1170073.8579322918475652778@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Tue, 03 Mar 2026 12:05:10 -0000
+Message-Id: <177253951074.1180791.1957014535397759560@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/util-linux/util-linux
-user: kzak
+repo: pub/scm/linux/kernel/git/netdev/net
+user: pabeni
 changes:
-  - ref: refs/heads/master
-    old: 8d595cdc64453c883f5875e4b3f809706167d974
-    new: b1baf61cc032d72020cf03b930d350d9ee56cafd
+  - ref: refs/heads/main
+    old: 710f5c76580306cdb9ec51fac8fcf6a8faff7821
+    new: 6a877ececd6daa002a9a0002cd0fbca6592a9244
     log: |
-         b1baf61cc032d72020cf03b930d350d9ee56cafd tools/git-grouped-log: add co-author support
+         6a877ececd6daa002a9a0002cd0fbca6592a9244 net/rds: Fix circular locking dependency in rds_tcp_tune
          
