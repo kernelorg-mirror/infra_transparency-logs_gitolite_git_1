@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/liblore/liblore
-Date: Tue, 03 Mar 2026 23:04:36 -0000
-Message-Id: <177257907609.1739819.15460710149272560735@gitolite.kernel.org>
+Subject: post-receive: pub/scm/git/git
+Date: Tue, 03 Mar 2026 23:08:08 -0000
+Message-Id: <177257928808.1743494.6084235380034912019@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/liblore/liblore
-user: mricon
+repo: pub/scm/git/git
+user: junio
 changes:
-  - ref: refs/heads/master
-    old: 0000000000000000000000000000000000000000
-    new: 86147457d01ce8d7dac047c306d71820b9c2471f
+  - ref: refs/heads/seen
+    old: 62670724dd0675c19340e0ed6a80c7d28c52f61e
+    new: bfe49b6b4e5e84ba35515cad055c9b63a93d31e5
