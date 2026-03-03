@@ -1,55 +1,70 @@
-Content-Type: multipart/mixed; boundary="===============1834869032915895024=="
+Content-Type: multipart/mixed; boundary="===============2581530761061174009=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Tue, 03 Mar 2026 11:18:09 -0000
-Message-Id: <177253668913.1140196.12138366595495286253@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Tue, 03 Mar 2026 11:19:09 -0000
+Message-Id: <177253674984.1141141.14815142396459310097@gitolite.kernel.org>
 
---===============1834869032915895024==
+--===============2581530761061174009==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/spi-7.1
-    old: d3b693a13b39bce16e284e1c737874966b3a96de
-    new: a4f23717b1d6fa7b438c63537edadf1b5b181b38
-    log: revlist-d3b693a13b39-a4f23717b1d6.txt
+  - ref: refs/heads/for-7.0
+    old: 11439c4635edd669ae435eec308f4ab8a0804808
+    new: 70c3054505bbb7c6a876761eb26407f97c36e001
+    log: |
+         54a86cf48eaa6d1ab5130d756b718775e81e1748 ASoC: fsl_easrc: Fix event generation in fsl_easrc_iec958_put_bits()
+         31ddc62c1cd92e51b9db61d7954b85ae2ec224da ASoC: fsl_easrc: Fix event generation in fsl_easrc_iec958_set_reg()
+         9351cf3fd92dc1349bb75f2f7f7324607dcf596f ASoC: cs35l56: Only patch ASP registers if the DAI is part of a DAIlink
+         986841dcad257615a6e3f89231bb38e1f3506b77 ASoC: rt1321: fix DMIC ch2/3 mask issue
+         70eddf6a0a3fc6d3ab6f77251676da97cc7f12ae ASoC: Intel: sof_sdw: Add quirk for Alienware Area 51 (2025) 0CCD SKU
+         fd13fc700e3e239826a46448bf7f01847dd26f5a ASoC: amd: acp: Add ACP6.3 match entries for Cirrus Logic parts
+         ca5056f5a78ce62588878d138e8141f01d70e61b ASoC: cs35l56: Suppress pointless warning about number of GPIO pulls
+         a8df7892a9f42b2e2d5851f8835c734bd7fe8ad4 ASoC: dt-bindings: tegra: Add compatible for Tegra238 sound card
+         70c3054505bbb7c6a876761eb26407f97c36e001 ASoC: fsl_easrc: Fix control writes
+         
+  - ref: refs/heads/for-7.1
+    old: da37bfe76b5b4ccc01ed8132215098e20d78e5f3
+    new: 6dc41d8d3b9692b6336196ae1a330bcd3fad92ee
+    log: revlist-da37bfe76b5b-6dc41d8d3b96.txt
 
---===============1834869032915895024==
+--===============2581530761061174009==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1772536687 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1772536687-87906606d4c59751e5365fb8a921b80f6be20f78
+pusher C3F436CA30F5D8EB 1772536747 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
+nonce 1772536746-c93a34c23503cec58bd07c7b9e39369a50f79fd7
 
-d3b693a13b39bce16e284e1c737874966b3a96de a4f23717b1d6fa7b438c63537edadf1b5b181b38 refs/heads/spi-7.1
+11439c4635edd669ae435eec308f4ab8a0804808 70c3054505bbb7c6a876761eb26407f97c36e001 refs/heads/for-7.0
+da37bfe76b5b4ccc01ed8132215098e20d78e5f3 6dc41d8d3b9692b6336196ae1a330bcd3fad92ee refs/heads/for-7.1
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmmmw28ACgkQJNaLcl1U
-h9DpgAf9HQImi+bo+QuHJ55n4Bcfc0yDknww2jhbSyEdLQBg6e3SeAfP8lQXXrdu
-U+M8Ke+cAmjC0UhEoX2jWXaimYqivbasoSXoyhdsq430tuv+GKUfzsjOdX3p96hq
-TrSOqradXx4BABujqCsWLV69AqfSaYSlqjHIG5JkTt37q3892YnZrnc2S4jgzIzo
-lmf1iMvdGYazUORjvwfgip1nEsLoLZ6eVpFRChddCWj/9vR3+PMebhXIk658K1vs
-GGsQsinCVgYeD9GQ6FVQ9H3lz1rsDVcPp32VG6fyeKq6EJC4sjs+ODtRazZuLOzU
-a869ottifi9WmYyxoHzmUQX4W75W9w==
-=lj8x
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmmmw6sACgkQJNaLcl1U
+h9BfwQf/VaFMCTgg/63CP2+OAGA0heQ0UQUT1tiAz8q8qDb/Ah7M3jFNS4seEweK
+PzS0nDDutowOIyoo8w++E9sCWwilConvgRN0vCAnBiRBv98DGWe/EiF2xNXlgXhu
+RoNVuXa5DqIlA/qNBpMOoXX653aPKGdgZZ2RHdNZ8Vdb6Wv+lzbmj4kccJ68tIL9
+oZ6rqhAZO6WlPzeNujS395L9EO4j7RWSl8cHrKdVRoAT09ZPg8qzPnXCKevW9P9B
++gC6YcvMD0xL4S0lbAxwA0M/OVpbZ1oWCEwtPFlRwZB9GA9aGJ/B2D6arM3aBVbW
+AQmFjQ2RoKCTxJ/BHMgeU2asQXXBsg==
+=cS4D
 -----END PGP SIGNATURE-----
 
---===============1834869032915895024==
+--===============2581530761061174009==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d3b693a13b39-a4f23717b1d6.txt
+Content-Disposition: attachment; filename=revlist-da37bfe76b5b-6dc41d8d3b96.txt
 
 1799d8abeabc68ec05679292aaf6cba93b343c05 xfrm6: fix uninitialized saddr in xfrm6_get_saddr()
 0a4524bc69882a4ddb235bb6b279597721bda197 xfrm: skip templates check for packet offload tunnel mode
@@ -485,6 +500,23 @@ f6542af92298d8a44ab5588144086fa2d0edf391 Merge tag 'timers-urgent-2026-03-01' of
 e2bd1b136926f1ff65d4e0f87ac49b9a4621238c Merge tag 'core-debugobjects-2026-03-01' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 949d0a46ad1b9ab3450fb6ed69ff1e3e13c657bd Merge tag 'for-linus' of git://git.kernel.org/pub/scm/virt/kvm/kvm
 11439c4635edd669ae435eec308f4ab8a0804808 Linux 7.0-rc2
-a4f23717b1d6fa7b438c63537edadf1b5b181b38 spi: Merge up v7.0-rc2
+272aabef50bc3fe58edd26de000f4cdd41bdbe60 ASoC: sti: Return errors from regmap_field_alloc()
+1696fad8b259a2d46e51cd6e17e4bcdbe02279fa ASoC: sti: use managed regmap_field allocations
+d6b634cbc2eed73497877c95a7807d0f34fa4459 ASoC: dt-bindings: nvidia,tegra-audio: document CPCAP CODEC
+a34547b389a91bf0709f0901c3752ccaf63730cd ASoC: tegra: Support CPCAP by machine driver
+79d73f5a0b7a702a19189c1a237ae3728d88de59 ASoC: dt-bindings: nvidia,tegra-audio: document WM8962 CODEC
+536ffa105e16ca3f6e7de53f9d6059f53d0207f7 ASoC: tegra: Support WM8962 by machine driver
+06dba254de95b16e7793224d29daa5195de2e581 ASoC: dt-bindings: nvidia,tegra-audio-max9808x: document additional board pins
+73942a6ea26bd7e02b7c260b8b7aa942397be894 firmware: cs_dsp: Add API to hibernate the DSP
+6394a52c90c4abd10c8265983ec1f53207cd283e ASoC: codecs: wm_adsp: Allow wm_adsp to hibernate without stopping DSP
+4d80c0dbcda551b8b86ff14c6ae93026993970b2 ASoC: cs35l41: Hibernate wm_adsp on runtime suspend
+17c6bf433742e0c1ff5ce175145877c0194e4a7a ASoC: cs35l45: Hibernate wm_adsp on runtime suspend
+98eb42c7de6b0185c914df4cca61b49ff76821ee ASoC: add snd_soc_lookup_component_by_name helper
+c5ae3d8bc968a28aaeefbb772ec42e50cf3a15f0 ASoC: soc_sdw_utils: partial match the codec name
+34b4fc44e4f904fbb81335d53163ffdcb0180000 ASoC: soc_sdw_utils: remove index from sdca codec name
+ca5355db6330ccd1a02bb382b793d0a2027c7fd3 ASoC: partial match the sdca codec name
+a8fd392f6e3ad33b87dfdb6d438f05c5bc29d2e6 ASoC: sti: regmap_field usage improvements
+727d1a1c4eb272164a84d4400dddcdf26ecf502a Support wm_adsp hibernation for runtime suspend
+6dc41d8d3b9692b6336196ae1a330bcd3fad92ee ASoC: tegra: Add support for WM8962 and CPCAP
 
---===============1834869032915895024==--
+--===============2581530761061174009==--
