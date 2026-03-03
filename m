@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6594301194037560545=="
+Content-Type: multipart/mixed; boundary="===============6013980611154863833=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Tue, 03 Mar 2026 16:42:28 -0000
-Message-Id: <177255614835.1415407.15745446649486055839@gitolite.kernel.org>
+Date: Tue, 03 Mar 2026 16:42:30 -0000
+Message-Id: <177255615066.1415582.6372513749217104475@gitolite.kernel.org>
 
---===============6594301194037560545==
+--===============6013980611154863833==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/10GbE
+  - ref: refs/heads/40GbE
     old: 9439a661c2e80485406ce2c90b107ca17858382d
     new: 1a86a1f7d88996085934139fa4c063b6299a2dd3
     log: revlist-9439a661c2e8-1a86a1f7d889.txt
 
---===============6594301194037560545==
+--===============6013980611154863833==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -41,4 +41,4 @@ Content-Disposition: attachment; filename=revlist-9439a661c2e8-1a86a1f7d889.txt
 6a877ececd6daa002a9a0002cd0fbca6592a9244 net/rds: Fix circular locking dependency in rds_tcp_tune
 1a86a1f7d88996085934139fa4c063b6299a2dd3 net: Fix rcu_tasks stall in threaded busypoll
 
---===============6594301194037560545==--
+--===============6013980611154863833==--
