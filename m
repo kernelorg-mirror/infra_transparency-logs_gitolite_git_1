@@ -1,42 +1,29 @@
-Content-Type: multipart/mixed; boundary="===============8601668386105630007=="
+Content-Type: multipart/mixed; boundary="===============3670308496127644322=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next
-Date: Tue, 03 Mar 2026 14:43:44 -0000
-Message-Id: <177254902488.1310935.15309972664910508056@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next-history
+Date: Tue, 03 Mar 2026 14:43:57 -0000
+Message-Id: <177254903761.1311210.7758844416550059424@gitolite.kernel.org>
 
---===============8601668386105630007==
+--===============3670308496127644322==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/next/linux-next
+repo: pub/scm/linux/kernel/git/next/linux-next-history
 user: broonie
 changes:
   - ref: refs/heads/master
     old: d517cb8cea012f43b069617fc8179b45404f8018
     new: c025f6cf4209e1542ec2afebe49f42bbaf1a5c7b
     log: revlist-d517cb8cea01-c025f6cf4209.txt
-  - ref: refs/heads/stable
-    old: 11439c4635edd669ae435eec308f4ab8a0804808
-    new: af4e9ef3d78420feb8fe58cd9a1ab80c501b3c08
-    log: |
-         1cb968a2013ffa8112d52ebe605009ea1c6a582c nfsd: Fix cred ref leak in nfsd_nl_threads_set_doit().
-         92978c83bb4eef55d02a6c990c01c423131eefa7 nfsd: Fix cred ref leak in nfsd_nl_listener_set_doit().
-         364410170ab33f6e7ef0eb2afb12bf89b0feb3a6 nfsd: report the requested maximum number of threads instead of number running
-         1b37ac211a22d4c65aad1ae2da07f078197e7394 Merge tag 'nfsd-7.0-1' of git://git.kernel.org/pub/scm/linux/kernel/git/cel/linux
-         af4e9ef3d78420feb8fe58cd9a1ab80c501b3c08 uaccess: Fix scoped_user_read_access() for 'pointer to const'
-         
-  - ref: refs/tags/next-20251203
-    old: e47d97576181b31291cf58e77d737d21def0e160
-    new: 0000000000000000000000000000000000000000
   - ref: refs/tags/next-20260303
     old: 0000000000000000000000000000000000000000
     new: 11e703f54ac21f4dc609ea12ab578ffa47c87e11
 
---===============8601668386105630007==
+--===============3670308496127644322==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1067,4 +1054,4 @@ e7042ea9609a32d294e19950e3a99f26a06a66d4 Merge branch 'for-next' of https://git.
 b7b03d6a59c3071673b8e83376c2dac3b82f8f97 Merge branch 'for-next' of https://github.com/hisilicon/linux-hisi.git
 c025f6cf4209e1542ec2afebe49f42bbaf1a5c7b Add linux-next specific files for 20260303
 
---===============8601668386105630007==--
+--===============3670308496127644322==--
