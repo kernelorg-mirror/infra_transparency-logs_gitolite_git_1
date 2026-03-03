@@ -1,44 +1,49 @@
-Content-Type: multipart/mixed; boundary="===============6013980611154863833=="
+Content-Type: multipart/mixed; boundary="===============4273994070748090468=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Tue, 03 Mar 2026 16:42:30 -0000
-Message-Id: <177255615066.1415582.6372513749217104475@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
+Date: Tue, 03 Mar 2026 16:43:13 -0000
+Message-Id: <177255619331.1416183.9958567831674152241@gitolite.kernel.org>
 
---===============6013980611154863833==
+--===============4273994070748090468==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/net-queue
-user: tnguy
+repo: pub/scm/linux/kernel/git/xiang/erofs-utils
+user: xiang
 changes:
-  - ref: refs/heads/40GbE
-    old: 9439a661c2e80485406ce2c90b107ca17858382d
-    new: 1a86a1f7d88996085934139fa4c063b6299a2dd3
-    log: revlist-9439a661c2e8-1a86a1f7d889.txt
+  - ref: refs/heads/master
+    old: 2d2718dc53229d30c61bb38556a7a64e989c917d
+    new: d3fbccba6e409c100843563b416c47cd82c87ca0
+    log: revlist-2d2718dc5322-d3fbccba6e40.txt
 
---===============6013980611154863833==
+--===============4273994070748090468==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9439a661c2e8-1a86a1f7d889.txt
+Content-Disposition: attachment; filename=revlist-2d2718dc5322-d3fbccba6e40.txt
 
-7cbe98f7bef965241a5908d50d557008cf998aee net: dsa: realtek: rtl8365mb: fix rtl8365mb_phy_ocp_write return value
-3f10543c5bdd11568d1a54f5b1d955f5652e3095 selftests/net: packetdrill: restore tcp_rcv_big_endseq.pkt
-1939d9816dbfc057508267f0c5214f9478fbd6d1 MAINTAINERS: ena: update AMAZON ETHERNET maintainers
-479d589b40b836442bbdadc3fdb37f001bb67f26 bpf/bonding: reject vlan+srcmac xmit_hash_policy change when XDP is loaded
-181cafbd8a01d22f3078a84f079c4a7cc0653068 selftests/bpf: add test for xdp_bonding xmit_hash_policy compat
-210fd8f40820c3c1f97ead0cb171374a09fdcbe0 Merge branch 'bonding-fix-missing-xdp-compat-check-on-xmit_hash_policy-change'
-18c04a808c436d629d5812ce883e3822a5f5a47f octeon_ep: Relocate counter updates before NAPI
-43b3160cb639079a15daeb5f080120afbfbfc918 octeon_ep: avoid compiler and IQ/OQ reordering
-2ae7d20fb24f598f60faa8f6ecc856dac782261a octeon_ep_vf: Relocate counter updates before NAPI
-6c73126ecd1080351b468fe43353b2f705487f44 octeon_ep_vf: avoid compiler and IQ/OQ reordering
-699f3b2e51d0b6e15a2e88980e34909a11382a36 Merge branch 'avoid-compiler-and-iq-oq-reordering'
-710f5c76580306cdb9ec51fac8fcf6a8faff7821 indirect_call_wrapper: do not reevaluate function pointer
-6a877ececd6daa002a9a0002cd0fbca6592a9244 net/rds: Fix circular locking dependency in rds_tcp_tune
-1a86a1f7d88996085934139fa4c063b6299a2dd3 net: Fix rcu_tasks stall in threaded busypoll
+bb4d440337258ea8a047779c9ca4875c73806ee7 erofs-utils: manpage: fix installation of `erofsfuse.1`
+7c194454e6e4e7c204d8839b2df7c7f8010bf151 erofs-utils: lib,fuse: fix xattr parsing in the metabox inode
+67dc648cecbe8e08006fbd3f8e7555a7e5daab2a erofs-utils: lib,fuse: fix encoded extents handling
+77892ebe2f53c2e466474521c0fa712a179a0af1 erofs-utils: lib: fix false-positive uninitialized variable warning
+cc30c4479932ac3bec40a539696a5032a36d4bf1 erofs-utils: Raise maximum block size for aarch64
+2cd511441c2cbdade81f7b6fb6575eef7d8452a1 erofs-utils: lib: fix undefined behavior in zstd dict_size bit shift
+b0f7f58b5c98db04e178b61d9b41aca35300f2a4 erofs-utils: lib: fix 48bit addressing detection for chunk-based format
+7c24c409d75ab89b0410951586ac0a56b67b31fb erofs-utils: mkfs: do not enable lz4_0padding for plain images
+119a0546a1d5a5997b37f9c4b03bf46a3bfb68ac erofs-utils: dump: add missing compat features and separate feature display
+fc3a86f379cb7bdd28efb7da6cb6d7dae4770fba erofs-utils: lib: converted division to shift in z_erofs_load_compact_lcluster
+bdbb5270736ca9b08c027e6d5e65e581ef615c8a erofs-utils: lib: fix several compile warnings under glibc-2.43
+5a1de8fd101061d1ff4e6322fd84d5bbc4962d68 erofs-utils: fsck: support extracting subtrees
+c2b6d37f86b1a1057cf39701c6860133e66ecc9e erofs-utils: mount: auto-detect platform for OCI recovery files
+b094fe375eeb10dbf4ee22fc759cdeb1ad2a1eac erofs-utils: mount: fix flag-clearing bug and missing error check in parse_flagopts
+aa169fb1e073555bf1e1e658f8f2c16b73f999ad erofs-utils: mkfs: fix CPU spin using --tar=f when stdin is closed
+2ce4b1834940f951ea1cd16376381536dc5c8a1f erofs-utils: lib: fix xattr crash in rebuild path when source has xattr
+21a6f8271df3a96f44f5223b974232375fa06056 erofs-utils: mount: handle `-oloop` in the mount helper
+a7094861fac0f5435423bbae6c8cbb1ad4ede896 erofs-utils: fix interlaced plain identification for encoded extents
+d3fbccba6e409c100843563b416c47cd82c87ca0 erofs-utils: release 1.9.1
 
---===============6013980611154863833==--
+--===============4273994070748090468==--
