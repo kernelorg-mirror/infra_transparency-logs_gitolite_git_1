@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Tue, 03 Mar 2026 12:13:54 -0000
-Message-Id: <177254003455.1186060.8902521098963962674@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/driver-core/driver-core
+Date: Tue, 03 Mar 2026 12:16:27 -0000
+Message-Id: <177254018770.1189467.6803903331353591224@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: pabeni
+repo: pub/scm/linux/kernel/git/driver-core/driver-core
+user: dakr
 changes:
-  - ref: refs/heads/main
-    old: f56438a74d8809fa0c28811cd782a74477994fdd
-    new: e07bd1f7161fd0918e644d97e11608854c3bf14b
+  - ref: refs/heads/driver-core-linus
+    old: 11439c4635edd669ae435eec308f4ab8a0804808
+    new: 9de68394a61528d40f575c3e6719cc75c56f62c3
     log: |
-         e07bd1f7161fd0918e644d97e11608854c3bf14b net: ti: davinci_emac: stop using bus type mdio_bus_type
+         9de68394a61528d40f575c3e6719cc75c56f62c3 Revert "driver core: enforce device_lock for driver_match_device()"
          
