@@ -1,37 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
-Date: Tue, 03 Mar 2026 07:01:40 -0000
-Message-Id: <177252130013.938545.881303902391777946@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Tue, 03 Mar 2026 07:36:53 -0000
+Message-Id: <177252341347.965241.6671327283624957303@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tiwai/sound
-user: tiwai
+repo: pub/scm/linux/kernel/git/tip/tip
+user: mingo
 changes:
-  - ref: refs/heads/for-linus
-    old: 5f4338e5633dc034a81000b2516a78cfb51c601d
-    new: 83307aebe6a1a4fddf5dec6071716ce251da9cc9
-    log: |
-         93992667d0ab695ac30ceec91a516fd4bf725d75 ALSA: doc: usb-audio: Add doc for QUIRK_FLAG_SKIP_IFACE_SETUP
-         83307aebe6a1a4fddf5dec6071716ce251da9cc9 ALSA: hda/senary: Use codec->core.afg for GPIO access
-         
-  - ref: refs/heads/for-next
-    old: a69f67702091429316bf7b8dd2c7a405e8c26a65
-    new: 63082d085f52a3c77ef572d71d2d08c642da2a55
-    log: |
-         5f4338e5633dc034a81000b2516a78cfb51c601d ALSA: hda/hdmi: Add Tegra238 HDA codec device ID
-         93992667d0ab695ac30ceec91a516fd4bf725d75 ALSA: doc: usb-audio: Add doc for QUIRK_FLAG_SKIP_IFACE_SETUP
-         83307aebe6a1a4fddf5dec6071716ce251da9cc9 ALSA: hda/senary: Use codec->core.afg for GPIO access
-         63082d085f52a3c77ef572d71d2d08c642da2a55 Merge branch 'for-linus' into for-next
-         
   - ref: refs/heads/master
-    old: 4bf0f4fca2d0fc93396a8a9901cf8bd3d6abfc92
-    new: d6a7a421e250b1e6b83c0a234df0d74c11d4c04a
+    old: fb126562cb27e564ebe09659367f529d728195e5
+    new: 586d474503252b9aec4dff67f13a77b71fa314cd
     log: |
-         93992667d0ab695ac30ceec91a516fd4bf725d75 ALSA: doc: usb-audio: Add doc for QUIRK_FLAG_SKIP_IFACE_SETUP
-         83307aebe6a1a4fddf5dec6071716ce251da9cc9 ALSA: hda/senary: Use codec->core.afg for GPIO access
-         d6a7a421e250b1e6b83c0a234df0d74c11d4c04a Merge branch 'for-linus'
+         1cb968a2013ffa8112d52ebe605009ea1c6a582c nfsd: Fix cred ref leak in nfsd_nl_threads_set_doit().
+         92978c83bb4eef55d02a6c990c01c423131eefa7 nfsd: Fix cred ref leak in nfsd_nl_listener_set_doit().
+         364410170ab33f6e7ef0eb2afb12bf89b0feb3a6 nfsd: report the requested maximum number of threads instead of number running
+         1b37ac211a22d4c65aad1ae2da07f078197e7394 Merge tag 'nfsd-7.0-1' of git://git.kernel.org/pub/scm/linux/kernel/git/cel/linux
+         af4e9ef3d78420feb8fe58cd9a1ab80c501b3c08 uaccess: Fix scoped_user_read_access() for 'pointer to const'
+         586d474503252b9aec4dff67f13a77b71fa314cd Merge branch 'linus'
          
