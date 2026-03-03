@@ -1,20 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/firmware/linux-firmware
-Date: Tue, 03 Mar 2026 18:50:10 -0000
-Message-Id: <177256381046.1526018.1792214702688387451@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mic/linux
+Date: Tue, 03 Mar 2026 18:50:56 -0000
+Message-Id: <177256385657.1526711.6646380928406768893@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/firmware/linux-firmware
-user: jwboyer
+repo: pub/scm/linux/kernel/git/mic/linux
+user: mic
 changes:
-  - ref: refs/heads/main
-    old: d8e138dd8970ffc9f5f879e2d62938abe6cd3f22
-    new: e18ac264a24f1b33a850246b0ff20d1c746c99cf
+  - ref: refs/heads/next
+    old: cb74f062363be380c685cd2ab732d9355d1dc795
+    new: ad1e15cbc4a2c20c88803812a106af916af53dc7
     log: |
-         eb48837f8acc0c714dc7da556667b81c479ef4e9 qcom: update ADSP dtb.mbn for glymur platform
-         e18ac264a24f1b33a850246b0ff20d1c746c99cf Merge branch 'robot/pr-0-1772553049' into 'main'
+         11591a8ca69e1b7fbb5324cfe89ef800253b5ded landlock: Fix formatting
+         da05e562b48bdda25be93478d77f41f6ae712d5a landlock: Fully release unused TSYNC work entries
+         5163fe45d7361f0fd7c5871498258ec4339d000e landlock: Improve TSYNC types
+         ad1e15cbc4a2c20c88803812a106af916af53dc7 samples/landlock: Bump ABI version to 8
          
