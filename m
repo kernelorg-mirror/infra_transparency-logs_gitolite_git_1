@@ -1,43 +1,43 @@
-Content-Type: multipart/mixed; boundary="===============5831768724071513605=="
+Content-Type: multipart/mixed; boundary="===============3370280232909898821=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
-Date: Tue, 03 Mar 2026 15:23:57 -0000
-Message-Id: <177255143768.1344249.8283553793434341944@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/deller/linux-fbdev
+Date: Tue, 03 Mar 2026 15:26:59 -0000
+Message-Id: <177255161982.1347713.15532450839281763819@gitolite.kernel.org>
 
---===============5831768724071513605==
+--===============3370280232909898821==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kdave/linux
-user: kdave
+repo: pub/scm/linux/kernel/git/deller/linux-fbdev
+user: deller
 changes:
-  - ref: refs/heads/next-fixes
-    old: 0f8fa612bfed95c48148c4bdb4fc9e3432dbf8c0
-    new: d1f0c8289d0f72f75e2cb67caa108aca4ac38da1
-    log: revlist-0f8fa612bfed-d1f0c8289d0f.txt
+  - ref: refs/heads/for-next
+    old: 3bb63f3ebd4e834b4773488125df74e9391e06df
+    new: 5867ed7cd30c5b1a83757fe968942a14bca04bca
+    log: revlist-3bb63f3ebd4e-5867ed7cd30c.txt
 
---===============5831768724071513605==
+--===============3370280232909898821==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0f8fa612bfed-d1f0c8289d0f.txt
+Content-Disposition: attachment; filename=revlist-3bb63f3ebd4e-5867ed7cd30c.txt
 
-b85cfdf46b2402a9e57d6b7d43e2c977f9554645 btrfs: print-tree: add remap tree definitions
-b8883b61f2fc50dcf22938cbed40fec05020552f btrfs: hold space_info->lock when clearing periodic reclaim ready
-f86a1734471c3466244f17ef691a73750cb76f13 btrfs: zoned: move btrfs_zoned_reserve_data_reloc_bg() after kthread start
-4359d096e0795b0e8ee24c9c3524b0d072b3b983 btrfs: set BTRFS_ROOT_ORPHAN_CLEANUP during subvol create
-9b7f41db398b7fbabce734eab6f343d271df2394 btrfs: add missing RCU unlock in error path in try_release_subpage_extent_buffer()
-0f5832094fb9569570d6eb09f7da4330fac37eee btrfs: read key again after incrementing slot in move_existing_remaps()
-e94bbbf6116f034cecd4a6764ef06cbc7b46d988 btrfs: fix transaction abort on file creation due to name hash collision
-5bb7bf1307b5df2ad910b74fb152549666ac3617 btrfs: fix transaction abort when snapshotting received subvolumes
-0564e13fda5939651d0c9b6a4d5a231ebace1a2f btrfs: fix transaction abort on set received ioctl due to item overflow
-dab1197a0a194886d92e418a0b2fa52077e8e8fe btrfs: abort transaction on failure to update root in the received subvol ioctl
-624c75c46640c66eccdc8c57f1260bfa9e15d2af btrfs: remove unnecessary transaction abort in the received subvol ioctl
-2c323e4c676c79cd13995449d8208ca0c7ea6f8e btrfs: remove duplicated definition of btrfs_printk_in_rcu()
-d1f0c8289d0f72f75e2cb67caa108aca4ac38da1 Merge branch 'misc-7.0' into next-fixes
+3b52416db6dda1862860c531fcdfe67af8853a57 fbdev: Declare src parameter of fb_pad_ helpers as constant
+a752cd6be05f8cd19f8df848bff9c33a22e5f9c8 vt: Remove trailing whitespaces
+ce3cf2db7fc57cc2a86c171372d00bb3a97f6166 vt: Store font in struct vc_font
+89d505140630275d3b08915d97a85fd36fb0b102 vt: Calculate font-buffer size with vc_font_size()
+701f6198505c743729dbdeb6aaaef5ad03f96422 lib/fonts: Remove trailing whitespaces
+e52486c9e432a6b18eca3cdb81fb409fe6879577 lib/fonts: Remove FNTCHARCNT()
+6d95c33114136d09c63b1691ef4c5028a9c497d7 lib/fonts: Store font data as font_data_t; update consoles
+70fabca69418a69b5b7709bf825dec690149d9dd lib/fonts: Read font size with font_data_size()
+4ff63f00dfcf2c6b4aeacfd8abdc74c54967152f lib/fonts: Compare font data for equality with font_data_is_equal()
+7936ba952efc3ea1c1ab9f69055484cb093d5af2 lib/fonts: Manage font-data lifetime with font_data_get/_put()
+8d331eaa4e8ebd2c62a8ee6e688a4bb8d0bb2996 lib/fonts: Create font_data_t from struct console_font with font_data_import()
+f5ab78b6af01ed69d35854d4c9ff52f4d345f032 lib/fonts: Store font data for user space with font_data_export()
+5867ed7cd30c5b1a83757fe968942a14bca04bca lib/fonts: Remove internal symbols and macros from public header file
 
---===============5831768724071513605==--
+--===============3370280232909898821==--
