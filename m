@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============9033439725392624169=="
+Content-Type: multipart/mixed; boundary="===============1858051435634041717=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Tue, 03 Mar 2026 16:56:20 -0000
-Message-Id: <177255698024.1431497.577130799039657630@gitolite.kernel.org>
+Date: Tue, 03 Mar 2026 16:56:42 -0000
+Message-Id: <177255700283.1431831.3708578345347939740@gitolite.kernel.org>
 
---===============9033439725392624169==
+--===============1858051435634041717==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/200GbE
-    old: 01857fc712f6469cab9cc578120cdc80f1c2a634
-    new: ed0abfe93fd135dac223e87a3c945017b1fa8bfc
-    log: revlist-01857fc712f6-ed0abfe93fd1.txt
+  - ref: refs/heads/100GbE
+    old: c760ff5458a1ba2093ed2daea7da0bbb02f275e0
+    new: 246c5495c69fae1ec96531d79106c946ea904312
+    log: revlist-c760ff5458a1-246c5495c69f.txt
 
---===============9033439725392624169==
+--===============1858051435634041717==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-01857fc712f6-ed0abfe93fd1.txt
+Content-Disposition: attachment; filename=revlist-c760ff5458a1-246c5495c69f.txt
 
 4ff5801f45b494ad8251a16ec06c9f303ed3b9a0 phy: qcom-sgmii-eth: add .set_mode() and .validate() methods
 f5ada26d6cca4c5d9a20eda55f44e772018b36af Merge tag 'phy-qcom-sgmii-eth-add-set_mode-and-validate-methods'
@@ -92,5 +92,9 @@ a4c08b701559c5a3039f3bdf0b5286ca02877985 net: mdio: constify attributes and attr
 7f97ca5f9858629f618d7f3b5a16c0d6e48e4353 net: phy: inline helper mdio_bus_get_global_stat
 1afccc5a201ec7c9023370958bae1312369b64da net: phy: improve mdiobus_stats_acct
 ed0abfe93fd135dac223e87a3c945017b1fa8bfc Merge branch 'net-phy-improve-stats-handling-in-mdio_bus-c'
+dc0cdb7ff3b1e1ff2faf594640724c2771a8b2c6 ice: Make name member of struct ice_cgu_pin_desc const
+1f3d49734820fdc30655b9ee4e51aede2bf86d45 i40e: drop useless bitmap_weight() call in i40e_set_rxfh_fields()
+b09621cc0dfd7d2ae8557ee9d0d7ca6dc75145e5 i40e: Add missing wordpart.h header
+246c5495c69fae1ec96531d79106c946ea904312 ixgbe: refactor: use DECLARE_BITMAP for ring state field
 
---===============9033439725392624169==--
+--===============1858051435634041717==--
