@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6258237991361219371=="
+Content-Type: multipart/mixed; boundary="===============7390457922739700962=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/docs/linux
-Date: Tue, 03 Mar 2026 18:15:17 -0000
-Message-Id: <177256171795.1498294.10847899367590368297@gitolite.kernel.org>
+Date: Tue, 03 Mar 2026 18:15:19 -0000
+Message-Id: <177256171913.1498474.9721505654734912291@gitolite.kernel.org>
 
---===============6258237991361219371==
+--===============7390457922739700962==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/docs/linux
 user: corbet
 changes:
-  - ref: refs/heads/docs-mw
+  - ref: refs/heads/docs-next
     old: b8c904a37608c9b2ef4ffa35f44a7e552454df51
     new: d20e945e9fe631381dc426eaeaddeed0eb47935a
     log: revlist-b8c904a37608-d20e945e9fe6.txt
 
---===============6258237991361219371==
+--===============7390457922739700962==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -54,4 +54,4 @@ e0bb430d3edc0b63e1482c2b7d4bbd38854ff8a7 Merge branch 'mauro' into docs-mw
 2b8060418dffaa4fcd9173dd5830a763a4b32e99 sched_deadline, docs: fix cpuset example for cgroupv2
 d20e945e9fe631381dc426eaeaddeed0eb47935a docs: handling-regressions: add, trim, and sort quotes from Linus
 
---===============6258237991361219371==--
+--===============7390457922739700962==--
