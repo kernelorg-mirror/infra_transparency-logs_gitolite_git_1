@@ -1,62 +1,55 @@
-Content-Type: multipart/mixed; boundary="===============5990251240319519871=="
+Content-Type: multipart/mixed; boundary="===============3734292397920001676=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Tue, 03 Mar 2026 11:17:52 -0000
-Message-Id: <177253667220.1139607.16758740147614549559@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Tue, 03 Mar 2026 11:18:05 -0000
+Message-Id: <177253668585.1139953.14393371988330378138@gitolite.kernel.org>
 
---===============5990251240319519871==
+--===============3734292397920001676==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/spi
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/regulator-7.0
-    old: 23942b71f07cc99e39d9216a5b370df494759d8c
-    new: 2d85ecd6fb0eb2fee0ffa040ec1ddea57b09bc38
-    log: |
-         2d85ecd6fb0eb2fee0ffa040ec1ddea57b09bc38 regulator: pf9453: Respect IRQ trigger settings from firmware
-         
-  - ref: refs/heads/regulator-7.1
-    old: 4add09ab359c8caa6e65b2200911e1de66565eeb
-    new: 4d4becffe425fd8a4ab6bea5a8cb6d23428bd657
-    log: revlist-4add09ab359c-4d4becffe425.txt
+  - ref: refs/heads/for-7.1
+    old: d3b693a13b39bce16e284e1c737874966b3a96de
+    new: a4f23717b1d6fa7b438c63537edadf1b5b181b38
+    log: revlist-d3b693a13b39-a4f23717b1d6.txt
 
---===============5990251240319519871==
+--===============3734292397920001676==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1772536670 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1772536670-6d775664b348091063f27c06b7c48aae34bdd32d
+pusher C3F436CA30F5D8EB 1772536684 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
+nonce 1772536683-6e785055de197162d634a1b4da272205505573bb
 
-23942b71f07cc99e39d9216a5b370df494759d8c 2d85ecd6fb0eb2fee0ffa040ec1ddea57b09bc38 refs/heads/regulator-7.0
-4add09ab359c8caa6e65b2200911e1de66565eeb 4d4becffe425fd8a4ab6bea5a8cb6d23428bd657 refs/heads/regulator-7.1
+d3b693a13b39bce16e284e1c737874966b3a96de a4f23717b1d6fa7b438c63537edadf1b5b181b38 refs/heads/for-7.1
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmmmw14ACgkQJNaLcl1U
-h9AS2Af/VZHUXuRXpReZhoMoN29SUjFlXxSvPFcG6SQmsfJG1cj0OwBav8UmUJDt
-QBF2yBfUwo1gR4z7iRvg7eMXTf8odbwcEVIv7n+tUpBhyITjBzqGQljZOAn/i62y
-yyvVmZVJ8nrZQkrj9goxFlpnxFicUhFSAXyAIRcHLn0MBU/nQyQ47nCBUJUcuXYY
-r7ubzN8f4L7XJL1bOr7P8VJadRLeeiqcTh5sGBT9UqhGA6QotgiWagAwru0P/IS6
-Y9JLqXhBouptEovUoJN4TGApXImtpqOOGfVCTAuWm43SsINSYPWBQELx300dkpFD
-hvlz/ZT/CMaXqlBtqhgqD4onq9Swpw==
-=lnHk
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmmmw2wACgkQJNaLcl1U
+h9Cu+Qf+Ou4AAfraD/iUYTnf+nlzE/fAq3FpcsrzWqsavYaaD5Ye2R5CWSMtjh75
+6j2fSoInxH2uYUtV5X4PugfwAmUC6BHYq/bzoJ0fNyDgWGszymhILIFJo4BiFKYT
+HSkhiePGgIhtkul0lusBl99Ikf+cp9dxmqNIi7j0WNFNl9dcForK4RXjNhj/2WXG
++AdhFmLy6u463el8yVcTyXzRHqfgGqe6Dc39KyyrA7OzMnnVw0r375Qr9vIELT13
+CHWu/dIU4ZF8kXcYxAakcZN3naYB4qU7FJl0YKgV/gQZNpIdPIj3zbmMn/jzL4Dk
+GkKnw2c72R2WW3n1hPsnFrhpfG2xzA==
+=Pr1W
 -----END PGP SIGNATURE-----
 
---===============5990251240319519871==
+--===============3734292397920001676==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4add09ab359c-4d4becffe425.txt
+Content-Disposition: attachment; filename=revlist-d3b693a13b39-a4f23717b1d6.txt
 
 1799d8abeabc68ec05679292aaf6cba93b343c05 xfrm6: fix uninitialized saddr in xfrm6_get_saddr()
 0a4524bc69882a4ddb235bb6b279597721bda197 xfrm: skip templates check for packet offload tunnel mode
@@ -492,9 +485,6 @@ f6542af92298d8a44ab5588144086fa2d0edf391 Merge tag 'timers-urgent-2026-03-01' of
 e2bd1b136926f1ff65d4e0f87ac49b9a4621238c Merge tag 'core-debugobjects-2026-03-01' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 949d0a46ad1b9ab3450fb6ed69ff1e3e13c657bd Merge tag 'for-linus' of git://git.kernel.org/pub/scm/virt/kvm/kvm
 11439c4635edd669ae435eec308f4ab8a0804808 Linux 7.0-rc2
-23942b71f07cc99e39d9216a5b370df494759d8c regulator: mt6363: Fix incorrect and redundant IRQ disposal in probe
-2d85ecd6fb0eb2fee0ffa040ec1ddea57b09bc38 regulator: pf9453: Respect IRQ trigger settings from firmware
-e84141846decb77d2826e553318a608b256804e5 regulator: pf9453: Allow shared IRQ
-4d4becffe425fd8a4ab6bea5a8cb6d23428bd657 regulator: pf9453: Fix IRQ trigger and allow
+a4f23717b1d6fa7b438c63537edadf1b5b181b38 spi: Merge up v7.0-rc2
 
---===============5990251240319519871==--
+--===============3734292397920001676==--
