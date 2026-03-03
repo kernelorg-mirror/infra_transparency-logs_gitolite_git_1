@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
-Date: Tue, 03 Mar 2026 01:11:50 -0000
-Message-Id: <177250031060.563889.13983255848257425512@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jfern/linux
+Date: Tue, 03 Mar 2026 01:12:09 -0000
+Message-Id: <177250032903.564255.5690963085935120721@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/25-new
-user: akpm
+repo: pub/scm/linux/kernel/git/jfern/linux
+user: jfern
 changes:
-  - ref: refs/heads/master
-    old: 891d9e8fe2b76479925968a936a38dfde299ab9d
-    new: eac919404884608d719024d645e287e10d051fc9
-    log: |
-         eac919404884608d719024d645e287e10d051fc9 foo
-         
+  - ref: refs/heads/nova/mm-snapshot-3-1-2025
+    old: 0000000000000000000000000000000000000000
+    new: 0f6796073506b5f84d2e6f0be478ccb7001d3703
