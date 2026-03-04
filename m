@@ -1,27 +1,52 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
-Date: Wed, 04 Mar 2026 11:31:32 -0000
-Message-Id: <177262389238.2334853.10283953657048506246@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============7750301624729780906=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/wireless/wireless-next
+Date: Wed, 04 Mar 2026 11:32:56 -0000
+Message-Id: <177262397692.2335520.4219608808559501711@gitolite.kernel.org>
+
+--===============7750301624729780906==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pci/pci
-user: kwilczynski
+repo: pub/scm/linux/kernel/git/wireless/wireless-next
+user: jberg
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/kwilczynski/static-sysfs-attributes
-    old: 0045db1a0ad8d172ec983a18d20933f73ee5ddc2
-    new: 2f3dc1bf2f3e9eb478f0bf4977582a4b59e85c5a
-    log: |
-         85f91f31f90a1e59e0f800e3ff0e3f131b5952b4 PCI/sysfs: Use PCI resource accessor macros
-         f5e0b1062151d486ad1883c1315d1f6fe313648f PCI/sysfs: Only allow supported resource types in I/O and MMIO helpers
-         39e23d7a98de0f42fb51e160cf96f3ba49356e46 PCI/sysfs: Use BAR length in pci_llseek_resource() when attr->size is zero
-         04974b833e1c67be2bc8e94b00850da3313ddb66 PCI/sysfs: Add CAP_SYS_ADMIN check to __resource_resize_store()
-         a8c50abcb82b04a2042bcf44c956d3696dfe7392 PCI/sysfs: Add static PCI resource attribute macros
-         d70a448633c17e4c72e894c1933ceb61c976c7f5 PCI/sysfs: Convert PCI resource files to static attributes
-         ad4e20855367dc6e40cc08bb0e7572a2d0c8df5b PCI/sysfs: Convert __resource_resize_store() to use static attributes
-         d4365f623465a2483efe23c1842f7fc6306d1f06 PCI/sysfs: Add stubs for pci_{create,remove}_sysfs_dev_files()
-         2f3dc1bf2f3e9eb478f0bf4977582a4b59e85c5a PCI/sysfs: Limit pci_sysfs_init() late_initcall compile scope
-         
+  - ref: refs/tags/wireless-next-2026-03-04
+    old: 0000000000000000000000000000000000000000
+    new: f5c488a914b7904de0d33beb7a791f34174f3ceb
+
+--===============7750301624729780906==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher 7BF9099A 1772623935 +0100
+pushee ssh+git://korg/pub/scm/linux/kernel/git/wireless/wireless-next.git
+nonce 1772623935-86368b89ca2fb6ab5196ac963b412c1be1a9c2e3
+
+0000000000000000000000000000000000000000 f5c488a914b7904de0d33beb7a791f34174f3ceb refs/tags/wireless-next-2026-03-04
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAABCgAdFiEEpeA8sTs3M8SN2hR410qiO8sPaAAFAmmoGD8ACgkQ10qiO8sP
+aABIyw/9FM0BnXEiQ2tTCaEDEtLJqB1iJvUrPJdS0WpbhyY9FV+w9+kOJ1N0hHL5
+IiQAAIuDDQallMF3hqo3uzdGkmv5aHsvFgVvaUUeeTLbLn/U4NUBHMImMDEni3rx
+0Qw1QWIjNdDIUGyaA/hoQFpHjfJlxFQedFnKp4oamaoxe5nR6KaGwzBe4jLxtlSZ
+Itp7SZtKXMd2XrXEVqOKwaXCMXHxNLBXAQg6h/wv8wboSttlAULP1onWvyjl5fsm
+fMLn6qEXrc///FbaKVylfmUL7rCzL3Xr0nD4w/adOWrSUAkFO9hQXENqrvzgrkDN
+zDG+JUSSVUPMgYQ/4hYheqD6nvIjwK8dIO4sXVZMXKRcgh3Hic68X7YBtty9wXPS
+kxlmm3XDOS6sNfo+rt6+ZGHawmXWkoTlNisCimdA3MrSb1upY3bHurc9zXxM8nEd
+uqd93ACb7tGp47am52PPeQ+pYXlDsNzHkgiCbRXCZFoi3e7JKqFUyiKD1kcevtm9
+QXpR+Hhd8GmTSLZuBAdez0DWqIXVNDYESc/7XIh25MhFKG9QFWVukXUKFZuzLZEN
+qBmTYaWfIIjhiYv7FcYcx0EIepqp9I4wnTuM5ONBYakK1HrbLjQbzKUtkjjP/5PG
+vFU1/dPjWMoFizzF1iGMH4DqBVRTdi3tO2LekkgD697fWfuN6DI=
+=1AQD
+-----END PGP SIGNATURE-----
+
+--===============7750301624729780906==--
