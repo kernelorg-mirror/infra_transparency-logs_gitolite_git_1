@@ -1,22 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/liblore/liblore
-Date: Wed, 04 Mar 2026 19:46:30 -0000
-Message-Id: <177265359012.2953956.17849314218818459088@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Wed, 04 Mar 2026 19:57:58 -0000
+Message-Id: <177265427824.2961960.6442281803101454749@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/liblore/liblore
-user: mricon
+repo: pub/scm/linux/kernel/git/tip/tip
+user: daveh
 changes:
-  - ref: refs/heads/master
-    old: 664aa19be8a104960d8bc8d8b04c66c82546fca6
-    new: d98ae2f60537afb4769a8b96ff24d13d373cac3a
+  - ref: refs/heads/x86/mm
+    old: 11439c4635edd669ae435eec308f4ab8a0804808
+    new: e751303e0ad2e998f421d104193f6904df3516d1
     log: |
-         d98ae2f60537afb4769a8b96ff24d13d373cac3a Lower minimum Python version to 3.9
+         c22ca4a96300c8ed01fe2282d2dd9e9a75032379 x86/mm/pat: Convert pte code to use page table apis
+         6ba1917a4c5c59415c8fc3f83019d92e3f81c87c x86/mm/pat: Convert pmd code to use page table apis
+         b2203a9bf53237368a7c7fc976c9616b5562af8e x86/mm/pat: Convert populate_pgd() to use page table apis
+         e751303e0ad2e998f421d104193f6904df3516d1 x86/mm/pat: Convert split_large_page() to use ptdescs
          
-  - ref: refs/tags/v0.3.1
-    old: 0000000000000000000000000000000000000000
-    new: bd8438542edb8f8403b421ca2af004ce90e9ea15
