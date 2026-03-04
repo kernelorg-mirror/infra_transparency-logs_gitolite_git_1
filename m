@@ -1,19 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
-Date: Wed, 04 Mar 2026 19:45:44 -0000
-Message-Id: <177265354461.2953171.5274274737862165696@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/liblore/liblore
+Date: Wed, 04 Mar 2026 19:46:30 -0000
+Message-Id: <177265359012.2953956.17849314218818459088@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ath/ath
-user: jjohnson
+repo: pub/scm/utils/liblore/liblore
+user: mricon
 changes:
-  - ref: refs/heads/pending
-    old: 44d93cf1abb6a85d65c3b4b027c82d44263de6a5
-    new: 8e8cba8083c3e76b39942ab6d07cd534475b0997
+  - ref: refs/heads/master
+    old: 664aa19be8a104960d8bc8d8b04c66c82546fca6
+    new: d98ae2f60537afb4769a8b96ff24d13d373cac3a
     log: |
-         8e8cba8083c3e76b39942ab6d07cd534475b0997 wifi: ath12k: account TX stats only when ACK/BA status is present
+         d98ae2f60537afb4769a8b96ff24d13d373cac3a Lower minimum Python version to 3.9
          
+  - ref: refs/tags/v0.3.1
+    old: 0000000000000000000000000000000000000000
+    new: bd8438542edb8f8403b421ca2af004ce90e9ea15
