@@ -1,26 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tj/sched_ext
-Date: Wed, 04 Mar 2026 17:02:40 -0000
-Message-Id: <177264376038.2820081.11523044956808259453@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jfern/linux
+Date: Wed, 04 Mar 2026 17:05:07 -0000
+Message-Id: <177264390762.2823264.11955089548421505075@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tj/sched_ext
-user: tj
+repo: pub/scm/linux/kernel/git/jfern/linux
+user: jfern
 changes:
-  - ref: refs/heads/for-7.0-fixes
-    old: 0031c06807cfa8aa51a759ff8aa09e1aa48149af
-    new: 7a8464555d2e5f038758bb19e72ab4710b79e9cd
+  - ref: refs/heads/rcu/dev
+    old: 8fdee8db341731fba01d5416a472b311aa7e3552
+    new: e1dfdf6d334c442e441f92d44b9155a589a0cf2b
     log: |
-         7a8464555d2e5f038758bb19e72ab4710b79e9cd sched_ext: Use WRITE_ONCE() for the write side of dsq->seq update
-         
-  - ref: refs/heads/for-next
-    old: c3266c41bc124587ad0d6a5b454f4ffd793ff3b5
-    new: d2b1167a85b4273f205b969a8fbab046493e9378
-    log: |
-         7a8464555d2e5f038758bb19e72ab4710b79e9cd sched_ext: Use WRITE_ONCE() for the write side of dsq->seq update
-         d2b1167a85b4273f205b969a8fbab046493e9378 Merge branch 'for-7.0-fixes' into for-next
+         cf83fa7ce6eb71cf0a0cd7289eb014d0cd677c7f rcutorture: Update due to x86 not supporting none/voluntary preemption
+         6f05c6d1a3ee246de70aadfab871ddef9eedb72a rcuscale: Update due to x86 not supporting none/voluntary preemption
+         3be0ab2fee28584e4b9aa9808c79b84fc4cfa62e refscale: Update due to x86 not supporting none/voluntary preemption
+         8dd7762897ebe9a2b6aedff012fc1409260a30ac scftorture: Update due to x86 not supporting none/voluntary preemption
+         e1dfdf6d334c442e441f92d44b9155a589a0cf2b fixup! rcu/nocb: Consolidate rcu_nocb_cpu_offload/deoffload functions
          
