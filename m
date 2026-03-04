@@ -1,18 +1,18 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jfern/linux
-Date: Wed, 04 Mar 2026 17:32:02 -0000
-Message-Id: <177264552245.2844300.4151512078237722313@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rcu/linux
+Date: Wed, 04 Mar 2026 17:32:08 -0000
+Message-Id: <177264552893.2844607.15064746639528821013@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jfern/linux
+repo: pub/scm/linux/kernel/git/rcu/linux
 user: jfern
 changes:
   - ref: refs/heads/rcu/dev
-    old: e1dfdf6d334c442e441f92d44b9155a589a0cf2b
+    old: 8fdee8db341731fba01d5416a472b311aa7e3552
     new: af0fc62ec61084c23cfdba3461c02ab723064f68
     log: |
          1de6f723c5ef7d72cc54ddb2a53797cefa6a4a91 rcu/nocb: Consolidate rcu_nocb_cpu_offload/deoffload functions
