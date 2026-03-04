@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6615370973463299386=="
+Content-Type: multipart/mixed; boundary="===============3530301427036904918=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
-Date: Wed, 04 Mar 2026 16:06:27 -0000
-Message-Id: <177264038717.2772161.11891047070438059537@gitolite.kernel.org>
+Date: Wed, 04 Mar 2026 16:06:38 -0000
+Message-Id: <177264039865.2772392.7392600712256810457@gitolite.kernel.org>
 
---===============6615370973463299386==
+--===============3530301427036904918==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,25 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/peterz/queue
 user: peterz
 changes:
-  - ref: refs/heads/x86/urgent
-    old: 87edc218d6f67d2903cdbb3ac666d487106a9ce3
-    new: b5ef09a77d0b5213268300eedd8a7d28b4e92d47
-    log: revlist-87edc218d6f6-b5ef09a77d0b.txt
+  - ref: refs/heads/sched/urgent
+    old: 72e8b07a4b83e5bae237c274003762362efd10c3
+    new: d658686a1331db3bb108ca079d76deb3208ed949
+    log: revlist-72e8b07a4b83-d658686a1331.txt
 
---===============6615370973463299386==
+--===============3530301427036904918==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-87edc218d6f6-b5ef09a77d0b.txt
+Content-Disposition: attachment; filename=revlist-72e8b07a4b83-d658686a1331.txt
 
+1fee2701a7d35fa7285479c5c2ee6c2d9bd99526 perf jevents: Add C-State metrics from the PCU PMU for Intel
+6ec3058e709cc63513bafe105bf48b512baabe04 perf jevents: Add local/remote miss latency metrics for Intel
+5dc81578ad77c298248a12de8b5e19923ef2c617 perf jevents: Add upi_bw metric for Intel
+e74f72a7e21782332bb7b9541634199278f3461b perf jevents: Add mesh bandwidth saturation metric for Intel
+82e53e7ae09a054b00cf3afdddf7c378351cf3e0 perf jevents: Add cycles breakdown metric for arm64/AMD/Intel
+e205952db7717557f71f22baa96589f0a56d83c5 perf jevents: Validate that all names given an Event
+3d28e2397af7a89ac3de33c686ed404cda59b5d5 apparmor: add support loading per permission tagging
+8d34e16f7f2b51f880957f2caadaae731ee28867 apparmor: userns: Add support for execpath in userns
 48d5268e911abcf7674ec33c9b0b3e952be1175e apparmor: fix boolean argument in apparmor_mmap_file
 c3f27ccdb2dce3f0f2814574d06017f46c11fa29 apparmor: drop in_atomic flag in common_mmap, and common_file_perm
 9b829c0aa96e9385b1e9a308d3eb054b95fbeda2 apparmor: account for in_atomic removal in common_file_perm
@@ -1041,14 +1049,6 @@ f6542af92298d8a44ab5588144086fa2d0edf391 Merge tag 'timers-urgent-2026-03-01' of
 e2bd1b136926f1ff65d4e0f87ac49b9a4621238c Merge tag 'core-debugobjects-2026-03-01' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 949d0a46ad1b9ab3450fb6ed69ff1e3e13c657bd Merge tag 'for-linus' of git://git.kernel.org/pub/scm/virt/kvm/kvm
 11439c4635edd669ae435eec308f4ab8a0804808 Linux 7.0-rc2
-4ca191cec17a997d0e3b2cd312f3a884288acc27 x86/boot/sev: Move SEV decompressor variables into the .data section
-9073428bb204d921ae15326bb7d4558d9d269aab x86/sev: Allow IBPB-on-Entry feature for SNP guests
-3d1973a0c76a78a4728cff13648a188ed486cf44 x86/boot: Handle relative CONFIG_EFI_SBAT_FILE file paths
-48084cc153a5b0fbf0aa98d47670d3be0b9f64d5 x86/numa: Store extra copy of numa_nodes_parsed
-ae6730ff42b3a13d94b405edeb5e40108b6d21b6 x86/topo: Add topology_num_nodes_per_package()
-717b64d58cff6fb97f97be07e382ed7641167a56 x86/topo: Replace x86_has_numa_in_package
-528d89a4707e5bfd86e30823c45dbb66877df900 x86/topo: Fix SNC topology mess
-59674fc9d0bfd96ce8a776680ee1cf22c28c9ac7 x86/resctrl: Fix SNC detection
-b5ef09a77d0b5213268300eedd8a7d28b4e92d47 x86/entry/vdso32: Work around libgcc unwinder bug
+d658686a1331db3bb108ca079d76deb3208ed949 sched/deadline: Fix missing ENQUEUE_REPLENISH during PI de-boosting
 
---===============6615370973463299386==--
+--===============3530301427036904918==--
