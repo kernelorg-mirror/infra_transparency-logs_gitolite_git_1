@@ -1,22 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ukleinek/pgpkeys
-Date: Wed, 04 Mar 2026 09:36:10 -0000
-Message-Id: <177261697096.2242986.6239193409723105002@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mszeredi/fuse
+Date: Wed, 04 Mar 2026 10:00:14 -0000
+Message-Id: <177261841484.2261320.13045308565399263202@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ukleinek/pgpkeys
-user: ukleinek
+repo: pub/scm/linux/kernel/git/mszeredi/fuse
+user: mszeredi
 changes:
-  - ref: refs/heads/master
-    old: fcb6e5999ae881f0137b15226b5e93628bb177e9
-    new: 6bf9535f7d47af1068f36f5f9447a7414f72c402
+  - ref: refs/heads/for-next
+    old: 16c09ed4c4502027cdd1c9d285cc02657e9e2b72
+    new: 5a6baf204610589f8a5b5a1cd69d1fe661d9d3cd
     log: |
-         4450a1ef501ef8b805a436e6a9e6428cac34b58b Periodic update from keyservers
-         d9f100283ff15af60e7ea9c5fda88e1cb3eaca54 Remove keys that expired in 2025
-         e607dc99d82b33a1aea861c35f520d8b86f01bf1 Update 2B5EE211C58AEA54 (Marc Kleine-Budde)
-         6bf9535f7d47af1068f36f5f9447a7414f72c402 Convert key meta data to utf-8
+         25307ca50b815c14a21f82fc5b10e8a621af32ad fuse: simplify logic in fuse_notify_store() and fuse_retrieve()
+         dcfd95cb5076c9ef421c19b9b22b3e01f03ce68e fuse: use DIV_ROUND_UP() for page count calculations
+         8d306cbffc2ee0f3251c81d574aa3451ef21cd5a fuse: use offset_in_page() for page offset calculations
+         5a6baf204610589f8a5b5a1cd69d1fe661d9d3cd fuse: fix uninit-value in fuse_dentry_revalidate()
          
