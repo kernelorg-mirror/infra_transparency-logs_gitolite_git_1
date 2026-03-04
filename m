@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3530301427036904918=="
+Content-Type: multipart/mixed; boundary="===============1712640293037738065=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
-Date: Wed, 04 Mar 2026 16:06:38 -0000
-Message-Id: <177264039865.2772392.7392600712256810457@gitolite.kernel.org>
+Date: Wed, 04 Mar 2026 16:06:48 -0000
+Message-Id: <177264040821.2772626.18327197621132100424@gitolite.kernel.org>
 
---===============3530301427036904918==
+--===============1712640293037738065==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/peterz/queue
 user: peterz
 changes:
-  - ref: refs/heads/sched/urgent
-    old: 72e8b07a4b83e5bae237c274003762362efd10c3
-    new: d658686a1331db3bb108ca079d76deb3208ed949
-    log: revlist-72e8b07a4b83-d658686a1331.txt
+  - ref: refs/heads/perf/urgent
+    old: 673d875d4babf061d5991b2472e9a4f316444678
+    new: ea186f894230c777fb8eee26cafd3cda57c569b3
+    log: revlist-673d875d4bab-ea186f894230.txt
 
---===============3530301427036904918==
+--===============1712640293037738065==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-72e8b07a4b83-d658686a1331.txt
+Content-Disposition: attachment; filename=revlist-673d875d4bab-ea186f894230.txt
 
 1fee2701a7d35fa7285479c5c2ee6c2d9bd99526 perf jevents: Add C-State metrics from the PCU PMU for Intel
 6ec3058e709cc63513bafe105bf48b512baabe04 perf jevents: Add local/remote miss latency metrics for Intel
@@ -1049,6 +1049,6 @@ f6542af92298d8a44ab5588144086fa2d0edf391 Merge tag 'timers-urgent-2026-03-01' of
 e2bd1b136926f1ff65d4e0f87ac49b9a4621238c Merge tag 'core-debugobjects-2026-03-01' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 949d0a46ad1b9ab3450fb6ed69ff1e3e13c657bd Merge tag 'for-linus' of git://git.kernel.org/pub/scm/virt/kvm/kvm
 11439c4635edd669ae435eec308f4ab8a0804808 Linux 7.0-rc2
-d658686a1331db3bb108ca079d76deb3208ed949 sched/deadline: Fix missing ENQUEUE_REPLENISH during PI de-boosting
+ea186f894230c777fb8eee26cafd3cda57c569b3 perf: Fix potential timestamp corruption
 
---===============3530301427036904918==--
+--===============1712640293037738065==--
