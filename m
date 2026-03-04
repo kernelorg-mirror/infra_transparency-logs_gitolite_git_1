@@ -1,26 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux
-Date: Wed, 04 Mar 2026 02:43:13 -0000
-Message-Id: <177259219325.1921832.9103515875982565148@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Wed, 04 Mar 2026 02:52:25 -0000
+Message-Id: <177259274531.1929337.6820162765485750170@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux
-user: axboe
+repo: pub/scm/linux/kernel/git/netdev/net
+user: kuba
 changes:
-  - ref: refs/heads/for-next
-    old: b82c5e4f1bcb3fa78ba3c95a0d198f55553c0fc1
-    new: 225caea95e27d29ec1a6044093cdd8efa16eae78
+  - ref: refs/heads/main
+    old: e2f27363aa6d983504c6836dd0975535e2e9dba0
+    new: 46d0d6f50dab706637f4c18a470aac20a21900d3
     log: |
-         9e7dc228bb6d4afa74dd6bab4f3aad43126cc2db io_uring/mock: Fix typo in help text
-         225caea95e27d29ec1a6044093cdd8efa16eae78 Merge branch 'io_uring-7.0' into for-next
-         
-  - ref: refs/heads/io_uring-7.0
-    old: c36e28becd0586ac98318fd335e5e91d19cd2623
-    new: 9e7dc228bb6d4afa74dd6bab4f3aad43126cc2db
-    log: |
-         9e7dc228bb6d4afa74dd6bab4f3aad43126cc2db io_uring/mock: Fix typo in help text
+         7f5d8e63f3d4dc952548502a2227de780cbcd21f MAINTAINERS: update the skge/sky2 maintainers
+         46d0d6f50dab706637f4c18a470aac20a21900d3 net/tcp-md5: Fix MAC comparison to be constant-time
          
