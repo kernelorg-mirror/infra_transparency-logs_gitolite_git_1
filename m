@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0254487542764607802=="
+Content-Type: multipart/mixed; boundary="===============4199282022444505490=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
-Date: Wed, 04 Mar 2026 20:54:31 -0000
-Message-Id: <177265767139.3005948.98358313414979920@gitolite.kernel.org>
+Date: Wed, 04 Mar 2026 20:55:05 -0000
+Message-Id: <177265770509.3008545.7554388543085787942@gitolite.kernel.org>
 
---===============0254487542764607802==
+--===============4199282022444505490==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/pci/pci
 user: kwilczynski
 changes:
-  - ref: refs/heads/for-kernelci
+  - ref: refs/heads/kwilczynski/static-sysfs-attributes
     old: 2f3dc1bf2f3e9eb478f0bf4977582a4b59e85c5a
     new: ff3d3430d59f9cf841281e1567309b32befd7998
     log: revlist-2f3dc1bf2f3e-ff3d3430d59f.txt
 
---===============0254487542764607802==
+--===============4199282022444505490==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -43,4 +43,4 @@ f9d86e305360844175594abda0da0cd762e14169 alpha/PCI: Add static PCI resource attr
 9c04ce0972685a4571a1a023f97a6f862338ebd9 alpha/PCI: Convert resource files to static attributes
 ff3d3430d59f9cf841281e1567309b32befd7998 PCI/sysfs: Remove pci_{create,remove}_sysfs_dev_files()
 
---===============0254487542764607802==--
+--===============4199282022444505490==--
