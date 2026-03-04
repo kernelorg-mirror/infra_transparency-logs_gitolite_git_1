@@ -1,22 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/djwong/libfuse
-Date: Wed, 04 Mar 2026 00:04:03 -0000
-Message-Id: <177258264328.1787509.10480099631323125436@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Wed, 04 Mar 2026 00:08:20 -0000
+Message-Id: <177258290017.1793260.13884378354842650541@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/djwong/libfuse
-user: djwong
+repo: pub/scm/linux/kernel/git/tip/tip
+user: daveh
 changes:
-  - ref: refs/tags/origin/master_2026-03-03
-    old: 266cfd82145d14f1df77fd152f37b90c5d4fd786
-    new: e07b5d0a49ec074981a36b6681c121e87a26f55f
-  - ref: refs/heads/fuse-service-container-3.19
-    old: 0000000000000000000000000000000000000000
-    new: d686733ac24a50e957cfd1117cc3315cce510bf3
-  - ref: refs/tags/fuse-service-container-3.19_2026-03-03
-    old: 0000000000000000000000000000000000000000
-    new: 3e6aa41cedaf162ab4eff3b48ebd94b220d8d26f
+  - ref: refs/heads/x86/tdx
+    old: b5425f5406ee1b4bd84720f68020ef18ce380bab
+    new: 3256e41f02623edc4b90a77b70191f83dcdea6cc
+    log: |
+         3aecb2e7b948400354399b26f3f1653bd2c1bae0 x86/tdx: Fix the typo in TDX_ATTR_MIGRTABLE
+         87686987193e8465a7ecbd7a3012efe20f1f293d KVM/TDX: Remove redundant definitions of TDX_TD_ATTR_*
+         28bcd8d83fca2c16b2d596b0dce5c4dbca4f9b50 x86/tdx: Rename TDX_ATTR_* to TDX_TD_ATTR_*
+         3256e41f02623edc4b90a77b70191f83dcdea6cc KVM/TDX: Rename KVM_SUPPORTED_TD_ATTRS to KVM_SUPPORTED_TDX_TD_ATTRS
+         
