@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0526550951054755052=="
+Content-Type: multipart/mixed; boundary="===============3790709796142841616=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Wed, 04 Mar 2026 22:42:26 -0000
-Message-Id: <177266414637.3099363.1025960317457378396@gitolite.kernel.org>
+Date: Wed, 04 Mar 2026 22:42:29 -0000
+Message-Id: <177266414912.3099502.18325909068318688113@gitolite.kernel.org>
 
---===============0526550951054755052==
+--===============3790709796142841616==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
+  - ref: refs/heads/10GbE
     old: ed0abfe93fd135dac223e87a3c945017b1fa8bfc
     new: 4ad96a7c9e2cebbbdc68369438a736a133539f1d
     log: revlist-ed0abfe93fd1-4ad96a7c9e2c.txt
 
---===============0526550951054755052==
+--===============3790709796142841616==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -41,4 +41,4 @@ d6ca199568c53ece99aeeae1022d04f2fd8cde7f net: core: failover: enforce mandatory 
 b52363f706e53101d9f8c5ba5e3854d6be8f122c net: macvlan: support multicast rx for bridge ports with shared source MAC
 4ad96a7c9e2cebbbdc68369438a736a133539f1d selftests: net: add macvlan multicast test for shared source MAC
 
---===============0526550951054755052==--
+--===============3790709796142841616==--
