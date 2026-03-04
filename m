@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Wed, 04 Mar 2026 01:44:31 -0000
-Message-Id: <177258867180.1873901.5517413206857033461@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Wed, 04 Mar 2026 02:01:48 -0000
+Message-Id: <177258970866.1888222.933484893072711351@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
+repo: pub/scm/linux/kernel/git/netdev/net-next
 user: kuba
 changes:
   - ref: refs/heads/main
-    old: 4ee7fa6cf78ff26d783d39e2949d14c4c1cd5e7f
-    new: e2f27363aa6d983504c6836dd0975535e2e9dba0
+    old: dfa77c0dd4ab267d3f1160617c95eab80181a76f
+    new: d6ca199568c53ece99aeeae1022d04f2fd8cde7f
     log: |
-         5af6e8b54927f7a8d3c7fd02b1bdc09e93d5c079 netconsole: fix sysdata_release_enabled_show checking wrong flag
-         e2f27363aa6d983504c6836dd0975535e2e9dba0 amd-xgbe: fix sleep while atomic on suspend/resume
+         d6ca199568c53ece99aeeae1022d04f2fd8cde7f net: core: failover: enforce mandatory ops and clean up redundant checks
          
