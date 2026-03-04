@@ -1,57 +1,43 @@
-Content-Type: multipart/mixed; boundary="===============5473904637008490437=="
+Content-Type: multipart/mixed; boundary="===============7601744386847622224=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/security/vulns
-Date: Wed, 04 Mar 2026 12:59:08 -0000
-Message-Id: <177262914847.2457401.12751466215788484641@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
+Date: Wed, 04 Mar 2026 13:01:16 -0000
+Message-Id: <177262927607.2460467.17109557326322113192@gitolite.kernel.org>
 
---===============5473904637008490437==
+--===============7601744386847622224==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/security/vulns
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/jlayton/linux
+user: jlayton
 changes:
-  - ref: refs/heads/master
-    old: 21a5575d53a8f6dbd78d0a6d39f5462f0445802d
-    new: bdb7d3f11f50814ced81e6d31db242fc495c7719
-    log: |
-         6690b5dc21cea193d53db596a4518d77aa7e4aa1 proposed: Add Ruiqi's results for v6.18.14 & v6.19.4
-         bdb7d3f11f50814ced81e6d31db242fc495c7719 assign a CVE on request
-         
+  - ref: refs/heads/iino-u64
+    old: 8061b6c4e3c4767899f9454ea145793bd00de50c
+    new: 66202e475864b97b54dedd1477bb4d01f8ec6248
+    log: revlist-8061b6c4e3c4-66202e475864.txt
 
---===============5473904637008490437==
+--===============7601744386847622224==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-8061b6c4e3c4-66202e475864.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1772629138 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
-nonce 1772629148-ff1432171e8a22f1118fd01c110a87d01c537f57
+43e673e9c4e19da38faf33b067bdf4e68cc536c4 vfs: change inode->i_ino from unsigned long to u64
+44d33ffb9cf4b668cf3ca1b675eb324be3766ed6 vfs: widen inode hash/lookup functions to u64
+38ee5c7af810dec59dece42c32f840e114ddc5e1 audit: widen ino fields to u64
+c82f617f4a4ce49a2daed64cbadd4a09081c3252 net: change sock.sk_ino and sock_i_ino() to u64
+9124b57ba7766ef23e9396a5f34b67593ea14069 vfs: widen trace event i_ino fields to u64
+d92d40eae1ce2707dd59591d5d93d4f3d004682c cachefiles: widen trace event i_ino fields to u64
+ed0673d536a346162774a44915e90de4d42562e5 ext2: widen trace event i_ino fields to u64
+37b556bb0010f6369763ab24e1cf8d3325556b88 hugetlbfs: widen trace event i_ino fields to u64
+3abfafcbd021754ffcd494d22a7adda642cd99b5 zonefs: widen trace event i_ino fields to u64
+22a097ac7041c2d69756b100e42d12c3055efcff ext4: widen trace event i_ino fields to u64
+f83aa82d1d5a75a86b9e08c51f80c04b79427adf f2fs: widen trace event i_ino fields to u64
+5d63dcb4969d3b28851c32eab3f9116f7a80e8e0 nilfs2: widen trace event i_ino fields to u64
+66202e475864b97b54dedd1477bb4d01f8ec6248 treewide: change inode->i_ino from unsigned long to u64
 
-21a5575d53a8f6dbd78d0a6d39f5462f0445802d bdb7d3f11f50814ced81e6d31db242fc495c7719 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmmoLJIbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+9S0P/0TpDXF8bETdkcrIiRtj
-0zyef1J4g7MhXd5dYNuogQazQXradlnvO4fFJOf+cSLhyKLAkWdIGsHcIAoVfc/y
-E6vBEsXMMH0OAfKtKTW0+af4D4YmTDPWtjh6gj3WajgYzSTwBO93PXwfQxal++cN
-0u194a4aT6Bs3QVdUFkYJjd8cAJaM+sztYHOzKy9j+voylSvAS4fE6IUQ1ohBpkt
-sGS343D26kRlddYmcNspa/AywbZ9HZpQvzor16t4QO8X/mrGJzroh2gYYOLyMe+9
-pMN1EKLgMkyCWNix7klXvvlvSLo9EzmdWYxzElfAvcriba89FKvFgJIKyZfPxYdf
-HZvlBH3gGAOIAkhdgYmmY+qIymNn+7/SVRDqRcSqW+EPfV7hpq1DpzCY9exD60Je
-qNyM1kfrYvoZorL6zvEzaP0hnP4DEkj8da3wITOOXXavOnE4WH6k82VyCUA/V2Jo
-xmFuw2VOCnK3y61qMDO94fTZeVfg+T+MdqYQG18vjHeYuZjEHMFr6sa21GCk5hmo
-+Id25WANF+d4n3WWAMwkooS/tbVHx9+djeuPMhrXkqnE4I/WHDPld4xO3Ky7+uES
-7Zee331PZ38p4MvSfhW6+iAF7eSHmyBIgat+DqBlRH1boSEDcX7ChhFIHs4j6j1T
-dluZZhBPdfqEMugeP01I4YsB
-=j3/n
------END PGP SIGNATURE-----
-
---===============5473904637008490437==--
+--===============7601744386847622224==--
