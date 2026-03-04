@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Wed, 04 Mar 2026 22:20:44 -0000
-Message-Id: <177266284469.3080041.814129404709306210@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/zab/linux-rpdfs
+Date: Wed, 04 Mar 2026 22:25:52 -0000
+Message-Id: <177266315256.3085147.4955927752028479475@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/linux/kernel/git/zab/linux-rpdfs
+user: zab
 changes:
-  - ref: refs/heads/main
-    old: fbdfa8da05b6ae44114fc4f9b3e83e1736fd411c
-    new: 126fe7ef12ffe42fdc600fe22df733e96fa418ec
+  - ref: refs/heads/rpdfs-initial
+    old: bbf8678408a6e10fe832b838490ce499c02e0968
+    new: ab7c011bfdec377a15727cd2b2b9fb46419d0142
     log: |
-         126fe7ef12ffe42fdc600fe22df733e96fa418ec mailmap: Add entry for Joe Damato
+         ab7c011bfdec377a15727cd2b2b9fb46419d0142 rpdfs: Initial extended attribute support
          
