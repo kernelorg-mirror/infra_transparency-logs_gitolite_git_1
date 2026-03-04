@@ -1,20 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/b4/b4
-Date: Wed, 04 Mar 2026 23:02:08 -0000
-Message-Id: <177266532831.3115854.10875928437761684721@gitolite.kernel.org>
+Subject: post-receive: pub/scm/git/git
+Date: Wed, 04 Mar 2026 23:02:13 -0000
+Message-Id: <177266533325.3116079.7251940266151915146@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/b4/b4
-user: mricon
+repo: pub/scm/git/git
+user: junio
 changes:
-  - ref: refs/heads/master
-    old: 18f8fdb27a2209ecc090d380a5d9ae42d2e03a6d
-    new: ddf023f25c510b139dd3b63725d4556021a43a9a
+  - ref: refs/heads/todo
+    old: eca3c3734ca6e2d7e892ed9b1a174044b0092328
+    new: 2dfd90ad1838a57ad6c752daeaa6971d2ff61d4e
     log: |
-         d852b3ffae4baf106f5318935d418b3adc79f853 review: fix inconsistent dimming of quoted lines in follow-up viewer
-         ddf023f25c510b139dd3b63725d4556021a43a9a review: disable Rich markup parsing on Labels with user content
+         5e058d042ba1c7206726b66f98faac5b8156a8dd Meta/Dothem: allow different kinds of tests run at the same time
+         9588c1a4617cec203d19bdf26c12fc056ec81429 Meta/Doit: vastly simplify
+         2dfd90ad1838a57ad6c752daeaa6971d2ff61d4e What's cooking (2026/03 #02)
          
