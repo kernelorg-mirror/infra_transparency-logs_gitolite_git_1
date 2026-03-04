@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============5768852035743270805=="
+Content-Type: multipart/mixed; boundary="===============3206777065432888796=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools
-Date: Wed, 04 Mar 2026 22:01:11 -0000
-Message-Id: <177266167178.3062104.14950882752517049395@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
+Date: Wed, 04 Mar 2026 22:01:27 -0000
+Message-Id: <177266168726.3062471.5612679846566872320@gitolite.kernel.org>
 
---===============5768852035743270805==
+--===============3206777065432888796==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/perf/perf-tools
+repo: pub/scm/linux/kernel/git/acme/linux
 user: acme
 changes:
   - ref: refs/heads/tmp.perf-tools
@@ -20,7 +20,7 @@ changes:
     new: 42e6b102de024c9fcd36577adab4981186744b43
     log: revlist-8934827db540-42e6b102de02.txt
 
---===============5768852035743270805==
+--===============3206777065432888796==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -578,4 +578,4 @@ c081d992655593c8169bf21f124d3edf8a730e54 tools headers x86 svm: Sync svm header 
 0a641c6b3665617967f48ca8c8e5ddd3c7ced69c tools arch x86: Sync msr-index.h to pick MSR_{OMR_[0-3],CORE_PERF_GLOBAL_STATUS_SET}
 42e6b102de024c9fcd36577adab4981186744b43 perf disasm: Fix off-by-one bug in outside check
 
---===============5768852035743270805==--
+--===============3206777065432888796==--
