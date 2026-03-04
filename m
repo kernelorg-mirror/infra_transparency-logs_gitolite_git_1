@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
-Date: Wed, 04 Mar 2026 18:17:00 -0000
-Message-Id: <177264822032.2882440.5141746108358663273@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/deller/linux-fbdev
+Date: Wed, 04 Mar 2026 18:19:23 -0000
+Message-Id: <177264836338.2883441.11222566972207807551@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/25-new
-user: akpm
+repo: pub/scm/linux/kernel/git/deller/linux-fbdev
+user: deller
 changes:
-  - ref: refs/heads/master
-    old: ba0151aadb0ecbbc03d70a4278b0b6d6f519613d
-    new: e27cd2648f8927e34db47ae94aed69ee4c503497
+  - ref: refs/heads/for-next
+    old: e5c1f85705f42c4512493e57f13875c4f22b709c
+    new: 9dc2aea933b8d976c517baa3df60cff9261ba1f9
     log: |
-         e27cd2648f8927e34db47ae94aed69ee4c503497 foo
+         9dc2aea933b8d976c517baa3df60cff9261ba1f9 fbdev: au1100fb: Fix build on MIPS64
          
