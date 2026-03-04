@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/xen/tip
-Date: Wed, 04 Mar 2026 14:32:02 -0000
-Message-Id: <177263472268.2692377.14253209242901332461@gitolite.kernel.org>
+Date: Wed, 04 Mar 2026 14:32:26 -0000
+Message-Id: <177263474604.2692802.2185364902799139836@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,6 +11,10 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/xen/tip
 user: jgross
 changes:
-  - ref: refs/heads/for-linus-7.0
-    old: 4e05a08c6f3f338f31e374b1860655174a1707de
-    new: 7271cb98e4981e32c9b2a5f9eb5ad0cd0cdd5bf3
+  - ref: refs/heads/linux-next
+    old: 667567a6e2514e6f9f53610ccfa48c9ee4942048
+    new: e2dcf9065536ab4a1b00828ff0d19f7d282dfecc
+    log: |
+         82169dace41cbaa951341b0f80f4570be3b2dec0 xenbus: add xenbus_device parameter to xenbus_read_driver_state()
+         e2dcf9065536ab4a1b00828ff0d19f7d282dfecc xen/xenbus: better handle backend crash
+         
