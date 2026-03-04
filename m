@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netfilter/nf
-Date: Wed, 04 Mar 2026 09:00:19 -0000
-Message-Id: <177261481982.2214077.9502882785712603501@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mchehab/linux-media
+Date: Wed, 04 Mar 2026 09:15:05 -0000
+Message-Id: <177261570508.2225336.16490565245185120983@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netfilter/nf
-user: fwestphal
+repo: pub/scm/linux/kernel/git/mchehab/linux-media
+user: mchehab
 changes:
-  - ref: refs/heads/testing
-    old: 39ab19df8916708987c4dc528ab57bec57f05279
-    new: 74c6b34e587444492a01f497910ed8c309a3438d
-    log: |
-         74c6b34e587444492a01f497910ed8c309a3438d netfilter: nft_set_pipapo: split gc in unlink and reclaim phase
-         
+  - ref: refs/tags/media/v7.0-3
+    old: 0000000000000000000000000000000000000000
+    new: 122fa4c4c1c2836f55caf6c29d7690f4a2e1f066
