@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============0167473308334083021=="
+Content-Type: multipart/mixed; boundary="===============4347378594477805887=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/lee/leds
-Date: Thu, 05 Mar 2026 13:28:52 -0000
-Message-Id: <177271733205.3817778.12836898118481240422@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/lee/mfd
+Date: Thu, 05 Mar 2026 13:29:06 -0000
+Message-Id: <177271734602.3818217.5593000565474924278@gitolite.kernel.org>
 
---===============0167473308334083021==
+--===============4347378594477805887==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/lee/leds
+repo: pub/scm/linux/kernel/git/lee/mfd
 user: lee
 changes:
-  - ref: refs/heads/for-leds-next-next
-    old: 129f82752bcecd554936209aac4dbdd888e92224
-    new: 787130d7bc49ec01604277a3480f42ba1557385e
-    log: revlist-129f82752bce-787130d7bc49.txt
+  - ref: refs/heads/for-mfd-next-next
+    old: ff05fecc5007a1680e2e828e708586ae5ffb30a5
+    new: 126ea47abee3ee0d9cd65b08e09fe594f3a3c793
+    log: revlist-ff05fecc5007-126ea47abee3.txt
 
---===============0167473308334083021==
+--===============4347378594477805887==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-129f82752bce-787130d7bc49.txt
+Content-Disposition: attachment; filename=revlist-ff05fecc5007-126ea47abee3.txt
 
 37b4fbf8dbdfb694f2972d1bd7fcd36304a520dd Merge tag 'tpmdd-next-7.0-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/jarkko/linux-tpmdd
 698749164aa53cc313248efd2dc1c25dcf25c99c Merge tag 'audit-pr-20260203' of git://git.kernel.org/pub/scm/linux/kernel/git/pcmoore/audit
@@ -1048,7 +1048,7 @@ aaf96df9593bf4ab1b73c17891e4efe7570fdef3 CREDITS: Add -next to Stephen Rothwell'
 75e1f66a9ed09f29c6883ea379c174e8cf31f7cc Merge tag 'libcrypto-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/ebiggers/linux
 fbf33803618ad4f531f78fe15cf328fe6c7f9978 Merge tag 'fsverity-for-linus' of git://git.kernel.org/pub/scm/fs/fsverity/linux
 6de23f81a5e08be8fbf5e8d7e9febc72a5b5f27f Linux 7.0-rc1
-64011d4e72700b4ffcf3f25a00aa75040f6b696f leds: led-class: Detect brightness conversion base from string
-787130d7bc49ec01604277a3480f42ba1557385e leds: multicolor: Limit intensity to max_brightness of LED
+e46fd9500e79ab5e64f8073bd17a14b4f51845ec mfd: mc13xxx-core: Fix memory leak in mc13xxx_add_subdevice_pdata()
+126ea47abee3ee0d9cd65b08e09fe594f3a3c793 mfd: stpmic1: Attempt system shutdown twice in case PMIC is confused
 
---===============0167473308334083021==--
+--===============4347378594477805887==--
