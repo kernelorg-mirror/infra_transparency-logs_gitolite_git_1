@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
-Date: Thu, 05 Mar 2026 18:11:28 -0000
-Message-Id: <177273428803.22562.5163756783718746554@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/conor/linux
+Date: Thu, 05 Mar 2026 18:19:16 -0000
+Message-Id: <177273475602.27507.13593931447067042964@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jlayton/linux
-user: jlayton
+repo: pub/scm/linux/kernel/git/conor/linux
+user: conor
 changes:
-  - ref: refs/heads/kdevops
-    old: 41471f28cc25a8b53e5566932640180573257b7f
-    new: 58161059efb2a3f761ef13a625b8337a237ecc63
+  - ref: refs/heads/tsu
+    old: d219efa70a6b23581d2f6264a8a599fc37011ae9
+    new: e1cdba35f361ac3beb2895f66ee8cf4de8bd1699
     log: |
-         58161059efb2a3f761ef13a625b8337a237ecc63 nfs: update inode ctime after removexattr operation
+         e1cdba35f361ac3beb2895f66ee8cf4de8bd1699 net: macb: rework usrio refclk selection code
          
