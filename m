@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/korgalore/korgalore
-Date: Thu, 05 Mar 2026 18:11:26 -0000
-Message-Id: <177273428613.22474.11028318633868634313@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
+Date: Thu, 05 Mar 2026 18:11:28 -0000
+Message-Id: <177273428803.22562.5163756783718746554@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/korgalore/korgalore
-user: mricon
+repo: pub/scm/linux/kernel/git/jlayton/linux
+user: jlayton
 changes:
-  - ref: refs/notes/signatures/tar
-    old: 96ae55acf35e4bec7e37a1b1146dc97dddbad87e
-    new: 237cddb31f9db301a4ae8f341dae679f123e8f7b
+  - ref: refs/heads/kdevops
+    old: 41471f28cc25a8b53e5566932640180573257b7f
+    new: 58161059efb2a3f761ef13a625b8337a237ecc63
     log: |
-         237cddb31f9db301a4ae8f341dae679f123e8f7b Notes added by 'git notes add'
+         58161059efb2a3f761ef13a625b8337a237ecc63 nfs: update inode ctime after removexattr operation
          
