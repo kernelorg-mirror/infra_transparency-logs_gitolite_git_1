@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/dinguyen/linux
-Date: Thu, 05 Mar 2026 21:08:47 -0000
-Message-Id: <177274492769.190747.9203485843924981053@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/b4/b4
+Date: Thu, 05 Mar 2026 21:11:35 -0000
+Message-Id: <177274509542.194900.7628671038042740752@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/dinguyen/linux
-user: dinguyen
+repo: pub/scm/utils/b4/b4
+user: mricon
 changes:
-  - ref: refs/heads/socfpga_multi_svc_clients_v6
+  - ref: refs/identities/3672b31936ef7ee7b115507ccb8bc3cb03992434083382a438ce8438928469c1
     old: 0000000000000000000000000000000000000000
-    new: aa85c45559043944c70e6697c62c53eb88d09d9a
+    new: e6858c12b5bd37cfef6b7ab3cd325759051f3c29
