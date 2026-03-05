@@ -1,16 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Thu, 05 Mar 2026 22:03:09 -0000
-Message-Id: <177274818957.242704.3037077936074734303@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Thu, 05 Mar 2026 22:03:16 -0000
+Message-Id: <177274819637.243065.8310127196176130538@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/snitzer/linux
-user: snitzer
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/kernel-6.12.76/nfs4_acl-passthru
-    old: 0000000000000000000000000000000000000000
-    new: 1fd470c997548d1194bbc9dedfadd14ff484c6c7
+  - ref: refs/heads/kvm-arm64-sme
+    old: f33ad133e63d0297b50ed8863ecba61316e74fa0
+    new: dafa0eadd162c6b06c380d8e3b2a56d32bfcaa02
+    log: |
+         7610d174fd2775d0980d3690633dc61301549774 fixup! KVM: arm64: Provide interface for configuring and enabling SME for guests
+         dafa0eadd162c6b06c380d8e3b2a56d32bfcaa02 fixup! arm64/fpsimd: Determine maximum virtualisable SME vector length
+         
