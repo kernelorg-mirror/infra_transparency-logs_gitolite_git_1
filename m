@@ -1,22 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Thu, 05 Mar 2026 20:26:55 -0000
-Message-Id: <177274241541.156735.6889133241146264200@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/conor/linux
+Date: Thu, 05 Mar 2026 20:45:35 -0000
+Message-Id: <177274353568.171668.13856816213198491383@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: daveh
+repo: pub/scm/linux/kernel/git/conor/linux
+user: conor
 changes:
-  - ref: refs/heads/x86/microcode
-    old: c0a436e379e235762d6cdff63c292a85659863a3
-    new: 7989c39341348e3507282d88a564cb20d83a0829
+  - ref: refs/heads/tsu
+    old: e1cdba35f361ac3beb2895f66ee8cf4de8bd1699
+    new: c921587ceebf519e0684e61acd9b8c029f70b171
     log: |
-         238be4ba87605da69de2131e8736be7a0d299e00 x86/microcode: Refactor platform ID enumeration into a helper
-         d8630b67ca1edeea728dbb309b09d239e9db6bdf x86/cpu: Add platform ID to CPU info structure
-         fab0c75d500fd23de6ea1b30e44635418a6dae65 x86/cpu: Add platform ID to CPU matching structure
-         7989c39341348e3507282d88a564cb20d83a0829 x86/microcode: Add platform mask to Intel microcode "old" list
+         e3df14a6b6a2cc773b77f42c914c03fff2f3d66f net: macb: add mpfs specific usrio configuration
+         f57c941b968e7bca35ba599aed2d6662561a37de net: macb: warn on pclk use as a tsu_clk fallback
+         49daf9c27a6652ebe8a17f27fb13922687ddf5c8 net: macb: clean up tsu clk rate acquisition
+         ea33ea514c4341601eaf47618f31b019e34a6137 simon smatch feedback
+         c921587ceebf519e0684e61acd9b8c029f70b171 net: macb: rework usrio refclk selection code
          
