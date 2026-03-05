@@ -1,22 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Thu, 05 Mar 2026 15:30:10 -0000
-Message-Id: <177272461063.4025292.1904343548837162680@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Thu, 05 Mar 2026 15:30:28 -0000
+Message-Id: <177272462889.4025676.12920839125307484889@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/linux
-user: sj
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: pabeni
 changes:
-  - ref: refs/heads/master
-    old: 0b3bb205808195159be633a8cefb602670e856fb
-    new: c107785c7e8dbabd1c18301a1c362544b5786282
+  - ref: refs/heads/main
+    old: bc531c2cc1d179156e8e4bdede92842dc3b63cc2
+    new: ab99e1167293726f016360a5dbbbc10386fd7d66
     log: |
-         a7b4bc094fbaa7dc7b7b91ae33549bbd7eefaac1 module: Remove duplicate freeing of lockdep classes
-         8d597ba6ec18dae2eec143d4e1c9d81441ca0dda module: Fix the modversions and signing submenus
-         f9d69d5e7bde2295eb7488a56f094ac8f5383b92 module: Fix kernel panic when a symbol st_shndx is out of bounds
-         c107785c7e8dbabd1c18301a1c362544b5786282 Merge tag 'modules-7.0-rc3.fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/modules/linux
+         cc39325f927850473d3a84b029ae6f9b508e9bd1 net: ethtool: Track pause storm events
+         817de93c348a3086ecca6e03ff459138832157cc net: ethtool: Update doc for tunable
+         9b7c8728f53a5652a5184651c7b78ed1587542a4 eth: fbnic: Add protection against pause storm
+         8d282b680c729203d04d4eee396f3216f29b35aa eth: fbnic: Fetch TX pause storm stats
+         cc663d3fed062fb41b59df953a2cb9df5f56f943 eth: mlx5: Move pause storm errors to pause stats
+         ab99e1167293726f016360a5dbbbc10386fd7d66 Merge branch 'net-ethtool-track-tx-pause-storm'
          
