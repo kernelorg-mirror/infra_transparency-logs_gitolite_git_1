@@ -1,17 +1,17 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/daveh/devel
-Date: Thu, 05 Mar 2026 20:26:23 -0000
-Message-Id: <177274238375.156457.13097573020876906293@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Thu, 05 Mar 2026 20:26:55 -0000
+Message-Id: <177274241541.156735.6889133241146264200@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/daveh/devel
+repo: pub/scm/linux/kernel/git/tip/tip
 user: daveh
 changes:
-  - ref: refs/heads/testme
+  - ref: refs/heads/x86/microcode
     old: c0a436e379e235762d6cdff63c292a85659863a3
     new: 7989c39341348e3507282d88a564cb20d83a0829
     log: |
