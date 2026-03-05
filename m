@@ -1,22 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/daveh/devel
-Date: Thu, 05 Mar 2026 18:41:25 -0000
-Message-Id: <177273608537.67201.5140746712415902212@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ast/bpf
+Date: Thu, 05 Mar 2026 18:45:10 -0000
+Message-Id: <177273631093.70778.16193435775780111604@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/daveh/devel
-user: daveh
+repo: pub/scm/linux/kernel/git/ast/bpf
+user: ast
 changes:
-  - ref: refs/heads/testme
-    old: e751303e0ad2e998f421d104193f6904df3516d1
-    new: c0a436e379e235762d6cdff63c292a85659863a3
+  - ref: refs/heads/stacklive
+    old: 8cbd190cf2c3425251d343d42871c0ffc6c0a221
+    new: 8ff72bd52720ee3fccb015e780bddf720b7ca634
     log: |
-         da67a0320397125fcbb2e856a31889150c648f3a x86/microcode: Refactor platform ID enumeration into a helper
-         55ed3712b70c2c80a2fe09d7f7be48459867754d x86/cpu: Add platform ID to CPU info structure
-         c44b68639703434c52e4838f5080f0a02a2acaa6 x86/cpu: Add platform ID to CPU matching structure
-         c0a436e379e235762d6cdff63c292a85659863a3 x86/microcode: Add platform mask to Intel microcode "old" list
+         8ff72bd52720ee3fccb015e780bddf720b7ca634 fix verifier_live_stack/spill_ptr_liveness_type_confusion
          
