@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3350187247896831707=="
+Content-Type: multipart/mixed; boundary="===============6999873010275436492=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Thu, 05 Mar 2026 17:41:27 -0000
-Message-Id: <177273248777.4189418.14211405879571953373@gitolite.kernel.org>
+Date: Thu, 05 Mar 2026 17:41:30 -0000
+Message-Id: <177273249018.4189582.18356236331546259651@gitolite.kernel.org>
 
---===============3350187247896831707==
+--===============6999873010275436492==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/10GbE
+  - ref: refs/heads/40GbE
     old: 126fe7ef12ffe42fdc600fe22df733e96fa418ec
     new: cf440e5b40649d1ffbc6c4e33fef3223c7482897
     log: revlist-126fe7ef12ff-cf440e5b4064.txt
 
---===============3350187247896831707==
+--===============6999873010275436492==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -120,4 +120,4 @@ f8e18abf183dbd636a8725532c7f5aa58957de84 net: enetc: use truesize as XDP RxQ inf
 8821e857759be9db3cde337ad328b71fe5c8a55f xdp: produce a warning when calculated tailroom is negative
 cf440e5b40649d1ffbc6c4e33fef3223c7482897 Merge branch 'Address-XDP-frags-having-negative-tailroom'
 
---===============3350187247896831707==--
+--===============6999873010275436492==--
