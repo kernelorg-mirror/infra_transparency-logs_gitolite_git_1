@@ -1,26 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/daveh/devel
-Date: Thu, 05 Mar 2026 21:49:21 -0000
-Message-Id: <177274736187.226581.8253531323824372718@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Thu, 05 Mar 2026 21:52:13 -0000
+Message-Id: <177274753313.230182.13661283779757800511@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/daveh/devel
-user: daveh
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/testme
-    old: 7989c39341348e3507282d88a564cb20d83a0829
-    new: 0e2a0cb1bf436a3979f3bf93e3b7fede5d93f730
+  - ref: refs/heads/kvm-arm64-sme
+    old: dd90e667d7fc3a92d3529525cd9e6e9cdd111a77
+    new: f33ad133e63d0297b50ed8863ecba61316e74fa0
     log: |
-         b3226af5ad7bbfcba79d26f547fe6582baf20ce9 x86/cpu: Defer LASS enabling until userspace comes up
-         0021e71cfb96d7816e2027a76b813da6003c3a0c x86/efi: Disable LASS while executing runtime services
-         68400c1aaf02636a97c45ba198110b66feb270a9 x86/cpu: Remove LASS restriction on EFI
-         5fe9c000008c56224b6f9a528f0cd8f0977ebe42 x86/vsyscall: Reorganize the page fault emulation code
-         97b8c8927ee107c5a1bfe990106209beb054d3bf x86/traps: Consolidate user fixups in the #GP handler
-         9aabde8105ed2418c0efbc1c8b9ccb3948b48121 x86/vsyscall: Restore vsyscall=xonly mode under LASS
-         07a11b1501042ee087a7cadd39dfea52ca12bf25 x86/vsyscall: Disable LASS if vsyscall mode is set to EMULATE
-         0e2a0cb1bf436a3979f3bf93e3b7fede5d93f730 x86/cpu: Remove LASS restriction on vsyscall emulation
+         2879f4f69005f893553ab5e933fa20f92563f871 KVM: arm64: Provide interface for configuring and enabling SME for guests
+         7944d4ea4bd5bf47bf165c8661bb8031291712b0 KVM: arm64: selftests: Remove spurious check for single bit safe values
+         ee85a2c2e5cd03d82c71d4cba6e4f9e13817e1d5 KVM: arm64: selftests: Skip impossible invalid value tests
+         ca0d4888413cb6e824005eb928803d98173a985c KVM: arm64: selftests: Add SME system registers to get-reg-list
+         f33ad133e63d0297b50ed8863ecba61316e74fa0 KVM: arm64: selftests: Add SME to set_id_regs test
          
