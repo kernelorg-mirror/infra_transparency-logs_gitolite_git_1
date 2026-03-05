@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/b4/b4
-Date: Thu, 05 Mar 2026 06:12:06 -0000
-Message-Id: <177269112604.3466007.7450251281737206932@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
+Date: Thu, 05 Mar 2026 06:16:40 -0000
+Message-Id: <177269140076.3470450.3857141392282984049@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/b4/b4
-user: mricon
+repo: pub/scm/linux/kernel/git/pci/pci
+user: mani
 changes:
-  - ref: refs/heads/master
-    old: aac4b07adcb13b0f555ce452bfcacc0d5ddedd43
-    new: 363b96bfb4b2af493939c248bae0a1debbf1844f
+  - ref: refs/heads/endpoint
+    old: d799984233a50abd2667a7d17a9a710a3f10ebe2
+    new: 88ce49abc2185da3d08da9f71290d46a393d3876
     log: |
-         363b96bfb4b2af493939c248bae0a1debbf1844f review: add refresh keybinding to Patchwork browser
+         88ce49abc2185da3d08da9f71290d46a393d3876 PCI: endpoint: Fix typo in pci_epf_add_vepf() kernel-doc
          
