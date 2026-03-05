@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8631451447386240267=="
+Content-Type: multipart/mixed; boundary="===============6839406721870551500=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Thu, 05 Mar 2026 18:01:11 -0000
-Message-Id: <177273367144.13654.1383240223715071877@gitolite.kernel.org>
+Date: Thu, 05 Mar 2026 18:01:13 -0000
+Message-Id: <177273367394.13868.16275067833497014210@gitolite.kernel.org>
 
---===============8631451447386240267==
+--===============6839406721870551500==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/10GbE
+  - ref: refs/heads/40GbE
     old: 4ad96a7c9e2cebbbdc68369438a736a133539f1d
     new: ab99e1167293726f016360a5dbbbc10386fd7d66
     log: revlist-4ad96a7c9e2c-ab99e1167293.txt
 
---===============8631451447386240267==
+--===============6839406721870551500==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -126,4 +126,4 @@ cc39325f927850473d3a84b029ae6f9b508e9bd1 net: ethtool: Track pause storm events
 cc663d3fed062fb41b59df953a2cb9df5f56f943 eth: mlx5: Move pause storm errors to pause stats
 ab99e1167293726f016360a5dbbbc10386fd7d66 Merge branch 'net-ethtool-track-tx-pause-storm'
 
---===============8631451447386240267==--
+--===============6839406721870551500==--
