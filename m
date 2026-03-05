@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6615170860151986087=="
+Content-Type: multipart/mixed; boundary="===============1470288507289493240=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/iwlwifi/android-os
-Date: Thu, 05 Mar 2026 11:31:28 -0000
-Message-Id: <177271028835.3722989.888410661449421021@gitolite.kernel.org>
+Date: Thu, 05 Mar 2026 11:31:48 -0000
+Message-Id: <177271030862.3723308.3821758968591742687@gitolite.kernel.org>
 
---===============6615170860151986087==
+--===============1470288507289493240==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,37 +16,37 @@ repo: pub/scm/linux/kernel/git/iwlwifi/android-os
 user: jberg
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/android17-6.18-desktop__release/core103_nan
+  - ref: refs/tags/android17-6.18-desktop__release/core103_nan-2026-03-05
     old: 0000000000000000000000000000000000000000
     new: d5bad60ef32c6b2c9253adf4ca59207c016dda8c
 
---===============6615170860151986087==
+--===============1470288507289493240==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 7BF9099A 1772710280 +0100
+pusher 7BF9099A 1772710304 +0100
 pushee ssh://korg/pub/scm/linux/kernel/git/iwlwifi/android-os.git
-nonce 1772710280-26aba062b19fa9bcf41b26088d558d4c9e839fb3
+nonce 1772710304-ccab4622f0aff1bb2df5831ebaf33b9ec30bb010
 
-0000000000000000000000000000000000000000 d5bad60ef32c6b2c9253adf4ca59207c016dda8c refs/heads/android17-6.18-desktop__release/core103_nan
+0000000000000000000000000000000000000000 d5bad60ef32c6b2c9253adf4ca59207c016dda8c refs/tags/android17-6.18-desktop__release/core103_nan-2026-03-05
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCgAdFiEEpeA8sTs3M8SN2hR410qiO8sPaAAFAmmpaYkACgkQ10qiO8sP
-aACAIA/8Dfx4Nw1ndqEqVRl2yX4LHtbWWcxCaFROtmnLCxD4bhcX+KB7ZKlCHdBH
-XdU4AQRNW56KMScGOYUdJu7S8NCDJ7MXgo21FSoY7jOIJ/RpafSpLwTJVphT+a6+
-tM9/zkfTy7Eu0jfw8hmrHxGuTj9H3lOYDIkqOkWNpbGePle/MtonyCN0Q3QJNrr1
-54cIufSjSzcS6bLaSZEa5runjfjPTqkgE7KH7JncAnl0Ma+kUyr9Bdm0Jse4QaxD
-pL2Mj137i8CJmM7ZEcdv4/Jh7N2pA6mm9OWoXqEiDd+4QK/+YWyFYSV910Ple4gM
-TOtabq/o3nH715ZR3/7vsNAmz304YjH6NUZ7Bg1mMb6vxIZ/wv0NYFhxOGqyO2xs
-94yoS5EqBOwhTdFqaUqtIyG7WRhVcB/5xuuZg6nEut35K3nOGPyrbCJvEBxcQepb
-nbW68tjQI+oo/IQDKTRqRkk/dYaec6Z/v3wVHdfirrBkRuVRyFN38jhU9jz2BKR8
-Y1rt2p3dqsdhW9W0gd/3LWCtsiH3jz5LgOJrvzwXM1X66PvsqpoA1ZIXvCJqTa2w
-wKqMUKjAQWvMh9iFsfT2Z4Jvv4VwOOsBXR2FXf0EihydjggDCmfvbBVGH8jdVuuS
-XebrXBhpuLXCYX+RbtMePnHZSNNCNYDBrTnk07bc3Vn3HThLnQk=
-=XcOi
+iQIzBAABCgAdFiEEpeA8sTs3M8SN2hR410qiO8sPaAAFAmmpaaAACgkQ10qiO8sP
+aAANpA/+NyYUw7gC6oiYdVQzxuIVzI7qxtsvIpEi9kLFspm4GYi56/wwmAmg9WJD
+ndQq9LjOKtDbRN+1RWS58FtJOHsNEt1HGP8JZL7x8oCFNGVrFI5OpL0FgiBxOwBL
+hRMAh8zkMc+aQv8TO2avS/viN/bFDTFAke9P+bzfdbN+2eH5CbN3s/tw6G+iNtfc
+EW1Qd9Ya3ig9N+ou3aMnTekPwnlk/5xiL3Q62LW/uXUplcuYj5H8HfC/KZQhUyk+
+A3ZUjFwkY8uYcq7IgpNYbvXw77vkT0xt2l6otOC5mi3oB9XfFO+fAsGPNo20B1y0
+uIyIcLWiIqGFpTzaK+4CVO+dxCoGSSuHMUJJypjT/vee/ccuQqr/giQGpnFgqPL8
+LPPPDNLFdyN8Q45Cp8w6cEScf4t0Bc9CSrVq9A44hMrRG/LGU9DTk6KDrxhDgKJZ
+2u83T6sOH7Tbn8c/pEjT/N77K3S9gT9PGW02egGGj7nloMipTYwHaUuvwoBcicPc
+RW76xIY7qYsO9uatNFrULKOg5d3KGSOQO5nC4EZN60iIIK7ntaDVDguzNunUmqhP
+yv2cD4MiY3Gok4q6nEVL6ewyz8UvkwzdCzqqIMBaAKKkPwq5ZjpPVqc/lM+3BFeM
+jaEG1qoHtbs0KFeMqIEeqmMiKZkf81LXSH1UymiRAb+nWfH8OIg=
+=4e+u
 -----END PGP SIGNATURE-----
 
---===============6615170860151986087==--
+--===============1470288507289493240==--
