@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/bugspray/bugspray
-Date: Thu, 05 Mar 2026 23:57:10 -0000
-Message-Id: <177275503081.335914.8366760683906677860@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/b4/b4
+Date: Thu, 05 Mar 2026 23:58:35 -0000
+Message-Id: <177275511599.336593.14495676193337847843@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/bugspray/bugspray
+repo: pub/scm/utils/b4/b4
 user: mricon
 changes:
-  - ref: refs/heads/master
-    old: 18126de4bcf96a583180b218c2dfc3a626cad0a7
-    new: e0131bdce229f46e0813d7655056d23dcbfbd4d0
-    log: |
-         e0131bdce229f46e0813d7655056d23dcbfbd4d0 Fix multiple git-bug backend issues found during live testing
-         
+  - ref: refs/bugs/2294e57541dec0d11c1b7f3180cbfa6c99c96f317431397405859c7a775742f0
+    old: 0000000000000000000000000000000000000000
+    new: 67617a5ed268f2b687348c5588eab3cf88230e52
