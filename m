@@ -1,23 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/conor/linux
-Date: Thu, 05 Mar 2026 20:45:35 -0000
-Message-Id: <177274353568.171668.13856816213198491383@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
+Date: Thu, 05 Mar 2026 20:45:52 -0000
+Message-Id: <177274355208.171912.17819605812838301073@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/conor/linux
-user: conor
+repo: pub/scm/linux/kernel/git/acme/linux
+user: acme
 changes:
-  - ref: refs/heads/tsu
-    old: e1cdba35f361ac3beb2895f66ee8cf4de8bd1699
-    new: c921587ceebf519e0684e61acd9b8c029f70b171
+  - ref: refs/heads/tmp.perf-tools
+    old: 42e6b102de024c9fcd36577adab4981186744b43
+    new: 0693907ffaca001036009bc82dc334fb8e11540f
     log: |
-         e3df14a6b6a2cc773b77f42c914c03fff2f3d66f net: macb: add mpfs specific usrio configuration
-         f57c941b968e7bca35ba599aed2d6662561a37de net: macb: warn on pclk use as a tsu_clk fallback
-         49daf9c27a6652ebe8a17f27fb13922687ddf5c8 net: macb: clean up tsu clk rate acquisition
-         ea33ea514c4341601eaf47618f31b019e34a6137 simon smatch feedback
-         c921587ceebf519e0684e61acd9b8c029f70b171 net: macb: rework usrio refclk selection code
+         1e972ec76e10cf9cdacf1db2fbf69f7216903a86 tools arch x86: Sync msr-index.h to pick MSR_{OMR_[0-3],CORE_PERF_GLOBAL_STATUS_SET}
+         b3ce769203a99d6f3c6d6269ec09232a8c5da422 perf disasm: Fix off-by-one bug in outside check
+         c9d77f0a0c78eacdf6bbac07c494205a2c3053b4 tools headers: Update the syscall tables and unistd.h, to support the new 'rseq_slice_yield' syscall
+         0693907ffaca001036009bc82dc334fb8e11540f tools headers UAPI: Update tools' copy of linux/coresight-pmu.h
          
