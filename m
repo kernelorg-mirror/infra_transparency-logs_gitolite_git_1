@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kuninori.morimoto.gx/linux
-Date: Thu, 05 Mar 2026 02:54:10 -0000
-Message-Id: <177267925026.3309242.14151513873895399586@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
+Date: Thu, 05 Mar 2026 03:23:25 -0000
+Message-Id: <177268100598.3331586.8070981684382129229@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kuninori.morimoto.gx/linux
-user: kuninori.morimoto.gx
+repo: pub/scm/linux/kernel/git/kdave/linux
+user: kdave
 changes:
-  - ref: refs/heads/renesas-lts/v6.18.16-2026-03-05-x5h-ironhide
-    old: 0000000000000000000000000000000000000000
-    new: d752a4469edd8873958e4d61da1d32004bc586a2
+  - ref: refs/heads/next-fixes
+    old: 321fd85256bed2dfd85eadf3126d8b638d3a5fe6
+    new: aabc55bc626f267f1b9b014dece1f9bfedf0f887
+    log: |
+         aabc55bc626f267f1b9b014dece1f9bfedf0f887 Merge branch 'misc-7.0' into next-fixes
+         
