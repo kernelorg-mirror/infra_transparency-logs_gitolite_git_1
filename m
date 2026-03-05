@@ -1,22 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Thu, 05 Mar 2026 21:55:22 -0000
-Message-Id: <177274772250.233991.2561992746665758719@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
+Date: Thu, 05 Mar 2026 22:01:42 -0000
+Message-Id: <177274810216.239153.5173843338406672552@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/snitzer/linux
+user: snitzer
 changes:
-  - ref: refs/heads/asoc-7.1
-    old: 2adac914c72b6cb5aba2612f49050c82aecd498e
-    new: a2614f29ee37841638a2ca852da7f83aac6756dc
-    log: |
-         bae6668c526018af45b70e7825b61e6edb528f41 ASoC: cs35l56: KUnit tests for setting dsp.system_name
-         72e1c4704844766c46725d6b043ba04559054d02 ASoC: cs35l56: Some KUnit testing of cs35l56_get_speaker_id()
-         ef0b4783afc211a4b120e72b5a57f3d0340a9981 ASoC: cs35l56: KUnit tests for reading speaker ID from host GPIOs
-         a2614f29ee37841638a2ca852da7f83aac6756dc ASoC: cs35l56: More KUnit tests for speaker ID
-         
+  - ref: refs/heads/kernel-6.12.76/main
+    old: 0000000000000000000000000000000000000000
+    new: 1421e93d1477f416298fe583c09a66cb7f7c7edd
