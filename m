@@ -1,22 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ulfh/linux-pm
-Date: Thu, 05 Mar 2026 09:50:21 -0000
-Message-Id: <177270422156.3639918.15486696691969510627@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kbuild/linux
+Date: Thu, 05 Mar 2026 10:00:38 -0000
+Message-Id: <177270483836.3647696.7428940623901512604@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ulfh/linux-pm
-user: ulfh
+repo: pub/scm/linux/kernel/git/kbuild/linux
+user: nsc
 changes:
-  - ref: refs/heads/next
-    old: 2ac818f1d70bf8b440d20aa1c3d316dda6d4531c
-    new: 9588db42371335d80f6a49439d9a4301786a92a4
+  - ref: refs/heads/kbuild-next
+    old: 6de23f81a5e08be8fbf5e8d7e9febc72a5b5f27f
+    new: 7239ae5331ae077c2621740a5db89e65611182cd
     log: |
-         4bd4e74f4f7bcf06904d60a35055bbfbcf627ada pmdomain: arm: Add print after a successful probe for SCMI power domains
-         f2d7f9b25ac25b992e030ded226915971fd71a08 pmdomain: Merge branch dt into next
-         15121a56f523dbea27dc52b32ce3aa8f4f13ffef pmdomain: qcom: rpmhpd: Add Eliza RPMh Power Domains
-         9588db42371335d80f6a49439d9a4301786a92a4 pmdomain: Merge branch fixes into next
+         102d712ded3ef2ee5b38ee6afa686aff63afd444 kconfig: Error out on duplicated kconfig inclusion
+         8830b2e5907325bd80543bf6001f80819f5cbfc5 Documentation/llvm: drop note about LLVM=0
+         7239ae5331ae077c2621740a5db89e65611182cd tools/build: Reject unexpected values for LLVM=
          
