@@ -1,23 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Thu, 05 Mar 2026 23:20:37 -0000
-Message-Id: <177275283717.306835.7883767411022643657@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Thu, 05 Mar 2026 23:24:16 -0000
+Message-Id: <177275305608.308258.6333462237811040215@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/next-queue
-user: tnguy
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: andrii
 changes:
-  - ref: refs/heads/dev-queue
-    old: 30fdd56b848fa4bcd0765a7021718b0de1f426e0
-    new: 9608ec7cf475d09f55f33546e7cf1a573b9e5748
+  - ref: refs/heads/master
+    old: 748f9c6811b973a518436136fb86e6284a8854c1
+    new: 6dd780f973816133f189efec04118c1e6b1b443d
     log: |
-         055ec9a7a86aa5e235353992cb80b59251052781 bitmap: introduce bitmap_weighted_xor()
-         c5cdbba08c054c503aa65eef17d37e36f1fc290a ice: use bitmap_weighted_xor() in ice_find_free_recp_res_idx()
-         d325e62e80954e18180d4ae76d43e9db9eb901e5 ice: use bitmap_empty() in ice_vf_has_no_qs_ena
-         621be4dbc0067a22f1615d79cf3ec7141371a6d6 igb: fix typos in comments
-         9608ec7cf475d09f55f33546e7cf1a573b9e5748 igc: fix typos in comments
+         6afc431db1b4c21fec96cf6bea29489f4dce17c5 libbpf: Optimize kprobe.session attachment for exact function names
+         a28441dd29617b330d7284dc00b610be196b783f selftests/bpf: Add tests for kprobe.session optimization
+         6dd780f973816133f189efec04118c1e6b1b443d Merge branch 'optimize-kprobe-session-attachment-for-exact-function-names'
          
