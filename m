@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ast/bpf
-Date: Thu, 05 Mar 2026 23:48:02 -0000
-Message-Id: <177275448227.328210.32690757732797787@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/bugspray/bugspray
+Date: Thu, 05 Mar 2026 23:57:10 -0000
+Message-Id: <177275503081.335914.8366760683906677860@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ast/bpf
-user: ast
+repo: pub/scm/utils/bugspray/bugspray
+user: mricon
 changes:
-  - ref: refs/heads/stacklive
-    old: 974776088f14170e4e35e3e52b67819c83c4ebf6
-    new: 4b9f5857321f4bdd86b07558cff7be5465e7a841
+  - ref: refs/heads/master
+    old: 18126de4bcf96a583180b218c2dfc3a626cad0a7
+    new: e0131bdce229f46e0813d7655056d23dcbfbd4d0
     log: |
-         4b9f5857321f4bdd86b07558cff7be5465e7a841 is_stack_all_misc -> misc
+         e0131bdce229f46e0813d7655056d23dcbfbd4d0 Fix multiple git-bug backend issues found during live testing
          
