@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
-Date: Thu, 05 Mar 2026 20:49:05 -0000
-Message-Id: <177274374534.173526.16076313668785703263@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ast/bpf
+Date: Thu, 05 Mar 2026 20:50:49 -0000
+Message-Id: <177274384933.176946.1462904360879149201@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rafael/linux-pm
-user: rafael
+repo: pub/scm/linux/kernel/git/ast/bpf
+user: ast
 changes:
-  - ref: refs/heads/acpi-cmos-rtc
-    old: e8d1eb65193ce93283f8f56a069eee5d548a6b70
-    new: c4c8a5ba664479831a7e9bab8f43c6925d6c9a34
+  - ref: refs/heads/stacklive
+    old: a0bf9c492879247c9a2526cea59272070065ec9e
+    new: 974776088f14170e4e35e3e52b67819c83c4ebf6
     log: |
-         c4c8a5ba664479831a7e9bab8f43c6925d6c9a34 rtc: cmos: Use platform_get_irq_optional() in cmos_platform_probe()
+         8f4003998725efc2120a52007e1eee4941d8f3c6 bpf: Integrate static stack liveness into verifier state pruning
+         862637bbf4d889ed2eeb1c4a7f2741a52fadeb87 selftests/bpf: Add tests for static stack liveness analysis
+         974776088f14170e4e35e3e52b67819c83c4ebf6 bpf: Remove old dynamic stack liveness infrastructure
          
