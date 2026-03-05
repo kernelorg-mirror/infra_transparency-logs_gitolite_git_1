@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6999873010275436492=="
+Content-Type: multipart/mixed; boundary="===============7864237792704525030=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Thu, 05 Mar 2026 17:41:30 -0000
-Message-Id: <177273249018.4189582.18356236331546259651@gitolite.kernel.org>
+Date: Thu, 05 Mar 2026 17:41:32 -0000
+Message-Id: <177273249280.4189684.7530656540432058270@gitolite.kernel.org>
 
---===============6999873010275436492==
+--===============7864237792704525030==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/40GbE
-    old: 126fe7ef12ffe42fdc600fe22df733e96fa418ec
+  - ref: refs/heads/100GbE
+    old: 554a1c34c11a057d01819ce9bb04653a8ffc8071
     new: cf440e5b40649d1ffbc6c4e33fef3223c7482897
-    log: revlist-126fe7ef12ff-cf440e5b4064.txt
+    log: revlist-554a1c34c11a-cf440e5b4064.txt
 
---===============6999873010275436492==
+--===============7864237792704525030==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-126fe7ef12ff-cf440e5b4064.txt
+Content-Disposition: attachment; filename=revlist-554a1c34c11a-cf440e5b4064.txt
 
 8f153eb745463b0715f1aad41e765cd83e9da8c0 wifi: ath12k: use correct pdev id when requesting firmware stats
 7259b1a0e54c2d3051ac8f1eb01de121b11118ea wifi: ath12k: fix station lookup failure when disconnecting from AP
@@ -49,14 +49,15 @@ d98c24617a831e92e7224a07dcaed2dd0b02af96 wifi: cw1200: Fix locking in error path
 60862846308627e9e15546bb647a00de44deb27b wifi: mt76: mt7996: Fix possible oob access in mt7996_mac_write_txwi_80211()
 c41a9abd6ae31d130e8f332e7c8800c4c866234b wifi: mt76: mt7925: Fix possible oob access in mt7925_mac_write_txwi_80211()
 4e10a730d1b511ff49723371ed6d694dd1b2c785 wifi: mt76: Fix possible oob access in mt76_connac2_mac_write_txwi_80211()
-eef33aa44935d001747ca97703c08dd6f9031162 ice: fix adding AQ LLDP filter for VF
-326256c0a72d4877cec1d4df85357da106233128 ice: reintroduce retry mechanism for indirect AQ
-fb4903b3354aed4a2301180cf991226f896c87ed ice: fix retry for AQ command 0x06EE
-fe868b499d16f55bbeea89992edb98043c9de416 ice: Fix memory leak in ice_set_ringparam()
-636cc3bd12f499c74eaf5dc9a7d5b832f1bb24ed libie: don't unroll if fwlog isn't supported
-b84852170153671bb0fa6737a6e48370addd8e1a iavf: fix netdev->max_mtu to respect actual hardware limit
-d4c13ab36273a8c318ba06799793cc1f5d9c6fa1 igb: Fix trigger of incorrect irq in igb_xsk_wakeup
-554a1c34c11a057d01819ce9bb04653a8ffc8071 igc: Fix trigger of incorrect irq in igc_xsk_wakeup function
+2ffb4f5c2ccb2fa1c049dd11899aee7967deef5a ipv6: fix NULL pointer deref in ip6_rt_get_dev_rcu()
+67edfec516d30d3e62925c397be4a1e5185802fc net/tcp-ao: Fix MAC comparison to be constant-time
+4ee7fa6cf78ff26d783d39e2949d14c4c1cd5e7f net: ipv4: fix ARM64 alignment fault in multipath hash seed
+5af6e8b54927f7a8d3c7fd02b1bdc09e93d5c079 netconsole: fix sysdata_release_enabled_show checking wrong flag
+e2f27363aa6d983504c6836dd0975535e2e9dba0 amd-xgbe: fix sleep while atomic on suspend/resume
+7f5d8e63f3d4dc952548502a2227de780cbcd21f MAINTAINERS: update the skge/sky2 maintainers
+46d0d6f50dab706637f4c18a470aac20a21900d3 net/tcp-md5: Fix MAC comparison to be constant-time
+fbdfa8da05b6ae44114fc4f9b3e83e1736fd411c selftests: tc-testing: fix list_categories() crash on list type
+126fe7ef12ffe42fdc600fe22df733e96fa418ec mailmap: Add entry for Joe Damato
 2697c45a481a299faa575a55cf1ff41826024e4f Merge tag 'wireless-2026-03-04' of https://git.kernel.org/pub/scm/linux/kernel/git/wireless/wireless
 18b43bec5437914e3b51bb08dc6c6e7b0a2df4d1 mailmap: reflect my gmail as default
 c649e99764f6baeddb65e9b88a24df082636a8f4 Merge tag 'linux-can-fixes-for-7.0-20260302' of git://git.kernel.org/pub/scm/linux/kernel/git/mkl/linux-can
@@ -120,4 +121,4 @@ f8e18abf183dbd636a8725532c7f5aa58957de84 net: enetc: use truesize as XDP RxQ inf
 8821e857759be9db3cde337ad328b71fe5c8a55f xdp: produce a warning when calculated tailroom is negative
 cf440e5b40649d1ffbc6c4e33fef3223c7482897 Merge branch 'Address-XDP-frags-having-negative-tailroom'
 
---===============6999873010275436492==--
+--===============7864237792704525030==--
