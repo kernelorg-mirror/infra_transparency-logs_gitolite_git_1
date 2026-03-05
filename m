@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7463333895606990780=="
+Content-Type: multipart/mixed; boundary="===============0528817213564948989=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Thu, 05 Mar 2026 01:02:28 -0000
-Message-Id: <177267254860.3216932.13350969854307356302@gitolite.kernel.org>
+Date: Thu, 05 Mar 2026 01:02:30 -0000
+Message-Id: <177267255039.3217101.4873538286220636517@gitolite.kernel.org>
 
---===============7463333895606990780==
+--===============0528817213564948989==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/mm-new
-    old: 2bff1816949a0849a384ed3cc66c8385d9590861
-    new: 7fcd8889fbf318409163ff5033fe161dd2a73243
-    log: revlist-2bff1816949a-7fcd8889fbf3.txt
+  - ref: refs/heads/mm-unstable
+    old: 0b42e9073f558bfde1255e49935241a4355665d5
+    new: f45119e9a2431c1fadbb3d21fb31d04b58e910b0
+    log: revlist-0b42e9073f55-f45119e9a243.txt
 
---===============7463333895606990780==
+--===============0528817213564948989==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2bff1816949a-7fcd8889fbf3.txt
+Content-Disposition: attachment; filename=revlist-0b42e9073f55-f45119e9a243.txt
 
 50d7b4332f27762d24641970fc34bb68a2621926 mm: memfd_luo: always make all folios uptodate
 7e04bf1f33151a30e06a65b74b5f2c19fc2be128 mm: memfd_luo: always dirty all folios
@@ -199,90 +199,5 @@ dfb240777b2caf66ab60fdf16df04bb14f44f358 mm: workingset: use lruvec_lru_size() t
 f0ca1ffb833b275f589d064f8f5d5d993ca96de9 mm: memcontrol: convert objcg to be per-memcg per-node type
 6e3a86babbe0cf71cc0c048994a374f7250db27e mm: memcontrol: eliminate the problem of dying memory cgroup for LRU folios
 f45119e9a2431c1fadbb3d21fb31d04b58e910b0 mm: lru: add VM_WARN_ON_ONCE_FOLIO to lru maintenance helpers
-8432e82925e8156d67cac99ea47b315c18d14e8b mm: move MAX_FOLIO_ORDER definition to mmzone.h
-6b897902a1f88b0b33bc277148a5a10a2410649f mm: change the interface of prep_compound_tail()
-aa2ee58cfc6afbabcb1bd159be20c11a2b6f251e mm: rename the 'compound_head' field in the 'struct page' to 'compound_info'
-f07e9d08942960377b55b500f0f00fbefe006688 mm: move set/clear_compound_head() next to compound_head()
-d640ae4b00d2be7c5ecab05035d1a5348084cfaf riscv/mm: align vmemmap to maximal folio size
-a76dc8056e7f077c1ef512b075b6b41ccad960e6 LoongArch/mm: align vmemmap to maximal folio size
-a5f987391c65d32548659772a1cdaf64053d1bbc mm: rework compound_head() for power-of-2 sizeof(struct page)
-d331813de48b3f0284cfa0edc9dadbfb01df8109 mm/sparse: check memmap alignment for compound_info_has_mask()
-e9421ddeb2a7daac833c4d5d9bfc3b2e0027d4e0 mm/hugetlb: defer vmemmap population for bootmem hugepages
-34c7a935f035e03afc9be1e0d3fd8cc0737c1c6d mm/hugetlb: refactor code around vmemmap_walk
-c9fabe3def7eb29d34fc898c06a5b2c79016921d x86/vdso: undefine CONFIG_HUGETLB_PAGE_OPTIMIZE_VMEMMAP for vdso32
-9f938e511392b1f654d16321487f94ee01b968c2 mm/hugetlb: remove fake head pages
-1fb35a1230102c6e2f55b0ce382f02acfdd41366 mm: drop fake head checks
-d55fa3c2fc83cd94ed7209b52b3862c5e5ca8147 hugetlb: remove VMEMMAP_SYNCHRONIZE_RCU
-2548917fd8ceb87b631f574faaf99e76960c322a mm/hugetlb: remove hugetlb_optimize_vmemmap_key static key
-c20b9951da9d4c90477e241a2f15e5f9a06de190 mm: remove the branch from compound_head()
-b84044c3d6c7bae920ccc20036f6ad475148b114 hugetlb: update vmemmap_dedup.rst
-ff35bf14ea27fdee42d23cb01b74bd274396ff3d mm/slab: use compound_head() in page_slab()
-de206b0dfec3a10bba7d12b373a16793c6d32072 mm/damon/core: set quota-score histogram with core filters
-0993ed89a17f08ba7bdadd845439d96f344f6c5e mm/damon/core: do non-safe region walk on kdamond_apply_schemes()
-53498fc331bfb9226d418b4912b953c6e68d3f72 mm: introduce zone lock wrappers
-e9c87a8a493ec06795576bf73c2c3d1b5f121f44 mm: convert zone lock users to wrappers
-ff3c76e39ca35c70e68d22870529026d1a41db97 mm: convert compaction to zone lock wrappers
-ced02ec4c89acd61f93ba4f0fc0ed878e88f7c48 mm: rename zone->lock to zone->_lock
-f5040e057237e14810e64a10d0b268a85d47e69f mm-convert-zone-lock-users-to-wrappers-fix-fix
-805ee8241ec451c8f5f30db0e16ea1ea6f9b57e7 mm: fix remaining zone->lock references
-517f322745a95af1db5405e47eacc7661a30e607 mm: add tracepoints for zone lock
-f5212d791f11669874cb5d7a8b4aa6b1a2f861ae khugepaged: remove redundant index check for pmd-folios
-18787c281e77b9a583ede28ae11bfc4ffbc0585f mm/pagewalk: drop FW_MIGRATION
-289cbe2c2c026c02e207c9d76727122d956f0f12 mm: use inline helper functions instead of ugly macros
-5fd3b9d0b90c87c992906ce52930fe47818e72d2 mm: rename ptep/pmdp_clear_young_notify() to ptep/pmdp_test_and_clear_young_notify()
-df964452c7e7a67bf9243c2894fa143d52628171 mm: rmap: add a ZONE_DEVICE folio warning in folio_referenced()
-a737722bb89285e1a048964a92daa8ac72157d4c mm: add a batched helper to clear the young flag for large folios
-9d5cb956efcc19a2856efdf0bde122c2b8b219da mm: support batched checking of the young flag for MGLRU
-3bfd3a689aac22870399e9c0adf2ab24e905f27e arm64: mm: implement the architecture-specific test_and_clear_young_ptes()
-273a8c5b995935134d6bb850b490d3cb3fad3fb7 zram: do not autocorrect bad recompression parameters
-5b067d620c36021595daf0f74452d5ea5f59c8de zram: drop ->num_active_comps
-7fda3edb11d27254bc19f758dc21bef927f5806e zram: recompression priority param should override algo
-62309527ebf9066d36df1c799e5102e5f568c284 zram: update recompression documentation
-4c2c4a7dfd44621be8a7334e66ce24ca805202d3 zram: remove chained recompression
-3aab7ec0ca8dee64b80a2c9a7093d6bee94829fe mm/debug_vm_pgtable: replace WRITE_ONCE() with pxd_clear()
-452c795b7ab44c07f5acb0e33280e52440701596 mm: replace READ_ONCE() in pud_trans_unstable()
-a667e92e1fb6ecea8cee70129465c677a0e0eb9b mm/kasan: fix double free for kasan pXds
-cd94426155368c21d4c45b9e0be8a987b46488cc mm/damon/core: split regions for min_nr_regions
-312939a2d06d2ed94a21bdbfddecdea211fc9c1d mm/damon/vaddr: do not split regions for min_nr_regions
-90d665622b4b35648908bc71fed8a533ea0ec695 mm/damon/test/core-kunit: add damon_apply_min_nr_regions() test
-7a9f66d5217ac8091147b533af1c9b4d561abbc9 mm/page_alloc: effectively disable pcp with CONFIG_SMP=n
-af26e34df4e2fb2ba6eaf4e244a3c1c2d86bf5f1 mm/page_alloc: remove IRQ saving/restoring from pcp locking
-57329a03474dc7563adea94be3e6b4e9c459abe1 mm/page_alloc: remove pcpu_spin_* wrappers
-9e4748737a68a2f963ee5113564edeb0c08b4e95 mm: make ref_unless functions unless_zero only
-9be37cc29309ea0e09a51bb44dfa2196fca1f1d2 mm: memcg: factor out trylock_stock() and unlock_stock()
-598951ffe89477323ff7b570480d1f7a018a8a7d mm: memcg: simplify objcg charge size and stock remainder math
-bf5e9a756b5679228f988030c2baa8b9b184633d mm: memcontrol: split out __obj_cgroup_charge()
-46d796f2fef8f9da5222d9632ade50667d374ae4 mm: memcontrol: use __account_obj_stock() in the !locked path
-a0cbcee97512e535fc1a523d28f5e10c677853ce mm: memcg: separate slab stat accounting from objcg charge cache
-7012d2807469ab0bc46fcd26f38804e1736f83c1 Documentation: fix a hugetlbfs reservation statement
-d44544d39790be10b55fe36d45c31cfc2aea8dc9 mm/vmalloc: fix incorrect size reporting on allocation failure
-ff2edab538a481dd3aae136d5260f60a6ee7a3e0 vmalloc: support __GFP_RETRY_MAYFAIL and __GFP_NORETRY
-4a4eedde13b75f9d4116699813ef308697c2de34 mm/madvise: drop range checks in madvise_free_single_vma()
-f9ed288f8b3b3942eab3b48f2121a59927320ffa mm/memory: remove "zap_details" parameter from zap_page_range_single()
-f46b3f5048f9790afe257f5dfa75fc3c7e1e2307 fixup: mm/memory: remove zap_details parameter from zap_page_range_single()
-5cb4d84ebd3902c347ba3d1799bb3bdd07913445 mm/memory: inline unmap_mapping_range_vma() into unmap_mapping_range_tree()
-96f7e0608d2612baea3efaeecdc0eb5c63cf7e77 mm/memory: simplify calculation in unmap_mapping_range_tree()
-c4a41129e11f422e3c5b33f9c6feb5ac7951f0e4 mm/oom_kill: use MMU_NOTIFY_CLEAR in __oom_reap_task_mm()
-27578d61f76c0182bc1ca5f46128f60fe70de10c mm/oom_kill: factor out zapping of VMA into zap_vma_for_reaping()
-f85b570f1ca37c4828fed1f876cba517600dcceb mm/memory: rename unmap_single_vma() to __zap_vma_range()
-ce4d897d4725db5a2f34cf594ffcbe24f113eb03 mm/memory: move adjusting of address range to unmap_vmas()
-d15fc52b7e43105d2c3974410df0e600d497d02c mm/memory: convert details->even_cows into details->skip_cows
-ca701ae69ba32be283403dc98bc96a4418ad8f1c mm/memory: use __zap_vma_range() in zap_vma_for_reaping()
-b0e2e7e01cd3754dcf459a73ed31b3a38bd2dd96 mm/memory: inline unmap_page_range() into __zap_vma_range()
-7c106e09318f9ef530f4d9296e03cb37ee86b8df mm: rename zap_vma_pages() to zap_vma()
-754add9f61aeb86cfc03f29105ea54c069521c80 mm: rename zap_page_range_single_batched() to zap_vma_range_batched()
-a4bdf399bc2e24bae0255b985e65137e63fb525f mm: rename zap_page_range_single() to zap_vma_range()
-9b6011bb0a357aeae73602de19c62e7ee3aec895 mm: rename zap_vma_ptes() to zap_special_vma_range()
-589c1453f237075f9152ccab22f59a1a9e2cfe9f mm/memory: support VM_MIXEDMAP in zap_special_vma_range()
-6d69c480ebea2ca499327565ae1e240690cf9975 kasan: docs: SLUB is the only remaining slab implementation
-a6b43fd478b3a36fcb85d075e9b2a7c99d3a5fc2 mm/page_reporting: add PAGE_REPORTING_ORDER_UNSPECIFIED
-cfd1242c5f9bc4a33d509fbbe8edbcb9b310542c mm-page_reporting-add-page_reporting_order_unspecified-fix
-a78bcaea5914bdb0fd08da43b82bdc5e758e179a virtio_balloon: set unspecified page reporting order
-b6cbc7040c572510b3d10db1e3681a75a93ea395 hv_balloon: set unspecified page reporting order
-3abfaa7448c80a07dbdea197cb823d7405e91319 mm/page_reporting: change PAGE_REPORTING_ORDER_UNSPECIFIED to -1
-990e07d79d712849d60f895a60a829cba19a1c80 mm/page_reporting: change page_reporting_order to PAGE_REPORTING_ORDER_UNSPECIFIED
-e1b166e4aeb93759b5db571a38dfee15c6f4062f mm/oom_kill.c: simpilfy rcu call with guard(rcu)
-8bbe86a3a9e051bcd4e5f47e913417b98351d598 mm/vmscan: fix unintended mtc->nmask mutation in alloc_demote_folio()
-7fcd8889fbf318409163ff5033fe161dd2a73243 mm/vmscan: avoid false-positive -Wuninitialized warning
 
---===============7463333895606990780==--
+--===============0528817213564948989==--
