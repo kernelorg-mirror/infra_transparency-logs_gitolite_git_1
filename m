@@ -1,33 +1,31 @@
-Content-Type: multipart/mixed; boundary="===============6039720988769376963=="
+Content-Type: multipart/mixed; boundary="===============0167473308334083021=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/lee/backlight
-Date: Thu, 05 Mar 2026 13:28:30 -0000
-Message-Id: <177271731061.3817482.16678076152960046441@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/lee/leds
+Date: Thu, 05 Mar 2026 13:28:52 -0000
+Message-Id: <177271733205.3817778.12836898118481240422@gitolite.kernel.org>
 
---===============6039720988769376963==
+--===============0167473308334083021==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/lee/backlight
+repo: pub/scm/linux/kernel/git/lee/leds
 user: lee
 changes:
-  - ref: refs/heads/for-backlight-next-next
-    old: 83333aa97441ba7ce32b91e8a007c72d316a1c67
-    new: 6de23f81a5e08be8fbf5e8d7e9febc72a5b5f27f
-    log: revlist-83333aa97441-6de23f81a5e0.txt
+  - ref: refs/heads/for-leds-next-next
+    old: 129f82752bcecd554936209aac4dbdd888e92224
+    new: 787130d7bc49ec01604277a3480f42ba1557385e
+    log: revlist-129f82752bce-787130d7bc49.txt
 
---===============6039720988769376963==
+--===============0167473308334083021==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-83333aa97441-6de23f81a5e0.txt
+Content-Disposition: attachment; filename=revlist-129f82752bce-787130d7bc49.txt
 
-9e03b7caf4e65f5a5841dfed540fdcc3ff061734 Merge tag 'kvm-x86-misc-6.20' of https://github.com/kvm-x86/linux into HEAD
-2f81bdbdb3aa3fccd9b5420df5674730c40af554 Merge tag 'i3c/for-6.20' of git://git.kernel.org/pub/scm/linux/kernel/git/i3c/linux
 37b4fbf8dbdfb694f2972d1bd7fcd36304a520dd Merge tag 'tpmdd-next-7.0-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/jarkko/linux-tpmdd
 698749164aa53cc313248efd2dc1c25dcf25c99c Merge tag 'audit-pr-20260203' of git://git.kernel.org/pub/scm/linux/kernel/git/pcmoore/audit
 bcc8fd3e1573c502edc0cb61abea0e113a761799 Merge tag 'lsm-pr-20260203' of git://git.kernel.org/pub/scm/linux/kernel/git/pcmoore/lsm
@@ -1050,5 +1048,7 @@ aaf96df9593bf4ab1b73c17891e4efe7570fdef3 CREDITS: Add -next to Stephen Rothwell'
 75e1f66a9ed09f29c6883ea379c174e8cf31f7cc Merge tag 'libcrypto-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/ebiggers/linux
 fbf33803618ad4f531f78fe15cf328fe6c7f9978 Merge tag 'fsverity-for-linus' of git://git.kernel.org/pub/scm/fs/fsverity/linux
 6de23f81a5e08be8fbf5e8d7e9febc72a5b5f27f Linux 7.0-rc1
+64011d4e72700b4ffcf3f25a00aa75040f6b696f leds: led-class: Detect brightness conversion base from string
+787130d7bc49ec01604277a3480f42ba1557385e leds: multicolor: Limit intensity to max_brightness of LED
 
---===============6039720988769376963==--
+--===============0167473308334083021==--
