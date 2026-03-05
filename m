@@ -1,20 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/wsa/linux
-Date: Thu, 05 Mar 2026 19:01:32 -0000
-Message-Id: <177273729212.84376.2145804464968933598@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Thu, 05 Mar 2026 19:02:08 -0000
+Message-Id: <177273732829.84841.17163698774840539478@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/wsa/linux
-user: wsa
+repo: pub/scm/linux/kernel/git/tip/tip
+user: daveh
 changes:
-  - ref: refs/heads/mailbox/improvements
-    old: c3534a875b3862a64739bc852655406c8e82ee45
-    new: 51e24f14c806ed6d14b99fcae6fd7220d5b25dab
+  - ref: refs/heads/x86/microcode
+    old: 11439c4635edd669ae435eec308f4ab8a0804808
+    new: c0a436e379e235762d6cdff63c292a85659863a3
     log: |
-         e5ea65db401ee8675721946d1c94ac6140a159cb mailbox: remove superfluous internal header
-         51e24f14c806ed6d14b99fcae6fd7220d5b25dab mailbox: test: really ignore optional memory resources
+         da67a0320397125fcbb2e856a31889150c648f3a x86/microcode: Refactor platform ID enumeration into a helper
+         55ed3712b70c2c80a2fe09d7f7be48459867754d x86/cpu: Add platform ID to CPU info structure
+         c44b68639703434c52e4838f5080f0a02a2acaa6 x86/cpu: Add platform ID to CPU matching structure
+         c0a436e379e235762d6cdff63c292a85659863a3 x86/microcode: Add platform mask to Intel microcode "old" list
          
