@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
-Date: Thu, 05 Mar 2026 05:52:36 -0000
-Message-Id: <177268995620.3449254.11641865026826416539@gitolite.kernel.org>
+Date: Thu, 05 Mar 2026 05:52:52 -0000
+Message-Id: <177268997260.3449484.8376110606532154137@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,7 +11,7 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/pci/pci
 user: kwilczynski
 changes:
-  - ref: refs/heads/kwilczynski/static-sysfs-attributes
+  - ref: refs/heads/for-kernelci
     old: ff3d3430d59f9cf841281e1567309b32befd7998
     new: 3dcfbaad2b78a4fb78c86dd5110da8da9996db78
     log: |
