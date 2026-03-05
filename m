@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Thu, 05 Mar 2026 23:06:01 -0000
-Message-Id: <177275196192.294531.2054111698519735023@gitolite.kernel.org>
+Date: Thu, 05 Mar 2026 23:08:14 -0000
+Message-Id: <177275209402.295352.4967642973650999379@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,11 +12,10 @@ repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: andrii
 changes:
   - ref: refs/heads/master
-    old: 4faa1893807cfc9363b19624f8666e07e7e42f59
-    new: 8a2a3aaf90cf671caaca88fe57362c8b169ef392
+    old: 8a2a3aaf90cf671caaca88fe57362c8b169ef392
+    new: 748f9c6811b973a518436136fb86e6284a8854c1
     log: |
-         be872ccf370915b858ab693aa0707a2eff4bb1fd libbpf: Support appending split BTF in btf__add_btf()
-         d8d5c0151148b0194e8bbba66eb56d4d9cab94cd bpftool: Support merging multiple module BTFs in btf dump
-         fefeeec6123587c6b08884865042988d40405bd2 selftests/bpf: Add test for btf__add_btf() with split BTF sources
-         8a2a3aaf90cf671caaca88fe57362c8b169ef392 Merge branch 'libbpf-bpftool-support-merging-split-btfs'
+         74d3305e620b3c71b414198f9cf9b1609148d277 selftests/bpf: bpf_cookie: Skip kprobe_multi tests without bpf_testmod
+         7f20d371fd879f5bb9be739c86c9bac13ea920c8 selftests/bpf: bpf_cookie: Make perf_event subtest trigger reliably
+         748f9c6811b973a518436136fb86e6284a8854c1 Merge branch 'selftests-bpf-fix-bpf_cookie-failures'
          
