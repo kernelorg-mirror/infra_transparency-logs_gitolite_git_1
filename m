@@ -1,20 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Thu, 05 Mar 2026 02:14:19 -0000
-Message-Id: <177267685934.3275783.7913876373887216378@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Thu, 05 Mar 2026 02:29:31 -0000
+Message-Id: <177267777190.3287299.4855911633116895346@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
-  - ref: refs/heads/main
-    old: f7d92f11bd33a6eb49c7c812255ef4ab13681f0f
-    new: 40bf00ec2ee271df5ba67593991760adf8b5d0ed
+  - ref: refs/heads/master
+    old: 0b3bb205808195159be633a8cefb602670e856fb
+    new: c107785c7e8dbabd1c18301a1c362544b5786282
     log: |
-         a4c2b8be2e5329e7fac6e8f64ddcb8958155cfcb net_sched: sch_fq: clear q->band_pkt_count[] in fq_reset()
-         40bf00ec2ee271df5ba67593991760adf8b5d0ed net: devmem: use READ_ONCE/WRITE_ONCE on binding->dev
+         a7b4bc094fbaa7dc7b7b91ae33549bbd7eefaac1 module: Remove duplicate freeing of lockdep classes
+         8d597ba6ec18dae2eec143d4e1c9d81441ca0dda module: Fix the modversions and signing submenus
+         f9d69d5e7bde2295eb7488a56f094ac8f5383b92 module: Fix kernel panic when a symbol st_shndx is out of bounds
+         c107785c7e8dbabd1c18301a1c362544b5786282 Merge tag 'modules-7.0-rc3.fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/modules/linux
          
