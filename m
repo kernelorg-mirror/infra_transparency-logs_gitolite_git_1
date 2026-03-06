@@ -1,22 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/b4/b4
-Date: Fri, 06 Mar 2026 19:36:13 -0000
-Message-Id: <177282577368.1391479.16799725474193166568@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/s390/linux
+Date: Fri, 06 Mar 2026 19:37:38 -0000
+Message-Id: <177282585848.1391959.10064541180763723926@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/b4/b4
-user: mricon
+repo: pub/scm/linux/kernel/git/s390/linux
+user: gor
 changes:
-  - ref: refs/bugs/cd06df9e282665334001751884c687a23d500a3bd17be35d4d2fd8a6fd137880
-    old: 164a56ddaadbd66f1ec8ede9323cc353cf1ed879
-    new: 33b69c5e2d806d107cbe5dbe9b1d49cea1b07f73
+  - ref: refs/heads/for-next
+    old: 927abeb784bf841d0490ef85635452e40b004be0
+    new: 40664f52a28f84c4433eb67082287d78c95dab75
     log: |
-         0d303f819a6d823bd367c126dc0daa8728796e1d 
-         09c6d500f44d9f150fbe4c24fc80e0d26dbf9715 
-         c7d7b45701dc78499946adb1be73c87e25094cb8 
-         33b69c5e2d806d107cbe5dbe9b1d49cea1b07f73 
+         7cc514c4c49edebd6f37fc664872f5e29dd734ca s390: Revert "s390/irq/idle: Remove psw bits early"
+         b148dc669a9b9ea66d782fa0f157bf203c009d74 Merge branch 'fixes' into for-next
+         40664f52a28f84c4433eb67082287d78c95dab75 Merge branch 'features' into for-next
          
