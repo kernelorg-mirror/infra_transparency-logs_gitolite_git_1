@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0611752448140299826=="
+Content-Type: multipart/mixed; boundary="===============0349553446977144942=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Fri, 06 Mar 2026 05:11:57 -0000
-Message-Id: <177277391703.601761.4994742253752483569@gitolite.kernel.org>
+Date: Fri, 06 Mar 2026 05:24:40 -0000
+Message-Id: <177277468018.610125.16969056998199348413@gitolite.kernel.org>
 
---===============0611752448140299826==
+--===============0349553446977144942==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,44 +15,32 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
-  - ref: refs/heads/master
-    old: 67b6f5a932d23f96e9b531e05a8c83aefbce891e
-    new: a7250939e2e427469ff574926df54714844946e1
-    log: revlist-67b6f5a932d2-a7250939e2e4.txt
-  - ref: refs/heads/tip/urgent
-    old: d8f6538ffcfec5eac254f0e993b94f4f3a5ea0ea
-    new: e863149779f843163134afc0225256085e956358
-    log: revlist-d8f6538ffcfe-e863149779f8.txt
+  - ref: refs/heads/sched/core
+    old: 1b8b1bb2a2fa50260b58ae53a4b57fffa91729ff
+    new: 54a66e431eeacf23e1dc47cb3507f2d0c068aaf0
+    log: revlist-1b8b1bb2a2fa-54a66e431eea.txt
 
---===============0611752448140299826==
+--===============0349553446977144942==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-67b6f5a932d2-a7250939e2e4.txt
-
-3bc0661ad1df7f29587b5d38e67838c5017a58f5 Merge branch into tip/master: 'timers/urgent'
-e863149779f843163134afc0225256085e956358 Merge branch into tip/master: 'x86/urgent'
-79e55074e5a0cceaab2cd3bde239516e150219c5 Merge branch into tip/master: 'irq/drivers'
-3a4da198d33e4881ed8d70e1d721118a03e9e0ab Merge branch into tip/master: 'irq/msi'
-6a9bb18947cd92a3eb7f2d4ee4ee3ea0ee963385 Merge branch into tip/master: 'locking/core'
-e880be21ee38e7a8c05bb78946e451a97a800b50 Merge branch into tip/master: 'locking/futex'
-6d19b4f334f41b13cfdad83ff2222b99093e3786 Merge branch into tip/master: 'perf/core'
-c51d8eb55ef83324742737528181c3336df8cb45 Merge branch into tip/master: 'sched/core'
-74919945e4ca99a8c9be36c6536d828495e7fb84 Merge branch into tip/master: 'sched/hrtick'
-8919254045aaee053dd0496c817e9869362d7e47 Merge branch into tip/master: 'timers/core'
-4c3f81e7075abb99aa43d9bc441229972e478c9b Merge branch into tip/master: 'x86/cpu'
-f8e60f104a37257553c9e239a79daebc8d67f411 Merge branch into tip/master: 'x86/microcode'
-2fbe4c73e02bf75336e248ce7a464f537890fef3 Merge branch into tip/master: 'x86/misc'
-fc8bff9d5d253f209f65a9246dc203af36b30ec9 Merge branch into tip/master: 'x86/mm'
-a7250939e2e427469ff574926df54714844946e1 Merge branch into tip/master: 'x86/tdx'
-
---===============0611752448140299826==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d8f6538ffcfe-e863149779f8.txt
+Content-Disposition: attachment; filename=revlist-1b8b1bb2a2fa-54a66e431eea.txt
 
 cfc83a3c71517b59c1047db57da31e26a9dc2f33 batman-adv: Avoid double-rtnl_lock ELP metric worker
+1f96b84835eafb3e6f366dc3a66c0e69504cec9d pinctrl: equilibrium: rename irq_chip function callbacks
+3e00b1b332e54ba50cca6691f628b9c06574024f pinctrl: equilibrium: fix warning trace on load
+09a30b7a035f9f4ac918c8a9af89d70e43462152 pinctrl: qcom: qcs615: Add missing dual edge GPIO IRQ errata flag
+a7b4bc094fbaa7dc7b7b91ae33549bbd7eefaac1 module: Remove duplicate freeing of lockdep classes
+8d597ba6ec18dae2eec143d4e1c9d81441ca0dda module: Fix the modversions and signing submenus
+f9d69d5e7bde2295eb7488a56f094ac8f5383b92 module: Fix kernel panic when a symbol st_shndx is out of bounds
+7a648d598cb8e8c62af3f0e020a25820a3f3a9a7 pinctrl: pinconf-generic: Fix memory leak in pinconf_generic_parse_dt_config()
+a48150d05190b41b5eec19f74b751a75a15a456a pinctrl: amdisp: Make amdisp_pinctrl_ops variable static
+c2e174994c9e98956a85dee9af6fbb293f5ad673 pinctrl: cix: sky1: Unexport sky1_pinctrl_pm_ops
+e9e268ea9df102abef34d7afba59ef4d5868d5d7 pinctrl: qcom: sdm660-lpass-lpi: Make groups and functions variables static
+a2539b92e4b791c1ba482930b5e51b1591975461 pinctrl: meson: amlogic-a4: Fix device node reference leak in aml_dt_node_to_map_pinmux()
+fd5bed798f45eb3a178ad527b43ab92705faaf8a pinctrl: cirrus: cs42l43: Fix double-put in cs42l43_pin_probe()
+45fe4592454368df24d18352be700ff40e7df0c0 pinctrl: rockchip: Fix configuring a deferred pin
+01e10d0272b932f908b4f9b6609a10cb1f35fafe pinctrl: sunxi: Implement gpiochip::get_direction()
 201ceb94aa1def0024a7c18ce643e5f65026be06 kunit: irq: Ensure timer doesn't fire too frequently
 712896ac4bce38a965a1c175f6e7804ed0381334 idpf: increment completion queue next_to_clean in sw marker wait routine
 d11e5da2d6d87d123e339dc9af7bc1682fc533ce idpf: skip deallocating bufq_sets from rx_qgrp if it is NULL
@@ -66,8 +54,12 @@ a9c354e656597aededa027d63d2ff0973f6b033f ice: fix crash in ethtool offline loopb
 feae40a6a178bb525a15f19288016e5778102a99 ixgbevf: fix link setup issue
 5b644464eeeac485685c6632bcc95347ae6c8677 e1000e: introduce new board type for Panther Lake PCH
 0942fc6d324eb9c6b16187b2aa994c0823557f06 e1000e: clear DPG_EN after reset to avoid autonomous power-gating
+cd3c877d04683b44a4d50dcdfad54b356e65d158 iomap: don't report direct-io retries to fserror
+28aaa9c39945b7925a1cc1d513c8f21ed38f5e4f kthread: consolidate kthread exit paths to prevent use-after-free
+a0b4c7a49137ed21279f354eb59f49ddae8dffc2 netfs: Fix unbuffered/DIO writes to dispatch subrequests in strict sequence
 8f153eb745463b0715f1aad41e765cd83e9da8c0 wifi: ath12k: use correct pdev id when requesting firmware stats
 7259b1a0e54c2d3051ac8f1eb01de121b11118ea wifi: ath12k: fix station lookup failure when disconnecting from AP
+b6c3af46c26f2d07c10a1452adc34b821719327e pinctrl: cy8c95x0: Don't miss reading the last bank registers
 e35626f610f3d2b7953ccddf6a77453da22b3a9e net/sched: ets: fix divide by zero in the offload path
 754a3d081aa205e86af5f889c947157060340185 Merge tag 'batadv-net-pullrequest-20260225' of https://git.open-mesh.org/linux-merge
 2ef2b20cf4e04ac8a6ba68493f8780776ff84300 net: annotate data-races around sk->sk_{data_ready,write_space}
@@ -75,6 +67,12 @@ e35626f610f3d2b7953ccddf6a77453da22b3a9e net/sched: ets: fix divide by zero in t
 13540021be228dcda63d02b2245ce8dad01d8473 selftests: net: Add bridge VLAN range grouping tests
 7e5b450c490ada6f70e08bbd913f0981d33a5a1a Merge branch 'bridge-check-relevant-options-in-vlan-range-grouping'
 be11a537224d72b906db6b98510619770298c8a4 net: ethernet: ti: am65-cpsw-nuss/cpsw-ale: Fix multicast entry handling in ALE table
+24d87712727a5017ad142d63940589a36cd25647 media: dvb-net: fix OOB access in ULE extension header tables
+e6b899f08066e744f89df16ceb782e06868bd148 nsfs: tighten permission checks for ns iteration ioctls
+d2324a9317f00013facb0ba00b00440e19d2af5e nsfs: tighten permission checks for handle opening
+8d76afe84fa2babf604b3c173730d4d2b067e361 nstree: tighten permission checks for listing
+4c7b2ec23cc5d880e3ffe35e8c2aad686b67723a selftests: fix mntns iteration selftests
+10047142d6ce3b8562546c61f3cf57f852b9b950 Merge patch series "tighten nstree visibility checks"
 62413a9c3cb183afb9bb6e94dd68caf4e4145f4c net/sched: act_gate: snapshot parameters with RCU on replace
 29252397bcc1e0a1f85e5c3bee59c325f5c26341 inet: annotate data-races around isk->inet_num
 0b3cd139be565b85f4a3579e376152b9def6256a net/sched: sch_cake: avoid sync overhead when unlimited
@@ -164,8 +162,17 @@ cc337974cd1084f9821179eb66f4e470d9fd2ed8 ftrace: Disable preemption in the trace
 a5dd6f58666f22ae16b98a2177bebc3340d38fe9 tracing: Disable preemption in the tracepoint callbacks handling filtered pids
 e39bb9e02b68942f8e9359d2a3efe7d37ae6be0e tracing: Fix WARN_ON in tracing_buffers_mmap_close
 fbdfa8da05b6ae44114fc4f9b3e83e1736fd411c selftests: tc-testing: fix list_categories() crash on list type
+6932256d3a3764f3a5e06e2cb8603be45b6a9fef time/jiffies: Fix sysctl file error on configurations where USER_HZ < HZ
+debc1a492b2695d05973994fb0f796dbd9ceaae6 iomap: don't mark folio uptodate if read IO has bytes pending
+d3ccc4d86dfe2d7321276bb1a97ab0afcbfd7200 Merge patch "iomap: don't mark folio uptodate if read IO has bytes pending"
+d320f160aa5ff36cdf83c645cca52b615e866e32 iomap: reject delalloc mappings during writeback
+40d3f622477ccd99118498df5283941bf546dd9c Merge tag 'pinctrl-v7.0-2' of git://git.kernel.org/pub/scm/linux/kernel/git/linusw/linux-pinctrl
+4053c47680da0a03a8df66735904d5b92db6a144 Merge tag 'media/v7.0-3' of git://git.kernel.org/pub/scm/linux/kernel/git/mchehab/linux-media
+ecc64d2dc9ff9738d2a896beb68e02c2feaf9a02 Merge tag 'sysctl-7.00-fixes-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/sysctl/sysctl
 126fe7ef12ffe42fdc600fe22df733e96fa418ec mailmap: Add entry for Joe Damato
+0b3bb205808195159be633a8cefb602670e856fb Merge tag 'vfs-7.0-rc3.fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
 2697c45a481a299faa575a55cf1ff41826024e4f Merge tag 'wireless-2026-03-04' of https://git.kernel.org/pub/scm/linux/kernel/git/wireless/wireless
+c107785c7e8dbabd1c18301a1c362544b5786282 Merge tag 'modules-7.0-rc3.fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/modules/linux
 18b43bec5437914e3b51bb08dc6c6e7b0a2df4d1 mailmap: reflect my gmail as default
 c649e99764f6baeddb65e9b88a24df082636a8f4 Merge tag 'linux-can-fixes-for-7.0-20260302' of git://git.kernel.org/pub/scm/linux/kernel/git/mkl/linux-can
 7f083faf59d14c04e01ec05a7507f036c965acf8 net: sched: avoid qdisc_reset_all_tx_gt() vs dequeue race for lockless qdiscs
@@ -234,7 +241,8 @@ abacaf559950eec0d99d37ff6b92049409af5943 Merge tag 'net-7.0-rc3' of git://git.ke
 398871616ffd8a793f01861b0ee66f6bee494389 Merge tag 'acpi-7.0-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
 6a42ff33f38d171a6bf8304f6323c43e8a0ed9b6 Merge tag 'libcrypto-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/ebiggers/linux
 5ee8dbf54602dc340d6235b1d6aa17c0f283f48c Merge tag 'fsverity-for-linus' of git://git.kernel.org/pub/scm/fs/fsverity/linux
-3bc0661ad1df7f29587b5d38e67838c5017a58f5 Merge branch into tip/master: 'timers/urgent'
-e863149779f843163134afc0225256085e956358 Merge branch into tip/master: 'x86/urgent'
+12f8069115d5ff9d292c6b00c74e1984b01b6fc1 Merge branch 'linus' into sched/core, to resolve conflicts
+4b9ef32c57a68eb98c45835c2beaa77f8e51c5c4 x86/mm/tlb: Make enter_lazy_tlb() always inline on x86
+54a66e431eeacf23e1dc47cb3507f2d0c068aaf0 sched/headers: Inline raw_spin_rq_unlock()
 
---===============0611752448140299826==--
+--===============0349553446977144942==--
