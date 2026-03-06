@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/frank.li/linux
-Date: Fri, 06 Mar 2026 17:45:34 -0000
-Message-Id: <177281913488.1295470.2159045183778842518@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sudeep.holla/linux
+Date: Fri, 06 Mar 2026 17:46:12 -0000
+Message-Id: <177281917210.1295857.18156045684022334866@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/frank.li/linux
-user: frank.li
+repo: pub/scm/linux/kernel/git/sudeep.holla/linux
+user: sudeep.holla
 changes:
-  - ref: refs/heads/for-next
-    old: 68c52b9fddf5e8fa52c3b54e0771aa8bd73d65f4
-    new: 7293b8d44e905a950baeb3bb5ffd408539583869
+  - ref: refs/heads/for-next/juno/updates
+    old: 6e9f5210985c995fc06fc95476a29ed47be1b896
+    new: 164148d0a16351ad3027cf3a3bb96d197633aecb
     log: |
-         455842162c230a6310e3cf9d9a14de9239d6763c arm64: dts: imx8mp-kontron: Use GPIO/IRQ defines in DL devicetree
-         7293b8d44e905a950baeb3bb5ffd408539583869 Merge branches 'imx/bindings', 'imx/dt', 'imx/dt64', 'imx/fixes' and 'imx/soc' into for-next
+         164148d0a16351ad3027cf3a3bb96d197633aecb arm64: dts: zena: Add support for Zena CSS
          
