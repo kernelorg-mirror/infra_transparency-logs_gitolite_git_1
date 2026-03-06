@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/libata/linux
-Date: Fri, 06 Mar 2026 09:03:52 -0000
-Message-Id: <177278783241.780863.7398852132888483285@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mediatek/linux
+Date: Fri, 06 Mar 2026 09:17:48 -0000
+Message-Id: <177278866887.792246.10582413474345542616@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/libata/linux
-user: cassel
+repo: pub/scm/linux/kernel/git/mediatek/linux
+user: angelogioacchino.delregno
 changes:
-  - ref: refs/heads/libata-for-7.0-fixes
-    old: b92b0075ee1870f78f59ab1f7da7dbfdd718ad7a
-    new: ee0e6e69a772d601e152e5368a1da25d656122a8
+  - ref: refs/heads/v7.0-next/dts64
+    old: 4c434585ce6d485ee12ed6becb1524f933454aba
+    new: 67549df87fff2a3dc7639439e4aff128b814f109
     log: |
-         ee0e6e69a772d601e152e5368a1da25d656122a8 ata: libata-eh: Fix detection of deferred qc timeouts
+         67549df87fff2a3dc7639439e4aff128b814f109 dt-bindings: arm: mediatek: audsys: fix formatting issues
          
