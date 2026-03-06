@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/libata/linux
-Date: Fri, 06 Mar 2026 12:36:28 -0000
-Message-Id: <177280058848.959349.17666068467396194261@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Fri, 06 Mar 2026 12:40:14 -0000
+Message-Id: <177280081405.962931.11047039157983617025@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/libata/linux
-user: cassel
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/tags/ata-7.0-rc3
-    old: 0000000000000000000000000000000000000000
-    new: 2757eecc7428e7546a63569ea46ca9aa6e36c5c8
+  - ref: refs/heads/filecjbDfm
+    old: b1ef855c62601ed4de2c4b0ff75a075877e3dac8
+    new: 0000000000000000000000000000000000000000
