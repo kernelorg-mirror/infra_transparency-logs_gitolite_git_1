@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6880017244749414142=="
+Content-Type: multipart/mixed; boundary="===============6438352104288932196=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mptcp/linux
-Date: Fri, 06 Mar 2026 09:30:02 -0000
-Message-Id: <177278940277.802662.14749599736815289119@gitolite.kernel.org>
+Date: Fri, 06 Mar 2026 09:30:22 -0000
+Message-Id: <177278942264.804222.2301315286135072450@gitolite.kernel.org>
 
---===============6880017244749414142==
+--===============6438352104288932196==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/mptcp/linux
 user: matttbe
 changes:
-  - ref: refs/heads/export
-    old: 11cc48360bbbb673c5315cf41d55482bb49ffb38
-    new: f6af522d2679ea0eff41e8ac08fba62670235755
-    log: revlist-11cc48360bbb-f6af522d2679.txt
+  - ref: refs/heads/export-net
+    old: a9eb5f44d3cc0a55893f87be03e6baa6a578899f
+    new: 09017034d1f2739d71c17b3426a4c3a3961f0740
+    log: revlist-a9eb5f44d3cc-09017034d1f2.txt
 
---===============6880017244749414142==
+--===============6438352104288932196==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-11cc48360bbb-f6af522d2679.txt
+Content-Disposition: attachment; filename=revlist-a9eb5f44d3cc-09017034d1f2.txt
 
 594c11d0e1d445f580898a2b8c850f2e3f099368 ipmi: Fix use-after-free and list corruption on sender error
 1d90e6c1a56f6ab83e5c9d30ded19e7ac8155713 ipmi: Consolidate the run to completion checking for xmit msgs lock
@@ -441,20 +441,6 @@ b96d0c59cdbb2a22b2545f6f3d5c6276b05761dd fgraph: Fix thresh_return nosleeptime d
 cc337974cd1084f9821179eb66f4e470d9fd2ed8 ftrace: Disable preemption in the tracepoint callbacks handling filtered pids
 a5dd6f58666f22ae16b98a2177bebc3340d38fe9 tracing: Disable preemption in the tracepoint callbacks handling filtered pids
 e39bb9e02b68942f8e9359d2a3efe7d37ae6be0e tracing: Fix WARN_ON in tracing_buffers_mmap_close
-7a135bf9903fe599aec1825ebc2c5b026fe1e38c ipv6: export fib6_lookup for nft_fib_ipv6
-831fb31b76aea1453229dfd7cbd1946ffe1c03b5 ipv6: make ipv6_anycast_destination logic usable without dst_entry
-1c32b24c234ba88a969e6bd9c385e66212a4af15 netfilter: nft_fib_ipv6: switch to fib6_lookup
-5663ac3e548163183c4354e75f728f7b34ffe040 netfilter: nf_log_syslog: no longer acquire sk_callback_lock in nf_log_dump_sk_uid_gid()
-cdec942ac2006d74b2219c5f950402e5bd1f6c7b netfilter: xt_owner: no longer acquire sk_callback_lock in mt_owner()
-afc2125de7414be3a31f5c09724c0375a57f5eae netfilter: nft_meta: no longer acquire sk_callback_lock in nft_meta_get_eval_skugid()
-b297aaefc648be6bd6f3028f0b6161707c7bf632 netfilter: nfnetlink_log: no longer acquire sk_callback_lock
-013e2f91d0a4cac7396ac121ecdbc7bb71ca5cef netfilter: nfnetlink_queue: no longer acquire sk_callback_lock
-34a6a003d4e493133c4dc81c055324646bb7ebef netfilter: nfnetlink_queue: remove locking in nfqnl_get_sk_secctx
-1ac252ad036cdb18f5fb7f76bb6061adfed9cedf rculist_bl: add hlist_bl_for_each_entry_continue_rcu
-b655388111cf7e43f70e49db64bdaa42bcb8a038 ipvs: add resizable hash tables
-840aac3d900d09ec8fb8efe41bd7d09f9eb15538 ipvs: use resizable hash table for services
-2fa7cc9c70254d42a82bf82827d8d20cafe975d2 ipvs: switch to per-net connection table
-f20c73b0460d15301cf1bddf0f85d060a38a75df ipvs: use more keys for connection hashing
 6932256d3a3764f3a5e06e2cb8603be45b6a9fef time/jiffies: Fix sysctl file error on configurations where USER_HZ < HZ
 debc1a492b2695d05973994fb0f796dbd9ceaae6 iomap: don't mark folio uptodate if read IO has bytes pending
 d3ccc4d86dfe2d7321276bb1a97ab0afcbfd7200 Merge patch "iomap: don't mark folio uptodate if read IO has bytes pending"
@@ -464,30 +450,12 @@ d320f160aa5ff36cdf83c645cca52b615e866e32 iomap: reject delalloc mappings during 
 ecc64d2dc9ff9738d2a896beb68e02c2feaf9a02 Merge tag 'sysctl-7.00-fixes-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/sysctl/sysctl
 0b3bb205808195159be633a8cefb602670e856fb Merge tag 'vfs-7.0-rc3.fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
 c107785c7e8dbabd1c18301a1c362544b5786282 Merge tag 'modules-7.0-rc3.fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/modules/linux
-718e1f6dd06e8055ee9ca297a3f2219168bda19f amd-xgbe: define macros for MAC versions and speed select values
-ea274bf8529a70c987c7314b31176fc15f030dae amd-xgbe: add support for P100a platform
-d8103bfe41eeb8b6842672502a0025b7278931a8 Merge branch 'amd-xgbe-add-support-for-p100a-platform'
-6d32a196beb41525f055f720e98f97fb441f0ee0 Merge tag 'nf-next-26-03-04' of https://git.kernel.org/pub/scm/linux/kernel/git/netfilter/nf-next
 b824c3e16c1904bf80df489e293d1e3cbf98896d net: Provide a PREEMPT_RT specific check for netdev_queue::_xmit_lock
-0172f8d80220d2255cae00eb5131a864047433f7 net: mana: Add MAC address to vPort logs and clarify error messages
 def602e498a4f951da95c95b1b8ce8ae68aa733a netfilter: nf_tables: unconditionally bump set->nelems before insertion
 fb7fb4016300ac622c964069e286dc83166a5d52 netfilter: nf_tables: clone set on flush only
 9df95785d3d8302f7c066050117b04cd3c2048c2 netfilter: nft_set_pipapo: split gc into unlink and reclaim phase
-70836c8d0fe046400de8cdcf0613b2f1f6bddde3 ppp: don't store tx skb in the fastpath
-a90e3029f20d8a8c2c1337436a313d29acde5b93 r8169: add support for RTL8125cp
 0abc73c8a40fd64ac1739c90bb4f42c418d27a5e net: ethernet: mtk_eth_soc: Reset prog ptr to old_prog in case of error in mtk_xdp_setup()
-e637c244b954426b84340cbc551ca0e2a32058ce gve: Advertise NETIF_F_GRO_HW instead of NETIF_F_LRO
-ea4c1176871fd70a06eadcbd7c828f6cb9a1b0cd gve: fix SW coalescing when hw-GRO is used
-0c7025fd24db5b2f8cbd2e1f0050c033b923fd48 gve: pull network headers into skb linear part
-3c398063ef01b02d7efd31662154fe70fd28ace6 gve: Enable hw-gro by default if device supported
-bc531c2cc1d179156e8e4bdede92842dc3b63cc2 Merge branch 'gve-optimize-and-enable-hw-gro-for-dqo'
 f26b098d937488e8f5c617d465760a10bfcc7f13 ftrace: Add MAINTAINERS entries for all ftrace headers
-cc39325f927850473d3a84b029ae6f9b508e9bd1 net: ethtool: Track pause storm events
-817de93c348a3086ecca6e03ff459138832157cc net: ethtool: Update doc for tunable
-9b7c8728f53a5652a5184651c7b78ed1587542a4 eth: fbnic: Add protection against pause storm
-8d282b680c729203d04d4eee396f3216f29b35aa eth: fbnic: Fetch TX pause storm stats
-cc663d3fed062fb41b59df953a2cb9df5f56f943 eth: mlx5: Move pause storm errors to pause stats
-ab99e1167293726f016360a5dbbbc10386fd7d66 Merge branch 'net-ethtool-track-tx-pause-storm'
 37380976cf22893537ff229224a0daa2f4a28e65 Merge tag 'nf-26-03-05' of https://git.kernel.org/pub/scm/linux/kernel/git/netfilter/nf
 6be2681514261324c8ee8a1c6f76cefdf700220f selftests/harness: order TEST_F and XFAIL_ADD constructors
 c952291593e54415a7bb74c4a7187a7c7c7e8651 selftests: net: tun: don't abort XFAIL cases
@@ -521,66 +489,14 @@ f8e18abf183dbd636a8725532c7f5aa58957de84 net: enetc: use truesize as XDP RxQ inf
 cf440e5b40649d1ffbc6c4e33fef3223c7482897 Merge branch 'Address-XDP-frags-having-negative-tailroom'
 18ecff396c9edb9add34f612d9fb99bb34833cc0 Merge tag 'trace-v7.0-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
 abacaf559950eec0d99d37ff6b92049409af5943 Merge tag 'net-7.0-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
-0b1324cdd8de9f54f9daf689a4ae59783c333510 Merge git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 f76a93241d71fbba8425e3967097b498c29264ed net: dsa: realtek: rtl8365mb: remove ifOutDiscards from rx_packets
-752941e3faf6be26c6b5a118e37bdbaea2b97171 net: phy: realtek: Add support for PHY LEDs on RTL8211F-VD
-cfcceb7a39fc10a6f896af8229bf81d96acb22cc tcp: shrink per-packet memset in __tcp_transmit_skb()
-58a4c3e8006504bf18e0ddd2dcba6f414bed7680 octeontx2-af: make PF_FUNC comparison consistent in NIX XOFF handling
-54f5a89da9e083322a0af171126020d509593414 net: mdio: xgene: Fix misleading err message in xgene mdio read
-46cb1fcdb75b2dab2f3ed62caad04fe939549943 tcp: move tcp_v6_early_demux() to net/ipv6/ip6_input.c
-fc8ca5da896e22d29837f40032c08c486dcda76a net: stmmac: qcom-ethqos: move ethqos_set_serdes_speed()
-4999e0a2ab3464eb9e9aef141298123630d689e8 net: stmmac: qcom-ethqos: convert to use phy_set_mode_ext()
-b7721597547de9e5cfaf0fc3f2720891f207ec77 phy: qcom-sgmii-eth: remove .set_speed() implementation
-d2b20acdaed80a41fe191e326083fd71007f3456 phy: qcom-sgmii-eth: use PHY interface mode for SerDes settings
-f82210ce8cb8015a06af48a2732ce17a2e903f71 phy: qcom-sgmii-eth: remove qcom_dwmac_sgmii_phy_interface()
-ebe8b48b88ad012cf6067226e184e9173b7ea9d6 phy: qcom-sgmii-eth: relax order of .power_on() vs .set_mode*()
-038a8e8eb90d4dd06ce6bda825970c71af09f4b0 net: stmmac: qcom-ethqos: remove phy_set_mode_ext() after phy_power_on()
-2a13309fa840fa7d651e6df0e174023003829461 Merge branch 'net-stmmac-qcom-ethqos-further-serdes-reorganisation'
-bf5a54bc0e3d8962474fcd611f1266eba036232f doc/netlink: netlink-raw: Add max check
-a3a54ba4ef2b2f788c45caf02255efd457fbadd0 doc/netlink: nftables: Add definitions
-482da27d5274dfe5f2828d150981b966b8f9f3b1 doc/netlink: nftables: Update attribute sets
-27c7ee6d26ddd1a769bdcfb22862ef443da461e8 doc/netlink: nftables: Add sub-messages
-568b370f128ce328cf3750eda5a84080043f97d6 doc/netlink: nftables: Fill out operation attributes
-edad504ce16c941d7c6f804c39fd7e3fef0a492d Merge branch 'doc-netlink-expand-nftables-specification'
-d4d8c6e6fd2a1c5144339884ca5f66e654ad54a5 tcp: Initialise ehash secrets during connect() and listen().
-237577e603cedc8910fc61c774b47eb1fc18eef9 net: cadence: macb: add EEE LPI statistics counters
-0cc425f18f59f992c61c1802331d25ce689ff5d1 net: cadence: macb: implement EEE TX LPI support
-61332b78761cb1638e2bf29273050cf009fbbc0e net: cadence: macb: add ethtool EEE support
-92ba3307431a1756a3c8094787527a38ce19623d net: cadence: macb: enable EEE for Raspberry Pi RP1
-48575b6e16d12365d6a69de13d061d9df2b775ec net: cadence: macb: enable EEE for Mobileye EyeQ5
-8844de1037dd5fd39f4843cd58bdac763f6edaca Merge branch 'net-cadence-macb-add-ieee-802-3az-eee-support'
-7600fb3b41dd6ab65ed61169df1b6099044edf97 net: airoha: Rely __field_prep for non-constant masks
-e5e09233e8a9179b260460fdb28df5c24bcfbed6 tools: ynl: add uns-admin-perm to genetlink
-90edb395580c3578ab5abd240ac2fcfb64875c6d DO-NOT-MERGE: git markup: net
-eccd5c56da1cbf7a9b75646af4ea08b3b4d48d16 DO-NOT-MERGE: git markup: fixes other trees
-90feee3c4e7f8cb961cf102edf4c01fe4199482f DO-NOT-MERGE: git markup: fixes net
-558281b87c04e4a45fd60dd4a2accc0da3db7a55 DO-NOT-MERGE: mptcp: add CI support
-125eeab6f96e9c2b142445a5ebcc0057cc942470 DO-NOT-MERGE: git markup: end common net net-next
-54b3379610bac88f797f83ee287a875f547ab648 TopGit-driven merge of branches:
-9339ffd4e56dc9068ae1729ae84f562dda01bbd3 DO-NOT-MERGE: git markup: net-next
-f5411ffa91cf573ad5eb3bdabe7a0c69363dc168 DO-NOT-MERGE: git markup: fixes net-next
-ab6acdf8a147205d5822ad7997dfa1c4ed8ff358 mptcp: pm: init and release mptcp_pm_ops
-387476d94d97d86a9af5c082ca2a2ac37d2ab824 mptcp: pm: add get_local_id() interface
-2e35329fef44a206ce2b870ca8a214d1cd73c0d1 mptcp: pm: add get_priority() interface
-537e9f00409c3afedcd93494a78d896a747705f4 mptcp: better mptcp-level RTT estimator
-4f2286f52e44823baeadf851135fee45df8cd561 mptcp: add receive queue awareness in tcp_rcv_space_adjust()
-6365868e56cf84e49bae6afe3a2db2b47a129dcc mptcp: pm: in-kernel: remove mptcp_pm_has_addr_attr_id
-6a5053769dcf7d5552a6a358c2cfbf963a076c8c selftests: mptcp: join: recreate signal endp with same ID
-515c54cc116098041077b94bccd57cf6279af64d DO-NOT-MERGE: git markup: features net-next
-1a5d967975c400e1d000e31c156fbb6fc7c0bfe7 DO-NOT-MERGE: git markup: features net-next-next
-e48f5192010e14275069fb5f52e380c6be19744c bpf: Add mptcp_subflow bpf_iter
-77c93d86230c1bcf9e48b5d47063cc77e2d4ff4d selftests/bpf: More endpoints for endpoint_init
-b16dc3202b99014e85c7e4819987d8a12f9c7c1f selftests/bpf: Drop cgroup_fd of run_mptcpify
-32ecea6249f31c79378cfdc5cb0d7af1a0a54e9f bpf: Add mptcp packet scheduler struct_ops
-0cf94731b4590b79b5a41a62d69447d35efa5696 bpf: Export mptcp packet scheduler helpers
-fa376286d7d92d3c11d12d935161d91f9bdcd484 selftests/bpf: Add bpf scheduler test
-6425d47021127267a809ca84c1875b52c3db832c selftests/bpf: Add bpf_first scheduler & test
-e6e695b899119222942ec394b1bd7c4ac1fb8074 selftests/bpf: Add bpf_bkup scheduler & test
-ee6d13020aaecc62bb4591faf3df91a74b6bb9f6 selftests/bpf: Add bpf_rr scheduler & test
-7c82c503be0b42d9ae2eb394804852f88ef2a1b2 selftests/bpf: Add bpf_red scheduler & test
-3e2183ac8198e7d86b27e916abe67fdf4e530041 selftests/bpf: Add bpf_burst scheduler & test
-58c1a65c6d02c582653786d0f674d49831c7acec DO-NOT-MERGE: git markup: features other trees
-7688317bbc4daa0313b299f20c97105d775f3eeb DO-NOT-MERGE: mptcp: improve code coverage for CI
-f6af522d2679ea0eff41e8ac08fba62670235755 DO-NOT-MERGE: mptcp: enabled by default
+c7f03226280cae51df2b6992f4d35b71fb9fdd4c DO-NOT-MERGE: git markup: net
+aa419e82260a6ca1043130fa1a6f7d9569e6ebb0 DO-NOT-MERGE: git markup: fixes other trees
+798dd5a2943963424931d95cd4cafd6d75b96ec8 DO-NOT-MERGE: git markup: fixes net
+0d9a7b49804ad84ea1699bd67bca528ea3c20d6a DO-NOT-MERGE: mptcp: add CI support
+0a00090c1eebdf9cfe7d681221f66c2e16b19a32 DO-NOT-MERGE: git markup: end common net net-next
+20d91199a47181bccf9794b9aaf3756cc4ce9ab5 DO-NOT-MERGE: git markup: fixes net only
+2faae10ce5bc0dd4894903c74c299ba80243b309 DO-NOT-MERGE: mptcp: improve code coverage for CI (net)
+09017034d1f2739d71c17b3426a4c3a3961f0740 DO-NOT-MERGE: mptcp: enabled by default (net)
 
---===============6880017244749414142==--
+--===============6438352104288932196==--
