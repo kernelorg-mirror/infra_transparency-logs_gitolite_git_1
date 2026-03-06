@@ -1,22 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ast/bpf
-Date: Fri, 06 Mar 2026 04:39:26 -0000
-Message-Id: <177277196667.575475.11110556936524658035@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/chrome-platform/linux
+Date: Fri, 06 Mar 2026 04:43:26 -0000
+Message-Id: <177277220605.579247.12132264990125009942@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ast/bpf
-user: ast
+repo: pub/scm/linux/kernel/git/chrome-platform/linux
+user: tzungbi
 changes:
-  - ref: refs/heads/stacklive
-    old: 7f6f3ec3705cea3d8013f073575f8f7e4b65cc89
-    new: 4f30558db58c8563d1cc5f8600f9a742a483a2fc
+  - ref: refs/heads/for-next
+    old: 286386820d524a76647b8a1de9e4122270da6975
+    new: 27d58498f690ab39140678df918155a597b3a17a
     log: |
-         018940898a86e43519e59206e4a46410fe4b6477 bpf: Integrate static stack liveness into verifier state pruning
-         c20dee2f3014246ea54ab09e7f7443e7ec1405f4 selftests/bpf: Add tests for static stack liveness analysis
-         ad462fd19d25e2aa08547b304f4c3a0fdca92025 bpf: Remove old dynamic stack liveness infrastructure
-         4f30558db58c8563d1cc5f8600f9a742a483a2fc bpf: Promote STACK_ZERO to STACK_MISC in live slots during state cleaning
+         d3c2872ae323ea45cc32ea0247f26c2189a481cb platform/chrome: Convert ChromeOS privacy-screen driver to platform
+         5d441a4bc93642ed6f41da87327a39946b4e1455 platform/chrome: chromeos_tbmc: Drop wakeup source on remove
+         de1260139dbd7610a2f25343c962569b8fe23f8f platform/chrome: chromeos_tbmc: Register ACPI notify handler
+         a2676ead257f6cf12e458efc786a68d6ab7c1224 platform/chrome: chromeos_tbmc: Convert to a platform driver
+         25a06b7a3224161cf4b27049bea93cac21136460 platform/chrome: wilco_ec: event: Register ACPI notify handler
+         27d58498f690ab39140678df918155a597b3a17a platform/chrome: wilco_ec: event: Convert to a platform driver
          
