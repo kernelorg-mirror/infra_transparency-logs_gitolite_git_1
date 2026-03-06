@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0825592316150366827=="
+Content-Type: multipart/mixed; boundary="===============3031033774952256973=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Fri, 06 Mar 2026 18:12:44 -0000
-Message-Id: <177282076402.1318317.5447215910269626711@gitolite.kernel.org>
+Date: Fri, 06 Mar 2026 18:12:46 -0000
+Message-Id: <177282076696.1318533.15957144667005725043@gitolite.kernel.org>
 
---===============0825592316150366827==
+--===============3031033774952256973==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/10GbE
+  - ref: refs/heads/40GbE
     old: cf440e5b40649d1ffbc6c4e33fef3223c7482897
     new: f76a93241d71fbba8425e3967097b498c29264ed
     log: revlist-cf440e5b4064-f76a93241d71.txt
 
---===============0825592316150366827==
+--===============3031033774952256973==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -455,4 +455,4 @@ f26b098d937488e8f5c617d465760a10bfcc7f13 ftrace: Add MAINTAINERS entries for all
 abacaf559950eec0d99d37ff6b92049409af5943 Merge tag 'net-7.0-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 f76a93241d71fbba8425e3967097b498c29264ed net: dsa: realtek: rtl8365mb: remove ifOutDiscards from rx_packets
 
---===============0825592316150366827==--
+--===============3031033774952256973==--
