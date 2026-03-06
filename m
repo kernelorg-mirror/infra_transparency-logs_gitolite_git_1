@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1757623396014481184=="
+Content-Type: multipart/mixed; boundary="===============0611752448140299826=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Fri, 06 Mar 2026 05:11:35 -0000
-Message-Id: <177277389557.601488.17543538955718110845@gitolite.kernel.org>
+Date: Fri, 06 Mar 2026 05:11:57 -0000
+Message-Id: <177277391703.601761.4994742253752483569@gitolite.kernel.org>
 
---===============1757623396014481184==
+--===============0611752448140299826==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,15 +16,41 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: aa90c3e95a738d174bd923efd322a5419883d915
-    new: 67b6f5a932d23f96e9b531e05a8c83aefbce891e
-    log: revlist-aa90c3e95a73-67b6f5a932d2.txt
+    old: 67b6f5a932d23f96e9b531e05a8c83aefbce891e
+    new: a7250939e2e427469ff574926df54714844946e1
+    log: revlist-67b6f5a932d2-a7250939e2e4.txt
+  - ref: refs/heads/tip/urgent
+    old: d8f6538ffcfec5eac254f0e993b94f4f3a5ea0ea
+    new: e863149779f843163134afc0225256085e956358
+    log: revlist-d8f6538ffcfe-e863149779f8.txt
 
---===============1757623396014481184==
+--===============0611752448140299826==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-aa90c3e95a73-67b6f5a932d2.txt
+Content-Disposition: attachment; filename=revlist-67b6f5a932d2-a7250939e2e4.txt
+
+3bc0661ad1df7f29587b5d38e67838c5017a58f5 Merge branch into tip/master: 'timers/urgent'
+e863149779f843163134afc0225256085e956358 Merge branch into tip/master: 'x86/urgent'
+79e55074e5a0cceaab2cd3bde239516e150219c5 Merge branch into tip/master: 'irq/drivers'
+3a4da198d33e4881ed8d70e1d721118a03e9e0ab Merge branch into tip/master: 'irq/msi'
+6a9bb18947cd92a3eb7f2d4ee4ee3ea0ee963385 Merge branch into tip/master: 'locking/core'
+e880be21ee38e7a8c05bb78946e451a97a800b50 Merge branch into tip/master: 'locking/futex'
+6d19b4f334f41b13cfdad83ff2222b99093e3786 Merge branch into tip/master: 'perf/core'
+c51d8eb55ef83324742737528181c3336df8cb45 Merge branch into tip/master: 'sched/core'
+74919945e4ca99a8c9be36c6536d828495e7fb84 Merge branch into tip/master: 'sched/hrtick'
+8919254045aaee053dd0496c817e9869362d7e47 Merge branch into tip/master: 'timers/core'
+4c3f81e7075abb99aa43d9bc441229972e478c9b Merge branch into tip/master: 'x86/cpu'
+f8e60f104a37257553c9e239a79daebc8d67f411 Merge branch into tip/master: 'x86/microcode'
+2fbe4c73e02bf75336e248ce7a464f537890fef3 Merge branch into tip/master: 'x86/misc'
+fc8bff9d5d253f209f65a9246dc203af36b30ec9 Merge branch into tip/master: 'x86/mm'
+a7250939e2e427469ff574926df54714844946e1 Merge branch into tip/master: 'x86/tdx'
+
+--===============0611752448140299826==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-d8f6538ffcfe-e863149779f8.txt
 
 cfc83a3c71517b59c1047db57da31e26a9dc2f33 batman-adv: Avoid double-rtnl_lock ELP metric worker
 201ceb94aa1def0024a7c18ce643e5f65026be06 kunit: irq: Ensure timer doesn't fire too frequently
@@ -208,6 +234,7 @@ abacaf559950eec0d99d37ff6b92049409af5943 Merge tag 'net-7.0-rc3' of git://git.ke
 398871616ffd8a793f01861b0ee66f6bee494389 Merge tag 'acpi-7.0-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
 6a42ff33f38d171a6bf8304f6323c43e8a0ed9b6 Merge tag 'libcrypto-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/ebiggers/linux
 5ee8dbf54602dc340d6235b1d6aa17c0f283f48c Merge tag 'fsverity-for-linus' of git://git.kernel.org/pub/scm/fs/fsverity/linux
-67b6f5a932d23f96e9b531e05a8c83aefbce891e Merge branch 'linus'
+3bc0661ad1df7f29587b5d38e67838c5017a58f5 Merge branch into tip/master: 'timers/urgent'
+e863149779f843163134afc0225256085e956358 Merge branch into tip/master: 'x86/urgent'
 
---===============1757623396014481184==--
+--===============0611752448140299826==--
