@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/b4/b4
-Date: Fri, 06 Mar 2026 13:46:17 -0000
-Message-Id: <177280477713.1089449.2634207642304367361@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/chao/linux
+Date: Fri, 06 Mar 2026 13:55:12 -0000
+Message-Id: <177280531228.1097435.5306145692819276446@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/b4/b4
-user: mricon
+repo: pub/scm/linux/kernel/git/chao/linux
+user: chao
 changes:
-  - ref: refs/bugs/9453f6585824edbe1eb5a14fb2fc9f9ec2bbba7f6610a110b001176a17815709
-    old: c234d18cc76b51e28a45fc0e676279364c74f730
-    new: b2d74b6a085a0f842e06838b440abf7099f2c0fd
-    log: |
-         b2d74b6a085a0f842e06838b440abf7099f2c0fd 
-         
+  - ref: refs/heads/dev-test
+    old: 53ad95537e5fbfd833314297f449e7dd26d55afc
+    new: 32a39a0ad8e9e18aa802cf88cf44c22ec08f81e8
