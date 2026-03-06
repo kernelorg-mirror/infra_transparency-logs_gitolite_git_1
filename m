@@ -1,20 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
-Date: Fri, 06 Mar 2026 16:58:16 -0000
-Message-Id: <177281629644.1256033.3880122432080159648@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tj/sched_ext
+Date: Fri, 06 Mar 2026 17:02:11 -0000
+Message-Id: <177281653179.1259704.8751628177542941770@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rafael/linux-pm
-user: rafael
+repo: pub/scm/linux/kernel/git/tj/sched_ext
+user: tj
 changes:
-  - ref: refs/heads/bleeding-edge
-    old: 0b80ab63105a0999c289d950b907129af152f49a
-    new: 13a70a61f2f09acecd4780e76bdba1879b9bc2b2
+  - ref: refs/heads/for-7.0-fixes
+    old: 8ce8d0524c136f60a1bddb0951db2999342d7217
+    new: 1dde502587657045b267f179d7a1ecc7b8a1a265
     log: |
-         5ddd020b8bd0fb2fdcdc1f8c40513c656a690f80 thermal: core: Replace sprintf() in thermal_bind_cdev_to_trip()
-         13a70a61f2f09acecd4780e76bdba1879b9bc2b2 Merge branch 'thermal-core' into bleeding-edge
+         1dde502587657045b267f179d7a1ecc7b8a1a265 sched_ext: Use READ_ONCE() for scx_slice_bypass_us in scx_bypass()
+         
+  - ref: refs/heads/for-next
+    old: 4f9e44da940a77493b401ffe842c77e455fe83e0
+    new: 15d189992ed3f42d2f658c2d1d6bcda2534e790e
+    log: |
+         1dde502587657045b267f179d7a1ecc7b8a1a265 sched_ext: Use READ_ONCE() for scx_slice_bypass_us in scx_bypass()
+         15d189992ed3f42d2f658c2d1d6bcda2534e790e Merge branch 'for-7.0-fixes' into for-next
          
