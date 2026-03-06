@@ -1,23 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ast/bpf
-Date: Fri, 06 Mar 2026 03:01:35 -0000
-Message-Id: <177276609521.499620.12770020125465087229@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Fri, 06 Mar 2026 03:05:48 -0000
+Message-Id: <177276634801.503570.14455954200416561762@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ast/bpf
-user: ast
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
-  - ref: refs/heads/stacklive
-    old: 94c6359dd9e5ff1fae8fe7daadc6fe532807d0ec
-    new: 0f8980b7723ef7510dceb45ac36a9de7ba427f01
+  - ref: refs/heads/main
+    old: edad504ce16c941d7c6f804c39fd7e3fef0a492d
+    new: 8844de1037dd5fd39f4843cd58bdac763f6edaca
     log: |
-         b6d84c7e999bd65a6d7c26f715d9a1509a8936f8 bpf: Add compute_subprog_arg_access() for precise subprog analysis
-         11161ab898f76ddad19dde6a225608238fc37567 bpf: Integrate static stack liveness into verifier state pruning
-         7e5047bb4f0752300b5880c98c4f9afa1fe2a5b5 selftests/bpf: Add tests for static stack liveness analysis
-         0c1bb3dd8287e5556e847b746ee61a58d7a7e766 bpf: Remove old dynamic stack liveness infrastructure
-         0f8980b7723ef7510dceb45ac36a9de7ba427f01 bpf: Promote STACK_ZERO to STACK_MISC in live slots during state cleaning
+         d4d8c6e6fd2a1c5144339884ca5f66e654ad54a5 tcp: Initialise ehash secrets during connect() and listen().
+         237577e603cedc8910fc61c774b47eb1fc18eef9 net: cadence: macb: add EEE LPI statistics counters
+         0cc425f18f59f992c61c1802331d25ce689ff5d1 net: cadence: macb: implement EEE TX LPI support
+         61332b78761cb1638e2bf29273050cf009fbbc0e net: cadence: macb: add ethtool EEE support
+         92ba3307431a1756a3c8094787527a38ce19623d net: cadence: macb: enable EEE for Raspberry Pi RP1
+         48575b6e16d12365d6a69de13d061d9df2b775ec net: cadence: macb: enable EEE for Mobileye EyeQ5
+         8844de1037dd5fd39f4843cd58bdac763f6edaca Merge branch 'net-cadence-macb-add-ieee-802-3az-eee-support'
          
