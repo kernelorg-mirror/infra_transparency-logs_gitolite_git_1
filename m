@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4365466906436715866=="
+Content-Type: multipart/mixed; boundary="===============8639757084892747680=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tj/sched_ext
-Date: Fri, 06 Mar 2026 17:58:17 -0000
-Message-Id: <177281989711.1305376.13332465704683931836@gitolite.kernel.org>
+Date: Fri, 06 Mar 2026 17:58:22 -0000
+Message-Id: <177281990244.1305726.14784566381701020604@gitolite.kernel.org>
 
---===============4365466906436715866==
+--===============8639757084892747680==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,22 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tj/sched_ext
 user: tj
 changes:
-  - ref: refs/heads/for-next
-    old: 15d189992ed3f42d2f658c2d1d6bcda2534e790e
-    new: 94aa53970e99674171b8931bb996af6736166993
-    log: revlist-15d189992ed3-94aa53970e99.txt
+  - ref: refs/heads/for-7.1
+    old: 19150813a926defe21b801d3e550e06c0d87dc83
+    new: 4f8b122848dbc353a193de0fa707bc40b5f067ff
+    log: revlist-19150813a926-4f8b122848db.txt
 
---===============4365466906436715866==
+--===============8639757084892747680==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-15d189992ed3-94aa53970e99.txt
+Content-Disposition: attachment; filename=revlist-19150813a926-4f8b122848db.txt
 
+6944e6d8a6d4c1e654de1da112da8fef1b30e623 sched_ext/selftests: Fix format specifier and buffer length in file_write_long()
+0927780c90ce551869fb692279d66387a4b66af5 sched_ext: Use READ_ONCE() for lock-free reads of module param variables
+70f54f61a3d52af13b72248a63e98eddf4c990ac sched_ext: Document task ownership state machine
+8ce8d0524c136f60a1bddb0951db2999342d7217 sched_ext: Documentation: Mention scheduling class precedence
+1dde502587657045b267f179d7a1ecc7b8a1a265 sched_ext: Use READ_ONCE() for scx_slice_bypass_us in scx_bypass()
 32e940f2bd3b16551f23ea44be47f6f5d1746d64 Merge branch 'for-7.0-fixes' into for-7.1
 a0b0f6c7d7f29f1ade9ec59699d02e3b153ee8e4 Merge branch 'for-7.1' of git://git.kernel.org/pub/scm/linux/kernel/git/tj/cgroup into for-7.1
 b0e4c2f8a0f0a60d10c427db4080181060014cac sched_ext: Implement cgroup subtree iteration for scx_task_iter
@@ -61,6 +66,5 @@ eff782fddb5cb03c247fdb68b148abfd30cda1fe sched_ext: Convert scx_dump_state() spi
 54be8de4236a52b301825cb51c6d5fdecb2fd6b8 sched_ext: Factor out scx_link_sched() and scx_unlink_sched()
 25037af712eb04eb92a89440852029a50eea8d82 sched_ext: Add rhashtable lookup for sub-schedulers
 4f8b122848dbc353a193de0fa707bc40b5f067ff sched_ext: Add basic building blocks for nested sub-scheduler dispatching
-94aa53970e99674171b8931bb996af6736166993 Merge branch 'for-7.1' into for-next
 
---===============4365466906436715866==--
+--===============8639757084892747680==--
