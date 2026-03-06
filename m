@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6240146767521382509=="
+Content-Type: multipart/mixed; boundary="===============1997147653909667221=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
-Date: Fri, 06 Mar 2026 21:09:17 -0000
-Message-Id: <177283135746.1490532.6679912741961215275@gitolite.kernel.org>
+Date: Fri, 06 Mar 2026 21:09:18 -0000
+Message-Id: <177283135893.1490619.588870949109778242@gitolite.kernel.org>
 
---===============6240146767521382509==
+--===============1997147653909667221==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,19 +15,25 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ath/ath
 user: jjohnson
 changes:
-  - ref: refs/heads/main
-    old: 9942b3f80f4ebe6852663e0d35ecaf6b7a97c8da
-    new: 13a4853805cd98242ba585b581b5614ea3e57cd8
-    log: revlist-9942b3f80f4e-13a4853805cd.txt
-  - ref: refs/tags/ath-202603062026
-    old: 0000000000000000000000000000000000000000
-    new: 13a4853805cd98242ba585b581b5614ea3e57cd8
+  - ref: refs/heads/ath-current
+    old: 4e10a730d1b511ff49723371ed6d694dd1b2c785
+    new: 6dccbc9f3e1d38565dff7730d2b7d1e8b16c9b09
+    log: revlist-4e10a730d1b5-6dccbc9f3e1d.txt
+  - ref: refs/heads/ath-next
+    old: 44d93cf1abb6a85d65c3b4b027c82d44263de6a5
+    new: 8e0ab5b9adb7fec3149441621df1cf15325b7215
+    log: |
+         1635ecc61a24597f893d057d004051a535c1c643 wifi: ath12k: account TX stats only when ACK/BA status is present
+         aecb569d7fb689e3e5b0005ca7bd0a2ef28915e8 wifi: ath12k: Fix the assignment of logical link index
+         616217a989e09c55398db8555e5ef0c64504cb66 wifi: ath12k: Fix legacy rate mapping for monitor mode capture
+         8e0ab5b9adb7fec3149441621df1cf15325b7215 wifi: ath6kl: wmi: Avoid -Wflex-array-member-not-at-end warning
+         
 
---===============6240146767521382509==
+--===============1997147653909667221==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9942b3f80f4e-13a4853805cd.txt
+Content-Disposition: attachment; filename=revlist-4e10a730d1b5-6dccbc9f3e1d.txt
 
 594c11d0e1d445f580898a2b8c850f2e3f099368 ipmi: Fix use-after-free and list corruption on sender error
 1d90e6c1a56f6ab83e5c9d30ded19e7ac8155713 ipmi: Consolidate the run to completion checking for xmit msgs lock
@@ -603,23 +609,11 @@ f8e18abf183dbd636a8725532c7f5aa58957de84 net: enetc: use truesize as XDP RxQ inf
 cf440e5b40649d1ffbc6c4e33fef3223c7482897 Merge branch 'Address-XDP-frags-having-negative-tailroom'
 18ecff396c9edb9add34f612d9fb99bb34833cc0 Merge tag 'trace-v7.0-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
 abacaf559950eec0d99d37ff6b92049409af5943 Merge tag 'net-7.0-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
-8bd1254c92c92382114ff9b3b727d5cb81167df7 bus: mhi: host: pci_generic: Enable IP_SW and IP_ETH channels for Qcom QDU100 device
-54b022f162a7f9b7c4f2b3902e4873d74f8d0875 bus: mhi: host: pci_generic: Add NMEA channels to FN920C04 and FN990A
-cfdb41adf1c2822ad1b1791d4d11093edb5582b6 bus: mhi: host: pci_generic: Switch to async power up to avoid boot delays
-f227b246307e0cf3091e13e7fbae3974aaf38eb9 bus: mhi: host: pci_generic: Add pm_runtime_forbid() in remove callback
 bd9121a5e9fa03fcf32afa5f3d238e942ae6045e wifi: mac80211_hwsim: fully initialise PMSR capabilities
 708bbb45537780a8d3721ca1e0cf1932c1d1bf5f wifi: mac80211: remove keys after disabling beaconing
 ac6f24cc9c0a9aefa55ec9696dcafa971d4d760b wifi: mac80211: use jiffies_delta_to_msecs() for sta_info inactive times
 672e5229e1ecfc2a3509b53adcb914d8b024a853 mac80211: fix crash in ieee80211_chan_bw_change for AP_VLAN stations
 b94ae8e0d5fe1bdbbfdc3854ff6ce98f6876a828 wifi: mac80211: Fix static_branch_dec() underflow for aql_disable.
 6dccbc9f3e1d38565dff7730d2b7d1e8b16c9b09 wifi: cfg80211: cancel pmsr_free_wk in cfg80211_pmsr_wdev_down
-1635ecc61a24597f893d057d004051a535c1c643 wifi: ath12k: account TX stats only when ACK/BA status is present
-aecb569d7fb689e3e5b0005ca7bd0a2ef28915e8 wifi: ath12k: Fix the assignment of logical link index
-616217a989e09c55398db8555e5ef0c64504cb66 wifi: ath12k: Fix legacy rate mapping for monitor mode capture
-8e0ab5b9adb7fec3149441621df1cf15325b7215 wifi: ath6kl: wmi: Avoid -Wflex-array-member-not-at-end warning
-de223dd042717fcaa99c8243c405005cd0bddd05 Merge branch 'ath-next'
-8b094b4e1389c7da34644bd58eb7b98f4b1dcb91 Merge branch 'ath-current'
-43867258de6d695a09df04fc6d796a6e656b8198 Merge remote-tracking branch 'mhi/mhi-next'
-13a4853805cd98242ba585b581b5614ea3e57cd8 Add localversion-wireless-testing-ath
 
---===============6240146767521382509==--
+--===============1997147653909667221==--
