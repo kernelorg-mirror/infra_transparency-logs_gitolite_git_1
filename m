@@ -1,27 +1,48 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux
-Date: Fri, 06 Mar 2026 11:26:00 -0000
-Message-Id: <177279636025.899254.5716905000578696185@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============6968771077834362231=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vbabka/slab
+Date: Fri, 06 Mar 2026 11:28:14 -0000
+Message-Id: <177279649441.900149.1173437392743399108@gitolite.kernel.org>
+
+--===============6968771077834362231==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux
-user: axboe
+repo: pub/scm/linux/kernel/git/vbabka/slab
+user: vbabka
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/block-7.0
-    old: ce8ee8583ed83122405eabaa8fb351be4d9dc65c
-    new: 25966fc097691e5c925ad080f64a2f19c5fd940a
-    log: |
-         25966fc097691e5c925ad080f64a2f19c5fd940a ublk: fix NULL pointer dereference in ublk_ctrl_set_size()
-         
-  - ref: refs/heads/for-next
-    old: 524e7a57a02382ab86e85197a794fadb9152ee4c
-    new: e356b1868a62cf4a650b451a7296ea4762038666
-    log: |
-         4f2ea80dc6c443fabe0c163a8fdeb0bb52d86fc6 fixup! treewide: fix remaining read/write iterator conversion issues
-         25966fc097691e5c925ad080f64a2f19c5fd940a ublk: fix NULL pointer dereference in ublk_ctrl_set_size()
-         e356b1868a62cf4a650b451a7296ea4762038666 Merge branch 'block-7.0' into for-next
-         
+  - ref: refs/tags/slab-for-7.0-rc2
+    old: 0000000000000000000000000000000000000000
+    new: 9fff1b899771a1b4fc095a381d7cb2daa20ad87e
+
+--===============6968771077834362231==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher A940D434992C2E8E99103D50224FA7E7CC82A664 1772796490 +0100
+pushee gitolite.kernel.org:pub/scm/linux/kernel/git/vbabka/slab.git
+nonce 1772796489-388ff4a88b2d3b74bc26b0969864ae8ae9487080
+
+0000000000000000000000000000000000000000 9fff1b899771a1b4fc095a381d7cb2daa20ad87e refs/tags/slab-for-7.0-rc2
+-----BEGIN PGP SIGNATURE-----
+
+iQFPBAABCAA5FiEEe7vIQRWZI0iWSE3xu+CwddJFiJoFAmmqukobFIAAAAAABAAO
+bWFudTIsMi41KzEuMTIsMiwyAAoJELvgsHXSRYiaW2IH/3fh3SljHEDsU/lbfrPE
+L46NabRRiPCSLV8rviOaZOX/lpo3itMg7U2XKZQuupVcxJ+gGFXXhxmrPn5hu1cg
+aYmi2yzUDakDUhWOcn5mPLQmYtvmJ6n5M6NjxUgLnxDbzXKAIN527bTz9gpwpGrc
+vjCqbMydNW7rrU0O+R53a2vg4TGG1mtHn4P9PP4Jl6QTQ0u1DMF234Fs69yK8OpK
+jpwOyjgIDs+EbtCnT0L0sBShlmAhDuLWYQE4ftkcLKWAPzuR/IsVhvRp2xNXSS5g
+1VLg8Go2mUGfs3F1ZAIjDfJLL4BjwOuTlcXIBuFhi9QyRF0XvVSRlxjcoTb4rsmf
+CBk=
+=1Hlp
+-----END PGP SIGNATURE-----
+
+--===============6968771077834362231==--
