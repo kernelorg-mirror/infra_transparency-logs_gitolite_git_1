@@ -1,22 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
-Date: Fri, 06 Mar 2026 02:27:16 -0000
-Message-Id: <177276403654.470265.2803632699810134941@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Fri, 06 Mar 2026 02:28:56 -0000
+Message-Id: <177276413607.470944.13637783731122527531@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/25-new
-user: akpm
+repo: pub/scm/linux/kernel/git/netdev/net
+user: kuba
 changes:
-  - ref: refs/heads/master
-    old: cc21d2aa32e5944355d730ae52ec02e42e86623a
-    new: 79033f29eda2cd147f6f20b6eee02c60333a7000
+  - ref: refs/heads/main
+    old: abacaf559950eec0d99d37ff6b92049409af5943
+    new: f76a93241d71fbba8425e3967097b498c29264ed
     log: |
-         c4cd3c50c1dcedec50f246d74f252518499bfcec foo
-         506c12d32b0ee8515072847434503f85634dc2ef foo
-         443f9eba620fe96dfca929b0682f8a7824dfd7c3 foo
-         79033f29eda2cd147f6f20b6eee02c60333a7000 foo
+         f76a93241d71fbba8425e3967097b498c29264ed net: dsa: realtek: rtl8365mb: remove ifOutDiscards from rx_packets
          
