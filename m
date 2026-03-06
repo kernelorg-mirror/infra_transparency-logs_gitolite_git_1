@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mszyprowski/linux
-Date: Fri, 06 Mar 2026 08:51:21 -0000
-Message-Id: <177278708110.772675.16065891555454632580@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/libata/linux
+Date: Fri, 06 Mar 2026 09:03:52 -0000
+Message-Id: <177278783241.780863.7398852132888483285@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mszyprowski/linux
-user: mszyprowski
+repo: pub/scm/linux/kernel/git/libata/linux
+user: cassel
 changes:
-  - ref: refs/heads/dma-mapping-for-next
-    old: 6de23f81a5e08be8fbf5e8d7e9febc72a5b5f27f
-    new: a54302ccfd38afba7b297566f0d414b961ca97bf
+  - ref: refs/heads/libata-for-7.0-fixes
+    old: b92b0075ee1870f78f59ab1f7da7dbfdd718ad7a
+    new: ee0e6e69a772d601e152e5368a1da25d656122a8
     log: |
-         9cc60ec453fe5d58d4faa70829814769a8af24d4 dma-mapping: benchmark: modify the framework to adapt to more map modes
-         a8d14dd6e621f47344d0eda72f7ce9203bdef4f1 dma-mapping: benchmark: add support for dma_map_sg
-         a54302ccfd38afba7b297566f0d414b961ca97bf tools/dma: Add dma_map_sg support
+         ee0e6e69a772d601e152e5368a1da25d656122a8 ata: libata-eh: Fix detection of deferred qc timeouts
          
