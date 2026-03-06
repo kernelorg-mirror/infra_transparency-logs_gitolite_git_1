@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6210895481120872991=="
+Content-Type: multipart/mixed; boundary="===============0372874657619074959=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Fri, 06 Mar 2026 22:47:41 -0000
-Message-Id: <177283726111.1573488.8573496793662110748@gitolite.kernel.org>
+Date: Fri, 06 Mar 2026 22:47:43 -0000
+Message-Id: <177283726393.1573651.16678266162659771283@gitolite.kernel.org>
 
---===============6210895481120872991==
+--===============0372874657619074959==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/10GbE
+  - ref: refs/heads/40GbE
     old: ab99e1167293726f016360a5dbbbc10386fd7d66
     new: 1a9940317c1b46b7641af6b4b14c9d2509ac88b2
     log: revlist-ab99e1167293-1a9940317c1b.txt
 
---===============6210895481120872991==
+--===============0372874657619074959==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -647,4 +647,4 @@ e5e09233e8a9179b260460fdb28df5c24bcfbed6 tools: ynl: add uns-admin-perm to genet
 8e235bc43326f47adfd77d926c7d6ad39077569a docs: netdev: refine netdevsim testing guidance
 1a9940317c1b46b7641af6b4b14c9d2509ac88b2 Revert "net: phy: improve mdiobus_stats_acct"
 
---===============6210895481120872991==--
+--===============0372874657619074959==--
