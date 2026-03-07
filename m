@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/efi/efi
-Date: Sat, 07 Mar 2026 15:44:02 -0000
-Message-Id: <177289824267.2387550.3582038549925948888@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tj/sched_ext
+Date: Sat, 07 Mar 2026 16:01:15 -0000
+Message-Id: <177289927598.2402130.11831729092392423753@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/efi/efi
-user: ardb
+repo: pub/scm/linux/kernel/git/tj/sched_ext
+user: tj
 changes:
-  - ref: refs/tags/efi-fixes-for-v7.0-2
-    old: 0000000000000000000000000000000000000000
-    new: 66cfd28e378fe9c84b06971abaf788adb5128da5
+  - ref: refs/heads/for-next
+    old: eaa03e6b1a3e2c9964ff21759557ebff1dbdce81
+    new: ce897abc21b2d5e74981ff2b848f3a08a580d50a
