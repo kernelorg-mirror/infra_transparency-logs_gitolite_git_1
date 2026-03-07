@@ -1,23 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
-Date: Sat, 07 Mar 2026 00:25:54 -0000
-Message-Id: <177284315465.1652158.2212419757281835115@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Sat, 07 Mar 2026 00:26:21 -0000
+Message-Id: <177284318141.1652507.5714261914746873103@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/25-new
-user: akpm
+repo: pub/scm/linux/kernel/git/netdev/net
+user: kuba
 changes:
-  - ref: refs/heads/master
-    old: 5b67249604f3be2ce80f9e66f3420fdb0682d91b
-    new: 0aa72a196dc3b13d17467133b585608ac7a9e92e
+  - ref: refs/heads/main
+    old: 224a0d284c3caf1951302d1744a714784febed71
+    new: 03910cdc214d26db8b77ff128435f3bab1c0072d
     log: |
-         d42df158e892485b24138262000190d45a14cca3 foo
-         72f1b9cc7bb44270d336dce74e772395c4656f1f foo
-         32c43e5016b2f310816a87e66ac145b34e9273c0 foo
-         06ac60cffd89c523c14ea60718717957cb7ae7cd foo
-         0aa72a196dc3b13d17467133b585608ac7a9e92e foo
+         45fc134bcfadde456639c1b1e206e6918d69a553 bonding: do not set usable_slaves for broadcast mode
+         3348be7978f450ede0c308a4e8416ac716cf1015 bonding: handle BOND_LINK_FAIL, BOND_LINK_BACK as valid link states
+         03910cdc214d26db8b77ff128435f3bab1c0072d Merge branch 'bond-fix-2-link-state-issues'
          
