@@ -1,50 +1,72 @@
-Content-Type: multipart/mixed; boundary="===============7048246473365801484=="
+Content-Type: multipart/mixed; boundary="===============7806120601262437673=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
-Date: Sat, 07 Mar 2026 15:31:41 -0000
-Message-Id: <177289750141.2378891.2798041792519004401@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tj/sched_ext
+Date: Sat, 07 Mar 2026 15:36:57 -0000
+Message-Id: <177289781737.2382960.7820503616000827912@gitolite.kernel.org>
 
---===============7048246473365801484==
+--===============7806120601262437673==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pci/pci
-user: kwilczynski
+repo: pub/scm/linux/kernel/git/tj/sched_ext
+user: tj
 changes:
-  - ref: refs/heads/kwilczynski/static-sysfs-attributes
-    old: ea9c921bdd1fd461d2f1f65b3446423e07e2b70e
-    new: 637e1e7f5c8f3995d9b33265eecb921606ef1458
-    log: revlist-ea9c921bdd1f-637e1e7f5c8f.txt
+  - ref: refs/heads/for-7.1
+    old: 03f5304aad0f90907475437be8052e7e70376319
+    new: ce897abc21b2d5e74981ff2b848f3a08a580d50a
+    log: revlist-03f5304aad0f-ce897abc21b2.txt
+  - ref: refs/heads/for-next
+    old: 441983fc6096aa594c24f0608015776b214152cf
+    new: eaa03e6b1a3e2c9964ff21759557ebff1dbdce81
+    log: revlist-441983fc6096-eaa03e6b1a3e.txt
 
---===============7048246473365801484==
+--===============7806120601262437673==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ea9c921bdd1f-637e1e7f5c8f.txt
+Content-Disposition: attachment; filename=revlist-03f5304aad0f-ce897abc21b2.txt
 
-b97afa1bfc0d975c694c2bfdb68226f8110a9046 PCI/sysfs: Use PCI resource accessor macros
-623f0f5cec4506d20788b833dfb93da214c06382 PCI/sysfs: Only allow supported resource types in I/O and MMIO helpers
-9964c4dc7ccedab0502e3b7d2defe90bfbca7265 PCI/sysfs: Use BAR length in pci_llseek_resource() when attr->size is zero
-3dc5a005489531c0d1fa062a2eff9a293ab9f15d PCI/sysfs: Add CAP_SYS_ADMIN check to __resource_resize_store()
-1f43f6854e576ee1f734a4065cf4034412311b7b PCI/sysfs: Add static PCI resource attribute macros
-1e9595a8d10bab6fdfddbecb34f1f2cbaf7d07c6 PCI/sysfs: Convert PCI resource files to static attributes
-20d03236191c93733273bb3319739c3b4d7c8a74 PCI/sysfs: Convert __resource_resize_store() to use static attributes
-ef82aeace261997b2167ce06f77c326f99e16be9 PCI/sysfs: Add stubs for pci_{create,remove}_sysfs_dev_files()
-1b3bcce9287df81fad22bf69285afc5697abd3a5 PCI/sysfs: Limit pci_sysfs_init() late_initcall compile scope
-26f9939b9c1e97e2d809f1533e186eccec439817 alpha/PCI: Add security_locked_down() check to pci_mmap_resource()
-4a8845ee590247799abae628bf2481fc4710eff2 alpha/PCI: Use BAR index in sysfs attr->private instead of resource pointer
-9e521e144408f89d5a8fd56566f1b54a0c6ddadc alpha/PCI: Use PCI resource accessor macros
-5c0855336d29bbb7768a899db33af7ee1c2baa18 alpha/PCI: Clean up __pci_mmap_fits()
-11ec891fd086d6b8107cc630b800bad9480a466a alpha/PCI: Add static PCI resource attribute macros
-dac078df80ea08fe7175b32ba1eb12c752f5d26e alpha/PCI: Convert resource files to static attributes
-a09426612d3bcafcdce8c6f342b2ea1008b30833 PCI/sysfs: Remove pci_{create,remove}_sysfs_dev_files()
-06fb8811645e85accd355b6d6eae213ea6e99b8f alpha/PCI: Compute legacy size in pci_mmap_legacy_page_range()
-b202f06e7666c4fb1ccde2c362ad23b5746347ef PCI/sysfs: Add __weak pci_legacy_has_sparse() helper
-0348309c42ab26172bd1d0f68ab6be4af54542c2 PCI/sysfs: Convert legacy I/O and memory attributes to static definitions
-637e1e7f5c8f3995d9b33265eecb921606ef1458 PCI/sysfs: Remove pci_create_legacy_files() and pci_sysfs_init()
+26b9c7c70027f011a5f39cef9c3cf44539310a6d sched_ext: Relocate scx_bpf_task_cgroup() and its BTF_ID to the end of kfunc section
+d4ae868c6b7d6aaa29c86c4f72f68d2252709178 sched_ext: Wrap global DSQs in per-node structure
+363cd075e97058f70404ed34955864b99530cbdb sched_ext: Factor out pnode allocation and deallocation into helpers
+053d27fba582b6c33531aa4d4f7d4e7ee73f193a sched_ext: Change find_global_dsq() to take CPU number instead of task
+ea4593e97a1c0b4b84125dd570b8694bda45c3e0 sched_ext: Relocate run_deferred() and its callees
+8c1b9453fde6ed3490508974d8134355e8c3c476 sched_ext: Convert deferred_reenq_locals from llist to regular list
+0c4df54ad8cd52cc165fe2c51fec87e311372699 sched_ext: Wrap deferred_reenq_local_node into a struct
+9c34c5074d1bc22072fc7f9c86b0028f7e273b2c sched_ext: Introduce scx_bpf_dsq_reenq() for remote local DSQ reenqueue
+ffa7ae0724e4ee548c87a56dc7a7a0ab7ee0c1d6 sched_ext: Add reenq_flags plumbing to scx_bpf_dsq_reenq()
+30b0515342db48ac9ffd9999648de0f7ca1d6a87 sched_ext: Add per-CPU data to DSQs
+35250720d6ed1e83e0d1e12b7e8bf7b8316d7d58 sched_ext: Factor out nldsq_cursor_next_task() and nldsq_cursor_lost_task()
+84b1a0ea0b7c23dec240783a592e480780efe459 sched_ext: Implement scx_bpf_dsq_reenq() for user DSQs
+a90449b126824b796e9aeefc2b009e57f38af168 sched_ext: Optimize schedule_dsq_reenq() with lockless fast path
+7203d77d6e04f83f7b78838eed099d9cac31700b sched_ext: Simplify task state handling
+ce897abc21b2d5e74981ff2b848f3a08a580d50a sched_ext: Add SCX_TASK_REENQ_REASON flags
 
---===============7048246473365801484==--
+--===============7806120601262437673==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-441983fc6096-eaa03e6b1a3e.txt
+
+26b9c7c70027f011a5f39cef9c3cf44539310a6d sched_ext: Relocate scx_bpf_task_cgroup() and its BTF_ID to the end of kfunc section
+d4ae868c6b7d6aaa29c86c4f72f68d2252709178 sched_ext: Wrap global DSQs in per-node structure
+363cd075e97058f70404ed34955864b99530cbdb sched_ext: Factor out pnode allocation and deallocation into helpers
+053d27fba582b6c33531aa4d4f7d4e7ee73f193a sched_ext: Change find_global_dsq() to take CPU number instead of task
+ea4593e97a1c0b4b84125dd570b8694bda45c3e0 sched_ext: Relocate run_deferred() and its callees
+8c1b9453fde6ed3490508974d8134355e8c3c476 sched_ext: Convert deferred_reenq_locals from llist to regular list
+0c4df54ad8cd52cc165fe2c51fec87e311372699 sched_ext: Wrap deferred_reenq_local_node into a struct
+9c34c5074d1bc22072fc7f9c86b0028f7e273b2c sched_ext: Introduce scx_bpf_dsq_reenq() for remote local DSQ reenqueue
+ffa7ae0724e4ee548c87a56dc7a7a0ab7ee0c1d6 sched_ext: Add reenq_flags plumbing to scx_bpf_dsq_reenq()
+30b0515342db48ac9ffd9999648de0f7ca1d6a87 sched_ext: Add per-CPU data to DSQs
+35250720d6ed1e83e0d1e12b7e8bf7b8316d7d58 sched_ext: Factor out nldsq_cursor_next_task() and nldsq_cursor_lost_task()
+84b1a0ea0b7c23dec240783a592e480780efe459 sched_ext: Implement scx_bpf_dsq_reenq() for user DSQs
+a90449b126824b796e9aeefc2b009e57f38af168 sched_ext: Optimize schedule_dsq_reenq() with lockless fast path
+7203d77d6e04f83f7b78838eed099d9cac31700b sched_ext: Simplify task state handling
+ce897abc21b2d5e74981ff2b848f3a08a580d50a sched_ext: Add SCX_TASK_REENQ_REASON flags
+eaa03e6b1a3e2c9964ff21759557ebff1dbdce81 Merge branch 'for-7.1' into for-next
+
+--===============7806120601262437673==--
