@@ -1,55 +1,55 @@
-Content-Type: multipart/mixed; boundary="===============1710093168015215352=="
+Content-Type: multipart/mixed; boundary="===============1903367297531699330=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux
-Date: Sat, 07 Mar 2026 10:30:43 -0000
-Message-Id: <177287944322.2124979.11521657424420606332@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/cip/linux-cip
+Date: Sat, 07 Mar 2026 10:35:50 -0000
+Message-Id: <177287975012.2129584.1229922558628633399@gitolite.kernel.org>
 
---===============1710093168015215352==
+--===============1903367297531699330==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux
-user: axboe
+repo: pub/scm/linux/kernel/git/cip/linux-cip
+user: pavel
 changes:
-  - ref: refs/heads/master
-    old: 325a118c12045239076b7ea9e66391dd6f56f72e
-    new: 4ae12d8bd9a830799db335ee661d6cbc6597f838
-    log: revlist-325a118c1204-4ae12d8bd9a8.txt
+  - ref: refs/heads/linux-6.1.y-cip
+    old: 8b01676f5130eb96966a155b3d62247592c0600c
+    new: 397b57a918fd8c2025e48cd26c6c60839294f3da
+    log: revlist-8b01676f5130-397b57a918fd.txt
 
---===============1710093168015215352==
+--===============1903367297531699330==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-325a118c1204-4ae12d8bd9a8.txt
+Content-Disposition: attachment; filename=revlist-8b01676f5130-397b57a918fd.txt
 
-8678591b47469fe16357234efef9b260317b8be4 kbuild: Split .modinfo out from ELF_DETAILS
-d2395bb194ef212b36521ec4fa85e38b45675acb genksyms: Fix parsing a declarator with a preceding attribute
-459cb3c054c2352bb321648744b620259a716b60 kbuild: install-extmod-build: Package resolve_btfids if necessary
-7d0bf050a58747bb8f977a6281e63660a66d1c81 smb/client: make SMB2 maperror KUnit tests a separate module
-6f0402539b7da2b941a5a43754c15e53ac3cc276 smb: update some doc references
-fdb12c8a24a453bdd6759979b6ef1e04ebd4beb4 kbuild: Leave objtool binary around with 'make clean'
-5f25805303e201f3afaff0a90f7c7ce257468704 s390/xor: Fix xor_xc_5() inline assembly
-f775276edc0c505dc0f782773796c189f31a1123 s390/xor: Fix xor_xc_2() inline assembly constraints
-87ff6da3001b2a35d241c5d965b82536f6418277 s390/xor: Improve inline assembly constraints
-674c5ff0f440a051ebf299d29a4c013133d81a65 s390/stackleak: Fix __stackleak_poison() inline assembly constraint
-12c43a062acb0ac137fc2a4a106d4d084b8c5416 smb/client: fix buffer size for smb311_posix_qinfo in smb2_compound_op()
-9621b996e4db1dbc2b3dc5d5910b7d6179397320 smb/client: fix buffer size for smb311_posix_qinfo in SMB311_posix_query_info()
-8098179dc981c361c4ff238bc3935329a93bbdfb smb/client: remove unused SMB311_posix_query_info()
-26bc83b88bbbf054f0980a4a42047a8d1e210e4c smb: client: Compare MACs in constant time
-212dd8477653fe72c2a6a99143cd662f6430cf4f arm64: Silence sparse warnings caused by the type casting in (cmp)xchg
-c25c4aa3f79a488cc270507935a29c07dc6bddfc arm64: mm: Add PTE_DIRTY back to PAGE_KERNEL* to fix kexec/hibernation
-340cea84f691c5206561bb2e0147158fe02070be cifs: open files should not hold ref on superblock
-0100e495cdf0436bd4ed2dc034d385b44cb5993c arm64: make runtime const not usable by modules
-048efe129a297256d3c2088cf8d79515ff5ec864 smb: client: fix oops due to uninitialised var in smb2_unlink()
-97c5550b763171dbef61e6239cab372b9f9cd4a2 arm64: contpte: fix set_access_flags() no-op check for SMMU/ATS faults
-d87c828daa7ead9763416f75cc416496969cf1dc selftest/arm64: Fix sve2p1_sigill() to hwcap test
-e0c505cb764e73273b3ddce80b5944fa5b796bd9 Merge tag 'v7.0-rc2-smb3-client-fixes' of git://git.samba.org/sfrench/cifs-2.6
-4660e168c6fd0cd448315bd617c5df7bb21daaf1 Merge tag 'arm64-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/arm64/linux
-591d8796b26ff707e35aad00f1274049126feba5 Merge tag 's390-7.0-4' of git://git.kernel.org/pub/scm/linux/kernel/git/s390/linux
-4ae12d8bd9a830799db335ee661d6cbc6597f838 Merge tag 'kbuild-fixes-7.0-2' of git://git.kernel.org/pub/scm/linux/kernel/git/kbuild/linux
+ceaec94c3818ede63a197c230a1de592416c106d dt-bindings: display: bridge: renesas,dsi: allow properties from dsi-controller
+2087f96f964097266b03d8f0882e64b8d19fafad dt-bindings: display: bridge: renesas,dsi: Document RZ/V2H(P) and RZ/V2N
+4803e039891215153e90315b470768b726912fd7 media: dt-bindings: media: renesas,vsp1: Document RZ/V2H(P)
+6286d1dfc7efbebc37523a8ab94bab1824487986 media: dt-bindings: media: renesas,fcp: Document RZ/V2H(P) SoC
+e86c50e07f9107f8bb9b5ded10923c9abfaeaa27 dt-bindings: display: renesas,rzg2l-du: Add support for RZ/V2H(P) SoC
+8ac8c1a71e996a4d3d5551cb5c08ee6bad67aee2 clk: renesas: rzv2h: Add instance field to struct pll
+154fb7bc82b1dc1201fa795d4c652ab2c9b1b027 clk: renesas: rzv2h: Use GENMASK for PLL fields
+f827cbc43d9b10accc4efcb5dd638f22a9cba00a clk: renesas: rzv2h: Add support for DSI clocks
+7e8547052ef06505e801b00e4dac068a9364b5f5 clk: renesas: r9a09g057: Add clock and reset entries for DSI and LCDC
+60d321420bfe2ea4c82b9ed4a2e7a5e82fe027b7 drm: renesas: rz-du: mipi_dsi: Simplify HSFREQ calculation
+7bc11d3d4af28fd68e9b8e327c5b289a0c1db355 drm: renesas: rz-du: mipi_dsi: Use VCLK for HSFREQ calculation
+f2d48c5e06304b72d42389ccd96d481d2061f231 drm: renesas: rz-du: mipi_dsi: Add min check for VCLK range
+06a0c859fd70db081c5957d8d5e53874cfe148e9 drm: renesas: rz-du: mipi_dsi: Add OF data support
+6c662f91c25273c696ea2bc08f57c7d42043f139 drm: renesas: rz-du: mipi_dsi: Make "rst" reset control optional for RZ/V2H(P)
+727af4129085bd37f69b003fb4d18cf291158cac drm: renesas: rz-du: mipi_dsi: Use mHz for D-PHY frequency calculations
+824c66939acdcf3970cd6384655f9fa6bfb1a124 drm: renesas: rz-du: mipi_dsi: Add feature flag for 16BPP support
+792e29a3b6c3d4ee781648ad79657b38c76d206a drm: renesas: rz-du: mipi_dsi: Add dphy_late_init() callback for RZ/V2H(P)
+f128d69aff200869e072558dd45800672e962bf6 drm: renesas: rz-du: mipi_dsi: Add function pointers for configuring VCLK and mode validation
+af59cb3c0ee6d19b86c91ec6c5f1985424859435 drm: renesas: rz-du: mipi_dsi: Add LPCLK clock support
+bd4090db9559c8b4e727567c7289c38544a5c51d drm: renesas: rz-du: mipi_dsi: Add support for RZ/V2H(P) SoC
+2b1d656767b79aa667dc7e2a76cac7e6ef8abac1 drm: renesas: rz-du: Add support for RZ/V2H(P) SoC
+0891ad261ddb14787274c77a6cbab3e85e74d605 drm: renesas: rz-du: Drop ARCH_RZG2L dependency
+b36f6ae519bf907243f8fded09cad5661e0d6aa7 arm64: dts: renesas: r9a09g057: Add FCPV and VSPD nodes
+c02b97bb7d0f4897fb1b430c5c12f08700c78637 arm64: dts: renesas: r9a09g057: Add DU and DSI nodes
+397b57a918fd8c2025e48cd26c6c60839294f3da arm64: dts: renesas: r9a09g057h44-rzv2h-evk: Enable DU and DSI
 
---===============1710093168015215352==--
+--===============1903367297531699330==--
