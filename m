@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2274286221033709164=="
+Content-Type: multipart/mixed; boundary="===============7513636210793964726=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Sat, 07 Mar 2026 03:39:06 -0000
-Message-Id: <177285474610.1805933.853565326232414415@gitolite.kernel.org>
+Date: Sat, 07 Mar 2026 03:39:07 -0000
+Message-Id: <177285474779.1806045.8323039006993468091@gitolite.kernel.org>
 
---===============2274286221033709164==
+--===============7513636210793964726==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/mm-new
-    old: 7fcd8889fbf318409163ff5033fe161dd2a73243
-    new: fee41c6c27b01fdd910a9d9cd4f3b978efb92ea2
-    log: revlist-7fcd8889fbf3-fee41c6c27b0.txt
+  - ref: refs/heads/mm-unstable
+    old: f45119e9a2431c1fadbb3d21fb31d04b58e910b0
+    new: 49cb736d092aaa856283e33b78ec3afb3964d82f
+    log: revlist-f45119e9a243-49cb736d092a.txt
 
---===============2274286221033709164==
+--===============7513636210793964726==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7fcd8889fbf3-fee41c6c27b0.txt
+Content-Disposition: attachment; filename=revlist-f45119e9a243-49cb736d092a.txt
 
 1adb6290cecfbe5e0810931e7ccf52419ba94803 mm: allow __GFP_RETRY_MAYFAIL in vmalloc
 70aa57d7dc9e1b80921e7eb1c1c8c2e7c43537e2 crash_dump: don't log dm-crypt key bytes in read_key_from_user_keying
@@ -206,111 +206,5 @@ ef5daf544d6964013dbff6a2121af291bc6f5fe6 mm/memory: use __zap_vma_range() in zap
 43d2ea3c0f375c6d1f17846cd8d9499df4262785 mm: rename zap_vma_ptes() to zap_special_vma_range()
 7aee78291863158144d158577b36f2dfcb045cf6 mm/memory: support VM_MIXEDMAP in zap_special_vma_range()
 49cb736d092aaa856283e33b78ec3afb3964d82f kasan: docs: SLUB is the only remaining slab implementation
-34e9e8c185ffa3dcf19e04f9e2143cabb9ca6b0e mm: memcontrol: remove dead code of checking parent memory cgroup
-c8b3254e786949c3eb349789d3053c86705e00ae mm: workingset: use folio_lruvec() in workingset_refault()
-9eef1eaf43a58123a2d9d8ad0ab9d05b00eb7c0a mm: rename unlock_page_lruvec_irq and its variants
-8b5f1689fadcde0041630057a3cc4ff1f51c8e1c mm: vmscan: prepare for the refactoring the move_folios_to_lru()
-17a4927c195d91ec48bfa3acafb82ae46deebc87 mm: vmscan: refactor move_folios_to_lru()
-b914b4d8ecfa8317eac94bd8394e4bf76ebc74a1 mm: memcontrol: allocate object cgroup for non-kmem case
-344a325d7e1b39a5a0eef7cce91186e8960b2c3a mm: memcontrol: return root object cgroup for root memory cgroup
-33992284e5f323daee46194d353f4035c7bcf576 mm: memcontrol: prevent memory cgroup release in get_mem_cgroup_from_folio()
-cb61c96cbf29738952edb01fb58925e25b68bfb0 buffer: prevent memory cgroup release in folio_alloc_buffers()
-2d91b042f406d52ec031936d3477fafa25504c35 writeback: prevent memory cgroup release in writeback module
-162772a726e8d72d4caffa5c56a560aa51a67951 mm: memcontrol: prevent memory cgroup release in count_memcg_folio_events()
-98702c3f858b9aa36c7b3947649c3b32f0096c0d mm: page_io: prevent memory cgroup release in page_io module
-1db97d746723a0a00a23efa0c9c2da4ada0b7e11 mm: migrate: prevent memory cgroup release in folio_migrate_mapping()
-746d89b1227c864f9db086da29385a971acddb9c mm: mglru: prevent memory cgroup release in mglru
-f60bbc8ffd4a47535f3126601880b8b9dc67181f mm: memcontrol: prevent memory cgroup release in mem_cgroup_swap_full()
-b41ca71eb61f931b6c9b52ce09db1f48ecf3e6ec mm: workingset: prevent memory cgroup release in lru_gen_eviction()
-3e17dd5cf5e94483102bfca4d063a6c8bbe0baf2 mm: thp: prevent memory cgroup release in folio_split_queue_lock{_irqsave}()
-553d6ca7cb74395815ba36ffb0326cf1e67aa79e mm: zswap: prevent memory cgroup release in zswap_compress()
-6ff6d27c5630837e5785c40fc5d2277fecaff112 mm: workingset: prevent lruvec release in workingset_refault()
-9fcc6bad80ae5608e00014350493ff947400f6c9 mm: zswap: prevent lruvec release in zswap_folio_swapin()
-686860b2f93f438816c51e183439dd9b61c03e1c mm: swap: prevent lruvec release in lru_gen_clear_refs()
-4e99cb8e23284d7f63eaed40a7b6a07a4660d432 mm: workingset: prevent lruvec release in workingset_activation()
-3e84bb6a6dd0e4ca05a18dc776a689d22c16d651 mm: do not open-code lruvec lock
-5080672b6b13ad5b030f7f0e6d1a0b142631f24c mm: memcontrol: prepare for reparenting LRU pages for lruvec lock
-5504453256c22974d769f35ff98153955b037275 mm: vmscan: prepare for reparenting traditional LRU folios
-6adc1b8a93d5c8a93991bba20c94022e97c9d2a8 mm: vmscan: prepare for reparenting MGLRU folios
-11d6ee6f16802e3647a33352f88fcdcb9d805332 mm: memcontrol: refactor memcg_reparent_objcgs()
-57b640e1580d84851f90d677c58aaf3e7d2ab7a3 mm: workingset: use lruvec_lru_size() to get the number of lru pages
-2a1aa3d181eb5aa835efed5c26bde109be97c04b mm: memcontrol: refactor mod_memcg_state() and mod_memcg_lruvec_state()
-6f61629df3111171a9d218db7b9121f1f94c7aa3 mm: memcontrol: prepare for reparenting non-hierarchical stats
-50a501f54ff3d2bcad30f69d7233e4848affa98f mm: memcontrol: convert objcg to be per-memcg per-node type
-13b77072f62edb6096bff8f941c76ff1c6ef9899 mm: memcontrol: eliminate the problem of dying memory cgroup for LRU folios
-bd50e572f731d8c95f485e9d647dbd1f0e802bb7 mm: lru: add VM_WARN_ON_ONCE_FOLIO to lru maintenance helpers
-e940f23f6943a71b0b538a8be91cdef4f0ca9322 mm: introduce zone lock wrappers
-0b392de7b853f3f533035d14f610191933641c5f mm: convert zone lock users to wrappers
-7ccd71a8162feb9c157868373c8a7d14d1743950 mm: convert compaction to zone lock wrappers
-fdd3cde31994298d416ad2078f9418c1e7cbc3ec mm: rename zone->lock to zone->_lock
-d13a56c10efe6059097e6761ef6d1ac3b165b74a mm-convert-zone-lock-users-to-wrappers-fix-fix
-6be8839704574c3dc357568eac6a1ac4dfe848a7 mm: fix remaining zone->lock references
-f02d3ec406b73db0ad598a82124e23de6d5854c4 mm: documentation: standardize on "zone lock" terminology
-20a53dae775a0bcb995f41303ef90623fe209a35 mm: add tracepoints for zone lock
-22f58358bd46ecbfaa0368327bdb905a5bbb1760 mm: use inline helper functions instead of ugly macros
-949d9655f38920ed192db681d2da979cb285d1d8 mm: rename ptep/pmdp_clear_young_notify() to ptep/pmdp_test_and_clear_young_notify()
-12dfc6bd6b67c1055ac123217ad99652cf972c88 mm: rmap: add a ZONE_DEVICE folio warning in folio_referenced()
-17486455c48b0d8f61489094e95556606b592efe mm: add a batched helper to clear the young flag for large folios
-b14812c2311bdd54887b9d51cbe2ac9d98bd935f mm: support batched checking of the young flag for MGLRU
-e1180ffddb19a778e92bf42226852ee0623391ca arm64: mm: implement the architecture-specific test_and_clear_young_ptes()
-c089f7952354b7bc83b09fd9e95ce1568587c67f zram: do not autocorrect bad recompression parameters
-415ebde759d91cfba992a4fc3e5e1060678e6d81 zram: drop ->num_active_comps
-3695c5fb8b5f6797dd10576c375f2008ca8df558 zram: recompression priority param should override algo
-39fc94f6c02bc9a2cfe409b01b2a6731692c29c0 zram: update recompression documentation
-982d87bb0b1aa6fa1fac6f1f4aac94fb2f04fbf7 zram: remove chained recompression
-9f1165867b7514dfeb960344da7f1f89e67255b8 mm: memcg: factor out trylock_stock() and unlock_stock()
-9acf87e9a8176251108822fddb5554a23e90cf35 mm: memcg: simplify objcg charge size and stock remainder math
-2292542c8685759b6789c83157d10bdfb4be3de4 mm: memcontrol: split out __obj_cgroup_charge()
-f2da11c4eee7acd0f1ea079f23f45e059aa8cf69 mm: memcontrol: use __account_obj_stock() in the !locked path
-8999f7b01ddd079fd8b7030ddf284d8be7e0cf9e mm: memcg: separate slab stat accounting from objcg charge cache
-114a9cc57bfb6db55ca20b7caf69d6ea4d994aa9 mm/page_reporting: add PAGE_REPORTING_ORDER_UNSPECIFIED
-dac8a38f6b7505ea77ee9a04f986a3af6e964ae5 mm-page_reporting-add-page_reporting_order_unspecified-fix
-5d4ec44c155401fb73b2a148f433cb34d99158de virtio_balloon: set unspecified page reporting order
-609dd348c1e5b297a00d219ce3b4e174be0f9ddc hv_balloon: set unspecified page reporting order
-8d481b4e44c1a62e95f3883003cf65a8ddbd8225 mm/page_reporting: change PAGE_REPORTING_ORDER_UNSPECIFIED to -1
-381c792744b7152800b1beaf72aa267e8de00b97 mm/page_reporting: change page_reporting_order to PAGE_REPORTING_ORDER_UNSPECIFIED
-a2f0e76d9dcc5ca7af7d19c0381797deb80c207b mm/oom_kill.c: simpilfy rcu call with guard(rcu)
-e4f2acd0865d669899a5c748d49a4bd7fb18d70b mm/vmscan: fix unintended mtc->nmask mutation in alloc_demote_folio()
-22e6ac9369899f8e120cc6bc75cd3a16a82d3280 kasan: fix bug type classification for SW_TAGS mode
-d89586f6c8e6a787d60671474f3e70d74dc348fa mm: rename VMA flag helpers to be more readable
-7d18c68c35345cda8574e0cc1b1315a3b15a9401 mm: add vma_desc_test_all() and use it
-f21372ba6e334dd72a44e85519499b0e6540d465 mm: always inline __mk_vma_flags() and invoked functions
-7448d1bd07c4c702570b2f2455b7b64921e9390d mm: reintroduce vma_flags_test() as a singular flag test
-230cb46e89bd4ba50edefe631eac59511731aa6a mm: reintroduce vma_desc_test() as a singular flag test
-337a313c675f9094936974e1cee337a2a6fb5f49 tools/testing/vma: add test for vma_flags_test(), vma_desc_test()
-28c05098eca4b012c6b68cf974f51df0815fca59 tools-testing-vma-add-test-for-vma_flags_test-vma_desc_test-fix
-a30d007cb1dfaa7e8f55b9474db632e133d0bb0f MAINTAINERS: add mm-related procfs files to MM sections
-3894d008d79b6c4d9cf09822ae2681d07e2ae4b0 mm/percpu-internal.h: optimise pcpu_chunk_struct to save memory
-76543ef13f6850645f34fdb3bd823afd30b9703b zram: use GFP_KERNEL for post-processing slot allocation
-ea710deee17fa4f68bbfec6aa832ccff0d93ed73 ubsan: turn off kmsan inside of ubsan instrumentation
-6c41b23d5f57f306c940c65a2a5240bc20a95659 mm: prevent droppable mappings from being locked
-0dde1aabaabd5d298f864a407e6ac227b354f5d9 lib/maple_tree: fix swapped arguments in mas_safe_pivot() call
-f259ac2baa11e11d6c5628c863fd9bacfa6de47d userfaultfd: introduce mfill_copy_folio_locked() helper
-33199a43dda2061e06131005388c0676acc1b65a userfaultfd: introduce struct mfill_state
-79ca068ae670db82d977c595bdd613dbf206e5ad userfaultfd: introduce mfill_get_pmd() helper
-2e5d8796e0a63bae31a435d92931bb317cc4ea75 userfaultfd: introduce mfill_get_vma() and mfill_put_vma()
-91990bc3c3d503c00cb418e51179a82fcbd4f446 userfaultfd: retry copying with locks dropped in mfill_atomic_pte_copy()
-4f2c2d70e8dbd40403761fcace5d60a3c8eb2b7c userfaultfd: move vma_can_userfault out of line
-bbddeeffd8c2ee420a54ec439458ecfdafa12296 userfaultfd: introduce vm_uffd_ops
-e75f37ba9c49a2caedc1c43d9dabefd44c805c6d shmem, userfaultfd: use a VMA callback to handle UFFDIO_CONTINUE
-951924f57afa09a4a23591dda6727ca37ef8520d userfaultfd: introduce vm_uffd_ops->alloc_folio()
-e2127bbe602fcfb07892487d973d3f10eb6c0ca8 shmem, userfaultfd: implement shmem uffd operations using vm_uffd_ops
-61d6f53d8df6406551b7469420cb7f88071ba390 userfaultfd: mfill_atomic(): remove retry logic
-8e4826c6e5ddcbd4ed6028d0c82f832aa41641ed mm: generalize handling of userfaults in __do_fault()
-7f68b21d1952d018d427122b1b84ea9729fd0271 KVM: guest_memfd: implement userfaultfd operations
-8d104a4faf04e02995944baba5a7e07cdc5e3ab3 KVM: selftests: test userfaultfd minor for guest_memfd
-fdbe682ecb092842e73b4d9bbb21f40abdfbf189 KVM: selftests: test userfaultfd missing for guest_memfd
-a4e039b9cae8cfe11a946b5b925a5450cc09886c mm/damon: add CONFIG_DAMON_DEBUG_SANITY
-67063550131d5934a8b2e4bc8d70ee579700007f mm/damon/core: add damon_new_region() debug_sanity check
-8f7d2974552b3c6d6141a3f48032c1a00ce4a8ef mm/damon/core: add damon_del_region() debug_sanity check
-caaf479ac89f65286b1a3f8e686def040ebbbbcf mm/damon/core: add damon_nr_regions() debug_sanity check
-ce7a8db27cc7a3360241a384e4f4358c5ef860c7 mm/damon/core: add damon_merge_two_regions() debug_sanity check
-a560701b88a73e196fd56026e2e9a1a740399297 mm/damon/core: add damon_merge_regions_of() debug_sanity check
-4964413ae83cb4188b9256e0f3fb8ee2dae219ac mm/damon/core: add damon_split_region_at() debug_sanity check
-766ba5411e0df6ae6fff924cd81614149f78fc16 mm/damon/core: add damon_reset_aggregated() debug_sanity check
-8332b9c7461dd3c322bef5119e306664cb019b42 mm/damon/tests/.kunitconifg: enable DAMON_DEBUG_SANITY
-fa9da02ac134f79d0b0b1d1cd8679ab661e765d2 selftests/damon/config: enable DAMON_DEBUG_SANITY
-a47b8ffe65028b517932f89e22dcb65ebd8135be mm/migrate_device: document folio_get requirement before frozen PMD split
-fee41c6c27b01fdd910a9d9cd4f3b978efb92ea2 mm/vmscan: avoid false-positive -Wuninitialized warning
 
---===============2274286221033709164==--
+--===============7513636210793964726==--
