@@ -1,19 +1,35 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/thomas.weissschuh/linux
-Date: Sat, 07 Mar 2026 14:54:25 -0000
-Message-Id: <177289526502.2346666.11811499202882599789@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tj/sched_ext
+Date: Sat, 07 Mar 2026 14:59:59 -0000
+Message-Id: <177289559931.2350786.9976500428169829752@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/thomas.weissschuh/linux
-user: thomas.weissschuh
+repo: pub/scm/linux/kernel/git/tj/sched_ext
+user: tj
 changes:
-  - ref: refs/heads/b4/kbuild-uapi-c
-    old: 0e24d72b7819b3a5142507d142a909f647b9f550
-    new: dcc5725416243db38972b3eb0b7ff989040e1a02
+  - ref: refs/heads/for-7.0-fixes
+    old: 2a0596d516870951ce0e8edf510e48c87cb80761
+    new: 57ccf5ccdc56954f2a91a7f66684fd31c566bde5
     log: |
-         dcc5725416243db38972b3eb0b7ff989040e1a02 kbuild: uapi: also test UAPI headers against C++ compilers
+         57ccf5ccdc56954f2a91a7f66684fd31c566bde5 sched_ext: Fix enqueue_task_scx() truncation of upper enqueue flags
+         
+  - ref: refs/heads/for-7.1
+    old: 4f8b122848dbc353a193de0fa707bc40b5f067ff
+    new: f68971bcec23c53979531aab0904afec9b8d0b4a
+    log: |
+         2a0596d516870951ce0e8edf510e48c87cb80761 sched_ext: Documentation: Update sched-ext.rst
+         57ccf5ccdc56954f2a91a7f66684fd31c566bde5 sched_ext: Fix enqueue_task_scx() truncation of upper enqueue flags
+         f68971bcec23c53979531aab0904afec9b8d0b4a Merge branch 'for-7.0-fixes' into for-7.1
+         
+  - ref: refs/heads/for-next
+    old: 23d40b1e917414887f592d56750ce82012ce1bc8
+    new: 0ea1c78876f00858ed156b05c280d418638794bb
+    log: |
+         57ccf5ccdc56954f2a91a7f66684fd31c566bde5 sched_ext: Fix enqueue_task_scx() truncation of upper enqueue flags
+         f68971bcec23c53979531aab0904afec9b8d0b4a Merge branch 'for-7.0-fixes' into for-7.1
+         0ea1c78876f00858ed156b05c280d418638794bb Merge branch 'for-7.1' into for-next
          
