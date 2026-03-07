@@ -1,55 +1,77 @@
-Content-Type: multipart/mixed; boundary="===============1903367297531699330=="
+Content-Type: multipart/mixed; boundary="===============5140023242698521646=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/cip/linux-cip
-Date: Sat, 07 Mar 2026 10:35:50 -0000
-Message-Id: <177287975012.2129584.1229922558628633399@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/powerpc/linux
+Date: Sat, 07 Mar 2026 10:37:16 -0000
+Message-Id: <177287983628.2130265.4624928142945998218@gitolite.kernel.org>
 
---===============1903367297531699330==
+--===============5140023242698521646==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/cip/linux-cip
-user: pavel
+repo: pub/scm/linux/kernel/git/powerpc/linux
+user: maddy
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/linux-6.1.y-cip
-    old: 8b01676f5130eb96966a155b3d62247592c0600c
-    new: 397b57a918fd8c2025e48cd26c6c60839294f3da
-    log: revlist-8b01676f5130-397b57a918fd.txt
+  - ref: refs/heads/fixes-test
+    old: 1a35cff9978afbe9112d5ee43e50b5beff358439
+    new: 35e4f2a17eb40288f9bcdb09549fa04a63a96279
+    log: revlist-1a35cff9978a-35e4f2a17eb4.txt
 
---===============1903367297531699330==
+--===============5140023242698521646==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8b01676f5130-397b57a918fd.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-ceaec94c3818ede63a197c230a1de592416c106d dt-bindings: display: bridge: renesas,dsi: allow properties from dsi-controller
-2087f96f964097266b03d8f0882e64b8d19fafad dt-bindings: display: bridge: renesas,dsi: Document RZ/V2H(P) and RZ/V2N
-4803e039891215153e90315b470768b726912fd7 media: dt-bindings: media: renesas,vsp1: Document RZ/V2H(P)
-6286d1dfc7efbebc37523a8ab94bab1824487986 media: dt-bindings: media: renesas,fcp: Document RZ/V2H(P) SoC
-e86c50e07f9107f8bb9b5ded10923c9abfaeaa27 dt-bindings: display: renesas,rzg2l-du: Add support for RZ/V2H(P) SoC
-8ac8c1a71e996a4d3d5551cb5c08ee6bad67aee2 clk: renesas: rzv2h: Add instance field to struct pll
-154fb7bc82b1dc1201fa795d4c652ab2c9b1b027 clk: renesas: rzv2h: Use GENMASK for PLL fields
-f827cbc43d9b10accc4efcb5dd638f22a9cba00a clk: renesas: rzv2h: Add support for DSI clocks
-7e8547052ef06505e801b00e4dac068a9364b5f5 clk: renesas: r9a09g057: Add clock and reset entries for DSI and LCDC
-60d321420bfe2ea4c82b9ed4a2e7a5e82fe027b7 drm: renesas: rz-du: mipi_dsi: Simplify HSFREQ calculation
-7bc11d3d4af28fd68e9b8e327c5b289a0c1db355 drm: renesas: rz-du: mipi_dsi: Use VCLK for HSFREQ calculation
-f2d48c5e06304b72d42389ccd96d481d2061f231 drm: renesas: rz-du: mipi_dsi: Add min check for VCLK range
-06a0c859fd70db081c5957d8d5e53874cfe148e9 drm: renesas: rz-du: mipi_dsi: Add OF data support
-6c662f91c25273c696ea2bc08f57c7d42043f139 drm: renesas: rz-du: mipi_dsi: Make "rst" reset control optional for RZ/V2H(P)
-727af4129085bd37f69b003fb4d18cf291158cac drm: renesas: rz-du: mipi_dsi: Use mHz for D-PHY frequency calculations
-824c66939acdcf3970cd6384655f9fa6bfb1a124 drm: renesas: rz-du: mipi_dsi: Add feature flag for 16BPP support
-792e29a3b6c3d4ee781648ad79657b38c76d206a drm: renesas: rz-du: mipi_dsi: Add dphy_late_init() callback for RZ/V2H(P)
-f128d69aff200869e072558dd45800672e962bf6 drm: renesas: rz-du: mipi_dsi: Add function pointers for configuring VCLK and mode validation
-af59cb3c0ee6d19b86c91ec6c5f1985424859435 drm: renesas: rz-du: mipi_dsi: Add LPCLK clock support
-bd4090db9559c8b4e727567c7289c38544a5c51d drm: renesas: rz-du: mipi_dsi: Add support for RZ/V2H(P) SoC
-2b1d656767b79aa667dc7e2a76cac7e6ef8abac1 drm: renesas: rz-du: Add support for RZ/V2H(P) SoC
-0891ad261ddb14787274c77a6cbab3e85e74d605 drm: renesas: rz-du: Drop ARCH_RZG2L dependency
-b36f6ae519bf907243f8fded09cad5661e0d6aa7 arm64: dts: renesas: r9a09g057: Add FCPV and VSPD nodes
-c02b97bb7d0f4897fb1b430c5c12f08700c78637 arm64: dts: renesas: r9a09g057: Add DU and DSI nodes
-397b57a918fd8c2025e48cd26c6c60839294f3da arm64: dts: renesas: r9a09g057h44-rzv2h-evk: Enable DU and DSI
+certificate version 0.1
+pusher Madhavan Srinivasan <maddy@linux.ibm.com> 1772879830 +0530
+pushee gitolite.kernel.org:pub/scm/linux/kernel/git/powerpc/linux
+nonce 1772879829-d6573074df803d880c9f0562d29d03368bff0428
 
---===============1903367297531699330==--
+1a35cff9978afbe9112d5ee43e50b5beff358439 35e4f2a17eb40288f9bcdb09549fa04a63a96279 refs/heads/fixes-test
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAABCgAdFiEEqX2DNAOgU8sBX3pRpnEsdPSHZJQFAmmr/9YACgkQpnEsdPSH
+ZJTByxAAhJTAvJlQnEVH/S4NczP1YPqs/ZlDGrNm8cUNt1kn80HyrBwp6SQxTe6G
+3qgb7cotLXaiGJy4J/4wqvirdMH/FlAvDigkf5MlM/+rDNpxAPWL9l0TabqSfy/s
+c7G0QE1xqDOSERUwN5gT+V78D9Q/q85YvF5UQaMCdXpRz/CVDlwNtyrgTDECTpm3
+FsBhtaAFt96km5/mYn+lq1kJH7sZBeplAhm8R+mdKTaaG5ySB6yG2/cStxiu6z9q
+8Uejms5PAqb5lTZ8CR9VIuvVGxIJa76O9WMMR4FrdgWrH1Y9oC/ZoOYNrPowCMNn
+IF/gto29Pjo0lndVlIKuSAP6UDGTzPjEtwUg5mCppGNWLdZXJn37qGbmeKzmQYB2
+xk9XPQYuCUy5lCywEso2ObxYBbuDV55ROZvDd/xeENQeUMWQZwCBlK0HN+x2Wh9A
+sgPQeKfCZpZIFngrbzwjggnqNOG6Px3owyoCDvlS2fiN2Jxo5BWQ4Ju1Vajshc2E
+oEmGT3KSiR+Dz9EmKuGG4II5NWusBFNvgefxtYlAF9l+jKrZlpIGpn2MPpkorLGC
+vuyyXSZqvshIEGDiWYI3QYzhmisGNtkjTU4ptW9ufRhVQcPEpfNYq4sTlSt2XKMD
+V/SIFT4pkDYbgz2MjtK4f5TpSlrvtlASRKeynYc1FLXZe2Ctexg=
+=fvJi
+-----END PGP SIGNATURE-----
+
+--===============5140023242698521646==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-1a35cff9978a-35e4f2a17eb4.txt
+
+73cdf24e81e4eba52a40a6b10c6cf285d0ac23fd powerpc64: make clang cross-build friendly
+875612a7745013a43c67493cb0583ee3f7476344 powerpc64/ftrace: fix OOL stub count with clang
+db54c28702f7270e74dce36c84cb0db4cec96389 powerpc64/ftrace: workaround clang recording GEP in __patchable_function_entries
+521bd39d9d28ce54cbfec7f9b89c94ad4fdb8350 powerpc64/bpf: do not increment tailcall count when prog is NULL
+157820264ac3dadfafffad63184b883eb28f9ae0 powerpc64/bpf: fix the address returned by bpf_get_func_ip
+3727d6ec13665c1d99bf6dedb107104368ba42b4 powerpc64/bpf: use consistent tailcall offset in trampoline
+2d347d10f8e20e28a9eab52edf55079ae1ec0aae powerpc64/bpf: remove BPF redzone protection in trampoline stack
+51b8de4b3d27ec12128fa2405e526c527a77ae65 powerpc64/bpf: fix handling of BPF stack in exception callback
+01b6ac72729610ae732ca2a66e3a642e23f6cd60 powerpc64/bpf: fix kfunc call support
+202d23eeccd4b12047869538d6fb91d1e42c4ddd dt-bindings: powerpc: Add Freescale/NXP MPC83xx SoCs
+691417ffe7821721e0a28bd25ad8c0dc0d4ae4ad powerpc: 83xx: km83xx: Fix keymile vendor prefix
+38ce944d47b717cac6b5f2bae9dd247f87f21ac7 powerpc: dts: mpc8313erdb: Use IRQ_TYPE_* macros
+4f439747811977d05a87da65c1ae11246d4f4dee powerpc: dts: mpc8315erdb: Use IRQ_TYPE_* macros
+31618e0e21c4633c365b26e6d45cae2084f4245b powerpc: dts: mpc8315erdb: Rename LED nodes to comply with schema
+fde54f1a4dc7bfd83908380c0b4b6a830a0f9e01 powerpc: dts: mpc8315erdb: Add missing #cells properties to SPI bus
+6373a2b5c878e920341d7bda84ac1126f72e6a68 powerpc: dts: mpc83xx: Add unit addresses to /memory
+35e4f2a17eb40288f9bcdb09549fa04a63a96279 powerpc/pseries: Correct MSI allocation tracking
+
+--===============5140023242698521646==--
