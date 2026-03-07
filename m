@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8917006972067544148=="
+Content-Type: multipart/mixed; boundary="===============7654068250226482377=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
-Date: Sat, 07 Mar 2026 16:26:37 -0000
-Message-Id: <177290079731.2422070.4458693983362012259@gitolite.kernel.org>
+Date: Sat, 07 Mar 2026 16:26:52 -0000
+Message-Id: <177290081207.2422302.15128599332774769644@gitolite.kernel.org>
 
---===============8917006972067544148==
+--===============7654068250226482377==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/pci/pci
 user: kwilczynski
 changes:
-  - ref: refs/heads/kwilczynski/static-sysfs-attributes
-    old: 637e1e7f5c8f3995d9b33265eecb921606ef1458
+  - ref: refs/heads/for-kernelci
+    old: ea9c921bdd1fd461d2f1f65b3446423e07e2b70e
     new: 81a4eb86eda6221640ed7f21e47c489821229eef
-    log: revlist-637e1e7f5c8f-81a4eb86eda6.txt
+    log: revlist-ea9c921bdd1f-81a4eb86eda6.txt
 
---===============8917006972067544148==
+--===============7654068250226482377==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-637e1e7f5c8f-81a4eb86eda6.txt
+Content-Disposition: attachment; filename=revlist-ea9c921bdd1f-81a4eb86eda6.txt
 
 fed8f26774c42abd32070b0d803f9e44e920e5cd PCI/sysfs: Use PCI resource accessor macros
 15700f94961f49c9aee8da5360dab79ac1d92154 PCI/sysfs: Only allow supported resource types in I/O and MMIO helpers
@@ -47,4 +47,4 @@ c953b967b89cee2faa783f065be63bfcc8971aef PCI/sysfs: Add __weak pci_legacy_has_sp
 7e6a2a504a6caf94e450c416003df260fdae3527 PCI/sysfs: Convert legacy I/O and memory attributes to static definitions
 81a4eb86eda6221640ed7f21e47c489821229eef PCI/sysfs: Remove pci_create_legacy_files() and pci_sysfs_init()
 
---===============8917006972067544148==--
+--===============7654068250226482377==--
