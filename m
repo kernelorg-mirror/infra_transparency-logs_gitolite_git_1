@@ -1,21 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Sat, 07 Mar 2026 03:04:38 -0000
-Message-Id: <177285267879.1777213.13965836934301241625@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Sat, 07 Mar 2026 03:04:40 -0000
+Message-Id: <177285268046.1777296.17178947836095115769@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
+repo: pub/scm/linux/kernel/git/netdev/net-next
 user: kuba
 changes:
   - ref: refs/heads/main
-    old: 4245a79003adf30e67f8e9060915bd05cb31d142
-    new: c113d5e32678c8de40694b738000a4a2143e2f81
+    old: e3f8800aa24369d0766b1005b2b2834b6e262083
+    new: 70eba59f92076d84264762d63d30532685943017
     log: |
-         3aa1417803c1833cbd5bacb7e6a6489a196f2519 net: spacemit: Fix error handling in emac_alloc_rx_desc_buffers()
-         86292155bea578ebab0ca3b65d4d87ecd8a0e9ea net: spacemit: Fix error handling in emac_tx_mem_map()
-         c113d5e32678c8de40694b738000a4a2143e2f81 Merge branch 'net-spacemit-a-few-error-handling-fixes'
+         6c7f710325228a54a364ae433acd8779c2fc2bcf nfc: pn533: drop redundant device reference
+         1a2d4bfa04919c2e1676b756ccc21dd8e22d3838 nfc: port100: drop redundant device reference
+         00e3228702de819690ed86d210fd233a4a1341a3 Merge branch 'nfc-drop-redundant-usb-device-references'
+         70eba59f92076d84264762d63d30532685943017 net: spacemit: Remove unused buff_addr fields
          
