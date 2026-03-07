@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kbuild/linux
-Date: Sat, 07 Mar 2026 00:57:36 -0000
-Message-Id: <177284505656.1678407.7787501985886111607@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Sat, 07 Mar 2026 00:59:57 -0000
+Message-Id: <177284519783.1679407.18065684698954003583@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kbuild/linux
-user: nathan
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
-  - ref: refs/tags/kbuild-fixes-7.0-2
-    old: 0000000000000000000000000000000000000000
-    new: f9f19f1e0fa2aeb33e9046a681519d77e986a74b
-  - ref: refs/tags/v7.0-rc2
-    old: 0000000000000000000000000000000000000000
-    new: 9fad1d148df6f36105159c2503d0ecb1397bc89a
+  - ref: refs/heads/main
+    old: 260d27b3aec9f30d68f9f3cacc674655897eb745
+    new: ad4c9559603e1897e3a978c966b04424be68f4dc
+    log: |
+         ad4c9559603e1897e3a978c966b04424be68f4dc net: annotate data races around sk->sk_prot
+         
