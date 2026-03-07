@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Sat, 07 Mar 2026 00:48:39 -0000
-Message-Id: <177284451905.1670905.1638058512279953499@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kbuild/linux
+Date: Sat, 07 Mar 2026 00:57:36 -0000
+Message-Id: <177284505656.1678407.7787501985886111607@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: kuba
+repo: pub/scm/linux/kernel/git/kbuild/linux
+user: nathan
 changes:
-  - ref: refs/heads/main
-    old: c698f5cc940de5871ea3c65c94f5fd7fbc6844e3
-    new: 260d27b3aec9f30d68f9f3cacc674655897eb745
-    log: |
-         260d27b3aec9f30d68f9f3cacc674655897eb745 net: phy: remove phy_attach
-         
+  - ref: refs/tags/kbuild-fixes-7.0-2
+    old: 0000000000000000000000000000000000000000
+    new: f9f19f1e0fa2aeb33e9046a681519d77e986a74b
+  - ref: refs/tags/v7.0-rc2
+    old: 0000000000000000000000000000000000000000
+    new: 9fad1d148df6f36105159c2503d0ecb1397bc89a
