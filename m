@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0677926764877192968=="
+Content-Type: multipart/mixed; boundary="===============7964571370342634196=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Sun, 08 Mar 2026 10:20:40 -0000
-Message-Id: <177296524086.3264510.3649220701328941129@gitolite.kernel.org>
+Date: Sun, 08 Mar 2026 10:20:48 -0000
+Message-Id: <177296524823.3264737.10173427669158029321@gitolite.kernel.org>
 
---===============0677926764877192968==
+--===============7964571370342634196==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/rdma/rdma
 user: leon
 changes:
-  - ref: refs/heads/wip/leon-for-next
+  - ref: refs/heads/for-next
     old: 992e57038c04da1532ef80c59c8d21f7888d45c5
     new: eb15cffa15201bd53d1ac296645aa2bc5f726841
     log: revlist-992e57038c04-eb15cffa1520.txt
 
---===============0677926764877192968==
+--===============7964571370342634196==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -46,4 +46,4 @@ f0579e330b77364eb13e4c5b31483670669f9b85 RDMA/bnxt_re: Move the UAPI methods to 
 485a21c14b4133f1187d9260de71405f806c773b RDMA/bnxt_re: Separate kernel and user CQ creation paths
 eb15cffa15201bd53d1ac296645aa2bc5f726841 RDMA/bnxt_re: Support application specific CQs
 
---===============0677926764877192968==--
+--===============7964571370342634196==--
