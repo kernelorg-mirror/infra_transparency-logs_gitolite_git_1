@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6761867238987985191=="
+Content-Type: multipart/mixed; boundary="===============7362686213472341370=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Sun, 08 Mar 2026 22:56:04 -0000
-Message-Id: <177301056473.3896016.6145064954193073391@gitolite.kernel.org>
+Date: Sun, 08 Mar 2026 22:56:06 -0000
+Message-Id: <177301056669.3896139.6915624982529896454@gitolite.kernel.org>
 
---===============6761867238987985191==
+--===============7362686213472341370==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/mm-new
-    old: fee41c6c27b01fdd910a9d9cd4f3b978efb92ea2
-    new: 167400fd4c51f9e5ea8fc9d33c89c938799be4be
-    log: revlist-fee41c6c27b0-167400fd4c51.txt
+  - ref: refs/heads/mm-unstable
+    old: 49cb736d092aaa856283e33b78ec3afb3964d82f
+    new: bb420884e9e02edc34d7a05a387028cbe185ea1a
+    log: revlist-49cb736d092a-bb420884e9e0.txt
 
---===============6761867238987985191==
+--===============7362686213472341370==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-fee41c6c27b0-167400fd4c51.txt
+Content-Disposition: attachment; filename=revlist-49cb736d092a-bb420884e9e0.txt
 
 c60fe2b98fe6328ab8ba8f511e560e5dbbe0d698 mm: allow __GFP_RETRY_MAYFAIL in vmalloc
 2a0bcfdc63fc55a76d5fbaae7824dc84bbd898eb crash_dump: don't log dm-crypt key bytes in read_key_from_user_keying
@@ -283,51 +283,5 @@ fe90e5858ff50d399353a1123697063a70b0871f mm/oom_kill.c: simpilfy rcu call with g
 2610a0ab698834739f3b260b15c67e1531099a0a MAINTAINERS: add mm-related procfs files to MM sections
 92d096e7986ad11cf5882274d3e842c45bbb119a mm/percpu-internal.h: optimise pcpu_chunk_struct to save memory
 bb420884e9e02edc34d7a05a387028cbe185ea1a ubsan: turn off kmsan inside of ubsan instrumentation
-6927cb4845e7fab7eb33286dfe78b94547f719b9 mm: prevent droppable mappings from being locked
-84cd8de2b92a1ccf493c43da8b31bb983d320ca7 mm-prevent-droppable-mappings-from-being-locked-fix
-ff30bfed371ff9a43cd29bc03dcd30d277c8df0d lib/maple_tree: fix swapped arguments in mas_safe_pivot() call
-232f743c3b2a314223e9c95fc7f2e4e862d6e9a7 userfaultfd: introduce mfill_copy_folio_locked() helper
-8c28d0007b1c0258b4bb7829d37db34bde286ab3 userfaultfd: introduce struct mfill_state
-55fc7cf9ac09b5ef899015d9824865d9c24ce302 userfaultfd: introduce mfill_get_pmd() helper
-ab455132dbd27faf382032d4c1f967af026ca839 userfaultfd: introduce mfill_get_vma() and mfill_put_vma()
-b50c25a981825c2ae2454ad572677f0c449e14c3 userfaultfd: retry copying with locks dropped in mfill_atomic_pte_copy()
-8bf7c25aba83c61c4b2937cd1e110cc17e6ab838 userfaultfd: move vma_can_userfault out of line
-41c62e954c68f5065e7a7a3b8a95eeb1166cb4f7 userfaultfd: introduce vm_uffd_ops
-252e795ebb411f19d4f7b098628ddddd8f8e6b7e shmem, userfaultfd: use a VMA callback to handle UFFDIO_CONTINUE
-ec8f85db5235f60fdc734dc092d695caec4de98e userfaultfd: introduce vm_uffd_ops->alloc_folio()
-7663e42f885eedf01aa56277b280074952a7ab82 shmem, userfaultfd: implement shmem uffd operations using vm_uffd_ops
-7c3e4a383c1d99b67a792a0d3e54021658f43418 userfaultfd: mfill_atomic(): remove retry logic
-0628b39facdc4b2c85bf36446c69011e44bbdf8e mm: generalize handling of userfaults in __do_fault()
-f934ae27c331c46d1e05080c96ada84b1c68d4c1 KVM: guest_memfd: implement userfaultfd operations
-6b1c9567107655161da23c827757e2458e74d5ee KVM: selftests: test userfaultfd minor for guest_memfd
-635a8581c0d541b9567921a8f58fccec8e0fd2e3 KVM: selftests: test userfaultfd missing for guest_memfd
-1bb151587ec4f11004f21a90a59ecca6e3317369 mm/damon: add CONFIG_DAMON_DEBUG_SANITY
-60b396ff643b8b7268fe56b65f15ae01fd423273 mm/damon/core: add damon_new_region() debug_sanity check
-c6d4eab0026154b8dc78a08c84abea92c49cf3ca mm/damon/core: add damon_del_region() debug_sanity check
-d39bbf40922ba502b1182545ef5805a26b974a29 mm/damon/core: add damon_nr_regions() debug_sanity check
-f28a221d8c8d26dd5af1fd1aacaa6c3b357de7c5 mm/damon/core: add damon_merge_two_regions() debug_sanity check
-4952796d4eeb3f22c291a588519de48fdc887b25 mm/damon/core: add damon_merge_regions_of() debug_sanity check
-85af00feb36471275b86308d696383a8d79669d4 mm/damon/core: add damon_split_region_at() debug_sanity check
-bbc72c84ca77de98adfccd22f818756f4e1877d4 mm/damon/core: add damon_reset_aggregated() debug_sanity check
-14d978bf416210df19a779d1ea881aa42ed6508a mm/damon/tests/.kunitconifg: enable DAMON_DEBUG_SANITY
-fa88245b87a7b574f70a50a9135e582f61dca3ed selftests/damon/config: enable DAMON_DEBUG_SANITY
-653ba63f9db887c730b17de0bca0588f1295ee56 mm/migrate_device: document folio_get requirement before frozen PMD split
-02513b935df8aa9a7058ac55b2eda89d4f13a883 mm/damon/tests/core-kunit: add a test for damon_commit_ctx()
-6a13c682f0742567d45dad4787aeedf62aa452be Docs/mm/damon/design: document the power-of-two limitation for addr_unit
-bec997ef4806edb135e1af8efbc352606e4d44ad mm/damon/core: remove damos_set_next_apply_sis() duplicates
-36af4d0e94d20e5c680da4bacc1949f4d239ab6b mm/damon/core: use time_before() for next_apply_sis
-3bd080ee4fb49ed4a2e414e15d29df99038270e9 mm/damon/core: use time_after_eq() in kdamond_fn()
-a331406069c97571c208f1eb037dedadd86aa95e mm/damon/core: use mult_frac()
-9073945e3aad37c25f47aea70fb932ff5b0fc49b mm/damon/tests/core-kunit: add a test for damon_is_last_region()
-12b6ccb4eb3e2b21d8093ef30b6409304630671a mm/damon/core: clarify damon_set_attrs() usages
-a53a64eb849fff69eaece0b1cd9b3543185437ec mm/damon: document non-zero length damon_region assumption
-7eea768693d84dc300b6fe12cd3ca7ea29630224 Docs/admin-guide/mm/damn/lru_sort: fix intervals autotune parameter name
-6e41aa485acb830b468b83a2bfee15adf81fdc43 Docs/mm/damon/maintainer-profile: use flexible review cadence
-11625b62bb9e9e9ef6c9278f9f203f9e74af04cc Docs/mm/damon/index: fix typo: autoamted -> automated
-b784c114186ac5bab1da4deb45242a06eba561dd mm: khugepaged: export set_recommended_min_free_kbytes()
-e597ce16e9d724e90eb271a67bd765b62e8425d6 mm: huge_memory: refactor anon_enabled_store() with change_anon_orders()
-e3f1cf3456beac75307324357c941a7030a2feb2 mm: huge_memory: refactor enabled_store() with change_enabled()
-3908bc3f29e40446a5bad0ab2f083ad07d47ccda mm: ratelimit min_free_kbytes adjustment messages
-167400fd4c51f9e5ea8fc9d33c89c938799be4be mm/vmscan: avoid false-positive -Wuninitialized warning
 
---===============6761867238987985191==--
+--===============7362686213472341370==--
