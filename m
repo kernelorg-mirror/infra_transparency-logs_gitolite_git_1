@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/superm1/amd-debug-tools
-Date: Sun, 08 Mar 2026 18:30:16 -0000
-Message-Id: <177299461648.3692587.5070177772984204066@gitolite.kernel.org>
+Date: Sun, 08 Mar 2026 18:33:29 -0000
+Message-Id: <177299480982.3693951.10813760165485947217@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/superm1/amd-debug-tools
 user: superm1
 changes:
   - ref: refs/heads/master
-    old: ed54f0ae66dc135f16c575227b8c02213f70b79d
-    new: 93d071a44e04c73d21fa5fbda6e6b425d4343065
+    old: 93d071a44e04c73d21fa5fbda6e6b425d4343065
+    new: 1e5ca7d6751e407d2a4373d396c23327e86c3ade
     log: |
-         93d071a44e04c73d21fa5fbda6e6b425d4343065 Add a check that the XDNA driver has bound to the device
+         1e5ca7d6751e407d2a4373d396c23327e86c3ade Only run NPU check on AMD NPUs
          
