@@ -1,26 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ast/bpf
-Date: Sun, 08 Mar 2026 03:49:34 -0000
-Message-Id: <177294177444.2947194.14498908147162058272@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/thomas.weissschuh/linux
+Date: Sun, 08 Mar 2026 06:46:22 -0000
+Message-Id: <177295238218.3080063.2471102141866292475@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ast/bpf
-user: ast
+repo: pub/scm/linux/kernel/git/thomas.weissschuh/linux
+user: thomas.weissschuh
 changes:
-  - ref: refs/heads/stacklive
-    old: 155b63383db21af85ceb3914774f69a568e5c072
-    new: 788502391b9b372672cfea664947c2e73395a26f
+  - ref: refs/heads/b4/kbuild-uapi-c
+    old: dcc5725416243db38972b3eb0b7ff989040e1a02
+    new: d2a3921522e69a183b8e6ab9faad22a4c5901788
     log: |
-         5d7e36fe47897c97d2bd454af3d5c8d818a05c2b bpf: Add compute_subprog_arg_access() for precise subprog analysis
-         326559fccaff206c67bbe715b66229dec14b26a0 bpf: Integrate static stack liveness into verifier state pruning
-         031068880689363146b367e71fb9f599e20e5d26 selftests/bpf: Add tests for static stack liveness analysis
-         e83366b16fd0c67991c0e407989aefc26176504d bpf: Remove old dynamic stack liveness infrastructure
-         f7f6c7b05328d7ad510dbe8f6dbb0b427c1a6cc5 selftests/bpf: Test that zero->misc promo is unsafe
-         4384aa07db079b21a889972058f4642a882c62ba selftests/bpf: Add convergence test for arg_track dataflow join
-         db207b5ba0c1ea4cdf1e9ebe6dc46861e10c8956 selftests/bpf: Tests for 4-byte stack slots
-         788502391b9b372672cfea664947c2e73395a26f selftests/bpf: Check prunning
+         f2b3434de6f477e58e3b3a3f9a32ee6ceea88b88 kbuild: uapi: handle UML in architecture-specific exclusion lists
+         9da818e906f96f46d184523e7c5ddd08e0945acc kbuild: uapi: provide a C++ compatible dummy definition of NULL
+         d2a3921522e69a183b8e6ab9faad22a4c5901788 kbuild: uapi: also test UAPI headers against C++ compilers
          
