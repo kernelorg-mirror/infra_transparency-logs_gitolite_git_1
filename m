@@ -1,43 +1,29 @@
-Content-Type: multipart/mixed; boundary="===============0681155111014504553=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ast/bpf
-Date: Sun, 08 Mar 2026 19:23:04 -0000
-Message-Id: <177299778489.3734278.6666719863112394231@gitolite.kernel.org>
-
---===============0681155111014504553==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/sj/damo
+Date: Sun, 08 Mar 2026 19:57:23 -0000
+Message-Id: <177299984397.3760154.9475767780275467891@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ast/bpf
-user: ast
+repo: pub/scm/linux/kernel/git/sj/damo
+user: sj
 changes:
-  - ref: refs/heads/stacklive
-    old: 92816b7c255b0faca0cb1485679aad4c63e12637
-    new: 9eb1e354ae2dc186f7ee8dec5b2e85bf5f2448e2
-    log: revlist-92816b7c255b-9eb1e354ae2d.txt
-
---===============0681155111014504553==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-92816b7c255b-9eb1e354ae2d.txt
-
-67fb056cfe06c41917eae2ea405042354356ead2 bpf: Add per-subprog arg tracking analysis
-d85c5eb5df8cb19fa6c8493434fb22473bc2deba bpf: Record per-subprog argument memory accesses
-cadd4f76f5cf177ec114fb4b8f59c8f3134a09a8 bpf: Add inter-procedural callee access folding
-d3c4e709ccb0325611af6821b1da61b7a7b49b24 bpf: Add backward arg liveness analysis
-7d3005e8878dffd2215deea14712a398887dd265 bpf: Add forward FP-offset tracking in compute_stack_access()
-a2ae902059d8aea975c2a7a9a20a589c79da6f16 bpf: Resolve stack access from FP-derived pointers
-4d1dbcb447adaf433ea33b8a7f8ded711d5740d8 bpf: Use static stack liveness for verifier state pruning
-4fa265df5c12fc79e725d754912be8a4630ce57a selftests/bpf: Add tests for static stack liveness analysis
-2d9289a310004ec6a3be7c477a93545f3918ebe5 bpf: Remove old dynamic stack liveness infrastructure
-7e7184aed028ddad40d1184cb7ae98f4cb38703b selftests/bpf: Test that zero->misc promo is unsafe
-426caf9cb207230b693c32e643c0efa7ad1f1dda selftests/bpf: Add convergence test for arg_track dataflow join
-696dcee102d4bde9567f361d40310e8be8e7182e selftests/bpf: Tests for 4-byte stack slots
-9eb1e354ae2dc186f7ee8dec5b2e85bf5f2448e2 selftests/bpf: Check pruning across subprog calls
-
---===============0681155111014504553==--
+  - ref: refs/heads/next
+    old: 9367d8d806a4a3d79d4907132b0f17f2ce6fb074
+    new: 7ef4159e8ec5215fe375138c6482c2f315e74492
+    log: |
+         1e3eb7db07e2c1a730bb59ff94d507e2d6980d2e TODO: mark early feature check as done
+         972f325ec89663ead98daf463919330d8f1573b2 _damon: add DamonCtx.addr_unit
+         e0f90187602154a706a2562d800c89c309131453 _damon_sysfs: support reading/writing addr_unit
+         fe2f6a7f4d8cca10830d89522624e2f7cb5ed8c6 _damon_args: add --damon_addr_unit for setting the 'addr_unit' DAMON param
+         a9c8069833fafea6b6431e4603574b684e328967 TODO,release_note: update for --damon_addr_unit
+         e415c3be23b25ebcd64f709d5e025e759dacb92c introduce 'damo report trace'
+         39ae6ba2b90096a5a6b243a2f8dbe599e3440828 damo_setup_cli_completion: support 'damo report trace'
+         2eb84ad3ec6afeb6c29b4fbdf37c4c3749fb14ad damo_report_trace: implement basic functionality
+         fb1094171d4be9af84a0a361f2204cd343bfb0a7 damo_report_trace: support 'all'
+         ed08024d7d4093d032c2440022b613b32b9ea0c5 damo_report_trace: add --tracer option for manual tracer selection
+         7ef4159e8ec5215fe375138c6482c2f315e74492 TODO,release_note: update for next release
+         
