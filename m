@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ast/bpf
-Date: Sun, 08 Mar 2026 17:10:59 -0000
-Message-Id: <177298985987.3631133.15571990637866473276@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
+Date: Sun, 08 Mar 2026 17:18:28 -0000
+Message-Id: <177299030816.3635806.2321039650452777977@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ast/bpf
-user: ast
+repo: pub/scm/linux/kernel/git/rdma/rdma
+user: leon
 changes:
-  - ref: refs/heads/stacklive
-    old: 37d6ca012f3e0509ab8643c18a4ce55f3f8ad1ea
-    new: f3af0c05896b1e5ea28d78150ad4cc63a77e7b10
+  - ref: refs/heads/for-rc
+    old: a08aaf3968aec5d05cd32c801b8cc0c61da69c41
+    new: c242e92c9da456d361d1d4482fb6e93ee95bd8cf
     log: |
-         f3af0c05896b1e5ea28d78150ad4cc63a77e7b10 selftests/bpf: Check prunning
+         c242e92c9da456d361d1d4482fb6e93ee95bd8cf RDMA/bng_re: Fix silent failure in HWRM version query
          
