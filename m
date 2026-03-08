@@ -1,28 +1,29 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ast/bpf
-Date: Sun, 08 Mar 2026 16:55:13 -0000
-Message-Id: <177298891312.3565202.2313201121503229431@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/at91/linux
+Date: Sun, 08 Mar 2026 16:57:04 -0000
+Message-Id: <177298902433.3566280.837948480110619811@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ast/bpf
-user: ast
+repo: pub/scm/linux/kernel/git/at91/linux
+user: claudiu.beznea
 changes:
-  - ref: refs/heads/stacklive
-    old: dd9d1ba3ef873b14a66303d19e9d624cde98bb72
-    new: 37d6ca012f3e0509ab8643c18a4ce55f3f8ad1ea
+  - ref: refs/heads/at91-dt
+    old: d83734a0bd253cab38b52065b2e35fa34c2d8770
+    new: c52f2944492590c59599b0663f05611320efe441
     log: |
-         8151b7a065377a6919059b049eb0c5c51464d248 bpf: Add forward FP-offset tracking in compute_stack_access()
-         cae5815eb5a90e1f730753175a96a3ab4a7bd2c2 bpf: Resolve stack access from FP-derived pointers
-         184f7ce4e46b33c5aef47cae0f159e0f1e426108 bpf: Use static stack liveness for verifier state pruning
-         ad184a3e8f225773bc68d2fbf81f3eab4492166d selftests/bpf: Add tests for static stack liveness analysis
-         89089f1c51edbd576ee85a1c33793bd1d02de197 bpf: Remove old dynamic stack liveness infrastructure
-         84a4311ac76730962cb69fd0ff23b99e280b2c30 selftests/bpf: Test that zero->misc promo is unsafe
-         41f998503eb5c354194eacedae34857728237d3f selftests/bpf: Add convergence test for arg_track dataflow join
-         6cba706ab4d3d609d65cece02c063b8804f05697 selftests/bpf: Tests for 4-byte stack slots
-         00d0c9923ec122853d2911ff0c154a391a3ac06a selftests/bpf: Check prunning
-         37d6ca012f3e0509ab8643c18a4ce55f3f8ad1ea bpf: Remove redundant subprog_arg_access NULL checks
+         c52f2944492590c59599b0663f05611320efe441 arm: dts: microchip: remove unused #address-cells/#size-cells from sam9x60 udc node
+         
+  - ref: refs/heads/at91-soc
+    old: 6de23f81a5e08be8fbf5e8d7e9febc72a5b5f27f
+    new: f3ae0049ff8a3d2cbd8c05857705744435629d0c
+    log: |
+         0b7b7d1abec33d568086165916510c0415fcabcf dt-bindings: arm: microchip,sama7g5-chipid : convert to DT schema
+         5f3acf8c03d666377fbe68a8562d89b2e737875d dt-bindings: arm: atmel,at91sam9260-pit: convert to DT schema
+         67f386b2c623aa07b73a3f6882472d439c5b3ceb dt-bindings: arm: microchip,sam9x60-pit64b : convert to DT schema
+         ae18e2543c4a07317a03c7cf042d8a0596cd5bd0 dt-bindings: arm: atmel,at91rm9200-st: convert to DT schema
+         f3ae0049ff8a3d2cbd8c05857705744435629d0c dt-bindings: arm: atmel,at91rm9200-sdramc: convert to DT schema
          
