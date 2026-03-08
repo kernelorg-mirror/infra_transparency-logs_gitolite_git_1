@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8199120888372593279=="
+Content-Type: multipart/mixed; boundary="===============6822670502687761088=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Sun, 08 Mar 2026 00:33:02 -0000
-Message-Id: <177292998292.2796562.8137596701414571181@gitolite.kernel.org>
+Date: Sun, 08 Mar 2026 00:33:27 -0000
+Message-Id: <177293000781.2796949.12082768711533697623@gitolite.kernel.org>
 
---===============8199120888372593279==
+--===============6822670502687761088==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,23 +16,43 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: 5e1e9ff7b4c5768e46ba9ed93530f57dd38482c3
-    new: a20fa372c7423a2d22817ef9ef9be607dd17be5a
-    log: revlist-5e1e9ff7b4c5-a20fa372c742.txt
+    old: a20fa372c7423a2d22817ef9ef9be607dd17be5a
+    new: 290ea9f536143f0211be37b94cd95edab7144f54
+    log: revlist-a20fa372c742-290ea9f53614.txt
   - ref: refs/heads/tip/urgent
-    old: 6917155ac67649e9b760baf9cca03aca5420b9de
-    new: 7a716c5072ea869b4e7e69a287d0981432f80159
-    log: |
-         1d1c9942d2d60dd65735089081785ff3d90bdc2f Merge branch into tip/master: 'sched/urgent'
-         97beeb697be5ca1d031a70c6b082eb390bf6c417 Merge branch into tip/master: 'timers/urgent'
-         7a716c5072ea869b4e7e69a287d0981432f80159 Merge branch into tip/master: 'x86/urgent'
-         
+    old: 7a716c5072ea869b4e7e69a287d0981432f80159
+    new: b2a485e4147f7818c95b0c0c5a58b87fe2e5e0da
+    log: revlist-7a716c5072ea-b2a485e4147f.txt
 
---===============8199120888372593279==
+--===============6822670502687761088==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5e1e9ff7b4c5-a20fa372c742.txt
+Content-Disposition: attachment; filename=revlist-a20fa372c742-290ea9f53614.txt
+
+394782b7a672765a5f7cadf32b4823aa6f7dc4d4 Merge branch into tip/master: 'sched/urgent'
+ba259562fb6cd294818f1679dd031108e31d39dd Merge branch into tip/master: 'timers/urgent'
+b2a485e4147f7818c95b0c0c5a58b87fe2e5e0da Merge branch into tip/master: 'x86/urgent'
+698758fa620ff2bdada8c2826867ebf30abae183 Merge branch into tip/master: 'sched/merge'
+ed7959e31fe7780a7dd6bf6cf86311f03f85dd2a Merge branch into tip/master: 'irq/drivers'
+52de505a7bae837b0c55acbd785e6ab64999a103 Merge branch into tip/master: 'irq/msi'
+81a7f24fd028f9b4fc34086ac3903331e4b9cf0f Merge branch into tip/master: 'locking/core'
+bace47cf17832bb127eaaf67c9c250bf94fc68a8 Merge branch into tip/master: 'locking/futex'
+969034a0b3d436b8544a5b982865e3cc059c6055 Merge branch into tip/master: 'perf/core'
+17f45f01042d5917a35f64f1ce71be79afa3f748 Merge branch into tip/master: 'sched/core'
+bdd34d0234cb49b8158dacf8c7b88ed84759d16f Merge branch into tip/master: 'timers/core'
+b19561ff8aab1fbba71be31754cfcb0a2f77d2d5 Merge branch into tip/master: 'x86/cleanups'
+4e8c37817e79234c25900d28c82392e2d7251bbd Merge branch into tip/master: 'x86/cpu'
+d4c9ae7c8933330802909e4b0e9f90841e70cb31 Merge branch into tip/master: 'x86/microcode'
+522434c919bfe7e296492da6f06b60d4fd2678f4 Merge branch into tip/master: 'x86/misc'
+30f9f1ab9a7577b357535d3fb325208ef7ffbbaa Merge branch into tip/master: 'x86/mm'
+290ea9f536143f0211be37b94cd95edab7144f54 Merge branch into tip/master: 'x86/tdx'
+
+--===============6822670502687761088==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-7a716c5072ea-b2a485e4147f.txt
 
 f947d9e77b26238b821b5227afb4fee8c7ea0d5a nvme/host: fixup some typos
 ddfb8b322bbd8ae996f4ac0192f0190feb0a01ce nvme: expose active quirks in sysfs
@@ -280,23 +300,8 @@ aed0af05a873445bed7f28f299da57d54765cc80 Merge tag 'trace-v7.0-rc2-2' of git://g
 fb07430e6f98ccff61f6f1a06d01d7f12e29c6d3 Merge tag 'fbdev-for-7.0-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/deller/linux-fbdev
 3b5d535c635cbf88dbb63231cbae265b22e6a5f5 Merge tag 'scsi-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
 1954c4f012206147c34acda8da04f827aa7d3ee3 eventpoll: Convert epoll_put_uevent() to scoped user access
-1d1c9942d2d60dd65735089081785ff3d90bdc2f Merge branch into tip/master: 'sched/urgent'
-97beeb697be5ca1d031a70c6b082eb390bf6c417 Merge branch into tip/master: 'timers/urgent'
-7a716c5072ea869b4e7e69a287d0981432f80159 Merge branch into tip/master: 'x86/urgent'
-b4c3252f7569462037b27ea5025f3af309de1b20 Merge branch into tip/master: 'sched/merge'
-ff6bcd9585ead00a89464daf0d73d8f3ad161cf4 Merge branch into tip/master: 'irq/drivers'
-31d7b15e20c673930532c9d43d85b49d97304d2b Merge branch into tip/master: 'irq/msi'
-eaac8ef75950485306d9391cecac7e251c52c106 Merge branch into tip/master: 'locking/core'
-7fd2bb22a81058aeb8b5e3544744bb8dc74e42b8 Merge branch into tip/master: 'locking/futex'
-1664fbdd96ade17f873d05aec2fab4ab0c867c01 Merge branch into tip/master: 'perf/core'
-56d4fe7db81f93cba8d6013e25041ebd6fd6fb68 Merge branch into tip/master: 'sched/core'
-53566722736dd80b90fe57c2671204862ee60dfa Merge branch into tip/master: 'timers/core'
-061b292f865ff42c29a7fa7e8bc9429328466a2c Merge branch into tip/master: 'x86/cleanups'
-445c650656b94547e8e14ff79f8d8ba5acab6b65 Merge branch into tip/master: 'x86/cpu'
-800f0abc541d183807b4c73d311af974592a7276 Merge branch into tip/master: 'x86/microcode'
-c89788059e771a535c27d8e992c7e9544ed950b8 Merge branch into tip/master: 'x86/misc'
-6171d35da4f8c595bd8b558d88ed4dd7a970f0d9 Merge branch into tip/master: 'x86/mm'
-5528f816c4022b5b0953acd81a9791b2a3af7118 Merge branch into tip/master: 'x86/tdx'
-a20fa372c7423a2d22817ef9ef9be607dd17be5a Merge branch 'linus'
+394782b7a672765a5f7cadf32b4823aa6f7dc4d4 Merge branch into tip/master: 'sched/urgent'
+ba259562fb6cd294818f1679dd031108e31d39dd Merge branch into tip/master: 'timers/urgent'
+b2a485e4147f7818c95b0c0c5a58b87fe2e5e0da Merge branch into tip/master: 'x86/urgent'
 
---===============8199120888372593279==--
+--===============6822670502687761088==--
