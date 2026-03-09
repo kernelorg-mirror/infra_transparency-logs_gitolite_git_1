@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1709401006494696516=="
+Content-Type: multipart/mixed; boundary="===============8579963536745047649=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Mon, 09 Mar 2026 20:16:45 -0000
-Message-Id: <177308740581.859644.8590929046768673831@gitolite.kernel.org>
+Date: Mon, 09 Mar 2026 20:16:48 -0000
+Message-Id: <177308740828.859734.2345184985107330295@gitolite.kernel.org>
 
---===============1709401006494696516==
+--===============8579963536745047649==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
+  - ref: refs/heads/10GbE
     old: 1a9940317c1b46b7641af6b4b14c9d2509ac88b2
     new: 0bcac7b11262557c990da1ac564d45777eb6b005
     log: revlist-1a9940317c1b-0bcac7b11262.txt
 
---===============1709401006494696516==
+--===============8579963536745047649==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -53,4 +53,4 @@ f67ab9d8106ef8c265310cb4249387c9f7e9ec9b Merge branch 'net-ntb_netdev-add-multi-
 f4ac0cc88e9949d41bbdd101caa3117afe983ec9 net: usb: lan78xx: drop redundant device reference
 0bcac7b11262557c990da1ac564d45777eb6b005 selftests: net: make ovs-dpctl.py fail when pyroute2 is unsupported
 
---===============1709401006494696516==--
+--===============8579963536745047649==--
