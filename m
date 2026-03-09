@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3812944260708646039=="
+Content-Type: multipart/mixed; boundary="===============3281102539086691203=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Mon, 09 Mar 2026 19:51:53 -0000
-Message-Id: <177308591346.836258.6433867734842796777@gitolite.kernel.org>
+Date: Mon, 09 Mar 2026 19:55:31 -0000
+Message-Id: <177308613138.839654.3885537924035750749@gitolite.kernel.org>
 
---===============3812944260708646039==
+--===============3281102539086691203==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tip/tip
 user: peterz
 changes:
-  - ref: refs/heads/objtool/urgent
-    old: f495054bd12e2abe5068e243bdf344b704c303c6
-    new: 9a73f085dc91980ab7fcc5e9716f4449424b3b59
-    log: revlist-f495054bd12e-9a73f085dc91.txt
+  - ref: refs/heads/objtool/core
+    old: 6ec33db1aaf06a76fb063610e668f8e12f32ebbf
+    new: 4b57e97be22fb8332d05ee1d0fe3c0dd43c828bf
+    log: revlist-6ec33db1aaf0-4b57e97be22f.txt
 
---===============3812944260708646039==
+--===============3281102539086691203==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f495054bd12e-9a73f085dc91.txt
+Content-Disposition: attachment; filename=revlist-6ec33db1aaf0-4b57e97be22f.txt
 
 4d632161e921b44c0b65561e26c6d74ae0dd5e0b drm/amdgpu: Fix is_dpm_running
 c6948604eba672b63ff82d70f39238f4288e9e21 drm/amdgpu: Drop unsupported function
@@ -1042,13 +1042,13 @@ f6542af92298d8a44ab5588144086fa2d0edf391 Merge tag 'timers-urgent-2026-03-01' of
 e2bd1b136926f1ff65d4e0f87ac49b9a4621238c Merge tag 'core-debugobjects-2026-03-01' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 949d0a46ad1b9ab3450fb6ed69ff1e3e13c657bd Merge tag 'for-linus' of git://git.kernel.org/pub/scm/virt/kvm/kvm
 11439c4635edd669ae435eec308f4ab8a0804808 Linux 7.0-rc2
-f9fb44b0ecefc1f218db56661ed66d4e8d67317d objtool/klp: Fix detection of corrupt static branch/call entries
-e476bb277cf91b7ac3ea803ec78a4f0791bddec3 objtool/klp: Disable unsupported pr_debug() usage
-11c2adcd1fa2a9380a507db1e57c8542bfc81827 objtool/klp: Avoid NULL pointer dereference when printing code symbol name
-32234049107d012703d50547e815f198f147968b objtool: Use HOSTCFLAGS for HAVE_XXHASH test
-356e4b2f5b80f757965f3f4d0219c81fca91b6f2 objtool: Fix data alignment in elf_add_data()
-1fd1dc41724319406b0aff221a352a400b0ddfc5 objtool: Fix ERROR_INSN() error message
-7fdaa640c810cb42090a182c33f905bcc47a616a objtool: Handle Clang RSP musical chairs
-9a73f085dc91980ab7fcc5e9716f4449424b3b59 objtool: Fix another stack overflow in validate_branch()
+c19c854b307424c745dd6de73eea8db099c79408 objtool: Use section/symbol type helpers
+a1cbaff2ea23645f0a94fdfa721aef202aebdf86 objtool/klp: Remove redundant strcmp() in correlate_symbols()
+a3f28d2072452edb377eaad01375445dbace6771 objtool/klp: Remove trailing '_' in demangle_name()
+0b8fc6adc3d9bdf161fc8ad0a1de191dba293b39 objtool/klp: Use sym->demangled_name for symbol_name hash
+8206277746d5c6ae300e7e062a0d9238ed59cc7f objtool/klp: Also demangle global objects
+020b71dcafeeececb78d9ee9e5a2e68e8e05e922 objtool/klp: Remove .llvm suffix in demangle_name()
+cdea5cadb0ca403b1929f8d29929c0eda0f715d6 objtool/klp: Match symbols based on demangled_name for global variables
+4b57e97be22fb8332d05ee1d0fe3c0dd43c828bf objtool/klp: Correlate locals to globals
 
---===============3812944260708646039==--
+--===============3281102539086691203==--
