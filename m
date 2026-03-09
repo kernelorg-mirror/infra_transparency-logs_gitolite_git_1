@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3889877224787726133=="
+Content-Type: multipart/mixed; boundary="===============4903766967117103676=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/geert/linux-m68k
-Date: Mon, 09 Mar 2026 09:18:32 -0000
-Message-Id: <177304791212.264850.3023662029214620579@gitolite.kernel.org>
+Date: Mon, 09 Mar 2026 09:18:47 -0000
+Message-Id: <177304792760.265149.11425873094173709200@gitolite.kernel.org>
 
---===============3889877224787726133==
+--===============4903766967117103676==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/geert/linux-m68k
 user: geert
 changes:
-  - ref: refs/heads/master
-    old: b879a081bb0f6725a8ca41b6bdbe25acaa6a73dd
-    new: fab8e068199a17ab8cb2ba47cc6f09d79bbf785a
-    log: revlist-b879a081bb0f-fab8e068199a.txt
+  - ref: refs/heads/m68k-queue
+    old: 7a8e9ab3b1c23325f34c4a2ce1b34e829488705f
+    new: f7d88758b18ed81c4e3265326b4253c62d913f9f
+    log: revlist-7a8e9ab3b1c2-f7d88758b18e.txt
 
---===============3889877224787726133==
+--===============4903766967117103676==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b879a081bb0f-fab8e068199a.txt
+Content-Disposition: attachment; filename=revlist-7a8e9ab3b1c2-f7d88758b18e.txt
 
 f947d9e77b26238b821b5227afb4fee8c7ea0d5a nvme/host: fixup some typos
 ddfb8b322bbd8ae996f4ac0192f0190feb0a01ce nvme: expose active quirks in sysfs
@@ -563,6 +563,8 @@ c23719abc3308df7ed3ad35650ad211fb2d2003d Merge tag 'x86-urgent-2026-03-08' of gi
 014441d1e4b2f5be728433b761df3377dee7a487 Merge tag 'i2c-for-7.0-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
 fc9f248d8c591454e257edd54ac4085d84f11e6a Merge tag 'efi-fixes-for-v7.0-2' of git://git.kernel.org/pub/scm/linux/kernel/git/efi/efi
 1f318b96cc84d7c2ab792fcc0bfd42a7ca890681 Linux 7.0-rc3
-fab8e068199a17ab8cb2ba47cc6f09d79bbf785a Merge tag 'v7.0-rc3'
+238251e9040dd529ef4bd9823144854bdb753c8d m68k: atari: usb: Add ISP1160 USB host controller support
+d86b99fa951f739196523b84d4518ed73a19c262 m68k: atari: Update Kconfig.bus help text
+f7d88758b18ed81c4e3265326b4253c62d913f9f m68k: defconfig: Enable Atari EtherNAT and NetUSBee USB support
 
---===============3889877224787726133==--
+--===============4903766967117103676==--
