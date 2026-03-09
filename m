@@ -1,21 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tomba/linux
-Date: Mon, 09 Mar 2026 14:07:15 -0000
-Message-Id: <177306523564.529546.14380025366924816587@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/firmware/linux-firmware
+Date: Mon, 09 Mar 2026 14:10:11 -0000
+Message-Id: <177306541121.532757.16966761769273528544@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tomba/linux
-user: tomba
+repo: pub/scm/linux/kernel/git/firmware/linux-firmware
+user: jwboyer
 changes:
-  - ref: refs/heads/ti/maxime-state-readout
-    old: 5e683f3d4961d13b7d291ea14455dd5170763a9c
-    new: fef94cf8e932943d4b86491e1396891fda39e49b
+  - ref: refs/heads/main
+    old: 1cd97a2f5436ab43d5f02eef66d8e4574ec716fe
+    new: f91e53e4601f2535dd0f1fcb592a7b63ce6433cd
     log: |
-         0ed5c010359b0ece496fdd8301988fd9357166f9 tidss: Add reset back, if no enabled displays
-         bc8a5e02f381f24730397a752ab3f4168732c910 drm_atomic_build_readout_state: Add missing drm_connector_list_iter_end()
-         fef94cf8e932943d4b86491e1396891fda39e49b arm64: dts: ti: k3-am62x-sk-common: Reserve memory for framebuffer set by bootloader
+         397e9a13dbb4f74d72a58b48ae83c7313e8cc724 linux-firmware: Add firmware file for Intel BlazarIGfp2 core
+         f91e53e4601f2535dd0f1fcb592a7b63ce6433cd Merge branch '24.20.1.5_Rev2' into 'main'
          
