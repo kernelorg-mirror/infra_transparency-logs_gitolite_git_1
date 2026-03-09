@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2527382322276984933=="
+Content-Type: multipart/mixed; boundary="===============4770952656535657752=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/driver-core/driver-core
-Date: Mon, 09 Mar 2026 11:06:00 -0000
-Message-Id: <177305436009.377491.4753792829775459058@gitolite.kernel.org>
+Date: Mon, 09 Mar 2026 11:06:08 -0000
+Message-Id: <177305436803.377800.12189146473842126582@gitolite.kernel.org>
 
---===============2527382322276984933==
+--===============4770952656535657752==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/driver-core/driver-core
 user: dakr
 changes:
-  - ref: refs/heads/driver-core-linus
-    old: 9de68394a61528d40f575c3e6719cc75c56f62c3
+  - ref: refs/heads/main
+    old: 11439c4635edd669ae435eec308f4ab8a0804808
     new: 1f318b96cc84d7c2ab792fcc0bfd42a7ca890681
-    log: revlist-9de68394a615-1f318b96cc84.txt
+    log: revlist-11439c4635ed-1f318b96cc84.txt
 
---===============2527382322276984933==
+--===============4770952656535657752==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9de68394a615-1f318b96cc84.txt
+Content-Disposition: attachment; filename=revlist-11439c4635ed-1f318b96cc84.txt
 
 f947d9e77b26238b821b5227afb4fee8c7ea0d5a nvme/host: fixup some typos
 ddfb8b322bbd8ae996f4ac0192f0190feb0a01ce nvme: expose active quirks in sysfs
@@ -314,6 +314,7 @@ c41a9abd6ae31d130e8f332e7c8800c4c866234b wifi: mt76: mt7925: Fix possible oob ac
 4e10a730d1b511ff49723371ed6d694dd1b2c785 wifi: mt76: Fix possible oob access in mt76_connac2_mac_write_txwi_80211()
 710f5c76580306cdb9ec51fac8fcf6a8faff7821 indirect_call_wrapper: do not reevaluate function pointer
 6a877ececd6daa002a9a0002cd0fbca6592a9244 net/rds: Fix circular locking dependency in rds_tcp_tune
+9de68394a61528d40f575c3e6719cc75c56f62c3 Revert "driver core: enforce device_lock for driver_match_device()"
 1a86a1f7d88996085934139fa4c063b6299a2dd3 net: Fix rcu_tasks stall in threaded busypoll
 d1a196e0a6dcddd03748468a0e9e3100790fc85c platform/x86: dell-wmi-sysman: Don't hex dump plaintext password data
 63dc2c34a91642d9ae615a9609841fa317a36c92 x86/xen: Build identity mapping page tables dynamically for XENPV
@@ -563,4 +564,4 @@ c23719abc3308df7ed3ad35650ad211fb2d2003d Merge tag 'x86-urgent-2026-03-08' of gi
 fc9f248d8c591454e257edd54ac4085d84f11e6a Merge tag 'efi-fixes-for-v7.0-2' of git://git.kernel.org/pub/scm/linux/kernel/git/efi/efi
 1f318b96cc84d7c2ab792fcc0bfd42a7ca890681 Linux 7.0-rc3
 
---===============2527382322276984933==--
+--===============4770952656535657752==--
