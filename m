@@ -1,51 +1,50 @@
-Content-Type: multipart/mixed; boundary="===============4735577752717605622=="
+Content-Type: multipart/mixed; boundary="===============4017815149961881017=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Mon, 09 Mar 2026 22:35:57 -0000
-Message-Id: <177309575742.980988.4461062782416274173@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Mon, 09 Mar 2026 22:36:06 -0000
+Message-Id: <177309576649.981403.9553173969101861035@gitolite.kernel.org>
 
---===============4735577752717605622==
+--===============4017815149961881017==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/spi
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/asoc-7.1
-    old: 97af961568c8682c44506c9ad4b26c8a5455ec1d
-    new: ed0313223ce6514dbd39c049e25f702980d7e3cc
+  - ref: refs/heads/for-7.0
+    old: ad0e9ac2d5f5ab7a773c2c07ecf06ee59db9259f
+    new: 111e2863372c322e836e0c896f6dd9cf4ee08c71
     log: |
-         87e49eb0918154f64f736d5271e9e3fe566f82b1 ASoC: wm_adsp: Make wm_adsp_fw_text[] const
-         ed0313223ce6514dbd39c049e25f702980d7e3cc ASoC: codecs: wcd9335: Remove potential undefined behavior in wcd9335_slimbus_irq()
+         111e2863372c322e836e0c896f6dd9cf4ee08c71 spi: rockchip-sfc: Fix double-free in remove() callback
          
 
---===============4735577752717605622==
+--===============4017815149961881017==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1773095755 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1773095755-75e9697b69c1c544c2a6e0130e841591de8811c9
+pusher C3F436CA30F5D8EB 1773095765 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
+nonce 1773095764-f7915cf1aca99c4d87044619607b01afa4f86fde
 
-97af961568c8682c44506c9ad4b26c8a5455ec1d ed0313223ce6514dbd39c049e25f702980d7e3cc refs/heads/asoc-7.1
+ad0e9ac2d5f5ab7a773c2c07ecf06ee59db9259f 111e2863372c322e836e0c896f6dd9cf4ee08c71 refs/heads/for-7.0
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmmvS0sACgkQJNaLcl1U
-h9C6fwf9FuIu7HAuC9MOtpUEDI9N+Nxi5ZZxCPUdAAS3p1Hao5FlmyDqnRK1Hckp
-l472hRNnfa0cw0KI0ie/xlnP/at2XUzWfIW7SQXUqi6oYQ0QeIUIkPeweBKeNI0G
-LLb7Fk08BoSfWz+kxhYtmGn+sbFXWBYHznOdLwWdz7//09+uG0UKTRmShHqWUP5X
-K5DJmWJ9Vz55jACd4ecGIqvicyC3LkxY3WsH4C1+LQGodhPYAtasbLQ0PzR/HxBL
-BMA8JgrMRMaJSX4lGrpBf0J18fe4eMqiCNoTVagQm7CP57o3nSta95YV/Vn+v661
-CstldELCknfqCdUv5JoL5BgWpiDTWQ==
-=s9+M
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmmvS1UACgkQJNaLcl1U
+h9CGoQf9HE7KHMFoGJI1GGHGCoFTKkjkHEW3RZ2zo32hGWL4EpB89N5+Ra4K/+dO
+nPdnokDtybIj9I38eDDGhHas8xkBEmAhSE3lOJJFYhrB/V3H22LMWnIa/3/MaKbV
+Fcy9rSS6h5lbeoBprQ9Qe9HaAm4SOgl3+w7wcAi9jpk2YE/m07ISr+7AdC4ORkuX
+fw4ywP+hGMk9NwOQN5DPoqRuOMcHYc1kQ0M8HywX5QX7sJOzzsIWIeAezfJcs6kP
+TGdX8dmM+dy6A8M4xwbhxdVr+LVe8P+FfszsYff0o+9d3LVw57x8W2Fqu9Hk7hVF
+/D+8LYod6FIRGZtdIXwmz8yKLUUXGA==
+=YIJX
 -----END PGP SIGNATURE-----
 
---===============4735577752717605622==--
+--===============4017815149961881017==--
