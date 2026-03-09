@@ -1,26 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============8729954734204409590=="
+Content-Type: multipart/mixed; boundary="===============2404559655942701363=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Mon, 09 Mar 2026 19:05:34 -0000
-Message-Id: <177308313414.795649.15279823838274543444@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Mon, 09 Mar 2026 19:05:50 -0000
+Message-Id: <177308315016.795924.3161770197022127747@gitolite.kernel.org>
 
---===============8729954734204409590==
+--===============2404559655942701363==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
+repo: pub/scm/linux/kernel/git/broonie/spi
 user: broonie
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/spi-7.0
+  - ref: refs/heads/for-7.0
     old: 3b46d61890632c8f8b117147b6923bff4b42ccb7
     new: ad0e9ac2d5f5ab7a773c2c07ecf06ee59db9259f
     log: revlist-3b46d6189063-ad0e9ac2d5f5.txt
 
---===============8729954734204409590==
+--===============2404559655942701363==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher C3F436CA30F5D8EB 1773083148 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
+nonce 1773083148-04ee9c64c2fd6ad4f5e30c91308d72e7ccf76afb
+
+3b46d61890632c8f8b117147b6923bff4b42ccb7 ad0e9ac2d5f5ab7a773c2c07ecf06ee59db9259f refs/heads/for-7.0
+-----BEGIN PGP SIGNATURE-----
+
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmmvGgwACgkQJNaLcl1U
+h9A6Pgf/eAwGDGeeBWVB6vo+GAIfQyvUrRuJeycu3O2KbZnD+E6jsoGBR0FtO04N
+Uj/Jm06Vu3qz6raETkj70nDKatJRUUVk4Z67Zp0lYtznFpCqrKBfA00t0nsE2aN/
+R7qCXtorf4JE/W3EAgJQ+ADeVPNetihbVBpNfnHufkwYT+Ee6nCllxNimkzentLy
+fT4BlX/vFDmbk2Nrb/X75wL1uWR6yTnNFoxaGpyc36b7EmH9EBTShZHDcKYBKLbL
+a1WqFGlsTvvEQOi9L6gX6hDFEUmCryAX+iDGSL6xexjmKuieevac9XB3JZ4pZamX
+e6OtTlqgOTxXfZDckHOOmJBfjt7zDw==
+=JpQk
+-----END PGP SIGNATURE-----
+
+--===============2404559655942701363==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -565,4 +590,4 @@ fc9f248d8c591454e257edd54ac4085d84f11e6a Merge tag 'efi-fixes-for-v7.0-2' of git
 b20b437666e1cb26a7c499d1664e8f2a0ac67000 spi: amlogic: spifc-a4: Fix DMA mapping error handling
 ad0e9ac2d5f5ab7a773c2c07ecf06ee59db9259f spi: atcspi200: Fix double-free in atcspi_configure_dma()
 
---===============8729954734204409590==--
+--===============2404559655942701363==--
