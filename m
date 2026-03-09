@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3977398785209012563=="
+Content-Type: multipart/mixed; boundary="===============4645743866851171495=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
-Date: Mon, 09 Mar 2026 08:36:03 -0000
-Message-Id: <177304536345.158085.10832210282741014142@gitolite.kernel.org>
+Date: Mon, 09 Mar 2026 08:36:06 -0000
+Message-Id: <177304536670.158223.14152716714456949401@gitolite.kernel.org>
 
---===============3977398785209012563==
+--===============4645743866851171495==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,45 +16,38 @@ repo: pub/scm/linux/kernel/git/stable/linux
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/master
-    old: c23719abc3308df7ed3ad35650ad211fb2d2003d
-    new: 1f318b96cc84d7c2ab792fcc0bfd42a7ca890681
-    log: |
-         a4b0bf6a40f3c107c67a24fbc614510ef5719980 x86/efi: defer freeing of boot services memory
-         cfc69c2e6c699c96949f7b0455195b0bfb7dc715 i2c: i801: Revert "i2c: i801: replace acpi_lock with I2C bus lock"
-         014441d1e4b2f5be728433b761df3377dee7a487 Merge tag 'i2c-for-7.0-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
-         fc9f248d8c591454e257edd54ac4085d84f11e6a Merge tag 'efi-fixes-for-v7.0-2' of git://git.kernel.org/pub/scm/linux/kernel/git/efi/efi
-         1f318b96cc84d7c2ab792fcc0bfd42a7ca890681 Linux 7.0-rc3
-         
+  - ref: refs/tags/v7.0-rc3
+    old: 0000000000000000000000000000000000000000
+    new: 3daa4f5dc6cc1ac1ab2f95b5b4c16bc5fb87f48f
 
---===============3977398785209012563==
+--===============4645743866851171495==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1773045361 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1773045365 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
-nonce 1773045361-317544b711ae2389f46ba0036385da01f1f09c27
+nonce 1773045364-41e3b8e530486dcfa5d6565472060c6989079195
 
-c23719abc3308df7ed3ad35650ad211fb2d2003d 1f318b96cc84d7c2ab792fcc0bfd42a7ca890681 refs/heads/master
+0000000000000000000000000000000000000000 3daa4f5dc6cc1ac1ab2f95b5b4c16bc5fb87f48f refs/tags/v7.0-rc3
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmmuhnIbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+6n8QAJSFmBmlB5grptKEo8mP
-rawBFKZx7iZSgAlVVcLu+U56yx6AVWedmnZsJaUQL8ESYEngPlR8hchbi2LEPARO
-uzADVv5KI74iSzME6pRVUAZ73ICas0wINsYDZiNez3QirvsXF9Z8fMZWe9H5FcNT
-bAxytBF05CG/NjbaM8YXDM/3uHdnkSbHPDbtwkI4yLpYTlyom5wKA9Wh58AeAcHZ
-vemqUOUYM3F9ReR94kXfPOzriDSvCSnX+EwIJEJYz7+4eaiXjG7psiXuMuG3aBEM
-pPSoHhc/N72MbfdtqTpJ9ynzvf5428aI5ABcthrvG8fT4vfHDrQlFNt347lB+9eQ
-zuAH8jyTDymIRbnxUTNGHWysdsbHtPyYPrX+ddE61eyGl7iKJxvjCEsavk9Cd9OQ
-eAQLcZjJyXWqt3HaOgUF4RItjSk6/rlFjK8kpujiDbx0UaUkqMaEL4uZqjgA0KsU
-x2t0d02fYJtc2WrikJOlQ6t9sKVLCv53xOyYSDgZMQ3NoVrcV1XWfU+lM7kjQg97
-uV1vU98Is0wG6WDUwqrg+nTBzo+H+/lE5FAM6YWO5IBK6RYrIL1s0sLVtn8LKaeN
-sjiE4U08H0eQWUwcXP3ZcHVPuNo+DUEpOPkcurFnfFpivPKpNLRSv3CDfUZqqjFP
-SKFcQBINWDg/KynKZ93uAL7Q
-=UeCJ
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmmuhnUbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+2fMP/0/MRAj+9Gn3vRRIa4Vj
+Y3+lVmD0ECeeXsVssTIKCg1p0qzoT81WL+Eq6mnNNJ9mP7Tq/njOqRWYyM5WsJxn
+qwmHGloicr7YZsFJdajH98VUIjoyRccTznzsCLcDCruSQmrQWlmSMfdSft9FniDF
+bzwEgiXEw8WRPY6Cc5DYA05TP+akz+8j3n27C3yhR5XD6Lkf+xKvv5xcPqx17vtb
+SSgq7jPj66WzzLBTybbEtBY4TYZ2Jw/uAUriTcPWEQeVeZwyoHJnpgxQTo9Y6ZDG
+4nbbAkDSm3aLT3O2AwfFnFI1rgptBOgePfjXpkBXlBCL1Ge24zCtkJvoNViZWMIL
+TTFWVaHvbTuLw47yBd8QIbq0Y1qBr87RUYupOvz/b9NP+F30JgGXCP9XtWnnIhy6
+pgVFhnCkgFwFTPSQ39agtNLP4vQUWyECfe2ak6jmsDIDaDTR71q04X7APbJbeQhk
+wjfiASVLFDSGAFVEOkHwktnK3RV0xBcAEngpjQ/Oa7P1c8pLvw2ppa52FG0zyJm7
+APRv1ZNqfIYo6SZGAI/3k9CfgQ4dGRG/q2cBxgquqDFUwd0Yg1/v2l1vDmod/oBd
+XiktoebykvgJ9mEJhofcDSpOaLuAotcQCQwS71xPSV4QVXxgK3d+FUM4joaSAaW9
+7zk3dDlyruT9aCkceMjNTAGN
+=rhTT
 -----END PGP SIGNATURE-----
 
---===============3977398785209012563==--
+--===============4645743866851171495==--
