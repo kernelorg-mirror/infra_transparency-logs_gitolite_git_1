@@ -1,36 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============3217234987313647172=="
+Content-Type: multipart/mixed; boundary="===============3889877224787726133=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/geert/renesas-devel
-Date: Mon, 09 Mar 2026 09:11:03 -0000
-Message-Id: <177304746358.259991.15078086822179642464@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/geert/linux-m68k
+Date: Mon, 09 Mar 2026 09:18:32 -0000
+Message-Id: <177304791212.264850.3023662029214620579@gitolite.kernel.org>
 
---===============3217234987313647172==
+--===============3889877224787726133==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/geert/renesas-devel
+repo: pub/scm/linux/kernel/git/geert/linux-m68k
 user: geert
 changes:
   - ref: refs/heads/master
-    old: e25e241591fc291a371deec29be8d9bc1266f064
-    new: 566bcbd47210ed097ed10fef7f65bd0f0599a7f6
-    log: revlist-e25e241591fc-566bcbd47210.txt
-  - ref: refs/tags/renesas-devel-2026-03-09-v7.0-rc3
-    old: 0000000000000000000000000000000000000000
-    new: 03898c93d708f8d9155b4d59d96d1cb7a5258941
-  - ref: refs/tags/v7.0-rc3
-    old: 0000000000000000000000000000000000000000
-    new: 3daa4f5dc6cc1ac1ab2f95b5b4c16bc5fb87f48f
+    old: b879a081bb0f6725a8ca41b6bdbe25acaa6a73dd
+    new: fab8e068199a17ab8cb2ba47cc6f09d79bbf785a
+    log: revlist-b879a081bb0f-fab8e068199a.txt
 
---===============3217234987313647172==
+--===============3889877224787726133==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e25e241591fc-566bcbd47210.txt
+Content-Disposition: attachment; filename=revlist-b879a081bb0f-fab8e068199a.txt
 
 f947d9e77b26238b821b5227afb4fee8c7ea0d5a nvme/host: fixup some typos
 ddfb8b322bbd8ae996f4ac0192f0190feb0a01ce nvme: expose active quirks in sysfs
@@ -569,6 +563,6 @@ c23719abc3308df7ed3ad35650ad211fb2d2003d Merge tag 'x86-urgent-2026-03-08' of gi
 014441d1e4b2f5be728433b761df3377dee7a487 Merge tag 'i2c-for-7.0-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
 fc9f248d8c591454e257edd54ac4085d84f11e6a Merge tag 'efi-fixes-for-v7.0-2' of git://git.kernel.org/pub/scm/linux/kernel/git/efi/efi
 1f318b96cc84d7c2ab792fcc0bfd42a7ca890681 Linux 7.0-rc3
-566bcbd47210ed097ed10fef7f65bd0f0599a7f6 Merge tag 'v7.0-rc3' into renesas-devel
+fab8e068199a17ab8cb2ba47cc6f09d79bbf785a Merge tag 'v7.0-rc3'
 
---===============3217234987313647172==--
+--===============3889877224787726133==--
