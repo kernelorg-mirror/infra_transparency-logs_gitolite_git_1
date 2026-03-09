@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1569247247126370288=="
+Content-Type: multipart/mixed; boundary="===============1829239076675087581=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/device-mapper/linux-dm
-Date: Mon, 09 Mar 2026 14:23:40 -0000
-Message-Id: <177306622049.545961.4390347518181558280@gitolite.kernel.org>
+Date: Mon, 09 Mar 2026 14:23:53 -0000
+Message-Id: <177306623315.546248.15233992169760155162@gitolite.kernel.org>
 
---===============1569247247126370288==
+--===============1829239076675087581==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/device-mapper/linux-dm
 user: mikulas
 changes:
-  - ref: refs/heads/for-next
+  - ref: refs/heads/dm-7.1
     old: 4c788c6f921b22f9b6c3f316c4a071c05683e7de
     new: 4f6d6fb3a6c53241c6059947d54b9f68fa0719e1
     log: revlist-4c788c6f921b-4f6d6fb3a6c5.txt
 
---===============1569247247126370288==
+--===============1829239076675087581==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -51,4 +51,4 @@ b39b3c812eaf7956cc6f9ba570b75b5d52c8da62 dm-verity-fec: pass down index_in_regio
 d0829329de71634129420ff53557bb0ade6a9145 dm-verity-fec: log target_block instead of index_in_region
 4f6d6fb3a6c53241c6059947d54b9f68fa0719e1 dm-verity-fec: improve comments for fec_read_bufs()
 
---===============1569247247126370288==--
+--===============1829239076675087581==--
