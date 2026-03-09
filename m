@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
-Date: Mon, 09 Mar 2026 18:10:32 -0000
-Message-Id: <177307983288.749269.18257143393424278567@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
+Date: Mon, 09 Mar 2026 18:12:00 -0000
+Message-Id: <177307992039.749936.15408902740189149235@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jlayton/linux
-user: jlayton
+repo: pub/scm/linux/kernel/git/akpm/25-new
+user: akpm
 changes:
-  - ref: refs/heads/kdevops
-    old: 53c34a77c031e1e726cf70392db1869793062c89
-    new: c82f9c583a1706466760bed19d00e39a59dcc59c
+  - ref: refs/heads/master
+    old: 156b4f499e46f4539cc31fbdd4cb416eddc64175
+    new: b2d80bc17e9c8583d82a7b3060442527770e8817
     log: |
-         c82f9c583a1706466760bed19d00e39a59dcc59c DEBUG: extra debugging in notify path
+         b2d80bc17e9c8583d82a7b3060442527770e8817 foo
          
