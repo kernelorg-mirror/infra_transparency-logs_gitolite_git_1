@@ -1,21 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
-Date: Mon, 09 Mar 2026 06:30:21 -0000
-Message-Id: <177303782135.55621.8477776931800922765@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vkoul/soundwire
+Date: Mon, 09 Mar 2026 07:05:49 -0000
+Message-Id: <177303994977.82813.3870651148756998600@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pci/pci
-user: mani
+repo: pub/scm/linux/kernel/git/vkoul/soundwire
+user: vkoul
 changes:
-  - ref: refs/heads/controller/dwc
-    old: 0c8389e1b6c2ced884483e2c5ff67628d64c1b64
-    new: edb5ca3262e2255cf938a5948709d3472d4871ad
+  - ref: refs/heads/next
+    old: 4b8fc2b17272d4379f3c80cee2d6d8b7d998fa8f
+    new: b2c9f1d5a7eb50bcdda607afef1378e552bbb490
     log: |
-         271d0b1f058ae9815e75233d04b23e3558c3e4f4 PCI: dwc: ep: Fix MSI-X Table Size configuration in dw_pcie_ep_set_msix()
-         94cbea0f636b55602a9a10583670976680ecea67 PCI: dwc: ep: Mirror the max link width and speed fields to all functions
-         edb5ca3262e2255cf938a5948709d3472d4871ad PCI: dwc: Perform cleanup in the error path of dw_pcie_resume_noirq()
+         2a267a8410841ba1c71daa41d1fb2cc21ff23e6b soundwire: amd: add clock init control function
+         27ab4f1e4909a674dfd03058fb9802cae2343a36 soundwire: amd: refactor bandwidth calculation logic
+         fee12f3c20dd5902dbd95eb41f80d3fba89336d7 soundwire: stream: Poll for DP prepare to avoid interrupt deadlock
+         2c96956fe764f8224f9ec93b2a9160a578949a7a soundwire: bus: demote UNATTACHED state warnings to dev_dbg()
+         b2c9f1d5a7eb50bcdda607afef1378e552bbb490 soundwire: Intel: test bus.bpt_stream before assigning it
          
