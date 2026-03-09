@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6219103888982456234=="
+Content-Type: multipart/mixed; boundary="===============0696939014908919458=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/thermal/linux
-Date: Mon, 09 Mar 2026 23:15:01 -0000
-Message-Id: <177309810115.1011706.9848941249856176547@gitolite.kernel.org>
+Date: Mon, 09 Mar 2026 23:15:40 -0000
+Message-Id: <177309814092.1014293.379524904452975743@gitolite.kernel.org>
 
---===============6219103888982456234==
+--===============0696939014908919458==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/thermal/linux
 user: daniel.lezcano
 changes:
-  - ref: refs/heads/thermal/linux-next
+  - ref: refs/heads/thermal/bleeding-edge
     old: 0061030929e2d09398ade9fae320528bdcba2bed
     new: b3414148bbc1f9cd56217e58a558c6ac4fd1b4a6
     log: revlist-0061030929e2-b3414148bbc1.txt
 
---===============6219103888982456234==
+--===============0696939014908919458==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ a3618f3ca6a6dc5cb185d70626c28836b86e8256 thermal/drivers/imx91: Add hwmon suppor
 83c0f9a5d679a6f8d84fc49b2f62ea434ccab4b6 thermal/drivers/sprd: Fix temperature clamping in sprd_thm_temp_to_rawdata
 b3414148bbc1f9cd56217e58a558c6ac4fd1b4a6 thermal/drivers/sprd: Fix raw temperature clamping in sprd_thm_rawdata_to_temp
 
---===============6219103888982456234==--
+--===============0696939014908919458==--
