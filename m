@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
-Date: Mon, 09 Mar 2026 21:50:52 -0000
-Message-Id: <177309305226.942854.1663299722632509533@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/khilman/linux-omap
+Date: Mon, 09 Mar 2026 21:53:36 -0000
+Message-Id: <177309321654.943928.4199516862996302107@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/25-new
-user: akpm
+repo: pub/scm/linux/kernel/git/khilman/linux-omap
+user: khilman
 changes:
-  - ref: refs/heads/master
-    old: 1e0634e0ba720633588835c8106de6a8e83b5ab9
-    new: a25f384dcbd0e1d94eb3f81a8c2895382c0f17dd
+  - ref: refs/heads/for-next
+    old: 4c9485621e57b93f03a672fceb77f2afafa8d5be
+    new: 66d6ab00d148c91468136d7894862c7f9acfe2b8
     log: |
-         a25f384dcbd0e1d94eb3f81a8c2895382c0f17dd foo
+         7adefbf4dff31e016c0edc653b85823afff541fe arm: dts: ti: omap: align node patterns with established convention
+         8f9e017d1f4d4d5d69d5a623af9c1c1d2b624dcc Merge branch 'omap-for-v7.1/dt' into tmp/omap-next-20260309.145046
+         66d6ab00d148c91468136d7894862c7f9acfe2b8 Merge branch 'omap-for-v7.1/soc' into tmp/omap-next-20260309.145046
          
