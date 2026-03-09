@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6139443450471443984=="
+Content-Type: multipart/mixed; boundary="===============3995827268203795696=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/fs/fsverity/linux
-Date: Mon, 09 Mar 2026 20:49:49 -0000
-Message-Id: <177308938932.890852.438905871279367413@gitolite.kernel.org>
+Date: Mon, 09 Mar 2026 20:50:16 -0000
+Message-Id: <177308941666.893651.3968188879554846631@gitolite.kernel.org>
 
---===============6139443450471443984==
+--===============3995827268203795696==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/fs/fsverity/linux
 user: ebiggers
 changes:
-  - ref: refs/heads/for-next
-    old: 6de23f81a5e08be8fbf5e8d7e9febc72a5b5f27f
+  - ref: refs/heads/for-current
+    old: a300000233a9ff842e2fb450fb9a79f7827a586d
     new: 1f318b96cc84d7c2ab792fcc0bfd42a7ca890681
-    log: revlist-6de23f81a5e0-1f318b96cc84.txt
+    log: revlist-a300000233a9-1f318b96cc84.txt
 
---===============6139443450471443984==
+--===============3995827268203795696==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6de23f81a5e0-1f318b96cc84.txt
+Content-Disposition: attachment; filename=revlist-a300000233a9-1f318b96cc84.txt
 
 f947d9e77b26238b821b5227afb4fee8c7ea0d5a nvme/host: fixup some typos
 ddfb8b322bbd8ae996f4ac0192f0190feb0a01ce nvme: expose active quirks in sysfs
@@ -722,7 +722,6 @@ f33ac74f9cc1cdadd3921246832b2084a5dec53a crypto: Clean up help text for CRYPTO_C
 7cbe98f7bef965241a5908d50d557008cf998aee net: dsa: realtek: rtl8365mb: fix rtl8365mb_phy_ocp_write return value
 3f10543c5bdd11568d1a54f5b1d955f5652e3095 selftests/net: packetdrill: restore tcp_rcv_big_endseq.pkt
 1939d9816dbfc057508267f0c5214f9478fbd6d1 MAINTAINERS: ena: update AMAZON ETHERNET maintainers
-a300000233a9ff842e2fb450fb9a79f7827a586d fsverity: add dependency on 64K or smaller pages
 93992667d0ab695ac30ceec91a516fd4bf725d75 ALSA: doc: usb-audio: Add doc for QUIRK_FLAG_SKIP_IFACE_SETUP
 83307aebe6a1a4fddf5dec6071716ce251da9cc9 ALSA: hda/senary: Use codec->core.afg for GPIO access
 8fb54c7307f6add04246d2f7845e42ecd41950fe wifi: mac80211: fix missing ieee80211_eml_params member initialization
@@ -998,4 +997,4 @@ c23719abc3308df7ed3ad35650ad211fb2d2003d Merge tag 'x86-urgent-2026-03-08' of gi
 fc9f248d8c591454e257edd54ac4085d84f11e6a Merge tag 'efi-fixes-for-v7.0-2' of git://git.kernel.org/pub/scm/linux/kernel/git/efi/efi
 1f318b96cc84d7c2ab792fcc0bfd42a7ca890681 Linux 7.0-rc3
 
---===============6139443450471443984==--
+--===============3995827268203795696==--
