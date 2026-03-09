@@ -1,28 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Mon, 09 Mar 2026 00:19:01 -0000
-Message-Id: <177301554184.3961175.1772229976491580621@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf
+Date: Mon, 09 Mar 2026 00:42:23 -0000
+Message-Id: <177301694346.3979783.1991016001038936997@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/bpf/bpf
+user: ast
 changes:
-  - ref: refs/heads/20251216_kuninori_morimoto_gx_asoc_capsuling_struct_snd_soc_dapm_context
-    old: 0000000000000000000000000000000000000000
-    new: 7910dcec6fa58d4d7b35c578dc1f78a872f3ca10
-  - ref: refs/heads/20260305_sen_asoc_ti_davinci_mcasp_mcasp_code_cleanup_and_clk_div_fixes
-    old: 0000000000000000000000000000000000000000
-    new: a8075ada4a341ce58ebf8bef0188cefe6c2f6487
-  - ref: refs/heads/fileFN8y0F
-    old: 0000000000000000000000000000000000000000
-    new: aa617787a01b2821d35988123b2f91ef7459e00e
-  - ref: refs/heads/fileiIige2
-    old: 0000000000000000000000000000000000000000
-    new: facfdef64d11c08e6f1e69d02a0b87cb74cee0f5
-  - ref: refs/heads/v5_20260306_mstrozek_add_support_for_cs42l43b_codec_to_cs42l43_driver
-    old: 0000000000000000000000000000000000000000
-    new: 441870997bd726649c613f64ffdb0b7f60fc9724
+  - ref: refs/heads/master
+    old: 014441d1e4b2f5be728433b761df3377dee7a487
+    new: 1f318b96cc84d7c2ab792fcc0bfd42a7ca890681
+    log: |
+         a4b0bf6a40f3c107c67a24fbc614510ef5719980 x86/efi: defer freeing of boot services memory
+         fc9f248d8c591454e257edd54ac4085d84f11e6a Merge tag 'efi-fixes-for-v7.0-2' of git://git.kernel.org/pub/scm/linux/kernel/git/efi/efi
+         1f318b96cc84d7c2ab792fcc0bfd42a7ca890681 Linux 7.0-rc3
+         
