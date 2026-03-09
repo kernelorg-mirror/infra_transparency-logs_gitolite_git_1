@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============5380384844910901813=="
+Content-Type: multipart/mixed; boundary="===============0329670659114099535=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Mon, 09 Mar 2026 00:49:58 -0000
-Message-Id: <177301739843.3984688.12742054050545781168@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ast/bpf
+Date: Mon, 09 Mar 2026 01:02:52 -0000
+Message-Id: <177301817257.3999477.11158031210326967752@gitolite.kernel.org>
 
---===============5380384844910901813==
+--===============0329670659114099535==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
+repo: pub/scm/linux/kernel/git/ast/bpf
 user: ast
 changes:
-  - ref: refs/heads/master
-    old: 6dd780f973816133f189efec04118c1e6b1b443d
-    new: 099bded7525d9803f62bc5a1ed60e2c9ec4851e0
-    log: revlist-6dd780f97381-099bded7525d.txt
+  - ref: refs/heads/stacklive
+    old: ea1fc0671b0bcf7475b50dc5771e297b413c7ce5
+    new: a172fd6a6bcdba4141f80525113bc0c43e0750b0
+    log: revlist-ea1fc0671b0b-a172fd6a6bcd.txt
 
---===============5380384844910901813==
+--===============0329670659114099535==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6dd780f97381-099bded7525d.txt
+Content-Disposition: attachment; filename=revlist-ea1fc0671b0b-a172fd6a6bcd.txt
 
 f947d9e77b26238b821b5227afb4fee8c7ea0d5a nvme/host: fixup some typos
 ddfb8b322bbd8ae996f4ac0192f0190feb0a01ce nvme: expose active quirks in sysfs
@@ -477,9 +477,12 @@ f82859c84a9862e242c904e72fb0625fef9b24e7 accel/amdxdna: Fix major version check 
 0b3bb205808195159be633a8cefb602670e856fb Merge tag 'vfs-7.0-rc3.fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
 2697c45a481a299faa575a55cf1ff41826024e4f Merge tag 'wireless-2026-03-04' of https://git.kernel.org/pub/scm/linux/kernel/git/wireless/wireless
 c107785c7e8dbabd1c18301a1c362544b5786282 Merge tag 'modules-7.0-rc3.fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/modules/linux
+972787479ee73006fddb5e59ab5c8e733810ff42 bpf: test_run: Fix the null pointer dereference issue in bpf_lwt_xmit_push_encap
 18b43bec5437914e3b51bb08dc6c6e7b0a2df4d1 mailmap: reflect my gmail as default
+e8ae16d65ac629bcdebf685b9ad9b008648b08b0 selftests/bpf: Add selftests for the invocation of bpf_lwt_xmit_push_encap
 c649e99764f6baeddb65e9b88a24df082636a8f4 Merge tag 'linux-can-fixes-for-7.0-20260302' of git://git.kernel.org/pub/scm/linux/kernel/git/mkl/linux-can
 25dd70a03b1f5f3aa71e1a5091ecd9cd2a13ee43 hwmon: (pmbus/q54sj108a2) fix stack overflow in debugfs read
+4faa1893807cfc9363b19624f8666e07e7e42f59 Merge branch 'fix-the-null-pointer-dereference-issue-in-bpf_lwt_xmit_push_encap'
 681d787cb61f3616dde8d4b747bacf03b3e4d665 Merge tag 'amd-drm-fixes-7.0-2026-03-04' of https://gitlab.freedesktop.org/agd5f/linux into drm-fixes
 7f083faf59d14c04e01ec05a7507f036c965acf8 net: sched: avoid qdisc_reset_all_tx_gt() vs dequeue race for lockless qdiscs
 165573e41f2f66ef98940cf65f838b2cb575d9d1 tcp: secure_seq: add back ports to TS offset
@@ -564,6 +567,16 @@ f2fa6cc736ef518628f6a9d1155f9ec24e0af4e7 rcutorture: Update due to x86 not suppo
 150bceb3e0a4a30950279d91ea0e8cc69a736742 accel: ethosu: Fix job submit error clean-up refcount underflows
 838ae99f9a77a5724ee6d4e7b7b1eb079147f888 accel: ethosu: Fix NPU_OP_ELEMENTWISE validation with scalar
 021f1b77f70d62351bba67b050b8d784641d817f accel: ethosu: Handle possible underflow in IFM size calculations
+be872ccf370915b858ab693aa0707a2eff4bb1fd libbpf: Support appending split BTF in btf__add_btf()
+d8d5c0151148b0194e8bbba66eb56d4d9cab94cd bpftool: Support merging multiple module BTFs in btf dump
+fefeeec6123587c6b08884865042988d40405bd2 selftests/bpf: Add test for btf__add_btf() with split BTF sources
+8a2a3aaf90cf671caaca88fe57362c8b169ef392 Merge branch 'libbpf-bpftool-support-merging-split-btfs'
+74d3305e620b3c71b414198f9cf9b1609148d277 selftests/bpf: bpf_cookie: Skip kprobe_multi tests without bpf_testmod
+7f20d371fd879f5bb9be739c86c9bac13ea920c8 selftests/bpf: bpf_cookie: Make perf_event subtest trigger reliably
+748f9c6811b973a518436136fb86e6284a8854c1 Merge branch 'selftests-bpf-fix-bpf_cookie-failures'
+6afc431db1b4c21fec96cf6bea29489f4dce17c5 libbpf: Optimize kprobe.session attachment for exact function names
+a28441dd29617b330d7284dc00b610be196b783f selftests/bpf: Add tests for kprobe.session optimization
+6dd780f973816133f189efec04118c1e6b1b443d Merge branch 'optimize-kprobe-session-attachment-for-exact-function-names'
 048efe129a297256d3c2088cf8d79515ff5ec864 smb: client: fix oops due to uninitialised var in smb2_unlink()
 3fcb1cbd7678ec057c62dbfe49369cf65badf8a4 Merge tag 'drm-intel-fixes-2026-03-05' of https://gitlab.freedesktop.org/drm/i915/kernel into drm-fixes
 ee0e6e69a772d601e152e5368a1da25d656122a8 ata: libata-eh: Fix detection of deferred qc timeouts
@@ -623,5 +636,23 @@ c23719abc3308df7ed3ad35650ad211fb2d2003d Merge tag 'x86-urgent-2026-03-08' of gi
 fc9f248d8c591454e257edd54ac4085d84f11e6a Merge tag 'efi-fixes-for-v7.0-2' of git://git.kernel.org/pub/scm/linux/kernel/git/efi/efi
 1f318b96cc84d7c2ab792fcc0bfd42a7ca890681 Linux 7.0-rc3
 099bded7525d9803f62bc5a1ed60e2c9ec4851e0 Merge git://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf 7.0-rc3
+0e3ca6ecf86ee52e41614d79bf927ec908c9503d bpf: Add compute_const_regs() pre-pass for constant register tracking
+0a6c7cd412c51523a34cdfc0e86292fe6f09db14 bpf: Add helper and kfunc stack access size resolution
+01ea47582fe53453ca8cf58ff963087ffe1b40d0 bpf: Add btf_type_snprintf() for printing BTF type signatures
+dfc3b1acb9940a7317f326cc8b29b43f5ab0d500 bpf: Add spis_*() helpers for 4-byte stack slot bitmasks
+76ae424c73fe5e0c5d8a74cfe76f251839b77660 bpf: Add per-subprog arg tracking analysis
+509878998d3ab38ef31076699dda33e97bb27435 bpf: Record per-subprog argument memory accesses
+8ad6f64ffa184d0c2a30d1907b9d54355a1a254f bpf: Add inter-procedural callee access folding
+f6598a91cc5d49802508ff258b3851669828510f bpf: Add backward arg liveness analysis
+2db3b785344e113b695c46c2b7084e6614e2dc8f bpf: Add forward FP-offset tracking in compute_stack_access()
+7f748e65732292a795574b70ec5a6d3f004d0b1d bpf: Resolve stack access from FP-derived pointers
+a239a7472f5b1b73c7bd2d2e8d24e024cf76bd56 bpf: Use static stack liveness for verifier state pruning
+19baff071c09c4bcd7c85cc4a71fde65fcd12926 selftests/bpf: Update tests for static stack liveness output
+8bfb42813d93752a0d9867e84d27906d4c9a5df0 selftests/bpf: Add tests for static stack liveness analysis
+856292b5d4a231a8e607a277d4b904d14afd0d21 bpf: Remove old dynamic stack liveness infrastructure
+19dd97d20d1e6c5a4041b0fd3fc3ac3962a6d3e4 selftests/bpf: Test that zero->misc promo is unsafe
+308dd40e1b364f4bc29661d0b0d6244f5db62a8f selftests/bpf: Add convergence test for arg_track dataflow join
+0db4667d522d68d334935355fc6b48c628c95ce5 selftests/bpf: Tests for 4-byte stack slots
+a172fd6a6bcdba4141f80525113bc0c43e0750b0 selftests/bpf: Check pruning across subprog calls
 
---===============5380384844910901813==--
+--===============0329670659114099535==--
