@@ -1,55 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============9223052667304082604=="
+Content-Type: multipart/mixed; boundary="===============3958004145285528828=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/cip/linux-cip
-Date: Mon, 09 Mar 2026 10:26:31 -0000
-Message-Id: <177305199152.324040.5925729288726408372@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Mon, 09 Mar 2026 10:37:39 -0000
+Message-Id: <177305265950.350865.7479133156062788629@gitolite.kernel.org>
 
---===============9223052667304082604==
+--===============3958004145285528828==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/cip/linux-cip
-user: uli
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-4.19.y-st-rc
-    old: 797ce10e2a2f146f4a8dd6a95c5892986dba6d56
-    new: ae59d713843f75871e539ad9971df351ff3c0590
-    log: revlist-797ce10e2a2f-ae59d713843f.txt
+  - ref: refs/heads/master
+    old: 857f0751e481a58eb9db21624f0efce361d1e411
+    new: 06d8aab54ac0da649da5e9ae8ce551a6aa0ffd6e
+    log: |
+         06d8aab54ac0da649da5e9ae8ce551a6aa0ffd6e 5.10-stable patches
+         
 
---===============9223052667304082604==
-Content-Type: text/plain; charset="utf-8"
+--===============3958004145285528828==
+Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
-Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-797ce10e2a2f-ae59d713843f.txt
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-1f85341cc335ab481f198df13118a7ce6614f74b l2tp: avoid one data-race in l2tp_tunnel_del_work()
-9ac164cd3808835350122b5b054f6dedfd0cbd7d xfs: set max_agbno to allow sparse alloc of last full inode chunk
-292dd7b68e7ec4bac8fec91ebf1e7cbd2714a8a1 HID: uclogic: Correct devm device reference for hidinput input_dev name
-35e924c1cd4b468d71c126087ae7fe0d583b5cd3 macvlan: fix possible UAF in macvlan_forward_source()
-5d69c753e9e90c920b0a7f77538b2f2f221c8f81 fbdev: ssd1307fb: fix build failure
-f8f511ea5ef599b33f5de01383968895ede13adb Update localversion-st, tree is up-to-date with 5.10.250.
-c04ea49d4e8b6ae39acf58c2369d6ea0658f94db crypto: omap - Allocate OMAP_CRYPTO_FORCE_COPY scatterlists correctly
-df09c1b07f517ba0c1619eb715ec734823f5cc91 crypto: virtio - Add spinlock protection with virtqueue notification
-2eb04966e118c53163ed806d81c8cf5b76e2e61d nilfs2: Fix potential block overflow that cause system hang
-a834c56a847f2fa75bbd705f53ada7903d631d7e scsi: qla2xxx: Delay module unload while fabric scan in progress
-df9cb0e487c20175451480ab7e05febd16f296ad scsi: qla2xxx: Query FW again before proceeding with login
-e38585cd2e47b673d1a82e25e323fcc68c32a1b8 gpio: omap: do not register driver in probe()
-471ababeb3f149631db4263cdd364825323972c9 gpio: sprd: Change sprd_gpio lock to raw_spin_lock
-128e3b0f847f4076ed060a7f746c4e5a60f185d2 drm/tegra: hdmi: sor: Fix error: variable ‘j’ set but not used
-f267b3f9b10994b8214d8a92ae0a9ca32a16ba6f platform/x86: classmate-laptop: Add missing NULL pointer checks
-633cd7f2aecc2a35696a5696274c9e4ee655a332 gpiolib: acpi: Fix gpio count with string references
-e90e56ff2931bb1e57777fc3c49db626278ff65f fs: dlm: fix invalid derefence of sb_lvbptr
-2befab726f787b5352747e064afa6596ed83e336 crypto: virtio - Remove duplicated virtqueue_kick in virtio_crypto_skcipher_crypt_req
-6df6a5fb43fb78db8696866a0741a76376654a14 scsi: qla2xxx: Free sp in error path to fix system crash
-fd6c9803c63240d8fcfe907a563f03bbb119d1a9 scsi: qla2xxx: Validate sp before freeing associated memory
-f38485e92a69ed0e238a17085631c6c620fb7070 scsi: qla2xxx: Fix bsg_done() causing double free
-8fc5b6b996f1ba34821d6bfd9130ba2a7d0a5089 fbdev: rivafb: fix divide error in nv3_arb()
-d6d8cd14b84c8addce7a2b31b4d30d6376ae8d76 f2fs: fix to avoid UAF in f2fs_write_end_io()
-0e66038fbf4c5dd3b825119d3d45c9d49cc4be89 USB: serial: option: add Telit FN920C04 RNDIS compositions
-ae59d713843f75871e539ad9971df351ff3c0590 f2fs: fix out-of-bounds access in sysfs attribute read/write
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1773052657 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1773052656-173842e97d520037919c16035f35df5433e98881
 
---===============9223052667304082604==--
+857f0751e481a58eb9db21624f0efce361d1e411 06d8aab54ac0da649da5e9ae8ce551a6aa0ffd6e refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmmuovEbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+LY8P/AwwtQ87m1thDmPVyKCN
+Z0iGZRekShiIvVs+OiW9zc0mkW8AjVdlTVm2+T1Ya6xElo2PmRh2b2nnRzK4o5zO
+QiJsFa3z429mIccnabMNZ4VAsrhBr2D5O+48N4se+xQnvMrQrIBTtxqTNlnoTBt6
+D92vPL11RL7iYtoU2KkuVi/pSYpp/KAvt5Dh+BLR3b9NQv+lkb2zpM6mRMKZ9gqD
+vAsUeYibkWz2Ob0PvRx/Rk3Xtj9MZa9eFXoRgqtYtDHFGzOIT7GZ/ed2Yb3OL3GE
+wR0nrhqtm9RiblHfx0nKH01qfZtPi6fPws3o+pqYFdRDgTahbiIelgQLrdkB+V6i
+OS9P/tzyHKxVJogzvbU0zxF0altSmnEPhB1/736bfvzaO1sp/Qep+sVT8pIqIKi7
+mRzK/xhk1i87b7GtZSIoGHf0219k8/YnqQoJhWAmm4Hpdj8p3Kh5AccX2/fqFmVm
+jy7gxMz8/aV6qxoF7S5GBCk/dfKI/7mLGPP7vPu/ZytdtjIL5Bfr7FyhCaFwZn/4
+lQfs70NgtJhKbqYRAPV0dLTNmgmweP8NrZAOxDZkPgCXWvWQjgCXoT8iMP3YaHIK
+2NIy008oXqDBfTBsKRK9R870XWv3EigMp4p5CO/E+/ikqbERnsg+k/iqtM6Py96R
+Q8XqM5nB7LTonZSYGpGddyV/
+=lsIl
+-----END PGP SIGNATURE-----
+
+--===============3958004145285528828==--
