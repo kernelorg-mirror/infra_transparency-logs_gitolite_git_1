@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3698284004640536380=="
+Content-Type: multipart/mixed; boundary="===============9223052667304082604=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/cip/linux-cip
-Date: Mon, 09 Mar 2026 10:26:17 -0000
-Message-Id: <177305197773.323789.997413482081756792@gitolite.kernel.org>
+Date: Mon, 09 Mar 2026 10:26:31 -0000
+Message-Id: <177305199152.324040.5925729288726408372@gitolite.kernel.org>
 
---===============3698284004640536380==
+--===============9223052667304082604==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,30 +15,41 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/cip/linux-cip
 user: uli
 changes:
-  - ref: refs/heads/linux-4.4.y-st-rc
-    old: e0e89cfcf08dfaf7b488e085bad13b56f34a30a9
-    new: 34f4d8a2208981d5dc0a42f56340b144fa20028d
-    log: revlist-e0e89cfcf08d-34f4d8a22089.txt
+  - ref: refs/heads/linux-4.19.y-st-rc
+    old: 797ce10e2a2f146f4a8dd6a95c5892986dba6d56
+    new: ae59d713843f75871e539ad9971df351ff3c0590
+    log: revlist-797ce10e2a2f-ae59d713843f.txt
 
---===============3698284004640536380==
+--===============9223052667304082604==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-e0e89cfcf08d-34f4d8a22089.txt
+Content-Disposition: attachment; filename=revlist-797ce10e2a2f-ae59d713843f.txt
 
-b860836ca9b7f1f50f43e23a6f310cd70c91ce7c net/sched: sch_qfq: do not free existing class in qfq_change_class()
-ea3f11c4ee32273a75aa8f37ef16652b424523d1 btrfs: fix deadlock in wait_current_trans() due to ignored transaction type
-b9a0cd576408647260b414d16bb28b03bd9a3818 sctp: move SCTP_CMD_ASSOC_SHKEY right after SCTP_CMD_PEER_INIT
-0c61e4d0651aa9eaccd29e53d0f9a53b0f9faea0 wifi: wlcore: ensure skb headroom before skb_push
-323538e9f559b9d81eba2b53c390124e9ae83db4 macvlan: fix possible UAF in macvlan_forward_source()
-09490469cfb3b0855cf56badc62c512684d59570 arm64: replace Sun/Solaris style flag on section directive
-29fcdc706c4629988c75957ee4943d985402f62b Update localversion-st, tree is up-to-date with 4.19-st13.
-3d71a7190de8469733cab8e079a2084427657b01 nilfs2: Fix potential block overflow that cause system hang
-5d0a5d906ff5a9d06fe4ac76342c7aad27389dfa gpio: omap: do not register driver in probe()
-c5a781f6d34aafbb82b60017773f8b8ca820d32b drm/tegra: hdmi: sor: Fix error: variable ‘j’ set but not used
-7c5db51ad00c47187530443ec884b4daee217a6e platform/x86: classmate-laptop: Add missing NULL pointer checks
-809fe86fccfb48d50ae60d8fd58d204f0d3e3166 fs: dlm: fix invalid derefence of sb_lvbptr
-120d1f6e5192ecdc87f998b12ece503622f34f0c fbdev: rivafb: fix divide error in nv3_arb()
-34f4d8a2208981d5dc0a42f56340b144fa20028d USB: serial: option: add Telit FN920C04 RNDIS compositions
+1f85341cc335ab481f198df13118a7ce6614f74b l2tp: avoid one data-race in l2tp_tunnel_del_work()
+9ac164cd3808835350122b5b054f6dedfd0cbd7d xfs: set max_agbno to allow sparse alloc of last full inode chunk
+292dd7b68e7ec4bac8fec91ebf1e7cbd2714a8a1 HID: uclogic: Correct devm device reference for hidinput input_dev name
+35e924c1cd4b468d71c126087ae7fe0d583b5cd3 macvlan: fix possible UAF in macvlan_forward_source()
+5d69c753e9e90c920b0a7f77538b2f2f221c8f81 fbdev: ssd1307fb: fix build failure
+f8f511ea5ef599b33f5de01383968895ede13adb Update localversion-st, tree is up-to-date with 5.10.250.
+c04ea49d4e8b6ae39acf58c2369d6ea0658f94db crypto: omap - Allocate OMAP_CRYPTO_FORCE_COPY scatterlists correctly
+df09c1b07f517ba0c1619eb715ec734823f5cc91 crypto: virtio - Add spinlock protection with virtqueue notification
+2eb04966e118c53163ed806d81c8cf5b76e2e61d nilfs2: Fix potential block overflow that cause system hang
+a834c56a847f2fa75bbd705f53ada7903d631d7e scsi: qla2xxx: Delay module unload while fabric scan in progress
+df9cb0e487c20175451480ab7e05febd16f296ad scsi: qla2xxx: Query FW again before proceeding with login
+e38585cd2e47b673d1a82e25e323fcc68c32a1b8 gpio: omap: do not register driver in probe()
+471ababeb3f149631db4263cdd364825323972c9 gpio: sprd: Change sprd_gpio lock to raw_spin_lock
+128e3b0f847f4076ed060a7f746c4e5a60f185d2 drm/tegra: hdmi: sor: Fix error: variable ‘j’ set but not used
+f267b3f9b10994b8214d8a92ae0a9ca32a16ba6f platform/x86: classmate-laptop: Add missing NULL pointer checks
+633cd7f2aecc2a35696a5696274c9e4ee655a332 gpiolib: acpi: Fix gpio count with string references
+e90e56ff2931bb1e57777fc3c49db626278ff65f fs: dlm: fix invalid derefence of sb_lvbptr
+2befab726f787b5352747e064afa6596ed83e336 crypto: virtio - Remove duplicated virtqueue_kick in virtio_crypto_skcipher_crypt_req
+6df6a5fb43fb78db8696866a0741a76376654a14 scsi: qla2xxx: Free sp in error path to fix system crash
+fd6c9803c63240d8fcfe907a563f03bbb119d1a9 scsi: qla2xxx: Validate sp before freeing associated memory
+f38485e92a69ed0e238a17085631c6c620fb7070 scsi: qla2xxx: Fix bsg_done() causing double free
+8fc5b6b996f1ba34821d6bfd9130ba2a7d0a5089 fbdev: rivafb: fix divide error in nv3_arb()
+d6d8cd14b84c8addce7a2b31b4d30d6376ae8d76 f2fs: fix to avoid UAF in f2fs_write_end_io()
+0e66038fbf4c5dd3b825119d3d45c9d49cc4be89 USB: serial: option: add Telit FN920C04 RNDIS compositions
+ae59d713843f75871e539ad9971df351ff3c0590 f2fs: fix out-of-bounds access in sysfs attribute read/write
 
---===============3698284004640536380==--
+--===============9223052667304082604==--
