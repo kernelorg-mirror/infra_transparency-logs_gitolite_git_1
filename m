@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============0674415435628912310=="
+Content-Type: multipart/mixed; boundary="===============0617129875045944228=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/fs/fscrypt/linux
-Date: Mon, 09 Mar 2026 20:41:59 -0000
-Message-Id: <177308891909.884580.8624092186804282761@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rcu/linux
+Date: Mon, 09 Mar 2026 20:42:33 -0000
+Message-Id: <177308895394.884936.1963775654911468864@gitolite.kernel.org>
 
---===============0674415435628912310==
+--===============0617129875045944228==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/fs/fscrypt/linux
-user: ebiggers
+repo: pub/scm/linux/kernel/git/rcu/linux
+user: jfern
 changes:
-  - ref: refs/heads/for-next
-    old: 6de23f81a5e08be8fbf5e8d7e9febc72a5b5f27f
-    new: 4377a22d84f726f0a650927edf75cdc0698baf06
-    log: revlist-6de23f81a5e0-4377a22d84f7.txt
+  - ref: refs/heads/rcu/dev
+    old: af0fc62ec61084c23cfdba3461c02ab723064f68
+    new: fdab2d9ea6dbd1ca779d5416a86f5d54a44defe2
+    log: revlist-af0fc62ec610-fdab2d9ea6db.txt
 
---===============0674415435628912310==
+--===============0617129875045944228==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6de23f81a5e0-4377a22d84f7.txt
+Content-Disposition: attachment; filename=revlist-af0fc62ec610-fdab2d9ea6db.txt
 
 f947d9e77b26238b821b5227afb4fee8c7ea0d5a nvme/host: fixup some typos
 ddfb8b322bbd8ae996f4ac0192f0190feb0a01ce nvme: expose active quirks in sysfs
@@ -997,19 +997,22 @@ c23719abc3308df7ed3ad35650ad211fb2d2003d Merge tag 'x86-urgent-2026-03-08' of gi
 014441d1e4b2f5be728433b761df3377dee7a487 Merge tag 'i2c-for-7.0-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
 fc9f248d8c591454e257edd54ac4085d84f11e6a Merge tag 'efi-fixes-for-v7.0-2' of git://git.kernel.org/pub/scm/linux/kernel/git/efi/efi
 1f318b96cc84d7c2ab792fcc0bfd42a7ca890681 Linux 7.0-rc3
-7737b1b448738be650ddc51fe64b8aae42d433c1 ext4: initialize the write hint in io_submit_init_bio
-d3fc0edc8825f39c86dcc4a8b8544f6e25680a51 ext4: open code fscrypt_set_bio_crypt_ctx_bh
-5f18a9d2f75a3a5c055c2d777a29b3aa322b04da ext4: factor out a io_submit_need_new_bio helper
-588e7c048d7d2bfcbe7776ee0888ee248adf01d1 ext4, fscrypt: merge fscrypt_mergeable_bio_bh into io_submit_need_new_bio
-a18b1ab81654b06e7ff402e5d0b85249e9504bcb fscrypt: move fscrypt_set_bio_crypt_ctx_bh to buffer.c
-60b4fcb49efe7f07aaa92c8d7933ac37b3be85b2 fscrypt: pass a byte offset to fscrypt_generate_dun
-22be86a23c5956254b752e4e98f0ef2799565a41 fscrypt: pass a byte offset to fscrypt_mergeable_bio
-3c7eaa775d8e008135646bd4b7aa7db7c5e40a0e fscrypt: pass a byte offset to fscrypt_set_bio_crypt_ctx
-090c5c1597491e66097ccd21612e3ab9dcfcb231 fscrypt: pass a byte offset to fscrypt_zeroout_range_inline_crypt
-90950ee5630b68b2b321c78af29e0b3f36080594 fscrypt: pass a byte length to fscrypt_zeroout_range_inline_crypt
-cd7db2e7dfeef99c901156f58ab4a38256b0c3f1 fscrypt: pass a byte offset to fscrypt_zeroout_range
-fb87ab4ad3d0df2397648e5ce2384de26463c183 fscrypt: pass a byte length to fscrypt_zeroout_range
-5ca1a1f017ea0f0e0bcb6ec52064735f2ac1c393 fscrypt: pass a real sector_t to fscrypt_zeroout_range
-4377a22d84f726f0a650927edf75cdc0698baf06 ext4: use a byte granularity cursor in ext4_mpage_readpages
+74d60415d2db5e6b31e288f9c00fb117f398d252 rcutorture: Add a textbook-style trivial preemptible RCU
+57e382d9a26cfa366e3523fae73225fc334ad574 kvm-check-branches.sh: Remove in favor of kvm-series.sh
+290f693a2996c3239d5c534290b6d04af289b887 torture: Make hangs more visible in torture.sh output
+650f8dfd21ebb711db058e5dff9aaa8415a646b6 rcutorture: Adjust scenarios for default lazy preemption
+fd7099764208abc841f757f578d7bd60db8f9402 torture: Print informative message for test without recheck file
+bd7769c80fd35c201b336d407707493fb485abbf rcutorture: Fix numeric "test" comparison in srcu_lockdep.sh
+27130796525e44b748c83241f46ef5af87b2940a refscale: Ditch ref_scale_shutdown in favor of torture_shutdown_init()
+998d92e5ec23d2d13d1d3f301dd638fc960064ae rcuscale: Ditch rcu_scale_shutdown in favor of torture_shutdown_init()
+493092f85f9107435c829bfa050e7da5effd1e4b srcu: Fix SRCU read flavor macro comments
+ade0e8a6dd87d8f61ab9b3147059703457dbc36c srcu: Fix s/they disables/they disable/ typo in srcu_read_unlock_fast()
+d7ed346b8e2d5f23e75cdb2c96a7a8ebcf781d9e rcu-tasks: Document that RCU Tasks Trace grace periods now imply RCU grace periods
+febb76dedfff9809dc83519f7d5db3068bf39e54 rcutorture: Add NOCB01 config for RCU_LAZY torture testing
+42cfdbad90e5b8c21abbebef9ec71fc22dae5af9 rcutorture: Add NOCB02 config for nocb poll mode testing
+7f8be310f1d48d3b852908a1890ea0d0cc50a10b rcu-tasks: Remove unnecessary smp_store_release() in cblist_init_generic()
+1f8b31789d100ec07edd8759a469696a0a9f3f8c rcu/nocb: Consolidate rcu_nocb_cpu_offload/deoffload functions
+f4254907dbc9421578e783e7fbe614349fe3c515 rcu/nocb: Extract nocb_bypass_needs_flush() to reduce duplication
+fdab2d9ea6dbd1ca779d5416a86f5d54a44defe2 torture: Avoid modulo-zero error in torture_hrtimeout_ns()
 
---===============0674415435628912310==--
+--===============0617129875045944228==--
