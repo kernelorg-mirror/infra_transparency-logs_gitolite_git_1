@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2145432602055106060=="
+Content-Type: multipart/mixed; boundary="===============0732650468569729976=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Mon, 09 Mar 2026 13:55:56 -0000
-Message-Id: <177306455678.519833.10797992836565702397@gitolite.kernel.org>
+Date: Mon, 09 Mar 2026 13:56:39 -0000
+Message-Id: <177306459977.520303.16027364654575961081@gitolite.kernel.org>
 
---===============2145432602055106060==
+--===============0732650468569729976==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/cel/linux
 user: cel
 changes:
-  - ref: refs/heads/master
-    old: 11439c4635edd669ae435eec308f4ab8a0804808
-    new: 1f318b96cc84d7c2ab792fcc0bfd42a7ca890681
-    log: revlist-11439c4635ed-1f318b96cc84.txt
+  - ref: refs/heads/nfsd-next
+    old: b6b4b93bf3300c185cf48dd0d73e6f245deae198
+    new: 6eb13addaef099ca0edafcb9c1433ad742f2875b
+    log: revlist-b6b4b93bf330-6eb13addaef0.txt
 
---===============2145432602055106060==
+--===============0732650468569729976==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-11439c4635ed-1f318b96cc84.txt
+Content-Disposition: attachment; filename=revlist-b6b4b93bf330-6eb13addaef0.txt
 
 f947d9e77b26238b821b5227afb4fee8c7ea0d5a nvme/host: fixup some typos
 ddfb8b322bbd8ae996f4ac0192f0190feb0a01ce nvme: expose active quirks in sysfs
@@ -563,5 +563,31 @@ c23719abc3308df7ed3ad35650ad211fb2d2003d Merge tag 'x86-urgent-2026-03-08' of gi
 014441d1e4b2f5be728433b761df3377dee7a487 Merge tag 'i2c-for-7.0-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
 fc9f248d8c591454e257edd54ac4085d84f11e6a Merge tag 'efi-fixes-for-v7.0-2' of git://git.kernel.org/pub/scm/linux/kernel/git/efi/efi
 1f318b96cc84d7c2ab792fcc0bfd42a7ca890681 Linux 7.0-rc3
+e1686b2aa3c8c421e6aa96c903e5f0d5072daf80 nfsd/sunrpc: add svc_rqst->rq_private pointer and remove rq_lease_breaker
+26a5e39992a62749330fa648cabfaa9dcd01421a nfsd/sunrpc: move rq_cachetype into struct nfsd_thread_local_info
+1b6471a79a0705de7ac27a385a8cf7559347f159 sunrpc/cache: improve RCU safety in cache_list walking.
+bda1761693312b0bb38f45f028d3c5969f3b17ee NFSD: Track SCSI Persistent Registration Fencing per Client with xarray
+9ff57204f991ada6e0363b332481e4d5554f4ad4 SUNRPC: Replace KUnit tests for memcmp() with KUNIT_EXPECT_MEMEQ_MSG()
+a8dd214cba1f10453baf543d9dbde8ee3071bf14 nfsd: add a runtime switch for disabling delegated timestamps
+cd83d707873708438580946b45bb5d974af581eb nfsd: remove NFSD_V4_DELEG_TIMESTAMPS Kconfig option
+b0c9c52607024b519a4ef28168f6ca2ab9217709 lockd: Simplify cast_status() in svcproc.c
+236e01d4b73fe755da043ce041c12fd78d0f9ffd lockd: Relocate and rename nlm_drop_reply
+e4719f3209339c1e0adb57b13b80828276c2bfdf lockd: Introduce nlm__int__deadlock
+084863e8b92dc62b168a2f713bf6839a1f9d8136 lockd: Have nlm_fopen() return errno values
+7086f50f0e8b9026a40088339c9395211ffc0b30 lockd: Relocate nlmsvc_unlock API declarations
+904f294ccd2cbcf79765626eb76f7970bff8434b NFS: Use nlmclnt_shutdown_rpc_clnt() to safely shut down NLM
+14d32eadd80bf71f880818e4769f22cecf9e5d4b lockd: Move xdr4.h from include/linux/lockd/ to fs/lockd/
+abaef4bd556bfc4aae513e2e1b5934c525a18960 lockd: Move share.h from include/linux/lockd/ to fs/lockd/
+b826e29c0e464259c0e395f846eb7e3c66e7e093 lockd: Relocate include/linux/lockd/lockd.h
+17ba734ff37e16729c42de7b3df9934fd82f6685 lockd: Remove lockd/debug.h
+3621799b195b3a41c43d84ad37c38356a2a3c880 lockd: Move xdr.h from include/linux/lockd/ to fs/lockd/
+491330823c3dda0ba6369948b737d6b836b8d672 lockd: Make linux/lockd/nlm.h an internal header
+61b73014682a0cd8ff3af0d8b7945f422540fdfa lockd: Move nlm4svc_set_file_lock_range()
+73d61ec12597ed9a0ed8c029d475ec22c6dadb24 lockd: Relocate svc_version definitions to XDR layer
+fce4ca34ae3b58d55adba5d7352e2e7b254dbf65 nfs/blocklayout: Fix compilation error (`make W=1`) in bl_write_pagelist()
+b4ced9b975bd0c9c7df1b648da58b268b43868b3 sunrpc: Kill RPC_IFDEBUG()
+5d44b75a53924f33acd6ad924c7b6a7999b36637 sunrpc: Fix compilation error (`make W=1`) when dprintk() is no-op
+5d9dc3d6b4a0df6a68934336202ee6b3af6647bc NFSD: fix nfs4_file access extra count in nfsd4_add_rdaccess_to_wrdeleg
+6eb13addaef099ca0edafcb9c1433ad742f2875b NFSD: Enforce timeout on layout recall and integrate lease manager fencing
 
---===============2145432602055106060==--
+--===============0732650468569729976==--
