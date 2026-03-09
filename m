@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7997559659473968929=="
+Content-Type: multipart/mixed; boundary="===============8265384907656572287=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/kbuild/linux
-Date: Mon, 09 Mar 2026 20:41:22 -0000
-Message-Id: <177308888236.883875.13765028277168388740@gitolite.kernel.org>
+Date: Mon, 09 Mar 2026 20:41:26 -0000
+Message-Id: <177308888666.884063.15504107197492152442@gitolite.kernel.org>
 
---===============7997559659473968929==
+--===============8265384907656572287==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/kbuild/linux
 user: nathan
 changes:
-  - ref: refs/heads/kbuild-fixes
+  - ref: refs/heads/kbuild-fixes-unstable
     old: fdb12c8a24a453bdd6759979b6ef1e04ebd4beb4
     new: 1f318b96cc84d7c2ab792fcc0bfd42a7ca890681
     log: revlist-fdb12c8a24a4-1f318b96cc84.txt
 
---===============7997559659473968929==
+--===============8265384907656572287==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -994,4 +994,4 @@ c23719abc3308df7ed3ad35650ad211fb2d2003d Merge tag 'x86-urgent-2026-03-08' of gi
 fc9f248d8c591454e257edd54ac4085d84f11e6a Merge tag 'efi-fixes-for-v7.0-2' of git://git.kernel.org/pub/scm/linux/kernel/git/efi/efi
 1f318b96cc84d7c2ab792fcc0bfd42a7ca890681 Linux 7.0-rc3
 
---===============7997559659473968929==--
+--===============8265384907656572287==--
