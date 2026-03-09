@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8416753451852922615=="
+Content-Type: multipart/mixed; boundary="===============1951533378406295363=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/docs/linux
-Date: Mon, 09 Mar 2026 16:40:17 -0000
-Message-Id: <177307441753.673611.2189332244358291131@gitolite.kernel.org>
+Date: Mon, 09 Mar 2026 16:40:18 -0000
+Message-Id: <177307441867.673718.18323564878476129525@gitolite.kernel.org>
 
---===============8416753451852922615==
+--===============1951533378406295363==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/docs/linux
 user: corbet
 changes:
-  - ref: refs/heads/docs-mw
+  - ref: refs/heads/docs-next
     old: d20e945e9fe631381dc426eaeaddeed0eb47935a
     new: 73f175a46330c57ab5797287233cbf83a36b6a99
     log: revlist-d20e945e9fe6-73f175a46330.txt
 
---===============8416753451852922615==
+--===============1951533378406295363==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -49,4 +49,4 @@ cde7c96f88a0fe9ed53e8bb57147b19a725cf097 docs: kdoc_output: Change the logic to 
 ab9150972f21c41d4487e5d4b21cea0ecfe0bb94 docs: kdoc_output: better handle lists
 73f175a46330c57ab5797287233cbf83a36b6a99 Merge branch 'mauro' into docs-mw
 
---===============8416753451852922615==--
+--===============1951533378406295363==--
