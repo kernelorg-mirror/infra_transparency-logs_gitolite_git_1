@@ -1,26 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============3783370047069190746=="
+Content-Type: multipart/mixed; boundary="===============0359546980484198018=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/westeri/thunderbolt
-Date: Mon, 09 Mar 2026 07:43:08 -0000
-Message-Id: <177304218831.111657.9033427418707054308@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pinctrl/intel
+Date: Mon, 09 Mar 2026 07:43:24 -0000
+Message-Id: <177304220460.111877.2965013336085439699@gitolite.kernel.org>
 
---===============3783370047069190746==
+--===============0359546980484198018==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/westeri/thunderbolt
+repo: pub/scm/linux/kernel/git/pinctrl/intel
 user: westeri
 changes:
-  - ref: refs/heads/fixes
+  - ref: refs/heads/master
     old: 11439c4635edd669ae435eec308f4ab8a0804808
     new: 1f318b96cc84d7c2ab792fcc0bfd42a7ca890681
     log: revlist-11439c4635ed-1f318b96cc84.txt
 
---===============3783370047069190746==
+--===============0359546980484198018==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -564,4 +564,4 @@ c23719abc3308df7ed3ad35650ad211fb2d2003d Merge tag 'x86-urgent-2026-03-08' of gi
 fc9f248d8c591454e257edd54ac4085d84f11e6a Merge tag 'efi-fixes-for-v7.0-2' of git://git.kernel.org/pub/scm/linux/kernel/git/efi/efi
 1f318b96cc84d7c2ab792fcc0bfd42a7ca890681 Linux 7.0-rc3
 
---===============3783370047069190746==--
+--===============0359546980484198018==--
