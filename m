@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
-Date: Mon, 09 Mar 2026 18:52:44 -0000
-Message-Id: <177308236471.783768.10703204232486169575@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
+Date: Mon, 09 Mar 2026 19:00:17 -0000
+Message-Id: <177308281796.791059.13447470398083713810@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rafael/linux-pm
-user: rafael
+repo: pub/scm/linux/kernel/git/jlayton/linux
+user: jlayton
 changes:
-  - ref: refs/heads/bleeding-edge
-    old: c67a2996496b6e826cb431cc4370690e5dcc01b6
-    new: 5318f58e4964ac81b696aa7a526252ab5383419c
+  - ref: refs/heads/kdevops
+    old: 75ea8e83d137ef824d38eb80c017c03dab64a402
+    new: 36f886a13f134c7e85067a1f48a2ce1d832874b8
     log: |
-         638a95168fd53a911201681cd5e55c7965b20733 ACPI: processor: idle: Add missing bounds check in flatten_lpi_states()
-         5318f58e4964ac81b696aa7a526252ab5383419c Merge branch 'acpi-processor' into bleeding-edge
+         36f886a13f134c7e85067a1f48a2ce1d832874b8 DEBUG: extra debugging in notify path
          
