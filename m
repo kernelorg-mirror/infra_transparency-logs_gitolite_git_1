@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
-Date: Mon, 09 Mar 2026 19:15:12 -0000
-Message-Id: <177308371234.804445.6871554989960792312@gitolite.kernel.org>
+Date: Mon, 09 Mar 2026 19:18:54 -0000
+Message-Id: <177308393451.806008.5246933141020404677@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,9 +12,10 @@ repo: pub/scm/linux/kernel/git/rafael/linux-pm
 user: rafael
 changes:
   - ref: refs/heads/bleeding-edge
-    old: 5318f58e4964ac81b696aa7a526252ab5383419c
-    new: 0d8dbd99d4275f7508d56a337b42b07ecff1b7c3
+    old: 0d8dbd99d4275f7508d56a337b42b07ecff1b7c3
+    new: 831636412d51c2280aaabbe27408544438978ffe
     log: |
-         f2411171afbbde65fb365776fd3df392cebf88ca sched: idle: Make skipping governor callbacks more consistent
-         0d8dbd99d4275f7508d56a337b42b07ecff1b7c3 Merge branch 'pm-cpuidle-fixes' into bleeding-edge
+         6a0c7d388b6a19899ab0db60325699980706fb11 ACPI: AC: Get rid of unnecessary declarations
+         6e5cbf46c27ae46f13c7ac830e618c6e0b1ed07c ACPI: PAD: Rearrange notify handler installation and removal
+         831636412d51c2280aaabbe27408544438978ffe Merge branch 'acpi-driver' into bleeding-edge
          
