@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6936113408076844544=="
+Content-Type: multipart/mixed; boundary="===============7394159896540915340=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/driver-core/driver-core
-Date: Mon, 09 Mar 2026 11:12:14 -0000
-Message-Id: <177305473419.382850.2062844053546335445@gitolite.kernel.org>
+Date: Mon, 09 Mar 2026 11:12:21 -0000
+Message-Id: <177305474182.383084.17958286831830640045@gitolite.kernel.org>
 
---===============6936113408076844544==
+--===============7394159896540915340==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/driver-core/driver-core
 user: dakr
 changes:
-  - ref: refs/heads/driver-core-testing
-    old: d1880d5f5899c572337ceb3d7e067052b22597e1
+  - ref: refs/heads/driver-core-next
+    old: 1b9a5bc8513d081c1bfe2c096b6dc502a4660f47
     new: 9900002f7afad64ee4124762ec8464fc5e4e4c97
-    log: revlist-d1880d5f5899-9900002f7afa.txt
+    log: revlist-1b9a5bc8513d-9900002f7afa.txt
 
---===============6936113408076844544==
+--===============7394159896540915340==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d1880d5f5899-9900002f7afa.txt
+Content-Disposition: attachment; filename=revlist-1b9a5bc8513d-9900002f7afa.txt
 
 f947d9e77b26238b821b5227afb4fee8c7ea0d5a nvme/host: fixup some typos
 ddfb8b322bbd8ae996f4ac0192f0190feb0a01ce nvme: expose active quirks in sysfs
@@ -331,6 +331,7 @@ f775276edc0c505dc0f782773796c189f31a1123 s390/xor: Fix xor_xc_2() inline assembl
 2185904ff8b5da76a4353e5d1236caa78e0d98e3 powerpc/pci: Initialize msi_addr_mask for OF-created PCI devices
 147dae12985947cdb9e1918142f06482c5077a81 sparc/PCI: Initialize msi_addr_mask for OF-created PCI devices
 c44db6c820140ffbc0e293a34c6a6de4b363422b Merge tag 'for-7.0-rc2-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
+d1880d5f5899c572337ceb3d7e067052b22597e1 rust: irq: move 'static bounds to traits
 3875ceb592d3cb23dc932165cc1eeb74cf4dc319 crypto: testmgr - Fix stale references to aes-generic
 eef33aa44935d001747ca97703c08dd6f9031162 ice: fix adding AQ LLDP filter for VF
 326256c0a72d4877cec1d4df85357da106233128 ice: reintroduce retry mechanism for indirect AQ
@@ -565,4 +566,4 @@ fc9f248d8c591454e257edd54ac4085d84f11e6a Merge tag 'efi-fixes-for-v7.0-2' of git
 1f318b96cc84d7c2ab792fcc0bfd42a7ca890681 Linux 7.0-rc3
 9900002f7afad64ee4124762ec8464fc5e4e4c97 Merge tag 'v7.0-rc3' into driver-core-next
 
---===============6936113408076844544==--
+--===============7394159896540915340==--
