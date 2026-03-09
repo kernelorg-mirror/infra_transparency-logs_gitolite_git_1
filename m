@@ -1,21 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/firmware/linux-firmware
-Date: Mon, 09 Mar 2026 20:05:10 -0000
-Message-Id: <177308671021.849270.12512488813224392638@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tj/sched_ext
+Date: Mon, 09 Mar 2026 20:11:28 -0000
+Message-Id: <177308708881.855270.15271277256836694971@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/firmware/linux-firmware
-user: jwboyer
+repo: pub/scm/linux/kernel/git/tj/sched_ext
+user: tj
 changes:
-  - ref: refs/heads/main
-    old: 127981ff71822df9043c178ae2e5e45b214378b2
-    new: c822cbbb14ce5b8ee1f27346220640ac350bbf34
+  - ref: refs/heads/for-7.1
+    old: 0e7cd9cef61fde36ebfb653fe9e7a9722185cb57
+    new: b8840942644cd76438a192ff493c60ec2169f7ef
     log: |
-         e426f99ddbe688eeb29b6e1072ff76d828607d4b linux-firmware: update firmware for MT7922 WiFi device
-         6d5c4e499d32e5324950dbecbe70cca8f0bc2c93 mediatek MT7922: update bluetooth firmware to 20260224103448
-         c822cbbb14ce5b8ee1f27346220640ac350bbf34 Merge branch 'mt7922' into 'main'
+         b8840942644cd76438a192ff493c60ec2169f7ef sched_ext: Replace system_unbound_wq with system_dfl_wq in scx_kobj_release()
+         
+  - ref: refs/heads/for-next
+    old: 0e7cd9cef61fde36ebfb653fe9e7a9722185cb57
+    new: b8840942644cd76438a192ff493c60ec2169f7ef
+    log: |
+         b8840942644cd76438a192ff493c60ec2169f7ef sched_ext: Replace system_unbound_wq with system_dfl_wq in scx_kobj_release()
          
