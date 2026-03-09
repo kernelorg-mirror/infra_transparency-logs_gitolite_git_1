@@ -1,26 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============6713793569893987062=="
+Content-Type: multipart/mixed; boundary="===============4050144640520074016=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Mon, 09 Mar 2026 15:10:02 -0000
-Message-Id: <177306900243.587320.6676321209736532808@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Mon, 09 Mar 2026 15:10:19 -0000
+Message-Id: <177306901904.589667.2989067990890686471@gitolite.kernel.org>
 
---===============6713793569893987062==
+--===============4050144640520074016==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
+repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/asoc-7.0
+  - ref: refs/heads/for-7.0
     old: 325291b20f8a6f14b9c82edbf5d12e4e71f6adaa
     new: facfdef64d11c08e6f1e69d02a0b87cb74cee0f5
     log: revlist-325291b20f8a-facfdef64d11.txt
 
---===============6713793569893987062==
+--===============4050144640520074016==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher C3F436CA30F5D8EB 1773069017 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
+nonce 1773069016-3cb428e53f95331bcac914890076e614cdc5e260
+
+325291b20f8a6f14b9c82edbf5d12e4e71f6adaa facfdef64d11c08e6f1e69d02a0b87cb74cee0f5 refs/heads/for-7.0
+-----BEGIN PGP SIGNATURE-----
+
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmmu4tkACgkQJNaLcl1U
+h9DzNQf8DZJ+cs8DnH1IbCjSdR9Qcj/P3atof07hfSv5QmDA66tO/8gQM2SblCV1
+3YsLgCnD9jvA2D4P0I471fNp9aU1YSE2EoL2RehMgwncvq9I/vTovZj3AdWUBzEG
+dYZCVzp8AfPMmFSMERUZ9PjbpKV+s1Smmgi8Eqo1wLmTurzR0TNLZA9Rw2xV1d9u
+NNKB9kWPsa2GTmi5mOkSw9ZpgUqc9AggiFwPGHyIX0MN+qyiha9ouArL9QO1qasu
+AC2ZH8DIXyQMLRBF+buTL2NUju5wyJitCRWzeeMkTMUYOveOFm3cXt4bir8khA2R
+v5ash2wUjsyAyP/s1QtJouKtbHrOkA==
+=dla2
+-----END PGP SIGNATURE-----
+
+--===============4050144640520074016==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -554,4 +579,4 @@ fc9f248d8c591454e257edd54ac4085d84f11e6a Merge tag 'efi-fixes-for-v7.0-2' of git
 d6db827b430bdcca3976cebca7bd69cca03cde2c ASoC: qcom: qdsp6: Fix q6apm remove ordering during ADSP stop and start
 facfdef64d11c08e6f1e69d02a0b87cb74cee0f5 firmware: cs_dsp: Fix fragmentation regression in firmware download
 
---===============6713793569893987062==--
+--===============4050144640520074016==--
