@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0102162978298172644=="
+Content-Type: multipart/mixed; boundary="===============3131958597066438216=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Mon, 09 Mar 2026 20:01:45 -0000
-Message-Id: <177308650550.844684.7692719617939059242@gitolite.kernel.org>
+Date: Mon, 09 Mar 2026 20:01:48 -0000
+Message-Id: <177308650816.844899.18277841616800482836@gitolite.kernel.org>
 
---===============0102162978298172644==
+--===============3131958597066438216==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/10GbE
+  - ref: refs/heads/40GbE
     old: f76a93241d71fbba8425e3967097b498c29264ed
     new: c113d5e32678c8de40694b738000a4a2143e2f81
     log: revlist-f76a93241d71-c113d5e32678.txt
 
---===============0102162978298172644==
+--===============3131958597066438216==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -49,4 +49,4 @@ ce2da643f00af3111f1fffe2adea8506592ef6e5 net: dsa: sja1105: ensure phylink_repla
 86292155bea578ebab0ca3b65d4d87ecd8a0e9ea net: spacemit: Fix error handling in emac_tx_mem_map()
 c113d5e32678c8de40694b738000a4a2143e2f81 Merge branch 'net-spacemit-a-few-error-handling-fixes'
 
---===============0102162978298172644==--
+--===============3131958597066438216==--
