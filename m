@@ -1,23 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/deller/linux-fbdev
-Date: Mon, 09 Mar 2026 12:06:27 -0000
-Message-Id: <177305798725.427993.11010308009163102632@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/wsa/linux
+Date: Mon, 09 Mar 2026 12:08:17 -0000
+Message-Id: <177305809716.428756.18005342095309128855@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/deller/linux-fbdev
-user: deller
+repo: pub/scm/linux/kernel/git/wsa/linux
+user: wsa
 changes:
-  - ref: refs/heads/master
-    old: c23719abc3308df7ed3ad35650ad211fb2d2003d
-    new: 1f318b96cc84d7c2ab792fcc0bfd42a7ca890681
+  - ref: refs/heads/i2c/for-current
+    old: 1f318b96cc84d7c2ab792fcc0bfd42a7ca890681
+    new: d800d0bb2009a73630a096d7c7a80a2e64c1e41e
     log: |
-         a4b0bf6a40f3c107c67a24fbc614510ef5719980 x86/efi: defer freeing of boot services memory
-         cfc69c2e6c699c96949f7b0455195b0bfb7dc715 i2c: i801: Revert "i2c: i801: replace acpi_lock with I2C bus lock"
-         014441d1e4b2f5be728433b761df3377dee7a487 Merge tag 'i2c-for-7.0-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
-         fc9f248d8c591454e257edd54ac4085d84f11e6a Merge tag 'efi-fixes-for-v7.0-2' of git://git.kernel.org/pub/scm/linux/kernel/git/efi/efi
-         1f318b96cc84d7c2ab792fcc0bfd42a7ca890681 Linux 7.0-rc3
+         d800d0bb2009a73630a096d7c7a80a2e64c1e41e dt-bindings: i2c: dw: Update maintainer
+         
+  - ref: refs/heads/i2c/for-next
+    old: 09472cecf83bc818ba26d3a17b8d7383ad72a1a1
+    new: b82316862bea929265725c077dffcec42e3dc20b
+    log: |
+         d800d0bb2009a73630a096d7c7a80a2e64c1e41e dt-bindings: i2c: dw: Update maintainer
+         b82316862bea929265725c077dffcec42e3dc20b Merge branch 'i2c/for-current' into i2c/for-next
          
