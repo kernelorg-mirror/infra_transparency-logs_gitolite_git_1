@@ -1,54 +1,59 @@
-Content-Type: multipart/mixed; boundary="===============8743903858829514263=="
+Content-Type: multipart/mixed; boundary="===============5899423029611673985=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jfern/linux
-Date: Tue, 10 Mar 2026 20:50:06 -0000
-Message-Id: <177317580600.2127013.17935576561482477212@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
+Date: Tue, 10 Mar 2026 20:54:54 -0000
+Message-Id: <177317609423.2128798.2261659510201115310@gitolite.kernel.org>
 
---===============8743903858829514263==
+--===============5899423029611673985==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jfern/linux
-user: jfern
+repo: pub/scm/linux/kernel/git/tnguy/net-queue
+user: tnguy
 changes:
-  - ref: refs/heads/nova/mm
-    old: a39e8ca680493b58999f85267d9841a8926dbd45
-    new: b01967e6b038df9a26806c2c9d03d6849a1600dd
-    log: revlist-a39e8ca68049-b01967e6b038.txt
+  - ref: refs/heads/100GbE
+    old: c113d5e32678c8de40694b738000a4a2143e2f81
+    new: e94eaef11142b01f77bf8ba4d0b59720b7858109
+    log: revlist-c113d5e32678-e94eaef11142.txt
 
---===============8743903858829514263==
+--===============5899423029611673985==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a39e8ca68049-b01967e6b038.txt
+Content-Disposition: attachment; filename=revlist-c113d5e32678-e94eaef11142.txt
 
-d22c1631ffc4df76da4c156d44ffa719b7bcfa46 rust: gpu: Add GPU buddy allocator bindings
-9f6bd53e11bb8868044186e4637e9ecd9b85e558 gpu: nova-core: Select GPU_BUDDY for VRAM allocation
-9b717f498c405cae62d02340d13bb0d2ac7446af gpu: nova-core: Kconfig: Sort select statements alphabetically
-35d0c4420b76e9796c9cbeee5a0b7e7730a0ea20 gpu: nova-core: gsp: Return GspStaticInfo from boot()
-97fb3b938ce9555a02a073b3859e80490a33f158 gpu: nova-core: gsp: Extract usable FB region from GSP
-702373cc815ecfab83ca9523e3262afd11417e7f gpu: nova-core: gsp: Expose total physical VRAM end from FB region info
-d69ddc60592900745307fefbea89d7b58d6619b3 gpu: nova-core: mm: Add support to use PRAMIN windows to write to VRAM
-14ef70e9df37158ce8b13739c72dafe17a17da70 docs: gpu: nova-core: Document the PRAMIN aperture mechanism
-26286df244697a88078d2738a7c0ad4667dc98f5 gpu: nova-core: mm: Add common memory management types
-33e7e495ee68512286a300cb008a33633684c653 gpu: nova-core: mm: Add TLB flush support
-417645b1221ea3eb94886d077bce30af34e77dbe gpu: nova-core: mm: Add GpuMm centralized memory manager
-595956a99a10d7f0ea7451846c5fae6a25176cd5 gpu: nova-core: mm: Add common types for all page table formats
-692def627a8276cc87d6fcc2b460470c074b48ed gpu: nova-core: mm: Add MMU v2 page table types
-8cad6b9cab9d022cb5a8059074ce5e1dc023ec74 gpu: nova-core: mm: Add MMU v3 page table types
-156400bc979de421f9c28f88f35822a5878c7708 gpu: nova-core: mm: Add unified page table entry wrapper enums
-47f8cb7697c398fbe734f2f7c954baa9c4c0f2f8 gpu: nova-core: mm: Add page table walker for MMU v2/v3
-3a41efb8702c8348494c0d281f129d2f2e078005 gpu: nova-core: mm: Add Virtual Memory Manager
-a970c5d4bea6752b3f857d30e7819ad8097f80ce gpu: nova-core: mm: Add virtual address range tracking to VMM
-85f1f5c661fe1f86b67a9769eccee3a5ce62209d gpu: nova-core: mm: Add multi-page mapping API to VMM
-81f3068354120b6e09a24af967d1cf7648a205c3 gpu: nova-core: Add BAR1 aperture type and size constant
-8dd2ba5c4db37eaf86bdaaad68e8da328ab35ab0 gpu: nova-core: mm: Add BAR1 user interface
-80bc81790ffdf5112d194ec1567c582f722d6ad5 gpu: nova-core: mm: Add BAR1 memory management self-tests
-518c8a9435a61f342ec63e9939072706fc520589 gpu: nova-core: mm: Add PRAMIN aperture self-tests
-b01967e6b038df9a26806c2c9d03d6849a1600dd gpu: nova-core: Use runtime BAR1 size instead of hardcoded 256MB
+87d126852158467ab87d5cbc36ccfd3f15464a6c net: sfp: improve Huawei MA5671a fixup
+288598d80a068a0e9281de35bcb4ce495f189e2a serial: caif: hold tty->link reference in ldisc_open and ser_release
+b2662e7593e94ae09b1cf7ee5f09160a3612bcb2 net: nexthop: fix percpu use-after-free in remove_nh_grp_entry
+7a85d370bbd0d55791ec57ea8ba13032410e8b9d MAINTAINERS: include/net/tc_wrapper.h belongs to TC subsystem
+e4f774a0cc955ce762aec91c66915a6e15087ab7 net: usb: lan78xx: fix silent drop of packets with checksum errors
+50988747c30df47b73b787f234f746027cb7ec6c net: usb: lan78xx: fix TX byte statistics for small packets
+d9cc0e440f0664f6f3e2c26e39ab9dd5f3badba7 net: usb: lan78xx: skip LTM configuration for LAN7850
+312c816c6bc30342bc30dca0d6db617ab4d3ae4e net: usb: lan78xx: fix WARN in __netif_napi_del_locked on disconnect
+183f682591a932cf80a85bfc7ad748f5d90c2de7 Merge branch 'net-usb-lan78xx-accumulated-bug-fixes'
+0d9a60a0618d255530ca56072c5f39eb58e1ed4a bnxt_en: Fix RSS table size check when changing ethtool channels
+246953f33e8cf95621d6c00332e2780ce1594082 net: enetc: fix incorrect fallback PHY address handling
+dbe17e7783cb5d6451ff1217d0464865857e97e1 net: enetc: do not skip setting LaBCR[MDIO_PHYAD_PRTAD] for addr 0
+fdfd103aec837fc318fbd381cc65990ad7b62e5b Merge branch 'net-enetc-fix-fallback-phy-address-handling-and-do-not-skip-setting-for-addr-0'
+e3f5e0f22cfc2371e7471c9fd5b4da78f9df7c69 mctp: i2c: fix skb memory leak in receive path
+1eea46908c57abb7109b1fce024f366ae6c69c4f can: dev: keep the max bitrate error at 5%
+47bba09b14fa21712398febf36cb14fd4fc3bded can: hi311x: hi3110_open(): add check for hi3110_power_enable() return value
+950803f7254721c1c15858fbbfae3deaaeeecb11 bonding: fix type confusion in bond_setup_by_slave()
+7d86aa41c073c4e7eb75fd2e674f1fd8f289728a mctp: route: hold key->lock in mctp_flow_prepare_output()
+6485cb96be5cd0f4bf39554737ba11322cc9b053 amd-xgbe: fix link status handling in xgbe_rx_adaptation
+27a4dd0c702b3b2b9cf2c045d100cc2fe8720b81 amd-xgbe: prevent CRC errors during RX adaptation with AN disabled
+a8ba129af46856112981c124850ec6a85a1c1ab6 amd-xgbe: reset PHY settings before starting PHY
+3228835877e77200a8c16f26b22017f850f8b0c3 Merge branch 'amd-xgbe-rx-adaptation-and-phy-handling-fixes'
+6f1a9140ecda3baba3d945b9a6155af4268aafc4 net: add xmit recursion limit to tunnel xmit functions
+73aefba4e2eb713cf7bc4ad83cfc9b5d4f966f6d Merge tag 'linux-can-fixes-for-7.0-20260310' of git://git.kernel.org/pub/scm/linux/kernel/git/mkl/linux-can
+bd98c6204d1195973b1760fe45860863deb6200c drivers: net: ice: fix devlink parameters get without irdma
+efc54fb13d79117a825fef17364315a58682c7ec iavf: fix PTP use-after-free during reset
+fdadbf6e84c44df8dbb85cfdd38bc10e4431501d iavf: fix incorrect reset handling in callbacks
+e809085f492842ce7a519c9ef72d40f4bca89c13 i40e: fix src IP mask checks and memcpy argument names in cloud filter
+e94eaef11142b01f77bf8ba4d0b59720b7858109 e1000/e1000e: Fix leak in DMA error cleanup
 
---===============8743903858829514263==--
+--===============5899423029611673985==--
