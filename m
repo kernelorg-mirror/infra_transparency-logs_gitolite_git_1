@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/b4/b4
-Date: Tue, 10 Mar 2026 19:01:29 -0000
-Message-Id: <177316928964.2035552.5383951055207337539@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf
+Date: Tue, 10 Mar 2026 19:04:29 -0000
+Message-Id: <177316946915.2036637.5285651584029173700@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/b4/b4
-user: mricon
+repo: pub/scm/linux/kernel/git/bpf/bpf
+user: ast
 changes:
-  - ref: refs/bugs/38491be4ab034615182c75f1f9a86389c5126cdbca07726bcf8ad608ed097851
-    old: c57b7c273931b129f28ecdce7896ae82ff19c725
-    new: cebac972ddb687e2ce3720a07cd5b9c717e2340c
+  - ref: refs/heads/master
+    old: 2321a9596d2260310267622e0ad8fbfa6f95378f
+    new: e06e6b8001233241eb5b2e2791162f0585f50f4b
     log: |
-         cebac972ddb687e2ce3720a07cd5b9c717e2340c 
+         e06e6b8001233241eb5b2e2791162f0585f50f4b selftests/bpf: Fix pkg-config call on static builds
          
