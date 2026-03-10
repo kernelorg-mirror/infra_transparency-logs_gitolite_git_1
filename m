@@ -1,31 +1,41 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tj/wq
-Date: Tue, 10 Mar 2026 17:04:08 -0000
-Message-Id: <177316224830.1918098.6660174672217414203@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/hid/hid
+Date: Tue, 10 Mar 2026 17:04:23 -0000
+Message-Id: <177316226378.1918404.15406323941626306117@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tj/wq
-user: tj
+repo: pub/scm/linux/kernel/git/hid/hid
+user: jikos
 changes:
-  - ref: refs/heads/for-7.1
-    old: c116737e972ea74f4468a1bd0703d623a3c0ee4a
-    new: b39bf7f0fae98c03e5ba6061e2251eeb36ec0b39
+  - ref: refs/heads/for-7.0/upstream-fixes
+    old: 2f1763f62909ccb6386ac50350fa0abbf5bb16a9
+    new: d1afcd71658220aa03453dc263064e42ff30b1e5
     log: |
-         1dfc9d60a69ec148e1cb709256617d86e5f0e8f8 workqueue: devres: Add device-managed allocate workqueue
-         b39bf7f0fae98c03e5ba6061e2251eeb36ec0b39 Merge branch 'for-7.1-devm-alloc-wq' into for-7.1
+         d1afcd71658220aa03453dc263064e42ff30b1e5 HID: asus: add xg mobile 2022 external hardware support
+         
+  - ref: refs/heads/for-7.1/asus
+    old: 7b2f88cc9dd4c2b9f3d6f5377b45ed9c90fd2fe9
+    new: c89046d57d534348b41ca28f5c1c5443743dbe04
+    log: |
+         a593671545475dd78c7ba939155efb6c272b161e HID: asus: fix code style of comments and brackets
+         51d33b42b8ae23da92819d28439fdd5636c45186 HID: asus: make asus_resume adhere to linux kernel coding standards
+         43b3d1a95a587d32f3d441033d0aa108515a8c27 HID: asus: simplify and improve asus_kbd_set_report()
+         7253091766ded0fd81fe8d8be9b8b835495b06e8 HID: asus: do not abort probe when not necessary
+         c89046d57d534348b41ca28f5c1c5443743dbe04 HID: asus: do not try to initialize the backlight if the enpoint doesn't support it
          
   - ref: refs/heads/for-next
-    old: 54c44f8c9d940bd83474129be6c5f0fe52e4d9aa
-    new: 0ab6bf1dbdf50e6ca89280f5c5d9d377b30a7547
+    old: 3bcb73c34832a90eaca5900435016ad07275a2ca
+    new: a9fa53c2843c4a4352e7a05c45553df32863ea39
     log: |
-         1dfc9d60a69ec148e1cb709256617d86e5f0e8f8 workqueue: devres: Add device-managed allocate workqueue
-         b39bf7f0fae98c03e5ba6061e2251eeb36ec0b39 Merge branch 'for-7.1-devm-alloc-wq' into for-7.1
-         0ab6bf1dbdf50e6ca89280f5c5d9d377b30a7547 Merge branch 'for-7.1' into for-next
+         a593671545475dd78c7ba939155efb6c272b161e HID: asus: fix code style of comments and brackets
+         51d33b42b8ae23da92819d28439fdd5636c45186 HID: asus: make asus_resume adhere to linux kernel coding standards
+         43b3d1a95a587d32f3d441033d0aa108515a8c27 HID: asus: simplify and improve asus_kbd_set_report()
+         7253091766ded0fd81fe8d8be9b8b835495b06e8 HID: asus: do not abort probe when not necessary
+         c89046d57d534348b41ca28f5c1c5443743dbe04 HID: asus: do not try to initialize the backlight if the enpoint doesn't support it
+         d1afcd71658220aa03453dc263064e42ff30b1e5 HID: asus: add xg mobile 2022 external hardware support
+         a9fa53c2843c4a4352e7a05c45553df32863ea39 Merge branches 'for-7.1/asus' and 'for-7.0/upstream-fixes' into for-next
          
-  - ref: refs/heads/for-7.1-devm-alloc-wq
-    old: 0000000000000000000000000000000000000000
-    new: 1dfc9d60a69ec148e1cb709256617d86e5f0e8f8
