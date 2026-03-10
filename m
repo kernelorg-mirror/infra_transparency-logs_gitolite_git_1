@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
-Date: Tue, 10 Mar 2026 15:30:39 -0000
-Message-Id: <177315663923.1836730.9983039594148455354@gitolite.kernel.org>
+Date: Tue, 10 Mar 2026 15:30:44 -0000
+Message-Id: <177315664461.1836955.3170898831273423228@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,8 +11,8 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ath/ath
 user: jjohnson
 changes:
-  - ref: refs/heads/ath-next
-    old: 8e0ab5b9adb7fec3149441621df1cf15325b7215
+  - ref: refs/heads/pending
+    old: 64afc62c7a988661cb38bb5ebdd89331067a7ea6
     new: 27401c9b143278eb9fa7d46f97ab063d65e5afd5
     log: |
          86581adf05f526f53b90ebcbbc2fd4d9f9fd4c96 wifi: ath6kl: drop redundant device reference
