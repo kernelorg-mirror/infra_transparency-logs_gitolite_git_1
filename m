@@ -1,25 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pcmoore/audit
-Date: Tue, 10 Mar 2026 19:25:44 -0000
-Message-Id: <177317074473.2055911.6819715819744177451@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/b4/b4
+Date: Tue, 10 Mar 2026 19:40:35 -0000
+Message-Id: <177317163535.2068409.18137693957929533983@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pcmoore/audit
-user: pcmoore
+repo: pub/scm/utils/b4/b4
+user: mricon
 changes:
-  - ref: refs/heads/dev
-    old: f3e334fb7f82cd63734faeb395419ab713b4bb5c
-    new: 360160f75592bdc85edba8fe78fb20d90924c7e8
+  - ref: refs/heads/master
+    old: 683806bdc8e0ca83867a9477841de468221cf2d1
+    new: dd89ad7fcd20caacbf4efe0585dbfaaa53a62bb5
     log: |
-         360160f75592bdc85edba8fe78fb20d90924c7e8 audit: handle unknown status requests in audit_receive_msg()
-         
-  - ref: refs/heads/next
-    old: f3e334fb7f82cd63734faeb395419ab713b4bb5c
-    new: 360160f75592bdc85edba8fe78fb20d90924c7e8
-    log: |
-         360160f75592bdc85edba8fe78fb20d90924c7e8 audit: handle unknown status requests in audit_receive_msg()
+         560591c348978a5ce5e77972a221aec4c8cd16ca review: optimize update loop to avoid duplicate lore lookups
+         dd89ad7fcd20caacbf4efe0585dbfaaa53a62bb5 review: merge message count updates into the main update loop
          
