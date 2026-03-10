@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/linusw/linux-integrator
-Date: Tue, 10 Mar 2026 08:51:26 -0000
-Message-Id: <177313268674.1501975.11450350689305918265@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/linkinjeon/ntfs
+Date: Tue, 10 Mar 2026 08:52:48 -0000
+Message-Id: <177313276897.1502674.16128911317383994419@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/linusw/linux-integrator
-user: linusw
+repo: pub/scm/linux/kernel/git/linkinjeon/ntfs
+user: linkinjeon
 changes:
-  - ref: refs/heads/b4/cma-heap-clear-pages
-    old: 76068ce575b66e290a3e511c4c68d54d2ff5811b
-    new: cfa47bdc971441423b628b6922a8de867c4a2e17
+  - ref: refs/heads/ntfs-next
+    old: d7bf74c94f11dedde59a16d9c94e6c1aec32e1f5
+    new: ea3566a3fa235cd0325b2bedf91ceec65073004b
     log: |
-         ccece186d1e15b0669d21372a70bde6132731da1 Use clear_pages()
-         dea0718dceab87b1ac333fa8fece1c81469d8660 dma-buf: heaps: Clear CMA pages with clear_pages()
-         cfa47bdc971441423b628b6922a8de867c4a2e17 dma-buf: heaps: Clear CMA highages using helper
+         ea3566a3fa235cd0325b2bedf91ceec65073004b ntfs: add missing newlines to pr_err() messages
          
