@@ -1,50 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============7689291319184169783=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Tue, 10 Mar 2026 15:52:35 -0000
-Message-Id: <177315795575.1854729.9233071514858827326@gitolite.kernel.org>
-
---===============7689291319184169783==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Tue, 10 Mar 2026 15:52:51 -0000
+Message-Id: <177315797127.1855027.14627525928268245215@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/spi-7.0
-    old: 111e2863372c322e836e0c896f6dd9cf4ee08c71
-    new: e53c0e99fd93da200c413deb57875f9f5fdb314a
+  - ref: refs/heads/for-next
+    old: 051dec90ba47ccdc9573249bfb89885015bde457
+    new: 1c62f9f93c301f7d9a5ca13c5363c6d7fc1885af
     log: |
-         e53c0e99fd93da200c413deb57875f9f5fdb314a spi: cadence-qspi: Fix requesting of APB and AHB clocks on JH7110
+         5bebbfd64b879d1a7220233767be3274e7d442b8 ASoC: ti: davinci-mcasp: extract mcasp_is_auxclk_enabled() helper
+         a8075ada4a341ce58ebf8bef0188cefe6c2f6487 ASoC: ti: davinci-mcasp: improve aux_div selection for mid-range dividers
+         49c002275a8cabe2fcb3a99b39a1b7fae2351215 ASoC: ti: davinci-mcasp: McASP code cleanup and clk
+         1c62f9f93c301f7d9a5ca13c5363c6d7fc1885af Merge remote-tracking branch 'asoc/for-7.1' into asoc-next
          
-
---===============7689291319184169783==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1773157954 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1773157953-62de7b4efcdb9d69d45041fefad669d68e2c90e5
-
-111e2863372c322e836e0c896f6dd9cf4ee08c71 e53c0e99fd93da200c413deb57875f9f5fdb314a refs/heads/spi-7.0
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmmwPkIACgkQJNaLcl1U
-h9BBwwf/RoVldGn2/W0V4eHW+dAE98G6uFIImq0l1uCLEQS10aTZmhgjmz5NejqZ
-0gu/LdYhZ0JrqYMhdp81me1O9vjxYTV5cKZSLeSFonE0/fI7zG8t5kPcgMS9BxEH
-uZ0pwiQfpdkXnb1l5itnNjQxXdCijBRWSZSbhN4ZOr+8UN09MnG+FdRNUfSoS29Y
-9sxX8PNZ36wrJ+MuJ7pUrrQKZxq3LCSVQ14OOTJEWk+B11RwwEs/OQZuxNqaioYG
-zJjpJu26E9VSSvqrnpoT8yGEdo+UA7db/dBY0g6Lo8ByO50RIl7ikwhQT4XSR35Q
-RVovQ//4Tewv+f9C2vriVzas3ohfeQ==
-=RTs/
------END PGP SIGNATURE-----
-
---===============7689291319184169783==--
