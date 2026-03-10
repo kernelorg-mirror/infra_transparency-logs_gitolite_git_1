@@ -1,51 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============8846096132008125265=="
+Content-Type: multipart/mixed; boundary="===============7560294274222658749=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Tue, 10 Mar 2026 14:23:46 -0000
-Message-Id: <177315262693.1775102.12431537986642347654@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Tue, 10 Mar 2026 14:23:50 -0000
+Message-Id: <177315263052.1775265.12658335595714867841@gitolite.kernel.org>
 
---===============8846096132008125265==
+--===============7560294274222658749==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-7.1
+  - ref: refs/heads/asoc-7.1
     old: 296bd7dd81bf43d127852eb59972b4391e1622e1
     new: 49c002275a8cabe2fcb3a99b39a1b7fae2351215
     log: revlist-296bd7dd81bf-49c002275a8c.txt
 
---===============8846096132008125265==
+--===============7560294274222658749==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1773152625 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1773152624-06b7b81294bdccd58abd1eb0e8c4ba09c04a8b03
+pusher C3F436CA30F5D8EB 1773152628 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1773152628-75730d27cfe2194964f446ffc3234b3dbd1ce63a
 
-296bd7dd81bf43d127852eb59972b4391e1622e1 49c002275a8cabe2fcb3a99b39a1b7fae2351215 refs/heads/for-7.1
+296bd7dd81bf43d127852eb59972b4391e1622e1 49c002275a8cabe2fcb3a99b39a1b7fae2351215 refs/heads/asoc-7.1
 -----BEGIN PGP SIGNATURE-----
 
-iQEyBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmmwKXEACgkQJNaLcl1U
-h9CS4Af4yxA/EkCK5CxSz/LxWMbrp7hrp15gIDxU0OVCV3JNtAGXn/DKz6MprfKB
-poIpqocIetzRQKMwopx8EqVA6AdjplXo5zPvmMJ0GLNVI/BoLZWSAKdTxw7q835z
-rM9/LBwtiVrEqXgBcsg4bzMY7XoRYegBFuQbEYr3sqxZgYvMN/SNoP1ARAedZlK7
-lU5ZiNtfOFC9noZCmVVUuqo/dWHdW2oUz+o+5ucgqiaWTvoFVB0ObztYCJ9V3E+u
-1NKFq9x0earcUxS7IG9kzhkIJmI9+PD5ugMdZyvvGa44dzZ83v0DQ0ERXNHWAGVM
-xMbs1+X591R20a9aaKXJoyQfZgug
-=FhTV
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmmwKXQACgkQJNaLcl1U
+h9DYqwf/QipM/SibxCrzqvvWm9abc3+KhpggAASCzND0ULNJS6YQ22g7LRVEjQDd
+dHe2D5iNDF2OZpsogY36aTJkE5zb1Z0QAxDA9TnyaDr53UtuTKb7is2vKTscASQE
+g+5VrkSBqY6goxRZ/QS0qR9WoJjwLdXzm4050SmX8T9/3ZoSMvKjxc7voGdQL655
+oB4GMIHgHBi42dpeD/jq4xyGhOPjHjvWJZjSBLp5AGb34+fgecGtn/iimxHGRa8Q
+E7YaHjA5ShPtCM58aGIIrtsTSicKn10LJNzmabL2dNH8IaHuK8HXZhBVX7L2vz/W
+Wz8Fta3blM9dfzf/1Ll4oj/nbAjh6g==
+=Ci0R
 -----END PGP SIGNATURE-----
 
---===============8846096132008125265==
+--===============7560294274222658749==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -592,4 +592,4 @@ fc9f248d8c591454e257edd54ac4085d84f11e6a Merge tag 'efi-fixes-for-v7.0-2' of git
 a8075ada4a341ce58ebf8bef0188cefe6c2f6487 ASoC: ti: davinci-mcasp: improve aux_div selection for mid-range dividers
 49c002275a8cabe2fcb3a99b39a1b7fae2351215 ASoC: ti: davinci-mcasp: McASP code cleanup and clk
 
---===============8846096132008125265==--
+--===============7560294274222658749==--
