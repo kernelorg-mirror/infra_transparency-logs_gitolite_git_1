@@ -1,24 +1,31 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mic/linux
-Date: Tue, 10 Mar 2026 17:02:53 -0000
-Message-Id: <177316217351.1917465.15695627845843449964@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tj/wq
+Date: Tue, 10 Mar 2026 17:04:08 -0000
+Message-Id: <177316224830.1918098.6660174672217414203@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mic/linux
-user: mic
+repo: pub/scm/linux/kernel/git/tj/wq
+user: tj
 changes:
-  - ref: refs/heads/next
-    old: 9e91621ac5a51765eeec9e8027b390e58432a768
-    new: 62ff9a2283c423b65372030da51b44d870acd9c4
+  - ref: refs/heads/for-7.1
+    old: c116737e972ea74f4468a1bd0703d623a3c0ee4a
+    new: b39bf7f0fae98c03e5ba6061e2251eeb36ec0b39
     log: |
-         b6172434e6cf3d9ee9d683fd561e71d298fe0bde landlock: Serialize TSYNC thread restriction
-         c9e4ca4e3c028731d3fd52117b7ad36f9bc5408a landlock: Clean up interrupted thread logic in TSYNC
-         17901e59fb9a09b52792e84c50b38d0d814ae039 landlock: Fix kernel-doc warning for pointer-to-array parameters
-         3a5ad6d9e46c76cc8fcd9da764660bc00e6b7126 landlock: Add missing kernel-doc "Return:" sections
-         ff7feb7e30537d5ae55688c49dea320ab4d5daab landlock: Improve kernel-doc "Return:" section consistency
-         62ff9a2283c423b65372030da51b44d870acd9c4 landlock: Fix formatting in tsync.c
+         1dfc9d60a69ec148e1cb709256617d86e5f0e8f8 workqueue: devres: Add device-managed allocate workqueue
+         b39bf7f0fae98c03e5ba6061e2251eeb36ec0b39 Merge branch 'for-7.1-devm-alloc-wq' into for-7.1
          
+  - ref: refs/heads/for-next
+    old: 54c44f8c9d940bd83474129be6c5f0fe52e4d9aa
+    new: 0ab6bf1dbdf50e6ca89280f5c5d9d377b30a7547
+    log: |
+         1dfc9d60a69ec148e1cb709256617d86e5f0e8f8 workqueue: devres: Add device-managed allocate workqueue
+         b39bf7f0fae98c03e5ba6061e2251eeb36ec0b39 Merge branch 'for-7.1-devm-alloc-wq' into for-7.1
+         0ab6bf1dbdf50e6ca89280f5c5d9d377b30a7547 Merge branch 'for-7.1' into for-next
+         
+  - ref: refs/heads/for-7.1-devm-alloc-wq
+    old: 0000000000000000000000000000000000000000
+    new: 1dfc9d60a69ec148e1cb709256617d86e5f0e8f8
