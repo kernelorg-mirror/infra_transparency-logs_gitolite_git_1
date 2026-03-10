@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5695491656568300490=="
+Content-Type: multipart/mixed; boundary="===============5072903036668814989=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Tue, 10 Mar 2026 16:07:38 -0000
-Message-Id: <177315885820.1869349.14397463510877575205@gitolite.kernel.org>
+Date: Tue, 10 Mar 2026 16:07:42 -0000
+Message-Id: <177315886270.1869488.8300944174433894901@gitolite.kernel.org>
 
---===============5695491656568300490==
+--===============5072903036668814989==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/40GbE
+  - ref: refs/heads/200GbE
     old: c113d5e32678c8de40694b738000a4a2143e2f81
     new: 73aefba4e2eb713cf7bc4ad83cfc9b5d4f966f6d
     log: revlist-c113d5e32678-73aefba4e2eb.txt
 
---===============5695491656568300490==
+--===============5072903036668814989==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -51,4 +51,4 @@ a8ba129af46856112981c124850ec6a85a1c1ab6 amd-xgbe: reset PHY settings before sta
 6f1a9140ecda3baba3d945b9a6155af4268aafc4 net: add xmit recursion limit to tunnel xmit functions
 73aefba4e2eb713cf7bc4ad83cfc9b5d4f966f6d Merge tag 'linux-can-fixes-for-7.0-20260310' of git://git.kernel.org/pub/scm/linux/kernel/git/mkl/linux-can
 
---===============5695491656568300490==--
+--===============5072903036668814989==--
