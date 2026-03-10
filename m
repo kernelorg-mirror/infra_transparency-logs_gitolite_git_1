@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Tue, 10 Mar 2026 14:54:30 -0000
-Message-Id: <177315447026.1802029.6917071497225959700@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/firmware/linux-firmware
+Date: Tue, 10 Mar 2026 14:55:09 -0000
+Message-Id: <177315450945.1804776.15415869043882775909@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/firmware/linux-firmware
+user: jwboyer
 changes:
-  - ref: refs/heads/spi-7.0
-    old: 111e2863372c322e836e0c896f6dd9cf4ee08c71
-    new: e53c0e99fd93da200c413deb57875f9f5fdb314a
+  - ref: refs/heads/main
+    old: 9cd4a79e07541510eeb49764c9e1f68ca4069974
+    new: 15fe0cdea8e4f5ab28ffbc35b53bf87d0504509f
     log: |
-         e53c0e99fd93da200c413deb57875f9f5fdb314a spi: cadence-qspi: Fix requesting of APB and AHB clocks on JH7110
+         a8316dd1ccbc0f1d93fe83674ab1b42eafa05146 qcom: add QUPv3 firmware for QCS615 platform
+         15fe0cdea8e4f5ab28ffbc35b53bf87d0504509f Merge branch 'robot/pr-0-1773153673' into 'main'
          
