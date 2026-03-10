@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3380687469317957616=="
+Content-Type: multipart/mixed; boundary="===============5481364634759611050=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Tue, 10 Mar 2026 23:52:22 -0000
-Message-Id: <177318674297.2316002.3934615726973823036@gitolite.kernel.org>
+Date: Tue, 10 Mar 2026 23:52:24 -0000
+Message-Id: <177318674482.2316206.17843219848871358504@gitolite.kernel.org>
 
---===============3380687469317957616==
+--===============5481364634759611050==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,63 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/mm-new
-    old: 6376726b856a9276bc3cfacae3b5c0e5a5fc5ea8
-    new: f543926f9d0c3f6dfb354adfe7fbaeedd1277c6b
-    log: revlist-6376726b856a-f543926f9d0c.txt
+  - ref: refs/heads/mm-unstable
+    old: 9c9ac245e338dd1a1f4f3b2d2b711bb413acb3af
+    new: 5db38fe62076a8d010a9669ed8df8c4fe7d440ef
+    log: revlist-9c9ac245e338-5db38fe62076.txt
 
---===============3380687469317957616==
+--===============5481364634759611050==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6376726b856a-f543926f9d0c.txt
+Content-Disposition: attachment; filename=revlist-9c9ac245e338-5db38fe62076.txt
 
+a2e70a89fa58133521b2deae4427d35776bda935 HID: multitouch: new class MT_CLS_EGALAX_P80H84
+b4f4fd947a2a6df7cf1f530dd1028d9f3849eff5 selftests: hid: tests: test_wacom_generic: add tests for display devices and opaque devices
+9af0feae8016ba58ad7ff784a903404986b395b1 RDMA/core: Fix stale RoCE GIDs during netdev events at registration
+7a23af417d9dd57b4382356b2e7442e5d2bf5bea RDMA/bng_re: Remove unnessary validity checks
+3d2e5d12a2eef0ca8a629a422aa593673235c77c RDMA/bng_re: Unwind bng_re_dev_init properly
+017c1792525064a723971f0216e6ef86a8c7af11 wifi: mac80211: fix NULL pointer dereference in mesh_rx_csa_frame()
+021fd0f87004e949cba6f27199b9925bc24ec3a0 net/rds: fix recursive lock in rds_tcp_conn_slots_available
+fdcfce93073d990ed4b71752e31ad1c1d6e9d58b eventpoll: Fix integer overflow in ep_loop_check_proc()
+bae8a5d2e759da2e0cba33ab2080deee96a09373 net: wan: farsync: Fix use-after-free bugs caused by unfinished tasklets
+82aec772fca2223bc5774bd9af486fd95766e578 netconsole: avoid OOB reads, msg is not nul-terminated
+7a648d598cb8e8c62af3f0e020a25820a3f3a9a7 pinctrl: pinconf-generic: Fix memory leak in pinconf_generic_parse_dt_config()
+a48150d05190b41b5eec19f74b751a75a15a456a pinctrl: amdisp: Make amdisp_pinctrl_ops variable static
+c2e174994c9e98956a85dee9af6fbb293f5ad673 pinctrl: cix: sky1: Unexport sky1_pinctrl_pm_ops
+e9e268ea9df102abef34d7afba59ef4d5868d5d7 pinctrl: qcom: sdm660-lpass-lpi: Make groups and functions variables static
+a2539b92e4b791c1ba482930b5e51b1591975461 pinctrl: meson: amlogic-a4: Fix device node reference leak in aml_dt_node_to_map_pinmux()
+fd5bed798f45eb3a178ad527b43ab92705faaf8a pinctrl: cirrus: cs42l43: Fix double-put in cs42l43_pin_probe()
+45fe4592454368df24d18352be700ff40e7df0c0 pinctrl: rockchip: Fix configuring a deferred pin
+01e10d0272b932f908b4f9b6609a10cb1f35fafe pinctrl: sunxi: Implement gpiochip::get_direction()
+fd80bd7105f88189f47d465ca8cb7d115570de30 RDMA/ionic: Fix potential NULL pointer dereference in ionic_query_port
+f22c77ce49db0589103d96487dca56f5b2136362 RDMA/efa: Fix typo in efa_alloc_mr()
+117942ca43e2e3c3d121faae530989931b7f67e1 IB/mthca: Add missed mthca_unmap_user_db() for mthca_create_srq()
+74586c6da9ea222a61c98394f2fc0a604748438c RDMA/irdma: Fix kernel stack leak in irdma_create_user_ah()
+faa72102b178c7ae6c6afea23879e7c84fc59b4e RDMA/ionic: Fix kernel stack leak in ionic_create_cq()
+983512f3a87fd8dc4c94dfa6b596b6e57df5aad7 net: Drop the lock in skb_may_tx_timestamp()
+bf4fde7db4a8e2613cba36d81ac271f3d66c28f7 erofs: remove more unnecessary #ifdefs
+3d7e6ce34f4fcc7083510c28b17a7c36462a25d4 net: usb: pegasus: enable basic endpoint checking
+4a1ddb0f1c48c2b56f21d8b5200e2e29adf4c1df pidfs: avoid misleading break
+c8dbdc6e380e7e96a51706db3e4b7870d8a9402d net: phy: register phy led_triggers during probe to avoid AB-BA deadlock
+78437ab3b769f80526416570f60173c89858dd84 clk: scu/imx8qxp: do not register driver in probe()
+fb73d0e19f12b793bfe013171d931587f37e3552 MAINTAINERS: Update AMD XGBE driver maintainers
+1348659dc92e9f0f3f86961745792102b8afbfff Merge tag 'for-net-2026-02-23' of git://git.kernel.org/pub/scm/linux/kernel/git/bluetooth/bluetooth
+ab39cc4cb8ceecdc2b61747433e7237f1ac2b789 cpufreq: intel_pstate: Fix NULL pointer dereference in update_cpu_qos_request()
+5ede90206273ff156a778254f0f972a55e973c89 ACPI: OSI: Add DMI quirk for Acer Aspire One D255
+e710b2283725f0db9e5b99c2483df3f4a7feadbd Revert "hwmon: add SMARC-sAM67 support"
+364410170ab33f6e7ef0eb2afb12bf89b0feb3a6 nfsd: report the requested maximum number of threads instead of number running
+297318a1c26dabb5a2d8540fdf436c22094eb2d7 spi: dt-bindings: snps,dw-abp-ssi: Remove unused bindings
+07ed4f05bbfd2bc014974dcc4297fd3aa1cb88c0 hwmon: (it87) Check the it87_lock() return value
+96a1fd0d84b17360840f344826897fa71049870e cxl: Fix race of nvdimm_bus object when creating nvdimm objects
+60b5d1f68338aff2c5af0113f04aefa7169c50c2 cxl/mbox: validate payload size before accessing contents in cxl_payload_from_user_allowed()
+0a70b7cd397e545e926c93715ff6366b67c716f6 cxl: Test CXL_DECODER_F_LOCK as a bitmask
+e46f25f5a81f6f1a9ab93bcda80d5dfaea9f4897 cxl/region: Test CXL_DECODER_F_NORMALIZED_ADDRESSING as a bitmask
+43277d8f57b490550d33f6f4cb73c28ec6024696 selftests/bpf: Replace strncpy() with strscpy()
+3ed0bc2d4994c718fb5476b45d4aafec42a1d040 selftests/bpf: Use strscpy in bpftool_helpers.c
+9d8685239e85ba5a4899b5b3534c732e3ae5f2aa selftests/bpf: Use memcpy() for bounded non-NULL-terminated copies
+4021848a903e65f74cf88997c12b96d6bc2453e6 selftests/bpf: Pass through build flags to bpftool and resolve_btfids
+c5c1e313493cd836863bb673bb2b8beaa915cad9 resolve_btfids: Fix memory leaks reported by ASAN
 45897ced3c1d3940fb5b68fe48c9e144143ae0ae selftests/bpf: Add DENYLIST.asan
 a1a771bd649212ef32cf9b0bcc63213a762d354a selftests/bpf: Refactor bpf_get_ksyms() trace helper
 9d0272c91fbc3ae86f2c3b6ba0a0b0ee77d862e3 selftests/bpf: Fix memory leaks in tests
@@ -1004,51 +1050,5 @@ f03f971d032f11f2f9027d16961bdc90e17f5346 Docs/admin-guide/mm/damn/lru_sort: fix 
 dc17c64f16a36bfd7a883cc76ac549371d164992 Docs/mm/damon/maintainer-profile: use flexible review cadence
 2b44346a2e907467421ede04751122a67fc0e977 Docs/mm/damon/index: fix typo: autoamted -> automated
 5db38fe62076a8d010a9669ed8df8c4fe7d440ef docs: mm: fix typo in numa_memory_policy.rst
-ce8118a4115ff33c40a7920961e3fde8ad82e96c mm: optimize the implementation of WARN_ON_ONCE_GFP()
-077b669d5d1f9540382b44f951d53fe73202d96b mm/debug: optimize once judgment with clang
-4c377073008e7702c2c99bd8a2c8ff92d9e0167a mm: move vma_kernel_pagesize() from hugetlb to mm.h
-8849d636bd3b21f27ca82c4314439da09831fe28 mm: move vma_mmu_pagesize() from hugetlb to vma.c
-a031f7cb01914ffbd78548dfd6876171e67a7270 KVM: remove hugetlb.h inclusion
-859adb04f6db0b4a0770564adc630accb74dcb67 KVM: PPC: remove hugetlb.h inclusion
-ca3658c91b9d926e24f914a15e56b72ee4c11782 kho: make sure preservations do not span multiple NUMA nodes
-e9010f7539a68a52141d9e7c7c2f8c6c8d8ad013 kho: drop restriction on maximum page order
-c23f28719f8b3956a943e9aae3547f29e75c8b06 selftests/mm: add THP sysfs interface test
-4a89e88d3384d36cff35bb102ec64292a8a48c4b zram: do not permit params change after init
-f1b90ea1e36beede10e18fb8f62b8a7a1ace9d21 selftests/mm: restore default nr_hugepages value during cleanup in charge_reserved_hugetlb.sh
-bf371349b7d00db2030ee07fa93ad381ee8264c5 selftests/mm: fix hugetlb pathname construction in charge_reserved_hugetlb.sh
-6c360f4ae1f0218d5d3a9e807a969b99809434c7 selftests/mm: fix hugetlb pathname construction in hugetlb_reparenting_test.sh
-db786ea33cccc0306d52e49de5652f18b2f7578b selftest/mm: fix cgroup task placement and tolerance in hugetlb_reparenting_test.sh
-a46719115c356ea7c458e0ed88b4cd75ee7cd072 selftests/mm: size tmpfs according to PMD page size in split_huge_page_test
-0db5c28bf1720724abb6467fd2208c59587a84df selftest/mm: adjust hugepage-mremap test size for large huge pages
-97c0d2a451907741034fe47e989231238d42d324 selftest/mm: register existing mapping with userfaultfd in hugepage-mremap
-50ce5536852e082fa304c485dd6e02b7f49b06ba selftests/mm: ensure destination is hugetlb-backed in hugepage-mremap
-7ce1e3c372cc234b812c2e44cc302e85725b94bb selftests/mm: skip uffd-wp-mremap if UFFD write-protect is unsupported
-e5a331985a35299967d459c1ea2a891c44c6e08b selftests/mm: skip uffd-stress test when nr_pages_per_cpu is zero
-400a51b294c1c9a2db8392dd3308fdbf801c9309 selftests/mm: fix double increment in linked list cleanup in compaction_test
-845e07522d05f0105f5384282f282f09408c0c95 selftests/mm: move hwpoison setup into run_test() and silence modprobe output for memory-failure category
-dfe5d2b2eef0621c654bcbd67420c22338e8e7e6 selftests/cgroup: extend test_hugetlb_memcg.c to support all huge page sizes
-4be1ba7c6e5694f9c067f32e9d57f43a53014135 mm/vmscan: avoid false-positive -Wuninitialized warning
-786e00736d163d25177f576e7c5a05829194e48c mm: migrate: requeue destination folio on deferred split queue
-462383b19f49349b2e1cafa1e7d2a973585e16b4 mm/userfaultfd: fix hugetlb fault mutex hash calculation
-1029f2cf309cd0d8cda784f2a70e067bd8f72374 selftest: memcg: skip memcg_sock test if address family not supported
-20430fcf299c2c7bd692038a9f2bc99b8aa0b4ac mm: prevent droppable mappings from being locked
-2380930687d6c031a1f8164181b3ed9f176f44c3 selftests/mm: verify droppable mappings cannot be locked
-e1faee24cfd66d595b10809e010d2712f90cc15b mm/swap: strengthen locking assertions and invariants in cluster allocation
-ab732ddc0785de658c262577da0584722146c8a7 mm/damon/core: introduce damos_quota_goal_tuner
-a606beec4760357f15a894e3dd884cb8bfa189fd mm/damon/core: allow quota goals set zero effective size quota
-5ce6e6daefe61a83b65944d61a3687ae48442936 mm/damon/core: introduce DAMOS_QUOTA_GOAL_TUNER_TEMPORAL
-bbc8cc254bd436e6eb7556eee5daef3de03c72c5 mm/damon/sysfs-schemes: implement quotas->goal_tuner file
-7cf0937d4e1a2990608cdb0efbd5352470d46d35 Docs/mm/damon/design: document the goal-based quota tuner selections
-51396a1e9c9c758568786dba2b55b977818f826e Docs/admin-guide/mm/damon/usage: document goal_tuner sysfs file
-da237f2142d252541e1545553a183f08b3471eeb Docs/ABI/damon: update for goal_tuner
-4f0f3f001b7c8f2d5558aac1b09fb76b0e3e1f08 mm/damon/tests/core-kunit: test goal_tuner commit
-eac33b322e91e93ca81395e1dab98555d0d3eaa2 selftests/damon/_damon_sysfs: support goal_tuner setup
-ffb4cf1297ad8f999528688902b5aa1ba34fc3e8 selftests/damon/drgn_dump_damon_status: support quota goal_tuner dumping
-b0990c42ad03e271b97e12857f919d167c7c9273 selftests/damon/sysfs.py: test goal_tuner commit
-0ee1580947c14a252380cbd0f09b4bad11d2c96d mm: khugepaged: export set_recommended_min_free_kbytes()
-5a45f7da45fa53ce92f003cc811b0d0bc35bcd64 mm: huge_memory: refactor anon_enabled_store() with change_anon_orders()
-63c1d4dd83811d4ffb1c5d05e55d9ff8b795a85b mm: huge_memory: refactor enabled_store() with change_enabled()
-3bd6c195df3b03d9dde4e8f8ec423224b749c920 mm-huge_memory-refactor-enabled_store-with-change_enabled-checkpatch-fixes
-f543926f9d0c3f6dfb354adfe7fbaeedd1277c6b mm: ratelimit min_free_kbytes adjustment messages
 
---===============3380687469317957616==--
+--===============5481364634759611050==--
