@@ -1,42 +1,28 @@
-Content-Type: multipart/mixed; boundary="===============1979124638498930648=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ast/bpf
-Date: Tue, 10 Mar 2026 02:42:08 -0000
-Message-Id: <177311052834.1198232.17319725670383700114@gitolite.kernel.org>
-
---===============1979124638498930648==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Tue, 10 Mar 2026 02:49:14 -0000
+Message-Id: <177311095473.1202714.3958116123561001408@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ast/bpf
-user: ast
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
-  - ref: refs/heads/stacklive
-    old: 6fd380fb27e54d47eb5f7ffb28b0bfa3e66b7b5a
-    new: 922f17de8313d9110d739579d3ba9cb82e4b8df3
-    log: revlist-6fd380fb27e5-922f17de8313.txt
-
---===============1979124638498930648==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6fd380fb27e5-922f17de8313.txt
-
-6d14be7ac4b01a36ce3d5b2e76fefb7a65f75124 bpf: Add inter-procedural callee access folding
-13ed1836cec98ef152e32e877e90c06456c744bf bpf: Add backward arg liveness analysis
-aa392ae9c6cfe30924194b5accc7f518eb32eb8c bpf: Add forward FP-offset tracking in compute_stack_access()
-b08a1413239d87416e80f2bc00a7ebbc043d0361 bpf: Resolve stack access from FP-derived pointers
-63e727af2c391b48cfafa961080d5db888c0d4c7 bpf: Use static stack liveness for verifier state pruning
-e4bc312de7f92ab7961f7afa062af6bee72a7295 selftests/bpf: Update tests for static stack liveness output
-dc3dc926bbf205c5aeeea5a244bb8dc66dbdb56e selftests/bpf: Add tests for static stack liveness analysis
-536b45aa906337b2ba2c75c934726e5a2bdb8a68 bpf: Remove old dynamic stack liveness infrastructure
-5d630fcb55d2ec88348d24186dbd03f846140aa7 selftests/bpf: Test that zero->misc promo is unsafe
-c72a8544de503eb3728d7c1365998a6733928275 selftests/bpf: Add convergence test for arg_track dataflow join
-4665beac2929fd31f1f0f8dbd7d6683f4b677a1a selftests/bpf: Tests for 4-byte stack slots
-922f17de8313d9110d739579d3ba9cb82e4b8df3 selftests/bpf: Check pruning across subprog calls
-
---===============1979124638498930648==--
+  - ref: refs/heads/main
+    old: 014c607f86abc903d7bf46e13373d89392e371fe
+    new: 52ede1bce557c66309f41ac29dd190be23ca9129
+    log: |
+         bf3471e6e6c02137dc0d26caa783ac1849f9aab8 net: airoha: Make flow control source port mapping dependent on nbq parameter
+         e8eb33d650cd5e60b008f9d958262e489de6e7a9 tcp: move sysctl_tcp_shrink_window to netns_ipv4_read_txrx group
+         f2db7b80b03f268ff65fe825a7c761a8f551aa48 net/sched: refine indirect call mitigation in tc_wrapper.h
+         4b78c9cbd8f1fbb9517aee48b372646f4cf05442 tcp: move tp->chrono_type next tp->chrono_stat[]
+         d6d4ff335db2d9242937ca474d292010acd35c38 tcp: inline tcp_chrono_start()
+         56acc7f51974c824142dd0a529b1ce05ec5fa75a selftests/tc-testing: Adapt test's output to HFSC's iproute2 printing changes
+         c127d4087930cc4706b99c9431e35ba00776a634 net: stmmac: remove stmmac_dwmac4_get_mac_addr()
+         b560d4434f98b5a8f7d04e5ec1a515a21aa8d914 net: stmmac: ptp: rearrange n_ext_ts initialisation
+         687e7863f027426175791f8a23a59b7c4c816fe9 net: stmmac: ptp: remove redundant priv->pps[].available
+         52ede1bce557c66309f41ac29dd190be23ca9129 Merge branch 'net-stmmac-further-ptp-cleanups'
+         
