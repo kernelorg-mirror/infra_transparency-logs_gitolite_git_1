@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mic/linux
-Date: Tue, 10 Mar 2026 17:21:37 -0000
-Message-Id: <177316329771.1934333.2810547231798639733@gitolite.kernel.org>
+Date: Tue, 10 Mar 2026 17:23:27 -0000
+Message-Id: <177316340778.1935039.16835717550002821044@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,11 +12,13 @@ repo: pub/scm/linux/kernel/git/mic/linux
 user: mic
 changes:
   - ref: refs/heads/next
-    old: 62ff9a2283c423b65372030da51b44d870acd9c4
-    new: cfe94a031a99a256a3887231c460aa58790bae0c
+    old: cfe94a031a99a256a3887231c460aa58790bae0c
+    new: 5dfb8077be2bbe2c3b9477da759e80fa9f98da42
     log: |
-         3ce02d4330dad339975311ec299e8cc065c35195 landlock: Add missing kernel-doc "Return:" sections
-         625c5203dbd7fc38a2da5ae6a14d2041bef5187a landlock: Improve kernel-doc "Return:" section consistency
-         4df332cf618f5d3ad89cd0e7653e0c2ebbd4ee6e landlock: Fix formatting in tsync.c
-         cfe94a031a99a256a3887231c460aa58790bae0c landlock: Fix kernel-doc warning for pointer-to-array parameters
+         ff88df67dbf78b5eb909f8a3da4115b1cfd998ab landlock: Serialize TSYNC thread restriction
+         697f514ad9dbe600a808326d80b02caab03b7f90 landlock: Clean up interrupted thread logic in TSYNC
+         108358b3c21c47a08c766747d6b785376dbd997a landlock: Add missing kernel-doc "Return:" sections
+         3dabfe574db826a1e0594809f89217079d6fa9dc landlock: Improve kernel-doc "Return:" section consistency
+         d7e3ec82c8694244f0681fa193a20aaddc249db0 landlock: Fix formatting in tsync.c
+         5dfb8077be2bbe2c3b9477da759e80fa9f98da42 landlock: Fix kernel-doc warning for pointer-to-array parameters
          
