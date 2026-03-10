@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/deller/linux-fbdev
-Date: Tue, 10 Mar 2026 16:33:13 -0000
-Message-Id: <177316039323.1891208.1411891829452372179@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/dinguyen/linux
+Date: Tue, 10 Mar 2026 16:33:21 -0000
+Message-Id: <177316040120.1891428.1769739058671822635@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/deller/linux-fbdev
-user: deller
+repo: pub/scm/linux/kernel/git/dinguyen/linux
+user: dinguyen
 changes:
-  - ref: refs/heads/for-next
-    old: db65872b38dc9f18a62669d6ae1e4ec7868a85a9
-    new: f044788088ef55e9855b17b7984ffe522c40c093
-    log: |
-         f044788088ef55e9855b17b7984ffe522c40c093 fbdev: viafb: check ioremap return value in viafb_lcd_get_mobile_state
-         
+  - ref: refs/heads/socfpga_svc_fix_for_v7.0_part2
+    old: 0000000000000000000000000000000000000000
+    new: 22fd7f7fed2ae3702f90d1985c326354e86b9c75
