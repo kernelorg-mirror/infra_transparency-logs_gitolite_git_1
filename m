@@ -1,25 +1,46 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Tue, 10 Mar 2026 02:18:19 -0000
-Message-Id: <177310909953.1176781.14532179218664298768@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============8849804050153864428=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ast/bpf
+Date: Tue, 10 Mar 2026 02:28:34 -0000
+Message-Id: <177310971470.1187042.14764528753675536723@gitolite.kernel.org>
+
+--===============8849804050153864428==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: kuba
+repo: pub/scm/linux/kernel/git/ast/bpf
+user: ast
 changes:
-  - ref: refs/heads/main
-    old: 58e4d35ae7b9325ab622bbcc34312b17af425c8f
-    new: 014c607f86abc903d7bf46e13373d89392e371fe
-    log: |
-         b544927d75574330b0a8a33c113556b67df56f39 nfc: s3fwrn5: convert to gpio descriptors
-         253350dbf3e7fbd136905c98bd9f800fddb4fead nfc: nfcmrvl: convert to gpio descriptors
-         b6420bd5aa0c374331bad6c0fa2eb5f0f87cf5a0 gpio: remove of_get_named_gpio() and <linux/of_gpio.h>
-         abb0eb0b033a0a8980eb9215e02626e4801ead3f ppp: simplify input error handling
-         51aaf65bbd21e81a0a4d6827fad76ec8873a7703 Merge tag 'ib-gpio-remove-of-gpio-h-for-v7.1' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux into mbox
-         dc9c9193c7c19a0163552da3a73a1706b7faea12 selftests: fib_tests: fix link-local retrieval in fib6_nexthop()
-         014c607f86abc903d7bf46e13373d89392e371fe gve: add support for UDP GSO for DQO format
-         
+  - ref: refs/heads/stacklive
+    old: db370bdfa624db41877645d63bccba71817183d2
+    new: 6fd380fb27e54d47eb5f7ffb28b0bfa3e66b7b5a
+    log: revlist-db370bdfa624-6fd380fb27e5.txt
+
+--===============8849804050153864428==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-db370bdfa624-6fd380fb27e5.txt
+
+6c0c1cd851220d36e08d88eb455c9de12704c20a bpf: Sort subprogs in topological order after check_cfg()
+27012869111fcfd09476e1a2ebe7bebbed3f3068 selftests/bpf: Add tests for subprog topological ordering
+eaa8135b77dc10d60e8d8b731204176480736d51 bpf: Add per-subprog arg tracking analysis
+1fc993fb79dc14f7dea3f99526bf585a66efbe70 bpf: Record per-subprog argument memory accesses
+12ed0eb44b4cc48eea6aa56582676af9161a25d0 bpf: Add inter-procedural callee access folding
+47578cbc540ea7aedb029b485420dc35a5fd29ab bpf: Add backward arg liveness analysis
+3e9ef286c081962d9cd49f2a36c0e195947b73f6 bpf: Add forward FP-offset tracking in compute_stack_access()
+3b760e471a6fffd24d479e4f8161d93191bb964c bpf: Resolve stack access from FP-derived pointers
+0b99cba51cb0849af3ba7cd8a2bf369f09a3dbf2 bpf: Use static stack liveness for verifier state pruning
+fbdb8f8c311045483daad24a95203289bb179427 selftests/bpf: Update tests for static stack liveness output
+de20e9ed88f0dd1cea385ba718b5b78ecc9e925c selftests/bpf: Add tests for static stack liveness analysis
+f3f5a3b5eb841243f69c60792a3b206c178d76d7 bpf: Remove old dynamic stack liveness infrastructure
+cd583a188f3e655d248909938a039e0274e9d39a selftests/bpf: Test that zero->misc promo is unsafe
+7dbe2892cfd69cade1257f8cb6ba083802f3e7c3 selftests/bpf: Add convergence test for arg_track dataflow join
+927ef8401b241b0edb673348d293ca239638a506 selftests/bpf: Tests for 4-byte stack slots
+6fd380fb27e54d47eb5f7ffb28b0bfa3e66b7b5a selftests/bpf: Check pruning across subprog calls
+
+--===============8849804050153864428==--
