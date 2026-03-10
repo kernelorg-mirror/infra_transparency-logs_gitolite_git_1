@@ -1,57 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============3600489801019718672=="
+Content-Type: multipart/mixed; boundary="===============5756687684030322420=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Tue, 10 Mar 2026 23:29:12 -0000
-Message-Id: <177318535234.2294786.1054489771619336542@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Tue, 10 Mar 2026 23:29:34 -0000
+Message-Id: <177318537489.2295125.2059062358548448900@gitolite.kernel.org>
 
---===============3600489801019718672==
+--===============5756687684030322420==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/spi
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/asoc-7.0
-    old: 4185b95f8a42d92d68c49289b4644546b51e252b
-    new: 30e4b2290cc2a8d1b9ddb9dcb9c981df1f2a7399
+  - ref: refs/heads/for-7.1
+    old: 981b080a79724738882b0af1c5bb7ade30d94f24
+    new: d1008a8e29b09ea57c77ddf82d688f8c2ea6cbe8
     log: |
-         30e4b2290cc2a8d1b9ddb9dcb9c981df1f2a7399 ASoC: codecs: rt1011: Use component to get the dapm context in spk_mode_put
-         
-  - ref: refs/heads/asoc-7.1
-    old: 9be71d462c33b1a00acfa4ab8f0f5332ed592817
-    new: 4ba5c63778e5cca15b1408f012d00b441f808f3d
-    log: |
-         4ba5c63778e5cca15b1408f012d00b441f808f3d ASoC: da7219: scope AAD suspend and resume helpers to CONFIG_PM
+         ec6c2e15a42fc8fb63baadee0e8a3257e37fa90c spi: axiado: Remove redundant pm_runtime_mark_last_busy() call
+         d1008a8e29b09ea57c77ddf82d688f8c2ea6cbe8 spi: tegra210-quad: Remove redundant pm_runtime_mark_last_busy() calls
          
 
---===============3600489801019718672==
+--===============5756687684030322420==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1773185350 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1773185349-8c0f67452fbe15dc3f1a3d5e6959fd60e9e31977
+pusher C3F436CA30F5D8EB 1773185373 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
+nonce 1773185372-209c879556832bb50dcdb6a3b37d481759a35f53
 
-4185b95f8a42d92d68c49289b4644546b51e252b 30e4b2290cc2a8d1b9ddb9dcb9c981df1f2a7399 refs/heads/asoc-7.0
-9be71d462c33b1a00acfa4ab8f0f5332ed592817 4ba5c63778e5cca15b1408f012d00b441f808f3d refs/heads/asoc-7.1
+981b080a79724738882b0af1c5bb7ade30d94f24 d1008a8e29b09ea57c77ddf82d688f8c2ea6cbe8 refs/heads/for-7.1
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmmwqUYACgkQJNaLcl1U
-h9AYzAf9EJGgKR6maTJ0rmATU+ZtKaTXB3kaAnvPrTNLegEnCIyqt2JEkTJrtW0F
-jl3Rl1a/SiY3ygskIbIHS2M0D3zSGWWmDnCNmR90yTnhWMSzW4nMU5O29g6W/Nnq
-leU5H92jpGSw5F9MzDgnDJOPCi7RQ9tmw32ckxhLEFpmanSCOZBljXqByHW/AL9u
-XMtTq26eOfZUlQqZ0wpNcdlhgxyzwXO2NOnT3+QVvmie7QkbZqzI4JBRwwbTUpcL
-kwF1ffiOICRGcrozXp3tUp4HnoZEooUL35f3lpwokddirW0+AaEbxRInsxCwYrqz
-m9ngc1apwGKMEXMMFh5s3favO2v9ow==
-=vQYD
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmmwqV0ACgkQJNaLcl1U
+h9A5swf+KZzveqD6KvPfjOM6QCgYVEeJ4MjZR5+j9MKqON8yDdsgo4/qstuzzX/b
+feoUzMwgaNDNH7X4O1SeqZqYESO9ndcP1YC1hYEQPpN5GSp4wdgfsQYYijG/6Ffx
+nEF4aRW3fYohCVnNKRDJgq1aazgCP3fRFjhReXTM0J5gzj0QI56o7sNkzc786Z76
+0Kooga1qjZ6q5bTNR8MBmKVelSg7HlXo2RdyTkwa/GYoSCMYi3+LuMCucbDAZLWS
+xNawCxJszjjvOd9v1R3mbvjjD11tHGeO8aBjgr5BJglchsAC6ekZszczlCXrO+b7
+XTtErbgrRInMgqaB+O6rw/mDGUWaIw==
+=Rtt9
 -----END PGP SIGNATURE-----
 
---===============3600489801019718672==--
+--===============5756687684030322420==--
