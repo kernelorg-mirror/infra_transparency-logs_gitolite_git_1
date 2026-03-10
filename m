@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
-Date: Tue, 10 Mar 2026 09:12:41 -0000
-Message-Id: <177313396169.1518380.3794498108487064582@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
+Date: Tue, 10 Mar 2026 09:14:10 -0000
+Message-Id: <177313405044.1519089.17352217047600561273@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/brgl/linux
-user: brgl
+repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
+user: sashal
 changes:
-  - ref: refs/heads/gpio/for-next
-    old: e0c8104074f48868976832e334ffa86eb87176b2
-    new: 8f0aecf2957e7dba78603544368846133bf6d22e
-    log: |
-         49944d6ab7eb951f2aefee69341c623e13434863 dt-bindings: gpio: realtek-otto: add rtl9607 compatible
-         8f0aecf2957e7dba78603544368846133bf6d22e gpio: realtek-otto: add rtl9607 support
-         
+  - ref: refs/tags/v6.19.6
+    old: 0000000000000000000000000000000000000000
+    new: 8fc34c65a0f7c06b3dc3b5711d32d56aca9eedeb
+  - ref: refs/tags/v6.18.16
+    old: 0000000000000000000000000000000000000000
+    new: 4fa5f34ca23007dd03afc3176b3c058caa829409
