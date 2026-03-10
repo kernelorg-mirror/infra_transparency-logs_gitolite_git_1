@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Tue, 10 Mar 2026 18:51:59 -0000
-Message-Id: <177316871999.2025253.9394012465021008373@gitolite.kernel.org>
+Date: Tue, 10 Mar 2026 18:55:33 -0000
+Message-Id: <177316893393.2028866.9674513022917048960@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,11 +11,11 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: ast
 changes:
-  - ref: refs/heads/for-next
-    old: bd2e02e3c9215305dfa344c050d5822f19929cf7
-    new: 437350df8640bf0535b74a3d8bade6f707940027
+  - ref: refs/heads/master
+    old: 437350df8640bf0535b74a3d8bade6f707940027
+    new: 0c55d4817aff454cfaded4f161ab13f2049758a9
     log: |
-         2f4cb53eed448c1aeb6f4b40cf9c810716d8218c bpf: detect non null pointer with register operand in JEQ/JNE.
-         6a1c9a442f634e7b95c5ad0927870335b1ce299e selftests/bpf: tests to non_null ptr detection using register operand in JEQ/JNE
-         437350df8640bf0535b74a3d8bade6f707940027 Merge branch 'bpf-support-for-non_null-ptr-detection-with-jeq-jne-with-register-operand'
+         a8fce027e17b0a99a8f9732f271ed505aa7a2940 selftests/bpf: Remove kmem subtest from cgroup_iter_memcg
+         da99028c21137ac13925836d3819c2977694d173 selftests/bpf: Use bpf_core_enum_value for stats in cgroup_iter_memcg
+         0c55d4817aff454cfaded4f161ab13f2049758a9 Merge branch 'fix-test_cgroup_iter_memcg-issues-found-during-back-porting'
          
