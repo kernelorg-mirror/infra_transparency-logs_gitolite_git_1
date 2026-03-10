@@ -1,43 +1,54 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bigeasy/linuxptp-hsr
-Date: Tue, 10 Mar 2026 16:00:42 -0000
-Message-Id: <177315844251.1863120.5613086313079653562@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============8907024745479742725=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
+Date: Tue, 10 Mar 2026 16:03:08 -0000
+Message-Id: <177315858881.1864083.11895847347860890244@gitolite.kernel.org>
+
+--===============8907024745479742725==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bigeasy/linuxptp-hsr
-user: bigeasy
+repo: pub/scm/linux/kernel/git/tnguy/net-queue
+user: tnguy
 changes:
-  - ref: refs/heads/hsr_v3
-    old: 0000000000000000000000000000000000000000
-    new: 25161512df9389ab3ecfa180aa12385018837e28
-  - ref: refs/remotes/origin/HEAD
-    old: 0000000000000000000000000000000000000000
-    new: 2a9d74df8fcc8e6e2eae7f5c22bba942dc4195ac
-  - ref: refs/remotes/origin/master
-    old: 0000000000000000000000000000000000000000
-    new: 2a9d74df8fcc8e6e2eae7f5c22bba942dc4195ac
-  - ref: refs/remotes/origin/v1.5.x
-    old: 0000000000000000000000000000000000000000
-    new: f0db5a45e6ead83eff6a869abbe6260914a73cc4
-  - ref: refs/remotes/origin/v1.6.x
-    old: 0000000000000000000000000000000000000000
-    new: 4af0e62181d49b0ff2b4c6a3fd9df0070b6febbb
-  - ref: refs/remotes/origin/v1.7.x
-    old: 0000000000000000000000000000000000000000
-    new: 766efe61eeba4300548417d10019fa4b0c72713c
-  - ref: refs/remotes/origin/v1.8.x
-    old: 0000000000000000000000000000000000000000
-    new: 8a3c90666e7c84eb51b2d2631ce25b7eece341e5
-  - ref: refs/remotes/origin/v1.9.x
-    old: 0000000000000000000000000000000000000000
-    new: 29f5dbad499afaa2c6ace73a14d9c22ebdb9ac64
-  - ref: refs/remotes/origin/v2.0.x
-    old: 0000000000000000000000000000000000000000
-    new: 785bb70509d407404530060c1abe9f04e9275078
-  - ref: refs/remotes/origin/v3.1.x
-    old: 0000000000000000000000000000000000000000
-    new: 6feb76186ac39eab2fc011053f1cf46bfc94c8e4
+  - ref: refs/heads/main
+    old: c113d5e32678c8de40694b738000a4a2143e2f81
+    new: 73aefba4e2eb713cf7bc4ad83cfc9b5d4f966f6d
+    log: revlist-c113d5e32678-73aefba4e2eb.txt
+
+--===============8907024745479742725==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-c113d5e32678-73aefba4e2eb.txt
+
+87d126852158467ab87d5cbc36ccfd3f15464a6c net: sfp: improve Huawei MA5671a fixup
+288598d80a068a0e9281de35bcb4ce495f189e2a serial: caif: hold tty->link reference in ldisc_open and ser_release
+b2662e7593e94ae09b1cf7ee5f09160a3612bcb2 net: nexthop: fix percpu use-after-free in remove_nh_grp_entry
+7a85d370bbd0d55791ec57ea8ba13032410e8b9d MAINTAINERS: include/net/tc_wrapper.h belongs to TC subsystem
+e4f774a0cc955ce762aec91c66915a6e15087ab7 net: usb: lan78xx: fix silent drop of packets with checksum errors
+50988747c30df47b73b787f234f746027cb7ec6c net: usb: lan78xx: fix TX byte statistics for small packets
+d9cc0e440f0664f6f3e2c26e39ab9dd5f3badba7 net: usb: lan78xx: skip LTM configuration for LAN7850
+312c816c6bc30342bc30dca0d6db617ab4d3ae4e net: usb: lan78xx: fix WARN in __netif_napi_del_locked on disconnect
+183f682591a932cf80a85bfc7ad748f5d90c2de7 Merge branch 'net-usb-lan78xx-accumulated-bug-fixes'
+0d9a60a0618d255530ca56072c5f39eb58e1ed4a bnxt_en: Fix RSS table size check when changing ethtool channels
+246953f33e8cf95621d6c00332e2780ce1594082 net: enetc: fix incorrect fallback PHY address handling
+dbe17e7783cb5d6451ff1217d0464865857e97e1 net: enetc: do not skip setting LaBCR[MDIO_PHYAD_PRTAD] for addr 0
+fdfd103aec837fc318fbd381cc65990ad7b62e5b Merge branch 'net-enetc-fix-fallback-phy-address-handling-and-do-not-skip-setting-for-addr-0'
+e3f5e0f22cfc2371e7471c9fd5b4da78f9df7c69 mctp: i2c: fix skb memory leak in receive path
+1eea46908c57abb7109b1fce024f366ae6c69c4f can: dev: keep the max bitrate error at 5%
+47bba09b14fa21712398febf36cb14fd4fc3bded can: hi311x: hi3110_open(): add check for hi3110_power_enable() return value
+950803f7254721c1c15858fbbfae3deaaeeecb11 bonding: fix type confusion in bond_setup_by_slave()
+7d86aa41c073c4e7eb75fd2e674f1fd8f289728a mctp: route: hold key->lock in mctp_flow_prepare_output()
+6485cb96be5cd0f4bf39554737ba11322cc9b053 amd-xgbe: fix link status handling in xgbe_rx_adaptation
+27a4dd0c702b3b2b9cf2c045d100cc2fe8720b81 amd-xgbe: prevent CRC errors during RX adaptation with AN disabled
+a8ba129af46856112981c124850ec6a85a1c1ab6 amd-xgbe: reset PHY settings before starting PHY
+3228835877e77200a8c16f26b22017f850f8b0c3 Merge branch 'amd-xgbe-rx-adaptation-and-phy-handling-fixes'
+6f1a9140ecda3baba3d945b9a6155af4268aafc4 net: add xmit recursion limit to tunnel xmit functions
+73aefba4e2eb713cf7bc4ad83cfc9b5d4f966f6d Merge tag 'linux-can-fixes-for-7.0-20260310' of git://git.kernel.org/pub/scm/linux/kernel/git/mkl/linux-can
+
+--===============8907024745479742725==--
