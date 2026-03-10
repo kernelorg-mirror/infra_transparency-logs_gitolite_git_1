@@ -1,26 +1,51 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mptcp/linux
-Date: Tue, 10 Mar 2026 09:51:47 -0000
-Message-Id: <177313630763.1552734.5638514320719562686@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============4748032572415010692=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vbabka/slab
+Date: Tue, 10 Mar 2026 10:03:28 -0000
+Message-Id: <177313700863.1561005.9342613460022539836@gitolite.kernel.org>
+
+--===============4748032572415010692==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mptcp/linux
-user: matttbe
+repo: pub/scm/linux/kernel/git/vbabka/slab
+user: vbabka
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/export-net
-    old: b9d35b90ee2f69167bfe9ca9d14c2972ec627dad
-    new: 57d62d863b0526c55ad1a32069833642f1ef388d
+  - ref: refs/heads/slab/for-next-fixes
+    old: 0fe3bd4731c3fb61309b551e39743b89b275d4f1
+    new: 8dafa9f5900c4855a65dbfee51e3bd00636deee1
     log: |
-         3b478c2f6c1dd12809b9a3379b2350974da6022e DO-NOT-MERGE: git markup: net
-         e65f29b3f45dad9e2f9b1f8aa9b165ab872a0115 DO-NOT-MERGE: git markup: fixes other trees
-         ddbf07e5d816f9869581fced86707c5027a95b1c DO-NOT-MERGE: git markup: fixes net
-         8cd3de39a8c71f9808d89c069510f44bf8950fdb DO-NOT-MERGE: mptcp: add CI support
-         e61bc45b49a281d5273ab389d9fd16d27d5e324e DO-NOT-MERGE: git markup: end common net net-next
-         fa18fed062ebc4dd515fc693df4a02d5e20602af DO-NOT-MERGE: git markup: fixes net only
-         8cd7596a4ec6d0726d488e6a41a11d1c5795f6c3 DO-NOT-MERGE: mptcp: improve code coverage for CI (net)
-         57d62d863b0526c55ad1a32069833642f1ef388d DO-NOT-MERGE: mptcp: enabled by default (net)
+         8dafa9f5900c4855a65dbfee51e3bd00636deee1 mm/slab: fix an incorrect check in obj_exts_alloc_size()
          
+
+--===============4748032572415010692==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher A940D434992C2E8E99103D50224FA7E7CC82A664 1773137004 +0100
+pushee gitolite.kernel.org:pub/scm/linux/kernel/git/vbabka/slab.git
+nonce 1773137004-1b44f4d8eadc081e66eef16b64797b6df6a9544b
+
+0fe3bd4731c3fb61309b551e39743b89b275d4f1 8dafa9f5900c4855a65dbfee51e3bd00636deee1 refs/heads/slab/for-next-fixes
+-----BEGIN PGP SIGNATURE-----
+
+iQFPBAABCAA5FiEEe7vIQRWZI0iWSE3xu+CwddJFiJoFAmmv7GwbFIAAAAAABAAO
+bWFudTIsMi41KzEuMTIsMiwyAAoJELvgsHXSRYiaDr4H/3MVq9zIo+fVjlaDqtH3
+SVl8G3XIVxIGbmsbEM7oHJv2o2IUwtUGvvMMeMm18Otn+h5LwGAIWDGLtqoCrEXL
+QPDOAYkKDJFFAShtD0tlwbpP8F9qTQE4RLhNvrqGsz7u9q7QN+IpEg9oYjo5GG+a
+6ZTM2KhGMV4iDasp6H0AdeKqXHw8IcmGcCxM0RLUbXiJHLuP3pD1Cqog8QNC4qic
+ebFaZ+/cmZGJeu0JMZmZv2bL8Q+4s3cGLp1PUZctu9qAvTmq7V5uo1efh+ZXL8JJ
+7yXVG9LvSuDJKzRHuTQ+OD4PKg6HYTcE3a5D+Z6oNo0fVzRSR3T+9p4m9WLYuBWR
+mi4=
+=xcAN
+-----END PGP SIGNATURE-----
+
+--===============4748032572415010692==--
