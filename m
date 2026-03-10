@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2571298536731615282=="
+Content-Type: multipart/mixed; boundary="===============7825400554134761373=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Tue, 10 Mar 2026 21:34:26 -0000
-Message-Id: <177317846650.2163076.17961710999776084032@gitolite.kernel.org>
+Date: Tue, 10 Mar 2026 21:34:29 -0000
+Message-Id: <177317846900.2163242.3243466568062643683@gitolite.kernel.org>
 
---===============2571298536731615282==
+--===============7825400554134761373==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/10GbE
+  - ref: refs/heads/40GbE
     old: 0bcac7b11262557c990da1ac564d45777eb6b005
     new: 05e059510edf7b6101ff85db2a2e2d1b6f31ee6d
     log: revlist-0bcac7b11262-05e059510edf.txt
 
---===============2571298536731615282==
+--===============7825400554134761373==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -71,4 +71,4 @@ d522b1b004800728de5466451e4d7032a4f53de6 eth fbnic: TLV support for use by MBX s
 8e5218199da48913960a0ce7e22193020dc23891 eth fbnic: Add mailbox self test
 05e059510edf7b6101ff85db2a2e2d1b6f31ee6d Merge branch 'eth-fbnic-add-fbnic-self-tests'
 
---===============2571298536731615282==--
+--===============7825400554134761373==--
