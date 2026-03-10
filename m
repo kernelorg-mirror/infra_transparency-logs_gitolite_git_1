@@ -1,50 +1,50 @@
-Content-Type: multipart/mixed; boundary="===============4578762986931059508=="
+Content-Type: multipart/mixed; boundary="===============7689291319184169783=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Tue, 10 Mar 2026 15:52:32 -0000
-Message-Id: <177315795236.1854591.1729139078464337073@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Tue, 10 Mar 2026 15:52:35 -0000
+Message-Id: <177315795575.1854729.9233071514858827326@gitolite.kernel.org>
 
---===============4578762986931059508==
+--===============7689291319184169783==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-7.0
+  - ref: refs/heads/spi-7.0
     old: 111e2863372c322e836e0c896f6dd9cf4ee08c71
     new: e53c0e99fd93da200c413deb57875f9f5fdb314a
     log: |
          e53c0e99fd93da200c413deb57875f9f5fdb314a spi: cadence-qspi: Fix requesting of APB and AHB clocks on JH7110
          
 
---===============4578762986931059508==
+--===============7689291319184169783==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1773157950 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
-nonce 1773157950-061b520318c999be72c93a66d1350ddf86ebddf4
+pusher C3F436CA30F5D8EB 1773157954 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1773157953-62de7b4efcdb9d69d45041fefad669d68e2c90e5
 
-111e2863372c322e836e0c896f6dd9cf4ee08c71 e53c0e99fd93da200c413deb57875f9f5fdb314a refs/heads/for-7.0
+111e2863372c322e836e0c896f6dd9cf4ee08c71 e53c0e99fd93da200c413deb57875f9f5fdb314a refs/heads/spi-7.0
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmmwPj4ACgkQJNaLcl1U
-h9B/YAf/XjH8hWxNdsPizT1dZvJqCYz0XrIAryFyefgZ8WEj7Y5jHuL5XQa3aFTW
-nGOH3HFJjUMIyrgWHZU+0YuSoHo+o1SSkqpiG6ZOktv4KFAQaqMrdU0GxXFfUfg1
-SaorX0V2kMEoVYraQwPAyv8iZfM++k40x5t9i+5EvJ0dH/msjNxT0NeEDAyhn+GP
-PdC4jdbMzaHeVQjCVI7EQIio/KIf0cck8866BZJFXXBddyXayBLj78a5dpDIJPvE
-P3yZJHjMBqPYOtWRwrXZlPAbTZ1TlpHKZfkar3W7Xe5oC8jF5YFmnEWhQEHMlj0B
-IlEQtznUy2eW+mCZk/eCIKaVDpocig==
-=qu3h
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmmwPkIACgkQJNaLcl1U
+h9BBwwf/RoVldGn2/W0V4eHW+dAE98G6uFIImq0l1uCLEQS10aTZmhgjmz5NejqZ
+0gu/LdYhZ0JrqYMhdp81me1O9vjxYTV5cKZSLeSFonE0/fI7zG8t5kPcgMS9BxEH
+uZ0pwiQfpdkXnb1l5itnNjQxXdCijBRWSZSbhN4ZOr+8UN09MnG+FdRNUfSoS29Y
+9sxX8PNZ36wrJ+MuJ7pUrrQKZxq3LCSVQ14OOTJEWk+B11RwwEs/OQZuxNqaioYG
+zJjpJu26E9VSSvqrnpoT8yGEdo+UA7db/dBY0g6Lo8ByO50RIl7ikwhQT4XSR35Q
+RVovQ//4Tewv+f9C2vriVzas3ohfeQ==
+=RTs/
 -----END PGP SIGNATURE-----
 
---===============4578762986931059508==--
+--===============7689291319184169783==--
