@@ -1,53 +1,78 @@
-Content-Type: multipart/mixed; boundary="===============0835566337732546760=="
+Content-Type: multipart/mixed; boundary="===============2185889522128768962=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Wed, 11 Mar 2026 14:47:40 -0000
-Message-Id: <177324046067.3081579.7175712769642856170@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
+Date: Wed, 11 Mar 2026 14:49:45 -0000
+Message-Id: <177324058525.3082553.8831888114011573411@gitolite.kernel.org>
 
---===============0835566337732546760==
+--===============2185889522128768962==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: bp
+repo: pub/scm/linux/kernel/git/gregkh/usb
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/timers/vdso
-    old: f7178f159b2a36d070fd43b0d751e4e4415ec39e
-    new: bed0053a6303d908266aaaabf4fa96e2d02a4abc
-    log: revlist-f7178f159b2a-bed0053a6303.txt
+  - ref: refs/heads/usb-testing
+    old: 99df63d20dabda8d7ae01bcca7cdb1e92110a555
+    new: 322a81d35ecdf9997c3bbf676e3547d75f38935a
+    log: revlist-99df63d20dab-322a81d35ecd.txt
 
---===============0835566337732546760==
+--===============2185889522128768962==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f7178f159b2a-bed0053a6303.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-a657bebd7f02d0ec1ddb08c1d8c572fe1e187f9c vdso/gettimeofday: Add a helper to test if a clock is namespaced
-0c02d6df15d4bf7376a965b66d92ad31b0e458fd vdso/gettimeofday: Move the unlikely() into vdso_read_retry()
-b18ec8b5e0ceb311d860c6521a00056a60cbd5b1 arm64: vDSO: gettimeofday: Explicitly include vdso/clocksource.h
-2b8cf39d7e0b4964d27f499e74aed7e5e06dafd4 arm64: vDSO: compat_gettimeofday: Add explicit includes
-89e6796fa530a90059c63b7c02e54a426d278c9b ARM: vdso: gettimeofday: Add explicit includes
-3852dd5abc306a64060266a20b64d46a3037b735 powerpc/vdso/gettimeofday: Explicitly include vdso/time32.h
-9c89d8bd64b8c03ad3d5b6fd52550b8773a12669 powerpc/vdso: Explicitly include asm/cputable.h and asm/feature-fixups.h
-55434071cdcf50f6c2da9a9ecafb32465fb3bf13 LoongArch: vDSO: Explicitly include asm/vdso/vdso.h
-a9d7e1ea5897477d704bd03eaa93d19634e90523 MIPS: vdso: Add include guard to asm/vdso/vdso.h
-5dca096e865fbf37febb4dde26d9a52288da6db3 MIPS: vdso: Explicitly include asm/vdso/vdso.h
-32bd966050486d3fed6980aa3de3e60b9e383589 random: vDSO: Add explicit includes
-9fc2232e285bbd3d71c251376255d7fb2ae34f73 vdso/gettimeofday: Add explicit includes
-8bd49acb4e81d2859f66a30e8edfd984f91c6c9c vdso/helpers: Explicitly include vdso/processor.h
-750d8cc84901757d9e5fe96207f5aa6b3e2acf92 vdso/datapage: Remove inclusion of gettimeofday.h
-f5e386fe5f1c26b24fb9ffc616f8e857f43cf88d vdso/datapage: Trim down unnecessary includes
-fc880ff14acd49202c83b569316bd19c6a037a91 random: vDSO: Trim vDSO includes
-260b98f75b618aa209998557dbd1d13dbc64bc89 random: vDSO: Remove ifdeffery
-5abfa0c4da3bdcc53597127be7cd4054812b0383 Revert "selftests: vDSO: parse_vdso: Use UAPI headers instead of libc headers"
-50692c25ee2e8f9093ec3409ee43b342d9d07775 selftests: vDSO: vdso_test_gettimeofday: Remove nolibc checks
-ad2af7768fac884ede727d2a085bd78b8e13fdef selftests: vDSO: vdso_test_correctness: Drop SYS_getcpu fallbacks
-38bc16aa47dc89dc3753ee5359c7a7c15f7bf602 selftests: vDSO: vdso_test_correctness: Handle different tv_usec types
-a8b22a158a47e459d4d353600b1405391bbfb567 selftests: vDSO: vdso_test_correctness: Use facilities from parse_vdso.c
-bed0053a6303d908266aaaabf4fa96e2d02a4abc selftests: vDSO: vdso_test_correctness: Add a test for time()
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1773240582 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
+nonce 1773240582-5c819311002d112028ef2c32e0dc2278be247ba9
 
---===============0835566337732546760==--
+99df63d20dabda8d7ae01bcca7cdb1e92110a555 322a81d35ecdf9997c3bbf676e3547d75f38935a refs/heads/usb-testing
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmmxgQYbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+JRIP/3otyi3U3kzanA3CXyCa
+qqWlZr4mRaoNAGVEURi86d90QMAGg5wpSGPkoyv8goP8bqhBbj1YoWCgYP4UJmBg
+NBhCNRQdZTgFXYljPekyOvGg9aKiFM7Uu+TFfCVI8fxMiF1n2ABMVZ/isR0ICorw
+Y3EIw41jdnHN0EEO/FYbvWjX8Sb44BHZWBNYfGZDrTSapLT6jSjooTBI23ZCrldR
+WFHJkvQvPNmhB3IWzInoajrOU8L8CT3MjVOPPIejIp9uaYEXN2n5f3Qo/d16UoIF
+Qa0yrLvc1PR87YpjoIxZlOamHy0a9PP5D0RaWr3xULiaZa+cDH9fS3A0MTw+kgWU
+E9dko4nHeDiB50QzPsGzn2851/EYhgdxnrlx0BXkBl3ukVQabyzeSvsqvXIh3hJ7
+HhJBpRVSB7GP4IV/d/N3IxEf0xIuNAnM7s1Lcjd7bV83p/+kl3o5Ty5R2p8R6WXt
+8g/em5a7vOU7LwibRH39MVgg8huFLO8xIKobJPIcZrvJqhZP0qhMpuS2Rwid/xC1
+1Nt9CjAMK1xXTlCMA920X/kDI+3YCyRFpW4z5ttQgXB+3PVEwueA+zuFkHFJF/pE
+tmmHqpGHWbqCe8fI8QZLnWss3pfetgVJ4nxz2ExyZ5s2UyTfdzDVv4dO5WHHqZ+A
+bGOMkIyXB9iE3V23UiZE7qFC
+=QC5D
+-----END PGP SIGNATURE-----
+
+--===============2185889522128768962==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-99df63d20dab-322a81d35ecd.txt
+
+78bf06db167b1cddc7f46c2d30c11cca8e32b5d8 usb: typec: ucsi: Invoke ucsi_run_command tracepoint
+0313023f19054f2d267382e04d0c00988640e9f0 USB: typec: tcpci: Make tcpci_pm_ops variable static
+f2529d08fcb429ea01bb87c326342f41483f8b2f usb: typec: Fix error pointer dereference
+a53b4f9c51a90a556bca129d632b81f49b1a4061 usb: typec: mux: avoid duplicated orientation switches
+b145c3f29d62f71cc9d2d714e2d4ae4c8d3f863d usb: typec: mux: avoid duplicated mux switches
+c384f7ad44f940c2d054bbe4c06840e2073af788 USB: serial: ti_usb_3410_5052: Use safer strscpy() instead of strcpy()
+786bf7ef564e97f195a2fca379fa7866a4c3ea08 usb: musb: Use safer strscpy() instead of strcpy()
+224fb8661f66a58530564a2cdce42b219adde4cb usb: gadget: functionfs: Use safer strscpy() instead of strcpy()
+2131540de4adc8eb7960ebea9915694ec0ce430d usb: typec: tcpm: Use safer strscpy() instead of strcpy()
+9b4051a47da5050ba349b630494cf5ee3d5aa1e1 usb: gadget: udc: Use safer strscpy() instead of strcpy()
+8f196a359e1b4f80d360c57ed32bec15d5dd8e0e usbip: vhci_sysfs: Use safer strscpy() instead of strcpy()
+cd763789d31adac7f38131c5b2892d7a5562a1ee dt-bindings: usb: document the Etek ET7304 USB Type-C Port Controller
+ec53fe37a56044a1a8e7751d05b13385fb30741f usb: typec: tcpm: Add vid and chip info for Etek ET7304
+d6a093c3bf0e4e073b87022ac34b261979325228 usb: endpoint: drop custom sysfs attribute structure
+ef22555fbee7c284a6ab55238fcbe4eea9dbb2a4 dt-bindings: connector: Add sink properties to comply with PD 3.1 spec
+b558a9cc107287bd49bd9256e5d965afa80acfd6 usb: typec: tcpm: add support for Sink Cap Extended msg response
+322a81d35ecdf9997c3bbf676e3547d75f38935a dt-bindings: usb: maxim,max3421: convert to DT schema
+
+--===============2185889522128768962==--
