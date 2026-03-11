@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kvmarm/kvmarm
-Date: Wed, 11 Mar 2026 16:58:54 -0000
-Message-Id: <177324833443.3192247.13869491903292649956@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/remoteproc/linux
+Date: Wed, 11 Mar 2026 17:14:25 -0000
+Message-Id: <177324926569.3204065.231364119126140912@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kvmarm/kvmarm
-user: maz
+repo: pub/scm/linux/kernel/git/remoteproc/linux
+user: mjp
 changes:
-  - ref: refs/heads/next
-    old: c84ebda4050f1a0c7283dd3d3b82f41cb2e72a18
-    new: 455baa581922086f1ad44c76d4a3b03c265ee950
+  - ref: refs/heads/rproc-next
+    old: 664b6b3ca5766ce487b80601f356a58d92b483b7
+    new: 38dd6ccfdfbbe865569a52fe1ba9fa1478f672e6
     log: |
-         ce6a2badf58170bcf73489cd73981bb5775c1e22 KVM: arm64: Fix out-of-tree build for nVHE/pKVM tracing
-         455baa581922086f1ad44c76d4a3b03c265ee950 Merge branch kvm-arm64/hyp-tracing into kvmarm-master/next
+         d20c27dc8141c90a27927b1343ec2131f864fbb3 remoteproc: xlnx: Avoid mailbox setup
+         38dd6ccfdfbbe865569a52fe1ba9fa1478f672e6 remoteproc: xlnx: Only access buffer information if IPI is buffered
          
