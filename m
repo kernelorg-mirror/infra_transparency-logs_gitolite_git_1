@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
-Date: Wed, 11 Mar 2026 08:46:35 -0000
-Message-Id: <177321879579.2797363.9326315251860020204@gitolite.kernel.org>
+Date: Wed, 11 Mar 2026 08:47:45 -0000
+Message-Id: <177321886540.2797928.12136335397033119708@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,11 +11,9 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/brgl/linux
 user: brgl
 changes:
-  - ref: refs/heads/gpio/for-next
-    old: 8f0aecf2957e7dba78603544368846133bf6d22e
-    new: b4784adfe3aab3e74b5f7556834d87e416b666d0
+  - ref: refs/heads/gpio/for-current
+    old: 189645ba9cd9c1eed45151aacaae4347c1eb86a7
+    new: 6df6ea4b3d1567dbe6442f308735c23b63007c7f
     log: |
-         0258fe8721f541bbd3949cac2f4971b98e1fe4ed gpio: bcm-kona: reduce the number of memory allocations
-         223d9a310c7bd785f08320de8d2b66a5af6a25e6 gpio: htc-egpio: allocate irq with the main struct
-         b4784adfe3aab3e74b5f7556834d87e416b666d0 gpio: tegra186: allocate irqs with the main struct
+         6df6ea4b3d1567dbe6442f308735c23b63007c7f gpiolib: clear requested flag if line is invalid
          
