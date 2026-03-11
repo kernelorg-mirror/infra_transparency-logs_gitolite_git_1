@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kvmarm/kvmarm
-Date: Wed, 11 Mar 2026 17:32:57 -0000
-Message-Id: <177325037756.3220467.15212585091092591822@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Wed, 11 Mar 2026 18:13:18 -0000
+Message-Id: <177325279833.3275358.1643731544917751433@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kvmarm/kvmarm
-user: maz
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: andrii
 changes:
-  - ref: refs/tags/kvmarm-fixes-7.0-3
-    old: 0000000000000000000000000000000000000000
-    new: 189945717d8d02f9ebdfe17737e3deb7ec88f36e
+  - ref: refs/heads/master
+    old: c02e0ab8aeeca716948d06a88993c470e4fbe426
+    new: ca0f39a369c5f927c3d004e63a5a778b08a9df94
+    log: |
+         ca0f39a369c5f927c3d004e63a5a778b08a9df94 selftests/bpf: Fix const qualifier warning in fexit_bpf2bpf.c
+         
