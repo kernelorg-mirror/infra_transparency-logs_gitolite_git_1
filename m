@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/i3c/linux
-Date: Wed, 11 Mar 2026 21:59:05 -0000
-Message-Id: <177326634554.3480592.1705585878297872760@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
+Date: Wed, 11 Mar 2026 22:06:31 -0000
+Message-Id: <177326679145.3487817.3314499413452893768@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/i3c/linux
-user: abelloni
+repo: pub/scm/linux/kernel/git/tnguy/next-queue
+user: tnguy
 changes:
-  - ref: refs/heads/i3c/next
-    old: 5912baff068a9c2c85f0ef000a7c0b7b23ff5d21
-    new: fe47fb62cf322318922ddc973f5add4ad32a2287
+  - ref: refs/heads/dev-queue
+    old: 32dfb5dcb8ba69c1a7ba3ac330758f818a8130cb
+    new: c1771f28b5263fd1c1a10a1a7dc682d75e8cb607
     log: |
-         fe47fb62cf322318922ddc973f5add4ad32a2287 i3c: master: Add sysfs option to rescan bus via entdaa
+         c1771f28b5263fd1c1a10a1a7dc682d75e8cb607 idpf: only assign num refillqs if allocation was successful
          
