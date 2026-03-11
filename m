@@ -1,51 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============4763617038401257254=="
+Content-Type: multipart/mixed; boundary="===============3408373340598337188=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
-Date: Wed, 11 Mar 2026 00:08:30 -0000
-Message-Id: <177318771038.2329073.1284472324746505514@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Wed, 11 Mar 2026 00:08:33 -0000
+Message-Id: <177318771369.2329185.10282147688834595284@gitolite.kernel.org>
 
---===============4763617038401257254==
+--===============3408373340598337188==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regulator
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-7.0
+  - ref: refs/heads/regulator-7.0
     old: 2d85ecd6fb0eb2fee0ffa040ec1ddea57b09bc38
     new: 21b3fb7dc19caa488d285e3c47999f7f1a179334
     log: revlist-2d85ecd6fb0e-21b3fb7dc19c.txt
 
---===============4763617038401257254==
+--===============3408373340598337188==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1773187708 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/regulator.git
-nonce 1773187708-5f37e330f0960be25b0539bb99a9d47e19ab0dc0
+pusher C3F436CA30F5D8EB 1773187712 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1773187711-100e776c74d247f19d57193d58a996e3b67034d5
 
-2d85ecd6fb0eb2fee0ffa040ec1ddea57b09bc38 21b3fb7dc19caa488d285e3c47999f7f1a179334 refs/heads/for-7.0
+2d85ecd6fb0eb2fee0ffa040ec1ddea57b09bc38 21b3fb7dc19caa488d285e3c47999f7f1a179334 refs/heads/regulator-7.0
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmmwsnwACgkQJNaLcl1U
-h9A1iwf9G5LQsSw20naoBkBsqDdZhJZY4uFJQK8taznlsCfP574s0gbilp5Nhf2P
-e7fcG8w+bnwCDKuFk6yg/lSHJyTBKG5QIddvJNTuxcC9ooZFZpqL7S8wpVHU7CUT
-DgsWA7Lysxu7tuBkjy+ekrXX8eAb0jKUzLRNIeW/PNn/YCOQjsYn6B6uz4lmXhKM
-dAcGUBZorLO9pOsRL1LrA6NBJttZ7ju6SsvQm9aqr6ZjvqGHBAk1VNas3z5KwsSn
-Hz4e8Lq1YH14etMS1eRQ3aHllIFftPJJaYy/c4MaZQvXB+vjZ6F8x4iKY0njJIxX
-xZbCGjNANhv6/vVPVWKG0HQ5VYAkxw==
-=UA03
+iQEyBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmmwsoAACgkQJNaLcl1U
+h9BbOAf3a7Rb3PHX3UGiNeUPRj7fIZb06Fg2spDNMUG1wVKoENG0MSwAefbtOyzP
+EaPjZ3zmWl2PHw6FrP3RU+6w27ee52utDFDwzp2WPxA5P5eQz90C4SlJLL0A8k6i
+v35aBIKQNIv9ZuOmHZA/QK0hCsS5j+T3AxJy64IHlXCaL554bPcevRK4pTXCxDW8
+9Fxa+/fD3yk6y8xnXZ/oGhdcfPGiRM0NDHAs3aPWzfFs8e8sa3G6qGq+puPvipQD
+oekM3TYRVah03sBwPPK9f+vDQ3lwz6OmxDE8Ff7xWwGXNUFPGAX5dnq1/0HqZq6o
+8oMzwzcI+M/EBbQIP8mMWLe2IjTl
+=T1Ix
 -----END PGP SIGNATURE-----
 
---===============4763617038401257254==
+--===============3408373340598337188==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -589,4 +589,4 @@ fc9f248d8c591454e257edd54ac4085d84f11e6a Merge tag 'efi-fixes-for-v7.0-2' of git
 5d0efaf47ee90ac60efae790acee3a3ed99ebf80 regulator: pca9450: Correct interrupt type
 21b3fb7dc19caa488d285e3c47999f7f1a179334 regulator: pca9450: Correct probed name for PCA9452
 
---===============4763617038401257254==--
+--===============3408373340598337188==--
