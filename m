@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
-Date: Wed, 11 Mar 2026 22:56:46 -0000
-Message-Id: <177326980609.3527448.9546733359756674427@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/b4/b4
+Date: Wed, 11 Mar 2026 23:22:19 -0000
+Message-Id: <177327133965.3546767.17484650295038840969@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
-Content-Transfer-Encoding: 7bit
+Content-Transfer-Encoding: 8bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/25-new
-user: akpm
+repo: pub/scm/utils/b4/b4
+user: mricon
 changes:
   - ref: refs/heads/master
-    old: a574b412aa8705626fb5f160acb83d069b9693f2
-    new: 137624d3e365b7d99f3df87e8a29822929e61284
+    old: db209839dfe0be22e8f129335e6c9204d12d1e03
+    new: 5874e1702b6e409fd893b536d83b92d1381c5802
     log: |
-         fb306021f1ed1f84d1d6fdfeff3c15e98daca1a4 foo
-         137624d3e365b7d99f3df87e8a29822929e61284 foo
+         7f42856efe82829aa009a8a5b47a338d73406ffd review: allow new → waiting state transition without review checkout
+         5874e1702b6e409fd893b536d83b92d1381c5802 review: fix title bar flash when refreshing tracking list
          
