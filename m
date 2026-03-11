@@ -1,49 +1,70 @@
-Content-Type: multipart/mixed; boundary="===============8077502373627077727=="
+Content-Type: multipart/mixed; boundary="===============1066535543617377094=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jejb/scsi
-Date: Wed, 11 Mar 2026 23:27:04 -0000
-Message-Id: <177327162411.3552335.11666939924749327724@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ast/bpf
+Date: Wed, 11 Mar 2026 23:57:21 -0000
+Message-Id: <177327344153.3574846.1863054624848811244@gitolite.kernel.org>
 
---===============8077502373627077727==
+--===============1066535543617377094==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jejb/scsi
-user: jejb
+repo: pub/scm/linux/kernel/git/ast/bpf
+user: ast
 changes:
-  - ref: refs/heads/for-next
-    old: c37e87f29f2911c1258d68238c0992c15e21d34b
-    new: 77062381b8a8e54a77ae5d5db29010764f53220c
-    log: revlist-c37e87f29f29-77062381b8a8.txt
+  - ref: refs/heads/stacklive
+    old: 451dae91e936eabf218d6a1041251b3627894840
+    new: d30fd5f8714f29493bbd4fb084bb914d9e576ac7
+    log: revlist-451dae91e936-d30fd5f8714f.txt
 
---===============8077502373627077727==
+--===============1066535543617377094==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c37e87f29f29-77062381b8a8.txt
+Content-Disposition: attachment; filename=revlist-451dae91e936-d30fd5f8714f.txt
 
-5e0d4fdb98f3ab4c25aabda00b31dd5d4a806638 scsi: lpfc: ELIMINATE kernel-doc warnings in lpfc.h
-cf44b6369b8350e46e66bb69ef975c5aa22cec5e scsi: ufs: qcom,sc7180-ufshc: dt-bindings: Document the Milos UFS Controller
-690d41fae92f0f255b1059d586bf064c63b5bfc3 scsi: ufs: qcom,sc7180-ufshc: dt-bindings: Add UFSHC compatible for x1e80100
-94c125bafa00042daf6d63b4fdd78384abc121fc scsi: core: Add 'serial' sysfs attribute for SCSI/SATA
-3033c471aaf675254efaa0da431e95d91a104b41 scsi: sg: Fix sysctl sg-big-buff register during sg_init()
-d06a310b45e153872033dd0cf19d5a2279121099 scsi: sg: Resolve soft lockup issue when opening /dev/sgX
-50209dec14f8c594a9ef26237b7e7ddd39e12a40 scsi: sg: Remove deprecated sg-big-buff
-7179e626b76eb42f2529c6f6dd6ba88ea2445372 scsi: sd: Enable sector size > PAGE_SIZE in SCSI sd driver
-06933066d88a3093953b062922c016a67d2cdbf8 scsi: target: Add support for completing commands from backend context
-89663fb2e53822863de9cf4bca9636989da96615 scsi: target: Use driver completion preference by default
-e1502d990c8e26fa679b3253ff7db51483e6eb82 scsi: target: Allow userspace to set the completion type
-a4d72d2dd0cbc3ff20f66a9168dd68b191c57409 scsi: vhost-scsi: Report direction completion support
-1bf5c303eb9898930c5313769df14a76c51075c1 Merge patch series "scsi: target: Add support for completing commands from backend context"
-4ce7ada40c008fa21b7e52ab9d04e8746e2e9325 scsi: core: Fix error handling for scsi_alloc_sdev()
-b0bd84c39289ef6a6c3827dd52c875659291970a scsi: ufs: core: Fix SError in ufshcd_rtc_work() during UFS suspend
-c0b7da13a04bd70ef6070bfb9ea85f582294560a scsi: qla2xxx: Completely fix fcport double free
-8ddc0c26916574395447ebf4cff684314f6873a9 scsi: hisi_sas: Fix NULL pointer exception during user_scan()
-23cff0d18fa27412ca7a202127d2c7751aa798cf Merge branch 'fixes' into for-next
-77062381b8a8e54a77ae5d5db29010764f53220c Merge branch 'misc' into for-next
+16d9c5660692d6f0e6aba367274de2b6dfd4343c bpf: Always allow sleepable programs on syscalls
+20c2e102a2f30e7e47cba9816ab226de296e8e57 bpf: Always allow fmod_ret programs on syscalls
+fcec7c66d68165b69b3cef6af913a435a25e36a1 selftests/bpf: Move sleepable refcounted_kptr tests to syscalls
+bd2e02e3c9215305dfa344c050d5822f19929cf7 Merge branch 'always-allow-sleepable-and-fmod_ret-programs-on-syscalls'
+2f4cb53eed448c1aeb6f4b40cf9c810716d8218c bpf: detect non null pointer with register operand in JEQ/JNE.
+6a1c9a442f634e7b95c5ad0927870335b1ce299e selftests/bpf: tests to non_null ptr detection using register operand in JEQ/JNE
+437350df8640bf0535b74a3d8bade6f707940027 Merge branch 'bpf-support-for-non_null-ptr-detection-with-jeq-jne-with-register-operand'
+a8fce027e17b0a99a8f9732f271ed505aa7a2940 selftests/bpf: Remove kmem subtest from cgroup_iter_memcg
+da99028c21137ac13925836d3819c2977694d173 selftests/bpf: Use bpf_core_enum_value for stats in cgroup_iter_memcg
+0c55d4817aff454cfaded4f161ab13f2049758a9 Merge branch 'fix-test_cgroup_iter_memcg-issues-found-during-back-porting'
+e95e85b8914be1c951a1ead34b1353592719e26e selftests/bpf: Handle !CONFIG_SMC in bpf_smc.c
+900b7cc73ce9e6a1539d43f5c060c953f7eaf83b selftests/bpf: Speed up module_attach test
+70ce840d5f5bc7ae8a467c34a8fc15c1162ffee7 selftests/bpf: filter by pid to avoid cross-test interference
+aa181c7d642cf10c31d53f73754795b6e5d88785 selftests/bpf: drop serial restriction
+c02e0ab8aeeca716948d06a88993c470e4fbe426 selftests/bpf: Skip livepatch test when prerequisites are missing
+ca0f39a369c5f927c3d004e63a5a778b08a9df94 selftests/bpf: Fix const qualifier warning in fexit_bpf2bpf.c
+a68d5b8cadb61388e7a0e63813fb95075654723c bpf: Sort subprogs in topological order after check_cfg()
+4b883920027bcbd48ee2d1ec88f9b52863962bfd selftests/bpf: Add tests for subprog topological ordering
+ce579524bcc4d57efd253760d362acf4001fa00e bpf: Add compute_const_regs() pre-pass for constant register tracking
+45ab4ce8b415398df0d1f3a28d7a8e4e4efd31ad bpf: Add helper and kfunc stack access size resolution
+58e18c1ccc743e553ba1ef79eff1104e01d3d811 bpf: Add btf_type_snprintf() for printing BTF type signatures
+47f66e7e05780af1f0871500c324235c1a6fcd87 bpf: Add spis_*() helpers for 4-byte stack slot bitmasks
+4978f503095ab51677c60aa61c4e6121577ac219 bpf: Add per-subprog arg tracking analysis
+2a070e52b6e178059865e0b0c3bd4d83856380ca bpf: Record per-subprog argument memory accesses
+f849ce45d2e9b7274f567b221e2f7a10f7c77ced bpf: Add inter-procedural callee access folding
+3563d477183664c3c43cc16e9d405c4570205c48 bpf: Add backward arg liveness analysis
+3939d2736ae6c47651c2abc2a9d850faa548b78b bpf: Add forward FP-offset tracking in compute_stack_access()
+3e705a1bc2aedfba15ac11d72ca546ba70783ea2 bpf: Resolve stack access from FP-derived pointers
+e621b02aeed7dc7107967b11638c310814ba1dae bpf: Use static stack liveness for verifier state pruning
+60015e653fcdf6876e401be7c84f253e8e462fa9 selftests/bpf: Update tests for static stack liveness output
+355085d9261d5b1641491a616ada7f20fad047ef selftests/bpf: Add tests for static stack liveness analysis
+eb4fbd968b1b32fb56d92dd39f8a361c6bec7390 bpf: Remove old dynamic stack liveness infrastructure
+490e984dd68474a5079c79254f422b77c6e89110 selftests/bpf: Test that zero->misc promo is unsafe
+a293b1101a06ce9fa4c1f5d24e96ebf24118ae6f selftests/bpf: Add convergence test for arg_track dataflow join
+0b14b4fb6617d3892245da6025259901ca09bd55 selftests/bpf: Tests for 4-byte stack slots
+d8df7621992e1745fa7e15a526399fb7db8a7a1e selftests/bpf: Check pruning across subprog calls
+85c71302c1be499df3fc6b6fcbf063fa13b5dd70 selftests/bpf: 2nd add kills liveness
+c650f7ebbf6962864a241aaa50ea017bdc26f469 selftests/bpf: dead_spill_at_merge_enables_pruning
+c5ea54eadcb7d2f42e24fd118360af1d211753fb selftests/bpf: fp_spill_loses_precision_kills_liveness
+d30fd5f8714f29493bbd4fb084bb914d9e576ac7 fp_off removal
 
---===============8077502373627077727==--
+--===============1066535543617377094==--
