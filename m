@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/cip/linux-cip
-Date: Wed, 11 Mar 2026 08:01:12 -0000
-Message-Id: <177321607223.2743849.2646194634800697249@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kbuild/linux
+Date: Wed, 11 Mar 2026 08:07:23 -0000
+Message-Id: <177321644366.2765864.11622162685389319883@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/cip/linux-cip
-user: uli
+repo: pub/scm/linux/kernel/git/kbuild/linux
+user: nathan
 changes:
-  - ref: refs/notes/signatures/tar
-    old: 2b631bf224668e35ebee203d3e0abf8d09f1f6fe
-    new: e15a3a8dab57968ee7a38841bc09d774b08a6080
+  - ref: refs/heads/kbuild-fixes-unstable
+    old: 3b4a3a00de8770f3a60c1fa483921ce37415132d
+    new: 775af5cbb22c1de2ad0f486959739c35cfc55ac8
     log: |
-         e15a3a8dab57968ee7a38841bc09d774b08a6080 Notes added by 'git notes add'
+         5f47be1b44bf2754c45e8c58ca036b474c9ecbc7 scripts: kconfig: merge_config.sh: pass output file as awk variable
+         775af5cbb22c1de2ad0f486959739c35cfc55ac8 scripts: kconfig: merge_config.sh: fix indentation
          
