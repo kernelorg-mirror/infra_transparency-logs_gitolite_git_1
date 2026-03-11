@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7551788826722348327=="
+Content-Type: multipart/mixed; boundary="===============2700440066365984339=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs
-Date: Wed, 11 Mar 2026 09:30:47 -0000
-Message-Id: <177322144741.2835166.9801055788026522716@gitolite.kernel.org>
+Date: Wed, 11 Mar 2026 09:33:51 -0000
+Message-Id: <177322163147.2836198.8936915392118651937@gitolite.kernel.org>
 
---===============7551788826722348327==
+--===============2700440066365984339==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/xiang/erofs
 user: xiang
 changes:
-  - ref: refs/heads/dev-test
+  - ref: refs/heads/fixes
     old: ba76ecf45d4772d2bee316bb5912d7f4f91b6334
     new: 05597eb7a57a310ea78db20e3a95526a845b167e
     log: revlist-ba76ecf45d47-05597eb7a57a.txt
 
---===============7551788826722348327==
+--===============2700440066365984339==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -566,4 +566,4 @@ fc9f248d8c591454e257edd54ac4085d84f11e6a Merge tag 'efi-fixes-for-v7.0-2' of git
 443d3a701b300bd22365140c5e7ab8e28ef99162 erofs: set fileio bio failed in short read case
 05597eb7a57a310ea78db20e3a95526a845b167e erofs: add GFP_NOIO in the bio completion if needed
 
---===============7551788826722348327==--
+--===============2700440066365984339==--
