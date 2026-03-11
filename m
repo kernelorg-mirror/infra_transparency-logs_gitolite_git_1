@@ -1,27 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Wed, 11 Mar 2026 18:56:45 -0000
-Message-Id: <177325540533.3331818.2670368982384919087@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/leon/linux-rdma
+Date: Wed, 11 Mar 2026 19:05:22 -0000
+Message-Id: <177325592231.3339298.9238994049900062357@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
-user: broonie
+repo: pub/scm/linux/kernel/git/leon/linux-rdma
+user: leon
 changes:
-  - ref: refs/heads/for-linus
-    old: 85b731ad4bbf6eb3fedf267ab00be3596f148432
-    new: 743956bb9990214ff1dac66ef59e27221dc3c2d8
+  - ref: refs/heads/dma-debug-overlap-v2
+    old: 110986318f912607efc43ab0110f4f3858a5f23e
+    new: 6cb9ec064c24d994c86369ddf28f156146115085
     log: |
-         743956bb9990214ff1dac66ef59e27221dc3c2d8 spi: dt-bindings: sun6i: Allow Dual SPI and Quad SPI for newer SoCs
-         
-  - ref: refs/heads/for-next
-    old: d02a48c82e4c2bcadcf9a139510777097418c6ff
-    new: 5e8d78f9aaafbed07e096831cb23758e36a01346
-    log: |
-         743956bb9990214ff1dac66ef59e27221dc3c2d8 spi: dt-bindings: sun6i: Allow Dual SPI and Quad SPI for newer SoCs
-         97545e37234fdbe457f5104a09f55033550b3d84 spi: atcspi200: Use helper function devm_clk_get_enabled()
-         5e8d78f9aaafbed07e096831cb23758e36a01346 Merge remote-tracking branch 'spi/for-7.1' into spi-next
+         2b7d1601a0e04a96cd79f106124b017ea6a8c9b8 dma-direct: prevent SWIOTLB path when DMA_ATTR_REQUIRE_COHERENT is set
+         f8268cc3178d09c7f8cb7aee45556574af848a52 iommu/dma: add support for DMA_ATTR_REQUIRE_COHERENT attribute
+         2808d026797b241acd2f214139ee349f486d1231 RDMA/umem: Tell DMA mapping that UMEM requires coherency
+         6cb9ec064c24d994c86369ddf28f156146115085 mm/hmm: Indicate that HMM requires DMA coherency
          
