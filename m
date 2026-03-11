@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6584184168013350397=="
+Content-Type: multipart/mixed; boundary="===============4142201908969568016=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/peter.chen/cix
-Date: Wed, 11 Mar 2026 03:04:03 -0000
-Message-Id: <177319824333.2475528.8330738084279945915@gitolite.kernel.org>
+Date: Wed, 11 Mar 2026 03:07:23 -0000
+Message-Id: <177319844361.2479168.9908427747232003687@gitolite.kernel.org>
 
---===============6584184168013350397==
+--===============4142201908969568016==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/peter.chen/cix
 user: peter.chen
 changes:
-  - ref: refs/heads/cix/dt
-    old: e39fadd6ef7b797e1db7bb7bf2ed9a1784632a8b
+  - ref: refs/heads/for-next
+    old: 4d24b32aa342e32f93ab8e73f0cce579502abec0
     new: b6812b03e30e6d15e0d5ce5f130e31b9f6689d8d
-    log: revlist-e39fadd6ef7b-b6812b03e30e.txt
+    log: revlist-4d24b32aa342-b6812b03e30e.txt
 
---===============6584184168013350397==
+--===============4142201908969568016==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-e39fadd6ef7b-b6812b03e30e.txt
+Content-Disposition: attachment; filename=revlist-4d24b32aa342-b6812b03e30e.txt
 
 2f81bdbdb3aa3fccd9b5420df5674730c40af554 Merge tag 'i3c/for-6.20' of git://git.kernel.org/pub/scm/linux/kernel/git/i3c/linux
 37b4fbf8dbdfb694f2972d1bd7fcd36304a520dd Merge tag 'tpmdd-next-7.0-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/jarkko/linux-tpmdd
@@ -1051,4 +1051,4 @@ fbf33803618ad4f531f78fe15cf328fe6c7f9978 Merge tag 'fsverity-for-linus' of git:/
 6de23f81a5e08be8fbf5e8d7e9febc72a5b5f27f Linux 7.0-rc1
 b6812b03e30e6d15e0d5ce5f130e31b9f6689d8d arm64: dts: cix: add support for cix sky1 resets
 
---===============6584184168013350397==--
+--===============4142201908969568016==--
