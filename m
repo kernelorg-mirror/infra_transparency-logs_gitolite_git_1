@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/remoteproc/linux
-Date: Wed, 11 Mar 2026 17:17:42 -0000
-Message-Id: <177324946290.3207820.8782636495584093290@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kvmarm/kvmarm
+Date: Wed, 11 Mar 2026 17:25:16 -0000
+Message-Id: <177324991646.3215075.2092751413280413982@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/remoteproc/linux
-user: mjp
+repo: pub/scm/linux/kernel/git/kvmarm/kvmarm
+user: maz
 changes:
-  - ref: refs/heads/for-next
-    old: 3d8efeed67bcbcdae9487f35b81d19ffaac8510f
-    new: e7b1fc363daa2df361f3056f7233151ec663e67b
+  - ref: refs/heads/fixes
+    old: 6da5e537f5afe091658e846da1949d7e557d2ade
+    new: a79f7b4aeb8e7562cd6dbf9c223e2c2a04b1a85f
     log: |
-         d20c27dc8141c90a27927b1343ec2131f864fbb3 remoteproc: xlnx: Avoid mailbox setup
-         38dd6ccfdfbbe865569a52fe1ba9fa1478f672e6 remoteproc: xlnx: Only access buffer information if IPI is buffered
-         e7b1fc363daa2df361f3056f7233151ec663e67b Merge branches 'rpmsg-next', 'rproc-fixes' and 'rproc-next' into for-next
+         a79f7b4aeb8e7562cd6dbf9c223e2c2a04b1a85f KVM: arm64: pkvm: Don't reprobe for ICH_VTR_EL2.TDS on CPU hotplug
          
