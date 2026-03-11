@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2007460513394593422=="
+Content-Type: multipart/mixed; boundary="===============4543065714546782418=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux
-Date: Wed, 11 Mar 2026 20:35:53 -0000
-Message-Id: <177326135396.3412849.15717793055580110700@gitolite.kernel.org>
+Date: Wed, 11 Mar 2026 20:36:00 -0000
+Message-Id: <177326136008.3413068.14031021294281209155@gitolite.kernel.org>
 
---===============2007460513394593422==
+--===============4543065714546782418==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,24 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/axboe/linux
 user: axboe
 changes:
-  - ref: refs/heads/master
-    old: b29fb8829bff243512bb8c8908fd39406f9fd4c3
-    new: 80234b5ab240f52fa45d201e899e207b9265ef91
-    log: revlist-b29fb8829bff-80234b5ab240.txt
+  - ref: refs/heads/for-next
+    old: 06548d1a8e580716afcce468dbb568ac9a4b6903
+    new: 110d733511b6d1630b0b8dea301bc6f8477b1a44
+    log: revlist-06548d1a8e58-110d733511b6.txt
+  - ref: refs/heads/io_uring-7.0
+    old: ccd7faede7312a3bda83339419a607632b346765
+    new: 6f02c6b196036dbb6defb4647d8707d29b7fe95b
+    log: |
+         96189080265e6bb5dde3a4afbaf947af493e3f82 io_uring: ensure ctx->rings is stable for task work flags manipulation
+         177c69432161f6e4bab07ccacf8a1748a6898a6b io_uring/eventfd: use ctx->rings_rcu for flags checking
+         6f02c6b196036dbb6defb4647d8707d29b7fe95b io_uring: fix physical SQE bounds check for SQE_MIXED 128-byte ops
+         
 
---===============2007460513394593422==
+--===============4543065714546782418==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b29fb8829bff-80234b5ab240.txt
+Content-Disposition: attachment; filename=revlist-06548d1a8e58-110d733511b6.txt
 
 f9b888599418951b8229bbb28851ed4da50c58e9 remoteproc: qcom_wcnss: Fix reserved region mapping failure
 b9e7e3ea605f23d342c67fc5bded99bcaa32d93b powerpc/e500: Always use 64 bits PTE
@@ -55,5 +63,12 @@ fde54f1a4dc7bfd83908380c0b4b6a830a0f9e01 powerpc: dts: mpc8315erdb: Add missing 
 35e4f2a17eb40288f9bcdb09549fa04a63a96279 powerpc/pseries: Correct MSI allocation tracking
 2b8e3fac9bac1f2bb67571a00bb58851826fe705 Merge tag 'powerpc-7.0-2' of git://git.kernel.org/pub/scm/linux/kernel/git/powerpc/linux
 80234b5ab240f52fa45d201e899e207b9265ef91 Merge tag 'rproc-v7.0-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/remoteproc/linux
+96189080265e6bb5dde3a4afbaf947af493e3f82 io_uring: ensure ctx->rings is stable for task work flags manipulation
+177c69432161f6e4bab07ccacf8a1748a6898a6b io_uring/eventfd: use ctx->rings_rcu for flags checking
+6f02c6b196036dbb6defb4647d8707d29b7fe95b io_uring: fix physical SQE bounds check for SQE_MIXED 128-byte ops
+1a0e4dd03e507b830e7ae9c79c7a68c632f38e2e Merge branch 'io_uring-7.0' into for-next
+a0a6ad7b52ac76b445663a52547992f64d04e742 Merge branch 'block-7.0' into for-next
+a53e9fcbc24a650759ec5d41c98ac5031d987e16 Merge branch 'for-7.1/block' into for-next
+110d733511b6d1630b0b8dea301bc6f8477b1a44 Merge branch 'for-7.1/io_uring' into for-next
 
---===============2007460513394593422==--
+--===============4543065714546782418==--
