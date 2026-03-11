@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============9202125077520556287=="
+Content-Type: multipart/mixed; boundary="===============2024654713488347293=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
-Date: Wed, 11 Mar 2026 15:05:44 -0000
-Message-Id: <177324154433.3097612.13137184806536152068@gitolite.kernel.org>
+Date: Wed, 11 Mar 2026 15:05:58 -0000
+Message-Id: <177324155834.3097879.17001869815781779153@gitolite.kernel.org>
 
---===============9202125077520556287==
+--===============2024654713488347293==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jlayton/linux
 user: jlayton
 changes:
-  - ref: refs/heads/exportd-netlink
-    old: 4a1ddf97bf703fb986fe162c4a3c52c6af3fc071
+  - ref: refs/heads/kdevops
+    old: 8d9c426dba873dd3665e01db8669d06557f13ab4
     new: e5eba88e8c830dc389eb6d987382dad002d823c1
-    log: revlist-4a1ddf97bf70-e5eba88e8c83.txt
+    log: revlist-8d9c426dba87-e5eba88e8c83.txt
 
---===============9202125077520556287==
+--===============2024654713488347293==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4a1ddf97bf70-e5eba88e8c83.txt
+Content-Disposition: attachment; filename=revlist-8d9c426dba87-e5eba88e8c83.txt
 
 50d7b4332f27762d24641970fc34bb68a2621926 mm: memfd_luo: always make all folios uptodate
 7e04bf1f33151a30e06a65b74b5f2c19fc2be128 mm: memfd_luo: always dirty all folios
@@ -75,4 +75,4 @@ d32db1e26ac117a340fd9f6a7ee8b74ad92b5965 nfsd: add new netlink spec for svc_expo
 fc4592a26577ccb11f2d166fe609d966e426450b nfsd: add netlink upcall for the svc_export cache
 e5eba88e8c830dc389eb6d987382dad002d823c1 nfsd: add netlink upcall for the nfsd.fh cache
 
---===============9202125077520556287==--
+--===============2024654713488347293==--
