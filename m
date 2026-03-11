@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/aalbersh/xfstests-dev
-Date: Wed, 11 Mar 2026 12:47:37 -0000
-Message-Id: <177323325704.2987752.4140978346775061262@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/liburing
+Date: Wed, 11 Mar 2026 12:52:03 -0000
+Message-Id: <177323352393.2991845.16843857270212540651@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/aalbersh/xfstests-dev
-user: aalbersh
+repo: pub/scm/linux/kernel/git/axboe/liburing
+user: axboe
 changes:
-  - ref: refs/heads/b4/fsverity
-    old: 0000000000000000000000000000000000000000
-    new: d915a46db04aaa8507e7ae3debd1a4240f9f7edf
+  - ref: refs/heads/master
+    old: 6f8e3c6163e1ba9984c295c611ad141c41505bad
+    new: a35e4943ec95af0aba795a58fd9d680a54406dc5
+    log: |
+         a35e4943ec95af0aba795a58fd9d680a54406dc5 test/sqe-mixed-boundary: validate physical SQE index for 128-byte ops
+         
