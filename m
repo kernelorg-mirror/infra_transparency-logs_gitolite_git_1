@@ -1,48 +1,57 @@
-Content-Type: multipart/mixed; boundary="===============4783480105203055840=="
+Content-Type: multipart/mixed; boundary="===============8299586964628448589=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vbabka/linux
-Date: Wed, 11 Mar 2026 18:23:34 -0000
-Message-Id: <177325341458.3297537.3641163163622666843@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Wed, 11 Mar 2026 18:25:41 -0000
+Message-Id: <177325354129.3305725.3938733484963453200@gitolite.kernel.org>
 
---===============4783480105203055840==
+--===============8299586964628448589==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vbabka/linux
-user: vbabka
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/broonie/spi
+user: broonie
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/b4/slab-memoryless-barns
-    old: 0000000000000000000000000000000000000000
-    new: cfe0b2b1d2d3d4bdc406f7b2cc052cf97834f321
+  - ref: refs/heads/for-7.0
+    old: 85b731ad4bbf6eb3fedf267ab00be3596f148432
+    new: 743956bb9990214ff1dac66ef59e27221dc3c2d8
+    log: |
+         743956bb9990214ff1dac66ef59e27221dc3c2d8 spi: dt-bindings: sun6i: Allow Dual SPI and Quad SPI for newer SoCs
+         
+  - ref: refs/heads/for-7.1
+    old: d1008a8e29b09ea57c77ddf82d688f8c2ea6cbe8
+    new: 97545e37234fdbe457f5104a09f55033550b3d84
+    log: |
+         97545e37234fdbe457f5104a09f55033550b3d84 spi: atcspi200: Use helper function devm_clk_get_enabled()
+         
 
---===============4783480105203055840==
+--===============8299586964628448589==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher A940D434992C2E8E99103D50224FA7E7CC82A664 1773253411 +0100
-pushee gitolite.kernel.org:pub/scm/linux/kernel/git/vbabka/linux.git
-nonce 1773253410-6946e00ce514ed1bf3033e4bd2be6174166d9fa0
+pusher C3F436CA30F5D8EB 1773253539 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
+nonce 1773253538-cd5e7e8f30aef853098e09713dbbcf2c2dfdcb29
 
-0000000000000000000000000000000000000000 cfe0b2b1d2d3d4bdc406f7b2cc052cf97834f321 refs/heads/b4/slab-memoryless-barns
+85b731ad4bbf6eb3fedf267ab00be3596f148432 743956bb9990214ff1dac66ef59e27221dc3c2d8 refs/heads/for-7.0
+d1008a8e29b09ea57c77ddf82d688f8c2ea6cbe8 97545e37234fdbe457f5104a09f55033550b3d84 refs/heads/for-7.1
 -----BEGIN PGP SIGNATURE-----
 
-iQFPBAABCAA5FiEEe7vIQRWZI0iWSE3xu+CwddJFiJoFAmmxsyMbFIAAAAAABAAO
-bWFudTIsMi41KzEuMTIsMiwyAAoJELvgsHXSRYiahWQH/2TVE7ikfO1nz7tD9TU7
-osg/kPiQ7hecrZD5WserYf1fZWdLnyi920zrGubxp8m6l92m5d6aLc2drFDAXqN9
-4VmkHXjGVimLWXSkm+ouu8Zmede2QBlNQGQ0nqvVYWj9/Lq1Co71J+MS/Q8mbLZU
-zW6Eh7s7tJ4oz8HtiNBkYERiycX1PRqBL6pxM9YXFLvPIr4du/rLOJs4tZWwe3EL
-goDGmCBakL2PfEqFQFu2rcEK+eZWAQOWV8gJD0QC1/qNKJ3ZlqZ2RXOLgR10BeTv
-dOuhbH9u8l5j3NohPtiH90/rBAcM0yWf5KtqbuvdlXWCwdyGuYG5rynFXv8rHL/b
-hjw=
-=JnKD
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmmxs6MACgkQJNaLcl1U
+h9BXkQf+KCPHOK84cq2eZotLAldLHsC0J+oZM/AYhTsPY3/mSOrI8RPo4uv0vPcu
+bWCXGdxxt3pGRaNjxp0jCQWJSSKhYMwtRwRq2QtrB0EXjar0IQHBiptim4tR6Tb4
+dovgimU4wYTcCwN5yUHrOb1OAFtGm4EumJqohQC45ZT/auxfKMAu5xqlJrakHRHK
+l4VKvJt3VSii6omKP7h2JuJNRiN0OFciDTW+Xc5lnWlkMtHTa1BG+GnkCcnGi2i7
+39Y69EhZVFN/ZUQKx03IchkjHSqd4rWft0daxDPjVHy/2IOGId2qb2UlwMpTeuyL
+MEC2bshEHs+pdTJ1OBjgm+af5NUWsQ==
+=d//A
 -----END PGP SIGNATURE-----
 
---===============4783480105203055840==--
+--===============8299586964628448589==--
