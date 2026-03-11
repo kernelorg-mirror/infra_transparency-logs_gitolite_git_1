@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
-Date: Wed, 11 Mar 2026 08:47:45 -0000
-Message-Id: <177321886540.2797928.12136335397033119708@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Wed, 11 Mar 2026 08:55:47 -0000
+Message-Id: <177321934736.2805125.5010003766182385866@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/brgl/linux
-user: brgl
+repo: pub/scm/linux/kernel/git/tip/tip
+user: tglx
 changes:
-  - ref: refs/heads/gpio/for-current
-    old: 189645ba9cd9c1eed45151aacaae4347c1eb86a7
-    new: 6df6ea4b3d1567dbe6442f308735c23b63007c7f
+  - ref: refs/heads/irq/drivers
+    old: d50590de0c646332713aa00a8be0012e089028e8
+    new: 5e72917802dd65ad1ff57f2158a9d221b4fddf0b
     log: |
-         6df6ea4b3d1567dbe6442f308735c23b63007c7f gpiolib: clear requested flag if line is invalid
+         5e72917802dd65ad1ff57f2158a9d221b4fddf0b irqchip/imx-irqsteer: Add NXP S32N79 support
          
