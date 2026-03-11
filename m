@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5445127087901410103=="
+Content-Type: multipart/mixed; boundary="===============1923732524065194451=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Wed, 11 Mar 2026 06:19:29 -0000
-Message-Id: <177320996945.2624705.17451219307451113702@gitolite.kernel.org>
+Date: Wed, 11 Mar 2026 06:19:47 -0000
+Message-Id: <177320998711.2624990.7249174396682471062@gitolite.kernel.org>
 
---===============5445127087901410103==
+--===============1923732524065194451==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,15 +16,46 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: 7726ce2287804e70b2bf2fc00f104530b603d3f3
-    new: 7bb140dfc28d3a45a59f228c0902dfd6f97c1c66
-    log: revlist-7726ce228780-7bb140dfc28d.txt
+    old: 7bb140dfc28d3a45a59f228c0902dfd6f97c1c66
+    new: 8d3f80adf317848a3e07a8a34502498efe687b23
+    log: revlist-7bb140dfc28d-8d3f80adf317.txt
+  - ref: refs/heads/tip/urgent
+    old: 9390ab2a4611bcc9cca6b8a815d219f0abc13c45
+    new: 3fd96a53d81188a2e7375b98f624362bbf4f2290
+    log: revlist-9390ab2a4611-3fd96a53d811.txt
 
---===============5445127087901410103==
+--===============1923732524065194451==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7726ce228780-7bb140dfc28d.txt
+Content-Disposition: attachment; filename=revlist-7bb140dfc28d-8d3f80adf317.txt
+
+0ca8ad9fb0fb42d42db2ceeab3cd0910ae385ecf Merge branch into tip/master: 'irq/urgent'
+95f97c3c9b4c9e5b27d5fb347a4a37aa788cd0e4 Merge branch into tip/master: 'objtool/urgent'
+3fd96a53d81188a2e7375b98f624362bbf4f2290 Merge branch into tip/master: 'x86/urgent'
+c904e754113af2761a3df9385fa0675ca4fb2283 Merge branch into tip/master: 'sched/merge'
+7c07c7128873d7ef3eb456e47c091fff60fff312 Merge branch into tip/master: 'irq/core'
+7533118621c2e264de82809bc1db2d8d47b2bff8 Merge branch into tip/master: 'irq/drivers'
+556b0a6c476190952476080e7dff9aeb3afa83b5 Merge branch into tip/master: 'irq/msi'
+df08b80fa598db1760997cf48415fa6e3c556de0 Merge branch into tip/master: 'locking/core'
+8b1969c5e97984a1b47c728bb52672aa769f8451 Merge branch into tip/master: 'locking/futex'
+d24e19bb834e1ef180f1731d2bdfa01f5ffa724c Merge branch into tip/master: 'objtool/core'
+95e323597c8fc2d1f9df7f0d9026184593660cc1 Merge branch into tip/master: 'perf/core'
+d0c196c9e30717e83025e978146d7fcb0b7ceae0 Merge branch into tip/master: 'sched/core'
+a9445ab34e42b3c313874e7687da8d4bb7ad3073 Merge branch into tip/master: 'timers/core'
+65d7da535dfb0dfea7043a5458006d2199b291f2 Merge branch into tip/master: 'x86/cleanups'
+ac6cfd11db92f0b71becac3834730fcd5d2dccc8 Merge branch into tip/master: 'x86/cpu'
+96cac52cfeb7b603b7c76c76c0467d4c009adb15 Merge branch into tip/master: 'x86/microcode'
+83d19687f04e8a9f8302578534d350d1fa7ee36e Merge branch into tip/master: 'x86/misc'
+cac2d7795de32c62edc32dcd7eff3ed90074a85e Merge branch into tip/master: 'x86/mm'
+afd296ddfbeb8ab2c92997071cb530563b8adf3d Merge branch into tip/master: 'x86/sev'
+8d3f80adf317848a3e07a8a34502498efe687b23 Merge branch into tip/master: 'x86/tdx'
+
+--===============1923732524065194451==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-9390ab2a4611-3fd96a53d811.txt
 
 50d7b4332f27762d24641970fc34bb68a2621926 mm: memfd_luo: always make all folios uptodate
 7e04bf1f33151a30e06a65b74b5f2c19fc2be128 mm: memfd_luo: always dirty all folios
@@ -49,6 +80,8 @@ eac3361e3d5dd8067b3258c69615888eb45e9f25 ksmbd: fix use-after-free in smb_lazy_p
 441336115df26b966575de56daf7107ed474faed ksmbd: Don't log keys in SMB3 signing and encryption key generation
 b4f0dd314b39ea154f62f3bd3115ed0470f9f71e Merge tag 'mm-hotfixes-stable-2026-03-09-16-36' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
 b29fb8829bff243512bb8c8908fd39406f9fd4c3 Merge tag 'v7.0-rc3-ksmbd-server-fixes' of git://git.samba.org/ksmbd
-7bb140dfc28d3a45a59f228c0902dfd6f97c1c66 Merge branch 'linus'
+0ca8ad9fb0fb42d42db2ceeab3cd0910ae385ecf Merge branch into tip/master: 'irq/urgent'
+95f97c3c9b4c9e5b27d5fb347a4a37aa788cd0e4 Merge branch into tip/master: 'objtool/urgent'
+3fd96a53d81188a2e7375b98f624362bbf4f2290 Merge branch into tip/master: 'x86/urgent'
 
---===============5445127087901410103==--
+--===============1923732524065194451==--
