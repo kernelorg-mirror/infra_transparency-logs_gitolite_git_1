@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
-Date: Wed, 11 Mar 2026 20:42:23 -0000
-Message-Id: <177326174385.3418086.13469204143182027422@gitolite.kernel.org>
+Date: Wed, 11 Mar 2026 20:42:33 -0000
+Message-Id: <177326175385.3418352.14617332952880096676@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,10 +11,10 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/peterz/queue
 user: peterz
 changes:
-  - ref: refs/heads/perf/core
-    old: f78f6b5bb82b6c430d649574fc85441f1a3c998e
-    new: d3c175fe0a567d0f6e0527ac72b67044998e2dde
+  - ref: refs/heads/sched/core
+    old: a3a78e60cc435e894a0eaaab732326e79299440d
+    new: c318f0336d36b02558ac0123280c554eadd9c205
     log: |
-         73cee0aad1ee2479fde2c9b753a1b66acb7d1b9a perf/x86/amd/ibs: Fix comment typo in ibs_op_data
-         d3c175fe0a567d0f6e0527ac72b67044998e2dde perf/x86/intel: Only check GP counters for PEBS constraints validation
+         1b5a4e75228414478c40deef4202bd8ee103db91 sched/wait: correct kernel-doc descriptions
+         c318f0336d36b02558ac0123280c554eadd9c205 sched/fair: Fix comma operator misuse in NUMA fault accounting
          
