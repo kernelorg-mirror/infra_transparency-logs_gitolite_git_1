@@ -1,29 +1,29 @@
-Content-Type: multipart/mixed; boundary="===============7041487355224683431=="
+Content-Type: multipart/mixed; boundary="===============3126464661665730713=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Wed, 11 Mar 2026 18:55:38 -0000
-Message-Id: <177325533847.3330451.9705568443602321873@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Wed, 11 Mar 2026 18:55:47 -0000
+Message-Id: <177325534776.3330972.14885366822243548098@gitolite.kernel.org>
 
---===============7041487355224683431==
+--===============3126464661665730713==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-7.0
+  - ref: refs/heads/asoc-7.0
     old: 30e4b2290cc2a8d1b9ddb9dcb9c981df1f2a7399
     new: a9683730e8b1d632674f81844ed03ddfbe4821c0
     log: |
          53f3a900e9a383d47af7253076e19f510c5708d0 ASoC: amd: acp3x-rt5682-max9836: Add missing error check for clock acquisition
          a9683730e8b1d632674f81844ed03ddfbe4821c0 ASoC: detect empty DMI strings
          
-  - ref: refs/heads/for-7.1
+  - ref: refs/heads/asoc-7.1
     old: 4ba5c63778e5cca15b1408f012d00b441f808f3d
     new: 48863104d2e1ea70a68cbd8d87c0d75270f3c6e5
     log: |
@@ -36,29 +36,29 @@ changes:
          48863104d2e1ea70a68cbd8d87c0d75270f3c6e5 ASoC: cs35l56: Support clock stop mode 1 if enabled in ACPI
          
 
---===============7041487355224683431==
+--===============3126464661665730713==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1773255336 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1773255336-9f68d78e879b970098f69c1fb23582fe9d8c284b
+pusher C3F436CA30F5D8EB 1773255345 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1773255344-0322a862dfe6acb5ff89648d964d4ac7b25067b5
 
-30e4b2290cc2a8d1b9ddb9dcb9c981df1f2a7399 a9683730e8b1d632674f81844ed03ddfbe4821c0 refs/heads/for-7.0
-4ba5c63778e5cca15b1408f012d00b441f808f3d 48863104d2e1ea70a68cbd8d87c0d75270f3c6e5 refs/heads/for-7.1
+30e4b2290cc2a8d1b9ddb9dcb9c981df1f2a7399 a9683730e8b1d632674f81844ed03ddfbe4821c0 refs/heads/asoc-7.0
+4ba5c63778e5cca15b1408f012d00b441f808f3d 48863104d2e1ea70a68cbd8d87c0d75270f3c6e5 refs/heads/asoc-7.1
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmmxuqgACgkQJNaLcl1U
-h9Brdgf/THVe8uBl5+xgVKPS1sFxz7h20D4xO1W/J9WE1cvToYC4l3XfMitDMSnD
-CPg7KODaahbgjkyVEyE/GBJ7XINcfrLXRBVe0NqkatKPhEb0ySIAI1nY9w8Ewp9F
-t6+3I/i6jMhQFKllAKJd5o3sgo3GlCKV/r1+H7IEg5dSbGD5CVpju9tFuhIAoDy1
-mZauBZCu979/CKzHgIa4pLAzmmQ2wC9el3GXxdq9tN8YcBmfml7xpq0QJ/UYxkEf
-d8FJdbQ4M+SJ3joX+w5FXbjf2CZgLdlhUPjzQjwCH+zlDJLMlP6wLCxOaUi3NUws
-RWoubXJP0LZA5YP6qQ1exHEHvCym8g==
-=lif6
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmmxurEACgkQJNaLcl1U
+h9BR7wf/dn7f8pkptCM5mIJlkZgOTJf7eyfu7BzNjLiJgA0Rnxe6R5/yfDJ2ugKQ
+BMnsSI0pT/hlB+3//13qfGG/vnBa3Px5IidLSNczi/Fc3lb8hRKOxkRdpAT2lukK
+XAA4RCD0pW+vxPEuzmGELgcdCdqjvw51nZ09IUcY5go6/F8cBfTs9VEPsnog059A
+3ZDC+9Sy2eRZE4xWKz/kkHu/Tg9lixCGp9J913mTcEafBBkCrsDVxTIZKfdZnXM8
+RDxxhqlR0wcZRemvHBTGzXLsoeAyWoDFOdZtD9qVhSSMz1s2E7luvD3d+mvyPAJt
+qRMXK1B2fHX1p7a9V3QA9KC6LPBnvQ==
+=AYqc
 -----END PGP SIGNATURE-----
 
---===============7041487355224683431==--
+--===============3126464661665730713==--
