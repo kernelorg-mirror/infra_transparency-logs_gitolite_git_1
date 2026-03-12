@@ -1,70 +1,50 @@
-Content-Type: multipart/mixed; boundary="===============0139343514159860695=="
+Content-Type: multipart/mixed; boundary="===============7932579252110923807=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Thu, 12 Mar 2026 13:00:22 -0000
-Message-Id: <177332042241.300711.10502856947079738292@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Thu, 12 Mar 2026 13:00:39 -0000
+Message-Id: <177332043986.301356.7111594089238720663@gitolite.kernel.org>
 
---===============0139343514159860695==
+--===============7932579252110923807==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/spi
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/asoc-7.1
-    old: 46b87c37ca4f54a630d988cb24a1aa9a2e5ba1dc
-    new: 00da2edc646c851114c78affdc3e34a089136d8a
-    log: revlist-46b87c37ca4f-00da2edc646c.txt
+  - ref: refs/heads/for-7.1
+    old: 97545e37234fdbe457f5104a09f55033550b3d84
+    new: 869d5b4b2a8012f6ef6058a1055cac6922c2cb55
+    log: |
+         869d5b4b2a8012f6ef6058a1055cac6922c2cb55 spi: atcspi200: fix mutex initialization order
+         
 
---===============0139343514159860695==
+--===============7932579252110923807==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1773320420 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1773320420-1c784225dd7e70e87b7e90ef8774f7ec97ecc720
+pusher C3F436CA30F5D8EB 1773320438 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
+nonce 1773320437-c85e38551c8045c7f5835dec8c7df7c652c646fe
 
-46b87c37ca4f54a630d988cb24a1aa9a2e5ba1dc 00da2edc646c851114c78affdc3e34a089136d8a refs/heads/asoc-7.1
+97545e37234fdbe457f5104a09f55033550b3d84 869d5b4b2a8012f6ef6058a1055cac6922c2cb55 refs/heads/for-7.1
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmmyuOQACgkQJNaLcl1U
-h9Bpdwf6AluLN3nm0hKazz2uZJr9SroBKcH46tMS0XXiaKruxQyc7vhLbBbeDiO1
-vzr1h0RI3VBHdK/lShUBfdudy4Q8Tk9FFuDP6UHp3SnCmuWltH6z7I0ZrPATVb/G
-G7IzR2p3TCtC1nWqc8YF0pTWKy5WODuvT8WQcUZNtk5kRYDhajcwh8kAM0lk8dqD
-75cThF/KYKC6T098Wv7C0cMYY0L06viLt4YZnfSfyNQi3R6nTd14UyaXIdtp0FdC
-pJfVMN9+FERl4yBJqywrO6RS5M90T9VHKvlS2QwsQhV+77FC5GRnDLBf0BCTD7ns
-4Tcerwm1tK12BEHykuwEQRVjkUJDMg==
-=F5pR
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmmyuPYACgkQJNaLcl1U
+h9D3gwf/S1WvHK0LVSl4ybrfhNG3SU/DrrSafaeVuXVkLnnZ4LcXgXFUIitGY6eE
+UgPfLI1zAFqjfdGSD4GLWt9SP7m2bOjKq07Mxd228+EqDxj3EvPyjh8jfGMlaMme
+l54EOdQt06OdwKBJMK5yOyt+OuZ9WkMC+SKsEvphl+GQfUpCU/KsqMshjwgA2QkG
+J7B04+RxX6yLzqxJ3eIDcE/tdokscBCVPjPz/Hxm7yt+TRiL/BAD9UpfBumsvfJX
+BxPtR/teiTA+4KIqudbsoMRV01I1owR+EQnudgJTYHZL45pbC8xsFSBYPX5hMcIz
+WCivkybCgGN76OLPBkrN/knPrFdsUQ==
+=Pjnr
 -----END PGP SIGNATURE-----
 
---===============0139343514159860695==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-46b87c37ca4f-00da2edc646c.txt
-
-819cf1dc01ce66b6906d403a6925c4bd754a7a1d ASoC: fsl_utils: Add snd_kcontrol functions for specific cases
-8e27987a208029c39da7a787bd9f1217d42011a5 ASoC: fsl_sai: add bitcount and timestamp controls
-7b3f8db159f710d432c4edc024fcefa9e62e8b4b ASoC: fsl_xcvr: add bitcount and timestamp controls
-1eadb7791ee5699ca58920ef705ce0934c814ece ASoC: wm_adsp: Remove unused argument to wm_adsp_release_firmware_files()
-70057cfe492d600c2b83598e8b8b64780b2ca147 ASoC: wm_adsp: Add KUnit redirection stubs for firmware file search
-b4e6b01191afb9516570437a7aff61019134fd59 ASoC: wm_adsp: Export function for KUnit test to get firmware filenames
-bf2d44d07de726b0393439cb4d4defc5cf89a4fc ASoC: wm_adsp: Add kunit test for firmware file search
-2c7c27025374abbdeda201ad103ddf27e8079aec ASoC: wm_adsp: Remove duplicated code to find firmware file
-f8f0c68c75214e326c0d4cbcab8ecab882201f48 ASoC: wm_adsp: Use consistent error checks in wm_adsp_request_firmware_files()
-66170cc7ed59fb7e1e192e53f1d690bd04e8c720 ASoC: wm_adsp: Convert '/' to '-' when normalizing firmware filenames
-d8a4c96082e6f5c7aaf6f3e101effe7ff0ea4d6e ASoC: wm_adsp: Add KUnit test cases for '/' in firmware filenames
-7bca3ca55ef53ca66fdf6e663290d0596a8f520d ASoC: wm_adsp: Use a struct to pass around firmware struct and filename
-8fc5c7895185d1119ae76b509892a1d14e0bd483 ASoC: wm_adsp: Combine some similar code in firmware file search
-0670bc81f50966bf1b30df5744eea4fdeea2ba6f ASoC: fsl: add bitcount and timestamp controls
-00da2edc646c851114c78affdc3e34a089136d8a ASoC: wm_adsp: Some improvements to firmware file
-
---===============0139343514159860695==--
+--===============7932579252110923807==--
