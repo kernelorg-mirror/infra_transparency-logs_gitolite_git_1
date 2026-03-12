@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
-Date: Thu, 12 Mar 2026 12:53:07 -0000
-Message-Id: <177331998748.293440.2062455281862620052@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Thu, 12 Mar 2026 12:59:28 -0000
+Message-Id: <177332036819.297842.2763325213500431940@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kdave/linux
-user: kdave
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/tags/for-7.0-rc3-tag
-    old: 0000000000000000000000000000000000000000
-    new: 541f19d8f0971410cb86bb04b25d06f2657fef88
+  - ref: refs/heads/regulator-7.0
+    old: 21b3fb7dc19caa488d285e3c47999f7f1a179334
+    new: 8066a5855ed986f822df4d8b1fa8017b88a43e76
+    log: |
+         8066a5855ed986f822df4d8b1fa8017b88a43e76 regulator: fp9931: Fix error handling for optional regulator
+         
