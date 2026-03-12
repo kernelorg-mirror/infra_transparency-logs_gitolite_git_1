@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Thu, 12 Mar 2026 03:28:53 -0000
-Message-Id: <177328613337.3782538.2833018169655600793@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Thu, 12 Mar 2026 03:39:10 -0000
+Message-Id: <177328675018.3790302.12118180086597157155@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
+repo: pub/scm/linux/kernel/git/netdev/net
 user: kuba
 changes:
   - ref: refs/heads/main
-    old: 87aa0f539df0c190be7b565c1f32f9f90bf3869f
-    new: dc9902bbd480aae510b885b67cd30cd04cfce3a8
+    old: ead054054874d7de4c1724e18c1adf90fdb5d7db
+    new: 840c9d13cb1ca96683a5307ee8e221be163a2c1e
     log: |
-         dc9902bbd480aae510b885b67cd30cd04cfce3a8 tcp: use WRITE_ONCE() for tsoffset in tcp_v6_connect()
+         87c2302813abc55c46485711a678e3c312b00666 net/mana: Null service_wq on setup error to prevent double destroy
+         840c9d13cb1ca96683a5307ee8e221be163a2c1e net: ethernet: ti: am65-cpsw-nuss: Fix rx_filter value for PTP support
          
