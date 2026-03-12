@@ -1,50 +1,29 @@
-Content-Type: multipart/mixed; boundary="===============7603907086017164593=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Thu, 12 Mar 2026 13:00:43 -0000
-Message-Id: <177332044347.301549.16849864923772347812@gitolite.kernel.org>
-
---===============7603907086017164593==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/hid/hid
+Date: Thu, 12 Mar 2026 13:02:57 -0000
+Message-Id: <177332057786.302524.10881395637559510728@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
-user: broonie
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/hid/hid
+user: jikos
 changes:
-  - ref: refs/heads/spi-7.1
-    old: 97545e37234fdbe457f5104a09f55033550b3d84
-    new: 869d5b4b2a8012f6ef6058a1055cac6922c2cb55
+  - ref: refs/heads/for-7.0/upstream-fixes
+    old: 70031e70ca15ede6a39db4d978e53a6cc720d454
+    new: 1965445e13c09b79932ca8154977b4408cb9610c
     log: |
-         869d5b4b2a8012f6ef6058a1055cac6922c2cb55 spi: atcspi200: fix mutex initialization order
+         1965445e13c09b79932ca8154977b4408cb9610c HID: appletb-kbd: add .resume method in PM
          
-
---===============7603907086017164593==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1773320441 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1773320441-2fdedce126bbf25e9df809d256c880816a517eb1
-
-97545e37234fdbe457f5104a09f55033550b3d84 869d5b4b2a8012f6ef6058a1055cac6922c2cb55 refs/heads/spi-7.1
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmmyuPoACgkQJNaLcl1U
-h9DvCAgAhoZwmH7i6LqT780FXq0QxEHkBHkbOT1NbutWZmf9AxO9XiL5LJIr3hbN
-LOYBAPeiRi23Ddm8j5MBE5USRL87t7d5XUS/pd/FHj5J62/w714nib26CClQn2Hz
-Aqd36DMo49nblw3UKpWeTOFq834Fh+xEwRTWLXTAVGxPo1j/R6vxwZb9pJjgMxXK
-N+cmEx4fFfvS6nuIarxp7cAyBtzXPJZp3LI9GsuMY4CAvVRwosonI0TmffALjGDf
-zIy1AgCzrs/u+i0rf7MqkRkqulT0YUsBK8iLBOzaEi8g18UINasa+uwIdQQXRncG
-x7tO63r2AbExbQ3LhbkAo79vFmfYbg==
-=dE0a
------END PGP SIGNATURE-----
-
---===============7603907086017164593==--
+  - ref: refs/heads/for-next
+    old: db6f1476d4e14dfa7f7243af32d1d10963a6261a
+    new: eb42a5f78139ab46aaf5c537bd7bc7b9446f29bb
+    log: |
+         1965445e13c09b79932ca8154977b4408cb9610c HID: appletb-kbd: add .resume method in PM
+         eb42a5f78139ab46aaf5c537bd7bc7b9446f29bb Merge branch 'for-7.0/upstream-fixes' into for-next
+         
+  - ref: refs/heads/for-7.1/hid-multibattery
+    old: 0000000000000000000000000000000000000000
+    new: 24c7d884e29494adff205ba65bd14882e13e0524
