@@ -1,25 +1,52 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/dborkman/l2md
-Date: Thu, 12 Mar 2026 09:02:52 -0000
-Message-Id: <177330617292.4133812.10122304681693755985@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============7075386226414361846=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vbabka/linux
+Date: Thu, 12 Mar 2026 09:12:04 -0000
+Message-Id: <177330672474.4141868.12562952709687363425@gitolite.kernel.org>
+
+--===============7075386226414361846==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/dborkman/l2md
-user: dborkman
+repo: pub/scm/linux/kernel/git/vbabka/linux
+user: vbabka
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/master
-    old: c400a9036ee9ed194747285ab35ed48781043732
-    new: bd4ba99aa358252b43b56a2521ef2b45e68ef794
+  - ref: refs/heads/b4/slab-remove-alloc_full_sheaf
+    old: 7dd4da2e39287c4942b5dc6c62d772d12b23430b
+    new: 14afedb8a3b330b1d6dce3bbbbf51371d5723911
     log: |
-         dd57f52b0433fbde52bd1225cdebb85f2c271af8 l2md: add dlopen/dlsym utility macros
-         378a816c4a16057b7d706ebb7864202bc8c80396 l2md: add -ldl and MANIFEST build knob
-         46aa49370d49f86cff97ea4340f05cb5c6891a2e l2md: make repo_pull() return int on failure
-         530a0f10e5c6a03b5699d3300f4cc70e4c38bced l2md: add fingerprint persistence plumbing
-         1b421f0c2fa62ba835e74112a8b7f8ec109cb2ce l2md: add manifest-based change detection
-         00941d74e401bc5182e0307e34ca4674e02cd260 l2md: integrate manifest fingerprint checks into sync loop
-         bd4ba99aa358252b43b56a2521ef2b45e68ef794 l2md, TODO: remove implemented items
+         2de0f64f935423b75b17bd5f7fb30cbfb7d3cbe3 EDITME: cover title for b4/slab-remove-alloc_full_sheaf
+         14afedb8a3b330b1d6dce3bbbbf51371d5723911 slab: remove alloc_full_sheaf()
          
+
+--===============7075386226414361846==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher A940D434992C2E8E99103D50224FA7E7CC82A664 1773306719 +0100
+pushee gitolite.kernel.org:pub/scm/linux/kernel/git/vbabka/linux.git
+nonce 1773306719-c652a12191302f874807329be859e7647028e410
+
+7dd4da2e39287c4942b5dc6c62d772d12b23430b 14afedb8a3b330b1d6dce3bbbbf51371d5723911 refs/heads/b4/slab-remove-alloc_full_sheaf
+-----BEGIN PGP SIGNATURE-----
+
+iQFPBAABCAA5FiEEe7vIQRWZI0iWSE3xu+CwddJFiJoFAmmyg18bFIAAAAAABAAO
+bWFudTIsMi41KzEuMTIsMiwyAAoJELvgsHXSRYiaBqAH/1EtFYheyYmhRnoHhc0n
+322apmRof1VTms7GMRz4aFOHpF12TmCS+vy+EOlQaR1YNLJXRiVxVooGqLO7XkNx
+524jdwziZT4sW+IS3o9AFHBJrMOt3jt3V5cnSf5ma0+27NOVxCqx+Gr1VJszvixP
+S8SD/8CGN7yaxqJcG8e73ZPaYuxOZ0tL8dCT7s+q9vNNM3Xr8cxNVekMLYHP59zn
+knNnJD3Cjoe+TbwG2ws3MHiCXZTFZO9ZH2bPGr6RlPXALU5AXKePJJ6GCDmgnzrq
+M8689jwIzDwkl+ATX7UIs1mnUOwjtqqhO5DPkXt4WJkbZTfhRRp5fxhWjiBZjKjD
+hXk=
+=sTvz
+-----END PGP SIGNATURE-----
+
+--===============7075386226414361846==--
