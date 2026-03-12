@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7966679125361997300=="
+Content-Type: multipart/mixed; boundary="===============7177038605414488886=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Thu, 12 Mar 2026 20:03:28 -0000
-Message-Id: <177334580836.708717.3583305309151076614@gitolite.kernel.org>
+Date: Thu, 12 Mar 2026 20:03:32 -0000
+Message-Id: <177334581280.708915.16589308800507564383@gitolite.kernel.org>
 
---===============7966679125361997300==
+--===============7177038605414488886==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,60 +16,60 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-6.19.y
-    old: 093357bae8bbb145600c7b7c91e2d6bc151b5e09
-    new: 755175b7cd405f4c3424bcd162137f2da2c1c709
-    log: revlist-093357bae8bb-755175b7cd40.txt
+  - ref: refs/heads/linux-6.18.y
+    old: 1b48470183da7d9d1cae7ee5bca105606c426015
+    new: 2fc85be06add3629b255ebaf1a6ec1a4008905d4
+    log: revlist-1b48470183da-2fc85be06add.txt
 
---===============7966679125361997300==
+--===============7177038605414488886==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1773345804 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1773345808 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1773345802-0bf1d3bfbd70a968c5d6c3577ee82a31dd3ae464
+nonce 1773345807-f3a317ba5258f4601686c6215b920993bd45e5eb
 
-093357bae8bbb145600c7b7c91e2d6bc151b5e09 755175b7cd405f4c3424bcd162137f2da2c1c709 refs/heads/linux-6.19.y
+1b48470183da7d9d1cae7ee5bca105606c426015 2fc85be06add3629b255ebaf1a6ec1a4008905d4 refs/heads/linux-6.18.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmmzHAwbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+2ksP/3zLV2PeznMiNWiGrM1x
-8wuQGeI1IuKBSnhfh27PT3QkAeGBnt6q+ogVvQ80fmHgmDH2AAmg+Fso3Kg5N4IN
-lv0aAalAnqcnFHa1EQoNM/ht31yU791ImeO2QRlReKKgWvpy+sBr3BcVkUlMJ9QW
-Bk/hILMvmrXwfnjnAdvlqEkD40KQKrFIU2Wv98eGEDgzmNQ0TybAb0rv6KYDkATW
-M3kzKDSGl7HyoO05joOKoGrpKoPdY8ZNRkwdlDQ64qXhzOiTiP2/BXJJb5nCkMWF
-Q8+1s0r7FwwcBglZexPnj63di3rBKU1RTk3tbpWuDao9hvg26+4AgggB7tSA332B
-QZA8v+T+yDIJL17JVMK9cZYjFw/AIBHfsw+EsgZlhOGzep1O9GXiLIFMRQj+hYxQ
-xYdTR9VEZQ9K71gbrmM44fi3JOUrlgUpihn/kLNQGoRHisknIlIinoe0diay/C7G
-Ki7sfvHUTde7Mi8p+oPlywvaYyI61wf0z9hiiLYzVln1eF4wxVSsh++cogliXdqQ
-EoJGLbxaaoKUeWXBzWgU48Y1mIYk6bKN9zF8EpgAm6e14gS3BDsUt40+dG7Thpzw
-tkHXQRS0fH6nprfLhSXMU7c65u4IYMDm8qzYXNqN/iwc+9oVAq5Dt6+qGx0/ITxU
-Gdh/t2dP1N6POH1eah8S8BO+
-=RtnM
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmmzHBAbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+ajEP/R7AmbUlL1apxhCtefv4
+ag0Knz9dnfc9q803tI9DF5ROW3q9xwVP3YmBUSvywgryuS9WkIB/uT82FZQ0GUGT
++vtIejjweKxNYGOg/E5sRxfJu3zf7u6EdUAHnJCWOSlyWFLEWNepRK/8lJmmIHtF
+hqfpPrB5P/2D3f3I1kRzv3lF4oYleENBKYlqoSVuuB8imMEADbe32im5FyxCX7Lp
+hvy2LzL5hexlayP/q5lLiXryXwb3UMHBj2k9thzj7g1YQRQSCf6BEv9dFLdC+DiN
+6O+bA6Mhh8yIp/kbyC01JXps2tSnccc562eQNoWsZJVP+DsgO9ysbPb0K/RxynHO
+1y+jy/VhSbdcSjXb522vJzyVi/IuDQvYhdFvOJhw+56EwnuduovZWK0ByG9nPLIc
+PPvlpjV04n6d3vC7lGnbgUJIRPo01rgMUSdlvV1ygnUan1J19b0hR5e1aiAlrJnz
+MtxeaaJYJubDov96BkQA1PeKQPC6GVhSyB9T/eewt44TW2e9EVyJB6/t2D2b+zZ1
+TaOlDYIqW5MdKLtreumq45ey4IuBmtYd+GH60GOJ7QjfQcKjqIly75d+wScv89lB
+31Erw/Fs4mArpl+82zCR3xoUu0PdHjQdCHYOQfc51HbRjPArtAbjEbnnhRIsjyWX
+WaWj9z4dcnlg+OTA9PCb1v9C
+=cDDN
 -----END PGP SIGNATURE-----
 
---===============7966679125361997300==
+--===============7177038605414488886==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-093357bae8bb-755175b7cd40.txt
+Content-Disposition: attachment; filename=revlist-1b48470183da-2fc85be06add.txt
 
-6ac910e0be1c90f5ec77fe858d76f1c8cfe54048 net/sched: act_gate: snapshot parameters with RCU on replace
-a8b3d4ad5a0e13a80c7224204d6cad30d3f32911 net/sched: Only allow act_ct to bind to clsact/ingress qdiscs and shared blocks
-4297599f9f0fabc552f29a39fca73c11e66a600e apparmor: validate DFA start states are in bounds in unpack_pdb
-4227f438fcae7ca9b0861ebf256b52db360d32fd apparmor: fix memory leak in verify_header
-5098165a19595fbb975cde90f775e1dc3512bdcd apparmor: replace recursive profile removal with iterative approach
-47d2b5772a19077b8ffadbe577061824d01b353b apparmor: fix: limit the number of levels of policy namespaces
-089d724cbc26d93654e13bca93142ddf45268309 apparmor: fix side-effect bug in match_char() macro usage
-697b985ad470d29f6c3c96f912e3b573aaa691d9 apparmor: fix missing bounds check on DEFAULT table in verify_dfa()
-9dba7cb831d1f4b351d533248f64b2b31eb01478 apparmor: Fix double free of ns_name in aa_replace_profiles()
-309be5cf7df484e9f6e25ae73f294b6ab0672d81 apparmor: fix unprivileged local user can do privileged policy management
-3643dcd4579542b7ad5c36541038e624c44394cd apparmor: fix differential encoding verification
-657e3652c0bdfc23a994300a714e810fa36d25fb apparmor: fix race on rawdata dereference
-2726f09039ba356d10cb299316063892d9a3da84 apparmor: fix race between freeing data and fs accessing it
-755175b7cd405f4c3424bcd162137f2da2c1c709 Linux 6.19.8-rc1
+aef3062d98e3bcaca00948b08c62fce9efc3aa77 net/sched: act_gate: snapshot parameters with RCU on replace
+36b034444910ce992815daff7159f4c6cd9fc2b1 net/sched: Only allow act_ct to bind to clsact/ingress qdiscs and shared blocks
+793cf2a32540fb8b3113265c3ff5d5bb04dfc671 apparmor: validate DFA start states are in bounds in unpack_pdb
+3860db7f948f18a240459ccb5501091dde61c726 apparmor: fix memory leak in verify_header
+f57b36e73e566e46d6829bb916db360995843a6c apparmor: replace recursive profile removal with iterative approach
+abab460144dead521a28fca9b760a0b8b7df6b11 apparmor: fix: limit the number of levels of policy namespaces
+1449dedf1006c8ac01e30f0dbca410e97cf93930 apparmor: fix side-effect bug in match_char() macro usage
+676c03aaf95e46e44394159bfc98ed2b6e758df2 apparmor: fix missing bounds check on DEFAULT table in verify_dfa()
+0d1da978109dcce971abdc251f6a7d407785a7cd apparmor: Fix double free of ns_name in aa_replace_profiles()
+020e5099ae3d6123c7f69f641045a8a974cc5597 apparmor: fix unprivileged local user can do privileged policy management
+c8ac449883591eaef70fb2250c18f3c6f1f7537f apparmor: fix differential encoding verification
+43acd747b808667a8ff4125489ee422fe13645a3 apparmor: fix race on rawdata dereference
+6819d0e4add8cbf6f5320cb9e3f6e603d999a2bc apparmor: fix race between freeing data and fs accessing it
+2fc85be06add3629b255ebaf1a6ec1a4008905d4 Linux 6.18.18-rc1
 
---===============7966679125361997300==--
+--===============7177038605414488886==--
