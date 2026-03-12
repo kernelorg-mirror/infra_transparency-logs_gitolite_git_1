@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3077082580717047312=="
+Content-Type: multipart/mixed; boundary="===============5531910308059628606=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
-Date: Thu, 12 Mar 2026 19:33:18 -0000
-Message-Id: <177334399826.627848.11363335893053566897@gitolite.kernel.org>
+Date: Thu, 12 Mar 2026 19:37:24 -0000
+Message-Id: <177334424437.631662.7350378305788109607@gitolite.kernel.org>
 
---===============3077082580717047312==
+--===============5531910308059628606==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jlayton/linux
 user: jlayton
 changes:
-  - ref: refs/heads/exportd-netlink
+  - ref: refs/heads/kdevops
     old: e5eba88e8c830dc389eb6d987382dad002d823c1
     new: d9f0692589a76b28a39fa9469620557d1f57915f
     log: revlist-e5eba88e8c83-d9f0692589a7.txt
 
---===============3077082580717047312==
+--===============5531910308059628606==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -41,4 +41,4 @@ c21f6d7485ecd618d50391d879122eaadbc31af6 nfsd: add netlink upcall for the svc_ex
 93f116f4c6cae813896ad2c8e8cd7a1d3d96362f sunrpc: add SUNRPC_CMD_CACHE_FLUSH netlink command
 d9f0692589a76b28a39fa9469620557d1f57915f nfsd: add NFSD_CMD_CACHE_FLUSH netlink command
 
---===============3077082580717047312==--
+--===============5531910308059628606==--
