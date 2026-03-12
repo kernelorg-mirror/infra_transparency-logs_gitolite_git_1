@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Thu, 12 Mar 2026 11:29:04 -0000
-Message-Id: <177331494493.116063.6993954726903080326@gitolite.kernel.org>
+Date: Thu, 12 Mar 2026 11:29:09 -0000
+Message-Id: <177331494924.116271.14412942835174077199@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,6 +11,6 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/broonie/ci
 user: broonie
 changes:
-  - ref: refs/heads/v6_20260310_shengjiu_wang_asoc_fsl_add_bitcount_and_timestamp_controls
-    old: 7b3f8db159f710d432c4edc024fcefa9e62e8b4b
+  - ref: refs/heads/20260310_rf_asoc_wm_adsp_some_improvements_to_firmware_file_search
+    old: 8fc5c7895185d1119ae76b509892a1d14e0bd483
     new: 0000000000000000000000000000000000000000
