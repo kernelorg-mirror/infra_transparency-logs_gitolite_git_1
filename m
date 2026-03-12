@@ -1,54 +1,31 @@
-Content-Type: multipart/mixed; boundary="===============7383208683711144250=="
+Content-Type: multipart/mixed; boundary="===============8490197036483779191=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netfilter/nf
-Date: Thu, 12 Mar 2026 11:20:24 -0000
-Message-Id: <177331442430.70180.9525707157173225175@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mptcp/linux
+Date: Thu, 12 Mar 2026 11:21:08 -0000
+Message-Id: <177331446860.108968.14247096136003345396@gitolite.kernel.org>
 
---===============7383208683711144250==
+--===============8490197036483779191==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netfilter/nf
-user: fwestphal
+repo: pub/scm/linux/kernel/git/mptcp/linux
+user: matttbe
 changes:
-  - ref: refs/heads/testing
-    old: a29b6cda03c1a4175468953c87a6c7db8766df7e
-    new: fba9a3b377a2d6b4c52e792b3914b7965a69288c
-    log: revlist-a29b6cda03c1-fba9a3b377a2.txt
+  - ref: refs/heads/export-net
+    old: a07d07d0005de235fbaf6b4487190a14b28096a0
+    new: 20e6ca5bde5b9b2a4b76eb5cbcb87df76c711763
+    log: revlist-a07d07d0005d-20e6ca5bde5b.txt
 
---===============7383208683711144250==
+--===============8490197036483779191==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a29b6cda03c1-fba9a3b377a2.txt
+Content-Disposition: attachment; filename=revlist-a07d07d0005d-20e6ca5bde5b.txt
 
-87d126852158467ab87d5cbc36ccfd3f15464a6c net: sfp: improve Huawei MA5671a fixup
-288598d80a068a0e9281de35bcb4ce495f189e2a serial: caif: hold tty->link reference in ldisc_open and ser_release
-b2662e7593e94ae09b1cf7ee5f09160a3612bcb2 net: nexthop: fix percpu use-after-free in remove_nh_grp_entry
-7a85d370bbd0d55791ec57ea8ba13032410e8b9d MAINTAINERS: include/net/tc_wrapper.h belongs to TC subsystem
-e4f774a0cc955ce762aec91c66915a6e15087ab7 net: usb: lan78xx: fix silent drop of packets with checksum errors
-50988747c30df47b73b787f234f746027cb7ec6c net: usb: lan78xx: fix TX byte statistics for small packets
-d9cc0e440f0664f6f3e2c26e39ab9dd5f3badba7 net: usb: lan78xx: skip LTM configuration for LAN7850
-312c816c6bc30342bc30dca0d6db617ab4d3ae4e net: usb: lan78xx: fix WARN in __netif_napi_del_locked on disconnect
-183f682591a932cf80a85bfc7ad748f5d90c2de7 Merge branch 'net-usb-lan78xx-accumulated-bug-fixes'
-0d9a60a0618d255530ca56072c5f39eb58e1ed4a bnxt_en: Fix RSS table size check when changing ethtool channels
-246953f33e8cf95621d6c00332e2780ce1594082 net: enetc: fix incorrect fallback PHY address handling
-dbe17e7783cb5d6451ff1217d0464865857e97e1 net: enetc: do not skip setting LaBCR[MDIO_PHYAD_PRTAD] for addr 0
-fdfd103aec837fc318fbd381cc65990ad7b62e5b Merge branch 'net-enetc-fix-fallback-phy-address-handling-and-do-not-skip-setting-for-addr-0'
-e3f5e0f22cfc2371e7471c9fd5b4da78f9df7c69 mctp: i2c: fix skb memory leak in receive path
-1eea46908c57abb7109b1fce024f366ae6c69c4f can: dev: keep the max bitrate error at 5%
-47bba09b14fa21712398febf36cb14fd4fc3bded can: hi311x: hi3110_open(): add check for hi3110_power_enable() return value
-950803f7254721c1c15858fbbfae3deaaeeecb11 bonding: fix type confusion in bond_setup_by_slave()
-7d86aa41c073c4e7eb75fd2e674f1fd8f289728a mctp: route: hold key->lock in mctp_flow_prepare_output()
-6485cb96be5cd0f4bf39554737ba11322cc9b053 amd-xgbe: fix link status handling in xgbe_rx_adaptation
-27a4dd0c702b3b2b9cf2c045d100cc2fe8720b81 amd-xgbe: prevent CRC errors during RX adaptation with AN disabled
-a8ba129af46856112981c124850ec6a85a1c1ab6 amd-xgbe: reset PHY settings before starting PHY
-3228835877e77200a8c16f26b22017f850f8b0c3 Merge branch 'amd-xgbe-rx-adaptation-and-phy-handling-fixes'
-6f1a9140ecda3baba3d945b9a6155af4268aafc4 net: add xmit recursion limit to tunnel xmit functions
 b7cdc5a97d02c943f4bdde4d5767ad0c13cad92b netfilter: nf_tables: Fix for duplicate device in netdev hooks
 7cb9a23d7ae40a702577d3d8bacb7026f04ac2a9 netfilter: nf_tables: always walk all pending catchall elements
 d6d8cd2db236a9dd13dbc2d05843b3445cc964b5 netfilter: nft_set_pipapo: fix stack out-of-bounds read in pipapo_drop()
@@ -56,18 +33,11 @@ cfe770220ac2dbd3e104c6b45094037455da81d4 netfilter: x_tables: guard option walke
 f1ba83755d81c6fc66ac7acd723d238f974091e9 netfilter: nfnetlink_queue: fix entry leak in bridge verdict error path
 6dcee8496d53165b2d8a5909b3050b62ae71fe89 netfilter: nfnetlink_cthelper: fix OOB read in nfnl_cthelper_dump_table()
 329f0b9b48ee6ab59d1ab72fef55fe8c6463a6cf netfilter: xt_IDLETIMER: reject rev0 reuse of ALARM timer labels
-73aefba4e2eb713cf7bc4ad83cfc9b5d4f966f6d Merge tag 'linux-can-fixes-for-7.0-20260310' of git://git.kernel.org/pub/scm/linux/kernel/git/mkl/linux-can
 bd98c6204d1195973b1760fe45860863deb6200c drivers: net: ice: fix devlink parameters get without irdma
 efc54fb13d79117a825fef17364315a58682c7ec iavf: fix PTP use-after-free during reset
 fdadbf6e84c44df8dbb85cfdd38bc10e4431501d iavf: fix incorrect reset handling in callbacks
 e809085f492842ce7a519c9ef72d40f4bca89c13 i40e: fix src IP mask checks and memcpy argument names in cloud filter
 e94eaef11142b01f77bf8ba4d0b59720b7858109 e1000/e1000e: Fix leak in DMA error cleanup
-881a0263d502e1a93ebc13a78254e9ad19520232 net: macb: Shuffle the tx ring before enabling tx
-28b225282d44e2ef40e7f46cfdbd5d1b20b8874f page_pool: store detach_time as ktime_t to avoid false-negatives
-2503d08f8a2de618e5c3a8183b250ff4a2e2d52c net: ethernet: arc: emac: quiesce interrupts before requesting IRQ
-f441b489cc66fbc44d78b6c123e74283b8077431 net: dsa: mxl862xx: don't set user_mii_bus
-57885276cc16a2e2b76282c808a4e84cbecb3aae net-shapers: don't free reply skb after genlmsg_reply()
-908c344d5cfac4160f49715da9efacdf5b6a28bd net: bcmgenet: fix broken EEE by converting to phylib-managed state
 94a4b1f959989de9c54d43c3a102fb1ee92e1414 ipv6: move the disable_ipv6_mod knob to core code
 30021e969d48e5819d5ae56936c2f34c0f7ce997 net: bonding: Fix nd_tbl NULL dereference when IPv6 is disabled
 dcb4e2231469523d20cf0a2477d68245795c205d bpf: bpf_out_neigh_v4: Fix nd_tbl NULL dereference when IPv6 is disabled
@@ -85,11 +55,17 @@ ead054054874d7de4c1724e18c1adf90fdb5d7db Merge tag 'nf-26-03-10' of https://git.
 840c9d13cb1ca96683a5307ee8e221be163a2c1e net: ethernet: ti: am65-cpsw-nuss: Fix rx_filter value for PTP support
 dc26ca99b835e21e76a58b1463b84adb0ca34f58 octeontx2-af: devlink: fix NIX RAS reporter recovery condition
 87f7dff3ec75b91def0024ebaaf732457f47a63b octeontx2-af: devlink: fix NIX RAS reporter to use RAS interrupt status
-b48e45830e676eaff989aeec632568a64e3f39b7 netfilter: ctnetlink: fix use-after-free in ctnetlink_dump_exp_ct()
-f393ac29057504ac10cefefc624a70ecf3e0c83c netfilter: conntrack: add missing netlink policy validations
-a073d27b348a00293bc47e0e592e07d564f267c8 netfilter: nf_conntrack_sip: fix Content-Length u32 truncation in sip_help_tcp()
-699fd58e978a36a4fc36bcf03245597e67b7fe17 netfilter: revert nft_set_rbtree: validate open interval overlap
-79d5af196301858d528507fbbd43c6c597e6910b netfilter: nf_flow_table_ip: reset mac header before vlan push
-fba9a3b377a2d6b4c52e792b3914b7965a69288c netfilter: nf_conntrack_h323: fix OOB read in decode_int() CONS case
+2e288e7bd4cd8c8c4afeb9fc1d697eb64ad50c52 DO-NOT-MERGE: git markup: net
+2e0b91af27809f6a029417147c4d3350c8ad9889 sched/mmcid: Prevent CID stalls due to concurrent forks
+450ae31caa133c836e96601bb024010ecdc99db9 sched/mmcid: Handle vfork()/CLONE_VM correctly
+9796aaf06e359ff4d2859356a5ebae1dffd8ee20 sched/mmcid: Remove pointless preempt guard
+4612ed3d57961585fc24a0c8bb19f952fb2f517a sched/mmcid: Avoid full tasklist walks
+b8aaa3f8181ef53a43f481a5c12f3ae5b50e05f7 DO-NOT-MERGE: git markup: fixes other trees
+eae0a27f39896dde90668dc85753852ccd3ae5be DO-NOT-MERGE: git markup: fixes net
+0b8659313fea339ec7155ebe19a9576db55dd725 DO-NOT-MERGE: mptcp: add CI support
+3943865f1cf0d8328a3d865dfe5ead5cb82299b4 DO-NOT-MERGE: git markup: end common net net-next
+875b4c17aa4d357032180b52d4c249ded5bd743f DO-NOT-MERGE: git markup: fixes net only
+124d68ba5a7aefe65a3c881e33b7076d110511db DO-NOT-MERGE: mptcp: improve code coverage for CI (net)
+20e6ca5bde5b9b2a4b76eb5cbcb87df76c711763 DO-NOT-MERGE: mptcp: enabled by default (net)
 
---===============7383208683711144250==--
+--===============8490197036483779191==--
