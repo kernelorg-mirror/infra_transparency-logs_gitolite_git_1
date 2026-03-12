@@ -1,57 +1,46 @@
-Content-Type: multipart/mixed; boundary="===============7247503716866079058=="
+Content-Type: multipart/mixed; boundary="===============3470747821457055290=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Thu, 12 Mar 2026 17:33:48 -0000
-Message-Id: <177333682857.531242.3229932876679511185@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Thu, 12 Mar 2026 17:34:10 -0000
+Message-Id: <177333685017.531659.8367482374722318455@gitolite.kernel.org>
 
---===============7247503716866079058==
+--===============3470747821457055290==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/regulator-7.0
-    old: 21b3fb7dc19caa488d285e3c47999f7f1a179334
-    new: 8066a5855ed986f822df4d8b1fa8017b88a43e76
-    log: |
-         8066a5855ed986f822df4d8b1fa8017b88a43e76 regulator: fp9931: Fix error handling for optional regulator
-         
-  - ref: refs/heads/regulator-7.1
-    old: aa3d0c93a333182e887426366a4f3e5f06ee0d83
-    new: e80c626ae06ed9c502ebda4a7e0b390af9ccf6b0
-    log: |
-         e80c626ae06ed9c502ebda4a7e0b390af9ccf6b0 regulator: pf1550: Remove redundant regmap assignment
-         
+  - ref: refs/heads/for-next
+    old: e25e8cff426b5909275dd1d4fc75cdbfadb232b3
+    new: 8aa902d34ae71208cf1e41398a7fae85a4417780
+    log: revlist-e25e8cff426b-8aa902d34ae7.txt
 
---===============7247503716866079058==
+--===============3470747821457055290==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-e25e8cff426b-8aa902d34ae7.txt
 
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1773336826 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1773336826-3e39d0528fd84f397d2062a80040a26f08cdcb62
+819cf1dc01ce66b6906d403a6925c4bd754a7a1d ASoC: fsl_utils: Add snd_kcontrol functions for specific cases
+8e27987a208029c39da7a787bd9f1217d42011a5 ASoC: fsl_sai: add bitcount and timestamp controls
+7b3f8db159f710d432c4edc024fcefa9e62e8b4b ASoC: fsl_xcvr: add bitcount and timestamp controls
+1eadb7791ee5699ca58920ef705ce0934c814ece ASoC: wm_adsp: Remove unused argument to wm_adsp_release_firmware_files()
+70057cfe492d600c2b83598e8b8b64780b2ca147 ASoC: wm_adsp: Add KUnit redirection stubs for firmware file search
+b4e6b01191afb9516570437a7aff61019134fd59 ASoC: wm_adsp: Export function for KUnit test to get firmware filenames
+bf2d44d07de726b0393439cb4d4defc5cf89a4fc ASoC: wm_adsp: Add kunit test for firmware file search
+2c7c27025374abbdeda201ad103ddf27e8079aec ASoC: wm_adsp: Remove duplicated code to find firmware file
+f8f0c68c75214e326c0d4cbcab8ecab882201f48 ASoC: wm_adsp: Use consistent error checks in wm_adsp_request_firmware_files()
+66170cc7ed59fb7e1e192e53f1d690bd04e8c720 ASoC: wm_adsp: Convert '/' to '-' when normalizing firmware filenames
+d8a4c96082e6f5c7aaf6f3e101effe7ff0ea4d6e ASoC: wm_adsp: Add KUnit test cases for '/' in firmware filenames
+7bca3ca55ef53ca66fdf6e663290d0596a8f520d ASoC: wm_adsp: Use a struct to pass around firmware struct and filename
+8fc5c7895185d1119ae76b509892a1d14e0bd483 ASoC: wm_adsp: Combine some similar code in firmware file search
+0670bc81f50966bf1b30df5744eea4fdeea2ba6f ASoC: fsl: add bitcount and timestamp controls
+00da2edc646c851114c78affdc3e34a089136d8a ASoC: wm_adsp: Some improvements to firmware file
+8aa902d34ae71208cf1e41398a7fae85a4417780 Merge remote-tracking branch 'asoc/for-7.1' into asoc-next
 
-21b3fb7dc19caa488d285e3c47999f7f1a179334 8066a5855ed986f822df4d8b1fa8017b88a43e76 refs/heads/regulator-7.0
-aa3d0c93a333182e887426366a4f3e5f06ee0d83 e80c626ae06ed9c502ebda4a7e0b390af9ccf6b0 refs/heads/regulator-7.1
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmmy+PoACgkQJNaLcl1U
-h9Ca5Af9E5W4OXxAavv0nZXw+koiCOausXNLI2ePA0dyqz8lVe6A3F0FeKjbny0w
-975g5au8cr+02JKlZWa6byrn0UfdFLhmXMvUGiuzKz3TEBA0olGuUqoIgpa/P3QH
-q7M2c13ssraptV62ZSeaHVyNNT6AHijzVqgGywgeBXU12WQ8F6x01/ydAH7veYL6
-WEjKLgTtcubYQ1K8hp1pcl30sqGICtC7T7YdbzvFdWBuasOITdmJQqFXo4VwpiMO
-N4R2qc6yQB/55nPU0w0eparQPCBTPy7/0Ij5c/eD3sBBN1SmZYBeUfQV7vha+EKT
-9fFaeZQBMKDxZ+oCouoYtwzzhllybg==
-=VBue
------END PGP SIGNATURE-----
-
---===============7247503716866079058==--
+--===============3470747821457055290==--
