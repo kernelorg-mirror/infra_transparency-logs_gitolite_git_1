@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============9112882169875380025=="
+Content-Type: multipart/mixed; boundary="===============0369754510719371377=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Thu, 12 Mar 2026 16:23:38 -0000
-Message-Id: <177333261856.470998.12380614241577204765@gitolite.kernel.org>
+Date: Thu, 12 Mar 2026 16:23:41 -0000
+Message-Id: <177333262109.471085.8763844925728378968@gitolite.kernel.org>
 
---===============9112882169875380025==
+--===============0369754510719371377==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/40GbE
-    old: 73aefba4e2eb713cf7bc4ad83cfc9b5d4f966f6d
+  - ref: refs/heads/100GbE
+    old: e94eaef11142b01f77bf8ba4d0b59720b7858109
     new: c38b8f5f791ecce13ab77e2257f8fd2444ba80f6
-    log: revlist-73aefba4e2eb-c38b8f5f791e.txt
+    log: revlist-e94eaef11142-c38b8f5f791e.txt
 
---===============9112882169875380025==
+--===============0369754510719371377==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-73aefba4e2eb-c38b8f5f791e.txt
+Content-Disposition: attachment; filename=revlist-e94eaef11142-c38b8f5f791e.txt
 
 b7cdc5a97d02c943f4bdde4d5767ad0c13cad92b netfilter: nf_tables: Fix for duplicate device in netdev hooks
 7cb9a23d7ae40a702577d3d8bacb7026f04ac2a9 netfilter: nf_tables: always walk all pending catchall elements
@@ -33,11 +33,6 @@ cfe770220ac2dbd3e104c6b45094037455da81d4 netfilter: x_tables: guard option walke
 f1ba83755d81c6fc66ac7acd723d238f974091e9 netfilter: nfnetlink_queue: fix entry leak in bridge verdict error path
 6dcee8496d53165b2d8a5909b3050b62ae71fe89 netfilter: nfnetlink_cthelper: fix OOB read in nfnl_cthelper_dump_table()
 329f0b9b48ee6ab59d1ab72fef55fe8c6463a6cf netfilter: xt_IDLETIMER: reject rev0 reuse of ALARM timer labels
-bd98c6204d1195973b1760fe45860863deb6200c drivers: net: ice: fix devlink parameters get without irdma
-efc54fb13d79117a825fef17364315a58682c7ec iavf: fix PTP use-after-free during reset
-fdadbf6e84c44df8dbb85cfdd38bc10e4431501d iavf: fix incorrect reset handling in callbacks
-e809085f492842ce7a519c9ef72d40f4bca89c13 i40e: fix src IP mask checks and memcpy argument names in cloud filter
-e94eaef11142b01f77bf8ba4d0b59720b7858109 e1000/e1000e: Fix leak in DMA error cleanup
 881a0263d502e1a93ebc13a78254e9ad19520232 net: macb: Shuffle the tx ring before enabling tx
 28b225282d44e2ef40e7f46cfdbd5d1b20b8874f page_pool: store detach_time as ktime_t to avoid false-negatives
 2503d08f8a2de618e5c3a8183b250ff4a2e2d52c net: ethernet: arc: emac: quiesce interrupts before requesting IRQ
@@ -63,4 +58,4 @@ dc26ca99b835e21e76a58b1463b84adb0ca34f58 octeontx2-af: devlink: fix NIX RAS repo
 87f7dff3ec75b91def0024ebaaf732457f47a63b octeontx2-af: devlink: fix NIX RAS reporter to use RAS interrupt status
 c38b8f5f791ecce13ab77e2257f8fd2444ba80f6 net: prevent NULL deref in ip[6]tunnel_xmit()
 
---===============9112882169875380025==--
+--===============0369754510719371377==--
