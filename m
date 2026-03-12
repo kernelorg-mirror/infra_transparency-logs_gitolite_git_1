@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6600805145031844631=="
+Content-Type: multipart/mixed; boundary="===============0049716919972158725=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Thu, 12 Mar 2026 20:56:19 -0000
-Message-Id: <177334897996.757122.3906548174748882391@gitolite.kernel.org>
+Date: Thu, 12 Mar 2026 20:56:22 -0000
+Message-Id: <177334898248.757309.12497550308799176310@gitolite.kernel.org>
 
---===============6600805145031844631==
+--===============0049716919972158725==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/10GbE
+  - ref: refs/heads/40GbE
     old: 05e059510edf7b6101ff85db2a2e2d1b6f31ee6d
     new: 8e7adcf81564a3fe886a6270eea7558f063e5538
     log: revlist-05e059510edf-8e7adcf81564.txt
 
---===============6600805145031844631==
+--===============0049716919972158725==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -85,4 +85,4 @@ d69ee992fbf60dc691fed97bafcd2905c7e48832 hinic3: Add chip_present_flag checks to
 6f459eda8b60382efa0da2ca025c26a2018adc87 tcp: add tcp_release_cb_cond() helper
 8e7adcf81564a3fe886a6270eea7558f063e5538 net: ti: icssg: Fix wrong macro used in RX classifier configuration
 
---===============6600805145031844631==--
+--===============0049716919972158725==--
