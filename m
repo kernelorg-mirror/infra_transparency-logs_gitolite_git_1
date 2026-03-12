@@ -1,26 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Thu, 12 Mar 2026 02:14:37 -0000
-Message-Id: <177328167797.3705479.9242709499265721866@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/cip/linux-cip
+Date: Thu, 12 Mar 2026 02:18:27 -0000
+Message-Id: <177328190734.3709369.14726558560699306038@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/linux/kernel/git/cip/linux-cip
+user: iwamatsu
 changes:
-  - ref: refs/heads/main
-    old: 14ad51036c57e91e85b83f61df1d27e347912c32
-    new: ead054054874d7de4c1724e18c1adf90fdb5d7db
+  - ref: refs/heads/linux-6.1.y-cip
+    old: 946590b21bb676539ede03623d3034c6d59d5771
+    new: 4ea169f79d5e697a85ff4522de9080a8d5575e0a
     log: |
-         b7cdc5a97d02c943f4bdde4d5767ad0c13cad92b netfilter: nf_tables: Fix for duplicate device in netdev hooks
-         7cb9a23d7ae40a702577d3d8bacb7026f04ac2a9 netfilter: nf_tables: always walk all pending catchall elements
-         d6d8cd2db236a9dd13dbc2d05843b3445cc964b5 netfilter: nft_set_pipapo: fix stack out-of-bounds read in pipapo_drop()
-         cfe770220ac2dbd3e104c6b45094037455da81d4 netfilter: x_tables: guard option walkers against 1-byte tail reads
-         f1ba83755d81c6fc66ac7acd723d238f974091e9 netfilter: nfnetlink_queue: fix entry leak in bridge verdict error path
-         6dcee8496d53165b2d8a5909b3050b62ae71fe89 netfilter: nfnetlink_cthelper: fix OOB read in nfnl_cthelper_dump_table()
-         329f0b9b48ee6ab59d1ab72fef55fe8c6463a6cf netfilter: xt_IDLETIMER: reject rev0 reuse of ALARM timer labels
-         ead054054874d7de4c1724e18c1adf90fdb5d7db Merge tag 'nf-26-03-10' of https://git.kernel.org/pub/scm/linux/kernel/git/netfilter/nf
+         e4b95469c6a10f816435b1dbc65a8ecea0c7a470 irqchip/renesas-rzv2h: Prevent TINT spurious interrupt during resume
+         ea41c31c31dc67f557806b9be25d1f4a49bf3951 irqchip/renesas-rzv2h: Remove unneeded includes
+         0fb9a8528b4da4ffe69581e1e75e55b2c3335158 irqchip/renesas-rzv2h: Add suspend/resume support
+         a6b276410f590582e9d15b0b07ee8bc7b231be42 dt-bindings: can: renesas,rcar-canfd: Document renesas,fd-only property
+         c21577d080bc9ce5cd97b0193c89f7717e3d38d5 dt-bindings: can: renesas,rcar-canfd: Specify reset-names
+         4ea169f79d5e697a85ff4522de9080a8d5575e0a can: rcar_canfd: Add support for FD-Only mode
          
