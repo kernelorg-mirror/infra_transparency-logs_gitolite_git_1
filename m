@@ -1,21 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mediatek/linux
-Date: Thu, 12 Mar 2026 12:32:31 -0000
-Message-Id: <177331875118.277613.9192996375447528016@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/hid/hid
+Date: Thu, 12 Mar 2026 12:43:57 -0000
+Message-Id: <177331943755.285656.9840499362953699437@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mediatek/linux
-user: angelogioacchino.delregno
+repo: pub/scm/linux/kernel/git/hid/hid
+user: jikos
 changes:
-  - ref: refs/heads/v7.0-next/dts64
-    old: 67549df87fff2a3dc7639439e4aff128b814f109
-    new: 820ed0c1a13c5fafb36232538d793f99a0986ef3
+  - ref: refs/heads/for-7.0/upstream-fixes
+    old: 227312b4a65c373d5d8b4683b7fc36203fedc516
+    new: 70031e70ca15ede6a39db4d978e53a6cc720d454
     log: |
-         c4c4823c8a5baa10b8100b01f49d7c3f4a871689 arm64: dts: mediatek: mt6795: Fix gpio-ranges pin count
-         b62a927f4a46a7f58d88ba3d5fb6e88e1a4b4603 arm64: dts: mediatek: mt7981b: Fix gpio-ranges pin count
-         820ed0c1a13c5fafb36232538d793f99a0986ef3 arm64: dts: mediatek: mt7986a: Fix gpio-ranges pin count
+         70031e70ca15ede6a39db4d978e53a6cc720d454 HID: logitech-hidpp: Enable MX Master 4 over bluetooth
+         
+  - ref: refs/heads/for-next
+    old: 2a6a14a1e26b57f67886e4ea8d615222b80a7298
+    new: db6f1476d4e14dfa7f7243af32d1d10963a6261a
+    log: |
+         70031e70ca15ede6a39db4d978e53a6cc720d454 HID: logitech-hidpp: Enable MX Master 4 over bluetooth
+         db6f1476d4e14dfa7f7243af32d1d10963a6261a Merge branch 'for-7.0/upstream-fixes' into for-next
          
