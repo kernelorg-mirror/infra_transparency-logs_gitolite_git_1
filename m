@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6899862649693666526=="
+Content-Type: multipart/mixed; boundary="===============9112882169875380025=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Thu, 12 Mar 2026 16:23:35 -0000
-Message-Id: <177333261582.470784.8834823798881998557@gitolite.kernel.org>
+Date: Thu, 12 Mar 2026 16:23:38 -0000
+Message-Id: <177333261856.470998.12380614241577204765@gitolite.kernel.org>
 
---===============6899862649693666526==
+--===============9112882169875380025==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/10GbE
+  - ref: refs/heads/40GbE
     old: 73aefba4e2eb713cf7bc4ad83cfc9b5d4f966f6d
     new: c38b8f5f791ecce13ab77e2257f8fd2444ba80f6
     log: revlist-73aefba4e2eb-c38b8f5f791e.txt
 
---===============6899862649693666526==
+--===============9112882169875380025==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -63,4 +63,4 @@ dc26ca99b835e21e76a58b1463b84adb0ca34f58 octeontx2-af: devlink: fix NIX RAS repo
 87f7dff3ec75b91def0024ebaaf732457f47a63b octeontx2-af: devlink: fix NIX RAS reporter to use RAS interrupt status
 c38b8f5f791ecce13ab77e2257f8fd2444ba80f6 net: prevent NULL deref in ip[6]tunnel_xmit()
 
---===============6899862649693666526==--
+--===============9112882169875380025==--
