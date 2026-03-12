@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Thu, 12 Mar 2026 12:31:19 -0000
-Message-Id: <177331867915.276953.16571808695933024186@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mediatek/linux
+Date: Thu, 12 Mar 2026 12:32:31 -0000
+Message-Id: <177331875118.277613.9192996375447528016@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: pabeni
+repo: pub/scm/linux/kernel/git/mediatek/linux
+user: angelogioacchino.delregno
 changes:
-  - ref: refs/heads/main
-    old: 6f459eda8b60382efa0da2ca025c26a2018adc87
-    new: 8e7adcf81564a3fe886a6270eea7558f063e5538
+  - ref: refs/heads/v7.0-next/dts64
+    old: 67549df87fff2a3dc7639439e4aff128b814f109
+    new: 820ed0c1a13c5fafb36232538d793f99a0986ef3
     log: |
-         8e7adcf81564a3fe886a6270eea7558f063e5538 net: ti: icssg: Fix wrong macro used in RX classifier configuration
+         c4c4823c8a5baa10b8100b01f49d7c3f4a871689 arm64: dts: mediatek: mt6795: Fix gpio-ranges pin count
+         b62a927f4a46a7f58d88ba3d5fb6e88e1a4b4603 arm64: dts: mediatek: mt7981b: Fix gpio-ranges pin count
+         820ed0c1a13c5fafb36232538d793f99a0986ef3 arm64: dts: mediatek: mt7986a: Fix gpio-ranges pin count
          
