@@ -1,22 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/b4/b4
-Date: Thu, 12 Mar 2026 04:14:25 -0000
-Message-Id: <177328886543.3816951.7207244925473230009@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/hyperv/linux
+Date: Thu, 12 Mar 2026 04:27:19 -0000
+Message-Id: <177328963969.3828629.13759934821119368848@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/b4/b4
-user: mricon
+repo: pub/scm/linux/kernel/git/hyperv/linux
+user: wei.liu
 changes:
-  - ref: refs/heads/master
-    old: 5874e1702b6e409fd893b536d83b92d1381c5802
-    new: 6488b8c335ac78489e478af04bb27972d3b5768c
+  - ref: refs/heads/hyperv-fixes
+    old: 5a7978e51222bdbe3cf498c21c285fbfc0c20152
+    new: afeb96cb188d44a61033d838fda0acaa11d1ff24
     log: |
-         1adfd2acc1bf350a976f508bfe73b8c72d078db8 review: expose CI check matrix inside the review TUI
-         7e7b337732a23def973c444e912460eabc7f1231 plan: mark CI checks in review TUI as done
-         9496c55b8c845d7978399abd6b4821cbf20cd838 review: add per-series target branch tracking
-         6488b8c335ac78489e478af04bb27972d3b5768c Mark per-series target branch tracking as done in plan
+         edd20cb693d9cb5e3d6fcecd858093dab4e2b0aa Revert "mshv: expose the scrub partition hypercall"
+         3fde5281b805370a6c3bd2ef462ebff70a0ea2c6 x86/hyperv: Use __naked attribute to fix stackless C function
+         3484127c19aca9e93ef6631e7a47bc4f56212da9 x86/hyperv: Save segment registers directly to memory in hv_hvcrash_ctxt_save()
+         2536091d585ac0b60ccf80cbe7a0bf4bfb75ec00 x86/hyperv: Use current_stack_pointer to avoid asm() in hv_hvcrash_ctxt_save()
+         afeb96cb188d44a61033d838fda0acaa11d1ff24 x86/hyperv: Use any general-purpose register when saving %cr2 and %cr8
          
