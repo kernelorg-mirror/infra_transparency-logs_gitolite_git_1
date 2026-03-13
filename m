@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mtd/linux
-Date: Fri, 13 Mar 2026 11:03:35 -0000
-Message-Id: <177339981588.1469586.4721845796467500235@gitolite.kernel.org>
+Subject: post-receive: pub/scm/network/wireless/iwd
+Date: Fri, 13 Mar 2026 11:03:58 -0000
+Message-Id: <177339983874.1469827.8818495073396092899@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mtd/linux
-user: pratyush
+repo: pub/scm/network/wireless/iwd
+user: holtmann
 changes:
-  - ref: refs/heads/spi-nor/next
-    old: 3620d67b48493c6252bbc873dc88dde81641d56b
-    new: 6d660fba6a32a34ad7d746d7f65317831daaf033
+  - ref: refs/heads/master
+    old: c346f2b88de3358c65dfa670a71a6eae15eee0a1
+    new: 92a60ad23dc6bfe1ff0445635d4bf7df97c19fa8
     log: |
-         6d660fba6a32a34ad7d746d7f65317831daaf033 mtd: spi-nor: micron-st: add SNOR_CMD_PP_8_8_8_DTR sfdp fixup for mt35xu512aba
+         92a60ad23dc6bfe1ff0445635d4bf7df97c19fa8 auto-t: fix two issues with testAPRoam
          
