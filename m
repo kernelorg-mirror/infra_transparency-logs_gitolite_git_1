@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0542977033878206201=="
+Content-Type: multipart/mixed; boundary="===============2217039096811053851=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mptcp/linux
-Date: Fri, 13 Mar 2026 10:25:35 -0000
-Message-Id: <177339753588.1439409.10869211497362354393@gitolite.kernel.org>
+Date: Fri, 13 Mar 2026 10:25:53 -0000
+Message-Id: <177339755387.1439980.9231035296305286150@gitolite.kernel.org>
 
---===============0542977033878206201==
+--===============2217039096811053851==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/mptcp/linux
 user: matttbe
 changes:
-  - ref: refs/heads/export
-    old: d3932eb23dbbce637c4c27dccaf6318cd50ca9fb
-    new: 10f244491b3d726f681405ad33d2161b3b2b9c0e
-    log: revlist-d3932eb23dbb-10f244491b3d.txt
+  - ref: refs/heads/export-net
+    old: 20e6ca5bde5b9b2a4b76eb5cbcb87df76c711763
+    new: 7fda02ca12f17d71cd3253d79a405526d44447a5
+    log: revlist-20e6ca5bde5b-7fda02ca12f1.txt
 
---===============0542977033878206201==
+--===============2217039096811053851==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d3932eb23dbb-10f244491b3d.txt
+Content-Disposition: attachment; filename=revlist-20e6ca5bde5b-7fda02ca12f1.txt
 
 f947d9e77b26238b821b5227afb4fee8c7ea0d5a nvme/host: fixup some typos
 ddfb8b322bbd8ae996f4ac0192f0190feb0a01ce nvme: expose active quirks in sysfs
@@ -370,75 +370,25 @@ b4f0dd314b39ea154f62f3bd3115ed0470f9f71e Merge tag 'mm-hotfixes-stable-2026-03-0
 b29fb8829bff243512bb8c8908fd39406f9fd4c3 Merge tag 'v7.0-rc3-ksmbd-server-fixes' of git://git.samba.org/ksmbd
 2b8e3fac9bac1f2bb67571a00bb58851826fe705 Merge tag 'powerpc-7.0-2' of git://git.kernel.org/pub/scm/linux/kernel/git/powerpc/linux
 80234b5ab240f52fa45d201e899e207b9265ef91 Merge tag 'rproc-v7.0-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/remoteproc/linux
-15b5be9389bef46884d9f970b643fedeea19105c hinic3: Add command queue detailed-response interfaces
-678c5b3b6b22f2b9851058e1624156b982891ae8 hinic3: Add Command Queue/Async Event Queue/Complete Event Queue/Mailbox dump interfaces
-d69ee992fbf60dc691fed97bafcd2905c7e48832 hinic3: Add chip_present_flag checks to prevent errors when card is absent
-0f746fc5bc77cb7421ce3f6611bd770db8c4cba8 hinic3: Add RX VLAN offload support
-2a76f900d17dcb9e8322770ac9bcae34517805b3 hinic3: Add msg_send_lock for message sending concurrecy
-3d36efc28078ef314445b8445b174f63bdf9579f hinic3: Add PF device support and function type validation
-33cf53672b6f386585998366c40369834f882ddb hinic3: Add PF FLR wait and timeout handling
-330adcedd0035414b138635fd6b5f61f00cf419f hinic3: Add PF/VF capability parsing and parameter validation
-00608d02ddf04b49c14801f4b0581b1b937bc766 hinic3: Add ethtool basic ops
-52e4d5da6db788c3abc5bbb0e044e761b3540a30 Merge branch 'net-hinic3-pf-initialization'
-4320f1f111c587b8c6c9abc06f43e25bc10b670c dt-bindings: net: qcom,ipa: document qcm2290 compatible
-6f459eda8b60382efa0da2ca025c26a2018adc87 tcp: add tcp_release_cb_cond() helper
-8e7adcf81564a3fe886a6270eea7558f063e5538 net: ti: icssg: Fix wrong macro used in RX classifier configuration
 c38b8f5f791ecce13ab77e2257f8fd2444ba80f6 net: prevent NULL deref in ip[6]tunnel_xmit()
 281f36d4a9970c206c2c44042904d4e34c092fbe Merge tag 'apparmor-pr-mainline-2026-03-09' of git://git.kernel.org/pub/scm/linux/kernel/git/jj/linux-apparmor
 2c7e63d702f6c4209c5af833308e7fcbc7d4ab17 Merge tag 'net-7.0-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
-72374257ede14897ee3d5a709c2498f7b6a1764b Merge git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 e5b31d988a41549037b8d8721a3c3cae893d8670 af_unix: Give up GC if MSG_PEEK intervened.
-29ca18505d58fedf2388c303156107c4ed97197b net: xgbe: use device_get_mac_addr
-00699d944836576d2789eb0cf02d989b975375d7 docs: octeontx2: fix typo in documentation
-7c52f407f28d2e3746a931f88869b0169a09ed6a ynl: ethtool: remove duplicated unspec entry
-6e263aadbaf231bbb73e1fed048b3e3591f06264 net: phy: vitesse: add inband caps and configuration
-b93ec16310b4bfc14af12321257dd7237ef4cce9 genetlink: use maxattr of 0 for the reject policy
-e3a5b7f8ef2abe7b119c1806ee214d648289faf6 genetlink: apply reject policy for split ops on the dispatch path
-e911be835432b1e0fd70d1cc35127de189141f96 selftests: net: make sure that Netlink rejects unknown attrs in dump
-c1f9a89b0c901266028e66cd8e6bdf54c8c3042e selftests: net: add test for Netlink policy dumps
-06fc88a6973fa6203c7c0cd3f5cef9d3405928ca Merge branch 'genetlink-apply-reject-policy-for-split-ops-on-the-dispatch-path'
 3715a00855316066cdda69d43648336367422127 bridge: cfm: Fix race condition in peer_mep deletion
-15abbe7c82661209c1dc67c21903c07e2fff5aae net: page_pool: scale alloc cache with PAGE_SIZE
 e1f0a18c9564cdb16523c802e2c6fe5874e3d944 net/rose: fix NULL pointer dereference in rose_transmit_link on reconnect
 8431c602f551549f082bbfa67f3003f2d8e3e132 ip_tunnel: adapt iptunnel_xmit_stats() to NETDEV_PCPU_STAT_DSTATS
-08dc30de1a402fe88fd80592cf6c72c4c2ebbcbc net: add skb_defer_disable_key static key
 99600f79b28c83c68bae199a3d8e95049a758308 mpls: add missing unregister_netdevice_notifier to mpls_init
-886d56099d947443936298a8f98533768c5ad44b qlcnic: update outdated comment
-8f921f61005450589c0bc1a941a5ddde21d9aed9 netlink: update outdated comment
-81ee14e1ceb6afe6d87dda44740e9479a061d1bf DO-NOT-MERGE: git markup: net
-a6ae83682e3845901f3adc3bda7fd992b364bb1d sched/mmcid: Prevent CID stalls due to concurrent forks
-8c4b547e952b9ea798afc9dedb2837b112116f2c sched/mmcid: Handle vfork()/CLONE_VM correctly
-fdb1a91822b39d10382f022aa5f710ff4bbf1906 sched/mmcid: Remove pointless preempt guard
-ae25df8bba7f6009697d7242a5bf143e21898aba sched/mmcid: Avoid full tasklist walks
-0f0b096cb886a6cd185ee8023746f672228f19c4 DO-NOT-MERGE: git markup: fixes other trees
-796e710ec5144bbce82a1862a01272d7a874e3ea DO-NOT-MERGE: git markup: fixes net
-f2370d63f4d0da1cab0815f3530761da334262e2 DO-NOT-MERGE: mptcp: add CI support
-61230f301dcfa9e5d08927fc75c09cc729cefe74 DO-NOT-MERGE: git markup: end common net net-next
-fd1618da3ca8d0afb13bf746391a183ef74b3aa5 TopGit-driven merge of branches:
-081c8eec1c43556abf5cd636716c0d48c96d2e0a DO-NOT-MERGE: git markup: net-next
-af80b4359f11c07b94250350714b85e96c01b2b5 DO-NOT-MERGE: git markup: fixes net-next
-311211adf2c844bb0ac5f5a73baa9a10536a8d0e mptcp: pm: init and release mptcp_pm_ops
-273dfb91210aa255eeff0335beacfdb087e84b58 mptcp: pm: add get_local_id() interface
-c680747e635556121a51d20a359e2730ee1e9680 mptcp: pm: add get_priority() interface
-f30eb3adc1007bf8455b7deb4a0be6a33ef9398a mptcp: better mptcp-level RTT estimator
-b070dd55eb5b1f52d14849a085903c27737eccfa mptcp: add receive queue awareness in tcp_rcv_space_adjust()
-7258234a98bd2a0de98622dc031a4a5b846fb818 mptcp: pm: in-kernel: remove mptcp_pm_has_addr_attr_id
-c8bd08e720a849ad863a48d8386380a752d01e2b selftests: mptcp: join: recreate signal endp with same ID
-8f20c9df46c87ea3318b25db10253d9cff7ecc28 DO-NOT-MERGE: git markup: features net-next
-a828c755f48336bf0ac590abe6e04987b20494f2 DO-NOT-MERGE: git markup: features net-next-next
-fd42af958cacaf28d45f1bc32cc06c2a76c4235e bpf: Add mptcp_subflow bpf_iter
-d49d414300c976366dabe548b1f7aaaf32fa221e selftests/bpf: More endpoints for endpoint_init
-0172e19f9ae0a95b249747c0dfbaeb9c67658066 selftests/bpf: Drop cgroup_fd of run_mptcpify
-32975ee3ae90095b906bf883956d43211279ac92 bpf: Add mptcp packet scheduler struct_ops
-daa5d23fb64b05da19dcefc9098d5b694339453d bpf: Export mptcp packet scheduler helpers
-0c65ce4d75e38a901a2296e4a267ae25f8756ab9 selftests/bpf: Add bpf scheduler test
-db5e7bd976f1dbab68e3166321880388c242ebf5 selftests/bpf: Add bpf_first scheduler & test
-0539753fd15e766e93d62e83bc93ad94f6bd9ec9 selftests/bpf: Add bpf_bkup scheduler & test
-a41fd379a6db837c0b018a39519d56a335f1020e selftests/bpf: Add bpf_rr scheduler & test
-e9ff1d2110cb113be441126e5457ed9527829b96 selftests/bpf: Add bpf_red scheduler & test
-4dbfe180731a1de21cde01134b9a9d8e13a688c7 selftests/bpf: Add bpf_burst scheduler & test
-09ab5f1aabf82c8deaf11172742abb62739df12e DO-NOT-MERGE: git markup: features other trees
-0a498e56f6052f3451ae8aaf3e39d6abca8955cd DO-NOT-MERGE: mptcp: improve code coverage for CI
-10f244491b3d726f681405ad33d2161b3b2b9c0e DO-NOT-MERGE: mptcp: enabled by default
+03739e507128eb9e5a0dd9451e55f83a0e0563c1 DO-NOT-MERGE: git markup: net
+06388232744edea8e4fbc38c25c6a5fcc4e3f15e sched/mmcid: Prevent CID stalls due to concurrent forks
+18c12d62be576b1d153d310cf2e2cb408a02d9b6 sched/mmcid: Handle vfork()/CLONE_VM correctly
+a6684428809418b30e821d827d35b5243b5ee0f8 sched/mmcid: Remove pointless preempt guard
+25fd40d1809b407289a6848f6d70ab4525897e29 sched/mmcid: Avoid full tasklist walks
+1a507890e9bb56a72dc60a64611e127201a8ea5b DO-NOT-MERGE: git markup: fixes other trees
+187ecc5a9049bff0e11ef2cbf28d2f6247c78c33 DO-NOT-MERGE: git markup: fixes net
+70656a8e8166f40fe74dbddf044c0b8a34685d9a DO-NOT-MERGE: mptcp: add CI support
+30e522a0623e08851a86187f9268b9a211f6ab58 DO-NOT-MERGE: git markup: end common net net-next
+cec69a02d180672d61095ee4754b8b8bcc900ee6 DO-NOT-MERGE: git markup: fixes net only
+0c257a80c565110ed3e41bd4e03a8570f73ec5c4 DO-NOT-MERGE: mptcp: improve code coverage for CI (net)
+7fda02ca12f17d71cd3253d79a405526d44447a5 DO-NOT-MERGE: mptcp: enabled by default (net)
 
---===============0542977033878206201==--
+--===============2217039096811053851==--
