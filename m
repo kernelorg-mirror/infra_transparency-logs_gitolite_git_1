@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/cip/linux-cip
-Date: Fri, 13 Mar 2026 06:15:00 -0000
-Message-Id: <177338250040.1220520.7271606408147991099@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/firmware/linux-firmware
+Date: Fri, 13 Mar 2026 06:30:10 -0000
+Message-Id: <177338341016.1253078.3552644458425638996@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/cip/linux-cip
-user: iwamatsu
+repo: pub/scm/linux/kernel/git/firmware/linux-firmware
+user: jwboyer
 changes:
-  - ref: refs/notes/signatures/tar
-    old: e15a3a8dab57968ee7a38841bc09d774b08a6080
-    new: b543565dfe298140738fbcbc7055e050e340a5f0
+  - ref: refs/heads/main
+    old: b620027052951a9b851590a3876e189b31bb2d97
+    new: 57303edc4101c1003ec45e91652f281ebd2f41b2
     log: |
-         b543565dfe298140738fbcbc7055e050e340a5f0 Notes added by 'git notes add'
+         87414f9ba8f875cb733281652474bccf93313e2f linux-firmware: update firmware for MT7920 WiFi device
+         57303edc4101c1003ec45e91652f281ebd2f41b2 Merge branch 'robot/patch-1-1773363694' into 'main'
          
