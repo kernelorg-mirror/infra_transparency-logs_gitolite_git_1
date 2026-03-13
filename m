@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/andy/linux-auxdisplay
-Date: Fri, 13 Mar 2026 09:59:32 -0000
-Message-Id: <177339597230.1415828.1263117877411169520@gitolite.kernel.org>
+Date: Fri, 13 Mar 2026 10:00:34 -0000
+Message-Id: <177339603464.1418803.6188807467518213169@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,10 +12,8 @@ repo: pub/scm/linux/kernel/git/andy/linux-auxdisplay
 user: andy
 changes:
   - ref: refs/heads/for-next
-    old: 398c0c8bbc8f5a9d2f43863275a427a9d3720b6f
-    new: dd73c22bf63ee7bb42dd4095cf0456aef3f88f8a
+    old: dd73c22bf63ee7bb42dd4095cf0456aef3f88f8a
+    new: 995a418a6ca33e466e5e1527663ae3d5eee18304
     log: |
-         2371c7ae45fdcdca110f022b6c0ab18fe00845f7 auxdisplay: lcd2s: add error handling for i2c transfers
-         f23783d7fc486d6282c351cb10e857cb013a16b6 Revert "auxdisplay: lcd2s: add error handling for i2c transfers"
-         dd73c22bf63ee7bb42dd4095cf0456aef3f88f8a auxdisplay: lcd2s: add error handling for i2c transfers
+         995a418a6ca33e466e5e1527663ae3d5eee18304 auxdisplay: lcd2s: add error handling for i2c transfers
          
