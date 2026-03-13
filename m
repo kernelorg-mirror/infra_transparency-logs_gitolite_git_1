@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/fs/xfs/xfs-linux
-Date: Fri, 13 Mar 2026 14:47:42 -0000
-Message-Id: <177341326238.1653580.6679615703891484859@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools
+Date: Fri, 13 Mar 2026 15:05:46 -0000
+Message-Id: <177341434620.1668189.16572153939121003952@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/fs/xfs/xfs-linux
-user: cem
+repo: pub/scm/linux/kernel/git/perf/perf-tools
+user: acme
 changes:
-  - ref: refs/tags/xfs-fixes-7.0-rc4
+  - ref: refs/tags/perf-tools-fixes-for-v7.0-1-2026-03-13
     old: 0000000000000000000000000000000000000000
-    new: f5bf6f5a33cdb426067d6c15948e8bad88900ac1
+    new: bb0c34955c05c0f2e6e9d1517b479b44d9d27fcc
