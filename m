@@ -1,44 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============5537017338543620680=="
+Content-Type: multipart/mixed; boundary="===============1017640238400066618=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
-Date: Fri, 13 Mar 2026 17:14:42 -0000
-Message-Id: <177342208283.1941247.4980346202633186841@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
+Date: Fri, 13 Mar 2026 17:20:25 -0000
+Message-Id: <177342242506.1947992.11492804024459876978@gitolite.kernel.org>
 
---===============5537017338543620680==
+--===============1017640238400066618==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jlayton/linux
-user: jlayton
+repo: pub/scm/linux/kernel/git/gregkh/usb
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/exportd-netlink
-    old: d9f0692589a76b28a39fa9469620557d1f57915f
-    new: 7e71384e8f4e5aa55059a579ff729615e531a58c
-    log: revlist-d9f0692589a7-7e71384e8f4e.txt
+  - ref: refs/heads/usb-linus
+    old: 8345b1539faa49fcf9c9439c3cbd97dac6eca171
+    new: d0d9b1f4f5391e6a00cee81d73ed2e8f98446d5f
+    log: |
+         d0d9b1f4f5391e6a00cee81d73ed2e8f98446d5f USB: ezcap401 needs USB_QUIRK_NO_BOS to function on 10gbs usb speed
+         
 
---===============5537017338543620680==
+--===============1017640238400066618==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d9f0692589a7-7e71384e8f4e.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-f5cca6edf21fcbee5c49a9c7e3002d555a862138 nfsd: move struct nfsd_genl_rqstp to nfsctl.c
-837c14407dbb78ddff7748eb692fa31458c61e9f sunrpc: rename sunrpc_cache_pipe_upcall() to sunrpc_cache_upcall()
-7ed4a759d9ae095854fbcfec0696140198c5715b sunrpc: rename sunrpc_cache_pipe_upcall_timeout()
-fec82549483bdef9ac7ed9ce3fc502c750bba2c5 sunrpc: rename cache_pipe_upcall() to cache_do_upcall()
-16863e84a96bcee72fc2bbcb4c573e176b91b2f0 sunrpc: add a cache_notify callback
-d24cb508802f537ade36a3637a48be03955f4e84 sunrpc: add helpers to count and snapshot pending cache requests
-e2e3cf92b53da3cb3ce502186b4bf53a136adf17 sunrpc: add a generic netlink family for cache upcalls
-d1d7559d76098c49caa518bac9ec7b1f32685247 sunrpc: add netlink upcall for the auth.unix.ip cache
-bc70d51a082d67532024c98054f47a1820521221 sunrpc: add netlink upcall for the auth.unix.gid cache
-dbaf7d7281c6be82dcf4b0338b257d33b06e2084 nfsd: add new netlink spec for svc_export upcall
-ff90a428bbb7f214cd9a52298e891f5b4f3ac51c nfsd: add netlink upcall for the svc_export cache
-1fc829f398ff927224794b3b7c6b18ab4bf9d8bf nfsd: add netlink upcall for the nfsd.fh cache
-34b0dd1118d393d735bf46170417a613b8378761 sunrpc: add SUNRPC_CMD_CACHE_FLUSH netlink command
-7e71384e8f4e5aa55059a579ff729615e531a58c nfsd: add NFSD_CMD_CACHE_FLUSH netlink command
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1773422422 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
+nonce 1773422420-8f001a72a7be918d07efcc14b90c4b6c80591796
 
---===============5537017338543620680==--
+8345b1539faa49fcf9c9439c3cbd97dac6eca171 d0d9b1f4f5391e6a00cee81d73ed2e8f98446d5f refs/heads/usb-linus
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmm0R1cbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+UWwP/2UyjVspRvvXUq7WOOw5
+riUlZ8EzAgE6RwuKKyw6eC351E7HZdveizzlIHf4UteBC6M3pV46e4lDTfEAm5vr
+tLnYfA/ZR9f7ES3FRJIgNOFto7MTNIZFe9Mx9U0dj8dexwrykVsGlgzXrapMoUgq
+i0Z8CALunEA7FcZ/PNpDAj2AsHJ6SUkTzWPjgfh06c2TIckpAU9XoEz6yUYGj813
+AYaeagO/w+SRYwpvntVXDi74tmUBels08PFpDctiR3mZFWg/H7pssoGPz4C+m8i0
+roiUuhj7nE9jmd0gHgCnWiJt3dD86SVORiOX9Ybw7pVChzTa3Tmk1wTqhod2OO0U
+1y8wr8YKL1nQ8x6evEi7fzUC1GkC5aNfXgohXO18K/OeHZQRrKkgO27TGjmE69sR
+rQ2kZpzHlCeghkoLMiZo4KC9WiSmUtwKZPKwYXS7voCHW51ltQiO/ghEMs4WgpN6
+BJXNuyxSnrwkaedKBSZC82bNMjulBMk3yw8/BzNxDgj2ifU3IcKwalEHL5weMntg
+E17DEWzmX6XwYR9Wz6ZcS4o2l9jhO7M8lYA0v/JSRRrR0pzvONWd+JVj5HeDArqS
+stxz49+SyvaYOPvlASauvQuuzzDiG+SY9svbtFCQMTjCiVEhu0HlJd/4qmUegSue
+Qu8Ucqc6WrfNvoIFyV5GY3o6
+=zyae
+-----END PGP SIGNATURE-----
+
+--===============1017640238400066618==--
