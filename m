@@ -1,20 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/b4/b4
-Date: Fri, 13 Mar 2026 15:41:35 -0000
-Message-Id: <177341649532.1699844.13271742188397087567@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gclement/mvebu
+Date: Fri, 13 Mar 2026 15:46:53 -0000
+Message-Id: <177341681369.1704716.14139243894835849344@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/b4/b4
-user: mricon
+repo: pub/scm/linux/kernel/git/gclement/mvebu
+user: gclement
 changes:
-  - ref: refs/heads/master
-    old: c239ca5071d97af5eacb3c050703ab522f284141
-    new: 3443c1f8aee81805e89fefb2c6fa702e54f527ca
+  - ref: refs/heads/for-next
+    old: ea011d6ee4740a5f7433c27a476cccc08ddecf88
+    new: 6b14ccadcd807bfaac1ebe054d4a749ff859b366
     log: |
-         934720a7b06094cae46b169a417d706f3606b8d2 review: add H keybinding to hide skipped patches
-         3443c1f8aee81805e89fefb2c6fa702e54f527ca review: omit skipped patches from cherry-pick thanks summary
+         edb7efa767da8bb82d724b85178be251ec4e060e dt-bindings: arm64: add Marvell 7k COMe boards
+         c7582a8247375adb5d8c7f4a0d4d33fa2d237c81 Merge branch 'mvebu/dt' into mvebu/for-next
+         6b14ccadcd807bfaac1ebe054d4a749ff859b366 Merge branch 'mvebu/dt64' into mvebu/for-next
          
