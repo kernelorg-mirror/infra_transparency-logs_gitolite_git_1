@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1012061274949923497=="
+Content-Type: multipart/mixed; boundary="===============1344461145268235007=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Fri, 13 Mar 2026 06:07:15 -0000
-Message-Id: <177338203554.1215580.7724932667942858660@gitolite.kernel.org>
+Date: Fri, 13 Mar 2026 06:07:41 -0000
+Message-Id: <177338206171.1215911.3607091023653284527@gitolite.kernel.org>
 
---===============1012061274949923497==
+--===============1344461145268235007==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,15 +16,51 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: 28fe1e63303d5a8c282d11713327067f49ce97ac
-    new: 5f26d0cb7298a1f13c50e6daf9d91b29d92d98ba
-    log: revlist-28fe1e63303d-5f26d0cb7298.txt
+    old: 5f26d0cb7298a1f13c50e6daf9d91b29d92d98ba
+    new: 6850c16b4e898f06a236c7d3166d8c915b6f7a83
+    log: revlist-5f26d0cb7298-6850c16b4e89.txt
+  - ref: refs/heads/tip/urgent
+    old: 2c7beb738f35e9e1256bca20fa97af41c6fd2cce
+    new: 1b24192a0fe858c56d732c3d93f3b9fd1d005b6f
+    log: revlist-2c7beb738f35-1b24192a0fe8.txt
 
---===============1012061274949923497==
+--===============1344461145268235007==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-28fe1e63303d-5f26d0cb7298.txt
+Content-Disposition: attachment; filename=revlist-5f26d0cb7298-6850c16b4e89.txt
+
+f29966b0b01be5fbccbb88dc000488c2195af742 Merge branch into tip/master: 'irq/urgent'
+1bdfd854f46cb1582faf8657454d9006049a8a2d Merge branch into tip/master: 'objtool/urgent'
+b3bd084e63be9fba0cdf17d69dfa79fd93845fad Merge branch into tip/master: 'sched/urgent'
+f206f15768c0bd00c1cf28d3a40a23cfd4989f94 Merge branch into tip/master: 'timers/urgent'
+1b24192a0fe858c56d732c3d93f3b9fd1d005b6f Merge branch into tip/master: 'x86/urgent'
+43f36b2d93fccea21e463fe40b1d95d4fad89029 Merge branch into tip/master: 'sched/merge'
+f11e19411588df76a7fdb3c79fc333d7698413e2 Merge branch into tip/master: 'irq/core'
+9fa3de7f8a9558fbe10fd2a64d5d41d5c9e4e196 Merge branch into tip/master: 'irq/drivers'
+f9adf1e73687312bfa8dbd17c4b8042c0f44dbdc Merge branch into tip/master: 'irq/msi'
+d94ccbf30d77414cfb71234f7128b170fa4d4d0f Merge branch into tip/master: 'locking/core'
+a3de183c06d2be6de35f4a3bc3acb58bf33742cf Merge branch into tip/master: 'locking/futex'
+ecbf3fcf2eced590be802d0fc6063289cf20cec0 Merge branch into tip/master: 'objtool/core'
+e7b6a1ed2aa2fd8530a6edbba8b7bee2c7912b34 Merge branch into tip/master: 'perf/core'
+2767765cadd681f74041c469ee2cbfdb8d96677a Merge branch into tip/master: 'ras/core'
+cc20416ec6458670bac0ca66e380c57112c0b84d Merge branch into tip/master: 'sched/core'
+360d9d043b527bca1d251de06223f0fa83f51945 Merge branch into tip/master: 'sched/hrtick'
+6664403d0d527cfe391c2d6d03504d14159ce1a0 Merge branch into tip/master: 'timers/core'
+7cb26f46e8e191fd70421f2e13670fbd2fc448d1 Merge branch into tip/master: 'timers/vdso'
+cd6f73ffe4fad5cf3e91cd2abc6dee56d5f5ee14 Merge branch into tip/master: 'x86/cleanups'
+be680c8aad06b3069183d90dfdbef2e438840f71 Merge branch into tip/master: 'x86/cpu'
+5ab7b4abf845f0018a2e56d79e0017572783cd74 Merge branch into tip/master: 'x86/microcode'
+dbed9d117896558f2527f861d36a8296827b2cd2 Merge branch into tip/master: 'x86/misc'
+7302cdc280c4c0fcc57d093140aa1a227732c959 Merge branch into tip/master: 'x86/mm'
+ad2a53d0e786c78066badf8c13c7c2a1e4decd8c Merge branch into tip/master: 'x86/sev'
+6850c16b4e898f06a236c7d3166d8c915b6f7a83 Merge branch into tip/master: 'x86/tdx'
+
+--===============1344461145268235007==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-2c7beb738f35-1b24192a0fe8.txt
 
 410666a298c34ebd57256fde6b24c96bd23059a2 nfs: return EISDIR on nfs3_proc_create if d_alias is a dir
 7b6275c80a0c81c5f8943272292dfe67730ce849 xprtrdma: Decrement re_receiving on the early exit paths
@@ -150,6 +186,10 @@ e0b38d286eef4633d231859e47679772db07db07 Merge tag 'for-7.0-rc3-tag' of git://gi
 8004279c41adf3238ba71931219205cd1f59343b Merge tag 'nfs-for-7.0-2' of git://git.linux-nfs.org/projects/anna/linux-nfs
 61c0b2ae734fc9d33ede9cbf7d3cad67a7b0ce28 Merge tag 'acpi-7.0-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
 0257f64bdac7fdca30fa3cae0df8b9ecbec7733a Merge tag 'pm-7.0-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
-5f26d0cb7298a1f13c50e6daf9d91b29d92d98ba Merge branch 'linus'
+f29966b0b01be5fbccbb88dc000488c2195af742 Merge branch into tip/master: 'irq/urgent'
+1bdfd854f46cb1582faf8657454d9006049a8a2d Merge branch into tip/master: 'objtool/urgent'
+b3bd084e63be9fba0cdf17d69dfa79fd93845fad Merge branch into tip/master: 'sched/urgent'
+f206f15768c0bd00c1cf28d3a40a23cfd4989f94 Merge branch into tip/master: 'timers/urgent'
+1b24192a0fe858c56d732c3d93f3b9fd1d005b6f Merge branch into tip/master: 'x86/urgent'
 
---===============1012061274949923497==--
+--===============1344461145268235007==--
