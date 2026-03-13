@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3495902753279891858=="
+Content-Type: multipart/mixed; boundary="===============4809571856789811407=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Fri, 13 Mar 2026 02:35:09 -0000
-Message-Id: <177336930905.1029700.1571558742418895536@gitolite.kernel.org>
+Date: Fri, 13 Mar 2026 02:35:11 -0000
+Message-Id: <177336931118.1029912.5318598305443690362@gitolite.kernel.org>
 
---===============3495902753279891858==
+--===============4809571856789811407==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/mm-new
-    old: f543926f9d0c3f6dfb354adfe7fbaeedd1277c6b
-    new: 593fab843afbd6800243552aebcc61d02d3cdcb2
-    log: revlist-f543926f9d0c-593fab843afb.txt
+  - ref: refs/heads/mm-unstable
+    old: 5db38fe62076a8d010a9669ed8df8c4fe7d440ef
+    new: 61ff9df3809c7c2a36d6f154cb46d9b32ba3b4f7
+    log: revlist-5db38fe62076-61ff9df3809c.txt
 
---===============3495902753279891858==
+--===============4809571856789811407==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f543926f9d0c-593fab843afb.txt
+Content-Disposition: attachment; filename=revlist-5db38fe62076-61ff9df3809c.txt
 
 46981acb8c168ae590e6acdebb3a2c4dba8477b7 riscv: avoid early page_to_phys()
 2a15ad541baf67e115fd60ab8c7d7189c27f5285 mailmap: update email address for Muhammad Usama Anjum
@@ -370,36 +370,5 @@ da45d80f422cc5d958af6aa0a7de31f256da2092 selftest: memcg: skip memcg_sock test i
 a0c29517462ee59b0a39cc425d322813bd6f0c9b mm: optimize the implementation of WARN_ON_ONCE_GFP()
 4832f6a9ae9a2564aea7ad74ef1ed27016a0ccc8 mm: migrate: requeue destination folio on deferred split queue
 61ff9df3809c7c2a36d6f154cb46d9b32ba3b4f7 kasan: update outdated comment
-c2e9220f964bb79acde6757243ec77f27829fb4b mm/userfaultfd: fix hugetlb fault mutex hash calculation
-c2f9cca308222715480ca74c346715563fe0f4eb mm/mremap: correct invalid map count check
-65d606f0bacd96aba87789ed9c17a9df15b19c0c mm: abstract reading sysctl_max_map_count, and READ_ONCE()
-c79b72076caf7dfc1f9ae7328d0e8d852dc454b8 mm/mremap: check map count under mmap write lock and abstract
-f062f8650608da5c563ee76167ab31aee0bbd957 mm/damon/core: fix wrong end address assignment on walk_system_ram()
-df434afda1af4893be6a8fea3c300ce0d397fbff mm/damon/core: support addr_unit on damon_find_biggest_system_ram()
-02fcd3582daefe8936231a2520a304d5f1f0a4ac mm/damon/core: receive addr_unit on damon_set_region_biggest_system_ram_default()
-d41e57cd0ccdb87af43c6b0298cdc3fec0ee568a mm/damon/reclaim: respect addr_unit on default monitoring region setup
-1f4fec3960260b9482edb12a84dbab5c0b7f2c95 mm/damon/lru_sort: respect addr_unit on default monitoring region setup
-4e73f065ca283b67becfada2238ed54d33f0b5ff mm: consolidate anonymous folio PTE mapping into helpers
-a570aaea223c788ae594085a5cdce705424ecf1e mm: introduce is_pmd_order helper
-389e729383d7d935f8617a52e6db3b4de5cc4f34 mm/khugepaged: define KHUGEPAGED_MAX_PTES_LIMIT as HPAGE_PMD_NR - 1
-aef0c27700d379ac43fb165aa1d181951ed10c21 mm/khugepaged: rename hpage_collapse_* to collapse_*
-263896b7d94c6fed6fe8c51889cf56a5c95356cc mm/khugepaged: unify khugepaged and madv_collapse with collapse_single_pmd()
-98b542c270bd1a07e7becbcd558e523ac2253bda mm: various small mmap_prepare cleanups
-0c128c16d8ca3c1c8f84f36726266f2914c21d84 mm-various-small-mmap_prepare-cleanups-fix
-a6cdd3274e8a03e218fe6bf3ef711902adb76727 mm: add documentation for the mmap_prepare file operation callback
-f0701e0aff0e488c5ecf5bcfb8fe67f8d826eec3 mm: document vm_operations_struct->open the same as close()
-ad68be55c3869dea11506438945c216ef5c4a1d8 mm: add vm_ops->mapped hook
-5fcb854952acd50b65baa80d2297938e26d24947 fs: afs: correctly drop reference count on mapping failure
-4497bb545a2219542978c41bc120b6be1c5c0812 mm: add mmap_action_simple_ioremap()
-9e5ee548210303701974634651e2d055504d383b misc: open-dice: replace deprecated mmap hook with mmap_prepare
-ab71743b016a4bc6146ebf8ee793fe85f2c5db58 hpet: replace deprecated mmap hook with mmap_prepare
-5dd23248c0b132857b96064bdca85a5ae786a60c mtdchar: replace deprecated mmap hook with mmap_prepare, clean up
-063f045c56d47fd262b91d50693f2c06bf5944a4 stm: replace deprecated mmap hook with mmap_prepare
-602c1be5c158249a9588b175c356b69e2db40c81 staging: vme_user: replace deprecated mmap hook with mmap_prepare
-dc432df2e73bf276779f809f6f562d24cee235c4 mm: allow handling of stacked mmap_prepare hooks in more drivers
-e347589d1bf8fe4ef722cd34e3dc0692b3edc4cb drivers: hv: vmbus: replace deprecated mmap hook with mmap_prepare
-7af854a6dc962b384c1b7b210660e89439c5bb84 uio: replace deprecated mmap hook with mmap_prepare in uio_info
-32619dc7258fba6741537f12e352e580cd4397f1 mm: add mmap_action_map_kernel_pages[_full]()
-593fab843afbd6800243552aebcc61d02d3cdcb2 mm-add-mmap_action_map_kernel_pages-fix
 
---===============3495902753279891858==--
+--===============4809571856789811407==--
