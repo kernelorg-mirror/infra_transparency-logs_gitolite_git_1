@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2696145404224270879=="
+Content-Type: multipart/mixed; boundary="===============5195811715467445929=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Fri, 13 Mar 2026 17:45:01 -0000
-Message-Id: <177342390109.1967183.3289602626028450607@gitolite.kernel.org>
+Date: Fri, 13 Mar 2026 17:45:04 -0000
+Message-Id: <177342390423.1969269.10764484649974637463@gitolite.kernel.org>
 
---===============2696145404224270879==
+--===============5195811715467445929==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/40GbE
+  - ref: refs/heads/100GbE
     old: c38b8f5f791ecce13ab77e2257f8fd2444ba80f6
     new: 99600f79b28c83c68bae199a3d8e95049a758308
     log: revlist-c38b8f5f791e-99600f79b28c.txt
 
---===============2696145404224270879==
+--===============5195811715467445929==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -378,4 +378,4 @@ e1f0a18c9564cdb16523c802e2c6fe5874e3d944 net/rose: fix NULL pointer dereference 
 8431c602f551549f082bbfa67f3003f2d8e3e132 ip_tunnel: adapt iptunnel_xmit_stats() to NETDEV_PCPU_STAT_DSTATS
 99600f79b28c83c68bae199a3d8e95049a758308 mpls: add missing unregister_netdevice_notifier to mpls_init
 
---===============2696145404224270879==--
+--===============5195811715467445929==--
