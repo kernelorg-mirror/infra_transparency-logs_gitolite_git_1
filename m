@@ -1,56 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============1017640238400066618=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Fri, 13 Mar 2026 17:20:25 -0000
-Message-Id: <177342242506.1947992.11492804024459876978@gitolite.kernel.org>
-
---===============1017640238400066618==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/wsa/linux
+Date: Fri, 13 Mar 2026 17:20:53 -0000
+Message-Id: <177342245336.1948359.4931673095734703090@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/usb
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/wsa/linux
+user: wsa
 changes:
-  - ref: refs/heads/usb-linus
-    old: 8345b1539faa49fcf9c9439c3cbd97dac6eca171
-    new: d0d9b1f4f5391e6a00cee81d73ed2e8f98446d5f
+  - ref: refs/heads/renesas/n1d/enablement
+    old: 0ddd88d8f5991d629a2e925dbd7414b497346447
+    new: 986b42d2dea965257fc9bd827497eb1d30475551
     log: |
-         d0d9b1f4f5391e6a00cee81d73ed2e8f98446d5f USB: ezcap401 needs USB_QUIRK_NO_BOS to function on 10gbs usb speed
+         3682e8694a82eebf1b951f2d6657c77989c79d6b watchdog: rzn1: Fix reverse xmas tree declaration
+         7cda029440e3cebf92a2a9f0f8a41e9e5ca14dcf watchdog: rzn1: Use dev_err_probe()
+         f445477d2fb39fadce2b459d7973f29f3d0abc4a clk: renesas: r9a06g032: Enable watchdog reset sources
+         986b42d2dea965257fc9bd827497eb1d30475551 watchdog: rzn1: remove now obsolete interrupt support
          
-
---===============1017640238400066618==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1773422422 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1773422420-8f001a72a7be918d07efcc14b90c4b6c80591796
-
-8345b1539faa49fcf9c9439c3cbd97dac6eca171 d0d9b1f4f5391e6a00cee81d73ed2e8f98446d5f refs/heads/usb-linus
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmm0R1cbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+UWwP/2UyjVspRvvXUq7WOOw5
-riUlZ8EzAgE6RwuKKyw6eC351E7HZdveizzlIHf4UteBC6M3pV46e4lDTfEAm5vr
-tLnYfA/ZR9f7ES3FRJIgNOFto7MTNIZFe9Mx9U0dj8dexwrykVsGlgzXrapMoUgq
-i0Z8CALunEA7FcZ/PNpDAj2AsHJ6SUkTzWPjgfh06c2TIckpAU9XoEz6yUYGj813
-AYaeagO/w+SRYwpvntVXDi74tmUBels08PFpDctiR3mZFWg/H7pssoGPz4C+m8i0
-roiUuhj7nE9jmd0gHgCnWiJt3dD86SVORiOX9Ybw7pVChzTa3Tmk1wTqhod2OO0U
-1y8wr8YKL1nQ8x6evEi7fzUC1GkC5aNfXgohXO18K/OeHZQRrKkgO27TGjmE69sR
-rQ2kZpzHlCeghkoLMiZo4KC9WiSmUtwKZPKwYXS7voCHW51ltQiO/ghEMs4WgpN6
-BJXNuyxSnrwkaedKBSZC82bNMjulBMk3yw8/BzNxDgj2ifU3IcKwalEHL5weMntg
-E17DEWzmX6XwYR9Wz6ZcS4o2l9jhO7M8lYA0v/JSRRrR0pzvONWd+JVj5HeDArqS
-stxz49+SyvaYOPvlASauvQuuzzDiG+SY9svbtFCQMTjCiVEhu0HlJd/4qmUegSue
-Qu8Ucqc6WrfNvoIFyV5GY3o6
-=zyae
------END PGP SIGNATURE-----
-
---===============1017640238400066618==--
