@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4425696288989721998=="
+Content-Type: multipart/mixed; boundary="===============7378645061362969849=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Fri, 13 Mar 2026 20:11:18 -0000
-Message-Id: <177343267878.2087026.7796506680455041401@gitolite.kernel.org>
+Date: Fri, 13 Mar 2026 20:11:21 -0000
+Message-Id: <177343268166.2087113.12521435152105906003@gitolite.kernel.org>
 
---===============4425696288989721998==
+--===============7378645061362969849==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
+  - ref: refs/heads/10GbE
     old: 8e7adcf81564a3fe886a6270eea7558f063e5538
     new: 8f921f61005450589c0bc1a941a5ddde21d9aed9
     log: revlist-8e7adcf81564-8f921f610054.txt
 
---===============4425696288989721998==
+--===============7378645061362969849==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -470,4 +470,4 @@ c1f9a89b0c901266028e66cd8e6bdf54c8c3042e selftests: net: add test for Netlink po
 886d56099d947443936298a8f98533768c5ad44b qlcnic: update outdated comment
 8f921f61005450589c0bc1a941a5ddde21d9aed9 netlink: update outdated comment
 
---===============4425696288989721998==--
+--===============7378645061362969849==--
