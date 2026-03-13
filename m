@@ -1,48 +1,55 @@
-Content-Type: multipart/mixed; boundary="===============9197379963539581177=="
+Content-Type: multipart/mixed; boundary="===============7972563716548732500=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ti/linux
-Date: Fri, 13 Mar 2026 06:05:18 -0000
-Message-Id: <177338191802.1204091.15236731229976543681@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Fri, 13 Mar 2026 06:06:44 -0000
+Message-Id: <177338200408.1215176.9961540546781948824@gitolite.kernel.org>
 
---===============9197379963539581177==
+--===============7972563716548732500==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ti/linux
-user: vigneshr
+repo: pub/scm/linux/kernel/git/tip/tip
+user: mingo
 changes:
-  - ref: refs/heads/ti-next
-    old: 6de23f81a5e08be8fbf5e8d7e9febc72a5b5f27f
-    new: c9c61275fd270c09e1dfe82794f90ad10604fd5d
-    log: revlist-6de23f81a5e0-c9c61275fd27.txt
+  - ref: refs/heads/master
+    old: 2a1b7d913ac4e1bc24cb6b21cceda4cb84817c9f
+    new: 28fe1e63303d5a8c282d11713327067f49ce97ac
+    log: revlist-2a1b7d913ac4-28fe1e63303d.txt
 
---===============9197379963539581177==
+--===============7972563716548732500==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6de23f81a5e0-c9c61275fd27.txt
+Content-Disposition: attachment; filename=revlist-2a1b7d913ac4-28fe1e63303d.txt
 
-b349c778a8f49cc85a585ab9bbe35d9d84c6383f arm64: dts: ti: k3-am62l: support cpufreq scaling
-222191225e69711089ecade3b98d79757d51e907 arm64: dts: ti: k3-am69-aquila-dev: Fix DP regulator enable GPIO
-8cfb2e517113543e0de9e8df5754d5e09cb3627e arm64: dts: ti: k3-am69-aquila-clover: Fix DP regulator enable GPIO
-2af52683ecd85ae33dcd52eaddef6d592da5492a arm64: dts: ti: k3-am62-phycore-som: Add 128MiB of global CMA
-d170388d5c80d3812811b02fe0ce13a5f90796d0 arm64: dts: ti: k3-am62d2-evm: Set wakeup-source system-states
-e5452968a4b04f93bf9b778ccfd00f79e4d4f529 arm64: dts: ti: k3-am62l: include WKUP_UART0 in wakeup peripheral window
-f177b48ac038ddf131d05099ce6b05eae946db08 arm64: boot: dts: ti: k3-am62l-wakeup: create label for wkup_uart0 target-module
-54217686642ac0007d4e0c8032c0250dd9b29f91 arm64: boot: dts: ti: k3-am62l3-evm: define wkup_uart0 pins
-3865126f0e5b497e2a94eaaba56464ac4ce8faef arm64: boot: dts: ti: k3-am62l3-evm: enable wkup_uart0_target node
-2870e4deda9cd7e63ab140ad1df7904d4708f851 arm64: dts: ti: k3-am642-{evm,sk}: add ti,min-output-impedance
-48c2db8733ea3c03e4081268a6b1031ec5e5a186 arm64: dts: ti: k3-am654-base-board: add ti,min-output-impedance
-bd24b82e1f98994519b48b2f491334a764710caf arm64: dts: ti: k3-j7200-common-proc-board: add ti,min-output-impedance
-6195b626bbb76415409d0eb4f5f9547cc2765ee0 arm64: dts: ti: k3-j721e-common-proc-board: add ti,min-output-impedance
-0625c6af7f91d4739a2508bc9fa5f1a48fd98a8a arm64: dts: ti: k3-j721s2-common-proc-board: Add QSPI flash partition details
-852d2c0cc231806b9a3e9cd9e965c08342a27d66 arm64: dts: ti: remove the Kontron SMARC-sAM67
-8b0260457b0bced7e782f000c1d4c10668bf7cb2 dt-bindings: mfd: sl28cpld: Drop sa67mcu compatible
-41a7b57152ffbf3ab8ab1110f831b1f53c2f9b88 dt-bindings: arm: ti: Drop Kontron SMARC-sAM67 module
-c9c61275fd270c09e1dfe82794f90ad10604fd5d arm64: dts: ti: k3-am62l-main: Add RNG node
+bee9f4178b4a3fec70414c82ddc4bceff182f2ba x86/mce, EDAC/mce_amd: Reorder SMCA bank type enums
+b595a009726b706fdadedace90c54831e19188e2 x86/mce, EDAC/mce_amd: Update CS bank type naming
+b90d398138ab3088d168cacb2c3d5248feaa1ef7 x86/mce, EDAC/mce_amd: Add new SMCA bank types
+1e4a70e0f64f8362653e81ad6a32c508b555dd23 Merge branch 'sched/hrtick' into timers/core
+49b76317592ecbaefd0969d51d02019966cc994b sched/wait: correct kernel-doc descriptions
+8d16e3c6f844823812f872df5ef1d3d2ed11b956 sched/fair: Fix comma operator misuse in NUMA fault accounting
+5aa9383813aca45b914d4a7481ca417ef13114df scripts/gdb: timerlist: Adapt to move of tk_core
+754e38d2d1aeeadddac5220f34e07cf263502a46 tracing: Use explicit array size instead of sentinel elements in symbol printing
+bb2705b4e03605532b429525cc8d1e9a2afe3e00 timer_list: Print offset as signed integer
+ba546d3d895c5190a4c16d92e1ecff7c0b4ee9b3 timekeeping/auxclock: Consistently use raw timekeeper for tk_setup_internals()
+112c685f02114d02efe0a14535abcb86fe9e464e timekeeping: Mark offsets array as const
+8ef2807042d0886a85bbcb0aba1a2a277680dc4a hrtimer: Remove hrtimer_get_expires_ns()
+194675f16d7307a0109b54cf350ef9f81617f006 hrtimer: Don't zero-initialize ret in hrtimer_nanosleep()
+b94c076dd949426d09e5d415304acb3f951d9069 hrtimer: Drop spurious space in 'enum hrtimer_base_type'
+bd803783dfa7ddd5e1d44a6abfeee26fdc3a2db7 hrtimer: Drop unnecessary pointer indirection in hrtimer_expire_entry event
+f12ef5cb4e035e15f0c324c41ff402441578ffda hrtimer: Mark index and clockid of clock base as const
+f27fc117cf8fba56e0619694e685f9bca9b9cb82 hrtimer: Remove trailing comma after HRTIMER_MAX_CLOCK_BASES
+88c316ff7694ddf55d5a0fe42602ae83bee560aa hrtimer: Add a helper to retrieve a hrtimer from its timerqueue node
+2a14f7c5ee790d9e49ec7df8efa7eb9446028d7e parisc: Remove unused clocksource flags
+ced7072a3ad65698f0ad378c8f8566379fe50723 MIPS: Don't select CLOCKSOURCE_WATCHDOG
+79ccb0693a99e1b91eba95c6bd32a3e02be156ae x86/tsc: Handle CLOCK_SOURCE_VALID_FOR_HRES correctly
+1432f9d4e8aa2d7585b678bdd0b740597af00d6e clocksource: Don't use non-continuous clocksources as watchdog
+9e1c75269afda013560e0a00e0d3b6bbe3ae8478 Merge branch into tip/master: 'ras/core'
+6020b685a92d2cbecb2fe4e6bb6e70fbe9805205 Merge branch into tip/master: 'sched/core'
+28fe1e63303d5a8c282d11713327067f49ce97ac Merge branch into tip/master: 'timers/core'
 
---===============9197379963539581177==--
+--===============7972563716548732500==--
