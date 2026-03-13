@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Fri, 13 Mar 2026 00:56:16 -0000
-Message-Id: <177336337663.945319.17928428168385291548@gitolite.kernel.org>
+Date: Fri, 13 Mar 2026 01:18:16 -0000
+Message-Id: <177336469626.966836.8311167015104525403@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,10 +12,12 @@ repo: pub/scm/linux/kernel/git/netdev/net-next
 user: kuba
 changes:
   - ref: refs/heads/main
-    old: 29ca18505d58fedf2388c303156107c4ed97197b
-    new: 6e263aadbaf231bbb73e1fed048b3e3591f06264
+    old: 6e263aadbaf231bbb73e1fed048b3e3591f06264
+    new: 06fc88a6973fa6203c7c0cd3f5cef9d3405928ca
     log: |
-         00699d944836576d2789eb0cf02d989b975375d7 docs: octeontx2: fix typo in documentation
-         7c52f407f28d2e3746a931f88869b0169a09ed6a ynl: ethtool: remove duplicated unspec entry
-         6e263aadbaf231bbb73e1fed048b3e3591f06264 net: phy: vitesse: add inband caps and configuration
+         b93ec16310b4bfc14af12321257dd7237ef4cce9 genetlink: use maxattr of 0 for the reject policy
+         e3a5b7f8ef2abe7b119c1806ee214d648289faf6 genetlink: apply reject policy for split ops on the dispatch path
+         e911be835432b1e0fd70d1cc35127de189141f96 selftests: net: make sure that Netlink rejects unknown attrs in dump
+         c1f9a89b0c901266028e66cd8e6bdf54c8c3042e selftests: net: add test for Netlink policy dumps
+         06fc88a6973fa6203c7c0cd3f5cef9d3405928ca Merge branch 'genetlink-apply-reject-policy-for-split-ops-on-the-dispatch-path'
          
