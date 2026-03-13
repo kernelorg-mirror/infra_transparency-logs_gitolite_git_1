@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mtd/linux
-Date: Fri, 13 Mar 2026 10:48:24 -0000
-Message-Id: <177339890434.1457200.8904666861337965675@gitolite.kernel.org>
+Subject: post-receive: pub/scm/libs/ell/ell
+Date: Fri, 13 Mar 2026 10:50:15 -0000
+Message-Id: <177339901545.1460126.5999883436883045593@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mtd/linux
-user: pratyush
+repo: pub/scm/libs/ell/ell
+user: holtmann
 changes:
-  - ref: refs/heads/spi-nor/next
-    old: 756564a536ecd8c9d33edd89f0647a91a0b03587
-    new: 3620d67b48493c6252bbc873dc88dde81641d56b
+  - ref: refs/heads/master
+    old: fd7c364d5be88c0ee7031e7370d29bdbbcb3a9ae
+    new: d56516c373b3089dae8097517db4c3e2dca14032
     log: |
-         3620d67b48493c6252bbc873dc88dde81641d56b mtd: spi-nor: update spi_nor_fixups::post_sfdp() documentation
+         d56516c373b3089dae8097517db4c3e2dca14032 test: only flag parse tests as little-endian-only in test-gvariant-message
          
