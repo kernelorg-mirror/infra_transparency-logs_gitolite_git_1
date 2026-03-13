@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/andy/linux-auxdisplay
-Date: Fri, 13 Mar 2026 10:00:58 -0000
-Message-Id: <177339605844.1419145.2936983745531143566@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/i3c/linux
+Date: Fri, 13 Mar 2026 10:02:46 -0000
+Message-Id: <177339616600.1419909.1030106832142840400@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/andy/linux-auxdisplay
-user: andy
+repo: pub/scm/linux/kernel/git/i3c/linux
+user: abelloni
 changes:
-  - ref: refs/heads/fixes
-    old: 398c0c8bbc8f5a9d2f43863275a427a9d3720b6f
-    new: 995a418a6ca33e466e5e1527663ae3d5eee18304
+  - ref: refs/heads/i3c/next
+    old: 3ca992dd980f6befccbd06a6ed0b53f006bd839d
+    new: 8ecd876fdaedac3d6459801b7d1d8d9638037b28
     log: |
-         995a418a6ca33e466e5e1527663ae3d5eee18304 auxdisplay: lcd2s: add error handling for i2c transfers
+         8ecd876fdaedac3d6459801b7d1d8d9638037b28 i3c: master: use kzalloc_flex
          
