@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5403127997607944212=="
+Content-Type: multipart/mixed; boundary="===============9197379963539581177=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ti/linux
-Date: Fri, 13 Mar 2026 06:04:31 -0000
-Message-Id: <177338187147.1192756.688210194100265713@gitolite.kernel.org>
+Date: Fri, 13 Mar 2026 06:05:18 -0000
+Message-Id: <177338191802.1204091.15236731229976543681@gitolite.kernel.org>
 
---===============5403127997607944212==
+--===============9197379963539581177==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ti/linux
 user: vigneshr
 changes:
-  - ref: refs/heads/ti-k3-dts-next
+  - ref: refs/heads/ti-next
     old: 6de23f81a5e08be8fbf5e8d7e9febc72a5b5f27f
     new: c9c61275fd270c09e1dfe82794f90ad10604fd5d
     log: revlist-6de23f81a5e0-c9c61275fd27.txt
 
---===============5403127997607944212==
+--===============9197379963539581177==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -45,4 +45,4 @@ bd24b82e1f98994519b48b2f491334a764710caf arm64: dts: ti: k3-j7200-common-proc-bo
 41a7b57152ffbf3ab8ab1110f831b1f53c2f9b88 dt-bindings: arm: ti: Drop Kontron SMARC-sAM67 module
 c9c61275fd270c09e1dfe82794f90ad10604fd5d arm64: dts: ti: k3-am62l-main: Add RNG node
 
---===============5403127997607944212==--
+--===============9197379963539581177==--
