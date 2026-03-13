@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/libs/ell/ell
-Date: Fri, 13 Mar 2026 10:50:15 -0000
-Message-Id: <177339901545.1460126.5999883436883045593@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ukleinek/linux
+Date: Fri, 13 Mar 2026 10:58:10 -0000
+Message-Id: <177339949062.1465165.15934501564994450911@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/libs/ell/ell
-user: holtmann
+repo: pub/scm/linux/kernel/git/ukleinek/linux
+user: ukleinek
 changes:
-  - ref: refs/heads/master
-    old: fd7c364d5be88c0ee7031e7370d29bdbbcb3a9ae
-    new: d56516c373b3089dae8097517db4c3e2dca14032
+  - ref: refs/heads/pwm/for-next
+    old: b52db5af2c50cad0690b455a53ad2b886c8a25a5
+    new: 07bee454fbf45fa36fdd505d97840b5412fde2e8
     log: |
-         d56516c373b3089dae8097517db4c3e2dca14032 test: only flag parse tests as little-endian-only in test-gvariant-message
+         07bee454fbf45fa36fdd505d97840b5412fde2e8 MAINTAINERS: Add #linux-pwm irc channel to pwm entry
          
