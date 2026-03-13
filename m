@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/b4/b4
-Date: Fri, 13 Mar 2026 03:11:37 -0000
-Message-Id: <177337149756.1060364.12459920838755113680@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/firmware/linux-firmware
+Date: Fri, 13 Mar 2026 03:20:09 -0000
+Message-Id: <177337200956.1068266.5327799291297257983@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/b4/b4
-user: mricon
+repo: pub/scm/linux/kernel/git/firmware/linux-firmware
+user: jwboyer
 changes:
-  - ref: refs/heads/master
-    old: 4f332e253cb44ef0f37544d91a1d21c383b9647a
-    new: 7a60640cdc8aea55679e6852be37dba64c046039
+  - ref: refs/heads/main
+    old: e745d41c99517394a3f8e47c57c9b7e553a5c7c1
+    new: b620027052951a9b851590a3876e189b31bb2d97
     log: |
-         7ccea87a5f6898e6ef398b44cd2c2ed4463515e3 b4: allow using xoauth2/bearer token to authenticate to SMTP servers
-         7a60640cdc8aea55679e6852be37dba64c046039 review: fix title bar hidden by column header in tracking TUI
+         ced02591a80209ece29604db57ee87126293a3f0 linux-firmware: update firmware for MT7921 WiFi device
+         b620027052951a9b851590a3876e189b31bb2d97 Merge branch 'robot/patch-0-1773363692' into 'main'
          
