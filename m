@@ -1,51 +1,52 @@
-Content-Type: multipart/mixed; boundary="===============3257345140203511573=="
+Content-Type: multipart/mixed; boundary="===============6922329280440714455=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/herbert/cryptodev-2.6
-Date: Sat, 14 Mar 2026 05:04:57 -0000
-Message-Id: <177346469756.2510777.2048396980676956120@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ast/bpf
+Date: Sat, 14 Mar 2026 05:26:25 -0000
+Message-Id: <177346598531.2529077.11957513943439332293@gitolite.kernel.org>
 
---===============3257345140203511573==
+--===============6922329280440714455==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/herbert/cryptodev-2.6
-user: herbert
+repo: pub/scm/linux/kernel/git/ast/bpf
+user: ast
 changes:
-  - ref: refs/heads/master
-    old: 76755a576a7676ea75dcf2c1b06907876dea6622
-    new: 2c8669bbb7c783dce2541ecb4f24489b2d2175f5
-    log: revlist-76755a576a76-2c8669bbb7c7.txt
+  - ref: refs/heads/stacklive
+    old: 3991a4eaf99b8077e90b6389515ef4f4f5f31646
+    new: f4d911f1115995504320e415e04768858065221b
+    log: revlist-3991a4eaf99b-f4d911f11159.txt
 
---===============3257345140203511573==
+--===============6922329280440714455==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-76755a576a76-2c8669bbb7c7.txt
+Content-Disposition: attachment; filename=revlist-3991a4eaf99b-f4d911f11159.txt
 
-25ab621f7de76fbcd6bfeb8915f8882785323674 dt-bindings: rng: atmel,at91-trng: add microchip,lan9691-trng
-d23cf35880114a1ad24efc262577e494ebfa0c23 crypto: qce - Remove return variable and unused assignments
-35a89319f60a48fb8cd07617f8e2c4649edbe361 crypto: ccp - simplify sev_update_firmware()
-3ac949881396361b6462a717f6cbbd97f368af02 include/psp-sev.h: fix structure member in comment
-32e76e3757e89f370bf2ac8dba8aeb133071834e crypto: tcrypt - clamp num_mb to avoid divide-by-zero
-03170b8f84354f1649a757e57c2130e1de237f5d crypto: tcrypt - stop ahash speed tests when setkey fails
-1d4d0d37202efb9617e8e9174d60f52d78304a69 crypto: testmgr - block Crypto API xxhash64 in FIPS mode
-b3373c2c9a498a2eb763d1526af466c084b05181 dt-bindings: crypto: inside-secure,safexcel: add compatible for MT7981
-a46156cf8117063e8e4809e04d9c87883290f41c crypto: atmel-sha204a - Drop redundant I2C_FUNC_I2C check
-f0394c07a71db6db2e242b6b599fbb3af9f29ea4 crypto: qat - fix indentation of macros in qat_hal.c
-66cc9bd1e5702a5fdaecb048bb4e45111b313170 crypto: qat - fix firmware loading failure for GEN6 devices
-7722a23e5171cb92ff7d5ac60b60a3929e75b6c3 MAINTAINERS: Remove bouncing maintaner for IAA driver
-2a2468bf33d3fac5192429207a439d23e615173a crypto: testmgr - Add test vectors for authenc(hmac(sha1),rfc3686(ctr(aes)))
-3f4d32aff1d4e06501f909b1e5037ec8caa76d01 crypto: testmgr - Add test vectors for authenc(hmac(sha224),rfc3686(ctr(aes)))
-65af3a0bff7264ab84f9e1f2099c658601ca1b66 crypto: testmgr - Add test vectors for authenc(hmac(sha256),rfc3686(ctr(aes)))
-07cbbf6f38e6a91a7fecab3d6f86485425748d3e crypto: testmgr - Add test vectors for authenc(hmac(sha384),rfc3686(ctr(aes)))
-07f1bc80c478c7198065d3896ed3685428314a9c crypto: testmgr - Add test vectors for authenc(hmac(sha512),rfc3686(ctr(aes)))
-ee0abc4eaa3a67bb2d393ca97b23ad53872f5768 MAINTAINERS: remove outdated entry for crypto/rng.c
-975b05f2e96ead173948e07a79f76b359684854e crypto: inside-secure/eip93 - register hash before authenc algorithms
-a67b9bd0d64b342ee89a522e92fa8e2ba24c5d02 crypto: atmel-tdes - fix DMA sync direction
-2c8669bbb7c783dce2541ecb4f24489b2d2175f5 crypto: atmel - use list_first_entry_or_null to simplify find_dev
+2af3aa702c05ecd05850db9d9e110be9ffa3cf47 selftests/bpf: Improve test coverage for kfunc call
+879cace976671eea235d283bf5109a4e09d73a14 bpf: better naming for __reg_deduce_bounds() parts
+9e5fcb003aec9cb3034cbf34a319682586f41788 bpf: Avoid one round of bounds deduction
+0a753d8cd61e31cc438a4fc414cc01655d3f3b72 selftests/bpf: Test case for refinement improvement using 64b bounds
+bb41fcef5c7932e61ce87f573497ab0472cfe496 Merge branch 'optimize-bounds-refinement-by-reordering-deductions'
+1037bceb0e52d4dd1525bc79ddfc7ef2e5710824 bpf: Sort subprogs in topological order after check_cfg()
+0156497f416aa74754291c7e780b13a971c05b49 selftests/bpf: Add tests for subprog topological ordering
+7ffcdc7b57621ea5b5e2da9b545661e86e70d675 bpf: Add compute_const_regs() pre-pass for constant register tracking
+6ed80de3def50c27f85d56cad20e819fd80082cf bpf: Add helper and kfunc stack access size resolution
+3f9cc67cd396a7f7f6b2b64d255c25e71ef70c3d bpf: Add btf_type_snprintf() for printing BTF type signatures
+8603ec33e21b7b443a7a1cfb49ba7f7332ca314b bpf: Add spis_*() helpers for 4-byte stack slot bitmasks
+d9d806381e9caf5be8c404e90b7997fd39bacf63 bpf: Add per-subprog arg tracking analysis
+06ba8991941213968065f1da8217c806ef85f10a selftests/bpf: Update tests for static stack liveness output
+b71be9ab17efdd6f99f1743f508928f1c1ecee05 selftests/bpf: Add tests for static stack liveness analysis
+6db8f8c446a9f62f87bee66cc2c419ae4aa68635 bpf: Remove old dynamic stack liveness infrastructure
+4a3f54a329c1396100fec48a90bcf2966fabf58f selftests/bpf: Test that zero->misc promo is unsafe
+d6a594a676518c0fa66255b1738d8ee249baad3e selftests/bpf: Add convergence test for arg_track dataflow join
+4e6fed40fb423809a7eb0eb2d41cac16daa6b80b selftests/bpf: Tests for 4-byte stack slots
+84c43dd273fb0084084e6799e13aafdc826ab5cf selftests/bpf: Check pruning across subprog calls
+8fb822dcf4a21dae54e89bf082bc34937407849f selftests/bpf: 2nd add kills liveness
+5461e8081394148d23eff7e572fe7c8ae08cc1fa selftests/bpf: dead_spill_at_merge_enables_pruning
+f4d911f1115995504320e415e04768858065221b selftests/bpf: fp_spill_loses_precision_kills_liveness
 
---===============3257345140203511573==--
+--===============6922329280440714455==--
