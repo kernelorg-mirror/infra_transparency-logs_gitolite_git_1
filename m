@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2233359980367015473=="
+Content-Type: multipart/mixed; boundary="===============5199041928571738336=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Sat, 14 Mar 2026 15:39:03 -0000
-Message-Id: <177350274398.3057078.5720479342251969775@gitolite.kernel.org>
+Date: Sat, 14 Mar 2026 15:39:11 -0000
+Message-Id: <177350275154.3057321.15447025569126460431@gitolite.kernel.org>
 
---===============2233359980367015473==
+--===============5199041928571738336==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/cel/linux
 user: cel
 changes:
-  - ref: refs/heads/nfsd-testing
-    old: 01b8a53aac4e46f04bcde3049d300ed81479aeb7
-    new: adaa603ac6627d8661f8a805d326d1ae7e888cbd
-    log: revlist-01b8a53aac4e-adaa603ac662.txt
+  - ref: refs/heads/nfsd-next
+    old: 6eb13addaef099ca0edafcb9c1433ad742f2875b
+    new: ce5b645d32e9b0f0f54059e0436657226eac2bff
+    log: revlist-6eb13addaef0-ce5b645d32e9.txt
 
---===============2233359980367015473==
+--===============5199041928571738336==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-01b8a53aac4e-adaa603ac662.txt
+Content-Disposition: attachment; filename=revlist-6eb13addaef0-ce5b645d32e9.txt
 
 0da45f2bdbe0d58acbd582a910796042f38bb7f6 Documentation: Add the RPC language description of NLM version 4
 6def0dae59fd632590e9de075632487f8b492885 lockd: Use xdrgen XDR functions for the NLMv4 NULL procedure
@@ -56,31 +56,5 @@ bbaa53fa6da96c1ab623130ba5c0da594cce657e lockd: Add LOCKD_SHARE_SVID constant fo
 9721a2e441627bbc8fb3fbeb2e8a20baefdb52f8 lockd: Remove C macros that are no longer used
 ed63aa3a51b7f9e81ab2c09d1bff99949163de0d lockd: Remove dead code from fs/lockd/xdr4.c
 ce5b645d32e9b0f0f54059e0436657226eac2bff sunrpc: Add XPT flags missing from SVC_XPRT_FLAG_LIST
-6f259a3fc669e3f3c56c2bee50d0aca0ab35f3bc sunrpc: fix cache_request leak in cache_release
-ba52e5d6fb409cc9b687da84512f7e919135cae9 sunrpc: convert queue_lock from global spinlock to per-cache-detail lock
-f14bf19372712fff6825d1092d18dc1952b11bfa sunrpc: convert queue_wait from global to per-cache-detail waitqueue
-11f4a6ce0a35d4135ff5da3dfe78f3f919039b53 sunrpc: split cache_detail queue into request and reader lists
-aaacc8f721b40b545a8143aafd4acb8779faa672 nfsd: convert global state_lock to per-net deleg_lock
-50d421727977911f9b8656f15b37f2e9137b76c1 nfsd: fix heap overflow in NFSv4.0 LOCK replay cache
-001604bb9d0cab9e59de39171928c7b3f54089b1 nfsd: use dynamic allocation for oversized NFSv4.0 replay cache
-061866aa6e982916efd0e1f960828149547022d5 NFSD: Add a key for signing filehandles
-9d74e5e436d94fbffb5de379921ea23635793144 NFSD/export: Add sign_fh export option
-4acb5ce257df3ac6d13412af6d584d35f434c24b NFSD: Sign filehandles
-2e79cb612e0a591f211fb9047e1ab8ebcdc936f4 SUNRPC: Tighten bounds checking in svc_rqst_replace_page
-4e0db9469b77bd1a34a41b399e66b5cf0aa50633 SUNRPC: Allocate a separate Reply page array
-09e3b97490719dff5de3e8d7c896b7242a3b592b SUNRPC: Handle NULL entries in svc_rqst_release_pages
-18e20d8be6d3cc689e5813e70fd45b786ae81d0e svcrdma: preserve rq_next_page in svc_rdma_save_io_pages
-47142ae1e3ce33c62488ec9277d06b50f5b5b51e SUNRPC: Track consumed rq_pages entries
-cb13292207541a7b88a3c8635e2c15e9f22b6502 SUNRPC: Optimize rq_respages allocation in svc_alloc_arg
-f9d07f1f14758a604bd267aa7e7a05e342e361e5 svcrdma: Add fair queuing for Send Queue access
-1072e16edbcb97dadbb4f0a0c93ebac79e58c2ca svcrdma: Clean up use of rdma->sc_pd->device in Receive paths
-aec1d0aa2d2cc76ef0d16d9be7e1358f6840ad35 svcrdma: Clean up use of rdma->sc_pd->device
-0df53835e4c1836d56e0c31f196582ce57208078 svcrdma: Add Write chunk WRs to the RPC's Send WR chain
-165efd864026f8e9aa30ff2997a34c4c8383a20e svcrdma: Factor out WR chain linking into helper
-f9baf42076f1ecfb9039cabe2d3e91da47b2aacf SUNRPC: xdr.h: fix all kernel-doc warnings
-e303ba8faf9abf42b73cff351e76a06db3b8e539 NFSD: use per-operation statidx for callback procedures
-6d63ac6c3355151db01f832483f58fce875eb185 NFSD: convert callback RPC program to per-net namespace
-4d61d1caacda5239ca9c1e8a3462f17f34af4445 [DEBUG] Add instrumentation for nfsd_mutex contention debugging
-adaa603ac6627d8661f8a805d326d1ae7e888cbd siw: Enable try_gso
 
---===============2233359980367015473==--
+--===============5199041928571738336==--
