@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4054285800289320577=="
+Content-Type: multipart/mixed; boundary="===============0561193335513852798=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
-Date: Sat, 14 Mar 2026 18:45:52 -0000
-Message-Id: <177351395265.3210410.14320379857555152868@gitolite.kernel.org>
+Date: Sat, 14 Mar 2026 18:46:12 -0000
+Message-Id: <177351397268.3210805.8252093056641732110@gitolite.kernel.org>
 
---===============4054285800289320577==
+--===============0561193335513852798==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/pci/pci
 user: kwilczynski
 changes:
-  - ref: refs/heads/kwilczynski/static-sysfs-attributes
+  - ref: refs/heads/for-kernelci
     old: 8b98479e254ba5cebb3efcfef199c17eca89d7ef
     new: 0a38c91a20efdefcb1820c219d64a61dd865333d
     log: revlist-8b98479e254b-0a38c91a20ef.txt
 
---===============4054285800289320577==
+--===============0561193335513852798==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -47,4 +47,4 @@ c0de0d42c32a034c531944251ded80d503252f45 PCI/sysfs: Add __weak pci_legacy_has_sp
 67325885307b37fc1ba4f9a425e5393c0f4810d3 PCI/sysfs: Convert legacy I/O and memory attributes to static definitions
 0a38c91a20efdefcb1820c219d64a61dd865333d PCI/sysfs: Remove pci_create_legacy_files() and pci_sysfs_init()
 
---===============4054285800289320577==--
+--===============0561193335513852798==--
