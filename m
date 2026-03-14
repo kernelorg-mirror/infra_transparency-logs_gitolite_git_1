@@ -1,53 +1,65 @@
-Content-Type: multipart/mixed; boundary="===============6285826031189903457=="
+Content-Type: multipart/mixed; boundary="===============7117862098521074896=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/spdx
-Date: Sat, 14 Mar 2026 11:29:36 -0000
-Message-Id: <177348777644.2859748.3121080482916001730@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
+Date: Sat, 14 Mar 2026 11:34:54 -0000
+Message-Id: <177348809442.2863945.1519449370585945255@gitolite.kernel.org>
 
---===============6285826031189903457==
+--===============7117862098521074896==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/spdx
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/soc/soc
+user: krzk
+git_push_cert_status: Y
 changes:
-  - ref: refs/tags/spdx-7.0-rc1
-    old: 8d1d3ba6ff12fe90bf933414243500f9056d8b6a
-    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/arm/fixes
+    old: e2dcc248c3db0a420f07fba5638599e50866db62
+    new: 9e22e9c4a5bd208a2d17f0b1a8414c170b4e5939
+    log: |
+         9e22e9c4a5bd208a2d17f0b1a8414c170b4e5939 ARM: multi_v7_defconfig: Drop duplicate CONFIG_TI_PRUSS=m
+         
+  - ref: refs/heads/for-next
+    old: 120f594fa208262802d4e9ea500de59b5f2d49e5
+    new: 83f65dd987715376336709736f68b4e8d2451d34
+    log: |
+         328a254931df1132a43d46f57fbe981d212086fd soc: document merges
+         9e22e9c4a5bd208a2d17f0b1a8414c170b4e5939 ARM: multi_v7_defconfig: Drop duplicate CONFIG_TI_PRUSS=m
+         83f65dd987715376336709736f68b4e8d2451d34 Merge branch 'arm/fixes' into for-next
+         
 
---===============6285826031189903457==
+--===============7117862098521074896==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1773487775 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/spdx.git
-nonce 1773487775-9ce56b9a74297ecde67a5357459e60c58cdc23c6
+pusher krzk@kernel.org 1773488092 +0100
+pushee kernel.org:/pub/scm/linux/kernel/git/soc/soc.git
+nonce 1773488092-8161c9a0294eae8576803d7412de7607e3d06e42
 
-8d1d3ba6ff12fe90bf933414243500f9056d8b6a 0000000000000000000000000000000000000000 refs/tags/spdx-7.0-rc1
+e2dcc248c3db0a420f07fba5638599e50866db62 9e22e9c4a5bd208a2d17f0b1a8414c170b4e5939 refs/heads/arm/fixes
+120f594fa208262802d4e9ea500de59b5f2d49e5 83f65dd987715376336709736f68b4e8d2451d34 refs/heads/for-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmm1RqAbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+uXAQAM+mNLEp/kM63KBe2SiI
-LyZhZFxI6GWxpLjYHLQLMrT9FBp74Vdh6k1Wgb0wPPKGPhs9cX3hmezBIL/0rlzC
-pX7kmNclntnNubsmaxJ8Wi8bLJKbe4vX/DzUN7uDq4apC58bVauuqFqn7QjsJ1L8
-pog8fvgRMHhNlfIy2qA9mcTwgts5SUfaeOR+BMDwt5kMclfdfT8IjjlNKJe0cVr9
-IjwdOffDOkl0g1M27SesjNPETPd4tT+5QSpwmYJIz3DPnlXqfC0PX38DIeIwTa8B
-9WAEQ3j1SgaaK4o9tXuyyJ6yQ+ikwrUVp6jgYtVSiXqHfi5UNsIQH3DLMDKGNj+Y
-TJbKB3lCiyJwLnC0VE1o5I6XQkS6i9Z8uPc34Vqhzyx1RsTREI+eXPJZj+n+XkIl
-hRZ/rCYhkJM7A+9HIB/pZ0niPcD5NuX5qeHJWocxXWOlcBT44W91p1uw1/XsCrBe
-hL8WKSBF+Z7lspbrzOQPC/nlefzdeO/EVXLMYP0GmxqlvuzHJwFGNMQgqEc2JrZP
-vvvj7Wx+b+ghm5aNCQL8FIPooPgNaPKWifv29g6rDeuFf4mfaPaqi8X7i7R6xuYx
-OK57531ljJmv9XdKF5ofMOvye1FMdjXq+1rjTNUGO2g+ouFtYNAbV55XOJpbs4aj
-iloKr0nDQM2pk3K3mDL+zWT9
-=npCd
+iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmm1R9wQHGtyemtAa2Vy
+bmVsLm9yZwAKCRDBN2bmhouD1wgeD/oC9+rapJX+CW2CNXHHmiL4WyU+yfXLID0s
+nzciidiiogPXJMexReIxIEU7AYKYTA1jqdwNjz+NEMUD3XY9FAwIblr+8Ft/22B6
+Jr6Dt9oZeT+I5US6JFggKVg2RPfQNDxgR9ONufEcoEf8ezcSGTiiL8kTsPhpa5iO
+qXSPVU+ecQ5mRuOQudHsfmgC2BqDB2mlKQw6kQa+MKyLntJNLAiHJY/kTAlzQqbp
+7DN68hkCf9s7LpWYv/Z9oJFJumSBDzQGUTzoYjAlbFsMplwmLM1vDkn5FPXgw80j
+KYleImtxkprMLXHchdF0e0j2K/nsAUt/numJ5xlM0e1JsKV7XDYS2iYokY2QFVSG
+uXcxC4TeaY5EYzV1YA5NqTP82910vctq9erY+vsT+bzSDSCn2Gz4GCpJINsntI7c
+ZI5Ja6ixe77LruvGRuBvvxA2Vs6GSXraedId/so+WdUGpKRNUSratxR/FWtRQq85
+FEsheyFOVUTxl/YPqbrsh45IxLUOqhZacDpS3Kt1eTc7qWKBpMCoCWyxE0nh2Rua
+he4Mi2czKKaUkGn7Qm5+wl6dLnCqrGstbxe97q89ODD/uppFYCrhKSE+5EWGej3S
+0KSOqq9opqIKAcnulM9kRM3UXNcYlNY7xEhsLtRrgqtE+yxCpzGbpwIFyjibQq3u
+DkILTqpJMw==
+=d2UG
 -----END PGP SIGNATURE-----
 
---===============6285826031189903457==--
+--===============7117862098521074896==--
