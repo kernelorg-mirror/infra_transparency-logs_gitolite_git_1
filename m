@@ -1,22 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sunxi/linux
-Date: Sat, 14 Mar 2026 13:14:22 -0000
-Message-Id: <177349406218.2944215.2942307440237858282@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/driver-core/driver-core
+Date: Sat, 14 Mar 2026 13:25:06 -0000
+Message-Id: <177349470641.2954711.15284650778492814249@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sunxi/linux
-user: wens
+repo: pub/scm/linux/kernel/git/driver-core/driver-core
+user: dakr
 changes:
-  - ref: refs/heads/sunxi/for-next
-    old: c955aa31a52a701d96511ee4e2a004aa508507b4
-    new: 2657afa4d7d16ac07a6946201e5c8ad17b11dc21
+  - ref: refs/heads/driver-core-testing
+    old: 16de94a1b090864637c12bc6207e18d82d1972a1
+    new: dc33ae50d32b509af5ae61030912fa20c79ef112
     log: |
-         b4137a75e1e611f37fcdc74c1d41696c7971e0b8 dt-bindings: vendor-prefixes: Add Beijing Ultrapower Software Co., Ltd.
-         f3208874f32c09dfc9ee330204f9fccf26e15b57 dt-bindings: arm: sunxi: Add TaiqiCat (TQC) A01
-         b912e48bee355b6b1faf86efc4a23191324ffecb arm64: dts: allwinner: h6: Add TaiqiCat (TQC) A01 support
-         2657afa4d7d16ac07a6946201e5c8ad17b11dc21 Merge branch 'sunxi/dt-for-7.1' into sunxi/for-next
+         bb729bf1d6fdf5c2087c1651165c74cef0da1742 driver core: Add conditional guard support for device_lock()
+         dc33ae50d32b509af5ae61030912fa20c79ef112 Merge tag 'device_lock_cond_guard-7.1-rc1' into driver-core-testing
          
