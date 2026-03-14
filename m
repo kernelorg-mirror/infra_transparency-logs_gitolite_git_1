@@ -1,20 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/driver-core/driver-core
-Date: Sat, 14 Mar 2026 13:43:37 -0000
-Message-Id: <177349581796.2968011.3610671872494524959@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux
+Date: Sat, 14 Mar 2026 13:45:05 -0000
+Message-Id: <177349590526.2970509.16970922459974137937@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/driver-core/driver-core
-user: dakr
+repo: pub/scm/linux/kernel/git/axboe/linux
+user: axboe
 changes:
-  - ref: refs/heads/driver-core-next
-    old: 16de94a1b090864637c12bc6207e18d82d1972a1
-    new: dc33ae50d32b509af5ae61030912fa20c79ef112
+  - ref: refs/heads/for-next
+    old: 595891a2fbffe636dfbd39623b2920523d9eb25d
+    new: e603327bc146c3c20644501b1939e1008623362e
     log: |
-         bb729bf1d6fdf5c2087c1651165c74cef0da1742 driver core: Add conditional guard support for device_lock()
-         dc33ae50d32b509af5ae61030912fa20c79ef112 Merge tag 'device_lock_cond_guard-7.1-rc1' into driver-core-testing
+         203247c5cb972af5d46bdb7d41ef40078048810b blk-integrity: support arbitrary buffer alignment
+         5d540162059598c3f79e12f96064825cc91f0f9c ublk: report BLK_SPLIT_INTERVAL_CAPABLE
+         e603327bc146c3c20644501b1939e1008623362e Merge branch 'for-7.1/block' into for-next
          
