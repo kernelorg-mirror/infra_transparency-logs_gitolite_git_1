@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0563292951500706673=="
+Content-Type: multipart/mixed; boundary="===============4763397309581996173=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
-Date: Sat, 14 Mar 2026 12:10:53 -0000
-Message-Id: <177349025313.2894730.15139713171110787913@gitolite.kernel.org>
+Date: Sat, 14 Mar 2026 12:11:27 -0000
+Message-Id: <177349028776.2895148.14091368853807815728@gitolite.kernel.org>
 
---===============0563292951500706673==
+--===============4763397309581996173==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jic23/iio
 user: jic23
 changes:
-  - ref: refs/heads/togreg
-    old: 9f60b8e91fd8b464a1a18b804faf45b0d828ad3a
+  - ref: refs/heads/testing
+    old: a50223094d2bb91e676b9d2bedb1d8d2852aa45f
     new: ff0843ceb1fb11a6b73e0e77b932ef7967aecd4b
-    log: revlist-9f60b8e91fd8-ff0843ceb1fb.txt
+    log: revlist-a50223094d2b-ff0843ceb1fb.txt
 
---===============0563292951500706673==
+--===============4763397309581996173==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9f60b8e91fd8-ff0843ceb1fb.txt
+Content-Disposition: attachment; filename=revlist-a50223094d2b-ff0843ceb1fb.txt
 
 af2f069b78950910ec7932a21544faad5ad8b13f iio: adc: max1363: Reformat enum and array initializers
 aac0a51b16700b403a55b67ba495de021db78763 iio: frequency: admv1013: fix NULL pointer dereference on str
@@ -38,4 +38,4 @@ c4e73728626e9930ecbb14b9cb2418d36feeefe4 iio: accel: adxl313: convert to guard(m
 c48012d519fe72fb82786d53930b2b907bf7c10c iio: adc: palmas_gpadc: Replace leading space indentation with tabs
 ff0843ceb1fb11a6b73e0e77b932ef7967aecd4b iio: adc: ti-ads7950: remove chip_info[]
 
---===============0563292951500706673==--
+--===============4763397309581996173==--
