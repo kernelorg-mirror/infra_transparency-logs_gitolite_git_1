@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4713515144497441749=="
+Content-Type: multipart/mixed; boundary="===============5076579377143119289=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/fustini/linux
-Date: Sat, 14 Mar 2026 16:06:19 -0000
-Message-Id: <177350437926.3081013.9212530889250785875@gitolite.kernel.org>
+Date: Sat, 14 Mar 2026 16:08:35 -0000
+Message-Id: <177350451581.3081968.1793341693048186406@gitolite.kernel.org>
 
---===============4713515144497441749==
+--===============5076579377143119289==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,19 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/fustini/linux
 user: fustini
 changes:
-  - ref: refs/heads/thead-dt-fixes
+  - ref: refs/heads/tenstorrent-dt-for-next
     old: 8f0b4cce4481fb22653697cced8d0d04027cb1e8
-    new: 6de23f81a5e08be8fbf5e8d7e9febc72a5b5f27f
-    log: revlist-8f0b4cce4481-6de23f81a5e0.txt
+    new: f64ccebf821e1b04ac8b2300b7c9769aa33f3641
+    log: revlist-8f0b4cce4481-f64ccebf821e.txt
 
---===============4713515144497441749==
+--===============5076579377143119289==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-8f0b4cce4481-6de23f81a5e0.txt
+Content-Disposition: attachment; filename=revlist-8f0b4cce4481-f64ccebf821e.txt
 
-9e03b7caf4e65f5a5841dfed540fdcc3ff061734 Merge tag 'kvm-x86-misc-6.20' of https://github.com/kvm-x86/linux into HEAD
-2f81bdbdb3aa3fccd9b5420df5674730c40af554 Merge tag 'i3c/for-6.20' of git://git.kernel.org/pub/scm/linux/kernel/git/i3c/linux
 37b4fbf8dbdfb694f2972d1bd7fcd36304a520dd Merge tag 'tpmdd-next-7.0-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/jarkko/linux-tpmdd
 698749164aa53cc313248efd2dc1c25dcf25c99c Merge tag 'audit-pr-20260203' of git://git.kernel.org/pub/scm/linux/kernel/git/pcmoore/audit
 bcc8fd3e1573c502edc0cb61abea0e113a761799 Merge tag 'lsm-pr-20260203' of git://git.kernel.org/pub/scm/linux/kernel/git/pcmoore/lsm
@@ -1050,5 +1048,7 @@ aaf96df9593bf4ab1b73c17891e4efe7570fdef3 CREDITS: Add -next to Stephen Rothwell'
 75e1f66a9ed09f29c6883ea379c174e8cf31f7cc Merge tag 'libcrypto-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/ebiggers/linux
 fbf33803618ad4f531f78fe15cf328fe6c7f9978 Merge tag 'fsverity-for-linus' of git://git.kernel.org/pub/scm/fs/fsverity/linux
 6de23f81a5e08be8fbf5e8d7e9febc72a5b5f27f Linux 7.0-rc1
+569e36f2e07b3b5af772bb9a76006b579688b131 riscv: dts: thead: add DPU and HDMI device tree nodes
+f64ccebf821e1b04ac8b2300b7c9769aa33f3641 riscv: dts: thead: lichee-pi-4a: enable HDMI
 
---===============4713515144497441749==--
+--===============5076579377143119289==--
