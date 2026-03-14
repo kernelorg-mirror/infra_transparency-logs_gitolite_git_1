@@ -1,20 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/driver-core/driver-core
-Date: Sat, 14 Mar 2026 13:25:06 -0000
-Message-Id: <177349470641.2954711.15284650778492814249@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
+Date: Sat, 14 Mar 2026 13:28:20 -0000
+Message-Id: <177349490071.2956153.17388301124519656547@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/driver-core/driver-core
-user: dakr
+repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
+user: paulmck
 changes:
-  - ref: refs/heads/driver-core-testing
-    old: 16de94a1b090864637c12bc6207e18d82d1972a1
-    new: dc33ae50d32b509af5ae61030912fa20c79ef112
+  - ref: refs/heads/dev
+    old: ff74db28df6238a4b468c1d5bf0532aa585da786
+    new: 7c29d1ce52e5157ae20fdc69f42c974d8cacb8f0
     log: |
-         bb729bf1d6fdf5c2087c1651165c74cef0da1742 driver core: Add conditional guard support for device_lock()
-         dc33ae50d32b509af5ae61030912fa20c79ef112 Merge tag 'device_lock_cond_guard-7.1-rc1' into driver-core-testing
+         cd0ce7bab0408e71b2979e6401e78eec606c42a9 kernel/smp: Improve smp_call_function_single() CSD-lock diagnostics
+         6963d26ee8e0caa1fe20952c3ae42b4c69ba9ce0 torture: Improve kvm-series.sh header comment
+         b540c63cf6e500e2f81d20b5de6ea11df8b7d22e srcu: Use raw spinlocks so call_srcu() can be used under preempt_disable()
+         7c29d1ce52e5157ae20fdc69f42c974d8cacb8f0 rcutorture: Test call_srcu() with preemption disabled and not
          
