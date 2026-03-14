@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6193546163174254163=="
+Content-Type: multipart/mixed; boundary="===============4648788863229557180=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Sat, 14 Mar 2026 07:08:56 -0000
-Message-Id: <177347213672.2604153.1193953921892186905@gitolite.kernel.org>
+Date: Sat, 14 Mar 2026 07:09:23 -0000
+Message-Id: <177347216310.2604568.42989319243999369@gitolite.kernel.org>
 
---===============6193546163174254163==
+--===============4648788863229557180==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,15 +16,51 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: 6850c16b4e898f06a236c7d3166d8c915b6f7a83
-    new: b05d0867564659379a24730a40c321809fea04d1
-    log: revlist-6850c16b4e89-b05d08675646.txt
+    old: b05d0867564659379a24730a40c321809fea04d1
+    new: 0d25a8c135a404bab5fc8b024fd30fb4a54fdc82
+    log: revlist-b05d08675646-0d25a8c135a4.txt
+  - ref: refs/heads/tip/urgent
+    old: 1b24192a0fe858c56d732c3d93f3b9fd1d005b6f
+    new: e5a34754509d34b0ee890e9c9cb1357445507d65
+    log: revlist-1b24192a0fe8-e5a34754509d.txt
 
---===============6193546163174254163==
+--===============4648788863229557180==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6850c16b4e89-b05d08675646.txt
+Content-Disposition: attachment; filename=revlist-b05d08675646-0d25a8c135a4.txt
+
+4b0ea39d04802008151c974f7f9841993e4bcd33 Merge branch into tip/master: 'irq/urgent'
+b5c0e1640e27c77c57517e3ada7d72f62d78c764 Merge branch into tip/master: 'objtool/urgent'
+3748265d5d9ed34f32861fedc96ebfcc6487b396 Merge branch into tip/master: 'sched/urgent'
+84a53d920103e5f12756e4011331f8f9f18b4a24 Merge branch into tip/master: 'timers/urgent'
+e5a34754509d34b0ee890e9c9cb1357445507d65 Merge branch into tip/master: 'x86/urgent'
+f2e09a274288345e456ca9f8e3c383d7f6427d5d Merge branch into tip/master: 'sched/merge'
+f34b957bd8e404af1108e9d7057c5d915163167e Merge branch into tip/master: 'irq/core'
+145764a06c75371b2e04e79765054be0c6940b8e Merge branch into tip/master: 'irq/drivers'
+fc0ca77e0ff335f7f1dfd1a98822f8c1f51eb63c Merge branch into tip/master: 'irq/msi'
+37c27213db0fd0b516efb352bd1ccda0c779987e Merge branch into tip/master: 'locking/core'
+dde095ca37037a5673807dc88ab4ff9f4404bd7c Merge branch into tip/master: 'locking/futex'
+c99f68d5549bc1c474009855e6732c18e9b2c9c1 Merge branch into tip/master: 'objtool/core'
+3607ecf67270ab01128356949a6301bdd89f2ca1 Merge branch into tip/master: 'perf/core'
+c7d7db8f32afda6c9776b9837fff59f545978776 Merge branch into tip/master: 'ras/core'
+dfa7a01cf533956fba6eb5bc6989d6998e3287d7 Merge branch into tip/master: 'sched/core'
+6ce511ffbfc46d55cfbdaacbffa78fac3d686b54 Merge branch into tip/master: 'sched/hrtick'
+743fd9bd22831b3b551e8beea3d660c58b2bc03e Merge branch into tip/master: 'timers/core'
+b275e4413b95404afc48f04bb9e89dd5894aa971 Merge branch into tip/master: 'timers/vdso'
+ed6d374cf0da48ed264063ac6048e529d895a68e Merge branch into tip/master: 'x86/cleanups'
+47dbf1d15f8754f191e9c5f8f04be6f163d77db5 Merge branch into tip/master: 'x86/cpu'
+9b737ceca8407549a2095764da1ef32b38855e56 Merge branch into tip/master: 'x86/microcode'
+f0c671b3868eeefa5db09dd9d800dfab2665a139 Merge branch into tip/master: 'x86/misc'
+7f802eb39894cf1a45511cff76a3ee81e7eae9c4 Merge branch into tip/master: 'x86/mm'
+6faa985a358894d8b73a783a95e1c300b0aeb84d Merge branch into tip/master: 'x86/sev'
+0d25a8c135a404bab5fc8b024fd30fb4a54fdc82 Merge branch into tip/master: 'x86/tdx'
+
+--===============4648788863229557180==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-1b24192a0fe8-e5a34754509d.txt
 
 a9dece60cc8246e5fc4c46d391272024bf1d309d drm/msm/adreno: Add GPU to MODULE_DEVICE_TABLE
 f7bf1319739291067b2bc4b22bd56336afad8f0a drm/msm/dpu: Fix LM size on a number of platforms
@@ -188,7 +224,6 @@ c2c185be5c85d37215397c8e8781abf0a69bec1f io_uring/kbuf: check if target buffer l
 8c835a10c021c08c3781305b806b15656c2dd7c8 Merge tag 'drm-intel-fixes-2026-03-12' of https://gitlab.freedesktop.org/drm/i915/kernel into drm-fixes
 dd0365021be3e8693680bb1d2616edf7d5e17800 Merge tag 'amd-drm-fixes-7.0-2026-03-12' of https://gitlab.freedesktop.org/agd5f/linux into drm-fixes
 b28913e897edfeedc4e33b03b28068b27d002e6c Merge tag 'drm-rust-fixes-2026-03-12' of https://gitlab.freedesktop.org/drm/rust/kernel into drm-fixes
-04e43ec9f002ed1041b41a6df4c645ef3148da9f x86/split_lock: Restructure the unwieldy switch-case in sld_state_show()
 92e989acfb83493e0305bc9fdcc666275ddd46c9 Merge tag 'pwrseq-fixes-for-v7.0-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux
 8174dafb2d9a85c895d3bfb9cc3e7c236107c93f Merge tag 'slab-for-7.0-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/vbabka/slab
 e67bf352a0847a65a157d5b02a6024c65a781e08 Merge tag 'io_uring-7.0-20260312' of git://git.kernel.org/pub/scm/linux/kernel/git/axboe/linux
@@ -205,7 +240,10 @@ d874ca0522389405e26bc2ba38b59c9849c52cc1 Merge tag 'v7.0-rc3-smb3-client-fixes' 
 b073bcb8d43fd39f00ef07df5a47818a99c999eb Merge tag 'cgroup-for-7.0-rc3-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/tj/cgroup
 9abff5748e4fb2055a54de6b8e43f4395d2481d9 Merge tag 'wq-for-7.0-rc3-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/tj/wq
 1c9982b4961334c1edb0745a04cabd34bc2de675 Merge tag 'drm-fixes-2026-03-14' of https://gitlab.freedesktop.org/drm/kernel
-e4bf19f095fee5b14763d0dfa1647b94d360a0ff Merge branch into tip/master: 'x86/cleanups'
-b05d0867564659379a24730a40c321809fea04d1 Merge branch 'linus'
+4b0ea39d04802008151c974f7f9841993e4bcd33 Merge branch into tip/master: 'irq/urgent'
+b5c0e1640e27c77c57517e3ada7d72f62d78c764 Merge branch into tip/master: 'objtool/urgent'
+3748265d5d9ed34f32861fedc96ebfcc6487b396 Merge branch into tip/master: 'sched/urgent'
+84a53d920103e5f12756e4011331f8f9f18b4a24 Merge branch into tip/master: 'timers/urgent'
+e5a34754509d34b0ee890e9c9cb1357445507d65 Merge branch into tip/master: 'x86/urgent'
 
---===============6193546163174254163==--
+--===============4648788863229557180==--
