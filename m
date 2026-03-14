@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ebiggers/linux
-Date: Sat, 14 Mar 2026 17:36:50 -0000
-Message-Id: <177350981098.3154195.17234748856598362684@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Sat, 14 Mar 2026 17:38:52 -0000
+Message-Id: <177350993206.3155139.12794135902279661482@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ebiggers/linux
-user: ebiggers
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
-  - ref: refs/heads/libcrypto-pending
-    old: 2c2de5fe0698de34f8d0ca07f15793c0c0ccaed7
-    new: 61075ad2b459e0259ba803e1ab5e62fe7cbb1cbf
+  - ref: refs/heads/main
+    old: f807b5b9b89eb9220d034115c272c312251cbcac
+    new: fa8fca88714c3a4a74f972ed37328e2f0bbef9fa
     log: |
-         61075ad2b459e0259ba803e1ab5e62fe7cbb1cbf lib/crypto: Remove unused file blockhash.h
+         fa8fca88714c3a4a74f972ed37328e2f0bbef9fa ipv4: validate IPV4_DEVCONF attributes properly
          
