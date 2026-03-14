@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3876017680126832717=="
+Content-Type: multipart/mixed; boundary="===============3134343285165753630=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netfilter/nf-next
-Date: Sat, 14 Mar 2026 20:26:49 -0000
-Message-Id: <177352000913.3290963.1281855683892973821@gitolite.kernel.org>
+Date: Sat, 14 Mar 2026 20:32:20 -0000
+Message-Id: <177352034055.3295265.18303570979449507070@gitolite.kernel.org>
 
---===============3876017680126832717==
+--===============3134343285165753630==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/netfilter/nf-next
 user: fwestphal
 changes:
-  - ref: refs/heads/main
-    old: 52e4d5da6db788c3abc5bbb0e044e761b3540a30
-    new: 4686679a14d269d4f02533228e82de56f432bae5
-    log: revlist-52e4d5da6db7-4686679a14d2.txt
+  - ref: refs/heads/testing
+    old: 8a8651538885981e68d07e5308bb848dd46ca6d0
+    new: 46604847baf2eacb62ee47c47e2d25b0c21bbd1d
+    log: revlist-8a8651538885-46604847baf2.txt
 
---===============3876017680126832717==
+--===============3134343285165753630==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-52e4d5da6db7-4686679a14d2.txt
+Content-Disposition: attachment; filename=revlist-8a8651538885-46604847baf2.txt
 
 f947d9e77b26238b821b5227afb4fee8c7ea0d5a nvme/host: fixup some typos
 ddfb8b322bbd8ae996f4ac0192f0190feb0a01ce nvme: expose active quirks in sysfs
@@ -526,5 +526,13 @@ a4c6d53e5fd61829f707b7a723dd2937ed67c803 devlink: allow devlink instance allocat
 2a8c8a03f306e21a0ea74c93d4332119557f4575 net/mlx5: Add a shared devlink instance for PFs on same chip
 411ad060587591a2c8a6005b8e2f42d8a1dae2da Merge branch 'devlink-introduce-shared-devlink-instance-for-pfs-on-same-chip'
 4686679a14d269d4f02533228e82de56f432bae5 selftests/net: packetdrill: add tcp_disorder_fin_in_FIN_WAIT.pkt
+4c2d4695b1c3a0ca64b36684689a6472dd0bc525 netfilter: use function typedefs for __rcu NAT helper hook pointers
+5faee2654ec82e3ae42c1bb5cb05bca20eeb3afa netfilter: nf_tables: Fix typo in enum description
+6bfde20fe721a12aca381007c341c7494f29a85f netfilter: nf_conntrack_sip: remove net variable shadowing
+0c4d9380a78731ede880d8cbe36552fd9ff80a3f netfilter: add deprecation warning for dccp support
+f61b2bc2cbf4a8459c1de319318a819a121bbe74 netfilter: nf_conntrack_h323: remove unreliable debug code in decode_octstr
+78c84884272aed1b5a3bff4e7a602f72f0b0c830 netfilter: nfnetlink_queue: prefer skb_mac_header helpers
+fa2c2179ad6377173a6e48565254fd3cf8f4f5b5 netfilter: add more netlink-based policy range checks
+46604847baf2eacb62ee47c47e2d25b0c21bbd1d netfilter: nf_tables: add netlink policy based cap on registers
 
---===============3876017680126832717==--
+--===============3134343285165753630==--
