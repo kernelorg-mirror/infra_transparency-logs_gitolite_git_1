@@ -1,44 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============4024136261883629354=="
+Content-Type: multipart/mixed; boundary="===============2987972393399175452=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/herbert/cryptodev-2.6
-Date: Sun, 15 Mar 2026 04:23:42 -0000
-Message-Id: <177354862265.3660542.7380730524815618596@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/security/vulns
+Date: Sun, 15 Mar 2026 07:57:44 -0000
+Message-Id: <177356146465.3820589.13998258815076162809@gitolite.kernel.org>
 
---===============4024136261883629354==
+--===============2987972393399175452==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/herbert/cryptodev-2.6
-user: herbert
+repo: pub/scm/linux/security/vulns
+user: gregkh
+git_push_cert_status: G
 changes:
   - ref: refs/heads/master
-    old: 2c8669bbb7c783dce2541ecb4f24489b2d2175f5
-    new: c708d3fad4217f23421b8496e231b0c5cee617a0
-    log: revlist-2c8669bbb7c7-c708d3fad421.txt
+    old: 9ec41c223507b4f6b54929143e64a41f173c9b25
+    new: f9c8982184263f5b13b3900d59fa24786d1fa63b
+    log: |
+         f9c8982184263f5b13b3900d59fa24786d1fa63b update cvelistV5
+         
 
---===============4024136261883629354==
+--===============2987972393399175452==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2c8669bbb7c7-c708d3fad421.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-1e84df6ccfcb342262b02dfdb723eaad50a0b6c9 dt-bindings: crypto: inside-secure,safexcel: add compatible for MT7981
-f06b4ee3351dee90d422305d164a7aa353c5fdd1 crypto: atmel-sha204a - Drop redundant I2C_FUNC_I2C check
-4963b39e3a3feed07fbf4d5cc2b5df8498888285 crypto: qat - fix indentation of macros in qat_hal.c
-e7dcb722bb75bb3f3992f580a8728a794732fd7a crypto: qat - fix firmware loading failure for GEN6 devices
-68095ad9de9361844235c1e4e3bd5632f6b21929 MAINTAINERS: Remove bouncing maintaner for IAA driver
-b45b4314d3e55be70b597baa1f0ab9283e68003b crypto: testmgr - Add test vectors for authenc(hmac(sha1),rfc3686(ctr(aes)))
-d46c27c01f132082095342b5abf4e83e250b70b8 crypto: testmgr - Add test vectors for authenc(hmac(sha224),rfc3686(ctr(aes)))
-5ac6b904c70ff163fd2f9e152056300ce5ed6c26 crypto: testmgr - Add test vectors for authenc(hmac(sha256),rfc3686(ctr(aes)))
-2f0814271715f974ae1fc6247c9918906c83e24b crypto: testmgr - Add test vectors for authenc(hmac(sha384),rfc3686(ctr(aes)))
-82fc2b17fa5b9b12d34770afcc8e3c4288735429 crypto: testmgr - Add test vectors for authenc(hmac(sha512),rfc3686(ctr(aes)))
-f4abb1af1bedafada8d7f814b85a7cf83d58f0b7 MAINTAINERS: remove outdated entry for crypto/rng.c
-5377032914b29b4643adece0ff1dfc67e36700f4 crypto: inside-secure/eip93 - register hash before authenc algorithms
-c8a9a647532f5c2a04180352693215e24e9dba03 crypto: atmel-tdes - fix DMA sync direction
-c708d3fad4217f23421b8496e231b0c5cee617a0 crypto: atmel - use list_first_entry_or_null to simplify find_dev
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1773561450 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
+nonce 1773561463-160d22ff147bf50c1cec5753f45ed5040cf9816f
 
---===============4024136261883629354==--
+9ec41c223507b4f6b54929143e64a41f173c9b25 f9c8982184263f5b13b3900d59fa24786d1fa63b refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmm2ZmobHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk++GUP/Ro3mY00bVuv4G93pzNm
+/ZPYUtW7giyJEa/F+nPQBjdAFoS7oiOsXI9HM4DBGOwcvn4PgLvBTAwErpmbtMwV
+96ebDclgthxVZ5G7KxZgBPpQp5gVsrhKQAu9ZzaU1LpboeHs/8/N+OFZfYnIrsOE
+36Z+psXC4srPgNqebubBz7gk5GQp2Urlz/rVAB3UnXjQSVSDGW2fJcyVX47f7Vwm
+TxOOvhXs/2/DYmJTqc4ORAwh1NEPFpy5q+jtCZ572Z1S9qJE6L9oY3oP/vlGHvQ1
+VUuC+zafNzLk9MVc4MUDr7hFgHYr6K2HjOZDD2uwF79ezDlG56kOZmn0tYgdKPgF
+mDsD6q13NPsk94Ix2lv0lxdPCOTRgKk2bfuYYgnzmkB99A1+Oge1AEzxR/krvwjf
+AxC4MKjbfqad2MI6bFjiUjPXEcyjDyxQbr+G8lQXG8VX3ijPyzyRJICCm1agCr05
+Efbm/I3JLS06W/ybUdmhhsPmY4EWs7vHUY7+2kJhZxmWG7+gxksI1qqqZ+gr2oUC
+uWXT5CyVr0SKubDzVc6czG9P8gbXbfDDYQp9az9/Hf/2QqcI3V1RBhzOTknKGGX+
+MuqdO6qTfHboPp4Txk9em7zplEdgH3rON2lls60x6qq6c0W5Lh4KAMf4DL9FJI8w
+tkVLAGpWcQ12jE2L9amOmdzn
+=X8go
+-----END PGP SIGNATURE-----
+
+--===============2987972393399175452==--
