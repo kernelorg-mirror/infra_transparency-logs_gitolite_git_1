@@ -1,19 +1,27 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mricon/korg-helpers
-Date: Sun, 15 Mar 2026 14:44:31 -0000
-Message-Id: <177358587184.4131392.8654394201088483803@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux
+Date: Sun, 15 Mar 2026 15:03:35 -0000
+Message-Id: <177358701595.4146428.12872922901498317311@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mricon/korg-helpers
-user: mricon
+repo: pub/scm/linux/kernel/git/axboe/linux
+user: axboe
 changes:
   - ref: refs/heads/master
-    old: 44169ff49ab3707fb1c84f2ed2ab340c47ff698e
-    new: 77e2e6124fa34eb10694398271649c82f1645e48
+    old: 69237f8c1f69112cca7388af7fab6d0ee45a2525
+    new: 267594792a71018788af69e836c52e34bb8054af
     log: |
-         77e2e6124fa34eb10694398271649c82f1645e48 git-patchwork-bot: normalize URL paths for pull request matching
+         3ac88a9948792b092a4b11323e2abd1ecbe0cc68 rust: str: make NullTerminatedFormatter public
+         e174dd14bf0beac811a5201e370ab26ce8c67f23 rust: kbuild: emit dep-info into $(depfile) directly
+         dda135077ecc9f15c407f094dcfe7800376be867 rust: build: remap path to avoid absolute path
+         a075082a15e7f5c4889d0cbb51a4041c332cb00c rust: pin-init: internal: init: remove `#[disable_initialized_field_access]`
+         580cc37b1de4fcd9997c48d7080e744533f09f36 rust: pin-init: internal: init: document load-bearing fact of field accessors
+         fdbaa9d2b78e0da9e1aeb303bbdc3adfe6d8e749 rust: pin-init: replace shadowed return token by `unsafe`-to-create token
+         487f9b3dc6e507a982f1b984aa6bfbd9dc4b0567 rust: cpufreq: suppress clippy::double_parens in Policy doctest
+         592c61f3bfceaa29f8275696bd67c3dfad7ef72e rust: kbuild: allow `unused_features`
+         267594792a71018788af69e836c52e34bb8054af Merge tag 'rust-fixes-7.0-2' of git://git.kernel.org/pub/scm/linux/kernel/git/ojeda/linux
          
