@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8430857153393667677=="
+Content-Type: multipart/mixed; boundary="===============3427708374247521656=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/utils/kernel/ndctl/ndctl
-Date: Sun, 15 Mar 2026 01:16:45 -0000
-Message-Id: <177353740549.3513538.15472712752262310642@gitolite.kernel.org>
+Date: Sun, 15 Mar 2026 01:17:01 -0000
+Message-Id: <177353742106.3513799.8357295708549941361@gitolite.kernel.org>
 
---===============8430857153393667677==
+--===============3427708374247521656==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/utils/kernel/ndctl/ndctl
 user: aschofie
 changes:
-  - ref: refs/heads/pending
+  - ref: refs/heads/main
     old: 4f7a1c63b3305c97013d3c46daa6c0f76feff10d
     new: 8ad90e54f0ff4f7291e7f21d44d769d10f24e2b6
     log: revlist-4f7a1c63b330-8ad90e54f0ff.txt
 
---===============8430857153393667677==
+--===============3427708374247521656==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -50,4 +50,4 @@ d20e70bb64cf6439476793a415d35cd8fb6134a6 util/sysfs: save and use errno properly
 d6f32b0afba6c36fbde2aae67230b71f9e70cb07 test/cxl-poison.sh: replace sysfs usage with cxl-cli cmds
 8ad90e54f0ff4f7291e7f21d44d769d10f24e2b6 ndctl: release v84
 
---===============8430857153393667677==--
+--===============3427708374247521656==--
