@@ -1,26 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux
-Date: Sun, 15 Mar 2026 16:39:25 -0000
-Message-Id: <177359276571.31214.8835123914399507528@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ebiggers/linux
+Date: Sun, 15 Mar 2026 17:15:06 -0000
+Message-Id: <177359490663.60176.6117161423095938209@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux
-user: axboe
+repo: pub/scm/linux/kernel/git/ebiggers/linux
+user: ebiggers
 changes:
-  - ref: refs/heads/for-next
-    old: 21234da57e65686f0705dfb52827e705f1357ca9
-    new: 84b8bc4cdd9e89814fdbe4102dfe09d944c0cb15
+  - ref: refs/heads/libcrypto-next
+    old: 44b02a14d993d91ae36409a54941ac5a5ad20b44
+    new: 44a3873df8114546a76ead737f64b57ae7676cc2
     log: |
-         acd7222763dde9addd24b3ffc5a227bc4b1b0df5 io_uring/poll: fix multishot recv missing EOF on wakeup race
-         84b8bc4cdd9e89814fdbe4102dfe09d944c0cb15 Merge branch 'io_uring-7.0' into for-next
-         
-  - ref: refs/heads/io_uring-7.0
-    old: e9cd622a7fb028b54834928fde6971ea274beec4
-    new: acd7222763dde9addd24b3ffc5a227bc4b1b0df5
-    log: |
-         acd7222763dde9addd24b3ffc5a227bc4b1b0df5 io_uring/poll: fix multishot recv missing EOF on wakeup race
+         44a3873df8114546a76ead737f64b57ae7676cc2 coco/guest: Remove unneeded selection of CRYPTO
          
