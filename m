@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1259378247022875950=="
+Content-Type: multipart/mixed; boundary="===============0804709873582569663=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Sun, 15 Mar 2026 03:36:28 -0000
-Message-Id: <177354578885.3624305.15326867168840122990@gitolite.kernel.org>
+Date: Sun, 15 Mar 2026 03:37:18 -0000
+Message-Id: <177354583899.3624934.6938598196951450535@gitolite.kernel.org>
 
---===============1259378247022875950==
+--===============0804709873582569663==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,15 +16,51 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: 0d25a8c135a404bab5fc8b024fd30fb4a54fdc82
-    new: b363cd74312eef1d1eceedbe16ef2fdfb8532664
-    log: revlist-0d25a8c135a4-b363cd74312e.txt
+    old: b363cd74312eef1d1eceedbe16ef2fdfb8532664
+    new: 6e9676ec661460c1d01cd8d83972352d923b818b
+    log: revlist-b363cd74312e-6e9676ec6614.txt
+  - ref: refs/heads/tip/urgent
+    old: e5a34754509d34b0ee890e9c9cb1357445507d65
+    new: f38aa4c077c6cc222c2d16e22399f1b7a39f22ef
+    log: revlist-e5a34754509d-f38aa4c077c6.txt
 
---===============1259378247022875950==
+--===============0804709873582569663==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0d25a8c135a4-b363cd74312e.txt
+Content-Disposition: attachment; filename=revlist-b363cd74312e-6e9676ec6614.txt
+
+f01c5f6262cdf617ca90d99a0c8745aa3b3e4f17 Merge branch into tip/master: 'irq/urgent'
+a1389dae6bbfde18ff3533630dd645b581729e40 Merge branch into tip/master: 'objtool/urgent'
+5af2b36d9ac47aec4971781ac77a393bf9d229ae Merge branch into tip/master: 'sched/urgent'
+74083649cebdb6f037ee82e1f4fb09f47a09f9c0 Merge branch into tip/master: 'timers/urgent'
+f38aa4c077c6cc222c2d16e22399f1b7a39f22ef Merge branch into tip/master: 'x86/urgent'
+ed1407100dfd8d48fd8c0ef7f8de935649dbe827 Merge branch into tip/master: 'sched/merge'
+b26590fb456f0c943990b11a0d2e89606a2be89c Merge branch into tip/master: 'irq/core'
+3ffa6e9e4b22e9b0fe4ae389508fb62747b2bb01 Merge branch into tip/master: 'irq/drivers'
+6915dd4dbecb2717b5326449b38f0256c2bfd432 Merge branch into tip/master: 'irq/msi'
+7beb7188b1caea80f5c51cb0c1a8cd9716e7180b Merge branch into tip/master: 'locking/core'
+2f994df0c4dbabf51b1fb283d12ab1565f70c707 Merge branch into tip/master: 'locking/futex'
+a29cd0aea9207af6aad9a50022363b2dcca1f69b Merge branch into tip/master: 'objtool/core'
+d28b94158a974c9e26ec9ee4805ee6479ac18655 Merge branch into tip/master: 'perf/core'
+3128b86d4e0ee12c40386ecdb81c0e4c872b9abb Merge branch into tip/master: 'ras/core'
+1219581a10c89f4e75075aba4347c78ad770add3 Merge branch into tip/master: 'sched/core'
+68ea9b582a9d44e467a3ca2abca931142e7b9304 Merge branch into tip/master: 'sched/hrtick'
+26551ffcffddc3dafc4d0ea252413434819b6ace Merge branch into tip/master: 'timers/core'
+8a49806fe524284056dafd746137c2401412f935 Merge branch into tip/master: 'timers/vdso'
+eef7afafa668f1149e79a7e7c186cc1a4327ad68 Merge branch into tip/master: 'x86/cleanups'
+ef3ec705ce7bcfddccd690e13740f97ccade3dc3 Merge branch into tip/master: 'x86/cpu'
+c4a68a131d14b2b26f58f6edc18adbf2e6346c3d Merge branch into tip/master: 'x86/microcode'
+f4480aa2b88dc627acb094e1ee9656e7e0a93cae Merge branch into tip/master: 'x86/misc'
+bb909b839cadfbd7e06bb20979ed3deabb65d56e Merge branch into tip/master: 'x86/mm'
+c88dcf13e09502eba9c4699dc7df477ba017f7e0 Merge branch into tip/master: 'x86/sev'
+6e9676ec661460c1d01cd8d83972352d923b818b Merge branch into tip/master: 'x86/tdx'
+
+--===============0804709873582569663==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-e5a34754509d-f38aa4c077c6.txt
 
 c9f3a593137d862d424130343e77d4b5260a4f5a iio: imu: inv_icm42600: fix odr switch to the same value
 ffd32db8263d2d785a2c419486a450dc80693235 iio: imu: inv_icm42600: fix odr switch when turning buffer off
@@ -107,6 +143,10 @@ d0d9b1f4f5391e6a00cee81d73ed2e8f98446d5f USB: ezcap401 needs USB_QUIRK_NO_BOS to
 5c75125672443a209a40033f0df5fb823e356452 Merge tag 'char-misc-7.0-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/char-misc
 69237f8c1f69112cca7388af7fab6d0ee45a2525 Merge tag 'usb-7.0-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/usb
 267594792a71018788af69e836c52e34bb8054af Merge tag 'rust-fixes-7.0-2' of git://git.kernel.org/pub/scm/linux/kernel/git/ojeda/linux
-b363cd74312eef1d1eceedbe16ef2fdfb8532664 Merge branch 'linus'
+f01c5f6262cdf617ca90d99a0c8745aa3b3e4f17 Merge branch into tip/master: 'irq/urgent'
+a1389dae6bbfde18ff3533630dd645b581729e40 Merge branch into tip/master: 'objtool/urgent'
+5af2b36d9ac47aec4971781ac77a393bf9d229ae Merge branch into tip/master: 'sched/urgent'
+74083649cebdb6f037ee82e1f4fb09f47a09f9c0 Merge branch into tip/master: 'timers/urgent'
+f38aa4c077c6cc222c2d16e22399f1b7a39f22ef Merge branch into tip/master: 'x86/urgent'
 
---===============1259378247022875950==--
+--===============0804709873582569663==--
