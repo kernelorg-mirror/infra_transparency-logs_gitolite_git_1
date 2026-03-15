@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============0855335954660476752=="
+Content-Type: multipart/mixed; boundary="===============6300979737418380331=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools
-Date: Sun, 15 Mar 2026 13:44:19 -0000
-Message-Id: <177358225918.4083882.12742723394127228628@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
+Date: Sun, 15 Mar 2026 13:44:34 -0000
+Message-Id: <177358227435.4084170.15136641803376917942@gitolite.kernel.org>
 
---===============0855335954660476752==
+--===============6300979737418380331==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/perf/perf-tools
+repo: pub/scm/linux/kernel/git/acme/linux
 user: acme
 changes:
   - ref: refs/heads/tmp.perf-tools
@@ -20,7 +20,7 @@ changes:
     new: 267594792a71018788af69e836c52e34bb8054af
     log: revlist-35b16a7a2c4f-267594792a71.txt
 
---===============0855335954660476752==
+--===============6300979737418380331==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -920,4 +920,4 @@ b073bcb8d43fd39f00ef07df5a47818a99c999eb Merge tag 'cgroup-for-7.0-rc3-fixes' of
 69237f8c1f69112cca7388af7fab6d0ee45a2525 Merge tag 'usb-7.0-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/usb
 267594792a71018788af69e836c52e34bb8054af Merge tag 'rust-fixes-7.0-2' of git://git.kernel.org/pub/scm/linux/kernel/git/ojeda/linux
 
---===============0855335954660476752==--
+--===============6300979737418380331==--
