@@ -1,22 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
-Date: Sun, 15 Mar 2026 21:42:26 -0000
-Message-Id: <177361094633.264678.4334058924595583213@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/andrea/ripgrep-edit
+Date: Sun, 15 Mar 2026 23:46:16 -0000
+Message-Id: <177361837695.357863.1130114407973337943@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/maz/arm-platforms
-user: maz
+repo: pub/scm/linux/kernel/git/andrea/ripgrep-edit
+user: andrea
 changes:
-  - ref: refs/heads/kvm-arm64/pkvm-psci
-    old: 20b0a75ad8e406894914ad8270221c5f70c4bf52
-    new: 6914544e5ec6f6ba08a616a455436fba42d86fd9
+  - ref: refs/heads/main
+    old: 1d63ff09154a444412a3a9bbb50b191f880daed2
+    new: fc2177b0364dd93c9f244e0799cd88427b158aa7
     log: |
-         bbbad3171e7a98a48d3a0e6d09fd8a22c4c08a24 KVM: arm64: pkvm: Move error handling to the end of kvm_hyp_cpu_entry
-         3eb7185c778f6163d2ae3a2fe2a5c7dffa092754 KVM: arm64: pkvm: Simplify BTI handling on CPU boot
-         7deedc2cb15ddd006d4caec807ba3ee7af94e379 KVM: arm64: pkvm: Turn __kvm_hyp_init_cpu into an inner label
-         6914544e5ec6f6ba08a616a455436fba42d86fd9 KVM: arm64: pkvm: Use direct function pointers for cpu_{on,resume}
+         de5216d954582aa2f8d716bdf55c6c819dcb0a7f Add --output-size-limit to restrict ripgrep output
+         cf71578003019f8c01b036cc91c55c5c92879031 Add --threads option to control parallelism
+         fc2177b0364dd93c9f244e0799cd88427b158aa7 Add parallel processing for GBNF control line detection
          
