@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Sun, 15 Mar 2026 03:11:39 -0000
-Message-Id: <177354429951.3602542.1531120631457286852@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
+Date: Sun, 15 Mar 2026 03:25:12 -0000
+Message-Id: <177354511207.3613677.9239397619030154360@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: mingo
+repo: pub/scm/linux/kernel/git/pci/pci
+user: kwilczynski
 changes:
-  - ref: refs/tags/objtool-urgent-2026-03-15
-    old: 0000000000000000000000000000000000000000
-    new: 1da4798829042805ae10a7e6fa9deb72a4aef69d
+  - ref: refs/heads/for-kernelci
+    old: 0a38c91a20efdefcb1820c219d64a61dd865333d
+    new: 7c31c557e81ec64e4a53f8de50fc27d2be11b617
+    log: |
+         7c31c557e81ec64e4a53f8de50fc27d2be11b617 PCI/proc: Fix race between pci_proc_init() and pci_bus_add_device()
+         
