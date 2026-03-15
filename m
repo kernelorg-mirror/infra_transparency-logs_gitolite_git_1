@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
-Date: Sun, 15 Mar 2026 03:25:19 -0000
-Message-Id: <177354511962.3613924.13801756180815923130@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Sun, 15 Mar 2026 03:26:49 -0000
+Message-Id: <177354520915.3614731.3332151864993942511@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pci/pci
-user: kwilczynski
+repo: pub/scm/linux/kernel/git/tip/tip
+user: mingo
 changes:
-  - ref: refs/heads/kwilczynski/procfs-attach-device-rescan-lock
+  - ref: refs/tags/sched-urgent-2026-03-15
     old: 0000000000000000000000000000000000000000
-    new: fdf1b5c67d5b171a6ae15c5f78b3b1cf3d324fd2
+    new: 22a0e030b1f938a2c2bb3c9c4220b27abd7404ef
