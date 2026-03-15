@@ -1,27 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux
-Date: Sun, 15 Mar 2026 15:03:35 -0000
-Message-Id: <177358701595.4146428.12872922901498317311@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mricon/korg-helpers
+Date: Sun, 15 Mar 2026 15:11:06 -0000
+Message-Id: <177358746691.4153691.13333550275271974762@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux
-user: axboe
+repo: pub/scm/linux/kernel/git/mricon/korg-helpers
+user: mricon
 changes:
   - ref: refs/heads/master
-    old: 69237f8c1f69112cca7388af7fab6d0ee45a2525
-    new: 267594792a71018788af69e836c52e34bb8054af
+    old: 77e2e6124fa34eb10694398271649c82f1645e48
+    new: b284d87cc92c668c31c7e2817ac1e1fb54ce0de0
     log: |
-         3ac88a9948792b092a4b11323e2abd1ecbe0cc68 rust: str: make NullTerminatedFormatter public
-         e174dd14bf0beac811a5201e370ab26ce8c67f23 rust: kbuild: emit dep-info into $(depfile) directly
-         dda135077ecc9f15c407f094dcfe7800376be867 rust: build: remap path to avoid absolute path
-         a075082a15e7f5c4889d0cbb51a4041c332cb00c rust: pin-init: internal: init: remove `#[disable_initialized_field_access]`
-         580cc37b1de4fcd9997c48d7080e744533f09f36 rust: pin-init: internal: init: document load-bearing fact of field accessors
-         fdbaa9d2b78e0da9e1aeb303bbdc3adfe6d8e749 rust: pin-init: replace shadowed return token by `unsafe`-to-create token
-         487f9b3dc6e507a982f1b984aa6bfbd9dc4b0567 rust: cpufreq: suppress clippy::double_parens in Policy doctest
-         592c61f3bfceaa29f8275696bd67c3dfad7ef72e rust: kbuild: allow `unused_features`
-         267594792a71018788af69e836c52e34bb8054af Merge tag 'rust-fixes-7.0-2' of git://git.kernel.org/pub/scm/linux/kernel/git/ojeda/linux
+         1320a25a9a556d5b434d6fad601efac54dedb57e Add .gitignore entries for Python tooling and vale config
+         e2c9b3f3f791da67228d1522c547079d591e11ae Add find-abusers.py for identifying heavy git server consumers
+         849a0d915c29a3e6c6a20a87b455994ba2209df5 Add rtt-probe.py for email round-trip time monitoring
+         eeec6d56c78687e0dcb1de7d38975ee151eeb3aa Add pytest scaffolding and initial patchwork bot tests
+         9f1bb6fbcadf99b980750ed16d397cc064f5dde3 git-patchwork-bot: extract PR matching logic into testable functions
+         0ea22312bbdbd51dae7ce558f7f53577bc1c59b3 git-patchwork-bot: add mocked API and hash tests
+         b284d87cc92c668c31c7e2817ac1e1fb54ce0de0 git-patchwork-bot: add tests for utilities, git wrappers, and database
          
