@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1907021201901494806=="
+Content-Type: multipart/mixed; boundary="===============6461381285889147318=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/chenhuacai/linux-loongson
-Date: Sun, 15 Mar 2026 08:14:37 -0000
-Message-Id: <177356247779.3832533.2946449407657627574@gitolite.kernel.org>
+Date: Sun, 15 Mar 2026 08:14:51 -0000
+Message-Id: <177356249137.3832761.7334159828846056744@gitolite.kernel.org>
 
---===============1907021201901494806==
+--===============6461381285889147318==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/chenhuacai/linux-loongson
 user: chenhuacai
 changes:
-  - ref: refs/heads/loongarch-fixes
-    old: 1cf342a7c3adc5877837b53bbceb5cc9eff60bbf
+  - ref: refs/heads/loongarch-next
+    old: 7dff99b354601dd01829e1511711846e04340a69
     new: 5e403a53e94fbc955b811dd9d503fe19d10b527c
-    log: revlist-1cf342a7c3ad-5e403a53e94f.txt
+    log: revlist-7dff99b35460-5e403a53e94f.txt
 
---===============1907021201901494806==
+--===============6461381285889147318==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1cf342a7c3ad-5e403a53e94f.txt
+Content-Disposition: attachment; filename=revlist-7dff99b35460-5e403a53e94f.txt
 
 75690e5fdd74fc4d2a4aec58be9a82aec7cee721 xfs: don't report metadata inodes to fserror
 115ea07b94d2f13942fbd93c6acde376db36b16a xfs: don't report half-built inodes to fserror
@@ -1051,4 +1051,4 @@ c90e01f287cf2455e69c6b0a6338e8675c981fca LoongArch: No need to flush icache if t
 6a58685dde767ce8f352919a90d28857f0ca22fb LoongArch: BPF: Make arch_protect_bpf_trampoline() return 0
 5e403a53e94fbc955b811dd9d503fe19d10b527c LoongArch: KVM: Fix typo issue in kvm_vm_init_features()
 
---===============1907021201901494806==--
+--===============6461381285889147318==--
