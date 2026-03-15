@@ -1,16 +1,50 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Sun, 15 Mar 2026 03:29:43 -0000
-Message-Id: <177354538356.3616023.5289673751764152177@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============6522925393498046217=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
+Date: Sun, 15 Mar 2026 03:30:54 -0000
+Message-Id: <177354545490.3618762.4417979382069683623@gitolite.kernel.org>
+
+--===============6522925393498046217==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: mingo
+repo: pub/scm/linux/kernel/git/pci/pci
+user: kwilczynski
 changes:
-  - ref: refs/tags/timers-urgent-2026-03-15
-    old: 0000000000000000000000000000000000000000
-    new: ec0c48db2ae35255e5c4ee46cfcdb0f68e792a88
+  - ref: refs/heads/kwilczynski/static-sysfs-attributes
+    old: 0a38c91a20efdefcb1820c219d64a61dd865333d
+    new: 26f955e78ef594ae462731c861ce168dfe05e803
+    log: revlist-0a38c91a20ef-26f955e78ef5.txt
+
+--===============6522925393498046217==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-0a38c91a20ef-26f955e78ef5.txt
+
+22a81bac93cb67942cc69da8eaf154607e2be725 PCI/sysfs: Use PCI resource accessor macros
+d829d314cbf7ffb05dc9834ed49735035d6b9dc9 PCI/sysfs: Only allow supported resource types in I/O and MMIO helpers
+e0c01856470cfe6b7d68c5528c922adaebf89e84 PCI/sysfs: Use BAR length in pci_llseek_resource() when attr->size is zero
+c375d7926988d869b28a23fd0e84bf6a33666de5 PCI/sysfs: Add CAP_SYS_ADMIN check to __resource_resize_store()
+54027996c91d1ec66f9bd2844be55062fc6e0d64 PCI/sysfs: Add static PCI resource attribute macros
+47184557c5b7b2e3445efc3efeb17c5ab6c30e2d PCI/sysfs: Convert PCI resource files to static attributes
+5e6f7bfc2092fc6f1d223256cfd72fbd493dacaf PCI/sysfs: Convert __resource_resize_store() to use static attributes
+cf712f14962cb992df9ea9407e7ce7641aecad22 PCI/sysfs: Add stubs for pci_{create,remove}_sysfs_dev_files()
+9eb90c436dd086d5327c9dbdc56385df23e42779 PCI/sysfs: Limit pci_sysfs_init() late_initcall compile scope
+2c4d374ce452de75d9796af1f3d608bd466c2919 alpha/PCI: Add security_locked_down() check to pci_mmap_resource()
+2de478036a6599bc62399a75fa7cdefdf6343999 alpha/PCI: Use BAR index in sysfs attr->private instead of resource pointer
+4ebbcb209561a5a55f4e3dc8edcaed7dc277cc8d alpha/PCI: Use PCI resource accessor macros
+cb37c83a217d3e4a4dc0ff86909555973d5c6f81 alpha/PCI: Clean up __pci_mmap_fits()
+72a5ca042f71c2c8259920c329b51346780744f9 alpha/PCI: Add static PCI resource attribute macros
+8fc7c9fc0d0ad49474c7c1dbb8ca7981e09a3c61 alpha/PCI: Convert resource files to static attributes
+b0d6223b3b0b502ded393f9ec051b2ca340c98b3 PCI/sysfs: Remove pci_{create,remove}_sysfs_dev_files()
+fd896004960623f3f7dcaffb2f5daeb1b575eb71 alpha/PCI: Compute legacy size in pci_mmap_legacy_page_range()
+456ed4047518d803bc0724a300983e235b416bcc PCI/sysfs: Add __weak pci_legacy_has_sparse() helper
+fb111e944c81059c8634778d8e12f6cff6469a0a PCI/sysfs: Convert legacy I/O and memory attributes to static definitions
+26f955e78ef594ae462731c861ce168dfe05e803 PCI/sysfs: Remove pci_create_legacy_files() and pci_sysfs_init()
+
+--===============6522925393498046217==--
