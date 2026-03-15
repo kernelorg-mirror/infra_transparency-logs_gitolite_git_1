@@ -1,22 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jejb/scsi
-Date: Sun, 15 Mar 2026 16:10:32 -0000
-Message-Id: <177359103236.9114.18349725563252742884@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux
+Date: Sun, 15 Mar 2026 16:22:10 -0000
+Message-Id: <177359173035.18040.14536236947361693837@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jejb/scsi
-user: jejb
+repo: pub/scm/linux/kernel/git/axboe/linux
+user: axboe
 changes:
-  - ref: refs/tags/scsi-fixes
-    old: 2e09abd701baf96c56d8ec181eaf9c32156748fc
-    new: ab09523ea190e58f6d37369afccf4dc12e407f5f
+  - ref: refs/heads/for-next
+    old: d68c48c034012db61d03e7bb5ee0171307c02f96
+    new: 21234da57e65686f0705dfb52827e705f1357ca9
     log: |
-         4ce7ada40c008fa21b7e52ab9d04e8746e2e9325 scsi: core: Fix error handling for scsi_alloc_sdev()
-         b0bd84c39289ef6a6c3827dd52c875659291970a scsi: ufs: core: Fix SError in ufshcd_rtc_work() during UFS suspend
-         c0b7da13a04bd70ef6070bfb9ea85f582294560a scsi: qla2xxx: Completely fix fcport double free
-         8ddc0c26916574395447ebf4cff684314f6873a9 scsi: hisi_sas: Fix NULL pointer exception during user_scan()
+         e9cd622a7fb028b54834928fde6971ea274beec4 io_uring/poll: fix multishot recv missing EOF on wakeup race
+         21234da57e65686f0705dfb52827e705f1357ca9 Merge branch 'io_uring-7.0' into for-next
+         
+  - ref: refs/heads/io_uring-7.0
+    old: c2c185be5c85d37215397c8e8781abf0a69bec1f
+    new: e9cd622a7fb028b54834928fde6971ea274beec4
+    log: |
+         e9cd622a7fb028b54834928fde6971ea274beec4 io_uring/poll: fix multishot recv missing EOF on wakeup race
          
