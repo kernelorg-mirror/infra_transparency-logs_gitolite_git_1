@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1469167159767550540=="
+Content-Type: multipart/mixed; boundary="===============2823379019540655298=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Sun, 15 Mar 2026 00:48:45 -0000
-Message-Id: <177353572572.3490765.7691984573591735029@gitolite.kernel.org>
+Date: Sun, 15 Mar 2026 00:48:48 -0000
+Message-Id: <177353572844.3490903.18259801645474470118@gitolite.kernel.org>
 
---===============1469167159767550540==
+--===============2823379019540655298==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/mm-new
-    old: 593fab843afbd6800243552aebcc61d02d3cdcb2
-    new: c5a81ff6071bcf42531426e6336b5cc424df6e3d
-    log: revlist-593fab843afb-c5a81ff6071b.txt
+  - ref: refs/heads/mm-unstable
+    old: 61ff9df3809c7c2a36d6f154cb46d9b32ba3b4f7
+    new: 3f4f1faa33544d0bd724e32980b6f211c3a9bc7b
+    log: revlist-61ff9df3809c-3f4f1faa3354.txt
 
---===============1469167159767550540==
+--===============2823379019540655298==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-593fab843afb-c5a81ff6071b.txt
+Content-Disposition: attachment; filename=revlist-61ff9df3809c-3f4f1faa3354.txt
 
 f28c1e15327df68a920ab88c80c63dac0102a206 riscv: avoid early page_to_phys()
 10125b79cb0e7037fff6cd8cc9fafacfda8113a0 mailmap: update email address for Muhammad Usama Anjum
@@ -386,28 +386,5 @@ b448c4d27664c07de5690e22f77bf9dd4b2a1bcd mm/damon/lru_sort: respect addr_unit on
 74b2645bb45ae4cddac61ab17f16fac4a3875aab mm/khugepaged: define KHUGEPAGED_MAX_PTES_LIMIT as HPAGE_PMD_NR - 1
 543bc519a01da78c5895e316ce7d0232371db2da mm/khugepaged: rename hpage_collapse_* to collapse_*
 3f4f1faa33544d0bd724e32980b6f211c3a9bc7b mm/khugepaged: unify khugepaged and madv_collapse with collapse_single_pmd()
-25cf6171b6d53736591ae4702bb1e2eaa272cfcf mm: various small mmap_prepare cleanups
-e0e51e63a05dc65bc882cedb96dc71fa2bd9bbdc mm-various-small-mmap_prepare-cleanups-fix
-e53a8b6a4c50fffa709a3672ce4a4390f38f6d33 mm: add documentation for the mmap_prepare file operation callback
-35d0a9a31dc49ecfa251dd0419e1f5d3bb98c8a3 Docs: mmap_prepare: fix sphinx warnings and format
-e48e139cb2d359aa7cd298d5098c0077cd7d6d1f mm: document vm_operations_struct->open the same as close()
-b574f9e0e0a234557dccdb9b9abb96797f6e9229 mm: add vm_ops->mapped hook
-3051b41bf9a6cb4b755dffb5ac39566dc3609a1f fs: afs: correctly drop reference count on mapping failure
-7792a8413920aaebe02c83a4659b05717f4d0cbb mm: add mmap_action_simple_ioremap()
-c7684ab435292de7f8a3ef3fd283ce23aea976e1 mm-add-mmap_action_simple_ioremap-fix
-37a16853768b42903820f3161f07b4b631868532 misc: open-dice: replace deprecated mmap hook with mmap_prepare
-50c0c52a8f2585a3fc823b4550d2d5add5ca7107 hpet: replace deprecated mmap hook with mmap_prepare
-cf0dfae0323aa8b75cee0b94d5c7553b511d7bc3 mtdchar: replace deprecated mmap hook with mmap_prepare, clean up
-3e2fe479e711ff9732021352f887d7192fb91e00 stm: replace deprecated mmap hook with mmap_prepare
-7b02fc5205f982bf68e0b0ea623544c7ca7e3ac7 staging: vme_user: replace deprecated mmap hook with mmap_prepare
-f47498aabaa0bcf964bd5d356420c95442727953 mm: allow handling of stacked mmap_prepare hooks in more drivers
-61fc26ccd7226ebd4f3de4b119fdc76e7eb08745 drivers: hv: vmbus: replace deprecated mmap hook with mmap_prepare
-9e45754988c13ceb7c29b45cd603feb4bd263251 uio: replace deprecated mmap hook with mmap_prepare in uio_info
-d0b41d386d91b62a27ebe396486c28c7aa9fc56a mm: add mmap_action_map_kernel_pages[_full]()
-cb56be05c5524a4cde47cf604643e1a038d9813c mm-add-mmap_action_map_kernel_pages-fix
-906a73121e6b8189d01b164da6085317c5e43039 mm-add-mmap_action_map_kernel_pages-fix-2
-099c996479b8b01621c361c2f2c5d6f3fbc2c22d zram: optimize LZ4 dictionary compression performance
-af82022e498d23434b9f393c892f1729b64ee452 mm: zswap: tie per-CPU acomp_ctx lifetime to the pool
-c5a81ff6071bcf42531426e6336b5cc424df6e3d mm: zswap: consistently use IS_ERR_OR_NULL() to check acomp_ctx resources
 
---===============1469167159767550540==--
+--===============2823379019540655298==--
