@@ -1,143 +1,298 @@
-Content-Type: multipart/mixed; boundary="===============4365284744930487006=="
+Content-Type: multipart/mixed; boundary="===============5999821001987385591=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/arighi/linux
-Date: Sun, 15 Mar 2026 15:29:06 -0000
-Message-Id: <177358854681.4167585.1964418199862860939@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sashal/linux-next
+Date: Sun, 15 Mar 2026 15:32:50 -0000
+Message-Id: <177358877038.4171420.11371765789608033497@gitolite.kernel.org>
 
---===============4365284744930487006==
+--===============5999821001987385591==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/arighi/linux
-user: arighi
+repo: pub/scm/linux/kernel/git/sashal/linux-next
+user: sashal
 changes:
-  - ref: refs/heads/scx
-    old: 8ac410bea2760cfda32d5746243ea710263681d1
-    new: bfba8c82eec60af1d81503b445aa644ed55db388
-    log: revlist-8ac410bea276-bfba8c82eec6.txt
+  - ref: refs/heads/all-next
+    old: d7675b43e3c5ff7d54b0e701dc9c0496eef4a900
+    new: d5a8092c7595d5135449625957df420094dc0fc7
+    log: revlist-d7675b43e3c5-d5a8092c7595.txt
+  - ref: refs/heads/arch-next
+    old: 46cb456f4145e100695db07a4b0726ba496572e3
+    new: 886c0b249b030605ce4fa3e3c12d58fbd3630691
+    log: revlist-46cb456f4145-886c0b249b03.txt
+  - ref: refs/heads/core-next
+    old: 95d89e5d1cb7e559e36197f2af683ba8b4ec4c32
+    new: 102fdc127e2aaa861ca7c369a840623234ceca84
+    log: revlist-95d89e5d1cb7-102fdc127e2a.txt
+  - ref: refs/heads/crypto-next
+    old: 81cdb7abd72e2ffcdaefd20329b0e9ef226f08dd
+    new: e79e36742f8b00f50e995b08a3920768683ec385
+    log: revlist-81cdb7abd72e-e79e36742f8b.txt
+  - ref: refs/heads/fixes-next
+    old: b7bcd6d0aa5285fb7b09b52961d275f61991d185
+    new: 7171eb65316452f65282236843922a8661959496
+    log: |
+         793b008cd39516385791a1d1d223d817e947a471 ALSA: hda/realtek: Add HP ENVY Laptop 13-ba0xxx quirk
+         c05a87d9ec3bf8727a5d746ce855003c6f2f8bb4 iio: imu: bmi160: Remove potential undefined behavior in bmi160_config_pin()
+         dd154646d292cce7de952f216760c58c35cfecde iio: dac: mcp47feb02: Fix Vref validation [1-999] case
+         49e1493b35b8a0541444bc93eccda0938be3a5eb Merge 'sound-current' from https://git.kernel.org/pub/scm/linux/kernel/git/tiwai/sound.git (for-linus)
+         7171eb65316452f65282236843922a8661959496 Merge 'iio-fixes' from https://git.kernel.org/pub/scm/linux/kernel/git/jic23/iio.git (fixes-togreg)
+         
+  - ref: refs/heads/iio-next
+    old: d72366e4d94143f80186e8a1cde7c4390a4e816a
+    new: b27785793aece955f26ef410131aa24c7f2b18fb
+    log: |
+         c05a87d9ec3bf8727a5d746ce855003c6f2f8bb4 iio: imu: bmi160: Remove potential undefined behavior in bmi160_config_pin()
+         dd154646d292cce7de952f216760c58c35cfecde iio: dac: mcp47feb02: Fix Vref validation [1-999] case
+         b27785793aece955f26ef410131aa24c7f2b18fb Merge 'iio-fixes' from https://git.kernel.org/pub/scm/linux/kernel/git/jic23/iio.git (fixes-togreg)
+         
 
---===============4365284744930487006==
+--===============5999821001987385591==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8ac410bea276-bfba8c82eec6.txt
+Content-Disposition: attachment; filename=revlist-d7675b43e3c5-d5a8092c7595.txt
 
-9fe89f022c05d99c052d6bc088b82d4ff83bf463 sched/fair: More complex proportional newidle balance
-4823725d9d1d9cc5b36647e0cb8ff616cad6536f sched/fair: Increase weight bits for avg_vruntime
-101f3498b4bdfef97152a444847948de1543f692 sched/fair: Revert 6d71a9c61604 ("sched/fair: Fix EEVDF entity placement bug causing scheduling lag")
-db4551e2ba346663b7b16f0b5d36d308b615c50e sched/fair: Use full weight to __calc_delta()
-9264758066061e660c86e48cff1bac4a58a7324a sched/fair: Update overutilized detection
-d3d663faa1d4e86491b77ab72eabc3ea2f58b197 sched/fair: Filter false overloaded_group case for EAS
-c0e1832ba6dad7057acf3f485a87e0adccc23141 sched: Fix incorrect schedstats for rt and dl thread
-c2a57380df9dd5df6fae11c6ba9f624b9cad3e6a sched: Replace use of system_unbound_wq with system_dfl_wq
-fd54d81c2c0e6cffd5470c2c27fbb04d0ebe7da0 sched/fair: Skip SCHED_IDLE rq for SCHED_IDLE task
-b75aaea24c9fc776e5bd14df38147270a3c00450 sched_ext: Properly mark SCX-internal migrations via sticky_cpu
-482bb06f83ab26cc055835eb7d94d615520e9de9 sched_ext: Add rq parameter to dispatch_enqueue()
-ebf1ccff79c43f860cbd2f9d6cfab9a462d0cb2d sched_ext: Fix ops.dequeue() semantics
-658ad2259b3e95aea21e548f7ca3440f620bf95f selftests/sched_ext: Add test to validate ops.dequeue() semantics
-477174ac35c510d0ed3043f5bd4fba25546a21ce sched_ext: Optimize sched_ext_entity layout for cache locality
-2e7af192697ef2a71c76fd57860b0fcd02754e14 sched/deadline: Add reporting of runtime left & abs deadline to sched_getattr() for DEADLINE tasks
-7a8464555d2e5f038758bb19e72ab4710b79e9cd sched_ext: Use WRITE_ONCE() for the write side of dsq->seq update
-6944e6d8a6d4c1e654de1da112da8fef1b30e623 sched_ext/selftests: Fix format specifier and buffer length in file_write_long()
-0927780c90ce551869fb692279d66387a4b66af5 sched_ext: Use READ_ONCE() for lock-free reads of module param variables
-70f54f61a3d52af13b72248a63e98eddf4c990ac sched_ext: Document task ownership state machine
-5b30afc20b3fea29b9beb83c6415c4ff06f774aa cgroup: Expose some cgroup helpers
-12f8069115d5ff9d292c6b00c74e1984b01b6fc1 Merge branch 'linus' into sched/core, to resolve conflicts
-4b9ef32c57a68eb98c45835c2beaa77f8e51c5c4 x86/mm/tlb: Make enter_lazy_tlb() always inline on x86
-54a66e431eeacf23e1dc47cb3507f2d0c068aaf0 sched/headers: Inline raw_spin_rq_unlock()
-8ce8d0524c136f60a1bddb0951db2999342d7217 sched_ext: Documentation: Mention scheduling class precedence
-1dde502587657045b267f179d7a1ecc7b8a1a265 sched_ext: Use READ_ONCE() for scx_slice_bypass_us in scx_bypass()
-32e940f2bd3b16551f23ea44be47f6f5d1746d64 Merge branch 'for-7.0-fixes' into for-7.1
-a0b0f6c7d7f29f1ade9ec59699d02e3b153ee8e4 Merge branch 'for-7.1' of git://git.kernel.org/pub/scm/linux/kernel/git/tj/cgroup into for-7.1
-b0e4c2f8a0f0a60d10c427db4080181060014cac sched_ext: Implement cgroup subtree iteration for scx_task_iter
-e3715e397720c9f6068aff4f7babccd3cb6ef618 sched_ext: Add @kargs to scx_fork()
-19d0e98c20f079352f7c9098338520e09086e5ab sched/core: Swap the order between sched_post_fork() and cgroup_post_fork()
-0454a604b98a9bf301e82860cd216ec4ac563668 sched_ext: Update p->scx.disallow warning in scx_init_task()
-dbd542a8fac7bcfba91e353f2a522e1bf2fbee27 sched_ext: Reorganize enable/disable path for multi-scheduler support
-ebeca1f930eac8f11f815d58eb38fa5d07e7c16e sched_ext: Introduce cgroup sub-sched support
-88234b075c3fc23d57406e1867523b6aba783ebf sched_ext: Introduce scx_task_sched[_rcu]()
-105dcd005be2ac1d5541921db8feb1d0f98d59d5 sched_ext: Introduce scx_prog_sched()
-a5fa0708cbfda4d3c2c6a447de7c4b0b23595527 sched_ext: Enforce scheduling authority in dispatch and select_cpu operations
-245d09c594ea40dbd4b8f989f2422dbc8e65a61c sched_ext: Enforce scheduler ownership when updating slice and dsq_vtime
-bb4d9fd551588165dc918aa2f2108b939e3367db sched_ext: scx_dsq_move() should validate the task belongs to the right scheduler
-073d4f0667b064ed05c19e44d840b0d4cd49a251 sched_ext: Refactor task init/exit helpers
-41346d68d0aa79a86374c57164c92ce136b6b723 sched_ext: Make scx_prio_less() handle multiple schedulers
-e1cccf365ef4b8927d002e424e95fd4e04e2d966 sched_ext: Move default slice to per-scheduler field
-c1743da43cf52caa412413af06eb56a547086c7a sched_ext: Move aborting flag to per-scheduler field
-ff06f727a9412b3c9f2f13f1441a5a0d2a31366b sched_ext: Move bypass_dsq into scx_sched_pcpu
-5c8d98a1b4de444709f7d2b7cee3d0ea00c581a2 sched_ext: Move bypass state into scx_sched
-c7f0e467a27a9ee98a324f12b25abf53280d71d0 sched_ext: Prepare bypass mode for hierarchical operation
-39d0b2c43776fc84a27b2fc37cebe89e442aafd8 sched_ext: Factor out scx_dispatch_sched()
-d94d09a23340b343ffc6ad935f4a7fa90516684a sched_ext: When calling ops.dispatch() @prev must be on the same scx_sched
-aa2a0a19686c90106ade6a7e848ffbb62d55d733 sched_ext: Separate bypass dispatch enabling from bypass depth tracking
-025b1bd419653f181c8b9c748aa07802177ff828 sched_ext: Implement hierarchical bypass mode
-0203e0c3f64c6e5b1cb8c28a6661e246feb8043c sched_ext: Dispatch from all scx_sched instances
-34ecfb355104c29734c124b35ffd598a49e62156 sched_ext: Move scx_dsp_ctx and scx_dsp_max_batch into scx_sched
-cde94c032b32be773ef05db9847be6f02fb123f0 sched_ext: Make watchdog sub-sched aware
-eff782fddb5cb03c247fdb68b148abfd30cda1fe sched_ext: Convert scx_dump_state() spinlock to raw spinlock
-9276b7ccb2202f1c2324e4346d12fd6df166c747 sched_ext: Support dumping multiple schedulers and add scheduler identification
-337ec00b1d9c676f637651c2cefddb8612b867ee sched_ext: Implement cgroup sub-sched enabling and disabling
-7f5fcd47dd62ba7e150468ca05d30bfd26feb306 sched_ext: Add scx_sched back pointer to scx_sched_pcpu
-0d8c551dd5de1c157600da05a01e3147115dfbb4 sched_ext: Make scx_bpf_reenqueue_local() sub-sched aware
-54be8de4236a52b301825cb51c6d5fdecb2fd6b8 sched_ext: Factor out scx_link_sched() and scx_unlink_sched()
-25037af712eb04eb92a89440852029a50eea8d82 sched_ext: Add rhashtable lookup for sub-schedulers
-4f8b122848dbc353a193de0fa707bc40b5f067ff sched_ext: Add basic building blocks for nested sub-scheduler dispatching
-2a0596d516870951ce0e8edf510e48c87cb80761 sched_ext: Documentation: Update sched-ext.rst
-57ccf5ccdc56954f2a91a7f66684fd31c566bde5 sched_ext: Fix enqueue_task_scx() truncation of upper enqueue flags
-f68971bcec23c53979531aab0904afec9b8d0b4a Merge branch 'for-7.0-fixes' into for-7.1
-03f5304aad0f90907475437be8052e7e70376319 sched_ext: Pass full dequeue flags to ops.quiescent()
-26b9c7c70027f011a5f39cef9c3cf44539310a6d sched_ext: Relocate scx_bpf_task_cgroup() and its BTF_ID to the end of kfunc section
-d4ae868c6b7d6aaa29c86c4f72f68d2252709178 sched_ext: Wrap global DSQs in per-node structure
-363cd075e97058f70404ed34955864b99530cbdb sched_ext: Factor out pnode allocation and deallocation into helpers
-053d27fba582b6c33531aa4d4f7d4e7ee73f193a sched_ext: Change find_global_dsq() to take CPU number instead of task
-ea4593e97a1c0b4b84125dd570b8694bda45c3e0 sched_ext: Relocate run_deferred() and its callees
-8c1b9453fde6ed3490508974d8134355e8c3c476 sched_ext: Convert deferred_reenq_locals from llist to regular list
-0c4df54ad8cd52cc165fe2c51fec87e311372699 sched_ext: Wrap deferred_reenq_local_node into a struct
-9c34c5074d1bc22072fc7f9c86b0028f7e273b2c sched_ext: Introduce scx_bpf_dsq_reenq() for remote local DSQ reenqueue
-ffa7ae0724e4ee548c87a56dc7a7a0ab7ee0c1d6 sched_ext: Add reenq_flags plumbing to scx_bpf_dsq_reenq()
-30b0515342db48ac9ffd9999648de0f7ca1d6a87 sched_ext: Add per-CPU data to DSQs
-35250720d6ed1e83e0d1e12b7e8bf7b8316d7d58 sched_ext: Factor out nldsq_cursor_next_task() and nldsq_cursor_lost_task()
-84b1a0ea0b7c23dec240783a592e480780efe459 sched_ext: Implement scx_bpf_dsq_reenq() for user DSQs
-a90449b126824b796e9aeefc2b009e57f38af168 sched_ext: Optimize schedule_dsq_reenq() with lockless fast path
-7203d77d6e04f83f7b78838eed099d9cac31700b sched_ext: Simplify task state handling
-ce897abc21b2d5e74981ff2b848f3a08a580d50a sched_ext: Add SCX_TASK_REENQ_REASON flags
-28c4ef2b2e57cb13bf784251e4abbf942d37b4ce sched_ext: Fix scx_bpf_reenqueue_local() silently reenqueuing nothing
-80a54b807d6c0b98e43522f102da61c953cfd502 Revert "sched_ext: Use READ_ONCE() for the read side of dsq->nr update"
-c90af06c80a33a28f0bdba3ba136439afad4dd38 tools/sched_ext/include: Remove dead sdt_task_defs.h guard from common.h
-9c6437f7c2e848aea2469df3396f8365d06adbb0 tools/sched_ext/include: Sync bpf_arena_common.bpf.h with scx repo
-3691d380d5ca8c847c716327aad73a07307ec9c4 tools/sched_ext/include: Add missing helpers to common.bpf.h
-c9c8546cdee64d3f1a54fe09cc2b8c1a8ea80c6d tools/sched_ext/include: Add __COMPAT_HAS_scx_bpf_select_cpu_and macro
-93ac9b150e2fba3a5e94e0b20d954a12e4b0907f tools/sched_ext/include: Add libbpf version guard for assoc_struct_ops
-0a0d3b8dd06b9df0bdc31427090a85e90ac0406b tools/sched_ext/include: Regenerate enum_defs.autogen.h
-2fcfe5951eb2e8440fc5e1dd6ea977336ff83a1d sched_ext: Use WRITE_ONCE() for the write side of scx_enable helper pointer
-6af9b391351261b38b592800010d4bdca2197f8e Merge branch 'for-7.0-fixes' into for-7.1
-bec10581e92289bdc3eed17e90200900ddb00594 sched_ext: remove SCX_OPS_HAS_CGROUP_WEIGHT
-0e7cd9cef61fde36ebfb653fe9e7a9722185cb57 Merge branch 'sched/core' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip into for-7.1
-b8840942644cd76438a192ff493c60ec2169f7ef sched_ext: Replace system_unbound_wq with system_dfl_wq in scx_kobj_release()
-98059335382dc5870207d6a0c1c9e7a004d627ad sched: Prefer IS_ERR_OR_NULL over manual NULL check
-7e92cf4354e9803cc7b8ed01f38371e0e89d2a0a sched_ext: Fix sub_detach op check to test the parent's ops
-b5bc043505fed4198158037938ead78557eb79ab sched_ext: Add scx_dump_lock and dump_disabled
-f4a6c506d11823e7123bc6573fbd8e432245acf4 sched_ext: Always bounce scx_disable() through irq_work
-6b36c4c2935c54d6a103389fad2a2a9d25591501 sched_ext: Fix scx_sched_lock / rq lock ordering
-6b4576b09714def33890e04ef49621bca3614bbf sched_ext: Reject sub-sched attachment to a disabled parent
-bd377af0970164a4d12479bf36049619201be2f0 sched_ext: Fix incomplete help text usage strings
-1d02346fec8d13b05e54296ddc6ae29b7e1067df selftests/sched_ext: Add missing error check for exit__load()
-f1c1dd9cc1b610e44d16210f5b9bd5e697c7cf74 sched_ext: Split task_should_reenq() into local and user variants
-b5b38761b45a6c7d91760d212fda8b46df8c5362 sched_ext: Add scx_vet_enq_flags() and plumb dsq_id into preamble
-98d709cba3193f0bec54da4cd76ef499ea2f1ef7 sched_ext: Implement SCX_ENQ_IMMED
-da32a2986e5fb3c70562ad610918834696e87322 sched_ext: Plumb enq_flags through the consume path
-860683763ebf4662cb72a312279334e02718308f sched_ext: Add enq_flags to scx_bpf_dsq_move_to_local()
-3229ac4a5ef5a838e82a784226432c92d3db90a8 sched_ext: Add SCX_OPS_ALWAYS_ENQ_IMMED ops flag
-238eba8c210d02ec2908d9c9143db4edcea3bfa1 sched_ext: Use schedule_deferred_locked() in schedule_dsq_reenq()
-12b49dd15e4bf4e906759ac445797ba2213e52dd selftests/sched_ext: Update scx_bpf_dsq_move_to_local() in kselftests
-e36bc38ebfac95ecd088d4bc0ceb3ffcef2ebdfa sched_ext: Fix uninitialized ret in scx_alloc_and_add_sched()
-c959218c6533cf7e373cb5ccddb93f582ee5d47b sched_ext/selftests: Fix incorrect include guard comments
-8160530c44ea6e6b5c18fa23b4a24c1b644ff816 bpf: Defer local storage free when called from atomic context
-30274f0af44c505136bead137bcec7b0ac2a1509 sched_ext: Invalidate dispatch decisions on CPU affinity changes
-bfba8c82eec60af1d81503b445aa644ed55db388 sched_ext: Reduce DSQ lock contention in consume_dispatch_q()
+ed1407100dfd8d48fd8c0ef7f8de935649dbe827 Merge branch into tip/master: 'sched/merge'
+b26590fb456f0c943990b11a0d2e89606a2be89c Merge branch into tip/master: 'irq/core'
+3ffa6e9e4b22e9b0fe4ae389508fb62747b2bb01 Merge branch into tip/master: 'irq/drivers'
+6915dd4dbecb2717b5326449b38f0256c2bfd432 Merge branch into tip/master: 'irq/msi'
+7beb7188b1caea80f5c51cb0c1a8cd9716e7180b Merge branch into tip/master: 'locking/core'
+2f994df0c4dbabf51b1fb283d12ab1565f70c707 Merge branch into tip/master: 'locking/futex'
+a29cd0aea9207af6aad9a50022363b2dcca1f69b Merge branch into tip/master: 'objtool/core'
+d28b94158a974c9e26ec9ee4805ee6479ac18655 Merge branch into tip/master: 'perf/core'
+3128b86d4e0ee12c40386ecdb81c0e4c872b9abb Merge branch into tip/master: 'ras/core'
+1219581a10c89f4e75075aba4347c78ad770add3 Merge branch into tip/master: 'sched/core'
+68ea9b582a9d44e467a3ca2abca931142e7b9304 Merge branch into tip/master: 'sched/hrtick'
+26551ffcffddc3dafc4d0ea252413434819b6ace Merge branch into tip/master: 'timers/core'
+8a49806fe524284056dafd746137c2401412f935 Merge branch into tip/master: 'timers/vdso'
+eef7afafa668f1149e79a7e7c186cc1a4327ad68 Merge branch into tip/master: 'x86/cleanups'
+ef3ec705ce7bcfddccd690e13740f97ccade3dc3 Merge branch into tip/master: 'x86/cpu'
+c4a68a131d14b2b26f58f6edc18adbf2e6346c3d Merge branch into tip/master: 'x86/microcode'
+f4480aa2b88dc627acb094e1ee9656e7e0a93cae Merge branch into tip/master: 'x86/misc'
+bb909b839cadfbd7e06bb20979ed3deabb65d56e Merge branch into tip/master: 'x86/mm'
+c88dcf13e09502eba9c4699dc7df477ba017f7e0 Merge branch into tip/master: 'x86/sev'
+6e9676ec661460c1d01cd8d83972352d923b818b Merge branch into tip/master: 'x86/tdx'
+1e84df6ccfcb342262b02dfdb723eaad50a0b6c9 dt-bindings: crypto: inside-secure,safexcel: add compatible for MT7981
+f06b4ee3351dee90d422305d164a7aa353c5fdd1 crypto: atmel-sha204a - Drop redundant I2C_FUNC_I2C check
+4963b39e3a3feed07fbf4d5cc2b5df8498888285 crypto: qat - fix indentation of macros in qat_hal.c
+e7dcb722bb75bb3f3992f580a8728a794732fd7a crypto: qat - fix firmware loading failure for GEN6 devices
+68095ad9de9361844235c1e4e3bd5632f6b21929 MAINTAINERS: Remove bouncing maintaner for IAA driver
+b45b4314d3e55be70b597baa1f0ab9283e68003b crypto: testmgr - Add test vectors for authenc(hmac(sha1),rfc3686(ctr(aes)))
+d46c27c01f132082095342b5abf4e83e250b70b8 crypto: testmgr - Add test vectors for authenc(hmac(sha224),rfc3686(ctr(aes)))
+5ac6b904c70ff163fd2f9e152056300ce5ed6c26 crypto: testmgr - Add test vectors for authenc(hmac(sha256),rfc3686(ctr(aes)))
+2f0814271715f974ae1fc6247c9918906c83e24b crypto: testmgr - Add test vectors for authenc(hmac(sha384),rfc3686(ctr(aes)))
+82fc2b17fa5b9b12d34770afcc8e3c4288735429 crypto: testmgr - Add test vectors for authenc(hmac(sha512),rfc3686(ctr(aes)))
+f4abb1af1bedafada8d7f814b85a7cf83d58f0b7 MAINTAINERS: remove outdated entry for crypto/rng.c
+5377032914b29b4643adece0ff1dfc67e36700f4 crypto: inside-secure/eip93 - register hash before authenc algorithms
+c8a9a647532f5c2a04180352693215e24e9dba03 crypto: atmel-tdes - fix DMA sync direction
+c708d3fad4217f23421b8496e231b0c5cee617a0 crypto: atmel - use list_first_entry_or_null to simplify find_dev
+acaad57288eb8472279f22f9ce64633b2d171f9b LoongArch: Only use SC.Q when supported by the assembler
+1ec39b5b7211bc534ab58a780cda212712a27f9e LoongArch: Fix calling smp_processor_id() in preemptible code
+17b946cd655c56befccab5eff0f4e8a750a5bf87 LoongArch: Give more information if kmem access failed
+22005b93c4b70b4f1bdd897b1a9579f2f7675831 LoongArch: Check return values for set_memory_{rw,rox}
+c90e01f287cf2455e69c6b0a6338e8675c981fca LoongArch: No need to flush icache if text copy failed
+6a58685dde767ce8f352919a90d28857f0ca22fb LoongArch: BPF: Make arch_protect_bpf_trampoline() return 0
+5e403a53e94fbc955b811dd9d503fe19d10b527c LoongArch: KVM: Fix typo issue in kvm_vm_init_features()
+2c98a8fbd6aa647414c6248dacf254ebe91c79ad parisc: Flush correct cache in cacheflush() syscall
+c05a87d9ec3bf8727a5d746ce855003c6f2f8bb4 iio: imu: bmi160: Remove potential undefined behavior in bmi160_config_pin()
+dd154646d292cce7de952f216760c58c35cfecde iio: dac: mcp47feb02: Fix Vref validation [1-999] case
+5a673522967609338509197b19e2d61b5e4afde6 Merge 'arm64-fixes' from https://git.kernel.org/pub/scm/linux/kernel/git/arm64/linux (for-next/fixes)
+6be47a216d9ca214b901025d18f6f736b760ee92 Merge 'arm-soc-fixes' from https://git.kernel.org/pub/scm/linux/kernel/git/soc/soc.git (arm/fixes)
+1ed15ce0c6f231198c1c2489200050d4beb54474 Merge 'powerpc-fixes' from https://git.kernel.org/pub/scm/linux/kernel/git/powerpc/linux.git (fixes)
+b762945afa2c91335b34059cb47ec7dda2e046fe Merge 'kvms390-fixes' from https://git.kernel.org/pub/scm/linux/kernel/git/kvms390/linux.git (master)
+50aa4d5bc3ea2bc452c6f1a35df6c63e17a25c9b Merge 'risc-v-fixes' from https://git.kernel.org/pub/scm/linux/kernel/git/riscv/linux.git (fixes)
+3980c1210c8a0fb878aefbcb201856a2a8b643f5 Merge 'riscv-dt-fixes' from https://git.kernel.org/pub/scm/linux/kernel/git/conor/linux.git (riscv-dt-fixes)
+0bbdc499953c68ad0e72263532b21669a64056f1 Merge 'riscv-soc-fixes' from https://git.kernel.org/pub/scm/linux/kernel/git/conor/linux.git (riscv-soc-fixes)
+fd605b0af2da2994b913157c9a4f72f2d5f21ad8 Merge 'arm' from https://git.kernel.org/pub/scm/linux/kernel/git/rmk/linux.git (for-next)
+1449ab1b6999ae3c371d47a23339b97b99f8a0d3 Merge 'arm64' from https://git.kernel.org/pub/scm/linux/kernel/git/arm64/linux (for-next/core)
+b592e44e4da4a314c3123f29b79e03fe6ddc13d5 Merge 'arm-soc' from https://git.kernel.org/pub/scm/linux/kernel/git/soc/soc.git (for-next)
+04bb2aeb23f5c90594ac3b67f9b03aa2777bde3d Merge 'loongarch' from https://git.kernel.org/pub/scm/linux/kernel/git/chenhuacai/linux-loongson.git (loongarch-next)
+b400af02a83a280f6a0e3f877c845a5f1afb67f2 Merge 'parisc-hd' from https://git.kernel.org/pub/scm/linux/kernel/git/deller/parisc-linux.git (for-next)
+09a341cd2170b9499a23ed88728ebab182e5e63b Merge 'riscv-dt' from https://git.kernel.org/pub/scm/linux/kernel/git/conor/linux.git (riscv-dt-for-next)
+fb18422ef67c7dc6a492d5dc4796aa476d44ef9a Merge 'riscv-soc' from https://git.kernel.org/pub/scm/linux/kernel/git/conor/linux.git (riscv-soc-for-next)
+e7f7bee0bcbb1d02b193de30a05470254f987c3a Merge 's390' from https://git.kernel.org/pub/scm/linux/kernel/git/s390/linux.git (for-next)
+dd7b4bada4c84a36f391590ad78ee261aed55538 Merge 'xtensa' from https://github.com/jcmvbkbc/linux-xtensa.git (xtensa-for-next)
+5418d25404206d1bfdf54d88befffa1f28bff629 Merge 'cpufreq-arm' from https://git.kernel.org/pub/scm/linux/kernel/git/vireshk/pm.git (cpufreq/arm/linux-next)
+751141d858d7aedaa69e52c7c8484c019d90d75c Merge 'kvm-arm' from https://git.kernel.org/pub/scm/linux/kernel/git/kvmarm/kvmarm.git (next)
+a76bf4e19fabc1d08a71c978fb0f193da238640a Merge 'kvm-riscv' from https://github.com/kvm-riscv/linux.git (riscv_kvm_next)
+964c7feff65f14f2385325c9b17f42c08887c66c Merge 'kvm-x86' from https://github.com/kvm-x86/linux.git (next)
+886c0b249b030605ce4fa3e3c12d58fbd3630691 Merge 'drivers-x86' from https://git.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86.git (for-next)
+c3e2b1178261567bc0480e743c47b0cecda4ed59 Merge 'tip-fixes' from https://git.kernel.org/pub/scm/linux/kernel/git/tip/tip.git (tip/urgent)
+af22fdd59252199ccd37a231b7fb4ff5aa7fd3d8 Merge 'printk' from https://git.kernel.org/pub/scm/linux/kernel/git/printk/linux.git (for-next)
+96b27cd13ee6ac13ed736c33975d0b511ca97aab Merge 'pstore' from https://git.kernel.org/pub/scm/linux/kernel/git/kees/linux.git (for-next/pstore)
+5b387be2ce4fb3ddbbc80da0ff21f05d7798cdc3 Merge 'tip' from https://git.kernel.org/pub/scm/linux/kernel/git/tip/tip.git (master)
+8b5db9370c3bf1b0bf5a60ccf66b48a89cbffca0 Merge 'workqueues' from https://git.kernel.org/pub/scm/linux/kernel/git/tj/wq.git (for-next)
+58112ddf0a3c9812f6f6334325970324892d6a07 Merge 'driver-core' from https://git.kernel.org/pub/scm/linux/kernel/git/driver-core/driver-core.git (driver-core-next)
+15676ab8920ec526df402be24f16e1426143b987 Merge 'cgroup' from https://git.kernel.org/pub/scm/linux/kernel/git/tj/cgroup.git (for-next)
+42e55dd724736e6f052bbd003b05351d30fc4cbd Merge 'livepatching' from https://git.kernel.org/pub/scm/linux/kernel/git/livepatching/livepatching.git (for-next)
+8403373c472f31d83700c1673cf75c1cb486fd41 Merge 'random' from https://git.kernel.org/pub/scm/linux/kernel/git/crng/random.git (master)
+102fdc127e2aaa861ca7c369a840623234ceca84 Merge 'bitmap' from https://github.com/norov/linux.git (bitmap-for-next)
+3e8ca79bce398168c122c7d434ee9a9ab0df13e1 Merge 'fscrypt' from https://git.kernel.org/pub/scm/fs/fscrypt/linux.git (for-next)
+bd5c8bf5833512a2695048cd864804f95dee0583 Merge 'ecryptfs' from https://git.kernel.org/pub/scm/linux/kernel/git/tyhicks/ecryptfs.git (next)
+0fcf15ccfc742146e5eeb16f34e52869c11a9663 Merge 'ipsec' from https://git.kernel.org/pub/scm/linux/kernel/git/klassert/ipsec.git (master)
+09c48779f4aca813f36fde7dfc7cd45eb486fdb4 Merge 'crypto-current' from https://git.kernel.org/pub/scm/linux/kernel/git/herbert/crypto-2.6.git (master)
+158cc84fb0dba8945902001a8c5622382637d086 Merge 'libcrypto-fixes' from https://git.kernel.org/pub/scm/linux/kernel/git/ebiggers/linux.git (libcrypto-fixes)
+fca703d3c34e6c79e0e7eacf05c4eb72f33d8491 Merge 'ipsec-next' from https://git.kernel.org/pub/scm/linux/kernel/git/klassert/ipsec-next.git (master)
+ec16375d1c5f4d17652435f85d787e70de60009d Merge 'crypto' from https://git.kernel.org/pub/scm/linux/kernel/git/herbert/cryptodev-2.6.git (master)
+62f4ec917b63bf6be214fa3f3bcec4f23ea0a0bc Merge 'libcrypto' from https://git.kernel.org/pub/scm/linux/kernel/git/ebiggers/linux.git (libcrypto-next)
+e79e36742f8b00f50e995b08a3920768683ec385 Merge 'random' from https://git.kernel.org/pub/scm/linux/kernel/git/crng/random.git (master)
+49e1493b35b8a0541444bc93eccda0938be3a5eb Merge 'sound-current' from https://git.kernel.org/pub/scm/linux/kernel/git/tiwai/sound.git (for-linus)
+7171eb65316452f65282236843922a8661959496 Merge 'iio-fixes' from https://git.kernel.org/pub/scm/linux/kernel/git/jic23/iio.git (fixes-togreg)
+b27785793aece955f26ef410131aa24c7f2b18fb Merge 'iio-fixes' from https://git.kernel.org/pub/scm/linux/kernel/git/jic23/iio.git (fixes-togreg)
+176f52c662574c2d16939ae5f575b9908c6126d0 Merge branch 'arch-next' into all-next
+ddc52e44dddab5f614bb6256c3baf119f132d495 Merge branch 'block-next' into all-next
+e7dac507fe69288cdb58818507b56b83c9a84d31 Merge branch 'bpf-next' into all-next
+9ccba7f97bbe39e33e41bfdbe527b2bff0cb718b Merge branch 'bus-next' into all-next
+b614927ea5c0ed2621c784fc0da0990c4a1d7d84 Merge branch 'clock-next' into all-next
+586d43894c8f1580a12a34a920af1541ee14bc0e Merge branch 'cluster-next' into all-next
+1b7518113c0a855407f5a160301bc5b6be80c6d2 Merge branch 'core-next' into all-next
+6ce7aedc0d8c0e00d78798cee091e1c010df0bd2 Merge branch 'crypto-next' into all-next
+09cd971319991d88925d790eac331374e6c796da Merge branch 'docs-next' into all-next
+696238a698cde25d91589ab711a63e31e790eb90 Merge branch 'dt-next' into all-next
+c42c0a125b0f9f3ad01fd191585c2026894480ec Merge branch 'firmware-next' into all-next
+f695108e2813ee9b1e193a430b59ba8e76d0c897 Merge branch 'fixes-next' into all-next
+19f3d62536278d60298baed306c91865fd176955 Merge branch 'fpga-next' into all-next
+15a6e88dd40a31a0910cea13990e1c71454cca55 Merge branch 'fs-next' into all-next
+9da34e49534132122937e6dbfec684e18660e22c Merge branch 'gpio-next' into all-next
+bf50878a5e6397572554651a993ebc2d2b0f79e7 Merge branch 'graphics-next' into all-next
+c608bd5401d7ce55ff2439af8a2769f1c22832dd Merge branch 'hwmon-next' into all-next
+a2a44ce6b908594eadbddbe02f8cfcd8c30df050 Merge branch 'iio-next' into all-next
+a29a361d41e5b39e2478dc0b89042194ed919654 Merge branch 'input-next' into all-next
+9d933cd05ada5347c2d14aed564ecef3257a1058 Merge branch 'kbuild-next' into all-next
+d488376558da9c766620b3382bcf23d346bd7ac9 Merge branch 'lib-next' into all-next
+f3577040da8c14d87192a65a7089774b16b975f5 Merge branch 'media-next' into all-next
+4d7545eba4183377beee88294c17710160640f69 Merge branch 'misc-next' into all-next
+2268a4ea672795a572dbbd7187117546ff262562 Merge branch 'mm-next' into all-next
+5021f5cfedc44aff9d700f981f8bc52dcaf68e6a Merge branch 'net-next' into all-next
+f4cd9f1544c2343152b675071787ca08a04309b3 Merge branch 'platform-next' into all-next
+7aa99595731018064a30b0b90482f3559ffe6e07 Merge branch 'pm-next' into all-next
+f4e602e9b0085fbd35d834798654dc16ee66fe1d Merge branch 'power-next' into all-next
+63b992d0a7a63fd6d3c2504b1171dfaf8f6f8838 Merge branch 'ras-next' into all-next
+86b2495ce8e4754f5464aa666dc121feb257d774 Merge branch 'rust-next' into all-next
+1d710f2eb362d421af043e852417b865ee04dfca Merge branch 'sched-next' into all-next
+5d57492ad9d503d656b9a62c94a5e93c5b25411c Merge branch 'security-next' into all-next
+709a9258f8d21397b9f2ff0ed8f0b78ed2738cb2 Merge branch 'soc-next' into all-next
+2aba4e3112842b1dffd1f9ede2b1e2de30ac033d Merge branch 'sound-next' into all-next
+dc9c2be2a37ee2c37460267b5e0981d18340e741 Merge branch 'staging-next' into all-next
+6d6fda23e61fe89dcd804e419f90b09d5f96ea1d Merge branch 'storage-next' into all-next
+20a1b1ed27babc4c6e4e910711b168ce39823063 Merge branch 'subsystem-next' into all-next
+a8d2ed70b274e080a747c2a2a769dedca3ffc039 Merge branch 'testing-next' into all-next
+53c7726fe3e0cd6f9111d3887d13ff83e2ceeee8 Merge branch 'thermal-next' into all-next
+9418a060362bdcce6b0f38f033bd6cf970a230e1 Merge branch 'tools-next' into all-next
+fb38419234db687a0b63b0fab85c92151442c7c4 Merge branch 'tracing-next' into all-next
+e4f9aaeeaa9e0e02b819ecea84d172c0b836dc15 Merge branch 'virt-next' into all-next
+d5a8092c7595d5135449625957df420094dc0fc7 Merge branch 'wireless-next' into all-next
 
---===============4365284744930487006==--
+--===============5999821001987385591==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-46cb456f4145-886c0b249b03.txt
+
+acaad57288eb8472279f22f9ce64633b2d171f9b LoongArch: Only use SC.Q when supported by the assembler
+1ec39b5b7211bc534ab58a780cda212712a27f9e LoongArch: Fix calling smp_processor_id() in preemptible code
+17b946cd655c56befccab5eff0f4e8a750a5bf87 LoongArch: Give more information if kmem access failed
+22005b93c4b70b4f1bdd897b1a9579f2f7675831 LoongArch: Check return values for set_memory_{rw,rox}
+c90e01f287cf2455e69c6b0a6338e8675c981fca LoongArch: No need to flush icache if text copy failed
+6a58685dde767ce8f352919a90d28857f0ca22fb LoongArch: BPF: Make arch_protect_bpf_trampoline() return 0
+5e403a53e94fbc955b811dd9d503fe19d10b527c LoongArch: KVM: Fix typo issue in kvm_vm_init_features()
+2c98a8fbd6aa647414c6248dacf254ebe91c79ad parisc: Flush correct cache in cacheflush() syscall
+5a673522967609338509197b19e2d61b5e4afde6 Merge 'arm64-fixes' from https://git.kernel.org/pub/scm/linux/kernel/git/arm64/linux (for-next/fixes)
+6be47a216d9ca214b901025d18f6f736b760ee92 Merge 'arm-soc-fixes' from https://git.kernel.org/pub/scm/linux/kernel/git/soc/soc.git (arm/fixes)
+1ed15ce0c6f231198c1c2489200050d4beb54474 Merge 'powerpc-fixes' from https://git.kernel.org/pub/scm/linux/kernel/git/powerpc/linux.git (fixes)
+b762945afa2c91335b34059cb47ec7dda2e046fe Merge 'kvms390-fixes' from https://git.kernel.org/pub/scm/linux/kernel/git/kvms390/linux.git (master)
+50aa4d5bc3ea2bc452c6f1a35df6c63e17a25c9b Merge 'risc-v-fixes' from https://git.kernel.org/pub/scm/linux/kernel/git/riscv/linux.git (fixes)
+3980c1210c8a0fb878aefbcb201856a2a8b643f5 Merge 'riscv-dt-fixes' from https://git.kernel.org/pub/scm/linux/kernel/git/conor/linux.git (riscv-dt-fixes)
+0bbdc499953c68ad0e72263532b21669a64056f1 Merge 'riscv-soc-fixes' from https://git.kernel.org/pub/scm/linux/kernel/git/conor/linux.git (riscv-soc-fixes)
+fd605b0af2da2994b913157c9a4f72f2d5f21ad8 Merge 'arm' from https://git.kernel.org/pub/scm/linux/kernel/git/rmk/linux.git (for-next)
+1449ab1b6999ae3c371d47a23339b97b99f8a0d3 Merge 'arm64' from https://git.kernel.org/pub/scm/linux/kernel/git/arm64/linux (for-next/core)
+b592e44e4da4a314c3123f29b79e03fe6ddc13d5 Merge 'arm-soc' from https://git.kernel.org/pub/scm/linux/kernel/git/soc/soc.git (for-next)
+04bb2aeb23f5c90594ac3b67f9b03aa2777bde3d Merge 'loongarch' from https://git.kernel.org/pub/scm/linux/kernel/git/chenhuacai/linux-loongson.git (loongarch-next)
+b400af02a83a280f6a0e3f877c845a5f1afb67f2 Merge 'parisc-hd' from https://git.kernel.org/pub/scm/linux/kernel/git/deller/parisc-linux.git (for-next)
+09a341cd2170b9499a23ed88728ebab182e5e63b Merge 'riscv-dt' from https://git.kernel.org/pub/scm/linux/kernel/git/conor/linux.git (riscv-dt-for-next)
+fb18422ef67c7dc6a492d5dc4796aa476d44ef9a Merge 'riscv-soc' from https://git.kernel.org/pub/scm/linux/kernel/git/conor/linux.git (riscv-soc-for-next)
+e7f7bee0bcbb1d02b193de30a05470254f987c3a Merge 's390' from https://git.kernel.org/pub/scm/linux/kernel/git/s390/linux.git (for-next)
+dd7b4bada4c84a36f391590ad78ee261aed55538 Merge 'xtensa' from https://github.com/jcmvbkbc/linux-xtensa.git (xtensa-for-next)
+5418d25404206d1bfdf54d88befffa1f28bff629 Merge 'cpufreq-arm' from https://git.kernel.org/pub/scm/linux/kernel/git/vireshk/pm.git (cpufreq/arm/linux-next)
+751141d858d7aedaa69e52c7c8484c019d90d75c Merge 'kvm-arm' from https://git.kernel.org/pub/scm/linux/kernel/git/kvmarm/kvmarm.git (next)
+a76bf4e19fabc1d08a71c978fb0f193da238640a Merge 'kvm-riscv' from https://github.com/kvm-riscv/linux.git (riscv_kvm_next)
+964c7feff65f14f2385325c9b17f42c08887c66c Merge 'kvm-x86' from https://github.com/kvm-x86/linux.git (next)
+886c0b249b030605ce4fa3e3c12d58fbd3630691 Merge 'drivers-x86' from https://git.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86.git (for-next)
+
+--===============5999821001987385591==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-95d89e5d1cb7-102fdc127e2a.txt
+
+f01c5f6262cdf617ca90d99a0c8745aa3b3e4f17 Merge branch into tip/master: 'irq/urgent'
+a1389dae6bbfde18ff3533630dd645b581729e40 Merge branch into tip/master: 'objtool/urgent'
+5af2b36d9ac47aec4971781ac77a393bf9d229ae Merge branch into tip/master: 'sched/urgent'
+74083649cebdb6f037ee82e1f4fb09f47a09f9c0 Merge branch into tip/master: 'timers/urgent'
+f38aa4c077c6cc222c2d16e22399f1b7a39f22ef Merge branch into tip/master: 'x86/urgent'
+ed1407100dfd8d48fd8c0ef7f8de935649dbe827 Merge branch into tip/master: 'sched/merge'
+b26590fb456f0c943990b11a0d2e89606a2be89c Merge branch into tip/master: 'irq/core'
+3ffa6e9e4b22e9b0fe4ae389508fb62747b2bb01 Merge branch into tip/master: 'irq/drivers'
+6915dd4dbecb2717b5326449b38f0256c2bfd432 Merge branch into tip/master: 'irq/msi'
+7beb7188b1caea80f5c51cb0c1a8cd9716e7180b Merge branch into tip/master: 'locking/core'
+2f994df0c4dbabf51b1fb283d12ab1565f70c707 Merge branch into tip/master: 'locking/futex'
+a29cd0aea9207af6aad9a50022363b2dcca1f69b Merge branch into tip/master: 'objtool/core'
+d28b94158a974c9e26ec9ee4805ee6479ac18655 Merge branch into tip/master: 'perf/core'
+3128b86d4e0ee12c40386ecdb81c0e4c872b9abb Merge branch into tip/master: 'ras/core'
+1219581a10c89f4e75075aba4347c78ad770add3 Merge branch into tip/master: 'sched/core'
+68ea9b582a9d44e467a3ca2abca931142e7b9304 Merge branch into tip/master: 'sched/hrtick'
+26551ffcffddc3dafc4d0ea252413434819b6ace Merge branch into tip/master: 'timers/core'
+8a49806fe524284056dafd746137c2401412f935 Merge branch into tip/master: 'timers/vdso'
+eef7afafa668f1149e79a7e7c186cc1a4327ad68 Merge branch into tip/master: 'x86/cleanups'
+ef3ec705ce7bcfddccd690e13740f97ccade3dc3 Merge branch into tip/master: 'x86/cpu'
+c4a68a131d14b2b26f58f6edc18adbf2e6346c3d Merge branch into tip/master: 'x86/microcode'
+f4480aa2b88dc627acb094e1ee9656e7e0a93cae Merge branch into tip/master: 'x86/misc'
+bb909b839cadfbd7e06bb20979ed3deabb65d56e Merge branch into tip/master: 'x86/mm'
+c88dcf13e09502eba9c4699dc7df477ba017f7e0 Merge branch into tip/master: 'x86/sev'
+6e9676ec661460c1d01cd8d83972352d923b818b Merge branch into tip/master: 'x86/tdx'
+c3e2b1178261567bc0480e743c47b0cecda4ed59 Merge 'tip-fixes' from https://git.kernel.org/pub/scm/linux/kernel/git/tip/tip.git (tip/urgent)
+af22fdd59252199ccd37a231b7fb4ff5aa7fd3d8 Merge 'printk' from https://git.kernel.org/pub/scm/linux/kernel/git/printk/linux.git (for-next)
+96b27cd13ee6ac13ed736c33975d0b511ca97aab Merge 'pstore' from https://git.kernel.org/pub/scm/linux/kernel/git/kees/linux.git (for-next/pstore)
+5b387be2ce4fb3ddbbc80da0ff21f05d7798cdc3 Merge 'tip' from https://git.kernel.org/pub/scm/linux/kernel/git/tip/tip.git (master)
+8b5db9370c3bf1b0bf5a60ccf66b48a89cbffca0 Merge 'workqueues' from https://git.kernel.org/pub/scm/linux/kernel/git/tj/wq.git (for-next)
+58112ddf0a3c9812f6f6334325970324892d6a07 Merge 'driver-core' from https://git.kernel.org/pub/scm/linux/kernel/git/driver-core/driver-core.git (driver-core-next)
+15676ab8920ec526df402be24f16e1426143b987 Merge 'cgroup' from https://git.kernel.org/pub/scm/linux/kernel/git/tj/cgroup.git (for-next)
+42e55dd724736e6f052bbd003b05351d30fc4cbd Merge 'livepatching' from https://git.kernel.org/pub/scm/linux/kernel/git/livepatching/livepatching.git (for-next)
+8403373c472f31d83700c1673cf75c1cb486fd41 Merge 'random' from https://git.kernel.org/pub/scm/linux/kernel/git/crng/random.git (master)
+102fdc127e2aaa861ca7c369a840623234ceca84 Merge 'bitmap' from https://github.com/norov/linux.git (bitmap-for-next)
+
+--===============5999821001987385591==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-81cdb7abd72e-e79e36742f8b.txt
+
+1e84df6ccfcb342262b02dfdb723eaad50a0b6c9 dt-bindings: crypto: inside-secure,safexcel: add compatible for MT7981
+f06b4ee3351dee90d422305d164a7aa353c5fdd1 crypto: atmel-sha204a - Drop redundant I2C_FUNC_I2C check
+4963b39e3a3feed07fbf4d5cc2b5df8498888285 crypto: qat - fix indentation of macros in qat_hal.c
+e7dcb722bb75bb3f3992f580a8728a794732fd7a crypto: qat - fix firmware loading failure for GEN6 devices
+68095ad9de9361844235c1e4e3bd5632f6b21929 MAINTAINERS: Remove bouncing maintaner for IAA driver
+b45b4314d3e55be70b597baa1f0ab9283e68003b crypto: testmgr - Add test vectors for authenc(hmac(sha1),rfc3686(ctr(aes)))
+d46c27c01f132082095342b5abf4e83e250b70b8 crypto: testmgr - Add test vectors for authenc(hmac(sha224),rfc3686(ctr(aes)))
+5ac6b904c70ff163fd2f9e152056300ce5ed6c26 crypto: testmgr - Add test vectors for authenc(hmac(sha256),rfc3686(ctr(aes)))
+2f0814271715f974ae1fc6247c9918906c83e24b crypto: testmgr - Add test vectors for authenc(hmac(sha384),rfc3686(ctr(aes)))
+82fc2b17fa5b9b12d34770afcc8e3c4288735429 crypto: testmgr - Add test vectors for authenc(hmac(sha512),rfc3686(ctr(aes)))
+f4abb1af1bedafada8d7f814b85a7cf83d58f0b7 MAINTAINERS: remove outdated entry for crypto/rng.c
+5377032914b29b4643adece0ff1dfc67e36700f4 crypto: inside-secure/eip93 - register hash before authenc algorithms
+c8a9a647532f5c2a04180352693215e24e9dba03 crypto: atmel-tdes - fix DMA sync direction
+c708d3fad4217f23421b8496e231b0c5cee617a0 crypto: atmel - use list_first_entry_or_null to simplify find_dev
+3e8ca79bce398168c122c7d434ee9a9ab0df13e1 Merge 'fscrypt' from https://git.kernel.org/pub/scm/fs/fscrypt/linux.git (for-next)
+bd5c8bf5833512a2695048cd864804f95dee0583 Merge 'ecryptfs' from https://git.kernel.org/pub/scm/linux/kernel/git/tyhicks/ecryptfs.git (next)
+0fcf15ccfc742146e5eeb16f34e52869c11a9663 Merge 'ipsec' from https://git.kernel.org/pub/scm/linux/kernel/git/klassert/ipsec.git (master)
+09c48779f4aca813f36fde7dfc7cd45eb486fdb4 Merge 'crypto-current' from https://git.kernel.org/pub/scm/linux/kernel/git/herbert/crypto-2.6.git (master)
+158cc84fb0dba8945902001a8c5622382637d086 Merge 'libcrypto-fixes' from https://git.kernel.org/pub/scm/linux/kernel/git/ebiggers/linux.git (libcrypto-fixes)
+fca703d3c34e6c79e0e7eacf05c4eb72f33d8491 Merge 'ipsec-next' from https://git.kernel.org/pub/scm/linux/kernel/git/klassert/ipsec-next.git (master)
+ec16375d1c5f4d17652435f85d787e70de60009d Merge 'crypto' from https://git.kernel.org/pub/scm/linux/kernel/git/herbert/cryptodev-2.6.git (master)
+62f4ec917b63bf6be214fa3f3bcec4f23ea0a0bc Merge 'libcrypto' from https://git.kernel.org/pub/scm/linux/kernel/git/ebiggers/linux.git (libcrypto-next)
+e79e36742f8b00f50e995b08a3920768683ec385 Merge 'random' from https://git.kernel.org/pub/scm/linux/kernel/git/crng/random.git (master)
+
+--===============5999821001987385591==--
