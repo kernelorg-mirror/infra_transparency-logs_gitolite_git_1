@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8456812509944611638=="
+Content-Type: multipart/mixed; boundary="===============2828603504022233104=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/johan/usb-serial
-Date: Mon, 16 Mar 2026 13:19:06 -0000
-Message-Id: <177366714693.1109084.4531604304308424777@gitolite.kernel.org>
+Date: Mon, 16 Mar 2026 13:19:13 -0000
+Message-Id: <177366715364.1109374.2965681277317100966@gitolite.kernel.org>
 
---===============8456812509944611638==
+--===============2828603504022233104==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/johan/usb-serial
 user: johan
 changes:
-  - ref: refs/heads/usb-linus
+  - ref: refs/heads/usb-next
     old: 11439c4635edd669ae435eec308f4ab8a0804808
     new: f338e77383789c0cae23ca3d48adcc5e9e137e3c
     log: revlist-11439c4635ed-f338e7738378.txt
 
---===============8456812509944611638==
+--===============2828603504022233104==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ d9bf296c398d093f9641568411dee16285302113 Merge tag 'probes-fixes-v7.0-rc3' of gi
 5c2fe8d11ae05411566f9d69321375ea686603d4 Merge tag 'scsi-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
 f338e77383789c0cae23ca3d48adcc5e9e137e3c Linux 7.0-rc4
 
---===============8456812509944611638==--
+--===============2828603504022233104==--
