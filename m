@@ -1,9 +1,13 @@
+Content-Type: multipart/mixed; boundary="===============1428531192605660843=="
+MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
-Date: Mon, 16 Mar 2026 11:54:17 -0000
-Message-Id: <177366205744.1037466.10017243808918093877@gitolite.kernel.org>
+Date: Mon, 16 Mar 2026 11:54:29 -0000
+Message-Id: <177366206987.1037698.7530058423387124216@gitolite.kernel.org>
+
+--===============1428531192605660843==
+Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
@@ -11,18 +15,27 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/peterz/queue
 user: peterz
 changes:
-  - ref: refs/heads/locking/core
-    old: 95c765102fa56743717e3197c001f524f3cdce5a
-    new: 5549061c38865dbc529f8bdab3f5e02294a02f8a
-    log: |
-         a692accb19178b920ff311b54372b444940d2a56 Merge branch 'arm64/for-next/read-once'
-         e00044966ed3cd0707eaf2fab5be866c9e9be718 locking/rwsem: Fix logic error in rwsem_del_waiter()
-         66300d16ee7a862c7a90cdc25107a8d7cd099024 futex: Convert to compiler context analysis
-         69f1289cc8b4e8e3a0caf6d2fe7645ed588dd5a2 jump_label: use ATOMIC_INIT() for initialization of .enabled
-         68b4f03b8abc1f14821700b131dd0fec67a22962 jump_label: remove workaround for old compilers in initializations
-         febc10b606773e30a31600dedb998aebd3036e3f cleanup: Optimize guards
-         3da00c10c5ab2e666aa6254ec2aba5d62ae46f17 lockdep: Raise default stack trace limits when KASAN is enabled
-         84a6411a9acc149a972bb84f72d5a01498b7418a locking: Fix rwlock support in <linux/spinlock_up.h>
-         9972b7ae392f6160ee5c7d81f2ac39138f727b3f locking: Add lock context support in do_raw_{read,write}_trylock()
-         5549061c38865dbc529f8bdab3f5e02294a02f8a locking: Add lock context annotations in the spinlock implementation
-         
+  - ref: refs/heads/sched/core
+    old: 48d2201977d01d3bcfc1663fdc464eb56890121d
+    new: 9ff37c93256584192d2cd70f9502348ed5411e85
+    log: revlist-48d2201977d0-9ff37c932565.txt
+
+--===============1428531192605660843==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-48d2201977d0-9ff37c932565.txt
+
+49b76317592ecbaefd0969d51d02019966cc994b sched/wait: correct kernel-doc descriptions
+8d16e3c6f844823812f872df5ef1d3d2ed11b956 sched/fair: Fix comma operator misuse in NUMA fault accounting
+352616df8c7565b5f8f413b2be78681d9a3cd481 sched/topology: Compute sd_weight considering cpuset partitions
+71a01a1d1bc2e4a6367be9e5f04c1f8f4091a134 sched/topology: Extract "imb_numa_nr" calculation into a separate helper
+43da9437ad55fd1c25ed4248bfd0b8a5abe787f0 sched/topology: Allocate per-CPU sched_domain_shared in s_data
+c529865601b3c1b623df71c430e3777015b39563 sched/topology: Switch to assigning "sd->shared" from s_data
+f6882b6c8ce137fc667420b077c2a7d3b48b07e3 sched/topology: Remove sched_domain_shared allocation with sd_data
+b700bd45a162464a7735025a90f4ec59e6f09b20 sched/core: Check for rcu_read_lock_any_held() in idle_get_state()
+838dbd5c3678a92fe6ca447fb23e3a0d505612c2 sched/fair: Remove superfluous rcu_read_lock() in the wakeup path
+c9debfefad53929114b55feaf09ca71353d9e03f sched/fair: Simplify the entry condition for update_idle_cpu_scan()
+9ff37c93256584192d2cd70f9502348ed5411e85 sched/fair: Simplify SIS_UTIL handling in select_idle_cpu()
+
+--===============1428531192605660843==--
