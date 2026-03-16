@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3900548141923685769=="
+Content-Type: multipart/mixed; boundary="===============3198593043732439515=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Mon, 16 Mar 2026 09:39:06 -0000
-Message-Id: <177365394698.902210.16459340474870560804@gitolite.kernel.org>
+Date: Mon, 16 Mar 2026 09:39:33 -0000
+Message-Id: <177365397347.902568.6713787338862357201@gitolite.kernel.org>
 
---===============3900548141923685769==
+--===============3198593043732439515==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,15 +16,49 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: 1def441ca0085042d41aa8614bee7269bd7e18ff
-    new: f95d860372cdc6f333a31d2144a9c1bcccc812d5
-    log: revlist-1def441ca008-f95d860372cd.txt
+    old: f95d860372cdc6f333a31d2144a9c1bcccc812d5
+    new: 9b8fb8ceda2a144e0bc028f2179d38729b151be3
+    log: revlist-f95d860372cd-9b8fb8ceda2a.txt
+  - ref: refs/heads/tip/urgent
+    old: 4f3df2e5ea69f5717d2721922aff263c31957548
+    new: f338e77383789c0cae23ca3d48adcc5e9e137e3c
+    log: revlist-4f3df2e5ea69-f338e7738378.txt
+  - ref: refs/tags/v7.0-rc4
+    old: 0000000000000000000000000000000000000000
+    new: 34cb4f916af10153c87fabaf6c34e4cafa170427
 
---===============3900548141923685769==
+--===============3198593043732439515==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1def441ca008-f95d860372cd.txt
+Content-Disposition: attachment; filename=revlist-f95d860372cd-9b8fb8ceda2a.txt
+
+c3e13ba8fb365590ebf08f4b90ac015edf9d41d6 Merge branch into tip/master: 'sched/merge'
+1e451da5333abd78ee2d66e4b4513427124df98d Merge branch into tip/master: 'irq/core'
+06e7e8279e1e8757b6d7f6f5f7e30c7271d1f193 Merge branch into tip/master: 'irq/drivers'
+35036f19ceb77b00ce34a1d77000215eb79e1c1c Merge branch into tip/master: 'irq/msi'
+94343e74d19c536b970d6104bf77ed8d8e029dcb Merge branch into tip/master: 'locking/core'
+adb4f9ef42d62f651885777895836b25be17e27b Merge branch into tip/master: 'locking/futex'
+77f3950ba4568a32ee8a3bd04ccdf5cbe180cb41 Merge branch into tip/master: 'objtool/core'
+5522384e07c72327f1efb0ebba7cedd2c0be32c9 Merge branch into tip/master: 'perf/core'
+a42ff129018cda3201acf827cde5e39e201dcedc Merge branch into tip/master: 'ras/core'
+697fcbeddc1857d2d5620a4395087d949a14176c Merge branch into tip/master: 'sched/core'
+157cc662b58e0f03168144da9268cdcabe229fc4 Merge branch into tip/master: 'sched/hrtick'
+4616104d2eb853d7606cb32e6c182ae0f1208865 Merge branch into tip/master: 'timers/core'
+e3dedd049e65e9c13d1ee944b9010a6af8d96ff4 Merge branch into tip/master: 'timers/vdso'
+3d49a56c66f6dccb8cf448bf3dae095314e8528c Merge branch into tip/master: 'x86/cleanups'
+b33346f3f34346b8c349dec618e005c6605eaf83 Merge branch into tip/master: 'x86/cpu'
+7227375ba5233f53938524441e6be22f453f0018 Merge branch into tip/master: 'x86/microcode'
+424dd299a670c10de191396ba39e98b735aea3f1 Merge branch into tip/master: 'x86/misc'
+118ec7c215fdd12d5b75c8a4786880c5d875d8cd Merge branch into tip/master: 'x86/mm'
+248bd2baa747f247ca00c41a19ac39f8a6ce19df Merge branch into tip/master: 'x86/sev'
+9b8fb8ceda2a144e0bc028f2179d38729b151be3 Merge branch into tip/master: 'x86/tdx'
+
+--===============3198593043732439515==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-4f3df2e5ea69-f338e7738378.txt
 
 da142f3d373a6ddaca0119615a8db2175ddc4121 KVM: Remove subtle "struct kvm_stats_desc" pseudo-overlay
 f8211e95dfda702ba81ea2e3e7a8c6c967f385fa Documentation: KVM: Formalizing taking vcpu->mutex *outside* of kvm->slots_lock
@@ -88,6 +122,5 @@ e113f0b46d19626ec15388bcb91432c9a4fd6261 kprobes: avoid crash when rmmod/insmod 
 d9bf296c398d093f9641568411dee16285302113 Merge tag 'probes-fixes-v7.0-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
 5c2fe8d11ae05411566f9d69321375ea686603d4 Merge tag 'scsi-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
 f338e77383789c0cae23ca3d48adcc5e9e137e3c Linux 7.0-rc4
-f95d860372cdc6f333a31d2144a9c1bcccc812d5 Merge branch 'linus'
 
---===============3900548141923685769==--
+--===============3198593043732439515==--
