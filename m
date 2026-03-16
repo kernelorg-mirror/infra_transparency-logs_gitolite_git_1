@@ -1,51 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============1743343997442292018=="
+Content-Type: multipart/mixed; boundary="===============6415124714268483324=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Mon, 16 Mar 2026 12:05:48 -0000
-Message-Id: <177366274834.1048672.10893227859807626190@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Mon, 16 Mar 2026 12:05:55 -0000
+Message-Id: <177366275571.1048895.7714527150595044822@gitolite.kernel.org>
 
---===============1743343997442292018==
+--===============6415124714268483324==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-7.1
+  - ref: refs/heads/asoc-7.1
     old: 00da2edc646c851114c78affdc3e34a089136d8a
     new: fc1fbafc18a0352f1f23cdff3533fbd0276dd58e
     log: revlist-00da2edc646c-fc1fbafc18a0.txt
 
---===============1743343997442292018==
+--===============6415124714268483324==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1773662745 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1773662745-a97c37786fb95e74d85ce516004dd36d5f1a320e
+pusher C3F436CA30F5D8EB 1773662753 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1773662752-01a6ab6ff7ca48a4f9fc03e82e7ce6d5b9db2928
 
-00da2edc646c851114c78affdc3e34a089136d8a fc1fbafc18a0352f1f23cdff3533fbd0276dd58e refs/heads/for-7.1
+00da2edc646c851114c78affdc3e34a089136d8a fc1fbafc18a0352f1f23cdff3533fbd0276dd58e refs/heads/asoc-7.1
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmm38hkACgkQJNaLcl1U
-h9CUVAf/e01uefZae5yXuFVIY42mywwTPZ74nKLneWS4wVCRNHQSPmrTkD2H1jSt
-2n3pMnvCYD7VkEp4M3NJoPc/R+5GFJr659DtZcDEQhS0+SyQnh2Jd94+vALzsjGB
-C0lYJr/WMVxXkllAbbCgHZfa9GfsJgIPMsDwaahxTBMFOxidUgXpHCL2WHfyRrjV
-uLIdWFJDOVH1jCsEXt97x+kwmowRxGrLzpWLOjH7SHpOuli449vyMqWTisLFOmw7
-8UoANfCPvpDMpw64v2tOn2YQeZozvReonXW9uvR8wfgGvyD8wcMVY62TUBsYdy9H
-OXpq11wuPf4qJb/8MoP1kLa4sO7OUQ==
-=KImY
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmm38iEACgkQJNaLcl1U
+h9C/hQf+IWQxfw2D+L0sqoU7uHZC7dHZVUlxb9H/oQtP520+ju4TMA+FuqDV5hVH
+aPR9gUfRMyW8cXQoQuQBIX7A9QjcLycd+e0ZrsqH68Ciq2lgzmGOzikxZnqzCUv9
+life+4+8ZYt/dDqAbvp4GlcCey0XkzYuVoQNvNB7YBcvwh26y8P56k5168TtGsz5
+8scd+gFOoofUsESXHJ45eCLOCLtrRYBqP9MSC6LYwWNiuU20ouyjzVkSN/Kiw41o
+9mpmzcxV7Qvxr/N82BJ+45rDe9o2sYkdklvHHav58O70RG3NwqbXs12X6wty+z+H
++fVCRcXJG0Vk3pguNIEDEtLCPKsAQw==
+=NbtY
 -----END PGP SIGNATURE-----
 
---===============1743343997442292018==
+--===============6415124714268483324==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -613,4 +613,4 @@ af176d0787d219d9e07272988079ebb9be8efe6a ASoC: tas2770: expose SDOUT bus keeper 
 706d2dc0269e695979943f27b03389007e034db7 ASoC: basic support for configuring bus keepers
 fc1fbafc18a0352f1f23cdff3533fbd0276dd58e ASoC: codecs: aw88166: Support device specific firmware
 
---===============1743343997442292018==--
+--===============6415124714268483324==--
