@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3443032008774216992=="
+Content-Type: multipart/mixed; boundary="===============5018290130249824777=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/utils/mdadm/mdadm
-Date: Mon, 16 Mar 2026 15:15:28 -0000
-Message-Id: <177367412845.1262815.5367879852399562514@gitolite.kernel.org>
+Date: Mon, 16 Mar 2026 15:15:36 -0000
+Message-Id: <177367413666.1263054.9382144059469603860@gitolite.kernel.org>
 
---===============3443032008774216992==
+--===============5018290130249824777==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/utils/mdadm/mdadm
 user: xiao
 changes:
-  - ref: refs/heads/main
+  - ref: refs/heads/master
     old: 8f0c7692d48414ff7b3fe927ce75799c65ef24b1
     new: 8b414a0d4753693d67b9a5822994e5f0c91b0b0a
     log: revlist-8f0c7692d484-8b414a0d4753.txt
 
---===============3443032008774216992==
+--===============5018290130249824777==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -48,4 +48,4 @@ c2634422d852d427e064ddcec2a23a23ed8bc94b mdcheck: don't stop mdcheck_continue.ti
 8d1574660019b95f5c13361d6bb9e575cc8e53cf imsm: fix incorrect SATA TCG error msg
 8b414a0d4753693d67b9a5822994e5f0c91b0b0a Release mdadm-4.6
 
---===============3443032008774216992==--
+--===============5018290130249824777==--
