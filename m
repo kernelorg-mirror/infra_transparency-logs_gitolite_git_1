@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4665023373483789084=="
+Content-Type: multipart/mixed; boundary="===============7949401792701250103=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Mon, 16 Mar 2026 10:52:05 -0000
-Message-Id: <177365832572.987546.7301168273177999153@gitolite.kernel.org>
+Date: Mon, 16 Mar 2026 10:52:10 -0000
+Message-Id: <177365833094.987859.8228653059032097512@gitolite.kernel.org>
 
---===============4665023373483789084==
+--===============7949401792701250103==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,47 +16,75 @@ repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: 6de23f81a5e08be8fbf5e8d7e9febc72a5b5f27f
+  - ref: refs/heads/usb-linus
+    old: d0d9b1f4f5391e6a00cee81d73ed2e8f98446d5f
     new: f338e77383789c0cae23ca3d48adcc5e9e137e3c
-    log: revlist-6de23f81a5e0-f338e7738378.txt
+    log: revlist-d0d9b1f4f539-f338e7738378.txt
 
---===============4665023373483789084==
+--===============7949401792701250103==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1773658324 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1773658330 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1773658324-38a60d657f5e6f808852c3f2fed8d5683a1c74ba
+nonce 1773658329-7fd70f7856424868907b3d8b42da2f43745880ad
 
-6de23f81a5e08be8fbf5e8d7e9febc72a5b5f27f f338e77383789c0cae23ca3d48adcc5e9e137e3c refs/heads/main
+d0d9b1f4f5391e6a00cee81d73ed2e8f98446d5f f338e77383789c0cae23ca3d48adcc5e9e137e3c refs/heads/usb-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmm34NQbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+VVYP/j2XcU1xDRPxch/KuDrg
-s/m4WkKSw3Z9MjdVWKPBDrRjOkvMsI8n06J5qkSN6SNPeTh3rZpvgHlL3XSpGKQb
-xFXNyDCd9YGrw0GM/HviBY/m7HzMwa3Ueq/BLDRjmj3nB/hQpJX8YbG/bvS13/hM
-XoIy/sa0k5zKBkE+qKTcteYc2YetxfC0OlWB6ZR78ZqxqAh1IgdW2AiPbb7mGgIW
-8RmCz1RocoCP+P6ro4nO8MF4UyOewo1vJiHnbvvMagsz324maIrFAqi4rFeVTgSU
-6Y/kL83PmaEMvoqBqFSLhddN56EthDTRTZMJPwEVVORzRZ5Fa0ZzhFZ1lZHgJaSR
-m16gnWsLnGAbm0SiwiU7vJ8MqZqrV4OWsWLGVn6GqOqrL/efwXjOBMa79R7yrw/c
-xCHr0b+X2Kwl4OXXlnwIOIgTET7bDU+yYRGHxttww/u62TCJkgGmBa43OkNORH/H
-y8slgITFovJ/Qoa+0hNceoSRTthFvM9ztcHyTg/E1P4JPGciJpJfxOIJJ4nUs9rm
-s+aK0V9FMbjMC2qRG+pJjUMA9uqH8FGOp5nM1TjL5i5J933EmM4hRGCij4Jht17O
-ssjy6xk6tmacMzKiFgLo+zGYY/MIptaHURCc7UZrQjdlHaxw7gMIvqSRGRRzLcZV
-LXRGH815LkbSjBt9D3VPFKjq
-=gbV9
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmm34NobHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Qm4QAJMUCsZccFarrESKYjy9
+OX6SITTCXlBpCfgIDTBt+Am8BcpWEwRbKqYNfDx9hrrciS+Zmle07s0lWhaSR6YH
+Y7SELcRvGwuf2HXgaFG57SAukj9wOVIWI2XbFy8NKNEluiselk63gYwfQ374MWt7
+0yP0UGj3chhDDuI3VDotwotETrTXK1+S1uJQLiYoZn6yiAHtBzqsb1jYnbiDOqpX
+YTe+SopXXu7HYPi5fHKkhY4K2VpaM0nw6zeHcKvJvPwh4vHw3huqxO7uPMnyxrIN
+Wy3HXWICyNb4icBe2p3Ux4DYnlw32onUWkKa4+vbJaTVzvWyH5KjKjPi+Kq+S7Nj
+vDmLk3bggB3efAX8jP2we0tGZ+O+I4VwuL2YpmhDapgLmX+apLhApw2n1Is7zkyF
+NFDTzmH0/WlawF/h7C+fwkySJwKbUigMnU6qtgOtW/PPdDpcP+P5v4l0tvZvjzA4
+sjIJ/S9qpZoSDTvANGHdr4nOS9V6L/BwDVJOTsnZIfAY/KXZo8TdetyOCeBskDL8
+uW77hVgrRJxd5N7uE4h5EL1M8XYOh7sTpVJbBhYxgOZGxO4cAJM+cHEpuqAI4vYD
+z6TJ/LfseKCPg4za5hk/1zGnyQshb9sWcH6amJZGJccPBHaOCZk+0uNJjWDYDoXJ
+3iF3DSfoWfTH/Hx9jwdm0Kns
+=sjY6
 -----END PGP SIGNATURE-----
 
---===============4665023373483789084==
+--===============7949401792701250103==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6de23f81a5e0-f338e7738378.txt
+Content-Disposition: attachment; filename=revlist-d0d9b1f4f539-f338e7738378.txt
 
+676c7af91fcd740d34e7cb788cbc58e3bcafde39 dpll: zl3073x: Remove redundant cleanup in devm_dpll_init()
+916864e5eda0c52572b11b4cacce41b89622cc35 MAINTAINERS: Update maintainer entry for QUALCOMM ETHQOS ETHERNET DRIVER
+f975a0955276579e2176a134366ed586071c7c6a net: mana: Fix double destroy_workqueue on service rescan PCI path
+bb4c698633c0e19717586a6524a33196cff01a32 team: avoid NETDEV_CHANGEMTU event when unregistering slave
+58f8ef625e23a607f4a89758d6b328a2701f7354 selftests: team: Add a reference count leak test
+77da71283cad9446d4160531accfb80ebf3d1cbb Merge branch 'team-fix-reference-count-leak-when-changing-port-netns'
+6668c6f2dde1d6693e5c7a512ba2d6b27002644c Merge tag 'wireless-2026-02-25' of https://git.kernel.org/pub/scm/linux/kernel/git/wireless/wireless
+2700b7e603af39ca55fe9fc876ca123efd44680f net/mlx5: DR, Fix circular locking dependency in dump
+bd7b9f83fb9f85228c3ac9748d9cba9fab7fb5a2 net/mlx5: LAG, disable MPESW in lag_disable_change()
+d7073e8b978ae925f1f0f08754f33f84d8547ea7 net/mlx5: E-switch, Clear legacy flag when moving to switchdev
+60253042c0b87b61596368489c44d12ba720d11c net/mlx5: Fix missing devlink lock in SRIOV enable error path
+859380694f434597407632c29f30fdb5e763e6cc net/mlx5e: Fix "scheduling while atomic" in IPsec MAC address query
+97f87e578883abe2c8bec947dbdfdc4bf624f796 Merge branch 'mlx5-misc-fixes-2026-02-24'
+aa4876fe2d9fcbcaa0592b25f34ec6f6ea7876c1 ALSA: hda/realtek: add quirk for Acer Nitro ANV15-51
+54f9d645a5453d0bfece0c465d34aaf072ea99fa ALSA: usb-audio: Use correct version for UAC3 header validation
+cd3c877d04683b44a4d50dcdfad54b356e65d158 iomap: don't report direct-io retries to fserror
+28aaa9c39945b7925a1cc1d513c8f21ed38f5e4f kthread: consolidate kthread exit paths to prevent use-after-free
+7c2889af823340d1d410939b9d547bf184d5fa54 RDMA/uverbs: Import DMA-BUF module in uverbs_std_types_dmabuf file
+a382a34276cb94d1cdc620b622dd85c55589a166 selftests/vsock: change tests to respect write-once child ns mode
+102eab95f025b4d3f3a6c0a858400aca2af2fe52 vsock: lock down child_ns_mode as write-once
+b6302e057fdc8f199ddae736ecdf45029f892e5c vsock: document write-once behavior of the child_ns_mode sysctl
+f0a2f2aadbef0d44e6df7b43a32b509fbbf39349 Merge branch 'vsock-add-write-once-semantics-to-child_ns_mode'
+7aa767d0d3d04e50ae94e770db7db8197f666970 net: consume xmit errors of GSO frames
+8a5752c6dcc085a3bfc78589925182e4e98468c5 dpaa2-switch: validate num_ifs to prevent out-of-bounds write
+003ce8c9b2ca28fbb4860651e76fb1c9a91f2ea1 ALSA: hda: cs35l56: Fix signedness error in cs35l56_hda_posture_put()
+baed0d9ba91d4f390da12d5039128ee897253d60 netfilter: nf_conntrack_h323: fix OOB read in decode_choice()
+1a7ba00901438985d817a24628753ef0323a4860 Merge tag 'asoc-fix-v7.0-rc1' of https://git.kernel.org/pub/scm/linux/kernel/git/broonie/sound into for-linus
+36d9579fed6c9429aa172f77bd28c58696ce8e2b drm/solomon: Fix page start when updating rectangle in page addressing mode
 786ea2b694f48e1b34f1dcf104e09357fc99ef34 ALSA: hda: cs35l56: Remove unnecessary struct cs_dsp_client_ops
 a0b4c7a49137ed21279f354eb59f49ddae8dffc2 netfs: Fix unbuffered/DIO writes to dispatch subrequests in strict sequence
 2970525f789c080e7e82ecb09cd85a8bb1d284e4 btrfs: handle discard errors in in btrfs_finish_extent_commit()
@@ -916,33 +944,6 @@ b2e48c429ec54715d16fefa719dd2fbded2e65be sched/mmcid: Prevent CID stalls due to 
 743956bb9990214ff1dac66ef59e27221dc3c2d8 spi: dt-bindings: sun6i: Allow Dual SPI and Quad SPI for newer SoCs
 362c490980867930a098b99f421268fbd7ca05fd xfs: fix integer overflow in bmap intent sort comparator
 53f3a900e9a383d47af7253076e19f510c5708d0 ASoC: amd: acp3x-rt5682-max9836: Add missing error check for clock acquisition
-e293015ba76eb96ce4ebed7e3b2cb1a7d319f3e9 usb: core: don't power off roothub PHYs if phy_set_mode() fails
-416909962e7cdf29fd01ac523c953f37708df93d USB: usbcore: Introduce usb_bulk_msg_killable()
-7784caa413a89487dd14dd5c41db8753483b2acb USB: usbtmc: Use usb_bulk_msg_killable() with user-specified timeouts
-1015c27a5e1a63efae2b18a9901494474b4d1dc3 USB: core: Limit the length of unkillable synchronous timeouts
-45dba8011efac11a2f360383221b541f5ea53ce5 usb: misc: uss720: properly clean up reference in uss720_probe()
-9f6a983cfa22ac662c86e60816d3a357d4b551e9 usb: core: new quirk to handle devices with zero configurations
-7f58b4148ef5d8ee0fb7d8113dcc38ff5374babc usb: gadget: f_hid: fix SuperSpeed descriptors
-8479891d1f04a8ce55366fe4ca361ccdb96f02e1 usb: gadget: f_mass_storage: Fix potential integer overflow in check_command_size_in_blocks()
-14ae24cba291bddfdc296bbcbfd00cd09d0498ef usb: cdc-acm: Restore CAP_BRK functionnality to CH343
-3cbc242b88c607f55da3d0d0d336b49bf1e20412 usb: renesas_usbhs: fix use-after-free in ISR during device removal
-8df672bfe3ec2268c2636584202755898e547173 usb: class: cdc-wdm: fix reordering issue in read code path
-c1c8550e70401159184130a1afc6261db01fc0ce usb: xhci: Fix memory leak in xhci_disable_slot()
-d6d5febd12452b7fd951fdd15c3ec262f01901a4 usb: xhci: Prevent interrupt storm on host controller error (HCE)
-ae4ff9dead5efa2025eddfcdb29411432bf40a7c xhci: Fix NULL pointer dereference when reading portli debugfs files
-56135c0c60b07729401af9d329fa9c0eded845a6 usb: gadget: uvc: fix interval_duration calculation
-0326ff28d56b4fa202de36ffc8462a354f383a64 usb/core/quirks: Add Huawei ME906S-device to wakeup quirk
-17ab4d4078e22be7fd8fd6fc710c15c085a4cb1b usb: dwc3: pci: add support for the Intel Nova Lake -H
-e8557acfa079a54b59a21f447c82a31aec7717df usb: typec: altmode/displayport: set displayport signaling rate in configure message
-11199720fac2debbe718aec11e026ab3330dc80d Revert "usb: gadget: f_ncm: Fix atomic context locking issue"
-f2524c0e6ff0a5f72f1e1a32441c69d3b56430c4 Revert "usb: legacy: ncm: Fix NPE in gncm_bind"
-37893bc5de2460c543ec1aa8250c37a305234054 Revert "usb: gadget: f_ncm: align net_device lifecycle with bind/unbind"
-46662d3a1ad40282ba9f753cccc6f909ec4468cc Revert "usb: gadget: u_ether: Add auto-cleanup helper for freeing net_device"
-3549d0ae5f7e647ffd09d69f927a18ae7a520f6f Revert "usb: gadget: u_ether: use <linux/hex.h> header file"
-3131c1aff7cdffb96239f06f98e16188cbc2083f Revert "usb: gadget: u_ether: add gether_opts for config caching"
-ec35c1969650e7cb6c8a91020e568ed46e3551b0 usb: gadget: f_ncm: Fix net_device lifecycle with device_move
-6b275bfaa16be3fb1689fa6794e445ecd127a1b4 Revert "tcpm: allow looking for role_sw device in the main node"
-8345b1539faa49fcf9c9439c3cbd97dac6eca171 usb: roles: get usb role switch from parent only for usb-b-connector
 163cc462dea7d5b75be4db49ca78a2b99c55375e gpib: lpvo_usb: fix unintended binding of FTDI 8U232AM devices
 0073a17b466684413ac87cf8ff6c19560db44e7a gpu: nova-core: gsp: fix UB in DmaGspMem pointer accessors
 a9683730e8b1d632674f81844ed03ddfbe4821c0 ASoC: detect empty DMI strings
@@ -1052,7 +1053,6 @@ e113f0b46d19626ec15388bcb91432c9a4fd6261 kprobes: avoid crash when rmmod/insmod 
 e67bf352a0847a65a157d5b02a6024c65a781e08 Merge tag 'io_uring-7.0-20260312' of git://git.kernel.org/pub/scm/linux/kernel/git/axboe/linux
 73548503dca50d2c2aa8c8cbb6eb8c1bf5959b21 Merge tag 'block-7.0-20260312' of git://git.kernel.org/pub/scm/linux/kernel/git/axboe/linux
 56cf10db2ae0bb90c69b644d639b559106d52a8d Merge tag 'sound-7.0-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/tiwai/sound
-d0d9b1f4f5391e6a00cee81d73ed2e8f98446d5f USB: ezcap401 needs USB_QUIRK_NO_BOS to function on 10gbs usb speed
 ff30ea1fb1c0f3077ce02781641e240964b7fb89 Merge tag 'regulator-fix-v7.0-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/regulator
 b36eb6e3f5d8d48798617e554fc886d277921f69 Merge tag 'spi-fix-v7.0-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/spi
 d874ca0522389405e26bc2ba38b59c9849c52cc1 Merge tag 'v7.0-rc3-smb3-client-fixes' of git://git.samba.org/sfrench/cifs-2.6
@@ -1082,4 +1082,4 @@ d9bf296c398d093f9641568411dee16285302113 Merge tag 'probes-fixes-v7.0-rc3' of gi
 5c2fe8d11ae05411566f9d69321375ea686603d4 Merge tag 'scsi-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
 f338e77383789c0cae23ca3d48adcc5e9e137e3c Linux 7.0-rc4
 
---===============4665023373483789084==--
+--===============7949401792701250103==--
