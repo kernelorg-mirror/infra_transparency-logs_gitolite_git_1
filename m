@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vkoul/phy
-Date: Mon, 16 Mar 2026 08:55:29 -0000
-Message-Id: <177365132902.845166.12971940903000087251@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/cip/linux-cip
+Date: Mon, 16 Mar 2026 08:59:07 -0000
+Message-Id: <177365154754.850350.8888383795859817692@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vkoul/phy
-user: vkoul
+repo: pub/scm/linux/kernel/git/cip/linux-cip
+user: pavel
 changes:
-  - ref: refs/heads/next
+  - ref: refs/heads/b-4.4-st74-rt60
     old: 0000000000000000000000000000000000000000
-    new: caf08514bbee0736c31d8d4f406e3415cdf726bb
-  - ref: refs/heads/fixes
-    old: 0000000000000000000000000000000000000000
-    new: 81af9e40e2e4e1aa95f09fb34811760be6742c58
+    new: 8fd0a23a90899790613119f33eb8193aa70d7f99
