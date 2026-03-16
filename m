@@ -1,25 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kbuild/linux
-Date: Mon, 16 Mar 2026 12:37:34 -0000
-Message-Id: <177366465451.1074617.2076921040542641576@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/alexs/linux
+Date: Mon, 16 Mar 2026 12:41:09 -0000
+Message-Id: <177366486985.1078329.11942082472894089968@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kbuild/linux
-user: nsc
+repo: pub/scm/linux/kernel/git/alexs/linux
+user: alexs
 changes:
-  - ref: refs/heads/kbuild-for-next
-    old: 6a76b3c06a1d359a3e84c37bc0fead370f6ccfc0
-    new: dc3b90751d6ffa8865e09a81645a539b9de6d642
+  - ref: refs/heads/docs-next
+    old: 8ee7a14091a4406a6987cc1da6e7414178944430
+    new: a501177b73fa422a61cca1508ba37a18d6a740c2
     log: |
-         dc3b90751d6ffa8865e09a81645a539b9de6d642 kbuild: Reduce the number of compiler-generated suffixes for clang thin-lto build
-         
-  - ref: refs/heads/kbuild-next-unstable
-    old: 6a76b3c06a1d359a3e84c37bc0fead370f6ccfc0
-    new: dc3b90751d6ffa8865e09a81645a539b9de6d642
-    log: |
-         dc3b90751d6ffa8865e09a81645a539b9de6d642 kbuild: Reduce the number of compiler-generated suffixes for clang thin-lto build
+         2675d92e3117faf98ee0a6eb0a2de18ae9acc2e2 docs/zh_CN: fix an inconsistent statement in dev-tools/testing-overview
+         a501177b73fa422a61cca1508ba37a18d6a740c2 docs/zh_CN: sync process/2.Process.rst with English version
          
