@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5264580177891474674=="
+Content-Type: multipart/mixed; boundary="===============7879049192953940733=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Mon, 16 Mar 2026 00:55:14 -0000
-Message-Id: <177362251494.410830.1134671886103753091@gitolite.kernel.org>
+Date: Mon, 16 Mar 2026 00:55:27 -0000
+Message-Id: <177362252773.411120.17956154484002630128@gitolite.kernel.org>
 
---===============5264580177891474674==
+--===============7879049192953940733==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/broonie/ci
 user: broonie
 changes:
-  - ref: refs/heads/asoc-7.0
-    old: 30c64fb9839949f085c8eb55b979cbd8a4c51f00
-    new: 399b6fd37a102c73cefa32a0ec945d76d80fa35f
-    log: revlist-30c64fb98399-399b6fd37a10.txt
+  - ref: refs/heads/asoc-7.1
+    old: 00da2edc646c851114c78affdc3e34a089136d8a
+    new: 5f2aaa46d59301a02b54a0d4c84c910fa49bf47a
+    log: revlist-00da2edc646c-5f2aaa46d593.txt
 
---===============5264580177891474674==
+--===============7879049192953940733==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-30c64fb98399-399b6fd37a10.txt
+Content-Disposition: attachment; filename=revlist-00da2edc646c-5f2aaa46d593.txt
 
 da142f3d373a6ddaca0119615a8db2175ddc4121 KVM: Remove subtle "struct kvm_stats_desc" pseudo-overlay
 c9f3a593137d862d424130343e77d4b5260a4f5a iio: imu: inv_icm42600: fix odr switch to the same value
@@ -254,6 +254,8 @@ f41941aab3acd33f13d65a2ae496329bc8ae4de0 rust: ptr: add projection infrastructur
 4da879a0d3fd170a70994b73baa554c6913918b5 rust: dma: use pointer projection infra for `dma_{read,write}` macro
 46d8a07b4ae262e2fec6ce2aa454e06243661265 drm/sitronix/st7586: fix bad pixel data due to byte swap
 7149be786da012afc6bae293d38f8c1fff1fb90d drm/gud: fix NULL crtc dereference on display disable
+d6db827b430bdcca3976cebca7bd69cca03cde2c ASoC: qcom: qdsp6: Fix q6apm remove ordering during ADSP stop and start
+facfdef64d11c08e6f1e69d02a0b87cb74cee0f5 firmware: cs_dsp: Fix fragmentation regression in firmware download
 c15e7c62feb3751cbdd458555819df1d70374890 smb/server: Fix another refcount leak in smb2_open()
 40955015fae4908157ac6c959ea696d05e6e9b31 ksmbd: fix use-after-free in proc_show_files due to early rcu_read_unlock
 1dfd062caa165ec9d7ee0823087930f3ab8a6294 ksmbd: fix use-after-free by using call_rcu() for oplock_info
@@ -273,6 +275,7 @@ d800d0bb2009a73630a096d7c7a80a2e64c1e41e dt-bindings: i2c: dw: Update maintainer
 b20b437666e1cb26a7c499d1664e8f2a0ac67000 spi: amlogic: spifc-a4: Fix DMA mapping error handling
 ad0e9ac2d5f5ab7a773c2c07ecf06ee59db9259f spi: atcspi200: Fix double-free in atcspi_configure_dma()
 155a3bedccaf57c69aa0b590ba3fb579debf3a4d ublk: don't clear GD_SUPPRESS_PART_SCAN for unprivileged daemons
+1bc17c67194716f53037685b7059a22cc1a911b2 ASoC: tegra: Add support for Tegra238 soundcard
 3306a589e598b50a5bbdfe837371670b507043c0 io_uring/register: fix comment about task_no_new_privs
 7fdaa640c810cb42090a182c33f905bcc47a616a objtool: Handle Clang RSP musical chairs
 9a73f085dc91980ab7fcc5e9716f4449424b3b59 objtool: Fix another stack overflow in validate_branch()
@@ -282,6 +285,8 @@ ad0e9ac2d5f5ab7a773c2c07ecf06ee59db9259f spi: atcspi200: Fix double-free in atcs
 785d4625d3e05bb0ac536ff4fd74d096cfe51714 io_uring/bpf_filter: use bpf_prog_run_pin_on_cpu() to prevent migration
 2f22702dc0fee06a240404e0f7ead5b789b253d8 drm/bridge: ti-sn65dsi83: fix CHA_DSI_CLK_RANGE rounding
 d0d727746944096a6681dc6adb5f123fc5aa018d drm/bridge: ti-sn65dsi83: halve horizontal syncs for dual LVDS output
+3c99c9f0ed60582c1c9852b685d78d5d3a50de63 ASoC: soc-core: drop delayed_work_pending() check before flush
+95bc5c225513fc3c4ce169563fb5e3929fbb938b ASoC: soc-core: flush delayed work before removing DAIs and widgets
 9063d7e2615f4a7ab321de6b520e23d370e58816 apparmor: validate DFA start states are in bounds in unpack_pdb
 e38c55d9f834e5b848bfed0f5c586aaf45acb825 apparmor: fix memory leak in verify_header
 ab09264660f9de5d05d1ef4e225aa447c63a8747 apparmor: replace recursive profile removal with iterative approach
@@ -293,6 +298,8 @@ d352873bbefa7eb39995239d0b44ccdf8aaa79a4 apparmor: fix missing bounds check on D
 39440b137546a3aa383cfdabc605fb73811b6093 apparmor: fix differential encoding verification
 a0b7091c4de45a7325c8780e6934a894f92ac86b apparmor: fix race on rawdata dereference
 8e135b8aee5a06c52a4347a5a6d51223c6f36ba3 apparmor: fix race between freeing data and fs accessing it
+634672f9d6d8a75568834be7748685a3eacc406e ASoC: tegra: Add Tegra238 sound card support
+4185b95f8a42d92d68c49289b4644546b51e252b ASoC: simple-card-utils: fix graph_util_is_ports0() for DT overlays
 87d126852158467ab87d5cbc36ccfd3f15464a6c net: sfp: improve Huawei MA5671a fixup
 288598d80a068a0e9281de35bcb4ce495f189e2a serial: caif: hold tty->link reference in ldisc_open and ser_release
 b2662e7593e94ae09b1cf7ee5f09160a3612bcb2 net: nexthop: fix percpu use-after-free in remove_nh_grp_entry
@@ -368,6 +375,7 @@ c7940c8bf215b9dc6211781c77ce80e76982a723 gpu: nova-core: fix stack overflow in G
 620b6ded72a7f0f77be6ec44d0462bb85729ab7a irqchip/riscv-aplic: Do not clear ACPI dependencies on probe failure
 b330fbfd34d7624bec62b99ad88dba2614326a19 irqchip/riscv-aplic: Register syscore operations only once
 6b13cb8f48a42ddf6dd98865b673a82e37ff238b accel/amdxdna: Fix runtime suspend deadlock when there is pending job
+30e4b2290cc2a8d1b9ddb9dcb9c981df1f2a7399 ASoC: codecs: rt1011: Use component to get the dapm context in spk_mode_put
 b4f0dd314b39ea154f62f3bd3115ed0470f9f71e Merge tag 'mm-hotfixes-stable-2026-03-09-16-36' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
 e809085f492842ce7a519c9ef72d40f4bca89c13 i40e: fix src IP mask checks and memcpy argument names in cloud filter
 e94eaef11142b01f77bf8ba4d0b59720b7858109 e1000/e1000e: Fix leak in DMA error cleanup
@@ -396,6 +404,7 @@ b2e48c429ec54715d16fefa719dd2fbded2e65be sched/mmcid: Prevent CID stalls due to 
 393815f57651101f1590632092986d1d5a3a41bd ACPI: OSL: fix __iomem type on return from acpi_os_map_generic_address()
 743956bb9990214ff1dac66ef59e27221dc3c2d8 spi: dt-bindings: sun6i: Allow Dual SPI and Quad SPI for newer SoCs
 362c490980867930a098b99f421268fbd7ca05fd xfs: fix integer overflow in bmap intent sort comparator
+53f3a900e9a383d47af7253076e19f510c5708d0 ASoC: amd: acp3x-rt5682-max9836: Add missing error check for clock acquisition
 e293015ba76eb96ce4ebed7e3b2cb1a7d319f3e9 usb: core: don't power off roothub PHYs if phy_set_mode() fails
 416909962e7cdf29fd01ac523c953f37708df93d USB: usbcore: Introduce usb_bulk_msg_killable()
 7784caa413a89487dd14dd5c41db8753483b2acb USB: usbtmc: Use usb_bulk_msg_killable() with user-specified timeouts
@@ -425,6 +434,7 @@ ec35c1969650e7cb6c8a91020e568ed46e3551b0 usb: gadget: f_ncm: Fix net_device life
 8345b1539faa49fcf9c9439c3cbd97dac6eca171 usb: roles: get usb role switch from parent only for usb-b-connector
 163cc462dea7d5b75be4db49ca78a2b99c55375e gpib: lpvo_usb: fix unintended binding of FTDI 8U232AM devices
 0073a17b466684413ac87cf8ff6c19560db44e7a gpu: nova-core: gsp: fix UB in DmaGspMem pointer accessors
+a9683730e8b1d632674f81844ed03ddfbe4821c0 ASoC: detect empty DMI strings
 2b8e3fac9bac1f2bb67571a00bb58851826fe705 Merge tag 'powerpc-7.0-2' of git://git.kernel.org/pub/scm/linux/kernel/git/powerpc/linux
 80234b5ab240f52fa45d201e899e207b9265ef91 Merge tag 'rproc-v7.0-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/remoteproc/linux
 464b1c115852fe025635ae2065e00caced184d92 slab: fix memory leak when refill_sheaf() fails
@@ -453,6 +463,7 @@ becbab4a5a02156000f3aaff8bb70e8fd3e0d4cf drm/amd/display: Check for S0i3 to be d
 3646ff28780b4c52c5b5081443199e7a430110e5 drm/amd: Set num IP blocks to 0 if discovery fails
 dca01b0a264642929732c4db4a07e7b213304c15 Documentation: kvm: fix formatting of the quirks table
 f879365c5bb210ed0d0b0aae1a0202d0c0b4b9d0 spi: atcspi200: Handle invalid buswidth and fix compiler warning
+30c64fb9839949f085c8eb55b979cbd8a4c51f00 ASoC: amd: acp-mach-common: Add missing error check for clock acquisition
 96189080265e6bb5dde3a4afbaf947af493e3f82 io_uring: ensure ctx->rings is stable for task work flags manipulation
 177c69432161f6e4bab07ccacf8a1748a6898a6b io_uring/eventfd: use ctx->rings_rcu for flags checking
 6f02c6b196036dbb6defb4647d8707d29b7fe95b io_uring: fix physical SQE bounds check for SQE_MIXED 128-byte ops
@@ -559,8 +570,22 @@ be2e3750ce0ce1b9ba77b521fee7f3e9166e64e9 Merge tag 'irq-urgent-2026-03-15' of gi
 d9bf296c398d093f9641568411dee16285302113 Merge tag 'probes-fixes-v7.0-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
 5c2fe8d11ae05411566f9d69321375ea686603d4 Merge tag 'scsi-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
 f338e77383789c0cae23ca3d48adcc5e9e137e3c Linux 7.0-rc4
-fe757092d2329c397ecb32f2bf68a5b1c4bd9193 ASoC: sma1307: fix double free of devm_kzalloc() memory
-d0426510a9e1fabf074e274ceff26ffc6500980a ASoC: amd: acp: add DMI override for ACP70 flag
-399b6fd37a102c73cefa32a0ec945d76d80fa35f ASoC: amd: acp: add PX13 SoundWire machine link for rt721+tas2783x2
+271237b15159948d05e35df245565a6fcf43fc99 ASoC: amd: acp-da7291-max98357a: Drop unused include
+afecce2a97528285540614c707de33ffe6355499 ASoC: amd: acp-es8336: Drop unused include
+67e8531909c6ab6af0d93fd7985d5ab3413e3267 ASoC: amd: acp-rt5645: Drop unused include
+c3c0e12e46b910d8a7773510204eaf426b9baa46 ASoC: amd: acp3x-es83x: Drop unused include
+616cb31ad987b9ae9c59e8a70b84dbb40d4e83ce ASoC: amd: acp3x-rt5682-max9836: Drop unused include
+67b601176c754cd3e19e9829d1beecc1d4158bcd Merge patch series "ASoC: amd: Move to GPIO descriptors"
+2be2e62cdaf462a35d2d63ab2e5f7612c7b61862 ASoC: dt-bindings: convert tdm-slot to YAML
+4f7534b87af849175c92927f9f12d150422ae2cc ASoC: dt-bindings: update tdm-slot.txt references to tdm-slot.yaml
+f97d07ab09e140303f8b65a225dd415403673bce ASoC: dt-bindings: add TDM slot idle mode properties
+bf1abd0d542a8e2b0498ae70823b762093483dfa ASoC: soc-dai: define possible idle TDM slot modes
+6ce77dc1b952e15077db7c77f5958ee4dfea21c4 ASoC: soc-dai: add common operation to set TDM idle mode
+7a76b1b40214ffb36face21e3dc1e6e1379bf74a ASoC: tas2764: expose SDOUT bus keeper via set_tdm_idle operation
+07ce2c0fcab90a28f8e076d11709cfa469aea3f7 ASoC: tas2770: expose SDOUT bus keeper via set_tdm_idle
+f4b944396b73606f6ef0f3f8a4161910530579f9 ASoC: basic support for configuring bus keepers
+eea7fb790cc3288360ebf36eb2964af318f6c436 ASoC: codecs: aw88166: Support device specific firmware
+da292216d6cf103e35dec17545206a4c2cbc1b92 ASoC: SDCA: Add support for the Cirrus Logic cs42l49
+5f2aaa46d59301a02b54a0d4c84c910fa49bf47a ASoC: sdw_utils: Add codec_info for cs42l49
 
---===============5264580177891474674==--
+--===============7879049192953940733==--
