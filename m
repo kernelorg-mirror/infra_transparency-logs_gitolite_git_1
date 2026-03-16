@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/andrea/ripgrep-edit
-Date: Sun, 15 Mar 2026 23:46:16 -0000
-Message-Id: <177361837695.357863.1130114407973337943@gitolite.kernel.org>
+Date: Mon, 16 Mar 2026 00:00:44 -0000
+Message-Id: <177361924402.369111.14787587326449481505@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,10 +12,8 @@ repo: pub/scm/linux/kernel/git/andrea/ripgrep-edit
 user: andrea
 changes:
   - ref: refs/heads/main
-    old: 1d63ff09154a444412a3a9bbb50b191f880daed2
-    new: fc2177b0364dd93c9f244e0799cd88427b158aa7
+    old: fc2177b0364dd93c9f244e0799cd88427b158aa7
+    new: 03ac1748dc546641709cb41b62d85e493b756999
     log: |
-         de5216d954582aa2f8d716bdf55c6c819dcb0a7f Add --output-size-limit to restrict ripgrep output
-         cf71578003019f8c01b036cc91c55c5c92879031 Add --threads option to control parallelism
-         fc2177b0364dd93c9f244e0799cd88427b158aa7 Add parallel processing for GBNF control line detection
+         03ac1748dc546641709cb41b62d85e493b756999 Add parallel processing for GBNF control line detection
          
