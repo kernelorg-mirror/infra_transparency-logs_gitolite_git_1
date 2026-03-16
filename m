@@ -1,24 +1,27 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mszeredi/fuse
-Date: Mon, 16 Mar 2026 11:52:01 -0000
-Message-Id: <177366192124.1036137.5841053605885419267@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
+Date: Mon, 16 Mar 2026 11:54:06 -0000
+Message-Id: <177366204685.1037160.7995905984013305832@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mszeredi/fuse
-user: mszeredi
+repo: pub/scm/linux/kernel/git/peterz/queue
+user: peterz
 changes:
-  - ref: refs/heads/for-next
-    old: a31254bff2da26a1659416fcc0a2f280ebe1cf52
-    new: 6dcceeb728567a61fbad781c13828b638b32bc16
+  - ref: refs/heads/perf/urgent
+    old: becb26c89be3a6448dcd92522894427544d5b091
+    new: b63d487679efc67a46cd53c536d2bbd148c979b3
     log: |
-         3379620923d3e59b6767605a0f11d13b37d72a0c fuse: create fuse_dev on /dev/fuse open instead of mount
-         87d3181e5891ddc177c8d8054815da0372e3c7ee fuse: add refcount to fuse_dev
-         3f2496deff35b25fd842e9c4e69783c1469c090f fuse: don't require /dev/fuse fd to be kept open during mount
-         821471f0b175c8d9f40c987ca245b15ed3fc8b61 fuse: clean up device cloning
-         cc71aa695f6503da9e9b8bcb2656f7a31402fd50 fuse: alloc pqueue before installing fc
-         6dcceeb728567a61fbad781c13828b638b32bc16 fuse: support FSCONFIG_SET_FD for "fd" option
+         8d5fae6011260de209aaf231120e8146b14bc8e0 perf/x86: Move event pointer setup earlier in x86_pmu_enable()
+         f1cac6ac62d28a9a57b17f51ac5795bf250c12d3 x86/perf: Make sure to program the counter value for stopped events on migration
+         4b9ce671960627b2505b3f64742544ae9801df97 perf: Make sure to use pmu_ctx->pmu for groups
+         1d07bbd7ea36ea0b8dfa8068dbe67eb3a32d9590 perf/x86/intel: Add missing branch counters constraint apply
+         e7fcc54524f04e42641de99028edd9c69dc19f8c perf/x86/intel: Fix OMR snoop information parsing issues
+         21d9f3bc829422cc05c35139ee5d3df014119ba7 perf/x86/intel/uncore: Fix iounmap() leak on global_init failure
+         cbbdac575cb5ad8adda544b7706885e6a9737ef1 perf/x86/intel/uncore: Skip discovery table for offline dies
+         5a20d90d4f4701a19e7334d9f04272744ca4044c perf/x86/intel/uncore: Fix die ID init and look up bugs
+         b63d487679efc67a46cd53c536d2bbd148c979b3 perf/x86/intel/uncore: Remove extra double quote mark
          
