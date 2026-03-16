@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6424203118406989351=="
+Content-Type: multipart/mixed; boundary="===============3945129955460714679=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Mon, 16 Mar 2026 10:43:05 -0000
-Message-Id: <177365778552.976962.11331399157643267027@gitolite.kernel.org>
+Date: Mon, 16 Mar 2026 10:43:11 -0000
+Message-Id: <177365779152.977214.889756473708483311@gitolite.kernel.org>
 
---===============6424203118406989351==
+--===============3945129955460714679==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,58 +16,47 @@ repo: pub/scm/linux/kernel/git/gregkh/char-misc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/char-misc-linus
-    old: 163cc462dea7d5b75be4db49ca78a2b99c55375e
-    new: f338e77383789c0cae23ca3d48adcc5e9e137e3c
-    log: revlist-163cc462dea7-f338e7738378.txt
+  - ref: refs/heads/char-misc-next
+    old: 34268365a9e9424e38083c8f318cc34b153dcb07
+    new: 3812943e01fdeabd80118b01c1484f6bd4d324d9
+    log: revlist-34268365a9e9-3812943e01fd.txt
 
---===============6424203118406989351==
+--===============3945129955460714679==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1773657784 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1773657789 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1773657782-ed87d13de63061834d6ed349e2ead083e5baa87d
+nonce 1773657789-318c12ef149a55f6816099351a56da9955eefc83
 
-163cc462dea7d5b75be4db49ca78a2b99c55375e f338e77383789c0cae23ca3d48adcc5e9e137e3c refs/heads/char-misc-linus
+34268365a9e9424e38083c8f318cc34b153dcb07 3812943e01fdeabd80118b01c1484f6bd4d324d9 refs/heads/char-misc-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmm33rgbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+9QkQAI62jHPl9cbna5TEs39H
-k1dwM4ID0kgx6jikO/9sFdB5MxE0AWsO7h0GY0AaDoygf3qJBRQituBEavYgUmie
-8uhuqha0/nTnG8/Ou9pHo9ScAjI6x6/Qw8qDfK6Dg8ejYgHeTswk5fKr0Pvu0FVt
-w9EeP0fQLxVqiG1r+2N/tr5Jv2GqDkf5LNOJFW19xrb03DLag2d47HzQ55gLGEx4
-czz0oa9xAQR6B8d6nv80NNDnGlCx1BjUwtZJCNBHgv1rJWrkkFRYU8f5tWfLL0KN
-Gd59naevhKL7CfwEN/14mC9BAD5HGdXLwC/bgME1d25udnUcTilQM0LbUJZwiJQo
-5vRGGo1Mzl6oyodSaXnN/JOezyHwKsdvtBrmqNOWOChFFeNn4TcNWUse/HtuMV5Y
-r/fWc78T2ZHEQRkS/FtIW9EsNG87YVp5vJ7LmP0KEmgkMXqxicmbkNrqTpGNYqL6
-pNA7LeZpa4bajBtjddikmdlZXsPW7Tjd03+8Y1SbnviPbBXbneO2FwpWCZdXVt5Q
-ra5OSAiORUmGFA0UwlfPRjVZmGA3INoz0pbsdDHMDLdm592sn6NwRqiwezUuQV7T
-FGetms1hs5T2kgGd2Ey4TH5OMi7S9ZqFaCzqGqqXJCa4CTg2x9tEj+4KPsGx4I8E
-KMP0yKXv+JzxKhbBXjgHfZEO
-=kGXP
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmm33r0bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+1hMQAKVjI6NukPDeyLbsslro
+sOdzUgfn4YQsfCFvofdpp7QTqn+XhWfXHkKkQtZGkOdOjJQF661QOtbGhnrp9Ilo
+9QwVeCzKcXiw+d6O1DXDLRRZ8eITxykSBh/zKiOOaWG7aEH2VeBzbUkWHvYH6pwe
+Vo6Pz+qa8w8Ww3NS1pjBefL1cL0FH1da9IgNOqZw9ocIhvR/QRsAyYaciVdXarFr
+yfMdmS0nz1iobvcEp6uvKK45ZwwIcNHjmQBe3z+thxAnWbvqmnFgvE27G+Ayp7t6
+FDHzqlax9D+SvYJiZdkJ8VTp7SNzyhl+5TwWcNYSNLnlHhfxjPD+4ZjUy2bT3e4/
+uBzGpIjTt+y82AxBdyYwxGEA+PuT+tZElqG2jmxojshiHz2ti3L7xJfhTMN0njPd
+ztyhP3q+GXHOrYBXTnbv8r/8Sb0NROY6SI/51A+U96B2ZuzBQ3OJcw2NO+IiQXqm
+ZDfq0tT4HdyKJj+uieBuNNoPqEg8wVAfulW8A4EBdX4fX3N8wZXVvCx7BMRce4Zo
+GXw13Vrg9XayY/925x6yUo1uERV/Skf9SfPbhbUSoRjW9WiA/NbECyx16eAlJ73p
+ZFqw/lDKoAg4a12ICVJiVU6iyb3n6UXxfn8H0W20D6cl+ixNuHrNBhdbZufyLUMB
+DuiEfS+66mAPp5ASNOXZvz5D
+=OZFG
 -----END PGP SIGNATURE-----
 
---===============6424203118406989351==
+--===============3945129955460714679==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-163cc462dea7-f338e7738378.txt
+Content-Disposition: attachment; filename=revlist-34268365a9e9-3812943e01fd.txt
 
-a382a34276cb94d1cdc620b622dd85c55589a166 selftests/vsock: change tests to respect write-once child ns mode
-102eab95f025b4d3f3a6c0a858400aca2af2fe52 vsock: lock down child_ns_mode as write-once
-b6302e057fdc8f199ddae736ecdf45029f892e5c vsock: document write-once behavior of the child_ns_mode sysctl
-f0a2f2aadbef0d44e6df7b43a32b509fbbf39349 Merge branch 'vsock-add-write-once-semantics-to-child_ns_mode'
-7aa767d0d3d04e50ae94e770db7db8197f666970 net: consume xmit errors of GSO frames
-8a5752c6dcc085a3bfc78589925182e4e98468c5 dpaa2-switch: validate num_ifs to prevent out-of-bounds write
-003ce8c9b2ca28fbb4860651e76fb1c9a91f2ea1 ALSA: hda: cs35l56: Fix signedness error in cs35l56_hda_posture_put()
-baed0d9ba91d4f390da12d5039128ee897253d60 netfilter: nf_conntrack_h323: fix OOB read in decode_choice()
-1a7ba00901438985d817a24628753ef0323a4860 Merge tag 'asoc-fix-v7.0-rc1' of https://git.kernel.org/pub/scm/linux/kernel/git/broonie/sound into for-linus
-36d9579fed6c9429aa172f77bd28c58696ce8e2b drm/solomon: Fix page start when updating rectangle in page addressing mode
-786ea2b694f48e1b34f1dcf104e09357fc99ef34 ALSA: hda: cs35l56: Remove unnecessary struct cs_dsp_client_ops
 a0b4c7a49137ed21279f354eb59f49ddae8dffc2 netfs: Fix unbuffered/DIO writes to dispatch subrequests in strict sequence
 2970525f789c080e7e82ecb09cd85a8bb1d284e4 btrfs: handle discard errors in in btrfs_finish_extent_commit()
 a4fe134fc1d8eb7dcd07e0961c5711b443decd89 btrfs: fix a double release on reserved extents in cow_one_range()
@@ -130,6 +119,8 @@ e96493229a6399e902062213c6381162464cdd50 spi: stm32: fix missing pointer assignm
 944e15f200475d530096cba489833dc6dcd8d1e1 Merge tag 'dma-mapping-7.0-2026-02-26' of git://git.kernel.org/pub/scm/linux/kernel/git/mszyprowski/linux
 103d53eb6fb11cfc3d502eb7b6efa706e139b947 Merge tag 'amd-drm-fixes-7.0-2026-02-26' of https://gitlab.freedesktop.org/agd5f/linux into drm-fixes
 69062f234a2837d2302a41c2ba125521630deea8 Merge tag 'mm-hotfixes-stable-2026-02-26-14-14' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
+dceddeecce3f4baa497bbb9c2a1edfb095655ac7 Merge tag 'stratix10_rsu_fix_for_v7.0' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/dinguyen/linux into work-linus
+994d5dfa4e670087ef92cfc60ee57102ffc8ef38 Merge tag 'iio-fixes-for-7.0a' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/jic23/iio into work-linus
 a75cb869a8ccc88b0bc7a44e1597d9c7995c56e5 Merge tag 'v7.0-rc1-ksmbd-server-fixes' of git://git.samba.org/ksmbd
 4fc3a433c13944ee5766ec5b9bf6f1eb4d29b880 smb: client: use atomic_t for mnt_cifs_flags
 d9d1e319b39ea685ede59319002d567c159d23c3 smb: client: fix broken multichannel with krb5+signing
@@ -141,6 +132,11 @@ e35626f610f3d2b7953ccddf6a77453da22b3a9e net/sched: ets: fix divide by zero in t
 13540021be228dcda63d02b2245ce8dad01d8473 selftests: net: Add bridge VLAN range grouping tests
 7e5b450c490ada6f70e08bbd913f0981d33a5a1a Merge branch 'bridge-check-relevant-options-in-vlan-range-grouping'
 be11a537224d72b906db6b98510619770298c8a4 net: ethernet: ti: am65-cpsw-nuss/cpsw-ale: Fix multicast entry handling in ALE table
+4fc87c240b8f30e22b7ebaae29d57105589e1c0b rust_binder: fix oneway spam detection
+8ef2c15aeae07647f530d30f6daaf79eb801bcd1 rust_binder: check ownership before using vma
+4cb9e13fec0de7c942f5f927469beb8e48ddd20f rust_binder: avoid reading the written value in offsets array
+2e303f0febb65a434040774b793ba8356698802b rust_binder: call set_notification_done() without proc lock
+a0b9b0f1433c845bda708753db32befef78e0f1f rust_binder: use lock_vma_under_rcu() in use_page_slow()
 24d87712727a5017ad142d63940589a36cd25647 media: dvb-net: fix OOB access in ULE extension header tables
 3385ea97c14d271dcb0c6e6fcf16972f819eecd8 platform/x86: oxpec: Add support for OneXPlayer APEX
 4049c46edb5d44c0de045f6f504371705dd603dd platform/x86: oxpec: Add support for OneXPlayer X1z
@@ -884,6 +880,7 @@ fa655a9ca73f7df32b8ca4d14ce11742f9578288 nvme: Annotate struct nvme_dhchap_key w
 bd98c6204d1195973b1760fe45860863deb6200c drivers: net: ice: fix devlink parameters get without irdma
 efc54fb13d79117a825fef17364315a58682c7ec iavf: fix PTP use-after-free during reset
 fdadbf6e84c44df8dbb85cfdd38bc10e4431501d iavf: fix incorrect reset handling in callbacks
+22fd7f7fed2ae3702f90d1985c326354e86b9c75 firmware: stratix10-svc: Add Multi SVC clients support
 c7940c8bf215b9dc6211781c77ce80e76982a723 gpu: nova-core: fix stack overflow in GSP memory allocation
 620b6ded72a7f0f77be6ec44d0462bb85729ab7a irqchip/riscv-aplic: Do not clear ACPI dependencies on probe failure
 b330fbfd34d7624bec62b99ad88dba2614326a19 irqchip/riscv-aplic: Register syscore operations only once
@@ -909,6 +906,7 @@ b29fb8829bff243512bb8c8908fd39406f9fd4c3 Merge tag 'v7.0-rc3-ksmbd-server-fixes'
 770444611f047dbfd4517ec0bc1b179d40c2f346 libceph: Use u32 for non-negative values in ceph_monmap_decode()
 b282c43ed156ae15ea76748fc15cd5c39dc9ab72 libceph: Fix potential out-of-bounds access in ceph_handle_auth_reply()
 755a648e78f12574482d4698d877375793867fa1 time/jiffies: Mark jiffies_64_to_clock_t() notrace
+a1621e06ccec0da034b692ea143a586f846cd157 Merge tag 'stratix10_svc_fix_for_v7.0' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/dinguyen/linux into char-misc-linus
 b2e48c429ec54715d16fefa719dd2fbded2e65be sched/mmcid: Prevent CID stalls due to concurrent forks
 28b5a1395036d6c7a6c8034d85ad3d7d365f192c sched/mmcid: Handle vfork()/CLONE_VM correctly
 7574ac6e49789ddee1b1be9b2afb42b4a1b4b1f4 sched/mmcid: Remove pointless preempt guard
@@ -944,6 +942,7 @@ f2524c0e6ff0a5f72f1e1a32441c69d3b56430c4 Revert "usb: legacy: ncm: Fix NPE in gn
 ec35c1969650e7cb6c8a91020e568ed46e3551b0 usb: gadget: f_ncm: Fix net_device lifecycle with device_move
 6b275bfaa16be3fb1689fa6794e445ecd127a1b4 Revert "tcpm: allow looking for role_sw device in the main node"
 8345b1539faa49fcf9c9439c3cbd97dac6eca171 usb: roles: get usb role switch from parent only for usb-b-connector
+163cc462dea7d5b75be4db49ca78a2b99c55375e gpib: lpvo_usb: fix unintended binding of FTDI 8U232AM devices
 0073a17b466684413ac87cf8ff6c19560db44e7a gpu: nova-core: gsp: fix UB in DmaGspMem pointer accessors
 a9683730e8b1d632674f81844ed03ddfbe4821c0 ASoC: detect empty DMI strings
 2b8e3fac9bac1f2bb67571a00bb58851826fe705 Merge tag 'powerpc-7.0-2' of git://git.kernel.org/pub/scm/linux/kernel/git/powerpc/linux
@@ -1081,5 +1080,6 @@ be2e3750ce0ce1b9ba77b521fee7f3e9166e64e9 Merge tag 'irq-urgent-2026-03-15' of gi
 d9bf296c398d093f9641568411dee16285302113 Merge tag 'probes-fixes-v7.0-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
 5c2fe8d11ae05411566f9d69321375ea686603d4 Merge tag 'scsi-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
 f338e77383789c0cae23ca3d48adcc5e9e137e3c Linux 7.0-rc4
+3812943e01fdeabd80118b01c1484f6bd4d324d9 Merge 7.0-rc4 into char-misc-next
 
---===============6424203118406989351==--
+--===============3945129955460714679==--
