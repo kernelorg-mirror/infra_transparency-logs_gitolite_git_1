@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vdubeyko/hfs
-Date: Mon, 16 Mar 2026 22:28:17 -0000
-Message-Id: <177370009791.1640581.9133276289322774921@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jpoimboe/linux
+Date: Mon, 16 Mar 2026 22:31:46 -0000
+Message-Id: <177370030668.1644155.9686897161629126644@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vdubeyko/hfs
-user: vdubeyko
+repo: pub/scm/linux/kernel/git/jpoimboe/linux
+user: jpoimboe
 changes:
-  - ref: refs/heads/for-next
-    old: e89b5724aaf362cc84ecacaf56eb09a88e57441e
-    new: a46aaa76ad21de033f188595173e8ae7afefddc0
+  - ref: refs/heads/objtool/urgent
+    old: 6f93f7b06810d04acc6b106a7d5ecd6000f80545
+    new: 4e5019216402ad0b4a84cff457b662d26803f103
     log: |
-         a46aaa76ad21de033f188595173e8ae7afefddc0 hfsplus: fix generic/533 test-case failure
+         4e5019216402ad0b4a84cff457b662d26803f103 objtool: Fix Clang jump table detection
          
