@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8089829341279282790=="
+Content-Type: multipart/mixed; boundary="===============1737260076078626655=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/vbabka/slab
-Date: Mon, 16 Mar 2026 13:34:10 -0000
-Message-Id: <177366805085.1121469.13435266135718777099@gitolite.kernel.org>
+Date: Mon, 16 Mar 2026 13:35:28 -0000
+Message-Id: <177366812808.1124410.5765423046855183607@gitolite.kernel.org>
 
---===============8089829341279282790==
+--===============1737260076078626655==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,41 +16,41 @@ repo: pub/scm/linux/kernel/git/vbabka/slab
 user: vbabka
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/slab/for-7.1/sheaves
-    old: 1fe49af3aa469d7e5638a1f23e191e16704adc9a
-    new: 86e18f36844f78ac6fea5f4e7ca3a4a91cccb511
-    log: revlist-1fe49af3aa46-86e18f36844f.txt
+  - ref: refs/heads/slab/for-next
+    old: 0309d3a8d67e2045fecc8ad3684afe25f5dbc5bd
+    new: 70b84ff865da502fc11f7372ca7215f8a4ff9cdc
+    log: revlist-0309d3a8d67e-70b84ff865da.txt
 
---===============8089829341279282790==
+--===============1737260076078626655==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher A940D434992C2E8E99103D50224FA7E7CC82A664 1773668047 +0100
+pusher A940D434992C2E8E99103D50224FA7E7CC82A664 1773668123 +0100
 pushee gitolite.kernel.org:pub/scm/linux/kernel/git/vbabka/slab.git
-nonce 1773668046-75a25da5bda0373e51bb75f04947769a08ce3046
+nonce 1773668123-ab7ea912f3964b9bd7385b33668a607c01a9d933
 
-1fe49af3aa469d7e5638a1f23e191e16704adc9a 86e18f36844f78ac6fea5f4e7ca3a4a91cccb511 refs/heads/slab/for-7.1/sheaves
+0309d3a8d67e2045fecc8ad3684afe25f5dbc5bd 70b84ff865da502fc11f7372ca7215f8a4ff9cdc refs/heads/slab/for-next
 -----BEGIN PGP SIGNATURE-----
 
-iQFPBAABCAA5FiEEe7vIQRWZI0iWSE3xu+CwddJFiJoFAmm4Bs8bFIAAAAAABAAO
-bWFudTIsMi41KzEuMTIsMiwyAAoJELvgsHXSRYiae8cH+gIP3JIZvFwqVk2z08wv
-shO2nq8R+/D+k+3RLi2y0aMZHn+T0wgWaRjQSDLIntqOF0fkCI/clekFkiGhsewq
-AYcFTk2SLkMTwBSBJhvJ6BE0Vj+1qG1xYZD9gRf3HK84nTeMQL94+rs8X6ujCig/
-uAVR//ROW1jB5xTRh3E2P3V/O5FwX1/rHyVCwkzpWO9tJVVl8IFlVeYKIESnmmzQ
-Jz0ZlX97JdTseBMiUecxdKZZhPMlxzRb0v3OCnWQBw11PkrNJRdBCDThajrGWxvu
-fdr5alUTjU7IBGaa881JA3vU6qpGPcwIWMuBFp6zH8DSwh8fi8mr109DRYBQU6Qe
-nss=
-=Iv6J
+iQFPBAABCAA5FiEEe7vIQRWZI0iWSE3xu+CwddJFiJoFAmm4BxsbFIAAAAAABAAO
+bWFudTIsMi41KzEuMTIsMiwyAAoJELvgsHXSRYiaTjMH/j3gieMk6FXqmYgN2W6+
+kt9CvvkEqOw1C0f0O4800APvL0n+mT3RlJf7E2CLSqQDefj4NmZTye8xQsguE5iO
+A4Y+exZup4CAGQQa1RrOo8EE8Y1m4g9whSXz/8pLZ8WhX7W/EsEGBxRE306OZnxe
+KtB4/rxOwAtWW+qy09j3GqaALmG1cnAV87QIlHjjJ5d8Ks16bm1yxhEVRDyZu2qv
+BEyQ5za4qEKPgU5iztoYmYUT7MQ6YNLV3ERtxfWZX8HfdSjfUjrk4Lhlj0CvjAXY
+YaWk8usXibNjzvwfdNpe1lBu3Gmv9YZQCvGm1CUyTsT8UGXXkN+B4QgtD6ZwGxBw
+Hx0=
+=siGW
 -----END PGP SIGNATURE-----
 
---===============8089829341279282790==
+--===============1737260076078626655==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1fe49af3aa46-86e18f36844f.txt
+Content-Disposition: attachment; filename=revlist-0309d3a8d67e-70b84ff865da.txt
 
 da142f3d373a6ddaca0119615a8db2175ddc4121 KVM: Remove subtle "struct kvm_stats_desc" pseudo-overlay
 c9f3a593137d862d424130343e77d4b5260a4f5a iio: imu: inv_icm42600: fix odr switch to the same value
@@ -598,5 +598,6 @@ f338e77383789c0cae23ca3d48adcc5e9e137e3c Linux 7.0-rc4
 b002755da4342ad4b5bb8d76cb4c98af74809e8e slab: decouple pointer to barn from kmem_cache_node
 f811cc3d9f6e5777f4c02dc73126f22f8e6267c3 slab: create barns for online memoryless nodes
 86e18f36844f78ac6fea5f4e7ca3a4a91cccb511 slab: free remote objects to sheaves on memoryless nodes
+70b84ff865da502fc11f7372ca7215f8a4ff9cdc Merge branch 'slab/for-7.1/misc' into slab/for-next
 
---===============8089829341279282790==--
+--===============1737260076078626655==--
