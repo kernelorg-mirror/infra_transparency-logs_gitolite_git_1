@@ -1,22 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============2078535396036524940=="
+Content-Type: multipart/mixed; boundary="===============3545855400919480056=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Mon, 16 Mar 2026 21:50:13 -0000
-Message-Id: <177369781354.1610256.11693466519607438809@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Mon, 16 Mar 2026 21:50:16 -0000
+Message-Id: <177369781682.1610429.1586596267401568416@gitolite.kernel.org>
 
---===============2078535396036524940==
+--===============3545855400919480056==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-7.1
+  - ref: refs/heads/asoc-7.1
     old: 0861893cff96624523adc0968587fa64e9a9f76d
     new: b7cbc6b8646eec120a652bbfc867e9cc50a14d5f
     log: |
@@ -30,28 +30,28 @@ changes:
          b7cbc6b8646eec120a652bbfc867e9cc50a14d5f ASoC: Handle edge case on SDCA jack control naming
          
 
---===============2078535396036524940==
+--===============3545855400919480056==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1773697811 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1773697811-d6da3615dd627933766044757655a268ee3ed314
+pusher C3F436CA30F5D8EB 1773697815 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1773697814-276a9e46e38c7d32eccf246b0b17f2a1141a4574
 
-0861893cff96624523adc0968587fa64e9a9f76d b7cbc6b8646eec120a652bbfc867e9cc50a14d5f refs/heads/for-7.1
+0861893cff96624523adc0968587fa64e9a9f76d b7cbc6b8646eec120a652bbfc867e9cc50a14d5f refs/heads/asoc-7.1
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmm4exMACgkQJNaLcl1U
-h9B+pggAgxAwqDyKmDEY3slb3KLxcEDvqp3ZP/pci5V8ANuPlNJp0VvkM2JstL87
-PZ/AW/Fh58EmeyAykwIUz6F87IYOsVw1zo34TrtVjKmlSZbZBPt2KvAqDXOrJfSv
-s1CZPZaHVspkl6BM4f+Ywsy4IiBG8Q9rcCY7aO37oJ52jxQ5K4Ijpj2ztxIjgxWF
-zcRgk2/Ciz9UlGnLU3XX5SH0VwPXCG/MdquHTehJyE/qDgliqAhMASC67sgEwmUf
-4BfOtsXIWfRJoUOOau5pC/Pns/X4GhDBpmTBKI8eAoAebqvZ5yFSdTjXNvXRQs1U
-1MuKULXMoB9/MamrcRLFWrIDgihzOw==
-=84yv
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmm4excACgkQJNaLcl1U
+h9AnMAf+L25u5uwmqtZxzxj36v1ckoUMzcyeZyAd1nmA+DvK0WMhCzeM2mC48hmZ
+/LYE1zZIBUJT39aGIXBQ7vn9BDTdWoCTOPIPkLtadB6Xo4GUsPzzdyfsJLa9OVEl
+zjkZWKxMw3qM4W2H6t/3aIha6P9HAfwmWAFEnGgb0LltT7fAk9FzqavUCvmua6AG
+LyFPQX3KjiNnPC4B8ibJQJn56nHBITyaYK6sU3fDcYZ/8lTCZhhC1x+iypHGCBb/
+E725SEkrnI7pLAlxJ7eNO9vLd0Ev7vBej/s+KEE4eeVnxZZm6ojnIi73xzJlhTGS
+vwHb6ljuu7edL1OUTj17YL2NL40MvQ==
+=boMY
 -----END PGP SIGNATURE-----
 
---===============2078535396036524940==--
+--===============3545855400919480056==--
