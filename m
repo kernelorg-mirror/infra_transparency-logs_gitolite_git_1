@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0829047053329517065=="
+Content-Type: multipart/mixed; boundary="===============4829348130930136918=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/geert/linux-m68k
-Date: Mon, 16 Mar 2026 10:30:42 -0000
-Message-Id: <177365704269.967032.10272265853431074532@gitolite.kernel.org>
+Date: Mon, 16 Mar 2026 10:30:53 -0000
+Message-Id: <177365705367.967498.8252614056697477274@gitolite.kernel.org>
 
---===============0829047053329517065==
+--===============4829348130930136918==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/geert/linux-m68k
 user: geert
 changes:
-  - ref: refs/heads/master
-    old: fab8e068199a17ab8cb2ba47cc6f09d79bbf785a
-    new: 932a802090cf33ad91e86ba0688fd56b49b014b9
-    log: revlist-fab8e068199a-932a802090cf.txt
+  - ref: refs/heads/m68k-queue
+    old: f7d88758b18ed81c4e3265326b4253c62d913f9f
+    new: 83354825d36baa079f66fe325108f91125262214
+    log: revlist-f7d88758b18e-83354825d36b.txt
 
---===============0829047053329517065==
+--===============4829348130930136918==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-fab8e068199a-932a802090cf.txt
+Content-Disposition: attachment; filename=revlist-f7d88758b18e-83354825d36b.txt
 
 da142f3d373a6ddaca0119615a8db2175ddc4121 KVM: Remove subtle "struct kvm_stats_desc" pseudo-overlay
 c9f3a593137d862d424130343e77d4b5260a4f5a iio: imu: inv_icm42600: fix odr switch to the same value
@@ -570,6 +570,8 @@ be2e3750ce0ce1b9ba77b521fee7f3e9166e64e9 Merge tag 'irq-urgent-2026-03-15' of gi
 d9bf296c398d093f9641568411dee16285302113 Merge tag 'probes-fixes-v7.0-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
 5c2fe8d11ae05411566f9d69321375ea686603d4 Merge tag 'scsi-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
 f338e77383789c0cae23ca3d48adcc5e9e137e3c Linux 7.0-rc4
-932a802090cf33ad91e86ba0688fd56b49b014b9 Merge tag 'v7.0-rc4'
+0d32c5dd1fe193a0efb5cb02fc539e2574ec0c83 m68k: atari: usb: Add ISP1160 USB host controller support
+e58d491b44234ee792813315e354cdb1fec7b308 m68k: atari: Update Kconfig.bus help text
+83354825d36baa079f66fe325108f91125262214 m68k: defconfig: Enable Atari EtherNAT and NetUSBee USB support
 
---===============0829047053329517065==--
+--===============4829348130930136918==--
