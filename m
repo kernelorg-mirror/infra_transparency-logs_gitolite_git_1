@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/cip/linux-cip
-Date: Mon, 16 Mar 2026 08:59:07 -0000
-Message-Id: <177365154754.850350.8888383795859817692@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/libata/linux
+Date: Mon, 16 Mar 2026 09:12:37 -0000
+Message-Id: <177365235781.880148.6000105399990376529@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/cip/linux-cip
-user: pavel
+repo: pub/scm/linux/kernel/git/libata/linux
+user: cassel
 changes:
-  - ref: refs/heads/b-4.4-st74-rt60
-    old: 0000000000000000000000000000000000000000
-    new: 8fd0a23a90899790613119f33eb8193aa70d7f99
+  - ref: refs/heads/for-7.0-fixes
+    old: ee0e6e69a772d601e152e5368a1da25d656122a8
+    new: ce5ae93d1a216680460040c7c0465a6e3b629dec
+    log: |
+         ce5ae93d1a216680460040c7c0465a6e3b629dec ata: libata-core: disable LPM on ADATA SU680 SSD
+         
