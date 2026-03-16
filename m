@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8169470735857444569=="
+Content-Type: multipart/mixed; boundary="===============3099556562912332215=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/johan/gnss
-Date: Mon, 16 Mar 2026 13:19:24 -0000
-Message-Id: <177366716470.1109597.3627224945661134185@gitolite.kernel.org>
+Date: Mon, 16 Mar 2026 13:19:34 -0000
+Message-Id: <177366717431.1109816.8598186787679040139@gitolite.kernel.org>
 
---===============8169470735857444569==
+--===============3099556562912332215==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/johan/gnss
 user: johan
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/gnss-next
     old: 11439c4635edd669ae435eec308f4ab8a0804808
     new: f338e77383789c0cae23ca3d48adcc5e9e137e3c
     log: revlist-11439c4635ed-f338e7738378.txt
 
---===============8169470735857444569==
+--===============3099556562912332215==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ d9bf296c398d093f9641568411dee16285302113 Merge tag 'probes-fixes-v7.0-rc3' of gi
 5c2fe8d11ae05411566f9d69321375ea686603d4 Merge tag 'scsi-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
 f338e77383789c0cae23ca3d48adcc5e9e137e3c Linux 7.0-rc4
 
---===============8169470735857444569==--
+--===============3099556562912332215==--
