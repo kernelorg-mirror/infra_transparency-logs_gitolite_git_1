@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
-Date: Mon, 16 Mar 2026 21:36:21 -0000
-Message-Id: <177369698145.1599154.12841410266922806774@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gustavoars/linux
+Date: Mon, 16 Mar 2026 21:46:30 -0000
+Message-Id: <177369759072.1606685.5226930005100083135@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/25-new
-user: akpm
+repo: pub/scm/linux/kernel/git/gustavoars/linux
+user: gustavoars
 changes:
-  - ref: refs/heads/master
-    old: 19f6a93a2bfa7bef7737d80df30cd9520ab0d369
-    new: 5c6c364ec84af5d44b2239b0673b5985b5cb3f8a
+  - ref: refs/heads/testing/wfamnae-next20260309
+    old: 2fccc7ac847ceb27d79945fb44daa91edaf65bf2
+    new: 4b0d3544bb7a4b158dbb130f894a49d0904a6550
     log: |
-         5c6c364ec84af5d44b2239b0673b5985b5cb3f8a foo
+         4b0d3544bb7a4b158dbb130f894a49d0904a6550 netfilter: Avoid a couple -Wflex-array-member-not-at-end warnings
          
