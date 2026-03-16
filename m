@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3878096661351956924=="
+Content-Type: multipart/mixed; boundary="===============5213472746030820598=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Mon, 16 Mar 2026 01:42:30 -0000
-Message-Id: <177362535079.452204.8455586507038457443@gitolite.kernel.org>
+Date: Mon, 16 Mar 2026 01:42:37 -0000
+Message-Id: <177362535767.452431.9000447095325037531@gitolite.kernel.org>
 
---===============3878096661351956924==
+--===============5213472746030820598==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,45 +16,45 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-queue
-    old: 580f3d8cd1e72267d5e1a226530ab7741fb5aff4
-    new: d849f2e425d17a8343d3c50ea5e1bc02132683a4
-    log: revlist-580f3d8cd1e7-d849f2e425d1.txt
+  - ref: refs/heads/7.1/scsi-queue
+    old: 1bf5c303eb9898930c5313769df14a76c51075c1
+    new: 2bf2d65f76697820dbc4227d13866293576dd90a
+    log: revlist-1bf5c303eb98-2bf2d65f7669.txt
 
---===============3878096661351956924==
+--===============5213472746030820598==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1773625327 -0400
+pusher 75C5DE3D 1773625354 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1773625327-ed00276ad33db0ee268adbd67632d071b1091767
+nonce 1773625353-03c0b702c616b7222a148ecb138e6637d173672f
 
-580f3d8cd1e72267d5e1a226530ab7741fb5aff4 d849f2e425d17a8343d3c50ea5e1bc02132683a4 refs/tags/mkp-scsi-queue
+1bf5c303eb9898930c5313769df14a76c51075c1 2bf2d65f76697820dbc4227d13866293576dd90a refs/heads/7.1/scsi-queue
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmm3X+8ACgkQ7ulgGnXF
-3j12bA/8DJaCVfta++ZUBCIi0QQq9dF4c69Dp/WOQ855yoKdQ5x380QukKDfZ9IS
-NfbK5VfHWvqVWZkQbBHFXpmlXn48byZ8GHPQdRto7pMF0pOU7U0TUSaf4oAnL15i
-XjoyUqRpMSmVI5mmqSU4C82mIQ0tXkzznof8x/Jmsx3dc3A8QiK/CB+7bSRa3DX0
-uumo88lxflClaqsGDcBl5Ck8DpNZEERj65jOKErPGW4U4MQie8CaWB9u/gUhLCRI
-LVLt5xFaJNm4VeXGdWrX4ulXzZdBraMC4N9J12ajCl2vwQOaBecONyG11NNWsM+b
-Eo6qU9OoAh/032XQ7OUkDtYzSKCL+X4N76KSTOBUqsQc+mvjuAryNLhsdSi8PfXp
-Co91icnI38aTjGLrFdN5ladgGgblia71QEMIHKvkEnn3RKZxF/2/VoFF14ZhMdbi
-SXMIBwkDWQNcWjVKtI4InRUHOitx6GE4L6A8OPIbw3UJ8TByXG5hs5N6FilkRlRa
-scgC9lvSSZAy0oCpWBiLjPSyNd5sQ1hWU7ovAtln1n1JXc4YDIpdyMzdGWGOTWEw
-lEQwk4W1VDajksVQCIXOtFpMPDKaKuy93Tm4DGwT6QV8sa4zO2/rOXi36x7srpJK
-qBTj5i2SWMX9xjI7y0BlbQYNPdP0F7xVkvZZUI+V53a9hfin6d0=
-=qNDp
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmm3YAoACgkQ7ulgGnXF
+3j3Jvg//Qh0ZPR6c4F5b1GIJLyTOjy3Uz4B8ihZHyn1Zzkf02gPzjKa7C1hEW5MY
+W/k4CaBSoHsjvMC3rvpPVYjfO82bJ4dLkYUkzeeZT9m3fnC+YNUN4A/3/TBHc4ZB
+7WObnSyxtT0jkXlgVY1Jqi2Di+fVWw9T6v1O0Xx4f/uSEfhtEzr/X6I8EH50ph1c
+dnkG3I6xbpEzrjy+0nxGBpF6yMXWWTt6lRrnt+hssslZQaUbK8pQm5R+vpE4F/kh
+wMeVr70rsXh8/C+Ca2naQSDbH5tmUJq0xcd3aQjIBEUV/DpbgbZ9+0SlGsHRtQPF
+cBy0D4qPNHtB1piVcifQJPcUs4he+SniI4WFpMDe/ESM8+FRQuYuinojNfR8qU1r
+UKxFzqwWtETnWZ4fjwibcWiCK93G30X46/pxVTzhAKE0+w2twMQkB6vPg9WqtsRT
+hOawZw585nGJTBXDdHqrp1IxIBrXpzGO3IclWqzuiL1oECzJAj61DX+/0rJOe3y8
+yI2shyizMttLi5Z7PAxlbvMBDGnGdFu2yPO6NXijk7HB5YxkgRZjVw6uNrmuXQDU
+i3nxq57TAZlUILf4/afnKGhNcNKroUj9TpKH86R+ObNjkdy6v91sm+x9+bV7a6bz
+wmr6RrdH9oPk1x07yqfY1HIW01CUDkErKBloGvbbcz7wTO+ufw4=
+=j6Yr
 -----END PGP SIGNATURE-----
 
---===============3878096661351956924==
+--===============5213472746030820598==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-580f3d8cd1e7-d849f2e425d1.txt
+Content-Disposition: attachment; filename=revlist-1bf5c303eb98-2bf2d65f7669.txt
 
 7a3aff163c77159d262217382ec0e9c06c847b46 scsi: core: Drop using the host_lock to protect async_scan race condition
 b5e21a29fe9459aef1e6b20b9315e8f3690f8f31 scsi: ufs: core: Add support to notify userspace of UniPro QoS events
@@ -68,4 +68,4 @@ c420f7c4ac7e808bf8554af43691bc9133bb89e9 scsi: hisi_sas: Fix the risk of overflo
 20ca5460e5f95163b85dda555625a27d1c120ebf scsi: ufs: host: mediatek: Add VCC on delay for stability
 2bf2d65f76697820dbc4227d13866293576dd90a scsi: target: core: Fix integer overflow in UNMAP bounds check
 
---===============3878096661351956924==--
+--===============5213472746030820598==--
