@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ebiggers/linux
-Date: Mon, 16 Mar 2026 21:17:30 -0000
-Message-Id: <177369585012.1579733.8906260501086794908@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/b4/b4
+Date: Mon, 16 Mar 2026 21:19:24 -0000
+Message-Id: <177369596467.1580641.1291604607748195314@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ebiggers/linux
-user: ebiggers
+repo: pub/scm/utils/b4/b4
+user: mricon
 changes:
-  - ref: refs/heads/media-pending
-    old: 0000000000000000000000000000000000000000
-    new: 3a390df2d753e2779d2b9fd61300cdcec08bb60c
+  - ref: refs/heads/master
+    old: 4520fe6cfb7c7c58bd764d0d9493bd91907d9448
+    new: bf9d112904c9d060e4d9a10bf11982b691e26fad
+    log: |
+         bf9d112904c9d060e4d9a10bf11982b691e26fad Update manpage for 0.15 release
+         
