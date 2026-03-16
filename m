@@ -1,23 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mszyprowski/linux
-Date: Mon, 16 Mar 2026 07:22:41 -0000
-Message-Id: <177364576161.717151.1122406015022714926@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/djakov/icc
+Date: Mon, 16 Mar 2026 07:29:35 -0000
+Message-Id: <177364617570.721547.11960645650975088067@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mszyprowski/linux
-user: mszyprowski
+repo: pub/scm/linux/kernel/git/djakov/icc
+user: djakov
 changes:
-  - ref: refs/heads/dma-mapping-for-next
-    old: a54302ccfd38afba7b297566f0d414b961ca97bf
-    new: 661f8a193d48d123aedcbd401ace137333d02523
+  - ref: refs/heads/icc-next
+    old: 3e90f5103a8b19c69ba98d841d4b6a924266b165
+    new: ce5aca6ffe663a7d68b97a621b5461b6ebdeaf66
     log: |
-         2c92eff008a253a5ec0af7e9fa9c5a41e238ea50 arm64: Provide dcache_by_myline_op_nosync helper
-         1c3a7f9e6bac8993946d384ee4c2f79910e93cd8 arm64: Provide dcache_clean_poc_nosync helper
-         cf875c4b6863fd64054e1c3550c349eac09c4f35 arm64: Provide dcache_inval_poc_nosync helper
-         d7eafe655b741dfc241d5b920f6d2cea45b568d9 dma-mapping: Separate DMA sync issuing and completion waiting
-         661f8a193d48d123aedcbd401ace137333d02523 dma-mapping: Support batch mode for dma_direct_{map,unmap}_sg
+         dbbd550d7c8d90d3af9fe8a12a9caff077ddb8e3 interconnect: qcom: sm8450: Fix NULL pointer dereference in icc_link_nodes()
+         ce5aca6ffe663a7d68b97a621b5461b6ebdeaf66 Merge branch 'icc-fixes' into icc-next
          
