@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/docs/kernel/website
-Date: Mon, 16 Mar 2026 14:57:34 -0000
-Message-Id: <177367305429.1244938.5467329987789643197@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tomba/linux
+Date: Mon, 16 Mar 2026 15:00:00 -0000
+Message-Id: <177367320010.1245842.17094603393415856828@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/docs/kernel/website
-user: mricon
+repo: pub/scm/linux/kernel/git/tomba/linux
+user: tomba
 changes:
-  - ref: refs/heads/master
-    old: d04587da86a3464881e0c97aabddd2c271105698
-    new: 01cc5f438fd8dea698af7979ea5b3147f18a8b05
-    log: |
-         01cc5f438fd8dea698af7979ea5b3147f18a8b05 Add contributing guidelines, DCO, and license files
-         
+  - ref: refs/heads/ti-oldi-aux
+    old: 0000000000000000000000000000000000000000
+    new: 3cdc854fc233d4af86b1d5c4d2304732cb86f3b4
