@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ardb/linux
-Date: Mon, 16 Mar 2026 16:56:12 -0000
-Message-Id: <177368017245.1354689.2239952387860942504@gitolite.kernel.org>
+Date: Mon, 16 Mar 2026 17:00:17 -0000
+Message-Id: <177368041786.1358190.11587863291882137183@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,11 +12,13 @@ repo: pub/scm/linux/kernel/git/ardb/linux
 user: ardb
 changes:
   - ref: refs/heads/x86-efi-memmap-cleanup-v2
-    old: ae6f0e8176bc07d285f2dcc53cf4481ef2477ae0
-    new: e940d37d19c8ff5cf34c9b1d608c30b7cf531abe
+    old: e940d37d19c8ff5cf34c9b1d608c30b7cf531abe
+    new: 3b7057340d014e7e085826abbe5190abbeeaf64d
     log: |
-         37f0ed4740ea1ac31bc4ce5783ae1346d3d53c30 x86/efi: Use iterator API when mapping EFI regions for runtime
-         1d27b4b4159868a0e4124c265cab8039cc61454d x86/efi: Reuse memory map instead of reallocating it
-         9a60538d6eaf4cba602cb20cdc7c498397c107ed x86/efi: Defer compaction of the EFI memory map
-         e940d37d19c8ff5cf34c9b1d608c30b7cf531abe x86/efi: Free unused tail of the EFI memory map
+         1c55851353061fe836c58da2688f85ba0ce92b9e x86/efi: Clean the memory map using iterator and filter API
+         1cc1abd68f4c4ad5119c11f50e640b6e775480d6 x86/efi: Update the runtime map in place
+         aa35ab731e9aa648cb1e2a9f57b3c8c961626198 x86/efi: Use iterator API when mapping EFI regions for runtime
+         1e20de99d29edf9a0eae925ccce03075205e7cbe x86/efi: Reuse memory map instead of reallocating it
+         b5772e0da1bcc8740a01f7c9b8ab308fc71c88b2 x86/efi: Defer compaction of the EFI memory map
+         3b7057340d014e7e085826abbe5190abbeeaf64d x86/efi: Free unused tail of the EFI memory map
          
