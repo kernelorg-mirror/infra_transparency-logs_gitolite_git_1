@@ -1,48 +1,40 @@
-Content-Type: multipart/mixed; boundary="===============3175718442850269324=="
+Content-Type: multipart/mixed; boundary="===============3122580859306578351=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Mon, 16 Mar 2026 12:06:12 -0000
-Message-Id: <177366277226.1049343.9404369070985303795@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
+Date: Mon, 16 Mar 2026 12:17:05 -0000
+Message-Id: <177366342589.1057333.11426540386718054260@gitolite.kernel.org>
 
---===============3175718442850269324==
+--===============3122580859306578351==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
-user: broonie
+repo: pub/scm/linux/kernel/git/peterz/queue
+user: peterz
 changes:
-  - ref: refs/heads/for-next
-    old: d86337eca7104c43fe263ef0dbbb1d8d6896fa93
-    new: 7f5ad18179432fede8d7657f081b1c73ec08ecd3
-    log: revlist-d86337eca710-7f5ad1817943.txt
+  - ref: refs/heads/sched/core
+    old: 9ff37c93256584192d2cd70f9502348ed5411e85
+    new: 349edbba1125fb42016a9d5a8f86b39ec653bcd1
+    log: revlist-9ff37c932565-349edbba1125.txt
 
---===============3175718442850269324==
+--===============3122580859306578351==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d86337eca710-7f5ad1817943.txt
+Content-Disposition: attachment; filename=revlist-9ff37c932565-349edbba1125.txt
 
-7699b12a32b99437dc270cc7ee603b608860679f ASoC: SDCA: Add support for the Cirrus Logic cs42l49
-5e2f19ce90d5601f4250b510ed2f41160e5692e9 ASoC: sdw_utils: Add codec_info for cs42l49
-6d841b46ec05e31d21827821ce748ff168cbd4ee ASoC: amd: acp-da7291-max98357a: Drop unused include
-0a80eff3f53ce6fb0c75187b34a0c145c4c7167d ASoC: amd: acp-es8336: Drop unused include
-d63b722361b8dff3d8bbc0f5f324367420f19f0b ASoC: amd: acp-rt5645: Drop unused include
-70f0a90e718d6163543a3f7eb4f7cb582f85ae47 ASoC: amd: acp3x-es83x: Drop unused include
-c43988dfe25ba358b1df72201327ca719e8a369d ASoC: amd: acp3x-rt5682-max9836: Drop unused include
-3e9cda2f4a33c6becc99f8a78946cbd02983852f ASoC: amd: Move to GPIO descriptors
-5273cb8197d8eea1ab83ae3227a8c2db94177195 ASoC: dt-bindings: convert tdm-slot to YAML
-cc74890fb484a73420e46fc7be7bff8d02a82699 ASoC: dt-bindings: update tdm-slot.txt references to tdm-slot.yaml
-938c1ed56ab888b0715a8c7070dbb4e276c2d3fe ASoC: dt-bindings: add TDM slot idle mode properties
-7d8632f1ef6c8ed0b53771c16f130f18d636931e ASoC: soc-dai: define possible idle TDM slot modes
-b758d3574e88537f9089bd757a51b35cf9675179 ASoC: soc-dai: add common operation to set TDM idle mode
-45573ee1f2badd1886eb6f4a736e60e3f76effe6 ASoC: tas2764: expose SDOUT bus keeper via set_tdm_idle operation
-af176d0787d219d9e07272988079ebb9be8efe6a ASoC: tas2770: expose SDOUT bus keeper via set_tdm_idle
-706d2dc0269e695979943f27b03389007e034db7 ASoC: basic support for configuring bus keepers
-fc1fbafc18a0352f1f23cdff3533fbd0276dd58e ASoC: codecs: aw88166: Support device specific firmware
-7f5ad18179432fede8d7657f081b1c73ec08ecd3 Merge remote-tracking branch 'asoc/for-7.1' into asoc-next
+12914d190671da2c6e340d34619203506a638909 sched/topology: Compute sd_weight considering cpuset partitions
+071a7099c7f25be50120d3b61f38a0d925a57323 sched/topology: Extract "imb_numa_nr" calculation into a separate helper
+3472b55c589cd72f3f57935d80b14324f0c6fad8 sched/topology: Allocate per-CPU sched_domain_shared in s_data
+05c04196afe3bcded2e095deea4c5778759651a5 sched/topology: Switch to assigning "sd->shared" from s_data
+0e833b1a650df1e2017a74e74abd4002a6262f18 sched/topology: Remove sched_domain_shared allocation with sd_data
+137d492af83b689b5af1221a41882ed53239674e sched/core: Check for rcu_read_lock_any_held() in idle_get_state()
+569d127078178768c43c3786a0b8e4e9ae44e1ae PM: EM: Switch to rcu_dereference_all() in wakeup path
+c095e9bc8a9be1c722800f9caa1934eb00051ce8 sched/fair: Remove superfluous rcu_read_lock() in the wakeup path
+02e030819fece965945160e40e077354311a8478 sched/fair: Simplify the entry condition for update_idle_cpu_scan()
+349edbba1125fb42016a9d5a8f86b39ec653bcd1 sched/fair: Simplify SIS_UTIL handling in select_idle_cpu()
 
---===============3175718442850269324==--
+--===============3122580859306578351==--
