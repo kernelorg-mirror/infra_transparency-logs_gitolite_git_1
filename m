@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5731343350456634415=="
+Content-Type: multipart/mixed; boundary="===============7238301777517599769=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Mon, 16 Mar 2026 10:48:19 -0000
-Message-Id: <177365809943.982478.1461929299146842713@gitolite.kernel.org>
+Date: Mon, 16 Mar 2026 10:48:24 -0000
+Message-Id: <177365810431.982726.3896384957554107421@gitolite.kernel.org>
 
---===============5731343350456634415==
+--===============7238301777517599769==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,48 +16,47 @@ repo: pub/scm/linux/kernel/git/gregkh/staging
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/staging-linus
-    old: a75281626fc8fa6dc6c9cc314ee423e8bc45203b
-    new: f338e77383789c0cae23ca3d48adcc5e9e137e3c
-    log: revlist-a75281626fc8-f338e7738378.txt
+  - ref: refs/heads/staging-next
+    old: ad6bb64332bb4297110950769ad5af52791e33a2
+    new: f3f5d52d6bcdf190891601a11910cdd596963c1e
+    log: revlist-ad6bb64332bb-f3f5d52d6bcd.txt
 
---===============5731343350456634415==
+--===============7238301777517599769==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1773658098 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1773658102 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1773658095-7925c38c4ad38e53eab2ce5f8ca2b18e69007739
+nonce 1773658102-46bcc68fee86517354f6dca1379b6ae8d1ace198
 
-a75281626fc8fa6dc6c9cc314ee423e8bc45203b f338e77383789c0cae23ca3d48adcc5e9e137e3c refs/heads/staging-linus
+ad6bb64332bb4297110950769ad5af52791e33a2 f3f5d52d6bcdf190891601a11910cdd596963c1e refs/heads/staging-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmm33/IbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+u4kQANAiRbe73ae3q/9YhBiW
-yStuXHbeKPboPz06EFRy7o0RgiYiGcWDAlo+0kThm21RG+4nT1x2noLiVMngnPXl
-hN9sVG7+lNueEqwHHegPUfDX8QG1WVoo3/ASsyTrFYqFGevzfFiBkJWYZInXUykN
-npfVIkCeiTf4P5KrJ60HHOSTwNoHYB+cNfCKmTzMbRiPp1Vf1vxhc7fYkQUIRKpe
-wv4aT9CxnbeN+pVPvVbl2r9B72KWkVi93Qf+Zx+zqhqiJCMCE5drjVqtdSRZK+NB
-UL9T8DLFoSiIlsk/6AIrkMNfta+KnyXW7pyMp0sDmPImz2VFxIKXjgmDsrWz07UY
-9ozl+9eYNg5+oqgGgfA3EbTVVsTu+8Nx4ps6PtaLPlj+h1sp18gPi1/yq3ZHcEb2
-lNhCKCkm5wqzhRDxoUFH7OWXLowMKpEEWr4qx4fIg1Yfk13WXPq4jIbWKXY4cyp7
-mCwxMomWXy7U4uFPEz09AJsgbXP2BdszkmN3V4ic366GvHazjLe+ECnCyKXJX8q6
-/42aGY78dJiwXIAtogdvVu0DnLeUWexT4meFco3ohJATapDKJr/tSmeztVXlR6JU
-CKdxPEHG4ubPXBzwUwXb1U+3ihgqW2ZbryqiO0h+QtdvebXluD7BdEQQyrH1Vlhv
-3mMdGV7JTnEHaoZ8mY+REvyV
-=PAY4
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmm33/cbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+/BcP+wbrktckJWtABLNw67Lp
+J8FH/RBqrNSfpDgzPbvC28Jo6y8siGvx9p9g6VPvlruaa0/u8bGEBOZLDo4N2N1D
+r0l3TjTjPsqAz2cMMbgT5fHEL6t9/hO9P1DSh4lmZ4xIVQeDingFfDxv33TMldfq
+UNAyc61HC/LvyRrUUErmsbBuW+9EYMOr0Hgk8f9mWA045glJE/4mQ769RO0v3v7G
+gFyjsvdxCrNek8Cdlbyx369zYw3OxRKR5SnCEZ/zawgqMQbyKu1Nh/gBuykAZdVd
+uZja1xyC6HCGIvxOOcmUlprdoZ6wglAWwKWu0fhpqJphS4vVyZ2/FowxylFc+T3l
+pDrT9ToqcLqncV1xZ92HjEeV69/jbCIOBjLJArYTtevlGRLZek9Dk+AeVgHAAeDA
+F8YC6TNToEK2YFOrQwh4TUCXdAwyHg/g27HQTndOYgtMnAHwloyZIyuQSisM4/oJ
+NWX8YMZD2KHniNrX6InJGXWac2tOLnHOdsDj2R1KQo1/OWpYdIFSyJ1LsfgOveC5
+6c6Hlv/I93M4K/Wo8hDmA6lVW8FRUhOgkAPp9Ki7RTLfsn4rdkjTx3BFGsmBLDsP
+evkVHksklFd2zs7YFmUZKORE3Yqn/8grM2XGw2738oZuej6H+SpxC+8UFeQ4myRx
+l3ptgfrr2CiuQTZ2CL94Nv8Y
+=4AZz
 -----END PGP SIGNATURE-----
 
---===============5731343350456634415==
+--===============7238301777517599769==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a75281626fc8-f338e7738378.txt
+Content-Disposition: attachment; filename=revlist-ad6bb64332bb-f3f5d52d6bcd.txt
 
-786ea2b694f48e1b34f1dcf104e09357fc99ef34 ALSA: hda: cs35l56: Remove unnecessary struct cs_dsp_client_ops
 a0b4c7a49137ed21279f354eb59f49ddae8dffc2 netfs: Fix unbuffered/DIO writes to dispatch subrequests in strict sequence
 2970525f789c080e7e82ecb09cd85a8bb1d284e4 btrfs: handle discard errors in in btrfs_finish_extent_commit()
 a4fe134fc1d8eb7dcd07e0961c5711b443decd89 btrfs: fix a double release on reserved extents in cow_one_range()
@@ -1081,5 +1080,6 @@ be2e3750ce0ce1b9ba77b521fee7f3e9166e64e9 Merge tag 'irq-urgent-2026-03-15' of gi
 d9bf296c398d093f9641568411dee16285302113 Merge tag 'probes-fixes-v7.0-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
 5c2fe8d11ae05411566f9d69321375ea686603d4 Merge tag 'scsi-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
 f338e77383789c0cae23ca3d48adcc5e9e137e3c Linux 7.0-rc4
+f3f5d52d6bcdf190891601a11910cdd596963c1e Merge 7.0-rc4 into staging-next
 
---===============5731343350456634415==--
+--===============7238301777517599769==--
