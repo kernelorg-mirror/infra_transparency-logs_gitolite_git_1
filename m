@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/docs/man-pages/man-pages
-Date: Mon, 16 Mar 2026 00:10:20 -0000
-Message-Id: <177361982013.376552.17670832802170880243@gitolite.kernel.org>
+Date: Mon, 16 Mar 2026 00:31:38 -0000
+Message-Id: <177362109831.392477.5362452880769583051@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/docs/man-pages/man-pages
 user: alx
 changes:
   - ref: refs/heads/master
-    old: 0e7fd6b5166fe5fd6fb7ee97ef2c91eb0d295993
-    new: 36ced17e136c0170f7ce2573e8a783bb3ac85b48
+    old: 36ced17e136c0170f7ce2573e8a783bb3ac85b48
+    new: b1187cc836fb130424895b3c060c855da02a040f
     log: |
-         36ced17e136c0170f7ce2573e8a783bb3ac85b48 man/man7/tcp.7: Document effect of TCP_DEFER_ACCEPT on client socket
+         b1187cc836fb130424895b3c060c855da02a040f man/man3/strcmp.3: Refer to memcmp(3) for several details
          
