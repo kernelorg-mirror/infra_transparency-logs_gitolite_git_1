@@ -1,20 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
-Date: Mon, 16 Mar 2026 21:02:05 -0000
-Message-Id: <177369492559.1566894.14566229899471488248@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/paulmck/perfbook
+Date: Mon, 16 Mar 2026 21:07:44 -0000
+Message-Id: <177369526468.1571070.10293491178309906271@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pci/pci
-user: helgaas
+repo: pub/scm/linux/kernel/git/paulmck/perfbook
+user: paulmck
 changes:
-  - ref: refs/heads/dpc
-    old: 8f690004ff9c582257ba4d353b71f032498ebb64
-    new: d4d1ecff2c2d969b22169edaa3191cdbbcabc9a9
+  - ref: refs/heads/master
+    old: 492e8f9483d3e1dfd3768ef43dd462dd78e40c3b
+    new: d64549469b75c355295ca4da044d34f603ad8bd4
     log: |
-         a1ed752bc7cb77b740cee671567d9508ae74becd PCI/DPC: Hold pci_dev reference during error recovery
-         d4d1ecff2c2d969b22169edaa3191cdbbcabc9a9 PCI/DPC: Log AER information in DPC and EDR paths
+         5f3dcb4ea6e3d09fe0113f23ff910bda7b17997e CodeSamples/defer/route_cacm_c11: C11 fixes
+         c42486c108d9686fcae0085fe38ceb41cf77867e SMPdesign: Fix a typo
+         d64549469b75c355295ca4da044d34f603ad8bd4 Extend buggy fvextra version range
          
