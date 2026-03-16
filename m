@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8602778013435386335=="
+Content-Type: multipart/mixed; boundary="===============4467239130957412564=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Mon, 16 Mar 2026 02:30:51 -0000
-Message-Id: <177362825143.494693.10833048751292090211@gitolite.kernel.org>
+Date: Mon, 16 Mar 2026 02:31:00 -0000
+Message-Id: <177362826068.494915.13790204971638023210@gitolite.kernel.org>
 
---===============8602778013435386335==
+--===============4467239130957412564==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/cel/linux
 user: cel
 changes:
-  - ref: refs/heads/master
-    old: 1f318b96cc84d7c2ab792fcc0bfd42a7ca890681
-    new: f338e77383789c0cae23ca3d48adcc5e9e137e3c
-    log: revlist-1f318b96cc84-f338e7738378.txt
+  - ref: refs/heads/nfsd-next
+    old: ce5b645d32e9b0f0f54059e0436657226eac2bff
+    new: 084a0939af2b80bbaaaacf399e36521d9acefdaf
+    log: revlist-ce5b645d32e9-084a0939af2b.txt
 
---===============8602778013435386335==
+--===============4467239130957412564==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1f318b96cc84-f338e7738378.txt
+Content-Disposition: attachment; filename=revlist-ce5b645d32e9-084a0939af2b.txt
 
 da142f3d373a6ddaca0119615a8db2175ddc4121 KVM: Remove subtle "struct kvm_stats_desc" pseudo-overlay
 c9f3a593137d862d424130343e77d4b5260a4f5a iio: imu: inv_icm42600: fix odr switch to the same value
@@ -570,5 +570,61 @@ be2e3750ce0ce1b9ba77b521fee7f3e9166e64e9 Merge tag 'irq-urgent-2026-03-15' of gi
 d9bf296c398d093f9641568411dee16285302113 Merge tag 'probes-fixes-v7.0-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
 5c2fe8d11ae05411566f9d69321375ea686603d4 Merge tag 'scsi-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
 f338e77383789c0cae23ca3d48adcc5e9e137e3c Linux 7.0-rc4
+20880cd434a872a6781059ceef9f257074808277 nfsd/sunrpc: add svc_rqst->rq_private pointer and remove rq_lease_breaker
+98c68c81d9fcedae9de798fb24a0ba531c21e361 nfsd/sunrpc: move rq_cachetype into struct nfsd_thread_local_info
+18a2a4a375eaff8f72361bd03b7f14536a92b51b sunrpc/cache: improve RCU safety in cache_list walking.
+e036833483ba838fa2b225709f698def07f510aa NFSD: Track SCSI Persistent Registration Fencing per Client with xarray
+e8d24c50656e31e575bcc40bf901db32bd332bf3 SUNRPC: Replace KUnit tests for memcmp() with KUNIT_EXPECT_MEMEQ_MSG()
+957c637d42ece80515e62c03a9a49326f31fee5a nfsd: add a runtime switch for disabling delegated timestamps
+03bec39affb1d6adb68638f9ff107c141cf95058 nfsd: remove NFSD_V4_DELEG_TIMESTAMPS Kconfig option
+5fff11819fec6e00e80ac6e88b6c15bb08823f03 lockd: Simplify cast_status() in svcproc.c
+4536b22184e87c8523c1c66692d7fa88669fa995 lockd: Relocate and rename nlm_drop_reply
+5699a03f33b8fa98630e1006d2e4d89e9143642f lockd: Introduce nlm__int__deadlock
+e73e5d09f365509a15e3a4c8ff8468c71912d92e lockd: Have nlm_fopen() return errno values
+21bfd39f27f6ba1cb48cc55c9dc3e6b44fbeecbb lockd: Relocate nlmsvc_unlock API declarations
+f6c61dbe3ee0f71d77edcca2538a9cda73442ad3 NFS: Use nlmclnt_shutdown_rpc_clnt() to safely shut down NLM
+e50f0c5a67a130826b8cd7996f9e95e031caf05a lockd: Move xdr4.h from include/linux/lockd/ to fs/lockd/
+91d44d8df02d7ffe3b92679904614ce1f9a194fc lockd: Move share.h from include/linux/lockd/ to fs/lockd/
+9f11adda62bfec86a1bca78a9f59973767eb974c lockd: Relocate include/linux/lockd/lockd.h
+f688e069678758c7f694499dfe81322fb32459c6 lockd: Remove lockd/debug.h
+4039ea2edc627e73a96aa29e8e050cd59f07638b lockd: Move xdr.h from include/linux/lockd/ to fs/lockd/
+d8218e8a578558ce952d54b0ff8f76f99ce54908 lockd: Make linux/lockd/nlm.h an internal header
+5c7a309a8a67ca47088f0b9c624a8a8b0d386a2b lockd: Move nlm4svc_set_file_lock_range()
+e699078f377248d3a9f7cfe4cd0dd2ba3db61cea lockd: Relocate svc_version definitions to XDR layer
+f01861c1b23fbb927ec08788e05aa0772a95bdf9 nfs/blocklayout: Fix compilation error (`make W=1`) in bl_write_pagelist()
+127d0278ad98a32ca1a27e3a472e4abde85eb172 sunrpc: Kill RPC_IFDEBUG()
+5960fbfc198cb4b70b9f7eb3c0975fd4c39528bb sunrpc: Fix compilation error (`make W=1`) when dprintk() is no-op
+5f8e1ab4456a5a91605fa7707da69f7bc04b1b11 NFSD: fix nfs4_file access extra count in nfsd4_add_rdaccess_to_wrdeleg
+6a97f70b45e71edf220558dba997c14a24102df5 NFSD: Enforce timeout on layout recall and integrate lease manager fencing
+eded4340ca176e7a5cef633a8d7d40c773f1301f Documentation: Add the RPC language description of NLM version 4
+b10cf0adb4f72b0e513d3c0f77026b68ed02d206 lockd: Use xdrgen XDR functions for the NLMv4 NULL procedure
+7637960378b9c1282d0b0516a5eb1a4e713cdc07 lockd: Use xdrgen XDR functions for the NLMv4 TEST procedure
+9a113a1ccd644921fea01259c27a961cb98ee7af lockd: Use xdrgen XDR functions for the NLMv4 LOCK procedure
+0709a8c8369fd9efd1d60ef96bd4990cd9bee8d5 lockd: Use xdrgen XDR functions for the NLMv4 CANCEL procedure
+37729230d5f93efe36667e50a2c3d9aef645ea9f lockd: Use xdrgen XDR functions for the NLMv4 UNLOCK procedure
+39057dfbe618d642bd96b4d19e3bf9245fce38ab lockd: Use xdrgen XDR functions for the NLMv4 GRANTED procedure
+40e186ace60f5b50c811d130c85819bb3c24546f lockd: Refactor nlm4svc_callback()
+1fdbdf71a0750da027cf3bbf8e61c6b6d8846716 lockd: Use xdrgen XDR functions for the NLMv4 TEST_MSG procedure
+ad5695548c678b3cb5089eb4871e88dc5406220f lockd: Use xdrgen XDR functions for the NLMv4 LOCK_MSG procedure
+e8c664f4455548edcb85ab694ea73f6f4c5b67ae lockd: Use xdrgen XDR functions for the NLMv4 CANCEL_MSG procedure
+333f3a82f7961dc3912e1635742ab755f07cb2a3 lockd: Use xdrgen XDR functions for the NLMv4 UNLOCK_MSG procedure
+877c458e7d61d3d9f96c5ad5f5d3430b74caa2ac lockd: Use xdrgen XDR functions for the NLMv4 GRANTED_MSG procedure
+8c880a02a5cb78cc71b882019608c664db3d0374 lockd: Use xdrgen XDR functions for the NLMv4 TEST_RES procedure
+f6078c13dc8d3e8125c45d8f5276d7ce88df0c20 lockd: Use xdrgen XDR functions for the NLMv4 LOCK_RES procedure
+0b03d8a49ec13a631e5d131af5c71c90f3d1c82f lockd: Use xdrgen XDR functions for the NLMv4 CANCEL_RES procedure
+956f4328432b94df0c700faa48b678015c8514de lockd: Use xdrgen XDR functions for the NLMv4 UNLOCK_RES procedure
+847984fd3f8aa808d053f41c8ef56b51510d15ae lockd: Use xdrgen XDR functions for the NLMv4 GRANTED_RES procedure
+f2763a1985ab464a555056b047f48e415b07d9be lockd: Use xdrgen XDR functions for the NLMv4 SM_NOTIFY procedure
+52247ac9a0287296e8101f0402c1348329100ae0 lockd: Convert server-side undefined procedures to xdrgen
+cdfd8804ea2852f98fccf0c24d3217a0fe8be335 lockd: Hoist file_lock init out of nlm4svc_decode_shareargs()
+8305a2e79f125c7c28cacfce0750f7c07ec8323c lockd: Prepare share helpers for xdrgen conversion
+0ce66629de756c579e1a8cad3c990eaa3f083bc7 lockd: Use xdrgen XDR functions for the NLMv4 SHARE procedure
+886bf52bb16eb1e2861e05c8f05f2b4d6036b6fe lockd: Use xdrgen XDR functions for the NLMv4 UNSHARE procedure
+27d9dded83e740933a4f50fcc9fbec654fb0502e lockd: Use xdrgen XDR functions for the NLMv4 NM_LOCK procedure
+82649fa410d8ea95e3c5284395662480611a9e73 lockd: Use xdrgen XDR functions for the NLMv4 FREE_ALL procedure
+2b27dc96b26ca0f32be7c832a386ffa364f612f0 lockd: Add LOCKD_SHARE_SVID constant for DOS sharing mode
+e21245463d9b4455f7a138a729dc60dcb4ee7a3b lockd: Remove C macros that are no longer used
+4caf146f715d24c3bd8c522b21b0ec382d2e0466 lockd: Remove dead code from fs/lockd/xdr4.c
+084a0939af2b80bbaaaacf399e36521d9acefdaf sunrpc: Add XPT flags missing from SVC_XPRT_FLAG_LIST
 
---===============8602778013435386335==--
+--===============4467239130957412564==--
