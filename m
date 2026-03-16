@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============4561548827408712001=="
+Content-Type: multipart/mixed; boundary="===============4768309153683339476=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/leon/linux-rdma
-Date: Mon, 16 Mar 2026 19:25:59 -0000
-Message-Id: <177368915972.1487571.7711768958789815559@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mellanox/linux
+Date: Mon, 16 Mar 2026 19:26:17 -0000
+Message-Id: <177368917738.1487917.12821464481090634603@gitolite.kernel.org>
 
---===============4561548827408712001==
+--===============4768309153683339476==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/leon/linux-rdma
+repo: pub/scm/linux/kernel/git/mellanox/linux
 user: leon
 changes:
   - ref: refs/heads/master
@@ -20,7 +20,7 @@ changes:
     new: f338e77383789c0cae23ca3d48adcc5e9e137e3c
     log: revlist-05f7e89ab973-f338e7738378.txt
 
---===============4561548827408712001==
+--===============4768309153683339476==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ d9bf296c398d093f9641568411dee16285302113 Merge tag 'probes-fixes-v7.0-rc3' of gi
 5c2fe8d11ae05411566f9d69321375ea686603d4 Merge tag 'scsi-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
 f338e77383789c0cae23ca3d48adcc5e9e137e3c Linux 7.0-rc4
 
---===============4561548827408712001==--
+--===============4768309153683339476==--
