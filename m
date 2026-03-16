@@ -1,61 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============2349490135438451856=="
+Content-Type: multipart/mixed; boundary="===============0829047053329517065=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/geert/renesas-devel
-Date: Mon, 16 Mar 2026 10:28:38 -0000
-Message-Id: <177365691894.964060.4482976180675148060@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/geert/linux-m68k
+Date: Mon, 16 Mar 2026 10:30:42 -0000
+Message-Id: <177365704269.967032.10272265853431074532@gitolite.kernel.org>
 
---===============2349490135438451856==
+--===============0829047053329517065==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/geert/renesas-devel
+repo: pub/scm/linux/kernel/git/geert/linux-m68k
 user: geert
 changes:
   - ref: refs/heads/master
-    old: 8f1770e8ffc3ca0d94fd548117af93456ad041fa
-    new: 0f562b678b74de8331f69155bcdcacd0f692ccf2
-    log: revlist-8f1770e8ffc3-0f562b678b74.txt
-  - ref: refs/heads/next
-    old: 2f569b40e54221ac5f40bc3077cd1ee0f2afc49b
-    new: 04b483270e045c9d9bacf1a7e0cf8572a606eeee
-    log: |
-         d784bbad7fcbfad42e0d12c8dae2eb9c17b327b4 ARM: shmobile: rcar-gen2: Use of_phandle_args_equal() helper
-         a1310b78ad797f1c43faf522f7aafe40de53edd7 arm64: dts: renesas: Add pixpaper display overlay for RZ/V2H Kakip board
-         a01c4cd7e2f7812bb5c87a73d0fb9cb501e7cabd soc: renesas: r9a09g057-sys: Mark rzv2h_sys_init_data as __initconst
-         71e94c79606c5e6ca0c3ae41b6a9ce8b13c721b4 soc: renesas: r9a09g047-sys: Mark rzg3e_sys_init_data as __initconst
-         abf3502033cfc2797126f054eb081857f8e7e939 soc: renesas: r9a09g056-sys: Mark rzv2n_sys_init_data as __initconst
-         04b483270e045c9d9bacf1a7e0cf8572a606eeee Merge branches 'renesas-arm-soc-for-v7.1', 'renesas-drivers-for-v7.1' and 'renesas-dts-for-v7.1' into renesas-next
-         
-  - ref: refs/heads/renesas-drivers-for-v7.1
-    old: b1de9823fdc67a8e9cd0dcf1f6f0e9780d425d4e
-    new: abf3502033cfc2797126f054eb081857f8e7e939
-    log: |
-         a01c4cd7e2f7812bb5c87a73d0fb9cb501e7cabd soc: renesas: r9a09g057-sys: Mark rzv2h_sys_init_data as __initconst
-         71e94c79606c5e6ca0c3ae41b6a9ce8b13c721b4 soc: renesas: r9a09g047-sys: Mark rzg3e_sys_init_data as __initconst
-         abf3502033cfc2797126f054eb081857f8e7e939 soc: renesas: r9a09g056-sys: Mark rzv2n_sys_init_data as __initconst
-         
-  - ref: refs/heads/renesas-dts-for-v7.1
-    old: 0928a28daf017504e14920f4131bb99e3bc39dba
-    new: a1310b78ad797f1c43faf522f7aafe40de53edd7
-    log: |
-         a1310b78ad797f1c43faf522f7aafe40de53edd7 arm64: dts: renesas: Add pixpaper display overlay for RZ/V2H Kakip board
-         
-  - ref: refs/heads/renesas-arm-soc-for-v7.1
-    old: 0000000000000000000000000000000000000000
-    new: d784bbad7fcbfad42e0d12c8dae2eb9c17b327b4
-  - ref: refs/tags/v7.0-rc4
-    old: 0000000000000000000000000000000000000000
-    new: 34cb4f916af10153c87fabaf6c34e4cafa170427
+    old: fab8e068199a17ab8cb2ba47cc6f09d79bbf785a
+    new: 932a802090cf33ad91e86ba0688fd56b49b014b9
+    log: revlist-fab8e068199a-932a802090cf.txt
 
---===============2349490135438451856==
+--===============0829047053329517065==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8f1770e8ffc3-0f562b678b74.txt
+Content-Disposition: attachment; filename=revlist-fab8e068199a-932a802090cf.txt
 
 da142f3d373a6ddaca0119615a8db2175ddc4121 KVM: Remove subtle "struct kvm_stats_desc" pseudo-overlay
 c9f3a593137d862d424130343e77d4b5260a4f5a iio: imu: inv_icm42600: fix odr switch to the same value
@@ -601,12 +570,6 @@ be2e3750ce0ce1b9ba77b521fee7f3e9166e64e9 Merge tag 'irq-urgent-2026-03-15' of gi
 d9bf296c398d093f9641568411dee16285302113 Merge tag 'probes-fixes-v7.0-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
 5c2fe8d11ae05411566f9d69321375ea686603d4 Merge tag 'scsi-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
 f338e77383789c0cae23ca3d48adcc5e9e137e3c Linux 7.0-rc4
-d784bbad7fcbfad42e0d12c8dae2eb9c17b327b4 ARM: shmobile: rcar-gen2: Use of_phandle_args_equal() helper
-a1310b78ad797f1c43faf522f7aafe40de53edd7 arm64: dts: renesas: Add pixpaper display overlay for RZ/V2H Kakip board
-a01c4cd7e2f7812bb5c87a73d0fb9cb501e7cabd soc: renesas: r9a09g057-sys: Mark rzv2h_sys_init_data as __initconst
-71e94c79606c5e6ca0c3ae41b6a9ce8b13c721b4 soc: renesas: r9a09g047-sys: Mark rzg3e_sys_init_data as __initconst
-abf3502033cfc2797126f054eb081857f8e7e939 soc: renesas: r9a09g056-sys: Mark rzv2n_sys_init_data as __initconst
-04b483270e045c9d9bacf1a7e0cf8572a606eeee Merge branches 'renesas-arm-soc-for-v7.1', 'renesas-drivers-for-v7.1' and 'renesas-dts-for-v7.1' into renesas-next
-0f562b678b74de8331f69155bcdcacd0f692ccf2 Merge branch 'renesas-next', tag 'v7.0-rc4' into renesas-devel
+932a802090cf33ad91e86ba0688fd56b49b014b9 Merge tag 'v7.0-rc4'
 
---===============2349490135438451856==--
+--===============0829047053329517065==--
