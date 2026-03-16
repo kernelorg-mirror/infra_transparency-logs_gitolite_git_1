@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8771485412729843529=="
+Content-Type: multipart/mixed; boundary="===============0423407340500927681=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/chenhuacai/linux-loongson
-Date: Mon, 16 Mar 2026 02:36:35 -0000
-Message-Id: <177362859550.499728.9528994652426152036@gitolite.kernel.org>
+Date: Mon, 16 Mar 2026 02:36:42 -0000
+Message-Id: <177362860222.499948.15511014095712501342@gitolite.kernel.org>
 
---===============8771485412729843529==
+--===============0423407340500927681==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/chenhuacai/linux-loongson
 user: chenhuacai
 changes:
-  - ref: refs/heads/loongarch-fixes
+  - ref: refs/heads/loongarch-next
     old: 5e403a53e94fbc955b811dd9d503fe19d10b527c
     new: c252c12d1f55bd5737e3b8e7839914ccdc7a701c
     log: revlist-5e403a53e94f-c252c12d1f55.txt
 
---===============8771485412729843529==
+--===============0423407340500927681==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -143,4 +143,4 @@ d3b8491961207ac967795c34375890407fd51a45 LoongArch: No need to flush icache if t
 b254c629a963f0b9d635902f3f979bddbc65f90f LoongArch: BPF: Make arch_protect_bpf_trampoline() return 0
 c252c12d1f55bd5737e3b8e7839914ccdc7a701c LoongArch: KVM: Fix typo issue in kvm_vm_init_features()
 
---===============8771485412729843529==--
+--===============0423407340500927681==--
