@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jpoimboe/linux
-Date: Tue, 17 Mar 2026 22:42:59 -0000
-Message-Id: <177378737957.2850428.1702154376733205560@gitolite.kernel.org>
+Date: Tue, 17 Mar 2026 22:45:44 -0000
+Message-Id: <177378754475.2853814.15235512849222503801@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,9 +12,8 @@ repo: pub/scm/linux/kernel/git/jpoimboe/linux
 user: jpoimboe
 changes:
   - ref: refs/heads/orc-rax
-    old: 3f33dc720b83dc6d3a2b7094f75a5c90a0b1cbc5
-    new: a6cff92788674c154e3ef28eae95c277cac0f0b9
+    old: a6cff92788674c154e3ef28eae95c277cac0f0b9
+    new: 2bc48ba49a4ee727ce19c51cdec5cce598a7e2c1
     log: |
-         3204ea5dace525d8caa7497fff21636c6a5ed5f5 objtool: Support Clang RAX DRAP sequence
-         a6cff92788674c154e3ef28eae95c277cac0f0b9 objtool/x86: Reorder ORC register numbering
+         2bc48ba49a4ee727ce19c51cdec5cce598a7e2c1 objtool: Reorder ORC register numbering
          
