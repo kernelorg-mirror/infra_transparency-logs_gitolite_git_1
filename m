@@ -1,76 +1,267 @@
-Content-Type: multipart/mixed; boundary="===============2874416106441320445=="
+Content-Type: multipart/mixed; boundary="===============8474948194241068410=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Tue, 17 Mar 2026 21:16:05 -0000
-Message-Id: <177378216584.2775737.8091447878928858250@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/iwlwifi/linux-firmware
+Date: Tue, 17 Mar 2026 21:16:15 -0000
+Message-Id: <177378217534.2775991.16538690818507574071@gitolite.kernel.org>
 
---===============2874416106441320445==
+--===============8474948194241068410==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/net-queue
-user: tnguy
+repo: pub/scm/linux/kernel/git/iwlwifi/linux-firmware
+user: mkorenbl
 changes:
-  - ref: refs/heads/1GbE
-    old: 99600f79b28c83c68bae199a3d8e95049a758308
-    new: 6850deb61118345996f03b87817b4ae0f2f25c38
-    log: revlist-99600f79b28c-6850deb61118.txt
+  - ref: refs/heads/for-upstream
+    old: 9a9285ce9b440c4d0d6d9aeff181615d8052dfe7
+    new: abcbad3cc9588bc6e2f410b5984642c9cd46520b
+    log: revlist-9a9285ce9b44-abcbad3cc958.txt
+  - ref: refs/tags/iwlwifi-fw-2026-03-17
+    old: 0000000000000000000000000000000000000000
+    new: 87d29737972c6c10b89712893318639575e371e3
 
---===============2874416106441320445==
+--===============8474948194241068410==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-99600f79b28c-6850deb61118.txt
+Content-Disposition: attachment; filename=revlist-9a9285ce9b44-abcbad3cc958.txt
 
-e1d9a66889867c232657a9b6f25d451d7c3ab96f Bluetooth: LE L2CAP: Disconnect if received packet's SDU exceeds IMTU
-b6a2bf43aa37670432843bc73ae2a6288ba4d6f8 Bluetooth: LE L2CAP: Disconnect if sum of payload sizes exceed SDU
-0e4d4dcc1a6e82cc6f9abf32193558efa7e1613d Bluetooth: SMP: make SM/PER/KDU/BI-04-C happy
-62bcaa6b351b6dc400f6c6b83762001fd9f5c12d Bluetooth: ISO: Fix defer tests being unstable
-2cabe7ff1001b7a197009cf50ba71701f9cbd354 Bluetooth: hci_sync: Fix hci_le_create_conn_sync
-17f89341cb4281d1da0e2fb0de5406ab7c4e25ef Bluetooth: MGMT: Fix list corruption and UAF in command complete handlers
-dbf666e4fc9bdd975a61bf682b3f75cb0145eedd Bluetooth: HIDP: Fix possible UAF
-752a6c9596dd25efd6978a73ff21f3b592668f4a Bluetooth: L2CAP: Fix use-after-free in l2cap_unregister_user
-5b3e2052334f2ff6d5200e952f4aa66994d09899 Bluetooth: L2CAP: Fix accepting multiple L2CAP_ECRED_CONN_REQ
-15145675690cab2de1056e7ed68e59cbd0452529 Bluetooth: L2CAP: Fix type confusion in l2cap_ecred_reconf_rsp()
-dd815e6e3918dc75a49aaabac36e4f024d675101 Bluetooth: L2CAP: Validate L2CAP_INFO_RSP payload length before access
-99b2c531e0e797119ae1b9195a8764ee98b00e65 Bluetooth: qca: fix ROM version reading on WCN3998 chips
-5cb81eeda909dbb2def209dd10636b51549a3f8a netfilter: ctnetlink: fix use-after-free in ctnetlink_dump_exp_ct()
-f900e1d77ee0ef87bfb5ab3fe60f0b3d8ad5ba05 netfilter: conntrack: add missing netlink policy validations
-fbce58e719a17aa215c724473fd5baaa4a8dc57c netfilter: nf_conntrack_sip: fix Content-Length u32 truncation in sip_help_tcp()
-598adea720b97572c7028635cb1c59b3684e128c netfilter: revert nft_set_rbtree: validate open interval overlap
-a3aca98aec9a278ee56da4f8013bfa1dd1a1c298 netfilter: nf_flow_table_ip: reset mac header before vlan push
-1e3a3593162c96e8a8de48b1e14f60c3b57fca8a netfilter: nf_conntrack_h323: fix OOB read in decode_int() CONS case
-0548a13b5a145b16e4da0628b5936baf35f51b43 nf_tables: nft_dynset: fix possible stateful expression memleak in error path
-36eae0956f659e48d5366d9b083d9417f3263ddc netfilter: nft_ct: drop pending enqueued packets on removal
-f62a218a946b19bb59abdd5361da85fa4606b96b netfilter: xt_CT: drop pending enqueued packets on template removal
-00050ec08cecfda447e1209b388086d76addda3a netfilter: xt_time: use unsigned int for monthday bit shift
-f173d0f4c0f689173f8cdac79991043a4a89bf66 netfilter: nf_conntrack_h323: check for zero length in DecodeQ931()
-922814879542c2e397b0e9641fd36b8202a8e555 atm: lec: fix use-after-free in sock_def_readable()
-74c1e2737bd5f70043654162476ebd01588439dc Merge tag 'for-net-2026-03-12' of git://git.kernel.org/pub/scm/linux/kernel/git/bluetooth/bluetooth
-eeeff8dda634191c8e7599acf311df6758922b67 Merge tag 'nf-26-03-13' of https://git.kernel.org/pub/scm/linux/kernel/git/netfilter/nf
-6cfc3bc02b977f2fba5f7268e6504d1931a774f7 net: bcmgenet: increase WoL poll timeout
-fa103fc8f56954a60699a29215cb713448a39e87 net: mana: fix use-after-free in mana_hwc_destroy_channel() by reordering teardown
-719d3e71691db7c4f1658ba5a6d1472928121594 net: ti: icssg-prueth: Fix memory leak in XDP_DROP for non-zero-copy mode
-1a7124ecd655bcaf1845197fe416aa25cff4c3ea net: macb: Introduce gem_init_rx_ring()
-718d0766ce4c7634ce62fa78b526ea7263487edd net: macb: Reinitialize tx/rx queue pointer registers and rx ring during resume
-43d222fbcdff9a715dbe63a0c9e5902f1c9ddd10 Merge branch 'net-macb-fix-ethernet-malfunction-on-amd-versal-board-after-suspend'
-b7405dcf7385445e10821777143f18c3ce20fa04 bonding: prevent potential infinite loop in bond_header_parse()
-6d5e4538364b9ceb1ac2941a4deb86650afb3538 net/smc: fix NULL dereference and UAF in smc_tcp_syn_recv_sock()
-66360460cab63c248ca5b1070a01c0c29133b960 net/sched: teql: Fix double-free in teql_master_xmit
-d4a533ad249e9fbdc2d0633f2ddd60a5b3a9a4ca net: airoha: Remove airoha_dev_stop() in airoha_remove()
-2aa8a4fa8d5b7d0e1ebcec100e1a4d80a1f4b21a net: usb: cdc_ncm: add ndpoffset to NDP16 nframes bounds check
-77914255155e68a20aa41175edeecf8121dac391 net: usb: cdc_ncm: add ndpoffset to NDP32 nframes bounds check
-b9ba668296ffd6143b01b0545a52bcda44f94837 Merge branch 'net-usb-cdc_ncm-add-ndpoffset-to-ndp-nframes-bounds-check'
-e4c00ba7274b613e3ab19e27eb009f0ec2e28379 tg3: replace placeholder MAC address with device property
-a0671125d4f55e1e98d9bde8a0b671941987e208 clsact: Fix use-after-free in init/destroy rollback asymmetry
-069c8f5aebe4d5224cf62acc7d4b3486091c658a net: usb: aqc111: Do not perform PM inside suspend callback
-0ffba246652faf4a36aedc66059c2f94e4c83ea5 igc: fix missing update of skb->tail in igc_xmit_frame()
-45b33e805bd39f615d9353a7194b2da5281332df igc: fix page fault in XDP TX timestamps handling
-fc9c69be594756b81b54c6bc40803fa6052f35ae iavf: fix VLAN filter lost on add/delete race
-6850deb61118345996f03b87817b4ae0f2f25c38 libie: prevent memleak in fwlog code
+412356d3554e8bcf79f0a7fa3c845f5da6727fd8 Merge branch 'robot/pr-0-1768489466' into 'main'
+4cc877a7c2413d35d8103fadcf8e40ac0c1c64a5 linux-firmware: Add firmware for airoha-npu-7583 driver
+ca1ae73992c16186f240fc7a3e9a6e1e2bd4a26e Merge branch 'robot/patch-0-1768477145' into 'main'
+634af751cc56c08a843d9c8201facec0faddd52a rtl_bt: Update RTL8852BT/RTL8852BE-VT BT USB FW to 0x06EB_C65F
+2b93c4fc35643cacddec5cb7cfa2e163f5e77fab Merge branch 'robot/patch-0-1768554359' into 'main'
+40a812ce58805e59034536a85d7494550291c50a linux-firmware: Update firmware file for Intel BlazarU core
+9bf06b2bdf74e798f3b3ee0aca25c397a75a6444 linux-firmware: Update firmware file for Intel BlazarU-HrPGfP core
+99a2479f94e13da021288b016ec55243ac31fae5 linux-firmware: Update firmware file for Intel BlazarI core
+6be3bd6cc295312600e3046637817035110844c7 linux-firmware: Update firmware file for Intel BlazarIGfP core
+f401a31ab5ba031a4d228426e2c4d96913574e3f linux-firmware: Update firmware file for Intel Scorpius core
+9e79ce04180f60edb300feda8cbe4314c17d49de linux-firmware: Add firmware file for Intel ScorpiusGfp2 core
+f5aa67ce19db83fc99159e5d7e56a3e8bda3a146 Merge branch 'main' into 'main'
+1e2c15348485939baf1b6d1f5a7a3b799d80703d amdgpu: DMCUB updates for various ASICs
+c2912a6652058ddb6747810e5905a5c9e6830adc Merge branch 'amd-staging' into 'main'
+a80dabbc28fa2e1e2da3e9941dc7179ecf03d574 linux-firmware: update firmware for MT7921 WiFi device
+ed7a76faccbc8a6c768464b74a828afc6d4374d5 Merge branch 'robot/patch-0-1768805791' into 'main'
+e22074558beb4c7c9929790053af97f0d75bc70b Intel IPU7: Update firmware binary for Panther Lake
+1b7b9f6c3461815b4f656178d31a6b6a90e045ec Merge branch 'robot/patch-0-1769048722' into 'main'
+d01a86bd2b355fef5da6c68142d7a06fed59bb13 cirrus: cs35l56 cs35l57: Add and update firmware for some Dell laptops
+ecf00f092a8e6ada2faac15dd48a30e70b2823ae cirrus: cs35l57 cs35l63: Add firmware for Cirrus Amps for some Lenovo laptops
+8ca12d6383d06805774d341dc2e8cf1133cb8f9d cirrus: cs42l45: Add CS42L45 SDCA codec firmware for Dell laptops
+53ec87319d287a837b1291a6c97ed93d759bd0bd cirrus: cs42l45: Add CS42L45 SDCA codec firmware for Lenovo laptops
+f1d0a487b846544b2b6913b8251b36bc5a9d4f97 Merge branch 'robot/pr-0-1769182955' into 'main'
+ff3470eca79b782c603d0d4e19b5304b63fa1594 intel/ish: Add Lenovo ISH firmware support for X1 and X9 systems
+0882248d05045565bfefe1f07cbfc22276c9f058 Merge branch 'lenovo-ish-uspstream-clean' into 'main'
+afae3262fa2ff868c51321762b93ad332eb4503a amdgpu: DMCUB updates for various ASICs
+8ae6479889d26c899d526ae57cc1306793852f15 Merge branch 'amd-staging' into 'main'
+1ccefae136c436be78d5863ed0f6bde347c13ced qcom: Remove ADSP SensorPD json for Radxa Dragon Q6A
+a7bd257ea49692c97699dddda8646d9949a46d3b qcom: Update ADSP and add CDSP firmware for qcs6490-radxa-dragon-q6a
+5eca37faca610231eabc374a4fff9801fd2073bd Merge branch 'dragon-q6a-fw-upd' into 'main'
+d8fc350033550f348260081594f71c81d67cf1c1 Update firmware for NPU PHX, STX and STX HALO
+f484e17077f2e4d6ca00c827298030d53ac19148 Merge branch 'upstream_fw' into 'main'
+f9c84ebaefbf22f30a5a327aef97884be5ed5e22 rtw89: 8852c: update REGD R73-R60, txpwr R82 and element of diag MAC
+a80ebbccb82683c385b758028b20ab6d1b84fd12 rtw89: 8922a: update REGD R73-R08, txpwr R46 and element of diag MAC
+2e5a8b0550ba3255bccc2bac57c520259968f5e9 Merge branch 'main' into 'main'
+db024df1e153c8fd5d3c7f79ce5ad08f09c10f64 cirrus: cs35l56: Add WHENCE links for 17aa233c spkid0 firmware
+140f21507590c8cc75a1ccc6f07b74cee7ada48d Merge branch 'robot/pr-0-1769706989' into 'main'
+dfff492a66a096d1bf62eaf681cc7b9fbd55c01a ice: update DDP LAG package to 1.3.2.0
+819dee21e338d86ef9d1d24f835ec1e5f373be88 Merge branch 'robot/pr-1-1769706992' into 'main'
+0fa5e69a0d9e295b9a2f7b41c8df97d7eacd8ce8 rtl_nic: add firmware rtl8125cp-1 for RTL8125cp
+dba64c4a05651bd344a5a315f027e6b264f0f2f2 Merge branch 'robot/patch-0-1769654600' into 'main'
+fb1cfb1989ea58ba10508d668fc9e43c5bda0e97 linux-firmware: update Aeonsemi AS21x1x firmware to 1.9.1
+2c6dc0a932e82d9c2779d615ed0b8a53a2a34009 Merge branch 'robot/patch-0-1768948282' into 'main'
+9a727f07bc60a06adb1ed50b554d66bd398deb36 amdgpu: DMCUB updates for various ASICs
+82e3e0e4c96fea2d584869faef91d2fbe0f01772 Merge branch 'amd-staging' into 'main'
+f18b40ebf5e8119bd5d6b0a4f4cbc0e1cb849e64 linux-firmware: Add Dell ISH firmware for Intel panther lake systems
+2251c616bbc3f1f64cb7847878fdc17758be1731 Merge branch 'wip/cragw/dell-581.7779.0' into 'main'
+1043c0303910c9f209959dfa39493ab9ea403291 linux-firmware: Add firmware for airoha-npu-7581 driver used for MT7990 offloading
+5f391573e93d59823affa9785e19a5c9fe4c9799 Merge branch 'robot/patch-0-1769587466' into 'main'
+af03e44a2029a93ddc95dcf3c9e2ffabafad3fcb WHENCE: Correct 2 trailing whitespaces
+4b3f8c411f17b89f9fe06c39f1007c5dca29d070 Merge branch 'robot/pr-0-1769787060' into 'main'
+fd8bdffeabe45f1ec52a0803ae0739a8c2f84db8 ath11k: QCA6698AQ hw2.1: update board-2.bin
+49df41843d2778287faf8604dc7469b1d5e1c2fe ath11k: WCN6855 hw2.0: update board-2.bin
+ec76089d563ee57e6d37ed6ee082c27e814b0e18 ath12k: QCN9274 hw2.0: update to WLAN.WBE.1.6-01243-QCAHKSWPL_SILICONZ-1
+a712a43ff2c06230c298c7c7c2d0525462f72e50 ath12k: WCN7850 hw2.0: update board-2.bin
+40c017e718f95c1674fd0ea4104f27b6b7ae19f0 Merge branch 'robot/pr-0-1769805123' into 'main'
+fbf93476b78933a87073d3bf116a84f2599b37b5 rtl_bt: Update RTL8822C BT USB and UART firmware to 0x0673
+1f806c75e479fea9f222579deb6e69d285b614fc Merge branch 'robot/patch-0-1770033531' into 'main'
+a693bc58e2acb8dba297eeb36f6fa9bd5c815a8c mediatek MT7921: update bluetooth firmware to 20251223091725
+b32d2d2ed8b369bf178283e288098b1ccf99cc9a Merge branch 'mt7921' into 'main'
+87972e1334055edfcb958abbb61cbd742646bf97 linux-firmware: Update firmware file for Intel Solar core
+fcc5e7187ff3def1b9c57effe0b3a5288950c549 Merge branch 'main' into 'main'
+4e83a67a5637c907dc934d3b8f00b02d14d44a1f ASoC: tas2783: Add Firmware files for tas2783A
+ce97e4b1cb874c67a132441f9d69a55511a1ded5 Merge branch 'robot/patch-0-1770091836' into 'main'
+b69afa29d3f60c1939a745879441acd43a2f0c73 qcom: add ADSP, CDSP firmware for glymur platform
+aeea3bf80600892be582a61de1551cf431341d9e Merge branch 'robot/pr-0-1770184708' into 'main'
+81a99dba039a21fd83d37a67a7de0fb80152e065 ath10k: WCN3990 hw1.0: update board-2.bin
+e97d6b6153ac71b6c6f7860d57a933d93891545a Merge branch 'robot/pr-0-1770225592' into 'main'
+949dba8936abfc1d17ff6f9a69b96488b0cd4c4a Bluetooth: Add symbolic links for Intel AX201 firmware variants
+1b902aa966e448ac6cd7f7bc0d0cb09bb9681702 Bluetooth: Add symbolic links for Intel Pulsar firmware variants
+07b822cc556d2053838a0687b62d1dca15cad9b6 Bluetooth: Add symbolic links for Intel Solar firmware variants
+fd38db51a2a60142963cfaed776b771430ebb62f Bluetooth: Add symbolic links for Intel Solar JfP2/1 firmware variants
+90b8507fd17e137947132e81981161874162bbb2 Merge branch 'main' into 'main'
+8fafd2481eeda49dc2203bb31076b0d9361e1dbd qcom: add QUPv3 firmware for x1e80100 platform
+f2dbd7a7a74be0d309d8058a55308dcea33a41d6 Merge branch 'robot/pr-0-1770355730' into 'main'
+2bb21553d510073cff360555692643a3cba24d11 qcom: vpu: add video firmware for Glymur
+38ed165326bd2d18356dcfb0a3fcb9fc45e7bfc0 Merge branch 'robot/pr-0-1770372868' into 'main'
+6c1e2562f626034c480ab37d70f91a56b5c9e45d amdgpu: DMCUB updates for various ASICs
+9ccffb6087334549bdb115e4b605f7bf8a0dbae4 Merge branch 'amd-staging' into 'main'
+0364daaa28a266252de482995109d7baff1959e8 qcom: Add gpu firmwares for Glymur chipset
+d87f4693ed96d0f3f6f16b0f09be42f3b8acb9e0 Merge branch 'robot/pr-0-1770665774' into 'main'
+65a3c868b360019395e9210539ed67ccc4c6719e ath11k: QCA6390 hw2.0: update board-2.bin
+cbd0f9753754fd9605df129ff04b0c4b4fc82568 ath11k: WCN6855 hw2.0: update board-2.bin
+e72747d3ca7b2b5be471b4f1faf9ccf3c0709f6a Merge branch 'robot/pr-0-1770832508' into 'main'
+86725d7351e829dcc4185fb40438751bc990e6c6 xe: Update GUC to v70.58.0 for LNL, BMG, PTL
+d10429dc0711c83ca2e0c97bae53a8f3fd8d6b5a Merge branch 'intel/guc-v70580' into 'main'
+1cfed3e213c51b47433bc49a9d7efc82eaa5aa43 Revert "rtw89: 8852b: update fw to v0.29.128.0 with format suffix -2"
+81eae19b21a0d1a2f25d70868393a465125dad5b rtw89: 8852b: add format-2 with v0.29.29.15 and fw elements
+af193c46b6bdeb1fce64643a6e9ff6d0d4befc0c rtw89: 8852b: update txpwr element to R43
+0579ff05d8826c546b141102de12ac596e193dd0 rtw89: 8852bt: add regd and diag_mac and update txpwr to R09
+4a216696655b429a245752ae79a2fe3aaff192e1 rtw89: 8852a: add format-1 for fw v0.13.36.2 with fw elements
+342ce02256f3f3f1d2025d514e0cdbe2a8b20a63 rtw89: 8851b: add format-1 for fw v0.29.41.5 with fw elements
+9a907ecf6b3c380300d6fbed1089cb9cc939ac9e Merge branch 'main' into 'main'
+bed52d78bc0c5a08716b2b250d89c9eb49b3987c amdgpu: DMCUB updates for various ASICs
+92576358fe5ada6724c1c9572aa992ea43531ae1 Merge branch 'amd-staging' into 'main'
+664f8b6adeba20be0960d9cb1b2ad8c5a4d7e0e3 qcom: Update DSP firmware for sa8775p platform
+e6786848c80e773b742b04fba81ef237a4328df7 Merge branch 'robot/pr-0-1770957462' into 'main'
+39f04545b26fcb3581c3542d3b069453fbf72960 cirrus: cs35l41: Add Firmware for ASUS Zenbook Laptop using CS35L41 HDA
+5a21317b174f97c0fd62a5ccf1895ba47214f267 Merge branch 'robot/pr-0-1771002528' into 'main'
+6a24a5a92c324f9aa1e8c267a2716fb71af309cb qcom: Update DSP firmware for qcs8300 platform
+3a0e2a540dca2717a0068cf4de12160227d85cb1 Merge branch 'robot/pr-0-1771046379' into 'main'
+65c7ff3ec8084f9db61efb5ef5cd7af27d114d8d amdgpu: DMCUB updates for various ASICs
+88ed0d0ded91efb0806149b914f768ed56dcd391 Merge branch 'amd-staging' into 'main'
+30a139cb656157cba7a27fd7727b5ffbd302ff60 qcom: vpu: fix SC7280 VPU Gen2 firmware and add compatibility symlink
+599764611a8ac213c6aa6dad17c941c2f46b53cb Merge branch 'robot/pr-0-1771573522' into 'main'
+edc18bd4dc29a3bfa07f30b9715a94b0926a2014 linux-firmware: update firmware for MT7902 WiFi device
+df954d275a0797cf3c1d3fb0cbb4580419b44bb0 linux-firmware: update firmware for MT7902 BT device
+40f482401e023ac4aa2964d688499b79e1467f27 Merge branch 'mt9702' into 'main'
+feba387aac8f6946c4b00bc5710f0dc87457786a lenovo: remove obsolete ish_lnlm_53c4ffad_2a17559f.bin firmware
+1db833e68de88cd3f7f6612a5552b3e671e36ef0 Merge branch 'remove-obsolete-lenovo-fw' into 'main'
+4aaa9c557e9039204bb8e440f7cea0ac481ff03f cirrus: cs42l45: Add CS42L45 SDCA codec firmware for Dell laptops
+1beedf2fcdcf928afd41c264e87ce4fe6ace5a42 Merge branch 'dell-ptl-gpt' into 'main'
+58cf579b98c0c4878deeda1acb5db70e699875b5 amdnpu: Restore old NPU firmware for compatibility
+3f9886b375b0b7404f4e26b7ebb9eea49850a5a8 Merge branch 'superm1/amdnpu-regression' into 'main'
+49cf497556b9268ed8a97108f8308b264b7d6657 linux-firmware:Renaming the file back for HP EliteBook X Flip G1i
+26668fabcfeaaba3245e93feac8a52c53c852d62 linux-firmware:Renaming the file back for HP EliteBook X Flip G1i
+1d609638b77219970783a17b201f018917f38bed linux-firmware:Renaming the file back for HP EliteBook X Flip G1i
+fb09d668745783fbb2128fba00a9343469d04709 Merge branch 'HP_Linux_Firmware_20260226' into 'main'
+e7f955441b97d691768ada9301bf51d63ec3c87b amdgpu: update GC 9.5.0 firmware
+ad7910db6e83ded9aa8b841c85f715bfc072e6fa amdgpu: update PSP 13.0.12 firmware
+95c430cdd81a34caefbd579605615f7a57c6a4d7 amdgpu: update VCN 5.0.1 firmware
+c6feb53895f6d79d33c378f320da556f52ca35e5 amdgpu: update GC 11.0.3 firmware
+b5d25d858b7e03a541db85a335ba0f45c9361789 amdgpu: update PSP 13.0.10 firmware
+a9004d5a0ba4c6e5d52eb77e827068da1ad901a7 amdgpu: update yellow carp firmware
+19e0d4624bdbaf854e8cb4ca76dee24cd4c5660b amdgpu: update GC 9.4.3 firmware
+138597a4e0bdc8c473c2241dab19dac402e2c41d amdgpu: update PSP 13.0.6 firmware
+ffbc28980e232ef4df33fc92a90e717a9afd4b29 amdgpu: update VCN 4.0.3 firmware
+1d5d7a62ebff654701baf1ac359ae6103658674e amdgpu: update GC 11.0.2 firmware
+1d4fdf2cbdc443ae1233e3516421e1bd7e84d304 amdgpu: update PSP 13.0.7 firmware
+897d73a7b65021a754122feb98a81f2dd2a150ae amdgpu: update SDMA 6.0.2 firmware
+4773307708e91994e820910bdb1aae06f9ea88ae amdgpu: update VCN 4.0.4 firmware
+18461c2329d18feea4ed7e0b233762d9553cdf60 amdgpu: update navi10 firmware
+aaca282a05b65262e4b7fe365033205daf7aada5 amdgpu: update renoir firmware
+37e9adcb709d748667da349a460ec8528af3a9f3 amdgpu: update GC 12.0.0 firmware
+b39b4a98582ba611393a9c42f0b2a1295b9809ca amdgpu: update PSP 14.0.2 firmware
+eba8a69fb7b643da29d344f9a277b025d52793ee amdgpu: update SMU 14.0.2 firmware
+683aace3644faa4c7372d3d0661b4e90565b7703 amdgpu: update navi12 firmware
+de99d0fd70ca1875974ac5ccf423a8838831a3ea amdgpu: update GC 11.5.0 firmware
+dea480a1b32b1abf455ebec0e48c9fa3efbbefc1 amdgpu: update PSP 14.0.0 firmware
+d23903078c5f25e8680ee1253788b0ec404ae90a amdgpu: update SDMA 6.1.0 firmware
+4b81a4817629a16543f372873965e1f05a9caa88 amdgpu: update VCN 4.0.5 firmware
+4db65e675ed00376aaee7178c248fb6dfd301633 amdgpu: update VPE 6.1.0 firmware
+1dd31ea90f7f01d5cb08f8617336b926e06ecb6f amdgpu: update GC 12.0.1 firmware
+2a0af58da3565f14d18f171eec7eab4346eff50c amdgpu: update PSP 14.0.3 firmware
+7177f2135df7f130ee31ce1f693219bb161502f6 amdgpu: update SMU 14.0.3 firmware
+8669af2dd952e36a5473d4b0335e343704e8a42f amdgpu: update VCN 5.0.0 firmware
+dea4e8a3376c7370d0e98dd726854fd425f347e6 amdgpu: update GC 11.5.1 firmware
+28dd17d1d31b0279a181034bbae77b8caed5c419 amdgpu: update PSP 14.0.1 firmware
+212257aad62c63a16746b0e7afca5c89552cefd7 amdgpu: update SDMA 6.1.1 firmware
+31d1b0dd53965f82a5ef808df21c987522201fc4 amdgpu: update VCN 4.0.6 firmware
+2d7345645d5987926ba2769992511cbc38dd089e amdgpu: update green sardine firmware
+48f3c77d8f79cd9c96ddf54a4f74ce1f24ee4a13 amdgpu: update navi14 firmware
+f789bb032a9ced49c3dabd52b3e290908b86ab78 amdgpu: update sienna cichlid firmware
+4e47f7fa71fb333bb22c288297be23488b4ce218 amdgpu: update GC 11.0.1 firmware
+f940f45405496cc112f99a4bbda93254b596e7fd amdgpu: update PSP 13.0.4 firmware
+afe6f8da8aeca732a7b58ccb5b5a7027c494ca88 amdgpu: update SDMA 6.0.1 firmware
+8746dc8962204386db5a7a0c35ebae242b1a7a78 amdgpu: update VCN 4.0.2 firmware
+29ffce4483d31b4a386891a98d1063d41785e781 amdgpu: update GC 11.0.4 firmware
+6237f479d99e5db2a59d8c7ecd5584da90c2e196 amdgpu: update PSP 13.0.11 firmware
+60bd7581c60852d9dfc9ce5d3cfd5befad1ff416 amdgpu: update navy flounder firmware
+7ab313a9f169267755c0e84cb4e7e84ebf071e93 amdgpu: update vangogh firmware
+c0bec6f13e3f76e6ef15301532e011435bde2ecf amdgpu: update dimgrey cavefish firmware
+e2d3b43db975878ff0724ea7d3806a7615e0eb71 amdgpu: update GC 11.5.2 firmware
+a7669eb10e781254d01943fb97422bab3c031e36 amdgpu: update PSP 14.0.4 firmware
+127e3755fe436a0c9f307009acb62b17767198b0 amdgpu: update SDMA 6.1.2 firmware
+58b10704da494972c8585da5b39904776d8e7b4e amdgpu: update beige goby firmware
+ab1f658c787bd1e80ee5899da32a62b76c8fa162 amdgpu: update GC 11.5.3 firmware
+d1b9b72636275a42f401ed21ed896fd152f78b53 amdgpu: update PSP 14.0.5 firmware
+ca31625e94c9d02a1dd6663794bede81a0717b7c amdgpu: update SDMA 6.1.3 firmware
+652378d0d156e233a0986fe21470784a35000cc9 amdgpu: update GC 11.0.0 firmware
+ca25e8cea638872353600c5a592394da2a793d32 amdgpu: update PSP 13.0.0 firmware
+936b64f4983199b0f79bb0a590c947d460dbf43d amdgpu: update VCN 4.0.0 firmware
+c5c71a6b42ef21afc949de8746e62f2a904771c6 amdgpu: update PSP 13.0.0 kicker firmware
+6f3948e1a80f184e49c44603e6c78650f63c6927 amdgpu: update GC 10.3.6 firmware
+40518428a964d429e97feb8581d66840d5e625d8 amdgpu: update PSP 13.0.5 firmware
+bed8b292d1991ee119c57df29919c550801c6ddb amdgpu: update GC 9.4.4 firmware
+bcc17f274d19dd3c8b150ba0e1fea33f00e9a28d amdgpu: update PSP 13.0.14 firmware
+fb7d64e497d116006542cbdcb8049c5c31ddd998 Merge branch 'robot/pr-0-1772039197' into 'main'
+64330a97f0f2785c5ce854d0bd9336050f3c27ca  QCA: Update Bluetooth WCN6856 firmware 2.1.0-00659 to 2.1.0-00665
+87768b59c8787ebe24ec6148f02ce76af49fff69 qca: Update Bluetooth WCN6750 1.1.3-00105 firmware to 1.1.3-00106
+d8e138dd8970ffc9f5f879e2d62938abe6cd3f22 Merge branch 'bt-hsp' into 'main'
+eb48837f8acc0c714dc7da556667b81c479ef4e9 qcom: update ADSP dtb.mbn for glymur platform
+e18ac264a24f1b33a850246b0ff20d1c746c99cf Merge branch 'robot/pr-0-1772553049' into 'main'
+6b986839e4bcd3e9671265bb4bb72bdcdbe98248 qcom: update ADSP, CDSP firmware for sm8750  platform
+0b384d415460bf92d5a793adf04a01f4f96b2bf5 Merge branch 'robot/pr-0-1772553355' into 'main'
+822ba35b15b1adb506320ecfecd55f4696c8d6cf linux-firmware: qcom: sync audioreach firmwares from v1.0.2 build
+f69a5e73c0c0c927a5bea53ce707ef17afae1964 Merge branch 'audioreach-tplg' into 'main'
+f4fccdeaa58ae8eddc6e4987811de3f9d8ccc6ae linux-firmware: add firmware for Lontium LT8713SX DP hub
+4d2b2774ad4415bdb0a987802ea4324c160c1d14 Merge branch 'robot/patch-0-1771956864' into 'main'
+f58642691280c62d91d8612f547c1fbe99533271 qcom: Update CDSP firmware for QCM6490 platform
+7d2b4c758cfd02c2ba1c807f234c0afc308789e5 Merge branch 'robot/pr-0-1772726739' into 'main'
+b251087087e8a2fd8b1b2523a66286048f3626bb QCA: Update Bluetooth QCA6698 firmware to 2.1.2-00069
+1cd97a2f5436ab43d5f02eef66d8e4574ec716fe Merge branch 'robot/pr-0-1772785633' into 'main'
+397e9a13dbb4f74d72a58b48ae83c7313e8cc724 linux-firmware: Add firmware file for Intel BlazarIGfp2 core
+f91e53e4601f2535dd0f1fcb592a7b63ce6433cd Merge branch '24.20.1.5_Rev2' into 'main'
+b9e372cffcb027d2d5f424bd819ced91a41bd683 amdgpu: DMCUB updates for various ASICs
+1462090728e6e1e588ce80b542d476c4e53927b0 Merge branch 'amd-staging' into 'main'
+cf2d1a5748387c2fb73ed567eb12bb574fd35a48 linux-firmware: Remove duplicate fw and Rename Lenovo ISH LNLM firmware files accordingly
+b3929cfcd543c4f388c4930175f442be94bbcf3b Merge branch 'lenovo-fw-rename' into 'main'
+bfebfc16a8b36e8a71bbb62326c44f5528e12736 cirrus: cs35l63: Add firmware for Cirrus CS35L63 for various Dell laptops
+21d670224ad1f8ab2956243c0b381eed40338b45 cirrus: cs42l45: Add CS42L45 SDCA codec firmware for Dell laptops
+127981ff71822df9043c178ae2e5e45b214378b2 Merge branch 'robot/pr-0-1773069539' into 'main'
+e426f99ddbe688eeb29b6e1072ff76d828607d4b linux-firmware: update firmware for MT7922 WiFi device
+6d5c4e499d32e5324950dbecbe70cca8f0bc2c93 mediatek MT7922: update bluetooth firmware to 20260224103448
+c822cbbb14ce5b8ee1f27346220640ac350bbf34 Merge branch 'mt7922' into 'main'
+934a7b3e16b87333002440b4096929abd62dc82f Add LENOVO ISH firmware v5.8.0.7720 for X9-15 2025
+9cd4a79e07541510eeb49764c9e1f68ca4069974 Merge branch 'x9' into 'main'
+a8316dd1ccbc0f1d93fe83674ab1b42eafa05146 qcom: add QUPv3 firmware for QCS615 platform
+15fe0cdea8e4f5ab28ffbc35b53bf87d0504509f Merge branch 'robot/pr-0-1773153673' into 'main'
+237bfc162a3a6a72708d4063bb302a1e2ccbe49a amdgpu: DMCUB updates for various ASICs
+d13cd498318bcf93e4a642cc3bf058c520a71284 Merge branch 'amd-staging' into 'main'
+dab39c0fbe7a769b98675dd1d5d4dd9b1e208b3d intel_vpu: Update NPU firmware
+00f828525181e23e70eb3e59759131b44cf5e693 Merge branch 'update-2026ww08' into 'main'
+3315fba7271df74e6755e41715869b7519717dc4 linux-firmware: Update firmware file for Intel BlazarU core
+cca6520d6620bbd37281eee07d8d0a4c3ecc05f4 linux-firmware: Update firmware file for Intel BlazarU-HrPGfP core
+ed10eae8facb3b4bf2da7104cec95afdf0209114 linux-firmware: Update firmware file for Intel BlazarI core
+179d9acb2171c8e4d298557e07bfb01b15939f22 linux-firmware: Update firmware file for Intel BlazarIGfP core
+4590121e2ecc02935ec26674e63837c46b422310 linux-firmware: Update firmware file for Intel Scorpius core
+c3bc50dc241d7bc56af080eccba6bac8b1145123 linux-firmware: Add firmware file for Intel ScorpiusGfp2 core
+be85c6639a9195edc280e026f9be89673a6fc506 Intel Bluetooth: Update firmware file for Intel Bluetooth AX201
+81608d9216ce1fe954e205aa867655b1a5bce1c5 linux-firmware: Update firmware file for Intel Quasar core
+e745d41c99517394a3f8e47c57c9b7e553a5c7c1 Merge branch 'main' into 'main'
+ced02591a80209ece29604db57ee87126293a3f0 linux-firmware: update firmware for MT7921 WiFi device
+b620027052951a9b851590a3876e189b31bb2d97 Merge branch 'robot/patch-0-1773363692' into 'main'
+87414f9ba8f875cb733281652474bccf93313e2f linux-firmware: update firmware for MT7920 WiFi device
+57303edc4101c1003ec45e91652f281ebd2f41b2 Merge branch 'robot/patch-1-1773363694' into 'main'
+f71ae94fbda284707cfa3dd9f10c2e4d8a745ec6 linux-firmware: Add ISH firmware file for Intel Wildcat Lake platform
+0e46f2d150651086917983ce2a5815722d6ac564 Merge branch 'robot/pr-0-1773711132' into 'main'
+87a7d3c72b1963f4dd8eb8ede919d40036a98ea5 Add LENOVO ISH firmware v5.8.1.7720 for X1 Carbon (Gen 14) and X1 2-in-1 (Gen 11)
+93914a9a8725ab9164a8ac49cccf55b86d4fe138 Merge branch 'x1-2026' into 'main'
+546a25acc8e8a05d48821e3baefdb9fa2cd20730 mediatek MT7920: update bluetooth firmware to 20260224111231
+78029d11e29ab79f72404285e19719b0c0bc9b43 mediatek MT7921: update bluetooth firmware to 20260224111243
+81f761d1b5fd51469d87d1633a959dbff4785f58 Merge branch 'mt792x-bt' into 'main'
+abcbad3cc9588bc6e2f410b5984642c9cd46520b iwlwifi: add Bz/Wh FW for core102-56 release
 
---===============2874416106441320445==--
+--===============8474948194241068410==--
