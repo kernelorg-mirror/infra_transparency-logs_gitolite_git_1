@@ -1,42 +1,29 @@
-Content-Type: multipart/mixed; boundary="===============9222038699866544274=="
+Content-Type: multipart/mixed; boundary="===============6621138460550806382=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next
-Date: Tue, 17 Mar 2026 17:01:05 -0000
-Message-Id: <177376686523.2555612.15389890044778289467@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next-history
+Date: Tue, 17 Mar 2026 17:01:18 -0000
+Message-Id: <177376687881.2555937.11450463548641635479@gitolite.kernel.org>
 
---===============9222038699866544274==
+--===============6621138460550806382==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/next/linux-next
+repo: pub/scm/linux/kernel/git/next/linux-next-history
 user: broonie
 changes:
   - ref: refs/heads/master
     old: 95c541ddfb0815a0ea8477af778bb13bb075079a
     new: 8e5a478b6d6a5bb0a3d52147862b15e4d826af19
     log: revlist-95c541ddfb08-8e5a478b6d6a.txt
-  - ref: refs/heads/stable
-    old: f338e77383789c0cae23ca3d48adcc5e9e137e3c
-    new: 2d1373e4246da3b58e1df058374ed6b101804e07
-    log: |
-         4f6abe9c743eaf9a473b06ebc01bec81163b3343 btrfs: pass 'verbose' parameter to btrfs_relocate_block_group
-         77603ab10429fe713a03345553ca8dbbfb1d91c6 btrfs: don't take device_list_mutex when querying zone info
-         9573a365ff9ff45da9222d3fe63695ce562beb24 btrfs: log new dentries when logging parent dir of a conflicting inode
-         fc1cd1f18c34f91e78362f9629ab9fd43b9dcab9 btrfs: tree-checker: fix misleading root drop_level error message
-         2d1373e4246da3b58e1df058374ed6b101804e07 Merge tag 'for-7.0-rc4-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
-         
-  - ref: refs/tags/next-20251217
-    old: a512be9e8838afec6baa83767e291dfca8657410
-    new: 0000000000000000000000000000000000000000
   - ref: refs/tags/next-20260317
     old: 0000000000000000000000000000000000000000
     new: c3eb0e95c9951fb182d87f6aa6d781d9677a9b64
 
---===============9222038699866544274==
+--===============6621138460550806382==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -879,4 +866,4 @@ c67de2e638afe309776ae31239e866c882213dc5 Merge branch 'next' of https://git.kern
 b4ca21a30d8c9de060385c7cee1bf1b3358a555a Merge branch 'for-next' of https://github.com/hisilicon/linux-hisi.git
 8e5a478b6d6a5bb0a3d52147862b15e4d826af19 Add linux-next specific files for 20260317
 
---===============9222038699866544274==--
+--===============6621138460550806382==--
