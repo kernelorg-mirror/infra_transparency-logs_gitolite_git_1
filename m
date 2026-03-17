@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/liburing
-Date: Tue, 17 Mar 2026 20:52:15 -0000
-Message-Id: <177378073558.2752346.14601327310170777505@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/b4/b4
+Date: Tue, 17 Mar 2026 20:53:08 -0000
+Message-Id: <177378078897.2752866.4667480158266814702@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/liburing
-user: axboe
+repo: pub/scm/utils/b4/b4
+user: mricon
 changes:
-  - ref: refs/heads/master
-    old: 041c20f98eeacefa3932cf42503e430f943a4b21
-    new: 1e9a937e10e892595ad09faeec3e5ee79646135e
-    log: |
-         1e9a937e10e892595ad09faeec3e5ee79646135e test/fdinfo: don't use io_uring_submit() return value for SQPOLL
-         
+  - ref: refs/bugs/4a2fb759cfc2f44cbf9e652089fcce2386dceacf2f3df3fc93445e09cbc6c98d
+    old: 0000000000000000000000000000000000000000
+    new: 41007de77cd643589a2672c3700b6ba32ea8240b
