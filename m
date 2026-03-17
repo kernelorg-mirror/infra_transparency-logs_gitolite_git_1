@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4509502711766901088=="
+Content-Type: multipart/mixed; boundary="===============8181988286638353618=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Tue, 17 Mar 2026 21:36:18 -0000
-Message-Id: <177378337880.2794035.16749674711393738718@gitolite.kernel.org>
+Date: Tue, 17 Mar 2026 21:36:21 -0000
+Message-Id: <177378338140.2794147.10662713165915403575@gitolite.kernel.org>
 
---===============4509502711766901088==
+--===============8181988286638353618==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/10GbE
+  - ref: refs/heads/40GbE
     old: 8f921f61005450589c0bc1a941a5ddde21d9aed9
     new: 8737d7194d6d5947c3d7d8813895b44a25b84477
     log: revlist-8f921f610054-8737d7194d6d.txt
 
---===============4509502711766901088==
+--===============8181988286638353618==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -106,4 +106,4 @@ f45797fe02df3459bb9cef6886fe0cfa3ed273bd net: macb: add support for Microchip pi
 68e8619d221400f094490644dce9d3a4efffb6c5 Merge branch 'initial-support-for-pic64-hpsc-hx-ethernet-endpoint'
 8737d7194d6d5947c3d7d8813895b44a25b84477 net: airoha: select QDMA block according LAN/WAN configuration
 
---===============4509502711766901088==--
+--===============8181988286638353618==--
