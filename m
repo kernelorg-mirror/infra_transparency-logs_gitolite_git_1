@@ -1,28 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/hid/hid
-Date: Tue, 17 Mar 2026 23:01:14 -0000
-Message-Id: <177378847402.2867746.12569202874990489065@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Tue, 17 Mar 2026 23:06:09 -0000
+Message-Id: <177378876995.2871900.7722658671154292885@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/hid/hid
-user: jikos
+repo: pub/scm/linux/kernel/git/netdev/net
+user: kuba
 changes:
-  - ref: refs/heads/for-7.0/upstream-fixes
-    old: e716edafedad4952fe3a4a273d2e039a84e8681a
-    new: 48e91af0cbe942d50ef6257d850accdca1d01378
+  - ref: refs/heads/main
+    old: 069c8f5aebe4d5224cf62acc7d4b3486091c658a
+    new: 64dcbde7f8f870a4f2d9daf24ffb06f9748b5dd3
     log: |
-         d56c9cca2e7f8f0ad91f37abd4e6357c2318b0db HID: Intel-thc-hid: Intel-quicki2c: Add NVL Device IDs
-         48e91af0cbe942d50ef6257d850accdca1d01378 HID: Intel-thc-hid: Intel-quickspi: Add NVL Device IDs
-         
-  - ref: refs/heads/for-next
-    old: b94723de4a2aea3a625a3444d4f48d22e9274fad
-    new: 90f3c8ce48f4a268970499dfa5b084deb5672c7d
-    log: |
-         d56c9cca2e7f8f0ad91f37abd4e6357c2318b0db HID: Intel-thc-hid: Intel-quicki2c: Add NVL Device IDs
-         48e91af0cbe942d50ef6257d850accdca1d01378 HID: Intel-thc-hid: Intel-quickspi: Add NVL Device IDs
-         90f3c8ce48f4a268970499dfa5b084deb5672c7d Merge branch 'for-7.0/upstream-fixes' into for-next
+         64dcbde7f8f870a4f2d9daf24ffb06f9748b5dd3 bnxt_en: fix OOB access in DBG_BUF_PRODUCER async event handler
          
