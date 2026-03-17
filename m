@@ -1,46 +1,24 @@
-Content-Type: multipart/mixed; boundary="===============4996890252946411331=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-Date: Tue, 17 Mar 2026 13:02:42 -0000
-Message-Id: <177375256209.2345719.15369617631393134852@gitolite.kernel.org>
-
---===============4996890252946411331==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/wsa/linux
+Date: Tue, 17 Mar 2026 13:02:51 -0000
+Message-Id: <177375257133.2345950.10267400492088741892@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-user: ij
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/wsa/linux
+user: wsa
 changes:
-  - ref: refs/heads/review-ilpo-fixes
-    old: 3dd92e37adc7052ba67926438012fe6f4a71ff37
-    new: 58a1bf172388b07a6fa2bd35c27d6cd68bcc3905
+  - ref: refs/heads/renesas/x5h/mfis-single-driver
+    old: 81ae4650e0d2c2da5386b50c34b5986f75b0e327
+    new: 1f1e134bb8776170189b64f4266b913003750afe
     log: |
-         58a1bf172388b07a6fa2bd35c27d6cd68bcc3905 platform/x86: intel-hid: disable wakeup_mode during hibernation
+         418e68b53a53f8974e8c2e7e1b351a86585523dc dt-bindings: soc: renesas: add MFIS binding documentation
+         d05c77fa6bd21d51eb36c79ab0221d3f937e872e soc: renesas: Add Renesas R-Car MFIS driver
+         b7de84be82548d1cc12dbfb12ff2b43bc51b35f8 soc: renesas: add X5H PRR support
+         b928bc028c09abf7d6cfc7d5cd9ab80670d91740 arm64: renesas: r8a78000: enable to use MFIS/MFIS-SCP
+         ad2933d16be6b51f854fd4b5f59c24d3c72628f7 arm64: renesas: r8a78000-ironhide: enable to use SCMI
+         1f1e134bb8776170189b64f4266b913003750afe TEST: DTS additions for mailbox-test
          
-
---===============4996890252946411331==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1773752559 +0200
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86.git
-nonce 1773752558-b7bbc06b76aca86ae319c49296eaecda6551ba28
-
-3dd92e37adc7052ba67926438012fe6f4a71ff37 58a1bf172388b07a6fa2bd35c27d6cd68bcc3905 refs/heads/review-ilpo-fixes
------BEGIN PGP SIGNATURE-----
-
-iHUEABYIAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCablQ8QAKCRBZrE9hU+XO
-MUdmAQDgfr7gyGbXELtENqfoGSaVHGmrI2+Dddk9eUY2IPyMXwD/U2jtKW1Ar074
-zjJbMjV0p/NHckpOTPzL//16dAqNUAg=
-=JCQ5
------END PGP SIGNATURE-----
-
---===============4996890252946411331==--
