@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1570378855238800528=="
+Content-Type: multipart/mixed; boundary="===============0975611980788077117=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/driver-core/driver-core
-Date: Tue, 17 Mar 2026 19:27:44 -0000
-Message-Id: <177377566444.2680091.689016448821074827@gitolite.kernel.org>
+Date: Tue, 17 Mar 2026 19:29:14 -0000
+Message-Id: <177377575483.2680785.907318920708641107@gitolite.kernel.org>
 
---===============1570378855238800528==
+--===============0975611980788077117==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/driver-core/driver-core
 user: dakr
 changes:
-  - ref: refs/heads/main
-    old: 1f318b96cc84d7c2ab792fcc0bfd42a7ca890681
-    new: f338e77383789c0cae23ca3d48adcc5e9e137e3c
-    log: revlist-1f318b96cc84-f338e7738378.txt
+  - ref: refs/heads/driver-core-next
+    old: dc33ae50d32b509af5ae61030912fa20c79ef112
+    new: de25dc008ea74bc6f33b8d6e773e51a920813fdc
+    log: revlist-dc33ae50d32b-de25dc008ea7.txt
 
---===============1570378855238800528==
+--===============0975611980788077117==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1f318b96cc84-f338e7738378.txt
+Content-Disposition: attachment; filename=revlist-dc33ae50d32b-de25dc008ea7.txt
 
 da142f3d373a6ddaca0119615a8db2175ddc4121 KVM: Remove subtle "struct kvm_stats_desc" pseudo-overlay
 c9f3a593137d862d424130343e77d4b5260a4f5a iio: imu: inv_icm42600: fix odr switch to the same value
@@ -570,5 +570,21 @@ be2e3750ce0ce1b9ba77b521fee7f3e9166e64e9 Merge tag 'irq-urgent-2026-03-15' of gi
 d9bf296c398d093f9641568411dee16285302113 Merge tag 'probes-fixes-v7.0-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
 5c2fe8d11ae05411566f9d69321375ea686603d4 Merge tag 'scsi-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
 f338e77383789c0cae23ca3d48adcc5e9e137e3c Linux 7.0-rc4
+e2d599021c843d97ee38ba351cb0117eb984e038 rust: io: turn IoCapable into a functional trait
+19103d4f93673c804ef82dd797cd2b935d0bf70f rust: io: mem: use non-relaxed I/O ops in examples
+1d1c5c73d7e8f166b6b55ae06a3c509561b854cd rust: io: provide Mmio relaxed ops through a wrapper type
+e385eb0d1c2c4d2dbc48d1bcbc44fd43cbb154a4 rust: io: remove legacy relaxed accessors of Mmio
+50aad5510fbbf8dd8f5f63380e1a1e7ae73216c4 rust: pci: io: remove overloaded Io methods of ConfigSpace
+6291ee23da4224a7584ece2d292104e872b9b5fc rust: io: remove overloaded Io methods of Mmio
+3cc319d5f433a4d560cc944ecfb1fe50b866cd66 rust: enable the `generic_arg_infer` feature
+c59a2d14cd248c77457b821b15c72e6a6a268553 rust: num: add `shr` and `shl` methods to `Bounded`
+164f8634bfd8eef7b90c429156c59706635cfb88 rust: num: add `into_bool` method to `Bounded`
+7836ec76ec5cd8d45759a6a360b1fda4829d2734 rust: num: make Bounded::get const
+498823541be1e2d9f947b37a10cc98e681da9828 rust: io: add IoLoc type and generic I/O accessors
+147b41ba23d63f43ed34e6940417a5506e323370 rust: io: use generic read/write accessors for primitive accesses
+20ba6a1dbcb957152f6d858015b3a3311dd6da49 rust: io: add `register!` macro
+9a52a8f5ed97d47c9641248874f4c6a78e136d97 rust: io: introduce `write_reg` and `LocatedRegister`
+79cf41692aadc3d0ac9b1d8e2c2f620ce2103918 sample: rust: pci: use `register!` macro
+de25dc008ea74bc6f33b8d6e773e51a920813fdc Merge tag 'rust_io-7.1-rc1' into driver-core-next
 
---===============1570378855238800528==--
+--===============0975611980788077117==--
