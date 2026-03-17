@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5591794417865280603=="
+Content-Type: multipart/mixed; boundary="===============1640390529971525961=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Tue, 17 Mar 2026 00:17:38 -0000
-Message-Id: <177370665870.1727063.17375077298396957768@gitolite.kernel.org>
+Date: Tue, 17 Mar 2026 00:17:40 -0000
+Message-Id: <177370666057.1727205.1145840873824226375@gitolite.kernel.org>
 
---===============5591794417865280603==
+--===============1640390529971525961==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/mm-new
-    old: c5a81ff6071bcf42531426e6336b5cc424df6e3d
-    new: 83fa7f8b7b4e311b270bab1351038fdc55fde490
-    log: revlist-c5a81ff6071b-83fa7f8b7b4e.txt
+  - ref: refs/heads/mm-unstable
+    old: 3f4f1faa33544d0bd724e32980b6f211c3a9bc7b
+    new: baa6ff8ea1ff11af9ffb8074f508b911f4bc872d
+    log: revlist-3f4f1faa3354-baa6ff8ea1ff.txt
 
---===============5591794417865280603==
+--===============1640390529971525961==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c5a81ff6071b-83fa7f8b7b4e.txt
+Content-Disposition: attachment; filename=revlist-3f4f1faa3354-baa6ff8ea1ff.txt
 
 2eed3b857bc9b25dc7bd34a24770a99d90d025a6 riscv: avoid early page_to_phys()
 28c6616bdee88c17bb9c28a870c5d9e472b8321b mailmap: update email address for Muhammad Usama Anjum
@@ -391,47 +391,5 @@ bf2124710a6b3328fe602cfa978be6af53d49908 mm/khugepaged: define KHUGEPAGED_MAX_PT
 57320f3976b3c104f94695ae0f50dd62119d66de mm/khugepaged: unify khugepaged and madv_collapse with collapse_single_pmd()
 97ce5ab4b1cce13d59e5964c231f1404109b6e4f zram: optimize LZ4 dictionary compression performance
 baa6ff8ea1ff11af9ffb8074f508b911f4bc872d zram: propagate read_from_bdev_async() errors
-e8146881db2d3d921bf900378ca47640ab8085cf mm: zswap: tie per-CPU acomp_ctx lifetime to the pool
-3e2ef13a187c4bd9a0f7c3b9790031631c784a59 mm: zswap: consistently use IS_ERR_OR_NULL() to check acomp_ctx resources
-d8f5cbf4ff1c4204688234232760aae9d08e19ba mm/vma: add vma_flags_empty(), vma_flags_and(), vma_flags_diff_pair()
-f6058ebddb5fe104bf77287ae28f1f2e941f26c2 tools/testing/vma: add unit tests flag empty, diff_pair, and[_mask]
-843cffc56bc1337940e3c4af51f06a0232108e95 mm/vma: add further vma_flags_t unions
-04a564a9fcafc9ab90f2439d2a9bcb1cee8c4199 tools/testing/vma: convert bulk of test code to vma_flags_t
-775a271cc18e179ae69f208b8443bb0b60810028 mm/vma: use new VMA flags for sticky flags logic
-c241e0acfb459ad3094653ab65c05556c1a9439c tools/testing/vma: fix VMA flag tests
-9e78b0d06d149078f50b351cfe25b9465783f252 mm/vma: add append_vma_flags() helper
-b53a58917d5c16abfea1b8fd67d5f9ea27634228 tools/testing/vma: add simple test for append_vma_flags()
-aa2d88714067fb0d556c53029968f3f2061de3da mm: unexport vm_brk_flags() and eliminate vm_flags parameter
-1a9fe8cdb2b185073fc2f3fe1a153d25c177748c mm/vma: introduce vma_flags_same[_mask/_pair]()
-08fedd3b220e8b6b70abee989b32fd25e139fa50 mm/vma: introduce [vma_flags,legacy]_to_[legacy,vma_flags]() helpers
-9af69c5a506a59ed24497f0de9d92ad8a604e0bd tools/testing/vma: test that legacy flag helpers work correctly
-078dd9b10bdd893bb471871660f57a72bc5ee41d mm/vma: introduce vma_test[_any[_mask]](), and make inlining consistent
-6c2dbe264eafbbe372211aa0b965701fae30b48e tools/testing/vma: update VMA flag tests to test vma_test[_any_mask]()
-7e013dc02a236fefa8cb7f661cb00e3a779bb949 mm: introduce vma_flags_count() and vma[_flags]_test_single_mask()
-7bcb1cf314eae68e73c17e60f03e06e0981511df tools/testing/vma: test vma_flags_count,vma[_flags]_test_single_mask
-e5d2df7767888b42e5d3b17236f5f604c75f58a8 mm: convert do_brk_flags() to use vma_flags_t
-cb9ed2a8953a98274a997de0e06de77c01a51301 mm: update vma_supports_mlock() to use new VMA flags
-2c488434f1bee834767f7782a47b0090ee9712d8 mm/vma: introduce vma_clear_flags[_mask]()
-c5c6ff19ccceca46744461f3afd86a03daff0135 tools/testing/vma: update VMA tests to test vma_clear_flags[_mask]()
-0c98a8cb13e6205449d0561eb0af7b9d6ff947fc mm/vma: convert as much as we can in mm/vma.c to vma_flags_t
-fe94e86be734450001632087d93d53278ca2592c mm/vma: convert vma_modify_flags[_uffd]() to use vma_flags_t
-9061573225c99d8bef2c9dcfb9e8edbfec10bc89 mm/vma: convert __mmap_region() to use vma_flags_t
-03075da4e491e695e6e34eb27d35b76d81bc3928 Docs/mm/damon: document exclusivity of special-purpose modules
-db7032c87e2466eb763a60d495b6ebcfecea22f4 mm: various small mmap_prepare cleanups
-7251d3a62ee5b41f7662b84b3bb559387c7cec94 mm: add documentation for the mmap_prepare file operation callback
-431a1bba87729d3f0cb25990822d61d18f3ddb11 mm: document vm_operations_struct->open the same as close()
-520d7862580568836506d43dfaa9b69db7c9bdd9 mm: add vm_ops->mapped hook
-adc8ba661839f1700f6e00c479ee941efbf1a249 fs: afs: correctly drop reference count on mapping failure
-466578d528dc3e14f1653f534a7510c566edb225 mm: add mmap_action_simple_ioremap()
-5ec29474b93f388e5e35942a5709fd73a3716de7 misc: open-dice: replace deprecated mmap hook with mmap_prepare
-d238f60d17e4913316d73516e7bab6d4d1b06602 hpet: replace deprecated mmap hook with mmap_prepare
-47dc103adb6731a7a9f9488df1a78f18133b7e91 mtdchar: replace deprecated mmap hook with mmap_prepare, clean up
-1f1d2fe9836a90e8a2753b9ee57128a7d386cf0c stm: replace deprecated mmap hook with mmap_prepare
-88029f6ab58e26f92049801c8b6ea142b7b52c24 staging: vme_user: replace deprecated mmap hook with mmap_prepare
-04869eb021e5398dc1e978cc9ccee4e63607689a mm: allow handling of stacked mmap_prepare hooks in more drivers
-7cc236153683d0e9cdd90b6ae6550e90b6cfd7e8 drivers: hv: vmbus: replace deprecated mmap hook with mmap_prepare
-379c1e1ebf015a952688e81bb4c775c7c41c84ce uio: replace deprecated mmap hook with mmap_prepare in uio_info
-ed040af090c0831a0b461094d9feb3069a6081d1 mm: add mmap_action_map_kernel_pages[_full]()
-83fa7f8b7b4e311b270bab1351038fdc55fde490 mm: on remap assert that input range within the proposed VMA
 
---===============5591794417865280603==--
+--===============1640390529971525961==--
