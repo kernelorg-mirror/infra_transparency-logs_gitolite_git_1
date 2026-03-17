@@ -1,21 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Tue, 17 Mar 2026 15:08:05 -0000
-Message-Id: <177376008571.2454179.11913233669404546728@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/docs/linux
+Date: Tue, 17 Mar 2026 15:11:30 -0000
+Message-Id: <177376029075.2458036.16490266781903634655@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: ast
+repo: pub/scm/linux/kernel/git/docs/linux
+user: corbet
 changes:
-  - ref: refs/heads/for-next
-    old: 6c8e1a9eee0fec802b542dadf768c30c2a183b3c
-    new: 2364959abecb052d7b798ae51d0626edec8b9288
+  - ref: refs/heads/docs-mw
+    old: 73f175a46330c57ab5797287233cbf83a36b6a99
+    new: 98e7b5752898f74788098bef51f53205e365ab9d
     log: |
-         c73a24436698ade1b6a0742e8bcfa04c9ef8fad9 bpftool: Allow explicitly skip llvm, libbfd and libcrypto dependencies
-         7e2f40ef0a75f5fac3fbe8ab192c15ca6523e0f4 selftests/bpf: Bump path and command buffer sizes in bpftool_helpers.c
-         2364959abecb052d7b798ae51d0626edec8b9288 libbpf: Start v1.8 development cycle
+         5e6df46dffb32342c4be6deb6f897363f207bf05 Documentation/mm/hwpoison.rst: fix typos and grammar.
+         04c612f6d7641dc563e8aac95649be6c888ba7db Documentation: printk: Add section about avoiding lockups
+         d0eab64faf0c3b5a354a4ff1eff1b86808014559 docs: memory-hotplug: fix typo 'fo' -> 'for' in NODE_ADDED_FIRST_MEMORY description
+         9b4e099c221cd118b9dbe720586c1f1c71666d09 jobserver: Fix typo in docstring
+         6f600f9972d56a5d67fcb8d49b33dda80adff457 docs: interconnect: Add provider APIs to documentation
+         97b5266dac802feb34ae45936b73596a7e27d41b docs: interconnect: Document consumer APIs and drop outdated text
+         c991b7ef2fb658c186df56d16b3ebcd0afb555cc docs: pt_BR: add netdev and maintainer handbook translations
+         98e7b5752898f74788098bef51f53205e365ab9d scripts: ver_linux: expand and fix list
          
