@@ -1,51 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============9144061007766880751=="
+Content-Type: multipart/mixed; boundary="===============6266870114860053150=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Tue, 17 Mar 2026 11:48:44 -0000
-Message-Id: <177374812460.2279201.15792521725239861241@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Tue, 17 Mar 2026 11:48:48 -0000
+Message-Id: <177374812819.2279416.10763089701360056371@gitolite.kernel.org>
 
---===============9144061007766880751==
+--===============6266870114860053150==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-7.1
+  - ref: refs/heads/spi-7.1
     old: 8abf84f76a546c320c788cd7a8c5e3abea9b2b38
     new: 29a80e6c3a38f0c533b5a17ae6862886d6322510
     log: revlist-8abf84f76a54-29a80e6c3a38.txt
 
---===============9144061007766880751==
+--===============6266870114860053150==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1773748122 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
-nonce 1773748122-3ec70ffe3ded63428e6cecc338fd20b42105d805
+pusher C3F436CA30F5D8EB 1773748126 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1773748125-e38335bbac87b46c559fd0d6d990370459068152
 
-8abf84f76a546c320c788cd7a8c5e3abea9b2b38 29a80e6c3a38f0c533b5a17ae6862886d6322510 refs/heads/for-7.1
+8abf84f76a546c320c788cd7a8c5e3abea9b2b38 29a80e6c3a38f0c533b5a17ae6862886d6322510 refs/heads/spi-7.1
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmm5P5oACgkQJNaLcl1U
-h9Bklwf/cyrWXaT+3gDNM0EYQyjXuw9UtpTYal8DNEDPfl7BwW9mi2671hb9QvZw
-UxFSpkwj5I5TdQFXjWniSHx7zQXmt3s6PC82t3/hY5PaNVgO8dqvvR0DsCIIaWC8
-jF4xGHgdryoJ2qFiKR8mOKblakCKKc+yABIyQwitkVVNsLTFeI09keyt9Iz0LdJn
-GEeVkXbTbNkSTIZ5TPqx7qkwKG+d+XZ8pmVXbg+Xh5CKOFs1sDruFHjfb5LENkaM
-Y1BZtGubQA2g96eubB1LDmqXJQ8aIBipuntoH+mZWlHG49uuEGRln14QZCEi3SGS
-rnoQTMXN/XrelqvdjPFvYbuewByujQ==
-=qNZL
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmm5P54ACgkQJNaLcl1U
+h9AH9gf+Jm+hmsn8IvgiStpDeaTZmNO+nqatXEFMCJJgoNtkjyOIzWs/93fFI0nx
+klZdtOItKNpJIutvwSnDjlJqJTdsNplW7N53lOjGo74MhPBpcJEKwhp84r3KQpwG
+E8gsHo02T4HXT9JKeR32xLi8xufKg/ys0CiUPSbaamlePbf8Fs7gWXmNf/bqVCnJ
+08hlP/nxj3AbKi7wVFCAfaC85lvNW0ReprBG6s0c74qV/YeTJD4kn6qyxqIqHfxT
+qbdlrWMcCQQROgRtswa0JbUjWeDUccDdMJQwvhUNnrFKawWsl6JEJHUqHAm0vAl3
+92dBeLmYCf7KCjApStM4sfmq9hOrIQ==
+=EGwQ
 -----END PGP SIGNATURE-----
 
---===============9144061007766880751==
+--===============6266870114860053150==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1076,4 +1076,4 @@ edc463d72d697ff22da8ba96c0fcb25f3586d9a2 spi: fix misleading controller registra
 3f174274d2249342df00d43fdef25511c3d3565a spi: fix misleading controller deregistration kernel-doc
 29a80e6c3a38f0c533b5a17ae6862886d6322510 spi: controller registration fixes
 
---===============9144061007766880751==--
+--===============6266870114860053150==--
