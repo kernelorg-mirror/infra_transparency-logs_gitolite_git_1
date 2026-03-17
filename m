@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gustavoars/linux
-Date: Tue, 17 Mar 2026 03:17:56 -0000
-Message-Id: <177371747648.1875898.17561852659180721733@gitolite.kernel.org>
+Date: Tue, 17 Mar 2026 03:32:22 -0000
+Message-Id: <177371834256.1887276.4544946239819749723@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,16 +12,16 @@ repo: pub/scm/linux/kernel/git/gustavoars/linux
 user: gustavoars
 changes:
   - ref: refs/heads/testing/wfamnae-next20260309
-    old: 400e2ae7dda97c38359110867045b899d5746578
-    new: aa5215516e1657835063093d99fdba2123922c90
+    old: aa5215516e1657835063093d99fdba2123922c90
+    new: 8e7e76b85398676bb297253382f9c7652414af8f
     log: |
-         e1246995d5c87f8e37b3d7b28d535c6facdababe bcachefs: Avoid dozens of -Wflex-array-member-not-at-end warnings
-         ed6e26708e302fbff357cf5bd57a9542ae8a8822 crypto: img-hash - Avoid -Wflex-array-member-not-at-end warning
-         b975c39fa0f37fc153aa875bfd5195890207f5e2 mm/mmu_gather: avoid dozens of -Wflex-array-member-not-at-end warnings
-         f21f5fa13b26278fb6e54dd6f8cf700136a7eb10 smb: Avoid dozens of -Wflex-array-member-not-at-end warnings
-         e4d6e3dcdcfbc8633e0bb99a084bee299a83adf2 net: nfc: Avoid a couple dozen -Wflex-array-member-not-at-end warnings
-         9534b7e3d6a247b36fea7faf11112f6ee03a49be drm/radeon/ni_dpm: Avoid multiple -Wflex-array-member-not-at-end warnings
-         4a069550fb028c735e2303a0f77ac91c4949d88e drm/radeon/si_dpm: Avoid -Wflex-array-member-not-at-end warnings
-         5f9727ed361ab5cd883366a6778e11a532aba87f iw_cxgb4: Avoid -Wflex-array-member-not-at-end warnings
-         aa5215516e1657835063093d99fdba2123922c90 netfilter: Avoid a couple -Wflex-array-member-not-at-end warnings
+         50b34f872ed5a1f7ea4250b5d2b61b1df3caa8e2 bcachefs: Avoid dozens of -Wflex-array-member-not-at-end warnings
+         f4e5477b04a0ba66d4aae08f38b017e2a249f287 crypto: img-hash - Avoid -Wflex-array-member-not-at-end warning
+         a7787601d81feb0864c2291977abee6c3ed46574 mm/mmu_gather: avoid dozens of -Wflex-array-member-not-at-end warnings
+         9e283cfbc512f42e75d3ed02ceff7dff14f13e82 smb: Avoid dozens of -Wflex-array-member-not-at-end warnings
+         ac930f48a15b972dcf988457d75c4cf2dc7d7ec4 net: nfc: Avoid a couple dozen -Wflex-array-member-not-at-end warnings
+         57683259571102d5954fd19f304217b52a6fbd8f drm/radeon/ni_dpm: Avoid multiple -Wflex-array-member-not-at-end warnings
+         8aaeda4d19308ac600ae95973d5ae183c80e029a drm/radeon/si_dpm: Avoid -Wflex-array-member-not-at-end warnings
+         e2d17e1e577b95fb16f25d02e2f1cf7d6d51f218 iw_cxgb4: Avoid -Wflex-array-member-not-at-end warnings
+         8e7e76b85398676bb297253382f9c7652414af8f netfilter: Avoid a couple -Wflex-array-member-not-at-end warnings
          
