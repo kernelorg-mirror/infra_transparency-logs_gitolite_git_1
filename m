@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/klassert/ipsec
-Date: Tue, 17 Mar 2026 10:49:35 -0000
-Message-Id: <177374457585.2228475.12844573170567635506@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/djakov/icc
+Date: Tue, 17 Mar 2026 10:56:15 -0000
+Message-Id: <177374497576.2235393.3531981197675521362@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/klassert/ipsec
-user: klassert
+repo: pub/scm/linux/kernel/git/djakov/icc
+user: djakov
 changes:
-  - ref: refs/heads/testing
-    old: eb2d16a7d599dc9d4df391b5e660df9949963786
-    new: d849a2f7309fc0616e79d13b008b0a47e0458b6e
-    log: |
-         d849a2f7309fc0616e79d13b008b0a47e0458b6e xfrm: iptfs: only publish mode_data after clone setup
-         
+  - ref: refs/heads/icc-qcs615
+    old: 0000000000000000000000000000000000000000
+    new: e07f3b8c9e1cc6aa5b48d63cf8270409ffe76068
