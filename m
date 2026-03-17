@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Tue, 17 Mar 2026 17:10:04 -0000
-Message-Id: <177376740442.2564533.1621601202210273146@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs
+Date: Tue, 17 Mar 2026 17:11:43 -0000
+Message-Id: <177376750311.2565941.6376988482600441932@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/xiang/erofs
+user: xiang
 changes:
-  - ref: refs/heads/spi-7.0
-    old: dee0774bbb2abb172e9069ce5ffef579b12b3ae9
-    new: 8c89a077ca796a2fe248c584e9d7e66cff0388c8
+  - ref: refs/heads/dev-test
+    old: e2147eccab5524e6e5c41c48a01f69c94a30eef6
+    new: 993eac5046fbb3c154f14b11099303e16879f0d0
     log: |
-         8c89a077ca796a2fe248c584e9d7e66cff0388c8 spi: geni-qcom: Check DMA interrupts early in ISR
+         993eac5046fbb3c154f14b11099303e16879f0d0 erofs: harden h_shared_count in erofs_init_inode_xattrs()
          
