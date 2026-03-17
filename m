@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7363015702058799280=="
+Content-Type: multipart/mixed; boundary="===============0482670018911377201=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Tue, 17 Mar 2026 20:23:26 -0000
-Message-Id: <177377900681.2726144.4297829517648488266@gitolite.kernel.org>
+Date: Tue, 17 Mar 2026 20:27:22 -0000
+Message-Id: <177377924257.2729787.12774800972176340101@gitolite.kernel.org>
 
---===============7363015702058799280==
+--===============0482670018911377201==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/dev-queue
-    old: 85e2937d03d30c966933cb4d0348fc97c670c449
-    new: bb20c1cb2ade4c072acc1e10afaf06994466a8bc
-    log: revlist-85e2937d03d3-bb20c1cb2ade.txt
+  - ref: refs/heads/10GbE
+    old: 99600f79b28c83c68bae199a3d8e95049a758308
+    new: 069c8f5aebe4d5224cf62acc7d4b3486091c658a
+    log: revlist-99600f79b28c-069c8f5aebe4.txt
 
---===============7363015702058799280==
+--===============0482670018911377201==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-85e2937d03d3-bb20c1cb2ade.txt
+Content-Disposition: attachment; filename=revlist-99600f79b28c-069c8f5aebe4.txt
 
 e1d9a66889867c232657a9b6f25d451d7c3ab96f Bluetooth: LE L2CAP: Disconnect if received packet's SDU exceeds IMTU
 b6a2bf43aa37670432843bc73ae2a6288ba4d6f8 Bluetooth: LE L2CAP: Disconnect if sum of payload sizes exceed SDU
@@ -68,30 +68,5 @@ b9ba668296ffd6143b01b0545a52bcda44f94837 Merge branch 'net-usb-cdc_ncm-add-ndpof
 e4c00ba7274b613e3ab19e27eb009f0ec2e28379 tg3: replace placeholder MAC address with device property
 a0671125d4f55e1e98d9bde8a0b671941987e208 clsact: Fix use-after-free in init/destroy rollback asymmetry
 069c8f5aebe4d5224cf62acc7d4b3486091c658a net: usb: aqc111: Do not perform PM inside suspend callback
-f346049d248c5f7789fdef0e1656639c8132d92d ice: fix fwlog after driver reinit
-8f815268fe3d04c137b7bd147c5d4deaac9696e2 ice: Fix enable_cnt imbalance on resume
-ef57962e3b9ba38384cbee3c0b8ddaeb39274f0c ice: Fix enable_cnt imbalance on PCIe error recovery
-b9cea87cd81ab9c48490a00ffbc40b322ffe227a i40e: Fix enable_cnt imbalance on PCIe error recovery
-1a2980a31f9cbefe6b1c48fd0ab0b0d0bb405a5b ice: fix 'adjust' timer programming for E830 devices
-f811506e6ebb8c1465c98be34308d3f65ba685e8 ice: fix setting RSS VSI hash for E830
-fe933eafad2a4cd120041537e05320055d85e68f ice: ptp: don't WARN when controlling PF is unavailable
-8b5df77be9f850c9bba43c75a4ba2ec4824ab7bb ice: fix race condition in TX timestamp ring cleanup
-a41f8feb41ad5514447cc6ee804c1122f1f24365 ice: dpll: fix rclk pin state get and misplaced header macros
-939d394cf15824b66074e5882e40146ca448e77a libie: prevent memleak in fwlog code
-abcf5ae996c1a065cced23f7213bf6a479da826e ice: fix inverted ready check for VF representors
-13f7a990986cb0e56570852884a6b65d3550d3ef ice: use ice_update_eth_stats() for representor stats
-57585b6d7f2bf0e537cb031cad198649742aa35a iavf: fix out-of-bounds writes in iavf_get_ethtool_stats()
-5e46d4559d5c893bc137b4387df881b6b1269954 igc: fix missing update of skb->tail in igc_xmit_frame()
-845743da1e88c5cd2d7e78c3a67edf98ad1ac58c ice: update PCS latency settings for E825 10G/25Gb modes
-1fbda78ac1e190399db9af31497c9763eae42737 ice: fix missing dpll notification for SW pins
-a21017ef784e47ad6c6cbeda18a6e669af67897a ice: fix potential NULL pointer deref in error path of ice_set_ringparam()
-f70331a3f828b563f03c10a75165b67ec4b2701e ice: set max queues in alloc_etherdev_mqs()
-87076209929e9eddc69b81096c53bdc7b467ad48 ice: fix missing SMA pin initialization in DPLL subsystem
-afb353dbbb3178b816cfc9f81df2fbd001236011 igc: fix page fault in XDP TX timestamps handling
-08dd58a7dc96fac995e183cd8599dba94b8916b6 iavf: fix VLAN filter lost on add/delete race
-1d4043c5908df55702d3f82768ab0f6a7c87f754 idpf: clear stale cdev_info ptr
-d732e50bcdc907c6b1c56f313ff5c87c9d85f115 ixgbe: stop re-reading flash on every get_drvinfo for e610
-82984e56ad8f7de465891e68b5971be22c91e71f ice: fix double-free of tx_buf skb
-bb20c1cb2ade4c072acc1e10afaf06994466a8bc idpf: only assign num refillqs if allocation was successful
 
---===============7363015702058799280==--
+--===============0482670018911377201==--
