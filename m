@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kvmarm/kvmarm
-Date: Tue, 17 Mar 2026 13:44:54 -0000
-Message-Id: <177375509409.2381360.10016962625052328559@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/liburing
+Date: Tue, 17 Mar 2026 14:00:13 -0000
+Message-Id: <177375601341.2395447.15748701343357081974@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kvmarm/kvmarm
-user: maz
+repo: pub/scm/linux/kernel/git/axboe/liburing
+user: axboe
 changes:
-  - ref: refs/heads/fixes
-    old: 1744a6ef48b9a48f017e3e1a0d05de0a6978396e
-    new: 0496acc42fb51eee040b5170cec05cec41385540
+  - ref: refs/heads/master
+    old: 560fac7b7625c120876b1840f6d8e79048c04b72
+    new: 0b0f0fcc9d19c872b0bf96a77cc0f2fb4eeba44a
     log: |
-         0496acc42fb51eee040b5170cec05cec41385540 KVM: arm64: Fix the descriptor address in __kvm_at_swap_desc()
+         0b0f0fcc9d19c872b0bf96a77cc0f2fb4eeba44a test/mshot-shutdown-race: abort if stalled for >= 1 second
          
