@@ -1,21 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Tue, 17 Mar 2026 19:01:16 -0000
-Message-Id: <177377407671.2657903.13844335151903622268@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
+Date: Tue, 17 Mar 2026 19:03:50 -0000
+Message-Id: <177377423052.2659015.16891915369811677222@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rdma/rdma
-user: leon
+repo: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
+user: vudentz
 changes:
-  - ref: refs/heads/for-rc
-    old: ef3b06742c8a201d0e83edc9a33a89a4fe3009f8
-    new: 0f2055db7b630559870afb40fc84490816ab8ec5
+  - ref: refs/heads/master
+    old: 506c02824131311302c6926f58f2dd9ef9f8e02d
+    new: 3c2dbfa16ca670c0cc7bc6820a32270c1c537db4
     log: |
-         00da250c21b074ea9494c375d0117b69e5b1d0a4 RDMA/rw: Fall back to direct SGE on MR pool exhaustion
-         f28599f3969d1d928276772f1306872344c967f0 RDMA/rw: Fix MR pool exhaustion in bvec RDMA READ path
-         0f2055db7b630559870afb40fc84490816ab8ec5 RDMA/efa: Fix possible deadlock
+         013598897448bbdaef9b72f9aac81bd9743d847c Bluetooth: L2CAP: Fix printing wrong information if SDU length exceeds MTU
+         3c2dbfa16ca670c0cc7bc6820a32270c1c537db4 Bluetooth: MGMT: Fix dangling pointer on mgmt_add_adv_patterns_monitor_complete
          
