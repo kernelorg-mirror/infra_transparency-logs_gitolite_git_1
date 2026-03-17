@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/paulmck/perfbook
-Date: Tue, 17 Mar 2026 16:17:54 -0000
-Message-Id: <177376427489.2517746.873478220339654985@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ebiggers/linux
+Date: Tue, 17 Mar 2026 16:28:22 -0000
+Message-Id: <177376490269.2526368.8842685502795922625@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/paulmck/perfbook
-user: paulmck
+repo: pub/scm/linux/kernel/git/ebiggers/linux
+user: ebiggers
 changes:
-  - ref: refs/heads/paulmck.2026.03.16a
-    old: 0000000000000000000000000000000000000000
-    new: d64549469b75c355295ca4da044d34f603ad8bd4
+  - ref: refs/heads/libcrypto-fixes
+    old: d4a32ea6b26e17fa155c8018c5321c674139f568
+    new: d5b66179b0e27c14a9033c4356937506577485e3
+    log: |
+         d5b66179b0e27c14a9033c4356937506577485e3 lib/crypto: powerpc: Add powerpc/aesp8-ppc.S to clean-files
+         
