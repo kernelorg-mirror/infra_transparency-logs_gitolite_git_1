@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Tue, 17 Mar 2026 10:05:26 -0000
-Message-Id: <177374192685.2192990.11694507674005156024@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mani/mhi
+Date: Tue, 17 Mar 2026 10:05:48 -0000
+Message-Id: <177374194852.2193532.12838147839008485109@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: tglx
+repo: pub/scm/linux/kernel/git/mani/mhi
+user: mani
 changes:
-  - ref: refs/heads/irq/core
-    old: 5a8103a6fb0ae9cf99c0271b17474468d6bae2b2
-    new: 56c167a0c0fa24aa6eb14c4e81cc4bad1048d651
+  - ref: refs/heads/mhi-next
+    old: d932dfe5b0abe8b1bbde4a6402afab390425a932
+    new: f2d1643ddc0f3d0b847a6877ec37f1fabacfbfed
     log: |
-         56c167a0c0fa24aa6eb14c4e81cc4bad1048d651 genirq/matrix, LoongArch: Delete IRQ_MATRIX_BITS leftovers
+         37a23d6f11938cd59927e3307b9b301624df8e8f bus: mhi: host: Use kzalloc_flex
+         f2d1643ddc0f3d0b847a6877ec37f1fabacfbfed bus: mhi: ep: Test for non-zero return value where applicable
          
