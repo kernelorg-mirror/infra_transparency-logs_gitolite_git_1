@@ -1,96 +1,73 @@
-Content-Type: multipart/mixed; boundary="===============3932986155041899009=="
+Content-Type: multipart/mixed; boundary="===============0166731935862880209=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
-Date: Tue, 17 Mar 2026 08:33:29 -0000
-Message-Id: <177373640917.2117235.249047897198947660@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/powerpc/linux
+Date: Tue, 17 Mar 2026 08:35:47 -0000
+Message-Id: <177373654732.2120632.8036154817212269749@gitolite.kernel.org>
 
---===============3932986155041899009==
+--===============0166731935862880209==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/soc/soc
-user: krzk
-git_push_cert_status: Y
+repo: pub/scm/linux/kernel/git/powerpc/linux
+user: maddy
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/soc/dt
-    old: f2f0587dcdecc29a8da59b1f0e720955f25ab015
-    new: d9ef8c91c4bba8160853a76ba0dc99919acef0ab
-    log: revlist-f2f0587dcdec-d9ef8c91c4bb.txt
-  - ref: refs/heads/renesas/dt
-    old: 0000000000000000000000000000000000000000
-    new: 0928a28daf017504e14920f4131bb99e3bc39dba
+  - ref: refs/heads/next-test
+    old: f338e77383789c0cae23ca3d48adcc5e9e137e3c
+    new: 217e0d3cb6437f802ac73e6a614d7a2525f61e36
+    log: revlist-f338e7738378-217e0d3cb643.txt
 
---===============3932986155041899009==
+--===============0166731935862880209==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher krzk@kernel.org 1773736404 +0100
-pushee kernel.org:/pub/scm/linux/kernel/git/soc/soc.git
-nonce 1773736404-11df8764169951f022c271978d057cf302d79a07
+pusher Madhavan Srinivasan <maddy@linux.ibm.com> 1773736541 +0530
+pushee gitolite.kernel.org:pub/scm/linux/kernel/git/powerpc/linux
+nonce 1773736540-a74ce65ea89c9b485fe84729cd1f43eb29b54bbb
 
-f2f0587dcdecc29a8da59b1f0e720955f25ab015 d9ef8c91c4bba8160853a76ba0dc99919acef0ab refs/heads/soc/dt
-0000000000000000000000000000000000000000 0928a28daf017504e14920f4131bb99e3bc39dba refs/heads/renesas/dt
+f338e77383789c0cae23ca3d48adcc5e9e137e3c 217e0d3cb6437f802ac73e6a614d7a2525f61e36 refs/heads/next-test
 -----BEGIN PGP SIGNATURE-----
 
-iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmm5EdQQHGtyemtAa2Vy
-bmVsLm9yZwAKCRDBN2bmhouD13PUD/0a0lDQvm5RsHcrYARNXRJZqOHWfBBckzMv
-TqQwAArcbTDrKuwz5HZpKBOvotH1hFrjABV2wO3ukSuoCmAEE3dQnNKBjZhpvLFv
-Q/y6J6AmaWiQz7ue4B9apCgy1kvsFza1WT0i2tXDI+lsujaD++xRre/SxaJmnzDG
-OI73tg8ZeTL1OcdJ4RbXzdHdS278cTl+n47KrcIelnX8yh9eqoiMKNBzIk2oDWP8
-JySUp5M6s8WTwbKGCvOdUlpc7vCdBQN+gHdQ5WV4NQ4OXr7OWI+pISrgUJhAFlTM
-Avo8/kHbbgegRX/4DnJEa/+vB4+hwGmUBS1URKHp+Y7yzZZ0IYG6MeVxSYYzbcha
-KYc11VcLxGkI7tDrXqm6qnTAM42uL5uPRBXzf00fQuEGiEdeTtN/DJqjt2rheJnb
-WVZEsQXpS4V3IZ7X/J7kAIlaqdetXAU+qYJBkufXdGy0JI7mq8jTib52yw6722qy
-EcGST6ekHvobQgQBpGJmtuVvfc8MyyZzSSX9qYHzrtLsIKiZsqnswyNsBRgOfum/
-Igt2carb6y7gfivviGyyW9+1kmL5CM1Y1BJMz2UonM3WeVluskEBSLCV88ce5ZVQ
-n4BhU116ckc65Jj4IgQS8lWk8EJSOOt1eE9kCN2bHbu+jPa6e5I/wgXtWPDmXefv
-vgtEgtsEXg==
-=RLPu
+iQIzBAABCgAdFiEEqX2DNAOgU8sBX3pRpnEsdPSHZJQFAmm5El0ACgkQpnEsdPSH
+ZJTLqRAAnyzT8mMVNsC2de/wnnKOtb66ZOEXfg18I0WZ+kTAPU6B5vG4krxQwPME
+p69jfWWmSYi2nVNqR0ysGV2RjrTB7NRCvQ44p1tz1kSaZ3gC3GdK1Ds/p7yuY3xQ
+CXcvKXZvI4xRpKDV72XECyb7Yu8JZWORlLL1miRtQRxMwo6lo1mJj7tpcRauzfQS
+ovQSmN6k7brJ2dTntVfq/RvXv1yRgo6FvXW7wUBWMn+UmH1TUAG+O9MTsnM8CooU
+xm+xglzeTDZ5LRLsut0DlCoC4B7PhsdW9wfR6iI2dMElcG3dXGoFok849MhvW57r
+f4EERI6EaHwgUooE0QHdkGfkyCOFWrgD05qkRIetQFfFiC/vVGKF2z4nqNyNV1f9
+tAPxph/vJZm/wBN9v/GMW1fzhb5zc/L6yMnGUZwEu7n+yyjTkcHt0OhO46C4CbYM
+8NpGeVsnJACMDarVR/CThu685W45tpGXLITKVXCmvpDvakAFhfnRFMtxSufmflfK
+nED9kATso7khXLPDjSgBnI9WFdPxO8fq3BEy3TTfQ7ZIZ7hJ4DaOBrrJx4CH44pn
+8h1GDgG27//7jne6wEHeGY2h9r1/QbdGJlLzu6qtbQcQx+QWRv5k6rWU7x2szB3W
+eJ5fKyLxQPEUIKwr5Ge3MBlYOr5ajLeqA+JyEWLJJGOFP1evnW8=
+=nQzd
 -----END PGP SIGNATURE-----
 
---===============3932986155041899009==
+--===============0166731935862880209==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f2f0587dcdec-d9ef8c91c4bb.txt
+Content-Disposition: attachment; filename=revlist-f338e7738378-217e0d3cb643.txt
 
-bb70589b67039e491dd60cf71272884e926a0f95 arm64: dts: renesas: rzt2h-n2h-evk: Add ramp delay for SD0 card regulator
-5c03465ecf6a56b7b261df9594f0e10612f53a50 arm64: dts: renesas: rzv2-evk-cn15-sd: Add ramp delay for SD0 regulator
-a3f34651de4287138c0da19ba321ad72622b4af3 arm64: dts: renesas: r9a09g057: Remove wdt{0,2,3} nodes
-b12985ceca18bcf67f176883175d544daad5e00e arm64: dts: renesas: r9a09g077: Fix CPG register region sizes
-f459672cf3ffd3c062973838951418271aa2ceef arm64: dts: renesas: r9a09g087: Fix CPG register region sizes
-6dcbb6f070cccabc6a13d640a5a84de581fdd761 arm64: dts: renesas: rzg3s-smarc-som: Set bypass for Versa3 PLL2
-85c2601e2c2feb60980c7ca23de28c49472f61f1 arm64: dts: renesas: r8a78000: Fix out-of-range SPI interrupt numbers
-bd462aa2027ff3dc80741045b03260fdcd273b12 arm64: dts: renesas: sparrow-hawk: Mark OTP and HSCIF0 pins as bootph-all
-b686ccad06a8c3b041e89e19e52d7b1ba5dd93f7 ARM: dts: renesas: r9a06g032: Add support for CPU frequency scaling
-11f251f3df14cf27847e4bdd46b4df86214b313f arm64: dts: renesas: r8a77951: Describe PCIe root ports
-dc21c26490c692419e1aa4d68f668f3e47c51a6a arm64: dts: renesas: r8a77960: Describe PCIe root ports
-457fad44b471b474ac6983b30f33e840b9362179 arm64: dts: renesas: r8a77961: Describe PCIe root ports
-12424624c8484f79e02fdc8a437fd401bc21ed41 arm64: dts: renesas: r8a77965: Describe PCIe root ports
-1ec13760f46831108833221e2812f15d03ac71e5 arm64: dts: renesas: r8a77990: Describe PCIe root port
-c6ffd326277aa87138ee6ed4fc4e6f8af1106179 arm64: dts: renesas: r8a77990: Add USB 3.0 PHY and USB3S0 clock nodes
-39ef5f2dac6697c88bbc6588ca9388659a3cbed6 arm64: dts: renesas: salvator-common: Describe PCIe/USB3.0 clock generator
-c3632693cee78b4806496a661f33a0c84f9775e0 arm64: dts: renesas: ulcb: ulcb-kf: Describe PCIe/USB3.0 clock generator
-64e962bc366438c09e9b98940e0c9274c95a8af5 arm64: dts: renesas: ebisu: Describe PCIe/USB3.0 clock generator
-eb90ae0b39a15c380e640efc0c927b012d8b28fb arm64: dts: renesas: r9a09g056: Add RTC node
-b901f2f03ed72ccef7a46619550546e2471d581f arm64: dts: renesas: r9a09g056n48-rzv2n-evk: Enable RTC
-c5fb3c5465e999dcdede4b238a843d056a6f7479 arm64: dts: renesas: r9a09g077: Wire up DMA support for SPI
-24090c9b8a376d03da29e444be0a8831f248b21e arm64: dts: renesas: r9a09g087: Wire up DMA support for SPI
-5be0b48a3b23d961891db72a85092fe185106177 ARM: dts: renesas: r9a06g032: Describe the QSPI controller
-ce2c7ca2c2acd252c495da0d924f48b70f2f4198 arm64: dts: renesas: r9a09g056: Add DMA support for RSPI channels
-6c9940cbf7f3e7f9dc8f0ba3de74640ca9e66feb arm64: dts: renesas: r9a09g057: Add DMA support for RSPI channels
-68532ef010e202cdc0a5a734b6d828ddcbc6a7e9 ARM: dts: renesas: r9a06g032-rzn1d400-db: Add QSPI node including NOR flash
-9fdad4267cef855dff8f45a04419bd61bb3438c4 ARM: dts: renesas: r9a06g032-rzn1d400-db: Do not use underscores in node names
-b2eaf45e12fafffbdfc20dbe7cb160a4d2c8f9be ARM: dts: renesas: r9a06g032-rzn1d400-db: Use interrupts for Micrel PHYs
-057c0944e09ff3392d2add958c3d2bd5b6586f1d ARM: dts: renesas: armadillo800eva: Enable SDHI1
-0928a28daf017504e14920f4131bb99e3bc39dba ARM: dts: renesas: armadillo800eva: Add wakeup-source to st1232
-d9ef8c91c4bba8160853a76ba0dc99919acef0ab Merge tag 'renesas-dts-for-v7.1-tag1' of https://git.kernel.org/pub/scm/linux/kernel/git/geert/renesas-devel into soc/dt
+fda4d71651f71c44b35829d13f3c8bf920032f77 powerpc/pgtable-frag: Fix bad page state in pte_frag_destroy
+bbcbf045d6c778e82b47a35fc8728387708e9a3d powerpc/64s: Fix unmap race with PMD migration entries
+68b1fa0ed5c84769e4e60d58f6a5af37e7273b51 powerpc/64s: Fix _HPAGE_CHG_MASK to include _PAGE_SPECIAL bit
+4a342f3e6f6848c816a661d8d7b10c75430598cf powerpc/64s/tlbflush-radix: Remove unused radix__flush_tlb_pwc()
+bf7c1497d2568ff803a0b0fc6728a1c06d11bf6e powerpc/64s: Move serialize_against_pte_lookup() to hash_pgtable.c
+4894e2fb7b9a25cef843ee2c3b2ac49fd808647d powerpc/64s: Kill the unused argument of exit_lazy_flush_tlb
+7bcfba20e946ec160fd72c3a0b4cf6e3e845d629 powerpc/64s: Rename tlbie_va_lpid to tlbie_va_pid_lpid
+f074059c7a4d4b93914eee404391dcdb0fd60aa6 powerpc/64s: Rename tlbie_lpid_va to tlbie_va_lpid
+24eb6378408fc125eacc4ad498d120ecf7becc35 powerpc/64s: Make use of H_RPTI_TYPE_ALL macro
+07791ff060dd3aa270cc03861f2599d81a77b97f powerpc: Print MMU_FTRS_POSSIBLE & MMU_FTRS_ALWAYS at startup
+3263451d3dbd01d97854280d46d88e0ffe111c8a powerpc/jump_label: adjust inline asm to be consistent
+b964fb2e44b9b4078a822cb63ec6427ddac5f8ac rust: Add PowerPC support
+217e0d3cb6437f802ac73e6a614d7a2525f61e36 powerpc: Enable Rust for ppc64le
 
---===============3932986155041899009==--
+--===============0166731935862880209==--
