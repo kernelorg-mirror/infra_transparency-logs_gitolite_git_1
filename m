@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7699100549774706059=="
+Content-Type: multipart/mixed; boundary="===============7055145257898916526=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Tue, 17 Mar 2026 20:27:25 -0000
-Message-Id: <177377924504.2729953.14791652830952525928@gitolite.kernel.org>
+Date: Tue, 17 Mar 2026 20:27:27 -0000
+Message-Id: <177377924747.2730117.16653208694814528861@gitolite.kernel.org>
 
---===============7699100549774706059==
+--===============7055145257898916526==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/40GbE
+  - ref: refs/heads/100GbE
     old: 99600f79b28c83c68bae199a3d8e95049a758308
     new: 069c8f5aebe4d5224cf62acc7d4b3486091c658a
     log: revlist-99600f79b28c-069c8f5aebe4.txt
 
---===============7699100549774706059==
+--===============7055145257898916526==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -69,4 +69,4 @@ e4c00ba7274b613e3ab19e27eb009f0ec2e28379 tg3: replace placeholder MAC address wi
 a0671125d4f55e1e98d9bde8a0b671941987e208 clsact: Fix use-after-free in init/destroy rollback asymmetry
 069c8f5aebe4d5224cf62acc7d4b3486091c658a net: usb: aqc111: Do not perform PM inside suspend callback
 
---===============7699100549774706059==--
+--===============7055145257898916526==--
