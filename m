@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vkoul/soundwire
-Date: Tue, 17 Mar 2026 09:53:34 -0000
-Message-Id: <177374121439.2182128.14261560143698656030@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Tue, 17 Mar 2026 09:59:25 -0000
+Message-Id: <177374156584.2186434.336027358089835311@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vkoul/soundwire
-user: vkoul
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: pabeni
 changes:
-  - ref: refs/heads/next
-    old: cbfea84f820962c3c5394ff06e7e9344c96bf761
-    new: b8f2d65fec19f3866905ac6ae3deb5c0c9faf162
+  - ref: refs/heads/main
+    old: a2efb1b80f36320c67622245e661fd980aa0c344
+    new: febe8012458fd9057d3fb70f6b37ef67a07ff8a1
     log: |
-         b8f2d65fec19f3866905ac6ae3deb5c0c9faf162 soundwire: intel_auxdevice: Add cs42l49 to wake_capable_list
+         6a196e83a1a7e50be93482d1cd4305641f1a9fb1 ppp: disconnect channel before nullifying pch->chan
+         febe8012458fd9057d3fb70f6b37ef67a07ff8a1 ppp: remove pch->chan NULL checks from tx path
          
