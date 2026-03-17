@@ -1,506 +1,182 @@
-Content-Type: multipart/mixed; boundary="===============2265678191723310236=="
+Content-Type: multipart/mixed; boundary="===============2940305416117776029=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/djwong/xfsprogs-dev
-Date: Tue, 17 Mar 2026 19:42:36 -0000
-Message-Id: <177377655646.2692243.11033394784837141695@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ath/linux-firmware
+Date: Tue, 17 Mar 2026 19:53:07 -0000
+Message-Id: <177377718790.2700259.15024431730745352544@gitolite.kernel.org>
 
---===============2265678191723310236==
+--===============2940305416117776029==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/djwong/xfsprogs-dev
-user: djwong
+repo: pub/scm/linux/kernel/git/ath/linux-firmware
+user: jjohnson
 changes:
-  - ref: refs/heads/djwong-wtf
-    old: c11588f1630897213c90f8d53de8dc862a993e96
-    new: d1a1dc491fd9db7592685b1d1e12a676aedc2857
-    log: revlist-c11588f16308-d1a1dc491fd9.txt
-  - ref: refs/heads/health-monitoring
-    old: 7c21667173519413dcc4bf75de690509b39c9a82
-    new: a2e444f93b09462a8fdd359459eeeed7f54b4aad
-    log: revlist-7c2166717351-a2e444f93b09.txt
-  - ref: refs/heads/libxfs-7.0-sync
-    old: e75714a2d811fd72ddd0bb8dac37f7ab54b99dfb
-    new: 70dd18d88c7ff7ddec365932a5f861308784cd03
-    log: revlist-e75714a2d811-70dd18d88c7f.txt
-  - ref: refs/heads/random-fixes
-    old: 393de673fabcceb1dd93d88681e34c2d439bfed6
-    new: 739322b608c4ac31e5e643c765e86df5e8161895
-    log: |
-         dc4691c4e022b64f61ddb686ae01ce92fc09bda8 misc: fix a few memory leaks
-         630ba36160fffda980948622ea740588b9ec85e1 libxfs: fix data corruption bug in libxfs_file_write
-         54c0da8d06b0556412c25b5ef06b678c7add13cd mkfs: fix protofile data corruption when in/out file block sizes don't match
-         9df2375956a26347ded2789dcf22eb63ab74ff28 mkfs: fix log sunit automatic configuration
-         739322b608c4ac31e5e643c765e86df5e8161895 xfs_repair: don't fail on INCOMPLETE attrs in leaf blocks
-         
-  - ref: refs/heads/scrub-media-verify-ioctl
-    old: 4637e02408d508adcda8515e8937d4daa35f3fe2
-    new: 16eb04328d357b0879dca75b03110556e08de19b
-    log: revlist-4637e02408d5-16eb04328d35.txt
-  - ref: refs/heads/upgrade-newer-features
-    old: cd997853b7e1d0a088e5ce1799e84a0aaf922d27
-    new: f94ee201f1d9a188567b127e1b6fecbaad00ed27
-    log: revlist-cd997853b7e1-f94ee201f1d9.txt
-  - ref: refs/tags/origin/for-next_2026-03-17
-    old: 0000000000000000000000000000000000000000
-    new: 6c55040bcaa260349569da42e259e5b4f0a3b59d
-  - ref: refs/tags/random-fixes_2026-03-17
-    old: 0000000000000000000000000000000000000000
-    new: 376ebb8ac881316c9e5db5535370d79296583e9b
-  - ref: refs/tags/libxfs-7.0-sync_2026-03-17
-    old: 0000000000000000000000000000000000000000
-    new: 0208fe52bc80a57741b0a8e41f84c9066b933a2b
-  - ref: refs/tags/health-monitoring_2026-03-17
-    old: 0000000000000000000000000000000000000000
-    new: ddc06e9b6d6a987bad71121714a513ee358edf2e
-  - ref: refs/tags/scrub-media-verify-ioctl_2026-03-17
-    old: 0000000000000000000000000000000000000000
-    new: 2206b1c5b723ea3edc2dd14126e3bef0efbed063
-  - ref: refs/tags/upgrade-newer-features_2026-03-17
-    old: 0000000000000000000000000000000000000000
-    new: 18ee70a3c61725a9f9fcf104045766bf47081fc7
-  - ref: refs/tags/djwong-wtf_2026-03-17
-    old: 0000000000000000000000000000000000000000
-    new: 970943e002b80289a3a791e5540b97e898be574e
+  - ref: refs/heads/main
+    old: d87f4693ed96d0f3f6f16b0f09be42f3b8acb9e0
+    new: 81f761d1b5fd51469d87d1633a959dbff4785f58
+    log: revlist-d87f4693ed96-81f761d1b5fd.txt
 
---===============2265678191723310236==
+--===============2940305416117776029==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c11588f16308-d1a1dc491fd9.txt
+Content-Disposition: attachment; filename=revlist-d87f4693ed96-81f761d1b5fd.txt
 
-dc4691c4e022b64f61ddb686ae01ce92fc09bda8 misc: fix a few memory leaks
-630ba36160fffda980948622ea740588b9ec85e1 libxfs: fix data corruption bug in libxfs_file_write
-54c0da8d06b0556412c25b5ef06b678c7add13cd mkfs: fix protofile data corruption when in/out file block sizes don't match
-9df2375956a26347ded2789dcf22eb63ab74ff28 mkfs: fix log sunit automatic configuration
-739322b608c4ac31e5e643c765e86df5e8161895 xfs_repair: don't fail on INCOMPLETE attrs in leaf blocks
-4eac7d48ef0eb4e73a5d1e03ee90abe8f40b5fa7 libxfs: fix XFS_STATS_DEC
-5abeca62f14bc8dd681bccbe695a87df8d917372 libxfs: port various kernel apis from 7.0
-6b0dae8674e70af742db324b1bdb351a2db18f2e libfrog: hoist some utilities from libxfs
-044dd766463c4a79c62aa8b0e840c52728f854ef libfrog: fix missing gettext call in current_fixed_time
-16843fdd333c74cfd4eea572f9f10db597b37732 xfs: start creating infrastructure for health monitoring
-ad7a570d564e74ff62f8588db9c5b2bbf35ee321 xfs: create event queuing, formatting, and discovery infrastructure
-b8ec731fa2487f7208ef2144ed492d8da6207cfb xfs: convey filesystem unmount events to the health monitor
-49e70818547c555b5da4f77b09947af6249b7cc3 xfs: convey metadata health events to the health monitor
-122106c89ef54b61ca83531cbcaffaebfb4617b9 xfs: convey filesystem shutdown events to the health monitor
-ad0973d3bed0eed44d8826503c655e1a589a61c9 xfs: convey externally discovered fsdax media errors to the health monitor
-359679224e41a1c916e1151bd0bb2eb09191170c xfs: convey file I/O errors to the health monitor
-19b3e54b0f00f946eb33c8e8a49108f812e5e04a xfs: check if an open file is on the health monitored fs
-bb7f7bda158d12ceeab01ae805fa17c376eb4ee6 xfs: add media verification ioctl
-9e9f57268ab6a064bb2efd1f74ae15e5a7131b5b xfs: move struct xfs_log_iovec to xfs_log_priv.h
-5cd9e8fb7f24e03dca4c99bc250a8465e9cab8a6 xfs: directly include xfs_platform.h
-59ff8ef2abbbdd4195512bd4d808f6c974cee789 xfs: remove xfs_attr_leaf_hasname
-db4ad6ad6f80d9df5379afb2424596b1b8466e6f xfs: add missing forward declaration in xfs_zones.h
-0954f75845ed2980946f408a2fbd891528060708 xfs: add a xfs_rtgroup_raw_size helper
-360792305e6428540e225f4f04b6f44dc4e7cf9e xfs: split and refactor zone validation
-ad40d27958b2a8594d448febffe059ecb9792132 xfs: delete attr leaf freemap entries when empty
-2de73bacd9a1103a50735666b9eccd526f5078fb xfs: fix freemap adjustments when adding xattrs to leaf blocks
-189bc0d74c7a5820c0eaf7f87a260923c3be7b8c xfs: refactor attr3 leaf table size computation
-904669d07fbf54ceed9b75537bb1d82a487155af xfs: strengthen attr leaf block freemap checking
-1ee895cb49de4fd19aa3ed349a5d30e507ca371a xfs: reduce xfs_attr_try_sf_addname parameters
-17b51a5c1cc2fea1c11c0eddebf5a9f48407e3d1 xfs: speed up parent pointer operations when possible
-e97799c34368cccb63b5f6e493e554077ff2c1b7 xfs: add a method to replace shortform attrs
-7d33e7c8088410abaa65c543abbd4ab4f57e94de xfs: fix spacing style issues in xfs_alloc.c
-22a2d7c28b60a717bf469f922fa394edab2661f5 xfs: don't validate error tags in the I/O path
-c3586f84549d4185319549ac9f1204fd9ec4b335 xfs: add zone reset error injection
-e5236399ae4c08468a2d6ee56d0d8938c30ffec3 xfs: give the defer_relog stat a xs_ prefix
-47c45f95ec454b5472e6e24b39e01b4376c2a9d9 treewide: Replace kmalloc with kmalloc_obj for non-scalar types
-600d0b83e446e2ecae13c5e14e5528bfa7177e38 Convert 'alloc_obj' family to use the new default GFP_KERNEL argument
-e098b3e621eb5b74ee71b79804b2cb34609b0ca7 xfs: Refactoring the nagcount and delta calculation
-c94237d6c30754b9356b47952c48b8af0553c6d6 xfs: fix code alignment issues in xfs_ondisk.c
-45c372e134c787990360c82e9b596817cb4c50e1 xfs: remove metafile inodes from the active inode stat
-28a0e3386b4da0fb5438c11463076566976d6bee xfs: Add a comment in xfs_log_sb()
-b38cb332eb93ff7c5815116ff5c38f75b3136a06 xfs: remove duplicate static size checks
-70dd18d88c7ff7ddec365932a5f861308784cd03 xfs: add static size checks for ioctl UABI
-1abe060d5db53da254a4d0e862ecf7ee5ba8d9d4 libfrog: add a function to grab the path from an open fd and a file handle
-0770069e128014b8d00bd0caeb0f2ae017b7ba95 libfrog: create healthmon event log library functions
-6a71da3e4a6b6823ed6fc8689f9b56218a2ca966 libfrog: add support code for starting systemd services programmatically
-90ec2f80076a9d37ce524649252cb823a6282420 libfrog: hoist a couple of service helper functions
-2df30f5522317f56efe18ee830fa6a118049d727 libfrog: add wrappers for listmount and statmount
-c009e9abb0cc15ce87338a33f0e2a7b96c5545eb man2: document the healthmon ioctl
-dc228b331d9faecd94843207452a8081bbede4a5 man2: document the media verification ioctl
-847b63f92623a69cbb6eda61a96ce5ff7c0045fc xfs_io: monitor filesystem health events
-7ed237ece755d66c511d8eba53d014ae873a0bf9 xfs_io: add a media verify command
-03af637b8a29d587bd069aa918b261383a7ec36f xfs_healer: create daemon to listen for health events
-cd139c3a850715a409b39692c8015846e41adc97 xfs_healer: enable repairing filesystems
-147922dad174bae93bfa36358ce23b956192b9c0 xfs_healer: use getparents to look up file names
-edbf1a39aa51c809105c13493d7ad1ffb19c5988 xfs_healer: create a per-mount background monitoring service
-cd4bc51d8bfac2d8256b941bd755c3520d52f492 xfs_healer: create a service to start the per-mount healer service
-f5a4769b29367e8ba18f4d4a62089022c5691eff xfs_healer: don't start service if kernel support unavailable
-3ae9944dd869912f9a5de57fdaf056d2b4ecc000 xfs_healer: use the autofsck fsproperty to select mode
-945c105ac178f7777b86be77b1fb7839fc4e3b15 xfs_healer: run full scrub after lost corruption events or targeted repair failure
-169ab9bd5a8e30792c969cbfb347072f349bf1b9 xfs_healer: use getmntent to find moved filesystems
-b2418ec1426bfb086ee236dd646607da2fd576bd xfs_healer: use statmount to find moved filesystems even faster
-8822739101e37a80b59fcbbad83e8cccd079203a xfs_healer: validate that repair fds point to the monitored fs
-8dcb9af70ca73ce057feaef5baf42b384bf68177 xfs_healer: add a manual page
-5ae472b5f650998e8bc0cbf0662bea15f032e84f xfs_scrub: print systemd service names
-bcf7317df866cd2faf5050bd5302f5b15bb68a96 xfs_io: add listmount and statmount commands
-9de4a66575b8f9bcc048ff28fb2424d14774edf1 mkfs: enable online repair if all backrefs are enabled
-31ec54b49c1c89a9aeb149c9f68b47dc3c483ee8 debian/control: listify the build dependencies
-a2e444f93b09462a8fdd359459eeeed7f54b4aad debian: enable xfs_healer on the root filesystem by default
-1c41bb86a93eb2b90844d05452de715a7f377098 libfrog: allow bitmap_free to handle a null bitmap pointer
-7f723025d4a2ff172ec9f29c02efebb721d6fa28 xfs_scrub: report truncated devices as media errors
-4d7a6261c862cea215b17224f7ea88f9e4c2bcf2 xfs_scrub: fix i18n of the decode_special_owner return value
-7f536acb1bbd4cda5817fb01d8ee15c2c288eb0f scrub: remove the unused io_disk field in struct read_verify
-3c0b57b7e91da78c3b12bd0c3a001716382ea8c7 xfs_scrub: move read verification scheduling to phase6.c
-98949c9c321850e1c70d31be6de05b292399f6f4 scrub: simplify the read_verify_pool_alloc interface
-abfd6a0f311900445e648b97c42d39ca2e3b61b2 xfs_scrub: don't pass the io_end_arg around everywhere
-b5922d2f59363485b76f8688a9894c375866800e scrub: use enum xfs_device for read verification
-fc4acbb276fb9c0fee89353c4f41c0af2acd6c01 xfs_scrub: rename nr_io_threads
-441a2c50fa19f47133dbb1b0b697194f7451fe33 scrub: simplify verifier threads calculation
-2b58be31a869ae82890c06a2c435705aeac99425 xfs_scrub: move disk media verification error injection
-7e232bc2419323c6308aac8875bcb4887eaffbf7 xfs_scrub: use the verify media ioctl during phase 6 if possible
-32affa7f282e3f1728b75bf99d0e70ac56ad0d81 scrub: don't allocate disk for ioctl-based media verify
-c0c0b2b4ec5be1650421c749780eed10ffb5af59 xfs_scrub: perform media scanning of the log region
-31b55512dd31aaf6098606f8dbecdea64b4b7f04 xfs_scrub: move failmap and other outputs into read_verify_pool
-c0d4c98ac21f901a6def2c140634ab6f73773c1e xfs_scrub: drop SCSI_VERIFY code from disk.
-6c775d8791743b5ea953302e452b0e85a10ed1e2 xfs_scrub: raise media verification IO limits
-16eb04328d357b0879dca75b03110556e08de19b xfs_scrub: allow overrides of the media verification IO limits
-5c718dddc30beefac2af044ebe22ba43022e0b90 xfs_repair: allow sysadmins to add free inode btree indexes
-ffd1d9f39e944d67371e6fe943dd49d36f0fd4af xfs_repair: allow sysadmins to add reflink
-0d7cd766eeb82c2ff1a64993709152f4354e970e xfs_repair: allow sysadmins to add reverse mapping indexes
-35b249a4272904de9b118bb8e870bfdaac2de463 xfs_repair: upgrade an existing filesystem to have parent pointers
-0a9c77f20fbed8feca7e1011b8763839bab8e622 xfs_repair: allow sysadmins to add metadata directories
-ce204f625f5546a6db59918e31d70e6f7b20dc7c xfs_repair: upgrade filesystems to support rtgroups when adding metadir
-0de5c252156140d271e0ef0b879816122b147af0 xfs_repair: allow sysadmins to add realtime reverse mapping indexes
-aee35484ebe14c2cc941e534fa76c346cc7b2240 xfs_repair: allow sysadmins to add realtime reflink
-5cf357648102e1c3867b6c09259f2a663c1fcc0a xfs_repair: skip free space checks when upgrading
-f94ee201f1d9a188567b127e1b6fecbaad00ed27 xfs_repair: allow adding rmapbt to reflink filesystems
-a7a9e770464d87d043bf59c62361fff82fa9dadb xfs_db: add merkle tree geometry calculations
-775c6460887968227e7247b50f4405b1f8c2d957 mkfs: allow specification of default options via configuration file
-4c19bff19058bf3f282383a637e2f75da364bb12 xfs: upgrade filesystem features
-abe01688732eecebcb39c0d0dd36456640ebbd46 debug xfs/422 rmap shutdowns
-e8bc628bff537ed84f7e8743ead03e9f66bd5982 xfs_scrub: retry threaded phase4 repairs
-f03c29cdb542ccb45c5b51d342835419f9c39e16 xfs_scrub: quiet down unicrash warnings about weird names
-3ee2560cfec73c09698659f8768aff59dace59f5 xfs_scrub: complain about case-insensitive names
-d1a1dc491fd9db7592685b1d1e12a676aedc2857 xfs_scrub/healer: enable everything via a systemd preset file
+65a3c868b360019395e9210539ed67ccc4c6719e ath11k: QCA6390 hw2.0: update board-2.bin
+cbd0f9753754fd9605df129ff04b0c4b4fc82568 ath11k: WCN6855 hw2.0: update board-2.bin
+e72747d3ca7b2b5be471b4f1faf9ccf3c0709f6a Merge branch 'robot/pr-0-1770832508' into 'main'
+86725d7351e829dcc4185fb40438751bc990e6c6 xe: Update GUC to v70.58.0 for LNL, BMG, PTL
+d10429dc0711c83ca2e0c97bae53a8f3fd8d6b5a Merge branch 'intel/guc-v70580' into 'main'
+1cfed3e213c51b47433bc49a9d7efc82eaa5aa43 Revert "rtw89: 8852b: update fw to v0.29.128.0 with format suffix -2"
+81eae19b21a0d1a2f25d70868393a465125dad5b rtw89: 8852b: add format-2 with v0.29.29.15 and fw elements
+af193c46b6bdeb1fce64643a6e9ff6d0d4befc0c rtw89: 8852b: update txpwr element to R43
+0579ff05d8826c546b141102de12ac596e193dd0 rtw89: 8852bt: add regd and diag_mac and update txpwr to R09
+4a216696655b429a245752ae79a2fe3aaff192e1 rtw89: 8852a: add format-1 for fw v0.13.36.2 with fw elements
+342ce02256f3f3f1d2025d514e0cdbe2a8b20a63 rtw89: 8851b: add format-1 for fw v0.29.41.5 with fw elements
+9a907ecf6b3c380300d6fbed1089cb9cc939ac9e Merge branch 'main' into 'main'
+bed52d78bc0c5a08716b2b250d89c9eb49b3987c amdgpu: DMCUB updates for various ASICs
+92576358fe5ada6724c1c9572aa992ea43531ae1 Merge branch 'amd-staging' into 'main'
+664f8b6adeba20be0960d9cb1b2ad8c5a4d7e0e3 qcom: Update DSP firmware for sa8775p platform
+e6786848c80e773b742b04fba81ef237a4328df7 Merge branch 'robot/pr-0-1770957462' into 'main'
+39f04545b26fcb3581c3542d3b069453fbf72960 cirrus: cs35l41: Add Firmware for ASUS Zenbook Laptop using CS35L41 HDA
+5a21317b174f97c0fd62a5ccf1895ba47214f267 Merge branch 'robot/pr-0-1771002528' into 'main'
+6a24a5a92c324f9aa1e8c267a2716fb71af309cb qcom: Update DSP firmware for qcs8300 platform
+3a0e2a540dca2717a0068cf4de12160227d85cb1 Merge branch 'robot/pr-0-1771046379' into 'main'
+65c7ff3ec8084f9db61efb5ef5cd7af27d114d8d amdgpu: DMCUB updates for various ASICs
+88ed0d0ded91efb0806149b914f768ed56dcd391 Merge branch 'amd-staging' into 'main'
+30a139cb656157cba7a27fd7727b5ffbd302ff60 qcom: vpu: fix SC7280 VPU Gen2 firmware and add compatibility symlink
+599764611a8ac213c6aa6dad17c941c2f46b53cb Merge branch 'robot/pr-0-1771573522' into 'main'
+edc18bd4dc29a3bfa07f30b9715a94b0926a2014 linux-firmware: update firmware for MT7902 WiFi device
+df954d275a0797cf3c1d3fb0cbb4580419b44bb0 linux-firmware: update firmware for MT7902 BT device
+40f482401e023ac4aa2964d688499b79e1467f27 Merge branch 'mt9702' into 'main'
+feba387aac8f6946c4b00bc5710f0dc87457786a lenovo: remove obsolete ish_lnlm_53c4ffad_2a17559f.bin firmware
+1db833e68de88cd3f7f6612a5552b3e671e36ef0 Merge branch 'remove-obsolete-lenovo-fw' into 'main'
+4aaa9c557e9039204bb8e440f7cea0ac481ff03f cirrus: cs42l45: Add CS42L45 SDCA codec firmware for Dell laptops
+1beedf2fcdcf928afd41c264e87ce4fe6ace5a42 Merge branch 'dell-ptl-gpt' into 'main'
+58cf579b98c0c4878deeda1acb5db70e699875b5 amdnpu: Restore old NPU firmware for compatibility
+3f9886b375b0b7404f4e26b7ebb9eea49850a5a8 Merge branch 'superm1/amdnpu-regression' into 'main'
+49cf497556b9268ed8a97108f8308b264b7d6657 linux-firmware:Renaming the file back for HP EliteBook X Flip G1i
+26668fabcfeaaba3245e93feac8a52c53c852d62 linux-firmware:Renaming the file back for HP EliteBook X Flip G1i
+1d609638b77219970783a17b201f018917f38bed linux-firmware:Renaming the file back for HP EliteBook X Flip G1i
+fb09d668745783fbb2128fba00a9343469d04709 Merge branch 'HP_Linux_Firmware_20260226' into 'main'
+e7f955441b97d691768ada9301bf51d63ec3c87b amdgpu: update GC 9.5.0 firmware
+ad7910db6e83ded9aa8b841c85f715bfc072e6fa amdgpu: update PSP 13.0.12 firmware
+95c430cdd81a34caefbd579605615f7a57c6a4d7 amdgpu: update VCN 5.0.1 firmware
+c6feb53895f6d79d33c378f320da556f52ca35e5 amdgpu: update GC 11.0.3 firmware
+b5d25d858b7e03a541db85a335ba0f45c9361789 amdgpu: update PSP 13.0.10 firmware
+a9004d5a0ba4c6e5d52eb77e827068da1ad901a7 amdgpu: update yellow carp firmware
+19e0d4624bdbaf854e8cb4ca76dee24cd4c5660b amdgpu: update GC 9.4.3 firmware
+138597a4e0bdc8c473c2241dab19dac402e2c41d amdgpu: update PSP 13.0.6 firmware
+ffbc28980e232ef4df33fc92a90e717a9afd4b29 amdgpu: update VCN 4.0.3 firmware
+1d5d7a62ebff654701baf1ac359ae6103658674e amdgpu: update GC 11.0.2 firmware
+1d4fdf2cbdc443ae1233e3516421e1bd7e84d304 amdgpu: update PSP 13.0.7 firmware
+897d73a7b65021a754122feb98a81f2dd2a150ae amdgpu: update SDMA 6.0.2 firmware
+4773307708e91994e820910bdb1aae06f9ea88ae amdgpu: update VCN 4.0.4 firmware
+18461c2329d18feea4ed7e0b233762d9553cdf60 amdgpu: update navi10 firmware
+aaca282a05b65262e4b7fe365033205daf7aada5 amdgpu: update renoir firmware
+37e9adcb709d748667da349a460ec8528af3a9f3 amdgpu: update GC 12.0.0 firmware
+b39b4a98582ba611393a9c42f0b2a1295b9809ca amdgpu: update PSP 14.0.2 firmware
+eba8a69fb7b643da29d344f9a277b025d52793ee amdgpu: update SMU 14.0.2 firmware
+683aace3644faa4c7372d3d0661b4e90565b7703 amdgpu: update navi12 firmware
+de99d0fd70ca1875974ac5ccf423a8838831a3ea amdgpu: update GC 11.5.0 firmware
+dea480a1b32b1abf455ebec0e48c9fa3efbbefc1 amdgpu: update PSP 14.0.0 firmware
+d23903078c5f25e8680ee1253788b0ec404ae90a amdgpu: update SDMA 6.1.0 firmware
+4b81a4817629a16543f372873965e1f05a9caa88 amdgpu: update VCN 4.0.5 firmware
+4db65e675ed00376aaee7178c248fb6dfd301633 amdgpu: update VPE 6.1.0 firmware
+1dd31ea90f7f01d5cb08f8617336b926e06ecb6f amdgpu: update GC 12.0.1 firmware
+2a0af58da3565f14d18f171eec7eab4346eff50c amdgpu: update PSP 14.0.3 firmware
+7177f2135df7f130ee31ce1f693219bb161502f6 amdgpu: update SMU 14.0.3 firmware
+8669af2dd952e36a5473d4b0335e343704e8a42f amdgpu: update VCN 5.0.0 firmware
+dea4e8a3376c7370d0e98dd726854fd425f347e6 amdgpu: update GC 11.5.1 firmware
+28dd17d1d31b0279a181034bbae77b8caed5c419 amdgpu: update PSP 14.0.1 firmware
+212257aad62c63a16746b0e7afca5c89552cefd7 amdgpu: update SDMA 6.1.1 firmware
+31d1b0dd53965f82a5ef808df21c987522201fc4 amdgpu: update VCN 4.0.6 firmware
+2d7345645d5987926ba2769992511cbc38dd089e amdgpu: update green sardine firmware
+48f3c77d8f79cd9c96ddf54a4f74ce1f24ee4a13 amdgpu: update navi14 firmware
+f789bb032a9ced49c3dabd52b3e290908b86ab78 amdgpu: update sienna cichlid firmware
+4e47f7fa71fb333bb22c288297be23488b4ce218 amdgpu: update GC 11.0.1 firmware
+f940f45405496cc112f99a4bbda93254b596e7fd amdgpu: update PSP 13.0.4 firmware
+afe6f8da8aeca732a7b58ccb5b5a7027c494ca88 amdgpu: update SDMA 6.0.1 firmware
+8746dc8962204386db5a7a0c35ebae242b1a7a78 amdgpu: update VCN 4.0.2 firmware
+29ffce4483d31b4a386891a98d1063d41785e781 amdgpu: update GC 11.0.4 firmware
+6237f479d99e5db2a59d8c7ecd5584da90c2e196 amdgpu: update PSP 13.0.11 firmware
+60bd7581c60852d9dfc9ce5d3cfd5befad1ff416 amdgpu: update navy flounder firmware
+7ab313a9f169267755c0e84cb4e7e84ebf071e93 amdgpu: update vangogh firmware
+c0bec6f13e3f76e6ef15301532e011435bde2ecf amdgpu: update dimgrey cavefish firmware
+e2d3b43db975878ff0724ea7d3806a7615e0eb71 amdgpu: update GC 11.5.2 firmware
+a7669eb10e781254d01943fb97422bab3c031e36 amdgpu: update PSP 14.0.4 firmware
+127e3755fe436a0c9f307009acb62b17767198b0 amdgpu: update SDMA 6.1.2 firmware
+58b10704da494972c8585da5b39904776d8e7b4e amdgpu: update beige goby firmware
+ab1f658c787bd1e80ee5899da32a62b76c8fa162 amdgpu: update GC 11.5.3 firmware
+d1b9b72636275a42f401ed21ed896fd152f78b53 amdgpu: update PSP 14.0.5 firmware
+ca31625e94c9d02a1dd6663794bede81a0717b7c amdgpu: update SDMA 6.1.3 firmware
+652378d0d156e233a0986fe21470784a35000cc9 amdgpu: update GC 11.0.0 firmware
+ca25e8cea638872353600c5a592394da2a793d32 amdgpu: update PSP 13.0.0 firmware
+936b64f4983199b0f79bb0a590c947d460dbf43d amdgpu: update VCN 4.0.0 firmware
+c5c71a6b42ef21afc949de8746e62f2a904771c6 amdgpu: update PSP 13.0.0 kicker firmware
+6f3948e1a80f184e49c44603e6c78650f63c6927 amdgpu: update GC 10.3.6 firmware
+40518428a964d429e97feb8581d66840d5e625d8 amdgpu: update PSP 13.0.5 firmware
+bed8b292d1991ee119c57df29919c550801c6ddb amdgpu: update GC 9.4.4 firmware
+bcc17f274d19dd3c8b150ba0e1fea33f00e9a28d amdgpu: update PSP 13.0.14 firmware
+fb7d64e497d116006542cbdcb8049c5c31ddd998 Merge branch 'robot/pr-0-1772039197' into 'main'
+64330a97f0f2785c5ce854d0bd9336050f3c27ca  QCA: Update Bluetooth WCN6856 firmware 2.1.0-00659 to 2.1.0-00665
+87768b59c8787ebe24ec6148f02ce76af49fff69 qca: Update Bluetooth WCN6750 1.1.3-00105 firmware to 1.1.3-00106
+d8e138dd8970ffc9f5f879e2d62938abe6cd3f22 Merge branch 'bt-hsp' into 'main'
+eb48837f8acc0c714dc7da556667b81c479ef4e9 qcom: update ADSP dtb.mbn for glymur platform
+e18ac264a24f1b33a850246b0ff20d1c746c99cf Merge branch 'robot/pr-0-1772553049' into 'main'
+6b986839e4bcd3e9671265bb4bb72bdcdbe98248 qcom: update ADSP, CDSP firmware for sm8750  platform
+0b384d415460bf92d5a793adf04a01f4f96b2bf5 Merge branch 'robot/pr-0-1772553355' into 'main'
+822ba35b15b1adb506320ecfecd55f4696c8d6cf linux-firmware: qcom: sync audioreach firmwares from v1.0.2 build
+f69a5e73c0c0c927a5bea53ce707ef17afae1964 Merge branch 'audioreach-tplg' into 'main'
+f4fccdeaa58ae8eddc6e4987811de3f9d8ccc6ae linux-firmware: add firmware for Lontium LT8713SX DP hub
+4d2b2774ad4415bdb0a987802ea4324c160c1d14 Merge branch 'robot/patch-0-1771956864' into 'main'
+f58642691280c62d91d8612f547c1fbe99533271 qcom: Update CDSP firmware for QCM6490 platform
+7d2b4c758cfd02c2ba1c807f234c0afc308789e5 Merge branch 'robot/pr-0-1772726739' into 'main'
+b251087087e8a2fd8b1b2523a66286048f3626bb QCA: Update Bluetooth QCA6698 firmware to 2.1.2-00069
+1cd97a2f5436ab43d5f02eef66d8e4574ec716fe Merge branch 'robot/pr-0-1772785633' into 'main'
+397e9a13dbb4f74d72a58b48ae83c7313e8cc724 linux-firmware: Add firmware file for Intel BlazarIGfp2 core
+f91e53e4601f2535dd0f1fcb592a7b63ce6433cd Merge branch '24.20.1.5_Rev2' into 'main'
+b9e372cffcb027d2d5f424bd819ced91a41bd683 amdgpu: DMCUB updates for various ASICs
+1462090728e6e1e588ce80b542d476c4e53927b0 Merge branch 'amd-staging' into 'main'
+cf2d1a5748387c2fb73ed567eb12bb574fd35a48 linux-firmware: Remove duplicate fw and Rename Lenovo ISH LNLM firmware files accordingly
+b3929cfcd543c4f388c4930175f442be94bbcf3b Merge branch 'lenovo-fw-rename' into 'main'
+bfebfc16a8b36e8a71bbb62326c44f5528e12736 cirrus: cs35l63: Add firmware for Cirrus CS35L63 for various Dell laptops
+21d670224ad1f8ab2956243c0b381eed40338b45 cirrus: cs42l45: Add CS42L45 SDCA codec firmware for Dell laptops
+127981ff71822df9043c178ae2e5e45b214378b2 Merge branch 'robot/pr-0-1773069539' into 'main'
+e426f99ddbe688eeb29b6e1072ff76d828607d4b linux-firmware: update firmware for MT7922 WiFi device
+6d5c4e499d32e5324950dbecbe70cca8f0bc2c93 mediatek MT7922: update bluetooth firmware to 20260224103448
+c822cbbb14ce5b8ee1f27346220640ac350bbf34 Merge branch 'mt7922' into 'main'
+934a7b3e16b87333002440b4096929abd62dc82f Add LENOVO ISH firmware v5.8.0.7720 for X9-15 2025
+9cd4a79e07541510eeb49764c9e1f68ca4069974 Merge branch 'x9' into 'main'
+a8316dd1ccbc0f1d93fe83674ab1b42eafa05146 qcom: add QUPv3 firmware for QCS615 platform
+15fe0cdea8e4f5ab28ffbc35b53bf87d0504509f Merge branch 'robot/pr-0-1773153673' into 'main'
+237bfc162a3a6a72708d4063bb302a1e2ccbe49a amdgpu: DMCUB updates for various ASICs
+d13cd498318bcf93e4a642cc3bf058c520a71284 Merge branch 'amd-staging' into 'main'
+dab39c0fbe7a769b98675dd1d5d4dd9b1e208b3d intel_vpu: Update NPU firmware
+00f828525181e23e70eb3e59759131b44cf5e693 Merge branch 'update-2026ww08' into 'main'
+3315fba7271df74e6755e41715869b7519717dc4 linux-firmware: Update firmware file for Intel BlazarU core
+cca6520d6620bbd37281eee07d8d0a4c3ecc05f4 linux-firmware: Update firmware file for Intel BlazarU-HrPGfP core
+ed10eae8facb3b4bf2da7104cec95afdf0209114 linux-firmware: Update firmware file for Intel BlazarI core
+179d9acb2171c8e4d298557e07bfb01b15939f22 linux-firmware: Update firmware file for Intel BlazarIGfP core
+4590121e2ecc02935ec26674e63837c46b422310 linux-firmware: Update firmware file for Intel Scorpius core
+c3bc50dc241d7bc56af080eccba6bac8b1145123 linux-firmware: Add firmware file for Intel ScorpiusGfp2 core
+be85c6639a9195edc280e026f9be89673a6fc506 Intel Bluetooth: Update firmware file for Intel Bluetooth AX201
+81608d9216ce1fe954e205aa867655b1a5bce1c5 linux-firmware: Update firmware file for Intel Quasar core
+e745d41c99517394a3f8e47c57c9b7e553a5c7c1 Merge branch 'main' into 'main'
+ced02591a80209ece29604db57ee87126293a3f0 linux-firmware: update firmware for MT7921 WiFi device
+b620027052951a9b851590a3876e189b31bb2d97 Merge branch 'robot/patch-0-1773363692' into 'main'
+87414f9ba8f875cb733281652474bccf93313e2f linux-firmware: update firmware for MT7920 WiFi device
+57303edc4101c1003ec45e91652f281ebd2f41b2 Merge branch 'robot/patch-1-1773363694' into 'main'
+f71ae94fbda284707cfa3dd9f10c2e4d8a745ec6 linux-firmware: Add ISH firmware file for Intel Wildcat Lake platform
+0e46f2d150651086917983ce2a5815722d6ac564 Merge branch 'robot/pr-0-1773711132' into 'main'
+87a7d3c72b1963f4dd8eb8ede919d40036a98ea5 Add LENOVO ISH firmware v5.8.1.7720 for X1 Carbon (Gen 14) and X1 2-in-1 (Gen 11)
+93914a9a8725ab9164a8ac49cccf55b86d4fe138 Merge branch 'x1-2026' into 'main'
+546a25acc8e8a05d48821e3baefdb9fa2cd20730 mediatek MT7920: update bluetooth firmware to 20260224111231
+78029d11e29ab79f72404285e19719b0c0bc9b43 mediatek MT7921: update bluetooth firmware to 20260224111243
+81f761d1b5fd51469d87d1633a959dbff4785f58 Merge branch 'mt792x-bt' into 'main'
 
---===============2265678191723310236==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7c2166717351-a2e444f93b09.txt
-
-dc4691c4e022b64f61ddb686ae01ce92fc09bda8 misc: fix a few memory leaks
-630ba36160fffda980948622ea740588b9ec85e1 libxfs: fix data corruption bug in libxfs_file_write
-54c0da8d06b0556412c25b5ef06b678c7add13cd mkfs: fix protofile data corruption when in/out file block sizes don't match
-9df2375956a26347ded2789dcf22eb63ab74ff28 mkfs: fix log sunit automatic configuration
-739322b608c4ac31e5e643c765e86df5e8161895 xfs_repair: don't fail on INCOMPLETE attrs in leaf blocks
-4eac7d48ef0eb4e73a5d1e03ee90abe8f40b5fa7 libxfs: fix XFS_STATS_DEC
-5abeca62f14bc8dd681bccbe695a87df8d917372 libxfs: port various kernel apis from 7.0
-6b0dae8674e70af742db324b1bdb351a2db18f2e libfrog: hoist some utilities from libxfs
-044dd766463c4a79c62aa8b0e840c52728f854ef libfrog: fix missing gettext call in current_fixed_time
-16843fdd333c74cfd4eea572f9f10db597b37732 xfs: start creating infrastructure for health monitoring
-ad7a570d564e74ff62f8588db9c5b2bbf35ee321 xfs: create event queuing, formatting, and discovery infrastructure
-b8ec731fa2487f7208ef2144ed492d8da6207cfb xfs: convey filesystem unmount events to the health monitor
-49e70818547c555b5da4f77b09947af6249b7cc3 xfs: convey metadata health events to the health monitor
-122106c89ef54b61ca83531cbcaffaebfb4617b9 xfs: convey filesystem shutdown events to the health monitor
-ad0973d3bed0eed44d8826503c655e1a589a61c9 xfs: convey externally discovered fsdax media errors to the health monitor
-359679224e41a1c916e1151bd0bb2eb09191170c xfs: convey file I/O errors to the health monitor
-19b3e54b0f00f946eb33c8e8a49108f812e5e04a xfs: check if an open file is on the health monitored fs
-bb7f7bda158d12ceeab01ae805fa17c376eb4ee6 xfs: add media verification ioctl
-9e9f57268ab6a064bb2efd1f74ae15e5a7131b5b xfs: move struct xfs_log_iovec to xfs_log_priv.h
-5cd9e8fb7f24e03dca4c99bc250a8465e9cab8a6 xfs: directly include xfs_platform.h
-59ff8ef2abbbdd4195512bd4d808f6c974cee789 xfs: remove xfs_attr_leaf_hasname
-db4ad6ad6f80d9df5379afb2424596b1b8466e6f xfs: add missing forward declaration in xfs_zones.h
-0954f75845ed2980946f408a2fbd891528060708 xfs: add a xfs_rtgroup_raw_size helper
-360792305e6428540e225f4f04b6f44dc4e7cf9e xfs: split and refactor zone validation
-ad40d27958b2a8594d448febffe059ecb9792132 xfs: delete attr leaf freemap entries when empty
-2de73bacd9a1103a50735666b9eccd526f5078fb xfs: fix freemap adjustments when adding xattrs to leaf blocks
-189bc0d74c7a5820c0eaf7f87a260923c3be7b8c xfs: refactor attr3 leaf table size computation
-904669d07fbf54ceed9b75537bb1d82a487155af xfs: strengthen attr leaf block freemap checking
-1ee895cb49de4fd19aa3ed349a5d30e507ca371a xfs: reduce xfs_attr_try_sf_addname parameters
-17b51a5c1cc2fea1c11c0eddebf5a9f48407e3d1 xfs: speed up parent pointer operations when possible
-e97799c34368cccb63b5f6e493e554077ff2c1b7 xfs: add a method to replace shortform attrs
-7d33e7c8088410abaa65c543abbd4ab4f57e94de xfs: fix spacing style issues in xfs_alloc.c
-22a2d7c28b60a717bf469f922fa394edab2661f5 xfs: don't validate error tags in the I/O path
-c3586f84549d4185319549ac9f1204fd9ec4b335 xfs: add zone reset error injection
-e5236399ae4c08468a2d6ee56d0d8938c30ffec3 xfs: give the defer_relog stat a xs_ prefix
-47c45f95ec454b5472e6e24b39e01b4376c2a9d9 treewide: Replace kmalloc with kmalloc_obj for non-scalar types
-600d0b83e446e2ecae13c5e14e5528bfa7177e38 Convert 'alloc_obj' family to use the new default GFP_KERNEL argument
-e098b3e621eb5b74ee71b79804b2cb34609b0ca7 xfs: Refactoring the nagcount and delta calculation
-c94237d6c30754b9356b47952c48b8af0553c6d6 xfs: fix code alignment issues in xfs_ondisk.c
-45c372e134c787990360c82e9b596817cb4c50e1 xfs: remove metafile inodes from the active inode stat
-28a0e3386b4da0fb5438c11463076566976d6bee xfs: Add a comment in xfs_log_sb()
-b38cb332eb93ff7c5815116ff5c38f75b3136a06 xfs: remove duplicate static size checks
-70dd18d88c7ff7ddec365932a5f861308784cd03 xfs: add static size checks for ioctl UABI
-1abe060d5db53da254a4d0e862ecf7ee5ba8d9d4 libfrog: add a function to grab the path from an open fd and a file handle
-0770069e128014b8d00bd0caeb0f2ae017b7ba95 libfrog: create healthmon event log library functions
-6a71da3e4a6b6823ed6fc8689f9b56218a2ca966 libfrog: add support code for starting systemd services programmatically
-90ec2f80076a9d37ce524649252cb823a6282420 libfrog: hoist a couple of service helper functions
-2df30f5522317f56efe18ee830fa6a118049d727 libfrog: add wrappers for listmount and statmount
-c009e9abb0cc15ce87338a33f0e2a7b96c5545eb man2: document the healthmon ioctl
-dc228b331d9faecd94843207452a8081bbede4a5 man2: document the media verification ioctl
-847b63f92623a69cbb6eda61a96ce5ff7c0045fc xfs_io: monitor filesystem health events
-7ed237ece755d66c511d8eba53d014ae873a0bf9 xfs_io: add a media verify command
-03af637b8a29d587bd069aa918b261383a7ec36f xfs_healer: create daemon to listen for health events
-cd139c3a850715a409b39692c8015846e41adc97 xfs_healer: enable repairing filesystems
-147922dad174bae93bfa36358ce23b956192b9c0 xfs_healer: use getparents to look up file names
-edbf1a39aa51c809105c13493d7ad1ffb19c5988 xfs_healer: create a per-mount background monitoring service
-cd4bc51d8bfac2d8256b941bd755c3520d52f492 xfs_healer: create a service to start the per-mount healer service
-f5a4769b29367e8ba18f4d4a62089022c5691eff xfs_healer: don't start service if kernel support unavailable
-3ae9944dd869912f9a5de57fdaf056d2b4ecc000 xfs_healer: use the autofsck fsproperty to select mode
-945c105ac178f7777b86be77b1fb7839fc4e3b15 xfs_healer: run full scrub after lost corruption events or targeted repair failure
-169ab9bd5a8e30792c969cbfb347072f349bf1b9 xfs_healer: use getmntent to find moved filesystems
-b2418ec1426bfb086ee236dd646607da2fd576bd xfs_healer: use statmount to find moved filesystems even faster
-8822739101e37a80b59fcbbad83e8cccd079203a xfs_healer: validate that repair fds point to the monitored fs
-8dcb9af70ca73ce057feaef5baf42b384bf68177 xfs_healer: add a manual page
-5ae472b5f650998e8bc0cbf0662bea15f032e84f xfs_scrub: print systemd service names
-bcf7317df866cd2faf5050bd5302f5b15bb68a96 xfs_io: add listmount and statmount commands
-9de4a66575b8f9bcc048ff28fb2424d14774edf1 mkfs: enable online repair if all backrefs are enabled
-31ec54b49c1c89a9aeb149c9f68b47dc3c483ee8 debian/control: listify the build dependencies
-a2e444f93b09462a8fdd359459eeeed7f54b4aad debian: enable xfs_healer on the root filesystem by default
-
---===============2265678191723310236==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e75714a2d811-70dd18d88c7f.txt
-
-dc4691c4e022b64f61ddb686ae01ce92fc09bda8 misc: fix a few memory leaks
-630ba36160fffda980948622ea740588b9ec85e1 libxfs: fix data corruption bug in libxfs_file_write
-54c0da8d06b0556412c25b5ef06b678c7add13cd mkfs: fix protofile data corruption when in/out file block sizes don't match
-9df2375956a26347ded2789dcf22eb63ab74ff28 mkfs: fix log sunit automatic configuration
-739322b608c4ac31e5e643c765e86df5e8161895 xfs_repair: don't fail on INCOMPLETE attrs in leaf blocks
-4eac7d48ef0eb4e73a5d1e03ee90abe8f40b5fa7 libxfs: fix XFS_STATS_DEC
-5abeca62f14bc8dd681bccbe695a87df8d917372 libxfs: port various kernel apis from 7.0
-6b0dae8674e70af742db324b1bdb351a2db18f2e libfrog: hoist some utilities from libxfs
-044dd766463c4a79c62aa8b0e840c52728f854ef libfrog: fix missing gettext call in current_fixed_time
-16843fdd333c74cfd4eea572f9f10db597b37732 xfs: start creating infrastructure for health monitoring
-ad7a570d564e74ff62f8588db9c5b2bbf35ee321 xfs: create event queuing, formatting, and discovery infrastructure
-b8ec731fa2487f7208ef2144ed492d8da6207cfb xfs: convey filesystem unmount events to the health monitor
-49e70818547c555b5da4f77b09947af6249b7cc3 xfs: convey metadata health events to the health monitor
-122106c89ef54b61ca83531cbcaffaebfb4617b9 xfs: convey filesystem shutdown events to the health monitor
-ad0973d3bed0eed44d8826503c655e1a589a61c9 xfs: convey externally discovered fsdax media errors to the health monitor
-359679224e41a1c916e1151bd0bb2eb09191170c xfs: convey file I/O errors to the health monitor
-19b3e54b0f00f946eb33c8e8a49108f812e5e04a xfs: check if an open file is on the health monitored fs
-bb7f7bda158d12ceeab01ae805fa17c376eb4ee6 xfs: add media verification ioctl
-9e9f57268ab6a064bb2efd1f74ae15e5a7131b5b xfs: move struct xfs_log_iovec to xfs_log_priv.h
-5cd9e8fb7f24e03dca4c99bc250a8465e9cab8a6 xfs: directly include xfs_platform.h
-59ff8ef2abbbdd4195512bd4d808f6c974cee789 xfs: remove xfs_attr_leaf_hasname
-db4ad6ad6f80d9df5379afb2424596b1b8466e6f xfs: add missing forward declaration in xfs_zones.h
-0954f75845ed2980946f408a2fbd891528060708 xfs: add a xfs_rtgroup_raw_size helper
-360792305e6428540e225f4f04b6f44dc4e7cf9e xfs: split and refactor zone validation
-ad40d27958b2a8594d448febffe059ecb9792132 xfs: delete attr leaf freemap entries when empty
-2de73bacd9a1103a50735666b9eccd526f5078fb xfs: fix freemap adjustments when adding xattrs to leaf blocks
-189bc0d74c7a5820c0eaf7f87a260923c3be7b8c xfs: refactor attr3 leaf table size computation
-904669d07fbf54ceed9b75537bb1d82a487155af xfs: strengthen attr leaf block freemap checking
-1ee895cb49de4fd19aa3ed349a5d30e507ca371a xfs: reduce xfs_attr_try_sf_addname parameters
-17b51a5c1cc2fea1c11c0eddebf5a9f48407e3d1 xfs: speed up parent pointer operations when possible
-e97799c34368cccb63b5f6e493e554077ff2c1b7 xfs: add a method to replace shortform attrs
-7d33e7c8088410abaa65c543abbd4ab4f57e94de xfs: fix spacing style issues in xfs_alloc.c
-22a2d7c28b60a717bf469f922fa394edab2661f5 xfs: don't validate error tags in the I/O path
-c3586f84549d4185319549ac9f1204fd9ec4b335 xfs: add zone reset error injection
-e5236399ae4c08468a2d6ee56d0d8938c30ffec3 xfs: give the defer_relog stat a xs_ prefix
-47c45f95ec454b5472e6e24b39e01b4376c2a9d9 treewide: Replace kmalloc with kmalloc_obj for non-scalar types
-600d0b83e446e2ecae13c5e14e5528bfa7177e38 Convert 'alloc_obj' family to use the new default GFP_KERNEL argument
-e098b3e621eb5b74ee71b79804b2cb34609b0ca7 xfs: Refactoring the nagcount and delta calculation
-c94237d6c30754b9356b47952c48b8af0553c6d6 xfs: fix code alignment issues in xfs_ondisk.c
-45c372e134c787990360c82e9b596817cb4c50e1 xfs: remove metafile inodes from the active inode stat
-28a0e3386b4da0fb5438c11463076566976d6bee xfs: Add a comment in xfs_log_sb()
-b38cb332eb93ff7c5815116ff5c38f75b3136a06 xfs: remove duplicate static size checks
-70dd18d88c7ff7ddec365932a5f861308784cd03 xfs: add static size checks for ioctl UABI
-
---===============2265678191723310236==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4637e02408d5-16eb04328d35.txt
-
-dc4691c4e022b64f61ddb686ae01ce92fc09bda8 misc: fix a few memory leaks
-630ba36160fffda980948622ea740588b9ec85e1 libxfs: fix data corruption bug in libxfs_file_write
-54c0da8d06b0556412c25b5ef06b678c7add13cd mkfs: fix protofile data corruption when in/out file block sizes don't match
-9df2375956a26347ded2789dcf22eb63ab74ff28 mkfs: fix log sunit automatic configuration
-739322b608c4ac31e5e643c765e86df5e8161895 xfs_repair: don't fail on INCOMPLETE attrs in leaf blocks
-4eac7d48ef0eb4e73a5d1e03ee90abe8f40b5fa7 libxfs: fix XFS_STATS_DEC
-5abeca62f14bc8dd681bccbe695a87df8d917372 libxfs: port various kernel apis from 7.0
-6b0dae8674e70af742db324b1bdb351a2db18f2e libfrog: hoist some utilities from libxfs
-044dd766463c4a79c62aa8b0e840c52728f854ef libfrog: fix missing gettext call in current_fixed_time
-16843fdd333c74cfd4eea572f9f10db597b37732 xfs: start creating infrastructure for health monitoring
-ad7a570d564e74ff62f8588db9c5b2bbf35ee321 xfs: create event queuing, formatting, and discovery infrastructure
-b8ec731fa2487f7208ef2144ed492d8da6207cfb xfs: convey filesystem unmount events to the health monitor
-49e70818547c555b5da4f77b09947af6249b7cc3 xfs: convey metadata health events to the health monitor
-122106c89ef54b61ca83531cbcaffaebfb4617b9 xfs: convey filesystem shutdown events to the health monitor
-ad0973d3bed0eed44d8826503c655e1a589a61c9 xfs: convey externally discovered fsdax media errors to the health monitor
-359679224e41a1c916e1151bd0bb2eb09191170c xfs: convey file I/O errors to the health monitor
-19b3e54b0f00f946eb33c8e8a49108f812e5e04a xfs: check if an open file is on the health monitored fs
-bb7f7bda158d12ceeab01ae805fa17c376eb4ee6 xfs: add media verification ioctl
-9e9f57268ab6a064bb2efd1f74ae15e5a7131b5b xfs: move struct xfs_log_iovec to xfs_log_priv.h
-5cd9e8fb7f24e03dca4c99bc250a8465e9cab8a6 xfs: directly include xfs_platform.h
-59ff8ef2abbbdd4195512bd4d808f6c974cee789 xfs: remove xfs_attr_leaf_hasname
-db4ad6ad6f80d9df5379afb2424596b1b8466e6f xfs: add missing forward declaration in xfs_zones.h
-0954f75845ed2980946f408a2fbd891528060708 xfs: add a xfs_rtgroup_raw_size helper
-360792305e6428540e225f4f04b6f44dc4e7cf9e xfs: split and refactor zone validation
-ad40d27958b2a8594d448febffe059ecb9792132 xfs: delete attr leaf freemap entries when empty
-2de73bacd9a1103a50735666b9eccd526f5078fb xfs: fix freemap adjustments when adding xattrs to leaf blocks
-189bc0d74c7a5820c0eaf7f87a260923c3be7b8c xfs: refactor attr3 leaf table size computation
-904669d07fbf54ceed9b75537bb1d82a487155af xfs: strengthen attr leaf block freemap checking
-1ee895cb49de4fd19aa3ed349a5d30e507ca371a xfs: reduce xfs_attr_try_sf_addname parameters
-17b51a5c1cc2fea1c11c0eddebf5a9f48407e3d1 xfs: speed up parent pointer operations when possible
-e97799c34368cccb63b5f6e493e554077ff2c1b7 xfs: add a method to replace shortform attrs
-7d33e7c8088410abaa65c543abbd4ab4f57e94de xfs: fix spacing style issues in xfs_alloc.c
-22a2d7c28b60a717bf469f922fa394edab2661f5 xfs: don't validate error tags in the I/O path
-c3586f84549d4185319549ac9f1204fd9ec4b335 xfs: add zone reset error injection
-e5236399ae4c08468a2d6ee56d0d8938c30ffec3 xfs: give the defer_relog stat a xs_ prefix
-47c45f95ec454b5472e6e24b39e01b4376c2a9d9 treewide: Replace kmalloc with kmalloc_obj for non-scalar types
-600d0b83e446e2ecae13c5e14e5528bfa7177e38 Convert 'alloc_obj' family to use the new default GFP_KERNEL argument
-e098b3e621eb5b74ee71b79804b2cb34609b0ca7 xfs: Refactoring the nagcount and delta calculation
-c94237d6c30754b9356b47952c48b8af0553c6d6 xfs: fix code alignment issues in xfs_ondisk.c
-45c372e134c787990360c82e9b596817cb4c50e1 xfs: remove metafile inodes from the active inode stat
-28a0e3386b4da0fb5438c11463076566976d6bee xfs: Add a comment in xfs_log_sb()
-b38cb332eb93ff7c5815116ff5c38f75b3136a06 xfs: remove duplicate static size checks
-70dd18d88c7ff7ddec365932a5f861308784cd03 xfs: add static size checks for ioctl UABI
-1abe060d5db53da254a4d0e862ecf7ee5ba8d9d4 libfrog: add a function to grab the path from an open fd and a file handle
-0770069e128014b8d00bd0caeb0f2ae017b7ba95 libfrog: create healthmon event log library functions
-6a71da3e4a6b6823ed6fc8689f9b56218a2ca966 libfrog: add support code for starting systemd services programmatically
-90ec2f80076a9d37ce524649252cb823a6282420 libfrog: hoist a couple of service helper functions
-2df30f5522317f56efe18ee830fa6a118049d727 libfrog: add wrappers for listmount and statmount
-c009e9abb0cc15ce87338a33f0e2a7b96c5545eb man2: document the healthmon ioctl
-dc228b331d9faecd94843207452a8081bbede4a5 man2: document the media verification ioctl
-847b63f92623a69cbb6eda61a96ce5ff7c0045fc xfs_io: monitor filesystem health events
-7ed237ece755d66c511d8eba53d014ae873a0bf9 xfs_io: add a media verify command
-03af637b8a29d587bd069aa918b261383a7ec36f xfs_healer: create daemon to listen for health events
-cd139c3a850715a409b39692c8015846e41adc97 xfs_healer: enable repairing filesystems
-147922dad174bae93bfa36358ce23b956192b9c0 xfs_healer: use getparents to look up file names
-edbf1a39aa51c809105c13493d7ad1ffb19c5988 xfs_healer: create a per-mount background monitoring service
-cd4bc51d8bfac2d8256b941bd755c3520d52f492 xfs_healer: create a service to start the per-mount healer service
-f5a4769b29367e8ba18f4d4a62089022c5691eff xfs_healer: don't start service if kernel support unavailable
-3ae9944dd869912f9a5de57fdaf056d2b4ecc000 xfs_healer: use the autofsck fsproperty to select mode
-945c105ac178f7777b86be77b1fb7839fc4e3b15 xfs_healer: run full scrub after lost corruption events or targeted repair failure
-169ab9bd5a8e30792c969cbfb347072f349bf1b9 xfs_healer: use getmntent to find moved filesystems
-b2418ec1426bfb086ee236dd646607da2fd576bd xfs_healer: use statmount to find moved filesystems even faster
-8822739101e37a80b59fcbbad83e8cccd079203a xfs_healer: validate that repair fds point to the monitored fs
-8dcb9af70ca73ce057feaef5baf42b384bf68177 xfs_healer: add a manual page
-5ae472b5f650998e8bc0cbf0662bea15f032e84f xfs_scrub: print systemd service names
-bcf7317df866cd2faf5050bd5302f5b15bb68a96 xfs_io: add listmount and statmount commands
-9de4a66575b8f9bcc048ff28fb2424d14774edf1 mkfs: enable online repair if all backrefs are enabled
-31ec54b49c1c89a9aeb149c9f68b47dc3c483ee8 debian/control: listify the build dependencies
-a2e444f93b09462a8fdd359459eeeed7f54b4aad debian: enable xfs_healer on the root filesystem by default
-1c41bb86a93eb2b90844d05452de715a7f377098 libfrog: allow bitmap_free to handle a null bitmap pointer
-7f723025d4a2ff172ec9f29c02efebb721d6fa28 xfs_scrub: report truncated devices as media errors
-4d7a6261c862cea215b17224f7ea88f9e4c2bcf2 xfs_scrub: fix i18n of the decode_special_owner return value
-7f536acb1bbd4cda5817fb01d8ee15c2c288eb0f scrub: remove the unused io_disk field in struct read_verify
-3c0b57b7e91da78c3b12bd0c3a001716382ea8c7 xfs_scrub: move read verification scheduling to phase6.c
-98949c9c321850e1c70d31be6de05b292399f6f4 scrub: simplify the read_verify_pool_alloc interface
-abfd6a0f311900445e648b97c42d39ca2e3b61b2 xfs_scrub: don't pass the io_end_arg around everywhere
-b5922d2f59363485b76f8688a9894c375866800e scrub: use enum xfs_device for read verification
-fc4acbb276fb9c0fee89353c4f41c0af2acd6c01 xfs_scrub: rename nr_io_threads
-441a2c50fa19f47133dbb1b0b697194f7451fe33 scrub: simplify verifier threads calculation
-2b58be31a869ae82890c06a2c435705aeac99425 xfs_scrub: move disk media verification error injection
-7e232bc2419323c6308aac8875bcb4887eaffbf7 xfs_scrub: use the verify media ioctl during phase 6 if possible
-32affa7f282e3f1728b75bf99d0e70ac56ad0d81 scrub: don't allocate disk for ioctl-based media verify
-c0c0b2b4ec5be1650421c749780eed10ffb5af59 xfs_scrub: perform media scanning of the log region
-31b55512dd31aaf6098606f8dbecdea64b4b7f04 xfs_scrub: move failmap and other outputs into read_verify_pool
-c0d4c98ac21f901a6def2c140634ab6f73773c1e xfs_scrub: drop SCSI_VERIFY code from disk.
-6c775d8791743b5ea953302e452b0e85a10ed1e2 xfs_scrub: raise media verification IO limits
-16eb04328d357b0879dca75b03110556e08de19b xfs_scrub: allow overrides of the media verification IO limits
-
---===============2265678191723310236==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-cd997853b7e1-f94ee201f1d9.txt
-
-dc4691c4e022b64f61ddb686ae01ce92fc09bda8 misc: fix a few memory leaks
-630ba36160fffda980948622ea740588b9ec85e1 libxfs: fix data corruption bug in libxfs_file_write
-54c0da8d06b0556412c25b5ef06b678c7add13cd mkfs: fix protofile data corruption when in/out file block sizes don't match
-9df2375956a26347ded2789dcf22eb63ab74ff28 mkfs: fix log sunit automatic configuration
-739322b608c4ac31e5e643c765e86df5e8161895 xfs_repair: don't fail on INCOMPLETE attrs in leaf blocks
-4eac7d48ef0eb4e73a5d1e03ee90abe8f40b5fa7 libxfs: fix XFS_STATS_DEC
-5abeca62f14bc8dd681bccbe695a87df8d917372 libxfs: port various kernel apis from 7.0
-6b0dae8674e70af742db324b1bdb351a2db18f2e libfrog: hoist some utilities from libxfs
-044dd766463c4a79c62aa8b0e840c52728f854ef libfrog: fix missing gettext call in current_fixed_time
-16843fdd333c74cfd4eea572f9f10db597b37732 xfs: start creating infrastructure for health monitoring
-ad7a570d564e74ff62f8588db9c5b2bbf35ee321 xfs: create event queuing, formatting, and discovery infrastructure
-b8ec731fa2487f7208ef2144ed492d8da6207cfb xfs: convey filesystem unmount events to the health monitor
-49e70818547c555b5da4f77b09947af6249b7cc3 xfs: convey metadata health events to the health monitor
-122106c89ef54b61ca83531cbcaffaebfb4617b9 xfs: convey filesystem shutdown events to the health monitor
-ad0973d3bed0eed44d8826503c655e1a589a61c9 xfs: convey externally discovered fsdax media errors to the health monitor
-359679224e41a1c916e1151bd0bb2eb09191170c xfs: convey file I/O errors to the health monitor
-19b3e54b0f00f946eb33c8e8a49108f812e5e04a xfs: check if an open file is on the health monitored fs
-bb7f7bda158d12ceeab01ae805fa17c376eb4ee6 xfs: add media verification ioctl
-9e9f57268ab6a064bb2efd1f74ae15e5a7131b5b xfs: move struct xfs_log_iovec to xfs_log_priv.h
-5cd9e8fb7f24e03dca4c99bc250a8465e9cab8a6 xfs: directly include xfs_platform.h
-59ff8ef2abbbdd4195512bd4d808f6c974cee789 xfs: remove xfs_attr_leaf_hasname
-db4ad6ad6f80d9df5379afb2424596b1b8466e6f xfs: add missing forward declaration in xfs_zones.h
-0954f75845ed2980946f408a2fbd891528060708 xfs: add a xfs_rtgroup_raw_size helper
-360792305e6428540e225f4f04b6f44dc4e7cf9e xfs: split and refactor zone validation
-ad40d27958b2a8594d448febffe059ecb9792132 xfs: delete attr leaf freemap entries when empty
-2de73bacd9a1103a50735666b9eccd526f5078fb xfs: fix freemap adjustments when adding xattrs to leaf blocks
-189bc0d74c7a5820c0eaf7f87a260923c3be7b8c xfs: refactor attr3 leaf table size computation
-904669d07fbf54ceed9b75537bb1d82a487155af xfs: strengthen attr leaf block freemap checking
-1ee895cb49de4fd19aa3ed349a5d30e507ca371a xfs: reduce xfs_attr_try_sf_addname parameters
-17b51a5c1cc2fea1c11c0eddebf5a9f48407e3d1 xfs: speed up parent pointer operations when possible
-e97799c34368cccb63b5f6e493e554077ff2c1b7 xfs: add a method to replace shortform attrs
-7d33e7c8088410abaa65c543abbd4ab4f57e94de xfs: fix spacing style issues in xfs_alloc.c
-22a2d7c28b60a717bf469f922fa394edab2661f5 xfs: don't validate error tags in the I/O path
-c3586f84549d4185319549ac9f1204fd9ec4b335 xfs: add zone reset error injection
-e5236399ae4c08468a2d6ee56d0d8938c30ffec3 xfs: give the defer_relog stat a xs_ prefix
-47c45f95ec454b5472e6e24b39e01b4376c2a9d9 treewide: Replace kmalloc with kmalloc_obj for non-scalar types
-600d0b83e446e2ecae13c5e14e5528bfa7177e38 Convert 'alloc_obj' family to use the new default GFP_KERNEL argument
-e098b3e621eb5b74ee71b79804b2cb34609b0ca7 xfs: Refactoring the nagcount and delta calculation
-c94237d6c30754b9356b47952c48b8af0553c6d6 xfs: fix code alignment issues in xfs_ondisk.c
-45c372e134c787990360c82e9b596817cb4c50e1 xfs: remove metafile inodes from the active inode stat
-28a0e3386b4da0fb5438c11463076566976d6bee xfs: Add a comment in xfs_log_sb()
-b38cb332eb93ff7c5815116ff5c38f75b3136a06 xfs: remove duplicate static size checks
-70dd18d88c7ff7ddec365932a5f861308784cd03 xfs: add static size checks for ioctl UABI
-1abe060d5db53da254a4d0e862ecf7ee5ba8d9d4 libfrog: add a function to grab the path from an open fd and a file handle
-0770069e128014b8d00bd0caeb0f2ae017b7ba95 libfrog: create healthmon event log library functions
-6a71da3e4a6b6823ed6fc8689f9b56218a2ca966 libfrog: add support code for starting systemd services programmatically
-90ec2f80076a9d37ce524649252cb823a6282420 libfrog: hoist a couple of service helper functions
-2df30f5522317f56efe18ee830fa6a118049d727 libfrog: add wrappers for listmount and statmount
-c009e9abb0cc15ce87338a33f0e2a7b96c5545eb man2: document the healthmon ioctl
-dc228b331d9faecd94843207452a8081bbede4a5 man2: document the media verification ioctl
-847b63f92623a69cbb6eda61a96ce5ff7c0045fc xfs_io: monitor filesystem health events
-7ed237ece755d66c511d8eba53d014ae873a0bf9 xfs_io: add a media verify command
-03af637b8a29d587bd069aa918b261383a7ec36f xfs_healer: create daemon to listen for health events
-cd139c3a850715a409b39692c8015846e41adc97 xfs_healer: enable repairing filesystems
-147922dad174bae93bfa36358ce23b956192b9c0 xfs_healer: use getparents to look up file names
-edbf1a39aa51c809105c13493d7ad1ffb19c5988 xfs_healer: create a per-mount background monitoring service
-cd4bc51d8bfac2d8256b941bd755c3520d52f492 xfs_healer: create a service to start the per-mount healer service
-f5a4769b29367e8ba18f4d4a62089022c5691eff xfs_healer: don't start service if kernel support unavailable
-3ae9944dd869912f9a5de57fdaf056d2b4ecc000 xfs_healer: use the autofsck fsproperty to select mode
-945c105ac178f7777b86be77b1fb7839fc4e3b15 xfs_healer: run full scrub after lost corruption events or targeted repair failure
-169ab9bd5a8e30792c969cbfb347072f349bf1b9 xfs_healer: use getmntent to find moved filesystems
-b2418ec1426bfb086ee236dd646607da2fd576bd xfs_healer: use statmount to find moved filesystems even faster
-8822739101e37a80b59fcbbad83e8cccd079203a xfs_healer: validate that repair fds point to the monitored fs
-8dcb9af70ca73ce057feaef5baf42b384bf68177 xfs_healer: add a manual page
-5ae472b5f650998e8bc0cbf0662bea15f032e84f xfs_scrub: print systemd service names
-bcf7317df866cd2faf5050bd5302f5b15bb68a96 xfs_io: add listmount and statmount commands
-9de4a66575b8f9bcc048ff28fb2424d14774edf1 mkfs: enable online repair if all backrefs are enabled
-31ec54b49c1c89a9aeb149c9f68b47dc3c483ee8 debian/control: listify the build dependencies
-a2e444f93b09462a8fdd359459eeeed7f54b4aad debian: enable xfs_healer on the root filesystem by default
-1c41bb86a93eb2b90844d05452de715a7f377098 libfrog: allow bitmap_free to handle a null bitmap pointer
-7f723025d4a2ff172ec9f29c02efebb721d6fa28 xfs_scrub: report truncated devices as media errors
-4d7a6261c862cea215b17224f7ea88f9e4c2bcf2 xfs_scrub: fix i18n of the decode_special_owner return value
-7f536acb1bbd4cda5817fb01d8ee15c2c288eb0f scrub: remove the unused io_disk field in struct read_verify
-3c0b57b7e91da78c3b12bd0c3a001716382ea8c7 xfs_scrub: move read verification scheduling to phase6.c
-98949c9c321850e1c70d31be6de05b292399f6f4 scrub: simplify the read_verify_pool_alloc interface
-abfd6a0f311900445e648b97c42d39ca2e3b61b2 xfs_scrub: don't pass the io_end_arg around everywhere
-b5922d2f59363485b76f8688a9894c375866800e scrub: use enum xfs_device for read verification
-fc4acbb276fb9c0fee89353c4f41c0af2acd6c01 xfs_scrub: rename nr_io_threads
-441a2c50fa19f47133dbb1b0b697194f7451fe33 scrub: simplify verifier threads calculation
-2b58be31a869ae82890c06a2c435705aeac99425 xfs_scrub: move disk media verification error injection
-7e232bc2419323c6308aac8875bcb4887eaffbf7 xfs_scrub: use the verify media ioctl during phase 6 if possible
-32affa7f282e3f1728b75bf99d0e70ac56ad0d81 scrub: don't allocate disk for ioctl-based media verify
-c0c0b2b4ec5be1650421c749780eed10ffb5af59 xfs_scrub: perform media scanning of the log region
-31b55512dd31aaf6098606f8dbecdea64b4b7f04 xfs_scrub: move failmap and other outputs into read_verify_pool
-c0d4c98ac21f901a6def2c140634ab6f73773c1e xfs_scrub: drop SCSI_VERIFY code from disk.
-6c775d8791743b5ea953302e452b0e85a10ed1e2 xfs_scrub: raise media verification IO limits
-16eb04328d357b0879dca75b03110556e08de19b xfs_scrub: allow overrides of the media verification IO limits
-5c718dddc30beefac2af044ebe22ba43022e0b90 xfs_repair: allow sysadmins to add free inode btree indexes
-ffd1d9f39e944d67371e6fe943dd49d36f0fd4af xfs_repair: allow sysadmins to add reflink
-0d7cd766eeb82c2ff1a64993709152f4354e970e xfs_repair: allow sysadmins to add reverse mapping indexes
-35b249a4272904de9b118bb8e870bfdaac2de463 xfs_repair: upgrade an existing filesystem to have parent pointers
-0a9c77f20fbed8feca7e1011b8763839bab8e622 xfs_repair: allow sysadmins to add metadata directories
-ce204f625f5546a6db59918e31d70e6f7b20dc7c xfs_repair: upgrade filesystems to support rtgroups when adding metadir
-0de5c252156140d271e0ef0b879816122b147af0 xfs_repair: allow sysadmins to add realtime reverse mapping indexes
-aee35484ebe14c2cc941e534fa76c346cc7b2240 xfs_repair: allow sysadmins to add realtime reflink
-5cf357648102e1c3867b6c09259f2a663c1fcc0a xfs_repair: skip free space checks when upgrading
-f94ee201f1d9a188567b127e1b6fecbaad00ed27 xfs_repair: allow adding rmapbt to reflink filesystems
-
---===============2265678191723310236==--
+--===============2940305416117776029==--
