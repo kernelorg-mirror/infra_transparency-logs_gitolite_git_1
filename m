@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/docs/linux
-Date: Tue, 17 Mar 2026 15:11:30 -0000
-Message-Id: <177376029075.2458036.16490266781903634655@gitolite.kernel.org>
+Date: Tue, 17 Mar 2026 15:11:31 -0000
+Message-Id: <177376029193.2458120.18316794269308356407@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,7 +11,7 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/docs/linux
 user: corbet
 changes:
-  - ref: refs/heads/docs-mw
+  - ref: refs/heads/docs-next
     old: 73f175a46330c57ab5797287233cbf83a36b6a99
     new: 98e7b5752898f74788098bef51f53205e365ab9d
     log: |
