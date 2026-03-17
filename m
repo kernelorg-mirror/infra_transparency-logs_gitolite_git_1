@@ -1,22 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Tue, 17 Mar 2026 03:50:08 -0000
-Message-Id: <177371940833.1902283.7073063065972451271@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ebiggers/linux
+Date: Tue, 17 Mar 2026 04:12:17 -0000
+Message-Id: <177372073708.1917868.4498589241331430611@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/linux/kernel/git/ebiggers/linux
+user: ebiggers
 changes:
-  - ref: refs/heads/main
-    old: d4a533ad249e9fbdc2d0633f2ddd60a5b3a9a4ca
-    new: e4c00ba7274b613e3ab19e27eb009f0ec2e28379
+  - ref: refs/heads/libcrypto-pending
+    old: e80f779f43a2787d565b7e85db9aace6b9cb4e35
+    new: 3c274b07b05b08c90028d9f454651c286d5350b7
     log: |
-         2aa8a4fa8d5b7d0e1ebcec100e1a4d80a1f4b21a net: usb: cdc_ncm: add ndpoffset to NDP16 nframes bounds check
-         77914255155e68a20aa41175edeecf8121dac391 net: usb: cdc_ncm: add ndpoffset to NDP32 nframes bounds check
-         b9ba668296ffd6143b01b0545a52bcda44f94837 Merge branch 'net-usb-cdc_ncm-add-ndpoffset-to-ndp-nframes-bounds-check'
-         e4c00ba7274b613e3ab19e27eb009f0ec2e28379 tg3: replace placeholder MAC address with device property
+         fe84d152c33aaebb7b8969952767a96da0bc595c lib/crypto: tests: Drop the default to CRYPTO_SELFTESTS
+         6b474e5de595b98a202aafd0fb7718bfa4bb1902 lib/crypto: Remove unused file blockhash.h
+         3c274b07b05b08c90028d9f454651c286d5350b7 lib/crypto: arm64: Drop checks for CONFIG_KERNEL_MODE_NEON
          
