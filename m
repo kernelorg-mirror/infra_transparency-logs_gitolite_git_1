@@ -1,47 +1,45 @@
-Content-Type: multipart/mixed; boundary="===============4332087998482502302=="
+Content-Type: multipart/mixed; boundary="===============5085431646082937392=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rcu/linux
-Date: Tue, 17 Mar 2026 21:46:18 -0000
-Message-Id: <177378397881.2803080.4424387931466635640@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
+Date: Tue, 17 Mar 2026 22:00:22 -0000
+Message-Id: <177378482256.2814306.8917643839129856930@gitolite.kernel.org>
 
---===============4332087998482502302==
+--===============5085431646082937392==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rcu/linux
-user: jfern
+repo: pub/scm/linux/kernel/git/tnguy/next-queue
+user: tnguy
 changes:
-  - ref: refs/heads/rcu/dev
-    old: 3ad9e8de152cd21666557a1e645a1acbd5491902
-    new: f95b3001546149a5741dd9c33ddddb4ec613ff90
-    log: revlist-3ad9e8de152c-f95b30015461.txt
+  - ref: refs/heads/200GbE
+    old: 4d78a4a4e2bcd55912ab5300e66ab70543098cd7
+    new: 913b9119e14d992557d2df5f8f1b9aebb91d2709
+    log: revlist-4d78a4a4e2bc-913b9119e14d.txt
 
---===============4332087998482502302==
+--===============5085431646082937392==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3ad9e8de152c-f95b30015461.txt
+Content-Disposition: attachment; filename=revlist-4d78a4a4e2bc-913b9119e14d.txt
 
-dae592293077e216d4af6ebf153bd2414b1d58f5 rcutorture: Add a textbook-style trivial preemptible RCU
-fbf860b9f634d7444de902ecbd65c273f65eddb2 kvm-check-branches.sh: Remove in favor of kvm-series.sh
-7ff37197c0131f356005cc8455e90f099b5cb33a torture: Make hangs more visible in torture.sh output
-7710520308f7bd9de21f186950c59f7a34056947 torture: Print informative message for test without recheck file
-545d0f93e61654be5e270fb39a6ac53ab435de90 rcutorture: Fix numeric "test" comparison in srcu_lockdep.sh
-e1e799e876ff18cb2372353b52942d9bd3554324 refscale: Ditch ref_scale_shutdown in favor of torture_shutdown_init()
-d354b5ba9d3c6edcf59fc74673a46d3ca6b3e9e7 rcuscale: Ditch rcu_scale_shutdown in favor of torture_shutdown_init()
-407eda28a36c1a1c33ebd551071e26dda1ada022 srcu: Fix SRCU read flavor macro comments
-dfa0befb41cca9312b1a26dc8b98e292f83b8a38 srcu: Fix s/they disables/they disable/ typo in srcu_read_unlock_fast()
-f1efae82bfa64e20d52b8787470a3040a2850495 rcu-tasks: Document that RCU Tasks Trace grace periods now imply RCU grace periods
-407b41d7f8cae41aba53ee40a464b82ce3331cad rcutorture: Add NOCB01 config for RCU_LAZY torture testing
-8b4c5bec4293014b380f123496f61c678fdb6057 rcutorture: Add NOCB02 config for nocb poll mode testing
-c34765f59df0f36672ac22e2cca68523deef93ce rcu-tasks: Remove unnecessary smp_store_release() in cblist_init_generic()
-db630fabbe0eed59280787036df49aa777706c99 rcu/nocb: Consolidate rcu_nocb_cpu_offload/deoffload functions
-dab4adcf9df72a3be232b8ff0e77786e27243961 rcu/nocb: Extract nocb_bypass_needs_flush() to reduce duplication
-44ce9cd12a1f11f000198f20977ab5c180c2a141 torture: Avoid modulo-zero error in torture_hrtimeout_ns()
-f95b3001546149a5741dd9c33ddddb4ec613ff90 rcu: Add BOOTPARAM_RCU_STALL_PANIC Kconfig option
+9315cbe0f2370e8fa02e98f2ff023a6c86394690 virtchnl: create 'include/linux/intel' and move necessary header files
+8100a374f3048e431a9ee0c75d5174c974cd8f3a virtchnl: introduce control plane version fields
+c5bb8a53fc025b25dd737ae98f6afe8db4967c23 libie: add PCI device initialization helpers to libie
+0eb3560b900fd3ddeaba64e25832a50b8c3573a4 libeth: allow to create fill queues without NAPI
+400a7d6fa986690890e1090cff625c0ba88099b8 libie: add control queue support
+b9614f952c02ef7d5eb635ab126aa1cdc228b743 libie: add bookkeeping support for control queue messages
+12de22849ba4b8c17169dfbb78575dcc671dae57 idpf: remove 'vport_params_reqd' field
+2e50f8a2e79658a9753ecc17d913be4f8eb0edae idpf: refactor idpf to use libie_pci APIs
+d6ddebfbd378ae6f1127f42a7b6152bf552967fb idpf: refactor idpf to use libie control queues
+7955e57ab25bab5c8ad12b046a5e74cae235d254 idpf: make mbx_task queueing and cancelling more consistent
+03165d126267337faec3be3abb65355c38a08468 idpf: print a debug message and bail in case of non-event ctlq message
+5b53df70cf9b026ea872e88f993609186e937db6 ixd: add basic driver framework for Intel(R) Control Plane Function
+ea0076d20b3d5fd25f7989ebd31ad7ad9daf6f4f ixd: add reset checks and initialize the mailbox
+6eb144ae5f71a9e9c880ada31087355e474242a3 ixd: add the core initialization
+913b9119e14d992557d2df5f8f1b9aebb91d2709 ixd: add devlink support
 
---===============4332087998482502302==--
+--===============5085431646082937392==--
