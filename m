@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/legion/kbd
-Date: Tue, 17 Mar 2026 10:39:55 -0000
-Message-Id: <177374399525.2219083.11726932379554776582@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/klassert/ipsec
+Date: Tue, 17 Mar 2026 10:40:29 -0000
+Message-Id: <177374402960.2221890.10942997189707637841@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/legion/kbd
-user: legion
+repo: pub/scm/linux/kernel/git/klassert/ipsec
+user: klassert
 changes:
   - ref: refs/heads/master
-    old: 32115c23f62d871f33c044b16b738d5e9aafedb0
-    new: 9720d5cf307089a5e62417fcb3835272d258f668
+    old: daf8e3b253aa760ff9e96c7768a464bc1d6b3c90
+    new: eb2d16a7d599dc9d4df391b5e660df9949963786
     log: |
-         9720d5cf307089a5e62417fcb3835272d258f668 data: Do not compress files twice
+         29fe3a61bcdce398ee3955101c39f89c01a8a77e xfrm: prevent policy_hthresh.work from racing with netns teardown
+         eb2d16a7d599dc9d4df391b5e660df9949963786 af_key: validate families in pfkey_send_migrate()
          
