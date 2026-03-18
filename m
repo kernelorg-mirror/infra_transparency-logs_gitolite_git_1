@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netfilter/nf
-Date: Wed, 18 Mar 2026 13:32:56 -0000
-Message-Id: <177384077651.3606303.3449446715244726047@gitolite.kernel.org>
+Subject: post-receive: pub/scm/devel/pahole/pahole
+Date: Wed, 18 Mar 2026 13:36:23 -0000
+Message-Id: <177384098338.3610820.5152341709913121325@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netfilter/nf
-user: fwestphal
+repo: pub/scm/devel/pahole/pahole
+user: almagui
 changes:
-  - ref: refs/heads/testing
-    old: 6cfc3bc02b977f2fba5f7268e6504d1931a774f7
-    new: 881dfca1a0b5fb559ae122c310130e0d107e3acf
+  - ref: refs/heads/tmp.next
+    old: 52dbfb0b39595ed845f2355caf13d57c2554790d
+    new: ba31cfa08ffcfe6ff5757f325de5b03ca157cb78
     log: |
-         e05f416781413d25379bfb1700988a1e9937e0a2 netfilter: bpf: defer hook memory release until rcu readers are done
-         858cd77d5392e526eec911db829ac8a8107dacaa netfilter: nf_tables: release flowtable after rcu grace period on error
-         881dfca1a0b5fb559ae122c310130e0d107e3acf netfilter: nft_set_rbtree: revisit array resize logic
+         ba31cfa08ffcfe6ff5757f325de5b03ca157cb78 pahole: Fix discarded-qualifiers for strchr/strstr.
          
