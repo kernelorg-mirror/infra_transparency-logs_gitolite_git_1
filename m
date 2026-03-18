@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1882256584797205919=="
+Content-Type: multipart/mixed; boundary="===============7399036171555162574=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/qcom/linux
-Date: Wed, 18 Mar 2026 13:50:17 -0000
-Message-Id: <177384181721.3623830.6156236762533688445@gitolite.kernel.org>
+Date: Wed, 18 Mar 2026 13:50:19 -0000
+Message-Id: <177384181913.3623917.12654399025402435303@gitolite.kernel.org>
 
---===============1882256584797205919==
+--===============7399036171555162574==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,25 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/qcom/linux
 user: andersson
 changes:
-  - ref: refs/heads/arm64-for-7.1
-    old: bb4d28e377cf04fbee8a01322059fa14808cdfe9
-    new: 83a06a3afb36818f09d68490d5939e7e56cb96d2
-    log: revlist-bb4d28e377cf-83a06a3afb36.txt
-  - ref: refs/heads/drivers-for-7.1
-    old: 5a679430cf1def009b5c5cb821cad46be450c149
-    new: 87a1698cb80650e47b41ca78a78ce06870cba631
-    log: |
-         055d79affa436d83a6e0d3ca6d054f11a7e3d4c1 firmware: qcom: uefisecapp: Simplify mutex with guard
-         4bfb0ec11e20b9354beabf1b9f3e70e926c407bd firmware: qcom: uefisecapp: Annotate acquiring locks for context tracking
-         d98b978446d249df1a662b4fef4c0bbfa1d650b8 firmware: qcom: scom: Simplify mutex with guard
-         87a1698cb80650e47b41ca78a78ce06870cba631 firmware: qcom: scm: Allow QSEECOM on Glymur CRD
-         
+  - ref: refs/heads/for-next
+    old: d639565b64d4781b3b36ff76b71ce1e68bda70c0
+    new: 58be096624c905fbb2830d148a67a01cbb69ab05
+    log: revlist-d639565b64d4-58be096624c9.txt
 
---===============1882256584797205919==
+--===============7399036171555162574==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-bb4d28e377cf-83a06a3afb36.txt
+Content-Disposition: attachment; filename=revlist-d639565b64d4-58be096624c9.txt
 
 96e71f817b02caedbbaeffc916010ba68802612f dt-bindings: arm: cpus: Extend Qualcomm Oryon compatibles
 5044a0b0307a3377dabbb0a2a653a30e388d16cc arm64: dts: qcom: glymur: Fix deprecated cpu compatibles
@@ -62,6 +53,9 @@ ff9c117c32bc6ace7de1cba1a323e80c29629e23 arm64: dts: qcom: kodiak: Add I2S1 pinc
 ea062e42832274cc8fb0587ea8852e1558cef0e1 arm64: dts: qcom: sm6125-xiaomi-laurel-sprout: Add Focaltech FT3518 touchscreen
 45e8c9052a5070fb83ca581dcd12b955c9dcbe89 arm64: dts: qcom: sm8550: Add UART15
 84d8976426072ea1a559ab1aaeff6bdc16248813 arm64: dts: qcom: arduino-imola: fix faulty spidev node
+055d79affa436d83a6e0d3ca6d054f11a7e3d4c1 firmware: qcom: uefisecapp: Simplify mutex with guard
+4bfb0ec11e20b9354beabf1b9f3e70e926c407bd firmware: qcom: uefisecapp: Annotate acquiring locks for context tracking
+d98b978446d249df1a662b4fef4c0bbfa1d650b8 firmware: qcom: scom: Simplify mutex with guard
 38caa0aab082754191f3de3f068800cd6d185d76 arm64: dts: qcom: qrb2210-arduino-imola: describe DSI / DP bridge
 41626e8fef2e58bdfee4e3cb5b13c27f5b2b3abf arm64: dts: qcom: milos: Sort pinctrl subnodes by pins
 a5a3b6977ab7a42681f297a74ac49779a82328c7 arm64: dts: qcom: qcs8300: add Display Serial Interface device nodes
@@ -77,5 +71,7 @@ f49c03d9a17ae7dec694d9ec40bd00c03ec350ba arm64: dts: qcom: sm6125: Add debug UAR
 e8f6f80bf10870d7b73c0436db10a61e3833196d arm64: dts: qcom: sm6125-xiaomi-ginkgo: Enable debug UART
 7cfb1637ef685b27e5e07daf5912d8434c12ade2 arm64: dts: qcom: pm6125: Enable RTC by default
 83a06a3afb36818f09d68490d5939e7e56cb96d2 arm64: dts: qcom: msm8939-asus-z00t: add ambient light and proximity sensor
+87a1698cb80650e47b41ca78a78ce06870cba631 firmware: qcom: scm: Allow QSEECOM on Glymur CRD
+58be096624c905fbb2830d148a67a01cbb69ab05 Merge branches 'arm32-for-7.1', 'arm64-defconfig-for-7.1', 'arm64-fixes-for-7.0', 'arm64-for-7.1', 'clk-fixes-for-7.0', 'clk-for-7.1', 'drivers-fixes-for-7.0' and 'drivers-for-7.1' into for-next
 
---===============1882256584797205919==--
+--===============7399036171555162574==--
