@@ -1,43 +1,57 @@
-Content-Type: multipart/mixed; boundary="===============4696268462577759402=="
+Content-Type: multipart/mixed; boundary="===============8844504225134523277=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/fs/xfs/xfs-linux
-Date: Wed, 18 Mar 2026 10:05:44 -0000
-Message-Id: <177382834421.3422875.4944264303748871219@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/security/vulns
+Date: Wed, 18 Mar 2026 10:06:02 -0000
+Message-Id: <177382836261.3423150.12115661927127262902@gitolite.kernel.org>
 
---===============4696268462577759402==
+--===============8844504225134523277==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/fs/xfs/xfs-linux
-user: cem
+repo: pub/scm/linux/security/vulns
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-next
-    old: f8544b654f22b1138ba12bc0971a96963b20311d
-    new: 2c0ff6151c7bc51b20e7b25be2073e6f01f750ef
-    log: revlist-f8544b654f22-2c0ff6151c7b.txt
+  - ref: refs/heads/master
+    old: e48194c56fdbb2f772d55aaa5a6f37c6b059799a
+    new: fc30180e89ad6fde3fc8f94e91dee6b4f03da382
+    log: |
+         b32a8fcff68ea2c1bc1a5e064b5eb7c75162c739 assign a bunch of cve ids on request
+         fc30180e89ad6fde3fc8f94e91dee6b4f03da382 strip the new mbox files
+         
 
---===============4696268462577759402==
+--===============8844504225134523277==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f8544b654f22-2c0ff6151c7b.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-01478f356ff794c7676803c7af04eaeaebfbb455 xfs: opencode xfs_zone_record_blocks
-4f24a767e3d64a5f58c595b5c29b6063a201f1e3 xfs: stop reclaim before pushing AIL during unmount
-79ef34ec0554ec04bdbafafbc9836423734e1bd6 xfs: avoid dereferencing log items after push callbacks
-394d70b86fae9fe865e7e6d9540b7696f73aa9b6 xfs: save ailp before dropping the AIL lock in push callbacks
-7cac60947335f8d88a6390814840590a61134484 xfs: refactor xfsaild_push loop into helper
-268378b6ad20569af0d1957992de1c8b16c6e900 xfs: scrub: unlock dquot before early return in quota scrub
-0c98524ab20193d8772cff9c71b00ad004fb1349 xfs: cleanup buftarg handling in XFS_IOC_VERIFY_MEDIA
-e5966096d0856d071269cb5928d6bc33342d2dfd xfs: annotate struct xfs_attr_list_context with __counted_by_ptr
-770323d418ed5848cc21af172f77377b2cc0542d xfs: avoid unnecessary open zone check in xfs_select_zone_nowait()
-6a82a691b08070ad03b237d7db89aa0bfef389e2 xfs: fix a comment typo in xfs_select_zone_nowait()
-68aa101bf2046aa8365333a3768cece07975ca5f xfs: display more zone related information in mountstats
-c1f955437440f92632e2efca4b591371bb3caefc xfs: avoid unnecessary calculations in xfs_zoned_need_gc()
-2c0ff6151c7bc51b20e7b25be2073e6f01f750ef Merge branch 'xfs-7.1-merge' into for-next
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1773828359 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
+nonce 1773828359-b1fdf2921ddb4b9b2daadb5bb7866d4ef7810401
 
---===============4696268462577759402==--
+e48194c56fdbb2f772d55aaa5a6f37c6b059799a fc30180e89ad6fde3fc8f94e91dee6b4f03da382 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmm6eQcbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+QjEQAIix37fzCxZRxyWQ/zla
+sAEcusZwUkriXUzNWbRdIhjpNlny35KPO44OuAHHGY6QXN0VbMc/AiXItGZb1ZHc
+ZIVXyzLNg9ZDguSz3zX0psbsWIz8x3RBwmqImIyrpk8hLk8NIlRVRwsgmqH5pTQD
+e7JlIzGHdvD2n0SHfTRGuh3CWAyhS3IoKwee1xJhRcwhXyjIKx8XKV4CjmPv+ic/
+vXUv7Y+q689L1er9huOqaWkzKySJb64xGgeFajiqNVXLo/2yt4jA1LIwsIjgPcXC
+/2qFGoOlqlHgZbzHTAD1470I0bZAPr4Oa804FOLNE7GsHCzt47DpqjbrXvQnzlOQ
+2cYtOp4O5iacIcUCEN5uk4TLzXrpRaksDO92EToYiaowVKVcZ2uqhncyV79kSdZw
+0/qGO9jTXl6qfAof5V64Ow96m895lc4mag6zA/Jx6FWSfWnCcPQSwIYfFrjzHy0Y
+Jz1OKzpZZ01egaWpaCojgFw3L8vZcdOZjoaQ3j3zeI8/mrrZ/Jwiamksg8Y3dwNk
+3ld+AUYLdhIVXpupOeJoqwDT0Agnribc+Du+AYea1SGOlkD8zXsEgOY9EpLhONB5
+RwWeNKM5fOR/altjcj9vCx6nmjXv6KYMhgXhvgXscoNtb1T+Jbd4LNBjeYb9voTu
+Y1RWmJ1JW02e3iRVYnVT/nAZ
+=aiTT
+-----END PGP SIGNATURE-----
+
+--===============8844504225134523277==--
