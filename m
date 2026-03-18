@@ -1,57 +1,57 @@
-Content-Type: multipart/mixed; boundary="===============3173610511555013124=="
+Content-Type: multipart/mixed; boundary="===============0788491930716752537=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/security/vulns
-Date: Wed, 18 Mar 2026 09:41:10 -0000
-Message-Id: <177382687064.3384486.13660232925850530595@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/cip/linux-cip
+Date: Wed, 18 Mar 2026 09:52:46 -0000
+Message-Id: <177382756656.3392305.13982064120670064140@gitolite.kernel.org>
 
---===============3173610511555013124==
+--===============0788491930716752537==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/security/vulns
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/cip/linux-cip
+user: pavel
 changes:
-  - ref: refs/heads/master
-    old: d2868650e13335894a83b6080fe8d9fef4c7e0b7
-    new: e48194c56fdbb2f772d55aaa5a6f37c6b059799a
-    log: |
-         f38db6b1694d41fc62db67d5990feaf42ec52e0c CVE-2026-23241: Add .vulnerable file
-         e48194c56fdbb2f772d55aaa5a6f37c6b059799a update based on new .vulnerable file
-         
+  - ref: refs/heads/linux-6.12.y-cip
+    old: 4a8da9cdb192bf691ba3cad0a593aebd84931b4c
+    new: 036402219f70a1572def5ae8347069716dd07342
+    log: revlist-4a8da9cdb192-036402219f70.txt
 
---===============3173610511555013124==
+--===============0788491930716752537==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-4a8da9cdb192-036402219f70.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1773826870 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
-nonce 1773826870-df7ef7e621b974d271f8c1464cb639e2d92dacda
+754cd5bf7fbd4313141d56a3c4da2b8be997a3f8 dt-bindings: serial: rsci: Drop "uart-has-rtscts: false"
+4b1928004515abd352b5b27035091f0e86edf095 dt-bindings: serial: renesas,rsci: Document RZ/G3E support
+6004c14a1478d54a3c0c298d913fa110e8846ebc clk: renesas: r9a09g047: Add RSCI clocks/resets
+06d980f8a6525ea2356185b1d1c3c5196fd261a4 serial: sh-sci: Convert to DEFINE_SIMPLE_DEV_PM_OPS()
+f7118059148a44649766f6488bc10a590c34654f tty: serial: sh-sci: fix RSCI FIFO overrun handling
+b9cd75780f6e62a5af8b8f367709b6c112c104c6 serial: sh-sci: Sort include files alphabetically
+ad02a091932ee25a62192d0acb14e142f2ec1ace serial: sh-sci: Merge sh-sci.h into sh-sci.c
+dfc5aac10ca0dda9464d7657bc126c65b1e29459 serial: sh-sci: Fix deadlock during RSCI FIFO overrun error
+1d3a41b5d6663199fcf45f9dbe3e16fb86f9e8a6 serial: sh-sci: Update rx_trigger size for RZ/T2H RSCI
+4912dca177958b62bbb0c1a8d94a862cde84fa26 serial: rsci: Add set_rtrg() callback
+ac8cb7bb03491a5bd28158b6bcb25b2eac1b10ae serial: sh-sci: Drop checking port type for device file{create, remove}
+85a7daf390849cfe0f5c9a0e12a43a546cae64d9 serial: rsci: Drop rsci_clear_SCxSR()
+0f0d0b3bb8527a3416a77fc636ea8a89e22d5299 serial: sh-sci: Drop extra lines
+f70407e8e5008c91e1d1882e688112cf7abe2445 serial: rsci: Drop unused macro DCR
+b652d390f2af734f665bb69cfe96512bf65b8175 serial: rsci: Drop unused TDR register
+13d0addc3b7a97021c65641a992c34ec0429238e serial: sh-sci: Use devm_reset_control_array_get_exclusive()
+25b8f2728ab95bf3f01c96a64fbdbcc534555b7b serial: sh-sci: Add sci_is_rsci_type()
+8f0a2d959fb0bd652330a4223342fb6c187721de serial: sh-sci: Rename port SCI_PORT_RSCI->RSCI_PORT_SCIF16
+606b8242cd9a01287828773c6c4824ed3428f250 serial: sh-sci: Add RSCI_PORT_SCIF32 port ID
+ae80898093a6c006919134f38157584ae30cfdff serial: sh-sci: Add support for RZ/G3E RSCI clks
+ef9b5a82564655280ac01924800ec218fa980baa serial: sh-sci: Make sci_scbrr_calc() public
+a0195d321e2bc4a95735d3e57dea22cdc2e72412 serial: sh-sci: Add finish_console_write() callback
+752b1ece014af954cfa2dd3e4d62a51b6a22a92e serial: rsci: Rename early_console data, port_params and callback() names
+0093fd2b6a68b210d34c49a5d93c202a27273750 serial: sh-sci: Add support for RZ/G3E RSCI
+1a09a3e707ddde3080ceadd6ba8495e7b0c7d110 arm64: dts: renesas: r9a09g047: Add RSCI nodes
+9ef299d4a8eb9882e22e93916d3b973c7d6b6f8e arm64: dts: renesas: renesas-smarc2: Move aliases to board DTS
+036402219f70a1572def5ae8347069716dd07342 arm64: dts: renesas: r9a09g047e57-smarc: Enable rsci{2,4,9} nodes
 
-d2868650e13335894a83b6080fe8d9fef4c7e0b7 e48194c56fdbb2f772d55aaa5a6f37c6b059799a refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmm6czYbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+W24QAJXpyaZATMxQ7ASpnjDs
-vmnzGL+1wDDC7CvjKlNpF4fryLtHcq9WbN2gKQMSJcc9+Fc+VMMx9j7mt26VwOp5
-2kkkVIJCrAk3cSW/IJi+XLKxHf9EpHyOX/1guhVXeLbiuvHkBkbJb84BXFdKI94v
-e2mpqpXGQOAREZiggqz1gehnneDBdPbEXY9z+TWoGOiQ3LAtF476pVShTgp815fz
-fYNvGCHnComQTgGFEBXvtmoGWmP1hrjMzalHXfFqaO+SV4imnPkeufeOH1SblTqf
-6EfTZKZLuxxHJ+X1PmSlvLT0gRV95jEGgt7YqAAtyln5ETof+rxhFp8pKUxXKroA
-VRQUkbz1OU8Lbn6T3R5WjbzdxMuGTW3xh5h3/MnafPP2iwwVNN0Qa3XVvWfwCOLA
-+t1n3IaAQrTZL2OT+0HrPXGAlKSPYZCZAFuZpb7n9m5gwC0kSm4iA99Q7RH2jgu0
-daEpBLPuEkiF5EhhrMap8UoP7FdaR4j6RtD7VotHUF8WA6xcYLz5ZX2TRfUgLMfG
-hj4HQ21qr9oFSCZIgk+BmWdzweU3yvyvnSR6xXk1OJmD+3FEnczrUsbvUSadtEId
-YMN8WkUkrItWbfX7j8d7ypiWv3C3PqX2f5Vgeqvh2EzXqu0E8i+WUHP+tN5Cwpv5
-dsNo3aZ82CiKOINlgv1MBys+
-=p9gi
------END PGP SIGNATURE-----
-
---===============3173610511555013124==--
+--===============0788491930716752537==--
