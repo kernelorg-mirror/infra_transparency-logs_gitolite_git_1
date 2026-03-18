@@ -1,19 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/b4/b4
-Date: Wed, 18 Mar 2026 13:46:51 -0000
-Message-Id: <177384161133.3619451.13186009887127515073@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
+Date: Wed, 18 Mar 2026 13:47:52 -0000
+Message-Id: <177384167279.3619943.13531869320413326633@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/b4/b4
-user: mricon
+repo: pub/scm/linux/kernel/git/soc/soc
+user: arnd
 changes:
-  - ref: refs/heads/master
-    old: 49136d75ac24c0e9af056067e4a27abe4fee8839
-    new: fed4cd88f9dc9b7370fcdb292aa27ecf40626635
+  - ref: refs/heads/arm/fixes
+    old: b3315ba042f2c8d3bc66502ada4555c11363cdeb
+    new: df3ef89d7ef8185fa719812e2d175b83112aa315
     log: |
-         fed4cd88f9dc9b7370fcdb292aa27ecf40626635 review: do not re-promote waiting series for already-known versions
+         a4e8473b775160f3ce978f621cf8dea2c7250433 firmware: arm_ffa: Remove vm_id argument in ffa_rxtx_unmap()
+         879c001afbac3df94160334fe5117c0c83b2cf48 firmware: arm_scpi: Fix device_node reference leak in probe path
+         555317d6100164748f7d09f80142739bd29f0cda firmware: arm_scmi: Fix NULL dereference on notify error path
+         4e701b47c3ba8f4eaf51d676732b11204bc75b35 firmware: arm_scmi: Spelling s/mulit/multi/, s/currenly/currently/
+         dfc80d650be7f9ccbe2173fe2c53a803e9da93a6 Merge tag 'ffa-fix-7.0' of git://git.kernel.org/pub/scm/linux/kernel/git/sudeep.holla/linux into arm/fixes
+         df3ef89d7ef8185fa719812e2d175b83112aa315 Merge tag 'scmi-fixes-7.0' of git://git.kernel.org/pub/scm/linux/kernel/git/sudeep.holla/linux into arm/fixes
          
