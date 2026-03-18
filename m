@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1273908811324486489=="
+Content-Type: multipart/mixed; boundary="===============2821489499059369491=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Wed, 18 Mar 2026 15:02:35 -0000
-Message-Id: <177384615579.3683166.462438986162090401@gitolite.kernel.org>
+Date: Wed, 18 Mar 2026 15:02:51 -0000
+Message-Id: <177384617182.3683400.3558192272769229789@gitolite.kernel.org>
 
---===============1273908811324486489==
+--===============2821489499059369491==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,41 +17,40 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/usb-testing
-    old: 916aeaffad2526b9723387b6bd449ec76dcc8d44
-    new: bcbdfc7fadf8018552fd55e57114a77637395684
+    old: bcbdfc7fadf8018552fd55e57114a77637395684
+    new: 849fbecdf7e1d4b91a31e6aa72d15e8938bddc5c
     log: |
-         56dd29088c9d9510c48a8ebad2465248fde36551 usb: iowarrior: remove inherent race with minor number
-         bcbdfc7fadf8018552fd55e57114a77637395684 iowarrior: use interruptible lock in iowarrior_write()
+         849fbecdf7e1d4b91a31e6aa72d15e8938bddc5c iowarrior: use normal memory in write path
          
 
---===============1273908811324486489==
+--===============2821489499059369491==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1773846154 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1773846170 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1773846153-1a6937e0bcd276922e86d6a59099ec5330beafbb
+nonce 1773846169-eb6083c85cf51c928b4530b37fca9cbf40b500da
 
-916aeaffad2526b9723387b6bd449ec76dcc8d44 bcbdfc7fadf8018552fd55e57114a77637395684 refs/heads/usb-testing
+bcbdfc7fadf8018552fd55e57114a77637395684 849fbecdf7e1d4b91a31e6aa72d15e8938bddc5c refs/heads/usb-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmm6voobHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+OAsP/2PZWVrRRvgA18XYwi4i
-+4BTZgN2ZLmAHe+nVWYVmVwmZb6X4KsmincU9gDkJdisGP/iWDxc9xTpNDTI4eTu
-kJOE1qa4RAKGRq53tSVqzDG+wOhiwMWrZzdFJil2x8u5LoVbQN254eujdW347Mi/
-1qjIA1OSnS0F2Sf3hl/L+gQ+CpTQZCnuL8v3Py3pceLNcTYVW6s7qMlf5NCWXz5s
-8+jkoKfk5HBQMT1vRFxTOd4jNy9WyNw+ULmVIArjkH6azLiaXNR2mdOXY6uBkQlt
-qCdNox/EB9Gxy2mGVIhQdf0wU9E596WlFsRUVZecNP/BVvjn3PGoJ5B5CY34eP6E
-pfnlPKf12O+xf0RwjJj38IFppXbBpOmrgLq+I8uaYXxOvtWoKKAsA2jwJzcQiVUk
-HTkjrraL7CfR1pa+edpxNifRN3kE8thZe5zXSQQfKLMwjjYSd1txffcI/z/97Oon
-EWUNuNCJjGxOaiEmFSDP8/Nz3cSgX5o4Pf4XWJab+yS3mh2hRD5PYVbn+f8gOIWn
-KZ8Fs/xhu/BEoQ6FFgp4e5uzF/s6cSk6/p8QnebRDwss6mnhkc3P5L4fpFFA8cjb
-83nUMEj9KfhLvEDB1mnhdG1XL6Wes+4mTEEDB56UDLGNx8VqpRlYeWLRXSo4FvB9
-JQJqg1weziKFfwhnpKI2cl2n
-=iHFk
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmm6vpobHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+6TgP/0QFh5LkZ2dOIqXbUQ6U
+4zdPSwhK8+3cKxOo71zuwOJpAn7j3pDFXYO5r02VnmD0op105hdaY5sAIDAEL6kt
+vVz5lEhvxyMCqheeLE0pE1P6pIrvLzazezDdhWYYluTkV5Gk3a08GsvSF6AfqRtX
+H/maRU58eIL68bpprNXYTFekDl55hOtGdxFwJR/JYCm13aDHJIXnEuT+3hZ8MSjU
+5wiPf1K799QtWVSnahI5KYzIX9p5FbjjCqZLiMZil3npc6ibMXxw0bREREIZV5mv
+1wy1W/Z/dZXf2G/8t7ZXS5PvY4VConxZ+KWY20WxxPDd72zQq3i3+7AcPIk5tXr5
+Dod/vWzNqsBoRuh/z+rk10rurJGH3jN6txJeU3fp3lYZZ1AFGqKMzbK3RoSBXwEN
+z/ecNZJBdHdVTa+/PrVtKec5i1n8tjMY+HcjX3GQZ2XpRF70VMX3l4DsgZkdysXb
+yTd4RnZ7+V6tIVREqXCQ3VZRGyRSzFZWf0irb4c/HHF+faY9rqhv1+IGU7NnB/sN
+OOJ5ho+FjEBMro+i3OqJ+9phCejOqZPa98qsXEJb1LrIMjfzAArnS7kSrtQruGnU
+dbHsCPGy/VOz/7K5naXrherqTIrKl/JtiuBBnGf6a3fcl+b8zpMN7i37nDXW4TPv
++U6bhuTwEPhlctH/lCcCz5r9
+=ZQM1
 -----END PGP SIGNATURE-----
 
---===============1273908811324486489==--
+--===============2821489499059369491==--
