@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/fs/xfs/xfs-linux
-Date: Wed, 18 Mar 2026 08:35:44 -0000
-Message-Id: <177382294418.3332394.7438596821832820220@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Wed, 18 Mar 2026 08:39:22 -0000
+Message-Id: <177382316293.3333995.18131927811093292469@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/fs/xfs/xfs-linux
-user: cem
+repo: pub/scm/linux/kernel/git/tip/tip
+user: peterz
 changes:
-  - ref: refs/heads/xfs-7.1-merge
-    old: 54514abb9891eb35033608e0fb51809f5a4c07ff
-    new: 01478f356ff794c7676803c7af04eaeaebfbb455
+  - ref: refs/heads/objtool/core
+    old: 51a0b7c4ede5c775e9d362e5f465ca993e076823
+    new: 1735858caa4bbb8b923860c0833d463b5d9c5f79
     log: |
-         01478f356ff794c7676803c7af04eaeaebfbb455 xfs: opencode xfs_zone_record_blocks
+         96f3b16a9de552538b810f773645d43f3b661b50 objtool: Support Clang RAX DRAP sequence
+         1735858caa4bbb8b923860c0833d463b5d9c5f79 objtool/x86: Reorder ORC register numbering
          
