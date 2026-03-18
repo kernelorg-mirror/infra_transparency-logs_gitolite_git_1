@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Wed, 18 Mar 2026 18:13:38 -0000
-Message-Id: <177385761876.3852612.10567419447845415282@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ulfh/linux-pm
+Date: Wed, 18 Mar 2026 18:16:53 -0000
+Message-Id: <177385781369.3856352.11677914350880977778@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rdma/rdma
-user: leon
+repo: pub/scm/linux/kernel/git/ulfh/linux-pm
+user: ulfh
 changes:
-  - ref: refs/heads/wip/leon-for-next
-    old: c50be61e277e1494eb555c0f6cf197392d9cbb53
-    new: 2102cbaf8db4efb7eb8198129586ad1390ce395f
+  - ref: refs/heads/fixes
+    old: b22c526569e6af84008b674e66378e771bfbdd94
+    new: b826d2c0b0ecb844c84431ba6b502e744f5d919a
     log: |
-         2102cbaf8db4efb7eb8198129586ad1390ce395f RDMA/rxe: Replace use of system_unbound_wq with rxe_wq
+         b826d2c0b0ecb844c84431ba6b502e744f5d919a pmdomain: bcm: bcm2835-power: Increase ASB control timeout
          
