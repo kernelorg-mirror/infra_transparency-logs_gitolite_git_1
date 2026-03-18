@@ -1,20 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jfern/linux
-Date: Wed, 18 Mar 2026 18:59:40 -0000
-Message-Id: <177386038017.3890923.8536213787999657838@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
+Date: Wed, 18 Mar 2026 19:03:12 -0000
+Message-Id: <177386059212.3894620.6728187232972640658@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jfern/linux
-user: jfern
+repo: pub/scm/linux/kernel/git/perf/perf-tools-next
+user: namhyung
 changes:
-  - ref: refs/heads/nova/mm
-    old: 226e1c75932aec3fde66b4b4a36abd8de919c6da
-    new: 2d066416e4440eaab826192b36b0688f3e5c63f5
+  - ref: refs/heads/tmp.perf-tools-next
+    old: bb551508e78c886e6d3bcca6c744d3bc3fd8ad59
+    new: 616cd6047cbf736d93808f652086dd10a836005f
     log: |
-         f19a0f64b3fe3c0dd17fb0e609f7f0fa540fb88f fixup! rust: interop: Add list module for C linked list interface
-         2d066416e4440eaab826192b36b0688f3e5c63f5 amend! rust: interop: Add list module for C linked list interface
+         6c478e7b3eba3f387a2d6c749e3e3ee0f8ad1c53 perf: tools: cs-etm: Fix print issue for Coresight debug in ETE/TRBE trace
+         35cd0098eeb9601844cb82c4402fa7e6576c8b01 perf: tools: cs-etm: Enhance raw Coresight trace debug display
+         ebbc5ce26eca294cf5f4e63399de63d086900442 perf tools: Remove duplicate include of debug.h
+         4138987f8a90574f4d5881afa5db4c5f78553811 perf tools: Remove duplicate include of stat.h
+         616cd6047cbf736d93808f652086dd10a836005f perf symbol: Add RISCV case in get_plt_sizes
          
