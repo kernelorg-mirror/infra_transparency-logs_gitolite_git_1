@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5046752135577936889=="
+Content-Type: multipart/mixed; boundary="===============1888536390479251311=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sudeep.holla/linux
-Date: Wed, 18 Mar 2026 16:31:22 -0000
-Message-Id: <177385148282.3765045.4078584275786614488@gitolite.kernel.org>
+Date: Wed, 18 Mar 2026 16:32:37 -0000
+Message-Id: <177385155787.3765594.572511104337681569@gitolite.kernel.org>
 
---===============5046752135577936889==
+--===============1888536390479251311==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sudeep.holla/linux
 user: sudeep.holla
 changes:
-  - ref: refs/heads/for-next/scmi/updates
-    old: 0a7ec808abecaf0d5c3ecc0d1b87d58f29c85604
-    new: bfecd98491ba8cf86a6b49aa07a3a3814bd966f2
-    log: revlist-0a7ec808abec-bfecd98491ba.txt
+  - ref: refs/heads/for-linux-next
+    old: ef45da0ae83006c9bc0bb3b16319a0ba02193a43
+    new: 351139c6984d74f8138f34667de942624ff63213
+    log: revlist-ef45da0ae830-351139c6984d.txt
 
---===============5046752135577936889==
+--===============1888536390479251311==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0a7ec808abec-bfecd98491ba.txt
+Content-Disposition: attachment; filename=revlist-ef45da0ae830-351139c6984d.txt
 
 fa28bd66254d3c64f8808d6563c859f718261906 firmware: arm_scmi: imx: Support getting reset reason of MISC protocol
 c7a0364b080d0bd8c40d6f9b9fae40c5120b3e28 firmware: imx: sm-misc: Print boot/shutdown reasons
@@ -41,5 +41,6 @@ f0f1b6516ad365ec2923f3ab1e4a73d44b0ded7f firmware: arm_scmi: Refactor iterators 
 13289addf5a52e1fb70061ef864898ad83fd6e3a firmware: arm_scmi: Add bound iterators support
 a78da552c6f3bff5dc9e8131c03ebdc9c6a75263 firmware: arm_scmi: Use bound iterators to minimize discovered rates
 bfecd98491ba8cf86a6b49aa07a3a3814bd966f2 firmware: arm_scmi: Introduce all_rates_get clock operation
+351139c6984d74f8138f34667de942624ff63213 Merge branches 'for-next/juno/updates' and 'for-next/scmi/updates', tags 'ffa-fix-7.0' and 'scmi-fixes-7.0' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/sudeep.holla/linux into for-linux-next
 
---===============5046752135577936889==--
+--===============1888536390479251311==--
