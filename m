@@ -1,23 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
-Date: Wed, 18 Mar 2026 00:03:33 -0000
-Message-Id: <177379221352.2916564.2919730350891075983@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools
+Date: Wed, 18 Mar 2026 00:10:45 -0000
+Message-Id: <177379264526.2923726.180089291292811579@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ath/ath
-user: jjohnson
+repo: pub/scm/linux/kernel/git/perf/perf-tools
+user: acme
 changes:
-  - ref: refs/heads/pending
-    old: 7bbb578fc43e7dcb8690cfc98844bd67bc311e8a
-    new: 0d5769b8088ccbc7c284841c3419622fdf3a87c8
+  - ref: refs/heads/tmp.perf-tools
+    old: 81f86728a9804c7ff99df8f2cb7a7a081a270400
+    new: 563d39928db602c58d24301769e25e33a48a65ab
     log: |
-         d9c0905bb6be1eaa8fa675b506834e0de423c345 wifi: ath12k: avoid dynamic alloc when parsing wmi tb
-         6d5079c95a376a1972eea119150b6d31ef7b6411 wifi: ath12k: fix endianness handling for SRNG ring pointer accesses
-         56acce8d2fcab9ce7305a4f2447acd1d20300786 wifi: ath12k: fix HE/EHT capability handling on big endian
-         d7f4951f68f5bbf2b0662f6d86f81c5b32e5378c wifi: ath12k: fix MAC address copy on big endian
-         0d5769b8088ccbc7c284841c3419622fdf3a87c8 wifi: ath12k: fix channel list copy on big endian
+         8dd1d9a335321d0829aeb85d8e1a897248d0da29 perf metricgroup: Fix metricgroup__has_metric_or_groups()
+         72a8b9c060d3188ff29e2a3f3ea47b1f2a67e005 perf parse-events: Fix big-endian 'overwrite' by writing correct union member
+         563d39928db602c58d24301769e25e33a48a65ab perf kvm stat: Fix relative paths for including headers
          
