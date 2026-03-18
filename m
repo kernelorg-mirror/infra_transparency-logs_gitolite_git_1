@@ -1,21 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/chao/linux
-Date: Wed, 18 Mar 2026 10:10:11 -0000
-Message-Id: <177382861126.3427441.14274388947325140304@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
+Date: Wed, 18 Mar 2026 10:24:22 -0000
+Message-Id: <177382946205.3435979.639941179492722801@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/chao/linux
-user: chao
+repo: pub/scm/linux/kernel/git/rdma/rdma
+user: leon
 changes:
-  - ref: refs/heads/bugfix/common
-    old: c85deae607667bb160a277e75324a45879161285
-    new: c91d609c77ac9556bb83cf090fa509604080e8fc
+  - ref: refs/heads/wip/leon-for-rc
+    old: 0f2055db7b630559870afb40fc84490816ab8ec5
+    new: 8dc12ab9dc7afa931bee35af15a80a260cfaa828
     log: |
-         de5e74014fc9ffd575481faed6ac0543cfcfa64d f2fs: introduce trace_f2fs_map_lock()
-         74da340e5c78f22629cdb1cac840ab66175ffea7 Revert: "f2fs: check in-memory block bitmap"
-         c91d609c77ac9556bb83cf090fa509604080e8fc Revert: "f2fs: check in-memory sit version bitmap"
+         5a925c7555d948fa5549bf0744d9fa2437c901b2 RDMA/irdma: Initialize free_qp completion before using it
+         74f9af2283812aeeb3131ce31e22970ebb214074 RDMA/irdma: Update ibqp state to error if QP is already in error state
+         137e3cd83cad166101bc4d8a96a6358cd8efed84 RDMA/irdma: Remove a NOP wait_event() in irdma_modify_qp_roce()
+         acf6d75f3abc3ab1dda027c58e5ef16c73f7b5df RDMA/irdma: Clean up unnecessary dereference of event->cm_node
+         4debbebb0489dc7de0cedaccfe82806616c99876 RDMA/irdma: Remove reset check from irdma_modify_qp_to_err()
+         73ec40100be22937fdf519964ac46071dbb068ab RDMA/irdma: Fix deadlock during netdev reset with active connections
+         0b36485998da106afc5e8b4ba93101f323636345 RDMA/irdma: Return EINVAL for invalid arp index error
+         8dc12ab9dc7afa931bee35af15a80a260cfaa828 RDMA/irdma: Harden depth calculation functions
          
