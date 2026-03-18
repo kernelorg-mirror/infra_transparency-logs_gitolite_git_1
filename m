@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============3445122108250341482=="
+Content-Type: multipart/mixed; boundary="===============7763850789832061202=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jfern/linux
-Date: Wed, 18 Mar 2026 20:13:34 -0000
-Message-Id: <177386481498.3951661.11695295114158754561@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rcu/linux
+Date: Wed, 18 Mar 2026 20:13:41 -0000
+Message-Id: <177386482118.3951938.15652638545469610028@gitolite.kernel.org>
 
---===============3445122108250341482==
+--===============7763850789832061202==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jfern/linux
+repo: pub/scm/linux/kernel/git/rcu/linux
 user: jfern
 changes:
   - ref: refs/heads/rcu/dev
@@ -20,7 +20,7 @@ changes:
     new: 772945be501c66b35e4be8586222f151c3659f7f
     log: revlist-f95b30015461-772945be501c.txt
 
---===============3445122108250341482==
+--===============7763850789832061202==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -37,4 +37,4 @@ be3d498765cd9b0523feb220822b8a89ec12390a rcu: Add BOOTPARAM_RCU_STALL_PANIC Kcon
 0490fe4b5c39f1edad61ab81be8b66766c19e588 srcu: Use raw spinlocks so call_srcu() can be used under preempt_disable()
 772945be501c66b35e4be8586222f151c3659f7f rcutorture: Test call_srcu() with preemption disabled and not
 
---===============3445122108250341482==--
+--===============7763850789832061202==--
