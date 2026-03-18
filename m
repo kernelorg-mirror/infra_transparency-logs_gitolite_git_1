@@ -1,50 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============1461924026097663833=="
+Content-Type: multipart/mixed; boundary="===============6401864937349141352=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-Date: Wed, 18 Mar 2026 12:22:32 -0000
-Message-Id: <177383655249.3549260.4234061942834222252@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Wed, 18 Mar 2026 12:25:23 -0000
+Message-Id: <177383672351.3552843.3006121576789484315@gitolite.kernel.org>
 
---===============1461924026097663833==
+--===============6401864937349141352==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-user: ij
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/review-ilpo-next
-    old: 8507277ef1326d6854a6445354cd43e93e2b95fa
-    new: 6da22b031a3cf995d6488500a5edae07cae3df2d
+  - ref: refs/heads/master
+    old: 3ccffe9d05a07038dbcce055fe0678c5ca679e64
+    new: 4457571737a2b5f2370a06ba67d4aa658cb56bed
     log: |
-         bd13b265d386afb15d9ee5feb4f2cb605a5770db platform/x86: fujitsu-tablet: Convert ACPI driver to a platform one
-         c256927c62475f222bd9fc913538dd484f88fed6 platform/x86: fujitsu: Reorder code to avoid forward declarations
-         9b9271ac2a25f427dd38a3f486e8b4d7afe7e0ec platform/x86: fujitsu: Register ACPI notify handlers directly
-         d5c9212ccfaa7bd453bf4b198eb19937f5deb58b platform/x86: fujitsu: Convert backlight driver to a platform one
-         6da22b031a3cf995d6488500a5edae07cae3df2d platform/x86: fujitsu: Convert laptop driver to a platform one
+         4457571737a2b5f2370a06ba67d4aa658cb56bed 6.1-stable patches
          
 
---===============1461924026097663833==
+--===============6401864937349141352==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1773836548 +0200
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86.git
-nonce 1773836547-a9119f2cb84ab88fb9e0c468e8f764a94d049a29
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1773836722 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1773836720-7e5aa0dfa54c8004edd77c869b3ec1e8c09fd7ae
 
-8507277ef1326d6854a6445354cd43e93e2b95fa 6da22b031a3cf995d6488500a5edae07cae3df2d refs/heads/review-ilpo-next
+3ccffe9d05a07038dbcce055fe0678c5ca679e64 4457571737a2b5f2370a06ba67d4aa658cb56bed refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iHUEABYIAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCabqZCgAKCRBZrE9hU+XO
-MTNjAQDbWjG41BdXLwks/HTa98NtoXNrpXiRkSHZuWDHrc3aBwD/aqYCEEVvAyHJ
-F3WBOej5W4cufOyOpYwKeJlLa7C4UAo=
-=NMjM
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmm6mbIbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+wWcP/2+3A1zrABdIfnWJ2Si2
+TF6M7N49yAXGeak+usbLlCKnSijSd3v5HwNZP2ZGlD3nhsEZTprTZPfqO+UliPw/
+kRVngN/MjublakOd8qv/LgOvDc49d8G9QZ7kSfRIuwwKfQ8koQkr0WDTG5aDN6XK
+XpPXs4WC8t6ATznAUvqh2vFoec3BwZD6FAEMYNgnZ/ocfqZlwU+fxI72K70UJ5s1
+Y+mrTrnzjovTk59nSiNe9ZE1okyTXKSdoXRucnprKYBDGprA/exVzWGXuWO35WM/
+91Hn8mSCDX4iKgjM3ZS+wKz0T1zyfcuxzFd6673UnpsnE1iOFlBbmQLfs7dJQtSN
+kN90as8aNFspx/82lF57IO0XxuzPjqRLnlb0hHoqgbT3Nm0k87YaiEcjlwC4P0bk
+cS9NKvg1VbL8s8ZtIHnfAk6eRmsx8jc7Lj6DvSAnaZcGaluiD1mFYio5LVa1prEx
+zvOS5weFuvsYVFuODPc4zWE8hh0Rrx+R/orRsOplIMuFBZeAcgP/9ZpJjoTgtoOu
+JdTw/JN6YHUjxkv2ZnHO01fHUuh1PbzQW2Y9uwxwRDE4rvc9zc4UiWEE50aV62rc
+rQrLBer0/lXb7qlG6DRi0GJ7YoYNlr638xBDkrscNTzcWfAAX5eJC7MH7UJfktuI
+61dJvXwkw+bwDRVUjE1TDQxH
+=p5xl
 -----END PGP SIGNATURE-----
 
---===============1461924026097663833==--
+--===============6401864937349141352==--
