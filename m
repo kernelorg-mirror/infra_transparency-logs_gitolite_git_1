@@ -1,20 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kvmarm/kvmarm
-Date: Wed, 18 Mar 2026 07:07:05 -0000
-Message-Id: <177381762558.3263593.6083038332543263519@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
+Date: Wed, 18 Mar 2026 07:23:57 -0000
+Message-Id: <177381863713.3275569.3040592997344221889@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kvmarm/kvmarm
-user: maz
+repo: pub/scm/linux/kernel/git/tiwai/sound
+user: tiwai
 changes:
-  - ref: refs/heads/next
-    old: 48ef8bd420ab6b22077c058a2ce167653e38437d
-    new: a76056759001e399dcb3e6c814af73ff3ec5c037
+  - ref: refs/heads/for-linus
+    old: bb120ad57def62e3f23e3d999c5fbed11f610993
+    new: 8780f561f6717dec52351251881bff79e960eb46
     log: |
-         d7729643942325933508274f0392b749ca74f7cc tracing: Restore accidentally removed SPDX tag
-         a76056759001e399dcb3e6c814af73ff3ec5c037 Merge branch kvm-arm64/hyp-tracing into kvmarm-master/next
+         8780f561f6717dec52351251881bff79e960eb46 ALSA: usb-audio: Exclude Scarlett 2i2 1st Gen from SKIP_IFACE_SETUP
+         
+  - ref: refs/heads/master
+    old: f63bef48d67e538cc7bc14d9bf903d0a0eda24df
+    new: f803b7bb17dd19fbd84fe783683321f38834a1df
+    log: |
+         8780f561f6717dec52351251881bff79e960eb46 ALSA: usb-audio: Exclude Scarlett 2i2 1st Gen from SKIP_IFACE_SETUP
+         f803b7bb17dd19fbd84fe783683321f38834a1df Merge branch 'for-linus'
          
