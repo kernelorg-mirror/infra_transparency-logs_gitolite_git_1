@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6562051194137766877=="
+Content-Type: multipart/mixed; boundary="===============1216571858651382773=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/abelvesa/linux
-Date: Wed, 18 Mar 2026 15:36:57 -0000
-Message-Id: <177384821735.3713433.4870975285965198456@gitolite.kernel.org>
+Date: Wed, 18 Mar 2026 15:37:23 -0000
+Message-Id: <177384824396.3713795.13876856911190713765@gitolite.kernel.org>
 
---===============6562051194137766877==
+--===============1216571858651382773==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/abelvesa/linux
 user: abelvesa
 changes:
-  - ref: refs/heads/clk/imx
+  - ref: refs/heads/for-next
     old: 51ac0f4b6d5f4965153d8c39644ecfb228480396
     new: 4219a54681d183a143009104967645cc252f1e30
     log: revlist-51ac0f4b6d5f-4219a54681d1.txt
 
---===============6562051194137766877==
+--===============1216571858651382773==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -39,4 +39,4 @@ a35309ef7112818dfcd592f6fe7de182d404c660 clk: imx: imx6q: Fix device node refere
 5567730bd36614d8099d73520760c298e80e0fc5 clk: vf610: Add support for the Ethernet switch clocks
 4219a54681d183a143009104967645cc252f1e30 clk: imx8mq: Correct the CSI PHY sels
 
---===============6562051194137766877==--
+--===============1216571858651382773==--
