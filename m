@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/fs/xfs/xfs-linux
-Date: Wed, 18 Mar 2026 09:17:24 -0000
-Message-Id: <177382544453.3365103.16656474570486089710@gitolite.kernel.org>
+Date: Wed, 18 Mar 2026 09:30:06 -0000
+Message-Id: <177382620663.3375678.5900261126973911245@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,12 +11,16 @@ service: git-receive-pack
 repo: pub/scm/fs/xfs/xfs-linux
 user: cem
 changes:
-  - ref: refs/heads/xfs-7.1-merge
-    old: 01478f356ff794c7676803c7af04eaeaebfbb455
-    new: c1f955437440f92632e2efca4b591371bb3caefc
+  - ref: refs/heads/xfs-7.0-fixes
+    old: 52a8a1ba883defbfe3200baa22cf4cd21985d51a
+    new: e5966096d0856d071269cb5928d6bc33342d2dfd
     log: |
-         770323d418ed5848cc21af172f77377b2cc0542d xfs: avoid unnecessary open zone check in xfs_select_zone_nowait()
-         6a82a691b08070ad03b237d7db89aa0bfef389e2 xfs: fix a comment typo in xfs_select_zone_nowait()
-         68aa101bf2046aa8365333a3768cece07975ca5f xfs: display more zone related information in mountstats
-         c1f955437440f92632e2efca4b591371bb3caefc xfs: avoid unnecessary calculations in xfs_zoned_need_gc()
+         362c490980867930a098b99f421268fbd7ca05fd xfs: fix integer overflow in bmap intent sort comparator
+         4f24a767e3d64a5f58c595b5c29b6063a201f1e3 xfs: stop reclaim before pushing AIL during unmount
+         79ef34ec0554ec04bdbafafbc9836423734e1bd6 xfs: avoid dereferencing log items after push callbacks
+         394d70b86fae9fe865e7e6d9540b7696f73aa9b6 xfs: save ailp before dropping the AIL lock in push callbacks
+         7cac60947335f8d88a6390814840590a61134484 xfs: refactor xfsaild_push loop into helper
+         268378b6ad20569af0d1957992de1c8b16c6e900 xfs: scrub: unlock dquot before early return in quota scrub
+         0c98524ab20193d8772cff9c71b00ad004fb1349 xfs: cleanup buftarg handling in XFS_IOC_VERIFY_MEDIA
+         e5966096d0856d071269cb5928d6bc33342d2dfd xfs: annotate struct xfs_attr_list_context with __counted_by_ptr
          
