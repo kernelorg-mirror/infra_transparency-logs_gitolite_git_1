@@ -1,23 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
-Date: Wed, 18 Mar 2026 19:03:12 -0000
-Message-Id: <177386059212.3894620.6728187232972640658@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mic/linux
+Date: Wed, 18 Mar 2026 19:24:42 -0000
+Message-Id: <177386188299.3910341.12902936514960901985@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/perf/perf-tools-next
-user: namhyung
+repo: pub/scm/linux/kernel/git/mic/linux
+user: mic
 changes:
-  - ref: refs/heads/tmp.perf-tools-next
-    old: bb551508e78c886e6d3bcca6c744d3bc3fd8ad59
-    new: 616cd6047cbf736d93808f652086dd10a836005f
+  - ref: refs/heads/next
+    old: 7ac90767f7abddb044e13bba0dbb68025f69c441
+    new: 66d67716a24c764e32adf317b29c0136d60b1f5f
     log: |
-         6c478e7b3eba3f387a2d6c749e3e3ee0f8ad1c53 perf: tools: cs-etm: Fix print issue for Coresight debug in ETE/TRBE trace
-         35cd0098eeb9601844cb82c4402fa7e6576c8b01 perf: tools: cs-etm: Enhance raw Coresight trace debug display
-         ebbc5ce26eca294cf5f4e63399de63d086900442 perf tools: Remove duplicate include of debug.h
-         4138987f8a90574f4d5881afa5db4c5f78553811 perf tools: Remove duplicate include of stat.h
-         616cd6047cbf736d93808f652086dd10a836005f perf symbol: Add RISCV case in get_plt_sizes
+         8946f30ae0d7bdb8472a4133c0cb2815ca93ac55 selftests/landlock: Drain stale audit records on init
+         9380013172e13bbb07e1af584ae05e53754997e9 landlock: Add missing kernel-doc "Return:" sections
+         b4c82f19148479e4302583ea0c99d70d9060e164 landlock: Improve kernel-doc "Return:" section consistency
+         d5590ec7b53f70d385d9a6eb75ec868aa3b2ea65 landlock: Fix formatting in tsync.c
+         66d67716a24c764e32adf317b29c0136d60b1f5f landlock: Fix kernel-doc warning for pointer-to-array parameters
          
