@@ -1,34 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
-Date: Wed, 18 Mar 2026 16:03:18 -0000
-Message-Id: <177384979880.3736959.6704106125103462808@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
+Date: Wed, 18 Mar 2026 16:06:08 -0000
+Message-Id: <177384996894.3740564.3521671784455031674@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tiwai/sound
-user: tiwai
+repo: pub/scm/linux/kernel/git/jlayton/linux
+user: jlayton
 changes:
-  - ref: refs/heads/for-linus
-    old: 8306a78a1c04cf87bfa9ae6451cc9d8f0f9dc0e0
-    new: 591721223be9e28f83489a59289579493b8e3d83
+  - ref: refs/heads/fw-path
+    old: 34ef431f07144bfbb2801422281e8f1db443ad93
+    new: 4de740f5ad74af4be51d6289f0952841ff9f83b8
     log: |
-         591721223be9e28f83489a59289579493b8e3d83 ALSA: asihpi: avoid write overflow check warning
-         
-  - ref: refs/heads/for-next
-    old: 785639b5bf2a87eaf0cda14baaa068b3728c7be2
-    new: df3eec203b940bad98a7c0b7ec0edaaaa8cd0247
-    log: |
-         df3eec203b940bad98a7c0b7ec0edaaaa8cd0247 ALSA: usb-audio: validate full match when resolving quirk aliases
-         
-  - ref: refs/heads/master
-    old: 62296d19e733b19035a810c6a1a4ca5a18d6d1dd
-    new: b3c48fa1fb397b490101785ddd87caf2e5513a66
-    log: |
-         591721223be9e28f83489a59289579493b8e3d83 ALSA: asihpi: avoid write overflow check warning
-         147a7fc02db986967c79f072717197c813f77772 Merge branch 'for-linus'
-         df3eec203b940bad98a7c0b7ec0edaaaa8cd0247 ALSA: usb-audio: validate full match when resolving quirk aliases
-         b3c48fa1fb397b490101785ddd87caf2e5513a66 Merge branch 'for-next'
+         9edc277a8f2f83ddf777f69172a88d607bed5a9d firmware_loader: allow firmware_class.path to take multiple paths
+         4de740f5ad74af4be51d6289f0952841ff9f83b8 firmware_loader: allow firmware_class.path to take multiple paths
          
