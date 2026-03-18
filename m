@@ -1,22 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Tue, 17 Mar 2026 23:58:22 -0000
-Message-Id: <177379190223.2912285.14751430055025656942@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
+Date: Wed, 18 Mar 2026 00:03:33 -0000
+Message-Id: <177379221352.2916564.2919730350891075983@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/ath/ath
+user: jjohnson
 changes:
-  - ref: refs/heads/master
-    old: f0caa1d49cc07b30a7e2f104d3853ec6dc1c3cad
-    new: a989fde763f4f24209e4702f50a45be572340e68
+  - ref: refs/heads/pending
+    old: 7bbb578fc43e7dcb8690cfc98844bd67bc311e8a
+    new: 0d5769b8088ccbc7c284841c3419622fdf3a87c8
     log: |
-         a8aec14230322ed8f1e8042b6d656c1631d41163 nvdimm/bus: Fix potential use after free in asynchronous initialization
-         8b8f1d5e350acdf972b6b02e225d9e14c600f7ad kunit: Add documentation of --list_suites
-         9e22d8e18f37059678c2f34ab3b447b8c964c6bf Merge tag 'linux_kselftest-kunit-fixes-7.0-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/shuah/linux-kselftest
-         a989fde763f4f24209e4702f50a45be572340e68 Merge tag 'libnvdimm-fixes-7.0-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/nvdimm/nvdimm
+         d9c0905bb6be1eaa8fa675b506834e0de423c345 wifi: ath12k: avoid dynamic alloc when parsing wmi tb
+         6d5079c95a376a1972eea119150b6d31ef7b6411 wifi: ath12k: fix endianness handling for SRNG ring pointer accesses
+         56acce8d2fcab9ce7305a4f2447acd1d20300786 wifi: ath12k: fix HE/EHT capability handling on big endian
+         d7f4951f68f5bbf2b0662f6d86f81c5b32e5378c wifi: ath12k: fix MAC address copy on big endian
+         0d5769b8088ccbc7c284841c3419622fdf3a87c8 wifi: ath12k: fix channel list copy on big endian
          
