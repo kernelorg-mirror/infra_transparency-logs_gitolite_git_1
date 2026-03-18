@@ -1,25 +1,40 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kbuild/linux
-Date: Wed, 18 Mar 2026 20:06:46 -0000
-Message-Id: <177386440696.3947060.12514455197055529256@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============3445122108250341482=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jfern/linux
+Date: Wed, 18 Mar 2026 20:13:34 -0000
+Message-Id: <177386481498.3951661.11695295114158754561@gitolite.kernel.org>
+
+--===============3445122108250341482==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kbuild/linux
-user: nsc
+repo: pub/scm/linux/kernel/git/jfern/linux
+user: jfern
 changes:
-  - ref: refs/heads/kbuild-for-next
-    old: dc3b90751d6ffa8865e09a81645a539b9de6d642
-    new: c9bb03ac2c66bc5aa81b51ea0792477524c2763a
-    log: |
-         c9bb03ac2c66bc5aa81b51ea0792477524c2763a kbuild: reduce output spam when building out of tree
-         
-  - ref: refs/heads/kbuild-next-unstable
-    old: dc3b90751d6ffa8865e09a81645a539b9de6d642
-    new: c9bb03ac2c66bc5aa81b51ea0792477524c2763a
-    log: |
-         c9bb03ac2c66bc5aa81b51ea0792477524c2763a kbuild: reduce output spam when building out of tree
-         
+  - ref: refs/heads/rcu/dev
+    old: f95b3001546149a5741dd9c33ddddb4ec613ff90
+    new: 772945be501c66b35e4be8586222f151c3659f7f
+    log: revlist-f95b30015461-772945be501c.txt
+
+--===============3445122108250341482==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-f95b30015461-772945be501c.txt
+
+2c14fcdeceadadc87dc5dd4dd5b29bebbc7a95c1 rcu-tasks: Document that RCU Tasks Trace grace periods now imply RCU grace periods
+af7e3b62a1822bae566a5776335e61456c96bfdf rcutorture: Add NOCB01 config for RCU_LAZY torture testing
+b258bf115e98b6c0a8534fe0e04557e56756a24e rcutorture: Add NOCB02 config for nocb poll mode testing
+b2f611ac7ac0a84c1f4014347910e16728cfd5c1 rcu-tasks: Remove unnecessary smp_store_release() in cblist_init_generic()
+dfddb571d4e8ec1d25619c9635641df7e4f1bf13 rcu/nocb: Consolidate rcu_nocb_cpu_offload/deoffload functions
+2eb571a7e9db573c5da6b301379dba89beec94d6 rcu/nocb: Extract nocb_bypass_needs_flush() to reduce duplication
+42ac29e442409c8f933d040c2416bbe9ebe6f44f torture: Avoid modulo-zero error in torture_hrtimeout_ns()
+be3d498765cd9b0523feb220822b8a89ec12390a rcu: Add BOOTPARAM_RCU_STALL_PANIC Kconfig option
+0490fe4b5c39f1edad61ab81be8b66766c19e588 srcu: Use raw spinlocks so call_srcu() can be used under preempt_disable()
+772945be501c66b35e4be8586222f151c3659f7f rcutorture: Test call_srcu() with preemption disabled and not
+
+--===============3445122108250341482==--
