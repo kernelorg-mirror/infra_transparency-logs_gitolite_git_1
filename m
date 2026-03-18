@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0530735613232337071=="
+Content-Type: multipart/mixed; boundary="===============7235213293114360177=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Wed, 18 Mar 2026 15:19:27 -0000
-Message-Id: <177384716738.3696719.10032437114254990922@gitolite.kernel.org>
+Date: Wed, 18 Mar 2026 15:20:06 -0000
+Message-Id: <177384720662.3699737.2109585593393287655@gitolite.kernel.org>
 
---===============0530735613232337071==
+--===============7235213293114360177==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,48 +17,40 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/usb-linus
-    old: 769cafe477248a296cbf227bd6d8fddb7e00e020
-    new: 1a122198ee26d2f328edae802b2ca4fa0518a20a
+    old: 1a122198ee26d2f328edae802b2ca4fa0518a20a
+    new: f50200dd44125e445a6164e88c217472fa79cdbc
     log: |
-         e1eabb072c75681f78312c484ccfffb7430f206e usb: gadget: u_ether: Fix race between gether_disconnect and eth_stop
-         8a768552f7a8276fb9e01d49773d2094ace7c8f1 usb: usbtmc: Flush anchored URBs in usbtmc_release
-         d2d8c17ac01a1b1f638ea5d340a884ccc5015186 usb: typec: ucsi: validate connector number in ucsi_notify_common()
-         616a63ff495df12863692ab3f9f7b84e3fa7a66d USB: dummy-hcd: Fix locking/synchronization error
-         2ca9e46f8f1f5a297eb0ac83f79d35d5b3a02541 USB: dummy-hcd: Fix interrupt synchronization error
-         e002e92e88e12457373ed096b18716d97e7bbb20 usb: gadget: u_ether: Fix NULL pointer deref in eth_get_drvinfo
-         b2f6648c735639d246dc5f98f377b69d5374c2bd usb: hcd: queue wakeup_work to system_freezable_wq workqueue
-         f97e96c303d689708f7f713d8f3afcc31f1237e9 cdc-acm: new quirk for EPSON HMD
-         1a122198ee26d2f328edae802b2ca4fa0518a20a dwc3: google: Fix PM domain leak in dwc3_google_probe()
+         f50200dd44125e445a6164e88c217472fa79cdbc usb: gadget: dummy_hcd: fix premature URB completion when ZLP follows partial transfer
          
 
---===============0530735613232337071==
+--===============7235213293114360177==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1773847165 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1773847204 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1773847163-c9199d2376f258706bed341ba17e028c21e5d6ae
+nonce 1773847203-3fc14b9cb793cf6f6e1fe643b2f265a8c271e5cf
 
-769cafe477248a296cbf227bd6d8fddb7e00e020 1a122198ee26d2f328edae802b2ca4fa0518a20a refs/heads/usb-linus
+1a122198ee26d2f328edae802b2ca4fa0518a20a f50200dd44125e445a6164e88c217472fa79cdbc refs/heads/usb-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmm6wn0bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Tt4QAKAUKL8xNQF/R7lw5Fvr
-nyERTMceb5g92BfmCysmgnURsNohrgDHAhMfNjVSGks2Mlfu3CXTYcpu8079QET1
-9LpJbXgedNxMAQDzBVpqo7/h3SagsK9rHpOaCRWwhgo0LST37JHHDLwwqIsUorC9
-FWhloKjR9GE94HPsPaUJM5s6vZgWxz4H4U665F6ZslsytQEyLylQDH0/sajmVlOL
-8fPbcaP6We3POsLZiTgipRVKk9sgUYuGorxdsouZ3VrmC2+64ETn+dfXUfP6v6OP
-fyuKphAQVYh3r3Bseq0EXHIht6xNGrDfA8aA0/tNikenXZlbFkw7vjJkM/jpCe9n
-Hsg2eTVRrW9TShTeqX7VCf63SlT0s0U0hKgflkYhDpI9VFJMhR+ns9KAofS0wIDo
-VKfROWMKlGzdeOHtehiBIKR5iCeyt7xmZpMW+3p7RvG1ccXiHmlASZff2VocOBo/
-0Uh9ELEiSXIaFbBXjBzhn/oAmE6P+eecDPUPue9bC7dgpjrXtpEmFi38zsvIjMaG
-G8JwfHsMmvfgrph8RG8kEWkYM9/0VYLgKdNdOykMBNhevMS9Fcogcz9YIqYqVp/R
-OeZY6xYMSsAINA+PGSWjvvQtJ9Ly7eapSkJKN2CxmF1HunVLbbQe+PQZX3ttAvgf
-t5+rizMLgzjMN9y6e8tzGpGP
-=4Ue3
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmm6wqUbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+xRMQANPe5bMZ7rSUnI13P47t
+FcECEAz7Ubsxp4JVN+tz91m4ViqANWxhfHt7wuSIxx6DspNh3XE/PV28q1lXbhFS
+/3dFxcr2ZaB3bbEJygfSzRhuLCx1Yzs4TsAzy3Hg92CkyB60J9d40pduJcTKiwxU
+Erol5hI2AnKMNk3zjdhvWpHMXa0x6k8yehqH15VkVmJoKARfp8MOLMJMaaj6jqHo
+ImmGNLDU5AdTzV0go+cUtR7gVet0JthG1g7oVfJ8T/d1XQFRa1xMkDxkn+TzVDe7
+S2rCa9sNOXsL3g5mwl7539CuGfO45AFLftzWfVgwuPO0/VPbJv3/OAmoRHFyUqfX
+zZxo9QG/P+iBtaDt+ufsm+CL5UKPh/3U6fIw1nk6VewSowoXOwrsf/pXk/+EuMVG
+xBIwRDD9UHVDO2cYRtuKpNeX9gfX06JMunne0eIP40eGCDdxSMvJLXXDjO2Oizam
+emFWPDISVZTJ8eypwn7hFi3pg2wskMkmdaGv7SYQx8coF7G9d169hA6aO+JSdCp1
+0cHMsiqVKGVQ/DJ6dnsISIPEFacwfmMS1LP3v1eri6wNOdC50om/dDqPu/0mcKJ8
+/ferqC8U73O8WordBj/rhLksJQWiEbGO/5CprQ/7g77GY4Lw3/1huv2ifRFvoSpo
+quCyEtFFan6TKJzkeMMM5NsV
+=rP/k
 -----END PGP SIGNATURE-----
 
---===============0530735613232337071==--
+--===============7235213293114360177==--
