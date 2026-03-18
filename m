@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/mm
-Date: Wed, 18 Mar 2026 00:23:06 -0000
-Message-Id: <177379338673.2934371.18439568395850636500@gitolite.kernel.org>
+Subject: post-receive: pub/scm/docs/man-pages/man-pages
+Date: Wed, 18 Mar 2026 00:40:41 -0000
+Message-Id: <177379444100.2950069.7218982612890236486@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/mm
-user: akpm
+repo: pub/scm/docs/man-pages/man-pages
+user: alx
 changes:
-  - ref: refs/tags/mm-everything-2026-03-18-00-22
-    old: 0000000000000000000000000000000000000000
-    new: a7eefcf56cdc76e2394b2fc3c159515db2b0c82e
+  - ref: refs/heads/master
+    old: b1187cc836fb130424895b3c060c855da02a040f
+    new: 729e225dac21491a552c6c65fc27efc53a4c7146
+    log: |
+         729e225dac21491a552c6c65fc27efc53a4c7146 CONTRIBUTING.d/patches/trailer: Fixes: Use 8-char hashes
+         
