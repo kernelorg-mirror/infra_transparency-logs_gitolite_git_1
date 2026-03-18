@@ -1,23 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mic/linux
-Date: Wed, 18 Mar 2026 19:24:42 -0000
-Message-Id: <177386188299.3910341.12902936514960901985@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Wed, 18 Mar 2026 19:30:49 -0000
+Message-Id: <177386224942.3917200.7318521130187425362@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mic/linux
-user: mic
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/next
-    old: 7ac90767f7abddb044e13bba0dbb68025f69c441
-    new: 66d67716a24c764e32adf317b29c0136d60b1f5f
+  - ref: refs/heads/spi-7.1
+    old: 29a80e6c3a38f0c533b5a17ae6862886d6322510
+    new: 5b7ac8ca0eae522735d24f7c5c2296c8094328b1
     log: |
-         8946f30ae0d7bdb8472a4133c0cb2815ca93ac55 selftests/landlock: Drain stale audit records on init
-         9380013172e13bbb07e1af584ae05e53754997e9 landlock: Add missing kernel-doc "Return:" sections
-         b4c82f19148479e4302583ea0c99d70d9060e164 landlock: Improve kernel-doc "Return:" section consistency
-         d5590ec7b53f70d385d9a6eb75ec868aa3b2ea65 landlock: Fix formatting in tsync.c
-         66d67716a24c764e32adf317b29c0136d60b1f5f landlock: Fix kernel-doc warning for pointer-to-array parameters
+         c2edd7841f58cf228347b91256f0d9efcc1a1f50 spi: dt-bindings: renesas,rzv2h-rspi: Document dmas property
+         5b7ac8ca0eae522735d24f7c5c2296c8094328b1 spi: dt-bindings: renesas,rzv2h-rspi: Document RZ/G3E SoC support
          
