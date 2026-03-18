@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/device-mapper/linux-dm
-Date: Wed, 18 Mar 2026 18:28:14 -0000
-Message-Id: <177385849465.3866265.12191676207186885884@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kdave/btrfs-progs
+Date: Wed, 18 Mar 2026 18:30:31 -0000
+Message-Id: <177385863177.3869630.12897651909688125812@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/device-mapper/linux-dm
-user: mikulas
+repo: pub/scm/linux/kernel/git/kdave/btrfs-progs
+user: kdave
 changes:
-  - ref: refs/heads/dm-7.1
-    old: be752ce2f544d8329c1349e7d6755d56a910a202
-    new: 23e6e57a93bcabe86d5f0eab1df0c44706ab18f3
-    log: |
-         23e6e57a93bcabe86d5f0eab1df0c44706ab18f3 dm: make "dmsetup remove_all" interruptible
-         
+  - ref: refs/tags/v6.19.1
+    old: 0000000000000000000000000000000000000000
+    new: 8257cd11cbb1acdd2f847a0d6118c273a8e635b7
