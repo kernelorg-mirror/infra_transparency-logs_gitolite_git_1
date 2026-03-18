@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1787586216243774636=="
+Content-Type: multipart/mixed; boundary="===============6115463140868126362=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Wed, 18 Mar 2026 01:21:37 -0000
-Message-Id: <177379689795.2986669.2500280310601150095@gitolite.kernel.org>
+Date: Wed, 18 Mar 2026 01:21:39 -0000
+Message-Id: <177379689977.2986788.8795000379839509431@gitolite.kernel.org>
 
---===============1787586216243774636==
+--===============6115463140868126362==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/mm-new
-    old: 7d47a508dfdc335c107fb00b4d9ef46488281a52
-    new: 39849a55738542a4cdef8394095ccfa98530e250
-    log: revlist-7d47a508dfdc-39849a557385.txt
+  - ref: refs/heads/mm-unstable
+    old: dffde584d8054e88e597e3f28de04c7f5d191a67
+    new: e990e94fd80162aa499989eb97023d847000613f
+    log: revlist-dffde584d805-e990e94fd801.txt
 
---===============1787586216243774636==
+--===============6115463140868126362==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7d47a508dfdc-39849a557385.txt
+Content-Disposition: attachment; filename=revlist-dffde584d805-e990e94fd801.txt
 
 da142f3d373a6ddaca0119615a8db2175ddc4121 KVM: Remove subtle "struct kvm_stats_desc" pseudo-overlay
 c9f3a593137d862d424130343e77d4b5260a4f5a iio: imu: inv_icm42600: fix odr switch to the same value
@@ -946,48 +946,5 @@ c7046dee48fa269d7175fdec9a833bb46b0d0766 mm: introduce is_pmd_order helper
 82aa1ad69287bf38f81b0f19013f65ab5989d421 mm/khugepaged: unify khugepaged and madv_collapse with collapse_single_pmd()
 2f375c71e567a72556f7ea2c95b8318331e174c7 zram: optimize LZ4 dictionary compression performance
 e990e94fd80162aa499989eb97023d847000613f zram: propagate read_from_bdev_async() errors
-16819c5fa942e942afee90ed31d989af3df9b020 mm: zswap: remove redundant checks in zswap_cpu_comp_dead()
-67299a8a90dde3bc86e66f3e7492ff2257cd24f3 mm: zswap: tie per-CPU acomp_ctx lifetime to the pool
-ef2e2cd213b9a9f2ca77baace37855a6b14444f2 mm/vma: add vma_flags_empty(), vma_flags_and(), vma_flags_diff_pair()
-a11daf9b875dcb53b11bb2058ac6762435aba4a9 tools/testing/vma: add unit tests flag empty, diff_pair, and[_mask]
-529620a65512a80932fdbdf117fddaaa6c8d2e35 mm/vma: add further vma_flags_t unions
-93297c1daa40f38858a0e1f473838651c74e75dd tools/testing/vma: convert bulk of test code to vma_flags_t
-a3d5dda94d938d4874bb731882cba200b3cd8f86 mm/vma: use new VMA flags for sticky flags logic
-db1cb180b925ef56b856234ba1c4fd0a7ac37e7e tools/testing/vma: fix VMA flag tests
-c279276b7483b84d73de09da3310a5aa3e956429 mm/vma: add append_vma_flags() helper
-c8ffc058c73f9445d621a15023d2cf258e77e8c4 tools/testing/vma: add simple test for append_vma_flags()
-bb385d2eb943ba75f25e62abfdef79746067a3b9 mm: unexport vm_brk_flags() and eliminate vm_flags parameter
-95ed1f0cfe2d96e4b083c11166c1874fc8913e17 mm/vma: introduce vma_flags_same[_mask/_pair]()
-2487295185eb03e6d598d72a6d469f450469e44f mm/vma: introduce [vma_flags,legacy]_to_[legacy,vma_flags]() helpers
-f640d8a933e76cb34fb4152c6a5f73fdb2fbdacd tools/testing/vma: test that legacy flag helpers work correctly
-4e9577db4541f8692e0c78e3b330b9e6bf24ef20 mm/vma: introduce vma_test[_any[_mask]](), and make inlining consistent
-3ce97b51c455f43b9c371ccdb1ab32777324a77c tools/testing/vma: update VMA flag tests to test vma_test[_any_mask]()
-8736ee44fbda953b842af57c26b31e9c49d8e7a9 mm: introduce vma_flags_count() and vma[_flags]_test_single_mask()
-d5b77f7712a0e4a5222ab049068c5cf2ee4a9de9 tools/testing/vma: test vma_flags_count,vma[_flags]_test_single_mask
-129dfb76e7eb0cdde689259e5988c1159c02ff24 mm: convert do_brk_flags() to use vma_flags_t
-2e9d6d87c4ee105febf91bcb416f0f3bd89addd0 mm: update vma_supports_mlock() to use new VMA flags
-8ce4f2ada84eece3821e44e7e1b24202bcaf722b mm/vma: introduce vma_clear_flags[_mask]()
-aa7c2084e47518237282a3ab3f45585f765c30f3 tools/testing/vma: update VMA tests to test vma_clear_flags[_mask]()
-b7afbe8468177efbfa0e9017ba174bb5ea37999d mm/vma: convert as much as we can in mm/vma.c to vma_flags_t
-67d7cce4c1747f1e103cf7b601ea880d7cd70648 mm/vma: convert vma_modify_flags[_uffd]() to use vma_flags_t
-3d17a8f573050045fe919bbebb885fae7b6a08cd mm/vma: convert __mmap_region() to use vma_flags_t
-00e55a4e9745347c77e0b0aeb577213172ff0921 Docs/mm/damon: document exclusivity of special-purpose modules
-ae0171196f7a048bcdc5993f6d0157e9b892e9da mm: various small mmap_prepare cleanups
-0043557eb02e2c9aca93c7672c6a7dcf44177184 mm: add documentation for the mmap_prepare file operation callback
-bcdf371b0e2f4d95edfef6df47286683bc1429a7 mm: document vm_operations_struct->open the same as close()
-9a6a92d35197f2522524eef825a6e489e5e1991d mm: add vm_ops->mapped hook
-b6748b276120af9fdfa98ea9504054265ad63957 fs: afs: correctly drop reference count on mapping failure
-bd80617db7b61c77eb318ac221cdb40a69f20fc8 mm: add mmap_action_simple_ioremap()
-63ef8560542728bf57c9abc3ec1a6a60c5a1c3f4 misc: open-dice: replace deprecated mmap hook with mmap_prepare
-6099638f9868eb84a55bb7a2cba7d1b96df69f95 hpet: replace deprecated mmap hook with mmap_prepare
-26f874323a08215080896ff8cddff0fcf9484a2f mtdchar: replace deprecated mmap hook with mmap_prepare, clean up
-b3743098da784bb21ec9f9680eb58d83d108e5d6 stm: replace deprecated mmap hook with mmap_prepare
-4ceaa961474d64a5fd3586b8b4dac8a8587e47ec staging: vme_user: replace deprecated mmap hook with mmap_prepare
-60b187cbbc2357b3de1b97f9cb4a1f8e0323c2fb mm: allow handling of stacked mmap_prepare hooks in more drivers
-76af0e874ed25109ab61168854957c42150bdc92 drivers: hv: vmbus: replace deprecated mmap hook with mmap_prepare
-f281ce8dd4fff7d725716f20498ac47988174e0e uio: replace deprecated mmap hook with mmap_prepare in uio_info
-7eed4936f21b743ee12a0913eec4f893cb8a79d5 mm: add mmap_action_map_kernel_pages[_full]()
-5d89ef089ccf2647464d0dce45977b345c6b0fab mm: on remap assert that input range within the proposed VMA
-39849a55738542a4cdef8394095ccfa98530e250 zram: change scan_slots to return void
 
---===============1787586216243774636==--
+--===============6115463140868126362==--
