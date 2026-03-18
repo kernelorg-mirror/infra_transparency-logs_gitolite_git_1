@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============8749398676612939456=="
+Content-Type: multipart/mixed; boundary="===============7224661758552409495=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Wed, 18 Mar 2026 00:11:44 -0000
-Message-Id: <177379270457.2925184.12302367477154556099@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools
+Date: Wed, 18 Mar 2026 00:12:06 -0000
+Message-Id: <177379272625.2925494.12231436021633973184@gitolite.kernel.org>
 
---===============8749398676612939456==
+--===============7224661758552409495==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/acme/linux
+repo: pub/scm/linux/kernel/git/perf/perf-tools
 user: acme
 changes:
   - ref: refs/heads/master
@@ -20,7 +20,7 @@ changes:
     new: a989fde763f4f24209e4702f50a45be572340e68
     log: revlist-267594792a71-a989fde763f4.txt
 
---===============8749398676612939456==
+--===============7224661758552409495==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -165,4 +165,4 @@ f0caa1d49cc07b30a7e2f104d3853ec6dc1c3cad Merge tag 'hid-for-linus-2026031701' of
 9e22d8e18f37059678c2f34ab3b447b8c964c6bf Merge tag 'linux_kselftest-kunit-fixes-7.0-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/shuah/linux-kselftest
 a989fde763f4f24209e4702f50a45be572340e68 Merge tag 'libnvdimm-fixes-7.0-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/nvdimm/nvdimm
 
---===============8749398676612939456==--
+--===============7224661758552409495==--
