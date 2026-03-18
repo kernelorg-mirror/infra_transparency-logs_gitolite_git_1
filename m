@@ -1,21 +1,27 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/firmware/linux-firmware
-Date: Wed, 18 Mar 2026 17:40:09 -0000
-Message-Id: <177385560943.3823952.16881794753020824195@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux
+Date: Wed, 18 Mar 2026 17:40:47 -0000
+Message-Id: <177385564708.3824693.14352221353470633820@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/firmware/linux-firmware
-user: jwboyer
+repo: pub/scm/linux/kernel/git/axboe/linux
+user: axboe
 changes:
-  - ref: refs/heads/main
-    old: b8dde15d35b3fdfbb4288ce7803f5700d7a90e88
-    new: 217ca6e4deac7617b421ec62bbb43c5c8a520a59
+  - ref: refs/heads/rw_iter
+    old: 29b5b18584ebd4e073c702ac4e4f1609089542b4
+    new: 8714e89472ed6fb6cf9acdcc6ea34fe7154ac7af
     log: |
-         2d3de9fe2fb87a3c911c2c57e8e65b472e9c230a cirrus: cs35l63: Fix Cirrus Amp firmware links for some Dell laptops
-         7bea13fc9a53e1a511fbdcfc361ec24dbdded7c4 cirrus: cs35l63: Update firmware for Cirrus Amps for some Dell laptops
-         217ca6e4deac7617b421ec62bbb43c5c8a520a59 Merge branch 'robot/pr-0-1773854814' into 'main'
+         d30696674f79f98ae6fe5a373b43860e86322d64 x86/mtrr: convert proc_write to ->proc_write_iter()
+         b793a49e85ac932a8b87e0b9d09aa4571f873e76 irq: convert proc_write to ->proc_write_iter()
+         d4328b05573d870c40d9dd43c2205ecf5d4e407b ALSA: info: convert proc_write to ->proc_write_iter()
+         65fa0c4912a6479ae2faeb792b7bbd484f8d94f7 proc: proc_net: convert proc_simple_write to ->proc_write_iter()
+         980ef7641bc3fed297b550c2d1130699bd6b7924 atm: mpoa: convert proc_write to ->proc_write_iter()
+         ab3ffd694892d41e8cafe81a8b5280a7f406fc3c usb: rndis: convert proc_write to ->proc_write_iter()
+         cb263e3dc22a8cada567670e4a22c604df64e504 PCI: convert proc_write to ->proc_write_iter()
+         e80ccc7a01e4147cec2bafa40511ca71ccdd8832 proc: remove struct proc_ops ->proc_write() handler
+         8714e89472ed6fb6cf9acdcc6ea34fe7154ac7af kstrtox: remove (now) dead helpers
          
