@@ -1,23 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/dhowells/linux-fs
-Date: Thu, 19 Mar 2026 14:57:51 -0000
-Message-Id: <177393227121.688177.10467094366626772438@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/hid/hid
+Date: Thu, 19 Mar 2026 15:01:11 -0000
+Message-Id: <177393247127.693669.7516966697981200593@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/dhowells/linux-fs
-user: dhowells
+repo: pub/scm/linux/kernel/git/hid/hid
+user: bentiss
 changes:
-  - ref: refs/heads/rxrpc-fixes
-    old: 08c64c7a502d1f8bdb2819d2683f2b6e6f87b98b
-    new: a4e9668e6930b02cfff3c14e7d771d96628efb0c
+  - ref: refs/heads/for-7.1/core-v2
+    old: 142068281f5138a9888d488e6911e8d9f7923c15
+    new: 4a58ae85c3f9b142ffba023d0f976978ade57d1b
     log: |
-         0880dfed0c0247b598acc44e74ef9cce55c792a2 rxrpc: Fix RxGK token loading to check bounds
-         2c07420218329c5387b2d53576cbc49bc812f3c0 rxrpc: Fix use of wrong skb when comparing queued RESP challenge serial
-         dc658cc828266dd90ee26eb4876e2f78b25194f2 rxrpc: Fix rack timer warning to report unexpected mode
-         58a828f9e8a51d97ef458ff2dfd980eb95d305d1 rxrpc: Fix keyring reference count leak in rxrpc_setsockopt()
-         a4e9668e6930b02cfff3c14e7d771d96628efb0c rxrpc: Fix key reference count leak from call->key
+         5a9df498581a2e12fd960ddeb1da41dd771d9000 HID: input: Convert battery code to devm_*
+         7a3ac62473f2bd213557e41aaab7a8f144037dfd HID: input: Introduce struct hid_battery and refactor battery code
+         4a58ae85c3f9b142ffba023d0f976978ade57d1b HID: input: Add support for multiple batteries per device
          
