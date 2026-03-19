@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Thu, 19 Mar 2026 10:11:16 -0000
-Message-Id: <177391507600.449867.8192050779364523124@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/util-linux/util-linux
+Date: Thu, 19 Mar 2026 10:11:41 -0000
+Message-Id: <177391510124.450180.152864750235195451@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: pabeni
+repo: pub/scm/utils/util-linux/util-linux
+user: kzak
 changes:
-  - ref: refs/heads/main
-    old: 96a584db75bb21781562dc79f11932ce38a1205f
-    new: 9f4960b94f1a044f76da98a765d6cbd294c22c92
+  - ref: refs/heads/master
+    old: cf669d5318042914d5dc3117576a99c00770ca1f
+    new: 6cd6005f03e11eba20a6e44253bbd16379e8fca2
     log: |
-         9f4960b94f1a044f76da98a765d6cbd294c22c92 l2tp: ppp: use max L2TP header size for PPP channel hdrlen
+         bc8e0536846732be9e4fdea13875dd59d4c01914 build(deps): bump actions/upload-artifact from 6 to 7
+         6cd6005f03e11eba20a6e44253bbd16379e8fca2 Merge branch 'dependabot/github_actions/actions/upload-artifact-7' of github.com:util-linux/util-linux
          
