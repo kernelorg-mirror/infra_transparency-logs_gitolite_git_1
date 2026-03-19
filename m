@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bluetooth/bluetooth
-Date: Thu, 19 Mar 2026 19:03:41 -0000
-Message-Id: <177394702166.1123622.3494478739327634723@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Thu, 19 Mar 2026 19:09:19 -0000
+Message-Id: <177394735974.1127906.7589915616851981828@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bluetooth/bluetooth
-user: vudentz
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: martin.lau
 changes:
-  - ref: refs/tags/for-net-2026-03-19
-    old: 0000000000000000000000000000000000000000
-    new: d175c5f7a5631893dc6825c41045ecbe7de9dbe5
+  - ref: refs/heads/master
+    old: 4a4fedb8a523e35d2ad80637bae85de3ee56646b
+    new: 350de5b8a9befaa2a68861c51f671d4f5f751ca5
+    log: |
+         350de5b8a9befaa2a68861c51f671d4f5f751ca5 bpf: Do not allow deleting local storage in NMI
+         
