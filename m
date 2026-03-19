@@ -1,51 +1,46 @@
-Content-Type: multipart/mixed; boundary="===============7025920311585561801=="
+Content-Type: multipart/mixed; boundary="===============0296064862424452762=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
-Date: Thu, 19 Mar 2026 21:46:11 -0000
-Message-Id: <177395677196.1255813.15956123551532026663@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
+Date: Thu, 19 Mar 2026 21:48:13 -0000
+Message-Id: <177395689392.1256509.9260439458552116872@gitolite.kernel.org>
 
---===============7025920311585561801==
+--===============0296064862424452762==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/peterz/queue
-user: peterz
+repo: pub/scm/linux/kernel/git/perf/perf-tools-next
+user: namhyung
 changes:
-  - ref: refs/heads/sched/flat
-    old: ce21f9c3b62573e0077e18d71aaaa0ed92250a6b
-    new: 4974c93ce402d69988eb7b2e9e490c22cc22bb7b
-    log: revlist-ce21f9c3b625-4974c93ce402.txt
+  - ref: refs/heads/tmp.perf-tools-next
+    old: 616cd6047cbf736d93808f652086dd10a836005f
+    new: ca76fb67ebdd5e1a30a242d06dc096fddd670734
+    log: revlist-616cd6047cbf-ca76fb67ebdd.txt
 
---===============7025920311585561801==
+--===============0296064862424452762==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ce21f9c3b625-4974c93ce402.txt
+Content-Disposition: attachment; filename=revlist-616cd6047cbf-ca76fb67ebdd.txt
 
-8e8e23dea43e64ddafbd1246644c3219209be113 sched/topology: Compute sd_weight considering cpuset partitions
-5a7b576b3ec1acc2694c5b58f80cd1d44a11b2c1 sched/topology: Extract "imb_numa_nr" calculation into a separate helper
-1cc8a33ca7e8d38f962b64ece2a42c411a67bc76 sched/topology: Allocate per-CPU sched_domain_shared in s_data
-bb7a5e44fc6f3d5a252d95c48d057d5beccb8b35 sched/topology: Switch to assigning "sd->shared" from s_data
-10febd397591d93f42adb743c2c664041e7f1bcb sched/topology: Remove sched_domain_shared allocation with sd_data
-f494bfb04615119f31dbd3222c9d39fea3817d40 sched/core: Check for rcu_read_lock_any_held() in idle_get_state()
-8ca12326f592f7554acf2788ecb1c5c954dcf31c PM: EM: Switch to rcu_dereference_all() in wakeup path
-fa6874dfeee06352ce7c4c271be6a25d84a38b54 sched/fair: Remove superfluous rcu_read_lock() in the wakeup path
-f1320a8dd8ba6518ddb53ea4e3efcb49dc41d257 sched/fair: Simplify the entry condition for update_idle_cpu_scan()
-fe7171d0d5dfbe189e41db99580ebacafc3c09ce sched/fair: Simplify SIS_UTIL handling in select_idle_cpu()
-f27d28b6d37db907b9be645b25669e4c64473e99 Merge branch 'tip/sched/hrtick'
-14b194d9c9b134a48d7d3062e85c529b3afeaca3 sched/debug: Use 'char *' instead of 'char (*)[]'
-eec36311b7aea21e64d97fbfa9a6adc70aa52bba sched: Use {READ,WRITE}_ONCE() for preempt_dynamic_mode
-7ca5831399159a04714cd1a3e802d6bab1393d05 sched/debug: Collapse subsequent CONFIG_SCHED_CLASS_EXT sections
-88980b7b96f2fcf82399b4867b34306eefcdb866 sched/fair: Add cgroup_mode switch
-793acb98a7752d8d94f63e469ff6c77f1ab2ff67 sched/fair: Add cgroup_mode: UP
-c9e76354bda9a72418452454c6477766666628f1 sched/fair: Add cgroup_mode: MAX
-162f6a1d41fcf38283e203a18f0a2b44aff17308 sched/fair: Add cgroup_mode: CONCUR
-796339ea7475d08acfe6a5b94c750e5ca782faaa sched/fair: Add newidle balance to pick_task_fair()
-9e0b5a8579a3b2727784b2f6c3548e26f68cfe76 sched: Remove sched_class::pick_next_task()
-4974c93ce402d69988eb7b2e9e490c22cc22bb7b sched/eevdf: Move to a single runqueue
+30b2e6fa58f3b9eff86fb851a8926bf814d82dcd perf dwarf-aux: Add die_get_pointer_type to get pointer types
+ace16303179efad4e1a2aebb27a661e5d1e7277d perf dwarf-aux: Preserve typedefs in match_var_offset
+8b8d8b8f17dfa817e4e94ce4e8f26d92f6f65504 perf dwarf-aux: Skip check_variable for variable lookup
+69953f9c65856fc9438fc2ad4b9fd8255a2e47da perf annotate-data: Improve type comparison from different scopes
+6ffc3d0d3db5fb6c88fcb69eb355e9cc839a860c perf dwarf-aux: Handle array types in die_get_member_type
+752e662ae0619721ddde6f60a84fbe3c669fc539 perf annotate-data: Collect global variables without name
+1b8db0c963bf788392976bea87f0ef8d227c4930 perf annotate-data: Handle global variable access with const register
+22b320777c5f496a36867f16f18870e67b123020 perf annotate-data: Add invalidate_reg_state() helper for x86
+d35b0d5877109ecca106cc3835d4d23ac2cdc33c perf annotate-data: Invalidate caller-saved regs for all calls
+4fb7eefe6c539840fa8854d67d00af35331b8843 perf annotate-data: Use DWARF location ranges to preserve reg state
+a90407a5a89a29f3c4af89e55afe4d0489b8a81c perf dwarf-aux: Collect all variable locations for insn tracking
+d84db579d75fd32ea6dd7814c8cf6b1c8b45ac05 perf evsel: Improve falling back from cycles
+8ebb69e549aa900cb51c0876c4f6ea03e5ece438 perf target: Constify simple check functions
+443556be8adc59126624eccd41f4150ec0e5a11a perf evsel: Constify option arguments to config functions
+c006753c3aae432efda28d5aaea4b8fec0343da8 perf callchain: Refactor callchain option parsing
+ca76fb67ebdd5e1a30a242d06dc096fddd670734 perf evlist: Improve default event for s390
 
---===============7025920311585561801==--
+--===============0296064862424452762==--
