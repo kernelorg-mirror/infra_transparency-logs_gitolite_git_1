@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/docs/kernel/ksmap
-Date: Thu, 19 Mar 2026 12:48:20 -0000
-Message-Id: <177392450094.577809.12454498873308708411@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/util-linux/util-linux
+Date: Thu, 19 Mar 2026 12:51:50 -0000
+Message-Id: <177392471038.581419.1503478839378885261@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/docs/kernel/ksmap
-user: agrimberg
+repo: pub/scm/utils/util-linux/util-linux
+user: kzak
 changes:
   - ref: refs/heads/master
-    old: 9d36602d4d173dd2d19d7ca55309412cdadc1e2c
-    new: d301191c6b79ffbc1cd6b4f99f0de4d00c759f1c
+    old: 4bd753b2dc434ed9170522ab1132224dd0dce513
+    new: 4d0998c120528ba5612d74f53b43f322ce4dcbe0
     log: |
-         d301191c6b79ffbc1cd6b4f99f0de4d00c759f1c users: Remove Andrew Grimberg
+         4d0998c120528ba5612d74f53b43f322ce4dcbe0 add .clangd configuration
          
