@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf
-Date: Thu, 19 Mar 2026 00:26:57 -0000
-Message-Id: <177388001713.4176892.12267810842313027681@gitolite.kernel.org>
+Subject: post-receive: pub/scm/docs/man-pages/man-pages
+Date: Thu, 19 Mar 2026 00:38:25 -0000
+Message-Id: <177388070543.4185041.6494687386129388492@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf
-user: ast
+repo: pub/scm/docs/man-pages/man-pages
+user: alx
 changes:
   - ref: refs/heads/master
-    old: e06e6b8001233241eb5b2e2791162f0585f50f4b
-    new: 146bd2a87a65aa407bb17fac70d8d583d19aba06
+    old: 121695ff28e66db80dcc49ddd2710b5ceea17e22
+    new: 4271ab399edf5f126a1c27f267ef51ee9c2c2580
     log: |
-         146bd2a87a65aa407bb17fac70d8d583d19aba06 bpf: Release module BTF IDR before module unload
+         4271ab399edf5f126a1c27f267ef51ee9c2c2580 man/man2/mmap.2: Document that MAP_GROWSDOWN doesn't affect mmap return value.
          
