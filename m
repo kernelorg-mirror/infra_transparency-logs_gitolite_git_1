@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Thu, 19 Mar 2026 18:12:59 -0000
-Message-Id: <177394397974.1082718.12686659338962614901@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ras/ras
+Date: Thu, 19 Mar 2026 18:13:42 -0000
+Message-Id: <177394402261.1083278.10205601116859328890@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/net-queue
-user: tnguy
+repo: pub/scm/linux/kernel/git/ras/ras
+user: bp
 changes:
-  - ref: refs/heads/dev-queue
-    old: d66aad14ce58eabca2c6d42e7f2cf28adefedd85
-    new: 3ec86e58f41de4475dd36eb5d2136e7027b4866a
+  - ref: refs/heads/edac-drivers
+    old: 95ad29eb1baec322f31ddb247e5bf36f156578cf
+    new: fbe230a9a79b62be3c6ac55b24d53ce5dd9202d5
     log: |
-         3ec86e58f41de4475dd36eb5d2136e7027b4866a ice: fix posted write support for sideband queue operations
+         fbe230a9a79b62be3c6ac55b24d53ce5dd9202d5 EDAC/amd64: Add support for family 19h, models 40h-4fh
          
