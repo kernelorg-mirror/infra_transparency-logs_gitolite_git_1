@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/deller/parisc-linux
-Date: Thu, 19 Mar 2026 21:30:39 -0000
-Message-Id: <177395583971.1241182.2755787042138772466@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/b4/b4
+Date: Thu, 19 Mar 2026 21:36:24 -0000
+Message-Id: <177395618481.1245862.10553998236662625952@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/deller/parisc-linux
-user: deller
+repo: pub/scm/utils/b4/b4
+user: mricon
 changes:
-  - ref: refs/tags/parisc-for-7.0-rc5
-    old: 0000000000000000000000000000000000000000
-    new: 0a504668c3e51f2a288470df267990e06cee2f13
+  - ref: refs/heads/master
+    old: db13a1e6989d946ae12fc7acfd7ec38a61df2148
+    new: bc6c4d853c7eace3b7f325cbd17dfe2d67760fb7
+    log: |
+         bc6c4d853c7eace3b7f325cbd17dfe2d67760fb7 prep: add pre/post history-rewrite hooks
+         
