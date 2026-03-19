@@ -1,50 +1,25 @@
-Content-Type: multipart/mixed; boundary="===============4806059385300751159=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-Date: Thu, 19 Mar 2026 13:22:07 -0000
-Message-Id: <177392652757.606174.17527353716826030202@gitolite.kernel.org>
-
---===============4806059385300751159==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
+Date: Thu, 19 Mar 2026 13:23:17 -0000
+Message-Id: <177392659725.606732.726957254257502547@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-user: ij
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/cel/linux
+user: cel
 changes:
-  - ref: refs/heads/for-next
-    old: 8507277ef1326d6854a6445354cd43e93e2b95fa
-    new: 6da22b031a3cf995d6488500a5edae07cae3df2d
+  - ref: refs/heads/nfsd-testing
+    old: 81a686b5f787f168c8b1dd9f064a23314c5b1637
+    new: daad8b956e6295ffcab1f4672349dfaaec0e5367
     log: |
-         bd13b265d386afb15d9ee5feb4f2cb605a5770db platform/x86: fujitsu-tablet: Convert ACPI driver to a platform one
-         c256927c62475f222bd9fc913538dd484f88fed6 platform/x86: fujitsu: Reorder code to avoid forward declarations
-         9b9271ac2a25f427dd38a3f486e8b4d7afe7e0ec platform/x86: fujitsu: Register ACPI notify handlers directly
-         d5c9212ccfaa7bd453bf4b198eb19937f5deb58b platform/x86: fujitsu: Convert backlight driver to a platform one
-         6da22b031a3cf995d6488500a5edae07cae3df2d platform/x86: fujitsu: Convert laptop driver to a platform one
+         af4cfe276abb91cd3e27d7ff0908d3939e833d75 SUNRPC: Add svc_rqst_page_release() helper
+         735ca7a1819bfe5d119b6754e48be18d07b9569d svcrdma: Use contiguous pages for RDMA Read sink buffers
+         27e04d448dab69d17168baba7b0c2a8f914791a7 nfsd: fix comment typo in nfs3xdr
+         92ec8a9633ecf0c1f76cbc8a6710c11f4266bfe1 nfsd: fix comment typo in nfsxdr
+         4961fdf3193741f9b8004ba61238a99cdf396286 NFSD: Docs: clean up pnfs server timeout docs
+         9775ecd3a999b05a98566045eaae5ceb144f0650 [DEBUG] Add instrumentation for nfsd_mutex contention debugging
+         daad8b956e6295ffcab1f4672349dfaaec0e5367 siw: Enable try_gso
          
-
---===============4806059385300751159==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1773926523 +0200
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86.git
-nonce 1773926522-efde826515f09f993adc3245e2174d9e721ec602
-
-8507277ef1326d6854a6445354cd43e93e2b95fa 6da22b031a3cf995d6488500a5edae07cae3df2d refs/heads/for-next
------BEGIN PGP SIGNATURE-----
-
-iHUEABYIAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCabv4fgAKCRBZrE9hU+XO
-MdQjAP9H4mx8OAEXynXBXX+GaFpNToAUR+R+YL74y6QJ+o+oIwEA4UzR1DYX7DaS
-aSC9+7FyEPaNpO7eyipEsgYFaTnLnQA=
-=zJhr
------END PGP SIGNATURE-----
-
---===============4806059385300751159==--
