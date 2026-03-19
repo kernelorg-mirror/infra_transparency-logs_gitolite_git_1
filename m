@@ -1,23 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
-Date: Thu, 19 Mar 2026 17:24:04 -0000
-Message-Id: <177394104407.1035937.3730756571453259516@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ebiggers/linux
+Date: Thu, 19 Mar 2026 17:25:31 -0000
+Message-Id: <177394113105.1039039.14889508031765664900@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/perf/perf-tools-next
-user: namhyung
+repo: pub/scm/linux/kernel/git/ebiggers/linux
+user: ebiggers
 changes:
-  - ref: refs/heads/perf-tools-next
-    old: bb551508e78c886e6d3bcca6c744d3bc3fd8ad59
-    new: 616cd6047cbf736d93808f652086dd10a836005f
+  - ref: refs/heads/libcrypto-next
+    old: 520a39fb6916ac3a269ad4ea87a6cb9af9d5a910
+    new: 5bc2532a79090971102e79ec42911c40734f2746
     log: |
-         6c478e7b3eba3f387a2d6c749e3e3ee0f8ad1c53 perf: tools: cs-etm: Fix print issue for Coresight debug in ETE/TRBE trace
-         35cd0098eeb9601844cb82c4402fa7e6576c8b01 perf: tools: cs-etm: Enhance raw Coresight trace debug display
-         ebbc5ce26eca294cf5f4e63399de63d086900442 perf tools: Remove duplicate include of debug.h
-         4138987f8a90574f4d5881afa5db4c5f78553811 perf tools: Remove duplicate include of stat.h
-         616cd6047cbf736d93808f652086dd10a836005f perf symbol: Add RISCV case in get_plt_sizes
+         ed1767442d919f57aaf83d69c33853da2644d902 lib/crypto: tests: Introduce CRYPTO_LIB_ENABLE_ALL_FOR_KUNIT
+         8d547482231fef30d0d6440629b73560ad3e937c kunit: configs: Enable all crypto library tests in all_tests.config
+         6d80749becf8fc5ffa004194e578f79b558235ef lib/crypto: tests: Drop the default to CRYPTO_SELFTESTS
+         d76a943039a772fb2afd9c92bd25412d09bdf5c8 lib/crypto: Remove unused file blockhash.h
+         c2db2288b8c3e2878cc37962375419cca8dfe3b6 lib/crypto: arm64: Drop checks for CONFIG_KERNEL_MODE_NEON
+         63fcdbdb95ed36695c30e2b4ecf24b05fa9bdbca sample/tsm-mr: Use SHA-2 library APIs
+         5bc2532a79090971102e79ec42911c40734f2746 coco/guest: Remove unneeded selection of CRYPTO
          
