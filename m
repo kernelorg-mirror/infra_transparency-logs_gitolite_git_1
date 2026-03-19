@@ -1,22 +1,30 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/liburing
-Date: Thu, 19 Mar 2026 01:17:05 -0000
-Message-Id: <177388302538.28845.5690298514815114558@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pcmoore/lsm
+Date: Thu, 19 Mar 2026 01:18:20 -0000
+Message-Id: <177388310068.29549.18019811526060616517@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/liburing
-user: axboe
+repo: pub/scm/linux/kernel/git/pcmoore/lsm
+user: pcmoore
 changes:
-  - ref: refs/heads/master
-    old: a46158ba92c4e96377cb195b09aadd80a4798bfc
-    new: 1b9d216f953ab5afc8397135b59b8e4f721f87ca
+  - ref: refs/heads/next
+    old: 579a3eed2599e0ca07f3f557a33aeab52f63ba0d
+    new: 306dc96b226af064174a6d631495bc459088fd10
     log: |
-         ebb6af247953e5bcfc20544fd1c4666db2105948 test: test non-iopoll uring_cmds on IORING_SETUP_IOPOLL rings
-         6138f0a5e0a38d299b016534ecdaf10b9eaef823 man: remove note about IORING_SETUP_IOPOLL + IORING_OP_NOP
-         e20dcbba7897b14058635b343ac31dc84396b1d9 man: update comments about non-polled requests with IORING_SETUP_IOPOLL
-         1b9d216f953ab5afc8397135b59b8e4f721f87ca Merge branch 'feature/mixed-iopoll' of https://github.com/calebsander/liburing
+         7ea30795d6b7de382c7881d6c173ac91d360dff1 backing_file: store user_path_file
+         c5de02de82618f8f2d565a14b41f4c07e40821d0 lsm: add the security_mmap_backing_file() hook
+         8cc3d7bdf56de24e456c6998583313b719fd2e4e selinux: fix overlayfs mmap() and mprotect() access checks
+         306dc96b226af064174a6d631495bc459088fd10 Automated merge of 'dev' into 'next'
+         
+  - ref: refs/heads/stable-7.0
+    old: 694566aad07533f6e6fc85f7044a6bfb9054bfb7
+    new: 8cc3d7bdf56de24e456c6998583313b719fd2e4e
+    log: |
+         7ea30795d6b7de382c7881d6c173ac91d360dff1 backing_file: store user_path_file
+         c5de02de82618f8f2d565a14b41f4c07e40821d0 lsm: add the security_mmap_backing_file() hook
+         8cc3d7bdf56de24e456c6998583313b719fd2e4e selinux: fix overlayfs mmap() and mprotect() access checks
          
