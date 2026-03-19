@@ -1,43 +1,46 @@
-Content-Type: multipart/mixed; boundary="===============4981573886255796533=="
+Content-Type: multipart/mixed; boundary="===============3000630667241869392=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ast/bpf
-Date: Thu, 19 Mar 2026 02:06:04 -0000
-Message-Id: <177388596461.70186.7962294571711201363@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Thu, 19 Mar 2026 02:23:39 -0000
+Message-Id: <177388701901.82334.9346805710044065942@gitolite.kernel.org>
 
---===============4981573886255796533==
+--===============3000630667241869392==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ast/bpf
-user: ast
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
-  - ref: refs/heads/stacklive
-    old: 1a1fe163711513753816f23398f30566b4470d8f
-    new: 1aa0fe16304f7e7543ca947d87be8ed1db7f306e
-    log: revlist-1a1fe1637115-1aa0fe16304f.txt
+  - ref: refs/heads/main
+    old: 2839841f8e8fb18392c0a4a3e96bb597c9bccbfb
+    new: 76eea68d5fe5c6474b4f2f63f785fd9f12789f5c
+    log: revlist-2839841f8e8f-76eea68d5fe5.txt
 
---===============4981573886255796533==
+--===============3000630667241869392==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1a1fe1637115-1aa0fe16304f.txt
+Content-Disposition: attachment; filename=revlist-2839841f8e8f-76eea68d5fe5.txt
 
-d9f53ccfff58637620b170772034abe2e4cdfc45 bpf: Add per-subprog arg tracking analysis
-816ac0ae587aeef8f97b1f2c13bf92eec27dfdc2 selftests/bpf: Update tests for static stack liveness output
-26c00eaf6940c1209a0e3ffdd51aaa45823ee16a selftests/bpf: Add tests for static stack liveness analysis
-c140bd7c54cd3bd1a32a5f9b9138f317732a8d12 bpf: Remove old dynamic stack liveness infrastructure
-562405bfd29b2297571c5e2abe7b2200e701651e selftests/bpf: Test that zero->misc promo is unsafe
-da86585f26dbd46aae714a6a61a6b3ce212b9ddd selftests/bpf: Add convergence test for arg_track dataflow join
-dc9531db2f4d98fb09446eff59d81e64edfc8b22 selftests/bpf: Tests for 4-byte stack slots
-5de6041deb0d37a156fdc76da648bbe2663b77f3 selftests/bpf: Check pruning across subprog calls
-043c0adf4f8fe1adcd9478a07b87781a510c82fe selftests/bpf: 2nd add kills liveness
-e5c6422cf1ed548b3d93d9f83bd3f3db442fe4ed selftests/bpf: dead_spill_at_merge_enables_pruning
-0f2d1e3cbe3454edb4291fbae1f3dcb1ad5df18b selftests/bpf: fp_spill_loses_precision_kills_liveness
-6f323bf6940e63cb2f7262269269b9f8a36cfc3f selftests/bpf: Adjust verifier_log buffers
-1aa0fe16304f7e7543ca947d87be8ed1db7f306e selftests/bpf: live stack
+01b7768578a68abe597cfb36ebe0fc47c9305f88 net/mlx5: Add TLP emulation device capabilities
+385a06f74ff7a03e3fb0b15fb87cfeb052d75073 net/mlx5: Expose TLP emulation capabilities
+f8e761655997cc0ee434fb5f35570d2e93d3a707 net/mlx5: Add IFC bits for shared headroom pool PBMC support
+691dffc7255e740bc3df1c68b50b36786aadeb3a net/mlx5: Add silent mode set/query and VHCA RX IFC bits
+91e9f3e7b626579b0393151545b80e50e2bffdca net/mlx5: LAG, replace pf array with xarray
+2b204cdb12068c7087f44a6a6d0af6f71fd72237 net/mlx5: LAG, use xa_alloc to manage LAG device indices
+da0349d0ffc7b831a589b1fcec59d9d94aa10e55 net/mlx5: E-switch, modify peer miss rule index to vhca_id
+971b28accc09436fe6a6d5afd667dcbfb3ed7e03 net/mlx5: LAG, replace mlx5_get_dev_index with LAG sequence number
+0bc9059fab6365feaf95cc9a796a3d381915a70f net/mlx5: Add VHCA RX flow destination support for FW steering
+d6c9b4de8109a3b4ca9c6c6b7c5fbc42cfeff9ae {net/RDMA}/mlx5: Add LAG demux table API and vport demux rules
+4dd2115f43594da5271a1aa34fde6719b4259047 net/mlx5: Expose MLX5_UMR_ALIGN definition
+f87ca3b905e2226b31510de1f53b5df6dd0f80aa net/mlx5: Move crosststamp setup into helper function
+96aca5efec8a737057f31cd61586a4bb62af9829 net/mlx5: Support cross-timestamping on ARM architectures
+4455a30b043ac2e20369b400a2132aaf127735e3 Merge branch 'net-mlx5-support-ptm-on-arm-architecture'
+d5516452a362aab2c136ab815967c4417c92d228 qed: Reimplement qed_mcast_bin_from_mac() using library functions
+76eea68d5fe5c6474b4f2f63f785fd9f12789f5c Merge branch 'mlx5-next' of git://git.kernel.org/pub/scm/linux/kernel/git/mellanox/linux
 
---===============4981573886255796533==--
+--===============3000630667241869392==--
