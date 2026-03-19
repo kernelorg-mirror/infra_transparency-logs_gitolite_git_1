@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tglx/devel
-Date: Thu, 19 Mar 2026 17:10:34 -0000
-Message-Id: <177394023453.1026515.15819295235772098952@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Thu, 19 Mar 2026 17:15:42 -0000
+Message-Id: <177394054228.1030732.5689771353271855467@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tglx/devel
-user: tglx
+repo: pub/scm/linux/kernel/git/netdev/net
+user: kuba
 changes:
-  - ref: refs/tags/futex-unlock-v2
+  - ref: refs/tags/net-7.0-rc5
     old: 0000000000000000000000000000000000000000
-    new: 5b80f3b3cea35ea00ce9d14357e3ec65416bdcb0
+    new: 39de92713bd74dff8b235abac9247c52603b6586
