@@ -1,23 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Thu, 19 Mar 2026 22:55:43 -0000
-Message-Id: <177396094344.1315897.9641003570521491222@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/andi.shyti/linux
+Date: Thu, 19 Mar 2026 23:00:55 -0000
+Message-Id: <177396125524.1319935.18230359568757574318@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: daveh
+repo: pub/scm/linux/kernel/git/andi.shyti/linux
+user: andi.shyti
 changes:
-  - ref: refs/heads/x86/cpu
-    old: 68400c1aaf02636a97c45ba198110b66feb270a9
-    new: 584d752b8a1f0ee3a7d5a831e55623c10e7ca0ee
+  - ref: refs/heads/i2c/i2c-host-fixes
+    old: be627abcc0d5dbd5882873bd85fbc18aa3d189ed
+    new: 78a6ee14f8b9e1c8f7c77612122444f3be8dc8cc
     log: |
-         3ddd2e12c704f22c28efb714817c88ee4e25688a x86/vsyscall: Reorganize the page fault emulation code
-         4e57fdd11083d5cd44febc4b6613777291ec936e x86/traps: Consolidate user fixups in the #GP handler
-         8376b503b0f18d7425b42621798518e61e2ea601 x86/vsyscall: Restore vsyscall=xonly mode under LASS
-         b36d1f53d90c869d5f02fe0d8603f825013e746e x86/vsyscall: Disable LASS if vsyscall mode is set to EMULATE
-         584d752b8a1f0ee3a7d5a831e55623c10e7ca0ee x86/cpu: Remove LASS restriction on vsyscall emulation
+         78a6ee14f8b9e1c8f7c77612122444f3be8dc8cc i2c: pxa: defer reset on Armada 3700 when recovery is used
          
