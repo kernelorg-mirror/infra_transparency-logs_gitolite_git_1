@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/libs/libgpiod/libgpiod
-Date: Thu, 19 Mar 2026 09:18:12 -0000
-Message-Id: <177391189218.404282.17175792054928265501@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Thu, 19 Mar 2026 09:27:47 -0000
+Message-Id: <177391246771.411928.1939717178624733249@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/libs/libgpiod/libgpiod
-user: brgl
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: pabeni
 changes:
-  - ref: refs/heads/v2.2.x
-    old: 00806c5e8015cdb61cd7bf622fd580c133e9a2e3
-    new: b1c29f501c28a7f96c5bb50d1674afca4e739e87
+  - ref: refs/heads/main
+    old: a7fb05cbb8f989fa5a81818be9680464cff9d717
+    new: 96a584db75bb21781562dc79f11932ce38a1205f
     log: |
-         b1c29f501c28a7f96c5bb50d1674afca4e739e87 tools: tests: remove SIGINT test cases
+         96a584db75bb21781562dc79f11932ce38a1205f selftests/net: packetdrill: improve tcp_rcv_neg_window.pkt
          
