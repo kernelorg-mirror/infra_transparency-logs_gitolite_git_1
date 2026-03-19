@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Thu, 19 Mar 2026 16:39:04 -0000
-Message-Id: <177393834434.997511.5038413481136368157@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netfilter/nf-next
+Date: Thu, 19 Mar 2026 16:39:36 -0000
+Message-Id: <177393837613.997847.1962401772452278386@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/linux/kernel/git/netfilter/nf-next
+user: fwestphal
 changes:
-  - ref: refs/heads/main
-    old: e7577a06ae28287ca415aec5c12277e3a80ee372
-    new: 7ab4a7c5d969642782b8a5b608da0dd02aa9f229
+  - ref: refs/heads/testing
+    old: 63e16d445552c77798a43ad9195a002cb1fda9f5
+    new: e85dac480b15c424a2dd29fc1a364eff4bc42f55
     log: |
-         b48731849609cbd8c53785a48976850b443153fd net: dsa: bcm_sf2: fix missing clk_disable_unprepare() in error paths
-         614aefe56af8e13331e50220c936fc0689cf5675 icmp: fix NULL pointer dereference in icmp_tag_validation()
-         7ab4a7c5d969642782b8a5b608da0dd02aa9f229 MPTCP: fix lock class name family in pm_nl_create_listen_socket
+         e85dac480b15c424a2dd29fc1a364eff4bc42f55 netfilter: nft_meta: add double-tagged vlan and pppoe support
          
