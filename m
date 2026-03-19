@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Thu, 19 Mar 2026 01:23:00 -0000
-Message-Id: <177388338024.33818.10435202910445865795@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Thu, 19 Mar 2026 01:23:05 -0000
+Message-Id: <177388338561.34134.12655182567586197348@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
+repo: pub/scm/linux/kernel/git/netdev/net-next
 user: kuba
 changes:
   - ref: refs/heads/main
-    old: 6d43a9f6a1727f45fbc5b518a20250ebfec707f3
-    new: 605b52497bf89b3b154674deb135da98f916e390
+    old: c3f25894e3aeb69b34587dc56b9a1608174083b3
+    new: d347b28c492e746c0db9439265e55a50a912e034
     log: |
-         b3a6df291fecf5f8a308953b65ca72b7fc9e015d udp_tunnel: fix NULL deref caused by udp_sock_create6 when CONFIG_IPV6=n
-         605b52497bf89b3b154674deb135da98f916e390 net: bonding: fix NULL deref in bond_debug_rlb_hash_show
+         d347b28c492e746c0db9439265e55a50a912e034 net/mlx5e: Add hds-thresh query support via ethtool
          
