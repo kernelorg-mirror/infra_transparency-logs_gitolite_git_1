@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Thu, 19 Mar 2026 00:23:39 -0000
-Message-Id: <177387981961.4173173.15298779178369077559@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf
+Date: Thu, 19 Mar 2026 00:26:57 -0000
+Message-Id: <177388001713.4176892.12267810842313027681@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/linux/kernel/git/bpf/bpf
+user: ast
 changes:
-  - ref: refs/heads/main
-    old: 34b11cc56e4369bc08b1f4c4a04222d75ed596ce
-    new: 55dc632ab2ac2889b15995a9eef56c753d48ebc7
+  - ref: refs/heads/master
+    old: e06e6b8001233241eb5b2e2791162f0585f50f4b
+    new: 146bd2a87a65aa407bb17fac70d8d583d19aba06
     log: |
-         55dc632ab2ac2889b15995a9eef56c753d48ebc7 NFC: nxp-nci: allow GPIOs to sleep
+         146bd2a87a65aa407bb17fac70d8d583d19aba06 bpf: Release module BTF IDR before module unload
          
