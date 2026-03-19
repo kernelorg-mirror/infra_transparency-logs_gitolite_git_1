@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6624260965429381277=="
+Content-Type: multipart/mixed; boundary="===============1998157030243024817=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Thu, 19 Mar 2026 18:07:56 -0000
-Message-Id: <177394367652.1077532.12790641743954449229@gitolite.kernel.org>
+Date: Thu, 19 Mar 2026 18:07:59 -0000
+Message-Id: <177394367913.1077621.7916018526302388149@gitolite.kernel.org>
 
---===============6624260965429381277==
+--===============1998157030243024817==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
-    old: 6850deb61118345996f03b87817b4ae0f2f25c38
+  - ref: refs/heads/10GbE
+    old: 069c8f5aebe4d5224cf62acc7d4b3486091c658a
     new: 7ab4a7c5d969642782b8a5b608da0dd02aa9f229
-    log: revlist-6850deb61118-7ab4a7c5d969.txt
+    log: revlist-069c8f5aebe4-7ab4a7c5d969.txt
 
---===============6624260965429381277==
+--===============1998157030243024817==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6850deb61118-7ab4a7c5d969.txt
+Content-Disposition: attachment; filename=revlist-069c8f5aebe4-7ab4a7c5d969.txt
 
 bd9121a5e9fa03fcf32afa5f3d238e942ae6045e wifi: mac80211_hwsim: fully initialise PMSR capabilities
 708bbb45537780a8d3721ca1e0cf1932c1d1bf5f wifi: mac80211: remove keys after disabling beaconing
@@ -34,6 +34,10 @@ b94ae8e0d5fe1bdbbfdc3854ff6ce98f6876a828 wifi: mac80211: Fix static_branch_dec()
 6dccbc9f3e1d38565dff7730d2b7d1e8b16c9b09 wifi: cfg80211: cancel pmsr_free_wk in cfg80211_pmsr_wdev_down
 7d73872d949c488a1d7c308031d6a9d89b5e0a8b wifi: mac80211: check tdls flag in ieee80211_tdls_oper
 0d4aef630be9d5f9c1227d07669c26c4383b5ad0 batman-adv: avoid OGM aggregation when skb tailroom is insufficient
+0ffba246652faf4a36aedc66059c2f94e4c83ea5 igc: fix missing update of skb->tail in igc_xmit_frame()
+45b33e805bd39f615d9353a7194b2da5281332df igc: fix page fault in XDP TX timestamps handling
+fc9c69be594756b81b54c6bc40803fa6052f35ae iavf: fix VLAN filter lost on add/delete race
+6850deb61118345996f03b87817b4ae0f2f25c38 libie: prevent memleak in fwlog code
 64dcbde7f8f870a4f2d9daf24ffb06f9748b5dd3 bnxt_en: fix OOB access in DBG_BUF_PRODUCER async event handler
 c73bb9a2d33bf81f6eecaa0f474b6c6dbe9855bd wifi: mac80211: fix NULL deref in mesh_matches_local()
 deb353d9bb009638b7762cae2d0b6e8fdbb41a69 wifi: wlcore: Return -ENOMEM instead of -EAGAIN if there is not enough headroom
@@ -63,4 +67,4 @@ b48731849609cbd8c53785a48976850b443153fd net: dsa: bcm_sf2: fix missing clk_disa
 614aefe56af8e13331e50220c936fc0689cf5675 icmp: fix NULL pointer dereference in icmp_tag_validation()
 7ab4a7c5d969642782b8a5b608da0dd02aa9f229 MPTCP: fix lock class name family in pm_nl_create_listen_socket
 
---===============6624260965429381277==--
+--===============1998157030243024817==--
