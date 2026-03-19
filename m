@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Wed, 18 Mar 2026 23:46:12 -0000
-Message-Id: <177387757229.4144529.1710034789864626482@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Thu, 19 Mar 2026 00:09:22 -0000
+Message-Id: <177387896295.4160424.611978435070034907@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: kuba
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: ast
 changes:
-  - ref: refs/heads/main
-    old: 70729af783af1d66944918b33e5b345b500a5399
-    new: 17a55ddb19567642aa404f5525be3cf4425c6c1a
+  - ref: refs/heads/master
+    old: 77378dabb50f593c756d393d8eacb0b91b758863
+    new: 888329ba6c8baa7908e08561c6e89d3fc5680131
     log: |
-         17a55ddb19567642aa404f5525be3cf4425c6c1a tools: ynl: rework policy access to support recursion
+         888329ba6c8baa7908e08561c6e89d3fc5680131 selftests/bpf: Avoid spurious failures perf_link
          
