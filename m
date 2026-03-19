@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0007834444555150853=="
+Content-Type: multipart/mixed; boundary="===============5298524475761169923=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Thu, 19 Mar 2026 06:21:06 -0000
-Message-Id: <177390126661.266636.7711893153129042822@gitolite.kernel.org>
+Date: Thu, 19 Mar 2026 06:21:31 -0000
+Message-Id: <177390129169.266962.9235517201562188413@gitolite.kernel.org>
 
---===============0007834444555150853==
+--===============5298524475761169923==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,15 +16,51 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: 9fefc4bad1a3db12ecf6ca8e9886b29721249e77
-    new: 527f3665c67eb8ac410ea6f8e6ce6c0b91e4da0d
-    log: revlist-9fefc4bad1a3-527f3665c67e.txt
+    old: 527f3665c67eb8ac410ea6f8e6ce6c0b91e4da0d
+    new: f33aa15ea5407a8f342974cd4830e616dc30ca96
+    log: revlist-527f3665c67e-f33aa15ea540.txt
+  - ref: refs/heads/tip/urgent
+    old: abdb5a5f09fb0dde243a167bd6c75faa7c939d80
+    new: 1765df2af462181bbc57f6cc84c2e453a395adda
+    log: revlist-abdb5a5f09fb-1765df2af462.txt
 
---===============0007834444555150853==
+--===============5298524475761169923==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9fefc4bad1a3-527f3665c67e.txt
+Content-Disposition: attachment; filename=revlist-527f3665c67e-f33aa15ea540.txt
+
+6dc3cd7b205848d36b1196a4f76c05a041830348 Merge branch into tip/master: 'irq/urgent'
+ddaa9c679a00f9930a3ad0d1a2ac6beaea21219a Merge branch into tip/master: 'locking/urgent'
+93393f04f2e1fe7066d518b1ae6b60ac45260e9f Merge branch into tip/master: 'objtool/urgent'
+f1d2e083c8e55331be9110d079c8ee70ea4880fd Merge branch into tip/master: 'perf/urgent'
+1765df2af462181bbc57f6cc84c2e453a395adda Merge branch into tip/master: 'x86/urgent'
+73416b8eb7b3c185bbe898a3c68047d377420a30 Merge branch into tip/master: 'sched/merge'
+43e28d56bf0a81f6395800b0e72329f573dac836 Merge branch into tip/master: 'irq/core'
+9b7e7521d958301e967648bdaa006c92f1157376 Merge branch into tip/master: 'irq/drivers'
+83437ec4e26f5b10f5283a5a8dccba7b227d68b4 Merge branch into tip/master: 'irq/msi'
+6c6cf306131effea0df4607910e785a21494f75e Merge branch into tip/master: 'locking/core'
+acf177165b2f831a753b60496568db043f63ec89 Merge branch into tip/master: 'locking/futex'
+58c905d35377e0322ffe09e7ac3452507ee86c3d Merge branch into tip/master: 'objtool/core'
+fe58c95c6f191a8c45dc183a2348a3b4caa77ed8 Merge branch into tip/master: 'perf/core'
+308b1873461eb38791442168dbc37ead7887bce3 Merge branch into tip/master: 'ras/core'
+30ad5fe30d2ac8e7870114a388208b139df8d17f Merge branch into tip/master: 'sched/core'
+83655229716c0af09c34d6651da40ef015f95164 Merge branch into tip/master: 'sched/hrtick'
+91396a53d7c7cb694627c665e0dbd2589c99eb0a Merge branch into tip/master: 'timers/core'
+90924d8b73ac96a1a8b1cb9ba6cae36e193061a1 Merge branch into tip/master: 'timers/vdso'
+7d7100111a1220b808b4fc36102fcb06604aa70a Merge branch into tip/master: 'x86/cleanups'
+acfb640e1faebabb25dbc1477065afc89684e0fe Merge branch into tip/master: 'x86/cpu'
+773ac16c2d8434a92b74a7e08f6397d643210275 Merge branch into tip/master: 'x86/microcode'
+7582558b0d39a322426d6636cc5dbec0a0ed0d1e Merge branch into tip/master: 'x86/misc'
+874b4b7e99511cc4b5e2e8686080027754af4ad1 Merge branch into tip/master: 'x86/mm'
+6b820bb13e1e56b268b6fa7e4cd7f24913839668 Merge branch into tip/master: 'x86/sev'
+f33aa15ea5407a8f342974cd4830e616dc30ca96 Merge branch into tip/master: 'x86/tdx'
+
+--===============5298524475761169923==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-abdb5a5f09fb-1765df2af462.txt
 
 5a741f8cc6fe62542f955cd8d24933a1b6589cbd soc: microchip: mpfs: Fix memory leak in mpfs_sys_controller_probe()
 ff4b6bf7eef4f5b921eed78f2816abcc55bcdd68 riscv: dts: microchip: add can resets to mpfs
@@ -72,7 +108,10 @@ c5cb126c48e728aaf7f2ac209ef5506e47c2ad6a Merge tag 'v7.0-p3' of git://git.kernel
 04a9f1766954687f0a1b7a0f7184dc4f86edcb30 Merge tag 'soc-fixes-7.0' of git://git.kernel.org/pub/scm/linux/kernel/git/soc/soc
 8a30aeb0d1b4e4aaf7f7bae72f20f2ae75385ccb Merge tag 'nfsd-7.0-2' of git://git.kernel.org/pub/scm/linux/kernel/git/cel/linux
 201bc182ad6333468013f1af0719ffe125826b6a x86/mce/amd: Check SMCA feature bit before accessing SMCA MSRs
-bb17c01e84ae9205113ddca5aa4e6b4324aaac1c Merge branch into tip/master: 'x86/urgent'
-527f3665c67eb8ac410ea6f8e6ce6c0b91e4da0d Merge branch 'linus'
+6dc3cd7b205848d36b1196a4f76c05a041830348 Merge branch into tip/master: 'irq/urgent'
+ddaa9c679a00f9930a3ad0d1a2ac6beaea21219a Merge branch into tip/master: 'locking/urgent'
+93393f04f2e1fe7066d518b1ae6b60ac45260e9f Merge branch into tip/master: 'objtool/urgent'
+f1d2e083c8e55331be9110d079c8ee70ea4880fd Merge branch into tip/master: 'perf/urgent'
+1765df2af462181bbc57f6cc84c2e453a395adda Merge branch into tip/master: 'x86/urgent'
 
---===============0007834444555150853==--
+--===============5298524475761169923==--
