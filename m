@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Thu, 19 Mar 2026 22:47:01 -0000
-Message-Id: <177396042112.1307261.4943060868419943488@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/andi.shyti/linux
+Date: Thu, 19 Mar 2026 22:48:43 -0000
+Message-Id: <177396052358.1308083.7322031223106365316@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/linux/kernel/git/andi.shyti/linux
+user: andi.shyti
 changes:
-  - ref: refs/heads/main
-    old: a1d9d8e833781c44ab688708804ce35f20f3cbbd
-    new: cbcb3cfcdc436d6f91a3d95ecfa9c831abe14aed
+  - ref: refs/heads/i2c/i2c-host-fixes
+    old: aa79f996eb41e95aed85a1bd7f56bcd6a3842008
+    new: be627abcc0d5dbd5882873bd85fbc18aa3d189ed
     log: |
-         cbcb3cfcdc436d6f91a3d95ecfa9c831abe14aed ionic: fix persistent MAC address override on PF
+         be627abcc0d5dbd5882873bd85fbc18aa3d189ed i2c: fsi: Fix a potential leak in fsi_i2c_probe()
          
