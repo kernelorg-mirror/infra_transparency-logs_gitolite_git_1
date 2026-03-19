@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0024478874708356911=="
+Content-Type: multipart/mixed; boundary="===============3957220115164893154=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mptcp/linux
-Date: Thu, 19 Mar 2026 12:57:00 -0000
-Message-Id: <177392502022.586104.2436296429491249168@gitolite.kernel.org>
+Date: Thu, 19 Mar 2026 13:01:23 -0000
+Message-Id: <177392528385.590119.17790969494988907216@gitolite.kernel.org>
 
---===============0024478874708356911==
+--===============3957220115164893154==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,60 +15,52 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/mptcp/linux
 user: matttbe
 changes:
-  - ref: refs/heads/export-net
-    old: 9237557971ccdf3a335dda96c837b3a355d692b4
-    new: 9a6496d956336cf49b1982e01eab864ed71aee2b
-    log: revlist-9237557971cc-9a6496d95633.txt
+  - ref: refs/heads/export
+    old: 542bb9f589b86674d8bb1e48a467004e8e17589e
+    new: f41ce4284d977ed8f6c45397c11380084cb4698e
+    log: revlist-542bb9f589b8-f41ce4284d97.txt
 
---===============0024478874708356911==
+--===============3957220115164893154==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9237557971cc-9a6496d95633.txt
+Content-Disposition: attachment; filename=revlist-542bb9f589b8-f41ce4284d97.txt
 
-bd9121a5e9fa03fcf32afa5f3d238e942ae6045e wifi: mac80211_hwsim: fully initialise PMSR capabilities
-708bbb45537780a8d3721ca1e0cf1932c1d1bf5f wifi: mac80211: remove keys after disabling beaconing
-ac6f24cc9c0a9aefa55ec9696dcafa971d4d760b wifi: mac80211: use jiffies_delta_to_msecs() for sta_info inactive times
-672e5229e1ecfc2a3509b53adcb914d8b024a853 mac80211: fix crash in ieee80211_chan_bw_change for AP_VLAN stations
-b94ae8e0d5fe1bdbbfdc3854ff6ce98f6876a828 wifi: mac80211: Fix static_branch_dec() underflow for aql_disable.
-6dccbc9f3e1d38565dff7730d2b7d1e8b16c9b09 wifi: cfg80211: cancel pmsr_free_wk in cfg80211_pmsr_wdev_down
-7d73872d949c488a1d7c308031d6a9d89b5e0a8b wifi: mac80211: check tdls flag in ieee80211_tdls_oper
-0d4aef630be9d5f9c1227d07669c26c4383b5ad0 batman-adv: avoid OGM aggregation when skb tailroom is insufficient
-a0671125d4f55e1e98d9bde8a0b671941987e208 clsact: Fix use-after-free in init/destroy rollback asymmetry
-069c8f5aebe4d5224cf62acc7d4b3486091c658a net: usb: aqc111: Do not perform PM inside suspend callback
-0ffba246652faf4a36aedc66059c2f94e4c83ea5 igc: fix missing update of skb->tail in igc_xmit_frame()
-45b33e805bd39f615d9353a7194b2da5281332df igc: fix page fault in XDP TX timestamps handling
-fc9c69be594756b81b54c6bc40803fa6052f35ae iavf: fix VLAN filter lost on add/delete race
-6850deb61118345996f03b87817b4ae0f2f25c38 libie: prevent memleak in fwlog code
-64dcbde7f8f870a4f2d9daf24ffb06f9748b5dd3 bnxt_en: fix OOB access in DBG_BUF_PRODUCER async event handler
-c73bb9a2d33bf81f6eecaa0f474b6c6dbe9855bd wifi: mac80211: fix NULL deref in mesh_matches_local()
-deb353d9bb009638b7762cae2d0b6e8fdbb41a69 wifi: wlcore: Return -ENOMEM instead of -EAGAIN if there is not enough headroom
-d5ad6ab61cbd89afdb60881f6274f74328af3ee9 wifi: mac80211: always free skb on ieee80211_tx_prepare_skb() failure
-7d9351435ebba08bbb60f42793175c9dc714d2fb netdevsim: drop PSP ext ref on forward failure
-8da13e6d63c1a97f7302d342c89c4a56a55c7015 net: macb: fix use-after-free access to PTP clock
-34b11cc56e4369bc08b1f4c4a04222d75ed596ce net: macb: fix uninitialized rx_fs_lock
-55dc632ab2ac2889b15995a9eef56c753d48ebc7 NFC: nxp-nci: allow GPIOs to sleep
-06413793526251870e20402c39930804f14d59c0 ipv6: add NULL checks for idev in SRv6 paths
-cf2ce96c7150f9997fc87281600c3de7f20311bd Merge branch '1GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/net-queue
-d0f9eca219e6e46f1cf76fc28ae3f753b2b3ecd4 Merge tag 'batadv-net-pullrequest-20260317' of https://git.open-mesh.org/linux-merge
-b7e3a5d9c0d66b7fb44f63aef3bd734821afa0c8 net/mlx5: qos: Restrict RTNL area to avoid a lock cycle
-99b36850d881e2d65912b2520a1c80d0fcc9429a net/mlx5e: Prevent concurrent access to IPSec ASO context
-beb6e2e5976a128b0cccf10d158124422210c5ef net/mlx5e: Fix race condition during IPSec ESN update
-6d43a9f6a1727f45fbc5b518a20250ebfec707f3 Merge branch 'mlx5-misc-fixes-2026-03-16'
-b3a6df291fecf5f8a308953b65ca72b7fc9e015d udp_tunnel: fix NULL deref caused by udp_sock_create6 when CONFIG_IPV6=n
-605b52497bf89b3b154674deb135da98f916e390 net: bonding: fix NULL deref in bond_debug_rlb_hash_show
-7c46bd845d89ad4772573cfe0f2a56b93db75cc7 Merge tag 'wireless-2026-03-18' of https://git.kernel.org/pub/scm/linux/kernel/git/wireless/wireless
-9689e071ed4b3c26cb04843ba23bd274960d0a52 DO-NOT-MERGE: git markup: net
-1a48b949ec9d18e8bc515be1fc19aa7f901c7f78 sched/mmcid: Prevent CID stalls due to concurrent forks
-396838891a5a3a562e7e4b1b66d8ed7b3c69be2f sched/mmcid: Handle vfork()/CLONE_VM correctly
-eeda05e434e50031b7a2714337ce82f1cc7a33d7 sched/mmcid: Remove pointless preempt guard
-c3169b043d11141a34f843e7a96385c1bf7e0c0b sched/mmcid: Avoid full tasklist walks
-30c2ca6dd2aa94fe3a10200fefc7daa7301270f8 DO-NOT-MERGE: git markup: fixes other trees
-de302cfce76cb825a2584f71427b087ad9877304 DO-NOT-MERGE: git markup: fixes net
-843c549b7e73c64bf3f79e1aa318c1b21089e3ba DO-NOT-MERGE: mptcp: add CI support
-e68d2a5afca12336074e61bbd3b1ae6e6dfd6319 DO-NOT-MERGE: git markup: end common net net-next
-3b334aa31936b97a417475f2d0ffeed0afd26f42 DO-NOT-MERGE: git markup: fixes net only
-ad8f7c7390f9909487f8ccf7867e0e7295e44af5 DO-NOT-MERGE: mptcp: improve code coverage for CI (net)
-9a6496d956336cf49b1982e01eab864ed71aee2b DO-NOT-MERGE: mptcp: enabled by default (net)
+f07de9e2d7aac09afe00ca54989801433ad70654 DO-NOT-MERGE: git markup: net
+bae259c11c6cce2cef56f61848e9299d46126ab2 sched/mmcid: Prevent CID stalls due to concurrent forks
+7b6aeca6a3f6fe19d68a1db22c1f9dde88e58fd7 sched/mmcid: Handle vfork()/CLONE_VM correctly
+663dcdc50e019205545e9969b9d7ea3b70edc393 sched/mmcid: Remove pointless preempt guard
+c0f9013ef1e935fa57dfd3d28859e7187038ff5a sched/mmcid: Avoid full tasklist walks
+12851545cb7fbe77291fb64cfcc5e40108f9200e DO-NOT-MERGE: git markup: fixes other trees
+b49b4143f9563bb2efccff2a3fbbab1987a0e978 MPTCP: fix lock class name family in pm_nl_create_listen_socket
+233541d074a91c091583e2d108f7a462ea7aaef4 DO-NOT-MERGE: git markup: fixes net
+4ef303370fd4d72693853f5dc4987130a92a5079 DO-NOT-MERGE: mptcp: add CI support
+537ced60d651922463877b240d5359747e98cf9b DO-NOT-MERGE: git markup: end common net net-next
+ccf73511103c349c6538c72d069e859d65280642 TopGit-driven merge of branches:
+fde30c475a500e2c6cb7342a36c8ab804c988d32 DO-NOT-MERGE: git markup: net-next
+70254712f82bbcd7fd93e9334254af2160e4561b DO-NOT-MERGE: git markup: fixes net-next
+415d0af7fba0d75227ec733fd814415becf87271 mptcp: pm: init and release mptcp_pm_ops
+5c42d31b173c9262dacb4a510909a06cee099bf6 mptcp: pm: add get_local_id() interface
+5f9608b13b9825e269d83ff2daa3206be029ea49 mptcp: pm: add get_priority() interface
+c35c230186f4578886d9795a8d48f224e07757ad mptcp: better mptcp-level RTT estimator
+4b447bbdf681b864219aff2fb9d82c7917c6adc9 mptcp: add receive queue awareness in tcp_rcv_space_adjust()
+9cdeadf32dd8f4cc7427bcd70fb086adb9f42048 mptcp: pm: in-kernel: remove mptcp_pm_has_addr_attr_id
+905cebe1d309f49236a9c6a34435427281489aeb selftests: mptcp: join: recreate signal endp with same ID
+73cd37acbf3d0dc33c4236881e576d49c945d140 DO-NOT-MERGE: git markup: features net-next
+3f820cd921f1664b5efba22a58234dc2581d1ff2 DO-NOT-MERGE: git markup: features net-next-next
+9ecb00aa2692f1ce43a33facca324c6e33648fb7 bpf: Add mptcp_subflow bpf_iter
+c72843652905fd87a4603453f44e9df302ac8343 selftests/bpf: More endpoints for endpoint_init
+cef8d404bd0b3f75ba84643ab17ab104e6bfb87f selftests/bpf: Drop cgroup_fd of run_mptcpify
+407b63205b46f01fd6c42e6972f86fa68844f45a bpf: Add mptcp packet scheduler struct_ops
+68011ef2d55c29fb8d79e2fe924eacf8ae8db857 bpf: Export mptcp packet scheduler helpers
+d069ad68f2c28a7a1eb7a6f220b76fe117cc1ee8 selftests/bpf: Add bpf scheduler test
+5a5cd05c112d0ed539d9e9ea5ca87d6af2d9aadb selftests/bpf: Add bpf_first scheduler & test
+a9bc4c5e75708a00fe2210d69d76796ae0c61be0 selftests/bpf: Add bpf_bkup scheduler & test
+1b47c55d1f0a5dd554942114aca0a4c7bb48c60f selftests/bpf: Add bpf_rr scheduler & test
+4c66b8dbeaa7d239087d505537de9f20284b8c5e selftests/bpf: Add bpf_red scheduler & test
+a270d62f690befa89d053603cce4dd76388250f4 selftests/bpf: Add bpf_burst scheduler & test
+88d51710542a00820b2e8ab2cfa85c4546cad4fa DO-NOT-MERGE: git markup: features other trees
+42bbd6c648fe31d288bb823a22929a106af90fd9 DO-NOT-MERGE: mptcp: improve code coverage for CI
+f41ce4284d977ed8f6c45397c11380084cb4698e DO-NOT-MERGE: mptcp: enabled by default
 
---===============0024478874708356911==--
+--===============3957220115164893154==--
