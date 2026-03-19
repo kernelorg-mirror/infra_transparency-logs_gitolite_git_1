@@ -1,20 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/liburing
-Date: Thu, 19 Mar 2026 01:27:58 -0000
-Message-Id: <177388367822.40175.15408008122630074571@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Thu, 19 Mar 2026 01:29:51 -0000
+Message-Id: <177388379133.41012.4499684142499973119@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/liburing
-user: axboe
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
-  - ref: refs/heads/master
-    old: ce99cb330b0511dc8a0f571f852f3cc016d072ea
-    new: f7f36b3beb154096b259236c1beb07b3fae6f456
+  - ref: refs/heads/main
+    old: d347b28c492e746c0db9439265e55a50a912e034
+    new: ec03006a11c2dd762af0cd491ec1b410839ba931
     log: |
-         92fd30eac020d57edb96a5b48a45f7738ef7eb41 configure:
-         f7f36b3beb154096b259236c1beb07b3fae6f456 configure: check for clang as well for BPF
+         e611a97032f0fa484d14656acf4a330448bf21a3 regmap: mdio: make it depend on PHYLIB
+         91283bd5b008d5cd2b6a24f246ffb3e706b8c981 net: phy: remove Kconfig symbol MDIO_BUS
+         ec03006a11c2dd762af0cd491ec1b410839ba931 Merge branch 'remove-kconfig-sysmbol-mdio_bus'
          
