@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Thu, 19 Mar 2026 18:12:55 -0000
-Message-Id: <177394397503.1082497.16221447218204645953@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
+Date: Thu, 19 Mar 2026 18:12:59 -0000
+Message-Id: <177394397974.1082718.12686659338962614901@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/next-queue
+repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
   - ref: refs/heads/dev-queue
-    old: 5f0ab3a230307a0441c7f64768209b4b1529c498
-    new: cb3c5f99561f6cc5bb811d47df95a8d0100d115a
+    old: d66aad14ce58eabca2c6d42e7f2cf28adefedd85
+    new: 3ec86e58f41de4475dd36eb5d2136e7027b4866a
     log: |
-         cb3c5f99561f6cc5bb811d47df95a8d0100d115a ice: fix posted write support for sideband queue operations
+         3ec86e58f41de4475dd36eb5d2136e7027b4866a ice: fix posted write support for sideband queue operations
          
