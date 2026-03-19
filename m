@@ -1,21 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/superm1/amd-debug-tools
-Date: Thu, 19 Mar 2026 03:39:02 -0000
-Message-Id: <177389154243.142399.9263347269376077002@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vdubeyko/hfs
+Date: Thu, 19 Mar 2026 03:49:30 -0000
+Message-Id: <177389217086.150261.4491343231139639871@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/superm1/amd-debug-tools
-user: superm1
+repo: pub/scm/linux/kernel/git/vdubeyko/hfs
+user: vdubeyko
 changes:
-  - ref: refs/heads/master
-    old: 984f694f646aaabfbcc9fcd87e928390aae05f49
-    new: 612400a063fa697731975155d9501f53f73a000e
+  - ref: refs/heads/for-next
+    old: b099ed598c64c8d275fc8877ec521b58712ab103
+    new: 8ad2c6a36ac4328072377906a47ea0bff11e4032
     log: |
-         4c5531e387796b25fc571e6a7915374e7cb0b161 Add a hover effect while mousing over any HTML table
-         1550772f63180b3728eca6e5920e379740b49d95 Add dark mode support
-         612400a063fa697731975155d9501f53f73a000e Add some more CSS animations for tables
+         a8eed0ba6a4b2f1803ecdfa9f11a4818cf87c474 hfsplus: refactor b-tree map page access and add node-type validation
+         8ad2c6a36ac4328072377906a47ea0bff11e4032 hfsplus: validate b-tree node 0 bitmap at mount time
          
