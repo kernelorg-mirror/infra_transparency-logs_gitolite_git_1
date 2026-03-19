@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1998157030243024817=="
+Content-Type: multipart/mixed; boundary="===============0867259729148875194=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Thu, 19 Mar 2026 18:07:59 -0000
-Message-Id: <177394367913.1077621.7916018526302388149@gitolite.kernel.org>
+Date: Thu, 19 Mar 2026 18:08:01 -0000
+Message-Id: <177394368189.1077833.6321800709850326350@gitolite.kernel.org>
 
---===============1998157030243024817==
+--===============0867259729148875194==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/10GbE
+  - ref: refs/heads/40GbE
     old: 069c8f5aebe4d5224cf62acc7d4b3486091c658a
     new: 7ab4a7c5d969642782b8a5b608da0dd02aa9f229
     log: revlist-069c8f5aebe4-7ab4a7c5d969.txt
 
---===============1998157030243024817==
+--===============0867259729148875194==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -67,4 +67,4 @@ b48731849609cbd8c53785a48976850b443153fd net: dsa: bcm_sf2: fix missing clk_disa
 614aefe56af8e13331e50220c936fc0689cf5675 icmp: fix NULL pointer dereference in icmp_tag_validation()
 7ab4a7c5d969642782b8a5b608da0dd02aa9f229 MPTCP: fix lock class name family in pm_nl_create_listen_socket
 
---===============1998157030243024817==--
+--===============0867259729148875194==--
