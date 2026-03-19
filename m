@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3433892630985396764=="
+Content-Type: multipart/mixed; boundary="===============0726727319842802718=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Thu, 19 Mar 2026 18:03:20 -0000
-Message-Id: <177394340014.1072557.6805496406705682079@gitolite.kernel.org>
+Date: Thu, 19 Mar 2026 18:03:22 -0000
+Message-Id: <177394340284.1072645.4598637800022216183@gitolite.kernel.org>
 
---===============3433892630985396764==
+--===============0726727319842802718==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/10GbE
+  - ref: refs/heads/40GbE
     old: 8737d7194d6d5947c3d7d8813895b44a25b84477
     new: 9ac76f3d0bb2940db3a9684d596b9c8f301ef315
     log: revlist-8737d7194d6d-9ac76f3d0bb2.txt
 
---===============3433892630985396764==
+--===============0726727319842802718==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -137,4 +137,4 @@ dee55bc7cb8ad70b8c8598df60f378b7aed2e41b qtnfmac: use alloc_netdev macro for sin
 96450df197bda7de927b51372c13f1002d0e76e3 bridge: No DEV_PATH_BR_VLAN_UNTAG_HW for dsa foreign
 9ac76f3d0bb2940db3a9684d596b9c8f301ef315 Merge tag 'wireless-next-2026-03-19' of https://git.kernel.org/pub/scm/linux/kernel/git/wireless/wireless-next
 
---===============3433892630985396764==--
+--===============0726727319842802718==--
