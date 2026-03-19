@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pinctrl/intel
-Date: Thu, 19 Mar 2026 07:08:04 -0000
-Message-Id: <177390408448.304465.14642218269343881948@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/fustini/linux
+Date: Thu, 19 Mar 2026 07:12:34 -0000
+Message-Id: <177390435481.308316.18180354082623737410@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pinctrl/intel
-user: andy
+repo: pub/scm/linux/kernel/git/fustini/linux
+user: fustini
 changes:
-  - ref: refs/heads/for-next
-    old: 6de23f81a5e08be8fbf5e8d7e9febc72a5b5f27f
-    new: 1ca468e78ea97c3365befdd408f71bda4b295134
+  - ref: refs/heads/thead-dt-for-next
+    old: 9c99a784d9117a192ebf779d4f72ebec435ada97
+    new: 024102069a8068efdc28d4ee865c66fc631bafed
     log: |
-         340bba73c545bfc7e8fcbc5ee4c02f85088f024d pinctrl: intel: Improve capability support
-         a4337a24d13e9e3b98a113e71d6b80dc5ed5f8c4 pinctrl: intel: Fix the revision for new features (1kOhm PD, HW debouncer)
-         1ca468e78ea97c3365befdd408f71bda4b295134 pinctrl: intel: Enable 3-bit PAD_OWN feature
+         024102069a8068efdc28d4ee865c66fc631bafed riscv: dts: thead: th1520: add coefficients to the PVT node
          
