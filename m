@@ -1,20 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ebiggers/linux
-Date: Thu, 19 Mar 2026 17:57:49 -0000
-Message-Id: <177394306934.1067962.4869215108709830419@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
+Date: Thu, 19 Mar 2026 17:59:32 -0000
+Message-Id: <177394317241.1068779.363539085645641782@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ebiggers/linux
-user: ebiggers
+repo: pub/scm/linux/kernel/git/maz/arm-platforms
+user: maz
 changes:
-  - ref: refs/heads/libcrypto-next
-    old: 5bc2532a79090971102e79ec42911c40734f2746
-    new: 6bc9effb4cbf9b6eba0f51aba1c8893dfd4c8100
-    log: |
-         645e64136b93e431a48f3b178fe7cf13737b10f6 sample/tsm-mr: Use SHA-2 library APIs
-         6bc9effb4cbf9b6eba0f51aba1c8893dfd4c8100 coco/guest: Remove unneeded selection of CRYPTO
-         
+  - ref: refs/heads/kvm-arm64/vgic-v5-ppi-WIP
+    old: 0000000000000000000000000000000000000000
+    new: 8ea30b8aee32642ca8b92b351f8136defe8311fc
