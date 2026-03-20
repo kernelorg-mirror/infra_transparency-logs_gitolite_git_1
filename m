@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8168384339252819092=="
+Content-Type: multipart/mixed; boundary="===============0932947880054349213=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Fri, 20 Mar 2026 02:34:46 -0000
-Message-Id: <177397408639.1497245.9151380974917365873@gitolite.kernel.org>
+Date: Fri, 20 Mar 2026 02:35:13 -0000
+Message-Id: <177397411311.1499873.2106936253061831@gitolite.kernel.org>
 
---===============8168384339252819092==
+--===============0932947880054349213==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,41 +16,41 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/queue
-    old: 2bf2d65f76697820dbc4227d13866293576dd90a
-    new: bdce3a69c578090dd5e3c77bcdaaca10c3a41e34
+  - ref: refs/tags/mkp-scsi-staging
+    old: 59e2d7c3c897a48fea13b4bf0dbe3de9cafcd21e
+    new: f7340f776a06535a117073808f3417ef611cbf14
     log: |
-         134b898ccb68f705dff100f097886e6fe53a9566 scsi: ufs: qcom: dt-bindings: Document the Eliza UFS controller
-         bdce3a69c578090dd5e3c77bcdaaca10c3a41e34 scsi: ufs: rockchip,rk3576-ufshc: dt-bindings: Add new mphy reset item
+         98eff361647ecba893aadce8808729672604a102 scsi: ufs: core: Handle MCQ IAG events
+         48b2de8505437805116a3dc51d5afa09308c6659 scsi: lpfc: Use the crc32c() function
          
 
---===============8168384339252819092==
+--===============0932947880054349213==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1773974084 -0400
+pusher 75C5DE3D 1773974091 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1773974083-ba003bcb181629f27a54cf1bb01f5c4c96391ddc
+nonce 1773974090-7e4af76ceaa7f3dd635391d865f73fad76bc9533
 
-2bf2d65f76697820dbc4227d13866293576dd90a bdce3a69c578090dd5e3c77bcdaaca10c3a41e34 refs/heads/queue
+59e2d7c3c897a48fea13b4bf0dbe3de9cafcd21e f7340f776a06535a117073808f3417ef611cbf14 refs/tags/mkp-scsi-staging
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmm8skQACgkQ7ulgGnXF
-3j22zhAAlcC78j6GHLTpIiDXCsEsTRFDMkApFLN8EnIgPiGT82oZ02Y982muMrIg
-Utue2xFnnoUIKrZaqFA2rYBykDCUXqMQyOL9bqU+eu/zcxFFkWSQYxYusg3alBFh
-5aWDSXZrlI8ql3F7d4loy6f14cQRwCDQfvf95Nqcn4mQXmQ6yrYCcfxj9e5FLyAX
-yeYs7R6rOkUIiiAYP/a+oZBWsyawzVleJYOO/28E7KEJi8VPgiIuFez1YO7fcZFg
-2kteL7Rj8idnuFvzcCD0nEb7Fcq9zk3C4ceu1raFUOOgRUztT+tjygh9rleVL8sA
-LXaJ4jhkCeKxstPXaRKM3jluVEFrQ1w+gex+SatDYTPS6LaTMc7sS+N2r0I5bCRS
-GIGGRofv8kTHR4Toj6qlLmf9AURS0RXnMwbsj+Nl1OZRaB+vZmP7S7pq0FY8SpAU
-h/RBpIaWfrlydbHCB0ro9m6PtFskKm33Q7eGYKWTT3yVA/VGd7n8ygaYQULV23WZ
-tDZACLN5qgJqalIo9/h39r0I2VoxTedPHThAmF7aSuLHvb7iYa8D5u+cctDYj85u
-Be/m9SqSG1Lb27Vvx0hhwgWNh4zyragtMqaY6DD7SIttc8dZkQmOMNrCAivHvMPQ
-wBSuAca43AeoiQiZbBYVSzHGj2XR+IP5bgC6WkwbiFkPD61Eiy4=
-=1UNr
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmm8sksACgkQ7ulgGnXF
+3j1B/RAAidDSMa2ZEgWPcfCSvB5SXoK5DdyVhY3aTGO+/HHqZG8MWM6wpCluBjTF
+4vkJF4ACA/eKoqk27vJ7usWUykzQPj53gq+54ZwH9J+jkRRDTCYGHUUzwQixEUXb
+meOacNaXpDmFzgV7ETOtXi83yNjEHcIol7+Hl6ct/JSfbeUWz9ziqSzd8XVR2otU
+Ie/JEgYm5pg1Cc2s0wiEHYONK8PfP+zl4IrN2evZEiF5L45uiU0VA01kyeNUVWO2
+8FaBrUNT7oD1ZElCceFK2x+yPyN+OlbTbyyHaX1U+iyBNAs3MUSg6+gkY+zZUwCe
+JcCSz80W6oRmOGEdlcYJZmuNQAplIh/KTR434xwKEd/J/I95a0CtK9j15HPYc7bH
+pIXaz87JaYW6axoduArg1pzzZepD8hU2TLmk4yc5C7/H5fzlb0AQ/KCcz88Sosfw
+oYoetLa14x4YanylUT35A86FsptQd6Q/5T4hfXeneb7nDMvaIe/MwX9DKyNbX7Wp
+hfhVDsrgDkGT5DaeGpxlN0gTU3FjG0VEE610eBWxPpxURbqIDj4szfUrfRJfbJrB
+M1CDAJ/9GrYjDJTt83FKC4jWdjw4PGcNIPkarimmncTX0rqKtJXv5S3Sxbgzgh69
++YTiEX3SFQfFcy3+2150426M150kduIT8bq4iIcVnnGSDBheCjE=
+=R/4N
 -----END PGP SIGNATURE-----
 
---===============8168384339252819092==--
+--===============0932947880054349213==--
