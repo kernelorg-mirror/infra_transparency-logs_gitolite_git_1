@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/deller/linux-fbdev
-Date: Fri, 20 Mar 2026 16:54:25 -0000
-Message-Id: <177402566596.2245698.1830775259039806402@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Fri, 20 Mar 2026 16:58:09 -0000
+Message-Id: <177402588940.2249443.15232052923991886020@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/deller/linux-fbdev
-user: deller
+repo: pub/scm/linux/kernel/git/tip/tip
+user: bp
 changes:
-  - ref: refs/heads/for-next
-    old: 03909bf866c2ab82bac8b65eef90576abfae3730
-    new: 9bf55868456703bf16ce4a8d31bec3096da5771c
+  - ref: refs/heads/x86/urgent
+    old: 201bc182ad6333468013f1af0719ffe125826b6a
+    new: 63f8b60151dc00895137bfadc987f258060ab264
     log: |
-         9bf55868456703bf16ce4a8d31bec3096da5771c fbdev: update help text for CONFIG_FB_NVIDIA
+         63f8b60151dc00895137bfadc987f258060ab264 x86/entry/vdso: Fix path of included gettimeofday.c
          
