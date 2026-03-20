@@ -1,18 +1,18 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jfern/linux
-Date: Fri, 20 Mar 2026 19:28:49 -0000
-Message-Id: <177403492939.2375520.3038771454129208254@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rcu/linux
+Date: Fri, 20 Mar 2026 19:29:06 -0000
+Message-Id: <177403494640.2375849.8473489057178992933@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jfern/linux
+repo: pub/scm/linux/kernel/git/rcu/linux
 user: jfern
 changes:
   - ref: refs/heads/rcu/dev
-    old: 79e3c22aa42258affa8979b42f345d062460e3f7
+    old: 772945be501c66b35e4be8586222f151c3659f7f
     new: 02bf38db37c44207e5fa4ee205148cea7588da7b
     log: |
          b8162156ba4e7cefb172c4463fc737580dc7d581 rcu: Add BOOTPARAM_RCU_STALL_PANIC Kconfig option
