@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4046722453738355147=="
+Content-Type: multipart/mixed; boundary="===============0706420484996552609=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/chanwoo/linux
-Date: Fri, 20 Mar 2026 02:25:50 -0000
-Message-Id: <177397355046.1490694.11003844617302058264@gitolite.kernel.org>
+Date: Fri, 20 Mar 2026 02:26:06 -0000
+Message-Id: <177397356689.1491058.14237010113452240459@gitolite.kernel.org>
 
---===============4046722453738355147==
+--===============0706420484996552609==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,19 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/chanwoo/linux
 user: chanwoo
 changes:
-  - ref: refs/heads/devfreq-fixes
-    old: 05f7e89ab9731565d8a62e3b5d1ec206485eeb0b
-    new: f338e77383789c0cae23ca3d48adcc5e9e137e3c
-    log: revlist-05f7e89ab973-f338e7738378.txt
+  - ref: refs/heads/devfreq-next
+    old: 534308042b5436ac559cee0cfc0841db2d7de8db
+    new: 85eaa767662a69f1d36d29b0bcbd8efddb0955c9
+    log: revlist-534308042b54-85eaa767662a.txt
 
---===============4046722453738355147==
+--===============0706420484996552609==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-05f7e89ab973-f338e7738378.txt
+Content-Disposition: attachment; filename=revlist-534308042b54-85eaa767662a.txt
 
-786ea2b694f48e1b34f1dcf104e09357fc99ef34 ALSA: hda: cs35l56: Remove unnecessary struct cs_dsp_client_ops
-a0b4c7a49137ed21279f354eb59f49ddae8dffc2 netfs: Fix unbuffered/DIO writes to dispatch subrequests in strict sequence
 2970525f789c080e7e82ecb09cd85a8bb1d284e4 btrfs: handle discard errors in in btrfs_finish_extent_commit()
 a4fe134fc1d8eb7dcd07e0961c5711b443decd89 btrfs: fix a double release on reserved extents in cow_one_range()
 0649355303995d6539df1fa8feaf50497f94db9b btrfs: change warning messages to error level in open_ctree()
@@ -1050,5 +1048,7 @@ be2e3750ce0ce1b9ba77b521fee7f3e9166e64e9 Merge tag 'irq-urgent-2026-03-15' of gi
 d9bf296c398d093f9641568411dee16285302113 Merge tag 'probes-fixes-v7.0-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
 5c2fe8d11ae05411566f9d69321375ea686603d4 Merge tag 'scsi-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
 f338e77383789c0cae23ca3d48adcc5e9e137e3c Linux 7.0-rc4
+a08df092d203bf9220502bdd23bac56f629be248 PM / devfreq: Remove unneeded casting for HZ_PER_KHZ
+85eaa767662a69f1d36d29b0bcbd8efddb0955c9 PM / devfreq: use _visible attribute to replace create/remove_sysfs_files()
 
---===============4046722453738355147==--
+--===============0706420484996552609==--
