@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
-Date: Fri, 20 Mar 2026 03:57:16 -0000
-Message-Id: <177397903641.1564112.6737533681793411230@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jfern/linux
+Date: Fri, 20 Mar 2026 03:59:49 -0000
+Message-Id: <177397918958.1564961.5420762406829289457@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/25-new
-user: akpm
+repo: pub/scm/linux/kernel/git/jfern/linux
+user: jfern
 changes:
-  - ref: refs/heads/master
-    old: 3e7102d2fec7e1b02c03638c62865603bbca9d79
-    new: adb3c35712e4d53ed781624235ce82853a5fca6c
-    log: |
-         adb3c35712e4d53ed781624235ce82853a5fca6c foo
-         
+  - ref: refs/tags/buddy-bindings-v14-20260319
+    old: 0000000000000000000000000000000000000000
+    new: 9cc2b8dee6eb834d7a5a8516abd6cfd0f5a9873f
