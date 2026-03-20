@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vireshk/pm
-Date: Fri, 20 Mar 2026 05:33:45 -0000
-Message-Id: <177398482545.1637419.17252376034273747093@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
+Date: Fri, 20 Mar 2026 06:03:29 -0000
+Message-Id: <177398660942.1659685.12720755079495790163@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vireshk/pm
-user: vireshk
+repo: pub/scm/linux/kernel/git/xiang/erofs-utils
+user: xiang
 changes:
-  - ref: refs/heads/cpufreq/arm/linux-next
-    old: db5e64651a1b3ddf33a25ccfc1d28da1c427780b
-    new: 8655a4e35cda5534f93303af393eac4e71704701
+  - ref: refs/heads/experimental
+    old: 7ae77a5c1690dd9240f563974e0c38ed3cb4fa64
+    new: a760bcb9c535f21b44e856364e1c93740869e90a
     log: |
-         d6f8e0e06dee066076a45eea4f9f85247f85477d cpufreq: Add QCS8300 to cpufreq-dt-platdev blocklist
-         8655a4e35cda5534f93303af393eac4e71704701 cpufreq: tegra194: remove COMPILE_TEST
+         a760bcb9c535f21b44e856364e1c93740869e90a erofs-utils: decompress: fix QPL job leak on error paths
          
