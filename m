@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3530683011132700857=="
+Content-Type: multipart/mixed; boundary="===============4994116865178936995=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/gregkh
-Date: Fri, 20 Mar 2026 11:03:36 -0000
-Message-Id: <177400461684.1953705.13532739742153348495@gitolite.kernel.org>
+Date: Fri, 20 Mar 2026 11:07:05 -0000
+Message-Id: <177400482526.1957513.1533187621665643749@gitolite.kernel.org>
 
---===============3530683011132700857==
+--===============4994116865178936995==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/gregkh
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: f338e77383789c0cae23ca3d48adcc5e9e137e3c
-    new: 0e4f8f1a3d081e834be5fd0a62bdb2554fadd307
-    log: revlist-f338e7738378-0e4f8f1a3d08.txt
+  - ref: refs/heads/clanker
+    old: d555f4343511d92c18fd796515b63b41a3fa6a6c
+    new: 5c46ec839fa8e833380f8b97f1f0b8b96b9e8789
+    log: revlist-d555f4343511-5c46ec839fa8.txt
 
---===============3530683011132700857==
+--===============4994116865178936995==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1774004615 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1774004800 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/gregkh.git
-nonce 1774004613-8a9ae7f77e333580132162b18de9d214cdd16b93
+nonce 1774004792-1b958ad5aa140586a8554ea206a6999942bbdeb0
 
-f338e77383789c0cae23ca3d48adcc5e9e137e3c 0e4f8f1a3d081e834be5fd0a62bdb2554fadd307 refs/heads/main
+d555f4343511d92c18fd796515b63b41a3fa6a6c 5c46ec839fa8e833380f8b97f1f0b8b96b9e8789 refs/heads/clanker
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmm9KYcbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Yp0P/1W0y6k3rh6+Fv0F3Wks
-2CuYe/8fRPfj+xgiSvH5sSFhpHu6+8tZoovLuQWUU/QC07w+6QhEr23qFOAkYyiK
-7NWFvj+vuN7V0onFYjxAjkS1TjhPJr0mLqr8/QNxdwV2A7IywEiW6I8K++kzuVyf
-JBoBLX7YUaWVl3nDTBDNhpCE1udiBXC1YH81j2fqvhqV9oCr+e0OVObSHTa2LW33
-4JlOOdTFKKcFktprufxF6D6CUBDHMSuuy6HcI/pEbAoKQyRMHCIQv685sGKYcbGV
-tHoKYD545gFC15gN5UNM6ogkqUmAxxdZ+89lcelTREjpN7qCaTRlIK3dcEg9CJUc
-gzEuqrarm9+R7tpHp/h7MINexYz6Gt9oP2kbOOvPzMHeYs4soDqJZe64XWbu+np1
-A/lXV8RA+UbUh213Tfv4wpb9j921uWc4+/u8ZhAhBXKpPvtOdhqM+wcGN2WufIpT
-lpTZXzxFBMuYHiQxcXCYEuKpdrCoFGQhTSyRY2nMpkdy0ak4t96eRU+tn7PNn5rc
-eCfJeej3gKJo+3pAmXWwpIziMKIe5Am5INKYE9prI5HOM9ya4YGbrGjF2/iIN/zP
-dGUthGqEveZApUVLCTi+3ybS9JXUGRfDMEt0wmJeM+SG41xJ1PTcdgvVhseuj3JA
-8TRmGltFKxUaHPJh0kWJIWpB
-=ocA5
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmm9KkAbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+UGUP+wS9f15px09FCmHKySjT
+1B2sZlVZ4mYzv6KTP/T0bSYaPsy9T8d8CjptdYxhG8VzPYxp8LUhnmoEI/YLjha/
+b41N6jWYbcgARSua05oaNyvf7sn3uAholsmtUO3E97a68QQncgCPku/RchLTzTDe
+pII1I/8FiK9cRGLE0HUdMSkCHphwJI0RiN/0ay5XmgYRWPJu+LZJUoevXFa7FEkt
+2P7hjLOLbto0vgO4RDy8BN5nTgoEBKC9NcdPXrmLhFUNYxomKfXrNYa5IEf7Zj55
+K1a23uQYcBGE5CRPkTkwGPB10CR/Zs4oQ4omSnTSwfJqUK44XFyeiCvLopOcx8SO
+lWbzgK6EMgKzAE9FBFBic/cB3+8NbrI9HIacByJeeNm7RuuXYH92j/L/aV/nkxEb
+WhNipg8NTxopaQNPY5Gokt7vnKyP47lk/AboEuLa/2xXr32GmYYbP4ZgkkOmIsyM
+bFWA7vBBBe1IDhaMDzJSxM8tqUG2nCj0KZ6bPLmYiPzrZsl6lGouxhtKpcBJyUh6
+3XOrEObcCUalNg38BfrOus7NGg4Bczsr83JhtuJ4+ALF38vlST00umnGJ+TIy+FO
+mpdrfwg/yZ6CSzJD+57RcffyEMz9ffPlDGRDAailSR2eT944Q+oHnHLyAVlA1t6g
+X2Pyc9AVlMRc+7GNR5Qoarn1
+=3Kgi
 -----END PGP SIGNATURE-----
 
---===============3530683011132700857==
+--===============4994116865178936995==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f338e7738378-0e4f8f1a3d08.txt
+Content-Disposition: attachment; filename=revlist-d555f4343511-5c46ec839fa8.txt
 
 5a741f8cc6fe62542f955cd8d24933a1b6589cbd soc: microchip: mpfs: Fix memory leak in mpfs_sys_controller_probe()
 ff4b6bf7eef4f5b921eed78f2816abcc55bcdd68 riscv: dts: microchip: add can resets to mpfs
@@ -238,5 +238,14 @@ b48731849609cbd8c53785a48976850b443153fd net: dsa: bcm_sf2: fix missing clk_disa
 a1d9d8e833781c44ab688708804ce35f20f3cbbd Merge tag 'net-7.0-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 9b70771216558bffb329c2e69b2fd5fd71133e55 Merge tag 'pci-v7.0-fixes-4' of git://git.kernel.org/pub/scm/linux/kernel/git/pci/pci
 0e4f8f1a3d081e834be5fd0a62bdb2554fadd307 Merge tag 'parisc-for-7.0-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/deller/parisc-linux
+b528265b6d0f9eca457f0dc9a2ecece3f0509750 leds: qcom-lpg: Check for array overflow when selecting the high resolution
+da9cfb7b594a75a90345794b910bbfb0449d6984 net: mctp: usb: properly drop the usb interface on probe error
+59cf4bd884e0fc7015fad80bc637e56b7613d4c7 wifi: rtw88: properly drop usb interface reference on error
+9820f9bdd1991612df8407d3da7d37ac710e2e5b mmc: moxart: fix potential use-after-free on remove path.
+a972fc6bc6a6e859c8795ba4d8f89fc70b099b66 mmc: meson-gx: fix potential use-after-free on remove path.
+c1459baf140b82c99dcf35c8899cf70309e62822 scsi: ses: Handle positive SCSI error from ses_recv_diag()
+de05f58eda0abb558ce0fc5a827d992a9c579e08 drm/vc4: platform_get_irq_byname() returns an int
+a9cb2b62ef0f29aef96cfa959499bd2eaee7bfdc i2c: s3c24xx: check the size of the SMBUS message before using it
+5c46ec839fa8e833380f8b97f1f0b8b96b9e8789 f2fs: fix potential deadlock in f2fs_convert_inline_inode
 
---===============3530683011132700857==--
+--===============4994116865178936995==--
