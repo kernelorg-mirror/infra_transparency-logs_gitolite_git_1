@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2413401199512789029=="
+Content-Type: multipart/mixed; boundary="===============0994343222741461339=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Fri, 20 Mar 2026 02:34:10 -0000
-Message-Id: <177397405014.1496550.4237258730499331907@gitolite.kernel.org>
+Date: Fri, 20 Mar 2026 02:34:35 -0000
+Message-Id: <177397407513.1496928.15426229788262976630@gitolite.kernel.org>
 
---===============2413401199512789029==
+--===============0994343222741461339==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,44 +16,41 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/fixes
-    old: 8ddc0c26916574395447ebf4cff684314f6873a9
-    new: 01f784fc9d0ab2a6dac45ee443620e517cb2a19b
+  - ref: refs/tags/mkp-scsi-queue
+    old: d849f2e425d17a8343d3c50ea5e1bc02132683a4
+    new: e0639b83b1d6831c48d3128c72c560cd0bd5278a
     log: |
-         7a9f448d44127217fabc4065c5ba070d4e0b5d37 scsi: ses: Handle positive SCSI error from ses_recv_diag()
-         61d099ac4a7a8fb11ebdb6e2ec8d77f38e77362f scsi: ibmvfc: Fix OOB access in ibmvfc_discover_targets_done()
-         1333eee56cdf3f0cf67c6ab4114c2c9e0a952026 scsi: target: tcm_loop: Drain commands in target_reset handler
-         d71afa9deb4d413232ba16d693f7d43b321931b4 scsi: scsi_transport_sas: Fix the maximum channel scanning issue
-         01f784fc9d0ab2a6dac45ee443620e517cb2a19b scsi: target: file: Use kzalloc_flex for aio_cmd
+         134b898ccb68f705dff100f097886e6fe53a9566 scsi: ufs: qcom: dt-bindings: Document the Eliza UFS controller
+         bdce3a69c578090dd5e3c77bcdaaca10c3a41e34 scsi: ufs: rockchip,rk3576-ufshc: dt-bindings: Add new mphy reset item
          
 
---===============2413401199512789029==
+--===============0994343222741461339==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1773974047 -0400
+pusher 75C5DE3D 1773974054 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1773974046-8bacbbac8e25828e8f1d5f03ea9f96e4a3116e6b
+nonce 1773974053-b162c9d651fa0dda549c7611dd43d8fc41c1db21
 
-8ddc0c26916574395447ebf4cff684314f6873a9 01f784fc9d0ab2a6dac45ee443620e517cb2a19b refs/heads/fixes
+d849f2e425d17a8343d3c50ea5e1bc02132683a4 e0639b83b1d6831c48d3128c72c560cd0bd5278a refs/tags/mkp-scsi-queue
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmm8sh8ACgkQ7ulgGnXF
-3j37FhAApBckTZsMMnb8rDF77uvarZFFB5b1tz9RwcwWLMR+ec/fmxNFpKywmyh6
-NDQiGDpzOwwqPLzEPcB7W+ls2DCn9jDlCj/EvKPhI3tqQO5Z8phEQLnUlKmbLrG/
-7lhWU8v6RVVCw5DgZjiiKMhTtegF7Oifjj8ad1dZS6u9BuDYT/xFULSA33WEsV4J
-a7sMNefi4Jb2aA0NjcPh0XolO3AVdnpP3yjQhR2aFbBZ5xWWWaAu0c88TnksOkFO
-Jid1bkwf7iDipiUisUjUXmXrMwWMtpXA3mKXdW94TXnNHaT0ueggRKJ3KuXX4C79
-OAQ2JqvQl074CWbvuVDBpRN9R+jrTKuM5Kb+NBF8KQEfzujG6VCBt0Cd0w5oTjgn
-52CVu+eA7WJ/IP0PwsVgvfTjgKLdZPIc+RdvQ8LpL57Hqerj1Q4LxUaRPtsnemnw
-A6TFRjskCyI5RoJk+E6jhW4z2vPZp9nrmiNcrdZwh1/zFDwrLqsyHiQ1Ur9Tj61W
-Kad0fDqR8SMLi+4U9XyO+bdl7KYRGaHDLtssmV6jngkMQaKxaUL+f5RxNrG8Kh/L
-Ux6ySJSr4OpjDJNeQ0RNqNHoZwVMQL1/E7YtaVp9aAfqp+8eLuXVBd+zKmMo1OBR
-KuaCh+MOO9my85OssImQWcoWswb5+4+JmrYCJnOgH0HnrGCt9dM=
-=92xy
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmm8siYACgkQ7ulgGnXF
+3j03GA//baBdTnoQ7dDyx/9xcA+mPZX2VqFBYs9THUJ0zDo9Tlp6rV2ZdZa19TR8
+MQBTN7UFPtN6AvDdcZYCX2F0FPIhLtgcu0kuI/uOHpk7JbFKLQM9nx/X7GH6VP6J
+fxn3WWBJ/bnUMQJi9Cgr1eD7v95qxL4Fsce+Mkyk3AnKxR47E35Hkfz2z+1c4TZR
+v77WeXk/4ejXwc9/MjMrqF0UUic9QKUxppVnq6IowbuZYc2rtPkH8cG8Rr2yQ6r8
+8nhdIBaZQ4DROnkbCuV4lzCto8N5bhfbWlGCpVEHUBDVbJ82dYXARRiJEIVvSKCV
+FyWKCSsGnoZalivOcYJzks5LssdQ+m1y6QXq4p7NsNwEstCI5381OdcWl4sBW4uS
+DvPy9NxzNTHlgv3gZCArDUhnMJvg6E3AI0Z0UUbpVngojRSZq6q6slPAaoCf4TsZ
+C1zFjmtu3Bwa29K+F9Jip3c1y4wDdhNdXinYKsFmYy+WElnfMluvsvmtrTghyWPW
+S6/vq0OeF5qZX29rTc3W/MVZ6jEMt4+zSlt53SJxAw4zgzW/eG/6FVDSgKdYYLvC
+GozokWS0WyeiyOeeRvAXuI5OTM8Qph+NB2X83vbaf8itdqRa0mqwhEhWki8H0IR4
+NuXnJ+7ffQDT7Sas2QGGgy0VIvoxfg7Cqm1CAV20lZE0zbtnrlA=
+=UU47
 -----END PGP SIGNATURE-----
 
---===============2413401199512789029==--
+--===============0994343222741461339==--
