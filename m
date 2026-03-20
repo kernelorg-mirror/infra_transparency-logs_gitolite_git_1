@@ -1,27 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jejb/scsi
-Date: Fri, 20 Mar 2026 13:52:50 -0000
-Message-Id: <177401477073.2094505.191810062535066244@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
+Date: Fri, 20 Mar 2026 13:54:44 -0000
+Message-Id: <177401488470.2095279.14589485942493049754@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
-Content-Transfer-Encoding: 7bit
+Content-Transfer-Encoding: 8bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jejb/scsi
-user: jejb
+repo: pub/scm/linux/kernel/git/rdma/rdma
+user: leon
 changes:
-  - ref: refs/heads/for-next
-    old: 8387c81a4eb9e0716e66d15c60151c97815c2e51
-    new: 604f9c5150f6317a3983ee3914758e4a4d677348
+  - ref: refs/heads/wip/leon-for-next
+    old: 90b7abe25ce9b8ea6b97c534cb0f037155013bb8
+    new: 5736e92b9168afaa8d110be171e62b765b54d9d5
     log: |
-         134b898ccb68f705dff100f097886e6fe53a9566 scsi: ufs: qcom: dt-bindings: Document the Eliza UFS controller
-         bdce3a69c578090dd5e3c77bcdaaca10c3a41e34 scsi: ufs: rockchip,rk3576-ufshc: dt-bindings: Add new mphy reset item
-         7a9f448d44127217fabc4065c5ba070d4e0b5d37 scsi: ses: Handle positive SCSI error from ses_recv_diag()
-         61d099ac4a7a8fb11ebdb6e2ec8d77f38e77362f scsi: ibmvfc: Fix OOB access in ibmvfc_discover_targets_done()
-         1333eee56cdf3f0cf67c6ab4114c2c9e0a952026 scsi: target: tcm_loop: Drain commands in target_reset handler
-         d71afa9deb4d413232ba16d693f7d43b321931b4 scsi: scsi_transport_sas: Fix the maximum channel scanning issue
-         01f784fc9d0ab2a6dac45ee443620e517cb2a19b scsi: target: file: Use kzalloc_flex for aio_cmd
-         b6059a4cffe94408ee98bd5c36646e2a137288a6 Merge branch 'misc' into for-next
-         604f9c5150f6317a3983ee3914758e4a4d677348 Merge branch 'fixes' into for-next
+         086d5c80b8b8ca2595774fda0c060739a7aa2fa1 RDMA/mana_ib: cleanup the usage of mana_gd_send_request()
+         2395dd086ea871dafe48435c6ebc9228c72c0244 RDMA/nldev: Add dellink function pointer
+         645bd1d6371105fb56fafeb5e933bb78e8ba8c83 RDMA/rxe: Add net namespace support for IPv4/IPv6 sockets
+         5219d7e5aa9859c9231364f2a06e088e35491fa4 RDMA/rxe: Support RDMA link creation and destruction per net namespace
+         c5f5a3374635183df9e66d2f96e377e24f254f8c RDMA/rxe: Add testcase for net namespace rxe
+         20b0efde74234e22afd52085b4b995cc97a57c05 RDMA/core: Remove unused ib_resize_cq() implementation
+         5736e92b9168afaa8d110be171e62b765b54d9d5 RDMA: Clarify that CQ resize is a user‑space verb
          
