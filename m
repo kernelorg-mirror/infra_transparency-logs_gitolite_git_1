@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5378531955601367109=="
+Content-Type: multipart/mixed; boundary="===============5284738175066130181=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/chanwoo/extcon
-Date: Fri, 20 Mar 2026 02:20:36 -0000
-Message-Id: <177397323674.1485240.8354909545002598678@gitolite.kernel.org>
+Date: Fri, 20 Mar 2026 02:20:49 -0000
+Message-Id: <177397324921.1485493.15329062354391109106@gitolite.kernel.org>
 
---===============5378531955601367109==
+--===============5284738175066130181==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,24 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/chanwoo/extcon
 user: chanwoo
 changes:
-  - ref: refs/heads/extcon-fixes
-    old: 05f7e89ab9731565d8a62e3b5d1ec206485eeb0b
-    new: f338e77383789c0cae23ca3d48adcc5e9e137e3c
-    log: revlist-05f7e89ab973-f338e7738378.txt
+  - ref: refs/heads/extcon-next
+    old: 24c76540a08b79c89aa991b9f05aed7d5d81ae95
+    new: 1bf0ba46d9d2c784120fd9cb235c08add3a6e7be
+    log: revlist-24c76540a08b-1bf0ba46d9d2.txt
 
---===============5378531955601367109==
+--===============5284738175066130181==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-05f7e89ab973-f338e7738378.txt
+Content-Disposition: attachment; filename=revlist-24c76540a08b-1bf0ba46d9d2.txt
 
-786ea2b694f48e1b34f1dcf104e09357fc99ef34 ALSA: hda: cs35l56: Remove unnecessary struct cs_dsp_client_ops
-a0b4c7a49137ed21279f354eb59f49ddae8dffc2 netfs: Fix unbuffered/DIO writes to dispatch subrequests in strict sequence
-2970525f789c080e7e82ecb09cd85a8bb1d284e4 btrfs: handle discard errors in in btrfs_finish_extent_commit()
-a4fe134fc1d8eb7dcd07e0961c5711b443decd89 btrfs: fix a double release on reserved extents in cow_one_range()
-0649355303995d6539df1fa8feaf50497f94db9b btrfs: change warning messages to error level in open_ctree()
-64def7d7d62b61044fe619e3cc9cbe60454decd9 btrfs: remove redundant warning message in btrfs_check_uuid_tree()
-4db8d56c6f4cbea7293d4236efac4a507dbfa6b1 btrfs: remove btrfs_handle_fs_error() after failure to recover log trees
 912db40655684a0a427c8b118dd0c36eb5a61fe4 btrfs: convert log messages to error level in btrfs_replay_log()
 8ac7fad32b93044f4350ab35f11fee1a61286723 btrfs: remove pointless WARN_ON() in cache_save_setup()
 2ab22446425c2c72b44926bc964c263e06e7e137 btrfs: fix referenced/exclusive check in squota_check_parent_usage()
@@ -1050,5 +1043,12 @@ be2e3750ce0ce1b9ba77b521fee7f3e9166e64e9 Merge tag 'irq-urgent-2026-03-15' of gi
 d9bf296c398d093f9641568411dee16285302113 Merge tag 'probes-fixes-v7.0-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
 5c2fe8d11ae05411566f9d69321375ea686603d4 Merge tag 'scsi-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
 f338e77383789c0cae23ca3d48adcc5e9e137e3c Linux 7.0-rc4
+4652fefcda3c604c83d1ae28ede94544e2142f06 extcon: ptn5150: handle pending IRQ events during system resume
+6a4d20fecc650d0aeeb668cd1be6aa704220e227 extcon: int3496: replace use of system_wq with system_percpu_wq
+8857f2495a2a37609ac925ab2fcd72104b190499 extcon: Fixed sysfs duplicate filename issue
+086d7f1e063b3f7bbc6c54bbbabf1fa842be289f dt-bindings: extcon: ptn5150: Allow "connector" node to present
+842546c56345eebc2396927df5b4e933d90de43a extcon: ptn5150: Add Type-C orientation switch support
+9c98fdec70ec15c46610464366d414df1d6a0bee extcon: ptn5150: Support USB role switch via connector fwnode
+1bf0ba46d9d2c784120fd9cb235c08add3a6e7be extcon: usbc-tusb320: Make typec-power-opmode optional
 
---===============5378531955601367109==--
+--===============5284738175066130181==--
