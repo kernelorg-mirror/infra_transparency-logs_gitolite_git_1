@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3870999084505816766=="
+Content-Type: multipart/mixed; boundary="===============3863583389566614737=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Fri, 20 Mar 2026 02:33:40 -0000
-Message-Id: <177397402014.1496011.9948994369576162933@gitolite.kernel.org>
+Date: Fri, 20 Mar 2026 02:34:04 -0000
+Message-Id: <177397404411.1496316.9988538876098306580@gitolite.kernel.org>
 
---===============3870999084505816766==
+--===============3863583389566614737==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,9 +16,9 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-fixes
-    old: 8aa76bed196c9ca42bfed3f5ab737627abf18c83
-    new: 89fa3941d2d9a9770f9a042e3cb8be8090e86d08
+  - ref: refs/heads/7.0/scsi-fixes
+    old: 8ddc0c26916574395447ebf4cff684314f6873a9
+    new: 01f784fc9d0ab2a6dac45ee443620e517cb2a19b
     log: |
          7a9f448d44127217fabc4065c5ba070d4e0b5d37 scsi: ses: Handle positive SCSI error from ses_recv_diag()
          61d099ac4a7a8fb11ebdb6e2ec8d77f38e77362f scsi: ibmvfc: Fix OOB access in ibmvfc_discover_targets_done()
@@ -27,33 +27,33 @@ changes:
          01f784fc9d0ab2a6dac45ee443620e517cb2a19b scsi: target: file: Use kzalloc_flex for aio_cmd
          
 
---===============3870999084505816766==
+--===============3863583389566614737==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1773973998 -0400
+pusher 75C5DE3D 1773974023 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1773973997-a10b68dbb3fc418edd41d6d03cd1af0ba40ef9e2
+nonce 1773974022-4fb20bee207458a83cd6fd6cae276942c41f4863
 
-8aa76bed196c9ca42bfed3f5ab737627abf18c83 89fa3941d2d9a9770f9a042e3cb8be8090e86d08 refs/tags/mkp-scsi-fixes
+8ddc0c26916574395447ebf4cff684314f6873a9 01f784fc9d0ab2a6dac45ee443620e517cb2a19b refs/heads/7.0/scsi-fixes
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmm8se4ACgkQ7ulgGnXF
-3j1urw/6AqpbJDrvHKcde0JIDGswVhCe34StIyv7OtZ+bY2Tsq/UrdbFVPJUuTjU
-YofP7tyPMRSU9ZyEdq5RTjSmH5Y99Fmo+Of3A55wPH4N+VgaQa3ABmaiWM9JlqqE
-md+BF/FMIaYnc7r/YU5FhFoBvRYkmCA7lkrkdx96Pj6LyJ0uq1IFmxtNgoUXktgH
-bTbOYC6dr6qt65KwsliW+cTALeesRAOqlAX94+BMfYJ/3kmW3UfTqyvuarEL4rMV
-IXT+i5olGgR/CC5vjbbR9L/8Wrz3uy2H1IM5yYxW5RdHaf6J3sxpGsAUX4cwfCZv
-Y/MSUuOU8dk9StNxgZ/r8XM8Rrbl9EQ920yuZkdvdmAzbSsxkK5GCNrZJJX4sKEi
-h8tFlO4aB+Wn2nWhvxIIj08YBhJJ85sbFkhwRYKoHEpTvZfDmlNDE3BWrE9rxP1i
-5eQvPamO9Aa707qa9/aCMVtg+hZ0pHc8wJuOAmgI55CTp7RAFpEhE+dQNnf1Yh7p
-J235B0CAh+cjUjpZXunP2D25wGQdiD5ceg0/2rXsqgc6sRNgTZ0x1fhp+ZSpizHM
-c+htE5ORe/G4Wc8ujVB6nWTFMR2zwXt0R2w4Bf0GNtjjNtv/d/TU5fzejSo9zbOc
-dSzqWAYFoI18VVqishZrjndBH1APaa3GM3nENvXdmnNCbk1cQFg=
-=8kdi
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmm8sgcACgkQ7ulgGnXF
+3j3UDBAAsvYVmsVPa/du+K3J1u/BXt9y2/2D96gYwPba4uOtSuSPCC8P4zfkYdS8
+PtMzQFy7pjkKBb0QIWIxlv+39Z2wpLxm6VIihyZEzQ4yA9AgsUcAwt9ixqOQmeXB
+6DKvzdBLZ0Ohv9PvPkiFW+F9X8OLe24w6fkuT2zgwQlkmCfO6V5XrjwAGbNMaSL2
+8btdav8L4selUjtuAiVveeKyXH3I1OmER/kkQOwFXlNzMCbE33T2+6+FTj1m2A21
+B65zdQ1EertIdcqjHvw5fUtoJrUu2i67Nwqj3w7T++72wQjD/kPM1cXMfmSIr7Wg
+uJVubOXPoInd+R3alBq3E0HtcJU0NYrXeFG5XlTn5OL6GlNxvw44ckzDKGFvpCkU
+m5WnlCePqdtTS5C0Kpz8DWRwbc+ogt3S30dIqnTIAjBOsWfTMKqYxZnnIKwkxnM8
+XlPkPbf9NziU6ChC65Ya3r/N+ZTO0gCnvnHiMjOPg606cXlwhRSOlK067CtwC0Ga
+4NUxp2SP3TN3vIkAmxnbjfpqZfzFwIWQYyaRpyHN32vumu8c9vU/jE0xQIKVn3oI
+XOrm7iuPJpLA8O795/8t6Si5cBTKv1cbndMKqmEhBqZj3sY0hyLZUEM2SD+mZTrD
+1B8ndIIPzM8vdWGJSHpVj5XFwkQiG7IwneeutCr+PNSMnJUnKX4=
+=bOgc
 -----END PGP SIGNATURE-----
 
---===============3870999084505816766==--
+--===============3863583389566614737==--
