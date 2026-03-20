@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3254162501843413276=="
+Content-Type: multipart/mixed; boundary="===============3136928933743812707=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Fri, 20 Mar 2026 14:25:50 -0000
-Message-Id: <177401675019.2122329.12045218617594521949@gitolite.kernel.org>
+Date: Fri, 20 Mar 2026 14:25:52 -0000
+Message-Id: <177401675204.2122555.627656326421851327@gitolite.kernel.org>
 
---===============3254162501843413276==
+--===============3136928933743812707==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/mm-new
-    old: 39849a55738542a4cdef8394095ccfa98530e250
-    new: dc5e2c85d569a47d9184f0e6ccf1fab25826fc4f
-    log: revlist-39849a557385-dc5e2c85d569.txt
+  - ref: refs/heads/mm-unstable
+    old: e990e94fd80162aa499989eb97023d847000613f
+    new: a12ff2f1b54744e4f7e6ba30157f49d607437f8c
+    log: revlist-e990e94fd801-a12ff2f1b547.txt
 
---===============3254162501843413276==
+--===============3136928933743812707==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-39849a557385-dc5e2c85d569.txt
+Content-Disposition: attachment; filename=revlist-e990e94fd801-a12ff2f1b547.txt
 
 21a977a6b8747048cfa4afb816814eafb25da0df riscv: avoid early page_to_phys()
 ed499c3ddfdf29126c96820d67d03c89d9f3e857 mailmap: update email address for Muhammad Usama Anjum
@@ -453,52 +453,5 @@ c5eab919d5a921f01249e2108e16856be32b47c7 liveupdate: remove file handler module 
 4b11981c7efd99a34ef23e752602cfd70d70c02c liveupdate: remove liveupdate_test_unregister()
 a2304fb136e21974d8f8b3409b4b5b72c2793727 liveupdate: make unregister functions return void
 a12ff2f1b54744e4f7e6ba30157f49d607437f8c mm/swapfile: remove duplicate include of swap_table.h
-077a45da31436a87afcbcc92b475bb4dc7c35ad0 selftests/mm: add UFFDIO_MOVE huge zeropage PMD regression test
-826e835fe01e16436b6c43073c0a640462107326 Docs/mm/damon/design: document DAMON actions when TRANSPARENT_HUGEPAGE is off
-a2767d0417010debd367e1bc15fae7b7cb7fc165 mm/hugetlb: fix memory offline failure due to hwpoisoned file hugetlb
-19019599a4b5aaf822d1c02128b2969ffc5cf0c4 mm/memory_hotplug: remove for_each_valid_pfn() usage
-822a829bb1dfa588fbbaa100332fc849ee20f0d0 mm/sparse: remove WARN_ONs from (online|offline)_mem_sections()
-28b0c881ef9fb09f52c245eb97c87977faa7dfe8 mm/Kconfig: make CONFIG_MEMORY_HOTPLUG depend on CONFIG_SPARSEMEM_VMEMMAP
-828a8dd78e88dbc0e50120317e2a4c342791f060 mm/memory_hotplug: simplify check_pfn_span()
-2f81a51f9999f1a23d48d436032736ed62ef7128 mm/sparse: remove !CONFIG_SPARSEMEM_VMEMMAP leftovers for CONFIG_MEMORY_HOTPLUG
-d00fbf764d7e36b4c8d61dfbb435a537e8ebcb35 mm/bootmem_info: remove handling for !CONFIG_SPARSEMEM_VMEMMAP
-3be8d89b24e4ee0965eab92f55171ffb74488640 mm/bootmem_info: avoid using sparse_decode_mem_map()
-ef62d3e398469c1f4dc578695348dbceabfd9b61 mm/sparse: remove sparse_decode_mem_map()
-a9d55b4653bc4a5dff31e922afd0967112c677bf mm/sparse: remove CONFIG_MEMORY_HOTPLUG-specific usemap allocation handling
-68e96bc7f91d8a4513e867a8322a072a8da7f5b1 mm: prepare to move subsection_map_init() to mm/sparse-vmemmap.c
-29ad4494f9abe9e9396476e378447cd6bb6ce5bd mm/sparse: drop set_section_nid() from sparse_add_section()
-65d4cd3fde95a355870203a51a03044f20c0b374 mm/sparse: move sparse_init_one_section() to internal.h
-1a1a9b2a6198f767247d4f4820826e216b7ecd94 mm/sparse: move __section_mark_present() to internal.h
-5ce8ac511e647779cfaab32ea3db6632cdc50254 mm/sparse: move memory hotplug bits to sparse-vmemmap.c
-d91a4426dfa32722400b00e26bb63c67bf5e0df2 mm: list_lru: lock_list_lru_of_memcg() cannot return NULL if !skip_empty
-5a9c7e500be12a233a31b3e2006f8f5b78a81ede mm: list_lru: deduplicate unlock_list_lru()
-d24e690bbc8de7b9cd90a5d5885d6f845aee9859 mm: list_lru: move list dead check to lock_list_lru_of_memcg()
-521ab1d78122b2dd66c200b4f678ea7264858e44 mm: list_lru: deduplicate lock_list_lru()
-6a97b832607f9950e2e767e2f1a0e08cc72bf7ab mm: list_lru: introduce caller locking for additions and deletions
-bda1841d711c2bb5b4697cd0adcd7e66217bcaeb mm: list_lru: introduce folio_memcg_list_lru_alloc()
-74289ca71d663ba527bedccab1e988c4c037a0dd mm: switch deferred split shrinker to list_lru
-0a03b56105c375e8bd385b41fceda33b1038b825 selftests/mm: add folio_split() and filemap_get_entry() race test
-223355f8d01c293a9d37a0a8659a82f0f6db56b2 selftests/mm/guard-regions: skip collapse test when thp not enabled
-c7648f22ac6c3023bac437a81fd99c59f8280029 selftests/mm: soft-dirty: skip two tests when thp is not available
-af39937bd001b9d56b4ad2093b20335a2c773b18 selftests/mm: move write_file helper to vm_util
-5baf75c0e6daead64890df7f89172ff546272066 selftests/mm: split_huge_page_test: skip the test when thp is not available
-248b90e4964cab12a42ceb065413f4448191b272 selftests/mm: transhuge_stress: skip the test when thp not available
-4ad30b93afb95a7feb96c6898eef25343219da1f mm/huge_memory: simplify vma_is_specal_huge()
-a3b7763cbb14aa66820d254adb1652fc828a0599 mm/huge: avoid big else branch in zap_huge_pmd()
-2fdbe433a9ab52486cb159fe05acacbd2727a125 mm/huge_memory: have zap_huge_pmd return a boolean, add kdoc
-edd447b7f86463581ba6ee5a0851bf3e46593838 mm/huge_memory: handle buggy PMD entry in zap_huge_pmd()
-e666bbf788eed0ddf70a416dc905983f741fd13e mm/huge_memory: add a common exit path to zap_huge_pmd()
-84e7255385c2a2ddbc15889b6e746137e43345a6 mm/huge_memory: remove unnecessary VM_BUG_ON_PAGE()
-e883ee8e325095e58a6306d1dbf08d13873b9fbf mm/huge_memory: deduplicate zap deposited table call
-d82a8fa3e0dc490a988b1d963057e494860268e8 mm/huge_memory: deduplicate zap_huge_pmd() further by tracking state
-13f23c1b68a472953774a4f588a9f0d969ba5ff6 mm/huge_memory: have zap_huge_pmd() use vm_normal_folio_pmd()
-5a26f5d977d40fba7b317112014b6a034c1810d8 mm: remove CONFIG_ARCH_ENABLE_MEMORY_HOTREMOVE
-b3c3dc1b3299930148ea4c7981a1c45380e43277 mm: introduce CONFIG_NUMA_MIGRATION and simplify CONFIG_MIGRATION
-ba2006d6e0b2a735317ab8b89db7cd306e2ac31d zsmalloc: return -EBUSY for zspage migration lock contention
-94caad97371686d4cd321a0046c8858631558265 mm/memfd_luo: optimize shmem_recalc_inode calls in retrieve path
-33fdb6683b2fab6891c1f8f37aac82d1687dd31f mm/memfd_luo: remove unnecessary memset in zero-size memfd path
-42621d99ac6c08f57dba2fc1f4e4f2f439df6507 mm/memfd_luo: use i_size_write() to set inode size during retrieve
-4d28be4f968df8d9835673d738063ab25d08c1a3 mm/memcontrol: fix reclaim_options leak in try_charge_memcg()
-dc5e2c85d569a47d9184f0e6ccf1fab25826fc4f mm/mglru: fix cgroup OOM during MGLRU state switching
 
---===============3254162501843413276==--
+--===============3136928933743812707==--
