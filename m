@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/b4/b4
-Date: Fri, 20 Mar 2026 20:40:10 -0000
-Message-Id: <177403921089.2433952.12133109011758971907@gitolite.kernel.org>
+Subject: post-receive: pub/scm/docs/kernel/ksmap
+Date: Fri, 20 Mar 2026 20:47:28 -0000
+Message-Id: <177403964873.2439469.8763599836357278218@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/b4/b4
-user: mricon
+repo: pub/scm/docs/kernel/ksmap
+user: jejb
 changes:
   - ref: refs/heads/master
-    old: dc5942bd5dfcdd34805e68212dcdc068e24d0c49
-    new: 8c19c426d0ac1a37c282004767ab9daf8cd5c12a
+    old: d301191c6b79ffbc1cd6b4f99f0de4d00c759f1c
+    new: 13dd56a14c24d064bbf635df731f097d24caa80d
     log: |
-         8c19c426d0ac1a37c282004767ab9daf8cd5c12a Bump version to 0.16-dev
+         13dd56a14c24d064bbf635df731f097d24caa80d users: add James Bottomley
          
