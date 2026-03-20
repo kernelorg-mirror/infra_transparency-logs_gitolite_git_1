@@ -1,29 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
-Date: Fri, 20 Mar 2026 09:01:39 -0000
-Message-Id: <177399729960.1854083.9623745592241157830@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============3628588739967116405=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Fri, 20 Mar 2026 09:01:42 -0000
+Message-Id: <177399730209.1854164.4913891676544975548@gitolite.kernel.org>
+
+--===============3628588739967116405==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/peterz/queue
-user: peterz
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/sched/flat
-    old: 4974c93ce402d69988eb7b2e9e490c22cc22bb7b
-    new: e9797a4cb89ce850c450bff5c36e64fe7dc7b3b7
+  - ref: refs/heads/master
+    old: e0f20c5a9874bc1d793df1f8b43629797911d057
+    new: a83c96c7e45e111720bda106d9aa74b00f8e34d9
     log: |
-         dbdf45f9283ab6d1dac9ce1adbcc30a4bb2121d3 Merge branch 'tip/sched/hrtick'
-         151b14deb016a61aac110be17e2507cfda63bce0 sched/debug: Use 'char *' instead of 'char (*)[]'
-         cc9c02941a5f809a8f4946fd14742497a79798f2 sched: Use {READ,WRITE}_ONCE() for preempt_dynamic_mode
-         8dff6fe38e3314bf85b597afa4af936b6ab97fab sched/debug: Collapse subsequent CONFIG_SCHED_CLASS_EXT sections
-         a82fc25a8a95e99906e630e1b68758b5c621f30b sched/fair: Add cgroup_mode switch
-         b07363006fcf8d270ccb0e38cf7f57a7bea81d46 sched/fair: Add cgroup_mode: UP
-         66d031613c8467088ce65fbe8b688526551f801f sched/fair: Add cgroup_mode: MAX
-         24cfe7e8958606bdc9e67b4923140c89c4b461c5 sched/fair: Add cgroup_mode: CONCUR
-         f84bb56eb6ca10265a9791af6b9a7271645da3bc sched/fair: Add newidle balance to pick_task_fair()
-         7787b04afc2e46456c9e0bdda223e1089db8a77e sched: Remove sched_class::pick_next_task()
-         e9797a4cb89ce850c450bff5c36e64fe7dc7b3b7 sched/eevdf: Move to a single runqueue
+         a83c96c7e45e111720bda106d9aa74b00f8e34d9 6.12-stable patches
          
+
+--===============3628588739967116405==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1773997300 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1773997297-b2e2c4f716979e7efd351bc96bb50c6eb22b4698
+
+e0f20c5a9874bc1d793df1f8b43629797911d057 a83c96c7e45e111720bda106d9aa74b00f8e34d9 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmm9DPQbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Is4QAMEuyXK88i3g2KM5B2c2
+WS4ZamvBXIcq6536PJB8TKvyrGtnb3sfaftG6UAUfdpZ97OlTM4aIcCzkPKijwxt
+T455KB/+7XBLXew+1ep8/nC6RwNWr7YI5YLnIajj2FOYYqK5GMLc7+r8zOxvOp9F
+R/IrGWn2WmcfQVY2OXPrTlgChmuys9rOdJ625Pi0rMRbZUVHDiBfuR3Y/wplz7Bx
+ffiJ0hg4488eKbGzG68Rkrfmfo2tN+kmE1p/GCTLLpuyE0k8OpcLeWGmfsnEXqeY
+ZD1ZohfrvTG9tr/JmhJagIlAR/IFwuQ+iEf4LK7fs1+owzgp4WlsnWrvMAKOuS6c
+EFGXphrYuvBK9oiUkyHgzjtY4lMCTKI/gE/krufXU3ecD6fIa00zk/xOAFsuAJPs
+rQQW16uugGDB7YMDZL62SYR/X64F7GF3WdDvthGRJIEgR7Q96jJUvkZWSIfTmBN+
+X/sYwr5D5zyOAeCH8wQ6HyeFjKrwf3Qv/G8wsRdm8fqCQ0jXcm69E68ELVMOyren
+c9z9ZBH4igJJdlIqtImx0aUBrFWt57qN92vvl2KwEnHwmSj5UCQz1CMU2NB46RJx
+IPK4RXwYx3jJvnY51uaQyKacqTTAuqLkTLq9hKaMUuWyj7l0/7/6BvsEizv2sjcg
+QsgXEqsZUT7hGhrs0nBmhioM
+=Z6vm
+-----END PGP SIGNATURE-----
+
+--===============3628588739967116405==--
