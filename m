@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ast/bpf
-Date: Fri, 20 Mar 2026 23:10:24 -0000
-Message-Id: <177404822474.2551534.3909197636744789623@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ebiggers/linux
+Date: Fri, 20 Mar 2026 23:15:23 -0000
+Message-Id: <177404852361.2555609.6450408062580173278@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ast/bpf
-user: ast
+repo: pub/scm/linux/kernel/git/ebiggers/linux
+user: ebiggers
 changes:
-  - ref: refs/heads/stacklive
-    old: b87ccfd9ce33aadbe4d4c5df49d8f0dd80494542
-    new: f5fe4a871af7d52b150f1071b123d70d2ca367e0
+  - ref: refs/heads/libcrypto-pending
+    old: bfc5e8d0810e5e70ce071d356627d4e39c6492a1
+    new: 06e5e9868540eb7be8630b1466d1571b52f3c82f
     log: |
-         f5fe4a871af7d52b150f1071b123d70d2ca367e0 fix 1
+         06e5e9868540eb7be8630b1466d1571b52f3c82f lib/crypto: sha1: Explicitly specify alignment of sha1_ctx::buf
          
