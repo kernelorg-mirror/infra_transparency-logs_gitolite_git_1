@@ -1,21 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
-Date: Fri, 20 Mar 2026 11:54:37 -0000
-Message-Id: <177400767781.1995057.12356798680173092068@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netfilter/nf-next
+Date: Fri, 20 Mar 2026 12:01:47 -0000
+Message-Id: <177400810798.2002499.15975009338809280038@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rafael/linux-pm
-user: rafael
+repo: pub/scm/linux/kernel/git/netfilter/nf-next
+user: fwestphal
 changes:
-  - ref: refs/heads/bleeding-edge
-    old: 21ad890099143f352d17a0022be9cf244d6ea12a
-    new: 87e2ce91ba67e47f0717585937adbc717c1c6eaf
+  - ref: refs/heads/testing
+    old: e85dac480b15c424a2dd29fc1a364eff4bc42f55
+    new: b2340917e0e5ffead548876e57db4426aa3bcbeb
     log: |
-         95a533807e28e54500fd9a8628ec61d85504596d cpufreq: Don't skip cpufreq_frequency_table_cpuinfo()
-         49c23c494c48c6d9cb27be3e4f72916c7bd02381 cpufreq: conservative: Reset requested_freq on limits change
-         87e2ce91ba67e47f0717585937adbc717c1c6eaf Merge branch 'pm-cpufreq-fixes' into bleeding-edge
+         b21b85c86b1f4fe378240f4dc9f651cb6cc526bf netfilter: nft_set_pipapo: increment data in one step
+         9e2f1688c85cb91a39d4c0b489a50b2d3438fd89 netfilter: nft_set_pipapo_avx2: remove redundant loop in lookup_slow
+         00d65da7f0abe123294a0c9cc489b1ec6e31ab0b netfilter: nft_meta: add double-tagged vlan and pppoe support
+         b2340917e0e5ffead548876e57db4426aa3bcbeb netfilter: ipset: Fix data race between add and list header in all hash types
          
