@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5284738175066130181=="
+Content-Type: multipart/mixed; boundary="===============6995422542211449378=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/chanwoo/extcon
-Date: Fri, 20 Mar 2026 02:20:49 -0000
-Message-Id: <177397324921.1485493.15329062354391109106@gitolite.kernel.org>
+Date: Fri, 20 Mar 2026 02:21:03 -0000
+Message-Id: <177397326362.1485776.16379548995337006972@gitolite.kernel.org>
 
---===============5284738175066130181==
+--===============6995422542211449378==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,19 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/chanwoo/extcon
 user: chanwoo
 changes:
-  - ref: refs/heads/extcon-next
-    old: 24c76540a08b79c89aa991b9f05aed7d5d81ae95
-    new: 1bf0ba46d9d2c784120fd9cb235c08add3a6e7be
-    log: revlist-24c76540a08b-1bf0ba46d9d2.txt
+  - ref: refs/heads/extcon-testing
+    old: 2bd5d76830953093f5bd0634e552f71092aa743d
+    new: eb02599e32b50794a387e93a2406f0aa50f643a6
+    log: revlist-2bd5d7683095-eb02599e32b5.txt
 
---===============5284738175066130181==
+--===============6995422542211449378==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-24c76540a08b-1bf0ba46d9d2.txt
+Content-Disposition: attachment; filename=revlist-2bd5d7683095-eb02599e32b5.txt
 
-912db40655684a0a427c8b118dd0c36eb5a61fe4 btrfs: convert log messages to error level in btrfs_replay_log()
-8ac7fad32b93044f4350ab35f11fee1a61286723 btrfs: remove pointless WARN_ON() in cache_save_setup()
 2ab22446425c2c72b44926bc964c263e06e7e137 btrfs: fix referenced/exclusive check in squota_check_parent_usage()
 3f501412f2079ca14bf68a18d80a2b7a823f1f64 btrfs: free pages on error in btrfs_uring_read_extent()
 a7526533128fd3210e15cee1e14c7a0fe97087c1 btrfs: don't commit the super block when unmounting a shutdown filesystem
@@ -1043,12 +1041,14 @@ be2e3750ce0ce1b9ba77b521fee7f3e9166e64e9 Merge tag 'irq-urgent-2026-03-15' of gi
 d9bf296c398d093f9641568411dee16285302113 Merge tag 'probes-fixes-v7.0-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
 5c2fe8d11ae05411566f9d69321375ea686603d4 Merge tag 'scsi-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
 f338e77383789c0cae23ca3d48adcc5e9e137e3c Linux 7.0-rc4
-4652fefcda3c604c83d1ae28ede94544e2142f06 extcon: ptn5150: handle pending IRQ events during system resume
-6a4d20fecc650d0aeeb668cd1be6aa704220e227 extcon: int3496: replace use of system_wq with system_percpu_wq
-8857f2495a2a37609ac925ab2fcd72104b190499 extcon: Fixed sysfs duplicate filename issue
-086d7f1e063b3f7bbc6c54bbbabf1fa842be289f dt-bindings: extcon: ptn5150: Allow "connector" node to present
-842546c56345eebc2396927df5b4e933d90de43a extcon: ptn5150: Add Type-C orientation switch support
-9c98fdec70ec15c46610464366d414df1d6a0bee extcon: ptn5150: Support USB role switch via connector fwnode
-1bf0ba46d9d2c784120fd9cb235c08add3a6e7be extcon: usbc-tusb320: Make typec-power-opmode optional
+a103f4a3a9eff16b40551e864f268fb7f8607cd2 extcon: ptn5150: handle pending IRQ events during system resume
+669a2dbb358931eee53f31e0c3da96a1ecc6da5f extcon: int3496: replace use of system_wq with system_percpu_wq
+dd1e344833b8ad3cf545798d415ee02d02dcf066 extcon: Fixed sysfs duplicate filename issue
+322a48a015582011e350b4c67172b1338a01a47a dt-bindings: extcon: ptn5150: Allow "connector" node to present
+8e0b3c941107bdfc00d667c686580f152e4af909 extcon: ptn5150: Add Type-C orientation switch support
+0b2765b509c0e3c19e26865532554676de1090ff extcon: ptn5150: Support USB role switch via connector fwnode
+240cec4ae3b22245481266da2b401b12514c8599 extcon: usbc-tusb320: Make typec-power-opmode optional
+728d276e4a6dfc0fd0aefa169673f90e495ad5d9 dt-bindings: extcon: document Samsung S2M series PMIC extcon device
+eb02599e32b50794a387e93a2406f0aa50f643a6 extcon: add support for Samsung S2M series PMIC extcon devices
 
---===============5284738175066130181==--
+--===============6995422542211449378==--
