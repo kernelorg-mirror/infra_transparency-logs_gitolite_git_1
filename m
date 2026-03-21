@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Sat, 21 Mar 2026 02:07:24 -0000
-Message-Id: <177405884402.2693108.12147036968972715993@gitolite.kernel.org>
+Date: Sat, 21 Mar 2026 02:10:27 -0000
+Message-Id: <177405902718.2696419.307296089665843966@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,10 +12,10 @@ repo: pub/scm/linux/kernel/git/netdev/net
 user: kuba
 changes:
   - ref: refs/heads/main
-    old: 24dd586bb4cbba1889a50abe74143817a095c1c9
-    new: 7a4fc5ca79656955b88b6483f505321e1a683f0d
+    old: 7a4fc5ca79656955b88b6483f505321e1a683f0d
+    new: bc0151c59e639c1311ee573434af74b4e2c81de4
     log: |
-         52501989c76206462d9b11a8485beef40ef41821 rtnetlink: count IFLA_PARENT_DEV_{NAME,BUS_NAME} in if_nlmsg_size
-         ee00a12593ffb69db4dd1a1c00ecb0253376874a rtnetlink: count IFLA_INFO_SLAVE_KIND in if_nlmsg_size
-         7a4fc5ca79656955b88b6483f505321e1a683f0d Merge branch 'rtnetlink-add-missing-attributes-in-if_nlmsg_size'
+         cbfa5be2bf64511d49b854a0f9fd6d0b5118621f net: bcmasp: fix double free of WoL irq
+         27dfe9030acbc601c260b42ecdbb4e5858a97b53 net: bcmasp: fix double disable of clk
+         bc0151c59e639c1311ee573434af74b4e2c81de4 Merge branch 'net-bcmasp-fix-issues-during-driver-unbind'
          
