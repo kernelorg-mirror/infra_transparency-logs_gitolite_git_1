@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4880869102307377420=="
+Content-Type: multipart/mixed; boundary="===============1682759553723638782=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/wbg/counter
-Date: Sat, 21 Mar 2026 13:31:26 -0000
-Message-Id: <177409988690.3294879.1657490768836943193@gitolite.kernel.org>
+Date: Sat, 21 Mar 2026 13:31:36 -0000
+Message-Id: <177409989665.3295124.14792435514737251707@gitolite.kernel.org>
 
---===============4880869102307377420==
+--===============1682759553723638782==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/wbg/counter
 user: wbg
 changes:
-  - ref: refs/heads/counter-next
-    old: ad415677b7e3b733270adaf04e3a7a9c46f1e929
+  - ref: refs/heads/counter-fixes
+    old: 9517d76dd160208b7a432301ce7bec8fc1ddc305
     new: f338e77383789c0cae23ca3d48adcc5e9e137e3c
-    log: revlist-ad415677b7e3-f338e7738378.txt
+    log: revlist-9517d76dd160-f338e7738378.txt
 
---===============4880869102307377420==
+--===============1682759553723638782==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ad415677b7e3-f338e7738378.txt
+Content-Disposition: attachment; filename=revlist-9517d76dd160-f338e7738378.txt
 
 786ea2b694f48e1b34f1dcf104e09357fc99ef34 ALSA: hda: cs35l56: Remove unnecessary struct cs_dsp_client_ops
 a0b4c7a49137ed21279f354eb59f49ddae8dffc2 netfs: Fix unbuffered/DIO writes to dispatch subrequests in strict sequence
@@ -1051,4 +1051,4 @@ d9bf296c398d093f9641568411dee16285302113 Merge tag 'probes-fixes-v7.0-rc3' of gi
 5c2fe8d11ae05411566f9d69321375ea686603d4 Merge tag 'scsi-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/jejb/scsi
 f338e77383789c0cae23ca3d48adcc5e9e137e3c Linux 7.0-rc4
 
---===============4880869102307377420==--
+--===============1682759553723638782==--
