@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2751508639486814761=="
+Content-Type: multipart/mixed; boundary="===============3857932060793587899=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Sat, 21 Mar 2026 21:26:56 -0000
-Message-Id: <177412841606.3679007.12892159757917548466@gitolite.kernel.org>
+Date: Sat, 21 Mar 2026 21:26:57 -0000
+Message-Id: <177412841782.3679136.8966094873448205849@gitolite.kernel.org>
 
---===============2751508639486814761==
+--===============3857932060793587899==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/mm-new
-    old: 3b9bd243689fa0ab95062ab53f6c5aff90272056
-    new: f0805cc2d979d5acc02419667df5e0e61e4b9b35
-    log: revlist-3b9bd243689f-f0805cc2d979.txt
+  - ref: refs/heads/mm-unstable
+    old: 1ccb2abfa945ad51d6f86bd71767e2c2be457673
+    new: 2e8b28bb7a083f34d423cdff0af79231778ffb54
+    log: revlist-1ccb2abfa945-2e8b28bb7a08.txt
 
---===============2751508639486814761==
+--===============3857932060793587899==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3b9bd243689f-f0805cc2d979.txt
+Content-Disposition: attachment; filename=revlist-1ccb2abfa945-2e8b28bb7a08.txt
 
 3df1b515d4edc3ac7cc1493a399a5f7b3a071a7a riscv: avoid early page_to_phys()
 b6723d3c9f0b58751b25b07e3cb1c9031c88571c mailmap: update email address for Muhammad Usama Anjum
@@ -479,56 +479,5 @@ ea987f3c2a62ad1651d71ca6af2dc266d6c17d44 mm: prepare to move subsection_map_init
 6ac86a5e8d14b012e3d19ec1c995357889bec8ce mm/sparse: move sparse_init_one_section() to internal.h
 ea595d1bdd8a904208e31e0962fb0579e39b44ed mm/sparse: move __section_mark_present() to internal.h
 2e8b28bb7a083f34d423cdff0af79231778ffb54 mm/sparse: move memory hotplug bits to sparse-vmemmap.c
-048878399658f5285787539679ca0cbfcf9a76ff mm: list_lru: lock_list_lru_of_memcg() cannot return NULL if !skip_empty
-9b0ccfb04eb4264ed394a7e87a0f217f56ac16f1 mm: list_lru: deduplicate unlock_list_lru()
-ed3fc32a417b566eea2266703a0b5be7f6296bea mm: list_lru: move list dead check to lock_list_lru_of_memcg()
-a49294c447e0be46c83af84ebd1374944b0ff074 mm: list_lru: deduplicate lock_list_lru()
-0391be8e1b93a3a37f5585fddc0fc9a561559523 mm: list_lru: introduce caller locking for additions and deletions
-8e5684b65a651909dfc08dcbba2e2be33c1c397c mm: list_lru: introduce folio_memcg_list_lru_alloc()
-af9d4134e65ee8badb54226fddf6699da08d58e6 mm: switch deferred split shrinker to list_lru
-2246bd96f337e55afe99add72a92bb4ecad1ae5b selftests/mm: add folio_split() and filemap_get_entry() race test
-566fa157bd7e9b2f28ba60fad4bb1645e2662728 selftests-mm-add-folio_split-and-filemap_get_entry-race-test-v4
-0ee7edd888a39bd497a981d9495858520c428ee1 selftests-mm-add-folio_split-and-filemap_get_entry-race-test-fix
-ed0081322d941e0430d0e3f9f45ab859efd620b4 selftests/mm/guard-regions: skip collapse test when thp not enabled
-96f94477af3c546ded16b71bdc7ad9e1230d37b9 selftests/mm: soft-dirty: skip two tests when thp is not available
-fe24b5cdb576abb2e8d9fd50e1331a72e8e98476 selftests/mm: move write_file helper to vm_util
-239820e48ab9c5ba3595d726751d5d11e682db91 selftests/mm: split_huge_page_test: skip the test when thp is not available
-f71fc9920727d108dfa76e4118395187bb58b8ee selftests/mm: transhuge_stress: skip the test when thp not available
-6e2efcb03a7e8e6f59ee00a313a60d8521a3ac26 mm/huge_memory: simplify vma_is_specal_huge()
-b57be1c961f0abc5df876d8436e1814a57866f17 mm/huge: avoid big else branch in zap_huge_pmd()
-6d78b40a65e6ca51cc9e982bc56d9a0af4eb5133 mm/huge_memory: have zap_huge_pmd return a boolean, add kdoc
-4c33778006bf81ba7d2a9a5de5b435c64e9b4bde mm/huge_memory: handle buggy PMD entry in zap_huge_pmd()
-1df46fe0f1d02bdaa73061c39f940ec21d91221a mm/huge_memory: add a common exit path to zap_huge_pmd()
-796c9d36a61b9fe89b7c3ca57063e760acaa51ed mm/huge_memory: remove unnecessary VM_BUG_ON_PAGE()
-56100a06a60a31d85084ae71433ebbf37591cf40 mm/huge_memory: deduplicate zap deposited table call
-8f74fd9f4a4820bb1fd5614e44c07e16e2673f92 mm/huge_memory: remove unnecessary sanity checks
-0de669ef6ec847eeecca8fc581eb78c3304f697d mm/huge_memory: use mm instead of tlb->mm
-2477aa09dd0b13ac09c6526e19234c7fca36243d mm/huge_memory: separate out the folio part of zap_huge_pmd()
-616b0bb7fcfe21ab8d90a62d701dba68dfa6c66b mm: add softleaf_is_valid_pmd_entry(), pmd_to_softleaf_folio()
-43e6aef125b979a82f6f357c0183d1e17673de6a mm/huge_memory: add and use normal_or_softleaf_folio_pmd()
-5bc479f811c9caac6cd9ee66fa807140b893eda3 mm/huge_memory: add and use has_deposited_pgtable()
-2d6822b1c8e46355afe749e7bea59e055f721fb8 mm: remove CONFIG_ARCH_ENABLE_MEMORY_HOTREMOVE
-ea31c02131e20cbb63ff026dff6ad1dcaa28f48b mm: introduce CONFIG_NUMA_MIGRATION and simplify CONFIG_MIGRATION
-5e90660679fbff888dd4f4ad369ae12515cd2ae8 zsmalloc: return -EBUSY for zspage migration lock contention
-0f110bdaf33517fa9007c350535381263d568b4b mm/memfd_luo: optimize shmem_recalc_inode calls in retrieve path
-312c819443779431ba0e02354b081c705f69e87f mm/memfd_luo: remove unnecessary memset in zero-size memfd path
-dc0717545a237878c77b87e94cb6219527790769 mm/memfd_luo: use i_size_write() to set inode size during retrieve
-2093821e16fb3ccef2af07eed34bda194769c437 mm/mglru: fix cgroup OOM during MGLRU state switching
-ce16661c8f17e6a9de4101de266dfd60a745e41d mm/memcontrol: batch memcg charging in __memcg_slab_post_alloc_hook
-f896be596d3a60d7dfb30d728513ff160373d274 mm/damon/core: document damos_commit_dests() failure semantics
-a0b65054e210b7e60f8c0f52a5bda220c953086f Docs/mm/damon: document min_nr_regions constraint and rationale
-19f8d7c99d501f8bf35fdcfce1fed0b2f34e1267 mm/execmem: make the populate and alloc atomic
-98bd980d4f299b2b49045a8a0b7013f4da77aa32 mm/zsmalloc: copy KMSAN metadata in zs_page_migrate()
-766b33dbd095d8b94f086481aaba49f4fae84d16 mm: mark early-init static variables with __meminitdata
-cb2ce3c77faff2a3c66193df2da4b034b30d9dc4 mm: vmalloc: update outdated comment for renamed vread()
-6ad664d3574cca0ee961bbb0f98c1511eb419396 mm: update outdated comments for removed scan_swap_map_slots()
-1d1364a402e337d08acbe711a5b3cdf7aa965254 mm: change to return bool for ptep_test_and_clear_young()
-5e650bbb7d8243e10928d5ae230ee8ba47f3802c mm: change to return bool for ptep_clear_flush_young()/clear_flush_young_ptes()
-ba8e6f7a9fb2b2361c6382b7a73647021c79b1a4 mm: change to return bool for pmdp_test_and_clear_young()
-50133e5c268b054e497485f1003727e6edf572c1 mm: change to return bool for pmdp_clear_flush_young()
-2734c925e262b1a50dcc44a001ba4db180dbe93a mm: change to return bool for pudp_test_and_clear_young()
-032702f224dafe972754c2aba98b0464d1570208 mm: change to return bool for the MMU notifier's young flag check
-e5a26b7a01a004db40a2b65cdd68433a450e0bc1 mm/memcontrol: fix reclaim_options leak in try_charge_memcg()
-f0805cc2d979d5acc02419667df5e0e61e4b9b35 mm/page_alloc: don't increase highatomic reserve after pcp alloc
 
---===============2751508639486814761==--
+--===============3857932060793587899==--
