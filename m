@@ -1,23 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
-Date: Sat, 21 Mar 2026 03:00:11 -0000
-Message-Id: <177406201138.2736501.16525423873889575646@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Sat, 21 Mar 2026 03:17:58 -0000
+Message-Id: <177406307812.2749019.12475093693282425192@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/25-new
-user: akpm
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
-  - ref: refs/heads/master
-    old: 3418f76b935eede041189933b24da40a548aa596
-    new: e9a68f3ddd50748bec0448c00ec25eebe0e316e7
+  - ref: refs/heads/main
+    old: 2e69e55897dc1898175f42989dd575ca8c467363
+    new: fb78a629b4f0eb399b413f6c093a3da177b3a4eb
     log: |
-         0853d784483028469f9fc7da3617fddb737f204c foo
-         42756979a27a4ea41399d70c47f3a57b7e5d0415 foo
-         1c3914938e2fec22acc4af7143ee12cf4ef8fe22 foo
-         e80b6a96b81e750e3b8384548972b74bd7f1e434 foo
-         e9a68f3ddd50748bec0448c00ec25eebe0e316e7 foo
+         609e79253ace7f6eba5fdfe6ba8bd3bfd7b9e79b net/mlx5e: Allow set_rx_mode on uplink representor
+         53edd8309570517137d58e3644976843b817179c net: netdevsim: correct typo in new_device_store error message
+         544921efd4e4b1f135c87335dd59114a302c574d netdevsim: move TC offload code to a dedicated file
+         abdf5133bfa12c45d402f7b73d39bca772f3644a netdevsim: support tc-ets offload
+         5754a1c9f9b6e298791c4bb34263f37dfe93ee35 tc-testing: add a test case for ETS offload
+         fb78a629b4f0eb399b413f6c093a3da177b3a4eb Merge branch 'netdevsim-support-ets-offload'
          
