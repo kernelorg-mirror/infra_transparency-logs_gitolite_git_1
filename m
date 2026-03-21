@@ -1,26 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux
-Date: Sat, 21 Mar 2026 14:27:39 -0000
-Message-Id: <177410325924.3338293.12636218629603980934@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
+Date: Sat, 21 Mar 2026 14:39:53 -0000
+Message-Id: <177410399355.3346535.17875722003591388541@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux
-user: axboe
+repo: pub/scm/linux/kernel/git/pci/pci
+user: mani
 changes:
-  - ref: refs/heads/for-7.1/block
-    old: 7b6d3255e7f8c6df2d21504c47808e3ce84649ac
-    new: c2d466b9fe1913f8dbe2701156c38719c94188f7
+  - ref: refs/heads/controller/dwc-rcar-gen4-ep
+    old: 7f0031b967fd68a1805a16857f5b3b0ca2d32d42
+    new: 380627b3a5ec51a7fdfa156c14af5022980d6333
     log: |
-         c2d466b9fe1913f8dbe2701156c38719c94188f7 block: partitions: Replace pp_buf with struct seq_buf
-         
-  - ref: refs/heads/for-next
-    old: a8f6028892085b4f8549289a1e8d6cd9a3ab0ee9
-    new: c9263e336d285b61c042f887576a77715e29684f
-    log: |
-         c2d466b9fe1913f8dbe2701156c38719c94188f7 block: partitions: Replace pp_buf with struct seq_buf
-         c9263e336d285b61c042f887576a77715e29684f Merge branch 'for-7.1/block' into for-next
+         f761e0deb4d9ec9d485b9d353aba1a344bc57689 PCI: dwc: rcar-gen4: Mark BAR0 and BAR2 as Resizable BARs in endpoint mode
+         380627b3a5ec51a7fdfa156c14af5022980d6333 PCI: dwc: rcar-gen4: Change EPC BAR alignment to 4K as per the documentation
          
