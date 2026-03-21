@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
-Date: Sat, 21 Mar 2026 14:57:08 -0000
-Message-Id: <177410502822.3363339.10852847811496440881@gitolite.kernel.org>
+Date: Sat, 21 Mar 2026 14:59:08 -0000
+Message-Id: <177410514811.3363994.442145864651431955@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,6 +11,6 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/groeck/linux-staging
 user: groeck
 changes:
-  - ref: refs/tags/v7.0-rc4
+  - ref: refs/tags/hwmon-for-v7.0-rc5
     old: 0000000000000000000000000000000000000000
-    new: 34cb4f916af10153c87fabaf6c34e4cafa170427
+    new: 5b132c2eda96b9b3f99809b9e74f241977d9022e
