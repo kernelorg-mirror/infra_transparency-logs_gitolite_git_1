@@ -1,53 +1,23 @@
-Content-Type: multipart/mixed; boundary="===============4605136575845325308=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
-Date: Sat, 21 Mar 2026 11:24:20 -0000
-Message-Id: <177409226052.3194841.3418304095304035193@gitolite.kernel.org>
-
---===============4605136575845325308==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
+Date: Sat, 21 Mar 2026 11:26:10 -0000
+Message-Id: <177409237085.3198129.7479128118689765251@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/soc/soc
-user: krzk
-git_push_cert_status: Y
+repo: pub/scm/linux/kernel/git/jic23/iio
+user: jic23
 changes:
-  - ref: refs/tags/mvebu/fixes
-    old: edb7efa767da8bb82d724b85178be251ec4e060e
-    new: 0000000000000000000000000000000000000000
-
---===============4605136575845325308==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher krzk@kernel.org 1774092259 +0100
-pushee kernel.org:/pub/scm/linux/kernel/git/soc/soc.git
-nonce 1774092259-2b44b9b2bd47f763e13465998d624f0eea3f5342
-
-edb7efa767da8bb82d724b85178be251ec4e060e 0000000000000000000000000000000000000000 refs/tags/mvebu/fixes
------BEGIN PGP SIGNATURE-----
-
-iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmm+f+MQHGtyemtAa2Vy
-bmVsLm9yZwAKCRDBN2bmhouD18m/D/0ffwO5rPhrbxdkv/I74UiY/iZdN62D7m3K
-izcU/y6eL2Mg6+g1dK9/5CcEgp/f1OxFiEqLOj02t9O1mZMIYWcTL0dg3tOjtwvt
-4DDJd0McvDcWVYl/owiURbsUPVA7RrhjItfAzFwbdycpTyzHHHaYZQSqob1pclic
-4I8f+tpi5cxSX3qY9jEHVBk9QB4sbqhDjlqHPHxt2mCFGV1dBWGJO5LK+5ZQGEU4
-nT/3i2D3bdVuii5CgSv2OG1jdkONstda4cjWaUMDp6r0TKHtxZRyUa9CKbrSgg0t
-aoipg6AIhj16GsAChVsmKcRIw3H4pqcNlJSaqq/HRX18tVzVku01lMLllpnDAWex
-zCsyq+aupz7gzppZnZ6TwvNJ9o4xitdSUND/63L3zdyDkfjRPwUDXn4O/Yr+ENXd
-q6t9fJ2+AXZYqPC5fId7eXmX15aCo5SJtykuXP1uFSAzF7H3Uk+hQiKSUQmvbXis
-O6YYmCNU+X80nmGrPIUWIuVwNaYL2RrUcGLTy66B8zNLkjV6MzRiG9N4975LjQoh
-oEdDFkWZK8MGXdwJ2ilGyv/+2zauvHv+fNjvJvUqf1Zfw0EDUrK6G261Cm611rzt
-4OP0C77ySwa5Xauk6D+d1Dl8riInl1UikxQiP6ZbP7WSODBF1UDXiIBt8nDNKU9Y
-mWrq0apZlA==
-=Sodo
------END PGP SIGNATURE-----
-
---===============4605136575845325308==--
+  - ref: refs/heads/testing
+    old: ff0843ceb1fb11a6b73e0e77b932ef7967aecd4b
+    new: e7ecdcbc16f049edfa32be01b34ec8dc8e3c51ce
+    log: |
+         8c7440c686091a109802a720db25224dcc21485a iio: adc: mt6359-auxadc: Fix comma spacing
+         23d742859a2dd20b1e96ab0828fa26227c47f328 iio: accel: adxl372: introduce chip_info structure
+         2643500bd2145a1c430d60273f3a6e9d28821834 dt-bindings: iio: accel: adi,adxl372: add ADXL371 compatible
+         39df6dbfad4ecc7ad667995e738fbe9b3b76f850 iio: accel: adxl372: factor out buffer and trigger setup
+         e7ecdcbc16f049edfa32be01b34ec8dc8e3c51ce iio: accel: adxl372: add support for ADXL371
+         
