@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5194546462300911072=="
+Content-Type: multipart/mixed; boundary="===============7279049104029160269=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Sat, 21 Mar 2026 01:23:20 -0000
-Message-Id: <177405620090.2655453.852276671777426631@gitolite.kernel.org>
+Date: Sat, 21 Mar 2026 01:23:22 -0000
+Message-Id: <177405620289.2655626.1073174140319135442@gitolite.kernel.org>
 
---===============5194546462300911072==
+--===============7279049104029160269==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/mm-new
-    old: dc5e2c85d569a47d9184f0e6ccf1fab25826fc4f
-    new: 2885280e8cbdbdaed407407bdae361741361b6c1
-    log: revlist-dc5e2c85d569-2885280e8cbd.txt
+  - ref: refs/heads/mm-unstable
+    old: a12ff2f1b54744e4f7e6ba30157f49d607437f8c
+    new: 28edd9c5a25ceb76c2d4e55bc5c37acd7eb0fc92
+    log: revlist-a12ff2f1b547-28edd9c5a25c.txt
 
---===============5194546462300911072==
+--===============7279049104029160269==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-dc5e2c85d569-2885280e8cbd.txt
+Content-Disposition: attachment; filename=revlist-a12ff2f1b547-28edd9c5a25c.txt
 
 d63a44015057c9f93bd59681bc756679f822c80f riscv: avoid early page_to_phys()
 fccf264cd92931aaecb038c8da867d0bb7a71c5f mailmap: update email address for Muhammad Usama Anjum
@@ -475,45 +475,5 @@ c6eb2d43e99cc9307f4b1863f22de0524c23817c mm: prepare to move subsection_map_init
 190a3dd4e7de94da8db82889aec2bca5b90972fe mm/sparse: move sparse_init_one_section() to internal.h
 cd2a0212cc20e4e96ea44b4b489a6bb69a12fa6d mm/sparse: move __section_mark_present() to internal.h
 28edd9c5a25ceb76c2d4e55bc5c37acd7eb0fc92 mm/sparse: move memory hotplug bits to sparse-vmemmap.c
-e5122b50528ecc30c88d4a4e00535bff9e5a8be4 mm: list_lru: lock_list_lru_of_memcg() cannot return NULL if !skip_empty
-540b399f9b455c3f4866f8ebae65eccc265cbeeb mm: list_lru: deduplicate unlock_list_lru()
-93e5f50e9642418cc6900e4dbe01ae9d46c537c5 mm: list_lru: move list dead check to lock_list_lru_of_memcg()
-92fc55aff3e7e277e81a6ca5fbdadd099335989b mm: list_lru: deduplicate lock_list_lru()
-02bcff929943bae2cf7455ba21e0b1ab50f81bcf mm: list_lru: introduce caller locking for additions and deletions
-67b7eabc3a9e017aba88722ae7ea3620120885b6 mm: list_lru: introduce folio_memcg_list_lru_alloc()
-1f8a4e3b5489f191f238a9ec2fb8b9e743129380 mm: switch deferred split shrinker to list_lru
-396993048c3a7753ad8dbb466c7e4ed8ed8a82dc selftests/mm: add folio_split() and filemap_get_entry() race test
-513df94dd7ae2bed861ec90e9a8074db7b596597 selftests-mm-add-folio_split-and-filemap_get_entry-race-test-v4
-cd48f0cc797133e036a18b1239b6e6e0c901b460 selftests-mm-add-folio_split-and-filemap_get_entry-race-test-fix
-2cef00b269eea82e5f0ce9901e3c04a8e6da5d20 selftests/mm/guard-regions: skip collapse test when thp not enabled
-a831d49ce76c3796b9f8649dedb17f2179302625 selftests/mm: soft-dirty: skip two tests when thp is not available
-bcd19bed35f8d65c64b702eb4fc7a0607611414a selftests/mm: move write_file helper to vm_util
-079368266de5690aa5059260046cf1adabacacce selftests/mm: split_huge_page_test: skip the test when thp is not available
-02e6427e1d37731c802e2595ce70d4a042281962 selftests/mm: transhuge_stress: skip the test when thp not available
-23e6f76e96e1332130de3d926b38cfd9c8b3e193 mm/huge_memory: simplify vma_is_specal_huge()
-d2bbeb4013d60e11843e4bf786b35809c1e39f7d mm/huge: avoid big else branch in zap_huge_pmd()
-1f0744bb58cc820d52252f870df5e6f9f0ca0f3a mm/huge_memory: have zap_huge_pmd return a boolean, add kdoc
-dcc15d468e2a7ef6e2ccfea4dbfa7d8b122dd0f1 mm/huge_memory: handle buggy PMD entry in zap_huge_pmd()
-e133f4da2d8a706ef0e740abdc93120a42ccbbdf mm/huge_memory: add a common exit path to zap_huge_pmd()
-3d7d9142ad84c462f4d70ed52ea85f16544dd51f mm/huge_memory: remove unnecessary VM_BUG_ON_PAGE()
-4a9644b29631be730b83e55a74c0be5bc8e1ff30 mm/huge_memory: deduplicate zap deposited table call
-378e9b7d1cb18ba46a0cd335c83490f676d9e21b mm/huge_memory: remove unnecessary sanity checks
-6f8ac8da6f5d945bbec7014e9552debcec0ae7c2 mm/huge_memory: use mm instead of tlb->mm
-df44914058f602cbd1b8f44e635d405c44c3180b mm/huge_memory: separate out the folio part of zap_huge_pmd()
-fc94f672c54a23a68927f8bfb3cc383402212908 mm: add softleaf_is_valid_pmd_entry(), pmd_to_softleaf_folio()
-8b97635721d06cb1926f42889f3b6d92bbe215c3 mm/huge_memory: add and use normal_or_softleaf_folio_pmd()
-b84293e69b4b584f5acfddf27cf700b20f42b659 mm/huge_memory: add and use has_deposited_pgtable()
-ea66eb4f26d634f067f0db1c06cc4c71bbf1bbfe mm: remove CONFIG_ARCH_ENABLE_MEMORY_HOTREMOVE
-090f062b502d6a664c84c49d283ea91af9e820fe mm: introduce CONFIG_NUMA_MIGRATION and simplify CONFIG_MIGRATION
-b29367ec265ba82d07871e7a9feecd6d25fb48fb zsmalloc: return -EBUSY for zspage migration lock contention
-13a95143e6c567ffea15e3f7a189315124993190 mm/memfd_luo: optimize shmem_recalc_inode calls in retrieve path
-9e2ea6c585659c235889e639bf9b8a2009ffb3c8 mm/memfd_luo: remove unnecessary memset in zero-size memfd path
-4d82d815f5c32f9a58ff138ab39bad407eb38ff2 mm/memfd_luo: use i_size_write() to set inode size during retrieve
-7d831f126f9e72a3ecd2a79b0522f3afb09a2748 mm/memcontrol: fix reclaim_options leak in try_charge_memcg()
-e4aafe79b8726fdb64a543bea8561b7d23984efe mm/mglru: fix cgroup OOM during MGLRU state switching
-688f3d9a90ca8e15596fd930f414926583f8c309 mm/memcontrol: batch memcg charging in __memcg_slab_post_alloc_hook
-6b74665a6368e882069c6ffb6bba75f31769f12b mm/damon/core: document damos_commit_dests() failure semantics
-a44ce730954576ebd22519278c9b3fd6461696e2 Docs/mm/damon: document min_nr_regions constraint and rationale
-2885280e8cbdbdaed407407bdae361741361b6c1 mm/execmem: make the populate and alloc atomic
 
---===============5194546462300911072==--
+--===============7279049104029160269==--
