@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1634844144700907518=="
+Content-Type: multipart/mixed; boundary="===============6163223386474697496=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Sat, 21 Mar 2026 07:06:51 -0000
-Message-Id: <177407681131.2993874.60683006409992412@gitolite.kernel.org>
+Date: Sat, 21 Mar 2026 07:07:16 -0000
+Message-Id: <177407683643.2994338.12576293442377219660@gitolite.kernel.org>
 
---===============1634844144700907518==
+--===============6163223386474697496==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,15 +16,49 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: 533054ddf5638c0c44cc714a68fcf1ba8716ac59
-    new: 004a51a82eab3b5046a26e009d5f0304ff4a22ed
-    log: revlist-533054ddf563-004a51a82eab.txt
+    old: 004a51a82eab3b5046a26e009d5f0304ff4a22ed
+    new: 4479062e01566e5e9d214fd7267213ad62e32ee2
+    log: revlist-004a51a82eab-4479062e0156.txt
+  - ref: refs/heads/tip/urgent
+    old: 5f6970056f68f92790bcd2632f1bc15dd266b3fa
+    new: 69449a450cdd84cec54d930a351025fc2390539c
+    log: revlist-5f6970056f68-69449a450cdd.txt
 
---===============1634844144700907518==
+--===============6163223386474697496==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-533054ddf563-004a51a82eab.txt
+Content-Disposition: attachment; filename=revlist-004a51a82eab-4479062e0156.txt
+
+bd88f63035564023a110f960b9b9cc8ec3e7acc7 Merge branch 'sched/core' into sched/merge, to pick up fixes
+196de6820b27c66e28c73380e7da348aadfddc3d Merge branch into tip/master: 'irq/urgent'
+857886f080493e2d8a69a499ffc220c33a4a855c Merge branch into tip/master: 'locking/urgent'
+33c2c6f0ebc111c861e2235780d8aa4db1b208d0 Merge branch into tip/master: 'objtool/urgent'
+df90a34583148607e816d4cd392e00901d34399d Merge branch into tip/master: 'perf/urgent'
+69449a450cdd84cec54d930a351025fc2390539c Merge branch into tip/master: 'x86/urgent'
+dd484532a7b230102d5998d49e0a885d107125bc Merge branch into tip/master: 'sched/merge'
+f55e7a93f612b345e28ce9e5e96f4bc7f9486fd6 Merge branch into tip/master: 'timers/merge'
+6eee3721f52ec71e02f236c183bb346808bde2e2 Merge branch into tip/master: 'irq/core'
+39fac768ea8e5d12823c1f98b1fe37e2fe4590e3 Merge branch into tip/master: 'irq/drivers'
+7f01308e5085aa9d3838b4e4354e7462dce5074a Merge branch into tip/master: 'irq/msi'
+a16d9f2271c0742dc40af58c10cad7c09a66eb4d Merge branch into tip/master: 'locking/core'
+3ff0ea19e8ee33364dfe19f668da3186361e6545 Merge branch into tip/master: 'locking/futex'
+a79100b4d19d6108f63c30af3757f0b6ec3b7c51 Merge branch into tip/master: 'objtool/core'
+575c82808ca5bbadaa271a62e1c744fadd5cf2dc Merge branch into tip/master: 'perf/core'
+e5d9c07413d93613216723e13b10eb49c4063161 Merge branch into tip/master: 'ras/core'
+8e2ac055edad4124c8a60179dea0457a22d9c866 Merge branch into tip/master: 'x86/cleanups'
+1c9f44f516c328a5cc4efcdbec856bbbf11cffad Merge branch into tip/master: 'x86/cpu'
+b5dc5f5bb7a833d457942a25d0160ce94a6183a2 Merge branch into tip/master: 'x86/microcode'
+0c51ad5fe18829ade7827303923166fb233d64af Merge branch into tip/master: 'x86/misc'
+0e15560e280b6f08dbe1968a5372e3e2746e80fb Merge branch into tip/master: 'x86/mm'
+e58df9ad5d37f1b2410967b546a4156a0a14d980 Merge branch into tip/master: 'x86/sev'
+4479062e01566e5e9d214fd7267213ad62e32ee2 Merge branch into tip/master: 'x86/tdx'
+
+--===============6163223386474697496==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-5f6970056f68-69449a450cdd.txt
 
 4ced4cf5c9d172d91f181df3accdf949d3761aab binfmt_elf_fdpic: fix AUXV size calculation for ELF_HWCAP3 and ELF_HWCAP4
 f69cfd8e8fd13b5d57e638fa1542fcd56f594ef0 x86/hyperv: print out reserved vectors in hexadecimal
@@ -156,10 +190,16 @@ d07252736a6e946ca0cf4e7ce456eab5c3fd73e2 Merge tag 'mmc-v7.0-rc1-2' of git://git
 c715f13bb30f9f4d1bd8888667ef32e43b6fedc1 Merge tag 'pmdomain-v7.0-rc1-2' of git://git.kernel.org/pub/scm/linux/kernel/git/ulfh/linux-pm
 007fe2321509a8287050413655f460d4c5ad8e8c Merge tag 'regulator-fix-v7.0-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/regulator
 9f582e39712f950f13dfa1ad49748a90937e48be Merge tag 'spi-fix-v7.0-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/spi
+63f8b60151dc00895137bfadc987f258060ab264 x86/entry/vdso: Fix path of included gettimeofday.c
 c612261bedd6bbab7109f798715e449c9d20ff2f Merge tag 'io_uring-7.0-20260320' of git://git.kernel.org/pub/scm/linux/kernel/git/axboe/linux
+1f6aa5bbf1d0f81a8a2aafc16136e7dd9a609ff3 x86/platform/uv: Handle deconfigured sockets
 d46d5c8383442ae44c3b782f87719990ac67925b Merge tag 'tty-7.0-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/tty
 42bddab0563fe67882b2722620a66dd98c8dbf33 Merge tag 'execve-v7.0-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/kees/linux
 a0c83177734ab98623795e1ba2cf4b72c23de5e7 Merge tag 'drm-fixes-2026-03-21' of https://gitlab.freedesktop.org/drm/kernel
-004a51a82eab3b5046a26e009d5f0304ff4a22ed Merge branch 'linus'
+196de6820b27c66e28c73380e7da348aadfddc3d Merge branch into tip/master: 'irq/urgent'
+857886f080493e2d8a69a499ffc220c33a4a855c Merge branch into tip/master: 'locking/urgent'
+33c2c6f0ebc111c861e2235780d8aa4db1b208d0 Merge branch into tip/master: 'objtool/urgent'
+df90a34583148607e816d4cd392e00901d34399d Merge branch into tip/master: 'perf/urgent'
+69449a450cdd84cec54d930a351025fc2390539c Merge branch into tip/master: 'x86/urgent'
 
---===============1634844144700907518==--
+--===============6163223386474697496==--
