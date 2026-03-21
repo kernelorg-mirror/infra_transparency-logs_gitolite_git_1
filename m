@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/chanwoo/extcon
-Date: Sat, 21 Mar 2026 16:08:51 -0000
-Message-Id: <177410933151.3425498.14556797962310515913@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
+Date: Sat, 21 Mar 2026 16:10:52 -0000
+Message-Id: <177410945272.3428856.13888201401484071773@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/chanwoo/extcon
-user: chanwoo
+repo: pub/scm/linux/kernel/git/xiang/erofs-utils
+user: xiang
 changes:
-  - ref: refs/heads/extcon-testing
-    old: 6455da3f62dbfc2df962bba10f441963166d6a37
-    new: cc5b3a44aa123e5b918122f8aa1ad768654b16d3
+  - ref: refs/heads/experimental
+    old: 2c4d062bae8c8059d637503ab6c280292a06dbba
+    new: 41e0e639c84fdcaea6ae80b81ba42780492243da
+    log: |
+         41e0e639c84fdcaea6ae80b81ba42780492243da erofs-utils: lib: fix gzran builder memory leak
+         
