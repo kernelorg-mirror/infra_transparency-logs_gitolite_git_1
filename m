@@ -1,21 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Sat, 21 Mar 2026 02:10:27 -0000
-Message-Id: <177405902718.2696419.307296089665843966@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sj/hkml
+Date: Sat, 21 Mar 2026 02:10:48 -0000
+Message-Id: <177405904899.2696758.15572628046618551371@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/linux/kernel/git/sj/hkml
+user: sj
 changes:
-  - ref: refs/heads/main
-    old: 7a4fc5ca79656955b88b6483f505321e1a683f0d
-    new: bc0151c59e639c1311ee573434af74b4e2c81de4
+  - ref: refs/heads/master
+    old: 0202a5cb6374386a168f7c5ee553744cb0c5b61a
+    new: cf1b4e167067e5684823137c5296dfb268364175
     log: |
-         cbfa5be2bf64511d49b854a0f9fd6d0b5118621f net: bcmasp: fix double free of WoL irq
-         27dfe9030acbc601c260b42ecdbb4e5858a97b53 net: bcmasp: fix double disable of clk
-         bc0151c59e639c1311ee573434af74b4e2c81de4 Merge branch 'net-bcmasp-fix-issues-during-driver-unbind'
+         b3b0681b1557f3a35915b68634025ad7a1eb5e23 TODO: add items
+         6abc2c2d9e9d0388fc9585cd8c3db4a68d5f54d0 _hkml_sashiko_dev: try-except requests module import
+         7c445277b842216f3e3b5a4cf043c16548aca17b _hkml_sashiko_dev: implement a function to fetch all reviews of a thread
+         cf1b4e167067e5684823137c5296dfb268364175 hkml_patch: implement sashiko_dev --thread_status
          
