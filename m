@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1900472243051194686=="
+Content-Type: multipart/mixed; boundary="===============1903707009053342761=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/driver-core/driver-core
-Date: Sun, 22 Mar 2026 22:19:15 -0000
-Message-Id: <177421795578.632246.4691852764506155931@gitolite.kernel.org>
+Date: Sun, 22 Mar 2026 22:26:38 -0000
+Message-Id: <177421839873.639428.1621447780377749640@gitolite.kernel.org>
 
---===============1900472243051194686==
+--===============1903707009053342761==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/driver-core/driver-core
 user: dakr
 changes:
-  - ref: refs/heads/main
-    old: f338e77383789c0cae23ca3d48adcc5e9e137e3c
-    new: c369299895a591d96745d6492d4888259b004a9e
-    log: revlist-f338e7738378-c369299895a5.txt
+  - ref: refs/heads/driver-core-next
+    old: 9aa64d2503c6f5a803ff2990608312e5bdc6b0de
+    new: 14cf406e083c0541e40cd467ae8336ecceede09e
+    log: revlist-9aa64d2503c6-14cf406e083c.txt
 
---===============1900472243051194686==
+--===============1903707009053342761==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f338e7738378-c369299895a5.txt
+Content-Disposition: attachment; filename=revlist-9aa64d2503c6-14cf406e083c.txt
 
 5a741f8cc6fe62542f955cd8d24933a1b6589cbd soc: microchip: mpfs: Fix memory leak in mpfs_sys_controller_probe()
 ff4b6bf7eef4f5b921eed78f2816abcc55bcdd68 riscv: dts: microchip: add can resets to mpfs
@@ -417,5 +417,6 @@ ac57fa9faf716c6a0e30128c2c313443cf633019 Merge tag 'trace-v7.0-rc4' of git://git
 d5273fd3ca0bf0b59fff49fb59237440998fbec8 Merge tag 'bpf-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf
 ec69c9e88315c4be70c283f18c2ff130da6320b5 i2c: tegra: Don't mark devices with pins as IRQ safe
 c369299895a591d96745d6492d4888259b004a9e Linux 7.0-rc5
+14cf406e083c0541e40cd467ae8336ecceede09e Merge tag 'v7.0-rc5' into driver-core-next
 
---===============1900472243051194686==--
+--===============1903707009053342761==--
