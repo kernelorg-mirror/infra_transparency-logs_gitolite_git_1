@@ -1,24 +1,42 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
-Date: Sun, 22 Mar 2026 16:42:44 -0000
-Message-Id: <177419776465.371270.6538296959349879389@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============7526849682246067441=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/dakr/linux
+Date: Sun, 22 Mar 2026 17:20:06 -0000
+Message-Id: <177420000628.400895.7299970099584877375@gitolite.kernel.org>
+
+--===============7526849682246067441==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/groeck/linux-staging
-user: groeck
+repo: pub/scm/linux/kernel/git/dakr/linux
+user: dakr
 changes:
-  - ref: refs/heads/hwmon-next
-    old: be8aad7a8a14151fd471aadf368e1582f91a7817
-    new: cd041796c380961f0e3c04d9627af80131608adc
-    log: |
-         657a1c5176a4e9a7005e19fd1e4843d33f313c9b hwmon: (pmbus) export pmbus_wait and pmbus_update_ts
-         d76cbf32fabeca92a40fb4f67aa096943eb19992 hwmon: (pmbus/max31785) use access_delay for PMBus-mediated accesses
-         2854f445081c398a25dd72aa8cd17dc67992bb15 hwmon: (pmbus/max31785) check for partial i2c_transfer in read_long_data
-         b7d3ea4ede77784395cd5f4de42b41569b8ee133 hwmon: (nct6775) Add ASUS X870/W480 to WMI monitoring list
-         1af27ff0c21ad04cf5278e38eb8a1baf4182573d hwmon: (it87) Add support for IT8689E
-         cd041796c380961f0e3c04d9627af80131608adc hwmon: lm75: Add support for label
-         
+  - ref: refs/heads/driver_override
+    old: 70493c3cad283a8341ce791812cd203db3b472ce
+    new: d806167f948a7ac113e4db2fa436d6464199b86f
+    log: revlist-70493c3cad28-d806167f948a.txt
+
+--===============7526849682246067441==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-70493c3cad28-d806167f948a.txt
+
+68cc4dcc6aa4cfb4d2ab8ae45b1d201211fb12d7 amba: use generic driver_override infrastructure
+1a054a7ae5482d0b28da466c5bbc48151eb8bbfa bus: fsl-mc: use generic driver_override infrastructure
+c746c04944fb7b23744cc53d765c01581b9afea4 cdx: use generic driver_override infrastructure
+2cd3be35b32d6e1d0fb2a283c6849c51f7281d01 hv: vmbus: use generic driver_override infrastructure
+f0f34faf9a1c99acbb280154fffc6d2da11ed9db PCI: use generic driver_override infrastructure
+d11b4b96f274455000d47fb9ae5768b12c016927 platform/wmi: use generic driver_override infrastructure
+3d0abf8c1c34bfbbbf1e93728a9e938a642c45d9 rpmsg: use generic driver_override infrastructure
+c1887c58796da3dd7a44ecb3e2d593a050f44b93 s390/cio: use generic driver_override infrastructure
+a9d0ceb4d2db079ff24ecf50c33134d7cf984b31 s390/ap: use generic driver_override infrastructure
+8fb53c0f6e82af1feb5bfcffb49d1ab095b7f579 spi: use generic driver_override infrastructure
+3bc61d8cd97ae9d7fc1e03a5d0b66aa925fcc50f vdpa: use generic driver_override infrastructure
+d806167f948a7ac113e4db2fa436d6464199b86f WIP: driver core: remove driver_set_override()
+
+--===============7526849682246067441==--
