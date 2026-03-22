@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============6836719831292730928=="
+Content-Type: multipart/mixed; boundary="===============2556941962892369123=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Sun, 22 Mar 2026 22:06:04 -0000
-Message-Id: <177421716426.622215.6906714735312059744@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools
+Date: Sun, 22 Mar 2026 22:06:11 -0000
+Message-Id: <177421717161.622458.8475662906221684417@gitolite.kernel.org>
 
---===============6836719831292730928==
+--===============2556941962892369123==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/acme/linux
+repo: pub/scm/linux/kernel/git/perf/perf-tools
 user: acme
 changes:
   - ref: refs/heads/tmp.perf-tools
@@ -20,7 +20,7 @@ changes:
     new: 493ad070cbcb0d62deed877d90e80e554cac7f01
     log: revlist-563d39928db6-493ad070cbcb.txt
 
---===============6836719831292730928==
+--===============2556941962892369123==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -101,4 +101,4 @@ f8e478e3af57e603c7f1d4f9dba6d8948b8c32c1 Merge remote-tracking branch 'torvalds/
 0a8b2a0857ede906f7b74a435b11778336770bea tools headers UAPI: Sync x86's asm/kvm.h with the kernel sources
 493ad070cbcb0d62deed877d90e80e554cac7f01 tools headers: Synchronize linux/build_bug.h with the kernel sources
 
---===============6836719831292730928==--
+--===============2556941962892369123==--
