@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2471711328683628224=="
+Content-Type: multipart/mixed; boundary="===============9004411587191291548=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Sun, 22 Mar 2026 03:18:26 -0000
-Message-Id: <177414950644.3947533.6046474186324344173@gitolite.kernel.org>
+Date: Sun, 22 Mar 2026 03:18:28 -0000
+Message-Id: <177414950886.3947736.4558602858638439666@gitolite.kernel.org>
 
---===============2471711328683628224==
+--===============9004411587191291548==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/mm-new
-    old: f0805cc2d979d5acc02419667df5e0e61e4b9b35
-    new: c51ea78c5466be89914cbfbe2618dea67026c2b1
-    log: revlist-f0805cc2d979-c51ea78c5466.txt
+  - ref: refs/heads/mm-unstable
+    old: 2e8b28bb7a083f34d423cdff0af79231778ffb54
+    new: 8c65073d94c8b7cc3170de31af38edc9f5d96f0e
+    log: revlist-2e8b28bb7a08-8c65073d94c8.txt
 
---===============2471711328683628224==
+--===============9004411587191291548==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f0805cc2d979-c51ea78c5466.txt
+Content-Disposition: attachment; filename=revlist-2e8b28bb7a08-8c65073d94c8.txt
 
 3a206a8649f83bec99a3517da5e7dac9c138875e mm/rmap: clear vma->anon_vma on error
 26f775a054c3cda86ad465a64141894a90a9e145 mm/damon/core: avoid use of half-online-committed context
@@ -478,57 +478,5 @@ b293aa51bcdc959a2e12ee3f52a785464435e432 mm/sparse: remove CONFIG_MEMORY_HOTPLUG
 cde666a13c3d95114082cae6d970686d22fb8796 mm/sparse: move sparse_init_one_section() to internal.h
 a12a72e91b2e9afc0bb64e06cf50c2278e6c2acc mm/sparse: move __section_mark_present() to internal.h
 8c65073d94c8b7cc3170de31af38edc9f5d96f0e mm/sparse: move memory hotplug bits to sparse-vmemmap.c
-0412e5c65ff1ef087eed58aeb7fbe15183bb77a9 mm: list_lru: lock_list_lru_of_memcg() cannot return NULL if !skip_empty
-e78f45e919a102f4b2b0800c56ba32ce9abe271d mm: list_lru: deduplicate unlock_list_lru()
-63a5dca8d8044af1286df9d0fb496578dad566e4 mm: list_lru: move list dead check to lock_list_lru_of_memcg()
-167ebadbff900e40e5c3e2b467752343ed6c43d8 mm: list_lru: deduplicate lock_list_lru()
-12743da16af28b6c530d489def50dfd0075435aa mm: list_lru: introduce caller locking for additions and deletions
-c0c3531db3297dc7c3cad88946c66a0999abe2ef mm: list_lru: introduce folio_memcg_list_lru_alloc()
-4ae091c6566edefbd7c3299fd09de3c115bc4b8b mm: switch deferred split shrinker to list_lru
-816c7d12111629b97386edf84a90655fb8950ca9 selftests/mm: add folio_split() and filemap_get_entry() race test
-810b53c4283862599657f840a60e918fd69cf105 selftests-mm-add-folio_split-and-filemap_get_entry-race-test-v4
-b9ddbb4e96adb029dd1ba222a70d0ab21f533476 selftests-mm-add-folio_split-and-filemap_get_entry-race-test-fix
-ea6e705bbf4359459ba3dfc923bed6f0aefbce46 selftests/mm/guard-regions: skip collapse test when thp not enabled
-144bee59bc8a6f4e416151ab41c425a129eda12d selftests/mm: soft-dirty: skip two tests when thp is not available
-0386c65d0355e8b263b616fbc915c4f8c427a67b selftests/mm: move write_file helper to vm_util
-c501a37ed3e3e91eecc13aab4dc986795b27db6e selftests/mm: split_huge_page_test: skip the test when thp is not available
-25edc7543ccf23635f33e849cf3334661942c4c9 selftests/mm: transhuge_stress: skip the test when thp not available
-9fbb2ce0449e29aa18581b59a4cc825c26f896e4 mm/huge_memory: simplify vma_is_specal_huge()
-d474ffc670d2f3e1130a7232cbe1292134d23c68 mm/huge: avoid big else branch in zap_huge_pmd()
-6122ab4c233b39491e6ef8df7a902985155e2907 mm/huge_memory: have zap_huge_pmd return a boolean, add kdoc
-042a4c3b488238afcf0fe0b93cae09833d1546ca mm/huge_memory: handle buggy PMD entry in zap_huge_pmd()
-5d6fb1157bea4b96edd616cc6999e37e7181fc41 mm/huge_memory: add a common exit path to zap_huge_pmd()
-006ef7bbeeba06b6ad27d84f26f3fee7a5b7f853 mm/huge_memory: remove unnecessary VM_BUG_ON_PAGE()
-602710eca75f1947e769c018b86e2fb7274b9cca mm/huge_memory: deduplicate zap deposited table call
-1c5334589ba01c8ab94512c94a366b33dc74cbb9 mm/huge_memory: remove unnecessary sanity checks
-dd2624f7580153250031de475258ff1092ba82e5 mm/huge_memory: use mm instead of tlb->mm
-31a0b5b8cb82ec1a836463259463232ea6951375 mm/huge_memory: separate out the folio part of zap_huge_pmd()
-c73db84e26c11aaec9be4bb9d0dd8b40caa26cfd mm: add softleaf_is_valid_pmd_entry(), pmd_to_softleaf_folio()
-0ddb9e79925e685c14fbeea9a449bbb3cee8965d mm/huge_memory: add and use normal_or_softleaf_folio_pmd()
-3eaeb9a7d7fe2b2a7559298c8437fe4e4210595c mm/huge_memory: add and use has_deposited_pgtable()
-fc5339b929b20369b463f7f6374e4cea1a20b7ed mm: remove CONFIG_ARCH_ENABLE_MEMORY_HOTREMOVE
-9378682dab22440585961dcb282795b3196f3dfd mm: introduce CONFIG_NUMA_MIGRATION and simplify CONFIG_MIGRATION
-2e2262becebfb8d13aa469e97c20365166f8797a zsmalloc: return -EBUSY for zspage migration lock contention
-11a145c323971b0aa3757094448103e95542f86c mm/memfd_luo: optimize shmem_recalc_inode calls in retrieve path
-af5303177c793957f4d4618592675c3597b9c311 mm/memfd_luo: remove unnecessary memset in zero-size memfd path
-0d5abdbd667d3b49b1c1309a867987f0ee061d64 mm/memfd_luo: use i_size_write() to set inode size during retrieve
-b2666c0c65b244ae829c23a7b5e3571ac0928bb7 mm/mglru: fix cgroup OOM during MGLRU state switching
-ae26153b0fda1e02ce924f77b5fe2e25e8aca1d2 mm/memcontrol: batch memcg charging in __memcg_slab_post_alloc_hook
-fadc641f8b6d7509cbc838da248b1c806082cb98 mm/damon/core: document damos_commit_dests() failure semantics
-12308102ce76cb892c27f1091771b97dc8f287c3 Docs/mm/damon: document min_nr_regions constraint and rationale
-f7dc77944270d49e4a5058250dc9173fe884ffb0 mm/execmem: make the populate and alloc atomic
-c82f9a4672d1a4737f65e4d8ef099d11d2ff6414 mm/zsmalloc: copy KMSAN metadata in zs_page_migrate()
-bd36a98dffa228fe3e78761f64abaad86ca4d0b3 mm: mark early-init static variables with __meminitdata
-5cf78b259db76d0ada01613fe55a2bc4ab1a29cb mm: vmalloc: update outdated comment for renamed vread()
-9599870224d0a1a51efa00147d01ff0714c23a4c mm: update outdated comments for removed scan_swap_map_slots()
-d5ec17b2d8239fee7f1e1468a69e100b603df5ea mm: change to return bool for ptep_test_and_clear_young()
-caf07945f4305e5186fb052d4c8aae6ff0a70a8f mm: change to return bool for ptep_clear_flush_young()/clear_flush_young_ptes()
-f830be90f145c0df6d5366d3f88a28d26041423a mm: change to return bool for pmdp_test_and_clear_young()
-39e22258dcf9eddf0037292749c64c6cf641e584 mm: change to return bool for pmdp_clear_flush_young()
-76bab9c517049e8df11d436189e8a13715c85c69 mm: change to return bool for pudp_test_and_clear_young()
-cd430e51504485b4846a45d1b3783f64a552b7bf mm: change to return bool for the MMU notifier's young flag check
-1293d71e7b311accb9a6b58685ceb7c0559584e2 mm/memcontrol: fix reclaim_options leak in try_charge_memcg()
-4547db2ac8ebb2ec33f8820efb8538d0dd07d98b mm/page_alloc: don't increase highatomic reserve after pcp alloc
-c51ea78c5466be89914cbfbe2618dea67026c2b1 drivers/base/memory: fix stale reference to memory_block_add_nid()
 
---===============2471711328683628224==--
+--===============9004411587191291548==--
