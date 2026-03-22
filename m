@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ras/ras
-Date: Sun, 22 Mar 2026 19:14:52 -0000
-Message-Id: <177420689203.487686.1628235177275144699@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sj/hkml
+Date: Sun, 22 Mar 2026 19:18:07 -0000
+Message-Id: <177420708704.491509.1274595653365227434@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ras/ras
-user: bp
+repo: pub/scm/linux/kernel/git/sj/hkml
+user: sj
 changes:
-  - ref: refs/heads/edac-for-next
-    old: b7699a32144419b676cfcc5f2fd0afe774f38169
-    new: 0f78a695e4a5f86a30caecb21b1b2ab5f4744f40
+  - ref: refs/heads/master
+    old: e0022d5a38066452a905c7cecd101eedc31e78c7
+    new: 5e96086ecfec8fc7a1de1ad96ca07ec255ac3ae2
     log: |
-         1b6f292cb94d95c9bc22e1efe592daf62c60bc2e EDAC/versalnet: Fix memory leak in remove and probe error paths
-         0f78a695e4a5f86a30caecb21b1b2ab5f4744f40 Merge ras/edac-drivers into for-next
+         5e96086ecfec8fc7a1de1ad96ca07ec255ac3ae2 USAGE: restore old link marker
          
