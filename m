@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4189224444451109453=="
+Content-Type: multipart/mixed; boundary="===============1450365574582303760=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Sun, 22 Mar 2026 07:47:25 -0000
-Message-Id: <177416564504.4155261.10809843827687870641@gitolite.kernel.org>
+Date: Sun, 22 Mar 2026 07:47:50 -0000
+Message-Id: <177416567063.4155630.2968818082127643932@gitolite.kernel.org>
 
---===============4189224444451109453==
+--===============1450365574582303760==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,15 +16,48 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: 4479062e01566e5e9d214fd7267213ad62e32ee2
-    new: e3c8880574332b02c66987c44dd6db8c7618bab8
-    log: revlist-4479062e0156-e3c888057433.txt
+    old: e3c8880574332b02c66987c44dd6db8c7618bab8
+    new: fde794883717fd67a5521fa69881afd8c8979764
+    log: revlist-e3c888057433-fde794883717.txt
+  - ref: refs/heads/tip/urgent
+    old: 69449a450cdd84cec54d930a351025fc2390539c
+    new: 4d88a4fe74b822d2b2e6455e5f139c96bc5c13f4
+    log: revlist-69449a450cdd-4d88a4fe74b8.txt
 
---===============4189224444451109453==
+--===============1450365574582303760==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4479062e0156-e3c888057433.txt
+Content-Disposition: attachment; filename=revlist-e3c888057433-fde794883717.txt
+
+5e3947f61a7357fcd8f55243951210e07def3553 Merge branch into tip/master: 'irq/urgent'
+23daf6ab5e95c655c604393c0a07ae0918070c66 Merge branch into tip/master: 'locking/urgent'
+09f891d9785e21993f13736227c1163de5d2b1f1 Merge branch into tip/master: 'objtool/urgent'
+bb227d19c8cc4776fb550d4fce9d576ef1e84f3d Merge branch into tip/master: 'perf/urgent'
+4d88a4fe74b822d2b2e6455e5f139c96bc5c13f4 Merge branch into tip/master: 'x86/urgent'
+0acbe93b079a9bfda0fda25cfb084b8cf67e34e0 Merge branch into tip/master: 'sched/merge'
+f719bd375add5c56a61f2bf9e0785e6f221e6a31 Merge branch into tip/master: 'timers/merge'
+e2e756d99ba2a3b7b4bfccddc4e66752443409ff Merge branch into tip/master: 'irq/core'
+8d47f36804f80534db99838f952494224bfebd61 Merge branch into tip/master: 'irq/drivers'
+cb9b20398bbb23b684a2ad5b5573caaad116de53 Merge branch into tip/master: 'irq/msi'
+de5d8274b0cb8daa866e9fb84462eb23d8e46a6a Merge branch into tip/master: 'locking/core'
+7c9608fe6e2eb21db9f9ffb352138cbf3ef141ca Merge branch into tip/master: 'locking/futex'
+26eae93d25502060ad891de2459be827ce6f0395 Merge branch into tip/master: 'objtool/core'
+1a7c7bd4a58dfabe766695f441463c025a018685 Merge branch into tip/master: 'perf/core'
+2f5e601d1224edd14ddf63eaa30b9086080c3d03 Merge branch into tip/master: 'ras/core'
+084a3f7352e2e6f6b7df68c762a32eb8132c9d69 Merge branch into tip/master: 'x86/cleanups'
+10fbef34e409f4d9e78fffed81984237839684f5 Merge branch into tip/master: 'x86/cpu'
+8aa09d5f138d5ca2409856dff50b29e62ab0a0a9 Merge branch into tip/master: 'x86/microcode'
+2987797858170034d7afcdae8b03e321684bcbf0 Merge branch into tip/master: 'x86/misc'
+b0630718b2230ab8a848d1991581cb13a7b8535d Merge branch into tip/master: 'x86/mm'
+662de849c41b48c28cd041d220a8a2489fdc0aa8 Merge branch into tip/master: 'x86/sev'
+fde794883717fd67a5521fa69881afd8c8979764 Merge branch into tip/master: 'x86/tdx'
+
+--===============1450365574582303760==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-69449a450cdd-4d88a4fe74b8.txt
 
 50242828700f06edfa8d563f9e0acc23a59424ee btrfs: check for NULL root after calls to btrfs_extent_root()
 2b4cb4e58f3463d142fcece5a19e0405fb82c794 btrfs: check for NULL root after calls to btrfs_csum_root()
@@ -47,10 +80,10 @@ e7bae9a7a5e1251ab414291f4e9304d702bb9221 hwmon: (max6639) Fix pulses-per-revolut
 8991448e56cb2118b561eeda193af53b4ff6b632 Merge tag 'for-7.0-rc4-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
 55d55b97c7fca1f795029c5aea3335a5d885632e Merge tag 'bootconfig-fixes-v7.0-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
 113ae7b4decc6c2d95bdbbe52e615a0137ef7f9f Merge tag 'hwmon-for-v7.0-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/groeck/linux-staging
-36c1eb9531e0c9bdcb3494142123f1c1e128367b x86/irqflags: Preemptively move include paravirt.h directive where it belongs
-9eece498565c3fd5f37efe58498779efd39f2269 x86/paravirt: Replace io_delay() hook with a bool
-2219ec23b6cf4ba6e6e23f43601e859f9eaaa24d block/floppy: Don't use REALLY_SLOW_IO for delays
-94529ac6dee8e183f685379b9b20fdef109b528f Merge branch into tip/master: 'x86/cleanups'
-e3c8880574332b02c66987c44dd6db8c7618bab8 Merge branch 'linus'
+5e3947f61a7357fcd8f55243951210e07def3553 Merge branch into tip/master: 'irq/urgent'
+23daf6ab5e95c655c604393c0a07ae0918070c66 Merge branch into tip/master: 'locking/urgent'
+09f891d9785e21993f13736227c1163de5d2b1f1 Merge branch into tip/master: 'objtool/urgent'
+bb227d19c8cc4776fb550d4fce9d576ef1e84f3d Merge branch into tip/master: 'perf/urgent'
+4d88a4fe74b822d2b2e6455e5f139c96bc5c13f4 Merge branch into tip/master: 'x86/urgent'
 
---===============4189224444451109453==--
+--===============1450365574582303760==--
