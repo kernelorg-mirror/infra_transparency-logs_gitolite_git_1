@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/network/nfc/neard
-Date: Sun, 22 Mar 2026 20:53:03 -0000
-Message-Id: <177421278333.564395.14595322365203494811@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sj/hkml
+Date: Sun, 22 Mar 2026 21:12:04 -0000
+Message-Id: <177421392446.579142.15987378130042452024@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/network/nfc/neard
-user: krzk
+repo: pub/scm/linux/kernel/git/sj/hkml
+user: sj
 changes:
   - ref: refs/heads/master
-    old: b919e87faa7da0a985d7afc10646ea7d56a41a06
-    new: 7118668bc92fe15a8ff5e4067abd5e1622524f03
+    old: 5fa96bb9151f39fc637e55fa7a9da8675132ee22
+    new: e5cf37ce716e8da6e0f309a9145d8099da1088c8
     log: |
-         b08e93e1373dc8b7a9a7c438ebcae542ff87d58c ci: Fix alpine builds because of busybox tar
-         93ddeb893a3b0d30b1f13562a4f56070770555f5 ci: Update checkout to silence Node.js messages
-         7118668bc92fe15a8ff5e4067abd5e1622524f03 Release v0.20
+         e5cf37ce716e8da6e0f309a9145d8099da1088c8 _hkml_sashiko_dev: enforce "Reviewed" status
          
