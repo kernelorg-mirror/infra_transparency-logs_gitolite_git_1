@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============6462008832063632048=="
+Content-Type: multipart/mixed; boundary="===============0995836972531656470=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/driver-core/driver-core
-Date: Sun, 22 Mar 2026 22:31:49 -0000
-Message-Id: <177421870918.643639.14812788764337972822@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/dakr/linux
+Date: Sun, 22 Mar 2026 22:33:16 -0000
+Message-Id: <177421879699.644350.12708586544089695002@gitolite.kernel.org>
 
---===============6462008832063632048==
+--===============0995836972531656470==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/driver-core/driver-core
+repo: pub/scm/linux/kernel/git/dakr/linux
 user: dakr
 changes:
-  - ref: refs/heads/driver-core-linus
-    old: 2b38efc05bf7a8568ec74bfffea0f5cfa62bc01d
-    new: c369299895a591d96745d6492d4888259b004a9e
-    log: revlist-2b38efc05bf7-c369299895a5.txt
+  - ref: refs/heads/driver_override
+    old: c0c824fe4da25e87469e060398fb6da7b6257cea
+    new: 6443a06e000b64e936d1731faa80c87f7e286b93
+    log: revlist-c0c824fe4da2-6443a06e000b.txt
 
---===============6462008832063632048==
+--===============0995836972531656470==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2b38efc05bf7-c369299895a5.txt
+Content-Disposition: attachment; filename=revlist-c0c824fe4da2-6443a06e000b.txt
 
 5a741f8cc6fe62542f955cd8d24933a1b6589cbd soc: microchip: mpfs: Fix memory leak in mpfs_sys_controller_probe()
 ff4b6bf7eef4f5b921eed78f2816abcc55bcdd68 riscv: dts: microchip: add can resets to mpfs
@@ -412,5 +412,17 @@ ac57fa9faf716c6a0e30128c2c313443cf633019 Merge tag 'trace-v7.0-rc4' of git://git
 d5273fd3ca0bf0b59fff49fb59237440998fbec8 Merge tag 'bpf-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf
 ec69c9e88315c4be70c283f18c2ff130da6320b5 i2c: tegra: Don't mark devices with pins as IRQ safe
 c369299895a591d96745d6492d4888259b004a9e Linux 7.0-rc5
+a3c04add677df23b7f176793d95bf6c957b6da28 amba: use generic driver_override infrastructure
+73c1bc4dfc2acb3cae1ec773017a589363127f7a bus: fsl-mc: use generic driver_override infrastructure
+bd3eaa7312a2f0725c0b68bbbefb4edfc7bcc507 cdx: use generic driver_override infrastructure
+b1547fb5890253fa5cf5299ab9c2342856bde26d hv: vmbus: use generic driver_override infrastructure
+b70fedf0dcfa3d2c963e6d7f27238cefbba46b42 PCI: use generic driver_override infrastructure
+b6823e3dd1b5f255dcf01f9032192192306b7455 platform/wmi: use generic driver_override infrastructure
+c7d12210cc62e91deb6f398dfa0eb307714aadb3 rpmsg: use generic driver_override infrastructure
+eaccd1b819d596d91abcb5fe765bfd7ddab6fd5e s390/cio: use generic driver_override infrastructure
+840e4aea1f76b87f8ddd9baca5e69a871142db14 s390/ap: use generic driver_override infrastructure
+28f36edbd1f61d748554805aa20e17677393f034 spi: use generic driver_override infrastructure
+62cdfc0eee152857e75969e6fb64c3ba0dd708f9 vdpa: use generic driver_override infrastructure
+6443a06e000b64e936d1731faa80c87f7e286b93 driver core: remove driver_set_override()
 
---===============6462008832063632048==--
+--===============0995836972531656470==--
