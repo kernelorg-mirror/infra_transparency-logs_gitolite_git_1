@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/hkml
-Date: Sun, 22 Mar 2026 19:18:07 -0000
-Message-Id: <177420708704.491509.1274595653365227434@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
+Date: Sun, 22 Mar 2026 19:26:33 -0000
+Message-Id: <177420759352.498783.4440188388119546542@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/hkml
-user: sj
+repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
+user: paulmck
 changes:
-  - ref: refs/heads/master
-    old: e0022d5a38066452a905c7cecd101eedc31e78c7
-    new: 5e96086ecfec8fc7a1de1ad96ca07ec255ac3ae2
+  - ref: refs/heads/dev
+    old: 79e15e57059e57741564496576c6adc97de239c9
+    new: 62ae8dc3356f79ae368b4e265f81946a492003df
     log: |
-         5e96086ecfec8fc7a1de1ad96ca07ec255ac3ae2 USAGE: restore old link marker
+         62ae8dc3356f79ae368b4e265f81946a492003df EXP srcu: Fix srcu_irq_work() interrupt handling
          
