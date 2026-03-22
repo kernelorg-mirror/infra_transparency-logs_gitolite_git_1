@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1526223217395134454=="
+Content-Type: multipart/mixed; boundary="===============3444500457333577655=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/docs/linux
-Date: Sun, 22 Mar 2026 21:32:34 -0000
-Message-Id: <177421515491.594570.8410155927712857863@gitolite.kernel.org>
+Date: Sun, 22 Mar 2026 21:32:36 -0000
+Message-Id: <177421515612.594654.9067186998290133798@gitolite.kernel.org>
 
---===============1526223217395134454==
+--===============3444500457333577655==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/docs/linux
 user: corbet
 changes:
-  - ref: refs/heads/docs-mw
+  - ref: refs/heads/docs-next
     old: 98e7b5752898f74788098bef51f53205e365ab9d
     new: 99aa500409c43573a0399b2bd0dcf64e0062347c
     log: revlist-98e7b5752898-99aa500409c4.txt
 
---===============1526223217395134454==
+--===============3444500457333577655==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -77,4 +77,4 @@ b37b3cbbb1f1a99bc8b95d9f00fcf887c27f4770 docs: add a new file to write kernel-do
 0a1a27776ddf0072883cdb4a61b91155553fcb96 Merge branch 'mauro' into docs-mw
 99aa500409c43573a0399b2bd0dcf64e0062347c docs: use logo.svg as favicon
 
---===============1526223217395134454==--
+--===============3444500457333577655==--
