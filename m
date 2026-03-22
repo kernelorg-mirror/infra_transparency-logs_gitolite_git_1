@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux
-Date: Sun, 22 Mar 2026 22:09:07 -0000
-Message-Id: <177421734731.623560.6813046521558822295@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/dakr/linux
+Date: Sun, 22 Mar 2026 22:10:12 -0000
+Message-Id: <177421741252.626578.4212958555446616073@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux
-user: axboe
+repo: pub/scm/linux/kernel/git/dakr/linux
+user: dakr
 changes:
-  - ref: refs/tags/v7.0-rc4
-    old: 0000000000000000000000000000000000000000
-    new: 34cb4f916af10153c87fabaf6c34e4cafa170427
-  - ref: refs/tags/v7.0-rc5
-    old: 0000000000000000000000000000000000000000
-    new: d1d81e9d1a4dd846aee9ae77ff9ecc2800d72148
+  - ref: refs/heads/driver_override
+    old: d806167f948a7ac113e4db2fa436d6464199b86f
+    new: c0c824fe4da25e87469e060398fb6da7b6257cea
+    log: |
+         c0c824fe4da25e87469e060398fb6da7b6257cea driver core: remove driver_set_override()
+         
