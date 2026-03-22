@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/hkml
-Date: Sun, 22 Mar 2026 19:31:14 -0000
-Message-Id: <177420787483.502996.17903213891650175891@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netfilter/nf-next
+Date: Sun, 22 Mar 2026 19:33:58 -0000
+Message-Id: <177420803856.503784.8811199801649838567@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/hkml
-user: sj
+repo: pub/scm/linux/kernel/git/netfilter/nf-next
+user: fwestphal
 changes:
-  - ref: refs/heads/master
-    old: 5e96086ecfec8fc7a1de1ad96ca07ec255ac3ae2
-    new: 5fa96bb9151f39fc637e55fa7a9da8675132ee22
+  - ref: refs/heads/testing
+    old: 26fcd8662ed0d78d59a1c37614a74e2ea2b98a25
+    new: f03a9426918d96ccdd55de5c2591ee1d9b74c6c0
     log: |
-         5fa96bb9151f39fc637e55fa7a9da8675132ee22 hkml_view_mails: refresh list only from reply_mail() only if we are on list
+         f03a9426918d96ccdd55de5c2591ee1d9b74c6c0 netfilter: osf: add deprecation notices
          
