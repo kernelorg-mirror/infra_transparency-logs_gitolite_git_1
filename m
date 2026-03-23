@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============8171623968877121064=="
+Content-Type: multipart/mixed; boundary="===============4648560720840652483=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Mon, 23 Mar 2026 00:34:37 -0000
-Message-Id: <177422607716.738634.9069843555973365523@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools
+Date: Mon, 23 Mar 2026 00:34:43 -0000
+Message-Id: <177422608389.738850.10439759708690110840@gitolite.kernel.org>
 
---===============8171623968877121064==
+--===============4648560720840652483==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/acme/linux
+repo: pub/scm/linux/kernel/git/perf/perf-tools
 user: acme
 changes:
   - ref: refs/heads/master
@@ -20,7 +20,7 @@ changes:
     new: c369299895a591d96745d6492d4888259b004a9e
     log: revlist-a989fde763f4-c369299895a5.txt
 
---===============8171623968877121064==
+--===============4648560720840652483==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -389,4 +389,4 @@ d5273fd3ca0bf0b59fff49fb59237440998fbec8 Merge tag 'bpf-fixes' of git://git.kern
 ec69c9e88315c4be70c283f18c2ff130da6320b5 i2c: tegra: Don't mark devices with pins as IRQ safe
 c369299895a591d96745d6492d4888259b004a9e Linux 7.0-rc5
 
---===============8171623968877121064==--
+--===============4648560720840652483==--
