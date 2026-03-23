@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8099624504394008275=="
+Content-Type: multipart/mixed; boundary="===============0584473632695177878=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Mon, 23 Mar 2026 00:58:38 -0000
-Message-Id: <177422751884.760453.7542545046229400658@gitolite.kernel.org>
+Date: Mon, 23 Mar 2026 00:58:46 -0000
+Message-Id: <177422752641.760711.14920928809942184738@gitolite.kernel.org>
 
---===============8099624504394008275==
+--===============0584473632695177878==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/cel/linux
 user: cel
 changes:
-  - ref: refs/heads/nfsd-next
-    old: 084a0939af2b80bbaaaacf399e36521d9acefdaf
-    new: be7c1b85a7498f21e82995e6a3bb1ed9c2970766
-    log: revlist-084a0939af2b-be7c1b85a749.txt
+  - ref: refs/heads/nfsd-testing
+    old: 4aaa222e9e96e2ec91a87e6ba5654870022baf98
+    new: 1561f827296ee2a0964bfb53fa570a52b34dcb1e
+    log: revlist-4aaa222e9e96-1561f827296e.txt
 
---===============8099624504394008275==
+--===============0584473632695177878==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-084a0939af2b-be7c1b85a749.txt
+Content-Disposition: attachment; filename=revlist-4aaa222e9e96-1561f827296e.txt
 
 5a741f8cc6fe62542f955cd8d24933a1b6589cbd soc: microchip: mpfs: Fix memory leak in mpfs_sys_controller_probe()
 ff4b6bf7eef4f5b921eed78f2816abcc55bcdd68 riscv: dts: microchip: add can resets to mpfs
@@ -493,5 +493,14 @@ f2acc28262422930ef7fef1e3e128d1230c9bfc7 SUNRPC: Optimize rq_respages allocation
 eca704b46b6d56522ff8001d6164301d6812713a svcrdma: Add Write chunk WRs to the RPC's Send WR chain
 335900f3a6555ade8c4a9a423c6f2571af684e61 svcrdma: Factor out WR chain linking into helper
 be7c1b85a7498f21e82995e6a3bb1ed9c2970766 SUNRPC: xdr.h: fix all kernel-doc warnings
+c5a509a43ef8eea0ca4a94b32172e63c149a01e5 NFSD: use per-operation statidx for callback procedures
+5e8a3ca0fe7f98dff9ce046c3f231db3a651ad7c NFSD: convert callback RPC program to per-net namespace
+053ea6dd3f3b8a9cc0274f392d3bd84e24671fda SUNRPC: Add svc_rqst_page_release() helper
+8e1ac757c14d1cbb74a73c5304b99a70d2e2975b svcrdma: Use contiguous pages for RDMA Read sink buffers
+59ee76592292036c57f2b15772e7621d38a1e38b nfsd: fix comment typo in nfs3xdr
+f24ade46f2ee241adaa0f1316ca29841c3d0ccbc nfsd: fix comment typo in nfsxdr
+6cd0dda6ec6a6bec73305cde868ee8622c3ee187 NFSD: Docs: clean up pnfs server timeout docs
+7d9f27134a18998f2f4589080272018cc3139bb6 [DEBUG] Add instrumentation for nfsd_mutex contention debugging
+1561f827296ee2a0964bfb53fa570a52b34dcb1e siw: Enable try_gso
 
---===============8099624504394008275==--
+--===============0584473632695177878==--
