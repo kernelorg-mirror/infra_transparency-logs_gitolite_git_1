@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
-Date: Mon, 23 Mar 2026 16:17:50 -0000
-Message-Id: <177428267010.1574476.1651145425370080233@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
+Date: Mon, 23 Mar 2026 16:52:21 -0000
+Message-Id: <177428474198.1601681.473179472874598659@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pci/pci
-user: helgaas
+repo: pub/scm/linux/kernel/git/vfs/vfs
+user: brauner
 changes:
-  - ref: refs/heads/controller/dwc-rcar-gen4-ep
-    old: 380627b3a5ec51a7fdfa156c14af5022980d6333
-    new: 13f55a7ca773c731a1e645934c1ae48577f48785
+  - ref: refs/heads/vfs-7.1.mount
+    old: 4e6873c588c3bfae416a40cc11cd44ca9048a86a
+    new: 435bbdc873a104d97874e4166893b4aa7e9d98e2
     log: |
-         13f55a7ca773c731a1e645934c1ae48577f48785 PCI: dwc: rcar-gen4: Change EPC BAR alignment to 4K as per the documentation
+         4daab96adc14fcf966c388607032780ecb5727f1 selftests/empty_mntns: fix wrong CLONE_EMPTY_MNTNS hex value in comment
+         435bbdc873a104d97874e4166893b4aa7e9d98e2 selftests/fsmount_ns: add missing TARGETS and fix cap test
          
