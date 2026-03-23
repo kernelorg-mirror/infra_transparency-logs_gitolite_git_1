@@ -1,51 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============6159887315410425993=="
+Content-Type: multipart/mixed; boundary="===============1243130262414256819=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Mon, 23 Mar 2026 17:57:52 -0000
-Message-Id: <177428867202.1662314.14371873671903429132@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Mon, 23 Mar 2026 17:57:55 -0000
+Message-Id: <177428867529.1662404.11936649534480162785@gitolite.kernel.org>
 
---===============6159887315410425993==
+--===============1243130262414256819==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-7.0
+  - ref: refs/heads/spi-7.0
     old: 8c89a077ca796a2fe248c584e9d7e66cff0388c8
     new: a42c9b8b0c00ecd9b7467844f2fbfc766898bf54
     log: revlist-8c89a077ca79-a42c9b8b0c00.txt
 
---===============6159887315410425993==
+--===============1243130262414256819==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1774288670 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
-nonce 1774288669-b9119644f7df9708f26553bb205be8ab7bde4a43
+pusher C3F436CA30F5D8EB 1774288673 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1774288673-2994f07d1572ebad82882a1122fb0d6d12cc6ed4
 
-8c89a077ca796a2fe248c584e9d7e66cff0388c8 a42c9b8b0c00ecd9b7467844f2fbfc766898bf54 refs/heads/for-7.0
+8c89a077ca796a2fe248c584e9d7e66cff0388c8 a42c9b8b0c00ecd9b7467844f2fbfc766898bf54 refs/heads/spi-7.0
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmnBfx4ACgkQJNaLcl1U
-h9DoPwf/QVRru9JuyCync6GZitVwzpImteTYgC9tEFTFjfKnvJXjY8AwCEQBeFsM
-5QpTJfxtd8Gd4cXtvkbH3WLwLCS0KHsZXzN9axmAsppeFdBOKDUyBHkfnVzVkfLM
-zBhYdxHzZ7SlQNrHeqZuerxJMLXzYHoC4/xt9Qt7NcAzITH0J1oO9KxbzFNDkJ+5
-osS2ETvhnHBn0sv1HUohZZ+CwOgztJ2ztnVo11frVuDMVBV5czy5HjE5rrUi5wyN
-qruwUQXHS+4rN4JF2zW/rJIdm0vaODWUjzTGyPUd60YFfCxSFxbl2gInbJI5L0Yj
-SCHZkZI4vcgPhshTOVatHTsAGGQL4Q==
-=g2lJ
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmnBfyEACgkQJNaLcl1U
+h9DLUAf/a2Fq1lRIvjgyzdhmKJaQTT3drpmSA69axxzbiveTv952D5LZkGKQW2D4
+FuLS8ZeUzQymAHhXwYOKjtq9iUPF7MGHdsZ/Fldtxj/3eMPf/ONbd/xDbx1rjKZt
+1bYZvxyZW9Uzn9ToPI2dJCi7a+iymkn2JNVSvxRb2trQDRCW3/ee0VXNm0UXJ7SJ
+EUW6gXlgK/O+6r9zq/JUcKGZp5Uv4+Q+A0iWhrTCGszYqD+L2NeDz95oydyr/7EQ
+nyN2INp7DHGbUFzXSvgsQQArODx4B7pXFGp8HhEG8gC4IVt0Qp0Z4MIrHtukFyAb
+1dEw7d5h/F1fAkeuL4uE5KOIHBDnmw==
+=ryH3
 -----END PGP SIGNATURE-----
 
---===============6159887315410425993==
+--===============1243130262414256819==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -438,4 +438,4 @@ c369299895a591d96745d6492d4888259b004a9e Linux 7.0-rc5
 ef3d549e1deb3466c61f3b01d22fc3fe3e5efb08 spi: sn-f-ospi: Fix resource leak in f_ospi_probe()
 a42c9b8b0c00ecd9b7467844f2fbfc766898bf54 spi: sn-f-ospi: Use devm_mutex_init() to simplify code
 
---===============6159887315410425993==--
+--===============1243130262414256819==--
