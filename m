@@ -1,19 +1,46 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/git/git
-Date: Mon, 23 Mar 2026 22:28:42 -0000
-Message-Id: <177430492232.1889007.6360198861608624661@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============5676332059092908984=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux
+Date: Mon, 23 Mar 2026 22:33:55 -0000
+Message-Id: <177430523564.1893035.18253339414222726270@gitolite.kernel.org>
+
+--===============5676332059092908984==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/git/git
-user: junio
+repo: pub/scm/linux/kernel/git/axboe/linux
+user: axboe
 changes:
-  - ref: refs/heads/todo
-    old: 9d7165e7c893782717936cc2d1af2ce8663f71d8
-    new: 98b621f6d3494cb11042daad3bdfb0552afcd24c
-    log: |
-         98b621f6d3494cb11042daad3bdfb0552afcd24c What's cooking (2026/03 #09)
-         
+  - ref: refs/heads/for-7.1/io_uring
+    old: 3515a2aedcdf459fc851df40a3712fc4a9a060f7
+    new: 623a6d44981f78d7f3391a59d62ae8b55f694850
+    log: revlist-3515a2aedcdf-623a6d44981f.txt
+
+--===============5676332059092908984==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-3515a2aedcdf-623a6d44981f.txt
+
+fda90d43f4fac7c0ee56a71c5a9a563bd57dcd96 io_uring/zcrx: return back two step unregistration
+234fe7bc53d8b2b37bf26a1392020e5b7b58c7d1 io_uring/zcrx: fully clean area on error in io_import_umem()
+8c0cab0b7bf768594e8efc73f7b8f3d5abeb74f1 io_uring/zcrx: always dma map in advance
+80a4144de4e1cc8faeea700fb5a6e6ccc8aa02be io_uring/zcrx: extract netdev+area init into a helper
+c11728021d5cdf8d99a5b127ec21d957d93e2d6c io_uring/zcrx: implement device-less mode for zcrx
+3bb8e0665fd7497e325ef799f945eb9e70186476 io_uring/zcrx: use better name for RQ region
+161399f0a7414e6b1f09cc76bc1067816bb04ad4 io_uring/zcrx: add a struct for refill queue
+a5da6e340ccf62d2672ea90a400a4a66bd13205a io_uring/zcrx: use guards for locking
+ac02a64c479af1ab85b5c31b82345c1c9b6016d1 io_uring/zcrx: move count check into zcrx_get_free_niov
+072237bd1a919545a1c174cd6171a5ee8e709096 io_uring/zcrx: warn on alloc with non-empty pp cache
+f3e6e4b057a8e1d4913d92f564c80c3bdd5dab55 io_uring/zcrx: netmem array as refiling format
+2bd8e5066fde4ca5f9f382676ffa830c0e2803fd io_uring/zcrx: consolidate dma syncing
+d2df9b6808abcc46cec4122457693001436e06e7 io_uring/zcrx: warn on a repeated area append
+edec451ccfce61291588163f2f8f7e9ed46bb119 io_uring/zcrx: cache fallback availability in zcrx ctx
+49105528107676a49e5d5a50fa865781986a7c61 io_uring/zcrx: check ctrl op payload struct sizes
+623a6d44981f78d7f3391a59d62ae8b55f694850 io_uring/zcrx: rename zcrx [un]register functions
+
+--===============5676332059092908984==--
