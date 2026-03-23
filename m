@@ -1,56 +1,25 @@
-Content-Type: multipart/mixed; boundary="===============7504390885216591838=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Mon, 23 Mar 2026 09:10:35 -0000
-Message-Id: <177425703521.1201467.8957212957599234357@gitolite.kernel.org>
-
---===============7504390885216591838==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/linusw/linux-integrator
+Date: Mon, 23 Mar 2026 09:11:40 -0000
+Message-Id: <177425710086.1202015.7121316183678102433@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/linusw/linux-integrator
+user: linusw
 changes:
-  - ref: refs/heads/master
-    old: 4ec3c970eaaf54b9c63ff6a4faf99421e7a11d24
-    new: 38dcfcbcd8a44d97bb912d547ba7472e91fbd261
+  - ref: refs/heads/b4/aarch64-dynamic-kernel-stacks-v7.0-rc1
+    old: 3ea8b0381a0759fa0c71abae5274db2414b58e78
+    new: 52ca06ec821a15f6eb90a9455f8b7602b67112f6
     log: |
-         38dcfcbcd8a44d97bb912d547ba7472e91fbd261 6.19-stable patches
+         f17e339825fbb61c773b80d2a6540a221ee41903 fork: Dynamic Kernel Stacks
+         94d43c33695feb92948061b8991c5dc6988549d4 task_stack.h: Add stack_not_used() support for dynamic stack
+         797c94c9a498b6d650e4fadad6e22851f019487c fork: Dynamic Kernel Stack accounting
+         303d7c766de4ad2eaf94675c169475a7cf8fd814 fork: fallback to global store of stack pages
+         74dbf2aa7157978e43ef02c3b2a37703fd621bce arm64: entry: Confine TPIDR registers to userspace
+         7b0ef7ec26579d00cb6cccfbe03f56f2ad1332ff arm64: entry: Save state to IRQ stack in el1h irq entry
+         52ca06ec821a15f6eb90a9455f8b7602b67112f6 arm64: Support dynamic kernel stacks
          
-
---===============7504390885216591838==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1774257015 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1774257033-314dacd4da6c0109fc37fa85566baeb8ab007cf5
-
-4ec3c970eaaf54b9c63ff6a4faf99421e7a11d24 38dcfcbcd8a44d97bb912d547ba7472e91fbd261 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmnBA3cbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+8fEQAJ/HhAnfID6sg6iHE5Fs
-bmmLeIkVAmWDbNgwu6eq+YvZvwg02E/Z0KDQhwhFlAbt0z08S8iWEePcOBs4BW+A
-fiq7lNBxWW1yMubGWz+5xiJGT/ejFYHPj34Q6OEUg80RcAQ+C+ouubABBGdSl8Rs
-LaVLRe48AZdDLZi7thLQTlIERxvp2NXEcW8qhjwLbOqlrNVtcXW1BLztqwV/4lzj
-d0CU/h+oapUEYR1EMa0X0XG64u4dhsf7/VMKNPv6yOCtnnSMSU/g0tZSv8jzOx3k
-jBfxxjnS7yjndxqEjM4HxeorgF26dq3JiL+aV/nLYfGV87XWR5ibqJVJQ9dCcwYh
-q2m8uVkjSjbkOF5oGaqTB+49He2lYzITXoNc9KSopk/hA0N5aRtVcdZX/W8dupgT
-YevVkyvGMYR47vDONQzCu2XnLrp3EcsiktRP0207QSc7uPxgbGcYPba9ms3EzA3H
-jrUK7YReJBJ3ctu2rQvpaOTHjspveAjZ6HSKOzYBoxMFymP6DFVUBQN6kkSG+Z5V
-FWMpPxrmhVtk7whwR1pN/BN6dBiS8IjU6OC4qsjbMSZjQB2GPtJQMnPWsvpI0FHF
-MF7PmVTJ07Y8F/I/g/5sjBUGG1kAtIwpukB8p4IObIb8S0XN0IRCWZsdvsF8ni5I
-HvmKKGwDYAm/qh2ui/enIFcV
-=H2rX
------END PGP SIGNATURE-----
-
---===============7504390885216591838==--
