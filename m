@@ -1,20 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
-Date: Mon, 23 Mar 2026 19:57:56 -0000
-Message-Id: <177429587643.1763682.15096830903953374897@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/dinguyen/linux
+Date: Mon, 23 Mar 2026 20:00:55 -0000
+Message-Id: <177429605534.1767317.2694424094808130427@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pci/pci
-user: helgaas
+repo: pub/scm/linux/kernel/git/dinguyen/linux
+user: dinguyen
 changes:
-  - ref: refs/heads/for-linus
-    old: 21647677ba9af2cb6bc460e17d9f29a7132c40c3
-    new: a1aa5ad2c90e4d787be25890e381231132c573cd
-    log: |
-         1542104128c94cd81bbb8ae9749a1a58bf4b5798 PCI/pwrctrl: Do not power off on pwrctrl device removal
-         a1aa5ad2c90e4d787be25890e381231132c573cd Documentation: PCI: Document PCIe TLP Header decoder for AER messages
-         
+  - ref: refs/heads/socfpga_firmware_for_v7.1_v2
+    old: 0000000000000000000000000000000000000000
+    new: dc7f827f9e96da7b8917f38b230bb5332c704cee
