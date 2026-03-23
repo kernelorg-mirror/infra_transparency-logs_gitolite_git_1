@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2109244775710670001=="
+Content-Type: multipart/mixed; boundary="===============3291343465949162090=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mptcp/linux
-Date: Mon, 23 Mar 2026 08:56:53 -0000
-Message-Id: <177425621310.1186978.6117334366069866983@gitolite.kernel.org>
+Date: Mon, 23 Mar 2026 08:57:13 -0000
+Message-Id: <177425623303.1187449.15775594115240523252@gitolite.kernel.org>
 
---===============2109244775710670001==
+--===============3291343465949162090==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/mptcp/linux
 user: matttbe
 changes:
-  - ref: refs/heads/export
-    old: f41ce4284d977ed8f6c45397c11380084cb4698e
-    new: 51876b5042cd53855a8b4422cab3c6a2fcdfb32d
-    log: revlist-f41ce4284d97-51876b5042cd.txt
+  - ref: refs/heads/export-net
+    old: d7c1c5314bcae86e186a4187cef01211cd5b48ad
+    new: 21d91d1ae9bc222f1906b2462b769ee780c87280
+    log: revlist-d7c1c5314bca-21d91d1ae9bc.txt
 
---===============2109244775710670001==
+--===============3291343465949162090==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f41ce4284d97-51876b5042cd.txt
+Content-Disposition: attachment; filename=revlist-d7c1c5314bca-21d91d1ae9bc.txt
 
 da142f3d373a6ddaca0119615a8db2175ddc4121 KVM: Remove subtle "struct kvm_stats_desc" pseudo-overlay
 5a741f8cc6fe62542f955cd8d24933a1b6589cbd soc: microchip: mpfs: Fix memory leak in mpfs_sys_controller_probe()
@@ -166,19 +166,6 @@ ec87a82ca8740891bce9e93e79ea2cd6c2d70ac8 KVM: riscv: Fix Spectre-v1 in AIA CSR a
 24433b2b5c74a9fee7baa3a97a1947446868901d RISC-V: KVM: Fix error code returned for Ssaia ONE_REG
 c61ec3e8cc5d46fa269434a9ec16ca36d362e0dd RISC-V: KVM: Check host Ssaia extension when creating AIA irqchip
 54fcd2f95f8d216183965a370ec69e1aab14f5da xfs: fix returned valued from xfs_defer_can_append
-08e6183ed2568e733e05e7e1c9de737d91c21155 wifi: move action code from per-type frame structs
-2f211be112e6453b3b3a1b752fd6f446e5297704 wifi: mac80211: remove stale TODO item
-9f39e2cc2b01225c1af7f18ff112047c13240d06 wifi: mac80211: remove AID bit stripping for print
-a140826caa2c14aa5a9a6990e514c5edbdb7eafd wifi: nl80211: fix UHR capability validation
-9aa84d5c6c99480c523aeb7a6ce93b6635f3e290 wifi: ieee80211: fix UHR operation DBE vs. P-EDCA order
-98acd4c1d9f7dc9c426e840c16e81b57315ff84b wifi: mac80211: add support for NDP ADDBA/DELBA for S1G
-35de87bf598ca48d5cd5cc7f328ce00df2b5fb59 wifi: Add SPDX ids to some files in the wireless subsystem
-4e0417a00971cd621e568396c18109f96be2a01d wifi: mac80211_hwsim: add incumbent signal interference detection support
-c882b7a603eff6d4a368678dd53beb7413a8414a wifi: at76c50x: drop redundant device reference
-75e375816392e8b84feafc97e2c72513f8bd11d4 wifi: libertas: drop redundant device reference
-b1af0de313bde1539c2501ef6849791010950387 wifi: libertas_tf: drop redundant device reference
-6f29eda7b77a9d44382bbeb99fe8a4c93b11aabb wifi: rt2x00: drop redundant device reference
-97492c019da4b62df83255e968b23b81c0315530 wifi: mwifiex: drop redundant device reference
 244acf1976b889b80b234982a70e9550c6f0bab7 KVM: arm64: Fix vma_shift staleness on nested hwpoison path
 3599c714c08c324f0fcfa392bfb857c92c575400 KVM: arm64: Remove the redundant ISB in __kvm_at_s1e2()
 25966fc097691e5c925ad080f64a2f19c5fd940a ublk: fix NULL pointer dereference in ublk_ctrl_set_size()
@@ -433,16 +420,6 @@ e0b38d286eef4633d231859e47679772db07db07 Merge tag 'for-7.0-rc3-tag' of git://gi
 dd0365021be3e8693680bb1d2616edf7d5e17800 Merge tag 'amd-drm-fixes-7.0-2026-03-12' of https://gitlab.freedesktop.org/agd5f/linux into drm-fixes
 b28913e897edfeedc4e33b03b28068b27d002e6c Merge tag 'drm-rust-fixes-2026-03-12' of https://gitlab.freedesktop.org/drm/rust/kernel into drm-fixes
 39ebc8d7f561e1b64eca87353ef9b18e2825e591 lib/bootconfig: fix off-by-one in xbc_verify_tree() unclosed brace error
-e4b993f2bca78357b430170574f8de7bc7874088 wifi: nl80211: split out UHR operation information
-f2514ff78855c45fe93c82bdb45f7609dd70c637 wifi: mac80211: validate HE 6 GHz operation when EHT is used
-ba9d121f85771cce38012d1bee59d7399250e4a5 wifi: mac80211: refactor chandef tracing macros
-f932856649b07529d9dbd0f2f7fb7fcc5b929858 wifi: mac80211: always use full chanctx compatible check
-fd2905157d692b9dee39d27bccb7b255e57ba3f4 wifi: cfg80211: split control freq check from chandef check
-8bca522588e0aace011bf411bb0354e0ca17f144 wifi: b43: use register definitions in nphy_op_software_rfkill
-84674b03d8bf3a850f023a98136c27909f0a2b61 wifi: mac80211: Remove deleted sta links in ieee80211_ml_reconf_work()
-a6d4291eae0409e63525d3b26f44feae6f6f4659 wifi: mac80211: don't use cfg80211_chandef_create() for default chandef
-92d77e06e73ca987b030cfed322e8421db1d6f41 wifi: cfg80211: restrict cfg80211_chandef_create() to only HT-based bands
-7218d8e9d8485b08933d832615ca19760a8999cd wifi: cfg80211: check non-S1G width with S1G chandef
 82f73ef9c41e0623e0a8bdce4fa44a7237709f0c powerpc/iommu: fix lockdep warning during PCI enumeration
 560f763baa0f2c9a44da4294c06af071405ac46f lib/bootconfig: check bounds before writing in __xbc_open_brace()
 1120a36bb1e9b9e22de75ecb4ef0b998f73a97f1 lib/bootconfig: fix snprintf truncation check in xbc_node_compose_key_after()
@@ -451,8 +428,6 @@ e2715ea5fb352cd43fce437b91aa0fd50aaaf384 bootconfig: Add bootconfig tests about 
 77603ab10429fe713a03345553ca8dbbfb1d91c6 btrfs: don't take device_list_mutex when querying zone info
 9573a365ff9ff45da9222d3fe63695ce562beb24 btrfs: log new dentries when logging parent dir of a conflicting inode
 fc1cd1f18c34f91e78362f9629ab9fd43b9dcab9 btrfs: tree-checker: fix misleading root drop_level error message
-cb0caadb64ca0894c4a24e1a34841f260d462f90 wifi: ieee80211: fix definition of EHT-MCS 15 in MRU
-d3947aac97c3e57ee2f85fd1bef8e7674e609c45 wifi: nl80211: reject S1G/60G with HT chantype
 e113f0b46d19626ec15388bcb91432c9a4fd6261 kprobes: avoid crash when rmmod/insmod after ftrace killed
 5ef268cb7a0aac55521fd9881f1939fa94a8988e kprobes: Remove unneeded warnings from __arm_kprobe_ftrace()
 92e989acfb83493e0305bc9fdcc666275ddd46c9 Merge tag 'pwrseq-fixes-for-v7.0-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux
@@ -514,15 +489,6 @@ f4c31b07b136839e0fb3026f8a5b6543e3b14d2f sched: idle: Consolidate the handling o
 29ab768277617452d88c0607c9299cdc63b6e9ff PM: runtime: Fix a race condition related to device removal
 5133b61aaf437e5f25b1b396b14242a6bb0508e2 nfsd: fix heap overflow in NFSv4.0 LOCK replay cache
 ffe6989c73b31f92a22cab1132e86545f8306d69 Merge tag 'v7.0-rockchip-drvfixes1' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/mmind/linux-rockchip into arm/fixes
-a8e136b496259e689942d295d06cc4e517418cc4 selftests: ovpn: allow compiling ovpn-cli.c with mbedtls3
-7e7ca01d912637316c0159a0a15a5fc14cd12aff ovpn: use correct array size to parse nested attributes in ovpn_nl_key_swap_doit
-4a6480599ce1aef2235152e16215cc68962e9416 ovpn: pktid: use bitops.h API
-c841b676da98638f5ed8d3f2f449ddd02d9921aa ovpn: notify userspace on client float event
-77de28cd7cf172e782319a144bf64e693794d78b selftests: ovpn: add notification parsing and matching
-2e570a51408839b2079f3cb7e3944bf9b1184ee0 ovpn: add support for asymmetric peer IDs
-367f4b163a8cff20d0cb06eb265a1bf1c6652bd9 selftests: ovpn: check asymmetric peer-id
-7b80d8a33500bd8ae5081c053f0447b502581d79 selftests: ovpn: add test for the FW mark feature
-d3244af9c4c2bbce57465130c9cd509182207c2d ovpn: consolidate crypto allocations in one chunk
 e716edafedad4952fe3a4a273d2e039a84e8681a HID: multitouch: Check to ensure report responses match the request
 d5b66179b0e27c14a9033c4356937506577485e3 lib/crypto: powerpc: Add powerpc/aesp8-ppc.S to clean-files
 ab93d7eee94205430fc3b0532557cb0494bf2faf ACPICA: Update the format of Arg3 of _DSM
@@ -539,25 +505,14 @@ c5cb126c48e728aaf7f2ac209ef5506e47c2ad6a Merge tag 'v7.0-p3' of git://git.kernel
 04a9f1766954687f0a1b7a0f7184dc4f86edcb30 Merge tag 'soc-fixes-7.0' of git://git.kernel.org/pub/scm/linux/kernel/git/soc/soc
 8a30aeb0d1b4e4aaf7f7bae72f20f2ae75385ccb Merge tag 'nfsd-7.0-2' of git://git.kernel.org/pub/scm/linux/kernel/git/cel/linux
 1863b4055b7902de43a1dcc7396805eb631682e5 Merge tag 'libcrypto-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/ebiggers/linux
-eb092b188fcf96ef2c770ff086ebfc2a15b061d3 wifi: mac80211: fix STA link removal during link removal
-777d8ba5aada960c666f810d5d820ab55ebb64c3 wifi: rsi_91x_usb: do not pause rfkill polling when stopping mac80211
-f10ebd136dfef1d8fac0ac29587e7e898c980e3e wifi: nl80211: use int for band coming from netlink
-a57f35fc19add4dfe33703af575a2c19c2cef9c7 wifi: libertas: use USB anchors for tracking in-flight URBs
-7c5c2b661bdb78c1472b8833265c9ed1ee880039 wifi: libertas: don't kill URBs in interrupt context
-dee55bc7cb8ad70b8c8598df60f378b7aed2e41b qtnfmac: use alloc_netdev macro for single queue devices
-96a584db75bb21781562dc79f11932ce38a1205f selftests/net: packetdrill: improve tcp_rcv_neg_window.pkt
 24f90fa3994b992d1a09003a3db2599330a5232a netfilter: bpf: defer hook memory release until rcu readers are done
 d73f4b53aaaea4c95f245e491aa5eeb8a21874ce netfilter: nf_tables: release flowtable after rcu grace period on error
 dbdfaae9609629a9569362e3b8f33d0a20fd783c nfnetlink_osf: validate individual option lengths in fingerprints
 8a63baadf08453f66eb582fdb6dd234f72024723 net: mvpp2: guard flow control update with global_tx_fc in buffer switching
-9f4960b94f1a044f76da98a765d6cbd294c22c92 l2tp: ppp: use max L2TP header size for PPP channel hdrlen
-0c45064487a10ee02b8bc528aa0664681c245243 Merge tag 'ovpn-net-next-20260317' of https://github.com/OpenVPN/ovpn-net-next
-96450df197bda7de927b51372c13f1002d0e76e3 bridge: No DEV_PATH_BR_VLAN_UNTAG_HW for dsa foreign
 0f9ea7141f365b4f27226898e62220fb98ef8dc6 net: shaper: protect late read accesses to the hierarchy
 d75ec7e8ba1979a1eb0b9211d94d749cdce849c8 net: shaper: protect from late creation of hierarchy
 9633370653151a0d5637634d1887d2f32511e69f Merge branch 'pm-runtime'
 5cbcd6c0742a2986782a9e2c92aa250d8f5c137d Merge branches 'acpica' and 'acpi-bus'
-9ac76f3d0bb2940db3a9684d596b9c8f301ef315 Merge tag 'wireless-next-2026-03-19' of https://git.kernel.org/pub/scm/linux/kernel/git/wireless/wireless-next
 e7577a06ae28287ca415aec5c12277e3a80ee372 Merge tag 'nf-26-03-19' of https://git.kernel.org/pub/scm/linux/kernel/git/netfilter/nf
 d107dc8c9c6a9f9e4bb213f5a6398fc5c33a00a9 Merge tag 'acpi-7.0-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
 e9825d1c79570b4c11259e826b3f7c1511544a85 Merge tag 'pm-7.0-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
@@ -573,39 +528,15 @@ b6807cfc195ef99e1ac37b2e1e60df40295daa8c Bluetooth: hci_sync: annotate data-race
 31148a7be723aa9f2e8fbd62424825ab8d577973 Bluetooth: hci_ll: Fix firmware leak on error path
 b6552e0503973daf6f23bd6ed9273ef131ee364f Bluetooth: L2CAP: Fix null-ptr-deref on l2cap_sock_ready_cb
 761fb8ec8778f0caf2bba5a41e3cff1ea86974f3 Bluetooth: L2CAP: Fix regressions caused by reusing ident
-edab1ca5ec6fffecbf340e26956ce73e502901d5 Merge git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 cbcb3cfcdc436d6f91a3d95ecfa9c831abe14aed ionic: fix persistent MAC address override on PF
 57ce3b2e9cdabcbc4d5a10f0e97a1399058c7417 Merge tag 'for-net-2026-03-19' of git://git.kernel.org/pub/scm/linux/kernel/git/bluetooth/bluetooth
 4527025d440ce84bf56e75ce1df2e84cb8178616 nfc: nci: fix circular locking dependency in nci_close_device
-8888bf4fb98057a93f3ac7392aa3913e1b318c86 selftests: net: move gro to lib for HW vs SW reuse
-9b29afa1166088ca4e8223857508f2a19d88b58b selftests: drv-net: give HW stats sync time extra 25% of margin
-f26d43acf12f914e4562b6cf17f93af3d4a594a0 selftests: drv-net: gro: use SO_TXTIME to schedule packets together
-ba5d4128fca8d141cced21f7ed10d14582cd5c1c selftests: drv-net: gro: test GRO stats
-ff1cb3ad2abce4d03eaf3e8d5f38a7a5dfd36e79 selftests: drv-net: gro: add test for packet ordering
-7dae8ffb0987f802bf4fabad987e69913ffd82e8 selftests: drv-net: gro: add a test for GRO depth
-031f090084839ff2454d05e342ec09a6f38f1797 Merge branch 'selftests-drv-net-driver-tests-for-hw-gro'
 7c770dadfda5cbbde6aa3c4363ed513f1d212bf8 net: openvswitch: Avoid releasing netdev before teardown completes
-b29580d58be6d4d24d66c89d9bea96db342cff00 net: ntb_netdev: add SPDX tag and remove boilerplate license text
-1939749ce92dd47f55f1318522f4b8f6b46e13aa net: stmmac: rename "mode" to "descriptor_mode"
-33be7846e4bebb44fb0c09ee92e99cdd111558fd net: stmmac: more mode -> descriptor_mode renames
-e73b19baa3b1c8eb909d0990e32c8d596b52be53 net: stmmac: simplify DMA descriptor allocation/init/freeing
-b4df951549ddd44ebee4ef3cd7491ed57343fd25 net: stmmac: use more descriptive names in stmmac_xmit()
-6b4286e0550814cdc4b897f881ec1fa8b0313227 net: stmmac: rename STMMAC_GET_ENTRY() -> STMMAC_NEXT_ENTRY()
-b56fae3328faeef3e3e7ff286253af3bffe9b584 Merge branch 'net-stmmac-descriptor-cleanups-part-2'
-ca7e99335aea7c5977683624ba319157a4603f96 net: fjes: Drop fjes_acpi_driver and rework initialization
 317e49358ebbf6390fa439ef3c142f9239dd25fb net: macb: Move devm_{free,request}_irq() out of spin lock area
 baa35a698cea26930679a20a7550bbb4c8319725 net: macb: Protect access to net_device::ip_ptr with RCU lock
 e069034bd660c7dff408f5906d89c5b396e96838 Merge branch 'net-macb-fix-two-lock-warnings-when-wol-is-used'
-6b5f49176a08e01deb7b1435658152237bb44173 net: dsa: mxl862xx: don't read out-of-bounds
-f44218cd5e6a3d98b137344b808ee154117ce765 net: airoha: Reset PPE cpu port configuration in airoha_ppe_hw_init()
-eb2415854f3ba7d95c4f30d259f6f598ab604616 net: phylink: add debug for phy_config_inband()
-79cfb2d1f25a2de43d846d91143c8b66e99688e5 bonding: remove bonding_priv.h
-865926e26e05be52ff311883619b9198298698df selftests/vsock: fix vmtest.sh for read-only nested VM runners
-0c3893d37892f332b595906710bf53bbd9c7c572 selftests/vsock: fix vsock_test path shadowing in nested VMs
-64cf4b95de0741e25a5c1f3140de50149fa68937 Merge branch 'selftests-vsock-support-nested-vm-runner-for-vmtest-sh'
 6931d21f87bc6d657f145798fad0bf077b82486c openvswitch: defer tunnel netdev_put to RCU release
 546b68ac893595877ffbd7751e5c55fd1c43ede6 openvswitch: validate MPLS set/set_masked payload length
-e783e40fb689381caca31e03d28c39e10c82e722 net: lan743x: fix SGMII detection on PCI1xxxx B0+ during warm reset
 24dd586bb4cbba1889a50abe74143817a095c1c9 net/smc: fix double-free of smc_spd_priv when tee() duplicates splice pipe buffer
 52501989c76206462d9b11a8485beef40ef41821 rtnetlink: count IFLA_PARENT_DEV_{NAME,BUS_NAME} in if_nlmsg_size
 ee00a12593ffb69db4dd1a1c00ecb0253376874a rtnetlink: count IFLA_INFO_SLAVE_KIND in if_nlmsg_size
@@ -613,49 +544,13 @@ ee00a12593ffb69db4dd1a1c00ecb0253376874a rtnetlink: count IFLA_INFO_SLAVE_KIND i
 cbfa5be2bf64511d49b854a0f9fd6d0b5118621f net: bcmasp: fix double free of WoL irq
 27dfe9030acbc601c260b42ecdbb4e5858a97b53 net: bcmasp: fix double disable of clk
 bc0151c59e639c1311ee573434af74b4e2c81de4 Merge branch 'net-bcmasp-fix-issues-during-driver-unbind'
-82a5852595f5afb36aebddcc3ebc2654ee4d3879 net: ethtool: re-order local includes
-c1887257a81bf62f48178d3b9d31e23520d67b2c dt-bindings: net: ethernet-phy: add property enet-phy-pair-order
-330296ea9e158758aa65631f5ec64aa74806b7e2 net: phy: realtek: add RTL8224 pair order support
-58ffb5910f32e5b387d4af31ee21851c40eb31b5 dt-bindings: net: ethernet-phy: add property enet-phy-pair-polarity
-beed9c0e9b53c98bc66d28d46fbe38c347e9aa74 net: phy: realtek: add RTL8224 polarity support
-fa782d4df0b7fa5f3f9d2d7d74f422004487836c Merge branch 'net-phy-realtek-pair-order-and-polarity'
-2e69e55897dc1898175f42989dd575ca8c467363 net: dsa: microchip: Don't embed struct phy_device to maintain the port state
-609e79253ace7f6eba5fdfe6ba8bd3bfd7b9e79b net/mlx5e: Allow set_rx_mode on uplink representor
-53edd8309570517137d58e3644976843b817179c net: netdevsim: correct typo in new_device_store error message
-544921efd4e4b1f135c87335dd59114a302c574d netdevsim: move TC offload code to a dedicated file
-abdf5133bfa12c45d402f7b73d39bca772f3644a netdevsim: support tc-ets offload
-5754a1c9f9b6e298791c4bb34263f37dfe93ee35 tc-testing: add a test case for ETS offload
-fb78a629b4f0eb399b413f6c093a3da177b3a4eb Merge branch 'netdevsim-support-ets-offload'
-355a37ef7e7a25269053e0d56f4c3857b9908891 DO-NOT-MERGE: git markup: net
-6e983cdccd6c1f1e9ed7be3c2fc6d1435d789546 DO-NOT-MERGE: git markup: fixes other trees
-6237742f3be97bb3b1016da4cf7d7196d75bb9f2 DO-NOT-MERGE: git markup: fixes net
-1af7e4c0eb3aabd16d6aea53fdc5f7a52ab7d393 DO-NOT-MERGE: mptcp: add CI support
-263866645ce7b2316866a77129ca7015844afae4 DO-NOT-MERGE: git markup: end common net net-next
-b1aec70031c83228200705c82fe2e4b9f2583e6c TopGit-driven merge of branches:
-73272647198a16053b1a8edac4952bf9cb3593ad DO-NOT-MERGE: git markup: net-next
-99a9dadf7e310c06af6cd64543094063e9b03a0e DO-NOT-MERGE: git markup: fixes net-next
-ae594a0181ec431418f3899dd58f0a4d9b71fbea mptcp: pm: init and release mptcp_pm_ops
-f569d4cbbf9ae1aacb922318f6cb562f7b282c3a mptcp: pm: add get_local_id() interface
-31da5fa913a42915a9e182c52dd6595202a068d7 mptcp: pm: add get_priority() interface
-bf1e563b5d6c6038bedbf4c3af7e13f8164f28c6 mptcp: better mptcp-level RTT estimator
-3f764e0723b4b202b4248bdd50cbe44252f7d1fc mptcp: add receive queue awareness in tcp_rcv_space_adjust()
-9203dab6cc16faec918ddd4a602d81fea23cdc73 mptcp: pm: in-kernel: remove mptcp_pm_has_addr_attr_id
-775a6519be1ac1b65c28b630b9ba6f5e69ad68ad selftests: mptcp: join: recreate signal endp with same ID
-d617154af0f611029f3b0085cf976e551a93f0c3 DO-NOT-MERGE: git markup: features net-next
-07eec8a10dbccf06153274f80502110c19055658 DO-NOT-MERGE: git markup: features net-next-next
-cf447559d83a721002550f9f323e8ea3c455f7f7 bpf: Add mptcp_subflow bpf_iter
-12166ffcc08b38c9e4f707d9b0942b26b927b843 selftests/bpf: More endpoints for endpoint_init
-c75791358d61d6d427940e257160c6a1ebee00f2 selftests/bpf: Drop cgroup_fd of run_mptcpify
-2d769c064bd253e2119989a336c14608efe90f86 bpf: Add mptcp packet scheduler struct_ops
-7c5b9e0358f6820ed3626032473bb5311b9a4bfd bpf: Export mptcp packet scheduler helpers
-d5dbbc83d4b58201bc769f8a628160c5d1970126 selftests/bpf: Add bpf scheduler test
-16223ccca3e4bcf175d8f7a5cbd4e9c90acea17a selftests/bpf: Add bpf_first scheduler & test
-9748439c53b13d309b074cc202f9fb7bf2e1beb3 selftests/bpf: Add bpf_bkup scheduler & test
-b66a36174f5886e93236922659e630aa8df5094d selftests/bpf: Add bpf_rr scheduler & test
-d5e380731b4abd096837de29bfca3dc94ac947b7 selftests/bpf: Add bpf_red scheduler & test
-8a81d12e09fd36b4d89164f0912283c6d19eca28 selftests/bpf: Add bpf_burst scheduler & test
-f16c3d8c7913d466cc28165ade6722478b39c6fa DO-NOT-MERGE: git markup: features other trees
-62674a1e65ebe2fbde22e240e57dea208182e8a8 DO-NOT-MERGE: mptcp: improve code coverage for CI
-51876b5042cd53855a8b4422cab3c6a2fcdfb32d DO-NOT-MERGE: mptcp: enabled by default
+5bcf7f38bb97813f3f60ead7f16aca6437a24186 DO-NOT-MERGE: git markup: net
+25316d237767524fea87f0a322d6c50724235c23 DO-NOT-MERGE: git markup: fixes other trees
+75293e28e1ddc546168c14ef807101f73a05e9d5 DO-NOT-MERGE: git markup: fixes net
+cca97f02cca71aaf19e77321f798f9d7f9abb897 DO-NOT-MERGE: mptcp: add CI support
+53f88a475cea3642a8e9f4ee2dd71daa0fc9ac20 DO-NOT-MERGE: git markup: end common net net-next
+c64ce7b792e1aee39f802a99adaa794e7d491875 DO-NOT-MERGE: git markup: fixes net only
+11dc3927e58bf97a2d32798eb0f50a9a8b898e0a DO-NOT-MERGE: mptcp: improve code coverage for CI (net)
+21d91d1ae9bc222f1906b2462b769ee780c87280 DO-NOT-MERGE: mptcp: enabled by default (net)
 
---===============2109244775710670001==--
+--===============3291343465949162090==--
