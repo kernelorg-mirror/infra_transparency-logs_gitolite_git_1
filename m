@@ -1,19 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Mon, 23 Mar 2026 17:34:32 -0000
-Message-Id: <177428727264.1636330.13925864994597023395@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
+Date: Mon, 23 Mar 2026 17:43:23 -0000
+Message-Id: <177428780346.1643993.7354868062923669709@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/rafael/linux-pm
+user: rafael
 changes:
-  - ref: refs/heads/asoc-7.0
-    old: 2594196f4e3bd70782e7cf1e22e3e398cdb74f78
-    new: 5a184f1cb43a8e035251c635f5c47da5dc3e3049
+  - ref: refs/heads/bleeding-edge
+    old: 390abf84260ee3d49b7bb0cb6bceccbf3d0663df
+    new: 1ea57f8d3c2bc6ede2d95d04fea6b1cee2201fa4
     log: |
-         5a184f1cb43a8e035251c635f5c47da5dc3e3049 ASoC: Intel: catpt: Fix the device initialization
+         97f7d3f9c9acb70d4eef7bcdef3218823d142733 ACPICA: Replace strncpy() with strscpy_pad() in acpi_ut_safe_strncpy()
+         1ea57f8d3c2bc6ede2d95d04fea6b1cee2201fa4 Merge branch 'acpica' into bleeding-edge
          
+  - ref: refs/heads/acpi-tad-next
+    old: 0000000000000000000000000000000000000000
+    new: 02a2a9ada1b4ca8689d85287fcdee214863957bd
