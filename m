@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rcu/linux
-Date: Mon, 23 Mar 2026 22:09:17 -0000
-Message-Id: <177430375792.1872535.1293558786792065655@gitolite.kernel.org>
+Subject: post-receive: pub/scm/network/ethtool/ethtool
+Date: Mon, 23 Mar 2026 22:16:18 -0000
+Message-Id: <177430417865.1879759.1677234968718675011@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rcu/linux
-user: boqun
+repo: pub/scm/network/ethtool/ethtool
+user: mkubecek
 changes:
-  - ref: refs/heads/fixes.v7.0-rc4
-    old: 0000000000000000000000000000000000000000
-    new: e3b91cd13249d58d51a68917332bee076b3689fc
+  - ref: refs/heads/master
+    old: 8bb78214bdd3e71e7a9eb6cd06182812a90bf301
+    new: 40d272752bb469263adcb92c9d507471946ca7f6
+    log: |
+         40d272752bb469263adcb92c9d507471946ca7f6 cmis: Fix incorrect LSB field used for wavelength tolerance
+         
