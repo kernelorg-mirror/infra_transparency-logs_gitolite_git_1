@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tatashin/linux
-Date: Mon, 23 Mar 2026 18:56:53 -0000
-Message-Id: <177429221314.1711692.7586101549653515909@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Mon, 23 Mar 2026 18:59:22 -0000
+Message-Id: <177429236229.1712561.17583244739680532916@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tatashin/linux
-user: tatashin
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/luo-reboot-sync/rfc/1
-    old: 18dc609f6ef152e367aef5b100f325c658511572
-    new: f27a6a9364cd0a19067734eeb24ea4d290b72139
+  - ref: refs/heads/spi-7.0
+    old: a42c9b8b0c00ecd9b7467844f2fbfc766898bf54
+    new: 63542bb402b7013171c9f621c28b609eda4dbf1f
     log: |
-         d47b76707c4f352c3f70384d3d6a818e2875439a liveupdate: block outgoing session mutations during serialization
-         f27a6a9364cd0a19067734eeb24ea4d290b72139 liveupdate: pin sessions and handle inactive ones during serialization
+         63542bb402b7013171c9f621c28b609eda4dbf1f spi: meson-spicc: Fix double-put in remove path
          
