@@ -1,27 +1,26 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Mon, 23 Mar 2026 11:28:40 -0000
-Message-Id: <177426532086.1320252.13780892425851708585@gitolite.kernel.org>
+Date: Mon, 23 Mar 2026 11:28:55 -0000
+Message-Id: <177426533583.1320448.18041111056692768470@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
-Content-Transfer-Encoding: 8bit
+Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
 repo: pub/scm/linux/kernel/git/rdma/rdma
 user: leon
 changes:
-  - ref: refs/heads/for-next
-    old: 2102cbaf8db4efb7eb8198129586ad1390ce395f
-    new: 6edef31ef9004ed51624246a04f7f81112f485b0
+  - ref: refs/heads/for-rc
+    old: 0f2055db7b630559870afb40fc84490816ab8ec5
+    new: 8dc12ab9dc7afa931bee35af15a80a260cfaa828
     log: |
-         086d5c80b8b8ca2595774fda0c060739a7aa2fa1 RDMA/mana_ib: cleanup the usage of mana_gd_send_request()
-         2395dd086ea871dafe48435c6ebc9228c72c0244 RDMA/nldev: Add dellink function pointer
-         645bd1d6371105fb56fafeb5e933bb78e8ba8c83 RDMA/rxe: Add net namespace support for IPv4/IPv6 sockets
-         d0ee939f7703fec944514f984d78716595d3a339 RDMA/rxe: Support RDMA link creation and destruction per net namespace
-         4a79cdee2744ebe3fde5fbdc820b01a0c77834a8 RDMA/rxe: Add testcase for net namespace rxe
-         e9c21564035484df26b6b79628efdc6e2d62e148 RDMA/core: Remove unused ib_resize_cq() implementation
-         cb50e333848f9d3f87df6c1fe812972e517d9c37 RDMA: Clarify that CQ resize is a user‑space verb
-         e8b64a452d0b30a7348f14020fe924d493129646 RDMA: Properly propagate the number of CQEs as unsigned int
-         6edef31ef9004ed51624246a04f7f81112f485b0 RDMA/uverbs: Update outdated reference to remove_commit_idr_uobject()
+         5a925c7555d948fa5549bf0744d9fa2437c901b2 RDMA/irdma: Initialize free_qp completion before using it
+         74f9af2283812aeeb3131ce31e22970ebb214074 RDMA/irdma: Update ibqp state to error if QP is already in error state
+         137e3cd83cad166101bc4d8a96a6358cd8efed84 RDMA/irdma: Remove a NOP wait_event() in irdma_modify_qp_roce()
+         acf6d75f3abc3ab1dda027c58e5ef16c73f7b5df RDMA/irdma: Clean up unnecessary dereference of event->cm_node
+         4debbebb0489dc7de0cedaccfe82806616c99876 RDMA/irdma: Remove reset check from irdma_modify_qp_to_err()
+         73ec40100be22937fdf519964ac46071dbb068ab RDMA/irdma: Fix deadlock during netdev reset with active connections
+         0b36485998da106afc5e8b4ba93101f323636345 RDMA/irdma: Return EINVAL for invalid arp index error
+         8dc12ab9dc7afa931bee35af15a80a260cfaa828 RDMA/irdma: Harden depth calculation functions
          
