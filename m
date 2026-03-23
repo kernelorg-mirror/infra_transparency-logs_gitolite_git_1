@@ -1,20 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
-Date: Mon, 23 Mar 2026 19:22:33 -0000
-Message-Id: <177429375325.1733546.8635546925936353940@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
+Date: Mon, 23 Mar 2026 19:27:04 -0000
+Message-Id: <177429402402.1737615.16460363566091329358@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rafael/linux-pm
-user: rafael
+repo: pub/scm/linux/kernel/git/rdma/rdma
+user: leon
 changes:
-  - ref: refs/heads/bleeding-edge
-    old: 1ea57f8d3c2bc6ede2d95d04fea6b1cee2201fa4
-    new: a1570ef54de30553c1ff751f0454ba83608c68f8
+  - ref: refs/heads/wip/leon-for-next
+    old: 6edef31ef9004ed51624246a04f7f81112f485b0
+    new: 1c3eaf5186228f0b20ccb776e86233f069475380
     log: |
-         f83abc121656c0b47f32bdd81d25e00cf5b38153 powercap: intel_rapl: Consolidate PL4 and PMU support flags into rapl_defaults
-         a1570ef54de30553c1ff751f0454ba83608c68f8 Merge branch 'pm-powercap' into bleeding-edge
+         b6458874cd70ccd4e77ee0bdc80ab38b6b351ae9 RDMA/bnxt_re: Simplify bnxt_re_init_depth() callers and implementation
+         8c65d350b5bf9bb53e12b943487bc7b80fbc18e2 RDMA/bnxt_re: Remove unnecessary checks in kernel CQ creation path
+         48730650ae101c57acff7e3fe5982e06472c8f39 RDMA/bnxt_re: Replace kcalloc() with kzalloc_objs()
+         1c3eaf5186228f0b20ccb776e86233f069475380 RDMA/bnxt_re: Clean up uverbs CQ creation path
          
