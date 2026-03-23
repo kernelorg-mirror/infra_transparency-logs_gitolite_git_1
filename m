@@ -1,57 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============8366801987288044070=="
+Content-Type: multipart/mixed; boundary="===============8972222419588073891=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Mon, 23 Mar 2026 09:00:58 -0000
-Message-Id: <177425645848.1192554.2927387058608573900@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Mon, 23 Mar 2026 09:09:41 -0000
+Message-Id: <177425698113.1197435.10786410739611149405@gitolite.kernel.org>
 
---===============8366801987288044070==
+--===============8972222419588073891==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/tty
+repo: pub/scm/linux/kernel/git/stable/stable-queue
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/v7.0-rc4
-    old: 0000000000000000000000000000000000000000
-    new: 34cb4f916af10153c87fabaf6c34e4cafa170427
-  - ref: refs/tags/v7.0-rc5
-    old: 0000000000000000000000000000000000000000
-    new: d1d81e9d1a4dd846aee9ae77ff9ecc2800d72148
+  - ref: refs/heads/master
+    old: 3c876b07d270dfb0eb786c0efef86d593083df8f
+    new: d2db93af8105b0a0444f0d3b11cab2785a709f51
+    log: |
+         d2db93af8105b0a0444f0d3b11cab2785a709f51 5.10-stable patches
+         
 
---===============8366801987288044070==
+--===============8972222419588073891==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1774256437 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1774256455-5214bcd44e304f751cd40483e9391b30d030e05d
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1774256960 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1774256978-bb1c6a5de6ab2ddcd8e92e69e98c78371d5fb509
 
-0000000000000000000000000000000000000000 34cb4f916af10153c87fabaf6c34e4cafa170427 refs/tags/v7.0-rc4
-0000000000000000000000000000000000000000 d1d81e9d1a4dd846aee9ae77ff9ecc2800d72148 refs/tags/v7.0-rc5
+3c876b07d270dfb0eb786c0efef86d593083df8f d2db93af8105b0a0444f0d3b11cab2785a709f51 refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmnBATUbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+hVEP/RBKfKS3zpMTlV4b83Jx
-i/sHlVmPNGnj+ctFV6FHXV2zqgXW6LtFBeEFtELUlCws4qGYmAYvNcGDy0wTaA4o
-Upwo5bTOdXMZBAYUMJRx3Vw5taWOun4aYeV90pfvQfFqDJNU5mW+n4OTmBMvpq9e
-DBoNGpBk4LCQg3bxtC+wsg49VIB0/wqueFSoSL0crB7LdaOmKangLiXFVKYgO8ph
-rneSSuWVe/Ru7jU0AQJzKO0xlGmWpCLj/jVIh4V7UCVG4vlMMM/0hb//KuZkx4oI
-xOUwm59lb4TZGkjfgazLtweuK+Q7d09cpm/T+xrC5KkGG6Didkdgtfls2VYDMKY+
-qDCTkNUms7MvZ8W0Vz2Id8Uit1xLeMZJG2pKjgtmd6MEL8BsrwL6dQiT4N1dcUsL
-AHc8u/cFl1+vec7WDUKI5hrtW667NDDqgBgSL8/KrYvE8JuCdqtpy6GoCw47RMMx
-1fRwJsZF7VFwmfXCJekN815+/qZcPOBC0lRst0bXbUurfsJmv2UUjF6TPwf4epGk
-U+3TtjfUif18LksLsl1p9Q+JQwT+OI+yen3SGqzyQEaO/5fy8LaCLqdf/fC+IUAL
-dHH6n85LGjurE6+sVvkb7M2NDAv1oQ4TM8Oq7Ycq+awOMrMjaN5Ca2frP+MzDI7y
-qJfrVCTyv+iO0GTj0heW+Nk9
-=eqLq
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmnBA0AbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+H/wP/0yQJvm1M+47xxbi0LJA
+rJ0CG3LSX7owZTp4zmz0ZwEiTeRWJw0ide4aTNt7SgeuXxnJwL04R97VdlQQ9wP2
+xeHp317o7dqZAERjLkJeIvEWSwsAVNHBsJd6BZREk2kUGVf+Eeb9AINS4Kmf4rgG
+XXPOlC3PuJQv6x3b4OEbo4vAFpaGb0eicYGi8nDnnQeMkvWs97j5OSiajIrezVFn
+Fi/QEzsHExaaVo4CKuaMgp3M4X+o9G2o+7otfOKLHIJANyEkpz9FXBf47ke1OuPZ
+bUSiMsA0v00kg4i3r0R0Hl5xdZs/6Uf2Vr4rttY9dtcIRXejT63d2R0TXNQzm+to
+vbnO8FLitzSW0DoyjVUt+9AYzrNCni1UFNApjg590aBC/1Via8/E5Q35PHpXo17b
+CUj+5alkOmHiAlY28Z2l1mDV0+lhbRkYlZrSUSUTy1pnK+qwQiBe+BNRDXui5VAI
+frTfOAunRDc2uGu8eEjIcirOg6x91m4dxJpPG7xWIWTDiYYHGDdOOxEvLPUNM+4S
+3XV5RxDrN621ub21dJ2cOZ8A4S0lI6AIYvmRXYwaiSrHwyrY5o32sOfD29YzH5iY
+VnusbYtCaEw4hXSgiV0kxYob2w+y2gEXI7TxBX7yz4DqsuoKRPz8deozJwePtYps
+xA3BJ2qmSoRpltlNnsgUACCu
+=2U3e
 -----END PGP SIGNATURE-----
 
---===============8366801987288044070==--
+--===============8972222419588073891==--
