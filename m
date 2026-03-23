@@ -1,20 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/legion/kbd
-Date: Mon, 23 Mar 2026 17:52:04 -0000
-Message-Id: <177428832418.1654566.8314730442159143465@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tj/sched_ext
+Date: Mon, 23 Mar 2026 17:53:27 -0000
+Message-Id: <177428840779.1655188.4219774234281709971@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/legion/kbd
-user: legion
+repo: pub/scm/linux/kernel/git/tj/sched_ext
+user: tj
 changes:
-  - ref: refs/heads/xkb
-    old: 9e419a3320e61eca01d5056e42246a7069d674d4
-    new: 9de5931e357278ce09623582e423aa970593dd3e
+  - ref: refs/heads/for-7.1
+    old: cb251eae7b0aec8a7924fb27bcb5b0388a3706bc
+    new: 4624211bc633481523475d0586a47c0a31c91fa4
     log: |
-         2ff8eac5b6d01b163b0c50f19ae15b3a732c05d5 libkeymap: clamp compose uploads below MAX_DIACR
-         9de5931e357278ce09623582e423aa970593dd3e xkbsupport: drop noisy keycode range warning
+         4624211bc633481523475d0586a47c0a31c91fa4 sched_ext: Fix invalid kobj cast in scx_uevent()
+         
+  - ref: refs/heads/for-next
+    old: e5eaacc9f9ea5d2ff3af6b0372959749cc60ea09
+    new: 12afddc4f1fce68656f6dbd99200fc4646a559b2
+    log: |
+         4624211bc633481523475d0586a47c0a31c91fa4 sched_ext: Fix invalid kobj cast in scx_uevent()
+         12afddc4f1fce68656f6dbd99200fc4646a559b2 Merge branch 'for-7.1' into for-next
          
