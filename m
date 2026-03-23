@@ -1,50 +1,50 @@
-Content-Type: multipart/mixed; boundary="===============0273833247532582448=="
+Content-Type: multipart/mixed; boundary="===============5611728788179643504=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Mon, 23 Mar 2026 17:57:08 -0000
-Message-Id: <177428862896.1660921.13864998413735224645@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Mon, 23 Mar 2026 17:57:12 -0000
+Message-Id: <177428863235.1661081.13320617553161077238@gitolite.kernel.org>
 
---===============0273833247532582448==
+--===============5611728788179643504==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-7.1
+  - ref: refs/heads/asoc-7.1
     old: 4bdb626957bfad8ab0292608b6f153135adebe7c
     new: e3f1ce073a0dd2b319bd1541c461f153306ca163
     log: |
          e3f1ce073a0dd2b319bd1541c461f153306ca163 ASoC: wm_adsp: select CONFIG_SND_SOC_WM_ADSP from all users
          
 
---===============0273833247532582448==
+--===============5611728788179643504==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1774288627 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1774288627-b1d833af2c315e2047ea482fec2e341d77ad4658
+pusher C3F436CA30F5D8EB 1774288630 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1774288630-365b7a399deba4317ebad682e2873ef552ff67f4
 
-4bdb626957bfad8ab0292608b6f153135adebe7c e3f1ce073a0dd2b319bd1541c461f153306ca163 refs/heads/for-7.1
+4bdb626957bfad8ab0292608b6f153135adebe7c e3f1ce073a0dd2b319bd1541c461f153306ca163 refs/heads/asoc-7.1
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmnBfvMACgkQJNaLcl1U
-h9DXmgf/UfLeK34RWP1KO/S2tdPTZcysiBCGiEpizsjPk7YY8XCj1oeyqMLWIPl4
-XR9UxLtsuGWbTwMMqHr8A6ReGZbSVQv/hR2xDy0g3WaTv0hRSJHEqXd2n4MYSGVb
-trGv0o60E0jusSCAe/iZU7lxUwn8v2DnrgNEfUlmH84v1ekZvp2+9yzUTu0Wz4Q6
-JXLoCZ1sNuDL4HykSiB3+KyoKz4laY2+sbyZqqsth3uj0Bg0XddpURYW16se2R4f
-KoMZSL9NXA7sTlsGGuW0Q4MW1EwsPOGuoyjqe74xuacf0RfSr6kCAAnhnAxuHQS9
-sXkaY460BIl8clIZD/xXaR5YjkjtWw==
-=8xja
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmnBfvYACgkQJNaLcl1U
+h9AhEQf/d4hhsJ7L4yo+k7j9PvyggTsFNhwJQ+wR8sFMrjkAr3jnAwo0A4IkiLQL
+A4J+IqUSX0CVmE2DfzAUfyxgQFRAd19ZTCfPE7SwwPa2DGKDirZdzcEV/11xwUXp
+4umbrJaUh69ITagJR6nWLj58GtZUKA4eyDqSmdBK2E7scbM48pj0AM12piTR1O1v
+dBSa6b+F+J0xJeOtSm99NfZCY1nuOjvlepVOF9nEv+8Fk8dmnnpkJCO041Wxb5sM
+JV+HErPkKvVamHtRwKmMM+vD6qpi2Or57ft/LsoAnEiLNWXc4JaPBdgJgJKek1kI
+MY4YoE1GeY7gHY5CfEoZggWS/1XQdQ==
+=Iu9S
 -----END PGP SIGNATURE-----
 
---===============0273833247532582448==--
+--===============5611728788179643504==--
