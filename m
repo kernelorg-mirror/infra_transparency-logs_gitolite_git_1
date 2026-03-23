@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8962730118073232144=="
+Content-Type: multipart/mixed; boundary="===============7969655717918057745=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/geert/linux-m68k
-Date: Mon, 23 Mar 2026 09:24:34 -0000
-Message-Id: <177425787423.1212368.1953487627829784505@gitolite.kernel.org>
+Date: Mon, 23 Mar 2026 09:24:53 -0000
+Message-Id: <177425789332.1212649.12860408581374580264@gitolite.kernel.org>
 
---===============8962730118073232144==
+--===============7969655717918057745==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/geert/linux-m68k
 user: geert
 changes:
-  - ref: refs/heads/master
-    old: 932a802090cf33ad91e86ba0688fd56b49b014b9
-    new: 36fbb923982c5691b5d5fd45bc3db78082ff0571
-    log: revlist-932a802090cf-36fbb923982c.txt
+  - ref: refs/heads/m68k-queue
+    old: 83354825d36baa079f66fe325108f91125262214
+    new: 6bd9abc785e959a6e90851387326df3850c65fe8
+    log: revlist-83354825d36b-6bd9abc785e9.txt
 
---===============8962730118073232144==
+--===============7969655717918057745==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-932a802090cf-36fbb923982c.txt
+Content-Disposition: attachment; filename=revlist-83354825d36b-6bd9abc785e9.txt
 
 5a741f8cc6fe62542f955cd8d24933a1b6589cbd soc: microchip: mpfs: Fix memory leak in mpfs_sys_controller_probe()
 ff4b6bf7eef4f5b921eed78f2816abcc55bcdd68 riscv: dts: microchip: add can resets to mpfs
@@ -417,6 +417,8 @@ ac57fa9faf716c6a0e30128c2c313443cf633019 Merge tag 'trace-v7.0-rc4' of git://git
 d5273fd3ca0bf0b59fff49fb59237440998fbec8 Merge tag 'bpf-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf
 ec69c9e88315c4be70c283f18c2ff130da6320b5 i2c: tegra: Don't mark devices with pins as IRQ safe
 c369299895a591d96745d6492d4888259b004a9e Linux 7.0-rc5
-36fbb923982c5691b5d5fd45bc3db78082ff0571 Merge tag 'v7.0-rc5'
+6480e957f41c4bd8105e7e1a5ecfcee8e07e2390 m68k: atari: usb: Add ISP1160 USB host controller support
+1efd7e7b9fd51029e0889edd044811e79936755b m68k: atari: Update Kconfig.bus help text
+6bd9abc785e959a6e90851387326df3850c65fe8 m68k: defconfig: Enable Atari EtherNAT and NetUSBee USB support
 
---===============8962730118073232144==--
+--===============7969655717918057745==--
