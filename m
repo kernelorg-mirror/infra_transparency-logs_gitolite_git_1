@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/firmware/linux-firmware
-Date: Mon, 23 Mar 2026 17:50:09 -0000
-Message-Id: <177428820956.1653427.8550483055650478170@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/legion/kbd
+Date: Mon, 23 Mar 2026 17:52:04 -0000
+Message-Id: <177428832418.1654566.8314730442159143465@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/firmware/linux-firmware
-user: jwboyer
+repo: pub/scm/linux/kernel/git/legion/kbd
+user: legion
 changes:
-  - ref: refs/heads/main
-    old: 8a5558c4dfddcd48e555eb758b9057bf53c8e36a
-    new: 4e8a842e8f487bd2f54366d5f2b0e15703282322
+  - ref: refs/heads/xkb
+    old: 9e419a3320e61eca01d5056e42246a7069d674d4
+    new: 9de5931e357278ce09623582e423aa970593dd3e
     log: |
-         3dba1ce1e347ff8a58f6822300615e1d2ef19d42 linux-firmware: update firmware for qat_402xx devices
-         4e8a842e8f487bd2f54366d5f2b0e15703282322 Merge branch 'qat_402xx' into 'main'
+         2ff8eac5b6d01b163b0c50f19ae15b3a732c05d5 libkeymap: clamp compose uploads below MAX_DIACR
+         9de5931e357278ce09623582e423aa970593dd3e xkbsupport: drop noisy keycode range warning
          
