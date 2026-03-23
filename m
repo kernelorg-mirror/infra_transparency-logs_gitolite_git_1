@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0973302518396709053=="
+Content-Type: multipart/mixed; boundary="===============2669277617184223918=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/arighi/linux
-Date: Mon, 23 Mar 2026 07:38:17 -0000
-Message-Id: <177425149790.1069657.6628537568102829066@gitolite.kernel.org>
+Date: Mon, 23 Mar 2026 07:38:23 -0000
+Message-Id: <177425150378.1069872.16338152916273957549@gitolite.kernel.org>
 
---===============0973302518396709053==
+--===============2669277617184223918==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/arighi/linux
 user: arighi
 changes:
-  - ref: refs/heads/for-7.1
+  - ref: refs/heads/scx
     old: 4b0c194e65d9b5ec5f17cd554ae59b8d2e16f702
     new: 67459f1356a3a045088adda89aa7b687f901b337
     log: revlist-4b0c194e65d9-67459f1356a3.txt
 
---===============0973302518396709053==
+--===============2669277617184223918==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -38,4 +38,4 @@ c50dcf533149e313a61d483769eb48682a1b0cdd selftests/sched_ext: Add tests for SCX_
 040cda5f26a147ee497432491082d8cc2c8ec3aa sched_ext: Invalidate dispatch decisions on CPU affinity changes
 67459f1356a3a045088adda89aa7b687f901b337 sched_ext: idle: Improve sync wakeup
 
---===============0973302518396709053==--
+--===============2669277617184223918==--
