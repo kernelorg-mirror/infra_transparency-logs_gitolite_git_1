@@ -1,26 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tj/sched_ext
-Date: Mon, 23 Mar 2026 17:48:53 -0000
-Message-Id: <177428813376.1648923.3054534852165545982@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mptcp/linux
+Date: Mon, 23 Mar 2026 17:49:05 -0000
+Message-Id: <177428814541.1649194.6962291592268621153@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tj/sched_ext
-user: tj
+repo: pub/scm/linux/kernel/git/mptcp/linux
+user: matttbe
 changes:
-  - ref: refs/heads/for-7.1
-    old: c50dcf533149e313a61d483769eb48682a1b0cdd
-    new: cb251eae7b0aec8a7924fb27bcb5b0388a3706bc
+  - ref: refs/heads/export-net
+    old: 21d91d1ae9bc222f1906b2462b769ee780c87280
+    new: ecab330b2a530875e4b042f50f43a780068e008f
     log: |
-         cb251eae7b0aec8a7924fb27bcb5b0388a3706bc tools/sched_ext: Add scx_bpf_sub_dispatch() compat wrapper
-         
-  - ref: refs/heads/for-next
-    old: c919783ddb4e64aed07a276172a6712de07fce12
-    new: e5eaacc9f9ea5d2ff3af6b0372959749cc60ea09
-    log: |
-         cb251eae7b0aec8a7924fb27bcb5b0388a3706bc tools/sched_ext: Add scx_bpf_sub_dispatch() compat wrapper
-         e5eaacc9f9ea5d2ff3af6b0372959749cc60ea09 Merge branch 'for-7.1' into for-next
+         a071bdfc36942e9d07d9fa4adde46e118dc9c3e2 DO-NOT-MERGE: git markup: net
+         9fd345fde93a8c396acf0c9c3fc7ac1ed0b00ac7 DO-NOT-MERGE: git markup: fixes other trees
+         8f2582a37d06d60c25bbfe76fa4a9c32200de5ed DO-NOT-MERGE: git markup: fixes net
+         0596e25e3cee37dd5f392b69497d87ef19f4b741 DO-NOT-MERGE: mptcp: add CI support
+         cb12dd67df19bda4acb73f3c563b5d0256665a58 DO-NOT-MERGE: git markup: end common net net-next
+         072a00e2357dfe46adde37df925a509994d12b51 DO-NOT-MERGE: git markup: fixes net only
+         507f2bd608084ac35166490d710d1565fb139eac DO-NOT-MERGE: mptcp: improve code coverage for CI (net)
+         ecab330b2a530875e4b042f50f43a780068e008f DO-NOT-MERGE: mptcp: enabled by default (net)
          
