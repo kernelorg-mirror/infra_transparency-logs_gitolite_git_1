@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6008134655943226118=="
+Content-Type: multipart/mixed; boundary="===============5894363583979359539=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Mon, 23 Mar 2026 09:00:39 -0000
-Message-Id: <177425643946.1191543.4201393757063226258@gitolite.kernel.org>
+Date: Mon, 23 Mar 2026 09:00:48 -0000
+Message-Id: <177425644824.1191761.4932040988304925911@gitolite.kernel.org>
 
---===============6008134655943226118==
+--===============5894363583979359539==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/tty
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/tty-linus
-    old: 5eb608319bb56464674a71b4a66ea65c6c435d64
-    new: c369299895a591d96745d6492d4888259b004a9e
-    log: revlist-5eb608319bb5-c369299895a5.txt
+  - ref: refs/heads/tty-next
+    old: eb3b0d92c9c39890592cca6647601fe5c631efea
+    new: 6872c84dc6f5d18e02ebc34b257f4152895e236c
+    log: revlist-eb3b0d92c9c3-6872c84dc6f5.txt
 
---===============6008134655943226118==
+--===============5894363583979359539==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1774256420 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1774256425 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1774256436-b731c438ae7b76a243a87b21622df4877543f0e5
+nonce 1774256444-18758d3ed12f5119eaa21c3e3c5edc74bc84b2d1
 
-5eb608319bb56464674a71b4a66ea65c6c435d64 c369299895a591d96745d6492d4888259b004a9e refs/heads/tty-linus
+eb3b0d92c9c39890592cca6647601fe5c631efea 6872c84dc6f5d18e02ebc34b257f4152895e236c refs/heads/tty-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmnBASQbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+4jIQALKWH304/JvI1dppC8dN
-IwqA2SIlUOucbtLk01bu6WS65R+uI2QfMpmoqm+l80iWEMOgB3hSD6n8LQtHrRLI
-FWuFj8gmGg9L4Qmc/konn6JBedbeCMyfX8jNtKDWN80QvvHj0QO9Efa2B5Fl7E6t
-T8SjDCwIxW6SOduILa/cpXEjXS7PsEDBj0l2dfAA/92AjZmfJXqFAn1Zd6HC7X0Z
-jzQVOzQRwd+ctJQV2D0PAowraRdAAXHjVIEXVBPzJ8ga9RmLc7IPX0BayyfcOT64
-uwZnHZsGhYlROyYno1EXvPt0f4zCCaPRGDcjYiyr7WoNxVU5cBbHMUMJ/NjTr18J
-VdrPzZKzociQ3GMn+TbGZCCL0hOE5N7E0EhtvKQkoJvtNDiUf8HIjO9+uFnt8xgT
-sWNCCYtc6wQz9dZX6JmiwLgixHRwR5BYgmZjHjGJ8PmxxA4QfP1fXJA/EnSjQqEF
-OS1p2NemI5jCIvGSQwT82BFOmAHKIu8oJqEieh6kopGJdsHY4bW4SBMGzoLJKCXE
-p/SreNXIuSA0tbAK5mF5Dbhxg4WEKNMVdAACHOSbsOnRqWaOd1ObsVQryTUkCrCK
-2hf25N9olGKXpJrlKQ/KZcDpWGQqGGTkZXpHihyAILeF2ifW1hJhE8lDrCqCbJUE
-CZcH3RTa5HK8bMWw4AfcMFzc
-=L26O
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmnBASkbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+neoQALpUjjJyx3sYfD81Yxp1
+kK0qOGT62O51yjxWj/jKaMvsJXt3VeBsRtPNCvR3CPDbl3JT60wp+e3Xxj8UCJcJ
+BpWMgNTdFboHA9k/ZzRwfIOg4U7msP77lYdrXuakSRI5cN3HFZ/NmIdXmNIfk/K2
+mQeQQ0NwKxD++pdiZ7uHsovCryS1ZoC1efnrZmGH+hRpeh+PEkT/2TKShxf+kRug
+ra437BcN6DFtx/2po5Fl/SskswBYSwlU0cYkxak29/58WhffPbUOMvFO4rZeH860
++dnnYJ8H2u0Y0yayM86MJHmHT22h2OmuFS+kH0p9ODRewaOyNlOprayTivNIAf4l
+wyzCb2F7ZYiO4WvqP3kIcI66ZaLzHiPFVH9z/JTkSMTUma02Nn0ftYF0Q0bmTvsH
+DqqbrQT5SYJjV21DZkTVCRFAHlbsDiLuFy6/wy2M2pxYqPvfQvJCBdeucFr1md+v
+x6js/6ESu8w6narc0N3iR0Hs/9k7Hf6tah9jnMFj9cL608JGbxjJM6d+/24kJlrB
+3QWEjiTjLDuBRGEX3SKThAp/CZaYDeiUdy+3W/rOiOjONMr8WS+0IvLFIGfXHSJ1
+HI56KLeTbWZVj9j14aJtEt0ko2HntBxaiIzRwZFAis9Kuzu9aIXcns4u1Zdbv8vQ
+nZuz32SanijYGH1Y5khEUImk
+=OXto
 -----END PGP SIGNATURE-----
 
---===============6008134655943226118==
+--===============5894363583979359539==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5eb608319bb5-c369299895a5.txt
+Content-Disposition: attachment; filename=revlist-eb3b0d92c9c3-6872c84dc6f5.txt
 
 da142f3d373a6ddaca0119615a8db2175ddc4121 KVM: Remove subtle "struct kvm_stats_desc" pseudo-overlay
 5a741f8cc6fe62542f955cd8d24933a1b6589cbd soc: microchip: mpfs: Fix memory leak in mpfs_sys_controller_probe()
@@ -620,6 +620,18 @@ e7fcc54524f04e42641de99028edd9c69dc19f8c perf/x86/intel: Fix OMR snoop informati
 1965445e13c09b79932ca8154977b4408cb9610c HID: appletb-kbd: add .resume method in PM
 b22c526569e6af84008b674e66378e771bfbdd94 pmdomain: mediatek: Fix power domain count
 592c61f3bfceaa29f8275696bd67c3dfad7ef72e rust: kbuild: allow `unused_features`
+a424a34b8faddf97b5af41689087e7a230f79ba7 serial: 8250: Fix TX deadlock when using DMA
+24b98e8664e157aff0814a0f49895ee8223f382f serial: 8250: always disable IRQ during THRE test
+d54801cd509515f674a5aac1d3ea1401d2a05863 serial: uartlite: fix PM runtime usage count underflow on probe
+455ce986fa356ff43a43c0d363ba95fa152f21d5 serial: core: fix infinite loop in handle_tx() for PORT_UNKNOWN
+9c0072bc33d349c83d223e64be30794e11938a6b serial: 8250_pci: add support for the AX99100
+59a33d83bbe6d73d2071d7ae21590b29faed0503 serial: 8250: Protect LCR write in shutdown
+8002d6d6d0d8a36a7d6ca523b17a51cb0fa7c3c3 serial: 8250_dw: Avoid unnecessary LCR writes
+8324a54f604da18f21070702a8ad82ab2062787b serial: 8250: Add serial8250_handle_irq_locked()
+883c5a2bc934c165c4491d1ef7da0ac4e9765077 serial: 8250_dw: Rework dw8250_handle_irq() locking and IIR handling
+73a4ed8f9efaaaf8207614ccc1c9d5ca1888f23a serial: 8250_dw: Rework IIR_NO_INT handling to stop interrupt storm
+e0a368ae79531ff92105a2692f10d83052055856 serial: 8250: Add late synchronize_irq() to shutdown to handle DW UART BUSY
+a7b9ce39fbe4ae2919fe4f7ac16c293cb6632d30 serial: 8250_dw: Ensure BUSY is deasserted
 c2c185be5c85d37215397c8e8781abf0a69bec1f io_uring/kbuf: check if target buffer list is still legacy on recycle
 c38b8f5f791ecce13ab77e2257f8fd2444ba80f6 net: prevent NULL deref in ip[6]tunnel_xmit()
 d2ea4ff1ce50787a98a3900b3fb1636f3620b7cf KVM: selftests: Verify SEV+ guests can read and write EFER, CR0, CR4, and CR8
@@ -655,6 +667,7 @@ e1f0a18c9564cdb16523c802e2c6fe5874e3d944 net/rose: fix NULL pointer dereference 
 8431c602f551549f082bbfa67f3003f2d8e3e132 ip_tunnel: adapt iptunnel_xmit_stats() to NETDEV_PCPU_STAT_DSTATS
 99600f79b28c83c68bae199a3d8e95049a758308 mpls: add missing unregister_netdevice_notifier to mpls_init
 82f73ef9c41e0623e0a8bdce4fa44a7237709f0c powerpc/iommu: fix lockdep warning during PCI enumeration
+5eb608319bb56464674a71b4a66ea65c6c435d64 vt: save/restore unicode screen buffer for alternate screen
 560f763baa0f2c9a44da4294c06af071405ac46f lib/bootconfig: check bounds before writing in __xbc_open_brace()
 1120a36bb1e9b9e22de75ecb4ef0b998f73a97f1 lib/bootconfig: fix snprintf truncation check in xbc_node_compose_key_after()
 e2715ea5fb352cd43fce437b91aa0fd50aaaf384 bootconfig: Add bootconfig tests about braces
@@ -979,5 +992,6 @@ ac57fa9faf716c6a0e30128c2c313443cf633019 Merge tag 'trace-v7.0-rc4' of git://git
 d5273fd3ca0bf0b59fff49fb59237440998fbec8 Merge tag 'bpf-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf
 ec69c9e88315c4be70c283f18c2ff130da6320b5 i2c: tegra: Don't mark devices with pins as IRQ safe
 c369299895a591d96745d6492d4888259b004a9e Linux 7.0-rc5
+6872c84dc6f5d18e02ebc34b257f4152895e236c Merge 7.0-rc5 into tty-next
 
---===============6008134655943226118==--
+--===============5894363583979359539==--
