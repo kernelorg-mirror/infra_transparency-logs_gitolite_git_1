@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1221521490303504791=="
+Content-Type: multipart/mixed; boundary="===============4286689859816765483=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-Date: Mon, 23 Mar 2026 12:49:39 -0000
-Message-Id: <177427017969.1387058.7033136956441745212@gitolite.kernel.org>
+Date: Mon, 23 Mar 2026 12:50:09 -0000
+Message-Id: <177427020970.1389531.7442246282634049711@gitolite.kernel.org>
 
---===============1221521490303504791==
+--===============4286689859816765483==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,32 +16,32 @@ repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
 user: ij
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/review-ilpo-fixes
+  - ref: refs/heads/fixes
     old: 58a1bf172388b07a6fa2bd35c27d6cd68bcc3905
     new: e02ea3ae8ee40d5835a845884c7b161a27c10bcb
     log: revlist-58a1bf172388-e02ea3ae8ee4.txt
 
---===============1221521490303504791==
+--===============4286689859816765483==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1774270176 +0200
+pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1774270206 +0200
 pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86.git
-nonce 1774270176-113499f6fbbfcf175bfad259bc0a93d0bdefeead
+nonce 1774270205-0c4fed894962f231428cce9f98f180c73d2c58f8
 
-58a1bf172388b07a6fa2bd35c27d6cd68bcc3905 e02ea3ae8ee40d5835a845884c7b161a27c10bcb refs/heads/review-ilpo-fixes
+58a1bf172388b07a6fa2bd35c27d6cd68bcc3905 e02ea3ae8ee40d5835a845884c7b161a27c10bcb refs/heads/fixes
 -----BEGIN PGP SIGNATURE-----
 
-iHUEABYIAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCacE25wAKCRBZrE9hU+XO
-MW7eAQD9TJYKxyWodiAtY+FIvRaDCzME2LfYVf8SpSOMAOpJsQD8DcfdxNTpG/s+
-tvfCvQy8QZnh29Tj4gKuXam9nhULJgo=
-=LvTF
+iHUEABYIAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCacE3BQAKCRBZrE9hU+XO
+MUPwAQCUWg3ael2VfII/exCDFMpbZDr2lapTxhujOPu8cRKMcgEA3gVmAJypeXJd
+gWtBYTKr9n/hQ4k5t0Ib5lHYknmo5wA=
+=u66w
 -----END PGP SIGNATURE-----
 
---===============1221521490303504791==
+--===============4286689859816765483==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -61,4 +61,4 @@ d2723918d51b238b42efcaac553697aa84f15232 platform/x86: asus-armoury: add support
 8a243d972aff2e0b0141048a3feaf3b13d78985c platform/x86: asus-armoury: add support for GZ302EA and GZ302EAC
 e02ea3ae8ee40d5835a845884c7b161a27c10bcb platform/x86: intel-hid: disable wakeup_mode during hibernation
 
---===============1221521490303504791==--
+--===============4286689859816765483==--
