@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5676332059092908984=="
+Content-Type: multipart/mixed; boundary="===============5922811049059484137=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux
-Date: Mon, 23 Mar 2026 22:33:55 -0000
-Message-Id: <177430523564.1893035.18253339414222726270@gitolite.kernel.org>
+Date: Mon, 23 Mar 2026 22:34:08 -0000
+Message-Id: <177430524854.1893371.11714948798340097355@gitolite.kernel.org>
 
---===============5676332059092908984==
+--===============5922811049059484137==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/axboe/linux
 user: axboe
 changes:
-  - ref: refs/heads/for-7.1/io_uring
-    old: 3515a2aedcdf459fc851df40a3712fc4a9a060f7
-    new: 623a6d44981f78d7f3391a59d62ae8b55f694850
-    log: revlist-3515a2aedcdf-623a6d44981f.txt
+  - ref: refs/heads/for-next
+    old: e7cbe110ab3c38b07e5bed91808b7f6a2c328ad6
+    new: c9b52ecfb0fb065ed54220936975172bb188d6c8
+    log: revlist-e7cbe110ab3c-c9b52ecfb0fb.txt
 
---===============5676332059092908984==
+--===============5922811049059484137==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3515a2aedcdf-623a6d44981f.txt
+Content-Disposition: attachment; filename=revlist-e7cbe110ab3c-c9b52ecfb0fb.txt
 
 fda90d43f4fac7c0ee56a71c5a9a563bd57dcd96 io_uring/zcrx: return back two step unregistration
 234fe7bc53d8b2b37bf26a1392020e5b7b58c7d1 io_uring/zcrx: fully clean area on error in io_import_umem()
@@ -42,5 +42,6 @@ d2df9b6808abcc46cec4122457693001436e06e7 io_uring/zcrx: warn on a repeated area 
 edec451ccfce61291588163f2f8f7e9ed46bb119 io_uring/zcrx: cache fallback availability in zcrx ctx
 49105528107676a49e5d5a50fa865781986a7c61 io_uring/zcrx: check ctrl op payload struct sizes
 623a6d44981f78d7f3391a59d62ae8b55f694850 io_uring/zcrx: rename zcrx [un]register functions
+c9b52ecfb0fb065ed54220936975172bb188d6c8 Merge branch 'for-7.1/io_uring' into for-next
 
---===============5676332059092908984==--
+--===============5922811049059484137==--
