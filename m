@@ -1,20 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
-Date: Mon, 23 Mar 2026 04:31:07 -0000
-Message-Id: <177424026743.928597.10228563669983047897@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netfilter/nf
+Date: Mon, 23 Mar 2026 04:40:08 -0000
+Message-Id: <177424080857.935812.779522356246001812@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/xiang/erofs-utils
-user: xiang
+repo: pub/scm/linux/kernel/git/netfilter/nf
+user: fwestphal
 changes:
-  - ref: refs/heads/dev
-    old: 8a7f31d811209b5f6c9bdd8b9dc14dd607db2d61
-    new: b0df634780792cf3678a317b349ddc090d5e8daa
+  - ref: refs/heads/testing
+    old: c976a6d4e0e24041072d56eb2a17612160863254
+    new: 6b931c508b3e541c293deeca3d0189ff5f5b40d3
     log: |
-         508b1a92e5475f5af56b381b09431f62351c9915 erofs-utils: fuse: add missing return on getattr error
-         b0df634780792cf3678a317b349ddc090d5e8daa erofs-utils: lib: fix gzran builder memory leak
+         988cff008e9aae9c39f0db10e797a59d98ef61ad netfilter: nf_conntrack_expect: honor expectation helper field
+         18155a718d361fd663faec619aab27ab6e3814cb netfilter: nf_conntrack_expect: use expect->helper
+         55ded7aac324b8628ebde095b87d13449f132133 netfilter: ctnetlink: ensure safe access to master conntrack
+         56a72b3817685bbb82125c60f7ac9d468dcbc004 netfilter: nf_conntrack_expect: store netns and zone in expectation
+         6b931c508b3e541c293deeca3d0189ff5f5b40d3 netfilter: nf_conntrack_expect: skip expectations in other netns via proc
          
