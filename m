@@ -1,28 +1,32 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Mon, 23 Mar 2026 22:01:06 -0000
-Message-Id: <177430326648.1867103.13433014086774981792@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Mon, 23 Mar 2026 22:01:28 -0000
+Message-Id: <177430328800.1867503.14314020777282915273@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/spi
 user: broonie
 changes:
   - ref: refs/heads/for-linus
-    old: 2594196f4e3bd70782e7cf1e22e3e398cdb74f78
-    new: 5a184f1cb43a8e035251c635f5c47da5dc3e3049
+    old: a42c9b8b0c00ecd9b7467844f2fbfc766898bf54
+    new: 63542bb402b7013171c9f621c28b609eda4dbf1f
     log: |
-         5a184f1cb43a8e035251c635f5c47da5dc3e3049 ASoC: Intel: catpt: Fix the device initialization
+         63542bb402b7013171c9f621c28b609eda4dbf1f spi: meson-spicc: Fix double-put in remove path
          
   - ref: refs/heads/for-next
-    old: e85939949484636cbbfc29be625a9ee199b2a079
-    new: a633fa957e76c433bda7666fcfa4ffb46f518033
+    old: 6e9bd866b9d9ad0223fd438ef848fae43963bee8
+    new: bc2eb92d7703eabab7884a650efd1a42ed361342
     log: |
-         5a184f1cb43a8e035251c635f5c47da5dc3e3049 ASoC: Intel: catpt: Fix the device initialization
-         d57fe7b02072ad04a41517e40c737ed7c11f4520 ASoC: generic: update outdated comment for removed soc_bind_dai_link()
-         1001b4735137894a6bd7b5bf73375cfa27b6125e ASoC: soc-topology: fix __le32 conversion in printed values
-         a633fa957e76c433bda7666fcfa4ffb46f518033 Merge remote-tracking branch 'asoc/for-7.1' into asoc-next
+         a37fb5166be943fa78962f77db00ce5a25366e87 spi: pl022: update outdated references to pump_transfers()
+         63542bb402b7013171c9f621c28b609eda4dbf1f spi: meson-spicc: Fix double-put in remove path
+         e532e21a246d3fde56b7c74d6f730a16291cc96e spi: bcm63xx-hsspi: Simplify clock handling with devm_clk_get_enabled()
+         8b237cb10e32791e53a13c3e96e88683a736094a spi: bcmbca-hsspi: Simplify clock handling with devm_clk_get_enabled()
+         140039c23aca067b9ff0242e3c0ce96276bb95f3 spi: sifive: Simplify clock handling with devm_clk_get_enabled()
+         7da637804805cee6899c9a682227f328e94822a5 spi: stm32: Simplify clock handling with devm_clk_get_enabled()
+         ea0e916de13426dc62fc349f80bf5326adb17cea spi: sunplus-sp7021: Simplify clock handling with devm_clk_get_enabled()
+         bc2eb92d7703eabab7884a650efd1a42ed361342 Merge remote-tracking branch 'spi/for-7.1' into spi-next
          
