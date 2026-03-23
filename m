@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/network/ethtool/ethtool
-Date: Mon, 23 Mar 2026 22:16:18 -0000
-Message-Id: <177430417865.1879759.1677234968718675011@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rcu/linux
+Date: Mon, 23 Mar 2026 22:16:46 -0000
+Message-Id: <177430420625.1880213.383540597312209781@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/network/ethtool/ethtool
-user: mkubecek
+repo: pub/scm/linux/kernel/git/rcu/linux
+user: boqun
 changes:
-  - ref: refs/heads/master
-    old: 8bb78214bdd3e71e7a9eb6cd06182812a90bf301
-    new: 40d272752bb469263adcb92c9d507471946ca7f6
+  - ref: refs/heads/fixes.v7.0-rc4
+    old: e3b91cd13249d58d51a68917332bee076b3689fc
+    new: d0f816d5e872acca849df62f53cb732282136931
     log: |
-         40d272752bb469263adcb92c9d507471946ca7f6 cmis: Fix incorrect LSB field used for wavelength tolerance
+         6b7fc20ab878839477196fd12116e6f640bf05cc srcu: Push srcu_node allocation to GP when non-preemptible
+         d0f816d5e872acca849df62f53cb732282136931 rcu: Use an intermediate irq_work to start process_srcu()
          
