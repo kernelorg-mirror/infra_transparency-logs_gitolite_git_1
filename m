@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7684524447270334437=="
+Content-Type: multipart/mixed; boundary="===============5645630295209764141=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Mon, 23 Mar 2026 17:56:17 -0000
-Message-Id: <177428857721.1660171.3945118805296525062@gitolite.kernel.org>
+Date: Mon, 23 Mar 2026 17:56:20 -0000
+Message-Id: <177428858044.1660335.10456090192069474689@gitolite.kernel.org>
 
---===============7684524447270334437==
+--===============5645630295209764141==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/10GbE
+  - ref: refs/heads/40GbE
     old: 7ab4a7c5d969642782b8a5b608da0dd02aa9f229
     new: bc0151c59e639c1311ee573434af74b4e2c81de4
     log: revlist-7ab4a7c5d969-bc0151c59e63.txt
 
---===============7684524447270334437==
+--===============5645630295209764141==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -535,4 +535,4 @@ cbfa5be2bf64511d49b854a0f9fd6d0b5118621f net: bcmasp: fix double free of WoL irq
 27dfe9030acbc601c260b42ecdbb4e5858a97b53 net: bcmasp: fix double disable of clk
 bc0151c59e639c1311ee573434af74b4e2c81de4 Merge branch 'net-bcmasp-fix-issues-during-driver-unbind'
 
---===============7684524447270334437==--
+--===============5645630295209764141==--
