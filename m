@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8551391853387102624=="
+Content-Type: multipart/mixed; boundary="===============8142572531713725036=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Mon, 23 Mar 2026 18:13:28 -0000
-Message-Id: <177428960846.1676232.4816364723815493405@gitolite.kernel.org>
+Date: Mon, 23 Mar 2026 18:13:31 -0000
+Message-Id: <177428961178.1676380.10508958285010404303@gitolite.kernel.org>
 
---===============8551391853387102624==
+--===============8142572531713725036==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/10GbE
+  - ref: refs/heads/40GbE
     old: 9ac76f3d0bb2940db3a9684d596b9c8f301ef315
     new: fb78a629b4f0eb399b413f6c093a3da177b3a4eb
     log: revlist-9ac76f3d0bb2-fb78a629b4f0.txt
 
---===============8551391853387102624==
+--===============8142572531713725036==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -635,4 +635,4 @@ abdf5133bfa12c45d402f7b73d39bca772f3644a netdevsim: support tc-ets offload
 5754a1c9f9b6e298791c4bb34263f37dfe93ee35 tc-testing: add a test case for ETS offload
 fb78a629b4f0eb399b413f6c093a3da177b3a4eb Merge branch 'netdevsim-support-ets-offload'
 
---===============8551391853387102624==--
+--===============8142572531713725036==--
