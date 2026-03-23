@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7180184172692799050=="
+Content-Type: multipart/mixed; boundary="===============8099624504394008275=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Mon, 23 Mar 2026 00:56:55 -0000
-Message-Id: <177422741570.759675.7250389636154190800@gitolite.kernel.org>
+Date: Mon, 23 Mar 2026 00:58:38 -0000
+Message-Id: <177422751884.760453.7542545046229400658@gitolite.kernel.org>
 
---===============7180184172692799050==
+--===============8099624504394008275==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/cel/linux
 user: cel
 changes:
-  - ref: refs/heads/master
-    old: f338e77383789c0cae23ca3d48adcc5e9e137e3c
-    new: c369299895a591d96745d6492d4888259b004a9e
-    log: revlist-f338e7738378-c369299895a5.txt
+  - ref: refs/heads/nfsd-next
+    old: 084a0939af2b80bbaaaacf399e36521d9acefdaf
+    new: be7c1b85a7498f21e82995e6a3bb1ed9c2970766
+    log: revlist-084a0939af2b-be7c1b85a749.txt
 
---===============7180184172692799050==
+--===============8099624504394008275==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f338e7738378-c369299895a5.txt
+Content-Disposition: attachment; filename=revlist-084a0939af2b-be7c1b85a749.txt
 
 5a741f8cc6fe62542f955cd8d24933a1b6589cbd soc: microchip: mpfs: Fix memory leak in mpfs_sys_controller_probe()
 ff4b6bf7eef4f5b921eed78f2816abcc55bcdd68 riscv: dts: microchip: add can resets to mpfs
@@ -417,5 +417,81 @@ ac57fa9faf716c6a0e30128c2c313443cf633019 Merge tag 'trace-v7.0-rc4' of git://git
 d5273fd3ca0bf0b59fff49fb59237440998fbec8 Merge tag 'bpf-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf
 ec69c9e88315c4be70c283f18c2ff130da6320b5 i2c: tegra: Don't mark devices with pins as IRQ safe
 c369299895a591d96745d6492d4888259b004a9e Linux 7.0-rc5
+b403cc2fd5d2fd49995c986c2118fc9aab0950ce nfsd/sunrpc: add svc_rqst->rq_private pointer and remove rq_lease_breaker
+f2d568cf8bec3b6be5cb27dd7da6ecf5390a88dd nfsd/sunrpc: move rq_cachetype into struct nfsd_thread_local_info
+618d7666c78440bc939a182fa905d8c1cd1b3422 sunrpc/cache: improve RCU safety in cache_list walking.
+e6db30d62f51e8e97afee82310de449863d78a7c NFSD: Track SCSI Persistent Registration Fencing per Client with xarray
+fd269a68707c9b0dda5b5389bd3360141aa1012c SUNRPC: Replace KUnit tests for memcmp() with KUNIT_EXPECT_MEMEQ_MSG()
+cb52fdfb0be5a82a123b6851ef7356649017b850 nfsd: add a runtime switch for disabling delegated timestamps
+8ab0a0bf564e9fce9d8a35682601ba8c854479a3 nfsd: remove NFSD_V4_DELEG_TIMESTAMPS Kconfig option
+2462022c1e84b0a73ebc4232ca46c0a897ec34f6 lockd: Simplify cast_status() in svcproc.c
+bb264ab3169f522dd562373a151d91aadfab3705 lockd: Relocate and rename nlm_drop_reply
+0d443dbe842d2a5d610e3b8ceff9ebc6bbe6ce0b lockd: Introduce nlm__int__deadlock
+09974797918177480d6386cf1cc02046f93fd9dc lockd: Have nlm_fopen() return errno values
+9fd68fa75ea2d0361d5fc67775383fd86aad624c lockd: Relocate nlmsvc_unlock API declarations
+81832401124bfaea29864f08b29f9389addeb0e9 NFS: Use nlmclnt_shutdown_rpc_clnt() to safely shut down NLM
+b25265dff1ed414e77764df621f7455168858666 lockd: Move xdr4.h from include/linux/lockd/ to fs/lockd/
+455aaf1b8cce034e661fd131ecc965b3693a610a lockd: Move share.h from include/linux/lockd/ to fs/lockd/
+3b5ea9beabf94d83bfa7f49f68c4e84b3956b38f lockd: Relocate include/linux/lockd/lockd.h
+16cca6b7ed588e65d1f9f19f8ecd728b7f007603 lockd: Remove lockd/debug.h
+2cda8c89881f7c1ca3f0dc616d06913e7c61f3f3 lockd: Move xdr.h from include/linux/lockd/ to fs/lockd/
+0e39d16cda829d43dc62d72b42ef8f41c76cec75 lockd: Make linux/lockd/nlm.h an internal header
+ed8c6ee3c59c66b607693a2bb1534fe05c11d9df lockd: Move nlm4svc_set_file_lock_range()
+53da4b656e83d3c04a0d75879f44d86ae9425fbb lockd: Relocate svc_version definitions to XDR layer
+adb945aff114a3e743e755a7cb84669e5dfc6db9 nfs/blocklayout: Fix compilation error (`make W=1`) in bl_write_pagelist()
+cd4bc3c55840465653522f6cd10866f5b5247a56 sunrpc: Kill RPC_IFDEBUG()
+702359b27ffb46e428cb8c4f52830eb587a4b8ad sunrpc: Fix compilation error (`make W=1`) when dprintk() is no-op
+d452e1c07e4dcb04505c58bcc1bc6ed8037a1475 NFSD: fix nfs4_file access extra count in nfsd4_add_rdaccess_to_wrdeleg
+68f5494bba34805f148c78c6f6661bf35b8d6631 NFSD: Enforce timeout on layout recall and integrate lease manager fencing
+a1499d445c31db102e5fff83c2b9f23c1eaa989a Documentation: Add the RPC language description of NLM version 4
+a819e2240090ecc1771357bbbc0f985826829168 lockd: Use xdrgen XDR functions for the NLMv4 NULL procedure
+e0975c0883d85464f992ff7cdbd60203f6f85295 lockd: Use xdrgen XDR functions for the NLMv4 TEST procedure
+51b539b7e0d721666737eddd8fe87bac9a93d20a lockd: Use xdrgen XDR functions for the NLMv4 LOCK procedure
+b338865ad512c701ed5d20c75a63fef5d52c84bf lockd: Use xdrgen XDR functions for the NLMv4 CANCEL procedure
+129071dcd708deb52e88348633ebefd025f3610b lockd: Use xdrgen XDR functions for the NLMv4 UNLOCK procedure
+7a9f7c8f934ee9cd53024dc6ae73290950ebd312 lockd: Use xdrgen XDR functions for the NLMv4 GRANTED procedure
+09604db425e1b45f03cc55f90ee9aabac641c5c4 lockd: Refactor nlm4svc_callback()
+1172b6a79c833e9562c200adf078e8de63b79911 lockd: Use xdrgen XDR functions for the NLMv4 TEST_MSG procedure
+ee99036444220bf819b372bc9bf1f6026480e3ab lockd: Use xdrgen XDR functions for the NLMv4 LOCK_MSG procedure
+9d5660ade255a1db96618024c7f27132cf1dd6fa lockd: Use xdrgen XDR functions for the NLMv4 CANCEL_MSG procedure
+d3f87023c633a337ab5e9dc0e58743b10d65ee37 lockd: Use xdrgen XDR functions for the NLMv4 UNLOCK_MSG procedure
+f9d064f9d04b4c99f0e587be2983691e9863a152 lockd: Use xdrgen XDR functions for the NLMv4 GRANTED_MSG procedure
+7e008c2be2b57541106c017949ba98eabfdbc13a lockd: Use xdrgen XDR functions for the NLMv4 TEST_RES procedure
+e82ff97347f05b694ea8a9c07d8f3f34c3f72f26 lockd: Use xdrgen XDR functions for the NLMv4 LOCK_RES procedure
+5ffba0a9ead88d52a486af6ca3cff4375484d6e8 lockd: Use xdrgen XDR functions for the NLMv4 CANCEL_RES procedure
+ee53869357b55a4877f1e819e454925b3a2015c7 lockd: Use xdrgen XDR functions for the NLMv4 UNLOCK_RES procedure
+366b5b343ad4ab77eaf8859203d2982350bc1464 lockd: Use xdrgen XDR functions for the NLMv4 GRANTED_RES procedure
+2dd7a6651536a6393482e1249c0dc699dd991969 lockd: Use xdrgen XDR functions for the NLMv4 SM_NOTIFY procedure
+c5739facc8bf74942c9ed026def5ad9a304a717b lockd: Convert server-side undefined procedures to xdrgen
+351f38d844ca86b1c445bd86a93371f5bf7a7327 lockd: Hoist file_lock init out of nlm4svc_decode_shareargs()
+2814c5684bc8dfab69bc705b303e4720388bab57 lockd: Prepare share helpers for xdrgen conversion
+024325873280dbb12fd27f06bf1608bf8e69f4cd lockd: Use xdrgen XDR functions for the NLMv4 SHARE procedure
+fd3935eca88cce722f2f5ab3916c7ceef4afba21 lockd: Use xdrgen XDR functions for the NLMv4 UNSHARE procedure
+6f2bf70c313f1c1554f65376262ff8e4b0f939f1 lockd: Use xdrgen XDR functions for the NLMv4 NM_LOCK procedure
+95f01a37ce2323d3e06fb4c62c94be0bb25620e2 lockd: Use xdrgen XDR functions for the NLMv4 FREE_ALL procedure
+976391f249dbf4bcc67b8b61e8922afd63ca1446 lockd: Add LOCKD_SHARE_SVID constant for DOS sharing mode
+850486d467736733cf4f8f3fecba856b0d31387b lockd: Remove C macros that are no longer used
+b68796e45efcf748df9bac5c30fa8d2854c24a1b lockd: Remove dead code from fs/lockd/xdr4.c
+8ff4f6ca49e13d180ee33764377098a87f340d70 sunrpc: Add XPT flags missing from SVC_XPRT_FLAG_LIST
+1afe717f65812f2510c0d2086f7f24425b239e54 sunrpc: convert queue_lock from global spinlock to per-cache-detail lock
+ddb8b022eb16dc538de0d53594798e0346443685 sunrpc: convert queue_wait from global to per-cache-detail waitqueue
+b92f2e6e825a37eaee57bf5ec24cd1cfd6a5f23d sunrpc: split cache_detail queue into request and reader lists
+efd97c23db584688e431e43305fc50e08f1713fd nfsd: convert global state_lock to per-net deleg_lock
+7f112fa7236205e1d7af91fe78b0e77ea11a5abc nfsd: use dynamic allocation for oversized NFSv4.0 replay cache
+6d38108f5f4bc2c79cf14e7901190528e469a55d NFSD: Add a key for signing filehandles
+7a306391acaeb5710ef5cd8440afe3d438143a0b NFSD/export: Add sign_fh export option
+d32f4df8a87534e54d222a65f4e03824fb624828 NFSD: Sign filehandles
+835b86ba9d9f427d920b54d81ea62eb9e4f53916 SUNRPC: Tighten bounds checking in svc_rqst_replace_page
+91db64a124a19aff944df9cd966aed0a942df000 SUNRPC: Allocate a separate Reply page array
+7d7a30303ab469e5e736fc353a965392e6c0b561 SUNRPC: Handle NULL entries in svc_rqst_release_pages
+dfeddbb1be1c5dcc1ab02736debd786a6d244b13 svcrdma: preserve rq_next_page in svc_rdma_save_io_pages
+9137e5029fdeb27cdf3b900022600f67ac312ee3 SUNRPC: Track consumed rq_pages entries
+f2acc28262422930ef7fef1e3e128d1230c9bfc7 SUNRPC: Optimize rq_respages allocation in svc_alloc_arg
+2ca7711d721f3a28e0a3e4d53ae099df249d98cc svcrdma: Add fair queuing for Send Queue access
+9c325145e70b23b9b54aaf1aa87c5dccbf0902a9 svcrdma: Clean up use of rdma->sc_pd->device in Receive paths
+472d1330f03688bfe6f3140ee29f4815419dfa7b svcrdma: Clean up use of rdma->sc_pd->device
+eca704b46b6d56522ff8001d6164301d6812713a svcrdma: Add Write chunk WRs to the RPC's Send WR chain
+335900f3a6555ade8c4a9a423c6f2571af684e61 svcrdma: Factor out WR chain linking into helper
+be7c1b85a7498f21e82995e6a3bb1ed9c2970766 SUNRPC: xdr.h: fix all kernel-doc warnings
 
---===============7180184172692799050==--
+--===============8099624504394008275==--
