@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1500407849166343014=="
+Content-Type: multipart/mixed; boundary="===============6526742822066721638=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Mon, 23 Mar 2026 02:39:23 -0000
-Message-Id: <177423356335.842331.3379112845950138730@gitolite.kernel.org>
+Date: Mon, 23 Mar 2026 02:39:37 -0000
+Message-Id: <177423357745.842631.15364590111192758621@gitolite.kernel.org>
 
---===============1500407849166343014==
+--===============6526742822066721638==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: ast
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/for-next
     old: 61bc8460815956d57f3f7785e9adcdf8f1e62413
     new: bfec8e88ff6022b056615ec71506703e7e54de82
     log: revlist-61bc84608159-bfec8e88ff60.txt
 
---===============1500407849166343014==
+--===============6526742822066721638==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -963,4 +963,4 @@ ec69c9e88315c4be70c283f18c2ff130da6320b5 i2c: tegra: Don't mark devices with pin
 c369299895a591d96745d6492d4888259b004a9e Linux 7.0-rc5
 bfec8e88ff6022b056615ec71506703e7e54de82 Merge git://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf 7.0-rc5
 
---===============1500407849166343014==--
+--===============6526742822066721638==--
