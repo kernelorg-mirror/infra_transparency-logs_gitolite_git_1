@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
-Date: Mon, 23 Mar 2026 15:25:04 -0000
-Message-Id: <177427950455.1529386.16575344540866290764@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sj/hkml
+Date: Mon, 23 Mar 2026 15:27:58 -0000
+Message-Id: <177427967884.1531233.8675995364052633230@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ath/ath
-user: jjohnson
+repo: pub/scm/linux/kernel/git/sj/hkml
+user: sj
 changes:
-  - ref: refs/heads/pending
-    old: 0e8b5e73a8d52aecfdd7d68c63b3d6d205b0ca32
-    new: 9d9fc756af9b2c25daf928972d9109a67a7c9b9a
+  - ref: refs/heads/master
+    old: e5cf37ce716e8da6e0f309a9145d8099da1088c8
+    new: 2fdb1124b9a311df332b11fc0a31df93f4f99432
     log: |
-         9d9fc756af9b2c25daf928972d9109a67a7c9b9a wifi: ath12k: Pass the correct value of each TID during a stop AMPDU session
+         2fdb1124b9a311df332b11fc0a31df93f4f99432 hkml_view_mails: disable live replies on list feature
          
