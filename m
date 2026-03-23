@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3516632688489269478=="
+Content-Type: multipart/mixed; boundary="===============2864770349584251218=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
-Date: Mon, 23 Mar 2026 00:09:18 -0000
-Message-Id: <177422455842.718468.15697731187264999504@gitolite.kernel.org>
+Date: Mon, 23 Mar 2026 00:09:58 -0000
+Message-Id: <177422459832.718858.8833991228928768757@gitolite.kernel.org>
 
---===============3516632688489269478==
+--===============2864770349584251218==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/kdave/linux
 user: kdave
 changes:
-  - ref: refs/heads/next-fixes
-    old: 5ab457dd266afee9af7504941d846323249a6561
-    new: c369299895a591d96745d6492d4888259b004a9e
-    log: revlist-5ab457dd266a-c369299895a5.txt
+  - ref: refs/heads/for-next
+    old: 41019679bc4f7ed6b072a83ba264908bc88752dd
+    new: a60530451d0f750d7bbb332811da05c204b3fbfd
+    log: revlist-41019679bc4f-a60530451d0f.txt
 
---===============3516632688489269478==
+--===============2864770349584251218==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5ab457dd266a-c369299895a5.txt
+Content-Disposition: attachment; filename=revlist-41019679bc4f-a60530451d0f.txt
 
 5a741f8cc6fe62542f955cd8d24933a1b6589cbd soc: microchip: mpfs: Fix memory leak in mpfs_sys_controller_probe()
 ff4b6bf7eef4f5b921eed78f2816abcc55bcdd68 riscv: dts: microchip: add can resets to mpfs
@@ -190,7 +190,6 @@ ba3402f6c85bbeee5c11732c3aa4050a717e8f8f spi: geni-qcom: Fix CPHA and CPOL mode 
 f7a4c78bfeb320299c1b641500fe7761eadbd101 HID: logitech-hidpp: Prevent use-after-free on force feedback initialisation failure
 c7feff27ea0a34540b4820abd0cdf0b5100516d4 drm/vmwgfx: fix kernel-doc warnings in vmwgfx_drv.h
 c6cb77c474a32265e21c4871c7992468bf5e7638 drm/vmwgfx: Don't overwrite KMS surface dirty tracker
-2d1373e4246da3b58e1df058374ed6b101804e07 Merge tag 'for-7.0-rc4-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
 8634e05b08ead636e926022f4a98416e13440df9 spi: fix use-after-free on controller registration failure
 dee0774bbb2abb172e9069ce5ffef579b12b3ae9 spi: fix statistics allocation
 8a91ebb337fa68e01339a8c1c411a38d66eac80e Merge tag 'mm-hotfixes-stable-2026-03-16-12-15' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
@@ -216,7 +215,17 @@ ffe6989c73b31f92a22cab1132e86545f8306d69 Merge tag 'v7.0-rockchip-drvfixes1' of 
 b0a4dba7b623aa7cbc9efcc56b4af2ec8b274f3e drm/i915/psr: Disable PSR on update_m_n and update_lrr
 7caac659a837af9fd4cad85be851982b88859484 drm/i915/psr: Compute PSR entry_setup_frames into intel_crtc_state
 76f0930d6e809234904cf9f0f5f42ee6c1dc694e irqchip/riscv-rpmi-sysmsi: Fix mailbox channel leak in rpmi_sysmsi_probe()
+50242828700f06edfa8d563f9e0acc23a59424ee btrfs: check for NULL root after calls to btrfs_extent_root()
+2b4cb4e58f3463d142fcece5a19e0405fb82c794 btrfs: check for NULL root after calls to btrfs_csum_root()
 e716edafedad4952fe3a4a273d2e039a84e8681a HID: multitouch: Check to ensure report responses match the request
+f9a4e3015db1aeafbef407650eb8555445ca943e btrfs: reserve enough transaction items for qgroup ioctls
+65ee6061388b334c341fd37c22ec9149417f6ccf btrfs: fix a bug that makes encoded write bio larger than expected
+3adf8f14152fba1cae51f9b0d3570a1da2153b16 btrfs: do not touch page cache for encoded writes
+96a2d235896b53291efc6d5c3de030e570f77070 btrfs: fix an incorrect ASSERT() condition inside zstd_decompress_bio()
+5118130e722b1261a2e92b2fb0b067463c39ecc7 btrfs: fix an incorrect ASSERT() condition inside lzo_decompress_bio()
+057495ccc0ad381015b45d3edf995c2b6b982474 btrfs: hold block group reference during entire move_existing_remap()
+adbb0ebacc3223a2dc2e58ef3d4c10f5e9653f09 btrfs: check block group before marking it unused in balance_remap_chunks()
+b17b79ff896305fd74980a5f72afec370ee88ca4 btrfs: reject root items with drop_progress and zero drop_level
 a0671125d4f55e1e98d9bde8a0b671941987e208 clsact: Fix use-after-free in init/destroy rollback asymmetry
 fe89277c9ceb0d6af0aa665bcf24a41d8b1b79cd iommu/vt-d: Fix intel iommu iotlb sync hardlockup and retry
 39c20c4e83b9f78988541d829aa34668904e54a0 iommu/vt-d: Only handle IOPF for SVA when PRI is supported
@@ -403,5 +412,104 @@ ac57fa9faf716c6a0e30128c2c313443cf633019 Merge tag 'trace-v7.0-rc4' of git://git
 d5273fd3ca0bf0b59fff49fb59237440998fbec8 Merge tag 'bpf-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf
 ec69c9e88315c4be70c283f18c2ff130da6320b5 i2c: tegra: Don't mark devices with pins as IRQ safe
 c369299895a591d96745d6492d4888259b004a9e Linux 7.0-rc5
+0908601b65ba1cf6be926b059d1704b4cf0f7d73 btrfs: tests: zoned: add tests cases for zoned code
+eed37761ca50edcf48744677ada542f84a32e8e2 btrfs: pass boolean literals as the last argument to inc_block_group_ro()
+4f4feb9b72bdb485f47a4650ef7a97bd0bfab800 btrfs: remove duplicate system chunk array max size overflow check
+abf03f959554de97e68c9419ffc110cf14ea9bdf btrfs: move min sys chunk array size check to validate_sys_chunk_array()
+67d71eadbcdcea37d9b92767d7435f9c00acf755 btrfs: zoned: remove redundant space_info lock and variable in do_allocation_zoned()
+a3d608be7ae43637263e3cf06b294aba9a8f77a2 btrfs: introduce the device layout aware per-profile available space
+af94fc7e8d01f6f8413982d7ff9ede8fd942b20e btrfs: update per-profile available estimation
+867259255053668d4abb3e9b0b32679500ff157d btrfs: use per-profile available space in calc_available_free_space()
+0dc118b3c32734a12c0a1b26485cc3dd028beb8b btrfs: be less aggressive with metadata overcommit when we can do full flushing
+90df7c8508f310c4963435d21a0f7ec8faea2b16 btrfs: don't allow log trees to consume global reserve or overcommit metadata
+3b8f1263875093bbdcd7d9e808594022df0979b9 btrfs: update comment for BTRFS_RESERVE_NO_FLUSH
+5814cb220921ab6b56c99b6382ab3b952a5de9f3 btrfs: mark all error and warning checks as unlikely in btrfs_validate_super()
+314fdd925ba201f9cabde1fa1a575a23d358636c btrfs: pass transaction handle to write_all_supers()
+15efc0b216b7c2dc55b96b878adc3b45bc6535c4 btrfs: abort transaction on error in write_all_supers()
+774b67bf8c7d4ddb3788ccf05ae49438f8c8dcb0 btrfs: tag error branches as unlikely during super block writes
+32fe810244e4bfe62b415d84aebdf4bf82a3e5da btrfs: remove max_mirrors argument from write_all_supers()
+3283e06c24060db78d529101956568ba187cd539 btrfs: set written super flag once in write_all_supers()
+af60413a23ad5a654e1bffc51062f336e6973d00 btrfs: fix the inline compressed extent check in inode_need_compress()
+5f90d6ee69adbf4713317bea33fbcee8c68b3dde btrfs: remove duplicated eb uptodate check in btrfs_buffer_uptodate()
+869a396e25dec9c8fe4ee7baac1f60ebede830f9 btrfs: zoned: cap delayed refs metadata reservation to avoid overcommit
+63b77a75bcf1ed93592a1d87dcbe4a86562c4246 btrfs: zoned: move partially zone_unusable block groups to reclaim list
+c9cea08a9db06b9113dfbbf6e9bc21845b6529cf btrfs: zoned: add zone reclaim flush state for DATA space_info
+6d04a7f5c32fa505d150860d1a74f3d8df5fd253 btrfs: use the helper extent_buffer_uptodate() everywhere
+75798f25bcb1b8650fb0f94c9439796924790c58 btrfs: remove redundant extent_buffer_uptodate() checks after read_tree_block()
+d91a7c2382ef18391a570eea83db2cdba66e93ee btrfs: avoid starting new transaction and commit in relocate_block_group()
+e1be8686bd83b2e5b622ab0bdff94570d59a5e6c btrfs: change return type of cache_save_setup to void
+240cb9db6de59317907195e9d30bbca0711cc841 btrfs: rename btrfs_ordered_extent::list to csum_list
+5b6c1b57d3af72516c4e44a63ff152da35fdfdec btrfs: make add_pending_csums() to take an ordered extent as parameter
+1038aef01ae1eae880148b64a397f41b539107bb btrfs: rename btrfs_csum_file_blocks() to btrfs_insert_data_csums()
+594799c87bd4963513a4ea2eb25cf7d49dca9c0b btrfs: remove pointless out label in qgroup_account_snapshot()
+007c4d368fcad9f9a216d71a57b07119e47b682b btrfs: pass literal booleans to functions that take boolean arguments
+bd7f0c2577a71c674de4b4ece060a78894f4e2a4 btrfs: remove duplicate include of delayed-inode.h in disk-io.c
+b53acb56733f474ff50a7a9b340b652675e6e882 btrfs: remove bogus root search condition in load_extent_tree_free()
+d448608f2dd089a739e3e386208d1ce8c13f7b50 btrfs: remove out-of-date comments in btree_writepages()
+68eb1fef357a099f198b682733517d64744ea881 btrfs: remove the btrfs_inode parameter from btrfs_remove_ordered_extent()
+eac90d81b93b253e8777971811b2c0c1051cac6f btrfs: remove folio parameter from ordered io related functions
+6ae6f53e132c7cd87085ceaed2a94d3bee7d8446 btrfs: do not mark inode incompressible after inline attempt fails
+d8fb2be275bcae8a1cc2cc74393054b6d844e8a2 btrfs: check snapshot_force_cow earlier in can_nocow_file_extent()
+b3afde826fa876324f2a20c92e3360ecc2bf87fd btrfs: fix super block offset in error message in btrfs_validate_super()
+e73efaff64b8036246b17eff98ce27bd47d8d952 btrfs: avoid unnecessary root node COW during snapshotting
+51f7bd5bc3568ff7ff9d043cf8d0ec8feb0e86b9 btrfs: constify arguments of some functions
+13d0170c96920a6a65fa0281ac5f887fcc731f26 btrfs: stop printing condition result in assertion failure messages
+b665ca59560b569026c0e7c5d75b2fa2e26fd8bc btrfs: fix zero size inode with non-zero size after log replay
+5ff218f0ce4bf4ce0e17c1c7c880fcb45e417f16 btrfs: pass a btrfs inode to tree-log.c:fill_inode_item()
+4cb1824450648dcf80271d2f10454331f092ab27 btrfs: fix placement of unlikely() in btrfs_insert_one_raid_extent()
+28aa122398cb1fe161eeff5c27a7b0916b520fc0 btrfs: remove redundant nowait check in lock_extent_direct()
+22f8c7f43ffed0d99df7b3e400683c80fb841ec8 btrfs: introduce a common helper to calculate the size of a bio
+8240c52cac122f99db65fd4c40c56cf02f06d3d2 btrfs: reduce the size of compressed_bio
+bf05649f66d82b8ab2a064be9dacb796239b5ade btrfs: do compressed bio size roundup and zeroing in one go
+9599665279d2447f0a09558196b343d130af49a5 btrfs: replace kcalloc() calls to kzalloc_objs()
+cd3cb8d44fe993031a9fa2f0e188d34bc5263dc4 btrfs: report filesystem shutdown via fserror
+5872e5b60038eea2dafa1cfb6c859acdc9acbf58 btrfs: stop checking for -EEXIST return value from btrfs_uuid_tree_add()
+a4de926c051b8d7d7adf02c980bbbbbad9fada94 btrfs: remove duplicated uuid tree existence check in btrfs_uuid_tree_add()
+e9c5b37aeeecb8abbfa97ac21ff7007e827afa42 btrfs: remove pointless error check in btrfs_check_dir_item_collision()
+ed7bc527110221423b298595960e4265f30e5443 btrfs: extract the max compression chunk size into a macro
+f9d138838a78bf2a5263ad3c1d3c05edbc0844d4 btrfs: inhibit extent buffer writeback to prevent COW amplification
+28422078ac7d30ec69fb8346de4f1eba57a3958b btrfs: add tracepoint for search slot restart tracking
+ffb3f0693e9915ea50ff08fad09264769cc6464d btrfs: fix leak of kobject name for sub-group space_info
+8c6d212ca1c723d71c7420e428e79a6774572096 btrfs: remove the alignment check in end_bbio_data_write()
+f8580dc348d260b9406f2b44d7fd14e895c60a75 btrfs: move the mapping_set_error() out of the loop in end_bbio_data_write()
+58133630c8cfba8ea06d794ab1e2b984909e519a btrfs: extract inlined creation into a dedicated delalloc helper
+01fc36284de5614c686eff76ae8cd3ff74a1540d btrfs: move reclaiming of a single block group into its own function
+d1a09f0ab28ddfc50443862a6b40fd905182a9f4 btrfs: create btrfs_reclaim_block_groups()
+5386f795bb0fb01c6f3fc155e55f72051b28786a btrfs: zoned: limit number of zones reclaimed in flush_space()
+e6e68e8912a083ee1106ad59e8152e74579128bc btrfs: tree-checker: introduce checks for FREE_SPACE_INFO
+6df38b18a5c680b78d68667fcc16e2e356da4335 btrfs: tree-checker: introduce checks for FREE_SPACE_EXTENT
+bea03d36a36e80d16287aab39edbd2df7689f269 btrfs: tree-checker: introduce checks for FREE_SPACE_BITMAP
+ffe7720184d0efd0cd0ecd1500aa4a609d6b8bdb btrfs: prefer IS_ERR_OR_NULL() over manual NULL check
+e4970f62c82581d59edd74d5285dbd1af3216dc2 btrfs: revalidate cached tree blocks on the uptodate path
+3a3c16b76b0278c5247064c0e43543263dded8d9 btrfs: check type flags in alloc_ordered_extent()
+e4b1e22d4af45cd85e9951a76637b2102c8041dc btrfs: output more info when duplicated ordered extent is found
+54a609501d46b3a0666b0929cbadbd48a3bcb3a1 btrfs: remove atomic parameter from btrfs_buffer_uptodate()
+23af8200440068ba04b51b08ebd188a0ac011c21 btrfs: zlib: handle page aligned compressed size correctly
+ada655401b4184b84a399826c97f97bc5db88158 btrfs: tracepoints: get correct superblock from dentry in event btrfs_sync_file()
+94a6623286086492ee41665cbf6cdced76ba0961 btrfs: optimize clearing all bits from the last extent record in an io tree
+6eae5511dcf1c6e62846a0fbbdf457b39a6f117a btrfs: turn extent_io_tree_panic() into a macro for better error reporting
+5e7bc0139442d448e6a1d17b8f5bd7ce83ef120c btrfs: tag as unlikely branches that call extent_io_tree_panic()
+2190f499df02fefc9d208ade51078cc128067034 btrfs: make add_extent_changeset() only return errors or success
+71bc9521d09c19ca18c249fdc9fe111c7c8d7b4d btrfs: use extent_io_tree_panic() instead of BUG_ON()
+1d91464cd70a3e9460626bd49af3afa295179316 btrfs: change last argument of add_extent_changeset() to boolean
+22590632b05b1b18f2750ee650ec362c3afd4603 btrfs: remove wake parameter from clear_state_bit()
+ca47df5783d835e69df23790e45d229ebc33b9ac btrfs: avoid unnecessary wake ups on io trees when there are no waiters
+d189e7057f095058dba3cbb3baee50f4d4c7dea8 btrfs: free cached state outside critical section in wait_extent_bit()
+ada5667ba6c79034a39aaabd5c3ab1b3e4a0be10 btrfs: panic instead of warn when splitting extent state not in the tree
+acc773cb210ea94d8162c22378bcb81926be95d0 btrfs: optimize clearing all bits from first extent record in an io tree
+7263d8945d7547090b6cedab19e77ae52ff765c3 btrfs: remove unused qgroup functions for pertrans reservation and freeing
+66889e4cedd692a06f7c0cfa35723ced09940cb7 btrfs: collapse __btrfs_qgroup_free_meta() into btrfs_qgroup_free_meta_prealloc()
+7b7e3f70d112059eb203b869c2885945eff4b6a8 btrfs: collapse __btrfs_qgroup_reserve_meta() into btrfs_qgroup_reserve_meta_prealloc()
+d15207fbb04af53911bf589594d6d33b0d3ba880 btrfs: unexport btrfs_qgroup_reserve_meta()
+469899d3509cd3498499af386fad5c7da80bb070 btrfs: decrease indentation of find_free_extent_update_loop
+24b383ef877ec3692a52edbf9531b65a3f07e4be btrfs: avoid GFP_ATOMIC allocations in qgroup free paths
+07159af0f75ba23c6e9ddab0248fa7f7f1af758e btrfs: avoid taking the device_list_mutex in btrfs_run_dev_stats()
+3d6f76c5417c4c92de7acdc5c47afef8f4817b04 btrfs: fix lost error when running device stats on multiple devices fs
+2415f36ac3be50df1750ffcc7600e556bacd51e5 btrfs: === misc-next on b-for-next ===
+d38882d4999ab9a264c4477aab435bb83b005d48 Merge branch 'misc-7.0' into for-next-current-v6.19-20260323
+8f1e70d5ba28cb7fd359bc1ce91ba9e9f3fd7870 Merge branch 'b-for-next' into for-next-next-v7.0-20260323
+423876ea8bc4b9293c2eb3a4a9dbf0057154b604 Merge branch 'misc-next' into for-next-next-v7.0-20260323
+89e2bfb98528d70e57a54bc09a70378d4ae36a4b Merge branch 'for-next-current-v6.19-20260323' into for-next-20260323
+a60530451d0f750d7bbb332811da05c204b3fbfd Merge branch 'for-next-next-v7.0-20260323' into for-next-20260323
 
---===============3516632688489269478==--
+--===============2864770349584251218==--
