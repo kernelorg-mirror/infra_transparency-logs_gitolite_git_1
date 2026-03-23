@@ -1,50 +1,50 @@
-Content-Type: multipart/mixed; boundary="===============2550536578638537509=="
+Content-Type: multipart/mixed; boundary="===============8713991802446140086=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Mon, 23 Mar 2026 19:00:31 -0000
-Message-Id: <177429243181.1715653.7264044654419444759@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Mon, 23 Mar 2026 19:00:34 -0000
+Message-Id: <177429243498.1716043.4243239324650338653@gitolite.kernel.org>
 
---===============2550536578638537509==
+--===============8713991802446140086==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-7.1
+  - ref: refs/heads/spi-7.1
     old: 9861e15f6347dcce65795b8dd680b491a54d59a9
     new: a37fb5166be943fa78962f77db00ce5a25366e87
     log: |
          a37fb5166be943fa78962f77db00ce5a25366e87 spi: pl022: update outdated references to pump_transfers()
          
 
---===============2550536578638537509==
+--===============8713991802446140086==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1774292430 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
-nonce 1774292429-32b0418f87a74227a0e209b162019faae7e789d7
+pusher C3F436CA30F5D8EB 1774292433 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1774292433-975ccec8064c703e08519baded8d55721df963c3
 
-9861e15f6347dcce65795b8dd680b491a54d59a9 a37fb5166be943fa78962f77db00ce5a25366e87 refs/heads/for-7.1
+9861e15f6347dcce65795b8dd680b491a54d59a9 a37fb5166be943fa78962f77db00ce5a25366e87 refs/heads/spi-7.1
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmnBjc4ACgkQJNaLcl1U
-h9BkZgf+JbW2A8Zo/MoA6Y4wzZdHhW6A6eSWxbvXskPCc4AKW43Ld7/ZBFgPRtz8
-12N8lCWxpRR2UWqnn/9B1z99p2a3jgVgVVAb1pNEalVKTzZJaXZ0unvzB7QCt3ck
-DAp+rJhqsNiUIJd3XTZMVmNpxxgpZn9jv7AYRr8JX1lnHzG/MgVtNYgPThc3qeSL
-u2llLGA2RZrP7RAzOkT/3cLXvmKRNRnKqHH2W1+pKyLMuCr/ry6mwx0f/ggnDCiL
-WhKjCaMzyRp8Cf/JQvwzkUWeWFyjo7SzkJYdS3g12kUg7PgiqZEq0/OpOlWp+bBn
-SPXkL8x1YPwgWMiHU5q6GfZ4oIj9HQ==
-=kIkb
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmnBjdEACgkQJNaLcl1U
+h9D50Qf/Xcv8czgUtPu7233sFp5nqOoxZ9o30kgbMBiijtFWdxQy7VbRkOGKgS95
+EHUf/I6ZYbVhRt7f8K0HS+sVASio3a18GJY6/mnaaGGmgVAxpNqM8dqVQKQHN4av
+x1H4nlJaLUOJPa8S1e0hIN+8raVvqJo4dajc1M9HSmAgOuVj1K5SDPAL+HXsCz8z
+7aEwwQqYsrYiArntE/6OeTkPq6lktiuJCFsIhQ9TK/KfHKFWxFObsxW6maQEo5+e
+33iAT9JHYg71uHlDo63yMTEu8QdWa3q3AZEjjB8AuMhhk/CCDzTcOaMb3Tv2A/O4
++uurHakLx6isu8EzgiABzmguEYkvBg==
+=cCf/
 -----END PGP SIGNATURE-----
 
---===============2550536578638537509==--
+--===============8713991802446140086==--
