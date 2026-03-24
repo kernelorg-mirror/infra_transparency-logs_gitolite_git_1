@@ -1,42 +1,24 @@
-Content-Type: multipart/mixed; boundary="===============2637817716832867950=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/dakr/linux
-Date: Tue, 24 Mar 2026 00:32:46 -0000
-Message-Id: <177431236629.2028286.976464591314765314@gitolite.kernel.org>
-
---===============2637817716832867950==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Tue, 24 Mar 2026 00:35:02 -0000
+Message-Id: <177431250206.2029268.4562928762954907286@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/dakr/linux
-user: dakr
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
-  - ref: refs/heads/driver_override
-    old: 6443a06e000b64e936d1731faa80c87f7e286b93
-    new: cf82aa5937b0c1eb33e5999b01ba9061f1f079f1
-    log: revlist-6443a06e000b-cf82aa5937b0.txt
-
---===============2637817716832867950==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6443a06e000b-cf82aa5937b0.txt
-
-e991491378f85f7fcc7ec2af6ec7031f61eed76e amba: use generic driver_override infrastructure
-5d91e055fa912ead7f0e841444d87d29b7e6f329 bus: fsl-mc: use generic driver_override infrastructure
-f3b0ab3efe97354bf28d4e8b0dbe7d505f8dfa5a cdx: use generic driver_override infrastructure
-0c26096ee90656a94f723daa74915ee95831666a hv: vmbus: use generic driver_override infrastructure
-4b5147d48d3f6d518d9b21f4039972fdb096d65d PCI: use generic driver_override infrastructure
-0a02f5df72fc7c4bc006ccb5750fa270f40345da platform/wmi: use generic driver_override infrastructure
-fc2057f7d6445e2ee815ce29acd8134096e4652c rpmsg: use generic driver_override infrastructure
-64c459753537d7728045350b0f5a3054584d7f56 vdpa: use generic driver_override infrastructure
-bca288944e72ce40e2a044dd59841b867fe45f94 s390/cio: use generic driver_override infrastructure
-51597b1fd45b3fce86058f41f7ecebf11afe3181 s390/ap: use generic driver_override infrastructure
-8ba95c1bd6ea1b65ad576b45a97c4a46f7f9f0c8 spi: use generic driver_override infrastructure
-cf82aa5937b0c1eb33e5999b01ba9061f1f079f1 driver core: remove driver_set_override()
-
---===============2637817716832867950==--
+  - ref: refs/heads/main
+    old: fb78a629b4f0eb399b413f6c093a3da177b3a4eb
+    new: ad6b67ffd2e8d53e5c306ce74b6f0d23b430df8a
+    log: |
+         9a475dc71c38d6abc42ba722ace4a72372876d91 net: stmmac: move default_an_inband to plat_stmmacenet_data
+         7d5a2da501e0527f467216a248e28077c7b81153 net: stmmac: add struct stmmac_pcs_info
+         0837578667358bbeeb0aa2fcc98935f4536696c5 net: stmmac: add support for reading inband SGMII status
+         68cff4fff61fb69ef7bb1f6302d4766822a395cc net: stmmac: add BASE-X support to integrated PCS
+         365c62c8b5307ae9f9f976e07bd6b606c54cfabc net: stmmac: use integrated PCS for BASE-X modes
+         ad6b67ffd2e8d53e5c306ce74b6f0d23b430df8a Merge branch 'net-stmmac-improve-pcs-support'
+         
