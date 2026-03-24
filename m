@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
-Date: Tue, 24 Mar 2026 22:26:27 -0000
-Message-Id: <177439118772.3128580.48310610422614484@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/chleroy/linux
+Date: Tue, 24 Mar 2026 22:35:19 -0000
+Message-Id: <177439171987.3137958.6569275619589661920@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/25-new
-user: akpm
+repo: pub/scm/linux/kernel/git/chleroy/linux
+user: chleroy
 changes:
-  - ref: refs/heads/master
-    old: 55f7dc7b4a8f0ffcc30b429f0ccc6c87e06342c6
-    new: bc38db68d6030bc1b28f073c5918db60c445a9ee
+  - ref: refs/heads/soc_fsl
+    old: cf8e9203cc653f0a82639f7ce8089fa92afe6739
+    new: a9de2f351ea71e4b794baaea8d9d790fbfac8d26
     log: |
-         bc38db68d6030bc1b28f073c5918db60c445a9ee foo
+         7dad18a179741dbad9f40799e549fa9111987c0c soc: fsl: qe_ports_ic: Add missing cleanup on device removal
+         a9de2f351ea71e4b794baaea8d9d790fbfac8d26 soc: fsl: qe_ports_ic: switch to irq_domain_create_linear()
          
