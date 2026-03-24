@@ -1,51 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============5310943464658103427=="
+Content-Type: multipart/mixed; boundary="===============4744458841268229049=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Tue, 24 Mar 2026 00:01:48 -0000
-Message-Id: <177431050848.1963714.13246325067254341889@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Tue, 24 Mar 2026 00:01:51 -0000
+Message-Id: <177431051176.1963841.17898427573161482326@gitolite.kernel.org>
 
---===============5310943464658103427==
+--===============4744458841268229049==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-7.1
+  - ref: refs/heads/spi-7.1
     old: ea0e916de13426dc62fc349f80bf5326adb17cea
     new: 1fe7579ab0a51513ba35cfb3cde62706df31912f
     log: revlist-ea0e916de134-1fe7579ab0a5.txt
 
---===============5310943464658103427==
+--===============4744458841268229049==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1774310506 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
-nonce 1774310506-5e56aded1e84e2c58e97c1b6431551f080652ab7
+pusher C3F436CA30F5D8EB 1774310510 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1774310509-1841dda2e0826f35f5c4cf1c149cc1b46cf0c5be
 
-ea0e916de13426dc62fc349f80bf5326adb17cea 1fe7579ab0a51513ba35cfb3cde62706df31912f refs/heads/for-7.1
+ea0e916de13426dc62fc349f80bf5326adb17cea 1fe7579ab0a51513ba35cfb3cde62706df31912f refs/heads/spi-7.1
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmnB1GoACgkQJNaLcl1U
-h9Dk1Qf/V6l2v1nmw3MIxmGzljzsZkyX58ij4s58F5sAXLu0ebiPStmacn7hgQkY
-6tYhHaE51VRpAxNNG91dpRYmq/NwCFi/2cDmn23IgIdixP1smldAgSMXlUjKjf8R
-YPygs7Tx8STQRnxGnzlBgfTPK+m3qUY023T4V92oYCq0Wik2mX+LZYwZV8oQQhkJ
-eJRtgm1RnAFt6ITGa5JPktoe/pvqAP53SUUvyzwW1zE4aTSdNBOa0l5hBLq9R6L3
-mVafMJIKQR8gY2y+i17o25CklA/tVkGS2G5xH/PhlMvTVC/yNIFlX2qeruzUODOZ
-r0QnA/PXt9OoG9zlaDGTiPnD2vJZ7A==
-=7jFx
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmnB1G4ACgkQJNaLcl1U
+h9Ba7wf9FuaVRKn/MHfDTEKgKVkGEz4j+J4t2x0nFAeYvMFstHcjArBAfzWWw9il
+RW0IJEQThBCrfzpTagPNvm/PHNemDXeegaDI2tiJuLF7Eniv/KXdNmlsDoyz3qxe
+Rxkrj6M43bPR+yjHsmV/kFH6VlXGAR9vSr2/YDUoVuDy/otbrRLWPeej4qbqSNTj
+A2Vu0lj+8Wr2w5z4VtdQmnC38AGlMNzaFHx6f8xkLsyqd9tCb6OMRShsxOTTo3Ii
+ytpagg0ZPKoc/5W9pHk9ovUOfFuQCly0YQdq0mX475vL0rNyGfRexyEzY2PnTfZB
+IAHAO7oj2IDSo/Aa7vx6roEDYogazg==
+=Y5W9
 -----END PGP SIGNATURE-----
 
---===============5310943464658103427==
+--===============4744458841268229049==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -440,4 +440,4 @@ c369299895a591d96745d6492d4888259b004a9e Linux 7.0-rc5
 579a49aaab0814c55595cddf0be9651e37972f6a spi: hisi-kunpeng: Add timeout warning in FIFO flush function
 1fe7579ab0a51513ba35cfb3cde62706df31912f spi: hisi-kunpeng cleanup and fix
 
---===============5310943464658103427==--
+--===============4744458841268229049==--
