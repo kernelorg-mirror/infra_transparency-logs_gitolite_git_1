@@ -1,43 +1,25 @@
-Content-Type: multipart/mixed; boundary="===============6297876200677789392=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kees/linux
-Date: Tue, 24 Mar 2026 06:40:54 -0000
-Message-Id: <177433445432.2329603.2974338714255447285@gitolite.kernel.org>
-
---===============6297876200677789392==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Tue, 24 Mar 2026 07:08:04 -0000
+Message-Id: <177433608425.2349119.14955619670792236219@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kees/linux
-user: kees
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/tip/tip
+user: mingo
 changes:
-  - ref: refs/heads/dev/v6.13-rc2/remove-sockaddr
-    old: 333adcbb2159f90fedc3f9d3194dbf6352af9335
-    new: 0000000000000000000000000000000000000000
-
---===============6297876200677789392==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher A5C3F68F229DD60F723E6E138972F4DFDC6DC026 1774334453 -0700
-pushee gitolite.kernel.org:pub/scm/linux/kernel/git/kees/linux.git
-nonce 1774334453-aaf2ef3cd6a9bca032f3055f89752ed6c04afbda
-
-333adcbb2159f90fedc3f9d3194dbf6352af9335 0000000000000000000000000000000000000000 refs/heads/dev/v6.13-rc2/remove-sockaddr
------BEGIN PGP SIGNATURE-----
-
-iHUEABYKAB0WIQRSPkdeREjth1dHnSE2KwveOeQkuwUCacIx9QAKCRA2KwveOeQk
-u0tBAQCNGO9LAT7lY+g50Web7aVoC1FyfTohhcHTbFbwnPiJLQD/aKOnxAJSQ1uw
-7KAv/dOuGi8hB+iGiQLPrwlkLgX0/As=
-=ElcR
------END PGP SIGNATURE-----
-
---===============6297876200677789392==--
+  - ref: refs/heads/master
+    old: 2ca26dad836fb4cd18694ef85af7a71d2878b239
+    new: 4311a5c740a2536ea1dd19abf2a45eed4c78f51c
+    log: |
+         05243d490bb7852a8acca7b5b5658019c7797a52 x86/cpu: Enable FSGSBASE early in cpu_init_exception_handling()
+         411df123c017169922cc767affce76282b8e6c85 x86/cpu: Remove X86_CR4_FRED from the CR4 pinned bits mask
+         3645eb7e3915990a149460c151a00894cb586253 x86/fred: Fix early boot failures on SEV-ES/SNP guests
+         a3e93cac25316aad03bf561e3c205f4ca0b8f452 x86/cpu: Add comment clarifying CRn pinning
+         6a9fe1ad908df12ef71dea12373f25826ea29a8d x86/cpu/topology: Consolidate AMD and Hygon cases in parse_topology()
+         51e9cc39a5663435212be67b25e4b9ea7ac32f54 Merge branch into tip/master: 'x86/urgent'
+         4311a5c740a2536ea1dd19abf2a45eed4c78f51c Merge branch into tip/master: 'x86/cleanups'
+         
