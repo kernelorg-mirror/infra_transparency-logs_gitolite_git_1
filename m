@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4568315910076798480=="
+Content-Type: multipart/mixed; boundary="===============4699326417935080025=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs
-Date: Tue, 24 Mar 2026 17:21:16 -0000
-Message-Id: <177437287684.2877393.17096458895870944956@gitolite.kernel.org>
+Date: Tue, 24 Mar 2026 17:22:53 -0000
+Message-Id: <177437297321.2878116.14322221431230627459@gitolite.kernel.org>
 
---===============4568315910076798480==
+--===============4699326417935080025==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,20 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jaegeuk/f2fs
 user: jaegeuk
 changes:
-  - ref: refs/heads/dev-test
-    old: db195c227f8d8b43180629f0e70dbd66c04461dd
-    new: 34a3979efa774fe4bcc9ea140a80e8abfe0f4282
-    log: revlist-db195c227f8d-34a3979efa77.txt
+  - ref: refs/heads/dev
+    old: 5f04e90eedd052d43dab1edc4381d7c1a6826d70
+    new: 62b45b0ad4cddebbba1ad5e7c48cf7b5e42c2377
+    log: revlist-5f04e90eedd0-62b45b0ad4cd.txt
 
---===============4568315910076798480==
+--===============4699326417935080025==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-db195c227f8d-34a3979efa77.txt
+Content-Disposition: attachment; filename=revlist-5f04e90eedd0-62b45b0ad4cd.txt
 
+b12bbe35c7c1e431f2fa01fe9291daa52fb7ab43 MAINTAINERS, mailmap: update email address for Lorenzo Stoakes
+68785c5e79e0fc1eacf63026fbba32be3867f410 drm/amd/pm: remove invalid gpu_metrics.energy_accumulator on smu v13.0.x
+2c1030f2e84885cc58bffef6af67d5b9d2e7098f drm/amdgpu: Fix use-after-free race in VM acquire
 a145bbff6f53ab80757a15eba5ad2ba8e3bdc9dc drm/amdgpu/psp: Use Indirect access address for GFX to PSP mailbox
 048c1c4e51715ffddd4189745c07f530f34fbe37 drm/amdgpu/userq: Consolidate wait ioctl exit path
 65b5c326ce4103620c977b8dcb1699bdac4da143 drm/amdgpu/userq: refcount userqueues to avoid any race conditions
@@ -1047,8 +1050,5 @@ e952f14159fc5a24f19068f0e2e0b71bed67977e f2fs: fix fsck inconsistency caused by 
 6163918b64aed97c0f28443cdfc92fe999df3af5 f2fs: fix false alarm of lockdep on cp_global_sem lock
 7e00e868a0db3d2f0b3a0f9babf053321378350c f2fs: fix to avoid uninit-value access in f2fs_sanity_check_node_footer
 62b45b0ad4cddebbba1ad5e7c48cf7b5e42c2377 f2fs: fix to freeze GC and discard threads quickly
-e694c19fd6806608433b7eef8c252ef0696a4eee f2fs: evict: truncate page cache before clear_inode
-bc8b0664a10a3d80352e50e5b679fabb216ca68a f2fs: invalidate block device page cache on umount
-34a3979efa774fe4bcc9ea140a80e8abfe0f4282 f2fs: fix to preserve previous reserve_{blocks,node} value when remount
 
---===============4568315910076798480==--
+--===============4699326417935080025==--
