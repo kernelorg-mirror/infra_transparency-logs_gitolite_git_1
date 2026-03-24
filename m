@@ -1,51 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============8160129837661748852=="
+Content-Type: multipart/mixed; boundary="===============8735002143931184824=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
-Date: Tue, 24 Mar 2026 16:36:57 -0000
-Message-Id: <177437021794.2836802.8606469654978415371@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Tue, 24 Mar 2026 16:37:01 -0000
+Message-Id: <177437022116.2836939.4699250611888722317@gitolite.kernel.org>
 
---===============8160129837661748852==
+--===============8735002143931184824==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regulator
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-7.0
+  - ref: refs/heads/regulator-7.0
     old: 4221f30e3e0a2507641b3397d21aff9e71e749f8
     new: 8121353a4bf8e38afee26299419a78ec108e14a6
     log: revlist-4221f30e3e0a-8121353a4bf8.txt
 
---===============8160129837661748852==
+--===============8735002143931184824==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1774370216 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/regulator.git
-nonce 1774370216-797abf789717dc9e74a146a9338fb7e26cd21bcb
+pusher C3F436CA30F5D8EB 1774370219 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1774370219-29303429e681b872640710dcc15310c5a956e3d3
 
-4221f30e3e0a2507641b3397d21aff9e71e749f8 8121353a4bf8e38afee26299419a78ec108e14a6 refs/heads/for-7.0
+4221f30e3e0a2507641b3397d21aff9e71e749f8 8121353a4bf8e38afee26299419a78ec108e14a6 refs/heads/regulator-7.0
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmnCvagACgkQJNaLcl1U
-h9DR4wf+LowBf28UH9yESf8v5Z9yRWHePuBmgC9VozCEGMcZV28ViVHviRLfWrdf
-mFQ7GEMZ/4gQaC/msQG2beiPqR5ImlWORIKyUBUCXhHP520uqKa/gvsA0UOdl3RH
-EA0rJNJwt0eYi0vafAx77u8+oQCTtjhrtYpKhCj4hFeLG6n1QMZocnUA1p1xpE1k
-xmSsMvz0R7jAo83vU/JDmUuUlIEYlkIuNY/KS+rDxfRX2PWFsG9KGFxb/fApxOdR
-yvFJ/eS2t7+/rVQdVMtKQW7f0VRelcjxZJBzNrhpTCFuE7rYiNU02/OLvCNsC50e
-R67fsxt1JS/FVAMdYjKUqOOx1moX8g==
-=lFUW
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmnCvasACgkQJNaLcl1U
+h9BOiwf/QCJqCDV1IT87fKDdTjzdr0P3wWjIJQ6EY+x4LSRRBqohSd8TSqZXkZHq
+ald3zKzhNB/uiBh5+JSYl+6CZORW7+OnKuMaUyoPAnJzhje1GrK+1tNo8+S29mga
+K5X58BHfYV7E3TAzXsNNYh48ItF0kM4uyFhLeKdqDzPH58DbijKMBsYw0HDgkCwe
+ceQmFHhz/93zcT3vgzM1GKmyvJSgyvI5lf6fs3+LeyPewmDJEFIHXp0Ann6PM7gC
+a13WBmCsnWNddV4scDwaw+LbpF5TTgYXF8fk1/uBynn4YGC8WENbW9PssLAlPXZO
+I3eAiVnhRPc7D1ozetJ4Qvja3XsQBA==
+=trge
 -----END PGP SIGNATURE-----
 
---===============8160129837661748852==
+--===============8735002143931184824==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -443,4 +443,4 @@ ec69c9e88315c4be70c283f18c2ff130da6320b5 i2c: tegra: Don't mark devices with pin
 c369299895a591d96745d6492d4888259b004a9e Linux 7.0-rc5
 8121353a4bf8e38afee26299419a78ec108e14a6 rust: regulator: do not assume that regulator_get() returns non-null
 
---===============8160129837661748852==--
+--===============8735002143931184824==--
