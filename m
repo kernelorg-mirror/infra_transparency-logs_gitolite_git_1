@@ -1,20 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Tue, 24 Mar 2026 00:59:45 -0000
-Message-Id: <177431398579.2051284.12422148540245345665@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/zx2c4/wireguard-linux
+Date: Tue, 24 Mar 2026 01:12:15 -0000
+Message-Id: <177431473549.2066942.6082189614706530224@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: kuba
+repo: pub/scm/linux/kernel/git/zx2c4/wireguard-linux
+user: zx2c4
 changes:
-  - ref: refs/heads/main
-    old: 0e10381626546e3c77a11c7972d1264301abd733
-    new: 9027497a25e3c92b5053b2643e0c18f910865625
+  - ref: refs/heads/devel
+    old: d4596891e72cbf155d61798a81ce9d36b69bfaf4
+    new: 344348cbd3a0181984989301b0d3e2bd92dbf73e
     log: |
-         eb37011395f12138056a4d124159f1a8436662d3 net: add netdev_from_priv() helper
-         9027497a25e3c92b5053b2643e0c18f910865625 team: use netdev_from_priv()
+         6a49a38842e395594f3e28a802d3c10fcd5f75dd wireguard: allowedips: Use kfree_rcu() instead of call_rcu()
+         d3d2abe626c14026779d4266b6282c8dbea64a4e tools: ynl: add sample for wireguard
+         344348cbd3a0181984989301b0d3e2bd92dbf73e wireguard: allowedips: remove redundant space in comment
          
