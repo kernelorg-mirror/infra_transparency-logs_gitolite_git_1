@@ -1,22 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Tue, 24 Mar 2026 00:05:46 -0000
-Message-Id: <177431074635.1968090.15480284973507376093@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
+Date: Tue, 24 Mar 2026 00:07:05 -0000
+Message-Id: <177431082562.1969027.8907430624886716549@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/linux/kernel/git/akpm/25-new
+user: akpm
 changes:
-  - ref: refs/heads/main
-    old: bc0151c59e639c1311ee573434af74b4e2c81de4
-    new: b1791180a2710830bf909e1eadf2c3d362e7ce63
+  - ref: refs/heads/master
+    old: 59ec7bfcca2cb26f0168c595af83e08daaf04ff9
+    new: df0d14fab7b1e9af39b184834cc20ec47b1cd74b
     log: |
-         6af51e9f31336632263c4680b2a3712295103e1f ipv6: Remove permanent routes from tb6_gc_hlist when all exceptions expire.
-         4be7b99c253f0c85a255cc1db7127ba3232dfa30 ipv6: Don't remove permanent routes with exceptions from tb6_gc_hlist.
-         3e9e84e92c9c2eec396ee62a2e47b85781520c57 selftest: net: Add GC test for temporary routes with exceptions.
-         b1791180a2710830bf909e1eadf2c3d362e7ce63 Merge branch 'ipv6-fix-two-gc-issues-with-permanent-routes'
+         7d50827c5682f2ea2fbeee6af44f7d77fabc61b0 foo
+         8102440c3e1345208b58c463e0d67087bbb9ed97 foo
+         e385eae653559dd47ffe65410e859fa760e0bc32 foo
+         df0d14fab7b1e9af39b184834cc20ec47b1cd74b foo
          
