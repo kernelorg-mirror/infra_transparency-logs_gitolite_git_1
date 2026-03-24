@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Tue, 24 Mar 2026 03:01:14 -0000
-Message-Id: <177432127479.2155320.17771153540370897629@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs
+Date: Tue, 24 Mar 2026 03:01:35 -0000
+Message-Id: <177432129517.2155706.8024750422493738311@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: kuba
+repo: pub/scm/linux/kernel/git/xiang/erofs
+user: xiang
 changes:
-  - ref: refs/heads/main
-    old: ef94e96eaedc63c75d462d0e4dcbea0f6fbd6c74
-    new: 9d463f7863f2cc3722da9c670c88158409cb7c42
+  - ref: refs/heads/dev-test
+    old: 71b8a123916ab251d90b9de2c7bc6beb371bd430
+    new: 6b956a871865193a194dbd028334c8e1b20c8d5f
     log: |
-         a897e194c475d5e0d141e27df600dd43962308f1 selftests: net: run reuseport in an isolated netns
-         9d463f7863f2cc3722da9c670c88158409cb7c42 selftests: net: io_uring_zerocopy: enable io_uring for the test
+         6b956a871865193a194dbd028334c8e1b20c8d5f erofs: harden h_shared_count in erofs_init_inode_xattrs()
          
