@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Tue, 24 Mar 2026 15:45:40 -0000
-Message-Id: <177436714050.2787259.3825484477309080641@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/trace/linux-trace
+Date: Tue, 24 Mar 2026 15:46:20 -0000
+Message-Id: <177436718020.2787716.13605703862992090055@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: ast
+repo: pub/scm/linux/kernel/git/trace/linux-trace
+user: mhiramat
 changes:
-  - ref: refs/heads/master
-    old: 4ea43a43550542eb6751a0d41f2cec999cf3fa6a
-    new: 833ef4a954e12485b9fd44e4e5eeb349ac194c26
+  - ref: refs/heads/bootconfig/for-next
+    old: 6eb255d019b810614c5cbd99b9ef281b7b9361e3
+    new: 1a427f2a710583872b6176ea8378e0a1a8719fc4
     log: |
-         833ef4a954e12485b9fd44e4e5eeb349ac194c26 bpf: Simplify tnum_step()
+         1a427f2a710583872b6176ea8378e0a1a8719fc4 bootconfig: Apply early options from embedded config
          
