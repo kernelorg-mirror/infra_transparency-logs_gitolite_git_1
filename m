@@ -1,23 +1,27 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Tue, 24 Mar 2026 13:48:43 -0000
-Message-Id: <177436012371.2682646.6261485779478957295@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
+Date: Tue, 24 Mar 2026 13:55:42 -0000
+Message-Id: <177436054276.2689940.11378346241482640889@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/cel/linux
-user: cel
+repo: pub/scm/linux/kernel/git/ath/ath
+user: jjohnson
 changes:
-  - ref: refs/heads/nfsd-testing
-    old: 1561f827296ee2a0964bfb53fa570a52b34dcb1e
-    new: 09b618cad7fb4571c33ed348368cbc04ebeb7e75
+  - ref: refs/heads/main
+    old: 37538641dac955f6690372f0ebb94e5e14a23418
+    new: 1766c7e1c0c42373909e5367cda59bcc8bdcd762
     log: |
-         ba2280caf96b66d15ad8a94d273ec023e499c5d5 sunrpc: skip svc_xprt_enqueue when no work is pending
-         1aba867cb361fc95adc258f5841eb6e50330e644 sunrpc: skip svc_xprt_enqueue in svc_xprt_received when idle
-         b119f2ea20aeefc5cd2aca3d97dab63e6d36c739 sunrpc: skip svc_xprt_enqueue when transport is busy
-         065efa41ee0424cc5188b733c8fd2d4cc4af3c92 [DEBUG] Add instrumentation for nfsd_mutex contention debugging
-         09b618cad7fb4571c33ed348368cbc04ebeb7e75 siw: Enable try_gso
+         e225b36f83d7926c1f2035923bb0359d851fdb73 wifi: ath11k: Pass the correct value of each TID during a stop AMPDU session
+         4242625f272974dd1947f73b10d884eab3b277cd wifi: ath12k: Pass the correct value of each TID during a stop AMPDU session
+         91401ee8d644339387f75de1cb918c5261d8a408 Merge branch 'ath-next'
+         12c00479b6d3b35838e43954fbd1f63c98d34664 Merge branch 'ath-current'
+         ae2f175b5bc728cad15937d0d1cbdf594ea4e248 Merge remote-tracking branch 'mhi/mhi-next'
+         1766c7e1c0c42373909e5367cda59bcc8bdcd762 Add localversion-wireless-testing-ath
          
+  - ref: refs/tags/ath-202603241346
+    old: 0000000000000000000000000000000000000000
+    new: 1766c7e1c0c42373909e5367cda59bcc8bdcd762
