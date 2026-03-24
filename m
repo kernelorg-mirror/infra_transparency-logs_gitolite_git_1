@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7064495952770687359=="
+Content-Type: multipart/mixed; boundary="===============4680670210103921781=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/frank.li/linux
-Date: Tue, 24 Mar 2026 20:10:00 -0000
-Message-Id: <177438300002.3013018.12054385362867212063@gitolite.kernel.org>
+Date: Tue, 24 Mar 2026 20:10:04 -0000
+Message-Id: <177438300424.3014914.6612098421712825359@gitolite.kernel.org>
 
---===============7064495952770687359==
+--===============4680670210103921781==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,31 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/frank.li/linux
 user: frank.li
 changes:
-  - ref: refs/heads/for-next
-    old: 632ad954fc4995510b78588a54c1f041914ca2f9
-    new: 6c4b48012d57f205c94f25da0c68a4027ea6daf6
-    log: revlist-632ad954fc49-6c4b48012d57.txt
+  - ref: refs/heads/imx/dt64
+    old: efc6947b672d449d6b4560a55ad3589a6bee746c
+    new: b4c2be6e5620c5054299aaf63e89412f08ab60d8
+    log: revlist-efc6947b672d-b4c2be6e5620.txt
 
---===============7064495952770687359==
+--===============4680670210103921781==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-632ad954fc49-6c4b48012d57.txt
+Content-Disposition: attachment; filename=revlist-efc6947b672d-b4c2be6e5620.txt
 
-3feaa4342637eef673243dd38ccb32e8dc8efd5a dt-bindings: soc: imx93-media-blk-ctrl: Add PDFC subnode to schema and example
-28e99f8bc651636e74c1dab259e92c3264f9dc51 dt-bindings: arm: fsl: add Variscite DART-MX95 Boards
-26279c8d5ede072e8fad9b2f14b03fc27888f471 bus: imx-aipstz: set default value for opacr registers
-4048cdc0655b9d79d8d7475859de186e3f592027 dt-bindings: arm: fsl: Add i.MX93 Wireless EVK board
-af08f9628bb6a2eb7bf42463eee1a41de848abb4 dt-bindings: arm: fsl: add Variscite DART-MX91 Boards
-48d8ef9209f488f4661d4daa0700d149b8cad54d dt-bindings: arm: fsl: Add FRDM-IMX91S board
-ebe69512733ad5e50c110df903722b0f5b54cb69 dt-bindings: arm: fsl: Add GOcontroll Moduline IV/Mini
-cb794619c2d29b882f6eec3b6ad4a1ca5afab312 dt-bindings: fsl: imx7ulp-smc1: Add #clock-cells property
-826f32e8ff437b4b88ba0b5c7978699710572ceb dt-bindings: arm: fsl: add bindings for TQMa8x
-5fbd0f7d7607fe1062db9f10dad18d321f76b1cc dt-bindings: arm: fsl: Add various solidrun i.mx8m boards
-82520a90533ed16671db4b5eca488bb020bbfa78 dt-bindings: arm: fsl: Add compatible for i.MX8MP audio board (version 2)
-1b7c834dedf9933447c424bfa01348f9dc3db4d1 MAINTAINERS: Add i.MX team to all arm NXP platforms
-0c8fb9a7a1004b13adb921c637f06a7b9c2d0806 dt-bindings: interrupt-controller: fsl,irqsteer: add S32N79 support
-14233f267406e6b991923a11e8eda2857a8ec948 dt-bindings: arm: fsl: Add NXP S32N79 SoC and RDB board
 7348e8d71c593792df4ebf653d98a576c04c851c arm64: dts: fsl-ls1028a: Drop CPU masks from GICv3 PPI interrupts
 f6c18c1c4ba574005d3b95faab0e8a3796cf3346 arm64: dts: freescale: imx: Drop CPU masks from GICv3 PPI interrupts
 f87a5bdec6fb40b913099d71cfcd5ab36db8c9ff arm64: dts: freescale: imx8mm-var-som: Move UART4 description to Symphony
@@ -65,6 +51,5 @@ ec5de824033f29f5ed041b178078f8c9344b6fec arm64: dts: imx95: Move funnel outside 
 5354185411cffa7317bb7699e626bde5d6900bf0 arm64: dts: imx91-var-dart: Add support for Variscite Sonata board
 3a670cc4e196a9580d50aa48c34851cc7cf55acf arm64: dts: freescale: Add support for Variscite DART-MX95
 b4c2be6e5620c5054299aaf63e89412f08ab60d8 arm64: dts: imx95-var-dart: Add support for Variscite Sonata board
-6c4b48012d57f205c94f25da0c68a4027ea6daf6 Merge branches 'imx/bindings', 'imx/dt', 'imx/dt64', 'imx/fixes' and 'imx/soc' into for-next
 
---===============7064495952770687359==--
+--===============4680670210103921781==--
