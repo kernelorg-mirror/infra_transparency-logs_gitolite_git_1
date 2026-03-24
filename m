@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/zx2c4/wireguard-tools
-Date: Tue, 24 Mar 2026 02:23:33 -0000
-Message-Id: <177431901306.2124583.4050002496894887884@gitolite.kernel.org>
+Date: Tue, 24 Mar 2026 02:27:37 -0000
+Message-Id: <177431925794.2128492.823432586936823007@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/zx2c4/wireguard-tools
 user: zx2c4
 changes:
   - ref: refs/heads/master
-    old: 997ffa0c89b4a6a3998325ceeb55588bb0cf8017
-    new: 06a99cce2c9998f53eb30d2f258a9e5ff286445b
+    old: 06a99cce2c9998f53eb30d2f258a9e5ff286445b
+    new: 025f00454fec8fd0816607a28c1ee6cd9a54b134
     log: |
-         06a99cce2c9998f53eb30d2f258a9e5ff286445b ipc: windows: support incremental allowed ips updates
+         025f00454fec8fd0816607a28c1ee6cd9a54b134 ipc: freebsd: add allowed-ip flags support for FreeBSD
          
