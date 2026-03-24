@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3286425079330890643=="
+Content-Type: multipart/mixed; boundary="===============6897964549856887161=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Tue, 24 Mar 2026 16:53:07 -0000
-Message-Id: <177437118779.2852543.12121811049445449462@gitolite.kernel.org>
+Date: Tue, 24 Mar 2026 16:53:10 -0000
+Message-Id: <177437119035.2852630.6636482232672148002@gitolite.kernel.org>
 
---===============3286425079330890643==
+--===============6897964549856887161==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/10GbE
+  - ref: refs/heads/40GbE
     old: fb78a629b4f0eb399b413f6c093a3da177b3a4eb
     new: b1c803d5c8167026791abfaed96fd3e6a1fcd750
     log: revlist-fb78a629b4f0-b1c803d5c816.txt
 
---===============3286425079330890643==
+--===============6897964549856887161==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -66,4 +66,4 @@ b50a48b65cb0c955728894b24ba5ecc3cd4b8c7d Merge branch 'net-stmmac-cleanup-stmmac
 a4b908c89d88d4b7251c566457979c4167b9664c net: phy: update outdated comment for removed phy_package_read/write()
 b1c803d5c8167026791abfaed96fd3e6a1fcd750 net: airoha: Rework the code flow in airoha_remove() and in airoha_probe() error path
 
---===============3286425079330890643==--
+--===============6897964549856887161==--
