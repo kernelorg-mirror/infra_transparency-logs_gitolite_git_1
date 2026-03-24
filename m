@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Tue, 24 Mar 2026 20:38:55 -0000
-Message-Id: <177438473506.3039956.6640236156912593129@gitolite.kernel.org>
+Date: Tue, 24 Mar 2026 20:39:44 -0000
+Message-Id: <177438478406.3040425.8968307741215976047@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,9 +11,9 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: ast
 changes:
-  - ref: refs/heads/for-next
-    old: 2790db208b44c881d23be745868f2679c3ff1be5
-    new: d9d7125e445dc06c2d9bd3dbd070dcbcd41a540f
+  - ref: refs/heads/master
+    old: d9d7125e445dc06c2d9bd3dbd070dcbcd41a540f
+    new: 7f5b0a60a8b925db0cde62d87f1031dc04acbeb2
     log: |
-         d9d7125e445dc06c2d9bd3dbd070dcbcd41a540f selftests/bpf: Fix sockmap_multi_channels reliability
+         7f5b0a60a8b925db0cde62d87f1031dc04acbeb2 selftests/bpf: move trampoline_count to dedicated bpf_testmod target
          
