@@ -1,43 +1,53 @@
-Content-Type: multipart/mixed; boundary="===============3892708110551956636=="
+Content-Type: multipart/mixed; boundary="===============5974993732244388900=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/util-linux/util-linux
-Date: Tue, 24 Mar 2026 09:34:32 -0000
-Message-Id: <177434487268.2464853.264117743070824821@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
+Date: Tue, 24 Mar 2026 09:37:58 -0000
+Message-Id: <177434507845.2468715.8132909724278907791@gitolite.kernel.org>
 
---===============3892708110551956636==
+--===============5974993732244388900==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/util-linux/util-linux
-user: kzak
+repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
+user: paulmck
 changes:
-  - ref: refs/heads/master
-    old: ef989e78c96056dcca0209d67b3d506137cd454b
-    new: 31c75b198a9d9048cf02588966a2c5c17f2351ec
-    log: revlist-ef989e78c960-31c75b198a9d.txt
+  - ref: refs/heads/dev
+    old: 0f6b8877219855fb7aeae1fee6e6ec3ae7fea973
+    new: 0caec8818bfe6bcf9ba571b8c262d97ac46ea486
+    log: revlist-0f6b88772198-0caec8818bfe.txt
+  - ref: refs/heads/dev.2026.03.20a
+    old: 0000000000000000000000000000000000000000
+    new: 0f6b8877219855fb7aeae1fee6e6ec3ae7fea973
 
---===============3892708110551956636==
+--===============5974993732244388900==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ef989e78c960-31c75b198a9d.txt
+Content-Disposition: attachment; filename=revlist-0f6b88772198-0caec8818bfe.txt
 
-25105842c427f08434339bd59e4e521e4c7b0601 pwdutils: extend ul_getuserpw_str() and ul_getgrp_str() to return ID
-28fcbb65b75fa99d2b93a58d7937f933de769eea login: Clean up PAM resources in correct order
-925c23a6bc9061d7b6af3a6085c52ec89f9a58b7 meson: use explicit values for curses/slang config defines
-efe5560e0a1b06c5ba6425367bc283516a3bcfbb meson: fix plymouth support macro name
-2b0baa966988d74917ab30758a6e906da520318b meson: remove unused HAVE_NCURSES config define
-fadcbe54ba67ffe3530aa27f476578d6e9212894 meson: add check for security_get_initial_context()
-afc4062f39cff730cc133ec1ff8450ec25886e2e meson: add login-stat-mail option
-7a5ab62b82a92e540399dd3f6be3f85c241d2921 meson: add hwclock-gplv3 option
-6468f1f50168b93e33f645a31023f0e59825317e libblkid: add LIBBLKID_VERSION to blkid.h, remove redundant config.h versions
-98a935e7d97d033869423e7edb2c8bf381d8ade9 liblastlog2: generate lastlog2.h from template
-2c2ba7ffe39c697b8c3097ad4da0f794edf55840 meson: remove unused HAVE_LIBFDISK and HAVE_LIBSMARTCOLS defines
-b18fb00751c4719470ac9cf1d89e2bad60ed451b libblkid: fix stale comment in version.c
-31c75b198a9d9048cf02588966a2c5c17f2351ec Merge branch 'PR/unshare-uid-parse-fix' of https://github.com/karelzak/util-linux-work
+4e70ef31c9d4dc4e3b3f466b823f9ca6233aa96c rcu: Use an intermediate irq_work to start process_srcu()
+cefaa057b386249d7596f3878a27fc204a8f6672 srcu: Use irq_work to start GP in tiny SRCU
+0265bcbd973368a5f72e269e908f9f404e2ec390 Merge branches 'csd-lock.2026.03.18a' and 'rcu.2026.03.24a' into HEAD
+f37609088b6c42ee663665036b623cb194929933 EXP srcu: Enable Tiny SRCU On all CONFIG_SMP=n kernels
+bb3890eda2b6aca7639edbadc0600f41a95abb1c EXP rcutorture: Add SRCU-V scenario for preemptible Tiny SRCU
+2cc3d78ae86a05977867ed9ddd588a5c29814b4d EXP rcutorture: Limit callback flooding for Tiny SRCU in preemptible kernels
+3be969370536ab7ee710bb3a57ab9a0d25be253c EXP locking/mutex: Add down_read_idle()
+e0916255b5d7f4a959a7da3345e3c89877d47a9d EXP arm64: enable PREEMPT_LAZY
+ad0202340c16440addc35d40e125f56effe1c6b4 EXP refscale: Make scale_type=bh safe for PREEMPT_RT kernels
+313bda6bdf5c5d232763e3a1028c27f4e3f564b6 rcutorture: Fully test lazy RCU
+75d6ef9a5b5bfbe035fc54beabe16b2332d618e2 torture: Add torture_sched_set_normal() for user-specified nice values
+730d63f5eb847f3ea81d5932f3faaaeedcb57ffa torture: Improve kvm-series.sh header comment
+62015c25bb8c4b11ce77f8cef65388b0b0395966 srcu: Fix kerneldoc header comment typo in srcu_down_read_fast()
+cf1e6d2128cb27ea51b2caa405fa2f659524e730 EXP rcu/repro: Add generic reproducer torture-test module
+ee8a21b9182c4e229d0812c4ecd347d1fe6bd2ac EXP rcu/repro: Add niceness and hold time for timer kthreads
+b2318f4b0bdd490d27844b28386d53b54e4918ff EXP rcu/repro: Use torture_sched_set_normal() to clamp user nice values
+55a53af186e2e92f95edf7622888ee56debc9c9b EXP rcu/repro: Make timer kthreads sleep at TASK_UNINTERRUPTIBLE
+fb4e3dcd71addbb3813867b970e0572e2cc5ec0f torture: Allow "norm" abbreviation for "normal"
+0ac20afb2f131c3d558b6374b3ede989e3aafaa2 srcu: Push srcu_node allocation to GP when non-preemptible
+0caec8818bfe6bcf9ba571b8c262d97ac46ea486 EXP cgroup/cpuset: Call rebuild_sched_domains() directly in hotplug
 
---===============3892708110551956636==--
+--===============5974993732244388900==--
