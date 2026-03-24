@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/docs/kernel/pgpkeys
-Date: Tue, 24 Mar 2026 22:42:40 -0000
-Message-Id: <177439216096.3144046.10098023526932010719@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
+Date: Tue, 24 Mar 2026 22:42:47 -0000
+Message-Id: <177439216756.3144253.2145767106181932427@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/docs/kernel/pgpkeys
-user: mricon
+repo: pub/scm/linux/kernel/git/tnguy/next-queue
+user: tnguy
 changes:
-  - ref: refs/heads/master
-    old: 2a958582f6e053206cdb63e5e3d911ac39b7ffcf
-    new: 7d4b463524d63a933f44f70319c8cc887f388099
+  - ref: refs/heads/dev-queue
+    old: ae653a26eb3ae1d0f505bbbbd66dfe992d37a508
+    new: 13193c3b9be70b7bcd6364d67c6a55393b800c89
     log: |
-         7d4b463524d63a933f44f70319c8cc887f388099 Add 80EF20021D46C59B (Kumar Kartikeya Dwivedi)
+         889a023815c278060d27064dd00ae741b0ba6bad idpf: fix xdp crash in soft reset error path
+         d77c19182a02d6af30a6e9c789475e6804dfd668 virtchnl: add VIRTCHNL_VLAN_ETHERTYPE_88E7 support
+         13193c3b9be70b7bcd6364d67c6a55393b800c89 ice: add 0x88E7 handling to SW validation paths
          
