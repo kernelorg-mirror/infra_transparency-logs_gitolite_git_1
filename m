@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
-Date: Tue, 24 Mar 2026 09:44:49 -0000
-Message-Id: <177434548957.2472936.10354989629654963828@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/legion/kbd
+Date: Tue, 24 Mar 2026 09:45:20 -0000
+Message-Id: <177434552010.2475555.3123195101897384099@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
-user: paulmck
+repo: pub/scm/linux/kernel/git/legion/kbd
+user: legion
 changes:
-  - ref: refs/heads/dev
-    old: 0caec8818bfe6bcf9ba571b8c262d97ac46ea486
-    new: 95b742533681492bfc7bd3903cb0de4109581212
+  - ref: refs/heads/xkb
+    old: 9de5931e357278ce09623582e423aa970593dd3e
+    new: 3d56314ce4342cf975978ad2f36c63f8fd81d994
     log: |
-         0a0949686cfd7a7a0e2de1ebf4adbc20aac38e5a hazptr: Implement Hazard Pointers
-         95b742533681492bfc7bd3903cb0de4109581212 hazptr: Add refscale test
+         3d56314ce4342cf975978ad2f36c63f8fd81d994 contrib: add a VT layout indicator driven by keyboard LED locks
          
