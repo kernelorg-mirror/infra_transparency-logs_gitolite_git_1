@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Tue, 24 Mar 2026 19:56:49 -0000
-Message-Id: <177438220910.3003445.4026853176041569745@gitolite.kernel.org>
+Date: Tue, 24 Mar 2026 19:56:54 -0000
+Message-Id: <177438221462.3003668.12338019314847749245@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,9 +11,9 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/broonie/ci
 user: broonie
 changes:
-  - ref: refs/heads/asoc-7.1
-    old: 5a306bef598886a64712e19b58edeae66e0df408
-    new: 3e839947b842b81e3d940044425853477c5a4d7e
+  - ref: refs/heads/spi-7.1
+    old: fa0561a1d583caece08d1fb904304c92c561e86a
+    new: 762a3847a05c5c229009d36fbd0e2feee9dff81a
     log: |
-         3e839947b842b81e3d940044425853477c5a4d7e ASoC: update outdated comments for removed snd_soc_new_pcms()
+         762a3847a05c5c229009d36fbd0e2feee9dff81a spi: pxa2xx: update outdated reference to pump_transfers()
          
