@@ -1,58 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============9122940992350120083=="
+Content-Type: multipart/mixed; boundary="===============2550760488796768651=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Tue, 24 Mar 2026 16:17:10 -0000
-Message-Id: <177436903054.2818700.9225909427883893689@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/shemminger/iproute2
+Date: Tue, 24 Mar 2026 16:19:23 -0000
+Message-Id: <177436916397.2819457.13395516935027414247@gitolite.kernel.org>
 
---===============9122940992350120083==
+--===============2550760488796768651==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/shemminger/iproute2
+user: shemminger
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/master
-    old: c369299895a591d96745d6492d4888259b004a9e
-    new: e3c33bc767b5512dbfec643a02abf58ce608f3b2
-    log: revlist-c369299895a5-e3c33bc767b5.txt
+  - ref: refs/heads/main
+    old: b7d23e62224ff3c18611c962c76a937b1ce29191
+    new: 4942e67f71f2df8e45eff723af114644b0eb9894
+    log: |
+         4942e67f71f2df8e45eff723af114644b0eb9894 dpll: Fix missing notifications in monitor mode
+         
 
---===============9122940992350120083==
+--===============2550760488796768651==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c369299895a5-e3c33bc767b5.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-81f86728a9804c7ff99df8f2cb7a7a081a270400 tools headers: Skip arm64 cputype.h check
-8dd1d9a335321d0829aeb85d8e1a897248d0da29 perf metricgroup: Fix metricgroup__has_metric_or_groups()
-72a8b9c060d3188ff29e2a3f3ea47b1f2a67e005 perf parse-events: Fix big-endian 'overwrite' by writing correct union member
-563d39928db602c58d24301769e25e33a48a65ab perf kvm stat: Fix relative paths for including headers
-9232fa05921bc0ea0bc71947440ec9a50b3ad26e media: synopsys: csi2rx: fix out-of-bounds check for formats array
-ac62a20035ecc18e6d365c6c792f5965ce1da77c media: synopsys: csi2rx: add missing kconfig dependency
-bef4f4a88b73e4cc550d25f665b8a9952af22773 media: mc, v4l2: serialize REINIT and REQBUFS with req_queue_mutex
-daa87ca42652af0d6791ef875e3c4d724b099f22 media: rkvdec: Improve handling missing short/long term RPS
-446c6a25a4494e137ec42e886da04e29efc2dc39 media: rkvdec: reduce excessive stack usage in assemble_hw_pps()
-c03b7dec3c4ddc97872fa12bfca75bae9cb46510 media: rkvdec: reduce stack usage in rkvdec_init_v4l2_vp9_count_tbl()
-e8d97c270cb46a2a88739019d0f8547adc7d97da media: verisilicon: Fix kernel panic due to __initconst misuse
-f8e478e3af57e603c7f1d4f9dba6d8948b8c32c1 Merge remote-tracking branch 'torvalds/master' into perf-tools
-453b8fb68f3641fea970db88b7d9a153ed2a37e8 xen/privcmd: restrict usage in unprivileged domU
-1613462be621ad5103ec338a7b0ca0746ec4e5f1 xen/privcmd: add boot control for restricted usage in domU
-3a206a8649f83bec99a3517da5e7dac9c138875e mm/rmap: clear vma->anon_vma on error
-26f775a054c3cda86ad465a64141894a90a9e145 mm/damon/core: avoid use of half-online-committed context
-b0377ee8042985b0d91bf579afcc4ee9150db14d zram: do not slot_free() written-back slots
-4ddd7588fae6175e748cff22c79faafb4d455d42 tools arch x86: Sync the msr-index.h copy with the kernel sources
-3c71ae8ec9adde96f5ecfcbeef62ccf1d420f83f tools headers UAPI: Sync linux/kvm.h with the kernel sources
-0a8b2a0857ede906f7b74a435b11778336770bea tools headers UAPI: Sync x86's asm/kvm.h with the kernel sources
-493ad070cbcb0d62deed877d90e80e554cac7f01 tools headers: Synchronize linux/build_bug.h with the kernel sources
-38dfd294e24c0f397413799c2e5633aedb2058bf mailmap: update email address for Muhammad Usama Anjum
-631c1111501f34980649242751e93cfdadfd1f1c mm/zswap: add missing kunmap_local()
-84481e705ab07ed46e56587fe846af194acacafe mm/damon/stat: monitor all System RAM resources
-a0124352d5329e245bde2e686914b404cb40bd91 Merge tag 'xsa482-7.0-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/xen/tip
-97a48d1aab549acb9b7f4a80d484f59710643199 Merge tag 'media/v7.0-5' of git://git.kernel.org/pub/scm/linux/kernel/git/mchehab/linux-media
-26a01984ddc1e67025fd150e845ab61d5271d6b7 Merge tag 'perf-tools-fixes-for-v7.0-2-2026-03-23' of git://git.kernel.org/pub/scm/linux/kernel/git/perf/perf-tools
-e3c33bc767b5512dbfec643a02abf58ce608f3b2 Merge tag 'mm-hotfixes-stable-2026-03-23-17-56' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
+certificate version 0.1
+pusher Stephen Hemminger <stephen@networkplumber.org> 1774369163 -0700
+pushee gitolite.kernel.org:pub/scm/linux/kernel/git/shemminger/iproute2.git
+nonce 1774369163-6526dc7a99a488a0903d0fd286784b8b96ffaa53
 
---===============9122940992350120083==--
+b7d23e62224ff3c18611c962c76a937b1ce29191 4942e67f71f2df8e45eff723af114644b0eb9894 refs/heads/main
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCAA5FiEEn2/DRbBb5+dmuDyPgKd/YJXN5H4FAmnCuYsbHHN0ZXBoZW5A
+bmV0d29ya3BsdW1iZXIub3JnAAoJEICnf2CVzeR+ajIP/Ao+sppX20ciYtn4e7Dk
+dSx33OvtXL4PdiGIFRboZga9U2/P4epjyw6/5aoPhiF6NQYA8Z+3i410EKVehida
++zf60WfocGnup8A2jm+II+PrK0kAH7bj44iNGfYoNGp0HPQllgVZ0CORywFuh9xf
+NP8UDgAwRG8o+nd5F+v17n/Is9P79qAitol+ui+CAWrlMWl+zO0THz7kc8BKrn6X
+UXi6wPXMJ/EUKZkb2STyVjmZOeHHC8GccnAaUz/YQAGH+z8IScdjenMeE5XM4VSQ
+6Kcp1xTtwSE+GX+23xAmPMGTGv4MhkH01KIZ6Yy2ENGsp5LfUX9Ngy2R1ROtRs1t
+iTli7R5Dxn9AzPEoaMJ8JsmYKuhP/WxFgTJuuXPD9tXGKKTSxOkof32YQnrAaGQG
+HKFnxReOfYqhXw5QDXRAJCuHBmCD2p4LqKOKy0ZD/Efahj2Zfdn/WrwHbntYs/N+
+G1WF/6zzqDiycgsjvdOl42OGSLB1FiXyhKC3B8yBM0lwoozsZkYDqSexPTeW8Lt5
+SsKVOp9Fc/nfTul9bqBDHmbmHPKSykQxpJxJW0Zl4OeFt8syMfozSwKv5qlZFmrr
+pNlovMVvkwxUKT2tevRw8ou/zL9jzxiNBtu9FSsoi/2jquek1Gy/wHC405Eiszr0
+5fLBfSg9zfwG2mPK1qZgcay0
+=arIr
+-----END PGP SIGNATURE-----
+
+--===============2550760488796768651==--
