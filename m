@@ -1,112 +1,29 @@
-Content-Type: multipart/mixed; boundary="===============8263669844127023377=="
+Content-Type: multipart/mixed; boundary="===============5045727021093498242=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next
-Date: Tue, 24 Mar 2026 15:46:33 -0000
-Message-Id: <177436719343.2787927.5744208723075670722@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next-history
+Date: Tue, 24 Mar 2026 15:46:51 -0000
+Message-Id: <177436721124.2788357.3432124784235617503@gitolite.kernel.org>
 
---===============8263669844127023377==
+--===============5045727021093498242==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/next/linux-next
+repo: pub/scm/linux/kernel/git/next/linux-next-history
 user: broonie
 changes:
-  - ref: refs/heads/fs-current
-    old: a961ccfe0453df75378fa70d0a04f468138c6c8c
-    new: 5e37c0af7fd5122cce5f5d001a2abe259cc654a2
-    log: revlist-a961ccfe0453-5e37c0af7fd5.txt
-  - ref: refs/heads/fs-next
-    old: e9e008a68a4c5d5a67520e9f9cbffa44602d52bc
-    new: 15539be61dc0f4946f3650ae384dcaaa2a4babc6
-    log: revlist-e9e008a68a4c-15539be61dc0.txt
   - ref: refs/heads/master
     old: 09c0f7f1bcdbc3c37a5a760cbec76bf18f278406
     new: 85964cdcad0fac9a0eb7b87a0f9d88cc074b854c
     log: revlist-09c0f7f1bcdb-85964cdcad0f.txt
-  - ref: refs/heads/pending-fixes
-    old: 7a6798981a52d463a2227257ace6df076ff40926
-    new: 2ac506b0d8b0a41582d11c612e061fa09d4b80b9
-    log: revlist-7a6798981a52-2ac506b0d8b0.txt
   - ref: refs/tags/next-20260324
     old: 0000000000000000000000000000000000000000
     new: 8b12da5deacc909c8f968954b1e0f043b5d197c5
 
---===============8263669844127023377==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a961ccfe0453-5e37c0af7fd5.txt
-
-b52fe51f724385b3ed81e37e510a4a33107e8161 btrfs: fix super block offset in error message in btrfs_validate_super()
-5254d4181add9dfaa5e3519edd71cc8f752b2f85 btrfs: fix zero size inode with non-zero size after log replay
-a4376d9a5d4c9610e69def3fc0b32c86a7ab7a41 btrfs: fix leak of kobject name for sub-group space_info
-0dcabcb920a5c143c568f37c26c6f2b4b9206bd1 btrfs: zlib: handle page aligned compressed size correctly
-a85b46db143fda5869e7d8df8f258ccef5fa1719 btrfs: tracepoints: get correct superblock from dentry in event btrfs_sync_file()
-1c37d896b12dfd0d4c96e310b0033c6676933917 btrfs: fix lost error when running device stats on multiple devices fs
-32a5a884fa2fc73745ebd2edec70200ac620f1f8 Merge branch 'misc-7.0' into next-fixes
-f30225399325d5d9c0499b3e93a229960620aae5 erofs: update the Kconfig description
-16bedf51a359ffdd02e0cf9212065a56508e0516 Merge branch 'vfs.fixes' of https://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs.git
-f30d55689f20934863971cecc22ca2d9f78a7be7 Merge branch 'next-fixes' of https://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux.git
-22b30e5192892f53e1a2d06b65eb98f01f194489 Merge branch 'fixes' of https://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs.git
-5e37c0af7fd5122cce5f5d001a2abe259cc654a2 Merge branch 'fixes' of https://git.kernel.org/pub/scm/linux/kernel/git/xiang/erofs.git
-
---===============8263669844127023377==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e9e008a68a4c-15539be61dc0.txt
-
-34420cb92dbb9e37ff6c6603f4f5e1807db3f1de smb/client: ensure smb2_mapping_table rebuild on cmd changes
-bfd4ac7c2d073f40d47cbd3dd0a28cdf2f74ab0f exfat: fix passing zero to ERR_PTR() in exfat_mkdir()
-b52fe51f724385b3ed81e37e510a4a33107e8161 btrfs: fix super block offset in error message in btrfs_validate_super()
-5254d4181add9dfaa5e3519edd71cc8f752b2f85 btrfs: fix zero size inode with non-zero size after log replay
-a4376d9a5d4c9610e69def3fc0b32c86a7ab7a41 btrfs: fix leak of kobject name for sub-group space_info
-0dcabcb920a5c143c568f37c26c6f2b4b9206bd1 btrfs: zlib: handle page aligned compressed size correctly
-a85b46db143fda5869e7d8df8f258ccef5fa1719 btrfs: tracepoints: get correct superblock from dentry in event btrfs_sync_file()
-1c37d896b12dfd0d4c96e310b0033c6676933917 btrfs: fix lost error when running device stats on multiple devices fs
-32a5a884fa2fc73745ebd2edec70200ac620f1f8 Merge branch 'misc-7.0' into next-fixes
-e2de65130d6ce599cfc114c515665194fe2dbf1d gfs2: Avoid unnecessary transactions in evict_linked_inode
-2b34a9e760f484a437a768781444da1f67a92768 gfs2: minor evict_[un]linked_inode cleanup
-bd67f17718ccb3e99ab834f4d32f848a471e6bbf gfs2: Fix data loss during inode evict
-7288185ce87ec70133b7bc3b694b0f74bf46a0ee gfs2: less aggressive low-memory log flushing
-5a15907f99e5d93b0133be608a9bbe24fd76f67a gfs2: Get rid of gfs2_log_[un]lock helpers
-10866892c79159168459289a1288df4163e94d67 gfs2: Move gfs2_remove_from_journal to log.c
-9e34adb1cc582bbcf1d74b23f1e6d9d71fb99fa1 gfs2: Remove trans_drain code duplication
-8ddea4cd0b37a671b9e0ac83777b7933f2cce882 gfs2: bufdata locking fix
-767e4de3ffce3a098125cf6e41eb9b4093bff598 gfs2: per-filesystem bufdata cache
-f30225399325d5d9c0499b3e93a229960620aae5 erofs: update the Kconfig description
-6b956a871865193a194dbd028334c8e1b20c8d5f erofs: harden h_shared_count in erofs_init_inode_xattrs()
-16bedf51a359ffdd02e0cf9212065a56508e0516 Merge branch 'vfs.fixes' of https://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs.git
-f30d55689f20934863971cecc22ca2d9f78a7be7 Merge branch 'next-fixes' of https://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux.git
-22b30e5192892f53e1a2d06b65eb98f01f194489 Merge branch 'fixes' of https://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs.git
-5e37c0af7fd5122cce5f5d001a2abe259cc654a2 Merge branch 'fixes' of https://git.kernel.org/pub/scm/linux/kernel/git/xiang/erofs.git
-9e5616cc95dbcf25ee2a8552cece02ce3627469a Merge branch 'for-next' of https://git.kernel.org/pub/scm/fs/fscrypt/linux.git
-886d6f0e1a846f8188525a662c6b51fd6fe3bb6c Merge branch 'for-next' of https://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux.git
-fd2babfe6c7a75209c4d4252a1be17bd98497b6a Merge branch 'master' of https://github.com/ceph/ceph-client.git
-f799464f2ca85cf2c8c80476dd700eee54c88688 Merge branch 'for-next' of git://git.samba.org/sfrench/cifs-2.6.git
-40205a9e561dea3b538265511ab8c03116bce98b Merge branch 'next' of https://git.kernel.org/pub/scm/linux/kernel/git/tyhicks/ecryptfs.git
-1712a2fa356eb7fdca913da85e7d8e612b1e5c13 Merge branch 'dev' of https://git.kernel.org/pub/scm/linux/kernel/git/xiang/erofs.git
-6df44fb12e0de16863315e5932ec5fa7b7dcf219 Merge branch 'dev' of https://git.kernel.org/pub/scm/linux/kernel/git/linkinjeon/exfat.git
-9f984e696d94512cec3449926aefd52f4c862ee7 Merge branch 'for_next' of https://git.kernel.org/pub/scm/linux/kernel/git/jack/linux-fs.git
-db0cae8667e70a8af54bb6394567a95965f88bba ext4: kunit: extents-test: Fix percpu_counters list corruption
-752777671858e5f5fdd935ff39baa4c349d4269a Merge branch 'dev' of https://git.kernel.org/pub/scm/linux/kernel/git/jaegeuk/f2fs.git
-156975684a66b3e70410cbdc57dacd2109127dca Merge branch 'for-next' of https://git.kernel.org/pub/scm/linux/kernel/git/mszeredi/fuse.git
-01b9f68ea8dbe5206d3ffccd0bf2413d697562d7 Merge branch 'for-next' of https://git.kernel.org/pub/scm/linux/kernel/git/gfs2/linux-gfs2.git
-671c45a766abcb8d6756aa1d08a91d8f9911add5 Merge branch 'jfs-next' of https://github.com/kleikamp/linux-shaggy.git
-680af7883f3510410b746f007ce126a95a728f80 Merge branch 'ksmbd-for-next' of https://github.com/smfrench/smb3-kernel.git
-a6db6fbe9179d35a09dba7ae27c9f86a4264254e Merge branch 'nfsd-next' of https://git.kernel.org/pub/scm/linux/kernel/git/cel/linux
-207401ffddbd1332785dd0d61a2da33747adb522 Merge branch 'ntfs-next' of https://git.kernel.org/pub/scm/linux/kernel/git/linkinjeon/ntfs.git
-a869b7026e02cc5af338a017a53ea50951051972 Merge branch 'master' of https://github.com/Paragon-Software-Group/linux-ntfs3.git
-1efda9f01dd507d65cd85b0a661af126a486933b Merge branch 'next' of https://git.kernel.org/pub/scm/linux/kernel/git/rw/ubifs.git
-bac987e11b27e977e6fbc453fd529734e158da32 Merge branch '9p-next' of https://github.com/martinetd/linux
-d03259608d4bc31d9d5fcdba7feae911942236d6 Merge branch 'for-next' of https://git.kernel.org/pub/scm/fs/xfs/xfs-linux.git
-15539be61dc0f4946f3650ae384dcaaa2a4babc6 next-20260312/vfs-brauner
-
---===============8263669844127023377==
+--===============5045727021093498242==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1137,124 +1054,4 @@ a29624ac40cce2edea305b004f31b8e0d5318503 Merge branch 'for-next' of https://git.
 b2a742bdf0c6585f72121b8f245c87d7d5ddb19e Merge branch 'for-next' of https://github.com/hisilicon/linux-hisi.git
 85964cdcad0fac9a0eb7b87a0f9d88cc074b854c Add linux-next specific files for 20260324
 
---===============8263669844127023377==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7a6798981a52-2ac506b0d8b0.txt
-
-05243d490bb7852a8acca7b5b5658019c7797a52 x86/cpu: Enable FSGSBASE early in cpu_init_exception_handling()
-93702ed64fd0c433289b3846c2cefced4a88a043 MAINTAINERS: change email address of Denis Benato
-e0836f48e19147a85ae652335e517b0385a32fd3 platform/x86: asus-armoury: add support for GA503QM
-d2723918d51b238b42efcaac553697aa84f15232 platform/x86: asus-armoury: add support for G614FP
-55b964dfbadc3729d3606849471eab11705f578a platform/x86: hp-wmi: Add Omen 16-xf0xxx (8BCA) support
-84d29bfd1929d08f092851162a3d055a2134d043 platform/x86: hp-wmi: Add support for Omen 16-wf1xxx (8C76)
-435da773966c80e1b2b6aea75460ef0e893fd9e9 platform/x86: hp-wmi: Add support for Omen 16-k0xxx (8A4D)
-9f11d9b15efb5f77e810b6dfbeb01b4650a79eae platform/x86: ISST: Check HWP support before MSR access
-5a3955f3602950d1888df743a5b1889e43b5cb60 platform/x86: lenovo: wmi-gamezone: Drop gz_chain_head
-2061f7b042f88d372cca79615f8425f3564c0b40 platform/olpc: olpc-xo175-ec: Fix overflow error message to print inlen
-7ff61be5a4844d4aaa31732a5831dd5cd6136448 platform/x86/amd/hsmp: Fix typo in error message
-0198d2743207d67f995cd6df89e267e1b9f5e1f1 platform/x86: asus-nb-wmi: add DMI quirk for ASUS ROG Flow Z13-KJP GZ302EAC
-8a243d972aff2e0b0141048a3feaf3b13d78985c platform/x86: asus-armoury: add support for GZ302EA and GZ302EAC
-e02ea3ae8ee40d5835a845884c7b161a27c10bcb platform/x86: intel-hid: disable wakeup_mode during hibernation
-411df123c017169922cc767affce76282b8e6c85 x86/cpu: Remove X86_CR4_FRED from the CR4 pinned bits mask
-3645eb7e3915990a149460c151a00894cb586253 x86/fred: Fix early boot failures on SEV-ES/SNP guests
-a3e93cac25316aad03bf561e3c205f4ca0b8f452 x86/cpu: Add comment clarifying CRn pinning
-ef3d549e1deb3466c61f3b01d22fc3fe3e5efb08 spi: sn-f-ospi: Fix resource leak in f_ospi_probe()
-a42c9b8b0c00ecd9b7467844f2fbfc766898bf54 spi: sn-f-ospi: Use devm_mutex_init() to simplify code
-38dfd294e24c0f397413799c2e5633aedb2058bf mailmap: update email address for Muhammad Usama Anjum
-631c1111501f34980649242751e93cfdadfd1f1c mm/zswap: add missing kunmap_local()
-84481e705ab07ed46e56587fe846af194acacafe mm/damon/stat: monitor all System RAM resources
-5a184f1cb43a8e035251c635f5c47da5dc3e3049 ASoC: Intel: catpt: Fix the device initialization
-63542bb402b7013171c9f621c28b609eda4dbf1f spi: meson-spicc: Fix double-put in remove path
-b52fe51f724385b3ed81e37e510a4a33107e8161 btrfs: fix super block offset in error message in btrfs_validate_super()
-5254d4181add9dfaa5e3519edd71cc8f752b2f85 btrfs: fix zero size inode with non-zero size after log replay
-a4376d9a5d4c9610e69def3fc0b32c86a7ab7a41 btrfs: fix leak of kobject name for sub-group space_info
-0dcabcb920a5c143c568f37c26c6f2b4b9206bd1 btrfs: zlib: handle page aligned compressed size correctly
-a85b46db143fda5869e7d8df8f258ccef5fa1719 btrfs: tracepoints: get correct superblock from dentry in event btrfs_sync_file()
-1c37d896b12dfd0d4c96e310b0033c6676933917 btrfs: fix lost error when running device stats on multiple devices fs
-32a5a884fa2fc73745ebd2edec70200ac620f1f8 Merge branch 'misc-7.0' into next-fixes
-2d8c5098b847f37dde8351fb5b5d190f1bb5c576 PCI/pwrctrl: Do not power off on pwrctrl device removal
-70bb843794d150db8e653c9ab288c8533da00837 PCI/pwrctrl: Fix pci_pwrctrl_is_required() device node leak
-05f643d6f7e699198ccc47e634de3879a8ec26a3 Documentation: PCI: Document PCIe TLP Header decoder for AER messages
-6af51e9f31336632263c4680b2a3712295103e1f ipv6: Remove permanent routes from tb6_gc_hlist when all exceptions expire.
-4be7b99c253f0c85a255cc1db7127ba3232dfa30 ipv6: Don't remove permanent routes with exceptions from tb6_gc_hlist.
-3e9e84e92c9c2eec396ee62a2e47b85781520c57 selftest: net: Add GC test for temporary routes with exceptions.
-b1791180a2710830bf909e1eadf2c3d362e7ce63 Merge branch 'ipv6-fix-two-gc-issues-with-permanent-routes'
-42156f93d123436f2a27c468f18c966b7e5db796 net: fix fanout UAF in packet_release() via NETDEV_UP race
-5d423c6c4941eda1ad770d6e7c8c3dd3c86c4b6b mm/pagewalk: fix race between concurrent split and refault
-dbcad97d642fa62c32e529b4402e0b9e498294a0 mm: filemap: fix nr_pages calculation overflow in filemap_map_pages()
-192d3ad81b9857b383cd12f898c75ec66bbfe9e4 mm/huge_memory: fix folio isn't locked in softleaf_to_folio()
-0afb91a024b7faaf078a215190a18844b7e0be14 mm-huge_memory-fix-folio-isnt-locked-in-softleaf_to_folio-v4
-12ac269de0e2bda0644f0701dd0761278375714b MAINTAINERS, mailmap: update email address for Harry Yoo
-4afe6d203e4620b41e51d5dbc30262e64130b14a mm/swap: fix swap cache memcg accounting
-70a66be42ee82743ec53e4ab79d18ae0c1f0dec0 mm/damon/sysfs: fix param_ctx leak on damon_sysfs_new_test_ctx() failure
-9714b98ea67eceeafe81cdae6a4086deb1d255d3 mm/damon/sysfs: check contexts->nr before accessing contexts_arr[0]
-b090b59693d795edc2cdd7d7a535def91988d619 mm/damon/sysfs: check contexts->nr in repeat_call_fn
-59ff427325034f2d2565a03c76745c6b105423ba mm/hugetlb: restore reservation on error in hugetlb_mfill_atomic_pte() resubmission path
-4162d83bbf0d7e338dae041fdaf040323d907255 mm/memory: fix PMD/PUD checks in follow_pfnmap_start()
-aad03535b0648258715c52678ee39fcba0486677 bug: avoid format attribute warning for clang as well
-1065913dedfd3a8269816835bfe810b6e2c28579 net: airoha: add RCU lock around dev_fill_forward_path
-3f0f591b44b04a77ff561676ae53fcfd7532a54c net: b44: always select CONFIG_FIXED_PHY
-e537dd15d0d4ad989d56a1021290f0c674dd8b28 udp: Fix wildcard bind conflict check when using hash2
-70b439bf06f6a12e491f827fa81a9887a11501f9 net: enetc: fix the output issue of 'ethtool --show-ring'
-f30225399325d5d9c0499b3e93a229960620aae5 erofs: update the Kconfig description
-77fcf58df15edcf3f5b5421f24814fb72796def9 drm/i915/dp_tunnel: Fix error handling when clearing stream BW in atomic state
-e69419a3aebdf0885bc159b68d653f608a9a3e32 Merge branch into tip/master: 'x86/urgent'
-2b821a6205b8b7fa7f0486507a63a46a06562a2d KVM: arm64: set_id_regs: Allow GICv3 support to be set at runtime
-38ec410b99a5ee6566f75650ce3d4fd632940fd0 virtio-net: correct hdr_len handling for VIRTIO_NET_F_GUEST_HDRLEN
-6c860dc02a8e60b438e26940227dfa641fcdb66a virtio-net: correct hdr_len handling for tunnel gso
-673bb63d20064f0d42d61a4ca481a8cc10ebf552 Merge branch 'virtio-net-fix-for-virtio_net_f_guest_hdrlen'
-bb90920c5ae1217449409dc0b5256c6ed4ccab27 KVM: arm64: vgic: Don't reset cpuif/redist addresses at finalize time
-3a060f373c975b6f90435f10df161092d52712d7 Merge branch kvm-arm64/vgic-v5-ppi into kvmarm-master/next
-425000dbf17373a4ab8be9428f5dc055ef870a56 team: fix header_ops type confusion with non-Ethernet ports
-56063823b9f0e2acdca4d621face5c6a7a1f4c99 selftests: team: add non-Ethernet header_ops reproducer
-25f5463c91fdd06577298d552d3fe262aa291f11 Merge branch 'team-fix-header_ops-type-confusion-and-add-selftest'
-fbddf68d7b4e1e6da7a78dd7fbd8ec376536584a platform/x86: ISST: Correct locked bit width
-16bedf51a359ffdd02e0cf9212065a56508e0516 Merge branch 'vfs.fixes' of https://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs.git
-f30d55689f20934863971cecc22ca2d9f78a7be7 Merge branch 'next-fixes' of https://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux.git
-22b30e5192892f53e1a2d06b65eb98f01f194489 Merge branch 'fixes' of https://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs.git
-5e37c0af7fd5122cce5f5d001a2abe259cc654a2 Merge branch 'fixes' of https://git.kernel.org/pub/scm/linux/kernel/git/xiang/erofs.git
-a8eb068e172638134ca542b57d50aaabb9fe6e80 Merge branch 'mm-hotfixes-unstable' of https://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
-0663d1510bbac9c469c5ea0eccbf900e0e5f6571 Merge branch 'fs-current' of linux-next
-a9855e03101eb3284bd799e6e068ce28cf495472 Merge branch 'kbuild-fixes-for-next' of https://git.kernel.org/pub/scm/linux/kernel/git/kbuild/linux.git
-651194a96218f76453f1c1f8e48364f61ee56364 Merge branch 'main' of https://git.kernel.org/pub/scm/linux/kernel/git/netdev/net.git
-3454f106b9dda7cc4d3c5f412abe2722a0cb034d Merge branch 'master' of https://git.kernel.org/pub/scm/linux/kernel/git/klassert/ipsec.git
-5bd1f79e66ad064ee5669a8fff22afeac254c1fb Merge branch 'for-rc' of https://git.kernel.org/pub/scm/linux/kernel/git/rdma/rdma.git
-d122af52d0a4dc713470c6d06850bb2a16128f64 Merge branch 'for-linus' of https://git.kernel.org/pub/scm/linux/kernel/git/tiwai/sound.git
-08d840513fa9977a8c8e3969aadaa8c74532fe62 Merge branch 'for-linus' of https://git.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-40b1626eaf63e70670d30c4e54f19bd75699067d Merge branch 'for-linus' of https://git.kernel.org/pub/scm/linux/kernel/git/broonie/regmap.git
-67272a534c11fa3c2aa503cd02a27c32169aa187 Merge branch 'for-linus' of https://git.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
-efdf37064a9f3cf85e4e94f44d4a9ef6482f7368 Merge branch 'for-linus' of https://git.kernel.org/pub/scm/linux/kernel/git/pci/pci.git
-122a43ea9135fb29677f180aa218f53d51ec2dd4 Merge branch 'usb-linus' of https://git.kernel.org/pub/scm/linux/kernel/git/gregkh/usb.git
-2bdb7f9f4471ae282d5016f05edf2d2a0d7f9059 Merge branch 'usb-linus' of https://git.kernel.org/pub/scm/linux/kernel/git/johan/usb-serial.git
-74c50fbdc2e3caadf15614e9f793a3949fea89fc Merge branch 'fixes' of https://git.kernel.org/pub/scm/linux/kernel/git/phy/linux-phy.git
-ed3bd2fb2a3e97330154ab5b0765638f280601b0 Merge branch 'fixes-togreg' of https://git.kernel.org/pub/scm/linux/kernel/git/jic23/iio.git
-b3128ef483680864abd4f033712b24b4a57b2e30 Merge branch 'counter-current' of https://git.kernel.org/pub/scm/linux/kernel/git/wbg/counter.git
-5959449dc1008ce42ac565062c0b5ebddc578d7f Merge branch 'for-linus' of https://git.kernel.org/pub/scm/linux/kernel/git/dtor/input.git
-71b207d2119ea07beffab8bc86b96cec48b414ef Merge branch 'fixes' of https://git.kernel.org/pub/scm/linux/kernel/git/vkoul/dmaengine.git
-80b3fe809f720e4658c7f65bd7b883915cf892a8 Merge branch 'for-mfd-fixes' of https://git.kernel.org/pub/scm/linux/kernel/git/lee/mfd.git
-61eb2f61da1227833b603f976990858f27a3f65b Merge branch 'fixes' of git://linuxtv.org/media-ci/media-pending.git
-2a7a62a247f98af622c2051e28fe7cd74758bb07 Merge branch 'reset/fixes' of https://git.pengutronix.de/git/pza/linux
-b026e7330a0cbc9d9b89d42dd0313b96354d7240 Merge branch 'master' of https://git.kernel.org/pub/scm/linux/kernel/git/kvms390/linux.git
-14bbc730e4192477d6f7f838b820c2963d5f0280 Merge branch 'fixes' of https://git.kernel.org/pub/scm/linux/kernel/git/kvmarm/kvmarm.git
-3216bef2782acaac9f1b5d4f6fb48c684a093143 Merge branch 'hwmon' of https://git.kernel.org/pub/scm/linux/kernel/git/groeck/linux-staging.git
-a0a37503d0aee6555ac5f45ccd2d59134d2820e9 Merge branch 'fixes' of https://git.kernel.org/pub/scm/linux/kernel/git/cxl/cxl.git
-159d20eb74548dccb1ad7d6b9b9bad1ac2f4845c Merge branch 'dma-mapping-fixes' of https://git.kernel.org/pub/scm/linux/kernel/git/mszyprowski/linux.git
-8a2a33c366c26041b1d0864cd69422c4e91f6a0f Merge branch 'fixes' of https://git.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86.git
-fccd89432e3a6ac568f4871a18da4ae5632c1209 Merge branch 'fixes' of https://git.kernel.org/pub/scm/linux/kernel/git/mkp/scsi.git
-ce8132016442d8917ce22d8d4721e66a572e627a Merge branch 'for-linux-next-fixes' of https://gitlab.freedesktop.org/drm/i915/kernel.git
-3a3e228f92bbacff3e670a536ec39e34627e7686 Merge branch 'fixes' of https://git.kernel.org/pub/scm/linux/kernel/git/riscv/linux.git
-5db643794e9af685b77b8bd56fa36f68bafd7795 Merge branch 'riscv-dt-fixes' of https://git.kernel.org/pub/scm/linux/kernel/git/conor/linux.git
-b807280d922a409f73c5b2fb844eb559308ff8fc Merge branch 'riscv-soc-fixes' of https://git.kernel.org/pub/scm/linux/kernel/git/conor/linux.git
-d8e719a2d284882b032a7ffeb86dce110980d261 Merge branch 'spdx-linus' of https://git.kernel.org/pub/scm/linux/kernel/git/gregkh/spdx.git
-3ca90cbccf464d05e639aa3f92825b4e1deddfca Merge branch 'gpio/for-current' of https://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux.git
-046c08002135a5e90381d02c5401202257efd096 Merge branch 'fixes' of https://git.kernel.org/pub/scm/linux/kernel/git/andy/linux-auxdisplay.git
-5dbc214af7ab171bbffdfb624fa739fc1d3919d1 Merge branch 'fixes' of https://git.kernel.org/pub/scm/linux/kernel/git/geert/renesas-devel.git
-035a87645d16369b632de791f083a0a3ad463fad Merge branch 'perf-tools' of https://git.kernel.org/pub/scm/linux/kernel/git/perf/perf-tools.git
-621845aba26df62df7f1e21afe705f7cdba64782 Merge branch 'urgent' of https://git.kernel.org/pub/scm/linux/kernel/git/efi/efi.git
-f0e1a14bdcd79a502c79261be388fd448ae402cd Merge branch 'tip/urgent' of https://git.kernel.org/pub/scm/linux/kernel/git/tip/tip.git
-39d2b5c1b7a486e0ad539c28576b1e29345333df Merge branch 'fixes' of https://git.kernel.org/pub/scm/linux/kernel/git/devsec/tsm.git
-2ac506b0d8b0a41582d11c612e061fa09d4b80b9 Merge branch 'for-linux-next-fixes' of https://gitlab.freedesktop.org/drm/misc/kernel.git
-
---===============8263669844127023377==--
+--===============5045727021093498242==--
