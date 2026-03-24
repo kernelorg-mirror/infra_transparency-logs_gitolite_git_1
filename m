@@ -1,27 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mptcp/linux
-Date: Tue, 24 Mar 2026 12:10:40 -0000
-Message-Id: <177435424047.2597261.7694329202240762278@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============8487182785475432102=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Tue, 24 Mar 2026 12:12:19 -0000
+Message-Id: <177435433928.2598412.9304708550827097158@gitolite.kernel.org>
+
+--===============8487182785475432102==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mptcp/linux
-user: matttbe
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/export-net
-    old: 2262cbeb525a5f8b52e64dd6cb4a92622821db7f
-    new: edd39c49969296018502ebceb2afb9c149c1b6b4
+  - ref: refs/heads/master
+    old: 250d44153d44ef728d76231091c7406bca402252
+    new: 124a2860380da21a6dbc35fa380a3b6ecd061319
     log: |
-         00dad982e1170c9f1b779fbe43a2b8a554b5b83b DO-NOT-MERGE: git markup: net
-         15d41e747105d08ba4d4be821d76ede98fdb5061 DO-NOT-MERGE: git markup: fixes other trees
-         ab8ba626b161b305d880d47d766d4d662fa813c1 mptcp: fix soft lockup in mptcp_recvmsg()
-         3bb49bd3c6e9da7ab4c6e8103ed2bddbfe2f7c6d DO-NOT-MERGE: git markup: fixes net
-         a02724ae1633e03515d10619253f43db72eab805 DO-NOT-MERGE: mptcp: add CI support
-         1768ba7a3fffeefc39e760b95cafba71073e1db8 DO-NOT-MERGE: git markup: end common net net-next
-         40911ff5567b9a88dca8049df3a9f82288872067 DO-NOT-MERGE: git markup: fixes net only
-         f171dfbe0efb438260a7714374d520723ab1231d DO-NOT-MERGE: mptcp: improve code coverage for CI (net)
-         edd39c49969296018502ebceb2afb9c149c1b6b4 DO-NOT-MERGE: mptcp: enabled by default (net)
+         124a2860380da21a6dbc35fa380a3b6ecd061319 5.10-stable patches
          
+
+--===============8487182785475432102==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1774354318 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1774354337-72d5c08ffcdfb229831338563a857021215f883c
+
+250d44153d44ef728d76231091c7406bca402252 124a2860380da21a6dbc35fa380a3b6ecd061319 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmnCf44bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+hecP/iCbi9SGD78vISg3tCNI
+XMd2fWmOHp31cwzNcGXdjvx/UBhAlUTPT5NTlTk7rl9y+tJ8rBcYN/4oKKHBL4vy
+gEGnEbsBy/l7+eGAAzEqfVC9qyh0nQ4O0EELZiaRX/RIdiuLCLYdI0hRgy1zG3Y4
+wwfLufZhDLXI2fUidpwTb3Nq92Lexmpr5mkLITxHnEuRf2pp23CrhZ9EgweMwWGT
+zAgzOiXBoHPACrIDXzgFgvkNy569l/GvycaAwhyrTe1tKZ5zUICOV8d1UqwMMnOC
+BwpZ1PZ3awbImHQbPynRVlIr9QnV2brITAHz2XP4shGC5lKYrS8MliIIASQ/59GL
+N+QrHFZ+YCGZdTx4R3ywnG35W5cGhb1ZB8jQUirL7wH4PolmCPkWyD6LSSF82Yah
+A8yO9fpFOU6NgXm2SVbQ2jNFgrpdvz/cL+TBTuiKOhB0BuynGhH7DsuegyignOo+
+sRepOPvpUuMu4Do19wDRp7Rtd9A7lxI6e0sdN1HOnqT8/Wq+cJyn2JrAETNQIdjb
+qHL8xSPQffC9laCi0Wf0/EiD8C+UWBDKHyZ869KRIAG811iz9hmhs9QXMmbGZuzS
+bigHnOUwUp6DdAZfI6msROdQk5w7dapVOxzRYZTMFUTvHOP9NAcnNRp+5jt6anrM
+ku7URqc/LEOGkaMzzBdOJNR7
+=Tczx
+-----END PGP SIGNATURE-----
+
+--===============8487182785475432102==--
