@@ -1,16 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/mm
-Date: Tue, 24 Mar 2026 00:57:20 -0000
-Message-Id: <177431384038.2050477.977197477968175524@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Tue, 24 Mar 2026 00:59:45 -0000
+Message-Id: <177431398579.2051284.12422148540245345665@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/mm
-user: akpm
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
-  - ref: refs/tags/mm-hotfixes-stable-2026-03-23-17-56
-    old: 0000000000000000000000000000000000000000
-    new: 46bc330d9cd3e4bc755069dcda5068d16bea0694
+  - ref: refs/heads/main
+    old: 0e10381626546e3c77a11c7972d1264301abd733
+    new: 9027497a25e3c92b5053b2643e0c18f910865625
+    log: |
+         eb37011395f12138056a4d124159f1a8436662d3 net: add netdev_from_priv() helper
+         9027497a25e3c92b5053b2643e0c18f910865625 team: use netdev_from_priv()
+         
