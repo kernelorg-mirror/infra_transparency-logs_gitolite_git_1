@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/printk/linux
-Date: Tue, 24 Mar 2026 13:33:49 -0000
-Message-Id: <177435922912.2669066.16889057604092426116@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/at91/linux
+Date: Tue, 24 Mar 2026 13:36:44 -0000
+Message-Id: <177435940477.2672825.15904445557501397072@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/printk/linux
-user: pmladek
+repo: pub/scm/linux/kernel/git/at91/linux
+user: claudiu.beznea
 changes:
-  - ref: refs/heads/for-7.1
-    old: db9571a66156bfbc0273e66e5c77923869bda547
-    new: f4cf0992be37e6a8bc6cf9108f2c9628a6188381
+  - ref: refs/heads/at91-next
+    old: 57e2be9783f3b7c4d7f5f034cb3edb7b52c9db49
+    new: c96e60ae720a88b51cbfa06abcfd3e435b0e65ba
     log: |
-         f4cf0992be37e6a8bc6cf9108f2c9628a6188381 printf: add IPv6 address format tests
+         7d7a9fc1310a0ade8ea61c5eb4d8b29456f8d604 ARM: dts: microchip: sama7d65: add Cortex-A7 PMU node
+         c96e60ae720a88b51cbfa06abcfd3e435b0e65ba Merge branch 'at91-dt' into at91-next
          
