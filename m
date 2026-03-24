@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
-Date: Tue, 24 Mar 2026 00:39:46 -0000
-Message-Id: <177431278626.2033639.2294010981718287453@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Tue, 24 Mar 2026 00:46:01 -0000
+Message-Id: <177431316161.2040642.3099325852057891508@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/25-new
-user: akpm
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
-  - ref: refs/heads/master
-    old: df0d14fab7b1e9af39b184834cc20ec47b1cd74b
-    new: 5840da36b5f259792d865a352dbbc296197c76fa
+  - ref: refs/heads/main
+    old: ad6b67ffd2e8d53e5c306ce74b6f0d23b430df8a
+    new: 0e10381626546e3c77a11c7972d1264301abd733
     log: |
-         5840da36b5f259792d865a352dbbc296197c76fa foo
+         4e9b1994a105fefe558b245f2076a70cc6b498a9 ieee802154: atusb: drop redundant device reference
+         0e10381626546e3c77a11c7972d1264301abd733 nfc: microread: Drop unused include
          
