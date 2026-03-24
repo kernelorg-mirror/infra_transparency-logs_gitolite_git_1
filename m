@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2435265145939629247=="
+Content-Type: multipart/mixed; boundary="===============4568315910076798480=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs
-Date: Tue, 24 Mar 2026 17:20:54 -0000
-Message-Id: <177437285498.2876959.14950086551084206675@gitolite.kernel.org>
+Date: Tue, 24 Mar 2026 17:21:16 -0000
+Message-Id: <177437287684.2877393.17096458895870944956@gitolite.kernel.org>
 
---===============2435265145939629247==
+--===============4568315910076798480==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,47 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jaegeuk/f2fs
 user: jaegeuk
 changes:
-  - ref: refs/heads/master
-    old: 6de23f81a5e08be8fbf5e8d7e9febc72a5b5f27f
-    new: e3c33bc767b5512dbfec643a02abf58ce608f3b2
-    log: revlist-6de23f81a5e0-e3c33bc767b5.txt
+  - ref: refs/heads/dev-test
+    old: db195c227f8d8b43180629f0e70dbd66c04461dd
+    new: 34a3979efa774fe4bcc9ea140a80e8abfe0f4282
+    log: revlist-db195c227f8d-34a3979efa77.txt
 
---===============2435265145939629247==
+--===============4568315910076798480==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6de23f81a5e0-e3c33bc767b5.txt
+Content-Disposition: attachment; filename=revlist-db195c227f8d-34a3979efa77.txt
 
-528d89a4707e5bfd86e30823c45dbb66877df900 x86/topo: Fix SNC topology mess
-59674fc9d0bfd96ce8a776680ee1cf22c28c9ac7 x86/resctrl: Fix SNC detection
-4ebe2b8cda7e91a30c1cf1d297605682540d4ad9 tools headers x86 cpufeatures: Sync with the kernel sources
-1b3f004bac8e2c9e340ac237bd5b36b686ae63e8 tools headers UAPI: Sync x86's asm/kvm.h with the kernel sources
-40d3f622477ccd99118498df5283941bf546dd9c Merge tag 'pinctrl-v7.0-2' of git://git.kernel.org/pub/scm/linux/kernel/git/linusw/linux-pinctrl
-d658686a1331db3bb108ca079d76deb3208ed949 sched/deadline: Fix missing ENQUEUE_REPLENISH during PI de-boosting
-b5ef09a77d0b5213268300eedd8a7d28b4e92d47 x86/entry/vdso32: Work around libgcc unwinder bug
-340cea84f691c5206561bb2e0147158fe02070be cifs: open files should not hold ref on superblock
-4053c47680da0a03a8df66735904d5b92db6a144 Merge tag 'media/v7.0-3' of git://git.kernel.org/pub/scm/linux/kernel/git/mchehab/linux-media
-0100e495cdf0436bd4ed2dc034d385b44cb5993c arm64: make runtime const not usable by modules
-ecc64d2dc9ff9738d2a896beb68e02c2feaf9a02 Merge tag 'sysctl-7.00-fixes-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/sysctl/sysctl
-2b76e0cc7803e5ab561c875edaba7f6bbd87fbb0 mmc: sdhci-pci-gli: fix GL9750 DMA write corruption
-7a8464555d2e5f038758bb19e72ab4710b79e9cd sched_ext: Use WRITE_ONCE() for the write side of dsq->seq update
-50d7b4332f27762d24641970fc34bb68a2621926 mm: memfd_luo: always make all folios uptodate
-7e04bf1f33151a30e06a65b74b5f2c19fc2be128 mm: memfd_luo: always dirty all folios
-d210fdcac9c0d1380eab448aebc93f602c1cd4e6 mm/damon/core: clear walk_control on inactive context in damos_walk()
-f4355d6bb39fc8e53d772fa0654c8441b214e349 mm/cma: move put_page_testzero() out of VM_WARN_ON in cma_release()
-2d28ed588f8d7d0d41b0a4fad7f0d05e4bbf1797 Revert "ptdesc: remove references to folios from __pagetable_ctor() and pagetable_dtor()"
-5548dd7fa84510f7bbce67c35cc3b388c86aeddf tools/testing: fix testing/vma and testing/radix-tree build
-ba4c3698e6963eacd8e7c86c13343631bfeabe55 zram: rename writeback_compressed device attr
-a1e59fc6ee4ed8988ea4aeb9224e75d03175be9c mm/hugetlb.c: use __pa() instead of virt_to_phys() in early bootmem alloc code
-dccd5ee2625d50239510bcd73ed78559005e00a3 memcg: fix slab accounting in refill_obj_stock() trylock path
-06de173b138513087896f9cf090f30b35846518d MAINTAINERS: add RELAY entry
-431b04f0084d244569e81ca4216a40644b23b0c5 MAINTAINERS: add co-maintainer and reviewer for SLAB ALLOCATOR
-577a1f495fd78d8fb61b67ac3d3b595b01f6fcb0 mm/huge_memory: fix a folio_split() race condition with folio_try_get()
-7392f8e4ea632622b2cd2086675ba022db238b3a uaccess: correct kernel-doc parameter format
-599b4e290c8766b19378d85d4310c6ec8f90ade4 mm/mmu_notifier: clean up mmu_notifier.h kernel-doc
-b12bbe35c7c1e431f2fa01fe9291daa52fb7ab43 MAINTAINERS, mailmap: update email address for Lorenzo Stoakes
-68785c5e79e0fc1eacf63026fbba32be3867f410 drm/amd/pm: remove invalid gpu_metrics.energy_accumulator on smu v13.0.x
-2c1030f2e84885cc58bffef6af67d5b9d2e7098f drm/amdgpu: Fix use-after-free race in VM acquire
 a145bbff6f53ab80757a15eba5ad2ba8e3bdc9dc drm/amdgpu/psp: Use Indirect access address for GFX to PSP mailbox
 048c1c4e51715ffddd4189745c07f530f34fbe37 drm/amdgpu/userq: Consolidate wait ioctl exit path
 65b5c326ce4103620c977b8dcb1699bdac4da143 drm/amdgpu/userq: refcount userqueues to avoid any race conditions
@@ -1050,5 +1020,35 @@ a0124352d5329e245bde2e686914b404cb40bd91 Merge tag 'xsa482-7.0-tag' of git://git
 97a48d1aab549acb9b7f4a80d484f59710643199 Merge tag 'media/v7.0-5' of git://git.kernel.org/pub/scm/linux/kernel/git/mchehab/linux-media
 26a01984ddc1e67025fd150e845ab61d5271d6b7 Merge tag 'perf-tools-fixes-for-v7.0-2-2026-03-23' of git://git.kernel.org/pub/scm/linux/kernel/git/perf/perf-tools
 e3c33bc767b5512dbfec643a02abf58ce608f3b2 Merge tag 'mm-hotfixes-stable-2026-03-23-17-56' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
+d69ee59d38a28ba94347aa8c5cf829825f02f243 f2fs: remove unreachable code in f2fs_encrypt_one_page()
+3cf11e6f36c170050c12171dd6fd3142711478fc f2fs: fix to avoid memory leak in f2fs_rename()
+5604129b6504c2d6dfbc02515c43e6186a1285e7 f2fs:Fix incomplete search range in f2fs_get_victim when f2fs_need_rand_seg is enabled
+68a0178981a0f493295afa29f8880246e561494c f2fs: fix incorrect file address mapping when inline inode is unwritten
+265dccda706667b9c2b6d690636db1df1f751948 f2fs: Add defrag_blocks sysfs node
+570e2ccc7cb35fe720106964e65060602d3d2ac4 f2fs: avoid reading already updated pages during GC
+2d9c4a4ed4eef1f82c5b16b037aee8bad819fd53 f2fs: fix UAF caused by decrementing sbi->nr_pages[] in f2fs_write_end_io()
+1eaf7ee2e682cfd9f9fd48272d50ff5d3a88e9bc f2fs: drop unused sbi parameter from f2fs_in_warm_node_list()
+39d4ee19c1e7d753dd655aebee632271b171f43a f2fs: fix use-after-free of sbi in f2fs_compress_write_end_io()
+eb2ca3ca983551a80e16a4a25df5a4ce59df8484 f2fs: fix incorrect multidevice info in trace_f2fs_map_blocks()
+95e159ad3e52f7478cfd22e44ec37c9f334f8993 f2fs: fix fiemap boundary handling when read extent cache is incomplete
+1e134c33b931a1b082605b15116403571dab6bbb f2fs: drop unused ri parameter from truncate_partial_nodes()
+5471834a96fb697874be2ca0b052e74bcf3c23d1 f2fs: add READ_ONCE() for i_blocks in f2fs_update_inode()
+bd882ffdd48a200ca2faa7c3e690ecf765784b16 f2fs: call f2fs_handle_critical_error() to set cp_error flag
+be09d78b6d540032fd3841c2708061e13043d7e8 f2fs: use more generic f2fs_stop_checkpoint()
+d82869456217e4654a36063c20f59b146c794e82 f2fs: support to report fserror
+04215c401fb911dddc4b764d5859972277564ece f2fs: refactor f2fs_move_node_folio function
+21631464bb063b382df113936a8153d47196b441 f2fs: refactor node footer flag setting related code
+2ab98eba8bc867f79fb617219f1eabf7994e8f0b f2fs: fix to do sanity check on dcc->discard_cmd_cnt conditionally
+230bb32be1236779446199a666507e6c71ed4708 f2fs: fix fsck inconsistency caused by incorrect nat_entry flag usage
+e952f14159fc5a24f19068f0e2e0b71bed67977e f2fs: fix fsck inconsistency caused by FGGC of node block
+5eef0d5a9c99befe68faa87a80a3b4b1004cb1d6 f2fs: fix inline data not being written to disk in writeback path
+3dd8312599c473ce68e765f5f9c7f676e6537101 f2fs: fix to skip empty sections in f2fs_get_victim
+06d5ce7683fe99cb7053eca6488f8a507551d3be f2fs: fix data loss caused by incorrect use of nat_entry flag
+6163918b64aed97c0f28443cdfc92fe999df3af5 f2fs: fix false alarm of lockdep on cp_global_sem lock
+7e00e868a0db3d2f0b3a0f9babf053321378350c f2fs: fix to avoid uninit-value access in f2fs_sanity_check_node_footer
+62b45b0ad4cddebbba1ad5e7c48cf7b5e42c2377 f2fs: fix to freeze GC and discard threads quickly
+e694c19fd6806608433b7eef8c252ef0696a4eee f2fs: evict: truncate page cache before clear_inode
+bc8b0664a10a3d80352e50e5b679fabb216ca68a f2fs: invalidate block device page cache on umount
+34a3979efa774fe4bcc9ea140a80e8abfe0f4282 f2fs: fix to preserve previous reserve_{blocks,node} value when remount
 
---===============2435265145939629247==--
+--===============4568315910076798480==--
