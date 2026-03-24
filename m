@@ -1,37 +1,57 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mmind/linux-rockchip
-Date: Tue, 24 Mar 2026 16:42:40 -0000
-Message-Id: <177437056089.2843365.3384565826412633528@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============6537312005716703167=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/gregkh
+Date: Tue, 24 Mar 2026 16:43:38 -0000
+Message-Id: <177437061808.2843787.13516246849579585326@gitolite.kernel.org>
+
+--===============6537312005716703167==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mmind/linux-rockchip
-user: mmind
+repo: pub/scm/linux/kernel/git/gregkh/gregkh
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-next
-    old: de8d6ffb8236cd3ead9774a03d7893367a8318d2
-    new: 6ebf24d82245eff6584733fb434b661318c7674c
+  - ref: refs/heads/clanker
+    old: bee9847ffe0c110c36a448ce32b5b5fac273b7c6
+    new: df267e6da28d245b2c39636899f5ac69a619a384
     log: |
-         94c8dc1fa8e1ad4037084204152bca1e799d7d1c ARM: dts: rockchip: Pass linux,code to the power key on rk3288-veyron-pinky
-         b2038df0b535bc0497eca9db15a08c4586e0033f Merge branch 'v7.1-shared/clkids' into v7.1-armsoc/dts32
-         25c2721f18ff97226a6561aedc9f8f76a51fe2e8 dt-bindings: soc: rockchip: grf: Add RV1103B compatibles
-         b4dc241c68f5a2a6e312259bf23885d693f91960 ARM: dts: rockchip: Add support for RV1103B
-         2ea01fbb1d29d2349aa489eb884938898f10a84d dt-bindings: arm: rockchip: Add Omega4 Evaluation board
-         683192d7d5b47e89d920867f7c6997d2c0d1a0ad ARM: dts: rockchip: Add Onion Omega4 Evaluation Board
-         6ebf24d82245eff6584733fb434b661318c7674c Merge branch 'v7.1-armsoc/dts32' into for-next
+         ff29cd9012fa1d37e0adefa6ee4df8c4a0d779df drm/amdkfd: stop speculation on the kfd_ioctl path
+         df267e6da28d245b2c39636899f5ac69a619a384 drm/ioc32: stop speculation on the drm_compat_ioctl path
          
-  - ref: refs/heads/v7.1-armsoc/dts32
-    old: 3dc3525dab1a572bc2946f9edd7d149b0fa465b6
-    new: 683192d7d5b47e89d920867f7c6997d2c0d1a0ad
-    log: |
-         75d627e5571a5ef313f6f553b7749b124c923c3d dt-bindings: clock: rockchip: Add RV1103B CRU support
-         94c8dc1fa8e1ad4037084204152bca1e799d7d1c ARM: dts: rockchip: Pass linux,code to the power key on rk3288-veyron-pinky
-         b2038df0b535bc0497eca9db15a08c4586e0033f Merge branch 'v7.1-shared/clkids' into v7.1-armsoc/dts32
-         25c2721f18ff97226a6561aedc9f8f76a51fe2e8 dt-bindings: soc: rockchip: grf: Add RV1103B compatibles
-         b4dc241c68f5a2a6e312259bf23885d693f91960 ARM: dts: rockchip: Add support for RV1103B
-         2ea01fbb1d29d2349aa489eb884938898f10a84d dt-bindings: arm: rockchip: Add Omega4 Evaluation board
-         683192d7d5b47e89d920867f7c6997d2c0d1a0ad ARM: dts: rockchip: Add Onion Omega4 Evaluation Board
-         
+
+--===============6537312005716703167==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1774370583 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/gregkh.git
+nonce 1774370602-028fedf4de2b35cbb6135525f1bcc3e3f8f8818b
+
+bee9847ffe0c110c36a448ce32b5b5fac273b7c6 df267e6da28d245b2c39636899f5ac69a619a384 refs/heads/clanker
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmnCvxcbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Z5oP/iSs/zpqYRawaUJNTlww
+W+4E5SX+mtr8JUBom9DSv/n23mp1HrvJ237+3xEUOh7+YR29GDOc2xPrldfouhkl
+xmDDD9y135GawF7rzAJWarHaODVL6fSHFYeVD4jOIsPdvWexF6AaTaTMbhsxeBe9
+rSUKhtUmSMMHsDBwRC1cierOmo/oEeM3XzkEPNl3IN8Jzy+gZn6ttqx62xJUVMI/
+C70SRYJbBgiHZJ3Cc+nXeXYaoxKVJGSqQD/HaVAl4NBun/24Zskd6Jnl1v1Hqx1G
+7pRyRfHSNDZRDCiAl8xYlqjls+ZFFluEFQIHKU7zlkguyLPGI+R2vPzEZMRUQqjJ
+60bHONtSWiGkHRN5UoZAyQ2TwmP/dvVP7gnus5LHBQxet+1Z0qEDdTdCfTQsolpW
+ADPjo9RorGKPcjZut631hsoQ6dN9DY61sOXIyRqBeJLZIdIlMg+xyaSs4flzCcyL
+N5TfMLTIFDIzzb/J3dBiVBJbAN0k9Y6f4/Tx8SSbxgyLPgqx18on/69aeyFL2AiX
+qzdSW6MSHs9/k7pR61m960jczTw0yHU3YayDBCbpvdftgU3y0WplT9N8QVFEBB7d
+wyU3oNrm9OHbRVVR3yC2EjIJU2uwj/DUKUeNAircihnZclZf10kw+yoknje5vXFQ
+zgLPQmXPHPE5EdgndSslQOWW
+=6D07
+-----END PGP SIGNATURE-----
+
+--===============6537312005716703167==--
