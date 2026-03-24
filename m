@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2934082622020853234=="
+Content-Type: multipart/mixed; boundary="===============3685694299388971531=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netfilter/nf
-Date: Tue, 24 Mar 2026 17:19:35 -0000
-Message-Id: <177437277574.2873673.14601792598498039070@gitolite.kernel.org>
+Date: Tue, 24 Mar 2026 17:19:49 -0000
+Message-Id: <177437278945.2873902.444588518572527384@gitolite.kernel.org>
 
---===============2934082622020853234==
+--===============3685694299388971531==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/netfilter/nf
 user: fwestphal
 changes:
-  - ref: refs/heads/main
-    old: e7577a06ae28287ca415aec5c12277e3a80ee372
-    new: 51a209ee33428ed688b1c00e0521a5b5b8ff483f
-    log: revlist-e7577a06ae28-51a209ee3342.txt
+  - ref: refs/heads/testing
+    old: 8924c1ffee9b2e2394d92ab19f57f26a40ee6c05
+    new: d49bab4d45884daf79553787b5f6a5f714a7fff4
+    log: revlist-8924c1ffee9b-d49bab4d4588.txt
 
---===============2934082622020853234==
+--===============3685694299388971531==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e7577a06ae28-51a209ee3342.txt
+Content-Disposition: attachment; filename=revlist-8924c1ffee9b-d49bab4d4588.txt
 
 da142f3d373a6ddaca0119615a8db2175ddc4121 KVM: Remove subtle "struct kvm_stats_desc" pseudo-overlay
 5a741f8cc6fe62542f955cd8d24933a1b6589cbd soc: microchip: mpfs: Fix memory leak in mpfs_sys_controller_probe()
@@ -584,5 +584,19 @@ d9c2a509c96378d77435e5845561c4afd3eaedad Merge tag 'linux-can-fixes-for-7.0-2026
 c4336a07eb6b2526dc2b62928b5104b41a7f81f5 net: correctly handle tunneled traffic on IPV6_CSUM GSO fallback
 647b8a2fe474474704110db6bd07f7a139e621eb net: macb: Use dev_consume_skb_any() to free TX SKBs
 51a209ee33428ed688b1c00e0521a5b5b8ff483f Merge tag 'ipsec-2026-03-23' of git://git.kernel.org/pub/scm/linux/kernel/git/klassert/ipsec
+cc4ffb91b10045d1c3f124b7d38c8329bf145e62 netfilter: nft_set_pipapo_avx2: don't return non-matching entry on expiry
+f311ebe0d68465593e120720d1c77dfc797d230b selftests: netfilter: nft_concat_range.sh: add check for flush+reload bug
+dff99962add76af831577e77cb96fe4b0b6e95e1 netfilter: ipset: Fix data race between add and list header in all hash types
+294f2b64a5fa4ab139614855c7bf6a9436210903 netfilter: nfnetlink_log: fix uninitialized padding leak in NFULA_PAYLOAD
+43b7539f85c5e21ea5932f26e6152a4b9b23395a netfilter: x_tables: reject unsupported families in xt_check_match/xt_check_target
+dccdf2b43544ff6f49cfebda3cd93c2debcff47c netfilter: ip6t_rt: reject oversized addrnr in rt_mt6_check()
+324d6feccb7a5eb31b5774f2b7216378c2d0166f netfilter: nft_set_rbtree: revisit array resize logic
+43333f78e7fdb0c1a843778b7176eb55bc0e3c41 netfilter: nf_conntrack_expect: honor expectation helper field
+9828e2773ae16a534b6aec787ccdc9ad56c368d4 netfilter: nf_conntrack_expect: use expect->helper
+3ebcf355b0a30e006e60376f203061c67ec962b9 netfilter: ctnetlink: ensure safe access to master conntrack
+299341f59caee73dead7ee43951c9a62e87ba171 netfilter: nf_conntrack_expect: store netns and zone in expectation
+136845ab6435657ac90390ac91b3827ee99d8831 netfilter: nf_conntrack_expect: skip expectations in other netns via proc
+e2c402ff027265020279aa175483f6c325e2e92f netfilter: nf_conntrack_sip: fix use of uninitialized rtp_addr in process_sdp
+d49bab4d45884daf79553787b5f6a5f714a7fff4 netfilter: ctnetlink: use netlink policy range checks
 
---===============2934082622020853234==--
+--===============3685694299388971531==--
