@@ -1,55 +1,55 @@
-Content-Type: multipart/mixed; boundary="===============6907770897065530515=="
+Content-Type: multipart/mixed; boundary="===============5310943464658103427=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Tue, 24 Mar 2026 00:00:43 -0000
-Message-Id: <177431044355.1963052.11268618609368814609@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Tue, 24 Mar 2026 00:01:48 -0000
+Message-Id: <177431050848.1963714.13246325067254341889@gitolite.kernel.org>
 
---===============6907770897065530515==
+--===============5310943464658103427==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/spi
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/regulator-7.1
-    old: 9150d79c7a8b3287f1dc0108205f067a9249964d
-    new: 57fca3a8ed8e8e42b456bef93055e8b73b1e358f
-    log: revlist-9150d79c7a8b-57fca3a8ed8e.txt
+  - ref: refs/heads/for-7.1
+    old: ea0e916de13426dc62fc349f80bf5326adb17cea
+    new: 1fe7579ab0a51513ba35cfb3cde62706df31912f
+    log: revlist-ea0e916de134-1fe7579ab0a5.txt
 
---===============6907770897065530515==
+--===============5310943464658103427==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1774310441 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1774310441-6e3acb200ea7df4b81a95c5c0838b304753b1a22
+pusher C3F436CA30F5D8EB 1774310506 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
+nonce 1774310506-5e56aded1e84e2c58e97c1b6431551f080652ab7
 
-9150d79c7a8b3287f1dc0108205f067a9249964d 57fca3a8ed8e8e42b456bef93055e8b73b1e358f refs/heads/regulator-7.1
+ea0e916de13426dc62fc349f80bf5326adb17cea 1fe7579ab0a51513ba35cfb3cde62706df31912f refs/heads/for-7.1
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmnB1CkACgkQJNaLcl1U
-h9DxNwf8D4JdNCykTTV76LyFiFzoAAnmg1Vyg+7DFjGJfs/USVobZy1kEAAU6zg0
-xtXYeZ34aN7MwY7y8KXyGbk66DnhVekC1g6zKBoUIzg0GmPopVUGVvImZOksyqzk
-HDmZyvOPlWt7kWAVzTempx4xFxbsO1GyhXpVL4DZNNuv4oqIg8eYanJDu5tC/PlU
-ZauETQBdyJO/sxRw45vP8JUm2h/US7Z3U+Zwy9yIfRu0X5Pzr3WUNtGqSbAzNzcz
-NrqfPZjIEgpKxmXorQTEiandXREDTFwh5EfuxdHeho4VtjE+6asLOxLd4R9eAs9j
-J2+sdWrO2iYbKreG6dq5KjidOxqWbQ==
-=moS5
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmnB1GoACgkQJNaLcl1U
+h9Dk1Qf/V6l2v1nmw3MIxmGzljzsZkyX58ij4s58F5sAXLu0ebiPStmacn7hgQkY
+6tYhHaE51VRpAxNNG91dpRYmq/NwCFi/2cDmn23IgIdixP1smldAgSMXlUjKjf8R
+YPygs7Tx8STQRnxGnzlBgfTPK+m3qUY023T4V92oYCq0Wik2mX+LZYwZV8oQQhkJ
+eJRtgm1RnAFt6ITGa5JPktoe/pvqAP53SUUvyzwW1zE4aTSdNBOa0l5hBLq9R6L3
+mVafMJIKQR8gY2y+i17o25CklA/tVkGS2G5xH/PhlMvTVC/yNIFlX2qeruzUODOZ
+r0QnA/PXt9OoG9zlaDGTiPnD2vJZ7A==
+=7jFx
 -----END PGP SIGNATURE-----
 
---===============6907770897065530515==
+--===============5310943464658103427==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9150d79c7a8b-57fca3a8ed8e.txt
+Content-Disposition: attachment; filename=revlist-ea0e916de134-1fe7579ab0a5.txt
 
 5a741f8cc6fe62542f955cd8d24933a1b6589cbd soc: microchip: mpfs: Fix memory leak in mpfs_sys_controller_probe()
 ff4b6bf7eef4f5b921eed78f2816abcc55bcdd68 riscv: dts: microchip: add can resets to mpfs
@@ -197,9 +197,6 @@ ebba09f198078b7a2565004104ef762d1148e7f0 crypto: padlock-sha - Disable for Zhaox
 718d0766ce4c7634ce62fa78b526ea7263487edd net: macb: Reinitialize tx/rx queue pointer registers and rx ring during resume
 43d222fbcdff9a715dbe63a0c9e5902f1c9ddd10 Merge branch 'net-macb-fix-ethernet-malfunction-on-amd-versal-board-after-suspend'
 2c98a8fbd6aa647414c6248dacf254ebe91c79ad parisc: Flush correct cache in cacheflush() syscall
-a00da54d06f435dbbeacb84f9121dbbe6d6eda74 spi: amlogic: spifc-a4: Remove redundant clock cleanup
-b8db9552997924b750e727a625a30eaa4603bbb9 spi: amlogic-spisg: Fix memory leak in aml_spisg_probe()
-7fc5e2f5603cfb305d0a8071f56b5bdb55161aeb spi: axiado: Fix double-free in ax_spi_probe()
 12b4c5d98cd7ca46d5035a57bcd995df614c14e1 smb: client: fix krb5 mount with username option
 c8b8f3c50f487b145433a6c3f95efd8790079a06 LoongArch: Only use SC.Q when supported by the assembler
 8a69d02481ff97683952e94b9d1eae29b45f88fd LoongArch: Fix calling smp_processor_id() in preemptible code
@@ -211,7 +208,6 @@ c252c12d1f55bd5737e3b8e7839914ccdc7a701c LoongArch: KVM: Fix typo issue in kvm_v
 ac57eb3b7d2ad649025b5a0fa207315f755ac4f6 drm/i915/dmc: Fix an unlikely NULL pointer deference at probe
 ce5ae93d1a216680460040c7c0465a6e3b629dec ata: libata-core: disable LPM on ADATA SU680 SSD
 4bc7bc457922742d38915458e630195e761c1efd HID: intel-thc-hid: Set HID_PHYS with PCI BDF
-ba3402f6c85bbeee5c11732c3aa4050a717e8f8f spi: geni-qcom: Fix CPHA and CPOL mode change detection
 5e3486e64094c28a526543f1e8aa0d5964b7f02d mmc: sdhci: fix timing selection for 1-bit bus width
 0a3fe972a7cb1404f693d6f1711f32bc1d244b1c HID: core: Mitigate potential OOB by removing bogus memset()
 5d4c6c132ea9a967d48890dd03e6a786c060e968 selftests/hid: fix compilation when bpf_wq and hid_device are not exported
@@ -220,8 +216,6 @@ f7a4c78bfeb320299c1b641500fe7761eadbd101 HID: logitech-hidpp: Prevent use-after-
 c7feff27ea0a34540b4820abd0cdf0b5100516d4 drm/vmwgfx: fix kernel-doc warnings in vmwgfx_drv.h
 c6cb77c474a32265e21c4871c7992468bf5e7638 drm/vmwgfx: Don't overwrite KMS surface dirty tracker
 2d1373e4246da3b58e1df058374ed6b101804e07 Merge tag 'for-7.0-rc4-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
-8634e05b08ead636e926022f4a98416e13440df9 spi: fix use-after-free on controller registration failure
-dee0774bbb2abb172e9069ce5ffef579b12b3ae9 spi: fix statistics allocation
 8a91ebb337fa68e01339a8c1c411a38d66eac80e Merge tag 'mm-hotfixes-stable-2026-03-16-12-15' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
 f4c31b07b136839e0fb3026f8a5b6543e3b14d2f sched: idle: Consolidate the handling of two special cases
 29ab768277617452d88c0607c9299cdc63b6e9ff PM: runtime: Fix a race condition related to device removal
@@ -442,8 +436,8 @@ ac57fa9faf716c6a0e30128c2c313443cf633019 Merge tag 'trace-v7.0-rc4' of git://git
 d5273fd3ca0bf0b59fff49fb59237440998fbec8 Merge tag 'bpf-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf
 ec69c9e88315c4be70c283f18c2ff130da6320b5 i2c: tegra: Don't mark devices with pins as IRQ safe
 c369299895a591d96745d6492d4888259b004a9e Linux 7.0-rc5
-56b7c08a8b4bfbe622099c0feb0f0f815a15d1e3 regulator: dt-bindings: cros-ec: Add regulator supply
-411eb30f13823c37cd20d7c0fb7d5c8bdb1d844d regulator: cros-ec: Add regulator supply
-57fca3a8ed8e8e42b456bef93055e8b73b1e358f regulator: cros-ec: cleanup and add supplies
+9f61daf2c2debe9f5cf4e1a4471e56a89a6fe45a spi: hisi-kunpeng: prevent infinite while() loop in hisi_spi_flush_fifo
+579a49aaab0814c55595cddf0be9651e37972f6a spi: hisi-kunpeng: Add timeout warning in FIFO flush function
+1fe7579ab0a51513ba35cfb3cde62706df31912f spi: hisi-kunpeng cleanup and fix
 
---===============6907770897065530515==--
+--===============5310943464658103427==--
