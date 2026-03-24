@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7214969586472274081=="
+Content-Type: multipart/mixed; boundary="===============9143309075961473715=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Tue, 24 Mar 2026 15:04:24 -0000
-Message-Id: <177436466480.2748042.6593194591624495000@gitolite.kernel.org>
+Date: Tue, 24 Mar 2026 15:04:29 -0000
+Message-Id: <177436466980.2748187.10276633474452878838@gitolite.kernel.org>
 
---===============7214969586472274081==
+--===============9143309075961473715==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/broonie/ci
 user: broonie
 changes:
-  - ref: refs/heads/asoc-7.1
-    old: 51b0909d0bc479b37db5f26674a7c41676aa8f80
-    new: 1f0f14aa18e14885c02623c07e4c6a816f7a9077
-    log: revlist-51b0909d0bc4-1f0f14aa18e1.txt
+  - ref: refs/heads/regulator-7.0
+    old: 4221f30e3e0a2507641b3397d21aff9e71e749f8
+    new: 8121353a4bf8e38afee26299419a78ec108e14a6
+    log: revlist-4221f30e3e0a-8121353a4bf8.txt
 
---===============7214969586472274081==
+--===============9143309075961473715==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-51b0909d0bc4-1f0f14aa18e1.txt
+Content-Disposition: attachment; filename=revlist-4221f30e3e0a-8121353a4bf8.txt
 
 5a741f8cc6fe62542f955cd8d24933a1b6589cbd soc: microchip: mpfs: Fix memory leak in mpfs_sys_controller_probe()
 ff4b6bf7eef4f5b921eed78f2816abcc55bcdd68 riscv: dts: microchip: add can resets to mpfs
@@ -244,7 +244,6 @@ a55c2a5c8d680156495b7b1e2a9f5a3e313ba524 drm/imagination: Fix deadlock in soft r
 74ef7844dd8c27d6b94ebc102bb4677edd3e7696 drm/imagination: Disable interrupts before suspending the GPU
 67253b28a61f0dff31f8f00dca8c9586f089b852 drm/pagemap_util: Ensure proper cache lock management on free
 21647677ba9af2cb6bc460e17d9f29a7132c40c3 PCI: endpoint: pci-epf-test: Roll back BAR mapping when subrange setup fails
-4221f30e3e0a2507641b3397d21aff9e71e749f8 regulator: dt-bindings: fix typos in regulator-uv-* descriptions
 b49814033cb5224c818cfb04dccb3260da10cc4f drm/amd/display: Fix gamma 2.2 colorop TFs
 6270b1a5dab94665d7adce3dc78bc9066ed28bdd drm/amdgpu: Limit BO list entry count to prevent resource exhaustion
 10718159890bc99cbcc7b5a38dade05df335e797 drm/amd/display: Fix uninitialized variable use which breaks full LTO
@@ -417,11 +416,6 @@ ac57fa9faf716c6a0e30128c2c313443cf633019 Merge tag 'trace-v7.0-rc4' of git://git
 d5273fd3ca0bf0b59fff49fb59237440998fbec8 Merge tag 'bpf-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf
 ec69c9e88315c4be70c283f18c2ff130da6320b5 i2c: tegra: Don't mark devices with pins as IRQ safe
 c369299895a591d96745d6492d4888259b004a9e Linux 7.0-rc5
-d12dc8c558b955e74bf3dc9c01926c3c109f2d69 ASoC: sdw_utils: add vendor_id to asoc_sdw_codec_info
-141efa53b9875c059d0edec5212fbcd311ec4896 ASoC: amd: yc: Add MSI Thin A15 B7VF to quirk table
-4478886310e5a2cadb3d07ce2d8564d1fd3e206a ASoC: SOF: sof-audio: pcm_id is __le32
-071efde6b7568fc3ce3b76d9e8c01e7b172539ad ASoC: uda1380: fix missing return value checks for I2C operations
-e5d5cc44791f7275fd1b5329a9dc374d6ad1bf6c ASoC: uda1380: use dev_err() and %pe for better error reporting
-1f0f14aa18e14885c02623c07e4c6a816f7a9077 ASoc: uda1380: Improve error reporting
+8121353a4bf8e38afee26299419a78ec108e14a6 rust: regulator: do not assume that regulator_get() returns non-null
 
---===============7214969586472274081==--
+--===============9143309075961473715==--
