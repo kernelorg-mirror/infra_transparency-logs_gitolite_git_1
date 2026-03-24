@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Tue, 24 Mar 2026 16:05:41 -0000
-Message-Id: <177436834172.2808795.2689603056227760857@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs
+Date: Tue, 24 Mar 2026 16:05:44 -0000
+Message-Id: <177436834443.2808883.5389542676087275439@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: ast
+repo: pub/scm/linux/kernel/git/xiang/erofs
+user: xiang
 changes:
-  - ref: refs/heads/master
-    old: b43d574c00324f26732260b378fb473e024e9a21
-    new: 02bcf8ef264d5a400c811d71ee637a4b6ea49c51
+  - ref: refs/heads/dev-test
+    old: c2525bd11aacef3a1540580851f56b5ff637401c
+    new: a01422835491bd6b78e326e8450ed539c2cf2587
     log: |
-         02bcf8ef264d5a400c811d71ee637a4b6ea49c51 bpf: Update MAINTAINERS file for general BPF entry
+         938c418422c4b08523ae39aebbd828428dcfefd2 erofs: update the Kconfig description
+         a01422835491bd6b78e326e8450ed539c2cf2587 erofs: fix .fadvise() for page cache sharing
          
