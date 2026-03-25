@@ -1,50 +1,23 @@
-Content-Type: multipart/mixed; boundary="===============7551835458680330691=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kees/linux
-Date: Wed, 25 Mar 2026 23:45:57 -0000
-Message-Id: <177448235757.336086.14608728235038573241@gitolite.kernel.org>
-
---===============7551835458680330691==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/arighi/linux
+Date: Wed, 25 Mar 2026 23:48:28 -0000
+Message-Id: <177448250850.337111.11116261756644391862@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kees/linux
-user: kees
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/arighi/linux
+user: arighi
 changes:
-  - ref: refs/heads/dev/v7.0-rc2/obt
-    old: 537858cd27d509ec0dedfa4b96bc1d0e461367b1
-    new: f76ff7e9e3d7eeff75d0e1fca2c1672106a00f4a
+  - ref: refs/heads/for-7.1
+    old: f108c6e3c3d00369ca61c7ebc7b41d9bb9e844cb
+    new: 2df3300cd19c0d1ba1649470df6b0bc47020d467
     log: |
-         4159790aa4234260b73da2e19d839d665fad217b Makefile: Introduce Overflow Behavior Types support
-         e7f156a28c68e14815727d45b42864009b99fbec compiler_attributes: Add overflow_behavior macros __ob_trap and __ob_wrap
-         96aa5cb7c4aee18eba021f4a712e258d60ab9416 types: Add standard __ob_trap and __ob_wrap scalar types
-         93eac276d752e54382170d58a8165b326a063699 selftests: Add minimal OBT selftests
-         f76ff7e9e3d7eeff75d0e1fca2c1672106a00f4a lkdtm/bugs: Add basic Overflow Behavior Types test
+         722b9df68e8603d35757fb588e0183e0870b3fce sched: Move capacity_greater() to sched.h
+         4396abcf4b94e7a5e0690cb3fd6f55258ca6f713 sched/topology: Avoid spurious asymmetry from CPU capacity noise
+         cb3f9622627f895bb110e5f424f1f72a29a44def sched/fair: Prefer fully-idle SMT core for NOHZ idle load balancer
+         23f576fa3e530de5171c6d4ad6918b3310529a01 sched_ext: Fix inconsistent NUMA node lookup in scx_select_cpu_dfl()
+         2df3300cd19c0d1ba1649470df6b0bc47020d467 sched_ext: Documentation: Clarify ops.dispatch() role in task lifecycle
          
-
---===============7551835458680330691==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher A5C3F68F229DD60F723E6E138972F4DFDC6DC026 1774482355 -0700
-pushee gitolite.kernel.org:pub/scm/linux/kernel/git/kees/linux.git
-nonce 1774482342-43b38fa29c26f5f59e5b53d90bccebfc63be2303
-
-537858cd27d509ec0dedfa4b96bc1d0e461367b1 f76ff7e9e3d7eeff75d0e1fca2c1672106a00f4a refs/heads/dev/v7.0-rc2/obt
------BEGIN PGP SIGNATURE-----
-
-iHUEABYKAB0WIQRSPkdeREjth1dHnSE2KwveOeQkuwUCacRzswAKCRA2KwveOeQk
-u3qsAP9rT1/jJRuGRN8rdQLlNrXMUdSMY1m4Fw2Txyf1OZWu6gEAvGKA7I8y4rSz
-ixD30LRobMP+QBQUmJP697Q9Q7FUYAY=
-=GWUJ
------END PGP SIGNATURE-----
-
---===============7551835458680330691==--
