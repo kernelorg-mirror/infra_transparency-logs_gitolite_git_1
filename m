@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/atorgue/stm32
-Date: Wed, 25 Mar 2026 14:03:09 -0000
-Message-Id: <177444738932.4044977.6550985220342819000@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/trace/linux-trace
+Date: Wed, 25 Mar 2026 14:15:31 -0000
+Message-Id: <177444813119.4055610.11833940492474839053@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/atorgue/stm32
-user: atorgue
+repo: pub/scm/linux/kernel/git/trace/linux-trace
+user: mhiramat
 changes:
-  - ref: refs/heads/stm32-next
-    old: 0d1a0d318cea087400f51cff5a523bd9918074a0
-    new: 17fabe9dddf212675e713e313bef119ba0e95c83
-    log: |
-         17fabe9dddf212675e713e313bef119ba0e95c83 arm64: dts: st: omit unused pinctrl groups from stm32mp25 dtb files
-         
+  - ref: refs/heads/bootconfig/for-next
+    old: 1a427f2a710583872b6176ea8378e0a1a8719fc4
+    new: 6eb255d019b810614c5cbd99b9ef281b7b9361e3
