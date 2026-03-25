@@ -1,26 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
-Date: Wed, 25 Mar 2026 10:23:57 -0000
-Message-Id: <177443423739.3864038.6662497355799832252@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
+Date: Wed, 25 Mar 2026 10:24:43 -0000
+Message-Id: <177443428380.3864482.17365112025667403760@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/brgl/linux
-user: brgl
+repo: pub/scm/linux/kernel/git/xiang/erofs-utils
+user: xiang
 changes:
-  - ref: refs/heads/gpio/for-next
-    old: 7803501e5754dc4b295ab22b20562e2b965358ba
-    new: 541c5b0837468b433e238c3a14481f939ec978a3
+  - ref: refs/heads/experimental-tests
+    old: ce34f70e986b5bd7657719dac53f235ac0cdc53e
+    new: da74280c2e52bae2f63cc2cd124182ce78a39e13
     log: |
-         96b76f7bc575ac6c69090f4642e424b04fb6784c pinctrl: introduce pinctrl_gpio_get_config()
-         9ea2647b0089ce8d7e2723eda4c77cbc55f8b7c5 pinctrl: scmi: Add SCMI_PIN_INPUT_VALUE
-         37a584414d9ceca48f4367dcb829bf9dc6015988 pinctrl: scmi: Delete PIN_CONFIG_OUTPUT_IMPEDANCE_OHMS support
-         f20e81322f3a071db248f050c32713b503ae1fa4 pinctrl: scmi: ignore PIN_CONFIG_PERSIST_STATE
-         bf1fbd189d45216dec1f02f6e12fffde9f3b4ea6 firmware: arm_scmi: Allow PINCTRL_REQUEST to return EOPNOTSUPP
-         05a8a80efaacc42013d78fc3fe41159b7be4333c gpio: dt-bindings: Add GPIO on top of generic pin control
-         7671f4949a6c9111234fdbcd577b227ace799f16 gpio: gpio-by-pinctrl: add pinctrl based generic GPIO driver
-         541c5b0837468b433e238c3a14481f939ec978a3 Merge branch 'ib-scmi-pinctrl-gpio' of git://git.kernel.org/pub/scm/linux/kernel/git/linusw/linux-pinctrl into gpio/for-next
+         0a4cf338344bb8253de4a675d433ba4258dbbd2e erofs-utils: tests: add test to ensure LZ4_0PADDING is set properly
+         da74280c2e52bae2f63cc2cd124182ce78a39e13 erofs-utils: tests: add inode page cache sharing testcase
          
