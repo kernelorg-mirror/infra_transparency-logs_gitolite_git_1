@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2372624689759016296=="
+Content-Type: multipart/mixed; boundary="===============4166223262533694394=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/klassert/ipsec
-Date: Wed, 25 Mar 2026 07:52:51 -0000
-Message-Id: <177442517193.3578613.7306617884370412159@gitolite.kernel.org>
+Date: Wed, 25 Mar 2026 07:53:27 -0000
+Message-Id: <177442520791.3579013.11887331633875812256@gitolite.kernel.org>
 
---===============2372624689759016296==
+--===============4166223262533694394==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/klassert/ipsec
 user: klassert
 changes:
-  - ref: refs/heads/testing
+  - ref: refs/heads/master
     old: d849a2f7309fc0616e79d13b008b0a47e0458b6e
     new: c4ea7d8907cf72b259bf70bd8c2e791e1c4ff70f
     log: revlist-d849a2f7309f-c4ea7d8907cf.txt
 
---===============2372624689759016296==
+--===============4166223262533694394==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ ba8bda9a0896746053aa97ac6c3e08168729172c virtio_net: Fix UAF on dst_ops when IFF
 815980fe6dbb01ad4007e8b260a45617f598b76d net_sched: codel: fix stale state for empty flows in fq_codel
 c4ea7d8907cf72b259bf70bd8c2e791e1c4ff70f net: mana: fix use-after-free in add_adev() error path
 
---===============2372624689759016296==--
+--===============4166223262533694394==--
