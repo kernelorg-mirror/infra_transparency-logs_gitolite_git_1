@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3671072623873643925=="
+Content-Type: multipart/mixed; boundary="===============7685881735545387761=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/rcu/linux
-Date: Wed, 25 Mar 2026 19:13:37 -0000
-Message-Id: <177446601722.110399.259787802978827573@gitolite.kernel.org>
+Date: Wed, 25 Mar 2026 19:13:42 -0000
+Message-Id: <177446602269.110637.7500462405726215772@gitolite.kernel.org>
 
---===============3671072623873643925==
+--===============7685881735545387761==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/rcu/linux
 user: jfern
 changes:
-  - ref: refs/heads/rcu/dev
-    old: cefaa057b386249d7596f3878a27fc204a8f6672
+  - ref: refs/heads/rcu/next
+    old: 4e70ef31c9d4dc4e3b3f466b823f9ca6233aa96c
     new: 562877d17ab766e9ed0877eb9a5d1a231e9cc14b
-    log: revlist-cefaa057b386-562877d17ab7.txt
+    log: revlist-4e70ef31c9d4-562877d17ab7.txt
 
---===============3671072623873643925==
+--===============7685881735545387761==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-cefaa057b386-562877d17ab7.txt
+Content-Disposition: attachment; filename=revlist-4e70ef31c9d4-562877d17ab7.txt
 
 da142f3d373a6ddaca0119615a8db2175ddc4121 KVM: Remove subtle "struct kvm_stats_desc" pseudo-overlay
 c9f3a593137d862d424130343e77d4b5260a4f5a iio: imu: inv_icm42600: fix odr switch to the same value
@@ -593,4 +593,4 @@ c456647c68ad18bb24844e7122d137550127d2f4 rcu/nocb: Extract nocb_bypass_needs_flu
 768ca82384867d17c050a0db37f6b1c56ae16d08 rcu: Add BOOTPARAM_RCU_STALL_PANIC Kconfig option
 562877d17ab766e9ed0877eb9a5d1a231e9cc14b rcutorture: Test call_srcu() with preemption disabled and not
 
---===============3671072623873643925==--
+--===============7685881735545387761==--
