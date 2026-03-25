@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3514588462345914630=="
+Content-Type: multipart/mixed; boundary="===============8488618178078119021=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Wed, 25 Mar 2026 15:59:58 -0000
-Message-Id: <177445439802.4142405.9158974570718739371@gitolite.kernel.org>
+Date: Wed, 25 Mar 2026 16:00:13 -0000
+Message-Id: <177445441352.4145010.16196386168161690788@gitolite.kernel.org>
 
---===============3514588462345914630==
+--===============8488618178078119021==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/main
-    old: bc0151c59e639c1311ee573434af74b4e2c81de4
-    new: c4ea7d8907cf72b259bf70bd8c2e791e1c4ff70f
-    log: revlist-bc0151c59e63-c4ea7d8907cf.txt
+  - ref: refs/heads/dev-queue
+    old: 8985cbe21a4d67271cf7520d8cc05053d3ce6c30
+    new: 936c54ae6628deec7e5480e61937e2a1d030cfef
+    log: revlist-8985cbe21a4d-936c54ae6628.txt
 
---===============3514588462345914630==
+--===============8488618178078119021==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-bc0151c59e63-c4ea7d8907cf.txt
+Content-Disposition: attachment; filename=revlist-8985cbe21a4d-936c54ae6628.txt
 
 aa8a3f3c67235422a0c3608a8772f69ca3b7b63f xfrm: add missing extack for XFRMA_SA_PCPU in add_acquire and allocspi
 b57defcf8f109da5ba9cf59b2a736606faf3d846 xfrm: fix the condition on x->pcpu_num in xfrm_sa_len
@@ -78,5 +78,37 @@ ba8bda9a0896746053aa97ac6c3e08168729172c virtio_net: Fix UAF on dst_ops when IFF
 09474055f2619be9445ba4245e4013741ed01a5e rtnetlink: fix leak of SRCU struct in rtnl_link_register
 815980fe6dbb01ad4007e8b260a45617f598b76d net_sched: codel: fix stale state for empty flows in fq_codel
 c4ea7d8907cf72b259bf70bd8c2e791e1c4ff70f net: mana: fix use-after-free in add_adev() error path
+b7c1871001cbca100653cdbcd3a6006fd26de04e ice: fix fwlog after driver reinit
+912838d5f0930639465e6fb3bf03f03362135a60 ice: Fix enable_cnt imbalance on resume
+0820dae67283ddcbe7b0d0a824c58e69b05737f2 ice: Fix enable_cnt imbalance on PCIe error recovery
+f5c6abf31778acb03bfd249df3bef422674f2b6b i40e: Fix enable_cnt imbalance on PCIe error recovery
+57c61c2b8f8bf98a5c8805747e7d3d7b044dce20 ice: fix 'adjust' timer programming for E830 devices
+066295d20da220a771666137370e7756ae59c23c ice: fix setting RSS VSI hash for E830
+113196f38b8792a2f619c00a5bd6fd399a333507 ice: ptp: don't WARN when controlling PF is unavailable
+5e400fc3e4c96945f4b793d10887b7a73ce59f02 ice: fix race condition in TX timestamp ring cleanup
+f52f8a8bf52f8625e0e763ddc010ffe91078870e ice: dpll: fix rclk pin state get and misplaced header macros
+4d7b24d2e126cd91349192d9654c0dd8ca48d21f ice: fix inverted ready check for VF representors
+e7f6cdd9708ed5c4ff45614d2e7fe5b99a0918f4 ice: use ice_update_eth_stats() for representor stats
+39bdf54918979a2ef92820a169ed2a738207669b iavf: fix out-of-bounds writes in iavf_get_ethtool_stats()
+22c9fc445748f06ffed131e01e77d1e25713c87e ice: update PCS latency settings for E825 10G/25Gb modes
+116a7d76f4c8d1bc94be6c072ec9ebb3c9dce35d ice: fix potential NULL pointer deref in error path of ice_set_ringparam()
+d7884e35fa28bc4523093a13544b93bfd317a48e ice: set max queues in alloc_etherdev_mqs()
+9bcda9e28edee8ca293c5e64dff474a54f995671 ice: fix missing SMA pin initialization in DPLL subsystem
+760cfc0c1d9a540037596bfccca0c7f50e3536aa idpf: clear stale cdev_info ptr
+ac0e80ee2c737c52d73205a53607cbed6408b9a4 ixgbe: stop re-reading flash on every get_drvinfo for e610
+1fc3361881e5814a19efbbc3ff61847cfb4ed054 ice: fix double-free of tx_buf skb
+11b7e7db606094819594d96e611ebd3baf4b7c76 idpf: only assign num refillqs if allocation was successful
+196d4ce5818a17a8e6550e19e46e6ec133207dc4 igb: remove napi_synchronize() in igb_down()
+c72e6ca359cdabfab846eecdd2ea1780376cef02 ixgbevf: add missing negotiate_features op to Hyper-V ops table
+6cb17c3fc8b4fd370f422a112abfe4c595a30c7d ice: fix posted write support for sideband queue operations
+8efef32b5da4696da4239940bb92b878cf867bf9 e1000e: correct TIMINCA on ADP/TGP systems with wrong XTAL frequency
+d20c59fc6adea396a9e107170a53c9bd0d3cbabc ice: fix PHY config on media change with link-down-on-close
+6011178cabb177d05090607d1d8bfce82f636e36 ice: fix double free in ice_sf_eth_activate() error path
+70a162f40bcfd98dced56ffe5e4d382eedc201b4 idpf: fix UAF and double free in idpf_plug_core_aux_dev() error path
+742cc565c9e1e905025d9b2af894e501f8f8235e ice: fix missing dpll notifications for SW pins
+c4db6006f78bb0e17740a92ce1abffcc795f120a idpf: fix PREEMPT_RT raw/bh spinlock nesting for async VC handling
+7ae87b2289a82af5a18e7ca55480b39bff2ef5dd idpf: improve locking around idpf_vc_xn_push_free()
+aade8e74a90f27e18e0205236f64a5a1bc1a64bc idpf: set the payload size before calling the async handler
+936c54ae6628deec7e5480e61937e2a1d030cfef idpf: fix xdp crash in soft reset error path
 
---===============3514588462345914630==--
+--===============8488618178078119021==--
