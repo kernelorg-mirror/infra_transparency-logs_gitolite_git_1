@@ -1,118 +1,23 @@
-Content-Type: multipart/mixed; boundary="===============2388421432171947079=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/dhowells/linux-fs
-Date: Wed, 25 Mar 2026 08:24:58 -0000
-Message-Id: <177442709875.3601697.347588335209733405@gitolite.kernel.org>
-
---===============2388421432171947079==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
+Date: Wed, 25 Mar 2026 08:36:02 -0000
+Message-Id: <177442776273.3612493.7949024628738126469@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/dhowells/linux-fs
-user: dhowells
+repo: pub/scm/linux/kernel/git/rdma/rdma
+user: leon
 changes:
-  - ref: refs/heads/netfs-next
-    old: b8537fddeec60af49cbd027f9ff1b1fcbeed62ce
-    new: f3fe5d13c27ea61bb9977c2b25603ef24c1a8e3a
-    log: revlist-b8537fddeec6-f3fe5d13c27e.txt
-  - ref: refs/remotes/linus/HEAD
-    old: c369299895a591d96745d6492d4888259b004a9e
-    new: bbeb83d3182abe0d245318e274e8531e5dd7a948
-    log: revlist-c369299895a5-bbeb83d3182a.txt
-  - ref: refs/remotes/linus/master
-    old: c369299895a591d96745d6492d4888259b004a9e
-    new: bbeb83d3182abe0d245318e274e8531e5dd7a948
-    log: revlist-c369299895a5-bbeb83d3182a.txt
-
---===============2388421432171947079==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b8537fddeec6-f3fe5d13c27e.txt
-
-a6f504f3e130117725143482b24a2038d2c3f3b4 netfs: Fix the handling of stream->front by removing it
-051ce545fb924afa8fb39a7dd24bed080680b6c8 cachefiles: Improve cache read performance by up to 3x for most use cases
-76de1b3e9c620ceeebbd596e59d827000a13a4f7 mm: Make readahead store folio count in readahead_control
-2109bf1c41a8c93700adadf3afc9f7b32a54916d netfs: Bulk load the readahead-provided folios up front
-114e1bc1c2506cf31a118337636e2f93658d115d Add a function to kmap one page of a multipage bio_vec
-e99e0ef94ad30620f3ae29a2f3ac6ee7faf675a0 iov_iter: Add a segmented queue of bio_vec[]
-f1185fc45794fc9e474156f3dee562731d64e91c netfs: Add some tools for managing bvecq chains
-baeb8688cb6d2567e22e3af951d30d57170afe13 netfs: Add bulk loading from readahead
-4f3be20ad156550893fd1457735a57ee4859c258 netfs: Add a function to extract from an iter into a bvecq
-adb677157c47d1c65bef598d0a0860ad3cc3ae28 afs: Use a bvecq to hold dir content rather than folioq
-c95dcb68948844572930804de53d2920cd87ef65 cifs: Use a bvecq for buffering instead of a folioq
-a84560222b51cef087e49fffcddea3bdaa0495a3 cifs: Support ITER_BVECQ in smb_extract_iter_to_rdma()
-358b076b4f62d205371aa6fb8218a74559e07f93 netfs: Switch to using bvecq rather than folio_queue and rolling_buffer
-e0b26b91cfd8632fc52425f8548c6acf2b879fb7 cifs: Remove support for ITER_KVEC/BVEC/FOLIOQ from smb_extract_iter_to_rdma()
-524fa5951099bf5ff9fe962d8f14db6d61daef76 netfs: Remove netfs_alloc/free_folioq_buffer()
-e248d877c10321747a088ace6038fc099d01192e netfs: Remove netfs_extract_user_iter()
-75918e4a8510f61ff7765e805b162534071d565d iov_iter: Remove ITER_FOLIOQ
-5ae915dc24844a99f32a997e79587810478e2fbb netfs: Remove folio_queue and rolling_buffer
-1b9f29d7db0f90f29555e596baf2fb25a8d8811a netfs: Check for too much data being read
-29c0e240824571c26af700adb33443f324c8e7b6 netfs: Limit the the minimum trigger for progress reporting
-bdc9e9f9fd0cffe8cf20e79364632a2670ab96f6 netfs: Combine prepare and issue ops and grab the buffers on request
-f3fe5d13c27ea61bb9977c2b25603ef24c1a8e3a cachefiles: Fix excess dput() after end_removing()
-
---===============2388421432171947079==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c369299895a5-bbeb83d3182a.txt
-
-19d2f0b97a131198efc2c4ca3eb7f980bba8c2b4 cxl/port: Fix use after free of parent_port in cxl_detach_ep()
-77b310bb7b5ff8c017524df83292e0242ba89791 cxl/region: Fix leakage in __construct_region()
-f303406efd0b6b8740ce5c47e852097bbcf54879 KVM: s390: Fix a deadlock
-93d0fcdddc9e7be9d4f42acbe57bc90dbb0fe75d cxl/acpi: Fix CXL_ACPI and CXL_PMEM Kconfig tristate mismatch
-a76e30c2479ce6ffa2aa6c8a8462897afc82bc90 kbuild: Delete .builtin-dtbs.S when running make clean
-3b4a3a00de8770f3a60c1fa483921ce37415132d scripts: kconfig: merge_config.sh: fix unexpected operator warning
-5f47be1b44bf2754c45e8c58ca036b474c9ecbc7 scripts: kconfig: merge_config.sh: pass output file as awk variable
-775af5cbb22c1de2ad0f486959739c35cfc55ac8 scripts: kconfig: merge_config.sh: fix indentation
-1744a6ef48b9a48f017e3e1a0d05de0a6978396e KVM: arm64: Discard PC update state on vcpu reset
-81f86728a9804c7ff99df8f2cb7a7a081a270400 tools headers: Skip arm64 cputype.h check
-b00be77302d7ec4ad0367bb236494fce7172b730 s390/mm: Add missing secure storage access fixups for donated memory
-dcf96f7ad556d84d460e5f5cf06061eb1a13c272 KVM: s390: Limit adapter indicator access to mapped page
-0c6294d98a6dfadd53296d762f4a396c2f04c7c1 KVM: s390: selftests: Add IRQ routing address offset tests
-1ca90f4ae554034d96764577196d8dd0c3bcd05e KVM: s390: log machine checks more aggressively
-ab5119735e984f6b724ef1b699c01479949ed1de KVM: s390: vsie: Avoid injecting machine check on signal
-75cea0776de502f2a1be5ca02d37c586dc81887e cxl/hdm: Avoid incorrect DVSEC fallback when HDM decoders are enabled
-0496acc42fb51eee040b5170cec05cec41385540 KVM: arm64: Fix the descriptor address in __kvm_at_swap_desc()
-8dd1d9a335321d0829aeb85d8e1a897248d0da29 perf metricgroup: Fix metricgroup__has_metric_or_groups()
-72a8b9c060d3188ff29e2a3f3ea47b1f2a67e005 perf parse-events: Fix big-endian 'overwrite' by writing correct union member
-563d39928db602c58d24301769e25e33a48a65ab perf kvm stat: Fix relative paths for including headers
-9232fa05921bc0ea0bc71947440ec9a50b3ad26e media: synopsys: csi2rx: fix out-of-bounds check for formats array
-ac62a20035ecc18e6d365c6c792f5965ce1da77c media: synopsys: csi2rx: add missing kconfig dependency
-bef4f4a88b73e4cc550d25f665b8a9952af22773 media: mc, v4l2: serialize REINIT and REQBUFS with req_queue_mutex
-daa87ca42652af0d6791ef875e3c4d724b099f22 media: rkvdec: Improve handling missing short/long term RPS
-446c6a25a4494e137ec42e886da04e29efc2dc39 media: rkvdec: reduce excessive stack usage in assemble_hw_pps()
-c03b7dec3c4ddc97872fa12bfca75bae9cb46510 media: rkvdec: reduce stack usage in rkvdec_init_v4l2_vp9_count_tbl()
-e8d97c270cb46a2a88739019d0f8547adc7d97da media: verisilicon: Fix kernel panic due to __initconst misuse
-9a6a2091324ab6525951651b3700e3bea0fe9a89 cxl/mbox: Use proper endpoint validity check upon sanitize
-f8e478e3af57e603c7f1d4f9dba6d8948b8c32c1 Merge remote-tracking branch 'torvalds/master' into perf-tools
-be5c5280cf2b20e363dc8e2a424dd200a29b1c77 cxl: Adjust the startup priority of cxl_pmem to be higher than that of cxl_acpi
-453b8fb68f3641fea970db88b7d9a153ed2a37e8 xen/privcmd: restrict usage in unprivileged domU
-1613462be621ad5103ec338a7b0ca0746ec4e5f1 xen/privcmd: add boot control for restricted usage in domU
-3a206a8649f83bec99a3517da5e7dac9c138875e mm/rmap: clear vma->anon_vma on error
-26f775a054c3cda86ad465a64141894a90a9e145 mm/damon/core: avoid use of half-online-committed context
-b0377ee8042985b0d91bf579afcc4ee9150db14d zram: do not slot_free() written-back slots
-4ddd7588fae6175e748cff22c79faafb4d455d42 tools arch x86: Sync the msr-index.h copy with the kernel sources
-3c71ae8ec9adde96f5ecfcbeef62ccf1d420f83f tools headers UAPI: Sync linux/kvm.h with the kernel sources
-0a8b2a0857ede906f7b74a435b11778336770bea tools headers UAPI: Sync x86's asm/kvm.h with the kernel sources
-493ad070cbcb0d62deed877d90e80e554cac7f01 tools headers: Synchronize linux/build_bug.h with the kernel sources
-38dfd294e24c0f397413799c2e5633aedb2058bf mailmap: update email address for Muhammad Usama Anjum
-631c1111501f34980649242751e93cfdadfd1f1c mm/zswap: add missing kunmap_local()
-84481e705ab07ed46e56587fe846af194acacafe mm/damon/stat: monitor all System RAM resources
-a0124352d5329e245bde2e686914b404cb40bd91 Merge tag 'xsa482-7.0-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/xen/tip
-97a48d1aab549acb9b7f4a80d484f59710643199 Merge tag 'media/v7.0-5' of git://git.kernel.org/pub/scm/linux/kernel/git/mchehab/linux-media
-26a01984ddc1e67025fd150e845ab61d5271d6b7 Merge tag 'perf-tools-fixes-for-v7.0-2-2026-03-23' of git://git.kernel.org/pub/scm/linux/kernel/git/perf/perf-tools
-e3c33bc767b5512dbfec643a02abf58ce608f3b2 Merge tag 'mm-hotfixes-stable-2026-03-23-17-56' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
-12fd96587160fe6714dd19dfdd7b6b6184eacea4 Merge tag 'kvm-s390-master-7.0-1' of git://git.kernel.org/pub/scm/linux/kernel/git/kvms390/linux into HEAD
-52dad81e4b3b2087e38fe522da7465e6d0160ddd Merge tag 'kvmarm-fixes-7.0-4' of git://git.kernel.org/pub/scm/linux/kernel/git/kvmarm/kvmarm into HEAD
-45f667ebb06a141a5fbb1cae1b44a81102a23bc8 Merge tag 'cxl-fixes-7.0-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/cxl/cxl
-24f9515de8778410e4b84c85b196c9850d2c1e18 Merge tag 'for-linus' of git://git.kernel.org/pub/scm/virt/kvm/kvm
-bbeb83d3182abe0d245318e274e8531e5dd7a948 Merge tag 'kbuild-fixes-7.0-3' of git://git.kernel.org/pub/scm/linux/kernel/git/kbuild/linux
-
---===============2388421432171947079==--
+  - ref: refs/heads/for-next
+    old: 6edef31ef9004ed51624246a04f7f81112f485b0
+    new: 05eec2a60c7909acfbe5b6c5fbb64790d5a3ff1c
+    log: |
+         b6458874cd70ccd4e77ee0bdc80ab38b6b351ae9 RDMA/bnxt_re: Simplify bnxt_re_init_depth() callers and implementation
+         8c65d350b5bf9bb53e12b943487bc7b80fbc18e2 RDMA/bnxt_re: Remove unnecessary checks in kernel CQ creation path
+         48730650ae101c57acff7e3fe5982e06472c8f39 RDMA/bnxt_re: Replace kcalloc() with kzalloc_objs()
+         1c3eaf5186228f0b20ccb776e86233f069475380 RDMA/bnxt_re: Clean up uverbs CQ creation path
+         05eec2a60c7909acfbe5b6c5fbb64790d5a3ff1c RDMA: Remove outdated comments referencing hfi1_destroy_qp()
+         
