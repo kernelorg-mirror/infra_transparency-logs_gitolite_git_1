@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
-Date: Wed, 25 Mar 2026 03:57:46 -0000
-Message-Id: <177441106677.3399023.2792558674471292690@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Wed, 25 Mar 2026 04:01:41 -0000
+Message-Id: <177441130107.3402821.1395000259616484709@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/xiang/erofs-utils
-user: xiang
+repo: pub/scm/linux/kernel/git/netdev/net
+user: kuba
 changes:
-  - ref: refs/heads/experimental-tests
-    old: e560a0d027a9f0f68e47e1293e58a6cf43fd6899
-    new: 5ea7694729fd9578f98c512099c186d35518c0fd
+  - ref: refs/heads/main
+    old: 71399707876b93240f236f48b8062f3423a5fe97
+    new: 815980fe6dbb01ad4007e8b260a45617f598b76d
     log: |
-         5ea7694729fd9578f98c512099c186d35518c0fd erofs-utils: tests: add inode page cache sharing testcase
+         09474055f2619be9445ba4245e4013741ed01a5e rtnetlink: fix leak of SRCU struct in rtnl_link_register
+         815980fe6dbb01ad4007e8b260a45617f598b76d net_sched: codel: fix stale state for empty flows in fq_codel
          
