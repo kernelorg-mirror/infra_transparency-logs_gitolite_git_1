@@ -1,44 +1,49 @@
-Content-Type: multipart/mixed; boundary="===============5914558132368518124=="
+Content-Type: multipart/mixed; boundary="===============6261841911831755243=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
-Date: Wed, 25 Mar 2026 11:11:02 -0000
-Message-Id: <177443706228.3901359.642571869227251060@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+Date: Wed, 25 Mar 2026 12:07:56 -0000
+Message-Id: <177444047639.3945829.15332930595353327046@gitolite.kernel.org>
 
---===============5914558132368518124==
+--===============6261841911831755243==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jlayton/linux
-user: jlayton
+repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+user: ij
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/kdevops
-    old: b381f8538f9a3f91398be0d7656b7eb0784402ec
-    new: 813bd36b6ebdac125a5b02c63e457e08636db641
-    log: revlist-b381f8538f9a-813bd36b6ebd.txt
+  - ref: refs/heads/for-next
+    old: a5877e921389178f994a5ec15a145d7e7ba3ec65
+    new: fab7c51693e95aa874d6d9db22bfae7bd0b23c66
+    log: |
+         dc1ec4fa86b2b8bba2b6122f2b4420217b5bae9e platform/x86: bitland-mifs-wmi: Add new Bitland MIFS WMI driver
+         186bf9031666602d61b40832181b6b6fdc3ba4dc platform/x86: asus-wmi: do not enforce a battery charge threshold
+         034f5efd362fb87a3970d61eaf982664f84e6c5a platform/x86: asus-wmi: adjust screenpad power/brightness handling
+         fab7c51693e95aa874d6d9db22bfae7bd0b23c66 platform/x86: asus-wmi: fix screenpad brightness range
+         
 
---===============5914558132368518124==
+--===============6261841911831755243==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b381f8538f9a-813bd36b6ebd.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-8a650cd8771f0b188bf294e01a3f8afe39385804 nfsd/sunrpc: add support for netlink upcalls for mountd/exportd
-e4eeccd1fb4dfbad56030c7fb3421977f127cc30 nfsd: move struct nfsd_genl_rqstp to nfsctl.c
-f565c4469a052ade0af1c8f8a01bb9737da224be sunrpc: rename sunrpc_cache_pipe_upcall() to sunrpc_cache_upcall()
-803a6cb6c3f7acc1c53da0e2dff67844e584bfd6 sunrpc: rename sunrpc_cache_pipe_upcall_timeout()
-a180ec6102cff8b247294fdd4467e56f9a7d9922 sunrpc: rename cache_pipe_upcall() to cache_do_upcall()
-d680d44b64eea9485f86120df208e42f5995e120 sunrpc: add a cache_notify callback
-b52cead4c563e7b4e0bb4efaca4e7de0b8414d89 sunrpc: add helpers to count and snapshot pending cache requests
-c60eb1fb9e842aafd34381e9c18d829df0b46b96 sunrpc: add a generic netlink family for cache upcalls
-a72e7b284701edf320e73b2753f7249daa260f2a sunrpc: add netlink upcall for the auth.unix.ip cache
-9ce1471c71724b09954b23d679f72b7b983d7307 sunrpc: add netlink upcall for the auth.unix.gid cache
-3eb6dcfcb8aeb44102e46758823031e6cc922152 nfsd: add netlink upcall for the svc_export cache
-d2e22d4c804d193fe7bce75d91b4e367f5065731 nfsd: add netlink upcall for the nfsd.fh cache
-b5d22002e832741995521dd22db9a867792188e1 sunrpc: add SUNRPC_CMD_CACHE_FLUSH netlink command
-813bd36b6ebdac125a5b02c63e457e08636db641 nfsd: add NFSD_CMD_CACHE_FLUSH netlink command
+certificate version 0.1
+pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1774440471 +0200
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86.git
+nonce 1774440470-99442dcfcf2d774b230f226b95a894474a932d38
 
---===============5914558132368518124==--
+a5877e921389178f994a5ec15a145d7e7ba3ec65 fab7c51693e95aa874d6d9db22bfae7bd0b23c66 refs/heads/for-next
+-----BEGIN PGP SIGNATURE-----
+
+iHUEABYIAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCacPQGwAKCRBZrE9hU+XO
+MdhMAP4kNQrFIbcaOLADNza3+YS4teRZatyu8EJq6OVQPpImBwD7BYpDF5AqT2Km
+VCZyti8PjN3KF7RVG5rLDYeE1UaucwA=
+=4uq4
+-----END PGP SIGNATURE-----
+
+--===============6261841911831755243==--
