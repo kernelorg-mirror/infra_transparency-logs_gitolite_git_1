@@ -1,19 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/fpga/linux-fpga
-Date: Wed, 25 Mar 2026 07:03:27 -0000
-Message-Id: <177442220702.3539977.7055651260145181701@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/thomas.weissschuh/linux
+Date: Wed, 25 Mar 2026 07:04:04 -0000
+Message-Id: <177442224439.3540348.7729457040434351195@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/fpga/linux-fpga
-user: yilunxu
+repo: pub/scm/linux/kernel/git/thomas.weissschuh/linux
+user: thomas.weissschuh
 changes:
-  - ref: refs/heads/for-next
-    old: 26e5e1be2e640a562618c1aa03ed15b62bfbf2d6
-    new: f63ddbcc3299047e7026b9324520aa826794f0c5
+  - ref: refs/heads/b4/vdso-ifdeffery
+    old: 45c96fcd1b5efdc20a7638f8aafec16f4572a94b
+    new: 79ffb31a4d48b44be2785e748722f6b4e3980434
     log: |
-         f63ddbcc3299047e7026b9324520aa826794f0c5 fpga: m10bmc-sec: switch show_canceled_csk() to using sysfs_emit()
+         f2cd86d6fa85f872bbf637c7d83a30d6c40f9d57 fallbacks
+         542fd4f2d20fa80123494275747b401b7beb1227 HAS_TIME
+         cfa274511a4a491eb5f2c440f366754326fe28de getres fallbacks
+         ecf32517f8467dce391bb422c33facd988e22b01 VDSO_HAS_CLOCK_GETRES
+         79ffb31a4d48b44be2785e748722f6b4e3980434 BUILD_VDSO32
          
