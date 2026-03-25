@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1360552834025102574=="
+Content-Type: multipart/mixed; boundary="===============6362524092934971455=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/docs/linux
-Date: Wed, 25 Mar 2026 19:48:16 -0000
-Message-Id: <177446809638.142553.11136507875031864934@gitolite.kernel.org>
+Date: Wed, 25 Mar 2026 19:48:17 -0000
+Message-Id: <177446809757.142639.13390209526288537285@gitolite.kernel.org>
 
---===============1360552834025102574==
+--===============6362524092934971455==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/docs/linux
 user: corbet
 changes:
-  - ref: refs/heads/docs-mw
+  - ref: refs/heads/docs-next
     old: 99aa500409c43573a0399b2bd0dcf64e0062347c
     new: 0a4f3ef9880e505d41817419b0255d6552776143
     log: revlist-99aa500409c4-0a4f3ef9880e.txt
 
---===============1360552834025102574==
+--===============6362524092934971455==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -45,4 +45,4 @@ e786fab2cfcc9ab65adf35d2eab4ca94abe1955f docs: kdoc_yaml_file: use a better name
 aa3bee451dc4217ed5391452dc524b27e813d97a docs: pt_BR: Add translation for KVM x86 maintainer guide
 0a4f3ef9880e505d41817419b0255d6552776143 docs: ja_JP: process: translate second half of 'Describe your changes'
 
---===============1360552834025102574==--
+--===============6362524092934971455==--
