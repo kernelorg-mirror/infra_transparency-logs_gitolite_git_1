@@ -1,24 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Wed, 25 Mar 2026 16:24:09 -0000
-Message-Id: <177445584942.4164791.10064848082084449506@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/next-utils/tools
+Date: Wed, 25 Mar 2026 16:26:33 -0000
+Message-Id: <177445599344.4168318.4294528316421440775@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/next-queue
-user: tnguy
+repo: pub/scm/utils/next-utils/tools
+user: broonie
 changes:
-  - ref: refs/heads/40GbE
-    old: b1c803d5c8167026791abfaed96fd3e6a1fcd750
-    new: d1e59a46973719e458bec78d00dd767d7a7ba71f
+  - ref: refs/heads/main
+    old: c0802c57ee8af383cc8b1e619ba98caf78b8210f
+    new: b26c519a4e55d22e9ad72c5f4d2b6f76b191665d
     log: |
-         10171b938330f6e625e7dc8dd24a15cc96218172 net: ethtool: pass genl_info to the ethnl parse_request operation
-         a319d0c8c8cede3b63538c9f111f84651d078bf6 net: dsa: mxl862xx: add CRC for MDIO communication
-         7c20f6c1cfb15ad6adc9a312973a48113cbf49f0 net: dsa: mxl862xx: use RST_DATA to skip writing zero words
-         864ee4eed2d8f9f713e5c2ec5c4ec960d04f7b41 Merge branch 'net-dsa-mxl862xx-mdio-bus-integrity-and-optimization'
-         112f4c6320070b19e7d49cba758400adc279e377 selftests: drv-net: add missing tc config options for netkit tests
-         d1e59a46973719e458bec78d00dd767d7a7ba71f tcp: add cwnd_event_tx_start to tcp_congestion_ops
+         b26c519a4e55d22e9ad72c5f4d2b6f76b191665d build_msg: Automatically fill out the build name and log
          
