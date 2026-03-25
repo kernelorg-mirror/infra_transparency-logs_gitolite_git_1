@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7782488327759435474=="
+Content-Type: multipart/mixed; boundary="===============7577630451050855583=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Wed, 25 Mar 2026 13:37:18 -0000
-Message-Id: <177444583819.4023881.12261930122322315316@gitolite.kernel.org>
+Date: Wed, 25 Mar 2026 13:37:19 -0000
+Message-Id: <177444583999.4024089.3599819182023632782@gitolite.kernel.org>
 
---===============7782488327759435474==
+--===============7577630451050855583==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/mm-new
-    old: 9915fc698c8591d2d53e46b8c1ce33ac801975b9
-    new: 5262317f2573efa0e9ba207c8c0b024d55cfe54a
-    log: revlist-9915fc698c85-5262317f2573.txt
+  - ref: refs/heads/mm-unstable
+    old: 230cf3329b649496ab26b1c01b9cfc8fa0062530
+    new: 7c5507fca017a80ece36f34e36c77e2bee267517
+    log: revlist-230cf3329b64-7c5507fca017.txt
 
---===============7782488327759435474==
+--===============7577630451050855583==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9915fc698c85-5262317f2573.txt
+Content-Disposition: attachment; filename=revlist-230cf3329b64-7c5507fca017.txt
 
 bffb824ddbe47d9413803bbaa4679876a514e085 mm/pagewalk: fix race between concurrent split and refault
 6e6aa6363651dd22411914c8117ef8a0c17c4260 mm: filemap: fix nr_pages calculation overflow in filemap_map_pages()
@@ -349,43 +349,5 @@ f5cc3243da6876c8241618c600e78560e1c38c25 mm: add softleaf_is_valid_pmd_entry(), 
 8c608d5853a2f746596644fae049d36c0ffe095b mm: introduce CONFIG_NUMA_MIGRATION and simplify CONFIG_MIGRATION
 59fa6ed082b50bd8368ac8cb14ae2e27e4e6eaed zsmalloc: return -EBUSY for zspage migration lock contention
 7c5507fca017a80ece36f34e36c77e2bee267517 lib/maple_tree: fix swapped arguments in mas_safe_pivot() call
-c7e61c01e15c77bbd84357b17b205426fcc4085a mm/mglru: fix cgroup OOM during MGLRU state switching
-c375bb16d5ef6bad22527c202fec240724a3f4f4 mm/memcontrol: batch memcg charging in __memcg_slab_post_alloc_hook
-7a98e8cb43b72258f510c498f68d225f86879548 mm/damon/core: document damos_commit_dests() failure semantics
-5761a1b5d4fd62866f32ec01582c6653cd886701 Docs/mm/damon: document min_nr_regions constraint and rationale
-560221d3aee1c98d2f37e2c50ac20af3946fc089 mm/execmem: make the populate and alloc atomic
-0df65b4b9ee22d9fc78750322d4d1d88a18ccee1 mm/zsmalloc: copy KMSAN metadata in zs_page_migrate()
-ebab098b3d34b627e8ad6fda008d887b7d055619 mm: mark early-init static variables with __meminitdata
-7bcb0248ec36a15a1c0e11df052766df4762872e mm: vmalloc: update outdated comment for renamed vread()
-dbb93cd97e0310123e1d454af34d885826427fdc mm: update outdated comments for removed scan_swap_map_slots()
-015272f427038b636fc1b4069706461b94fe2ba3 mm: change to return bool for ptep_test_and_clear_young()
-df84e8d480916588271baf20f14630fc4733a111 mm: change to return bool for ptep_clear_flush_young()/clear_flush_young_ptes()
-0e1b4fbba7faa254a030e6be685e174b252e0b07 mm: change to return bool for pmdp_test_and_clear_young()
-e0e2724b25430706a9adf82763e8da8c22b55f17 mm: change to return bool for pmdp_clear_flush_young()
-9155d56cc24fb707fb588b0f9410959f11706ba8 mm: change to return bool for pudp_test_and_clear_young()
-3a16a7008f3100a2753e3a6b9c096955f42d3550 mm: change to return bool for the MMU notifier's young flag check
-b15c459a03ab7ef5035ebba87428f312e8871331 mm/memcontrol: fix reclaim_options leak in try_charge_memcg()
-8d9b71afd4c40a0aaa88930cabdc244c4eb4b065 mm/page_alloc: don't increase highatomic reserve after pcp alloc
-21332cdce05bf88ac38133b84057784f34edc80d drivers/base/memory: fix stale reference to memory_block_add_nid()
-1093491fd1cb23614f46598fe7541e58e0eec83d mm: remove unused page_is_file_lru() function
-b86b12b117e8eb3ebe610baef401ee747cf50e99 memory tiering: do not allow promotion if NUMA_BALANCING_MEMORY_TIERING is disabled
-8adbaf27f72c057f2f1144c582a5471370b9e8f0 mm: kmemleak: add CONFIG_DEBUG_KMEMLEAK_VERBOSE build option
-4ae63146ce99f5b215ba2394708e5faa060c5c67 mm/memfd: use folio_nr_pages() for shmem inode accounting
-7e868e01fbb6caceaaa4cdfa8855baf3c34fadfd mm/memfd_luo: optimize shmem_recalc_inode calls in retrieve path
-05d43fe99b3ed3f164b5be783115fdabf8ea1944 mm/memfd_luo: remove unnecessary memset in zero-size memfd path
-ca0cd0054dfb24342e14f1f41e29e0825adfc4ac mm/memfd_luo: use i_size_write() to set inode size during retrieve
-c564a45bc2837270bf69cd867674bbc6e6211b8c mm/swap, PM: hibernate: fix swapoff race in uswsusp by pinning swap device
-f43c7bd95203653669370ea70dc753b79ffe1afb mm/swap: remove redundant swap device reference in alloc/free
-7e40e4d347905c39949ca39376d7b59097a2e608 kho: add size parameter to kho_add_subtree()
-ec6d50a4bc341c98098972ad96f170a25a9a85fe kho: rename fdt parameter to blob in kho_add/remove_subtree()
-7cdbbb54ec2a150ad8b65384c8b3e8370b9c8b0e kho: persist blob size in KHO FDT
-6ca77903aae086738fdd4a248f5a3cbd1ed6c2a4 kho: fix kho_in_debugfs_init() to handle non-FDT blobs
-2e744c6051cbcf6ac5104a052fe2355b2fe48ea6 kho: kexec-metadata: track previous kernel chain
-68cd307777f0290c7d6f0ae6c3df2443f1d53b1e kho: document kexec-metadata tracking feature
-22ec63261a5cb299da8af6bd3d29fca9732021ab liveupdate: prevent double management of files
-b86b7136b605ba7ffdb48ad52cf290d6e0baeba3 selftests: liveupdate: add test for double preservation
-22ec586d2b7ba389500580fab043130a1877088a mm/page_io: fix PSWPIN undercount for large folios in sio_read_complete()
-598a13085761f9219c267df174aa2cb1dbd38019 mm/mprotect: move softleaf code out of the main function
-5262317f2573efa0e9ba207c8c0b024d55cfe54a mm/mprotect: special-case small folios when applying write permissions
 
---===============7782488327759435474==--
+--===============7577630451050855583==--
