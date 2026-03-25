@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Wed, 25 Mar 2026 15:54:19 -0000
-Message-Id: <177445405919.4137100.7754904599020856423@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mszyprowski/linux
+Date: Wed, 25 Mar 2026 15:54:46 -0000
+Message-Id: <177445408645.4137298.16056322138228473835@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: ast
+repo: pub/scm/linux/kernel/git/mszyprowski/linux
+user: mszyprowski
 changes:
-  - ref: refs/heads/for-next
-    old: 9f7d8fa6817e2709846fc7f5c9f60254e536d138
-    new: 400ff899c336c24bf4d34479f98cef2fd2d3482a
-    log: |
-         400ff899c336c24bf4d34479f98cef2fd2d3482a selftests/bpf: Make reg_bounds test more robust
-         
+  - ref: refs/tags/dma-mapping-7.0-2026-03-25
+    old: 0000000000000000000000000000000000000000
+    new: 9ba86321da4fb2751940b826f3eba1c8eaa64424
