@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7679239754564341178=="
+Content-Type: multipart/mixed; boundary="===============7088939714733370409=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Wed, 25 Mar 2026 16:04:12 -0000
-Message-Id: <177445465210.4146778.8942436936824326199@gitolite.kernel.org>
+Date: Wed, 25 Mar 2026 16:04:15 -0000
+Message-Id: <177445465535.4146947.7209601207020371367@gitolite.kernel.org>
 
---===============7679239754564341178==
+--===============7088939714733370409==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
+  - ref: refs/heads/10GbE
     old: bc0151c59e639c1311ee573434af74b4e2c81de4
     new: c4ea7d8907cf72b259bf70bd8c2e791e1c4ff70f
     log: revlist-bc0151c59e63-c4ea7d8907cf.txt
 
---===============7679239754564341178==
+--===============7088939714733370409==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -79,4 +79,4 @@ ba8bda9a0896746053aa97ac6c3e08168729172c virtio_net: Fix UAF on dst_ops when IFF
 815980fe6dbb01ad4007e8b260a45617f598b76d net_sched: codel: fix stale state for empty flows in fq_codel
 c4ea7d8907cf72b259bf70bd8c2e791e1c4ff70f net: mana: fix use-after-free in add_adev() error path
 
---===============7679239754564341178==--
+--===============7088939714733370409==--
