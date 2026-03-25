@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6107659763012830947=="
+Content-Type: multipart/mixed; boundary="===============7825928434560008592=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Wed, 25 Mar 2026 06:51:05 -0000
-Message-Id: <177442146564.3531549.14427412643960305990@gitolite.kernel.org>
+Date: Wed, 25 Mar 2026 06:51:28 -0000
+Message-Id: <177442148881.3531943.10703825981387345373@gitolite.kernel.org>
 
---===============6107659763012830947==
+--===============7825928434560008592==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,15 +16,49 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: 843ae02ba0dfeb5623329da502aff83313d3084b
-    new: 28acfaeba3d34f41dd828d2c32f09d1128945420
-    log: revlist-843ae02ba0df-28acfaeba3d3.txt
+    old: 28acfaeba3d34f41dd828d2c32f09d1128945420
+    new: 8a5f70eb7e4f1b25c8988cbf841f4a1734d1cd3a
+    log: revlist-28acfaeba3d3-8a5f70eb7e4f.txt
+  - ref: refs/heads/tip/urgent
+    old: ba7631b5a8b35a3f0bbe8c7bfaf0d3c51839c3c6
+    new: 486a1f4c241540046b2519583b7dae38aa619476
+    log: revlist-ba7631b5a8b3-486a1f4c2415.txt
 
---===============6107659763012830947==
+--===============7825928434560008592==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-843ae02ba0df-28acfaeba3d3.txt
+Content-Disposition: attachment; filename=revlist-28acfaeba3d3-8a5f70eb7e4f.txt
+
+04a10503cc36326193d88e80a8d9f0c4dfd634e8 Merge branch into tip/master: 'irq/urgent'
+2f5dc0f216723bbfc46837b33abae51d1c42d94f Merge branch into tip/master: 'timers/urgent'
+486a1f4c241540046b2519583b7dae38aa619476 Merge branch into tip/master: 'x86/urgent'
+6a41fa89f13a2f74ed82ef2661fb51a25df0d9a2 Merge branch into tip/master: 'sched/merge'
+3f25b42e8af83a2a5a2992b38851831fc067a99c Merge branch into tip/master: 'timers/merge'
+296bc6b15b4fc5918f3b6c944f3cf73df289019c Merge branch into tip/master: 'core/entry'
+a450444666cbf8178dc4a33ff633eadc46c69ef6 Merge branch into tip/master: 'irq/core'
+d7452aa974960d70931c712b2e120c67b4a14e1e Merge branch into tip/master: 'irq/drivers'
+cb740b21546e14b46d75629b699250606d074e67 Merge branch into tip/master: 'irq/msi'
+13662e5c715618144c4cb0b6a66335121aabc068 Merge branch into tip/master: 'locking/core'
+eb93262d9489a181b1d8b3ada56581bbc21846c4 Merge branch into tip/master: 'locking/futex'
+c2d73f385023b4d43d9457ddc1db34ff40ba476e Merge branch into tip/master: 'objtool/core'
+c54d170352fe967bb1c91df6c494f58aaed0c1c8 Merge branch into tip/master: 'perf/core'
+f63f63342b2567193a813d46b5d241e74a0941bc Merge branch into tip/master: 'ras/core'
+69bd48064d64346bf51cddedf52814d12c35ceaa Merge branch into tip/master: 'sched/core'
+16f9f93582883e7267cc535c3e410485ae07b18f Merge branch into tip/master: 'timers/core'
+7b31ce023c6e197a826735ca567ffaa7fa9ab05e Merge branch into tip/master: 'x86/cleanups'
+a9bb6bdc76e07dbeacb69fef70186ba9f6414a15 Merge branch into tip/master: 'x86/cpu'
+875cfb06768c4b79a9f9a46448f21879df8fe752 Merge branch into tip/master: 'x86/microcode'
+a55c7c99c49b60d7908312cd55da80c0aa282439 Merge branch into tip/master: 'x86/misc'
+adccfa9742cb35810cf1b78b224df5a729e3d3bc Merge branch into tip/master: 'x86/mm'
+935335284ad317e528d45fb65779ed70010d7979 Merge branch into tip/master: 'x86/sev'
+8a5f70eb7e4f1b25c8988cbf841f4a1734d1cd3a Merge branch into tip/master: 'x86/tdx'
+
+--===============7825928434560008592==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-ba7631b5a8b3-486a1f4c2415.txt
 
 19d2f0b97a131198efc2c4ca3eb7f980bba8c2b4 cxl/port: Fix use after free of parent_port in cxl_detach_ep()
 77b310bb7b5ff8c017524df83292e0242ba89791 cxl/region: Fix leakage in __construct_region()
@@ -77,6 +111,8 @@ e3c33bc767b5512dbfec643a02abf58ce608f3b2 Merge tag 'mm-hotfixes-stable-2026-03-2
 45f667ebb06a141a5fbb1cae1b44a81102a23bc8 Merge tag 'cxl-fixes-7.0-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/cxl/cxl
 24f9515de8778410e4b84c85b196c9850d2c1e18 Merge tag 'for-linus' of git://git.kernel.org/pub/scm/virt/kvm/kvm
 bbeb83d3182abe0d245318e274e8531e5dd7a948 Merge tag 'kbuild-fixes-7.0-3' of git://git.kernel.org/pub/scm/linux/kernel/git/kbuild/linux
-28acfaeba3d34f41dd828d2c32f09d1128945420 Merge branch 'linus'
+04a10503cc36326193d88e80a8d9f0c4dfd634e8 Merge branch into tip/master: 'irq/urgent'
+2f5dc0f216723bbfc46837b33abae51d1c42d94f Merge branch into tip/master: 'timers/urgent'
+486a1f4c241540046b2519583b7dae38aa619476 Merge branch into tip/master: 'x86/urgent'
 
---===============6107659763012830947==--
+--===============7825928434560008592==--
