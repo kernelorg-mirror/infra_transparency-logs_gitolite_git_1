@@ -1,24 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/wsa/linux
-Date: Wed, 25 Mar 2026 10:23:02 -0000
-Message-Id: <177443418255.3863347.1930055427908509049@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============7286260441715649515=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/security/vulns
+Date: Wed, 25 Mar 2026 10:23:11 -0000
+Message-Id: <177443419113.3863646.17301158818581876203@gitolite.kernel.org>
+
+--===============7286260441715649515==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/wsa/linux
-user: wsa
+repo: pub/scm/linux/security/vulns
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/renesas/x5h/mfis-single-driver
-    old: bb33e31f0d2d9868ebe59bb8a8c3af1bdcf2fbea
-    new: f1ca089993ff0b15baea0a1f0dd8ffabb11014c2
+  - ref: refs/heads/master
+    old: 7df8fa3def099edba135cd97b5600a8cf7fe6dd6
+    new: f466d5812f1101865e6883910a8a26de05ea91a0
     log: |
-         e3a9d7ca254be39b789051de28d7f64e51efd15d dt-bindings: soc: renesas: Document MFIS IP core
-         f550f9e8e740460cc07dbc2489d0da3c36832eef soc: renesas: Add Renesas R-Car MFIS driver
-         36d2ae753761a158b4a4494cac07a28107464f38 soc: renesas: add X5H PRR support
-         02298961347bf54bbf66db1db254f2aab3b998a3 arm64: renesas: r8a78000: enable to use MFIS/MFIS-SCP
-         86767044881ca70652ba0ef4273f8c6d55190773 arm64: renesas: r8a78000-ironhide: enable to use SCMI
-         f1ca089993ff0b15baea0a1f0dd8ffabb11014c2 TEST: DTS additions for mailbox-test
+         f466d5812f1101865e6883910a8a26de05ea91a0 update cvelistV5
          
+
+--===============7286260441715649515==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1774434170 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
+nonce 1774434190-4f99c0156b0fb578375a561c6da7fbf46a3e81a0
+
+7df8fa3def099edba135cd97b5600a8cf7fe6dd6 f466d5812f1101865e6883910a8a26de05ea91a0 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmnDt3obHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+g/YQALe43LDMHdBO08s2GZpt
+uVuTkpevPs3wDhM7ZaEk62licb2+QmZ0ED/nGetCxAlbHFN3wU+O765QfIaVtp5m
+k/PqUI6Ajb9qw5Rwc/GB0rtgNblCszhBKaQsh+Co+Kf9KnE7yUg41rs3dZrofp/T
+2AiyHE4wHjFwwqbzREtBBYOAsoSabw9NnupnNFAqoMoGKDQsnJyqTclGaln/wmvE
+SK0lgqrySX1111jhcK73fBYZpZJRsQd8XAHrK53N0JnVjHkte/jcoPe9zBIw7/hA
+scxFLVzH5rHkmaaHHyRJzlPSqMfidR5GEYWfyTxjEjGhPEgP8+xC8vxVTkLFMTUo
+9LPh3CoaeG++68LvsmhOzEZk8Zws4p0zSXxhfZqW79u5kUsuxbB5tDwedDY1PMC3
+uP0nzCH8idRyN61r7i8tOcIZZRW3nuzciBDz7n6KjreymwogegxHG3HBlACPML5m
+APecJz1sKBznTiaRZWOlXzhRQHPrKFw2g3lMJXVBUBbJVuIaCRLq+0fb02N0riTj
+Coz/XpIoAXvDhnplLoCGXk3mHaXLJTEQq5TALciuQvQYLYmgET1XAsurnbQxyGjs
+TmZOjnQdIdpD9syhXm4B52EVX/B9Tc6ZaRcd5i1GN5XY1Wmi9Wb3x0wjl54+bNDn
+VRbmamHz1UUucq8eggGsa8Fd
+=7xZi
+-----END PGP SIGNATURE-----
+
+--===============7286260441715649515==--
