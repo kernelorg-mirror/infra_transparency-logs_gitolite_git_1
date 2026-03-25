@@ -1,56 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============7286260441715649515=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/security/vulns
-Date: Wed, 25 Mar 2026 10:23:11 -0000
-Message-Id: <177443419113.3863646.17301158818581876203@gitolite.kernel.org>
-
---===============7286260441715649515==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
+Date: Wed, 25 Mar 2026 10:23:57 -0000
+Message-Id: <177443423739.3864038.6662497355799832252@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/security/vulns
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/brgl/linux
+user: brgl
 changes:
-  - ref: refs/heads/master
-    old: 7df8fa3def099edba135cd97b5600a8cf7fe6dd6
-    new: f466d5812f1101865e6883910a8a26de05ea91a0
+  - ref: refs/heads/gpio/for-next
+    old: 7803501e5754dc4b295ab22b20562e2b965358ba
+    new: 541c5b0837468b433e238c3a14481f939ec978a3
     log: |
-         f466d5812f1101865e6883910a8a26de05ea91a0 update cvelistV5
+         96b76f7bc575ac6c69090f4642e424b04fb6784c pinctrl: introduce pinctrl_gpio_get_config()
+         9ea2647b0089ce8d7e2723eda4c77cbc55f8b7c5 pinctrl: scmi: Add SCMI_PIN_INPUT_VALUE
+         37a584414d9ceca48f4367dcb829bf9dc6015988 pinctrl: scmi: Delete PIN_CONFIG_OUTPUT_IMPEDANCE_OHMS support
+         f20e81322f3a071db248f050c32713b503ae1fa4 pinctrl: scmi: ignore PIN_CONFIG_PERSIST_STATE
+         bf1fbd189d45216dec1f02f6e12fffde9f3b4ea6 firmware: arm_scmi: Allow PINCTRL_REQUEST to return EOPNOTSUPP
+         05a8a80efaacc42013d78fc3fe41159b7be4333c gpio: dt-bindings: Add GPIO on top of generic pin control
+         7671f4949a6c9111234fdbcd577b227ace799f16 gpio: gpio-by-pinctrl: add pinctrl based generic GPIO driver
+         541c5b0837468b433e238c3a14481f939ec978a3 Merge branch 'ib-scmi-pinctrl-gpio' of git://git.kernel.org/pub/scm/linux/kernel/git/linusw/linux-pinctrl into gpio/for-next
          
-
---===============7286260441715649515==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1774434170 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
-nonce 1774434190-4f99c0156b0fb578375a561c6da7fbf46a3e81a0
-
-7df8fa3def099edba135cd97b5600a8cf7fe6dd6 f466d5812f1101865e6883910a8a26de05ea91a0 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmnDt3obHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+g/YQALe43LDMHdBO08s2GZpt
-uVuTkpevPs3wDhM7ZaEk62licb2+QmZ0ED/nGetCxAlbHFN3wU+O765QfIaVtp5m
-k/PqUI6Ajb9qw5Rwc/GB0rtgNblCszhBKaQsh+Co+Kf9KnE7yUg41rs3dZrofp/T
-2AiyHE4wHjFwwqbzREtBBYOAsoSabw9NnupnNFAqoMoGKDQsnJyqTclGaln/wmvE
-SK0lgqrySX1111jhcK73fBYZpZJRsQd8XAHrK53N0JnVjHkte/jcoPe9zBIw7/hA
-scxFLVzH5rHkmaaHHyRJzlPSqMfidR5GEYWfyTxjEjGhPEgP8+xC8vxVTkLFMTUo
-9LPh3CoaeG++68LvsmhOzEZk8Zws4p0zSXxhfZqW79u5kUsuxbB5tDwedDY1PMC3
-uP0nzCH8idRyN61r7i8tOcIZZRW3nuzciBDz7n6KjreymwogegxHG3HBlACPML5m
-APecJz1sKBznTiaRZWOlXzhRQHPrKFw2g3lMJXVBUBbJVuIaCRLq+0fb02N0riTj
-Coz/XpIoAXvDhnplLoCGXk3mHaXLJTEQq5TALciuQvQYLYmgET1XAsurnbQxyGjs
-TmZOjnQdIdpD9syhXm4B52EVX/B9Tc6ZaRcd5i1GN5XY1Wmi9Wb3x0wjl54+bNDn
-VRbmamHz1UUucq8eggGsa8Fd
-=7xZi
------END PGP SIGNATURE-----
-
---===============7286260441715649515==--
