@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============0491452112418461688=="
+Content-Type: multipart/mixed; boundary="===============0241829742223822364=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Wed, 25 Mar 2026 20:05:22 -0000
-Message-Id: <177446912218.158283.2025924734515280402@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools
+Date: Wed, 25 Mar 2026 20:05:27 -0000
+Message-Id: <177446912753.158723.17504488733328235826@gitolite.kernel.org>
 
---===============0491452112418461688==
+--===============0241829742223822364==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/acme/linux
+repo: pub/scm/linux/kernel/git/perf/perf-tools
 user: acme
 changes:
   - ref: refs/heads/tmp.perf-tools
@@ -20,7 +20,7 @@ changes:
     new: bbeb83d3182abe0d245318e274e8531e5dd7a948
     log: revlist-493ad070cbcb-bbeb83d3182a.txt
 
---===============0491452112418461688==
+--===============0241829742223822364==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -391,4 +391,4 @@ e3c33bc767b5512dbfec643a02abf58ce608f3b2 Merge tag 'mm-hotfixes-stable-2026-03-2
 24f9515de8778410e4b84c85b196c9850d2c1e18 Merge tag 'for-linus' of git://git.kernel.org/pub/scm/virt/kvm/kvm
 bbeb83d3182abe0d245318e274e8531e5dd7a948 Merge tag 'kbuild-fixes-7.0-3' of git://git.kernel.org/pub/scm/linux/kernel/git/kbuild/linux
 
---===============0491452112418461688==--
+--===============0241829742223822364==--
