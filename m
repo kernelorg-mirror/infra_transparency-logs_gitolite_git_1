@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/driver-core/driver-core
-Date: Thu, 26 Mar 2026 21:01:52 -0000
-Message-Id: <177455891275.1430418.282132277670256945@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
+Date: Thu, 26 Mar 2026 21:03:54 -0000
+Message-Id: <177455903456.1431200.13513588281592973042@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/driver-core/driver-core
-user: dakr
+repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
+user: paulmck
 changes:
-  - ref: refs/heads/driver-core-testing
-    old: 14cf406e083c0541e40cd467ae8336ecceede09e
-    new: f72e77c33e4b5657af35125e75bab249256030f3
+  - ref: refs/heads/dev
+    old: ba035ed117afaa6363d3e9cca31b5e5854fb019b
+    new: bc9d500f1f9bb52f09c7b085c08fd0319ad756d3
     log: |
-         f72e77c33e4b5657af35125e75bab249256030f3 device property: Make modifications of fwnode "flags" thread safe
+         bc9d500f1f9bb52f09c7b085c08fd0319ad756d3 fixup! torture: Add a hazptrtorture.c stress test
          
