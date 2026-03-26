@@ -1,37 +1,29 @@
-Content-Type: multipart/mixed; boundary="===============4396462774778495483=="
+Content-Type: multipart/mixed; boundary="===============3774409674838055886=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next
-Date: Thu, 26 Mar 2026 16:39:04 -0000
-Message-Id: <177454314402.1206322.15935260848887572256@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next-history
+Date: Thu, 26 Mar 2026 16:39:22 -0000
+Message-Id: <177454316246.1206670.1598097837550991262@gitolite.kernel.org>
 
---===============4396462774778495483==
+--===============3774409674838055886==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/next/linux-next
+repo: pub/scm/linux/kernel/git/next/linux-next-history
 user: broonie
 changes:
   - ref: refs/heads/master
     old: 66ba480978ce390e631e870b740a3406e3eb6b01
     new: e77a5a5cfe43b4c25bd44a3818e487033287517f
     log: revlist-66ba480978ce-e77a5a5cfe43.txt
-  - ref: refs/heads/pending-fixes
-    old: de4fd71c3175aa8e407f01df5244d7e88219b23d
-    new: cdfea6b16ce328b82bd2dd992450641e129f5899
-    log: revlist-de4fd71c3175-cdfea6b16ce3.txt
-  - ref: refs/heads/stable
-    old: bbeb83d3182abe0d245318e274e8531e5dd7a948
-    new: 0138af2472dfdef0d56fc4697416eaa0ff2589bd
-    log: revlist-bbeb83d3182a-0138af2472df.txt
   - ref: refs/tags/next-20260326
     old: 0000000000000000000000000000000000000000
     new: 50f91f877c695c7ce6cabc3df6a892ab7abc6c3b
 
---===============4396462774778495483==
+--===============3774409674838055886==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1062,170 +1054,4 @@ de7686b2a1cd40000be28c2d257931a3fcd7b92e Merge branch 'crc-next' of https://git.
 42147a60ce8c1605405904e7fbca1eb82b3f7806 Merge branch 'for-next' of https://github.com/hisilicon/linux-hisi.git
 e77a5a5cfe43b4c25bd44a3818e487033287517f Add linux-next specific files for 20260326
 
---===============4396462774778495483==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-de4fd71c3175-cdfea6b16ce3.txt
-
-1c7bbaeed110b0fd9e65e173fb4d612f64a20d93 coccinelle: kmalloc_obj: Remove default GFP_KERNEL arg
-7a618ca9b9c4769fc5adf7344bb1dd98f823da22 init/Kconfig: Require a release version of clang-22 for CC_HAS_COUNTED_BY_PTR
-c354521708175d776d896f8bdae44b18711eccb6 iio: dac: ad5770r: fix error return in ad5770r_read_raw()
-9d3fa23d5d55a137fd4396d3d4799102587a7f2b iio: accel: adxl313: add missing error check in predisable
-2452969ca1081fea6bd9ab7ad5e168a5d11f28ec iio: adc: nxp-sar-adc: Fix DMA channel leak in trigger mode
-e7a45dec40c7ad963ac4beb67cb763874be54c1b Merge tag 'renesas-clk-fixes-for-v7.0-tag1' of git://git.kernel.org/pub/scm/linux/kernel/git/geert/renesas-drivers into clk-fixes
-c991ca3238410b611a2ce59adeca9b55850aff69 ASoC: SDCA: remove the max count of initialization table
-bf08749a6abb6d1959bfdc0edc32c640df407558 hwmon: (adm1177) fix sysfs ABI violation and current unit conversion
-87a70013be7d1b96e7e160aea6dad4564b459868 MAINTAINERS: Update GPU driver maintainer information
-c673efd5db2223c2e8b885025bcd96bca6cdb171 ASoC: SDCA: fix finding wrong entity
-175b45ed343a9c547b5f45293d3ea08d38a7b6f4 srcu: Use raw spinlocks so call_srcu() can be used under preempt_disable()
-61bbcfb50514a8a94e035a7349697a3790ab4783 srcu: Push srcu_node allocation to GP when non-preemptible
-7c405fb3279b39244b260b54f1bd6488689ae235 rcu: Use an intermediate irq_work to start process_srcu()
-a6fc88b22bc8d12ad52e8412c667ec0f5bf055af srcu: Use irq_work to start GP in tiny SRCU
-ed8444006df9863ffa682e315352c44a49d9f4cb arm64: dts: renesas: sparrow-hawk: Reserve first 128 MiB of DRAM
-6cdccc17c5a24bffb3c89b0cf3586ace03c99536 i2c: imx: fix i2c issue when reading multiple messages
-d761b492c76a4d7d3b5fa7058dd05c8a2cf3ad57 i2c: imx: ensure no clock is generated after last read
-7b3b1e5a87b2f5e35c52b5386d7c327be869454f PCI: hv: Set default NUMA node to 0 for devices without affinity info
-86c97dff7906a39fafee20e56369d4c0206b4756 clk: renesas: r9a09g057: Fix ordering of module clocks array
-2ec5f490314ad208de38aa436a2c41e8d4926694 clk: renesas: r9a09g056: Fix ordering of module clocks array
-4e924b245cf4dab9bc6fceae07f87efb977f2d53 clk: renesas: r9a09g057: Remove entries for WDT{0,2,3}
-e400fbbd44421ac415c145703b0620704bf3db05 pinctrl: renesas: rzt2h: Fix device node leak in rzt2h_gpio_register()
-9e3b6c942f613af427bba3df3ba64c074ed4a7e3 pinctrl: renesas: rzt2h: Fix invalid wait context
-4a06664a10151811029e5d70766ac222b2001a55 pinctrl: renesas: rza1: Normalize return value of gpio_get()
-56b745e39d74aee025d157a02276f1608b992d0a Merge branch 'renesas-clk-fixes-for-v7.0' into renesas-fixes
-7e8aec50597bfdea110224ddff4cf8751b97cab0 Merge branch 'renesas-pinctrl-fixes-for-v7.0' into renesas-fixes
-f39f905e55f529b036321220af1ba4f4085564a5 Bluetooth: L2CAP: Fix send LE flow credits in ACL link
-94d8e6fe5d0818e9300e514e095a200bd5ff93ae Bluetooth: btintel: serialize btintel_hw_error() with hci_req_sync_lock
-00fdebbbc557a2fc21321ff2eaa22fd70c078608 Bluetooth: L2CAP: Fix deadlock in l2cap_conn_del()
-25f420a0d4cfd61d3d23ec4b9c56d9f443d91377 Bluetooth: L2CAP: Fix ERTM re-init and zero pdu_len infinite loop
-129fa608b6ad08b8ab7178eeb2ec272c993aaccc Bluetooth: btusb: clamp SCO altsetting table indices
-789b06f9f39cdc7e895bdab2c034e39c41c8f8d6 wifi: virt_wifi: remove SET_NETDEV_DEV to avoid use-after-free
-2a446b9ed062f32a15e12263a5d67e432ea388ce i2c: designware: amdisp: Fix resume-probe race condition issue
-805a5bd1c3f307d45ae4e9cf8915ef16d585a54a hwmon: (pmbus) Mark lowest/average/highest/rated attributes as read-only
-cd658475e7694d58e1c40dabc1dacf8431ccedb2 hwmon: (pmbus) Introduce the concept of "write-only" attributes
-754bd2b4a084b90b5e7b630e1f423061a9b9b761 hwmon: (pmbus/core) Protect regulator operations with mutex
-51088b9d5f62cf234d1a5008f65c4dd712919551 Merge tag 'platform-drivers-x86-v7.0-3' of git://git.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-d2a43e7f89da55d6f0f96aaadaa243f35557291e Merge tag 'hardening-v7.0-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/kees/linux
-aba9da0905f14106b368e0abf75220e744d27626 Merge tag 'rcu-fixes.v7.0-20260325a' of git://git.kernel.org/pub/scm/linux/kernel/git/rcu/linux
-0138af2472dfdef0d56fc4697416eaa0ff2589bd Merge tag 'erofs-for-7.0-rc6-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/xiang/erofs
-27d97f4e7a956d47ed96b4811aaca9dcef61c290 mm: filemap: fix nr_pages calculation overflow in filemap_map_pages()
-892c205b0f4b82525dbea0d0aadbb33075bad896 mm/huge_memory: fix folio isn't locked in softleaf_to_folio()
-fb5fe72e018031a68c8318dbf06e9e8548002061 mm-huge_memory-fix-folio-isnt-locked-in-softleaf_to_folio-v4
-7d2a2b3ce8bc3fc4fb8f195a53295d3a8bfa93aa MAINTAINERS, mailmap: update email address for Harry Yoo
-92eb180b6f7881df48a587ec9a636c53071ed60a mm/swap: fix swap cache memcg accounting
-c18219b6fa714d2eaf816e7e5ea236802ea478aa mm/damon/sysfs: fix param_ctx leak on damon_sysfs_new_test_ctx() failure
-0488b049f5d6dfd670d0dec6d73abb65dbc368ed mm/damon/sysfs: check contexts->nr before accessing contexts_arr[0]
-7df5d16a60f51247d1f18f7c70b99664818da2b6 mm/damon/sysfs: check contexts->nr in repeat_call_fn
-e911d29d85ee6883c9e931a8f2afca0cfb2f721c mm/hugetlb: restore reservation on error in hugetlb_mfill_atomic_pte() resubmission path
-2333263b0f0cf8cbd66dae8e2f7bd8fc523a7948 mm/memory: fix PMD/PUD checks in follow_pfnmap_start()
-34e86d41e0b9ed6ca57558a19bc8478cefd65f2c mm/pagewalk: fix race between concurrent split and refault
-59825057566c4864f87340bdd31931bc189b9516 bug: avoid format attribute warning for clang as well
-2b0302ecb5b5739da957cd90a0d1e31f7e57748e liveupdate: propagate file deserialization failures
-c861b96267ab48ac0da1f14eeee4538e1321c0a9 liveupdate: initialize incoming FLB state before finish
-d0b224cf9ab12e86a4d1ca55c760dfaa5c19cbe7 iio: light: veml6070: fix veml6070_read() return value
-c720fb57d56274213d027b3c5ab99080cf62a306 gpio: mxc: map Both Edge pad wakeup to Rising Edge
-8ffda29cc6a9b297f21035a2aa3750ea1d2b3bfa Merge branch into tip/master: 'irq/urgent'
-75f64fb7962cbde2cbf267ede3deaaf16f2ba105 Merge branch into tip/master: 'timers/urgent'
-2f12f83634b4756e20b9743de9e311f22b41b3c3 Merge branch into tip/master: 'x86/urgent'
-84a8335d8300576f1b377ae24abca1d9f197807f tls: Purge async_hold in tls_decrypt_async_wait()
-4b56770d345524fc2acc143a2b85539cf7d74bc1 crypto: tegra - Add missing CRYPTO_ALG_ASYNC
-5ddfdcbe10dc5f97afc4e46ca22be2be717e8caf crypto: caam - fix DMA corruption on long hmac keys
-80688afb9c35b3934ce2d6be9973758915e2e0ef crypto: caam - fix overflow on long hmac keys
-6d89f743e57cb34e233a8217b394c7ee09abf225 crypto: deflate - fix spurious -ENOSPC
-62397b493e14107ae82d8b80938f293d95425bcb crypto: af-alg - fix NULL pointer dereference in scatterwalk
-f078634c184a9b5ccaa056e8b8d6cd32f7bff1b6 drm/bridge: Fix refcount shown via debugfs for encoder_bridges_show()
-326fe8104a4020d30080d37ac8b6b43893cdebca ASoC: adau1372: Fix unchecked clk_prepare_enable() return value
-bfe6a264effcb6fe99ad7ceaf9e8c7439fc9555b ASoC: adau1372: Fix clock leak on PLL lock failure
-c6eea4ff846ed342a12cedf3af730a6204a8d97e ASoC: adau1372: Fix error handling in adau1372_set_power()
-262c3b9262eb178a05dee448f70f16964fa1dc2d Merge branch 'vfs.fixes' of https://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs.git
-0c34b221f069e6475eba96450ac8a2c6ed8a250e Merge branch 'next-fixes' of https://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux.git
-f4c0da0429abe857be7d64abf40db6bf3d7f8553 Merge branch 'fixes' of https://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs.git
-8d2e0cb3224c89275c5471c92850e7f74df80c20 spi: fix use-after-free on managed registration failure
-c7596f9001e2b83293e3658e4e1addde69bb335d firmware: microchip: fail auto-update probe if no flash found
-d40a198e2b7821197c5c77b89d0130cc90f400f5 ASoC: SOF: ipc4-topology: Allow bytes controls without initial payload
-7c39f48568e0aec9bf6988cdbf833fdf8af19901 media: uvcvideo: Fix bug in error path of uvc_alloc_urb_buffers
-7587fbf5adc23d180a5ea9aa6944292c22328703 media: ccs: Avoid deadlock in ccs_init_state()
-e98137f0a874ab36d0946de4707aa48cb7137d1c vfio/pci: Fix double free in dma-buf feature
-aa637b2cf303e1d133a5c4ad3ee397ad99ad3f14 Merge tag 'for-net-2026-03-25' of git://git.kernel.org/pub/scm/linux/kernel/git/bluetooth/bluetooth
-1e4e046666056c00ac61b9886c508acfd6b57f47 Merge branch 'mm-hotfixes-unstable' of https://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
-05605bca9be8ad7384095949ac87193f55e81b28 Merge branch 'fs-current' of linux-next
-6311e370fe973c8f87c13f0116dc841e2ff7bc08 Merge branch 'fixes' of https://git.kernel.org/pub/scm/linux/kernel/git/s390/linux.git
-178870b52b2f4e3e8dede306920b1b258101c206 Merge branch 'main' of https://git.kernel.org/pub/scm/linux/kernel/git/netdev/net.git
-23d882f15a9e3265b8a88eb0ac81033ee695f4b1 Merge branch 'for-next' of https://git.kernel.org/pub/scm/linux/kernel/git/wireless/wireless.git
-097be9459ab336444dacb1d8b72435addfebb173 Merge branch 'for-rc' of https://git.kernel.org/pub/scm/linux/kernel/git/rdma/rdma.git
-2ace24776100f4b2b24143a72521fa1210f2eb11 Merge branch 'for-linus' of https://git.kernel.org/pub/scm/linux/kernel/git/tiwai/sound.git
-8ae41881cf80776d5597a9636b09b6997c9f2da6 Merge branch 'for-linus' of https://git.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-7f06746fe909a09baaaf651fa39e3d8fc1d67223 Merge branch 'for-linus' of https://git.kernel.org/pub/scm/linux/kernel/git/broonie/regmap.git
-ecc874e7f6b1aa8acfcf93395aaa604ff8a9ae42 Merge branch 'for-linus' of https://git.kernel.org/pub/scm/linux/kernel/git/broonie/regulator.git
-5ccb8f724eec392ac05504bd93c1940fdc689a77 Merge branch 'for-linus' of https://git.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
-b9f114ea00bd4555605fce9738dbd4d02b794bd3 Merge branch 'for-linus' of https://git.kernel.org/pub/scm/linux/kernel/git/pci/pci.git
-0a21e8b1e1519194f1f634be55be1230768384ac Merge branch 'usb-linus' of https://git.kernel.org/pub/scm/linux/kernel/git/gregkh/usb.git
-ddad4c227f999e6bc6a7659a1bada5dc8e1ffb55 Merge branch 'usb-linus' of https://git.kernel.org/pub/scm/linux/kernel/git/johan/usb-serial.git
-2939a6c3423098696ee2e1fc9677e0a5b158bcee Merge branch 'fixes' of https://git.kernel.org/pub/scm/linux/kernel/git/phy/linux-phy.git
-a7c2951f5149e41f350344fe39fc4f1ff703620f Merge branch 'fixes-togreg' of https://git.kernel.org/pub/scm/linux/kernel/git/jic23/iio.git
-25748ba3d75a27b9243bf365a9bc958845c9d6e9 Merge branch 'counter-current' of https://git.kernel.org/pub/scm/linux/kernel/git/wbg/counter.git
-5222c1693933d0fc22bdf9cada717440173429c4 Merge branch 'for-linus' of https://git.kernel.org/pub/scm/linux/kernel/git/dtor/input.git
-a2c51afaa564bf26ad20f189243558db60d0bde6 Merge branch 'master' of https://git.kernel.org/pub/scm/linux/kernel/git/herbert/crypto-2.6.git
-d334bc3f0bdf3d7c66c531ecad15783136172dc3 Merge branch 'for-linus' of https://github.com/awilliam/linux-vfio.git
-b86a364b67e0da190cec214e782cc1599de3464c Merge branch 'fixes' of https://git.kernel.org/pub/scm/linux/kernel/git/vkoul/dmaengine.git
-6538ba92786feeb8907835d222a5d26748330686 Merge branch 'for-mfd-fixes' of https://git.kernel.org/pub/scm/linux/kernel/git/lee/mfd.git
-db2e7482bc30635d1c4de04f93d73c327e40592e Merge branch 'fixes' of git://linuxtv.org/media-ci/media-pending.git
-be572761faeee0c5f7432de908aecfdd217777da Merge branch 'reset/fixes' of https://git.pengutronix.de/git/pza/linux
-524c80d0bd5cfb6a62acb508b21f6a4095df1e02 Merge branch 'at91-fixes' of https://git.kernel.org/pub/scm/linux/kernel/git/at91/linux.git
-833350d491e15ab9e738d1b2d27762753d0d535d Merge branch 'fixes' of https://git.kernel.org/pub/scm/linux/kernel/git/kvmarm/kvmarm.git
-3814995f1df0bd1f2bfda5dd0b6f734e832384ae Merge branch 'hwmon' of https://git.kernel.org/pub/scm/linux/kernel/git/groeck/linux-staging.git
-c99f7d69a89d9d73ff63670b90358476d1227c01 Merge branch 'dma-mapping-fixes' of https://git.kernel.org/pub/scm/linux/kernel/git/mszyprowski/linux.git
-295f1fff15941258ac5bea109b4f435041d453db Merge branch 'fixes' of https://git.kernel.org/pub/scm/linux/kernel/git/mkp/scsi.git
-67fe04d925ab89a88f2a7baaf97cff14a58561b7 Merge branch 'for-linux-next-fixes' of https://gitlab.freedesktop.org/drm/i915/kernel.git
-f16682687085e0e473ec7e7163667956a8b0b588 Merge branch 'hyperv-fixes' of https://git.kernel.org/pub/scm/linux/kernel/git/hyperv/linux.git
-c956be4b0e81d9b470415aa2cfa0fd4a93205520 Merge branch 'fixes' of https://git.kernel.org/pub/scm/linux/kernel/git/riscv/linux.git
-6472c7b48bea64db63524b49330f853675fb8e98 Merge branch 'riscv-dt-fixes' of https://git.kernel.org/pub/scm/linux/kernel/git/conor/linux.git
-ee0a29df6bd6ac504d82633444347ea77e38177e Merge branch 'riscv-soc-fixes' of https://git.kernel.org/pub/scm/linux/kernel/git/conor/linux.git
-518fbf63950e355e2c4daab35f6c8eac95ca836b Merge branch 'spdx-linus' of https://git.kernel.org/pub/scm/linux/kernel/git/gregkh/spdx.git
-84ac1f57a9001bb33f95984caf8102fbb43bc76f Merge branch 'gpio/for-current' of https://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux.git
-12f9b97453e84f4fc6a5ff2ea4a522cede7b7f32 Merge branch 'fixes' of https://git.kernel.org/pub/scm/linux/kernel/git/andy/linux-auxdisplay.git
-77a8ffb1c21ae9dfb90bcbf695d6dcc20598c6c6 Merge branch 'fixes' of https://git.kernel.org/pub/scm/linux/kernel/git/geert/renesas-devel.git
-65ff4f1d943e0cca4e7cf85ba5a398f6631cb48c Merge branch 'urgent' of https://git.kernel.org/pub/scm/linux/kernel/git/efi/efi.git
-843894c851e4a0a3cd784d278f159537c18079c9 Merge branch 'i2c/i2c-host-fixes' of https://git.kernel.org/pub/scm/linux/kernel/git/andi.shyti/linux.git
-2aa87b3e58ec0c96413de74925e83e74b2955fbd Merge branch 'clk-fixes' of https://git.kernel.org/pub/scm/linux/kernel/git/clk/linux.git
-1102167b223c42a54efbd90cd5ea50351d52c8ca Merge branch 'tip/urgent' of https://git.kernel.org/pub/scm/linux/kernel/git/tip/tip.git
-351b65324869a41499d4dd83a2acd338ad2b44e6 Merge branch 'fixes' of https://git.kernel.org/pub/scm/linux/kernel/git/devsec/tsm.git
-a1bb47dcd9d9d7ca5567246e25fd1bea89fed040 Merge branch 'for-linux-next-fixes' of https://gitlab.freedesktop.org/drm/misc/kernel.git
-cdfea6b16ce328b82bd2dd992450641e129f5899 ext4: kunit: extents-test: Fix percpu_counters list corruption
-
---===============4396462774778495483==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-bbeb83d3182a-0138af2472df.txt
-
-eade54040384f54b7fb330e4b0975c5734850b3c erofs: set fileio bio failed in short read case
-c23df30915f83e7257c8625b690a1cece94142a0 erofs: add GFP_NOIO in the bio completion if needed
-1c7bbaeed110b0fd9e65e173fb4d612f64a20d93 coccinelle: kmalloc_obj: Remove default GFP_KERNEL arg
-7a618ca9b9c4769fc5adf7344bb1dd98f823da22 init/Kconfig: Require a release version of clang-22 for CC_HAS_COUNTED_BY_PTR
-93702ed64fd0c433289b3846c2cefced4a88a043 MAINTAINERS: change email address of Denis Benato
-e0836f48e19147a85ae652335e517b0385a32fd3 platform/x86: asus-armoury: add support for GA503QM
-d2723918d51b238b42efcaac553697aa84f15232 platform/x86: asus-armoury: add support for G614FP
-55b964dfbadc3729d3606849471eab11705f578a platform/x86: hp-wmi: Add Omen 16-xf0xxx (8BCA) support
-84d29bfd1929d08f092851162a3d055a2134d043 platform/x86: hp-wmi: Add support for Omen 16-wf1xxx (8C76)
-435da773966c80e1b2b6aea75460ef0e893fd9e9 platform/x86: hp-wmi: Add support for Omen 16-k0xxx (8A4D)
-9f11d9b15efb5f77e810b6dfbeb01b4650a79eae platform/x86: ISST: Check HWP support before MSR access
-5a3955f3602950d1888df743a5b1889e43b5cb60 platform/x86: lenovo: wmi-gamezone: Drop gz_chain_head
-2061f7b042f88d372cca79615f8425f3564c0b40 platform/olpc: olpc-xo175-ec: Fix overflow error message to print inlen
-7ff61be5a4844d4aaa31732a5831dd5cd6136448 platform/x86/amd/hsmp: Fix typo in error message
-0198d2743207d67f995cd6df89e267e1b9f5e1f1 platform/x86: asus-nb-wmi: add DMI quirk for ASUS ROG Flow Z13-KJP GZ302EAC
-8a243d972aff2e0b0141048a3feaf3b13d78985c platform/x86: asus-armoury: add support for GZ302EA and GZ302EAC
-e02ea3ae8ee40d5835a845884c7b161a27c10bcb platform/x86: intel-hid: disable wakeup_mode during hibernation
-fbddf68d7b4e1e6da7a78dd7fbd8ec376536584a platform/x86: ISST: Correct locked bit width
-938c418422c4b08523ae39aebbd828428dcfefd2 erofs: update the Kconfig description
-2f0407ed923b7eb363424033fc12fe253da139c4 erofs: fix .fadvise() for page cache sharing
-175b45ed343a9c547b5f45293d3ea08d38a7b6f4 srcu: Use raw spinlocks so call_srcu() can be used under preempt_disable()
-61bbcfb50514a8a94e035a7349697a3790ab4783 srcu: Push srcu_node allocation to GP when non-preemptible
-7c405fb3279b39244b260b54f1bd6488689ae235 rcu: Use an intermediate irq_work to start process_srcu()
-a6fc88b22bc8d12ad52e8412c667ec0f5bf055af srcu: Use irq_work to start GP in tiny SRCU
-51088b9d5f62cf234d1a5008f65c4dd712919551 Merge tag 'platform-drivers-x86-v7.0-3' of git://git.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-d2a43e7f89da55d6f0f96aaadaa243f35557291e Merge tag 'hardening-v7.0-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/kees/linux
-aba9da0905f14106b368e0abf75220e744d27626 Merge tag 'rcu-fixes.v7.0-20260325a' of git://git.kernel.org/pub/scm/linux/kernel/git/rcu/linux
-0138af2472dfdef0d56fc4697416eaa0ff2589bd Merge tag 'erofs-for-7.0-rc6-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/xiang/erofs
-
---===============4396462774778495483==--
+--===============3774409674838055886==--
