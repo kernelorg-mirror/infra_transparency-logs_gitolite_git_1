@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8376152785409972466=="
+Content-Type: multipart/mixed; boundary="===============0997424919122453024=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tglx/devel
-Date: Thu, 26 Mar 2026 21:26:39 -0000
-Message-Id: <177456039985.1451301.13296648584946723172@gitolite.kernel.org>
+Date: Thu, 26 Mar 2026 21:26:55 -0000
+Message-Id: <177456041547.1451619.8282404499164351179@gitolite.kernel.org>
 
---===============8376152785409972466==
+--===============0997424919122453024==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tglx/devel
 user: tglx
 changes:
-  - ref: refs/tags/irq-proc-v3
-    old: 16e2f70f343dc1e888eee2c2d370069b011b6ff9
+  - ref: refs/heads/irq/core
+    old: 64030566ca8096c2e4a3aa1fcc29f77125cee1a9
     new: 579e60ae89fabd45c50557035a5c04cb32f9e203
-    log: revlist-16e2f70f343d-579e60ae89fa.txt
+    log: revlist-64030566ca80-579e60ae89fa.txt
 
---===============8376152785409972466==
+--===============0997424919122453024==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-16e2f70f343d-579e60ae89fa.txt
+Content-Disposition: attachment; filename=revlist-64030566ca80-579e60ae89fa.txt
 
 cc2b1335fc57177888852fe03b18eefea9e6716c x86/irq: Optimize interrupts decimals printing
 c5beb373369d8d275589ad64054ee32f241e7413 genirq/proc: Avoid formatting zero counts in /proc/interrupts
@@ -41,4 +41,4 @@ b1c9e1f7ed27eab443c12088c300ff73ef100337 genirq: Cache the condition for /proc/i
 70db66bab64e3ab73a66f937f80829cafe2927e7 genirq/proc: Runtime size the chip name
 579e60ae89fabd45c50557035a5c04cb32f9e203 genirq/proc: Speed up /proc/interrupts iteration
 
---===============8376152785409972466==--
+--===============0997424919122453024==--
