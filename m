@@ -1,58 +1,84 @@
-Content-Type: multipart/mixed; boundary="===============1940455968127054304=="
+Content-Type: multipart/mixed; boundary="===============0623336835135045988=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/security/vulns
-Date: Thu, 26 Mar 2026 10:23:59 -0000
-Message-Id: <177452063958.882175.12828775403247952673@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
+Date: Thu, 26 Mar 2026 10:28:33 -0000
+Message-Id: <177452091346.886501.14321850713172360968@gitolite.kernel.org>
 
---===============1940455968127054304==
+--===============0623336835135045988==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/security/vulns
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/rafael/linux-pm
+user: rafael
 changes:
-  - ref: refs/heads/master
-    old: dfd5d2301872a06ad97e96316f91d296305b0a7e
-    new: 98ecdf844d2a884ee2216b41b1c17b84083a67b2
+  - ref: refs/heads/bleeding-edge
+    old: 3d6125a4ea0e7ef1b11fa4dbf7e98831ef166613
+    new: 007a5370f6e254456bb80f2c731f4f3c786aa896
+    log: revlist-3d6125a4ea0e-007a5370f6e2.txt
+  - ref: refs/heads/linux-next
+    old: f7258274a4b68f16ee3aaf8ada654ee51adbe19e
+    new: a06009b0477c2758da727c90893765480c9b6f92
     log: |
-         9a3a8eb34e7236c895f393bef821c04b1ce6e853 update cvelistV5
-         64151a15890d1699cdcd40079be51ac7bd80c7f8 assign some cve ids on request
-         98ecdf844d2a884ee2216b41b1c17b84083a67b2 strip the new mbox files
+         462304258bbfb899370b7c0c4e2d1f3445fee844 ACPI: TAD: Use DC wakeup only if AC wakeup is supported
+         9b776ddcf3236f860f81f12ba10864ce6e237ff9 ACPI: PPTT: Remove duplicate structure, acpi_pptt_cache_v1_full
+         16fb8d8a0e050e8f151da7dd2e03ccc500dfd8da cpufreq: acpi-cpufreq: use DMI max speed when CPPC is unavailable
+         e40d13f556a7f220b55f1e89fe7e50fb4f07cfe9 Merge branches 'acpi-tables' and 'acpi-tad' into linux-next
+         a06009b0477c2758da727c90893765480c9b6f92 Merge branch 'pm-cpufreq' into linux-next
+         
+  - ref: refs/heads/testing
+    old: 7418867996edec913d8f831f74f40d6f8c4a26fd
+    new: d781b6f7b7814bf04f450ef95c18e1b23e5486c5
+    log: |
+         462304258bbfb899370b7c0c4e2d1f3445fee844 ACPI: TAD: Use DC wakeup only if AC wakeup is supported
+         9b776ddcf3236f860f81f12ba10864ce6e237ff9 ACPI: PPTT: Remove duplicate structure, acpi_pptt_cache_v1_full
+         16fb8d8a0e050e8f151da7dd2e03ccc500dfd8da cpufreq: acpi-cpufreq: use DMI max speed when CPPC is unavailable
+         e40d13f556a7f220b55f1e89fe7e50fb4f07cfe9 Merge branches 'acpi-tables' and 'acpi-tad' into linux-next
+         a06009b0477c2758da727c90893765480c9b6f92 Merge branch 'pm-cpufreq' into linux-next
+         d781b6f7b7814bf04f450ef95c18e1b23e5486c5 Merge branch 'test/acpi-driver-conversion' into testing
          
 
---===============1940455968127054304==
+--===============0623336835135045988==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-3d6125a4ea0e-007a5370f6e2.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1774520612 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
-nonce 1774520633-369a9bdeaf242752dd1ba2a520c5021b09ce0e37
+eade54040384f54b7fb330e4b0975c5734850b3c erofs: set fileio bio failed in short read case
+c23df30915f83e7257c8625b690a1cece94142a0 erofs: add GFP_NOIO in the bio completion if needed
+1c7bbaeed110b0fd9e65e173fb4d612f64a20d93 coccinelle: kmalloc_obj: Remove default GFP_KERNEL arg
+7a618ca9b9c4769fc5adf7344bb1dd98f823da22 init/Kconfig: Require a release version of clang-22 for CC_HAS_COUNTED_BY_PTR
+93702ed64fd0c433289b3846c2cefced4a88a043 MAINTAINERS: change email address of Denis Benato
+e0836f48e19147a85ae652335e517b0385a32fd3 platform/x86: asus-armoury: add support for GA503QM
+d2723918d51b238b42efcaac553697aa84f15232 platform/x86: asus-armoury: add support for G614FP
+55b964dfbadc3729d3606849471eab11705f578a platform/x86: hp-wmi: Add Omen 16-xf0xxx (8BCA) support
+84d29bfd1929d08f092851162a3d055a2134d043 platform/x86: hp-wmi: Add support for Omen 16-wf1xxx (8C76)
+435da773966c80e1b2b6aea75460ef0e893fd9e9 platform/x86: hp-wmi: Add support for Omen 16-k0xxx (8A4D)
+9f11d9b15efb5f77e810b6dfbeb01b4650a79eae platform/x86: ISST: Check HWP support before MSR access
+5a3955f3602950d1888df743a5b1889e43b5cb60 platform/x86: lenovo: wmi-gamezone: Drop gz_chain_head
+2061f7b042f88d372cca79615f8425f3564c0b40 platform/olpc: olpc-xo175-ec: Fix overflow error message to print inlen
+7ff61be5a4844d4aaa31732a5831dd5cd6136448 platform/x86/amd/hsmp: Fix typo in error message
+0198d2743207d67f995cd6df89e267e1b9f5e1f1 platform/x86: asus-nb-wmi: add DMI quirk for ASUS ROG Flow Z13-KJP GZ302EAC
+8a243d972aff2e0b0141048a3feaf3b13d78985c platform/x86: asus-armoury: add support for GZ302EA and GZ302EAC
+e02ea3ae8ee40d5835a845884c7b161a27c10bcb platform/x86: intel-hid: disable wakeup_mode during hibernation
+fbddf68d7b4e1e6da7a78dd7fbd8ec376536584a platform/x86: ISST: Correct locked bit width
+938c418422c4b08523ae39aebbd828428dcfefd2 erofs: update the Kconfig description
+2f0407ed923b7eb363424033fc12fe253da139c4 erofs: fix .fadvise() for page cache sharing
+175b45ed343a9c547b5f45293d3ea08d38a7b6f4 srcu: Use raw spinlocks so call_srcu() can be used under preempt_disable()
+61bbcfb50514a8a94e035a7349697a3790ab4783 srcu: Push srcu_node allocation to GP when non-preemptible
+7c405fb3279b39244b260b54f1bd6488689ae235 rcu: Use an intermediate irq_work to start process_srcu()
+a6fc88b22bc8d12ad52e8412c667ec0f5bf055af srcu: Use irq_work to start GP in tiny SRCU
+51088b9d5f62cf234d1a5008f65c4dd712919551 Merge tag 'platform-drivers-x86-v7.0-3' of git://git.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+d2a43e7f89da55d6f0f96aaadaa243f35557291e Merge tag 'hardening-v7.0-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/kees/linux
+aba9da0905f14106b368e0abf75220e744d27626 Merge tag 'rcu-fixes.v7.0-20260325a' of git://git.kernel.org/pub/scm/linux/kernel/git/rcu/linux
+0138af2472dfdef0d56fc4697416eaa0ff2589bd Merge tag 'erofs-for-7.0-rc6-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/xiang/erofs
+e40d13f556a7f220b55f1e89fe7e50fb4f07cfe9 Merge branches 'acpi-tables' and 'acpi-tad' into linux-next
+a06009b0477c2758da727c90893765480c9b6f92 Merge branch 'pm-cpufreq' into linux-next
+d781b6f7b7814bf04f450ef95c18e1b23e5486c5 Merge branch 'test/acpi-driver-conversion' into testing
+b56c430cd0ddda9665490da7a9a10b7b51156c06 Merge branch 'testing' into bleeding-edge
+007a5370f6e254456bb80f2c731f4f3c786aa896 Merge branch 'experimental/acpi-driver-conversion' into bleeding-edge
 
-dfd5d2301872a06ad97e96316f91d296305b0a7e 98ecdf844d2a884ee2216b41b1c17b84083a67b2 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmnFCSQbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+pe4QAIMDGRl08RAUUGIP+QId
-qBf5FvCado9vPoMr1acoPEVpOQD/j4/g9SWRZOSG0oQlSfQEaJw+qT5fqdeS8Gw+
-CsCoB9FdTHLrWTWiKNDiM9pM7AdOIoswb0MVKLIgQsiYm6HiZdqpFLjkkZjdJtmB
-AlBlbcLH/Jkj9ky4e+gctc+dt5VaEXjCySp6wswZNW1SxtB1b7XGti+4jy33NV+X
-rkSSJkD56Gey+sjkUtjw/QurSETCDKSmwbfYP0NrHdHnc94CcCnELUXT9F2QQI9+
-YPFR82CsCTDT54Hkhm0IZI6q5QqwhWgr9wDSYGwo/1+dV0HpVVKpAuU8ig8xj91r
-lLBx6jGzWmWOvxzl4jG5p1g93wlqK81mMYd7oiK2VJpMjtOu0NVB07Rg45UrHn2I
-9Iw5o/sPHXQnldbC789w6AghBOjO8hAtr0MgM9DM7kImANo9jdXaYWgWXmG/0L2I
-kh95Y18jlI7jus78konbXI+tq36xulq58olUTYGe60zJliQ6CqjRpDRhp7iUVTHm
-JFy3QhuMKgwh4mnwXXCQ1PAOaNe0VknDLmgx5iaJac4cXQGSMtZSuTI0PU1AdE6x
-jeWPtNQ4f4G3UdeV3v83yXng+/MDgiJh6TM5Iy4naV3QqgL/eBUGqcuODqoYp1Xb
-ZjzBFNpzDK6dcAiYO11ATSlY
-=87qf
------END PGP SIGNATURE-----
-
---===============1940455968127054304==--
+--===============0623336835135045988==--
