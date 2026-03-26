@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Thu, 26 Mar 2026 10:53:20 -0000
-Message-Id: <177452240003.907539.8969051391505268765@gitolite.kernel.org>
+Date: Thu, 26 Mar 2026 10:53:23 -0000
+Message-Id: <177452240345.907698.70123599101178080@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,9 +11,9 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/broonie/ci
 user: broonie
 changes:
-  - ref: refs/heads/asoc-7.1
-    old: 7b907b55eb180f89b5ce9d66ed230892aef30e33
-    new: 951a4e8589b3ee6e889ed97fb9896df197dd88e7
+  - ref: refs/heads/spi-7.0
+    old: cc34d77dd48708d810c12bfd6f5bf03304f6c824
+    new: 8d2e0cb3224c89275c5471c92850e7f74df80c20
     log: |
-         951a4e8589b3ee6e889ed97fb9896df197dd88e7 ASoC: wm_adsp_fw_find_test: Fix missing NULL terminator on file name list
+         8d2e0cb3224c89275c5471c92850e7f74df80c20 spi: fix use-after-free on managed registration failure
          
