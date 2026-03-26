@@ -1,23 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/linkinjeon/exfat
-Date: Thu, 26 Mar 2026 11:31:17 -0000
-Message-Id: <177452467790.942358.5967050764318778369@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Thu, 26 Mar 2026 11:34:15 -0000
+Message-Id: <177452485518.943326.5310580365861569591@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/linkinjeon/exfat
-user: linkinjeon
+repo: pub/scm/linux/kernel/git/broonie/spi
+user: broonie
 changes:
-  - ref: refs/heads/dev
-    old: 73f01258002fe35d6c6b20f92c75b891e7215b06
-    new: d9daf55eb70611ab55493e4ebec8cbc1553fe24a
+  - ref: refs/heads/for-linus
+    old: cc34d77dd48708d810c12bfd6f5bf03304f6c824
+    new: 8d2e0cb3224c89275c5471c92850e7f74df80c20
     log: |
-         386439697fd817a4bc735cdf4abdc1a82e3bc945 exfat: add iomap support
-         71a6ccc2bc465285caba36acd15ac3b2002f15e4 exfat: add iomap direct I/O support
-         9b373eacd6e6c4eb855f9894fff4e26a08e1745b exfat: add iomap buffered I/O support
-         0c43c871b292ddb7223c266f3a7a6a9abd6060dc exfat: add support for multi-cluster allocation
-         d9daf55eb70611ab55493e4ebec8cbc1553fe24a exfat: add support for SEEK_HOLE and SEEK_DATA in llseek
+         8d2e0cb3224c89275c5471c92850e7f74df80c20 spi: fix use-after-free on managed registration failure
+         
+  - ref: refs/heads/for-next
+    old: c485d35af7755e26989200704dd96ebfde45b336
+    new: 6ec8de9b2af2fb45ee85d4cae6011a1e3ab4d48c
+    log: |
+         8d2e0cb3224c89275c5471c92850e7f74df80c20 spi: fix use-after-free on managed registration failure
+         6ec8de9b2af2fb45ee85d4cae6011a1e3ab4d48c Merge remote-tracking branch 'spi/for-7.1' into spi-next
          
