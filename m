@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/arighi/linux
-Date: Thu, 26 Mar 2026 00:05:37 -0000
-Message-Id: <177448353781.353616.16845489343551458231@gitolite.kernel.org>
+Date: Thu, 26 Mar 2026 00:05:43 -0000
+Message-Id: <177448354354.353833.2817870173248566199@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,7 +11,7 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/arighi/linux
 user: arighi
 changes:
-  - ref: refs/heads/scx
+  - ref: refs/heads/for-7.1
     old: c7ff10f50687e81b3cc0ad6a1d401bac9e5da501
     new: 0e9a6d21567204ae700d0081bbebfbfcaa4d92c0
     log: |
