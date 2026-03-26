@@ -1,23 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Thu, 26 Mar 2026 20:27:32 -0000
-Message-Id: <177455685261.1402003.3268066311313151553@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
+Date: Thu, 26 Mar 2026 20:27:40 -0000
+Message-Id: <177455686092.1402240.16368423164132789630@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/net-queue
+repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
   - ref: refs/heads/dev-queue
-    old: ef7322c96d498adaa33aecff041bb5a576f6939b
-    new: 00fdaec1887c1c86b10bf0135b4e5a6e61c18795
+    old: a42d5ac3afdcb9ef2dc3e66f7f96029d4de967b6
+    new: 5e74346284f3678da8b0886ca394e9dff0e9d48c
     log: |
-         d7b9e45c0ddd8b69dda7648408598d95edcf298a ice: fix FDB deletion
-         d36e6b570e667c0a99151c55214972af94c4af25 ice: fix ICE_AQ_LINK_SPEED_M for 200G
-         acd11f86588593622e0ba4a3997129d51f343df0 ice: init desired_dcbx_cfg in default DCB config
-         514e35ba434503b4aecea27cc99df199b14e7576 ice: prevent integer overflow
-         00fdaec1887c1c86b10bf0135b4e5a6e61c18795 ice: fix LLDP AQ filter fallback not working on E82x and E830 hardware
+         4b1a3d6254b21f2ee76ffadc13b3ba78a4c78642 ice: fix FDB deletion
+         d6c21f8034c49259856d7fac3e71bebbdfd3cfc8 ice: fix ICE_AQ_LINK_SPEED_M for 200G
+         14dca6c9bdf3b878a1ec1d492bdd00fc1eb2c4e6 ice: init desired_dcbx_cfg in default DCB config
+         9052029d6c2e48af99cd9c60572b41a17e012f7d ice: prevent integer overflow
+         86c2f288e8cb928be3b2531c2060cd4458a78822 ice: fix LLDP AQ filter fallback not working on E82x and E830 hardware
+         b963089991d09b9d7dc3c4decda17d3462a77410 ice: reduce loglevel to debug for 'Can't delete DSCP' message
+         5e74346284f3678da8b0886ca394e9dff0e9d48c ice: use ice_fill_eth_hdr() in ice_fill_sw_rule()
          
