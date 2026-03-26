@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
-Date: Thu, 26 Mar 2026 11:55:48 -0000
-Message-Id: <177452614883.962508.11018225654740574498@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Thu, 26 Mar 2026 12:01:37 -0000
+Message-Id: <177452649772.966976.3544091919357887517@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
-user: paulmck
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/dev
-    old: ead3d394feab21617628b6f159620eb56441effd
-    new: 2fe836773a99c877b1c3fb6aad76e1fcf9702b7e
+  - ref: refs/heads/regulator-7.1
+    old: 3dacdda5e643303a3e56ad303312dfcf72b6fafe
+    new: 32a4cd3d451ddec7c9ec04a2ec3f379ed7c5ff20
     log: |
-         2fe836773a99c877b1c3fb6aad76e1fcf9702b7e fixup! torture: Add a hazptrtorture.c stress test
+         32a4cd3d451ddec7c9ec04a2ec3f379ed7c5ff20 regulator: dt-bindings: mps,mp8859: convert to DT schema
          
