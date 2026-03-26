@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2073983665259212973=="
+Content-Type: multipart/mixed; boundary="===============5953410848568061936=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/frank.li/linux
-Date: Thu, 26 Mar 2026 16:06:27 -0000
-Message-Id: <177454118737.1176581.3555968324912189029@gitolite.kernel.org>
+Date: Thu, 26 Mar 2026 16:06:30 -0000
+Message-Id: <177454119075.1176795.9883978198856705317@gitolite.kernel.org>
 
---===============2073983665259212973==
+--===============5953410848568061936==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/frank.li/linux
 user: frank.li
 changes:
-  - ref: refs/heads/for-next
-    old: f01e5db5f45cb37485958b120fcafeb72c487bbe
-    new: b8b2a57a58d5c9db04461a0fd10b362287dc50fb
-    log: revlist-f01e5db5f45c-b8b2a57a58d5.txt
+  - ref: refs/heads/imx/dt64
+    old: 6cb68d84bc632865c89a22a4f956814df9b8d609
+    new: 8c5dbb306887fc81737e0077b9d821909f64a5fb
+    log: revlist-6cb68d84bc63-8c5dbb306887.txt
 
---===============2073983665259212973==
+--===============5953410848568061936==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f01e5db5f45c-b8b2a57a58d5.txt
+Content-Disposition: attachment; filename=revlist-6cb68d84bc63-8c5dbb306887.txt
 
 057756df6770c033eb8ebbc9b0066f6602e99b08 arm64: dts: freescale: imx8mp-moduline-display-106: add typec-power-opmode property
 6bdd023311d9cc754126418875b5265dc5705230 arm64: dts: lx2160a-cex7/lx2162a-sr-som: fix usd-cd & gpio pinmux
@@ -39,6 +39,5 @@ ac26aca831c037a57286a63a6d924c5b956b7b42 arm64: dts: lx2160a: change zeros to he
 7a387b0b0bc2f2c703d8d64250a056f43eb2c800 arm64: dts: lx2162a-clearfog: set sfp connector leds function and source
 755d74cc06950d0f0449794dd23f42669811f6c4 arm64: dts: imx8qm-mek: switch Type-C connector power-role to dual
 8c5dbb306887fc81737e0077b9d821909f64a5fb arm64: dts: imx8qxp-mek: switch Type-C connector power-role to dual
-b8b2a57a58d5c9db04461a0fd10b362287dc50fb Merge branches 'imx/bindings', 'imx/dt', 'imx/dt64', 'imx/fixes' and 'imx/soc' into for-next
 
---===============2073983665259212973==--
+--===============5953410848568061936==--
