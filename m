@@ -1,21 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/trace/linux-trace
-Date: Thu, 26 Mar 2026 21:11:36 -0000
-Message-Id: <177455949659.1439156.11283170864677696652@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Thu, 26 Mar 2026 21:12:05 -0000
+Message-Id: <177455952536.1439526.4395177222811663127@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/trace/linux-trace
-user: rostedt
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
-  - ref: refs/heads/for-next
-    old: a36397f3d7114edd88052426027b9f3a5117b26a
-    new: 3b8b0898d9f725d78fc2abe3d97ecc914bf28547
+  - ref: refs/heads/master
+    old: d813f421930c5b01b9f61043932de02602dd6ae3
+    new: 46b513250491a7bfc97d98791dbe6a10bcc8129d
     log: |
-         ebe677cbc142fadd5dab60b6b82f1bfe4b686368 Merge commit 'dc1d9408c961c1c4d4b3b99a1d9390c17e13de71' into trace/merge/core
-         be9154b72618b522278b638aee57a129df5ebb87 Merge bootconfig/for-next
-         3b8b0898d9f725d78fc2abe3d97ecc914bf28547 Merge probes/for-next
+         34420cb92dbb9e37ff6c6603f4f5e1807db3f1de smb/client: ensure smb2_mapping_table rebuild on cmd changes
+         46b513250491a7bfc97d98791dbe6a10bcc8129d Merge tag 'v7.0-rc5-smb3-client-fix' of git://git.samba.org/sfrench/cifs-2.6
          
