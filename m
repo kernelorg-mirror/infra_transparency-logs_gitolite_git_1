@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6299049092134574316=="
+Content-Type: multipart/mixed; boundary="===============8025410262742167251=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jack/linux-fs
-Date: Thu, 26 Mar 2026 16:03:42 -0000
-Message-Id: <177454102206.1172695.12546861296277070839@gitolite.kernel.org>
+Date: Thu, 26 Mar 2026 16:04:29 -0000
+Message-Id: <177454106913.1173200.1327492580564706446@gitolite.kernel.org>
 
---===============6299049092134574316==
+--===============8025410262742167251==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,18 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jack/linux-fs
 user: jack
 changes:
-  - ref: refs/heads/fast_track
-    old: 55dd5b4db3bf04cf077a8d1712f6295d4517c337
-    new: 32d6bf5ba6b7bf8a1497ee03fd64d3c1664f46d7
-    log: revlist-55dd5b4db3bf-32d6bf5ba6b7.txt
+  - ref: refs/heads/for_next
+    old: 9c910408e0ab1c6d8594c7fbcfe72e8c8b3def7d
+    new: 10b7ecccce237079075f95b5363e4195bc8effcf
+    log: revlist-9c910408e0ab-10b7ecccce23.txt
 
---===============6299049092134574316==
+--===============8025410262742167251==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-55dd5b4db3bf-32d6bf5ba6b7.txt
+Content-Disposition: attachment; filename=revlist-9c910408e0ab-10b7ecccce23.txt
 
-d320f160aa5ff36cdf83c645cca52b615e866e32 iomap: reject delalloc mappings during writeback
 a99d34e5ecb9a8f2212ee5a01140313bb115f9be Revert "drm/pagemap: Disable device-to-device migration"
 b3368ecca9538b88ddf982ea99064860fd5add97 drm/xe/gsc: Fix GSC proxy cleanup on early initialization failure
 89865e6dc8487b627302bdced3f965cd0c406835 drm/xe/xe2_hpg: Correct implementation of Wa_16025250150
@@ -1050,5 +1049,6 @@ ec69c9e88315c4be70c283f18c2ff130da6320b5 i2c: tegra: Don't mark devices with pin
 c369299895a591d96745d6492d4888259b004a9e Linux 7.0-rc5
 90347d82e4d3fa1705e513f04066f7c9c2b34694 mpage: Provide variant of mpage_writepages() with own optional folio handler
 32d6bf5ba6b7bf8a1497ee03fd64d3c1664f46d7 udf: Fix race between file type conversion and writeback
+10b7ecccce237079075f95b5363e4195bc8effcf Merge udf writeback race fix.
 
---===============6299049092134574316==--
+--===============8025410262742167251==--
