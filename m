@@ -1,20 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
-Date: Thu, 26 Mar 2026 18:27:53 -0000
-Message-Id: <177454967341.1300302.5607195060160521609@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
+Date: Thu, 26 Mar 2026 18:29:08 -0000
+Message-Id: <177454974812.1300943.4540177142711820525@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
-user: vudentz
+repo: pub/scm/linux/kernel/git/pci/pci
+user: mani
 changes:
-  - ref: refs/heads/master
-    old: acf374fce194d131a220bdeea0fdbfb9d275dc77
-    new: a94b3460712c656338fe2f72087a384157794630
-    log: |
-         08a198361071acbba5d92087572cff34b1c2400f Bluetooth: btusb: clamp SCO altsetting table indices
-         a94b3460712c656338fe2f72087a384157794630 Bluetooth: hci_qca: disable power control for WCN7850 when bt_en is not defined
-         
+  - ref: refs/heads/controller/max-link-speed
+    old: 0000000000000000000000000000000000000000
+    new: 15217c7015c0e1804925693c55d721aad8987e32
