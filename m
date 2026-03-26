@@ -1,27 +1,52 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Thu, 26 Mar 2026 15:16:57 -0000
-Message-Id: <177453821791.1133030.8370909942026387384@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============7173862210959006085=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/wireless/wireless-next
+Date: Thu, 26 Mar 2026 15:17:51 -0000
+Message-Id: <177453827139.1133548.17381542414084683322@gitolite.kernel.org>
+
+--===============7173862210959006085==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: tglx
+repo: pub/scm/linux/kernel/git/wireless/wireless-next
+user: jberg
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/irq/drivers
-    old: 37957e7faa6286245cb8e5a3fe05a6a6e7dd57e1
-    new: 5d994fd7e2f2e11f134fce0abd900bd02b655f70
-    log: |
-         cfe02147e86307a17057ee4e3604f5f5919571d2 irqchip/qcom-mpm: Add missing mailbox TX done acknowledgment
-         897cf98926429c8671a9009442883c2f62deae96 irqchip/renesas-rzv2h: Fix error path in rzv2h_icu_probe_common()
-         87c6dfe308afb9d514006bb42ca2dad301f4ad75 Merge branch 'irq/urgent' into irq/drivers
-         57c9c7bf52c8473a6b9b7fa3547b468c0a91bc60 MIPS: loongson64: Override arch_dynirq_lower_bound to reserve LPC IRQs
-         dc30127cd050dbc9d8452846ee7fa6692a1093d2 LoongArch: Override arch_dynirq_lower_bound to reserve LPC IRQs
-         41bf87bcac02cd788d4325415d4b2e31bf2a694d dt-bindings: interrupt-controller: Add LS7A PCH LPC
-         29c10a0af04e9b3eb7b06e72e9f75fccca45205e irqchip/loongson-pch-lpc: Extract non-ACPI-related code from ACPI init
-         ed3772aa48cf84ae313156cfe6544e8cba5aa043 irqchip/loongson-pch-lpc: Add OF init code
-         5d994fd7e2f2e11f134fce0abd900bd02b655f70 irqchip/loongson-pch-lpc: Enable building on MIPS Loongson64
-         
+  - ref: refs/tags/wireless-next-2026-03-26
+    old: 0000000000000000000000000000000000000000
+    new: 1772bd64eb274c60272af4ee26c084a58ca3434e
+
+--===============7173862210959006085==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher 7BF9099A 1774538237 +0100
+pushee ssh+git://korg/pub/scm/linux/kernel/git/wireless/wireless-next.git
+nonce 1774538236-a41c130457f683ef139563cecafd6ec2fe68514c
+
+0000000000000000000000000000000000000000 1772bd64eb274c60272af4ee26c084a58ca3434e refs/tags/wireless-next-2026-03-26
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAABCgAdFiEEpeA8sTs3M8SN2hR410qiO8sPaAAFAmnFTf0ACgkQ10qiO8sP
+aACrrA/+Mx+MAVoEwQ81kU8U9bFACs8z1mXlcujjGmkkRdqDGCQ5zNO9DEb70O+j
+Fa5y0qv3MB7Uyl5pulKWDUwqDL7hEa9CyrL5yKdlLgpiDSvfgB66AZCm6WO8xL6c
+bIP7C5LJfDeaU644NZoUwjK7qmRUQ87pIUA8f+BYL68i9rtv6oQvxT5s1jKQn9yP
+ZJfNOtSny9mvrNBWl0Uy4oasDs2fzKhfWmUNl3rulmxY9bCpmSBBVHzRK7GiwcIy
+tQNFsvdaQ4LSlgrPdQ94ydJLZ5XlhNiSbWtCMDBxB+t5TWKDlyNPmaB0wAaoQR/V
+QqOT96Ncci+Z2m581wL3pE135G5IgdRC4FJgqBYYJhJ0AnShICEph+8/wIs0fsEq
+Udmyfy+BGfOFb1V1lMLmH+L0VUDqRjik+nCFD/NeShH57eUIf7Yk8b44Wy9xfiY6
+zcXO7REyxYoaClKvhb05J+4KZHkAvo+u4yhu6QezetvXIrdRVqYVyNvNW4bhu5Rt
+n3nVmT5eoruwZntZxjrqk09ZjQuG3rzo+QGNaQkDLQRGmFRe5J186hPTUA9y8/RP
+lRmsKUBdhuwErjt4+zbH1G6MN0w4ZBxajGEaDK5m9J5AsnPN85EyIwWGsovseK4+
+nybn3Jos61BQy/0cvteqwRUOXbAu7RNJ6P8rP+3ASJkSxMRA4iw=
+=LKVM
+-----END PGP SIGNATURE-----
+
+--===============7173862210959006085==--
