@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
-Date: Thu, 26 Mar 2026 10:42:29 -0000
-Message-Id: <177452174914.899147.15354206535796151209@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Thu, 26 Mar 2026 10:45:08 -0000
+Message-Id: <177452190800.902349.18340978847265588050@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
-user: paulmck
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: pabeni
 changes:
-  - ref: refs/heads/dev
-    old: 16ad40d1089c5f212d7d87babc2376284f3bf244
-    new: ead3d394feab21617628b6f159620eb56441effd
+  - ref: refs/heads/main
+    old: d1e59a46973719e458bec78d00dd767d7a7ba71f
+    new: 8f303194b241c2795bb9b79ee80bc93e7876879c
     log: |
-         ead3d394feab21617628b6f159620eb56441effd fixup! torture: Add a hazptrtorture.c stress test
+         8f303194b241c2795bb9b79ee80bc93e7876879c octeontx2-pf: macsec: Use AES library instead of ecb(aes) skcipher
          
