@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5639556721900191039=="
+Content-Type: multipart/mixed; boundary="===============7741735712288586379=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Thu, 26 Mar 2026 06:20:40 -0000
-Message-Id: <177450604062.652029.13947227169438489762@gitolite.kernel.org>
+Date: Thu, 26 Mar 2026 06:20:43 -0000
+Message-Id: <177450604302.652130.15761015551005644730@gitolite.kernel.org>
 
---===============5639556721900191039==
+--===============7741735712288586379==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/mm-new
-    old: 5262317f2573efa0e9ba207c8c0b024d55cfe54a
-    new: df2f543c4f6306d2595e10082ae38e31b2dc1def
-    log: revlist-5262317f2573-df2f543c4f63.txt
+  - ref: refs/heads/mm-unstable
+    old: 7c5507fca017a80ece36f34e36c77e2bee267517
+    new: d6f51e38433489eb22cb65d1bf72ac7993c5bdec
+    log: revlist-7c5507fca017-d6f51e384334.txt
 
---===============5639556721900191039==
+--===============7741735712288586379==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5262317f2573-df2f543c4f63.txt
+Content-Disposition: attachment; filename=revlist-7c5507fca017-d6f51e384334.txt
 
 1e76e8ebab959f2bbd4c00907654a53f62cbc64d mm/kmemleak: remove unreachable return statement in scan_should_stop()
 31a49d88e01b1d2b8cd2f0ae2278ec4c10c3875e mm/kmemleak: use PF_KTHREAD flag to detect kernel threads
@@ -436,28 +436,5 @@ bb6c69467ce86f9ef6d0220ecaba4ac06b30848a mm/page_alloc: don't increase highatomi
 0d5fda4ace3e407f65b6127b3cf69f78e3f4dcaa mm: remove unused page_is_file_lru() function
 22b98be2a196b292612c8a3780f38fe1f8aa49d1 selftests/mm: add folio_split() and filemap_get_entry() race test
 d6f51e38433489eb22cb65d1bf72ac7993c5bdec lib/maple_tree: fix swapped arguments in mas_safe_pivot() call
-718432ab991d4f87f918b1987a4bf2240c809d8b memory tiering: do not allow promotion if NUMA_BALANCING_MEMORY_TIERING is disabled
-03e828cd20f8d31256d5f9197ecc08d8b1165715 mm: kmemleak: add CONFIG_DEBUG_KMEMLEAK_VERBOSE build option
-366cc96fcfafa8b74e5cceef63ad4997d879d64a mm/memfd: use folio_nr_pages() for shmem inode accounting
-cc908644fd6b010018fc3f246b41631af577b689 mm/memfd_luo: optimize shmem_recalc_inode calls in retrieve path
-3acbfbc6fffac53aeec11e157bd523ce93b66063 mm/memfd_luo: remove unnecessary memset in zero-size memfd path
-3e5edea7e56d70418936d1daff286b35ece333a2 mm/memfd_luo: use i_size_write() to set inode size during retrieve
-41a014260d98d1af7b9d69e5bce8f469c20366d2 mm/swap, PM: hibernate: fix swapoff race in uswsusp by pinning swap device
-88b0433225b96422f7ede242014fe9c36c5fbb75 mm/swap: remove redundant swap device reference in alloc/free
-65fb7a9a7624836051081263e090b69ebc63de18 kho: add size parameter to kho_add_subtree()
-5b047663b2bf360581f07b49c4dfc4921c76ce4c kho: rename fdt parameter to blob in kho_add/remove_subtree()
-88f05c9221038dda8fa24535f58fc57068445f0a kho: persist blob size in KHO FDT
-446d2ffcb2fe77970e34b32454bc7765b6599164 kho: fix kho_in_debugfs_init() to handle non-FDT blobs
-4e60f0c4537baa8430a5dc37374388532a30c345 kho: kexec-metadata: track previous kernel chain
-9442d3b6e6d77138006171a3a381732d93187dc6 kho: document kexec-metadata tracking feature
-87e2f59dba4c30154eb3c2316dded75412fd26b4 liveupdate: prevent double management of files
-cd685638b922cb5746d735b27a7d4c9a31c18c72 selftests: liveupdate: add test for double preservation
-813e1489922365d880afbe91b37d110918e3f780 mm/page_io: fix PSWPIN undercount for large folios in sio_read_complete()
-cfb4fa0062c0a0cfcbe3a81a0cd2e2e0525cb981 mm/mprotect: move softleaf code out of the main function
-8be03fab28c41f2b1319f2e2c0b80230e1e2435f mm/mprotect: special-case small folios when applying write permissions
-3fa43954d85eb5bf3692a9ac7b315f37c7b28610 mm: memcontrol: correct the type of stats_updates to unsigned long
-7ee47dfa8b96604d08a49b7b8c5d7756788279b6 mm: memcontrol: change val type to long in __mod_memcg_{lruvec_}state()
-be699a073c8f79a88d9ae7053826efa778d7888a mm: memcontrol: fix unexpected massive positive number in memcg_state_val_in_pages()
-df2f543c4f6306d2595e10082ae38e31b2dc1def mm: memcontrol: correct the nr_pages parameter type of mem_cgroup_update_lru_size()
 
---===============5639556721900191039==--
+--===============7741735712288586379==--
