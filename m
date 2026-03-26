@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2693140427390783840=="
+Content-Type: multipart/mixed; boundary="===============8717456203582172647=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tglx/devel
-Date: Thu, 26 Mar 2026 17:30:32 -0000
-Message-Id: <177454623244.1252922.5840462654429257269@gitolite.kernel.org>
+Date: Thu, 26 Mar 2026 17:30:52 -0000
+Message-Id: <177454625209.1253235.998108587130454461@gitolite.kernel.org>
 
---===============2693140427390783840==
+--===============8717456203582172647==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tglx/devel
 user: tglx
 changes:
-  - ref: refs/tags/irq-proc-v3
+  - ref: refs/heads/irq/core
     old: 5f63f9f5fd83c2e55dee555de25ad54f3c702af6
     new: 16e2f70f343dc1e888eee2c2d370069b011b6ff9
     log: revlist-5f63f9f5fd83-16e2f70f343d.txt
 
---===============2693140427390783840==
+--===============8717456203582172647==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -41,4 +41,4 @@ Content-Disposition: attachment; filename=revlist-5f63f9f5fd83-16e2f70f343d.txt
 9b114207299efe227dc32a22619a3a1635c0c6f6 genirq: Expose irq_find_desc_at_or_after() in core code
 16e2f70f343dc1e888eee2c2d370069b011b6ff9 genirq/proc: Speed up /proc/interrupts iteration
 
---===============2693140427390783840==--
+--===============8717456203582172647==--
