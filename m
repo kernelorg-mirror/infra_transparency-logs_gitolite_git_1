@@ -1,28 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/device-mapper/linux-dm
-Date: Thu, 26 Mar 2026 17:35:17 -0000
-Message-Id: <177454651754.1257437.16218627613501669140@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mark/linux
+Date: Thu, 26 Mar 2026 17:35:19 -0000
+Message-Id: <177454651932.1257529.3054754305630045415@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/device-mapper/linux-dm
-user: mikulas
+repo: pub/scm/linux/kernel/git/mark/linux
+user: mark
 changes:
-  - ref: refs/heads/dm-7.1
-    old: 0be6c2b1c18f1586f0ec68463b85a8d56e4623f5
-    new: 5387815aa821a8d6dd87ba3aa6869e3c9c709b2a
+  - ref: refs/heads/arm64/entry/rework
+    old: 95cd01ed876508c5dcf4aabc4a046a222f33220e
+    new: 3be84af610c76b68448dabc14645280e208335ba
     log: |
-         4b4a8d9560d987f4df17b7248ab1c8146138d0f5 dm vdo: add geometry block initialization to encodings.c
-         e073bb098ae28a909ece08ec05a6c59dbd282b12 dm vdo: add super block initialization to encodings.c
-         2fb98e4170c4a0d9ebe091ca2421121daa352de0 dm vdo: add formatting parameters to table line
-         beced130a367e0b99fa9424505ee7f07ddea86de dm vdo: add upfront validation for logical size
-         427bf2c1f77435b36749a03e4f9d4549e3807e2d dm vdo: add geometry block encoding
-         b5d1f45c5fea9fa112f0dddebd95fadad06d3bd8 dm vdo: add geometry block structure
-         9d9c28aa867ae3ffdd967a8caeb4e3fb6d4003cd dm vdo: add synchronous metadata I/O submission helper
-         defce4e039bc0100164964f79e896d05cb45dc76 dm vdo: add formatting logic and initialization
-         fc1d43826702d8c14845c187d3ea0743fdf8f223 dm vdo: save the formatted metadata to disk
-         5387815aa821a8d6dd87ba3aa6869e3c9c709b2a dm-bufio: use kzalloc_flex
+         38882186a7a4cbf5c52583fae246aef08d579d69 WIP: arm64: entry: Don't preempt when PSTATE.{D,A} != {0,0}
+         9602af34c80222ca9a792250ad6aa8ce45675ece entry: Move irqentry_enter() prototype later
+         6b1042c0f7ccb01042a7653efa7366d07d953405 WIP: entry: Factor our irqentry_{enter_from,exit_to}_kernel_mode()
+         72f0797e97cb971cef901fe6df2b6b5d3231d679 WIP: entry: Move irqentry_{enter_from,exit_to}_kernel_mode to header
+         7b6e1b744e78b2f6826d2b29b3833acd6699d21a WIP: arm64: entry: Move to irqentry_{enter_from,exit_to}_kernel_mode()
+         ddd521bf4c88e5635c2a98ceaadd5a622b664b5e WIP: entry: Split irqentry_exit_to_kernel_mode() apart
+         a10e8e46d78f0a017ee8611d336754ee91dd586b WIP: arm64: entry: Use split preemption logic
+         3be84af610c76b68448dabc14645280e208335ba arm64: entry: Remove DAIF hack
          
