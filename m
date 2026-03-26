@@ -1,21 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Thu, 26 Mar 2026 16:21:02 -0000
-Message-Id: <177454206214.1191680.12427095130086202257@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Thu, 26 Mar 2026 16:21:24 -0000
+Message-Id: <177454208476.1192046.11548891027618537118@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/spi
 user: broonie
 changes:
-  - ref: refs/heads/for-next
-    old: d0bf0fac4b2feef3ebca1a295aa0b900d489fd9a
-    new: d084fd53a2fd5748d4317635b1c1a7dba7edf583
+  - ref: refs/heads/for-linus
+    old: 8d2e0cb3224c89275c5471c92850e7f74df80c20
+    new: b341c1176f2e001b3adf0b47154fc31589f7410e
     log: |
-         e113ed3e73b91194a39bf6a9207a3598827f0033 ASoC: renesas: Fix non-static global variable
-         3b6f4cfc7152feb5641678ea254988fdce70a91b ASoC: fsl: mpc5200_dma: Convert to devm_ioremap()
-         d084fd53a2fd5748d4317635b1c1a7dba7edf583 Merge remote-tracking branch 'asoc/for-7.1' into asoc-next
+         b341c1176f2e001b3adf0b47154fc31589f7410e spi: spi-fsl-lpspi: fix teardown order issue (UAF)
+         
+  - ref: refs/heads/for-next
+    old: 6ec8de9b2af2fb45ee85d4cae6011a1e3ab4d48c
+    new: 03f4aab0953e4f4bf571a392c978bd36daaa4b44
+    log: |
+         b341c1176f2e001b3adf0b47154fc31589f7410e spi: spi-fsl-lpspi: fix teardown order issue (UAF)
+         03f4aab0953e4f4bf571a392c978bd36daaa4b44 Merge remote-tracking branch 'spi/for-7.1' into spi-next
          
