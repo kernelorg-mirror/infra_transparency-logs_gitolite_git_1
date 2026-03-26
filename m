@@ -1,22 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/amlogic/linux
-Date: Thu, 26 Mar 2026 13:11:14 -0000
-Message-Id: <177453067444.1028150.7753615768810252224@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/dhowells/linux-fs
+Date: Thu, 26 Mar 2026 13:12:52 -0000
+Message-Id: <177453077258.1028796.2390148312210067057@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/amlogic/linux
-user: narmstrong
+repo: pub/scm/linux/kernel/git/dhowells/linux-fs
+user: dhowells
 changes:
-  - ref: refs/heads/for-next
-    old: 3c619a32db0ebb1492a4240416b56e259101b4c3
-    new: d4b7bac8d40c20ace072058f313469e7de39ac20
+  - ref: refs/heads/rxrpc-fixes
+    old: 6b3acd69a505ba3347178e3daa4c508b43597acd
+    new: 37910ef062b9f0d35912b44d78eb8b7c4df8c8f0
     log: |
-         fb69fa2cabc68da247bcc0bc99a14dc857b16842 arm64: dts: amlogic: t7: Add eMMC, SD card and SDIO pinctrl nodes
-         b1e49f6c1ac15b2c947bdb1d22a82b823de22d27 arm64: dts: amlogic: t7: Add PWM pinctrl nodes
-         60eff75ac67bbf5445bdbd2842b0109ac591441c arm64: dts: amlogic: t7: khadas-vim4: Add power regulators
-         d4b7bac8d40c20ace072058f313469e7de39ac20 Merge branch 'v7.1/arm64-dt' into for-next
+         a4157fd2acc983bec1ea907871a9fcc791ce9095 list: Move on_list_rcu() to list.h and add on_list() also
+         8cb9f26b742abc66a9f52ac39ec84798eded6170 rxrpc: Fix call removal to use RCU safe deletion
+         2ad97765863b226e1b6ad6e1843e5b1aa00d2e8f rxrpc: Fix RxGK token loading to check bounds
+         f75e1da4e404221be19f041ca483dff31c85ef1a rxrpc: Fix use of wrong skb when comparing queued RESP challenge serial
+         8cf9b5818b778d74212349cc514622a6f0137243 rxrpc: Fix rack timer warning to report unexpected mode
+         bec7da1888f04f015d55462c90b10602d9ee6ff7 rxrpc: Fix keyring reference count leak in rxrpc_setsockopt()
+         017c839382368fb28732480d86be9e9041f6ccc6 rxrpc: Fix key reference count leak from call->key
+         37910ef062b9f0d35912b44d78eb8b7c4df8c8f0 rxrpc: Fix to request an ack if window is limited
          
