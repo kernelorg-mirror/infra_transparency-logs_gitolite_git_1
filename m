@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7820623457222728741=="
+Content-Type: multipart/mixed; boundary="===============5549013819302686518=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/qcom/linux
-Date: Thu, 26 Mar 2026 15:08:38 -0000
-Message-Id: <177453771872.1124153.4932167058104026922@gitolite.kernel.org>
+Date: Thu, 26 Mar 2026 15:08:43 -0000
+Message-Id: <177453772310.1124400.12360445666386076599@gitolite.kernel.org>
 
---===============7820623457222728741==
+--===============5549013819302686518==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/qcom/linux
 user: andersson
 changes:
-  - ref: refs/heads/arm64-for-7.1
-    old: 99bb0693df91db9338fa69d496de4601c9582058
-    new: ec6944df7b58045ecbdbf6962b89c7f28df9c5b6
-    log: revlist-99bb0693df91-ec6944df7b58.txt
+  - ref: refs/heads/for-next
+    old: 9763e4b7b6dbdd591dc10cbcdd195c8a96eaa608
+    new: 8969923579d5e1cb2b3e3f1e1b7367153a84fe6a
+    log: revlist-9763e4b7b6db-8969923579d5.txt
 
---===============7820623457222728741==
+--===============5549013819302686518==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-99bb0693df91-ec6944df7b58.txt
+Content-Disposition: attachment; filename=revlist-9763e4b7b6db-8969923579d5.txt
 
 73feb0d1e24ac31048a04c752b7a1267c7bc7d22 arm64: dts: qcom: kodiak: Add I2S1 pinctrl definitions
 cb7db0f4010f8b7392b007b803b1b3c718d7baeb arm64: dts: qcom: hamoa-iot-som: Add firmware-name to QUPv3 nodes
@@ -187,5 +187,6 @@ fa095e0b69c5629718d86d8bff7fccd56c0762e0 arm64: dts: qcom: eliza: Coding style c
 13aadeca9e7bb9b48ac68f96b97cdad60bf9f4b2 arm64: dts: qcom: eliza: Add missing CX power domain to GCC
 6b25a72abaf0aaaecc3820b8253d809246fc7ed3 arm64: dts: qcom: eliza: Add missing msi-parent for UFS
 ec6944df7b58045ecbdbf6962b89c7f28df9c5b6 arm64: dts: qcom: Drop CPU masks from GICv3 PPI interrupts
+8969923579d5e1cb2b3e3f1e1b7367153a84fe6a Merge branches 'arm32-for-7.1', 'arm64-defconfig-for-7.1', 'arm64-fixes-for-7.0', 'arm64-for-7.1', 'clk-fixes-for-7.0', 'clk-for-7.1', 'drivers-fixes-for-7.0' and 'drivers-for-7.1' into for-next
 
---===============7820623457222728741==--
+--===============5549013819302686518==--
