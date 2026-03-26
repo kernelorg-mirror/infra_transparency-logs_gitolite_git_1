@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5376585020300320508=="
+Content-Type: multipart/mixed; boundary="===============7236011684047560586=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/chenhuacai/linux-loongson
-Date: Thu, 26 Mar 2026 06:30:10 -0000
-Message-Id: <177450661055.661040.1056064578363218120@gitolite.kernel.org>
+Date: Thu, 26 Mar 2026 06:30:26 -0000
+Message-Id: <177450662620.661699.14911184554329750678@gitolite.kernel.org>
 
---===============5376585020300320508==
+--===============7236011684047560586==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/chenhuacai/linux-loongson
 user: chenhuacai
 changes:
-  - ref: refs/heads/loongarch-fixes
+  - ref: refs/heads/loongarch-next
     old: c252c12d1f55bd5737e3b8e7839914ccdc7a701c
     new: 6bcfb7f46d667b04bd1a1169ccedf5fb699c60df
     log: revlist-c252c12d1f55-6bcfb7f46d66.txt
 
---===============5376585020300320508==
+--===============7236011684047560586==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -417,4 +417,4 @@ e4878c37f6679fdea91b27a0f4e60a871f0b7bad LoongArch: vDSO: Emit GNU_EH_FRAME corr
 b97bd69eb0f67b5f961b304d28e9ba45e202d841 LoongArch: KVM: Handle the case that EIOINTC's coremap is empty
 6bcfb7f46d667b04bd1a1169ccedf5fb699c60df LoongArch: KVM: Fix base address calculation in kvm_eiointc_regs_access()
 
---===============5376585020300320508==--
+--===============7236011684047560586==--
