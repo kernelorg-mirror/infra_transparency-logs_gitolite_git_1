@@ -1,22 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/firmware/linux-firmware
-Date: Thu, 26 Mar 2026 11:20:10 -0000
-Message-Id: <177452401091.931201.2766327451595607536@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Thu, 26 Mar 2026 11:20:46 -0000
+Message-Id: <177452404683.931654.2584825730467110870@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/firmware/linux-firmware
-user: jwboyer
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/main
-    old: bd794dd407e226aeb6b773ce9cc5c57ca6380a36
-    new: 7362767cc1ee7fae193d0114d6cc5b632ec8cc96
+  - ref: refs/heads/asoc-7.0
+    old: c6eea4ff846ed342a12cedf3af730a6204a8d97e
+    new: d40a198e2b7821197c5c77b89d0130cc90f400f5
     log: |
-         4ca3317e935e3e9ffad49eb51a3468136c3fdc96 rtl_bt: Update RTL8852B BT USB FW to 0x127C_FD78
-         2ff70f9c5bf3f3c0fd520c200cb13346f9a5d77b Merge branch 'robot/patch-0-1774515001' into 'main'
-         28455e71d17fd4a50d542c2ff0b6f4b34c1c2393 linux-firmware: add firmware for Moxa mux50u devices
-         7362767cc1ee7fae193d0114d6cc5b632ec8cc96 Merge branch 'robot/patch-0-1774320726' into 'main'
+         d40a198e2b7821197c5c77b89d0130cc90f400f5 ASoC: SOF: ipc4-topology: Allow bytes controls without initial payload
          
