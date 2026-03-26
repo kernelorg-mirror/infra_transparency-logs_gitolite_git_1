@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3633664943456116632=="
+Content-Type: multipart/mixed; boundary="===============2444145979591622626=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Thu, 26 Mar 2026 16:08:08 -0000
-Message-Id: <177454128868.1177838.15583111547530940900@gitolite.kernel.org>
+Date: Thu, 26 Mar 2026 16:14:57 -0000
+Message-Id: <177454169739.1182357.7399132060588776205@gitolite.kernel.org>
 
---===============3633664943456116632==
+--===============2444145979591622626==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/dev-queue
-    old: ab5e124829ab6aaf2c56c2884338d42a3603535f
-    new: ef7322c96d498adaa33aecff041bb5a576f6939b
-    log: revlist-ab5e124829ab-ef7322c96d49.txt
+  - ref: refs/heads/1GbE
+    old: c4ea7d8907cf72b259bf70bd8c2e791e1c4ff70f
+    new: db472c34a74770f39318ddb1efa986c0a8d5d86a
+    log: revlist-c4ea7d8907cf-db472c34a747.txt
 
---===============3633664943456116632==
+--===============2444145979591622626==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ab5e124829ab-ef7322c96d49.txt
+Content-Disposition: attachment; filename=revlist-c4ea7d8907cf-db472c34a747.txt
 
 c7fcd269e1e07b2aa4bb37ffce7543c340796433 ice: set max queues in alloc_etherdev_mqs()
 ad85de0fc09eb3236e73df5acb2bc257625103f5 ice: fix inverted ready check for VF representors
@@ -54,34 +54,5 @@ aa637b2cf303e1d133a5c4ad3ee397ad99ad3f14 Merge tag 'for-net-2026-03-25' of git:/
 72d96e4e24bbefdcfbc68bdb9341a05d8f5cb6e5 net: macb: use the current queue number for stats
 deec4f7b411a5a5fc8b2f1907da5b8dd3061bb76 Merge branch '100GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/net-queue
 db472c34a74770f39318ddb1efa986c0a8d5d86a Merge tag 'nf-26-03-26' of git://git.kernel.org/pub/scm/linux/kernel/git/netfilter/nf
-6f3fabb4fd4c91783435cf954c10a733036032a1 ice: fix fwlog after driver reinit
-3bb64c79c6fa4d87e9b64bc03e78345bc60a8115 ice: Fix enable_cnt imbalance on resume
-573cf106044c9621bf3722f8b7444e1d71f03104 ice: Fix enable_cnt imbalance on PCIe error recovery
-e6054a09c25118b0e5e965fe05809022d4f55ce2 i40e: Fix enable_cnt imbalance on PCIe error recovery
-15c66d22e3a40580483355fea2e6a3dcf69b71d9 ice: fix 'adjust' timer programming for E830 devices
-d7517bb57e41344ec2884edbe279705e424b44f9 ice: fix setting RSS VSI hash for E830
-abd2c4f7752d3ae342485893bf83d9cc4000d175 ice: ptp: don't WARN when controlling PF is unavailable
-9b4c378b94c42469582747d832c43f607a95e43f ice: fix race condition in TX timestamp ring cleanup
-1b6ea032c9c62b25dcac94c7bc757bdeaada22a3 ice: dpll: fix rclk pin state get and misplaced header macros
-772e30ad9d9df29efc724e0de9472f98448d9557 ice: update PCS latency settings for E825 10G/25Gb modes
-bdf2970a6706c3e1f3ebd2d7c11fd2664ce763ef ice: fix potential NULL pointer deref in error path of ice_set_ringparam()
-68174d110d33aa9c74c8e359c7302068710d1444 ice: fix missing SMA pin initialization in DPLL subsystem
-c463e70f756d929616ce8a781beeb4489fab12b0 ixgbe: stop re-reading flash on every get_drvinfo for e610
-1d297ac5a33f0b5c78d991e7aa4328f8c240606b ice: fix double-free of tx_buf skb
-57d3d753839d568681fae2c3100c885aa9bb7f23 igb: remove napi_synchronize() in igb_down()
-54758b6d16a17151ffaf8a0530f0f54afc2c6bba ixgbevf: add missing negotiate_features op to Hyper-V ops table
-787a64be703bf2f467c3bb210f430312591d7a7a ice: fix posted write support for sideband queue operations
-b4daed0d6a80f97570abea07e7a6f1778ba3f588 e1000e: correct TIMINCA on ADP/TGP systems with wrong XTAL frequency
-24bdb7ba051317d33dbf91e49020a51449d7f2a2 ice: fix PHY config on media change with link-down-on-close
-e6d7fd757c3a6803b610e8e09c4d1f48b9c37253 ice: fix double free in ice_sf_eth_activate() error path
-abbe62333e51072a10e98de2137008c0e2931c34 idpf: fix UAF and double free in idpf_plug_core_aux_dev() error path
-a2b493edc0522482516d0dfbade8fb4562f25945 ice: fix missing dpll notifications for SW pins
-c744cdaf357c8fbe4fabf8c654bf67e6df9c03e0 idpf: fix PREEMPT_RT raw/bh spinlock nesting for async VC handling
-6932e38d260c045593dfc37a6709cf8c801deadd idpf: improve locking around idpf_vc_xn_push_free()
-4079a1df5df11f803c581d0f833751cc91683f49 idpf: set the payload size before calling the async handler
-2672caf1e5f8185cd4e62e4b2b1aa635907ddf0a idpf: fix xdp crash in soft reset error path
-312c8012d5d6c6176477d42a4735110d302ca6d8 ice: fix locking in ice_dcb_rebuild()
-2636419ca21e487f0e534ce8887f2529192d7cc4 e1000e: Unroll PTP in probe error handling
-ef7322c96d498adaa33aecff041bb5a576f6939b iavf: fix wrong VLAN mask for legacy Rx descriptors L2TAG2
 
---===============3633664943456116632==--
+--===============2444145979591622626==--
