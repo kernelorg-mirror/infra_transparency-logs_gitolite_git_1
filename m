@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
-Date: Thu, 26 Mar 2026 16:27:10 -0000
-Message-Id: <177454243074.1197243.7870871707514374144@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Thu, 26 Mar 2026 16:28:12 -0000
+Message-Id: <177454249223.1197899.1539145223565848090@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/maz/arm-platforms
-user: maz
+repo: pub/scm/linux/kernel/git/netdev/net
+user: pabeni
 changes:
-  - ref: refs/heads/kvm-arm64/vgic-fixes-7.1
+  - ref: refs/tags/net-7.0-rc6
     old: 0000000000000000000000000000000000000000
-    new: a93e00468c11f66075248d5c621eeb645ac290cd
+    new: 472059e6f6298a44e713f282463dfd391a80b14e
