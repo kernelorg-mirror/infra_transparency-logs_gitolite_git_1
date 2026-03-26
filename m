@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
-Date: Thu, 26 Mar 2026 17:03:42 -0000
-Message-Id: <177454462213.1228250.10873045176609504630@gitolite.kernel.org>
+Subject: post-receive: pub/scm/fs/xfs/xfs-linux
+Date: Thu, 26 Mar 2026 17:04:25 -0000
+Message-Id: <177454466526.1228651.2372390196720656463@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pci/pci
-user: mani
+repo: pub/scm/fs/xfs/xfs-linux
+user: cem
 changes:
-  - ref: refs/heads/endpoint
-    old: e022f0c72c7f67fe79de03e71d839418073490a5
-    new: 396d44dcaf8d367ed15ecec30e2f69c62f93306c
+  - ref: refs/heads/xfs-7.0-fixes
+    old: c6c56ff975f046be25f527231a239e37920aca5e
+    new: e31c53a8060e134111ed095783fee0aa0c43b080
     log: |
-         ff5387d4f0798cf1d1a4f548427bd9142cf35b66 PCI: endpoint: Print the EPF name in the error log of pci_epf_make()
-         396d44dcaf8d367ed15ecec30e2f69c62f93306c PCI: endpoint: Improve error messages
+         70685c291ef82269180758130394ecdc4496b52c xfs: don't irele after failing to iget in xfs_attri_recover_work
+         e31c53a8060e134111ed095783fee0aa0c43b080 xfs: remove file_path tracepoint data
          
