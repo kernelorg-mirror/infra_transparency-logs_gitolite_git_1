@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bmc/linux
-Date: Thu, 26 Mar 2026 06:54:57 -0000
-Message-Id: <177450809744.678258.5993600968196454914@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
+Date: Thu, 26 Mar 2026 07:18:38 -0000
+Message-Id: <177450951837.697134.7778151932872343491@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bmc/linux
-user: arj
+repo: pub/scm/linux/kernel/git/xiang/erofs-utils
+user: xiang
 changes:
-  - ref: refs/heads/for-next
-    old: 710dbb13377c80a6e39ef049a517665841e3221e
-    new: cd44dc5ead3042f2873244b0598e39a16dc7b940
+  - ref: refs/heads/experimental-tests
+    old: d29c4bd3cb881cfde240e1403e4135f6a54557ac
+    new: 782f9b330d15f011eb3d9e29e0a5bbb9aa473de8
     log: |
-         745be01dadd8e547e3b9de750f48014fca406516 soc: aspeed: cleanup dead default for ASPEED_SOCINFO
-         cd44dc5ead3042f2873244b0598e39a16dc7b940 Merge branches 'aspeed/arm/dt', 'aspeed/fixes/drivers' and 'nuvoton/arm64/dt' into for-next
+         1b946d4bff18370fe46ef82c9ebcec8a9877173c erofs-utils: tests: add test to ensure LZ4_0PADDING is set properly
+         782f9b330d15f011eb3d9e29e0a5bbb9aa473de8 erofs-utils: tests: add inode page cache sharing testcase
          
