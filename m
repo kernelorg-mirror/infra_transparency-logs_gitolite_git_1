@@ -1,22 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============7332307197330575390=="
+Content-Type: multipart/mixed; boundary="===============8485086438830069574=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Thu, 26 Mar 2026 12:08:01 -0000
-Message-Id: <177452688177.972598.18358207482127420883@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Thu, 26 Mar 2026 12:08:05 -0000
+Message-Id: <177452688501.972757.5794483924763348186@gitolite.kernel.org>
 
---===============7332307197330575390==
+--===============8485086438830069574==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-7.1
+  - ref: refs/heads/asoc-7.1
     old: 8a6391ec669366cbe7bde92b468c561e8b309fd6
     new: 951a4e8589b3ee6e889ed97fb9896df197dd88e7
     log: |
@@ -26,28 +26,28 @@ changes:
          951a4e8589b3ee6e889ed97fb9896df197dd88e7 ASoC: wm_adsp_fw_find_test: Fix missing NULL terminator on file name list
          
 
---===============7332307197330575390==
+--===============8485086438830069574==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1774526880 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1774526879-df6e9039c4a9cc4e60f4e2cfed4d16d9e4303eaf
+pusher C3F436CA30F5D8EB 1774526883 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1774526882-93ce67c076f59446444e97dc9eed03fc2c4bcef4
 
-8a6391ec669366cbe7bde92b468c561e8b309fd6 951a4e8589b3ee6e889ed97fb9896df197dd88e7 refs/heads/for-7.1
+8a6391ec669366cbe7bde92b468c561e8b309fd6 951a4e8589b3ee6e889ed97fb9896df197dd88e7 refs/heads/asoc-7.1
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmnFIaAACgkQJNaLcl1U
-h9AMPwf+PFquF+H5TJYnz2/ln7EoMjNWMmFxIOnvMeR3m6As3747tHXMJt02G5et
-iY9qQ7icUNVeuuUL27BJLV+nukS0jSu4z936K+2XoJvTvde3SzVDlLQxIemjLcFR
-idbMHTMz4ukoFkTQ+Q5erZf3zB2BhlxY/YqkIA/7YzrDcaFDz3Ti3hX3H+TfJnsl
-oniKDzTpSkE6FPgJzD/zLw0TmaTiAbUj8mbp83rqUGXbJZ6oHXxUVTsHS0/6T3CT
-Ie4Y/7CBl2BL80ku677tTuBLj1JZSDnAgnJ6QiNHYBPJAARDbNfG3uzI30DUNc9C
-RwdUNI3gkgWcvxZ7Z8UDE3o5T5qv7g==
-=wryj
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmnFIaMACgkQJNaLcl1U
+h9CFjAf/dDJ+fewxo/wJ1bmnZFjfBVymkOfjTrlrFacGA0hqWJLUHSVPWk/ryH+e
+2eRhQLovXkBX/goD+lL3FCWaSIX5NLx5prL0iXV03O/3NeQ0We3GBOk9vFsL07nM
+dzPspBFQPAQRGfA4PTpiqQeaXm9WNgvqPkrk0qiWTIn2UqGqed2m8TUfnwKCqG0G
+3tn8l6vN1CdnC42mOpfuXgGx3uPFmQpClZnBS0istFgeGAdcBK1usBZk07LqfZiK
+/eDT3qO7CajVqIMTmZQRFPktcI1/yPCdU2JZZkdRiivH0kR0Iu6Vmm+DHWIlm2Jz
+MAzcBNVcmG0EC4PD618+NOC1cnHalg==
+=MFMS
 -----END PGP SIGNATURE-----
 
---===============7332307197330575390==--
+--===============8485086438830069574==--
