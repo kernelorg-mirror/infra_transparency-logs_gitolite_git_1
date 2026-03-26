@@ -1,28 +1,52 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/damon-hack
-Date: Thu, 26 Mar 2026 06:21:40 -0000
-Message-Id: <177450610025.653133.2046607470152098065@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============5636322974894130684=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/powerpc/linux
+Date: Thu, 26 Mar 2026 06:22:59 -0000
+Message-Id: <177450617906.653807.15608213973646317286@gitolite.kernel.org>
+
+--===============5636322974894130684==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/damon-hack
-user: sj
+repo: pub/scm/linux/kernel/git/powerpc/linux
+user: maddy
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/master
-    old: bdcafcee83a613a9b0f0bc740c42dae44d9e9bcb
-    new: e82f185a7854c8f94287fba27c5416507371778f
-    log: |
-         3e21bd55858818152c9d25356d5eb8c02c2492e2 todo: add another sashiko found damon_call() cleanup deadlock issue
-         f2f6f29587baa0148c5b6463f58503c2cf4c1440 patches/mm: update
-         8cf67755c530864b8cd6679d906291227f97fdae todo: prioritize a few fixes
-         297f93180d15a73df77122bbec25e27c7e837ae4 patches/next: rebase to latest mm-new
-         6ea0f14dde9c3103a36bfd488293de285c23db47 patches/next: add damon_call() deadlock fix
-         fe5138b90ba8383d1313c014897670dfd016489b patches/next: rebase and reword sashiko-hotfixes
-         938e90361da2770000597ee79d506382daa0aaf6 patches/next: writeup fixes cover letter
-         96afffe487e93128e2d2d762ed4cdff5c3441efd patches/next: add fixup for damon_call() race deadlock
-         679973d40594d36119b70a0e61c975b1c47fd4c6 patches/mm: update
-         e82f185a7854c8f94287fba27c5416507371778f patches/next: rebase to latest mm-new
-         
+  - ref: refs/heads/next-test
+    old: 217e0d3cb6437f802ac73e6a614d7a2525f61e36
+    new: 07791ff060dd3aa270cc03861f2599d81a77b97f
+
+--===============5636322974894130684==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Madhavan Srinivasan <maddy@linux.ibm.com> 1774506173 +0530
+pushee gitolite.kernel.org:pub/scm/linux/kernel/git/powerpc/linux
+nonce 1774506172-318ae38e06bf78cd48586f58966711ed95925de0
+
+217e0d3cb6437f802ac73e6a614d7a2525f61e36 07791ff060dd3aa270cc03861f2599d81a77b97f refs/heads/next-test
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAABCgAdFiEEqX2DNAOgU8sBX3pRpnEsdPSHZJQFAmnE0L0ACgkQpnEsdPSH
+ZJRvTQ//U3k4HsPxDPgQPNtmKcIvjU1ZnrCG/v8VG+XyOlkrtI4kO1KNVX98Lg/A
+7l9czTnK6fU7kKRN0nvKq8pvoll0dIbSHrfxFJxAVvSozzg70hpVU5A1ie3KnH1s
+AhTYj1ZPaA3UmfjxLAQ05GlkdLfpgoRGGw7hd3wFNJ13mJP1rHbp9HHCjmG4swiy
+wPCT8wV8KJ/b4f765bGyn4Sn+q78QU9Y8Wqeydg/0lrYHmYbrNPy4y2uGSCdYccP
+obdEcG4hwolURN6Os7YVh4Ot74MSRXrkvtfnAv9xXDM9Ik4hz0Z+NH2RVoYAdXa5
+rO+qyDXx9WLoGmFlWTrPdZ4xXTKnj/+rzR95WLMqMTtX8tVJ3mAYBE3w3K8yS6oR
+GDi5Trx57ugPSYDHD/LUKJilu+ED/fRaBIyMRu9Gd8QjrqU4CNkGYTsiz1wehDQH
+vFeVDi/jSOxYAQnxr8IQX4faeyhhGKPDCjfwgRjIIc+SmwdN16z4+Td6jgzBl+5C
+dB8s/kSYFvu747mBszovhu4SHo6TJXcwD9kUO/8r+PbNRkBb3ik9mxYtQAOEDnWD
+zhliOGsdhTY4BErrBe87DB2jl81DaL3fVCiccO44M3kUnrGeYlt0qMBhagQg586Q
+RPaIpfywbiU2mVCEEaZM/T2L+eK1OoUO81YFL4gaC3QoFAZQWRg=
+=zAF8
+-----END PGP SIGNATURE-----
+
+--===============5636322974894130684==--
