@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0420091446987603367=="
+Content-Type: multipart/mixed; boundary="===============1517012487765041687=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
-Date: Fri, 27 Mar 2026 09:53:41 -0000
-Message-Id: <177460522190.2047213.5220741313570304497@gitolite.kernel.org>
+Date: Fri, 27 Mar 2026 09:53:44 -0000
+Message-Id: <177460522414.2047353.4106785333590071197@gitolite.kernel.org>
 
---===============0420091446987603367==
+--===============1517012487765041687==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,38 @@ repo: pub/scm/linux/kernel/git/stable/linux
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-6.12.y
-    old: 48591125594050ab91c9156bccb3ddd9a869d9f1
-    new: c2d104a355013a14bcd73e31fb2c4bc21922115a
-    log: |
-         62f01682102e03fb9e2c8c2850c80af937e51eaa Revert "LoongArch: Add machine_kexec_mask_interrupts() implementation"
-         c2d104a355013a14bcd73e31fb2c4bc21922115a Linux 6.12.79
-         
+  - ref: refs/tags/v6.12.79
+    old: 0000000000000000000000000000000000000000
+    new: 30dc0b706a16e7e6f27eb377554ec0c661b6af7b
 
---===============0420091446987603367==
+--===============1517012487765041687==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1774605200 +0100
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1774605202 +0100
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
-nonce 1774605220-16ee97ada747652ecca649c0ba020c198a356992
+nonce 1774605222-8e69e8b7361153235a7da9fd0a766e5ccc50e620
 
-48591125594050ab91c9156bccb3ddd9a869d9f1 c2d104a355013a14bcd73e31fb2c4bc21922115a refs/heads/linux-6.12.y
+0000000000000000000000000000000000000000 30dc0b706a16e7e6f27eb377554ec0c661b6af7b refs/tags/v6.12.79
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmnGU5AbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+yBsP/RiY0HgxMaT9NIa9VSpT
-wsqz473Y5O/6cbbUD/nYymoTOVXaPwoPJHWAyR8HOO0Fl1fKQRMyRP7uXmPzXfOG
-uMzJ3iizyF89xCMhEhLmhT5dURkz9UsDxSDZrnNcmT1+b0iGXXqEAveVueMpFv+a
-fXEoFRtzJge+dvInp6GrbaiKjcMumIxPoaeqjXiUpYB7aMjNF8eV5yG6pT7hZ4u5
-xXGlOdB/E1lXmtxPgekZXuF0zYuzehXDm2PlG1cWdPfJ/vKruuKJISzQCOSy2eST
-Dyt2h2XQOdrEoRJqi3311g9KPVjZWdb1+nWFzRrYdkOtzFQAlspJ6HJZFcQf3t52
-KNjAiDuR97swgQEM7Grqg1EiVQwgajeRsrcPx3eNAoneUEvMV0RIcg8WuebUNPYY
-NuUEabSsCwJqfZoBsbNGvaufdSzJ50QghyVVmXD8tc/IJDYKh+D8dmF0WCOI52Fw
-bKvig56eg6W9IoomtopZFOn2fmCdBnFbGIoCd11ChzWgNRGXmSiL7a2XU/stVcDi
-qaJKkDq2rtRl5oFkfAw4onChf74KdwVCHF6nDm8zpPrCFPC52L8JzfWr7kwfe5UC
-CIp2UTTMqESLgPlj0ERvaUpbmIIhdtU1vc3U/XlroKCgbJq7wPwadR0NHYWJgwvd
-Y4tiHiOxKuwtH4vxmNn2lV5m
-=SyJN
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmnGU5IbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+QOAQAMy/+tbCqHmV05Zr0RdU
+bf+7FusM8IKgIm56qI68LZ3ic9KnHieWeG+UNRmeaVxaZB9Jnc4DR23a3oBeuItg
+WGKPinpDxMMymS6ILORGpUKvjX5FkqmnweKA5RyXs70bcmWMN3tdK/bKGFUYUkqO
+f+99qa/+UkEw/CIj97QEY/CYRYH9BtVSne6o33mBN9MiK9CFfRcVxMVRiahknyk+
+ZtTHpu7h0sfMKV/iZKVFjMvQldpe0utQmAaywZhc88nr+lyfdMwPgycyjzHcDu9b
+TsYfZvGj2qgdMtM4Q1aNnjFkA3Nj8P6kNNIu5ePVfTh00h3xfJFtfp8rQ5493cjN
+28CGBN+nzb8MQdfnh/X3cXGhEWInrePQTcPACg3EA8aGgIUiLXPXKn8ZiAQ5JRGq
+/fsgH/UL6krkGbpdYJ1QZ68mwyshOjgIu/xGDVTCq2DJkfsDdmoyZtoiHq6JNKK0
+3IuftuN2jJWe45gVHbVUaOem/4gxz4/vNzpBjHZcdXZdRJdq6fFeu10Re4N1QVLx
+TeTOg9NKRdcU8NANDdUR2Ij25eeSvxQcY/Q6CED+XGrvsvYAiAUpaoz7dGzkTDcl
+KFPdkWmVATCsT7GWyJWpwrdzSzPc48p4a+fAIZXlEaZ068yw/aSZcj40QhGq0vAu
+gKmsPSnO/Nhgfd2zt726a/s2
+=b44W
 -----END PGP SIGNATURE-----
 
---===============0420091446987603367==--
+--===============1517012487765041687==--
