@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5498700870418399229=="
+Content-Type: multipart/mixed; boundary="===============3197718970536929028=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ti/linux
-Date: Fri, 27 Mar 2026 04:38:54 -0000
-Message-Id: <177458633473.1802389.9192496632097521907@gitolite.kernel.org>
+Date: Fri, 27 Mar 2026 04:39:36 -0000
+Message-Id: <177458637623.1802826.2182501002127816590@gitolite.kernel.org>
 
---===============5498700870418399229==
+--===============3197718970536929028==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ti/linux
 user: vigneshr
 changes:
-  - ref: refs/heads/ti-k3-dts-next
-    old: 6ee0792d83d5c690205c350825a4c30746c0e0a2
-    new: af704cad18c0e973c758f41c9337411168de3681
-    log: revlist-6ee0792d83d5-af704cad18c0.txt
+  - ref: refs/heads/ti-next
+    old: def2848b738945760303ff99afad650012340577
+    new: e944d7ad44ecd76b4db2f37db2d04f1d4cc82109
+    log: revlist-def2848b7389-e944d7ad44ec.txt
 
---===============5498700870418399229==
+--===============3197718970536929028==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6ee0792d83d5-af704cad18c0.txt
+Content-Disposition: attachment; filename=revlist-def2848b7389-e944d7ad44ec.txt
 
 d5325810814ee995debfa0b6c4a22e0391598bef arm64: dts: ti: am62-verdin: Enable pullup for eMMC data pins
 ae41091c65453b900a9a96294ee7ff007dc671e4 arm64: dts: ti: k3-am68-phyboard-izar: Assign dss clocks
@@ -44,5 +44,6 @@ f6861318c5393a309ac8907a27a4f09f3518b20d arm64: dts: ti: k3-am62l3-evm: Enable M
 ee2a9d9c9e6c9643fb7e45febcaedfbc038e483a arm64: dts: ti: k3-am62-lp-sk: Enable internal pulls for MMC0 data pins
 830e0b0e15ee3d676539346b019f97f9bfae16b5 arm64: dts: ti: k3-j7200: Make MAIN domain system control bus a simple-bus
 af704cad18c0e973c758f41c9337411168de3681 arm64: dts: ti: k3-j721s2: Make MAIN domain system control bus a simple-bus
+e944d7ad44ecd76b4db2f37db2d04f1d4cc82109 Merge branch 'ti-k3-dts-next' into ti-next
 
---===============5498700870418399229==--
+--===============3197718970536929028==--
