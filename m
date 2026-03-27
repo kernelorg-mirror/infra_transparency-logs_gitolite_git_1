@@ -1,53 +1,57 @@
-Content-Type: multipart/mixed; boundary="===============0485610254224990835=="
+Content-Type: multipart/mixed; boundary="===============0420091446987603367=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Fri, 27 Mar 2026 09:53:35 -0000
-Message-Id: <177460521542.2046991.13168060205634719651@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
+Date: Fri, 27 Mar 2026 09:53:41 -0000
+Message-Id: <177460522190.2047213.5220741313570304497@gitolite.kernel.org>
 
---===============0485610254224990835==
+--===============0420091446987603367==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
+repo: pub/scm/linux/kernel/git/stable/linux
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/v6.12.79
-    old: 0000000000000000000000000000000000000000
-    new: e73241bc7d4573975b1993ada2b5ab0253ae20bf
+  - ref: refs/heads/linux-6.12.y
+    old: 48591125594050ab91c9156bccb3ddd9a869d9f1
+    new: c2d104a355013a14bcd73e31fb2c4bc21922115a
+    log: |
+         62f01682102e03fb9e2c8c2850c80af937e51eaa Revert "LoongArch: Add machine_kexec_mask_interrupts() implementation"
+         c2d104a355013a14bcd73e31fb2c4bc21922115a Linux 6.12.79
+         
 
---===============0485610254224990835==
+--===============0420091446987603367==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1774605194 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1774605214-40e6c83ab23dc49ba406057c14ba7dff15973f46
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1774605200 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
+nonce 1774605220-16ee97ada747652ecca649c0ba020c198a356992
 
-0000000000000000000000000000000000000000 e73241bc7d4573975b1993ada2b5ab0253ae20bf refs/tags/v6.12.79
+48591125594050ab91c9156bccb3ddd9a869d9f1 c2d104a355013a14bcd73e31fb2c4bc21922115a refs/heads/linux-6.12.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmnGU4obHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+yG8QAJJGxvJXeVmUqSOZzI/4
-tsR94zZhrAjsQ+FB3qWmJKshu1zqPiFoDe14bTiJtJ6y60/KyeYErX9ZTbnK5hUG
-ng2ZPzdcbCV8nlohZnvgnBN2qNkMRdwHW+UfsecYrlbHyQVrzg6G5FrysRghcxj8
-5jIxYuArDgTJ+6G1HiB/PW4aKgWPuNuuZQ4v3UkhVcxzI0ryb0XYe7wg+G7ycyuU
-lWEEOj9+cCQE0H/JuSPBDk7UDu1n15PZouedjgoM+dlLXWziTWnQL1u6FBjFyKkX
-5CeAhmGiyMJO6IEtP/xAZLsfODV5VYevV/gzwxSDFkNJF5bVrv9xwkQqKRLhcl8z
-8RVCIHpqsEWkY89jPl41mWIi0O7HIASdQQLD55waKkIuP6DTbdsvMFNTyytKLxCG
-N85ulYa1Ae3ZxhJvKs+6ARegy66REBHIgCStoSnEWe8ywuRMh1LuaCxWZoXaG9YP
-t4Or7t2CS2hGA4hphSrL9zix35bs3F2xYPYQR3QLgahDj2upF9bM0inVRJRbjMsM
-SYwelWDxg3M3zzF09t1zQcYM5NrCoL2nE28L1mP6WZuuQFWNN+I1MBnJC7fA7uLf
-N/Wd+ScoxNvNNct3QPcxUohCYp7tKq5FFek1nrFmUj+dZvfYW9uEkWyiYUsVL+5Q
-eRXEf9mXGmHTjsq4o9Lpk4Mo
-=HBpT
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmnGU5AbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+yBsP/RiY0HgxMaT9NIa9VSpT
+wsqz473Y5O/6cbbUD/nYymoTOVXaPwoPJHWAyR8HOO0Fl1fKQRMyRP7uXmPzXfOG
+uMzJ3iizyF89xCMhEhLmhT5dURkz9UsDxSDZrnNcmT1+b0iGXXqEAveVueMpFv+a
+fXEoFRtzJge+dvInp6GrbaiKjcMumIxPoaeqjXiUpYB7aMjNF8eV5yG6pT7hZ4u5
+xXGlOdB/E1lXmtxPgekZXuF0zYuzehXDm2PlG1cWdPfJ/vKruuKJISzQCOSy2eST
+Dyt2h2XQOdrEoRJqi3311g9KPVjZWdb1+nWFzRrYdkOtzFQAlspJ6HJZFcQf3t52
+KNjAiDuR97swgQEM7Grqg1EiVQwgajeRsrcPx3eNAoneUEvMV0RIcg8WuebUNPYY
+NuUEabSsCwJqfZoBsbNGvaufdSzJ50QghyVVmXD8tc/IJDYKh+D8dmF0WCOI52Fw
+bKvig56eg6W9IoomtopZFOn2fmCdBnFbGIoCd11ChzWgNRGXmSiL7a2XU/stVcDi
+qaJKkDq2rtRl5oFkfAw4onChf74KdwVCHF6nDm8zpPrCFPC52L8JzfWr7kwfe5UC
+CIp2UTTMqESLgPlj0ERvaUpbmIIhdtU1vc3U/XlroKCgbJq7wPwadR0NHYWJgwvd
+Y4tiHiOxKuwtH4vxmNn2lV5m
+=SyJN
 -----END PGP SIGNATURE-----
 
---===============0485610254224990835==--
+--===============0420091446987603367==--
