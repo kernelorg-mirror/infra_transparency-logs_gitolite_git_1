@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6150440430624564494=="
+Content-Type: multipart/mixed; boundary="===============0551536359231411739=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Fri, 27 Mar 2026 21:21:00 -0000
-Message-Id: <177464646095.2731648.15469930539970596310@gitolite.kernel.org>
+Date: Fri, 27 Mar 2026 21:21:04 -0000
+Message-Id: <177464646407.2731807.4140248854861172210@gitolite.kernel.org>
 
---===============6150440430624564494==
+--===============0551536359231411739==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/10GbE
+  - ref: refs/heads/40GbE
     old: d1e59a46973719e458bec78d00dd767d7a7ba71f
     new: e4cf6087cab382c7031e6b436ec55202fa9f2d7b
     log: revlist-d1e59a469737-e4cf6087cab3.txt
 
---===============6150440430624564494==
+--===============0551536359231411739==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -716,4 +716,4 @@ af0331e1ac51f48d0cc6bb09547b8c8ae467a019 dt-bindings: remove unimplemented AXI s
 552994294fe27b42a6a735b0388029b45d776b38 tcp: Fix inconsistent indenting warning
 e4cf6087cab382c7031e6b436ec55202fa9f2d7b net: qrtr: fix endian handling of confirm_rx field
 
---===============6150440430624564494==--
+--===============0551536359231411739==--
