@@ -1,56 +1,28 @@
-Content-Type: multipart/mixed; boundary="===============1424545439631378206=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
-Date: Fri, 27 Mar 2026 09:53:54 -0000
-Message-Id: <177460523412.2047591.16226731827907415218@gitolite.kernel.org>
-
---===============1424545439631378206==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/djakov/icc
+Date: Fri, 27 Mar 2026 09:54:11 -0000
+Message-Id: <177460525122.2047950.6945409772520931092@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/linux
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/djakov/icc
+user: djakov
 changes:
-  - ref: refs/notes/signatures/tar
-    old: 6d3068352f43c59f493c661a5ec3d0df878b5020
-    new: bf97f0da7c042ce269ec372f6ea2ee578ff54266
+  - ref: refs/heads/icc-next
+    old: 89b6f071c4a07267be82159b5118054fd7771ea9
+    new: 427683b233c9663cdf365ad4a9a7d875a6490c59
     log: |
-         bf97f0da7c042ce269ec372f6ea2ee578ff54266 Notes added by 'git notes add'
+         f64f37521c3492ea32dee9bce513145360f30f57 dt-bindings: interconnect: qcom,msm8974: drop bus clocks
+         199363ed2f6a351360fbc353e20059c763965130 dt-bindings: interconnect: qcom,msm8974: use qcom,rpm-common
+         b8498af901684912bd87a39c7b95ad955d9bc543 interconnect: qcom: drop unused is_on flag
+         fba5454ef58bbdf2334fc94c29ae3053acac574c interconnect: qcom: icc-rpm: allow overwriting get_bw callback
+         1d5b5f7d755be846e7b3a236855ee148b80b4fa3 interconnect: qcom: define OCMEM bus resource
+         91cfd1604f9ec73d3fde18204de263d0e2c79a3b interconnect: qcom: let platforms declare their bugginess
+         aa60d907b3c289832d2188e079fc126a700389fa interconnect: qcom: msm8974: switch to the main icc-rpm driver
+         39ecfef48384b3b8795df37a8211462a6666d9a6 interconnect: qcom: msm8974: expand DEFINE_QNODE macros
+         c787e95b00f2f32922675df2eb3f1ce074cf1709 Merge branch 'icc-msm8974' into icc-next
+         427683b233c9663cdf365ad4a9a7d875a6490c59 Merge branch 'icc-fixes' into icc-next
          
-
---===============1424545439631378206==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1774605212 +0100
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
-nonce 1774605232-e2994d6ddb3cebc62f8fbf9b814eb1624bd453b7
-
-6d3068352f43c59f493c661a5ec3d0df878b5020 bf97f0da7c042ce269ec372f6ea2ee578ff54266 refs/notes/signatures/tar
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmnGU5wbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+dTwQAI7e6BL7smSsg+sxo1vC
-ZvJUjiQg4ar4mhEOUgAcuXoaWjca5z560XYZKviRgJr9K1LG6rfQhhGaPNvZx+Lp
-FsYHmVIKr84JmWQrM/yKIufc6TXuKYgL+ys6MJ9Tk+PLlahEmIaFmRraLefeKXku
-/kvVF1SI47u+gJFe/RZUv9IBdqf0qKgfSplSiylqa0yPw1Qs6OnhRdLMo17e+FC2
-epvqb9MU6jiGXpQsXQbSt+zq7lmZM/8W8v383JR5jIoan456iz0Xfcae8iKX37aZ
-IJ1ILRp2Z65Z+PuGd+J1ofwfAMa+yRXfoCWwHvqxto2sr3pjSIipHVUXhcm199xF
-Bqnl8feHSW0OtRcS1xPfIPwAF2k7va5nfpG876D/8KrK2jNZQfvVwKRw45RDj3yt
-aS3imGzciTFWqDD5/OaVmVqwX1vei4OQiP6RXnGiy2JEJOTpvLplSlhRb+RXVehC
-P1rg70gms8OMKXStEw+xKX0N45OiIDDg2bum4vbjbq3pn/gdpb/xsUkKF9tifqgq
-hbhTsg8qtchN6fk6ei6/AlQsiO1zAEL4Ip7+EcwOnAKhd/Ss7xyzpOAKmonmb+r+
-MdOkEMTBwjvpQKd9Rea/NQzYcPC4Vz7eINT5NFrXnIB6plUSU0sN6A6XOBPUzk2g
-etdOoHZ224+x5FBNBoVrFyxs
-=Yv60
------END PGP SIGNATURE-----
-
---===============1424545439631378206==--
