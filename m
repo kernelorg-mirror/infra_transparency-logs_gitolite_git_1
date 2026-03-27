@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Fri, 27 Mar 2026 03:15:18 -0000
-Message-Id: <177458131807.1737114.16064732602329750361@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Fri, 27 Mar 2026 03:18:56 -0000
+Message-Id: <177458153656.1738928.15882837325097868028@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
+repo: pub/scm/linux/kernel/git/netdev/net
 user: kuba
 changes:
   - ref: refs/heads/main
-    old: a771cddbd6541587b2b423576a57e4217ec11a38
-    new: 6a539eee855cbfe9c32507c70003b7710604fcfb
+    old: 976ff48c2ac6e6b25b01428c9d7997bcd0fb2949
+    new: e8e44c98f789dee45cfd24ffb9d4936e0606d7c6
     log: |
-         fe3e54253f0b04ec9e85d46e10aadbdbb31d29b2 virtio_net: sync RX buffer before reading the header
-         6a539eee855cbfe9c32507c70003b7710604fcfb tcp: tcp_vegas: use tcp_vegas_cwnd_event_tx_start()
+         57a04a13aac1f247d171c3f3aef93efc69e6979e netdevsim: fix build if SKB_EXTENSIONS=n
+         e8e44c98f789dee45cfd24ffb9d4936e0606d7c6 net: fec: fix the PTP periodic output sysfs interface
          
