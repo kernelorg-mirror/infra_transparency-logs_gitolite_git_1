@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8942678665649699576=="
+Content-Type: multipart/mixed; boundary="===============2775734502812464011=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Fri, 27 Mar 2026 21:05:41 -0000
-Message-Id: <177464554195.2718221.17217276281863986408@gitolite.kernel.org>
+Date: Fri, 27 Mar 2026 21:05:45 -0000
+Message-Id: <177464554506.2718413.16267715258329397480@gitolite.kernel.org>
 
---===============8942678665649699576==
+--===============2775734502812464011==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/10GbE
+  - ref: refs/heads/40GbE
     old: db472c34a74770f39318ddb1efa986c0a8d5d86a
     new: 5597dd284ff8c556c0b00f6a34473677426e3f81
     log: revlist-db472c34a747-5597dd284ff8.txt
 
---===============8942678665649699576==
+--===============2775734502812464011==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -370,4 +370,4 @@ ae05340ccaa9d347fe85415609e075545bec589f net: ipv6: ndisc: fix ndisc_ra_useropt 
 bb417456c7814d1493d98b7dd9c040bf3ce3b4ed tg3: Fix race for querying speed/duplex
 5597dd284ff8c556c0b00f6a34473677426e3f81 net: ti: icssg-prueth: fix missing data copy and wrong recycle in ZC RX dispatch
 
---===============8942678665649699576==--
+--===============2775734502812464011==--
