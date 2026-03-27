@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4735581372970666591=="
+Content-Type: multipart/mixed; boundary="===============5548879965201226565=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Fri, 27 Mar 2026 23:25:09 -0000
-Message-Id: <177465390945.2832683.8202056337868683609@gitolite.kernel.org>
+Date: Fri, 27 Mar 2026 23:25:10 -0000
+Message-Id: <177465391082.2832863.10430106738953616850@gitolite.kernel.org>
 
---===============4735581372970666591==
+--===============5548879965201226565==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/mm-new
-    old: df2f543c4f6306d2595e10082ae38e31b2dc1def
-    new: f46991f1780ef97efff3b668627b763581032067
-    log: revlist-df2f543c4f63-f46991f1780e.txt
+  - ref: refs/heads/mm-unstable
+    old: d6f51e38433489eb22cb65d1bf72ac7993c5bdec
+    new: 74dc4627271e6e367176b519565e901ed72d6e4c
+    log: revlist-d6f51e384334-74dc4627271e.txt
 
---===============4735581372970666591==
+--===============5548879965201226565==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-df2f543c4f63-f46991f1780e.txt
+Content-Disposition: attachment; filename=revlist-d6f51e384334-74dc4627271e.txt
 
 6f8846e9abe450a7a25f5930b3982f28e13196e5 mm: filemap: fix nr_pages calculation overflow in filemap_map_pages()
 a7047ed8690cb9242b5122785f7ddfed00b0506f mm/huge_memory: fix folio isn't locked in softleaf_to_folio()
@@ -356,29 +356,5 @@ c74290dafbce5d5d35d44ee486286982a422bf94 mm: list_lru: deduplicate lock_list_lru
 230bbdc110b3bb245d31562849296d6858d36e7e mm: list_lru: introduce folio_memcg_list_lru_alloc()
 b0f512f6e36c911fb03c1d1ac631a974f05aad8f mm: switch deferred split shrinker to list_lru
 74dc4627271e6e367176b519565e901ed72d6e4c lib/maple_tree: fix swapped arguments in mas_safe_pivot() call
-69aea402274de3214fee0d03738784c11e17551d memory tiering: do not allow promotion if NUMA_BALANCING_MEMORY_TIERING is disabled
-8e3be4253c6a1659f3aed09006b298521c65b745 mm: kmemleak: add CONFIG_DEBUG_KMEMLEAK_VERBOSE build option
-8d2f0328ffc605ec442eff4c46329afa42c659e3 mm/swap, PM: hibernate: fix swapoff race in uswsusp by pinning swap device
-5da581e6fbe295a95574d01cbf34cc5496f59dbd mm/swap: remove redundant swap device reference in alloc/free
-bd8f1800d1f2b2df38f16d27502ad417903c7965 kho: add size parameter to kho_add_subtree()
-753a72f20e028f1f64b0a485c0d05c9db827df9d kho: rename fdt parameter to blob in kho_add/remove_subtree()
-592db4453082993e2989dc7e47587a230a45ec77 kho: persist blob size in KHO FDT
-e6b9fce22a64769d412023a96522da6e3c6560c9 kho: fix kho_in_debugfs_init() to handle non-FDT blobs
-ae7b05ef6def02c51b6e43c0df7f4bce97b5b189 kho: kexec-metadata: track previous kernel chain
-59a21cb77e74fb0c93a6a11f1da71857215ae353 kho: document kexec-metadata tracking feature
-961326ace7b41094b7e9cf51766e1b616ff895ab mm/page_io: fix PSWPIN undercount for large folios in sio_read_complete()
-442e3f1b8feb9ad372e6020b8a10d1488c9bf59d mm/mprotect: move softleaf code out of the main function
-63466675c1925a999ed294b2c938b3441e13476a mm/mprotect: special-case small folios when applying write permissions
-4a40b8db658b0aa4561a158131b1a5cd025beae8 mm/memfd: use folio_nr_pages() for shmem inode accounting
-3d96fa93711261596e44a19661cd38e7c3e06777 mm/memfd_luo: optimize shmem_recalc_inode calls in retrieve path
-74c8112817155edc015ca9a6cddbbbae5bafc466 mm/memfd_luo: remove unnecessary memset in zero-size memfd path
-b7fed6c905c81261f26c0ca1dac7eb041f4be2f5 mm/memfd_luo: use i_size_write() to set inode size during retrieve
-436a44954e117f96f3b3aa07ea6cb600b4d07e5c mm/memfd_luo: fix physical address conversion in put_folios cleanup
-95609d4194bdaaa9846c016bf0d446ba964b869b mm/memfd_luo: remove folio from page cache when accounting fails
-48f68dc02876a746869a1c77f2559c2c478762cc mm/memfd_luo: fix integer overflow in memfd_luo_preserve_folios
-18510d2caa3bde3459f3600308eb73759c37859a mm: start background writeback based on per-wb threshold for strictlimit BDIs
-4c1390c3c46d9ab81af47dfa1212d015a4a8c4a5 liveupdate: prevent double management of files
-cd2e9aa310dfd7ceb91cb1e3da0b83fa0cb75a15 memfd: implement get_id for memfd_luo
-f46991f1780ef97efff3b668627b763581032067 selftests: liveupdate: add test for double preservation
 
---===============4735581372970666591==--
+--===============5548879965201226565==--
