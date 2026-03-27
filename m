@@ -1,45 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
-Date: Fri, 27 Mar 2026 09:54:42 -0000
-Message-Id: <177460528278.2048633.2152043359539956235@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============7832886544396657272=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Fri, 27 Mar 2026 09:55:20 -0000
+Message-Id: <177460532050.2063183.16259191100694766837@gitolite.kernel.org>
+
+--===============7832886544396657272==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tiwai/sound
-user: tiwai
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-linus
-    old: 50c8f83c41123cab79575e8d73040a37da4612c5
-    new: ed4da361bf943b9041fc63e5cb6af01b3c0de978
-    log: |
-         d3be95efc6a1e03230ef646b498050152efe2888 ALSA: hda/realtek - Fixed Speaker Mute LED for HP EliteBoard G1a platform
-         2f388b4e8fdd6b0f27cafd281658daacfd85807e ALSA: hda/realtek: Add mute LED quirk for HP Pavilion 15-eg0xxx
-         990a8b0732cf899d4a0f847b0a67efeb9a384c82 ALSA: usb-audio: Exclude Scarlett 2i4 1st Gen from SKIP_IFACE_SETUP
-         faceb5cf5d7a08f4a40335d22d833bb75f05d99e ALSA: hda/realtek: add HP Laptop 15-fd0xxx mute LED quirk
-         ee6c551a7d84fde084e10cc02fa8c7d03e6438f9 ALSA: usb-audio: Add iface reset and delay quirk for AB17X USB Audio
-         ed4da361bf943b9041fc63e5cb6af01b3c0de978 Revert "ALSA: hda/intel: Add MSI X870E Tomahawk to denylist"
-         
-  - ref: refs/heads/for-next
-    old: df3eec203b940bad98a7c0b7ec0edaaaa8cd0247
-    new: 3ebaf5b77ac6ae6ecca780b333ce0ec9820bc740
-    log: |
-         3ebaf5b77ac6ae6ecca780b333ce0ec9820bc740 selftests: ALSA: Skip utimer test when CONFIG_SND_UTIMER is not enabled
-         
   - ref: refs/heads/master
-    old: 4d3b95e31d6d96b021d1a4b679b28089efd1dd55
-    new: 190c2b8bba547b63c04b81a4180c98fb572b32ed
+    old: 290697ab0afe8505dd03a392dfc79f60aa431f97
+    new: dc834a20fd21ded563e2005e7848d93f98866e36
     log: |
-         d3be95efc6a1e03230ef646b498050152efe2888 ALSA: hda/realtek - Fixed Speaker Mute LED for HP EliteBoard G1a platform
-         3ebaf5b77ac6ae6ecca780b333ce0ec9820bc740 selftests: ALSA: Skip utimer test when CONFIG_SND_UTIMER is not enabled
-         66031b272d0c0c0845ba7b556dc23b5c7a1836bd ALSA: docs: fix dead link to Intel HD-audio spec
-         2f388b4e8fdd6b0f27cafd281658daacfd85807e ALSA: hda/realtek: Add mute LED quirk for HP Pavilion 15-eg0xxx
-         990a8b0732cf899d4a0f847b0a67efeb9a384c82 ALSA: usb-audio: Exclude Scarlett 2i4 1st Gen from SKIP_IFACE_SETUP
-         faceb5cf5d7a08f4a40335d22d833bb75f05d99e ALSA: hda/realtek: add HP Laptop 15-fd0xxx mute LED quirk
-         ee6c551a7d84fde084e10cc02fa8c7d03e6438f9 ALSA: usb-audio: Add iface reset and delay quirk for AB17X USB Audio
-         ed4da361bf943b9041fc63e5cb6af01b3c0de978 Revert "ALSA: hda/intel: Add MSI X870E Tomahawk to denylist"
-         8066c4e56930ff749704fc33eafdee26bac46577 Merge branch 'for-linus'
-         190c2b8bba547b63c04b81a4180c98fb572b32ed Merge branch 'for-next'
+         dc834a20fd21ded563e2005e7848d93f98866e36 move 6.12 queue back into place
          
+
+--===============7832886544396657272==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1774605299 +0100
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1774605318-78a1fbb9ead6b6a8df7ab0b491be1820bfdc7265
+
+290697ab0afe8505dd03a392dfc79f60aa431f97 dc834a20fd21ded563e2005e7848d93f98866e36 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmnGU/MbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+WAMQANBqrUwOo+rf8vlOrbEl
+IkmF0krEnpjpGNdd1ujBKaBvNPyXNJtROu3xaZjPjoT4MHG5gY8woVcDaUs/Dlnm
+o+BNc8b5L2ZajyD13dueX/H25zYpHUZdRaopuCzApL1nGjC1+Q9k2vthV47q39NA
+XSfOquuLBMzoojRp7kjX7gwPJbC7cO0Uo8yUtNMlfJq29sgfHsqeHDitPhsH9adU
+gIcljzujFnACBpQOg1Sd+k4ApufAxkWeoU/2CAinXvxi7zzCwxqe020YDVHw3zkH
+nAtwFIYfNaaIgIuR/Dp7CA7V2MEUninDzJIlcEJoR7svCc91TIaNtBtT4VKTn0YP
+OEnDM1pynqU6aSjR1vr5g6/pWaRqKKUShwP/OIiKIJqKZguIo9X+3FI9o7E7YO4U
+MBzjY2Z+LzSSoRaJ+aqmNeEKtksQbB+P1pxZhxXiW/ISPAQinJOj/4yml5exNhrS
+nTinvIeUyD7SWdRthjxaSh3PjAEmy9PS3IRQexbMSzFBfSCsJ+rkBM7djdSZXj3r
+dm5FdtwLbYLSmKxF5GanauAGafc1mU0wDb8P9M2YWNdJxyURhskFkZQ1G5ZSkKr/
+QwkB2Cn9Qu1oqObH5ck8UPaZlsBSuk5QcgyEI/wLw7w2T74vuXcd0IqkXc9GmQPU
+yEeM3Ine8muN6hrmjaPibeAk
+=ilPo
+-----END PGP SIGNATURE-----
+
+--===============7832886544396657272==--
