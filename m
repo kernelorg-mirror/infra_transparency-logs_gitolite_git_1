@@ -1,16 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/andi.shyti/linux
-Date: Fri, 27 Mar 2026 12:51:13 -0000
-Message-Id: <177461587315.2309011.8325960367383498040@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/djakov/icc
+Date: Fri, 27 Mar 2026 12:52:37 -0000
+Message-Id: <177461595735.2309712.8051729878371353282@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/andi.shyti/linux
-user: andi.shyti
+repo: pub/scm/linux/kernel/git/djakov/icc
+user: djakov
 changes:
-  - ref: refs/tags/i2c-host-fixes-7.0-rc6
-    old: e8e4bcdc1824d30d523fa33578d4aa90457158eb
-    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/icc-next
+    old: 427683b233c9663cdf365ad4a9a7d875a6490c59
+    new: 7a73b226c990d222773227709ba95af29a51b2a8
+    log: |
+         be0df73d5fa059d4e39b7903f71291576b3e4a05 Merge branch 'icc-msm8974' into icc-next
+         7a73b226c990d222773227709ba95af29a51b2a8 Merge branch 'icc-fixes' into icc-next
+         
