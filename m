@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1514635459485219685=="
+Content-Type: multipart/mixed; boundary="===============1592339042289501563=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mptcp/linux
-Date: Fri, 27 Mar 2026 12:18:14 -0000
-Message-Id: <177461389448.2280197.10757280851837414557@gitolite.kernel.org>
+Date: Fri, 27 Mar 2026 12:18:34 -0000
+Message-Id: <177461391437.2280633.16767754640581770569@gitolite.kernel.org>
 
---===============1514635459485219685==
+--===============1592339042289501563==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/mptcp/linux
 user: matttbe
 changes:
-  - ref: refs/heads/export
-    old: 2071e4f936c22f8081a8917af232b2bb95755257
-    new: 97d9dbc51fa2ef7fbc345bda4bec022818df2565
-    log: revlist-2071e4f936c2-97d9dbc51fa2.txt
+  - ref: refs/heads/export-net
+    old: edd39c49969296018502ebceb2afb9c149c1b6b4
+    new: d5bde5c096045ca7e11f7c6a0437a1aa64a0225e
+    log: revlist-edd39c499692-d5bde5c09604.txt
 
---===============1514635459485219685==
+--===============1592339042289501563==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2071e4f936c2-97d9dbc51fa2.txt
+Content-Disposition: attachment; filename=revlist-edd39c499692-d5bde5c09604.txt
 
 4ced4cf5c9d172d91f181df3accdf949d3761aab binfmt_elf_fdpic: fix AUXV size calculation for ELF_HWCAP3 and ELF_HWCAP4
 f69cfd8e8fd13b5d57e638fa1542fcd56f594ef0 x86/hyperv: print out reserved vectors in hexadecimal
@@ -46,21 +46,11 @@ f303406efd0b6b8740ce5c47e852097bbcf54879 KVM: s390: Fix a deadlock
 e825c79ef914bd55cf7c2476ddcfb2738eb689c3 pinctrl: renesas: rzt2h: Fix device node leak in rzt2h_gpio_register()
 ebe7561e9b9203611cea72a764bc321ff308f737 pinctrl: renesas: rzt2h: Fix invalid wait context
 93d0fcdddc9e7be9d4f42acbe57bc90dbb0fe75d cxl/acpi: Fix CXL_ACPI and CXL_PMEM Kconfig tristate mismatch
-1635ecc61a24597f893d057d004051a535c1c643 wifi: ath12k: account TX stats only when ACK/BA status is present
-aecb569d7fb689e3e5b0005ca7bd0a2ef28915e8 wifi: ath12k: Fix the assignment of logical link index
-616217a989e09c55398db8555e5ef0c64504cb66 wifi: ath12k: Fix legacy rate mapping for monitor mode capture
-8e0ab5b9adb7fec3149441621df1cf15325b7215 wifi: ath6kl: wmi: Avoid -Wflex-array-member-not-at-end warning
 0b352f83cabfefdaafa806d6471f0eca117dc7d5 xfrm: iptfs: fix skb_put() panic on non-linear skb during reassembly
 a76e30c2479ce6ffa2aa6c8a8462897afc82bc90 kbuild: Delete .builtin-dtbs.S when running make clean
 3b4a3a00de8770f3a60c1fa483921ce37415132d scripts: kconfig: merge_config.sh: fix unexpected operator warning
 263447532463cf4444a3595e835b99a4e90952fa pinctrl: qcom: spmi-gpio: implement .get_direction()
 fb22bb9701d48c4b0e81fe204c2f96a37a520568 pinctrl: renesas: rza1: Normalize return value of gpio_get()
-86581adf05f526f53b90ebcbbc2fd4d9f9fd4c96 wifi: ath6kl: drop redundant device reference
-0bc013d68a5d1943728d110d759c6587c2b81913 wifi: ath6kl: rename disconnect callback
-2ddbec82e1650d57ea0f63d284b5da01d2f21293 wifi: ath9k: drop redundant device reference
-c880c0794076f04b0058dd5cbc1f94c33d7bff44 wifi: ath10k: drop redundant device reference
-fcc3555fce3c35333891e904c3592375d5e63cf4 wifi: ath10k: rename disconnect callback
-27401c9b143278eb9fa7d46f97ab063d65e5afd5 wifi: ath12k: Use .mbn firmware for AHB devices
 a3125bc01884431d30d731461634c8295b6f0529 bpf: Reset register ID for BPF_END value tracking
 ea1989746b77c3f63bce43af247e1de29ed6bf4a selftests/bpf: Add test for BPF_END register ID reset
 ac72464b10d5975639dedaccf0c372ef670f6abc Merge branch 'bpf-reset-register-id-for-bpf_end-value-tracking'
@@ -132,8 +122,6 @@ eb2d16a7d599dc9d4df391b5e660df9949963786 af_key: validate families in pfkey_send
 81f86728a9804c7ff99df8f2cb7a7a081a270400 tools headers: Skip arm64 cputype.h check
 ba3402f6c85bbeee5c11732c3aa4050a717e8f8f spi: geni-qcom: Fix CPHA and CPOL mode change detection
 5e3486e64094c28a526543f1e8aa0d5964b7f02d mmc: sdhci: fix timing selection for 1-bit bus width
-e570593b568f74b8d8367d094400d71bc398118f wifi: ath12k: Clean up the WMI Unit Test command interface
-7bbb578fc43e7dcb8690cfc98844bd67bc311e8a wifi: ath12k: Remove unused DFS Unit Test definitions
 c7feff27ea0a34540b4820abd0cdf0b5100516d4 drm/vmwgfx: fix kernel-doc warnings in vmwgfx_drv.h
 c6cb77c474a32265e21c4871c7992468bf5e7638 drm/vmwgfx: Don't overwrite KMS surface dirty tracker
 b00be77302d7ec4ad0367bb236494fce7172b730 s390/mm: Add missing secure storage access fixups for donated memory
@@ -340,66 +328,6 @@ ec69c9e88315c4be70c283f18c2ff130da6320b5 i2c: tegra: Don't mark devices with pin
 0a8b2a0857ede906f7b74a435b11778336770bea tools headers UAPI: Sync x86's asm/kvm.h with the kernel sources
 493ad070cbcb0d62deed877d90e80e554cac7f01 tools headers: Synchronize linux/build_bug.h with the kernel sources
 c369299895a591d96745d6492d4888259b004a9e Linux 7.0-rc5
-20743b0b64d91927d1a9346341f3ecdc527c8776 wifi: mt76: mt7996: extend CSA and CCA support for MLO
-45a09251d610f3b8a1fb02039146e42f1f4efe90 wifi: mt76: mt7996: fix the behavior of radar detection
-7247037a016ed4bc8a50507d74d0bae98409ae3f wifi: mt76: mt7996: set specific BSSINFO and STAREC commands after channel switch
-fdce55c038702ac8f330de0697e907713a1e976b wifi: mt76: mt7996: abort CCA when CSA is starting
-956d2e65da93f59fb50bc149f2009565bec26f56 wifi: mt76: mt7996: offload radar threshold initialization
-7f3ec778593f24584dbcf25995f2b651133e956d wifi: mt76: mt7996: add duplicated WTBL command
-5ef0e8e2653b1ba325eb883ffb94073f19cb669a wifi: mt76: mt7996: fix iface combination for different chipsets
-bb8e38fcdbf7290d7f0cd572d2d8fdb2b641b492 wifi: mt76: mt7925: fix AMPDU state handling in mt7925_tx_check_aggr
-524ef4b42b40bf1cf634663e746ace0af3fce45c wifi: mt76: mt76x02: wake queues after reconfig
-7900da40e315cd1971405ef95e561b0176e0dac2 wifi: mt76: mt7925: introduce CSA support in non-MLO mode
-0cd776fdccec526ee1f45c81d00da8a316b6e892 wifi: mt76: mt7996: Fix spelling mistake "retriving" -> "retrieving"
-654abcbe4528f74428b69292fad5c4224414fa1b wifi: mt76: mt7996: Set mtxq->wcid just for primary link
-751a2679b15e3a0fa8fc9175862f0ec40643db68 wifi: mt76: mt7996: Reset mtxq->idx if primary link is removed in mt7996_vif_link_remove()
-5ef44c200618430b004233cbfc1b0929a13d5ac8 wifi: mt76: mt7996: Switch to the secondary link if the default one is removed
-88973240dc7c976dd320b36a9e6d925c9be083ae wifi: mt76: mt7996: Clear wcid pointer in mt7996_mac_sta_deinit_link()
-c0747db7c10c2dfbdcff0e8e97021e3df1f1e362 wifi: mt76: mt7996: Reset ampdu_state state in case of failure in mt7996_tx_check_aggr()
-53ffffeb9624ffab6d9a3b1da8635a23f1172b5e wifi: mt76: mt7921: Reset ampdu_state state in case of failure in mt76_connac2_tx_check_aggr()
-1695f662329faa07c860c73453c097823852df28 wifi: mt76: mt7925: Fix incorrect MLO mode in firmware control
-bb2f07819d063a58756186cac6465341956ac0a4 wifi: mt76: mt792x: Fix a potential deadlock in high-load situations
-dcfbd5d3b82d3b5e94df3761c4d25086cab08c38 wifi: mt7601u: check multiple firmware paths
-1974a67d9b65c29a0a9426e32e8cd8c056de48b7 wifi: mt76: mt7615: fix use_cts_prot support
-8b2c26562b95c6397e132d21f2bd3d73aaee0c0a wifi: mt76: mt7915: fix use_cts_prot support
-079db35fae4dd7d6daedfb144d50b517d0da10e2 wifi: mt76: mt7996: add support for ERP CTS & HT protection
-ccb186326bb6b7f20d77982f855568e7087ad0d7 wifi: mt76: mt7925: fix incorrect length field in txpower command
-34163942195410372fb138bea806c9b34e2f5257 wifi: mt76: fix list corruption in mt76_wcid_cleanup
-83ae3a18ba957257b4c406273d2da2caeea2b439 wifi: mt76: mt7925: prevent NULL pointer dereference in mt7925_tx_check_aggr()
-962eb04e67552be406c906c83099c1d736aae3b6 wifi: mt76: mt7925: prevent NULL vif dereference in mt7925_mac_write_txwi
-d8db56142e531f060c938fa0b5175ed6c8cabb11 wifi: mt76: mt7996: fix FCS error flag check in RX descriptor
-4d0bf21e3e20619d51d06c0c36207aabab8b712c wifi: mt76: mt7921: Place upper limit on station AID
-5373f8b19e568b5c217832b9bbef165bd2b2df14 wifi: mt76: mt7921: fix a potential clc buffer length underflow
-6b470f36616e3448d44b0ef4b1de2a3e3a31b5be wifi: mt76: Fix memory leak destroying device
-7aed20bd9fe427b192cce80a164429584b298bbe wifi: mt76: mt7996: Fix NPU stop procedure
-25e3203a2192f2b0d697b2410126bad87e62d4f0 wifi: mt76: npu: Add missing rx_token_size initialization
-f801fec3f0850ac00073bc322c0e4ea446d938ae wifi: mt76: always enable RRO queues for non-MT7992 chipset
-b849930f2ce77185b833d93ab4317a33ffc584c5 wifi: mt76: mt7996: Fix BAND2 tx queues initialization when NPU is enabled
-00fa11ec4ab236a0e959093dc804285533846213 wifi: mt76: mt7996: Fix wdma_idx for MT7996 device if NPU is enabled
-a9ac8f837f12ce180da90e70277c36ecd04b01e2 wifi: mt76: mt7996: Add mt7992_npu_txrx_offload_init routine
-c93e2fbdc79b91e5c221446f970ab847db38309e wifi: mt76: mt7996: Rename mt7996_npu_rxd_init() in mt7992_npu_rxd_init()
-880f4e3e5a4c465fba0390ed3c2afa1d7eece550 wifi: mt76: mt7996: Add NPU support for MT7990 chipset
-aa6a0ded87d7dababcb2e9b23e8137131557b8fa wifi: mt76: mt7996: Integrate NPU in RRO session management
-26c28522fa460435bd9a0dc4e05ae599f21ada6b wifi: mt76: mt7996: Integrate MT7990 init configuration for NPU
-cd7951f242a7e4114de8f41804d708f5b5079d53 wifi: mt76: mt7996: Integrate MT7990 dma configuration for NPU
-93e2491470d34d2d45b240123da0267d6de68c71 wifi: mt76: mt7996: Add __mt7996_npu_hw_init routine
-ae8ee98014bab9b6b1b782bb19cf47317ea0499a wifi: mt76: mt7996: Move RRO dma start in a dedicated routine
-966c44ba73097a81fb47e9c6cac71e816e9f5084 wifi: mt76: Do not reset idx for NPU tx queues during reset
-850856c4777c80348507da1543e58006ff0063d2 wifi: mt76: mt7996: Do not schedule RRO and TxFree queues during reset for NPU
-c2efd5fe154686e52fff7321c97b2d21c569c36e wifi: mt76: mt7996: Store DMA mapped buffer addresses in mt7996_npu_hw_init()
-53afca4329af885fe08703b93e71cb5589835f27 wifi: mt76: Enable NPU support for MT7996 devices
-59a1864509d084a4b34117e693951c06b846b00a wifi: mt76: mt7925: drop puncturing handling from BSS change path
-8c7e19612b01567f641d3ffe21e47fa21c331171 wifi: mt76: mt7925: Skip scan process during suspend.
-dd08ca3f092f4185ece69ce2a835c23198b1628a wifi: mt76: mt7925: fix potential deadlock in mt7925_roc_abort_sync
-c41075ce8cf05ed8c0e7b7efef000dce548ffc42 wifi: mt76: Fix memory leak after mt76_connac_mcu_alloc_sta_req()
-aae89dc4a1608da9060bada757f650ac94b7f184 wifi: mt76: mt7925: fix tx power setting failure after chip reset
-fdfa39f9f4fbae532b162da913a67b2410caf38f wifi: mt76: mt7921: fix ROC abort flow interruption in mt7921_roc_work
-d5059e52fd8bc624ec4255c9fa01a266513d126b wifi: mt76: mt7921: fix potential deadlock in mt7921_roc_abort_sync
-6939b97ddad3cf3dfbb3b5a0a12ef79cb886747e wifi: mt76: fix deadlock in remain-on-channel
-d2b860454ea2df8f336e9b859da7ffb27f43444d wifi: mt76: mt7996: reset device after MCU message timeout
-0176417d10ce964cd195e64eff9e079cc0a52b69 wifi: mt76: mt7996: increase txq memory limit to 32 MiB
-ee5bb35d2b83fadc6920aa2478326fb50ea653a9 wifi: mt76: mt7921: Replace deprecated PCI function
-37d5b68ab57c5b4fb1c40e62c6b32376c6a2ca2c wifi: mt76: fix backoff fields and max_power calculation
 93702ed64fd0c433289b3846c2cefced4a88a043 MAINTAINERS: change email address of Denis Benato
 e0836f48e19147a85ae652335e517b0385a32fd3 platform/x86: asus-armoury: add support for GA503QM
 d2723918d51b238b42efcaac553697aa84f15232 platform/x86: asus-armoury: add support for G614FP
@@ -425,13 +353,6 @@ fecacfc95f195b99c71c579a472120d0b4ed65fa iavf: fix out-of-bounds writes in iavf_
 1eb0db7e39da3d20ff6dfb8d359655329ea6f839 idpf: clear stale cdev_info ptr
 b5e5797e3cd1fd1561b212b2b94f8865d07f2890 idpf: only assign num refillqs if allocation was successful
 a0124352d5329e245bde2e686914b404cb40bd91 Merge tag 'xsa482-7.0-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/xen/tip
-31b2d4e00260ae3fca50779ac416dd9acaacbfb9 amd-xgbe: add adaptive link status polling
-0898849ad9715d163555b8f8bfd13b7691a2b3b8 amd-xgbe: optimize TX shutdown on link-down
-b7fb3677840d26b3fa4c5d0d63b578a2f44077d1 amd-xgbe: add TX descriptor cleanup for link-down
-9d9f21d314933edaf8180839375a47724cc322fc Merge branch 'amd-xgbe-tx-resilience-improvements-for-link-down-handling'
-6e4235adfa8814afc361d26cd630b9af8c4f01a8 octeontx2-af: simplify rvu_debugfs
-de69301dc2f6d4172c69c3d1c7ceaad7af89b0dc net-sysfs: switch xps_queue_show() to sysfs_emit()
-a41a5733e71ac103ca8a045539f7b56050dae75a Merge branch 'net-cleanup-bitmaps-printing'
 38ec410b99a5ee6566f75650ce3d4fd632940fd0 virtio-net: correct hdr_len handling for VIRTIO_NET_F_GUEST_HDRLEN
 6c860dc02a8e60b438e26940227dfa641fcdb66a virtio-net: correct hdr_len handling for tunnel gso
 673bb63d20064f0d42d61a4ca481a8cc10ebf552 Merge branch 'virtio-net-fix-for-virtio_net_f_guest_hdrlen'
@@ -439,23 +360,13 @@ a41a5733e71ac103ca8a045539f7b56050dae75a Merge branch 'net-cleanup-bitmaps-print
 56063823b9f0e2acdca4d621face5c6a7a1f4c99 selftests: team: add non-Ethernet header_ops reproducer
 25f5463c91fdd06577298d552d3fe262aa291f11 Merge branch 'team-fix-header_ops-type-confusion-and-add-selftest'
 fbddf68d7b4e1e6da7a78dd7fbd8ec376536584a platform/x86: ISST: Correct locked bit width
-fcbf106189aaf69a2a2f6116672d442d473ecbcd net: stmmac: move stmmac_xmit() skb head handling
-cafacdc48a74e16b2ad727b3f31a06c08d96e0b1 net: stmmac: move first xmit descriptor SARC and TBS config
-7b8683115034360a2f7f7e5b0dac958249fa810a net: stmmac: move stmmac_xmit() first entry index code
-2e3bfeb1bc0c0a7cd51212ecc6533aca73cf8e2d net: stmmac: move stmmac_xmit() initial variable init
-557ccd54ba141650cfd6962296c062089f3c6cd3 net: stmmac: use first_desc for TBS
-cd1f306e28157bd0900cae52207839d210e61f61 net: stmmac: elminate tbs_desc in stmmac_xmit()
-b50a48b65cb0c955728894b24ba5ecc3cd4b8c7d Merge branch 'net-stmmac-cleanup-stmmac_xmit'
 eb8c426c9803beb171f89d15fea17505eb517714 net: ti: icssg-prueth: fix use-after-free of CPPI descriptor in RX path
 d9c2a509c96378d77435e5845561c4afd3eaedad Merge tag 'linux-can-fixes-for-7.0-20260323' of git://git.kernel.org/pub/scm/linux/kernel/git/mkl/linux-can
 c4336a07eb6b2526dc2b62928b5104b41a7f81f5 net: correctly handle tunneled traffic on IPV6_CSUM GSO fallback
 ec66ec6a5a8f53e7c70085749e8d68f4431c630f wifi: iwlwifi: mld: Fix MLO scan timing
 323156c3541e23da7e582008a7ac30cd51b60acd wifi: iwlwifi: mvm: don't send a 6E related command when not supported
 687a95d204e72e52f2e6bc7a994cc82f76b2678f wifi: iwlwifi: mld: correctly set wifi generation data
-88c07dff9f6dd0b89b3e5364b202978eab2541c2 hv_sock: update outdated comment for renamed vsock_stream_recvmsg()
-a4b908c89d88d4b7251c566457979c4167b9664c net: phy: update outdated comment for removed phy_package_read/write()
 647b8a2fe474474704110db6bd07f7a139e621eb net: macb: Use dev_consume_skb_any() to free TX SKBs
-b1c803d5c8167026791abfaed96fd3e6a1fcd750 net: airoha: Rework the code flow in airoha_remove() and in airoha_probe() error path
 e225b36f83d7926c1f2035923bb0359d851fdb73 wifi: ath11k: Pass the correct value of each TID during a stop AMPDU session
 4242625f272974dd1947f73b10d884eab3b277cd wifi: ath12k: Pass the correct value of each TID during a stop AMPDU session
 51a209ee33428ed688b1c00e0521a5b5b8ff483f Merge tag 'ipsec-2026-03-23' of git://git.kernel.org/pub/scm/linux/kernel/git/klassert/ipsec
@@ -464,173 +375,22 @@ d049e56b1739101d1c4d81deedb269c52a8dbba0 wifi: wilc1000: fix u8 overflow in SSID
 249ddd5fe21fb1a29430a1ef0dff818689235f6a Merge tag 'iwlwifi-fixes-2026-03-24' of https://git.kernel.org/pub/scm/linux/kernel/git/iwlwifi/iwlwifi-next
 6525a549ecba71e3c48a68a5250da830cf9db2cc Merge tag 'ath-current-20260324' of git://git.kernel.org/pub/scm/linux/kernel/git/ath/ath
 744fabc338e87b95c4d1ff7c95bc8c0f834c6d99 wifi: iwlwifi: mvm: fix potential out-of-bounds read in iwl_mvm_nd_match_info_handler()
-5592d60ef2d83feea4fb1cb8166f94c0acd0cc60 Merge tag 'ath-next-20260324' of git://git.kernel.org/pub/scm/linux/kernel/git/ath/ath
-3f21614c20053e083f07de58202032a73b04a1b7 wifi: mac80211: Replace strncpy() with strscpy_pad() in drv_switch_vif_chanctx tracepoint
-6c65b234575610e9795dabe410509a8b61cd4b68 wifi: cfg80211: Add support for additional 7 GHz channels
-3f451a2cf56c407131c6bd34546348696f4f685e wifi: mac80211: use for_each_chanctx_user_* in one more place
-4ca2253157925424b3ada17c96fa4a26e664bc0d wifi: mac80211_hwsim: advertise basic UHR support
-c209f67233f1c6d895cb893f622e17a505d00397 wifi: mac80211: make ieee80211_find_chanctx link-unaware
-763677c52145efc4760c721078d5c0dadb60eb03 wifi: cfg80211: support UNII-9 channels in ieee80211_channel_to_freq_khz
-876565d4a826f3f04ef36f1cef6123ed4b150aa3 wifi: mac80211: properly handle error in ieee80211_add_virtual_monitor
-b5b5ffa94a3b0419193c1a7c35dad6a972a638a9 wifi: mac80211: don't consider the sband when processing capabilities
-300aaca3435cca255517b366bebc9d642da1b8cb wifi: b43: kzalloc + kcalloc to kzalloc_flex
-f456e1f56c4cdda1f908f1b97b57f6d45f578f2c wifi: mt76: add external EEPROM support for mt799x chipsets
-676d5d009bc68596a88104137a0bf785b8c2562a wifi: mt76: mt7996: add variant for MT7992 chipsets
-fa1063fc649c08b37f9a21d8bc38344ce8a128f5 wifi: mt76: mt7996: apply calibration-free data from OTP
-5c81a4f182d9b48f32e2548f4a39dd76eafb5404 wifi: mt76: connac: use is_connac2() to replace is_mt7921() checks
-918af1f87f7de988a7e84a7a85390a7d626ee189 wifi: mt76: mt7921: use mt76_for_each_q_rx() in reset path
-222606f43b587c9fb4ae063d04db146100c8951c wifi: mt76: mt7921: handle MT7902 irq_map quirk with mutable copy
-d3bb1ca22896a28860009cb83dd8af09748bccac wifi: mt76: mt7921: add MT7902e DMA layout support
-0a7d2fca06afb036ff2d61540fc68e6e48eb9fbe wifi: mt76: connac: mark MT7902 as hw txp devices
-14a7ba034fcd9d1766503ef44cc491c6fda8db2c wifi: mt76: mt792x: add PSE handling barrier for the large MCU cmd
-9eef868b86db32d40e4a45f407af8aa1e4e4e830 wifi: mt76: mt792x: ensure MCU ready before ROM patch download
-6d32fb25768946cf2bc8eef9ba77acf9406867ef wifi: mt76: mt7921: add MT7902 MCU support
-199443b4015238f46c8a578b84c3834a48246355 wifi: mt76: mt792x: add MT7902 WFDMA prefetch configuration
-c26319afb5fb403a0bb2a604cee95a5bab8bbf18 wifi: mt76: mt7921: add MT7902 PCIe device support
-02b7a65719a00b5edea5b60b00ff85440a3f5d38 wifi: mt76: mt7921: add MT7902 SDIO device support
-97b9f9831bf297f3ffa62018721601ed2736f2c3 wifi: mt76: mt7996: fix wrong DMAD length when using MAC TXP
-efbd5bf395f4e6b45a87f3835d4c2e28170c77c5 wifi: mt76: mt7996: fix struct mt7996_mcu_uni_event
-169c83d3df95b57e787174454332e01eb1b823ed wifi: mt76: avoid to set ACK for MCU command if wait_resp is not set
-1f9017d19db38ad2cb9bedb5b078f6f4f60afa94 wifi: mt76: mt7996: fix queue pause after scan due to wrong channel switch reason
-964f870e090e9c88a41e2890333421204cc0bdf4 wifi: mt76: don't return TXQ when exceeding max non-AQL packets
-1146d0946b5358fad24812bd39d68f31cd40cc34 wifi: mt76: mt7915: fix use-after-free bugs in mt7915_mac_dump_work()
-c8f62f73bbced3a79894655bdb0b625462d956fc wifi: mt76: mt7996: fix use-after-free bugs in mt7996_mac_dump_work()
-c9ce833d7891804f618c3c8349d9c96e4fe62774 wifi: mt76: mt7996: Add eMLSR support
-947d63d8cd3b03c7be16875ca90273edbdbe7ce5 wifi: mt76: mt7996: Disable Rx hdr_trans in monitor mode
-3dc0c40d7806c72cfe88cf4e1e2650c1673f9db4 wifi: mt76: mt7921: fix 6GHz regulatory update on connection
-f0168f2f9a1eca55d3ae09d8250b94e82b67cac3 wifi: mt76: add missing lock protection in mt76_sta_state for sta_event callback
-62e037aa8cf5a69b7ea63336705a35c897b9db2b wifi: mt76: mt7925: fix incorrect TLV length in CLC command
-c0a47ffc4caaf5161955add553322112c3a211b0 wifi: mt76: mt7996: Add missing CHANCTX_STA_CSA property
-569ce4340268915911fc356ec9ad27e92fb82289 wifi: mt76: mt7996: Remove link pointer dependency in mt7996_mac_sta_remove_links()
-5806c91a3f0d21d233f8c386c892e1ffaf64d7b2 wifi: mt76: mt7996: Remove unnecessary phy filed in mt7996_vif_link struct
-e648051d52afbdb360bd586218961f5fffff63e8 wifi: mt76: mt7996: Decrement sta counter removing the link in mt7996_mac_reset_sta_iter()
-0420180df092419a96351fb2afec1e2a74d385c3 wifi: mt76: fix multi-radio on-channel scanning
-360552c8592dab3c69e0bbff786b55137f1a81bb wifi: mt76: support upgrading passive scans to active
-ec0a9b01ef88b5f5bdf74140f8c987f7a96693af wifi: mt76: add offchannel check to mt76_roc_complete
-f0fb9afb74ec5bec49585772502db62613321fc6 wifi: mt76: check chanctx before restoring channel after ROC
-de62b24224ac1533c17b3d5bae77164a82ae2e49 wifi: mt76: abort ROC on chanctx changes
-f72dd74dd0b69e3a87b4702f3c860e9a7318d5dd wifi: mt76: optimize ROC for same-channel case
-381733b3a14aaef36b421571c1e99856304311f1 wifi: mt76: send nullfunc PS frames on offchannel transitions
-0dcef1cbae27d806cd29c296cc03ad6e8ece771d wifi: mt76: flush pending TX before channel switch
-331e766e75d2a64b5c1f38aadfcfcf31d264f43e wifi: mt76: route nullfunc frames to PSD/ALTX queue
-e765bd6708cdeeab01121247165cae04a254868e wifi: mt76: wait for firmware TX completion of mgmt frames before channel switch
-4df75606ece504a0cef3552ae88217a4af1b7dba wifi: mt76: add per-link beacon monitoring for MLO
-e6f48512c1ceebcd1ce6bb83df3b3d56a261507d wifi: mt76: mt792x: describe USB WFSYS reset with a descriptor
-56154fef47d104effa9f29ed3db4f805cbc0d640 wifi: mt76: mt792x: fix mt7925u USB WFSYS reset handling
-73b46379e5231138025b271ce8e158d2a8aa0768 wifi: mt76: mt7996: fix RRO EMU configuration
-cf909557c1ba1215328db41f883ca5af5849f2fd wifi: mt76: mt7996: support critical packet mode for MT7990 chipsets
-22f9abaf3656cf08d36196bab950668e7fc64381 wifi: mt76: mt7996: update WFSYS reset flow for MT7990 chipsets
-9eeea2984c309f4c21c697e163abbef00c4d2b5e wifi: mt76: mt7996: adjust timeout value for boot-up calibration commands
-fc4533b5db80792fccc2bf4a14322e7af1e55980 wifi: mt76: mt7996: fix issues with manually triggered radar detection
-a1353d994c167c818ef4165653a5ccec091ba534 wifi: mt76: mt7925: pass mlink to sta_amsdu_tlv()
-ea757740dd87c0b00c4844dd3282dff4d83fa3c7 wifi: mt76: mt7925: pass WCID indices to bss_basic_tlv()
-ff643b81bc38eaff6c0ab783a62e4ba9e10d2476 wifi: mt76: mt7925: pass mlink and mconf to sta_mld_tlv()
-dc019e3294c7e3c6e997bb11732d46ce0d9211e9 wifi: mt76: mt7925: pass mlink to mcu_sta_update()
-ecc57c9899e60456015fb355bfcf7650af7d13c1 wifi: mt76: mt7925: resolve primary mlink via def_wcid
-9e4d518a4707175e1154876b760d4f2b39967e9d wifi: mt76: mt7925: pass mlink to mac_link_sta_remove()
-8951131c18979b9d40d0f8a164be0432e8d1083b wifi: mt76: mt7925: pass mlink to sta_hdr_trans_tlv()
-292651cafac012ebad3d9d68b38f69117da4685d wifi: mt76: mt7925: validate mlink in sta_hdr_trans_tlv()
-46a2264681500f3fff9ebf7ad64f5704d2b568bb wifi: mt76: mt7925: pass mlink to wtbl_update_hdr_trans()
-cf9db836b1e069a3d6a80c72b9bdc12df78b0dd1 wifi: mt76: mt7925: pass mlink to set_link_key()
-beec58f36983f826fe90287a90edff46b32e8a89 wifi: mt76: mt7925: resolve link after acquiring mt76 mutex
-9763ead5b9f8fd69033fbe77046a2c5bdd749cf5 wifi: mt76: mt7925: pass mconf and mlink to wtbl_update_hdr_trans()
-da14a9349746bae246621f4fbab9e2720b800f6c wifi: mt76: mt7925: make WCID cleanup unconditional in sta_remove_links()
-75e2d6bfd9ac69c79adfe6fa2854558158b260de wifi: mt76: mt7925: unwind WCID setup on link STA add failure
-0fff5b5e2786a4fed7c67087bbaa44ff4a2e200d wifi: mt76: mt7925: drop WCID reinit after publish
-52f088a2e6bfae6d30eea274738e82898c246bd6 wifi: mt76: mt7925: move WCID teardown into link_sta_remove()
-6ace866cf6d2c5db3bcc8a0d55dcb2d705f2e7f8 wifi: mt76: mt7925: switch link STA allocation to RCU lifetime
-db134691924fb19535ad6f27e09354c8ad001964 wifi: mt76: mt7925: publish msta->link after successful link add
-9fc83205a62eeeb775739ba6d8efcfdda9b7780a wifi: mt76: mt7925: host-only unwind published links on add failure
-59a295335021f6973a34566554b2b9371f1c6f7d wifi: mt76: mt7996: fix frequency separation for station STR mode
-76ceccd60bdd1e496e0e70700f3e045d7bc339bf wifi: mt76: mt7996: Rely on msta_link link_id in mt7996_vif_link_remove()
-108cb0c43fdc93bad105dcd00c30d9729520c71f wifi: mt76: mt7996: Account active links in valid_links fields
-c8d22f28ea583bda31b7db8243e4e1eb042ac38a wifi: mt76: mt7996: Move mlink deallocation in mt7996_vif_link_remove()
-08813703ac412360e060cc9abd4a60e3c6668781 wifi: mt76: mt7996: Destroy vif active links in mt7996_remove_interface()
-e7ec71d9f8fafe9b431c6b4673465390273d744d wifi: mt76: mt7996: Add mcu APIs to enable/disable vif links.
-e8c819df02436f2c2379766946735e1f06a7c923 wifi: mt76: mt7996: Destroy active sta links in mt7996_mac_sta_remove()
 97a48d1aab549acb9b7f4a80d484f59710643199 Merge tag 'media/v7.0-5' of git://git.kernel.org/pub/scm/linux/kernel/git/mchehab/linux-media
 26a01984ddc1e67025fd150e845ab61d5271d6b7 Merge tag 'perf-tools-fixes-for-v7.0-2-2026-03-23' of git://git.kernel.org/pub/scm/linux/kernel/git/perf/perf-tools
 938c418422c4b08523ae39aebbd828428dcfefd2 erofs: update the Kconfig description
 e3c33bc767b5512dbfec643a02abf58ce608f3b2 Merge tag 'mm-hotfixes-stable-2026-03-23-17-56' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
-7109310c5031075ecb9b5da75b1443557c232dcd Merge tag 'mt76-next-2026-03-23' of https://github.com/nbd168/wireless
 12fd96587160fe6714dd19dfdd7b6b6184eacea4 Merge tag 'kvm-s390-master-7.0-1' of git://git.kernel.org/pub/scm/linux/kernel/git/kvms390/linux into HEAD
 52dad81e4b3b2087e38fe522da7465e6d0160ddd Merge tag 'kvmarm-fixes-7.0-4' of git://git.kernel.org/pub/scm/linux/kernel/git/kvmarm/kvmarm into HEAD
 45f667ebb06a141a5fbb1cae1b44a81102a23bc8 Merge tag 'cxl-fixes-7.0-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/cxl/cxl
 24f9515de8778410e4b84c85b196c9850d2c1e18 Merge tag 'for-linus' of git://git.kernel.org/pub/scm/virt/kvm/kvm
 bbeb83d3182abe0d245318e274e8531e5dd7a948 Merge tag 'kbuild-fixes-7.0-3' of git://git.kernel.org/pub/scm/linux/kernel/git/kbuild/linux
 2f0407ed923b7eb363424033fc12fe253da139c4 erofs: fix .fadvise() for page cache sharing
-10171b938330f6e625e7dc8dd24a15cc96218172 net: ethtool: pass genl_info to the ethnl parse_request operation
 ba8bda9a0896746053aa97ac6c3e08168729172c virtio_net: Fix UAF on dst_ops when IFF_XMIT_DST_RELEASE is cleared and napi_tx is false
-a319d0c8c8cede3b63538c9f111f84651d078bf6 net: dsa: mxl862xx: add CRC for MDIO communication
-7c20f6c1cfb15ad6adc9a312973a48113cbf49f0 net: dsa: mxl862xx: use RST_DATA to skip writing zero words
-864ee4eed2d8f9f713e5c2ec5c4ec960d04f7b41 Merge branch 'net-dsa-mxl862xx-mdio-bus-integrity-and-optimization'
 71399707876b93240f236f48b8062f3423a5fe97 net: lan743x: fix duplex configuration in mac_link_up
 09474055f2619be9445ba4245e4013741ed01a5e rtnetlink: fix leak of SRCU struct in rtnl_link_register
 815980fe6dbb01ad4007e8b260a45617f598b76d net_sched: codel: fix stale state for empty flows in fq_codel
-112f4c6320070b19e7d49cba758400adc279e377 selftests: drv-net: add missing tc config options for netkit tests
-d1e59a46973719e458bec78d00dd767d7a7ba71f tcp: add cwnd_event_tx_start to tcp_congestion_ops
 c4ea7d8907cf72b259bf70bd8c2e791e1c4ff70f net: mana: fix use-after-free in add_adev() error path
 2cdaff22ed26f1e619aa2b43f27bb84f2c6ef8f8 dma-mapping: add missing `inline` for `dma_free_attrs`
-5dac9abd3f187f0ed9bd3cc4f9c06a0729c8607b wifi: iwlwifi: replace use of system_unbound_wq with system_dfl_wq
-900c899bd8dd06e4fd5343521dfca565b93adfed wifi: iwlwifi: fw: replace use of system_unbound_wq with system_dfl_wq
-bb0c0aa30ff8c6f558433ab62a012bd620cec889 wifi: iwlwifi: mvm: replace use of system_wq with system_percpu_wq
-078df640ef057d57d22c064f5d980aead29ba23d wifi: iwlwifi: mld: add support for iwl_mcc_allowed_ap_type_cmd v2
-07c82a4e5beed28a9d2f69bc687a4668ca2754c4 wifi: iwlwifi: ensure we don't read SAR values past the limit
-5971e08b1324a9a9f3d530ce6dda4982401a6120 wifi: iwlwifi: uefi: decouple UEFI and firmware APIs
-64b992ebf1e8be3dc89611357522d09fcaba5387 wifi: iwlwifi: acpi: better use ARRAY_SIZE than a define
-97cbd93e364fcb9bef0db13055a4d2fd103df9d4 wifi: iwlwifi: mvm: cleanup some more MLO code
-5ebf0b1d7bd31996cc3f63e3751c05bef7eaeaae wifi: iwlwifi: mld: remove unused scan expire time constants
-b6045c899e371dda801ae33727c9da112f422645 wifi: iwlwifi: mld: Refactor scan command handling
-6af32104003e86959044e61821e579b6cf160a48 wifi: iwlwifi: mld: Introduce scan command version 18
-f983c7308e271b1b5c70147ab743b587c8362b44 wifi: iwlwifi: uefi: open code the PPAG table store operation
-1a7d1830be843af332081833223f4be536c00e3b wifi: iwlwifi: bring iwl_fill_ppag_table to the iwlmvm
-99d602b2d7906dac4322ad3e50615931a3180d9a wifi: iwlwifi: mld: add support for sta command version 3
-442c707c3c6663e7b3185716a3464dc99e72b727 wifi: iwlwifi: regulatory: support a new command for PPAG
-feb27e5abb72fe8fc0a4e6e672374f4f1cd46ecc wifi: iwlwifi: acpi: check the size of the ACPI PPAG tables
-f90c8ea27cbe0522e8cd979a32ab8488298e98e6 wifi: iwlwifi: acpi: add support for PPAG rev5
-1fd4e6478ccde5c89f47191170b6e655808e450d wifi: iwlwifi: uefi: add support for PPAG table rev5
-f473f609164ee9907497ac55934689110c248e23 wifi: iwlwifi: restrict TOP reset to some devices
-5562b3bbeede8be25092064720e4a942e9fd3e3e wifi: iwlwifi: mvm: zero iwl_geo_tx_power_profiles_cmd before sending
-b00294e66e1faafa16d635580ee1b7c382519758 wifi: iwlwifi: uefi: support the new WRDS and EWRD tables
-60db0a1a70fa44ac85dcb90fc986235f9d4c9fb0 wifi: iwlwifi: acpi: add support for WRDS rev 3 table
-6481a02f94e28dbb88a395db581984457da22683 wifi: iwlwifi: acpi: add support for EWRD rev 3 table
-c239a0d8d75e83e28e5866f15234fff34f4103c5 wifi: iwlwifi: mld: support version 11 of REDUCE_TX_POWER_CMD
-de985774e2175483bfffb5598bea4e39c12a181a wifi: iwlwifi: uefi: open code the parsing of the WGDS table
-c30e4e03721dc75adfff6b4c2ad671dab71f319c wifi: iwlwifi: uefi: add support for WGDS rev4
-f951689793e6c5e908be143fcc506aafa5bf3c36 wifi: iwlwifi: acpi: validate the WGDS table
-c5cc3d37177835650d0c58609527a7550dfa0a66 wifi: iwlwifi: acpi: add support for WGDS revision 4
-f863093a914c4b371f5c82a173d5b804318c91ef wifi: iwlwifi: support PER_CHAIN_LIMIT_OFFSET_CMD v6
-769b5b1ed59084b653f423904b7a486b1c86672a wifi: iwlwifi: uefi: mode the comments valid kerneldoc comments
-f199ee6078a9677c872e09bd40c4cea8db6fbc28 wifi: iwlwifi: remove IWL_MAX_WD_TIMEOUT
-a8023eb7038cffb3f7f481ee6c26f7f854b33795 wifi: iwlwifi: mld: remove SCAN_TIMEOUT_MSEC
-364273359ef354d315157f78fef1b72f75d08468 wifi: iwlwifi: mld: enable UHR in TLC
-d60cbe9ef68c0fb2a46a5f89e8f77f419f62a1d6 wifi: iwlwifi: mld: set UHR MCS in RX status
-7fa6fcfca7ac3e09ae279f63111f59e990126a52 wifi: iwlwifi: mld: support changing iftype at runtime
-c74abe31142db03f942f12b28033f2b8b14e3acb wifi: iwlwifi: bump core version for BZ/SC/DR
-3fd645e6a153e2ce45928ec32442ab4719c3afa6 wifi: iwlwifi: fw: Add TLV support for BIOS revision of command
-5e35b749fe25ee963b5766d2c217e6f3b0e41b18 wifi: iwlwifi: mld: eliminate duplicate WIDE_ID in PPAG command handling
-454e9141ae96691ad380f7f3f7d11fe652a03cb5 wifi: iwlwifi: add CQM event support for per-link RSSI changes
-6e6d8f344dbb00f232e73dbd0813cfabdd35b15f wifi: iwlwifi: validate the channels received in iwl_mcc_update_resp_v*
-4aece67f1cb049b5f42e18d76979a558a5705890 wifi: iwlwifi: mld: add BIOS revision compatibility check for PPAG command
-1793f23177b6e0543618051f00a402f0dbf5f88c wifi: iwlwifi: use IWL_FW_CHECK for sync timeout
-4a481720106d6bad1521d0e0322fd74fa2f6c464 wifi: iwlwifi: pcie: don't dump on reset handshake in dump
-d86aeb5f6fbcdb4b678380fa4b02c663e394488e wifi: iwlwifi: mld: make iwl_mld_mac80211_iftype_to_fw() static
-f1011219309730a26e13e9b190168fceef6b8679 wifi: iwlwifi: mld: remove type argument from iwl_mld_add_sta()
-bac6907b2dadae522dfbe25faa365f1b081adf6a wifi: iwlwifi: mld: rename iwl_mld_phy_from_mac80211() argument
-282fb8c6b1d1a8aa260c467eb067f0c94c80486f wifi: iwlwifi: mld: make alloc functions not forced static
-350d91a2ae5ae88a5eae257c8f0d2c33e077f9fc wifi: iwlwifi: mld: add double-include guards to nan.h
-19a86a3ff3cc400767cd0d23932c763d6e0da53e wifi: iwlwifi: handle NULL/ERR returns from ptp_clock_register()
-62e4d33c7d6945867062f45d09b99dda0dd04108 wifi: iwlwifi: add MAC context command version 4
-ab97a6c94c8919373a7a8109a5a27475bd1102bd wifi: iwlwifi: mld: use the dedicated helper to extract a link
-4f1da5cf31cf6345f145e914a0158c2e114bbe27 wifi: iwlwifi: mld: always assign a fw id to a vif
-f2463eff4ad919d1b761eb0db4d4913423dee28d wifi: iwlwifi: add a macro for max FW links
-b008f2860015c7f72b77ae3c4fa0acd828930001 wifi: iwlwifi: mld: update the TLC when we deactivate a link
-73a20e5d1ed8cd1328674689221ee8df2104aec5 wifi: iwlwifi: TLC_MNG_CONFIG_CMD can use several structures
-4d56037a02bda77844f98bfbb2b91e324f86bd7f wifi: iwlwifi: mld: block EMLSR during TDLS connections
-1a41221f314c70c73f5d1a03744ec013e6d59269 wifi: iwlwifi: mld: introduce iwl_mld_vif_fw_id_valid
-1d624e0bd26c0c30bed7246dea9145ce7c5b5850 wifi: iwlwifi: fix the description of SESSION_PROTECTION_CMD
-d35dafca94d99f9d4adc91830b78d41d3cc9f988 wifi: iwlwifi: reduce the number of prints upon firmware crash
-95d12fc4ef4522757c25cba866cc4b8a5f01760f wifi: iwlwifi: mld: set RX_FLAG_RADIOTAP_TLV_AT_END generically
 175b45ed343a9c547b5f45293d3ea08d38a7b6f4 srcu: Use raw spinlocks so call_srcu() can be used under preempt_disable()
 61bbcfb50514a8a94e035a7349697a3790ab4783 srcu: Push srcu_node allocation to GP when non-preemptible
 7c405fb3279b39244b260b54f1bd6488689ae235 rcu: Use an intermediate irq_work to start process_srcu()
@@ -641,22 +401,6 @@ f39f905e55f529b036321220af1ba4f4085564a5 Bluetooth: L2CAP: Fix send LE flow cred
 25f420a0d4cfd61d3d23ec4b9c56d9f443d91377 Bluetooth: L2CAP: Fix ERTM re-init and zero pdu_len infinite loop
 129fa608b6ad08b8ab7178eeb2ec272c993aaccc Bluetooth: btusb: clamp SCO altsetting table indices
 789b06f9f39cdc7e895bdab2c034e39c41c8f8d6 wifi: virt_wifi: remove SET_NETDEV_DEV to avoid use-after-free
-506e26881751ad4c7093cb06ba46d312af13e33b wifi: mac80211: extract channel logic from link logic
-ad73dea1a4ac26c3ee95dd9c7a01ebe5ce299ac1 wifi: mac80211: cleanup error path of ieee80211_do_open
-ed406a28281cec398f2e19617369b0f920f81bec Merge tag 'iwlwifi-next-2026-03-25' of https://git.kernel.org/pub/scm/linux/kernel/git/iwlwifi/iwlwifi-next into wireless-next
-6e78b70c9a3d2a627229801f93e3f62869922587 wifi: cfg80211: Add an API to configure local NAN schedule
-763a5a580f9532d58b6c9f9e9723ceaa8332d5ca wifi: cfg80211: make sure NAN chandefs are valid
-0e8ec738a71ee4e8da7c56d21dd7bb54f954c38b wifi: cfg80211: add support for NAN data interface
-bd11c96604693723297c403625c3059b33fb0618 wifi: cfg80211: separately store HT, VHT and HE capabilities for NAN
-1f1101c29e55195db7b52bef47d11978442998e0 wifi: nl80211: add support for NAN stations
-c4aa273ff6b5dae62f4981763bd91047ea6ffdda wifi: nl80211: define an API for configuring the NAN peer's schedule
-21ade3eed33e055aa67e0b99ff33b6eafb57a5ec wifi: cfg80211: allow ToDS=0/FromDS=0 data frames on NAN data interfaces
-f826534483bac96320a3686694e3e1a033087240 wifi: nl80211: allow reporting spurious NAN Data frames
-44ea50a5bf304d3d6b55e4a2f946ce3c45a4e648 wifi: nl80211: add NL80211_CMD_NAN_ULW_UPDATE notification
-154b0296c0ecd3edb05555f824b6061438de2cd4 wifi: nl80211: Add a notification to notify NAN channel evacuation
-15d6dacdc97dce5ca8a0baf40f5fe8f3dcfef516 wifi: ieee80211: Add some missing NAN definitions
-e465ce0a8801e37d3092b2b364be59cd7f9ad49a wifi: cfg80211: allow protected action frame TX for NAN
-7dd6f81f4ef801b57f6ce7b0eee32aef5c488538 wifi: mac80211: ignore reserved bits in reconfiguration status
 d3c0037ffe1273fa1961e779ff6906234d6cf53c netfilter: nft_set_pipapo_avx2: don't return non-matching entry on expiry
 6caefcd9491c408a4d161f7b60c8bb3d956526dd selftests: netfilter: nft_concat_range.sh: add check for flush+reload bug
 51088b9d5f62cf234d1a5008f65c4dd712919551 Merge tag 'platform-drivers-x86-v7.0-3' of git://git.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
@@ -664,11 +408,6 @@ d2a43e7f89da55d6f0f96aaadaa243f35557291e Merge tag 'hardening-v7.0-rc6' of git:/
 aba9da0905f14106b368e0abf75220e744d27626 Merge tag 'rcu-fixes.v7.0-20260325a' of git://git.kernel.org/pub/scm/linux/kernel/git/rcu/linux
 0138af2472dfdef0d56fc4697416eaa0ff2589bd Merge tag 'erofs-for-7.0-rc6-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/xiang/erofs
 84a8335d8300576f1b377ae24abca1d9f197807f tls: Purge async_hold in tls_decrypt_async_wait()
-8f303194b241c2795bb9b79ee80bc93e7876879c octeontx2-pf: macsec: Use AES library instead of ecb(aes) skcipher
-fbf3fecf6ae1c9f429c2450f5a10d5640d7c5f9c net: dpaa2-mac: extend APIs related to statistics
-d369154d9d7fa7530a2520b945905fbecd35b05b net: dpaa2-mac: retrieve MAC statistics in one firmware command
-dd1d4ccb860289ad3dee33178cc2705c5ed1143b net: dpaa2-mac: export standard statistics
-b08a76290c4ec132114f629d7efe104d355aef92 Merge branch 'net-dpaa2-mac-export-standard-statistics'
 52025ebaa29f4eb4ed8bf92ce83a68f24ab7fdf7 netfilter: nfnetlink_log: fix uninitialized padding leak in NFULA_PAYLOAD
 9d3f027327c2fa265f7f85ead41294792c3296ed netfilter: ip6t_rt: reject oversized addrnr in rt_mt6_check()
 fafdd92b9e30fe057740c5bb5cd4f92ecea9bf26 netfilter: nft_set_rbtree: revisit array resize logic
@@ -681,83 +420,31 @@ bffcaad9afdfe45d7fc777397d3b83c1e3ebffe5 netfilter: ctnetlink: ensure safe acces
 8f15b5071b4548b0aafc03b366eb45c9c6566704 netfilter: ctnetlink: use netlink policy range checks
 aa637b2cf303e1d133a5c4ad3ee397ad99ad3f14 Merge tag 'for-net-2026-03-25' of git://git.kernel.org/pub/scm/linux/kernel/git/bluetooth/bluetooth
 72d96e4e24bbefdcfbc68bdb9341a05d8f5cb6e5 net: macb: use the current queue number for stats
-45b2b84ac6fde39c427018d6cdf7d44258938faa net: mana: Set default number of queues to 16
 deec4f7b411a5a5fc8b2f1907da5b8dd3061bb76 Merge branch '100GbE' of git://git.kernel.org/pub/scm/linux/kernel/git/tnguy/net-queue
 db472c34a74770f39318ddb1efa986c0a8d5d86a Merge tag 'nf-26-03-26' of git://git.kernel.org/pub/scm/linux/kernel/git/netfilter/nf
 dabb83ecf404c74a75469e7694a0b891e71f61b7 Merge tag 'dma-mapping-7.0-2026-03-25' of git://git.kernel.org/pub/scm/linux/kernel/git/mszyprowski/linux
 75c78a4faa7efe3180d1ba4b323464e30f948a43 Merge tag 'pinctrl-v7.0-3' of git://git.kernel.org/pub/scm/linux/kernel/git/linusw/linux-pinctrl
 453a4a5f97f0c95b7df458e6afb98d4ab057d90b Merge tag 'net-7.0-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
-9ebcf66cd6bcaa6c8275c18b7799507156361218 Merge git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 45dbf8fcea4dcf28cabcf4a1778e908feadf4c90 Merge tag 'wireless-2026-03-26' of https://git.kernel.org/pub/scm/linux/kernel/git/wireless/wireless
-8454478ef9abd4b4acb657160d9587a94cdae180 dt-bindings: net: nuvoton: Add schema for Nuvoton MA35 family GMAC
-4d7c557f58efda70ecf11e80cebf8fbbc9e08282 net: stmmac: dwmac-nuvoton: Add dwmac glue for Nuvoton MA35 family
-7d89349fb8849a6147cc7310fcf9059c1504f50f Merge branch 'add-support-for-nuvoton-ma35d1-gmac'
-dbd94b9831bc52a1efb7ff3de841ffc3457428ce Merge tag 'wireless-next-2026-03-26' of https://git.kernel.org/pub/scm/linux/kernel/git/wireless/wireless-next
-845a0441111812a540c928e3264602ecf1c17df9 net: stmmac: dwmac-socfpga: Move internal helpers
-a7be7cc12442479f44e3c17c6070cff03f6f8f02 net: stmmac: dwmac-socfpga: Use the socfpga_sgmii_config() helper
-9b04ecdfb8768a754db4bdb4a9073d0a650c0b53 net: stmmac: dwmac-socfpga: Use the correct type for interface modes
-adf1536f79a5699b2fbece74d175af43320ec404 net: stmmac: dwmac-socfpga: get the phy_mode with the dedicated helper
-9bd1af853750af99f7038af239bc7d8a525fb720 net: stmmac: dwmac-sofcpga: Drop the struct device reference
-3b58247933cc8d3aaa5f47581d33f0c011870127 Merge branch 'net-stmmac-dwmac-socfpga-cleanup-fix_mac_speed'
-b83c28328fee90ba8c8380f0637846b316694edb net: phylink: use phylink_expects_phy() in phylink_fwnode_phy_connect()
-ed8edcd47529d9ad6558ca2c00dccf21fc0abc08 docs/mlx5: Fix typo subfuction
 629ec78ef8608d955ce217880cdc3e1873af3a15 mpls: add seqcount to protect the platform_label{,s} pair
-78723a62b969af404fde2468bb9782519d5f8ba7 seg6: add per-route tunnel source address
-2d047673d374e1d808b345fddcbebe4f2a86d2f2 selftests: add check for seg6 tunsrc
-2b8e147c006ef2b40863be1911e29dd5731c205d Merge branch 'add-support-for-per-route-seg6-tunsrc'
-e1877cf6231152ff4686bd9900a6a88ffdd90f84 net: mctp: avoid copy in fragmentation loop for near-MTU messages
-5f70b0aa08ada1004259902dbee3b401ac2f7dcb selftests: net: Remove unnecessary backslashes in fq_band_pktlimit.sh
-e1da0e1859c612ca81d05518cb908642c00c2e93 net: dsa: microchip: Drop unnecessary check in ksz9477 PCS setup
-588cd4e7d22cf82081865a6677a468c88d93b4ba net: dsa: microchip: drop an outdated comment about SGMII support
-a771cddbd6541587b2b423576a57e4217ec11a38 Merge branch 'net-dsa-microchip-small-cleanups-for-ksz9477-sgmii'
 f73896b4197ed53cf0894657c899265ef7c86b7a net: mana: Fix RX skb truesize accounting
 976ff48c2ac6e6b25b01428c9d7997bcd0fb2949 net: ethernet: mtk_ppe: avoid NULL deref when gmac0 is disabled
-fe3e54253f0b04ec9e85d46e10aadbdbb31d29b2 virtio_net: sync RX buffer before reading the header
 57a04a13aac1f247d171c3f3aef93efc69e6979e netdevsim: fix build if SKB_EXTENSIONS=n
 e8e44c98f789dee45cfd24ffb9d4936e0606d7c6 net: fec: fix the PTP periodic output sysfs interface
-6a539eee855cbfe9c32507c70003b7710604fcfb tcp: tcp_vegas: use tcp_vegas_cwnd_event_tx_start()
 0239fd701d33475a39428daa3dc627407cd417a6 net: enetc: reset PIR and CIR if they are not equal when initializing TX ring
 2725d84efe2582c0a4b907e74a689d26b2dbd382 net: enetc: add graceful stop to safely reinitialize the TX Ring
 f2df9567b123145a07ee4ea7440e233f5d0232cc net: enetc: do not access non-existent registers on pseudo MAC
 04f272188ff293f112f914e235cb3bedf1063507 Merge branch 'net-enetc-safely-reinitialize-tx-bd-ring-when-it-has-unsent-frames'
 2428083101f6883f979cceffa76cd8440751ffe6 net: qrtr: replace qrtr_tx_flow radix_tree with xarray to fix memory leak
-f8844dfeeae88db074146e3f8a865b5565f61b40 virtio-net: enable NETIF_F_GRO_HW only if GRO-related offloads are supported
 ae05340ccaa9d347fe85415609e075545bec589f net: ipv6: ndisc: fix ndisc_ra_useropt to initialize nduseropt_padX fields to zero to prevent an info-leak
-a800398e746f8c9010c626a71d92a05b708f7622 net: stmmac: remove axi_kbbe, axi_mb and axi_rb members
-af0331e1ac51f48d0cc6bb09547b8c8ae467a019 dt-bindings: remove unimplemented AXI snps,kbbe snps,mb and snps,rb
-5fffa6fe40f07e831dc387170405b7f3486d14d0 Merge branch 'net-stmmac-remove-unused-and-unimplemented-axi-properties'
-552994294fe27b42a6a735b0388029b45d776b38 tcp: Fix inconsistent indenting warning
-07ae81b44cced32f0d828b3b270e2865dfed63b8 DO-NOT-MERGE: git markup: net
-7d5ffc2df8221300b540b3b7821e176a8f6bb1bd DO-NOT-MERGE: git markup: fixes other trees
-5992f14f64602340bc80930131ebd6e2dbec32ff mptcp: fix soft lockup in mptcp_recvmsg()
-16965adc63fdd1adfa040c82213534b926bbf990 DO-NOT-MERGE: git markup: fixes net
-5daab3d38fee00d5c3758fbe8e95152f7934809a DO-NOT-MERGE: mptcp: add CI support
-9862ef525674d8048fe1a3bf85300b21c7dac76a DO-NOT-MERGE: git markup: end common net net-next
-a951e8e459567a6f85207c82ec8a62386b840124 TopGit-driven merge of branches:
-e522c83a0aef4ceba136419fb3a0f9281e972d80 DO-NOT-MERGE: git markup: net-next
-90e1b7ed179fed4ebcf030a81674a1afe0f62eeb DO-NOT-MERGE: git markup: fixes net-next
-449af8ce4d698ad0f8e8fdeb4987d9ade18252e2 mptcp: pm: init and release mptcp_pm_ops
-223ae833aefca559c082bff6fd0fdfd531b4261c mptcp: pm: add get_local_id() interface
-cb2c8893874f60548c1a7b49eb9ed4799d2f8f50 mptcp: pm: add get_priority() interface
-da5c40abbc27ca7b98b56fc2cd1576de7ffa4f01 mptcp: better mptcp-level RTT estimator
-2cf72f4d124e23768fb604c07a06a69aeecffe82 mptcp: add receive queue awareness in tcp_rcv_space_adjust()
-a4a5bb6af5d2eb42331a9950df148e9ce4b3f1ad mptcp: pm: in-kernel: remove mptcp_pm_has_addr_attr_id
-caba6c8286d9330f8c7120094b8384f9bb168e96 selftests: mptcp: join: recreate signal endp with same ID
-790882992ab0597a207614941c0c61f8575f9098 DO-NOT-MERGE: git markup: features net-next
-b343486d8b61e9d616011565a34b57516a38352d DO-NOT-MERGE: git markup: features net-next-next
-4a97ad9b1b564724ebc0e614421d7b254833f8cb bpf: Add mptcp_subflow bpf_iter
-9d40a6a9b5874bfc27433d50bd04d5efef7a1830 selftests/bpf: More endpoints for endpoint_init
-97d3c65f414ad06ec2f5cf84d418447f762e96c4 selftests/bpf: Drop cgroup_fd of run_mptcpify
-1fc46d820221c61e68fe11f561c0ccd5eabaa204 bpf: Add mptcp packet scheduler struct_ops
-d8118e0b12877db56f0dd3b40d93638d8c0cf322 bpf: Export mptcp packet scheduler helpers
-7c7d03e7dfb9b5695507a53393d16a8ef5c856a5 selftests/bpf: Add bpf scheduler test
-bc5a191e115322d391af0ba67ebb4181598f6207 selftests/bpf: Add bpf_first scheduler & test
-2c7d858ec44b135cdc4ffc8e645837bc9be7b7b6 selftests/bpf: Add bpf_bkup scheduler & test
-e8d99fc2e6a83e4ce571c81a258fa125271b62ac selftests/bpf: Add bpf_rr scheduler & test
-a95a007eb7035fbca06ea5a84d250d424d745245 selftests/bpf: Add bpf_red scheduler & test
-11fab7143b33c17eba96adf79b81b61de340b9d0 selftests/bpf: Add bpf_burst scheduler & test
-e12d6b8a3afcf2eafbfdad0e49327ff04444bb3b DO-NOT-MERGE: git markup: features other trees
-c6b177c14eeaa7701c08308f72670df0e3412d5c DO-NOT-MERGE: mptcp: improve code coverage for CI
-97d9dbc51fa2ef7fbc345bda4bec022818df2565 DO-NOT-MERGE: mptcp: enabled by default
+30cb944a6f5d75da02f89ed040ca7cb43311bb0f DO-NOT-MERGE: git markup: net
+eaee2625a0401a10f17513f0070a28e0b1c9a7eb DO-NOT-MERGE: git markup: fixes other trees
+7c952f05fab0c2e329d3e9745e5a59613d336e82 mptcp: fix soft lockup in mptcp_recvmsg()
+ee4fb8eb7372770ff6c2592c93a5724ec4f1e823 DO-NOT-MERGE: git markup: fixes net
+8fbe739eed48e1b0fa0f25dd52056bbec5c113a9 DO-NOT-MERGE: mptcp: add CI support
+94eaa29960135c17deec8cec4fb12c92edceffad DO-NOT-MERGE: git markup: end common net net-next
+e01209d283306687ac93fae96f6044474ce4f2c9 DO-NOT-MERGE: git markup: fixes net only
+f931416aabdadbcc9feea0857d334863ff9dffea DO-NOT-MERGE: mptcp: improve code coverage for CI (net)
+d5bde5c096045ca7e11f7c6a0437a1aa64a0225e DO-NOT-MERGE: mptcp: enabled by default (net)
 
---===============1514635459485219685==--
+--===============1592339042289501563==--
