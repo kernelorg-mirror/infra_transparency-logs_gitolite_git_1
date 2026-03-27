@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0046220179063441913=="
+Content-Type: multipart/mixed; boundary="===============8279582589485560854=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netfilter/nf-next
-Date: Fri, 27 Mar 2026 14:13:10 -0000
-Message-Id: <177462079077.2377417.9667702728969280492@gitolite.kernel.org>
+Date: Fri, 27 Mar 2026 14:16:57 -0000
+Message-Id: <177462101729.2381105.4389318477955537689@gitolite.kernel.org>
 
---===============0046220179063441913==
+--===============8279582589485560854==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/netfilter/nf-next
 user: fwestphal
 changes:
-  - ref: refs/heads/main
-    old: fb78a629b4f0eb399b413f6c093a3da177b3a4eb
-    new: e4cf6087cab382c7031e6b436ec55202fa9f2d7b
-    log: revlist-fb78a629b4f0-e4cf6087cab3.txt
+  - ref: refs/heads/testing
+    old: 93cd433f9f3d3ef04f6c03a201f5d91ca2965dd9
+    new: 31342f64072e7c3fbe2e87d6f025edcf9d34b288
+    log: revlist-93cd433f9f3d-31342f64072e.txt
 
---===============0046220179063441913==
+--===============8279582589485560854==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-fb78a629b4f0-e4cf6087cab3.txt
+Content-Disposition: attachment; filename=revlist-93cd433f9f3d-31342f64072e.txt
 
 4ced4cf5c9d172d91f181df3accdf949d3761aab binfmt_elf_fdpic: fix AUXV size calculation for ELF_HWCAP3 and ELF_HWCAP4
 f69cfd8e8fd13b5d57e638fa1542fcd56f594ef0 x86/hyperv: print out reserved vectors in hexadecimal
@@ -760,5 +760,19 @@ af0331e1ac51f48d0cc6bb09547b8c8ae467a019 dt-bindings: remove unimplemented AXI s
 5fffa6fe40f07e831dc387170405b7f3486d14d0 Merge branch 'net-stmmac-remove-unused-and-unimplemented-axi-properties'
 552994294fe27b42a6a735b0388029b45d776b38 tcp: Fix inconsistent indenting warning
 e4cf6087cab382c7031e6b436ec55202fa9f2d7b net: qrtr: fix endian handling of confirm_rx field
+c35ddad17f443d6ec828bec7914aeb0801cb54e9 netfilter: use function typedefs for __rcu NAT helper hook pointers
+37cfbd1cf378f2211b5354bf88aa25740bba97af netfilter: nf_tables: Fix typo in enum description
+f07b733541b4e7bb303154ae00144b81205da88b netfilter: nf_conntrack_sip: remove net variable shadowing
+cfc6f2769fb78f9f4727c16d9136249110a0e8eb netfilter: add deprecation warning for dccp support
+d11b013fddbc39e5439556c4a3e0954eb7f806dc netfilter: nf_conntrack_h323: remove unreliable debug code in decode_octstr
+5696a280a5de499b92a1028010c3762b5d35a57c netfilter: nfnetlink_queue: prefer skb_mac_header helpers
+bd0293189519e4f7421fe89e95bb3c632e399c85 netfilter: add more netlink-based policy range checks
+b96e640d9f01d7d728bfc7668f3ba1499d0964f5 netfilter: nf_tables: add netlink policy based cap on registers
+92d02dfbe863f3d7bf945af7d8aecaaa9df3052b netfilter: nft_set_pipapo: increment data in one step
+1340480dcf6d9635b489c037341f13bb31c9554e netfilter: nft_set_pipapo_avx2: remove redundant loop in lookup_slow
+48a32c3dcd2c09eeaaf7e2a591460e298edbc544 netfilter: nft_meta: add double-tagged vlan and pppoe support
+e6cfc6b16e746e6f8b450963736c6e68303bf60a ipvs: show the current conn_tab size to users
+2653d1ab310b1ceb42e2fcc7994de6c96b84c676 ipvs: add ip_vs_status info
+31342f64072e7c3fbe2e87d6f025edcf9d34b288 ipvs: add conn_lfactor and svc_lfactor sysctl vars
 
---===============0046220179063441913==--
+--===============8279582589485560854==--
