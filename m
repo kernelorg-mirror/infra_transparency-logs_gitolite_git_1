@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7468953514665427055=="
+Content-Type: multipart/mixed; boundary="===============4378875026287536963=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/andi.shyti/linux
-Date: Fri, 27 Mar 2026 12:54:54 -0000
-Message-Id: <177461609461.2310824.6534985270024803805@gitolite.kernel.org>
+Date: Fri, 27 Mar 2026 12:54:57 -0000
+Message-Id: <177461609758.2310933.10501830243915854928@gitolite.kernel.org>
 
---===============7468953514665427055==
+--===============4378875026287536963==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/andi.shyti/linux
 user: andi.shyti
 changes:
-  - ref: refs/heads/i2c/i2c-host-fixes
-    old: 2a446b9ed062f32a15e12263a5d67e432ea388ce
-    new: e2f1ada8e089dd5a331bcd8b88125ae2af8d188f
-    log: revlist-2a446b9ed062-e2f1ada8e089.txt
+  - ref: refs/heads/i2c/i2c-host-next
+    old: 5a65e6584bd7f0adb5ce01f8fb58839b75bd2878
+    new: 0a056870afed5491c1604908b5f684163f816e83
+    log: revlist-5a65e6584bd7-0a056870afed.txt
 
---===============7468953514665427055==
+--===============4378875026287536963==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2a446b9ed062-e2f1ada8e089.txt
+Content-Disposition: attachment; filename=revlist-5a65e6584bd7-0a056870afed.txt
 
 5a741f8cc6fe62542f955cd8d24933a1b6589cbd soc: microchip: mpfs: Fix memory leak in mpfs_sys_controller_probe()
 ff4b6bf7eef4f5b921eed78f2816abcc55bcdd68 riscv: dts: microchip: add can resets to mpfs
@@ -417,5 +417,7 @@ c369299895a591d96745d6492d4888259b004a9e Linux 7.0-rc5
 f88e2e748a1fc3cb4b8d163a9be790812f578850 i2c: imx: fix i2c issue when reading multiple messages
 13101db735bdb29c5f60e95fb578690bd178b30f i2c: imx: ensure no clock is generated after last read
 e2f1ada8e089dd5a331bcd8b88125ae2af8d188f i2c: designware: amdisp: Fix resume-probe race condition issue
+c2246c3f4f34a66462af44bc832be54ea4b14845 Merge branch 'i2c/i2c-host' into i2c/i2c-host-next
+0a056870afed5491c1604908b5f684163f816e83 Merge branch 'i2c/i2c-host-2' into i2c/i2c-host-next
 
---===============7468953514665427055==--
+--===============4378875026287536963==--
