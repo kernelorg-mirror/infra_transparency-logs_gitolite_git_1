@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/firmware/linux-firmware
-Date: Fri, 27 Mar 2026 17:20:10 -0000
-Message-Id: <177463201082.2532258.9210417478887076257@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/driver-core/driver-core
+Date: Fri, 27 Mar 2026 17:21:03 -0000
+Message-Id: <177463206359.2532954.9783708580732283914@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/firmware/linux-firmware
-user: jwboyer
+repo: pub/scm/linux/kernel/git/driver-core/driver-core
+user: dakr
 changes:
-  - ref: refs/heads/main
-    old: 7362767cc1ee7fae193d0114d6cc5b632ec8cc96
-    new: 5304b82bc74e70b5a8f2075b47d84687f7291201
+  - ref: refs/heads/driver-core-next
+    old: 14cf406e083c0541e40cd467ae8336ecceede09e
+    new: f72e77c33e4b5657af35125e75bab249256030f3
     log: |
-         a4c4b18632627932a71bc88295d04d6cbf027229 xe: Update PTL GSC to v105.0.2.1397
-         5304b82bc74e70b5a8f2075b47d84687f7291201 Merge branch 'intel/ptl_gsc_105.0.2.1397' into 'main'
+         f72e77c33e4b5657af35125e75bab249256030f3 device property: Make modifications of fwnode "flags" thread safe
          
