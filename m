@@ -1,19 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tglozar/linux
-Date: Fri, 27 Mar 2026 10:42:41 -0000
-Message-Id: <177460816121.2197021.16219673008860596318@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/hid/hid
+Date: Fri, 27 Mar 2026 10:49:10 -0000
+Message-Id: <177460855083.2201431.16986364377750733676@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tglozar/linux
-user: tglozar
+repo: pub/scm/linux/kernel/git/hid/hid
+user: jikos
 changes:
-  - ref: refs/heads/rtla-for-next
-    old: be8058f31b4e237604e4ce7599593ab68dc69ae7
-    new: 82374995b63d2de21414163828a32d52610dcaf2
+  - ref: refs/heads/for-next
+    old: 62a7ee3586d4af160a8060b29dc73e59b9e03a7c
+    new: 0bb0a79407f5778b6fad8aa1b1526ca553598759
     log: |
-         82374995b63d2de21414163828a32d52610dcaf2 Documentation/rtla: Document SIGINT behavior
+         c24ad12cf1d53188b83efe74b189268c740a7c15 HID: sony: add support for more instruments
+         0bb0a79407f5778b6fad8aa1b1526ca553598759 Merge branch 'for-7.1/sony' into for-next
          
+  - ref: refs/heads/for-7.1/sony
+    old: 0000000000000000000000000000000000000000
+    new: c24ad12cf1d53188b83efe74b189268c740a7c15
