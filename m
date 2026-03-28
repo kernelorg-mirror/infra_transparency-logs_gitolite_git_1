@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/trace/linux-trace
-Date: Sat, 28 Mar 2026 12:40:42 -0000
-Message-Id: <177470164225.3449801.7820314698805783450@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Sat, 28 Mar 2026 12:54:25 -0000
+Message-Id: <177470246567.3458574.17433397259398711388@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/trace/linux-trace
-user: rostedt
+repo: pub/scm/linux/kernel/git/tip/tip
+user: tglx
 changes:
-  - ref: refs/heads/trace/fixes
-    old: 1f9885732248d22f788e4992c739a98c88ab8a55
-    new: 250ab25391edeeab8462b68be42e4904506c409c
+  - ref: refs/heads/locking/urgent
+    old: 190a8c48ff623c3d67cb295b4536a660db2012aa
+    new: 210d36d892de5195e6766c45519dfb1e65f3eb83
     log: |
-         250ab25391edeeab8462b68be42e4904506c409c tracing: Drain deferred trigger frees if kthread creation fails
+         210d36d892de5195e6766c45519dfb1e65f3eb83 futex: Clear stale exiting pointer in futex_lock_pi() retry path
          
