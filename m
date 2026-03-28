@@ -1,33 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============5828089200558539012=="
+Content-Type: multipart/mixed; boundary="===============5279963358943455708=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
-Date: Sat, 28 Mar 2026 11:23:47 -0000
-Message-Id: <177469702755.3388107.9504404637370361652@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kvmarm/kvmarm
+Date: Sat, 28 Mar 2026 11:25:25 -0000
+Message-Id: <177469712594.3391359.17074259720557532258@gitolite.kernel.org>
 
---===============5828089200558539012==
+--===============5279963358943455708==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/maz/arm-platforms
+repo: pub/scm/linux/kernel/git/kvmarm/kvmarm
 user: maz
 changes:
-  - ref: refs/heads/kvm-arm64/vgic-fixes-7.1
-    old: a93e00468c11f66075248d5c621eeb645ac290cd
-    new: 8d6844bcd8041c776f53b4d515e533ae96ca2d4c
-    log: revlist-a93e00468c11-8d6844bcd804.txt
-  - ref: refs/heads/kvm-arm64/vgic-v5-ppi
-    old: 0000000000000000000000000000000000000000
-    new: ce29261ec6482de54320c03398eb30e9615aee40
+  - ref: refs/heads/next
+    old: 0b0687485bf7733e2476a6b8eb1ab278fecc1461
+    new: 06a6e06defd98463d3e53a974e5f27df70eda6c2
+    log: revlist-0b0687485bf7-06a6e06defd9.txt
 
---===============5828089200558539012==
+--===============5279963358943455708==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a93e00468c11-8d6844bcd804.txt
+Content-Disposition: attachment; filename=revlist-0b0687485bf7-06a6e06defd9.txt
 
 7e2ab501bd5817622ff2b43b934fe6150a125e30 KVM: arm64: vgic: Don't reset cpuif/redist addresses at finalize time
 2e4273b172243a34fa33d9e9860e810120c345d4 KVM: arm64: Don't skip per-vcpu NV initialisation
@@ -45,5 +42,6 @@ f991f136ebbfbff83d1d11abb023e1da286d7172 KVM: arm64: vgic-v5: Correctly set dist
 36e4d8b4fb45c35ba18b98f60dcdb1b510fd2646 KVM: arm64: Correctly plumb ID_AA64PFR2_EL1 into pkvm idreg handling
 da574922e19a175dbd464ff1c1f7cd28bc8335c3 KVM: arm64: Don't advertises GICv3 in ID_PFR1_EL1 if AArch32 isn't supported
 8d6844bcd8041c776f53b4d515e533ae96ca2d4c KVM: arm64: set_id_regs: Allow GICv3 support to be set at runtime
+06a6e06defd98463d3e53a974e5f27df70eda6c2 Merge branch kvm-arm64/vgic-fixes-7.1 into kvmarm-master/next
 
---===============5828089200558539012==--
+--===============5279963358943455708==--
