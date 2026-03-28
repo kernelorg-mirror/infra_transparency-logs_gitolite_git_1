@@ -1,22 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Sat, 28 Mar 2026 03:57:59 -0000
-Message-Id: <177467027955.3045896.10034699156515103712@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Sat, 28 Mar 2026 04:01:42 -0000
+Message-Id: <177467050269.3053523.11896740253812094523@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
+repo: pub/scm/linux/kernel/git/netdev/net-next
 user: kuba
 changes:
   - ref: refs/heads/main
-    old: 5d17af9eb2dd3de6846ed344c883de7812e6cc09
-    new: dc9e9d61e301c087bcd990dbf2fa18ad3e2e1429
+    old: fb4b4a05aeeb8b0f253c5ddce21f4635dadc9550
+    new: 77a347f82a8043c2ee77edf50cb585fb7b604325
     log: |
-         eeee5a710f26ce57807024ef330fe5a850eaecd8 net: sfp: Fix Ubiquiti U-Fiber Instant SFP module on mvneta
-         d389954a6cae7bf76b7b082ac3511d177b77ef2d net: enetc: check whether the RSS algorithm is Toeplitz
-         a142d139168cce8d5776245b5494c7f7f5d7fb7d net: enetc: do not allow VF to configure the RSS key
-         dc9e9d61e301c087bcd990dbf2fa18ad3e2e1429 Merge branch 'net-enetc-add-more-checks-to-enetc_set_rxfh'
+         187b00a26679ae58a79f56c0024df1e3dbd7dff0 net: stmmac: provide flag to disable EEE
+         394863097e3603eafe819ab4085cbd0ddf371dd9 net: stmmac: imx: Disable EEE
+         77a347f82a8043c2ee77edf50cb585fb7b604325 Merge branch 'net-stmmac-disable-eee-on-i-mx'
          
