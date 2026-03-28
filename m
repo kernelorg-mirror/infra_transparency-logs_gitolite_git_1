@@ -1,19 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
-Date: Sat, 28 Mar 2026 17:08:25 -0000
-Message-Id: <177471770524.3657998.15168101468301025321@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kvmarm/kvmarm
+Date: Sat, 28 Mar 2026 17:13:28 -0000
+Message-Id: <177471800871.3662049.2721370096857183517@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jic23/iio
-user: jic23
+repo: pub/scm/linux/kernel/git/kvmarm/kvmarm
+user: maz
 changes:
-  - ref: refs/heads/togreg
-    old: d185324efadc1e75acc6be2e4351ecfe8957b3a7
-    new: d2a4ec19d2a2e54c23b5180e939994d3da4a6b91
+  - ref: refs/heads/next
+    old: 6fe2f19c03a58f597d724cb6bef79771344eeb72
+    new: 6f9fbd27cd2ee16c528a1c2ae0341f3735c4bcf0
     log: |
-         d2a4ec19d2a2e54c23b5180e939994d3da4a6b91 Docs: iio: ad7191 Correct clock configuration
+         d133aa75e39dd72e0b8577ab1f5fc17c72246536 KVM: arm64: Disable TRBE Trace Buffer Unit when running in guest context
+         07695f7dc1e141601254057a00bf4e23301eb0b2 KVM: arm64: Disable SPE Profiling Buffer when running in guest context
+         7aba10efef1d972fc82b00b84911f07f6afbdb78 KVM: arm64: Don't pass host_debug_state to BRBE world-switch routines
+         6f9fbd27cd2ee16c528a1c2ae0341f3735c4bcf0 Merge branch kvm-arm64/spe-trbe-nvhe into kvmarm-master/next
          
