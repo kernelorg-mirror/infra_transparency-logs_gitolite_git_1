@@ -1,72 +1,59 @@
-Content-Type: multipart/mixed; boundary="===============8793545981695274605=="
+Content-Type: multipart/mixed; boundary="===============4717325397009444581=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Sat, 28 Mar 2026 00:29:39 -0000
-Message-Id: <177465777920.2882061.13424441123916757708@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ast/bpf
+Date: Sat, 28 Mar 2026 00:41:10 -0000
+Message-Id: <177465847040.2892798.15986746162845017452@gitolite.kernel.org>
 
---===============8793545981695274605==
+--===============4717325397009444581==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/ast/bpf
+user: ast
 changes:
-  - ref: refs/heads/master
-    old: dd09eb443372f9390d36051d86ebe06e9919aeec
-    new: 26df51adf30b3d440293eed38d01f953ae0bb6f4
-    log: revlist-dd09eb443372-26df51adf30b.txt
+  - ref: refs/heads/stacklive
+    old: e5db0f72ae966982c6cab373f684bd4a692a10e0
+    new: 2c7480c8546af68d960edce3a011553f6e8bab9c
+    log: revlist-e5db0f72ae96-2c7480c8546a.txt
 
---===============8793545981695274605==
+--===============4717325397009444581==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-dd09eb443372-26df51adf30b.txt
+Content-Disposition: attachment; filename=revlist-e5db0f72ae96-2c7480c8546a.txt
 
-09e70e4f119ff650d24c96161fd2f62ac7e424b0 regmap: Synchronize cache for the page selector
-fc3bbf34e643faa8678aabdc3810c60109f3435a drm/shmem-helper: Fix huge page mapping in fault handler
-4cfdfeb6ac06079f92fccd977fa742d6c5b8dd3a drm/mediatek: dsi: Store driver data before invoking mipi_dsi_host_register
-08441f10f4dc09fdeb64529953ac308abc79dd38 drm/i915/gmbus: fix spurious timeout on 512-byte burst reads
-6ad2a661ff0d3d94884947d2a593311ba46d34c2 drm/i915: Order OP vs. timeout correctly in __wait_for()
-bfa71b7a9dc6b5b8af157686e03308291141d00c drm/i915: Unlink NV12 planes earlier
-87997b6c6516e049cbaf2fc6810b213d587a06b1 drm/xe/pf: Fix use-after-free in migration restore
-ef3d549e1deb3466c61f3b01d22fc3fe3e5efb08 spi: sn-f-ospi: Fix resource leak in f_ospi_probe()
-a42c9b8b0c00ecd9b7467844f2fbfc766898bf54 spi: sn-f-ospi: Use devm_mutex_init() to simplify code
-63542bb402b7013171c9f621c28b609eda4dbf1f spi: meson-spicc: Fix double-put in remove path
-aed3d041ab061ec8a64f50a3edda0f4db7280025 drm/amd/display: Do not skip unrelated mode changes in DSC validation
-2d300ebfc411205fa31ba7741c5821d381912381 drm/amdgpu: fix strsep() corrupting lockup_timeout on multi-GPU (v3)
-14b81abe7bdc25f8097906fc2f91276ffedb2d26 drm/amdgpu: prevent immediate PASID reuse case
-37c2caa167b0b8aca4f74c32404c5288b876a2a3 drm/amd/display: Fix drm_edid leak in amdgpu_dm
-cdbc3b62cfc2785da32b82260f852370cc1f2a6a drm/amd/pm: Skip redundant UCLK restore in smu_v13_0_6
-2f0e491faee43181b6a86e90f34016b256042fe1 drm/amd/pm: Return -EOPNOTSUPP for unsupported OD_MCLK on smu_v13_0_6
-3e6dd28a11083e83e11a284d99fcc9eb748c321c drm/amd/pm: disable OD_FAN_CURVE if temp or pwm range invalid for smu v13
-77fcf58df15edcf3f5b5421f24814fb72796def9 drm/i915/dp_tunnel: Fix error handling when clearing stream BW in atomic state
-e8ab57b56402697a9bef50b71aecc613f0d61846 accel/ivpu: Add disable clock relinquish workaround for NVL-A0
-8121353a4bf8e38afee26299419a78ec108e14a6 rust: regulator: do not assume that regulator_get() returns non-null
-56781a4597706cd25185b1dedc38841ec6c31496 drm/xe: Implement recent spec updates to Wa_16025250150
-cc34d77dd48708d810c12bfd6f5bf03304f6c824 spi: use generic driver_override infrastructure
-7150850146ebfa4ca998f653f264b8df6f7f85be drm/amdgpu: Fix fence put before wait in amdgpu_amdkfd_submit_ib
-9da4f9964abcaeb6e19797d5e3b10faad338a786 drm/amd/display: check if ext_caps is valid in BL setup
-429aec2bc0ae1e20ce96066d57e9f91f79b660df drm/amdkfd: Fix NULL pointer check order in kfd_ioctl_create_process
-28922a43fdab715ed771175e8326ad7e13808be3 drm/amd/pm: disable OD_FAN_CURVE if temp or pwm range invalid for smu v14
-4e9597f22a3cb8600c72fc266eaac57981d834c8 drm/amdgpu: Handle GPU page faults correctly on non-4K page systems
-90d239cc53723c1a3f89ce08eac17bf3a9e9f2d4 drm/amd/display: Fix DCE LVDS handling
-06f4297134db37fb326047b1ed8194a23cdf057d drm/syncobj: Fix xa_alloc allocation flags
-bfe9e314d7574d1c5c851972e7aee342733819d2 drm/xe: always keep track of remap prev/next
-87a70013be7d1b96e7e160aea6dad4564b459868 MAINTAINERS: Update GPU driver maintainer information
-8d2e0cb3224c89275c5471c92850e7f74df80c20 spi: fix use-after-free on managed registration failure
-b341c1176f2e001b3adf0b47154fc31589f7410e spi: spi-fsl-lpspi: fix teardown order issue (UAF)
-7261c2fcebd3d15b967b9de361ee650dc4bf3729 Merge tag 'amd-drm-fixes-7.0-2026-03-25' of https://gitlab.freedesktop.org/agd5f/linux into drm-fixes
-355223cb84eb71f0f591b5e122a3617351e3c431 Merge tag 'drm-intel-fixes-2026-03-26' of https://gitlab.freedesktop.org/drm/i915/kernel into drm-fixes
-aab01a88087446e01371fd186fbb33049d62da1b Merge tag 'drm-misc-fixes-2026-03-26' of https://gitlab.freedesktop.org/drm/misc/kernel into drm-fixes
-83318d0c1f5fd3a5eae41bc4e5dc110d5be4907c Merge tag 'drm-xe-fixes-2026-03-26' of https://gitlab.freedesktop.org/drm/xe/kernel into drm-fixes
-5ba61d8a25ddf89915f71bf8b63c06d6ffdf06cc Merge tag 'mediatek-drm-fixes-20260323' of https://git.kernel.org/pub/scm/linux/kernel/git/chunkuang.hu/linux into drm-fixes
-30052002e6bce7fe7f316ddd8dbea4943bd82dae Merge tag 'regmap-fix-v7.0-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/regmap
-cd0bbd5a664f44c9430cb392ce03e6b74a2fa78f Merge tag 'regulator-fix-v7.0-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/regulator
-335c9017e333894c39853f6fc27db9f0ce44f48b Merge tag 'spi-fix-v7.0-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/spi
-26df51adf30b3d440293eed38d01f953ae0bb6f4 Merge tag 'drm-fixes-2026-03-28-1' of https://gitlab.freedesktop.org/drm/kernel
+83ed2bed084521cea71a00f2ab0fb1b08aa4c909 bpf: Sort subprogs in topological order after check_cfg()
+590d55a11b521e7daf36aba62fdd25b54bf33720 selftests/bpf: Add tests for subprog topological ordering
+1669248b3cec504b46c0792c748c3a7d0a519628 bpf: Add compute_const_regs() and prune_dead_branches() pre-passes
+f45baa85a4af93d695742a25669663f9abfc40b9 bpf: Add helper and kfunc stack access size resolution
+2e63a3b93ad8140a7ea9bb6d4cf68bace7045569 bpf: Add btf_type_snprintf() for printing BTF type signatures
+91d8bd3afdd3e8dcc7f3c51ea556859cf2f61922 bpf: Add spis_*() helpers for 4-byte stack slot bitmasks
+4e57f200d6b7e93141075ef4e548ac8dfe558806 bpf: Add per-subprog arg tracking analysis
+f17f5633019576d19ff6a089b413d0314e9c16fa selftests/bpf: Update tests for static stack liveness output
+3df1535bb510836d1ff5861c73395f5dca3287d5 selftests/bpf: Add tests for static stack liveness analysis
+b918ff29122b94d07b7abf440089ca47b4251ae2 bpf: Remove old dynamic stack liveness infrastructure
+a4b91d1ce002ee564199a6786a2e16f9f64a4d82 selftests/bpf: Test that zero->misc promo is unsafe
+5bd247695d43304f54e76e2c05ae5ee8b2e4c5dc selftests/bpf: Add convergence test for arg_track dataflow join
+0b949bde1fd47055d6959f7d8ef26a8573a816eb selftests/bpf: Tests for 4-byte stack slots
+bb250a4019c589045a9f7d9eda5348400eb6cda4 selftests/bpf: Check pruning across subprog calls
+81ec6100a5044521e867d2e6c5e8b716f15e8339 selftests/bpf: 2nd add kills liveness
+ae61191da170a7be1b6a1a17ec9e44010ffb08ee selftests/bpf: dead_spill_at_merge_enables_pruning
+3da13979652ac42a7a5815219a717867c20eda27 selftests/bpf: fp_spill_loses_precision_kills_liveness
+19adec5727e49cc79ed8a1781db058f8844ef75e selftests/bpf: Adjust verifier_log buffers
+6ac31d0a95b2f31a7255423cec063d989e0fb2a6 selftests/bpf: live stack
+1d0eb622f100224530df39f339a5d68a17a6d01a selftests/bpf: Add test for transitive parent stack read unsoundness
+f82a431c14222f894acb1faefbe826f338dfe739 selftests/bpf: two/one_fp_clear_stack_threshold
+62744800cca1208a2e99b1fd59a3c002c3e73502 selftests/bpf: Add test for helper access to parent stack via AT_PARENT
+322d28915ded29a9158f6b2c9ddc530663a78c57 selftests/bpf: Add test for propagate_callee_ancestor() soundness
+d7fdfacd808d7e0af5e49d6b03088cdc9f110c9e selftests/bpf: helper_arg_fallback_keeps_scanning
+477b1f9b7f0ada505f4ee39b1a8d99d24b220c70 selftests/bpf: spilled_fp_cross_frame_deref
+0667af50b396ed0ad3266f1e4bf20f973b7c63a5 selftests/bpf: Adjust verifier_align
+092a94bd7653c5454950d5057bbc26f20217e147 selftests/bpf: Adjust verifier_scalar_ids
+d1832ebffa879fe81cf1138bfb327438f0c4d194 selftests/bpf: Adjust verifier_div_mod_bounds
+2c7480c8546af68d960edce3a011553f6e8bab9c Revert "bpf: Remove old dynamic stack liveness infrastructure"
 
---===============8793545981695274605==--
+--===============4717325397009444581==--
