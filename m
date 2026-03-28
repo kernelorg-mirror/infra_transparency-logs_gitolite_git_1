@@ -1,64 +1,72 @@
-Content-Type: multipart/mixed; boundary="===============6317626787869191172=="
+Content-Type: multipart/mixed; boundary="===============8793545981695274605=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ebiggers/linux
-Date: Sat, 28 Mar 2026 00:19:07 -0000
-Message-Id: <177465714798.2874096.870306489233704713@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Sat, 28 Mar 2026 00:29:39 -0000
+Message-Id: <177465777920.2882061.13424441123916757708@gitolite.kernel.org>
 
---===============6317626787869191172==
+--===============8793545981695274605==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ebiggers/linux
-user: ebiggers
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
-  - ref: refs/heads/crypto-pending
-    old: 43db047ef6a205fcfd7e4461bf7b7dadcbb9830b
-    new: f5492b7688b63b1464e8f5e37bbc9b1c33c0e354
-    log: revlist-43db047ef6a2-f5492b7688b6.txt
+  - ref: refs/heads/master
+    old: dd09eb443372f9390d36051d86ebe06e9919aeec
+    new: 26df51adf30b3d440293eed38d01f953ae0bb6f4
+    log: revlist-dd09eb443372-26df51adf30b.txt
 
---===============6317626787869191172==
+--===============8793545981695274605==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-43db047ef6a2-f5492b7688b6.txt
+Content-Disposition: attachment; filename=revlist-dd09eb443372-26df51adf30b.txt
 
-f30579bbae86c860a642621322d90d3d4c60c9b5 crypto: s5p-sss - use unregister_{ahashes,skciphers} in probe/remove
-914b0c68d4decebe52b31929f89364de32d0156e crypto: marvell/cesa - use memcpy_and_pad in mv_cesa_ahash_export
-928c5e894ca907b11c0b3cda7c37441d863018fd crypto: nx - annotate struct nx842_crypto_header with __counted_by
-b0bfa49c03e3c65737eafa73d8a698eaf55379a6 crypto: nx - Fix packed layout in struct nx842_crypto_header
-d134feeb5df33fbf77f482f52a366a44642dba09 printk: add print_hex_dump_devel()
-177730a273b18e195263ed953853273e901b5064 crypto: caam - guard HMAC key hex dumps in hash_digest_key
-6ac142bf267ecf0aee5038abd00072ab583ce0de crypto: qat - add anti-rollback support for GEN6 devices
-d0c0a414cc1893b195b9523ecdfbeee00b98fd0d crypto: testmgr - Add test vectors for authenc(hmac(md5),rfc3686(ctr(aes)))
-1a9670df56eac0a374cc2a5e9a63775de4c61837 crypto: stm32 - use list_first_entry_or_null to simplify hash_find_dev
-92c0a9bbcde6a748a40182fe32e3a1b2f9f1a23d crypto: stm32 - use list_first_entry_or_null to simplify cryp_find_dev
-37b902c60304291b30b417ab5b9531b9c662aacd crypto: ti - Add support for AES-GCM in DTHEv2 driver
-a09c5e06498f6a62c89ca56ccdfbfead96e63732 crypto: ti - Add support for AES-CCM in DTHEv2 driver
-5c8009f3c1885d5d996acdcd7e884aff25ac26a4 crypto: inside-secure/eip93 - make it selectable for ECONET
-07fa25957a18cff13f1943ecd213c88c0878b968 crypto: cryptd - Remove unused functions
-67b53a660e6bf0da2fa8d8872e897a14d8059eaf crypto: hisilicon/sec2 - prevent req used-after-free for sec
-9503ab5a1d0ef4cad2731d88699d7e6bb1a8a85d crypto: inside-secure/eip93 - correct ecb(des-eip93) typo
-fdacdc8cf897703a5a3e8b521448befbb6620034 crypto: inside-secure/eip93 - add missing address terminator character
-be0240f65705b0b125de60d4fc952c013ef74e26 crypto: qce - use memcpy_and_pad in qce_aead_setkey
-70c4bf8b928b149db324f3048ef1223dedd1e2e1 crypto: tegra - Add missing CRYPTO_ALG_ASYNC
-2aff7bac373bc208144e5e2c51da75856f09cc14 crypto: cryptomgr - Select algorithm types only when CRYPTO_SELFTESTS
-73c62de51dbcfb2c5b76df65515c9969a1550cc9 crypto: rng - Add crypto_stdrng_get_bytes()
-634b3c9b52f9722f5091d1182d6ff4b5f3d93146 crypto: dh - Use crypto_stdrng_get_bytes()
-56dd6088b005f3592f909fdd90ac197df1f84069 crypto: ecc - Use crypto_stdrng_get_bytes()
-21d90c9a63b59cc620e7f763ff402bc9dbe52dc5 crypto: geniv - Use crypto_stdrng_get_bytes()
-17b93749c610b2f4a178538bddc015ca1d82f0d5 crypto: hisilicon/hpre - Use crypto_stdrng_get_bytes()
-5bb391d6ad3a93b6a6f98bcac951050660fd6b78 crypto: intel/keembay-ocs-ecc - Use crypto_stdrng_get_bytes()
-eace302adc9660414805fb4f1b45ff39eb55586f net: tipc: Use crypto_stdrng_get_bytes()
-4f5b51f1c0727f95b18043dd667260e1ed37d533 crypto: rng - Unexport "default RNG" symbols
-27161417a1f51a8db3b34684dd500db6b3957693 crypto: rng - Make crypto_stdrng_get_bytes() use normal RNG in non-FIPS mode
-4bb9500e0b4b65de8fae590c8e2c0d6a1d22d8e2 crypto: fips - Depend on CRYPTO_DRBG=y
-1aee8c43eb65adb2ffa93dc1e32305f4d19d41a8 crypto: rng - Don't pull in DRBG when CRYPTO_FIPS=n
-e41c39c8241cc2f161dc917860df1e436a3e2453 crypto: s390 - Remove des and des3_ede code
-03025125561f6166ec8c1069386500176f0d86a6 crypto: sparc - Remove des and des3_ede code
-f5492b7688b63b1464e8f5e37bbc9b1c33c0e354 crypto: x86 - Remove des and des3_ede code
+09e70e4f119ff650d24c96161fd2f62ac7e424b0 regmap: Synchronize cache for the page selector
+fc3bbf34e643faa8678aabdc3810c60109f3435a drm/shmem-helper: Fix huge page mapping in fault handler
+4cfdfeb6ac06079f92fccd977fa742d6c5b8dd3a drm/mediatek: dsi: Store driver data before invoking mipi_dsi_host_register
+08441f10f4dc09fdeb64529953ac308abc79dd38 drm/i915/gmbus: fix spurious timeout on 512-byte burst reads
+6ad2a661ff0d3d94884947d2a593311ba46d34c2 drm/i915: Order OP vs. timeout correctly in __wait_for()
+bfa71b7a9dc6b5b8af157686e03308291141d00c drm/i915: Unlink NV12 planes earlier
+87997b6c6516e049cbaf2fc6810b213d587a06b1 drm/xe/pf: Fix use-after-free in migration restore
+ef3d549e1deb3466c61f3b01d22fc3fe3e5efb08 spi: sn-f-ospi: Fix resource leak in f_ospi_probe()
+a42c9b8b0c00ecd9b7467844f2fbfc766898bf54 spi: sn-f-ospi: Use devm_mutex_init() to simplify code
+63542bb402b7013171c9f621c28b609eda4dbf1f spi: meson-spicc: Fix double-put in remove path
+aed3d041ab061ec8a64f50a3edda0f4db7280025 drm/amd/display: Do not skip unrelated mode changes in DSC validation
+2d300ebfc411205fa31ba7741c5821d381912381 drm/amdgpu: fix strsep() corrupting lockup_timeout on multi-GPU (v3)
+14b81abe7bdc25f8097906fc2f91276ffedb2d26 drm/amdgpu: prevent immediate PASID reuse case
+37c2caa167b0b8aca4f74c32404c5288b876a2a3 drm/amd/display: Fix drm_edid leak in amdgpu_dm
+cdbc3b62cfc2785da32b82260f852370cc1f2a6a drm/amd/pm: Skip redundant UCLK restore in smu_v13_0_6
+2f0e491faee43181b6a86e90f34016b256042fe1 drm/amd/pm: Return -EOPNOTSUPP for unsupported OD_MCLK on smu_v13_0_6
+3e6dd28a11083e83e11a284d99fcc9eb748c321c drm/amd/pm: disable OD_FAN_CURVE if temp or pwm range invalid for smu v13
+77fcf58df15edcf3f5b5421f24814fb72796def9 drm/i915/dp_tunnel: Fix error handling when clearing stream BW in atomic state
+e8ab57b56402697a9bef50b71aecc613f0d61846 accel/ivpu: Add disable clock relinquish workaround for NVL-A0
+8121353a4bf8e38afee26299419a78ec108e14a6 rust: regulator: do not assume that regulator_get() returns non-null
+56781a4597706cd25185b1dedc38841ec6c31496 drm/xe: Implement recent spec updates to Wa_16025250150
+cc34d77dd48708d810c12bfd6f5bf03304f6c824 spi: use generic driver_override infrastructure
+7150850146ebfa4ca998f653f264b8df6f7f85be drm/amdgpu: Fix fence put before wait in amdgpu_amdkfd_submit_ib
+9da4f9964abcaeb6e19797d5e3b10faad338a786 drm/amd/display: check if ext_caps is valid in BL setup
+429aec2bc0ae1e20ce96066d57e9f91f79b660df drm/amdkfd: Fix NULL pointer check order in kfd_ioctl_create_process
+28922a43fdab715ed771175e8326ad7e13808be3 drm/amd/pm: disable OD_FAN_CURVE if temp or pwm range invalid for smu v14
+4e9597f22a3cb8600c72fc266eaac57981d834c8 drm/amdgpu: Handle GPU page faults correctly on non-4K page systems
+90d239cc53723c1a3f89ce08eac17bf3a9e9f2d4 drm/amd/display: Fix DCE LVDS handling
+06f4297134db37fb326047b1ed8194a23cdf057d drm/syncobj: Fix xa_alloc allocation flags
+bfe9e314d7574d1c5c851972e7aee342733819d2 drm/xe: always keep track of remap prev/next
+87a70013be7d1b96e7e160aea6dad4564b459868 MAINTAINERS: Update GPU driver maintainer information
+8d2e0cb3224c89275c5471c92850e7f74df80c20 spi: fix use-after-free on managed registration failure
+b341c1176f2e001b3adf0b47154fc31589f7410e spi: spi-fsl-lpspi: fix teardown order issue (UAF)
+7261c2fcebd3d15b967b9de361ee650dc4bf3729 Merge tag 'amd-drm-fixes-7.0-2026-03-25' of https://gitlab.freedesktop.org/agd5f/linux into drm-fixes
+355223cb84eb71f0f591b5e122a3617351e3c431 Merge tag 'drm-intel-fixes-2026-03-26' of https://gitlab.freedesktop.org/drm/i915/kernel into drm-fixes
+aab01a88087446e01371fd186fbb33049d62da1b Merge tag 'drm-misc-fixes-2026-03-26' of https://gitlab.freedesktop.org/drm/misc/kernel into drm-fixes
+83318d0c1f5fd3a5eae41bc4e5dc110d5be4907c Merge tag 'drm-xe-fixes-2026-03-26' of https://gitlab.freedesktop.org/drm/xe/kernel into drm-fixes
+5ba61d8a25ddf89915f71bf8b63c06d6ffdf06cc Merge tag 'mediatek-drm-fixes-20260323' of https://git.kernel.org/pub/scm/linux/kernel/git/chunkuang.hu/linux into drm-fixes
+30052002e6bce7fe7f316ddd8dbea4943bd82dae Merge tag 'regmap-fix-v7.0-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/regmap
+cd0bbd5a664f44c9430cb392ce03e6b74a2fa78f Merge tag 'regulator-fix-v7.0-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/regulator
+335c9017e333894c39853f6fc27db9f0ce44f48b Merge tag 'spi-fix-v7.0-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/spi
+26df51adf30b3d440293eed38d01f953ae0bb6f4 Merge tag 'drm-fixes-2026-03-28-1' of https://gitlab.freedesktop.org/drm/kernel
 
---===============6317626787869191172==--
+--===============8793545981695274605==--
