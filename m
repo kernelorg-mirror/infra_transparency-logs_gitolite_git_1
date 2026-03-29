@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
-Date: Sun, 29 Mar 2026 09:08:12 -0000
-Message-Id: <177477529244.206904.4417722668087732928@gitolite.kernel.org>
+Date: Sun, 29 Mar 2026 09:14:29 -0000
+Message-Id: <177477566934.211156.18181918542198112075@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,19 +11,18 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tiwai/sound
 user: tiwai
 changes:
-  - ref: refs/heads/for-next
-    old: 38f6e93dedbc1b6c2a6e97110ab7e872c257a5e3
-    new: 9220b8cc51c960e98a9532ec990c55bc546e3b46
+  - ref: refs/heads/for-linus
+    old: 1fbf85dbf02c96c318e056fb5b8fc614758fee3c
+    new: 277c6960d4ddb94d16198afd70c92c3d4593d131
     log: |
-         31183edd9cb3465af5c8b9cb16f42259cbf27109 ALSA: usb-audio: tidy up the AF16Rig quirks
-         9220b8cc51c960e98a9532ec990c55bc546e3b46 ALSA: hda: intel: Drop obsolete probe-work unlock workaround
+         b045ab3dff97edae6d538eeff900a34c098761f8 ALSA: ctxfi: Fix missing SPDIFI1 index handling
+         277c6960d4ddb94d16198afd70c92c3d4593d131 ALSA: ctxfi: Check the error for index mapping
          
   - ref: refs/heads/master
-    old: 39b68f430a1b299a041ce44a695ae9ddb2576ca1
-    new: 379abe94c31f8c40ceeb65ce814bafed058d1c4c
+    old: 379abe94c31f8c40ceeb65ce814bafed058d1c4c
+    new: bea8d9e445caf009ccadc17c353cc82f07885dd6
     log: |
-         31183edd9cb3465af5c8b9cb16f42259cbf27109 ALSA: usb-audio: tidy up the AF16Rig quirks
-         183f2df1cb4726cdbbd6710d615752aeed34c06c Merge branch 'for-next'
-         9220b8cc51c960e98a9532ec990c55bc546e3b46 ALSA: hda: intel: Drop obsolete probe-work unlock workaround
-         379abe94c31f8c40ceeb65ce814bafed058d1c4c Merge branch 'for-next'
+         b045ab3dff97edae6d538eeff900a34c098761f8 ALSA: ctxfi: Fix missing SPDIFI1 index handling
+         277c6960d4ddb94d16198afd70c92c3d4593d131 ALSA: ctxfi: Check the error for index mapping
+         bea8d9e445caf009ccadc17c353cc82f07885dd6 Merge branch 'for-linus'
          
