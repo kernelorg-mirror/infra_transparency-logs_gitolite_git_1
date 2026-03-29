@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Sun, 29 Mar 2026 05:34:20 -0000
-Message-Id: <177476246004.42195.13594846178841635371@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/wsa/linux
+Date: Sun, 29 Mar 2026 06:07:09 -0000
+Message-Id: <177476442948.68297.12011330479949160839@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: mingo
+repo: pub/scm/linux/kernel/git/wsa/linux
+user: wsa
 changes:
-  - ref: refs/tags/x86-urgent-2026-03-29
+  - ref: refs/tags/i2c-for-7.0-rc6
     old: 0000000000000000000000000000000000000000
-    new: 2d8613e68d2a8775328121b5acda5e3d05df9fe6
+    new: c5f7dfe34e5e2d408f7f23c7fe7ff60014c1c81b
