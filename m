@@ -1,22 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Sun, 29 Mar 2026 17:00:14 -0000
-Message-Id: <177480361466.580434.15777624187083028346@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jassibrar/mailbox
+Date: Sun, 29 Mar 2026 17:09:54 -0000
+Message-Id: <177480419484.586100.1098477196097131083@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: ast
+repo: pub/scm/linux/kernel/git/jassibrar/mailbox
+user: jassibrar
 changes:
   - ref: refs/heads/for-next
-    old: 5e961eebef3011697cfc0f0b7d8c4f31c5563c74
-    new: b6b5e0ebd429d66ce37ae5af649a74ea1f041d92
+    old: 80784b427970219ebc338a6fb4118cde67a6c317
+    new: 220045247712ddfda1fcedfa61e91dae24e63bcf
     log: |
-         d457072576a6a60ba853b1d815f123da57b48021 bpf: Support struct btf_struct_meta via KF_IMPLICIT_ARGS
-         101a9d9df8e794af8bf06e1e09c176e2dab2abf6 selftests/bpf: Update kfuncs using btf_struct_meta to new variants
-         398ad123e83045cd187c74689cd46851b0a0459f selftests/bpf: Add few tests for alu32 shift value tracking and zext
-         b6b5e0ebd429d66ce37ae5af649a74ea1f041d92 bpf,arc_jit: Fix missing newline in pr_err messages
+         220045247712ddfda1fcedfa61e91dae24e63bcf dt-bindings: mailbox: qcom-ipcc: Document the Eliza Inter-Processor Communication Controller
          
