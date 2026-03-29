@@ -1,23 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jejb/openssl_tpm2_engine
-Date: Sun, 29 Mar 2026 16:54:36 -0000
-Message-Id: <177480327663.573001.17294500177961323787@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Sun, 29 Mar 2026 16:56:52 -0000
+Message-Id: <177480341266.576344.18126099796366570576@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jejb/openssl_tpm2_engine
-user: jejb
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: ast
 changes:
   - ref: refs/heads/master
-    old: 7457a726e506f85ffd252726d1ceb9611ccab456
-    new: eac806874f9c969a91dd1cdfa67f51b59667d011
+    old: 5e961eebef3011697cfc0f0b7d8c4f31c5563c74
+    new: 101a9d9df8e794af8bf06e1e09c176e2dab2abf6
     log: |
-         3e8b0edc90891ae440bdb43e57243a1d6dc4904b doc: add creation data
-         f285b7b11a472cb10ed55b0efb32c08d1cb5e7d1 tss: add creation data to tpm2_Create
-         d62a97a0c43fa2497b8fe4e229e2e36701fc0a14 Add creation data ASN.1 and ability to process it
-         68262ffd14c32705bf9a9dcb7cff085b675df055 tpm2-common: break out pcr handling functions
-         eac806874f9c969a91dd1cdfa67f51b59667d011 tools: add ability to specify creation data and pcrs
+         d457072576a6a60ba853b1d815f123da57b48021 bpf: Support struct btf_struct_meta via KF_IMPLICIT_ARGS
+         101a9d9df8e794af8bf06e1e09c176e2dab2abf6 selftests/bpf: Update kfuncs using btf_struct_meta to new variants
          
