@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6465052682677517242=="
+Content-Type: multipart/mixed; boundary="===============3554754129438197461=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/gregkh
-Date: Sun, 29 Mar 2026 13:04:26 -0000
-Message-Id: <177478946672.387112.10147432646003676938@gitolite.kernel.org>
+Date: Sun, 29 Mar 2026 13:04:50 -0000
+Message-Id: <177478949063.387437.4094891783085149532@gitolite.kernel.org>
 
---===============6465052682677517242==
+--===============3554754129438197461==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/gregkh
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/clanker
-    old: df267e6da28d245b2c39636899f5ac69a619a384
-    new: 942b639af1699375a0b0ad03cb7690f183cb3b6c
-    log: revlist-df267e6da28d-942b639af169.txt
+  - ref: refs/heads/main
+    old: c369299895a591d96745d6492d4888259b004a9e
+    new: cbfffcca2bf0622b601b7eaf477aa29035169184
+    log: revlist-c369299895a5-cbfffcca2bf0.txt
 
---===============6465052682677517242==
+--===============3554754129438197461==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1774789426 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1774789454 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/gregkh.git
-nonce 1774789447-5dbdb5b35079fae4df3ddb01b470c32aef729332
+nonce 1774789475-b2b02a88d4e8f0541416d1ceea2dd676b332defa
 
-df267e6da28d245b2c39636899f5ac69a619a384 942b639af1699375a0b0ad03cb7690f183cb3b6c refs/heads/clanker
+c369299895a591d96745d6492d4888259b004a9e cbfffcca2bf0622b601b7eaf477aa29035169184 refs/heads/main
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmnJIzIbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+abEP/AvEIQn+TPSRIen1Fmwx
-LX5orQp5qdmcgfc+oJCUoJBhYwT5sbG5LYr0/gHSjnbRHX2Gapn2+eHVCC9wfH2W
-+z50a2BaAsSnvY4zE8cxXLAYBABixzruEj4nnqw90Cv4UVc2PHs9My4UMhJsS1l+
-twmh4Y8zqYKheECBG5JYk9FqEXfYLFGV48ro/d14IT9FZPARm+C0FngVKAmmk1d0
-pIkUI4X6oWmxXpFOPCIWJdPcZhC50aVjZYNh2UnZZPlP7AFuqxAa9eXDAmvSuc6T
-K8mH5R+WxsFjqjNr52gPup+4O2ngmZETiDhWk2Z0jteF7YLpX/tSmAtxSC2WjohD
-5xjcT+G5tg2JGEMv1crJ/bKrQkMDjZEgOkTVado2KpfmBMI/mhC3Q9/FJ73Y62QR
-X6FgQM0Q/Cl3vGbFfBmTQEehriW5Q2w6fkIqXLajRh/PnYsGfSK6H2vrBaDTfmE0
-ZG/47qYDZFpj1oTSftPsBzhS/bmlnBNEHz5dpcAqSdKxg+vjNMJygqOoDfJHpynR
-kytQgqDouuawG5O346+fNfl2zbrSe7q2W5hCVqbHQ0kMs8QrydRWAsM96lc/iH/d
-PSezKeeybY1OuP2kjhdDiTaYK/UplqPjuCWa2IpH12x6BqneKuHPYtDEusCnLZ3q
-K7jCJ5Xy5nQBl8/xVlgIZiLA
-=nVkP
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmnJI04bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+VFcQAJqz46xDVbCbRs45r8WK
+jiTffRBTWZV0KMRwzD06ndfKhWijlPXWcXrbzPwS+bYEZXHzjVzLGtHi2DSA2UlM
+v41hvHf2T5cHxIpNRpix1iEGkddq8yv12VaOqWBB2fJKW5vq0vzclL+bSXb7R3V2
+/X29x6dBVi3ZgaXOn9GSCg8bpdpA+ysk2cKOLQci6vmSSsodNpOtDcRJsTJcxNFl
+n+ol4hRZCZOwEPrRkycL8y6aeGfJGVq/9e44rVBDdunsW4cndbr9SsDKa/aELeEy
+4kmij8nCnxZSsr9/Za8CBjQ3KkWnH4feYCRhVIchtrwt9jppFUTjHFKdfOTxGfB/
+1vrjhF2vzjta0xinGDrclRQA8VjkBiRlG00yDjzD9s5vaTv1jfOR3GSgUvag2aYQ
+3K/FJQKp9wg8PBxD9pw7PQTZysmhMTYqx0Q1wXTjBHNk5QlTSDtYzMaWMc0fteXm
+OaIMu1R0Ht9ZmRt96VLQOz6c7iuvDnH1G6w8KTcSoEyYNGopzIbQpz6udXWrlBnD
+igIvOZR12WqHWakIvqjZREMXhcxcH5eLb427PT/S32SwLFh8qFX1tHEIwEpAHaVw
+lwawvqC6qlm8oFPgR4g8MR4j56F8FmHk66diavJQl+amMH0727NXavE/h2KSJQDu
+PupxyG/mxJUGenfFTqC85+dS
+=auua
 -----END PGP SIGNATURE-----
 
---===============6465052682677517242==
+--===============3554754129438197461==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-df267e6da28d-942b639af169.txt
+Content-Disposition: attachment; filename=revlist-c369299895a5-cbfffcca2bf0.txt
 
 aa8a3f3c67235422a0c3608a8772f69ca3b7b63f xfrm: add missing extack for XFRMA_SA_PCPU in add_acquire and allocspi
 b57defcf8f109da5ba9cf59b2a736606faf3d846 xfrm: fix the condition on x->pcpu_num in xfrm_sa_len
@@ -449,16 +449,5 @@ be762d8b6dd7efacb61937d20f8475db8f207655 Merge tag 'hwmon-for-v7.0-rc6' of git:/
 250ab25391edeeab8462b68be42e4904506c409c tracing: Drain deferred trigger frees if kthread creation fails
 e522b75c44f580ba8a58e8d9f263643c7936ddeb Merge tag 's390-7.0-6' of git://git.kernel.org/pub/scm/linux/kernel/git/s390/linux
 cbfffcca2bf0622b601b7eaf477aa29035169184 Merge tag 'trace-v7.0-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
-e77f6bfd4b137aca50e8e54efe0c02b1e8d92b8b leds: qcom-lpg: Check for array overflow when selecting the high resolution
-b6556a2b7cbbf2d06eb5b594483e192a836adb92 net: mctp: usb: properly drop the usb interface on probe error
-aeb96c6fca47dbed008d15c84110297710fe6075 wifi: rtw88: properly drop usb interface reference on error
-2d3b57cf91a2abcfc5f32aa8c13d771bed1ba2c4 mmc: moxart: fix potential use-after-free on remove path.
-83a764175bc0416f73b074d08ff8ab0181efff4b mmc: meson-gx: fix potential use-after-free on remove path.
-c8cdc4fcf9bd0251040952ab558a14d3f9acc436 drm/vc4: platform_get_irq_byname() returns an int
-dfc6ec9180ba094a8543ad9445337beb3c56817c i2c: s3c24xx: check the size of the SMBUS message before using it
-4cb4f71a5367afd2293703f4d202cdf1ed53bb7f f2fs: fix potential deadlock in f2fs_convert_inline_inode
-6549754fcc48457e17c6d95540b03cf22efb1179 LoongArch: add spectre boundry for syscall dispatch table
-e7cb025cd5d0b75f6f18911a8fafb027dd392d37 drm/amdkfd: stop speculation on the kfd_ioctl path
-942b639af1699375a0b0ad03cb7690f183cb3b6c drm/ioc32: stop speculation on the drm_compat_ioctl path
 
---===============6465052682677517242==--
+--===============3554754129438197461==--
