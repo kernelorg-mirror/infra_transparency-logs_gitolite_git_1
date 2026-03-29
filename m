@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7492142915305282376=="
+Content-Type: multipart/mixed; boundary="===============2777851729192166331=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Sun, 29 Mar 2026 04:18:35 -0000
-Message-Id: <177475791590.4176335.2172697461802148250@gitolite.kernel.org>
+Date: Sun, 29 Mar 2026 04:18:37 -0000
+Message-Id: <177475791711.4176441.4782514110922395608@gitolite.kernel.org>
 
---===============7492142915305282376==
+--===============2777851729192166331==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/mm-new
-    old: e4b3c4494ae831396aded19f30132826a0d63031
-    new: df2267b6380964f1305128001f05bc043ddf1f37
-    log: revlist-e4b3c4494ae8-df2267b63809.txt
+  - ref: refs/heads/mm-unstable
+    old: d89162a3c974c83d3838f7d1f125d9785532be57
+    new: 57e5b07deacb0a9bd7b8c9b933ff72e902d4f06b
+    log: revlist-d89162a3c974-57e5b07deacb.txt
 
---===============7492142915305282376==
+--===============2777851729192166331==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e4b3c4494ae8-df2267b63809.txt
+Content-Disposition: attachment; filename=revlist-d89162a3c974-57e5b07deacb.txt
 
 089025bbf3a0d0b148571aa62aedbb7f91fb09f1 mm/madvise: drop range checks in madvise_free_single_vma()
 7d199bb9b28182d61aae779b9627e4a30e3758af mm/memory: remove "zap_details" parameter from zap_page_range_single()
@@ -340,36 +340,5 @@ e5c84290ed7cd36263de2f818543583a79f13245 kho: document kexec-metadata tracking f
 54334ac5d1c5c44867adf6e8e9ac1b432eed6d66 mm/mprotect: move softleaf code out of the main function
 ac1af3fade493a45d9295ccea3905ec2b632782b mm/mprotect: special-case small folios when applying write permissions
 57e5b07deacb0a9bd7b8c9b933ff72e902d4f06b lib/maple_tree: fix swapped arguments in mas_safe_pivot() call
-7f032bbdae472855637186da608663790aee39c6 memory tiering: do not allow promotion if NUMA_BALANCING_MEMORY_TIERING is disabled
-97ba13e8f3434eeb654fa129e38bad38c7fb4dd5 mm/memfd: use folio_nr_pages() for shmem inode accounting
-546d8f7a84851ab06c1eeb6eedc5c52b409c6c8b mm/memfd_luo: optimize shmem_recalc_inode calls in retrieve path
-a2fc7cb3b5eef16d701c0f4216beceddb872c12c mm/memfd_luo: remove unnecessary memset in zero-size memfd path
-4118d3f4cc31a4610ecbed47f6174f7a5cb0a96c mm/memfd_luo: use i_size_write() to set inode size during retrieve
-82743d1b1d8c615b2a43826af010f5a09eedc2a5 mm/memfd_luo: fix physical address conversion in put_folios cleanup
-5b0ff1e57c0bcb6458aad976817fa9f99fba0985 mm/memfd_luo: remove folio from page cache when accounting fails
-89f12cdb9d91f55c95c03ed503cbd0bbecdb1562 mm/memfd_luo: fix integer overflow in memfd_luo_preserve_folios
-916e6df3c0487d694b27575d9a4334b30ca4deaf mm: start background writeback based on per-wb threshold for strictlimit BDIs
-6b5acd7cd7b030a9cb8bd6de668db11463690b9c liveupdate: prevent double management of files
-18635597c7434918e564d8e91cea7c036a18cb8c memfd: implement get_id for memfd_luo
-7fddb349f4ff221c330d3d817263534c7d60e41b selftests: liveupdate: add test for double preservation
-2ae3e0b4e7e3c818f12fd6d74c4ab842ee9586e6 mm: vmscan: fix dirty folios throttling on cgroup v1 for MGLRU
-d5ac77c45d217f125f75fad4ef2976cf8df14219 mm/vma: cleanup error handling path in vma_expand()
-d3efb1e0ad6b4600397e5e858ddb75a1034eea3f mm: use vma_start_write_killable() in mm syscalls
-eb8e659db18626b682f83d6e050cadcae3d97a94 mm/khugepaged: use vma_start_write_killable() in collapse_huge_page()
-39e745908872e61aaed9f784a39fceea4562a6b2 mm/vma: use vma_start_write_killable() in vma operations
-63aebd0bb1792b04260f4379fe541aa1c8e6c81c mm: use vma_start_write_killable() in process_vma_walk_lock()
-a4c57b50cf947e0ee71966d2c15b6309a715fde3 KVM: PPC: use vma_start_write_killable() in kvmppc_memslot_page_merge()
-6f1495f81a6686945022cc608c9a4e42bab6bb76 liveupdate: safely print untrusted strings
-577e2fa451fb6671856d0802c8f066eaddf09cc9 liveupdate: synchronize lazy initialization of FLB private state
-669db837e2d7ef414c5aa708846edd8d44896491 liveupdate: protect file handler list with rwsem
-faa1ee75f00677d7caa04e19d9d4f4e0909c5cb3 liveupdate: protect FLB lists with luo_register_rwlock
-dc1333ce4ec5d97af05da07800acdba1813878f6 liveupdate: defer FLB module refcounting to active sessions
-1fedd25bb5d0c3bea16a0136110cffe4c753efaa liveupdate: remove luo_session_quiesce()
-06ac8586aff847d3e8c2aeea08f2d03d895de1ff liveupdate: auto unregister FLBs on file handler unregistration
-beb66d4cdc2a684fa9d8c4b13e98a274afe46431 liveupdate: remove liveupdate_test_unregister()
-671e02b31ebcdb3605bef682c438ba28c398d921 liveupdate: make unregister functions return void
-fc0c3c18b4f2c87acbcc2195e564d3d5de61342f liveupdate: defer file handler module refcounting to active sessions
-8bee7b4b574f880ff2c7491212e2ef01cd82f2fd mm/alloc_tag: clear codetag for pages allocated before page_ext initialization
-df2267b6380964f1305128001f05bc043ddf1f37 mm/vmscan: prevent MGLRU reclaim from pinning address space
 
---===============7492142915305282376==--
+--===============2777851729192166331==--
