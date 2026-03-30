@@ -1,51 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============1633994842275471381=="
+Content-Type: multipart/mixed; boundary="===============0030586128106763365=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Mon, 30 Mar 2026 17:56:10 -0000
-Message-Id: <177489337039.1909251.11074325136615045002@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Mon, 30 Mar 2026 17:56:13 -0000
+Message-Id: <177489337366.1909385.9675437630833799681@gitolite.kernel.org>
 
---===============1633994842275471381==
+--===============0030586128106763365==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-7.1
+  - ref: refs/heads/asoc-7.1
     old: 1e28cdeec31333b165f72b6ad647652c4c6f6ff2
     new: 2a740dc5892a0e90e32ddae4d0ece501ace2adfc
     log: revlist-1e28cdeec313-2a740dc5892a.txt
 
---===============1633994842275471381==
+--===============0030586128106763365==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1774893368 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1774893368-e40c7d0448a9002c8a33d61d73c927c1612b813f
+pusher C3F436CA30F5D8EB 1774893372 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1774893371-583f2c539312297197ecd90489f77651b5e040fa
 
-1e28cdeec31333b165f72b6ad647652c4c6f6ff2 2a740dc5892a0e90e32ddae4d0ece501ace2adfc refs/heads/for-7.1
+1e28cdeec31333b165f72b6ad647652c4c6f6ff2 2a740dc5892a0e90e32ddae4d0ece501ace2adfc refs/heads/asoc-7.1
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmnKuTgACgkQJNaLcl1U
-h9BY8wgAgKplh0JVzeMPijJT26qeCwqgFaU0JRjJQac3HqOkbgREno7EibQc5Xge
-VoMoGzIZjZqPnrIZZNHyNBIiTUbxCtBB91FRi7/l15kYrTzmo4iSMFRs/eWoUr3l
-HrxnBhNprgf3xFQgMY0wgO8V+G5bHIDxszrSXDLHLI2k1velYtcsfl5FjFwuG6RE
-zM5M9OrVY32MkWdTQwScXRp+iR3eCkQqhNTFWTLg/7P1NTmJdRguzUtTrWUc5FDW
-bsWbdFN1hl/eYBDxAgUUoJbKcxzmUJVeZt72EFCSlu6mAure6IpzCLM5+D7KRDya
-FsVoHpJp7punXVIzdMLvUP2OcS6MSw==
-=CyGi
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmnKuTwACgkQJNaLcl1U
+h9CD+Qf/Xvx7kSFywK+6cKI3YQRv+wouVcyU0ASFW4ITcIN4+r2Y+lp5Yfa1SENj
+wa5m72qJxwc5TwXJ/YDKnA6J0lPGDy7VDDY4y/7mZP0uNDJLyZjTSuzXDDPPde/Q
+qyBdszMYPs8k32a2LFdIPr0FJX35AVUTB45bvLMV0vg1etnQFMR+TxKMRuDLNzgF
+rWFUwKWMp5JJWHYqqmG++i2/X5hUCDkjJOHeDA2OLbOxVPFoZ805muXa7D6e61MX
+95Q/DE/AUfHii1tVM6vpwb4nh20VG27XdS2MYJUMRynx86/XIaOxupqdJ7LeSlIY
+GAAgxFR1q4zKkqCg2KaT9xRsas0JnA==
+=KTiQ
 -----END PGP SIGNATURE-----
 
---===============1633994842275471381==
+--===============0030586128106763365==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -557,4 +557,4 @@ d1384f70b2e3162786bc73b8f86c27417803bd57 Merge tag 'vfs-7.0-rc6.fixes' of git://
 8ec017cf31299c4b6287ebe27afe81c986aeef88 ASoC: amd: yc: Add DMI entry for HP Laptop 15-fc0xxx
 2a740dc5892a0e90e32ddae4d0ece501ace2adfc ASoC: Merge up fixes
 
---===============1633994842275471381==--
+--===============0030586128106763365==--
