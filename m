@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/kvmarm/kvmarm
-Date: Mon, 30 Mar 2026 07:36:02 -0000
-Message-Id: <177485616257.1372969.14737207068444307426@gitolite.kernel.org>
+Date: Mon, 30 Mar 2026 07:36:52 -0000
+Message-Id: <177485621262.1373518.16014345820734536861@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,126 +11,255 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/kvmarm/kvmarm
 user: maz
 changes:
-  - ref: refs/tags/staging-3.10-rc1
-    old: 592361876a77f3025955584e5fcda3e65d6d652c
+  - ref: refs/tags/omap-devel-pm-for-v3.6
+    old: 0d77129a53156fdefb41fadd3b9cfb6c6f4a53d8
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/staging-3.10-rc2
-    old: 2ecb528656edd9908740b5e0dba588b24be3703a
+  - ref: refs/tags/omap-pm-regulator-for-v3.5
+    old: 547d40356aa965857b342d27daefc60354e95ace
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/staging-3.10-rc4
-    old: 25bb2a208f4da7d042bd5b1fa9c6b8dd62db99bd
+  - ref: refs/tags/pm
+    old: d3da6f90b841a03898c24a0ed75da2c66b5cb710
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/staging-3.11-rc1
-    old: 9047c752186d9e2ec11810ccbc711f87ce8e2d0c
+  - ref: refs/tags/pm+acpi-2-3.13-rc1
+    old: 6ac7b4e39a2fb0c9bc6e29e6414d3517d729bcb2
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/staging-3.11-rc2
-    old: 181d8e59313994227224bc7121b2d3fc9069d1ee
+  - ref: refs/tags/pm+acpi-3.10-late
+    old: 4eeef5e42485d449990e155ca60d97ffbdfba004
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/staging-3.11-rc3
-    old: 6cffdb38a36af29ed4a7733178e12e876b86840d
+  - ref: refs/tags/pm+acpi-3.10-rc1
+    old: ed353af75ac08f8c8ad920eca2b64a4893d8410b
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/staging-3.11-rc5
-    old: c7654e204702399cec84a072f4561a7a1e3aef8b
+  - ref: refs/tags/pm+acpi-3.10-rc2
+    old: dbfa58abd70a49ed4dbe0a86cc82994dd0bc1c70
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/staging-3.12-rc1
-    old: 69f2ed6a2ef5335edbe5040d9f106916dfaf9f05
+  - ref: refs/tags/pm+acpi-3.10-rc3
+    old: 7d8e5ab549bf56ec045c02cf4ef5844ba670471b
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/staging-3.12-rc2
-    old: 96f60ff70402aab977512e9f5199aab7ba81ae35
+  - ref: refs/tags/pm+acpi-3.10-rc5
+    old: 749ef90c6dc1387ba6bf7acc555967bbee8bac8c
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/staging-3.12-rc4
-    old: f0c37cfcc4b1fb5406242a9377bbb8af0b8444e1
+  - ref: refs/tags/pm+acpi-3.11-rc1
+    old: 97da33226af15b05e3336bff88ff9d988a2ba8d0
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/staging-3.13-rc1
-    old: 2dd114481ef3c14214a10839e9b66e67ac306266
+  - ref: refs/tags/pm+acpi-3.11-rc1-more
+    old: 997e35cd9f4f7a9a542186e721461a7eb304aff5
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/staging-3.13-rc2
-    old: 9dfc92a6fce7f1026cd554782c9e193e08a6b0f1
+  - ref: refs/tags/pm+acpi-3.11-rc2
+    old: 3189ce929c33f94fa4a653b64b2f2d4b2cf783b3
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/staging-3.13-rc3
-    old: 07f1693b5bb49930cdea46a6691987c4c1306df2
+  - ref: refs/tags/pm+acpi-3.11-rc3
+    old: f9de8ebcf1faaa44a336beeca177623e85ed383b
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/staging-3.13-rc5
-    old: b5a7c950a1cf46e10ec571db9656dd3ba27b89b3
+  - ref: refs/tags/pm+acpi-3.11-rc4
+    old: 49d76ffbe6bf6247897a06741e08e185d24d6e38
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/staging-3.14-rc1
-    old: f8eebf420c5da730a30b05718d63d9bc5809cfff
+  - ref: refs/tags/pm+acpi-3.11-rc5
+    old: 922c8f1bf26049bce136b6813d6a4e04d0274804
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/staging-3.14-rc3
-    old: 943d8cd872f8e24d29f8a2b78d4b85ee640fd511
+  - ref: refs/tags/pm+acpi-3.12-late
+    old: e2a61e5ed31f63080418f79fb656ad94bc47343b
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/staging-3.14-rc4
-    old: 6d47a2eb0d8410788352e0300c54650123b75a31
+  - ref: refs/tags/pm+acpi-3.12-rc1
+    old: 9031aa2b0be8a07d02449772b9fb39651a5a7471
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/staging-3.15-rc1
-    old: e38d0c4aa59adbd5a31da452c44af558838e2f29
+  - ref: refs/tags/pm+acpi-3.12-rc2
+    old: 69f7f8ebc45efafd56c621b9c4353878559523bb
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/staging-3.15-rc2
-    old: 5bd665603b80f7583ecd7907e6bbab9970255346
+  - ref: refs/tags/pm+acpi-3.12-rc3
+    old: 96d45bfb67b60c02ac1833d55840940f7d826790
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/staging-3.15-rc3
-    old: 3f2f196f8727b9fa314518708e9c4c2d9fbe318b
+  - ref: refs/tags/pm+acpi-3.12-rc4
+    old: 05b62ec0b23c91831fd2104e61ba2913f704f572
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/staging-3.15-rc4
-    old: bd5c1747fe05175d82d4032011b2bb2f346f0c73
+  - ref: refs/tags/pm+acpi-3.12-rc5
+    old: c42cc7ceeb9614ea7a0bbf187bad61b505538b35
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/staging-3.15-rc6
-    old: f32fba46dc5f3d0e85d4d87f78969a8adf638127
+  - ref: refs/tags/pm+acpi-3.12-rc6
+    old: 60710342f67c452ab151f3065819247ca258603e
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/staging-3.15-rc8
-    old: e8edebf46c6e1e599f81c82f3784692d03c763ee
+  - ref: refs/tags/pm+acpi-3.12-rc7
+    old: e4ea6436b8381a1651468b64feef9af3154eced6
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/staging-3.16-rc1
-    old: 23295514416d0f435b9bb262b51a73b376a06571
+  - ref: refs/tags/pm+acpi-3.13-rc1
+    old: 3626261f90d288218719eb7724a772a833a553cc
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/staging-3.3
-    old: dd43a80e059a7672284a2a418e2b7c761d8550e2
+  - ref: refs/tags/pm+acpi-3.13-rc2
+    old: cda38fd17e708d44403bfd70df1a4304f8a1f504
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/staging-3.3-rc3
-    old: 93ca733885df283768ab16347d6f85caf030f476
+  - ref: refs/tags/pm+acpi-3.13-rc6
+    old: 162e3c3b5ca85f56a3e7c3ab1a17f183fc79ead0
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/staging-3.4-rc2
-    old: ee04c6f51f96dcbcd4bc8c6cb5081f521fee0ee2
+  - ref: refs/tags/pm+acpi-3.13-rc7
+    old: 7f33c70887cbe66510410ddfde39fde03f94815f
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/staging-3.4-rc4
-    old: 38baeca496e13262bb129c8615a0d4b891168295
+  - ref: refs/tags/pm+acpi-3.13-rc8
+    old: bf89c89210c5f989fc026d6ea07ff8666e85da06
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/staging-3.5-rc1
-    old: b9d10c8cbcef90ed8a1e359d137086fd7f5c5463
+  - ref: refs/tags/pm+acpi-3.14-rc1
+    old: 8b51cb5edbf00815500aa624f5495020f8c0e9c2
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/staging-3.5-rc4
-    old: 8e8071f3896838f848b4303fd36b60d6031f8317
+  - ref: refs/tags/pm+acpi-3.14-rc1-2
+    old: b5d01e6bbc4102bdee46a54a7779c03718b8e1a8
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/staging-3.6
-    old: 6f30d82cbb08dec8f5f6a174c276ee6129f8d2ec
+  - ref: refs/tags/pm+acpi-3.14-rc2
+    old: 57e5326df9f75688fd86bf3b0c0650e25c960da0
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/staging-3.6-rc1
-    old: 53a1083ec5d999f9c98c097b2d7ed090dcd129a5
+  - ref: refs/tags/pm+acpi-3.14-rc3
+    old: ef802aad26dbaba9d33ffe1fdaf2a72de9811cab
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/staging-3.6-rc3
-    old: 70050b0508b53e09333fdaab92cb277cb42ec32c
+  - ref: refs/tags/pm+acpi-3.14-rc4
+    old: ca3356f36d5027cf1a54dfcef38f8d72a70ef4a6
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/staging-3.6-rc6
-    old: 2df7535ee504a47a8c50694e939aafab5269e4c3
+  - ref: refs/tags/pm+acpi-3.14-rc5
+    old: 64215d7900c0da7295f1c5596761d108fca260a2
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/staging-3.7-rc2
-    old: e0aeef68fea40c971e78fc084642d8ef21eb1acc
+  - ref: refs/tags/pm+acpi-3.14-rc6
+    old: 8e4052079b53c35e6e25a698f865c67e700b7a24
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/staging-3.7-rc5
-    old: 0505fe0010bf85eefff5a664e71dac4120113d9a
+  - ref: refs/tags/pm+acpi-3.14-rc7
+    old: a83d16e46ceaa5cb028d56c3ec922d654f79f2c2
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/staging-3.8-rc1
-    old: 85f72d2be6bb5e9a7bf475539e9c66d8b766db63
+  - ref: refs/tags/pm+acpi-3.15-rc1
+    old: 789ddf733490b422c5c8703490223812382a802d
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/staging-3.8-rc3
-    old: cd63c135d5100a28324c54f471767e665337569d
+  - ref: refs/tags/pm+acpi-3.15-rc1-2
+    old: 967a368c663e5a594e44c8f1277d937c104b2758
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/staging-3.8-rc4
-    old: 91a4bd5c2e65c6e1ba75b005e9e129ec53744bb9
+  - ref: refs/tags/pm+acpi-3.15-rc1-3
+    old: 1f7222abe7be728406b3a87bab3f522c6d332337
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/staging-3.9-rc2
-    old: 141ea8f267ab87b8ebc0222952c56e19dc18b660
+  - ref: refs/tags/pm+acpi-3.15-rc3
+    old: f8d9c2d826f867c05806246c3c3d9ee5a880fd43
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/staging-3.9-rc4
-    old: 0082902b8a91f870afe8d5c2f400096ec25a00eb
+  - ref: refs/tags/pm+acpi-3.15-rc4
+    old: 30076f5d1d188b9d7893d747a9b19ce4b17c80f4
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/tags/pm+acpi-3.15-rc6
+    old: f5c3d89b561d7eefcc20d555e54b88ec52a71940
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/tags/pm+acpi-3.15-rc8
+    old: 8af8b4548c01b0448a3c70a4c2f8e2bac414a78a
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/tags/pm+acpi-3.16-rc1
+    old: 00446ab047e38fb9d1a4123692ee9430f4dc32bf
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/tags/pm+acpi-3.16-rc1-2
+    old: a2e6d2b14b8a84ea9de9bd7e508b5508f44fd9ee
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/tags/pm+acpi-3.9-rc1
+    old: 3357bbac1d8bbea141c11cdc98ad8f64590cf21b
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/tags/pm+acpi-3.9-rc2
+    old: 79f4d284a4bfbf23db7dac4074e4661f78789b0b
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/tags/pm+acpi-3.9-rc5
+    old: fe8a58e951d3d0f6f83c7a9e221df0254e0967c5
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/tags/pm+acpi-3.9-rc6
+    old: 141e073deb3565acb1f7124ba3a8b282573187ca
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/tags/pm+acpi-fixes-3.12-rc1
+    old: a81385a11389c1193f72059aed4148bacd7a4e1a
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/tags/pm+acpi-fixes-3.9-rc1
+    old: f515a2b81b1bd517f22ae85a21321f8a8f084a47
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/tags/pm+acpi-for-3.7-rc3
+    old: 428c103121dd28be76207e73d1c16ebf890614e8
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/tags/pm+acpi-for-3.8-rc1
+    old: 4fe44c3e1f8e40046fa59127e3d7b795322db933
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/tags/pm+acpi-for-3.8-rc3
+    old: d927d311b06fb313b809fe590660ab22bd4da54b
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/tags/pm+acpi-for-3.8-rc4
+    old: cc4582176983d022c97fe6563226968e093c47d7
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/tags/pm+acpi-for-3.8-rc5
+    old: 573aa24a7d3f9b8bce3ab0cf475230467d02f32f
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/tags/pm-3.11-rc6
+    old: 71c7d8f51c1db8e241a94523c3d4ec84e977761e
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/tags/pm-3.13-rc3
+    old: 3b0dc3f97009e58c320074469b666e5103131af6
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/tags/pm-3.13-rc3-fixup
+    old: 87b62a9c3eb7558cab3cd0d25de2ea970bdfcc18
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/tags/pm-3.15-final
+    old: b094724e054e82741e39069b24d22346e8f48bf9
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/tags/pm-3.9-rc7
+    old: dd1ea9c6c0e668c3f3f717afb20c1ae94abc8abc
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/tags/pm-fix-for-3.3-rc2
+    old: e5332a6c024096b7e867e5693b80697cc8a61349
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/tags/pm-fixes-for-3.3
+    old: 60cdc2ca459fe82b0298dc6cc180e5139945e925
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/tags/pm-fixes-for-3.3-rc3
+    old: e9440b70934f64dfac199cb3c306e0663837e636
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/tags/pm-for-3.4
+    old: 9192662f7a49a11559ceb1c1ac6491fef6f9e07c
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/tags/pm-for-3.4-part-2
+    old: 33259645578e658add83def5ceebb87b155923ef
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/tags/pm-for-3.4-rc5
+    old: 12637f199289dd860ff1d8b14532b974f92426dd
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/tags/pm-for-3.5
+    old: bcdcced6cd785eadcdc972eec3518c66d6f05d46
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/tags/pm-for-3.5-rc5
+    old: 6a4d919a713d1e74c76f8909f8cf10e846049f56
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/tags/pm-for-3.5-rc7
+    old: c24f10ec2f48320f309d6fc33da6eeb5acda99ce
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/tags/pm-for-3.6-rc1
+    old: 264a814fa0d793711c642df0ef7f5c2718e617fe
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/tags/pm-for-3.6-rc2
+    old: 1867295cea191d65576f4f28def0024579b172f0
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/tags/pm-for-3.6-rc3
+    old: 458da68e3f90ea84c719e0d06732edcc5f532356
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/tags/pm-for-3.6-rc6
+    old: ea2b4e30192d9033949c7e2781f6bc94f2503b77
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/tags/pm-for-3.7-rc1
+    old: e01c3a26948bf6b859d85c15a68bbfede2acc87c
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/tags/pm-for-3.7-rc4
+    old: 963473e25e6d8d7613a7a8406bc3581f79425a15
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/tags/pm-for-3.7-rc7
+    old: 14c691cca39b2220d52b03bc200ed02ccb68ca07
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/tags/pm-merge
+    old: 8e4e7f77ad489c05f241cf40ead672e491431c43
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/tags/pm-post-3.5-rc7
+    old: 76ac64beb450fbf41ade3762025bb9ab6f4bf3f9
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/tags/pm2
+    old: c52b28097afa8c9b0aab8ce8e56fe686834d196e
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/tags/pmu-exynos-for-v3.10
+    old: 033a15a00ade71fa0618498ed39c01998148f67c
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/tags/rafael-pm-devfreq
+    old: 30ed2b811c093e1c466501c4b80c6d777f2f647b
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/tags/rafael-pm-qos
+    old: 55245fd8f02a8b90220a78f2584675cf95a114b7
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/tags/rpmsg
+    old: 7c9edfce810cf8052bc8af320a22c31a81f98051
     new: 0000000000000000000000000000000000000000
