@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/kvmarm/kvmarm
-Date: Mon, 30 Mar 2026 07:44:45 -0000
-Message-Id: <177485668508.1382109.17039215455728278025@gitolite.kernel.org>
+Date: Mon, 30 Mar 2026 07:45:08 -0000
+Message-Id: <177485670802.1384938.10837804858632091147@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,108 +11,24 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/kvmarm/kvmarm
 user: maz
 changes:
-  - ref: refs/tags/cleanup
-    old: 581411345f274e115a445a6bb064ed87acf48b36
+  - ref: refs/tags/defconfig
+    old: 667d13313fe8fb38769397e72ccf5f736bcfca49
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/cleanup-3.11-1
-    old: b4597059bc94fbe14c03262998b1a475459ca950
+  - ref: refs/tags/defconfig-3.11-1
+    old: 74a8f08d0025c8b706c33d37ce6bbc61967f4b2b
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/cleanup-3.11-2
-    old: 36a4d2a0e65841fc2db989fee04005470aec0e93
+  - ref: refs/tags/defconfig-3.11-2
+    old: 62c1e3b7db00ff1668489c180b515a1e3550621b
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/cleanup-3.11-3
-    old: 8affbe87ddefe611788860bad1038e4dea64b17c
+  - ref: refs/tags/defconfig-3.11-3
+    old: 1f57554e1298347036f6f468ecf147137098e894
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/cleanup-3.11-4
-    old: 874e57d3aae04ac11bd3c8deac1245962c0e6fd9
+  - ref: refs/tags/defconfig-3.12
+    old: 9e3314089aceafddcbc7e870d213a8ff3d29288a
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/cleanup-3.15
-    old: d28b4f632ac94cfe08c2b101af7b93496b267e26
+  - ref: refs/tags/defconfig-for-3.16
+    old: 732996b40c98a1f1c98ac7e30e3dcc7afd469533
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/cleanup-for-3.16
-    old: 74e8e6a3c96656c558da6e620926e8ebee81229e
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/cleanup-for-linus
-    old: 796c734c3000f5844b8788f6559aba6fa4de9f05
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/cleanup-for-linus-2
-    old: 829bfe852a955934f1d43c19fdcc0a2a28c37dab
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/cleanup-initcall
-    old: e770d00e94623d149f5cf11ed17e0fa11ab296ca
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/cleanup2
-    old: 94d69dea2f6c71aa4830424bce3e9f7b4527dc11
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/cleanup3-3.15
-    old: 6f81a3a0220393550aa7a7c1fe02c4d49cd528bd
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/cleanup_for_v3.10
-    old: 6ed680794f4077b33bbb691943515009e4f17de6
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/cleanup_for_v3.9
-    old: 716e4b1e338c0fd3d3d2756108fa42001e0015d0
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/cleanup_for_v3.9_round2
-    old: cca657f8cab1718fc2efb79ec2cc4e0feb455776
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/cleanup_for_v3.9_round3
-    old: d7a0f631d565d1124a87ff378074d7865336b86a
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/clksrc-cleanup-for-3.10
-    old: b1d79534764aa7342e4bf7898780f8e853dd9393
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/clksrc-cleanup-for-3.10-part2
-    old: 6fbaaa68131688672dd4cfe4df8e491e078c8808
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/davinci-v3.6-cleanup
-    old: 97565870466e59f2e0e162936c246d5db5adf39d
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/highbank-debugll-cleanup
-    old: 98f19a32b4817346a57e3cdc50a9f2f9ebef968d
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/marvell-cleanups-for-3.8
-    old: d2efeb25360262dbdcd103991201beff605f458d
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/marvell-xor-cleanup-dt-binding-3.8
-    old: b7840ac657a602b0fdf49b625f11e0bf0975e722
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/omap-cleanup-cpuidle-for-v3.5
-    old: 4b54b1e553072a0b0a1c6db155cd7f17ae1b9a53
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/omap-cleanup-devices-for-v3.5
-    old: 4c8c1dc9e36a8967cdb6a378e30637aeace9bb25
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/omap-cleanup-dss-for-v3.5
-    old: ddbfbb4e9a9856226fb82c393951e4c2106023c9
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/omap-cleanup-for-v3.5
-    old: 076e9f9a76b4f42d4e90dea95745dcb1d3bdabe3
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/omap-cleanup-for-v3.6
-    old: d4d111d5609fe87dc2d5fc0c45ed10c09aa01865
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/omap-cleanup-hwmod-for-v3.5
-    old: 7e502ae7fe9ea97ef28871137ed6964db060e05a
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/omap-cleanup-part2-for-v3.6
-    old: 37a7823f23f955b6637b64f53bf29dd3f4cc6472
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/omap-cleanup-renames-for-v3.5
-    old: d77e3df0879c511f10b014ae9cc6aab7b7f0e9dc
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/omap-cleanup-sparse-for-v3.5
-    old: fe3510ebfa76ac089e9972754ca392c982e8243e
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/omap-cleanup-timer-for-v3.5
-    old: 1dba7a99c8cab7f80a16aee73bb7b6b52b1ef179
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/omap-late-cleanups
-    old: b655136587e8790e892535b8e62ff3dfb117696f
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/orion_cleanup_for_3.8
-    old: cdf61ebe5e4014dd8250a2bd12a7309e4c4a4e4b
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/tags/cleanup2-3.15
-    old: e031d3759975dde084732c133b3bbdee80da0beb
+  - ref: refs/tags/marvell-net-xor-defconfig-for-3.8
+    old: a822e681300468fa4fe8dd134df436607960dfad
     new: 0000000000000000000000000000000000000000
