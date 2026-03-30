@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1086464415081459394=="
+Content-Type: multipart/mixed; boundary="===============2929036764389696540=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Mon, 30 Mar 2026 18:43:08 -0000
-Message-Id: <177489618873.1947293.10543021133860431201@gitolite.kernel.org>
+Date: Mon, 30 Mar 2026 18:43:11 -0000
+Message-Id: <177489619114.1947380.16067994929354945627@gitolite.kernel.org>
 
---===============1086464415081459394==
+--===============2929036764389696540==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/40GbE
+  - ref: refs/heads/100GbE
     old: 5597dd284ff8c556c0b00f6a34473677426e3f81
     new: dc9e9d61e301c087bcd990dbf2fa18ad3e2e1429
     log: revlist-5597dd284ff8-dc9e9d61e301.txt
 
---===============1086464415081459394==
+--===============2929036764389696540==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -42,4 +42,4 @@ d389954a6cae7bf76b7b082ac3511d177b77ef2d net: enetc: check whether the RSS algor
 a142d139168cce8d5776245b5494c7f7f5d7fb7d net: enetc: do not allow VF to configure the RSS key
 dc9e9d61e301c087bcd990dbf2fa18ad3e2e1429 Merge branch 'net-enetc-add-more-checks-to-enetc_set_rxfh'
 
---===============1086464415081459394==--
+--===============2929036764389696540==--
