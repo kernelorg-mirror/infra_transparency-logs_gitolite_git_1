@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Mon, 30 Mar 2026 20:35:10 -0000
-Message-Id: <177490291055.2051894.11866409753040917729@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/andrea/synthmerge
+Date: Mon, 30 Mar 2026 20:35:22 -0000
+Message-Id: <177490292294.2052555.8478894669338248369@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/andrea/synthmerge
+user: andrea
 changes:
-  - ref: refs/heads/spi-7.0
-    old: b0dc7e7c56573e7a52080f25f3179a45f3dd7e6f
-    new: 59e1be1278f064d7172b00473b7e0c453cb1ec52
+  - ref: refs/heads/main
+    old: 1fd17996ca451abcd20c2eecdae6b4f9ba6d847f
+    new: 85f64d64006b81d8d750168939edb88c797cbdcf
     log: |
-         59e1be1278f064d7172b00473b7e0c453cb1ec52 spi: cadence-qspi: Fix exec_mem_op error handling
+         9db79358138c162a0f989c8982ba57962416e2fd conflict_resolver: handle AI responses shorter than context markers
+         85f64d64006b81d8d750168939edb88c797cbdcf version
          
