@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/kvmarm/kvmarm
-Date: Mon, 30 Mar 2026 07:39:12 -0000
-Message-Id: <177485635201.1375305.14588509266985208303@gitolite.kernel.org>
+Date: Mon, 30 Mar 2026 07:39:26 -0000
+Message-Id: <177485636638.1375585.4202580395458278111@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,123 +11,66 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/kvmarm/kvmarm
 user: maz
 changes:
-  - ref: refs/tags/arm-soc-fixes
-    old: ca26714f3b666b4600ba7e0c3b9fbb471a6c8386
+  - ref: refs/tags/multiplatform
+    old: 9d43710c4d87cb1afa2072601fe0f2a6fe89eb5b
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/arm-soc-fixes-20120116
-    old: 4417416e8362edf97cafda56ac9bb35009cc5c41
+  - ref: refs/tags/multiplatform-for-linus
+    old: 20c4b0f6996dd875e11a132e0ce58dafa654edcc
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/arm-soc-imx-move
-    old: d2c58ce7b769aafe4aa84664ab66d61b901d4a9e
+  - ref: refs/tags/multiplatform-for-linus-2
+    old: 67fb5161763c31a7a1c9df7b82389e67b53a5fe2
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/asoc-3.8p1
-    old: 0537ca5a0067a92b5ab5fdef81ec3330081a0dda
+  - ref: refs/tags/tip-x86-build-2008-05-12-10-09-30
+    old: b67fc588ce611ca847620bd1353bf2d68fc3027f
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/asoc-3.9
-    old: cdfc9e2f9a08650863ec2bcee0398e8b431b9ed5
+  - ref: refs/tags/tip-x86-cleanups-2008-05-12-10-09-30
+    old: b67fc588ce611ca847620bd1353bf2d68fc3027f
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/asoc-3.9-updates
-    old: 18ffcac57666d4a818bef5270a034bb72d03a739
+  - ref: refs/tags/tip-x86-cpa-2008-05-12-10-09-30
+    old: b67fc588ce611ca847620bd1353bf2d68fc3027f
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/asoc-atmel-pinctrl
-    old: 7869b7c69562ec16e234d80e82c436adbbe78c85
+  - ref: refs/tags/tip-x86-defconfig-2008-05-12-10-09-30
+    old: b67fc588ce611ca847620bd1353bf2d68fc3027f
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/asoc-fix-3.8-rc2
-    old: d9aa9549e8152eb43ba628ab73aefe03292ef7f5
+  - ref: refs/tags/tip-x86-gart-2008-05-12-10-09-30
+    old: b67fc588ce611ca847620bd1353bf2d68fc3027f
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/asoc-fix-v3.9-rc4
-    old: f58bc04a0736d8d05fa0674543cff24b2f40410c
+  - ref: refs/tags/tip-x86-intel-2008-05-12-10-09-30
+    old: b67fc588ce611ca847620bd1353bf2d68fc3027f
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/asoc-maintainers-v3.9-rc6
-    old: 9c0347a4e6c72e82f3e53c9a2dcec1b76a5c7766
+  - ref: refs/tags/tip-x86-irq-2008-05-12-10-09-30
+    old: b67fc588ce611ca847620bd1353bf2d68fc3027f
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/asoc-v3.10
-    old: 93e92eb499a30d2d46edf974e1a45019d03da0e5
+  - ref: refs/tags/tip-x86-kconfig-2008-05-12-10-09-30
+    old: b67fc588ce611ca847620bd1353bf2d68fc3027f
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/asoc-v3.10-2
-    old: 77d1a6468b98112207b3449371f7806a5fa70736
+  - ref: refs/tags/tip-x86-mce-2008-05-12-10-09-30
+    old: b67fc588ce611ca847620bd1353bf2d68fc3027f
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/asoc-v3.10-3
-    old: cf69c31e951dad73022890888c5e755a6f4faa7e
+  - ref: refs/tags/tip-x86-memtest-2008-05-12-10-09-30
+    old: b67fc588ce611ca847620bd1353bf2d68fc3027f
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/asoc-v3.10-4
-    old: 05885894ccedd74d7e3614e87401ee847e4a63f4
+  - ref: refs/tags/tip-x86-nmi-2008-05-12-10-09-30
+    old: b67fc588ce611ca847620bd1353bf2d68fc3027f
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/asoc-v3.10-rc1
-    old: b2661f4004e3d4b0d30b5e760bb7e988c7b78c08
+  - ref: refs/tags/tip-x86-numa-2008-05-12-10-09-30
+    old: b67fc588ce611ca847620bd1353bf2d68fc3027f
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/asoc-v3.10-rc3
-    old: 98f15911e017d8680169926d25f2e168255bbccd
+  - ref: refs/tags/tip-x86-pat-2008-05-12-10-09-30
+    old: b67fc588ce611ca847620bd1353bf2d68fc3027f
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/asoc-v3.10-rc5
-    old: dd0ae239a568ef2638e655f0391ce9a270fbeb35
+  - ref: refs/tags/tip-x86-pebs-2008-05-12-10-09-30
+    old: b67fc588ce611ca847620bd1353bf2d68fc3027f
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/asoc-v3.9-rc1
-    old: b4db33ab31f8410ac17e6b98cdee7e1b62b59e26
+  - ref: refs/tags/tip-x86-ptemask-2008-05-12-10-09-30
+    old: b67fc588ce611ca847620bd1353bf2d68fc3027f
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/asoc-v3.9-rc6
-    old: 4ac1e5ae669c7b7fd21179bfda5675aaa9799477
+  - ref: refs/tags/tip-x86-setup-2008-05-31_10.10_Sat
+    old: e21868a4cdd93e5883ff61579d4cd799d1a3c244
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/berlin-soc-3.16
-    old: 3a786f7252c9311afe16a0afac35ac769ebcd42a
+  - ref: refs/tags/tip-x86-threadinfo-2008-05-12-10-09-30
+    old: b67fc588ce611ca847620bd1353bf2d68fc3027f
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/davinci-v3.6-soc
-    old: 88c778f2cac4f1c4feca816771d7b4365f60e838
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/imx-soc-3.13
-    old: 2d4f07f6f58123f455d759fd29f76d95a3fe8733
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/imx-soc-3.14
-    old: d03274da7d6da26d7aeebfae5266daefc2f3426e
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/imx-soc-3.15
-    old: 8e3c5538bbfca267857ea62244cd8565388b8a35
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/newsoc
-    old: 3ad231bf654a9d6dce5f6e1d8154ea596053b402
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/soc
-    old: 7ac15c996c1481b54cb3a024f243698dff572480
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/soc-3.11-1
-    old: 719977ab43701c3bf101d7a903d4adc2bbc7a3b4
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/soc-3.11-2
-    old: c34253f768c876fa56eeba12017b96b9593bcce8
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/soc-3.12
-    old: bde4b0423cbee0fffcc73a9c8c5441a05c27b9d1
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/soc-3.13
-    old: d0fcceab0afb66124cd0a7930a57637200faa5dd
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/soc-3.13-2
-    old: b984539860ee48883de506b5677beb533afc7561
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/soc-3.15
-    old: 419b76e353a487a1b43629e864495dc66f9675fb
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/soc-for-3.16
-    old: a3af7e353ad04d38d499028b42bccfe688b578be
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/soc-for-linus
-    old: 1569e2b9272cd83a9b319e0da2823f04192c47c6
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/soc-for-linus-2
-    old: e8a0a5c81af1e247ff4fcd7d9ad15cacf642f74a
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/soc-for-linus-3
-    old: 21dacf1a714e973eb17bb87e6de1e5824c7f9b09
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/soc-late
-    old: 5888af89f1988d15a3706b3892378717825bd8d6
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/soc2
-    old: 5f61021441f99d4be53ab241dd62a7b21ea87873
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/soc2-for-3.16
-    old: a2956d8995492769f4bcb1b749bbc1ff9e94d15c
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/soc_for_v3.10
-    old: 8b1207cc5dcfb2a59723e0bb7bbc94cbfca03c50
+  - ref: refs/tags/tip-x86-timers-2008-05-12-10-09-40
+    old: b67fc588ce611ca847620bd1353bf2d68fc3027f
     new: 0000000000000000000000000000000000000000
