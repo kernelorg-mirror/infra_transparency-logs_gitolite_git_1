@@ -1,51 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============3255302512183051324=="
+Content-Type: multipart/mixed; boundary="===============8705850075082797487=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Mon, 30 Mar 2026 16:57:14 -0000
-Message-Id: <177488983434.1857299.759408861788669599@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Mon, 30 Mar 2026 16:57:17 -0000
+Message-Id: <177488983755.1857389.11253248193675705535@gitolite.kernel.org>
 
---===============3255302512183051324==
+--===============8705850075082797487==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-7.0
+  - ref: refs/heads/asoc-7.0
     old: d40a198e2b7821197c5c77b89d0130cc90f400f5
     new: 8ec017cf31299c4b6287ebe27afe81c986aeef88
     log: revlist-d40a198e2b78-8ec017cf3129.txt
 
---===============3255302512183051324==
+--===============8705850075082797487==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1774889832 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1774889832-51ccc58d76246b8d748279b4df317ea0366ca38a
+pusher C3F436CA30F5D8EB 1774889836 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1774889835-42bce2a1de794eb013acbc5427fecfb4754be186
 
-d40a198e2b7821197c5c77b89d0130cc90f400f5 8ec017cf31299c4b6287ebe27afe81c986aeef88 refs/heads/for-7.0
+d40a198e2b7821197c5c77b89d0130cc90f400f5 8ec017cf31299c4b6287ebe27afe81c986aeef88 refs/heads/asoc-7.0
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmnKq2gACgkQJNaLcl1U
-h9DxlAf/SvJqd7hO25yqkpWDu9V/p/gG4oGGdVQ+2m8sVQlsfZ6rBfW9UFX0eM2K
-GIBcaDzbnGQI7Z9dfGfq3xaypjh4VQ3OLML6oUkPw3MRW+insZWaxx+hWmV/osn+
-kheKbOZ9pgWpori3yciZvKUhgk454Vajp0FcPFydQ7LcZJGi/eOiuRVFJLyTDkl8
-brOXHuyikHeHK+feB3vwljZmcH1b+WVrEuh6tsJl7YFi8AHcUatvZg6bbcPXZ0nN
-ghzmSbhpWPNKdtLJP+qGlLnoGUOiT0Z+2KKMHyqFuxatddD9rCBw9rFevDMuAS2k
-CBLcdkmHqa34MvVc/4rB7n+H6ESlZg==
-=s8qt
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmnKq2wACgkQJNaLcl1U
+h9DFfAf/QWLNNRRb5ae0n5T6b1Cp18yyUDJxK+jcDf+FDMYc/jILXplSMo0orBtq
+JwvGb85l+Q9FWZu8KMNpARWvbYCvpq1ZrBAFFxzintRujWVD+M9TMrBqavoGo0pl
+bwEehNqER7vQ5FIkGl6nIWQcPnYhFD7/9deqm2tT2pC2TVQVRJzWAEpbZuqu8DM+
+UGG2FilUTceBAr+9fz0oysfgkbOSmzTEV5HURO5QkrwSz1OHa5xRHFM+/NlZSVvQ
+Pjmm7zZa7pZUkHcKnjdd95DEnkJXBoKLpmvXXuevh4I/VqnA7c/X87M4bGXkj8zg
+IHG5/GFY7UYZWjwvU+Vvg5YB1WieXw==
+=KH4x
 -----END PGP SIGNATURE-----
 
---===============3255302512183051324==
+--===============8705850075082797487==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -550,4 +550,4 @@ d1384f70b2e3162786bc73b8f86c27417803bd57 Merge tag 'vfs-7.0-rc6.fixes' of git://
 27c299698464c515c5cd97b4fcf1a0e38600b2ac ASoC: amd: yc: Add DMI quirk for ASUS Vivobook Pro 16X OLED M7601RM
 8ec017cf31299c4b6287ebe27afe81c986aeef88 ASoC: amd: yc: Add DMI entry for HP Laptop 15-fc0xxx
 
---===============3255302512183051324==--
+--===============8705850075082797487==--
