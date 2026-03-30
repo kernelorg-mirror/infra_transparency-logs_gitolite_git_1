@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7557769700558012168=="
+Content-Type: multipart/mixed; boundary="===============5149672715682082770=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Mon, 30 Mar 2026 19:26:35 -0000
-Message-Id: <177489879522.1987074.5661621017102353512@gitolite.kernel.org>
+Date: Mon, 30 Mar 2026 19:26:37 -0000
+Message-Id: <177489879778.1987163.12699858204748381891@gitolite.kernel.org>
 
---===============7557769700558012168==
+--===============5149672715682082770==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-6.12.76/nfsd-next-thru-nfsd-7.0-2
-    old: 83f6a6c85b1d00f56dcbf8635906fcd2fadc52df
-    new: 56972a809927627fd8ba9c6bfb9a14677a3fec13
-    log: revlist-83f6a6c85b1d-56972a809927.txt
+  - ref: refs/heads/kernel-6.12.76/nfsd-vfs-7.0-rc1.atomic_open
+    old: a45b5e0a59ade543fd8b89068ef2ba56944d0630
+    new: 1509ea8f181fd2b08db6794304296e283f5c1baa
+    log: revlist-a45b5e0a59ad-1509ea8f181f.txt
 
---===============7557769700558012168==
+--===============5149672715682082770==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-83f6a6c85b1d-56972a809927.txt
+Content-Disposition: attachment; filename=revlist-a45b5e0a59ad-1509ea8f181f.txt
 
 82ac242bc99da2cf0ba5d7523930a34918c83df0 NFSD: Clean up nfsd4_check_open_attributes()
 2d7343b32c6ae426f5bfafc539b43fc2dca075a5 xdrgen: improve error reporting for invalid void declarations
@@ -71,5 +71,9 @@ f867771d980ae569a6829b74429da5d4b3de4c64 NFSD: Add POSIX draft ACL support to th
 a896908825c2f236d7f94098b9d4a8291b4bd7f6 NFSD: Hold net reference for the lifetime of /proc/fs/nfs/exports fd
 bdf50be5f76551e7e01a9373031ae35a2ce24a5c sunrpc: fix cache_request leak in cache_release
 56972a809927627fd8ba9c6bfb9a14677a3fec13 nfsd: fix heap overflow in NFSv4.0 LOCK replay cache
+c4a137a2394b1bbc463301139c176bf41aa937f6 VFS: move dentry_create() from fs/open.c to fs/namei.c
+028a736993fcc40a948bfe087d83c5f64358ae33 VFS: Prepare atomic_open() for dentry_create()
+f1d80d771591441aa98e54adcc49d9156e418d37 VFS/knfsd: Teach dentry_create() to use atomic_open()
+1509ea8f181fd2b08db6794304296e283f5c1baa fs/namei: fix kernel-doc markup for dentry_create
 
---===============7557769700558012168==--
+--===============5149672715682082770==--
