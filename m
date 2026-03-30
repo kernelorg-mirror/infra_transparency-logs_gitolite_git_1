@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5985016860056142187=="
+Content-Type: multipart/mixed; boundary="===============3629682078712610690=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Mon, 30 Mar 2026 15:03:31 -0000
-Message-Id: <177488301145.1760875.7025572261370956873@gitolite.kernel.org>
+Date: Mon, 30 Mar 2026 15:04:22 -0000
+Message-Id: <177488306271.1761560.13878106833830133529@gitolite.kernel.org>
 
---===============5985016860056142187==
+--===============3629682078712610690==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,28 +16,49 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: d1031437b2d7ce2258d5e7bece7a8ec64195d8cd
-    new: dfac63e63599f94e64d9eedfb9a96dd9b492d02c
-    log: revlist-d1031437b2d7-dfac63e63599.txt
+    old: dfac63e63599f94e64d9eedfb9a96dd9b492d02c
+    new: 6e45429392a5cdd8168619d7558f7bd6cf706394
+    log: revlist-dfac63e63599-6e45429392a5.txt
+  - ref: refs/heads/tip/urgent
+    old: 7aaa8047eafd0bd628065b15757d9b48c5f9c07d
+    new: cecd8edecd4a085e31200276c6ec4c5bc64ad666
+    log: |
+         917e3ad3321e75ca0223d5ccf26ceda116aa51e1 x86/kexec: Disable KCOV instrumentation after load_segments()
+         cecd8edecd4a085e31200276c6ec4c5bc64ad666 Merge branch into tip/master: 'x86/urgent'
+         
 
---===============5985016860056142187==
+--===============3629682078712610690==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d1031437b2d7-dfac63e63599.txt
+Content-Disposition: attachment; filename=revlist-dfac63e63599-6e45429392a5.txt
 
-ac66a73be03a0a72aeeb33d3610cfc43cb101a0b x86/fred: Enable FRED by default
-f0958d588e6de263224ca92087b45ce72fa25c91 x86/fred: Remove kernel log message when initializing exceptions
-9c016c3f4928f436b9ad20f30a5a9d538490fbb4 x86/sev: Create a function to clear/zero the RMP
-ca2ca373ec854d203c74e6ac1c4e08a70e8d2509 x86/sev: Create snp_prepare()
-b65546b14d273dde2a56c0313da36a6aeb5c3f32 x86/sev: Create snp_shutdown()
-299933b118d1bcf8b93d58076aed34582718b0dd x86/sev, crypto/ccp: Move SNP init to ccp driver
-7b2bc5f0ab983a7aad7fa5180cede4b3e91fc164 x86/sev, crypto/ccp: Move HSAVE_PA setup to arch/x86/
-f995fc377ac7d3757e1d94e6403940c4b8f3d76e crypto/ccp: Implement SNP x86 shutdown
-c3aa64ab6a5ea553ee70526579908936a3ff9392 crypto/ccp: Update HV_FIXED page states to allow freeing of memory
-917e3ad3321e75ca0223d5ccf26ceda116aa51e1 x86/kexec: Disable KCOV instrumentation after load_segments()
-69355057d031a73721e80aae162468fa52a4fd27 Merge branch into tip/master: 'x86/urgent'
-b6ac80d5dd377b7a0dab61bec7b2753dafb8466f Merge branch into tip/master: 'x86/fred'
-dfac63e63599f94e64d9eedfb9a96dd9b492d02c Merge branch into tip/master: 'x86/sev'
+cecd8edecd4a085e31200276c6ec4c5bc64ad666 Merge branch into tip/master: 'x86/urgent'
+37f272950fcfad87cf81f97d320aae5071fbae27 Merge branch into tip/master: 'sched/merge'
+cda118e3e324670f1379dc038fe4d6d940f90273 Merge branch into tip/master: 'timers/merge'
+fc36a40f6842fcfa1f97baf829f1a4dd27516fd7 Merge branch into tip/master: 'core/debugobjects'
+529d602941eaa1ccf010e89d915654549117a659 Merge branch into tip/master: 'core/entry'
+6de22947ee75b993608dcbcea34c35d7579d2d4f Merge branch into tip/master: 'irq/core'
+b9614ee857247bcb9e8c0a84a4f9647a69fb54d6 Merge branch into tip/master: 'irq/drivers'
+4847548e0c044dd44701a90c99fea0ed80f19f80 Merge branch into tip/master: 'irq/msi'
+fd7b9ab7bdf621598402edde3e799a5bbbb94651 Merge branch into tip/master: 'locking/core'
+9c0cbf631dc0dca33d551f83fca8fa4d4dc08e8c Merge branch into tip/master: 'locking/futex'
+cefadeacfba157277bfd2472fd0514f6cb9ba6f9 Merge branch into tip/master: 'objtool/core'
+9b6484f2c4351ce74d2450026391faa68bbb2a2f Merge branch into tip/master: 'perf/core'
+fc8a10c07676195633aca26413722856a3f15250 Merge branch into tip/master: 'ras/core'
+0ffe62b9eab3ffe3592bd66298608d734fe3ade5 Merge branch into tip/master: 'sched/core'
+03f971d1826a0f7a2f814cd4c530a3651a5038af Merge branch into tip/master: 'smp/core'
+243882480c18a82357abce94ee8f92e4d6ee4728 Merge branch into tip/master: 'timers/core'
+adf05eb4d40b574fd17ccb114cda4368201b72e0 Merge branch into tip/master: 'timers/vdso'
+d3ac8eee6bce6379d05663fea1851ed5a43e766c Merge branch into tip/master: 'x86/asm'
+512bdc3e8f0d2dac96f6dd8366c5d3781e6f5356 Merge branch into tip/master: 'x86/cleanups'
+c8f4a226401890a900dee30c50a9a0a2008bd340 Merge branch into tip/master: 'x86/cpu'
+a254b93efa778db050b3b02e0759da289e00dbd2 Merge branch into tip/master: 'x86/fred'
+38f4160385a56e5fb0dd428e71e9c198b84da64e Merge branch into tip/master: 'x86/microcode'
+36ff2e0c4e78be9702201a988c09747c7de82951 Merge branch into tip/master: 'x86/misc'
+0c480e3499d0ffb13784a1422fde5b4ffb305a34 Merge branch into tip/master: 'x86/mm'
+b892f4370ce2be7d9a3c228b47c9e128f9747fdc Merge branch into tip/master: 'x86/platform'
+507be264b379714d827c7b88f922bf4f911b0326 Merge branch into tip/master: 'x86/sev'
+6e45429392a5cdd8168619d7558f7bd6cf706394 Merge branch into tip/master: 'x86/tdx'
 
---===============5985016860056142187==--
+--===============3629682078712610690==--
