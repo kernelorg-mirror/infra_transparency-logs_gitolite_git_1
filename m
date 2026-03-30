@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/kvmarm/kvmarm
-Date: Mon, 30 Mar 2026 07:42:10 -0000
-Message-Id: <177485653088.1380275.2407049740018403834@gitolite.kernel.org>
+Date: Mon, 30 Mar 2026 07:43:02 -0000
+Message-Id: <177485658250.1380795.2981546397167886381@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,84 +11,33 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/kvmarm/kvmarm
 user: maz
 changes:
-  - ref: refs/tags/pinctrl
-    old: d7fc0fd80f85cb489226c141aedf69743e48c389
+  - ref: refs/tags/linaro-11.05-2.6.38
+    old: 0eba7dd6b4f58f9fc5b0fd23fd22a0b5c6b75343
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/pinctrl-for-3.4
-    old: 18361c19691acbcd11f03c4377d10793963d92a8
+  - ref: refs/tags/linaro-linux-2.6.38-upstream-01Mar2011
+    old: 5d606f52bfc50810f7649de42ef14e5c4c542100
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/pinctrl-for-3.7-late
-    old: 0e0e82945bea330097653ae4a8942e09e8e0a94d
+  - ref: refs/tags/linaro-linux-2.6.38-upstream-04Mar2011
+    old: 99ae324e0058675f2fcb5bdc7a73a0ca4b7c95fd
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/pinctrl-for-v3.10
-    old: 50bf33a11457bb06024595427d75591c8d260657
+  - ref: refs/tags/linaro-linux-2.6.38-upstream-16Mar2011
+    old: 38d3f18ea70f065776c131f3c7c88f29f6ea7eed
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/pinctrl-for-v3.11-1
-    old: 9c70c378f8f0ce4a248dff749b6b59a78c1a9967
+  - ref: refs/tags/linaro-linux-2.6.38-upstream-22Feb2011
+    old: 89971445bb737e4128841057467e4ace5f039ea2
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/pinctrl-for-v3.11-2
-    old: 327898d63e0c40de83261efc2e2989eaf5c43093
+  - ref: refs/tags/linaro-linux-2.6.38-upstream-23Feb2011
+    old: 4ea974e130c00438234a0fbba3c9541465575567
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/pinctrl-for-v3.11-3
-    old: afd39afbf20fde0a0e13935ec3dd616026ca902a
+  - ref: refs/tags/linux-linaro-3.2-2012.01-0
+    old: d200db2f2df5a58f21d55b82c731227739e3e650
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/pinctrl-for-v3.13-1
-    old: a50bf250dc92ca0fc1e6bb82ab0e3abe7d3fa2d8
+  - ref: refs/tags/linux-linaro-3.3-rc3-2012.02-0
+    old: 1259fb203caf0e9466127a51e5245db238ae4d50
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/pinctrl-for-v3.7
-    old: 394aa1122e9e8922baaa263119f1fa2b6667cbaa
+  - ref: refs/tags/linux-linaro-3.3-rc3-2012.02-1
+    old: 49561d58a14351d136518f25bd686f9a6ca41b69
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/pinctrl-for-v3.7-late
-    old: ea9162f7e16dda48d41320d4fe9d3a09177c46bc
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/pinctrl-for-v3.7-rc5
-    old: c83ab8507d868eab511ca01930a10f628d8571ec
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/pinctrl-for-v3.8
-    old: 1dda224a3038bed7d19918db703491f83bc65fb8
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/pinctrl-for-v3.8-late
-    old: 909c1071e0d0b4cbe78aea0ba6285d77cd0a59ad
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/pinctrl-for-v3.9
-    old: ac9d49af63b3d8ddf8843e5174ad35d261f479e9
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/pinctrl-v3.12-1
-    old: 6c37c60df820060a9747f917bb3abae90f471215
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/pinctrl-v3.12-2
-    old: 4e5339c78e61723f220c7a3fad95413946913637
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/pinctrl-v3.13-2
-    old: 4890c209c7952c87a14dbe3d954c96ff655bf047
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/pinctrl-v3.14-1
-    old: 4d543444148beca3ed1e4098abbd2ff6f250f0b4
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/pinctrl-v3.14-2
-    old: 98b984b20705013b03167521dca4d461f0965392
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/pinctrl-v3.14-3
-    old: c9685d0b3db6d566aefbb36ae841ec9515274875
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/pinctrl-v3.15-1
-    old: 6c1e04fe1830343033169b75f3c6f386c7ac3e28
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/pinctrl-v3.15-2
-    old: e072ea99c6ad8209b8b17b4f787e7122a82af938
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/pinctrl-v3.15-3
-    old: ced1e81fb952c8fb1400bed7b738f8acb1d1a3dd
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/pinctrl-v3.15-4
-    old: c14d325ae8abfed73c8bd54cd66279ae42434cfc
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/pinctrl-v3.16-1
-    old: 254f114aa05868573c76dc20da2f5638e0e12ae4
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/pinctrl-v3.7-rc3
-    old: ed34e0d3f26c66c310977a21b0d392c98fdfe4b7
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/renesas-pinctrl-for-linus
-    old: f71f9ecde8010b650a8868f3b20f252a9f0a3eab
+  - ref: refs/tags/linux-linaro-3.3-rc3-2012.02-1-android-0
+    old: 4b16694bcea43445ed9cc4879464354a0a34636f
     new: 0000000000000000000000000000000000000000
