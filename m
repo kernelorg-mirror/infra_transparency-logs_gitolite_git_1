@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/devel/pahole/pahole
-Date: Mon, 30 Mar 2026 08:41:00 -0000
-Message-Id: <177486006054.1433431.1517149918920675746@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gmonaco/linux
+Date: Mon, 30 Mar 2026 08:46:45 -0000
+Message-Id: <177486040523.1437772.7469893563082940125@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/devel/pahole/pahole
-user: almagui
+repo: pub/scm/linux/kernel/git/gmonaco/linux
+user: gmonaco
 changes:
-  - ref: refs/heads/next
-    old: ba31cfa08ffcfe6ff5757f325de5b03ca157cb78
-    new: ce4c2ab3fc3065f2f35a410c91ebea07b6a21608
-    log: |
-         ce4c2ab3fc3065f2f35a410c91ebea07b6a21608 CI: Support building kernel with LLVM
-         
+  - ref: refs/heads/rv_hybrid_automata_enq
+    old: 0000000000000000000000000000000000000000
+    new: ef6058cdfb8dcf39c4ed827c1a5fac5d60126e0f
