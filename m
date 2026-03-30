@@ -1,24 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/fs/xfs/xfs-linux
-Date: Mon, 30 Mar 2026 09:21:44 -0000
-Message-Id: <177486250486.1467098.4178102933497080534@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============3970643786236803614=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Mon, 30 Mar 2026 09:22:54 -0000
+Message-Id: <177486257441.1467790.3440729884858578451@gitolite.kernel.org>
+
+--===============3970643786236803614==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/fs/xfs/xfs-linux
-user: cem
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/xfs-7.1-merge
-    old: 388bb26b3d33de3c53a492824a4c5804151a0014
-    new: 57dcfe43aee32cad4e4a7759855360e04aaeebe7
+  - ref: refs/heads/master
+    old: 7e1ba4cc0a073a921d717c3807c3aa8d0c883d75
+    new: 558d998108fac12ac179b58645c56707c5c1834a
     log: |
-         d7dab7c6f35eca42c4ca39aeeb3f580b481aa206 xfs: don't keep a reference for buffers on the LRU
-         a222f3e2e2e5e7c59d293ed743ed7925cba1e565 xfs: use a lockref for the buffer reference count
-         997d919dbeb68086cc90c54c7d241d8d87d23100 xfs: switch (back) to a per-buftarg buffer hash
-         02994e9891ca919155fcf1105e000b20c0dee485 xfs: don't decrement the buffer LRU count for in-use buffers
-         89e8e2b1649235ca64c5f5a077162ae0e04b1f4f xfs: start gc on zonegc_low_space attribute updates
-         57dcfe43aee32cad4e4a7759855360e04aaeebe7 xfs: Introduce 'bmapi_flags' parameter to xfs_alloc_file_space()
+         558d998108fac12ac179b58645c56707c5c1834a drop kvm patch from 5.10 and 5.15
          
+
+--===============3970643786236803614==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1774862570 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1774862569-dc861e56a14c8845c53406c747ba653b7d9d1a68
+
+7e1ba4cc0a073a921d717c3807c3aa8d0c883d75 558d998108fac12ac179b58645c56707c5c1834a refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmnKQOobHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+hZ4P/1iF96N2CBQ9TGo/BwzT
+6TxV/Zp+R7lAZ7WSZthjIKyPnv+uFkykupxohZSvyt/ZRjdWZ4gXStkMawJ8UJ4s
+ukiHIXRSmMixC1Q7QQq5Q9IS5pGMNVcAoyII/MHKlYvdbclRkRLru2GO9SCVbSPr
+cuGHcP29wPa3qWMuTLnDCBgfAKGBD2yiX07aOV6u0fg2SCKBTsrJebGFfUuzytsq
+JUeYTouE8958waFpL3mdIdzMonUlAHSV729xtsnQdN2/r7aiYQFDGPj+Cz7GRwz1
+ddjA5QumBKaZs4I2oQrOhpnIt/hQMiU79rH5i3I/DoD7ulqyaziyTInoBBrBcsje
+nwd7bvNO2LociAyKcppPKtYpG9kTiP9TbbXbpie+DqgTDnMCVuJkGHlJJtAmdUXY
+h0+I+5YyY+f7KkdPfW3PdWEXQhIxe0FvB97oTnxnwRllSEI1aW79tnN8AdETcoHm
+wXDEoTp5qgkxCLSJsxEAW4Ou/ntM6xg31uOE5QKMygiJBTQv67++yvKugKG+rks2
+9DyjJcS5lCBFxw/vXK4lc1fYNIwozKFCycIJM2sU2rVxOMJ7l6BC6n7nxzd+nvBD
+DBhUzwkJrEKzjhXupJnZ0dnJ0eBH7JexJuMGdK8QEmoEkbSEiBnilezHhuFPcOIc
+fEjIqsE2ob9TMnA3Tq6kKYv8
+=99MH
+-----END PGP SIGNATURE-----
+
+--===============3970643786236803614==--
