@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/peter.chen/cix
-Date: Mon, 30 Mar 2026 08:26:03 -0000
-Message-Id: <177485916306.1421063.6232834743120283760@gitolite.kernel.org>
+Subject: post-receive: pub/scm/devel/pahole/pahole
+Date: Mon, 30 Mar 2026 08:40:36 -0000
+Message-Id: <177486003625.1432759.13269276737367838548@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/peter.chen/cix
-user: peter.chen
+repo: pub/scm/devel/pahole/pahole
+user: almagui
 changes:
-  - ref: refs/heads/for-next
-    old: 97923f430e3b259016ccd0066d6c564e39222d20
-    new: 517d8fc52f3c789afffb5e466334f49965b3886a
+  - ref: refs/heads/tmp.next
+    old: ba31cfa08ffcfe6ff5757f325de5b03ca157cb78
+    new: ce4c2ab3fc3065f2f35a410c91ebea07b6a21608
     log: |
-         517d8fc52f3c789afffb5e466334f49965b3886a arm64: defconfig: Enable CIX Sky1 pinctrl, PCIe host, and Cadence GPIO
+         ce4c2ab3fc3065f2f35a410c91ebea07b6a21608 CI: Support building kernel with LLVM
          
