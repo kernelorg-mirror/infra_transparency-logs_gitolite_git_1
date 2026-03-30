@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1479274453665962990=="
+Content-Type: multipart/mixed; boundary="===============2569531349659219390=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Mon, 30 Mar 2026 19:26:45 -0000
-Message-Id: <177489880585.1987513.17496638204325789336@gitolite.kernel.org>
+Date: Mon, 30 Mar 2026 19:26:48 -0000
+Message-Id: <177489880855.1987652.15167822690173811219@gitolite.kernel.org>
 
---===============1479274453665962990==
+--===============2569531349659219390==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-6.12.76/nfsd-testing-canary
-    old: bc13d779a445168580d47a41ea2f4af2ff13f03a
-    new: 54d57d8b1b8315ef2ba70eaa738f31923eb64b9d
-    log: revlist-bc13d779a445-54d57d8b1b83.txt
+  - ref: refs/heads/kernel-6.12.76/nfs4_acl-passthru
+    old: 1fd470c997548d1194bbc9dedfadd14ff484c6c7
+    new: 28e246df5c4846791e89a553c106ab21a7913029
+    log: revlist-1fd470c99754-28e246df5c48.txt
 
---===============1479274453665962990==
+--===============2569531349659219390==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-bc13d779a445-54d57d8b1b83.txt
+Content-Disposition: attachment; filename=revlist-1fd470c99754-28e246df5c48.txt
 
 82ac242bc99da2cf0ba5d7523930a34918c83df0 NFSD: Clean up nfsd4_check_open_attributes()
 2d7343b32c6ae426f5bfafc539b43fc2dca075a5 xdrgen: improve error reporting for invalid void declarations
@@ -71,10 +71,16 @@ f867771d980ae569a6829b74429da5d4b3de4c64 NFSD: Add POSIX draft ACL support to th
 a896908825c2f236d7f94098b9d4a8291b4bd7f6 NFSD: Hold net reference for the lifetime of /proc/fs/nfs/exports fd
 bdf50be5f76551e7e01a9373031ae35a2ce24a5c sunrpc: fix cache_request leak in cache_release
 56972a809927627fd8ba9c6bfb9a14677a3fec13 nfsd: fix heap overflow in NFSv4.0 LOCK replay cache
-bf4f821862768e5e191ce974b623a62b827df468 NFSD: interlock the use of NFSD_IO_DIRECT for NFS READ and WRITE
-220fcd95975eb6cfc760d29410a6ff2f9f3eb393 NFSD: add NFSD_IO_DIRECT heuristic for small IO
-2333c4a25296d4aafd7732e09cc33b88707688c9 NFSD: add nfsd_direct_misaligned_num_pages modparam
-1c5cd54677b631d3d761804616c01034f7450621 NFSD: Enable return of an updated stable_how to NFS clients
-54d57d8b1b8315ef2ba70eaa738f31923eb64b9d NFSD: add new NFSD_IO_DIRECT variants that may override stable_how
+25b6aa14c25dd3939fec9a25262bc287c6fe330a exportfs: add ability to advertise NFSv4 ACL passthru support
+5cc77f4a18591bd8111d1052d70bab7ea33b4898 NFSD: factor out nfsd_supports_nfs4_acl() to nfsd/acl.h
+3cbdddb70755cd2f190ffa999e98f954b569e854 NFS/NFSD: data structure enablement for nfs4_acl passthru support
+7dc1287f636025f81816cdc1d1fe825ff51cf60e NFSD: prepare to support SETACL nfs4_acl passthru
+271feca3990036c8183a2a3bdc247fbd0aff9100 NFSD: add NFS4 reexport support for SETACL nfs4_acl passthru
+2fab18686dc1d3f90cdfc0d63fe695f09f3dacc4 NFSD: add NFS4 reexport support for GETACL nfs4_acl passthru
+c94c791f60f3cbb91d3ad5b5e751ce42117f6169 NFSD: add NFS4ACL_DACL and NFS4ACL_SACL passthru support
+68ae1b79f1060cc9bea9bd456059f94c61fbc209 NFSD: avoid extra nfs4_acl passthru work unless needed
+f792e662cc7c892e4d0bf3f487f8a256863eb6de NFSv4: add reexport support for SETACL nfs4_acl passthru
+e18cd7701fdde8a3e7629450672fca92c4022d12 NFSv4: add reexport support for GETACL nfs4_acl passthru
+28e246df5c4846791e89a553c106ab21a7913029 NFSv4: set EXPORT_OP_NFSV4_ACL_PASSTHRU flag
 
---===============1479274453665962990==--
+--===============2569531349659219390==--
