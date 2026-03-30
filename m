@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0830602701286806726=="
+Content-Type: multipart/mixed; boundary="===============5434139511389527255=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/kbuild/linux
-Date: Mon, 30 Mar 2026 05:39:33 -0000
-Message-Id: <177484917379.1218943.16198558251355253369@gitolite.kernel.org>
+Date: Mon, 30 Mar 2026 05:39:45 -0000
+Message-Id: <177484918509.1219163.8600706282874021082@gitolite.kernel.org>
 
---===============0830602701286806726==
+--===============5434139511389527255==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/kbuild/linux
 user: nathan
 changes:
-  - ref: refs/heads/kbuild-fixes-unstable
+  - ref: refs/heads/kbuild-fixes-for-next
     old: 775af5cbb22c1de2ad0f486959739c35cfc55ac8
     new: 742de64b62b690a368dbeb846499eb8ac8ceedb9
     log: revlist-775af5cbb22c-742de64b62b6.txt
 
---===============0830602701286806726==
+--===============5434139511389527255==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ d1384f70b2e3162786bc73b8f86c27417803bd57 Merge tag 'vfs-7.0-rc6.fixes' of git://
 7aaa8047eafd0bd628065b15757d9b48c5f9c07d Linux 7.0-rc6
 742de64b62b690a368dbeb846499eb8ac8ceedb9 kbuild: modules-cpio-pkg: Respect INSTALL_MOD_PATH
 
---===============0830602701286806726==--
+--===============5434139511389527255==--
