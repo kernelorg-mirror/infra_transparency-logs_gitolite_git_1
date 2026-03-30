@@ -1,62 +1,61 @@
-Content-Type: multipart/mixed; boundary="===============6218590842755439620=="
+Content-Type: multipart/mixed; boundary="===============7228562060612536328=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/fs/xfs/xfs-linux
-Date: Mon, 30 Mar 2026 14:34:17 -0000
-Message-Id: <177488125777.1735126.16777965869000167559@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/will/linux
+Date: Mon, 30 Mar 2026 14:45:37 -0000
+Message-Id: <177488193787.1745879.6880642695143600271@gitolite.kernel.org>
 
---===============6218590842755439620==
+--===============7228562060612536328==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/fs/xfs/xfs-linux
-user: cem
+repo: pub/scm/linux/kernel/git/will/linux
+user: will
 changes:
-  - ref: refs/heads/xfs-7.1-merge
-    old: 89e8e2b1649235ca64c5f5a077162ae0e04b1f4f
-    new: 181ea4e2de422aa0a66f355bd59bccccdd169826
-    log: revlist-89e8e2b16492-181ea4e2de42.txt
+  - ref: refs/heads/kvm/protected-memory
+    old: 615ffea875303767b1a16dc96e2e300bfb821d0e
+    new: 7e4a4eacb713a1ca83102786f2826e9767f7f8fe
+    log: revlist-615ffea87530-7e4a4eacb713.txt
 
---===============6218590842755439620==
+--===============7228562060612536328==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-89e8e2b16492-181ea4e2de42.txt
+Content-Disposition: attachment; filename=revlist-615ffea87530-7e4a4eacb713.txt
 
-6270b8ac2f41858952074b23c2d3d9aa2fe1bfa9 xfs: remove scratch field from struct xfs_gc_bio
-0ca1a8331c0fa5e57844e003a5d667a15b1e002c xfs: fix race between healthmon unmount and read_iter
-281cb17787d4284a7790b9cbd80fded826ca7739 xfs: Remove redundant NULL check after __GFP_NOFAIL
-54fcd2f95f8d216183965a370ec69e1aab14f5da xfs: fix returned valued from xfs_defer_can_append
-f1d77b863b414586ee45e10d9837c9ab27d8692d xfs: remove redundant set null for ip->i_itemp
-186ac39b8a7d3ec7ce9c5dd45e5c2730177f375c xfs: ensure dquot item is deleted from AIL only after log shutdown
-52a8a1ba883defbfe3200baa22cf4cd21985d51a xfs: fix undersized l_iclog_roundoff values
-362c490980867930a098b99f421268fbd7ca05fd xfs: fix integer overflow in bmap intent sort comparator
-4f24a767e3d64a5f58c595b5c29b6063a201f1e3 xfs: stop reclaim before pushing AIL during unmount
-79ef34ec0554ec04bdbafafbc9836423734e1bd6 xfs: avoid dereferencing log items after push callbacks
-394d70b86fae9fe865e7e6d9540b7696f73aa9b6 xfs: save ailp before dropping the AIL lock in push callbacks
-7cac60947335f8d88a6390814840590a61134484 xfs: refactor xfsaild_push loop into helper
-268378b6ad20569af0d1957992de1c8b16c6e900 xfs: scrub: unlock dquot before early return in quota scrub
-0c98524ab20193d8772cff9c71b00ad004fb1349 xfs: cleanup buftarg handling in XFS_IOC_VERIFY_MEDIA
-e5966096d0856d071269cb5928d6bc33342d2dfd xfs: annotate struct xfs_attr_list_context with __counted_by_ptr
-2c0ff6151c7bc51b20e7b25be2073e6f01f750ef Merge branch 'xfs-7.1-merge' into for-next
-e942498385bf80f4d6d075b47174035545eb6a2e xfs: only assert new size for datafork during truncate extents
-ce4e789cf3561c9fac73cc24445bfed9ea0c514b xfs: factor out xfs_attr3_node_entry_remove
-e65bb55d7f8c2041c8fdb73cd29b0b4cad4ed847 xfs: factor out xfs_attr3_leaf_init
-b854e1c4eff3473b6d3a9ae74129ac5c48bc0b61 xfs: close crash window in attr dabtree inactivation
-d72f2084e30966097c8eae762e31986a33c3c0ae xfs: fix ri_total validation in xlog_recover_attri_commit_pass2
-c6c56ff975f046be25f527231a239e37920aca5e xfs: remove redundant validation in xlog_recover_attri_commit_pass2
-e9b7a02e5859e56e11579450ded40d66626790a7 Merge branch 'xfs-7.0-fixes' into for-next
-df236c996bb4654a3e2a2358a8b40fecfbb0c6a1 Merge branch 'xfs-7.1-merge' into for-next
-70685c291ef82269180758130394ecdc4496b52c xfs: don't irele after failing to iget in xfs_attri_recover_work
-e31c53a8060e134111ed095783fee0aa0c43b080 xfs: remove file_path tracepoint data
-025b245f0bc193c81679201b95940e96f8e42133 Merge branch 'xfs-7.0-fixes' into for-next
-67fe4303972eb6f911f62e2fe6ac7628b17d95c0 xfs: don't keep a reference for buffers on the LRU
-d02ee47bbeedd10d36cc408f92e645447cf5495d xfs: use a lockref for the buffer reference count
-497560b9ef42a4ab22ada7f1ea975a89cd3c5dfa xfs: switch (back) to a per-buftarg buffer hash
-8166876aadef90744bb26addc9c5a16b1c8341b5 xfs: don't decrement the buffer LRU count for in-use buffers
-181ea4e2de422aa0a66f355bd59bccccdd169826 xfs: start gc on zonegc_low_space attribute updates
+1bb62f8ba7ed0bd8982da993c8c25fb296459612 KVM: arm64: Ignore MMU notifier callbacks for protected VMs
+aa6aecd9e6d27c90c2068239a3a64db3f2cfb2e9 KVM: arm64: Prevent unsupported memslot operations on protected VMs
+c3485f6e9f9b3a687aa87eac03db21ea97397633 KVM: arm64: Ignore -EAGAIN when mapping in pages for the pKVM host
+9ce87c32816aa6185e5aab756024d9901b69e73e KVM: arm64: Split teardown hypercall into two phases
+2c66d666703645400186344615d2eeb57fab3fff KVM: arm64: Introduce __pkvm_host_donate_guest()
+a9000c91db1413b87f13b6ec9331282a0c847929 KVM: arm64: Hook up donation hypercall to pkvm_pgtable_stage2_map()
+1e26d2bcf7ea9a0f387d30180b646d693ba8666d KVM: arm64: Handle aborts from protected VMs
+a1ea0fdec5c1541d1c37d4ddf0eda1c7fb2bf112 KVM: arm64: Introduce __pkvm_reclaim_dying_guest_page()
+d28b05247748171e8b164c7d0b8c3de58d7cbea4 KVM: arm64: Hook up reclaim hypercall to pkvm_pgtable_stage2_destroy()
+6d03bf1e95815579c4388adbedd930d46a3a69cb KVM: arm64: Factor out pKVM host exception injection logic
+c560f5e8220fda7a12aebd72a10b59b34c223330 KVM: arm64: Support translation faults in inject_host_exception()
+1bc42a2556f8af23f29fa8f1a6302bd70f99fd9d KVM: arm64: Inject SIGSEGV on illegal accesses
+7cfb8514649f39abc94e23dc55ca2bfeca697730 KVM: arm64: Avoid pointless annotation when mapping host-owned pages
+012deaa3513ac8bf01da62a6f3cffdd9b49bde52 KVM: arm64: Generalise kvm_pgtable_stage2_set_owner()
+41db2d183de48054062dbc391e74bb61e7aee8aa KVM: arm64: Introduce host_stage2_set_owner_metadata_locked()
+5b63fc8045a498e78ded597dd7eb779667112111 KVM: arm64: Change 'pkvm_handle_t' to u16
+b2d3f898278a7a088dcab1b792fbe837ce144679 KVM: arm64: Annotate guest donations with handle and gfn in host stage-2
+d649d6fd2c9dcbfb9fdcfbbca08eb70baeda7981 KVM: arm64: Introduce hypercall to force reclaim of a protected page
+b6a7b913ca05919c85b107b2ac98c83e5e7a0f66 KVM: arm64: Reclaim faulting page from pKVM in spurious fault handler
+57f7e402394f26dc2cd75a53849007e590197b20 KVM: arm64: Return -EFAULT from VCPU_RUN on access to a poisoned pte
+d3ae2e73fb4a48dbadfc69b37f1d54d3efee3bf9 KVM: arm64: Add hvc handler at EL2 for hypercalls from protected VMs
+e89ba96cb74cd84afc5bf8e829c2009caca734d3 KVM: arm64: Implement the MEM_SHARE hypercall for protected VMs
+ff2299f33a880000e9e63dea5040f6ea8aaac081 KVM: arm64: Implement the MEM_UNSHARE hypercall for protected VMs
+e4d5c5d90f5a7230065bbf95008540cd2c5ce7f2 KVM: arm64: Allow userspace to create protected VMs when pKVM is enabled
+ffbd414bfed73a4b671b60a819ca1bdee35de89a KVM: arm64: Add some initial documentation for pKVM
+ccf3fac41b4b91f63c069fd3458731a69504e7bd KVM: arm64: Extend pKVM page ownership selftests to cover guest donation
+5d6488539b8e1141f5063301a4728fc2d531e2ca KVM: arm64: Register 'selftest_vm' in the VM table
+ed72f7b2866a5c12d4ce20b0634539cbfc7212a8 KVM: arm64: Extend pKVM page ownership selftests to cover forced reclaim
+8194dcd8fd4f992af640a505f6e486745fe291f7 KVM: arm64: Extend pKVM page ownership selftests to cover guest hvcs
+c667c38f4cce124d751fe93f1b51315d6979dc38 KVM: arm64: Rename PKVM_PAGE_STATE_MASK
+7e4a4eacb713a1ca83102786f2826e9767f7f8fe drivers/virt: pkvm: Add Kconfig dependency on DMA_RESTRICTED_POOL
 
---===============6218590842755439620==--
+--===============7228562060612536328==--
