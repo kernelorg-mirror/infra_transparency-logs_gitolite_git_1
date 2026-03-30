@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============4988446088647345147=="
+Content-Type: multipart/mixed; boundary="===============3653336602982106970=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/leon/linux-rdma
-Date: Mon, 30 Mar 2026 08:51:54 -0000
-Message-Id: <177486071476.1442504.16832976274732762430@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mellanox/linux
+Date: Mon, 30 Mar 2026 08:52:08 -0000
+Message-Id: <177486072808.1442905.8031227922171074852@gitolite.kernel.org>
 
---===============4988446088647345147==
+--===============3653336602982106970==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/leon/linux-rdma
+repo: pub/scm/linux/kernel/git/mellanox/linux
 user: leon
 changes:
   - ref: refs/heads/master
@@ -20,7 +20,7 @@ changes:
     new: 7aaa8047eafd0bd628065b15757d9b48c5f9c07d
     log: revlist-f338e7738378-7aaa8047eafd.txt
 
---===============4988446088647345147==
+--===============3653336602982106970==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -935,4 +935,4 @@ fc9eae25ecb769e0c03a1383c677e2ddc1de8adf Merge tag 'phy-fixes-7.0' of git://git.
 d1384f70b2e3162786bc73b8f86c27417803bd57 Merge tag 'vfs-7.0-rc6.fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
 7aaa8047eafd0bd628065b15757d9b48c5f9c07d Linux 7.0-rc6
 
---===============4988446088647345147==--
+--===============3653336602982106970==--
