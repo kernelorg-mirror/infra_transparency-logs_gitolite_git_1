@@ -1,16 +1,94 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
-Date: Mon, 30 Mar 2026 07:41:55 -0000
-Message-Id: <177485651538.1379804.16458725165045538260@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kvmarm/kvmarm
+Date: Mon, 30 Mar 2026 07:42:10 -0000
+Message-Id: <177485653088.1380275.2407049740018403834@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tiwai/sound
-user: tiwai
+repo: pub/scm/linux/kernel/git/kvmarm/kvmarm
+user: maz
 changes:
-  - ref: refs/tags/v7.0-rc6
-    old: 0000000000000000000000000000000000000000
-    new: b6c7d19951061de1be08fb8f5714e630b24bcc1c
+  - ref: refs/tags/pinctrl
+    old: d7fc0fd80f85cb489226c141aedf69743e48c389
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/tags/pinctrl-for-3.4
+    old: 18361c19691acbcd11f03c4377d10793963d92a8
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/tags/pinctrl-for-3.7-late
+    old: 0e0e82945bea330097653ae4a8942e09e8e0a94d
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/tags/pinctrl-for-v3.10
+    old: 50bf33a11457bb06024595427d75591c8d260657
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/tags/pinctrl-for-v3.11-1
+    old: 9c70c378f8f0ce4a248dff749b6b59a78c1a9967
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/tags/pinctrl-for-v3.11-2
+    old: 327898d63e0c40de83261efc2e2989eaf5c43093
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/tags/pinctrl-for-v3.11-3
+    old: afd39afbf20fde0a0e13935ec3dd616026ca902a
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/tags/pinctrl-for-v3.13-1
+    old: a50bf250dc92ca0fc1e6bb82ab0e3abe7d3fa2d8
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/tags/pinctrl-for-v3.7
+    old: 394aa1122e9e8922baaa263119f1fa2b6667cbaa
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/tags/pinctrl-for-v3.7-late
+    old: ea9162f7e16dda48d41320d4fe9d3a09177c46bc
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/tags/pinctrl-for-v3.7-rc5
+    old: c83ab8507d868eab511ca01930a10f628d8571ec
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/tags/pinctrl-for-v3.8
+    old: 1dda224a3038bed7d19918db703491f83bc65fb8
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/tags/pinctrl-for-v3.8-late
+    old: 909c1071e0d0b4cbe78aea0ba6285d77cd0a59ad
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/tags/pinctrl-for-v3.9
+    old: ac9d49af63b3d8ddf8843e5174ad35d261f479e9
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/tags/pinctrl-v3.12-1
+    old: 6c37c60df820060a9747f917bb3abae90f471215
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/tags/pinctrl-v3.12-2
+    old: 4e5339c78e61723f220c7a3fad95413946913637
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/tags/pinctrl-v3.13-2
+    old: 4890c209c7952c87a14dbe3d954c96ff655bf047
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/tags/pinctrl-v3.14-1
+    old: 4d543444148beca3ed1e4098abbd2ff6f250f0b4
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/tags/pinctrl-v3.14-2
+    old: 98b984b20705013b03167521dca4d461f0965392
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/tags/pinctrl-v3.14-3
+    old: c9685d0b3db6d566aefbb36ae841ec9515274875
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/tags/pinctrl-v3.15-1
+    old: 6c1e04fe1830343033169b75f3c6f386c7ac3e28
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/tags/pinctrl-v3.15-2
+    old: e072ea99c6ad8209b8b17b4f787e7122a82af938
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/tags/pinctrl-v3.15-3
+    old: ced1e81fb952c8fb1400bed7b738f8acb1d1a3dd
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/tags/pinctrl-v3.15-4
+    old: c14d325ae8abfed73c8bd54cd66279ae42434cfc
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/tags/pinctrl-v3.16-1
+    old: 254f114aa05868573c76dc20da2f5638e0e12ae4
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/tags/pinctrl-v3.7-rc3
+    old: ed34e0d3f26c66c310977a21b0d392c98fdfe4b7
+    new: 0000000000000000000000000000000000000000
+  - ref: refs/tags/renesas-pinctrl-for-linus
+    old: f71f9ecde8010b650a8868f3b20f252a9f0a3eab
+    new: 0000000000000000000000000000000000000000
