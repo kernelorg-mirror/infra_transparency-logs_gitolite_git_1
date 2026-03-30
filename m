@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/kvmarm/kvmarm
-Date: Mon, 30 Mar 2026 07:37:28 -0000
-Message-Id: <177485624819.1374468.707420685340601407@gitolite.kernel.org>
+Date: Mon, 30 Mar 2026 07:39:12 -0000
+Message-Id: <177485635201.1375305.14588509266985208303@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,183 +11,123 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/kvmarm/kvmarm
 user: maz
 changes:
-  - ref: refs/tags/arm-thp-for-lsk-v3.10-v1
-    old: f7d8d9504782afafc72944141207f88d149b9917
+  - ref: refs/tags/arm-soc-fixes
+    old: ca26714f3b666b4600ba7e0c3b9fbb471a6c8386
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/gic-v3-for-lsk-v3.10-v1
-    old: 3d13d26ecd3bcd4f1ee469fca4f3bb8dfd9f501d
+  - ref: refs/tags/arm-soc-fixes-20120116
+    old: 4417416e8362edf97cafda56ac9bb35009cc5c41
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/gic-v3-for-lsk-v3.14-v1
-    old: 0a6c1ebbb539de2824738b4022755c1e7d303f3f
+  - ref: refs/tags/arm-soc-imx-move
+    old: d2c58ce7b769aafe4aa84664ab66d61b901d4a9e
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/lsk-13.07
-    old: 51d45614dd4e2183064c0d3f2d622491aeee30a0
+  - ref: refs/tags/asoc-3.8p1
+    old: 0537ca5a0067a92b5ab5fdef81ec3330081a0dda
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/lsk-13.08
-    old: 4860f27fd2d50bba1df0136a6adced4b503ca771
+  - ref: refs/tags/asoc-3.9
+    old: cdfc9e2f9a08650863ec2bcee0398e8b431b9ed5
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/lsk-13.09
-    old: 3d6bd6b6e7023c6b0fba1e3a71471c3318bf2485
+  - ref: refs/tags/asoc-3.9-updates
+    old: 18ffcac57666d4a818bef5270a034bb72d03a739
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/lsk-13.10
-    old: 2d744a74aa99ba2954212f836bb3f2f163b9f479
+  - ref: refs/tags/asoc-atmel-pinctrl
+    old: 7869b7c69562ec16e234d80e82c436adbbe78c85
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/lsk-13.11
-    old: 9b9e21df7c21ac4b582f1484c824fcf9f296e500
+  - ref: refs/tags/asoc-fix-3.8-rc2
+    old: d9aa9549e8152eb43ba628ab73aefe03292ef7f5
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/lsk-13.12
-    old: d160578dbf0dd50c7c8d5a0413cae0fce82cb9a6
+  - ref: refs/tags/asoc-fix-v3.9-rc4
+    old: f58bc04a0736d8d05fa0674543cff24b2f40410c
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/lsk-14.01
-    old: 06b95bd31d085d95bd9cfab76c3ef1cda2592762
+  - ref: refs/tags/asoc-maintainers-v3.9-rc6
+    old: 9c0347a4e6c72e82f3e53c9a2dcec1b76a5c7766
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/lsk-14.02
-    old: ce45f7803a2033524cfb77c4bc521630aea04419
+  - ref: refs/tags/asoc-v3.10
+    old: 93e92eb499a30d2d46edf974e1a45019d03da0e5
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/lsk-14.03
-    old: 9057be416d8fa1dd2740b3559c111ecc730109a9
+  - ref: refs/tags/asoc-v3.10-2
+    old: 77d1a6468b98112207b3449371f7806a5fa70736
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/lsk-14.04
-    old: 4ba3f24b8acbd7dddeb5b801855bf149452eb7a1
+  - ref: refs/tags/asoc-v3.10-3
+    old: cf69c31e951dad73022890888c5e755a6f4faa7e
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/lsk-14.05
-    old: ddf8089c9586408404fccd3e72e8f9428f44fa04
+  - ref: refs/tags/asoc-v3.10-4
+    old: 05885894ccedd74d7e3614e87401ee847e4a63f4
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/lsk-14.05.1
-    old: 5ea71d2e6c741f73be9a372867221e2ccf54225e
+  - ref: refs/tags/asoc-v3.10-rc1
+    old: b2661f4004e3d4b0d30b5e760bb7e988c7b78c08
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/lsk-14.06
-    old: 450e58280d1fa2df807a34f8739e7a8b5cd6c531
+  - ref: refs/tags/asoc-v3.10-rc3
+    old: 98f15911e017d8680169926d25f2e168255bbccd
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/lsk-2013.06
-    old: 3b1729ff8d9511caa3d9a950183b9e01157b6614
+  - ref: refs/tags/asoc-v3.10-rc5
+    old: dd0ae239a568ef2638e655f0391ce9a270fbeb35
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/lsk-20130505.0
-    old: 314864b5a538c5ec1f871d814974edc37bdc676e
+  - ref: refs/tags/asoc-v3.9-rc1
+    old: b4db33ab31f8410ac17e6b98cdee7e1b62b59e26
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/lsk-20130512.0
-    old: 3c243d16e0e70ed3fdf99cef04bc022c6480dd17
+  - ref: refs/tags/asoc-v3.9-rc6
+    old: 4ac1e5ae669c7b7fd21179bfda5675aaa9799477
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/lsk-20130515.0
-    old: f55eb79da5269d2262470b1cb96dfd18052fd00e
+  - ref: refs/tags/berlin-soc-3.16
+    old: 3a786f7252c9311afe16a0afac35ac769ebcd42a
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/lsk-20130522.0
-    old: fbf47c57870ddb4d09b93ca6e37fd84418330b42
+  - ref: refs/tags/davinci-v3.6-soc
+    old: 88c778f2cac4f1c4feca816771d7b4365f60e838
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/lsk-20130525.0
-    old: 21fba45663430ab8519d8ab1c9638a85efb8f293
+  - ref: refs/tags/imx-soc-3.13
+    old: 2d4f07f6f58123f455d759fd29f76d95a3fe8733
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/lsk-20130525.1
-    old: 095df0c7ba135e8fdeb6f3ddb3a107a1b6ce73fa
+  - ref: refs/tags/imx-soc-3.14
+    old: d03274da7d6da26d7aeebfae5266daefc2f3426e
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/lsk-20130527.0
-    old: 6b1733a4ff3b5e5c78335806a3c356f6d36efdda
+  - ref: refs/tags/imx-soc-3.15
+    old: 8e3c5538bbfca267857ea62244cd8565388b8a35
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/lsk-20130528.0
-    old: 38446f0ece2df4b8e3e2acf0cc82e3620970fb99
+  - ref: refs/tags/newsoc
+    old: 3ad231bf654a9d6dce5f6e1d8154ea596053b402
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/lsk-20130613.0
-    old: aacad232957894080fdbd461d4450ea160496416
+  - ref: refs/tags/soc
+    old: 7ac15c996c1481b54cb3a024f243698dff572480
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/lsk-android-13.07
-    old: bab9e558f86a2c7fdab56043960ad30cad66941d
+  - ref: refs/tags/soc-3.11-1
+    old: 719977ab43701c3bf101d7a903d4adc2bbc7a3b4
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/lsk-android-13.08
-    old: 2e37a1faf76f0cd13b0745a9527f10f996a99a9b
+  - ref: refs/tags/soc-3.11-2
+    old: c34253f768c876fa56eeba12017b96b9593bcce8
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/lsk-android-13.09
-    old: afec407307018ef9f662ba3e78b83a17b4f6e96a
+  - ref: refs/tags/soc-3.12
+    old: bde4b0423cbee0fffcc73a9c8c5441a05c27b9d1
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/lsk-android-13.10
-    old: 432390c117f42016ca6e3c37f81060ab656fc67a
+  - ref: refs/tags/soc-3.13
+    old: d0fcceab0afb66124cd0a7930a57637200faa5dd
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/lsk-android-13.11
-    old: c0c1a293339d7a7720b5fe1d092ca2971ed1f2f1
+  - ref: refs/tags/soc-3.13-2
+    old: b984539860ee48883de506b5677beb533afc7561
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/lsk-android-13.12
-    old: 888943dcc0c1951717b210726c52e0c79e15dcd0
+  - ref: refs/tags/soc-3.15
+    old: 419b76e353a487a1b43629e864495dc66f9675fb
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/lsk-android-14.01
-    old: 28ee5d3bc7806fe7e51cdbc930163f8123d7467c
+  - ref: refs/tags/soc-for-3.16
+    old: a3af7e353ad04d38d499028b42bccfe688b578be
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/lsk-android-14.02
-    old: ec7432b1569d31377739d4ce18c3cc65323eec2f
+  - ref: refs/tags/soc-for-linus
+    old: 1569e2b9272cd83a9b319e0da2823f04192c47c6
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/lsk-android-14.03
-    old: 650451a4555b136f3348881dc91f546c910b35d4
+  - ref: refs/tags/soc-for-linus-2
+    old: e8a0a5c81af1e247ff4fcd7d9ad15cacf642f74a
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/lsk-android-14.04
-    old: e5173c49871d1e0fadd0e85cef4101aae077fa70
+  - ref: refs/tags/soc-for-linus-3
+    old: 21dacf1a714e973eb17bb87e6de1e5824c7f9b09
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/lsk-android-14.05
-    old: 2328180804dce6c98cecc797cf72c35d9359c506
+  - ref: refs/tags/soc-late
+    old: 5888af89f1988d15a3706b3892378717825bd8d6
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/lsk-android-14.05.1
-    old: 31259f563a46331f58987ec301150d8dce4556cd
+  - ref: refs/tags/soc2
+    old: 5f61021441f99d4be53ab241dd62a7b21ea87873
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/lsk-android-14.06
-    old: d024c87af650ce2cf6afe7784710ccd9c6a3ffff
+  - ref: refs/tags/soc2-for-3.16
+    old: a2956d8995492769f4bcb1b749bbc1ff9e94d15c
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/lsk-android-2013.06
-    old: d997ab506d3ab79e7567690037b362263f4e112f
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/lsk-android-vexpress-13.12
-    old: d2f8ed15fd3a98796a1ddd464a0c75e3af2f5b6b
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/lsk-rt-preview-14.05
-    old: 63fefa74cc29d0d4a58ed921d4fb750c78f072a3
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/lsk-rt-preview-14.06
-    old: 18ec3bf03926c0fe8e4feb2181f89e040e7b7ee5
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/lsk-v3.10-14.07
-    old: 95c88bc41196d3322d547c49ac22167072be9ea1
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/lsk-v3.10-14.08
-    old: d0ca19b18dff617764cf555396ae35f1288f20f5
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/lsk-v3.10-14.09
-    old: 25e4f89750d99e7a263b899acd67553a8e68a5c9
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/lsk-v3.10-android-14.07
-    old: 9d7443cb30f39c949466132879d0effc8819117f
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/lsk-v3.10-android-14.08
-    old: aecc51688f40ebe6c13fcf5baa69ddccbf7bd1f4
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/lsk-v3.10-android-14.09
-    old: 22f230509efc8fa3ec37e083a59472b501b957df
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/lsk-v3.10-rt-14.08
-    old: ce5d72da48f51a97f39dc161bffd6b8468f93034
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/lsk-v3.10-rt-14.09
-    old: 8bf73843a87e4f8774b60af2ab8c2aae497a314b
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/lsk-v3.14-14.08
-    old: e4a4d3b043b3154e7ad5f165663e0906909983bb
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/lsk-v3.14-14.09
-    old: f72bb1c4330bd2db41e96da584f62ef05b03e64c
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/lsk-v3.14-android-14.08
-    old: ae05be9507673c82760fa78b85a867192377a992
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/lsk-v3.14-android-14.09
-    old: dbdb9a48bb1bb88fcec31a77cac01b3e93e6afc3
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/lsk-v3.14-android-preview-14.07
-    old: 45f942a04f7834c6a38dd42986f2746aacc3b5f2
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/lsk-v3.14-preview-14.07
-    old: 248a82381f656c8325636b81b2b8d7c42a2c640d
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/lsk-v3.14-rt-14.08
-    old: 655910c9d0bc0d539240d5388966cb5696ab8cca
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/lsk-v3.14-rt-14.09
-    old: 326da203c407a34e6ab973bbfc7f65308f24ed0b
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/lsk-vexpress-13.12
-    old: e1c6207788f37c8fa02a2fd1796da82b3060c223
+  - ref: refs/tags/soc_for_v3.10
+    old: 8b1207cc5dcfb2a59723e0bb7bbc94cbfca03c50
     new: 0000000000000000000000000000000000000000
