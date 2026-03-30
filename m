@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2465108205171028335=="
+Content-Type: multipart/mixed; boundary="===============5903153820021919942=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Mon, 30 Mar 2026 19:41:04 -0000
-Message-Id: <177489966496.2000127.9729799077307112618@gitolite.kernel.org>
+Date: Mon, 30 Mar 2026 19:41:07 -0000
+Message-Id: <177489966773.2000230.359418213209364231@gitolite.kernel.org>
 
---===============2465108205171028335==
+--===============5903153820021919942==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/10GbE
+  - ref: refs/heads/40GbE
     old: e4cf6087cab382c7031e6b436ec55202fa9f2d7b
     new: cf0d9080c6f795bc6be08babbffa29b62c06e9b0
     log: revlist-e4cf6087cab3-cf0d9080c6f7.txt
 
---===============2465108205171028335==
+--===============5903153820021919942==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -78,4 +78,4 @@ cd1082a96f9a1ffe053e48ac0a1b4fffb189c30e net: macb: drop usrio pointer on EyeQ5 
 137ac69c15fd2a9acf5d4d95456fe75f23c9ffc5 net: hsr: use __func__ instead of hardcoded function name
 cf0d9080c6f795bc6be08babbffa29b62c06e9b0 Merge branch 'net-hsr-subsystem-cleanups-and-modernization'
 
---===============2465108205171028335==--
+--===============5903153820021919942==--
