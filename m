@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/kvmarm/kvmarm
-Date: Mon, 30 Mar 2026 07:35:24 -0000
-Message-Id: <177485612445.1372476.2811710317773437533@gitolite.kernel.org>
+Date: Mon, 30 Mar 2026 07:36:02 -0000
+Message-Id: <177485616257.1372969.14737207068444307426@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,243 +11,126 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/kvmarm/kvmarm
 user: maz
 changes:
-  - ref: refs/tags/clk-mvebu-3.16
-    old: a45e91cb72d7990f304fc2e658be59d6c846e5f2
+  - ref: refs/tags/staging-3.10-rc1
+    old: 592361876a77f3025955584e5fcda3e65d6d652c
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/clk-mvebu-3xx-3.15
-    old: 0630aa7625af3564ae6b601d42d19c66cd23ca31
+  - ref: refs/tags/staging-3.10-rc2
+    old: 2ecb528656edd9908740b5e0dba588b24be3703a
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/clk-mvebu-3xx-3.15-2
-    old: d230e95e255ba63200fdbccfffba7ce4a06987e8
+  - ref: refs/tags/staging-3.10-rc4
+    old: 25bb2a208f4da7d042bd5b1fa9c6b8dd62db99bd
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/for-mvebu-pinctrl-3xx
-    old: e6898c0bb4b1d15c7574004a0ec7e96f8d8bc504
+  - ref: refs/tags/staging-3.11-rc1
+    old: 9047c752186d9e2ec11810ccbc711f87ce8e2d0c
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/for-mvebu-pinctrl-cleanup
-    old: f1be178a2a6863f73aa71979e7bde74534f971c1
+  - ref: refs/tags/staging-3.11-rc2
+    old: 181d8e59313994227224bc7121b2d3fc9069d1ee
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/irqchip-mvebu-3.15
-    old: 372aafa3b0aa79e3fcc4eb36bdaeeab4f6459154
+  - ref: refs/tags/staging-3.11-rc3
+    old: 6cffdb38a36af29ed4a7733178e12e876b86840d
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/irqchip-mvebu-3.16
-    old: f976367ae55c7da1ebf2f365b5eaa620de10efe6
+  - ref: refs/tags/staging-3.11-rc5
+    old: c7654e204702399cec84a072f4561a7a1e3aef8b
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/irqchip-mvebu-fixes-3.14
-    old: 36b695b8a8460692492b0e984ef034cfa20692a3
+  - ref: refs/tags/staging-3.12-rc1
+    old: 69f2ed6a2ef5335edbe5040d9f106916dfaf9f05
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/late-mvebu-rebased
-    old: 739e7cc7d5c44d5b8e4f6e355e096256915554e4
+  - ref: refs/tags/staging-3.12-rc2
+    old: 96f60ff70402aab977512e9f5199aab7ba81ae35
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/marvell-mvebu-clk-3.8
-    old: 8818ec2b1bec92f620f2bd7b7b048f619448ea4d
+  - ref: refs/tags/staging-3.12-rc4
+    old: f0c37cfcc4b1fb5406242a9377bbb8af0b8444e1
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/mvebu-clk-3.14
-    old: 620ffd1a07098fae1300557122b600d792e4158f
+  - ref: refs/tags/staging-3.13-rc1
+    old: 2dd114481ef3c14214a10839e9b66e67ac306266
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/mvebu-clk-fixes-3.14
-    old: 45f857f430fe250f069cb86e1cd304d9bbd0d710
+  - ref: refs/tags/staging-3.13-rc2
+    old: 9dfc92a6fce7f1026cd554782c9e193e08a6b0f1
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/mvebu-defconfig-3.14
-    old: bcb7c737b1d7c58a3a1ebb6eeaf1d98b4f65f62e
+  - ref: refs/tags/staging-3.13-rc3
+    old: 07f1693b5bb49930cdea46a6691987c4c1306df2
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/mvebu-defconfig-3.14-2
-    old: 6da4a954bbe9a07af0742bb21a7f7186b39ed5b0
+  - ref: refs/tags/staging-3.13-rc5
+    old: b5a7c950a1cf46e10ec571db9656dd3ba27b89b3
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/mvebu-defconfig-3.15
-    old: f751f8ab1f0c671885ff0e1de1f1cfc903a49f9b
+  - ref: refs/tags/staging-3.14-rc1
+    old: f8eebf420c5da730a30b05718d63d9bc5809cfff
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/mvebu-defconfig-3.15-2
-    old: c45cf7d504500c23ccc95c407ea529c4bb96504d
+  - ref: refs/tags/staging-3.14-rc3
+    old: 943d8cd872f8e24d29f8a2b78d4b85ee640fd511
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/mvebu-defconfig-3.16
-    old: 240749f4a064856b5ef90354cb0dc78f29ab39f7
+  - ref: refs/tags/staging-3.14-rc4
+    old: 6d47a2eb0d8410788352e0300c54650123b75a31
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/mvebu-defconfig-3.16-2
-    old: 3bd7f6aba967bdce4831226160df6b371501cb1c
+  - ref: refs/tags/staging-3.15-rc1
+    old: e38d0c4aa59adbd5a31da452c44af558838e2f29
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/mvebu-drivers-3.14
-    old: b6079bbfaba0fb50cc5df0788fbcd055b5ed0d32
+  - ref: refs/tags/staging-3.15-rc2
+    old: 5bd665603b80f7583ecd7907e6bbab9970255346
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/mvebu-drivers-3.14-2
-    old: f35d4086edccbb1773863c42960d75d47b099c5a
+  - ref: refs/tags/staging-3.15-rc3
+    old: 3f2f196f8727b9fa314518708e9c4c2d9fbe318b
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/mvebu-drivers-3.15
-    old: 6272aa272dd1b5b7f00a7e246d87a3691d17054c
+  - ref: refs/tags/staging-3.15-rc4
+    old: bd5c1747fe05175d82d4032011b2bb2f346f0c73
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/mvebu-drivers-3.15-2
-    old: d0ff9ba8aacddc4cb44bcb6b8f3419ea2d327710
+  - ref: refs/tags/staging-3.15-rc6
+    old: f32fba46dc5f3d0e85d4d87f78969a8adf638127
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/mvebu-drivers-3.16
-    old: c3619196c1834d70303c85a2873d176be598fc4b
+  - ref: refs/tags/staging-3.15-rc8
+    old: e8edebf46c6e1e599f81c82f3784692d03c763ee
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/mvebu-dt-3.14
-    old: 2b67fcab53ec8d3c5e2b68dd1389b456241f6872
+  - ref: refs/tags/staging-3.16-rc1
+    old: 23295514416d0f435b9bb262b51a73b376a06571
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/mvebu-dt-3.14-2
-    old: c0963723a946572541184f058e4ddccc8316e226
+  - ref: refs/tags/staging-3.3
+    old: dd43a80e059a7672284a2a418e2b7c761d8550e2
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/mvebu-dt-3.14-3
-    old: 92d39e09941008b21e3ed2b661f03dd612779ab5
+  - ref: refs/tags/staging-3.3-rc3
+    old: 93ca733885df283768ab16347d6f85caf030f476
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/mvebu-dt-3.14-4
-    old: 639d6185f6f7195b310578353c1f0c87830164f2
+  - ref: refs/tags/staging-3.4-rc2
+    old: ee04c6f51f96dcbcd4bc8c6cb5081f521fee0ee2
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/mvebu-dt-3.14-5
-    old: 4e344bd7bf6850d55cbaf5fe690676f6cec9e6e3
+  - ref: refs/tags/staging-3.4-rc4
+    old: 38baeca496e13262bb129c8615a0d4b891168295
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/mvebu-dt-3.15
-    old: 8d43cdd3152a395128ca9c97f59baba2d0b77b26
+  - ref: refs/tags/staging-3.5-rc1
+    old: b9d10c8cbcef90ed8a1e359d137086fd7f5c5463
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/mvebu-dt-3.15-2
-    old: 147ec2b481231a41efa5ef48ef19228dab5b0873
+  - ref: refs/tags/staging-3.5-rc4
+    old: 8e8071f3896838f848b4303fd36b60d6031f8317
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/mvebu-dt-3.15-3
-    old: f5d9f3c4f6d7ed8e614a160f165c09ac8312bd80
+  - ref: refs/tags/staging-3.6
+    old: 6f30d82cbb08dec8f5f6a174c276ee6129f8d2ec
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/mvebu-dt-3.15-4
-    old: c83853bdf3ebeec197de4e9251947f69073e72fc
+  - ref: refs/tags/staging-3.6-rc1
+    old: 53a1083ec5d999f9c98c097b2d7ed090dcd129a5
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/mvebu-dt-3.15-5
-    old: 52c90bea9e40ff772d9bc46ec9ebbb1a239fe564
+  - ref: refs/tags/staging-3.6-rc3
+    old: 70050b0508b53e09333fdaab92cb277cb42ec32c
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/mvebu-dt-3.16
-    old: aa3fa6ea28212e1ecc36e70fad7e80fa6bd5b177
+  - ref: refs/tags/staging-3.6-rc6
+    old: 2df7535ee504a47a8c50694e939aafab5269e4c3
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/mvebu-dt-3.16-2
-    old: 1cb39fe1ac607760f3d8af81ca5953ac2e70afe3
+  - ref: refs/tags/staging-3.7-rc2
+    old: e0aeef68fea40c971e78fc084642d8ef21eb1acc
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/mvebu-dt-fixes-3.13
-    old: bebeabd4869dbe32ae49314af2a79e842e237073
+  - ref: refs/tags/staging-3.7-rc5
+    old: 0505fe0010bf85eefff5a664e71dac4120113d9a
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/mvebu-dt-fixes-3.14
-    old: f57b83d9b08b03609629d133596c627c13320434
+  - ref: refs/tags/staging-3.8-rc1
+    old: 85f72d2be6bb5e9a7bf475539e9c66d8b766db63
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/mvebu-dt-fixes-3.15
-    old: 1dd05f7f1f09a5cae927fda4131d944ee8c28980
+  - ref: refs/tags/staging-3.8-rc3
+    old: cd63c135d5100a28324c54f471767e665337569d
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/mvebu-dt-fixes-3.15-2
-    old: d585aaa37f62ba9596cea2f6b65311ae43eda9f3
+  - ref: refs/tags/staging-3.8-rc4
+    old: 91a4bd5c2e65c6e1ba75b005e9e129ec53744bb9
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/mvebu-dt-fixes-non-crit-3.15
-    old: 81bffd1fd7d3cbbdde7726c0eb7e895f3091a975
+  - ref: refs/tags/staging-3.9-rc2
+    old: 141ea8f267ab87b8ebc0222952c56e19dc18b660
     new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/mvebu-fixes-3.13
-    old: 10cbfdb5b93a4f285339f05e65533ed35beb9dc8
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/mvebu-fixes-3.13-2
-    old: 00e26a9ecb60071fc97e7756b1a89e4a4080169c
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/mvebu-fixes-3.15
-    old: 373e3d787dd6a7c269a74c6ddf9b0d1b143a1ee7
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/mvebu-fixes-3.15-2
-    old: 3ce47a4466e2a744b6fe208aa22daa16ac977139
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/mvebu-irqchip-3.14
-    old: 19a52403581da2418254f4a7ee753cfa9bf013c4
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/mvebu-irqchip-fixes-3.13
-    old: 1cb6262e0b0f664ab94c36b98f9394f7be2bb701
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/mvebu-irqchip-fixes-3.15
-    old: a0aa1189cf992a8d96ea728be135f4c3704eb8ba
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/mvebu-mbus_pci-fixes-3.15
-    old: 6ce22b431ea5e6f6767a27937e0614f58a792a8c
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/mvebu-phy_ata-fixes-3.14
-    old: d321918a00de9c98c202d0c8c48646c062f1d9b5
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/mvebu-pinctrl-3.15
-    old: 4553e5f6e9af7b238c6abbc83f6b07adf9ff9f69
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/mvebu-soc-3.14
-    old: 8b3a686863d176f4f4f3fe78cdec3dfde1e295c1
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/mvebu-soc-3.14-2
-    old: d0a4cc92935c36daf11019a2bd7b0b03517e4010
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/mvebu-soc-3.15
-    old: aa84894302a34114a45b94586a16a1144e7bb745
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/mvebu-soc-3.15-2
-    old: 5dc93143ea05ace66d974c2d49892df7ee7cb660
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/mvebu-soc-3.15-3
-    old: 482eb37fcdaa79c807fa5a765e6dbbc12190356d
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/mvebu-soc-3.16
-    old: 957a72c4822ee3649c8ecf0e98a556080866a36c
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/mvebu-soc-3.16-2
-    old: 355e81accca309a41d078c3719517b897c520325
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/mvebu-soc-3xx-3.15
-    old: 573ca132a9b0350fc5331ae838cdbadab41e8509
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/mvebu-soc-orion5x-3.16
-    old: 128842b8a984affab70f310d32ee326e537e6068
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/mvebu-watchdog-3.15
-    old: eee63bdf2f646d0e641346293376f4944bb113ff
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/mvebu-watchdog-3.15-2
-    old: 22acf8174ca8531c6bcf34bb903e4bde443253b5
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/mvebu_addr_decode_for_v3.7
-    old: d35051892d603d99e29c3a6044fc5e49e251d605
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/mvebu_boards_for_v3.7
-    old: 0c11efcdfeea67731a93bdb5db2180fb1a6ba96b
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/mvebu_cache_l2x0_for_3.8
-    old: acba97bd9fcedd48b5450aceaccc201db3895008
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/mvebu_cleanup_for_v3.7
-    old: 8b65c0e3e4284569737e36170699807ffcefe9ae
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/mvebu_defconfig_for_v3.7
-    old: 27fe030f97cbf669737bfe579fb649cf5f8f8c3e
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/mvebu_dove_late_fixes_for_v3.7
-    old: 852cdfa5490372fb1691a3a79371781fe98201c8
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/mvebu_drivers_for_v3.7
-    old: edfcf8f1c5a834795e5fb74f52602fd661b6f888
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/mvebu_dt_for_v3.10
-    old: c1b31062a16b3c87426604943a6fc9c04b0279eb
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/mvebu_dt_for_v3.7
-    old: cffeae9fbf77a2be7dd8c3ddfa6b5d16cec492db
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/mvebu_dt_v3.10-2
-    old: 850713d3c61f642191f82563807d1ef017eb687d
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/mvebu_everything_for_3.8
-    old: 7b7444cf85e27bf5bdb29844e827da0a1186f2fa
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/mvebu_fixes_for_v3.8
-    old: b7a1e7e999a1b5e6e81aacec1229c0c3751ae761
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/mvebu_fixes_for_v3.8-rc3
-    old: 36e30013d0746355013c1c03ac5710de78545e09
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/mvebu_fixes_for_v3.8-rc5
-    old: 457c5b53cfcfaf2c09897299f703914529ef75f9
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/mvebu_fixes_for_v3.8-rc6
-    old: 86987e7aacf6da45010c28d912aacd00ddb1e410
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/mvebu_fixes_for_v3.9
-    old: 68b1b0423371cdd2d63eb944c13245b6ed209700
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/mvebu_fixes_for_v3.9_round2
-    old: 4007e5aaf95cd711eda3d44ebe00b3e3df3f273e
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/mvebu_fixes_for_v3.9_round3
-    old: e34e40ce56bfedd1d0b2afd3465dc3ceda86e0f0
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/tags/mvebu_gpio_fixes_for_v3.7
-    old: 3757bad133b45e452638cee9a9c6e6ea197b1006
+  - ref: refs/tags/staging-3.9-rc4
+    old: 0082902b8a91f870afe8d5c2f400096ec25a00eb
     new: 0000000000000000000000000000000000000000
