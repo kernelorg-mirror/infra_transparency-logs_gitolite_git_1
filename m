@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1588925084606841608=="
+Content-Type: multipart/mixed; boundary="===============4561776949831739893=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
-Date: Mon, 30 Mar 2026 02:04:09 -0000
-Message-Id: <177483624968.1036008.16015685045878421072@gitolite.kernel.org>
+Date: Mon, 30 Mar 2026 02:04:32 -0000
+Message-Id: <177483627288.1036239.463152640062094966@gitolite.kernel.org>
 
---===============1588925084606841608==
+--===============4561776949831739893==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,19 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/groeck/linux-staging
 user: groeck
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/hwmon
     old: be762d8b6dd7efacb61937d20f8475db8f207655
-    new: 7aaa8047eafd0bd628065b15757d9b48c5f9c07d
-    log: revlist-be762d8b6dd7-7aaa8047eafd.txt
-  - ref: refs/tags/v7.0-rc6
-    old: 0000000000000000000000000000000000000000
-    new: b6c7d19951061de1be08fb8f5714e630b24bcc1c
+    new: a9d2fbd3ad0e6ac588386e699beeccfe7516755f
+    log: revlist-be762d8b6dd7-a9d2fbd3ad0e.txt
 
---===============1588925084606841608==
+--===============4561776949831739893==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-be762d8b6dd7-7aaa8047eafd.txt
+Content-Disposition: attachment; filename=revlist-be762d8b6dd7-a9d2fbd3ad0e.txt
 
 2e7b5cf72e51c9cf9c8b75190189c757df31ddd9 dmaengine: fsl-edma: fix channel parameter config for fixed channel requests
 77b19d053ac2cce9e873007ad4b09f2323c93576 dmaengine: dw-edma: fix MSI data programming for multi-IRQ case
@@ -161,5 +158,8 @@ a516c618a627e30b5613fadd264d4b4498254aeb Merge tag 'dmaengine-fix-7.0' of git://
 fc9eae25ecb769e0c03a1383c677e2ddc1de8adf Merge tag 'phy-fixes-7.0' of git://git.kernel.org/pub/scm/linux/kernel/git/phy/linux-phy
 d1384f70b2e3162786bc73b8f86c27417803bd57 Merge tag 'vfs-7.0-rc6.fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
 7aaa8047eafd0bd628065b15757d9b48c5f9c07d Linux 7.0-rc6
+0e211f6aaa6a00fd0ee0c1eea5498f168c6725e6 hwmon: (tps53679) Fix array access with zero-length block read
+ccf70c41e562b29d1c05d1bbf53391785e09c6fb hwmon: (pxe1610) Check return value of page-select write in probe
+a9d2fbd3ad0e6ac588386e699beeccfe7516755f hwmon: (ltc4286) Add missing MODULE_IMPORT_NS("PMBUS")
 
---===============1588925084606841608==--
+--===============4561776949831739893==--
