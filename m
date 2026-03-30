@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/device-mapper/linux-dm
-Date: Mon, 30 Mar 2026 19:52:17 -0000
-Message-Id: <177490033769.2009969.8585208792146081427@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/b4/b4
+Date: Mon, 30 Mar 2026 19:55:19 -0000
+Message-Id: <177490051929.2013272.17104532333898929440@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/device-mapper/linux-dm
-user: mikulas
+repo: pub/scm/utils/b4/b4
+user: mricon
 changes:
-  - ref: refs/heads/dm-7.1
-    old: 43fd83c0b1dc127cf13b4c05303665924e63ef94
-    new: c057905bf234a04443ed6d91885116bebf9ae5ee
+  - ref: refs/heads/master
+    old: 3ac6c000b33f2f4acd5eb7c8f9c90d95361abd1e
+    new: dcbc67c9cd3075c385a8accbd7765849de747fde
     log: |
-         f934ed66b515b3e96e8ca1f2d80102f7ea6b7fb7 dm: initialize dma_alignment to 0
-         c057905bf234a04443ed6d91885116bebf9ae5ee dm-crypt: allow unaligned bio_vecs for direct io
+         dcbc67c9cd3075c385a8accbd7765849de747fde plan: add b4 bugs integration and series labels to v0.16
          
