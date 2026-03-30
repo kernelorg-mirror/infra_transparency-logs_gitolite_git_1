@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/docs/linux
-Date: Mon, 30 Mar 2026 17:04:45 -0000
-Message-Id: <177489028594.1862886.3868838013018444047@gitolite.kernel.org>
+Date: Mon, 30 Mar 2026 17:04:47 -0000
+Message-Id: <177489028734.1862972.15312041554062733483@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,10 +11,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/docs/linux
 user: corbet
 changes:
-  - ref: refs/heads/docs-mw
-    old: 3a6143946217d377b0c3c35f155861528e7a2afa
+  - ref: refs/heads/docs-next
+    old: 0a4f3ef9880e505d41817419b0255d6552776143
     new: 4663a5a2a3483b5f6b049cf7e9705773ab35e6c7
     log: |
+         8545d9bc4bd0801e0bdfbfdfdc2532ff31236ddf scripts/checkpatch: add Assisted-by: tag validation
+         3a6143946217d377b0c3c35f155861528e7a2afa Merge branch 'docs-fixes' into docs-mw
          d642acfd597e3ec37138f9a8f5a634845e3612fd doc tools: better handle KBUILD_VERBOSE
          7f7f468548cee80d221cbc77e639fe99e113ff99 Documentation: Provide hints on how to debug Python GDB scripts
          06dbdc5da152e30fbd09b37afdca2fdec9da2165 Revert "scripts: ver_linux: expand and fix list"
