@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ardb/linux
-Date: Mon, 30 Mar 2026 14:09:57 -0000
-Message-Id: <177487979709.1712618.8378792673023155354@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/coresight/linux
+Date: Mon, 30 Mar 2026 14:10:41 -0000
+Message-Id: <177487984113.1715469.1681359765846000167@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ardb/linux
-user: ardb
+repo: pub/scm/linux/kernel/git/coresight/linux
+user: suzukikp
 changes:
-  - ref: refs/heads/crc-next
-    old: a6d254e1b2df9bf288c6b83fc0cf5ce28cc8b747
-    new: de8b85c04f26c42ba761fe6a0bb7afb7e477a5de
+  - ref: refs/heads/next
+    old: 08643a8760e81fe0bf91c58f7ee9e19b4db3a24f
+    new: ada4280812a7a40455a842b1de24f8450e04254e
     log: |
-         0ac0b94be34c8bbd5249d9fdaaafde0ad3863af9 lib/crc: arm64: Simplify intrinsics implementation
-         de8b85c04f26c42ba761fe6a0bb7afb7e477a5de lib/crc: arm: Enable arm64's NEON intrinsics implementation of crc64
+         ada4280812a7a40455a842b1de24f8450e04254e coresight: platform: check the availability of the endpoint before parse
          
