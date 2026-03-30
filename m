@@ -1,51 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============1980407718339286048=="
+Content-Type: multipart/mixed; boundary="===============4357699534667493970=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Mon, 30 Mar 2026 16:57:29 -0000
-Message-Id: <177488984922.1857732.16646951782650865392@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Mon, 30 Mar 2026 16:57:32 -0000
+Message-Id: <177488985247.1857873.8056991088091876432@gitolite.kernel.org>
 
---===============1980407718339286048==
+--===============4357699534667493970==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-7.0
+  - ref: refs/heads/spi-7.0
     old: b341c1176f2e001b3adf0b47154fc31589f7410e
     new: 534025950c9fe4dfbe476b3938d73a26814047d1
     log: revlist-b341c1176f2e-534025950c9f.txt
 
---===============1980407718339286048==
+--===============4357699534667493970==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1774889847 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
-nonce 1774889847-89a6e804799a2f549b4fffe734e41e0d21f17542
+pusher C3F436CA30F5D8EB 1774889850 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1774889850-17f2724f5fb05f833cf4e816aa50401c1ce3a39e
 
-b341c1176f2e001b3adf0b47154fc31589f7410e 534025950c9fe4dfbe476b3938d73a26814047d1 refs/heads/for-7.0
+b341c1176f2e001b3adf0b47154fc31589f7410e 534025950c9fe4dfbe476b3938d73a26814047d1 refs/heads/spi-7.0
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmnKq3cACgkQJNaLcl1U
-h9AwnggAgrrl15nZqBKD9MiySPLQlBb/Y4ivEck1jDHeN3lj+MNGpQc8ZKBqDT/P
-RDgLmJab3wtdNnDHvsbm4bS8sxYOHBRplonmfMWfwqfhtGMFBdKTWQ2kBaptas9/
-OMGb1JL644XCKlpk+jVLL+ZT0S/sd3IbR/SlBgkai1YMQ9dwN6gl6wPTm4LtnDgg
-9oT4Br9QrFghgyMMOpjwWPeYKhvdY+2ZVa4loH12zTRsexx+GiLj02l3dz3jjDP8
-jE8e9Zsn+pUzzqBzqi/k3gokz9e+kbXXziQp+cqw+isvnOefgvW19rZ/qQpjZfGf
-YsycTNUyhWgcubYqZCSeEbjrpNLPxA==
-=GCW2
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmnKq3oACgkQJNaLcl1U
+h9CC5Af/VmqtoC6df3U7xGwxNqvVmtzrOxoYSd16uYM9rfTkCYirWljoqInF2GZ2
+ubJBamoIKroHHw9mRTqjlXZfNtuZhiRx9AWhbMweOEljFZmFoM5STrAZdh95RxDx
+twVKVt8GI1UuofLOoEgfVEVx/SLpav/9+ODjWtEYvuBwyJTMt+jUNNLvrUaW/n/J
+woKaF2rdrzUMlb6J+sew/2+cDym/p0eFJd3FZ4RbUXB075UKR0MERufkJMJJeJJ2
+FCSkiWDudhJDjSoH8Nd9Iob1yRbSe3nFq0R6teMRVeqFEThHnVg9XXrj4UgT+WSb
+RbMpV6ltqYnNRgRPezlcs06JdYkvEw==
+=AOEl
 -----END PGP SIGNATURE-----
 
---===============1980407718339286048==
+--===============4357699534667493970==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -566,4 +566,4 @@ d1384f70b2e3162786bc73b8f86c27417803bd57 Merge tag 'vfs-7.0-rc6.fixes' of git://
 5a570c8d6e55689253f6fcc4a198c56cca7e39d6 spi: stm32-ospi: Fix reset control leak on probe error
 534025950c9fe4dfbe476b3938d73a26814047d1 spi: stm32-ospi: Fix DMA channel leak on stm32_ospi_dma_setup() failure
 
---===============1980407718339286048==--
+--===============4357699534667493970==--
