@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2036726569388320789=="
+Content-Type: multipart/mixed; boundary="===============3904137534535561529=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
-Date: Mon, 30 Mar 2026 15:02:40 -0000
-Message-Id: <177488296054.1760126.15873581778907880748@gitolite.kernel.org>
+Date: Mon, 30 Mar 2026 15:02:57 -0000
+Message-Id: <177488297781.1760482.5562461391639392766@gitolite.kernel.org>
 
---===============2036726569388320789==
+--===============3904137534535561529==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,22 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/peterz/queue
 user: peterz
 changes:
-  - ref: refs/heads/perf/urgent
-    old: b63d487679efc67a46cd53c536d2bbd148c979b3
-    new: c7b0b3f00869d62e639ce205f159c3e14677a95c
-    log: revlist-b63d487679ef-c7b0b3f00869.txt
+  - ref: refs/heads/sched/urgent
+    old: d658686a1331db3bb108ca079d76deb3208ed949
+    new: 31e5d8d2f634e18ae3e0967bc753eaf981092da3
+    log: revlist-d658686a1331-31e5d8d2f634.txt
 
---===============2036726569388320789==
+--===============3904137534535561529==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b63d487679ef-c7b0b3f00869.txt
+Content-Disposition: attachment; filename=revlist-d658686a1331-31e5d8d2f634.txt
 
-b4e78f1427c7d6859229ae9616df54e1fc05a516 nvme-pci: Fix slab-out-of-bounds in nvme_dbbuf_set
-2922e3507f6d5caa7f1d07f145e186fc6f317a4e nvmet: move async event work off nvmet-wq
-fc71f409b22ca831a9f87a2712eaa09ef2bb4a5e nvme-pci: Fix race bug in nvme_poll_irqdisable()
-0375c81eb2256366cd9602441d48b8b937e79635 nvme-core: do not pass empty queue_limits to blk_mq_alloc_queue()
-fa655a9ca73f7df32b8ca4d14ce11742f9578288 nvme: Annotate struct nvme_dhchap_key with __counted_by
 bd98c6204d1195973b1760fe45860863deb6200c drivers: net: ice: fix devlink parameters get without irdma
 efc54fb13d79117a825fef17364315a58682c7ec iavf: fix PTP use-after-free during reset
 fdadbf6e84c44df8dbb85cfdd38bc10e4431501d iavf: fix incorrect reset handling in callbacks
@@ -215,6 +210,11 @@ d87f8bc47fbf012a7f115e311d0603d97e47c34c xfrm: avoid RCU warnings around the per
 fdbaa9d2b78e0da9e1aeb303bbdc3adfe6d8e749 rust: pin-init: replace shadowed return token by `unsafe`-to-create token
 487f9b3dc6e507a982f1b984aa6bfbd9dc4b0567 rust: cpufreq: suppress clippy::double_parens in Policy doctest
 14de1552a4e3fece78bb20314887e70888c9d448 include/linux/local_lock_internal.h: Make this header file again compatible with sparse
+8d5fae6011260de209aaf231120e8146b14bc8e0 perf/x86: Move event pointer setup earlier in x86_pmu_enable()
+f1cac6ac62d28a9a57b17f51ac5795bf250c12d3 x86/perf: Make sure to program the counter value for stopped events on migration
+4b9ce671960627b2505b3f64742544ae9801df97 perf: Make sure to use pmu_ctx->pmu for groups
+1d07bbd7ea36ea0b8dfa8068dbe67eb3a32d9590 perf/x86/intel: Add missing branch counters constraint apply
+e7fcc54524f04e42641de99028edd9c69dc19f8c perf/x86/intel: Fix OMR snoop information parsing issues
 9250673cf23572b08c51bcdbb2919e9982bfc36b Merge tag 'asoc-fix-v7.0-rc3' of https://git.kernel.org/pub/scm/linux/kernel/git/broonie/sound into for-linus
 70031e70ca15ede6a39db4d978e53a6cc720d454 HID: logitech-hidpp: Enable MX Master 4 over bluetooth
 1965445e13c09b79932ca8154977b4408cb9610c HID: appletb-kbd: add .resume method in PM
@@ -1049,6 +1049,6 @@ a516c618a627e30b5613fadd264d4b4498254aeb Merge tag 'dmaengine-fix-7.0' of git://
 fc9eae25ecb769e0c03a1383c677e2ddc1de8adf Merge tag 'phy-fixes-7.0' of git://git.kernel.org/pub/scm/linux/kernel/git/phy/linux-phy
 d1384f70b2e3162786bc73b8f86c27417803bd57 Merge tag 'vfs-7.0-rc6.fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
 7aaa8047eafd0bd628065b15757d9b48c5f9c07d Linux 7.0-rc6
-c7b0b3f00869d62e639ce205f159c3e14677a95c perf/x86: Fix potential bad container_of in intel_pmu_hw_config
+31e5d8d2f634e18ae3e0967bc753eaf981092da3 sched/fair: Complete the zero_vruntime tracking fix
 
---===============2036726569388320789==--
+--===============3904137534535561529==--
