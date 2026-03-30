@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6187907743433160771=="
+Content-Type: multipart/mixed; boundary="===============2268861263266455952=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Mon, 30 Mar 2026 01:28:56 -0000
-Message-Id: <177483413647.1009095.14706636564099416241@gitolite.kernel.org>
+Date: Mon, 30 Mar 2026 01:29:03 -0000
+Message-Id: <177483414349.1009398.16305438489473817653@gitolite.kernel.org>
 
---===============6187907743433160771==
+--===============2268861263266455952==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/cel/linux
 user: cel
 changes:
-  - ref: refs/heads/nfsd-testing
-    old: 65058e9e9b20619f920397f529072e853dd43811
-    new: da43140ef30ecaffbfe04902d2513f5aac48ec4a
-    log: revlist-65058e9e9b20-da43140ef30e.txt
+  - ref: refs/heads/nfsd-next
+    old: be7c1b85a7498f21e82995e6a3bb1ed9c2970766
+    new: 3603bf99062c6d563df4fba3848f829d5401d959
+    log: revlist-be7c1b85a749-3603bf99062c.txt
 
---===============6187907743433160771==
+--===============2268861263266455952==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-65058e9e9b20-da43140ef30e.txt
+Content-Disposition: attachment; filename=revlist-be7c1b85a749-3603bf99062c.txt
 
 aa8a3f3c67235422a0c3608a8772f69ca3b7b63f xfrm: add missing extack for XFRMA_SA_PCPU in add_acquire and allocspi
 b57defcf8f109da5ba9cf59b2a736606faf3d846 xfrm: fix the condition on x->pcpu_num in xfrm_sa_len
@@ -619,18 +619,5 @@ c553983efad2ef0f1a8728a7a9104136297d8a0d svcrdma: Clean up use of rdma->sc_pd->d
 d16f060f3ee297424c0aba047b1d49208adb9318 svcrdma: Add Write chunk WRs to the RPC's Send WR chain
 2239535fb062b404871556b3bbbe4e27579f5edb svcrdma: Factor out WR chain linking into helper
 3603bf99062c6d563df4fba3848f829d5401d959 SUNRPC: xdr.h: fix all kernel-doc warnings
-56d9cb402395a99c854a4534639e548162ce4aec NFSD: use per-operation statidx for callback procedures
-df38c9e5d0173640129c239acacc941d6cf4baa6 NFSD: convert callback RPC program to per-net namespace
-d47a3ae913474f1770d1b1492f846729e3efbb9e SUNRPC: Add svc_rqst_page_release() helper
-a4b74654316cf7d77ca7d82b1098dd7b6dfcf5b2 svcrdma: Use contiguous pages for RDMA Read sink buffers
-17214367f8113267946bb6bf51331e66ddfeb764 nfsd: fix comment typo in nfs3xdr
-e16527468b05c415b25a4a0fae4b329bb60f18a8 nfsd: fix comment typo in nfsxdr
-433c56a068a9edda95499bbb0932b57ca1325f75 NFSD: Docs: clean up pnfs server timeout docs
-c17a2ae8634304f3723809e48b23b01ad6d41bae sunrpc: skip svc_xprt_enqueue when no work is pending
-fbd83a2d8e697ab491f1b7853002392ff7d67491 sunrpc: skip svc_xprt_enqueue in svc_xprt_received when idle
-d3bc449e731c2a7ae967a24254e962102f4a2dd9 sunrpc: skip svc_xprt_enqueue when transport is busy
-f23498441c78e92cc2611a02bc07e2b0dad7f023 NFSD: Fix delegation reference leak in nfsd4_revoke_states
-444e1aa9eed7cc8340bdd3eb0d9189edd61dd048 [DEBUG] Add instrumentation for nfsd_mutex contention debugging
-da43140ef30ecaffbfe04902d2513f5aac48ec4a siw: Enable try_gso
 
---===============6187907743433160771==--
+--===============2268861263266455952==--
