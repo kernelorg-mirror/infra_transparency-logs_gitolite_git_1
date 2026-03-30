@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4257372616931448281=="
+Content-Type: multipart/mixed; boundary="===============2538395304287238009=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/andi.shyti/linux
-Date: Mon, 30 Mar 2026 10:22:56 -0000
-Message-Id: <177486617656.1519945.8956918752885467793@gitolite.kernel.org>
+Date: Mon, 30 Mar 2026 10:22:58 -0000
+Message-Id: <177486617852.1520055.11448539968421881233@gitolite.kernel.org>
 
---===============4257372616931448281==
+--===============2538395304287238009==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/andi.shyti/linux
 user: andi.shyti
 changes:
-  - ref: refs/heads/i2c/i2c-host-fixes
-    old: e2f1ada8e089dd5a331bcd8b88125ae2af8d188f
-    new: 7aaa8047eafd0bd628065b15757d9b48c5f9c07d
-    log: revlist-e2f1ada8e089-7aaa8047eafd.txt
+  - ref: refs/heads/i2c/i2c-host-next
+    old: 46ec065d8610c5e8d11a8b205a6b7bd3c40d46b8
+    new: 4a3c7427353b5d89d0fd36a11ea4d01bb43e58fe
+    log: revlist-46ec065d8610-4a3c7427353b.txt
 
---===============4257372616931448281==
+--===============2538395304287238009==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e2f1ada8e089-7aaa8047eafd.txt
+Content-Disposition: attachment; filename=revlist-46ec065d8610-4a3c7427353b.txt
 
 aa8a3f3c67235422a0c3608a8772f69ca3b7b63f xfrm: add missing extack for XFRMA_SA_PCPU in add_acquire and allocspi
 b57defcf8f109da5ba9cf59b2a736606faf3d846 xfrm: fix the condition on x->pcpu_num in xfrm_sa_len
@@ -540,5 +540,6 @@ a516c618a627e30b5613fadd264d4b4498254aeb Merge tag 'dmaengine-fix-7.0' of git://
 fc9eae25ecb769e0c03a1383c677e2ddc1de8adf Merge tag 'phy-fixes-7.0' of git://git.kernel.org/pub/scm/linux/kernel/git/phy/linux-phy
 d1384f70b2e3162786bc73b8f86c27417803bd57 Merge tag 'vfs-7.0-rc6.fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
 7aaa8047eafd0bd628065b15757d9b48c5f9c07d Linux 7.0-rc6
+4a3c7427353b5d89d0fd36a11ea4d01bb43e58fe Merge branch 'i2c/i2c-host-fixes' into i2c/i2c-host-next
 
---===============4257372616931448281==--
+--===============2538395304287238009==--
