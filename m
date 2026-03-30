@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Mon, 30 Mar 2026 22:53:22 -0000
-Message-Id: <177491120222.2166331.10682711889999080903@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
+Date: Mon, 30 Mar 2026 23:00:48 -0000
+Message-Id: <177491164812.2173443.3276134140365082573@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: martin.lau
+repo: pub/scm/linux/kernel/git/pci/pci
+user: helgaas
 changes:
-  - ref: refs/heads/net
-    old: 660735c4182cb963ecbb52a5e1b395f11b168186
-    new: 64c535db769e9ab917343d61045802e832d621ed
+  - ref: refs/heads/enumeration
+    old: d3e996a596967a62c8a13a279221513461f6ab97
+    new: bf2dbae2efd216c409636815d1539bd105aface4
     log: |
-         699f47e616fed11d5074e7bbee2f4f920028c4a2 net: Clear the dst when performing encap / decap
-         64c535db769e9ab917343d61045802e832d621ed selftests/bpf: Test that dst is cleared on same-protocol encap
+         bf2dbae2efd216c409636815d1539bd105aface4 PCI: Disable ATS via quirk before notifying IOMMU drivers
          
