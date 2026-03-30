@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mtd/linux
-Date: Mon, 30 Mar 2026 14:25:52 -0000
-Message-Id: <177488075240.1729184.2746536611648780213@gitolite.kernel.org>
+Subject: post-receive: pub/scm/fs/xfs/xfs-linux
+Date: Mon, 30 Mar 2026 14:29:17 -0000
+Message-Id: <177488095704.1730639.17305622418749233124@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mtd/linux
-user: pratyush
+repo: pub/scm/fs/xfs/xfs-linux
+user: cem
 changes:
-  - ref: refs/heads/spi-nor/next
-    old: 5eb130177693c3470cafaf721af41c60dd891cc7
-    new: a0f64241d3566a49c0a9b33ba7ae458ae22003a9
-    log: |
-         a0f64241d3566a49c0a9b33ba7ae458ae22003a9 mtd: spi-nor: sst: Fix write enable before AAI sequence
-         
+  - ref: refs/heads/xfs-7.1-merge
+    old: 57dcfe43aee32cad4e4a7759855360e04aaeebe7
+    new: 89e8e2b1649235ca64c5f5a077162ae0e04b1f4f
