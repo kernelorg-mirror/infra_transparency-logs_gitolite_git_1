@@ -1,24 +1,37 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
-Date: Mon, 30 Mar 2026 23:49:36 -0000
-Message-Id: <177491457607.2210946.15956742392068059914@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/dtor/input
+Date: Mon, 30 Mar 2026 23:55:20 -0000
+Message-Id: <177491492053.2217727.2783576787828038274@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/25-new
-user: akpm
+repo: pub/scm/linux/kernel/git/dtor/input
+user: dtor
 changes:
   - ref: refs/heads/master
-    old: d526682a8c7f2ea19dcba58bbb135a1c74507f7e
-    new: a03236a4723ef26f18d669128bd9a5c96cf5a89d
+    old: 79df764dbecd5c4bf1b1431b865a361ce7bebb2d
+    new: 620ecc3c77ab1cad90760eec933ccf49a7bf6a8e
     log: |
-         e84e1367239d69ff5279cf7c66baf2573fcc5996 foo
-         133d74fc6a7b89bdee08a96d8a1bb9f9d274fa5a foo
-         af0ad701e53b39f5015b85194910b9937790298c foo
-         a520a95de57efa3cff9667f94fccdec3e31bc365 foo
-         6e0a20ff286ff2907a32711afaf826b171420061 foo
-         a03236a4723ef26f18d669128bd9a5c96cf5a89d foo
+         653f3100f551cf01974a18cce66e368f248ee48a Input: goodix-berlin - report a resolution of 10 units/mm
+         ffd01c3bcc1af4d8c3e7949152af0d9fe3d1fda5 Input: aiptek - use HID headers
+         734fd5ba78cb079ba1873336387da8cb4df60403 Input: pegasus_notetaker - use HID defines
+         a7675c1f1fa38c559f267b0452ae9d7a736fa743 Input: keyspan-remote - refactor endpoint lookup
+         5bb3ab0daaabedb67b142835b6905bce126df6ec Input: appletouch - refactor endpoint lookup
+         4decd8f4ae06a6d82079186b6ad3fe51d4654a1d Input: synaptics_usb - refactor endpoint lookup
+         620ecc3c77ab1cad90760eec933ccf49a7bf6a8e Input: usbtouchscreen - refactor endpoint lookup
+         
+  - ref: refs/heads/next
+    old: 79df764dbecd5c4bf1b1431b865a361ce7bebb2d
+    new: 620ecc3c77ab1cad90760eec933ccf49a7bf6a8e
+    log: |
+         653f3100f551cf01974a18cce66e368f248ee48a Input: goodix-berlin - report a resolution of 10 units/mm
+         ffd01c3bcc1af4d8c3e7949152af0d9fe3d1fda5 Input: aiptek - use HID headers
+         734fd5ba78cb079ba1873336387da8cb4df60403 Input: pegasus_notetaker - use HID defines
+         a7675c1f1fa38c559f267b0452ae9d7a736fa743 Input: keyspan-remote - refactor endpoint lookup
+         5bb3ab0daaabedb67b142835b6905bce126df6ec Input: appletouch - refactor endpoint lookup
+         4decd8f4ae06a6d82079186b6ad3fe51d4654a1d Input: synaptics_usb - refactor endpoint lookup
+         620ecc3c77ab1cad90760eec933ccf49a7bf6a8e Input: usbtouchscreen - refactor endpoint lookup
          
