@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6531681096749127021=="
+Content-Type: multipart/mixed; boundary="===============1654992686194483531=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Mon, 30 Mar 2026 21:09:52 -0000
-Message-Id: <177490499226.2080360.12224731762939212913@gitolite.kernel.org>
+Date: Mon, 30 Mar 2026 21:09:54 -0000
+Message-Id: <177490499485.2080468.16005027902397134183@gitolite.kernel.org>
 
---===============6531681096749127021==
+--===============1654992686194483531==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-6.12.76/nfsd-next
-    old: 182f1236273bfef8916ea9c4fc85756053898336
-    new: fd422d2039f3c8030d2e2f1eb9ddaa2887a2ec44
-    log: revlist-182f1236273b-fd422d2039f3.txt
+  - ref: refs/heads/kernel-6.12.76/nfsd-testing
+    old: 0516d9898f00ecf3db0509a27c2d870005888345
+    new: ce252a4568ab1f08888d8d36d1cdfa6fc05fa0d5
+    log: revlist-0516d9898f00-ce252a4568ab.txt
 
---===============6531681096749127021==
+--===============1654992686194483531==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-182f1236273b-fd422d2039f3.txt
+Content-Disposition: attachment; filename=revlist-0516d9898f00-ce252a4568ab.txt
 
 8c3c17bac00e3cd731ec50ce6bb266b8b6eaf2f9 NFSD: Add support for POSIX draft ACLs for file creation
 758ae6b99aeccfc04a32431fbb0cfe82d0614e95 NFSD: Add POSIX draft ACL support to the NFSv4 SETATTR operation
@@ -64,5 +64,14 @@ f2f03e2b338494273324ff732eda17bf6e645984 SUNRPC: Optimize rq_respages allocation
 04666d96a97c6e87c59c8407e71c66f9a2b15591 svcrdma: Add Write chunk WRs to the RPC's Send WR chain
 e832f595596c4fcc17e8b3e34775563126d06489 svcrdma: Factor out WR chain linking into helper
 fd422d2039f3c8030d2e2f1eb9ddaa2887a2ec44 SUNRPC: xdr.h: fix all kernel-doc warnings
+fb5c4c17fd2a99c55cc2067cbd4029292e0c590e NFSD: use per-operation statidx for callback procedures
+21ee7c123b014e225c0ababf72833f6f352512c1 NFSD: convert callback RPC program to per-net namespace
+697460a7bd2083edc0f3882eff85d430187f5808 SUNRPC: Add svc_rqst_page_release() helper
+fca6c637b4c0ec1235d823d71f6f8ef450c57885 nfsd: fix comment typo in nfs3xdr
+c432e2749df6cfa9e8ee9cff2adaaf551b961f61 nfsd: fix comment typo in nfsxdr
+51adc5aa87c77042bc1bf9653d5160f598261e36 sunrpc: skip svc_xprt_enqueue when no work is pending
+1c09d99c27c2dc0b4b763b12ffca8c3e438bdb1c sunrpc: skip svc_xprt_enqueue in svc_xprt_received when idle
+87c35ae7aa6d2473cfdfdb163a86d8126ad07bd8 sunrpc: skip svc_xprt_enqueue when transport is busy
+ce252a4568ab1f08888d8d36d1cdfa6fc05fa0d5 NFSD: Fix delegation reference leak in nfsd4_revoke_states
 
---===============6531681096749127021==--
+--===============1654992686194483531==--
