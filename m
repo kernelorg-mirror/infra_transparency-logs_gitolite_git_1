@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8825231074855799665=="
+Content-Type: multipart/mixed; boundary="===============8079540106121466959=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Mon, 30 Mar 2026 04:54:25 -0000
-Message-Id: <177484646518.1184428.16651770243305631053@gitolite.kernel.org>
+Date: Mon, 30 Mar 2026 04:55:50 -0000
+Message-Id: <177484655080.1187192.16190562518185040502@gitolite.kernel.org>
 
---===============8825231074855799665==
+--===============8079540106121466959==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,15 +16,52 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: 7279f4b47bafb8416ecbfe6cdd55f44dab5ba025
-    new: 410620e9fce78829cc24614e8cabac5c5e41bfc8
-    log: revlist-7279f4b47baf-410620e9fce7.txt
+    old: 410620e9fce78829cc24614e8cabac5c5e41bfc8
+    new: 6e5b83f4eefa35d33c71499ed2da8f6a2f88006f
+    log: revlist-410620e9fce7-6e5b83f4eefa.txt
+  - ref: refs/heads/tip/urgent
+    old: da1fb5ddb08b3de0545abc2913c3fabe40ee02db
+    new: 7aaa8047eafd0bd628065b15757d9b48c5f9c07d
+    log: revlist-da1fb5ddb08b-7aaa8047eafd.txt
+  - ref: refs/tags/v7.0-rc6
+    old: 0000000000000000000000000000000000000000
+    new: b6c7d19951061de1be08fb8f5714e630b24bcc1c
 
---===============8825231074855799665==
+--===============8079540106121466959==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7279f4b47baf-410620e9fce7.txt
+Content-Disposition: attachment; filename=revlist-410620e9fce7-6e5b83f4eefa.txt
+
+6203554813f0fdce1c38c4325b89d17fcc7067eb Merge branch into tip/master: 'sched/merge'
+b01b00bb95cab399609d1badb682fd49dd719fee Merge branch into tip/master: 'timers/merge'
+d0716924e1b9f6cf2b0090e3bd5c3b003d1db589 Merge branch into tip/master: 'core/debugobjects'
+5003e66c4c8566e8255137e26c4832a424fd0073 Merge branch into tip/master: 'core/entry'
+4f1c3fa7a50ee17d3420d1edd60ea8af5863f55a Merge branch into tip/master: 'irq/core'
+f5edf0654ddb88a9a095ffadb143dfcb9e42af97 Merge branch into tip/master: 'irq/drivers'
+fdb73b29f91e573495228d57f1e4a798381522d6 Merge branch into tip/master: 'irq/msi'
+90cd4c70b4714ed7ad3d9be279ee8ad0ed08ddfd Merge branch into tip/master: 'locking/core'
+0c28c21cb45e1d25497bd222b7a22d2341a78969 Merge branch into tip/master: 'locking/futex'
+908c18fcb03adea797b02bbd075eecc7c2969f74 Merge branch into tip/master: 'objtool/core'
+0869cd77a9008210d7dc300676e123ca0fd903c0 Merge branch into tip/master: 'perf/core'
+ba1fe153b5820d2999ff400ce0ceb6746f453547 Merge branch into tip/master: 'ras/core'
+28b56de7e1510101c7ff59b00a3a4e08a73a8471 Merge branch into tip/master: 'sched/core'
+b0d191a58a3481a681894220e774976f8a1bf6b8 Merge branch into tip/master: 'smp/core'
+858beed67614d32740088da89752458623db009f Merge branch into tip/master: 'timers/core'
+daca3370982fb35cb6aa93a9e3c4ee446807ee10 Merge branch into tip/master: 'timers/vdso'
+292280f985cb298284711217f1493623da67c720 Merge branch into tip/master: 'x86/cleanups'
+8e2b7bafbb8dd7e792c0720ab7825e53092e93f6 Merge branch into tip/master: 'x86/cpu'
+ea7f2ebecfde62208cb0ab4e58a3ee3c3f91af54 Merge branch into tip/master: 'x86/microcode'
+bdb3819ecc2530f6032e8120a7d0917cf9b0cdba Merge branch into tip/master: 'x86/misc'
+49847a441dd6d045b0335118ca9a381ed3f64f92 Merge branch into tip/master: 'x86/mm'
+67277a99433b76f28d2557a097aca810301d88a1 Merge branch into tip/master: 'x86/sev'
+6e5b83f4eefa35d33c71499ed2da8f6a2f88006f Merge branch into tip/master: 'x86/tdx'
+
+--===============8079540106121466959==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-da1fb5ddb08b-7aaa8047eafd.txt
 
 2e7b5cf72e51c9cf9c8b75190189c757df31ddd9 dmaengine: fsl-edma: fix channel parameter config for fixed channel requests
 77b19d053ac2cce9e873007ad4b09f2323c93576 dmaengine: dw-edma: fix MSI data programming for multi-IRQ case
@@ -141,6 +178,5 @@ a516c618a627e30b5613fadd264d4b4498254aeb Merge tag 'dmaengine-fix-7.0' of git://
 fc9eae25ecb769e0c03a1383c677e2ddc1de8adf Merge tag 'phy-fixes-7.0' of git://git.kernel.org/pub/scm/linux/kernel/git/phy/linux-phy
 d1384f70b2e3162786bc73b8f86c27417803bd57 Merge tag 'vfs-7.0-rc6.fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
 7aaa8047eafd0bd628065b15757d9b48c5f9c07d Linux 7.0-rc6
-410620e9fce78829cc24614e8cabac5c5e41bfc8 Merge branch 'linus'
 
---===============8825231074855799665==--
+--===============8079540106121466959==--
