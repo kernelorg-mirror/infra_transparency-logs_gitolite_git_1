@@ -1,50 +1,50 @@
-Content-Type: multipart/mixed; boundary="===============3410070520858176125=="
+Content-Type: multipart/mixed; boundary="===============7593588984654902670=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Mon, 30 Mar 2026 18:25:34 -0000
-Message-Id: <177489513483.1933660.17234006206553578196@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Mon, 30 Mar 2026 18:25:37 -0000
+Message-Id: <177489513797.1933801.16337180621629261850@gitolite.kernel.org>
 
---===============3410070520858176125==
+--===============7593588984654902670==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-7.0
+  - ref: refs/heads/spi-7.0
     old: 534025950c9fe4dfbe476b3938d73a26814047d1
     new: b0dc7e7c56573e7a52080f25f3179a45f3dd7e6f
     log: |
          b0dc7e7c56573e7a52080f25f3179a45f3dd7e6f spi: amlogic: spifc-a4: unregister ECC engine on probe failure and remove() callback
          
 
---===============3410070520858176125==
+--===============7593588984654902670==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1774895133 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
-nonce 1774895132-5e14dafce9825b81a5fd2120f9cc3d6c1001864d
+pusher C3F436CA30F5D8EB 1774895136 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1774895136-b01f53d988e31a964e104c3351e42e369d26cc30
 
-534025950c9fe4dfbe476b3938d73a26814047d1 b0dc7e7c56573e7a52080f25f3179a45f3dd7e6f refs/heads/for-7.0
+534025950c9fe4dfbe476b3938d73a26814047d1 b0dc7e7c56573e7a52080f25f3179a45f3dd7e6f refs/heads/spi-7.0
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmnKwB0ACgkQJNaLcl1U
-h9CTigf8DAPRbtjnb6NqYbGdHV08K2LkE9GFaKMnJvw25kwb/VwM9mpEz1zoW9rJ
-NWWe2rfMwj1Fcb/tjwj37VrobHZQ0CrCT3Dal3ilbXGeafnyjbXSSDRUMYnqhV9w
-tVd6QhP4ZmPT5dmpQfhUPWh3V7WYcB+sAhUZ9oh7VMt9M5ResAZNNkU5XRoV4Sof
-Q5qN7cGoymEYzuYB2nl2hidwxKZTRdMjvvuHsXRRdpC9tmcylMtkt0c6pu/dY+2I
-uxE2HfZiJXtZgljC7oP4sVZyhrUjQPccfLL5+p9ywvXokH0ImDqMaHw9evBucvMp
-i4vVcCgVM2DmfnXGfyGwyk3+Ifmm4g==
-=vlBi
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmnKwCAACgkQJNaLcl1U
+h9DcpQf+P4YojRm0BdrTu9BVQhq6q8tglYsWiD/xqItICK/LaDfC9rYX7y2Q/nEr
+WN2rIopoEc9E8RaEuhe7OlomMR1igrp7RTEIJkMfGUnQesXDkm79nJMCBHcho8Bp
+HDnuFEuidFWlpEJyoMSu5RJiU5t3o/Y6q3SItMujPT3YE6dtKvOn8ovNughkeZGK
+mNPmz/eAw1r5g0aTbUKb1WH7Q/mkGFtm1tzodBVZ2BplW9dWHcaU1yMRGcvbGYBE
+7sAS6KqP0fJ18MBombzq/2Q2dnB1nGmqgp41KrMtP2Nm8+N2C9c2dxsYxgZuGE+b
+OFVqlvDZWY/67Tc8ucWDT3y4rZloFA==
+=UoMm
 -----END PGP SIGNATURE-----
 
---===============3410070520858176125==--
+--===============7593588984654902670==--
