@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
-Date: Mon, 30 Mar 2026 19:19:36 -0000
-Message-Id: <177489837643.1979016.11398084453071272265@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Mon, 30 Mar 2026 19:21:16 -0000
+Message-Id: <177489847699.1982057.15028173469292257843@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pci/pci
-user: helgaas
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/aer
-    old: a8aeea1bf3c80cc87983689e0118770e019bd4f3
-    new: 1ab4a3c805084d752ec571efc78272295a9f2f74
-    log: |
-         1ab4a3c805084d752ec571efc78272295a9f2f74 PCI/AER: Stop ruling out unbound devices as error source
-         
+  - ref: refs/heads/asoc-7.0
+    old: 61a547dfc59ce50deff3ee0585f52509c566c89d
+    new: 622363757b2286dd2c2984b0d80255cbb35a0495
