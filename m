@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vdubeyko/nilfs2
-Date: Tue, 31 Mar 2026 02:57:35 -0000
-Message-Id: <177492585591.2367377.13701785371592144909@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
+Date: Tue, 31 Mar 2026 04:30:24 -0000
+Message-Id: <177493142479.2440283.662085455339292349@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vdubeyko/nilfs2
-user: vdubeyko
+repo: pub/scm/linux/kernel/git/akpm/25-new
+user: akpm
 changes:
-  - ref: refs/heads/for-next
-    old: 6de23f81a5e08be8fbf5e8d7e9febc72a5b5f27f
-    new: 4a4e0328edd9e9755843787d28f16dd4165f8b48
+  - ref: refs/heads/master
+    old: 957fe846cf3c045395d8f251b42434b0bca9ceb1
+    new: a1e2b79944aadf98c2ab573c0153dc37e7cdc361
     log: |
-         4a4e0328edd9e9755843787d28f16dd4165f8b48 nilfs2: fix NULL i_assoc_inode dereference in nilfs_mdt_save_to_shadow_map
+         a1e2b79944aadf98c2ab573c0153dc37e7cdc361 foo
          
