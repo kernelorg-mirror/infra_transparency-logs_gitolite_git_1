@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/libata/linux
-Date: Tue, 31 Mar 2026 08:50:04 -0000
-Message-Id: <177494700441.2653471.12769333492760548369@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Tue, 31 Mar 2026 08:54:44 -0000
+Message-Id: <177494728458.2656027.2916347743756130872@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/libata/linux
-user: cassel
+repo: pub/scm/linux/kernel/git/netdev/net
+user: pabeni
 changes:
-  - ref: refs/heads/for-next
-    old: 78ec06991d2cd564ff45f280e0bb57b369be7587
-    new: d5d286154b6cc1729b5aa0bc579902e2dbe9be5c
+  - ref: refs/heads/main
+    old: 4ee937107d52f9e5c350e4b5e629760e328b3d9f
+    new: 2884bf72fb8f03409e423397319205de48adca16
     log: |
-         d5d286154b6cc1729b5aa0bc579902e2dbe9be5c ata: libahci_platform: use flex array for platform PHYs
+         2884bf72fb8f03409e423397319205de48adca16 net: bonding: fix use-after-free in bond_xmit_broadcast()
          
