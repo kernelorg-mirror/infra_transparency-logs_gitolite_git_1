@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1629867964472635787=="
+Content-Type: multipart/mixed; boundary="===============3509738525882470483=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/kees/linux
-Date: Tue, 31 Mar 2026 05:52:07 -0000
-Message-Id: <177493632783.2504782.17010391911193340744@gitolite.kernel.org>
+Date: Tue, 31 Mar 2026 05:52:52 -0000
+Message-Id: <177493637217.2505253.7186590364953770824@gitolite.kernel.org>
 
---===============1629867964472635787==
+--===============3509738525882470483==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,36 +16,32 @@ repo: pub/scm/linux/kernel/git/kees/linux
 user: kees
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/dev/v7.0-rc2/obt
-    old: f76ff7e9e3d7eeff75d0e1fca2c1672106a00f4a
-    new: e5a10c0ef1457ad3c713a1bbe087da2b407d4722
+  - ref: refs/heads/dev/v7.0-rc2/obt-rename
+    old: 107b95799b37be88771860019e4ad960423c2260
+    new: df738b9754c1de594ef146559fab84efd01a472d
     log: |
-         21dbb08f0ed020f9cad4661ed3580d6d62452e0e refcount: Remove unused __signed_wrap function annotations
-         415ff2f2ce564f216c0243940dcf68be2f22d07a Makefile: Introduce Overflow Behavior Types support
-         c93dd5f07263a73d58ae43c6f65e956c633cc1d5 compiler_attributes: Add overflow_behavior macros __ob_trap and __ob_wrap
-         626ebfcc51b3666a71ed0415045bed9415b0164b types: Add standard __ob_trap and __ob_wrap scalar types
-         751b3e8eef6e04e0e2f418f723f2de691e344ba2 selftests: Add minimal OBT selftests
-         e5a10c0ef1457ad3c713a1bbe087da2b407d4722 lkdtm/bugs: Add basic Overflow Behavior Types test
+         6e889861d284a976c7d47017d255ff8fd7eb4731 lkdtm/bugs: Add basic Overflow Behavior Types test
+         df738b9754c1de594ef146559fab84efd01a472d types: Add standard __ob_trap and __ob_wrap scalar types
          
 
---===============1629867964472635787==
+--===============3509738525882470483==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher A5C3F68F229DD60F723E6E138972F4DFDC6DC026 1774936326 -0700
+pusher A5C3F68F229DD60F723E6E138972F4DFDC6DC026 1774936370 -0700
 pushee gitolite.kernel.org:pub/scm/linux/kernel/git/kees/linux.git
-nonce 1774936324-f2b998565f039d3d8c0d8592ae85940433922897
+nonce 1774936368-6e6ac5335365cd44b0ac7ce4d435f48aa88a0d81
 
-f76ff7e9e3d7eeff75d0e1fca2c1672106a00f4a e5a10c0ef1457ad3c713a1bbe087da2b407d4722 refs/heads/dev/v7.0-rc2/obt
+107b95799b37be88771860019e4ad960423c2260 df738b9754c1de594ef146559fab84efd01a472d refs/heads/dev/v7.0-rc2/obt-rename
 -----BEGIN PGP SIGNATURE-----
 
-iHUEABYKAB0WIQRSPkdeREjth1dHnSE2KwveOeQkuwUCacthBgAKCRA2KwveOeQk
-u1haAP9YauxloAkRrnaVrcmijRY7Utju2VcEhM7HjOpPhFIHKgEAri5i0lxj3i6G
-EsxTxQpzkoMya9LQwt/jChZA5eGDtgM=
-=2ei9
+iHUEABYKAB0WIQRSPkdeREjth1dHnSE2KwveOeQkuwUCacthMgAKCRA2KwveOeQk
+u50gAQDXZdNoaewcq90Tpv1+qEpx8/2KI0ahFwchAQuThZIizgD/cNaNgXLd3rGt
+iKU4jjKvE23VPvaE0V6QUduqwqGnMws=
+=vYWx
 -----END PGP SIGNATURE-----
 
---===============1629867964472635787==--
+--===============3509738525882470483==--
