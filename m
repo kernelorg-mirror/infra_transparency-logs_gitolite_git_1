@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/qcom/linux
-Date: Tue, 31 Mar 2026 20:52:59 -0000
-Message-Id: <177499037958.3273753.3198745180681179750@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jfern/linux
+Date: Tue, 31 Mar 2026 20:53:11 -0000
+Message-Id: <177499039101.3274043.1684524811140051093@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/qcom/linux
-user: andersson
+repo: pub/scm/linux/kernel/git/jfern/linux
+user: jfern
 changes:
-  - ref: refs/tags/qcom-arm64-fixes-for-7.0-2
+  - ref: refs/tags/nova-mm-v10-20260331
     old: 0000000000000000000000000000000000000000
-    new: 31f7064917b0d7b4e3bd529e464db6358d2908b1
+    new: 356069194eff7e5b89eef89809539f4a2bdf1bb1
