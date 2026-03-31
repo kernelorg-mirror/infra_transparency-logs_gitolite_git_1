@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Tue, 31 Mar 2026 14:13:05 -0000
-Message-Id: <177496638541.2921437.10034409821437878384@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ardb/linux
+Date: Tue, 31 Mar 2026 14:15:04 -0000
+Message-Id: <177496650456.2924295.12875806177760536575@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: pabeni
+repo: pub/scm/linux/kernel/git/ardb/linux
+user: ardb
 changes:
-  - ref: refs/heads/main
-    old: 47ab2c12c87a3a3cd232a7999d364353e6c908bd
-    new: fa6e24963342de4370e3a3c9af41e38277b74cf3
-    log: |
-         fa6e24963342de4370e3a3c9af41e38277b74cf3 bridge: mrp: reject zero test interval to avoid OOM panic
-         
+  - ref: refs/heads/x86-efi-memattr-kexec-v2
+    old: 0000000000000000000000000000000000000000
+    new: bb3110dbe74da28bcd6df125c10e6c96e8dd43a1
