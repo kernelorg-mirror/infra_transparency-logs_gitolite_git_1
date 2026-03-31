@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/linkinjeon/exfat
-Date: Tue, 31 Mar 2026 14:01:24 -0000
-Message-Id: <177496568489.2911233.10870235850206228788@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Tue, 31 Mar 2026 14:07:39 -0000
+Message-Id: <177496605934.2915619.9088087386564104422@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/linkinjeon/exfat
-user: linkinjeon
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: pabeni
 changes:
-  - ref: refs/heads/dev
-    old: a03abd949fe2ac593906037a4d81737ea26aafcf
-    new: 4129a3a2751cba8511cee5d13145223662a8e019
+  - ref: refs/heads/main
+    old: 93d04e76bcf1e81f36f5ea7ad620a07747f1527c
+    new: 9229cb5a941c981633a79c9867f339c4589a9da9
     log: |
-         4129a3a2751cba8511cee5d13145223662a8e019 exfat: fix s_maxbytes
+         9229cb5a941c981633a79c9867f339c4589a9da9 fbnic: Set Relaxed Ordering PCIe TLP attributes for DMA engines
          
