@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Tue, 31 Mar 2026 00:26:36 -0000
-Message-Id: <177491679684.2242524.14580871088870149906@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
+Date: Tue, 31 Mar 2026 00:29:12 -0000
+Message-Id: <177491695233.2243592.10422496383464262138@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/linux/kernel/git/akpm/25-new
+user: akpm
 changes:
-  - ref: refs/heads/main
-    old: dc9e9d61e301c087bcd990dbf2fa18ad3e2e1429
-    new: fd63f185979b047fb22a0dfc6bd94d0cab6a6a70
+  - ref: refs/heads/master
+    old: a03236a4723ef26f18d669128bd9a5c96cf5a89d
+    new: 957fe846cf3c045395d8f251b42434b0bca9ceb1
     log: |
-         fd63f185979b047fb22a0dfc6bd94d0cab6a6a70 ipv6: prevent possible UaF in addrconf_permanent_addr()
+         957fe846cf3c045395d8f251b42434b0bca9ceb1 foo
          
