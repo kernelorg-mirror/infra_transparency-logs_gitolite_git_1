@@ -1,20 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
-Date: Tue, 31 Mar 2026 16:02:38 -0000
-Message-Id: <177497295865.3025448.8581543729829097867@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jpoimboe/linux
+Date: Tue, 31 Mar 2026 16:03:08 -0000
+Message-Id: <177497298822.3025846.12622537325097426200@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/xiang/erofs-utils
-user: xiang
+repo: pub/scm/linux/kernel/git/jpoimboe/linux
+user: jpoimboe
 changes:
-  - ref: refs/heads/experimental
-    old: 94a959d907dfbda48fde316f6a60e831056f42a3
-    new: f9bb161f2c99b0c39a55ece0d0e925b21ad1c1ce
+  - ref: refs/heads/klp-build-arm64
+    old: e9768741a9fee55948c0fbf3f111acfe8bcdb3a3
+    new: e7b6cc52e30013624ce1ffd325411017fe8c938d
     log: |
-         b6d03319e6b971acea2d0b290ebf6a79ea198699 erofs-utils: mount: generalize nbd source types for multi-backend support
-         f9bb161f2c99b0c39a55ece0d0e925b21ad1c1ce erofs-utils: mount: add fanotify pre-content OCI backend
+         4ca009e6941d95d733e0342b81ee34031853b0fd kbuild: Only run objtool if there is at least one command
+         25687a3e4451ac6d334c20ddb0ea67b2f4d80861 objtool: Ignore jumps to the end of the function for non-CFG arches
+         9650c703b758adac5c8b30010a1e5551ca5412e5 objtool: Allow empty alternatives
+         8c962f441106627108873e1a9c60923a1b810c0c objtool: Refactor elf_add_data() to use a growable data buffer
+         34de34a8acc61a432e5bf9943c72b4dfbfb5cef5 objtool: Reuse string references
+         ca170ee2388e90ddd3255922aae3f9abb51dc3b7 objtool: Introduce objtool for arm64
+         e7b6cc52e30013624ce1ffd325411017fe8c938d klp-build: Support cross-compilation
          
