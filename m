@@ -1,65 +1,50 @@
-Content-Type: multipart/mixed; boundary="===============7816332887394986604=="
+Content-Type: multipart/mixed; boundary="===============9108943579176206913=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Tue, 31 Mar 2026 08:00:24 -0000
-Message-Id: <177494402455.2612545.3645251386752698393@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+Date: Tue, 31 Mar 2026 08:03:44 -0000
+Message-Id: <177494422488.2613749.14781025117590265381@gitolite.kernel.org>
 
---===============7816332887394986604==
+--===============9108943579176206913==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: mingo
+repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+user: ij
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/master
-    old: be70e2567eac50b091b9bded37486bf79264ed91
-    new: 99beaaa7b281673f81e7e49e55170e8a69c95cd2
-    log: revlist-be70e2567eac-99beaaa7b281.txt
-  - ref: refs/heads/tip/urgent
-    old: 3a983026253cb0cb2ba4b93bf41ce8b729f21e9c
-    new: eb272af92f8e2f1dd503a5f50b6c9eea60a140e9
+  - ref: refs/heads/fixes
+    old: fbddf68d7b4e1e6da7a78dd7fbd8ec376536584a
+    new: 1a9452c428a6b76f0b797bae21daa454fccef1a2
     log: |
-         b981e9e94c687b7b19ae8820963f005b842cb2f2 x86/platform/geode: Fix on-stack property data use-after-return bug
-         eb272af92f8e2f1dd503a5f50b6c9eea60a140e9 Merge branch into tip/master: 'x86/urgent'
+         e1415b9418eb22b4a7a1ef4b4aec9dd0a49e3fa7 platform/x86: ISST: Reset core count to 0
+         4ab604b3f3aa8dcccc7505f5d310016682a99d5f platform/x86/intel-uncore-freq: Handle autonomous UFS status bit
+         ba7d46e0a384398c58eee34579986f830260d37b platform/x86: ISST: Increase minor version
+         b7f4e7babc122426e8802dffdd8ff1501db6adf4 platform/x86/intel-uncore-freq: Increase minor version
+         1a9452c428a6b76f0b797bae21daa454fccef1a2 platform/x86/amd: pmc: Add Thinkpad L14 Gen3 to quirk_s2idle_bug
          
 
---===============7816332887394986604==
+--===============9108943579176206913==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-be70e2567eac-99beaaa7b281.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-eb272af92f8e2f1dd503a5f50b6c9eea60a140e9 Merge branch into tip/master: 'x86/urgent'
-69ce40a756e33ebc202067397dbaa9f84b5a4a4c Merge branch into tip/master: 'sched/merge'
-6e9cf40673d2751305a8b91099447758703c21e4 Merge branch into tip/master: 'timers/merge'
-3a3de54610a0aae9ac39925d22d509d4fca5ddbf Merge branch into tip/master: 'core/debugobjects'
-a038eb621867f6086db2a32c309187c54631df00 Merge branch into tip/master: 'core/entry'
-200eb4415c1031926aaec3e088d8fcf54ed2677f Merge branch into tip/master: 'irq/core'
-823776215e4d734991a206b637a9c0dedee23e21 Merge branch into tip/master: 'irq/drivers'
-24370664e05a5906688bea988a50b95af9481423 Merge branch into tip/master: 'irq/msi'
-0eda2c2521e2b0251b75048cf533db42cdc17570 Merge branch into tip/master: 'locking/core'
-f3f50d4d0baef2b9af1f764938e5c256db6e1bb1 Merge branch into tip/master: 'locking/futex'
-edb8f6856e935d41a2d69c50e0d76e67fb5d7080 Merge branch into tip/master: 'objtool/core'
-b03e866fa7aadfc3c60ebfd7066e26f064a0631b Merge branch into tip/master: 'perf/core'
-2225c26299ddb8fcd01adcedf3ee677f96e2567b Merge branch into tip/master: 'ras/core'
-c4eddd2bb26e7b10a53bd1c71ffed6f951d552fe Merge branch into tip/master: 'sched/core'
-607f81b64b8a9fd6c42a85fad7886c3e472cccd9 Merge branch into tip/master: 'smp/core'
-9498af898ba27c4c834f6fd9a10ab58f5cd510ee Merge branch into tip/master: 'timers/core'
-9889f398098e3345ab10004f1a8e042e2a26674d Merge branch into tip/master: 'timers/vdso'
-c3f2a88d604a8e82b34afbefa2c0ec28a336d826 Merge branch into tip/master: 'x86/asm'
-2e4d79f2744234f832777040f6ebe92b6f00a735 Merge branch into tip/master: 'x86/cleanups'
-c6860bb449b011582e7c9d0ff3fb0f7dd95d6cc1 Merge branch into tip/master: 'x86/cpu'
-6fe4968f35a7ebc2c0ad84ce7fa369233a5bd6b1 Merge branch into tip/master: 'x86/fred'
-103718e89c018d935ff0f47d83d0a265aa117e33 Merge branch into tip/master: 'x86/microcode'
-0f8fa71e069547ec81dffa0a7df789c7a2ee4f3b Merge branch into tip/master: 'x86/misc'
-5923feda31ed409b66752f3fa7d142d6e8f599a9 Merge branch into tip/master: 'x86/mm'
-776024a7c02b0f70fb99cba74ae0d9e33ab418c2 Merge branch into tip/master: 'x86/platform'
-f8a1ce43127614a6aa9652182cb4d4cfb6ace4df Merge branch into tip/master: 'x86/sev'
-061f617f8b3466d9f40a6bc8d57b5829ef81d4fe Merge branch into tip/master: 'x86/tdx'
-99beaaa7b281673f81e7e49e55170e8a69c95cd2 Merge branch into tip/master: 'x86/vdso'
+certificate version 0.1
+pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1774944220 +0300
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86.git
+nonce 1774944220-e68e91293e7496c8c8146bfd9232b78ccca82d50
 
---===============7816332887394986604==--
+fbddf68d7b4e1e6da7a78dd7fbd8ec376536584a 1a9452c428a6b76f0b797bae21daa454fccef1a2 refs/heads/fixes
+-----BEGIN PGP SIGNATURE-----
+
+iHUEABYIAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCact/4QAKCRBZrE9hU+XO
+MVBGAPwJUStOD5szAMUud+KUPfDbF7U3hBqujgxwahfI76hOdQD+P4bO7MOHlyfM
+FbM/0p9Zd7KcP/8depZKxX8nRJrdawA=
+=6j1g
+-----END PGP SIGNATURE-----
+
+--===============9108943579176206913==--
