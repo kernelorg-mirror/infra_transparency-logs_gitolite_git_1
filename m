@@ -1,26 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux
-Date: Tue, 31 Mar 2026 13:36:49 -0000
-Message-Id: <177496420920.2891050.4730376683667848437@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/util-linux/util-linux
+Date: Tue, 31 Mar 2026 13:39:37 -0000
+Message-Id: <177496437749.2892144.2613522050129147309@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux
-user: axboe
+repo: pub/scm/utils/util-linux/util-linux
+user: kzak
 changes:
-  - ref: refs/heads/for-7.1/io_uring
-    old: 623a6d44981f78d7f3391a59d62ae8b55f694850
-    new: 37912f1ea4ee2d8a4f36033fea4f44a044dd1cb9
+  - ref: refs/heads/stable/v2.42
+    old: c03d5d06669fdf8a41aa0568310f5e85318d2f34
+    new: 29661af48c033892e15ece01fd4e8ea6dc6cb42c
     log: |
-         37912f1ea4ee2d8a4f36033fea4f44a044dd1cb9 io_uring/rsrc: use io_cache_free() to free node
-         
-  - ref: refs/heads/for-next
-    old: fc446a77e8f5c2685de3a918e8ed64103ef3aeff
-    new: 7fa8af91b1507d6919c4d70f32a682acc8fa1071
-    log: |
-         37912f1ea4ee2d8a4f36033fea4f44a044dd1cb9 io_uring/rsrc: use io_cache_free() to free node
-         7fa8af91b1507d6919c4d70f32a682acc8fa1071 Merge branch 'for-7.1/io_uring' into for-next
+         000a10411ca54ff3e6e872e63ab881e08cdc4799 meson: Remove unused variable
+         7d21f9366c58225179b2d51799f9dad5265a5b6b liblastlog2: fix error message in write_entry
+         226adc64b9ced38f88001759fdf04cae60f2fea3 tests: improve lsfd test
+         c117844becc8bc0250e698d7e805ad12f4be094a lslogins: use the USAGE_LIST_COLUMNS_OPTION macro
+         29661af48c033892e15ece01fd4e8ea6dc6cb42c blkpr: fix a typo ("sp:ec" => "spec"), and drop an overemphatic comma
          
