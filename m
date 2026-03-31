@@ -1,36 +1,48 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
-Date: Tue, 31 Mar 2026 14:21:37 -0000
-Message-Id: <177496689719.2929329.3399817307258222823@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============5799928552298043487=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+Date: Tue, 31 Mar 2026 14:22:57 -0000
+Message-Id: <177496697799.2929976.14710948257871716089@gitolite.kernel.org>
+
+--===============5799928552298043487==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tiwai/sound
-user: tiwai
+repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+user: ij
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/for-linus
-    old: 75dc1980cf48826287e43dc7a49e310c6691f97e
-    new: dd9b99b822684f421f9b7e1e5a69d791ffc1d48f
+  - ref: refs/heads/review-ilpo-fixes
+    old: 1a9452c428a6b76f0b797bae21daa454fccef1a2
+    new: 5d486669b3db11ccc2d1b9f4e42c11c2766f35ba
     log: |
-         217d5bc9f96272316ac5a3215c7cc32a5127bbf3 ALSA: hda/realtek: Add quirk for Lenovo Yoga Pro 7 14IMH9
-         dd9b99b822684f421f9b7e1e5a69d791ffc1d48f ALSA: hda/realtek: add quirk for Acer Swift SFG14-73
+         82cbae59263e3941a8bb79f0b25e0b0f085132d4 platform/x86: asus-armoury: add support for GV302XU
+         b4f04a6038fa97f7ceea33e99456b9838c79dde7 platform/x86: asus-armoury: add support for FA607NU
+         5d486669b3db11ccc2d1b9f4e42c11c2766f35ba platform/x86: asus-armoury: add support for GU605MU
          
-  - ref: refs/heads/for-next
-    old: c1258a2924d3a2453a6e7a6581acd8d6e5c6ba70
-    new: d1888bf848ade6a9e71c7ba516fd215aa1bd8d65
-    log: |
-         d1888bf848ade6a9e71c7ba516fd215aa1bd8d65 ALSA: hda/realtek: fix code style (ERROR: else should follow close brace '}')
-         
-  - ref: refs/heads/master
-    old: 9d071d71ab43393a7925702184203fe87dc5198c
-    new: 5a8ba15bcbf0cd70cc89d1e1a3d4037b2ab5ccdd
-    log: |
-         d1888bf848ade6a9e71c7ba516fd215aa1bd8d65 ALSA: hda/realtek: fix code style (ERROR: else should follow close brace '}')
-         4e91613e755f8f17f6e215b69f6b8e28f21116fc Merge branch 'for-next'
-         217d5bc9f96272316ac5a3215c7cc32a5127bbf3 ALSA: hda/realtek: Add quirk for Lenovo Yoga Pro 7 14IMH9
-         dd9b99b822684f421f9b7e1e5a69d791ffc1d48f ALSA: hda/realtek: add quirk for Acer Swift SFG14-73
-         5a8ba15bcbf0cd70cc89d1e1a3d4037b2ab5ccdd Merge branch 'for-linus'
-         
+
+--===============5799928552298043487==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1774966975 +0300
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86.git
+nonce 1774966974-94c3ef80d74cd9fbf315e8aa0747713650364ab9
+
+1a9452c428a6b76f0b797bae21daa454fccef1a2 5d486669b3db11ccc2d1b9f4e42c11c2766f35ba refs/heads/review-ilpo-fixes
+-----BEGIN PGP SIGNATURE-----
+
+iHUEABYIAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCacvYwQAKCRBZrE9hU+XO
+MUuKAP9OwLCTHOkaA0zcWGYoNJ4ZVXpnL0faA+JgBarTbobpXAD/TdnrKHZzxCVH
+tG/uXpBJg8KYPYDKppk9NfcEBPTbkgk=
+=tt2b
+-----END PGP SIGNATURE-----
+
+--===============5799928552298043487==--
