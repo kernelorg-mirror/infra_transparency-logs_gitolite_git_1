@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4069569850980761772=="
+Content-Type: multipart/mixed; boundary="===============8489217878108403881=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/superm1/linux
-Date: Tue, 31 Mar 2026 12:01:30 -0000
-Message-Id: <177495849059.2813227.14463185946386842755@gitolite.kernel.org>
+Date: Tue, 31 Mar 2026 12:01:49 -0000
+Message-Id: <177495850932.2813484.3283233985447859022@gitolite.kernel.org>
 
---===============4069569850980761772==
+--===============8489217878108403881==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/superm1/linux
 user: superm1
 changes:
-  - ref: refs/heads/linux-next
+  - ref: refs/heads/bleeding-edge
     old: 1b1018021720295057b4d3273c830009711fed2a
     new: a458af0c65e9c0ed213e5550954fd13c127ae664
     log: revlist-1b1018021720-a458af0c65e9.txt
 
---===============4069569850980761772==
+--===============8489217878108403881==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -41,4 +41,4 @@ cb8cbd3fb23fe3d7cde3e3b56526c12f1f6d1593 amd-pstate-ut: Add module parameter to 
 5c8d3cf558488fb253f7cb6a5cca10f6b0ec02a0 cpufreq/amd-pstate: Cache the max frequency in cpudata
 a458af0c65e9c0ed213e5550954fd13c127ae664 Documentation: amd-pstate: fix dead links in the reference section
 
---===============4069569850980761772==--
+--===============8489217878108403881==--
