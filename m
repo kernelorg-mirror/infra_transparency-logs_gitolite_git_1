@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5394161734443033700=="
+Content-Type: multipart/mixed; boundary="===============0810722403360239384=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Tue, 31 Mar 2026 05:17:56 -0000
-Message-Id: <177493427631.2476977.3031700173886753716@gitolite.kernel.org>
+Date: Tue, 31 Mar 2026 05:17:57 -0000
+Message-Id: <177493427763.2477137.765382387130323461@gitolite.kernel.org>
 
---===============5394161734443033700==
+--===============0810722403360239384==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/mm-new
-    old: df2267b6380964f1305128001f05bc043ddf1f37
-    new: 54c9d0359b180b34070aa7ff8d9428fa3db8acbb
-    log: revlist-df2267b63809-54c9d0359b18.txt
+  - ref: refs/heads/mm-unstable
+    old: 57e5b07deacb0a9bd7b8c9b933ff72e902d4f06b
+    new: 24e341657c283c965e3bfee0baa9ed0376127973
+    log: revlist-57e5b07deacb-24e341657c28.txt
 
---===============5394161734443033700==
+--===============0810722403360239384==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-df2267b63809-54c9d0359b18.txt
+Content-Disposition: attachment; filename=revlist-57e5b07deacb-24e341657c28.txt
 
 84b63416ce22e68e7f9c4af31a894f5dcc13c743 Merge branch 'mm-hotfixes-stable' into mm-stable in order to pick up hotfix "mm/mseal: update VMA end correctly on merge" which is needed for a merge of mm-unstable's "mm/vma: convert vma_modify_flags[_uffd]() to use vma_flags_t".
 b4b3ebc95d0bfd65ef4503357048c951b7a21531 mm/vma: add vma_flags_empty(), vma_flags_and(), vma_flags_diff_pair()
@@ -206,8 +206,5 @@ fd4d5ae42c173a9eef0c5296a134329f9e2d54b4 selftests/mm: split_huge_page_test: ski
 eccd4b43e9d67238b6ee9c526bbc2fe38f1c0f29 selftests/mm: serialize local_config generation for parallel builds
 c8f0665880eaa2b09fb0eea353d0b6ee8ced4eb2 selftests/lib.mk: set PWD from CURDIR to avoid wrong extmod path
 24e341657c283c965e3bfee0baa9ed0376127973 selftests/mm: fix cow/gup_longterm link failures when liburing flags are missing
-ff02b14f414cabfd06907eba22e5a4f99a85fa6f mm/vmalloc: use dedicated unbound workqueue for vmap purge/drain
-fc127b77592e87af0184b0cbe743f0692409d62d selftests/mm: add merge test for partial msealed range
-54c9d0359b180b34070aa7ff8d9428fa3db8acbb selftests-mm-add-merge-test-for-partial-msealed-range-fix
 
---===============5394161734443033700==--
+--===============0810722403360239384==--
