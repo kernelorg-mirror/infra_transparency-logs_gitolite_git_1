@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4507441927604094033=="
+Content-Type: multipart/mixed; boundary="===============1779765065466535211=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/kees/linux
-Date: Tue, 31 Mar 2026 23:54:23 -0000
-Message-Id: <177500126361.3421544.10860302244324769594@gitolite.kernel.org>
+Date: Tue, 31 Mar 2026 23:54:35 -0000
+Message-Id: <177500127561.3421869.4679697878159928317@gitolite.kernel.org>
 
---===============4507441927604094033==
+--===============1779765065466535211==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,32 +16,32 @@ repo: pub/scm/linux/kernel/git/kees/linux
 user: kees
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/for-next/kspp
-    old: f46a603c66867b5231512dc5fd9b0b65b4800b2a
-    new: e0142e0de50ade58e49decc788c512fda305672a
+  - ref: refs/heads/for-next/hardening
+    old: a96ef5848cb096226bf6aff31a90d8b136d99b71
+    new: cf2f06f7152d5e38a87aa2e9b8b452714789f6ba
     log: |
+         00247cbf173a9e1e2304db8e3f9172d36366b255 refcount: Remove unused __signed_wrap function annotations
          cf2f06f7152d5e38a87aa2e9b8b452714789f6ba lkdtm/fortify: Drop unneeded FORTIFY_STR_OBJECT test
-         e0142e0de50ade58e49decc788c512fda305672a Merge branch 'for-next/hardening' into for-next/kspp
          
 
---===============4507441927604094033==
+--===============1779765065466535211==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher A5C3F68F229DD60F723E6E138972F4DFDC6DC026 1775001257 -0700
+pusher A5C3F68F229DD60F723E6E138972F4DFDC6DC026 1775001274 -0700
 pushee gitolite.kernel.org:pub/scm/linux/kernel/git/kees/linux.git
-nonce 1775001255-a65e70b25411cef0f9e7c6de5ed277e71a58a283
+nonce 1775001272-b71977c397ae743bff07b39b1a68a6ba85776248
 
-f46a603c66867b5231512dc5fd9b0b65b4800b2a e0142e0de50ade58e49decc788c512fda305672a refs/heads/for-next/kspp
+a96ef5848cb096226bf6aff31a90d8b136d99b71 cf2f06f7152d5e38a87aa2e9b8b452714789f6ba refs/heads/for-next/hardening
 -----BEGIN PGP SIGNATURE-----
 
-iHUEABYKAB0WIQRSPkdeREjth1dHnSE2KwveOeQkuwUCacxeqQAKCRA2KwveOeQk
-uxd8AP9if5VbS1FmrrbJNLgeQCw4NzGvJMkKa9QW3l3fZPrzrgEA94f/W4eAsgNE
-WlTAgzAnIe8dozYIKt5w8ayufXthGwk=
-=6/vP
+iHUEABYKAB0WIQRSPkdeREjth1dHnSE2KwveOeQkuwUCacxeugAKCRA2KwveOeQk
+u45uAQDgSWQHxLnFgcJ/6FePmtq8M82jt1NWyUzPLQUsZ6agVQD/dsfpR4FUY6Ep
+t9a1UFIY6g1rzEy1v95dS8CjKPMAOAE=
+=8Cz7
 -----END PGP SIGNATURE-----
 
---===============4507441927604094033==--
+--===============1779765065466535211==--
