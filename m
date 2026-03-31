@@ -1,50 +1,19 @@
-Content-Type: multipart/mixed; boundary="===============9108943579176206913=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-Date: Tue, 31 Mar 2026 08:03:44 -0000
-Message-Id: <177494422488.2613749.14781025117590265381@gitolite.kernel.org>
-
---===============9108943579176206913==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Tue, 31 Mar 2026 08:07:09 -0000
+Message-Id: <177494442953.2617322.12613817920139183698@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-user: ij
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/tip/tip
+user: mingo
 changes:
-  - ref: refs/heads/fixes
-    old: fbddf68d7b4e1e6da7a78dd7fbd8ec376536584a
-    new: 1a9452c428a6b76f0b797bae21daa454fccef1a2
+  - ref: refs/heads/x86/vdso
+    old: 6517f293b2c6774d21b6e7e26a55fae60c6ec4cf
+    new: 6ccd0843b939669159f7148dfb84e6794ca6f4a8
     log: |
-         e1415b9418eb22b4a7a1ef4b4aec9dd0a49e3fa7 platform/x86: ISST: Reset core count to 0
-         4ab604b3f3aa8dcccc7505f5d310016682a99d5f platform/x86/intel-uncore-freq: Handle autonomous UFS status bit
-         ba7d46e0a384398c58eee34579986f830260d37b platform/x86: ISST: Increase minor version
-         b7f4e7babc122426e8802dffdd8ff1501db6adf4 platform/x86/intel-uncore-freq: Increase minor version
-         1a9452c428a6b76f0b797bae21daa454fccef1a2 platform/x86/amd: pmc: Add Thinkpad L14 Gen3 to quirk_s2idle_bug
+         6ccd0843b939669159f7148dfb84e6794ca6f4a8 x86/vdso: Drop pointless #ifdeffery in vvar_vclock_fault()
          
-
---===============9108943579176206913==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1774944220 +0300
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86.git
-nonce 1774944220-e68e91293e7496c8c8146bfd9232b78ccca82d50
-
-fbddf68d7b4e1e6da7a78dd7fbd8ec376536584a 1a9452c428a6b76f0b797bae21daa454fccef1a2 refs/heads/fixes
------BEGIN PGP SIGNATURE-----
-
-iHUEABYIAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCact/4QAKCRBZrE9hU+XO
-MVBGAPwJUStOD5szAMUud+KUPfDbF7U3hBqujgxwahfI76hOdQD+P4bO7MOHlyfM
-FbM/0p9Zd7KcP/8depZKxX8nRJrdawA=
-=6j1g
------END PGP SIGNATURE-----
-
---===============9108943579176206913==--
