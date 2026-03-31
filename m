@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/git/git
-Date: Tue, 31 Mar 2026 02:11:57 -0000
-Message-Id: <177492311787.2331758.10740193134296109235@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/dinguyen/linux
+Date: Tue, 31 Mar 2026 02:21:03 -0000
+Message-Id: <177492366328.2339370.4585214632644838184@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/git/git
-user: junio
+repo: pub/scm/linux/kernel/git/dinguyen/linux
+user: dinguyen
 changes:
-  - ref: refs/heads/seen
-    old: abfd972b7b4086b4f8874e26d2409239c724b12d
-    new: 4b8355c6f86ef317dcf5bea2f9bc01ef0b5b6107
+  - ref: refs/tags/socfpga_updates_for_v7.1_v2
+    old: 8ea3529568af7e05ba192cc2db9c4e2b6d7fb5de
+    new: 0000000000000000000000000000000000000000
