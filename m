@@ -1,21 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ulfh/linux-pm
-Date: Tue, 31 Mar 2026 16:02:00 -0000
-Message-Id: <177497292054.3024772.11125739552289537685@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
+Date: Tue, 31 Mar 2026 16:02:38 -0000
+Message-Id: <177497295865.3025448.8581543729829097867@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ulfh/linux-pm
-user: ulfh
+repo: pub/scm/linux/kernel/git/xiang/erofs-utils
+user: xiang
 changes:
-  - ref: refs/heads/next
-    old: bc330699801d3b4f99110365512caed5adcfaca3
-    new: 4a05cbf36ed890fc8d8232fea09b559409d6abf1
+  - ref: refs/heads/experimental
+    old: 94a959d907dfbda48fde316f6a60e831056f42a3
+    new: f9bb161f2c99b0c39a55ece0d0e925b21ad1c1ce
     log: |
-         603b28d8fb4d3cdfba4577b093295b63c35342e9 firmware: thead: Fix buffer overflow and use standard endian macros
-         683e932149f0f6d49fedb57886b6ac18135f8cc9 pmdomain: imx8mp-blk-ctrl: Keep the NOC_HDCP clock enabled
-         4a05cbf36ed890fc8d8232fea09b559409d6abf1 pmdomain: Merge branch fixes into next
+         b6d03319e6b971acea2d0b290ebf6a79ea198699 erofs-utils: mount: generalize nbd source types for multi-backend support
+         f9bb161f2c99b0c39a55ece0d0e925b21ad1c1ce erofs-utils: mount: add fanotify pre-content OCI backend
          
