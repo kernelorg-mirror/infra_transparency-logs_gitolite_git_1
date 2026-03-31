@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Tue, 31 Mar 2026 14:25:22 -0000
-Message-Id: <177496712292.2933355.5797982319421141191@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/docs/linux
+Date: Tue, 31 Mar 2026 14:33:24 -0000
+Message-Id: <177496760432.2938801.6962723038528901445@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: sashal
+repo: pub/scm/linux/kernel/git/docs/linux
+user: corbet
 changes:
-  - ref: refs/heads/master
-    old: 9b645798e6923f5304b6902b5b793df08b43a451
-    new: 449757784a0b74d56c28bfb801cbf147269ef261
+  - ref: refs/heads/docs-mw
+    old: 4663a5a2a3483b5f6b049cf7e9705773ab35e6c7
+    new: 83725f1d980b92789f99db0ea756979017c37ac3
     log: |
-         449757784a0b74d56c28bfb801cbf147269ef261 Fixes for all trees
+         83725f1d980b92789f99db0ea756979017c37ac3 Revert "scripts/checkpatch: add Assisted-by: tag validation"
          
