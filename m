@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf
-Date: Tue, 31 Mar 2026 23:03:13 -0000
-Message-Id: <177499819340.3381572.653552065994613313@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sj/hkml
+Date: Tue, 31 Mar 2026 23:18:22 -0000
+Message-Id: <177499910225.3393159.10277630419589052041@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf
-user: ast
+repo: pub/scm/linux/kernel/git/sj/hkml
+user: sj
 changes:
   - ref: refs/heads/master
-    old: a8502a79e832b861e99218cbd2d8f4312d62e225
-    new: e2d072d6a3d1369d289667f51cf771eefa3c0b26
+    old: 2c7a6c011fc83cdfcaccb8b422c30193bc99b7b7
+    new: 18bab02177bd0a446183ecec199c2b6e315fccb7
     log: |
-         c76fef7dcd9372e3476d4df5e0a72ed5919a814b bpf: Fix grace period wait for tracepoint bpf_link
-         e2d072d6a3d1369d289667f51cf771eefa3c0b26 Merge branch 'fix-bpf_link-grace-period-wait-for-tracepoints'
+         719185d5e0078531f8d0570bf118b77f1fb1c453 hkml_list: fix wrong --not_from keywords_in() condition
+         18bab02177bd0a446183ecec199c2b6e315fccb7 release_note: remove dropped feature
          
