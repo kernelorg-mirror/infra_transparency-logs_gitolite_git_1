@@ -1,26 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux
-Date: Tue, 31 Mar 2026 19:56:47 -0000
-Message-Id: <177498700750.3227792.18287058461579989986@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/superm1/linux
+Date: Tue, 31 Mar 2026 19:59:39 -0000
+Message-Id: <177498717978.3228865.493857456350729100@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux
-user: axboe
+repo: pub/scm/linux/kernel/git/superm1/linux
+user: superm1
 changes:
-  - ref: refs/heads/for-7.1/block
-    old: 23308af722fefed00af5f238024c11710938fba3
-    new: f91ffe89b2016d280995a9c28d73288b02d83615
+  - ref: refs/heads/bleeding-edge
+    old: a458af0c65e9c0ed213e5550954fd13c127ae664
+    new: a2db5f18169f8d80bae411c10d29272029a174ae
     log: |
-         f91ffe89b2016d280995a9c28d73288b02d83615 blk-iocost: fix busy_level reset when no IOs complete
-         
-  - ref: refs/heads/for-next
-    old: 208cd4463fd421700d042cbcd8b36b5ab4100f50
-    new: 132ba7a88be3a1c8c13d7ff491ba09a0dd6389fe
-    log: |
-         f91ffe89b2016d280995a9c28d73288b02d83615 blk-iocost: fix busy_level reset when no IOs complete
-         132ba7a88be3a1c8c13d7ff491ba09a0dd6389fe Merge branch 'for-7.1/block' into for-next
+         165d5a019616189581ee2e09185b2988b5088b60 cpufreq/amd-pstate: Add dynamic energy performance preference
+         a57d09308474f295f39be82fd0eac19890083f0a cpufreq/amd-pstate: add kernel command line to override dynamic epp
+         c86e5c9a61f1bed35dfd2c1871daa8d9ea8dbb82 cpufreq/amd-pstate: Add support for platform profile class
+         947d52316ecf4538de5fceca62bbb5438939dc20 cpufreq/amd-pstate: Add support for raw EPP writes
+         a2db5f18169f8d80bae411c10d29272029a174ae cpufreq/amd-pstate-ut: Add a unit test for raw EPP
          
