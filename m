@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rppt/linux
-Date: Wed, 01 Apr 2026 13:04:59 -0000
-Message-Id: <177504869917.4129965.16960353255211716698@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pinctrl/intel
+Date: Wed, 01 Apr 2026 13:09:49 -0000
+Message-Id: <177504898995.4133912.1246491945246938479@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rppt/linux
-user: rppt
+repo: pub/scm/linux/kernel/git/pinctrl/intel
+user: andy
 changes:
-  - ref: refs/heads/mm-selftest/v0.3
+  - ref: refs/tags/intel-pinctrl-v7.0-2
     old: 0000000000000000000000000000000000000000
-    new: 474ceb1620939c629b4937e273e6f3f0386a648d
+    new: 7a66cdef1680e4199b6e0873334ccf2f4ae86dbb
