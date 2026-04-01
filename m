@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
-Date: Wed, 01 Apr 2026 23:38:45 -0000
-Message-Id: <177508672579.473342.3449132651838002435@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
+Date: Wed, 01 Apr 2026 23:39:05 -0000
+Message-Id: <177508674508.473744.7058114324536293293@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/25-new
-user: akpm
+repo: pub/scm/linux/kernel/git/tnguy/net-queue
+user: tnguy
 changes:
-  - ref: refs/heads/master
-    old: 78b9343caa0f30d7ba653eef06cbc31f4a840b7b
-    new: b9391c81a8aa1bf14da6e36eaf88ccfb8013dcd9
+  - ref: refs/heads/dev-queue
+    old: 7c27ca383eb5a7319a52e17c4d2866d439bc7b57
+    new: 1c25a2b1fa86e6619f13b448b38a6b1145e02c62
     log: |
-         b9391c81a8aa1bf14da6e36eaf88ccfb8013dcd9 foo
+         7fe16e48a7de3004727a543595507a30dc815026 ice: fix FDIR CTRL VSI resource leak in ice_reset_all_vfs()
+         faa0ac4c0042cf69e78bcd87990828761ae32e59 ice: fix AQ error code comparison in ice_set_pauseparam()
+         1c25a2b1fa86e6619f13b448b38a6b1145e02c62 ice: call netif_keep_dst() once when entering switchdev mode
          
