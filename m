@@ -1,49 +1,44 @@
-Content-Type: multipart/mixed; boundary="===============5913563579939588510=="
+Content-Type: multipart/mixed; boundary="===============1161596059960890832=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mic/linux
-Date: Wed, 01 Apr 2026 19:03:41 -0000
-Message-Id: <177507022197.239808.11075731745834583041@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ast/bpf
+Date: Wed, 01 Apr 2026 19:18:30 -0000
+Message-Id: <177507111007.251589.10555660799927758956@gitolite.kernel.org>
 
---===============5913563579939588510==
+--===============1161596059960890832==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mic/linux
-user: mic
+repo: pub/scm/linux/kernel/git/ast/bpf
+user: ast
 changes:
-  - ref: refs/heads/next
-    old: a8a64ed1dd5384aed6fd75f7d6497a434912ef91
-    new: e64b5bb393de35f8a63351bf96f8e4bb1975f5cc
-    log: revlist-a8a64ed1dd53-e64b5bb393de.txt
+  - ref: refs/heads/stacklive
+    old: 8ac6af8c95e6f4322ec1155c0862e9dc6844813d
+    new: 7f91dd4e1e7ad17e6a02ca6ecb76281a51d97328
+    log: revlist-8ac6af8c95e6-7f91dd4e1e7a.txt
 
---===============5913563579939588510==
+--===============1161596059960890832==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a8a64ed1dd53-e64b5bb393de.txt
+Content-Disposition: attachment; filename=revlist-8ac6af8c95e6-7f91dd4e1e7a.txt
 
-f6ab02e3daf38aa805f945df37fd4ce9555803c6 selftests/landlock: Fix snprintf truncation checks in audit helpers
-2fce941857f6eddff01373fabe0ba3bd11c5e801 selftests/landlock: Fix socket file descriptor leaks in audit helpers
-38fc1e1ce6789c0d24afe3be19ff91af8c444bc9 selftests/landlock: Drain stale audit records on init
-608d0288d7b32882578cf4d686ab64873c9a1a52 selftests/landlock: Skip stale records in audit_match_record()
-5369dbc29d9b7b7f549afbbc76aa1ea36d59c80d landlock: Add missing kernel-doc "Return:" sections
-f6c7c43e3157c617bd6ced2692e45674df01c431 landlock: Improve kernel-doc "Return:" section consistency
-31369f2f2d5e24c7542183257cf5d4a307e9246f landlock: Fix formatting in tsync.c
-614c8c23d4d63afd4ee7b8baa1472dd3138d4f9a landlock: Fix kernel-doc warning for pointer-to-array parameters
-8e49c06e9bb38e01878012f65c7bfabfab3c50d5 lsm: Add LSM hook security_unix_find
-de2935010bc3d11b54633d192a56c9adcd4f2235 landlock: Use mem_is_zero() in is_layer_masks_allowed()
-52fa1ba7597733d9115eae744d71a3a4f746d759 landlock: Control pathname UNIX domain socket resolution by path
-4ba6e5adf36524358a635d5bd31d214d708957e4 landlock: Clarify BUILD_BUG_ON check in scoping logic
-3edb8a1abccdf4e9e6f65138e485a9ffa51b7801 samples/landlock: Add support for named UNIX domain socket restrictions
-4dbf79c69d6dbbd58212b2e59a0d7b09c81d531f selftests/landlock: Replace access_fs_16 with ACCESS_ALL in fs_test
-0d39517eb9230e536298bb9c94c8401404773735 selftests/landlock: Test LANDLOCK_ACCESS_FS_RESOLVE_UNIX
-74da86853c531ee76c2fe3d80ea29678336f16bd selftests/landlock: Audit test for LANDLOCK_ACCESS_FS_RESOLVE_UNIX
-a2f395a6e93189b2ff0b07fec258bc35955e3a72 selftests/landlock: Check that coredump sockets stay unrestricted
-02e7864455703030817d8920926ceb5f776ef508 selftests/landlock: Simplify fs_test ruleset creation and enforcement
-e64b5bb393de35f8a63351bf96f8e4bb1975f5cc landlock: Document FS access right for pathname UNIX sockets
+ba0d7751218aae5664879108a7c849c77c7402d0 bpf: Do register range validation early
+54e5892e8f44c6615420cdafdc4f64e1727aaa1e bpf: Sort subprogs in topological order after check_cfg()
+51e1465d83fe59a2d858b015812fce85a61c6479 selftests/bpf: Add tests for subprog topological ordering
+7c04a2c763cb3af2a8413541af4eb7a0c06f23f5 bpf: Add compute_const_regs() and prune_dead_branches() passes
+8ea7eba0e6e6595a0e2e39cd2fef4b11c304e7d4 bpf: Move verifier helpers to header
+4c160e12e6398f121f6c458fcd8cdcfa85ef2ae0 bpf: Add helper and kfunc stack access size resolution
+f1cd452b474b1cbfb28e0fc3c7750d064543b5ad bpf: Add spis_*() helpers for 4-byte stack slot bitmasks
+6e77567922dd4e882490ed723fcf315e5cae289f bpf: Introduce static stack liveness
+2f79f0049f7608c97b42df7caf87b77c41e89d6d selftests/bpf: Update existing tests due to liveness changes
+99626e7e709d1c2a277027904366b693b686f043 selftests/bpf: Adjust verifier_log buffers
+1f8441ebdabee73a391b6188c019cf462c5efcc8 selftests/bpf: Add new tests for static stack liveness analysis
+fb891eb2691f96b6e4cfbecff1eddb551c62c51e bpf: Poison dead stack slots
+18983d76a5c8d467dca5ad78576c5530918d5410 bpf: Fix sizeof(arg_type) based global subprog stack access
+7f91dd4e1e7ad17e6a02ca6ecb76281a51d97328 bpf: Remove dynamic stack liveness infrastructure
 
---===============5913563579939588510==--
+--===============1161596059960890832==--
