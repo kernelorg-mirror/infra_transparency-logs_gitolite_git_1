@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1830262602425110250=="
+Content-Type: multipart/mixed; boundary="===============1515554308960639689=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Wed, 01 Apr 2026 04:45:55 -0000
-Message-Id: <177501875524.3704287.7934275944123752478@gitolite.kernel.org>
+Date: Wed, 01 Apr 2026 04:45:56 -0000
+Message-Id: <177501875650.3704426.10686712762122724520@gitolite.kernel.org>
 
---===============1830262602425110250==
+--===============1515554308960639689==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/mm-new
-    old: 54c9d0359b180b34070aa7ff8d9428fa3db8acbb
-    new: ef222121d2def3e8fb4726cc970dd2c3959a3a8b
-    log: revlist-54c9d0359b18-ef222121d2de.txt
+  - ref: refs/heads/mm-unstable
+    old: 24e341657c283c965e3bfee0baa9ed0376127973
+    new: d873dd7a326a5b9f970008d4b59ae2c9e4e9b12b
+    log: revlist-24e341657c28-d873dd7a326a.txt
 
---===============1830262602425110250==
+--===============1515554308960639689==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-54c9d0359b18-ef222121d2de.txt
+Content-Disposition: attachment; filename=revlist-24e341657c28-d873dd7a326a.txt
 
 81c2fee75da22d149cc98b89d8c18745f4cf48b2 mm: filemap: fix nr_pages calculation overflow in filemap_map_pages()
 7ea8e795cc065656073608b1b6e11a455e1a00c7 mm/hugetlb: restore reservation on error in hugetlb_mfill_atomic_pte() resubmission path
@@ -151,15 +151,5 @@ dee0e2449f381f4b107ffa166aea8103d4973735 mm/damon/core: validate damos_quota_goa
 3257d29b606173f2e44fbf67c570e18624e6ea12 Docs/admin-guide/mm/damon/reclaim: warn commit_inputs vs param updates race
 6a12b096e9bb14260fb2bfaa72f94c49d71e7a96 Docs/admin-guide/mm/damon/lru_sort: warn commit_inputs vs param updates race
 d873dd7a326a5b9f970008d4b59ae2c9e4e9b12b mm/mempolicy: fix memory leaks in weighted_interleave_auto_store()
-f82c84a905e34dd0ba3f0ad9c9689da942b179be mm/vmalloc: use dedicated unbound workqueue for vmap purge/drain
-e33a741dcbf59c228b06667fc07e328847a35d71 tools/testing/selftests: add merge test for partial msealed range
-7aa33600599678552e8e581eba3ad5483722c0cf tools-testing-selftests-add-merge-test-for-partial-msealed-range-fix
-44ea61ed98cc6380b121d2f5b6b9baa8f8671e3b selftests/mm: skip hugetlb_dio tests when DIO alignment is incompatible
-eb98b0eb95a023ca402b8f7f948cf59cf95c2699 selftests-mm-skip-hugetlb_dio-tests-when-dio-alignment-is-incompatible-checkpatch-fixes
-5c09a688adcaa10478dea6a74cb3efc016ab7095 lib: test_hmm: evict device pages on file close to avoid use-after-free
-49399c8cbdbfe58760d4252ca61f1cc131d1e143 selftests/mm: hmm-tests: don't hardcode THP size to 2MB
-6df60dc547aa8e542ea4e5531c94fa2f8598ab5c lib: test_hmm: implement a device release method
-92ff685c2975d11723239fb9cf77fb575973d0d5 zram: do not forget to endio for partial discard requests
-ef222121d2def3e8fb4726cc970dd2c3959a3a8b mm/sparse: fix preinited section_mem_map clobbering on failure path
 
---===============1830262602425110250==--
+--===============1515554308960639689==--
