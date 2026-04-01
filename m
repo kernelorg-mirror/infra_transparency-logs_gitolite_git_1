@@ -1,27 +1,57 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/util-linux/util-linux
-Date: Wed, 01 Apr 2026 09:42:36 -0000
-Message-Id: <177503655691.3958994.12046580498570657660@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============0196338333931598384=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
+Date: Wed, 01 Apr 2026 09:51:17 -0000
+Message-Id: <177503707783.3969738.7791486894267530853@gitolite.kernel.org>
+
+--===============0196338333931598384==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/util-linux/util-linux
-user: kzak
+repo: pub/scm/linux/kernel/git/gregkh/char-misc
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/stable/v2.41
-    old: 9ec69c31cc973d212edec16b17fda5718503f0d8
-    new: e147e16fa9a9d3b3ad5968bf42280966ac3a8529
+  - ref: refs/heads/char-misc-linus
+    old: 69335152910b775e7835939d5c863c580c605275
+    new: f40b1401b6ad0f4dadfca4e7a69744352a2e4f8f
     log: |
-         f55f9906b4f6eeb2b4a4120317df9de935253c10 loopdev: add LOOPDEV_FL_NOFOLLOW to prevent symlink attacks
-         05c2dbadf34cc74192287f377904afaaf4061623 libblkid: dos: validate EBR data and links within extended partition
-         75a23a2de153996069ad930e306075fafa1c77b6 libfdisk: dos: validate EBR link within extended partition bounds
-         0bd8541bc6bc3b084714bbb09ce8198c95f7819b tools: update git-version-next from master
-         153ab7556d2182ac88265360f415b983c41eb20b docs: update v2.41.4-ReleaseNotes
-         e147e16fa9a9d3b3ad5968bf42280966ac3a8529 build-sys: update release dates
+         8c0ef7b56d6bbbc53f2d43d99c195144f01b0775 lis3lv02d: fix kernel-doc warnings
+         f40b1401b6ad0f4dadfca4e7a69744352a2e4f8f lis3lv02d: Omit IRQF_ONESHOT if no threaded handler is provided
          
-  - ref: refs/tags/v2.41.4
-    old: 0000000000000000000000000000000000000000
-    new: eb0e5ae3ce5bb7831d7824e2529d07136026a75b
+
+--===============0196338333931598384==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1775037076 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
+nonce 1775037075-09e41d01d4a48e1766a85f06e1d453f441c12f8f
+
+69335152910b775e7835939d5c863c580c605275 f40b1401b6ad0f4dadfca4e7a69744352a2e4f8f refs/heads/char-misc-linus
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmnM6pQbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+JO0QAIgi0WH1L9gN4KS+09KJ
+OxYgm9ZjZ1DoFQmryf9T0hrifiUl0OOypksWe/lpSqh/+fTGHMZnHCQ/tBgKXQnA
+aJWorc6H+rPPH6EuzqHFaWJj9EwopcX0KUveiwBlgtGS7fbWJhmzXrIkz+ETkcMs
+hKFMTYaGoOuwQk1XsE5AKOMG0KxdS/2LLv5uDTUzy+u03SxUo8ESg6k/VgO3kkor
+PrdCxisnqS8biCCX6AQGY0b36p81RkvgTKTN31wgqy8skB8HkzDR2ShTQA/EGKgc
+rr2eFfs5npQeoKuaFX/DrFW0hj5Ygc1MHqN1F4SL6lmi79CJF3vw+h9Xolj8SEqx
+mbUeA63fO9X4X4FF1Jl4BviV9QsZl4Gk5vzpr4VOBmD4Ki0RnilkHyTV+/QRDmhU
+FPmXo11tpuraXayNTJWI0wUQh91rv1w+zsefd+KlbSlHtcDlgJ0XnLMCtxmVNjdA
+iXVb0243+H4hVlf/bfcyCEXYchPeqAhRTYzvoymHDS00jR9W8St5vI9XLh5rfVVo
+qHeMuJpC1yZP938QnRisyWOydP+ZcYvAOajDFq6ZUkcprHC/cd2Hm/sy5CV2oi8+
+g1J22vInSUG6iPDN0WokV1EUkrN9mLSXwneGLe0xa0/GPFRnb5W9yKXL7A+K86zL
+NnsfKQ78zKA7xlyBG9CIbmKF
+=ZZUu
+-----END PGP SIGNATURE-----
+
+--===============0196338333931598384==--
