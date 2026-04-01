@@ -1,22 +1,29 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/paulmck/perfbook
-Date: Wed, 01 Apr 2026 16:05:47 -0000
-Message-Id: <177505954753.91275.1206010330255646919@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/dtor/input
+Date: Wed, 01 Apr 2026 16:09:10 -0000
+Message-Id: <177505975082.92493.14627894362916382726@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/paulmck/perfbook
-user: paulmck
+repo: pub/scm/linux/kernel/git/dtor/input
+user: dtor
 changes:
   - ref: refs/heads/master
-    old: 981b1dd85b8df22a8bb721efcb1468d4bccb2960
-    new: 4e94a80e680c6363d8f973667566209695bf380c
+    old: 4decd8f4ae06a6d82079186b6ad3fe51d4654a1d
+    new: df53055c540fe8850f587a6ef0d6944bdd909483
     log: |
-         ba9e6c220435476ca055b9dbd531b986d59ad60c appendix/styleguide: Add list of "api" commands
-         bacdf0ba3fec7dbc63e9f581eb864ab0010f53b4 together/applyrcu: Add "Detecting Broken Readers" patchup
-         337e728e2fc353719e6f4c0506424dbbbbfce2ea together/applyrcu: Convert Listing 13.14 to VerbatimL
-         4e94a80e680c6363d8f973667566209695bf380c together/applyrcu: Add "Restraining Reclamation" section
+         53ba7a47d3783192e6846cbb42f246f0fb9f9488 Input: aw86927 - respect vibration magnitude levels
+         b73724b1defe253fa9d76be4bcb585ef37ef4d68 dt-bindings: input: awinic,aw86927: Add Awinic AW86938
+         df53055c540fe8850f587a6ef0d6944bdd909483 Input: aw86927 - add support for Awinic AW86938
+         
+  - ref: refs/heads/next
+    old: 4decd8f4ae06a6d82079186b6ad3fe51d4654a1d
+    new: df53055c540fe8850f587a6ef0d6944bdd909483
+    log: |
+         53ba7a47d3783192e6846cbb42f246f0fb9f9488 Input: aw86927 - respect vibration magnitude levels
+         b73724b1defe253fa9d76be4bcb585ef37ef4d68 dt-bindings: input: awinic,aw86927: Add Awinic AW86938
+         df53055c540fe8850f587a6ef0d6944bdd909483 Input: aw86927 - add support for Awinic AW86938
          
