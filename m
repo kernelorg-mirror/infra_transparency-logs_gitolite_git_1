@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bluetooth/bluetooth
-Date: Wed, 01 Apr 2026 20:57:42 -0000
-Message-Id: <177507706249.335365.12768731673873329070@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/b4/b4
+Date: Wed, 01 Apr 2026 20:59:52 -0000
+Message-Id: <177507719286.336345.3671269072369461333@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bluetooth/bluetooth
-user: vudentz
+repo: pub/scm/utils/b4/b4
+user: mricon
 changes:
-  - ref: refs/tags/for-net-2026-04-01
-    old: 0000000000000000000000000000000000000000
-    new: 7ce43207d007c16fb34ee6428220a444836e0c8a
+  - ref: refs/bugs/cc529aa6a62d45eaaad06c8583aeb296f95774ea06b26409fae34bbf23c30acd
+    old: 894535959f2171c9bc33b3a1be1aa7a527539377
+    new: 50cbf112357f16ef7cd493be3bc110f69dfcdebd
+    log: |
+         50cbf112357f16ef7cd493be3bc110f69dfcdebd 
+         
