@@ -1,16 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
-Date: Wed, 01 Apr 2026 18:54:49 -0000
-Message-Id: <177506968961.231825.2709605348116087924@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
+Date: Wed, 01 Apr 2026 18:59:56 -0000
+Message-Id: <177506999652.235842.16131098869582203436@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/soc/soc
-user: arnd
+repo: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
+user: vudentz
 changes:
-  - ref: refs/heads/renesas/dt-2
-    old: 0000000000000000000000000000000000000000
-    new: be3810a2ebc0c81303a15392097bac9ee0cd6297
+  - ref: refs/heads/master
+    old: 2c12536623ca3a02a31316005cd4097658a3a025
+    new: 3a0b100b337cabf009cdaee6031afd8f6313d214
+    log: |
+         1bd2e4ce149fa63a647e5e2c513e0319dead2337 Bluetooth: SMP: force responder MITM requirements before building the pairing response
+         3a0b100b337cabf009cdaee6031afd8f6313d214 Bluetooth: SMP: derive legacy responder STK authentication from MITM state
+         
