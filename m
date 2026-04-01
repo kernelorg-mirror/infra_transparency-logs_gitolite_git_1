@@ -1,25 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/dtor/input
-Date: Wed, 01 Apr 2026 19:29:24 -0000
-Message-Id: <177507176447.260227.9292176882644328487@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Wed, 01 Apr 2026 19:31:17 -0000
+Message-Id: <177507187744.263638.15061494824441619026@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/dtor/input
-user: dtor
+repo: pub/scm/linux/kernel/git/tip/tip
+user: bp
 changes:
-  - ref: refs/heads/master
-    old: df53055c540fe8850f587a6ef0d6944bdd909483
-    new: f13b7800929df0df0ba2407226ba1b627b482c92
+  - ref: refs/heads/x86/platform
+    old: 8b793a92d862c89055daa97ffa61a6929cf732f9
+    new: bc91133e260c8113c1119073c03b93c12aa41738
     log: |
-         f13b7800929df0df0ba2407226ba1b627b482c92 Input: usbtouchscreen - refactor endpoint lookup
-         
-  - ref: refs/heads/next
-    old: df53055c540fe8850f587a6ef0d6944bdd909483
-    new: f13b7800929df0df0ba2407226ba1b627b482c92
-    log: |
-         f13b7800929df0df0ba2407226ba1b627b482c92 Input: usbtouchscreen - refactor endpoint lookup
+         c064abc68e009d2cc18416e7132d9c25e03125b6 firmware: dmi: Correct an indexing error in dmi.h
+         28189e95712b70008754c993ecd3531d1c7018d1 firmware: dmi: Adjust dmi_decode() to use enums
+         da55ebe166d71c8c6925c5cfd77fc74bed40aaef firmware: dmi: Add pr_fmt() for dmi_scan.c
+         bc91133e260c8113c1119073c03b93c12aa41738 x86/CPU/AMD: Print AGESA string from DMI additional information entry
          
