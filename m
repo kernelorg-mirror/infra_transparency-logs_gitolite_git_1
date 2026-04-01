@@ -1,22 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mark/linux
-Date: Wed, 01 Apr 2026 17:09:12 -0000
-Message-Id: <177506335266.145769.3073923583175079349@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/cxl/cxl
+Date: Wed, 01 Apr 2026 17:12:16 -0000
+Message-Id: <177506353627.149372.8325545396805481405@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mark/linux
-user: mark
+repo: pub/scm/linux/kernel/git/cxl/cxl
+user: djiang
 changes:
-  - ref: refs/heads/arm64/entry/rework
-    old: a3279e028575747d05eeef11e95c9546f8e0ae31
-    new: fdf9f4fb831aaae9bff24c96c4897ab71c546cf7
+  - ref: refs/heads/next
+    old: 4361a3af0104faff20fc9462c15e008856073b89
+    new: 4e6bcfa0ae68dd1755a60a7cffd40358cc5385ad
     log: |
-         4b0fa74f1a2ccc2f7249f84040e964ef09f33436 arm64: entry: Consistently prefix arm64-specific wrappers
-         810b165dcbf7aed7dd0446c5df04ec678b9df642 arm64: entry: Use irqentry_{enter_from,exit_to}_kernel_mode()
-         07a78062c874fb54eac8bf63678d4fdac685b0af WIP: arm64: entry: Use split preemption logic
-         fdf9f4fb831aaae9bff24c96c4897ab71c546cf7 arm64: entry: Remove DAIF hack
+         261a02b93d9b6dfdc49b3e675be1a0e677cf71f3 cxl/core: Check existence of cxl_memdev_state in poison test
+         d585bc86fb9f405ed1f2f56cc50c82d9aaada297 cxl/region: Add a region sysfs interface for region lock status
+         4e6bcfa0ae68dd1755a60a7cffd40358cc5385ad Merge branch 'for-7.1/cxl-misc' into cxl-for-next
          
