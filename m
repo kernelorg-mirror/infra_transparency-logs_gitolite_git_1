@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Wed, 01 Apr 2026 16:59:20 -0000
-Message-Id: <177506276089.136649.7714535003238466888@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
+Date: Wed, 01 Apr 2026 16:59:40 -0000
+Message-Id: <177506278087.136987.9011705904793954974@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
-user: broonie
+repo: pub/scm/linux/kernel/git/soc/soc
+user: arnd
 changes:
-  - ref: refs/heads/alsa-unconfigured-tstamp
+  - ref: refs/heads/stm32/dt
     old: 0000000000000000000000000000000000000000
-    new: b947a0c58a5b3bceb95a4918c49f008c8b8cfab3
+    new: 407b861f4d0cd3ac2ce1b98e6e09fbc7aff29b09
