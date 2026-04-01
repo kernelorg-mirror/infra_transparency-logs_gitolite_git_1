@@ -1,22 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Wed, 01 Apr 2026 19:31:17 -0000
-Message-Id: <177507187744.263638.15061494824441619026@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mnyman/xhci
+Date: Wed, 01 Apr 2026 19:33:13 -0000
+Message-Id: <177507199346.264579.15322949588375498189@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: bp
+repo: pub/scm/linux/kernel/git/mnyman/xhci
+user: mnyman
 changes:
-  - ref: refs/heads/x86/platform
-    old: 8b793a92d862c89055daa97ffa61a6929cf732f9
-    new: bc91133e260c8113c1119073c03b93c12aa41738
+  - ref: refs/heads/for-usb-next
+    old: 110b1b5c30be6f764cfc2f43a217a1f4c8581f2a
+    new: 87c2b42b1da883d5605d7eb2686deeee53909444
     log: |
-         c064abc68e009d2cc18416e7132d9c25e03125b6 firmware: dmi: Correct an indexing error in dmi.h
-         28189e95712b70008754c993ecd3531d1c7018d1 firmware: dmi: Adjust dmi_decode() to use enums
-         da55ebe166d71c8c6925c5cfd77fc74bed40aaef firmware: dmi: Add pr_fmt() for dmi_scan.c
-         bc91133e260c8113c1119073c03b93c12aa41738 x86/CPU/AMD: Print AGESA string from DMI additional information entry
+         87c2b42b1da883d5605d7eb2686deeee53909444 usb: xhci: Make usb_host_endpoint.hcpriv survive endpoint_disable()
          
