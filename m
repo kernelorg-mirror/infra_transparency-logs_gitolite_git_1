@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/arighi/linux
-Date: Wed, 01 Apr 2026 21:26:34 -0000
-Message-Id: <177507879433.362296.1249755036295014957@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/khilman/linux-omap
+Date: Wed, 01 Apr 2026 21:26:45 -0000
+Message-Id: <177507880518.362522.9593555578664903999@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/arighi/linux
-user: arighi
+repo: pub/scm/linux/kernel/git/khilman/linux-omap
+user: khilman
 changes:
-  - ref: refs/heads/fix-scx-dsq-invalid
+  - ref: refs/tags/omap-for-v7.1/soc-signed
     old: 0000000000000000000000000000000000000000
-    new: 5cfc7a639aba9bbb924bf690417f204724e4b857
+    new: 0f330642639335daf5004c9f57311cf5ffeb85f5
