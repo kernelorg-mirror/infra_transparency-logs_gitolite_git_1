@@ -1,31 +1,41 @@
-Content-Type: multipart/mixed; boundary="===============4231403890814411444=="
+Content-Type: multipart/mixed; boundary="===============9059358463469065418=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
-Date: Wed, 01 Apr 2026 14:43:52 -0000
-Message-Id: <177505463274.19438.10705674606222651565@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kvmarm/kvmarm
+Date: Wed, 01 Apr 2026 14:45:19 -0000
+Message-Id: <177505471927.22404.13246993444100231614@gitolite.kernel.org>
 
---===============4231403890814411444==
+--===============9059358463469065418==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/maz/arm-platforms
+repo: pub/scm/linux/kernel/git/kvmarm/kvmarm
 user: maz
 changes:
-  - ref: refs/heads/kvm-arm64/vgic-fixes-7.1
-    old: 8d6844bcd8041c776f53b4d515e533ae96ca2d4c
-    new: b3265a1b2bd00335308f27477cecb7702f4bb615
-    log: revlist-8d6844bcd804-b3265a1b2bd0.txt
+  - ref: refs/heads/next
+    old: 5ad2ff071b5980f072a85c8114649218971c586e
+    new: e54971a0468a8bc82b1976d5b010392d7cb689b9
+    log: revlist-5ad2ff071b59-e54971a0468a.txt
 
---===============4231403890814411444==
+--===============9059358463469065418==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8d6844bcd804-b3265a1b2bd0.txt
+Content-Disposition: attachment; filename=revlist-5ad2ff071b59-e54971a0468a.txt
 
+760299a1d8102b36bed5c25c5a3f94b5a0eee081 KVM: arm64: Prevent teardown finalisation of referenced 'hyp_vm'
+2400696883870ec3fb0fb9925426c62a3383ca36 KVM: arm64: Allow get_pkvm_hyp_vm() to take a reference to a dying VM
+bc20692f528b2ac8226bafe5b1db9a1f8be96dbf KVM: arm64: Don't hold 'vm_table_lock' across guest page reclaim
+63b8cf1b2ba9df2ff334af4ea6d0b4bafcf6c022 Merge branch kvm-arm64/hyp-tracing into kvmarm-master/next
+ef5130128780b19f031a4c3854af1fdc25f353b7 Merge branch kvm-arm64/vgic-v5-ppi into kvmarm-master/next
+771d62a9e2175d1240f02a6aebfd96840f44588c Merge branch kvm-arm64/nv-s2-debugfs into kvmarm-master/next
+1cd0bb0425594cea9baf862393a4ca9cc0c018a3 Merge branch kvm-arm64/pkvm-psci into kvmarm-master/next
+7f00aa5841c87d3c8aa953b2826d30902c49f8a6 Merge branch kvm-arm64/user_mem_abort-rework into kvmarm-master/next
+33cdd7f8fa32c92317aa521bd6f407a3cba8474b Merge branch kvm-arm64/spe-trbe-nvhe into kvmarm-master/next
+27c5028a5c1a8e9536f77bec241912ce9f6f68e4 Merge branch kvm-arm64/pkvm-protected-guest into kvmarm-master/next
 ecc7f02499544ae879716be837af78260a6a10f7 KVM: arm64: vgic: Don't reset cpuif/redist addresses at finalize time
 d82d09d5ba4be0b5eb053b2ba2bc0e82c49cf2c8 KVM: arm64: Don't skip per-vcpu NV initialisation
 77acae60be60adddf33e4c7e9cf73291f64fb9e8 arm64: Fix field references for ICH_PPI_DVIR[01]_EL2
@@ -42,5 +52,6 @@ fbcbf259d97d340376a176de20bdc04687356949 KVM: arm64: Remove evaluation of timer 
 be46a408f376df31762e8a9914dc6d082755e686 KVM: arm64: Correctly plumb ID_AA64PFR2_EL1 into pkvm idreg handling
 f4626281c6bb563ef5ad9d3a59a1449b45a3dc30 KVM: arm64: Don't advertises GICv3 in ID_PFR1_EL1 if AArch32 isn't supported
 b3265a1b2bd00335308f27477cecb7702f4bb615 KVM: arm64: set_id_regs: Allow GICv3 support to be set at runtime
+e54971a0468a8bc82b1976d5b010392d7cb689b9 Merge branch kvm-arm64/vgic-fixes-7.1 into kvmarm-master/next
 
---===============4231403890814411444==--
+--===============9059358463469065418==--
