@@ -1,26 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tj/wq
-Date: Wed, 01 Apr 2026 20:19:00 -0000
-Message-Id: <177507474066.302000.16997010738715359596@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux
+Date: Wed, 01 Apr 2026 20:21:50 -0000
+Message-Id: <177507491008.305629.4573968260074024013@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tj/wq
-user: tj
+repo: pub/scm/linux/kernel/git/axboe/linux
+user: axboe
 changes:
-  - ref: refs/heads/for-7.0-fixes
-    old: e398978ddf18fe5a2fc8299c77e6fe50e6c306c4
-    new: 703ccb63ae9f7444d6ff876d024e17f628103c69
+  - ref: refs/heads/for-7.1/io_uring
+    old: 6f2b3c208dbd7984c46e744ff5cee78caea20d33
+    new: c3196f84b1e4089287bfc6745496213f1e46bc00
     log: |
-         703ccb63ae9f7444d6ff876d024e17f628103c69 workqueue: Add pool_workqueue to pending_pwqs list when unplugging multiple inactive works
+         c3196f84b1e4089287bfc6745496213f1e46bc00 io_uring/rw: clean up __io_read() obsolete comment and early returns
          
   - ref: refs/heads/for-next
-    old: 9d8b224b2311b8d56e75433695e470e0dde151d7
-    new: 6d14a81ed5ae28ad77a2fe5f4657df8d03961e0e
+    old: 60936f53b396c0b6ff80f6d68b7744638fd57f5b
+    new: aac56c7b77fa473b3c892d4b41084241548e34ed
     log: |
-         703ccb63ae9f7444d6ff876d024e17f628103c69 workqueue: Add pool_workqueue to pending_pwqs list when unplugging multiple inactive works
-         6d14a81ed5ae28ad77a2fe5f4657df8d03961e0e Merge branch 'for-7.0-fixes' into for-next
+         c3196f84b1e4089287bfc6745496213f1e46bc00 io_uring/rw: clean up __io_read() obsolete comment and early returns
+         aac56c7b77fa473b3c892d4b41084241548e34ed Merge branch 'for-7.1/io_uring' into for-next
          
