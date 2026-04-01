@@ -1,44 +1,24 @@
-Content-Type: multipart/mixed; boundary="===============5027119618013052655=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pinchartl/linux
-Date: Wed, 01 Apr 2026 11:19:13 -0000
-Message-Id: <177504235359.4041344.7123191851889197034@gitolite.kernel.org>
-
---===============5027119618013052655==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/rt/linux-stable-rt
+Date: Wed, 01 Apr 2026 11:25:56 -0000
+Message-Id: <177504275665.4048405.323600259333008844@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pinchartl/linux
-user: pinchartl
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/rt/linux-stable-rt
+user: lclaudio
 changes:
-  - ref: refs/heads/drm/du/syncpol
+  - ref: refs/heads/v5.10-rt-next
+    old: acfd1d9b469bcd68f097b9181b01cb8a648e3142
+    new: a85536e4d729de63bc329ec99e13ecefa0a0d3b5
+    log: |
+         55969871939e781871ca912e3dccb39d8ca6b977 Linux 5.10.252-rt147
+         d81a3a579bc3e07bbac800fbcb73b85f8e8adca5 ipv6: fix a BUG in rt6_get_pcpu_route() under PREEMPT_RT
+         a85536e4d729de63bc329ec99e13ecefa0a0d3b5 Linux 5.10.252-rt148-rc1
+         
+  - ref: refs/tags/v5.10.252-rt148-rc1
     old: 0000000000000000000000000000000000000000
-    new: b1cd0b04c9b0a35ac89bdbf7c9a4a0e63166e60d
-
---===============5027119618013052655==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher laurent.pinchart@ideasonboard.com 1775042343 +0300
-pushee gitolite.kernel.org:pub/scm/linux/kernel/git/pinchartl/linux.git
-nonce 1775042343-2f01cfc88c0cede257c57059ba702ba94c344f1a
-
-0000000000000000000000000000000000000000 b1cd0b04c9b0a35ac89bdbf7c9a4a0e63166e60d refs/heads/drm/du/syncpol
------BEGIN PGP SIGNATURE-----
-
-iLQEABYKAFwWIQR4BAIqOLfRP0FzjDaF8ZZQYUJL4QUCacz/JxsUgAAAAAAEAA5t
-YW51MiwyLjUrMS4xMSwyLDIiHGxhdXJlbnQucGluY2hhcnRAaWRlYXNvbmJvYXJk
-LmNvbQAKCRCF8ZZQYUJL4W2MAQC8XrUb97DZklKjocolm1V1x75/g/E/f8JllxEs
-RfVDwwEA+/pwk/88oxX6NhEOrkuWD+giT4hba4IyKt7N0C8iXwY=
-=F8Ce
------END PGP SIGNATURE-----
-
---===============5027119618013052655==--
+    new: a46bfb06dcb078f3a09ce8612802ea713104768d
