@@ -1,50 +1,50 @@
-Content-Type: multipart/mixed; boundary="===============7037387805659486821=="
+Content-Type: multipart/mixed; boundary="===============1711648722930838694=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Wed, 01 Apr 2026 15:23:08 -0000
-Message-Id: <177505698854.53743.7544872917158055406@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Wed, 01 Apr 2026 15:23:11 -0000
+Message-Id: <177505699198.53889.9668014207976660955@gitolite.kernel.org>
 
---===============7037387805659486821==
+--===============1711648722930838694==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-7.0
+  - ref: refs/heads/asoc-7.0
     old: e920c36f2073d533bdf19ba6ab690432c8173b63
     new: e74c38ef6f170179c0029b5744d6a14dfd543108
     log: |
          e74c38ef6f170179c0029b5744d6a14dfd543108 ASoC: amd: ps: Fix missing leading zeros in subsystem_device SSID log
          
 
---===============7037387805659486821==
+--===============1711648722930838694==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1775056987 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1775056986-9803dc20b2346c9af955d5e25028cb9cada98737
+pusher C3F436CA30F5D8EB 1775056990 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1775056989-13c67b2f39edd750a00095ccb8dfa1e98994e0f2
 
-e920c36f2073d533bdf19ba6ab690432c8173b63 e74c38ef6f170179c0029b5744d6a14dfd543108 refs/heads/for-7.0
+e920c36f2073d533bdf19ba6ab690432c8173b63 e74c38ef6f170179c0029b5744d6a14dfd543108 refs/heads/asoc-7.0
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmnNOFsACgkQJNaLcl1U
-h9AmIQf+M4NC9SRYY39yn9fFtWhe94GL2uf22FEh9rWFSnzc1AU6tZbz/nfeLbET
-wkVEXZN12QJ7yImNSOD3El+b4/9GFjhGwHsoS5XOB2gLXXR9ZZeNuwK9J6l8yLDQ
-r/5hqu6MN5rDpPrgMz3KpxqN/FLC002CL5g3P7cR9vtR/gRZn7+nxQOkNOPXXCIy
-n4EYhRev0i5Antc7NE3qovkfqJrHaSGT6xse9EQPF7zLRU1UsAUIQbRDD8X9xZry
-PX7k181MHWAxV+3H7WLa4PMazvxu8dxbCnzxiVpNIxKnwUd99kb7SET2ybJ8rLEE
-m/OOplHVnJ4nVAwG0H2WNchvpPwq+A==
-=A/bO
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmnNOF4ACgkQJNaLcl1U
+h9BB4wf/ciRWZOagMkpl7/xY9YLi2cSX8JfrTY7l6V99n84HWyLm7MmO0KMxlOje
+ZXLp1KBCpq/UnQfz0x+eXHpmkE+DyNzmtFPBFofaPLD9H9qlbHBGXGxSNNQ5RJsm
+pSFxBZlwNi650v1RwK/IkiJjLIZ2U8inhwkW90/WBUiSAeZmfGUsELor3t3EWJNO
+x91ge3oneRUI58+kfdQ6wiQxerkFdj32FusJ6n4tbVein0E5JW4uyFP/qD57Y5lp
+Ois/Q2TJk45RzskJZy15ugqEr+nB04lIRLAjRody+WKVc9dCmXVY+SIxfSLzbNoG
+KJZYP87d8j/P9BHQDcNEHnMMK1ozwA==
+=pvZ7
 -----END PGP SIGNATURE-----
 
---===============7037387805659486821==--
+--===============1711648722930838694==--
