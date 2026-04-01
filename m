@@ -1,16 +1,57 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
-Date: Wed, 01 Apr 2026 17:06:01 -0000
-Message-Id: <177506316130.144161.5374050469330174072@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============6650495779264062703=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Wed, 01 Apr 2026 17:08:43 -0000
+Message-Id: <177506332329.145197.15356062140981274103@gitolite.kernel.org>
+
+--===============6650495779264062703==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/maz/arm-platforms
-user: maz
+repo: pub/scm/linux/kernel/git/broonie/sound
+user: broonie
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/kvm-arm64/misc-7.1
-    old: 0000000000000000000000000000000000000000
-    new: 03db5f05d4c76d76b32a9d26001e2ec6252f74f8
+  - ref: refs/heads/for-7.1
+    old: 6cbc8360f51a3df2ea16a786b262b9fe44d4c68c
+    new: aeac022e4de78b20736d55acb98180c798a6a1ae
+    log: |
+         5a77906982df26975aa26caefb81b7d6f53d9b3f ASoC: soc.h: remove snd_soc_of_parse_audio_prefix()
+         9b4f93a8b1a5d058ff42000a226fa3a237078425 ASoC: ak5558: remove unused snd_soc_component
+         c8ef13d692f19cdbbf195fb845421a5b71801704 ASoC: mxs-sgtl5000: disable MCLK on error paths of mxs_sgtl5000_probe()
+         00d6070ec02c55731c7655b3227edd8b84bbcdbc ASoC: tegra: Add error logging in tegra210_admaif driver
+         2333abb25c7e2ba823d2113b83a22be4c2ba63c1 ASoC: tegra: Use dev_err_probe() in OPE, PEQ and MBDRC drivers
+         4a8fe27e122e5a1bb1896837ed47f99abaa965a0 ASoC: tegra: Use dev_err_probe() for regmap init failures
+         b015ef4eaeff76466a359b3f53175fc11502fd8f ASoC: tegra: Use dev_err_probe() in tegra_asoc_machine probe
+         aeac022e4de78b20736d55acb98180c798a6a1ae ASoC: tegra: Add error logging for probe and callback failures
+         
+
+--===============6650495779264062703==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher C3F436CA30F5D8EB 1775063321 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
+nonce 1775063321-fe2acf5ea01792e0b8ea892fb88a46c671c61f33
+
+6cbc8360f51a3df2ea16a786b262b9fe44d4c68c aeac022e4de78b20736d55acb98180c798a6a1ae refs/heads/for-7.1
+-----BEGIN PGP SIGNATURE-----
+
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmnNURkACgkQJNaLcl1U
+h9AjuAf/T7SzW3bSHMYsAJmcED+If7BIcwZKUPX2FtzDFqhuAhYWj65Dz3ddPTxm
+Yk9qFrzTelK7H0HW2AbkzKd+/jR1rNAVS19hOhtSGq114aM8SI02qMgSVoybGFyE
+fJJ7s02tuFX2QtF8K+FEnq0bwrRy/Hwpm5x8EhygK4LopCfkshLn2DGHBETbpEM3
+qfJg/bRhAKZnJWc4FAE6DXEId05608IJCsxHPbGb2D9Jge1DYUlbGFm/NqD6y8bT
+d4ILhx9leZRQhYD6e4dOAJMvQ2UU7LIRMK8ukNvWeHs/4Ze5364vLLSVyr8idO0B
+4IBtUnOt4ulGcXVptI21l8A7i9jMTw==
+=N+wj
+-----END PGP SIGNATURE-----
+
+--===============6650495779264062703==--
