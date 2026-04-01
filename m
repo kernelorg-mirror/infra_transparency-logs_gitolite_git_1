@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5240119836603565762=="
+Content-Type: multipart/mixed; boundary="===============4766871268901977980=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkl/linux-can-next
-Date: Wed, 01 Apr 2026 07:29:24 -0000
-Message-Id: <177502856434.3848691.15354982431917737741@gitolite.kernel.org>
+Date: Wed, 01 Apr 2026 07:29:37 -0000
+Message-Id: <177502857730.3848937.5342756614021173533@gitolite.kernel.org>
 
---===============5240119836603565762==
+--===============4766871268901977980==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,50 +16,37 @@ repo: pub/scm/linux/kernel/git/mkl/linux-can-next
 user: mkl
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/main
-    old: ad3dfa80be765757f612da04318248f6d20e4f71
-    new: f1359c240191e686614847905fc861cbda480b47
-    log: revlist-ad3dfa80be76-f1359c240191.txt
-  - ref: refs/heads/master
-    old: ad3dfa80be765757f612da04318248f6d20e4f71
-    new: f1359c240191e686614847905fc861cbda480b47
-    log: revlist-ad3dfa80be76-f1359c240191.txt
+  - ref: refs/heads/testing
+    old: c12a66f1fee96a95de274c323c78ed6fa5997c21
+    new: 50b4927288144fbd2f947b0e4c0ef32949587e67
+    log: revlist-c12a66f1fee9-50b492728814.txt
 
---===============5240119836603565762==
+--===============4766871268901977980==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Marc Kleine-Budde <mkl@pengutronix.de> 1775028561 +0200
+pusher Marc Kleine-Budde <mkl@pengutronix.de> 1775028574 +0200
 pushee gitolite.kernel.org:pub/scm/linux/kernel/git/mkl/linux-can-next.git
-nonce 1775028560-6b8f35343d5e3a6eb9026ea52ae0bf594ddff866
+nonce 1775028573-8d26dcc524e983fd07aa1ffbf7452d6ef5db4b0f
 
-ad3dfa80be765757f612da04318248f6d20e4f71 f1359c240191e686614847905fc861cbda480b47 refs/heads/main
-ad3dfa80be765757f612da04318248f6d20e4f71 f1359c240191e686614847905fc861cbda480b47 refs/heads/master
+c12a66f1fee96a95de274c323c78ed6fa5997c21 50b4927288144fbd2f947b0e4c0ef32949587e67 refs/heads/testing
 -----BEGIN PGP SIGNATURE-----
 
-iIkEABYKADEWIQSl+MghEFFAdY3pYJLMOmT6rpmt0gUCaczJURMcbWtsQHBlbmd1
-dHJvbml4LmRlAAoJEMw6ZPquma3SD0YBAMMOPPP5HJT0uZt+ez6pLLOIS1i4V3Yt
-U8RVE/Wp0zUIAP94JETXWpkQ4veF4ZKt+w/UYrsgxeid+tnpqVSGs3IXCA==
-=UQf0
+iIkEABYKADEWIQSl+MghEFFAdY3pYJLMOmT6rpmt0gUCaczJXhMcbWtsQHBlbmd1
+dHJvbml4LmRlAAoJEMw6ZPquma3STlUA/3hu4LSBJNG+SGcCh3UiwIP1CqN6mGlG
+aQJaLRSVbmQHAP9TeY69+nIcJTLXYpWmxhYxKyZ5Zo9YkVXJ7lsxVCD8Aw==
+=Vh7I
 -----END PGP SIGNATURE-----
 
---===============5240119836603565762==
+--===============4766871268901977980==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ad3dfa80be76-f1359c240191.txt
+Content-Disposition: attachment; filename=revlist-c12a66f1fee9-50b492728814.txt
 
-ba58b3e70b86cd64fe8bb9c52f1111667a448908 selftests/net: packetdrill: add tcp_rcv_wnd_shrink_allowed.pkt
-3eb371eddad0a47183dd4434de9c9190d0f721c5 selftests/net: packetdrill: add tcp_rcv_neg_window.pkt
-b58e3a2d014567a9092eb026fe677ff4bed5af38 Merge branch 'tcp-rfc-7323-compliant-window-retraction-handling'
-922814879542c2e397b0e9641fd36b8202a8e555 atm: lec: fix use-after-free in sock_def_readable()
-48db892356d6cb80f6942885545de4a6dd8d2a29 NFSD: Defer sub-object cleanup in export put callbacks
-e7fcf179b82d3a3730fd8615da01b087cc654d0b NFSD: Hold net reference for the lifetime of /proc/fs/nfs/exports fd
-17ad31b3a43b72aec3a3d83605891e1397d0d065 sunrpc: fix cache_request leak in cache_release
-d15d3de94a4766fb43d7fe7a72ed0479fb268131 net: dropreason: add SKB_DROP_REASON_RECURSION_LIMIT
 045f977dd4ebdd3ad8e96cf684917adfc5805adb net: plumb drop reasons to __dev_queue_xmit()
 bfeb2c029e7b6839928f5167b5c44ba41836d402 Merge branch 'net-add-skb_drop_reason_recursion_limit'
 74c1e2737bd5f70043654162476ebd01588439dc Merge tag 'for-net-2026-03-12' of git://git.kernel.org/pub/scm/linux/kernel/git/bluetooth/bluetooth
@@ -1076,5 +1063,13 @@ e5a3f10ed7c97decd61b3274982f048b58ce69bc Merge branch 'declance-improve-dma-erro
 d7709812e13d06132ddae3d21540472ea5cb11c5 net: mana: hardening: Validate adapter_mtu from MANA_QUERY_DEV_CONFIG
 58e416e283284c15b8daf0b2b425f43242f62b0a net: vxlan: check ipv6_mod_enabled() on neigh_reduce()
 f1359c240191e686614847905fc861cbda480b47 net/iucv: Add missing kernel-doc return value descriptions
+2f41d7867800a78f339fbec3ab3a64147c33a9f1 dt-bindings: can: mcp251xfd: add microchip,xstbyen property
+1e41cbbe68e6753e786ddff528de15050bc52803 net: can: ctucanfd: remove useless copy of PCI_DEVICE_DATA macro
+495fac90b8ec3d6de11539b2b05c55ba360586ab can: kvaser_usb: leaf: refactor endpoint lookup
+ae20301b6119257f533332836c46d8e8824433dd can: mcp251xfd: add support for XSTBYEN transceiver standby control
+11d94d3516c0c549752061b6a576e6c547d61e86 can: rcar_can: Convert to FIELD_MODIFY()
+581281cb5a1b72fe31ab67e0074feabb1b5abcc7 can: ucan: refactor endpoint lookup
+572a36d279d66487bedb55fc9fb5cce29df72905 Merge patch series "can: mcp251xfd: add XSTBYEN transceiver standby control"
+50b4927288144fbd2f947b0e4c0ef32949587e67 Merge patch series "can: refactor USB endpoint lookups"
 
---===============5240119836603565762==--
+--===============4766871268901977980==--
