@@ -1,56 +1,63 @@
-Content-Type: multipart/mixed; boundary="===============7061012177133255406=="
+Content-Type: multipart/mixed; boundary="===============5823011089801588280=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Wed, 01 Apr 2026 11:42:38 -0000
-Message-Id: <177504375848.4062678.15316624325162671460@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
+Date: Wed, 01 Apr 2026 11:43:25 -0000
+Message-Id: <177504380519.4063334.16123413049353806650@gitolite.kernel.org>
 
---===============7061012177133255406==
+--===============5823011089801588280==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/soc/soc
+user: krzk
+git_push_cert_status: Y
 changes:
-  - ref: refs/heads/master
-    old: 3fd21674201a6586abb60c42ad98bf3efe233674
-    new: bfadde0a5dabc2151b3b0e22f3a50f5752693d2d
+  - ref: refs/heads/arm/fixes
+    old: 4b2b3f034a051f2f46ba468a8faae4c6a65d4029
+    new: 7962fd9375fddc920d354d9496d745bef00059f6
     log: |
-         bfadde0a5dabc2151b3b0e22f3a50f5752693d2d 6.19-stable patches
+         27459f86a43792d5c29f267a41dbd387601e772b soc: microchip: mpfs-control-scb: Fix resource leak on driver unbind
+         3bfc213d4675736567a4e263c51c25144d565949 soc: microchip: mpfs-mss-top-sysreg: Fix resource leak on driver unbind
+         c7596f9001e2b83293e3658e4e1addde69bb335d firmware: microchip: fail auto-update probe if no flash found
+         7962fd9375fddc920d354d9496d745bef00059f6 Merge tag 'riscv-soc-fixes-for-v7.0-rc6' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/conor/linux into arm/fixes
          
+  - ref: refs/heads/riscv/soc-fixes-2
+    old: 0000000000000000000000000000000000000000
+    new: c7596f9001e2b83293e3658e4e1addde69bb335d
 
---===============7061012177133255406==
+--===============5823011089801588280==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1775043756 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1775043755-7776cd22ef160c996d226829b8092c15404ba34e
+pusher krzk@kernel.org 1775043803 +0200
+pushee kernel.org:/pub/scm/linux/kernel/git/soc/soc.git
+nonce 1775043803-0ee532f924937e5d8dafee6063fbb3918bd069d0
 
-3fd21674201a6586abb60c42ad98bf3efe233674 bfadde0a5dabc2151b3b0e22f3a50f5752693d2d refs/heads/master
+4b2b3f034a051f2f46ba468a8faae4c6a65d4029 7962fd9375fddc920d354d9496d745bef00059f6 refs/heads/arm/fixes
+0000000000000000000000000000000000000000 c7596f9001e2b83293e3658e4e1addde69bb335d refs/heads/riscv/soc-fixes-2
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmnNBKwbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+wXAP/jUzL49XJwbo3b0Xkn8I
-vxcPFHuGWZ2/uHyI1BOq4yZx7xLmib5A9sIcRWPnkw2WizVxss5gfP9YYqHwxq8Z
-sYaCNj7Z2HkIzoqf6BY79T4jrd8UkxZOXP3Q1tQDrrzdfLNvYgMvCzWDtuP6AwM6
-/Guuk59DUdyTkLxncrFRk0g2yay9/rwBGX46JIPj2np6gj+ScFd871d3STzDp6XC
-NHJ1l/pv1jv2VzTRWJ/1t3rxT9pNUmJpJUIISC1v4iFutQ2nC4aEIye6b4m+3ADh
-kRToaZhNIJJ5TzeOP4do1Od1WVQx3R+hzF1LRCQCEjjdN/wZbf7oWMUdmhgm8p5w
-dzNcG8HngCkVRrn3nGDWZuc5IRQqJcx32Ha+DBP/XzFPaPfx5GaTctCynLnHqpOn
-MFM8BGOAlTRqm4C92wzHC6fIzv1E0j34JdSMrQ4bG1s9iqNqqQNCszXJoXVamhN4
-gUgkerM367KzilCKAMCaic6R5HhNMj0s4gneLoHifUErkllSuYPfwGJ7WcQvOnos
-rFGXI0g9LC74n3lTwh6FRzJzMI4Cz6azL08vXlki3omD6hWOfUNZ54pNc6OikPv+
-J0tOHhN+bihE40QRRhfYEiIGXBCzs4lvy6o1NDwpu/zrBF4ZjlcUxcwXXOtUOh4h
-RPSqWh0Q056KJpWwUQSoU6qw
-=Tvui
+iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmnNBNsQHGtyemtAa2Vy
+bmVsLm9yZwAKCRDBN2bmhouD12cWD/9Mdq14EehL7rXXO/arEP29YkNJ/v/5r4yA
+hd9kr+ViZZOewbgjLJ4Kz6wav7Bbd0IHQfNPuPbtrJKKkbAFsvkCd0dloGow5KoC
+KQJo34ZNUw3/dgR7yWjqabnDizdi7e+wMCuTgUrOJL5UdEEHRhR0me8hVIGMvw+j
+56pWXjH0hgHrAiHSmES17d+0iSUM5p/wlmbPE9N/L+l5x5jfsMtPXpQB2kZoK6lV
+xhgompMhfgYWJpczMS7eAaqcDPOWqLCms9NqSRdx5XCN7gqdZLOaZYJxuUN96W8A
+IN902Hnnz7LrQJMlC/7JEuMbOoWZ6U4byGjk0jLB/tuQwGVVFmC+ylymPOzyhr8K
+r+HZw2VM5NPrYfMt/aqIFEf/rK3T8mCeA8+XI5eUJNmhbMkw5Z9GdkNE1YclGqX9
+livULj0F37hVd2kheYpPm8pLKnd3Txpz5dEi/gdfd83WJ7hrDdllsAkYQURGsDOS
+hcUAuTbX8usECYI3noxgkjcNAwtEZ44V6JNVENBmAHPoAT+/l1hDp0uEjYFMVUCF
+f0vOHGS3OeX9TmBLbpLkh3WdA8hnKmDNy7D0gfnTvOqPMLlElu+bKADelF7aabOG
+NiAy9eRGxyLgm4cNH4aIOTu1Pj+M2vUx4iDYwb+9lc1W7y+Gbzwu+Pq/luPrwxno
+3ohUxXw8QA==
+=FglZ
 -----END PGP SIGNATURE-----
 
---===============7061012177133255406==--
+--===============5823011089801588280==--
