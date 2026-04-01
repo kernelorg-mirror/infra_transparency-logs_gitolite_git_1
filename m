@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/infra/cgit
-Date: Wed, 01 Apr 2026 04:23:30 -0000
-Message-Id: <177501741071.3684062.14245549486109077102@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
+Date: Wed, 01 Apr 2026 04:36:13 -0000
+Message-Id: <177501817319.3694831.11485001881175555035@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/infra/cgit
-user: mricon
+repo: pub/scm/linux/kernel/git/groeck/linux-staging
+user: groeck
 changes:
-  - ref: refs/heads/feature/git-bug
-    old: 3fd67ca81a7ee00f25a81eaeb2921f28106bbeb1
-    new: 9f8e2d47a7fded1d38bfd76b5710259aad5f5f16
+  - ref: refs/heads/hwmon
+    old: 09773978879ecf71a7990fe9a28ce4eb92bce645
+    new: 8af6ce4881d8d93e0eda77f9fa6254c9e24cf424
     log: |
-         ac9640d3578fe5ee536488334d0ad25d8de30aa2 Add git-bug browsing support via Lua filter
-         b6b22dbb486af6cd69b68af8f14367393615fbc3 Add example bugs-git-bug.lua filter for git-bug browsing
-         9f8e2d47a7fded1d38bfd76b5710259aad5f5f16 Add tests for bugs page access control and configuration
+         8af6ce4881d8d93e0eda77f9fa6254c9e24cf424 hwmon: (asus-ec-sensors) fix T_Sensor for PRIME X670E-PRO WIFI
          
