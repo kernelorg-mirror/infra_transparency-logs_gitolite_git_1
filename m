@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
-Date: Wed, 01 Apr 2026 16:27:24 -0000
-Message-Id: <177506084425.109352.15713268212912703373@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Wed, 01 Apr 2026 16:42:13 -0000
+Message-Id: <177506173329.120987.9007457621131863073@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/soc/soc
-user: arnd
+repo: pub/scm/linux/kernel/git/tip/tip
+user: tglx
 changes:
-  - ref: refs/heads/broadcom/dts64
-    old: 0000000000000000000000000000000000000000
-    new: 0acb1de2b4df426a62dba33bcd80f3939636f97b
+  - ref: refs/heads/irq/drivers
+    old: d3689cd02c5de52ff5f3044169c482aee0dd5a78
+    new: 0e5988549dc73d985cc12c4cb438771ced74f522
+    log: |
+         0e5988549dc73d985cc12c4cb438771ced74f522 irqchip/renesas-rzg2l: Add NMI support
+         
