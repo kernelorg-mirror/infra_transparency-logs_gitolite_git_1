@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5823011089801588280=="
+Content-Type: multipart/mixed; boundary="===============3377972281512086997=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
-Date: Wed, 01 Apr 2026 11:43:25 -0000
-Message-Id: <177504380519.4063334.16123413049353806650@gitolite.kernel.org>
+Date: Wed, 01 Apr 2026 11:47:52 -0000
+Message-Id: <177504407227.4067455.10527183512980125299@gitolite.kernel.org>
 
---===============5823011089801588280==
+--===============3377972281512086997==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,47 +17,47 @@ user: krzk
 git_push_cert_status: Y
 changes:
   - ref: refs/heads/arm/fixes
-    old: 4b2b3f034a051f2f46ba468a8faae4c6a65d4029
-    new: 7962fd9375fddc920d354d9496d745bef00059f6
+    old: 7962fd9375fddc920d354d9496d745bef00059f6
+    new: 36b35ad87976e8420e7b503020e40f669a8cd884
     log: |
-         27459f86a43792d5c29f267a41dbd387601e772b soc: microchip: mpfs-control-scb: Fix resource leak on driver unbind
-         3bfc213d4675736567a4e263c51c25144d565949 soc: microchip: mpfs-mss-top-sysreg: Fix resource leak on driver unbind
-         c7596f9001e2b83293e3658e4e1addde69bb335d firmware: microchip: fail auto-update probe if no flash found
-         7962fd9375fddc920d354d9496d745bef00059f6 Merge tag 'riscv-soc-fixes-for-v7.0-rc6' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/conor/linux into arm/fixes
+         641f6fda143b879da1515f821ee475073678cf2a soc: qcom: pd-mapper: Fix element length in servreg_loc_pfr_req_ei
+         d487085006109e5981e059476818243759d2e925 soc: qcom: pmic_glink_altmode: Fix SVID=DP && unconnected edge case
+         a343fb1e03cfc9f6dc83a5efb2a8d33e9cdaf6b9 soc: qcom: pmic_glink_altmode: Fix TBT->SAFE->!TBT transition
+         36b35ad87976e8420e7b503020e40f669a8cd884 Merge tag 'qcom-drivers-fixes-for-7.0' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/qcom/linux into arm/fixes
          
-  - ref: refs/heads/riscv/soc-fixes-2
+  - ref: refs/heads/qcom/fixes
     old: 0000000000000000000000000000000000000000
-    new: c7596f9001e2b83293e3658e4e1addde69bb335d
+    new: a343fb1e03cfc9f6dc83a5efb2a8d33e9cdaf6b9
 
---===============5823011089801588280==
+--===============3377972281512086997==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher krzk@kernel.org 1775043803 +0200
+pusher krzk@kernel.org 1775044070 +0200
 pushee kernel.org:/pub/scm/linux/kernel/git/soc/soc.git
-nonce 1775043803-0ee532f924937e5d8dafee6063fbb3918bd069d0
+nonce 1775044070-72c897a33f337b03f02a69c1839a8613eaf1b72b
 
-4b2b3f034a051f2f46ba468a8faae4c6a65d4029 7962fd9375fddc920d354d9496d745bef00059f6 refs/heads/arm/fixes
-0000000000000000000000000000000000000000 c7596f9001e2b83293e3658e4e1addde69bb335d refs/heads/riscv/soc-fixes-2
+7962fd9375fddc920d354d9496d745bef00059f6 36b35ad87976e8420e7b503020e40f669a8cd884 refs/heads/arm/fixes
+0000000000000000000000000000000000000000 a343fb1e03cfc9f6dc83a5efb2a8d33e9cdaf6b9 refs/heads/qcom/fixes
 -----BEGIN PGP SIGNATURE-----
 
-iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmnNBNsQHGtyemtAa2Vy
-bmVsLm9yZwAKCRDBN2bmhouD12cWD/9Mdq14EehL7rXXO/arEP29YkNJ/v/5r4yA
-hd9kr+ViZZOewbgjLJ4Kz6wav7Bbd0IHQfNPuPbtrJKKkbAFsvkCd0dloGow5KoC
-KQJo34ZNUw3/dgR7yWjqabnDizdi7e+wMCuTgUrOJL5UdEEHRhR0me8hVIGMvw+j
-56pWXjH0hgHrAiHSmES17d+0iSUM5p/wlmbPE9N/L+l5x5jfsMtPXpQB2kZoK6lV
-xhgompMhfgYWJpczMS7eAaqcDPOWqLCms9NqSRdx5XCN7gqdZLOaZYJxuUN96W8A
-IN902Hnnz7LrQJMlC/7JEuMbOoWZ6U4byGjk0jLB/tuQwGVVFmC+ylymPOzyhr8K
-r+HZw2VM5NPrYfMt/aqIFEf/rK3T8mCeA8+XI5eUJNmhbMkw5Z9GdkNE1YclGqX9
-livULj0F37hVd2kheYpPm8pLKnd3Txpz5dEi/gdfd83WJ7hrDdllsAkYQURGsDOS
-hcUAuTbX8usECYI3noxgkjcNAwtEZ44V6JNVENBmAHPoAT+/l1hDp0uEjYFMVUCF
-f0vOHGS3OeX9TmBLbpLkh3WdA8hnKmDNy7D0gfnTvOqPMLlElu+bKADelF7aabOG
-NiAy9eRGxyLgm4cNH4aIOTu1Pj+M2vUx4iDYwb+9lc1W7y+Gbzwu+Pq/luPrwxno
-3ohUxXw8QA==
-=FglZ
+iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmnNBeYQHGtyemtAa2Vy
+bmVsLm9yZwAKCRDBN2bmhouD105bD/4o4sJAUH76IfWaSnniuWQW0ZB7n1ysGVb5
+0V499CzuI21VwNbrG8PtZO0xcOVWVnJhLWYGBsD8GZEJnhELvcZ3eHFIP+Kjcbtu
+fPbv5qwAPDR/izRwMOngxO0RvLc57DmjSUBaUt5n7YUv3Nmy/2zfIqGYfe5SizlD
+rx/esodaIWq5vu8nK4smX41HeoxvnNnIRZDEBVuEpj7i4P35f/OCUzcOEDoqzJat
+yNL9gi4vQTHCY/pLnXUwl0C8vesuILi9IBHJ+xvPx7DKDNrFT7XdNVwi0nxBNRMW
+NFCAg2O1nASttKPbhSN9p4DjwFmLey9YcXaHlSwI4MRlKQYI9NUmH/Vos7RhFW70
+5SngkhCt86dZHh3MfzxdG3Zh/po/EAo6pDS4AlEaIzT1tgrIBWwzEFlFe1W6lr1W
+uav3/El+LUgTcQ4RZ/xBQk1ANLk2auWlrYchEDRwmH1yho9lN5N4nyOvbJPGTTna
++uSBdQjLKBD9rEFEY8hUt2HB4Kdxp4x5D0+yt+4QhBjX3Qz+ubZT79HmJWXBf4eM
+R7CaoucjGWP+vnlqgxBFytKO/OqWUmerqiaqgTBgtfkkB2x967nODiZnp//ur/G8
+taK6y1NmoqBun2OlPz1TOm1UaeBUXX0FiyTbwp/Vo+ltC2NTRdx81LvZSCnGV4kY
+KGo0NC2tbA==
+=VXQu
 -----END PGP SIGNATURE-----
 
---===============5823011089801588280==--
+--===============3377972281512086997==--
