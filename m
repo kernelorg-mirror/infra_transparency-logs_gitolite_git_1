@@ -1,21 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Wed, 01 Apr 2026 23:39:05 -0000
-Message-Id: <177508674508.473744.7058114324536293293@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/andi.shyti/linux
+Date: Wed, 01 Apr 2026 23:41:30 -0000
+Message-Id: <177508689099.477321.7134593433292746301@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/net-queue
-user: tnguy
+repo: pub/scm/linux/kernel/git/andi.shyti/linux
+user: andi.shyti
 changes:
-  - ref: refs/heads/dev-queue
-    old: 7c27ca383eb5a7319a52e17c4d2866d439bc7b57
-    new: 1c25a2b1fa86e6619f13b448b38a6b1145e02c62
+  - ref: refs/heads/i2c/i2c-host
+    old: 40890b5fe72b1a0d4913883844854f6641a2f4b3
+    new: dd0422eb1566a823587ede7780aef9c9c7a45b04
     log: |
-         7fe16e48a7de3004727a543595507a30dc815026 ice: fix FDIR CTRL VSI resource leak in ice_reset_all_vfs()
-         faa0ac4c0042cf69e78bcd87990828761ae32e59 ice: fix AQ error code comparison in ice_set_pauseparam()
-         1c25a2b1fa86e6619f13b448b38a6b1145e02c62 ice: call netif_keep_dst() once when entering switchdev mode
+         50c63491ff267f2860a6d8cb70c9a30ab701b9d3 i2c: xiic: switch to devres managed APIs
+         e1d98e42b4b701b193f7c2142901f553734acc6a i2c: xiic: remove duplicate error message
+         b621a966fbe6b937792a5ec43dc2c5dd68898c60 i2c: xiic: switch to generic device property accessors
+         b698377976bc4de60360bbde104e50c503c3a330 i2c: xiic: cosmetic cleanup
+         f715b059d442d524d45f8ec91ebe63c4c0d0ad00 i2c: xiic: cosmetic: use resource format specifier in debug log
+         91430a8ea9cebbe47c1723871492d5c135faf999 i2c: xiic: use numbered adapter registration
+         dd0422eb1566a823587ede7780aef9c9c7a45b04 i2c: xiic: skip input clock setup on non-OF systems
          
