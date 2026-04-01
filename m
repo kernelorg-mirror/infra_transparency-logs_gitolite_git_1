@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2499209322281157339=="
+Content-Type: multipart/mixed; boundary="===============8772327541231001814=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
-Date: Wed, 01 Apr 2026 11:33:10 -0000
-Message-Id: <177504319093.4053364.1434681204889028355@gitolite.kernel.org>
+Date: Wed, 01 Apr 2026 11:35:41 -0000
+Message-Id: <177504334186.4056839.8880998482979479280@gitolite.kernel.org>
 
---===============2499209322281157339==
+--===============8772327541231001814==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,38 @@ repo: pub/scm/linux/kernel/git/soc/soc
 user: krzk
 git_push_cert_status: Y
 changes:
-  - ref: refs/heads/arm/fixes
-    old: 14a891256d62d9924bd26b28fea9c70584256120
-    new: 4b2b3f034a051f2f46ba468a8faae4c6a65d4029
-    log: |
-         7ec1bd3d9be671d04325b9e06149b8813f6a4836 soc: aspeed: socinfo: Mask table entries for accurate SoC ID matching
-         4b2b3f034a051f2f46ba468a8faae4c6a65d4029 Merge tag 'aspeed-7.0-fixes-0' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/bmc/linux into arm/fixes
-         
-  - ref: refs/heads/aspeed/fixes
+  - ref: refs/heads/aspeed/dt32
     old: 0000000000000000000000000000000000000000
-    new: 7ec1bd3d9be671d04325b9e06149b8813f6a4836
+    new: 76b4ec8efdc3887cdbf730da2e55881fc1a18770
 
---===============2499209322281157339==
+--===============8772327541231001814==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher krzk@kernel.org 1775043189 +0200
+pusher krzk@kernel.org 1775043340 +0200
 pushee kernel.org:/pub/scm/linux/kernel/git/soc/soc.git
-nonce 1775043188-a6de22df190e507edc4379ce0a5824ae1c02a436
+nonce 1775043340-9769067c3013caa26dd8bdb99392d259ae3d266a
 
-14a891256d62d9924bd26b28fea9c70584256120 4b2b3f034a051f2f46ba468a8faae4c6a65d4029 refs/heads/arm/fixes
-0000000000000000000000000000000000000000 7ec1bd3d9be671d04325b9e06149b8813f6a4836 refs/heads/aspeed/fixes
+0000000000000000000000000000000000000000 76b4ec8efdc3887cdbf730da2e55881fc1a18770 refs/heads/aspeed/dt32
 -----BEGIN PGP SIGNATURE-----
 
-iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmnNAnUQHGtyemtAa2Vy
-bmVsLm9yZwAKCRDBN2bmhouD10s6EACXfB8/dSCSllqO5IGSSrfr5wBWJ+BEiNSF
-BRpbB3DZ7+VdRiZLtif5o8xttvYpM9SGVQJn4gfj92ymuUAfN5VhKbkefGd1Yuut
-H1d+pFWEAc3IsftWYTVuU/VRFZdPq9h+1xi1bo1swliQbUXhpnBGbdiu9LY4etgl
-bkF4ryGgl/xEoIYepTocVSvTuUhy7WIPCPx1HkXY9o5fBa/uqOByc4WXWpj4D6r3
-dWqqfl2VdEmPkPEpPv3rHcctP2BmyVf/ZpzRguhRsP3j1Ar5XSITD+uAOKTevUbB
-ug1gDQyzpPvNSLlSp1sSIot1ROGEHS7tdQkqwoLxIPhPNddvQaHk9+qrLvSSCx4Z
-YaTc2fjwEaIlnYvwtI+QJlqmpTaWCHk+TCYxZR+W9fsFlc/3v5o55ok9lrBYvbfj
-iUkQ3A+BvpsqSAqSSR5wTKv9ueElZdRGdfXmUHiL3dkp0qx+DYpigojIzk6xxk26
-8N81Y8ZM7ieLQ/cibxG4IgZzaemAl44nMTbmBzPWU2qnAneYwIgtLfPlVmZH8mZ8
-SopKy+QVVOuB2ZBkvXSwdZUQY5J5kz0jFzRW8Wr+ZnKrnl6bLLCyIgNbD3v2lQeY
-11gGz5VhPjSXxiFGPo6xD7dGU2toiNc8/cVHXHC0viTnwCFDUq7aWb5jzYG5HH86
-ULFvxvfI/g==
-=6xnt
+iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmnNAwwQHGtyemtAa2Vy
+bmVsLm9yZwAKCRDBN2bmhouD1wFwD/9wsT2EznlzBQfOYGokPEzQCiM+GwwgesSO
+QYGiPQy0agEfHeukJOUZ4fHgruAo2k+CEWX++pbSzmyBuXEfkgkbcTxvR5G3keAd
+Ejemy/SeJFmFwbueCrVzIYMvo6A7bxmwbIjd4ckobWf9gCv56wQTl6GhdoCnHtY2
+Y5bpMroL0viqwptN5obKgUZosEK0USsUkzvsVmhDpMrvhUBrtCuUWext0d3knMZQ
+jJCB2NLLgknTvnn798LxThdDc9R4j+1wbqMGiWsTCHbOYW8go1YR5swVvabAkx6x
+E9+W+gCzNMCRKb8ECfZ/IBl5MxdaN3SYG4PTuXrNWdCVpiwQNfva8SEXqBfCZXyj
+36LE5hji9qN9zMGkbT249uRHosmPMqqfWcFUxaAIeJXwVkfpTUz0Z2M36cB3TfBi
+rSE8q98p8IiYePPfqbzcPAo9IKcJ9pKIfasCOjTHpPTfevwSYaczU62q0k9c6cLN
++mYxMvnxpWX5CY9RvafcblJvuF9ma7k5RLlzHudJYst6B6Ur8JUN5vyjoUdzy+ew
+eHshLrWBQMSEjllUTFtb47MSFBOVdYhcqJUIpxYhuBCYVsAtIZITq0wrdWR5xYeg
+neBNlZqPr8qAu+9N9mr63VRvfMVIs6H4ZvqnhpR+edDVhlQOf+yERHzdpQLI9Y9o
+JvznWH02fA==
+=s20k
 -----END PGP SIGNATURE-----
 
---===============2499209322281157339==--
+--===============8772327541231001814==--
