@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7341984582938821031=="
+Content-Type: multipart/mixed; boundary="===============3686541995567851154=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
-Date: Wed, 01 Apr 2026 21:39:45 -0000
-Message-Id: <177507958552.372130.6255486213680233207@gitolite.kernel.org>
+Date: Wed, 01 Apr 2026 21:42:59 -0000
+Message-Id: <177507977951.375681.2318626393003643967@gitolite.kernel.org>
 
---===============7341984582938821031==
+--===============3686541995567851154==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,51 +15,19 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/soc/soc
 user: arnd
 changes:
-  - ref: refs/heads/arm/fixes
-    old: abc52cf58e5098c8159dad8b249188bcd270dd7d
-    new: b986e98ccd0d09538a841b832faef44c49f4d655
-    log: revlist-abc52cf58e50-b986e98ccd0d.txt
-  - ref: refs/heads/soc/dt
-    old: 5ac16e6593f46c1fa50183bd498228ef38a163be
-    new: 0a1f536c9ffdad35dc19f21b7d4772f858b15b68
-    log: revlist-5ac16e6593f4-0a1f536c9ffd.txt
-  - ref: refs/heads/renesas/fixes-2
-    old: 0000000000000000000000000000000000000000
-    new: ed8444006df9863ffa682e315352c44a49d9f4cb
-  - ref: refs/heads/sunxi/fixes
-    old: 0000000000000000000000000000000000000000
-    new: 6896ca5a9d05275fbeb38640c9bbdb95698de188
-  - ref: refs/heads/qcom/fixes-2
-    old: 0000000000000000000000000000000000000000
-    new: 11b72b1ca9891c77bc876ef9fc39d6825847ffee
+  - ref: refs/heads/for-next
+    old: 7e9127ae6786b41eeadc4f17e1ff5855b088b6d0
+    new: d04aac440aac1404be5fd4e4cf9f11c63dbd7c51
+    log: revlist-7e9127ae6786-d04aac440aac.txt
 
---===============7341984582938821031==
+--===============3686541995567851154==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-abc52cf58e50-b986e98ccd0d.txt
+Content-Disposition: attachment; filename=revlist-7e9127ae6786-d04aac440aac.txt
 
 3ecea84d2b90bbf934d5ca75514fa902fd71e03f arm64: dts: qcom: hamoa/x1: fix idle exit latency
 b7df21c59739cceb7b866c6c5e8a6ba03875ab71 arm64: dts: qcom: qcm6490-idp: Fix WCD9370 reset GPIO polarity
-5b2a16ab0dbd090dc545c05ee79a077cc7a9c1e0 arm64: dts: qcom: monaco: Fix UART10 pinconf
-85d98669fa7f1d3041d962515e45ee6e392db6f8 arm64: dts: qcom: monaco: Reserve full Gunyah metadata region
-6896ca5a9d05275fbeb38640c9bbdb95698de188 arm64: dts: allwinner: sun55i: Fix r-spi DMA
-966a08c293cb9290d3fe932961404e87b3f81327 dt-bindings: display: msm: qcm2290-mdss: Fix iommus property
-7e59cd4ad586afd87f67491cf91fa1141292cf57 dt-bindings: media: venus: Fix iommus property
-2c409e03fc04b5cded81b7add9ce509706c922e3 arm64: dts: qcom: agatti: Fix IOMMU DT properties
-ed8444006df9863ffa682e315352c44a49d9f4cb arm64: dts: renesas: sparrow-hawk: Reserve first 128 MiB of DRAM
-88bdac5443e5269bb39c4968d5ee0becbffe3f82 dt-bindings: display/msm: qcm2290-mdss: Fix missing ranges in example
-11b72b1ca9891c77bc876ef9fc39d6825847ffee arm64: dts: qcom: hamoa: Fix incomplete Root Port property migration
-b09719b9b06757f768768495436786aeb4b9e526 Merge tag 'renesas-fixes-for-v7.0-tag2' of git://git.kernel.org/pub/scm/linux/kernel/git/geert/renesas-devel into arm/fixes
-14edf33d1b21ccba526deab72c32a4ab448d6a62 Merge tag 'sunxi-fixes-for-7.0' of https://git.kernel.org/pub/scm/linux/kernel/git/sunxi/linux into arm/fixes
-b986e98ccd0d09538a841b832faef44c49f4d655 Merge tag 'qcom-arm64-fixes-for-7.0-2' of https://git.kernel.org/pub/scm/linux/kernel/git/qcom/linux into arm/fixes
-
---===============7341984582938821031==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5ac16e6593f4-0a1f536c9ffd.txt
-
 6974ae5aa23b7f37182da6b66d7f58313a55a88e dt-bindings: clock: Add ARTPEC-9 clock controller
 7b43a16c48fe761480ddb0312e6727d0f5fb0b4a dt-bindings: arm: axis: Add ARTPEC-9 alfred board
 3ae2b7442cb878c8b38fc39855f89e47ba43c405 arm64: dts: exynos: axis: Add initial ARTPEC-9 SoC support
@@ -72,6 +40,7 @@ be961cdb8ed3befa81dce118a6a41f0138732d10 dt-bindings: arm: samsung: add compatib
 862529843fb0de9b007a9423996d4cfe19cea883 arm64: dts: exynos: gs101-pixel: add all S2MPG1x regulators
 a94b4c84ae9294e4f2e398c61d94bedd56162785 arm64: dts: exynosautov920: add CMU_G3D clock DT nodes
 1701d886a193e2ce856e9c26ffe8db548aaa7694 ARM: dts: qcom: Drop unused .dtsi
+5b2a16ab0dbd090dc545c05ee79a077cc7a9c1e0 arm64: dts: qcom: monaco: Fix UART10 pinconf
 135b55014109de2e6c8b9c5d52e5cfd7b765315e dt-bindings: arm: samsung: add compatible for samsung-j5y17lte
 a3a20c5f4e10f43e137ee32842639637c853c3a6 arm64: dts: exynos: add initial support for Samsung Galaxy J5
 0c212fb9f58f36c0a7a080fa8d86fecd0016f50e ARM: dts: stm32: phycore-stm32mp15: Rename device tree files
@@ -111,6 +80,7 @@ f9b7d552273fd32ec5fd307f48ce40ae6d7ea0c7 arm64: dts: broadcom: bcm2712: add came
 783922597a48e1bb8dfea5e196eb080d88e5967a arm64: dts: broadcom: bcm2712-rpi-5-b: add pinctrl properties for csi i2cs
 aeb078cebc40d421f61a8f07b0e7919aeb44d751 arm64: dts: broadcom: bcm2712-d-rpi-5-b: add fixes for pinctrl/pinctrl_aon
 18d4a06e10051681de074a9250e54afc1f3ee312 arm64: dts: broadcom: bcm2712-d-rpi-5-b: update uart10 interrupt
+85d98669fa7f1d3041d962515e45ee6e392db6f8 arm64: dts: qcom: monaco: Reserve full Gunyah metadata region
 a7b37f329e5fbeb0f40ef892fc33d1eebfadd7b8 arm64: dts: renesas: r9a09g077m44-rzt2h-evk: Clarify SD0 power jumpers
 f01be0fa24b139a6f6676244a2f721244d7efc44 arm64: dts: renesas: r9a09g087m44-rzn2h-evk: Clarify SD0 power jumper setup
 c57fdc0aa24b30302766a9ac68337bd698d9881f arm64: dts: renesas: r9a09g057h48-kakip: Add pixpaper display overlay
@@ -137,6 +107,10 @@ a4311aede88e8f1a5d606ce239aea9314813786f ARM: dts: BCM5301X: EA9200: add USB GPI
 220bdfcb4b4788f57faa2c28454d8b2dd3bcab6c ARM: dts: BCM5301X: EA9200: specify partitions
 d2c3353ddbebd07b27ded9813a665557cc0f96d7 arm64: dts: renesas: r9a09g047: Add RSPI nodes
 19ca423f61b66ee3328b6a2f35fbb3ff2c8566f5 arm64: dts: renesas: r9a09g047e57-smarc: Enable RSPI0
+6896ca5a9d05275fbeb38640c9bbdb95698de188 arm64: dts: allwinner: sun55i: Fix r-spi DMA
+966a08c293cb9290d3fe932961404e87b3f81327 dt-bindings: display: msm: qcm2290-mdss: Fix iommus property
+7e59cd4ad586afd87f67491cf91fa1141292cf57 dt-bindings: media: venus: Fix iommus property
+2c409e03fc04b5cded81b7add9ce509706c922e3 arm64: dts: qcom: agatti: Fix IOMMU DT properties
 44c00b0c1f89032e2c3027b5d7cd9dde402a1bec arm64: dts: cix: add support for cix sky1 resets
 3403d7cfb3d3c09c79f83ff9e6e67159681bdac4 arm64: dts: cix: Add scmi powerdomain nodes for sky1
 64b00da69ef6e2cb113868c3ecdccd9bbc1fc91d arm64: dts: cix: add FCH(S0)/S5 GPIO controllers for sky1
@@ -170,6 +144,7 @@ eb0528245f948ae71e5c226e2a1d56f312091a96 arm64: dts: st: add clock-cells to sysc
 c5dad91c21995f0f677dae9dada7373f7a0c7789 arm64: dts: st: describe power supplies for stm32mp257f-dk board
 897b9a36c22c4408240c398e395c4d97e2f1a2d7 arm64: dts: st: enable display support on stm32mp257f-dk board
 407b861f4d0cd3ac2ce1b98e6e09fbc7aff29b09 arm64: defconfig: Enable STMicroelectronics STM32 display support
+ed8444006df9863ffa682e315352c44a49d9f4cb arm64: dts: renesas: sparrow-hawk: Reserve first 128 MiB of DRAM
 2425780b0ac4fceddf028d8d4fec7d565fdaf78f arm64: dts: renesas: sparrow-hawk: Add overlay for WaveShare Display 13.3"
 070bcb055540e20c6763eead7b51f049866928f4 arm64: dts: renesas: Drop RTL8211E PHY C22 compatible strings
 5849a2dc847afcd51def5acd0f47db2ed3e87686 arm64: dts: renesas: Drop RTL8211F PHY C22 compatible strings
@@ -193,7 +168,9 @@ abe27c6b2e9adff7ada54ce434207c87abe40f5d arm64: dts: renesas: Add initial device
 9d3e7e58b8b5d345e88cc849298b0204ad115021 ARM: dts: renesas: r8a7742-iwg21d-q7-dbcm-ca: Drop KSZ8081 PHY C22 compatible string
 5729a1acad0a701e930f65f721ddf6c2821331fc ARM: dts: renesas: rza2mevb: Drop RTL8201F PHY C22 compatible string
 be3810a2ebc0c81303a15392097bac9ee0cd6297 ARM: dts: renesas: Drop KSZ8041 PHY C22 compatible strings
+88bdac5443e5269bb39c4968d5ee0becbffe3f82 dt-bindings: display/msm: qcm2290-mdss: Fix missing ranges in example
 f17d7a0f8ff6f9864d8f82e99c46cee1088e945b arm64: dts: hisilicon: Rename dwmmc nodes to mmc
+11b72b1ca9891c77bc876ef9fc39d6825847ffee arm64: dts: qcom: hamoa: Fix incomplete Root Port property migration
 ee0a4604858261114f05c40b081c8236f45478ef dt-bindings: altera: Add fallback compatible for Stratix 10 SoCDK eMMC variant
 4bc04eb90b7c76216bdbe00f48e36967abb8c7af arm64: dts: socfpga: stratix10: Add emmc support
 bb5f66f36bebb3404307a737973a573c0c05f98a dt-bindings: intel: Add Agilex5 SoCFPGA modular board
@@ -211,5 +188,11 @@ d2be897ff93117cc71adec3deeab73961db049ad Merge tag 'cix-dt-v7.1-rc1' of git://gi
 e0c2f14a36800288ef12da14825d3354ad8ee931 Merge tag 'hisi-arm64-dt-for-7.1' of https://github.com/hisilicon/linux-hisi into soc/dt
 710c166c0fc377433906f1f2979eca657e9a50c3 Merge tag 'qcom-arm32-for-7.1' of https://git.kernel.org/pub/scm/linux/kernel/git/qcom/linux into soc/dt
 0a1f536c9ffdad35dc19f21b7d4772f858b15b68 Merge tag 'sunxi-dt-for-7.1' of https://git.kernel.org/pub/scm/linux/kernel/git/sunxi/linux into soc/dt
+b09719b9b06757f768768495436786aeb4b9e526 Merge tag 'renesas-fixes-for-v7.0-tag2' of git://git.kernel.org/pub/scm/linux/kernel/git/geert/renesas-devel into arm/fixes
+14edf33d1b21ccba526deab72c32a4ab448d6a62 Merge tag 'sunxi-fixes-for-7.0' of https://git.kernel.org/pub/scm/linux/kernel/git/sunxi/linux into arm/fixes
+b986e98ccd0d09538a841b832faef44c49f4d655 Merge tag 'qcom-arm64-fixes-for-7.0-2' of https://git.kernel.org/pub/scm/linux/kernel/git/qcom/linux into arm/fixes
+d65a99dac868d576389310b2412b17882a8f6aa8 Merge branch 'arm/fixes' into for-next
+c89aa7fc8943e6d9a186505ff3d6265d1cb93811 Merge branch 'soc/dt' into for-next
+d04aac440aac1404be5fd4e4cf9f11c63dbd7c51 soc: document merges
 
---===============7341984582938821031==--
+--===============3686541995567851154==--
