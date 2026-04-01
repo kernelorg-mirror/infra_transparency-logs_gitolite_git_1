@@ -1,19 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/nolibc/linux-nolibc
-Date: Wed, 01 Apr 2026 16:03:16 -0000
-Message-Id: <177505939602.87867.15365419290398186388@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/paulmck/perfbook
+Date: Wed, 01 Apr 2026 16:05:47 -0000
+Message-Id: <177505954753.91275.1206010330255646919@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/nolibc/linux-nolibc
-user: thomas.weissschuh
+repo: pub/scm/linux/kernel/git/paulmck/perfbook
+user: paulmck
 changes:
-  - ref: refs/heads/for-next
-    old: 6285f0881ec68034399d13552f7243e69e6e37bf
-    new: 1dff9ac2c85860af67a74777fa6d31c2ad07a15a
+  - ref: refs/heads/master
+    old: 981b1dd85b8df22a8bb721efcb1468d4bccb2960
+    new: 4e94a80e680c6363d8f973667566209695bf380c
     log: |
-         1dff9ac2c85860af67a74777fa6d31c2ad07a15a tools/nolibc/printf: Support negative variable width and precision
+         ba9e6c220435476ca055b9dbd531b986d59ad60c appendix/styleguide: Add list of "api" commands
+         bacdf0ba3fec7dbc63e9f581eb864ab0010f53b4 together/applyrcu: Add "Detecting Broken Readers" patchup
+         337e728e2fc353719e6f4c0506424dbbbbfce2ea together/applyrcu: Convert Listing 13.14 to VerbatimL
+         4e94a80e680c6363d8f973667566209695bf380c together/applyrcu: Add "Restraining Reclamation" section
          
