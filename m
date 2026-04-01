@@ -1,20 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/andi.shyti/linux
-Date: Wed, 01 Apr 2026 23:24:01 -0000
-Message-Id: <177508584132.460407.4085201553386502103@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
+Date: Wed, 01 Apr 2026 23:35:42 -0000
+Message-Id: <177508654233.471448.13425230764936027401@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/andi.shyti/linux
-user: andi.shyti
+repo: pub/scm/linux/kernel/git/tnguy/next-queue
+user: tnguy
 changes:
-  - ref: refs/heads/i2c/i2c-host-next
-    old: 1d4dbd0311e8f232297b82ace4efd37eb03c1573
-    new: eefda23b4454b898e4e6e3791cce49a387243c8b
+  - ref: refs/heads/dev-queue
+    old: 9d1e14386f49ae4974ea9c88d2a19f63a90f512d
+    new: c91c8b2819fe2d6d37c0bd298f507227fe479cb8
     log: |
-         39ed7d89b973329cc5c764b65ba6302b17b1907e i2c: imx: zero-initialize dma_slave_config for eDMA
-         eefda23b4454b898e4e6e3791cce49a387243c8b Merge branch 'i2c/i2c-host-fixes' into i2c/i2c-host-next
+         ab7c59127307615f1053a27b6b7d46194219fd1a ice: fix FDIR CTRL VSI resource leak in ice_reset_all_vfs()
+         253e94bb2968720778966ebcaea16ffb9ca58a0c ice: fix AQ error code comparison in ice_set_pauseparam()
+         b89d5d670d2d2de9dcb7c4ec7ae4608b46aabd4d ice: call netif_keep_dst() once when entering switchdev mode
+         c91c8b2819fe2d6d37c0bd298f507227fe479cb8 ice: remove excessive memory allocation in ice_create_lag_recipe()
          
