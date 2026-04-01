@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/korgalore/korgalore
-Date: Wed, 01 Apr 2026 21:06:27 -0000
-Message-Id: <177507758718.346327.6830588690882985034@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
+Date: Wed, 01 Apr 2026 21:06:55 -0000
+Message-Id: <177507761547.346620.190671260709164212@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/korgalore/korgalore
-user: mricon
+repo: pub/scm/linux/kernel/git/soc/soc
+user: arnd
 changes:
-  - ref: refs/heads/master
-    old: 4c32201498b0754c8cbf96659b5170613b5f9a48
-    new: 5e5453ea99366edad1b61cb64ffb51b539967644
-    log: |
-         5e5453ea99366edad1b61cb64ffb51b539967644 Fix noop retry rewind causing infinite re-delivery of messages
-         
+  - ref: refs/heads/qcom/dts
+    old: 0000000000000000000000000000000000000000
+    new: 6453ad0865b68ab0de5873c1a8bb4addbbde5c19
