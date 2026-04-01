@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
-Date: Wed, 01 Apr 2026 23:20:53 -0000
-Message-Id: <177508565318.458877.13494114929210091528@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/andi.shyti/linux
+Date: Wed, 01 Apr 2026 23:23:59 -0000
+Message-Id: <177508583934.460324.18432415623672626983@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/25-new
-user: akpm
+repo: pub/scm/linux/kernel/git/andi.shyti/linux
+user: andi.shyti
 changes:
-  - ref: refs/heads/master
-    old: 77472afc854718ce1676399b65d27290dc1f5105
-    new: 78b9343caa0f30d7ba653eef06cbc31f4a840b7b
+  - ref: refs/heads/i2c/i2c-host-fixes
+    old: 7aaa8047eafd0bd628065b15757d9b48c5f9c07d
+    new: 39ed7d89b973329cc5c764b65ba6302b17b1907e
     log: |
-         a786ec4eac436438b1adedb91ccbb7d4775cd1d3 foo
-         852ab121e4ccb445b71a4f5b26752ca68ce0519c foo
-         78b9343caa0f30d7ba653eef06cbc31f4a840b7b foo
+         39ed7d89b973329cc5c764b65ba6302b17b1907e i2c: imx: zero-initialize dma_slave_config for eDMA
          
