@@ -1,21 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Thu, 02 Apr 2026 14:20:27 -0000
-Message-Id: <177513962739.1483940.3646173854422277874@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/klassert/ipsec
+Date: Thu, 02 Apr 2026 14:21:21 -0000
+Message-Id: <177513968158.1484487.1271505115776819569@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
-user: broonie
+repo: pub/scm/linux/kernel/git/klassert/ipsec
+user: klassert
 changes:
-  - ref: refs/heads/for-next
-    old: 0bb3bd02a02453e746de04a324b7bef1a513b5d1
-    new: 8d6584f5c2475a616861f61b15060f7e9efa962f
+  - ref: refs/heads/testing
+    old: 9b93304bdcd21cc38dd3480540666fea9c62cd99
+    new: e5b5eb4e613c767d511bd465028c3bfdf64be4d1
     log: |
-         b99e3ddb91b499d920e63a2daff8880be68cfe9e spi: ch341: fix memory leaks on probe failures
-         abe572f630bc1f0e77041012ab075869036ede4f spi: ch341: fix devres lifetime
-         8d6584f5c2475a616861f61b15060f7e9efa962f Merge remote-tracking branch 'spi/for-7.1' into spi-next
+         d22e2bfacee5ae3a6e2cf7778805656614907963 xfrm: Wait for RCU readers during policy netns exit
+         e5b5eb4e613c767d511bd465028c3bfdf64be4d1 xfrm: hold dev ref until after transport_finish NF_HOOK
          
