@@ -1,41 +1,42 @@
-Content-Type: multipart/mixed; boundary="===============7561951747278309987=="
+Content-Type: multipart/mixed; boundary="===============4847439346476275055=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kvmarm/kvmarm
-Date: Thu, 02 Apr 2026 13:35:32 -0000
-Message-Id: <177513693293.1437939.3670053527205210090@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/security/vulns
+Date: Thu, 02 Apr 2026 13:37:14 -0000
+Message-Id: <177513703446.1438549.4820947548861371093@gitolite.kernel.org>
 
---===============7561951747278309987==
+--===============4847439346476275055==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kvmarm/kvmarm
-user: maz
+repo: pub/scm/linux/security/vulns
+user: sashal
 changes:
-  - ref: refs/heads/next
-    old: e54971a0468a8bc82b1976d5b010392d7cb689b9
-    new: b471652d5ff76d2b6b18379c60569f5c1babbda3
-    log: revlist-e54971a0468a-b471652d5ff7.txt
+  - ref: refs/heads/sasha-cvss
+    old: 3e14e4375ac8197e39c27fb696a5d5b9922bf771
+    new: a14aa37811cd49e85a5129cf5db6cab0c1d65756
+    log: revlist-3e14e4375ac8-a14aa37811cd.txt
 
---===============7561951747278309987==
+--===============4847439346476275055==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e54971a0468a-b471652d5ff7.txt
+Content-Disposition: attachment; filename=revlist-3e14e4375ac8-a14aa37811cd.txt
 
-cf6348af645bd8e38758114e6afcc406c5bb515f KVM: arm64: Prevent the host from using an smc with imm16 != 0
-2fc0f3e2b9a9f397554ffe86e8f6eb0e2507ec6e KVM: arm64: Don't leave mmu->pgt dangling on kvm_init_stage2_mmu() error
-a3ca3bfd01b7ee9f54ed85718a6d553cdd87050e KVM: arm64: Destroy stage-2 page-table in kvm_arch_destroy_vm()
-03db5f05d4c76d76b32a9d26001e2ec6252f74f8 KVM: arm64: selftests: Avoid testing the IMPDEF behavior
-9c1ac77ddfc90b6292ef63a4fa5ab6f9e4b29981 KVM: arm64: vgic-v5: Fold PPI state for all exposed PPIs
-ce47b798ed1e44a6ae2c2966cdf7cba6b428083e tracing: Non-consuming read for trace remotes with an offline CPU
-ec07906bdc52848bd7dc93d1d44e642dcdc7a15a tracing: selftests: Extend hotplug testing for trace remotes
-899ff451fcee1289f3f37d061da66c3e38748a69 KVM: arm64: Advertise ID_AA64PFR2_EL1.GCIE
-bd1f7328e25426f08cafa8333293411788c7957b Merge branch kvm-arm64/vgic-fixes-7.1 into kvmarm-master/next
-735de2f099d64107fc670526d0244d7e28aef0ca Merge branch kvm-arm64/hyp-tracing into kvmarm-master/next
-b471652d5ff76d2b6b18379c60569f5c1babbda3 Merge branch kvm-arm64/misc-7.1 into kvmarm-master/next
+c18ce53b00a584e67c299614c912d324fd54129b CVE-2026-23285: Add CVSS 3.1 score (4.1 MEDIUM)
+70d30ac82a32582b4ca5436b542bfb8914465778 CVE-2026-23283: Add CVSS 3.1 score (2.5 LOW)
+b9018eada0f1197b75c87f5ab9ef7b0067ab6c9b CVE-2026-23282: Add CVSS 3.1 score (6.5 MEDIUM)
+44cca1d6333067c9d9c12eb7d2fee16c67eabdf1 CVE-2026-23284: Add CVSS 3.1 score (6.7 MEDIUM)
+c360fa5e12dff3fbce60bf3f2f6e43f519e19d02 CVE-2026-23281: Add CVSS 3.1 score (6.8 MEDIUM)
+8e2ee7cc2872bc0ca0f4453af40e0ef94033e083 CVE-2026-23280: Add CVSS 3.1 score (7.8 HIGH)
+e37541c7ecfa247e0bc84e286cc00c4092d9fd71 CVE-2026-23279: Add CVSS 3.1 score (6.5 MEDIUM)
+78f7b75b6f96940cbe562dad50f88048198bdfd6 CVE-2026-23277: Add CVSS 3.1 score (5.5 MEDIUM)
+2f7ba2752dc4050166c752eed7b7d0f7d0a1bee1 CVE-2026-23276: Add CVSS 3.1 score (5.5 MEDIUM)
+94dfe0679c7530ca9ccc846c37aaee22ad8bfee1 CVE-2026-23274: Add CVSS 3.1 score (7.8 HIGH)
+4b249a9cc220b9a7b86bcabce252398193a5b6c0 CVE-2026-23275: Add CVSS 3.1 score (7.8 HIGH)
+a14aa37811cd49e85a5129cf5db6cab0c1d65756 CVE-2026-23273: Add CVSS 3.1 score (7.8 HIGH)
 
---===============7561951747278309987==--
+--===============4847439346476275055==--
