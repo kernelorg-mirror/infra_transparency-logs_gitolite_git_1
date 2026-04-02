@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2454746146583106581=="
+Content-Type: multipart/mixed; boundary="===============2738687258601082460=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Thu, 02 Apr 2026 00:15:06 -0000
-Message-Id: <177508890639.504139.14744347841439047501@gitolite.kernel.org>
+Date: Thu, 02 Apr 2026 00:15:07 -0000
+Message-Id: <177508890767.504327.8320029263051166846@gitolite.kernel.org>
 
---===============2454746146583106581==
+--===============2738687258601082460==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/mm-unstable
-    old: d873dd7a326a5b9f970008d4b59ae2c9e4e9b12b
-    new: a31ffc4ab7bee1f903fbbb661f6411ce16ae19f4
-    log: revlist-d873dd7a326a-a31ffc4ab7be.txt
+  - ref: refs/heads/mm-stable
+    old: 1ee41801bc34c64cb2bc57dbce9566a24a840f4a
+    new: fed2a20b213e53096064d9eca53d95999efd8e20
+    log: revlist-1ee41801bc34-fed2a20b213e.txt
 
---===============2454746146583106581==
+--===============2738687258601082460==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d873dd7a326a-a31ffc4ab7be.txt
+Content-Disposition: attachment; filename=revlist-1ee41801bc34-fed2a20b213e.txt
 
 b5d53b65366415fbc51e17bd28af412fe8996537 mm/swap: strengthen locking assertions and invariants in cluster allocation
 6467ffb7106b840ba9291b9f1788a7e092ef384b mm/damon/core: introduce damos_quota_goal_tuner
@@ -173,127 +173,5 @@ e7c79fc43532e61553f0c75821f9433a7b3db3e9 mm/huge_memory: remove unnecessary VM_B
 ad95490535da6f63a3bd3c9f2a02757fc8b1f513 mm: add softleaf_is_valid_pmd_entry(), pmd_to_softleaf_folio()
 da2be79e1ae305ae521563907d211da88cd334c8 mm/huge_memory: add and use normal_or_softleaf_folio_pmd()
 fed2a20b213e53096064d9eca53d95999efd8e20 mm/huge_memory: add and use has_deposited_pgtable()
-4f9beeeb40da63d7ff81c38907c137564ca322aa mm: filemap: fix nr_pages calculation overflow in filemap_map_pages()
-c5684fe9a6631e387cafba815cda80e185233049 mm/hugetlb: restore reservation on error in hugetlb_mfill_atomic_pte() resubmission path
-97b7bbc5bff9e0bb9b001f2649b7ea57e2852ae6 liveupdate: propagate file deserialization failures
-7af609e67ef03df8203d5a3b2d3c96b1f5d95341 liveupdate: initialize incoming FLB state before finish
-bcafff9218ab8ece8471c52079217eb28c558c6b liveupdate-initialize-incoming-flb-state-before-finish-fix
-e1d3cf9930ddc7cbb21f0c2cd2df1d0c223e9d64 mm: reinstate unconditional writeback start in balance_dirty_pages()
-0252191691c86b3977d6963f157f720b12563aea mm/damon/sysfs: dealloc repeat_call_control if damon_call() fails
-88158c871c851b62bf17b8ba7cf4c3add22786b0 mm/memory_hotplug: maintain N_NORMAL_MEMORY during hotplug
-43e388bbe0750e2a43ff1b642914b241f78fd79f mm/vma: fix memory leak in __mmap_region()
-81fbbdc5ca5f2e289de0a5426a0f33c48da29671 foo
-f1acba85cb1dff7cdab5250b96a414ff35498a4c mm/khugepaged: fix issue with tracking lock
-6b3155c15059ff76ba9060de2a34a6de99cd1565 mm: fix deferred split queue races during migration
-cb10b022911eaf8ee377d847e9bbefa9ec826c8a selftests/mm: add UFFDIO_MOVE huge zeropage PMD regression test
-7be7e95a211bc0e05d1171d5092875edf141d56c mm: memcontrol: remove dead code of checking parent memory cgroup
-894abbdb7a8fb15512a615e6ce83752a6899cd85 mm: workingset: use folio_lruvec() in workingset_refault()
-a3b29cbc5676490d13efa13844cdf5cb19ae3c82 mm: rename unlock_page_lruvec_irq and its variants
-6defde42da7daba72f991f2c8bbf813b2663fa55 mm: vmscan: prepare for the refactoring the move_folios_to_lru()
-8b6884f5417bcd54c91b1b986dc7ce030ea8e3c9 mm: vmscan: refactor move_folios_to_lru()
-09b347946fef2f666a18e91b7f6732c9fec3d3fd mm: memcontrol: allocate object cgroup for non-kmem case
-c7cac7c3f583b7925dfb9fa6c0ecb6660034300b mm: memcontrol: return root object cgroup for root memory cgroup
-c14d9abe010d3a4c22d497a7cd1a8c0127952c4d mm: memcontrol: prevent memory cgroup release in get_mem_cgroup_from_folio()
-d2a7ab6c7c9ea01e293716809aa0513f0f8de983 buffer: prevent memory cgroup release in folio_alloc_buffers()
-d30ecbab4afcffa704ddf8d42d595916324fddb6 writeback: prevent memory cgroup release in writeback module
-a6ca02b85d7ad14cc34914756753b463ae92b002 mm: memcontrol: prevent memory cgroup release in count_memcg_folio_events()
-4c47d749627325148031fa7b63652623508682ba mm: page_io: prevent memory cgroup release in page_io module
-1fb98cf03e8f47185a6b5e79d57718bb71a363a3 mm: migrate: prevent memory cgroup release in folio_migrate_mapping()
-89e02089f755a1281bf68c70d57fc1c1f65c2519 mm: mglru: prevent memory cgroup release in mglru
-e2e59534eb8df93a18b053b90303081f236dd04d mm: memcontrol: prevent memory cgroup release in mem_cgroup_swap_full()
-90409295bc345f499d0e5e370888733718895437 mm: workingset: prevent memory cgroup release in lru_gen_eviction()
-aba3fe0a038c1f0e8877ee2a5e9d5af128f01541 mm: thp: prevent memory cgroup release in folio_split_queue_lock{_irqsave}()
-52fadb30db53a3b6cd070e126a303247bc99f1c6 mm: zswap: prevent memory cgroup release in zswap_compress()
-e6801cf07235ceeba0f0599ded2cc9668d271434 mm: workingset: prevent lruvec release in workingset_refault()
-f8bf12d5ce1bb0f8ccbc40b157d235e7b05e439e mm: zswap: prevent lruvec release in zswap_folio_swapin()
-8190c789ec3f218f0248e07d7068a2f6397ebd59 mm: swap: prevent lruvec release in lru_gen_clear_refs()
-7d99869eeea5d1d66658e66ff8673421f6b201f7 mm: workingset: prevent lruvec release in workingset_activation()
-18c240a4215c39fd1df47808e305fd5886d11846 mm: do not open-code lruvec lock
-b14881ee957512f2142a05fd3e2410d3ca2620bf mm: memcontrol: prepare for reparenting LRU pages for lruvec lock
-c5d0913db103a66c350fc80f4150d8b3b7c76330 mm: vmscan: prepare for reparenting traditional LRU folios
-35680902338dd6dc43a7def03d38c3399b3394e2 mm: vmscan: prepare for reparenting MGLRU folios
-10d562034c73aa4fab6671fc27a02c79fa88d25d mm: memcontrol: refactor memcg_reparent_objcgs()
-2414bf001f4af38607d95025913e911d3b659876 mm: workingset: use lruvec_lru_size() to get the number of lru pages
-d418767e537e984096e2ee97021647b13a2e3033 mm: memcontrol: refactor mod_memcg_state() and mod_memcg_lruvec_state()
-44b1d07d8bce714ec5aa7c02ea227c951ffba257 mm: memcontrol: prepare for reparenting non-hierarchical stats
-a7acb38d39650cb879877ccb6ee65c916bdaa7f1 mm: memcontrol: convert objcg to be per-memcg per-node type
-027d1c2d0eacc5e08e30b158749923be94454d72 mm: memcontrol: eliminate the problem of dying memory cgroup for LRU folios
-e6fbe0e29b98f6c88d38e16854f2ea64e7b86fb5 mm: lru: add VM_WARN_ON_ONCE_FOLIO to lru maintenance helpers
-246e99181ce9f90803f7dd7f01da21fed19c628e mm: memcontrol: correct the type of stats_updates to unsigned long
-b179d7b0eb3ad05bcf981578b4936f838667f8ba mm: memcontrol: change val type to long in __mod_memcg_{lruvec_}state()
-8366dfdf0a96fe698b454609357b4beb0179fec4 mm: memcontrol: correct the nr_pages parameter type of mem_cgroup_update_lru_size()
-da31b614371e8a1a19014da98a83acc7d00e0876 mm/percpu-internal.h: optimise pcpu_chunk_struct to save memory
-94ba49be35b9e48ee11d277e825efd661b402022 mm/memcontrol: batch memcg charging in __memcg_slab_post_alloc_hook
-b58814d6ae785c7153893610d5f5a2ae6eb09112 MAINTAINERS: update MGLRU entry to reflect current status
-769ee1e0120ef2185b3edbe9c7c7d353dc6201af mm: kmemleak: add CONFIG_DEBUG_KMEMLEAK_VERBOSE build option
-333d888a127056da5769df6cfb6cb14aa31c2aa9 mm/swap, PM: hibernate: fix swapoff race in uswsusp by pinning swap device
-2085857239553ec1933912f0ad14c5ae87591ff1 mm/swap: remove redundant swap device reference in alloc/free
-3164f6e5d4c8e6b7d26065d4ea151bf48831a459 kho: add size parameter to kho_add_subtree()
-ca8b68a372dba504b0b3a54fe57ba7b36957c926 kho: rename fdt parameter to blob in kho_add/remove_subtree()
-221208299d3cda89a9472f64800741bed2556011 kho: persist blob size in KHO FDT
-2b1c18983eea4f87efe6f704a6ac27ab8170e3fe kho: fix kho_in_debugfs_init() to handle non-FDT blobs
-41b9a08b2036170e95fee67f097f3ee854c107c9 kho: kexec-metadata: track previous kernel chain
-fce00b92289b2f5ddfad4f67a537bc667d1c8c3d kho: document kexec-metadata tracking feature
-0ec7c157d81bc48aa41f9402b5315ccb63c71275 mm/mprotect: move softleaf code out of the main function
-6f58ef9f7c295acdf783f86e84ec16eec89356a3 mm/mprotect: special-case small folios when applying write permissions
-7a1f8c2076bef981ff300c8b0f2448563c832e06 memory tiering: do not allow promotion if NUMA_BALANCING_MEMORY_TIERING is disabled
-4789ec869a0cc5d5c8608bc9861e1fd38b750594 mm/memfd: use folio_nr_pages() for shmem inode accounting
-eaf554f2d90b5b871e7a242fff6c138f9d14494a mm/memfd_luo: optimize shmem_recalc_inode calls in retrieve path
-350e734d920ca75702bc61f5464022c6de77546b mm/memfd_luo: remove unnecessary memset in zero-size memfd path
-231f7bf3bd896b19741b29a00d4210802768f504 mm/memfd_luo: use i_size_write() to set inode size during retrieve
-a1eda19e6ee0d67be8da90a1a8aa94fb96a7f579 mm/memfd_luo: fix physical address conversion in put_folios cleanup
-70f69acf6b9f977443ffd59a06adb95b00659ee0 mm/memfd_luo: remove folio from page cache when accounting fails
-24eaf86c9bceeb33dccde2b781d60546c883180d mm/memfd_luo: fix integer overflow in memfd_luo_preserve_folios
-da99993f2f955e2718be1cda458b8dafcbf24fc2 mm: start background writeback based on per-wb threshold for strictlimit BDIs
-9cfcd84c61d1874c7b4703102c43db3fbf7b8a98 liveupdate: prevent double management of files
-83e54f06a04a2a7f95a6f6a005b683dca5720dc5 memfd: implement get_id for memfd_luo
-3864cd6271b27e96812b6fd90293b96f9d9ebff3 selftests: liveupdate: add test for double preservation
-6f3fa4ba6b2b7247f7845379ea019d396664bd34 mm: vmscan: fix dirty folios throttling on cgroup v1 for MGLRU
-76c2000ec9e79122accb3558ef149a5ca7cc567e userfaultfd: introduce mfill_copy_folio_locked() helper
-5b0b826a3dd8d4924952fc2626dbd9651091ff5a userfaultfd: introduce struct mfill_state
-18b632a2e7d3a2d95038c3d146980902bc810c15 userfaultfd: introduce mfill_establish_pmd() helper
-aca9f5b42c3a8871394efc990b483e4d1fb795aa userfaultfd: introduce mfill_get_vma() and mfill_put_vma()
-2c909915140a4516effee94e416e39171a8e1a97 userfaultfd: retry copying with locks dropped in mfill_atomic_pte_copy()
-a71b022995cd99b88fe5d27f469a840c7d0e53e2 userfaultfd: move vma_can_userfault out of line
-ad641c2faf28326c87898d45bd209d84395ac4ff userfaultfd: introduce vm_uffd_ops
-05dfc8c2bef74717325ac29780822a06fb24ed52 shmem, userfaultfd: use a VMA callback to handle UFFDIO_CONTINUE
-63fb5a78d94ccac586cced511993b311d3543c6a userfaultfd: introduce vm_uffd_ops->alloc_folio()
-a5307e80e8832ab6c4d580bd6a242b72aa3f24df shmem, userfaultfd: implement shmem uffd operations using vm_uffd_ops
-2e0d7742c94acee9a4d11e32daf74f2c2b9d8389 userfaultfd: mfill_atomic(): remove retry logic
-d0a6c93a6b439ec8b85a6b488ca8d9e8d43f15e5 mm: generalize handling of userfaults in __do_fault()
-abf18406bd02247de8b53eaccc4d096de948a298 KVM: guest_memfd: implement userfaultfd operations
-b3c26f87098a41271b3fd6c888b8de1ff2e41195 KVM: selftests: test userfaultfd minor for guest_memfd
-16beb7668662e5b82fc6a72f356f62f354f4c366 KVM: selftests: test userfaultfd missing for guest_memfd
-979840f024bdf89f006eef488be0d8f51b203140 liveupdate: safely print untrusted strings
-8df0bb85b229578c2382a5d85f07c384d5d4d93e liveupdate: synchronize lazy initialization of FLB private state
-217d5dba1e141942a6eb38121fb11e854df78ab5 liveupdate: protect file handler list with rwsem
-da7b27b2eb095f09758590d10351fb01f3cee25c liveupdate: protect FLB lists with luo_register_rwlock
-e7cad70ea0534300b2331ddf7ade0b4870e6821b liveupdate: defer FLB module refcounting to active sessions
-dda887dd2d43a00ee5e0d18079fc9ff8dbc756a9 liveupdate: remove luo_session_quiesce()
-fa0292e9eaa27c240d04370f29c3c8f96863adea liveupdate: auto unregister FLBs on file handler unregistration
-d1febbebbe0565e927f38bc2cce4c1b629f18835 liveupdate: remove liveupdate_test_unregister()
-0473c5050b8ad4026c12fff035d45287a3128feb liveupdate: make unregister functions return void
-8f6d1ec37a199c50f54a06b7e073882375023266 liveupdate: defer file handler module refcounting to active sessions
-4bb802ddd7235b643e62eb87fcd3d43ea65c4fc0 mm/vmscan: prevent MGLRU reclaim from pinning address space
-420100665001215bbebe4489760262886eff1bc3 mm/alloc_tag: clear codetag for pages allocated before page_ext initialization
-a3d43e00e716e46d3dbff7073ce532e9c22f973a selftests/mm/guard-regions: skip collapse test when thp not enabled
-e6cb40a173912662e31c569750a8b5664e250331 selftests/mm: soft-dirty: skip two tests when thp is not available
-91080d921d846bc92168b91421a53f68303cd388 selftests/mm: move write_file helper to vm_util
-9438d520c9b09c60976758e5cb6560fb2b4e5e18 selftests: ksft_exit_fail_perror: support printf style arguments
-0bd61fd61016a65463e008fe379d6ed789fbf43f selftests/mm/vm_util: robust write_file()
-5d3ebe22e6d4bc8f80713f3710df0d20551ba9dd selftests/mm: split_huge_page_test: skip the test when thp is not available
-4d7570016bcf16d261fe6ba855ec057d15b8314e selftests/mm: transhuge_stress: skip the test when thp not available
-540b6ecac1bd86fa39a7a4a276ce471e550c258d mm: remove '!root_reclaim' checking in should_abort_scan()
-5840dbbcf78fe8d6f1d559ee8f6993f2522248ea mm: zswap: remove redundant checks in zswap_cpu_comp_dead()
-f3add88c5a4d7e0ab508527c6c93e0ae68272f48 mm: zswap: tie per-CPU acomp_ctx lifetime to the pool
-dffc6706389807f864a64cb49484a820394be772 mm/damon/core: fix damon_call() vs kdamond_fn() exit race
-4f569cbff8d47019c7f26a6964abb645d9e052af mm/damon/core: fix damos_walk() vs kdamond_fn() exit race
-5309771c406edb66f123e5984f804d9f8f8be37f mm/damon/stat: fix memory leak on damon_start() failure in damon_stat_start()
-3852a3f81e1b750fdb734aa108ed7aa75f4168e7 mm/damon/core: validate damos_quota_goal->nid for node_mem_{used,free}_bp
-b6356b224173030369ef21881406869749b39048 mm/damon/core: validate damos_quota_goal->nid for node_memcg_{used,free}_bp
-4a8dacd74e41013744102ddb15411f5cb6c197fb mm/damon/core: use time_in_range_open() for damos quota window start
-927549713db29d096064d876428455daa85ac8cb Docs/admin-guide/mm/damon/reclaim: warn commit_inputs vs param updates race
-985c66267c4aecfb1bd2aede267689aa579e9798 Docs/admin-guide/mm/damon/lru_sort: warn commit_inputs vs param updates race
-a31ffc4ab7bee1f903fbbb661f6411ce16ae19f4 mm/mempolicy: fix memory leaks in weighted_interleave_auto_store()
 
---===============2454746146583106581==--
+--===============2738687258601082460==--
