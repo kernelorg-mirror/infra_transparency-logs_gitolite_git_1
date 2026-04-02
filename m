@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2523056512871615133=="
+Content-Type: multipart/mixed; boundary="===============3537801532749984136=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Thu, 02 Apr 2026 15:06:56 -0000
-Message-Id: <177514241620.1526061.16823293983905162612@gitolite.kernel.org>
+Date: Thu, 02 Apr 2026 15:09:34 -0000
+Message-Id: <177514257449.1527113.2478115305676544792@gitolite.kernel.org>
 
---===============2523056512871615133==
+--===============3537801532749984136==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,47 +17,46 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/char-misc-testing
-    old: c230ae1f9480cf9d363ded8179b14b49c5d3dd69
-    new: 7e488b0af0216f40159cc19d5db1b614c80f5134
+    old: 7e488b0af0216f40159cc19d5db1b614c80f5134
+    new: 0a18c3bc8d294f1f23daa9f9ee44e5dd2c2994d6
     log: |
-         138f2ea90b66efafb6612d0a34346b56099b1c71 speakup: Document bleeps parameter values
-         16cf2e54cb5e2bf563fc11c1bebc662a49f2eeba char: remove unnecessary module_init/exit functions
-         e4599c1d2b0e5f50e6c317a5e045e986a43f30e4 parport: Remove completed item from to-do list
-         b1c7f7aaabc81ea8a6be2e5cf7d0c5959306f197 misc: vmw_vmci: Fix spelling mistakes in comments
-         71f0a267346b330ab1c4d15d98fe6fa64b3b091b hpet: Convert ACPI driver to a platform one
-         bdb6189600cd0ac8d048550a7cdd773ce5516cca most: usb: Use kzalloc_objs for endpoint address array
-         2d7ce8eb59ec880774c7500ac949f0100acba521 misc: apds990x: fix all kernel-doc warnings
-         7e488b0af0216f40159cc19d5db1b614c80f5134 sonypi: Convert ACPI driver to a platform one
+         9e7a2409ecf4d411b7cc91615b08f6a7576f0aaa mei: me: use PCI_DEVICE_DATA macro
+         f3d0423d4150614c0f6b68c307daa1a6b29730ea mei: fix idle print specifiers
+         bf025a8447796e51b944ec87ac96f680fa4022e1 mei: me: move trace into firmware status read
+         eb1b5fc76a940ce309ecc57dbc465dda09171229 mei: trace: print return value of pci_cfg_read
+         60ca15971a9aa0647d20488b450d095c81c5b70a mei: convert PCI error to common errno
+         72fdf0bbd3574a67148fb41473593196687a9a0e mei: csc: support controller with separate PCI device
+         0a18c3bc8d294f1f23daa9f9ee44e5dd2c2994d6 mei: csc: wake device while reading firmware status
          
 
---===============2523056512871615133==
+--===============3537801532749984136==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1775142411 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1775142572 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1775142411-83462a82bd8a4bfd84b9c75a952606c017a0c274
+nonce 1775142572-1d48543f6bad9599891e939e947af25bc02a0f9b
 
-c230ae1f9480cf9d363ded8179b14b49c5d3dd69 7e488b0af0216f40159cc19d5db1b614c80f5134 refs/heads/char-misc-testing
+7e488b0af0216f40159cc19d5db1b614c80f5134 0a18c3bc8d294f1f23daa9f9ee44e5dd2c2994d6 refs/heads/char-misc-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmnOhgsbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+ftEP/1096ZKbRkF1bSgWkXaW
-Z2JNUeX91As74Clrr1pl9qUKSBjBM8vJVZP4dT+dfQrouJsjqCxtoA//92zjJ4Ue
-FptuZwB9BdpfoJeDzkzBeDZFToiLbOv28BONhU0BoNT6bcNGufIdlYiccVqXLTaE
-+9i0GdBOyHsRupC69bVEaPFXDbj9Nnz1KJ0URrb0P9DZ9cEAQLQA9m6871wWLRmR
-WRvnYTrQZPe6uim5jjwEqI/Ew3ei6wkIDAtMOpXB3175eboiSiyouOOL3uAd2ic7
-xUNjpEnxF+NamFo82GGt3l/dlStNF2/oIhVKeFkC9vzJ/PUMC6Pk9teeVonmfxFs
-9tdW7+SOdbc7r9ZlQH+lACm3T7PF5Xp/JkUU80Q3fQYoCyiIrhh3yKF5M5Z6CLLW
-2X9EPX943EeAjOLfTZYCvUjxG7m/yt4Gr4MTBh7S0HTAm428v2C5nICl/BZabaf2
-+6RRELNIaPKPQ6DQ7rXu3o/vxwLK41ZOyvZVHjiVV80eO3RNPDFRrWea/e9kzp89
-lRB4GjX8zUm3+JwtK3C5IZcR5XzH3r7Jucr7miwdLTmL9xXBHnv069lEvfYqmtU4
-dTNv0KXqQQWHjnfr+RAhaQpTBh5f3AVvx27vjSGlktgA8sR4OQkoKqRY72/aO10y
-WHvOTom8ipYu9x3c9yo6jT8x
-=XMjr
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmnOhqwbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+1PcP/1ie7xE60YIr0mjxKfvd
+PpuqfIuBmOQqiKzFyStaJLJ2W1ukJzX7xV+cMsQ4lcbxd7af4NwzDfj1Tu5EAeNz
+Cb56QGBRzD9AUPqI49NejD0/rSdcg/TbEmrko5AZBZNYe39L+fPKPxEvwym4s6oA
+QS7KfQ2nIDMO+J4hRzRlGiVQ2tyw9bn54uIoTT4esVEnryRPpvj3HF4bDVf/GgXH
+PC73GQ+YFWV3m1K/TyBrpx1vw8f3tbz9GZv9/zgDrX4FeJxl2lIyDszkkFf+Ux8k
+ZaE0+BFIfYwydCcSDwln3nWw77eObYpeL3H9yGqkJjih1LuCy7kaXIa/YDMYLAFW
+qXlnbeBfYD9YpqPIX4TgMqoL9/n+vGR8ziAKleuKlFhUhqg9VwSwSPKvPOUJ5HR+
+T65UjvXUKLlwaYC1PD4B0IH2/1G+N7HS5me/eaGD1SaTwv71ezTcBGSn9GFf73Tb
+RfTnXYaoaV8MT6TZrfJHDnm9ez20aMXQvXuKLqh4mSoRYH6w6Vk7hNLY9VXoGG1n
+Y/DnlO4CpA6DANyvlv/qbj0ghNtzXWuG3H83S3Klt1n+70pohH7RmID/UnMCdOqc
+cpgT11Bxo5P3y9pbqFPQb37WxyJH38IZcueybjQvSALGM0QYsb+tHqRb7q3Md5E4
+sjjqIy7oNfNbJ5tJ84UTEtA1
+=kuy/
 -----END PGP SIGNATURE-----
 
---===============2523056512871615133==--
+--===============3537801532749984136==--
