@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
-Date: Thu, 02 Apr 2026 20:02:19 -0000
-Message-Id: <177516013959.1785199.8203666562454427115@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Thu, 02 Apr 2026 20:02:59 -0000
+Message-Id: <177516017986.1785470.15066281522946949099@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
-user: vudentz
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: andrii
 changes:
   - ref: refs/heads/master
-    old: 3966e67cdd709d7b1cae5a650654cd53b291c126
-    new: 60f6ea0dbe1a7d2c8999162153acdcaeddf196c4
+    old: e25cfbec08558e15fdf0f31f229b9f2a491e8288
+    new: 1cc96e0e20489159398009d2f453e59c10e413c9
     log: |
-         60f6ea0dbe1a7d2c8999162153acdcaeddf196c4 Bluetooth: hci_ll: Enable BROKEN_ENHANCED_SETUP_SYNC_CONN for WL183x
+         1cc96e0e20489159398009d2f453e59c10e413c9 libbpf: Fix BTF handling in bpf_program__clone()
          
