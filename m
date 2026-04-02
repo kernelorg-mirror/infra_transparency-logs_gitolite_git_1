@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Thu, 02 Apr 2026 01:50:56 -0000
-Message-Id: <177509465662.584939.6793754884305140710@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf
+Date: Thu, 02 Apr 2026 01:54:42 -0000
+Message-Id: <177509488239.586125.9259702722143794950@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/linux/kernel/git/bpf/bpf
+user: martin.lau
 changes:
-  - ref: refs/heads/main
-    old: ffb5a4843c5bde702ed17cbcdbda98b37f7a6dad
-    new: a54ecccfae62c5c85259ae5ea5d9c20009519049
+  - ref: refs/heads/master
+    old: e2d072d6a3d1369d289667f51cf771eefa3c0b26
+    new: ad8391d37f334ee73ba91926f8b4e4cf6d31ea04
     log: |
-         a54ecccfae62c5c85259ae5ea5d9c20009519049 rds: ib: reject FRMR registration before IB connection is established
+         ad8391d37f334ee73ba91926f8b4e4cf6d31ea04 bpf: sockmap: Fix use-after-free of sk->sk_socket in sk_psock_verdict_data_ready().
          
