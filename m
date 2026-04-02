@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/security/vulns
-Date: Thu, 02 Apr 2026 10:07:50 -0000
-Message-Id: <177512447074.980891.7877332306056022795@gitolite.kernel.org>
+Date: Thu, 02 Apr 2026 10:08:51 -0000
+Message-Id: <177512453186.981586.13276437377314876795@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,10 +12,9 @@ repo: pub/scm/linux/security/vulns
 user: sashal
 changes:
   - ref: refs/heads/sasha-cvss
-    old: d3ac1c8e7e1043d2bce148ad9d349f5cdfc2a042
-    new: 007a9fbaf5ce4d714fa0b3f623ce88b7ce9d9b24
+    old: 007a9fbaf5ce4d714fa0b3f623ce88b7ce9d9b24
+    new: 3b770bf548a6ad9e549480df43b436880c5a587d
     log: |
-         e9d7aac497a24fbaa3b7854421c139be4a655235 CVE-2026-23399: Add CVSS 3.1 score (3.3 LOW)
-         9927b978a713e09706a9288b99d12c12fe3dc3b9 CVE-2026-23401: Add CVSS 3.1 score (5.5 MEDIUM)
-         007a9fbaf5ce4d714fa0b3f623ce88b7ce9d9b24 CVE-2026-23396: Add CVSS 3.1 score (6.5 MEDIUM)
+         d6a0b2ce8de25bd07c7a1e2206ee23c47421c1aa CVE-2026-23397: Add CVSS 3.1 score (4.4 MEDIUM)
+         3b770bf548a6ad9e549480df43b436880c5a587d CVE-2026-23393: Add CVSS 3.1 score (7.8 HIGH)
          
