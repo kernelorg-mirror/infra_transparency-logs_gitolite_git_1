@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/geert/renesas-drivers
-Date: Thu, 02 Apr 2026 15:14:06 -0000
-Message-Id: <177514284654.1532759.3338782295120844768@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Thu, 02 Apr 2026 15:23:41 -0000
+Message-Id: <177514342108.1542034.6351305180510424465@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/geert/renesas-drivers
-user: geert
+repo: pub/scm/linux/kernel/git/netdev/net
+user: kuba
 changes:
-  - ref: refs/heads/v6.18.19-2026-04-02-x5h-ironhide
-    old: 0000000000000000000000000000000000000000
-    new: 3bffef582cfe7fb1cdd46def38f5c544716d2c2f
+  - ref: refs/heads/main
+    old: 70f73562d278d9f88e7095e327f2a50082a82c65
+    new: b18c833888742ca9de80c250f9d40d0e97caa9f6
+    log: |
+         b18c833888742ca9de80c250f9d40d0e97caa9f6 vsock: initialize child_ns_mode_locked in vsock_net_init()
+         
