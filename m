@@ -1,21 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/niks/linux
-Date: Thu, 02 Apr 2026 20:33:16 -0000
-Message-Id: <177516199691.1810333.13601690729511692335@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
+Date: Thu, 02 Apr 2026 20:42:42 -0000
+Message-Id: <177516256229.1817985.7324392457801660076@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/niks/linux
-user: niks
+repo: pub/scm/linux/kernel/git/akpm/25-new
+user: akpm
 changes:
-  - ref: refs/heads/b4/uid_slot
-    old: 03678a598e49ac58f7ef7297886f67761e6571f0
-    new: c94da2ecc25df6f963dd207654d4ba13d3f4aca7
+  - ref: refs/heads/master
+    old: 6c94bb996ceda6619b8ef3a00cfb8ae84062f3b3
+    new: 7e0d74f6ff88c8f3724cfb1d6e5a4aa50a73c6d4
     log: |
-         366e5973745b6e39abd5233e54463bf8568167ea PCI: s390: Expose the UID as an arch specific PCI slot attribute
-         b475601933e68add620061cf57aefcf0b28d95e5 docs: s390/pci: Improve and update PCI documentation
-         c94da2ecc25df6f963dd207654d4ba13d3f4aca7 PCI: s390: Expose the UID as an arch specific PCI slot attribute
+         bbba62d981c511c71adfd100eb0c8c0b783890e1 foo
+         a4cae84dedb95a24d15603eddae11264822ab72d foo
+         e4c984d651ea91cafd437697c28863a530ba6f2e foo
+         7e0d74f6ff88c8f3724cfb1d6e5a4aa50a73c6d4 foo
          
