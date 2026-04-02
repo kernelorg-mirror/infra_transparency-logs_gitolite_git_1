@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7672763076365337504=="
+Content-Type: multipart/mixed; boundary="===============0674028031408012778=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/superm1/linux
-Date: Thu, 02 Apr 2026 16:30:31 -0000
-Message-Id: <177514743180.1602497.17922066205352326808@gitolite.kernel.org>
+Date: Thu, 02 Apr 2026 16:30:44 -0000
+Message-Id: <177514744459.1603039.14604909854321799394@gitolite.kernel.org>
 
---===============7672763076365337504==
+--===============0674028031408012778==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/superm1/linux
 user: superm1
 changes:
-  - ref: refs/heads/bleeding-edge
+  - ref: refs/heads/linux-next
     old: 61957fea28500675af3cbb75597834f6bb85a171
     new: 9487e2a00e7b3c6f258c5c99953f470eba6fb61d
     log: revlist-61957fea2850-9487e2a00e7b.txt
 
---===============7672763076365337504==
+--===============0674028031408012778==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -49,4 +49,4 @@ da8afb1c666a4a966f0ab91dc336df4c855bc7b2 cpufreq/amd-pstate: add kernel command 
 c03791085adcd61fa9b766ab303c7d0941d7378d cpufreq: Pass the policy to cpufreq_driver->adjust_perf()
 9487e2a00e7b3c6f258c5c99953f470eba6fb61d MAINTAINERS: amd-pstate: Step down as maintainer, add Prateek as reviewer
 
---===============7672763076365337504==--
+--===============0674028031408012778==--
