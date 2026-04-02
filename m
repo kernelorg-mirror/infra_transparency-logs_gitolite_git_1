@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
-Date: Thu, 02 Apr 2026 21:56:37 -0000
-Message-Id: <177516699750.1883017.4018581732499955750@gitolite.kernel.org>
+Date: Thu, 02 Apr 2026 21:56:48 -0000
+Message-Id: <177516700818.1883244.5504390173835787274@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,8 +11,8 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/perf/perf-tools-next
 user: namhyung
 changes:
-  - ref: refs/heads/tmp.perf-tools-next
-    old: 98fb63998c72ab248ea1e02aa96a8e1f8e6d8a33
+  - ref: refs/heads/perf-tools-next
+    old: d9db9c8db56c3e378aa5c91637664f77ca5a6f72
     new: eb27e1c885ea75c1661188a548d100c8bce5970a
     log: |
          b5708a308a5602d4a3caf0720dce452082d443ec perf stat: Fix crash on arm64
