@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/superm1/linux
-Date: Thu, 02 Apr 2026 16:27:05 -0000
-Message-Id: <177514722527.1597953.10801558161006583003@gitolite.kernel.org>
+Date: Thu, 02 Apr 2026 16:27:24 -0000
+Message-Id: <177514724412.1598294.6019987427082675758@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,8 +11,8 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/superm1/linux
 user: superm1
 changes:
-  - ref: refs/heads/bleeding-edge
-    old: a2db5f18169f8d80bae411c10d29272029a174ae
+  - ref: refs/heads/linux-next
+    old: a458af0c65e9c0ed213e5550954fd13c127ae664
     new: 61957fea28500675af3cbb75597834f6bb85a171
     log: |
          d8348e68114ff31473c16bbb80d49d3686ee4af6 cpufreq/amd-pstate: Add dynamic energy performance preference
