@@ -1,56 +1,68 @@
-Content-Type: multipart/mixed; boundary="===============8616263320359366922=="
+Content-Type: multipart/mixed; boundary="===============4624686507986571223=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
-Date: Thu, 02 Apr 2026 12:01:32 -0000
-Message-Id: <177513129270.1306446.12645107850791647287@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/iommu/linux
+Date: Thu, 02 Apr 2026 12:03:54 -0000
+Message-Id: <177513143434.1307643.1902318794747519250@gitolite.kernel.org>
 
---===============8616263320359366922==
+--===============4624686507986571223==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/linux
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/iommu/linux
+user: joro
 changes:
-  - ref: refs/notes/signatures/tar
-    old: d0b044ab0d1baa4d3d90c4ab3ec4bdbc81492f9d
-    new: 0233a4f30e5d11e21c943cf18df0c17d73b723c9
-    log: |
-         0233a4f30e5d11e21c943cf18df0c17d73b723c9 Notes added by 'git notes add'
-         
+  - ref: refs/heads/master
+    old: 425cf8a7181f7e67ea02546549817a54fbb2568a
+    new: f65dcdf9d6bb7e2ffad75fdb2aafe85547bc38c3
+    log: revlist-425cf8a7181f-f65dcdf9d6bb.txt
+  - ref: refs/heads/next
+    old: 0fe03dddbcd5e221141de6077b175ada4a21819b
+    new: ba6bf814375523cc6d596e32907252a360a0c6cb
+    log: revlist-0fe03dddbcd5-ba6bf8143755.txt
 
---===============8616263320359366922==
+--===============4624686507986571223==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-425cf8a7181f-f65dcdf9d6bb.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1775131291 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
-nonce 1775131291-332e139ed42f51293db4f658472c4c0bb94ac8f0
+cc5bd898ff70710ffc41cd8e5c2741cb64750047 iommu/vt-d: Block PASID attachment to nested domain with dirty tracking
+922e2598a40f1851620144b3997aeefe066bd4de iommu/vt-d: Rename device_set_dirty_tracking() and pass dmar_domain pointer
+ae2fafc19e7bfcdd00920888468546f35286e715 iommu/vt-d: Support dirty tracking on PASID
+c9587216d991120c3cf546bcd708422b26334888 iommufd/selftest: Test dirty tracking on PASID
+973009137138aa6372c2346d389601e26659645b iommu/vt-d: Remove dmar_readl() and dmar_readq()
+51234c4e57c8cee33dfcbdd07e65ab06c86eb326 iommu/vt-d: Remove dmar_writel() and dmar_writeq()
+b6fd468a052e43fa4e3a00837fbf44a05cc1ca11 iommu/vt-d: Split piotlb invalidation into range and all
+e36ee89679f4869c6deffd5392967820464dcbc6 iommu/vt-d: Pass size_order to qi_desc_piotlb() not npages
+b334d7f7e230ff742993629a7a5181f33d9c54af iommu/vt-d: Remove the remaining pages along the invalidation path
+faad224fe0f0857a04ff2eb3c90f0de57f47d0f3 iommu/amd: Fix clone_alias() to use the original device's devid
+40a13b49957937427bc23e78eb50679df4396a47 iommu/riscv: Remove overflows on the invalidation path
+5aac28784dca6819e96e5f93e644cdee59e50f6e iommu/amd: Invalidate IRT cache for DMA aliases
+ba6bf814375523cc6d596e32907252a360a0c6cb Merge branches 'fixes', 'arm/smmu/updates', 'arm/smmu/bindings', 'riscv', 'intel/vt-d', 'amd/amd-vi' and 'core' into next
+f65dcdf9d6bb7e2ffad75fdb2aafe85547bc38c3 Merge branch 'next'
 
-d0b044ab0d1baa4d3d90c4ab3ec4bdbc81492f9d 0233a4f30e5d11e21c943cf18df0c17d73b723c9 refs/notes/signatures/tar
------BEGIN PGP SIGNATURE-----
+--===============4624686507986571223==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-0fe03dddbcd5-ba6bf8143755.txt
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmnOWpsbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+B0AQAMfZtEKJ9djkdMvhew3W
-WBbxTIFSmjmZ3yINdHwf19nGoUO8l4AVOVliXhpD3vD53z1aN5hlX4heD1SmS8V3
-bYfGG9ttlLGw3zngNPs/kwHk6zxgqMmGTpmp7+mSwUGxrQbQSG1wqLHIYxw4pmPG
-/J63FQu7qxTlDamYA7zG377VJfxVBRYc0KJJJ0JvjRp5TaVw05WpjsKBrqFTewB4
-c7ks1Q9f0BALCIdEvL09ZDW6aSwDIXXqebtq0R6S+hIvpiujA4lDZtvW3rrOthYG
-ApUd7L1fimvonxtg2yvr1Ci0H4epY1yQGFu56Ld0Tc+s4G59auS1CM8dVGoMuVK9
-4Ob1PgVwowUSQ896fbfilxwaH/zXQTStZvEtLG24BuNmXLQwZ6OBJy8rxOjAmwIL
-YCJYePwVBA414fw+/BG72zvcsebVUFehfSEE1D4iw/ugwz4aORtut4+XAQw4m5pz
-eR8fKHfC0/Pd18VDW/oiGklQDwJrUWcg86UgJgAbj1FQYIsZuR5fuzfzBJnFKzkZ
-W9ZsN+WtuU4ge8sMSeue1EKqTW9NkZvPHZLBx9Agm7XJdBBxnwyPrrUw/NfdQ4Ed
-rjlMggNVSkKmJ7TMu3uSockB7Tk2vbVQpCCuiZHq4lg6lruKTHs6p3qWiP/Sfd64
-DekF+RHjsUmdlUMuCDA/bCAo
-=JMeo
------END PGP SIGNATURE-----
+cc5bd898ff70710ffc41cd8e5c2741cb64750047 iommu/vt-d: Block PASID attachment to nested domain with dirty tracking
+922e2598a40f1851620144b3997aeefe066bd4de iommu/vt-d: Rename device_set_dirty_tracking() and pass dmar_domain pointer
+ae2fafc19e7bfcdd00920888468546f35286e715 iommu/vt-d: Support dirty tracking on PASID
+c9587216d991120c3cf546bcd708422b26334888 iommufd/selftest: Test dirty tracking on PASID
+973009137138aa6372c2346d389601e26659645b iommu/vt-d: Remove dmar_readl() and dmar_readq()
+51234c4e57c8cee33dfcbdd07e65ab06c86eb326 iommu/vt-d: Remove dmar_writel() and dmar_writeq()
+b6fd468a052e43fa4e3a00837fbf44a05cc1ca11 iommu/vt-d: Split piotlb invalidation into range and all
+e36ee89679f4869c6deffd5392967820464dcbc6 iommu/vt-d: Pass size_order to qi_desc_piotlb() not npages
+b334d7f7e230ff742993629a7a5181f33d9c54af iommu/vt-d: Remove the remaining pages along the invalidation path
+faad224fe0f0857a04ff2eb3c90f0de57f47d0f3 iommu/amd: Fix clone_alias() to use the original device's devid
+40a13b49957937427bc23e78eb50679df4396a47 iommu/riscv: Remove overflows on the invalidation path
+5aac28784dca6819e96e5f93e644cdee59e50f6e iommu/amd: Invalidate IRT cache for DMA aliases
+ba6bf814375523cc6d596e32907252a360a0c6cb Merge branches 'fixes', 'arm/smmu/updates', 'arm/smmu/bindings', 'riscv', 'intel/vt-d', 'amd/amd-vi' and 'core' into next
 
---===============8616263320359366922==--
+--===============4624686507986571223==--
