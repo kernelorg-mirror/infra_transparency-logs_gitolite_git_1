@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/klassert/ipsec
-Date: Thu, 02 Apr 2026 14:21:21 -0000
-Message-Id: <177513968158.1484487.1271505115776819569@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/security/vulns
+Date: Thu, 02 Apr 2026 14:22:53 -0000
+Message-Id: <177513977399.1484996.619778842417294238@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/klassert/ipsec
-user: klassert
+repo: pub/scm/linux/security/vulns
+user: sashal
 changes:
-  - ref: refs/heads/testing
-    old: 9b93304bdcd21cc38dd3480540666fea9c62cd99
-    new: e5b5eb4e613c767d511bd465028c3bfdf64be4d1
+  - ref: refs/heads/sasha-cvss
+    old: f51f7ce3848ce822fa6a7ce6d9374a0bbc352fb4
+    new: f18e2cac9d5fdf9a02bac6548facede30f055e5d
     log: |
-         d22e2bfacee5ae3a6e2cf7778805656614907963 xfrm: Wait for RCU readers during policy netns exit
-         e5b5eb4e613c767d511bd465028c3bfdf64be4d1 xfrm: hold dev ref until after transport_finish NF_HOOK
+         0189263b49b43acf80bbfb367b7e5d0534d8b1f0 CVE-2026-23235: Add CVSS 3.1 score (6.7 MEDIUM)
+         f18e2cac9d5fdf9a02bac6548facede30f055e5d CVE-2026-23236: Add CVSS 3.1 score (7.3 HIGH)
          
