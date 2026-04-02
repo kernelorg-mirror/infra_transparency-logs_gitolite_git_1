@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3357718652919246406=="
+Content-Type: multipart/mixed; boundary="===============8237678675905696473=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/geert/renesas-drivers
-Date: Thu, 02 Apr 2026 15:29:12 -0000
-Message-Id: <177514375250.1547210.1923945733232524845@gitolite.kernel.org>
+Date: Thu, 02 Apr 2026 15:30:57 -0000
+Message-Id: <177514385766.1550586.4196162310165692687@gitolite.kernel.org>
 
---===============3357718652919246406==
+--===============8237678675905696473==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,26 +16,26 @@ repo: pub/scm/linux/kernel/git/geert/renesas-drivers
 user: geert
 changes:
   - ref: refs/heads/v6.18.19-2026-04-02-x5h-ironhide
-    old: 3bffef582cfe7fb1cdd46def38f5c544716d2c2f
-    new: 7868b25c2faeae59f7574d1812857e4b20d82b81
-    log: revlist-3bffef582cfe-7868b25c2fae.txt
+    old: 7868b25c2faeae59f7574d1812857e4b20d82b81
+    new: b91a40c3eeca3f646682832d7c216c36535bf011
+    log: revlist-7868b25c2fae-b91a40c3eeca.txt
 
---===============3357718652919246406==
+--===============8237678675905696473==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3bffef582cfe-7868b25c2fae.txt
+Content-Disposition: attachment; filename=revlist-7868b25c2fae-b91a40c3eeca.txt
 
-f8b98157d140cec16e0ee649fb0119e465cb1c4a [RFC] clk: renesas: Add R-Car X5H CPG SCMI remapping driver
-332ae8cc8809bc9bfb6701ce340b86f7e3ff1472 [RFC] pmdomain: renesas: Add R-Car X5H MDLC SCMI remapping driver
-520ec772bfc90e5112ee5187941bd3f57ec910db [RFC] arm64: renesas: dts: r8a78000: Enable SCMI devpd, sys, and reset
-3779b269708ea56cd55c1a7da2b70d48a6b5ec9a [RFC] arm64: dts: renesas: r8a78000: Add CPG/MDLC nodes
-47e3b050746078109cc4afa22ecfe076c0422081 [RFC] arm64: dts: renesas: r8a78000: ironhide: Add CPG/MDLC firmware properties
-6e6a8d7961eb9547a174c7846ca7650b2eb6236d scsi: ufs: renesas: Add dummy R-Car X5H support
-16ade1c3ef32bcc9a383180bf17c1c780c612447 arm64: dts: renesas: ironhide: Enable HSCIF1, SCFIF0, and SCIF1
-7794e8d874ce744f2f77ef555d9bcaead2b8098e arm64: dts: renesas: r8a78000: Add dummy UFS node
-69eacfb022b23b0c47e2498fabe82e207d5a5eec REMOVE ME: firmware: arm_scmi: Print shortname-to-ID mapping
-0e39ac4a51ad448681b56db7e2c8756d6419b072 arm64: defconfig: Enable Renesas MFIS
-7868b25c2faeae59f7574d1812857e4b20d82b81 arm64: renesas_defconfig: Enable Renesas MFIS
+bc56f806a61e0d7469b4232e7d6709d515d03cda [RFC] clk: renesas: Add R-Car X5H CPG SCMI remapping driver
+a03e30955562050529e2a1a981c534cfcdfd3fbd [RFC] pmdomain: renesas: Add R-Car X5H MDLC SCMI remapping driver
+8ed9f2ffe4425ac3555515f073c58fff45ef6645 [RFC] arm64: renesas: dts: r8a78000: Enable SCMI devpd, sys, and reset
+025f6931ed425d9090f2661a3257b6b9e8f171ca [RFC] arm64: dts: renesas: r8a78000: Add CPG/MDLC nodes
+2eaed24c99929522f5aacaed61cc72ac86a55bf4 [RFC] arm64: dts: renesas: r8a78000: ironhide: Add CPG/MDLC firmware properties
+fe9e6a0fe8c7f3e577e60bde267facf4a8a83c53 scsi: ufs: renesas: Add dummy R-Car X5H support
+62c5d4c23fb352d4f9e9ea00d7a0ede0e08aea99 arm64: dts: renesas: ironhide: Enable HSCIF1, SCFIF0, and SCIF1
+447d679958ac4d26798e1b402a0efbe4b7aa0d6d arm64: dts: renesas: r8a78000: Add dummy UFS node
+91f945dce6a9a465dbc9273d1e0b2a4df877f202 REMOVE ME: firmware: arm_scmi: Print shortname-to-ID mapping
+53f80291ded800de601a7a2bbfa4e6474c3e70e8 arm64: defconfig: Enable Renesas MFIS
+b91a40c3eeca3f646682832d7c216c36535bf011 arm64: renesas_defconfig: Enable Renesas MFIS
 
---===============3357718652919246406==--
+--===============8237678675905696473==--
