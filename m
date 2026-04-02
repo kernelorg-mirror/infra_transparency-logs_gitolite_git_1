@@ -1,21 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/security/vulns
-Date: Thu, 02 Apr 2026 14:13:47 -0000
-Message-Id: <177513922747.1474260.11548649667856453175@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/s390/linux
+Date: Thu, 02 Apr 2026 14:14:22 -0000
+Message-Id: <177513926297.1474744.2520859245351283855@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/security/vulns
-user: sashal
+repo: pub/scm/linux/kernel/git/s390/linux
+user: gor
 changes:
-  - ref: refs/heads/sasha-cvss
-    old: d61a76e2401bfb0a10e0cb876aec38354da64eeb
-    new: 238e0c996bb214bdfff07137b47197bef3c40c32
-    log: |
-         22d30b38015f5a439572e9147413a7b6927e54a2 CVE-2026-23243: Add CVSS 3.1 score (7.8 HIGH)
-         4d2c52beef7f6190400d4d5113cf5975f7c60583 CVE-2026-23242: Add CVSS 3.1 score (7.5 HIGH)
-         238e0c996bb214bdfff07137b47197bef3c40c32 CVE-2026-23241: Add CVSS 3.1 score (3.3 LOW)
-         
+  - ref: refs/tags/v7.0-rc4
+    old: 0000000000000000000000000000000000000000
+    new: 34cb4f916af10153c87fabaf6c34e4cafa170427
+  - ref: refs/tags/v7.0-rc5
+    old: 0000000000000000000000000000000000000000
+    new: d1d81e9d1a4dd846aee9ae77ff9ecc2800d72148
+  - ref: refs/tags/v7.0-rc6
+    old: 0000000000000000000000000000000000000000
+    new: b6c7d19951061de1be08fb8f5714e630b24bcc1c
