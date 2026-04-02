@@ -1,39 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/arm64/linux
-Date: Thu, 02 Apr 2026 10:29:20 -0000
-Message-Id: <177512576085.1002401.12067227985640893781@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/security/vulns
+Date: Thu, 02 Apr 2026 10:31:28 -0000
+Message-Id: <177512588803.1005807.1003624104570430481@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/arm64/linux
-user: cmarinas
+repo: pub/scm/linux/security/vulns
+user: sashal
 changes:
-  - ref: refs/heads/for-kernelci
-    old: 851b1b577f73c4bb4aada2bf0aaa18e8ddc268bf
-    new: 2465c01b82dad9152613ea77d62a39a2fade795d
+  - ref: refs/heads/sasha-cvss
+    old: 61eb4af649821292b011badaa25b6e2a54fd18d8
+    new: b78e62c2466bf760b2ad2b56241ede5ace286053
     log: |
-         dffe1749a2fbfb10048f1eb82447db8632999087 arm64: errata: Work around early CME DVMSync acknowledgement
-         47e8d970392b704e25ab07d56eaa96af4520b3ea Merge branches 'for-next/misc', 'for-next/tlbflush', 'for-next/ttbr-macros-cleanup', 'for-next/kselftest', 'for-next/feat_lsui', 'for-next/mpam' and 'for-next/hotplug-batched-tlbi', remote-tracking branch 'arm64/for-next/read-once' into for-next/core
-         c6ea6b466ef851eb16273e3d38607f7c5e730186 Merge branch 'for-next/c1-pro-erratum-4193714' into for-next/core
-         9c9e8ea3a2fda22420aa6f0a704053d47dc90b81 Merge remote-tracking branch 'arm64/for-next/fixes' into for-kernelci
-         6b952f4e5832872fa886ab8c7ab38aebc3343b59 Merge branch 'for-next/core' into for-kernelci
-         33e34db4aa203c486d101449a11041c81d0b4f2b Merge remote-tracking branch 'will/for-next/perf' into for-kernelci
-         2465c01b82dad9152613ea77d62a39a2fade795d Merge remote-tracking branch 'origin/nocache-cleanup' into for-kernelci
+         181bc3ac3fd9442f425dd38384f01f4b0d5b4e49 CVE-2026-23366: Add CVSS 3.1 score (4.7 MEDIUM)
+         af7ac64b9b45b940c48e506b074850a45022bbb0 CVE-2026-23365: Add CVSS 3.1 score (4.6 MEDIUM)
+         4534c504065a272d6081b19d736253c6bef3b228 CVE-2026-23364: Add CVSS 3.1 score (7.4 HIGH)
+         9f266e0250c3bff700e2e6332c0a7ea15313a723 CVE-2026-23361: Add CVSS 3.1 score (4.1 MEDIUM)
+         ada642300c69670a69847fbe22d2ae6866033ce9 CVE-2026-23362: Add CVSS 3.1 score (5.5 MEDIUM)
+         b78e62c2466bf760b2ad2b56241ede5ace286053 CVE-2026-23367: Add CVSS 3.1 score (3.3 LOW)
          
-  - ref: refs/heads/for-next/core
-    old: b0d2e5068daa007f990df871ce340072f41d6d3f
-    new: c6ea6b466ef851eb16273e3d38607f7c5e730186
-    log: |
-         fe60ae15885e30375672c159d666cd898ac53eb3 arm64: tlb: Introduce __tlbi_sync_s1ish_{kernel,batch}() for TLB maintenance
-         420e6f1b19f532dfcd422a9560cbe1db0b048384 arm64: tlb: Pass the corresponding mm to __tlbi_sync_s1ish()
-         57e9c1f3ec580ce3321c9ea53accc763e7195470 arm64: cputype: Add C1-Pro definitions
-         dffe1749a2fbfb10048f1eb82447db8632999087 arm64: errata: Work around early CME DVMSync acknowledgement
-         47e8d970392b704e25ab07d56eaa96af4520b3ea Merge branches 'for-next/misc', 'for-next/tlbflush', 'for-next/ttbr-macros-cleanup', 'for-next/kselftest', 'for-next/feat_lsui', 'for-next/mpam' and 'for-next/hotplug-batched-tlbi', remote-tracking branch 'arm64/for-next/read-once' into for-next/core
-         c6ea6b466ef851eb16273e3d38607f7c5e730186 Merge branch 'for-next/c1-pro-erratum-4193714' into for-next/core
-         
-  - ref: refs/heads/for-next/c1-pro-erratum-4193714
-    old: 0000000000000000000000000000000000000000
-    new: dffe1749a2fbfb10048f1eb82447db8632999087
