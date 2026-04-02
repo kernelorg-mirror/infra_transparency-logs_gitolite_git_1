@@ -1,51 +1,21 @@
-Content-Type: multipart/mixed; boundary="===============8519073517657900057=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Thu, 02 Apr 2026 14:13:11 -0000
-Message-Id: <177513919137.1473824.7475834179834441973@gitolite.kernel.org>
-
---===============8519073517657900057==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/security/vulns
+Date: Thu, 02 Apr 2026 14:13:47 -0000
+Message-Id: <177513922747.1474260.11548649667856453175@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
-user: broonie
-git_push_cert_status: G
+repo: pub/scm/linux/security/vulns
+user: sashal
 changes:
-  - ref: refs/heads/spi-7.1
-    old: 762a3847a05c5c229009d36fbd0e2feee9dff81a
-    new: abe572f630bc1f0e77041012ab075869036ede4f
+  - ref: refs/heads/sasha-cvss
+    old: d61a76e2401bfb0a10e0cb876aec38354da64eeb
+    new: 238e0c996bb214bdfff07137b47197bef3c40c32
     log: |
-         b99e3ddb91b499d920e63a2daff8880be68cfe9e spi: ch341: fix memory leaks on probe failures
-         abe572f630bc1f0e77041012ab075869036ede4f spi: ch341: fix devres lifetime
+         22d30b38015f5a439572e9147413a7b6927e54a2 CVE-2026-23243: Add CVSS 3.1 score (7.8 HIGH)
+         4d2c52beef7f6190400d4d5113cf5975f7c60583 CVE-2026-23242: Add CVSS 3.1 score (7.5 HIGH)
+         238e0c996bb214bdfff07137b47197bef3c40c32 CVE-2026-23241: Add CVSS 3.1 score (3.3 LOW)
          
-
---===============8519073517657900057==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1775139189 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1775139189-ed384b89cad88fba1c4abd1c9607ac6e1e7dda56
-
-762a3847a05c5c229009d36fbd0e2feee9dff81a abe572f630bc1f0e77041012ab075869036ede4f refs/heads/spi-7.1
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmnOeXUACgkQJNaLcl1U
-h9C1BQgAg4Sg8LnE5HjxJg5z4LEJT8d2ZPJmHeF8EK5fGVzSWfaIf97U8VPpMqqe
-Te7bYyNlPNtn/pGr4UtCij1qQqls8aY1L8Vr85wl5arANh+Y/GVu+PeBE2LcPvBr
-v89J84+HPl72LAqarAKBHhr7MR8abcWpJpTm5qXRADN3I852Ug0a6SMbfiFlDVPA
-cuOyWihcxKhnneMA/aIxQ0cZrdfmqpBiwdc2RLnwI4g/Ow7Wyt8AVry7/RXJkpWN
-Uy+qKAFlpEuC8MgKVg3CdntJfCae5Umkd9VwdFwrbGsdCWwX12LxkyBPbkZRFT3r
-dimSRBFFLIRxqahmYPObjlDtP1Y3hQ==
-=03wo
------END PGP SIGNATURE-----
-
---===============8519073517657900057==--
