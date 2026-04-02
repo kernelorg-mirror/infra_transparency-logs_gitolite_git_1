@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8050680948881489745=="
+Content-Type: multipart/mixed; boundary="===============6722050234742941832=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mda/linux-next
-Date: Thu, 02 Apr 2026 07:02:20 -0000
-Message-Id: <177511334099.828896.5346286161904928377@gitolite.kernel.org>
+Date: Thu, 02 Apr 2026 07:03:55 -0000
+Message-Id: <177511343545.829644.16029384588445864703@gitolite.kernel.org>
 
---===============8050680948881489745==
+--===============6722050234742941832==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/mda/linux-next
 user: mda
 changes:
-  - ref: refs/heads/master
-    old: 36ece9697e89016181e5ae87510e40fb31d86f2b
-    new: bd0f139e5fc11182777b81cefc3893ea508544ec
-    log: revlist-36ece9697e89-bd0f139e5fc1.txt
+  - ref: refs/heads/hsr-prp-ptp
+    old: 1f3f4f00bcfbb5520cf456576c55a876fdfdea0e
+    new: 7f99cf03e38049412b116eedb3d39c839d7d4ce6
+    log: revlist-1f3f4f00bcfb-7f99cf03e380.txt
 
---===============8050680948881489745==
+--===============6722050234742941832==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-36ece9697e89-bd0f139e5fc1.txt
+Content-Disposition: attachment; filename=revlist-1f3f4f00bcfb-7f99cf03e380.txt
 
 4a1cec7450b7159a0ee57403f44460ac4d618b4f tools/rtla: Generate optstring from long options
 153e211fc74a096cbd3570ca7388ab4cbeadc6c5 tools/build: Add feature test for libcheck
@@ -885,5 +885,8 @@ ace36c9dee4a1d83eaa1a3c2a6b62269e0ba1f03 Merge branch 'for-next' of https://git.
 67014277c214f9b5cf15736fff2232e56b39c340 Merge branch 'for-next' of https://github.com/hisilicon/linux-hisi.git
 95886eb057728c2f2299c5a990d2549ba03cd6cc Revert "mm/sparse: fix BUILD_BUG_ON check for section map alignment"
 bd0f139e5fc11182777b81cefc3893ea508544ec Add linux-next specific files for 20260401
+d8ea1d241c0897d862355f514a4bced199160387 hsr: Allow to send a specific port and with HSR header
+c6c17d3f78f311bab0bf44dab62ee9f79d6f98ca af_packet: Add port specific handling for HSR
+7f99cf03e38049412b116eedb3d39c839d7d4ce6 PENDING: net: ti: icssg-prueth: Add conditional checks for HSR offload behaviors
 
---===============8050680948881489745==--
+--===============6722050234742941832==--
