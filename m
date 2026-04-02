@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7365360395046341098=="
+Content-Type: multipart/mixed; boundary="===============2454746146583106581=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Thu, 02 Apr 2026 00:15:05 -0000
-Message-Id: <177508890509.503743.6406900375100341230@gitolite.kernel.org>
+Date: Thu, 02 Apr 2026 00:15:06 -0000
+Message-Id: <177508890639.504139.14744347841439047501@gitolite.kernel.org>
 
---===============7365360395046341098==
+--===============2454746146583106581==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/mm-new
-    old: ef222121d2def3e8fb4726cc970dd2c3959a3a8b
-    new: be35f663b117d6b7941defb74399bae7e59ce49c
-    log: revlist-ef222121d2de-be35f663b117.txt
+  - ref: refs/heads/mm-unstable
+    old: d873dd7a326a5b9f970008d4b59ae2c9e4e9b12b
+    new: a31ffc4ab7bee1f903fbbb661f6411ce16ae19f4
+    log: revlist-d873dd7a326a-a31ffc4ab7be.txt
 
---===============7365360395046341098==
+--===============2454746146583106581==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ef222121d2de-be35f663b117.txt
+Content-Disposition: attachment; filename=revlist-d873dd7a326a-a31ffc4ab7be.txt
 
 b5d53b65366415fbc51e17bd28af412fe8996537 mm/swap: strengthen locking assertions and invariants in cluster allocation
 6467ffb7106b840ba9291b9f1788a7e092ef384b mm/damon/core: introduce damos_quota_goal_tuner
@@ -295,13 +295,5 @@ b6356b224173030369ef21881406869749b39048 mm/damon/core: validate damos_quota_goa
 927549713db29d096064d876428455daa85ac8cb Docs/admin-guide/mm/damon/reclaim: warn commit_inputs vs param updates race
 985c66267c4aecfb1bd2aede267689aa579e9798 Docs/admin-guide/mm/damon/lru_sort: warn commit_inputs vs param updates race
 a31ffc4ab7bee1f903fbbb661f6411ce16ae19f4 mm/mempolicy: fix memory leaks in weighted_interleave_auto_store()
-3067a913f40a7608b8c3ea16c46ca938e8a41440 tools/testing/selftests: add merge test for partial msealed range
-eab48f45cbfbcbfa184c3c2e59a62a16e808c0c1 selftests/mm: skip hugetlb_dio tests when DIO alignment is incompatible
-bdff8d292a2a25e1d8da70c4b65561c9cdc1e0a3 lib: test_hmm: evict device pages on file close to avoid use-after-free
-e9436b4eea8366bb3859cee0a16f6896f25e595d selftests/mm: hmm-tests: don't hardcode THP size to 2MB
-300423c0c2175d4cc647f2ab4b55f707544cbcf2 lib: test_hmm: implement a device release method
-0310cbed659874e210e2493ea1228712872f2aab zram: do not forget to endio for partial discard requests
-9a98767252d20a56fbbac6a173ad6d27c8f6e531 mm/sparse: fix preinited section_mem_map clobbering on failure path
-be35f663b117d6b7941defb74399bae7e59ce49c mm/vmstat: spread vmstat_update requeue across the stat interval
 
---===============7365360395046341098==--
+--===============2454746146583106581==--
