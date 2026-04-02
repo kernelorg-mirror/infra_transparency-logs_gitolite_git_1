@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0856525940565764062=="
+Content-Type: multipart/mixed; boundary="===============4604459033619367250=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/qcom/linux
-Date: Thu, 02 Apr 2026 21:43:19 -0000
-Message-Id: <177516619924.1871808.460633286065059758@gitolite.kernel.org>
+Date: Thu, 02 Apr 2026 21:43:21 -0000
+Message-Id: <177516620102.1871892.16330506803044876636@gitolite.kernel.org>
 
---===============0856525940565764062==
+--===============4604459033619367250==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,22 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/qcom/linux
 user: andersson
 changes:
-  - ref: refs/heads/arm64-for-7.1
-    old: b683730e27ba4f91986c4c92f5cb7297f1e01a6d
-    new: af241225893ac4933bb8f0615f2dfda8ea2326ce
-    log: revlist-b683730e27ba-af241225893a.txt
-  - ref: refs/heads/drivers-for-7.1
-    old: d6e766e391ef0b2be62682e007223fc72ba7764f
-    new: a31ad9339eff4ce401dec816b01a94b4e3c47898
-    log: |
-         a31ad9339eff4ce401dec816b01a94b4e3c47898 firmware: qcom: scm: Allow QSEECOM on Lenovo IdeaCentre Mini X
-         
+  - ref: refs/heads/for-next
+    old: 33b1a2ee3a3df63e7a08e51e6de2b2d28ddf257f
+    new: 3e7658b98c0469874682f0c5d4ed5cbdbf802a60
+    log: revlist-33b1a2ee3a3d-3e7658b98c04.txt
 
---===============0856525940565764062==
+--===============4604459033619367250==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b683730e27ba-af241225893a.txt
+Content-Disposition: attachment; filename=revlist-33b1a2ee3a3d-3e7658b98c04.txt
 
 b4cfbee0df3540b36b78e9d8e3c6d93f3206fecc arm64: dts: qcom: glymur-crd: Enable DisplayPort support
 6a9e8df732014c1c758bd3cd6254b5b4cb273c7f arm64: dts: qcom: sdm845-lg-common: Sort nodes and properties
@@ -63,5 +57,7 @@ fd3850cde71f284ca69f70b904df78f561ece103 arm64: dts: qcom: talos: Add camera MCL
 2b676b5a13d28eb038b4e54dae8e161a7be58d96 arm64: dts: qcom: sdm845-shift-axolotl: Enable TFA9890 codec
 2e80b497497c0d49d7809702f0e70465f88fe7a4 dt-bindings: arm: qcom: Document the Lenovo IdeaCentre Mini X
 af241225893ac4933bb8f0615f2dfda8ea2326ce arm64: dts: qcom: Add the Lenovo IdeaCentre Mini X
+a31ad9339eff4ce401dec816b01a94b4e3c47898 firmware: qcom: scm: Allow QSEECOM on Lenovo IdeaCentre Mini X
+3e7658b98c0469874682f0c5d4ed5cbdbf802a60 Merge branches 'arm32-for-7.1', 'arm64-defconfig-for-7.1', 'arm64-fixes-for-7.0', 'arm64-for-7.1', 'clk-fixes-for-7.0', 'clk-for-7.1', 'drivers-fixes-for-7.0' and 'drivers-for-7.1' into for-next
 
---===============0856525940565764062==--
+--===============4604459033619367250==--
