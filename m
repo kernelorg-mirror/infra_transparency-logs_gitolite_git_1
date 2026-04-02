@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/security/vulns
-Date: Thu, 02 Apr 2026 14:34:03 -0000
-Message-Id: <177514044353.1495291.13016680312505650862@gitolite.kernel.org>
+Date: Thu, 02 Apr 2026 14:35:04 -0000
+Message-Id: <177514050466.1498036.3996163158045639167@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/security/vulns
 user: sashal
 changes:
   - ref: refs/heads/sasha-cvss
-    old: 5a2c5ce9e5d9c8f600cd81bb75730c21b7107613
-    new: e1603e003f36f6edf73cd2b4c5b26314e1b68740
+    old: e1603e003f36f6edf73cd2b4c5b26314e1b68740
+    new: d5360ade5d44c65525952b68b26078b70cc7d48c
     log: |
-         e1603e003f36f6edf73cd2b4c5b26314e1b68740 CVE-2026-23226: Add CVSS 3.1 score (8.8 HIGH)
+         d5360ade5d44c65525952b68b26078b70cc7d48c CVE-2026-23225: Add CVSS 3.1 score (7.8 HIGH)
          
