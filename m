@@ -1,21 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
-Date: Thu, 02 Apr 2026 03:52:05 -0000
-Message-Id: <177510192579.681328.5910859001271823266@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/b4/b4
+Date: Thu, 02 Apr 2026 04:05:18 -0000
+Message-Id: <177510271835.692711.17011217574184812699@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/25-new
-user: akpm
+repo: pub/scm/utils/b4/b4
+user: mricon
 changes:
   - ref: refs/heads/master
-    old: 91f7c6c0d92504f793f6603f0e9c1baa3d858fc4
-    new: 0f905b5ac3d0511a898cf22e0144082be14cdd2a
+    old: 56bf9f1d338fe925cca03466db38ed58e0eb9d22
+    new: efa4b16ff0ae6738aa7fc7e4bef57666ff6dede2
     log: |
-         c0636c4b85f7967884090d0adf7ee3190114f5ae foo
-         ffa9083ebfc4ee7e0ef2367cc264d77b34d594b7 foo
-         0f905b5ac3d0511a898cf22e0144082be14cdd2a foo
+         bc0385f6e2c7d4a334afd95c76babab80c99b517 bugs: accept lore URLs in import screen
+         37aed59afcf258684faf38377037a27cb23a720c bugs: show repository name and bug count in title bar
+         efa4b16ff0ae6738aa7fc7e4bef57666ff6dede2 bugs: suppress log output during import and reply workers
          
