@@ -1,55 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============3311680139346292243=="
+Content-Type: multipart/mixed; boundary="===============3064789903634508925=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Thu, 02 Apr 2026 19:14:40 -0000
-Message-Id: <177515728003.1741456.17144127539932813726@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Thu, 02 Apr 2026 19:14:50 -0000
+Message-Id: <177515729082.1741779.16934888649947984106@gitolite.kernel.org>
 
---===============3311680139346292243==
+--===============3064789903634508925==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/asoc-7.1
-    old: aeac022e4de78b20736d55acb98180c798a6a1ae
-    new: e8f504c790103a3221a2f2082704b9f2245d81e8
-    log: revlist-aeac022e4de7-e8f504c79010.txt
+  - ref: refs/heads/for-next
+    old: a75c8d1e99c07eb0cf9700d0a039a95df81df15d
+    new: ba916087723b6897cf4643dd3d47d11561ab0252
+    log: revlist-a75c8d1e99c0-ba916087723b.txt
 
---===============3311680139346292243==
+--===============3064789903634508925==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1775157277 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1775157277-6132273fc208019160dce830ee173803301aef6e
-
-aeac022e4de78b20736d55acb98180c798a6a1ae e8f504c790103a3221a2f2082704b9f2245d81e8 refs/heads/asoc-7.1
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmnOwB0ACgkQJNaLcl1U
-h9C3Iwf+LjIm6aFBRzhHhMy58WCXYD7ycaEP1GXK34CTlV5yCUdidCn73UnUVgqQ
-+Ndq2kaH8aksauTM1IdtK8hTz34ocknRywm/cRq+MMDPaJoGEvLYesCnZ6J/lYSd
-qiZhvqALaWVhI/Kl0VkBpyh/aFCeWqd1EGR89m1iZJGwljMuEocymJOW7f1gTOGf
-Yz1VlHALcrDKHxzE7oivSfnk42clyYKwYVrym+A88AkjC+U9tcTSoWQpnVj8lTsK
-Wx9sRTLurCRQyL0sbb6/k4YSdpvV3dL8tRg24AJWrAnkJ/7WfxS/TDohfx4cMBbb
-G/MyCMofJWUJ05QP68jTJkhAzaNEFw==
-=xbfD
------END PGP SIGNATURE-----
-
---===============3311680139346292243==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-aeac022e4de7-e8f504c79010.txt
+Content-Disposition: attachment; filename=revlist-a75c8d1e99c0-ba916087723b.txt
 
 c7661bfc7422443df394c01e069ae4e5c3a7f04c ASoC: fsl_micfil: Add access property for "VAD Detected"
 59b9061824f2179fe133e2636203548eaba3e528 ASoC: fsl_micfil: Fix event generation in hwvad_put_enable()
@@ -77,5 +52,6 @@ b54a38af713830e76f60bab967fd06ee4301eaee ASoC: qcom: q6apm-lpass-dai: move graph
 d8b4163038dc02114474d96acefcb48adb4c6e0f ASoC: qcom: qdsp6: remove search for module iid in hot path
 8ea6e25c8536031604d95dc29a90ef0f114012d7 ASoC: qcom: q6apm: Add support for early buffer mapping on DSP
 e8f504c790103a3221a2f2082704b9f2245d81e8 ASoC: qcom: q6dsp: few fixes and enhancements
+ba916087723b6897cf4643dd3d47d11561ab0252 Merge remote-tracking branch 'asoc/for-7.1' into asoc-next
 
---===============3311680139346292243==--
+--===============3064789903634508925==--
