@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf
-Date: Thu, 02 Apr 2026 16:47:25 -0000
-Message-Id: <177514844589.1615968.4488176641849652268@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sudeep.holla/linux
+Date: Thu, 02 Apr 2026 16:49:02 -0000
+Message-Id: <177514854279.1616563.11573043316391091687@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf
-user: ast
+repo: pub/scm/linux/kernel/git/sudeep.holla/linux
+user: sudeep.holla
 changes:
-  - ref: refs/heads/master
-    old: ad8391d37f334ee73ba91926f8b4e4cf6d31ea04
-    new: b0db1accbc7395657c2b79db59fa9fae0d6656f3
+  - ref: refs/heads/for-next/ffa/fixes
+    old: a4e8473b775160f3ce978f621cf8dea2c7250433
+    new: e4c0bd9a9eff7eb0b4d9ed672ae66557dcb3acdc
     log: |
-         b0db1accbc7395657c2b79db59fa9fae0d6656f3 bpf: reject direct access to nullable PTR_TO_BUF pointers
+         e4c0bd9a9eff7eb0b4d9ed672ae66557dcb3acdc firmware: arm_ffa: Use the correct buffer size during RXTX_MAP
          
