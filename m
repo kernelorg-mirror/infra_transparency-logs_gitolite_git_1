@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Thu, 02 Apr 2026 15:23:41 -0000
-Message-Id: <177514342108.1542034.6351305180510424465@gitolite.kernel.org>
+Subject: post-receive: pub/scm/devel/pahole/pahole
+Date: Thu, 02 Apr 2026 15:23:59 -0000
+Message-Id: <177514343981.1542379.4638653627082553540@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/devel/pahole/pahole
+user: almagui
 changes:
-  - ref: refs/heads/main
-    old: 70f73562d278d9f88e7095e327f2a50082a82c65
-    new: b18c833888742ca9de80c250f9d40d0e97caa9f6
+  - ref: refs/heads/tmp.next
+    old: ce4c2ab3fc3065f2f35a410c91ebea07b6a21608
+    new: d5eb8ee2598ce028468fa50c6c5214524a0bf08d
     log: |
-         b18c833888742ca9de80c250f9d40d0e97caa9f6 vsock: initialize child_ns_mode_locked in vsock_net_init()
+         178b76972b1279c062dbc2c48a0b306cc33552b2 pahole: Add "layout" BTF encoding feature
+         d5eb8ee2598ce028468fa50c6c5214524a0bf08d man-pages: describe layout BTF feature
          
