@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sudeep.holla/linux
-Date: Thu, 02 Apr 2026 16:49:02 -0000
-Message-Id: <177514854279.1616563.11573043316391091687@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf
+Date: Thu, 02 Apr 2026 16:49:07 -0000
+Message-Id: <177514854705.1616855.8420081351852836697@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sudeep.holla/linux
-user: sudeep.holla
+repo: pub/scm/linux/kernel/git/bpf/bpf
+user: ast
 changes:
-  - ref: refs/heads/for-next/ffa/fixes
-    old: a4e8473b775160f3ce978f621cf8dea2c7250433
-    new: e4c0bd9a9eff7eb0b4d9ed672ae66557dcb3acdc
+  - ref: refs/heads/master
+    old: b0db1accbc7395657c2b79db59fa9fae0d6656f3
+    new: eb7024bfcc5f68ed11ed9dd4891a3073c15f04a8
     log: |
-         e4c0bd9a9eff7eb0b4d9ed672ae66557dcb3acdc firmware: arm_ffa: Use the correct buffer size during RXTX_MAP
+         eb7024bfcc5f68ed11ed9dd4891a3073c15f04a8 bpf: Reject sleepable kprobe_multi programs at attach time
          
