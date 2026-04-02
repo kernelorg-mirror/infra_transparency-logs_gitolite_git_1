@@ -1,43 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============3454767717457756009=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs
-Date: Thu, 02 Apr 2026 16:25:13 -0000
-Message-Id: <177514711397.1596970.14280372134094249414@gitolite.kernel.org>
-
---===============3454767717457756009==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/superm1/linux
+Date: Thu, 02 Apr 2026 16:27:05 -0000
+Message-Id: <177514722527.1597953.10801558161006583003@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jaegeuk/f2fs
-user: jaegeuk
+repo: pub/scm/linux/kernel/git/superm1/linux
+user: superm1
 changes:
-  - ref: refs/heads/dev
-    old: 62b45b0ad4cddebbba1ad5e7c48cf7b5e42c2377
-    new: 01968164d94762db2f703647c5acfa28613844f1
-    log: revlist-62b45b0ad4cd-01968164d947.txt
-
---===============3454767717457756009==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-62b45b0ad4cd-01968164d947.txt
-
-92c20989366e023b74fa0c1028af9436c1917dbf f2fs: refactor f2fs_move_node_folio function
-68cb1a6bf3895dedc8540caf2d459b7d9249b3b0 f2fs: refactor node footer flag setting related code
-6af249c996f7d73a3435f9e577956fa259347d18 f2fs: fix to do sanity check on dcc->discard_cmd_cnt conditionally
-019f9dda7f66e55eb94cd32e1d3fff5835f73fbc f2fs: fix fsck inconsistency caused by incorrect nat_entry flag usage
-c3e238bd1f56993f205ef83889d406dfeaf717a8 f2fs: fix fsck inconsistency caused by FGGC of node block
-fe9b8b30b97102859a9102be7bd2a09803bd90bd f2fs: fix inline data not being written to disk in writeback path
-dccd324fa9bd1a2907a63fa4cc2651f687b2b5d0 f2fs: fix to skip empty sections in f2fs_get_victim
-238e14eb7226f883b72caccd2d37bf5707df066b f2fs: fix data loss caused by incorrect use of nat_entry flag
-6a5e3de9c2bb0b691d16789a5d19e9276a09b308 f2fs: fix false alarm of lockdep on cp_global_sem lock
-7b9161a605e91d0987e2596a245dc1f21621b23f f2fs: fix to avoid uninit-value access in f2fs_sanity_check_node_footer
-02d91398a602c394d72cd61a67c84e2730c5f79b f2fs: fix to freeze GC and discard threads quickly
-8979bc3d2a252940a277392b5eb6e52be7a3e1a5 f2fs: invalidate block device page cache on umount
-01968164d94762db2f703647c5acfa28613844f1 f2fs: fix to preserve previous reserve_{blocks,node} value when remount
-
---===============3454767717457756009==--
+  - ref: refs/heads/bleeding-edge
+    old: a2db5f18169f8d80bae411c10d29272029a174ae
+    new: 61957fea28500675af3cbb75597834f6bb85a171
+    log: |
+         d8348e68114ff31473c16bbb80d49d3686ee4af6 cpufreq/amd-pstate: Add dynamic energy performance preference
+         f0774f9a8732c4f7b6e86c5d27a81106134069ca cpufreq/amd-pstate: add kernel command line to override dynamic epp
+         bedd6538f608a43e42fb133b16b8450561261a21 cpufreq/amd-pstate: Add support for platform profile class
+         7df5b256b1cf7c6e85e1b888392eeffc276352e3 cpufreq/amd-pstate: Add support for raw EPP writes
+         0c2d6970c2a2df093d8bbc67574723c2a9e24bf6 cpufreq/amd-pstate-ut: Add a unit test for raw EPP
+         6cfd05c98aca3aca9c1c663b4158466bfdcfa713 cpufreq/amd-pstate: Pass the policy to amd_pstate_update()
+         212b1d469bd4b5354131c57e41c53af487b6b388 cpufreq: Pass the policy to cpufreq_driver->adjust_perf()
+         61957fea28500675af3cbb75597834f6bb85a171 MAINTAINERS: amd-pstate: Step down as maintainer, add Prateek as reviewer
+         
