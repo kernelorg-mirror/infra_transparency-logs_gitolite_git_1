@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/andrea/synthmerge
-Date: Fri, 03 Apr 2026 23:02:49 -0000
-Message-Id: <177525736999.3103016.8391501210180163099@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Fri, 03 Apr 2026 23:04:44 -0000
+Message-Id: <177525748429.3103785.16049094133690956073@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/andrea/synthmerge
-user: andrea
+repo: pub/scm/linux/kernel/git/tip/tip
+user: bp
 changes:
-  - ref: refs/heads/main
-    old: 85f64d64006b81d8d750168939edb88c797cbdcf
-    new: 686a429705c09b1b43bfa220cfdac4cbafc10967
+  - ref: refs/heads/x86/cleanups
+    old: 6a9fe1ad908df12ef71dea12373f25826ea29a8d
+    new: 5635c8bfd3ab0757c5461d2165f6b284862826bf
     log: |
-         782ba4a86303df01676e08689574b7336bb43064 Fix assisted-by line insertion during rebase with fixup
-         686a429705c09b1b43bfa220cfdac4cbafc10967 version
+         5635c8bfd3ab0757c5461d2165f6b284862826bf x86/apic: Drop AMD Extended Interrupt LVT macros
          
