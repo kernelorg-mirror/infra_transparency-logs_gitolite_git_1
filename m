@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6768105677631203002=="
+Content-Type: multipart/mixed; boundary="===============4027338286629175138=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Fri, 03 Apr 2026 02:04:21 -0000
-Message-Id: <177518186175.2086876.7326719870408466236@gitolite.kernel.org>
+Date: Fri, 03 Apr 2026 02:04:47 -0000
+Message-Id: <177518188709.2087142.9316200704025342093@gitolite.kernel.org>
 
---===============6768105677631203002==
+--===============4027338286629175138==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,45 +16,45 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-staging
-    old: 8b3d852e87b237fda4bcf5eb6425292974b9ef4a
-    new: 6a8ae05af022be334a9a5a77a3e5364f5235f536
-    log: revlist-8b3d852e87b2-6a8ae05af022.txt
+  - ref: refs/heads/7.1/scsi-staging
+    old: 2dfb80cc3580dc02be83246bcd5446e6f3a231b9
+    new: 927722dcfe0a5294433bb087387cc52a46cbf675
+    log: revlist-2dfb80cc3580-927722dcfe0a.txt
 
---===============6768105677631203002==
+--===============4027338286629175138==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1775181837 -0400
+pusher 75C5DE3D 1775181864 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1775181837-4813abb5e68171066a12b19d947ac691734d92d3
+nonce 1775181864-b730926de49c2680237f476c51e08d32103133e6
 
-8b3d852e87b237fda4bcf5eb6425292974b9ef4a 6a8ae05af022be334a9a5a77a3e5364f5235f536 refs/tags/mkp-scsi-staging
+2dfb80cc3580dc02be83246bcd5446e6f3a231b9 927722dcfe0a5294433bb087387cc52a46cbf675 refs/heads/7.1/scsi-staging
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmnPIA0ACgkQ7ulgGnXF
-3j0xQA/+JfD8iCUPVDZFVvu8pH28RlvKZtKl7P+UG4n93w80tqtX9q53M/uyAEH/
-/FUm1OTYoyn8mMOFuvm4NdAV45RRk8htyaUaY3DK9NAF76M7bDK3orjbw9d4bz7s
-NlnMPusyZ0a2vBr3/1F9Zq6t7mA8u8lp3A9/LLNyJ3S6F8Q9PjZD4V6YlNlxFkf4
-PWln3UxiNFS8Kg1L7l0cXnMhmX9KB1KNH6jRUTn0rwTibphjwgCAF7iuPCHrnHnp
-bZ6nBq/4Gk6A5OzheGwzQotTUmOsJtHPfUHWrp02FgCkw28ngZ1ufaxAxyDNnokw
-7ysSjs7pAZb3XCoF+RFB8JqEJITLBk1K8RV1B2aUUgE/e10XArmO9iGszvqFoUwh
-VqjpRWK8E6VrKpqdH8b9S1g2FS1A6tmH08OCgyh7YlOuQSQt4H7aoNqTlUfkK0/W
-P6XxhhaAt8szDCIGn3RwQNWDBv0n0WhWEPfxbuSLmL0JKIcGo+z2YTxmqETpVVdf
-JoUBi9bH1jsbuJTHaFARFHLcdPrUxGZChg6yadxeB33Yn7+1OHFs4p+C81MvxvTG
-8Fz4IZwsPcb3pUvN8+Y4R1Z5IfXn/QhSI+Roy4s7fwV+oOOvrWQfkS2PEUOG5Ict
-mNZrWs+TxXNd81MTkL+GTX2jJbRSmruN0DMpwdQ6nBgXyEYPkRc=
-=fV5U
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmnPICgACgkQ7ulgGnXF
+3j2yhg/+IRmlkwR1VPN+7e97hsKMNAaMy1jAKFZMviQScplCAGqGcSgc3KbZJtZ0
+pKpSfGY51VEaL4p1y/tVnsHDdyUnFICDxryIzKKR+SRG0vLAVuptELacMaNgq5II
+WlETCUSjjOChg0+1AtKVaqYXplcVpD/47zJESZrHZy6G1i9Uw992G9tH5OO2XUAH
+ZI8kpN825xxhvzpTx9KfOma3Y73BUEuNdkXC3sFwkzrfhGN7XAi+a+Cpsv+5trBk
+xUYk9ercgR/RnOtSuqZMfljslgyNN88ZbyyF7UoSoVQQjSDkjLbKSO4K7hPxIeHc
+5TJD86jGvrIu+WIjtqdCMnTkRecAEQcFcKJR0I/8T7utM7B5oPyLG+Z58gP+MMM7
+WwpxEk+UpZ3zX2w3k1VdganVkQfgQIkH4+HrAaogHQo8q0LUATmPdWe2GM7rkSwe
+D39wmWjPY8QU5O3XbzVyz9zu/grC430l2O5ycI8dmNOxBUYvHnVaghBAGjcUL+WC
+pfh7mRB9h+1sLajdaFmtJNbO82FV8+By9dCp4CNMKKwxzsYGFDB+W21xVGY9bAHs
+/PlJWmJ0SZb/36OByMKcirBtwPFEbR6OT4Nuc40yRd8ZwLdGCs1UqtSrXtS8NbLW
+RgIPAe9ObFxjopeMc5crAO4zySeI7UhjVc6rHZNvBSioB69znwI=
+=+QlC
 -----END PGP SIGNATURE-----
 
---===============6768105677631203002==
+--===============4027338286629175138==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8b3d852e87b2-6a8ae05af022.txt
+Content-Disposition: attachment; filename=revlist-2dfb80cc3580-927722dcfe0a.txt
 
 bffda93a51b40afd67c11bf558dc5aae83ca0943 scsi: lpfc: Properly set WC for DPP mapping
 57297736c08233987e5d29ce6584c6ca2a831b12 scsi: storvsc: Fix scheduling while atomic on PREEMPT_RT
@@ -101,4 +101,4 @@ a1421afa0ddb6e6dfc3639f11f1b8dd83c7f9759 scsi: lpfc: Check ASIC_ID register to a
 7f1e2c1cce1cad097d14f384c2461c1ff6cac0d0 scsi: lpfc: Update lpfc version to 15.0.0.0
 927722dcfe0a5294433bb087387cc52a46cbf675 Merge patch series "Update lpfc to revision 15.0.0.0"
 
---===============6768105677631203002==--
+--===============4027338286629175138==--
