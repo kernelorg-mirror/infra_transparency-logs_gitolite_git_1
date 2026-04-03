@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7817147863923277899=="
+Content-Type: multipart/mixed; boundary="===============4623363157718497180=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Fri, 03 Apr 2026 00:45:02 -0000
-Message-Id: <177517710213.2014533.6890692965176876610@gitolite.kernel.org>
+Date: Fri, 03 Apr 2026 00:45:04 -0000
+Message-Id: <177517710459.2016229.17214029594935102705@gitolite.kernel.org>
 
---===============7817147863923277899==
+--===============4623363157718497180==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/mm-new
-    old: be35f663b117d6b7941defb74399bae7e59ce49c
-    new: a8dd3b0fad4abb57a38460ef8d3734b8d83a28b6
-    log: revlist-be35f663b117-a8dd3b0fad4a.txt
+  - ref: refs/heads/mm-unstable
+    old: a31ffc4ab7bee1f903fbbb661f6411ce16ae19f4
+    new: 27de7cb0c2f6c86d86ed39300ae87dcea51acfbe
+    log: revlist-a31ffc4ab7be-27de7cb0c2f6.txt
 
---===============7817147863923277899==
+--===============4623363157718497180==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-be35f663b117-a8dd3b0fad4a.txt
+Content-Disposition: attachment; filename=revlist-a31ffc4ab7be-27de7cb0c2f6.txt
 
 0461b154dd2aae3fb460e86f486f1a4dbb10e395 mm: filemap: fix nr_pages calculation overflow in filemap_map_pages()
 5504da4cdb30ca98abe763583c15da76cface5fd mm/hugetlb: restore reservation on error in hugetlb_mfill_atomic_pte() resubmission path
@@ -151,8 +151,5 @@ bc78b5487e8e6c4b24d8c2c7b91aaf56e6b048a4 selftests/mm: soft-dirty: skip two test
 78d89a66d621a978138dbc35c5c0392176455459 selftests/mm: transhuge_stress: skip the test when thp not available
 077646ca5562fa867383c645df7a6dd9af6fa953 mm: fix mmap errno value when MAP_DROPPABLE is not supported
 27de7cb0c2f6c86d86ed39300ae87dcea51acfbe mm/page_io: use sio->len for PSWPIN accounting in sio_read_complete()
-4d2f23ed129bd166b0e28bf9e985de381c0aea79 mm/vmstat: spread vmstat_update requeue across the stat interval
-3371340c10002d3bb6fc530b97d6ea148de33fb4 selftests/mm: verify droppable mappings cannot be locked
-a8dd3b0fad4abb57a38460ef8d3734b8d83a28b6 mm/sparse: fix comment for section map alignment
 
---===============7817147863923277899==--
+--===============4623363157718497180==--
