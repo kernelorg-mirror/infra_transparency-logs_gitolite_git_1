@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3826648953531394544=="
+Content-Type: multipart/mixed; boundary="===============0812296007992778865=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Fri, 03 Apr 2026 15:32:48 -0000
-Message-Id: <177523036863.2733954.3171339427611109317@gitolite.kernel.org>
+Date: Fri, 03 Apr 2026 15:32:51 -0000
+Message-Id: <177523037154.2734052.3116155747959593775@gitolite.kernel.org>
 
---===============3826648953531394544==
+--===============0812296007992778865==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/40GbE
+  - ref: refs/heads/100GbE
     old: dc9e9d61e301c087bcd990dbf2fa18ad3e2e1429
     new: 51f4e090b9f87b40c21b6daadb5c06e6c0a07b67
     log: revlist-dc9e9d61e301-51f4e090b9f8.txt
 
---===============3826648953531394544==
+--===============0812296007992778865==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -466,4 +466,4 @@ e9c9f084cd78a58e2331fbf83c3d5625fb86e33a MAINTAINERS: Update email for Allison H
 6dede3967619b5944003227a5d09fdc21ed57d10 net: altera-tse: fix skb leak on DMA mapping error in tse_start_xmit()
 51f4e090b9f87b40c21b6daadb5c06e6c0a07b67 net: stmmac: fix integer underflow in chain mode
 
---===============3826648953531394544==--
+--===============0812296007992778865==--
