@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3863419828067452331=="
+Content-Type: multipart/mixed; boundary="===============8361583029790742039=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Fri, 03 Apr 2026 02:03:34 -0000
-Message-Id: <177518181482.2085960.9906061756958206311@gitolite.kernel.org>
+Date: Fri, 03 Apr 2026 02:03:39 -0000
+Message-Id: <177518181956.2086179.2997048970261555253@gitolite.kernel.org>
 
---===============3863419828067452331==
+--===============8361583029790742039==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,45 +16,45 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-queue
-    old: ce1f3cc0759159011652911e3a4caf24829ac8eb
-    new: 0baaaf8516d206152bb9d87e2ec82722db54631c
-    log: revlist-ce1f3cc07591-0baaaf8516d2.txt
+  - ref: refs/heads/7.1/scsi-queue
+    old: 48b2de8505437805116a3dc51d5afa09308c6659
+    new: 2dfb80cc3580dc02be83246bcd5446e6f3a231b9
+    log: revlist-48b2de850543-2dfb80cc3580.txt
 
---===============3863419828067452331==
+--===============8361583029790742039==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1775181780 -0400
+pusher 75C5DE3D 1775181818 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1775181780-fd60c7283cf4715317b1573c84838ae188d278db
+nonce 1775181817-a1d22941b497aebfb0966b638e5c362a208ab8b5
 
-ce1f3cc0759159011652911e3a4caf24829ac8eb 0baaaf8516d206152bb9d87e2ec82722db54631c refs/tags/mkp-scsi-queue
+48b2de8505437805116a3dc51d5afa09308c6659 2dfb80cc3580dc02be83246bcd5446e6f3a231b9 refs/heads/7.1/scsi-queue
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmnPH9QACgkQ7ulgGnXF
-3j2b1w//Z8P1eZDlDAhJ3WlQuqZnvG35XtGQiSXpf2TTiyaHWep4EQPi1T0N41uL
-ZJFS268vaKlWdsH+h12ab6R59eN6u/iHEnfz3bhtalcBCo+/cQegW5v6sJ4XBCUd
-lAGixlxKgfv2GTsK9ncksc03hYTXTAY+bdt84K2QHgQC6wW1N0FQdzHE9IzX6lSj
-7U/cBbMZoR3Ojw+jzojnHT2xVtqagqhIb7MJgw/pUB25rzFwCVjxTMWHfBO9zzkQ
-kCCogebEW9EUHUrhUlblM2dSrfrAJX+MC3OddmT0Fvm2QaDmc0+UHQMqzSJE6W9P
-gSvxYnrpDIa+uyga/fv99RSBhNcviQ32VM9cmvjQQLda2ILTw9t7ZlZcragjifNB
-WqwdVqwZkEM+0gGMXrGG4gZVidcOjgcXHoo0KJd6Qyn7y6uvjtuvObFQSFOyEKyH
-uJMO0ZiIX94SAPGP+g/iTE3aznKK2lmf+RpkkbDg4v21T6A54geFXYwpB2rtJrP2
-/hnVai7awzKGFUO8dGDipXFyrhrVFvIOUX70nA6+2fHDNtRxgipcNZCFoCdWrqzq
-lXpaKEXbdJAz1kqGWuyEEVM030blM2wFp8FMphMeuXnSqWwfUbH8dpNCYvte3sEK
-bRnvujeiYq/PD8wptSfgspg3oF/U9EEPF4d00lSXFcdoHtbEID8=
-=HEL/
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmnPH/oACgkQ7ulgGnXF
+3j0L0A//fgFFDmZ6HpDJ2nnufGqcB1iZ1s/S5jlCkYGjvFX9IL+6nUVmlPdbZMm+
+JxOT/y4iRliWCZwLW9S40u2q9hIsMw+3LUpjIKyiYaCHb/WASw72MVdT6OpnqyBf
+ruXjtIGyfXu6tL3RrJis+GNrha2E5JgVopJdd5edb5iIqcH/ykdYd7BTdZ9KlRaq
+b6Yxd/bdsePnMxygPBVnbb+T8w/gNC38YhHCbQ2czAV2WAJZMTW3zaCOaUJF9AeV
+o7sdmKVNBe+rxKQdNouOh6eQm4NSLsgnxkoFEaAl9imiZa6o6WRr7pY65TCOLREl
+5JEHu1Or1EedSFZrkMZVOtQ1GxR9Bopy0JX/ovsbUd8kYPJgLhrjYX59f+ftGbkO
+xdYCkbjNNggPKy5MXB/hBMFGjFn8+g/EkRzp0sQpcwdqCMCSMhkn7XgEjAV4ysF7
+gH38ROns5wH60SwxRlJFewImBv+AAZifHL6mMRMTK4i75FsTHT11vOAs0yqdTe5y
+n5ZoMMl0tHIWpkJhRrMMqrI+Ibb3lfcrfYDJAhaebzoJ2NRUdent8KUTvy+M5RJm
+A26u9hbNO1UCsUYHg/YpukaRLf+XIOsbxEh+xbtYXHSDKxC740QRbE66JPQ5N30q
+adquSrPH1yBx80h+A5unM6NakB4vx73zksEYLdvzA8aTIv5UQuI=
+=JjPx
 -----END PGP SIGNATURE-----
 
---===============3863419828067452331==
+--===============8361583029790742039==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ce1f3cc07591-0baaaf8516d2.txt
+Content-Disposition: attachment; filename=revlist-48b2de850543-2dfb80cc3580.txt
 
 8ad1ddc50d15e35c4b38a207a6856eddfa731194 scsi: ufs: rockchip: Drop unused include
 67557418905b103eaa7bacf81999be83accda334 scsi: esas2r: Fix __printf annotation on esas2r_log_master()
@@ -82,4 +82,4 @@ adbabdcf0db0f929e642f95d7528dce0f6bd3a11 scsi: ufs: core: Add support to retrain
 57b7943fd87f086a3497ecbecc502b7418ed4ab8 scsi: ufs: ufs-qcom: Enable TX Equalization
 2dfb80cc3580dc02be83246bcd5446e6f3a231b9 Merge patch series "scsi: ufs: Add TX Equalization support for UFS 5.0"
 
---===============3863419828067452331==--
+--===============8361583029790742039==--
