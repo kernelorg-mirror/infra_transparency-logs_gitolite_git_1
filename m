@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
-Date: Fri, 03 Apr 2026 16:34:49 -0000
-Message-Id: <177523408955.2785162.1868909289943273761@gitolite.kernel.org>
+Subject: post-receive: pub/scm/bluetooth/bluez
+Date: Fri, 03 Apr 2026 16:37:12 -0000
+Message-Id: <177523423278.2788706.4649956610583990384@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pci/pci
-user: mani
+repo: pub/scm/bluetooth/bluez
+user: vudentz
 changes:
-  - ref: refs/heads/endpoint
-    old: 70becc1a9b453ce04f97507585afc2cf47e67b11
-    new: 9c55d0eb4e9d1bf229d691363fb0641a9b05d904
+  - ref: refs/heads/master
+    old: 1ce7cfcd0f6ca87d4280a6e0c14b7d2c16778457
+    new: 000dc08822ff0ad6730f6e18dfa41a53ce905713
     log: |
-         9c55d0eb4e9d1bf229d691363fb0641a9b05d904 misc: pci_endpoint_test: Use -EINVAL for small subrange size
+         000dc08822ff0ad6730f6e18dfa41a53ce905713 audio/avrcp: Track TG and CT events separately
          
