@@ -1,55 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============2795132317208989010=="
+Content-Type: multipart/mixed; boundary="===============2243689717061779827=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Fri, 03 Apr 2026 16:51:25 -0000
-Message-Id: <177523508536.2800373.11643083157478256115@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Fri, 03 Apr 2026 16:51:36 -0000
+Message-Id: <177523509617.2800666.1661280427105053386@gitolite.kernel.org>
 
---===============2795132317208989010==
+--===============2243689717061779827==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/asoc-7.1
-    old: e8f504c790103a3221a2f2082704b9f2245d81e8
-    new: cba9ce8c1afeef4bbfa29891ff76634f6236c697
-    log: revlist-e8f504c79010-cba9ce8c1afe.txt
+  - ref: refs/heads/for-next
+    old: ba916087723b6897cf4643dd3d47d11561ab0252
+    new: 2657569a2fd80b085a8c1be2dcfd05d550b295bf
+    log: revlist-ba916087723b-2657569a2fd8.txt
 
---===============2795132317208989010==
+--===============2243689717061779827==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1775235083 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1775235082-6351a95dce1681956ede62f68cf61450df661e9a
-
-e8f504c790103a3221a2f2082704b9f2245d81e8 cba9ce8c1afeef4bbfa29891ff76634f6236c697 refs/heads/asoc-7.1
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmnP8AsACgkQJNaLcl1U
-h9CS2wf+PvK0W8ygTZuGo5+mXF5A5TutYV7BlcppC5zssb8Z9fxAFnsqn7w+NuST
-sxH72jdQe2x1Doc1ydP1jR9zG8CeolZQMag4MWz8htg0u0r5WT71Hmxz5G8ReiTa
-FPDXfJqju8eHIIZbJOGT2vb6Vu4K5Sqz0YmbEY2tvKqFd94Mz8U6NM2XpKLZCePV
-oNXxh4a/gKKn0IYiGNj0H3QgeaQdEL1W2X05MCndU+BlAo1FX1xHFBS/cCZTkCk+
-snCdc3drk4vyJ7iTB9MbTb6TsS+YsvBqy4Bg/MU6CQQMLKICZCCxpOrRxyk1nXIm
-FWaewYYqNturf9ZiZPdClY6zOoDl6w==
-=TP+Q
------END PGP SIGNATURE-----
-
---===============2795132317208989010==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e8f504c79010-cba9ce8c1afe.txt
+Content-Disposition: attachment; filename=revlist-ba916087723b-2657569a2fd8.txt
 
 d733fb463834cf97a0c667681e236fea0e833a05 ASoC: intel: sof_sdw: Prepare for configuration without a jack
 0178e64123129f56fc153b9d53121318fd71bdfc ASoC: amd: acp-sdw-legacy: remove unnecessary condition check
@@ -63,5 +38,6 @@ b022e5c142efe4c5497e6cfda1f143618b4b9254 ASoC: Intel: bytcr_rt5651: Fix MCLK lea
 dced5a373a96cfd9f3bd0ffcf5339a7579d1473a ASoC: Intel: cht_bsw_rt5672: Fix MCLK leak on platform_clock_control error
 85c38c2fa17da23b2258edd96c89e63f92426ba5 ASoC: Intel: Standardize MCLK error logs across RT boards
 cba9ce8c1afeef4bbfa29891ff76634f6236c697 ASoC: Intel: Fix MCLK leaks and clean up error
+2657569a2fd80b085a8c1be2dcfd05d550b295bf Merge remote-tracking branch 'asoc/for-7.1' into asoc-next
 
---===============2795132317208989010==--
+--===============2243689717061779827==--
