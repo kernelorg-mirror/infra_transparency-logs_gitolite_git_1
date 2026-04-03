@@ -1,53 +1,62 @@
-Content-Type: multipart/mixed; boundary="===============8882745748730734058=="
+Content-Type: multipart/mixed; boundary="===============2067759746567913117=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux-w1
-Date: Fri, 03 Apr 2026 08:46:16 -0000
-Message-Id: <177520597624.2402082.12211097471492020189@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/powerpc/linux
+Date: Fri, 03 Apr 2026 08:50:04 -0000
+Message-Id: <177520620424.2405205.16129231833121144007@gitolite.kernel.org>
 
---===============8882745748730734058==
+--===============2067759746567913117==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/krzk/linux-w1
-user: krzk
-git_push_cert_status: Y
+repo: pub/scm/linux/kernel/git/powerpc/linux
+user: maddy
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/for-next
-    old: f2c1ae05fe82030537b36012551a5cac28d00254
-    new: 6de23f81a5e08be8fbf5e8d7e9febc72a5b5f27f
+  - ref: refs/heads/next-test
+    old: bd77a34e9a619ee92c03cbb227ca86d814aa6601
+    new: e1f7a0e196e293c223a882788c6d1a884d06d6d8
+    log: |
+         156d985123b6d6e5189cfd0286b93c12167ae798 powerpc64/bpf: Implement JIT support for private stack
+         e640bcd1bf83dbdaa967b20cd98a782d52ec89cf selftests/bpf: Enable private stack tests for powerpc64
+         6fab063bd8d64f15cde2d194c08a159ad3afdf27 powerpc64/bpf: Implement fsession support
+         92258b5bf1ec10204c23a793793a65dc92d17014 powerpc32/bpf: Add fsession support
+         1e4bac7eb95a5a1aed5b39971ef77dca5b0f8a9f powerpc/bpf: Add support for instruction array
+         66cad93ad325b332868c062bbd0de65ca4e59657 selftest/bpf: Enable instruction array test for powerpc
+         a32325c0e623d594992c4e4616fa685c0e765a33 powerpc64/bpf: Add support for indirect jump
+         e1f7a0e196e293c223a882788c6d1a884d06d6d8 selftest/bpf: Enable gotox tests for powerpc64
+         
 
---===============8882745748730734058==
+--===============2067759746567913117==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher krzk@kernel.org 1775205974 +0200
-pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux-w1.git
-nonce 1775205974-ea76b02065827452389ee28978687cdbb49ade95
+pusher Madhavan Srinivasan <maddy@linux.ibm.com> 1775206198 +0530
+pushee gitolite.kernel.org:pub/scm/linux/kernel/git/powerpc/linux
+nonce 1775206197-37d7dad9b096a4adbd681e051f27be1ce6fbe4bc
 
-f2c1ae05fe82030537b36012551a5cac28d00254 6de23f81a5e08be8fbf5e8d7e9febc72a5b5f27f refs/heads/for-next
+bd77a34e9a619ee92c03cbb227ca86d814aa6601 e1f7a0e196e293c223a882788c6d1a884d06d6d8 refs/heads/next-test
 -----BEGIN PGP SIGNATURE-----
 
-iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmnPflYQHGtyemtAa2Vy
-bmVsLm9yZwAKCRDBN2bmhouD18LgD/91hoBOmynBxZLGlQMtONbrpniIM6StUxDO
-J98gUr/LHLxr+mx9Qq3oRWbXHHWyE55x1v7h67pjmjJsbtVLb3ZJDi426Zwts/wd
-bRpkFUWFLgcdWQPf22GEKIZ/NyIZ/Vt1C07CeOZ7s0ZZv7syDN6J/sjaugIiakyV
-ZZO6Ub38P+puFdWo+Ti5Mhl9IOwru+1hELi2tN9kRKS/la4LdYIIW8Md5j5CQfjS
-Q1gZoqRAePYjd81bcWuZJfUH9LewRIi/nm3Pcb4JUrpPCqcA/1clXfvlDRuU6WWf
-rgkrFeuAKj+UifQo+46dLDcRJp1M8iqecqd0s4lH81mxL7nqC9EU6JhnbMbUOjZ3
-IbLtelAKWA7TI9xbaKMxCmVMVObRaLhRfP1BizT/UgAso+4fqJJJQ8s1Eh+w3kCI
-TYBmSA0z5cZJQRUxzWMiiMRs3PY/+EtZYxJCDEoW8BqCpvjpjVwo+1eYWomD/wAW
-TyDG/Wk4GlB2vBo7ufteQIuhJgui9wMwUpczafZsqwNWEzzXR6M93XUq8GJ3wsWV
-jiPvL0cBGH0wbeQfuzbjm2lagtRtOOCruCIM+puvMz7KiJNMmSC1PBkFy7py8pq6
-MywCp9B838ah+GdSO1umvTI6LUoSxL5GQ8PPF19gCxIqr2Mk2SmX9wECXF3jPukM
-x5ggvbNpMQ==
-=ZY1E
+iQIzBAABCgAdFiEEqX2DNAOgU8sBX3pRpnEsdPSHZJQFAmnPfzYACgkQpnEsdPSH
+ZJRSHxAAgOkosnmWhe0MPbW/I6JkXcp6H0JVN/WZCtsll6hOFwAfLVGnA7iIb1So
+eZ56xnPH77KYQvZw2uLfYFPnuGlwlVsHltPIp4d7RHfkF1+79sXe4EDw0qu+CBeo
+TnJuvdfDn5SWnD7CZxM5vKVwVoNC9fUlsv7tf8T53/Gd8BNyzrzwUAtRTw33pmGg
+7/0N1dL9Uj/beDlQoG3Vs6+p1cROASm7NP/DCqiyxXjMGuvQE7rSLN6mQGZBS+nf
+n9lYnv9CZETGIgnoFe/aRjwYM2jOi/q0dxO7bbZIrkqdaLVOsnBBE8+hkSOusq0J
+DQjeH4o0HJiMsVerYg16g+f3fi+cExgt4RENzEg+Z1Sos6p3PbfRaofqsCq959Oc
+wWeW8nlIu2554vutArohlUIw91ftu+bUzHEJ9+uVgPb7PzseiKSX1pTGwPQ3+J4B
+vBGktQDguYLfO0096mxi0kZ+ONNR39+4cytudWX598bsGBo+ZAax1fu9qmq50r8s
+1xSivqdgitgbJp5uOPDxP4Okj+afXoLEER8eBpwiSSWQiQ99p7G2wbjXaa+3cvdv
+0s0B0SDMjw2SX+yPwmeqmMjjsUc0hEoaE5awUcHNL9lHqgc0HGP+jg92Tn7ojX1d
+g2Nay1BrKjNwD8WKeB2iBa1236HNyNu6xnUtgSVMAjAdnBCbu1k=
+=PXre
 -----END PGP SIGNATURE-----
 
---===============8882745748730734058==--
+--===============2067759746567913117==--
