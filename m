@@ -1,25 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Fri, 03 Apr 2026 15:35:44 -0000
-Message-Id: <177523054475.2739236.10580882785920707176@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============0074299474783114571=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/security/vulns
+Date: Fri, 03 Apr 2026 15:40:49 -0000
+Message-Id: <177523084901.2743546.17594003571022963293@gitolite.kernel.org>
+
+--===============0074299474783114571==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: ast
+repo: pub/scm/linux/security/vulns
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-next
-    old: 891a05ccba927050cee17eb90c74692fe083ddaf
-    new: 6a14beefab457f267b8cedc6ac697a9562ec1244
+  - ref: refs/heads/master
+    old: ac6f65916b51a8668999d4579db92cf9254c5d80
+    new: e77f40bc7ea7ba0d084a989cc64b05f7bc013ed4
     log: |
-         503d21ef8eac1437d76919921115acf0aef328a0 bpf: Do register range validation early
-         e6898ec751e4d8577b210f8e816ea9f8c2a7158a bpf: Sort subprogs in topological order after check_cfg()
-         427c07ddb9e63dc96488bbf51bb196e7aca19825 selftests/bpf: Add tests for subprog topological ordering
-         f1606dd0ac49230f5a5fa1a279210fdf0249c20f bpf: Add bpf_compute_const_regs() and bpf_prune_dead_branches() passes
-         19dbb1347481105e8aabc7479af35c09a65333a9 bpf: Move verifier helpers to header
-         1a1cadbd5d50b31ae1340c2a9938947719696ca0 bpf: Add helper and kfunc stack access size resolution
-         6a14beefab457f267b8cedc6ac697a9562ec1244 Merge branch 'bpf-prep-patches-for-static-stack-liveness'
+         e77f40bc7ea7ba0d084a989cc64b05f7bc013ed4 update CVE-2026-23333 to point at the correct id
          
+
+--===============0074299474783114571==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1775230848 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
+nonce 1775230848-f00f8e79ba36d02c48b1ef613657e44da06ff870
+
+ac6f65916b51a8668999d4579db92cf9254c5d80 e77f40bc7ea7ba0d084a989cc64b05f7bc013ed4 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmnP34AbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+5ZIP/RnJJCzmuwh5XD+1yi/6
++M/Idtl+R3PbfcSLJADtFNBQPkQO4xbCROp4O8nRCHXqifzJT2nsDPtqeOESk3Uc
+bUSdJsHD9HPEWfFsy1nhhJGO1eE/hyqw3s1WwD10+AkH2jUqQFYAFH11YHj8V6qA
+72c92AwwNLoHYSyP/L7btvGqwJHlAjvJpel5TtqN9CBO6EIduvzsPLuXwREyQ+Df
+hM0ltgWu5IqHRsbFrk2sIeUa9rxtfIwQrFmwhtO1GQjuwSTp+ejVsrZ2vjgJPx4d
+j498YH2mXJwOXT7hxCJiP+j2kdM1hXW7zkNx7RTOfxh/mn3Q6DdT863DBykpj2b/
+eo/lASOAMkMjBrrKMXvIEEL8dKC0OObRXhhaClYnnZQr9c7/fAWq3OYKwRFgd/WK
+ET2BPdL2L/WFj+61yQTGtDpbVnpG1EJmLzOpZQzOO8MsPQ0bicvMNZZ4vz26uKms
+iYkcKKfLAYf9eEJaGNF07hYP9c78z2Eef0/LSUO0uU7MP6X0dVSgMerZrh3zPVNm
+rrN9TsZP7STJeoOoMDZDfk8HpC0dp3iPJGuXL3d3vghVXQrnm4MMWus7/7CqyeL0
+udGqV+b+/AnzjWZ3zLMbjJnJ1qOj8mkUwRmHoJR/hUrISODKXUiLoTJvoLS6Dkug
+tHIDFJzcc0GXF4qQtgJGldNo
+=Rmr5
+-----END PGP SIGNATURE-----
+
+--===============0074299474783114571==--
