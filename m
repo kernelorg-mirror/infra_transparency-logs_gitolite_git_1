@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Fri, 03 Apr 2026 01:26:17 -0000
-Message-Id: <177517957713.2056245.31956949783383570@gitolite.kernel.org>
+Date: Fri, 03 Apr 2026 01:33:37 -0000
+Message-Id: <177518001756.2062215.18199287585159536308@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/netdev/net
 user: kuba
 changes:
   - ref: refs/heads/main
-    old: e9c9f084cd78a58e2331fbf83c3d5625fb86e33a
-    new: 6dede3967619b5944003227a5d09fdc21ed57d10
+    old: 6dede3967619b5944003227a5d09fdc21ed57d10
+    new: 51f4e090b9f87b40c21b6daadb5c06e6c0a07b67
     log: |
-         6dede3967619b5944003227a5d09fdc21ed57d10 net: altera-tse: fix skb leak on DMA mapping error in tse_start_xmit()
+         51f4e090b9f87b40c21b6daadb5c06e6c0a07b67 net: stmmac: fix integer underflow in chain mode
          
