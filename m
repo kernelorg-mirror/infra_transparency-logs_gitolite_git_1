@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6508950846210367868=="
+Content-Type: multipart/mixed; boundary="===============7612574326842430371=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Fri, 03 Apr 2026 15:16:40 -0000
-Message-Id: <177522940025.2719107.7853369713586707561@gitolite.kernel.org>
+Date: Fri, 03 Apr 2026 15:16:46 -0000
+Message-Id: <177522940604.2719329.15714094299709674929@gitolite.kernel.org>
 
---===============6508950846210367868==
+--===============7612574326842430371==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: ast
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/for-next
     old: 6f6c794d0ff05dab1fa4677f39043de8a6a80da3
     new: 891a05ccba927050cee17eb90c74692fe083ddaf
     log: revlist-6f6c794d0ff0-891a05ccba92.txt
 
---===============6508950846210367868==
+--===============7612574326842430371==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -732,4 +732,4 @@ e1b5687a862a43429f1d9f69065b3bbc7780a97a selftests/bpf: Add more precision track
 d8a9a4b11a137909e306e50346148fc5c3b63f9d Merge tag 'v7.0-rc6-smb3-client-fix' of git://git.samba.org/sfrench/cifs-2.6
 891a05ccba927050cee17eb90c74692fe083ddaf Merge git://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf 7.0-rc6+
 
---===============6508950846210367868==--
+--===============7612574326842430371==--
