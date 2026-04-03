@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
-Date: Fri, 03 Apr 2026 21:25:16 -0000
-Message-Id: <177525151602.3024852.16910862258714049196@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
+Date: Fri, 03 Apr 2026 21:39:50 -0000
+Message-Id: <177525239091.3033526.4242240081053019701@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/maz/arm-platforms
-user: maz
+repo: pub/scm/linux/kernel/git/pci/pci
+user: helgaas
 changes:
-  - ref: refs/heads/hack/kvmarm-7.1-pending-fixes
-    old: 652b95fe172f2e12b9c2ecf8389b3646460de6fc
-    new: 37a650a05fd9485057deea833fe690ccea67301f
+  - ref: refs/heads/atomics
+    old: 674b483b632f5c198e499e8da013e7215a8e7971
+    new: 8e69214402397fcbb17f25ac5acb178195aca4bc
     log: |
-         37a650a05fd9485057deea833fe690ccea67301f KVM: arm64: vgic: Rationalise per-CPU irq accessor
+         03ec922f00250817a11b6b829601932d5f777998 PCI: Do not enable AtomicOps by RCiEPs
+         1ae8c4ce157037e266184064a182af9ef9af278b PCI: Enable AtomicOps only if Root Port supports them
+         8e69214402397fcbb17f25ac5acb178195aca4bc PCI: Update PCIe spec references for AtomicOps
          
