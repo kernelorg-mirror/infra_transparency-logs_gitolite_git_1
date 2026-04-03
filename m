@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/nsc/kbuild
-Date: Fri, 03 Apr 2026 19:38:08 -0000
-Message-Id: <177524508805.2938971.3356213748365910065@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kbuild/linux
+Date: Fri, 03 Apr 2026 19:40:55 -0000
+Message-Id: <177524525547.2942626.14141840514842075948@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/nsc/kbuild
+repo: pub/scm/linux/kernel/git/kbuild/linux
 user: nsc
 changes:
-  - ref: refs/tags/kbuild-7.1-1-rcX
-    old: c81ecc2e6c60742fbf7a4d4d80c0a30eb9861d89
-    new: 01578001781163d79455e7b3fa882f9d109180a1
+  - ref: refs/heads/kbuild-next
+    old: bb25b5635e90e33c8c1c4ef231d4d7351c06be49
+    new: dcc99abebfa1e9ca70f8af8695b6682ad7597bf2
     log: |
          55d68ec5b9ba004764acaa3291871513102b4fd4 kbuild: uapi: move some compiler arguments out of the command definition
          cf822413093e4fdf17ce12f10f3983b1d5f8b659 kbuild: uapi: move all include path flags together
