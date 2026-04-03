@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0370895850419287696=="
+Content-Type: multipart/mixed; boundary="===============5783217506476943401=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Fri, 03 Apr 2026 16:10:56 -0000
-Message-Id: <177523265632.2767267.16088871201551550320@gitolite.kernel.org>
+Date: Fri, 03 Apr 2026 16:10:59 -0000
+Message-Id: <177523265934.2767382.12184630954556799771@gitolite.kernel.org>
 
---===============0370895850419287696==
+--===============5783217506476943401==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/10GbE
+  - ref: refs/heads/40GbE
     old: cf0d9080c6f795bc6be08babbffa29b62c06e9b0
     new: 8b0e64d6c9e7feec5ba5643b4fa8b7fd54464778
     log: revlist-cf0d9080c6f7-8b0e64d6c9e7.txt
 
---===============0370895850419287696==
+--===============5783217506476943401==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -609,4 +609,4 @@ e417ac73d24ae68b8dd6a1b02f9db03a7a5c184b net: phy: microchip: add downshift tuna
 4368f5fab419b43068dea912536b1f4a724b4bba enic: detect admin channel resources for SR-IOV
 8b0e64d6c9e7feec5ba5643b4fa8b7fd54464778 Merge branch 'enic-sr-iov-v2-preparatory-infrastructure'
 
---===============0370895850419287696==--
+--===============5783217506476943401==--
