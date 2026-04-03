@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0440427323856642595=="
+Content-Type: multipart/mixed; boundary="===============4010338554256384377=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Fri, 03 Apr 2026 07:01:07 -0000
-Message-Id: <177519966782.2320566.4508909006421043838@gitolite.kernel.org>
+Date: Fri, 03 Apr 2026 07:01:35 -0000
+Message-Id: <177519969592.2320989.8604694834552053440@gitolite.kernel.org>
 
---===============0440427323856642595==
+--===============4010338554256384377==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,15 +16,57 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: 8726fc6dc93c62232fa625c1c91b97e21fff02b6
-    new: 45e4cdcb037ae4d39539cb7f2fde91369c6cdf00
-    log: revlist-8726fc6dc93c-45e4cdcb037a.txt
+    old: 45e4cdcb037ae4d39539cb7f2fde91369c6cdf00
+    new: d998c62f267213aeb815cf654908608eb7c00db2
+    log: revlist-45e4cdcb037a-d998c62f2672.txt
+  - ref: refs/heads/tip/urgent
+    old: 2b38f3851dc96522850f69555e95cd7bc2dc1c6c
+    new: 190cf5e5f615e45c8516ebbb3d3622d331224707
+    log: revlist-2b38f3851dc9-190cf5e5f615.txt
 
---===============0440427323856642595==
+--===============4010338554256384377==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8726fc6dc93c-45e4cdcb037a.txt
+Content-Disposition: attachment; filename=revlist-45e4cdcb037a-d998c62f2672.txt
+
+b6afdac5a3a7c0d9fde1a4b06f1910d39195e637 Merge branch into tip/master: 'irq/urgent'
+cb52b6253dfb2a0de705db0b3ab5249a4c5bae32 Merge branch into tip/master: 'perf/urgent'
+7f6fcec7b27fd0c3f2069603e631d116f2b01da3 Merge branch into tip/master: 'sched/urgent'
+190cf5e5f615e45c8516ebbb3d3622d331224707 Merge branch into tip/master: 'x86/urgent'
+f7d12a8f42a0fbe27a9b0dbb44dfc6bbadf46296 Merge branch into tip/master: 'sched/merge'
+12ce20b97d65e5f3a42f0a336909fdb6e5d50b76 Merge branch into tip/master: 'timers/merge'
+4f686f0078fdbf9902a63e160f4a7f7622f83355 Merge branch into tip/master: 'core/debugobjects'
+ed4619794b0031c3b39b81f4d759177ec8a3ec20 Merge branch into tip/master: 'core/entry'
+e9f6b8f36e19ae91d0e121dea1a5af8d924da961 Merge branch into tip/master: 'irq/core'
+431a7917009c808ff199930878ccac9a54849e9f Merge branch into tip/master: 'irq/drivers'
+8b0e401d026e1fd783b86901675b2b0b9ee02d4b Merge branch into tip/master: 'irq/msi'
+6f5f1a82ecfdefc284f6af4e9b839b14dd6851e7 Merge branch into tip/master: 'locking/core'
+13c98ae75c4177ef921ff727491375e574432fcb Merge branch into tip/master: 'locking/futex'
+7ded7e183c4d4edbdf304e132d92f94c177194ea Merge branch into tip/master: 'objtool/core'
+a13f28e42e0f86b1be1b177c94624bed162316e5 Merge branch into tip/master: 'perf/core'
+312e588bf11e019cc33b5c0505010809f4a36715 Merge branch into tip/master: 'ras/core'
+fd953effc13fefa1002b20c3e43bc921902ed003 Merge branch into tip/master: 'smp/core'
+48eefcb2f6cc26aebb2c4531a2cb00f5d3aba9f6 Merge branch into tip/master: 'timers/core'
+02039485be61e546a98c9ce547f6e97926d94f85 Merge branch into tip/master: 'timers/vdso'
+01783db50395494662295c81c19f08f1044013e8 Merge branch into tip/master: 'x86/asm'
+123830822484a13a9676d3613bf4c50e9d9a7715 Merge branch into tip/master: 'x86/cache'
+23c69b9c90c6c0cabfc2f2566f7f1b7d6bc4e194 Merge branch into tip/master: 'x86/cleanups'
+f55c9567065b2793210039003195b00e2a40c625 Merge branch into tip/master: 'x86/cpu'
+03874e48eece97a347728eb4c3156b20f202c37a Merge branch into tip/master: 'x86/fred'
+040108817050e570c3b1b80763b3925093747f41 Merge branch into tip/master: 'x86/microcode'
+10912a909f0af82f2a92dfbf30c2f8be3e5ed7c1 Merge branch into tip/master: 'x86/misc'
+586791f265ade9ab4c845aa9458d0f63c23ec87f Merge branch into tip/master: 'x86/mm'
+b1a6b26519e24ac1c261447009c40633609c49b8 Merge branch into tip/master: 'x86/platform'
+fcc095358bb0e6937193e838a6ced6e471ed79e8 Merge branch into tip/master: 'x86/sev'
+4a0fb09abe8a44a6ae97aab16f1c7ff08b3b1fae Merge branch into tip/master: 'x86/tdx'
+d998c62f267213aeb815cf654908608eb7c00db2 Merge branch into tip/master: 'x86/vdso'
+
+--===============4010338554256384377==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-2b38f3851dc9-190cf5e5f615.txt
 
 398c0c8bbc8f5a9d2f43863275a427a9d3720b6f dt-bindings: auxdisplay: ht16k33: Use unevaluatedProperties to fix common property warning
 995a418a6ca33e466e5e1527663ae3d5eee18304 auxdisplay: lcd2s: add error handling for i2c transfers
@@ -190,11 +232,12 @@ f8f5627a8aeab15183eef8930bf75ba88a51622f Merge tag 'net-7.0-rc7' of git://git.ke
 e1b5687a862a43429f1d9f69065b3bbc7780a97a selftests/bpf: Add more precision tracking tests for atomics
 5619b098e2fbf3a23bf13d91897056a1fe238c6d Merge tag 'for-7.0-rc6-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/kdave/linux
 19abf08d5e66713e7e02a3e160f51647512c1302 Merge tag 'v7.0-rc6-ksmbd-server-fix' of git://git.samba.org/ksmbd
-fd7400cfcbaaa1f3d1b904711d9daf029e996364 genirq/chip: Invoke add_interrupt_randomness() in handle_percpu_devid_irq()
 5a9617dde77d0777b53f0af7dee58109650bda41 Merge tag 'v7.0-p4' of git://git.kernel.org/pub/scm/linux/kernel/git/herbert/crypto-2.6
 7b9e74c5a49e1331e03c8ae5f981067da4f33328 Merge tag 'bpf-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf
 d8a9a4b11a137909e306e50346148fc5c3b63f9d Merge tag 'v7.0-rc6-smb3-client-fix' of git://git.samba.org/sfrench/cifs-2.6
-debf8b671133a8925aff04b69f7e6b1630cbec8f Merge branch into tip/master: 'irq/core'
-45e4cdcb037ae4d39539cb7f2fde91369c6cdf00 Merge branch 'linus'
+b6afdac5a3a7c0d9fde1a4b06f1910d39195e637 Merge branch into tip/master: 'irq/urgent'
+cb52b6253dfb2a0de705db0b3ab5249a4c5bae32 Merge branch into tip/master: 'perf/urgent'
+7f6fcec7b27fd0c3f2069603e631d116f2b01da3 Merge branch into tip/master: 'sched/urgent'
+190cf5e5f615e45c8516ebbb3d3622d331224707 Merge branch into tip/master: 'x86/urgent'
 
---===============0440427323856642595==--
+--===============4010338554256384377==--
