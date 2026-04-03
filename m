@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/arm64/linux
-Date: Fri, 03 Apr 2026 09:25:27 -0000
-Message-Id: <177520832720.2434642.1880898929063963887@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mmind/linux-rockchip
+Date: Fri, 03 Apr 2026 09:30:55 -0000
+Message-Id: <177520865597.2439164.5421605662190847090@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/arm64/linux
-user: will
+repo: pub/scm/linux/kernel/git/mmind/linux-rockchip
+user: mmind
 changes:
-  - ref: refs/tags/arm64-fixes
-    old: 0cdb342974f9c92ebe5aaf668f0106e02701e476
-    new: 09d2a6cc2d2b3bf4ef8cb49f6f195d8d1a6de7ae
-    log: |
-         54ac9ff8f1196afc49d644a1625e0af1c9fcf7f5 arm64: Use static call trampolines when kCFI is enabled
-         
+  - ref: refs/tags/v7.1-rockchip-dts32-1
+    old: 0000000000000000000000000000000000000000
+    new: 3c16faeb03a2ad055db3ac16bcbd2d01a8a646f9
+  - ref: refs/tags/v7.1-rockchip-dts32-2
+    old: 0000000000000000000000000000000000000000
+    new: cc9c8cf7b3b33c07488064bd3992c73189d55136
