@@ -1,20 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/damon-hack
-Date: Fri, 03 Apr 2026 14:28:53 -0000
-Message-Id: <177522653315.2678149.774892620749108039@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Fri, 03 Apr 2026 14:33:17 -0000
+Message-Id: <177522679766.2682280.14930980344994521191@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/damon-hack
-user: sj
+repo: pub/scm/linux/kernel/git/broonie/spi
+user: broonie
 changes:
-  - ref: refs/heads/master
-    old: d6d83d9dac6240365480d3ea6263b70f46d0bc62
-    new: 41825738c1cb6ba225feed212f9124303759c854
-    log: |
-         7feee8901d57fa493332877022331a8f60fc96d0 patches/mm: update
-         41825738c1cb6ba225feed212f9124303759c854 patches/next: rebase to latest mm-new
-         
+  - ref: refs/tags/spi-fix-v7.0-rc6
+    old: 0000000000000000000000000000000000000000
+    new: bc8fed76daf5da3f9a8380e6edde1070533cb9b4
