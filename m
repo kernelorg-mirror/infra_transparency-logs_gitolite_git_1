@@ -1,25 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Fri, 03 Apr 2026 13:31:14 -0000
-Message-Id: <177522307440.2630249.9667646399163133164@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Fri, 03 Apr 2026 13:32:17 -0000
+Message-Id: <177522313732.2630701.11140667361782024994@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/cel/linux
-user: cel
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/nfsd-next
-    old: 3603bf99062c6d563df4fba3848f829d5401d959
-    new: d644a698de12e996778657f65a4608299368e138
+  - ref: refs/heads/asoc-7.1
+    old: d733fb463834cf97a0c667681e236fea0e833a05
+    new: 794b5219fa3e3c5dddf1cd4fd9c750b9fedc4179
     log: |
-         4e2866b2baaddfff6069a2f18fc134c1d5a08f2b SUNRPC: Add svc_rqst_page_release() helper
-         18755b8c2f241648b951d3772e0742cc59834d5a svcrdma: Use contiguous pages for RDMA Read sink buffers
-         39bd1bfe92a1a9450e1d6397f845020581090836 NFSD: use per-operation statidx for callback procedures
-         42cc13995967c1f3790cb106916eed8fab2a37b1 NFSD: convert callback RPC program to per-net namespace
-         fa6966fd05a122b413823c579a1f898427e2cdd4 nfsd: fix comment typo in nfs3xdr
-         124f9af22ce27d146f11e37f826671a0a1953ad5 nfsd: fix comment typo in nfsxdr
-         d644a698de12e996778657f65a4608299368e138 NFSD: Docs: clean up pnfs server timeout docs
+         0178e64123129f56fc153b9d53121318fd71bdfc ASoC: amd: acp-sdw-legacy: remove unnecessary condition check
+         f9e437cddf6cf9e603bdaefe148c1f4792aaf39c ASoC: rsnd: Fix potential out-of-bounds access of component_dais[]
+         78c59297280bf4c8309acd7760b722c10fa9e92e ASoC: tas2781: Explicit association of Device, Device Name, and Device ID
+         7fca32889e45311409cecbf74318d17dab84d21e ASoC: imx-rpmsg: Add DSD format support with dynamic DAI format switching
+         3f02d6141e1c2e23a4f5530968654b5c7b37a88e ASoC: SDCA: Export Q7.8 volume control helpers
+         9e27baf5b8a8dd9cb8b4eceb7ba7e549324330b3 ASoC: codecs: tlv320dac33: remove kmemdup_array
+         794b5219fa3e3c5dddf1cd4fd9c750b9fedc4179 ASoC: SDCA: Add RJ support to class driver
          
