@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1411600686011132765=="
+Content-Type: multipart/mixed; boundary="===============4124961249555437444=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mptcp/linux
-Date: Fri, 03 Apr 2026 09:13:14 -0000
-Message-Id: <177520759447.2423395.12534159620243928542@gitolite.kernel.org>
+Date: Fri, 03 Apr 2026 09:13:31 -0000
+Message-Id: <177520761152.2423688.3653271306400660111@gitolite.kernel.org>
 
---===============1411600686011132765==
+--===============4124961249555437444==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/mptcp/linux
 user: matttbe
 changes:
-  - ref: refs/heads/export
-    old: bf3cf8c6aab683f6c5d82ed923487bc50ef7a1f5
-    new: 02b9dbf0199027acfe1486378ba459cc1aa324a1
-    log: revlist-bf3cf8c6aab6-02b9dbf01990.txt
+  - ref: refs/heads/export-net
+    old: 9f3b3dc4db814079bfe97be665c8edd079f4a378
+    new: d882996928d01bd6557aca6d092e3438b49c9980
+    log: revlist-9f3b3dc4db81-d882996928d0.txt
 
---===============1411600686011132765==
+--===============4124961249555437444==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-bf3cf8c6aab6-02b9dbf01990.txt
+Content-Disposition: attachment; filename=revlist-9f3b3dc4db81-d882996928d0.txt
 
 2e7b5cf72e51c9cf9c8b75190189c757df31ddd9 dmaengine: fsl-edma: fix channel parameter config for fixed channel requests
 77b19d053ac2cce9e873007ad4b09f2323c93576 dmaengine: dw-edma: fix MSI data programming for multi-IRQ case
@@ -389,27 +389,12 @@ bbe5ab8191a33572c11be8628c55b79246307125 cgroup/cpuset: Simplify setsched decisi
 a0dafdbd1049a8ea661a1a471be1b840bd8aed13 ALSA: usb-audio: Exclude Scarlett 2i2 1st Gen (8016) from SKIP_IFACE_SETUP
 e74c38ef6f170179c0029b5744d6a14dfd543108 ASoC: amd: ps: Fix missing leading zeros in subsystem_device SSID log
 b477ab8893c3e6b4be3074358db830687de7bfff Merge tag 'asoc-fix-v7.0-rc6' of https://git.kernel.org/pub/scm/linux/kernel/git/broonie/sound into for-linus
-4799ff80c68a76e408b8dadd4aeaa5311962033c selftests: forwarding: extend ethtool_std_stats_get with pause statistics
-2de16ebe78f0509d5fa0b41ed6e841603058b6a6 selftests: net: extend lib.sh to parse drivers/net/net.config
-7db9da4c67c7781c2c917657d5d9bdc171836d5f selftests: net: update some helpers to use run_on
-afd1b9bf7529d853284205f618e314134a5ad9ad selftests: drivers: hw: cleanup shellcheck warnings in the rmon test
-e76c71483a5600eb9ef8f1741c92fe1282bfd461 selftests: drivers: hw: test rmon counters only on first interface
-557c067c0001b2e1538633d921790a1094e675ff selftests: drivers: hw: replace counter upper limit with UINT32_MAX in rmon test
-eec1b9057c24d3f7c37d98208bb0c9be7130d3c6 selftests: drivers: hw: move to KTAP output
-abe4929bc7d0e29c5dda8b0bb0f6beeec76fd7b6 selftests: drivers: hw: update ethtool_rmon to work with a single local interface
-3016574ea2f8a8cff69286574ac027fa5aed5a81 selftests: drivers: hw: add test for the ethtool standard counters
-ae04bff949c50921c2af2a14def112a2c47e649d Merge branch 'selftests-drivers-bash-support-for-remote-traffic-generators'
-22cb45afd221b9e4f2a1dcc74a8ff645b7293aa1 net: mctp: perform source address lookups when we populate our dst
-8af20defc4edb9e5ded39d36e1c7541569cd84d2 net: mctp: allow local TX with no address assigned
-0d8647bc74cb50edf02e8c88977657596f20fb17 net: mctp: don't require a route for null-EID ingress
-f1fa1157f426c92c0189e62487f631bb5905b31d Merge branch 'net-mctp-improvements-for-null-eid-addressing'
 d10a26aa4d072320530e6968ef945c8c575edf61 net/x25: Fix potential double free of skb
 a1822cb524e89b4cd2cf0b82e484a2335496a6d9 net/x25: Fix overflow when accumulating packets
 a80a014f83bded5a2f498c22b4a06a7a31256f98 Merge branch 'net-x25-fix-overflow-and-double-free'
 faeea8bbf6e958bf3c00cb08263109661975987c net/sched: cls_fw: fix NULL pointer dereference on shared blocks
 1a280dd4bd1d616a01d6ffe0de284c907b555504 net/sched: cls_flow: fix NULL pointer dereference on shared blocks
 70f73562d278d9f88e7095e327f2a50082a82c65 selftests/tc-testing: add tests for cls_fw and cls_flow on shared blocks
-269389ba539834ec80e4d55583fca2cd70e4dc9c net: airoha: Set REG_RX_CPU_IDX() once in airoha_qdma_fill_rx_queue()
 b18c833888742ca9de80c250f9d40d0e97caa9f6 vsock: initialize child_ns_mode_locked in vsock_net_init()
 f5df2990c364d1ac596d24b3118dbc56503f7cd4 net: hsr: serialize seq_blocks merge across nodes
 2e3514e63bfb0e972b1f19668547a455d0129e88 net: hsr: fix VLAN add unwind on slave errors
@@ -420,74 +405,17 @@ ec7067e661193403a7a00980bda8612db5954142 eth: fbnic: Increase FBNIC_QUEUE_SIZE_M
 2ec9074b28a09a2cc4871371675bafc575a114c5 Merge tag 'sound-7.0-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/tiwai/sound
 4c2c526b5adfb580bd95316bf179327d5ee26da8 Merge tag 'iommu-fixes-v7.0-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/iommu/linux
 f8f5627a8aeab15183eef8930bf75ba88a51622f Merge tag 'net-7.0-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
-8ffb33d7709b59ff60560f48960a73bd8a55be95 Merge git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
-989a9c20f63e378e0bb8b05bf82560d7da945de4 net: stmmac: fix channel TSO enable on resume
-afe840ddf15c9960e4c4522c95dea459f4fa055b net: stmmac: fix .ndo_fix_features()
-e32820264c2949a3e75bc5083e49c885e3bbaf62 net: stmmac: fix TSO support when some channels have TBS available
-f799b5dab9c98a4b52a93d1c357916e0f0b7e663 net: stmmac: add stmmac_tso_header_size()
-6732e474f880468435a79d05811c8c814c5d71f8 net: stmmac: add TSO check for header length
-c05a81cbee87e511b823a6f64f9315aef41eab57 net: stmmac: add GSO MSS checks
-3f6a6eb9ef21b2eb30b3a3ea096759b37368b257 net: stmmac: move TSO VLAN tag insertion to core code
-b55dfb173ce808ecc8c598f2c378a9b04c5ce241 net: stmmac: move check for hardware checksum supported
-2e4082e4b739191d71e03fe6c55cec68d36f67fe net: stmmac: simplify GSO/TSO test in stmmac_xmit()
-c04939cb9851a1f024f03784dec71cd7a7ea4004 net: stmmac: split out gso features setup
-6ad0044428973f1d5e311c77e2e4f54192a37248 net: stmmac: make stmmac_set_gso_features() more readable
-f8c70ab540c1a15e281baa10eec270396aa04d1a net: stmmac: add warning when TSO is requested but unsupported
-33f5cc83bbbdf73bd0c145403b30b49eec4b0311 net: stmmac: check txpbl for TSO
-0f96212a5142cdacdc4133024f0e82626a23209c net: stmmac: move "TSO supported" message to stmmac_set_gso_features()
-f35340f2d653f1003602878403c901396ab03c17 Merge branch 'net-stmmac-tso-fixes-cleanups'
-1ef5789d9906df3771c99b7f413caaf2bf473ca5 macvlan: annotate data-races around port->bc_queue_len_used
-0d5dc1d7aad144b6c561e72e96f3107d812c6026 macvlan: avoid spinlock contention in macvlan_broadcast_enqueue()
-9b79da5d691e79de2186c36400276132d31b81a5 Merge branch 'macvlan-broadcast-delivery-changes'
-7eaff1eff003dc9c5881edc37741795a5dfc5ff8 net: phy: bcm84881: add LED framework support for BCM84891/BCM84892
-86f5dd4e0ff282a0acf1f058e947fd5f4ba58a9d r8152: Add helper functions for SRAM2
-e417ac73d24ae68b8dd6a1b02f9db03a7a5c184b net: phy: microchip: add downshift tunable support for LAN88xx
-70180f72d91144f4c7b308ffa87bbf3592cd8d65 net: phy: microchip: enable downshift by default on LAN88xx
-0ea7e61f65538a0e6524d8781c2cea34c8073634 Merge branch 'net-phy-microchip-add-downshift-support-for-lan88xx'
 2fd68c7ea2ae741a4446d54c8a461255022e2dc7 MAINTAINERS: orphan PPP over Ethernet driver
-74fb32ed733ceacd2daa3d22471f4b10705abbbd enic: extend resource discovery for SR-IOV admin channel
-803a1b02027918450b58803190aa7cacb8056265 enic: add V2 SR-IOV VF device ID
-56a4d7a865860ac0e52e26a4c8d13de78e7a9707 enic: detect SR-IOV VF type from PCI capability
-0266ecb59d5242a5d66261a671e42d53a1372f69 enic: make enic_dev_enable/disable ref-counted
-730ce15d44971204866575549683c956b3fcfe39 enic: add type-aware alloc for WQ, RQ, CQ and INTR resources
-4368f5fab419b43068dea912536b1f4a724b4bba enic: detect admin channel resources for SR-IOV
-8b0e64d6c9e7feec5ba5643b4fa8b7fd54464778 Merge branch 'enic-sr-iov-v2-preparatory-infrastructure'
 e9c9f084cd78a58e2331fbf83c3d5625fb86e33a MAINTAINERS: Update email for Allison Henderson
 6dede3967619b5944003227a5d09fdc21ed57d10 net: altera-tse: fix skb leak on DMA mapping error in tse_start_xmit()
 51f4e090b9f87b40c21b6daadb5c06e6c0a07b67 net: stmmac: fix integer underflow in chain mode
-e2c5071feb8c3b5a629cd6cfa8a82d6c38ec626d DO-NOT-MERGE: git markup: net
-b22de089af251c1bf5b0d14d80ca7675f6977b04 DO-NOT-MERGE: git markup: fixes other trees
-c681351eecd3fe1ffe55fb8386aa5f06c0315cdb DO-NOT-MERGE: git markup: fixes net
-a4ca0e87883a91bf05dc091dcfa709c864f25f11 DO-NOT-MERGE: mptcp: add CI support
-a6ce32cbe6b0dcde05459d8ecb88d5f919eafa80 DO-NOT-MERGE: git markup: end common net net-next
-ed00e0c0618b72289954e772241081f970a3c3ca TopGit-driven merge of branches:
-20b9d3d3d3c87a1f1ca795a2bd84f6c005eb7346 DO-NOT-MERGE: git markup: net-next
-d7988203c59ba3f24d4c7bdcb0f1b90927a4d3d4 DO-NOT-MERGE: git markup: fixes net-next
-620b3d9ecf302447e5d1cb1dd9b676124c5879c2 mptcp: pm: init and release mptcp_pm_ops
-660415a152e0ec670c44d472c4d24c391c9ab20c mptcp: pm: add get_local_id() interface
-334b7ffd3d09a212dab79c6722c7f15e53815080 mptcp: pm: add get_priority() interface
-ddc3e821de75f3f67f1aeadfae534d1b52ef9a93 mptcp: better mptcp-level RTT estimator
-3edafacb342fa9caf8038d000e93fd0020b1be7f mptcp: add receive queue awareness in tcp_rcv_space_adjust()
-fd6bf20627cf7d31df9ab368bda21267ee9be4b6 mptcp: pm: in-kernel: remove mptcp_pm_has_addr_attr_id
-316d316d4539e4ab04a40386663d99d7acc83920 selftests: mptcp: join: recreate signal endp with same ID
-d65a605c382459371ab808994263cee7e36c3d82 tcp: add recv_should_stop helper
-59b0ef6097980fb4838c328c3c56d32b8875ce49 mptcp: reduce 'overhead' from u16 to u8
-f744a49ba57f70fac7a2333caa1cf0f53aa7afe8 mptcp: preserve MSG_EOR semantics in sendmsg path
-de4a5212824088b9399dc5bfbd1929276b70f7bf DO-NOT-MERGE: git markup: features net-next
-1f30ead40c2b98120410c8378f6627e477b3c047 DO-NOT-MERGE: git markup: features net-next-next
-429656f18d753db8ada1878a4afb814f6388bb7d bpf: Add mptcp_subflow bpf_iter
-4a31401f2aeb3fc4e8d2842996e50fb33c0b0806 selftests/bpf: More endpoints for endpoint_init
-47e1816b0f6cabcc7d59ba99596bf345bfd8ad04 selftests/bpf: Drop cgroup_fd of run_mptcpify
-1e09e3f8a9c403de28cdcbc0fbe87fd0b52a5825 bpf: Add mptcp packet scheduler struct_ops
-2aead49fc2b2b980d2cf6f59873a9778bad6e84b bpf: Export mptcp packet scheduler helpers
-81fc311080e1de50a537d2bf7f6a05e652997f22 selftests/bpf: Add bpf scheduler test
-0fbc48a84b913ac31209a340505615c9db5cee42 selftests/bpf: Add bpf_first scheduler & test
-688763777965af87648a7e6e37eb2e60f35ff931 selftests/bpf: Add bpf_bkup scheduler & test
-41c255c77da4f8f07e8e027c3dcaa3c4c0e4da26 selftests/bpf: Add bpf_rr scheduler & test
-cf150daccc625463f566137c41784032d441f4e0 selftests/bpf: Add bpf_red scheduler & test
-659db44896a2f914e76c5fe6de01a34039bea934 selftests/bpf: Add bpf_burst scheduler & test
-f05602070cd2461a474449f8141574e5970f8424 DO-NOT-MERGE: git markup: features other trees
-2d34e2a5f90013a58652cf50a90f6df5d67c597d DO-NOT-MERGE: mptcp: improve code coverage for CI
-02b9dbf0199027acfe1486378ba459cc1aa324a1 DO-NOT-MERGE: mptcp: enabled by default
+6b7d5cf4940067b2f23001fc1492e7dd3713cfc4 DO-NOT-MERGE: git markup: net
+96e330b126739fe01c0c03d0cf4f18cdcfd3c993 DO-NOT-MERGE: git markup: fixes other trees
+8d5d72c849884d609b6bd8b50005b8859c0d9eae DO-NOT-MERGE: git markup: fixes net
+81b03215281ab651b83372cb0bd44d67b0c2c1b3 DO-NOT-MERGE: mptcp: add CI support
+15fde6916e9ace7d8ddfb6cd53d5bf06ee06622c DO-NOT-MERGE: git markup: end common net net-next
+2b390bbb2dea87c99a7c332d52eae6359fd9bb98 DO-NOT-MERGE: git markup: fixes net only
+de2eae7abee2ba47f9a5e7837319765d1f092cd8 DO-NOT-MERGE: mptcp: improve code coverage for CI (net)
+d882996928d01bd6557aca6d092e3438b49c9980 DO-NOT-MERGE: mptcp: enabled by default (net)
 
---===============1411600686011132765==--
+--===============4124961249555437444==--
