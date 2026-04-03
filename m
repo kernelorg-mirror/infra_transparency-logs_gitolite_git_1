@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mani/mhi
-Date: Fri, 03 Apr 2026 10:12:44 -0000
-Message-Id: <177521116486.2470510.16045266583259900525@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/thomas.weissschuh/linux
+Date: Fri, 03 Apr 2026 10:49:56 -0000
+Message-Id: <177521339648.2497206.2609276658903884381@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mani/mhi
-user: mani
+repo: pub/scm/linux/kernel/git/thomas.weissschuh/linux
+user: thomas.weissschuh
 changes:
-  - ref: refs/tags/mhi-for-v7.1
+  - ref: refs/heads/b4/b4-sysfs-const-attr-device_attr
     old: 0000000000000000000000000000000000000000
-    new: d3fddb1dabec707a5e678f6e2e8314821b20080d
+    new: af2dcb7364557fce8ef2770184c7964c1bc7759f
