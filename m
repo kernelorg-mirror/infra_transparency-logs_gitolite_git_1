@@ -1,37 +1,27 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/thomas.weissschuh/linux
-Date: Fri, 03 Apr 2026 11:32:44 -0000
-Message-Id: <177521596422.2531980.6449761399292362212@gitolite.kernel.org>
+Subject: post-receive: pub/scm/libs/libgpiod/libgpiod
+Date: Fri, 03 Apr 2026 11:46:31 -0000
+Message-Id: <177521679101.2543233.2440211975194976791@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/thomas.weissschuh/linux
-user: thomas.weissschuh
+repo: pub/scm/libs/libgpiod/libgpiod
+user: brgl
 changes:
-  - ref: refs/heads/b4/b4-sysfs-const-attr-device_attr
-    old: af2dcb7364557fce8ef2770184c7964c1bc7759f
-    new: a6a164ea06c86ec1969426d39401abcc4eb19511
+  - ref: refs/heads/master
+    old: 2e47ad76bc66c2abfb02e4b9d3982fa246af07e0
+    new: 530fa7823b12f91cf64bc1a9b755857049d5c2e5
     log: |
-         e70aba62f1361ceb0783d8a1a08099e711446acd drop prealloc
-         4921d8e46d84c97ed65fa60c4d29c41e16e5eab6 wrappers
-         a5a115fc86ab6bfa4fe3920b38bacdafc7405742 open code
-         f21a865d5204479a589e76f607c82de9a9d905c5 store_new show_new
-         f09d3ee05dc630afd33daef8e80dc11c0b0bdae0 driver core
-         7bc806cf0deddbf474272ab6b1d7b5a13fdabdec 8< snip
-         08823d52f14fed86f721dea80d007f2a5d05e2d5 mce
-         fd4febe77bece9e12028b2d937d5ca74f9fe9e79 perf
-         d16e70b921786b25fdd52da6d914f8ba7b153d6f container_of
-         0a41db31b675f63c09de630ec6f5bb29178fac85 device_ulong
-         a01033cdbb602af86b2c44decd80c82b5a16ef23 device_int
-         66c038ebcf77276016f5ef759dc66b572fc2804d device_bool
-         9e3fb2c40b118706572f0c6edd00d77bdf684c6b device_string
-         2be4dc550778450b85071408eb5b41d592e4dca7 8< snip
-         592eff70881e76b897c2db056aa2be2a379eb54a libsas: drop to_dev_attr
-         3f5db85cba6e1614dc02602c1ab243feff9cb5cc unify to_dev_attr
-         c69e6c0bd269748161c74a36db5405305b2c8a25 rename
-         f1c25a39f7c70f809b5b0af5f20eefea722ae5a6 public
-         a6a164ea06c86ec1969426d39401abcc4eb19511 uncore
+         f53d6c882553198593d63e10af93ff6bbcb8a823 bindings: python: build_tests: do not fallback to distutils
+         ddca805d92001eaaeaa86540211056f17ea0df3f bindings: python: build_tests: simplify the Distribution
+         0bb990a59eef3191d7c1ed6a7254f935568f8b84 bindings: python: setup: add type annotations
+         49843b8c701f7c61674912875e0dc2cb5bdb4186 bindings: python: setup: apply linter recommendations
+         0c466480e7791834c15458ae87cbd21fc6d608e4 bindings: python: setup: use logging module
+         d130ec7666e3a5871f6b7aa261b7a305397ea28e bindings: python: examples: add type annotations
+         485b81cd4bd5f8e9450c4587ff4a06ebae209962 bindings: python: examples: apply linter recommendations
+         5efa9e8144dafa47b0ddf9366e149ddee50b6211 bindings: python: add a lint dependency group
+         530fa7823b12f91cf64bc1a9b755857049d5c2e5 bindings: python: update linter configuration
          
