@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ebiggers/linux
-Date: Fri, 03 Apr 2026 20:00:27 -0000
-Message-Id: <177524642715.2958899.3134116269174402442@gitolite.kernel.org>
+Date: Fri, 03 Apr 2026 20:00:30 -0000
+Message-Id: <177524643024.2959030.498731754268704246@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,11 +11,6 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ebiggers/linux
 user: ebiggers
 changes:
-  - ref: refs/heads/crc-next
-    old: 5276ea17a23c829d4e4417569abff71a1c8342d9
-    new: 8fdef85d601db670e9c178314eedffe7bbb07e52
-    log: |
-         e0718ed60d60299840cfc2a408eb26042a20d186 lib/crc: arm64: Drop unnecessary chunking logic from crc64
-         f956dc813144baf8bd2d77eec61b90bc00c10894 lib/crc: arm64: Use existing macros for kernel-mode FPU cflags
-         8fdef85d601db670e9c178314eedffe7bbb07e52 lib/crc: arm64: Simplify intrinsics implementation
-         
+  - ref: refs/heads/crc-pending
+    old: 8fdef85d601db670e9c178314eedffe7bbb07e52
+    new: 0000000000000000000000000000000000000000
