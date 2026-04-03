@@ -1,22 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pcmoore/lsm
-Date: Fri, 03 Apr 2026 21:17:24 -0000
-Message-Id: <177525104469.3017522.9217864392825226495@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
+Date: Fri, 03 Apr 2026 21:25:16 -0000
+Message-Id: <177525151602.3024852.16910862258714049196@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pcmoore/lsm
-user: pcmoore
+repo: pub/scm/linux/kernel/git/maz/arm-platforms
+user: maz
 changes:
-  - ref: refs/heads/next
-    old: 20091d97d711acdff2f3a449b313307257bf4108
-    new: 0766380022132d9a0a3cd934716ea7a9cf985cec
+  - ref: refs/heads/hack/kvmarm-7.1-pending-fixes
+    old: 652b95fe172f2e12b9c2ecf8389b3646460de6fc
+    new: 37a650a05fd9485057deea833fe690ccea67301f
     log: |
-         fbec24706feb22aeba25db554e38234de0b6102d fs: prepare for adding LSM blob to backing_file
-         ede90d58693d82bcb7a4dbb27c17a98b5e83fcde lsm: add backing_file LSM hooks
-         f0af3920f2cca67f8658e712651399fb0b633449 selinux: fix overlayfs mmap() and mprotect() access checks
-         0766380022132d9a0a3cd934716ea7a9cf985cec Automated merge of 'dev' into 'next'
+         37a650a05fd9485057deea833fe690ccea67301f KVM: arm64: vgic: Rationalise per-CPU irq accessor
          
