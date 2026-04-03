@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/daniel.lezcano/linux
-Date: Fri, 03 Apr 2026 08:54:39 -0000
-Message-Id: <177520647922.2408245.4966806189021642057@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
+Date: Fri, 03 Apr 2026 09:09:52 -0000
+Message-Id: <177520739212.2419674.12739213519391362218@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/daniel.lezcano/linux
-user: daniel.lezcano
+repo: pub/scm/linux/kernel/git/brgl/linux
+user: brgl
 changes:
-  - ref: refs/heads/timers/next
-    old: fed9f727cc3f91dde8278961269419083502b40e
-    new: 68ed094971b09ba530baf6f75cf1902df880a8d1
+  - ref: refs/heads/gpio/for-next
+    old: 802c51a83e9a0617d1e97ecd383471f4c6fd5437
+    new: 779ae2232cd1fd80661327e503606df004b4cda4
     log: |
-         2423405880c2cd5473c8c4e937e8253b7444f532 clocksource/drivers/mmio: Make the code compatible with modules
-         68ed094971b09ba530baf6f75cf1902df880a8d1 clocksource/drivers/timer-of: Make the code compatible with modules
+         779ae2232cd1fd80661327e503606df004b4cda4 gpiolib: Make deferral warnings debug messages
          
