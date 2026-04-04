@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
-Date: Sat, 04 Apr 2026 13:06:25 -0000
-Message-Id: <177530798550.3760224.12206366571647027556@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/pciutils/pciutils
+Date: Sat, 04 Apr 2026 13:16:20 -0000
+Message-Id: <177530858070.3767972.1668448443768517632@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rafael/linux-pm
-user: rafael
+repo: pub/scm/utils/pciutils/pciutils
+user: mj
 changes:
-  - ref: refs/heads/bleeding-edge
-    old: d8d394c43391141e6369ccfa5e40b88841a6d939
-    new: da0766e169d1fed4d2daaa07dcbf480da449f610
+  - ref: refs/heads/master
+    old: 0f5b941aa5cf8b1b126ff3e4176b1c32b2158289
+    new: 6c627586c131f5b4ffb9f6935f7fcef3916847cf
     log: |
-         49c7db1f0b4fbc52435c0f042d95c62a56e9be14 Merge back earlier thermal core updates for 7.1
-         761fdf4c8c1c0bd8427f8226be3a3eb5cf896386 thermal/core: Remove pointless variable when registering a cooling device
-         da0766e169d1fed4d2daaa07dcbf480da449f610 Merge branch 'thermal-core' into bleeding-edge
+         6c627586c131f5b4ffb9f6935f7fcef3916847cf README: Download by FTP is no longer supported
          
