@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ebiggers/linux
-Date: Sat, 04 Apr 2026 20:32:52 -0000
-Message-Id: <177533477258.4108125.16428592505178901220@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/andrea/synthmerge
+Date: Sat, 04 Apr 2026 21:38:11 -0000
+Message-Id: <177533869148.4156340.2664746360799689269@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ebiggers/linux
-user: ebiggers
+repo: pub/scm/linux/kernel/git/andrea/synthmerge
+user: andrea
 changes:
-  - ref: refs/heads/misc-pending
-    old: 426624207250cad538058e9104be7a24062e2c1d
-    new: bb399f9fa7b6076ecf1f90f74820fb1c17efb95c
+  - ref: refs/heads/main
+    old: d4cf0a441336049cab2bc6f3157732b51cb6404f
+    new: 96c21981ca79eb641b710e29bf4b6b59402f65d9
     log: |
-         bb399f9fa7b6076ecf1f90f74820fb1c17efb95c scsi: iscsi_tcp: Remove unneeded selections of CRYPTO and CRYPTO_MD5
+         96c21981ca79eb641b710e29bf4b6b59402f65d9 smerge-mode: Keep default refinement part consistent with 4-way conflicts
          
