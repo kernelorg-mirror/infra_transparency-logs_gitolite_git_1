@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5854061255702855078=="
+Content-Type: multipart/mixed; boundary="===============3967142920486927783=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Sat, 04 Apr 2026 17:11:12 -0000
-Message-Id: <177532267206.3955050.2639122835386681306@gitolite.kernel.org>
+Date: Sat, 04 Apr 2026 17:11:14 -0000
+Message-Id: <177532267405.3955205.10310275143305819676@gitolite.kernel.org>
 
---===============5854061255702855078==
+--===============3967142920486927783==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/mm-new
-    old: c88437e89d76f066158842639b8035eb207a792c
-    new: b47b4fa4c232ee36aae58630e9d6520e35d33f3a
-    log: revlist-c88437e89d76-b47b4fa4c232.txt
+  - ref: refs/heads/mm-unstable
+    old: bfce90429768e8b1ebdce78a69eb855d9318f7f6
+    new: 543bf7ae2c2b429c1084fa7a12789dba77237c7a
+    log: revlist-bfce90429768-543bf7ae2c2b.txt
 
---===============5854061255702855078==
+--===============3967142920486927783==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c88437e89d76-b47b4fa4c232.txt
+Content-Disposition: attachment; filename=revlist-bfce90429768-543bf7ae2c2b.txt
 
 1d64296521cb4429e1f10e99b43b30629d282967 mm/khugepaged: fix issue with tracking lock
 40267f42d6b4a328e9fc1291a2c9093213175a8c mm: fix deferred split queue races during migration
@@ -150,6 +150,5 @@ d9da2b1c4c3785caf720f5f56788b99c853517b0 mm/mprotect: special-case small folios 
 1cd08eb6e0917c71c8cd2d27f644206141acd863 selftests/mm: verify droppable mappings cannot be locked
 44709aabd05e4c794ec28109be2d235d1b9a9d83 mm/swap, PM: hibernate: fix swapoff race in uswsusp by pinning swap device
 543bf7ae2c2b429c1084fa7a12789dba77237c7a mm/swap: remove redundant swap device reference in alloc/free
-b47b4fa4c232ee36aae58630e9d6520e35d33f3a mm/vmstat: spread vmstat_update requeue across the stat interval
 
---===============5854061255702855078==--
+--===============3967142920486927783==--
