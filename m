@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/damon-hack
-Date: Sat, 04 Apr 2026 00:40:22 -0000
-Message-Id: <177526322281.3182023.7548610038430143076@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sj/damo
+Date: Sat, 04 Apr 2026 00:40:54 -0000
+Message-Id: <177526325490.3182867.11314704248650342600@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/damon-hack
+repo: pub/scm/linux/kernel/git/sj/damo
 user: sj
 changes:
-  - ref: refs/heads/master
-    old: 41825738c1cb6ba225feed212f9124303759c854
-    new: b25de9c41681f9e7b3107a8d312de102be080b34
+  - ref: refs/heads/next
+    old: 4924d79836cc6aa9bd31098c572a753bd42a2237
+    new: 15364fa74e5cb3ab7eef002b5ae1d46ddf7fa219
     log: |
-         34ad68e619af688b8748fad4a0294094bfdabf10 patches/mm: update
-         b25de9c41681f9e7b3107a8d312de102be080b34 patches/next: rebase to latest mm-new
+         15364fa74e5cb3ab7eef002b5ae1d46ddf7fa219 _damon: update metric_require_nid() for node_memcg_{used,free}_bp
          
