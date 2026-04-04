@@ -1,47 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============9063468886388337232=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/modules/linux
-Date: Sat, 04 Apr 2026 00:29:23 -0000
-Message-Id: <177526256300.3170236.7532801034181044066@gitolite.kernel.org>
-
---===============9063468886388337232==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Sat, 04 Apr 2026 00:34:34 -0000
+Message-Id: <177526287446.3174396.4453443409589483140@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/modules/linux
-user: sami
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
-  - ref: refs/heads/modules-next
-    old: 3b1299f25b07ef83e020d049dfc62ced9c09450d
-    new: 663385f9155f27892a97a5824006f806a32eb8dc
+  - ref: refs/heads/main
+    old: 353d8e7989b6babe8fe4ae06272230c7941c3f73
+    new: 3741f8fa004bf598cd5032b0ff240984332d6f05
     log: |
-         743f8cae549affe8eafb021b8c0e78a9f3bc23fa module: Override -EEXIST module return
-         663385f9155f27892a97a5824006f806a32eb8dc module: Simplify warning on positive returns from module_init()
+         3fdea79c09d169b6ea172b8d36232c3773f39973 dpll: add frequency monitoring to netlink spec
+         15ed91aa84ea7bacef3c24286d5136055b4335a8 dpll: add frequency monitoring callback ops
+         bfc923b642874ea6f94763d6060782072944ebd5 dpll: zl3073x: implement frequency monitoring
+         3741f8fa004bf598cd5032b0ff240984332d6f05 Merge branch 'dpll-add-frequency-monitoring-feature'
          
-
---===============9063468886388337232==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher 84F5ABB5BBF74265EAF372185A0725AB39A1A77A 1775262561 +0000
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/modules/linux.git
-nonce 1775262561-9de6c9816258e17a9cbed5e52a10bce5f6c0f918
-
-3b1299f25b07ef83e020d049dfc62ced9c09450d 663385f9155f27892a97a5824006f806a32eb8dc refs/heads/modules-next
------BEGIN PGP SIGNATURE-----
-
-iHUEABYKAB0WIQSE9au1u/dCZerzchhaByWrOaGnegUCadBbYQAKCRBaByWrOaGn
-eoMEAQChDYEDoILp3fqmfPzPvM86qMVnXwH1Z7pbGwDP0l+BhgD9HNPJIdzwwZMj
-3tltgb717mLGuoTiqyFj1q0Q23GODQk=
-=5DxO
------END PGP SIGNATURE-----
-
---===============9063468886388337232==--
