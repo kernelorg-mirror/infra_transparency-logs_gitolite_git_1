@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8323823868144358324=="
+Content-Type: multipart/mixed; boundary="===============7623528076773929791=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Sat, 04 Apr 2026 00:39:52 -0000
-Message-Id: <177526319288.3179175.6535478716624708648@gitolite.kernel.org>
+Date: Sat, 04 Apr 2026 00:39:54 -0000
+Message-Id: <177526319425.3179362.17212894966309916544@gitolite.kernel.org>
 
---===============8323823868144358324==
+--===============7623528076773929791==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/mm-new
-    old: 4681e0408c55a73449470e9ac0cbcb91f383a70b
-    new: c88437e89d76f066158842639b8035eb207a792c
-    log: revlist-4681e0408c55-c88437e89d76.txt
+  - ref: refs/heads/mm-unstable
+    old: 98ddd87f9704ef2fc837ec2ca38877c364d8dada
+    new: bfce90429768e8b1ebdce78a69eb855d9318f7f6
+    log: revlist-98ddd87f9704-bfce90429768.txt
 
---===============8323823868144358324==
+--===============7623528076773929791==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4681e0408c55-c88437e89d76.txt
+Content-Disposition: attachment; filename=revlist-98ddd87f9704-bfce90429768.txt
 
 051084a16b13e1de6883de3f4a261254110a8ccc mm: filemap: fix nr_pages calculation overflow in filemap_map_pages()
 efd6cf4a6fb2c948adee263b79d4f2b37d1d85a5 mm/hugetlb: restore reservation on error in hugetlb_mfill_atomic_pte() resubmission path
@@ -149,7 +149,5 @@ ce6af4e92b6a96d1f51821298f26c259eb4ba0e1 mm/page_io: use sio->len for PSWPIN acc
 011599ed8a6830f51030178edfabeaf9864a238b selftests/mm: verify droppable mappings cannot be locked
 6d5b10807aec70eeafea6356212613490c2a3661 mm/swap, PM: hibernate: fix swapoff race in uswsusp by pinning swap device
 bfce90429768e8b1ebdce78a69eb855d9318f7f6 mm/swap: remove redundant swap device reference in alloc/free
-303e92e9365696d47273740fff6c84472650e185 mm/vmstat: spread vmstat_update requeue across the stat interval
-c88437e89d76f066158842639b8035eb207a792c mm/sparse: fix comment for section map alignment
 
---===============8323823868144358324==--
+--===============7623528076773929791==--
