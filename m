@@ -1,24 +1,47 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/riscv/linux
-Date: Sat, 04 Apr 2026 00:22:28 -0000
-Message-Id: <177526214858.3165520.8750687189103037013@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============9063468886388337232=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/modules/linux
+Date: Sat, 04 Apr 2026 00:29:23 -0000
+Message-Id: <177526256300.3170236.7532801034181044066@gitolite.kernel.org>
+
+--===============9063468886388337232==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/riscv/linux
-user: pjw
+repo: pub/scm/linux/kernel/git/modules/linux
+user: sami
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/fixes
-    old: 2ff48e0382102b29cba20cdd8bf16a0f045f6e33
-    new: 7612e78799df47e39a4dd6fdcf776c93f787baae
+  - ref: refs/heads/modules-next
+    old: 3b1299f25b07ef83e020d049dfc62ced9c09450d
+    new: 663385f9155f27892a97a5824006f806a32eb8dc
     log: |
-         9ec891eeb0d9b269de7f08ba6c8b0e788e12f2bd riscv: ptrace: cfi: fix "PRACE" typo in uapi header
-         13cae9369a806b06044047a6fcd5abef27540441 riscv: cfi: clear CFI lock status in start_thread()
-         3ec3917811eed04a8a269a58240e0fc24d3ed298 riscv: ptrace: expand "LP" references to "branch landing pads" in uapi headers
-         cbaefa6f32ce345250119cabd11667538b53b9bc prctl: rename branch landing pad implementation functions to be more explicit
-         c3516182bba7ff099a507de79c02d5d6c82eac21 riscv: ptrace: cfi: expand "SS" references to "shadow stack" in uapi headers
-         7612e78799df47e39a4dd6fdcf776c93f787baae prctl: cfi: change the branch landing pad prctl()s to be more descriptive
+         743f8cae549affe8eafb021b8c0e78a9f3bc23fa module: Override -EEXIST module return
+         663385f9155f27892a97a5824006f806a32eb8dc module: Simplify warning on positive returns from module_init()
          
+
+--===============9063468886388337232==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher 84F5ABB5BBF74265EAF372185A0725AB39A1A77A 1775262561 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/modules/linux.git
+nonce 1775262561-9de6c9816258e17a9cbed5e52a10bce5f6c0f918
+
+3b1299f25b07ef83e020d049dfc62ced9c09450d 663385f9155f27892a97a5824006f806a32eb8dc refs/heads/modules-next
+-----BEGIN PGP SIGNATURE-----
+
+iHUEABYKAB0WIQSE9au1u/dCZerzchhaByWrOaGnegUCadBbYQAKCRBaByWrOaGn
+eoMEAQChDYEDoILp3fqmfPzPvM86qMVnXwH1Z7pbGwDP0l+BhgD9HNPJIdzwwZMj
+3tltgb717mLGuoTiqyFj1q0Q23GODQk=
+=5DxO
+-----END PGP SIGNATURE-----
+
+--===============9063468886388337232==--
