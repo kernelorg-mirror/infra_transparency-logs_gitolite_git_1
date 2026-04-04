@@ -1,46 +1,42 @@
-Content-Type: multipart/mixed; boundary="===============6508093766480665877=="
+Content-Type: multipart/mixed; boundary="===============5278845932384023499=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jpoimboe/linux
-Date: Sat, 04 Apr 2026 17:48:02 -0000
-Message-Id: <177532488261.3983262.12143697630947288505@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
+Date: Sat, 04 Apr 2026 18:51:08 -0000
+Message-Id: <177532866828.4030641.5227518344322879834@gitolite.kernel.org>
 
---===============6508093766480665877==
+--===============5278845932384023499==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jpoimboe/linux
-user: jpoimboe
+repo: pub/scm/linux/kernel/git/rafael/linux-pm
+user: rafael
 changes:
-  - ref: refs/heads/klp-build-arm64
-    old: 27b04373d3994bb26d19607e5f1e1a1e9be7b006
-    new: 5a958b865d35a4945b60ae28a1332e6feb4400ff
-    log: revlist-27b04373d399-5a958b865d35.txt
+  - ref: refs/heads/bleeding-edge
+    old: ecdf462fe0456bb06636bf6cf6d6839408a2a13c
+    new: 19560d9b335fc1cd34f88d2af61dde024c7ddee3
+    log: revlist-ecdf462fe045-19560d9b335f.txt
 
---===============6508093766480665877==
+--===============5278845932384023499==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-27b04373d399-5a958b865d35.txt
+Content-Disposition: attachment; filename=revlist-ecdf462fe045-19560d9b335f.txt
 
-3d381d2c57e95ec1a10363be78961a98b2990a0a klp-build: Use "objtool klp checksum" subcommand
-81817b1893a27a9ba8a89ad2991966bc40cee7e7 objtool: Remove --checksum from main objtool command
-d24efb6705508d2e0f50592337d6e6ed941503bd arm64: Annotate intra-function calls
-d54f970741c710ddbc2a2aa3f782ef39ecef3533 arm64: Fix EFI linking with -fdata-sections
-ba4a8244bc0461768bd58161d7dcb9fb7d2b1c9a arm64: Rename TRAMP_VALIAS -> TRAMP_VALIAS_ASM in asm-offsets
-e0d01520908a919e907382182d89bf65f8bd8be2 arm64/vdso: Discard .discard.* sections
-f92a75744979558adf6079c057adcf5c6b9ade91 arm64: Annotate special section entries
-f4f87433ecabe4b7ffcf7d7880d394b792e31973 crypto: arm64: Move data to .rodata
-ffa0228ddeb80ee80ad943b92cd78b346d9f670a objtool: Allow setting --mnop without --mcount
-e32f4798065907249b0c2cc86a56600fcfcfd1bf kbuild: Only run objtool if there is at least one command
-dc391ca3861569713873fc7dd39d4835dd99941b objtool: Ignore jumps to the end of the function for non-CFG arches
-6d00229ba30bde9cd53c4d9d3b6a45b28696ee5a objtool: Allow empty alternatives
-3af1e1a2f7fc0d1061a7376c4a5aa44bdea12d92 objtool: Refactor elf_add_data() to use a growable data buffer
-ad8427c320d7d79986220e07ddda080a44d9286b objtool: Reuse string references
-0becbb97351976c34d5dd617215b99c10048b611 objtool: Introduce objtool for arm64
-5a958b865d35a4945b60ae28a1332e6feb4400ff klp-build: Support cross-compilation
+00154eede77616d5c95206728ee36a1e5bbe52e1 ACPI: processor: Rearrange and clean up acpi_processor_errata_piix4()
+caefb7a5d39a8bcb02a5c03adae90ad05aa85696 Merge branch 'acpi-processor' into bleeding-edge
+b14b77bbea0a82cb66f1538824783e63d4128510 ACPI: TAD: Split three functions to untangle runtime PM handling
+9bcdd4ef4cd24ff360c6d0df3b8efad35d82bd94 ACPI: TAD: Relocate two functions
+2ffc8bf29e4d7dff0e6c94f245d5a757be6c013d ACPI: TAD: Split acpi_tad_rtc_read_time()
+7572dcabe38d904dd501e652b504a9ad364ba1cc ACPI: TAD: Add alarm support to the RTC class device interface
+fc9f0b5f8fac3b478dfde2f74352d6a9c6115f97 Merge branch 'acpi-tad' into bleeding-edge
+02c68ed11ceed569ad2d029a4138aead8ff13229 ACPI: processor: idle: Reset power_setup_done flag on initialization failure
+47e6a863a88034be102bde11197f2ca1bc18cbaf ACPI: processor: idle: Fix NULL pointer dereference in hotplug path
+37cef90f6ceb8939a4fd36276f0909d7be0c57e0 Merge branch 'acpi-processor' into bleeding-edge
+629be87e0d6be4c3683d3b39811804f42a78f04b cpuidle: Simplify cpuidle_register_device() with guard()
+19560d9b335fc1cd34f88d2af61dde024c7ddee3 Merge branch 'pm-cpuidle' into bleeding-edge
 
---===============6508093766480665877==--
+--===============5278845932384023499==--
