@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/zohar/linux-integrity
-Date: Sun, 05 Apr 2026 04:57:31 -0000
-Message-Id: <177536505173.290851.5144190292682353451@gitolite.kernel.org>
+Date: Sun, 05 Apr 2026 04:57:51 -0000
+Message-Id: <177536507166.291168.3140810306115855532@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,8 +11,8 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/zohar/linux-integrity
 user: zohar
 changes:
-  - ref: refs/heads/next-integrity-testing
-    old: 03290518a65f63810500f06998c4ddda7385b487
+  - ref: refs/heads/next-integrity
+    old: 7a60fe48af206d34571e446d685672f5730a6b90
     new: 82bbd447199ff1441031d2eaf9afe041550cf525
     log: |
          dccfbafb1f34a98898ac685e0f3f86eeaf25ecc6 ima: Define asymmetric_verify_v3() to verify IMA sigv3 signatures
