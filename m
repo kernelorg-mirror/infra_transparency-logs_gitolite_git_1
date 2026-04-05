@@ -1,23 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/zohar/linux-integrity
-Date: Sun, 05 Apr 2026 04:57:51 -0000
-Message-Id: <177536507166.291168.3140810306115855532@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ebiggers/linux
+Date: Sun, 05 Apr 2026 05:30:18 -0000
+Message-Id: <177536701807.316142.5047782797703156781@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/zohar/linux-integrity
-user: zohar
+repo: pub/scm/linux/kernel/git/ebiggers/linux
+user: ebiggers
 changes:
-  - ref: refs/heads/next-integrity
-    old: 7a60fe48af206d34571e446d685672f5730a6b90
-    new: 82bbd447199ff1441031d2eaf9afe041550cf525
+  - ref: refs/heads/misc-pending
+    old: 5a263ed5e0b20a1ec1259dd22bf9f5a454fb5913
+    new: 8d479919070fb93ad1d8b56833b0712cb5b43451
     log: |
-         dccfbafb1f34a98898ac685e0f3f86eeaf25ecc6 ima: Define asymmetric_verify_v3() to verify IMA sigv3 signatures
-         64c658f358ec6ed6e992d4cf05482eaa2ab4b1a4 ima: add regular file data hash signature version 3 support
-         de4c44a7f559ceae19f7a70febf49e87bdfb125c ima: add support to require IMA sigv3 signatures
-         bab8e90bca64a87dd058527ae1d02596d35dc601 integrity: Allow sigv3 verification on EVM_XATTR_PORTABLE_DIGSIG
-         82bbd447199ff1441031d2eaf9afe041550cf525 evm: Enforce signatures version 3 with new EVM policy 'bit 3'
+         aaf5636e9938253c5b0856a2ba257289b4aaa5fd wifi: mac80211: Export michael_mic()
+         f28b1e7a90a20a413f0b11c130d957e9b4e1ce4d wifi: ath11k: Use michael_mic() from mac80211
+         7cdd1e9c578af4773bf636ef1454c1994d4e543b wifi: ath12k: Use michael_mic() from mac80211
+         3630a526b1c43c8e497039f7acc1531c55250bb7 wifi: ipw2x00: Depend on MAC80211
+         a58833db15c39db88bc181c51f85673537a4120c wifi: ipw2x00: Use michael_mic() from mac80211
+         8d479919070fb93ad1d8b56833b0712cb5b43451 crypto: Remove michael_mic from crypto_shash API
          
