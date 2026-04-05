@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mips/linux
-Date: Sun, 05 Apr 2026 09:40:00 -0000
-Message-Id: <177538200070.508152.14376211424001346616@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Sun, 05 Apr 2026 09:41:21 -0000
+Message-Id: <177538208181.511463.13147916239607930905@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mips/linux
-user: tsbogend
+repo: pub/scm/linux/kernel/git/tip/tip
+user: mingo
 changes:
-  - ref: refs/tags/mips-fixes_7.0_1
+  - ref: refs/tags/irq-urgent-2026-04-05
     old: 0000000000000000000000000000000000000000
-    new: 4e2d123d1a9427503254eec764e03d78bf08de79
+    new: 6033dcb9c0cefc2de2f1d29f5466f238ab2ee937
