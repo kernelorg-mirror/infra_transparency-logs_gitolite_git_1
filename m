@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ebiggers/linux
-Date: Sun, 05 Apr 2026 01:16:36 -0000
-Message-Id: <177535179617.127051.11689637801402723933@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/viro/vfs
+Date: Sun, 05 Apr 2026 01:59:09 -0000
+Message-Id: <177535434986.157200.14431900034967945917@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ebiggers/linux
-user: ebiggers
+repo: pub/scm/linux/kernel/git/viro/vfs
+user: viro
 changes:
-  - ref: refs/heads/misc-pending
-    old: bb399f9fa7b6076ecf1f90f74820fb1c17efb95c
-    new: 5a263ed5e0b20a1ec1259dd22bf9f5a454fb5913
-    log: |
-         5a263ed5e0b20a1ec1259dd22bf9f5a454fb5913 xfrm: Drop support for HMAC-RIPEMD-160
-         
+  - ref: refs/heads/work.coda
+    old: 57e2c57015fa9c302454bcf838a47f28da783266
+    new: e252ed8988578f01da5a4f5aa4c2269f96f03951
