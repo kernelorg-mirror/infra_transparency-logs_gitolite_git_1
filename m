@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1614086138528388618=="
+Content-Type: multipart/mixed; boundary="===============2747156313702907354=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Sun, 05 Apr 2026 07:04:14 -0000
-Message-Id: <177537265454.384810.10885892302810263114@gitolite.kernel.org>
+Date: Sun, 05 Apr 2026 07:04:43 -0000
+Message-Id: <177537268356.385309.14552948993662523764@gitolite.kernel.org>
 
---===============1614086138528388618==
+--===============2747156313702907354==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,15 +16,58 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: d998c62f267213aeb815cf654908608eb7c00db2
-    new: 215c587c968ad750e6f0511f6643124ad2f32a62
-    log: revlist-d998c62f2672-215c587c968a.txt
+    old: 215c587c968ad750e6f0511f6643124ad2f32a62
+    new: dbf534cbea3ea1dc78989eb362e30ce4dde5b030
+    log: revlist-215c587c968a-dbf534cbea3e.txt
+  - ref: refs/heads/tip/urgent
+    old: 190cf5e5f615e45c8516ebbb3d3622d331224707
+    new: 6bc2a7ef4f15b38f46c9cfebf0556e543e0dea1d
+    log: revlist-190cf5e5f615-6bc2a7ef4f15.txt
 
---===============1614086138528388618==
+--===============2747156313702907354==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d998c62f2672-215c587c968a.txt
+Content-Disposition: attachment; filename=revlist-215c587c968a-dbf534cbea3e.txt
+
+9ccb9657981144bc6cbefd7b2b7bce6e7124674a Merge branch into tip/master: 'irq/urgent'
+3c87b62a9fd38eb6f197b73eea2078d647b23708 Merge branch into tip/master: 'perf/urgent'
+4611b983070e9ea9fa0c9231c9a14e4e70593ddc Merge branch into tip/master: 'sched/urgent'
+6bc2a7ef4f15b38f46c9cfebf0556e543e0dea1d Merge branch into tip/master: 'x86/urgent'
+65e82d56ab19e534e3bf59dec9eb979a2f97ebd2 Merge branch into tip/master: 'sched/merge'
+82f9f247d6006547c3fd414ab130914da67c4f72 Merge branch into tip/master: 'timers/merge'
+cd44506f3e6b54810214af36579f1b3a9cb4761c Merge branch into tip/master: 'core/debugobjects'
+6d91397610fa659a4f2ec6be3a85f60c7dd36656 Merge branch into tip/master: 'core/entry'
+11fcff42f7a23435934f1e0ff2db86bde4a8fb07 Merge branch into tip/master: 'irq/core'
+bdae2abf334dd0291f0aa8f199d901f5b5a6b8b7 Merge branch into tip/master: 'irq/drivers'
+ba7acf1080aa9618b0300103a661e2089db9dbe5 Merge branch into tip/master: 'irq/msi'
+8c5d1e5ca94e5a833d5059e8be43d92980ad18bc Merge branch into tip/master: 'locking/core'
+149801335154064aa09e25ab74daf1c5b9491791 Merge branch into tip/master: 'locking/futex'
+28a246acc954fb1b8946ce9c819628d49b20925c Merge branch into tip/master: 'objtool/core'
+6a05e8562cbba92517c43823e2b26cfa6b2ff9f6 Merge branch into tip/master: 'perf/core'
+28e47d700a916ae4b4db6c1fc832cb8ba078aa1e Merge branch into tip/master: 'ras/core'
+ac1ffc552325ee6a2eede35939c26cdf9548edf7 Merge branch into tip/master: 'sched/core'
+9545974efa7df095e7ec005d8e885f6077c0a76c Merge branch into tip/master: 'smp/core'
+a868c497a6ac9dd5a2a35e706a6e05521605b412 Merge branch into tip/master: 'timers/core'
+b68e565ef7e040f84df358d6de05d6c945753fb0 Merge branch into tip/master: 'timers/vdso'
+59e621d372112001ab962ba1518d740d1e1f0146 Merge branch into tip/master: 'x86/asm'
+8f0689af738cacd1d129b86ad8300019f43c0e97 Merge branch into tip/master: 'x86/cache'
+a4d153acddf6f1e95fced22db836bf8bfb02db37 Merge branch into tip/master: 'x86/cleanups'
+e369bcbef21613f038b6ca9db974edab1c236b32 Merge branch into tip/master: 'x86/cpu'
+f9fc04e71e6ca3c10b80fad4009c56e46334aef7 Merge branch into tip/master: 'x86/fred'
+707e12d23a0c6c08401abdbf0483fa72a57dac92 Merge branch into tip/master: 'x86/microcode'
+1d8ae643dd8bbb1d630106b5a531bf451a2cd2cf Merge branch into tip/master: 'x86/misc'
+6127ce7bd59535eb04a5d9c9c4ee79db407ba783 Merge branch into tip/master: 'x86/mm'
+4ba211e206859a4e0a11a6e9c7652e3a01b2b42b Merge branch into tip/master: 'x86/platform'
+52a46d0e473a1c2902256d85fe9520d1e7ae3763 Merge branch into tip/master: 'x86/sev'
+3cfa37067c3bb2f32c83a43883405aa27f91465f Merge branch into tip/master: 'x86/tdx'
+dbf534cbea3ea1dc78989eb362e30ce4dde5b030 Merge branch into tip/master: 'x86/vdso'
+
+--===============2747156313702907354==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-190cf5e5f615-6bc2a7ef4f15.txt
 
 fc1e8a6f129d87c64ac8e58b50d9dfa66217cfda Input: bcm5974 - recover from failed mode switch
 5839419cffc7788a356428d321e3ec18055c0286 Input: i8042 - add TUXEDO InfinityBook Max 16 Gen10 AMD to i8042 quirk table
@@ -99,19 +142,6 @@ a4983968fa5b3179ab090407d325a71cdc96874e drm/amd/display: Wire up dcn10_dio_cons
 293fa6ebd46fffc2722b6c960f40f1eb74b08dba Merge tag 'amd-drm-fixes-7.0-2026-04-02' of https://gitlab.freedesktop.org/agd5f/linux into drm-fixes
 75f53c4b2dbca831bf91e9befe06c9ad58f29352 Merge tag 'drm-misc-fixes-2026-04-02' of https://gitlab.freedesktop.org/drm/misc/kernel into drm-fixes
 744d5721d2d7abc84e5131c16002039c53465c89 Merge branch 'pm-em'
-e0ca8991b2de6c9dfe6fcd8a0364951b2bd56797 sched: Make class_schedulers avoid pushing current, and get rid of proxy_tag_curr()
-37341ec573da7c16fdd45222b1bfb7b421dbdbcb sched: Minimise repeated sched_proxy_exec() checking
-f4fe6be82e6d27349de66a42d6d1b2b11dc97a14 sched: Fix potentially missing balancing with Proxy Exec
-fa4a1ff8ab235a308d8c983827657a69649185fd locking: Add task::blocked_lock to serialize blocked_on state
-56f4b24267a643b0b9ab73f09feaaabfee5a37ae sched: Fix modifying donor->blocked on without proper locking
-2d7622669836dcbbb449741b4e6c503ffe005c25 sched/locking: Add special p->blocked_on==PROXY_WAKING value for proxy return-migration
-f9530b3183358bbf945f7c20d4a6e2048061ec50 sched: Add assert_balance_callbacks_empty helper
-48fda62de67a1e88fc8bada12caf0fc9b45116df sched: Add logic to zap balance callbacks if we pick again
-dec9554dc036183c715d02e9cfe48986d453427a sched: Move attach_one_task and attach_task helpers to sched.h
-b049b81bdff6fc6794200a4c7d7d910e2008d57f sched: Handle blocked-waiter migration (and return migration)
-2d4cc371baa5881da45120a65d264a59b486f486 sched/fair: Use sched_energy_enabled()
-059258b0d424510202b6f2796279dbdbf0c6a83d sched/fair: Prevent negative lag increase during delayed dequeue
-9805ed3c91478b08a586861b874bd8b6a2fed648 perf/x86/msr: Make SMI and PPERF on by default
 60d9212c6932376a337507b20fc45b2c2785b5ac Merge tag 'drm-fixes-2026-04-03' of https://gitlab.freedesktop.org/drm/kernel
 441c63ff42c4e666304cdd32d23b5fc6bc1ea3cc Merge tag 'arm64-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/arm64/linux
 116a3308e1eb0ea59aa248e22ac29d65eb7cd250 Merge tag 'gpio-fixes-for-v7.0-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux
@@ -121,20 +151,15 @@ b049b81bdff6fc6794200a4c7d7d910e2008d57f sched: Handle blocked-waiter migration 
 c514f73377d6e3c2d4bab6db89b5a0e4b8807fa1 Merge tag 'spi-fix-v7.0-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/spi
 e41255ce7acc4a3412ecdaa74b32deee980d27f7 Merge tag 'io_uring-7.0-20260403' of git://git.kernel.org/pub/scm/linux/kernel/git/axboe/linux
 631919fb12fe7b1f0453fe1035e62ce704bc3923 Merge tag 'sched_ext-for-7.0-rc6-fixes-2' of git://git.kernel.org/pub/scm/linux/kernel/git/tj/sched_ext
-5635c8bfd3ab0757c5461d2165f6b284862826bf x86/apic: Drop AMD Extended Interrupt LVT macros
 1523e4d567f119ad859783b314b5d1312ebf8281 Merge tag 'hwmon-for-v7.0-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/groeck/linux-staging
 3719114091cea0d3a896581e4fe5bed4eba4604b Merge tag 's390-7.0-7' of git://git.kernel.org/pub/scm/linux/kernel/git/s390/linux
 7ca6d1cfec80ebe46cc063f3284c5896c344d9a1 Merge tag 'powerpc-7.0-4' of git://git.kernel.org/pub/scm/linux/kernel/git/powerpc/linux
 e2b0ae529db4766584e77647cefe3ec15c3d842e Input: xpad - add support for Razer Wolverine V3 Pro
 0d9363a764d9d601a05591f9695cea8b429e9be3 Input: xpad - add support for BETOP BTP-KP50B/C controller's wireless mode
-f44cc3a48acaf9909e3953eb69299e3c773c9111 x86/fpu: Correct misspelled xfeaures_to_write local var
 3aae9383f42f687221c011d7ee87529398e826b3 Merge tag 'input-for-v7.0-rc6' of git://git.kernel.org/pub/scm/linux/kernel/git/dtor/input
-bad28e01f206c533a8ff7fec5efe8ab9607a8364 Merge tag 'v7.0-rc6' into irq/core
-e8be82c2d77ec1bb0148406e54b105028a83537e Drivers: hv: Move add_interrupt_randomness() to hypervisor callback sysvec
-a7682d67bf6b96c0d94a76e26eb5a14bbc645850 Merge branch into tip/master: 'irq/core'
-f8e942eb78921140e97f6ce2d8dd1da610eca383 Merge branch into tip/master: 'perf/core'
-8c1915af55973be43d0d07e037c6cac70e2468e5 Merge branch into tip/master: 'sched/core'
-342f147cf7e3971118b7a437a34d9ef0c82d7c94 Merge branch into tip/master: 'x86/cleanups'
-215c587c968ad750e6f0511f6643124ad2f32a62 Merge branch 'linus'
+9ccb9657981144bc6cbefd7b2b7bce6e7124674a Merge branch into tip/master: 'irq/urgent'
+3c87b62a9fd38eb6f197b73eea2078d647b23708 Merge branch into tip/master: 'perf/urgent'
+4611b983070e9ea9fa0c9231c9a14e4e70593ddc Merge branch into tip/master: 'sched/urgent'
+6bc2a7ef4f15b38f46c9cfebf0556e543e0dea1d Merge branch into tip/master: 'x86/urgent'
 
---===============1614086138528388618==--
+--===============2747156313702907354==--
