@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/damon-hack
-Date: Mon, 06 Apr 2026 23:41:30 -0000
-Message-Id: <177551889060.2450539.18360514048204835578@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
+Date: Mon, 06 Apr 2026 23:41:50 -0000
+Message-Id: <177551891050.2450959.13567006600528783149@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/damon-hack
-user: sj
+repo: pub/scm/linux/kernel/git/ath/ath
+user: jjohnson
 changes:
-  - ref: refs/heads/master
-    old: 32a37831fbe4584b31b406a906ebdb37ac192ac3
-    new: 3b7fc4420e464d2494ec7508bff0e710b9b61a2c
+  - ref: refs/heads/pending
+    old: dbd94b9831bc52a1efb7ff3de841ffc3457428ce
+    new: 238beac933ae39f2c8943d311a3e1383fa276e81
     log: |
-         15cb86190ddfe66406e703373352758248817029 patches/mm: update
-         3b7fc4420e464d2494ec7508bff0e710b9b61a2c patches/next: rebase to latest mm-new
+         238beac933ae39f2c8943d311a3e1383fa276e81 wifi: ath12k: Rename hw_link_id to radio_idx in ath12k_ah_to_ar()
          
