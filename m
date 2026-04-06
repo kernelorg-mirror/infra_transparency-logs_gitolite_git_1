@@ -1,73 +1,54 @@
-Content-Type: multipart/mixed; boundary="===============5415511522597427950=="
+Content-Type: multipart/mixed; boundary="===============5713542075880612072=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
-Date: Mon, 06 Apr 2026 16:25:22 -0000
-Message-Id: <177549272201.2100494.8418117003384175665@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
+Date: Mon, 06 Apr 2026 16:33:10 -0000
+Message-Id: <177549319064.2105203.13533883719124761747@gitolite.kernel.org>
 
---===============5415511522597427950==
+--===============5713542075880612072==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pci/pci
-user: helgaas
+repo: pub/scm/linux/kernel/git/tnguy/next-queue
+user: tnguy
 changes:
-  - ref: refs/heads/next
-    old: 525e91d84dc085492b36d4b87abb7c1cc93fcb44
-    new: 06d8a0ad6bc3b7609f14441ea2d2470d9a33b2b5
-    log: revlist-525e91d84dc0-06d8a0ad6bc3.txt
+  - ref: refs/heads/10GbE
+    old: 8b0e64d6c9e7feec5ba5643b4fa8b7fd54464778
+    new: 3741f8fa004bf598cd5032b0ff240984332d6f05
+    log: revlist-8b0e64d6c9e7-3741f8fa004b.txt
 
---===============5415511522597427950==
+--===============5713542075880612072==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-525e91d84dc0-06d8a0ad6bc3.txt
+Content-Disposition: attachment; filename=revlist-8b0e64d6c9e7-3741f8fa004b.txt
 
-20e47e925678cd68ac0a749cf5f9bc280d6c2a66 PCI: Remove MPS/MRRS Kconfig settings
-c54d5f5b33990f2649c20f35407f340bcadb8a53 PCI: aspeed: Fix IRQ domain leak on platform_get_irq() failure
-401359ef44af43b6b775dc01bb7b31396db67aab dt-bindings: PCI: imx6q-pcie: Fix maxItems of clocks and clock-names
-4d7937d8cc32b027a14cb8152d9df64d17e9392c dt-bindings: PCI: imx6q-pcie: Add i.MX94 and i.MX943 SoCs
-5f352433ea39171e19fbb3a7e18d983510176854 PCI: endpoint: Add reserved region type for MSI-X Table and PBA
-5aec1f18b326ddc455ae9d9d0f5394efc20eee9b PCI: tegra194: Make BAR0 programmable and remove 1MB size limit
-12a22fb38cbba1991a3f174912b343cdb6afa186 PCI: tegra194: Expose BAR2 (MSI-X) and BAR4 (DMA) as 64-bit BAR_RESERVED
-5ab7a225888baa5474def18ba3b0a298d27e6ba0 misc: pci_endpoint_test: Add Tegra194 and Tegra234 device table entries
-5573c44cb3fd01a9f62d569ae9ac870ef5f0e0ba PCI: mediatek-gen3: Prevent leaking IRQ domains when IRQ not found
-d9cf7154deed71a4f23e81101571c79cdc77be00 PCI: cadence: Use cdns_pcie_read_sz() for byte or word read access
-88cc4cbe08bba27bb58888d25d336774aa0ccab1 PCI: imx6: Fix reference clock source selection for i.MX95
-93d5f1a18d5732fd7d74d781619c0bf95529c314 Merge branch 'pci/aer'
-3085d7a8a8267537dbcbc88cff5f28906bd673ee Merge branch 'pci/aspm'
-7ceeeb327682dfa1b437cba7450afe6cb4592ce3 Merge branch 'pci/atomics'
-a6f4d3b52e87dca708593840735bd138c93f8b06 Merge branch 'pci/dpc'
-10e8d9215aec59e34779c1110f85901e6fb25a63 Merge branch 'pci/enumeration'
-c50d921f04a11b90644360d99f6ce8ff4e9635d7 Merge branch 'pci/hotplug'
-9ccf1d3fb7807ea8fd5d4e58fb690a4172420d6b Merge branch 'pci/msi'
-8531d525652cafa184bd9abb7dc896a54ba95972 Merge branch 'pci/ptm'
-89f3f0554c24cf88952f5c255bed2ab4b668e16d Merge branch 'pci/pwrctrl'
-3021133fd6aed5a846bc126e9019e171d5dffa4e Merge branch 'pci/reset'
-373bcb967fc57581a8fcbdb656d050140aba3d96 Merge branch 'pci/resource'
-10bd4e762315929f880a4436eb17c601b1634da5 Merge branch 'pci/vga'
-be7f280c67f085ed45bee073e974b56013edd1b4 Merge branch 'pci/virtualization'
-b8552c9c2bf7365d169bec7b1d1ecbb21051f967 Merge branch 'pci/dt-binding'
-d642cf51e155deea4efd5f53861d1bbbc4b584fa Merge branch 'pci/endpoint'
-55d234c29ae5b0b736856887fd5b6cc5f135d4f5 Merge branch 'pci/controller/max-link-speed'
-1f2ad78c47989af1ad825921c0f0ba395542b392 Merge branch 'pci/controller/aspeed'
-0c9b2e48b13a93bfef8d521350434028d4714a72 Merge branch 'pci/controller/cadence'
-f4ca6e6867f967bc9e384ef56544c330527f8dca Merge branch 'pci/controller/cadence-sky1'
-845a680461908f02d3f18210cbd02888f24da405 Merge branch 'pci/controller/dwc'
-57e685eab95c14aacff20981bcb1235c004a0446 Merge branch 'pci/controller/dwc-amd-mdb'
-da853a66fd40c66ce245e83d17c1a5590333beb9 Merge branch 'pci/controller/dwc-andes-qilai'
-05fba341e7370b8af81e2e32e7ec820c718fac7d Merge branch 'pci/controller/dwc-eswin'
-5baf366fedc71de5044b0f75e9501f14995b7657 Merge branch 'pci/controller/dwc-imx6'
-2deeb70f9f85e2a634b569b04e6f0dc8fe8fa00e Merge branch 'pci/controller/dwc-layerscape'
-aa496bb642a53eef0b6e746e5269f5f529a5f4af Merge branch 'pci/controller/dwc-qcom'
-3cd28d7a260cb83207727a9b00167043f6236f83 Merge branch 'pci/controller/dwc-rcar-gen4-ep'
-a2ae0de9605a1ffb0a84022ddf59d29734602b2b Merge branch 'pci/controller/dwc-rockchip'
-0b42620798d6edba00df87e4b942d04c4d7d6f40 Merge branch 'pci/controller/mediatek'
-ca8628d64ceca099a8b234f4c430cec4966f004d Merge branch 'pci/controller/mediatek-gen3'
-795de4301297cef4a44eadfb0d812cf32377036b Merge branch 'pci/controller/rzg3s-host'
-06d8a0ad6bc3b7609f14441ea2d2470d9a33b2b5 Merge branch 'pci/misc'
+a9b460225e47a3d98296eba71c62ff0ad58a2032 net: always inline some skb helpers
+e2f152c822cf5d37b3fc5db8e10ce25448dc12d5 stmmac: cleanup dead dependencies on STMMAC_PLATFORM and STMMAC_ETH in Kconfig
+789ec16eb397e7d1286e92a859859493f35878fe net: stmmac: qcom-ethqos: set clk_csr
+30f831b44a98a660ccaf608f88d8bb945318dc59 selftests: drv-net: gro: add data burst test case
+436ea8a1b7ed1328cf24cebb3ebaa21aa0c6a81a selftests: drv-net: gro: add 1 byte payload test
+d97348474708d5f67bec6da28c2e14e12598b965 selftests: drv-net: gro: always wait for FIN in the capacity test
+5469b695f23642611c47e31329025a21de86c629 selftests: drv-net: gro: prepare for ip6ip6 support
+166b0cc6df8c8bd961058aa3ed0c2d1a2bdaffca selftests: drv-net: gro: remove TOTAL_HDR_LEN
+024597cc2077e36dc69327e46fa6dfb1cd0885cd selftests: drv-net: gro: make large packet math more precise
+9a84a4047df79f7f58a4915abaf09d1089103233 selftests: drv-net: gro: test ip6ip6
+764d0833e795916ffe33906ace17bab027c093f8 selftests: drv-net: gro: add a test for bad IPv4 csum
+071fe8b5d535f3379edc8992d7f7b031a71502b9 Merge branch 'selftests-drv-net-gro-more-test-cases'
+1666d945b57b5a10bdea2d229b8ac43d2970f5f8 inet: remove leftover EXPORT_SYMBOL()
+779fae61a3c84bf5a086509558eb5b432fa5ab62 ppp: update Kconfig help message
+dc3bd465ea36af7fd6f9197c05353effc616145c net: macb: Replace open-coded implementation with napi_schedule()
+5986ff6e4136105f16d481bd0532b7da2c6344ae net: macb: Introduce macb_queue_isr_clear() helper function
+6d55ce805b267400e682aa335787775bf253e5d8 net: macb: Factor out the handling of non-hot IRQ events into a separate function
+6637c03f35fa75447d5c2c31db610929cff05813 net: macb: Remove dedicated IRQ handler for WoL
+48a5e77b49ff304f5ad76d07c864e4b2257493c3 Merge branch 'net-macb-remove-dedicated-irq-handler-for-wol'
+353d8e7989b6babe8fe4ae06272230c7941c3f73 net: ethernet: ravb: Suspend and resume the transmission flow
+3fdea79c09d169b6ea172b8d36232c3773f39973 dpll: add frequency monitoring to netlink spec
+15ed91aa84ea7bacef3c24286d5136055b4335a8 dpll: add frequency monitoring callback ops
+bfc923b642874ea6f94763d6060782072944ebd5 dpll: zl3073x: implement frequency monitoring
+3741f8fa004bf598cd5032b0ff240984332d6f05 Merge branch 'dpll-add-frequency-monitoring-feature'
 
---===============5415511522597427950==--
+--===============5713542075880612072==--
