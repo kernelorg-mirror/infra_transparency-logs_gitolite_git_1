@@ -1,51 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============5044172233931098688=="
+Content-Type: multipart/mixed; boundary="===============6543943869082061960=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Mon, 06 Apr 2026 15:16:40 -0000
-Message-Id: <177548860094.2040523.8399409622586170868@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Mon, 06 Apr 2026 15:16:49 -0000
+Message-Id: <177548860909.2040837.14243659022855633297@gitolite.kernel.org>
 
---===============5044172233931098688==
+--===============6543943869082061960==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-7.0
+  - ref: refs/heads/asoc-7.0
     old: e74c38ef6f170179c0029b5744d6a14dfd543108
     new: b33b340e22abaac0cba50f5efadf96ee65913e9d
     log: revlist-e74c38ef6f17-b33b340e22ab.txt
 
---===============5044172233931098688==
+--===============6543943869082061960==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1775488599 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1775488598-6717cdc975eecf8415b71bd0afca2ca0b56033d3
+pusher C3F436CA30F5D8EB 1775488607 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1775488605-8490e946e817b879f8167172af3fbfc5fb7ed424
 
-e74c38ef6f170179c0029b5744d6a14dfd543108 b33b340e22abaac0cba50f5efadf96ee65913e9d refs/heads/for-7.0
+e74c38ef6f170179c0029b5744d6a14dfd543108 b33b340e22abaac0cba50f5efadf96ee65913e9d refs/heads/asoc-7.0
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmnTzlcACgkQJNaLcl1U
-h9A4rwf8DOi1U1Ll08HMvpWNySV0SeYWxflrsOaXzoYWjHRD5W1uxnJX159BUcAL
-Cyy2C608Wl5x1hXeP5lxU9Kl3vQzDpV2B0BYtDRO6NFrga++AILkfCocuWQZjr5o
-jSKKR91ip3OFHdfksfKynZDJ118Ber8bw4VxBfPrjnlsXIEr438wIAGDpRoH02TH
-Xf0LXEqgWpJ/HqBo3keNKVz6StPOvf700n133P6pfVg7fO4kC0M6h9Sdu5HR9epu
-OiP08z+fGJQYkDTSIbGmzo9QUDzIoPbSgkVG8TWM1ZHTWGjeZz/g34m/529SHb23
-qzX0SJoprpXmaKbHrosvjrIPZBBBcQ==
-=msaN
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmnTzl8ACgkQJNaLcl1U
+h9BOVgf9GEBzx2STOoOazrw+38n4IFBYn/DM+IGHufx0b740v0jW13ihxQ3Vqnkg
+7EfyNZvrz1AkYmjvI15j5mlVAfQAIXWbBd5Qnh1zftBDKRAInKmplj0FI7M85Rt6
+mFgloZ9tDYzouQf1OWFH8SxqbfncHuMT9ZUcfp8PUVxItQ9ReO3lkz8JCDHWXGGV
+VKbkXtdFwNIVxN2JGgkQv/Qa82tm2K7QQsTsuOCBtIiiabCqua9uzX6bZ3oQIsO+
+42/7nuBoUqwAUVllEiTKG+ScuFUIpVzXM0R4McRBLLLCutnTR8aCGC90BmMu52es
+YhV6+EBOGsaMQha4+cbQiqW5hSL9bw==
+=87dS
 -----END PGP SIGNATURE-----
 
---===============5044172233931098688==
+--===============6543943869082061960==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -468,4 +468,4 @@ eb3765aa711ff93664cd5ffcf0c2df02da2d9c26 Merge tag 'mips-fixes_7.0_1' of git://g
 1de6ddcddc954a69f96b1c23205e03ddd603e3c8 ASoC: SOF: Intel: fix iteration in is_endpoint_present()
 b33b340e22abaac0cba50f5efadf96ee65913e9d ASoC: SOF: Intel: Fixes for find_acpi_adr_device() when some endpoints are missing
 
---===============5044172233931098688==--
+--===============6543943869082061960==--
