@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1470150987168626795=="
+Content-Type: multipart/mixed; boundary="===============5538230009820795867=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Mon, 06 Apr 2026 12:34:26 -0000
-Message-Id: <177547886656.1905967.4119736705186870346@gitolite.kernel.org>
+Date: Mon, 06 Apr 2026 12:34:33 -0000
+Message-Id: <177547887313.1906216.6215056598139514528@gitolite.kernel.org>
 
---===============1470150987168626795==
+--===============5538230009820795867==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,47 +16,65 @@ repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/class_cleanup
-    old: d466c332e106fe666d1e2f5a24d08e308bebbfa1
-    new: fd72ddaa7245601d5c4a5d21a3f23cfe6c390c28
-    log: revlist-d466c332e106-fd72ddaa7245.txt
+  - ref: refs/heads/main
+    old: 6de23f81a5e08be8fbf5e8d7e9febc72a5b5f27f
+    new: 591cd656a1bf5ea94a222af5ef2ee76df029c1d2
+    log: revlist-6de23f81a5e0-591cd656a1bf.txt
 
---===============1470150987168626795==
+--===============5538230009820795867==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1775478863 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1775478872 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1775478862-e23fa036eb92940552a0decd7ed38e6b4fcca645
+nonce 1775478871-1ee019246ed6fdc1c11798ad7a8d1e934e152034
 
-d466c332e106fe666d1e2f5a24d08e308bebbfa1 fd72ddaa7245601d5c4a5d21a3f23cfe6c390c28 refs/heads/class_cleanup
+6de23f81a5e08be8fbf5e8d7e9febc72a5b5f27f 591cd656a1bf5ea94a222af5ef2ee76df029c1d2 refs/heads/main
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmnTqE8bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+vtsP/3b80zqlWShPd4eSVtiD
-Eqbh0SZNkTMGueg0TednAMUCdtSr/XSZTErgjZrLa5aEmLOrBjbmmRhe2N/jN5TJ
-OCQSiNiU/m2vtSAZuNOvJJPeJ84bYkpIrAfqVHwbX5GDYlUQmTL9PPKOXrI38fxp
-ezsj846v0wBezAdKqlIWjZ5yoYQg/vJhM8LlGHohqGyLjT3LorCeob5TpYgPlB6n
-BIEycjfWF+53QtgeWrootqEXnBWzNDi5nTxK9uWqWuzIhFH6gElVg4+8QuloEU8/
-uLgVUzuXHj/hSA48KQhZDMhq6kihBdkBX64OGFfeF4Or1vt8EkGNPzPzKiYnEhWk
-b3LXjmzF1CpjKZ5Vab27A8fJ9sYYH85H2B2Bc4LTnQkFg+iuuARLRmOuJlvCOPQt
-FqDCk9yoH1oAIY7LxfWaRxVCs7wgIzLQQrd+h68C5w8H45q9E1EojdBmUnm9WLV9
-0qkDx0nRHgRqV+LltMkGO8+a7iK3QoxwCwpVpfRrlGZ19zrVa/+dC6g9SaSUyJM8
-38r9qrRE+ZgLhMG/FOfbMhqt+h87Dp4hkueV72cylv9OHaCrBIYmOzHIcz7WzdAx
-urU+ayUyJdyP/eQOj85eYJcONcPwpE/7UJYzqdftdwWXNvVfOgeAk34OMYaQdZJM
-IDCwoeCmReL82wHeDBFgw3PU
-=OqsI
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmnTqFgbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+fYEP/isdeacZBxUtFAAJUyfS
+0v2b7XSPKZjAwHpSIcwSdTr9SCB73uIQi28JXFiWqyIlPqhKExk2HlTzB44fpoh7
+Coqgvc8YjfyDJHNSFNq0VQVVSiJ+Q8P8M9Jwg2c5jMiAUR8NLo/VFCbT6daYhNUC
+KzELrRtM6AIfrMB5dMM60lrIHFqL2zqNm+j2JXPuHafUd166gcwGeIcjBM5RjoQ7
+prQ+oz352TndOwLBZaVae9Nemu5DW/80jwfd0bBjpBp2OCayCmSP9KkPj5sbc2Dd
+dgCKYQbhRgMudiYfovrzX8oLEPaPrTAaf/FeYLAEIUuc0cl6Wz1SrlCMkV7uG3sP
+YkXSFtr+eyW4zcToc9RIOUaUkJST9Hnk5peN2Vi+NNQUQwPHiyKUDiTe3vLzVPH4
+Lqy/rqNK9hqBVR0UjhCRvDVQ0HOIbpW/+9MByKIkEn3xfxZBv53l/nkhe5LxpKkZ
+I+FIa9kJXty0d+3GUFeo+v3SsssWthIscLUQOlNXbNWuDqoWsx24aLvtypR46OfJ
+IHK0WS0n3pPcqiChMTMi8giHOE4IZ2Me3fKzsG66V7OWSmYiI1NuBGHcJdJSLWRF
+Q606Rz6PEP8An3EVldbL3L10986VbMmw0fbw/hVu033lF4e8OnrGkhuJILqt06Lz
+asFet3HeOFW1YZoLulxAnkie
+=FDGG
 -----END PGP SIGNATURE-----
 
---===============1470150987168626795==
+--===============5538230009820795867==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d466c332e106-fd72ddaa7245.txt
+Content-Disposition: attachment; filename=revlist-6de23f81a5e0-591cd656a1bf.txt
 
+cf3287fb2c1ff74cb16e4348c6914acf140ebe30 PCI/pwrctrl: Ensure that remote endpoint node parent has supply requirement
+ee226656cd64c1d781e6f91a38a5131106e9e094 PCI/pwrctrl: Create pwrctrl devices only for PCI device nodes
+4e5019216402ad0b4a84cff457b662d26803f103 objtool: Fix Clang jump table detection
+75cea0776de502f2a1be5ca02d37c586dc81887e cxl/hdm: Avoid incorrect DVSEC fallback when HDM decoders are enabled
+50bfd2a22b75a904d5900d64530ae1b69a69907c cifs: smb1: fix comment typo
+eade54040384f54b7fb330e4b0975c5734850b3c erofs: set fileio bio failed in short read case
+b7405dcf7385445e10821777143f18c3ce20fa04 bonding: prevent potential infinite loop in bond_header_parse()
+6d5e4538364b9ceb1ac2941a4deb86650afb3538 net/smc: fix NULL dereference and UAF in smc_tcp_syn_recv_sock()
+66360460cab63c248ca5b1070a01c0c29133b960 net/sched: teql: Fix double-free in teql_master_xmit
+d4a533ad249e9fbdc2d0633f2ddd60a5b3a9a4ca net: airoha: Remove airoha_dev_stop() in airoha_remove()
+2aa8a4fa8d5b7d0e1ebcec100e1a4d80a1f4b21a net: usb: cdc_ncm: add ndpoffset to NDP16 nframes bounds check
+77914255155e68a20aa41175edeecf8121dac391 net: usb: cdc_ncm: add ndpoffset to NDP32 nframes bounds check
+b9ba668296ffd6143b01b0545a52bcda44f94837 Merge branch 'net-usb-cdc_ncm-add-ndpoffset-to-ndp-nframes-bounds-check'
+e4c00ba7274b613e3ab19e27eb009f0ec2e28379 tg3: replace placeholder MAC address with device property
+ffe6989c73b31f92a22cab1132e86545f8306d69 Merge tag 'v7.0-rockchip-drvfixes1' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/mmind/linux-rockchip into arm/fixes
+bb120ad57def62e3f23e3d999c5fbed11f610993 ALSA: firewire-lib: fix uninitialized local variable
+b0a4dba7b623aa7cbc9efcc56b4af2ec8b274f3e drm/i915/psr: Disable PSR on update_m_n and update_lrr
+7caac659a837af9fd4cad85be851982b88859484 drm/i915/psr: Compute PSR entry_setup_frames into intel_crtc_state
 76f0930d6e809234904cf9f0f5f42ee6c1dc694e irqchip/riscv-rpmi-sysmsi: Fix mailbox channel leak in rpmi_sysmsi_probe()
 50242828700f06edfa8d563f9e0acc23a59424ee btrfs: check for NULL root after calls to btrfs_extent_root()
 2b4cb4e58f3463d142fcece5a19e0405fb82c794 btrfs: check for NULL root after calls to btrfs_csum_root()
@@ -1063,23 +1081,5 @@ eb3765aa711ff93664cd5ffcf0c2df02da2d9c26 Merge tag 'mips-fixes_7.0_1' of git://g
 10b76a429a8716545cd6dcaf4578594e74dcd21b Merge tag 'x86-urgent-2026-04-05' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 85fb6da43ac58dc7d1a6242e7b2102fd1d4954bc Merge tag 'riscv-for-linus-7.0-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/riscv/linux
 591cd656a1bf5ea94a222af5ef2ee76df029c1d2 Linux 7.0-rc7
-8f49544818514c8ac4a10cb2f72347077b1284a4 drm/dp: make drm_dp_aux_dev_class constant
-023d33810e94bb2481034085b19dd8ce2b9e86fb drm/sysfs: make drm_class constant
-82cbb83e1f42014274984788f1970d4e8f171b64 drm/fbdev/core: make fb_class constant
-61109a55d75c088daff311bcd6a1b25780631cdf dma-buf: heaps: make dma_heap_class constant
-baf31cda8f9f0e2546deae6c810e03f419218c84 media: dvbdev: make dvb_class constant
-da96a24df4f8c7c1b01f57f0f25d6e20a073bff2 drm/dp: constify the struct device_type usage
-9828c14def21c211a6857df8da5be719b8fb81ba drm/privacy_screen: constify the struct device_type usage
-559b1a23fe4e0b3261b51a3ec572e67e18989dae drm/sysfs: constify the struct device_type usage
-75d92846b447ef0ec035e5a4dec753380fa4ca56 rapidio: make rio_mport_class constant
-0448665eebd3966ed193cd32d46004b82ec5c288 parport: constify the struct device_type usage
-8efd39b6a5e9ecbb6fd6aa36d3fbb7c3f77f4f5a coda: psdev: make coda_psdev_class a static const structure
-e1e867d7fafbacc7221f88a4edd35413fc5792c0 cuse: make cuse_class a static const structure
-22bb612153363bae134248b4885543bfce67fd42 pstore: pmsg: make pmsg_class a static const structure
-b1b9f7f53ba92118aa232623422296b18245069e netfilter:xt_IDLETIMER: make idletimer_tg_class a static const structure
-0b9b23e27ed29a0219e3dfc6df86422373921827 PM: wakeup: make wakeup_class a static const structure
-99afe88ba78bf342d307a1f8d42d792150428567 gnss: make gnss_class a static const structure
-83fe7124f3b5ebff94e8f2e170634a96ac8e3562 extcon: make extcon_class a static const structure
-fd72ddaa7245601d5c4a5d21a3f23cfe6c390c28 misc: c2port: core: make c2port_class a static const structure
 
---===============1470150987168626795==--
+--===============5538230009820795867==--
