@@ -1,67 +1,65 @@
-Content-Type: multipart/mixed; boundary="===============9136702756168730752=="
+Content-Type: multipart/mixed; boundary="===============2101966865832213099=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/frank.li/linux
-Date: Mon, 06 Apr 2026 01:52:46 -0000
-Message-Id: <177544036678.1257507.1791019427467383343@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jpoimboe/linux
+Date: Mon, 06 Apr 2026 05:46:01 -0000
+Message-Id: <177545436146.1431227.568221658090778740@gitolite.kernel.org>
 
---===============9136702756168730752==
+--===============2101966865832213099==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/frank.li/linux
-user: frank.li
+repo: pub/scm/linux/kernel/git/jpoimboe/linux
+user: jpoimboe
 changes:
-  - ref: refs/tags/imx-dt-7.1
-    old: 3169b7bc6a1f87dcc6f0d6ffb61ee5fedfcadb14
-    new: caf0b8310b62bdef8ffa7599e3af86ac6998bf58
-    log: revlist-3169b7bc6a1f-caf0b8310b62.txt
+  - ref: refs/heads/klp-build-arm64
+    old: 616be8d5e34b92904f458ed49dad3518f5165182
+    new: 145dd0bef91c33be9d60ff43cc59020e4c809a71
+    log: revlist-616be8d5e34b-145dd0bef91c.txt
 
---===============9136702756168730752==
+--===============2101966865832213099==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3169b7bc6a1f-caf0b8310b62.txt
+Content-Disposition: attachment; filename=revlist-616be8d5e34b-145dd0bef91c.txt
 
-66ad164b0048df33afb1fa927242aeece547970d ARM: dts: imx6qdl-sr-som-ti: use fixed-clock instead of clock-frequency
-abfd55dd8327f760cb91289bb696436c5ead23f3 ARM: dts: imx53-smd: Add power supply node for fsl,sgtl5000
-53b36dc978640518374eea4f04e40465589f2e15 ARM: dts: imx7s-warp: Remove data-lanes and clock-lanes for ov2680
-d04bb165829294bc40cbc2613e42467212f5ea79 ARM: dts: imx6ull-dhcor: Handle both 1DX and 1YN WiFi on i.MX6ULL DHCOR
-81469ef61cf710274ef42999a3ebe96a5c204ee5 ARM: dts: imx: rename iomuxc to pinmux
-e948cbdc41d6f4417586b4058bf818afcc255d3d ARM: dts: imx: remove redundant intermediate node in pinmux hierarchy
-0477a6b31e2874e554e3bcfac9883684b8f8ca2d ARM: dts: imx27-eukrea: replace interrupts with interrupts-extended
-53779e03483aeaaa280466199b24f8e6ade32a4a ARM: dts: imx27-eukrea-cpuimx27: rename uart8250 to serial
-3bca7337b4a5a3d5c842c1cfc0064b60ebdf3818 ARM: dts: imx27: remove fsl,imx-osc26m from fixed-clock node
-a385279fa1cd567328e18046c2ef5cec37e3ffe5 ARM: dts: imx23: fix interrupt names for dma-controller@80024000
-13d1513062f3cba5e1ef4255dec3f911653134cf ARM: dts: imx23/28: add "led-" prefix to LED subnodes
-97e27efc5b19242f80fc9678bfa8319e578ccd49 ARM: dts: imx28: rename gpios-reset to reset-gpios of hx8357
-05e4d6ef33c878a63c283cbbc833450173a80a09 ARM: dts: imx28-sps1: remove undocumented fallback compatible "mr25h256"
-f29f4db9f1a7f48058400c1956d8429a8ee4539d ARM: dts: imx28-tx28: rename compatible to "edt,edt-ft5206"
-164922745ec43f43c2970865a40337c93cd8dc76 ARM: dts: imx28-tx28: remove undocumented aliases
-955088ecc838acf4eb587d62311dde12121c4738 ARM: dts: imx6qdl: add label for system clocks
-b3d9c14e61de83d39fe271c4369fab1f567d6166 ARM: dts: imx: add required clocks and clock-names for ccm
-e65d9599d28ffe1e165ec8aa17e08a574fd48834 ARM: dts: imx6qdl-tqma6: add missing labels
-1ea07b5a0ff4a8d3f8fbe22947d648535fa73a4e ARM: dts: imx6qdl: add boot phase properties
-c335bc0640784df933e60ae704453fdf186ba8da ARM: dts: imx6qdl-tqma6: add boot phase properties
-24d209d1a1e8d3ac684422fc9859df95ecaf03b5 ARM: dts: imx6qdl-mba6: add boot phase properties
-72d47f32fd7f7a50849bd71894fa65e13d0e6dad ARM: dts: imx6ul/imx6ull: add boot phase properties
-feb90561bead326cf95a744080db16dbe5bacdc1 ARM: dts: imx6ul[l]-tqma6ul[l]: add boot phase properties
-8280d605cf352c8897d178a1130c92b45f67a6dc ARM: dts: mba6ulx: add boot phase properties
-60536b6be8618d2a374c009b1d2bf0a0d9f23b1b ARM: dts: tqma6ul[l]: correct spelling of TQ-Systems
-926095b5efbd4065a08f5b0f99afdef23bf1501b ARM: dts: imx7s: add boot phase properties
-ac27604c555471cbb7565a30a16b424f8c1ca906 ARM: dts: tqma7: add boot phase properties
-137c291faac3e5ef3e1dfddb8726b30958a08097 ARM: dts: imx7-mba7: Deassert BOOT_EN after boot
-d7a3aa262f79a63545014c69b8ead94692c8a7e5 ARM: dts: imx7ulp: Add CPU clock and OPP table support
-12959ffa4e9e8dd85e6b06a3ac258e8855872a86 ARM: dts: imx: bx50v3: Configure switch PHY max-speed to 100Mbps
-f45c54459d86e0ac6c91d1c4419f843e9fd7909a ARM: dts: imx: bx50v3: Configure phy-mode to eliminate a warning
-35f45b5533923d452ec27b59005c35d5bedd2649 ARM: dts: imx: b850v3: Use alphabetical sorting
-2c8cfe54088c2683dc6ae6c538ff1baeec714484 ARM: dts: imx: b850v3: Define GPIO line names
-3caf9e664163924f0a8b30159b66479f1d2c5418 ARM: dts: imx: b850v3: Disable unused usdhc4
-3432749efe6b76abf7cff90a05ff40ee919c060e ARM: dts: imx25: rename node name tcq to touchscreen
-c59ebeb2ad085bee952d35c601cad46be3bc86c1 ARM: dts: imx6sx: remove fallback compatible string fsl,imx28-lcdif
-0037d16644b15686eec420a90f05bcd2804edf6d ARM: dts: imx: Add DT overlays for DH i.MX6 DHCOM SoM and boards
+8408ec9ade526144e7adcb9a584ae0a6223523dc objtool/klp: Fix create_fake_symbols() skipping entsize-based sections
+e657aeaa1296d6d7cdc6898783a86d547de1c60f objtool/klp: Fix --debug-checksum for duplicate symbol names
+aaae2f63d7a596d75bc67d4f09493762ce45a55c klp-build: Fix hang on out-of-date .config
+90d4ec6ff69a97f212e04cd532f6c190172f97c1 klp-build: Don't use errexit
+7a98f6a297112a708c78ec734e4c4b761e180c9f klp-build: Validate patch file existence
+34ea054ff493c1e0075c46dcd3bba9ee5c13f30a objtool/klp: Fix XXH3 state memory leak
+2b2da23fd2a6b642a49b36272b88aa3f0ce127d9 objtool/klp: Fix extraction of text annotations for alternatives
+49143934d45bc682534b3c8965fc4453cc3df86a klp-build: Suppress excessive fuzz output by default
+4c61571663cbe314d9c9bec6f913a8e255a060e2 klp-build: Print "objtool klp diff" command in verbose mode
+5a9719e78998988deabb0312c924ac21844a3626 klp-build: Fix patch cleanup on interrupt
+df528c6557fb4534c89ab8e5b2972d61a7976d84 objtool/klp: Create empty checksum sections for function-less object files
+0c52b490dc29168018dae8e4dca00658bedbba89 objtool: Add is_alias_sym() helper
+d80493b824369069cee2c1cb96d2aaa67acbd615 objtool: Add is_cold_func() helper
+adc9214f6f49f0e2d665a2105e51dadba914516a objtool: Add insn_sym() helper
+48e9e660f49bf14cf9b7ae57559de9324decd06a objtool/klp: Fix position-dependent checksums for non-relocated jumps/calls
+293df83478b24011bcdf12e86d95d5040ba09ce8 objtool/klp: Extricate checksum calculation from validate_branch()
+abe28e6e618eabdb7070d54549d3cc70578bd0f1 objtool: Consolidate file decoding into decode_file()
+3866114f33aafdf292a55f8782e200fe7435d80d objtool/klp: Add "objtool klp checksum" subcommand
+26f8015690d7fc2eda828892470bb6576aad5df2 klp-build: Use "objtool klp checksum" subcommand
+c3b6c4e8d5a537ef58430326c6c31fc4623ba8a6 objtool/klp: Remove "objtool --checksum"
+6269ec8f7bfa90c5a3b6a6610e70b2c7a9317060 arm64: Annotate intra-function calls
+069a4b34c7d12d527d96e1e65575b6c6aefea902 arm64: Fix EFI linking with -fdata-sections
+c9ef79904ee42c1af573123eeaa88b6e272cddf2 arm64: Rename TRAMP_VALIAS -> TRAMP_VALIAS_ASM in asm-offsets
+e4dfd04e2b40ff6402244ccdcb54517958beade0 arm64: vdso: Discard .discard.* sections
+fe3b5c880982eb5f0ed3e2b836a2a4f7e88ffa11 arm64: Annotate special section entries
+59d3b2a4d3bb1a7b1cc32ad94b6b13e3a8708da2 crypto: arm64: Move data to .rodata
+bdbd6000bdde5f21c08b6115e262e1b2d4441cb4 objtool: Allow setting --mnop without --mcount
+71d509b78a30bcb92f0cf026e6a3101a58a2ab60 kbuild: Only run objtool if there is at least one command
+769e454a7a334090a3a0aa0bfc630fc0a1acbf55 objtool/klp: Ignore jumps to the end of the function for checksum runs
+3a850cd3ee21ab6f7b18cf29e9c8a68bf5407624 objtool: Allow empty alternatives
+b059cf1c65d8699cf8a7d9a7cac72ead8db3f2e3 objtool: Refactor elf_add_data() to use a growable data buffer
+35aeb9f7566d2c08595170af2765633a5dc9c906 objtool: Reuse string references
+3e05cfcd61afb98c30ee632fd6875e499b883e7a objtool/klp: Introduce objtool for arm64
+c49f25c8306fbef369bed8d17886c8ee48e40f4a klp-build: Support cross-compilation
+145dd0bef91c33be9d60ff43cc59020e4c809a71 objtool/klp: Add support for extracting __patchable_function_entries
 
---===============9136702756168730752==--
+--===============2101966865832213099==--
