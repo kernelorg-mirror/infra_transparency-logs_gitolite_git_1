@@ -1,20 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/firmware/linux-firmware
-Date: Mon, 06 Apr 2026 11:31:36 -0000
-Message-Id: <177547509626.1854030.11425291345040618918@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vireshk/linux
+Date: Mon, 06 Apr 2026 11:31:49 -0000
+Message-Id: <177547510982.1854292.10883446147053685263@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/firmware/linux-firmware
-user: jwboyer
+repo: pub/scm/linux/kernel/git/vireshk/linux
+user: vireshk
 changes:
-  - ref: refs/heads/main
-    old: 265c1591178cd347d27f9c95b43c9821ac8572f0
-    new: 53539c0625c5dbdd2308146e3435f06b51f68c01
+  - ref: refs/heads/virtio/msg-amp
+    old: 41094c3bbcadee8fc24bfca2aad83a02755c5daa
+    new: 17d33fe544dca6d3827848ade19ff10402f1b790
     log: |
-         b7562faee6a4bad18cdb61c57ea605ce0edfbb53 nvidia: add acr/bl symlink for booting GSP-RM on GA100
-         53539c0625c5dbdd2308146e3435f06b51f68c01 Merge branch 'robot/patch-0-1775262254' into 'main'
+         3a08d804670034c1472295baafa10c09cffa4e87 virtio: msg: Add AMP transport over shared memory
+         2072a647262622503b0540c495939b216bba8bf9 virtio: msg: Add Sapphire PCI transport driver for virtio-msg AMP
+         47d31ad5e63c3d62a6b26136692b9b480bb11fb3 virtio: msg: Add generic PCI transport driver for virtio-msg AMP
+         91b83e18486033f26e1e430fec97d61378a6ef56 virtio-msg: Use separate txbuf for event-avail
+         17d33fe544dca6d3827848ade19ff10402f1b790 DNU: defconfig: arm64: Enable virtio-msg-amp
          
