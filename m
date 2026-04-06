@@ -1,26 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
-Date: Mon, 06 Apr 2026 17:47:14 -0000
-Message-Id: <177549763470.2164093.17191267258295303025@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jpoimboe/linux
+Date: Mon, 06 Apr 2026 17:52:07 -0000
+Message-Id: <177549792705.2168090.15388221091861063028@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/perf/perf-tools-next
-user: namhyung
+repo: pub/scm/linux/kernel/git/jpoimboe/linux
+user: jpoimboe
 changes:
-  - ref: refs/heads/perf-tools-next
-    old: 210259987d9a7bb8506f3e93c2ddbece15c13b15
-    new: dc647eb00969cd213c84d6caee90c480317e857d
+  - ref: refs/heads/klp-build-arm64
+    old: 5a81d55459349e15bae77d8b15f3c173d3a5ffc0
+    new: b78d5043da76b2d620f480b1df3ddd8db1090ba0
     log: |
-         7f5b8d5e6dde6d5019d03a46c02a6281a4d76a22 perf sched: Avoid crash for unexpected perf sched stats report
-         f1d78f5c9bd4dfda5f12372a4b99e413272723d2 perf tests sched stats: Write output to temp file
-         c66cf8c593c7603415415587077f8de93238544f perf tools: Save cln_size header
-         8a7a23b27d55e036c2c54438d75878cf24bf95f6 perf sample: Document struct perf_sample
-         ad5ceacd48e9ea36bd12e778071561290adb0154 perf sample: Make sure perf_sample__init/exit are used
-         aeae075a0352eb6ab363fb1910f209eaa296a175 perf sample: Add evsel to struct perf_sample
-         c9ef786c0970991578397043f1c819229e2b7197 perf cgroup: Update metric leader in evlist__expand_cgroup
-         dc647eb00969cd213c84d6caee90c480317e857d perf test: Skip sched stats test for !root
+         5b2dd61c8e6901e57977d319e7839a9b158dcf6d objtool/klp: Add support for __patchable_function_entries
+         40b43719260608a5b489d6fa01f764a4bd1a4184 objtool/klp: Introduce objtool for arm64
+         b78d5043da76b2d620f480b1df3ddd8db1090ba0 klp-build: Support cross-compilation
          
