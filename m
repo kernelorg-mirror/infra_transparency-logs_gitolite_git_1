@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
-Date: Sun, 05 Apr 2026 23:39:42 -0000
-Message-Id: <177543238236.1149865.7240527824581365443@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kuninori.morimoto.gx/linux
+Date: Mon, 06 Apr 2026 01:27:14 -0000
+Message-Id: <177543883476.1236874.15088795860508373733@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/25-new
-user: akpm
+repo: pub/scm/linux/kernel/git/kuninori.morimoto.gx/linux
+user: kuninori.morimoto.gx
 changes:
-  - ref: refs/heads/master
-    old: adac72c10ba105b1350258a452cb8b621a47bac6
-    new: 29fcbbb25f2f74c03d33920ed3ca0cd9e1001599
-    log: |
-         29fcbbb25f2f74c03d33920ed3ca0cd9e1001599 foo
-         
+  - ref: refs/heads/renesas-lts/v6.18.21-2026-04-06-x5h-ironhide
+    old: 0000000000000000000000000000000000000000
+    new: 662713e84a58b670d8d2fcb2a967ff665af277f9
