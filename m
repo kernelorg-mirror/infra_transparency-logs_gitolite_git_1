@@ -1,56 +1,21 @@
-Content-Type: multipart/mixed; boundary="===============4301193735303350905=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/security/vulns
-Date: Mon, 06 Apr 2026 07:00:04 -0000
-Message-Id: <177545880418.1488664.3234998986981183372@gitolite.kernel.org>
-
---===============4301193735303350905==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/jpoimboe/linux
+Date: Mon, 06 Apr 2026 07:00:10 -0000
+Message-Id: <177545881010.1492583.18109059814473774541@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/security/vulns
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/jpoimboe/linux
+user: jpoimboe
 changes:
-  - ref: refs/heads/master
-    old: aa84636115ccdb65030c59339d93c4ea72c71a7b
-    new: 80d5bfae9ead44138368c7d1f1e217d71c3d1464
+  - ref: refs/heads/klp-build-arm64
+    old: 0725d08991bb874db8f846542470dac91a0c4a3c
+    new: 5a81d55459349e15bae77d8b15f3c173d3a5ffc0
     log: |
-         80d5bfae9ead44138368c7d1f1e217d71c3d1464 updates for new .vulnerable files
+         9b84ef58648e293bceeed1dc87e374f344702273 objtool/klp: Add support for __patchable_function_entries
+         48ddcb7749a328c0b22e4e29b4906f25a6d7dcb6 objtool/klp: Introduce objtool for arm64
+         5a81d55459349e15bae77d8b15f3c173d3a5ffc0 klp-build: Support cross-compilation
          
-
---===============4301193735303350905==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1775458803 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
-nonce 1775458803-4fb66c02632d4fd6ae3dc5087ea59d60f3b2f21d
-
-aa84636115ccdb65030c59339d93c4ea72c71a7b 80d5bfae9ead44138368c7d1f1e217d71c3d1464 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmnTWfMbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+XEQP/RLO5Z/62ohtdyx4v6dD
-PtrjPoZjpkKcRputRSGdaA9s/T4FJ5Be6iVckPUTd9EFRtNKjIeFFYJjlriTCddT
-jOWidiz1b/BXlzsdDIlkmAyDNA/PpCFJJTJwarEIKZHId+zKyxSd/BieYSfGTV/l
-QcAc0Fm1oB34UTV1V+yGtgC/hEelre91dkOD8QktG32Aq49vAZxH9UHnQgUkmLcB
-tqYKW8y4aALUXcfTm9NirHrSu624sE1JHiKk2ri7+hXIFL9n8gJqJu+JZkaHYaT4
-X0JAer6wSAsdladK7QUuUF0nVFKc/qSdo8tys9NKZh85pXVOOvbvRWRIN89T2iOR
-Sqkew+SWWl+Lhpj1tWoTimjXjSSwy5PZ9hfgH8AWV+frIWjo5qVmZwFqyxasMClk
-rXG5YOMUdFSy4FlBSpBErr8CdVh7rT/hzlvnlkjbUTZhFg0J5VqF31aJb3zgvD8q
-OI+wUeRsj8QDtQ0GfF+uzvWobogSOunDP4ZnbuW2VwAABYGNP+Zfd9gRWL8qDArp
-DIZjGfh8KqRCvvoJDIqJ0yX9M+UCp4h/UasPDtK5mE1iD0VgPVTCfX6JD55HkMx9
-I7eowtOBXuJrSwRM4rINZtuaOXiF7H3f6vX1oDPweSpHw5/93v9qIalV+ZMO7y2u
-TpJzFFuYdAahnoMJw1z07nPI
-=XedD
------END PGP SIGNATURE-----
-
---===============4301193735303350905==--
