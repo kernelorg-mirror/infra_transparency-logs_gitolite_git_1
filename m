@@ -1,43 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============4187565807987296457=="
+Content-Type: multipart/mixed; boundary="===============1940643466675877876=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/remoteproc/linux
-Date: Mon, 06 Apr 2026 15:09:56 -0000
-Message-Id: <177548819670.2033107.5030758697770112199@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
+Date: Mon, 06 Apr 2026 15:10:05 -0000
+Message-Id: <177548820572.2035700.9268154596492813571@gitolite.kernel.org>
 
---===============4187565807987296457==
+--===============1940643466675877876==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/remoteproc/linux
-user: andersson
+repo: pub/scm/linux/kernel/git/gregkh/driver-core
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-next
-    old: 9e71a1ffc54e2c3963194f75aa93a1dd63922779
-    new: 6f860d238b44da8ac57be25289b9f4410691c4e2
-    log: revlist-9e71a1ffc54e-6f860d238b44.txt
+  - ref: refs/heads/t1000
+    old: 04e705f334c6f378e42590775f47bfe7fc2aa6a7
+    new: 30829a96deb9de7e7245fabd049fc37cc90c007c
+    log: |
+         30829a96deb9de7e7245fabd049fc37cc90c007c usb: gadget: renesas_usb3: validate endpoint index in standard request handlers
+         
 
---===============4187565807987296457==
+--===============1940643466675877876==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9e71a1ffc54e-6f860d238b44.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-4251dab9d176212afdf4ced263b59bc0d5292c7f remoteproc: mtk_scp_ipi: Constify buffer passed to scp_ipi_send()
-90dacbf4bf13410c727ffaca8fe3ce3276ae58c2 remoteproc: mtk_scp: Constify buffer passed to scp_send_ipi()
-b8077b4da2e89917ec4c632b66e60d49089bbda3 rpmsg: Constify buffer passed to send API
-66ec83627902d2585e14911692b317496731767a ASoC: qcom: Constify GPR packet being send over GPR interface
-3e2fa997d1e2b651993ae7e81646aadd55470bce media: platform: mtk-mdp3: Constify buffer passed to mdp_vpu_sendmsg()
-392035c8b88b0198721e3b273f0a19ec2150710f hwspinlock: u8500: delete driver
-ad5fd5aeb65a4426635cf55ef06c96e60a66e648 hwspinlock: remove now unused pdata from header file
-743cfae79d2458e241b06ed523c28a09f1449b75 remoteproc: qcom: Fix minidump out-of-bounds access on subsystems array
-74eb6cd91aef968ee792575f10b438ae2f2a2bb2 dt-bindings: remoteproc: qcom: Drop types for firmware-name
-1b4eceb4829141ffa7de0255d5578d4bc3178563 remoteproc: qcom: Add missing space before closing bracket
-7cf2f07f949c999f8c0349d1fa3f1f0e69854469 dt-bindings: remoteproc: qcom,milos-pas: Document Eliza ADSP
-56c1ec524284805da0181bc6e9ca656c0091b201 remoteproc: qcom: pas: Add Eliza ADSP support
-6f860d238b44da8ac57be25289b9f4410691c4e2 Merge branches 'hwspinlock-next', 'rpmsg-next', 'rproc-fixes' and 'rproc-next' into for-next
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1775488201 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
+nonce 1775488201-2206f9e568aa95114ca8b3d7a7390f796ee725f5
 
---===============4187565807987296457==--
+04e705f334c6f378e42590775f47bfe7fc2aa6a7 30829a96deb9de7e7245fabd049fc37cc90c007c refs/heads/t1000
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmnTzMkbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+/GcP/RxpcLPDY02wDYCRzc+e
+nNw8JizVHkaP7YtTCzQTCX+HCQlVceFNJfl9Bqhxl2a74ergNb12ahL5ItFvs10I
+eFd6Hp2hA04Vjx7e5kV5UisOFZ5sg+CTNRKzoApfU/8oeeH2LfEiAMaLwqxSYGQG
+DIAOw5Wk5iy3CmOmwfkdg/6CdKRmF+lxFShAohmXWVgC2Wo03mcZsskG3Ihnhs7+
+LFUfcPZl2Jdp9dm3woqKBK1871Y8cz8/9/AjvcN1j8rR1qK3WX4r6De6JjA/ce3Y
+78xf6tTq1nFuTG3iH1YerZaGMqskWxDiUV0/zUlcTtNLMlVhQVsXeMO+gW7wdIc6
+j1DezfQ5vTQXQM1OHGBNDbJs6C6UEnLks8T/6E4e/ltbEb2fGlJ2ruRHODRfTNkf
+O5/FU2WKvItU7C72Bq+hqePN0oFju4SJORyq1PpCG1kBVFHiQ7qBCY6Aun7Yve4v
+ZJuQV9Vh76bOrFQRt6I0hPBcjVdkaN0+KIlElFxNXjKDvJfuFi/jjMREksWOKxfz
+XksqLHbgtmKVWOqgvGfPbtk6+MjFL92JPjmZN4MJGidI4KVwcgZig5V3znHbdZNZ
+ocz2VW77gK9uTGBhYyTBzu9z5M31UtAIn+4D/sX3OUGRz0G9ibrZKo+xY0VF3/R5
+lkGdyGutOCuMndUXPBu41+Im
+=Gw24
+-----END PGP SIGNATURE-----
+
+--===============1940643466675877876==--
