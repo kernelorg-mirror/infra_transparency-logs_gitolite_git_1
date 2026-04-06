@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5234996310916968022=="
+Content-Type: multipart/mixed; boundary="===============8945056159290686942=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Mon, 06 Apr 2026 12:33:58 -0000
-Message-Id: <177547883828.1905380.13846902284860763098@gitolite.kernel.org>
+Date: Mon, 06 Apr 2026 12:34:13 -0000
+Message-Id: <177547885377.1905708.8585376111455951073@gitolite.kernel.org>
 
---===============5234996310916968022==
+--===============8945056159290686942==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,47 +16,50 @@ repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/container_of_const_mess
-    old: a98c16e188d446e9e27acb575a9d4e658bdd3e59
-    new: 1e12e05729f7ba63ebde991065d501eaed2b3fe8
-    log: revlist-a98c16e188d4-1e12e05729f7.txt
+  - ref: refs/heads/bus_cleanup
+    old: 6de23f81a5e08be8fbf5e8d7e9febc72a5b5f27f
+    new: 591cd656a1bf5ea94a222af5ef2ee76df029c1d2
+    log: revlist-6de23f81a5e0-591cd656a1bf.txt
 
---===============5234996310916968022==
+--===============8945056159290686942==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1775478821 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1775478852 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1775478821-55fbe76407ad4ebc99bcfcb2058dcd0b4a4e1b21
+nonce 1775478852-2816e1dfc6051bc59f9e8c796b27577922f1c2e9
 
-a98c16e188d446e9e27acb575a9d4e658bdd3e59 1e12e05729f7ba63ebde991065d501eaed2b3fe8 refs/heads/container_of_const_mess
+6de23f81a5e08be8fbf5e8d7e9febc72a5b5f27f 591cd656a1bf5ea94a222af5ef2ee76df029c1d2 refs/heads/bus_cleanup
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmnTqCUbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+oFgP/1SUZM5bVKhqP2/Rf9tP
-FSH1ATyjz/2SyUVz1P6tGvZLLjO6Imae6h66EuYaTGDnyN0ju+xlthqMIlci++Se
-2YkGzz/mt1VyCg+LUGSkUziICjCxIs4F79f+OKgp/p4pdz9hTXrcQ9T89P/5/v60
-6AVxuifXQzc3VUKoy7Rvvr2TvrN41VxmcUE0UXhcEIRKlzFXnqbmv4Du/cHV0njs
-LbnKBPMXeqROxdT7gcm38IfZr1ISTXdHRmhhaDnaw8ad6M/Io+SY3Dwt5c5hSpro
-EcMB5s1xZ/P1WYS4Y6M+c9qjkIc6GN1Vh81UAcqlwt6mf4UjpixC4NCEh5+3Jwdr
-YJRObr16CEWbxYZuDSYzOfx01GAXq7BHpDfdUNd1WM/x4N+ykp4nRI5jg1SsiR5w
-iaQmstcSHkehEAXNevn8LoE+YjFdfYFK/BJ/YB6V4qelGTlnk9x4YW2GbZ5byhb1
-9CbmiRJWofTf0c2Gw9CVFBCoKozNvPwqaEx1cLqWOkZo2Bdv8Ut997aFIVOm8oMi
-DC834UZPZ/5c3Z9qgajdlxNHr87SC4zVzucTBoW4GfguNIFq4/w+PGwsWjLVvWUG
-EGReACMX5tIWElUeRumdgT5X9QyeUyDcqOM50DwuQsVWaYBPdjEH4AcNv8lf2J5M
-ttQESCNs6yHzdXgTTuuEeDMI
-=Cpzc
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmnTqEUbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+E6YQAI6b6+fuHBaQCNHlfpvQ
++LkTJAm+CLF+PbbhxnadkWzQ0H5hBo2HVjpENIrRl67Gnz/ZTl0hHv0efEVphK60
+cWrDGspUqLYGof6ovyNur+OFEvP3psayTA2qh5ZLE/j+oZP4o83B9X32iRj2KLDM
+ZXRWZu5zxFtptyiZW0X+YvE7ym/Kas8HRuAkbin3FNIq4FC2oB94qG1EOuaykaZX
+2+WRoyIp1QWabViZKmlPaQa3U6UWdEnbiHRB3UdGN0aNzB+V/zqM9ukBGgQTB3u1
+5EhfL5w3EP5j4SStSiei47oxIqFkZy0lGqF2ZDpwfLvENFZlVj3aHGBxlCz0bNFh
+EONgOPkB1h/+g6DgDq+xtoiURgtD+3MiOTwKv66EQ3YZiSPwQzQBhc9JPhGf1/aT
+mevmQ/m1O7uhnuUDz9tS54qXlrFU+XIrQFDKze655KJzbYBVUt8j/14A/9yOdTxF
+MLPhtiaI/aYhk5EnRIMOVWBPSMW0g+9BkOV+ShBKxS8BiQX8a6ecU80xFkeke1lI
+t4v9pikDBV8AWk47d7OG5m1CxWkzhjlyVJi9j2zgRJUXus3RLIBFaEiWTtJPeZcb
+HJaVjQA7viesDBTadmVGiG8YBOZZLCQZNtlLgAE8Ndvt+Fbqps/hgFcvy4/FiLSQ
+ucXyavTvmxfkNCtsVhUKqSbB
+=BVAJ
 -----END PGP SIGNATURE-----
 
---===============5234996310916968022==
+--===============8945056159290686942==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a98c16e188d4-1e12e05729f7.txt
+Content-Disposition: attachment; filename=revlist-6de23f81a5e0-591cd656a1bf.txt
 
+cf3287fb2c1ff74cb16e4348c6914acf140ebe30 PCI/pwrctrl: Ensure that remote endpoint node parent has supply requirement
+ee226656cd64c1d781e6f91a38a5131106e9e094 PCI/pwrctrl: Create pwrctrl devices only for PCI device nodes
+4e5019216402ad0b4a84cff457b662d26803f103 objtool: Fix Clang jump table detection
 75cea0776de502f2a1be5ca02d37c586dc81887e cxl/hdm: Avoid incorrect DVSEC fallback when HDM decoders are enabled
 50bfd2a22b75a904d5900d64530ae1b69a69907c cifs: smb1: fix comment typo
 eade54040384f54b7fb330e4b0975c5734850b3c erofs: set fileio bio failed in short read case
@@ -1078,8 +1081,5 @@ eb3765aa711ff93664cd5ffcf0c2df02da2d9c26 Merge tag 'mips-fixes_7.0_1' of git://g
 10b76a429a8716545cd6dcaf4578594e74dcd21b Merge tag 'x86-urgent-2026-04-05' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 85fb6da43ac58dc7d1a6242e7b2102fd1d4954bc Merge tag 'riscv-for-linus-7.0-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/riscv/linux
 591cd656a1bf5ea94a222af5ef2ee76df029c1d2 Linux 7.0-rc7
-309f694ac26532a37e87cf402a646562addb0fbd container_of: switch to be a const call
-6f3dfa8c95750b6c9d5ba8898aaccb28c8f26b7d generic: fix up some const issues.
-1e12e05729f7ba63ebde991065d501eaed2b3fe8 bpf: const stuff
 
---===============5234996310916968022==--
+--===============8945056159290686942==--
