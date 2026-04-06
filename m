@@ -1,28 +1,57 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mptcp/linux
-Date: Mon, 06 Apr 2026 13:52:13 -0000
-Message-Id: <177548353321.1970580.15305260929223067761@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============7600172895388562308=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
+Date: Mon, 06 Apr 2026 14:10:33 -0000
+Message-Id: <177548463346.1985331.16495731699262674793@gitolite.kernel.org>
+
+--===============7600172895388562308==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mptcp/linux
-user: matttbe
+repo: pub/scm/linux/kernel/git/gregkh/driver-core
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/export-net
-    old: ab7ea00feab7effb5ef7f3eca295bffd969972d9
-    new: d8f3dbfaa503018852d28572dbfb5dbe05604f5c
+  - ref: refs/heads/t1000
+    old: c7c6ac4720dd5bc7cb6c736d1699c5d82357bdd8
+    new: 4e21167dd0ed45aaeb3b95c0daba11f52ad49557
     log: |
-         8d01d7c43e72cf7d4d42209a133658be950ddfcb DO-NOT-MERGE: git markup: net
-         508f5e6072904ad390fee2830fd4bfb09f50fd72 DO-NOT-MERGE: git markup: fixes other trees
-         a41e4f5285a2ba42af94779157be15387b271a82 Revert "mptcp: add needs_id for netlink appending addr"
-         52f671f692349edd007601e10546948d020e7b7b mptcp: fix slab-use-after-free in __inet_lookup_established
-         6c5817f8bc4789a8acfd93b487af1c1a9cb57216 DO-NOT-MERGE: git markup: fixes net
-         a3a622261ac5a35262e116a2570e85c40bdd0464 DO-NOT-MERGE: mptcp: add CI support
-         87dfaf4abea3e430e3433921f548d2ceafd871c2 DO-NOT-MERGE: git markup: end common net net-next
-         d790bc6227962f2afa92ae6cf460aa5ee4b13266 DO-NOT-MERGE: git markup: fixes net only
-         f06f1d5188d40b63d1cfc117be04fa8e7b747af5 DO-NOT-MERGE: mptcp: improve code coverage for CI (net)
-         d8f3dbfaa503018852d28572dbfb5dbe05604f5c DO-NOT-MERGE: mptcp: enabled by default (net)
+         a8789163687e7c8b40099106efb29c51e86fa71a HID: alps: fix NULL pointer dereference in alps_raw_event()
+         4e21167dd0ed45aaeb3b95c0daba11f52ad49557 HID: core: clamp report_size in s32ton() to avoid undefined shift
          
+
+--===============7600172895388562308==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1775484629 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
+nonce 1775484628-fca18db2d23d6616d5fc16873865ed4ffd9669dc
+
+c7c6ac4720dd5bc7cb6c736d1699c5d82357bdd8 4e21167dd0ed45aaeb3b95c0daba11f52ad49557 refs/heads/t1000
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmnTvtUbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+DeEP/3nYhpeRW9m1aMqUbsgR
+vUQPzN5BZhAle77gL/wG6QbX95Ue4sIHUSdID3xOvjN8g1MaEZwIGgOyISsIUCL9
+/60MNr0RatcKHjVoU1oDE5wozvSPrT6abQgPfPOWRzbrfblahMszcAf507CxdSOo
+FLR4hRjJpd8ASz4aiIzan0VrNkq50gCmnJUeqg8Nr1r42giEmKJySnr/UJubRRfV
+dw4Ebjyqa5WN1dFBePuMCM6MojpejTe44xiTQZBWU7swv9/8T4RJG+wZn+Q3CdG8
+h1s+VzwpLk6t7wzX7sxyNAUFC5E4c8zcWtieL8DAm4kIoBDK8TltNUQ/Hqia1M32
+JDteydn1+WmBcTglJ/dkDC8Wv9v5gO7x7sFNY3jjEZMxb1oTW5bUm3MVuxWdWeI/
+4MMhst/FoEJUeCU1JFOxPCeCWuW9h9L3gWhiAwO/z3iW3QFp+nq3Hq2oiZysPwE7
+cOXlKgLIuolkgdD1DzLcUbynoo4FmOM+Uu2CTLGm0cc/U6T3apb6VHcVJXqlPQsP
+0LKmhPEtev5YPo5va8BEg11qEWCG3ml0vJIVHkdDjXwynPWEO5GDRljcWYieW+CG
+JTdNpe7oK01FanqWZL/dVX4ae83zZc99HsMXvdrDINkZHduMQ3MNtri2aa63cK4R
+1sqk3K6lFcyICAq+YyZ1xXrB
+=eZM7
+-----END PGP SIGNATURE-----
+
+--===============7600172895388562308==--
