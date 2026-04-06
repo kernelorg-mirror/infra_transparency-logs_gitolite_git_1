@@ -1,61 +1,53 @@
-Content-Type: multipart/mixed; boundary="===============8043790206065163458=="
+Content-Type: multipart/mixed; boundary="===============1912409065412882567=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Mon, 06 Apr 2026 07:06:08 -0000
-Message-Id: <177545916821.1549161.5120080687206344461@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
+Date: Mon, 06 Apr 2026 07:06:29 -0000
+Message-Id: <177545918979.1549614.1908317196768394314@gitolite.kernel.org>
 
---===============8043790206065163458==
+--===============1912409065412882567==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/char-misc
+repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/v7.0-rc5
-    old: 0000000000000000000000000000000000000000
-    new: d1d81e9d1a4dd846aee9ae77ff9ecc2800d72148
-  - ref: refs/tags/v7.0-rc6
-    old: 0000000000000000000000000000000000000000
-    new: b6c7d19951061de1be08fb8f5714e630b24bcc1c
-  - ref: refs/tags/v7.0-rc7
-    old: 0000000000000000000000000000000000000000
-    new: 0e5d0a0b5ca6ea4e391d6786266405c5871e0151
+  - ref: refs/tags/usb-7.0-rc7
+    old: c615cd88f126d4d88f99167e1e931659c1878f52
+    new: 0000000000000000000000000000000000000000
 
---===============8043790206065163458==
+--===============1912409065412882567==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1775459166 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1775459166-ad4c9586613d29994ad3b0bd09f0b5760426642f
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1775459189 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
+nonce 1775459189-c1490c5bf6680afe02bc049ff6d4fa2646608553
 
-0000000000000000000000000000000000000000 d1d81e9d1a4dd846aee9ae77ff9ecc2800d72148 refs/tags/v7.0-rc5
-0000000000000000000000000000000000000000 b6c7d19951061de1be08fb8f5714e630b24bcc1c refs/tags/v7.0-rc6
-0000000000000000000000000000000000000000 0e5d0a0b5ca6ea4e391d6786266405c5871e0151 refs/tags/v7.0-rc7
+c615cd88f126d4d88f99167e1e931659c1878f52 0000000000000000000000000000000000000000 refs/tags/usb-7.0-rc7
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmnTW14bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+euoP/jvLD5+/ApZuBkeHyaRo
-+jN2uICnb+/sIdchP1x3f04Mpna0md/LtzxQfLkfXAFMsswfDRU6RcbBAKz9zixJ
-4onNVTOBFgH4/h25A9rLnakSxjXsskYqxRdybed9YkWw8SE82SbwNbDbAxrZG1Sx
-MOvElZglJycMCZutsd4SgFRlsOAdBiGB3zzgjrlC36WALNsbT2q9bkFZWtr9Uqs8
-1oDBkmta7cFkf7LholxdSlUxk5HhEGVUIK09c04irVxeFB4wah+Jz83a5070IAmk
-PgxwZtxkR3MtpVLAVzebE80lR+btWbxJ++ap8h/1lpuC2VcQpwMXRQhRdg+JCEiv
-d7mgKoWS2SpSKzAlPeUbty5dHKxeIlDRTEhYPdiKO0y0meLVhJ7RgoqZQ70LFAND
-h4tsSg5SCFrQgkdVmQjGPDym2m9njCjOHfGIUdTZhMBqC1WNnP9DmdZCtNGghTwf
-oCqANerXnrIPyZg9qTp9+Si0TBBtnriXEnDt4Zp4tjE5PQwQYbssFpwg/Y9O0Ck2
-UZtVYruiSGMfpc9tm750HxDU5kV9U+drLyF9kELeA0W80rmWC5UuPaAHcDqLqTqy
-ncYDaLC6r3haT/WOOg4xzJjYSSQPRdJ8DLz4x1OfGrrqZHJ38QGTwkxCXoevuFzP
-XdPp3ypit746hZFXNdsSOuZp
-=42HV
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmnTW3UbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+oCAP/1sPEgtbPZvrv0jtpqbJ
+QL8PJzYoNv1Tnl1RbQHoQVU12UzDcBCevBF1AU2mAWBLuVIbSJPzGqJrQVJVZP+H
+nh7cVmBaT35O0+2cTpBwR/QhEhooZ7OUuUApryDLxynZHkaJhHNPwmQzXT2PdSGF
+9tNH17VMZwgEWHEYrDfuEd0t/qwLFrJGLmukKleakemy2PeB8XqV6ZlSVthJwYeI
+PZ0j98C30HKHaaZK8Cwxftd+CoJ4lfdIjPpq3zEz5yBuSTewW0nPCtHeslpKCRfC
+ktVQU5m/PiQKdUZ9VNkC5e3SMjhQO3ze8AxSxvn+O5G1mmmKRFeOuHS7r6RFhfy6
+JW90RQp8FnIJfJ+MGXfx17WY5Ttg63uSqbbc8zSCt6gUnMJx5c3d2wVNEyDeHaO9
+j3tF9/UAO+vrQjCa8JvRDMj9LizekjP6zscIUkk/wKbYSgIUuISUH+lYUdMCbebA
+e++sXI4C3KG+ReRCnELochLNCkFQS7joTFsts+eyTzDj4hhs6u1wO5KYU8ea4FDm
+jK+bZSspC573XAWduAwhzyh1HdwxyWWhWM+eLsj/GSMrha0/GoS0lQlw/ETzwQpT
+Q22rNI+RPstc21IJLBq2nJbd7jv7uIm1xE9l38ewat0waz9bqK29qehbzPEe7vSy
+3BeS5SDbf/6ctMjc2PF772Yx
+=7fkz
 -----END PGP SIGNATURE-----
 
---===============8043790206065163458==--
+--===============1912409065412882567==--
