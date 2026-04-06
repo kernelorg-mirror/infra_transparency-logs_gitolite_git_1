@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2556806257564249895=="
+Content-Type: multipart/mixed; boundary="===============1007505432030484408=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Mon, 06 Apr 2026 23:40:56 -0000
-Message-Id: <177551885698.2449770.3063686574094546270@gitolite.kernel.org>
+Date: Mon, 06 Apr 2026 23:40:58 -0000
+Message-Id: <177551885880.2449989.2858737968567523238@gitolite.kernel.org>
 
---===============2556806257564249895==
+--===============1007505432030484408==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/mm-new
-    old: 3e87dcc5a4c8a6716fcc4185b4068e2a6a871c33
-    new: 96881c429af113d53414341d0609c47f3a0017c6
-    log: revlist-3e87dcc5a4c8-96881c429af1.txt
+  - ref: refs/heads/mm-unstable
+    old: 9a5c21a0791faf7967feea87f8f345419330bd2f
+    new: 3fa44141e0bbd5062f2ef0c5cdddd98275d3223e
+    log: revlist-9a5c21a0791f-3fa44141e0bb.txt
 
---===============2556806257564249895==
+--===============1007505432030484408==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3e87dcc5a4c8-96881c429af1.txt
+Content-Disposition: attachment; filename=revlist-9a5c21a0791f-3fa44141e0bb.txt
 
 f58df566524ebcdfa394329c64f47e3c9257516e mm: filemap: fix nr_pages calculation overflow in filemap_map_pages()
 307e0c5859b0aecc34180468b1aa76684adcf539 liveupdate: propagate file deserialization failures
@@ -149,6 +149,5 @@ b425ee1a1a5e09aa58fe7c427fa77f43ae744c1b mm/page_io: use sio->len for PSWPIN acc
 f5159857d7340f16a7e6a24c326a00d08c7607cc mm/swap, PM: hibernate: fix swapoff race in uswsusp by pinning swap device
 39f474dda81c50d64225e0696c50d2fd3655c607 mm/swap: remove redundant swap device reference in alloc/free
 3fa44141e0bbd5062f2ef0c5cdddd98275d3223e ksm: optimize rmap_walk_ksm by passing a suitable address range
-96881c429af113d53414341d0609c47f3a0017c6 mm/vmstat: spread vmstat_update requeue across the stat interval
 
---===============2556806257564249895==--
+--===============1007505432030484408==--
