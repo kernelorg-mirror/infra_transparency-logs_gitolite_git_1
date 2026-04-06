@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8675243299077597017=="
+Content-Type: multipart/mixed; boundary="===============6862669664371661802=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/geert/linux-m68k
-Date: Mon, 06 Apr 2026 08:44:29 -0000
-Message-Id: <177546506904.1689636.10710101803416496603@gitolite.kernel.org>
+Date: Mon, 06 Apr 2026 08:44:38 -0000
+Message-Id: <177546507880.1689957.15110169587407888993@gitolite.kernel.org>
 
---===============8675243299077597017==
+--===============6862669664371661802==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/geert/linux-m68k
 user: geert
 changes:
-  - ref: refs/heads/master
-    old: 81f72848fedb94705054e7318ed629a33ab15e68
-    new: a1f784b1201fd5e74421c39ba7a551e38b1ae5e9
-    log: revlist-81f72848fedb-a1f784b1201f.txt
+  - ref: refs/heads/m68k-queue
+    old: 2b70dd22a62466a262a0392683a79a3e1dc49f46
+    new: 9b0fb405f27a64e58eed1fdf919f7fe7b1bea473
+    log: revlist-2b70dd22a624-9b0fb405f27a.txt
 
---===============8675243299077597017==
+--===============6862669664371661802==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-81f72848fedb-a1f784b1201f.txt
+Content-Disposition: attachment; filename=revlist-2b70dd22a624-9b0fb405f27a.txt
 
 fc1e8a6f129d87c64ac8e58b50d9dfa66217cfda Input: bcm5974 - recover from failed mode switch
 5839419cffc7788a356428d321e3ec18055c0286 Input: i8042 - add TUXEDO InfinityBook Max 16 Gen10 AMD to i8042 quirk table
@@ -443,6 +443,12 @@ eb3765aa711ff93664cd5ffcf0c2df02da2d9c26 Merge tag 'mips-fixes_7.0_1' of git://g
 10b76a429a8716545cd6dcaf4578594e74dcd21b Merge tag 'x86-urgent-2026-04-05' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 85fb6da43ac58dc7d1a6242e7b2102fd1d4954bc Merge tag 'riscv-for-linus-7.0-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/riscv/linux
 591cd656a1bf5ea94a222af5ef2ee76df029c1d2 Linux 7.0-rc7
-a1f784b1201fd5e74421c39ba7a551e38b1ae5e9 Merge tag 'v7.0-rc7'
+e92fabb4d3e35912561af63fa84e1bb94b00c0a5 m68k: q40: Remove commented out code
+8814216db3d2a8f45d16c86a336bcd57587eafdc m68k: defconfig: hp300: Enable monochrome and 16-color linux logos
+ff6c650cecfcac71fd23aa57ddde7b49876ebff8 m68k: uapi: Add ucontext.h
+66048b2d17764a254fd88eba402f72ed9d0dd21f m68k: emu: Replace unbounded sprintf in nfhd_init_one()
+75dd5ec8deb1af8beb3790d1a585a6d2e534e251 m68k: atari: usb: Add ISP1160 USB host controller support
+678ec08609f1107f3c0b8f70e40343a6c52d3c07 m68k: atari: Update Kconfig.bus help text
+9b0fb405f27a64e58eed1fdf919f7fe7b1bea473 m68k: defconfig: Enable Atari EtherNAT and NetUSBee USB support
 
---===============8675243299077597017==--
+--===============6862669664371661802==--
