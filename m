@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5713542075880612072=="
+Content-Type: multipart/mixed; boundary="===============5732137973941489461=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Mon, 06 Apr 2026 16:33:10 -0000
-Message-Id: <177549319064.2105203.13533883719124761747@gitolite.kernel.org>
+Date: Mon, 06 Apr 2026 16:33:13 -0000
+Message-Id: <177549319309.2105291.1306318932893545497@gitolite.kernel.org>
 
---===============5713542075880612072==
+--===============5732137973941489461==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/10GbE
+  - ref: refs/heads/40GbE
     old: 8b0e64d6c9e7feec5ba5643b4fa8b7fd54464778
     new: 3741f8fa004bf598cd5032b0ff240984332d6f05
     log: revlist-8b0e64d6c9e7-3741f8fa004b.txt
 
---===============5713542075880612072==
+--===============5732137973941489461==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -51,4 +51,4 @@ dc3bd465ea36af7fd6f9197c05353effc616145c net: macb: Replace open-coded implement
 bfc923b642874ea6f94763d6060782072944ebd5 dpll: zl3073x: implement frequency monitoring
 3741f8fa004bf598cd5032b0ff240984332d6f05 Merge branch 'dpll-add-frequency-monitoring-feature'
 
---===============5713542075880612072==--
+--===============5732137973941489461==--
