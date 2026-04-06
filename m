@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0778579161320824613=="
+Content-Type: multipart/mixed; boundary="===============1616412540812483702=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Mon, 06 Apr 2026 16:19:12 -0000
-Message-Id: <177549235280.2090764.16831169856029536391@gitolite.kernel.org>
+Date: Mon, 06 Apr 2026 16:19:15 -0000
+Message-Id: <177549235511.2090879.5055550110683171051@gitolite.kernel.org>
 
---===============0778579161320824613==
+--===============1616412540812483702==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
+  - ref: refs/heads/10GbE
     old: 51f4e090b9f87b40c21b6daadb5c06e6c0a07b67
     new: 1caa871bb0615e2b68aa11bb7b453eeac770ea1d
     log: revlist-51f4e090b9f8-1caa871bb061.txt
 
---===============0778579161320824613==
+--===============1616412540812483702==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -44,4 +44,4 @@ fde29fd9349327acc50d19a0b5f3d5a6c964dfd8 ipv4: icmp: fix null-ptr-deref in icmp_
 fb22b1fc5bca3c0aad95388933497ceb30f1fb26 dt-bindings: net: Fix Tegra234 MGBE PTP clock
 1caa871bb0615e2b68aa11bb7b453eeac770ea1d Merge branch 'net-stmmac-fix-tegra234-mgbe-clock'
 
---===============0778579161320824613==--
+--===============1616412540812483702==--
