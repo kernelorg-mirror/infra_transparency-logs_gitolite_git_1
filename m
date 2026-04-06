@@ -1,53 +1,58 @@
-Content-Type: multipart/mixed; boundary="===============3877853841721419170=="
+Content-Type: multipart/mixed; boundary="===============0846048352228466373=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Mon, 06 Apr 2026 07:57:12 -0000
-Message-Id: <177546223258.1590137.16032893562229672908@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
+Date: Mon, 06 Apr 2026 07:57:38 -0000
+Message-Id: <177546225825.1590416.7656642783707688529@gitolite.kernel.org>
 
---===============3877853841721419170==
+--===============0846048352228466373==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
+repo: pub/scm/linux/kernel/git/stable/linux
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/v6.6.133
-    old: 0000000000000000000000000000000000000000
-    new: 0c502d3e26873edb1f80fc4036e6a58a13679be0
+  - ref: refs/heads/linux-6.6.y
+    old: 08667c1437c07ce2e5d323165031ae152d6f061a
+    new: 80de0a9581338406f591d505f9545244c7a99b68
+    log: |
+         16d41d32b7c76f547f98932f2d1e4b6ae2c0666c Revert "xattr: switch to CLASS(fd)"
+         9a3a2ae5efbbcaed37551218abed94e23c537157 xattr: switch to CLASS(fd)
+         80de0a9581338406f591d505f9545244c7a99b68 Linux 6.6.133
+         
 
---===============3877853841721419170==
+--===============0846048352228466373==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1775462231 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1775462229-b88e3bdf8cc88b54f8aa84b99a7cd3df697763b7
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1775462257 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
+nonce 1775462254-27fdd29520e7ab13510f49a331c6ba0b744ebc52
 
-0000000000000000000000000000000000000000 0c502d3e26873edb1f80fc4036e6a58a13679be0 refs/tags/v6.6.133
+08667c1437c07ce2e5d323165031ae152d6f061a 80de0a9581338406f591d505f9545244c7a99b68 refs/heads/linux-6.6.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmnTZ1cbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+nz8P/Am/c2FkY3eckErX19E7
-Zcsy8KxRXyv4L3nTJ78L3LEMorH9kUeGD0264CceJ4/nxz+mKHE7rJJJTQRW4JJ4
-pAFo7c2HUS43CffJNy1QDx7N1ZaMDjdKslmDZ/OSp0xAIFsp+KZhPHc7UIjFL4LV
-5sAnX+A4Eb0yfPaTy7YbdZDGf5U3/PmdN/i21iKP0uvj5vsPDPLu+r5I1eb5CSMG
-vSrcfDoD0+2eW04fE7IroLrx8Yj53m6VV5rsw/Vymwf4C7MlwHRRm/pz89qP+y0r
-dVaiX3Dweyg/isZ5P8bW6Pu7clR/AGA2Q4u5sWKDnSN3TNINa0nJOSzmqhXwKGe+
-CZXDR+l+NMw57lmGgdpXUvz9rBWIi9gnhl1I43V3+660T06+3r0fkUJnxL+OCvJG
-F5V8IL7tUSpRW1XUmIHm/vUGi+v18OwtZ1Dx2q0IKyH7psi+aK4QN5OICRklD/MO
-Gzk/724R0dwZ2etyxHUOGSBmUGpoUPdYS/boUGxA2yivXhBXGiJMqnUPNXSoW/l5
-dxUDrZQR2CiEVDLbjg4y32QznXH521RCL45ZPemdR2/VEq0lczcfcSDW9YHL6pwg
-qeQgfWYCXsJPOlN+F2NooO2ZeZ0zBeAC4WYucaKMsZdsNH8o2oZ1tGh3EyUX0enE
-/2zrdhYzvD2z3o5avfnKsIh0
-=fDq4
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmnTZ3EbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk++zQP/37v3PNyfQcKoaIF417G
+hGnJ9V4CpFX3yFe4/I/M7iJmTFktBxsJ8A5Ea1MRJMyBxoXXX0Bt24//ZQxamxUh
+Dw5xjY7+4sR3HKvoE4UEKz56laf6v88YmcSyAKCWtkT68iMSjHWiDlvErGlu15Ll
+yhlVc0MmeXqEgg8SRy+09ifhI7HmFGSQck0e/lW/qHgiIh8aE+3aXE9Pz3PxNkxz
+Xrt2b1Jtg3hB8ki4PYMclKXVzvrd1S7DQuFac3X0VBjQR4oVwg77OkZKof1wVSTf
+JPkftlA48g2jFfaprf1QZAE2JHyN6DziQwc2tTPsAxsO3g+jRptjI/46Dy1MZh5/
+5bcF2P54uJgAxLJJ/gX71+zsQLbeIsqREF1Jhq4svZZRvxZWaWP1p5sJUvfUBdhL
+OLjBFg6A4rRxaLRTjj9//f739IyfwGcjQzSeOfEYaqLZfxMk/Dw27fq0UfR0qT92
+MB2x4ngr3X3Xic754P00CIyCHQg0BLamNvoOMzjUXXxCqjvdGQL6Rrr7evHUBXRa
+YRzdzJxddyczSqNwcnnHMIHQAIVJ/TH1Y7zmYmYfQ+rOkWToBPx/jbmxS4VACkd9
+cOUO6dcxwixPQMiUn1rbMHx0IOU18bvaQWibO9fWAxHI5efKEBSMVq7fxa7G2CMV
+Kra3Y7AoOFQ1ySE1DZqtWT9q
+=q5ZY
 -----END PGP SIGNATURE-----
 
---===============3877853841721419170==--
+--===============0846048352228466373==--
