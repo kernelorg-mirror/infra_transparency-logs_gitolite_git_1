@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7310067528119177601=="
+Content-Type: multipart/mixed; boundary="===============2651412956082621983=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
-Date: Mon, 06 Apr 2026 07:04:33 -0000
-Message-Id: <177545907378.1544631.9048617325626811167@gitolite.kernel.org>
+Date: Mon, 06 Apr 2026 07:04:40 -0000
+Message-Id: <177545908092.1544876.6532011609814618295@gitolite.kernel.org>
 
---===============7310067528119177601==
+--===============2651412956082621983==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/tty
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: c369299895a591d96745d6492d4888259b004a9e
+  - ref: refs/heads/tty-linus
+    old: 3ddbea7542ae529c1a88ef9a8b1ce169126211f6
     new: 591cd656a1bf5ea94a222af5ef2ee76df029c1d2
-    log: revlist-c369299895a5-591cd656a1bf.txt
+    log: revlist-3ddbea7542ae-591cd656a1bf.txt
 
---===============7310067528119177601==
+--===============2651412956082621983==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1775459072 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1775459080 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
-nonce 1775459072-75568427410b50b4232f205965d0a961eebf2d40
+nonce 1775459077-842690f80f444089b7641bd475e4dfd7696a8538
 
-c369299895a591d96745d6492d4888259b004a9e 591cd656a1bf5ea94a222af5ef2ee76df029c1d2 refs/heads/main
+3ddbea7542ae529c1a88ef9a8b1ce169126211f6 591cd656a1bf5ea94a222af5ef2ee76df029c1d2 refs/heads/tty-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmnTWwEbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+WioQAIqcda7+SDEtoZlJZPM4
-Ts/TSQjljQdWXgUu6IVu5wKg8vGpQQGfoNJlW1LO71aj81bYL9CWfQ4h503oGp13
-Bpv6inPte+1WrUPSt/r2VzW2hVK+R9wDm/0SsCpb8b87NIZsjLL0QYVcTNcqNzyf
-M1oVqWpLdDAHYox0KxlMpV0ScawBXOylacgofMb8CfsOIZpZ5tCahslMz00bzCVb
-RD2PoceT8ionsoXQP+5VPk84n03l10p+nxAzu9pwpg4WsvUFxudBUeSVj3nruFJM
-ZF3bncnLZVKR58ltAsq7O0YszHAthGFxXTEG25nHSuDERkxuGolUg0a6ZN7x8blS
-Sppz38w5dq/cwLGgAkbiAucZzyFSiWsVIrxI8h5xIh4p8FcU+ZW7B5O/MWxuG5OO
-FeFrND+fvAYFVWT07srDIAJsBvOJn/OESQb77DJuOJ4sokFcMU1ZOmY/lHhJ957F
-kZwrQuOawWCv8txqrADN1XtoANVO/hMJ6qVtdhQ38oK9miha2BU9+1ru1iDu15yU
-zaEAoZPzpR7djBunfmZRC6gm+rgWpb/oNsxeugc9EumaR8+T7j8vucVO0bH7xKao
-dDE4ZHMAv7Qtxa/zn/dy6s4YJQwXt+lyXX5j/S6FT8Q/kY7k3Wg2AUu79biS6Ilx
-OcVcCnD/l2bOV8yIVJIyQKDa
-=vVpE
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmnTWwgbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+MVgQAKi03ewkzBwDCxr0ozhA
+a1MUNZqBMUMIZaO8vBMlKu7GVcQXu2wpreTsdtmm8Mfyl1jtIDivNks4cEo9Ikcf
+iwVIFCxrqkSc1nwXphC12v6HUu5LASdv4Xud6zlHO1o1/jW+GgbuoeE3RxGM/BZO
+Oi9JgHN0czLh+Ml0ThdnCwqf/NBFAhwQkSBHsTSkNp+uV0PrMR4GrCX0eQ7Q+FYv
+d1RvRUf9fiDxWW8kyhZqVQycs2sxueI6hMXaZoes2KlrxGAK6wfTlN3QegnkeM3j
+VWvU53CzF/+Q1H6r3ur252TY8OhW3fOeBzPYWkPBxmC1ORr+m8dugJ18fdgv3EKx
++hj/d8llxt05hh1lLGvHoKg+PCFxVzFAJ09OhVsKTRPGUdDPYKe492Xl3GC9NDcB
+kNeLDg15I45UFBdciXOM5dbKelhN3IUqlYrcdkxekkPgGWWTHzcDSoW0YzPL3TEJ
+K4HGEqVjqKS6dprzIU+uuQg5bhvzSAiJv+JUaihL2muBdXBOQLUDRYV9pQx+Zsyz
+Zm1RJfn8yDhm1uPfYbA8mZ807ixOmu56Hi0F1dXmjRhk+yJti9zof1MvU4iQ6oEF
+oddnen7FuQHiaWjvlcXwZ+Iv78wuT7lF9ocrmeb3ntc/9mtNL2TTP67uH9dLrLR/
++R0zdSCnhTYJcuxHJwYb4M99
+=cIRo
 -----END PGP SIGNATURE-----
 
---===============7310067528119177601==
+--===============2651412956082621983==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c369299895a5-591cd656a1bf.txt
+Content-Disposition: attachment; filename=revlist-3ddbea7542ae-591cd656a1bf.txt
 
 fc1e8a6f129d87c64ac8e58b50d9dfa66217cfda Input: bcm5974 - recover from failed mode switch
 5839419cffc7788a356428d321e3ec18055c0286 Input: i8042 - add TUXEDO InfinityBook Max 16 Gen10 AMD to i8042 quirk table
@@ -757,8 +757,6 @@ b2cc4fae67a51f60d81d6af2678696accb07c656 usb: gadget: f_ecm: Fix net_device life
 d9270c9a8118c1535409db926ac1e2545dc97b81 usb: gadget: f_eem: Fix net_device lifecycle with device_move
 06524cd1c9011bee141a87e43ab878641ed3652b usb: gadget: f_subset: Fix net_device lifecycle with device_move
 e367599529dc42578545a7f85fde517b35b3cda7 usb: gadget: f_rndis: Fix net_device lifecycle with device_move
-40014493cece72a0be5672cd86763e53fb3ec613 vt: discard stale unicode buffer on alt screen exit after resize
-3ddbea7542ae529c1a88ef9a8b1ce169126211f6 vt: resize saved unicode buffer on alt screen exit after resize
 ea31be8a2c8c99eac198f3b7f2dc770111f2b182 ALSA: hda/realtek: Add quirk for Samsung Book2 Pro 360 (NP950QED)
 2e8b1a1d12ae3338efeb1c3de3eb4e9324b87a28 rtla: Fix build without libbpf header
 b9eff9732cb0f86a68c9d1592a98ceab47c01e95 ASoC: soc-core: call missing INIT_LIST_HEAD() for card_aux_list
@@ -992,4 +990,4 @@ eb3765aa711ff93664cd5ffcf0c2df02da2d9c26 Merge tag 'mips-fixes_7.0_1' of git://g
 85fb6da43ac58dc7d1a6242e7b2102fd1d4954bc Merge tag 'riscv-for-linus-7.0-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/riscv/linux
 591cd656a1bf5ea94a222af5ef2ee76df029c1d2 Linux 7.0-rc7
 
---===============7310067528119177601==--
+--===============2651412956082621983==--
