@@ -1,43 +1,55 @@
-Content-Type: multipart/mixed; boundary="===============2878692626731690555=="
+Content-Type: multipart/mixed; boundary="===============2440996353226605292=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mips/linux
-Date: Mon, 06 Apr 2026 12:27:13 -0000
-Message-Id: <177547843389.1900675.15307270730532554790@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
+Date: Mon, 06 Apr 2026 12:31:37 -0000
+Message-Id: <177547869781.1904681.10535410839626712901@gitolite.kernel.org>
 
---===============2878692626731690555==
+--===============2440996353226605292==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mips/linux
-user: tsbogend
+repo: pub/scm/linux/kernel/git/jlayton/linux
+user: jlayton
 changes:
-  - ref: refs/heads/mips-next
-    old: 591cd656a1bf5ea94a222af5ef2ee76df029c1d2
-    new: 79b888ee4c6387bc07c5452bfd031cb985871a5f
-    log: revlist-591cd656a1bf-79b888ee4c63.txt
+  - ref: refs/heads/dir-deleg
+    old: 23dab10e6368fed23984781ef9a247fc242498da
+    new: 4c7561ebe642f97bf42406cdbbda294c0b7b4a63
+    log: revlist-23dab10e6368-4c7561ebe642.txt
 
---===============2878692626731690555==
+--===============2440996353226605292==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-591cd656a1bf-79b888ee4c63.txt
+Content-Disposition: attachment; filename=revlist-23dab10e6368-4c7561ebe642.txt
 
-71451b7105c777429de9bd3961666f02edd4f40e arch/mips: Drop CONFIG_FIRMWARE_EDID from defconfig files
-a163a96d4afb29c0783b4a3a26ff64440713f514 MIPS: kernel: Remove $0 clobber from `mult_sh_align_mod'
-56236b7f6f4461e2aa1d1210de14e91c61601e53 MIPS: DEC: Rate-limit memory errors for ECC systems
-798715fa06e1b3ff0f672721cca0a6789d5ebd37 MIPS: DEC: Rate-limit memory errors for KN01 systems
-c523378ce6f65298fc1cb6be7c0e59a9008be446 MIPS: DEC: Rate-limit memory errors for non-KN01 parity systems
-7d1b6b70927e0b65e2768c3f625f9da60635efad dt-bindings: soc: mobileye: OLB is an Ethernet PHY provider on EyeQ5
-a692761a8e7b0c1abce92af476972357765f69c7 MIPS: mobileye: eyeq5: add two Cadence GEM Ethernet controllers
-ff8efe28bb3a184422c71553675385625c710c10 MIPS: mobileye: eyeq5-epm: add two Cadence GEM Ethernet PHYs
-c7dd395d7b53a66de8503507fe7ef21b8fab3e57 mips: dts: Add PCIe to EcoNet EN751221
-3dbb08276836de58fc3097526c4bd9c3abe8f142 mips: pci-mt7620: fix bridge register access
-c2631cc4508c2e331759b0e5481a03d6b4b76346 mips: pci-mt7620: add more register init values
-2300d68e577909c7d3013910ff818e8572288491 mips: pci-mt7620: rework initialization procedure
-79b888ee4c6387bc07c5452bfd031cb985871a5f MIPS: dts: loongson64g-package: Switch to Loongson UART driver
+445a35e557ae69d12ec146d87543b9f403c2a29b vfs/nfsd: add support for CB_NOTIFY callbacks in directory delegations
+6c5b0d9e45361e997bfb76a078bc1013a04ac0b3 filelock: add support for ignoring deleg breaks for dir change events
+a1add4fcd4c54761a740eb071a3b0d49920c2f63 filelock: add a tracepoint to start of break_lease()
+a4ffc9b60e18a80d351e9529e8b50d9054bc017c filelock: add an inode_lease_ignore_mask helper
+7c2c2ed2003f58ed3b1a02e83bdcbc843bb8d062 nfsd: add protocol support for CB_NOTIFY
+c09bd47d1b4ace1f3301b22802161c653da21c9b nfs_common: add new NOTIFY4_* flags proposed in RFC8881bis
+d0abc7f068683d954685d07f5c55834b7de450e1 nfsd: allow nfsd to get a dir lease with an ignore mask
+51f9a2cdcff1bd9c48c4f16ca8b479e2878a7aba vfs: add fsnotify_modify_mark_mask()
+519dd1c09130677bf090506df99df2557e1ec8f4 nfsd: update the fsnotify mark when setting or removing a dir delegation
+02d25b4f3d9da820fdb60efbb5110d1c770c027b nfsd: make nfsd4_callback_ops->prepare operation bool return
+6a0085bf78e147626e3abd74b3fdb22dcac63492 nfsd: add callback encoding and decoding linkages for CB_NOTIFY
+d54ae0f39767a43d6aa784e1c75cc8439ff7eaef nfsd: use RCU to protect fi_deleg_file
+2354ad94cfce32c0920efe25965d9ce8e1c74b7c nfsd: add data structures for handling CB_NOTIFY
+ddc5300f57855ff6773a86ebfbd753dcb43a4690 nfsd: add notification handlers for dir events
+dc0b369c045267bd3abd2a489ff487e2093dc159 nfsd: add tracepoint to dir_event handler
+df808dd1375f4dc79e32a561b160c06c056012d6 nfsd: apply the notify mask to the delegation when requested
+8f033205be1706ec9b0bcb68cb9c1159c2917d60 nfsd: add helper to marshal a fattr4 from completed args
+860d1b9c917aa52ac6933755912c9945303fb1fb nfsd: allow nfsd4_encode_fattr4_change() to work with no export
+ed8da1aa3526a0773aba9a5b85a673cf9e3771b7 nfsd: send basic file attributes in CB_NOTIFY
+e0b4fbeecf30e3aab09a596ffa645b8c34b886bb nfsd: allow encoding a filehandle into fattr4 without a svc_fh
+d24fa6ba996188457f9c7cef4a8d61cf44df4f2f nfsd: add a fi_connectable flag to struct nfs4_file
+0a802f13ab04393b7a29412174f0bbb87cc343e5 nfsd: add the filehandle to returned attributes in CB_NOTIFY
+d0a3dfa81f6c509f2f55ca81b57ee0567ef6618a nfsd: properly track requested child attributes
+7cdd28f212eb9c43e2629a8902de58459b7ad4d7 nfsd: track requested dir attributes
+4c7561ebe642f97bf42406cdbbda294c0b7b4a63 nfsd: add support to CB_NOTIFY for dir attribute changes
 
---===============2878692626731690555==--
+--===============2440996353226605292==--
