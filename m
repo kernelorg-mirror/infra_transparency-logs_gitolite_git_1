@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7045337754607078514=="
+Content-Type: multipart/mixed; boundary="===============1392785417120977749=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Mon, 06 Apr 2026 07:07:33 -0000
-Message-Id: <177545925390.1550670.7976711567612023745@gitolite.kernel.org>
+Date: Mon, 06 Apr 2026 07:07:36 -0000
+Message-Id: <177545925697.1550811.10914203755980466614@gitolite.kernel.org>
 
---===============7045337754607078514==
+--===============1392785417120977749==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,42 @@ repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/usb-next
+  - ref: refs/heads/usb-testing
     old: 1df7a7652f032cf1abe1c102a031c2128e24c31d
     new: 3723393cc284e09107c0f55c47458b75b29be2c3
     log: revlist-1df7a7652f03-3723393cc284.txt
 
---===============7045337754607078514==
+--===============1392785417120977749==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1775459246 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1775459256 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1775459246-2e6bfd007695a72de2f7c5d399dbe62d0adf81d6
+nonce 1775459255-e284db29a87289acc5903e966e674c06e00df202
 
-1df7a7652f032cf1abe1c102a031c2128e24c31d 3723393cc284e09107c0f55c47458b75b29be2c3 refs/heads/usb-next
+1df7a7652f032cf1abe1c102a031c2128e24c31d 3723393cc284e09107c0f55c47458b75b29be2c3 refs/heads/usb-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmnTW64bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Zr4P/Rsg22GyNRD127rCJiZv
-IJGQwraPmFwccnzpU+Cm28UL1aNLoUTt2Qvd6NV8fNmJYA5dYqHHkGWIMsPwSgZL
-LrOgmg+if5x9DSsbXzfgaLpK07EGbfxIoseYBuqLfEqhC0FhLdyUeOmsfqTMvBFH
-xeWzMrRC9oLHzy037DDOWjtrjL64icFxfFCIY8Bwg4gwARkntwgolxMFjgdGTpmO
-poW/RwktDNBMSZ17MSeySJjH2q88hGFqyvXCAdY04iO6bPhLv5Db3jEZkht14q2X
-2Q7z9WHcJpibebUWVXXwOFu/cVBXxHKsw76FjZAMvWI4nqrX0e8QhkQV48rcJedz
-Vs9zxqgv6ErtSxTpDx4Rq9nDphhUIxDLY2mzWOsle0dYNWvUBCwi35+aw5FiO9+B
-uXXxBm9DQw/Xwx+erj3APj6yOu5UWML925SGDtdVDEU0cGhQWdAYaqynKWApdNhp
-1WnzACRuTgjteMvT4Qnj0i+uRPT+uaGwuEEWlAlmwnGFWsjvOeNlGW5qYF85xZJs
-4m+z2+tL0XLQGScYINQBTM2a04qaUmsmH9JZPZhCFtI3okiO70m9ISajoQlK7XnF
-3JawpkT4UAJrsCLuzLOuPrx+O6F6L8MHwJFQ5lb//TeEiu/Jp7qbA2yORPKoZk+f
-Xj+iYAPF4HsTKoyD3OoxbDG6
-=Cm13
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmnTW7gbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+BxIQAJHDELNrEGuXJKRkjRlS
+Tm3AtTKnPxleBPSPGS+pc7Wm1ZADSyqSq1gSutfghD1+Xtja9bgvaQowABavHc+e
+tFxfIekY6NYWL0MI63WJxmPw1UBuGlhLPmcyd2o1eIvGkyqXVCFdmsqn6XpbwD0Z
+5sEIr6QfGDzfCVDng09hyjNzUXEMeY7afybsJdcNLfJICmjKWKiWFqGq+1Zd0krn
++4xaUlnT5kopCDaSUvxXMtakybPShy7EyKQ2DzuAHm5YPTeRPY2dMqnom6NcmBFH
+EqgA5Csrc1xn2c+lZiuNyxCexW+Nx4m37W707sWda4qFcuLucVAhgJHrgSfdAmcE
+lJoOoIO6hEqb4VJaovVLDYoxAmbsNhBCMEnVMz0AtcSUNHOC9XCu5eCuvi7tlMvl
+Z5vkSvD2qSMmnnNIb5bO/GkMx/aWR9hUEOhc69YO+LHeo8C07tMuk5TFGD0J+Otu
+jeUfnJODhzIkxa/ewxdXZUJzDooe30kUWWOi9a1IsgKI99IQ1LRbfBwqTg2uogfE
+1RHNImUrOqtPsPuPi1YKvvB0AWcPjlFW4F06d3FTJhIDmcjf3H8rn8QL3CuSp2fG
+CZWluhEqUDRpayScN9lFDyI0xVhSbFCaXIifyqb6r/2EeJQn3Fzs1EIe/ZWPUsEo
+gF3XQqK8Cc5LbhWbMJp8R/Zd
+=B8Q/
 -----END PGP SIGNATURE-----
 
---===============7045337754607078514==
+--===============1392785417120977749==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1082,4 +1082,4 @@ eb3765aa711ff93664cd5ffcf0c2df02da2d9c26 Merge tag 'mips-fixes_7.0_1' of git://g
 591cd656a1bf5ea94a222af5ef2ee76df029c1d2 Linux 7.0-rc7
 3723393cc284e09107c0f55c47458b75b29be2c3 Merge tag 'v7.0-rc7' into usb-next
 
---===============7045337754607078514==--
+--===============1392785417120977749==--
