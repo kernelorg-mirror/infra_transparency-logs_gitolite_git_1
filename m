@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5538230009820795867=="
+Content-Type: multipart/mixed; boundary="===============0065130993597021414=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Mon, 06 Apr 2026 12:34:33 -0000
-Message-Id: <177547887313.1906216.6215056598139514528@gitolite.kernel.org>
+Date: Mon, 06 Apr 2026 12:35:01 -0000
+Message-Id: <177547890128.1906710.12390025835264488499@gitolite.kernel.org>
 
---===============5538230009820795867==
+--===============0065130993597021414==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,48 +16,47 @@ repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: 6de23f81a5e08be8fbf5e8d7e9febc72a5b5f27f
-    new: 591cd656a1bf5ea94a222af5ef2ee76df029c1d2
-    log: revlist-6de23f81a5e0-591cd656a1bf.txt
+  - ref: refs/heads/pmu_bus
+    old: 69a327baff58f19510f0db9904578a12426b2775
+    new: 1f3abcee779a876fdc4a9671b3f65b0383bace30
+    log: revlist-69a327baff58-1f3abcee779a.txt
 
---===============5538230009820795867==
+--===============0065130993597021414==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1775478872 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1775478898 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1775478871-1ee019246ed6fdc1c11798ad7a8d1e934e152034
+nonce 1775478897-ca14ffd671e8baec4b3606e2b4de1eff9ad36035
 
-6de23f81a5e08be8fbf5e8d7e9febc72a5b5f27f 591cd656a1bf5ea94a222af5ef2ee76df029c1d2 refs/heads/main
+69a327baff58f19510f0db9904578a12426b2775 1f3abcee779a876fdc4a9671b3f65b0383bace30 refs/heads/pmu_bus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmnTqFgbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+fYEP/isdeacZBxUtFAAJUyfS
-0v2b7XSPKZjAwHpSIcwSdTr9SCB73uIQi28JXFiWqyIlPqhKExk2HlTzB44fpoh7
-Coqgvc8YjfyDJHNSFNq0VQVVSiJ+Q8P8M9Jwg2c5jMiAUR8NLo/VFCbT6daYhNUC
-KzELrRtM6AIfrMB5dMM60lrIHFqL2zqNm+j2JXPuHafUd166gcwGeIcjBM5RjoQ7
-prQ+oz352TndOwLBZaVae9Nemu5DW/80jwfd0bBjpBp2OCayCmSP9KkPj5sbc2Dd
-dgCKYQbhRgMudiYfovrzX8oLEPaPrTAaf/FeYLAEIUuc0cl6Wz1SrlCMkV7uG3sP
-YkXSFtr+eyW4zcToc9RIOUaUkJST9Hnk5peN2Vi+NNQUQwPHiyKUDiTe3vLzVPH4
-Lqy/rqNK9hqBVR0UjhCRvDVQ0HOIbpW/+9MByKIkEn3xfxZBv53l/nkhe5LxpKkZ
-I+FIa9kJXty0d+3GUFeo+v3SsssWthIscLUQOlNXbNWuDqoWsx24aLvtypR46OfJ
-IHK0WS0n3pPcqiChMTMi8giHOE4IZ2Me3fKzsG66V7OWSmYiI1NuBGHcJdJSLWRF
-Q606Rz6PEP8An3EVldbL3L10986VbMmw0fbw/hVu033lF4e8OnrGkhuJILqt06Lz
-asFet3HeOFW1YZoLulxAnkie
-=FDGG
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmnTqHIbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+hKYQAKH5LWQzLgSAmk7ZzJ8t
+W1Tat1+U0AKKCI/2WKCvkaoc2gkAFBpazAJ9excAt/3RtHMR/VW6XRUPKIRA4zPV
++abZ+/hLd0gQ10deX5d1Hbjf8cqqw4Ull0WN45TgqIM8Uh0zg81IR4amjG2j0cV4
+P6FV/TmNo+UwjPCyPJWx1+umQScPCHGD8zIT8DrXG9CjI3hssO5Qxod5N3yKe9BE
+Cb758qmpbg5oFwNaS3m7XqguMK8ILLfPcAYhjhSF2H0O6hRA6+e4hqDKhaymPS32
+nepM9KUz+msWrb6MTKMTuQjJnCLLdr/1D0y9tfdmty6GA6MZPF8WTsHd7PxnZ733
+J3c1RZsCf5kxgrNIP9a/WmRkEyMgbeLzWQRZHvw0jA6jLQuriEUahgcTOwewgHRU
+EEh/2LNzWAnfsoBiYw/VTqT91eOz5fdSA6u81TmTQfspzdh1D2v7fV4I+GuEIS1X
+bYXjVzzZSzMFxWSwuqwruSK/bIKaEhYbB22KEthsNjSa6IROK6lO2u3hX1oRSkjs
+wnK2k6fMbIOdjVkanZjXx7HoC4n3hMbrgrR8Uj981Vfrplp9hk3J6fMiB6x35phS
+MMucBL0g813fZsQK4K7FpL7tTNFnUhSkSDjSKX+sKXtxN/PyMX0r3j3vjXapQxDw
+wZvG/j6zHB8ySey77EEU6c1J
+=HQi8
 -----END PGP SIGNATURE-----
 
---===============5538230009820795867==
+--===============0065130993597021414==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6de23f81a5e0-591cd656a1bf.txt
+Content-Disposition: attachment; filename=revlist-69a327baff58-1f3abcee779a.txt
 
-cf3287fb2c1ff74cb16e4348c6914acf140ebe30 PCI/pwrctrl: Ensure that remote endpoint node parent has supply requirement
 ee226656cd64c1d781e6f91a38a5131106e9e094 PCI/pwrctrl: Create pwrctrl devices only for PCI device nodes
 4e5019216402ad0b4a84cff457b662d26803f103 objtool: Fix Clang jump table detection
 75cea0776de502f2a1be5ca02d37c586dc81887e cxl/hdm: Avoid incorrect DVSEC fallback when HDM decoders are enabled
@@ -1081,5 +1080,6 @@ eb3765aa711ff93664cd5ffcf0c2df02da2d9c26 Merge tag 'mips-fixes_7.0_1' of git://g
 10b76a429a8716545cd6dcaf4578594e74dcd21b Merge tag 'x86-urgent-2026-04-05' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 85fb6da43ac58dc7d1a6242e7b2102fd1d4954bc Merge tag 'riscv-for-linus-7.0-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/riscv/linux
 591cd656a1bf5ea94a222af5ef2ee76df029c1d2 Linux 7.0-rc7
+1f3abcee779a876fdc4a9671b3f65b0383bace30 perf/core: move all of the pmu devices into their own location
 
---===============5538230009820795867==--
+--===============0065130993597021414==--
