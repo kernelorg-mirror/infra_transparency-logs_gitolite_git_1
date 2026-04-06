@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6489241063678065529=="
+Content-Type: multipart/mixed; boundary="===============4572455734148896266=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/frank.li/linux
-Date: Mon, 06 Apr 2026 09:53:14 -0000
-Message-Id: <177546919452.1758780.5416196607514968947@gitolite.kernel.org>
+Date: Mon, 06 Apr 2026 09:53:36 -0000
+Message-Id: <177546921662.1759251.16737917198660837413@gitolite.kernel.org>
 
---===============6489241063678065529==
+--===============4572455734148896266==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/frank.li/linux
 user: frank.li
 changes:
-  - ref: refs/heads/for-next
-    old: 52bd553667e68b91ae6bb686ebddb66e539c7798
-    new: 06856fe108912c4988446e459c57d061ad9f0de7
-    log: revlist-52bd553667e6-06856fe10891.txt
+  - ref: refs/heads/imx/dt
+    old: 7bc76d413dbe6631a207b38aa67b2d00fdc27b2c
+    new: 0037d16644b15686eec420a90f05bcd2804edf6d
+    log: revlist-7bc76d413dbe-0037d16644b1.txt
 
---===============6489241063678065529==
+--===============4572455734148896266==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-52bd553667e6-06856fe10891.txt
+Content-Disposition: attachment; filename=revlist-7bc76d413dbe-0037d16644b1.txt
 
 66ad164b0048df33afb1fa927242aeece547970d ARM: dts: imx6qdl-sr-som-ti: use fixed-clock instead of clock-frequency
 abfd55dd8327f760cb91289bb696436c5ead23f3 ARM: dts: imx53-smd: Add power supply node for fsl,sgtl5000
@@ -63,6 +63,5 @@ f45c54459d86e0ac6c91d1c4419f843e9fd7909a ARM: dts: imx: bx50v3: Configure phy-mo
 3432749efe6b76abf7cff90a05ff40ee919c060e ARM: dts: imx25: rename node name tcq to touchscreen
 c59ebeb2ad085bee952d35c601cad46be3bc86c1 ARM: dts: imx6sx: remove fallback compatible string fsl,imx28-lcdif
 0037d16644b15686eec420a90f05bcd2804edf6d ARM: dts: imx: Add DT overlays for DH i.MX6 DHCOM SoM and boards
-06856fe108912c4988446e459c57d061ad9f0de7 Merge branches 'imx/bindings', 'imx/dt', 'imx/dt64', 'imx/fixes' and 'imx/soc' into for-next
 
---===============6489241063678065529==--
+--===============4572455734148896266==--
