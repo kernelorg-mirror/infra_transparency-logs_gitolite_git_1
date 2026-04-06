@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/libs/libcap/libcap
-Date: Mon, 06 Apr 2026 13:39:21 -0000
-Message-Id: <177548276116.1957722.11302102424437381735@gitolite.kernel.org>
+Date: Mon, 06 Apr 2026 13:39:28 -0000
+Message-Id: <177548276814.1957956.5378293097135361466@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,11 +11,21 @@ service: git-receive-pack
 repo: pub/scm/libs/libcap/libcap
 user: morgan
 changes:
-  - ref: refs/heads/master
-    old: e1e79bcbaec103c074dd4d501692ef8ff41d75ae
-    new: a1fef85d27d0ee12729a64d1c9b2183c6007e56a
-    log: |
-         286ace1259992bd0c5d9016715833f2e148ac596 Address a potential TOCTOU race condition in cap_set_file().
-         472547b1f89de61903278ec837e370dcdc6998f5 Restore parity between libcap and the Go cap package
-         a1fef85d27d0ee12729a64d1c9b2183c6007e56a Up the release version to 2.78
-         
+  - ref: refs/tags/cap/v1.2.78
+    old: 0000000000000000000000000000000000000000
+    new: 06f4a09b9813579cbbfbc4138464f79870d8021d
+  - ref: refs/tags/libcap-2.78
+    old: 0000000000000000000000000000000000000000
+    new: 7a89aa42efc57e18f8c42de700f6367bd7531a1a
+  - ref: refs/tags/libcap-korg-2.78
+    old: 0000000000000000000000000000000000000000
+    new: 03a5cff710379573c4cdabc4963f7cb32b6477d3
+  - ref: refs/tags/psx/v1.2.78
+    old: 0000000000000000000000000000000000000000
+    new: 24ba8df2ec3a21e6637f5cd476a1132de2d58fa7
+  - ref: refs/tags/sig-libcap-2.78
+    old: 0000000000000000000000000000000000000000
+    new: 8547eb27aec3bd0c137c4c2cfa915b176d3f9f1a
+  - ref: refs/tags/v1.2.78
+    old: 0000000000000000000000000000000000000000
+    new: 19517682b132373dabe91cd3cb5bd7956efe2611
