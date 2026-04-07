@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Tue, 07 Apr 2026 01:38:52 -0000
-Message-Id: <177552593248.2551382.11472449586350337886@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Tue, 07 Apr 2026 01:41:53 -0000
+Message-Id: <177552611351.2555048.12387325898919503060@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: ast
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
-  - ref: refs/heads/for-next
-    old: 18474aed5d0d382f8057ceed7811a735134d28b9
-    new: 8b648a517522e308e4378f012c4d352271e0cecf
+  - ref: refs/heads/main
+    old: 8a4e3ab61d496c37595219e5122d91f204cb05de
+    new: 2f60df9e61aa48bf40c36254bf2e839f09cffd98
     log: |
-         43cd9d9520e6622f6b9ffcd4f68e9d99225482b2 bpf: Do not ignore offsets for loads from insn_arrays
-         1c2e217ad349d2af5c09f8e6e1c0561ad912477d selftests/bpf: Add more tests for loading insn arrays with offsets
-         8b648a517522e308e4378f012c4d352271e0cecf Merge branch 'properly-load-values-from-insn_arays-with-non-zero-offsets'
+         2f60df9e61aa48bf40c36254bf2e839f09cffd98 ip6_tunnel: use generic for_each_ip_tunnel_rcu macro
          
