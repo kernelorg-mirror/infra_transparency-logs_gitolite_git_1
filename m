@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4264962604061988292=="
+Content-Type: multipart/mixed; boundary="===============5164719755324998329=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Tue, 07 Apr 2026 11:50:26 -0000
-Message-Id: <177556262685.3051607.12856129365482668840@gitolite.kernel.org>
+Date: Tue, 07 Apr 2026 11:51:16 -0000
+Message-Id: <177556267672.3052164.9659718663213702987@gitolite.kernel.org>
 
---===============4264962604061988292==
+--===============5164719755324998329==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,43 +17,41 @@ user: gregkh
 git_push_cert_status: G
 changes:
   - ref: refs/heads/usb-testing
-    old: 2ab833a16a825373aad2ba7d54b572b277e95b71
-    new: 2c863dbbeac7b919d4634ad886978a6731916de3
+    old: 2c863dbbeac7b919d4634ad886978a6731916de3
+    new: 8f993d30b95dc9557a8a96ceca11abed674c8acb
     log: |
-         9a8881aab5d3e69dd72d1b18bbde39be6f4664bf USB: of: Simplify with scoped for each OF child loop
-         250892b5d64d6a54faf4a0829ff3a99af27a4bc1 dt-bindings: chrome: Add cros-ec-ucsi compatibility to typec binding
-         40b17a345d3fe88b98acfe2637452baa32785ee0 usb: typec: cros_ec_ucsi: Load driver from OF and ACPI definitions
-         2c863dbbeac7b919d4634ad886978a6731916de3 usb: gadget: f_hid: Add missing error code
+         c088d5dd2fffb4de1fb8e7f57751c8b82942180a usb: gadget: f_phonet: fix skb frags[] overflow in pn_rx_complete()
+         8f993d30b95dc9557a8a96ceca11abed674c8acb usb: gadget: f_ncm: validate minimum block_len in ncm_unwrap_ntb()
          
 
---===============4264962604061988292==
+--===============5164719755324998329==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1775562625 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1775562675 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1775562625-4f4b5bb870daaea2290510d170de54d1362a8f04
+nonce 1775562674-1bed6c1d563e47193bb054cfdc7563080f701046
 
-2ab833a16a825373aad2ba7d54b572b277e95b71 2c863dbbeac7b919d4634ad886978a6731916de3 refs/heads/usb-testing
+2c863dbbeac7b919d4634ad886978a6731916de3 8f993d30b95dc9557a8a96ceca11abed674c8acb refs/heads/usb-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmnU74EbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+lrEP/RewuIo4Z9TUEBsVt14w
-bov+6BhZx7V08he3Zr68RSS8e6B3o0evb/FDfQbReQOTOp0uXaLXTgOM1DeC1eiN
-+ju4ZEyvT1AQ+2ZF5ANy0FkffkkbNn20neCdpUwfvpeuKZGrNDs2EjthLv8ZEk1M
-iZcoeYVVtPNdUd2NCam9FJxEvJheN2T67SjD2EDx37vHAoCDmaNd4BH6RB20kAgW
-T9mljL7s+NhvB/YKQV31oCoWLlBjpyhwEBSNojCd2Oip6mF0eK4aH294hw95jeM8
-paSAuNxT+fpldBdZYsZwCYoj1LWIT0yRucgu4mvqWFVe5DeLLSLhnLlEkbmxVKgW
-bGeMlhDyeC+sNq00wXmP1yMcdJ5hKow/3ECQkfAn0k39yC+IxaD1eQnEnPJSxuoK
-GBwdY0KNMQjb0xWjzK72stqf5kKaEIL/+wvbzbK4u4AOFCfMAjlQGzbkU1x5BS8B
-yp/mkRjYDLpDxqGWx7BuhHxL4F4EtI4YzLDZC67cfof6w1qnt5xC/5jRHnTXRYBJ
-SfFk5+OiotWIDbSI8sCxiTdfWSVg3SJmDmKEGjueotDUT1R/rxC8sbo/TjkBgeoH
-p4jneRrwHjwq0fh/cjE0GdsL3Km4gSGJMXH0LoL16vkurWYJprXhO8ObefjDXi4T
-T+xB0lw6d6pfrdEI+6WB/7EJ
-=eiaL
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmnU77MbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+gE8QAJBpEPhcgJihcpzwKmE6
+zuzNwEB4Sl7Lbyjra2+05mYejcJGwVb5W1MTEB9AV0T2YAllzkY47JMY1OUagpBB
+BG65dX0PJ5Q97+QQvXcUCcmXINdoeO4lhm4OOc12BPjO4gNXtNQ4iKrVxyNbhow+
+NG8u2AiYE9PONz+lgWGFp++pKxZNEZ7uXJuJLacZwgatXDcnnV+tXe15ARvggYcO
+mmb59i1yiFGQoZPvJbzzk2HkBi8/wy3grtTD+sYoFYnGj7OVToEzAVF+GPL9j150
++6o/oAuJ2Dkg4RmB17qu0uUJZ8XY3kqqjHRn8Rh/vKF19lrYCIQ0UqhXZ1A2yzBV
+DFIzShlcLsCR3QwLMxkqGvWbC82UaefAvbHVPxu9bXaqL4yoCx/WwWG17/wnwYBb
+9/6KbrR2S22kJ3uZB1RXbn4kxGWqBQX7ZNfgjm2NR3XE2HyyIOiP14tQozW587FV
+FL16D/oaClksOVU5pU4WMNf8xwaNc6Y9jd6RyYp9S5oyQZfO0ksR0HYwD7FO1wFQ
+u6ATGF14zGcxeEXkmpFYzl3YeTf+ZqMQkycfj75jRfyCkbPfeCq9g0d1mPwcNtW7
+uZGVrElZdhc8otdcLDG26iB9WzAlWlWgk3IvqxUzsR/qWOQlUCC5zJulGK+2JwCI
+5UNaWwozX5AtaB9xeg8Sl5A6
+=MQrw
 -----END PGP SIGNATURE-----
 
---===============4264962604061988292==--
+--===============5164719755324998329==--
