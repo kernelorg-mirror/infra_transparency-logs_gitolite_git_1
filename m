@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
-Date: Tue, 07 Apr 2026 07:35:16 -0000
-Message-Id: <177554731631.2830883.13335824064835349630@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/libata/linux
+Date: Tue, 07 Apr 2026 07:39:09 -0000
+Message-Id: <177554754928.2832468.1900822098677806987@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/xiang/erofs-utils
-user: xiang
+repo: pub/scm/linux/kernel/git/libata/linux
+user: cassel
 changes:
-  - ref: refs/heads/experimental-tests
-    old: b8f97093edba6dd67c2a7a307565bc33efbb1a5e
-    new: 633497ddf94c9d9c223aaa0d3f0fb9e0947bdba8
+  - ref: refs/heads/for-7.0-fixes
+    old: e6d7eba23b666d85cacee0643be280d6ce1ebffc
+    new: 105c42566a550e2d05fc14f763216a8765ee5d0e
     log: |
-         633497ddf94c9d9c223aaa0d3f0fb9e0947bdba8 erofs-utils: tests: test FUSE error handling on corrupted inodes
+         105c42566a550e2d05fc14f763216a8765ee5d0e ata: ahci: force 32-bit DMA for JMicron JMB582/JMB585
          
