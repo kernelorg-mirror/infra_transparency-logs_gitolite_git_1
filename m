@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
-Date: Tue, 07 Apr 2026 17:11:42 -0000
-Message-Id: <177558190248.3335554.5349036179913790015@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Tue, 07 Apr 2026 17:14:41 -0000
+Message-Id: <177558208188.3336528.11427308788052560842@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
-user: vudentz
+repo: pub/scm/linux/kernel/git/tip/tip
+user: tglx
 changes:
-  - ref: refs/heads/master
-    old: ff4aaa2d1db81fcb7c078deb667789f75a259284
-    new: c3b37ff8d7df0cd51e6c9e2aa5796fc342062da8
+  - ref: refs/heads/timers/core
+    old: c5283a1ffdd5a877120279d164e9d5761e8455af
+    new: 09c04714cb455debc1dcc3535b6becb52c5b01e0
     log: |
-         c3b37ff8d7df0cd51e6c9e2aa5796fc342062da8 Bluetooth: l2cap: Add missing chan lock in l2cap_ecred_reconf_rsp
+         09c04714cb455debc1dcc3535b6becb52c5b01e0 alarmtimer: Access timerqueue node under lock in suspend
          
