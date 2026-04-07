@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pinctrl/intel
-Date: Tue, 07 Apr 2026 08:01:06 -0000
-Message-Id: <177554886639.2851255.2250477884866101646@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/libata/linux
+Date: Tue, 07 Apr 2026 08:05:00 -0000
+Message-Id: <177554910045.2852429.14691798415265859378@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pinctrl/intel
-user: westeri
+repo: pub/scm/linux/kernel/git/libata/linux
+user: cassel
 changes:
-  - ref: refs/tags/v7.0-rc7
+  - ref: refs/tags/ata-7.0-final
     old: 0000000000000000000000000000000000000000
-    new: 0e5d0a0b5ca6ea4e391d6786266405c5871e0151
+    new: 8a3cc08d30fbb919fd76b3c518dfebe657ea8af5
