@@ -1,48 +1,76 @@
-Content-Type: multipart/mixed; boundary="===============6704480056523882754=="
+Content-Type: multipart/mixed; boundary="===============2673976547680975745=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/fs/xfs/xfs-linux
-Date: Tue, 07 Apr 2026 13:22:00 -0000
-Message-Id: <177556812095.3129985.5110329710115407546@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
+Date: Tue, 07 Apr 2026 13:23:55 -0000
+Message-Id: <177556823506.3130589.10874086638287512317@gitolite.kernel.org>
 
---===============6704480056523882754==
+--===============2673976547680975745==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/fs/xfs/xfs-linux
-user: cem
+repo: pub/scm/linux/kernel/git/rafael/linux-pm
+user: rafael
 changes:
-  - ref: refs/heads/xfs-7.1-merge
-    old: 181ea4e2de422aa0a66f355bd59bccccdd169826
-    new: 2ffc6900d5c3a7cd59becda2aa67581d9bd3858e
-    log: revlist-181ea4e2de42-2ffc6900d5c3.txt
+  - ref: refs/heads/bleeding-edge
+    old: 7bbddc5f2768eb97b02e81babd9f8ee0c502dd76
+    new: 775649de3f4b7ebdc9f026169215cd4dac2704ec
+    log: |
+         037d8ee55544b39dbf7d3e796257a8647f854ef4 Merge branches 'acpi-apei', 'acpi-tables' and 'acpi-cpu-uid' into linux-next
+         7bff6b6c69e02f2ed1462bd8b4da6d1d3e5ec710 Merge branch 'test/acpi-driver-conversion' into testing
+         775649de3f4b7ebdc9f026169215cd4dac2704ec Merge branch 'experimental/acpi-driver-conversion' into bleeding-edge
+         
+  - ref: refs/heads/linux-next
+    old: 867e8b55fb10e0b79865e48254d25d98d1e29faa
+    new: 037d8ee55544b39dbf7d3e796257a8647f854ef4
+    log: revlist-867e8b55fb10-037d8ee55544.txt
+  - ref: refs/heads/testing
+    old: 02d033a5bf7666debf7f0d10bef960d7b8803fae
+    new: 7bff6b6c69e02f2ed1462bd8b4da6d1d3e5ec710
+    log: revlist-02d033a5bf76-7bff6b6c69e0.txt
 
---===============6704480056523882754==
+--===============2673976547680975745==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-181ea4e2de42-2ffc6900d5c3.txt
+Content-Disposition: attachment; filename=revlist-867e8b55fb10-037d8ee55544.txt
 
-7338419a5e4454cc7a2c9df6af712d6f5ab471e9 xfs: return default quota limits for IDs without a dquot
-0f7d2a9e020812a787d7c6dfc98715f9c8f72f53 xfs: remove a duplicate assert in xfs_setattr_size
-e92b3fc5b17c75d3ca31983a7d35e8b88786ee4e xfs: fold xfs_setattr_size into xfs_vn_setattr_size
-59e586d7dc7813910abe20a8281bbc3f1360e08e xfs: fix integer overflow in deferred intent sort comparators
-553a13e2076d64774910d597977a17022625763d xfs: fix integer overflow in busy extent sort comparator
-02367990bdcbeabb0ffd3e8e227e5f79a04186fc xfs: refactor xfs_mount_zones
-c6584888864e36d6225a6c16d8c39fd2aa9a45d8 xfs: handle too many open zones when mounting
-29a7b2614357393b176ef06ba5bc3ff5afc8df69 xfs: fix a resource leak in xfs_alloc_buftarg()
-e771da0727c13ab2cb89ee47f2edcda8b87b2c73 xfs: delay initial open of the GC zone
-c2257d9f63bbf7e1f39fb2b5585b21ea7445e18f xfs: add a separate tracepoint for stealing an open zone for GC
-a99ed5dbae018627faf4ac275cb322e94606a6f9 xfs: put the open zone later xfs_open_zone_put
-ca0170a7fa41fa4ef5e31b0baf2225d84a385bfc xfs: rename xfs_zone_gc_iter_next to xfs_zone_gc_iter_irec
-53c1c822908d9804504596486b96d8b887b0bacd xfs: refactor GC zone selection helpers
-4c1b6e03e31c5933355f25fe7fa564be3a0f931d xfs: streamline GC zone selection
-1d0d9e9459c053fc1700739e267271adccdcaadc xfs: reduce special casing for the open GC zone
-62c89988dc198efc17be0119a43ad21cf32334d6 xfs: expose the number of open zones in sysfs
-9de45faed34d11f1821c386ea306d9788e9a6448 xfs: untangle the open zones reporting in mountinfo
-2ffc6900d5c3a7cd59becda2aa67581d9bd3858e xfs: fix number of GC bvecs
+1b7cbe343349ec5aec6f3140820180c5bc00b14f ACPI: tables: Enable FPDT on LoongArch
+441fa10a5a1978e7a2f751f2d6f6a9194056262e ACPI: APEI: GHES: Add devm_ghes_register_vendor_record_notifier()
+35bdb5dbacf3ab4e4ee970ec2df2aa972ebbc21f PCI: hisi: Use devm_ghes_register_vendor_record_notifier()
+d7610855b0b5e934a35dedb02047a2419bf00770 ACPI: APEI: GHES: Add NVIDIA vendor CPER record handler
+7cd5f5659ac8e49811ef03cbfe8b4a2069abaa27 arm64: acpi: Add acpi_get_cpu_uid() for unified ACPI CPU UID retrieval
+d78ef9d2e1f2c7e0b69c102fc2867e8daa5612ed LoongArch: Add acpi_get_cpu_uid() for unified ACPI CPU UID retrieval
+0c8231994e43f445597166e8b342459079244d25 RISC-V: ACPI: Add acpi_get_cpu_uid() for unified ACPI CPU UID retrieval
+3cfe889f8965ded727f3de38ee941b44978e1d9b x86/acpi: Add acpi_get_cpu_uid() for unified ACPI CPU UID retrieval
+f652d0a4e13c5f5416da15ba791b99c5d1ac9b18 ACPI: Centralize acpi_get_cpu_uid() declaration in include/linux/acpi.h
+1ab03189793ffe60f184ce58ea7d0a4f0dcb7e06 perf: arm_cspmu: Switch to acpi_get_cpu_uid() from get_acpi_id_for_cpu()
+a7034e9e4491573d268126a5e6991b83e95db560 ACPI: PPTT: Use acpi_get_cpu_uid() and remove get_acpi_id_for_cpu()
+abdd2a86535b59c76d14da2547160bc83e059c03 PCI/TPH: Pass ACPI Processor UID to Cache Locality _DSM
+037d8ee55544b39dbf7d3e796257a8647f854ef4 Merge branches 'acpi-apei', 'acpi-tables' and 'acpi-cpu-uid' into linux-next
 
---===============6704480056523882754==--
+--===============2673976547680975745==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-02d033a5bf76-7bff6b6c69e0.txt
+
+1b7cbe343349ec5aec6f3140820180c5bc00b14f ACPI: tables: Enable FPDT on LoongArch
+441fa10a5a1978e7a2f751f2d6f6a9194056262e ACPI: APEI: GHES: Add devm_ghes_register_vendor_record_notifier()
+35bdb5dbacf3ab4e4ee970ec2df2aa972ebbc21f PCI: hisi: Use devm_ghes_register_vendor_record_notifier()
+d7610855b0b5e934a35dedb02047a2419bf00770 ACPI: APEI: GHES: Add NVIDIA vendor CPER record handler
+7cd5f5659ac8e49811ef03cbfe8b4a2069abaa27 arm64: acpi: Add acpi_get_cpu_uid() for unified ACPI CPU UID retrieval
+d78ef9d2e1f2c7e0b69c102fc2867e8daa5612ed LoongArch: Add acpi_get_cpu_uid() for unified ACPI CPU UID retrieval
+0c8231994e43f445597166e8b342459079244d25 RISC-V: ACPI: Add acpi_get_cpu_uid() for unified ACPI CPU UID retrieval
+3cfe889f8965ded727f3de38ee941b44978e1d9b x86/acpi: Add acpi_get_cpu_uid() for unified ACPI CPU UID retrieval
+f652d0a4e13c5f5416da15ba791b99c5d1ac9b18 ACPI: Centralize acpi_get_cpu_uid() declaration in include/linux/acpi.h
+1ab03189793ffe60f184ce58ea7d0a4f0dcb7e06 perf: arm_cspmu: Switch to acpi_get_cpu_uid() from get_acpi_id_for_cpu()
+a7034e9e4491573d268126a5e6991b83e95db560 ACPI: PPTT: Use acpi_get_cpu_uid() and remove get_acpi_id_for_cpu()
+abdd2a86535b59c76d14da2547160bc83e059c03 PCI/TPH: Pass ACPI Processor UID to Cache Locality _DSM
+037d8ee55544b39dbf7d3e796257a8647f854ef4 Merge branches 'acpi-apei', 'acpi-tables' and 'acpi-cpu-uid' into linux-next
+7bff6b6c69e02f2ed1462bd8b4da6d1d3e5ec710 Merge branch 'test/acpi-driver-conversion' into testing
+
+--===============2673976547680975745==--
