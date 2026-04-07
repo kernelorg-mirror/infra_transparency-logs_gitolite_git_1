@@ -1,26 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tj/wq
-Date: Tue, 07 Apr 2026 18:17:13 -0000
-Message-Id: <177558583350.3387844.12819849595173794363@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tj/sched_ext
+Date: Tue, 07 Apr 2026 18:17:20 -0000
+Message-Id: <177558584027.3388067.16777485634532236316@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tj/wq
+repo: pub/scm/linux/kernel/git/tj/sched_ext
 user: tj
 changes:
   - ref: refs/heads/for-7.1
-    old: c6890f36fc49848c61d2113a3442eb1b59e0bc4b
-    new: 034db4dd4449c556705e6b32bc07bd31df3889ba
+    old: a4f61f0a1afdb3c07025b91379f5c46dd89eb817
+    new: 393754191b85b3f76d9cc44dda5209ef23337e8a
     log: |
-         034db4dd4449c556705e6b32bc07bd31df3889ba workqueue: use NR_STD_WORKER_POOLS instead of hardcoded value
+         393754191b85b3f76d9cc44dda5209ef23337e8a sched_ext: Documentation: Fix scx_bpf_move_to_local kfunc name
          
   - ref: refs/heads/for-next
-    old: 181b3c7794bf612429347855acaea47df7513f64
-    new: f68b684d37c151514f4de1d30c8d1e58067c5c3e
+    old: 08234d8b1ceb6b255db4db53509aa4c3aba3ad94
+    new: 4ef03ba4cfda6fba831ae5fc513a9c729e3a36a1
     log: |
-         034db4dd4449c556705e6b32bc07bd31df3889ba workqueue: use NR_STD_WORKER_POOLS instead of hardcoded value
-         f68b684d37c151514f4de1d30c8d1e58067c5c3e Merge branch 'for-7.1' into for-next
+         393754191b85b3f76d9cc44dda5209ef23337e8a sched_ext: Documentation: Fix scx_bpf_move_to_local kfunc name
+         4ef03ba4cfda6fba831ae5fc513a9c729e3a36a1 Merge branch 'for-7.1' into for-next
          
