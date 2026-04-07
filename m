@@ -1,52 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============4583370674983137496=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vbabka/slab
-Date: Tue, 07 Apr 2026 09:15:23 -0000
-Message-Id: <177555332388.2914695.4187799293166334768@gitolite.kernel.org>
-
---===============4583370674983137496==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Tue, 07 Apr 2026 09:19:29 -0000
+Message-Id: <177555356958.2916398.8587521688980395260@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vbabka/slab
-user: vbabka
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/tip/tip
+user: tglx
 changes:
-  - ref: refs/heads/slab/for-next
-    old: dbc785fb4d9cfa0115e69e614fe20b4ab90f8366
-    new: 92596d69d7ffb6d0c23ab2e80cf81fbc46a152c4
+  - ref: refs/heads/irq/drivers
+    old: 0e5988549dc73d985cc12c4cb438771ced74f522
+    new: 1fac04a0a4737c4da3d55d7708931166a4a7136a
     log: |
-         7f9bb84fdb5ee7621fcd6519cd14d3dc9aa75c5c slub: use N_NORMAL_MEMORY in can_free_to_pcs to handle remote frees
-         92596d69d7ffb6d0c23ab2e80cf81fbc46a152c4 Merge branch 'slab/for-7.1/misc' into slab/for-next
+         fc4c926ccd34d4ee75669991693b47a9b8645a6c irqchip/renesas-rzv2h: Kill swint_idx[]
+         8c7ffedff0db88837de11cfaf3e5367e0b77bc4c irqchip/renesas-rzv2h: Kill swint_names[]
+         669d2067e3d095d525c69e675d8b9c738e3616c6 irqchip/renesas-rzv2h: Kill icu_err string
+         1fac04a0a4737c4da3d55d7708931166a4a7136a irqchip/irq-pic32-evic: Add __maybe_unused for board_bind_eic_interrupt in COMPILE_TEST
          
-
---===============4583370674983137496==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher A940D434992C2E8E99103D50224FA7E7CC82A664 1775553320 +0200
-pushee gitolite.kernel.org:pub/scm/linux/kernel/git/vbabka/slab.git
-nonce 1775553319-f73435778a7a75c1abb3b02f4533e2dba519da6f
-
-dbc785fb4d9cfa0115e69e614fe20b4ab90f8366 92596d69d7ffb6d0c23ab2e80cf81fbc46a152c4 refs/heads/slab/for-next
------BEGIN PGP SIGNATURE-----
-
-iQFPBAABCAA5FiEEe7vIQRWZI0iWSE3xu+CwddJFiJoFAmnUyygbFIAAAAAABAAO
-bWFudTIsMi41KzEuMTIsMiwyAAoJELvgsHXSRYia0SYH/RMqD9q6cP2i5Cph9Wwj
-5S2a2JP33gXgByjUz5QdlaTTjsYRYq9pTqPhRqzVw2MJ3xhECdB+4jpdDGsTW1So
-q7K9DsPmTJxrseFIlCUIZKDBGpn07qVLdHkwpZHP5ZGmwjtUajtvuEUHkxXYctBg
-L0gtt3mV9bbRsxId3B4JXaOWT5lWGQTfSBQhxpyTm9Fk+fLInZLax4tBenedmtie
-NeV0avFF6/EyvMkxRrNf3igPTHXqoK0+h76RLQA7FsIR9EGxaXBkJrh/wkTKWtb5
-yM/yyVsVAzYxE6MMzXhvha1bxlOeWPYpdrqj0h/QSEezFm1wXXjOtIaC3b7M9IiU
-TmM=
-=AW18
------END PGP SIGNATURE-----
-
---===============4583370674983137496==--
