@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vireshk/linux
-Date: Tue, 07 Apr 2026 03:36:46 -0000
-Message-Id: <177553300616.2645683.11075268908210946282@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs
+Date: Tue, 07 Apr 2026 03:47:20 -0000
+Message-Id: <177553364079.2653429.2496180556472681253@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vireshk/linux
-user: vireshk
+repo: pub/scm/linux/kernel/git/xiang/erofs
+user: xiang
 changes:
-  - ref: refs/heads/virtio/msg-v1
-    old: 5178a6267fad4b5a380a32bc3b0b8b346c1e5e5c
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/virtio/msg-v1-xen
-    old: fb1097f993ad828fe783c9c9c1d41c8a3776c880
-    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/dev-test
+    old: edbc44ae6d2b405ddac1b150b40d4fde8da35874
+    new: 63c2f06198ca7513433f1c92f2c654869d72417e
+    log: |
+         63c2f06198ca7513433f1c92f2c654869d72417e erofs: handle 48-bit blocks/uniaddr for extra devices
+         
