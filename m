@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mdraid/linux
-Date: Tue, 07 Apr 2026 12:17:37 -0000
-Message-Id: <177556425713.3075910.16707942766238394140@gitolite.kernel.org>
+Date: Tue, 07 Apr 2026 12:17:44 -0000
+Message-Id: <177556426493.3076128.8759416477527384067@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,5 +12,5 @@ repo: pub/scm/linux/kernel/git/mdraid/linux
 user: yukuai
 changes:
   - ref: refs/heads/md-7.1
-    old: 6f507eb2bb5491327fe634dc23558d4ca5d710b8
-    new: 0000000000000000000000000000000000000000
+    old: 0000000000000000000000000000000000000000
+    new: 7f9f7c697474268d9ef9479df3ddfe7cdcfbbffc
