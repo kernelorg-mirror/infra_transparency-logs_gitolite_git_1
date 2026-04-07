@@ -1,51 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============8657754629157290277=="
+Content-Type: multipart/mixed; boundary="===============0091577154223870543=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Tue, 07 Apr 2026 13:59:16 -0000
-Message-Id: <177557035611.3161203.2992696025836467091@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Tue, 07 Apr 2026 13:59:19 -0000
+Message-Id: <177557035935.3161364.2081793248190269687@gitolite.kernel.org>
 
---===============8657754629157290277==
+--===============0091577154223870543==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-7.0
+  - ref: refs/heads/spi-7.0
     old: 59e1be1278f064d7172b00473b7e0c453cb1ec52
     new: 1f8fd9490e3184e9a2394df2e682901a1d57ce71
     log: revlist-59e1be1278f0-1f8fd9490e31.txt
 
---===============8657754629157290277==
+--===============0091577154223870543==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1775570354 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
-nonce 1775570354-62ffc773b7f2b8826ef7770d50781dbdf4d7cd27
+pusher C3F436CA30F5D8EB 1775570357 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1775570357-f89d0890f738f7aed11094d72a36d1b683bfda82
 
-59e1be1278f064d7172b00473b7e0c453cb1ec52 1f8fd9490e3184e9a2394df2e682901a1d57ce71 refs/heads/for-7.0
+59e1be1278f064d7172b00473b7e0c453cb1ec52 1f8fd9490e3184e9a2394df2e682901a1d57ce71 refs/heads/spi-7.0
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmnVDbIACgkQJNaLcl1U
-h9ABSAf+ICM7+o5VX3Q31oY5y6Q2ZKe8j36jngsNoTzEdUrmbQr3tEeYJnrjjyQD
-Hulks7lsW3mdZHnzX+qZ9Bu4T9Vq+heq52dALBsArBG395QbvMQqu1tgfS4MFkPY
-F+x8yk476ACtp4gC9NrLH8iCK2ZHI1VouVz/zBsXiMHj+sLqMsYYKSILH/fRhSae
-GsZZZRbMOq8fZ7PIiZ2j4DbzQGFmgjMs/WDtuWmIkSq/L+/NEyrZA+Z06nn9pz5n
-BEKDJo/F3NrjN8Etzi87V6mTGpZXpzzGhlPbBsvlflrd2KEtPMydOvobYiIjcYmY
-uzHA5lzldya1AoQekSrT/QbNKQUYgQ==
-=1mdj
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmnVDbUACgkQJNaLcl1U
+h9DrGgf/cDjxkYrO6ukKeIWYKRZrSh0n6cM7Kpq0UUGY0D67uB4Tn6+TsclWIIB8
+Wha4Ufjj+PTuCb/2qo0o1XcQYoElmb78ki2yN2nOK2qFed7XakQj0hZBIRSzSe1F
+DETx7y+jS23VrWcF176uzhvGVNhIE7qN8zMM1JsHt+fAKANqbsbEGns1RmtT8x+a
+dtKazL3RmPqryL80laLVvmPYRg6l+EGTdtbKyNRI9RwmuL5JYYumhRXj30dIgW+U
+CX15EwdndcIP3b6Z520DEkr3EmJrFkWVbVoeqAixngHuJ5JULiW2j+U97vFM0kAt
+PyORs2W0K/MXAfJ73atei7NQVP1xEg==
+=bvOl
 -----END PGP SIGNATURE-----
 
---===============8657754629157290277==
+--===============0091577154223870543==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -465,4 +465,4 @@ eb3765aa711ff93664cd5ffcf0c2df02da2d9c26 Merge tag 'mips-fixes_7.0_1' of git://g
 591cd656a1bf5ea94a222af5ef2ee76df029c1d2 Linux 7.0-rc7
 1f8fd9490e3184e9a2394df2e682901a1d57ce71 spi: zynq-qspi: Simplify clock handling with devm_clk_get_enabled()
 
---===============8657754629157290277==--
+--===============0091577154223870543==--
