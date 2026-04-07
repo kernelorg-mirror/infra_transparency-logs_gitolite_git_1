@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/b4/b4
-Date: Tue, 07 Apr 2026 14:49:46 -0000
-Message-Id: <177557338626.3204722.3250944262073508550@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/util-linux/util-linux
+Date: Tue, 07 Apr 2026 14:51:08 -0000
+Message-Id: <177557346856.3208663.14716541880009942610@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/b4/b4
-user: mricon
+repo: pub/scm/utils/util-linux/util-linux
+user: kzak
 changes:
   - ref: refs/heads/master
-    old: 9febba6b7dc345e08c4275fd07e67591624d6885
-    new: 05a91672afb00b3b3b5f76c7757a518d80509c59
+    old: 6ccf20d2fd8e45eed70bd1b915c0d16f646bf133
+    new: 52c48ac89f35de5a41be4dd0e0846fb3e838f7f2
     log: |
-         eb5a313d4e1150488973400e9f63baa225a480c0 review: add visual cue for patches unchanged from prior revision
-         05a91672afb00b3b3b5f76c7757a518d80509c59 gitignore: add uv.lock
+         9360457a70d23f0f27cf680bdd0d3f2ebd23c756 su: fix grammar on man page
+         52c48ac89f35de5a41be4dd0e0846fb3e838f7f2 Merge branch 'fix_grammar_in_su_manpage' of https://github.com/cgoesche/util-linux-fork
          
