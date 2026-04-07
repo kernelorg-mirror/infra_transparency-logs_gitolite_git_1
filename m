@@ -1,16 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ebiggers/linux
-Date: Tue, 07 Apr 2026 23:14:35 -0000
-Message-Id: <177560367506.3626791.8293989357761479961@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
+Date: Tue, 07 Apr 2026 23:30:06 -0000
+Message-Id: <177560460675.3640938.17671277844326878125@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ebiggers/linux
-user: ebiggers
+repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
+user: paulmck
 changes:
-  - ref: refs/tags/libcrypto-for-linus
-    old: 0000000000000000000000000000000000000000
-    new: d8cf90b9d43b2714272909ef5893e49c08d4fcf8
+  - ref: refs/heads/dev
+    old: d710427c5ca07b3488ce5920babdc1ed63121591
+    new: b57622190135aa19af25f5fe266e9198edeadeea
+    log: |
+         06e2943d03dfb2cc0f2c55b06c646cfaecafca21 checkpatch: Undeprecate rcu_read_lock_trace() and rcu_read_unlock_trace()
+         7b64d5d2edb928f25dce53a5b56c2b6f1b6682c2 checkpatch: Mark rcu_read_lock_tasks_trace() and friend BPF-only
+         b57622190135aa19af25f5fe266e9198edeadeea fixup! torture: Add a hazptrtorture.c stress test
+         
