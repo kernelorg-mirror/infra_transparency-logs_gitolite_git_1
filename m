@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs
-Date: Tue, 07 Apr 2026 03:59:15 -0000
-Message-Id: <177553435552.2661615.12812010869624338224@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/hyperv/linux
+Date: Tue, 07 Apr 2026 04:22:45 -0000
+Message-Id: <177553576556.2679871.8602085079002608217@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/xiang/erofs
-user: xiang
+repo: pub/scm/linux/kernel/git/hyperv/linux
+user: wei.liu
 changes:
-  - ref: refs/heads/dev
-    old: d6250d49da4d8f11afc0d8991c84e0307949f92e
-    new: 63c2f06198ca7513433f1c92f2c654869d72417e
-    log: |
-         63c2f06198ca7513433f1c92f2c654869d72417e erofs: handle 48-bit blocks/uniaddr for extra devices
-         
+  - ref: refs/tags/hyperv-fixes-signed-20260406
+    old: 0000000000000000000000000000000000000000
+    new: d9248514b5cef857a9bd8ad785fab5d09a3e9b9a
