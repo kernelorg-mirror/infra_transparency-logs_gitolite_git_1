@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6045150684740447023=="
+Content-Type: multipart/mixed; boundary="===============6704480056523882754=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/fs/xfs/xfs-linux
-Date: Tue, 07 Apr 2026 13:21:52 -0000
-Message-Id: <177556811271.3129766.7463140579180028978@gitolite.kernel.org>
+Date: Tue, 07 Apr 2026 13:22:00 -0000
+Message-Id: <177556812095.3129985.5110329710115407546@gitolite.kernel.org>
 
---===============6045150684740447023==
+--===============6704480056523882754==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/fs/xfs/xfs-linux
 user: cem
 changes:
-  - ref: refs/heads/for-next
+  - ref: refs/heads/xfs-7.1-merge
     old: 181ea4e2de422aa0a66f355bd59bccccdd169826
     new: 2ffc6900d5c3a7cd59becda2aa67581d9bd3858e
     log: revlist-181ea4e2de42-2ffc6900d5c3.txt
 
---===============6045150684740447023==
+--===============6704480056523882754==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -45,4 +45,4 @@ ca0170a7fa41fa4ef5e31b0baf2225d84a385bfc xfs: rename xfs_zone_gc_iter_next to xf
 9de45faed34d11f1821c386ea306d9788e9a6448 xfs: untangle the open zones reporting in mountinfo
 2ffc6900d5c3a7cd59becda2aa67581d9bd3858e xfs: fix number of GC bvecs
 
---===============6045150684740447023==--
+--===============6704480056523882754==--
