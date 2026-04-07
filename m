@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/deller/parisc-linux
-Date: Tue, 07 Apr 2026 19:42:10 -0000
-Message-Id: <177559093045.3457317.18291677720900676098@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
+Date: Tue, 07 Apr 2026 19:46:17 -0000
+Message-Id: <177559117745.3461021.17775715114887775621@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/deller/parisc-linux
-user: deller
+repo: pub/scm/linux/kernel/git/pci/pci
+user: helgaas
 changes:
-  - ref: refs/heads/for-next
-    old: b48c4e89621feb80404ff9d63c9fb5a33e777146
-    new: fb08f55bf4bcf19a1047ae4512cebb09538d4a15
+  - ref: refs/heads/enumeration
+    old: d3e996a596967a62c8a13a279221513461f6ab97
+    new: d79dc408deb6c192adbad7893ee0c22d50826511
     log: |
-         ec4ff7626e4715f633fe8c1c6fd39aebef9490f1 parisc: update outdated comments for renamed ccio_alloc_consistent()
-         fb08f55bf4bcf19a1047ae4512cebb09538d4a15 net: Avoid unaligned access in inet_gro_receive()
+         6f468ea360f0a6a1e45854afbc3019842ed891a8 Input: pc110pad - remove driver
+         d79dc408deb6c192adbad7893ee0c22d50826511 PCI: Remove no_pci_devices()
          
