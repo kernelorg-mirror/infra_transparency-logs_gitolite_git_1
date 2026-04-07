@@ -1,45 +1,48 @@
-Content-Type: multipart/mixed; boundary="===============6477814894514401404=="
+Content-Type: multipart/mixed; boundary="===============0285989900387988766=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Tue, 07 Apr 2026 19:26:13 -0000
-Message-Id: <177558997368.3443715.9546322269378262774@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jpoimboe/linux
+Date: Tue, 07 Apr 2026 19:27:27 -0000
+Message-Id: <177559004724.3444446.2808838705473806111@gitolite.kernel.org>
 
---===============6477814894514401404==
+--===============0285989900387988766==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/jpoimboe/linux
+user: jpoimboe
 changes:
-  - ref: refs/heads/master
-    old: bfe62a454542cfad3379f6ef5680b125f41e20f4
-    new: 3036cd0d3328220a1858b1ab390be8b562774e8a
-    log: revlist-bfe62a454542-3036cd0d3328.txt
+  - ref: refs/heads/klp-build-arm64
+    old: b78d5043da76b2d620f480b1df3ddd8db1090ba0
+    new: 9afae380768e0ce5b082db68422491141a12c3f1
+    log: revlist-b78d5043da76-9afae380768e.txt
 
---===============6477814894514401404==
+--===============0285989900387988766==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-bfe62a454542-3036cd0d3328.txt
+Content-Disposition: attachment; filename=revlist-b78d5043da76-9afae380768e.txt
 
-7b3b1e5a87b2f5e35c52b5386d7c327be869454f PCI: hv: Set default NUMA node to 0 for devices without affinity info
-b6422dff0e518245019233432b6bccfc30b73e2f PCI: hv: Fix double ida_free in hv_pci_probe error path
-16cbec24897624051b324aa3a85859c38ca65fde mshv: Fix infinite fault loop on permission-denied GPA intercepts
-f58df566524ebcdfa394329c64f47e3c9257516e mm: filemap: fix nr_pages calculation overflow in filemap_map_pages()
-307e0c5859b0aecc34180468b1aa76684adcf539 liveupdate: propagate file deserialization failures
-cece9dc61daab6006d3ac9d36a0df2dd58fef18d mm: reinstate unconditional writeback start in balance_dirty_pages()
-0199390a6b92fc21860e1b858abf525c7e73b956 mm/damon/sysfs: dealloc repeat_call_control if damon_call() fails
-2ecbe06abf9bfb2261cd6464a6bc3a3615625402 mm/memory_hotplug: maintain N_NORMAL_MEMORY during hotplug
-894f99eb535edc4514f756818f3c4f688ba53a59 mm/vma: fix memory leak in __mmap_region()
-4c04c6b47c361612b1d70cec8f7a60b1482d1400 mm/damon/stat: deallocate damon_call() failure leaking damon_ctx
-7bc5da4842bed3252d26e742213741a4d0ac1b14 ocfs2: fix out-of-bounds write in ocfs2_write_end_inline
-105c42566a550e2d05fc14f763216a8765ee5d0e ata: ahci: force 32-bit DMA for JMicron JMB582/JMB585
-66d64899eae85dc9b96c5433933787cdcd9b21e4 Merge tag 'mm-hotfixes-stable-2026-04-06-15-27' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
-86782c16a81f8232c13c1509fd3295bd97d185b0 Merge tag 'hyperv-fixes-signed-20260406' of git://git.kernel.org/pub/scm/linux/kernel/git/hyperv/linux
-3036cd0d3328220a1858b1ab390be8b562774e8a Merge tag 'ata-7.0-final' of git://git.kernel.org/pub/scm/linux/kernel/git/libata/linux
+6b3497b973e77d53431a3f686491704f32c181d5 klp-build: Use "objtool klp checksum" subcommand
+3dcc2508bdc3227bfb5a070a398a7c0b1c35ca96 objtool/klp: Remove "objtool --checksum"
+9f12c98833d638c3a4f1444319f0c3d09c43514f arm64: Annotate intra-function calls
+b642ffdf4fe9ff63a21aa23f7a57ae861c09bb98 arm64: Fix EFI linking with -fdata-sections
+59ee1ab690d7e230efc9047f9867fb7366571411 arm64: Rename TRAMP_VALIAS -> TRAMP_VALIAS_ASM in asm-offsets
+ccd7178fc514269ce2ad13743abe5eb7743ddcbe arm64: vdso: Discard .discard.* sections
+fb845065ef53d07a0ca12b37603c39e3aebe2126 arm64: Annotate special section entries
+63c6799e4d73af3f1174106fedc1855dbcc5e46b crypto: arm64: Move data to .rodata
+189707222be7cea6ce45a8fc83e0b6deb38419ee objtool: Allow setting --mnop without --mcount
+0a21e646f323d2b6fe160ae035921d32d1618e53 kbuild: Only run objtool if there is at least one command
+7c5f5e7cc554fb064333e2789b5db5c691ec39aa objtool/klp: Ignore jumps to the end of the function for checksum runs
+a84377efd37d9d676d5fef73a9038c1e4c80a6e4 objtool: Allow empty alternatives
+47c6671d8d24ac6084f654a126c7559ea25c930a objtool: Refactor elf_add_data() to use a growable data buffer
+ddeaaa317440dca2295bb8cc7b697766aac781a3 objtool: Reuse string references
+e4e3f36c0857ac4d8a29d8efb26791842c22b0b9 objtool/klp: Add support for __patchable_function_entries
+e1e0fc294b4e8b2da234d90e4d043653353be9f7 objtool/klp: Introduce objtool for arm64
+a73e89c0d7e6007d5a1a46da1c3deb9fb5901240 klp-build: Support cross-compilation
+9afae380768e0ce5b082db68422491141a12c3f1 objtool/klp: Fix create_fake_symbols() for ARM64 mapping symbols
 
---===============6477814894514401404==--
+--===============0285989900387988766==--
