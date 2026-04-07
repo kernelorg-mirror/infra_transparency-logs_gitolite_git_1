@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Tue, 07 Apr 2026 10:10:29 -0000
-Message-Id: <177555662984.2964256.6266703988386684996@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
+Date: Tue, 07 Apr 2026 10:12:38 -0000
+Message-Id: <177555675899.2965268.3850541603137147164@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: pabeni
+repo: pub/scm/linux/kernel/git/xiang/erofs-utils
+user: xiang
 changes:
-  - ref: refs/heads/main
-    old: c149d90e260ca1b6b9175468955a15c4d95a9f3b
-    new: dfecb0c5af3b07ebfa84be63a7a21bfc9e29a872
+  - ref: refs/heads/experimental
+    old: 72828eef39a5dab7c149c9298fa55bdac607b09c
+    new: d6d0b8a31354104ede464568fc1253c51b9ec36c
     log: |
-         dfecb0c5af3b07ebfa84be63a7a21bfc9e29a872 selftests: net: add tests for PPP
+         d6d0b8a31354104ede464568fc1253c51b9ec36c erofs-utils: lib: fix fd leak in erofs_metamgr_init()
          
