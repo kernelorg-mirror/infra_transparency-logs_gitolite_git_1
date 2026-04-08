@@ -1,32 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Wed, 08 Apr 2026 18:04:24 -0000
-Message-Id: <177567146453.536355.12953581013889914894@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Wed, 08 Apr 2026 18:04:48 -0000
+Message-Id: <177567148887.536631.16138464902832726121@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/spi
 user: broonie
 changes:
-  - ref: refs/heads/for-linus
-    old: 0669631dbccd41cf3ca7aa70213fcd8bb41c4b38
-    new: 6b6f7263d626886a96fce6352f94dfab7a24c339
-    log: |
-         23e0cbe55736de222ed975863cf06baf29bee5fe ASoC: SDCA: Fix overwritten var within for loop
-         58dec4fac4c46b42b8264f2d8aa6972ff951c18b ASoC: SDCA: mask Function_Status value
-         0b8757b220f94421bd4ff50cce03886387c4e71c ASoC: SDCA: Unregister IRQ handlers on module remove
-         6b6f7263d626886a96fce6352f94dfab7a24c339 ASoC: amd: acp: update DMI quirk and add ACP DMIC for Lenovo platforms
-         
   - ref: refs/heads/for-next
-    old: d0a9c2461907719934d53803aa36fc2a6a9e7dad
-    new: 1d68e4b0c19b3a98e8073685d05dccd757fa0a2c
+    old: 53ffa689c889bf507409a990ee595305347cd49e
+    new: e61cec7650c07902be938c57a06707dbba84f260
     log: |
-         23e0cbe55736de222ed975863cf06baf29bee5fe ASoC: SDCA: Fix overwritten var within for loop
-         58dec4fac4c46b42b8264f2d8aa6972ff951c18b ASoC: SDCA: mask Function_Status value
-         0b8757b220f94421bd4ff50cce03886387c4e71c ASoC: SDCA: Unregister IRQ handlers on module remove
-         6b6f7263d626886a96fce6352f94dfab7a24c339 ASoC: amd: acp: update DMI quirk and add ACP DMIC for Lenovo platforms
-         1d68e4b0c19b3a98e8073685d05dccd757fa0a2c Merge remote-tracking branch 'asoc/for-7.1' into asoc-next
+         5277c291968d87c6a093f50ef489df9d52cb3ca9 spi: dt-bindings: renesas,rzv2h-rspi: Document RZ/G3L SoC
+         9be1143516473694ffd731304198a8b02e832d1d spi: rzv2h-rspi: Add support for RZ/G3L (R9A08G046)
+         2c9e7a5f2e3f398213c0c122c18ffa2f4e192457 Add Renesas RZ/G3L RSPI support
+         484eb2c4cc7f788a68c11abc477c065a79cfc0d6 spi: pl022: enable compile testing
+         e61cec7650c07902be938c57a06707dbba84f260 Merge remote-tracking branch 'spi/for-7.1' into spi-next
          
