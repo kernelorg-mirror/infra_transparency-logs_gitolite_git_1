@@ -1,56 +1,64 @@
-Content-Type: multipart/mixed; boundary="===============5785889058604874799=="
+Content-Type: multipart/mixed; boundary="===============7152100501860819504=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Wed, 08 Apr 2026 12:53:18 -0000
-Message-Id: <177565279837.257080.14553820491096297237@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux
+Date: Wed, 08 Apr 2026 12:55:41 -0000
+Message-Id: <177565294178.260461.12171369322067964552@gitolite.kernel.org>
 
---===============5785889058604874799==
+--===============7152100501860819504==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/axboe/linux
+user: axboe
 changes:
-  - ref: refs/heads/master
-    old: c966a602dd020e20a0f0bf79150182f434162f66
-    new: 6f37cffb9c5a6791bfcf77dc1ca8c17df90c96c7
-    log: |
-         6f37cffb9c5a6791bfcf77dc1ca8c17df90c96c7 5.15-stable patches
-         
+  - ref: refs/heads/for-7.1/block
+    old: 2d148a214b24b4a2525f649cced0c3e9e57281cd
+    new: d0cc5f585f8b140cbab326f0e44f966aab52f2c8
+    log: revlist-2d148a214b24-d0cc5f585f8b.txt
+  - ref: refs/heads/for-next
+    old: cb793ff1353d4eabd18d880c684b5311c7dc6400
+    new: 485f07ec658986b29e3700e51a09d7738ed81bed
+    log: revlist-cb793ff1353d-485f07ec6589.txt
 
---===============5785889058604874799==
+--===============7152100501860819504==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-2d148a214b24-d0cc5f585f8b.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1775652797 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1775652796-b72c4e7335997431bdcaae5aa430e2ec896244e7
+2aa72276fab9851dbd59c2daeb4b590c5a113908 md: fix array_state=clear sysfs deadlock
+078d1d8e688d75419abfedcae47eab8e42b991bb md/raid0: use kvzalloc/kvfree for strip_zone and devlist allocations
+e4979f4fac4d6bbe757be50441b45e28e6bf7360 md: remove unused static md_wq workqueue
+b0cc3ae97e893bf54bbce447f4e9fd2e0b88bff9 md/raid5: validate payload size before accessing journal metadata
+09af773650024279a60348e7319d599e6571b15c md: add fallback to correct bitmap_ops on version mismatch
+4403023e2aa7bab0193121d2ec543bea862d7304 md/md-llbitmap: add CleanUnwritten state for RAID-5 proactive parity building
+e92a5325b5d3bc30730b4842249ba8990a0a92b8 md/md-llbitmap: optimize initial sync with write_zeroes_unmap support
+808cec74601cfddea87b6970134febfdc7f574b9 md/raid1: serialize overlap io for writemostly disk
+cf86bb53b9c92354904a328e947a05ffbfdd1840 md: wake raid456 reshape waiters before suspend
+7f9f7c697474268d9ef9479df3ddfe7cdcfbbffc md/raid5: fix soft lockup in retry_aligned_read()
+d0cc5f585f8b140cbab326f0e44f966aab52f2c8 Merge tag 'md-7.1-20260407' of git://git.kernel.org/pub/scm/linux/kernel/git/mdraid/linux into for-7.1/block
 
-c966a602dd020e20a0f0bf79150182f434162f66 6f37cffb9c5a6791bfcf77dc1ca8c17df90c96c7 refs/heads/master
------BEGIN PGP SIGNATURE-----
+--===============7152100501860819504==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-cb793ff1353d-485f07ec6589.txt
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmnWT70bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+i5EQALXdIN6Bw0MR4rPpmUfH
-bZ2NqMTNOEpnxWqCDraAcMbx5xJIUpNpo2nzSpFOVyW7Gfkgppr8n2JCK1SZJt94
-aK/Fnm4S8MHNkENo/o3lC0geedJnXXLD8OF7q6J05ddLWXzC3fs4JsdYh5D2ArOd
-Q6YuLDBgsvrD0BA2olF3GnKrc8fTZ7MbO1prdVJbstGJg0PsU4v5N6l40pA7bU+E
-EHBiQ0lmwy+8rvc1tyFpVRnTSEscdoqijIk0rwTjbdmoPZlyLlCCwMsul1N/YeJk
-6BPbr0v/d2DoUPAre8357ALj1o+gaEBqIQbwIOyMw5elonrG/EwHUBydXlCettW4
-tQ0WTyrszvkHFoSQS1EsEg45GGea9popSb3K3zXK8TdL9MoLoXyVpVmfggQhiXVw
-LJd/s5hC8K3hqDyTowRqrj0WIAxbKhEOJhuZN5zkbY0DEXC2fycBw3BL+faR/UAv
-bsHwN8dFdrcL9UqnrfatR52vOCZaRuF639sbk0KJwEAzwxSbVS3jGC56AMqUFWsE
-qrnCHV+w+h+5S5sNzOdxLpML6eh8xYv077s/U6ELpRwR+gR6CiPssE35T7SgbN8z
-/6OMOSFh7cvTAsdnmR8/q/BhDVgMPDiq7qCVhrNyEwRdDjyYsOdUw+zLK7acGiGS
-5m5QBqFHPQmwEadUYUS/PAdo
-=fJu/
------END PGP SIGNATURE-----
+2aa72276fab9851dbd59c2daeb4b590c5a113908 md: fix array_state=clear sysfs deadlock
+078d1d8e688d75419abfedcae47eab8e42b991bb md/raid0: use kvzalloc/kvfree for strip_zone and devlist allocations
+e4979f4fac4d6bbe757be50441b45e28e6bf7360 md: remove unused static md_wq workqueue
+b0cc3ae97e893bf54bbce447f4e9fd2e0b88bff9 md/raid5: validate payload size before accessing journal metadata
+09af773650024279a60348e7319d599e6571b15c md: add fallback to correct bitmap_ops on version mismatch
+4403023e2aa7bab0193121d2ec543bea862d7304 md/md-llbitmap: add CleanUnwritten state for RAID-5 proactive parity building
+e92a5325b5d3bc30730b4842249ba8990a0a92b8 md/md-llbitmap: optimize initial sync with write_zeroes_unmap support
+808cec74601cfddea87b6970134febfdc7f574b9 md/raid1: serialize overlap io for writemostly disk
+cf86bb53b9c92354904a328e947a05ffbfdd1840 md: wake raid456 reshape waiters before suspend
+7f9f7c697474268d9ef9479df3ddfe7cdcfbbffc md/raid5: fix soft lockup in retry_aligned_read()
+d0cc5f585f8b140cbab326f0e44f966aab52f2c8 Merge tag 'md-7.1-20260407' of git://git.kernel.org/pub/scm/linux/kernel/git/mdraid/linux into for-7.1/block
+485f07ec658986b29e3700e51a09d7738ed81bed Merge branch 'for-7.1/block' into for-next
 
---===============5785889058604874799==--
+--===============7152100501860819504==--
