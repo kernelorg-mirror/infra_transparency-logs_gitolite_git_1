@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/cip/linux-cip
-Date: Wed, 08 Apr 2026 06:07:12 -0000
-Message-Id: <177562843267.4051601.8877882209766797982@gitolite.kernel.org>
+Date: Wed, 08 Apr 2026 06:07:14 -0000
+Message-Id: <177562843449.4051732.17752070167129454643@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,6 +11,6 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/cip/linux-cip
 user: iwamatsu
 changes:
-  - ref: refs/tags/platform-drivers-x86-v5.11-2
-    old: a4aa3cd6cfa32e746d0f214fb3c6fe38701fc133
+  - ref: refs/tags/platform-drivers-x86-v5.11-3
+    old: ca075964c6d3e2087512f026e9731831d07cb406
     new: 0000000000000000000000000000000000000000
