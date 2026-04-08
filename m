@@ -1,22 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Wed, 08 Apr 2026 03:23:47 -0000
-Message-Id: <177561862705.3871725.5835562601959022588@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ebiggers/linux
+Date: Wed, 08 Apr 2026 04:21:48 -0000
+Message-Id: <177562210851.3916004.13020720220408811113@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/linux/kernel/git/ebiggers/linux
+user: ebiggers
 changes:
-  - ref: refs/heads/main
-    old: 944b3b734cfbbe9502274c092bc3b8220764cc92
-    new: f821664dde29302e8450aa0597bf1e4c7c5b0a22
+  - ref: refs/heads/misc-pending
+    old: 8d479919070fb93ad1d8b56833b0712cb5b43451
+    new: c3aa665209712e72bcdbc681271da61bc6ba987b
     log: |
-         efaa71faf212324ecbf6d5339e9717fe53254f58 selftests: net: bridge_vlan_mcast: wait for h1 before querier check
-         c3812651b522fe8437ebb7063b75ddb95b571643 seg6: separate dst_cache for input and output paths in seg6 lwtunnel
-         32dfd742f06a68fac6499a58f52025990c854031 selftests: seg6: add test for dst_cache isolation in seg6 lwtunnel
-         f821664dde29302e8450aa0597bf1e4c7c5b0a22 Merge branch 'seg6-fix-dst_cache-sharing-in-seg6-lwtunnel'
+         76d5a41ac05e1f47c05f3b8ff56be71748c02edd wifi: ipw2x00: Rename michael_mic() to libipw_michael_mic()
+         056580d8b0b9dbc42a8cf6c4feda7bcdcb3e1bfc wifi: mac80211, cfg80211: Export michael_mic() and move it to cfg80211
+         fd1ddbef996e915d4e4767a52f8072288a0bd809 wifi: ath11k: Use michael_mic() from cfg80211
+         e92777e3d9cc2e38a4df091fed843e1821cd0763 wifi: ath12k: Use michael_mic() from cfg80211
+         a198c41a000c29251db1ea10993a4f06f9d387a8 wifi: ipw2x00: Use michael_mic() from cfg80211
+         c3aa665209712e72bcdbc681271da61bc6ba987b crypto: Remove michael_mic from crypto_shash API
          
