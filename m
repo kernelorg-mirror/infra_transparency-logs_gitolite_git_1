@@ -1,21 +1,33 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/firmware/linux-firmware
-Date: Wed, 08 Apr 2026 18:55:09 -0000
-Message-Id: <177567450921.578136.168388661617700880@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rt/linux-stable-rt
+Date: Wed, 08 Apr 2026 18:57:54 -0000
+Message-Id: <177567467465.579816.6444079830601532192@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/firmware/linux-firmware
-user: jwboyer
+repo: pub/scm/linux/kernel/git/rt/linux-stable-rt
+user: lclaudio
 changes:
-  - ref: refs/heads/main
-    old: 6a3cc62a0ced6417bc6aa76e6aba57fd56e1f171
-    new: e9cae76da75816f1e5643502bd15e1e98d19cbfc
+  - ref: refs/heads/v5.10-rt
+    old: 55969871939e781871ca912e3dccb39d8ca6b977
+    new: 226bc47dbb388ecf009cd2569e44b0c2c2125c7e
     log: |
-         b8df98acdc99e1968d4e6cafdfdbb55cbc632f6b qcom: consolidate audioreach-tplg firmwares into one location in WHENCE
-         3b0b51d12d4e24548f98506b5379c6318e2e5f53 linux-firmware: qcom: sync audioreach firmwares from v1.0.3 build
-         e9cae76da75816f1e5643502bd15e1e98d19cbfc Merge branch 'main' into 'main'
+         d81a3a579bc3e07bbac800fbcb73b85f8e8adca5 ipv6: fix a BUG in rt6_get_pcpu_route() under PREEMPT_RT
+         226bc47dbb388ecf009cd2569e44b0c2c2125c7e Linux 5.10.252-rt148
          
+  - ref: refs/heads/v5.10-rt-rebase
+    old: a2a1fb853e27ccac0cc822518c6127accacaa4ef
+    new: 49df9432b0a37b51ac234c99c3e33887796f40d3
+    log: |
+         595e8f8884f620fa4be55289b34775346d97d51c ipv6: fix a BUG in rt6_get_pcpu_route() under PREEMPT_RT
+         49df9432b0a37b51ac234c99c3e33887796f40d3 Linux 5.10.252-rt148 REBASE
+         
+  - ref: refs/tags/v5.10.252-rt148
+    old: 0000000000000000000000000000000000000000
+    new: d8129c8d42a70e13cf3e032eae7fa03bd3d2e3c3
+  - ref: refs/tags/v5.10.252-rt148-rebase
+    old: 0000000000000000000000000000000000000000
+    new: 6bc6f54326ec513b48d14843c3f9467af4f33ce6
