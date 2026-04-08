@@ -1,55 +1,52 @@
-Content-Type: multipart/mixed; boundary="===============7333956645594140905=="
+Content-Type: multipart/mixed; boundary="===============2938786704491091157=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/wireless/wireless-next
-Date: Wed, 08 Apr 2026 08:12:49 -0000
-Message-Id: <177563596901.28190.11173880265790790393@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/wireless/wireless
+Date: Wed, 08 Apr 2026 08:15:12 -0000
+Message-Id: <177563611202.31296.7949350751922850802@gitolite.kernel.org>
 
---===============7333956645594140905==
+--===============2938786704491091157==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/wireless/wireless-next
+repo: pub/scm/linux/kernel/git/wireless/wireless
 user: jberg
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/main
-    old: 32a0e1c63cdfaa9a6f1405b552b5f9eb2be61c59
-    new: 8c6d03b7a249ffe85ba2bda09a2a7614c0ff03db
-    log: |
-         8c6d03b7a249ffe85ba2bda09a2a7614c0ff03db crypto: Remove michael_mic from crypto_shash API
-         
+  - ref: refs/tags/wireless-2026-04-08
+    old: 0000000000000000000000000000000000000000
+    new: a88f5d965625f7a46b50ccaef41c601d8ddf5e7c
 
---===============7333956645594140905==
+--===============2938786704491091157==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 7BF9099A 1775635934 +0200
-pushee ssh+git://korg/pub/scm/linux/kernel/git/wireless/wireless-next.git
-nonce 1775635933-69ebd9a8132ee47588957a862b5220e42cddd06d
+pusher 7BF9099A 1775636077 +0200
+pushee ssh+git://korg/pub/scm/linux/kernel/git/wireless/wireless.git
+nonce 1775636077-d39c3af54379ff9418f3bfab76c026708fb87829
 
-32a0e1c63cdfaa9a6f1405b552b5f9eb2be61c59 8c6d03b7a249ffe85ba2bda09a2a7614c0ff03db refs/heads/main
+0000000000000000000000000000000000000000 a88f5d965625f7a46b50ccaef41c601d8ddf5e7c refs/tags/wireless-2026-04-08
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCgAdFiEEpeA8sTs3M8SN2hR410qiO8sPaAAFAmnWDd4ACgkQ10qiO8sP
-aABUdBAAkcfwbwNiB0pBTvtoL9c/Mmpw5nhuhwNX5r4taz1ocpoBnERH8io0O3OI
-x3C8BPKPva3gJvMnEGTYluaV3h86KWaY9jGnYZrfodPIeYuKccUF7cyYEn36dk10
-ExL1z9XAFdIRpumHumyIX7uD6lbE6dSzgwsKePJmsYkRvshIKwZ4uPh2VZP/C9Oq
-KkiE+pR6PVUXg4FViXDYDl2DsIfLFyOu+mLPc4/UmXb6+bpbvCJA7HRBaOBCL7Wz
-yfvSY/uLI9csWgZeGIgFqWGurAcHgKsO1Y6GWBMFhHd74WsEAw4TktkhAu9ncrI2
-R35va6UklZ7l/26lO9ulXKLG4uJDrTS9L1nwmRMuYEfJyHkXEWuqAEe9Lhdhpses
-QetKwA1ZMw7uigBcEXLS4p2qU/1Pw71PHHXzfSZZ9hHzSCGWHNZFOvAsdUy4cvxN
-zZgypiZvihBKp6w5s7BvQD+pwsPJ3gbE4NnferKtnaBqunQ7vbyUzJLefuD0hVgg
-xJvCfAWis7BKheNoHD8GAj0VCx7VkVM7uIslyoL5OvzZQ1UwR6RD8aFTSZDOWS5Q
-MUORWjqRgis4nKdSnyqwpfvQwG2+i7tqpnJFlr9VHquBim+8v2ypLVa9aNlzpYl5
-xHK6WrRJv7y0bVN867lm8k9wlE6opaVOUzKz5w/ZkI8JK5/dc8s=
-=IT0g
+iQIzBAABCgAdFiEEpeA8sTs3M8SN2hR410qiO8sPaAAFAmnWDm0ACgkQ10qiO8sP
+aAA2eRAApydvELyhyr0MrVP9CLOo2XeyA6iFGWEnGHdKNssC5Fm9qC6tupWVL6QP
+2Fu/4EyAJgs7kEHSpbdeFhsuM7/ZOa8YQKEam0niHbnOgB0VE0Zj1I9yQC1/QiCQ
+OkkCO6uOm6vDF+UY9tgcgyZOd7iGj6CfM5+B+PVPjatS3QjR/BpdSOuinZGHhaCt
+Vw+dPwiwvlRHlq+sp0swvT2kkHCwZZvAn+4VM3RyyfYmG1IW+ZNwzsd4CzCTBOuL
+5fP2ES7IycdpryosEmZRFk8iuAHPNTLok4BIDYbtAc5wgI/XGvSaL0xwkXiWDivw
+cAgC3LpjVPVS6ZkoSwxddalim/EPO21l+jr4BoMOhw9C5qQCf3JseOskcV09YNFa
+fcLBwQhvBnJ8D/cxftwO8s50To98fttDHJlFRss9bv2033/TDODbp/vA7A3Qc9zk
+peAFb9cv/x6FdSxCuCzABNJIvY3QBYKorKMCWIOvoMWF80FTO38zJ94UYz45NxCv
+OHAelMYmp7DTpWecyGdDFSfwBYJc6X3MtrG0NYmHSSxzNsa5cBgrmBrIEivoZ5Hx
+V+BLNDuSioaMYqxhD9YdQJP4HmomL9AXY+X1+Ypu8lIqvPX012dtJytFP/sHJAXA
+bGGCQA/X9svtlEOvzQTJRpz9scYE0i9BTf7P/HTkXV5cKGHX5U0=
+=7dLI
 -----END PGP SIGNATURE-----
 
---===============7333956645594140905==--
+--===============2938786704491091157==--
