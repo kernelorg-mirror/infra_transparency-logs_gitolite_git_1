@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Wed, 08 Apr 2026 18:08:50 -0000
-Message-Id: <177567173028.540792.11114010605429868054@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs
+Date: Wed, 08 Apr 2026 18:13:30 -0000
+Message-Id: <177567201062.545022.1729889427238484090@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/jaegeuk/f2fs
+user: jaegeuk
 changes:
-  - ref: refs/heads/regmap-7.1
-    old: 1ef3e1c278eb7bda1cc09a508c3fe65d2e567c77
-    new: f7b242428c6c617ad8a1fe3d09d06c087d614249
+  - ref: refs/heads/dev-test
+    old: d2ed785b68d4d06a5039cb2eaac0645d329468db
+    new: 0c4a231cb7b0abf8147eb4b03628e083b05bd3b0
     log: |
-         f7b242428c6c617ad8a1fe3d09d06c087d614249 regmap-i2c: add SMBus byte/word reg16 bus for adapters lacking I2C_FUNC_I2C
+         456563d2cbed74648a45407ce84b2d450fe2034c f2fs: do not support mmap write for large folio
+         0c4a231cb7b0abf8147eb4b03628e083b05bd3b0 f2fs: add page-order information for large folio reads in iostat
          
