@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
-Date: Wed, 08 Apr 2026 15:43:29 -0000
-Message-Id: <177566300990.413895.15663540835187156483@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/b4/b4
+Date: Wed, 08 Apr 2026 15:49:10 -0000
+Message-Id: <177566335046.418129.12502688490074157842@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ath/ath
-user: jjohnson
+repo: pub/scm/utils/b4/b4
+user: mricon
 changes:
-  - ref: refs/heads/pending
-    old: 8c6d03b7a249ffe85ba2bda09a2a7614c0ff03db
-    new: b39819f08eda5ebc6e8a6cfad2d2a7a7f0507048
+  - ref: refs/heads/master
+    old: ed72edaf6e9a3a43c9a73292629672849d402d8e
+    new: 02b01d4f8ed8efab3bea067e974be7a6e3decffa
     log: |
-         80b4964cff4c2853a0360806b78daddc527c4e00 dt-bindings: wireless: ath10k: Add quirk to skip host cap QMI requests
-         b39819f08eda5ebc6e8a6cfad2d2a7a7f0507048 ath10k: Add device-tree quirk to skip host cap QMI requests
+         02b01d4f8ed8efab3bea067e974be7a6e3decffa Add liblore and ezgb as git submodules
          
