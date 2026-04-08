@@ -1,56 +1,59 @@
-Content-Type: multipart/mixed; boundary="===============2628807931064196232=="
+Content-Type: multipart/mixed; boundary="===============7293517541722346690=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Wed, 08 Apr 2026 06:57:09 -0000
-Message-Id: <177563142913.4157307.7273703193425570287@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/wireless/wireless-next
+Date: Wed, 08 Apr 2026 06:58:47 -0000
+Message-Id: <177563152744.4158101.8828564988289650315@gitolite.kernel.org>
 
---===============2628807931064196232==
+--===============7293517541722346690==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/wireless/wireless-next
+user: jberg
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/master
-    old: 02bf1b6d34de94e53fdebc30738853792e8220ea
-    new: 6fb22b204bc2fed9889842ba03a20396f8c0590e
+  - ref: refs/heads/main
+    old: c9b7f640426ca0fbaa506df13feabfc5b05bf071
+    new: 32a0e1c63cdfaa9a6f1405b552b5f9eb2be61c59
     log: |
-         6fb22b204bc2fed9889842ba03a20396f8c0590e 6.19-stable patches
+         ea06baf59bd4b83c2cb13698411909e5e6be001e wifi: ipw2x00: Rename michael_mic() to libipw_michael_mic()
+         613c83766884503f0f6bfdc45964c84b5286091c wifi: mac80211, cfg80211: Export michael_mic() and move it to cfg80211
+         295e476b8217345ba25ff69d8e78c842771c31a8 wifi: ath11k: Use michael_mic() from cfg80211
+         65abaa9e722ef29ce79dbc6034195961aa33954c wifi: ath12k: Use michael_mic() from cfg80211
+         32a0e1c63cdfaa9a6f1405b552b5f9eb2be61c59 wifi: ipw2x00: Use michael_mic() from cfg80211
          
 
---===============2628807931064196232==
+--===============7293517541722346690==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1775631427 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1775631427-4b86cecfc252d6548577b6fe027caed4dd6262ee
+pusher 7BF9099A 1775631473 +0200
+pushee ssh+git://korg/pub/scm/linux/kernel/git/wireless/wireless-next.git
+nonce 1775631473-fb5b55637ff6e2d72cb12899474dc38b86d5ddf5
 
-02bf1b6d34de94e53fdebc30738853792e8220ea 6fb22b204bc2fed9889842ba03a20396f8c0590e refs/heads/master
+c9b7f640426ca0fbaa506df13feabfc5b05bf071 32a0e1c63cdfaa9a6f1405b552b5f9eb2be61c59 refs/heads/main
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmnV/EQbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+lskQAJISVQnqXRyasaHJNVW/
-toqdkQWaguhxdMmwjjL/lRl6xPTJQdiaO5b2/xd+vkf7gdYlCjiIVj4C1yCRDpxL
-7rF6NPQQz3Hf0z4WF4suXi/f3LumRljtEcwpiVcvvwsxB0qOYdSzYVpakoYn+ejS
-HgILO5CojM0+FA4pQfXe9E/9qhFbzyA1D2U0CnoOfBrod0xW0b6qSoMQ45v74oRp
-jFW+BkT9I6pTfXKC11XCe+RNA+kJ+YGNPPKrUFzGdLhXtjEsPfW6m2XJAjg4/TY7
-1MqgEtw9IO5aA8jd/DgMuZZzlzRXF61uRVlf+hnk9+9vQSR0ApP5PVDMHLLvgmJ9
-mK4hFLJCamxt5DPsBA/aiPFD+l5wTfwDs3NFVFu9CUIRXlVJZ1936vhIFSvnJjLJ
-QrUCEhitgn10CJNrb90SEXpzvsFHOMM8gdIijkmN4YL9UwKbwsrzfk5XUsGG+5RA
-E7n0PZPfh8BvjCUo11JjzhGmwNZTLBrTcd/r2ArdfP1J72wZ/Gs6fZ5nlSmUUTwx
-RV3ElroYWm5ef3vAxX57ReySjKbUDJ8iysqkixzUn9N07k7gpboEoU+mSSyzRXxP
-WLz+VeGKoH8xdCvZXYXQCb7AEFPpx87UlAADiS5309U1CrzSH6R61Td6jCyuCGE1
-XuO4HU30XzthDLCrg8+hm6N4
-=m12u
+iQIzBAABCgAdFiEEpeA8sTs3M8SN2hR410qiO8sPaAAFAmnV/HEACgkQ10qiO8sP
+aADcdA/9EItEY+zx0U7s1JWwXL8HbQrfBu9vuAZOinwRbZa9PGoJ64nHmAx10zRc
+X0Z/68RPesRohWAM8mSBUt3DpeKbqFR9t4qm9QcYEIzqB+VEfHoftLWyFGI3W2uR
+Z/oH+AVeFkCkfEfvSCB4nVBomEbs51OT/CY2QjPPjrY8Dxbk7LpAol3kee63ohGL
+QhMsFeytu/GXBMOsamq78jkKyRw9gVewB/6TwTBzgtXDT0kHc6dGP2VvbiRJEvYF
+9PfeNM/57GG6Lk22ukGJB3LlmFGETmM9GxpRH2cnKCeA/tQLqhEtEEJjEfaRyr7K
+zqoxdIL35Ld4G24Cd2zjdVjwLWC2msgMWvWKUEHFnXymJJQ0XD2H+uEGvVmCOwHr
+KC3h8Wwo84rvsy5DHWVwDDVL0u87jRiy6kmNOlBrjXOsoi69p6t+u7PTi9YxR+Io
+PKBtANx9aOO0dRwzO5AItFiDnNuDAhR2hR0ca222RvZyftV1Mv8+ViFGsI5pg9NU
+9kUHrBBSXhldgZ4veXks8FslSW/WVZ7bUKlQBNmy9UrOyXwSL0f9eNUPAQsl7p0m
+gKDKHBZY2Isa/AfGKPFRfft8qrjY7DJQ48C4LMCj16jwutFu1JKepx80lOEJjwgw
+W9VqhcxuZgQg/5qOdGvnB6LkNswMjRcOzvpClGEGkhATsela33k=
+=cJ6g
 -----END PGP SIGNATURE-----
 
---===============2628807931064196232==--
+--===============7293517541722346690==--
