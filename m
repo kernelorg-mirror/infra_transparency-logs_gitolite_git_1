@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
-Date: Wed, 08 Apr 2026 17:29:14 -0000
-Message-Id: <177566935450.506018.10008676716833324409@gitolite.kernel.org>
+Date: Wed, 08 Apr 2026 17:29:22 -0000
+Message-Id: <177566936248.506375.15972741332912534470@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,8 +11,8 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/perf/perf-tools-next
 user: namhyung
 changes:
-  - ref: refs/heads/tmp.perf-tools-next
-    old: b09f56c4f9a848b26512573afc8e0d54c47b8640
+  - ref: refs/heads/perf-tools-next
+    old: dc647eb00969cd213c84d6caee90c480317e857d
     new: f552b132e4d5248715828e7e5c2bf7889bf05b2e
     log: |
          bb7aeeaa2106c6cc31cc88a513249bb80018535d perf config: Rename symbol_conf::disable_add2line_warn
