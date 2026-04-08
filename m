@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/cip/linux-cip
-Date: Wed, 08 Apr 2026 01:08:15 -0000
-Message-Id: <177561049556.3721495.9837923480541533471@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Wed, 08 Apr 2026 01:11:13 -0000
+Message-Id: <177561067357.3744057.17714577636556491111@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/cip/linux-cip
-user: iwamatsu
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: sashal
 changes:
-  - ref: refs/heads/linux-5.10.y-cip
-    old: e5721e78885ae8449a008e92067dcced910c5da7
-    new: 5444c884247769a447ffc3aa2da5e62ae07d845a
+  - ref: refs/heads/master
+    old: 2be0c81a805e9e2c453c37ccadf50c7d84ab5c26
+    new: e4cbfb282d9fb935b7e61f8902f4a76c36006c5b
     log: |
-         5444c884247769a447ffc3aa2da5e62ae07d845a arm64: dts: renesas: rzg3s-smarc-som: Set bypass for Versa3 PLL2
+         e4cbfb282d9fb935b7e61f8902f4a76c36006c5b Fix up whitespaces
          
