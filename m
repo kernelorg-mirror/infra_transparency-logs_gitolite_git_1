@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============2548092990158104445=="
+Content-Type: multipart/mixed; boundary="===============1296467320369927548=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/aalbersh/xfsprogs-dev
-Date: Wed, 08 Apr 2026 19:55:08 -0000
-Message-Id: <177567810847.628697.11596094257559535558@gitolite.kernel.org>
+Subject: post-receive: pub/scm/fs/xfs/xfsprogs-dev
+Date: Wed, 08 Apr 2026 20:01:36 -0000
+Message-Id: <177567849680.633324.392931562444349485@gitolite.kernel.org>
 
---===============2548092990158104445==
+--===============1296467320369927548==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/aalbersh/xfsprogs-dev
+repo: pub/scm/fs/xfs/xfsprogs-dev
 user: aalbersh
 changes:
   - ref: refs/heads/for-next
@@ -20,7 +20,7 @@ changes:
     new: 9d0bd1ecce3dc176a974d2021b1a329936294781
     log: revlist-2dd2852fd91b-9d0bd1ecce3d.txt
 
---===============2548092990158104445==
+--===============1296467320369927548==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -71,4 +71,4 @@ bf1007391a32518f15283a032e68ca25402ca652 fsr: package function should check for 
 a799c98743c9ad15e147ab94f464cc82de0a177d fsr: always print error messages from xfrog_defragrange()
 9d0bd1ecce3dc176a974d2021b1a329936294781 libxfs: fix printing of cache.c_maxcount.
 
---===============2548092990158104445==--
+--===============1296467320369927548==--
