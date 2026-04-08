@@ -1,22 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============6794324253139223629=="
+Content-Type: multipart/mixed; boundary="===============9200277974805908517=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Wed, 08 Apr 2026 14:07:03 -0000
-Message-Id: <177565722302.326790.16690891677388714738@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Wed, 08 Apr 2026 14:07:06 -0000
+Message-Id: <177565722643.326975.10268874169367691281@gitolite.kernel.org>
 
---===============6794324253139223629==
+--===============9200277974805908517==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-7.0
+  - ref: refs/heads/asoc-7.0
     old: c5408d818316061d6063c11a4f47f1ba25a3a708
     new: 0669631dbccd41cf3ca7aa70213fcd8bb41c4b38
     log: |
@@ -25,28 +25,28 @@ changes:
          0669631dbccd41cf3ca7aa70213fcd8bb41c4b38 ASoC: stm32_sai: fix incorrect BCLK polarity for DSP_A/B, LEFT_J
          
 
---===============6794324253139223629==
+--===============9200277974805908517==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1775657221 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1775657221-87a556bababd97bf2a4e5b33a6e2e9e14bbffb26
+pusher C3F436CA30F5D8EB 1775657224 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1775657224-98bf2cb00844e7812df6678e6dfbb730758de374
 
-c5408d818316061d6063c11a4f47f1ba25a3a708 0669631dbccd41cf3ca7aa70213fcd8bb41c4b38 refs/heads/for-7.0
+c5408d818316061d6063c11a4f47f1ba25a3a708 0669631dbccd41cf3ca7aa70213fcd8bb41c4b38 refs/heads/asoc-7.0
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmnWYQUACgkQJNaLcl1U
-h9BEWgf/UdB6y12G6NFmGk20vQjoRR7XDzFU59LUoql5ZgJS4744XFyyw7roF2Uw
-ZSZg+y5W/MFcONzRYECuNTeCm0E1Jf24bMscIoNuCaM0+2mNtBXlBgEoCAhGBsVQ
-hzN9YnmkusijTNK2RO6Co5Sl4cdKz4F5FCDHXWULj9SxvXxDsHaUzL7Zg090gp9j
-ZBdgb+uvOvHVkmUrmbhFZ4HchB2eyaaeTGmfkKAjb1caFWchXfMW4HVUpEUH8qoJ
-i2LPQh1XxQZGlGIH0FX28fWSCZu+HwyGMbyrYnkk4oyRZ7Cnh6ev68fkPY1CthXr
-XDljrSmxksbGN0GEj7PN5knrBFYJMQ==
-=UlhD
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmnWYQgACgkQJNaLcl1U
+h9BJQQf+O4EQ7iD6ZCcLyjnZgvw/+yh8ruJupYrFue6/EnEHWoJCYZm4+COlrKnQ
+62ibO5bY6Mv+cVVrGq8oge8BLy3RDEJCkxQtLG6XDHJTiF/DshL0LOY0bAjagi6U
+s7Z3u/cwCVYlxAiFL+gGpi5gEhcC6XskU4NKcyiAhM7WEhmYUyFACk28oCC3G8bQ
+CyVlFsuNiXXJGVA3huOCH9Ezn+6RWRGfGFZhaNBLK9CXWIrBU+ntLY9hIw6u/Gjd
+3JPLzNHsDxzdeYh1ZcgFhZQeFF0cmkEyl59zJoZKPEGxvFyyJqfyJ/ubwEjYvEPR
+D70ZYDbZ0Ge3jGYRvjnY7Ss20DBEtw==
+=Am0f
 -----END PGP SIGNATURE-----
 
---===============6794324253139223629==--
+--===============9200277974805908517==--
