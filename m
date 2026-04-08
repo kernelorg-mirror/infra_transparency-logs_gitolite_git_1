@@ -1,24 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Wed, 08 Apr 2026 18:27:43 -0000
-Message-Id: <177567286335.556692.1279466207235072507@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/firmware/linux-firmware
+Date: Wed, 08 Apr 2026 18:55:09 -0000
+Message-Id: <177567450921.578136.168388661617700880@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: bp
+repo: pub/scm/linux/kernel/git/firmware/linux-firmware
+user: jwboyer
 changes:
-  - ref: refs/heads/tip/urgent
-    old: 0eea4730f0ea83ad366e3b3fc2d3a94f5ea8178d
-    new: 4b61469b7a39a7d1c1f530e438d0d3a1f9f3ef0b
+  - ref: refs/heads/main
+    old: 6a3cc62a0ced6417bc6aa76e6aba57fd56e1f171
+    new: e9cae76da75816f1e5643502bd15e1e98d19cbfc
     log: |
-         14a857056466be9d3d907a94e92a704ac1be149b sched/deadline: Use revised wakeup rule for dl_server
-         1c2eabb8805d9fd79a19de5c76d4a64c9ad3cdf4 clockevents: Prevent timer interrupt starvation
-         f8b1045386a71c2f2efa4622328499e82ff11a56 Merge ras/urgent into tip/urgent
-         1ad2e7c4acb1d50a963fc2ee377b73988283604e Merge perf/urgent into tip/urgent
-         fedf5bf2ce11dd102b2a9c045356094bec621873 Merge sched/urgent into tip/urgent
-         4b61469b7a39a7d1c1f530e438d0d3a1f9f3ef0b Merge timers/urgent into tip/urgent
+         b8df98acdc99e1968d4e6cafdfdbb55cbc632f6b qcom: consolidate audioreach-tplg firmwares into one location in WHENCE
+         3b0b51d12d4e24548f98506b5379c6318e2e5f53 linux-firmware: qcom: sync audioreach firmwares from v1.0.3 build
+         e9cae76da75816f1e5643502bd15e1e98d19cbfc Merge branch 'main' into 'main'
          
