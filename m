@@ -1,39 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/dtor/input
-Date: Wed, 08 Apr 2026 17:20:53 -0000
-Message-Id: <177566885391.500231.490120349258463056@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
+Date: Wed, 08 Apr 2026 17:24:21 -0000
+Message-Id: <177566906175.501555.16159169806803227270@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/dtor/input
-user: dtor
+repo: pub/scm/linux/kernel/git/ath/ath
+user: jjohnson
 changes:
-  - ref: refs/heads/for-linus
-    old: 4cda78d6f8bf2b700529f2fbccb994c3e826d7c2
-    new: ff14dafde15c11403fac61367a34fea08926e9ee
+  - ref: refs/heads/main
+    old: 7842efef4c3c5a941d3fa349334c07bd0d0bd381
+    new: 6ab4a4478378109b3fdfffed34c721bf35f43090
     log: |
-         ff14dafde15c11403fac61367a34fea08926e9ee Input: uinput - take event lock when submitting FF request "event"
+         3d7640b6c371a1795e6d9580695d20caf16be9a4 dt-bindings: wireless: ath10k: Add quirk to skip host cap QMI requests
+         6a7693873b20680a3c33bae0c9f9cb3185f64ade wifi: ath10k: Add device-tree quirk to skip host cap QMI requests
+         f03ed1a3e973be9659cfc913bf210feec69a693c Merge branch 'ath-next'
+         01322377ce06d7a67681d2b7ffe0081c9584d9d2 Merge remote-tracking branch 'mhi/mhi-next'
+         6ab4a4478378109b3fdfffed34c721bf35f43090 Add localversion-wireless-testing-ath
          
-  - ref: refs/heads/master
-    old: 16bbb5912742ffba347828ddf5b1a297de5bcd58
-    new: 875115b82c295277b81b6dfee7debc725f44e854
-    log: |
-         8291ffa3e51d6a280b9348fcf5ac6cf45abd2fb8 Input: inport - remove driver
-         931e3151dba74786f36a948a8d08490f3657c1f3 Input: logibm - remove driver
-         86a9e4f4efc0a8dc4490023c6e2bf57fd8080ea3 Input: mk712 - remove driver
-         f7a78e84446e19c9de9adda85a064f947aefa336 Input: ct82c710 - remove driver
-         875115b82c295277b81b6dfee7debc725f44e854 Input: ims-pcu - fix heap-buffer-overflow in ims_pcu_process_data()
-         
-  - ref: refs/heads/next
-    old: 16bbb5912742ffba347828ddf5b1a297de5bcd58
-    new: 875115b82c295277b81b6dfee7debc725f44e854
-    log: |
-         8291ffa3e51d6a280b9348fcf5ac6cf45abd2fb8 Input: inport - remove driver
-         931e3151dba74786f36a948a8d08490f3657c1f3 Input: logibm - remove driver
-         86a9e4f4efc0a8dc4490023c6e2bf57fd8080ea3 Input: mk712 - remove driver
-         f7a78e84446e19c9de9adda85a064f947aefa336 Input: ct82c710 - remove driver
-         875115b82c295277b81b6dfee7debc725f44e854 Input: ims-pcu - fix heap-buffer-overflow in ims_pcu_process_data()
-         
+  - ref: refs/tags/ath-202604081716
+    old: 0000000000000000000000000000000000000000
+    new: 6ab4a4478378109b3fdfffed34c721bf35f43090
