@@ -1,33 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rt/linux-stable-rt
-Date: Wed, 08 Apr 2026 18:57:54 -0000
-Message-Id: <177567467465.579816.6444079830601532192@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/liblore/liblore
+Date: Wed, 08 Apr 2026 19:20:40 -0000
+Message-Id: <177567604023.599755.6289905464650815525@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rt/linux-stable-rt
-user: lclaudio
+repo: pub/scm/utils/liblore/liblore
+user: mricon
 changes:
-  - ref: refs/heads/v5.10-rt
-    old: 55969871939e781871ca912e3dccb39d8ca6b977
-    new: 226bc47dbb388ecf009cd2569e44b0c2c2125c7e
+  - ref: refs/heads/master
+    old: c650d53351482992348240f2ec508ff8cf5757d6
+    new: 962f84793ac1737f28c5e54bd4b792396fec6b8a
     log: |
-         d81a3a579bc3e07bbac800fbcb73b85f8e8adca5 ipv6: fix a BUG in rt6_get_pcpu_route() under PREEMPT_RT
-         226bc47dbb388ecf009cd2569e44b0c2c2125c7e Linux 5.10.252-rt148
+         962f84793ac1737f28c5e54bd4b792396fec6b8a Add public API for downstream projects, bump to 0.7.0
          
-  - ref: refs/heads/v5.10-rt-rebase
-    old: a2a1fb853e27ccac0cc822518c6127accacaa4ef
-    new: 49df9432b0a37b51ac234c99c3e33887796f40d3
-    log: |
-         595e8f8884f620fa4be55289b34775346d97d51c ipv6: fix a BUG in rt6_get_pcpu_route() under PREEMPT_RT
-         49df9432b0a37b51ac234c99c3e33887796f40d3 Linux 5.10.252-rt148 REBASE
-         
-  - ref: refs/tags/v5.10.252-rt148
+  - ref: refs/tags/v0.7.0
     old: 0000000000000000000000000000000000000000
-    new: d8129c8d42a70e13cf3e032eae7fa03bd3d2e3c3
-  - ref: refs/tags/v5.10.252-rt148-rebase
-    old: 0000000000000000000000000000000000000000
-    new: 6bc6f54326ec513b48d14843c3f9467af4f33ce6
+    new: eb005456d197ef821173e965446c1ea548b5bfd9
