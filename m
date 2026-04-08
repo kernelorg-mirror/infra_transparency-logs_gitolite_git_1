@@ -1,24 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
-Date: Wed, 08 Apr 2026 07:47:11 -0000
-Message-Id: <177563443148.8437.18373796567791518601@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/linusw/linux-pinctrl
+Date: Wed, 08 Apr 2026 07:52:37 -0000
+Message-Id: <177563475756.12631.11930284553740331311@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/perf/perf-tools-next
-user: namhyung
+repo: pub/scm/linux/kernel/git/linusw/linux-pinctrl
+user: linusw
 changes:
-  - ref: refs/heads/tmp.perf-tools-next
-    old: fce998fd9aec16a06ef7d5789ae508de106d9e6f
-    new: b09f56c4f9a848b26512573afc8e0d54c47b8640
+  - ref: refs/heads/ib-mux-pinctrl
+    old: 6ce042f025bd4c46f5d2fd37a048a516433b0b3d
+    new: 62f97854fd4bf56e5eb15970787aa4125ea912cd
     log: |
-         c9033dcfafa52335334c05bd1ec6405560d1570f perf config: Rename symbol_conf::disable_add2line_warn
-         0606f9bc5b435586ffff71f202479d9b3388ebce perf config: Make symbol_conf::addr2line_disable_warn configurable
-         54cf9488302302edd5e0a327c1cb5043b22b6a1b perf addr2line: Remove global variable addr2line_timeout_ms
-         56d366c14c516636223905298eb904335275affa perf maps: Move getting debug_file to verbose path
-         a59f22841a2422270a6aad339a681567fa4b859a perf maps: Fix fixup_overlap_and_insert that can break sorted by name order
-         b09f56c4f9a848b26512573afc8e0d54c47b8640 perf maps: Fix copy_from that can break sorted by name order
+         f0555b0458ca07e06a2c4a5d20ac142268cb3ccc pinctrl: extract pinctrl_generic_to_map() from pinctrl_generic_pins_function_dt_node_to_map()
+         1e35239b813d1dc989caf947d6163bae711a5e3e pinctrl: add optional .release_mux() callback
+         62f97854fd4bf56e5eb15970787aa4125ea912cd pinctrl: add generic board-level pinctrl driver using mux framework
          
