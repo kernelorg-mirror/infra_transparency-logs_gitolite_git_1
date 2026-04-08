@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
-Date: Wed, 08 Apr 2026 00:08:44 -0000
-Message-Id: <177560692443.3668586.13478627931432172736@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/paulmck/perfbook
+Date: Wed, 08 Apr 2026 00:23:56 -0000
+Message-Id: <177560783647.3679813.7697629092157307115@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ath/ath
-user: jjohnson
+repo: pub/scm/linux/kernel/git/paulmck/perfbook
+user: paulmck
 changes:
-  - ref: refs/heads/pending
-    old: 9b5a27a5cf4aa916301fca1885307e93e5c06868
-    new: 0589a38dc53e03394819555caf255846eb642d6f
+  - ref: refs/heads/master
+    old: 8919f758ad78634c90bb7c347cc34cdf3091d6f9
+    new: a93f3b222ecf1cf06444accefca15eba8babe8bf
     log: |
-         0589a38dc53e03394819555caf255846eb642d6f wifi: ath10k: fix station lookup failure during disconnect
+         a93f3b222ecf1cf06444accefca15eba8babe8bf cpu/hwfreelunch: Add single-threaded paragraph to "HW Free Lunch" section
          
