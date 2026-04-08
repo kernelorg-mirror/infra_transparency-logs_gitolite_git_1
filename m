@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4763032959825051412=="
+Content-Type: multipart/mixed; boundary="===============7338772501349410821=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Wed, 08 Apr 2026 07:08:55 -0000
-Message-Id: <177563213524.4169168.434889674316188271@gitolite.kernel.org>
+Date: Wed, 08 Apr 2026 07:09:22 -0000
+Message-Id: <177563216218.4169592.13677031115150407172@gitolite.kernel.org>
 
---===============4763032959825051412==
+--===============7338772501349410821==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,32 +16,31 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: 6c927e5ca9d238f8ae40b453a8382eb9cf4ee855
-    new: 4f84a20bc5f2952867b26ddb6e631fb6377c22fa
-    log: revlist-6c927e5ca9d2-4f84a20bc5f2.txt
+    old: 4f84a20bc5f2952867b26ddb6e631fb6377c22fa
+    new: b71a8c713aa0dcc056dd9bce4bbafb65c314ee14
+    log: revlist-4f84a20bc5f2-b71a8c713aa0.txt
 
---===============4763032959825051412==
+--===============7338772501349410821==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6c927e5ca9d2-4f84a20bc5f2.txt
+Content-Disposition: attachment; filename=revlist-4f84a20bc5f2-b71a8c713aa0.txt
 
-fc4c926ccd34d4ee75669991693b47a9b8645a6c irqchip/renesas-rzv2h: Kill swint_idx[]
-8c7ffedff0db88837de11cfaf3e5367e0b77bc4c irqchip/renesas-rzv2h: Kill swint_names[]
-669d2067e3d095d525c69e675d8b9c738e3616c6 irqchip/renesas-rzv2h: Kill icu_err string
-1fac04a0a4737c4da3d55d7708931166a4a7136a irqchip/irq-pic32-evic: Add __maybe_unused for board_bind_eic_interrupt in COMPILE_TEST
-556146ce5e9476db234134c46ddf0e154ca17028 sched/fair: Avoid overflow in enqueue_entity()
-82b915051d32a68ea3bbe261c93f5620699ff047 tick/nohz: Fix inverted return value in check_tick_dependency() fast path
-09c04714cb455debc1dcc3535b6becb52c5b01e0 alarmtimer: Access timerqueue node under lock in suspend
-b81207470caf597a518cd3706844810a7ed7cbe4 clockevents: Prevent timer interrupt starvation
-f4d1a1c0eb49ba3c831d44aa01bea7c18488b889 clockevents: Add missing kernel doc for clockevent set_next_coupled and cs_id members
-3c9cb02a863931491464d6cb8234ec6f877c7c52 Merge branch 'timers/urgent' into timers/core
-c611752be9d73d12fca9b456a0b8f5c8409a2346 MAINTAINERS: Update resctrl entry
-79727019ce3da234d877ec0cb6a3985f001e2b2d fs/resctrl: Add missing return value descriptions
-6f55886aaa56e28eaba1af1280efa293991b0556 Merge branch 'timers/core' into timers/merge, to aid integration testing
-66350f9ee687467ecb84aec65cb5321c5e3fe2eb Merge branch 'timers/merge'
-faeb7af8f30571d09ea9dd79b5d9c5c18a9c5621 Merge branch into tip/master: 'irq/drivers'
-d021d8287388161e52f25818d0efed9412fa10ce Merge branch into tip/master: 'sched/core'
-4f84a20bc5f2952867b26ddb6e631fb6377c22fa Merge branch into tip/master: 'x86/cache'
+7b3b1e5a87b2f5e35c52b5386d7c327be869454f PCI: hv: Set default NUMA node to 0 for devices without affinity info
+b6422dff0e518245019233432b6bccfc30b73e2f PCI: hv: Fix double ida_free in hv_pci_probe error path
+16cbec24897624051b324aa3a85859c38ca65fde mshv: Fix infinite fault loop on permission-denied GPA intercepts
+f58df566524ebcdfa394329c64f47e3c9257516e mm: filemap: fix nr_pages calculation overflow in filemap_map_pages()
+307e0c5859b0aecc34180468b1aa76684adcf539 liveupdate: propagate file deserialization failures
+cece9dc61daab6006d3ac9d36a0df2dd58fef18d mm: reinstate unconditional writeback start in balance_dirty_pages()
+0199390a6b92fc21860e1b858abf525c7e73b956 mm/damon/sysfs: dealloc repeat_call_control if damon_call() fails
+2ecbe06abf9bfb2261cd6464a6bc3a3615625402 mm/memory_hotplug: maintain N_NORMAL_MEMORY during hotplug
+894f99eb535edc4514f756818f3c4f688ba53a59 mm/vma: fix memory leak in __mmap_region()
+4c04c6b47c361612b1d70cec8f7a60b1482d1400 mm/damon/stat: deallocate damon_call() failure leaking damon_ctx
+7bc5da4842bed3252d26e742213741a4d0ac1b14 ocfs2: fix out-of-bounds write in ocfs2_write_end_inline
+105c42566a550e2d05fc14f763216a8765ee5d0e ata: ahci: force 32-bit DMA for JMicron JMB582/JMB585
+66d64899eae85dc9b96c5433933787cdcd9b21e4 Merge tag 'mm-hotfixes-stable-2026-04-06-15-27' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
+86782c16a81f8232c13c1509fd3295bd97d185b0 Merge tag 'hyperv-fixes-signed-20260406' of git://git.kernel.org/pub/scm/linux/kernel/git/hyperv/linux
+3036cd0d3328220a1858b1ab390be8b562774e8a Merge tag 'ata-7.0-final' of git://git.kernel.org/pub/scm/linux/kernel/git/libata/linux
+b71a8c713aa0dcc056dd9bce4bbafb65c314ee14 Merge branch 'linus'
 
---===============4763032959825051412==--
+--===============7338772501349410821==--
