@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/conor/linux
-Date: Wed, 08 Apr 2026 17:04:05 -0000
-Message-Id: <177566784539.484753.3601247542760544046@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
+Date: Wed, 08 Apr 2026 17:06:04 -0000
+Message-Id: <177566796467.488262.16345754799675948899@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/conor/linux
-user: conor
+repo: pub/scm/linux/kernel/git/ath/ath
+user: jjohnson
 changes:
-  - ref: refs/heads/riscv-dt-for-next
-    old: b0258f69f1e0ed98e8506706da9ef538389b27ea
-    new: ae488e2669f3b0c545193b092652215de9edd182
+  - ref: refs/heads/pending
+    old: b39819f08eda5ebc6e8a6cfad2d2a7a7f0507048
+    new: d49269a3afe1c37951cae65f1fbd900176bdff58
     log: |
-         89991efc78d7b7e85a92a2ac2ed561bfe0700250 riscv: dts: microchip: add tsu clock to macb on pic64gx
-         53c013c3b27b44d64ea189e5dcebfa01cdcc0341 riscv: dts: microchip: update pic64gx gpio interrupts to better match the SoC
-         ae488e2669f3b0c545193b092652215de9edd182 riscv: dts: microchip: sort pic64gx i2c nodes alphanumerically
+         d49269a3afe1c37951cae65f1fbd900176bdff58 wifi: ath10k: Add device-tree quirk to skip host cap QMI requests
          
