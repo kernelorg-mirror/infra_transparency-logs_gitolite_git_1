@@ -1,22 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ulfh/linux-pm
-Date: Wed, 08 Apr 2026 10:02:01 -0000
-Message-Id: <177564252132.118113.14678334638423837509@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Wed, 08 Apr 2026 10:09:52 -0000
+Message-Id: <177564299254.122803.10967305817441641483@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ulfh/linux-pm
-user: ulfh
+repo: pub/scm/linux/kernel/git/tip/tip
+user: tglx
 changes:
-  - ref: refs/heads/next
-    old: 9d862ccfda32755888e4a9a91d2bde04f8857ed7
-    new: 596ca99cf04f339db2ed18a5bb230ee11a47b699
+  - ref: refs/heads/sched/hrtick
+    old: 92f7ee408c23fcc074e4952fb6ffacdf3eb86b56
+    new: 04f02dc3ea74e92d86df2238c0e0680461bfacab
     log: |
-         a6112de8f4a05bb10f62868990f47fb7169acd60 pmdomain: qcom: cpr: add COMPILE_TEST support
-         950ace2e5322a36ed3d8e1c22df7d8408104ff2b dt-bindings: power: qcom,rpmhpd: Add RPMh power domain for Hawi SoC
-         deba8c5712739929f37d50e0fd7f0c75c611fbca pmdomain: Merge branch dt into next
-         596ca99cf04f339db2ed18a5bb230ee11a47b699 pmdomain: qcom: rpmhpd: Add power domains for Hawi SoC
+         1f0d117cd6ca8e74e70e415e89b059fce37674c6 entry: Fix stale comment for irqentry_enter()
+         22f66e7ef4ce9414b4bd18abe50ead4a1284b01a entry: Remove local_irq_{enable,disable}_exit_to_user()
+         eb1b51afde506a8e38976190e518990d69ef5382 entry: Move irqentry_enter() prototype later
+         c5538d0141b383808f440186fcd0bc2799af2853 entry: Split kernel mode logic from irqentry_{enter,exit}()
+         041aa7a85390c99b1de86dc28eddcff0890d8186 entry: Split preemption from irqentry_exit_to_kernel_mode()
+         04f02dc3ea74e92d86df2238c0e0680461bfacab Merge tag 'entry-for-arm64-26-04-08' into sched/hrtick
          
