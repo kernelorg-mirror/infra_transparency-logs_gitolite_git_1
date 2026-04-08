@@ -1,33 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/dtor/input
-Date: Wed, 08 Apr 2026 04:58:04 -0000
-Message-Id: <177562428483.3943317.11913349513092046362@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/liblore/liblore
+Date: Wed, 08 Apr 2026 05:21:54 -0000
+Message-Id: <177562571466.3961788.2207302271064573521@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/dtor/input
-user: dtor
+repo: pub/scm/utils/liblore/liblore
+user: mricon
 changes:
-  - ref: refs/heads/for-linus
-    old: 0d9363a764d9d601a05591f9695cea8b429e9be3
-    new: 4cda78d6f8bf2b700529f2fbccb994c3e826d7c2
-    log: |
-         4cda78d6f8bf2b700529f2fbccb994c3e826d7c2 Input: uinput - fix circular locking dependency with ff-core
-         
   - ref: refs/heads/master
-    old: 84e7a17d1813394b48b0641fce8217fc0bba1960
-    new: 95dffe32a66cbed07fbfa7afed39d56d5014e04f
+    old: 3aec32875407134345b5262473bead6aab1f910d
+    new: ad82e21344d0c7a2bf0c5f156b3591be67a744d3
     log: |
-         bc561dc8ba5b9fe56ed1757bdad218c9a0f992f1 Input: gf2k - skip invalid hat lookup values
-         95dffe32a66cbed07fbfa7afed39d56d5014e04f Input: aiptek - validate raw macro indices before updating state
+         36e0765006896df2037408b860ffbe544fe57a0e Bump version to 0.6-dev
+         47543b0ba512899c662d823ab68b23b73b4e4a96 Add URL failover, origin probing, and git config to LoreNode
+         3dce7c44a0a8192b9d878c1f8ef450622e829bb1 Update CHANGELOG for 0.6-dev
+         ad82e21344d0c7a2bf0c5f156b3591be67a744d3 Bump version to 0.6.0
          
-  - ref: refs/heads/next
-    old: 84e7a17d1813394b48b0641fce8217fc0bba1960
-    new: 95dffe32a66cbed07fbfa7afed39d56d5014e04f
-    log: |
-         bc561dc8ba5b9fe56ed1757bdad218c9a0f992f1 Input: gf2k - skip invalid hat lookup values
-         95dffe32a66cbed07fbfa7afed39d56d5014e04f Input: aiptek - validate raw macro indices before updating state
-         
+  - ref: refs/tags/v0.6.0
+    old: 0000000000000000000000000000000000000000
+    new: c635df33eb205c3a4b644c05d233679c993cb2a8
