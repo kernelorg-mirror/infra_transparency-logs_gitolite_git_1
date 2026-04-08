@@ -1,25 +1,32 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Wed, 08 Apr 2026 18:03:40 -0000
-Message-Id: <177567142051.535640.11309842062500713688@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Wed, 08 Apr 2026 18:04:24 -0000
+Message-Id: <177567146453.536355.12953581013889914894@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/acme/linux
-user: acme
+repo: pub/scm/linux/kernel/git/broonie/sound
+user: broonie
 changes:
-  - ref: refs/heads/tmp.perf-tools-next
-    old: 4d5a9b6bd967b857843ec5020c8e4231877ce4c0
-    new: 1960e77ccc091ba2f9809777047a67fbe5851571
+  - ref: refs/heads/for-linus
+    old: 0669631dbccd41cf3ca7aa70213fcd8bb41c4b38
+    new: 6b6f7263d626886a96fce6352f94dfab7a24c339
     log: |
-         be4dbd2d473baddc6dedc1359c99b6cbf89c5638 perf util: Kill die() prototype, dead for a long time
-         94d4382d31e9fe7a744a68153ae608320ae447d1 perf tools: Make more global variables static
-         4959cadcab6a89bbb7b722cb15bfef26c3cc951c perf bench: Constify tables
-         b64a2a3228044ef8db3092bfb9dc3c84b4047a64 perf header: Use a max number of command line args
-         faba528465ac7050d4bfc7cd6d64b7383996ab58 perf header: Do validation of perf.data HEADER_CPU_DOMAIN_INFO
-         a5333c976b65a3419e536bb7d2a3f261cd366e17 perf tools: Use calloc() where applicable
-         1960e77ccc091ba2f9809777047a67fbe5851571 perf tools: Replace basename() calls with perf_basename()
+         23e0cbe55736de222ed975863cf06baf29bee5fe ASoC: SDCA: Fix overwritten var within for loop
+         58dec4fac4c46b42b8264f2d8aa6972ff951c18b ASoC: SDCA: mask Function_Status value
+         0b8757b220f94421bd4ff50cce03886387c4e71c ASoC: SDCA: Unregister IRQ handlers on module remove
+         6b6f7263d626886a96fce6352f94dfab7a24c339 ASoC: amd: acp: update DMI quirk and add ACP DMIC for Lenovo platforms
+         
+  - ref: refs/heads/for-next
+    old: d0a9c2461907719934d53803aa36fc2a6a9e7dad
+    new: 1d68e4b0c19b3a98e8073685d05dccd757fa0a2c
+    log: |
+         23e0cbe55736de222ed975863cf06baf29bee5fe ASoC: SDCA: Fix overwritten var within for loop
+         58dec4fac4c46b42b8264f2d8aa6972ff951c18b ASoC: SDCA: mask Function_Status value
+         0b8757b220f94421bd4ff50cce03886387c4e71c ASoC: SDCA: Unregister IRQ handlers on module remove
+         6b6f7263d626886a96fce6352f94dfab7a24c339 ASoC: amd: acp: update DMI quirk and add ACP DMIC for Lenovo platforms
+         1d68e4b0c19b3a98e8073685d05dccd757fa0a2c Merge remote-tracking branch 'asoc/for-7.1' into asoc-next
          
