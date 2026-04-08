@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
-Date: Tue, 07 Apr 2026 23:30:06 -0000
-Message-Id: <177560460675.3640938.17671277844326878125@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
+Date: Wed, 08 Apr 2026 00:08:44 -0000
+Message-Id: <177560692443.3668586.13478627931432172736@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
-user: paulmck
+repo: pub/scm/linux/kernel/git/ath/ath
+user: jjohnson
 changes:
-  - ref: refs/heads/dev
-    old: d710427c5ca07b3488ce5920babdc1ed63121591
-    new: b57622190135aa19af25f5fe266e9198edeadeea
+  - ref: refs/heads/pending
+    old: 9b5a27a5cf4aa916301fca1885307e93e5c06868
+    new: 0589a38dc53e03394819555caf255846eb642d6f
     log: |
-         06e2943d03dfb2cc0f2c55b06c646cfaecafca21 checkpatch: Undeprecate rcu_read_lock_trace() and rcu_read_unlock_trace()
-         7b64d5d2edb928f25dce53a5b56c2b6f1b6682c2 checkpatch: Mark rcu_read_lock_tasks_trace() and friend BPF-only
-         b57622190135aa19af25f5fe266e9198edeadeea fixup! torture: Add a hazptrtorture.c stress test
+         0589a38dc53e03394819555caf255846eb642d6f wifi: ath10k: fix station lookup failure during disconnect
          
