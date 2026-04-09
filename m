@@ -1,55 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============7436280109230036282=="
+Content-Type: multipart/mixed; boundary="===============1908899067263424870=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Thu, 09 Apr 2026 22:04:45 -0000
-Message-Id: <177577228525.2028811.13590207465920568219@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Thu, 09 Apr 2026 22:05:28 -0000
+Message-Id: <177577232834.2031543.1450696438539980648@gitolite.kernel.org>
 
---===============7436280109230036282==
+--===============1908899067263424870==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/spi
 user: broonie
-git_push_cert_status: G
 changes:
-  - ref: refs/heads/spi-7.1
-    old: 484eb2c4cc7f788a68c11abc477c065a79cfc0d6
-    new: 573c7db8fce91a1b07dd64a260bb44b9e6d05943
-    log: revlist-484eb2c4cc7f-573c7db8fce9.txt
+  - ref: refs/heads/for-next
+    old: e61cec7650c07902be938c57a06707dbba84f260
+    new: db165e70dcc8b7d80f91651b811e8040c3a13046
+    log: revlist-e61cec7650c0-db165e70dcc8.txt
 
---===============7436280109230036282==
+--===============1908899067263424870==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1775772283 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1775772282-8c3c51964e9e3f715651d9ab58c47ea13690b1a5
-
-484eb2c4cc7f788a68c11abc477c065a79cfc0d6 573c7db8fce91a1b07dd64a260bb44b9e6d05943 refs/heads/spi-7.1
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmnYInsACgkQJNaLcl1U
-h9Bl7Af/SKcOI/CO/FJVwBhQAs/3gqwx21eqP5+Wom6x37uwK4GH0783AjSxrnLY
-Nab1KQxTvl47cNJddeQLNV4zHfL4R//UAEsllsBW2Kv1quRIL127NGHGFt0n0Vmw
-QwAwAfslQtRWJ9bauik6n68ZYP2RbTcFF5y6uDvzaeGIWVVqXXl5TB40tE3Taa1e
-RD9Rd7wY6w2gd/VomQJHfAiiKAsLhRTRVw5NCdftgqEZmG6cDzk49jWt/uvWD9xY
-/Nbx2Rl97TmrZbhIqEemhq8GpuRNk0CxiHV3rmTH+pa658EiV0DV+JJzOhW6+flr
-U9uVYuVs9+cYSe+0i33hH417xaJ2kQ==
-=4Z7u
------END PGP SIGNATURE-----
-
---===============7436280109230036282==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-484eb2c4cc7f-573c7db8fce9.txt
+Content-Disposition: attachment; filename=revlist-e61cec7650c0-db165e70dcc8.txt
 
 5bbc10c50a35490624b86f457ead53054dcd0b34 spi: atcspi200: enable compile testing
 48c0d3c6a4a2e32c5acccd1129896b33a1f5046b spi: npcm-fiu: drop unused remove callback
@@ -72,5 +47,6 @@ b99206710d032c16b7f8b75e4bc18414d8e4b9f4 spi: lantiq-ssc: fix controller deregis
 e6464140d439f2d42f072eb422a5b1fec470c5a6 spi: microchip-core-qspi: fix controller deregistration
 d00d722ebad46cf7a9886684f26a26337b5ee3f4 spi: microchip-core-spi: fix controller deregistration
 573c7db8fce91a1b07dd64a260bb44b9e6d05943 spi: mpfs: fix controller deregistration
+db165e70dcc8b7d80f91651b811e8040c3a13046 Merge remote-tracking branch 'spi/for-7.1' into spi-next
 
---===============7436280109230036282==--
+--===============1908899067263424870==--
