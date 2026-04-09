@@ -1,23 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/linkinjeon/ntfs
-Date: Thu, 09 Apr 2026 01:41:01 -0000
-Message-Id: <177569886110.910257.4512364944298446762@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Thu, 09 Apr 2026 01:43:38 -0000
+Message-Id: <177569901820.911404.14328187922867790704@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/linkinjeon/ntfs
-user: linkinjeon
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: ast
 changes:
-  - ref: refs/heads/next-next
-    old: c34c5e5765585d4f762599d0e6b60366f283691b
-    new: 579aef078ab3a61cea5027b57698e01c299569f9
+  - ref: refs/heads/master
+    old: c7cab53f9d5273f0cf2a26bdf178c4e074bdfb50
+    new: e0fcb42bc6f41bab2895757d6610616b3820eff7
     log: |
-         7003a4161d1122e9cd71049e7c521c066d2dbe29 mm: rename VMA flag helpers to be more readable
-         713e3cb97f493e1a55a046f7ac45211808d6ee0c mm: add vma_desc_test_all() and use it
-         ccc1b22c62a5a7e6874ec16d1af96a17fe6bf10a mm: always inline __mk_vma_flags() and invoked functions
-         2d7cc4d143504a15661c1a481952093f5287d2a3 mm: reintroduce vma_flags_test() as a singular flag test
-         579aef078ab3a61cea5027b57698e01c299569f9 mm: reintroduce vma_desc_test() as a singular flag test
+         6bd96e40f31dde8f8cd79772b4df0f171cf8a915 bpf: Propagate error from visit_tailcall_insn
+         ee861486e377edc55361c08dcbceab3f6b6577bd bpf: Fix ld_{abs,ind} failure path analysis in subprogs
+         9dba0ae973e75051b63cbdd5b3532bb24aa63b3f bpf: Remove static qualifier from local subprog pointer
+         e0fcb42bc6f41bab2895757d6610616b3820eff7 selftests/bpf: Add tests for ld_{abs,ind} failure path in subprogs
          
