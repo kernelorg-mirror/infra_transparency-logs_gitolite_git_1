@@ -1,58 +1,58 @@
-Content-Type: multipart/mixed; boundary="===============7434455203176771685=="
+Content-Type: multipart/mixed; boundary="===============6246840906360743704=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Thu, 09 Apr 2026 13:40:58 -0000
-Message-Id: <177574205812.1561519.6438093054458343726@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/gregkh
+Date: Thu, 09 Apr 2026 13:41:29 -0000
+Message-Id: <177574208999.1561890.2883177381921902752@gitolite.kernel.org>
 
---===============7434455203176771685==
+--===============6246840906360743704==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/driver-core
+repo: pub/scm/linux/kernel/git/gregkh/gregkh
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/t1000
-    old: af47abe7aa1fea45b4da8a995a7a78225cdddb9f
-    new: 2e9de027e79a8bd407fd26a978ff5a3a81b909d0
+  - ref: refs/heads/clanker
+    old: f9b591a00286ac6970cba28119930712dcd1e0ba
+    new: 32e968a6bfb456774b1911f4900058685df89add
     log: |
-         971a18e0f2567a84ca03881b254838fb85fac5f6 iio: pressure: bmp280: fix stack leak in bmp580 trigger handler
-         e282cc205bac91faf2655e79f43bdc69e94f3e67 iio: imu: st_lsm6dsx: fix stack leak in tagged FIFO buffer
-         2e9de027e79a8bd407fd26a978ff5a3a81b909d0 iio: imu: adis16550: fix stack leak in trigger handler
+         1de7eb1f65ef896a55e59db32d6d41ff4ac2ce18 iio: pressure: bmp280: fix stack leak in bmp580 trigger handler
+         cd61c6364d91b7c32db0b8d73736a5bcd3581d91 iio: imu: st_lsm6dsx: fix stack leak in tagged FIFO buffer
+         32e968a6bfb456774b1911f4900058685df89add iio: imu: adis16550: fix stack leak in trigger handler
          
 
---===============7434455203176771685==
+--===============6246840906360743704==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1775742056 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1775742056-34f0710ba297b41f7d80235c95ef04e9d44431fb
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1775742065 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/gregkh.git
+nonce 1775742064-c24e711c85eaba2c91f8e1782b8b6f2f90f8eee3
 
-af47abe7aa1fea45b4da8a995a7a78225cdddb9f 2e9de027e79a8bd407fd26a978ff5a3a81b909d0 refs/heads/t1000
+f9b591a00286ac6970cba28119930712dcd1e0ba 32e968a6bfb456774b1911f4900058685df89add refs/heads/clanker
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmnXrGgbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+B44P+gONqvkwFZxuHEdrYpil
-RxTdTw5m3+1MSHXOKUBuOUyaYgbaegChGcUyLOeqlMVcS0tY4IODK4xJg2Oy3os4
-Bwy0H2UOgzA8njEaz9zSzlVfqU6wSiVFNgC0MQKL56cH/TnNePttHbWGvgQz3vmt
-wnUnKtN8J+ifroQ+KWkW54im8/dR9au5S0rx4nb3740GBktw6LR3aKxAf5bkCxSY
-zcK9uZDNextzaIcIAf+m626zyuEQq8Ld/WYzuXJt9C6MG3o24Az3Q3a9WhKT0yx+
-OGe9NKnFfc4zGa5dcHzxxQuR5cadOpjnpzJU7AW+ie8nlKkC696TvTN9syqRM2VD
-/8MmZKyHCnb6WBeFpUU+DXm/7S78iWf4T8SaQv2RKamogLZHvB3x5jK7YASDAH9x
-Qz4h0cNZUfKl7YUew+2ZvPHaDy1IOWO3Ssu1XVnDUUPO/fVcZKH6I53WAhr467XM
-CVoREYtIHVtf8qCohlL3ZG+a4WS9pI3qtYAp+HTsOeo3JSXHzqnPFUHiBRWr0iqB
-3Z6icUeJLMeb4nHaygTwEvbi92mnvLVwGVabHGK2/SZJRO1x6vrOndhhO/a3+exK
-cuyJtUBoWqau5eeZ7b/anuLdeLyAxeoJ6HlFMamoMV1fwGDKsjFMYZ1/ReqCFXk6
-vDYiOJlxR/yRtKawoDVdo6bC
-=SFhC
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmnXrHEbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+//AQANfMXFVuCaetvcObGt1Z
+QPly2fRVFqMtakyzCqgbyfzTvVb3ao0dRMmFfpIBmCHgy21tHJzIOQYdvIwQPBR5
+n+GVtVZ7iJ5md3zkQHn3Chgu4wq6bY7s892eUmVcb34WQ7BmwemhDN45xEM5tJJE
+2DW42/OJeRfJGkJBR4x+gQmamXfghCVoSiZmwKUZVoXamzUNYvo59HJ3S4I9kxGN
+vkMLa/9EuNcvDhR+It5RcUNS0JgfFU9sH2EDC69R0LK1tzBH2ULrOS1Z0U3DaKjY
+w3vmjxEp9TfUb7JCF8IwtwEHhQzx2fe3s4gA4WuT70iG9ShiHJv/0OmsVNMTENT3
+KLjqKiCkRX0eTWNMrqSkqQyR1DyE47B7BqI45TxGMhZgqHS8YYspup5zMex8Liu6
+5FQ8JhpDxXM12bbnAiVW2SRkdodh/P+CoqgiriG6TbD53btj/v26YcRfTiZH16pU
+ZCI/1kiNDCFECeWaaeNEmtoWuUNrhtkAkCElbSsHgW+N2cAW8LcQJeuiv7yEmiwP
+CClvM9MSZUTeQhVGPbRft2CWMH/nNdL0+bWf5J7x31uo0OUQdMyCyLPjPgO++O5p
+0grkQe9DNOJEaOxS++ppqmXLrcajwn1H6uI1N//pz/mKc0qhHT0LuPWWRJhngTpz
+0kujIKQFdH/Yki+kAgsRr0Al
+=q/vW
 -----END PGP SIGNATURE-----
 
---===============7434455203176771685==--
+--===============6246840906360743704==--
