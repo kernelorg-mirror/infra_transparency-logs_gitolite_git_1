@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gclement/mvebu
-Date: Thu, 09 Apr 2026 08:21:52 -0000
-Message-Id: <177572291206.1299948.9471158044234374925@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/deller/linux-fbdev
+Date: Thu, 09 Apr 2026 08:23:47 -0000
+Message-Id: <177572302794.1300731.10570583044157304879@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gclement/mvebu
-user: gclement
+repo: pub/scm/linux/kernel/git/deller/linux-fbdev
+user: deller
 changes:
-  - ref: refs/tags/mvebu-fixes-7.0-1
-    old: b0a410accc2334b70eb29f4bebe0edd70ffa2f59
-    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/for-next
+    old: 3bea4a0ee8188c2702f0536fbffbc44d3eb9e619
+    new: f1f1d1a5fdcc57924265015ce6b3bb24673a5c72
+    log: |
+         f1f1d1a5fdcc57924265015ce6b3bb24673a5c72 fbdev: omap2: fix inconsistent lock returns in omapfb_mmap
+         
