@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
-Date: Thu, 09 Apr 2026 18:38:19 -0000
-Message-Id: <177575989915.1852098.12322868919802982464@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/b4/b4
+Date: Thu, 09 Apr 2026 18:44:59 -0000
+Message-Id: <177576029941.1857192.7418445722241871941@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/25-new
-user: akpm
+repo: pub/scm/utils/b4/b4
+user: mricon
 changes:
-  - ref: refs/heads/master
-    old: 3babcc8b856a89735399d5a3fc698b714ec5c83f
-    new: cf6e87780f08b00e428780c00f8782a9628c0140
+  - ref: refs/notes/signatures/tar
+    old: 98ed7d2dbafbe0987328ac6c504ff6805878e95e
+    new: 104171e996b1db210b24d7973902f1b8f8e86617
     log: |
-         cf6e87780f08b00e428780c00f8782a9628c0140 foo
+         104171e996b1db210b24d7973902f1b8f8e86617 Notes added by 'git notes add'
          
