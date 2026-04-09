@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/nolibc/linux-nolibc
-Date: Thu, 09 Apr 2026 21:26:03 -0000
-Message-Id: <177576996333.1996886.7672361438419320678@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
+Date: Thu, 09 Apr 2026 21:33:04 -0000
+Message-Id: <177577038427.2002132.2179122598252540219@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/nolibc/linux-nolibc
-user: thomas.weissschuh
+repo: pub/scm/linux/kernel/git/ath/ath
+user: jjohnson
 changes:
-  - ref: refs/heads/for-next
-    old: 598b670af347bc8d998866b1e795e40a3bb168de
-    new: b070dc36291fec966ad915f80a4f239b5c70c290
+  - ref: refs/heads/pending
+    old: 6a7693873b20680a3c33bae0c9f9cb3185f64ade
+    new: 929298742bb5dfacd53ea99cf989cc81210f90a3
     log: |
-         08ab9580726edcc12019d2097b56b88de1142ca7 tools/nolibc: create __nolibc_no_sanitize_ubsan
-         3495279d05d62b07d7594c75d4380f51d04410dd tools/nolibc: support UBSAN on gcc
-         b070dc36291fec966ad915f80a4f239b5c70c290 selftests/nolibc: use gcc 15
+         929298742bb5dfacd53ea99cf989cc81210f90a3 Merge tag 'ath-next-20260408' of git://git.kernel.org/pub/scm/linux/kernel/git/ath/ath
          
