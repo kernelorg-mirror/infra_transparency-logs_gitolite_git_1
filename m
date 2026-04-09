@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5005359312344921947=="
+Content-Type: multipart/mixed; boundary="===============5624075924460030108=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Thu, 09 Apr 2026 02:43:06 -0000
-Message-Id: <177570258676.962079.18239036781178141190@gitolite.kernel.org>
+Date: Thu, 09 Apr 2026 02:43:32 -0000
+Message-Id: <177570261273.962403.15441980871224695585@gitolite.kernel.org>
 
---===============5005359312344921947==
+--===============5624075924460030108==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,9 +16,9 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-staging
-    old: 6a8ae05af022be334a9a5a77a3e5364f5235f536
-    new: 4852fd66d1317557f45cf66414d426c450875be1
+  - ref: refs/heads/7.1/scsi-staging
+    old: 927722dcfe0a5294433bb087387cc52a46cbf675
+    new: 070ec6f691411f27e7a743841bdfb0bf604fbce2
     log: |
          7aa0f56d4b48fb1a1ed3af11b53ba19901092e0a scsi: iscsi_tcp: Remove unneeded selections of CRYPTO and CRYPTO_MD5
          9cf351b289fb2be22491fa3964f99126db67aa08 scsi: storvsc: Handle PERSISTENT_RESERVE_IN truncation for Hyper-V vFC
@@ -30,33 +30,33 @@ changes:
          070ec6f691411f27e7a743841bdfb0bf604fbce2 scsi: target: Don't validate ignored fields in PROUT PREEMPT
          
 
---===============5005359312344921947==
+--===============5624075924460030108==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1775702556 -0400
+pusher 75C5DE3D 1775702589 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1775702553-ae680dc53a872b7c3a92c11a14c2b99c34438690
+nonce 1775702589-5cb7d5d9fed36e216677c5b088b5d063a616dddd
 
-6a8ae05af022be334a9a5a77a3e5364f5235f536 4852fd66d1317557f45cf66414d426c450875be1 refs/tags/mkp-scsi-staging
+927722dcfe0a5294433bb087387cc52a46cbf675 070ec6f691411f27e7a743841bdfb0bf604fbce2 refs/heads/7.1/scsi-staging
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmnXEhwACgkQ7ulgGnXF
-3j2Oqg/+PBLRMLGG3RAOZf+MbgZQZLtmVJp49XI1TP/v5L3uaSk5P1Cby6yqlVtT
-PgPJxvMn+C31R+cpMgrbYB4bPPjNl4hdMsN96ct51mpX3lCh0xqr8CkUv0EQDl6i
-q4dQItMPdhPdTBUoEYC/mEBEUY1BR1eGODWKCyhkAigV/27XByjn2MHbXtzmnrMb
-DFZpEkYpPwdegTOcmMTbKcADIWAR+VWkgdZKnnYAJk6Whn0xJwwRwJs839KrIh4E
-Hnves0vdEOOVCIDt3iNYPg9102Qw7Y/cgwpIAedIrUb0Ce4+SsaCgN7TUbVZWpL9
-BWsW9l6msxIEqS3KhhpWUvi2Rs/CWplHnnmra4SwkciVlhbvZtOKs4Ticp6e/Mr0
-NSe911SDPs99AzYW6VazWVg4s7kYEVuz/g2y51NmYb9WhSyrMSPJv5SZ4RUjRVAW
-dqNljNN89JI3YGgZbK2CJLsIoIG+7MbK4omoDSTeZTAMzmL1yn77e5e4/iN5mkWB
-A6WpS4xxrYXISLF6PB8pquQR5BmnxHVamnpI7MeFYxTFB6Y7yCgYurQVllLTv2tr
-yZmZdXK+Bj7YVt/5fRua8PoSRbrTbbx0RckMPWcvP/OTtC0jmGAyTYCP5KN9dcTg
-EV3efWymCSloXWOFUN/wOFjy6LeqrRQEr1yMhKb75/VUNmwiFds=
-=lh0a
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmnXEj4ACgkQ7ulgGnXF
+3j2ubw/+Jdo7hrXLYh16xdky6Jt3uewrh34bQA6E4FfNNJpgZ+z2Fwg02T0Epb27
+0wNuSMMRYOE2VJTVOTEkl9cEF405wD5J8oJ8xqqpaU8zKMpOhEMdukM7dkFCNpGH
+yqaTphnGKuxkmMjGFbOiN9Gd0uY6M5oTQl9BEn/4zdLaNxLPp30gP9fsFedpWzv/
+9DonXUhZM+lePl3T8JLpNvh28j4LJUGD2ELx9Zvr78LMnbkHq8AHY0jU0FI6zDPo
+vJ8K1MfCKjBy4BCXdqMiGnC3Sj0wKpwTfWYPgolwlrhrZAwEIqyoACuEAu8Fr9CV
+oT9Rkdior+WF5iipItodMqJU1IfDEne0vW+Vdc36ubWPdi2Fw2eG2qMVsfgldoXP
+0p8ntckwb+LIEXoLEDUSfupHhu9lp/jG9Nz8Qn7CP4ryiSZ9n5cwYT15WfTETL0D
+X8AK0XX8dJ2JlIh5GqC65Cb4cf13GuChKYwv42zUGRdNnyOwYQ2iTGTgpKRDNtOW
+5isM5shbhMWWKR6cQNROZpRyKd/GAJ2rzEbxLPiPWPhQuLgBj3//RJpjyoBS78kb
+vYGIrimKmJBqsbWFWcT1c+B71exvvflSh+GMvgNJLI6noKrCJfNvlrXyXLthbXfD
+WBKIFTXzqq2Dm8I7OrqmCts8JI7IxHQMZ6C59gFql3hzVzpSFoY=
+=S2O7
 -----END PGP SIGNATURE-----
 
---===============5005359312344921947==--
+--===============5624075924460030108==--
