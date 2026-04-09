@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6105388491322819387=="
+Content-Type: multipart/mixed; boundary="===============7702546908784301591=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/chenhuacai/linux-loongson
-Date: Thu, 09 Apr 2026 10:57:04 -0000
-Message-Id: <177573222454.1429587.7165790688377312101@gitolite.kernel.org>
+Date: Thu, 09 Apr 2026 10:57:22 -0000
+Message-Id: <177573224256.1429847.16472978965558834308@gitolite.kernel.org>
 
---===============6105388491322819387==
+--===============7702546908784301591==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/chenhuacai/linux-loongson
 user: chenhuacai
 changes:
-  - ref: refs/heads/loongarch-kvm
+  - ref: refs/heads/loongarch-next
     old: 5623c6ff77f271d2458cc5e903ef634222eef0c6
     new: e47b8e1db9a9bbef6765e85b11e87f48e6b56846
     log: revlist-5623c6ff77f2-e47b8e1db9a9.txt
 
---===============6105388491322819387==
+--===============7702546908784301591==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -37,4 +37,4 @@ fa19ea9a7bdb97575e05d72305a4c40a3a631357 KVM: LoongArch: selftests: Add cpucfg r
 11c840192768a5a63b6aed75273c5e8e416230ee KVM: LoongArch: selftests: Add basic PMU event counting test
 e47b8e1db9a9bbef6765e85b11e87f48e6b56846 KVM: LoongArch: selftests: Add PMU overflow interrupt test
 
---===============6105388491322819387==--
+--===============7702546908784301591==--
