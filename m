@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5542625783372228308=="
+Content-Type: multipart/mixed; boundary="===============5709142458706299142=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netfilter/nf-next
-Date: Thu, 09 Apr 2026 23:22:21 -0000
-Message-Id: <177577694188.2106959.13721782901274959160@gitolite.kernel.org>
+Date: Thu, 09 Apr 2026 23:22:29 -0000
+Message-Id: <177577694902.2107226.9683570367525612718@gitolite.kernel.org>
 
---===============5542625783372228308==
+--===============5709142458706299142==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/netfilter/nf-next
 user: fwestphal
 changes:
-  - ref: refs/heads/main
-    old: 9700282a7ec721e285771d995ccfe33845e776dc
-    new: b6e39e48469e37057fce27a1b87cf6d3e456aa42
-    log: revlist-9700282a7ec7-b6e39e48469e.txt
+  - ref: refs/heads/testing
+    old: c4a6d9abd4718b49bf57a11f3ba14861b2cb55ea
+    new: 5c56b378cc023239904ee4ee2d60bd7cbf8a1d9c
+    log: revlist-c4a6d9abd471-5c56b378cc02.txt
 
---===============5542625783372228308==
+--===============5709142458706299142==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9700282a7ec7-b6e39e48469e.txt
+Content-Disposition: attachment; filename=revlist-c4a6d9abd471-5c56b378cc02.txt
 
 fc1e8a6f129d87c64ac8e58b50d9dfa66217cfda Input: bcm5974 - recover from failed mode switch
 29d1f56c4f3001b7f547123e0a307c009ac717f8 Revert "arm64: dts: rockchip: Further describe the WiFi for the Pinebook Pro"
@@ -464,6 +464,9 @@ b30b1675aa2bcf0491fd3830b051df4e08a7c8ca net: ioam6: fix OOB and missing lock
 9709b56d908acc120fe8b4ae250b3c9d749ea832 net: ipa: fix GENERIC_CMD register field masks for IPA v5.0+
 56007972c0b1e783ca714d6f1f4d6e66e531d21f net: ipa: fix event ring index not programmed for IPA v5.0+
 ebe560ea5f54134279356703e73b7f867c89db13 l2tp: Drop large packets with UDP encap
+ebe5fd2ed20af5ae176dd41dd4a85a3cdc738b8a r8152: Add support for 5Gbit Link Speeds and EEE
+fd3c7d080df53136c7e7e37f753fb7bd4640ca42 r8152: Add support for the RTL8157 hardware
+9700282a7ec721e285771d995ccfe33845e776dc Merge branch 'r8152-add-support-for-the-rtl8157-5gbit-usb-ethernet-chip'
 c71ba669b570c7b3f86ec875be222ea11dacb352 nfc: pn533: allocate rx skb before consuming bytes
 7e0548525abd2bff9694e016b6a469ccd2d5a053 iommu: Ensure .iotlb_sync is called correctly
 3fd0da4fd8851a7e62d009b7db6c4a05b092bc19 net: lan966x: fix page_pool error handling in lan966x_fdma_rx_alloc_page_pool()
@@ -474,5 +477,20 @@ acfa7a35442571e316e1b3f391f481e2f92ac076 Merge tag 'platform-drivers-x86-v7.0-4'
 8b02520ec5f7b0d976e8bbc072242275acd472d0 Merge tag 'iommu-fixes-v7.0-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/iommu/linux
 a55f7f5f29b32c2c53cc291899cf9b0c25a07f7c Merge tag 'net-7.0-rc8' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 b6e39e48469e37057fce27a1b87cf6d3e456aa42 Merge git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
+1663e9df9029d4719d436883a42e47314397b004 netfilter: Kconfig: make NF_FLOW_TABLE_INET depend on NF_TABLES_INET
+44ad5d75c0f4af6c9cc424aef1530ec8fa72a5a2 ipvs: show the current conn_tab size to users
+aa93076503b5d39a3740e2c31ccfe333371bd12b ipvs: add ip_vs_status info
+3f6bbcd97bd3c3913ed3b5bd6956aa01d9eeb9f9 ipvs: add conn_lfactor and svc_lfactor sysctl vars
+d1c193a5dce3f86b70dddaa8d4d6312de08fb9f3 netfilter: x_physdev: reject empty or not-nul terminated device names
+3d5339c2e03cb8e545056ada9057dc813ad5e187 netfilter: nfnetlink: prefer skb_mac_header helpers
+7dd2c6aaba9159bcce02a2281a1cbc6a13642163 ipvs: fix MTU check for GSO packets in tunnel mode
+6c718e73f0bac0783c06ef62440381e27b65aa5d netfilter: xt_HL: add pr_fmt and checkentry validation
+0cea1caab43d724d401d0525959f10756b4c2a8b netfilter: xt_socket: enable defrag after all other checks
+2ed144cfb488848cb46ff2fc538e4ba6d4695471 netfilter: nfnetlink_hook: Dump nat type chains
+66aabb852f03a0fc1bd2b2d4bb9492fcfe699024 netfilter: conntrack: remove UDP-Lite conntrack support
+b541bafc3a53ebf50db1b6598e00e9cc96eddc9e netfilter: conntrack: remove unused MAX_NF_CT_PROTO constant
+1a42bb2095afbcaccc5cd8ee40c9e189b9b556f6 netfilter: x_tables: Avoid a couple -Wflex-array-member-not-at-end warnings
+5e624f3fdeb5c63e875705b226fb1f49c4b5fabf netfilter: ipset: harden payload calculation in call_ad()
+5c56b378cc023239904ee4ee2d60bd7cbf8a1d9c netfilter: nft_fwd_netdev: check ttl/hl before forwarding
 
---===============5542625783372228308==--
+--===============5709142458706299142==--
