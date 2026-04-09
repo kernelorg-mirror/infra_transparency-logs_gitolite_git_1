@@ -1,25 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/cip/linux-cip
-Date: Thu, 09 Apr 2026 04:24:20 -0000
-Message-Id: <177570866083.1040508.159591980657204212@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
+Date: Thu, 09 Apr 2026 04:34:44 -0000
+Message-Id: <177570928469.1067376.15348250087427756709@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/cip/linux-cip
-user: iwamatsu
+repo: pub/scm/linux/kernel/git/xiang/erofs-utils
+user: xiang
 changes:
-  - ref: refs/heads/linux-6.12.y-cip
-    old: 4e3f5572a59bbf7c472135b9ee162da5b04c1bc1
-    new: 252ea42058e3c62e4f57e082cd3e8a138ebb15d4
+  - ref: refs/heads/dev
+    old: 50f1be7aba949c87fec5129a31ebc2779d457f00
+    new: 58c3351d5b4b0fc5e4a05d2200c1cf9f85902899
     log: |
-         5cfea5fb8aeebb9009d85d958deb6bc823fc42eb dt-bindings: thermal: r9a09g047-tsu: Document RZ/V2H TSU
-         352642c98e1fd6b52d91f596cc8e47d453f23331 dt-bindings: thermal: r9a09g047-tsu: Document RZ/V2N TSU
-         9ae22fe5568871357ff2b4af863bbe1ebaccaf9f clk: renesas: r9a09g056: Add clock and reset entries for TSU
-         f31e75745fec0fbcb87c851092d81a4b5dd5de42 PM: domains: Add RZ/V2N compatible to PM domain detach list
-         048f6d0cf12668211ea555b95e11da28cab0596e arm64: dts: renesas: r9a09g056: Move interrupt-parent to root node
-         04e1331b93df0c1a4c59f9067fd02eb384a8b9e6 arm64: dts: renesas: r9a09g056: Use syscon compatible for the system controller
-         252ea42058e3c62e4f57e082cd3e8a138ebb15d4 arm64: dts: renesas: r9a09g056: Add TSU nodes
+         71ffe317fa786ccb77bde56514f51d42570f3074 erofs-utils: lib: fix block count report when 48-bit layout is on
+         da3be8c4135a97db3cd2534373ce3b161e6e3d8e erofs-utils: lib: handle 48-bit blocks/uniaddr for extra devices
+         72828eef39a5dab7c149c9298fa55bdac607b09c erofs-utils: lib: fix erofs_sys_lsetxattr() returning positive errno
+         d6d0b8a31354104ede464568fc1253c51b9ec36c erofs-utils: lib: fix fd leak in erofs_metamgr_init()
+         58c3351d5b4b0fc5e4a05d2200c1cf9f85902899 erofs-utils: s3: fix memory leak in s3erofs_create_object_iterator
          
