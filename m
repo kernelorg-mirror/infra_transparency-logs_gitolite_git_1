@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gclement/mvebu
-Date: Thu, 09 Apr 2026 08:26:20 -0000
-Message-Id: <177572318007.1304002.18362085763238890479@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/deller/linux-fbdev
+Date: Thu, 09 Apr 2026 08:26:29 -0000
+Message-Id: <177572318971.1304327.6861888999448287653@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gclement/mvebu
-user: gclement
+repo: pub/scm/linux/kernel/git/deller/linux-fbdev
+user: deller
 changes:
-  - ref: refs/tags/mvebu-fixes-7.0-1
-    old: 0000000000000000000000000000000000000000
-    new: 220749c6a6072cf0ea81365372c6a1e26e3a1a19
+  - ref: refs/heads/for-next
+    old: f1f1d1a5fdcc57924265015ce6b3bb24673a5c72
+    new: 0000000000000000000000000000000000000000
