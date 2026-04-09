@@ -1,48 +1,58 @@
-Content-Type: multipart/mixed; boundary="===============6247043742349741130=="
+Content-Type: multipart/mixed; boundary="===============6851736227110893055=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
-Date: Thu, 09 Apr 2026 13:50:10 -0000
-Message-Id: <177574261049.1570198.14071068533712526909@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
+Date: Thu, 09 Apr 2026 13:53:05 -0000
+Message-Id: <177574278528.1571679.4410970467639728168@gitolite.kernel.org>
 
---===============6247043742349741130==
+--===============6851736227110893055==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/peterz/queue
-user: peterz
+repo: pub/scm/linux/kernel/git/gregkh/driver-core
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/sched/cache
-    old: 3adad064ca37cca2d4d081afe940715f8e002e36
-    new: 067a3135814334a8ea7241faef364cc48c6340bc
-    log: revlist-3adad064ca37-067a31358143.txt
+  - ref: refs/heads/t1000
+    old: 2e9de027e79a8bd407fd26a978ff5a3a81b909d0
+    new: a031c2ef014b02637297a839a387b68ba14e9140
+    log: |
+         924fd881104f931a473f0940f095ceb20af2a471 media: adv7604: avoid negative array index in log_status when cp_read fails
+         186205f989275e713190d920ad8c6c815e9377d4 media: stv090x: bound DiSEqC reply length to msg[] size
+         a031c2ef014b02637297a839a387b68ba14e9140 media: stv0900: bound DiSEqC reply length to msg[] size
+         
 
---===============6247043742349741130==
+--===============6851736227110893055==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3adad064ca37-067a31358143.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-abb12b9b52cfe272c03a859b43a658f0d9cbf285 x86/topology: Add paramter to split LLC
-df0d98475954d655571979aa061ecb07d7e00392 sched/cache: Introduce infrastructure for cache-aware load balancing
-b4606faab3188beeacc2287b8a369cca943cc8eb sched/cache: Limit the scan number of CPUs when calculating task occupancy
-f025ef275388742643a2c33f00a0d9c0af3112ee sched/cache: Record per LLC utilization to guide cache aware scheduling decisions
-23b2b5ccc45ce2a38b9336a916088fffdc4cdfb1 sched/cache: Introduce helper functions to enforce LLC migration policy
-b5ea300a17e37eada7a98561fbd34a3054578713 sched/cache: Make LLC id continuous
-47d8696b95f7397fe7cad2d194d550ffe82efc15 sched/cache: Assign preferred LLC ID to processes
-46afe3af7ead57190b6d362e214814ec804e3b7b sched/cache: Track LLC-preferred tasks per runqueue
-a8d0ca0b7f2f7b53565d1e30e509d3d74d1f5460 sched/cache: Introduce per CPU's tasks LLC preference counter
-82c960aee304bf286552046b66d5b0b3933b2418 sched/cache: Calculate the percpu sd task LLC preference
-15ad45fb80ca7fe67faf6b51dffce125a801cc5a sched/cache: Count tasks prefering destination LLC in a sched group
-9a5e22fbb0c88bff33458ede98b0fa922fab3831 sched/cache: Check local_group only once in update_sg_lb_stats()
-f38cc2f0d8a354551d219e7fd95fce3e96868105 sched/cache: Prioritize tasks preferring destination LLC during balancing
-e4c9a4cb244a273c58e8fd86d7c04e2502822e64 sched/cache: Add migrate_llc_task migration type for cache-aware balancing
-714059f79ff0ba976cb75360064583c78bbc6f8e sched/cache: Handle moving single tasks to/from their preferred LLC
-5b1d5e6db20a6c64ffb95d04578db8c4b0228eea sched/cache: Respect LLC preference in task migration and detach
-d59f4fd1d303987f434bcf0b8191e89ca1d6a67c sched/cache: Enable cache aware scheduling for multi LLCs NUMA node
-067a3135814334a8ea7241faef364cc48c6340bc sched/cache: Allow the user space to turn on and off cache aware scheduling
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1775742780 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
+nonce 1775742780-d0d771979a65d2cc332ab126408a13d0c16cbb81
 
---===============6247043742349741130==--
+2e9de027e79a8bd407fd26a978ff5a3a81b909d0 a031c2ef014b02637297a839a387b68ba14e9140 refs/heads/t1000
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmnXrz0bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+TyMQALoDogRhsYf96ty/MEeZ
+D1MOyCYM00ORmx8VED079tCGKFa0vWpDCGIFeiJMFrUD6CNVqn6N7+RqWmL7Nuug
+iU0gRgFeOCnYfbUNIWxnrfQvAnD1FyG4jzUwVpYi6baBCOA/TtZd/cAg8o6o8jhH
+n1YrEO2TClQgcRPW2uxsfBRWukiAb3zRZY+U7hHDLS5RpuJ2ZiV7ppFPj1xVBen8
+8YlfeQ93OM6QB4BWLa3sxnV0RnKnpZoSxKn5/7Cgp8eBduyJmsGaetcux65owIsO
+Ra8Nok1FvZtDpjIS655GPAdXt/0vJD2DC5C+c5fEgUg5bwl10wRoHJ61zX4bPqf0
+1+r8viBZaHzMXXplnf5kx2aUzYY3wHzCatwgJQ92xtGQcLvrd8wy20ZqDVaou4DM
+1WTwzg7R5/c7h65wXqUN1xx+OwoI6HSLmQ+iCNWlRPb/fgCMOEAtzzVDd+2PX3yN
+uIa9RVmmFg3VWmj7ebor5mhHAV5oOgXF1nfbsysYZ1J1OWXCIy2dqcTgDBGYLOkO
+5IVL3z+4VBqpXhL0acSCOSkWY6hbJ7MUppnP0KnvoHj2DIgw5bRgZEoPS2PUuqVz
+AFwGlWN8/VWJ5NCjeqRZycCgVRuI0QjrXUKbEswF3vQ4ljqGXMPiV33oQGU4InmR
+Y2P6IUpeiC6pV3iidUnRFVj3
+=4tMX
+-----END PGP SIGNATURE-----
+
+--===============6851736227110893055==--
