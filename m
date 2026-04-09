@@ -1,61 +1,58 @@
-Content-Type: multipart/mixed; boundary="===============8733382051587192193=="
+Content-Type: multipart/mixed; boundary="===============7434455203176771685=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-Date: Thu, 09 Apr 2026 13:40:47 -0000
-Message-Id: <177574204766.1561283.14487115127568482205@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
+Date: Thu, 09 Apr 2026 13:40:58 -0000
+Message-Id: <177574205812.1561519.6438093054458343726@gitolite.kernel.org>
 
---===============8733382051587192193==
+--===============7434455203176771685==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-user: ij
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/gregkh/driver-core
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/review-ilpo-next
-    old: ec427398794bbc0e294225a094a3060cc4bff19c
-    new: a29b5cd42f5bc6ba1be6422f61f3f05bab707ce8
-    log: revlist-ec427398794b-a29b5cd42f5b.txt
+  - ref: refs/heads/t1000
+    old: af47abe7aa1fea45b4da8a995a7a78225cdddb9f
+    new: 2e9de027e79a8bd407fd26a978ff5a3a81b909d0
+    log: |
+         971a18e0f2567a84ca03881b254838fb85fac5f6 iio: pressure: bmp280: fix stack leak in bmp580 trigger handler
+         e282cc205bac91faf2655e79f43bdc69e94f3e67 iio: imu: st_lsm6dsx: fix stack leak in tagged FIFO buffer
+         2e9de027e79a8bd407fd26a978ff5a3a81b909d0 iio: imu: adis16550: fix stack leak in trigger handler
+         
 
---===============8733382051587192193==
+--===============7434455203176771685==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 82494C117704CD2F6321681959AC4F6153E5CE31! 1775742042 +0300
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86.git
-nonce 1775742042-fda134511b39a2887207d8f4d7645c9ba01e90c3
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1775742056 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
+nonce 1775742056-34f0710ba297b41f7d80235c95ef04e9d44431fb
 
-ec427398794bbc0e294225a094a3060cc4bff19c a29b5cd42f5bc6ba1be6422f61f3f05bab707ce8 refs/heads/review-ilpo-next
+af47abe7aa1fea45b4da8a995a7a78225cdddb9f 2e9de027e79a8bd407fd26a978ff5a3a81b909d0 refs/heads/t1000
 -----BEGIN PGP SIGNATURE-----
 
-iHUEABYIAB0WIQSCSUwRdwTNL2MhaBlZrE9hU+XOMQUCadesXgAKCRBZrE9hU+XO
-MYIFAQCH8VixZdtip6rPISVLbumT9GKOGK7LugA3Q6ucr29XuAD+IjrP6Aqbcaiv
-H8ihNuDzc/acfPdpyxGd+9oUaDjevQU=
-=7H6a
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmnXrGgbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+B44P+gONqvkwFZxuHEdrYpil
+RxTdTw5m3+1MSHXOKUBuOUyaYgbaegChGcUyLOeqlMVcS0tY4IODK4xJg2Oy3os4
+Bwy0H2UOgzA8njEaz9zSzlVfqU6wSiVFNgC0MQKL56cH/TnNePttHbWGvgQz3vmt
+wnUnKtN8J+ifroQ+KWkW54im8/dR9au5S0rx4nb3740GBktw6LR3aKxAf5bkCxSY
+zcK9uZDNextzaIcIAf+m626zyuEQq8Ld/WYzuXJt9C6MG3o24Az3Q3a9WhKT0yx+
+OGe9NKnFfc4zGa5dcHzxxQuR5cadOpjnpzJU7AW+ie8nlKkC696TvTN9syqRM2VD
+/8MmZKyHCnb6WBeFpUU+DXm/7S78iWf4T8SaQv2RKamogLZHvB3x5jK7YASDAH9x
+Qz4h0cNZUfKl7YUew+2ZvPHaDy1IOWO3Ssu1XVnDUUPO/fVcZKH6I53WAhr467XM
+CVoREYtIHVtf8qCohlL3ZG+a4WS9pI3qtYAp+HTsOeo3JSXHzqnPFUHiBRWr0iqB
+3Z6icUeJLMeb4nHaygTwEvbi92mnvLVwGVabHGK2/SZJRO1x6vrOndhhO/a3+exK
+cuyJtUBoWqau5eeZ7b/anuLdeLyAxeoJ6HlFMamoMV1fwGDKsjFMYZ1/ReqCFXk6
+vDYiOJlxR/yRtKawoDVdo6bC
+=SFhC
 -----END PGP SIGNATURE-----
 
---===============8733382051587192193==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ec427398794b-a29b5cd42f5b.txt
-
-7265b57fbc32782d02bdb8d865ba0d8efa209c8c platform/x86: hp-wmi: fix ignored return values in fan settings
-249ddba9c0ba4453c0a6bc0e3626e7864751d940 platform/x86: hp-wmi: avoid cancel_delayed_work_sync from work handler
-6297443beb0c5606399ec7d4f4b335e2e7379147 platform/x86: hp-wmi: use mod_delayed_work to reset keep-alive timer
-cb4daa450f05447c1f914eaef75b2577c25a0fcd platform/x86: hp-wmi: fix u8 underflow in gpu_delta calculation
-5969c55e2145368254194edbe0e64880314be69f platform/x86: hp-wmi: add locking for concurrent hwmon access
-f8fd138c2363c0e2d3235c32bfb4fb5c6474e4ae platform/x86: dell_rbu: avoid uninit value usage in packet_size_write()
-6b0567dc4c9ad140044400e06dd97fdce12c204f platform/x86: uniwill-laptop: Fix signedness bug
-e8c597368b8500a824c639bfb5ed0044068c6870 platform/x86: hp-wmi: Ignore backlight and FnLock events
-3c34471c26abc52a37f5ad90949e2e4b8027eb14 platform/x86: dell-wmi-sysman: bound enumeration string aggregation
-a29b5cd42f5bc6ba1be6422f61f3f05bab707ce8 platform/x86: thinkpad_acpi: remove obsolete TODO comment
-
---===============8733382051587192193==--
+--===============7434455203176771685==--
