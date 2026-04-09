@@ -1,27 +1,50 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
-Date: Thu, 09 Apr 2026 22:31:04 -0000
-Message-Id: <177577386445.2057690.16301711703375014166@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============4105636606721926493=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/regmap
+Date: Thu, 09 Apr 2026 22:34:20 -0000
+Message-Id: <177577406040.2059761.7210942716096652559@gitolite.kernel.org>
+
+--===============4105636606721926493==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regulator
+repo: pub/scm/linux/kernel/git/broonie/regmap
 user: broonie
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-next
-    old: 3473e8afa178ecb7789f509e4202037d957cd5da
-    new: e1348094d546644c907bc22f10aba95f3e534002
+  - ref: refs/heads/for-7.1
+    old: 1ef3e1c278eb7bda1cc09a508c3fe65d2e567c77
+    new: 7d696210cf36ed31c7c37f6eff17cb7147e83367
     log: |
-         7ea07bc030d8d6395524dec22ff3267441a28c0d regulator: bq257xx: fix OF node reference imbalance
-         65290b24d8a5f0b8cd065201e653db824c4a4da6 regulator: rk808: fix OF node reference imbalance
-         2edaf5f7ada0ab5c9ec1f0836bd19779a8d85262 regulator: max77650: fix OF node reference imbalance
-         2f38e96c273e15f5e9f5d1fc2c0cbba703751602 regulator: mt6357: fix OF node reference imbalance
-         ebe694d67f159899b063eee61bacda4cb825ed7b regulator: s2dos05: fix OF node reference imbalance
-         0d15ce31375ccef4162f960b34547a821b7619d2 regulator: act8945a: fix OF node reference imbalance
-         8498100ee1d00422b8c5b161b3e332278b92a59a regulator: bd9571mwv: fix OF node reference imbalance
-         e7ef5ec6d1f0568e5c11ceeb729f412560ad8ef7 regulator: fix OF node imbalance on reuse
-         e1348094d546644c907bc22f10aba95f3e534002 Merge remote-tracking branch 'regulator/for-7.1' into regulator-next
+         7d696210cf36ed31c7c37f6eff17cb7147e83367 regmap: debugfs: fix race condition in dummy name allocation
          
+
+--===============4105636606721926493==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher C3F436CA30F5D8EB 1775774058 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/regmap.git
+nonce 1775774057-108192efd81ba21eca8ccfa3729ef1e12737f753
+
+1ef3e1c278eb7bda1cc09a508c3fe65d2e567c77 7d696210cf36ed31c7c37f6eff17cb7147e83367 refs/heads/for-7.1
+-----BEGIN PGP SIGNATURE-----
+
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmnYKWoACgkQJNaLcl1U
+h9BDuAf/UX7TRBCWY4I6Cn1xSgE7SUYOfTtg2j8h2SSDO/hBEVlVl4ggBeV1nBIg
+iwL7FqxaWxnjN6MQDiSf3s8a0guvBs1QbH/r544eGvEYte2sW9Po+v27UrHzkFfI
+OEZGPhS0oMfVTdJdFN+YsO4DVNHvc0ZgHD/Y5be+NQxr1ITB1rtoen6VDoeBAlrb
+kJkOCJU4Xjy2ln7lPMbTbPab/EKEHlE6ypCHpKtmR24DSziyZhvSiR+IQQqHQ06C
+XrAeAXLrcDsKO1qznibB0MwBR0K0umOrCxAdUXaUgDVhr7md59PGuKXuBAtoG/oD
+N9Y3SPrePdOL6wdWitLLfxEsfA4sFw==
+=o64h
+-----END PGP SIGNATURE-----
+
+--===============4105636606721926493==--
