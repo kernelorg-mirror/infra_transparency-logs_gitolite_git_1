@@ -1,23 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Thu, 09 Apr 2026 01:57:31 -0000
-Message-Id: <177569985154.924341.5882203972284732773@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/liblore/liblore
+Date: Thu, 09 Apr 2026 01:58:10 -0000
+Message-Id: <177569989034.924842.8792930828177872531@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/utils/liblore/liblore
+user: mricon
 changes:
-  - ref: refs/heads/main
-    old: 84ac9a922d8d2b1a93848cf0f219ae844765dea9
-    new: d65b175cfac64ee65506eea7fa573d291a9694ca
+  - ref: refs/heads/master
+    old: 962f84793ac1737f28c5e54bd4b792396fec6b8a
+    new: 1c0b653bdb6eeb95625e99419d4b34d31cb55c99
     log: |
-         12cd7632757a54ce586e36040210b1a738a0fc53 wifi: brcmsmac: Fix dma_free_coherent() size
-         304950a467d83678bd0b0f46331882e2ac23b12d wifi: brcmfmac: validate bsscfg indices in IF events
-         25369b22223d1c56e42a0cd4ac9137349d5a898e wifi: rt2x00usb: fix devres lifetime
-         ea245d78dec594372e27d8c79616baf49e98a4a1 net: rfkill: prevent unlimited numbers of rfkill events from being created
-         d65b175cfac64ee65506eea7fa573d291a9694ca Merge tag 'wireless-2026-04-08' of https://git.kernel.org/pub/scm/linux/kernel/git/wireless/wireless
+         d56c8061910f0f281746df2613e0b12d87899a57 Add per-origin git config subsections, bump to 0.7.1
+         1c0b653bdb6eeb95625e99419d4b34d31cb55c99 Silence pytest-asyncio warning, add uv.lock to .gitignore
          
+  - ref: refs/tags/v0.7.1
+    old: 0000000000000000000000000000000000000000
+    new: c95138baea6597f5ece122844077dcefcefd90ef
