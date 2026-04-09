@@ -1,56 +1,29 @@
-Content-Type: multipart/mixed; boundary="===============3808269414135006982=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/gregkh
-Date: Thu, 09 Apr 2026 14:38:04 -0000
-Message-Id: <177574548459.1608319.16629205013140438539@gitolite.kernel.org>
-
---===============3808269414135006982==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
+Date: Thu, 09 Apr 2026 14:39:27 -0000
+Message-Id: <177574556755.1608844.9579163044991268023@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/gregkh
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/tiwai/sound
+user: tiwai
 changes:
-  - ref: refs/heads/clanker
-    old: 13107649525ac2994e9249a3de568795dda04232
-    new: d123f5d5ce9de4f5706a051848be01443d40199d
+  - ref: refs/heads/for-next
+    old: c2938a83a257ca1e3a8e74b385f543d6bd6eab8b
+    new: 01f218d439acd5e129d214ea57e760ee2e34e869
     log: |
-         d123f5d5ce9de4f5706a051848be01443d40199d fs/ntfs3: validate rec->used in journal-replay file record check
+         4f84e6caf38b05991b3b2afc0ddf4e48c2752d1d ALSA: usb-audio: Add quirk flags for Feaulle Rainbow
+         01f218d439acd5e129d214ea57e760ee2e34e869 ALSA: hda/alc269: Drop superfluous GPIO write at resume
          
-
---===============3808269414135006982==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1775745457 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/gregkh.git
-nonce 1775745456-430f0e01ff133499c06ad7cd2442fd2089ff680a
-
-13107649525ac2994e9249a3de568795dda04232 d123f5d5ce9de4f5706a051848be01443d40199d refs/heads/clanker
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmnXubEbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+pAYQAIO6H1bq0GpN4mdoO/4v
-gGX1MHtgt9HhoqlCat0HcF0UCdY/7j0qCa/l6bL2+2mxAQfWDilpEmWzP3Bf4D7a
-y/shhFw0RMnhDAkr5KfcdiY7Szv9Elr1TaVX8vGT7sfrvAD42OQ61i1cnx5/JaoU
-bdDDo2gEbAFFZYi+l9jN2AkZyyTIsLZwIuVcL1XAI/pKSlORufi18f2jyIiCXhN3
-7ifYKVahZqZITX7OdfPU1GuEw4Z5qV97kkOaSM3zdc7iA0HavI3thDyoJt9VeEGs
-n4pj7arHJk+rLSWDBE+pEZQ4yvq2+7BZHad8YDE7PZboSdz8E+bxJ5KDQaVO+3mY
-fkN0tN3NpNx75Z5Edodj0KHhs/AwbzVTkwBqlpJteD5FWBUH7MH9O051b8BlKu/L
-RWCtBi6jVuxVn9h9m2JPjGJY1qVFGi5kMhzUdQOTbEJWi2XP07Hr8eGWiinhe8OQ
-lsgD9bOpSVN5NoE9ZV/HDghcaHk2xXShC2a0C4IMsIx1sDpRxuJ5ncr8SMQX96b7
-YxnokY1isGKyScOe5rpnDTzn9cKKeq7cLbGNcMBO4omp9VRqWnVIiSXZxsBdFK5M
-IjRINGJKxtURPEyeiptEPqZQREnBaDKGwTLD2pNMcjfNkvXVHB9MnHl5PWPVNqVD
-YAVSytKoHmWygdBt63i9cPJd
-=UBXG
------END PGP SIGNATURE-----
-
---===============3808269414135006982==--
+  - ref: refs/heads/master
+    old: 524f63ba25ceeb20f3ba8461bf05f53f1d867f6d
+    new: 4c468a99786e2cf41bf7b2c95064472e99a6776f
+    log: |
+         4f84e6caf38b05991b3b2afc0ddf4e48c2752d1d ALSA: usb-audio: Add quirk flags for Feaulle Rainbow
+         edcfaee4e86e934c48bbe2faa12fbf0b7e70c46a Merge branch 'for-next'
+         01f218d439acd5e129d214ea57e760ee2e34e869 ALSA: hda/alc269: Drop superfluous GPIO write at resume
+         4c468a99786e2cf41bf7b2c95064472e99a6776f Merge branch 'for-next'
+         
