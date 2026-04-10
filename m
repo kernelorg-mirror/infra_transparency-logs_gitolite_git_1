@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
-Date: Fri, 10 Apr 2026 19:10:48 -0000
-Message-Id: <177584824829.3347924.14834883144520226853@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Fri, 10 Apr 2026 19:11:06 -0000
+Message-Id: <177584826636.3348461.13868887293601690968@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rafael/linux-pm
-user: rafael
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: ast
 changes:
-  - ref: refs/heads/acpi-tad
-    old: 0000000000000000000000000000000000000000
-    new: 7572dcabe38d904dd501e652b504a9ad364ba1cc
+  - ref: refs/heads/master
+    old: ae1a82e5112e568f66cbbf2a15ea103940138dee
+    new: 4406942e65ca128c56c67443832988873c21d2e9
+    log: |
+         4406942e65ca128c56c67443832988873c21d2e9 bpf: Fix RCU stall in bpf_fd_array_map_clear()
+         
