@@ -1,26 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux
-Date: Fri, 10 Apr 2026 13:02:48 -0000
-Message-Id: <177582616822.2962442.7278490904055757074@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/lenb/linux
+Date: Fri, 10 Apr 2026 13:08:43 -0000
+Message-Id: <177582652361.2967846.15272336218918929829@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux
-user: axboe
+repo: pub/scm/linux/kernel/git/lenb/linux
+user: lenb
 changes:
-  - ref: refs/heads/for-7.1/block
-    old: 0a42ca4d2bff6306dd574a7897258fd02c2e6930
-    new: 36446de0c30c62b9d89502fd36c4904996d86ecd
+  - ref: refs/heads/next
+    old: a23c1298f1593a42dfc78bbbbd1ecc3aabee5c26
+    new: ba893caead54745595e29953f0531cf3651610aa
     log: |
-         36446de0c30c62b9d89502fd36c4904996d86ecd ublk: fix tautological comparison warning in ublk_ctrl_reg_buf
+         ba893caead54745595e29953f0531cf3651610aa tools/power turbostat: Allow execution to continue after perf_l2_init() failure
          
-  - ref: refs/heads/for-next
-    old: 81a0a2e4e535d44a50927b053e581288f0373c4b
-    new: 88a57e15861997dd6fa98154ad087f7831bbead1
+  - ref: refs/heads/turbostat
+    old: a23c1298f1593a42dfc78bbbbd1ecc3aabee5c26
+    new: ba893caead54745595e29953f0531cf3651610aa
     log: |
-         36446de0c30c62b9d89502fd36c4904996d86ecd ublk: fix tautological comparison warning in ublk_ctrl_reg_buf
-         88a57e15861997dd6fa98154ad087f7831bbead1 Merge branch 'for-7.1/block' into for-next
+         ba893caead54745595e29953f0531cf3651610aa tools/power turbostat: Allow execution to continue after perf_l2_init() failure
          
