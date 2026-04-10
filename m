@@ -1,54 +1,52 @@
-Content-Type: multipart/mixed; boundary="===============0823680839499584402=="
+Content-Type: multipart/mixed; boundary="===============8972779711861417974=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Fri, 10 Apr 2026 16:26:28 -0000
-Message-Id: <177583838858.3176214.1071010851322422356@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
+Date: Fri, 10 Apr 2026 16:27:43 -0000
+Message-Id: <177583846398.3177036.13091658957766464675@gitolite.kernel.org>
 
---===============0823680839499584402==
+--===============8972779711861417974==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/regulator
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/asoc-7.1
-    old: fbb1f8ba4e2d847859d04220c4a775996f072d57
-    new: c5b6285aae050ff1c3ea824ca3d88ac4be1e69c8
+  - ref: refs/heads/for-7.1
+    old: e7ef5ec6d1f0568e5c11ceeb729f412560ad8ef7
+    new: 606c780b8843731c78c0f6fa0a1c3b99456ca263
     log: |
-         0cb7aa965ad02e90ba7d6bf847f3de07e8d0c05e ASoC: uda1380: Modernize the driver
-         72dcd84938f5026dc44d0e7e1e68d9d571c113a0 ASoC: amd: yc: Add MSI Vector A16 HX A8WHG to quirk table
-         558f5228e1dbfa995b7303e20f26836525e85151 ASoC: SDCA: Update text of FIXME
-         2603ea46ce5c59568cf968ce35d2bf2854042182 ASoC: rt1320-sdw: Add an approach to get new hardware advance gain
-         c5b6285aae050ff1c3ea824ca3d88ac4be1e69c8 ASoC: SOF: Don't allow pointer operations on unconfigured streams
+         aef4d87f2c1fdb87e55ea2cbe3ea47b01b256f57 regulator: bq257xx: Remove reference to the parent MFD's dev
+         de76a763805d0051242b3862823b34d894ec81f9 regulator: bq257xx: Make OTG enable GPIO really optional
+         606c780b8843731c78c0f6fa0a1c3b99456ca263 regulator: max77620: drop redundant OF node initialisation
          
 
---===============0823680839499584402==
+--===============8972779711861417974==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1775838387 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1775838386-3cfdd35e4c8772777876e1c8fdb1cf0afbb88ab7
+pusher C3F436CA30F5D8EB 1775838462 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/regulator.git
+nonce 1775838461-c22a7f911393bad91fb1b177590c82dad2d79e4a
 
-fbb1f8ba4e2d847859d04220c4a775996f072d57 c5b6285aae050ff1c3ea824ca3d88ac4be1e69c8 refs/heads/asoc-7.1
+e7ef5ec6d1f0568e5c11ceeb729f412560ad8ef7 606c780b8843731c78c0f6fa0a1c3b99456ca263 refs/heads/for-7.1
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmnZJLMACgkQJNaLcl1U
-h9AG/Af+Io+NvB7dpNaj6lPoXIkE+u9zgwNeRrF9O/YFq55FMDyb1kb7+0W4Z3R7
-HPWe0QA0PeXdMEc2h7YBqARyM3coFhT1A7obQyxj6KUflMPadarFiDjNx/3KKthM
-ppbGnTqcRAdma29GfWLEzGN2F6vJ0Rov2IpOLj2bw9QlfNPwYDYL4z4X7Vc/DiIR
-uw6KRtxD2k1H6JVAu2ZvMghvHho2IhLhFF466hrzxT0I8E5dnz5gh+G6LoaizIKl
-53xpP8/wZxli7f9ITi5EUyVzCrCQ6BMutea9bBt/xnLMMxqhPjVwc9bYr/2gPvsH
-dTAI6YInwnPftaOsuy8Fxn8+khIugw==
-=eVGU
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmnZJP4ACgkQJNaLcl1U
+h9C2wAf+KORPgHMhJB1+m8kNwsnRom7D0LFNumfMOrQPlHICSV3r0TaVqVfjsCE4
+W4H6QLLNnbnxysMFoW43UuyudS53FmLfFHxBzFplEhFqWQWk4nZKz6/0FznFJiAY
+ad740xfCrgsEhrdTGYwo1tTG87ZmYKAOI0lV4CchUzOPkUjb+tbOWr9n1SWhYhad
+OjYlQEMILiDeEtJMVGrFi0s0RUiwMALepTo903t0hNnLOAWpBDjzyJCyDF9ifNfL
+EdIuYpBvowyMIySOU9bqamSoRyt4VhwS4bvXINknYW6n4G0DcAskzH/kyTvyTfzE
+PWc3Vqw4EzpaNf+q4dO6nkRTQqyO/A==
+=Ob1E
 -----END PGP SIGNATURE-----
 
---===============0823680839499584402==--
+--===============8972779711861417974==--
