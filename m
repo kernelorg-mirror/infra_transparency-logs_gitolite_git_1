@@ -1,22 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/arm64/linux
-Date: Fri, 10 Apr 2026 18:47:18 -0000
-Message-Id: <177584683880.3323721.4945858306534929081@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
+Date: Fri, 10 Apr 2026 19:00:56 -0000
+Message-Id: <177584765645.3337462.6501882537124683299@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/arm64/linux
-user: cmarinas
+repo: pub/scm/linux/kernel/git/tnguy/net-queue
+user: tnguy
 changes:
-  - ref: refs/heads/for-next/c1-pro-erratum-4193714
-    old: e557599ec577c5805e124be9ad0275855ad82a1c
-    new: 0baba94a9779c13c857f6efc55807e6a45b1d4e4
+  - ref: refs/heads/dev-queue
+    old: 6e0232ae52cbb66f4fd61ab8ef438470e0200839
+    new: d4999456017dd09ff5f7a34e236c471560d8f8e4
     log: |
-         6bfbf574a39139da11af9fdf6e8d56fe1989cd3e arm64: tlb: Introduce __tlbi_sync_s1ish_{kernel,batch}() for TLB maintenance
-         d9fb08ba946a6190c371dcd9f9e465d0d52c5021 arm64: tlb: Pass the corresponding mm to __tlbi_sync_s1ish()
-         2c99561016c591f4c3d5ad7d22a61b8726e79735 arm64: cputype: Add C1-Pro definitions
-         0baba94a9779c13c857f6efc55807e6a45b1d4e4 arm64: errata: Work around early CME DVMSync acknowledgement
+         465c8fc31d179d265c6e1f3f54ac1c000240fbbd idpf: fix read_dev_clk_lock spinlock init in idpf_ptp_init()
+         1e7b4e21c9cc09abc4b830c6d800f3024b5f327f i40e: Cleanup PTP registration on probe failure
+         a6f79587eb2733008564b1762abe88dda26fc805 ice: fix VF queue configuration with low MTU values
+         5f35e6a634e626abc7e17d936102410dc882305b idpf: do not enable XDP if queue based scheduling is not supported
+         f1c3de15e1d4a773baf3d4523e295a0384cffc07 idpf: fix skb datapath queue based scheduling crashes and timeouts
+         8fe30c584c51fc7d24c6b5419e2068626acfccf4 i40e: Cleanup PTP pins on probe failure
+         d4999456017dd09ff5f7a34e236c471560d8f8e4 ice: fix SMA and U.FL pin state changes affecting paired pin
          
