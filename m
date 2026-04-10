@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
-Date: Fri, 10 Apr 2026 22:28:58 -0000
-Message-Id: <177586013894.3546510.17155955532097794323@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pcmoore/lsm
+Date: Fri, 10 Apr 2026 22:31:34 -0000
+Message-Id: <177586029496.3550627.6043878961596757958@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
-user: paulmck
+repo: pub/scm/linux/kernel/git/pcmoore/lsm
+user: pcmoore
 changes:
-  - ref: refs/heads/dev
-    old: a9b52b6467c707c23e085482d24c941959636755
-    new: 7dfa7b411fc67e31c86744725621be59f5cd468e
-    log: |
-         7dfa7b411fc67e31c86744725621be59f5cd468e squash! srcu: Don't queue workqueue handlers to never-online CPUs
-         
+  - ref: refs/heads/stable-7.1
+    old: 0000000000000000000000000000000000000000
+    new: 82544d36b1729153c8aeb179e84750f0c085d3b1
+  - ref: refs/tags/lsm-pr-20260410
+    old: 0000000000000000000000000000000000000000
+    new: e07ee0072b3288262367682ca1f090b1c141bf65
