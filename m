@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7410469541960415762=="
+Content-Type: multipart/mixed; boundary="===============2877049247893501491=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Fri, 10 Apr 2026 22:32:52 -0000
-Message-Id: <177586037206.3552053.8250624060505616456@gitolite.kernel.org>
+Date: Fri, 10 Apr 2026 22:32:58 -0000
+Message-Id: <177586037809.3552290.12900613706494320981@gitolite.kernel.org>
 
---===============7410469541960415762==
+--===============2877049247893501491==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: ast
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/for-next
     old: 749b925802c2351ae7204e6960ca086e4c4e4fa7
     new: e2e6a6ea2418e23d6afaf3c37e207f6ca85ba9d8
     log: revlist-749b925802c2-e2e6a6ea2418.txt
 
---===============7410469541960415762==
+--===============2877049247893501491==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -42,4 +42,4 @@ b42eb55f6ca29d9cc9d2239f8665cca5f16efecb selftests/bpf: update existing tests du
 2cb27158adb38f1a78729e99f7469199d71c714a bpf: poison dead stack slots
 e2e6a6ea2418e23d6afaf3c37e207f6ca85ba9d8 Merge branch 'bpf-static-stack-liveness-data-flow-analysis'
 
---===============7410469541960415762==--
+--===============2877049247893501491==--
