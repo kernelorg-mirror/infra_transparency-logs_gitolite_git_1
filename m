@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5609357432894976169=="
+Content-Type: multipart/mixed; boundary="===============0564761469749948191=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/arighi/linux
-Date: Fri, 10 Apr 2026 18:07:35 -0000
-Message-Id: <177584445543.3280557.6279315205209741797@gitolite.kernel.org>
+Date: Fri, 10 Apr 2026 18:07:39 -0000
+Message-Id: <177584445994.3280742.17164999683802228679@gitolite.kernel.org>
 
---===============5609357432894976169==
+--===============0564761469749948191==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,19 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/arighi/linux
 user: arighi
 changes:
-  - ref: refs/heads/for-7.1
-    old: 8e7328052f3d11607af3458c2cbdec461151c666
+  - ref: refs/heads/scx
+    old: e9d8b00ac504dcd57df7aa99330d95c83d3e81d8
     new: 9ac3f08d76f4254ec11c2f96bb287d91d980d177
-    log: revlist-8e7328052f3d-9ac3f08d76f4.txt
+    log: revlist-e9d8b00ac504-9ac3f08d76f4.txt
 
---===============5609357432894976169==
+--===============0564761469749948191==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8e7328052f3d-9ac3f08d76f4.txt
+Content-Disposition: attachment; filename=revlist-e9d8b00ac504-9ac3f08d76f4.txt
 
+393754191b85b3f76d9cc44dda5209ef23337e8a sched_ext: Documentation: Fix scx_bpf_move_to_local kfunc name
+ff1befcb168395481fd6a28d8036b707cb7e7a13 selftests/sched_ext: Improve runner error reporting for invalid arguments
 71ba9a5cb125998a875e3f008cbb28b028b609aa sched_ext: Documentation: improve accuracy of task lifecycle pseudo-code
 dcd47f27c01e795395379025525bfd47a99a91e1 selftests/sched_ext: Fix wrong DSQ ID in peek_dsq error message
 5b199fb5c1783d7faecbb7d98d70149b87ce146d srcu: Use raw spinlocks so call_srcu() can be used under preempt_disable()
@@ -47,4 +49,4 @@ ade6548bf03eb0adac3370a481bad82130bd4c48 sched_ext: Warn on task-based SCX op re
 85e8b8e7d709d9bbc3995da225a1793b95e1d2e4 sched: Allow to enable proxy exec with sched_ext
 9ac3f08d76f4254ec11c2f96bb287d91d980d177 WIP sched_ext: Fix migration disabled tasks with proxy exec
 
---===============5609357432894976169==--
+--===============0564761469749948191==--
