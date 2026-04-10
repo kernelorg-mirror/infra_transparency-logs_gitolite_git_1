@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2669297512230069832=="
+Content-Type: multipart/mixed; boundary="===============6737906697419654264=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Fri, 10 Apr 2026 06:51:39 -0000
-Message-Id: <177580389912.2552739.5500854096153314159@gitolite.kernel.org>
+Date: Fri, 10 Apr 2026 06:52:07 -0000
+Message-Id: <177580392703.2553359.13338768889405152234@gitolite.kernel.org>
 
---===============2669297512230069832==
+--===============6737906697419654264==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,15 +16,58 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: c9904c53ca958b5ebf5165dd1705c52f6afc2b2f
-    new: 81bd1a81fb0f7b32d4b6f0ce40bd83e4eac6d2f8
-    log: revlist-c9904c53ca95-81bd1a81fb0f.txt
+    old: 81bd1a81fb0f7b32d4b6f0ce40bd83e4eac6d2f8
+    new: 58bad09a9611607dc393dd8cc05f2ca5e067bb98
+    log: revlist-81bd1a81fb0f-58bad09a9611.txt
+  - ref: refs/heads/tip/urgent
+    old: 4fc7108ff756267ad53ecdeaa1e847d378887511
+    new: 9d7606abc9ffd9f1b92e2cbd69e60d4c9d9c4fef
+    log: revlist-4fc7108ff756-9d7606abc9ff.txt
 
---===============2669297512230069832==
+--===============6737906697419654264==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c9904c53ca95-81bd1a81fb0f.txt
+Content-Disposition: attachment; filename=revlist-81bd1a81fb0f-58bad09a9611.txt
+
+7899c2a849ef90cbff612ee7b124e7d094ee88df Merge branch into tip/master: 'perf/urgent'
+699529ec3e755d35666d11eb0c2138c4a37c901d Merge branch into tip/master: 'ras/urgent'
+dc60269b73d2dbebc8accaf287e2468d653574eb Merge branch into tip/master: 'sched/urgent'
+9d7606abc9ffd9f1b92e2cbd69e60d4c9d9c4fef Merge branch into tip/master: 'timers/urgent'
+5590ac4564d3ab9a07e26b0d729fee320ec96041 Merge branch into tip/master: 'sched/merge'
+be1ea24fb1371075c3c1dc4be8a89f063efbb623 Merge branch into tip/master: 'timers/merge'
+0d39438b55c5e52e3593e38e2b33c83050b27c00 Merge branch into tip/master: 'core/debugobjects'
+320f5e011446f07332cfc626c9ccd9671c92105d Merge branch into tip/master: 'core/entry'
+ad8d119ea88e226d91ea93a5921c87e6905ed230 Merge branch into tip/master: 'irq/core'
+a7cce8b3b9991442152ecfd7270e5c9e55dddf4e Merge branch into tip/master: 'irq/drivers'
+fadc122cf2a7ff7c06422a256754fdef5b2576ea Merge branch into tip/master: 'irq/msi'
+4ce0767b3ccec75dd189248fc9d6f311af7a28d1 Merge branch into tip/master: 'locking/core'
+479104b67bb2108ecdc2ca7d1155a4058914ac7f Merge branch into tip/master: 'locking/futex'
+17538d454f53212954658c44aa15de01185a1bf5 Merge branch into tip/master: 'objtool/core'
+21be55a26fe16ff06444d98c62d2439d6359b710 Merge branch into tip/master: 'perf/core'
+1d06ed878f8067b98abae74a09226526d618ea63 Merge branch into tip/master: 'ras/core'
+4e6d2a69d6333e90b61fdb2666818e72cecb05c5 Merge branch into tip/master: 'sched/core'
+070c94a43d3a9edd1cab7584e067c70a54d80580 Merge branch into tip/master: 'sched/hrtick'
+a58c50540f50bc59d579829eefb00215dd0b3d8b Merge branch into tip/master: 'smp/core'
+e5e28c85ca291f45a0ad1e82a877e754ab21989a Merge branch into tip/master: 'timers/vdso'
+80bea8bf0d8d67cc26cdc15660888e0df2f80e8a Merge branch into tip/master: 'x86/asm'
+74488d408775c40014af92534d78c8f6ce44f05a Merge branch into tip/master: 'x86/cache'
+f6e1118c624bff83a9ba0f63cdf2544ba25a7c50 Merge branch into tip/master: 'x86/cleanups'
+2d0e1bc57ebf9deb702ec2a2c23c59f3f8e48a65 Merge branch into tip/master: 'x86/cpu'
+2b9961b53ddbec8f79dc28ff9c6322545f7101d9 Merge branch into tip/master: 'x86/fred'
+1854c3ac35785ebc855714e8f4c697b71e3e806d Merge branch into tip/master: 'x86/microcode'
+8e1220fad6ca9fac196610916568819483d8fd11 Merge branch into tip/master: 'x86/misc'
+76847bae34958e42494b265ba3f547bb1592ec59 Merge branch into tip/master: 'x86/mm'
+26ed34ea1986a97b35cf884d22d17801b960c65b Merge branch into tip/master: 'x86/platform'
+63330c520240c6478f7f57e34449575719f2af59 Merge branch into tip/master: 'x86/sev'
+e85f8f813e378307e5c957640df688ea31745af8 Merge branch into tip/master: 'x86/tdx'
+58bad09a9611607dc393dd8cc05f2ca5e067bb98 Merge branch into tip/master: 'x86/vdso'
+
+--===============6737906697419654264==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-4fc7108ff756-9d7606abc9ff.txt
 
 e1415b9418eb22b4a7a1ef4b4aec9dd0a49e3fa7 platform/x86: ISST: Reset core count to 0
 4ab604b3f3aa8dcccc7505f5d310016682a99d5f platform/x86/intel-uncore-freq: Handle autonomous UFS status bit
@@ -185,6 +228,9 @@ d58305b2dbe3434c9b21ede210329b97c44ee9e8 Merge tag 'pmdomain-v7.0-rc6' of git://
 bb2ea74eeb6735eed29bd74695f90f0e5af09f5c Merge tag 'sound-7.0' of git://git.kernel.org/pub/scm/linux/kernel/git/tiwai/sound
 b42ed3bb884e6b399b46d19df3f5cf015a79c804 Merge tag 'efi-fixes-for-v7.0-4' of git://git.kernel.org/pub/scm/linux/kernel/git/efi/efi
 9a9c8ce300cd3859cc87b408ef552cd697cc2ab7 Merge tag 'kbuild-fixes-7.0-4' of git://git.kernel.org/pub/scm/linux/kernel/git/kbuild/linux
-81bd1a81fb0f7b32d4b6f0ce40bd83e4eac6d2f8 Merge branch 'linus'
+7899c2a849ef90cbff612ee7b124e7d094ee88df Merge branch into tip/master: 'perf/urgent'
+699529ec3e755d35666d11eb0c2138c4a37c901d Merge branch into tip/master: 'ras/urgent'
+dc60269b73d2dbebc8accaf287e2468d653574eb Merge branch into tip/master: 'sched/urgent'
+9d7606abc9ffd9f1b92e2cbd69e60d4c9d9c4fef Merge branch into tip/master: 'timers/urgent'
 
---===============2669297512230069832==--
+--===============6737906697419654264==--
