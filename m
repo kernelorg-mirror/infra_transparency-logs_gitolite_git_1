@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/paulmck/linux-rcu
-Date: Fri, 10 Apr 2026 19:12:56 -0000
-Message-Id: <177584837605.3349653.16216809386467885889@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/shuah/linux-kselftest
+Date: Fri, 10 Apr 2026 19:13:44 -0000
+Message-Id: <177584842433.3350584.6917638498330160133@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/paulmck/linux-rcu
-user: paulmck
+repo: pub/scm/linux/kernel/git/shuah/linux-kselftest
+user: shuah
 changes:
-  - ref: refs/heads/dev
-    old: f214c8ad14e5103eabdda85394a792be0cad2fbe
-    new: a9b52b6467c707c23e085482d24c941959636755
+  - ref: refs/heads/next
+    old: 89721fd12693429e07415bd64c5ac4f5c6c799cf
+    new: 2d93e352421ad06a1a3ce55a89161d873027eb1a
     log: |
-         a9b52b6467c707c23e085482d24c941959636755 fixup! srcu: Don't queue workqueue handlers to never-online CPUs
+         2d93e352421ad06a1a3ce55a89161d873027eb1a selftests/ftrace: Quote check_requires comparisons
          
