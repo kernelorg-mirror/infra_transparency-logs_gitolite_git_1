@@ -1,25 +1,27 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Fri, 10 Apr 2026 19:00:56 -0000
-Message-Id: <177584765645.3337462.6501882537124683299@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
+Date: Fri, 10 Apr 2026 19:01:04 -0000
+Message-Id: <177584766405.3337820.14945727169360914004@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/net-queue
+repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
   - ref: refs/heads/dev-queue
-    old: 6e0232ae52cbb66f4fd61ab8ef438470e0200839
-    new: d4999456017dd09ff5f7a34e236c471560d8f8e4
+    old: 5faabaaeeac9d38c68c39f52266e7998205b0252
+    new: 6f1930be58bb51eb713a70bcea39ba23b092c3a7
     log: |
-         465c8fc31d179d265c6e1f3f54ac1c000240fbbd idpf: fix read_dev_clk_lock spinlock init in idpf_ptp_init()
-         1e7b4e21c9cc09abc4b830c6d800f3024b5f327f i40e: Cleanup PTP registration on probe failure
-         a6f79587eb2733008564b1762abe88dda26fc805 ice: fix VF queue configuration with low MTU values
-         5f35e6a634e626abc7e17d936102410dc882305b idpf: do not enable XDP if queue based scheduling is not supported
-         f1c3de15e1d4a773baf3d4523e295a0384cffc07 idpf: fix skb datapath queue based scheduling crashes and timeouts
-         8fe30c584c51fc7d24c6b5419e2068626acfccf4 i40e: Cleanup PTP pins on probe failure
-         d4999456017dd09ff5f7a34e236c471560d8f8e4 ice: fix SMA and U.FL pin state changes affecting paired pin
+         a777cbac892fc8e037487fcaa118522db0010c70 idpf: fix read_dev_clk_lock spinlock init in idpf_ptp_init()
+         bda45f5536756a6323d035435ff0eb4ce9bb22de i40e: Cleanup PTP registration on probe failure
+         df01188f35778bcc178617659499b799b2f0ab35 ice: fix VF queue configuration with low MTU values
+         7458069595cf4a6f6c3d42579130862f04d04df4 idpf: do not enable XDP if queue based scheduling is not supported
+         da801c2b34a9e815d3d1efa46d983dffadac8771 idpf: fix skb datapath queue based scheduling crashes and timeouts
+         6d99596920760ed66abeacbc946eacf75236dfb5 i40e: Cleanup PTP pins on probe failure
+         52552d3c4b613b878e790c7eada470471b96bb0d ice: fix SMA and U.FL pin state changes affecting paired pin
+         5ee122544ca9f73e681e51269afc6039ea062299 igb: use ktime_get_real helpers in igb_ptp_reset()
+         6f1930be58bb51eb713a70bcea39ba23b092c3a7 e1000e: use ktime_get_real_ns() in e1000e_systim_reset()
          
