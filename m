@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0409082878759270553=="
+Content-Type: multipart/mixed; boundary="===============0604197951869551738=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mda/linux-next
-Date: Fri, 10 Apr 2026 06:05:24 -0000
-Message-Id: <177580112451.2508324.1192593954684505327@gitolite.kernel.org>
+Date: Fri, 10 Apr 2026 06:06:16 -0000
+Message-Id: <177580117693.2508914.2542829185243490210@gitolite.kernel.org>
 
---===============0409082878759270553==
+--===============0604197951869551738==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,20 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/mda/linux-next
 user: mda
 changes:
-  - ref: refs/heads/master
-    old: f3e6330d7fe42b204af05a2dbc68b379e0ad179e
-    new: 3fa7d958829eb9bc3b469ed07f11de3d2804ef71
-    log: revlist-f3e6330d7fe4-3fa7d958829e.txt
+  - ref: refs/heads/icssg-dev
+    old: f775e4431b789d689a23ee06bdf0313764cea1a4
+    new: e4d58cbd52b5fbe6bb72aa474bab4a3414738bf3
+    log: revlist-f775e4431b78-e4d58cbd52b5.txt
 
---===============0409082878759270553==
+--===============0604197951869551738==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f3e6330d7fe4-3fa7d958829e.txt
+Content-Disposition: attachment; filename=revlist-f775e4431b78-e4d58cbd52b5.txt
 
-86782c16a81f8232c13c1509fd3295bd97d185b0 Merge tag 'hyperv-fixes-signed-20260406' of git://git.kernel.org/pub/scm/linux/kernel/git/hyperv/linux
-3036cd0d3328220a1858b1ab390be8b562774e8a Merge tag 'ata-7.0-final' of git://git.kernel.org/pub/scm/linux/kernel/git/libata/linux
-7801f3ea9591cf040f7f92c44f8ec91eaa0d6207 btrfs: tag as unlikely if statements that check for fs in error state
 e1194226bf7642cab9d45f32fff4ea600c9069cc btrfs: remove duplicate journal_info reset on failure to commit transaction
 e70e3f858e084aee34a2206e5f4dd49a47673f6a btrfs: use BTRFS_FS_UPDATE_UUID_TREE_GEN flag for UUID tree rescan check
 e0dfaebb8f4a1de59a8b805d600e3b662b235efc btrfs: skip clearing EXTENT_DEFRAG for NOCOW ordered extents
@@ -1050,5 +1047,8 @@ a3728eaee4046815619d61260d34e9967a4c9a03 Merge branch 'for-next' of https://git.
 1cd9d5410bd0d3412b99af0c894dcd53b0bd8c81 Merge branch 'next' of https://git.kernel.org/pub/scm/linux/kernel/git/devsec/tsm.git
 04db05449a70ea096e5b970c2e07ba59748f633a Merge branch 'for-next' of https://github.com/hisilicon/linux-hisi.git
 3fa7d958829eb9bc3b469ed07f11de3d2804ef71 Add linux-next specific files for 20260409
+5ac9001a96acf80711df3e0e4e71a339b3660c7f hsr: Allow to send a specific port and with HSR header
+cde07dfb9cc34464b8951287beb9b104edf482ce af_packet: Add port specific handling for HSR
+e4d58cbd52b5fbe6bb72aa474bab4a3414738bf3 PENDING: net: ti: icssg-prueth: Add conditional checks for HSR offload behaviors
 
---===============0409082878759270553==--
+--===============0604197951869551738==--
