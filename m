@@ -1,21 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs
-Date: Fri, 10 Apr 2026 09:35:18 -0000
-Message-Id: <177581371898.2754174.9085422333745559316@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/wsa/linux
+Date: Fri, 10 Apr 2026 09:53:31 -0000
+Message-Id: <177581481173.2769967.1488638213607172225@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/xiang/erofs
-user: xiang
+repo: pub/scm/linux/kernel/git/wsa/linux
+user: wsa
 changes:
-  - ref: refs/heads/dev
-    old: 63c2f06198ca7513433f1c92f2c654869d72417e
-    new: a5242d37c83abe86df95c6941e2ace9f9055ffcb
+  - ref: refs/heads/mailbox/fixes
+    old: dc3df9329cde0b96ca45c18cf38f087da8ce28c8
+    new: e3f2d255aece9ab57bfdda85d63c7347661e910a
     log: |
-         21e161de2dc660b1bb70ef5b156ab8e6e1cca3ab erofs: fix unsigned underflow in z_erofs_lz4_handle_overlap()
-         5c40d2e9e3ce9e81d76773c68756e9b07cce802c erofs: clean up encoded map flags
-         a5242d37c83abe86df95c6941e2ace9f9055ffcb erofs: error out obviously illegal extents in advance
+         879aa0ff34890ef1cb857058833557556e8b8de9 mailbox: prefix new constants with MBOX_
+         b1f793c2efb6633037f9dcbf21d9978047f70c86 mailbox: mailbox-test: free channels on probe error
+         653ac1ea32ae2b9a33d29ffeb1a18d378e5d76ab injection hack
+         e3f2d255aece9ab57bfdda85d63c7347661e910a mailbox: don't free the channel if the startup callback failed
          
