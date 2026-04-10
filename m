@@ -1,22 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Fri, 10 Apr 2026 19:06:50 -0000
-Message-Id: <177584801038.3343443.11204200065701668708@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rafael/linux-pm
+Date: Fri, 10 Apr 2026 19:10:48 -0000
+Message-Id: <177584824829.3347924.14834883144520226853@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: ast
+repo: pub/scm/linux/kernel/git/rafael/linux-pm
+user: rafael
 changes:
-  - ref: refs/heads/for-next
-    old: a0c584fc18056709c8e047a82a6045d6c209f4ce
-    new: ae1a82e5112e568f66cbbf2a15ea103940138dee
-    log: |
-         d8e27d2d22b6e2df3a0125b8c08e9aace38c954c bpf: fix mm lifecycle in open-coded task_vma iterator
-         bee9ef4a40a277bf401be43d39ba7f7f063cf39c bpf: switch task_vma iterator from mmap_lock to per-VMA locks
-         4cbee026db54cad39c39db4d356100cb133412b3 bpf: return VMA snapshot from task_vma iterator
-         ae1a82e5112e568f66cbbf2a15ea103940138dee Merge branch 'bpf-fix-and-improve-open-coded-task_vma-iterator'
-         
+  - ref: refs/heads/acpi-tad
+    old: 0000000000000000000000000000000000000000
+    new: 7572dcabe38d904dd501e652b504a9ad364ba1cc
