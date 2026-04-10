@@ -1,68 +1,45 @@
-Content-Type: multipart/mixed; boundary="===============6657409011641811002=="
+Content-Type: multipart/mixed; boundary="===============4845118010613434256=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tglx/devel
-Date: Fri, 10 Apr 2026 20:51:42 -0000
-Message-Id: <177585430294.3450565.8887275703941735011@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vdubeyko/hfs
+Date: Fri, 10 Apr 2026 20:58:19 -0000
+Message-Id: <177585469914.3456439.3757925768470736849@gitolite.kernel.org>
 
---===============6657409011641811002==
+--===============4845118010613434256==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tglx/devel
-user: tglx
+repo: pub/scm/linux/kernel/git/vdubeyko/hfs
+user: vdubeyko
 changes:
-  - ref: refs/heads/cleanups
-    old: c8e6e3529d3137cb0aba79b565eb04ab8f346829
-    new: 4f7b68811bb6be347b794010429e839e7a23b9d8
-    log: revlist-c8e6e3529d31-4f7b68811bb6.txt
+  - ref: refs/heads/for-linus
+    old: 6de23f81a5e08be8fbf5e8d7e9febc72a5b5f27f
+    new: c1307d18caa819ddc28459d858eb38fdd6c3f8a0
+    log: revlist-6de23f81a5e0-c1307d18caa8.txt
 
---===============6657409011641811002==
+--===============4845118010613434256==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c8e6e3529d31-4f7b68811bb6.txt
+Content-Disposition: attachment; filename=revlist-6de23f81a5e0-c1307d18caa8.txt
 
-a6338fcc4f7d5a6204666beb798d94b04322bfd0 percpu: Sanitize __percpu_qual include hell
-1e581e4bca116a637f43c227768fc00ba2f73f87 x86: Cleanup include recursion hell
-024c7872caca0c0092c348981c584dc501b9fd2c x86/apm: Remove last LATCH usage
-110542bc2517b93f997da92a06658f4fe680dc6e x86: Use PIT_TICK_RATE instead of CLOCK_TICK_RATE
-5e5e38532f719697547919820416fe8bfd947eff treewide: Remove CLOCK_TICK_RATE
-5706a34613e1d00c51aedbdaf99e3d2155d07505 calibrate: Rework delay timer calibration
-2bddef3a90591d7bb8ebf9c40c74bc841fb0c591 treewide: Consolidate cycles_t
-552df7d5432334eb3cbedd73b6a8b86c1b61806c x86/tsc: Use rdtsc() instead of get_cycles()
-abe2593a4d74d3d34eb9118eba46d3ff567a9eb0 iommu/vt-d: Use ktime_get() instead of get_cycles()
-073f46cd00cd455adb0bb2f574bf6e01d1603d16 arcnet: Remove function timing code
-d4d94a1698abac6909eaa55cfd5796f206caebf6 misc: sgi-gru: Remove get_cycles() [ab]use
-019eb4038c8776441f860a4de41cb58e986c908a wifi: wil6210: Replace get_cyles() usage
-d7ac4b18a2cbd1e816d42d6f88c03b2483e672d2 crypto: tcrypt: Replace get_cycles() with ktime_get()
-86ae5d8e69a8ea822e9e867c1e001938b1be97b1 slub: Use prandom instead of get_cycles()
-1a7498be0b8f250dd6af5031f3545be5ba2b0973 ptp: ptp_vmclock: Replace get_cycles() usage
-2a6f28805eecb0484c70c1be45e610f49b7473e8 fbdev: udlfb: Replace get_cycles() with ktime_get()
-2681f482e07b1386f68879914e052374d87161b7 ext4: Replace get_cycles() usage with ktime_get()
-d0c4cdc75d7dc7479488ed9cbe3c573614620297 lib/tests: Replace get_cycles() with ktime_get()
-464b75bd3d024983c1c5250a8751073090aa6180 kcsan: Replace get_cycles() usage
-8d07398cda6e3cc721b3ff30f5f0f9f897cda549 kasan: sw_tags: Replace get_cycles() by random_get_entropy()
-58d32520dab9fad75b02491d5c01373a19249064 hamradio: baycom_epp: Remove BAYCOM_DEBUG
-98dd0bfda1daa4cfa8d6cf65025633ecdd8179ac random: Provide CONFIG_ARCH_HAS_RANDOM_ENTROPY
-59797a88899bb861cea72ecd404afe99727b9c4a alpha: Select ARCH_HAS_RANDOM_ENTROPY
-20e830cd65d0ff8c05ad303816585fac6c865b0c ARM: Select ARCH_HAS_RANDOM_ENTROPY
-6b4bbc17f23e1ef6401f0480909fc29d0fb98940 arm64: Select ARCH_HAS_RANDOM_ENTROPY
-07e43f431f2c09b9e6145ba790ddd07c47fb3f43 loongarch: Select ARCH_HAS_RANDOM_ENTROPY
-1b66902e773c9de76dab9177457594e975878566 m68k: Select ARCH_HAS_RANDOM_ENTROPY
-17df49005483412eb12c2200475c9523160e91a6 mips: Select ARCH_HAS_RANDOM_ENTROPY
-b1d513b5661bd4cc1b662450227fc751037b70d4 nios2: Select ARCH_HAS_RANDOM_ENTROPY
-bd9d3580e525d8a0c88cf1a173a8b15f55ecc237 openrisc: Select ARCH_HAS_RANDOM_ENTROPY
-290a08aa202ca23d946857dc9690a611ecb8e4bf parisc: Select ARCH_HAS_RANDOM_ENTROPY
-65a46e7d40096ae6dbf61bb177a75407b019ca8c powerpc/spufs: Use mftb() directly
-b72de8fef5da57654a9854fb254664b88ab5cf1d powerpc: Select ARCH_HAS_RANDOM_ENTROPY
-4eefd7896c8979c108eecb9668fe9551eeab4177 riscv: Select ARCH_HAS_RANDOM_ENTROPY
-7bb5b78cd7d20c9ecf1deb6f98cb532ac37de2e1 s390: Select ARCH_HAS_RANDOM_ENTROPY
-1562453500536241877b204181fc370ceff6d6dd sparc: Select ARCH_HAS_RANDOM_ENTROPY for SPARC64
-58bd4331b2da0ff62ffc8b32543d964445bf5352 x86: Select ARCH_HAS_RANDOM_ENTROPY
-4f7b68811bb6be347b794010429e839e7a23b9d8 treewide: Remove asm/timex.h includes from generic code
+ee8422d00b7cfa028823ebf1f28bf9dea428cac3 hfsplus: fix potential Allocation File corruption after fsync
+b6b592275aeff184aa82fcf6abccd833fb71b393 hfsplus: fix uninit-value by validating catalog record size
+e89b5724aaf362cc84ecacaf56eb09a88e57441e hfsplus: set ctime after setxattr and removexattr
+a46aaa76ad21de033f188595173e8ae7afefddc0 hfsplus: fix generic/533 test-case failure
+b099ed598c64c8d275fc8877ec521b58712ab103 hfsplus: fix to update ctime after rename
+a8eed0ba6a4b2f1803ecdfa9f11a4818cf87c474 hfsplus: refactor b-tree map page access and add node-type validation
+8ad2c6a36ac4328072377906a47ea0bff11e4032 hfsplus: validate b-tree node 0 bitmap at mount time
+897c2beb4a7799154a67942fa85a9678f885f36b hfsplus: fix generic/523 test-case failure
+90c500e4fd83fa33c09bc7ee23b6d9cc487ac733 hfsplus: fix held lock freed on hfsplus_fill_super()
+d47059dcc472ae823c7eebe87fb7cec9148b9f06 hfsplus: extract hidden directory search into a helper function
+6dca66d7ba1767d1e8688ee63162eca8d2248e8c hfsplus: fix potential race conditions in b-tree functionality
+cd3901f4c0348da84f33b6b6e3e8e9aa7e441d01 hfsplus: fix error processing issue in hfs_bmap_free()
+63584d76765bb3e212f70c4c3951ea785fabef1b hfsplus: fix logic of alloc/free b-tree node
+732af3aa6337fd56025c0548a9e54d6231052144 hfsplus: rework logic of map nodes creation in xattr b-tree
+c1307d18caa819ddc28459d858eb38fdd6c3f8a0 hfsplus: fix generic/642 failure
 
---===============6657409011641811002==--
+--===============4845118010613434256==--
