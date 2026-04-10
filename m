@@ -1,26 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tj/cgroup
-Date: Fri, 10 Apr 2026 08:51:49 -0000
-Message-Id: <177581110926.2710342.14912468862628085520@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs
+Date: Fri, 10 Apr 2026 08:53:59 -0000
+Message-Id: <177581123987.2711624.4971056006693476259@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tj/cgroup
-user: tj
+repo: pub/scm/linux/kernel/git/xiang/erofs
+user: xiang
 changes:
-  - ref: refs/heads/for-7.1
-    old: 6675af9c1a3251ff95ef1290f9317ba0e83ce99d
-    new: 3348e1e83a0f8a5ca1095843bc3316aaef7aae34
+  - ref: refs/heads/dev-test
+    old: 21e161de2dc660b1bb70ef5b156ab8e6e1cca3ab
+    new: a5242d37c83abe86df95c6941e2ace9f9055ffcb
     log: |
-         3348e1e83a0f8a5ca1095843bc3316aaef7aae34 cgroup/rdma: fix swapped arguments in pr_warn() format string
-         
-  - ref: refs/heads/for-next
-    old: 72156392efe9c6f7e7d801a66757af90d60240a1
-    new: 7bccd95b6a17f2c66a0b6b6f38cd3228c424f673
-    log: |
-         3348e1e83a0f8a5ca1095843bc3316aaef7aae34 cgroup/rdma: fix swapped arguments in pr_warn() format string
-         7bccd95b6a17f2c66a0b6b6f38cd3228c424f673 Merge branch 'for-7.1' into for-next
+         5c40d2e9e3ce9e81d76773c68756e9b07cce802c erofs: clean up encoded map flags
+         a5242d37c83abe86df95c6941e2ace9f9055ffcb erofs: error out obviously illegal extents in advance
          
