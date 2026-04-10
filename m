@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============6538484310734248109=="
+Content-Type: multipart/mixed; boundary="===============6927312694005241851=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/aalbersh/xfsprogs-dev
-Date: Fri, 10 Apr 2026 12:21:37 -0000
-Message-Id: <177582369709.2921980.7981185190196689034@gitolite.kernel.org>
+Subject: post-receive: pub/scm/fs/xfs/xfsprogs-dev
+Date: Fri, 10 Apr 2026 12:23:03 -0000
+Message-Id: <177582378326.2922990.16259756076511170777@gitolite.kernel.org>
 
---===============6538484310734248109==
+--===============6927312694005241851==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/aalbersh/xfsprogs-dev
+repo: pub/scm/fs/xfs/xfsprogs-dev
 user: aalbersh
 changes:
   - ref: refs/heads/for-next
@@ -20,7 +20,7 @@ changes:
     new: 8ef7291a272e4e29e38dda90afec56a983776187
     log: revlist-9d0bd1ecce3d-8ef7291a272e.txt
 
---===============6538484310734248109==
+--===============6927312694005241851==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -74,4 +74,4 @@ c2e07d407aeeafdd438b85f6b1dce29df075d5e8 xfs_scrub: clean up device-related erro
 5eb6d67a831928b4e3e4188857e27d0567ad9fad xfs_scrub: drop SCSI_VERIFY code from disk.
 8ef7291a272e4e29e38dda90afec56a983776187 xfs_scrub: raise media verification IO limits
 
---===============6538484310734248109==--
+--===============6927312694005241851==--
