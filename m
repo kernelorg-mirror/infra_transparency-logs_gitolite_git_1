@@ -1,52 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============4814614665127377763=="
+Content-Type: multipart/mixed; boundary="===============5452671159846709511=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
-Date: Fri, 10 Apr 2026 16:42:50 -0000
-Message-Id: <177583937065.3194593.9082352500195080799@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Fri, 10 Apr 2026 16:44:48 -0000
+Message-Id: <177583948831.3195815.14289401751312156936@gitolite.kernel.org>
 
---===============4814614665127377763==
+--===============5452671159846709511==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pci/pci
-user: kwilczynski
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
-  - ref: refs/heads/kwilczynski/static-sysfs-attributes-v4
-    old: 2f777eb230fe56aa419f1d913eeea58bada152ca
-    new: f357a95be37751a9b37591292dc119f9beb9edc1
-    log: revlist-2f777eb230fe-f357a95be377.txt
+  - ref: refs/heads/master
+    old: 9a9c8ce300cd3859cc87b408ef552cd697cc2ab7
+    new: 7c6c4ed80b874f721bc7c2c937e098c56e37d2f0
+    log: revlist-9a9c8ce300cd-7c6c4ed80b87.txt
 
---===============4814614665127377763==
+--===============5452671159846709511==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2f777eb230fe-f357a95be377.txt
+Content-Disposition: attachment; filename=revlist-9a9c8ce300cd-7c6c4ed80b87.txt
 
-593980b1ecf600283602c4bd99a4ac9741b94265 PCI/sysfs: Use PCI resource accessor macros
-7fcfad697afe88a4164a562f10cbb03629fa8fce PCI/sysfs: Only allow supported resource types in I/O and MMIO helpers
-f9ef7409bba15a8edb90cbc920347d49d4ad71fc PCI/sysfs: Use BAR length in pci_llseek_resource() when attr->size is zero
-4cce498848c5148d9aa71af7e349ecaebb516e4e PCI/sysfs: Add CAP_SYS_ADMIN check to __resource_resize_store()
-727729291934330cc1f695dc06a12ba1410dc4e7 PCI/sysfs: Add static PCI resource attribute macros
-14ea79959cea73e6761a4e3acafb4f1e8c5219ab PCI/sysfs: Convert PCI resource files to static attributes
-5efa89e9042667a84f82ec9a1d5a01bf43e36626 PCI/sysfs: Convert __resource_resize_store() to use static attributes
-71d5b6f1346bc0cd9345cbf6ec55a6dc74610b05 PCI/sysfs: Add stubs for pci_{create,remove}_sysfs_dev_files()
-c001288b8cbe979b6c1c44ba367eca8c68a0cbcd PCI/sysfs: Limit pci_sysfs_init() late_initcall compile scope
-a0e94db582b007f0ad4a39b62c88b0c7f0fdabc5 alpha/PCI: Add security_locked_down() check to pci_mmap_resource()
-2ce4c99eeb076b0e896c50c7a65ff2e08a1653e0 alpha/PCI: Use BAR index in sysfs attr->private instead of resource pointer
-fb373a0657d0e6f3e8dadcdc87e3ed2993d56e27 alpha/PCI: Use PCI resource accessor macros
-e679a41cb2d06ba61fd6b5a53075a60ddccf6b43 alpha/PCI: Fix __pci_mmap_fits() overflow for zero-length BARs
-484a7fabdba3fff998b2bf4a54df94d954ab9298 alpha/PCI: Remove WARN from __pci_mmap_fits()
-338e2e1baff8efe0653555ea0bb5b5c1d88ea21e alpha/PCI: Add static PCI resource attribute macros
-3e54fd8add054608eed576cb940b97d50113a321 alpha/PCI: Convert resource files to static attributes
-d1720e8cce1f5b00f39e810f4c4879311fe83884 PCI/sysfs: Remove pci_{create,remove}_sysfs_dev_files()
-2653a1b0d9c003a3e6a9e946db4dd13b2334aa6c PCI: Add macros for legacy I/O and memory address space sizes
-383353457a37284574c7fb8f3fa9fa4100921c7c alpha/PCI: Compute legacy size in pci_mmap_legacy_page_range()
-519f89201ed0f9b89027b772329b836125ca048a PCI/sysfs: Add __weak pci_legacy_has_sparse() helper
-7dfe97cd6aa47f0f8e6c8cda683c40d5f82fe1d6 PCI/sysfs: Convert legacy I/O and memory attributes to static definitions
-f357a95be37751a9b37591292dc119f9beb9edc1 PCI/sysfs: Remove pci_create_legacy_files() and pci_sysfs_init()
+57d2371d52be1d574b33382bfbf8052485b99d8b tools/power turbostat: Fix illegal memory access when SMT is present and disabled
+b8ead30e2b2c7f32c8d2782e805160b110766592 tools/power turbostat: Fix swidle header vs data display
+99b38fa34342b227a863948460b7937a97dbce28 tools/power turbostat: Eliminate unnecessary data structure allocation
+a444083286434ec1fd127c5da11a3091e6013008 tools/power/turbostat: Fix microcode patch level output for AMD/Hygon
+ed532d738a82269dfe490436b9b8def2274cfb6e tools/power turbostat: Consistently use print_float_value()
+23cb4f5c81766e70e5f32ed0987ee8fb5ab2e00a tools/power turbostat: Fix incorrect format variable
+b6398bc2ef3a78f1be37ba01ae0a5eedaee47803 tools/power turbostat: Fix --show/--hide for individual cpuidle counters
+cdbefe9d4029d4834d404f7ba13a960b38a69e88 tools/power turbostat: Fix delimiter bug in print functions
+340bba73c545bfc7e8fcbc5ee4c02f85088f024d pinctrl: intel: Improve capability support
+a4337a24d13e9e3b98a113e71d6b80dc5ed5f8c4 pinctrl: intel: Fix the revision for new features (1kOhm PD, HW debouncer)
+1ca468e78ea97c3365befdd408f71bda4b295134 pinctrl: intel: Enable 3-bit PAD_OWN feature
+1635c2acdde86c4f555b627aec873c8677c421ed cachefiles: fix incorrect dentry refcount in cachefiles_cull()
+07712db80857d5d09ae08f3df85a708ecfc3b61f eventpoll: defer struct eventpoll free to RCU grace period
+01c3ec507a33f30cf0992f86282d90ce9b7715c9 Merge tag 'intel-pinctrl-v7.0-2' of git://git.kernel.org/pub/scm/linux/kernel/git/pinctrl/intel into fixes
+db5b8cecbdf479ad13156af750377e5b43853fab pinctrl: mcp23s08: Disable all pin interrupts during probe
+828ec7f803f41588a120e6d804297e74a482ab9d gpio: bd72720: handle missing regmap
+1561d96f5f55c1bca9ff047ace5813f4f244eea6 gpio: tegra: fix irq_release_resources calling enable instead of disable
+e3b2cf6e5dba416a03152f299d99982dfe1e861d kernfs: pass struct ns_common instead of const void * for namespace tags
+1fe989e1c42a315c7e7918e7b812377137085036 kernfs: use namespace id instead of pointer for hashing and comparison
+cb76a81c7cec37bdf525164561b02665cd763421 kernfs: make directory seek namespace-aware
+57df6923ca53b524d06d2347b896d9de74b3bc86 gpio: tegra: return -ENOMEM on allocation failure in probe
+ba893caead54745595e29953f0531cf3651610aa tools/power turbostat: Allow execution to continue after perf_l2_init() failure
+77c3c619d2af2540b15e63dca768c0d86be746c9 Merge tag 'pinctrl-v7.0-4' of git://git.kernel.org/pub/scm/linux/kernel/git/linusw/linux-pinctrl
+017102b40c34b5a67de46230bdfb06096dd11716 Merge tag 'gpio-fixes-for-v7.0' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux
+96463e4e0268dddbdb60fd1b96800736aa2bade9 Merge tag 'turbostat-fixes-for-7.0' of git://git.kernel.org/pub/scm/linux/kernel/git/lenb/linux
+7c6c4ed80b874f721bc7c2c937e098c56e37d2f0 Merge tag 'vfs-7.0-rc8.fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
 
---===============4814614665127377763==--
+--===============5452671159846709511==--
