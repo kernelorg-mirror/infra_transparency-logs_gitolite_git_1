@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
-Date: Fri, 10 Apr 2026 16:50:53 -0000
-Message-Id: <177583985319.3204345.17301244770507017910@gitolite.kernel.org>
+Date: Fri, 10 Apr 2026 16:56:07 -0000
+Message-Id: <177584016793.3210186.15058524610177505509@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,5 +12,11 @@ repo: pub/scm/linux/kernel/git/perf/perf-tools-next
 user: namhyung
 changes:
   - ref: refs/heads/tmp.perf-tools-next
-    old: b79048191c087abc38f7991e0c1b2f1621aaf95e
-    new: 4cf1f549bbcdfea9c20df52994bb342677472dcd
+    old: 4cf1f549bbcdfea9c20df52994bb342677472dcd
+    new: 4e03d6494f9504f8af46ba68a2a8b6877c196789
+    log: |
+         faaf70f938236b94b150320e452fe2d577936a42 perf sort: Support sort ASE and SME
+         0f648fc245c316d799f853d7ab97f2bfef68d7dd perf sort: Sort disabled and full predicated flags
+         54940f15269e0a5f6249e8520f81c2b980111f42 perf report: Update document for SIMD flags
+         4e03d6494f9504f8af46ba68a2a8b6877c196789 perf arm_spe: Improve SIMD flags setting
+         
