@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5230420359189678244=="
+Content-Type: multipart/mixed; boundary="===============3792472048490376243=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Fri, 10 Apr 2026 15:57:12 -0000
-Message-Id: <177583663213.3144012.13270973661215908342@gitolite.kernel.org>
+Date: Fri, 10 Apr 2026 15:57:14 -0000
+Message-Id: <177583663475.3144249.3922798867443774917@gitolite.kernel.org>
 
---===============5230420359189678244==
+--===============3792472048490376243==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/10GbE
+  - ref: refs/heads/40GbE
     old: 1caa871bb0615e2b68aa11bb7b453eeac770ea1d
     new: 12ff2a4aee6c86746623d5aed24389dbf6dffded
     log: revlist-1caa871bb061-12ff2a4aee6c.txt
 
---===============5230420359189678244==
+--===============3792472048490376243==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -466,4 +466,4 @@ e159f05e12cc1111a3103b99375ddf0dfd0e7d63 net: txgbe: fix RTNL assertion warning 
 4ae0604a0673e11e2075b178387151fcad5111b5 net: airoha: Add dma_rmb() and READ_ONCE() in airoha_qdma_rx_process()
 12ff2a4aee6c86746623d5aed24389dbf6dffded eth: fbnic: Use wake instead of start
 
---===============5230420359189678244==--
+--===============3792472048490376243==--
