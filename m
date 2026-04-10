@@ -1,22 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Fri, 10 Apr 2026 20:18:52 -0000
-Message-Id: <177585233239.3417570.10837310111445407826@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Fri, 10 Apr 2026 20:51:08 -0000
+Message-Id: <177585426879.3450101.3473159519365139747@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/cel/linux
-user: cel
+repo: pub/scm/linux/kernel/git/tip/tip
+user: tglx
 changes:
-  - ref: refs/heads/nfsd-testing
-    old: 0aed890285bcd08cb4c5ad800c1f245b37b7b290
-    new: 1388f70447e3f27ea0e425ef172bf113d1071993
+  - ref: refs/heads/timers/urgent
+    old: 82b915051d32a68ea3bbe261c93f5620699ff047
+    new: d6e152d905bdb1f32f9d99775e2f453350399a6a
     log: |
-         a7f570141bae209189f05fdff295f67fe84dd183 nfsd: update mtime/ctime on CLONE in presense of delegated attributes
-         d0814470307048890b3cf6c8b373815f0b8cd64d nfsd: update mtime/ctime on COPY in presence of delegated attributes
-         60c1713c4d775316ae346a07125acc8ea3db9b99 [DEBUG] Add instrumentation for nfsd_mutex contention debugging
-         1388f70447e3f27ea0e425ef172bf113d1071993 siw: Enable try_gso
+         d6e152d905bdb1f32f9d99775e2f453350399a6a clockevents: Prevent timer interrupt starvation
          
