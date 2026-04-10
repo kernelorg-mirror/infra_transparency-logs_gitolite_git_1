@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/firmware/linux-firmware
-Date: Fri, 10 Apr 2026 18:26:04 -0000
-Message-Id: <177584556482.3300410.5037190029868330622@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/cxl/cxl
+Date: Fri, 10 Apr 2026 18:38:54 -0000
+Message-Id: <177584633413.3312975.12034749572027191597@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/firmware/linux-firmware
-user: jwboyer
+repo: pub/scm/linux/kernel/git/cxl/cxl
+user: djiang
 changes:
-  - ref: refs/notes/signatures/tar
-    old: 0ba72bf1ae45504cfe3327283b69ac464c96bf1a
-    new: b37d6d7565e54a72e87dd5d8060cb3725584e6a6
+  - ref: refs/heads/next
+    old: bfbb6cb1b6e4086b00584c4269324bb15f7d9221
+    new: 3939dba00f981c26d1748769f2f28a3cc0afb6a8
     log: |
-         b37d6d7565e54a72e87dd5d8060cb3725584e6a6 Notes added by 'git notes add'
+         3624a22783b74ffebaa7d9f286e203604baa06c7 cxl/hdm: Add support for 32 switch decoders
+         3939dba00f981c26d1748769f2f28a3cc0afb6a8 Merge branch 'for-7.1/cxl-misc' into cxl-for-next
          
