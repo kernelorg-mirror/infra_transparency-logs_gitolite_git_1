@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
-Date: Fri, 10 Apr 2026 06:26:26 -0000
-Message-Id: <177580238615.2527874.2101399552715414784@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tj/sched_ext
+Date: Fri, 10 Apr 2026 06:26:34 -0000
+Message-Id: <177580239459.2528128.3195921587994582082@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ath/ath
-user: jjohnson
+repo: pub/scm/linux/kernel/git/tj/sched_ext
+user: tj
 changes:
-  - ref: refs/heads/pending
-    old: 929298742bb5dfacd53ea99cf989cc81210f90a3
-    new: 78f66a67377c6a40edeebaa1909058b72677e892
-    log: |
-         78f66a67377c6a40edeebaa1909058b72677e892 wifi: ath12k: avoid dynamic alloc when parsing wmi tb
-         
+  - ref: refs/heads/scx-kf-allowed-filter
+    old: 0000000000000000000000000000000000000000
+    new: 8977fa976a80fdafc97d6307dfc164d47318249f
