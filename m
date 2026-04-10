@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
-Date: Fri, 10 Apr 2026 08:22:09 -0000
-Message-Id: <177580932927.2659634.381100177687063861@gitolite.kernel.org>
+Date: Fri, 10 Apr 2026 08:26:30 -0000
+Message-Id: <177580959022.2684542.5417185470084945703@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,6 +11,6 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/brgl/linux
 user: brgl
 changes:
-  - ref: refs/tags/gpio-fixes-for-v7.0
+  - ref: refs/tags/pwrseq-updates-for-v7.1-rc1
     old: 0000000000000000000000000000000000000000
-    new: aa2397ad0450077957ea7722c2ec8e607af4c526
+    new: b415a6e2c093aa5efa28d73c700276e3c2fafe63
