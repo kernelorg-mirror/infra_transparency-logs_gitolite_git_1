@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5786851236511059257=="
+Content-Type: multipart/mixed; boundary="===============2462760785608907664=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Fri, 10 Apr 2026 16:37:20 -0000
-Message-Id: <177583904054.3188898.5247913982382303434@gitolite.kernel.org>
+Date: Fri, 10 Apr 2026 16:37:23 -0000
+Message-Id: <177583904337.3188986.13796816668221448782@gitolite.kernel.org>
 
---===============5786851236511059257==
+--===============2462760785608907664==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/10GbE
+  - ref: refs/heads/40GbE
     old: 3741f8fa004bf598cd5032b0ff240984332d6f05
     new: 42f9b4c6ef19e71d2c7d9bfd3c5037d4fe434ad7
     log: revlist-3741f8fa004b-42f9b4c6ef19.txt
 
---===============5786851236511059257==
+--===============2462760785608907664==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -586,4 +586,4 @@ a17d3c3d0cb2827eaa87c43e748095e21f8cc1ab net: macb: Use napi_schedule_irqoff() i
 3d2c3d2eea9acdbee5b5742d15d021069b49d3f9 selftests: net: py: explicitly forbid multiple ksft_run() calls
 42f9b4c6ef19e71d2c7d9bfd3c5037d4fe434ad7 tools: ynl: tests: fix leading space on Makefile target
 
---===============5786851236511059257==--
+--===============2462760785608907664==--
