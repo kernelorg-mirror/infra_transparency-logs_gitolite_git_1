@@ -1,23 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/xen/tip
-Date: Fri, 10 Apr 2026 09:08:21 -0000
-Message-Id: <177581210155.2727668.1235822931334951825@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs
+Date: Fri, 10 Apr 2026 09:35:18 -0000
+Message-Id: <177581371898.2754174.9085422333745559316@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/xen/tip
-user: jgross
+repo: pub/scm/linux/kernel/git/xiang/erofs
+user: xiang
 changes:
-  - ref: refs/heads/linux-next
-    old: 591cd656a1bf5ea94a222af5ef2ee76df029c1d2
-    new: 3f100dd61ad4ee7c1fb6a44775a928dcdba7515b
+  - ref: refs/heads/dev
+    old: 63c2f06198ca7513433f1c92f2c654869d72417e
+    new: a5242d37c83abe86df95c6941e2ace9f9055ffcb
     log: |
-         f45ab27774aadeee28f093a9f074892e9bebb586 ARM: xen: validate hypervisor compatible before parsing its version
-         7f8862d2873d8b0e0df805a9aef1972d8ad4f08e xen/manage: unwind partial shutdown watcher setup on error
-         fdfdd01e801f4e808cba27b3e78504cfeca610d9 xen/swiotlb: fix stale reference to swiotlb_unmap_page()
-         bdd5de3d9e2da45852d0d21313af3a02f0e0626e hvc/xen: Check console connection flag
-         3f100dd61ad4ee7c1fb6a44775a928dcdba7515b xen/grant-table: guard gnttab_suspend/resume with CONFIG_HIBERNATE_CALLBACKS
+         21e161de2dc660b1bb70ef5b156ab8e6e1cca3ab erofs: fix unsigned underflow in z_erofs_lz4_handle_overlap()
+         5c40d2e9e3ce9e81d76773c68756e9b07cce802c erofs: clean up encoded map flags
+         a5242d37c83abe86df95c6941e2ace9f9055ffcb erofs: error out obviously illegal extents in advance
          
