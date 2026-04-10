@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4570906162089618033=="
+Content-Type: multipart/mixed; boundary="===============7523168943788652772=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mptcp/linux
-Date: Fri, 10 Apr 2026 09:01:36 -0000
-Message-Id: <177581169655.2721208.2670661794389531507@gitolite.kernel.org>
+Date: Fri, 10 Apr 2026 09:02:18 -0000
+Message-Id: <177581173816.2721857.11851348266142301853@gitolite.kernel.org>
 
---===============4570906162089618033==
+--===============7523168943788652772==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/mptcp/linux
 user: matttbe
 changes:
-  - ref: refs/heads/export
-    old: 6b6fb9b263033a86c5b1552860b27fe83196516a
-    new: 10e420f7a980b52e6688e0931e33b7baee6dc507
-    log: revlist-6b6fb9b26303-10e420f7a980.txt
+  - ref: refs/heads/export-net
+    old: 323758aa61504449b3abc7d2adeddfcd62b2a56e
+    new: fea666f0d245e766fe87c93c50fc624ad7bbc23f
+    log: revlist-323758aa6150-fea666f0d245.txt
 
---===============4570906162089618033==
+--===============7523168943788652772==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6b6fb9b26303-10e420f7a980.txt
+Content-Disposition: attachment; filename=revlist-323758aa6150-fea666f0d245.txt
 
 fc1e8a6f129d87c64ac8e58b50d9dfa66217cfda Input: bcm5974 - recover from failed mode switch
 29d1f56c4f3001b7f547123e0a307c009ac717f8 Revert "arm64: dts: rockchip: Further describe the WiFi for the Pinebook Pro"
@@ -358,9 +358,6 @@ cece9dc61daab6006d3ac9d36a0df2dd58fef18d mm: reinstate unconditional writeback s
 9709b56d908acc120fe8b4ae250b3c9d749ea832 net: ipa: fix GENERIC_CMD register field masks for IPA v5.0+
 56007972c0b1e783ca714d6f1f4d6e66e531d21f net: ipa: fix event ring index not programmed for IPA v5.0+
 ebe560ea5f54134279356703e73b7f867c89db13 l2tp: Drop large packets with UDP encap
-ebe5fd2ed20af5ae176dd41dd4a85a3cdc738b8a r8152: Add support for 5Gbit Link Speeds and EEE
-fd3c7d080df53136c7e7e37f753fb7bd4640ca42 r8152: Add support for the RTL8157 hardware
-9700282a7ec721e285771d995ccfe33845e776dc Merge branch 'r8152-add-support-for-the-rtl8157-5gbit-usb-ethernet-chip'
 c71ba669b570c7b3f86ec875be222ea11dacb352 nfc: pn533: allocate rx skb before consuming bytes
 7e0548525abd2bff9694e016b6a469ccd2d5a053 iommu: Ensure .iotlb_sync is called correctly
 3fd0da4fd8851a7e62d009b7db6c4a05b092bc19 net: lan966x: fix page_pool error handling in lan966x_fdma_rx_alloc_page_pool()
@@ -370,36 +367,12 @@ b4afe3fa76a88ee7d3d8802b43fde89aa02f8e0d Merge branch 'net-lan966x-fix-page_pool
 acfa7a35442571e316e1b3f391f481e2f92ac076 Merge tag 'platform-drivers-x86-v7.0-4' of git://git.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
 8b02520ec5f7b0d976e8bbc072242275acd472d0 Merge tag 'iommu-fixes-v7.0-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/iommu/linux
 a55f7f5f29b32c2c53cc291899cf9b0c25a07f7c Merge tag 'net-7.0-rc8' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
-b6e39e48469e37057fce27a1b87cf6d3e456aa42 Merge git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 eb216e422044f5523da038136ce0f2abcc6a75bc MAINTAINERS: Remove Salil Mehta as HiSilicon HNS3/HNS Ethernet maintainer
-7789c6bb76acf21539c2c74b0cc869bb57de99e6 net: Add queue-create operation
-d04686d9bc86432ea3008d5f358373d8466d1943 net: Implement netdev_nl_queue_create_doit
-21d58b35e500ae099188c1be8398442733bc0d89 net: Add lease info to queue-get response
-22fdf28f7c03d3c130103ee77382c53d293f1732 net, ethtool: Disallow leased real rxqs to be resized
-1e91c98bc9a8ef8198e73151b2a118cd3748925d net: Slightly simplify net_mp_{open,close}_rxq
-5602ad61ebee99c83081fba1aaf5814736edc3e7 net: Proxy netif_mp_{open,close}_rxq for leased queues
-222b5566a02dbf136291376e4aa1806213fe9fa2 net: Proxy netdev_queue_get_dma_dev for leased queues
-9368397fb92ac95a0495cd73b5e3194ade6b883d xsk: Extend xsk_rcv_check validation
-910f636db958b65c03eb2ea6f2f93c8d426c6066 xsk: Proxy pool management for leased queues
-48103896053828a8b4d25839a39aa8514071914a netkit: Add single device mode for netkit
-b789acc0695cc273736ada06aac5f3c830af39e1 netkit: Implement rtnl_link_ops->alloc and ndo_queue_create
-25444470570b44da61366e307b3e54be653bf595 netkit: Add netkit notifier to check for unregistering devices
-a14fd6474883871f0cb348db7b58688d9953c178 netkit: Add xsk support for af_xdp applications
-65d657d806848add1e1f0632562d7f47d5d5c188 selftests/net: Add queue leasing tests with netkit
-15089225889ba4b29f0263757cd66932fa676cb0 Merge branch 'netkit-support-for-io_uring-zero-copy-and-af_xdp'
-581d28606cdd51c5da06330e8fb97476503cd74d net: remove the netif_get_rx_queue_lease_locked() helpers
-9addea5d44b69d377ba97a36f7a19e1097969e18 net: use get_random_u{16,32,64}() where appropriate
-8e6405f8218b3f412d36b772318e94d589513eba ipv6: move IFA_F_PERMANENT percpu allocation in process scope
 e1ab601bb23006e2710359c0fba27342f8887aec selftests: Migrate nsim-only MACsec tests to Python
 c89f194b6b8eddc905425a4ad702db803f50af47 nsim: Add support for VLAN filters
 26555673bc7888b80d5867618525eb04d4216a24 selftests: Add MACsec VLAN propagation traffic test
 a363b1c8be879c79a688eaf93ba01b63f8b0e63c macsec: Support VLAN-filtering lower devices
 b02e3c4c80c91693b05c82751149d05d921bccb9 Merge branch 'macsec-add-support-for-vlan-filtering-in-offload-mode'
-4de7a8acd18e2b71591e286678a8ed711e258090 dt-bindings: net: realtek,rtl82xx: Keep property list sorted
-bfb859a5cb4941db06b37fd8bbd8e6d8a0dd5dcf dt-bindings: net: realtek,rtl82xx: Document realtek,*-ssc-enable property
-84c5a3f00084ffd741a4c3261a58dd10cd5aceaf net: phy: realtek: Add property to enable SSC
-5ecbebc9483c61280153ebdceda5f4db7ae63d18 ppp: consolidate refcount decrements
-a17d3c3d0cb2827eaa87c43e748095e21f8cc1ab net: macb: Use napi_schedule_irqoff() in IRQ handler
 57f3f53d2c9c5a9e133596e2f7bc1c50688a6d38 net: bcmgenet: fix off-by-one in bcmgenet_put_txcb
 3f3168300efb839028328d720ab3962f91d6a0d0 net: bcmgenet: fix leaking free_bds
 5393b2b5bee2ac51a0043dc7f4ac3475f053d08d net: bcmgenet: fix racing timeout handler
@@ -407,35 +380,13 @@ a17d3c3d0cb2827eaa87c43e748095e21f8cc1ab net: macb: Use napi_schedule_irqoff() i
 e159f05e12cc1111a3103b99375ddf0dfd0e7d63 net: txgbe: fix RTNL assertion warning when remove module
 4ae0604a0673e11e2075b178387151fcad5111b5 net: airoha: Add dma_rmb() and READ_ONCE() in airoha_qdma_rx_process()
 12ff2a4aee6c86746623d5aed24389dbf6dffded eth: fbnic: Use wake instead of start
-3c6132ccc58e8adf044166728e783f55dc323ef9 ipv6: sit: remove redundant ret = 0 assignment
-3d2c3d2eea9acdbee5b5742d15d021069b49d3f9 selftests: net: py: explicitly forbid multiple ksft_run() calls
-42f9b4c6ef19e71d2c7d9bfd3c5037d4fe434ad7 tools: ynl: tests: fix leading space on Makefile target
-9b51a6da9cdebe2a0939a00ba8ae05890a574884 DO-NOT-MERGE: git markup: net
-2c38c7cadad01a8cf1851754c7957e20b02ab147 DO-NOT-MERGE: git markup: fixes other trees
-11de2c5f7836418aebef3f5a7945da4a90421db2 DO-NOT-MERGE: git markup: fixes net
-4f72a0f1edc2fe510e52218dddb883efe8931dec DO-NOT-MERGE: mptcp: add CI support
-52ecb190ca03c008f24e4560c993793ab110c312 DO-NOT-MERGE: git markup: end common net net-next
-ddaa09e430d6fa5a6e63fd7c6208d0378c23ad53 TopGit-driven merge of branches:
-aeb23ec3c08d66ceaf566b09f73f0ceae609ea73 DO-NOT-MERGE: git markup: net-next
-61ac45e47899d69c972ffced5bc3085d80000597 DO-NOT-MERGE: git markup: fixes net-next
-66b8dd571db4d7809afacc34a5723fa4c8a357ce mptcp: pm: init and release mptcp_pm_ops
-94ab96505646b45cb8a4a45fca3e5539d5a63fed mptcp: pm: add get_local_id() interface
-eae1295c1a9fd3ca4f26bb23aa19cb3c0726244e mptcp: pm: add get_priority() interface
-bc1d2ffaac64ffee3c936b063eaa02fe61756df5 DO-NOT-MERGE: git markup: features net-next
-1bb872bc52b2351192f9f5d76d9311119ec16978 DO-NOT-MERGE: git markup: features net-next-next
-35f698e3407ce4394a3f2906df8f9aa38a419ed2 bpf: Add mptcp_subflow bpf_iter
-8dc725b52e786fa159bc4bb1d8a4211085bc5cf5 selftests/bpf: More endpoints for endpoint_init
-09b07129d75f9f426c808638007ff074da0504eb selftests/bpf: Drop cgroup_fd of run_mptcpify
-82eb10280edf71525ce95e2e8fa7d6057d628bed bpf: Add mptcp packet scheduler struct_ops
-632debb1a972ee4e3bb3f34a772cceb3a9e0ea5e bpf: Export mptcp packet scheduler helpers
-232a4a253c7b398e996d3247649502b980e02183 selftests/bpf: Add bpf scheduler test
-14bde4089fba63c68b9a9c8b27d121cad80e13b5 selftests/bpf: Add bpf_first scheduler & test
-f323b6bbf189196439f74c2bb65bbd14620e4bb5 selftests/bpf: Add bpf_bkup scheduler & test
-32ba32c50e288e24c6dba1207ebdf8140e11bf75 selftests/bpf: Add bpf_rr scheduler & test
-1b08cc24a6cb3ba27fec2c4ec44dc517a9407715 selftests/bpf: Add bpf_red scheduler & test
-7625d38510a0e2a5652e70fe855a90a2ee0d9771 selftests/bpf: Add bpf_burst scheduler & test
-82612fe5cf61f0e64022e446dac173a222f26c6f DO-NOT-MERGE: git markup: features other trees
-45ee59f138d1db8f2723813da6887ce60d768aa6 DO-NOT-MERGE: mptcp: improve code coverage for CI
-10e420f7a980b52e6688e0931e33b7baee6dc507 DO-NOT-MERGE: mptcp: enabled by default
+f94b95e8dc670239fd6604f9adb1261cb047ff00 DO-NOT-MERGE: git markup: net
+c4593c17194d193f6a483c82cd0ed209ad2228dc DO-NOT-MERGE: git markup: fixes other trees
+f0b52519aa21fd41ff9067dfade8497dd081f632 DO-NOT-MERGE: git markup: fixes net
+961e5e711ba08b9e934254dfcfd3ec075f4d1120 DO-NOT-MERGE: mptcp: add CI support
+4d19358c06fe1ff37806128a4e0ef7c1239d2dce DO-NOT-MERGE: git markup: end common net net-next
+a506484135ab68f4738f59768a603111ea95e86c DO-NOT-MERGE: git markup: fixes net only
+a27d1d487de02c8112a30f653895d8f9f21949d6 DO-NOT-MERGE: mptcp: improve code coverage for CI (net)
+fea666f0d245e766fe87c93c50fc624ad7bbc23f DO-NOT-MERGE: mptcp: enabled by default (net)
 
---===============4570906162089618033==--
+--===============7523168943788652772==--
