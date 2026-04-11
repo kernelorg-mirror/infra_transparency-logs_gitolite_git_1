@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4194586800588607374=="
+Content-Type: multipart/mixed; boundary="===============7377625320722936226=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
-Date: Sat, 11 Apr 2026 08:09:57 -0000
-Message-Id: <177589499755.4121361.7669221265396961955@gitolite.kernel.org>
+Date: Sat, 11 Apr 2026 08:16:30 -0000
+Message-Id: <177589539085.4129958.4354731366277070499@gitolite.kernel.org>
 
---===============4194586800588607374==
+--===============7377625320722936226==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,51 +16,65 @@ repo: pub/scm/linux/kernel/git/soc/soc
 user: krzk
 git_push_cert_status: Y
 changes:
-  - ref: refs/heads/soc/dt
-    old: 104f1e3f6d03f848f88fe116c7290512de7d6350
-    new: 4177ec9d5865710c5964c08167d20a74c17f88ab
-    log: |
-         75d627e5571a5ef313f6f553b7749b124c923c3d dt-bindings: clock: rockchip: Add RV1103B CRU support
-         b2038df0b535bc0497eca9db15a08c4586e0033f Merge branch 'v7.1-shared/clkids' into v7.1-armsoc/dts32
-         25c2721f18ff97226a6561aedc9f8f76a51fe2e8 dt-bindings: soc: rockchip: grf: Add RV1103B compatibles
-         b4dc241c68f5a2a6e312259bf23885d693f91960 ARM: dts: rockchip: Add support for RV1103B
-         2ea01fbb1d29d2349aa489eb884938898f10a84d dt-bindings: arm: rockchip: Add Omega4 Evaluation board
-         683192d7d5b47e89d920867f7c6997d2c0d1a0ad ARM: dts: rockchip: Add Onion Omega4 Evaluation Board
-         4177ec9d5865710c5964c08167d20a74c17f88ab Merge tag 'v7.1-rockchip-dts32-2' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/mmind/linux-rockchip into soc/dt
-         
-  - ref: refs/heads/rockchip/dt32-2
+  - ref: refs/heads/arm/fixes
+    old: eaad992e3fa8086db47f2cf05498af518ca5edda
+    new: 90ac490364bd7e3c161037ce86b6a313cdb09ae7
+    log: revlist-eaad992e3fa8-90ac490364bd.txt
+  - ref: refs/heads/nxp/fixes-2
     old: 0000000000000000000000000000000000000000
-    new: 683192d7d5b47e89d920867f7c6997d2c0d1a0ad
+    new: 42a9f5a16328ed78a88e0498556965b6c6ec515c
 
---===============4194586800588607374==
+--===============7377625320722936226==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher krzk@kernel.org 1775894995 +0200
+pusher krzk@kernel.org 1775895389 +0200
 pushee kernel.org:/pub/scm/linux/kernel/git/soc/soc.git
-nonce 1775894995-5c1e7abd4686ff6585d7da3fd6673ce49924d666
+nonce 1775895388-8f443b03dc7efc0f702b194133ac0dd83a5ca964
 
-104f1e3f6d03f848f88fe116c7290512de7d6350 4177ec9d5865710c5964c08167d20a74c17f88ab refs/heads/soc/dt
-0000000000000000000000000000000000000000 683192d7d5b47e89d920867f7c6997d2c0d1a0ad refs/heads/rockchip/dt32-2
+eaad992e3fa8086db47f2cf05498af518ca5edda 90ac490364bd7e3c161037ce86b6a313cdb09ae7 refs/heads/arm/fixes
+0000000000000000000000000000000000000000 42a9f5a16328ed78a88e0498556965b6c6ec515c refs/heads/nxp/fixes-2
 -----BEGIN PGP SIGNATURE-----
 
-iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmnaAdMQHGtyemtAa2Vy
-bmVsLm9yZwAKCRDBN2bmhouD1x4LD/4xZFG6MPd9UAFELXxzgCl5Siv2rzZOAumY
-nRx0TuIjg/B2+XhQ8FQExny1dr0beqXPGzf5srE+UzfRJcCcvQ4UsvV3OoOpP0Pz
-u657apcXKwnjGZJCSt6hLI4Fp6hx1kCVk/YJ8wmVkNTmEKoogl+ZgR2K+hLY6kHJ
-yk78EXeRSIV6v9y+mp1+8QW/Jyx0NCqw+/RYICfKwNoIwQY0AX6QnByaPQXHM9fW
-zo3ahVn+XWTuiIp7SdWQcgREweJwF9T+fnSS6qFo3XqIo4hF7ftVN0X79qgmQypM
-KABxqUtLAV+f6c5coJPwwJpTpXSuGm6QQDoTpbuUM9Mni8OZAGiF+OIC6Sw4k0Xs
-oFRRpoM0V4zPlOWGE9sXajeeUuACVItNub4TjRR9fIwIxIbckqk5oG9qgXpUpcej
-NVPvaovTe39TK0fMxxz4x2wj3+3rHM0VntfUOfS3kSrirrGSMFwqFOnq/hyeMACS
-Cuix0V9v8I/xWEUmMMjL6FItGmhW1tbxc0IdpwLxKZQ+pAKVn+TQZwBTiAMvgzq3
-A1FAX5xf3KReY6m3Sn0hYw4oaHZfly7EvIXqJPb5sCAo9Dwn/oDE3nasQIi49bP5
-dA+jfHDikRejmMnxwGk4P0ebpde29q9s22k07YxPPhoz0eKLYR+AEYiHTrqzrjf7
-/JnCZuZ40A==
-=Ywny
+iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmnaA10QHGtyemtAa2Vy
+bmVsLm9yZwAKCRDBN2bmhouD1x5TD/4qK4mVyGDGLzsmvajSYdWbGvLw7KegiAEW
+xz5of42vmC6Xu5UiEHkpxHTQEDSWTSNIQR0x7KIZS3TrSeG+IZYtY4NIUhbPszpx
+ngBJYYqAAq//f2YfrUQjDyAdJrornHYPNYHy2ZhR7eQBKHHzF3lzr3KPADkV+3+y
+entoefrvLPbvB7RbfdG50oum769hx2yEIRtSYH5F8rV5uCgxZFJusYIs6Hgsvjf1
+WFZgGrW8HkR44frTIpvmllh9X/kf5LtLJDtXrmvrSsTkGmjMVQOx6404RwnFjAdG
+0FH7oOldUY25WPky6K0+O5Qx1uR5hufRJ58DgiyrDX4NqRThFGeGGD3j5SszPTST
+fA/n1SGlWtiOo2dMtHFyNUYNnAby1zjz9rpuNPcaYwLYHSCt+zNEotnuTmuNP9eO
+bYKzhcRGQq9wqlSuUWoI1n0XINLtBbUhg4kdXuOoKrMQKDt9OtBozCpynbZIB7nr
+OwNla+YZWSY+fJ/TIUFYtfE4Bspel4GlifBww3I9/GAVyt4darz3mYUyYEfvNoQf
+Vk2VRH+8v43y1Srfsy1FTScYrqpRHLtIz1BDUeG16C7qrGUuo2TWmLyL7uDiMqT4
+/uibAH/Tl9omhyXupmg/tIdFWoDLl990I9nG0ELz5hCNbGsLvHDa+NvHbCd02aoo
+ypXUo9qHLQ==
+=6kSr
 -----END PGP SIGNATURE-----
 
---===============4194586800588607374==--
+--===============7377625320722936226==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-eaad992e3fa8-90ac490364bd.txt
+
+3b778178997aee24537b521a8cb60970bc1ce01c arm64: dts: imx8mp-debix-model-a: Correct PAD settings for PMIC_nINT
+2ea7872048a179b0ea8dadc67771961df3f0fc4a arm64: dts: imx8mp-debix-som-a: Correct PAD settings for PMIC_nINT
+741d6ac1a2a2e0f3e2cae5eef3516cdd75119e83 arm64: dts: imx8mp-navqp: Correct PAD settings for PMIC_nINT
+ea8c90f5c7ceeb6657a8fe564aa7b190dce298a6 arm64: dts: imx8mp-icore-mx8mp: Correct PAD settings for PMIC_nINT
+c46c5a54443440ce0f71de9f4df9dd860f5c2afd arm64: dts: imx8mp-edm-g: Correct PAD settings for PMIC_nINT
+e6d2d8e49ca34bb39126a69128794d08ffd7c83e arm64: dts: imx8mp-aristainetos3a-som-v1: Correct PAD settings for PMIC_nINT
+16611eda2c7584a1a7d6f80511d825e5108f026c arm64: dts: imx8mp-nitrogen-som: Correct PAD settings for PMIC_nINT
+695a476275cfb9c798a696aeaa43967701d5c78a arm64: dts: imx8mp-sr-som: Correct PAD settings for PMIC_nINT
+daaf41ee72fb5fad936e7051a015cccae9b33937 arm64: dts: imx8mp-ultra-mach-sbc: Correct PAD settings for PMIC_nINT
+f9ed5afc988da3e22543725e35be6addbb0497bc arm64: dts: imx8mp-dhcom-som: Correct PAD settings for PMIC_nINT
+8ff145577e93f312ff398cb950ee3bd44835f5be arm64: dts: imx8mp-data-modul-edm-sbc: Correct PAD settings for PMIC_nINT
+721dec3ee9ff5231d13a412ff87df63b966d137b arm64: dts: imx8mm-emtop-som: Correct PAD settings for PMIC_nINT
+0fb37990774113afd943eaa91323679388584b6d arm64: dts: imx8mn-tqma8mqnl: Correct PAD settings for PMIC_nINT
+42a9f5a16328ed78a88e0498556965b6c6ec515c arm64: dts: imx8mm-tqma8mqml: Correct PAD settings for PMIC_nINT
+90ac490364bd7e3c161037ce86b6a313cdb09ae7 Merge tag 'imx-fixes-7.0-2nd' of https://git.kernel.org/pub/scm/linux/kernel/git/frank.li/linux into arm/fixes
+
+--===============7377625320722936226==--
