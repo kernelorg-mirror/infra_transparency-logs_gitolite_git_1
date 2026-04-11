@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/maz/vminstall
-Date: Sat, 11 Apr 2026 13:29:09 -0000
-Message-Id: <177591414936.466272.7476728409160691476@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/arighi/linux
+Date: Sat, 11 Apr 2026 13:30:35 -0000
+Message-Id: <177591423588.469585.14348342861297701620@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/maz/vminstall
-user: maz
+repo: pub/scm/linux/kernel/git/arighi/linux
+user: arighi
 changes:
-  - ref: refs/heads/master
-    old: 25668de86a463d060e06a5d4c4bd670a10c19ac8
-    new: e1c373cfe95f1024ec705d2dacc89e769868c4eb
+  - ref: refs/heads/scx
+    old: 9ac3f08d76f4254ec11c2f96bb287d91d980d177
+    new: 119f16a87e0d2a96dd27cdd2a97eb0faa5f02a34
     log: |
-         e1c373cfe95f1024ec705d2dacc89e769868c4eb Add initial support for qcow2 images
+         0f29aee49eb167bebc7199b59d3dec90bc34a9ba sched/proxy: Respect migrate_disable() for proxy lock owner in affine_move_task
+         119f16a87e0d2a96dd27cdd2a97eb0faa5f02a34 WIP: sched_ext: Fix migration disabled tasks with proxy exec
          
