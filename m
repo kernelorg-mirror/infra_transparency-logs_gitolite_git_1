@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Sat, 11 Apr 2026 11:58:43 -0000
-Message-Id: <177590872354.215904.18397889889763083301@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Sat, 11 Apr 2026 11:59:38 -0000
+Message-Id: <177590877875.216510.15809021259417506630@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
+repo: pub/scm/linux/kernel/git/broonie/spi
 user: broonie
 changes:
-  - ref: refs/heads/spi-7.1
-    old: f79ee9e4b23244e77b28d176ce99a2d84d813ac5
-    new: c4c3fc872d2a05bf10372233c98e81344e685cdf
+  - ref: refs/heads/for-next
+    old: ab00febad191d7a4400aa1c3468279fb508258d4
+    new: f79ee9e4b23244e77b28d176ce99a2d84d813ac5
     log: |
-         c4c3fc872d2a05bf10372233c98e81344e685cdf spi: sn-f-ospi: fix incorrect return code for invalid num-cs
+         5e75c1d4d386fb7d64e2b19355e4d38dd4fd8845 spi: cadence-qspi: Revert the filtering of certain opcodes in ODTR
+         f79ee9e4b23244e77b28d176ce99a2d84d813ac5 spi: spi-mem: Add a packed command operation
          
