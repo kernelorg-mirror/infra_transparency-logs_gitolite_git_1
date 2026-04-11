@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/viro/vfs
-Date: Sat, 11 Apr 2026 20:54:32 -0000
-Message-Id: <177594087286.898309.8040674986554841571@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/nsc/kbuild
+Date: Sat, 11 Apr 2026 20:57:00 -0000
+Message-Id: <177594102055.902045.710000714953237148@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/viro/vfs
-user: viro
+repo: pub/scm/linux/kernel/git/nsc/kbuild
+user: nsc
 changes:
-  - ref: refs/heads/work.dcache-cleanups
+  - ref: refs/tags/kbuild-7.1-1-rc6
     old: 0000000000000000000000000000000000000000
-    new: 82b8350bbaa92773a4b0290926e7a22dfd1f078f
+    new: e16e4e83aa02a12fe2cb29be8eaa533d34aa0a34
+  - ref: refs/tags/kbuild-7.1-1
+    old: 0000000000000000000000000000000000000000
+    new: 6d98ee2d5b957353b4a9824b5474f280f709aff7
