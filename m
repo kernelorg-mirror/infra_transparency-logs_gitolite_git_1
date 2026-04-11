@@ -1,25 +1,43 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/linkinjeon/ntfs
-Date: Sat, 11 Apr 2026 02:32:19 -0000
-Message-Id: <177587473964.3787714.6682782453334865599@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============7091428789380280119=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/modules/linux
+Date: Sat, 11 Apr 2026 02:35:55 -0000
+Message-Id: <177587495515.3792077.7638985334585580393@gitolite.kernel.org>
+
+--===============7091428789380280119==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/linkinjeon/ntfs
-user: linkinjeon
+repo: pub/scm/linux/kernel/git/modules/linux
+user: sami
+git_push_cert_status: E
 changes:
-  - ref: refs/heads/next-next
-    old: 861bcdcc46fadecf17368562d33cf5693b8f488b
-    new: a18c486a23a99755f4eac06df5d7e37179173959
-    log: |
-         b58560635d339cf55a9ec9db479ec29687a5283b ntfs: fix uninitialized variable in ntfs_write_simple_iomap_begin_non_resident
-         5856b8896dd3d13aa2a3ae2c27031a912a374c2d ntfs: fix uninitialized pointer in ntfs_write_mft_block
-         bd1cef0857f5d60f805d94f773f26df373b5c2fb ntfs: fix uninitialized variables in ntfs_ea_set_wsl_inode()
-         c09f21014b5b9325d52a1b796958eb4648fa4847 ntfs: add missing error code in ntfs_mft_record_alloc()
-         e01bb12ee8cd212f2be4e80a0f171fd6113d3f55 ntfs: delete dead code
-         f972f69aad8dd30fc74086e064904fca3cbc5d46 ntfs: fix uninitialized variable in ntfs_map_runlist_nolock
-         a18c486a23a99755f4eac06df5d7e37179173959 ntfs: fix potential 32-bit truncation in ntfs_write_cb()
-         
+  - ref: refs/tags/modules-7.1-rc1
+    old: 0000000000000000000000000000000000000000
+    new: 26e5050d010517c243c868f27c5b0ab03af3d7d2
+
+--===============7091428789380280119==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher 84F5ABB5BBF74265EAF372185A0725AB39A1A77A 1775874954 +0000
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/modules/linux.git
+nonce 1775874954-2cd77c17aaef252cf03749e91518e985b74bce2f
+
+0000000000000000000000000000000000000000 26e5050d010517c243c868f27c5b0ab03af3d7d2 refs/tags/modules-7.1-rc1
+-----BEGIN PGP SIGNATURE-----
+
+iHUEABYKAB0WIQSE9au1u/dCZerzchhaByWrOaGnegUCadmzigAKCRBaByWrOaGn
+eiyhAP9jfd8KjQQfxXh319wwaJrkDavUY5kT3oVTeATzg83HoQEAm4ItvYOtSyqc
+i8wjxSfB69ORk161G2HvPAZwztZ/iw0=
+=iJ7O
+-----END PGP SIGNATURE-----
+
+--===============7091428789380280119==--
