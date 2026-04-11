@@ -1,56 +1,53 @@
-Content-Type: multipart/mixed; boundary="===============4473185794282705920=="
+Content-Type: multipart/mixed; boundary="===============7470106312339547567=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/gregkh
-Date: Sat, 11 Apr 2026 10:15:52 -0000
-Message-Id: <177590255267.114432.15379706027749082567@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
+Date: Sat, 11 Apr 2026 10:16:30 -0000
+Message-Id: <177590259048.115036.10894953437016813481@gitolite.kernel.org>
 
---===============4473185794282705920==
+--===============7470106312339547567==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/gregkh
+repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/clanker
-    old: 5378648e64892dc3c42ac517acc9c7ee2a4bbb6c
-    new: f5d6e578e6e8e14bf2eb262c7bccaf8d98e5dea3
-    log: |
-         f5d6e578e6e8e14bf2eb262c7bccaf8d98e5dea3 idpf: fix double free and use-after-free in aux device error paths
-         
+  - ref: refs/tags/usb-7.0-final
+    old: 0000000000000000000000000000000000000000
+    new: 34d5894287175adde4de3af581fd83cc963cdaba
 
---===============4473185794282705920==
+--===============7470106312339547567==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1775902446 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/gregkh.git
-nonce 1775902445-178e7c5b450e66bb491960ea49d9d282b9d96f0e
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1775902587 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
+nonce 1775902586-6ed82bb994dc451511636e806400242f73336709
 
-5378648e64892dc3c42ac517acc9c7ee2a4bbb6c f5d6e578e6e8e14bf2eb262c7bccaf8d98e5dea3 refs/heads/clanker
+0000000000000000000000000000000000000000 34d5894287175adde4de3af581fd83cc963cdaba refs/tags/usb-7.0-final
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmnaHu4bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+CbsP/ipIHFdaUC1J68H9My0p
-hp1I5uqUN6kTO4YlRnWKO2CGzqaLgmTKGotjPviafx7Wcui6YDFFWY5FgQBlWpb9
-HrKjxkJcquBl5XtTNEiOsZo9h+yTJGrkwGpoEbpZ+ke2RpvdNH8CCgD5B/8z/bYD
-2XJXzgbaS5BcwJMNrwzyUaiZlYxQRkq8uw3GznYm6rZF0G2YLHUeVTL+t5Y3guun
-LYLzwkB1nShuf71MjOU9W/43Rg0SCHCxCzbBPI9uI/lux0bNRVEd+APDuQD7ojsC
-CNaO11960C5YhSc04YEW4dMGB7C95z+5aCEB2twESTRp+7wffQjOy0iBp0ehr2NS
-bXeCRgql08l08hKnAVEU5s1miRENmziKUx7YA3IwzP1ckBB0Y8Dvpq4Nv8ESu71p
-lbAxbScImPJEQKBj4zbM7VXI15mQ+ry6R/yDPxWiSNRvZzgTgmrfioKQNpc/48ev
-jDWz0m/Jdrz4P37ZL/gGQm06yZ03CcDc2nH9ufsjJHCWIA04dudJw/NaWwHckxTQ
-6olFZcdDiLFAbSSCItq19mRfpCvE8duXL3RsEI/zFGkcn/RXIU1bZlpMZrl+SDoF
-Xtsrv5h2t0+kTUSy4aJuouz5Ee3ZwZkMoiQQbbluu6s+5BzmbVwiccowpALuUTVG
-3+H5PiDLhpc1KcuhHl5Djurc
-=YtYK
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmnaH3sbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+kjAP/2Xi7a5oRjhclc99YjQd
++RqVf4+ZuWyt76ghYM0A9aeZ/ir/5ofpSfa6ENEUpyv/fRMzQzR2iHSTEFzsdEda
+9CdxXAaSPt3K1e5kaPpTI1YwNjHSwGdSkj7Pt3a/djZPc0L/li2hfnMb0wMgrh3A
+a+AuPPooqI6Qk27y3NBoLMPu0DqghHaDMabwgEnMRxikMvUOtmSra3G5v1iRii4B
+y+0v/bkxop6ntt3ArW85dzv8JTyNpgGQU2jszZY2CMA+yqXwMitb/SYx90k1Tsoz
+STFQTyjzLIRY2MK09API0L17uq9jeLscBkzfP0GXEv2X9NWu95toR7JvyMCa2Apr
+MPnSzLA9B22qbGMRmW8Wo7FdfuZQOwAyfLWBnfb6O86QPnxBMWWRrI1B04qjmM0w
+vIr14b9mBW///RRyyqarSlKNHJFK3kXUAL5HTx8H9QTgGwlteFW3FgaQ+mLRIKCj
+iMgFlMRkAUazw7/fGGflPZ6sPxJBb15bDhgkrZNk4reG4ahIHf/SaQmN6Ow6225Y
+YfHVvqGeiAqv3quBTjzEsoHkRh2ix12GXcAeD+TH9ZyEP26rY/xkLTXXbzsGz65n
+U9cs0TcDNV363mO3cmHOHerR1aq1T4RQ0npNwvJsJbRb6G6p3v6loT8k3lbz9Bhu
+a0cpGoHia+bPNOAilhbxofsh
+=5kCf
 -----END PGP SIGNATURE-----
 
---===============4473185794282705920==--
+--===============7470106312339547567==--
