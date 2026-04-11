@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jgg/iommufd
-Date: Sat, 11 Apr 2026 13:04:03 -0000
-Message-Id: <177591264303.441577.11223382549511295409@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/docs/linux
+Date: Sat, 11 Apr 2026 13:09:22 -0000
+Message-Id: <177591296243.447108.14601540685709349580@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jgg/iommufd
-user: jgg
+repo: pub/scm/linux/kernel/git/docs/linux
+user: corbet
 changes:
-  - ref: refs/heads/for-next
-    old: 8c4dc1a5025f5c35beef43fbf8ce50bb7e93b762
-    new: 8602018b1f17fbdaa5e5d79f4c8603ad20640c12
+  - ref: refs/heads/docs-mw
+    old: 64cb68766fc8679626b422319b8b678d5792bfbf
+    new: bb6a85b4b652f8424b5a28c2c445ded41ded51d0
     log: |
-         8602018b1f17fbdaa5e5d79f4c8603ad20640c12 iommufd: Fix a race with concurrent allocation and unmap
+         bb6a85b4b652f8424b5a28c2c445ded41ded51d0 Documentation: Add managed interrupts
          
