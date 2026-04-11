@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3523029157273122507=="
+Content-Type: multipart/mixed; boundary="===============4866665460102914779=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
-Date: Sat, 11 Apr 2026 08:41:05 -0000
-Message-Id: <177589686591.4155580.2085269665315093855@gitolite.kernel.org>
+Date: Sat, 11 Apr 2026 08:43:04 -0000
+Message-Id: <177589698457.4156825.8671907068966975687@gitolite.kernel.org>
 
---===============3523029157273122507==
+--===============4866665460102914779==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,48 @@ repo: pub/scm/linux/kernel/git/soc/soc
 user: krzk
 git_push_cert_status: Y
 changes:
-  - ref: refs/heads/soc/drivers
-    old: ecaf3a92fb86d8ddfc47f228374e22d33a502fff
-    new: f5fc003c457e3eaaa55ed1c3c0cb2b9bcd7bffcf
+  - ref: refs/heads/soc/dt
+    old: b7e1557eb6ce7e71788b41e211ceb47b72c4850a
+    new: 2bb665a217587688fd20c5f101db573f2a2c3d0b
     log: |
-         a31ad9339eff4ce401dec816b01a94b4e3c47898 firmware: qcom: scm: Allow QSEECOM on Lenovo IdeaCentre Mini X
-         f5fc003c457e3eaaa55ed1c3c0cb2b9bcd7bffcf Merge tag 'qcom-drivers-for-7.1-2' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/qcom/linux into soc/drivers
+         1e80a0367bca7ffe3dfff41948474fe3c3ad3587 arm64: dts: allwinner: sun50i-a64: add UART DMA channels
+         2e4858d2f027080827c5fc557306a06fbfcecd0a arm64: dts: allwinner: sun50i-h6: add UART DMA channels
+         c755e39836ec492b0bc210fd96c2b720b5b4a690 arm64: dts: allwinner: enable h616 timer support
+         2bb665a217587688fd20c5f101db573f2a2c3d0b Merge tag 'sunxi-dt-for-7.1-2' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/sunxi/linux into soc/dt
          
-  - ref: refs/heads/qcom/drivers-2
+  - ref: refs/heads/sunxi/dt64-2
     old: 0000000000000000000000000000000000000000
-    new: a31ad9339eff4ce401dec816b01a94b4e3c47898
+    new: c755e39836ec492b0bc210fd96c2b720b5b4a690
 
---===============3523029157273122507==
+--===============4866665460102914779==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher krzk@kernel.org 1775896864 +0200
+pusher krzk@kernel.org 1775896982 +0200
 pushee kernel.org:/pub/scm/linux/kernel/git/soc/soc.git
-nonce 1775896864-cbcb7031a201347510fb658f39e5949b4aaa69a4
+nonce 1775896982-f8aec22e9452182224ea2f690685b6ed56e93a80
 
-ecaf3a92fb86d8ddfc47f228374e22d33a502fff f5fc003c457e3eaaa55ed1c3c0cb2b9bcd7bffcf refs/heads/soc/drivers
-0000000000000000000000000000000000000000 a31ad9339eff4ce401dec816b01a94b4e3c47898 refs/heads/qcom/drivers-2
+b7e1557eb6ce7e71788b41e211ceb47b72c4850a 2bb665a217587688fd20c5f101db573f2a2c3d0b refs/heads/soc/dt
+0000000000000000000000000000000000000000 c755e39836ec492b0bc210fd96c2b720b5b4a690 refs/heads/sunxi/dt64-2
 -----BEGIN PGP SIGNATURE-----
 
-iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmnaCSAQHGtyemtAa2Vy
-bmVsLm9yZwAKCRDBN2bmhouD127OD/kBYZ5HbLqkSetuoNxrxyRpMmxfqaqyFF8D
-ShyE0t/l9jU1Xa89rFU/jRHKLGHxMLU0siVTIOS8dWqMg39/IPMP+9g9hPnrNZVa
-duAN7qnUp6lgS/HWf7MdNk2eSadnBpWOPQ/eUl5kA6lUPRpKkyacGToBekPNPFb7
-3TWbOQAJZR9JRjgp+EMjvIe5aRm+skAcwYxglAit5Ap98KHeBibLuBz2tyWTdKTV
-/+B5WlGq87fNu3qfSkp+YADn0P/g5SAzBsOpLJY0tcQAc1zCAH7SO5SSV6wJgq0f
-QQQlM2EyN5MZBv7jKEOCjyzy7hWgKgF3c3hRnSwIqkzfLL3meTeeWaqLsqNx2xnF
-09vFbQk6eh58rryJoOqXcSJgQ6oAadP3x50SLRlLsmWzXB/bGG4t7gbhM+l3Et/n
-TmpEhMbR66aCUMnwY26iE/pHNyy92q37Gmt7XJmmJjHNdc7unLDjJXwtlt0OoR8r
-vvL2DoChOel9yJCM1bVcwKkFcTbuADr+rgL6/eAo2PcQ+M3WjBu4TyjgBrlOKyao
-IxwYc2Hk9ZQA9lNmLrq+NFhdlospbZcF77jCgVwXh1l90nsWKLVV4zvyoXaxWr5A
-n0Czp9a2IsR7ZH8nIOmBVb16sFB+FAasz3fcCp2ZQVm7EILAooVD6dvJbxKweCu/
-+CeTuyKAGA==
-=xsw1
+iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmnaCZYQHGtyemtAa2Vy
+bmVsLm9yZwAKCRDBN2bmhouD10Z7D/9/hZstOyUhx97DZcGg68VJsHG1crQMeNgD
+8/JTfhbIUpvWYMc99AWl7JhZ0Zbc30LIGEpTqNUhWBx8Rh7rydTTsPIzXDwWnqBG
+aXLLDEb7WUcWk9ynCKe8jFycMStEzgmaSc1sf8cAGzlLGXpCTIelWUIPiK4Y1KKz
+ZnNuyZbvME3iPdqrnBWICeJA2qP3AVp3LLv2w7saKG4MdRbOZk2ZkFEm7PUCtHt9
+WKYSubh5RcEwli85pJFyRFF4nC353DoAPnL/m3XTQYDJp84sZzfju5rmR6vj7GRU
+hFvGcsEVOW8x0v0Kqyl5tcwksbhIex42RUJJPeU1ukyCznKXNDC3BFHFA+2FAphO
+orH84Vt6otCoDxkb/TovXVyd9guL5sM2f5qTSfGB6aj6FUjQkyxpQQ5AbSricdbN
+wuPUuEOwTT4xD/yJDjM3QzhN0gOLZWLsosNfpgCyvKP0r2NEeKT3PvKFjtKLy0cL
+p/7uwR0BrnvUepKvOdS1V2HIlv4UkwtLgYRiQGONRh0mlA086+vGvA6TnJISWolZ
++gpGe+tlyOmP/F6mcyIgDtF1lnrvpnCpB7KBy9zjxOwxXg7MLYZT7FfClMz9hY7a
+AsLp0JrZjIIHzBOV8PxnOUNLNBykLYch3wDzztw1+8qTnskxOQ+zq5MME/5+jM/d
+9ya1s8r5hQ==
+=cIwX
 -----END PGP SIGNATURE-----
 
---===============3523029157273122507==--
+--===============4866665460102914779==--
