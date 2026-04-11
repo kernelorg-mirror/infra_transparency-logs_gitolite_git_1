@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/kbuild/linux
-Date: Sat, 11 Apr 2026 20:57:15 -0000
-Message-Id: <177594103563.902607.16880113956776772181@gitolite.kernel.org>
+Date: Sat, 11 Apr 2026 20:57:55 -0000
+Message-Id: <177594107576.903014.304149494265787788@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,6 +11,15 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/kbuild/linux
 user: nsc
 changes:
-  - ref: refs/tags/kbuild-7.1-1
-    old: 0000000000000000000000000000000000000000
-    new: 6d98ee2d5b957353b4a9824b5474f280f709aff7
+  - ref: refs/heads/kbuild-next
+    old: 5471878477a3e9d4851f39c8becbb39d290d0192
+    new: 404927758daac5ec4594071e033c1fa6ee9ca9b6
+    log: |
+         9fba6131aeaec0637fd8636b9fb49b6596214525 checksyscalls: move path to reference table to a variable
+         e856b6ca14765501a47eb497f7e35dc7efefce5f checksyscalls: fail on all intermediate errors
+         b34db3fa85c4d34ceee5231cd27e587153bc25ab checksyscalls: only run when necessary
+         c7c55f0e1667aa25c0ac047bd873159722358f6c checksyscalls: move instance functionality into generic code
+         2fb62d915476e3c2253f009ed0f45b82f5f46124 Documentation: kbuild: Update the debug information notes in reproducible-builds.rst
+         d13a089d823e6b9a5a63728c4d1617ba1aca2740 kconfig: forbid multiple entries with the same symbol in a choice
+         404927758daac5ec4594071e033c1fa6ee9ca9b6 kbuild: expand inlining hints with -fdiagnostics-show-inlining-chain
+         
