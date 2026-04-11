@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/dakr/linux
-Date: Sat, 11 Apr 2026 16:53:04 -0000
-Message-Id: <177592638480.665490.12015529091829084671@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Sat, 11 Apr 2026 17:04:37 -0000
+Message-Id: <177592707791.676083.2279336150234213101@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/dakr/linux
-user: dakr
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: ast
 changes:
-  - ref: refs/heads/trace_printk
-    old: 0000000000000000000000000000000000000000
-    new: 52b8d9910ffe5ed9596f5c0788a96a71da892033
+  - ref: refs/heads/master
+    old: 4b64e5244183c0dcffc077b840689e4c6c1f7b1f
+    new: 57205e2dd962d2c0e2093cf9b06dad6ba7737844
+    log: |
+         57205e2dd962d2c0e2093cf9b06dad6ba7737844 bpf: Delete unused variable
+         
