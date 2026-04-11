@@ -1,56 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============7458295632019843278=="
+Content-Type: multipart/mixed; boundary="===============4757596406547325746=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/gregkh
-Date: Sat, 11 Apr 2026 11:02:14 -0000
-Message-Id: <177590533447.160176.10546959899117152905@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
+Date: Sat, 11 Apr 2026 11:11:05 -0000
+Message-Id: <177590586597.169434.11399267328505228442@gitolite.kernel.org>
 
---===============7458295632019843278==
+--===============4757596406547325746==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/gregkh
+repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/clanker
-    old: a105a4c99023bc1e18e331445c1c778378a8e504
-    new: 03d41fa694644f4ee9999274920d865ca16d7326
+  - ref: refs/heads/t1000
+    old: 4cd4d32dc27796666f699b54865b0ef3c17d5bb2
+    new: f48122115aad07db9ca8b0eedbdd8f4a93cbebe7
     log: |
-         03d41fa694644f4ee9999274920d865ca16d7326 net: usb: cdc-phonet: fix skb frags[] overflow in rx_complete()
+         f48122115aad07db9ca8b0eedbdd8f4a93cbebe7 net: sched: em_text: require NUL-terminated algo name
          
 
---===============7458295632019843278==
+--===============4757596406547325746==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1775905310 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/gregkh.git
-nonce 1775905309-27ea94639e7728a94acd240da9d566e6e4f53dff
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1775905864 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
+nonce 1775905864-3b79fdd8dda4d81d0d75f12099aa77857f5d53cc
 
-a105a4c99023bc1e18e331445c1c778378a8e504 03d41fa694644f4ee9999274920d865ca16d7326 refs/heads/clanker
+4cd4d32dc27796666f699b54865b0ef3c17d5bb2 f48122115aad07db9ca8b0eedbdd8f4a93cbebe7 refs/heads/t1000
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmnaKh4bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+5JsP/38XEC62GqB6X6WruJnr
-EChYPUM+il+Mes0jA9vav5tL5PyMDHL1uR6wRQiAGq4prrzwLIu5EVP9PyjrnDsW
-O16MGZ/M7d6+JfTSiNMntAr4c3FDA9XWQ6JHS6+eczBwrSS4a66LomGEOMMYarPz
-3+nRiu285SWcehGW6YaN5uHsCkKd3/R9k0qjLbcQLRJlQFEy+nLvgxlsVKreRmw7
-0vRnyw07M+d1duMUCMWjEzFE+GnXnoeMbZwt/lY63ZLiIlhWIBTXPDZV1Hvvsi8t
-0QdqsgoZPbEcMOrXGhx/C604/XD+N2QKzIvxIJLlBdXcNIBdcvn3rTPJItmUGqMB
-zsy1mdaQ/Xsd+ncyE8YsEaLl3GPKcg10e4zqOYOZuhNbNf5R5DcPTP4qVvRBYmPr
-wWrXrMbvWN/3NabhxgMVM0yFmk8ZSRAum54iW0GwVDQZMQoCN8BN1+6mFDqYzO7v
-CX2V+wv+4r1utHzFqWHTsE2YJoTaZTe9MaUxqKP+Xv9hZwwo8XKHy6JnwUiBWGvP
-qp2iVcyVq6ErlS12lVenwSENbATbewFFxoZ+36YPew6gshAOCMlmGptJLyhxcbFg
-2x5uvohcFQR2nxjvxIxFnYAETrVRSKNG1EpC47mn8WT5hM1mhzNcTsqlT/8nRAlH
-g3Yn8UNbNdysvEyzRFsX47Db
-=7DpM
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmnaLEgbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+xocP/i832exjdtHry7FkUycM
+8vmBHxPDtJpXaLCcIt/uQCSoMFup2rXCC6slF9kaHt1i219BzqjfA7OZHdPy+nKZ
+RxkesWNFgvXCmxrpxTaXbQhqSt/kjtkFLLI48EBlANOpnBhYdx8YfSxiIhS9r1cC
+J03Tsoh020j599Gz3UrcUXtME6UhDnC0v+l1M6CCvBmyBCJBlQB/AuFUiAzZ1PKc
+HR2B4SnebqzFS13bSlybMcOfQIQghdcsbrDcwAh5doPiDyOe2PVFb5Ge35CoPz7y
+xX5VTzvURnqz7a7z9c3m0xiUNxpmHu+W6+jVDHPRNF9P79i2aydFE5pc1GE5RzDu
+gWq6BPII7PbofFEUfyWYC5h27POENtjWlOPPVZYhL36RrSv4NdBZgUd1e6yyJOKT
+IOyHPiLVikCfBvZ+jC+fZ88fyPVT5xl5cUg0WjqqhOMJ0VyC7+e6Vw+oGq9zuO8k
+fXjMiRZYV48oIK3lOW+57S4m2apaeemf1Y1a9M/B4QHsLRNvI0+fHSRxQsp44olK
+O4+zhUtEjq2/mClCR2GAH89St8AxwJAfXCsWgoNbYlCR8Y1AMtihXjq3h86/NIdQ
+ostJrS/IjI/HDO4Gzqdop2I/2JZcmFFHlmfb2jp5B+J8qivRLMnbMfjsMNCi7D6n
+sNNqDiXHdlLVVrYDceiYj+/R
+=mnza
 -----END PGP SIGNATURE-----
 
---===============7458295632019843278==--
+--===============4757596406547325746==--
