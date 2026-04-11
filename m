@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7049482274469274916=="
+Content-Type: multipart/mixed; boundary="===============7838220371910618653=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tj/sched_ext
-Date: Sat, 11 Apr 2026 02:40:19 -0000
-Message-Id: <177587521906.3797288.5816991357170008453@gitolite.kernel.org>
+Date: Sat, 11 Apr 2026 02:40:35 -0000
+Message-Id: <177587523528.3797933.16661191437228828914@gitolite.kernel.org>
 
---===============7049482274469274916==
+--===============7838220371910618653==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tj/sched_ext
 user: tj
 changes:
-  - ref: refs/heads/for-7.1
-    old: dcd47f27c01e795395379025525bfd47a99a91e1
-    new: 49d78adf9555bbc02ccb65a28325e3e57e9c52ed
-    log: revlist-dcd47f27c01e-49d78adf9555.txt
+  - ref: refs/heads/for-next
+    old: d15f8c097ade70f35cee81027acc38ab92002049
+    new: 8cbf5b18bfd816b6222a0041a92d61e37ecf0198
+    log: revlist-d15f8c097ade-8cbf5b18bfd8.txt
 
---===============7049482274469274916==
+--===============7838220371910618653==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-dcd47f27c01e-49d78adf9555.txt
+Content-Disposition: attachment; filename=revlist-d15f8c097ade-8cbf5b18bfd8.txt
 
 9b5501d3c95924198914f3df920faae1594e68d5 sched_ext: Drop TRACING access to select_cpu kfuncs
 a37e134317c68941fb3e0a4890d95de41eac63f5 sched_ext: Add select_cpu kfuncs to scx_kfunc_ids_unlocked
@@ -37,5 +37,6 @@ d1d3c1c6ae3691869be9d94730d6e5325aaae8c6 sched_ext: Add verifier-time kfunc cont
 979a98b6e9bf8ebf11dc3ca260be087606ac4c2c sched_ext: Rename scx_kf_allowed_on_arg_tasks() to scx_kf_arg_task_ok()
 e719e17d99aaf3922dbc15ae3ac3bb62fac32bad sched_ext: Warn on task-based SCX op recursion
 49d78adf9555bbc02ccb65a28325e3e57e9c52ed sched_ext: Drop spurious warning on kick during scheduler disable
+8cbf5b18bfd816b6222a0041a92d61e37ecf0198 Merge branch 'for-7.1' into for-next
 
---===============7049482274469274916==--
+--===============7838220371910618653==--
