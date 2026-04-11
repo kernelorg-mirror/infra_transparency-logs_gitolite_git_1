@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7377625320722936226=="
+Content-Type: multipart/mixed; boundary="===============1952320030549508131=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
-Date: Sat, 11 Apr 2026 08:16:30 -0000
-Message-Id: <177589539085.4129958.4354731366277070499@gitolite.kernel.org>
+Date: Sat, 11 Apr 2026 08:25:08 -0000
+Message-Id: <177589590865.4138888.2196167062324844374@gitolite.kernel.org>
 
---===============7377625320722936226==
+--===============1952320030549508131==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,65 +16,94 @@ repo: pub/scm/linux/kernel/git/soc/soc
 user: krzk
 git_push_cert_status: Y
 changes:
-  - ref: refs/heads/arm/fixes
-    old: eaad992e3fa8086db47f2cf05498af518ca5edda
-    new: 90ac490364bd7e3c161037ce86b6a313cdb09ae7
-    log: revlist-eaad992e3fa8-90ac490364bd.txt
-  - ref: refs/heads/nxp/fixes-2
+  - ref: refs/heads/soc/dt
+    old: 4177ec9d5865710c5964c08167d20a74c17f88ab
+    new: 17ed8fd2fa714bb06c53c5bd88a3948d23fba8f2
+    log: revlist-4177ec9d5865-17ed8fd2fa71.txt
+  - ref: refs/heads/nxp/dt32-2
     old: 0000000000000000000000000000000000000000
-    new: 42a9f5a16328ed78a88e0498556965b6c6ec515c
+    new: 0037d16644b15686eec420a90f05bcd2804edf6d
 
---===============7377625320722936226==
+--===============1952320030549508131==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher krzk@kernel.org 1775895389 +0200
+pusher krzk@kernel.org 1775895906 +0200
 pushee kernel.org:/pub/scm/linux/kernel/git/soc/soc.git
-nonce 1775895388-8f443b03dc7efc0f702b194133ac0dd83a5ca964
+nonce 1775895906-cfdf3ca0127ad67c45630219b96ac1cad8e79c1d
 
-eaad992e3fa8086db47f2cf05498af518ca5edda 90ac490364bd7e3c161037ce86b6a313cdb09ae7 refs/heads/arm/fixes
-0000000000000000000000000000000000000000 42a9f5a16328ed78a88e0498556965b6c6ec515c refs/heads/nxp/fixes-2
+4177ec9d5865710c5964c08167d20a74c17f88ab 17ed8fd2fa714bb06c53c5bd88a3948d23fba8f2 refs/heads/soc/dt
+0000000000000000000000000000000000000000 0037d16644b15686eec420a90f05bcd2804edf6d refs/heads/nxp/dt32-2
 -----BEGIN PGP SIGNATURE-----
 
-iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmnaA10QHGtyemtAa2Vy
-bmVsLm9yZwAKCRDBN2bmhouD1x5TD/4qK4mVyGDGLzsmvajSYdWbGvLw7KegiAEW
-xz5of42vmC6Xu5UiEHkpxHTQEDSWTSNIQR0x7KIZS3TrSeG+IZYtY4NIUhbPszpx
-ngBJYYqAAq//f2YfrUQjDyAdJrornHYPNYHy2ZhR7eQBKHHzF3lzr3KPADkV+3+y
-entoefrvLPbvB7RbfdG50oum769hx2yEIRtSYH5F8rV5uCgxZFJusYIs6Hgsvjf1
-WFZgGrW8HkR44frTIpvmllh9X/kf5LtLJDtXrmvrSsTkGmjMVQOx6404RwnFjAdG
-0FH7oOldUY25WPky6K0+O5Qx1uR5hufRJ58DgiyrDX4NqRThFGeGGD3j5SszPTST
-fA/n1SGlWtiOo2dMtHFyNUYNnAby1zjz9rpuNPcaYwLYHSCt+zNEotnuTmuNP9eO
-bYKzhcRGQq9wqlSuUWoI1n0XINLtBbUhg4kdXuOoKrMQKDt9OtBozCpynbZIB7nr
-OwNla+YZWSY+fJ/TIUFYtfE4Bspel4GlifBww3I9/GAVyt4darz3mYUyYEfvNoQf
-Vk2VRH+8v43y1Srfsy1FTScYrqpRHLtIz1BDUeG16C7qrGUuo2TWmLyL7uDiMqT4
-/uibAH/Tl9omhyXupmg/tIdFWoDLl990I9nG0ELz5hCNbGsLvHDa+NvHbCd02aoo
-ypXUo9qHLQ==
-=6kSr
+iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmnaBWIQHGtyemtAa2Vy
+bmVsLm9yZwAKCRDBN2bmhouD1zZkEACSoIaddviDmerSHem8fs5R5ylXsceLhA9j
+xiXxfTJDkIK4ja/lhmBFIybofe0PLoBelcR1NjnRXybU6MPUUrykiT7DAn8hLpCm
+mrlyFStkMkieAnrFv9iW5/Qz7XXFYeQ5emye32QFb55r8qqlIe8SYMT4NLMK9B8h
+ye/1+Pd+Dt5+brgDjhJz15vUsDQ9+ER9a0ayH8POT6F7ojosBllymTbfKsjeVhTr
+suy0SJtUa0NlDmAcEi1LN9mGPg8LUQUI/n2PMo3jY5NYanMG8V3ijvGYb8gRpfzS
+pooy3lt2ayVNfGIXqD0yCIpfjD92J482Hh2othShyMsHgfkqdEfT7UPLwvItV9QN
+6qCrMGOUN4UuzFeWnuXREExq7B8uupq2t+JaqJOfAu10T+mGzT8JyAQJLRASX8Jo
+LhCMNjXloqeR8CqOoyS9YQazQoombJci5sfo0dfOWIuS8nBF9t4/zQsgEMMvmbrg
+BXGkfgoaHxpSWKrkkt6NaOaebib/Ww3TXvUusGpoHhYpf5RVJa5M9a37eGFMU+fg
+NPSE2yccNLo86pveUeNCbFP2LCatgDT+rFvfF0zS/R2bj/bW1sNwB24lJDZBvedB
+byEnZ21t+25rjbNRIPzvFd8ciC333iGKG1i+BN/MCpgHyJEhBW+IIoisIucr0EgJ
+NehE9otp3g==
+=4kI5
 -----END PGP SIGNATURE-----
 
---===============7377625320722936226==
+--===============1952320030549508131==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-eaad992e3fa8-90ac490364bd.txt
+Content-Disposition: attachment; filename=revlist-4177ec9d5865-17ed8fd2fa71.txt
 
-3b778178997aee24537b521a8cb60970bc1ce01c arm64: dts: imx8mp-debix-model-a: Correct PAD settings for PMIC_nINT
-2ea7872048a179b0ea8dadc67771961df3f0fc4a arm64: dts: imx8mp-debix-som-a: Correct PAD settings for PMIC_nINT
-741d6ac1a2a2e0f3e2cae5eef3516cdd75119e83 arm64: dts: imx8mp-navqp: Correct PAD settings for PMIC_nINT
-ea8c90f5c7ceeb6657a8fe564aa7b190dce298a6 arm64: dts: imx8mp-icore-mx8mp: Correct PAD settings for PMIC_nINT
-c46c5a54443440ce0f71de9f4df9dd860f5c2afd arm64: dts: imx8mp-edm-g: Correct PAD settings for PMIC_nINT
-e6d2d8e49ca34bb39126a69128794d08ffd7c83e arm64: dts: imx8mp-aristainetos3a-som-v1: Correct PAD settings for PMIC_nINT
-16611eda2c7584a1a7d6f80511d825e5108f026c arm64: dts: imx8mp-nitrogen-som: Correct PAD settings for PMIC_nINT
-695a476275cfb9c798a696aeaa43967701d5c78a arm64: dts: imx8mp-sr-som: Correct PAD settings for PMIC_nINT
-daaf41ee72fb5fad936e7051a015cccae9b33937 arm64: dts: imx8mp-ultra-mach-sbc: Correct PAD settings for PMIC_nINT
-f9ed5afc988da3e22543725e35be6addbb0497bc arm64: dts: imx8mp-dhcom-som: Correct PAD settings for PMIC_nINT
-8ff145577e93f312ff398cb950ee3bd44835f5be arm64: dts: imx8mp-data-modul-edm-sbc: Correct PAD settings for PMIC_nINT
-721dec3ee9ff5231d13a412ff87df63b966d137b arm64: dts: imx8mm-emtop-som: Correct PAD settings for PMIC_nINT
-0fb37990774113afd943eaa91323679388584b6d arm64: dts: imx8mn-tqma8mqnl: Correct PAD settings for PMIC_nINT
-42a9f5a16328ed78a88e0498556965b6c6ec515c arm64: dts: imx8mm-tqma8mqml: Correct PAD settings for PMIC_nINT
-90ac490364bd7e3c161037ce86b6a313cdb09ae7 Merge tag 'imx-fixes-7.0-2nd' of https://git.kernel.org/pub/scm/linux/kernel/git/frank.li/linux into arm/fixes
+a96f415ab504484f10673be0d0d9c0e502ca9290 ARM: dts: imx6ull-engicam-microgea-bmm: set touchscreen glitch threshold
+c79cb42baf2ab1bbaac49cc46a3536af593e46c3 ARM: dts: imx35: rename emi to emi-bus to fix CHECK_DTBS warning
+3645ed51986b10560081bc32a8ff66daf7b1c0ed ARM: dts: imx35: rename i2c clock-names to ipg
+1c764712672bc984691d01716d2838b26230b587 ARM: dts: imx35: remove simple-bus 'usbphy'
+cf1215fd56cfe552f4d7df17fb995f52a88a2181 ARM: dts: imx51-ts4800: rename fpga@0 to fpga@0,0
+7e660488ba1377441bab56850b8d72bf868a59f5 ARM: dts: imx51-babbage: rename at45db321d@1 to flash@1
+66ad164b0048df33afb1fa927242aeece547970d ARM: dts: imx6qdl-sr-som-ti: use fixed-clock instead of clock-frequency
+abfd55dd8327f760cb91289bb696436c5ead23f3 ARM: dts: imx53-smd: Add power supply node for fsl,sgtl5000
+53b36dc978640518374eea4f04e40465589f2e15 ARM: dts: imx7s-warp: Remove data-lanes and clock-lanes for ov2680
+d04bb165829294bc40cbc2613e42467212f5ea79 ARM: dts: imx6ull-dhcor: Handle both 1DX and 1YN WiFi on i.MX6ULL DHCOR
+81469ef61cf710274ef42999a3ebe96a5c204ee5 ARM: dts: imx: rename iomuxc to pinmux
+e948cbdc41d6f4417586b4058bf818afcc255d3d ARM: dts: imx: remove redundant intermediate node in pinmux hierarchy
+0477a6b31e2874e554e3bcfac9883684b8f8ca2d ARM: dts: imx27-eukrea: replace interrupts with interrupts-extended
+53779e03483aeaaa280466199b24f8e6ade32a4a ARM: dts: imx27-eukrea-cpuimx27: rename uart8250 to serial
+3bca7337b4a5a3d5c842c1cfc0064b60ebdf3818 ARM: dts: imx27: remove fsl,imx-osc26m from fixed-clock node
+a385279fa1cd567328e18046c2ef5cec37e3ffe5 ARM: dts: imx23: fix interrupt names for dma-controller@80024000
+13d1513062f3cba5e1ef4255dec3f911653134cf ARM: dts: imx23/28: add "led-" prefix to LED subnodes
+97e27efc5b19242f80fc9678bfa8319e578ccd49 ARM: dts: imx28: rename gpios-reset to reset-gpios of hx8357
+05e4d6ef33c878a63c283cbbc833450173a80a09 ARM: dts: imx28-sps1: remove undocumented fallback compatible "mr25h256"
+f29f4db9f1a7f48058400c1956d8429a8ee4539d ARM: dts: imx28-tx28: rename compatible to "edt,edt-ft5206"
+164922745ec43f43c2970865a40337c93cd8dc76 ARM: dts: imx28-tx28: remove undocumented aliases
+955088ecc838acf4eb587d62311dde12121c4738 ARM: dts: imx6qdl: add label for system clocks
+b3d9c14e61de83d39fe271c4369fab1f567d6166 ARM: dts: imx: add required clocks and clock-names for ccm
+e65d9599d28ffe1e165ec8aa17e08a574fd48834 ARM: dts: imx6qdl-tqma6: add missing labels
+1ea07b5a0ff4a8d3f8fbe22947d648535fa73a4e ARM: dts: imx6qdl: add boot phase properties
+c335bc0640784df933e60ae704453fdf186ba8da ARM: dts: imx6qdl-tqma6: add boot phase properties
+24d209d1a1e8d3ac684422fc9859df95ecaf03b5 ARM: dts: imx6qdl-mba6: add boot phase properties
+72d47f32fd7f7a50849bd71894fa65e13d0e6dad ARM: dts: imx6ul/imx6ull: add boot phase properties
+feb90561bead326cf95a744080db16dbe5bacdc1 ARM: dts: imx6ul[l]-tqma6ul[l]: add boot phase properties
+8280d605cf352c8897d178a1130c92b45f67a6dc ARM: dts: mba6ulx: add boot phase properties
+60536b6be8618d2a374c009b1d2bf0a0d9f23b1b ARM: dts: tqma6ul[l]: correct spelling of TQ-Systems
+926095b5efbd4065a08f5b0f99afdef23bf1501b ARM: dts: imx7s: add boot phase properties
+ac27604c555471cbb7565a30a16b424f8c1ca906 ARM: dts: tqma7: add boot phase properties
+137c291faac3e5ef3e1dfddb8726b30958a08097 ARM: dts: imx7-mba7: Deassert BOOT_EN after boot
+d7a3aa262f79a63545014c69b8ead94692c8a7e5 ARM: dts: imx7ulp: Add CPU clock and OPP table support
+12959ffa4e9e8dd85e6b06a3ac258e8855872a86 ARM: dts: imx: bx50v3: Configure switch PHY max-speed to 100Mbps
+f45c54459d86e0ac6c91d1c4419f843e9fd7909a ARM: dts: imx: bx50v3: Configure phy-mode to eliminate a warning
+35f45b5533923d452ec27b59005c35d5bedd2649 ARM: dts: imx: b850v3: Use alphabetical sorting
+2c8cfe54088c2683dc6ae6c538ff1baeec714484 ARM: dts: imx: b850v3: Define GPIO line names
+3caf9e664163924f0a8b30159b66479f1d2c5418 ARM: dts: imx: b850v3: Disable unused usdhc4
+3432749efe6b76abf7cff90a05ff40ee919c060e ARM: dts: imx25: rename node name tcq to touchscreen
+c59ebeb2ad085bee952d35c601cad46be3bc86c1 ARM: dts: imx6sx: remove fallback compatible string fsl,imx28-lcdif
+0037d16644b15686eec420a90f05bcd2804edf6d ARM: dts: imx: Add DT overlays for DH i.MX6 DHCOM SoM and boards
+17ed8fd2fa714bb06c53c5bd88a3948d23fba8f2 Merge tag 'imx-dt-7.1' of https://git.kernel.org/pub/scm/linux/kernel/git/frank.li/linux into soc/dt
 
---===============7377625320722936226==--
+--===============1952320030549508131==--
