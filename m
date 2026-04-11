@@ -1,25 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kbuild/linux
-Date: Sat, 11 Apr 2026 20:57:55 -0000
-Message-Id: <177594107576.903014.304149494265787788@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/viro/vfs
+Date: Sat, 11 Apr 2026 21:05:13 -0000
+Message-Id: <177594151317.911574.2186243481845618505@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kbuild/linux
-user: nsc
+repo: pub/scm/linux/kernel/git/viro/vfs
+user: viro
 changes:
-  - ref: refs/heads/kbuild-next
-    old: 5471878477a3e9d4851f39c8becbb39d290d0192
-    new: 404927758daac5ec4594071e033c1fa6ee9ca9b6
+  - ref: refs/heads/work.dcache-cleanups
+    old: 82b8350bbaa92773a4b0290926e7a22dfd1f078f
+    new: 47055876805f67916f11e6f6c315277f16e00596
     log: |
-         9fba6131aeaec0637fd8636b9fb49b6596214525 checksyscalls: move path to reference table to a variable
-         e856b6ca14765501a47eb497f7e35dc7efefce5f checksyscalls: fail on all intermediate errors
-         b34db3fa85c4d34ceee5231cd27e587153bc25ab checksyscalls: only run when necessary
-         c7c55f0e1667aa25c0ac047bd873159722358f6c checksyscalls: move instance functionality into generic code
-         2fb62d915476e3c2253f009ed0f45b82f5f46124 Documentation: kbuild: Update the debug information notes in reproducible-builds.rst
-         d13a089d823e6b9a5a63728c4d1617ba1aca2740 kconfig: forbid multiple entries with the same symbol in a choice
-         404927758daac5ec4594071e033c1fa6ee9ca9b6 kbuild: expand inlining hints with -fdiagnostics-show-inlining-chain
+         6600488b393c9136aa3131bcf7fade8c5cdd2bf3 adjust calling conventions of lock_for_kill(), fold __dentry_kill() into dentry_kill()
+         47055876805f67916f11e6f6c315277f16e00596 document dentry_kill()
          
