@@ -1,22 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Sun, 12 Apr 2026 20:57:29 -0000
-Message-Id: <177602744956.2348295.9653565561590723270@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Sun, 12 Apr 2026 21:03:10 -0000
+Message-Id: <177602779043.2353689.16331152026071808900@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: ast
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
-  - ref: refs/heads/for-next
-    old: 2fefa9c81a25534464911447d51ddb44b04a8e5b
-    new: 0ae16cf6b6955c7fea682ea5d66a81ea6a6171c6
+  - ref: refs/heads/master
+    old: 10d97b74e2eef787d823f9bc05cb044b47d25c41
+    new: 028ef9c96e96197026887c0f092424679298aae8
     log: |
-         576afddfee8d1108ee299bf10f581593540d1a36 bpf: Fix OOB in pcpu_init_value
-         171609f047552b51b8ed78f338cbffb84b7f5e8f selftests/bpf: Add test for cgroup storage OOB read
-         fa2942918afbd0cb765277e2fd09fe0aaef6dd8d Merge patch series "bpf: Fix OOB in pcpu_init_value and add a test"
-         0ae16cf6b6955c7fea682ea5d66a81ea6a6171c6 selftests/bpf: Use memfd_create instead of shm_open in cgroup_iter_memcg
+         028ef9c96e96197026887c0f092424679298aae8 Linux 7.0
          
+  - ref: refs/tags/v7.0
+    old: 0000000000000000000000000000000000000000
+    new: 3131ff5a117498bb4b9db3a238bb311cbf8383ce
