@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Sun, 12 Apr 2026 20:48:37 -0000
-Message-Id: <177602691746.2337217.6027103702301070511@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Sun, 12 Apr 2026 20:51:17 -0000
+Message-Id: <177602707742.2341395.4986532043320202272@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
+repo: pub/scm/linux/kernel/git/netdev/net-next
 user: kuba
 changes:
   - ref: refs/heads/main
-    old: e802cd8cb0ffc4ddd2d6f78fc970d195af33deda
-    new: 2bb6379416fd19f44c3423a00bfd8626259f6067
+    old: baf7cebcf97541fedf72332f4aa88a74f4b1da63
+    new: 21ad19a99d943d794d132c52eeb28b8731369516
     log: |
-         2bb6379416fd19f44c3423a00bfd8626259f6067 ppp: require CAP_NET_ADMIN in target netns for unattached ioctls
+         21ad19a99d943d794d132c52eeb28b8731369516 octeon_ep: Remove unnecessary semicolons in octep_oq_drop_rx()
          
