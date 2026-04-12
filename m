@@ -1,24 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/herbert/crypto-2.6
-Date: Sun, 12 Apr 2026 05:40:38 -0000
-Message-Id: <177597243821.1417193.9293211438267325049@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xen/tip
+Date: Sun, 12 Apr 2026 06:12:40 -0000
+Message-Id: <177597436025.1447157.1897858796925722226@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/herbert/crypto-2.6
-user: herbert
+repo: pub/scm/linux/kernel/git/xen/tip
+user: jgross
 changes:
-  - ref: refs/heads/master
-    old: 8eceab19eba9dcbfd2a0daec72e1bf48aa100170
-    new: 3d14bd48e3a77091cbce637a12c2ae31b4a1687c
+  - ref: refs/heads/for-linus-7.1
+    old: 591cd656a1bf5ea94a222af5ef2ee76df029c1d2
+    new: 3f100dd61ad4ee7c1fb6a44775a928dcdba7515b
     log: |
-         31d00156e50ecad37f2cb6cbf04aaa9a260505ef crypto: af_alg - Fix page reassignment overflow in af_alg_pull_tsgl
-         d702c3408213bb12bd570bb97204d8340d141c51 X.509: Fix out-of-bounds access when parsing extensions
-         3d14bd48e3a77091cbce637a12c2ae31b4a1687c crypto: algif_aead - Fix minimum RX size check for decryption
+         f45ab27774aadeee28f093a9f074892e9bebb586 ARM: xen: validate hypervisor compatible before parsing its version
+         7f8862d2873d8b0e0df805a9aef1972d8ad4f08e xen/manage: unwind partial shutdown watcher setup on error
+         fdfdd01e801f4e808cba27b3e78504cfeca610d9 xen/swiotlb: fix stale reference to swiotlb_unmap_page()
+         bdd5de3d9e2da45852d0d21313af3a02f0e0626e hvc/xen: Check console connection flag
+         3f100dd61ad4ee7c1fb6a44775a928dcdba7515b xen/grant-table: guard gnttab_suspend/resume with CONFIG_HIBERNATE_CALLBACKS
          
-  - ref: refs/tags/v7.0-p5
-    old: 0000000000000000000000000000000000000000
-    new: 0838071fbd4571c2a8024f253008b366c81fe5c2
