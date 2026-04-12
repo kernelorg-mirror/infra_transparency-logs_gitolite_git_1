@@ -1,22 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools-next
-Date: Sun, 12 Apr 2026 19:11:20 -0000
-Message-Id: <177602108055.2237908.11150109710861649083@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/docs/linux
+Date: Sun, 12 Apr 2026 19:13:34 -0000
+Message-Id: <177602121459.2239126.12929437815003930513@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/perf/perf-tools-next
-user: namhyung
+repo: pub/scm/linux/kernel/git/docs/linux
+user: corbet
 changes:
-  - ref: refs/heads/perf-tools-next
-    old: 4cf1f549bbcdfea9c20df52994bb342677472dcd
-    new: 4e03d6494f9504f8af46ba68a2a8b6877c196789
+  - ref: refs/heads/docs-mw
+    old: bb6a85b4b652f8424b5a28c2c445ded41ded51d0
+    new: 40a3f6c5e2604ff7c007da6628120529569e950c
     log: |
-         faaf70f938236b94b150320e452fe2d577936a42 perf sort: Support sort ASE and SME
-         0f648fc245c316d799f853d7ab97f2bfef68d7dd perf sort: Sort disabled and full predicated flags
-         54940f15269e0a5f6249e8520f81c2b980111f42 perf report: Update document for SIMD flags
-         4e03d6494f9504f8af46ba68a2a8b6877c196789 perf arm_spe: Improve SIMD flags setting
+         f0efd29aa60cb3399c79c0a041d1f1c0a4367862 doc: Add CPU Isolation documentation
+         40a3f6c5e2604ff7c007da6628120529569e950c Documentation: core-api: real-time: correct spelling
          
