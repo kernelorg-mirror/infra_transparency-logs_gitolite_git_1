@@ -1,47 +1,41 @@
-Content-Type: multipart/mixed; boundary="===============7940346974906882286=="
+Content-Type: multipart/mixed; boundary="===============8816864831537288267=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
-Date: Sun, 12 Apr 2026 19:02:41 -0000
-Message-Id: <177602056162.2227989.16153105908136132048@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/viro/vfs
+Date: Sun, 12 Apr 2026 19:06:00 -0000
+Message-Id: <177602076073.2232346.11832097097215287731@gitolite.kernel.org>
 
---===============7940346974906882286==
+--===============8816864831537288267==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jic23/iio
-user: jic23
+repo: pub/scm/linux/kernel/git/viro/vfs
+user: viro
 changes:
-  - ref: refs/heads/testing
-    old: 614ea79b75585d66fe9b1f31dd5ac47e0a7ce6d7
-    new: 88a57fd5934ce8ce39bc010192989db6939b3f85
-    log: revlist-614ea79b7558-88a57fd5934c.txt
+  - ref: refs/heads/work.dcache-cleanups
+    old: 47055876805f67916f11e6f6c315277f16e00596
+    new: 6a56e4c2603c79da7c5d879e07dff28331ed5388
+    log: revlist-47055876805f-6a56e4c2603c.txt
 
---===============7940346974906882286==
+--===============8816864831537288267==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-614ea79b7558-88a57fd5934c.txt
+Content-Disposition: attachment; filename=revlist-47055876805f-6a56e4c2603c.txt
 
-fae16ca148fe9f71884ec8273c3684bbfb6c39b5 iio: adc: ti-ads7950: switch to using guard() notation
-e4d5f15941e2f769f495906ccec977c2633b63a1 iio: adc: ti-ads7950: simplify check for spi_setup() failures
-f65672d22ea931494ace1cde8ae0d9c6b74657cb iio: adc: ti-ads7950: switch to using devm_regulator_get_enable_read_voltage()
-060fdb08e2323af392f4964e5b8eb5210c2289cc iio: adc: ti-ads7950: complete conversion to using managed resources
-725e0ea7a465b41529f02db44c5ef8b21e2554e6 iio: adc: ad7949: use dev_err_probe()
-63043559b11eb1dbfa12053f448be7cce87ee2cd iio: adc: ad7780: add dev variable
-d484b853f930f19b284d80d610006c9771154384 iio: adc: ad7780: use dev_err_probe()
-8c9a27a93c0d6bb57995646b92361dc89abf3d49 iio: adc: ad7793: add dev variable
-b8a680021dbb2c07a80c9e4556c87c55853164be iio: adc: ad7793: use dev_err_probe()
-70620d0d6184f3dbec252af516b844aafe5b3306 iio: adc: ad7292: add dev variable
-7e3226930d92b0f6c0def2ffa3f330d344d3ee3c iio: adc: ad7292: use dev_err_probe()
-5036d74bfc8d089c420635fb493536c2657cb503 iio: adc: ad7791: add dev variable
-55574db3ae2d48fc011ba60d1954efb0844910d2 iio: adc: ad7791: use dev_err_probe()
-07a31f8e520e6270b036b0dfca3d88ab72a9ba68 iio: adc: ad7280a: use dev_err_probe()
-785a090e0ea9db5b765ecbeaa4818b63633ae691 iio: adc: ad7768-1: use dev_err_probe()
-ee04b5fba513b3e0502a6f166431eb19fad2f84d iio: adc: ad9467: use dev_err_probe()
-88a57fd5934ce8ce39bc010192989db6939b3f85 iio: adc: ad4062: use dev_err_probe()
+0e3859226be3aad81eca9d85e94054b607f2acdb shrink_dentry_list(): start with removing from shrink list
+07743c56857c70c876e253ea4e01367cdc8f3de9 fold lock_for_kill() into shrink_kill()
+e55e05587904b35cfbe7aa51b296625ced1aa1bc fold lock_for_kill() and __dentry_kill() into common helper
+4ff51772d728c35296fdeb9be038ee705bcb076a reducing rcu_read_lock() scopes in dput and friends, step 1
+e41f82e1fe52866139a281f930152bd9e6cb78b0 reducing rcu_read_lock() scopes in dput and friends, step 2
+d282069cbd2c4facbaca436de0670dbe69652c8a reducing rcu_read_lock() scopes in dput and friends, step 3
+e9533b0ce427d826053d172e719bff9a81400931 reducing rcu_read_lock() scopes in dput and friends, step 4
+30cfa4f45f643a79937b93926f2d167bc9de305e reducing rcu_read_lock() scopes in dput and friends, step 5
+592edb69bc83af22da85695e630465b8b3e29476 reducing rcu_read_lock() scopes in dput and friends, step 6
+201ac3f5e2ac7426ad831bd803578e7c2e258c9b adjust calling conventions of lock_for_kill(), fold __dentry_kill() into dentry_kill()
+6a56e4c2603c79da7c5d879e07dff28331ed5388 document dentry_kill()
 
---===============7940346974906882286==--
+--===============8816864831537288267==--
