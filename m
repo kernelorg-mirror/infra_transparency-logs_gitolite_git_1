@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/docs/linux
-Date: Sun, 12 Apr 2026 19:13:35 -0000
-Message-Id: <177602121576.2239237.13408454231940843936@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
+Date: Sun, 12 Apr 2026 19:15:04 -0000
+Message-Id: <177602130475.2242288.8544625854741395379@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/docs/linux
-user: corbet
+repo: pub/scm/linux/kernel/git/jic23/iio
+user: jic23
 changes:
-  - ref: refs/heads/docs-next
-    old: bb6a85b4b652f8424b5a28c2c445ded41ded51d0
-    new: 40a3f6c5e2604ff7c007da6628120529569e950c
+  - ref: refs/heads/testing
+    old: 88a57fd5934ce8ce39bc010192989db6939b3f85
+    new: 0ccdcdc698b7ba52f2c9bc09bfdf9f020ca0e6e6
     log: |
-         f0efd29aa60cb3399c79c0a041d1f1c0a4367862 doc: Add CPU Isolation documentation
-         40a3f6c5e2604ff7c007da6628120529569e950c Documentation: core-api: real-time: correct spelling
+         0ccdcdc698b7ba52f2c9bc09bfdf9f020ca0e6e6 iio: adc: ti-ads8688: use read_avail for available attributes
          
