@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Sun, 12 Apr 2026 22:03:04 -0000
-Message-Id: <177603138410.2416396.14247789146686161531@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/abelloni/linux
+Date: Sun, 12 Apr 2026 22:04:55 -0000
+Message-Id: <177603149531.2417413.575802986308731821@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf-next
-user: kkd
+repo: pub/scm/linux/kernel/git/abelloni/linux
+user: abelloni
 changes:
-  - ref: refs/heads/for-next
-    old: fa2942918afbd0cb765277e2fd09fe0aaef6dd8d
-    new: 47687a29b2c3acc9aa553737d482645813878aed
+  - ref: refs/heads/rtc-next
+    old: 095a3e886dd250acc9ff692f8fcc296f0023a5c6
+    new: 0fedce7244e4b85c049ce579c87e298a1b0b811d
     log: |
-         47687a29b2c3acc9aa553737d482645813878aed selftests/bpf: Use memfd_create instead of shm_open in cgroup_iter_memcg
+         30c4d2f26bb3538c328035cea2e6265c8320539e rtc: ntxec: fix OF node reference imbalance
+         0fedce7244e4b85c049ce579c87e298a1b0b811d rtc: abx80x: Disable alarm feature if no interrupt attached
          
