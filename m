@@ -1,21 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Sun, 12 Apr 2026 20:41:11 -0000
-Message-Id: <177602647139.2330747.2115269121969651538@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/lindholm/alpha
+Date: Sun, 12 Apr 2026 20:43:46 -0000
+Message-Id: <177602662630.2332113.613538527170814448@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/linux/kernel/git/lindholm/alpha
+user: lindholm
 changes:
-  - ref: refs/heads/main
-    old: 2654557112d6ca298d0ef43b56e4cafb5cc0cb10
-    new: e802cd8cb0ffc4ddd2d6f78fc970d195af33deda
+  - ref: refs/heads/for-next
+    old: c4a414cffed02ce8382985660c213f7a984fa5e8
+    new: bd39fc81340aed5445c731eb391af9ac9a701658
     log: |
-         236f718ac885965fa886440b9898dfae185c9733 net/rds: Optimize rds_ib_laddr_check
-         ebf71dd4aff46e8e421d455db3e231ba43d2fa8a net/rds: Restrict use of RDS/IB to the initial network namespace
-         e802cd8cb0ffc4ddd2d6f78fc970d195af33deda Merge branch 'net-rds-fix-use-after-free-in-rds-ib-for-non-init-namespaces'
+         55b22075f7840ef48254886758976531fe146609 alpha: add support for SECCOMP and SECCOMP_FILTER
+         bd39fc81340aed5445c731eb391af9ac9a701658 alpha: Define pgprot_modify to silence tautological comparison warnings
          
