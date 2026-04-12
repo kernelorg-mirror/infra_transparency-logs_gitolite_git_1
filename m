@@ -1,48 +1,41 @@
-Content-Type: multipart/mixed; boundary="===============5065749937362738754=="
+Content-Type: multipart/mixed; boundary="===============2328265489475027921=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Sun, 12 Apr 2026 15:47:32 -0000
-Message-Id: <177600885289.2030988.11338913227582325675@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
+Date: Sun, 12 Apr 2026 15:49:55 -0000
+Message-Id: <177600899544.2032298.6811677165652462090@gitolite.kernel.org>
 
---===============5065749937362738754==
+--===============2328265489475027921==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: kuba
+repo: pub/scm/linux/kernel/git/jic23/iio
+user: jic23
 changes:
-  - ref: refs/heads/main
-    old: 3f3a2aefbc661b837c8e344f944982d61c2ae037
-    new: 17ad4759a082e38c6c195fddf7022d363c2838ee
-    log: revlist-3f3a2aefbc66-17ad4759a082.txt
+  - ref: refs/heads/testing
+    old: 87053bb8df99100aafe268286048f275319d9b3f
+    new: 614ea79b75585d66fe9b1f31dd5ac47e0a7ce6d7
+    log: revlist-87053bb8df99-614ea79b7558.txt
 
---===============5065749937362738754==
+--===============2328265489475027921==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3f3a2aefbc66-17ad4759a082.txt
+Content-Disposition: attachment; filename=revlist-87053bb8df99-614ea79b7558.txt
 
-3c8c39768b10867e4f630080785b602245f01760 dpll: zl3073x: clean up esync get/set and use zl3073x_out_is_ndiv()
-737cb6195c40acf67c876f509e209158436cf287 dpll: zl3073x: use FIELD_MODIFY() for clear-and-set patterns
-63009eb92b0f379afddbba8dfdf8df087f6d5b62 dpll: zl3073x: add ref sync and output clock type helpers
-a1a702090def20ab0fea13700128861b70d91bc5 dt-bindings: dpll: add ref-sync-sources property
-14f269ae699869ddaca7c29c9c6c52288e3bfb73 dpll: zl3073x: add ref-sync pair support
-d24b443429e071e4dad662c440e2ea56000accba Merge branch 'dpll-zl3073x-add-ref-sync-pair-support'
-f757a2da6df52299606512b0920eba728d642543 dt-bindings: net: ti: k3-am654-cpsw-nuss: Add ti,j722s-cpsw-nuss compatible
-436e9e48ca5141658d65f1190fccbc60a490c84b net: ethernet: ti: am65-cpsw: add support for J722S SoC family
-4d19654dacef1ce6e29769c0c863df13de0d5be3 net: ngbe: remove netdev->ethtool->wol_enabled setting
-752157d9eded7f9213d102048388a78753b84617 net: ngbe: move the WOL functions to libwx
-9bc29a87fbc647db5f08643403d59f094d19298e net: ngbe: remove redundant macros
-d48df7e7c3fb456d2dc907707a124dab8462eb19 net: wangxun: replace busy-wait reset flag with kernel mutex
-b736ebed937e5e0ab68cff3ed6103c7aa058f414 net: wangxun: move ethtool_ops.set_channels into libwx
-58f6303572ec66e7c2967ac168125f444c9e880d net: wangxun: reorder timer and work sync cancellations
-dc33e52b8ce6f2d42dce18da12dc47d6c21f2e8b net: wangxun: schedule hardware stats update in watchdog
-1dd9b0dafd21cfdac534b423b7e7ee980b3c535a net: libwx: wrap-around and reset qmprc counter
-40637e4a4477ab0f059f60e38d376390b4c71823 net: libwx: improve flow control setting
-17ad4759a082e38c6c195fddf7022d363c2838ee Merge branch 'wangxun-improvement'
+1af34895bc4b268e828bb57e8d269c54f9307063 iio: imu: bno055: add explicit scan buf layout
+37cfb14b46f47ae1627dbcb3511367e1cf747a9f iio: orientation: hid-sensor-rotation: use ext_scan_type
+3e456969270bcac72eb6c88cf0b4c77ae951fe3c iio: adc: ad7191: Don't check for specific errors when parsing properties
+9d880dffe7273e43d052603ecb63cbbd98adc85a iio: imu: st_lsm6dsx: Fix check for invalid samples from FIFO
+3253477893b2fa5703a83690c55fdb84bac44fde iio: Replace 'sign' field with union in struct iio_scan_type
+b654ce3c5b65fea7b7b056d6f500a7e46c2b242c iio: tools: Add support for floating-point types in buffer scan elements
+be746eb6e40f26eab90572c7f993af0a38c35f20 iio: ABI: Add support for floating-point numbers in buffer scan elements
+64a09d619a551c4a3f55ee70a111728177a12917 iio: ABI: Add quaternion axis modifier
+15c3c70b47a101877680e01da108be61ee645657 iio: imu: st_lsm6dsx: Add support for rotation sensor
+e589491392037440833f0ac78949cb4ab710f1b3 iio: adc: ltc2309: add read delay for ltc2305
+614ea79b75585d66fe9b1f31dd5ac47e0a7ce6d7 iio: adc: ltc2309: Optimize chip_info structure layout
 
---===============5065749937362738754==--
+--===============2328265489475027921==--
