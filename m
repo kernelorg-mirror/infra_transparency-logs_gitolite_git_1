@@ -1,56 +1,41 @@
-Content-Type: multipart/mixed; boundary="===============5547330071765804576=="
+Content-Type: multipart/mixed; boundary="===============0580526605188208962=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/security/vulns
-Date: Mon, 13 Apr 2026 13:14:36 -0000
-Message-Id: <177608607613.3456985.5777542643051180830@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Mon, 13 Apr 2026 13:20:46 -0000
+Message-Id: <177608644670.3464931.2874927951912070438@gitolite.kernel.org>
 
---===============5547330071765804576==
+--===============0580526605188208962==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/security/vulns
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: pabeni
 changes:
-  - ref: refs/heads/master
-    old: 3473dd31b42ba48869c68a3e42e317eecd6e99ec
-    new: e186ff9ea4b9e5b5f649ead288d0cdef589521d1
-    log: |
-         e186ff9ea4b9e5b5f649ead288d0cdef589521d1 update cvelistV5
-         
+  - ref: refs/heads/main
+    old: 8806d502e0a7e7d895b74afbd24e8550a65a2b17
+    new: c7211b6e83342c71380c2e40ae46ce4a745b98b6
+    log: revlist-8806d502e0a7-c7211b6e8334.txt
 
---===============5547330071765804576==
+--===============0580526605188208962==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-8806d502e0a7-c7211b6e8334.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1776086073 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
-nonce 1776086073-e01ed03914551b9740d659c56ef088e97dc82764
+3faf0ce6e499dfd32e596bcb5bca2c44d64f4cc1 net: team: Annotate reads and writes for mixed lock accessed values
+014f249121d73909528df320818fba7693d0ec92 net: team: Remove unused team_mode_op, port_enabled
+cfa477df2cc62ba53cb936669886361152b594a7 net: team: Rename port_disabled team mode op to port_tx_disabled
+05e352444b2430de4b183b4a988085381e5fd6ad selftests: net: Add tests for failover of team-aggregated ports
+10407eebe8861802d5117956604f94d364df85d5 selftests: net: Add test for enablement of ports with teamd
+fa6ed31dd913b0f68c75ec80c3f4a324572071fc net: team: Rename enablement functions and struct members to tx
+68f0833f279ac209ec865da76568c843dd38c508 net: team: Track rx enablement separately from tx enablement
+0e47569a574d447fec072abf3b4330974a471b97 net: team: Add new rx_enabled team port option
+bb9215a98179509e9b1b9a31d68faeebd9339f7c net: team: Add new tx_enabled team port option
+d3870724eb16c1e6a73cff8a548af0c03a0e6c52 selftests: net: Add tests for team driver decoupled tx and rx control
+c7211b6e83342c71380c2e40ae46ce4a745b98b6 Merge branch 'decouple-receive-and-transmit-enablement-in-team-driver'
 
-3473dd31b42ba48869c68a3e42e317eecd6e99ec e186ff9ea4b9e5b5f649ead288d0cdef589521d1 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmnc7DkbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+qmoP/iwzhFthTP75mJkJKl38
-9sjTXc/3XmnktTTSWttmSHlbzPmwB/ns46p1Wbw47XtP2+5pu+ydSz4+VU2PRedx
-fiXXb+NzRoV09i4xVzLmOUTwNmBF28/l/iT6pObGHQIb/B4GuxurYi+Mg/08gEEI
-W13Tu+QFCtOhnxb5AsFuV2djaYNIvKWWRJWdHzqhQ54m61Ik1GYitVSW9IAOs+/c
-rgAee7kWCIZ9fKM/8a9gmXJYQuIuSFsAFuG1lRakJKNC6HORows0k28/z2P5oeOP
-wsxeLHA3CC7P5k4OVCAfKjUzLArmoQ/BHLH5oRJqVf1Q+PLnp6nONkdFDKEA1grn
-TUN8GSauJmvbiOcE3nBXq7JQAOi4VdDk7SE3s7IbUHRuZ0sOttCgKwoJYh+e3Bdm
-AmLtgqsSoRa8y51yge2/fAMW1Z6KT9nLIEZYJeoqySyvpxSwY9vahpmnPp2JTmOe
-aVMmZLWyYtJR9pb58xKCgd8FKbSmze2EkwPe4SrEx2XRIQSq7X7Lt9q+/CZnD6mI
-Ra8heT0pJ3mZHuccSJmBY9E7gcPVaLD1oJQcgRNPIXLm5PwbE24Yyt17lMti8WYt
-uUn5N9hN13PxkL9aIQK/qat3d1pF4v7KKJFzvdrkjliO6KOfoCMA3kyBB5HYqjKc
-CsknO1UUZX7w9Ax6mXOTWnkS
-=iiVh
------END PGP SIGNATURE-----
-
---===============5547330071765804576==--
+--===============0580526605188208962==--
