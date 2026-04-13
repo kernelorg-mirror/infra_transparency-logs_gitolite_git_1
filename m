@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6886795425399198905=="
+Content-Type: multipart/mixed; boundary="===============6842751192107593722=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/klassert/ipsec
-Date: Mon, 13 Apr 2026 10:17:54 -0000
-Message-Id: <177607547467.3216186.12258444860156063994@gitolite.kernel.org>
+Date: Mon, 13 Apr 2026 10:18:48 -0000
+Message-Id: <177607552897.3216971.4620285338839159633@gitolite.kernel.org>
 
---===============6886795425399198905==
+--===============6842751192107593722==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/klassert/ipsec
 user: klassert
 changes:
-  - ref: refs/heads/testing
+  - ref: refs/heads/master
     old: 426c355742f02cf743b347d9d7dbdc1bfbfa31ef
     new: 2dddb34dd0d07b01fa770eca89480a4da4f13153
     log: revlist-426c355742f0-2dddb34dd0d0.txt
 
---===============6886795425399198905==
+--===============6842751192107593722==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ edccdd1eb94712da97a6ce71123ec27890add754 net/mlx5e: IPsec, fix ASO poll timeout 
 5e700c773032e02def9a4c33d0023ebc3925cdd3 Merge branch 'mlx5-misc-fixes-2026-04-09'
 2dddb34dd0d07b01fa770eca89480a4da4f13153 net: ethernet: mtk_eth_soc: initialize PPE per-tag-layer MTU registers
 
---===============6886795425399198905==--
+--===============6842751192107593722==--
