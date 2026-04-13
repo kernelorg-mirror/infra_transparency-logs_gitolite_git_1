@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/cip/linux-cip
-Date: Mon, 13 Apr 2026 08:01:51 -0000
-Message-Id: <177606731174.3056884.248378433458016960@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Mon, 13 Apr 2026 08:06:01 -0000
+Message-Id: <177606756154.3079456.8211402356622562839@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/cip/linux-cip
-user: iwamatsu
+repo: pub/scm/linux/kernel/git/tip/tip
+user: mingo
 changes:
-  - ref: refs/notes/signatures/tar
-    old: e09f2879b286960c67afa7f4d32c0f087486e5d5
-    new: e27f3d40c662a43838eafccf28045591f933c933
-    log: |
-         e27f3d40c662a43838eafccf28045591f933c933 Notes added by 'git notes add'
-         
+  - ref: refs/tags/objtool-core-2026-04-13
+    old: 0000000000000000000000000000000000000000
+    new: ed785b7cd8906d39b9fa0c81c6b7634dac32807f
