@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8714029440804855566=="
+Content-Type: multipart/mixed; boundary="===============7592473723016481451=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
 Date: Mon, 13 Apr 2026 15:57:29 -0000
-Message-Id: <177609584952.3636630.11602915677807993734@gitolite.kernel.org>
+Message-Id: <177609584966.3636650.7275348259184545582@gitolite.kernel.org>
 
---===============8714029440804855566==
+--===============7592473723016481451==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,97 +16,102 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-6.6.y
-    old: 66ade275249ced0c4e640a3a6c9cb99e5cefe951
-    new: d20afc4dec68a132186992a3e6bbbc1fce57d12c
-    log: revlist-66ade275249c-d20afc4dec68.txt
+  - ref: refs/heads/linux-6.1.y
+    old: d5b90952225b10ce4987bed80ad8a60328b20220
+    new: 6dadbe7e9a85778b4e4c93376bf8362969614bb5
+    log: revlist-d5b90952225b-6dadbe7e9a85.txt
 
---===============8714029440804855566==
+--===============7592473723016481451==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1776095847 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1776095848 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1776095847-da0fa006ec39649ec340ca25b1f4f72d2a66059b
+nonce 1776095848-7ea73a431a8b7f93d18ff6f58121b7e5deaa1d27
 
-66ade275249ced0c4e640a3a6c9cb99e5cefe951 d20afc4dec68a132186992a3e6bbbc1fce57d12c refs/heads/linux-6.6.y
+d5b90952225b10ce4987bed80ad8a60328b20220 6dadbe7e9a85778b4e4c93376bf8362969614bb5 refs/heads/linux-6.1.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmndEmcbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+QGIQAM7qJygzS4uc2F9ToJaA
-wB8h392miDIzjwJJ7Zcac9NWsGsYSZrczaFVYJXuc5f8XkVs1OaLmaHMUys9rDfa
-WuwVxUwf6RY4X1Rz55qmg95dXAg3FMhh64tCUoOt2/EO9RZoTuHskRsWKRtIhk0c
-IV7wxC7T59UpxJalUHzWiK8XVbk6qmCxwrPWxC8Qn2bUUrdJr9SFd5oCA9jJz1D/
-0s0x8UQMkwmM1ssOMvJ4umgZYRI2jWUagWPEf59x90CgevwHepjFVACYNJjEHbxj
-E32+o6b/zsUKet0/t8NL5DMOH+V99FNFaqBIjWHJLTTJ2HuTqhhhULQl69YXI33m
-MUnLGgZx0DE+d6ke6KhXSof5R8k//PBLNnnYzvDFd0gcGC76ntGE4ipLknTJnl4/
-ekShbrVVd+/3i/90kZXkPnD0W33eYW5ieJWzUcR8PwI9cYS8fKAZ0mShEYBGgTN8
-NWwcMPsXmAjWRskpC/EXpqttXC/jgbfwYucphp6UDSLZghBUs8MYCwc/37w7pRXh
-mLo68X+MgvSrvOJN9YPH5jjg34mNzUxUSQ4VrQxU7/fIIeCCpnWuwuvIEOdR7oEQ
-cGRQTS9A/bWOd/wqUfrhcch+pfOtQ+era6wgxQ3DVN0qShCtOqvC5th5VMVOlYYn
-X2sGID2GpbRj/zJt+Y4QJhRO
-=YK7K
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmndEmgbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+9sAP/jx+307hX42Yunvpd1I0
+wDxbLgGMv2C77+PxanyFItPshatfdGMRvQUnNGDtAFbrBg1n5wsSVAl3wQGPoBBD
+KsJP1u5cyHPkpe8j9TwbRRPucrbWXM5qEXC6iVU4fqQr68e0pmrBYX30zrc0mGtF
+vuoZA0GDZPeVmqo8UGRhTal/FivIey3l2akjkhKC2mqYqG5dQnAOq7VvMwZtk/Lt
+vK++kDnMwAUJ09DbrHotZ6PxSRV2KRTBPhMvVPKcrnEPiQPzp/RKOAbV3PteFon4
+04SfG+MGuYQQ+BCeW0f2p/8JwHWgHooG7v77YxDowVma8mFM4EoOWd3LN1qoXriU
+E0/0uhCYu5y4mkx3tbHGFa52ctba7kG2Xw25g+lfbkXnjc5vtNlwGhB477Sbrijv
+/0aNeJZ8gPEGSLlKp2pbMj42cg8DyuKdb7akHqob7QG83bbK+KAza+P51rw6POkt
+E82QdCBQJNQHDPZiT0XQ1/TWiJXWmnUPDDXoi+GkZHFAVcR7gvHRsyd9PYnP53ad
+LJrKjKk1r8LOLi5zNtPhgn19cfe+qJNMgUudgoF5OWvcMvGsnxylolZJU8krZsWy
+Lzw5NCZFWbXfRqrNxPJMSUH4OQB1VTofKLbwYMIbfGam1gW2G22/xoqwKolypqtS
+dCPSo/Xb5RTZ2z2yi2aWxzXK
+=9VN9
 -----END PGP SIGNATURE-----
 
---===============8714029440804855566==
+--===============7592473723016481451==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-66ade275249c-d20afc4dec68.txt
+Content-Disposition: attachment; filename=revlist-d5b90952225b-6dadbe7e9a85.txt
 
-037469115e3025d542e29c7c3d4b4b0ce207dc78 lib/crypto: chacha: Zeroize permuted_state before it leaves scope
-8359846bcf817f90511eecaa5286f58f33b676d8 wifi: rt2x00usb: fix devres lifetime
-154991e949675b2f515aceac97bfeb8fdfaaf934 xfrm_user: fix info leak in build_report()
-782545c05aeeb0399561737457203ec232b52739 net: rfkill: prevent unlimited numbers of rfkill events from being created
-87fc871b6fd1709c7df126fb0eacef91aab4a441 mptcp: fix slab-use-after-free in __inet_lookup_established
-1edea366f00033307eb0dcf320ee4db5f376b725 Input: uinput - fix circular locking dependency with ff-core
-dde1c96a76880bbe235df3aaf13cee086a5f4a99 Input: uinput - take event lock when submitting FF request "event"
-ed8258301060fd8a9d5232433e74af39912467bb MIPS: Always record SEGBITS in cpu_data.vmbits
-095c78ffc4942e27b0f154ac7824c086de0ffd3e MIPS: mm: Suppress TLB uniquification on EHINV hardware
-08fa30ba497a441e8f3e187016b52e0940c6871c MIPS: mm: Rewrite TLB uniquification for the hidden bit feature
-c228f19864541bb08061c9b329d46f17bf031f33 ASoC: simple-card-utils: Don't use __free(device_node) at graph_util_parse_dai()
-9517d814c14674b05c2472b098e3fa926f9d7d32 scsi: ufs: core: Fix use-after free in init error and remove paths
-f0ed939058746344ce2876b31ab43a9905fa4492 virtio_net: clamp rss_max_key_size to NETDEV_RSS_KEY_LEN
-5c5ea4c4c912a5e2123fb87fc8e826ea49830cb8 mptcp: fix soft lockup in mptcp_recvmsg()
-41aedbcb4252e2008242027138c6407530667022 usb: gadget: f_hid: move list and spinlock inits from bind to alloc
-5b58d9408042866e092b7da028f343d4fb6e3a20 Revert "mptcp: add needs_id for netlink appending addr"
-7702c541b5252df899e85bd0bbf3402b3a09ba0a seg6: separate dst_cache for input and output paths in seg6 lwtunnel
-cc285c24f79cc744d418f7e1d76dbe9c5b02c611 netfilter: nft_set_pipapo: do not rely on ZERO_SIZE_PTR
-21dc58eebafac33e6e95c63e92f4c99113a84a08 Revert "drm: Fix use-after-free on framebuffers and property blobs when calling drm_dev_unplug"
-83959b21c3f742f613eaa1665320ab7c009e2ebd netfilter: nft_ct: fix use-after-free in timeout object destroy
-611ab3b79a2c329dd293d1fdae8aeb9a54a4698f xfrm: clear trailing padding in build_polexpire()
-045506699f482fa856e276d7f08fcec258781ca0 tipc: fix bc_ackers underflow on duplicate GRP_ACK_MSG
-81a98ad4372e5905e1c8a9662d8a2ba19ac05d97 wifi: brcmsmac: Fix dma_free_coherent() size
-f31016541c6a46a642a9673b3612a7a6b35fee0b Revert "arm64: dts: imx8mq-librem5: Set the DVS voltages lower"
-bb5175fc625eb6ea8b0153a20112936b59afaac7 arm64: dts: imx8mq-librem5: Bump BUCK1 suspend voltage up to 0.85V
-791fb50eb9ffd5e2db4a156271ff57c7f839b8f0 arm64: dts: hisilicon: poplar: Correct PCIe reset GPIO polarity
-4dd8b53c763609f544d82e06b74b6d8e97e917bf arm64: dts: hisilicon: hi3798cv200: Add missing dma-ranges
-1fd18b34373e97cd76003dd289520c3c4231c67a nfc: pn533: allocate rx skb before consuming bytes
-0f9e3fc46f6bea81be0fef6097ea8ee6a3efddb8 batman-adv: reject oversized global TT response buffers
-4c41b583225b31e8d0a7eef0785abc093e3d7708 X.509: Fix out-of-bounds access when parsing extensions
-5f54c2ee53fc6538a14532c1c6a704586bf39ac4 EDAC/mc: Fix error path ordering in edac_mc_alloc()
-427981259c2bdfdfaca849024c4885b911599abc net/tls: fix use-after-free in -EBUSY error path of tls_do_encryption
-00c29e1d18bbe7d7f31003274bbfe918200494fd net: altera-tse: fix skb leak on DMA mapping error in tse_start_xmit()
-bc8a56ecfecd443db435d2ce4999ccd6e79539fa batman-adv: hold claim backbone gateways by reference
-37d8840e80783a1c7ca93642f3fdd1299e1ca42e drm/i915/gt: fix refcount underflow in intel_engine_park_heartbeat
-d4130e64eec0093b3eee4c6a773479cda0f09ee0 net/mlx5: Update the list of the PCI supported devices
-fe1075438a4085fd72071878dcc17f2d723bb982 pmdomain: imx8mp-blk-ctrl: Keep the NOC_HDCP clock enabled
-3056fff571e61e61336ee9899206f4cd91ab5fd2 mmc: vub300: fix NULL-deref on disconnect
-8ff47cc4765965f6f2e324d61fbefe8c0d5730af net: qualcomm: qca_uart: report the consumed byte on RX skb allocation failure
-95b3cc3130754a4f7e12f4ae50b669509bb54449 net: stmmac: fix integer underflow in chain mode
-7149857222f4a1888f46bf22691b2b0ee4653ec8 mm: filemap: fix nr_pages calculation overflow in filemap_map_pages()
-912d55455f5753eae8a9c2c86eb4aea5c73d778d net: lan966x: fix page_pool error handling in lan966x_fdma_rx_alloc_page_pool()
-7a521e601b40740f2fec425fad24a69529b6bd0b rxrpc: Fix call removal to use RCU safe deletion
-743023e60baf956e9b6659216d1b94b68b6afaa1 rxrpc: Fix key reference count leak from call->key
-92387df5c464a63d462a6e8e76b67477069147d5 rxrpc: Only put the call ref if one was acquired
-98d0d4991a60e2eb8dfccfe1e014c3d6f448de6b rxrpc: reject undecryptable rxkad response tickets
-a93e541537915d6641e7a9a3b4303aa670bb2abe rxrpc: fix reference count leak in rxrpc_server_keyring()
-928ceb1ebf000ab325dba684b768eeff3fdc0b9d rxrpc: Fix key/keyring checks in setsockopt(RXRPC_SECURITY_KEY/KEYRING)
-4bea82406124083d1a883f9e79f853fd2d0ee004 rxrpc: Fix missing error checks for rxkad encryption/decryption failure
-0bfef0dc1e1a76db01fb0eee6cb51e1c0ccd8483 Revert "PCI: Enable ACS after configuring IOMMU for OF platforms"
-d20afc4dec68a132186992a3e6bbbc1fce57d12c Linux 6.6.135-rc1
+1d41c6fb49fe97a2bf43a0f6d9afa2884f9a0e68 lib/crypto: chacha: Zeroize permuted_state before it leaves scope
+6b7786de60465ef6abaddf29bd3e4dabf8d8f584 wifi: rt2x00usb: fix devres lifetime
+b22a3a8fa00f0ff2dd710396f91eefedc84f2e5d xfrm_user: fix info leak in build_report()
+0608ba3122878ad279ba809f7e34d0ed08e76f77 mptcp: fix slab-use-after-free in __inet_lookup_established
+e6bf8d073ec5b80ac876d0f28508646cf3dae526 Input: uinput - fix circular locking dependency with ff-core
+e40efec8355d2e0ece28ed1575f548e7cf77525f Input: uinput - take event lock when submitting FF request "event"
+783442f305dbcfef11e2b01bf11020dfc49d6ac7 MIPS: Always record SEGBITS in cpu_data.vmbits
+5abb86b3f77d93adf98ee2ed0214e2bad8e2795a MIPS: mm: Suppress TLB uniquification on EHINV hardware
+a80f13cdb8de594c6b039116d302d7bf6a396c11 MIPS: mm: Rewrite TLB uniquification for the hidden bit feature
+5a56d44adb40620ed5f8ec1fad04fde7d8bf2f8b media: uvcvideo: Mark invalid entities with id UVC_INVALID_ENTITY_ID
+bfe87e52582315608c4dba90c78e764404a3c58d media: uvcvideo: Use heuristic to find stream entity
+31042cca8d4e78d5327ee5ef586c22bfc1c3761a apparmor: validate DFA start states are in bounds in unpack_pdb
+83fb9a4d34fdd86148dc8c4488bf891f76df1630 apparmor: fix memory leak in verify_header
+8e7e1ca37ad4e7aa03d5652ece735e827c0b0736 apparmor: replace recursive profile removal with iterative approach
+7d24fca8306067e1ef26ef1d11afd1f8a143f14d apparmor: fix: limit the number of levels of policy namespaces
+cea1dfcef2047b6cc058903fb80d5bce33844adc apparmor: fix side-effect bug in match_char() macro usage
+f3390d4483301024a4e9f1c0dff71109967e80b5 apparmor: fix missing bounds check on DEFAULT table in verify_dfa()
+167425e9c97ca239b76c464070580f71280106c5 apparmor: Fix double free of ns_name in aa_replace_profiles()
+896fa7e1e465324bd84bff12a7008cacdd4ec586 apparmor: fix unprivileged local user can do privileged policy management
+b73b3cbd502b45b276d9dbd81a5ee24d0728de66 apparmor: fix differential encoding verification
+8c603657bb032033720ece1bd3a73af4462251a8 apparmor: fix race on rawdata dereference
+6a3f95c2aead2b5aa3432b0871cc51d131868473 apparmor: fix race between freeing data and fs accessing it
+f7d2c0d0616c9ad83ed6ca36fcd3094e55f99620 usb: gadget: u_ether: Fix race between gether_disconnect and eth_stop
+abbc9e37d0903fc0b2cef924589bdfd0bed15713 Revert "ACPI: EC: Evaluate orphan _REG under EC device"
+dfe9769e5228f9d9e11f07dfabd30206cbd113e5 ACPICA: Add a depth argument to acpi_execute_reg_methods()
+fcf07487012cb1629a1c97600b10074856aea19c ACPI: EC: Evaluate _REG outside the EC scope more carefully
+7d9db0ce232de98c94d04d38dce5f5fcfcfd662e usb: gadget: f_hid: move list and spinlock inits from bind to alloc
+2338339a80ee8258764877e4dad53521554f0dac rfkill: Use sysfs_emit() to instead of sprintf()
+bfeca636a53494fbf01115eed0ee5fd694e3e576 rfkill: sync before userspace visibility/changes
+a5993e84adae675d071e37b9bd8369f32e51e1d9 net: rfkill: reduce data->mtx scope in rfkill_fop_open
+732a0637bc264d9b771d9d35d3b4923f6d28d2b0 net: rfkill: prevent unlimited numbers of rfkill events from being created
+092b1c51a669ad09db191217e7a1a6a29d16ace4 seg6: separate dst_cache for input and output paths in seg6 lwtunnel
+49f5b2c031ebc08a89e780df30340eefdb0779e2 Revert "mptcp: add needs_id for netlink appending addr"
+6b46973278c85974fa1c0bb7c8a41cc5f498b370 drm/scheduler: signal scheduled fence when kill job
+b8394b02be4d0349405ecb71cf49343aad4650f8 netfilter: nft_set_pipapo: do not rely on ZERO_SIZE_PTR
+dc3479edfa0205f9a5aa332cc0400b63df44a2ed netfilter: nft_ct: fix use-after-free in timeout object destroy
+0afe95864422e8beeae8e35f274cb764dc8fffe6 xfrm: clear trailing padding in build_polexpire()
+7b4131671fd1a65a6be82790217ed8ea8efcc97a tipc: fix bc_ackers underflow on duplicate GRP_ACK_MSG
+2dd70f09f9318fa29e00e7b97728baf20e3a55af wifi: brcmsmac: Fix dma_free_coherent() size
+fa86c2eb5aa1e3d26e20ce8000145ac842505eb4 arm64: dts: hisilicon: poplar: Correct PCIe reset GPIO polarity
+b9f8cf45a0369311c2c7d33e83ba82715052ee13 arm64: dts: hisilicon: hi3798cv200: Add missing dma-ranges
+a9ef88770f289afb572f2d804edd38612adbb43e nfc: pn533: allocate rx skb before consuming bytes
+a101701e58b39f0b80edc51d177080ad0d9e63f4 batman-adv: reject oversized global TT response buffers
+ca94ff90bee0dada7d795103ba0a90e6cfd7dc49 EDAC/mc: Fix error path ordering in edac_mc_alloc()
+fedbb0e57832b9c88795e0c15f52d03828a57127 net/tls: fix use-after-free in -EBUSY error path of tls_do_encryption
+a6c3daa8e4e364fd31a644ec071a228b6c72d01b net: altera-tse: fix skb leak on DMA mapping error in tse_start_xmit()
+1573d811682a68adf039d910f05fa027b22f80df batman-adv: hold claim backbone gateways by reference
+8c8c43decd855ee957295f7fa1312e53a64e28bf drm/i915/gt: fix refcount underflow in intel_engine_park_heartbeat
+98cac0b913bf58fea8a29c840d91f0ad8e60d294 net/mlx5: Update the list of the PCI supported devices
+d6afd5a99c2cdfc627247a3007d9ee44f6b2c4d0 mmc: vub300: fix NULL-deref on disconnect
+13a7ba1d368b5a61d0a3d002c7a800a109f9d454 net: qualcomm: qca_uart: report the consumed byte on RX skb allocation failure
+8957952fce7a57a2d15c4f2ce64cbc1ec4f07caf net: stmmac: fix integer underflow in chain mode
+2eea517daf60cdfbca93fd732331027dc0a68ce2 rxrpc: fix reference count leak in rxrpc_server_keyring()
+47619aeb141c5d9b12f1f37cf648884e077d9d74 rxrpc: Fix key/keyring checks in setsockopt(RXRPC_SECURITY_KEY/KEYRING)
+0eb9b263bf848e73807d32f89fa3ba61edd2adab Revert "PCI: Enable ACS after configuring IOMMU for OF platforms"
+6dadbe7e9a85778b4e4c93376bf8362969614bb5 Linux 6.1.169-rc1
 
---===============8714029440804855566==--
+--===============7592473723016481451==--
