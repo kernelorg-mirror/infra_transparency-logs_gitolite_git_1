@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/damon-hack
-Date: Sun, 12 Apr 2026 23:51:46 -0000
-Message-Id: <177603790632.2523405.17225057980747776486@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jassibrar/mailbox
+Date: Mon, 13 Apr 2026 01:40:17 -0000
+Message-Id: <177604441736.2634863.9885818245566317958@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/damon-hack
-user: sj
+repo: pub/scm/linux/kernel/git/jassibrar/mailbox
+user: jassibrar
 changes:
-  - ref: refs/heads/master
-    old: 7e9423ccd443396b41d8cea162ec1218d0014d74
-    new: 5a1aabdeea8cb7e1326c3b18cced84f05f133f3e
+  - ref: refs/heads/for-next
+    old: 220045247712ddfda1fcedfa61e91dae24e63bcf
+    new: c02053a9055d5fdfd32432287cca8958db1d5bc5
     log: |
-         af883834307343bc5a044d0cda427d6253bfc941 patches/mm: update
-         5a1aabdeea8cb7e1326c3b18cced84f05f133f3e patches/next: rebase to latest mm-new
+         0bd75b7abafb3ed199df830c539c57ef9b62c2a2 mailbox: prefix new constants with MBOX_
+         c02053a9055d5fdfd32432287cca8958db1d5bc5 mailbox: mailbox-test: free channels on probe error
          
