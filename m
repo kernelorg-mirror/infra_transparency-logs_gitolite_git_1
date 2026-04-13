@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/utils/next-utils/tools
-Date: Mon, 13 Apr 2026 17:41:45 -0000
-Message-Id: <177610210511.3749835.9926210500798853747@gitolite.kernel.org>
+Date: Mon, 13 Apr 2026 17:45:13 -0000
+Message-Id: <177610231382.3754136.13227905827816593457@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/utils/next-utils/tools
 user: broonie
 changes:
   - ref: refs/heads/main
-    old: 5202e32036f8769ecc833e19d0efcd0a43528b53
-    new: e83238aaaf47f1df0a206c9895ddbf1735df076b
+    old: e83238aaaf47f1df0a206c9895ddbf1735df076b
+    new: 659b666c55d04886342200125bedc42a9f8f285e
     log: |
-         e83238aaaf47f1df0a206c9895ddbf1735df076b README: Import Stephen's README
+         659b666c55d04886342200125bedc42a9f8f285e README: Add more documentation
          
