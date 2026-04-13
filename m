@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/hubcap/linux
-Date: Mon, 13 Apr 2026 20:19:28 -0000
-Message-Id: <177611156827.3952457.9161596390224510516@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Mon, 13 Apr 2026 20:22:29 -0000
+Message-Id: <177611174967.3956740.14811092926679173997@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/hubcap/linux
-user: hubcap
+repo: pub/scm/linux/kernel/git/tip/tip
+user: bp
 changes:
-  - ref: refs/heads/for-next
-    old: df6fd4485d7a7f22e188aa6b8635be5721c56750
-    new: e61bc5e4d87433c8759e7dc92bb640ef71a8970c
-    log: |
-         e61bc5e4d87433c8759e7dc92bb640ef71a8970c    bufmap: manage as folios, V2.
-         
+  - ref: refs/tags/x86_misc_for_v7.1_rc1
+    old: 0000000000000000000000000000000000000000
+    new: 3df5bb56d151abdbb3fafacce87a1774d20dd561
