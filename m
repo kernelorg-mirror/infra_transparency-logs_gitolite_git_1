@@ -1,56 +1,23 @@
-Content-Type: multipart/mixed; boundary="===============5416166400017046005=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Mon, 13 Apr 2026 10:46:30 -0000
-Message-Id: <177607719000.3245960.13833997837363537000@gitolite.kernel.org>
-
---===============5416166400017046005==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/vireshk/linux
+Date: Mon, 13 Apr 2026 10:47:39 -0000
+Message-Id: <177607725955.3246816.7571988034417870616@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/vireshk/linux
+user: vireshk
 changes:
-  - ref: refs/heads/master
-    old: 7d1d8e840a9f45d3fcdad1d3d210c46fee4cc0d4
-    new: 8a22102cfc4b338775130ec9661ca147ca9094ef
+  - ref: refs/heads/virtio/msg-amp
+    old: 1b0912f783ca6428e38acfc9ba95aaf35625a688
+    new: 8722b9c7278902deed3c15523a01b7b90f8686a1
     log: |
-         8a22102cfc4b338775130ec9661ca147ca9094ef 6.12-stable patches
+         064aac5946cebda18dfcd00d28663de4a9add403 virtio: msg: Add AMP transport over shared memory
+         751dc206bd7da8a3c5f9eb4db85bfa03cd9817aa virtio: msg: Add generic PCI transport driver for virtio-msg AMP
+         fb603c3d0d22831ba4abfd7aade8b571352a562f virtio: msg: Add Sapphire PCI transport driver for virtio-msg AMP
+         b4e51ddec5347e8354787617499e45c7d4c48630 virtio-msg: Use separate txbuf for event-avail
+         8722b9c7278902deed3c15523a01b7b90f8686a1 DNU: defconfig: arm64: Enable virtio-msg-amp
          
-
---===============5416166400017046005==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1776077189 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1776077188-273b9697511c35b6df29e7e8045753ecd027888e
-
-7d1d8e840a9f45d3fcdad1d3d210c46fee4cc0d4 8a22102cfc4b338775130ec9661ca147ca9094ef refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmncyYUbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+PigP/iSODpBlBkZFsYeiBp44
-WKHNzpFqyqhOSB2VSrHa+rtIEqQohQWRT5fBbZxTF0MaDrIv6DBrhms7fpj4qS3D
-rBopzFH8dmPfeyymtNC9EXOTeD4AwH0XJBcyQpTuC0NHA8cTD+s+bCRm8ItyVv4G
-rrDcEPxGPHFZlxgz3Anm0/8SJrVFbWYNl/G6/f+ur4nvc+FflNNxrVcOKBUKSCmX
-HxwOcaZRbXnSa9AXXh/tcwbliQN3keUggIeQXHkPDNYbt/D4f+0TxSsy7BZqWzSz
-fGKrd2g42ANqCzc+be5fjnarBlbezDJFVumPXEm3nnHKyGjeS8LB/coCTuaUEmgk
-uNkdKIjYah3huU+jmjrXmgjGV3QLgxOSouOh939YHx614HOkw+f1aOVkkhLtrKw+
-hu/VDkHOUAvHVebIYrUWF5N1dcBAsSexiRfguW24XrgFzHISqRCQbRq6c4BjQCn5
-qofMxAD8uuUTs+mPQptogV3sqYyUEewmKSUye8PK8z9BxpMKk/IJh0wDtToxTogs
-Rumm3VojgkUsr1JeyJ2EdRZHnLxXDN6wt5JPL32VbsC5sVw2SrzuFZ6Ye7jV8OCF
-Z8pHmOG1nqRtDTsyk7pOtTXdY0ewj3c4uFoUZ4zG9O7ceZhdO4XXdWK8jZdxWHo9
-El0ekvi0I1SRI2ajW0ZOnV5B
-=T25W
------END PGP SIGNATURE-----
-
---===============5416166400017046005==--
