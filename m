@@ -1,33 +1,33 @@
-Content-Type: multipart/mixed; boundary="===============5777313294569695135=="
+Content-Type: multipart/mixed; boundary="===============7340885372856953878=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pcmoore/audit
-Date: Mon, 13 Apr 2026 20:29:37 -0000
-Message-Id: <177611217793.3963195.14108780679679077209@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pcmoore/selinux
+Date: Mon, 13 Apr 2026 20:29:44 -0000
+Message-Id: <177611218466.3963449.4029260365589244003@gitolite.kernel.org>
 
---===============5777313294569695135==
+--===============7340885372856953878==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pcmoore/audit
+repo: pub/scm/linux/kernel/git/pcmoore/selinux
 user: pcmoore
 changes:
   - ref: refs/heads/main
-    old: 8aed2ef1cfeedf4115cd0d3367d02c7e85b62253
-    new: 277456fb911acbcb91a87e5331a1342b173f2fc5
-    log: revlist-8aed2ef1cfee-277456fb911a.txt
+    old: 2328a929690810e1df788ae83d3513ae78680f4f
+    new: fa7e562ec2dd5f55c944d6c38b28b296be2e5717
+    log: revlist-2328a9296908-fa7e562ec2dd.txt
   - ref: refs/tags/v7.0
     old: 0000000000000000000000000000000000000000
     new: 3131ff5a117498bb4b9db3a238bb311cbf8383ce
 
---===============5777313294569695135==
+--===============7340885372856953878==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8aed2ef1cfee-277456fb911a.txt
+Content-Disposition: attachment; filename=revlist-2328a9296908-fa7e562ec2dd.txt
 
 6ac513185c410f9404ff66b920bec137cbc6e543 Merge tag 'mtd/fixes-for-7.0-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/mtd/linux
 f374ff79f4bc4615cb5e13f77f349cb7a45c1c54 Merge tag 'ata-7.0-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/libata/linux
@@ -1052,6 +1052,6 @@ ab3dee26406be0ed0a26af70311dcdc760db3996 Merge tag 'timers-urgent-2026-04-12' of
 35bdc192d829164a6e47184d06401918fe3d7f1f Merge tag 'wq-for-7.0-rc7-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/tj/wq
 10d97b74e2eef787d823f9bc05cb044b47d25c41 Merge tag 'edac_urgent_for_7.0' of git://git.kernel.org/pub/scm/linux/kernel/git/ras/ras
 028ef9c96e96197026887c0f092424679298aae8 Linux 7.0
-277456fb911acbcb91a87e5331a1342b173f2fc5 audit: add a Linux Audit specific README.md and SECURITY.md
+fa7e562ec2dd5f55c944d6c38b28b296be2e5717 selinux: add a SELinux specific README.md and SECURITY.md
 
---===============5777313294569695135==--
+--===============7340885372856953878==--
