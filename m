@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/daveh/devel
-Date: Mon, 13 Apr 2026 15:45:00 -0000
-Message-Id: <177609510097.3621423.3343836892845824453@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Mon, 13 Apr 2026 15:45:11 -0000
+Message-Id: <177609511168.3624189.13035840008736885837@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/daveh/devel
-user: daveh
+repo: pub/scm/linux/kernel/git/broonie/misc
+user: broonie
 changes:
-  - ref: refs/tags/test.1776094982.x86_mm_for_7.1-rc1
+  - ref: refs/tags/sent/20260413-arm64-hwcap-gen-fix-ecb4bb6dbb91-v1
     old: 0000000000000000000000000000000000000000
-    new: 7241ab1f5674990b9fafe5e5372a09741ee91fd4
+    new: f9163f28cdaace06b2b66ae9695ee1ac52db851c
