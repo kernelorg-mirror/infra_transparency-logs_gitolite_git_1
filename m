@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3608433637748263562=="
+Content-Type: multipart/mixed; boundary="===============7913266713154758452=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/gregkh
-Date: Mon, 13 Apr 2026 06:24:36 -0000
-Message-Id: <177606147653.2955794.17596500787227453483@gitolite.kernel.org>
+Date: Mon, 13 Apr 2026 06:25:21 -0000
+Message-Id: <177606152152.2958663.853895121823913856@gitolite.kernel.org>
 
---===============3608433637748263562==
+--===============7913266713154758452==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/gregkh
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/module_version_removal
-    old: fa00b548dddda2eee715e910a87b0ce81e564131
-    new: f452447eed15031047351627385648ab935b3844
-    log: revlist-fa00b548dddd-f452447eed15.txt
+  - ref: refs/heads/readfile
+    old: adb5a8e39203ba3c18d3782cccdd792e2db19183
+    new: 3fd4f22b42a060390202b8067d4864c16ec8a5d9
+    log: revlist-adb5a8e39203-3fd4f22b42a0.txt
 
---===============3608433637748263562==
+--===============7913266713154758452==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1776061452 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1776061496 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/gregkh.git
-nonce 1776061451-c6e177c13ccbf524c8c97d6be1d1571b8f17987c
+nonce 1776061496-0377f486dc0863115d350c18153398103fc5f440
 
-fa00b548dddda2eee715e910a87b0ce81e564131 f452447eed15031047351627385648ab935b3844 refs/heads/module_version_removal
+adb5a8e39203ba3c18d3782cccdd792e2db19183 3fd4f22b42a060390202b8067d4864c16ec8a5d9 refs/heads/readfile
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmncjAwbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+wFcQALYfvgb7WY5ZaLpfqH07
-tm9341Bvc74OSLlFJ5tEC5rftpVV9RkvA+jjDHmA2fj1zyCwhn/EbSSFqr4eEl7r
-pZGSFunR3nojGuA71x+xvjtheVNDLYrfq7pCkf1ohba9hoR0S48Aj5kAZFzCdcTy
-Wj948kWpzwBYTvDyfzyAfaofIN4CRolPXdoHUuM/eBtwQsz5IdumqjsZPt0uj7GO
-JMPCeXz0rlpDkd7xuo7iiqHNiKU+s3Qi8yPjTN4jxeUo6JrEJJ0xUIXyzAFuNDsI
-5P7/fp8b0QAUOrqvMaz+ZW0GhhjFEz8cuZALBD4ti4cnXxge7vb2ypWjmlWQqKVE
-1mlViKAKFk1f0zn3ODH0DxmmkyeyUbRgDbfyx+1wWmkCv/yaRTckFfWO3HoEr/4t
-geP3zL1LOwtLKqeftM4UuEjhaYRjKnfOt7fLr+7ypl/wN6quhmK3uNQjduRDrYe0
-vvUvBQKaJrFNaN5gov9mcRGRn5c8vYfWM+VRa4JHITNH3L1ymGyHJHC4kixTL4cN
-wtWCas9Vqqis1b6G2lK5vICtatsZJcu/z0pgPHc/b3nD3GCNxf3gShP6Q9vU1lv9
-kM7TA3/nABQhU2IhS4tOBw4jrz3HEOtoISk6QNIlgLZrt8g2yjqekzRWUuNTU51H
-aXE6HZ2KnmERFKEauJdkLYwf
-=j5Yi
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmncjDkbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+0mwP/AzVSBcmfQLQIav8Yz1i
+DJLt70wUqshHRb0rKEDZJXlkIpDghu3UuHpY+z4wz0vhRMtTngZdgxe9yjw1Y11B
+LWhwl5tcWLD6hX5FzRbKE5UXTwvBy+CP3d1P78lsamfoW1mvnoplPtHtGWQfCt/v
+EYFQXsffRehXWYb9JTrx9JMnh4b0WFkVNy5aS+6e6t5kz14y9GXiApFc69qc8zB6
+p9hhQu3erAvSmIgtKXlpOUEa4BVGR7GUU8cyghx1xQtsNaYgyN8T+cClYOZRbcQ6
+WEbCjUyMC70HDnlcrEAAU4LyMgkyc1hLLKVVm+skxXN1U4/XjEe3pLEhg9pXIi6Z
+4iBxIvKYfnkw989IDXoJ7eF8tZQk0CbqqALvTKHZnygMeYmkoo//PMweKbQqJIeg
+7+F1MVDh+fB7YjOCHXYPV8GdjOyd4BPPblUZGw9HB22XchTIZLhcL32JBbYShQYa
+/YL/R6X0ZqKEfMRr4UyQDUNHjD5zALQyMPPnML6CWX4u8jt7uI6OJLBHypL9qlx3
+Ksidl3m4iY69oo+UXHADPGDm2pFD0HfqV483QEYV79vbJZ1dNssI0RkofFEMB3bl
+ypuH3uGosHY4zoTDzRfqn8BlKn6zZAGYtxlsDUYdAAS/nsDBtlvImJBXTJr4fJaL
+a69WUuBS+TybpXRGnSTW4gJs
+=J9YM
 -----END PGP SIGNATURE-----
 
---===============3608433637748263562==
+--===============7913266713154758452==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-fa00b548dddd-f452447eed15.txt
+Content-Disposition: attachment; filename=revlist-adb5a8e39203-3fd4f22b42a0.txt
 
 fc1e8a6f129d87c64ac8e58b50d9dfa66217cfda Input: bcm5974 - recover from failed mode switch
 29d1f56c4f3001b7f547123e0a307c009ac717f8 Revert "arm64: dts: rockchip: Further describe the WiFi for the Pinebook Pro"
@@ -789,6 +789,9 @@ ab3dee26406be0ed0a26af70311dcdc760db3996 Merge tag 'timers-urgent-2026-04-12' of
 35bdc192d829164a6e47184d06401918fe3d7f1f Merge tag 'wq-for-7.0-rc7-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/tj/wq
 10d97b74e2eef787d823f9bc05cb044b47d25c41 Merge tag 'edac_urgent_for_7.0' of git://git.kernel.org/pub/scm/linux/kernel/git/ras/ras
 028ef9c96e96197026887c0f092424679298aae8 Linux 7.0
-f452447eed15031047351627385648ab935b3844 module: remove MODULE_VERSION()
+3ec6fb53bd5c799058bbba02df8c96b58496cce9 readfile: implement readfile syscall
+5c22304ba256e39efed31d8ab3e83b321e12da1b arch: wire up the readfile syscall
+55307e5b65c6ee2bf0cbda42744e5347feafc040 readfile.2: new page describing readfile(2)
+3fd4f22b42a060390202b8067d4864c16ec8a5d9 selftests: add readfile(2) selftests
 
---===============3608433637748263562==--
+--===============7913266713154758452==--
