@@ -1,30 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tj/sched_ext
-Date: Mon, 13 Apr 2026 16:14:57 -0000
-Message-Id: <177609689732.3656730.14465085636407989343@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tj/wq
+Date: Mon, 13 Apr 2026 16:15:39 -0000
+Message-Id: <177609693944.3659518.17043463649966258127@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tj/sched_ext
+repo: pub/scm/linux/kernel/git/tj/wq
 user: tj
 changes:
   - ref: refs/heads/for-7.1
-    old: 49d78adf9555bbc02ccb65a28325e3e57e9c52ed
-    new: 7e311bafb9ad3a4711c08c00b09fb7839ada37f0
+    old: 034db4dd4449c556705e6b32bc07bd31df3889ba
+    new: 76af54648899abbd6b449c035583e47fd407078a
     log: |
-         3d3667f265148d856bc6eb54d1bd780a94e38da7 tools/sched_ext: Kick home CPU for stranded tasks in scx_qmap
-         4615361f0b148c172852590e6245a953cc075b73 sched_ext: Make string params of __ENUM_set() const
-         7e311bafb9ad3a4711c08c00b09fb7839ada37f0 tools/sched_ext: Add explicit cast from void* in RESIZE_ARRAY()
+         76af54648899abbd6b449c035583e47fd407078a workqueue: validate cpumask_first() result in llc_populate_cpu_shard_id()
          
   - ref: refs/heads/for-next
-    old: 8cbf5b18bfd816b6222a0041a92d61e37ecf0198
-    new: 1bd496807388a10eabaef4e29eae5e6760c7b29f
+    old: f68b684d37c151514f4de1d30c8d1e58067c5c3e
+    new: b31e5dc9cd9984ac6c347c2271b01cf291e17ccc
     log: |
-         3d3667f265148d856bc6eb54d1bd780a94e38da7 tools/sched_ext: Kick home CPU for stranded tasks in scx_qmap
-         4615361f0b148c172852590e6245a953cc075b73 sched_ext: Make string params of __ENUM_set() const
-         7e311bafb9ad3a4711c08c00b09fb7839ada37f0 tools/sched_ext: Add explicit cast from void* in RESIZE_ARRAY()
-         1bd496807388a10eabaef4e29eae5e6760c7b29f Merge branch 'for-7.1' into for-next
+         76af54648899abbd6b449c035583e47fd407078a workqueue: validate cpumask_first() result in llc_populate_cpu_shard_id()
+         b31e5dc9cd9984ac6c347c2271b01cf291e17ccc Merge branch 'for-7.1' into for-next
          
