@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6889284726197141272=="
+Content-Type: multipart/mixed; boundary="===============9142263278653021583=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mda/linux-next
-Date: Mon, 13 Apr 2026 05:56:53 -0000
-Message-Id: <177605981305.2929046.6229159678023751578@gitolite.kernel.org>
+Date: Mon, 13 Apr 2026 05:56:57 -0000
+Message-Id: <177605981786.2929260.2215620743315425385@gitolite.kernel.org>
 
---===============6889284726197141272==
+--===============9142263278653021583==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/mda/linux-next
 user: mda
 changes:
-  - ref: refs/heads/master
-    old: 3fa7d958829eb9bc3b469ed07f11de3d2804ef71
-    new: 66672af7a095d89f082c5327f3b15bc2f93d558e
-    log: revlist-3fa7d958829e-66672af7a095.txt
+  - ref: refs/heads/icssg-dev
+    old: e4d58cbd52b5fbe6bb72aa474bab4a3414738bf3
+    new: 2113a3cac4e66a047820730aa28574e8bd37199b
+    log: revlist-e4d58cbd52b5-2113a3cac4e6.txt
 
---===============6889284726197141272==
+--===============9142263278653021583==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3fa7d958829e-66672af7a095.txt
+Content-Disposition: attachment; filename=revlist-e4d58cbd52b5-2113a3cac4e6.txt
 
 d7db259bd6df56f9540ef92535a5c709b375c4d5 HID: core: factor out hid_parse_collections()
 8c58be287604da91a4da6b0b1af866c1c193576c HID: core: use __free(kfree) and __free(kvfree) to clean up temporary buffers
@@ -805,5 +805,8 @@ c2da9b22a1d152ddfc86fc76d5c02f68b0ca29a2 Merge branch 'for-next' of https://git.
 7085ea3bdfb3a3693d267d1bc56f59d2d1d98879 Merge branch 'next' of https://git.kernel.org/pub/scm/linux/kernel/git/devsec/tsm.git
 8269b1442f9fbc3e82d6a5f8b73352afb6705e58 Merge branch 'for-next' of https://github.com/hisilicon/linux-hisi.git
 66672af7a095d89f082c5327f3b15bc2f93d558e Add linux-next specific files for 20260410
+789a78efb395146bdb426f7fb3e020720cc45cf5 hsr: Allow to send a specific port and with HSR header
+65703927e43d0d554f76d480f4a3f2660fc2a819 af_packet: Add port specific handling for HSR
+2113a3cac4e66a047820730aa28574e8bd37199b PENDING: net: ti: icssg-prueth: Add conditional checks for HSR offload behaviors
 
---===============6889284726197141272==--
+--===============9142263278653021583==--
