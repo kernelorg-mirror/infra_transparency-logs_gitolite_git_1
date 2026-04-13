@@ -1,23 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Mon, 13 Apr 2026 22:24:32 -0000
-Message-Id: <177611907262.4081363.6104714795412365668@gitolite.kernel.org>
+Subject: post-receive: pub/scm/git/git
+Date: Mon, 13 Apr 2026 22:27:01 -0000
+Message-Id: <177611922177.4085172.13131517748489511753@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: kuba
+repo: pub/scm/git/git
+user: junio
 changes:
-  - ref: refs/heads/main
-    old: 1b9707e6f1a9d5f9e1b91750f24743108b093e2b
-    new: 2e652049a4db27d052f9c987710920ed328a70e9
+  - ref: refs/heads/todo
+    old: b1c48b692cfcc55670951fce8c2fe99b5ac6fd25
+    new: 5e61877677909619127c7de390b68f662058b647
     log: |
-         67fab22a7adcec0279b9b057eb3dc669e32834f0 net: add getsockopt_iter callback to proto_ops
-         5bd0dec150f56b6307d599132dcb7c01007bbecc net: call getsockopt_iter if available
-         9c99d62705692db7fc8b8921efa0db189e84e694 af_packet: convert to getsockopt_iter
-         5b75e7d6769557fbee2ae46181deaff0c98ca795 can: raw: convert to getsockopt_iter
-         2e652049a4db27d052f9c987710920ed328a70e9 Merge branch 'net-move-getsockopt-away-from-__user-buffers'
+         7157113734713d4250d9c99258614e8eb8249cb2 Meta/cook: attempt to improve the source discovery
+         454221c08b0d31d5f50e2bc494ee22e2730b6afa Meta/RE: create relnotes fragments from master..HEAD
+         5e61877677909619127c7de390b68f662058b647 What's cooking (2026/04 #04)
          
