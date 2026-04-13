@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3396515397541585336=="
+Content-Type: multipart/mixed; boundary="===============5816507166938247508=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/geert/linux-m68k
-Date: Mon, 13 Apr 2026 10:16:54 -0000
-Message-Id: <177607541408.3214952.2134142164375823884@gitolite.kernel.org>
+Date: Mon, 13 Apr 2026 10:17:05 -0000
+Message-Id: <177607542526.3215448.55048334202385220@gitolite.kernel.org>
 
---===============3396515397541585336==
+--===============5816507166938247508==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,30 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/geert/linux-m68k
 user: geert
 changes:
-  - ref: refs/heads/master
-    old: a6b8c4537a43a9efd3ae0a39a3769af09d0695eb
-    new: b77b21fbd0ee0bab64acbbe63d0a2ebcc9f14373
-    log: revlist-a6b8c4537a43-b77b21fbd0ee.txt
+  - ref: refs/heads/for-next
+    old: ddc4d06f159818eb250fa6a9da5dc1bef1fa2ee1
+    new: 56f295853f38d3202c20fd0d98939e7a4c56c3fb
+    log: |
+         ad9d2cd065d15c2ad992cb5db51a5bdc847e2909 power: reset: Add QEMU virt-ctrl driver
+         56f295853f38d3202c20fd0d98939e7a4c56c3fb m68k: virt: Switch to qemu-virt-ctrl driver
+         
+  - ref: refs/heads/for-v7.1
+    old: ddc4d06f159818eb250fa6a9da5dc1bef1fa2ee1
+    new: 56f295853f38d3202c20fd0d98939e7a4c56c3fb
+    log: |
+         ad9d2cd065d15c2ad992cb5db51a5bdc847e2909 power: reset: Add QEMU virt-ctrl driver
+         56f295853f38d3202c20fd0d98939e7a4c56c3fb m68k: virt: Switch to qemu-virt-ctrl driver
+         
+  - ref: refs/heads/m68k-queue
+    old: d52e913e81dffed3253c579912e563a1a2d93b4d
+    new: 924f5158af6b6b049ca54bc1601d313feb270f6d
+    log: revlist-d52e913e81df-924f5158af6b.txt
 
---===============3396515397541585336==
+--===============5816507166938247508==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a6b8c4537a43-b77b21fbd0ee.txt
+Content-Disposition: attachment; filename=revlist-d52e913e81df-924f5158af6b.txt
 
 29d1f56c4f3001b7f547123e0a307c009ac717f8 Revert "arm64: dts: rockchip: Further describe the WiFi for the Pinebook Pro"
 7ec1bd3d9be671d04325b9e06149b8813f6a4836 soc: aspeed: socinfo: Mask table entries for accurate SoC ID matching
@@ -341,8 +355,14 @@ ab3dee26406be0ed0a26af70311dcdc760db3996 Merge tag 'timers-urgent-2026-04-12' of
 35bdc192d829164a6e47184d06401918fe3d7f1f Merge tag 'wq-for-7.0-rc7-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/tj/wq
 10d97b74e2eef787d823f9bc05cb044b47d25c41 Merge tag 'edac_urgent_for_7.0' of git://git.kernel.org/pub/scm/linux/kernel/git/ras/ras
 028ef9c96e96197026887c0f092424679298aae8 Linux 7.0
-0cb6eb906c0fb4ca679ad8f2ce655dec25414bc6 Revert "power: reset: Add QEMU virt-ctrl driver"
-e10f05597453c20edcf77b850159d16608bc2840 power: reset: Add QEMU virt-ctrl driver
-b77b21fbd0ee0bab64acbbe63d0a2ebcc9f14373 Merge tag 'v7.0'
+5ca3b42a28dcee7ff6d32a544c98c1a8e68521cb m68k: q40: Remove commented out code
+854f8a2ecdd452b5682981086a905006aa9813dc m68k: defconfig: hp300: Enable monochrome and 16-color linux logos
+9201dce1cb1dd5c7ade657446c296c2a6faaf4fe m68k: uapi: Add ucontext.h
+d8e8509a4a2ca6c80e6e13e14cc9c80ed3500962 m68k: emu: Replace unbounded sprintf() in nfhd_init_one()
+a7f3f4e67683221dee84bc190c9b7dbe9e386424 power: reset: Add QEMU virt-ctrl driver
+71aa4a54718db4f0c668fd73bb0739bccc1672eb m68k: virt: Switch to qemu-virt-ctrl driver
+bf55d789c0e7472227b9ddb5982da9eacd9e6cca m68k: atari: usb: Add ISP1160 USB host controller support
+84fa2b57838d931549179250a8b1e828aadc9ec0 m68k: atari: Update Kconfig.bus help text
+924f5158af6b6b049ca54bc1601d313feb270f6d m68k: defconfig: Enable Atari EtherNAT and NetUSBee USB support
 
---===============3396515397541585336==--
+--===============5816507166938247508==--
