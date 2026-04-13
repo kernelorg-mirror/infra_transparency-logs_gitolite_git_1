@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tj/cgroup
-Date: Mon, 13 Apr 2026 17:01:54 -0000
-Message-Id: <177609971453.3707763.11125224244629421600@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/daveh/devel
+Date: Mon, 13 Apr 2026 17:02:13 -0000
+Message-Id: <177609973361.3708301.17564914009512758098@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tj/cgroup
-user: tj
+repo: pub/scm/linux/kernel/git/daveh/devel
+user: daveh
 changes:
-  - ref: refs/tags/cgroup-for-7.1
+  - ref: refs/tags/test.1776099661.x86_tdx_for_7.1-rc1
     old: 0000000000000000000000000000000000000000
-    new: 6f7af98e2b3177878c76d4068bbad85f31631e62
+    new: 50f02275f057c73998e8fd546643c29525de1268
