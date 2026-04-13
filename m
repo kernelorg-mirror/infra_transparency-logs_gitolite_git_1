@@ -1,16 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tj/wq
-Date: Mon, 13 Apr 2026 17:28:17 -0000
-Message-Id: <177610129781.3735694.7078068496242684313@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/next-utils/tools
+Date: Mon, 13 Apr 2026 17:35:30 -0000
+Message-Id: <177610173045.3744022.5460732007955254593@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tj/wq
-user: tj
+repo: pub/scm/utils/next-utils/tools
+user: broonie
 changes:
-  - ref: refs/tags/wq-for-7.1
-    old: 0000000000000000000000000000000000000000
-    new: 81ccf29ba02de75731043cb711a7d905fb2af047
+  - ref: refs/heads/main
+    old: d949c9b0f6fdae636ecf8e6529453e872b418196
+    new: 5202e32036f8769ecc833e19d0efcd0a43528b53
+    log: |
+         cb1a794bb61ac595974766f8c5aefbf210cf87ac do_merge: Add a separate category of patch for bug fixes
+         403612b65aeae195cb79149bddd67cab0655da8b do_merge: Fix formatting and syntax for build failure message
+         5202e32036f8769ecc833e19d0efcd0a43528b53 README: Start writing a README
+         
