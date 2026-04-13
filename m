@@ -1,24 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/zx2c4/cgit
-Date: Mon, 13 Apr 2026 17:06:20 -0000
-Message-Id: <177609998099.3713808.9601201717309509484@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Mon, 13 Apr 2026 17:06:23 -0000
+Message-Id: <177609998399.3713916.3164948185701259108@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/zx2c4/cgit
-user: zx2c4
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/jd/zx2c4-deployment
-    old: 601ba0f25d6d9df488a5a37c7877818ac47966b0
-    new: c7d7f29de40fb7075bbbf1b2a3ffc023fd44bb91
+  - ref: refs/heads/regmap-7.1
+    old: f7b242428c6c617ad8a1fe3d09d06c087d614249
+    new: bad4bd28abf4d7cb2adcb39cc0de789729d2cd69
     log: |
-         829eb0711305e8946fa2f4a1c57c43354f35e208 cache: truncate lock file before filling
-         cba061438ef823b6fd6cd7c40c978a4a049f5924 ZX2C4 specific patches.
-         3667955992764260a55ee08f9559ac62e65cdb5b Steal kernel.org's libravatar lua.
-         0bb07a022ae1ced631a64f1d35e4257365805643 css: switch monospace fonts
-         455db5a52615ce1281b8d724a40d0b7aa1327231 html: double escape literal + in URLs
-         c7d7f29de40fb7075bbbf1b2a3ffc023fd44bb91 css: Support for dark mode
+         7d696210cf36ed31c7c37f6eff17cb7147e83367 regmap: debugfs: fix race condition in dummy name allocation
+         8ad7f3b265a87cd4e5052677545f90f14c855b10 regmap: i3c: Add non-devm regmap_init_i3c() helper
+         bad4bd28abf4d7cb2adcb39cc0de789729d2cd69 regmap-i2c: add SMBus byte/word reg16 bus for adapters lacking I2C_FUNC_I2C
          
