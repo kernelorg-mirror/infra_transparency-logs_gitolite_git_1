@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tenstorrent/linux
-Date: Mon, 13 Apr 2026 22:34:38 -0000
-Message-Id: <177611967813.4092135.17182735974965093667@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/shuah/linux-kselftest
+Date: Mon, 13 Apr 2026 22:34:50 -0000
+Message-Id: <177611969069.4092408.10296769154573601444@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tenstorrent/linux
-user: fustini
+repo: pub/scm/linux/kernel/git/shuah/linux-kselftest
+user: shuah
 changes:
-  - ref: refs/heads/tenstorrent-dt-fixes
-    old: 6de23f81a5e08be8fbf5e8d7e9febc72a5b5f27f
-    new: 308f31d6e0dbe6235bf6a9cc42afcca27aad645b
-    log: |
-         308f31d6e0dbe6235bf6a9cc42afcca27aad645b riscv: dts: tenstorrent: Add PMU node to blackhole for Linux perf support
-         
+  - ref: refs/tags/linux_kselftest-next-7.1-rc1
+    old: 0000000000000000000000000000000000000000
+    new: c7b36665162afbbf2157b63f4f4c12ac9a5888d9
