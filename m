@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/b4/b4
-Date: Mon, 13 Apr 2026 18:41:20 -0000
-Message-Id: <177610568041.3810905.15836206392327885091@gitolite.kernel.org>
+Subject: post-receive: pub/scm/bluetooth/bluez
+Date: Mon, 13 Apr 2026 18:57:07 -0000
+Message-Id: <177610662712.3826508.3240583678381837530@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/b4/b4
-user: mricon
+repo: pub/scm/bluetooth/bluez
+user: vudentz
 changes:
-  - ref: refs/bugs/e1ed6cb86d42242670cc58385020c34d7ae597e431a712775f59e221454ef362
-    old: dc26c58d048c543ec929b8e237f00f19bb058649
-    new: 8f12fea81384bc8515e760513dbb1ec20d2f8977
+  - ref: refs/heads/master
+    old: 516099a9d40515e8cead446634bc25270152f5b0
+    new: 1ab128f6d749427a5508592b3b2b587b724efccf
     log: |
-         8f12fea81384bc8515e760513dbb1ec20d2f8977 
+         fb0f8f495ace893f65ee1eaa91e84743ccf62cc9 audio/player: Ensure metadata string is valid UTF-8
+         1ab128f6d749427a5508592b3b2b587b724efccf gatt-database: remove database from dbs list when destroyed
          
