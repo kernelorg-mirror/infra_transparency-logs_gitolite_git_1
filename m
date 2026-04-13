@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8346621279070303739=="
+Content-Type: multipart/mixed; boundary="===============2788838373220115819=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/gregkh
-Date: Mon, 13 Apr 2026 06:20:27 -0000
-Message-Id: <177606122789.2953272.17079526939546043817@gitolite.kernel.org>
+Date: Mon, 13 Apr 2026 06:21:42 -0000
+Message-Id: <177606130227.2954098.16335078064866350512@gitolite.kernel.org>
 
---===============8346621279070303739==
+--===============2788838373220115819==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/gregkh
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: 591cd656a1bf5ea94a222af5ef2ee76df029c1d2
-    new: 028ef9c96e96197026887c0f092424679298aae8
-    log: revlist-591cd656a1bf-028ef9c96e96.txt
+  - ref: refs/heads/clanker
+    old: cac04390e8fd5d316a4e39f5a587adf2753914e0
+    new: 37d3ceed996e6b5354a76d6a2d128ed369dedfe7
+    log: revlist-cac04390e8fd-37d3ceed996e.txt
 
---===============8346621279070303739==
+--===============2788838373220115819==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1776061221 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1776061277 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/gregkh.git
-nonce 1776061220-eb7702d1014fcc207bcce583951d914466f665c8
+nonce 1776061277-66dfcb48ec6e4c8b880b4e56de2805af0e0c727e
 
-591cd656a1bf5ea94a222af5ef2ee76df029c1d2 028ef9c96e96197026887c0f092424679298aae8 refs/heads/main
+cac04390e8fd5d316a4e39f5a587adf2753914e0 37d3ceed996e6b5354a76d6a2d128ed369dedfe7 refs/heads/clanker
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmnciyUbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+AlgP/1n2r0xpEOYlxXJtiCSL
-P9v7OEuwD6WgnTCCX3AL2TMh8YRFA52bELThib32ZXA79rKnRGbyfySmd4poz2xW
-TU34okXt097apv6tSmp2Lb1RiLX2V4mJCv5rW0nFMBxoxLzNJkSNJgSRb39ufoMS
-7D96o9IQbK0SpA5VrZ/FRCy85i3/njrQodTwmvjZ3fK64Z/BR9vp6jblQjbQKohl
-kLdsBrqZditfqDgCfLsnbvyuCGuYCDwium+aGlvG+oofF8bmL9HWmceFPQkoStu+
-AzSp4+YECJNIeACuqkP8/8iF71eFkxEX5EY3yZF6iFEHqv2iHtymEsBRbR3Kw1ZP
-5bbPDyBIYFO/HmA3nH33sK3+qqlO+A4TPQjB7uHFnhxw8oVv9Dc7cmn6qj6y5bT/
-9K22wmMBLvTSV1c7zfBwsTS2Zv6kPB8UF/ygNkhvb7C2FALEnn7zqc4G6j3AeOfZ
-y3ERXZLgXVsILm9tYddn8MxEFvTwkOygeVgo7yDoaMt0ihpoBX4JsbezsuMorY1i
-GvCCkaHlTKU5mLEAI8wop9XgFoZ+uLy/UDcnLcoHOPKqrCNYyXZoWWeEkEz2Nghw
-myAo52A8CBOf+OpvFKAAvZMMPO8/hJtjKtpdY1MYs649TN2F/KI+M0zOmwKt0QpV
-4mLjSOe8Pl37OosFbi0DYjU8
-=PW0I
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmnci10bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+WnIP/jw+W30eBkux9UHIvDG/
+lhqCO0gL9tbxLf07CViWaXV3XACsNHpxzuzLh0NS4GOmzrwy28/7rhKxOsPkeCDf
+okrEeYfNX3TK2494B6hlARyYRAUFBqSj8lI1mCmqPL4btn9YbbUcp7YUEMrX4Fbk
+bm9q+O5PSWZuvNKpEKEn2BCLPSMLsddVbfhaI0oiHK2U80KGsHuJaFG8BIlPUPXq
+Oq8/jEyV8eZq9BBy1+f5aosfZe6xQgy722yNAHnhg8ol68RK5q3NBuCwzgjnVbqo
+F5AIlU6/jU9bE9unZ8AJS6uyGaRSscZOcuSaMYfLSwV3kn8M0dZU/AXhFGpuStj9
+aI4TlX+17LKqQ0ERtbNegu1zVybUNl+vEYhUu7ebyJ5RUnLPdxdn1aXhzzb7PJI2
+oGZqmIbSZYzdcvJ7xNrZOuKDIuooTiEOIAi6aaZsugrGIQ7mpwM9+UywyIuskack
+3f9POuKvToy7zQU5MlgS8gSQoGheOVqm1RYUnXomv88ukYSaiZ9CMzz+5qSjvmOM
++TW+4aM0z4rBuwTtJsoocP09GXnNx5DklGM17eWuNvbRZreeOgQ0OoiqeXGj+X5B
+m9gM3EE3KUq5mJRznbOn5xHYVU08RdTKf+UECTM4CBvSPb/EmkSUC1zHdEQfWg3w
+VnD/mZZMgKt1o00q970Y+wVM
+=9gVY
 -----END PGP SIGNATURE-----
 
---===============8346621279070303739==
+--===============2788838373220115819==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-591cd656a1bf-028ef9c96e96.txt
+Content-Disposition: attachment; filename=revlist-cac04390e8fd-37d3ceed996e.txt
 
 29d1f56c4f3001b7f547123e0a307c009ac717f8 Revert "arm64: dts: rockchip: Further describe the WiFi for the Pinebook Pro"
 7ec1bd3d9be671d04325b9e06149b8813f6a4836 soc: aspeed: socinfo: Mask table entries for accurate SoC ID matching
@@ -372,5 +372,47 @@ ab3dee26406be0ed0a26af70311dcdc760db3996 Merge tag 'timers-urgent-2026-04-12' of
 35bdc192d829164a6e47184d06401918fe3d7f1f Merge tag 'wq-for-7.0-rc7-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/tj/wq
 10d97b74e2eef787d823f9bc05cb044b47d25c41 Merge tag 'edac_urgent_for_7.0' of git://git.kernel.org/pub/scm/linux/kernel/git/ras/ras
 028ef9c96e96197026887c0f092424679298aae8 Linux 7.0
+60cbf734ba3837a3a6f77a8b2bd31cfa2c3e1361 leds: qcom-lpg: Check for array overflow when selecting the high resolution
+a48a88a1dcf6e4853bbd5387c3f1a25d81194491 net: mctp: usb: properly drop the usb interface on probe error
+fe60a740283d1b572bb78af457c899fb281acf56 wifi: rtw88: properly drop usb interface reference on error
+1c3f1cd552e63d4e538e7524fe69de888fd4d26c mmc: moxart: fix potential use-after-free on remove path.
+4ef061d0b95153bacbc9bbda1c4ebb5e811261fe mmc: meson-gx: fix potential use-after-free on remove path.
+e794f892b82eaa302f13a6689706c1697209ac58 drm/vc4: platform_get_irq_byname() returns an int
+8305ce3a0908c7eef0190f53b006923e64978d4a i2c: s3c24xx: check the size of the SMBUS message before using it
+b1214424009a13c585d18a6b09ff96fd40f6d435 f2fs: fix potential deadlock in f2fs_convert_inline_inode
+faa7ef3a99622e4f678f724d561c609374285d2f LoongArch: add spectre boundry for syscall dispatch table
+f5d3afd9832d9053a098d7b72641f0f7ba2a70e6 drm/amdkfd: stop speculation on the kfd_ioctl path
+216928c1d297012224087c3dfe927fd1fbdc3ff4 ksmbd: validate EaNameLength in smb2_get_ea()
+965e2057585c5ec149221837c06553a682ec6b67 ksmbd: require 3 sub-authorities before reading sub_auth[2]
+3180ddd4970d947f5c7855f145ca14120cb90dbc ksmbd: fix mechToken leak when SPNEGO decode fails after token alloc
+6fbaeaa8c82eca878d44393bcfa888553d48832b smb: client: fix off-by-8 bounds check in check_wsl_eas()
+523d52599e69fc64f11bce6904dfa369f88f5210 smb: client: fix OOB reads parsing symlink error response
+edb73e4dad5c15ec670a6c7debe05000b11c5f79 HID: alps: fix NULL pointer dereference in alps_raw_event()
+a5649a4a05b5e48d1b8ce698243262f5c82a7270 HID: core: clamp report_size in s32ton() to avoid undefined shift
+b093f174163bf04022aa0451195f07994ded4af2 usb: core: config: reverse the size check of the SSP isoc endpoint descriptor
+a3c0e7baee147688bbc3e75507702df83e806014 usb: gadget: renesas_usb3: validate endpoint index in standard request handlers
+6b257ad1891b69a922071f62d3328c7130b6638a netrom: do some basic forms of validation on incoming frames
+ea2fd238b26a05a41653a8f5cd770cca780cae13 usb: gadget: f_phonet: fix skb frags[] overflow in pn_rx_complete()
+2a24fbed323d74cc83eaa4d64c21f9af0f5d3d27 usb: gadget: f_ncm: validate minimum block_len in ncm_unwrap_ntb()
+f5f260fc0364c3aafe923681c4259378b307d41c fbdev: tdfxfb: avoid divide-by-zero on FBIOPUT_VSCREENINFO
+928677bd7ae748ede9c9a5d683056f41758b2a8c fbdev: udlfb: avoid divide-by-zero on FBIOPUT_VSCREENINFO
+dd206023fe4f04c79694d0f46302c41153df42fe iio: pressure: bmp280: fix stack leak in bmp580 trigger handler
+6ba35a5579b7c0a5a82815b74c7689a7fe112456 iio: imu: st_lsm6dsx: fix stack leak in tagged FIFO buffer
+43d66a5a05d340116a890c2a5591108526d0f3ef iio: imu: adis16550: fix stack leak in trigger handler
+d717ec70151c463c6a2842ed624820654b4f40fb media: adv7604: avoid negative array index in log_status when cp_read fails
+40e4009d3572105c134c0154dff9a354e4d87e6b media: stv090x: bound DiSEqC reply length to msg[] size
+ab375d52156415b99006412b4ff5e2b9e31259dd media: stv0900: bound DiSEqC reply length to msg[] size
+bc2b01290918f98c99323a961686d1fda546ffe4 ALSA: usx2y: us144mkii: fix NULL deref on missing interface 0
+aa13581c27762e8190b07e5148bbb91095966174 ALSA: fireworks: bound device-supplied status before string array lookup
+004992936f92d11b639a4420cada5692cc840dd7 fs/ntfs3: validate rec->used in journal-replay file record check
+8dadd256ba82a729f6b5e434fe06d08bdd1c3d17 ice: fix double free in ice_sf_eth_activate() error path
+838b7e0e131937a3e576a7014b9ccaa1560bb4fe NFC: digital: Bounds check NFC-A cascade depth in SDD response handler
+23e1929aa07aca7944b1d919080a42121e8119cf NFC: digital: Bounds check Felica response before sensf_res memcpy
+5b570bddef6e48a428898a98231a22c6b168d6a3 idpf: fix double free and use-after-free in aux device error paths
+c374b33904c8509d9afacc18052a810ee7a138b8 bnge: return after auxiliary_device_uninit() in error path
+7985eab638e5e2fb3b82404a2e1c3417545cf4e7 net: usb: cdc_ncm: reject negative chained NDP offsets
+e8e97fca8d04b80edac07594cd5fdc3a8c3e99f0 net: usb: cdc-phonet: fix skb frags[] overflow in rx_complete()
+f18dcb4bebe4827cfa54cb05834b24cdc2307e4e net: sched: em_text: require NUL-terminated algo name
+37d3ceed996e6b5354a76d6a2d128ed369dedfe7 scsi: target: configfs: bound snprintf return in tg_pt_gp_members_show
 
---===============8346621279070303739==--
+--===============2788838373220115819==--
