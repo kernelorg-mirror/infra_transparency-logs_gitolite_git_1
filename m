@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3368628874207500612=="
+Content-Type: multipart/mixed; boundary="===============6339411463259376598=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Mon, 13 Apr 2026 08:16:59 -0000
-Message-Id: <177606821966.3093056.5534968199321337355@gitolite.kernel.org>
+Date: Mon, 13 Apr 2026 08:17:24 -0000
+Message-Id: <177606824498.3093769.9689999171330113014@gitolite.kernel.org>
 
---===============3368628874207500612==
+--===============6339411463259376598==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/rdma/rdma
 user: leon
 changes:
-  - ref: refs/heads/wip/leon-for-rc
+  - ref: refs/heads/for-rc
     old: e37afcb56ae070477741fe2d6e61fc0c542cce2d
     new: 028ef9c96e96197026887c0f092424679298aae8
     log: revlist-e37afcb56ae0-028ef9c96e96.txt
 
---===============3368628874207500612==
+--===============6339411463259376598==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ ab3dee26406be0ed0a26af70311dcdc760db3996 Merge tag 'timers-urgent-2026-04-12' of
 10d97b74e2eef787d823f9bc05cb044b47d25c41 Merge tag 'edac_urgent_for_7.0' of git://git.kernel.org/pub/scm/linux/kernel/git/ras/ras
 028ef9c96e96197026887c0f092424679298aae8 Linux 7.0
 
---===============3368628874207500612==--
+--===============6339411463259376598==--
