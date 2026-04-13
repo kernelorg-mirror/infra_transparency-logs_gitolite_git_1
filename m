@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/fs/xfs/xfs-linux
-Date: Mon, 13 Apr 2026 08:28:32 -0000
-Message-Id: <177606891220.3104971.4256457468960428276@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ukleinek/linux
+Date: Mon, 13 Apr 2026 08:29:29 -0000
+Message-Id: <177606896990.3105753.4609499770706680126@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/fs/xfs/xfs-linux
-user: cem
+repo: pub/scm/linux/kernel/git/ukleinek/linux
+user: ukleinek
 changes:
-  - ref: refs/tags/xfs-merge-7.1
-    old: 0000000000000000000000000000000000000000
-    new: c42817e2e0719257b84d6a3bda20cf38c99b8841
+  - ref: refs/heads/pwm/for-nexxt
+    old: 8ab1fc9104158045f68fde2d0ae16f5fbcf8bfbd
+    new: aa8f35172ab66c57d4355a8c4e28d05b44c938e3
+    log: |
+         aa8f35172ab66c57d4355a8c4e28d05b44c938e3 pwm: th1520: fix `CLIPPY=1` warning
+         
