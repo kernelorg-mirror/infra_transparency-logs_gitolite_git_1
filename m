@@ -1,23 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Tue, 14 Apr 2026 15:40:25 -0000
-Message-Id: <177618122572.938970.4795077166056229126@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
+Date: Tue, 14 Apr 2026 15:53:50 -0000
+Message-Id: <177618203078.950419.3939531463808783556@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: kuba
+repo: pub/scm/linux/kernel/git/jlayton/linux
+user: jlayton
 changes:
-  - ref: refs/heads/main
-    old: 34e1a98ff2a87cf4b8de3ccebe9d45273f014aeb
-    new: bc28831d7a09f7058cdca4658d81e5faf635bed7
+  - ref: refs/heads/kdevops
+    old: 010c5be45c631dbff0465eb87f065a1349441545
+    new: 8bfb6fe1ff70d0e9d94ee414a26c03202ede131d
     log: |
-         4a6fe5fe60040c31c25767ca815a06fab35c1eb7 tools/ynl: Make YnlFamily closeable as a context manager
-         e254ffb9502c8b4c7f8712c34ae6590796825260 selftests/net: Split netdevsim tests from HW tests in nk_qlease
-         1e822171ba9bca7a5d2371bc10358340835bdad3 selftests/net: Add additional test coverage in nk_qlease
-         2d7e20c9886f359a4ebd4bdbba53ab2df44667d6 Merge branch 'follow-ups-to-nk_qlease-net-selftests'
-         bc28831d7a09f7058cdca4658d81e5faf635bed7 MAINTAINERS: Add netkit selftest files
+         8bfb6fe1ff70d0e9d94ee414a26c03202ede131d filelock: ensure that lease type matches when scanning for visible leases
          
