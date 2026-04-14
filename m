@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4193996016647145056=="
+Content-Type: multipart/mixed; boundary="===============8993099952252174038=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
-Date: Tue, 14 Apr 2026 19:10:41 -0000
-Message-Id: <177619384175.1156458.12924859139712556104@gitolite.kernel.org>
+Date: Tue, 14 Apr 2026 19:10:45 -0000
+Message-Id: <177619384544.1156576.7648898412971258933@gitolite.kernel.org>
 
---===============4193996016647145056==
+--===============8993099952252174038==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jlayton/linux
 user: jlayton
 changes:
-  - ref: refs/heads/bakeathon
-    old: 5ff2ff7a45070fa6c7c2e5569cc846435c5595f8
+  - ref: refs/heads/dir-deleg
+    old: e99f75bfa801d8421bde9808a83feb8903fbffe1
     new: 189294df177c5ddbba2f153dc5e8ebfbcaa1098c
-    log: revlist-5ff2ff7a4507-189294df177c.txt
+    log: revlist-e99f75bfa801-189294df177c.txt
 
---===============4193996016647145056==
+--===============8993099952252174038==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5ff2ff7a4507-189294df177c.txt
+Content-Disposition: attachment; filename=revlist-e99f75bfa801-189294df177c.txt
 
 5c7793b951feda76f27186f4d95a26dcfa4778d8 nfsd: only set up layouts when "pnfs" is specified in export options
 f4d71dd7fd9cec357c32431fa55c107b96008312 sunrpc: start cache request seqno at 1 to fix netlink GET_REQS
@@ -57,4 +57,4 @@ cd63fc24938e05b59d65603b61c6ff623721eeda nfsd: properly track requested child at
 04cfe3b5f09d4013f5ce42c5bd221484152abd0c nfsd: track requested dir attributes
 189294df177c5ddbba2f153dc5e8ebfbcaa1098c nfsd: add support to CB_NOTIFY for dir attribute changes
 
---===============4193996016647145056==--
+--===============8993099952252174038==--
