@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
-Date: Tue, 14 Apr 2026 16:24:26 -0000
-Message-Id: <177618386699.982388.12652493425940066057@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/efi/efi
+Date: Tue, 14 Apr 2026 16:24:37 -0000
+Message-Id: <177618387705.982618.15804329471058462045@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
-user: vudentz
+repo: pub/scm/linux/kernel/git/efi/efi
+user: ardb
 changes:
-  - ref: refs/heads/master
-    old: 912a499a7955a2773a20f33e495a5ce24d7279f0
-    new: 862fd776a9f32c50019920bce5cda540774281fb
-    log: |
-         862fd776a9f32c50019920bce5cda540774281fb Bluetooth: hci_event: Fix OOB read and infinite loop in hci_le_create_big_complete_evt
-         
+  - ref: refs/tags/efi-next-for-v7.1
+    old: 0000000000000000000000000000000000000000
+    new: 20d31a9c7ddb1b6aac5002bd1842b04be94be17a
