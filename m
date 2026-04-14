@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6329553288952122193=="
+Content-Type: multipart/mixed; boundary="===============8993070729129627687=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Tue, 14 Apr 2026 22:51:15 -0000
-Message-Id: <177620707517.1480953.4519368248048103280@gitolite.kernel.org>
+Date: Tue, 14 Apr 2026 22:51:18 -0000
+Message-Id: <177620707802.1481215.13068642920940983854@gitolite.kernel.org>
 
---===============6329553288952122193==
+--===============8993070729129627687==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/10GbE
+  - ref: refs/heads/40GbE
     old: 42f9b4c6ef19e71d2c7d9bfd3c5037d4fe434ad7
     new: 35c2c39832e569449b9192fa1afbbc4c66227af7
     log: revlist-42f9b4c6ef19-35c2c39832e5.txt
 
---===============6329553288952122193==
+--===============8993070729129627687==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -448,4 +448,4 @@ f364db381c9d38c96de3148ac584f859c550fad5 wireguard: allowedips: remove redundant
 6bb6bafa88b4edfea59d931c8d85b73dd7a662ae net: pse-pd: fix kernel-doc function name for pse_control_find_by_id()
 35c2c39832e569449b9192fa1afbbc4c66227af7 Merge git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 
---===============6329553288952122193==--
+--===============8993070729129627687==--
