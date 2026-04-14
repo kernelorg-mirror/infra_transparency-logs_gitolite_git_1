@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1734987493719445207=="
+Content-Type: multipart/mixed; boundary="===============8876304583331511525=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/wsa/linux
-Date: Tue, 14 Apr 2026 21:21:33 -0000
-Message-Id: <177620169327.1388706.6137057131326967915@gitolite.kernel.org>
+Date: Tue, 14 Apr 2026 21:25:25 -0000
+Message-Id: <177620192542.1393212.14569906108623361811@gitolite.kernel.org>
 
---===============1734987493719445207==
+--===============8876304583331511525==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,21 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/wsa/linux
 user: wsa
 changes:
-  - ref: refs/heads/renesas/x5h/mfis-single-driver
-    old: e6442e3140bcb34037eea066464efc9a2a50afcf
-    new: 867986a2832dcd2eabab183fe970967b8df5c682
-    log: revlist-e6442e3140bc-867986a2832d.txt
+  - ref: refs/heads/renesas/v4h/mfis
+    old: 88576a0e8762336f3feb3091631a62838efe68e8
+    new: fa4677a77057c585b6b184e410f84569d27ba4c3
+    log: revlist-88576a0e8762-fa4677a77057.txt
 
---===============1734987493719445207==
+--===============8876304583331511525==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e6442e3140bc-867986a2832d.txt
+Content-Disposition: attachment; filename=revlist-88576a0e8762-fa4677a77057.txt
 
-67a5fb1f9ada7c3d8b7f571be86554968084a4b9 drm/xe/pf: Extract helper to show which VFs are provisioned
-4f91e3a5b79f3962acff8038dfb89394496faa7d drm/xe/pf: Extract helpers for bulk EQ/PT provisioning
-afc480ff55c5244f3a1941096f232b57c354cc68 drm/xe/pf: Perform fair scheduling auto-provisioning
-02c64052fad03699b9c6d1df2f9b444d17e4ac50 crypto: ccree - fix a memory leak in cc_mac_digest()
 f94f6cff1dcf9296879c7242dda8171320188ed7 crypto: hisilicon - fix the format string type error
 ff34953026dd38dd62d28847c34670f20cbea37a crypto: hisilicon/qm - add const qualifier to info_name in struct qm_cmd_dump_item
 6e7619dc6a243f972aabc22c349e1f6b371fbd24 crypto: hisilicon/qm - remove else after return
@@ -1050,5 +1046,9 @@ f1b50fc8afc358ccba100109ac3bce3a6971cec0 soc: renesas: add X5H PRR support
 055eb65c7fbca428ed2e0df50963acc1538a6a4b arm64: renesas: r8a78000: enable to use MFIS/MFIS-SCP
 f03ce8cea861eaabec2aa6dbcb22cb2dd49183f6 arm64: renesas: r8a78000-ironhide: enable to use SCMI
 867986a2832dcd2eabab183fe970967b8df5c682 TEST: DTS additions for mailbox-test
+2f8fbbd8e3c879163aff5d550558ce6553b14b7f dt-bindings: soc: renesas: mfis: add R-Car V4H/V4M support
+1450d1d029497af5b2fa2b2a469ccabc388c0061 soc: renesas: mfis: add R-Car V4H/V4M support
+ff4a90b264cb49d441f020788ece7c8ad45e9c55 arm64: renesas: r8a779g0: add MFIS node
+fa4677a77057c585b6b184e410f84569d27ba4c3 TEST: arm64: renesas: sparrow-hawk: enable MFIS for testing
 
---===============1734987493719445207==--
+--===============8876304583331511525==--
