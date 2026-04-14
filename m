@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0456792537566159313=="
+Content-Type: multipart/mixed; boundary="===============3851710436118885468=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Tue, 14 Apr 2026 00:47:21 -0000
-Message-Id: <177612764112.40091.15770626420670270618@gitolite.kernel.org>
+Date: Tue, 14 Apr 2026 00:47:23 -0000
+Message-Id: <177612764349.40184.7679540462222799939@gitolite.kernel.org>
 
---===============0456792537566159313==
+--===============3851710436118885468==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
+  - ref: refs/heads/10GbE
     old: 12ff2a4aee6c86746623d5aed24389dbf6dffded
     new: 2cd7e6971fc2787408ceef17906ea152791448cf
     log: revlist-12ff2a4aee6c-2cd7e6971fc2.txt
 
---===============0456792537566159313==
+--===============3851710436118885468==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -75,4 +75,4 @@ c058bbf05b1197c33df7204842665bd8bc70b3a8 tcp: Don't set treq->req_usec_ts in coo
 bf6f95ae3b8b2638c0e1d6d802d50983ce5d0f45 sctp: fix missing encap_port propagation for GSO fragments
 2cd7e6971fc2787408ceef17906ea152791448cf sctp: disable BH before calling udp_tunnel_xmit_skb()
 
---===============0456792537566159313==--
+--===============3851710436118885468==--
