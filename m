@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8993070729129627687=="
+Content-Type: multipart/mixed; boundary="===============2292392833464838115=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Tue, 14 Apr 2026 22:51:18 -0000
-Message-Id: <177620707802.1481215.13068642920940983854@gitolite.kernel.org>
+Date: Tue, 14 Apr 2026 22:51:36 -0000
+Message-Id: <177620709683.1481497.6211706837698811537@gitolite.kernel.org>
 
---===============8993070729129627687==
+--===============2292392833464838115==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/40GbE
-    old: 42f9b4c6ef19e71d2c7d9bfd3c5037d4fe434ad7
-    new: 35c2c39832e569449b9192fa1afbbc4c66227af7
-    log: revlist-42f9b4c6ef19-35c2c39832e5.txt
+  - ref: refs/heads/100GbE
+    old: 8ec9d2a106fb8ea62ba953e5965752e78b6640d3
+    new: 2e2a8b50b3c35d1597bcaccf94eb7b0ffefdac36
+    log: revlist-8ec9d2a106fb-2e2a8b50b3c3.txt
 
---===============8993070729129627687==
+--===============2292392833464838115==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-42f9b4c6ef19-35c2c39832e5.txt
+Content-Disposition: attachment; filename=revlist-8ec9d2a106fb-2e2a8b50b3c3.txt
 
 2d85152020d576010a5396d10c864a66b4ce8cf3 wifi: rtw89: Turbo mode for RTL8851BU/RTL8852BU
 c95323ea9dfba8ab2bafbaee9da96c53f893873f wifi: rtw88: coex: Solve LE-HID lag & update coex version to 26020420
@@ -447,5 +447,10 @@ f364db381c9d38c96de3148ac584f859c550fad5 wireguard: allowedips: remove redundant
 18cd10d2affe764eb26ec3bd4ffa14c259339ad0 Merge branch 'wireguard-fixes-for-7-1-rc1'
 6bb6bafa88b4edfea59d931c8d85b73dd7a662ae net: pse-pd: fix kernel-doc function name for pse_control_find_by_id()
 35c2c39832e569449b9192fa1afbbc4c66227af7 Merge git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
+fc2f5a65e3c7cad6e3b3d7bfce625e6b33ba0196 libeth: pass Rx queue index to PP when creating a fill queue
+7f1b0b3912b14c1164290205a06d195ff8e8bbf4 libeth: handle creating pools with unreadable buffers
+051aa38edae0e2c197128b85a0482266161f8c63 ice: migrate to netdev ops lock
+1d4422e5686cbbeeb70e8833ae841810b27c7fcf ice: implement Rx queue management ops
+2e2a8b50b3c35d1597bcaccf94eb7b0ffefdac36 ice: add support for transmitting unreadable frags
 
---===============8993070729129627687==--
+--===============2292392833464838115==--
