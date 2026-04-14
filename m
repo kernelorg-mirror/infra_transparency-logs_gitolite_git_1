@@ -1,21 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Tue, 14 Apr 2026 08:59:48 -0000
-Message-Id: <177615718891.529179.6674567211246630683@gitolite.kernel.org>
+Subject: post-receive: pub/scm/network/nfc/neard
+Date: Tue, 14 Apr 2026 09:17:20 -0000
+Message-Id: <177615824074.548134.701645614140067082@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: pabeni
+repo: pub/scm/network/nfc/neard
+user: krzk
 changes:
-  - ref: refs/heads/main
-    old: 2cd7e6971fc2787408ceef17906ea152791448cf
-    new: ab4b6e4e80a0e573bd77d69439e4cb55e9e3c5ee
+  - ref: refs/heads/master
+    old: 7118668bc92fe15a8ff5e4067abd5e1622524f03
+    new: b98acf0b1a931dd05b38994074bbaee931ff2009
     log: |
-         1921f91298d1388a0bb9db8f83800c998b649cb3 net, bpf: fix null-ptr-deref in xdp_master_redirect() for down master
-         8dd1bdde38af8418889ba322a3663c401a60fe28 selftests/bpf: add test for xdp_master_redirect with bond not up
-         ab4b6e4e80a0e573bd77d69439e4cb55e9e3c5ee Merge branch 'net-bpf-fix-null-ptr-deref-in-xdp_master_redirect-for-bonding-and-add-selftest'
+         b62700514bac647f7812c11d0b4a103a724a5c45 se: Fix Wbool-conversion warning in find_specific_rule()
+         7f8773dfb26eb33b089a46a529f861b5fce73e23 se: Fix Wbool-conversion warning in find_generic_rule_for_aid()
+         ce16dd0640ed09c79eaf4e315d238536d63fa19f se: Fix Wbool-conversion warning in find_generic_rule_for_hash()
+         b98acf0b1a931dd05b38994074bbaee931ff2009 ci: Fix deprecated CodeQL warnings
          
