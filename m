@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
-Date: Tue, 14 Apr 2026 15:53:50 -0000
-Message-Id: <177618203078.950419.3939531463808783556@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/andrea/synthmerge
+Date: Tue, 14 Apr 2026 15:59:05 -0000
+Message-Id: <177618234593.955812.13494101766869919599@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jlayton/linux
-user: jlayton
+repo: pub/scm/linux/kernel/git/andrea/synthmerge
+user: andrea
 changes:
-  - ref: refs/heads/kdevops
-    old: 010c5be45c631dbff0465eb87f065a1349441545
-    new: 8bfb6fe1ff70d0e9d94ee414a26c03202ede131d
+  - ref: refs/heads/main
+    old: 1b41c99a1ddfd5c41dc143df3679b3f7a5761e4e
+    new: 404b3632f655e859fd4bfd8be8abe03ebb7f374e
     log: |
-         8bfb6fe1ff70d0e9d94ee414a26c03202ede131d filelock: ensure that lease type matches when scanning for visible leases
+         404b3632f655e859fd4bfd8be8abe03ebb7f374e backtest_stable.py: commit parsing and docstring
          
