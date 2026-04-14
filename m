@@ -1,100 +1,60 @@
-Content-Type: multipart/mixed; boundary="===============7882811380084092457=="
+Content-Type: multipart/mixed; boundary="===============4193996016647145056=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Tue, 14 Apr 2026 19:04:33 -0000
-Message-Id: <177619347399.1148547.2096252797804290431@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
+Date: Tue, 14 Apr 2026 19:10:41 -0000
+Message-Id: <177619384175.1156458.12924859139712556104@gitolite.kernel.org>
 
---===============7882811380084092457==
+--===============4193996016647145056==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: kuba
+repo: pub/scm/linux/kernel/git/jlayton/linux
+user: jlayton
 changes:
-  - ref: refs/heads/main
-    old: 6bb6bafa88b4edfea59d931c8d85b73dd7a662ae
-    new: 35c2c39832e569449b9192fa1afbbc4c66227af7
-    log: revlist-6bb6bafa88b4-35c2c39832e5.txt
+  - ref: refs/heads/bakeathon
+    old: 5ff2ff7a45070fa6c7c2e5569cc846435c5595f8
+    new: 189294df177c5ddbba2f153dc5e8ebfbcaa1098c
+    log: revlist-5ff2ff7a4507-189294df177c.txt
 
---===============7882811380084092457==
+--===============4193996016647145056==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6bb6bafa88b4-35c2c39832e5.txt
+Content-Disposition: attachment; filename=revlist-5ff2ff7a4507-189294df177c.txt
 
-fed4626501c871890da287bec62a96e52da1af89 can: ucan: fix devres lifetime
-a535a9217ca3f2fccedaafb2fddb4c48f27d36dc can: raw: fix ro->uniq use-after-free in raw_rcv()
-eb216e422044f5523da038136ce0f2abcc6a75bc MAINTAINERS: Remove Salil Mehta as HiSilicon HNS3/HNS Ethernet maintainer
-e1ab601bb23006e2710359c0fba27342f8887aec selftests: Migrate nsim-only MACsec tests to Python
-c89f194b6b8eddc905425a4ad702db803f50af47 nsim: Add support for VLAN filters
-26555673bc7888b80d5867618525eb04d4216a24 selftests: Add MACsec VLAN propagation traffic test
-a363b1c8be879c79a688eaf93ba01b63f8b0e63c macsec: Support VLAN-filtering lower devices
-b02e3c4c80c91693b05c82751149d05d921bccb9 Merge branch 'macsec-add-support-for-vlan-filtering-in-offload-mode'
-57f3f53d2c9c5a9e133596e2f7bc1c50688a6d38 net: bcmgenet: fix off-by-one in bcmgenet_put_txcb
-3f3168300efb839028328d720ab3962f91d6a0d0 net: bcmgenet: fix leaking free_bds
-5393b2b5bee2ac51a0043dc7f4ac3475f053d08d net: bcmgenet: fix racing timeout handler
-8832e5791d73c8db5d962091b3ac6d7530cde65a Merge branch 'net-bcmgenet-fix-queue-lock-up'
-e159f05e12cc1111a3103b99375ddf0dfd0e7d63 net: txgbe: fix RTNL assertion warning when remove module
-4ae0604a0673e11e2075b178387151fcad5111b5 net: airoha: Add dma_rmb() and READ_ONCE() in airoha_qdma_rx_process()
-12ff2a4aee6c86746623d5aed24389dbf6dffded eth: fbnic: Use wake instead of start
-bf9a38803b2626b01cc769aaf13485d8650f576f net: hamradio: 6pack: fix uninit-value in sixpack_receive_buf
-02f72964395911e7a09bb2ea2fe6f79eda4ea2c2 net: airoha: Fix FE_PSE_BUF_SET configuration if PPE2 is available
-65782b2db7321d5f97c16718c4c7f6c7205a56be net/sched: cls_fw: fix NULL dereference of "old" filters before change()
-372169fd9519bc44ebd9addfc1cd6e4ce10c7c62 Merge tag 'linux-can-fixes-for-7.0-20260409' of git://git.kernel.org/pub/scm/linux/kernel/git/mkl/linux-can
-f462dca0c8415bf0058d0ffa476354c4476d0f09 net/sched: act_ct: Only release RCU read lock after ct_ft
-2b5dd4632966c39da6ba74dbc8689b309065e82c nfc: llcp: add missing return after LLCP_CLOSED checks
-c116f07ab9d22bb6f355f3cf9e44c1e6a47fe559 net: mana: Use pci_name() for debugfs directory naming
-3b7c7fc97aea7b4048001d12f45777201c74a17f net: mana: Move current_speed debugfs file to mana_init_port()
-ed45d380c54641039761c5e569f948612eaf0e98 Merge branch 'net-mana-fix-debugfs-directory-naming-and-file-lifecycle'
-656121b155030086b01cfce9bd31b0c925ee6860 net: airoha: Add missing RX_CPU_IDX() configuration in airoha_qdma_cleanup_rx_queue()
-a6bd339dbb3514bce690fdcf252e788dfab4ee76 net_sched: fix skb memory leak in deferred qdisc drops
-46ce8be2ced389bccd84bcc04a12cf2f4d0c22d1 NFC: digital: Bounds check NFC-A cascade depth in SDD response handler
-10f86a2a5c91fc4c4d001960f1c21abe52545ef6 bpf: Fix same-register dst/src OOB read and pointer leak in sock_ops
-04013c3ca022734ec2897b28a96d4cbd8a930407 selftests/bpf: Add tests for sock_ops ctx access with same src/dst register
-ba69b788ed79d82ed4940fc8dbee9b3f9c5b1a88 Merge branch 'bpf-fix-sock_ops_get_sk-same-register-oob-read-in-sock_ops-and-add-selftest'
-2835750dd6475a5ddc116be0b4c81fee8ce1a902 net: rose: reject truncated CLEAR_REQUEST frames in state machines
-6183bd8723a3eecd2d89cbc506fe938bc6288345 net: hamradio: bpqether: validate frame length in bpq_rcv()
-8263e484d6622464ec72a5ad563f62492d84fa54 net: hamradio: scc: validate bufsize in SIOCSCCSMEM ioctl
-2654557112d6ca298d0ef43b56e4cafb5cc0cb10 Merge branch 'net-hamradio-fix-missing-input-validation-in-bpqether-and-scc'
-236f718ac885965fa886440b9898dfae185c9733 net/rds: Optimize rds_ib_laddr_check
-ebf71dd4aff46e8e421d455db3e231ba43d2fa8a net/rds: Restrict use of RDS/IB to the initial network namespace
-e802cd8cb0ffc4ddd2d6f78fc970d195af33deda Merge branch 'net-rds-fix-use-after-free-in-rds-ib-for-non-init-namespaces'
-2bb6379416fd19f44c3423a00bfd8626259f6067 ppp: require CAP_NET_ADMIN in target netns for unattached ioctls
-de08f9585692813bd41ee654fca0487664c4de30 net: ipa: Fix programming of QTIME_TIMESTAMP_CFG
-1335b903cf2e8aeaca87fd665683384c731ec941 net: ipa: Fix decoding EV_PER_EE for IPA v5.0+
-e4df9f02640e87a73b3d88224b8d164188fbf8e0 Merge branch 'more-fixes-for-the-ipa-driver'
-6f533abe7bbad2eef1e42c639b6bb9dad2b02362 net: phy: fix a return path in get_phy_c45_ids()
-d114bfdc9b76bf93b881e195b7ec957c14227bab vsock: fix buffer size clamping order
-9994ad4df82d64e57135c0f0906897685f5a9e87 net/mlx5e: Fix features not applied during netdev registration
-edccdd1eb94712da97a6ce71123ec27890add754 net/mlx5e: IPsec, fix ASO poll timeout with read_poll_timeout_atomic()
-5e700c773032e02def9a4c33d0023ebc3925cdd3 Merge branch 'mlx5-misc-fixes-2026-04-09'
-2dddb34dd0d07b01fa770eca89480a4da4f13153 net: ethernet: mtk_eth_soc: initialize PPE per-tag-layer MTU registers
-e7a62edd34b1b4bc5f979988efc2f81c075733fd net: phy: qcom: at803x: Use the correct bit to disable extended next page
-d5ee2ff98322337951c56398e79d51815acbf955 net: qrtr: ns: Limit the maximum server registration per node
-5640227d9a21c6a8be249a10677b832e7f40dc55 net: qrtr: ns: Limit the maximum number of lookups
-68efba36446a7774ea5b971257ade049272a07ac net: qrtr: ns: Free the node during ctrl_cmd_bye()
-27d5e84e810b0849d08b9aec68e48570461ce313 net: qrtr: ns: Limit the total number of nodes
-7809fea20c9404bfcfa6112ec08d1fe1d3520beb net: qrtr: ns: Fix use-after-free in driver remove()
-9ad24ba4085ebee5419cdd0dcc71050dda99af68 Merge branch 'net-qrtr-ns-a-bunch-of-fixs'
-4e5bc3ff060e6a495117a164a1ce6df5cdf1454f octeon_ep_vf: introduce octep_vf_oq_next_idx() helper
-dd66b42854705e4e4ee7f14d260f86c578bed3e3 octeon_ep_vf: add NULL check for napi_build_skb()
-2258d1dffaf77bad190ac1cdd0a98db513c15232 Merge branch 'octeon_ep_vf-fix-napi_build_skb-null-dereference'
-c058bbf05b1197c33df7204842665bd8bc70b3a8 tcp: Don't set treq->req_usec_ts in cookie_tcp_reqsk_init().
-8b0c25528cb64f71a73b5c0d49cbbcb68540a4ce bnge: return after auxiliary_device_uninit() in error path
-bf6f95ae3b8b2638c0e1d6d802d50983ce5d0f45 sctp: fix missing encap_port propagation for GSO fragments
-2cd7e6971fc2787408ceef17906ea152791448cf sctp: disable BH before calling udp_tunnel_xmit_skb()
-1921f91298d1388a0bb9db8f83800c998b649cb3 net, bpf: fix null-ptr-deref in xdp_master_redirect() for down master
-8dd1bdde38af8418889ba322a3663c401a60fe28 selftests/bpf: add test for xdp_master_redirect with bond not up
-ab4b6e4e80a0e573bd77d69439e4cb55e9e3c5ee Merge branch 'net-bpf-fix-null-ptr-deref-in-xdp_master_redirect-for-bonding-and-add-selftest'
-600dc40554dc5ad1e6f3af51f700228033f43ea7 net: usb: cdc-phonet: fix skb frags[] overflow in rx_complete()
-fe72340daaf1af588be88056faf98965f39e6032 net: strparser: fix skb_head leak in strp_abort_strp()
-f7cf8ece8cee3c1ee361991470cdb1eb65ab02e8 net: caif: clear client service pointer on teardown
-1acdfbdb516b32165a8ecd1d5f8c68e4eac64637 net: airoha: Fix VIP configuration for AN7583 SoC
-b9d8b856689d2b968495d79fe653d87fcb8ad98c net: airoha: Add missing PPE configurations in airoha_ppe_hw_init()
-35c2c39832e569449b9192fa1afbbc4c66227af7 Merge git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
+5c7793b951feda76f27186f4d95a26dcfa4778d8 nfsd: only set up layouts when "pnfs" is specified in export options
+f4d71dd7fd9cec357c32431fa55c107b96008312 sunrpc: start cache request seqno at 1 to fix netlink GET_REQS
+289b22d64d46af14d8f3fb125a61de3e8e1bfe4d vfs/nfsd: add support for CB_NOTIFY callbacks in directory delegations
+8cc841245e983af0bd00ccafed2415ecd9a84aed filelock: pass current blocking lease to tracepoints rather than "new_fl"
+a13298554b35ec3342c632b21e54679a714e6cdb filelock: add support for ignoring deleg breaks for dir change events
+06c3bbb886b85ec74a00d1b9f14b9d4c24f786cd filelock: ensure that lease type matches when scanning for visible leases
+5a7bb8b1fafd9560bb35583c9a907f30d4df572a filelock: add a tracepoint to start of break_lease()
+f042ade28b72fa5b63997c2167668625b103ec86 filelock: add an inode_lease_ignore_mask helper
+09f79899a30d68d9a15a5ec8cbb0cbdd3a36ec92 nfsd: check fl_lmops in nfsd_breaker_owns_lease()
+be591b0844f376ce33a2ed10aa87fceffde84aab nfsd: add protocol support for CB_NOTIFY
+e933cfe0406810f268cf086e863b01db97f2629f nfs_common: add new NOTIFY4_* flags proposed in RFC8881bis
+e4478c21294efd8c124abbd2ebbe121b81f1fb03 nfsd: allow nfsd to get a dir lease with an ignore mask
+331dca098149b54ec59566f439434203e8271ddb vfs: add fsnotify_modify_mark_mask()
+c6555b725c9a9e1bb091803b7b82f4612ad3a9e1 nfsd: update the fsnotify mark when setting or removing a dir delegation
+44aa3383579ac6c2ae1b85445406ac3ab6b97561 nfsd: make nfsd4_callback_ops->prepare operation bool return
+a46b4025d098f2edfb708ad57676200a469360c1 nfsd: add callback encoding and decoding linkages for CB_NOTIFY
+b106ee063ff99f86e49035c7412f57b11b007f07 nfsd: use RCU to protect fi_deleg_file
+dd6bfbcf9e3edba05ab8d2380344daa43a09d4eb nfsd: add data structures for handling CB_NOTIFY
+7be14cee4bbb5857edf6eca28bb74bd48bc677f2 nfsd: add notification handlers for dir events
+85591138aebf77bf0ac0f2f6c47cff441e2ac76e nfsd: add tracepoint to dir_event handler
+5c073122faeeb63a939872b4098ba65f3c8c6b27 nfsd: apply the notify mask to the delegation when requested
+7ecec5bfb9473afc3eefa5da3fae449b254737f0 nfsd: add helper to marshal a fattr4 from completed args
+9e63bd899e7ee08fba601ea8c3e2b012b2fd7ee0 nfsd: allow nfsd4_encode_fattr4_change() to work with no export
+709bb38b7f021070e0c4644cd5e267b943095da2 nfsd: send basic file attributes in CB_NOTIFY
+22b04b7de18db787f546ad432abeb297debaf290 nfsd: allow encoding a filehandle into fattr4 without a svc_fh
+d491d8ac6575beebd121449b311897fc194e19dc nfsd: add a fi_connectable flag to struct nfs4_file
+65abb8f099ec0462bf500e2d06b9e6376366efde nfsd: add the filehandle to returned attributes in CB_NOTIFY
+cd63fc24938e05b59d65603b61c6ff623721eeda nfsd: properly track requested child attributes
+04cfe3b5f09d4013f5ce42c5bd221484152abd0c nfsd: track requested dir attributes
+189294df177c5ddbba2f153dc5e8ebfbcaa1098c nfsd: add support to CB_NOTIFY for dir attribute changes
 
---===============7882811380084092457==--
+--===============4193996016647145056==--
