@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1284532873107269029=="
+Content-Type: multipart/mixed; boundary="===============3369858930131709604=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Tue, 14 Apr 2026 23:56:17 -0000
-Message-Id: <177621097704.1546873.19824380535798685@gitolite.kernel.org>
+Date: Tue, 14 Apr 2026 23:56:46 -0000
+Message-Id: <177621100600.1547170.16227893852071800220@gitolite.kernel.org>
 
---===============1284532873107269029==
+--===============3369858930131709604==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
 user: jarkko
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/next
     old: 03e5553f5fb99cb47c315e167a604a9c69e6f724
     new: b11d667f68efcccea283054333c13089e6463165
     log: revlist-03e5553f5fb9-b11d667f68ef.txt
 
---===============1284532873107269029==
+--===============3369858930131709604==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ de0ba497b426374d139281593d898590f4542a8e tpm_crb: Convert ACPI driver to a platf
 0c1489d4288ae033bd7ffe502ce3291424f82a52 KEYS: encrypted: Remove unnecessary selection of CRYPTO_RNG
 b11d667f68efcccea283054333c13089e6463165 tpm: Fix auth session leak in tpm2_get_random() error path
 
---===============1284532873107269029==--
+--===============3369858930131709604==--
