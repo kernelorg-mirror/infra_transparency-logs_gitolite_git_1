@@ -1,56 +1,46 @@
-Content-Type: multipart/mixed; boundary="===============4798124960499302631=="
+Content-Type: multipart/mixed; boundary="===============1033829221110626594=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/gregkh
-Date: Tue, 14 Apr 2026 17:20:08 -0000
-Message-Id: <177618720831.1043383.2959669034432434544@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/liblore/liblore
+Date: Tue, 14 Apr 2026 17:37:14 -0000
+Message-Id: <177618823487.1059393.718570342518151809@gitolite.kernel.org>
 
---===============4798124960499302631==
+--===============1033829221110626594==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/gregkh
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/utils/liblore/liblore
+user: mricon
 changes:
-  - ref: refs/heads/clanker
-    old: 37d3ceed996e6b5354a76d6a2d128ed369dedfe7
-    new: f8d12d87e529051bb29f3be8951795fc37c611d0
-    log: |
-         f8d12d87e529051bb29f3be8951795fc37c611d0 staging: rtl8723bs: fix OOB write in HT_caps_handler()
-         
+  - ref: refs/heads/master
+    old: 1c0b653bdb6eeb95625e99419d4b34d31cb55c99
+    new: 01023e72d3d0c157fc0de1b1cdcf44ba6a66d312
+    log: revlist-1c0b653bdb6e-01023e72d3d0.txt
 
---===============4798124960499302631==
+--===============1033829221110626594==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-1c0b653bdb6e-01023e72d3d0.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1776187162 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/gregkh.git
-nonce 1776187189-bd34aaa2e9303d38c79c39f23d00f0d401fda181
+828e718aa0a4ab230ad318da90b14032d96660f0 Add ci script and mypy suppressions
+b2981347f3620a5ff4f78288c06817ac6ce36958 Type make_msg and drop test suppressions
+ac6e2df890e856fb91af703ad521591860678b3e Add ruff import checks to b4 CI
+100116fefeef4bbdc3bfc4f3a21006e2435e9115 Add ruff format check to CI
+6109a737d05204ddf1b7012ff3fbc28079966deb Add pyright strict checks to CI
+5445b53cd07451f03493e38afe83054acb97bbde Replace HTTP session mocks with responses
+7cd032b465fce7397b0326a8a3000a23fb775db9 Add ty checks to CI
+53041a41e451da839b4a70c2838ba407272f27de Drop redundant read-only property test
+18603217b450be6732826bf4059d4f799a2111de Type from_git_config keyword arguments
+c9e8cf46e133fe723564f06898a258594cc1cf1d Add authheaders stub and typed callable
+bdca5ed2752e1a1f51a9fe4ca9685d56b7474623 Replace batch mocks with subclasses
+f993dde25931f812dc5d11a7c44a3f7fca502a2c Use CompletedProcess in git config tests
+204122fd6ad6b035a0d53c523d670ace1561110f Update README for uv-based dev checks
+9ba4ddb7e4aa8e2e721272043353538a1a1dc501 Add b4 send configuration
+07a81e94cecf9428d5c4a115520a1a85ec3d9c0b Merge patch series "Harden local type checking and test mocking"
+01023e72d3d0c157fc0de1b1cdcf44ba6a66d312 Add authheaders to dev dependency group
 
-37d3ceed996e6b5354a76d6a2d128ed369dedfe7 f8d12d87e529051bb29f3be8951795fc37c611d0 refs/heads/clanker
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmnedxobHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+1d0P/0Yo1FcgcHlU8MqFuJC6
-5ftvz7mShjzTf3oV11QN4LNbG5U3gokYC9o9q/YDW1JvZYvUUEPRuXOvQyc2sB6O
-2GeVxhxioEob7v4gSgtFw2yL1fmLUU9Lf4wiONgTMI5oONmPIMNpOGfmSVDRW0xR
-FERlw+xDubmTAt+Xmd0Me4EngozMGKf/X5dZko4/Z8oHbtCGcgb6Xss6bREjV/i8
-5gEYIR9qMjR7XXZC7Z6qqkvBj1JM3/73roFXnjp3a5F8827AKsJatxlo15EjSqtG
-eG+Yy/JM8wKQjIOI85xTnuuA8ZLD1nbmEFwnPP7M1ghM67AagKdqKkymXmmZjdDp
-L/MwEi0JDeWzEl790jRgivtWHNlcuHkWHJCocgX0sA84GVokEzDx7+yXVGTEeSQo
-88L8uCPDEDXv66ivwBv9tgMT25fnLzU0MrKS851QGxc6GkgLcZSeGN+u8KDrq6xK
-kBTVdvRmNXeN788V5oWp2mO5becK1nIouKaL1aocehfX3nEVAZ4tJl4XrVKVFb6k
-EqHjIOv+nmf4ZQOTWF9l4lvxyOHIE7DOmXrvYSlXP/4c6yGsHegZDv8NvA6yhc03
-51ROHmsu8RHE/+AD3PFvSsHsyZ5s4uNgT7xbZXeT5pJCze2fZAF1IdqrDJAOXcrt
-lxsHI5Osk2dxWko7v5gY9/SH
-=OJjx
------END PGP SIGNATURE-----
-
---===============4798124960499302631==--
+--===============1033829221110626594==--
