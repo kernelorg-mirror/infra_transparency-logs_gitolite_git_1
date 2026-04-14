@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jejb/scsi
-Date: Tue, 14 Apr 2026 03:32:54 -0000
-Message-Id: <177613757400.209029.1917210036995679415@gitolite.kernel.org>
+Date: Tue, 14 Apr 2026 03:33:13 -0000
+Message-Id: <177613759370.209777.9891583712150889427@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,9 +11,9 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jejb/scsi
 user: jejb
 changes:
-  - ref: refs/heads/misc
-    old: 927722dcfe0a5294433bb087387cc52a46cbf675
-    new: 070ec6f691411f27e7a743841bdfb0bf604fbce2
+  - ref: refs/heads/for-next
+    old: c14bdc2192214a6d454c3067f090aee284c5a55d
+    new: 06bc5326098594dc10a9a9bc0477852dab647436
     log: |
          7aa0f56d4b48fb1a1ed3af11b53ba19901092e0a scsi: iscsi_tcp: Remove unneeded selections of CRYPTO and CRYPTO_MD5
          9cf351b289fb2be22491fa3964f99126db67aa08 scsi: storvsc: Handle PERSISTENT_RESERVE_IN truncation for Hyper-V vFC
@@ -23,4 +23,5 @@ changes:
          e423f1c7195645e18945fba0bd8f0a32e39286e7 scsi: ufs: core: Disable timestamp for Kioxia THGJFJT0E25BAIP
          271aeff266c9ca97eae315d59ef0bfe0e4ce0a94 scsi: qla2xxx: Use nr_cpu_ids instead of NR_CPUS for qp_cpu_map allocation
          070ec6f691411f27e7a743841bdfb0bf604fbce2 scsi: target: Don't validate ignored fields in PROUT PREEMPT
+         06bc5326098594dc10a9a9bc0477852dab647436 Merge branch 'misc' into for-next
          
