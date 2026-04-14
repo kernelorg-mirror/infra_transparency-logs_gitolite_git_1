@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8056239165705301786=="
+Content-Type: multipart/mixed; boundary="===============8169450292116954837=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
-Date: Tue, 14 Apr 2026 16:43:54 -0000
-Message-Id: <177618503436.1004650.12109694620252017240@gitolite.kernel.org>
+Date: Tue, 14 Apr 2026 16:44:53 -0000
+Message-Id: <177618509378.1005471.14799195275165460114@gitolite.kernel.org>
 
---===============8056239165705301786==
+--===============8169450292116954837==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,54 +17,40 @@ user: krzk
 git_push_cert_status: Y
 changes:
   - ref: refs/heads/for-next
-    old: d1c1616301bee036d4fc9866652181906598a3a3
-    new: e018f31847a8275ed516c02e542903fce656a3e8
+    old: e018f31847a8275ed516c02e542903fce656a3e8
+    new: a578ece7a274f9c4d69eda571a16d9fc47501cd0
     log: |
-         abe76f9f47d59ff80eb2fc59482aa76bbf6fd13a arm64: dts: ti: k3: Use memory-region-names for r5f
-         41d7004ab4e521ccbd98793d7da55022796c463f Merge tag 'ti-k3-dt-for-v7.1-part2' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/ti/linux into soc/dt
-         e018f31847a8275ed516c02e542903fce656a3e8 Merge branch 'soc/dt' into for-next
+         a578ece7a274f9c4d69eda571a16d9fc47501cd0 soc: document merges
          
-  - ref: refs/heads/soc/dt
-    old: 5b3a6cf06c8e013e0bffe929aac8129188b8933d
-    new: 41d7004ab4e521ccbd98793d7da55022796c463f
-    log: |
-         abe76f9f47d59ff80eb2fc59482aa76bbf6fd13a arm64: dts: ti: k3: Use memory-region-names for r5f
-         41d7004ab4e521ccbd98793d7da55022796c463f Merge tag 'ti-k3-dt-for-v7.1-part2' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/ti/linux into soc/dt
-         
-  - ref: refs/heads/ti/dt-2
-    old: 0000000000000000000000000000000000000000
-    new: abe76f9f47d59ff80eb2fc59482aa76bbf6fd13a
 
---===============8056239165705301786==
+--===============8169450292116954837==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher krzk@kernel.org 1776185032 +0200
+pusher krzk@kernel.org 1776185092 +0200
 pushee kernel.org:/pub/scm/linux/kernel/git/soc/soc.git
-nonce 1776185032-1080b2aace1416f592dcde41d7cc07eac7747541
+nonce 1776185092-a71eed352c1d838476c8f11aeb4182ae85841446
 
-d1c1616301bee036d4fc9866652181906598a3a3 e018f31847a8275ed516c02e542903fce656a3e8 refs/heads/for-next
-5b3a6cf06c8e013e0bffe929aac8129188b8933d 41d7004ab4e521ccbd98793d7da55022796c463f refs/heads/soc/dt
-0000000000000000000000000000000000000000 abe76f9f47d59ff80eb2fc59482aa76bbf6fd13a refs/heads/ti/dt-2
+e018f31847a8275ed516c02e542903fce656a3e8 a578ece7a274f9c4d69eda571a16d9fc47501cd0 refs/heads/for-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmnebsgQHGtyemtAa2Vy
-bmVsLm9yZwAKCRDBN2bmhouD184mD/kBlTLJmGlUI5q58FNaq6QnX4shsh8zL27K
-w3ErucNU+pXSIiw1sZdRdRukDVzVMc1oAXpBf6+gxZ1IwoxDGHzf+pz7u2pwDoa+
-64GIiBCprnDVfvc8ZjUhX2t0+WDaKplOTE/vmrsIzrN8xG/6dDXr8lxI84UEeDeG
-OSCXg/X4vIKtODr0tXWUt5NJXbzPyKtRVxQ2PzQ5Pw2AXMJs7X3tJ1+ULgm+0i9t
-Q9Q9aCOQTbF8RAgjFd2vSWV/ORq/opawG3wxTJ8uxSlIqbkzbwlhyutSnY9tPj+2
-ZnM9LnLd8VZADYU7PgoiVZDrzb27pmIyo/HSRTuQzrTB+udAT6zSo1eDfkSpI8n8
-hzxa0aPc2/7V89VCYOdrryDz9bE/IDxsROHeJ7F+o/AaaHFgWjv4LcigRCim/78z
-mhdQ4iBE+/IbbJf/xNeWqJcaT2IFnA+iHPSSF6VjXlluy46/9MbOmQ7SquAT/SCT
-i0Sw+QG7W4LXS3UzZtx2dZJNOupGsa/sU46RZ7a/yWMzSwzWbB2/xoeqLozy8hz6
-7Va5oksUb0X8E89ALIqotYVC49soipVU+xbLUSbHpRr5JmylclIxoj4fkuCCKK4j
-TMJ60nraBIZXfkjDoAHh0L8Cxj6fG3H9UGPJLroikQ0zmP1oWtpocvHBcUX/3ih1
-Wpa/aXllmw==
-=I4pT
+iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmnebwQQHGtyemtAa2Vy
+bmVsLm9yZwAKCRDBN2bmhouD19nND/45CwX75GN035YfSQsZUcKjRPgmBsMuPRQp
+n6vir/kRU0lz083vqkuiCSqwVYgpAdF3lUWftRg8qpXHlI+/+ihZTk93I6dIq31x
+kVGYSfMd4evao0B94fl5oMQxxa1VmOQZlBkwjM21J9WUmb0APs299d49Kweo0ncj
+bq+H9EEYwM2qlvdnOQHPR0h9oxzGIeGzZjpjKZFPzNKhRwohm3bzEZwmsEnby5q9
+s5OwF99WBJeW5Iyl7rdKp/A6ZGCyVQUlCUyigDRJwcThnpSeO2UsGpA78/IU/TkW
+rEdoiQExJurhzHT22+Q/0s1YtgviwhjROqhZSRxVEawZ8sottEmLeCKRcBHglsOC
+cbetLCSDE6gp8D9lNFAnhDpl5XBDQgOE3VgZw6rLDHasaihP6fBewVgz2mz6jQDr
+0LbwQxgWL6mztzwWUqhC8Scatg3UBbTbkZcyMvkicsVptHY4JBOo0Ecx5CM9qGGS
+rGfk4qHEllfKawJ5VSkJg5sLFQPWncsoMutden+LJqfY99O30yZCkUpvjsD6M/IK
+yEYJoOB2J9gdbsCsH99wblY7955FRlnl0vAiaFuihM/4VbtlvLep/ubJKcYxvZl8
+Cy9XYP3DxX8YxvHvqJyBO2f0uyrPa7W3Yv33QK7El6xrjZLPPJBJIKHdGgOQ5hVJ
+nmJ2iMGVBA==
+=xAsg
 -----END PGP SIGNATURE-----
 
---===============8056239165705301786==--
+--===============8169450292116954837==--
