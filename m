@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4115073894339091482=="
+Content-Type: multipart/mixed; boundary="===============1486256057247399390=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Tue, 14 Apr 2026 06:49:14 -0000
-Message-Id: <177614935433.400704.277284675690483939@gitolite.kernel.org>
+Date: Tue, 14 Apr 2026 06:49:40 -0000
+Message-Id: <177614938073.401115.1903216871968633975@gitolite.kernel.org>
 
---===============4115073894339091482==
+--===============1486256057247399390==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,16 +16,57 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: d8b3d01c1a1b1a0d45d9adb989c1643977d9287a
-    new: c3d904b8fa1c276aa19983457e15c60bcef27a39
-    log: revlist-d8b3d01c1a1b-c3d904b8fa1c.txt
+    old: c3d904b8fa1c276aa19983457e15c60bcef27a39
+    new: 3291745cf85a9c1f92dd03dc4afda4dca99c31f9
+    log: revlist-c3d904b8fa1c-3291745cf85a.txt
+  - ref: refs/heads/tip/urgent
+    old: 028ef9c96e96197026887c0f092424679298aae8
+    new: d60bc140158342716e13ff0f8aa65642f43ba053
+    log: revlist-028ef9c96e96-d60bc1401583.txt
 
---===============4115073894339091482==
+--===============1486256057247399390==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d8b3d01c1a1b-c3d904b8fa1c.txt
+Content-Disposition: attachment; filename=revlist-c3d904b8fa1c-3291745cf85a.txt
 
+ee0dd2461609240f1ec1eed3ebf4694f3e313add Merge branch into tip/master: 'x86/merge'
+26c3d123ea48517fe48a8347f6f5bd77089f06b5 Merge branch into tip/master: 'sched/merge'
+3f517948f5fcb3ee16c2383c38f03b59374adf82 Merge branch into tip/master: 'timers/merge'
+938d0c771415e52d933dbc41ad3b68c202c57de3 Merge branch into tip/master: 'core/debugobjects'
+04c46458510bce46a3fc8cacde92e75fc13824f2 Merge branch into tip/master: 'core/entry'
+3703fee6e78167a783f89bf77ed047198769b935 Merge branch into tip/master: 'irq/core'
+cbb439916c61b831c4b9331bb121936d2ad287a7 Merge branch into tip/master: 'irq/drivers'
+178e171ede02396cfabd55932de3d95ce59e9796 Merge branch into tip/master: 'irq/msi'
+8e9193ed371ee5c7d328869842278c692ff49c29 Merge branch into tip/master: 'locking/core'
+0050569b4ec93f4f0d2b4b7ae44a700c4393ad99 Merge branch into tip/master: 'locking/futex'
+b1e5805b49121bd28dead83018142bc7fc970208 Merge branch into tip/master: 'objtool/core'
+ec5319054666eeea1dda327dffd6f9d88c1fa1b6 Merge branch into tip/master: 'perf/core'
+a75d212782f0d3198f449fb252713f50dae8a6d1 Merge branch into tip/master: 'ras/core'
+42be86c26e0ce1a132110cc9581fbd042f5f4199 Merge branch into tip/master: 'sched/core'
+0353054ff618c046bf817bba33cc633ae424481d Merge branch into tip/master: 'sched/hrtick'
+c362ebeee2bd7d22e8a78dbaafbb36a3f01f1c04 Merge branch into tip/master: 'smp/core'
+ed070d49ff8680f47484b59d1f8bdf1469d5344c Merge branch into tip/master: 'timers/clocksource'
+433087a1dc287b31dd913ae5c8301436995dc988 Merge branch into tip/master: 'timers/vdso'
+41bd24e231da363a31da6dea17246af150050ec1 Merge branch into tip/master: 'x86/asm'
+777693d2a54a498272d480835ac00da2ddc8cdae Merge branch into tip/master: 'x86/cache'
+8adba0dd456bc8b9cda702d47b872b89bec04fb8 Merge branch into tip/master: 'x86/cleanups'
+3608712bde537021287e3e80c9d15a73bd6472c5 Merge branch into tip/master: 'x86/cpu'
+db400ee618c992d4d582b2f29471750de0aff463 Merge branch into tip/master: 'x86/fred'
+708a5ce843a002124936c5fe87277281a44d482e Merge branch into tip/master: 'x86/microcode'
+2011ca83e37c18a7090eb74263060c0039f07ee4 Merge branch into tip/master: 'x86/misc'
+1b02a413f726af63043f332c7475befdf885765d Merge branch into tip/master: 'x86/mm'
+e8090f71dba598854f9d4ef6ec5cf688a103aa6c Merge branch into tip/master: 'x86/platform'
+055d5224809495f4609d40792e4a1d0d3b5c7a77 Merge branch into tip/master: 'x86/sev'
+3291745cf85a9c1f92dd03dc4afda4dca99c31f9 Merge branch into tip/master: 'x86/vdso'
+
+--===============1486256057247399390==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-028ef9c96e96-d60bc1401583.txt
+
+a18b1ab81654b06e7ff402e5d0b85249e9504bcb fscrypt: move fscrypt_set_bio_crypt_ctx_bh to buffer.c
 60b4fcb49efe7f07aaa92c8d7933ac37b3be85b2 fscrypt: pass a byte offset to fscrypt_generate_dun
 22be86a23c5956254b752e4e98f0ef2799565a41 fscrypt: pass a byte offset to fscrypt_mergeable_bio
 3c7eaa775d8e008135646bd4b7aa7db7c5e40a0e fscrypt: pass a byte offset to fscrypt_set_bio_crypt_ctx
@@ -1049,6 +1090,5 @@ d7c8087a9cd8979d70edfe7c7feda9423feae3ab Merge tag 'pm-7.1-rc1' of git://git.ker
 fbfb6bd927c9ac6ea155471cc7ced8e16b37c2cb Merge tag 'thermal-7.1-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
 1334d2a3b3235d062e5e1f51aebe7a64ed57cf72 Merge tag 'gpio-updates-for-v7.1-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux
 d60bc140158342716e13ff0f8aa65642f43ba053 Merge tag 'pwrseq-updates-for-v7.1-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux
-c3d904b8fa1c276aa19983457e15c60bcef27a39 Merge branch 'linus'
 
---===============4115073894339091482==--
+--===============1486256057247399390==--
