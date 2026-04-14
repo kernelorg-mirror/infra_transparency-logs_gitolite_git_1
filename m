@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/iommu/linux
-Date: Tue, 14 Apr 2026 11:33:18 -0000
-Message-Id: <177616639892.684901.10095355790388631447@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Tue, 14 Apr 2026 11:36:19 -0000
+Message-Id: <177616657902.689089.60669945095325453@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/iommu/linux
-user: joro
+repo: pub/scm/linux/kernel/git/netdev/net
+user: pabeni
 changes:
-  - ref: refs/tags/iommu-updates-v7.1
-    old: 0000000000000000000000000000000000000000
-    new: bc21fb74e6d870bdff8b6d897bcdbe6a985f5e02
-  - ref: refs/tags/v7.0-rc7
-    old: 0000000000000000000000000000000000000000
-    new: 0e5d0a0b5ca6ea4e391d6786266405c5871e0151
+  - ref: refs/heads/main
+    old: f7cf8ece8cee3c1ee361991470cdb1eb65ab02e8
+    new: 1acdfbdb516b32165a8ecd1d5f8c68e4eac64637
+    log: |
+         1acdfbdb516b32165a8ecd1d5f8c68e4eac64637 net: airoha: Fix VIP configuration for AN7583 SoC
+         
