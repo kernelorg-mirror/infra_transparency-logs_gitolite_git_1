@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
-Date: Tue, 14 Apr 2026 08:13:44 -0000
-Message-Id: <177615442488.485249.15386169082740101161@gitolite.kernel.org>
+Date: Tue, 14 Apr 2026 08:15:13 -0000
+Message-Id: <177615451331.488690.910666598670955986@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,21 +12,21 @@ repo: pub/scm/linux/kernel/git/tiwai/sound
 user: tiwai
 changes:
   - ref: refs/heads/for-linus
-    old: a7b56be59b47f4195ddc79ecab238c4401a60bbb
-    new: 3ec159977e88aa1fc34b492590bfe41370e7d46c
+    old: 3ec159977e88aa1fc34b492590bfe41370e7d46c
+    new: 46c862f5419e0a86b60b9f9558d247f6084c99f9
     log: |
-         3ec159977e88aa1fc34b492590bfe41370e7d46c ALSA: hda/realtek - fixed speaker no sound update
+         46c862f5419e0a86b60b9f9558d247f6084c99f9 ALSA: hda/realtek - fixed speaker no sound update
          
   - ref: refs/heads/for-next
-    old: a7b56be59b47f4195ddc79ecab238c4401a60bbb
-    new: 3ec159977e88aa1fc34b492590bfe41370e7d46c
+    old: 3ec159977e88aa1fc34b492590bfe41370e7d46c
+    new: 46c862f5419e0a86b60b9f9558d247f6084c99f9
     log: |
-         3ec159977e88aa1fc34b492590bfe41370e7d46c ALSA: hda/realtek - fixed speaker no sound update
+         46c862f5419e0a86b60b9f9558d247f6084c99f9 ALSA: hda/realtek - fixed speaker no sound update
          
   - ref: refs/heads/master
-    old: 71818e4add223948f5c9e9d7f39730c35f23c5e1
-    new: 02be54cea31e7db7c8ba04b38e58c734a56fc43f
+    old: 02be54cea31e7db7c8ba04b38e58c734a56fc43f
+    new: deeecd601cc59b708b9905fe6357878f8dde3cf7
     log: |
-         3ec159977e88aa1fc34b492590bfe41370e7d46c ALSA: hda/realtek - fixed speaker no sound update
-         02be54cea31e7db7c8ba04b38e58c734a56fc43f Merge branch 'for-linus'
+         46c862f5419e0a86b60b9f9558d247f6084c99f9 ALSA: hda/realtek - fixed speaker no sound update
+         deeecd601cc59b708b9905fe6357878f8dde3cf7 Merge branch 'for-linus'
          
