@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6780822364250562941=="
+Content-Type: multipart/mixed; boundary="===============0456792537566159313=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Tue, 14 Apr 2026 00:40:34 -0000
-Message-Id: <177612723436.34030.15593121668083481083@gitolite.kernel.org>
+Date: Tue, 14 Apr 2026 00:47:21 -0000
+Message-Id: <177612764112.40091.15770626420670270618@gitolite.kernel.org>
 
---===============6780822364250562941==
+--===============0456792537566159313==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/dev-queue
-    old: d4999456017dd09ff5f7a34e236c471560d8f8e4
-    new: 7d42ffb979fa89770a7f45e66b100e7f9b212515
-    log: revlist-d4999456017d-7d42ffb979fa.txt
+  - ref: refs/heads/1GbE
+    old: 12ff2a4aee6c86746623d5aed24389dbf6dffded
+    new: 2cd7e6971fc2787408ceef17906ea152791448cf
+    log: revlist-12ff2a4aee6c-2cd7e6971fc2.txt
 
---===============6780822364250562941==
+--===============0456792537566159313==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d4999456017d-7d42ffb979fa.txt
+Content-Disposition: attachment; filename=revlist-12ff2a4aee6c-2cd7e6971fc2.txt
 
 fed4626501c871890da287bec62a96e52da1af89 can: ucan: fix devres lifetime
 a535a9217ca3f2fccedaafb2fddb4c48f27d36dc can: raw: fix ro->uniq use-after-free in raw_rcv()
@@ -74,52 +74,5 @@ c058bbf05b1197c33df7204842665bd8bc70b3a8 tcp: Don't set treq->req_usec_ts in coo
 8b0c25528cb64f71a73b5c0d49cbbcb68540a4ce bnge: return after auxiliary_device_uninit() in error path
 bf6f95ae3b8b2638c0e1d6d802d50983ce5d0f45 sctp: fix missing encap_port propagation for GSO fragments
 2cd7e6971fc2787408ceef17906ea152791448cf sctp: disable BH before calling udp_tunnel_xmit_skb()
-f716aebfa4919dcaec3a290a5b306cfb7d6a99ce ice: fix fwlog after driver reinit
-e4746ec5d55ee53e2dfe7256920cb1b62c1ba193 ice: Fix enable_cnt imbalance on resume
-48af17fb94723553fce030b37890201e0dba00dd ice: Fix enable_cnt imbalance on PCIe error recovery
-117fffd218edae8568d3749b6783752bb4ac0e8c i40e: Fix enable_cnt imbalance on PCIe error recovery
-f85e9eb7434b4b5f9a249c2150482e141dc41a68 ice: fix 'adjust' timer programming for E830 devices
-8fce76cc01d27ba8d7e86a8709b39ddf2108cd3d ice: fix setting RSS VSI hash for E830
-8d47cd41c3a5b6bd59176f1b15384f3ee190db31 ice: fix race condition in TX timestamp ring cleanup
-3bbe739cf72e14dce42f934ea6ef43f008426dfd ice: dpll: fix rclk pin state get and misplaced header macros
-94e7567c4386d47fbc2bda6699dd9b9be8a9ea42 ice: update PCS latency settings for E825 10G/25Gb modes
-0db16cd379f96b39d73e13a96884860ffeb6757e ice: fix potential NULL pointer deref in error path of ice_set_ringparam()
-41c80eb6b458ae901e72f26e423bfab118e40a5f ice: fix missing SMA pin initialization in DPLL subsystem
-41436a03eae5290e710dbae41f39c0ffb7744ad8 ice: fix double-free of tx_buf skb
-0dea0bfef3d967d45637efa51f2c986dd2659f8b e1000e: correct TIMINCA on ADP/TGP systems with wrong XTAL frequency
-d6664ca706788e4033b67add4225dbf03e26195a ice: fix PHY config on media change with link-down-on-close
-266658aff16c1b0d136a61c84d8010ff2e86ca91 ice: fix double free in ice_sf_eth_activate() error path
-37e6743de3b8ae970dac04cbec2639b65c40bdf7 idpf: fix UAF and double free in idpf_plug_core_aux_dev() error path
-bf7e7ea2a0d89f359840cc8e0898474e60d01d96 ice: fix missing dpll notifications for SW pins
-3cb1ad522deafa495fbfbc89a4f34e34222c276a idpf: fix xdp crash in soft reset error path
-1b48c1eb104e96c344ff0c27629c025319a16d34 ice: fix locking in ice_dcb_rebuild()
-69904dab12a10139d2c93c92969680d84f4a3401 e1000e: Unroll PTP in probe error handling
-1cba2bf221e77a641c9cfcc8b47589820216bbb6 iavf: fix wrong VLAN mask for legacy Rx descriptors L2TAG2
-5048191eef4cc321d2bf448f2ff225ef173914c3 ice: fix FDB deletion
-696f2c178b5c3d23a26031a981c19f1ade8a00da ice: fix ICE_AQ_LINK_SPEED_M for 200G
-368c78e878f71df06e4600138ff620a15b8de18c ice: init desired_dcbx_cfg in default DCB config
-c675337c1c42243a04d0191a159c39013c86f929 ice: prevent integer overflow
-8521efe2ebf8ae3f53e7f9e13ba08df1c10ea587 ice: fix LLDP AQ filter fallback not working on E82x and E830 hardware
-9f0a90ce28ef9e33105ef499c3d88b5661fee179 i40e: fix napi_enable/disable skipping ringless q_vectors
-0387f813273cb59ed4562e787682dc13fe83bab1 i40e: don't advertise IFF_SUPP_NOFCS
-ecfbd0b395385e36a0969bbefc4b8c1be09ea440 ice: fix FDIR CTRL VSI resource leak in ice_reset_all_vfs()
-96ad48abf4c4ba9bd6287e78c670976a2c8c26da ice: fix AQ error code comparison in ice_set_pauseparam()
-ea38a00297c0e4fc94e8f5979fcf4b9dfacaf530 ice: call netif_keep_dst() once when entering switchdev mode
-c82a919f4cc9a1399518338da76439a4e0d0229e ice: check cross-timestamp timeout bits
-ed590a94c1b772393b7a1037ca614d01a4d78a08 ice: fix locking around wait_event_interruptible_locked_irq
-7eba9e3f8a7d777c2990aa8debf4affde13ea90c ice: fix PTP Call Trace during PTP release
-76608eac0a4dbe84dae6b979b670a0b2349d4ef4 ice: fix PTP hang for E825C devices
-5dc0312432a849afb213c8e8582426c18f00849e ice: use READ_ONCE() to access cached PHC time
-f88464fa3fe8c7f7318736a8bc44ea2e0e0cb1a0 ice: fix setting promisc mode while adding VID filter
-d6874e8d41f22af679c4cdc675d01de36d33750a i40e: fix memcmp of pointer in i40e_hw_set_dcb_config()
-10bf73d4bb34162cca28010c8f10db7359b3ad8b ice: fix null-ptr dereference on false-positive tx timeout
-82e9ce3bcf2438456200c8df85e03233c9ed13c5 ice: fix NULL pointer dereference in ice_reset_all_vfs()
-575276c67658f4aba363c685c1c883a24eef218d idpf: fix read_dev_clk_lock spinlock init in idpf_ptp_init()
-e7764d9f17ee71df647d5107454e0a2bc20ea8ec i40e: Cleanup PTP registration on probe failure
-26b1f0f3ff3092a703f49e77a8956232b079e0e7 ice: fix VF queue configuration with low MTU values
-81307263755e9734471ebb46ae1756f65ac98c68 idpf: do not enable XDP if queue based scheduling is not supported
-d589ee1f62fd1a6a3542cf54cd23a66288d65a4d idpf: fix skb datapath queue based scheduling crashes and timeouts
-0e2492c00de4ebe6a39de80354e3acf85512c67e i40e: Cleanup PTP pins on probe failure
-7d42ffb979fa89770a7f45e66b100e7f9b212515 ice: fix SMA and U.FL pin state changes affecting paired pin
 
---===============6780822364250562941==--
+--===============0456792537566159313==--
