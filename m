@@ -1,19 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Tue, 14 Apr 2026 13:17:06 -0000
-Message-Id: <177617262652.794867.11199331666714735228@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
+Date: Tue, 14 Apr 2026 13:32:09 -0000
+Message-Id: <177617352969.809508.5058569147832065902@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: pabeni
+repo: pub/scm/linux/kernel/git/tiwai/sound
+user: tiwai
 changes:
-  - ref: refs/heads/main
-    old: 1acdfbdb516b32165a8ecd1d5f8c68e4eac64637
-    new: b9d8b856689d2b968495d79fe653d87fcb8ad98c
+  - ref: refs/heads/for-linus
+    old: a1ed2ec1c5458b4a99765439cb595dd0e026a352
+    new: e0da8a8cac74f4b9f577979d131f0d2b88a84487
     log: |
-         b9d8b856689d2b968495d79fe653d87fcb8ad98c net: airoha: Add missing PPE configurations in airoha_ppe_hw_init()
+         e0da8a8cac74f4b9f577979d131f0d2b88a84487 ALSA: control: Validate buf_len before strnlen() in snd_ctl_elem_init_enum_names()
+         
+  - ref: refs/heads/for-next
+    old: a1ed2ec1c5458b4a99765439cb595dd0e026a352
+    new: e0da8a8cac74f4b9f577979d131f0d2b88a84487
+    log: |
+         e0da8a8cac74f4b9f577979d131f0d2b88a84487 ALSA: control: Validate buf_len before strnlen() in snd_ctl_elem_init_enum_names()
          
