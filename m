@@ -1,32 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
-Date: Tue, 14 Apr 2026 08:15:13 -0000
-Message-Id: <177615451331.488690.910666598670955986@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Tue, 14 Apr 2026 08:59:48 -0000
+Message-Id: <177615718891.529179.6674567211246630683@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tiwai/sound
-user: tiwai
+repo: pub/scm/linux/kernel/git/netdev/net
+user: pabeni
 changes:
-  - ref: refs/heads/for-linus
-    old: 3ec159977e88aa1fc34b492590bfe41370e7d46c
-    new: 46c862f5419e0a86b60b9f9558d247f6084c99f9
+  - ref: refs/heads/main
+    old: 2cd7e6971fc2787408ceef17906ea152791448cf
+    new: ab4b6e4e80a0e573bd77d69439e4cb55e9e3c5ee
     log: |
-         46c862f5419e0a86b60b9f9558d247f6084c99f9 ALSA: hda/realtek - fixed speaker no sound update
-         
-  - ref: refs/heads/for-next
-    old: 3ec159977e88aa1fc34b492590bfe41370e7d46c
-    new: 46c862f5419e0a86b60b9f9558d247f6084c99f9
-    log: |
-         46c862f5419e0a86b60b9f9558d247f6084c99f9 ALSA: hda/realtek - fixed speaker no sound update
-         
-  - ref: refs/heads/master
-    old: 02be54cea31e7db7c8ba04b38e58c734a56fc43f
-    new: deeecd601cc59b708b9905fe6357878f8dde3cf7
-    log: |
-         46c862f5419e0a86b60b9f9558d247f6084c99f9 ALSA: hda/realtek - fixed speaker no sound update
-         deeecd601cc59b708b9905fe6357878f8dde3cf7 Merge branch 'for-linus'
+         1921f91298d1388a0bb9db8f83800c998b649cb3 net, bpf: fix null-ptr-deref in xdp_master_redirect() for down master
+         8dd1bdde38af8418889ba322a3663c401a60fe28 selftests/bpf: add test for xdp_master_redirect with bond not up
+         ab4b6e4e80a0e573bd77d69439e4cb55e9e3c5ee Merge branch 'net-bpf-fix-null-ptr-deref-in-xdp_master_redirect-for-bonding-and-add-selftest'
          
