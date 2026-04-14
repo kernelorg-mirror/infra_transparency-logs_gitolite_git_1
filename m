@@ -1,47 +1,62 @@
-Content-Type: multipart/mixed; boundary="===============4867526569411117379=="
+Content-Type: multipart/mixed; boundary="===============3529172604969514019=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Tue, 14 Apr 2026 00:56:18 -0000
-Message-Id: <177612817868.50218.4705670290797926859@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
+Date: Tue, 14 Apr 2026 02:19:09 -0000
+Message-Id: <177613314920.135659.3068515701693379699@gitolite.kernel.org>
 
---===============4867526569411117379==
+--===============3529172604969514019==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/mkp/scsi
+user: mkp
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/master
-    old: d142ab35ee0b7f9e84115fe3e4c3de4a9ac35f5e
-    new: d568788baab24875604c231f723dbb72387fb081
-    log: revlist-d142ab35ee0b-d568788baab2.txt
+  - ref: refs/tags/mkp-scsi-queue
+    old: 07773d310cfc134969b5180b8bc8fcabbbfabbc1
+    new: b176b90655060f15bff2715e7ccd92fb690574c0
+    log: |
+         7aa0f56d4b48fb1a1ed3af11b53ba19901092e0a scsi: iscsi_tcp: Remove unneeded selections of CRYPTO and CRYPTO_MD5
+         9cf351b289fb2be22491fa3964f99126db67aa08 scsi: storvsc: Handle PERSISTENT_RESERVE_IN truncation for Hyper-V vFC
+         1a2f61970a6365ca5fb1a667300348815ae81727 scsi: libsas: Delete unused to_dom_device() and to_dev_attr()
+         1e111c4b3a726df1254670a5cc4868cedb946d37 scsi: sd: fix missing put_disk() when device_add(&disk_dev) fails
+         03a5e8ec68d7b2a908c22e1f43e4f168f4b2798c scsi: mpi3mr: Fix typo
+         e423f1c7195645e18945fba0bd8f0a32e39286e7 scsi: ufs: core: Disable timestamp for Kioxia THGJFJT0E25BAIP
+         271aeff266c9ca97eae315d59ef0bfe0e4ce0a94 scsi: qla2xxx: Use nr_cpu_ids instead of NR_CPUS for qp_cpu_map allocation
+         070ec6f691411f27e7a743841bdfb0bf604fbce2 scsi: target: Don't validate ignored fields in PROUT PREEMPT
+         
 
---===============4867526569411117379==
+--===============3529172604969514019==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-d142ab35ee0b-d568788baab2.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-37beb42560165869838e7d91724f3e629db64129 randomize_kstack: Maintain kstack_offset per task
-a96ef5848cb096226bf6aff31a90d8b136d99b71 randomize_kstack: Unify random source across arches
-00247cbf173a9e1e2304db8e3f9172d36366b255 refcount: Remove unused __signed_wrap function annotations
-4ef6255cc56343bc90d82420b49dab1b11dee414 pstore: fix ftrace dump, when ECC is enabled
-80632e333b0bd3cf188cff4e7ff52114506f5612 pstore/ramoops: Remove useless memblock header
-b22462c79179f228327b98313b47369129114d6a pstore/ramoops: Fix ECC parameter help text
-2ddb69f686ef7a621645e97fc7329c50edf5d0e5 pstore/ram: fix resource leak when ioremap() fails
-421a41c485dde449cbf90ba610b805bd99e3ae78 pstore/ftrace: Keep ftrace module parameter and debugfs switch in sync
-cf2f06f7152d5e38a87aa2e9b8b452714789f6ba lkdtm/fortify: Drop unneeded FORTIFY_STR_OBJECT test
-10cd6758e054e4002ccb409fef7dd2c6b7bbd549 exec: use strnlen() in __set_task_comm
-9bf092c97b86af63694d9902b9e14047214ba76d sched: update task_struct->comm comment
-41fa04327384148b0e2e828c9be9862c5240e9fa selftests/seccomp: Add hard-coded __NR_uprobe for x86_64
-24b8f8dcb9a139a36cf48bfbe935e8dc1f33ed79 pstore/ftrace: Factor KASLR offset in the core kernel instruction addresses
-cae0d23288e959a05377a307b96dc30ea4fd9f1a Merge tag 'pstore-v7.1-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/kees/linux
-613b48bbd465941f796c174c96707a9bce595265 Merge tag 'execve-v7.1-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/kees/linux
-cea4a90faf9e5d15aee1fd01883bc81ad7640260 Merge tag 'seccomp-v7.1-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/kees/linux
-d568788baab24875604c231f723dbb72387fb081 Merge tag 'hardening-v7.1-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/kees/linux
+certificate version 0.1
+pusher 75C5DE3D 1776133103 -0400
+pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
+nonce 1776133103-14eb670c722ee0c0dc94bc68763160b72e46438d
 
---===============4867526569411117379==--
+07773d310cfc134969b5180b8bc8fcabbbfabbc1 b176b90655060f15bff2715e7ccd92fb690574c0 refs/tags/mkp-scsi-queue
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmndo+8ACgkQ7ulgGnXF
+3j2o9w//UyEgpwk0S4tH5d0mzteK8pBld/mgkAua+UwD0L+eHdAfFbIp20C9F983
+1n42F3TBe70AggEJoBfJEuis0SWJGWADnxPVfDSZSye8r+CxpN9pPkG2F3HpYF6h
+9XxXgmvt2oslix/iaUa2cnZvosWU8uZnS+CQd+V9768/WuAfiB/Jg4zr9FnMHPSH
+MaX9Ic5kolf3k4xkt3hQnBacu/tiB5SXiPmLNHtc1e861MbwgSOSHJnJxBmQwlr0
+TgwxZyctaC9jvV91OIFwD9IPKH8+n2N4pO+p9j7MjT026uvj4MAwrRLKzPETp6Et
+P6WLYYh1kVb3lgn1SSZ7pfmqPYBbK77hTJscB8RIbw8M9C8ajgxHK/3Sabb+5d/1
++UjNnkIDPLuDd5F68MP+MpAz4xoHWZpfVoGI35zmgEebapftAO5s/mCF1oIyxr7O
+et7+gMfwRQSGH4qnp8jQ0M2kqMTZuNDIwAFeEUiHKuzm9iJtu5WaTXAhA50HTXJc
+4+TnjFg2r/vQfTlWltUBd8YmUicXNted93i6VlS6XFxFQ5mYBQWC/QAibhpmolFY
+mD3GG6iRIYhcsf3ofMs67DsDEYDIUAct0oPeVS7wRWOwPu042H/VASOGa63EJ/1V
+sZ11NMbDylTVeHSIJSAeXwBsbuGLRLumlZGw0F1QItK3lInhCQk=
+=ju/D
+-----END PGP SIGNATURE-----
+
+--===============3529172604969514019==--
