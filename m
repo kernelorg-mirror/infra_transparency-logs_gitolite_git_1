@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
-Date: Wed, 15 Apr 2026 22:37:17 -0000
-Message-Id: <177629263744.2932038.13462779479701352146@gitolite.kernel.org>
+Date: Wed, 15 Apr 2026 22:38:15 -0000
+Message-Id: <177629269504.2932835.2446224959034488177@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,54 +11,33 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/pci/pci
 user: helgaas
 changes:
-  - ref: refs/heads/aer
-    old: 1ab4a3c805084d752ec571efc78272295a9f2f74
+  - ref: refs/heads/controller/cadence-sg2042
+    old: 988ef706cdd8a72e61dd90c0d0554eec4df7594a
     new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/aspm
-    old: cc33985d26c92a5c908c0185239c59ec35b8637c
+  - ref: refs/heads/controller/dwc-amd-mdb
+    old: 56435b70f778995c696d53624ba93a429aa38432
     new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/atomics
-    old: 8e69214402397fcbb17f25ac5acb178195aca4bc
+  - ref: refs/heads/controller/dwc-andes-qilai
+    old: df5d8fb6fe55754bc2956e501a9e6acaca5af7d9
     new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/dpc
-    old: 97970e7c694356e3386a10e3b936d61eafd06bce
+  - ref: refs/heads/controller/dwc-eswin
+    old: b593c26d081a4fbeabd34badb0a9e9a971a79cb4
     new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/dt-binding
-    old: 4d7937d8cc32b027a14cb8152d9df64d17e9392c
+  - ref: refs/heads/controller/dwc-imx6
+    old: 88cc4cbe08bba27bb58888d25d336774aa0ccab1
     new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/endpoint
-    old: 1d3225cb5d82680143ffd705088199917ceafd76
+  - ref: refs/heads/controller/dwc-layerscape
+    old: e36262c5e6c25e19d7d082936f63b3a8e62739f9
     new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/enumeration
-    old: d79dc408deb6c192adbad7893ee0c22d50826511
+  - ref: refs/heads/controller/dwc-qcom
+    old: 33a76fc3c3e61386524479b99f35423bd3d9a895
     new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/hotplug
-    old: 16d021c878dca22532c984668c9e8cf4722d6a49
+  - ref: refs/heads/controller/dwc-rcar-gen4-ep
+    old: 13f55a7ca773c731a1e645934c1ae48577f48785
     new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/misc
-    old: 7010f13acd3828056e50badb5138bf9ca21ddd8f
+  - ref: refs/heads/controller/dwc-rockchip
+    old: f3ddb8a9a97fd7b933442d25309b90eafc5f2d74
     new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/msi
-    old: 874b07eb0875729b9a47441e03b125d9fa735645
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/p2pdma
-    old: 70cf146a674c447753ceeb34246ad0afdd0064bb
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/ptm
-    old: e1092d5e15e6a9b168bf830af9a26d7ea17cd57d
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/pwrctrl
-    old: bd3622e5b8e0650669332d9e10244a704560cbfe
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/reset
-    old: 702c1d56c7177a0481abd2814bab9495f1150967
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/resource
-    old: 8cb081667377709f4924ab6b3a88a0d7a761fe91
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/vga
-    old: 5b6471fc72a42e6110adca54f46fd2c287dc49d4
-    new: 0000000000000000000000000000000000000000
-  - ref: refs/heads/virtualization
-    old: 806140e9a33218f22188fe5019c7874aa78d81f8
+  - ref: refs/heads/controller/dwc-tegra194
+    old: a86ca8698c88461dd5770b638a2e2459f58d370c
     new: 0000000000000000000000000000000000000000
