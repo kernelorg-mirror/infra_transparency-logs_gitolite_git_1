@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/liburing
-Date: Wed, 15 Apr 2026 20:12:29 -0000
-Message-Id: <177628394960.2785932.4831595850815979987@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/andrea/ripgrep-edit
+Date: Wed, 15 Apr 2026 20:23:32 -0000
+Message-Id: <177628461262.2796257.3308455777528225008@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/liburing
-user: axboe
+repo: pub/scm/linux/kernel/git/andrea/ripgrep-edit
+user: andrea
 changes:
-  - ref: refs/heads/master
-    old: 533a772b43df83ef22b706659791ea9309f5ca01
-    new: 6dc578df309eb6958e7422ff7395e591c80ea7b9
+  - ref: refs/heads/main
+    old: 64e4a884b065c18fd7afc30529d8abd17bf94ee8
+    new: d8085d84f35a6a0da4c97e4c2f6f22d4d8c0c99e
     log: |
-         d8583c5f8d1bb2eaf226c15e2a1a9da74aef5dcb tests: fix zcrx tests
-         b195ba2723f0850a574424f408841c340436abca tests: don't assume tail/head layout in bpf
-         6dc578df309eb6958e7422ff7395e591c80ea7b9 examples/zcrx: fix just allocated sock struct checks
+         d8085d84f35a6a0da4c97e4c2f6f22d4d8c0c99e rg-edit.el: Add rg-edit-prefill-extra-args default extra arguments
          
