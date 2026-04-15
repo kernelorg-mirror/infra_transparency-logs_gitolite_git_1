@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/dakr/linux
-Date: Wed, 15 Apr 2026 14:47:47 -0000
-Message-Id: <177626446723.2452320.8319887261478364072@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Wed, 15 Apr 2026 14:48:00 -0000
+Message-Id: <177626448073.2452561.5305278291634102674@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/dakr/linux
-user: dakr
+repo: pub/scm/linux/kernel/git/tip/tip
+user: bp
 changes:
-  - ref: refs/heads/tmp/for-gary
+  - ref: refs/tags/locking_futex_for_v7.1_rc1
     old: 0000000000000000000000000000000000000000
-    new: f77fe90050c9c4ebfdfbd8350e3028b2a84ae24e
+    new: 2300e8a9582aae2438251f809f329445beab26a9
