@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Wed, 15 Apr 2026 12:48:09 -0000
-Message-Id: <177625728943.2324192.14472374360371289301@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/firmware/linux-firmware
+Date: Wed, 15 Apr 2026 12:55:10 -0000
+Message-Id: <177625771021.2332694.276581677630307155@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: sashal
+repo: pub/scm/linux/kernel/git/firmware/linux-firmware
+user: jwboyer
 changes:
-  - ref: refs/heads/master
-    old: e84a934b1e8f2f35890b51c6521a7b8678ebdc8f
-    new: d82c687462d31dab99467e832919e269ff45e54d
+  - ref: refs/heads/main
+    old: f48f551a902b3cc6e6aa8854e533902d3222a0c9
+    new: 1220d7e9d2f7eb46aa1ba1816be4fac37ae1a35b
     log: |
-         d82c687462d31dab99467e832919e269ff45e54d drop 2 patches from queue-5.15 and queue-5.10 based on RC review feedback
+         a9488d15e0317947f62cee1d1fa2d9659d6ed940 i915: Xe3LPD_3002 DMC v2.29
+         1220d7e9d2f7eb46aa1ba1816be4fac37ae1a35b Merge branch 'intel/dmc/xe3lpd_3002/2.29' into 'main'
          
