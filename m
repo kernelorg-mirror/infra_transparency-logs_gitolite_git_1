@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/firmware/linux-firmware
-Date: Wed, 15 Apr 2026 13:05:13 -0000
-Message-Id: <177625831302.2345861.798931349037384134@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/harry/linux
+Date: Wed, 15 Apr 2026 13:29:56 -0000
+Message-Id: <177625979698.2368870.8695343673858907947@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/firmware/linux-firmware
-user: jwboyer
+repo: pub/scm/linux/kernel/git/harry/linux
+user: harry
 changes:
-  - ref: refs/heads/main
-    old: 7c255f268444c247ec6261a306feaca7834448de
-    new: 50f1c516899b60a55dbf5ac49409c13202accccb
+  - ref: refs/heads/kvfree-rcu-improvements-rfc-v2r1-wip
+    old: b008cba1fc7931f40f0f2a458ea08f4f7fc8ef97
+    new: ce24fe0f3255f079a1e124f0db788d9efae0d876
     log: |
-         d06d0303836b311a0c0c232274db0c0c801de66e qcom: Update ADSP firmware for Kaanapali platform
-         50f1c516899b60a55dbf5ac49409c13202accccb Merge branch 'robot/pr-0-1776230068' into 'main'
+         ce24fe0f3255f079a1e124f0db788d9efae0d876 tmp
          
