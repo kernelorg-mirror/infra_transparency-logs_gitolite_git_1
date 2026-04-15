@@ -1,22 +1,42 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf
-Date: Wed, 15 Apr 2026 19:10:26 -0000
-Message-Id: <177628022686.2722786.4795997745498329314@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============2591042949680624679=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/boqun/linux
+Date: Wed, 15 Apr 2026 19:31:38 -0000
+Message-Id: <177628149850.2742881.6074572767819629544@gitolite.kernel.org>
+
+--===============2591042949680624679==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf
-user: ast
+repo: pub/scm/linux/kernel/git/boqun/linux
+user: boqun
 changes:
-  - ref: refs/heads/master
-    old: b3dde701e73354eb1c5027adbf01a147b056954a
-    new: d3fdb3db13a209dc8005b301130538c705fda579
-    log: |
-         36bf7beb9d23bfe7feba6f376a0c13ed7b670cf8 selftests/bpf: Prevent allocating data larger than a page
-         615e55a2418405b628921e0596ac50317fd04474 selftests/bpf: Fix tld_get_data() returning garbage data
-         b4b0233730d5b2cdb170f6f5f183bfb1047b6dfa selftests/bpf: Test small task local data allocation
-         d3fdb3db13a209dc8005b301130538c705fda579 Merge branch 'fix-garbage-data-in-task-local-data'
-         
+  - ref: refs/heads/rust-sync
+    old: 754219dea900fe187e29e8b5ff9fa49238e394c7
+    new: d7c4769aaf1abc3d042ad806c29aedcffe05dbb8
+    log: revlist-754219dea900-d7c4769aaf1a.txt
+
+--===============2591042949680624679==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-754219dea900-d7c4769aaf1a.txt
+
+a21c1e961de28b95099a9ca2c3774b2eee1a33bb compiler: Simplify generic RELOC_HIDE()
+efecc494190e7ecc4ef1e99be558dfe1e9e5d898 rust: sync: rcu: Add RCU protected pointer
+766cdcb3c5904ebbb4a606562506f180a59bd737 preempt: Introduce HARDIRQ_DISABLE_BITS
+301fad302c525d9cd400cd50c1d143f342a8b72f preempt: Track NMI nesting to separate per-CPU counter
+9bdd53a2f3ae7a7afee6d2aec44904d488d571de preempt: Introduce __preempt_count_{sub, add}_return()
+d65e621d7fc242fb8640977fb048c94ca1579b1b openrisc: Include <linux/cpumask.h> in smp.h
+e2811a79db3c6c3373d2be2a2b80cb8bca8443b5 irq & spin_lock: Add counted interrupt disabling/enabling
+e44e800b38c082e19361e3a37a724be708e6b41c irq: Add KUnit test for refcounted interrupt enable/disable
+12a5b4e083106915cd774f22c5bc5d40b31fd554 locking: Switch to _irq_{disable,enable}() variants in cleanup guards
+6562a21d7e9dfd20c0db76483bcf360acc68d8ff locking/lockdep: Replace snprintf with strscpy in seq_stats
+6108c88163eefa4865ecb6605ee96d33b37d1ec6 rust: sync: completion: Mark inline complete_all and wait_for_completion
+d7c4769aaf1abc3d042ad806c29aedcffe05dbb8 MAINTAINERS: Add RUST [SYNC] entry
+
+--===============2591042949680624679==--
