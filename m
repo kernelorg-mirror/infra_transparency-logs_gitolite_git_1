@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3690270020214008362=="
+Content-Type: multipart/mixed; boundary="===============5066772366716370740=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
-Date: Wed, 15 Apr 2026 17:15:59 -0000
-Message-Id: <177627335967.2605897.16110418604736054479@gitolite.kernel.org>
+Date: Wed, 15 Apr 2026 17:16:13 -0000
+Message-Id: <177627337352.2606415.9112399861403161476@gitolite.kernel.org>
 
---===============3690270020214008362==
+--===============5066772366716370740==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jlayton/linux
 user: jlayton
 changes:
-  - ref: refs/heads/dir-deleg
-    old: 8d7ac3d6e6848e1828d2096887a944318adf7b07
+  - ref: refs/heads/bakeathon
+    old: 189294df177c5ddbba2f153dc5e8ebfbcaa1098c
     new: f4ad4728775a1d5601f8f0fa41467ae3829cb456
-    log: revlist-8d7ac3d6e684-f4ad4728775a.txt
+    log: revlist-189294df177c-f4ad4728775a.txt
 
---===============3690270020214008362==
+--===============5066772366716370740==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8d7ac3d6e684-f4ad4728775a.txt
+Content-Disposition: attachment; filename=revlist-189294df177c-f4ad4728775a.txt
 
 40a31bf7c965c00caa395c2e5dbcef2e0bb20729 vfs/nfsd: add support for CB_NOTIFY callbacks in directory delegations
 866426a714cbf5c2c0772da0e951921dbc1aa62f filelock: pass current blocking lease to tracepoints rather than "new_fl"
@@ -58,4 +58,4 @@ ac2d58a1ff634ffb8568b2ffccb33b2c34eaaffd nfsd: track requested dir attributes
 ec46959bc5b55806e087000f2b4fc85cac948bbe fsnotify: add FSNOTIFY_EVENT_RENAME data type
 f4ad4728775a1d5601f8f0fa41467ae3829cb456 nfsd: populate nad_old_entry when rename overwrites a file
 
---===============3690270020214008362==--
+--===============5066772366716370740==--
