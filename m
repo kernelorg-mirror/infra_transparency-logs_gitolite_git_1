@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2165397137388126316=="
+Content-Type: multipart/mixed; boundary="===============5691216951881811106=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Wed, 15 Apr 2026 02:48:10 -0000
-Message-Id: <177622129052.1726764.15034647784967140077@gitolite.kernel.org>
+Date: Wed, 15 Apr 2026 02:48:17 -0000
+Message-Id: <177622129794.1727099.4406386447050596045@gitolite.kernel.org>
 
---===============2165397137388126316==
+--===============5691216951881811106==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: ast
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/for-next
     old: 71b500afd2f7336f5b6c6026f2af546fc079be26
     new: 91a4855d6c03e770e42f17c798a36a3c46e63de2
     log: revlist-71b500afd2f7-91a4855d6c03.txt
 
---===============2165397137388126316==
+--===============5691216951881811106==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ e997ac58ad0b47141c62c79cde8356fe5633287a Merge tag 'linux_kselftest-next-7.1-rc1
 f5ad4101009e7f5f5984ffea6923d4fcd470932a Merge tag 'bpf-next-7.1' of git://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf-next
 91a4855d6c03e770e42f17c798a36a3c46e63de2 Merge tag 'net-next-7.1' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net-next
 
---===============2165397137388126316==--
+--===============5691216951881811106==--
