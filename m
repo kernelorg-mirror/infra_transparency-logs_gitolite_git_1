@@ -1,26 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux
-Date: Wed, 15 Apr 2026 20:08:21 -0000
-Message-Id: <177628370128.2781252.8441660421461784295@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/liburing
+Date: Wed, 15 Apr 2026 20:12:29 -0000
+Message-Id: <177628394960.2785932.4831595850815979987@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux
+repo: pub/scm/linux/kernel/git/axboe/liburing
 user: axboe
 changes:
-  - ref: refs/heads/for-next
-    old: 30c4d25ebce7d56c49e8050035bd0e3a92da3f93
-    new: 02a6073962db9560f8066b12034d23e84111d453
+  - ref: refs/heads/master
+    old: 533a772b43df83ef22b706659791ea9309f5ca01
+    new: 6dc578df309eb6958e7422ff7395e591c80ea7b9
     log: |
-         326941b22806cbf2df1fbfe902b7908b368cce42 io_uring/poll: fix signed comparison in io_poll_get_ownership()
-         02a6073962db9560f8066b12034d23e84111d453 Merge branch 'io_uring-7.1' into for-next
-         
-  - ref: refs/heads/io_uring-7.1
-    old: 3a84a57a27bd36ea4fe9c6032b1fee37121a644b
-    new: 326941b22806cbf2df1fbfe902b7908b368cce42
-    log: |
-         326941b22806cbf2df1fbfe902b7908b368cce42 io_uring/poll: fix signed comparison in io_poll_get_ownership()
+         d8583c5f8d1bb2eaf226c15e2a1a9da74aef5dcb tests: fix zcrx tests
+         b195ba2723f0850a574424f408841c340436abca tests: don't assume tail/head layout in bpf
+         6dc578df309eb6958e7422ff7395e591c80ea7b9 examples/zcrx: fix just allocated sock struct checks
          
