@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4497486355789176138=="
+Content-Type: multipart/mixed; boundary="===============2643931016848487144=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tzungbi/chrome-platform
-Date: Wed, 15 Apr 2026 04:39:41 -0000
-Message-Id: <177622798138.1836130.8378915923952339220@gitolite.kernel.org>
+Date: Wed, 15 Apr 2026 04:45:11 -0000
+Message-Id: <177622831105.1843725.10928785586140947543@gitolite.kernel.org>
 
---===============4497486355789176138==
+--===============2643931016848487144==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,24 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tzungbi/chrome-platform
 user: tzungbi
 changes:
-  - ref: refs/heads/gpio_rev
-    old: e478f27b9ee60f2e67b8cac864a00bd873f822df
-    new: 9e2f0e076dbe40c5eda48d521a2cce08441c3efe
-    log: revlist-e478f27b9ee6-9e2f0e076dbe.txt
-  - ref: refs/heads/revocable
-    old: 31f9b2c58c200c38e15ff2b030eb68758747b000
-    new: 9187a2f17eee275bd228468aed2b13f41d616ce1
-    log: |
-         04c4f642550b4e398e997ea5b1c7b6c4e11add15 revocable: Revocable resource management
-         96721a9add9f1088951599d5001cab6b25e1140a revocable: Add KUnit test cases
-         9187a2f17eee275bd228468aed2b13f41d616ce1 selftests: revocable: Add kselftest cases
-         
+  - ref: refs/heads/for-next
+    old: fdfe3e72a228b74da21939c47ebd6f5ad4969d5f
+    new: ca13ab654064fee86d6e7c9e87d0af7789561509
+    log: revlist-fdfe3e72a228-ca13ab654064.txt
 
---===============4497486355789176138==
+--===============2643931016848487144==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e478f27b9ee6-9e2f0e076dbe.txt
+Content-Disposition: attachment; filename=revlist-fdfe3e72a228-ca13ab654064.txt
 
 b678676b7a0ab65ad5b4278505d6bcf706e53230 dt-bindings: gpio: mpfs-gpio: permit resets
 3671411e9073cb06d726dbf10835d158e18f0796 gpio: mpsse: drop redundant device reference
@@ -90,13 +82,5 @@ c8079f83e0bf312645050c17d9c87deb707369c1 gpio: rockchip: convert to dynamic GPIO
 d129779da5e3f8878e105fb3ca8519d9ff759a91 Documentation: gpio: update the preferred method for using software node lookup
 5bcd451286176202f4ba84b89fd98c7ea74f33a2 dt-bindings: gpio: cavium,thunder-8890: Remove DT binding
 ca13ab654064fee86d6e7c9e87d0af7789561509 gpio: swnode: defer probe on references to unregistered software nodes
-04c4f642550b4e398e997ea5b1c7b6c4e11add15 revocable: Revocable resource management
-96721a9add9f1088951599d5001cab6b25e1140a revocable: Add KUnit test cases
-9187a2f17eee275bd228468aed2b13f41d616ce1 selftests: revocable: Add kselftest cases
-f647bc793eaf3e8d0a96b7263ec2bb9415a35986 gpio: Add revocable provider handle for struct gpio_chip
-2f8f554f5e70a49d5fe1ce1d07783847a2ed3ffd gpio: cdev: Leverage revocable for accessing struct gpio_chip
-f9cc0063751da441d7f627ab4a8faf8ef8890516 gpio: Remove gpio_chip_guard by using revocable
-5bababf0dc0f69a5fb9db7d3492ab58d66c327ad gpio: Leverage revocable for accessing struct gpio_chip
-9e2f0e076dbe40c5eda48d521a2cce08441c3efe gpio: Remove unused `chip` and `srcu` in struct gpio_device
 
---===============4497486355789176138==--
+--===============2643931016848487144==--
