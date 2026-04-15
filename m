@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5304919007983440148=="
+Content-Type: multipart/mixed; boundary="===============1093978925803178618=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Wed, 15 Apr 2026 00:03:05 -0000
-Message-Id: <177621138591.1553148.11805140274590960529@gitolite.kernel.org>
+Date: Wed, 15 Apr 2026 00:15:06 -0000
+Message-Id: <177621210635.1566514.2366046290510955560@gitolite.kernel.org>
 
---===============5304919007983440148==
+--===============1093978925803178618==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,126 +16,127 @@ repo: pub/scm/linux/kernel/git/torvalds/linux
 user: torvalds
 changes:
   - ref: refs/heads/master
-    old: 508fed6795411f5ab277fd1edc0d7adca4946f23
-    new: c43267e6794a36013fd495a4d81bf7f748fe4615
-    log: revlist-508fed679541-c43267e6794a.txt
+    old: c43267e6794a36013fd495a4d81bf7f748fe4615
+    new: ee60c510fb3468ec6fab98419218c4e7b37e2ca3
+    log: revlist-c43267e6794a-ee60c510fb34.txt
 
---===============5304919007983440148==
+--===============1093978925803178618==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-508fed679541-c43267e6794a.txt
+Content-Disposition: attachment; filename=revlist-c43267e6794a-ee60c510fb34.txt
 
-6712fcde003f780d6241d755a0fa41ff4739b9a4 arm64: remove ARCH_INLINE_*
-3ce8f5860ff478d23af87bd459e76e466b483af3 arm64: scs: Remove redundant save/restore of SCS SP on entry to/from EL0
-5b3fb8a6b429c33ee669d08b1a883d881e9614a1 arm64: mm: Re-implement the __tlbi_level macro as a C function
-d2bf3226952c64d1c2ce4995cce60b3fb8ae5f33 arm64: mm: Introduce a C wrapper for by-range TLB invalidation
-edc55b7abb2547aac5521202b029dc4dd2054771 arm64: mm: Implicitly invalidate user ASID based on TLBI operation
-a3710035604fdeace5c0945d98955a1624e4648d arm64: mm: Push __TLBI_VADDR() into __tlbi_level()
-d4b048ca145fd31a2c6f77ae4db49e51bdec58ac arm64: mm: Inline __TLBI_VADDR_RANGE() into __tlbi_range()
-5e63b73f3deb1e0f7e2234f7f6743e323b60daf8 arm64: mm: Re-implement the __flush_tlb_range_op macro in C
-057bbd8e06102100023b980dfdd26f8a595785cd arm64: mm: Simplify __TLBI_RANGE_NUM() macro
-c753d667d9596866e0b9608f52c91b5a540786cb arm64: mm: Simplify __flush_tlb_range_limit_excess()
-64212d689306df27fb12363df2aab030cf767a4a arm64: mm: Refactor flush_tlb_page() to use __tlbi_level_asid()
-11f6dd8dd2838703fe3d149118b8c785150cc92f arm64: mm: Refactor __flush_tlb_range() to take flags
-0477fc56960d91ac98412534188741a09e5d8a18 arm64: mm: More flags for __flush_tlb_range()
-15397e3c3850d447b7167614cbb24a98192c3693 arm64: mm: Wrap flush_tlb_page() around __do_flush_tlb_range()
-752a0d1d483e9479f5c59519256fd190139d0b39 arm64: mm: Provide level hint for flush_tlb_page()
-2615924e45a79dacc5eb27afea45a364a6b6d8bc arm64/mm: Describe TTBR1_BADDR_4852_OFFSET
-d989010bbecad295cc66737a30b05319f5e7507b arm64/mm: Directly use TTBRx_EL1_ASID_MASK
-be6e9dee0e978ddf7b4b6b8b8dba37413ae1a393 arm64/mm: Directly use TTBRx_EL1_CnP
-74cd4e0e5399480e3fab2cd6a6cbdb17f673c335 selftests/arm64: Implement cmpbr_sigill() to hwcap test
-2e30447b233a8e7a561bb51995b8d4944282bf62 KVM: arm64: Read PMUVer as unsigned
-d1dcc20bcc40efe1f1c71639376c91dafa489222 arm64: cpufeature: Make PMUVer and PerfMon unsigned
-15ed3fa23cbcb9b9db842947698c3b4b2aeb706c arm64: cpufeature: Use pmuv3_implemented() function
-5394396ff5488f007248727988b722c5d4f0638b perf/arm-cmn: Stop claiming entire iomem region
-d332424d1d06a9fb03ca04ba3f1092c3990125e8 perf/arm_cspmu: nvidia: Rename doc to Tegra241
-f5caf26fd6c71294d0fb254404ed66f8cff6f7f7 perf/arm_cspmu: nvidia: Add Tegra410 UCF PMU
-bc86281fe4bd5d4a78be2f370e8319c9517e40ff perf/arm_cspmu: Add arm_cspmu_acpi_dev_get
-bf585ba14726788335c640512d11186dab573612 perf/arm_cspmu: nvidia: Add Tegra410 PCIE PMU
-3dd73022306bfdb29b1c33cb106fe337f46a6105 perf/arm_cspmu: nvidia: Add Tegra410 PCIE-TGT PMU
-429b7638b2df5538e945aaa2cc189cf0d6e8fb3a perf: add NVIDIA Tegra410 CPU Memory Latency PMU
-2f89b7f78c50ca973ca035ceb30426f78d9e0996 perf: add NVIDIA Tegra410 C2C PMU
-b7d9d2e3a8ab535ff3bc8e9156a917bb8934f856 arm64: mm: __ptep_set_access_flags must hint correct TTL
-d49802b6617b96f55d4b61fed81f4cc43858ed3f perf/arm-cmn: Fix incorrect error check for devm_ioremap()
-47f06ebbe8dad695002e5d9a2ab436411f88e985 perf/arm-cmn: Fix resource_size_t printk specifier in arm_cmn_init_dtc()
-7181f718cb0fd47b37d13aad8744cbd6da9f1cbe arm64: cpufeature: Add FEAT_LSUI
-f6bff18d05ed40e5b06bfe9f9e5c2c7fe247164d KVM: arm64: Expose FEAT_LSUI to guests
-42550d7d8aa66632c75f22095cb210dd431e8d71 KVM: arm64: kselftest: set_id_regs: Add test for FEAT_LSUI
-eaa3babcceaaf191228d6ea897f677ed7549d0e2 arm64: futex: Refactor futex atomic operation
-44adf2bf40efe56c68c1563779ab2047eb0a57ea arm64: futex: Support futex with FEAT_LSUI
-16dbe77a5be2defe5797cc33da87e33f72ef150c KVM: arm64: Use CAST instruction for swapping guest descriptor
-377609ae8b6ac2ef522c9dcecfa20a7123116dbf arm64: Kconfig: Add support for LSUI
-f91e913355f49c878fc77f995fd71b7800352bd2 arm_mpam: Ensure in_reset_state is false after applying configuration
-a1cb6577f575ba5ec2583caf4f791a86754dbf69 arm_mpam: Reset when feature configuration bit unset
-29fa1be82b83f87e603ed4c21fe86c6e05fd0282 arm64/sysreg: Add MPAMSM_EL1 register
-eda1cd1f9d29b382a07d757cf8b29f9ee636355f KVM: arm64: Preserve host MPAM configuration when changing traps
-2e7c684bdb50cfaf98da80ebaab4a961fdcd1aa2 KVM: arm64: Make MPAMSM_EL1 accesses UNDEF
-8e06d04ff1cf764066c62e5677bfb0b0c1d1fbbc arm64: mpam: Context switch the MPAM registers
-87b78a5d70e83d4dbe31e1afda2be736a3330b31 arm64: mpam: Re-initialise MPAM regs when CPU comes online
-c544f00a473239835d22e7109b403314d8b85974 arm64: mpam: Drop the CONFIG_EXPERT restriction
-831a7f16728c5ceef04ab99a699c3d9e519dc4b8 arm64: mpam: Advertise the CPUs MPAM limits to the driver
-735dad999905dfd246be1994bb8d203063aeb0d6 arm64: mpam: Add cpu_pm notifier to restore MPAM sysregs
-37fe0f984d9ca60e8d95fc9a85d37f4300159625 arm64: mpam: Initialise and context switch the MPAMSM_EL1 register
-2cf9ca3fae38b7894e7f1435cec92f9a679b42f9 arm64: mpam: Add helpers to change a task or cpu's MPAM PARTID/PMG values
-67faed4ccb4f4b8055f50e9cc5670f1fc09ea287 KVM: arm64: Force guest EL1 to use user-space's partid configuration
-09e61daf8e96b9bdb04dd112bdecf9382fd3f919 arm_mpam: resctrl: Add boilerplate cpuhp and domain allocation
-52a4edb16121d07734e4e392767d26d286f08c35 arm_mpam: resctrl: Pick the caches we will use as resctrl resources
-370d166d878d0c0aa06568d67387a1151a200501 arm_mpam: resctrl: Implement resctrl_arch_reset_all_ctrls()
-02cc661687886563a0e08ecee51c5ef7d1737237 arm_mpam: resctrl: Add resctrl_arch_get_config()
-9cd2b522be2cc64fab179d75537d2e8df38d26a6 arm_mpam: resctrl: Implement helpers to update configuration
-9d2e1a99fae58ce992f147bdf83b5d9089f70b27 arm_mpam: resctrl: Add plumbing against arm64 task and cpu hooks
-6789fb99282c0a8e8e84701b7edf456f4a9e71e2 arm_mpam: resctrl: Add CDP emulation
-01a0021f6c39557037bfc41ede7230a0696677ff arm_mpam: resctrl: Hide CDP emulation behind CONFIG_EXPERT
-80d147d293130ee3c8a395cbbea1813e26ab9a1b arm_mpam: resctrl: Convert to/from MPAMs fixed-point formats
-3e9b35823aabcb85cc039960256426e50f1fd601 arm_mpam: resctrl: Add rmid index helpers
-1c1e2968a860c5af9fca67f1c0e88aab83ace0b3 arm_mpam: resctrl: Wait for cacheinfo to be ready
-36528c7681b8093f5f9270d2af7c4326d771f181 arm_mpam: resctrl: Add support for 'MB' resource
-5dc8f73eaa5dfccb229b9a25c797720e6379f8e0 arm_mpam: resctrl: Add kunit test for control format conversions
-264c285999fce128fc52743bce582468b26e9f65 arm_mpam: resctrl: Add monitor initialisation and domain boilerplate
-1458c4f053355f88cc5d190ca02243d2c60fa010 arm_mpam: resctrl: Add support for csu counters
-2a3c79c61539779a09928893518c8286d7774b54 arm_mpam: resctrl: Allow resctrl to allocate monitors
-fb56b29932ca276df268806ad52ed80f40f99a6e arm_mpam: resctrl: Add resctrl_arch_rmid_read()
-49b04e401825431529e866470d8d2dcd8e9ef058 arm_mpam: resctrl: Update the rmid reallocation limit
-efc775eadce2c6e0921c21d9c29a7b6686022281 arm_mpam: resctrl: Add empty definitions for assorted resctrl functions
-4aab135bda1661a795e4fe96418bf840833e1119 arm64: mpam: Select ARCH_HAS_CPU_RESCTRL
-fb481ec08699e9daf08ab839a79ab37b1bcca94d arm_mpam: resctrl: Call resctrl_init() on platforms that can support resctrl
-fa7745218c9828ac4849ef62bccad684aec0f422 arm_mpam: Add quirk framework
-70e81fbedc6570b2397e07a645136af0a0eec907 arm_mpam: Add workaround for T241-MPAM-1
-a7efe23ed6dd08259ad1b238e9c33bb511666fd4 arm_mpam: Add workaround for T241-MPAM-4
-dc48eb1ff27cc3169c3c5cca5eb20645d04d9e22 arm_mpam: Add workaround for T241-MPAM-6
-aeb8595a5f8ba4aac8b5c265a8bcc3f18b473cb5 arm_mpam: Quirk CMN-650's CSU NRDY behaviour
-4ce0a2ccc0358f3f746fa50815a599f861fd5d68 arm64: mpam: Add initial MPAM documentation
-e223258ed8a683d9debbb03ca1be0736f2c12e5b arm64: armv8_deprecated: Disable swp emulation when FEAT_LSUI present
-48478b9f791376b4b89018d7afdfd06865498f65 arm64/mm: Enable batched TLB flush in unmap_hotplug_range()
-95a58852b0e5413b6ef4c93da60a80e89da9986a arm64/mm: Reject memory removal that splits a kernel leaf mapping
-5e0deb0a6b4e07825c3b1c4317c5e413421266ed arm64: mm: Use generic enum pgtable_level
-f12b435de2f2bb09ce406467020181ada528844c arm64: mm: Fix rodata=full block mapping support for realm guests
-15bfba1ad77fad8e45a37aae54b3c813b33fe27c arm64: mm: Handle invalid large leaf mappings correctly
-1d37713fa83780f3f500fa4c4f6c43945dd17137 arm64: mm: Remove pmd_sect() and pud_sect()
-85b6f920a8691d96441da9da7fc55ec93b906fe6 arm64/sysreg: Update SMIDR_EL1 to DDI0601 2025-06
-1f0d117cd6ca8e74e70e415e89b059fce37674c6 entry: Fix stale comment for irqentry_enter()
-22f66e7ef4ce9414b4bd18abe50ead4a1284b01a entry: Remove local_irq_{enable,disable}_exit_to_user()
-eb1b51afde506a8e38976190e518990d69ef5382 entry: Move irqentry_enter() prototype later
-c5538d0141b383808f440186fcd0bc2799af2853 entry: Split kernel mode logic from irqentry_{enter,exit}()
-041aa7a85390c99b1de86dc28eddcff0890d8186 entry: Split preemption from irqentry_exit_to_kernel_mode()
-2371bd83b3df9d833191fe58dadb0e69a794a1cd arm64: entry: Don't preempt with SError or Debug masked
-6879ef130223f015c9a5a8a0d14d3f6d0464fa21 arm64: entry: Consistently prefix arm64-specific wrappers
-a07b7b214240e1bf3de7067f2f43d88aa8e50c28 arm64: entry: Use irqentry_{enter_from,exit_to}_kernel_mode()
-ae654112eac05f316ef31587fc55e4d7160d0086 arm64: entry: Use split preemption logic
-8d13386c7624dc8bd3caad483875fb9be4044ea0 arm64: Check DAIF (and PMR) at task-switch time
-b178330b67abb7293b6de28b2a49d49c83962db5 ACPI: AGDI: fix missing newline in error message
-ee020bf6f14094c9ae434bb37e6957a1fdad513c arm64: kexec: Remove duplicate allocation for trans_pgd
-abed23c3c44f565dc812563ac015be70dd61e97b arm64/hwcap: Generate the KERNEL_HWCAP_ definitions for the hwcaps
-b964aa8d68f7705932357483d35d82067bd755c3 arm64/sysreg: Update ID_AA64ISAR0_EL1 description to DDI0601 2025-12
-bb5e1e540501f068f888dca8951128d682f5ff44 arm64/sysreg: Update ID_AA64ISAR2_EL1 description to DDI0601 2025-12
-d74576b51ba6d3a7f1f321b57ad8736f73a5074d arm64/sysreg: Update ID_AA64FPFR0_EL1 description to DDI0601 2025-12
-bf56250f34a40d83252e1cbc3b41955df7dc11b1 arm64/sysreg: Update ID_AA64ZFR0_EL1 description to DDI0601 2025-12
-306736fd515565c6c4787dc55aba890ebce2dc45 arm64/sysreg: Update ID_AA64SMFR0_EL1 description to DDI0601 2025-12
-249bf9733198fe0527542ba6acf4bd8f12b7e5fc arm64: mte: Skip TFSR_EL1 checks and barriers in synchronous tag check mode
-74b63934abf5011d4ff0ac6ece5cffca9d5647ac arm64: Kconfig: fix duplicate word in CMDLINE help text
-34e563947c76201c6e941ac17dd35eb87c0e68bb arm64: rsi: use linear-map alias for realm config buffer
-480a9e57cceaf42db6ff874dbfe91de201935035 Merge branches 'for-next/misc', 'for-next/tlbflush', 'for-next/ttbr-macros-cleanup', 'for-next/kselftest', 'for-next/feat_lsui', 'for-next/mpam', 'for-next/hotplug-batched-tlbi', 'for-next/bbml2-fixes', 'for-next/sysreg', 'for-next/generic-entry' and 'for-next/acpi', remote-tracking branches 'arm64/for-next/perf' and 'arm64/for-next/read-once' into for-next/core
-c43267e6794a36013fd495a4d81bf7f748fe4615 Merge tag 'arm64-upstream' of git://git.kernel.org/pub/scm/linux/kernel/git/arm64/linux
+55f1d6a9d6780e779e882a4d2d1b3db311835798 tools/nolibc: rename my_syscallX() to __nolibc_syscallX()
+fda4d71651f71c44b35829d13f3c8bf920032f77 powerpc/pgtable-frag: Fix bad page state in pte_frag_destroy
+bbcbf045d6c778e82b47a35fc8728387708e9a3d powerpc/64s: Fix unmap race with PMD migration entries
+68b1fa0ed5c84769e4e60d58f6a5af37e7273b51 powerpc/64s: Fix _HPAGE_CHG_MASK to include _PAGE_SPECIAL bit
+4a342f3e6f6848c816a661d8d7b10c75430598cf powerpc/64s/tlbflush-radix: Remove unused radix__flush_tlb_pwc()
+bf7c1497d2568ff803a0b0fc6728a1c06d11bf6e powerpc/64s: Move serialize_against_pte_lookup() to hash_pgtable.c
+4894e2fb7b9a25cef843ee2c3b2ac49fd808647d powerpc/64s: Kill the unused argument of exit_lazy_flush_tlb
+7bcfba20e946ec160fd72c3a0b4cf6e3e845d629 powerpc/64s: Rename tlbie_va_lpid to tlbie_va_pid_lpid
+f074059c7a4d4b93914eee404391dcdb0fd60aa6 powerpc/64s: Rename tlbie_lpid_va to tlbie_va_lpid
+24eb6378408fc125eacc4ad498d120ecf7becc35 powerpc/64s: Make use of H_RPTI_TYPE_ALL macro
+07791ff060dd3aa270cc03861f2599d81a77b97f powerpc: Print MMU_FTRS_POSSIBLE & MMU_FTRS_ALWAYS at startup
+8ba600aa577f73cc551747fdf121afc7d04afcea selftests/nolibc: fix test_file_stream() on musl libc
+27532c645e61da541173d43fbe03d234f68232f9 selftests/nolibc: Fix build with host headers and libc
+35908c5a1703052d1fe63da42c8115252a38e141 tools/nolibc: Optimise and common up the number to ascii functions
+f675ae28fcdf7db93a8c1a6964f062725b1e06a0 tools/nolibc/printf: Change variables 'c' to 'ch' and 'tmpbuf[]' to 'outbuf[]'
+4045e7b19bbf7338452cda11e64cfe7ae3361964 tools/nolibc/printf: Move snprintf length check to callback
+b42f02da2bf99460a7b1c5c25008f2e4a65ea4e3 selftests/nolibc: Return correct value when printf test fails
+9aa8a4afd4e6407a4d4521c325855c4467a88b73 selftests/nolibc: check vsnprintf() output buffer before the length
+f36e1ec61a6adb135d1b4021bc849c6acb96f50c selftests/nolibc: Use length of 'expected' string to check snprintf() output
+4ea2dedd502e2b4bfa8a47f2aaaaac4eab01e00d selftests/nolibc: Check that snprintf() doesn't write beyond the buffer end
+cf3470882435c82742ab869d4e2d414de55e7e59 selftests/nolibc: Let EXPECT_VFPRINTF() tests be skipped
+6702425cd50ebb9a71d6b441df4b0df4f58d160a tools/nolibc: Add _NOLIBC_OPTIMIZER_HIDE_VAR() to compiler.h
+ab7cd329a837711b88600e5d776836f16a0e8de8 selftests/nolibc: Rename w to written in expect_vfprintf()
+2177dd375d087012907e389f787b21ac38bb1785 tools/nolibc: Implement strerror() in terms of strerror_r()
+c0a08eb87f60daec1c1549c067945abfee711f86 tools/nolibc: Rename the 'errnum' parameter to strerror()
+a2fa5a752ce67c11a9d6d6535165195073ce0c46 tools/nolibc/printf: Output pad characters in 16 byte chunks
+b3d30efd052360c11abe1259a15dfcf2448b37be tools/nolibc/printf: Simplify __nolibc_printf()
+c5b9173ce9a110618edcb5bd92c8c724b6edf41f tools/nolibc/printf: Use goto and reduce indentation
+85f1152778f8cdc563ada12a3fc48c962b408d94 tools/nolibc/printf: Use bit-masks to hold requested flag, length and conversion chars
+125632871929e9bf5b0bc907c8fef2d326e4623a tools/nolibc/printf: Add support for length modifiers tzqL and formats iX
+b43be424343407661d5e7c79a3584a37b91a88bb tools/nolibc/printf: Handle "%s" with the numeric formats
+8df70ee45b1383114cdcaa9b2fe7449cdf5f46d5 tools/nolibc/printf: Prepend sign to converted number
+a30d20588fb8507540d267505a8876bc37bb3ec7 tools/nolibc/printf: Add support for conversion flags space and plus
+5eae5f1a01aff6f9773547265167d7a680c6fbc3 tools/nolibc/printf: Special case 0 and add support for %#x
+b5f3f59cf4384a8c9e60fa4bb1a8f4ad71126a90 tools/nolibc/printf: Add support for left aligning fields
+d3d3f64f8e964f8af6ac72294e65caad5acc452e tools/nolibc/printf: Add support for zero padding and field precision
+248c7cf60c808f09044af1ce1d2c7c707696dc1e tools/nolibc/printf: Add support for octal output
+9bc019e7ba1f797ad7e24ebb33f4fa0be011ce5b selftests/nolibc: Use printf variable field widths and precisions
+e83b07dc8c05a55d02057b1484724a0b188f6f8d tools/nolibc: MIPS: fix clobbers of 'lo' and 'hi' registers on different ISAs
+e2900176327bb2fb1e8f831ba76b1b16264bc27a selftests/nolibc: add a variable for nolibc-test source files
+5662ec000d97d7a84ad4e3f34768ef08c869d0e3 selftests/nolibc: validate NOLIBC_IGNORE_ERRNO compilation
+b74be922745989573eedee2a91d987711ef968bd tools/nolibc: add support for program_invocation_{,short_}name
+9da0f529c089f00e6ab8b552d7407e612b7245a8 tools/nolibc: add err.h
+3eb97c4cbd4d874e7e327ec512f6169934e12b8a tools/nolibc: avoid -Wundef warning for __STDC_VERSION__
+c8f6a4bbad3b1a96572d1ac1d5c37bae109fa664 selftests/nolibc: enable -Wundef
+6285f0881ec68034399d13552f7243e69e6e37bf tools/nolibc: rename sys_foo() functions to _sys_foo()
+948b71aa81cd89b222942db6055e8d9c51c54e78 drivers/vfio_pci_core: Change PXD_ORDER check from switch case to if/else block
+d1503aa9ab8057cb93367e0184528f61f7510845 powerpc/64s: Add support for huge pfnmaps
+6771c54728c278bf1e4bfdab4fddbbb186e33498 powerpc/xive: fix kmemleak caused by incorrect chip_data lookup
+789335cacdf37da93bb7c70322dff8c7e82881df powerpc/crash: fix backup region offset update to elfcorehdr
+f53b24d1fa263f56155213eabab734c18d884aff powerpc/crash: Update backup region offset in elfcorehdr on memory hotplug
+cad2a72c29e037f1ade0079f7e4b925508680e20 Revert "powerpc/xive: Fix the size of the cpumask used in xive_find_target_in_mask()"
+ce7c43b0871989b4c665cceb9720d79b933c1818 powerpc/xive: rework xive_find_target_in_mask()
+6e65886fceb23605eff952d6b1975737b4c4b154 selftests/powerpc: Suppress -Wmaybe-uninitialized with GCC 15
+1ef8cf10cdbe79823fd6de0f0b93ca996045d1cc powerpc/52xx/media5200: Consolidate chained IRQ handler install/remove
+7593721cd7c1315557956d5241bbb65fb33115eb powerpc/52xx/mpc52xx_gpt: consolidate chained IRQ handler install/remove
+5716cacebac887b45091c658caa6d1ea25c238dc powerpc/44x/uic: Consolidate chained IRQ handler install/remove
+89f46b578694f1549426277c370488479d20e1ad powerpc: Move GameCube/Wii options under EMBEDDED6xx
+d1620f27ed1aa3be4255513e1a213ab1805ec892 powerpc: wii: Add unit address to /memory
+4a03d824b3204bae7e19cdf47a85ac01027603bb powerpc: wii: Fix GPIO key name pattern
+47a05517c6edbf5160ce1bff107c10b76aa09ef7 powerpc: wii: Fix LED name pattern
+d1e6f90d6befb970dd6eb7fb5922c8690bf12623 powerpc/ps3: fix ps3.h kernel-doc warnings
+7695a4e12e5506ddd17b05a5e1ef61a9bd315a14 powerpc: kgdb: fix kernel-doc warnings
+26d76caac47f44b3ee4cdf080614bbee07713007 powerpc/ps3: spu.c: fix enum and Return kernel-doc warnings
+64ed1e3e728afb57ba9acb59e69de930ead847d9 cpuidle: powerpc: avoid double clear when breaking snooze
+f26ad12356a275ab303d5d3af4790ad94acc20d7 powerpc/audit: Convert powerpc to AUDIT_ARCH_COMPAT_GENERIC
+40a1b9d044c7dbbc2976f0432e32dc57d4896b00 powerpc/futex: Use masked user access
+679fa9c756c7d6fcb6ae611f695d286c53dca076 powerpc/ptrace: Convert gpr32_set_common_user() to scoped user access
+bf53ede0038fe2a7b02cad85f337aba43ced572a powerpc/align: Convert emulate_spe() to scoped user access
+cd54714e938d4951abc671e562d10c2308613901 powerpc/sstep: Convert to scoped user access
+cae734710dd156e2fbb4d66cdb22bbd5080beb52 powerpc/net: Inline checksum wrappers and convert to scoped user access
+f73338d089deedb4f4f1e49751c30b8b7f595ecd powerpc: pci-ioda: use bitmap_alloc() in pnv_ioda_pick_m64_pe()
+bd77a34e9a619ee92c03cbb227ca86d814aa6601 powerpc: pci-ioda: Optimize pnv_ioda_pick_m64_pe()
+1dff9ac2c85860af67a74777fa6d31c2ad07a15a tools/nolibc/printf: Support negative variable width and precision
+5bf4b30ed49b9af281bdf11c788f382faa432cfd tools/nolibc: drop superfluous invocation of 'make headers'
+010d03d0e8fb0a2690d5a79c6580d8c4f32c937e tools/nolibc: drop superfluous invocation of mkdir
+b972b37cb6b8216922c1e817b0bab4cfed55fc44 tools/nolibc: drop superfluous definition of Q
+7933969e1f733e18795a755cd9822ccf510140a1 tools/nolibc: explicitly list architecture headers
+156d985123b6d6e5189cfd0286b93c12167ae798 powerpc64/bpf: Implement JIT support for private stack
+e640bcd1bf83dbdaa967b20cd98a782d52ec89cf selftests/bpf: Enable private stack tests for powerpc64
+6fab063bd8d64f15cde2d194c08a159ad3afdf27 powerpc64/bpf: Implement fsession support
+92258b5bf1ec10204c23a793793a65dc92d17014 powerpc32/bpf: Add fsession support
+1e4bac7eb95a5a1aed5b39971ef77dca5b0f8a9f powerpc/bpf: Add support for instruction array
+66cad93ad325b332868c062bbd0de65ca4e59657 selftest/bpf: Enable instruction array test for powerpc
+a32325c0e623d594992c4e4616fa685c0e765a33 powerpc64/bpf: Add support for indirect jump
+e1f7a0e196e293c223a882788c6d1a884d06d6d8 selftest/bpf: Enable gotox tests for powerpc64
+9c0ff257fbbe7f42a81c7b4eeefe8dfc9e8f52b3 selftests/nolibc: add some tests for makedev() and friends
+5afc7e9b90b82e0c43615dcf2ff0559909714d83 selftests/nolibc: add a test for stat().st_rdev
+70091eada34c9ebc650dc88dd0e8c9246c5df8f8 tools/nolibc: move the logic of makedev() and friends into functions
+df4ef52c1d4737ca68ce8f1ade5f61abad219055 tools/nolibc: make dev_t 64 bits wide
+572246dcddb5455d62d5d152fe31105542b10ff5 tools/nolibc: handle all major and minor numbers in makedev() and friends
+867fb336a65ac59260674382168d2d93896ffa8d tools/nolibc: use makedev() in fstatat()
+fd2e9f820005d63769a6662c276b1f52a72ed041 tools/nolibc: use __builtin_offsetof()
+2c6805145e1605cef39459f78979f7edee251b41 m68k: Fix task info flags handling for 68000
+12496aad10c5671d66e160487326de942cd440ba tools/nolibc: add support for asprintf()
+1e3c374e9fd5ef0bf1ebcb866505b1aad404959e tools/nolibc: check for overflow in calloc() without divisions
+e70a7bb5755997d845f641f5d46d8af4ea68fc8a selftests/nolibc: test the memory allocator
+08b96aa962209de015de6c4a51e8cadbd1b21d0a selftests/nolibc: only use libgcc when really necessary
+3f5059f01de1aca30e7f793da0a0b5bf2740cb7a tools/nolibc: rename the internal macros used in syscall()
+022bbb5a41fd6463887dfb7de22f5be8262239a7 tools/nolibc: move the call to __sysret() into syscall()
+2eb64b936d3b6332ae44bbf91277f912be5597e2 tools/nolibc: add the _syscall() macro
+ce834c9cb984a9b85160a2c3a3821e179fa502fa tools/nolibc: add byteorder conversions
+9a5206f2564128ada61ba1d29aeafa0a439dca00 selftests/nolibc: explicitly handle ENOSYS from ptrace()
+598b670af347bc8d998866b1e795e40a3bb168de selftests/nolibc: don't skip tests for unimplemented syscalls anymore
+e6ef4eb871ed884f5f480579b2e5f4fc9d2cb003 powerpc32/bpf: fix loading fsession func metadata using PPC_LI32
+b80777aef570ac561977d7210d04890f9df7e484 mailmap: Add entry for Andrew Donnellan
+08ab9580726edcc12019d2097b56b88de1142ca7 tools/nolibc: create __nolibc_no_sanitize_ubsan
+3495279d05d62b07d7594c75d4380f51d04410dd tools/nolibc: support UBSAN on gcc
+b070dc36291fec966ad915f80a4f239b5c70c290 selftests/nolibc: use gcc 15
+e6b162a63f9b6d14473d9433ba8035c6351f35b2 Merge tag 'm68knommu-for-v7.1' of git://git.kernel.org/pub/scm/linux/kernel/git/gerg/m68knommu
+3203a08c1266689c204fb8f10d6bb5186921fce2 Merge tag 'powerpc-7.1-1' of git://git.kernel.org/pub/scm/linux/kernel/git/powerpc/linux
+ee60c510fb3468ec6fab98419218c4e7b37e2ca3 Merge tag 'nolibc-20260412-for-7.1-1' of git://git.kernel.org/pub/scm/linux/kernel/git/nolibc/linux-nolibc
 
---===============5304919007983440148==--
+--===============1093978925803178618==--
