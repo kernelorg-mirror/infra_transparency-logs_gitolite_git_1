@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4408118481562028577=="
+Content-Type: multipart/mixed; boundary="===============1403890466903894336=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Wed, 15 Apr 2026 06:13:31 -0000
-Message-Id: <177623361168.1929023.13913440119974581832@gitolite.kernel.org>
+Date: Wed, 15 Apr 2026 06:13:39 -0000
+Message-Id: <177623361955.1929271.87757025244695789@gitolite.kernel.org>
 
---===============4408118481562028577==
+--===============1403890466903894336==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: ast
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/for-next
     old: 91a4855d6c03e770e42f17c798a36a3c46e63de2
     new: 1f5ffc672165ff851063a5fd044b727ab2517ae3
     log: revlist-91a4855d6c03-1f5ffc672165.txt
 
---===============4408118481562028577==
+--===============1403890466903894336==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -58,4 +58,4 @@ cad3bf1c330274d11f25f1b7afae9b9dba13fbd3 selftests/namespaces: remove unused uti
 5c0f43e8535d619ff32400e2e916075109fc7a56 Merge tag 'kernel-7.1-rc1.misc' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
 1f5ffc672165ff851063a5fd044b727ab2517ae3 Fix mismerge of the arm64 / timer-core interrupt handling changes
 
---===============4408118481562028577==--
+--===============1403890466903894336==--
