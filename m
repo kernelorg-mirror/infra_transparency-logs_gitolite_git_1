@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7289238437754047482=="
+Content-Type: multipart/mixed; boundary="===============5435986064620807645=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jlayton/linux
-Date: Thu, 16 Apr 2026 16:14:49 -0000
-Message-Id: <177635608979.4023388.12742889236326251511@gitolite.kernel.org>
+Date: Thu, 16 Apr 2026 16:14:59 -0000
+Message-Id: <177635609935.4023613.10416054978093475932@gitolite.kernel.org>
 
---===============7289238437754047482==
+--===============5435986064620807645==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jlayton/linux
 user: jlayton
 changes:
-  - ref: refs/heads/dir-deleg
+  - ref: refs/heads/bakeathon
     old: f748bddd23241cd724c64f6f1e3999abef3bfef6
     new: 384200d767b7ae6869fbc570bd5f8bb676cb2941
     log: revlist-f748bddd2324-384200d767b7.txt
 
---===============7289238437754047482==
+--===============5435986064620807645==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -56,4 +56,4 @@ ba60a93f3e9fd6e5fb4b2958ec5e05bf404fc3ab nfsd: add the filehandle to returned at
 22f1a33bde59f4e0aa4851751a38582313ab86a0 nfsd: track requested dir attributes
 384200d767b7ae6869fbc570bd5f8bb676cb2941 nfsd: add support to CB_NOTIFY for dir attribute changes
 
---===============7289238437754047482==--
+--===============5435986064620807645==--
