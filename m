@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Thu, 16 Apr 2026 16:28:04 -0000
-Message-Id: <177635688497.4039396.13661162861171041524@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/dhowells/linux-fs
+Date: Thu, 16 Apr 2026 16:31:49 -0000
+Message-Id: <177635710983.4044058.13584930750556228530@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/dhowells/linux-fs
+user: dhowells
 changes:
-  - ref: refs/heads/selftests-mm-proc-mem-always-force
-    old: c41558571df2b1b961cf362433b229812a2b6217
-    new: a1d19922cf8793fc3dace7c51dd7ddc1971dcc61
+  - ref: refs/heads/netfs-fixes
+    old: 29c1752af8a90e4320eda27e2abd5a50a9ab8f3b
+    new: 46b039edb65a1dda3c16f69c5f1fe0223f8bc93d
     log: |
-         a1d19922cf8793fc3dace7c51dd7ddc1971dcc61 selftests/mm: Specify requirement for PROC_MEM_ALWAYS_FORCE=y
+         3d901ae326a1f6bede82f322bcfce2dda4ef8564 netfs: Fix potential for tearing in ->remote_i_size and ->zero_point
+         46b039edb65a1dda3c16f69c5f1fe0223f8bc93d netfs: Fix comment about write-streaming avoidance
          
