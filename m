@@ -1,22 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tzungbi/chrome-platform
-Date: Thu, 16 Apr 2026 14:02:13 -0000
-Message-Id: <177634813354.3886384.178000167710603203@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf
+Date: Thu, 16 Apr 2026 14:06:38 -0000
+Message-Id: <177634839811.3891212.4871230267434905807@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tzungbi/chrome-platform
-user: tzungbi
+repo: pub/scm/linux/kernel/git/bpf/bpf
+user: ast
 changes:
-  - ref: refs/heads/misc_uaf
-    old: cbd247cc9efa5744132c19d2b418be52d1386c3f
-    new: 6031be453795bca3fffc300f8c83d2eff465c402
+  - ref: refs/heads/master
+    old: a20446652956ed26be529b8788e76dfddf705717
+    new: 1cedfe17badeebdcc044855713597ac7db58414a
     log: |
-         59833b1f2afc280689fdc0795bf7a95d89690cd2 selftests: misc: Add UAF test
-         6aa45293bd21bb8f35c275d6e7cf744cdf3dff8a char: misc: Simplify locking with guard()
-         95f06a9be7848e36c4d0af28b28a5fd5fed4b3a8 char: misc: Introduce misc_find() helper
-         6031be453795bca3fffc300f8c83d2eff465c402 sync
+         d3e945223e0158c85dbde23de4f89493a2a817f6 bpf: Move constants blinding out of arch-specific JITs
+         d9ef13f72711f2dad64cd4445472ded98fb6c954 bpf: Pass bpf_verifier_env to JIT
+         07ae6c130b46cf5e3e1a7dc5c1889fefe9adc2d3 bpf: Add helper to detect indirect jump targets
+         9a0e89dcc9be8e0ba20aeb81c330a6352261667e bpf, x86: Emit ENDBR for indirect jump targets
+         f6606a44bc438ec5f1d450d0153878e80e79ff80 bpf, arm64: Emit BTI for indirect jump target
+         1cedfe17badeebdcc044855713597ac7db58414a Merge branch 'emit-endbr-bti-instructions-for-indirect'
          
