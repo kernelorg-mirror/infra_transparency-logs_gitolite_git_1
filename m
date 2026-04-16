@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============7930868533273057374=="
+Content-Type: multipart/mixed; boundary="===============2003083616701890598=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/fs/fsverity/linux
-Date: Thu, 16 Apr 2026 23:21:00 -0000
-Message-Id: <177638166012.268620.10179674647625591527@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ebiggers/linux
+Date: Thu, 16 Apr 2026 23:21:07 -0000
+Message-Id: <177638166730.269098.14480357989913216906@gitolite.kernel.org>
 
---===============7930868533273057374==
+--===============2003083616701890598==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/fs/fsverity/linux
+repo: pub/scm/linux/kernel/git/ebiggers/linux
 user: ebiggers
 changes:
-  - ref: refs/heads/for-next
-    old: 1f318b96cc84d7c2ab792fcc0bfd42a7ca890681
+  - ref: refs/heads/master
+    old: 6de23f81a5e08be8fbf5e8d7e9febc72a5b5f27f
     new: 3cd8b194bf3428dfa53120fee47e827a7c495815
-    log: revlist-1f318b96cc84-3cd8b194bf34.txt
+    log: revlist-6de23f81a5e0-3cd8b194bf34.txt
 
---===============7930868533273057374==
+--===============2003083616701890598==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1f318b96cc84-3cd8b194bf34.txt
+Content-Disposition: attachment; filename=revlist-6de23f81a5e0-3cd8b194bf34.txt
 
 ba0e9fdab3f8cbd1e70ecd288f3255b8b57c932a docs: fix typo in zoran driver documentation
 96c1f4517eb4feeae4656cf018a8d8a6156f1db3 docs: fix typos and duplicated words across documentation
@@ -1051,4 +1051,4 @@ f0bf3eac92b2be5f34b944cb82f1c23db642c7f5 Merge tag 'vfio-v7.1-rc1' of https://gi
 d3d9443f8bac799340bb04db51ef4ababc4f7267 Merge tag 'livepatching-for-7.1' of git://git.kernel.org/pub/scm/linux/kernel/git/livepatching/livepatching
 3cd8b194bf3428dfa53120fee47e827a7c495815 Merge tag 'v7.1-rc-part1-smbdirect-fixes' of git://git.samba.org/ksmbd
 
---===============7930868533273057374==--
+--===============2003083616701890598==--
