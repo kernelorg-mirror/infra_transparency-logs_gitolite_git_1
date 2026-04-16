@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0917740084992170432=="
+Content-Type: multipart/mixed; boundary="===============2689503330166057214=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jack/linux-fs
-Date: Thu, 16 Apr 2026 11:34:44 -0000
-Message-Id: <177633928463.3732430.2849935613050502026@gitolite.kernel.org>
+Date: Thu, 16 Apr 2026 11:35:56 -0000
+Message-Id: <177633935628.3735771.109306594994770108@gitolite.kernel.org>
 
---===============0917740084992170432==
+--===============2689503330166057214==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jack/linux-fs
 user: jack
 changes:
-  - ref: refs/heads/fsnotify
-    old: 0fdbe845534f4e0b7243b7a44562c4486ce25fb4
+  - ref: refs/heads/for_next
+    old: 488d0cdc38525a32d00583964efa2434eb28988d
     new: 7746e3bd4cc19b5092e00d32d676e329bfcb6900
-    log: revlist-0fdbe845534f-7746e3bd4cc1.txt
+    log: revlist-488d0cdc3852-7746e3bd4cc1.txt
 
---===============0917740084992170432==
+--===============2689503330166057214==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0fdbe845534f-7746e3bd4cc1.txt
+Content-Disposition: attachment; filename=revlist-488d0cdc3852-7746e3bd4cc1.txt
 
 f4ee8a882a560308c390cf45ffa616c59f60a731 ASoC: dt-bindings: hisilicon: Convert hi6210 I2S to dt-schema
 2c453a4281245135b9e6f1048962272c74853b53 io_uring/tctx: have io_uring_alloc_task_context() return tctx
@@ -1051,4 +1051,4 @@ c4ef28fe97556db32ffcbfb4cf8bd7c2b34c3b9a Merge tag 'fsnotify_for_v7.1-rc1' of gi
 1d51b370a0f8f642f4fc84c795fbedac0fcdbbd2 Merge tag 'jfs-7.1' of github.com:kleikamp/linux-shaggy
 7746e3bd4cc19b5092e00d32d676e329bfcb6900 fanotify: fix false positive on permission events
 
---===============0917740084992170432==--
+--===============2689503330166057214==--
