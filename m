@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netfilter/nf
-Date: Thu, 16 Apr 2026 13:00:41 -0000
-Message-Id: <177634444153.3822296.9447474161972062530@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Thu, 16 Apr 2026 13:15:08 -0000
+Message-Id: <177634530816.3836362.2388388525801753035@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netfilter/nf
-user: pablo
+repo: pub/scm/linux/kernel/git/netdev/net
+user: pabeni
 changes:
-  - ref: refs/tags/nf-26-04-16
-    old: 0000000000000000000000000000000000000000
-    new: f1b1bee6bbae7536df4c3e8f8ef82db266eab6ce
+  - ref: refs/heads/main
+    old: 104f082f5ed6d19c5d85ca905ccd4e4d01aef66e
+    new: 52bcb57a4e8a0865a76c587c2451906342ae1b2d
+    log: |
+         52bcb57a4e8a0865a76c587c2451906342ae1b2d vsock/virtio: fix accept queue count leak on transport mismatch
+         
