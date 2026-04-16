@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/bluetooth/bluez
-Date: Thu, 16 Apr 2026 16:01:14 -0000
-Message-Id: <177635527410.4009968.5707426439824021774@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/soc/soc
+Date: Thu, 16 Apr 2026 16:07:32 -0000
+Message-Id: <177635565205.4015627.14425724131888509744@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/bluetooth/bluez
-user: vudentz
+repo: pub/scm/linux/kernel/git/soc/soc
+user: arnd
 changes:
-  - ref: refs/heads/master
-    old: 07a0b87e6b34c57f36ce8995a6414bc2e3332790
-    new: 15080642a4142dcbf4406bfddfc12913ec12db54
-    log: |
-         15080642a4142dcbf4406bfddfc12913ec12db54 client/btpclient: Add GATT read and write value supports
-         
+  - ref: refs/tags/soc-drivers-7.1
+    old: 0000000000000000000000000000000000000000
+    new: 562101909f708a000000db2cb6ab6d1e576781d9
