@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4146971270821903092=="
+Content-Type: multipart/mixed; boundary="===============5853562346480648580=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Thu, 16 Apr 2026 21:13:38 -0000
-Message-Id: <177637401896.137728.11834537001819634184@gitolite.kernel.org>
+Date: Thu, 16 Apr 2026 21:13:42 -0000
+Message-Id: <177637402298.137943.14212838380712229178@gitolite.kernel.org>
 
---===============4146971270821903092==
+--===============5853562346480648580==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
+  - ref: refs/heads/10GbE
     old: 2cd7e6971fc2787408ceef17906ea152791448cf
     new: 52bcb57a4e8a0865a76c587c2451906342ae1b2d
     log: revlist-2cd7e6971fc2-52bcb57a4e8a.txt
 
---===============4146971270821903092==
+--===============5853562346480648580==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ f9e40664706927d7ae22a448a3383e23c38a4c0b net/sched: sch_cake: fix NAT destinatio
 104f082f5ed6d19c5d85ca905ccd4e4d01aef66e selftests: fib_nexthops: test stale has_v4 on nexthop replace
 52bcb57a4e8a0865a76c587c2451906342ae1b2d vsock/virtio: fix accept queue count leak on transport mismatch
 
---===============4146971270821903092==--
+--===============5853562346480648580==--
