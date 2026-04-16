@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7380658157949072832=="
+Content-Type: multipart/mixed; boundary="===============0719477134047606808=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/lenb/linux
-Date: Thu, 16 Apr 2026 20:58:01 -0000
-Message-Id: <177637308110.121506.5349950184559328598@gitolite.kernel.org>
+Date: Thu, 16 Apr 2026 21:00:33 -0000
+Message-Id: <177637323316.125520.17102980031386197032@gitolite.kernel.org>
 
---===============7380658157949072832==
+--===============0719477134047606808==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,29 +15,32 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/lenb/linux
 user: lenb
 changes:
-  - ref: refs/heads/master
-    old: 1f318b96cc84d7c2ab792fcc0bfd42a7ca890681
-    new: 028ef9c96e96197026887c0f092424679298aae8
-    log: revlist-1f318b96cc84-028ef9c96e96.txt
   - ref: refs/heads/turbostat
-    old: ba893caead54745595e29953f0531cf3651610aa
-    new: 66915f0eb00761edaa84f16d6e46700d16cbdd89
-    log: |
-         c5b7d9b311b8837a348eef08327cc5ed816f453d tools/power turbostat: Access HT siblings only if allowed
-         20ae2895a2da7ee7ffbf19de4a03608468a193c9 tools/power turbostat: Cleanup print helper functions
-         162dec699fd3b2bdf9ee377cbeba366cab447bce tools/power turbostat: Print core_id and apic_id in hex
-         66915f0eb00761edaa84f16d6e46700d16cbdd89 tools/power turbostat: Show module_id column
-         
+    old: 66915f0eb00761edaa84f16d6e46700d16cbdd89
+    new: e7bcbffb9947b97cdd4ba6580f5f40f0754ebee4
+    log: revlist-66915f0eb007-e7bcbffb9947.txt
+  - ref: refs/tags/v7.0
+    old: 0000000000000000000000000000000000000000
+    new: 3131ff5a117498bb4b9db3a238bb311cbf8383ce
+  - ref: refs/tags/v7.0-rc4
+    old: 0000000000000000000000000000000000000000
+    new: 34cb4f916af10153c87fabaf6c34e4cafa170427
+  - ref: refs/tags/v7.0-rc5
+    old: 0000000000000000000000000000000000000000
+    new: d1d81e9d1a4dd846aee9ae77ff9ecc2800d72148
+  - ref: refs/tags/v7.0-rc6
+    old: 0000000000000000000000000000000000000000
+    new: b6c7d19951061de1be08fb8f5714e630b24bcc1c
+  - ref: refs/tags/v7.0-rc7
+    old: 0000000000000000000000000000000000000000
+    new: 0e5d0a0b5ca6ea4e391d6786266405c5871e0151
 
---===============7380658157949072832==
+--===============0719477134047606808==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1f318b96cc84-028ef9c96e96.txt
+Content-Disposition: attachment; filename=revlist-66915f0eb007-e7bcbffb9947.txt
 
-47e231cbd363669eef28dfa97496621e0fc6db88 Merge tag 'iommu-fixes-v7.0-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/iommu/linux
-6ac513185c410f9404ff66b920bec137cbc6e543 Merge tag 'mtd/fixes-for-7.0-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/mtd/linux
-f374ff79f4bc4615cb5e13f77f349cb7a45c1c54 Merge tag 'ata-7.0-rc5' of git://git.kernel.org/pub/scm/linux/kernel/git/libata/linux
 d07252736a6e946ca0cf4e7ce456eab5c3fd73e2 Merge tag 'mmc-v7.0-rc1-2' of git://git.kernel.org/pub/scm/linux/kernel/git/ulfh/mmc
 c715f13bb30f9f4d1bd8888667ef32e43b6fedc1 Merge tag 'pmdomain-v7.0-rc1-2' of git://git.kernel.org/pub/scm/linux/kernel/git/ulfh/linux-pm
 007fe2321509a8287050413655f460d4c5ad8e8c Merge tag 'regulator-fix-v7.0-rc4' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/regulator
@@ -1030,7 +1033,6 @@ b42ed3bb884e6b399b46d19df3f5cf015a79c804 Merge tag 'efi-fixes-for-v7.0-4' of git
 9a9c8ce300cd3859cc87b408ef552cd697cc2ab7 Merge tag 'kbuild-fixes-7.0-4' of git://git.kernel.org/pub/scm/linux/kernel/git/kbuild/linux
 93be8c74b614a86a745b6ef1da0402a6c50e97de Merge tag 'drm-misc-fixes-2026-04-09' of https://gitlab.freedesktop.org/drm/misc/kernel into drm-fixes
 57df6923ca53b524d06d2347b896d9de74b3bc86 gpio: tegra: return -ENOMEM on allocation failure in probe
-ba893caead54745595e29953f0531cf3651610aa tools/power turbostat: Allow execution to continue after perf_l2_init() failure
 77c3c619d2af2540b15e63dca768c0d86be746c9 Merge tag 'pinctrl-v7.0-4' of git://git.kernel.org/pub/scm/linux/kernel/git/linusw/linux-pinctrl
 017102b40c34b5a67de46230bdfb06096dd11716 Merge tag 'gpio-fixes-for-v7.0' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux
 96463e4e0268dddbdb60fd1b96800736aa2bade9 Merge tag 'turbostat-fixes-for-7.0' of git://git.kernel.org/pub/scm/linux/kernel/git/lenb/linux
@@ -1059,5 +1061,9 @@ ab3dee26406be0ed0a26af70311dcdc760db3996 Merge tag 'timers-urgent-2026-04-12' of
 35bdc192d829164a6e47184d06401918fe3d7f1f Merge tag 'wq-for-7.0-rc7-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/tj/wq
 10d97b74e2eef787d823f9bc05cb044b47d25c41 Merge tag 'edac_urgent_for_7.0' of git://git.kernel.org/pub/scm/linux/kernel/git/ras/ras
 028ef9c96e96197026887c0f092424679298aae8 Linux 7.0
+798bcfd0c4c7550d5c99b4241ebb2110214753f1 tools/power turbostat: Access HT siblings only if allowed
+530951b8afe6b01814e4f455d88026a733f5ccc2 tools/power turbostat: Cleanup print helper functions
+21408e45eac8b3fcc6e1381c2fbdf6ec490fe400 tools/power turbostat: Print core_id and apic_id in hex
+e7bcbffb9947b97cdd4ba6580f5f40f0754ebee4 tools/power turbostat: Show module_id column
 
---===============7380658157949072832==--
+--===============0719477134047606808==--
