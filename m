@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4361475930279055507=="
+Content-Type: multipart/mixed; boundary="===============8011791657767110193=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mda/linux-next
-Date: Thu, 16 Apr 2026 06:18:48 -0000
-Message-Id: <177632032880.3412873.9523646381668925080@gitolite.kernel.org>
+Date: Thu, 16 Apr 2026 06:18:53 -0000
+Message-Id: <177632033388.3413082.16436314170166978008@gitolite.kernel.org>
 
---===============4361475930279055507==
+--===============8011791657767110193==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/mda/linux-next
 user: mda
 changes:
-  - ref: refs/heads/master
-    old: e6efabc0afca02efa263aba533f35d90117ab283
-    new: 936c21068d7ade00325e40d82bfd2f3f29d9f659
-    log: revlist-e6efabc0afca-936c21068d7a.txt
+  - ref: refs/heads/icssg-dev
+    old: 4327ea9bd155a6545347e4f04fd3da528030304c
+    new: 6d7de5aa29cff9a8d50fef0aa8cc677c055f080a
+    log: revlist-4327ea9bd155-6d7de5aa29cf.txt
 
---===============4361475930279055507==
+--===============8011791657767110193==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e6efabc0afca-936c21068d7a.txt
+Content-Disposition: attachment; filename=revlist-4327ea9bd155-6d7de5aa29cf.txt
 
 1fb7392ee3408494d4d62c09a8c3e5f5934caba7 fsl-mc: Remove MSI domain propagation to sub-devices
 0c9f522f2d41c7e055a602a0d2c41dc7af01010b fsl-mc: Add minimal infrastructure to use platform MSI
@@ -633,5 +633,13 @@ ddbff98919da4d063509d9907ff12c010e772676 Merge branch 'for-next' of https://git.
 cda37bc9a718c1f44df7219fb1408d2c7c9c7ff6 Merge branch 'next' of https://git.kernel.org/pub/scm/linux/kernel/git/devsec/tsm.git
 42fa3ef1c68e33da513a5f31daa9127825b7b2ca Merge branch 'for-next' of https://github.com/hisilicon/linux-hisi.git
 936c21068d7ade00325e40d82bfd2f3f29d9f659 Add linux-next specific files for 20260415
+afc8193580e629c670c21cc13d4432d7a1021c79 hsr: Allow to send a specific port and with HSR header
+2ad43eaa60341648f13b6852227631d8fd30764c af_packet: Add port specific handling for HSR
+1a2eeec7d576689430c8c346def6e0bb33baff46 PENDING: net: ti: icssg-prueth: Add conditional checks for HSR offload behaviors
+9a71bb77179cd6cd4c5784a9ee0b5ee779cc07f1 devlink: Add generic ctf_queues parameter
+91143b7c68d174924dfdcd746594e30e8866ef75 net: ti: icssg-prueth: Add Cut-Through Forwarding support via devlink
+83175c94b313ff58257d551a886a335af4cf8e12 docs: networking: devlink: Document CTF parameter and add icssg-prueth
+36305cfa627b66b3554eb621d62c2d086c037a2b net: ti: icssg-prueth: Add Frame Preemption MAC Merge support
+6d7de5aa29cff9a8d50fef0aa8cc677c055f080a net: ti: icssg-prueth: Add ethtool ops for Frame Preemption MAC Merge
 
---===============4361475930279055507==--
+--===============8011791657767110193==--
