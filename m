@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5264843188270036590=="
+Content-Type: multipart/mixed; boundary="===============1955137139032756587=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Thu, 16 Apr 2026 07:39:28 -0000
-Message-Id: <177632516869.3493051.4202215893710618201@gitolite.kernel.org>
+Date: Thu, 16 Apr 2026 07:39:44 -0000
+Message-Id: <177632518488.3493412.13477890034717214287@gitolite.kernel.org>
 
---===============5264843188270036590==
+--===============1955137139032756587==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,16 +16,23 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: 3382329a309d28974e12b4f8f3c71b7a073fb996
-    new: 9a6637b01735f86e95a22e4847f83061546bcd48
-    log: revlist-3382329a309d-9a6637b01735.txt
+    old: 9a6637b01735f86e95a22e4847f83061546bcd48
+    new: fba32ad82e9c15c96b3ec73be956c93c994923ce
+    log: |
+         fba32ad82e9c15c96b3ec73be956c93c994923ce Merge branch into tip/master: 'timers/clocksource'
+         
+  - ref: refs/heads/tip/urgent
+    old: 1f5ffc672165ff851063a5fd044b727ab2517ae3
+    new: 1d51b370a0f8f642f4fc84c795fbedac0fcdbbd2
+    log: revlist-1f5ffc672165-1d51b370a0f8.txt
 
---===============5264843188270036590==
+--===============1955137139032756587==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3382329a309d-9a6637b01735.txt
+Content-Disposition: attachment; filename=revlist-1f5ffc672165-1d51b370a0f8.txt
 
+c4258d8160b2a40732f3fe5272a9ec524e0a5e94 rv/rvgen: remove unnecessary semicolons
 6c7e548e313dcfbb8a4965b9b93c5c59537b35d9 rv/rvgen: use context managers for file operations
 6cbc8360f51a3df2ea16a786b262b9fe44d4c68c ASoC: SOF: Intel: hda: Place check before dereference
 4625fe5bbdaccd45be274c30ff0a42e30d4e38cf drm: gpu: msm: forbid mem reclaim from reset
@@ -1049,6 +1056,5 @@ acf6c670e476304c89b5e9320ca8f9d20c9e0aa8 Merge tag 'fuse-update-7.1' of git://gi
 c4ef28fe97556db32ffcbfb4cf8bd7c2b34c3b9a Merge tag 'fsnotify_for_v7.1-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/jack/linux-fs
 5414f3fd54b3a3f7f63f3edd276fb55281ecbe3b Merge tag 'fs_for_v7.1-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/jack/linux-fs
 1d51b370a0f8f642f4fc84c795fbedac0fcdbbd2 Merge tag 'jfs-7.1' of github.com:kleikamp/linux-shaggy
-9a6637b01735f86e95a22e4847f83061546bcd48 Merge branch 'linus'
 
---===============5264843188270036590==--
+--===============1955137139032756587==--
