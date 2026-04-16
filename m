@@ -1,21 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf
-Date: Thu, 16 Apr 2026 22:20:46 -0000
-Message-Id: <177637804631.207582.5047926448634332791@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jfern/linux
+Date: Thu, 16 Apr 2026 22:24:44 -0000
+Message-Id: <177637828446.209694.10031111477636215632@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf
-user: ast
+repo: pub/scm/linux/kernel/git/jfern/linux
+user: jfern
 changes:
-  - ref: refs/heads/master
-    old: e5f635edd393aeaa7cad9e42831d397e6e2e1eed
-    new: 766bf026d0da242a329b402c436c8e4cfa2008d8
+  - ref: refs/heads/nova/mm
+    old: 7fb9ff296e6da986990655e66f10c45a002df6ff
+    new: 9b5f1b5c79afaa4363a169050ac88a578e9bd928
     log: |
-         4d0a375887ab4d49e4da1ff10f9606cab8f7c3ad bpf: Fix NULL deref in map_kptr_match_type for scalar regs
-         fcd11ff8bd0e526bdd5f43f534ccf7c4e67245ad selftests/bpf: Reject scalar store into kptr slot
-         766bf026d0da242a329b402c436c8e4cfa2008d8 Merge branch 'bpf-fix-null-deref-when-storing-scalar-into-kptr-slot'
+         6d349457ca187b8d7fbbca58bfa4515bcef54c66 [need to revise] rust: maple_tree: implement Send and Sync for MapleTree
+         82b3676f94aefe6d2c2b1004da314b3b4a08b503 fixup! gpu: nova-core: mm: Add virtual address range tracking to VMM
+         84b6f6082d61f7c2e5d4eaa76204fd3ec077e732 fixup! gpu: nova-core: mm: Add multi-page mapping API to VMM
+         9656adf55b5204a883db701ee36ab0843eef2be2 fixup! gpu: nova-core: mm: Add TLB flush support
+         9b5f1b5c79afaa4363a169050ac88a578e9bd928 fixup! gpu: nova-core: mm: Add multi-page mapping API to VMM
          
