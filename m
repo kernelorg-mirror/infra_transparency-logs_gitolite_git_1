@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6560349453501511860=="
+Content-Type: multipart/mixed; boundary="===============0174051006337408525=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ebiggers/linux
-Date: Thu, 16 Apr 2026 23:20:40 -0000
-Message-Id: <177638164030.267896.11589075458540099053@gitolite.kernel.org>
+Date: Thu, 16 Apr 2026 23:20:44 -0000
+Message-Id: <177638164452.268183.7637256936032144616@gitolite.kernel.org>
 
---===============6560349453501511860==
+--===============0174051006337408525==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ebiggers/linux
 user: ebiggers
 changes:
-  - ref: refs/heads/crc-next
-    old: 8fdef85d601db670e9c178314eedffe7bbb07e52
+  - ref: refs/heads/libcrypto-next
+    old: 12b11e47f126d097839fd2f077636e2139b0151b
     new: 3cd8b194bf3428dfa53120fee47e827a7c495815
-    log: revlist-8fdef85d601d-3cd8b194bf34.txt
+    log: revlist-12b11e47f126-3cd8b194bf34.txt
 
---===============6560349453501511860==
+--===============0174051006337408525==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8fdef85d601d-3cd8b194bf34.txt
+Content-Disposition: attachment; filename=revlist-12b11e47f126-3cd8b194bf34.txt
 
 ba0e9fdab3f8cbd1e70ecd288f3255b8b57c932a docs: fix typo in zoran driver documentation
 96c1f4517eb4feeae4656cf018a8d8a6156f1db3 docs: fix typos and duplicated words across documentation
@@ -1051,4 +1051,4 @@ f0bf3eac92b2be5f34b944cb82f1c23db642c7f5 Merge tag 'vfio-v7.1-rc1' of https://gi
 d3d9443f8bac799340bb04db51ef4ababc4f7267 Merge tag 'livepatching-for-7.1' of git://git.kernel.org/pub/scm/linux/kernel/git/livepatching/livepatching
 3cd8b194bf3428dfa53120fee47e827a7c495815 Merge tag 'v7.1-rc-part1-smbdirect-fixes' of git://git.samba.org/ksmbd
 
---===============6560349453501511860==--
+--===============0174051006337408525==--
