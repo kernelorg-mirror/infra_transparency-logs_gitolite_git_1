@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/shuah/linux-kselftest
-Date: Thu, 16 Apr 2026 21:19:38 -0000
-Message-Id: <177637437817.145481.8360480558632372147@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/nathan/linux
+Date: Thu, 16 Apr 2026 21:21:27 -0000
+Message-Id: <177637448710.149244.3528611092007411463@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/shuah/linux-kselftest
-user: shuah
+repo: pub/scm/linux/kernel/git/nathan/linux
+user: nathan
 changes:
-  - ref: refs/heads/next
-    old: 7df262b588c20d4768245aa4fb0547eb7a92347e
-    new: df410ad40ca0a57c46c06de2b992de8baf3a7f5a
+  - ref: refs/heads/clang-fixes
+    old: 028ef9c96e96197026887c0f092424679298aae8
+    new: 4f96b7c68a9904e01049ef610d701b382dca9574
     log: |
-         df410ad40ca0a57c46c06de2b992de8baf3a7f5a selftests: Fix runner.sh for non-bash shells
+         4f96b7c68a9904e01049ef610d701b382dca9574 extract-cert: Wrap key_pass with '#ifdef USE_PKCS11_ENGINE'
          
