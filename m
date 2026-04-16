@@ -1,33 +1,42 @@
-Content-Type: multipart/mixed; boundary="===============6676064082630754970=="
+Content-Type: multipart/mixed; boundary="===============4853130742581476573=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tj/wq
-Date: Thu, 16 Apr 2026 08:07:45 -0000
-Message-Id: <177632686504.3522108.607630290919692849@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tj/cgroup
+Date: Thu, 16 Apr 2026 08:07:56 -0000
+Message-Id: <177632687624.3522436.10586214898359580924@gitolite.kernel.org>
 
---===============6676064082630754970==
+--===============4853130742581476573==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tj/wq
+repo: pub/scm/linux/kernel/git/tj/cgroup
 user: tj
 changes:
   - ref: refs/heads/master
-    old: 399af66228cfd7df79dc360810b6b673000f8090
+    old: 5ee8dbf54602dc340d6235b1d6aa17c0f283f48c
     new: 1d51b370a0f8f642f4fc84c795fbedac0fcdbbd2
-    log: revlist-399af66228cf-1d51b370a0f8.txt
+    log: revlist-5ee8dbf54602-1d51b370a0f8.txt
+  - ref: refs/heads/cgroup-rmdir-dying
+    old: 0000000000000000000000000000000000000000
+    new: d07c287582648cc00cfb8919145fed66adf15b2e
+  - ref: refs/heads/cgroup-rmdir-dying-v2
+    old: 0000000000000000000000000000000000000000
+    new: 29a37c47475f3a91ced9a704c8f2e4aeb39dc732
+  - ref: refs/heads/test-merge-for-7.0-rc3-fixes
+    old: 0000000000000000000000000000000000000000
+    new: f11a70028f3ac9ecac3c91446e17febf381dbf84
   - ref: refs/heads/test-merge-for-7.1
     old: 0000000000000000000000000000000000000000
-    new: bd9fde60a621227a7c84e2b71fc031774b69b4e9
+    new: e3538ca09b059069ef9969f31142c909fe2707d9
 
---===============6676064082630754970==
+--===============4853130742581476573==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-399af66228cf-1d51b370a0f8.txt
+Content-Disposition: attachment; filename=revlist-5ee8dbf54602-1d51b370a0f8.txt
 
 9a52d1b7cb4a00a0dde3036b56a9706f54fccbb9 ASoC: tas2781: Explicit association of Device, Device Name, and Device ID
 f4ee8a882a560308c390cf45ffa616c59f60a731 ASoC: dt-bindings: hisilicon: Convert hi6210 I2S to dt-schema
@@ -1054,4 +1063,4 @@ c4ef28fe97556db32ffcbfb4cf8bd7c2b34c3b9a Merge tag 'fsnotify_for_v7.1-rc1' of gi
 5414f3fd54b3a3f7f63f3edd276fb55281ecbe3b Merge tag 'fs_for_v7.1-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/jack/linux-fs
 1d51b370a0f8f642f4fc84c795fbedac0fcdbbd2 Merge tag 'jfs-7.1' of github.com:kleikamp/linux-shaggy
 
---===============6676064082630754970==--
+--===============4853130742581476573==--
