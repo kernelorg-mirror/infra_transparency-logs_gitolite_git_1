@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Thu, 16 Apr 2026 10:19:31 -0000
-Message-Id: <177633477183.3656321.7501654351662216140@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs
+Date: Thu, 16 Apr 2026 10:23:02 -0000
+Message-Id: <177633498258.3660787.17084805657305458408@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: pabeni
+repo: pub/scm/linux/kernel/git/xiang/erofs
+user: xiang
 changes:
-  - ref: refs/heads/main
-    old: 4510d140524ca7d6e772db962e013f26f09a63b1
-    new: fa92a77b0ed4d5f11a71665a232ac5a54a4b055d
+  - ref: refs/heads/dev-test
+    old: d6b9aae60b68b219e9358627984bed6dd0d286ec
+    new: 403bb5c8d1c5d77d55c3df6c6050dd0b97ed4779
     log: |
-         fa92a77b0ed4d5f11a71665a232ac5a54a4b055d macvlan: fix macvlan_get_size() not reserving space for IFLA_MACVLAN_BC_CUTOFF
+         403bb5c8d1c5d77d55c3df6c6050dd0b97ed4779 erofs: fix the out-of-bounds nameoff handling for trailing dirents
          
