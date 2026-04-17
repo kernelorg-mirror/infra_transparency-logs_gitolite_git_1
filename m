@@ -1,20 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/firmware/linux-firmware
-Date: Fri, 17 Apr 2026 14:00:09 -0000
-Message-Id: <177643440966.1155807.4318759678830856762@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/hubcap/linux
+Date: Fri, 17 Apr 2026 14:07:55 -0000
+Message-Id: <177643487515.1163697.15340231298081201187@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/firmware/linux-firmware
-user: jwboyer
+repo: pub/scm/linux/kernel/git/hubcap/linux
+user: hubcap
 changes:
-  - ref: refs/heads/main
-    old: ae264dbf58ee7c4e6bcb347de83aa0915debaa92
-    new: 3fc7117bb925983bc39d7ba957ce5fafe1f65d41
-    log: |
-         5f99e9952fe480f5b9044ba95c3aee589889a812 QCA: Update Bluetooth WCN6856 firmware 2.1.0-00665 to 2.1.0-00666
-         3fc7117bb925983bc39d7ba957ce5fafe1f65d41 Merge branch 'wcn6855' into 'main'
-         
+  - ref: refs/tags/for-linus-7.1-ofs1
+    old: 0000000000000000000000000000000000000000
+    new: cbad0c64c2be9a6b7d3e9b34e35bfae494d11e69
