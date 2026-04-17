@@ -1,25 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tj/cgroup
-Date: Fri, 17 Apr 2026 18:58:28 -0000
-Message-Id: <177645230892.1468576.513256887519960993@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf
+Date: Fri, 17 Apr 2026 19:04:20 -0000
+Message-Id: <177645266043.1474170.13241954749837233215@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tj/cgroup
-user: tj
+repo: pub/scm/linux/kernel/git/bpf/bpf
+user: ast
 changes:
-  - ref: refs/heads/for-7.1-fixes
-    old: c802f460dd485c1332b5a35e7adcfb2bc22536a2
-    new: 41d701ddc36d5301b44ea79529f3cf03c541c1e1
+  - ref: refs/heads/master
+    old: 2845989f2ebaf7848e4eccf9a779daf3156ea0a5
+    new: f75aeb2de89127052975b1bfade88ac87f164f4a
     log: |
-         41d701ddc36d5301b44ea79529f3cf03c541c1e1 cgroup/cpuset: record DL BW alloc CPU for attach rollback
-         
-  - ref: refs/heads/for-next
-    old: c802f460dd485c1332b5a35e7adcfb2bc22536a2
-    new: 41d701ddc36d5301b44ea79529f3cf03c541c1e1
-    log: |
-         41d701ddc36d5301b44ea79529f3cf03c541c1e1 cgroup/cpuset: record DL BW alloc CPU for attach rollback
+         f75aeb2de89127052975b1bfade88ac87f164f4a bpf: Dissociate struct_ops program with map if map_update fails
          
