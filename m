@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs
-Date: Fri, 17 Apr 2026 17:25:41 -0000
-Message-Id: <177644674186.1365853.16221286260101135191@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/shuah/linux-kselftest
+Date: Fri, 17 Apr 2026 17:30:26 -0000
+Message-Id: <177644702643.1370482.10257976808116014851@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jaegeuk/f2fs
-user: jaegeuk
+repo: pub/scm/linux/kernel/git/shuah/linux-kselftest
+user: shuah
 changes:
-  - ref: refs/heads/dev-test
-    old: b9c1d3083cec8fcdd1a286be2512061d28274bae
-    new: caeb4b7940ed6eff0f964d8e02a83189dd2da7e7
+  - ref: refs/heads/next
+    old: 74872c78aab793e5e0a01cade3f92377df4b78b4
+    new: 83ef26f911432d9c98b6d8b6ed0709a8b79cd834
     log: |
-         9a574b336a93d732dee46bbdeb3eaad01f324887 f2fs: map data writes to FDP streams
-         caeb4b7940ed6eff0f964d8e02a83189dd2da7e7 f2fs: support to report fserror
+         83ef26f911432d9c98b6d8b6ed0709a8b79cd834 selftests: Fix duplicated test number reporting
          
