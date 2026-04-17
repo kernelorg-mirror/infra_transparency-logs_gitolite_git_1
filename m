@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf
-Date: Fri, 17 Apr 2026 17:13:04 -0000
-Message-Id: <177644598445.1351808.4349044722728013762@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/shuah/linux-kselftest
+Date: Fri, 17 Apr 2026 17:16:04 -0000
+Message-Id: <177644616423.1356117.13065344747780875298@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf
-user: ast
+repo: pub/scm/linux/kernel/git/shuah/linux-kselftest
+user: shuah
 changes:
-  - ref: refs/heads/master
-    old: 380044c40b1636a72fd8f188b5806be6ae564279
-    new: 2845989f2ebaf7848e4eccf9a779daf3156ea0a5
-    log: |
-         2845989f2ebaf7848e4eccf9a779daf3156ea0a5 bpf: Validate node_id in arena_alloc_pages()
-         
+  - ref: refs/tags/linux_kselftest-next-7.1-rc1-fixes
+    old: 0000000000000000000000000000000000000000
+    new: eba1b1833b49ccc34067218e991a2eefd3eca4a4
