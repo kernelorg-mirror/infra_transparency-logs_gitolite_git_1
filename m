@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2695583029946505096=="
+Content-Type: multipart/mixed; boundary="===============0551457533843092911=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Fri, 17 Apr 2026 15:25:07 -0000
-Message-Id: <177643950745.1244236.895939955325363774@gitolite.kernel.org>
+Date: Fri, 17 Apr 2026 15:25:32 -0000
+Message-Id: <177643953259.1245036.4745728959190309692@gitolite.kernel.org>
 
---===============2695583029946505096==
+--===============0551457533843092911==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: ast
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/for-next
     old: 1f5ffc672165ff851063a5fd044b727ab2517ae3
     new: 43cfbdda5af60ffc6272a7b8c5c37d1d0a181ca9
     log: revlist-1f5ffc672165-43cfbdda5af6.txt
 
---===============2695583029946505096==
+--===============0551457533843092911==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ e65f4718a577fcc84d40431f022985898b6dbf2e Merge tag 'soc-dt-7.1' of git://git.ker
 87fe97a184c000a3941e2b53671742993abb1ddc Merge tag 'for-linus-fwctl' of git://git.kernel.org/pub/scm/linux/kernel/git/fwctl/fwctl
 43cfbdda5af60ffc6272a7b8c5c37d1d0a181ca9 Merge tag 'for-linus-iommufd' of git://git.kernel.org/pub/scm/linux/kernel/git/jgg/iommufd
 
---===============2695583029946505096==--
+--===============0551457533843092911==--
