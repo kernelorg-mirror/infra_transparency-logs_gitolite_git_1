@@ -1,16 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sre/linux-hsi
-Date: Fri, 17 Apr 2026 00:06:00 -0000
-Message-Id: <177638436083.316015.15704681116892882323@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
+Date: Fri, 17 Apr 2026 00:06:34 -0000
+Message-Id: <177638439421.316570.2720254116472237966@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sre/linux-hsi
-user: sre
+repo: pub/scm/linux/kernel/git/snitzer/linux
+user: snitzer
 changes:
-  - ref: refs/tags/hsi-for-7.1
-    old: 0000000000000000000000000000000000000000
-    new: f5adfdb2068103856f04194f980e158fdb4f7783
+  - ref: refs/heads/kernel-6.18.22/configs
+    old: 46de04bdd1b0919671ab04a5cededd6ac22400d7
+    new: 7651036c159717c20dfeefe386abe86d6156b515
+    log: |
+         d4f155b9dc0bb4b80869450c84a2e80a9debe72f Fix up the config for CONFIG_MFD_TN48M_CPLD
+         9d30778c1b5194fa2c5232b34d0bb932500e6dc3 Config update due to stable patches
+         7651036c159717c20dfeefe386abe86d6156b515 redhat/configs: disable CONFIG_SPI_CS42L43
+         
