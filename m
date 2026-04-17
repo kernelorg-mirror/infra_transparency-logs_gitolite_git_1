@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4252349369321322033=="
+Content-Type: multipart/mixed; boundary="===============7658140784760974044=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Fri, 17 Apr 2026 06:52:58 -0000
-Message-Id: <177640877803.727273.13088704595614027393@gitolite.kernel.org>
+Date: Fri, 17 Apr 2026 06:53:14 -0000
+Message-Id: <177640879439.727838.10837323180292955766@gitolite.kernel.org>
 
---===============4252349369321322033==
+--===============7658140784760974044==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,17 +16,24 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: b00d1575509c3d7074fbc67ceb75595335e1c4f5
-    new: 0bdf9d4461560961c4a65a1d798be86c73e9dbde
-    log: revlist-b00d1575509c-0bdf9d446156.txt
+    old: 0bdf9d4461560961c4a65a1d798be86c73e9dbde
+    new: 86594c3c9f906086ba8cd327a79f09da9bb2ac56
+    log: |
+         28bb3dc77aa34f6363212a804d55acb786759d6c Merge branch into tip/master: 'core/urgent'
+         19616f8b18dba6bca3e0436fdaf97d7a757e2e8c Merge branch into tip/master: 'timers/urgent'
+         86594c3c9f906086ba8cd327a79f09da9bb2ac56 Merge branch into tip/master: 'timers/clocksource'
+         
+  - ref: refs/heads/tip/urgent
+    old: b0e5fe917af1acddb9bf026efc24d6beefa4f3a5
+    new: 19616f8b18dba6bca3e0436fdaf97d7a757e2e8c
+    log: revlist-b0e5fe917af1-19616f8b18db.txt
 
---===============4252349369321322033==
+--===============7658140784760974044==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-b00d1575509c-0bdf9d446156.txt
+Content-Disposition: attachment; filename=revlist-b0e5fe917af1-19616f8b18db.txt
 
-e2de08086d72dcd7b4c26cda201cb98b518f62c4 ARM: dts: bcm6878: Fix PL081 DMA block IRQ
 fc0c2f0cba01eb945dc68f57afe06fd4746a7aae ARM: dts: bcm63138: Fix DMA IRQ
 682cc367f9366aebe7d23ae33d3a5a07d24d229b ARM: dts: bcm6846: Add I2C bus block
 24cd3b7b07a392253d1873ad4483f881086302e9 ARM: dts: bcm6855: Add I2C bus blocks
@@ -1049,6 +1056,7 @@ e65f4718a577fcc84d40431f022985898b6dbf2e Merge tag 'soc-dt-7.1' of git://git.ker
 8242c709d4ba858c483ef7ef3cc2dc1280f5383c Merge tag 'soc-arm-7.1' of git://git.kernel.org/pub/scm/linux/kernel/git/soc/soc
 87fe97a184c000a3941e2b53671742993abb1ddc Merge tag 'for-linus-fwctl' of git://git.kernel.org/pub/scm/linux/kernel/git/fwctl/fwctl
 43cfbdda5af60ffc6272a7b8c5c37d1d0a181ca9 Merge tag 'for-linus-iommufd' of git://git.kernel.org/pub/scm/linux/kernel/git/jgg/iommufd
-0bdf9d4461560961c4a65a1d798be86c73e9dbde Merge branch 'linus'
+28bb3dc77aa34f6363212a804d55acb786759d6c Merge branch into tip/master: 'core/urgent'
+19616f8b18dba6bca3e0436fdaf97d7a757e2e8c Merge branch into tip/master: 'timers/urgent'
 
---===============4252349369321322033==--
+--===============7658140784760974044==--
