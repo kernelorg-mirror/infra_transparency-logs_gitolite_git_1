@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5485506081268752128=="
+Content-Type: multipart/mixed; boundary="===============3227619442275673796=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mda/linux-next
-Date: Fri, 17 Apr 2026 10:36:02 -0000
-Message-Id: <177642216286.951813.3314062299132019527@gitolite.kernel.org>
+Date: Fri, 17 Apr 2026 10:41:26 -0000
+Message-Id: <177642248678.957665.3013544274030256959@gitolite.kernel.org>
 
---===============5485506081268752128==
+--===============3227619442275673796==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/mda/linux-next
 user: mda
 changes:
-  - ref: refs/heads/master
-    old: 936c21068d7ade00325e40d82bfd2f3f29d9f659
-    new: 452c3b1ea875276105ac90ba474f72b4cd9b77a2
-    log: revlist-936c21068d7a-452c3b1ea875.txt
+  - ref: refs/heads/icssg-dev
+    old: 6d7de5aa29cff9a8d50fef0aa8cc677c055f080a
+    new: a5d36e904451db02a17787219fd06b6d2ba16f1b
+    log: revlist-6d7de5aa29cf-a5d36e904451.txt
 
---===============5485506081268752128==
+--===============3227619442275673796==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-936c21068d7a-452c3b1ea875.txt
+Content-Disposition: attachment; filename=revlist-6d7de5aa29cf-a5d36e904451.txt
 
 0ec6be95351b00ca95b39e8f0c6bbe0a9615f990 tracing: Report ipi_raise target CPUs as cpumask
 ed86b06bb35f6ccd2b81995803b8ec93ab97955b Merge tag 'kvm-x86-gmem-7.1' of https://github.com/kvm-x86/linux into HEAD
@@ -664,5 +664,13 @@ a04a29e39763af9daae68cd3978c6067dc43b525 Merge branch 'for-next' of https://git.
 1dfeae400be0afe04c52a8d56f7dcaa3a0928118 Merge branch 'next' of https://git.kernel.org/pub/scm/linux/kernel/git/devsec/tsm.git
 82b474cb8e9f6d2ed6e08867daab53262cedb5e7 Merge branch 'for-next' of https://github.com/hisilicon/linux-hisi.git
 452c3b1ea875276105ac90ba474f72b4cd9b77a2 Add linux-next specific files for 20260416
+756ed4bc4a527cdddc3f9f09240637ceb3408645 hsr: Allow to send a specific port and with HSR header
+408f7d36f7d9a1b2953617764e047d9d246ceb68 af_packet: Add port specific handling for HSR
+8fa848c991aec00f17c2dcd59f1e2943b00eafa5 PENDING: net: ti: icssg-prueth: Add conditional checks for HSR offload behaviors
+21fd7ee7e5eec63b68c4376763b683226ba0f1a6 devlink: Add generic ctf_queues parameter
+80dd61aebfb758cf631132fb4c4e414fecd85534 net: ti: icssg-prueth: Add Cut-Through Forwarding support via devlink
+8af26947f0f52f1afeb1ed859e4f721cd16c5013 docs: networking: devlink: Document CTF parameter and add icssg-prueth
+f6022e14cd5af722a1152a8d25fb4fe6eaa38729 net: ti: icssg-prueth: Add Frame Preemption MAC Merge support
+a5d36e904451db02a17787219fd06b6d2ba16f1b net: ti: icssg-prueth: Add ethtool ops for Frame Preemption MAC Merge
 
---===============5485506081268752128==--
+--===============3227619442275673796==--
