@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf
-Date: Fri, 17 Apr 2026 19:04:20 -0000
-Message-Id: <177645266043.1474170.13241954749837233215@gitolite.kernel.org>
+Date: Fri, 17 Apr 2026 19:06:01 -0000
+Message-Id: <177645276109.1477659.13673367380130352868@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/bpf/bpf
 user: ast
 changes:
   - ref: refs/heads/master
-    old: 2845989f2ebaf7848e4eccf9a779daf3156ea0a5
-    new: f75aeb2de89127052975b1bfade88ac87f164f4a
+    old: f75aeb2de89127052975b1bfade88ac87f164f4a
+    new: e1d486445af3c392628532229f7ce5f5cf7891b6
     log: |
-         f75aeb2de89127052975b1bfade88ac87f164f4a bpf: Dissociate struct_ops program with map if map_update fails
+         e1d486445af3c392628532229f7ce5f5cf7891b6 bpf, arm32: Reject BPF-to-BPF calls and callbacks in the JIT
          
