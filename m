@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0067698342121872919=="
+Content-Type: multipart/mixed; boundary="===============3397584384621128822=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Fri, 17 Apr 2026 00:53:40 -0000
-Message-Id: <177638722041.366241.3188731274686623039@gitolite.kernel.org>
+Date: Fri, 17 Apr 2026 00:53:43 -0000
+Message-Id: <177638722365.366380.819682805463361395@gitolite.kernel.org>
 
---===============0067698342121872919==
+--===============3397584384621128822==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,308 +15,207 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/damon/next
-    old: 3b05593655bc2df86ea790c80ee047795c0d9b65
-    new: 9ab10e3382df9029f83e812fa18e3403c0c9e10a
-    log: revlist-3b05593655bc-9ab10e3382df.txt
+  - ref: refs/heads/master
+    old: 1d51b370a0f8f642f4fc84c795fbedac0fcdbbd2
+    new: 3cd8b194bf3428dfa53120fee47e827a7c495815
+    log: revlist-1d51b370a0f8-3cd8b194bf34.txt
 
---===============0067698342121872919==
+--===============3397584384621128822==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3b05593655bc-9ab10e3382df.txt
+Content-Disposition: attachment; filename=revlist-1d51b370a0f8-3cd8b194bf34.txt
 
-b9a26c7b69c52a5f6ab8722166c3d1976beffee9 mm/mempolicy: fix weighted interleave auto sysfs name
-d5ecfa835b57c2fff8d674ccd4ccadeeff00bf91 mm/damon/core: disallow time-quota setting zero esz
-e639f2b3a5336df871494b6e4729d0869f51960a device-dax: fix refcount leak in __devm_create_dev_dax() error path
-5ca5e5962f7e5020b2c2e9999b0e6cd66ba376c1 mm/zone_device: do not touch device folio after calling ->folio_free()
-99d1bd257ecc36f21482d9083073681a07cd887f mm: blk-cgroup: fix use-after-free in cgwb_release_workfn()
-b9a834cad3274ab17b3c208d64765c8fa5af26c6 mm: call ->free_folio() directly in folio_unmap_invalidate()
-7c41c1c639568523f8c1d31979ce32f95fb87585 mm/vmalloc: take vmap_purge_lock in shrinker
-d1f0c753022e6dfb37deb42eaab734089c9f4904 mm/damon/core: disallow non-power of two min_region_sz on damon_start()
-ecb31cf542ff0d109196529f366cca243018c8ac mm/hugetlb: restore reservation on error in hugetlb_mfill_atomic_pte() resubmission path
-9dca794f8623387c12693dd3447c8ae48a0e18fd foo
-1a0e1312ba7cc6244bdfff7adc276d64d04d6224 mm/vma: remove __vma_check_mmap_hook()
-8da407c5965e7bbe81f5364ebe2cb54867aa639d mm: memcontrol: remove dead code of checking parent memory cgroup
-fb0a0aad7c113539b21f09762ac01593cc7a00a6 mm: workingset: use folio_lruvec() in workingset_refault()
-439ec03e431ddbec589d2911865ab2e89524aeef mm: rename unlock_page_lruvec_irq and its variants
-0c724cb8e305d57411211ed398e6aac9bd13a842 mm: vmscan: prepare for the refactoring the move_folios_to_lru()
-58a83baebadbc176c6f04b8e9dc6b979b5cc14cd mm: vmscan: refactor move_folios_to_lru()
-9b1c7d16d37a12322cef290f1977a70fd82a7e3b mm: memcontrol: allocate object cgroup for non-kmem case
-8d3553823441b0883ddc0f45798dd3b179f349cf mm: memcontrol: return root object cgroup for root memory cgroup
-4f146a954bd63fba848593138bcd8f8aba9d2ad1 mm: memcontrol: prevent memory cgroup release in get_mem_cgroup_from_folio()
-f7e990f9183606884979ad4ad206f1caeb053726 buffer: prevent memory cgroup release in folio_alloc_buffers()
-0e219f43eb36a61e9668c1d4fa7833ca3816a925 writeback: prevent memory cgroup release in writeback module
-ae01fe96abb386eb45f2df77d132acf1ffc779d7 mm: memcontrol: prevent memory cgroup release in count_memcg_folio_events()
-3ff4c21e284acc785242bb805d47fa12ad208597 mm: page_io: prevent memory cgroup release in page_io module
-41c8f681013714fe44a9e6fbde5647d4c624666c mm: migrate: prevent memory cgroup release in folio_migrate_mapping()
-82bf4b534ef4070cb8ce54bcafd981d7db564fc5 mm: mglru: prevent memory cgroup release in mglru
-2769c195fc37ae707ac37d85dfee92a13436aba3 mm: memcontrol: prevent memory cgroup release in mem_cgroup_swap_full()
-031d4fb9cc1fa16467cde115dce107249fbc684b mm: workingset: prevent memory cgroup release in lru_gen_eviction()
-f264fe7b20adf022bc956f44c334844506e0df17 mm: thp: prevent memory cgroup release in folio_split_queue_lock{_irqsave}()
-da71ade000be3f81aa04dd99ed99bfcdf9b54e2e mm: zswap: prevent memory cgroup release in zswap_compress()
-7dd535ba82bbce2796e5b7f13c954b968b303cb1 mm: workingset: prevent lruvec release in workingset_refault()
-d80acdfac717dcab2bcccbdcf431d6b5963dc341 mm: zswap: prevent lruvec release in zswap_folio_swapin()
-7373ca02303e0d2a338ba2b39e6bbcd5c2904036 mm: swap: prevent lruvec release in lru_gen_clear_refs()
-4866ed020d15936ddc95251cb5517f73d1e65be2 mm: workingset: prevent lruvec release in workingset_activation()
-ea10c06567a3b25700c4f1c2b0d690a638f2ecb0 mm: do not open-code lruvec lock
-84381b22caa84b4331ac2ea857715cd7d266456a mm: memcontrol: prepare for reparenting LRU pages for lruvec lock
-0cd6a2145d9cd9d529c6daf20594cf994dde3daf mm: vmscan: prepare for reparenting traditional LRU folios
-df21bebc9583c887ce9b0b2df0d97c7e30407826 mm: vmscan: prepare for reparenting MGLRU folios
-f1b9ba48395dbc0c1f740144464c3fcb9b7aa9ef mm: memcontrol: refactor memcg_reparent_objcgs()
-268fe3c66bb15e2426705e4c442c6365a5e86dac mm: workingset: use lruvec_lru_size() to get the number of lru pages
-6c1d0194a2ae10b2b2f0406acfb08e138c8ed23f mm: memcontrol: refactor mod_memcg_state() and mod_memcg_lruvec_state()
-3b047a0f8ef04fd9f9f770f192374d417b7385ca mm: memcontrol: prepare for reparenting non-hierarchical stats
-e3e345ad11775b54859ffc90851a9665d437cf04 mm: memcontrol: convert objcg to be per-memcg per-node type
-8f316088868b7ae72a2ef3071a11cfd254dac0de mm: memcontrol: eliminate the problem of dying memory cgroup for LRU folios
-69ff29bb7b1f43a3f428d8fb2ba9ba3316ad2010 mm: lru: add VM_WARN_ON_ONCE_FOLIO to lru maintenance helpers
-37420ef50c9e8acb49d73062ea864207306b164a mm: memcontrol: correct the type of stats_updates to unsigned long
-c5eaa74203105719034065220b6bde132a63c9ce mm: memcontrol: change val type to long in __mod_memcg_{lruvec_}state()
-2c9a3e53830512ef290a09f77a6a304f5203d73e mm: memcontrol: correct the nr_pages parameter type of mem_cgroup_update_lru_size()
-4f5ee26f44d7a6836f6a69e8c57735649ace7527 MAINTAINERS: update MGLRU entry to reflect current status
-84229264369f5b170d5cea8a6026d226bbbbf561 mm: kmemleak: add CONFIG_DEBUG_KMEMLEAK_VERBOSE build option
-787fdadec884cd1005a715165465154aaa9add21 kho: add size parameter to kho_add_subtree()
-90be5bb4266c7dfc342b0fcf133a106b05c011b4 kho: rename fdt parameter to blob in kho_add/remove_subtree()
-ea8004fe7a81581410c62a842e699f04373b4920 kho: persist blob size in KHO FDT
-ab14b711754ea10bb659174524842ef22f3bcd58 kho: fix kho_in_debugfs_init() to handle non-FDT blobs
-787e9af77c20adc68a2d6a2e8e714194204d88d6 kho: kexec-metadata: track previous kernel chain
-10e38047ffe6cadc3727cf13fd7a20d21bc9882a kho: call kho_kexec_metadata_init() for both boot paths
-26fc2c514af458a46edf5da690ea3c6de9c7123e kho: document kexec-metadata tracking feature
-09fa5afed486104da4629a706ecd57649538b56e mm: start background writeback based on per-wb threshold for strictlimit BDIs
-e7053c4f8229817a8f99674190b44ff67af5b2df liveupdate: prevent double management of files
-b1057145b30d0d999f600909d0ea7b3940244607 memfd: implement get_id for memfd_luo
-2eb678ead7ac8019f77cc3a1efd9de732ae69910 selftests: liveupdate: add test for double preservation
-77fb6ef6f01e20cc5afdf1a5331dda8fb33d0a19 mm: vmscan: fix dirty folios throttling on cgroup v1 for MGLRU
-f0013647dde9129d31a7f11cc14b09e9f8bb0724 liveupdate: safely print untrusted strings
-5378e9cc750d164eb8fd222d222f003c74225d35 liveupdate: synchronize lazy initialization of FLB private state
-92557b5559079bc36431178fc5534150368d3efe liveupdate: protect file handler list with rwsem
-dba89380df0fd90b7411ce9653cd1ec2642fed37 liveupdate: protect FLB lists with luo_register_rwlock
-a639d24cd589a92d5571b9c2f885f9eef4365bfb liveupdate: defer FLB module refcounting to active sessions
-19e597663cf3b4545b5c608a2e52d1702ef56f18 liveupdate: remove luo_session_quiesce()
-ae1f95f27cdf57e3c94cfcc43d2eaed1553230f5 liveupdate: auto unregister FLBs on file handler unregistration
-6cf9e76c39c7f24730896b8139fbc43f7cde7cf6 liveupdate: remove liveupdate_test_unregister()
-0b667623cea1a56c33c575be9baf4e1122a22483 liveupdate: make unregister functions return void
-9c2ebfaaa983daeed9bd1c321894bd9d8ba5c006 liveupdate: defer file handler module refcounting to active sessions
-8d5fff99cfbf8df1ae93f588d1cd94d523a6a388 mm/vmscan: prevent MGLRU reclaim from pinning address space
-cc7e7c1dbab790b92f5042431153d0b153269e90 mm/alloc_tag: clear codetag for pages allocated before page_ext initialization
-f2b85194951e8591ec63cbc019cab84aa268bdb6 mm: zswap: remove redundant checks in zswap_cpu_comp_dead()
-cfc36826b31db81f87d484a110589535092d7baf mm: zswap: tie per-CPU acomp_ctx lifetime to the pool
-9d323e78310970dea0ddc8fac5803a8afed1b273 mm/damon/core: fix damon_call() vs kdamond_fn() exit race
-9bdcf9feab6a4f746e45b1e68045fa49ff54aa37 mm/damon/core: fix damos_walk() vs kdamond_fn() exit race
-d966860ce020bcd31703c84f56182e562563c1ab mm/damon/stat: fix memory leak on damon_start() failure in damon_stat_start()
-185a65e02eca62623be09fbc59a293832713668c mm/damon/core: validate damos_quota_goal->nid for node_mem_{used,free}_bp
-82ec7cc0fd6dcf5fa49987d8095891b32573014a mm/damon/core: validate damos_quota_goal->nid for node_memcg_{used,free}_bp
-eebe366f0ebeff769805496a9b83837dd903c78c mm/damon/core: use time_in_range_open() for damos quota window start
-5c36461de00450b9c7aacd3326740671ef64e9af Docs/admin-guide/mm/damon/reclaim: warn commit_inputs vs param updates race
-0e5254ce8b43eca95aa5ef38cfb5c02f468ef8e6 Docs/admin-guide/mm/damon/lru_sort: warn commit_inputs vs param updates race
-3cd3237e021ea6ec1a7c1964fccc8f00aa76aa28 mm/mempolicy: fix memory leaks in weighted_interleave_auto_store()
-d4b3ca01a0d14f35a343a6a8aab33690b38fd307 tools/testing/selftests: add merge test for partial msealed range
-1b0eea26d18c8a9b3463fabfe367db43e52d62fe tools-testing-selftests-add-merge-test-for-partial-msealed-range-fix
-7cfc9fe5a7574c247acc2b9b2515f74a6d4d882c selftests/mm: skip hugetlb_dio tests when DIO alignment is incompatible
-887fe82b6c43412c2db7d04a9eb7f73bb59a122d lib: test_hmm: evict device pages on file close to avoid use-after-free
-67b5e3603f698103dc939d8f0551a6c6677cb5f2 selftests/mm: hmm-tests: don't hardcode THP size to 2MB
-e5c1c6139334754e1dbc45899d1dd71f0ab9f071 lib: test_hmm: implement a device release method
-be362efb51d4f80574ca9c2534c7d9d3b7cc3445 zram: do not forget to endio for partial discard requests
-884a3feff391ccc727a841765c557f544ed939b8 mm/sparse: fix preinited section_mem_map clobbering on failure path
-f791eef358f3cdc2e667ed045b34310e5a81edac mm/memfd: use folio_nr_pages() for shmem inode accounting
-8612b8c973daf2cbb05c129d7cabf0cfa9b6e3c6 mm/memfd_luo: optimize shmem_recalc_inode calls in retrieve path
-ed40aa72156546aaea9bbee3b67c59e714ee9587 mm/memfd_luo: remove unnecessary memset in zero-size memfd path
-76408a750db655258b354466ddec8b6771b862f2 mm/memfd_luo: use i_size_write() to set inode size during retrieve
-0ba357777c18e9960633498cea617ec647855756 mm/memfd_luo: fix physical address conversion in put_folios cleanup
-9c9ca55591366be0c77a58d197469783758461db mm/memfd_luo: remove folio from page cache when accounting fails
-fb4de71f4748fb9be56ece165fe54ce5b1027eae userfaultfd: introduce mfill_copy_folio_locked() helper
-6a138443d03807e22afcf98042245bc96da644be userfaultfd: introduce struct mfill_state
-2bd0fde8e9a1cb383c64104099758c9b50a9731e userfaultfd: introduce mfill_establish_pmd() helper
-231eb99a5f0abdcd4111738200dc43df41324914 userfaultfd: introduce mfill_get_vma() and mfill_put_vma()
-6ee846a516eb64b0d526778feb951d1da09c00ec userfaultfd: retry copying with locks dropped in mfill_atomic_pte_copy()
-e45043fade04443ccf183d9be69c06bef7dbb5fb userfaultfd: move vma_can_userfault out of line
-20bb75c94131d044f59f77dbe88d35c817adeb56 userfaultfd: introduce vm_uffd_ops
-59b48f8ce0ab960e00d701805c836d9334818d96 userfaultfd-introduce-vm_uffd_ops-fix
-f1e0b26ae62ddffdacc865e4d5e263107a702662 shmem, userfaultfd: use a VMA callback to handle UFFDIO_CONTINUE
-199f14ec1cfccef7b260e5296327db71f48d2697 userfaultfd: introduce vm_uffd_ops->alloc_folio()
-4d908db2cd6f6b2822b06d05f103021c66fa7d76 shmem, userfaultfd: implement shmem uffd operations using vm_uffd_ops
-24729bee1b5fe38e7cf7f02d513a51e89a572717 userfaultfd: mfill_atomic(): remove retry logic
-a03c4000cb5946c0cfa8edcc72ce537b3b3dd304 selftests/mm/guard-regions: skip collapse test when thp not enabled
-4e0ccb486c16246e93fc63396a294d8a78e832a5 selftests/mm: soft-dirty: skip two tests when thp is not available
-ee542dcaa0062d4e097f84b1a4bf46861a75cfae selftests/mm: move write_file helper to vm_util
-854cbcf4f9451efbf03d57a9a1a2c49a49d02d1e selftests/mm/vm_util: robust write_file()
-1f31aa93bafe522b1e2ca2c48546ef4485fb50f4 selftests/mm: split_huge_page_test: skip the test when thp is not available
-996d78be61f9d3890ad5f8277841a94258c82d9e selftests/mm: transhuge_stress: skip the test when thp not available
-203bcfd44ca829ae802e6276d2dad5e6bc061c07 mm/page_io: use sio->len for PSWPIN accounting in sio_read_complete()
-6cca3a7088bf5abcc795e75fcefc91f284b3ae2d mm/sparse: fix comment for section map alignment
-10874aed77d1c751ed08af2b6f4a6d5e5f8851a4 mm: remove '!root_reclaim' checking in should_abort_scan()
-ec6d820781d8edb54f5295d3ab554ac62221bb2b mm/mprotect: move softleaf code out of the main function
-736ba8c9f97932b16a904ac302ada2a27834cb2d mm/mprotect: special-case small folios when applying permissions
-bb51ae69c83b00a78cb5759232d852e739082213 docs: proc: document ProtectionKey in smaps
-66b6bbf8a436515cdc2ce6839421a68f1dd1a3bc docs-proc-document-protectionkey-in-smaps-fix
-861563c8cad4c44ccee18fc00f3246a8af8d17a5 docs-proc-document-protectionkey-in-smaps-fix-fix
-57292f2c7d8f39122c8d74b707230a05dd272230 zram: reject unrecognized type= values in recompress_store()
-588e444093eefe8bbc47a72a90be5b2f7212e56c mm/hugetlb: fix early boot crash on parameters without '=' separator
-ca8ab0e0a7ab39a55d22deab91adb8d970a95bdf mm/vmstat: fix vmstat_shepherd double-scheduling vmstat_update
-81187e195cbbf19ce9827962349e0e383af4d95e userfaultfd: allow registration of ranges below mmap_min_addr
-615da22a122b13d6c0737bedef41af25ad6ded25 kho: fix error handling in kho_add_subtree()
-3e32402dee566e0f40b72372e4359672fdaa3df0 selftests: mm: skip charge_reserved_hugetlb without killall
-ccc1de5b28ca18fd65b1c3ee8c321f273b622491 mm/migrate_device: remove dead migration entry check in migrate_vma_collect_huge_pmd()
-a876d46646b6b115f9bd8ce340d78a7ffa72a0c6 MAINTAINERS: update kexec/kdump maintainers entries
-2bac30b93ca1b9089a58ea64c93b297b95dce8bd MAINTAINERS: update KHO and LIVE UPDATE maintainers
-8694a7798b817483421884e5569347f2bde82800 MAINTAINERS: drop include/linux/kho/abi/ from KHO
-81c0eb9443dd119c384e51e4eacc8ccb6f24265d MAINTAINERS: drop include/linux/liveupdate from LIVE UPDATE
-ff708b235dcf3bfef31db0ff76cb0c52ad826ab1 MAINTAINERS: update Dave's kdump reviewer email address
-f810de83a164f82cbcca10c8872a5e6b17c53a26 mm/vmscan: avoid false-positive -Wuninitialized warning
-cc14e0ead69260c197a7b865a51addd70b54435c MAINTAINERS: add page cache reviewer
-009beaf39645c617a2c8f7b15a9f72b5da0b3c7d maintainers-add-page-cache-reviewer-fix
-62301f01f3d14770955cc430172fcd898aa41860 liveupdate: fix return value on session allocation failure
-c5f176a368f4b81ee6c750f13e20212939651fd2 mm: fix mmap errno value when MAP_DROPPABLE is not supported
-049194569c5d25e2dc9d0a77a5ac7423bff40f9b selftests/mm: verify droppable mappings cannot be locked
-2d341c20d0fdaf08b3aa82d15ca08ebec1a94023 mm/swap, PM: hibernate: fix swapoff race in uswsusp by pinning swap device
-db2a1695b2b6feb071b47b72e61d0359bf1524bf mm/swap: remove redundant swap device reference in alloc/free
-8568f268a5183e0fd5fbd33569b6513038b62f27 mm/sparse: fix race on mem_section->usage in pfn walkers
-f05735e5e7a9a47542d26aa254c16449fadf7289 mm/vmstat: spread vmstat_update requeue across the stat interval
-bb55880fe89ea4bdb2011cbac2384fe756994bd1 === mark start of DAMON hack tree ===
-b57b629b82f16b374859e14eb1f22778552c704d add -damon suffix to the version name
-d06059a28be73ef6b87f23cc1bb65392fd591591 === temporal fixes ===
-593f770a337d47f8f63c5d408f36ede48b13dc45 Revert "kselftest/runner.sh: Propagate SIGTERM to runner child"
-e6d71fac356e53b56c7eb63f32b2413e2a19fbd0 === patches written or reviewed by SJ but not merged in -mm ===
-2e5193137ba16bd4c3a4f7087217d7705248aec4 Docs/mm/damon/maintainer-profile: add AI review usage guideline
-e410c66d05d30ea92613a3ab6e3b61bda54ed3ad ==== reposting ====
-f00f9ef69fab9d71c3f9987c9fd0e547b51517c0 mm/damon/ops-common: optimize damon_hot_score() using ilog2()
-d01677021f5be29280262fcf535242b3975e7214 Docs/admin-guide/mm/damon: fix 'parametrs' typo
-2acaf780383742b244b33a43855bb82f93bd80e2 mm/damon: add synchronous commit for commit_inputs
-87bb38440ad4e1b68e2c1d49760bcca1c54db85f mm/damon: support MADV_COLLAPSE via DAMOS_COLLAPSE scheme action
-7d082b5f72ee1d5ebac2d65f471bb682cbdd8731 === hacks in progress ===
-9d1e5c30e85984ccf1b341f03b0f3cad6694fa50 mm/damon/stat: detect and use fresh enabled status
-41288c68d99153b07f91eba945d1d255558d45eb mm/damon: fix damos_stat tracepoint format for sz_applied
-f8d21446bf34cbc0a5dcbf8214b0f036c432600c ==== damon pause_resume ====
-d0eefa2531a8ec5a3d7b5d99359dd2c3194719da mm/damon/core: introduce damon_ctx->paused
-91c46504594e756ddd9736851fda0b80b9023a2f mm/damon/sysfs: add pause file under context dir
-25d015f686f15b0433da4738a15e0f9496bea2ea Docs/mm/damon/design: update for context pause/resume feature
-3fe13a59239e9aaefae24fd7f4ac084ef7d4ed9a Docs/admin-guide/mm/damon/usage: update for pause file
-139d03dccca8ed6945ba8cc4592adf49b056c46d Docs/ABI/damon: update for pause sysfs file
-f548493074831b81cdaf10e3513921d9e42bc9c0 mm/damon/tests/core-kunit: test pause commitment
-c3e9ff2b8f4831d4255089733af0c47c7a7ce1c5 selftests/damon/_damon_sysfs: support pause file staging
-9d92a939d6feee016146ab3776feec9cf5d7ac40 selftests/damon/drgn_dump_damon_status: dump pause
-e0eacc180e6f58a284a5213f76a9b618904d588a selftests/damon/sysfs.py: check pause on assert_ctx_committed()
-6441fe05100c3c7744bb8d8096bab1364965c9d8 selftests/damon/sysfs.py: pause DAMON before dumping status
-ed79a30c93d4b6b8708e3daa3a6130f61646aefa ==== failed region charge rate ====
-051353d0c0b7fb1a9d328dee0b453be89256e6d5 mm/damon/core: handle <min_region_sz remaining quota as empty
-e20ab2dbfac0867352b71504263c7b4ca234ccd7 mm/damon/core: merge regions after applying DAMOS schemes
-4f66c8ea7a696949e9a23498f82baeeb2804b435 mm/damon/core: introduce failed region quota charge ratio
-4f5caf0fc4838df761eb8f13d7c72dd40dfbe003 mm/damon/sysfs-schemes: implement fail_charge_{num,denom} files
-3ae18efbe293bb99cc338f583e678a2db34ef1f3 Docs/mm/damon/design: document fail_charge_{num,denom}
-d0723f971fe8615d889ec628ed9182b716ce6ef6 Docs/admin-guide/mm/damon/usage: document fail_charge_{num,denom} files
-15f3a770b3ddf3d0a052a961765af68c87e23b0a Docs/ABI/damon: document fail_charge_{num,denom}
-3142fc06396d1ae63d41a29419750809ee03dd21 mm/damon/tests/core-kunit: test fail_charge_{num,denom} committing
-c5d874fe62d0a98f29fc5d3073d8d9e5a6178e34 selftests/damon/_damon_sysfs: support failed region quota charge ratio
-32bb70825e78ee198ae245e2cbe2b755ecf08363 selftests/damon/drgn_dump_damon_status: support failed region quota charge ratio
-a827ffd8c7592c653806d50859c119b3c372194d selftests/damon/sysfs.py: test failed region quota charge ratio
-526e505f62a5e76cdacb8e7889a3ae38bd93c712 ==== damon_stat: add kdamond_pid ====
-a306605332f138414b4abb1998e99d24d0f71018 mm/damon/stat: add a parameter for reading kdamond pid
-d984e22de9d5293b36a5be4a2235cda5c765f8e5 Docs/admin-guide/mm/damon/stat: document kdamond_pid parameter
-3260f1534449292f8882e4892f3f34fdcb8483a9 ==== damon_reclaim: introduce monitoring intervals autotune ====
-4ac64b2c6587bcb0edffc2ec78bf90c1b3dcd4e5 mm/damon/reclaim: add autotune_monitoring_intervals parameter
-ebcee4aea34bbe9736494ec0b93209110aafd03f Docs/admin-guide/mm/damon/reclaim: update for autotune_monitoring_intervals
-24387a5252d29970a12626d5719394881ab8eaf7 ==== reclaim,lru_sort: monitor all system rams ====
-1b94523d8e7d5be7628afea463ae333a3c612e4b mm/damon: introduce damon_set_region_system_rams_default()
-53870a0eb2eea74ba720b9dcf18031dc368bf492 mm/damon/reclaim: cover all system rams
-259f05dc15486a6727afe01f54a779b429c18507 mm/damon/lru_sort: cover all system rams
-08f419644d809bf66da0a85e3fd9f9d4eb58fb49 mm/damon/core: remove damon_set_region_biggest_system_ram_default()
-196d2d36159dc4e6cf31080bc36b521f6ecddffc mm/damon/stat: use damon_set_region_system_rams_default()
-dc99140c91f168f60733f0bee30748d3a3384ce3 Docs/admin-guide/mm/damon/reclaim: update for entire memory monitoring
-27558bd8e423297c8abfbe4b7166020e8639e3ec Docs/admin-guide/mm/damon/lru_sort: update for entire memory monitoring
-89e522e4e43cf80a4dadbfa0f4dff106b582bfec ==== deprecate core_filters sysfs dir ====
-83b98c76cefe1019ff18ff8e094eef460f45e3de Docs/admin-guide/mm/damon/usage: mark scheme filters sysfs dir as deprecated
-a68880a3f5274c207baa5893d43e9e67adfe045a Docs/ABI/damon: mark schemes/<S>/filters/ deprecated
-098069ea783d44b6dbd8cfc686dbb4df71a34d1d ==== min_nr_regions followup improvement ====
-e55dd5128082ed2fab11602ee9616a43cf558ba8 mm/damon/core: safely handle empty regions in damon_set_regions()
-6ab7d81155338092035bf0843f3053aa391df9d1 mm/damon/core: do not use region out of loop
-906088a910b913f4e731df0c93cc7a1c568c5201 samples/damon/mtier: replace damon_add_region() with damon_set_regions()
-de0a90e75fd89c124f0d2caf16124491495ba7cc mm/damon/tests/vaddr-kunit: replace damon_add_region() with damon_set_regions()
-cd17b28271ab77c2a6cb6777adfe7ae992b40f70 mm/damon/tests/core-kunit: add damon_set_regions() test cases
-79da5962bbdca7d867c26bb625682553f1c556c2 mm/damon/core: remove damon_add_region() from core API
-bcbbd5ff64b45bd0a65d5b37a69f65c813499742 mm/damon/core: move damon_insert_region() to core.c
-26991f36fa404941c7cc7ac77edc3ad304137891 mm/damon/core: hide damon_destroy_region()
-b404c21423b1023d8f1d52c6b9140e03d4e44799 ==== misc fixups ====
-95e2712fc6a73ce3d4544e95b6a553d32ed7ecdf mm/damon/core: trace esz at first setup
-c922c3d7ab687ef983d62c3f68d200e4ece25b18 selftest/damon/sysfs.py: stop kdamonds before failing
-1566b0aff0b77b46b65d5d19ee8d475bb1d6436e ==== fault/report-based monitoring for per-cpu and write ====
-0fe267b831235ede183f104bcc822dd059cf8c47 mm/damon/core: implement damon_report_access()
-d3ab48c8464e66d6dddfd0caee8f7ddbb78a963d mm/damon: (fixup) fix typos
-3d2c8dbdbb6c1528a6bf7c6e136a16ad94f6501d mm/damon: define struct damon_sample_control
-12eb1226bb0242ada2899d521d7e25d15860e015 mm/damon/core: commit damon_sample_control
-f1cb2c15671f4dbf58769f9bf5eb42fb7ce7daeb mm/damon/core: implement damon_report_page_fault()
-1db105dc419b9ad8e40ae1ba3caacbcafd2d0159 mm/{mprotect,memory}: (no upstream-aimed hack) implement MM_CP_DAMON
-4d2836e012958846699d89b2a8a345a7efe51228 mm/damon/paddr: support page fault access check primitive
-fdc958ab1c7dda000ac5bf6763d53e4d8b2a1106 mm/damon/core: apply access reports to high level snapshot
-3999d20a5dae6a9ccf25ef76402b60c44822e724 mm/damon/sysfs: implement monitoring_attrs/sample/ dir
-e29ba5220d77cc42ec5cd7be7aa3d2c5e7bd6b18 mm/damon/sysfs: implement sample/primitives/ dir
-aad7c3656393c1ba482d280632051aeed9c08a15 mm/damon/sysfs: connect primitives directory with core
-8c43d66b0b31c20c161d865b7dc71bc73f192457 Docs/mm/damon/design: document page fault sampling primitive
-76307d25930add0898fb582912722fea03d80d51 Docs/admin-guide/mm/damon/usage: document sample primitives dir
-84c0a960405f5225b86e5db0d5fe3283b855a5c2 mm/damon: extend damon_access_report for origin CPU reporting
-fa43b1046c1ca322b0694a2d1418283466e8e5bd mm/damon/core: report access origin cpu of page faults
-c22bb3701fd8b78f2ec4862f4f1cbe51af56e45c mm/damon: implement sample filter data structure for cpus-only monitoring
-26eb850640de611d7ac9b736d1eb5869518d1126 mm/damon/core: implement damon_sample_filter manipulations
-e4c0021373d7f02478356cd0f26e0f444e0bbc3a mm/damon/core: commit damon_sample_filters
-fc10daddacfce6ae5a541c5736130a668ea70484 mm/damon/core: apply sample filter to access reports
-50a3a490c10fec738d53c64f456c2ae873d1efab mm/damon/sysfs: implement sample/filters/ directory
-1ef257e7874c64b5125010d287392e304a093765 mm/damon/sysfs: implement sample filter directory
-24ba19298e6db9c3070205cf08cc1826acbe67d0 mm/damon/sysfs: implement type, matching, allow files under sample filter dir
-5c63ab22dd4b32bd24ee29588854ec03a49b3af4 mm/damon/sysfs: implement cpumask file under sample filter dir
-a6a814a0c0065b8e96932e6f476b385d634c6654 mm/damon/sysfs: connect sample filters with core layer
-699fe98d3293bd9cc9e84b5435177c289aca380b Docs/mm/damon/design: document sample filters
-4ac3573f82ec492d8eddadb50a13af4a3506a3a6 Docs/admin-guide/mm/damon/usage: document sample filters dir
-4c47a9ed21c244b05499670a3584518dab58f434 mm/damon: extend damon_access_report for access-origin thread info
-c546f76bb4dd909063ac88115dfcd456b0f8b797 mm/damon/core: report access-generated thread id of the fault event
-e4a3ef9869c74307af8f2937a568b9d2ac44322c mm/damon: extend damon_sample_filter for threads
-fae9dd81259f1e523af692234767791be1e669ed mm/damon/core: support threads type sample filter
-8e2fc8665b5e36d7ec1b87fd49a4e6232f09adcc mm/damon/sysfs: support thread based access sample filtering
-cbae9fa36d452ddce9686f0be49e3054bed24c9f Docs/mm/damon/design: document threads type sample filter
-a3497e86945b60c7c5a4976c3bfdc72d3101596a Docs/admin-guide/mm/damon/usage: document tids_arr file
-94461ba6130a9973f4c372ecef323bc9e786fd31 mm/damon: support reporting write access
-b7711888cc8feab28f5e6fe4531f66fe0ec286e9 mm/damon/core: report whether the page fault was for writing
-fca1719fa07c69cd810bc0e55e423aa7b0c68272 mm/damon/core: support write access sample filter
-aeb0dcf2be9e3ea747a6099341d39508664e946f mm/damon/sysfs: support write-type access sample filter
-c79f8de52594875b3a2ed637add6ac540a2ba445 Docs/mm/damon/design: document write access sample filter type
-8f62dd54323f703d6c8e9fa7c20d98aecff078d7 mm/damon/core: elaborate access reports dropping behavior
-af4420cf25ab7cc05a1f1ac0ab14e840ae405ce4 ===== fault-based vaddr monitoring =====
-1c289dbcfcb9fc3008713db1af49b339dfd80051 mm/damon: rename damon_access_report->addr to ->paddr
-e40adabcb1de810730e824d7c1e64b120d1783e9 mm/damon: extend damon_access_report for virtual address
-ad9e94b3725dfc60b8fbe1148efa6b6248234299 mm/damon/core: set damon_access_report->vaddr from page fault report
-38660f9e8103ccb84bd0200fe2276fca8ef7a02b mm/damon/core: support vaddr reports
-15fa30ce4b1cfcf99899090cf71d325f86fdcdfb ==== docs for DAMON and mm ====
-a797057fea44a20ff66230d348e1875e3166e6db Docs/mm/damon/design: add table of contents for overall and DAMOS
-472d5e4b569a65909e2d8cfcd69f169e802199fe Docs/process/2.Process: Update mm tree URL
-b3c1133f7cdbebf69454c83c3180a7d8c4a97d1b Docs/mm/damon/design: add API link to damon_ctx
-ab57cf61363fac8e68e863f64843673d80893f31 ==== ACMA ====
-5ee6588187f44f64773d737bb8c33ec6416341e6 mm/damon: implement DAMOS actions for access-aware contiguous memory allocation
-7e092bcdb070aa18c0b29fe264d6c87a35cd940e mm/damon: add the initial part of access/contiguity-aware memory auto-scaling module
-9b965eb7aea711b461caa1f048c9fc9c782de628 mm/page_reporting: implement a function for reporting specific pfn range
-6fc6c553a5321b34c998313e5a4c0c37c7aadaf6 mm/damon/acma: implement scale down feature
-bd1a4cb09d27af20a6154c0e8d19983f71427bb1 mm/damon/acma: implement scale up feature
-0671cbdea3ac8cd9a998078126ec37d3baec0195 drivers/virtio/virtio_balloon: integrate ACMA and ballooning
-f7734d96724482f12f0ae1212ac7b23351fdf5d6 === commits aiming not to be posted ===
-2866fdae407b54296f3e75d0983c8c63c9a00148 mm/damon/core: add debugging log for intervals auto-tuning
-a7b9346d24b5b093bfd0f9d37165afa5eb84d6a8 mm/damon/core: add todo for DAMOS interval validation
-4249c456fe0db87c65ccbf4c16fa1041322bb6f7 mm/damon/core: add debugging-purpose log of tuned esz
-10f8b9793fd12ba42af7228228dd4299b611b80a Add debug log for PSI
-fb71278be5aa52a7788c92eb2e3ca3986319dea9 ==== data activity monitor ====
-0d996a9fca2eae4ed54d907470c39523c21f90ec Docs/admin-guide/mm/damon/usage: update for counters of interests ABI
-5ce52dd44a23f29106851b9c3ffa432660ca36e0 ==== uncategorized ====
-40b44e76236b8b2d5aac68f49f667fa378ef9bc9 mm/damon/core: add an hacking idea concept interface prototype
-d0b36276a0ab9c8b01635c88fa4df84f26edf851 mm/damon/core: restrict total_charged_{sz,ns} to avoid overflows
-6455bce14bb5de2856b63da009f99d4f2487759c mm/memory: implement functions and data structures for page faults monitoring
-57e7a29c79513b913c7a3515a8aa33a9a4bd7f58 mm/memory: introduce do_{,huge_pmd_}faults_monitor_page()
-8534555b5ed9fe3703c50b9f5033cdad13d509e2 mm/memory: mark faults_monitor_controls_lock as static
-ee9de1e3a41873b4693829a016e2b1216e702e73 Docs/mm: add a maintainer-profile
-8adc854c4d7351507e67b79975bdfd2b4e02e7c5 mm/damon: mark kdamond_lock as __private
-77a7325225dd00c2af5a12b32495a992a3d98026 mm/damon/core: verify regions right after merge operation
-783f1612af8ff18cd23c39273e743ea0c1bb3613 mm/damon/core: remove damon_verify_nr_regions()
-26d2f6a6a1fd9a8476ac0dde3f15f4aa14c2d2a2 Docs/mm/index: link maitnainer-profile
-49c263ea3a8ee8ff019d9e3e5a8edcce67549108 mm/damon: add damon_call_control->cleanup_fn
-4c986772aa9827f37635bbbbb102ccaaf284bfde mm/damon/core: call cleanup_fn()
-09f64c0e457703cd4f2e820f6a74c530d559a2b0 mm/damon/sysfs: use per-context next_update_jiffies
-cbc6b474368b944f00e205fa1d0fcabb05c76378 Revert "mm/damon/sysfs: use per-context next_update_jiffies"
-8610b93290a9d376aafddb798531ac1c45e6fe8d mm/damon/reclaim: keep enabled and kdamond_pid always fresh
-9ab10e3382df9029f83e812fa18e3403c0c9e10a mm/damon/stat: use fresh kdamond_pid
+aef50ed5b23918345478adf5224a059dfff87df1 vfio/qat: extend Kconfig dependencies for 420xx and 6xxx devices
+920e5001f4beb38685d5b8cac061cb1d2760eeab selftests: livepatch: test-ftrace: livepatch a traced function
+f183963891b4b0126f19aa0993ed931f3f3f9520 vfio: selftests: fix crash in vfio_dma_mapping_mmio_test
+80e80a703e18aa7d55fe26e4504c58a6f6c4ff07 efi: make efi_mem_type() and efi_mem_attributes() work on Xen PV
+eaeff8411fcafc33da66a78b10566749d353ca2f efi: Enable BGRT loading under Xen
+77dd8adabbc8ff845177b460de48b9d2cd579966 efi: Drop unused efi_range_is_wc() function
+56e2ef8f5f9161d08d45656d373da83d4a789be1 efi: libstub: fix type of fdt 32 and 64bit variables
+5efa9a54c6a5f22080f33012c41a94112e955b53 vfio: replace vfio->class with a const struct class
+06ed87b3197e9b80dccac0b764fdffe44192e010 vfio: mdev: replace mtty_dev->vd_class with a const struct class
+02256acf1e81e42f6338a39020bf2de9807c33d7 vfio: uapi: fix comment typo
+4f42d716707654134789a0205a050b0d022be948 vfio: selftests: Fix VLA initialisation in vfio_pci_irq_set()
+d7140b5dde459048da52cfc0494228055f7e2fb8 vfio: Define uAPI for re-init initial bytes during the PRE_COPY phase
+50ff3f404617c5d15832fec3711978104c4c9efd vfio: Add support for VFIO_DEVICE_FEATURE_MIG_PRECOPY_INFOv2
+c995498636c704641c9e809c31b59445b48f7adc vfio: Adapt drivers to use the core helper vfio_check_precopy_ioctl
+4bee09a5dbd14e3369926b14b4ee14e22ebfc1f6 net/mlx5: Add IFC bits for migration state
+bd0da611312b94f34b0e2b7342fdbd0431851347 vfio/mlx5: consider inflight SAVE during PRE_COPY
+56f90177573e334532c0f039684e9c759830027a vfio/mlx5: Add REINIT support to VFIO_MIG_GET_PRECOPY_INFO
+1347a742a1e1b080e2e8d200312ae45b8d6ac859 vfio: selftests: Build tests on aarch64
+c82cfe15916d33e89c2d2efeeb624e8c9c2c4ca8 vfio: selftests: Support DMR and GNR-D DSA devices
+2241228a5492b0c9a1870c59d3887d3a96c735c6 vfio/qat: add support for Intel QAT 420xx VFs
+f89a28ec1aa8e768587a1cd0d22df8f63ee52834 m68k: q40: Remove commented out code
+1ba5f6fb44e9c7094a4ae4b4f79a4cc4d7ba188f m68k: defconfig: hp300: Enable monochrome and 16-color linux logos
+5247c783dc11eba298b3a6c03470125a67bf8cda m68k: uapi: Add ucontext.h
+57000fe6a60421b35ce51a338cc33caf057f5795 selftests/livepatch: add test for module function patching
+555aa178f8d22261d71da74df6267e6e6e97f95a vfio: unhide vdev->debug_root
+29afd0c70d9cd77da62b1105a0553c24e42c0df1 vfio/pci: Rename vfio_config_do_rw() to vfio_pci_config_rw_single() and export it
+bf4197be96d0839963d28e1812d9edc71086a580 vfio/ism: Implement vfio_pci driver for ISM devices
+ad6ed97f8c0ffefd9383a62d19a564e8e0a2c814 MAINTAINERS: add VFIO ISM PCI DRIVER section
+7487d8db3336839567aabae24618a4f2f2f2adad vfio/pci: Require vfio_device_ops.name
+59747bec5d6e00a83ce5dfc8f7ac9b7113a11472 m68k: emu: Replace unbounded sprintf() in nfhd_init_one()
+cbd3b8ef970a2a4738c3b237ca8fe3fe5985627e m68k: defconfig: Update defconfigs for v7.0-rc1
+5d0faa8e8369b9a48498f6f132c2ced5f0549acc efi/memattr: Fix thinko in table size sanity check
+a142d0ae9f2ceb0fc7417e19ecfafc8179282e35 memblock: Permit existing reserved regions to be marked RSRV_KERN
+259e3e6f9382b6a9fe570313d97c59a233f7d72f efi: Tag memblock reservations of boot services regions as RSRV_KERN
+48a428215782321b56956974f23593e40ce84b7a efi/capsule-loader: fix incorrect sizeof in phys array reallocation
+3c443ec743422442229a9c93ac6e4e5d188bc41a vfio: remove dead notifier code
+ad9d2cd065d15c2ad992cb5db51a5bdc847e2909 power: reset: Add QEMU virt-ctrl driver
+56f295853f38d3202c20fd0d98939e7a4c56c3fb m68k: virt: Switch to qemu-virt-ctrl driver
+1b81ed612e12ea9df8c5cb6f0ddd4419fd0b8ac8 vfio/xe: Reorganize the init to decouple migration from reset
+493c7eff3c2ffa94ce3c5e62172948a1e38b491e vfio/xe: Add a missing vfio_pci_core_release_dev()
+0a6428978df1c16971db0b0daae60b8fc0c4eb9b smb: smbdirect: introduce smbdirect_all_c_files.c
+86bca3df0fa0e6f9efd81165900de0af098f6bc2 smb: smbdirect: introduce smbdirect_internal.h
+bd33b696eb1638a169975552eb4bda3e5ab2cddc smb: client: include smbdirect_all_c_files.c
+cdb9545c238ff175e72b38269dc6d89c9ccd30b2 smb: server: include smbdirect_all_c_files.c
+83c769a9f45cc4a111e60690fa5e64929dba948a smb: smbdirect: introduce smbdirect_socket.c to be filled
+df76b456280ba2c467907b9f25e1ddc8aea773f1 smb: smbdirect: introduce smbdirect_socket_prepare_create()
+036614cb738a9d092814eba48286da6e1c63f704 smb: smbdirect: introduce smbdirect_socket_set_logging()
+67ac123e026b8b98e6d2f3f7ba3706c32ecde019 smb: smbdirect: introduce smbdirect_socket_wake_up_all()
+1be83fad0c74b288d3664ff0677da19a997bcbf3 smb: smbdirect: introduce smbdirect_socket_cleanup_work()
+d85614860184f31153ff243ff06e34d76c22be7b smb: smbdirect: introduce smbdirect_socket_schedule_cleanup[{_lvl,_status}]()
+3e319f26a79afa65fc98b9ce15979c6219e1be04 smb: smbdirect: introduce smbdirect_connection.c to be filled
+bb0a49edfe1ac5d831c897e4869a167cddea835f smb: smbdirect: introduce smbdirect_connection_{get,put}_recv_io()
+b90169bcb2a6f46b1b5d7a17d5fd15a64ab552ff smb: smbdirect: introduce smbdirect_connection_reassembly_{append,first}_recv_io()
+1593f5d004f5f3812ba175f4253fba07853db24e smb: smbdirect: introduce smbdirect_connection_idle_timer_work()
+8e342e68992e93db0c999f892e7aa1eb35c67709 smb: smbdirect: set SMBDIRECT_KEEPALIVE_NONE before disable_delayed_work(&sc->idle.timer_work);
+66a840b3ba538142fec5895cb197b1ec9f3a717c smb: smbdirect: introduce smbdirect_frwr_is_supported()
+64d6bd25339bb0820556af6a46e41a23a34a2ed3 smb: smbdirect: introduce smbdirect_socket.{send,recv}_io.mem.gfp_mask
+8fde1963386a2ba1b7e57a347a00fd8b98cd07d3 smb: smbdirect: introduce smbdirect_connection_{alloc,free}_send_io()
+c81459bddbf758e1b9915f0c6d00d9f18ce21f49 smb: smbdirect: introduce smbdirect_connection_send_io_done()
+d674665d514e4cb58455a7380c5a927ea2859585 smb: smbdirect: introduce smbdirect_connection_{create,destroy}_mem_pools()
+8a4d6c0d4fc4a138c7569e081389f163d2cee389 smb: smbdirect: introduce smbdirect_map_sges_from_iter() and helper functions
+0bac604158750d76d30f26d203242c11dd9efcfb smb: smbdirect: introduce smbdirect_connection_qp_event_handler()
+71c4b615daffe85dba6f181d4200da57d4550480 smb: smbdirect: introduce smbdirect_connection_negotiate_rdma_resources()
+6073eb3e31756d569c4853fb22724525739d0e0c smb: smbdirect: introduce smbdirect_connection_{create,destroy}_qp()
+dd1960ab384e9188a3d1f7db4ac8276f3edec13e smb: smbdirect: introduce smbdirect_connection_post_recv_io()
+2b41feecdfdf8364242fb98d9dc4e52147b72f1e smb: smbdirect: introduce smbdirect_connection_recv_io_refill_work()
+a5159795248fec94d4b0995584e038d50cceb1b6 smb: smbdirect: split out smbdirect_connection_recv_io_refill()
+dc01504c90d9613a83d6ecf8323800213495c966 smb: smbdirect: introduce smbdirect_get_buf_page_count()
+0ad03ed97da1761a8c42bf4fad559409dfbe0db7 smb: smbdirect: introduce smbdirect_socket_wait_for_credits()
+de5ef8ec3c4694b9ad665eeea7321202a85474b6 smb: smbdirect: introduce smbdirect_mr.c with client mr code
+6cc55655d0bc5836e17f84fd81e450740a78a7bb smb: smbdirect: introduce smbdirect_rw.c with server rw code
+5fe03dd0c52094a2673b829af0f432bab038edcc smb: smbdirect: define SMBDIRECT_MIN_{RECEIVE,FRAGMENTED}_SIZE
+822b1f296a4a230425464a7e42a7f180990aed5d smb: smbdirect: define SMBDIRECT_RDMA_CM_[RNR_]RETRY
+ea4151222a93d3bfd5d5c438d1c286a5dcff846c smb: smbdirect: introduce smbdirect_connection_recv_io_done()
+422a2436697da6cc0f2de812a778ff1d249b5335 smb: smbdirect: introduce smbdirect_socket_destroy[_sync]()
+b895bc4d215575132c7fec55cf6a2d3787c16a58 smb: smbdirect: introduce smbdirect_connection_rdma_{established,event_handler}()
+20c55c6910cc305854e7d545d85493d0d383b081 smb: smbdirect: introduce smbdirect_connection_recvmsg()
+3514195010828078173dd0608ba04340b718892f smb: smbdirect: introduce smbdirect_connection_grant_recv_credits()
+4908d19640f4e7834acf26a7de2b78b1c1880829 smb: smbdirect: introduce smbdirect_connection_request_keep_alive()
+54abc694ebb8fae2bf1c23fa0a5b1652f4d70bf6 smb: smbdirect: introduce smbdirect_connection_send_iter() and related functions
+db3092ed2f0bec27eb289755173134e46e3ae7a4 smb: smbdirect: introduce smbdirect_connection_send_immediate_work()
+099db5093e4d894483163bd7e4b58c99319bc3f3 smb: smbdirect: introduce smbdirect_connection_negotiation_done()
+b183b7b9b51fc37cc8e1fbad3c0d84e0cb605266 smb: smbdirect: introduce smbdirect_mr_io_fill_buffer_descriptor()
+a93b68d46e1450ca6d395be0ca002f8bdf04d9a6 smb: smbdirect: introduce smbdirect_connection_legacy_debug_proc_show()
+09d617d3121e14309ad5e4287b0da3ec27d386a8 smb: smbdirect: introduce smbdirect_connection_wait_for_connected()
+dc24063813ea617394db153cf9203286770ed404 smb: smbdirect: introduce smbdirect_connection_is_connected()
+b3e78c651441eaf08e830e260d06fd8d33a8b7f9 smb: smbdirect: introduce smbdirect_socket_shutdown()
+dce268ffcddc96f29707c1967c52b036ad92e43d smb: smbdirect: introduce smbdirect_socket_init_{new,accepting}() and helpers
+ede2b44b0e62378cb8585dda20a4edadbc621bb0 smb: smbdirect: let smbdirect_socket_set_initial_parameters() call rdma_restrict_node_type()
+d1f187656797fc7434388c1795e05f8abe370d46 smb: smbdirect: introduce smbdirect_connect[_sync]()
+eb3ed1e9048cf7b2a38112f48e0f1b772bb7860d smb: smbdirect: introduce smbdirect_accept_connect_request()
+20cd3cc4420bdb9f63644cd140e2682f634e651e smb: smbdirect: introduce smbdirect_socket_create_{kern,accepting}() and smbdirect_socket_release()
+b1e6277bd1240c3a66aac537b1b43b4bfd2edcd8 smb: smbdirect: let smbdirect_socket.h include all headers for used structures
+5e4bf7fadd4a608cace7604b720483f051f8176f smb: smbdirect: let smbdirect_internal.h define pr_fmt without SMBDIRECT_USE_INLINE_C_FILES
+b2261ceedd4a4831957732ebae5ad33bf5c7fc80 smb: smbdirect: introduce smbdirect_public.h with prototypes
+89df0942907894a92dbece12bfa35e1647959b0c smb: smbdirect: provide explicit prototypes for cross .c file functions
+4c9e665cb1132b92812886d08ec784132eb66caf smb: smbdirect: introduce smbdirect_init_send_batch_storage()
+84df3cde16090d5d1de4df31623ef0433fdea041 smb: smbdirect: split out smbdirect_accept_negotiate_finish()
+03f9e2c15f8fa32b8056a3a59f98f652726f78b8 smb: smbdirect: introduce smbdirect_socket_bind()
+dc691b91ad1677def14582a279e56fd943b52f94 smb: smbdirect: introduce smbdirect_socket_{listen,accept}()
+f9a804da479cc41172f1039b4ffde06a09920506 smb: smbdirect: introduce the basic smbdirect.ko
+dd43c2227394472aa6e438ddffc2f58028de7531 smb: client: make use of smbdirect_socket_prepare_create()
+2459505596f57664f61a1be9b50065ebed9da660 smb: client: make use of smbdirect_socket_set_logging()
+5f6e338bbb78787933ffcf87959178c4f0a08757 smb: client: make use of smbdirect_socket_wake_up_all()
+872b23ab6d9495e5504ac0a43e9ec977e750052a smb: client: make use of smbdirect_socket_cleanup_work()
+43e1fed89e40346578a2f94ae0a87dfa05987fa5 smb: client: make use of smbdirect_socket_schedule_cleanup()
+927183cdbe4897f9a4bc0f64201fb0f192722d35 smb: client: make use of smbdirect_connection_{get,put}_recv_io()
+018ed87aa5ddc42f4437f6f9df4386e8e18e481d smb: client: make use of smbdirect_connection_reassembly_{append,first}_recv_io()
+c85814ca5f3d22f08f3513a6eb91162392f4fe4b smb: client: make use of smbdirect_connection_idle_timer_work()
+6f9055aa9c8c16c7a9e185e35257dbee3852d42f smb: client: make use of smbdirect_frwr_is_supported()
+f7a59fff0259592e138c702b3c22b5fbf3c8ea00 smb: client: make use of smbdirect_connection_{alloc,free}_send_io()
+958da403e1db2fad62d1b9398b486e34658396f8 smb: client: make use of smbdirect_connection_send_io_done()
+116f3eed365143dd8c31a50fe62726966d047577 smb: client: make use of smbdirect_connection_{create,destroy}_mem_pools()
+e5fd091663f82ee6c36cffd4bb93fcee9fc644c3 smb: client: make use of smbdirect_map_sges_from_iter()
+0b7da58fec9ae573263571d5574d6a44f52c8223 smb: client: make use of smbdirect_connection_qp_event_handler()
+6bcccfb0c0f214e2ee3f09125f0459c9fbfea766 smb: client: make use of smbdirect_connection_negotiate_rdma_resources()
+8de5571045902b5cadee117ec02c62c2f6cb0886 smb: client: make use of smbdirect_connection_{create,destroy}_qp()
+6a67fe6212028754d3b3b57871916309a16863a6 smb: client: initialize recv_io->cqe.done = recv_done just once
+26003faa7d477eed4ceb5b5b49e4eb4a77bf2f6f smb: client: make use of smbdirect_connection_post_recv_io()
+73ec624781cd7a43a2dbad8c7d40133703089224 smb: client: make use of smbdirect_connection_recv_io_refill_work()
+2a49b625189ebf43329299f47dd513840acd89ae smb: client: make use of functions from smbdirect_mr.c
+2cafcddbdada359f36a93bd014eef7ea2186435d smb: client: make use of smbdirect_socket_destroy_sync()
+edb9e514f0e058a924a169795fb0e34286da9572 smb: client: make use of smbdirect_connection_recvmsg()
+8b72c199a9626cc1b53c8d579e9e4c6f23af8908 smb: client: make use of smbdirect_connection_grant_recv_credits()
+b942f351c25051f971a39fac06ebed02da9a648e smb: client: make use of smbdirect_connection_request_keep_alive()
+15c7e492610f001e1ff6480c6b5d9d1653afaa3c smb: client: change smbd_post_send_empty() to void return
+b626ccd251ae9181dd716036718da7b7da042726 smb: client: let smbd_post_send_iter() get remaining_length and return data_length
+7c81e7bb1338b7c9a45f6f240aec3bc243abf0b6 smb: client: let smbd_post_send_full_iter() get remaining_length and return data_length
+63972da39f900b98c18b5283dcde74e3ce0909fb smb: client: make use of smbdirect_connection_send_{single_iter,immediate_work}()
+5bd752e7749e4abcae71d95e22b75272ac767b06 smb: client: introduce and use smbd_mr_fill_buffer_descriptor()
+0b0a1a3b2d25464ed65a89e2cfbdd41ea78b2502 smb: client: introduce and use smbd_debug_proc_show()
+7dbfc0d910e0364117e01b6c41fb641360852497 smb: client: make use of smbdirect_socket_init_new() and smbdirect_connect_sync()
+b8aef8c8808cc78992bec2ab2195c5e0903c0879 smb: client: make use of smbdirect_socket_create_kern()/smbdirect_socket_release()
+a8e98e392062a9575e41646621f238f3a35203ae smb: client: only use public smbdirect functions
+6acc747906c5b87657dc313ff6cb777d805a6ec4 smb: client: make use of smbdirect.ko
+4624f1bf1b79bd50ddbd1178aa741b8a7afba5b0 smb: server: make use of smbdirect_socket_prepare_create()
+bbf3559afe5ef7283eaa3112520ce06f73426ee1 smb: server: make use of smbdirect_socket_set_logging()
+33562021f4151c3d18be696c7c55e323716a0a39 smb: server: make use of smbdirect_socket_wake_up_all()
+1b1ee1e3ee32115492adc6c746177fca6fc8593b smb: server: make use of smbdirect_socket_cleanup_work()
+0ffbbfdf6a2698d31dc6b38b47fa04ef0cd075a1 smb: server: make use of smbdirect_socket_schedule_cleanup()
+01f26988c8728c5dd993f03b316c32d2cce3b4e3 smb: server: make use of smbdirect_connection_{get,put}_recv_io()
+aa1255e71ffac6868e9db10ac3b6c2c10711afd9 smb: server: make use of smbdirect_connection_reassembly_{append,first}_recv_io()
+84d7085e5f2343877e4b0e0a55569f59f7db92a1 smb: server: make use of smbdirect_connection_idle_timer_work()
+c81c66d3c09aa1dfab2137ac6b737a206d228b2f smb: server: make use of smbdirect_frwr_is_supported()
+8ecb32ada10e13d608a80f1112daf03c82fa3683 smb: server: make use of smbdirect_connection_{alloc,free}_send_io()
+bb1d5c49d6cdc0be77719123237ead835216f304 smb: server: make use of smbdirect_connection_send_io_done()
+07aec3a151b732cfa06bd00821a1ed99b8f87c89 smb: server: make use of smbdirect_connection_{create,destroy}_mem_pools()
+8688d7a8c712dc507bf4ae6ee07c1eed536e35a5 smb: server: make use of smbdirect_map_sges_from_iter()
+ab8e9249e735f8801039f7eef7ca556d65f64b2b smb: server: make use of smbdirect_connection_qp_event_handler()
+d5e2bdda493f10ccc8e7c3545f79e2505ee94dff smb: server: make use of smbdirect_connection_negotiate_rdma_resources()
+5a2999d7d9c550f265b04e1abf5774e97150d220 smb: server: make use of smbdirect_connection_{create,destroy}_qp()
+62782820e85250bc9919621aa242510d300e9093 smb: server: make use of smbdirect_connection_post_recv_io()
+8d55169a570944cf68c740ba723987ffcd762728 smb: server: make use of smbdirect_connection_recv_io_refill[_work]()
+be0ac9f59f4c7d3399388f8ec90137c5fed1fcd0 smb: server: make use of smbdirect_get_buf_page_count()
+0911d32ba20657c1ceafeab83442ef1f24cdff57 smb: server: make use of smbdirect_socket_wait_for_credits()
+21a72d0900733f19b8b1b846e8318bfe96795636 smb: server: make use of functions from smbdirect_rw.c
+a3bf9bfee8370d7a497276c26ee639d1d7e41677 smb: server: make use of smbdirect_socket_destroy_sync()
+73489efddadc53dbdd4270569c0c00492ace9801 smb: server: make use of smbdirect_connection_recvmsg()
+0a1702e9319f428e2e24a6f4b7109d212296f812 smb: server: make use of smbdirect_connection_grant_recv_credits()
+1421d50ea941c450d089d3b296d308f2b2728f6d smb: server: make use of smbdirect_connection_request_keep_alive()
+0184d2b386f836925ff2f9b4e6d4f9a8048cf58f smb: server: move iov_iter_kvec() out of smb_direct_post_send_data()
+0af87a0a31668d4a0dc8d8140fb51da594935eb4 smb: server: inline smb_direct_create_header() into smb_direct_post_send_data()
+da20536c508c0f511cf20ceef6757ea4861bf547 smb: server: let smbdirect_map_sges_from_iter() truncate the message boundary
+08ffdf0c416849615e8bc935839557429ec24194 smb: server: split out smb_direct_send_iter() out of smb_direct_writev()
+c6b077efbc39e0ad6c20733693671ab4a8dbba18 smb: server: let smb_direct_post_send_data() return data_length
+4b4c21a7d2204bda49aa9772d407ba1264727d6d smb: server: make use of smbdirect_connection_send_iter() and related functions
+94604164871e4c182d1305ab1e43971f41b6cf38 smb: server: make use of smbdirect_{socket_init_accepting,connection_wait_for_connected}()
+ff7673f6fde8a39d2a693c4ef431a7ce933397d2 smb: server: make use of smbdirect_socket_create_accepting()/smbdirect_socket_release()
+1b2d94a3c986473fbb05cd6c5a45d67e5f39f3c2 smb: server: only use public smbdirect functions
+2eff5e51f97663ad2371115260884396718b5e92 smb: server: make use of smbdirect_socket_{listen,accept}()
+98bdc5fda9cc425afe608342b372d25970071f96 smb: server: remove unused ksmbd_transport_ops.prepare()
+50bdab9ae45e6345eaa94adbaefaf1ce5a7e90a1 smb: server: make use of smbdirect.ko
+81a7a3a0faea7e8e64f83aa58e807a8ad329c97d smb: smbdirect: introduce smbdirect_netdev_rdma_capable_mode_type()
+33b2894e8df76f7faf7253d8784515415511968f smb: server: make use of smbdirect_netdev_rdma_capable_mode_type()
+a40e6f0166e6d5fef4dd7d3b71c333319a0964ab smb: smbdirect: wrap rdma_disconnect() in rdma_[un]lock_handler()
+00ac2a4fe04af50e65bbac010379d66d87547c0f smb: smbdirect: remove unused smbdirect_connection_mr_io_recovery_work()
+e4ce1fca0468eb4b6fc2f02667f599bb76df8848 smb: smbdirect: prepare use of dedicated workqueues for different steps
+1adde16a9e28446b5a73a8f0e05f6f977e520528 smb: smbdirect: introduce global workqueues
+73dc52d2942ccf4d4f680176c1e7f36aadba4ce8 smb: client: no longer use smbdirect_socket_set_custom_workqueue()
+649c47559a37fdefefc259ab580b537abbc79fbd smb: server: no longer use smbdirect_socket_set_custom_workqueue()
+aa43bb2c0fc0d928bb120f853349c8affcfeb8b4 smb: smbdirect: remove unused SMBDIRECT_USE_INLINE_C_FILES logic
+735610d0cefa9e44b28498b53706ed2ebac3be27 smb: smbdirect: change smbdirect_socket_parameters.{initiator_depth,responder_resources} to __u16
+3892007f2bbf8ae2df5374de708282d6895402e9 smb: smbdirect: fix copyright header of smbdirect.h
+25c2e34931c5f2a02baefd111a4eb7fa31158059 smb: smbdirect: fix the logic in smbdirect_socket_destroy_sync() without an error
+d09a040c186a2083b1cfa9c3c112782ce4b1f6d4 smb: smbdirect: let smbdirect_connection_deregister_mr_io unlock while waiting
+448c0f8cb7cdf2e6d6e9d1ed3bb8c7397bc71c66 Merge branch 'for-7.1/module-function-test' into for-linus
+f0bf3eac92b2be5f34b944cb82f1c23db642c7f5 Merge tag 'vfio-v7.1-rc1' of https://github.com/awilliam/linux-vfio
+948ef73f7ec39622ebd27bba4e94d78a983109f6 Merge tag 'efi-next-for-v7.1' of git://git.kernel.org/pub/scm/linux/kernel/git/efi/efi
+090748e62f57a80286b2fcc32fe2be069f891200 Merge tag 'm68k-for-v7.1-tag1' of git://git.kernel.org/pub/scm/linux/kernel/git/geert/linux-m68k
+d3d9443f8bac799340bb04db51ef4ababc4f7267 Merge tag 'livepatching-for-7.1' of git://git.kernel.org/pub/scm/linux/kernel/git/livepatching/livepatching
+3cd8b194bf3428dfa53120fee47e827a7c495815 Merge tag 'v7.1-rc-part1-smbdirect-fixes' of git://git.samba.org/ksmbd
 
---===============0067698342121872919==--
+--===============3397584384621128822==--
