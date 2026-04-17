@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8749600250995839057=="
+Content-Type: multipart/mixed; boundary="===============6494835107648331215=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Fri, 17 Apr 2026 14:26:29 -0000
-Message-Id: <177643598968.1183488.15368262506634788933@gitolite.kernel.org>
+Date: Fri, 17 Apr 2026 14:26:31 -0000
+Message-Id: <177643599183.1183596.2552705904516667143@gitolite.kernel.org>
 
---===============8749600250995839057==
+--===============6494835107648331215==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/mm-new
-    old: f05735e5e7a9a47542d26aa254c16449fadf7289
-    new: ee03ca7d1cb1223d0e14dfd3b48478545af75253
-    log: revlist-f05735e5e7a9-ee03ca7d1cb1.txt
+  - ref: refs/heads/mm-unstable
+    old: db2a1695b2b6feb071b47b72e61d0359bf1524bf
+    new: cdc8248bc14ae2f64eac54f637c32909f4f1f4e2
+    log: revlist-db2a1695b2b6-cdc8248bc14a.txt
 
---===============8749600250995839057==
+--===============6494835107648331215==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f05735e5e7a9-ee03ca7d1cb1.txt
+Content-Disposition: attachment; filename=revlist-db2a1695b2b6-cdc8248bc14a.txt
 
 3a9772b38f076ea206e84d270199a72516084fa7 mm/mempolicy: fix weighted interleave auto sysfs name
 98a9fc4387d7684bf0f6de9fc07f582c8f9f7192 mm/damon/core: disallow time-quota setting zero esz
@@ -164,7 +164,5 @@ e90b6becdbcb098785f834759988a40c8557d3c9 kho: fix error handling in kho_add_subt
 d28a76ab52372ad9ebdad5a1dddd29b3495cb145 selftests/mm: verify droppable mappings cannot be locked
 526f14c05a7fd445f279820544237db197dcc39e mm/swap, PM: hibernate: fix swapoff race in uswsusp by pinning swap device
 cdc8248bc14ae2f64eac54f637c32909f4f1f4e2 mm/swap: remove redundant swap device reference in alloc/free
-f3080787ad36b8fdda74563eb566940f7d227ff3 mm/sparse: fix race on mem_section->usage in pfn walkers
-ee03ca7d1cb1223d0e14dfd3b48478545af75253 mm/vmstat: spread vmstat_update requeue across the stat interval
 
---===============8749600250995839057==--
+--===============6494835107648331215==--
