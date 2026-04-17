@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Fri, 17 Apr 2026 16:59:17 -0000
-Message-Id: <177644515754.1337309.833818874082989906@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf
+Date: Fri, 17 Apr 2026 17:13:04 -0000
+Message-Id: <177644598445.1351808.4349044722728013762@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
-user: broonie
+repo: pub/scm/linux/kernel/git/bpf/bpf
+user: ast
 changes:
-  - ref: refs/heads/selftests-fix-double-number
-    old: 0000000000000000000000000000000000000000
-    new: 5e915338a6717856e56a93142fdec68b922335b0
+  - ref: refs/heads/master
+    old: 380044c40b1636a72fd8f188b5806be6ae564279
+    new: 2845989f2ebaf7848e4eccf9a779daf3156ea0a5
+    log: |
+         2845989f2ebaf7848e4eccf9a779daf3156ea0a5 bpf: Validate node_id in arena_alloc_pages()
+         
