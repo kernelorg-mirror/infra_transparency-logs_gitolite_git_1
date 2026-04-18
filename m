@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7897642710968686248=="
+Content-Type: multipart/mixed; boundary="===============2515079504221629846=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Sat, 18 Apr 2026 00:11:03 -0000
-Message-Id: <177647106328.1774571.16791963686975903884@gitolite.kernel.org>
+Date: Sat, 18 Apr 2026 00:11:11 -0000
+Message-Id: <177647107172.1774989.8484873257621222172@gitolite.kernel.org>
 
---===============7897642710968686248==
+--===============2515079504221629846==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: ast
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/for-next
     old: 43cfbdda5af60ffc6272a7b8c5c37d1d0a181ca9
     new: eb0d6d97c27c29cd7392c8fd74f46edf7dff7ec2
     log: revlist-43cfbdda5af6-eb0d6d97c27c.txt
 
---===============7897642710968686248==
+--===============2515079504221629846==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -952,4 +952,4 @@ ba314ed1bff907321ab4091a4e46c4d9f24b5e39 Merge tag 'hwlock-v7.1' of git://git.ke
 12bffaef28820e0b94c644c75708195c61af78f7 Merge tag 'cxl-for-7.1' of git://git.kernel.org/pub/scm/linux/kernel/git/cxl/cxl
 eb0d6d97c27c29cd7392c8fd74f46edf7dff7ec2 Merge tag 'bpf-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/bpf/bpf
 
---===============7897642710968686248==--
+--===============2515079504221629846==--
