@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2941028125815143582=="
+Content-Type: multipart/mixed; boundary="===============0451466413143438247=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Sat, 18 Apr 2026 02:54:41 -0000
-Message-Id: <177648088145.1932804.15716934058070909178@gitolite.kernel.org>
+Date: Sat, 18 Apr 2026 02:54:44 -0000
+Message-Id: <177648088410.1932966.11492893944500635946@gitolite.kernel.org>
 
---===============2941028125815143582==
+--===============0451466413143438247==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-6.18.22/nfsd-next-thru-nfsd-7.0
-    old: 4c69bf336202faa6d530e13bcaa2a9a3c8162522
-    new: 7eecbe217e44a2edaf9f125c37bb3f729eef185f
-    log: revlist-4c69bf336202-7eecbe217e44.txt
+  - ref: refs/heads/kernel-6.18.22/nfsd-next-thru-nfsd-7.0-1
+    old: b0f809051367677bf5dac869d09e48223d59f9be
+    new: 358b0f827d690d9b3bb95fe85287d23adf20755f
+    log: revlist-b0f809051367-358b0f827d69.txt
 
---===============2941028125815143582==
+--===============0451466413143438247==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4c69bf336202-7eecbe217e44.txt
+Content-Disposition: attachment; filename=revlist-b0f809051367-358b0f827d69.txt
 
 829cce3010de790c4269989d642310abba2fa15c vfs: use UAPI types for new struct delegation definition
 f64007397156c6da78eaffca231ad54c66c3aa72 debugfs: rename end_creating() to debugfs_end_creating()
@@ -73,5 +73,6 @@ dde3a62cb4ce8cfb31c19ccab273d051719b0810 NFSD: Add support for XDR decoding POSI
 79ea0c0a676d6537194b53130249e40faa48bd42 NFSD: Add support for POSIX draft ACLs for file creation
 4b70bc1ecff6a42918905a5bb070401ad146ceca NFSD: Add POSIX draft ACL support to the NFSv4 SETATTR operation
 7eecbe217e44a2edaf9f125c37bb3f729eef185f NFSD: Add POSIX ACL file attributes to SUPPATTR bitmasks
+358b0f827d690d9b3bb95fe85287d23adf20755f nfsd: report the requested maximum number of threads instead of number running
 
---===============2941028125815143582==--
+--===============0451466413143438247==--
