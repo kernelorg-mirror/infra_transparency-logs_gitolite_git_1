@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1896313526041654066=="
+Content-Type: multipart/mixed; boundary="===============5898834899327120954=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Sat, 18 Apr 2026 02:54:29 -0000
-Message-Id: <177648086957.1932262.4900759832982157163@gitolite.kernel.org>
+Date: Sat, 18 Apr 2026 02:54:32 -0000
+Message-Id: <177648087224.1932451.2056364075034742337@gitolite.kernel.org>
 
---===============1896313526041654066==
+--===============5898834899327120954==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-6.18.22/nfs-testing
-    old: f959c31c11ca13389ca72577795735ab3f9641d8
-    new: 0e192b7b346e7c93e33fd24b6b4f33d0e5dc09b3
-    log: revlist-f959c31c11ca-0e192b7b346e.txt
+  - ref: refs/heads/kernel-6.18.22/nfs-testing-canary
+    old: d19ad885ecdaa56480cbac877d5cfd802d005db2
+    new: 50060407e6af3eb01667d34d6955243229c38463
+    log: revlist-d19ad885ecda-50060407e6af.txt
 
---===============1896313526041654066==
+--===============5898834899327120954==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f959c31c11ca-0e192b7b346e.txt
+Content-Disposition: attachment; filename=revlist-d19ad885ecda-50060407e6af.txt
 
 aaed9e21afcd23842f1d26b1ae2cd9b6723aa472 nfs: split nfs_update_timestamps
 4b2068867acc8d58026030320ac02c5808c1a522 NFSv4/pnfs: If the server is down, retry the layout returns on reboot
@@ -47,5 +47,6 @@ bc408c96c41f2556da24a72d2c2e924beac59024 pNFS: deadlock in pnfs_send_layoutretur
 1ebcc8502f79f89fe97158def8133740fe491431 nfs: use memcpy_and_pad in decode_fh
 ac9511d24c4294fc3b88ba668c6f3971beef8f68 NFS: fix writeback in presence of errors
 0e192b7b346e7c93e33fd24b6b4f33d0e5dc09b3 NFSv4.2: fix COPY attrs in presence of delegated timestamps
+50060407e6af3eb01667d34d6955243229c38463 sunrpc: refactor TLS transport to remove rpc_clnt dependency
 
---===============1896313526041654066==--
+--===============5898834899327120954==--
