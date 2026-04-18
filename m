@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1314295631145801321=="
+Content-Type: multipart/mixed; boundary="===============8521224619952775699=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Sat, 18 Apr 2026 16:33:56 -0000
-Message-Id: <177653003619.2950072.9666477315930449622@gitolite.kernel.org>
+Date: Sat, 18 Apr 2026 16:33:57 -0000
+Message-Id: <177653003785.2950166.16909929711589490456@gitolite.kernel.org>
 
---===============1314295631145801321==
+--===============8521224619952775699==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/mm-unstable
-    old: cdc8248bc14ae2f64eac54f637c32909f4f1f4e2
-    new: 306afb4fc25375b0fdb0dd9d2c9fd34b4750ab0d
-    log: revlist-cdc8248bc14a-306afb4fc253.txt
+  - ref: refs/heads/mm-stable
+    old: 3bac01168982ec3e3bf87efdc1807c7933590a85
+    new: 0b5e8d7999076ac3c490fc18376a404e2626abff
+    log: revlist-3bac01168982-0b5e8d799907.txt
 
---===============1314295631145801321==
+--===============8521224619952775699==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-cdc8248bc14a-306afb4fc253.txt
+Content-Disposition: attachment; filename=revlist-3bac01168982-0b5e8d799907.txt
 
 3d3544a6c996e88bb793bb6b2665c3e3f674f5eb mm/vma: remove __vma_check_mmap_hook()
 f95fcd7f28082524938db0b3808ce53630b8a718 mm: memcontrol: remove dead code of checking parent memory cgroup
@@ -147,22 +147,5 @@ b5a9ac2bb0e4f8a2a03c395c5176a85cea273c15 MAINTAINERS: drop include/linux/liveupd
 e86ffbe7dfdd869498f1c44edd9ff230286d514e MAINTAINERS: update Dave's kdump reviewer email address
 3de705a43a465fa92a45c0a494ec13bf0bad2642 mm/vmscan: avoid false-positive -Wuninitialized warning
 0b5e8d7999076ac3c490fc18376a404e2626abff MAINTAINERS: add page cache reviewer
-68797911a711ea15ecb876018c99762ac17c8d1f mm/mempolicy: fix weighted interleave auto sysfs name
-754e86f8576fdae2c8940ebda0dff283bff405f9 mm/damon/core: disallow time-quota setting zero esz
-2afc9ad16a4d3d44f733fd8af6a1c9e28364cc09 device-dax: fix refcount leak in __devm_create_dev_dax() error path
-b654d2ec1342f43bd2c1386b58f4c05e02a88b4e mm/zone_device: do not touch device folio after calling ->folio_free()
-fa6f3f894aa1ef0224a235dd4695d49aefee4c46 mm: blk-cgroup: fix use-after-free in cgwb_release_workfn()
-b1a7b0ad5c489a63e27508adb8f7f41bad8ebd46 mm: call ->free_folio() directly in folio_unmap_invalidate()
-3647d860ee7307b43a1556f1a0c3a9861da54908 mm/vmalloc: take vmap_purge_lock in shrinker
-310de339072dae2c7d1c5f13069161e8c824761c mm/damon/core: disallow non-power of two min_region_sz on damon_start()
-aeb0f81866b7ef78ce6c1f16a1f989ca1fa7bd11 mm/hugetlb: restore reservation on error in hugetlb_mfill_atomic_pte() resubmission path
-ec198352eb688a4fdf0be32ec0742558a77be34e foo
-564f4442338936de3791dca117a579172fa63b47 liveupdate: fix return value on session allocation failure
-f65505eeccb5400422605bcd8cf83561736bf0f7 kho: fix error handling in kho_add_subtree()
-d3c31c7ab9d8aa3dcfff3149ef587921f822c03c mm: start background writeback based on per-wb threshold for strictlimit BDIs
-f6fd0c5fb915f8876c7639e535d6ca8fcd9114cd mm: fix mmap errno value when MAP_DROPPABLE is not supported
-9234317dbf6a89524e92d2b8f5978219145e53c3 selftests/mm: verify droppable mappings cannot be locked
-f62db8dbf6289ddde836068138d6f8fe9a07f644 mm/swap, PM: hibernate: fix swapoff race in uswsusp by pinning swap device
-306afb4fc25375b0fdb0dd9d2c9fd34b4750ab0d mm/swap: remove redundant swap device reference in alloc/free
 
---===============1314295631145801321==--
+--===============8521224619952775699==--
