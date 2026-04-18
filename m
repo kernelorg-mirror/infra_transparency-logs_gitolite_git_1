@@ -1,248 +1,185 @@
-Content-Type: multipart/mixed; boundary="===============3795968247640765174=="
+Content-Type: multipart/mixed; boundary="===============8762591531538421619=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ebiggers/linux
-Date: Sat, 18 Apr 2026 22:20:13 -0000
-Message-Id: <177655081387.3288853.8337079979335373820@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
+Date: Sat, 18 Apr 2026 22:31:19 -0000
+Message-Id: <177655147932.3299808.17463008995271013082@gitolite.kernel.org>
 
---===============3795968247640765174==
+--===============8762591531538421619==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ebiggers/linux
-user: ebiggers
+repo: pub/scm/linux/kernel/git/sj/linux
+user: sj
 changes:
-  - ref: refs/heads/misc-pending
-    old: 8dd4740039fe0f767e560a2454d136a9ba730200
-    new: a15daba1a5d6c6fd20380cf03698cfc06fab1702
-    log: revlist-8dd4740039fe-a15daba1a5d6.txt
+  - ref: refs/heads/damon/next
+    old: 2790e278b4b7a3ac872c006936f0ae54463ba572
+    new: 096ca4f5966019516a724eea89ab0189f76356b3
+    log: revlist-2790e278b4b7-096ca4f59660.txt
 
---===============3795968247640765174==
+--===============8762591531538421619==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8dd4740039fe-a15daba1a5d6.txt
+Content-Disposition: attachment; filename=revlist-2790e278b4b7-096ca4f59660.txt
 
-aa6a6a2d16c1e2e27e986936369959d70316199f perf parse-events: Fix big-endian 'overwrite' by writing correct union member
-c5a244bf17caf2de22f9e100832b75f72b31d3e6 perf metricgroup: Fix metricgroup__has_metric_or_groups
-0feca0b788567debbaec6a9a329f5bee1b15c705 perf script: Fix brcntr output with --xed
-96f202eab8133f94479b14a32902c636e9bdf6af perf trace: Fix IS_ERR() vs NULL check bug
-af894feb32570cafea582b100d674b042479544f perf trace: Handle task exit in BPF syscall summary
-c1f70c83be55e6721267f850dbfaf2ae07a04858 perf bench: Add -t/--threads option to perf bench mem mmap
-5d580ffbb43807153a71113fd725fbf8a416d2d9 perf vendor events intel: Update alderlake events from 1.35 to 1.37
-171923140876fa243e7de63a5cc2f3f0eaa48642 perf vendor events intel: Update arrowlake events from 1.14 to 1.16
-5c0df1e860100a822d3192edcbf03c1e3b1449a2 perf vendor events intel: Update emeraldrapid events from 1.20 to 1.21
-e4f8be34479c9d29ac0b35c0c8b33250b62cfaad perf vendor events intel: Update grandridge events from 1.10 to 1.11
-2c0b30e6cc0e09c669a0f166ca3d0d566246d560 perf vendor events intel: Update graniterapids events from 1.16 to 1.17
-6ac2011cd0c75f1de029942634c7daf1e31078f2 perf vendor events intel: Update lunarlake events from 1.19 to 1.21
-698fd9606ee685295313b929e64e3efd2cdd924e perf vendor events intel: Update meteorlake events from 1.18 to 1.20
-19967a42049166dbaa12fbe38d7c93a7148dd4ab perf vendor events intel: Update pantherlake events from 1.02 to 1.04
-c592a539172664afa1240ea324d6117dcb461ba3 perf vendor events intel: Update sapphirerapids events from 1.35 to 1.36
-977000589d30f8d4f0777893711199350d474363 perf vendor events intel: Update sierraforest events from 1.13 to 1.15
-06ec44c2aa2ef15fd56f9808b6cf7495e1fbd8ec perf kvm stat: Fix relative paths for including headers
-d05073adda0f047e9b2115a2932bcb2797eab238 perf trace: Avoid an ERR_PTR in syscall_stats
-895306e3c881ae8a3227a31bf4e64865ad6a534f perf pmu: Replace starts_with with strstarts
-6910944bf0b92fea63d5a7aeed69e4b9c14fd01b perf test type profiling: Remote typedef on struct
-b1718b0367ba31e8db273e3896ebd1707bcbe59e perf annotate: Specify llvm features="+all" for aarch64
-122d16da1313f1746a4cdd31a620bbb141be7060 ipmi: Replace use of system_wq with system_percpu_wq
-7bc4c8f3469284a499febb73dbca7183ff53c98c i2c: robotfuzz-osif: drop redundant device reference
-32dbfb4dbc2a546a6514f1f56152170683778ab4 i2c: diolan-u2c: drop redundant device reference
-09472cecf83bc818ba26d3a17b8d7383ad72a1a1 i2c: tiny-usb: drop redundant device reference
-86ff690f45cc034ab32246630b3c7d7a46d1ae6b perf vendor events arm64: Add Tegra410 Olympus PMU events
-f182573e06abb635f320b0fd0e60972c4c2467c5 perf tools: Add layout support for --symfs option
-ad2f6258dd1d484f328d5cdcc1bc760419636cb2 perf disasm: Fix potential use-after-free on fileloc
-c969a9d7bbf46f983c4a48566b3b2f7340b02296 perf branch: Avoid incrementing NULL
-ed09766cd0bff29a537c6262a2dfca3643c2f6e6 perf symbol: Reduce scope of elf__needs_adjust_symbols
-8e6f3103c079d44b51177449cd93af4c18733194 perf dump-insn: Remove dump-insn.c
-2907fd820b8f1e4563ecd624989fd5a4db479c2f perf tool: Constify the command and option arrays
-5cd621dead2b1fe71afa723f73904242a1bd01a8 perf bpf_map: Remove unused code
-bb551508e78c886e6d3bcca6c744d3bc3fd8ad59 perf record: Remove unused cpu-set-sched.h
-6c478e7b3eba3f387a2d6c749e3e3ee0f8ad1c53 perf: tools: cs-etm: Fix print issue for Coresight debug in ETE/TRBE trace
-35cd0098eeb9601844cb82c4402fa7e6576c8b01 perf: tools: cs-etm: Enhance raw Coresight trace debug display
-ebbc5ce26eca294cf5f4e63399de63d086900442 perf tools: Remove duplicate include of debug.h
-4138987f8a90574f4d5881afa5db4c5f78553811 perf tools: Remove duplicate include of stat.h
-616cd6047cbf736d93808f652086dd10a836005f perf symbol: Add RISCV case in get_plt_sizes
-30b2e6fa58f3b9eff86fb851a8926bf814d82dcd perf dwarf-aux: Add die_get_pointer_type to get pointer types
-ace16303179efad4e1a2aebb27a661e5d1e7277d perf dwarf-aux: Preserve typedefs in match_var_offset
-8b8d8b8f17dfa817e4e94ce4e8f26d92f6f65504 perf dwarf-aux: Skip check_variable for variable lookup
-69953f9c65856fc9438fc2ad4b9fd8255a2e47da perf annotate-data: Improve type comparison from different scopes
-6ffc3d0d3db5fb6c88fcb69eb355e9cc839a860c perf dwarf-aux: Handle array types in die_get_member_type
-752e662ae0619721ddde6f60a84fbe3c669fc539 perf annotate-data: Collect global variables without name
-1b8db0c963bf788392976bea87f0ef8d227c4930 perf annotate-data: Handle global variable access with const register
-22b320777c5f496a36867f16f18870e67b123020 perf annotate-data: Add invalidate_reg_state() helper for x86
-d35b0d5877109ecca106cc3835d4d23ac2cdc33c perf annotate-data: Invalidate caller-saved regs for all calls
-4fb7eefe6c539840fa8854d67d00af35331b8843 perf annotate-data: Use DWARF location ranges to preserve reg state
-a90407a5a89a29f3c4af89e55afe4d0489b8a81c perf dwarf-aux: Collect all variable locations for insn tracking
-d84db579d75fd32ea6dd7814c8cf6b1c8b45ac05 perf evsel: Improve falling back from cycles
-8ebb69e549aa900cb51c0876c4f6ea03e5ece438 perf target: Constify simple check functions
-443556be8adc59126624eccd41f4150ec0e5a11a perf evsel: Constify option arguments to config functions
-c006753c3aae432efda28d5aaea4b8fec0343da8 perf callchain: Refactor callchain option parsing
-ca76fb67ebdd5e1a30a242d06dc096fddd670734 perf evlist: Improve default event for s390
-08e392059b7554e30435b477cd059117fcc165ec i2c: npcm7xx: Use NULL instead of 0 for pointer
-a78295dff1894bfdba4398ca38a7262045f6195e dt-bindings: i2c: qcom-cci: Document Milos compatible
-7a8d9fac8a9f44a5f030fec4c9c2ed2219885e3c i2c: cp2615: rename disconnect callback
-5a2b3a854601a0c3e82d56ad2309e899027fc3b3 dt-bindings: i2c: qcom-cci: Document sm6150 compatible
-58ea47a30b7dd2053545d5e7cae37b640b0dc442 dt-bindings: i2c: renesas,riic: Document the R9A08G046 support
-54fcc7f6ec3944ae7c1b0246a999744e33839cdb Merge tag 'perf-tools-fixes-for-v7.0-2-2026-03-23' into perf-tools-next
-d78908eae874cc2f18c182ab5718116205dbf2eb dt-bindings: i2c: dw: Remove unused bindings
-c0128c7157d639a931353ea344fb44aad6d6e17a i2c: s3c24xx: check the size of the SMBUS message before using it
-5c980ab238c8a9e2b24221603f11eadc98a7f45e tools build: Correct link flags for libopenssl
-46a009cf0d85cba05d4667214db18a4c20dd6b8e perf record: Add support for arch_sdt_arg_parse_op() on s390
-cfaade34b52aa1ec553044255702c4b31b57c005 perf lock: Fix option value type in parse_max_stack
-44311ae84ad9177fb311aee856027861c22f17b2 perf stat: Fix opt->value type for parse_cache_level
-e397dd81bc45a991c43a97e010aa3fbe72ac833b perf report: Add comm_nodigit sort key
-4f1e5c967231fefcd04290396724d519961ecffb dt-bindings: i2c: spacemit: k3: Add compatible
-4eeb19aaff5580da0b2d0c1897e1dbd016755499 i2c: tegra: Introduce tegra_i2c_variant to identify DVC and VI
-0c0e440b0c93785847d60e89198869c969fb56ec i2c: tegra: Add logic to support different register offsets
-59717f260183712af5ce537fee71687e3ba010a5 i2c: tegra: Add support for Tegra410
-cfb839de4eb3443e37996388943cc7482b83a022 i2c: designware: Add a new ACPI HID for GOOG5000 I2C controller
-3762e535f2c9b31716a982d9fdd5c51d5ec7aa42 i2c: qcom-cci: Remove unused CCI_RES_MAX macro definition
-8461f5e3887404b19ba073fd1cc92e2f8f73185b i2c: ocores: Use read_poll_timeout_atomic to avoid false poll timeouts
-74e2dbe7be5037a5e5eed6bc1ad562747ac88566 perf tools: Add --pmu-filter option for filtering PMUs
-73e65c424867fb9396de6d1265228b75e1ee0718 i2c: tegra: enable compile testing on all archs
-d3e2c7476e378089d56067202f4d29969fbd47b3 dt-bindings: i2c: intel,ixp4xx-i2c: Convert to DT schema
-be867c49fe62d56b5a4c2e08ce47dd396d13714f perf build: Add -funsigned-char to default CFLAGS
-a8e11416ffdcddb3bb3adb265f10b67591d21de8 perf beauty: Move tools/include/uapi/drm to tools/perf/trace/beauty/include/uapi
-7f8969aa739da4d2096f2e6f87e030de6efad9dc perf beauty: Move copy of fadvise.h from tools/include/ to tools/perf/trace/beauty/include/
-f7f4a21c2a51710a06965cc9c1252821fc925544 memblock: Print out errors on reserve_mem parser
-0709682cdb4ac77e3f78ea9c10d7f74b41a12518 memblock: Add reserve_mem debugfs info
-8b7b85384fad6e21e8a28628e7ebacb5a6329de4 memblock: move reserve_bootmem_range() to memblock.c and make it static
-c12c3e1507809ad1fc0448f51c933f52e17d13cd memblock: reserve_mem: fix end caclulation in reserve_mem_release_by_name()
-25ee3aff9996f22e1b8b27fb284efb285e2fb025 powerpc: fadump: pair alloc_pages_exact() with free_pages_exact()
-8ff5d8f2008889bb6f46125d5a0638e8749e29bd powerpc: opal-core: pair alloc_pages_exact() with free_pages_exact()
-0510bdab538e2af07a67bc58a0c6c4547b83f8d5 mm: move free_reserved_area() to mm/memblock.c
-b8de9573e6aea8e0be666288ee4427eb07369187 memblock: make free_reserved_area() more robust
-7fbc5e26123e5fee1f0eb59e6fabf5ce4cf4f475 memblock: extract page freeing from free_reserved_area() into a helper
-b2129a39511b71b5ed0ae923d6eebd9398c6184e memblock: make free_reserved_area() update memblock if ARCH_KEEP_MEMBLOCK=y
-87ce9e83ab8be5daf64351cd481ffa6537778e6b memblock, treewide: make memblock_free() handle late freeing
-59bd1d914bb51ab99a33ce32420403ccd035ad29 memblock: warn when freeing reserved memory before memory map is initialized
-83c338369a88eeab8cc64446c7ba9bb8ffb37e4a libperf cpumap: Make index and nr types unsigned
-9b6c479c5f418e6174f528f0b25d944f74172c61 perf tests: Write test files to tmpdir
-d9db9c8db56c3e378aa5c91637664f77ca5a6f72 perf test: Fix perf stat --bpf-counters on hybrid machines
-879766b58ea5cba79ff5fe46f062ed8e05e715aa i2c: rtl9300: add support for 50 kHz and 2.5 MHz bus speeds
-4c53b2eb4f18102c36d4bcaf8c604a1825701ffb i2c: rtl9300: split data_reg into read and write reg
-98773df61f8416594ac993e8464df596755ee1b8 i2c: rtl9300: introduce max length property to driver data
-55284a806b63a412846b9ecd3846f2639eaeaff4 i2c: rtl9300: introduce F_BUSY to the reg_fields struct
-6afde011baaf722aa66c11696b6383f9ce85b653 i2c: rtl9300: introduce a property for 8 bit width reg address
-1211ce1e11d23ec05d80a85b7187baa6abed3232 dt-bindings: i2c: realtek,rtl9301-i2c: extend for clocks and RTL9607C support
-f60d27926c9e2d547200fb0d26f61eec9b8291a6 i2c: rtl9300: introduce clk struct for upcoming rtl9607 support
-991cd899ecd03a1c3ef7d177a0b99e824c6be581 i2c: rtl9300: introduce new function properties to driver data
-40890b5fe72b1a0d4913883844854f6641a2f4b3 i2c: rtl9300: add RTL9607C i2c controller support
-50c63491ff267f2860a6d8cb70c9a30ab701b9d3 i2c: xiic: switch to devres managed APIs
-e1d98e42b4b701b193f7c2142901f553734acc6a i2c: xiic: remove duplicate error message
-b621a966fbe6b937792a5ec43dc2c5dd68898c60 i2c: xiic: switch to generic device property accessors
-b698377976bc4de60360bbde104e50c503c3a330 i2c: xiic: cosmetic cleanup
-f715b059d442d524d45f8ec91ebe63c4c0d0ad00 i2c: xiic: cosmetic: use resource format specifier in debug log
-91430a8ea9cebbe47c1723871492d5c135faf999 i2c: xiic: use numbered adapter registration
-dd0422eb1566a823587ede7780aef9c9c7a45b04 i2c: xiic: skip input clock setup on non-OF systems
-b5708a308a5602d4a3caf0720dce452082d443ec perf stat: Fix crash on arm64
-4cbceeca56386256dbb5d1ce657c81ba03275ee0 perf trace: Skip unnecessary synthesis for summary-only mode
-9a82bfde4775b7a87cd1a7e791f46f83ae442848 perf tools: Fix module symbol resolution for non-zero .text sh_addr
-77cb9b443b7fff2a93d78cd2e309db030046772f perf test: Fix ratio_to_prev event parsing test
-ff6be45adb1989698867938157f9317ae0bba936 perf tools: prevent null dsos from being added
-eb27e1c885ea75c1661188a548d100c8bce5970a perf test: Skip perf data type profiling tests for s390
-3a61fd866ef9aaa1d3158b460f852b74a2df07f4 perf expr: Return -EINVAL for syntax error in expr__find_ids()
-d148934beeacaf074e1e6f00fae3be737bbc4089 perf expr: Add '\n' in literal parse errors
-e0f4767bf403131f7ec7378d0d23ad6c29b01936 perf metricgroup: Refine error logs
-85a9a4abcdc09ee941273c99d3ad0bc2ddef09ea perf header: Validate build_id filename length to prevent buffer overflow
-11e8d234d4be7af401e8a24e078005ecd9bc1d1a perf trace: Fix potential u64 underflow in duration calculation
-623030fd0ad59ecc4197b0c0f8dd066a0f0598b3 perf clockid: Add missing include
-8cc518735beb879c51df712a5ce5893c02f81b12 perf header: Add utility to convert feature number to a string
-598de368375ed4ffaa23086524ea7dbb5b7fd256 perf header: Properly warn/print when libtraceevent/libbpf support is missing
-cdaebccc1cb5c0f635f6db7fb1570f11b5c9f985 perf session: Extra logging for failed to process events
-8a4aab17c350f7c2ca7c459a9977f8e18f2878f6 perf header: Refactor pipe mode end marker handling
-fbfdf3143271ca695061fa5882651bb512832044 perf ordered-events: Event processing consistency with the regular reader
-b1e814f860c758c289dc63825caf322e2cb5e298 perf evsel: Make unknown event names more unique
-43c0901edaabb59f94d7f136be9b6afcfbc36df8 perf data convert ctf: Pipe mode improvements
-aa0c2bb09bdc5423aa6a0da41762ea0703ed567c perf tests kwork: Add basic kwork coverage tests
-210259987d9a7bb8506f3e93c2ddbece15c13b15 perf metrics: Make common stalled metrics conditional on having the event
-7fc3e2546cf3fa9a28a2acc92a512c779a8e5038 ipmi: ssif_bmc: cancel response timer on remove
-ea641be7a4faee4351f9c5ed6b188e1bbf5586a6 ipmi: ssif_bmc: fix missing check for copy_to_user() partial failure
-1d38e849adb6851ee280aa1a1d687b2181549a66 ipmi: ssif_bmc: fix message desynchronization after truncated response
-c9c99b7b7051eb7121b3224bfce181fb023b0269 ipmi: ssif_bmc: change log level to dbg in irq callback
-d5759519805c54786c00765ca1303e6d7a0676ca x86/alternative: delay freeing of smp_locks section
-d4464694f2a409fadbe17a70202242ff6b72ee30 ipmi: ssif_bmc: add unit test for state machine
-7f5b8d5e6dde6d5019d03a46c02a6281a4d76a22 perf sched: Avoid crash for unexpected perf sched stats report
-f1d78f5c9bd4dfda5f12372a4b99e413272723d2 perf tests sched stats: Write output to temp file
-c66cf8c593c7603415415587077f8de93238544f perf tools: Save cln_size header
-8a7a23b27d55e036c2c54438d75878cf24bf95f6 perf sample: Document struct perf_sample
-ad5ceacd48e9ea36bd12e778071561290adb0154 perf sample: Make sure perf_sample__init/exit are used
-aeae075a0352eb6ab363fb1910f209eaa296a175 perf sample: Add evsel to struct perf_sample
-c9ef786c0970991578397043f1c819229e2b7197 perf cgroup: Update metric leader in evlist__expand_cgroup
-dc647eb00969cd213c84d6caee90c480317e857d perf test: Skip sched stats test for !root
-93b5d21e8b5cbdc3e439b94feee9b013e8170905 ipmi: ssif_bmc: Fix KUnit test link failure when KUNIT=m
-bb7aeeaa2106c6cc31cc88a513249bb80018535d perf config: Rename symbol_conf::disable_add2line_warn
-59f6de4e8f2295f8beb2857d8b87e67218e63538 perf config: Make symbol_conf::addr2line_disable_warn configurable
-83674a78293f113b47a042d4470c264f6aa54fd5 perf addr2line: Remove global variable addr2line_timeout_ms
-b01741b2854aef073a8106468903aba0cf4f8539 perf maps: Move getting debug_file to verbose path
-c4f3ff3289380437d26177e8f2fe4b7507816ee3 perf maps: Fix fixup_overlap_and_insert that can break sorted by name order
-f552b132e4d5248715828e7e5c2bf7889bf05b2e perf maps: Fix copy_from that can break sorted by name order
-d3e01be6daab9f76f3c8b0ffd556ed9f18275c22 perf symbols: Make variable receiving result strrchr() const
-e5cce1b9c82fbd48e2f1f7a25a9fad8ee228176f perf util: Kill die() prototype, dead for a long time
-046fd8206d820b71e7870f7b894b46f8a15ae974 perf tools: Make more global variables static
-c89f35def821874d993bb1c033a7c3cbd32bccdb perf bench: Constify tables
-fc32ae6df83d78145391bfdaf0e213babad8e93f perf header: Use a max number of command line args
-7507abd16a05e8b191ed7bed69e075b23111c401 perf header: Do validation of perf.data HEADER_CPU_DOMAIN_INFO
-fbfb858552fb9a4c869e22f3303c7c7365367509 perf tools: Use calloc() where applicable
-19a9ed115fda95317c98bef0c716ea8412cd8ce0 perf tools: Replace basename() calls with perf_basename()
-80b549be27de0f11124c66eaeb5307c7b4582edd perf data: Clean up use_stdio and structures
-4cf1f549bbcdfea9c20df52994bb342677472dcd perf test: Make perf trace BTF general tests exclusive
-5b74da8e6cf7e2b5aed0836c733238c0fd7235af i2c: spacemit: move i2c_xfer_msg()
-5dd75dac1b35e5b24f5051d01fc85105adcc2e15 i2c: spacemit: introduce pio for k1
-6ecea2083d61f2b440477693b8b024df00dccbb4 i2c: atr: use kzalloc_flex
-faaf70f938236b94b150320e452fe2d577936a42 perf sort: Support sort ASE and SME
-0f648fc245c316d799f853d7ab97f2bfef68d7dd perf sort: Sort disabled and full predicated flags
-54940f15269e0a5f6249e8520f81c2b980111f42 perf report: Update document for SIMD flags
-4e03d6494f9504f8af46ba68a2a8b6877c196789 perf arm_spe: Improve SIMD flags setting
-656147fb1d4ce047a3889d1b9539cdec0327cc16 i2c: qcom-geni: Avoid extra TX DMA TRE for single read message in GPI mode
-e43f2df330a1b87c97235e4faade860d15787735 i2c: usbio: Add ACPI device-id for NVL platforms
-fab205e49286ab01cbc6fa8debd65a5a6e6cca71 perf sample: Fix documentation typo
-91eb7ec7261254b6875909df767185838598e21e ipmi:ssif: Remove unnecessary indention
-f823d7efb81cd2a799dc386da4f9292fdc2c1dbe perf header: Validate nr_domains when reading HEADER_CPU_DOMAIN_INFO
-06452a412e5e89c62cd4917a457c5cfd43dc1ead perf header: Bump up the max number of command line args allowed
-376ce5a9f706a75815c8281861b66060438798d1 perf header: Sanity check HEADER_NRCPUS and HEADER_CPU_DOMAIN_INFO
-22a2e2b29217455cf337c765fc26ad2f55d7291a perf header: Sanity check HEADER_CPU_TOPOLOGY
-4ba223016b0be7ec11aad63f480cd251cecad594 perf header: Sanity check HEADER_NUMA_TOPOLOGY
-a881fc56038a7baa5cb5074cdd52315d9ad9ee63 perf header: Sanity check HEADER_MEM_TOPOLOGY
-f613a6d694aa499edb2a291ab2c2d906619585f2 perf header: Sanity check HEADER_PMU_MAPPINGS
-6830e20c92e7388ae4834a3574a0d3d90500c4c1 perf header: Sanity check HEADER_GROUP_DESC
-110a661708a6a90997442f02f261e2043624a1c8 perf header: Sanity check HEADER_CACHE
-47c68eb15ae90fa3953db9a67b4569089ff63cd0 perf header: Sanity check HEADER_HYBRID_TOPOLOGY
-f5722a6b6a443fd56ce0a71b4be4c75d7a857dbe perf header: Sanity check HEADER_PMU_CAPS
-66af7e9b05c4e7ff435c0aef0d253a65d290f03c perf header: Sanity check HEADER_BPF_PROG_INFO
-dff56bdafae8e65d9acb88cc98e1f5129c352201 perf header: Add sanity checks to HEADER_BPF_BTF processing
-97ab89686a9e5d087042dbe73604a32b3de72653 perf build: fix "argument list too long" in second location
-c7fe4e5665b7c31a24d362229182f6ee27e07233 perf test: Fix inet_pton probe failure and unroll call graph
-86d1095fdb7017a93e9d7be875775f7e5aa5c2f5 perf test: Fixes for check branch stack sampling
-a355eefc36c4481188249b067832b40a2c45fa5c perf annotate: Use jump__delete when freeing LoongArch jumps
-841dbf4871c57ce2da18c4ea7ffac5487d0eda16 perf loongarch: Fix build failure with CONFIG_LIBDW_DWARF_UNWIND
-e336aa3c396ba41fd5a3b818df917a70f39594a5 Merge tag 'i2c-host-7.1-part1' of git://git.kernel.org/pub/scm/linux/kernel/git/andi.shyti/linux into i2c/for-mergewindow
-9a683fe0a00d2684ae874fd9eb58e6c1864fdf36 Merge tag 'v7.0-rc6' into perf-tools
-0b6c8e21157fb6dfa35163fdfe5c10387bcc6c41 parisc: update outdated comments for renamed ccio_alloc_consistent()
-3dd31a370c1dccb580f729af7c580ccb1ae3c0c9 parisc: Drop ip_fast_csum() inline assembly implementation
-da3680f564bd787ce974f9931e6e924d908b3b2a parisc: _llseek syscall is only available for 32-bit userspace
-75c486cb1bcaa1a3ec3a6438498176a3a4998ae4 ipmi:ssif: Clean up kthread on errors
-97bfda452054ae0c20ab5318337e9b95ed32f616 parisc: Avoid compat syscalls when COMPAT=n
-b5d5faba0f774f3216d8d699e130b01021e79f6c parisc: is_compat_task() shall return false for COMPAT=n
-7dc9ee6e5e22722f219e4cdcab37e2476d6baaf6 parisc: Fix signal code to depend on CONFIG_COMPAT instead of CONFIG_64BIT
-35493b28e71c3e7d376f98e58bb3c227511177c1 parisc: Fix default stack size when COMPAT=n
-bc4021c4e992960f1b8902bd613630c1e8edf7e7 parisc: Allow to disable COMPAT mode on 64-bit kernel
-ba56cdf133646565dde354433bb80fcbd459474b parisc: Include 32-bit VDSO only when building for 32-bit or compat mode
-3dce917902056ca7e46685f86f1f94b5953092e2 parisc: Allow to build without VDSO32
-1221365f55281349da4f4ba41c05b57cd15f5c28 module.lds.S: Fix modules on 32-bit parisc architecture
-707610bcccbd0327530938e33f3f33211a640a4e parisc: led: fix reference leak on failed device registration
-df8f6181ab57d65a99e61fcfc5be22a42df58642 Merge tag 'perf-tools-for-v7.1-2026-04-17' of git://git.kernel.org/pub/scm/linux/kernel/git/perf/perf-tools
-1e769656963e0329b91d32ec76955e077966b603 Merge tag 'for-linus-7.1-1' of https://github.com/cminyard/linux-ipmi
-fba676bd2919ceff5a678c0bd05ab3ac89affaeb Merge tag 'i2c-for-7.1-rc1-part1' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
-9055c64567e9fc2a58d9382205bf3082f7bea141 Merge tag 'memblock-v7.1-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/rppt/memblock
-eb5249b12507246dc959945454cd1be8d7dc3795 Merge tag 'parisc-for-7.1-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/deller/parisc-linux
-a7e9824666976fcead1130467a64e7d8d9d76cf6 f2fs: remove unreachable code in f2fs_encrypt_one_page()
-db3e0589fe201a88c7ac043867e42c7772d6a4f8 libceph: Remove obsolete session key alignment logic
-b7de127d88bed81d3d67c00e3cddb85bde0f9139 scsi: lpfc: Use the crc32c() function
-35f4bff9e5a0c98def6debd7f0d810e54c177bdc KEYS: encrypted: Remove unnecessary selection of CRYPTO_RNG
-a15daba1a5d6c6fd20380cf03698cfc06fab1702 scsi: iscsi_tcp: Remove unneeded selections of CRYPTO and CRYPTO_MD5
+710b7b26c423290803f447f5ed2fb264e91cda56 ==== modules: fix stale status parameters ====
+992723e5cb3659e7c6af9323887d39ecb94f3306 mm/damon/reclaim: detect and use fresh enabled and kdamond_pid values
+ecc7d3bfe553bfe33e6b548c86c72d1517468fad mm/damon/lru_sort: detect and use fresh enabled and kdamond_pid values
+e033cc30934c0a9018ce2e6b9e9c0f2741071343 mm/damon/stat: detect and use fresh enabled value
+169967720f566debff22ed2d5011307c15aef912 ==== reposting ====
+e968a098c30106d0869e55ae9304ea9276799079 mm/damon/ops-common: optimize damon_hot_score() using ilog2()
+1724a20d135111e38e02ce9035eb89a5f8470a83 Docs/admin-guide/mm/damon: fix 'parametrs' typo
+a59131e25eed8f187550c352b2816cba0a1ff84f mm/damon: add synchronous commit for commit_inputs
+1d4c1e13865cae55b7750e2622d05831700487c0 mm/damon: support MADV_COLLAPSE via DAMOS_COLLAPSE scheme action
+6cf064e71e5c575571323356ebc6cab51abac863 === hacks in progress ===
+207b474c540313fcf0b71657409b89f6f020a342 mm/damon: fix damos_stat tracepoint format for sz_applied
+c01217dd27d5e435e5ec38534da69966819db222 ==== damon pause_resume ====
+e236d9372c9bb06ce04f1e9ce99d72c971b9ca98 mm/damon/core: introduce damon_ctx->paused
+f553a103f5abdd77312ba26c312ae1a04635e221 mm/damon/sysfs: add pause file under context dir
+63ba0deeae77cf29a91f3339d2c015ec2821870f Docs/mm/damon/design: update for context pause/resume feature
+d869e2661a765adad17ab33dad45dd490d645374 Docs/admin-guide/mm/damon/usage: update for pause file
+42aa922e9cfa012b34e6e5077caf52855e32afb8 Docs/ABI/damon: update for pause sysfs file
+0b85cf9b59a1e3efc7442cc9dbfdc0b71759b60d mm/damon/tests/core-kunit: test pause commitment
+d5578fb47fdbc5614694d160557fdd637d7e11b7 selftests/damon/_damon_sysfs: support pause file staging
+addb52441286f71d75567c4a97545c38b94b5266 selftests/damon/drgn_dump_damon_status: dump pause
+d1d6bada011c4250e561ff910d5f597bb8183ddc selftests/damon/sysfs.py: check pause on assert_ctx_committed()
+e4240b45fa23cf7aaaf62ddb80992534663ef87f selftests/damon/sysfs.py: pause DAMON before dumping status
+1aa0b20f8dda40d371483458d01e8dbb0c32f5a8 ==== failed region charge rate ====
+aadfdff4c9e14c719c04798359c759499effc9e7 mm/damon/core: handle <min_region_sz remaining quota as empty
+7d2063c274aa25eb9031740301dbd63e3bd18e90 mm/damon/core: merge regions after applying DAMOS schemes
+d9b4e7d7902f9890cc5c7f24876d68b1e85aa14e mm/damon/core: introduce failed region quota charge ratio
+9925911d940e5d9a354c03040b948e1987bea10e mm/damon/sysfs-schemes: implement fail_charge_{num,denom} files
+cf1723f61f8431e1ffb83b0a6aa4e23a1d0f0ef1 Docs/mm/damon/design: document fail_charge_{num,denom}
+ade98122fddcfd1cb6ae63a2da57304d25b100e7 Docs/admin-guide/mm/damon/usage: document fail_charge_{num,denom} files
+3cfd3b4b349cb8a3c1d492e0c7887a3b782c2c1d Docs/ABI/damon: document fail_charge_{num,denom}
+f9d96ec10b9e9e76e0be1b7bad77a824e54c42ef mm/damon/tests/core-kunit: test fail_charge_{num,denom} committing
+a80f4d2c70b859ac68d6f56d9c2903270551965a selftests/damon/_damon_sysfs: support failed region quota charge ratio
+8a7849b6eb535767a714fb9d541872f36ce82018 selftests/damon/drgn_dump_damon_status: support failed region quota charge ratio
+274763bab1d76206f52ba84e3b400ba03ed6d98a selftests/damon/sysfs.py: test failed region quota charge ratio
+8f9e3b8535d5e52be4a3cc998f7f08036fad2323 ==== damon_stat: add kdamond_pid ====
+99ccfaa62f502d85831f0b98c153f28b1bfc9008 mm/damon/stat: add a parameter for reading kdamond pid
+7142fbab05d35900af514749f13be4f0687d6eba Docs/admin-guide/mm/damon/stat: document kdamond_pid parameter
+d090e60ca8c13a274822d3139fab7f3a1cf7233c ==== damon_reclaim: introduce monitoring intervals autotune ====
+783d963928473bcdc6927b5054680529e179731e mm/damon/reclaim: add autotune_monitoring_intervals parameter
+6fc90c81a85834fc930b36e84f38f26629620c49 Docs/admin-guide/mm/damon/reclaim: update for autotune_monitoring_intervals
+3c01833a4e506af097052522c562af8d1e842b40 ==== reclaim,lru_sort: monitor all system rams ====
+6f453bb7298a7353439c00fcb2b17af2218dae4b mm/damon: introduce damon_set_region_system_rams_default()
+d611844e3f9b67cdfe915006e67678f7e7171325 mm/damon/reclaim: cover all system rams
+b4f0f7a1b17888a5757af9b2a1af6ae90367bbe8 mm/damon/lru_sort: cover all system rams
+873439adbac7fc4a33eeaba566223395f09bcaf7 mm/damon/core: remove damon_set_region_biggest_system_ram_default()
+c248477f20e0f66944a54d2e73b5a8278fbd2f6d mm/damon/stat: use damon_set_region_system_rams_default()
+d92adde9a8d0fe440aad750d1397154563fa210b Docs/admin-guide/mm/damon/reclaim: update for entire memory monitoring
+5c9e348a81fc8dd862093c120cbec3aeeb306e59 Docs/admin-guide/mm/damon/lru_sort: update for entire memory monitoring
+fa74ed87764f16e9b50bd90787c541b92603a2e1 ==== deprecate core_filters sysfs dir ====
+5ee53dfe8807fc9a0c157afc5c8f4dfd70e7f8f2 Docs/admin-guide/mm/damon/usage: mark scheme filters sysfs dir as deprecated
+f6e20c00454096acb87b30f629765d8fa5652372 Docs/ABI/damon: mark schemes/<S>/filters/ deprecated
+00b7c60a8a7330c27e24e617fc741ed9d9ef2489 ==== min_nr_regions followup improvement ====
+e2a449dbc6c8b6742952a2dbc3df0dda580cb8f7 mm/damon/core: safely handle empty regions in damon_set_regions()
+692aac225a9c332e8553d4d16cf0846b69ef4317 mm/damon/core: do not use region out of loop
+28e2d2562758d2f9204f25ee7c9415051150ea40 samples/damon/mtier: replace damon_add_region() with damon_set_regions()
+cc2ba9ad5b71b9c2dd0efdeb4babcf03e9e5b19a mm/damon/tests/vaddr-kunit: replace damon_add_region() with damon_set_regions()
+dba546ed8f393d650ca85a88d455466ae3c3e3c8 mm/damon/tests/core-kunit: add damon_set_regions() test cases
+cb206705cc8658564fa374b5066df662fc8cc3e9 mm/damon/core: remove damon_add_region() from core API
+b64c7cfb50fe756a3ef39af52efb19b137487a54 mm/damon/core: move damon_insert_region() to core.c
+cf4c77243d27f8508988e018705bf52eacb7bcf1 mm/damon/core: hide damon_destroy_region()
+8073a84aec04edfe5f38c5efe9eef62e68d4913f ==== misc fixups ====
+c06227f7e9d5276c7a70588a4a58def6a7dda8ea mm/damon/core: trace esz at first setup
+f96d226cad8d18251428115e6db0db0f2bffd42b selftest/damon/sysfs.py: stop kdamonds before failing
+6869c9147ce0bd6a514a38dd88112391b74dc328 ==== fault/report-based monitoring for per-cpu and write ====
+80f3f10d0771b9c870c94a27a6534add727dda30 mm/damon/core: implement damon_report_access()
+2f29a1a19366ace1c6ac2a135ff45bc251eb8518 mm/damon: (fixup) fix typos
+936da3d5c78b253edd7c5c1ad262118776143e3e mm/damon: define struct damon_sample_control
+b3b0b57cd3d52efee683bc106530f0cc9057f202 mm/damon/core: commit damon_sample_control
+73fc2b91cf7274430597361535fbd70f9171a8bf mm/damon/core: implement damon_report_page_fault()
+9a04b1080be4e08549837ff4e52ea78971e25d8d mm/{mprotect,memory}: (no upstream-aimed hack) implement MM_CP_DAMON
+41200633ea6a188384d4f2703c8da08cd17bc6ff mm/damon/paddr: support page fault access check primitive
+b1af49956204c8ff19368bda33b6d34b7e588942 mm/damon/core: apply access reports to high level snapshot
+a637a54ec8e4aa795b73a0b7c98b57f3202d12fa mm/damon/sysfs: implement monitoring_attrs/sample/ dir
+d38b533a1fd467da5b41e9170f20c9b556615cf4 mm/damon/sysfs: implement sample/primitives/ dir
+72180d1d4ebdca499b1538de5479fbc560ba8984 mm/damon/sysfs: connect primitives directory with core
+1525ebc9cceceeb788a8b4de32d8dd260cb42ba4 Docs/mm/damon/design: document page fault sampling primitive
+fa850a10b2a8b583d56d9524b5c376dff9c1740d Docs/admin-guide/mm/damon/usage: document sample primitives dir
+2671c48e4819758c5052b5cc355e13ea2278532c mm/damon: extend damon_access_report for origin CPU reporting
+b4ff08e392fd3c2fd70b1cfee1ed73ab48ba4212 mm/damon/core: report access origin cpu of page faults
+01b97772155c6236c666796a0db1a72263b09813 mm/damon: implement sample filter data structure for cpus-only monitoring
+f279d64c8cf565257f768d2603fd973170c66502 mm/damon/core: implement damon_sample_filter manipulations
+bb7c0fb30aca9c11178fc4fae5dbacf7358054d9 mm/damon/core: commit damon_sample_filters
+713da83d5326e647a7baf5e68b571c5a88f38348 mm/damon/core: apply sample filter to access reports
+339fe67a435abf79fee8f0282b934662abba8767 mm/damon/sysfs: implement sample/filters/ directory
+19f6b74031fa47e57cae64c69a3c9bc0e4a733a8 mm/damon/sysfs: implement sample filter directory
+01c40f5932b6d418521b53e848d761e12fd39c75 mm/damon/sysfs: implement type, matching, allow files under sample filter dir
+40a70507c93dbf3ac8c9b95c8e75ae7f19e0095d mm/damon/sysfs: implement cpumask file under sample filter dir
+cc5b78c4f53b45e827fa75024450cac168af7ba0 mm/damon/sysfs: connect sample filters with core layer
+4b60ae608d47673252a12af6260220bda94d9e2e Docs/mm/damon/design: document sample filters
+1521652de3273c00c10d635fa7644b9345a5feda Docs/admin-guide/mm/damon/usage: document sample filters dir
+fca14c145eb7076b9b825d8758b6dc9b520e0242 mm/damon: extend damon_access_report for access-origin thread info
+a153dc1f14d092801ea288c7be67839bc425d6ac mm/damon/core: report access-generated thread id of the fault event
+91b4566cd7755cf6eb70263780aed2687c5fcfc0 mm/damon: extend damon_sample_filter for threads
+cfa0ee660787a08cdd7a7f91a5fa84a00bc3986b mm/damon/core: support threads type sample filter
+cff23f9d48390ad0e833e71109b699b195285b49 mm/damon/sysfs: support thread based access sample filtering
+d5d2060bb7d1ca9b049910b50a3cb58ca70e93a4 Docs/mm/damon/design: document threads type sample filter
+c32981b3d2508994dc5007fd5f73f13e2fbc4383 Docs/admin-guide/mm/damon/usage: document tids_arr file
+4a6801fa0ca52d87426f55c55e3c7adcebb6e35b mm/damon: support reporting write access
+a46079d0c5e9be8a19d1dd8e72e87c215a74c131 mm/damon/core: report whether the page fault was for writing
+9b5eb6a1944517236fded37762b76248b5ea6b4e mm/damon/core: support write access sample filter
+76fe922625cde43f288ca100ff0bf0153be37a89 mm/damon/sysfs: support write-type access sample filter
+62da45eb66d2693955d18555ff7a0e68e0a1e00b Docs/mm/damon/design: document write access sample filter type
+eb407e5184f9f433fd0519bb01679e52fd998217 mm/damon/core: elaborate access reports dropping behavior
+6f8c027f4e515e093d3079af4c5d566a8f6a56b6 ===== fault-based vaddr monitoring =====
+40198605e92879513656a4690b42b1157ecdd953 mm/damon: rename damon_access_report->addr to ->paddr
+5b6c8618328f9823295494f565bdbccc1a31c6b8 mm/damon: extend damon_access_report for virtual address
+62c75ddcc671bd5c571bc630cc5a21d2ef6ed590 mm/damon/core: set damon_access_report->vaddr from page fault report
+eb72e5fdfb223549ec37b16c052e413443bb49ef mm/damon/core: support vaddr reports
+2c22280e2469810fa68994cf2887fbbcb3206c19 ==== docs for DAMON and mm ====
+1a1e9a595d529b599ff8ef79f77744776f4c92a0 Docs/mm/damon/design: add table of contents for overall and DAMOS
+5a9fccf4bc814ecb94a996e424e49c7f88ca07ab Docs/process/2.Process: Update mm tree URL
+acd8bee3fbc0f32ababd60d239334240b18f050e Docs/mm/damon/design: add API link to damon_ctx
+5490ddd3ae2ad0bee1be8886f96322dac97deee7 ==== ACMA ====
+e2dddfd411025a84f4bd1c5c8e9ba82d45d9a43f mm/damon: implement DAMOS actions for access-aware contiguous memory allocation
+2e30c99ce4de3b084d988fc9bcd5776af2e66f72 mm/damon: add the initial part of access/contiguity-aware memory auto-scaling module
+e0cc96c16d37ff2f918eda3c161434492ba4bff1 mm/page_reporting: implement a function for reporting specific pfn range
+84b56011efca14f01e076b2e694d76d8b2965360 mm/damon/acma: implement scale down feature
+304fe973a403c4dddedfeba87dbbc568a2b2b4e4 mm/damon/acma: implement scale up feature
+b304dc456bc5a17d29a896590f78f7bb85f30c2c drivers/virtio/virtio_balloon: integrate ACMA and ballooning
+49a81419a83faa7c9915b212284a2d91ebc5adcf === commits aiming not to be posted ===
+e08635c68306aab1e381a8976ec203b5c654ff33 mm/damon/core: add debugging log for intervals auto-tuning
+8feefb80045f769b1744aec9f755aaaf25f2cd64 mm/damon/core: add todo for DAMOS interval validation
+4e11613d7a04d4cedbac388781223b3478c8fd2b mm/damon/core: add debugging-purpose log of tuned esz
+a770a828f83927d9d1c9e1f528a56344201716b3 Add debug log for PSI
+a3d632366fb57f2eb2708e4f3a254ad2c1c80fdc ==== data activity monitor ====
+ba46b04be713de305b6c8bdfd53e58ab8b4fe78e Docs/admin-guide/mm/damon/usage: update for counters of interests ABI
+67990cba835f7055be6616dfd6d5b34eaffdc679 mm/damon: add damon_region->attr_counts
+089b28bad3f4bb105d6869d4a634163b4139aaf7 mm/damon/core: initialize region->attr_counts in damon_new_region()
+81e4d030e60bf2e62deb861f71931ab9c1b74633 mm/damon: add damon_attrs->data_attrs
+7b126fd5d357e3268d5c723eda3637cf5311e646 mm/damon: add damon_data_attr->filters
+113956c8f5827c4b8ebe7b4a94f56e5425eaf298 mm/damon: add damon_operations->check_data_attrs
+30b4c88041cbefb534106b68f9c110c9a422bd31 mm/damon/core: execute damon_operation->check_data_attrs
+81e9350066bb8b8d4ed64865f1dfa40bb6fd0507 mm/damon/core: reset attr counters in kdamond_reset_aggregated()
+e630dd4e7b16dbd857b4ffe85d05dd932daa7f9d mm/damon/paddr: implement check_data_attrs
+0656c2561bf24ccaa54420f5ec03b54915102f36 mm/damon/sysfs: move sample directory code to sysfs-sample.c
+9abd2aaa0a10421f8c3c7d1eeab677178cb75889 mm/damon/sysfs: implement filter directory
+2f7c8c1d9f947497a435107949110376761816a3 mm/damon/sysfs: implement filters directory
+e53de745d67ec5ff42a9274d761f97fee45c2564 mm/damon/sysfs: implement data_attr directory
+ff920dfa810df840e95fce35e7ba5c21c542ee9f mm/damon/sysfs: implement data attributes directory
+4cfaef5b07f10e9a751744b5c6c5e2b87db065c4 mm/damon/sysfs: connect data_attrs to monitoring_attrs
+8d2e0ea36d31e7db1b0e2b532c6fdd85fa06ee8f ==== uncategorized ====
+a023efb9851b274e2208f3011c680afb021f32a6 mm/damon/core: add an hacking idea concept interface prototype
+4de92040b2e8af47c1f8f17b2d61db7ac915a06c mm/damon/core: restrict total_charged_{sz,ns} to avoid overflows
+f9c5f9fb5425808867ba3e90c98bd0683941e201 mm/memory: implement functions and data structures for page faults monitoring
+3412997d9099e43cdfac72d10d7c529f9b64df82 mm/memory: introduce do_{,huge_pmd_}faults_monitor_page()
+769ff77e064736450bea46894630bec5e0234fd1 mm/memory: mark faults_monitor_controls_lock as static
+85665a988c4897d033046a1c42ee8eb886b3a9d7 Docs/mm: add a maintainer-profile
+c601c2e1e966b448f954d21657c48a04822f23cd mm/damon: mark kdamond_lock as __private
+186db018efe4092f1138bbd5246871b77ee106e9 mm/damon/core: verify regions right after merge operation
+7a1ab539d2ebf0d2d4cf3a44203dd5a4fa5f2d3a mm/damon/core: remove damon_verify_nr_regions()
+66dfb6ca59b5d52235d9e00c7440eb3e04553575 Docs/mm/index: link maitnainer-profile
+22906926656e22ecf81a629b7050d7c56e5a61f2 mm/damon: add damon_call_control->cleanup_fn
+2840cfead68cd9dc64cb1fd8aff96eeba946174b mm/damon/core: call cleanup_fn()
+70e57d043e1117bca165fe155d36957e2f6d87cf mm/damon/sysfs: use per-context next_update_jiffies
+096ca4f5966019516a724eea89ab0189f76356b3 Revert "mm/damon/sysfs: use per-context next_update_jiffies"
 
---===============3795968247640765174==--
+--===============8762591531538421619==--
