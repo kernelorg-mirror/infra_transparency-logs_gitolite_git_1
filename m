@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5127437130934346422=="
+Content-Type: multipart/mixed; boundary="===============2317593771217786452=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Sat, 18 Apr 2026 21:47:54 -0000
-Message-Id: <177654887477.3255216.12185203906064801780@gitolite.kernel.org>
+Date: Sat, 18 Apr 2026 21:48:12 -0000
+Message-Id: <177654889255.3255773.8885010879659383311@gitolite.kernel.org>
 
---===============5127437130934346422==
+--===============2317593771217786452==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,15 +16,23 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: ac0290d8afbf38a51db35ff3b3d88c231196543b
-    new: 793301ac36a10d2ff540d0c7342a991f07522dd7
-    log: revlist-ac0290d8afbf-793301ac36a1.txt
+    old: 793301ac36a10d2ff540d0c7342a991f07522dd7
+    new: 0cdea9e7dc571285669e25054fba77a6a17d60fd
+    log: |
+         be1a641fce0a5de01a3540c8aab6a096a0b5536a Merge branch into tip/master: 'core/urgent'
+         e4b3508ba6494ea4082ef46cc1fd96170fefb536 Merge branch into tip/master: 'timers/urgent'
+         0cdea9e7dc571285669e25054fba77a6a17d60fd Merge branch into tip/master: 'timers/clocksource'
+         
+  - ref: refs/heads/tip/urgent
+    old: 8656368d600bda031432db7d66f937d9891fe259
+    new: e4b3508ba6494ea4082ef46cc1fd96170fefb536
+    log: revlist-8656368d600b-e4b3508ba649.txt
 
---===============5127437130934346422==
+--===============2317593771217786452==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ac0290d8afbf-793301ac36a1.txt
+Content-Disposition: attachment; filename=revlist-8656368d600b-e4b3508ba649.txt
 
 aa6a6a2d16c1e2e27e986936369959d70316199f perf parse-events: Fix big-endian 'overwrite' by writing correct union member
 c5a244bf17caf2de22f9e100832b75f72b31d3e6 perf metricgroup: Fix metricgroup__has_metric_or_groups
@@ -239,6 +247,7 @@ df8f6181ab57d65a99e61fcfc5be22a42df58642 Merge tag 'perf-tools-for-v7.1-2026-04-
 fba676bd2919ceff5a678c0bd05ab3ac89affaeb Merge tag 'i2c-for-7.1-rc1-part1' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
 9055c64567e9fc2a58d9382205bf3082f7bea141 Merge tag 'memblock-v7.1-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/rppt/memblock
 eb5249b12507246dc959945454cd1be8d7dc3795 Merge tag 'parisc-for-7.1-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/deller/parisc-linux
-793301ac36a10d2ff540d0c7342a991f07522dd7 Merge branch 'linus'
+be1a641fce0a5de01a3540c8aab6a096a0b5536a Merge branch into tip/master: 'core/urgent'
+e4b3508ba6494ea4082ef46cc1fd96170fefb536 Merge branch into tip/master: 'timers/urgent'
 
---===============5127437130934346422==--
+--===============2317593771217786452==--
