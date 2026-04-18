@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6153827975466166753=="
+Content-Type: multipart/mixed; boundary="===============2230791643002523708=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Sat, 18 Apr 2026 02:55:01 -0000
-Message-Id: <177648090105.1933782.11186317935633257644@gitolite.kernel.org>
+Date: Sat, 18 Apr 2026 02:55:04 -0000
+Message-Id: <177648090466.1936051.16515536135732249454@gitolite.kernel.org>
 
---===============6153827975466166753==
+--===============2230791643002523708==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-6.18.22/nfs4_acl-passthru
-    old: 2d74686e7f99e42cb94777d6797673dbe4154092
-    new: d0b7efd233a8c574cb26c4c760c17f0bb410ce53
-    log: revlist-2d74686e7f99-d0b7efd233a8.txt
+  - ref: refs/heads/kernel-6.18.22/main
+    old: 9a5ad4647aebece6099208f4d426a188b3797298
+    new: b30d4700a9ad25342e3aaf3287ea63b7bb8d37fc
+    log: revlist-9a5ad4647aeb-b30d4700a9ad.txt
 
---===============6153827975466166753==
+--===============2230791643002523708==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2d74686e7f99-d0b7efd233a8.txt
+Content-Disposition: attachment; filename=revlist-9a5ad4647aeb-b30d4700a9ad.txt
 
 829cce3010de790c4269989d642310abba2fa15c vfs: use UAPI types for new struct delegation definition
 f64007397156c6da78eaffca231ad54c66c3aa72 debugfs: rename end_creating() to debugfs_end_creating()
@@ -162,6 +162,11 @@ c05f5f121dc0bece0f7f274549a9f81b5559e2db NFSD: use per-operation statidx for cal
 4867b55ffb68590a4c7a4994f578ec0c05967210 NFSD: convert callback RPC program to per-net namespace
 bf734ddb1eaa7f556759e81c4e13a9566447aba0 nfsd: fix comment typo in nfs3xdr
 b8791e61a11fa9ed9fdbf2006fe7195a8119997f nfsd: fix comment typo in nfsxdr
+ac8a0980e6dbeff91095fa7c8e31757672fa648e NFSD: interlock the use of NFSD_IO_DIRECT for NFS READ and WRITE
+7abc0ad168ccfacf1a56783be92eda2bbd28c346 NFSD: add NFSD_IO_DIRECT heuristic for small IO
+947f27de6f1333ccfe4bc53da02e09aa9fc2c9f8 NFSD: add nfsd_direct_misaligned_num_pages modparam
+73d55a740ac6b37e685b3a5a7b8ca1a638989d58 NFSD: Enable return of an updated stable_how to NFS clients
+27730a50b7ac8e5f1eb48fe0cf8b59260d527965 NFSD: add new NFSD_IO_DIRECT variants that may override stable_how
 414f3be9c73b594260246a76c377a9089272444c exportfs: add ability to advertise NFSv4 ACL passthru support
 48e5669169287a5e51afcc4dabe67d3b4c695a5b NFSD: factor out nfsd_supports_nfs4_acl() to nfsd/acl.h
 fda64dfba4042cf4f6fb87db35dda5ff958e5810 NFS/NFSD: data structure enablement for nfs4_acl passthru support
@@ -173,5 +178,86 @@ e6fcfb31c0083ba1c28f04c275c29d1621abcebc NFSD: add NFS4ACL_DACL and NFS4ACL_SACL
 392bb34a270348ab12f49982f8195fbbf3395c6b NFSv4: add reexport support for SETACL nfs4_acl passthru
 536c5408f562684dd6466fc5f12e6f7494d280f3 NFSv4: add reexport support for GETACL nfs4_acl passthru
 d0b7efd233a8c574cb26c4c760c17f0bb410ce53 NFSv4: set EXPORT_OP_NFSV4_ACL_PASSTHRU flag
+f51993efc6805ce20d198101585ec195e54461fa exportfs: clarify the documentation of open()/permission() expotrfs ops
+db9a13b0314b0e714e5b351bab2bcdeaec34f1e3 nfsd: do not allow exporting of special kernel filesystems
+2be8f5ecb6c503ad1a166e8655b1f839059ecab6 VFS/nfsd/ovl: introduce start_renaming() and end_renaming()
+0200fd78fb8bfa022db965772283d5ec8cf5d44a VFS/ovl/smb: introduce start_renaming_dentry()
+aac5fd47ea3af075ee10ad160c51b45a82633fa6 Add start_renaming_two_dentries()
+58ae693ab260f69bfb68854090644e4d73d718ae ecryptfs: use new start_creating/start_removing APIs
+adbe5fcc92ddc6ddad3922956e8a7c79930eae18 VFS: change vfs_mkdir() to unlock on failure.
+eff7dba716459d711de71cc053e9a3f6219d2745 VFS: introduce end_creating_keep()
+aaed9e21afcd23842f1d26b1ae2cd9b6723aa472 nfs: split nfs_update_timestamps
+4b2068867acc8d58026030320ac02c5808c1a522 NFSv4/pnfs: If the server is down, retry the layout returns on reboot
+47ea4cb6230eeb3d44ae8c3c1750d0e4878d69bb NFS: improve "Server wrote zero bytes" error
+3a85ab1b5f9375f08b7a682b7720216c3e17a5f5 nfs: fix utimensat() for atime with delegated timestamps
+db3b070b67dcf7675a2370e41e80b2f281b779f3 nfs: update inode ctime after removexattr operation
+ea10bb9e53ca323a67ee50f2d7b1f852a1c2d263 xprtrdma: Close sendctx get/put race that can block a transport
+b06f9d4509c118ba20b085fc8c933c671ad12169 xprtrdma: Avoid 250 ms delay on backlog wakeup
+7fc8bc7751eb0e4a0bdfac59220048ddb073dce8 xprtrdma: Close lost-wakeup race in xprt_rdma_alloc_slot
+ce6f2a9050812f383c3c98a36df06a3a6cf8ffe8 xprtrdma: Decouple frwr_wp_create from frwr_map
+521f823aa027ffc82988ce5d5933a761f4103ec5 xprtrdma: Replace rpcrdma_mr_seg with xdr_buf cursor
+0505e2333f19873cb3b78f93d769655ef7a6758d xprtrdma: Scale receive batch size with credit window
+6f3cc9a6245e23ec2d3e870eeedfe044951df419 xprtrdma: Post receive buffers after RPC completion
+3ae87348f88346a61c51b62a084b399eea998a41 NFS/blocklayout: print each device used for SCSI layouts
+ff2ba89795e3d63d29a886633c6db84ff2536db6 pnfs/flexfiles: validate ds_versions_cnt is non-zero
+2aa32756ccecab4269d31085fdfd9cb16b70ac44 NFS: fix RENAME attr in presence of directory delegations
+12019e2901337a925268595a33ca13aa0aacfcc3 NFSv4: retry GETATTR if GET_DIR_DELEGATION failed
+b127ebc9d6d054087fd3bf2d6d00b579fa277b67 NFSv4.1: Apply session size limits on clone path
+bc408c96c41f2556da24a72d2c2e924beac59024 pNFS: deadlock in pnfs_send_layoutreturn
+1ebcc8502f79f89fe97158def8133740fe491431 nfs: use memcpy_and_pad in decode_fh
+ac9511d24c4294fc3b88ba668c6f3971beef8f68 NFS: fix writeback in presence of errors
+0e192b7b346e7c93e33fd24b6b4f33d0e5dc09b3 NFSv4.2: fix COPY attrs in presence of delegated timestamps
+50060407e6af3eb01667d34d6955243229c38463 sunrpc: refactor TLS transport to remove rpc_clnt dependency
+d6719938f4bf8891f3f2168e452fde365f07ef5d fuse: fix conversion of fuse_reverse_inval_entry() to start_removing()
+df9a2dbf12082858378193e32f5823a62b781fac nfs: properly disallow delegation requests on directories
+b5cbc82230682a8201b3f31295ff0dcceab9292c smb/client: properly disallow delegations on directories
+495de56594927c638509234b62658c538b3156a1 9p: don't allow delegations to be set on directories
+4ce2838c53cbde5bef99ae60943a9e4b57e51e08 gfs2: don't allow delegations to be set on directories
+0ee714087e59e8de3ad701c0d6409a6b7fdd6cc7 ceph: don't allow delegations to be set on directories
+40ec5b4c8389939a21c681336d6d5827a68f10a3 vboxsf: don't allow delegations to be set on directories
+cb9431d5984960ddb334646282b2940d347ba226 fs: add setlease to generic_ro_fops and read-only filesystem directory operations
+e978783cb1a1bc2d2c30df0aaa3fd22918cce729 affs: add setlease file operation
+ae39b5b483f666d297aee40bc650e75921bef127 btrfs: add setlease file operation
+ea6109a3dc7a43054a531e3ca10c0ff92f33beee erofs: add setlease file operation
+8dd3d36cb8609080e0061da1f64b5b658b978516 ext2: add setlease file operation
+e18e6d08ad70dc8a7fb09d1a066ab4344f3497ff ext4: add setlease file operation
+9829999e78f1f721731b6686b07dc74ab38f62e1 exfat: add setlease file operation
+627c3a6700d9d122dbadbd2de8bcea5efd6a4c83 f2fs: add setlease file operation
+b92a9ebe9cb3418270897041cdb26a3b85889810 fat: add setlease file operation
+7daed333b61629a56a57a97da211ceecd9cda96a gfs2: add a setlease file operation
+dacd9c07c500645b3deebad23afe5a81d04dbb3a jffs2: add setlease file operation
+51c45fdfbf6d48307843602af57f3ebbc5fe8145 jfs: add setlease file operation
+8cd646938417d70a52d59ed59526b37d669845c5 nilfs2: add setlease file operation
+6dceb5a10a896ebfc2a1ef997bebd6209199b77e ntfs3: add setlease file operation
+66e90004a98fccd369438aa79706f1e6849be9b3 ocfs2: add setlease file operation
+7e8f2ad8ad8eff5de1c3a96b9022828faece4882 orangefs: add setlease file operation
+ece7d1145e3a470e02619e9386856d46dcae7a8a overlayfs: add setlease file operation
+977538f27909203c67f25b2a9149dedb71fb28fa squashfs: add setlease file operation
+4709d7c2272c6015e87ab0d6b3579c14daf189a7 tmpfs: add setlease file operation
+5540c611be6aa3eb477d8b6b14270d43c6a10640 udf: add setlease file operation
+b5e667e36cc13cc751908521fb78d3bf057fb342 ufs: add setlease file operation
+4f081b9b75451edbc1ab1b0bf2558b0162a8e35d xfs: add setlease file operation
+e1260369a53795c4a0ec6a00bdf56d0836c141fb filelock: default to returning -EINVAL when ->setlease operation is NULL
+070c66248084efa3ea69a5d93bd2383ffb2b7ae7 fs: remove simple_nosetlease()
+3c50b3f35a0601c67c4b6d6caaf45ea5d9f60723 nfsd: fix end_creating() conversion
+25074236c013cd1019bc0cec761d51f0939ed16c Merge branch 'kernel-6.18.22/nvme' into kernel-6.18.22/main
+5c131c53f610d4630c0e770029b20959a7523184 Merge branch 'kernel-6.18.22/nfs-next-thru-nfs-for-6.19-1' into kernel-6.18.22/main
+e7736274e7f831de86e2696b53476251f5cd1dc9 Merge branch 'kernel-6.18.22/nfs-next-thru-nfs-for-6.19-2' into kernel-6.18.22/main
+9d0a2a4dc633ee1b332fb59c9617d1628a8e7863 Merge branch 'kernel-6.18.22/nfs-next-thru-nfs-for-7.0-1' into kernel-6.18.22/main
+2154dd9fdabbdc350ca2ae49757e78d76bef1fe4 Merge branch 'kernel-6.18.22/nfs-next-thru-nfs-for-7.0-2' into kernel-6.18.22/main
+a41afe70a55b12676654827699e3232bf16d4ec9 Merge branch 'kernel-6.18.22/nfs-testing' into kernel-6.18.22/main
+491cbb7a55ff99971e1eaa81177085be3d7cacd1 Merge branch 'kernel-6.18.22/nfs-testing-canary' into kernel-6.18.22/main
+4938b69b3a4cc3c2e7e766114e13b9be9297c8b3 Merge branch 'kernel-6.18.22/nfsd-next-thru-nfsd-6.19' into kernel-6.18.22/main
+2118815812cd9823807fed54869f14f49459d452 Merge branch 'kernel-6.18.22/nfsd-next-thru-nfsd-dir-deleg' into kernel-6.18.22/main
+2e10eb8c417d1cee11d9edd6c17f936552ee0d5d Merge branch 'kernel-6.18.22/vfs-nfsd-start-end-renaming' into kernel-6.18.22/main
+059012392fa31e09de34372883ab0be46be49ce2 Merge branch 'kernel-6.18.22/nfsd-next-thru-nfsd-7.0' into kernel-6.18.22/main
+42ce85614b11f3fdfb730f45669b56e5eeeba94e Merge branch 'kernel-6.18.22/nfsd-next-thru-nfsd-7.0-1' into kernel-6.18.22/main
+7eb2dd50279f7303766a8c78cb09d03738edf650 Merge branch 'kernel-6.18.22/nfsd-vfs-7.0-rc1.atomic_open' into kernel-6.18.22/main
+ad4bd9d7f5e17119110af3d1055f1a0f7bcb739a Merge branch 'kernel-6.18.22/nfsd-next' into kernel-6.18.22/main
+6a94e977c551c950a9d4ed53c67f12f985a8129e Merge branch 'kernel-6.18.22/nfsd-missing-vfs-changes' into kernel-6.18.22/main
+ccd015554a529e69c8727e923b82d998630ae30f Merge branch 'kernel-6.18.22/nfsd-testing-canary' into kernel-6.18.22/main
+7ae3d7f1576af65b41eb964669193681990165fa Merge branch 'kernel-6.18.22/vfs-7.0-rc1.leases' into kernel-6.18.22/main
+4d8fc0ba8bc9a6b7910d77bb036ee4040ff89ac2 Merge branch 'kernel-6.18.22/nfs4_acl-passthru' into kernel-6.18.22/main
+b30d4700a9ad25342e3aaf3287ea63b7bb8d37fc kernel-6.18.22-1
 
---===============6153827975466166753==--
+--===============2230791643002523708==--
