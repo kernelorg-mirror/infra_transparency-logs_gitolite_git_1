@@ -1,24 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jassibrar/mailbox
-Date: Sat, 18 Apr 2026 19:43:05 -0000
-Message-Id: <177654138541.3136231.13133975795920427650@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kas/linux
+Date: Sat, 18 Apr 2026 20:01:20 -0000
+Message-Id: <177654248010.3155059.4108841207262768300@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jassibrar/mailbox
-user: jassibrar
+repo: pub/scm/linux/kernel/git/kas/linux
+user: kas
 changes:
-  - ref: refs/heads/for-next
-    old: c02053a9055d5fdfd32432287cca8958db1d5bc5
-    new: 6e937f4e769e60947909e3525965f0137b9039e8
+  - ref: refs/heads/uffd/rfc-v3
+    old: 4ba4085370ea69ab663a8099efc9d4749ac4e30b
+    new: fa6a4bc0ae172e756264bbe74bea1d95acb29b02
     log: |
-         c1aad75595fb67edc7fda8af249d3b886efa1be9 mailbox: add sanity check for channel array
-         a068c4d42c035c63b26ff91c394e6dc2cb7dc5d0 mailbox: update kdoc for struct mbox_controller
-         dd9aa1f269000d679f4ec12b32abacfc8d921413 mailbox: mailbox-test: handle channel errors consistently
-         88ebadbf0deefdaccdab868b44ff70a0a257f473 mailbox: mailbox-test: don't free the reused channel
-         bbcf9af68bfedb3d9cc3c7eae62f5c844d8b78b9 mailbox: mailbox-test: initialize struct earlier
-         6e937f4e769e60947909e3525965f0137b9039e8 mailbox: mailbox-test: make data_ready a per-instance variable
+         25dab3d3a0ffa02119bbf5873d46ba0af562a502 mm: add MM_CP_UFFD_RWP change_protection() flag
+         83de03a3a2c386eaad4e0a3d87abb452d485ecc8 userfaultfd: add UFFDIO_REGISTER_MODE_RWP and UFFDIO_RWPROTECT plumbing
+         fcbb7c23046d41403a9c36fdf538963eec74ebe5 mm/userfaultfd: add RWP fault delivery and expose UFFDIO_REGISTER_MODE_RWP
+         4f2385c555dc5e99a8b2e9ff280a3900d4325c44 mm/pagemap: add PAGE_IS_ACCESSED for RWP tracking
+         5d610a9055031cfa144c12f00c61ddb311823a0e userfaultfd: add UFFD_FEATURE_RWP_ASYNC for async fault resolution
+         d61cdaaba8240d6238817753ff430be81efcbb56 userfaultfd: add UFFDIO_SET_MODE for runtime sync/async toggle
+         548290865365bfaba3ffadeee389a17b5b880ae6 selftests/mm: add userfaultfd RWP tests
+         fa6a4bc0ae172e756264bbe74bea1d95acb29b02 Documentation/userfaultfd: document RWP working set tracking
          
