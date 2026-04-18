@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6805056328156924313=="
+Content-Type: multipart/mixed; boundary="===============2175839935481601900=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
-Date: Sat, 18 Apr 2026 23:12:49 -0000
-Message-Id: <177655396985.3339086.17422035339535055970@gitolite.kernel.org>
+Date: Sat, 18 Apr 2026 23:12:56 -0000
+Message-Id: <177655397664.3339304.845949388939086230@gitolite.kernel.org>
 
---===============6805056328156924313==
+--===============2175839935481601900==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bpf/bpf-next
 user: ast
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/for-next
     old: eb0d6d97c27c29cd7392c8fd74f46edf7dff7ec2
     new: eb5249b12507246dc959945454cd1be8d7dc3795
     log: revlist-eb0d6d97c27c-eb5249b12507.txt
 
---===============6805056328156924313==
+--===============2175839935481601900==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -379,4 +379,4 @@ fba676bd2919ceff5a678c0bd05ab3ac89affaeb Merge tag 'i2c-for-7.1-rc1-part1' of gi
 9055c64567e9fc2a58d9382205bf3082f7bea141 Merge tag 'memblock-v7.1-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/rppt/memblock
 eb5249b12507246dc959945454cd1be8d7dc3795 Merge tag 'parisc-for-7.1-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/deller/parisc-linux
 
---===============6805056328156924313==--
+--===============2175839935481601900==--
