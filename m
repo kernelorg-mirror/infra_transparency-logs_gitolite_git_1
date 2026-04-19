@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8814127071451928962=="
+Content-Type: multipart/mixed; boundary="===============5670214235117498124=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/driver-core/driver-core
-Date: Sun, 19 Apr 2026 10:29:22 -0000
-Message-Id: <177659456290.4040000.1617121699699800885@gitolite.kernel.org>
+Date: Sun, 19 Apr 2026 10:29:41 -0000
+Message-Id: <177659458105.4040227.8108093435383946235@gitolite.kernel.org>
 
---===============8814127071451928962==
+--===============5670214235117498124==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,42 @@ repo: pub/scm/linux/kernel/git/driver-core/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/driver-core-next
+  - ref: refs/heads/driver-core-testing
     old: 6c8dfb0362732bf1e4829867a2a5239fedc592d0
     new: faeab166167f5787719eb8683661fd41a3bb1514
     log: revlist-6c8dfb036273-faeab166167f.txt
 
---===============8814127071451928962==
+--===============5670214235117498124==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1776594561 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1776594579 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/driver-core/driver-core.git
-nonce 1776594554-3369bcb985c8d326d1c73b56efab166a170ab74a
+nonce 1776594573-d11be0cc8e5c15c967c062ff58031bf13facb931
 
-6c8dfb0362732bf1e4829867a2a5239fedc592d0 faeab166167f5787719eb8683661fd41a3bb1514 refs/heads/driver-core-next
+6c8dfb0362732bf1e4829867a2a5239fedc592d0 faeab166167f5787719eb8683661fd41a3bb1514 refs/heads/driver-core-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmnkroEbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+WjMP/0QHPGb9k/yZZtB++hHJ
-Jezch9d7tpB/rydjnCJALJZB4/jM7IU9g46hDuJVS7zHHZx/BOS0Dos7Y7dF1Xeo
-ZOGnWEnirETDtMPofxlOUD8SjDJjRuYmER+P0mrGPSsAJI4MgVny22I1+xZbL87P
-WH36pH8ZwqBv2IbCpKvG9GSycgr5f9g+DUkDrhrE8o5OGRfo48J4XVwepcpOs/rF
-/dr7KdukgVGp+j5lheQNbwCOkQqs+He1NJKCSo7c+J8dMY03RlroRxjZ13JfiyIR
-Jzftu0/G5FrqIA9/pkhrlMlVTDyUiRaBMOIxt6u6Hfjhsv1ZM0rkBmqntGmEshNh
-Dl7Jn5EK2AXuyY80Y8HoeIEzNK+TtG8jQ8mD6S1InRZ2AWg9m/EqdMRGQmwToyW7
-XZFo3ZdiwZ+dqbeqHK9ClSxcDIQCtXfNn9mOjae1fsUpZPp0Dc0mEnNb9emCYzGq
-qUvvHMf//dDXkoCDx6yf2XOuN5zDuxDH+ZDXWVI2OrF+U5J1WWcnPGthOdpDg5ND
-zOQpu4ogIG1IozrLaIsMoSYLJ83QXVI3Np4M0RsXrm6MOn353JWg7bL+6ZayPawG
-OvI5qnmOPWAPAr3sfEjwJAifToJAGlIrZaaJrgZslNI/kMNQ1gNtd/jk93CHheCY
-254fvox8Fwj8dSsh3p7uHwtg
-=NEO3
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmnkrpMbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Q+AQAMePRhxpRfN5SrTpdBLH
+cJMGA8QW6ZnFctqRBm8esIVvAoZnqMZoIfyPi1R7lyYqvX8ADHoPcm6UgJM8NMhu
+t5PV38zotplW3ncP7b6eowt1dIEVyx2M9mN10BRqVeLrYQEurHPWLottZbC+wuiw
+Xp0DUtPjjX6g5vajFsm+GQOPiRffE09P514bKmSaVVN3bmlVH9HoRCFpdhodg7+l
+tLY+adYx/h8pbR5uHWgYx0LQjoHPEaJpaMHO+ulxkV8DYa70sN9B2JIZnmkLDvCu
+OMkkn4D4KqeS1YJQjyTtMgeN7xWDipc2aueGn8H6zO2SN1967dr2Ji6zfxgVmrSp
+G/CQ40fYdETy8e1smZO6m6wZcfI6l+yveRqWvpbS+asj0wTv5mKAhRrsT+wsiuir
+LbY5E1QOGhb8JgnIsDwZNTqwC+Gf38SHPq3vZHSo4GT+/+OqaEYOWgkEiP5KGf4F
+EOOenYvoP4T+OzcorxmxluiSRToAEvAFdtRW8q+e50H8mseKr59n7NNXEAOp7Z+1
+YDrrt5TuUJaLtoxlink0kl7Uu9Wc0JQNQK8AGhI7v0q2O5M7Q7qMh5ejxOtx8tYd
+7y0PpCqmBhB/8nYX9+wfIhUUbQlUV+LYgSYexT+uerK/Folgww0GT6K6+YXRega6
+sML4zQychB9AAZ5j2YAqr6MW
+=e+BG
 -----END PGP SIGNATURE-----
 
---===============8814127071451928962==
+--===============5670214235117498124==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1082,4 +1082,4 @@ eb5249b12507246dc959945454cd1be8d7dc3795 Merge tag 'parisc-for-7.1-rc1' of git:/
 401b0e0bc96543881924d623388a9472b3331b3f Merge tag 'i3c/for-7.1' of git://git.kernel.org/pub/scm/linux/kernel/git/i3c/linux
 faeab166167f5787719eb8683661fd41a3bb1514 Merge tag 'pinctrl-v7.1-1' of git://git.kernel.org/pub/scm/linux/kernel/git/linusw/linux-pinctrl
 
---===============8814127071451928962==--
+--===============5670214235117498124==--
