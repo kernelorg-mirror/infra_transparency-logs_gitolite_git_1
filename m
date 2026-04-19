@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8616666351915691907=="
+Content-Type: multipart/mixed; boundary="===============8042290644379474364=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Sun, 19 Apr 2026 16:04:58 -0000
-Message-Id: <177661469838.179328.14788843973344477583@gitolite.kernel.org>
+Date: Sun, 19 Apr 2026 16:05:00 -0000
+Message-Id: <177661470052.179422.2833928672166520650@gitolite.kernel.org>
 
---===============8616666351915691907==
+--===============8042290644379474364==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/mm-new
-    old: 0b2795f6e3d8c6651965185688ae577796221978
-    new: f4279f87cd6c82ebdaccdc56f38e7b80ca7fcc03
-    log: revlist-0b2795f6e3d8-f4279f87cd6c.txt
+  - ref: refs/heads/mm-unstable
+    old: 306afb4fc25375b0fdb0dd9d2c9fd34b4750ab0d
+    new: 4569c01e84d440f1f6c79df1e13e9c86a9fb80ca
+    log: revlist-306afb4fc253-4569c01e84d4.txt
 
---===============8616666351915691907==
+--===============8042290644379474364==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0b2795f6e3d8-f4279f87cd6c.txt
+Content-Disposition: attachment; filename=revlist-306afb4fc253-4569c01e84d4.txt
 
 8fedac321fb0fb368d4c14674e2a64852b4f225e mm/mempolicy: fix weighted interleave auto sysfs name
 8bbde987c2b84f80da0853f739f0a920386f8b99 mm/damon/core: disallow time-quota setting zero esz
@@ -43,6 +43,5 @@ f7358b8efea892b24fa109c6876a3d149ca55896 mm: fix mmap errno value when MAP_DROPP
 22cf02755bb90681de80c9b2d50b4fa484f4452b selftests/mm: verify droppable mappings cannot be locked
 fdfb088c18076c60ab017c51015dc8d8d77a71d2 mm/swap, PM: hibernate: fix swapoff race in uswsusp by pinning swap device
 4569c01e84d440f1f6c79df1e13e9c86a9fb80ca mm/swap: remove redundant swap device reference in alloc/free
-f4279f87cd6c82ebdaccdc56f38e7b80ca7fcc03 mm/vmstat: spread vmstat_update requeue across the stat interval
 
---===============8616666351915691907==--
+--===============8042290644379474364==--
