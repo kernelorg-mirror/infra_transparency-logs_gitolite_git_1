@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8231641404219941037=="
+Content-Type: multipart/mixed; boundary="===============8814127071451928962=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/driver-core/driver-core
-Date: Sun, 19 Apr 2026 10:28:45 -0000
-Message-Id: <177659452537.4039223.1640750889900089536@gitolite.kernel.org>
+Date: Sun, 19 Apr 2026 10:29:22 -0000
+Message-Id: <177659456290.4040000.1617121699699800885@gitolite.kernel.org>
 
---===============8231641404219941037==
+--===============8814127071451928962==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/driver-core/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: c369299895a591d96745d6492d4888259b004a9e
+  - ref: refs/heads/driver-core-next
+    old: 6c8dfb0362732bf1e4829867a2a5239fedc592d0
     new: faeab166167f5787719eb8683661fd41a3bb1514
-    log: revlist-c369299895a5-faeab166167f.txt
+    log: revlist-6c8dfb036273-faeab166167f.txt
 
---===============8231641404219941037==
+--===============8814127071451928962==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1776594513 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1776594561 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/driver-core/driver-core.git
-nonce 1776594513-671bf462cb825cf7c858800d2605948c73edd4cd
+nonce 1776594554-3369bcb985c8d326d1c73b56efab166a170ab74a
 
-c369299895a591d96745d6492d4888259b004a9e faeab166167f5787719eb8683661fd41a3bb1514 refs/heads/main
+6c8dfb0362732bf1e4829867a2a5239fedc592d0 faeab166167f5787719eb8683661fd41a3bb1514 refs/heads/driver-core-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmnkrlEbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+CUIQAI4NCPKRzM6r1B0HGtwW
-lsf7vyvD3+CJLvgifB+Q+Mfkmdtp9ZJBhPtPBu7stxP/96TAegYViK5+7hnSKZ8W
-NBEhX9wjKeZOstjbskZDdg47EMBKYxjhg7CXyk4c6i6XNMA7xOr7te7OjTiPa+3z
-2UKRWC/FC04o4ymC7NAIg+wYVUOm1ieXwLf8ZFlLbMy2ME3FhoaU6vXUFxFCnajD
-6FFJxel14ByQ09sVyuNMpB/3iMeFTPe5yiX7Q9xFtpeepZxIbAOrZsdI5HVWFT/S
-IQHJHjBL3cnVKivkp+sHq7A098p7TDT6aiMJyQQYnFRaoXUpKL+eUDC0LFPe7I4Q
-cPH6w8VAQiHx1CktbcOA1s0wq7aZ06i8pvuUPhV+3Akp3zwYid0nJekN4Kil8oPC
-dBmrW0wgeD6eeqnfnVs6gIBbTY8niwr9dgGDrFHcmPYmH5wnEegfzdNljHpAVbZp
-x1+NciPk5pjeDQevlviKWsB+dCuF/c3PYbM9SLmp6Lqi8AQweh0KBfYCq7gKkA1x
-UX5loa5urD1ZfeYBTjt+xfltVzbCKyrBrA+Y9YPPNnSG4WMpKesuTyy4LTBJFrVn
-IilYXDjXbCD4kg87Tksrh9Un4mCGAI4Pq/QXHXHQw+FH7K7DfD0DTxUMGcDGIjad
-fkRY4CeFtEMwnFnpAY96fMQy
-=DzXP
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmnkroEbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+WjMP/0QHPGb9k/yZZtB++hHJ
+Jezch9d7tpB/rydjnCJALJZB4/jM7IU9g46hDuJVS7zHHZx/BOS0Dos7Y7dF1Xeo
+ZOGnWEnirETDtMPofxlOUD8SjDJjRuYmER+P0mrGPSsAJI4MgVny22I1+xZbL87P
+WH36pH8ZwqBv2IbCpKvG9GSycgr5f9g+DUkDrhrE8o5OGRfo48J4XVwepcpOs/rF
+/dr7KdukgVGp+j5lheQNbwCOkQqs+He1NJKCSo7c+J8dMY03RlroRxjZ13JfiyIR
+Jzftu0/G5FrqIA9/pkhrlMlVTDyUiRaBMOIxt6u6Hfjhsv1ZM0rkBmqntGmEshNh
+Dl7Jn5EK2AXuyY80Y8HoeIEzNK+TtG8jQ8mD6S1InRZ2AWg9m/EqdMRGQmwToyW7
+XZFo3ZdiwZ+dqbeqHK9ClSxcDIQCtXfNn9mOjae1fsUpZPp0Dc0mEnNb9emCYzGq
+qUvvHMf//dDXkoCDx6yf2XOuN5zDuxDH+ZDXWVI2OrF+U5J1WWcnPGthOdpDg5ND
+zOQpu4ogIG1IozrLaIsMoSYLJ83QXVI3Np4M0RsXrm6MOn353JWg7bL+6ZayPawG
+OvI5qnmOPWAPAr3sfEjwJAifToJAGlIrZaaJrgZslNI/kMNQ1gNtd/jk93CHheCY
+254fvox8Fwj8dSsh3p7uHwtg
+=NEO3
 -----END PGP SIGNATURE-----
 
---===============8231641404219941037==
+--===============8814127071451928962==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c369299895a5-faeab166167f.txt
+Content-Disposition: attachment; filename=revlist-6c8dfb036273-faeab166167f.txt
 
 cdb7f671bca136c6f4e2deb6163c4f5d482f5eae Bluetooth: btusb: Add new VID/PID 13d3/3580 for MT7902
 7968f6d34e0551a166e293a8d35cef605afde3ec Bluetooth: btusb: Add new VID/PID 13d3/3594 for MT7902
@@ -1082,4 +1082,4 @@ eb5249b12507246dc959945454cd1be8d7dc3795 Merge tag 'parisc-for-7.1-rc1' of git:/
 401b0e0bc96543881924d623388a9472b3331b3f Merge tag 'i3c/for-7.1' of git://git.kernel.org/pub/scm/linux/kernel/git/i3c/linux
 faeab166167f5787719eb8683661fd41a3bb1514 Merge tag 'pinctrl-v7.1-1' of git://git.kernel.org/pub/scm/linux/kernel/git/linusw/linux-pinctrl
 
---===============8231641404219941037==--
+--===============8814127071451928962==--
