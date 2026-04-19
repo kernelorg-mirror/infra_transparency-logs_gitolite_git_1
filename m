@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3809233828952746738=="
+Content-Type: multipart/mixed; boundary="===============5702619138522358691=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Sun, 19 Apr 2026 12:17:16 -0000
-Message-Id: <177660103685.4150096.2108924598422428945@gitolite.kernel.org>
+Date: Sun, 19 Apr 2026 12:17:32 -0000
+Message-Id: <177660105222.4150495.12184235786540022652@gitolite.kernel.org>
 
---===============3809233828952746738==
+--===============5702619138522358691==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
 user: jarkko
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/next
     old: 466cd583b98b8c60bfa4d9c3ae873e0992af3feb
     new: 6ec505d321fa77668f68cf9c6ead6a1b38b838ef
     log: revlist-466cd583b98b-6ec505d321fa.txt
 
---===============3809233828952746738==
+--===============5702619138522358691==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ c5be466956f69bf7da0872c80284c3ff6d5a682e tpm: Use kfree_sensitive() to free auth
 792b618c912364c9da18a5c14fc1ea041ae4d342 tpm: tpm_tis: add error logging for data transfer
 6ec505d321fa77668f68cf9c6ead6a1b38b838ef tpm: tpm_tis: stop transmit if retries are exhausted
 
---===============3809233828952746738==--
+--===============5702619138522358691==--
