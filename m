@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Sun, 19 Apr 2026 17:58:24 -0000
-Message-Id: <177662150489.293407.5566804319010390628@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/thermal/linux
+Date: Sun, 19 Apr 2026 18:14:55 -0000
+Message-Id: <177662249585.308580.11028759651427015483@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/cel/linux
-user: cel
+repo: pub/scm/linux/kernel/git/thermal/linux
+user: daniel.lezcano
 changes:
-  - ref: refs/tags/nfsd-7.1
+  - ref: refs/heads/thermal/cooling-device-with-id-v2
     old: 0000000000000000000000000000000000000000
-    new: 80cfd4aaa31c35e4a61d5d49b1befdd0e5ce9069
+    new: a1f086d250b04a9b833e71a6fa865e3600c5dac0
