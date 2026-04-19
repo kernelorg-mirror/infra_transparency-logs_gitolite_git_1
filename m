@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2539005039663416152=="
+Content-Type: multipart/mixed; boundary="===============1047836286013434070=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/gregkh
-Date: Sun, 19 Apr 2026 14:45:46 -0000
-Message-Id: <177660994688.103204.4073961938734047274@gitolite.kernel.org>
+Date: Sun, 19 Apr 2026 14:46:14 -0000
+Message-Id: <177660997486.103756.13740918102410516075@gitolite.kernel.org>
 
---===============2539005039663416152==
+--===============1047836286013434070==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,47 +16,74 @@ repo: pub/scm/linux/kernel/git/gregkh/gregkh
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/clanker
-    old: f8d12d87e529051bb29f3be8951795fc37c611d0
-    new: 3c263f94188a284136a97e93fe9b1e74a5563ed8
-    log: revlist-f8d12d87e529-3c263f94188a.txt
+  - ref: refs/heads/main
+    old: 028ef9c96e96197026887c0f092424679298aae8
+    new: faeab166167f5787719eb8683661fd41a3bb1514
+    log: revlist-028ef9c96e96-faeab166167f.txt
 
---===============2539005039663416152==
+--===============1047836286013434070==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1776609916 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1776609949 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/gregkh.git
-nonce 1776609915-c669fbf817ff3fcdb617e20432d999918bea4084
+nonce 1776609948-b5641b313ff8c72c71988e7db7bcc23119390181
 
-f8d12d87e529051bb29f3be8951795fc37c611d0 3c263f94188a284136a97e93fe9b1e74a5563ed8 refs/heads/clanker
+028ef9c96e96197026887c0f092424679298aae8 faeab166167f5787719eb8683661fd41a3bb1514 refs/heads/main
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmnk6nwbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+xAcQAMHiGHaWbvD+6YkQpj49
-eZ4u6VPF9Ci0TOM/K1kGubzLQIWdeUrNvrzUdGo0cjRdQmHgiyXb8an4kasC1xbZ
-P/9Vi7KGkN4olUi7CbKval8nGbkWfMFdyn5UPuEcu5QlRJT3DV6JsYcyZ/Qko/NO
-n2UwKYOrfpB2IiG8wQMYbpPBfxW+BDsLAehS3JYfzMi06wJsZUMbKZsaqBEnBVLS
-A3HuUYB/JOyq+vf5TzmIJWkB1Qwb8Fb3f4s9FFkdRvLSteF7o4b4h4me0xKlZa+q
-gxdLFD6rPyN6WAottfdM5OeJZe4lKO59Zz/0KpSF8JcoekB2xVdDeiITDWMbxkFP
-7rH2zV17ZGR1Bf04iU89JvyJYx/RyQl231W9is0zKANBKLBGPatzl0RbSutgEXCI
-HSvliyxg9CY7MWPWc+lXzsTz7iK3xlS2c57FbMOghjQRjbICyylI/74r2cHVjouj
-I7DwqvYSt+XUPf55+bnyfhc241/jywsAq02myS8VlZUG7lGh34fyjIWfiq1cUSKE
-jtZtRYI5wEBDHLmg0h5bWD83Q5ob37fMZM/yxsDzgHnqXioBxO9T3POX4NmYtl0q
-64Jd+wUZPNFXCnNH4+MvHrpRJmppIzmmHUm5GeCtKgGXLe0NX8hSfEQgnoNIbefp
-SDC5KayhkTZArIG4DVd3WpcA
-=cv4R
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmnk6p0bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+vYcQANFZU95yTFHafnkEgHg0
+OOuq5YycUAvi/0IwLIFBh7BNIvi2IxT+e5JXY/wkvf8A9MnYfBdndnbWdBufBUVG
+K2HIv8MadMpKDUvIXCkCiX9bGrlFA+B2IeXHd2nfczq79OxEiismHB7HuQG1i6qj
+xDkl7IbT4SxkWqgMzwLWcrle2cVA5ehWxXLfaW25n4HnULHWJ4a8f4i0b790fhZd
+BPT5OgeqOa0MnXyh3twsud458kkb34hGgiCcFjIGs++vqme/csrZ7HTnFg8/njdg
+bS950cyrLNVTdlmbImIHRp7HJShzMSSCLQmmgr9KTi5zxuXGdyyzL8A5wLVZ02GC
+CLjKmmYykCgjKuPqQHUq+La61ChG+NVqa2t1lJLqDaKf15yoYLI95CugsRwPcyJR
+3lJwoXgdTgqAR4lX1WGJ7DNLuCx8xHeEA4PngbxyXdEGYrOhVfiamNWbWvOf1ODi
+3hKj8Y/QLhNOIVcViFGPlN3H4WWLGeg9kn+F1JVuUNzYac/CpqaTHd2LHUAQw3yb
+8bLrTTqvtO21eDZOlWrdxU7MOhUyhvwJtg+u5G0B5o/4CJLaojG31nJATNsWzV+o
+MVK3mFtuCxHXBVl81rtuhnbEM2JwBp1Hqtp3Vy8Gd1xfL7wtuEvnA5b2HOHCvo9F
+WQWmjnJYUrDZKyeer25tJMxZ
+=M/F+
 -----END PGP SIGNATURE-----
 
---===============2539005039663416152==
+--===============1047836286013434070==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f8d12d87e529-3c263f94188a.txt
+Content-Disposition: attachment; filename=revlist-028ef9c96e96-faeab166167f.txt
 
+48bd344e1040b9f2eb512be73c13f5db83efc191 ALSA: usx2y: us144mkii: fix NULL deref on missing interface 0
+07704bbf36f57e4379e4cadf96410dab14621e3b ALSA: fireworks: bound device-supplied status before string array lookup
+b9c826916fdce6419b94eb0cd8810fdac18c2386 ALSA: 6fire: fix use-after-free on disconnect
+fb79bf127ac2577b4876132da6dba768018aad4c ALSA: sc6000: Keep the programmed board state in card-private data
+47f72d57ddb11222479c80bd07f5bc036d84c94d ALSA: sc6000: Restore board setup across suspend
+36446de0c30c62b9d89502fd36c4904996d86ecd ublk: fix tautological comparison warning in ublk_ctrl_reg_buf
+8c0ee19db81f0fa1ff25fd75b22b17c0cc2acde3 dm cache: fix missing return in invalidate_committed's error path
+480a9e57cceaf42db6ff874dbfe91de201935035 Merge branches 'for-next/misc', 'for-next/tlbflush', 'for-next/ttbr-macros-cleanup', 'for-next/kselftest', 'for-next/feat_lsui', 'for-next/mpam', 'for-next/hotplug-batched-tlbi', 'for-next/bbml2-fixes', 'for-next/sysreg', 'for-next/generic-entry' and 'for-next/acpi', remote-tracking branches 'arm64/for-next/perf' and 'arm64/for-next/read-once' into for-next/core
+4e0dc01bd55d5fbaf30d823655e05c038f88f34b dt-bindings: sram: Document qcom,milos-imem
+738dd185d3e447e1dfa65b5287730fef456089bf dt-bindings: sram: Allow multiple-word prefixes to sram subnode
+b8bb703fe44ece3e0bc26debd279bf7f6e44247c Merge tag 'Chinese-docs-7.1' of git://git.kernel.org/pub/scm/linux/kernel/git/alexs/linux into tmp
+1f2ac009d3e06380400618e777c858e582872efa Bluetooth: btusb: MT7922: Add VID/PID 0489/e174
+edef6576853e51faa11bb286884c362ff7fc83a0 Bluetooth: hci_core: Rate limit the logging of invalid ISO handle
+a80b51f066063e399a50c1e1ced008734a6ec800 Bluetooth: btbcm: remove done label in btbcm_patchram
+54f1f020e9f4a087779cc4d96a7c86f47d0c6797 Bluetooth: btmtk: improve mt79xx firmware setup retry flow
+a55f80233f384dc89ef3425b2e1dd0e6d44bcf29 fwctl: Fix class init ordering to avoid NULL pointer dereference on device removal
+b27a306e9f206aaf10f22b0c6338d7b97799c7b7 Bluetooth: btmtk: add status check in mt79xx firmware setup
+679621a767bfa0a2cb77fbd8b664412e9e3f89cf Bluetooth: btmtk: Add reset mechanism if downloading firmware failed
+f29bc37dfc4ad7570d78f8cd482d4b83c3caffdf Bluetooth: qca: Refactor code on the basis of chipset names
+04c217a7fc8f23a1c99b014cb6a89cf77ac7a012 Bluetooth: btbcm: Add entry for BCM4343A2 UART Bluetooth
+7e2e1e5859359c62b4b8f8780be2c8dea1708529 Bluetooth: hci_qca: Fix confusing shutdown() and power_off() naming
+9ff5ff0b9175c37f1fc2ad4e94fa23c7bbc9504f Bluetooth: hci_qca: Fix BT not getting powered-off on rmmod
+c0ad33d273ef1097b28421c3e8d19f52553f26e8 Bluetooth: btintel_pcie: Replace snprintf("%s") with strscpy
+67377cd38b89ce782ccdb83bda3f65a2def843cd Bluetooth: btusb: Add Lite-On 04ca:3807 for MediaTek MT7921
+9a9d21f780805fd6f950e930eeae437748d72793 Bluetooth: btintel_pcie: Use struct_size to improve hci_drv_read_info
+cde32a92d4562b686f730fc08d4d558ecc99d516 mmc: sdio: add MediaTek MT7902 SDIO device ID
+aab25984e55972e53f3e58821cb85a7101876056 Bluetooth: btmtk: add MT7902 MCU support
 51c4173b89fe7399bad1381016096cc154588660 Bluetooth: btusb: Add new VID/PID 13d3/3579 for MT7902
 cdb7f671bca136c6f4e2deb6163c4f5d482f5eae Bluetooth: btusb: Add new VID/PID 13d3/3580 for MT7902
 7968f6d34e0551a166e293a8d35cef605afde3ec Bluetooth: btusb: Add new VID/PID 13d3/3594 for MT7902
@@ -1054,32 +1081,5 @@ fba676bd2919ceff5a678c0bd05ab3ac89affaeb Merge tag 'i2c-for-7.1-rc1-part1' of gi
 eb5249b12507246dc959945454cd1be8d7dc3795 Merge tag 'parisc-for-7.1-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/deller/parisc-linux
 401b0e0bc96543881924d623388a9472b3331b3f Merge tag 'i3c/for-7.1' of git://git.kernel.org/pub/scm/linux/kernel/git/i3c/linux
 faeab166167f5787719eb8683661fd41a3bb1514 Merge tag 'pinctrl-v7.1-1' of git://git.kernel.org/pub/scm/linux/kernel/git/linusw/linux-pinctrl
-34abb43a297a34b35cdb40f7f424b931e39360c9 leds: qcom-lpg: Check for array overflow when selecting the high resolution
-56e77f36032305f725730a09e51595aa490a6eda net: mctp: usb: properly drop the usb interface on probe error
-d4ade62fb96d048234145c7bf179ccb194065c04 wifi: rtw88: properly drop usb interface reference on error
-df5f87cd4efd1178f0978b7292cb94747aa628aa mmc: moxart: fix potential use-after-free on remove path.
-76ecd84852185bc518e59fa44d45bf1202470f11 mmc: meson-gx: fix potential use-after-free on remove path.
-8d13bc4b4af3575713a3eae4229519c580f91bce f2fs: fix potential deadlock in f2fs_convert_inline_inode
-6290cbbb372c78757b42cf0b05775018acc6f720 LoongArch: add spectre boundry for syscall dispatch table
-4872e996de65a99ca09356e1f373965f82de09e9 drm/amdkfd: stop speculation on the kfd_ioctl path
-622e5ee79eb3103f56e9443cf0081e35d80b86f1 usb: core: config: reverse the size check of the SSP isoc endpoint descriptor
-ffe2b9a0fe38b4e7ba586b7afd83eeac14569125 usb: gadget: renesas_usb3: validate endpoint index in standard request handlers
-f07d3c07a3ccddd109942f35282146b3f1db3bf7 netrom: do some basic forms of validation on incoming frames
-8f9687775050d71a5d36a65bbd1b470966f6b11c usb: gadget: f_phonet: fix skb frags[] overflow in pn_rx_complete()
-0e2d47149171efca04438c744d5a3c5b7e174f99 usb: gadget: f_ncm: validate minimum block_len in ncm_unwrap_ntb()
-b64c9e29e1425747a5c1f0aa136e4c10a0b2d569 iio: pressure: bmp280: fix stack leak in bmp580 trigger handler
-668979b02ad69d2c46b40238a78dd81b1f9462b0 iio: imu: st_lsm6dsx: fix stack leak in tagged FIFO buffer
-3bfc39d47e21ffd61b787ea145985512ea94327c iio: imu: adis16550: fix stack leak in trigger handler
-b30d0bdec7303d82627b2e27cdea0c5e58f8ecbe media: adv7604: avoid negative array index in log_status when cp_read fails
-9bfe8e19b645015aa48aa05cee7640c0d4262133 media: stv090x: bound DiSEqC reply length to msg[] size
-fae5fca4015189b093c2a32a4f806f5b441c3898 media: stv0900: bound DiSEqC reply length to msg[] size
-c9e459fae905bf8ccde6d274375cce1ee8e016ec fs/ntfs3: validate rec->used in journal-replay file record check
-0840c42473e5446746966341711fe31d0340258b ice: fix double free in ice_sf_eth_activate() error path
-ee848fb28c8e947b1c80f085713544a5c9ee2ade NFC: digital: Bounds check Felica response before sensf_res memcpy
-4b7c932542a77414b4be36b731a4c37b528e6b8b idpf: fix double free and use-after-free in aux device error paths
-95299e6c871f1a7e7a202653873f414ebd21e240 net: usb: cdc_ncm: reject negative chained NDP offsets
-d48483db50e93d9661442ef32241d3f39292ff13 net: sched: em_text: require NUL-terminated algo name
-0d089fcef76b098b6ea31bba95abdf63003f057f scsi: target: configfs: bound snprintf return in tg_pt_gp_members_show
-3c263f94188a284136a97e93fe9b1e74a5563ed8 staging: rtl8723bs: fix OOB write in HT_caps_handler()
 
---===============2539005039663416152==--
+--===============1047836286013434070==--
