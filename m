@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/alexs/linux
-Date: Sun, 19 Apr 2026 13:32:19 -0000
-Message-Id: <177660553955.31480.8879128627836450148@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd-test
+Date: Sun, 19 Apr 2026 13:39:44 -0000
+Message-Id: <177660598413.37740.11518020329206888564@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/alexs/linux
-user: alexs
+repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd-test
+user: jarkko
 changes:
-  - ref: refs/heads/docs-next
-    old: 5c2a7c979e732e9fe1d92b94faf742aa779d0dee
-    new: 54094b5f8069573b7c39d61450e2c0f6e268a53a
+  - ref: refs/heads/main
+    old: 9bbe87da2b685d8e61107ab74e02e4cd7bd93b4d
+    new: 6f77b2e14894767d6cb29ef002c87f1394a98cf0
     log: |
-         54094b5f8069573b7c39d61450e2c0f6e268a53a docs/zh_CN: add --no-merges to git log example in how-to.rst
+         6f77b2e14894767d6cb29ef002c87f1394a98cf0 Remove perf
          
