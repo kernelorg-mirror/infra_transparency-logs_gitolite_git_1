@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Mon, 20 Apr 2026 04:35:14 -0000
-Message-Id: <177665971445.920673.15454580879951414679@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd-test
+Date: Mon, 20 Apr 2026 04:55:07 -0000
+Message-Id: <177666090700.940116.679649482382857155@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd-test
 user: jarkko
 changes:
-  - ref: refs/heads/tpm2-asymmetric
-    old: d61aaa220b0318f4326655be8fa15d0ddc7a3d00
-    new: e3cc9b6ed4b6137a870d596a362ae53765d71f8a
+  - ref: refs/heads/main
+    old: c3da8282d1559c151ed80a73d56e2c000318184e
+    new: 0abbae2168110d19c10e6be1c361d6ca2a8e3154
     log: |
-         e3cc9b6ed4b6137a870d596a362ae53765d71f8a keys: asymmetric: Asymmetric TPM2 key type
+         0abbae2168110d19c10e6be1c361d6ca2a8e3154 Fine-tune and sanitize board configs
          
