@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0788413113475903148=="
+Content-Type: multipart/mixed; boundary="===============7686444991677954158=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Mon, 20 Apr 2026 07:25:36 -0000
-Message-Id: <177666993625.1102063.7747338790119877014@gitolite.kernel.org>
+Date: Mon, 20 Apr 2026 07:25:54 -0000
+Message-Id: <177666995456.1103742.11922420358289672138@gitolite.kernel.org>
 
---===============0788413113475903148==
+--===============7686444991677954158==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,15 +16,23 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: 0cdea9e7dc571285669e25054fba77a6a17d60fd
-    new: b106f6d7de1988e188081f5f47052b59f4f4c779
-    log: revlist-0cdea9e7dc57-b106f6d7de19.txt
+    old: b106f6d7de1988e188081f5f47052b59f4f4c779
+    new: 216fe4b3e06754e73c79a88b1df7e9806e41f29d
+    log: |
+         52cfe57e40767d7312fd0de736e9e62545e59648 Merge branch into tip/master: 'core/urgent'
+         3d02b74bdb753038546b96819c347bb965c4db17 Merge branch into tip/master: 'timers/urgent'
+         216fe4b3e06754e73c79a88b1df7e9806e41f29d Merge branch into tip/master: 'timers/clocksource'
+         
+  - ref: refs/heads/tip/urgent
+    old: e4b3508ba6494ea4082ef46cc1fd96170fefb536
+    new: 3d02b74bdb753038546b96819c347bb965c4db17
+    log: revlist-e4b3508ba649-3d02b74bdb75.txt
 
---===============0788413113475903148==
+--===============7686444991677954158==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-0cdea9e7dc57-b106f6d7de19.txt
+Content-Disposition: attachment; filename=revlist-e4b3508ba649-3d02b74bdb75.txt
 
 540e666a7662dc570f0eca451f75ba3cc31445bb dt-bindings: pinctrl: rockchip: Add RV1103B compatible
 6d3ea3120eaa51432c1788b0a48cfab3ab77d697 pinctrl: rockchip: Add RV1103B pinctrl support
@@ -646,6 +654,7 @@ ec05f51f1e65bce95528543eb73fda56fd201d94 mm/vmalloc: take vmap_purge_lock in shr
 bea8d77e45a8b77f2beca1affc9aa7ed28f39b17 Merge tag 'staging-7.1-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/staging
 8c2bf4a2e5cb4b325e328cc8808858a68616067c Merge tag 'driver-core-7.1-rc1-2' of git://git.kernel.org/pub/scm/linux/kernel/git/driver-core/driver-core
 c1f49dea2b8f335813d3b348fd39117fb8efb428 Merge tag 'mm-hotfixes-stable-2026-04-19-00-14' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
-b106f6d7de1988e188081f5f47052b59f4f4c779 Merge branch 'linus'
+52cfe57e40767d7312fd0de736e9e62545e59648 Merge branch into tip/master: 'core/urgent'
+3d02b74bdb753038546b96819c347bb965c4db17 Merge branch into tip/master: 'timers/urgent'
 
---===============0788413113475903148==--
+--===============7686444991677954158==--
