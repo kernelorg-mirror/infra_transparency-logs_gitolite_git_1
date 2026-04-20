@@ -1,57 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============6565081407086046914=="
+Content-Type: multipart/mixed; boundary="===============9110660929976070042=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/gregkh
-Date: Mon, 20 Apr 2026 19:00:29 -0000
-Message-Id: <177671162909.1902557.14736425043945677157@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
+Date: Mon, 20 Apr 2026 19:05:50 -0000
+Message-Id: <177671195025.1907888.5824222108337899322@gitolite.kernel.org>
 
---===============6565081407086046914==
+--===============9110660929976070042==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/gregkh
+repo: pub/scm/linux/kernel/git/gregkh/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/clanker
-    old: 8967bd8821c661a73fdfbdf07227315d7ecf6b21
-    new: 20fa661ad0391345533096ac8cf8bd7c86316481
+  - ref: refs/heads/t1000
+    old: 4fb5067f40822f6c7f385bf5e3dcb8cdefb8b91a
+    new: 5061064cd72183ef1bdd8fa7b529e540775cff24
     log: |
-         8e5b9d4d6a94e039f5efc42387eb72820c36ddad Input: synaptics-rmi4 - validate register descriptor structure against its declared size
-         20fa661ad0391345533096ac8cf8bd7c86316481 Input: synaptics-rmi4 - use u32 for reg_size to avoid sign extension into item->reg_size
+         5061064cd72183ef1bdd8fa7b529e540775cff24 Input: ims-pcu - bound frame parser write index against read_buf size
          
 
---===============6565081407086046914==
+--===============9110660929976070042==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1776711601 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/gregkh.git
-nonce 1776711600-bcf35efe9724eab3cd68d7b7c2ccc74677a583c8
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1776711947 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
+nonce 1776711947-2f086caee20c459ee95cbb69103e21b4cdffa8b5
 
-8967bd8821c661a73fdfbdf07227315d7ecf6b21 20fa661ad0391345533096ac8cf8bd7c86316481 refs/heads/clanker
+4fb5067f40822f6c7f385bf5e3dcb8cdefb8b91a 5061064cd72183ef1bdd8fa7b529e540775cff24 refs/heads/t1000
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmnmd7EbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+2u4P/24fLmQz1AVgeXo5vRCb
-owrXA7HmnlcT/ETt0TlW37uhL5A5rxzp9Say9m97taRIC5ctAk/3aXF7m5vXoGe/
-CjgoD/2mv6xReE8qrEbizk4jnBwgia7kBl8Wrpu3xh/vfqT2uo9DQHJFm482O9oG
-p38OjyptEcaLy1FL2xYeOFg1a3FeDQwQQnFckHn2Mgl9O2Hokd0V63HQqiOkl78o
-GI+BhlSQ8HNA5kt8ujZ//qw9swVgpR4rXd4o+eoTJ2pdYK67wbFJ+xIXKZT6kxN0
-aNN2vM7ZrV8Ngh5t9aqkqngjlE/0ranOMezHQEto99lfUqcUpxCqdizzO/1owJ7I
-ilAQ6Ckm2hUiojVWoLoDnIZttqRh3MFqBR45g2A6JTUigfmgpHSX6SYbbLaBra8W
-CXtRexeSlre4UQocz/04FIP4vvFlkHXjnhilwDSm2j8M/4O76X2iLC3o/wu7sQAk
-czehJQxSS2AqeGhmZD9uY1ug9C2ZPN0dOhOQExGyZdaYrwsJ4tKgS6smye1y5qG3
-dEvGRd9YqjtzaMHg5aLIh9ZVL2C54sFARQ7ZAIIOW5vJIXWmBltJ4M8f6yvPkylF
-WCcOafjtiC80vDJynU6NTIy2xAu+URna3paSHonCkQGyTffEE0P6Jo1x+88ABEnx
-BeYIYYr15HPGGpKl399w6J8J
-=WKnG
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmnmeQsbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+IGQP/1q+YPjcyR842T1sOlGS
+H6MyWnK4/61BBhK8jet9mLf43oEz70rzayA4Yl0e/7L7hlJEkXyqxBimmIIzFdhT
+9nDKnz067El9FivGglsIVwo3wZXS/Zok8WeZOeMQERvUWNH3hG9l1YQzH3VkRT8L
+TE83ub4UJKzTYtoF6j/IF1Itjfc4WcGEdLdlssIZ3Bfp4rD44DhDZcDGr1zxPMEs
+rZtfMmtBDOkjdJvOa7q6jrSDmjtExxbj+I8EB06n4Dcj7GAeUs2FCmIsCZnfU+Jn
+wiB7rHsaHzCK//eoy7+Honq3TS3paEBeMS9LzmIoLoKTMAFfm2A1JGl52jgIOjqQ
+UmuwInXW8P4FEdmkMEeBDlWlNQTpz8wXTQRLL1ivh8uojDGPEFT8QdUKxrQq3w/s
+eNxwBvGDN5rz0yN5ZAJGLiWvgp7DmkkPmTXw+R4ZnkVHgyTw68VjAsNv++CRokTD
+jq28nFIU/8s21PRex2dXt0e2YJQe22YVt80WQI3doliMoJp+CpJFQCHBQfR9uoZF
+eu+vN+cqExo0muYWTOJpPF8RWvss2j+Tb8zn8E9WWtHLElEGhLTwLhVgUoQmJv/S
+0rPZZZ13uw9yAeFCGqbupLW+q4OTKjtaW6oYu+GwZSnv8PNVTTLoCbZ/t1StuAiH
+jrxAIN4sgRdSu51qoHE0DUfs
+=zibv
 -----END PGP SIGNATURE-----
 
---===============6565081407086046914==--
+--===============9110660929976070042==--
