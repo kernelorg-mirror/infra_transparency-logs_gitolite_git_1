@@ -1,79 +1,63 @@
-Content-Type: multipart/mixed; boundary="===============4432631648761783164=="
+Content-Type: multipart/mixed; boundary="===============0885421328757071158=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/gregkh
-Date: Mon, 20 Apr 2026 09:07:23 -0000
-Message-Id: <177667604349.1278063.11566157673714327763@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
+Date: Mon, 20 Apr 2026 09:07:30 -0000
+Message-Id: <177667605025.1278389.577271434919940405@gitolite.kernel.org>
 
---===============4432631648761783164==
+--===============0885421328757071158==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/gregkh
+repo: pub/scm/linux/kernel/git/gregkh/tty
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/rndis
-    old: efc268d131c2018a1ac6af9b020fec843cc48dce
-    new: 845c8914caa096a02d0afbe159ffd822cd29278b
-    log: revlist-efc268d131c2-845c8914caa0.txt
+  - ref: refs/heads/main
+    old: 591cd656a1bf5ea94a222af5ef2ee76df029c1d2
+    new: c1f49dea2b8f335813d3b348fd39117fb8efb428
+    log: revlist-591cd656a1bf-c1f49dea2b8f.txt
 
---===============4432631648761783164==
+--===============0885421328757071158==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1776676012 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/gregkh.git
-nonce 1776676011-1f4b39b41839e952e383f151f1af5a971118ca9c
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1776676048 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
+nonce 1776676048-5720dc807655e0803d2fa78e518c699ea84c1326
 
-efc268d131c2018a1ac6af9b020fec843cc48dce 845c8914caa096a02d0afbe159ffd822cd29278b refs/heads/rndis
+591cd656a1bf5ea94a222af5ef2ee76df029c1d2 c1f49dea2b8f335813d3b348fd39117fb8efb428 refs/heads/main
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmnl7KwbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+L3sP/jfyDwDvVL7kwynZ1T0A
-5KmxhlhLZ7tRdwOoKc50W6wfTzKbD9+aA5WGVHubn9vpDA5xXlIS8jKwOXjKMQX5
-Hj+dwkJ4pcdUUsBI3eT8USe/peukXoQ1lz01dljhrkIFnpz97NaIwJ8mU6rJJan+
-mDwcnxyuDwYQBgN+aMAyfkqurRigrjaEsds8pOXvjyBdwm0RQ5QUzxbR0rVesI6a
-kOc19peI93TFqbVtqRgbsrNg3qru0Xx+/bI3xZdQcQXLebxnVYLu9I3JrQ0F7i7q
-E9OWlUclFkVbf0XHlZ98E4USzteI/nU3d9UaF5cdxPaRvC5jccRx7Qvd8gUtp2BS
-XA9YHtfdWSSx9jaMEOjj0vBUq9zbagubrsCujqzelDSOW2DZxCqUXjipt8hhZ4Cr
-4RhnKginXzH0DbN9UHREvO+6uxrEOT5x9blsgjn1Auh4JufItXvtCxdv434n5J2+
-OATiWaa63p1tZl3nDj1uw9fRkBtSrLrESgmnpBQn7JZ+NKnjVa2p5elvZwtFhx7o
-6aq4cmFRR63CAkthhL7aJLcU9tAicGv/ca7Gou0nbD5z84FF5XexxslrulyfF+Qd
-tGPcJHf3jAKKjZQfd68IqNm7ot1l4dAOH6Y5Jz/pRDQqCtlFRkhfmIdSTe8gcMMV
-YIKK/f5Svfp/clUujbYLayyM
-=1wV0
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmnl7NEbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+a58P/iFq7zOV/RAnSi89rl7H
+uvhn0iOiOBX+cqyXoaaaFtrFnLdOOck8bShP4DSee/o1DVR6s3v1vo+6ygY+BFhP
+upSDMVfccDSxFReqlwrNPSAZEbflZPMQ1K7beX4poISeQLF1UAdSw9FluL3IDYa9
+UWd/KBah9oU2DuKLwmVBvGqyAiq6C3zgBoCuXYTF+yitT1Ldc1pUFWDw/hrmS/oM
+T7NSsvhzPGYkgLDAU25OpYMGV4IW7mFdGvUTYmQ365zWgpZul3SB2Bem61X2k2M+
+Mkfzb2qd9bbkeGxRaK33JEGAlcxSaJ0VCqDOMXRl+ZPxo1mk+it/atvU8ofC8Up4
+QpYKQKl8+oQ1FRG62oSLJfARGYCWh8BGPNH8rrbgoKYz/gQXe6uMNwzfsA177f90
+c4DM10kpoHWZVrEWjqLTIgKunR/9WjwwmeaQtsvFSvB1z/xfYniBLRSUbo1TaYC0
+JXGwtS5uv6G6HQ4TIe3AJledSf99iHSCcnHVqJsOpMaE6mKCPfQp5D2KP7KSxakL
+2+OFhxGRX2gFj4F5kh3AkrWbiekuM7+tLY7LW6b2FOQcnFNxHKr8HVHBl7dV3D9F
+6pruzlPnTsWdAjHHz3EMn9yh1UNMYxuiBnSEWibtBfJ9M0VkarWYFLN5AeAvADER
+Kl9jJVDzYW6AEkWpRJhVLDTz
+=lDTY
 -----END PGP SIGNATURE-----
 
---===============4432631648761783164==
+--===============0885421328757071158==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-efc268d131c2-845c8914caa0.txt
+Content-Disposition: attachment; filename=revlist-591cd656a1bf-c1f49dea2b8f.txt
 
-f5fc003c457e3eaaa55ed1c3c0cb2b9bcd7bffcf Merge tag 'qcom-drivers-for-7.1-2' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/qcom/linux into soc/drivers
-2bb665a217587688fd20c5f101db573f2a2c3d0b Merge tag 'sunxi-dt-for-7.1-2' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/sunxi/linux into soc/dt
-33a20cdaf41d08a66581cc01a60c1a3d596ba9cd Merge tag 'ffa-fix-7.1' of https://git.kernel.org/pub/scm/linux/kernel/git/sudeep.holla/linux into soc/drivers
-5b3a6cf06c8e013e0bffe929aac8129188b8933d Merge tag 'mvebu-dt-7.1-1' of https://git.kernel.org/pub/scm/linux/kernel/git/gclement/mvebu into soc/dt
-a5cc53f047bb343a988954b30ca33da5c424d339 Merge tag 'usb-serial-7.1-rc1' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/johan/usb-serial into usb-next
-cfcd7b29e5191f5ff097f7c278188face0c79ab7 usbip: tools: add hint when no exported devices are found
-e7d219f4302182f956bc25e1b76bfe14009847e7 drivers/usb/host: Fix spelling error 'seperate' -> 'separate'
-2b7f1a4f19f87f44f95a812b0f40f79a23950f99 arm: dts: at91: remove unused #address-cells/#size-cells from sam9x60 udc node
-73d4839a3a86f3329fda8cc2cda723f10b22eb92 dt-bindings: usb: generic-ohci: add AT91RM9200 OHCI binding support
-02d58df0a5c12e5dcff0a690973537fc1b27db3e dt-bindings: usb: generic-ehci: fix schema structure and add at91sam9g45 constraints
-abfffb4b365ec18c4d3c6465b47fb36936fd4c2b dt-bindings: usb: atmel,at91rm9200-udc: convert to DT schema
-35c8b7148c8d387efde7b54019035e8c4a9ea99e dt-bindings: usb: atmel,at91sam9rl-udc: convert to DT schema
-d7a8d8b40800f51a6281ea330233a0ef22982513 dt-bindings: usb: dwc3: add support for StarFive JHB100
-87117347a0e77f528f357faa2230d5caffcd1b4e usb: dwc3: starfive: Add JHB100 USB 2.0 DRD controller
-5e75c1d4d386fb7d64e2b19355e4d38dd4fd8845 spi: cadence-qspi: Revert the filtering of certain opcodes in ODTR
-f79ee9e4b23244e77b28d176ce99a2d84d813ac5 spi: spi-mem: Add a packed command operation
-c4c3fc872d2a05bf10372233c98e81344e685cdf spi: sn-f-ospi: fix incorrect return code for invalid num-cs
+1fe7294dfb7d26f70bc8f6d7aff26bf76ed32214 Merge tag 'kvm-s390-master-7.0-4' of https://git.kernel.org/pub/scm/linux/kernel/git/kvms390/linux into HEAD
 a2225b6e834a838ae3c93709760edc0a169eb2f2 driver core: Don't let a device probe until it's ready
 8602018b1f17fbdaa5e5d79f4c8603ad20640c12 iommufd: Fix a race with concurrent allocation and unmap
 bb6a85b4b652f8424b5a28c2c445ded41ded51d0 Documentation: Add managed interrupts
@@ -85,8 +69,18 @@ cdd54fe98c00549264a92613af6bb0e9a5fd0d1c selftests/bpf: fix __jited_unpriv tag n
 335a6ca04158505b94afb7271488f5052c46f5e5 selftests/bpf: inline TEST_TAG constants in test_loader.c
 4b64e5244183c0dcffc077b840689e4c6c1f7b1f Merge branch 'selftests-bpf-impose-global-ordering-for-test-decl_tags'
 57205e2dd962d2c0e2093cf9b06dad6ba7737844 bpf: Delete unused variable
+778322a06e217e768ba3dc550a6f599f73ed781d Merge tag 'input-for-v7.0-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/dtor/input
+6b5199f4cf8d87e0952043c814cc3c6d45ae9ef6 Merge tag 'usb-7.0-final' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/usb
+558b9206d59c317186786ec21c1b616ab6a6f0a4 Merge tag 'probes-fixes-v7.0-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
+086aca1030cff9e4729785bcfafaf4b8c489a892 Merge tag 'for-linus' of git://git.kernel.org/pub/scm/virt/kvm/kvm
+e8ab3110525dfceba34c1bb777a92f156095c6da Merge tag 'regulator-fix-v7.0-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/regulator
+e753c16cb3dd1e8feee6977c330d21fbe0e2db0b Merge tag 'spi-fix-v7.0-rc7' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/spi
 ae3f8ca2ba505d62173bb2f6bf6f6edf951b909e bpf: Move checks for reserved fields out of the main pass
+f5459048c38a00fc583658d6dcd0f894aff6df8f Merge tag 'i2c-for-7.0-final' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
 2ec74a053611edf77259ecdef1d94be181dd1dd6 bpf: Simplify do_check_insn()
+31d00156e50ecad37f2cb6cbf04aaa9a260505ef crypto: af_alg - Fix page reassignment overflow in af_alg_pull_tsgl
+d702c3408213bb12bd570bb97204d8340d141c51 X.509: Fix out-of-bounds access when parsing extensions
+3d14bd48e3a77091cbce637a12c2ae31b4a1687c crypto: algif_aead - Fix minimum RX size check for decryption
 f312f8b5988003a10d662904c58c8c6bc036782b ALSA: sscape: Cache per-card resources for board reinitialization
 713e0f011178a2896e46db3244093454708066e2 ALSA: sscape: Add suspend and resume support
 02c64052fad03699b9c6d1df2f9b444d17e4ac50 crypto: ccree - fix a memory leak in cc_mac_digest()
@@ -132,6 +126,9 @@ d7665c3b4f575251e449e2656879392346ca612b i3c: master: renesas: Fix memory leak i
 49775afa983e3e5ce8e7d00ee241791073be214d i3c: master: Move bus_init error suppression
 ef8b5229348f0719aca557c4ca5530630ae4d134 i3c: master: Fix error codes at send_ccc_cmd
 0b73da96b6eb6b9354654f96a9d423ab22cb222d i3c: master: adi: Fix error propagation for CCCs
+8648ac819d4bc08f7d2a1e0bc9ec2d83de31f19d Merge tag 'v7.0-p5' of git://git.kernel.org/pub/scm/linux/kernel/git/herbert/crypto-2.6
+c919577eeed096bd80d6147a386701221df10484 Merge tag 'perf-urgent-2026-04-12' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+d71358127c6277521e2c31566b95b2fd20a38be9 Merge tag 'ras-urgent-2026-04-12' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 3c8c39768b10867e4f630080785b602245f01760 dpll: zl3073x: clean up esync get/set and use zl3073x_out_is_ndiv()
 737cb6195c40acf67c876f509e209158436cf287 dpll: zl3073x: use FIELD_MODIFY() for clear-and-set patterns
 63009eb92b0f379afddbba8dfdf8df087f6d5b62 dpll: zl3073x: add ref sync and output clock type helpers
@@ -140,6 +137,7 @@ a1a702090def20ab0fea13700128861b70d91bc5 dt-bindings: dpll: add ref-sync-sources
 d24b443429e071e4dad662c440e2ea56000accba Merge branch 'dpll-zl3073x-add-ref-sync-pair-support'
 f757a2da6df52299606512b0920eba728d642543 dt-bindings: net: ti: k3-am654-cpsw-nuss: Add ti,j722s-cpsw-nuss compatible
 436e9e48ca5141658d65f1190fccbc60a490c84b net: ethernet: ti: am65-cpsw: add support for J722S SoC family
+02640d8886a13a78d20a834d94d3eda9269a0606 Merge tag 'sched-urgent-2026-04-12' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 4d19654dacef1ce6e29769c0c863df13de0d5be3 net: ngbe: remove netdev->ethtool->wol_enabled setting
 752157d9eded7f9213d102048388a78753b84617 net: ngbe: move the WOL functions to libwx
 9bc29a87fbc647db5f08643403d59f094d19298e net: ngbe: remove redundant macros
@@ -173,8 +171,10 @@ f462dca0c8415bf0058d0ffa476354c4476d0f09 net/sched: act_ct: Only release RCU rea
 e530b484b70552d6222e2327e311f364724ce616 netkit: Don't emit scrub attribute for single device mode
 5758be283ff8b37beed49e270b908a251d5ca2d7 net: skb: clean up dead code after skb_kfree_head() simplification
 006679268a2942f897a1d601779867a8dcbb8ed0 vsock/virtio: remove unnecessary call to `virtio_transport_get_ops`
+ab3dee26406be0ed0a26af70311dcdc760db3996 Merge tag 'timers-urgent-2026-04-12' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 55b22075f7840ef48254886758976531fe146609 alpha: add support for SECCOMP and SECCOMP_FILTER
 bd39fc81340aed5445c731eb391af9ac9a701658 alpha: Define pgprot_modify to silence tautological comparison warnings
+35bdc192d829164a6e47184d06401918fe3d7f1f Merge tag 'wq-for-7.0-rc7-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/tj/wq
 82db77f6fb16d23ea60d0f96dcf2b502a322a28f net: tso: Introduce tso_dma_map and helpers
 268c63f2c6b23c80f3c903642f300a8e37ab3aa3 net: bnxt: Export bnxt_xmit_get_cfa_action
 637237d3d93cab7f183075f4fadbfbf62663c6f4 net: bnxt: Add a helper for tx_bd_ext
@@ -215,6 +215,7 @@ bb14e3b63c63a48307843c82180bc8abb34e1acc net: phy: realtek: convert RTL8211F to 
 4e17b9b43322e1cc1db88c7457bf57a00ff45b32 Merge branch 'net-phy-add-support-for-disabling-autonomous-eee'
 a6bd339dbb3514bce690fdcf252e788dfab4ee76 net_sched: fix skb memory leak in deferred qdisc drops
 46ce8be2ced389bccd84bcc04a12cf2f4d0c22d1 NFC: digital: Bounds check NFC-A cascade depth in SDD response handler
+10d97b74e2eef787d823f9bc05cb044b47d25c41 Merge tag 'edac_urgent_for_7.0' of git://git.kernel.org/pub/scm/linux/kernel/git/ras/ras
 f0efd29aa60cb3399c79c0a041d1f1c0a4367862 doc: Add CPU Isolation documentation
 40a3f6c5e2604ff7c007da6628120529569e950c Documentation: core-api: real-time: correct spelling
 fab205e49286ab01cbc6fa8debd65a5a6e6cca71 perf sample: Fix documentation typo
@@ -254,6 +255,7 @@ e802cd8cb0ffc4ddd2d6f78fc970d195af33deda Merge branch 'net-rds-fix-use-after-fre
 171609f047552b51b8ed78f338cbffb84b7f5e8f selftests/bpf: Add test for cgroup storage OOB read
 fa2942918afbd0cb765277e2fd09fe0aaef6dd8d Merge patch series "bpf: Fix OOB in pcpu_init_value and add a test"
 2bb6379416fd19f44c3423a00bfd8626259f6067 ppp: require CAP_NET_ADMIN in target netns for unattached ioctls
+028ef9c96e96197026887c0f092424679298aae8 Linux 7.0
 de08f9585692813bd41ee654fca0487664c4de30 net: ipa: Fix programming of QTIME_TIMESTAMP_CFG
 1335b903cf2e8aeaca87fd665683384c731ec941 net: ipa: Fix decoding EV_PER_EE for IPA v5.0+
 e4df9f02640e87a73b3d88224b8d164188fbf8e0 Merge branch 'more-fixes-for-the-ipa-driver'
@@ -1079,7 +1081,5 @@ ec05f51f1e65bce95528543eb73fda56fd201d94 mm/vmalloc: take vmap_purge_lock in shr
 bea8d77e45a8b77f2beca1affc9aa7ed28f39b17 Merge tag 'staging-7.1-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/staging
 8c2bf4a2e5cb4b325e328cc8808858a68616067c Merge tag 'driver-core-7.1-rc1-2' of git://git.kernel.org/pub/scm/linux/kernel/git/driver-core/driver-core
 c1f49dea2b8f335813d3b348fd39117fb8efb428 Merge tag 'mm-hotfixes-stable-2026-04-19-00-14' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
-5640ba9ac706898f4cad95b6df4f0d11af5c0d9e USB: disable all RNDIS protocol drivers
-845c8914caa096a02d0afbe159ffd822cd29278b USB: potential rndis host fix
 
---===============4432631648761783164==--
+--===============0885421328757071158==--
