@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2962596671257969067=="
+Content-Type: multipart/mixed; boundary="===============0352825913042804301=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Mon, 20 Apr 2026 09:03:45 -0000
-Message-Id: <177667582507.1216425.15915965875134023403@gitolite.kernel.org>
+Date: Mon, 20 Apr 2026 09:03:53 -0000
+Message-Id: <177667583371.1216778.1710670274220705115@gitolite.kernel.org>
 
---===============2962596671257969067==
+--===============0352825913042804301==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/staging
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/staging-linus
-    old: f338e77383789c0cae23ca3d48adcc5e9e137e3c
+  - ref: refs/heads/staging-next
+    old: bf9c95f3eeefb7fc4b4a6380cc23f1dca744e379
     new: c1f49dea2b8f335813d3b348fd39117fb8efb428
-    log: revlist-f338e7738378-c1f49dea2b8f.txt
+    log: revlist-bf9c95f3eeef-c1f49dea2b8f.txt
 
---===============2962596671257969067==
+--===============0352825913042804301==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1776675823 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1776675832 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1776675823-f74703e904054d39a44c016b72a652df6f175118
+nonce 1776675829-23c37c467b7605fc62022ad99ce42af2e07d95a1
 
-f338e77383789c0cae23ca3d48adcc5e9e137e3c c1f49dea2b8f335813d3b348fd39117fb8efb428 refs/heads/staging-linus
+bf9c95f3eeefb7fc4b4a6380cc23f1dca744e379 c1f49dea2b8f335813d3b348fd39117fb8efb428 refs/heads/staging-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmnl6+8bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+u5UQANfxWtaGEJhb1Sb876Q5
-4oRFqxYfcUkFuIqrLg30RUfSPcN5BRkhJBh8zWapvWvGWkLW57ZB/NNd5ttktkwb
-nFR/egGvrLSd1JSMmqc6zNW2P6jn0sQYTIjkMAs8HFvaIv0dJTT/p2IWrBxp8cZD
-HN8zpbeLDeD9cVZCASsgKVFOFAteO/uTZW1IiExDL98jcPjSY3DLUst5PzztoUaf
-jcuIyUmfsdQ1U7e2x1W9LR8dyzApw57zGmslp+K/T+kS9SlFT/MdGb+OHYMBFekm
-TAa/yQqluKF5DwIBl79lh3AfBB5tKCvxSJTbgdjjThvlXL9viWzdrzPtC02ZY1GH
-8TwK55t3Zp4HNupKxeZjmIEGhou7CdibU0HOlX6Uy79d3VIHWo7Ep03REb1qTWTb
-xP3W7VEYo31aiDgqjHhwquwLjoxs6bA/6xXzkIMO0oRglhdYIbN4dx/8z/7jeVAk
-27tQKAKlH98yotBNbKBLnVpnM6/9RVK8YLiQ7xMeY5wXWoFFF9/661JXEvxPVwJ2
-zJKWlP964qhm3D0KpGmI3ORNyPaNvm+NOLy8s8p5xRTTaLpWFsgb+1AMJrP/j6b7
-E+UvutvqdDFjAmq+jWveZlCwHzyDVTqE2hi7oRcK8RX5njOxFxE1UjXB/uYfeJXO
-tAb27TXXCRWNnlw00zKZXocW
-=MnAT
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmnl6/gbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+E3QP/02oStRqjJZMRW3EaDH0
+XVA7RqnxndITo5dFGq/tm5I9IVnoW3/+4Ex3HUNCXDNXHSAr01qKcynpGFj0sgga
+agFjRRissIcnm8OQZyGVgvXLynFcRBvZpu9Mr2Npw3RcBE8OouyvmfjBa+7Fp2w+
+qpZbTD5uJw1Jp5lqkhUiLM8R9Z5WhwMP+X6McK4z66W7EUwaeBJ8aKqmWCJylMAv
+FnAjEztCpj8O3YCtQOnv+hPCXAMaTtjclIqqdAVLrHy5vN8CGeXmWyIT8JLD6njO
+mhNCs8otwHM9LygmNnho+UKgIyI8VF2UyhB3JWKAf0Ubgsaog6xwHLAgvzorLJ8L
+l8smxFT5eWlhWekALtrsNP5OVeFO+0vfiHhS88w2TZSg11C4iyXLmwwDQZjeXWuv
+bYLG1gzYAbh5BvoZJNVTphEU2c1WIPy8dbkXg6sWW7IsBSUM2M+7UBnyL3IH6HQw
+5z3NsgatttiIXNWH9dmLvt3TnjPvnLCfTU0ZmUjrafqI9JMztRguicXeq53dlSPB
+RChhSv8TN2Sd+F2E2W20pDIQAy09Mjtt3dGXg3GNpoLt4akVLksP68D2QUHKHYRv
+r5HSjv6ZcmB3pRQAURL3OtCala2b8vvA/Hhn3yM/3KJyEvtXc2yb4VqFc7k6DbgM
+ULVCpau2oRcaUgQvN8vbvgaH
+=1Ec8
 -----END PGP SIGNATURE-----
 
---===============2962596671257969067==
+--===============0352825913042804301==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f338e7738378-c1f49dea2b8f.txt
+Content-Disposition: attachment; filename=revlist-bf9c95f3eeef-c1f49dea2b8f.txt
 
 1fe7294dfb7d26f70bc8f6d7aff26bf76ed32214 Merge tag 'kvm-s390-master-7.0-4' of https://git.kernel.org/pub/scm/linux/kernel/git/kvms390/linux into HEAD
 a2225b6e834a838ae3c93709760edc0a169eb2f2 driver core: Don't let a device probe until it's ready
@@ -1082,4 +1082,4 @@ bea8d77e45a8b77f2beca1affc9aa7ed28f39b17 Merge tag 'staging-7.1-rc1' of git://gi
 8c2bf4a2e5cb4b325e328cc8808858a68616067c Merge tag 'driver-core-7.1-rc1-2' of git://git.kernel.org/pub/scm/linux/kernel/git/driver-core/driver-core
 c1f49dea2b8f335813d3b348fd39117fb8efb428 Merge tag 'mm-hotfixes-stable-2026-04-19-00-14' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
 
---===============2962596671257969067==--
+--===============0352825913042804301==--
