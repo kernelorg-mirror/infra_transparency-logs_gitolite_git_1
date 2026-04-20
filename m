@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0867577630438037732=="
+Content-Type: multipart/mixed; boundary="===============0254741315970822479=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mptcp/linux
-Date: Mon, 20 Apr 2026 11:10:15 -0000
-Message-Id: <177668341550.1404038.11601966808777350587@gitolite.kernel.org>
+Date: Mon, 20 Apr 2026 11:10:30 -0000
+Message-Id: <177668343014.1404495.14671617885989973671@gitolite.kernel.org>
 
---===============0867577630438037732==
+--===============0254741315970822479==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/mptcp/linux
 user: matttbe
 changes:
-  - ref: refs/heads/export
-    old: b587e221edde5e92c4aed7fd8c58f258ee164de1
-    new: be07e389805b167b768a7d8894a840078315cb08
-    log: revlist-b587e221edde-be07e389805b.txt
+  - ref: refs/heads/export-net
+    old: c654c5c9b558ff5c29ceb069e91a2a23f9aadce4
+    new: f438d639001ce365e086be1d7f2228f744a5e55e
+    log: revlist-c654c5c9b558-f438d639001c.txt
 
---===============0867577630438037732==
+--===============0254741315970822479==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b587e221edde-be07e389805b.txt
+Content-Disposition: attachment; filename=revlist-c654c5c9b558-f438d639001c.txt
 
 e5fd34ab8dff6c5bd4f2e9ee4f3945b79e511068 selftests: ovpn: add nftables config dependencies for test-mark
 c409da0fe15e2b2aae7f93edbab977e23117ce4d selftests: ovpn: fail notification check on mismatch
@@ -66,34 +66,15 @@ f996edd7615e686ada141b7f3395025729ff8ccb ipv6: fix possible UAF in icmpv6_rcv()
 5c9fcac3c872224316714d0d8914d9af16c76a6d net: ks8851: Reinstate disabling of BHs around IRQ handler
 22230e68b2cf1ab6b027be8cf1198164a949c4fa net: ks8851: Avoid excess softirq scheduling
 0cf004ffb61cd32d140531c3a84afe975f9fc7ea sctp: fix OOB write to userspace in sctp_getsockopt_peer_auth_chunks
-b991fedd4289278ff66668a5e4c053170b32f3d9 DO-NOT-MERGE: git markup: net
-6d39528e0f4f1a711849e0ee47da750fab32f631 DO-NOT-MERGE: git markup: fixes other trees
-7d9dc5bf52b8b1f0bf3c82a67c338376dd493c24 mptcp: sync the msk->sndbuf at accept() time
-e903eaabf96e24395faa2a7c81b6e44f274cc51c selftests: mptcp: add a check for sndbuf of S/C
-1b1368c18cfcf6bdd78c11f0caa72b5005447626 DO-NOT-MERGE: git markup: fixes net
-befc4fcf6b9ed6b34fb4544789cee18e1a722da5 DO-NOT-MERGE: mptcp: add CI support
-b015aa4c8f41a2e1721edf7b5314b3879a91e032 DO-NOT-MERGE: git markup: end common net net-next
-8cc1fe22374c2ae6cf205adb563087542046d972 TopGit-driven merge of branches:
-e89a112a32a3c8827ef65192401691196020f479 DO-NOT-MERGE: git markup: net-next
-967d695fc7b83d31a78f27a5234d8da846e11b52 DO-NOT-MERGE: git markup: fixes net-next
-3ca87f534eb1f0b50264441e7cf5a7bd179f3b9f mptcp: pm: init and release mptcp_pm_ops
-524bdf18aad872e2d97f8723e40c7f2df27f16bd mptcp: pm: add get_local_id() interface
-857f17baba6a7780b82c45ad0445d8f4cafd443d mptcp: pm: add get_priority() interface
-9b5120438b659dee2f361bff6aa7a0e649e2956e DO-NOT-MERGE: git markup: features net-next
-6c672dc6c177700f541cbc8bec990bbe7d6d6514 DO-NOT-MERGE: git markup: features net-next-next
-5f2aeb2d26e9f3f238756d42bd0b6b6c3b9c67e7 bpf: Add mptcp_subflow bpf_iter
-6269ca32c0a38de3766d6ae4d8f79d13794a866a selftests/bpf: More endpoints for endpoint_init
-0902f34fdf0674187454dc9bafc51bd539bce0d5 selftests/bpf: Drop cgroup_fd of run_mptcpify
-c1df408d660a63bfdd44727adb0ee0b3eab9a2b4 bpf: Add mptcp packet scheduler struct_ops
-7beb3fc14f4230493a4cc2c330d2cd237e6c4b08 bpf: Export mptcp packet scheduler helpers
-a54e72fcccc86a1b67962c4c6c0a259ee3e8e2f3 selftests/bpf: Add bpf scheduler test
-93de3f6d07333f665ac2a1cea9b26f606cc792a9 selftests/bpf: Add bpf_first scheduler & test
-6aaca1c6c295a48d02b9d19d01c11ca4dcad5fa4 selftests/bpf: Add bpf_bkup scheduler & test
-5e1501176723e4347678871401709dcb8efe9091 selftests/bpf: Add bpf_rr scheduler & test
-f59aefbceb083708d5a33651ece1429483cc3cd8 selftests/bpf: Add bpf_red scheduler & test
-f95e080b886a9fa6cfefad96bf4b46a7b6cd9a7c selftests/bpf: Add bpf_burst scheduler & test
-9c534e7703b48a3a3a4cc94a86bf71c40d33f51c DO-NOT-MERGE: git markup: features other trees
-8d003c9e931b0262584477ee45a5951d1306fc40 DO-NOT-MERGE: mptcp: improve code coverage for CI
-be07e389805b167b768a7d8894a840078315cb08 DO-NOT-MERGE: mptcp: enabled by default
+126de19b4c7f71430a3963116abdd7d0da668866 DO-NOT-MERGE: git markup: net
+88aeb31c4dbe8fc2b324ebdff1dad1f9287aa921 DO-NOT-MERGE: git markup: fixes other trees
+711a17060966ff73a4f03d7a60dcd42945ad1a2c mptcp: sync the msk->sndbuf at accept() time
+7360fb3959f2206c48a7eb4d3a541959c2347cd7 selftests: mptcp: add a check for sndbuf of S/C
+97ecfcb3bfef1ccdc174f83db0a08c4d522ae1d7 DO-NOT-MERGE: git markup: fixes net
+39508f782bcb250b43743c0a337d9d69e1e6322e DO-NOT-MERGE: mptcp: add CI support
+f290350c7f8cbfdad4b42ef425a4048d93cd575b DO-NOT-MERGE: git markup: end common net net-next
+30101eb774fdc63b5a7663b967ba0c35ab14b3a0 DO-NOT-MERGE: git markup: fixes net only
+ad2f58776617fefd07b8c1ef7c211a621d4feaa5 DO-NOT-MERGE: mptcp: improve code coverage for CI (net)
+f438d639001ce365e086be1d7f2228f744a5e55e DO-NOT-MERGE: mptcp: enabled by default (net)
 
---===============0867577630438037732==--
+--===============0254741315970822479==--
