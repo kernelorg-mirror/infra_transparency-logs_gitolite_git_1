@@ -1,41 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============7304195704239980456=="
+Content-Type: multipart/mixed; boundary="===============6942011269599965843=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/arm64/linux
-Date: Mon, 20 Apr 2026 15:10:24 -0000
-Message-Id: <177669782406.1652492.1311977353392162432@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Mon, 20 Apr 2026 15:10:53 -0000
+Message-Id: <177669785304.1653352.8600786189263899572@gitolite.kernel.org>
 
---===============7304195704239980456==
+--===============6942011269599965843==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/arm64/linux
-user: cmarinas
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/tags/arm64-upstream
-    old: 9da9e2e4d7c17098e874220a303a37084ea557de
-    new: d7ceb6a205cb8ac588cf6e70f0422588f699f20f
-    log: revlist-9da9e2e4d7c1-d7ceb6a205cb.txt
+  - ref: refs/heads/master
+    old: 0277b3191d86f694e6ef89cee8bbe4b499f56bea
+    new: b2a899ae75737cece2360250b5fa986032d5baf3
+    log: |
+         b2a899ae75737cece2360250b5fa986032d5baf3 6.18-stable patches
+         
 
---===============7304195704239980456==
+--===============6942011269599965843==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9da9e2e4d7c1-d7ceb6a205cb.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-6bfbf574a39139da11af9fdf6e8d56fe1989cd3e arm64: tlb: Introduce __tlbi_sync_s1ish_{kernel,batch}() for TLB maintenance
-d9fb08ba946a6190c371dcd9f9e465d0d52c5021 arm64: tlb: Pass the corresponding mm to __tlbi_sync_s1ish()
-2c99561016c591f4c3d5ad7d22a61b8726e79735 arm64: cputype: Add C1-Pro definitions
-0baba94a9779c13c857f6efc55807e6a45b1d4e4 arm64: errata: Work around early CME DVMSync acknowledgement
-680b961ebf41a7183389edbbfd5bbb302f69cce7 arm64/hwcap: Include kernel-hwcap.h in list of generated files
-e534e9d13d0b7bdbb2cccdace7b96b769a10540e virt: arm-cca-guest: fix error check for RSI_INCOMPLETE
-f758340da529ccb12531c3f83d5992e912f6c8d5 arm_mpam: resctrl: Fix MBA CDP alloc_capable handling on unmount
-67c0a487efa542cca9477ea84915db2e091f98d0 arm_mpam: resctrl: Fix the check for no monitor components found
-4d5bbbafc170eb21474a37d844211fce6b0f3c51 arm_mpam: resctrl: Make resctrl_mon_ctx_waiters static
-818f644ec6cbe00a3cddc767b6316e2f527ae865 Merge branches 'for-next/misc' and 'for-next/mpam' into for-next/core
-858fbd7248bd84b2899fb2c29bc7bc2634296edf Merge branch 'for-next/c1-pro-erratum-4193714' into for-next/core
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1776697851 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1776697850-ae78c6d3bb3c8bb3833423f6a61a77d8733ec86c
 
---===============7304195704239980456==--
+0277b3191d86f694e6ef89cee8bbe4b499f56bea b2a899ae75737cece2360250b5fa986032d5baf3 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmnmQfsbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Z3gP/3IyZeF7H4B+BlF31L//
+9Ql7oxSM5ckMx8G2YIYz2v0CHk16heHnRcmMotHn5CM0t89XAYDRE1LJVBb25h+J
+8pkUP7TmeLnrdPR9/k33qJhWBYcHi6gALyPH/JDOodiWvhSEojJBu+TyaBxu18Oo
+f0K/fLPLl1mpQuPOCZK67rqAP3aSMtmKGsVhDRKoZL/QH02yQ3+NfQupCqkOKLfF
+STOK+s2nHpg6aV2QJY9OOHmC8ffraL+KGuCqIYcz2Tz6c3d1n8aeJq7605y2kUSS
+/OHe4WrHNZ/FvLs6tjtIaajWO6LBwjCBdy3OCVallmVMcDFNAH5oZYICXURYcdgS
+l1Akyqh69N4uCuBHsWt/uqmT9QrKSIE43cH/uqQDc50+O97UQL1dRgNs7jur+3tS
+GHw92yAwrufZQPbvi7CK8P6zOrHrTXUM7PMZ+ypc4RAjCbZLWLSDKXClgaG6TVcF
+M1I07Up+uG7of5SZrYgrLcEidhZcyOB3oH6P0EynlpNVzgo4UKbLCx3SvrbT2TC7
+vYERN4E5EUd76nyyV51p9dHAtq9t657KlAm4IFqJ8rnpTKGjKuQqCBPqrSqFBGpf
+Gl8ooEF0WucCt4nEnpD066vRSwCsIx0FqJM8zO8dvMJ90GSd32BighGbLf+SFghf
+JKRGPRzKsdbgC6xi7uJJeXkE
+=vpsI
+-----END PGP SIGNATURE-----
+
+--===============6942011269599965843==--
