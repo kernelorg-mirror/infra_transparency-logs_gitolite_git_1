@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6000793524999950737=="
+Content-Type: multipart/mixed; boundary="===============1371466354871040709=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Mon, 20 Apr 2026 09:06:29 -0000
-Message-Id: <177667598930.1276915.7519489301396758959@gitolite.kernel.org>
+Date: Mon, 20 Apr 2026 09:06:34 -0000
+Message-Id: <177667599424.1277076.6511190691518059700@gitolite.kernel.org>
 
---===============6000793524999950737==
+--===============1371466354871040709==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/usb-linus
-    old: 5a1140404cbf7ba40137dfb1fb96893aa9a67d68
+  - ref: refs/heads/usb-next
+    old: 87117347a0e77f528f357faa2230d5caffcd1b4e
     new: c1f49dea2b8f335813d3b348fd39117fb8efb428
-    log: revlist-5a1140404cbf-c1f49dea2b8f.txt
+    log: revlist-87117347a0e7-c1f49dea2b8f.txt
 
---===============6000793524999950737==
+--===============1371466354871040709==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1776675988 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1776675993 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1776675987-efbfeb686e708cfa44bdd8705d3a77396a1118c8
+nonce 1776675991-28fc01fe1da05b90acc9fd028377d7813e5877e4
 
-5a1140404cbf7ba40137dfb1fb96893aa9a67d68 c1f49dea2b8f335813d3b348fd39117fb8efb428 refs/heads/usb-linus
+87117347a0e77f528f357faa2230d5caffcd1b4e c1f49dea2b8f335813d3b348fd39117fb8efb428 refs/heads/usb-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmnl7JQbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+gHwP/35PnkzBw8u5alHE6LYD
-c/dfuWXKDvfPKfVCnLWF8imXhQXwkGp39wS1/DWYtyWdqQCAykoM9RrsXcXP69fD
-0iewxQqJoC9fOvIUbTuur5xRReWC1b+3yD7lybbSGpmpxerBSC5iHIOXNP8+S8RC
-nZ/u0byhKBKXL/8fq2kxXn9hYlX13otLBS7GdnsnWkjPpjS/yV6lch2OulMSibv5
-OnZae39YR5c5o3/sysF39QKLqWg+v6levBoCKOWhhrrFOK2Yg+ZjPS1999wTLOXp
-o+ZkTXIQttmXNcTW2a25ebQPjRkbn6T7pc1EbmvWk/Z6F7bfXY9PrySXEJc+xXU+
-rGlAyXwZIoXVc1Ea7/Gyv2cjA9+QkH0WMgBsOYiwHRDGnibReA0e6uWL/lcZhiDF
-mlmWWl6YpzoIdCS+i0WTkI8JYgyXCDFn1HJjXGTJ0JeEyJMxp4FAuQTyCNU/yLX6
-G6Xa8Dy+TaMMH1q0TjP7GEcdsDQpJeAOOJvInN9FOLFdcy4kxYZgA4fIC/b7ItYk
-3MF/XLO3aKAWTaTKFfP8TBaHQDKLvP2I040znHsnu0p5+L6151CWjCkcTdWIZrz3
-Rjb37dq8AuLve7KwAKKGAGqndb4XC8kBejVSfSvSkwXX/v85vXPXO+Ur0MKgtggE
-eHrTqmNbaRlalMrpbxxu5agQ
-=0bES
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmnl7JkbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+4bIQANP4RoRjvvnNnC+eAUBB
+gZbBRqENqS/gv3IMLC+0tlXJwejbOZbjV67eewsmo+75ma35jkI/pn9hJeFfCmEu
+CSOS/Az3WsW+XTyoQZNzxxiQBooUgu3KoVfTTh9Hb5WwbtUE3uOHxM/fEdYdFGmT
+Wj92SvgQrf15D58/zr5FEGxqbCtMD8CDXlDSyn5/stCWhN8kOuyrYVCI194Jwpqa
+v4X04mtH0Th3y8HtWSdPk32sNi/RuQXzTW3rqcTCiBFLOSiIJwkHSJR/a2/sytqw
+Qyn4V6EDvr2rAyfj0tFpntW9xSbiTVw+YzJPb2jfcLvJoVTJkvpIGPtko+R0FLaD
+YO5FaNHxQwmOhf9USc9FIm1ePyDSeEq7Dp2/t+/2HW8ssvJsyOA1U3bIPfE2Hpth
+c0WxImdZn9xry5VelJn84NlpvoAFUH2uaHFvm/eSP7P9o7wfgmM8l5NzvRs0Q+gR
+BkXj+UVr/KSBldTFoiz52qI2ocb9JBuWQ5nDir52h+XEAsf6laDyR4Rw2Kpq2NQj
+RR+OJSItFE++XKLcv8kbd9JCdVcsl4mxI6XJqWUbThq9tn4RubFDT92QiyoPaZ0d
+Rp8xVnxP3f0JPrdcTHms1UdCWJIgMbv0HLea5IataMxtWUXRmHuYFYuVNahalQsO
+lsniVVYRSIqqp7fujm8RGvhO
+=NvH4
 -----END PGP SIGNATURE-----
 
---===============6000793524999950737==
+--===============1371466354871040709==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5a1140404cbf-c1f49dea2b8f.txt
+Content-Disposition: attachment; filename=revlist-87117347a0e7-c1f49dea2b8f.txt
 
 1fe7294dfb7d26f70bc8f6d7aff26bf76ed32214 Merge tag 'kvm-s390-master-7.0-4' of https://git.kernel.org/pub/scm/linux/kernel/git/kvms390/linux into HEAD
 a2225b6e834a838ae3c93709760edc0a169eb2f2 driver core: Don't let a device probe until it's ready
@@ -1082,4 +1082,4 @@ bea8d77e45a8b77f2beca1affc9aa7ed28f39b17 Merge tag 'staging-7.1-rc1' of git://gi
 8c2bf4a2e5cb4b325e328cc8808858a68616067c Merge tag 'driver-core-7.1-rc1-2' of git://git.kernel.org/pub/scm/linux/kernel/git/driver-core/driver-core
 c1f49dea2b8f335813d3b348fd39117fb8efb428 Merge tag 'mm-hotfixes-stable-2026-04-19-00-14' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
 
---===============6000793524999950737==--
+--===============1371466354871040709==--
