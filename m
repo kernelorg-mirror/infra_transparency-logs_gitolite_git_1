@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6612428513107019933=="
+Content-Type: multipart/mixed; boundary="===============0337102280023567132=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Mon, 20 Apr 2026 00:33:51 -0000
-Message-Id: <177664523183.679334.5413334066949939054@gitolite.kernel.org>
+Date: Mon, 20 Apr 2026 00:33:53 -0000
+Message-Id: <177664523394.679419.9926113427656388592@gitolite.kernel.org>
 
---===============6612428513107019933==
+--===============0337102280023567132==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,37 +15,29 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/damon/next
-    old: b4aaadcba9ab34caa404a593880193a68b2424f4
-    new: ecd4906478687820c088904becbcf3c80ded7d81
-    log: revlist-b4aaadcba9ab-ecd490647868.txt
+  - ref: refs/heads/master
+    old: bea8d77e45a8b77f2beca1affc9aa7ed28f39b17
+    new: c1f49dea2b8f335813d3b348fd39117fb8efb428
+    log: revlist-bea8d77e45a8-c1f49dea2b8f.txt
 
---===============6612428513107019933==
+--===============0337102280023567132==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b4aaadcba9ab-ecd490647868.txt
+Content-Disposition: attachment; filename=revlist-bea8d77e45a8-c1f49dea2b8f.txt
 
-f39779e4565297db39c6d02282228ce3ed3da7db Docs/admin-guide/mm/damon/usage: rename data_attrs/filters to counters/tests
-58e25af4b2ed9b577233bb41cc1b7c066e093ba2 mm/damon: rename data_attrs/filter to counter/test
-eb9d73ce8e709f4e1bb26bb2e43bd5dfb9988d14 ==== uncategorized ====
-26d657bb0bf42b82b59810b3e657b58aceefe0a7 mm/damon/core: add an hacking idea concept interface prototype
-894ee47eb94f507b060f87bbf4c9a5198ba7b5ae mm/damon/core: restrict total_charged_{sz,ns} to avoid overflows
-e8b3a278a54e0a8c99b784355a5208b366c9fe97 mm/memory: implement functions and data structures for page faults monitoring
-0782a04e6edc38a2b06adf48e3e90b89c7a43e1d mm/memory: introduce do_{,huge_pmd_}faults_monitor_page()
-aa802ccdd701fbec30b4bc1f7abb1a4c331d9b3a mm/memory: mark faults_monitor_controls_lock as static
-acd5bf4384bc5ccea860cddbdea7a899bc7b1b6a Docs/mm: add a maintainer-profile
-eca18ccd57f412c0183439e9e29d2001bf8669a7 mm/damon: mark kdamond_lock as __private
-79ed7671d2cf4cab007fe9a8bfb1ea380d0ad922 mm/damon/core: verify regions right after merge operation
-41b3b355dc2ec2cf0cc8b1932336b3f5662580d1 mm/damon/core: remove damon_verify_nr_regions()
-4de1a7426cf643fdfc8007b887bf567fe1ac7932 Docs/mm/index: link maitnainer-profile
-f90edaa31f685eaaab4fd0260d902fa234f943d2 mm/damon: add damon_call_control->cleanup_fn
-990714a4a0648d37f4562e0721c55dde71cee503 mm/damon/core: call cleanup_fn()
-202f664ed2001bb1db8f583e43c66eb04d609dbe mm/damon/sysfs: use per-context next_update_jiffies
-11a85366f4207904b548dfe7413cb92a40bcdbc7 Revert "mm/damon/sysfs: use per-context next_update_jiffies"
-e7d84e8f5c2eaa9972a53f2ba81e9017a458a666 mm/damon/reclaim: handle init failure
-fce2cddd7169e0d779a66e24eb0b152c1db8cf54 selftets/damon/sysfs.sh: test monitoring intervals dir
-b7deeedcad8933a70cd7d8f312d426274cf1df19 selftests/damon/sysfs.sh: test addr_unit file existence
-ecd4906478687820c088904becbcf3c80ded7d81 selftests/damon/sysfs.sh: test pause file existence
+a2225b6e834a838ae3c93709760edc0a169eb2f2 driver core: Don't let a device probe until it's ready
+8f4c13c2674d37bcbbdfc47c28ce0ca1a40a6682 software node: return -ENOTCONN when referenced swnode is not registered yet
+9ce4a8c07b28cdd70f6ca38b60bf688c27dbbfb9 sysfs: attribute_group: Respect is_visible_const() when changing owner
+5b484311507b5d403c1f7a45f6aa3778549e268b driver core: Add kernel-doc for DEV_FLAG_COUNT enum value
+8fedac321fb0fb368d4c14674e2a64852b4f225e mm/mempolicy: fix weighted interleave auto sysfs name
+8bbde987c2b84f80da0853f739f0a920386f8b99 mm/damon/core: disallow time-quota setting zero esz
+39928984956037cabd304321cb8f342e47421db5 mm/zone_device: do not touch device folio after calling ->folio_free()
+8f5857be99f1ed1fa80991c72449541f634626ee mm: blk-cgroup: fix use-after-free in cgwb_release_workfn()
+615d9bb2ccad42f9e21d837431e401db2e471195 mm: call ->free_folio() directly in folio_unmap_invalidate()
+ec05f51f1e65bce95528543eb73fda56fd201d94 mm/vmalloc: take vmap_purge_lock in shrinker
+95093e5cb4c5b50a5b1a4b79f2942b62744bd66a mm/damon/core: disallow non-power of two min_region_sz on damon_start()
+8c2bf4a2e5cb4b325e328cc8808858a68616067c Merge tag 'driver-core-7.1-rc1-2' of git://git.kernel.org/pub/scm/linux/kernel/git/driver-core/driver-core
+c1f49dea2b8f335813d3b348fd39117fb8efb428 Merge tag 'mm-hotfixes-stable-2026-04-19-00-14' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
 
---===============6612428513107019933==--
+--===============0337102280023567132==--
