@@ -1,53 +1,28 @@
-Content-Type: multipart/mixed; boundary="===============7658998433102232470=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Mon, 20 Apr 2026 09:05:26 -0000
-Message-Id: <177667592677.1238994.10319556941143437555@gitolite.kernel.org>
-
---===============7658998433102232470==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs
+Date: Mon, 20 Apr 2026 09:05:57 -0000
+Message-Id: <177667595787.1269416.12069574849208605488@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/usb
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/xiang/erofs
+user: xiang
 changes:
-  - ref: refs/tags/usb-7.1-rc1
-    old: d2391a14eb58ae84b793b5674d21ffc5c0ef6551
-    new: 0000000000000000000000000000000000000000
-
---===============7658998433102232470==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1776675926 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1776675926-ac9f14bfdfb71ad263a1d2eb0e53467db7c1ae32
-
-d2391a14eb58ae84b793b5674d21ffc5c0ef6551 0000000000000000000000000000000000000000 refs/tags/usb-7.1-rc1
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmnl7FYbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+DFcQAKmIdiOpPsUlK1n2IpKr
-n4zdr7XNokURFylsrPB0wZO1wncYeVCRQ+wpCmlmkdr0KlWGahhYa99T1z2iEfx/
-bW5le6ozz2OEWEhfvLRr9dKAXa/Xqzq0ogb2LLsbD2Sa6vvuuvgEMeiesXYfkMYL
-TKWFLaO7bBxCX3KP2fmy7eZiSCUpcV97PN4HskAD/KH/YTTqvzH0qTfC122btPwz
-KJFMcVwoeHpAc9APVYL3es7DNxFyp2SvV4XeZqVhx7vrERt7eGvaK8hrQQEO/nX6
-i9YjzkrWrJal4HIpmFclPbkPl/LG6FxRsR9hC4RZEsQx9H/k7mqlVtLOx6tGuJDl
-oe4O8SZ4bDV7/KNl6iKZNqcZg6urwnMcioCqrksrqVFwC53WkE6gUcZTBCM8GRC4
-vlj4MrzmCGvc/GWdKsG+jiiQT/s7HAJ84SDad1qflccTXNOvGvPEksjEAVa/W9sh
-erUlsaK0+IjAyS3jAC5ruAoI2qZ5uLbtFsS+GdW+9//fz6AaqatH5TTtREWXqh8J
-NCw1ooYWHeS5//WdkhIUS8p4953n/5FgD+7IKuJhREadnZeiuipwRvK6Yl5xPQLz
-/27/5HkXcj67ONvbddpEUUba+n2+BMBrJjM+Uey7NbmyWW6dZDMJuV3WzaaRTe7t
-nc7Z+BTxBKYdmbkU1Tri3cEI
-=yxAA
------END PGP SIGNATURE-----
-
---===============7658998433102232470==--
+  - ref: refs/heads/dev-test
+    old: 403bb5c8d1c5d77d55c3df6c6050dd0b97ed4779
+    new: f088fbd5c723516c89e655188d7a9ed87f842bc0
+    log: |
+         6a01f5478d208544c8ba5ddbd674ea660f1b7047 erofs: harden h_shared_count in erofs_init_inode_xattrs()
+         307210c262a29f41d7177851295ea1703bd04175 erofs: verify metadata accesses for file-backed mounts
+         5de6951fedb29700ace53b283ccb951c8f712d12 erofs: ensure all folios are managed in erofs_try_to_free_all_cached_folios()
+         d6250d49da4d8f11afc0d8991c84e0307949f92e erofs: include the trailing NUL in FS_IOC_GETFSLABEL
+         63c2f06198ca7513433f1c92f2c654869d72417e erofs: handle 48-bit blocks/uniaddr for extra devices
+         21e161de2dc660b1bb70ef5b156ab8e6e1cca3ab erofs: fix unsigned underflow in z_erofs_lz4_handle_overlap()
+         5c40d2e9e3ce9e81d76773c68756e9b07cce802c erofs: clean up encoded map flags
+         a5242d37c83abe86df95c6941e2ace9f9055ffcb erofs: error out obviously illegal extents in advance
+         293531277709387b99ef91fe500338bdbbf5d311 erofs: fix the out-of-bounds nameoff handling for trailing dirents
+         f088fbd5c723516c89e655188d7a9ed87f842bc0 erofs: fix offset truncation when shifting pgoff on 32-bit platforms
+         
