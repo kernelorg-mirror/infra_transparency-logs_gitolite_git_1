@@ -1,56 +1,41 @@
-Content-Type: multipart/mixed; boundary="===============0051502317674241856=="
+Content-Type: multipart/mixed; boundary="===============7304195704239980456=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Mon, 20 Apr 2026 15:10:22 -0000
-Message-Id: <177669782265.1652405.757008222943254736@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/arm64/linux
+Date: Mon, 20 Apr 2026 15:10:24 -0000
+Message-Id: <177669782406.1652492.1311977353392162432@gitolite.kernel.org>
 
---===============0051502317674241856==
+--===============7304195704239980456==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/arm64/linux
+user: cmarinas
 changes:
-  - ref: refs/heads/master
-    old: f5eced56f77e59986a98266a0b9999dcce97b075
-    new: 0277b3191d86f694e6ef89cee8bbe4b499f56bea
-    log: |
-         0277b3191d86f694e6ef89cee8bbe4b499f56bea 6.12-stable patches
-         
+  - ref: refs/tags/arm64-upstream
+    old: 9da9e2e4d7c17098e874220a303a37084ea557de
+    new: d7ceb6a205cb8ac588cf6e70f0422588f699f20f
+    log: revlist-9da9e2e4d7c1-d7ceb6a205cb.txt
 
---===============0051502317674241856==
+--===============7304195704239980456==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-9da9e2e4d7c1-d7ceb6a205cb.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1776697820 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1776697819-4b02de94e02db353e32bcc0a5ff440aaeee1ce14
+6bfbf574a39139da11af9fdf6e8d56fe1989cd3e arm64: tlb: Introduce __tlbi_sync_s1ish_{kernel,batch}() for TLB maintenance
+d9fb08ba946a6190c371dcd9f9e465d0d52c5021 arm64: tlb: Pass the corresponding mm to __tlbi_sync_s1ish()
+2c99561016c591f4c3d5ad7d22a61b8726e79735 arm64: cputype: Add C1-Pro definitions
+0baba94a9779c13c857f6efc55807e6a45b1d4e4 arm64: errata: Work around early CME DVMSync acknowledgement
+680b961ebf41a7183389edbbfd5bbb302f69cce7 arm64/hwcap: Include kernel-hwcap.h in list of generated files
+e534e9d13d0b7bdbb2cccdace7b96b769a10540e virt: arm-cca-guest: fix error check for RSI_INCOMPLETE
+f758340da529ccb12531c3f83d5992e912f6c8d5 arm_mpam: resctrl: Fix MBA CDP alloc_capable handling on unmount
+67c0a487efa542cca9477ea84915db2e091f98d0 arm_mpam: resctrl: Fix the check for no monitor components found
+4d5bbbafc170eb21474a37d844211fce6b0f3c51 arm_mpam: resctrl: Make resctrl_mon_ctx_waiters static
+818f644ec6cbe00a3cddc767b6316e2f527ae865 Merge branches 'for-next/misc' and 'for-next/mpam' into for-next/core
+858fbd7248bd84b2899fb2c29bc7bc2634296edf Merge branch 'for-next/c1-pro-erratum-4193714' into for-next/core
 
-f5eced56f77e59986a98266a0b9999dcce97b075 0277b3191d86f694e6ef89cee8bbe4b499f56bea refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmnmQd0bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+jHMQALHQpcZKwn+poYF4/bZo
-e440NwD9Ik4EGUhiQqtw3QhGVFYssezpURo9fPy8ZsH8GqkzdufOnIYgpDISpTn6
-l+wn6GRdGFmPvzoGssgk3fbSW8mPb7+cGdc5t+WGYnqWAGR3ySC2tzSEJJh9zFgi
-FAs4lr6KlWEddzdNSbskwF8/n0Iv5Fay/8vKHRNWZUxsWkqCVbrWcX7P7GeIRfie
-06NYSkiacZyU4n6mIt7tyZW2r8/nZwq4F6I8vxz7vB5wMi5areQYSlGcAShdPooL
-94VDBsNsFEjv+vYgJxMFHR2NSunSo1q+018LCMBY+kf2W9c8qiOyqMLCMmFDAwSG
-Y1Dm9+aYKJvyfWFxzqicfUEs5Ivo7VWNb44mtOE2kGO5rOrqITOpdX6mtt2DJ63P
-Z1ZSGPYDPE7UXQEwaZGPz02cqO19gl/7KShB/ktZ4mKVwlZhF2fvtIrk5AKMwa3P
-trmAlDjsedtCGoMYDqQMTdZft0EzcVZCBVv0WxhBVHl+o+A0RNmNK8Jks4ijmfuc
-EKZqmtApCEyYHF0E/PzQttRBxAtCC87yVRvDRseDNSMOnbCsfFe3xrenq3y3ixXX
-rLes9yc7mEA5Ek5IiV7jXnh9KhZhadl/aw1wOZ2PcJ2vHxtmNgL7ylT0CdaB0o8a
-BMTP7faSS7UszyPnIPOvXKWL
-=bJvY
------END PGP SIGNATURE-----
-
---===============0051502317674241856==--
+--===============7304195704239980456==--
