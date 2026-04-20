@@ -1,44 +1,57 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
-Date: Mon, 20 Apr 2026 16:02:24 -0000
-Message-Id: <177670094481.1718725.15842854421737901070@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============7136229356246632833=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
+Date: Mon, 20 Apr 2026 16:11:24 -0000
+Message-Id: <177670148447.1728197.18344539746420487208@gitolite.kernel.org>
+
+--===============7136229356246632833==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tiwai/sound
-user: tiwai
+repo: pub/scm/linux/kernel/git/gregkh/driver-core
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-linus
-    old: 8042cc870554e190fbadf61b0e6bc67c0dca4b50
-    new: 314665e67b3e27ff442d8e0879f1c1df8d63ccbd
+  - ref: refs/heads/t1000
+    old: fae9c4252a14a0256f5604afd1194819c19b66d3
+    new: 418120920affc33b0460cc4e254f11849411e700
     log: |
-         8a7be65e7e9a95c7776f997b50a4893c9315e710 ALSA: hda/realtek: add quirk for Acer Nitro 16 AN16-41
-         93985110329d9a66101c3de37aa7232f8c0bc3c9 ALSA: hda/tas2781: Fix sound abnormal issue on some SPI device
-         8146cd333d235ed32d48bb803fdf743472d7c783 ALSA: core: Fix potential data race at fasync handling
-         4cc3ec3d8b3536f2293a5a984c28ba2a09e8b22d ALSA: als4000: Fix capture trigger chip->mode race
-         314665e67b3e27ff442d8e0879f1c1df8d63ccbd Revert "ALSA: usb-audio: Add quirk for SmartlinkTechnology M01"
+         381f4e573ddbb2f5b8b0d8d91fa0a2701d6459ff usb: usblp: fix heap leak in IEEE 1284 device ID via short response
+         418120920affc33b0460cc4e254f11849411e700 usb: usblp: fix uninitialized heap leak via LPGETSTATUS ioctl
          
-  - ref: refs/heads/for-next
-    old: 8042cc870554e190fbadf61b0e6bc67c0dca4b50
-    new: 314665e67b3e27ff442d8e0879f1c1df8d63ccbd
-    log: |
-         8a7be65e7e9a95c7776f997b50a4893c9315e710 ALSA: hda/realtek: add quirk for Acer Nitro 16 AN16-41
-         93985110329d9a66101c3de37aa7232f8c0bc3c9 ALSA: hda/tas2781: Fix sound abnormal issue on some SPI device
-         8146cd333d235ed32d48bb803fdf743472d7c783 ALSA: core: Fix potential data race at fasync handling
-         4cc3ec3d8b3536f2293a5a984c28ba2a09e8b22d ALSA: als4000: Fix capture trigger chip->mode race
-         314665e67b3e27ff442d8e0879f1c1df8d63ccbd Revert "ALSA: usb-audio: Add quirk for SmartlinkTechnology M01"
-         
-  - ref: refs/heads/master
-    old: 3b084c0bd88976f059b0589f007ae5458dd8c567
-    new: 9d9e85468760b68ac3559e4d0674f3359f36fd3e
-    log: |
-         8a7be65e7e9a95c7776f997b50a4893c9315e710 ALSA: hda/realtek: add quirk for Acer Nitro 16 AN16-41
-         93985110329d9a66101c3de37aa7232f8c0bc3c9 ALSA: hda/tas2781: Fix sound abnormal issue on some SPI device
-         8146cd333d235ed32d48bb803fdf743472d7c783 ALSA: core: Fix potential data race at fasync handling
-         4cc3ec3d8b3536f2293a5a984c28ba2a09e8b22d ALSA: als4000: Fix capture trigger chip->mode race
-         314665e67b3e27ff442d8e0879f1c1df8d63ccbd Revert "ALSA: usb-audio: Add quirk for SmartlinkTechnology M01"
-         9d9e85468760b68ac3559e4d0674f3359f36fd3e Merge branch 'for-linus'
-         
+
+--===============7136229356246632833==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1776701478 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
+nonce 1776701478-433c7110634ac4530334a3e525de7b62100aa3d3
+
+fae9c4252a14a0256f5604afd1194819c19b66d3 418120920affc33b0460cc4e254f11849411e700 refs/heads/t1000
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmnmUCYbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+VrYP/0+KHNPkPSL6ZhU00Igx
+BmznwD3njoKKLnz8ggnvioqUAlHec1mlFv3z0U7nriNu8uBo8zjYHEt2glprM0CC
+9hmou3aj315kJX3u9L/7Wdb829iD5p8pkUcUDbqRl6PmWBXMw69yHHmVHi7bieaT
+QNhVzuIglGxsbEg1lcTimxByVWQJUhIUMhXU/JXs1IJ3hXfAIrOeHzZII8+yWUwz
+I2TNw3YWsehEt/gmCprzRuZFKN6vmtoOG2N8F30QolyR7cmSUYYELE64HC48Xlhj
+wNQRzexz08ow26Au/H9l+Youo/BwPiR3q37MZ0yDCEA/XyKO8NbWF/3kTbv9eueu
+I9Bv48OjPSHER9JP6Ad6nLOAduVz5Y3QIlSly0dPJTBYcb+UrBTJSGAcsRMSHDtn
+4bnD8yVRSs0lo2dCYZNUuEF3vEhrQYiNfb4Knq3cUM98eP0HxR17olT7IU8vc4KQ
+QbuxpJxycZTmbWirOuo5yyUG1uEozDD5k7IbZE5uNBEts5ryt571XyWVdnwQqIjL
+zaCU8OiIBAQ2LXNO6LdiVmbxhYX9Kmbvngyx2rdhtJGp7eqj0s2+B/Jr15gMjPSq
+ooZ7ynob2PFvUPdY3fTrQVo1T/gJ05EAn4FZsOZx3nCRuVtzW3A/bn5/zMSeQVlD
+mf8azSOq0EgFbQ5NpvxqS6+u
+=ZfBX
+-----END PGP SIGNATURE-----
+
+--===============7136229356246632833==--
