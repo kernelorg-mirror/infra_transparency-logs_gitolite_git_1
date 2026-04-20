@@ -1,45 +1,66 @@
-Content-Type: multipart/mixed; boundary="===============4269309434990541952=="
+Content-Type: multipart/mixed; boundary="===============6630734991768168109=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
-Date: Mon, 20 Apr 2026 14:55:07 -0000
-Message-Id: <177669690709.1631504.614161244268375055@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Mon, 20 Apr 2026 14:55:22 -0000
+Message-Id: <177669692233.1632046.16857118423944793745@gitolite.kernel.org>
 
---===============4269309434990541952==
+--===============6630734991768168109==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jic23/iio
-user: jic23
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/testing
-    old: 4c90e2e7f7096effb91b9082f2902c7e4730a3e3
-    new: c65f27cae0deda3316ed49899df4492a3896e38c
-    log: revlist-4c90e2e7f709-c65f27cae0de.txt
+  - ref: refs/heads/master
+    old: 19b028739cc746d62f21d6c09214aae8b35d9726
+    new: 13d34632e04e799e0dc82065af87c8b1921d92e2
+    log: |
+         d29d7766cdc28b243307d039c0ae03f73417dba8 drop a patch
+         8a505977e76c5e938b8ed42b16365ad2f43abd9f 5.10-stable patches
+         ac928117da57e9b079c39acebcaee81cbf6cf4fa 5.15-stable patches
+         81fdd8e9c8992e7814156243c5b72640eb8c6159 6.1-stable patches
+         e62efc9c2dae3165af6bbc4f6026619281578b75 6.6-stable patches
+         a67603beaae99023e0943fe669726231f930a579 6.12-stable patches
+         3ae6e1a6007fcaa219ebbd08330f314ba311518e 6.18-stable patches
+         b54aa60510cb979ecab4de37a1a338a75a363b25 6.19-stable patches
+         93564c470c4088cc0fa620e4e9e0c3817f062472 7.0-stable patches
+         d5be30a62768efa14a22c6507ac994b1724549b6 Merge branch 'master' of gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue
+         13d34632e04e799e0dc82065af87c8b1921d92e2 5.10-stable patches
+         
 
---===============4269309434990541952==
+--===============6630734991768168109==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4c90e2e7f709-c65f27cae0de.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-3d3539c64495da44c1a5b3f3ba07ead4f2a8e883 iio: adc: ti-ads7950: use spi_optimize_message()
-1018a76362c05c539e7c62a8049b8c2b895f7af0 iio: dac: ad3552r: use field_get() for power-down bit read
-dff2d84b5de5553d16530899555120a0fc75589f iio: adc: nxp-sar-adc: use field_get() for EOC bit check
-dadbad80a69c661c964990ffee380f5f71ec90a6 iio: dac: ad3552r: Use devm_mutex_init()
-7d68551d4206b1df25d2793a9576277746c44435 iio: dac: ad7303: Use devm_mutex_init()
-de72c4c05a27f85cbc7a5f41078360fe1f9ee200 iio: dac: ad5758: Use devm_mutex_init()
-8381a43c913d9b1969a47a0f228a01d470d04ada iio: dac: ad5755: Use devm_mutex_init()
-1f13a5b4dc4d2419fc5bfdcb71a3eecf93aa3621 iio: dac: ad5686: Use devm_mutex_init()
-64d00205f3e6db708ba9efac761380d3fa3e1abb iio: dac: ltc2664: Use devm_mutex_init()
-f53fcdf30323bbf9c5f186ea4503d177dad90166 iio: addac: ad74115: Use devm_mutex_init()
-23f9edd35b81ad18d49944940373e7fe3e368d45 dt-bindings: iio: adc: ad4130: Document interrupts property
-c5b506138495eff9ecebe8fd9364cf9baca7fd79 dt-bindings: iio: adc: ad4130: Add new supported parts
-8eae78c08b700fbbe8e139623f82bf8038c38a3f iio: adc: ad4130: Add SPI device ID table
-c43b0d5c47d446e816ca2d5d0c7b256e6c82877d iio: adc: ad4130: introduce chip info for future multidevice support
-c65f27cae0deda3316ed49899df4492a3896e38c iio: adc: ad4130: add new supported parts
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1776696921 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1776696920-14b7734c00a881abd677ffccc349d2c164ae2006
 
---===============4269309434990541952==--
+19b028739cc746d62f21d6c09214aae8b35d9726 13d34632e04e799e0dc82065af87c8b1921d92e2 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmnmPlkbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+WyQP/iDG48AQ2TByuom1oooI
+UDUKIcn74yuhP4xpVRtyA2VYE4vjvA4Dr1i2sO1gO7dGOGK5x60xUGBl37zD98Zm
+szojGqLe8adXVjPdnCN2ZShQK5o6VZiCXq/a3d0VnJehCSgJiAxbDnTlRMyotnsI
+jTSZzpOWQXQhc7zVnfJu4QfonyPMVR4pyl3xaQCHARF7ou42cQi85jthaOtQ5pNS
+tZ99V4VllpWZIldDbpZSBS4saALn5T/+alugzODk4p+oQ5d+rK2a97VvrWILZh/z
+A2iawMNL7UzpkMCdhjIdQZMD33tim8PBwkdlsEFuF86CqVmwfVcLCDV5+fSBMHHw
+enYSC9qvq4OAsFQXtNWk+siXaBsMyUdz5MAidfYBDCV5auhY5vpMHnJlYn82e/gf
+8d5VsvIolycRxXVY/BQTEqHFluRrsc4NUoPsWn7bH5iArRDBqZ4EGB/n9vsFvJcs
+qnxHAFYEo/MRNgyxASuRyJuu1zSmigZtRVUaBBfnK8JRFudQUmkotUZ9FgCgST8u
+DEmRo9r5eWTXBfzgWZwuKf+ElqIUk9yWLrsEyeNL5mnii8GlRF93P5Li/ztAk4Mf
+sY5pzRqGPhMGJMF6jpLUharQ9WhnIer4gbArbu6kRqCwZr/z9GqGn8m4g8MLuN+r
+wUMHdpWe8f7RyvIwez0x3lVz
+=beJT
+-----END PGP SIGNATURE-----
+
+--===============6630734991768168109==--
