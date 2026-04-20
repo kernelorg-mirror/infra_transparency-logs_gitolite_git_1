@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7863087621184502064=="
+Content-Type: multipart/mixed; boundary="===============1129374034013326346=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/gregkh
-Date: Mon, 20 Apr 2026 05:30:57 -0000
-Message-Id: <177666305765.973546.13051909402618401063@gitolite.kernel.org>
+Date: Mon, 20 Apr 2026 05:33:57 -0000
+Message-Id: <177666323744.975079.1487873181284035158@gitolite.kernel.org>
 
---===============7863087621184502064==
+--===============1129374034013326346==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/gregkh
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/clanker
-    old: 3c263f94188a284136a97e93fe9b1e74a5563ed8
-    new: 0505d68408a3c00dcbb99dfe640f955834d48258
-    log: revlist-3c263f94188a-0505d68408a3.txt
+  - ref: refs/heads/main
+    old: faeab166167f5787719eb8683661fd41a3bb1514
+    new: c1f49dea2b8f335813d3b348fd39117fb8efb428
+    log: revlist-faeab166167f-c1f49dea2b8f.txt
 
---===============7863087621184502064==
+--===============1129374034013326346==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1776663032 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1776663234 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/gregkh.git
-nonce 1776663031-77f9d5e70203ff3c8692f207296791da545a1083
+nonce 1776663234-f04644f407d3326a813a3c80a7931b1de496db81
 
-3c263f94188a284136a97e93fe9b1e74a5563ed8 0505d68408a3c00dcbb99dfe640f955834d48258 refs/heads/clanker
+faeab166167f5787719eb8683661fd41a3bb1514 c1f49dea2b8f335813d3b348fd39117fb8efb428 refs/heads/main
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmnlufgbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+EQ0QAIOTnhQx3ML+bC2FBlmu
-84G7kF1khaP72lkvbD0vndQKfN7wLwOyoH8afFPbV+Mb5CjjaLR/ifeLhMLuMwhm
-AmOJx06bgDWTQUiSUiDjkl4POfyepseLhR6TnLUyPOMcFO263ixFHV+NQYFUpzqs
-o7wpzqZnVHLaVRYl2MuO2dX1XN4Djem8GMkr9csORPjPcba2wbAnqQYRyW+dsd6h
-RYPikpozHa76Lk0SVgoG8OK9+6j3wdB/Dq7rLHdqx5NPARajD4ng8qovutnF4TVL
-VyBy7/XRi9ixS4Amtca0ONN41KUp/0ZDUKdX/WkO3JHWQ6ZKMjm3G48+ELYhp4Tl
-rqF1DnUkrp3xIQBmHnqo10xueDSjqgTZvSLn5e8LTWNotaokDPRoLAh7ld9MuJpS
-cVrbUdfgZPjJR2D5Wf+yVxPAk/EVnXV9pd9/qiR8/xSlps0waj/6R5wnKv8KBudf
-rzntylJ3mOOXo6gZHkuVUg6x4yPbiGcjfFYUoqMiXHmj+rxQLBCrw9e1u1azOyIT
-KI4XXexwZ0n31XhsGqbhNDWBDVbXkta6P18tu8htzOpz3fjhZjahxmp2uAhWiIlF
-jNahdIQL5iQ+XTESbGLJ1q6xvl4JOaShe55N/JsaoqN2CVse6KmBiJ3QjICBWfsf
-flNsmmxjYfEw9SP0o+BeY6pi
-=xA6c
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmnlusMbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+usIP/3Qa7bxGpX7RMol0buB8
+asNpIqTOPM1ZEPPaN6IwnpoJ4ILw08GTwLvUH0GGC6Z7G6lm5wvSslSH+l7aHiXL
+h24Dq1hdV+KnC1/GKcKjAXKhUQraLpFWyFvo2FHat4z28i3DkSeui2k0jU78CNG7
+t0mtI3SQv44p6ohEfduI7FroTpu5KyPe4gS6yvnJWd0J2XkuHFI+Im6tWCHVBdUn
+gYo3HmSRoJlNMJvMY/fE3VGmnbWTm1diGfIaG65q6pAbT+T5krF2tLyST1Yf3dX2
+2Tp+zeyFuQRbR4FhvWL8N9mmFp//K+0dI08rD8JEyIqvsG44AhE6EJYA+fF85PiN
+8L2A6MvnjSmPzi7Q67Frj5q0DEOP67fRXyVqn0zawdNdeA2WKGK1pVjGXKRFxsJa
+pocmehCx0zFHLNDMRucxKHHR2YaYHaphHgng2WA2sJTIUPZjwYcjbmsds9210AoW
+xZFtT5oyjm4LfbjcCKv9z9q65iAd0eWZZDrhF/Lct0JJTlwKHWSdetFsMJauWKga
+01ICYj4jnM56r3Nqzj+CvqDcywLkj8Htyq0NMqn9aYSuRn+ivKgaQjl+7g2GGYpt
+0qpXJmD8QCluWInGlYox3B7hzwiOzSNmkm1tE5F80yS1fFECN7iBW7MS3ZyysU18
+BzCGYFb5E3ZQnHVB6GQ+vDQc
+=jj5N
 -----END PGP SIGNATURE-----
 
---===============7863087621184502064==
+--===============1129374034013326346==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3c263f94188a-0505d68408a3.txt
+Content-Disposition: attachment; filename=revlist-faeab166167f-c1f49dea2b8f.txt
 
 3e63ff8e224d628ac728492535e746a5c3ff23c7 staging: greybus: pwm: Fix typo in comment
 344c8694995a05be1f0e42bf753ee0d239cf27d6 staging: greybus: sdio: Fix typo in comment
@@ -567,28 +567,5 @@ ec05f51f1e65bce95528543eb73fda56fd201d94 mm/vmalloc: take vmap_purge_lock in shr
 bea8d77e45a8b77f2beca1affc9aa7ed28f39b17 Merge tag 'staging-7.1-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/staging
 8c2bf4a2e5cb4b325e328cc8808858a68616067c Merge tag 'driver-core-7.1-rc1-2' of git://git.kernel.org/pub/scm/linux/kernel/git/driver-core/driver-core
 c1f49dea2b8f335813d3b348fd39117fb8efb428 Merge tag 'mm-hotfixes-stable-2026-04-19-00-14' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
-5d198bb0366d76f6f1f5fad1b8c9a8131cfab470 leds: qcom-lpg: Check for array overflow when selecting the high resolution
-a0cdf24ac542f7e9697d97177951e11bb914af5b net: mctp: usb: properly drop the usb interface on probe error
-13fc2d6fb7bf725f5ca74d4dc44580189377f349 wifi: rtw88: properly drop usb interface reference on error
-164329fca51ca72538dba410d777b08bfb903773 mmc: moxart: fix potential use-after-free on remove path.
-5e698601999abee3343b42cb22b35608ccd1b3cf mmc: meson-gx: fix potential use-after-free on remove path.
-154a32837a1ce4568d54ba8c54b7569b1a8cc9c0 f2fs: fix potential deadlock in f2fs_convert_inline_inode
-5a65d405b568165dac84cc4ee169b97fb8487fa0 LoongArch: add spectre boundry for syscall dispatch table
-fef628fc9770531422210c75d28fc1e31d4ca271 drm/amdkfd: stop speculation on the kfd_ioctl path
-6ced2a914a34a9934c4729cda4211d9b4ccbe141 netrom: do some basic forms of validation on incoming frames
-10e08c4ab31d0d7d440a97e2891ad92d3c5a9990 iio: pressure: bmp280: fix stack leak in bmp580 trigger handler
-85badd969ede90a77a4c7a557d2d6999b62fdf2d iio: imu: st_lsm6dsx: fix stack leak in tagged FIFO buffer
-2821f15445fc8c768f7636df489b6bb1b93a7fe8 iio: imu: adis16550: fix stack leak in trigger handler
-9c06fed4a19839898ef725d70f471ee9810eb057 media: adv7604: avoid negative array index in log_status when cp_read fails
-1dfe04056eb200d9f77e93f1380fa7f1e851ec64 media: stv090x: bound DiSEqC reply length to msg[] size
-a8fbeec32193c63bc40bfb390c3be955d11baabf media: stv0900: bound DiSEqC reply length to msg[] size
-de26247ec1c127ed066726a273eae67a887f691e fs/ntfs3: validate rec->used in journal-replay file record check
-3860546ef8db8d80a8ef09d3753ad66f029f2dc8 ice: fix double free in ice_sf_eth_activate() error path
-aae73cc9e7558694f02e3779f1c7c89b66134ba4 NFC: digital: Bounds check Felica response before sensf_res memcpy
-ad6ad8204b7136b9f8932d5f638090b71b1a385b idpf: fix double free and use-after-free in aux device error paths
-76bca759e0f42fc064aac29b15fb893e6be5b5cf net: usb: cdc_ncm: reject negative chained NDP offsets
-46df1d4f0ee97dad29f92c90f07afb8e20b9d829 net: sched: em_text: require NUL-terminated algo name
-4e7320072a644ca0adf5f9ae419c36790956adc3 scsi: target: configfs: bound snprintf return in tg_pt_gp_members_show
-0505d68408a3c00dcbb99dfe640f955834d48258 staging: rtl8723bs: fix OOB write in HT_caps_handler()
 
---===============7863087621184502064==--
+--===============1129374034013326346==--
