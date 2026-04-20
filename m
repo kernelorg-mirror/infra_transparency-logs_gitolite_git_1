@@ -1,20 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/andi.shyti/linux
-Date: Mon, 20 Apr 2026 12:26:06 -0000
-Message-Id: <177668796650.1480611.3287534073546610697@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/glaubitz/sh-linux
+Date: Mon, 20 Apr 2026 12:35:11 -0000
+Message-Id: <177668851135.1489658.6352101947346305712@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/andi.shyti/linux
-user: andi.shyti
+repo: pub/scm/linux/kernel/git/glaubitz/sh-linux
+user: glaubitz
 changes:
-  - ref: refs/heads/i2c/i2c-host-next
-    old: 07822352b0b22788d11bcbb5cd1454a6b1a98210
-    new: d04047f727ba120706ab3116642e7d68158d82b0
+  - ref: refs/heads/for-linus
+    old: 6de23f81a5e08be8fbf5e8d7e9febc72a5b5f27f
+    new: 647b43f65357673a9ee4fe8a99247a7549bdb368
     log: |
-         6d3e05dd8924258e1d39140fd5839836b706e2c2 i2c: designware: Use PM_RUNTIME_ACQUIRE()/PM_RUNTIME_ACQUIRE_ERR()
-         d04047f727ba120706ab3116642e7d68158d82b0 Merge branch 'i2c/i2c-host-v7.1' into i2c/i2c-host-next
+         57b3ec396dd898aadc073bb16f3d05ee64b2c8af sh: Include <linux/io.h> in dac.h
+         222717d642ca98f6e72107621ab37d1aa4f26966 sh: Fix typo in SPDX license ID lines
+         44ab0a3ee21830178a289de8d713225bedc319ef sh: Remove CONFIG_VSYSCALL reference from UAPI
+         647b43f65357673a9ee4fe8a99247a7549bdb368 sh: Drop CONFIG_FIRMWARE_EDID from defconfig files
          
