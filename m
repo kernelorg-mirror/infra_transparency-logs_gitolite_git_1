@@ -1,56 +1,44 @@
-Content-Type: multipart/mixed; boundary="===============4013995756526702299=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/gregkh
-Date: Mon, 20 Apr 2026 16:01:03 -0000
-Message-Id: <177670086344.1717767.12051747849140452369@gitolite.kernel.org>
-
---===============4013995756526702299==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
+Date: Mon, 20 Apr 2026 16:02:24 -0000
+Message-Id: <177670094481.1718725.15842854421737901070@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/gregkh
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/tiwai/sound
+user: tiwai
 changes:
-  - ref: refs/heads/clanker
-    old: e78efdcdbcdd9ab72371102f2e558ac725cd6502
-    new: 45261c29c958c64b9d9e2d822f01dc05299daf6f
+  - ref: refs/heads/for-linus
+    old: 8042cc870554e190fbadf61b0e6bc67c0dca4b50
+    new: 314665e67b3e27ff442d8e0879f1c1df8d63ccbd
     log: |
-         45261c29c958c64b9d9e2d822f01dc05299daf6f Input: usbtouchscreen - clamp NEXIO data_len/x_len to URB buffer size
+         8a7be65e7e9a95c7776f997b50a4893c9315e710 ALSA: hda/realtek: add quirk for Acer Nitro 16 AN16-41
+         93985110329d9a66101c3de37aa7232f8c0bc3c9 ALSA: hda/tas2781: Fix sound abnormal issue on some SPI device
+         8146cd333d235ed32d48bb803fdf743472d7c783 ALSA: core: Fix potential data race at fasync handling
+         4cc3ec3d8b3536f2293a5a984c28ba2a09e8b22d ALSA: als4000: Fix capture trigger chip->mode race
+         314665e67b3e27ff442d8e0879f1c1df8d63ccbd Revert "ALSA: usb-audio: Add quirk for SmartlinkTechnology M01"
          
-
---===============4013995756526702299==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1776700837 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/gregkh.git
-nonce 1776700837-885d6dd2a6e79e83b7f65a797e34b1c4093b74b6
-
-e78efdcdbcdd9ab72371102f2e558ac725cd6502 45261c29c958c64b9d9e2d822f01dc05299daf6f refs/heads/clanker
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmnmTaUbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+zOQP+wWx3vTgiJlt+KzvrlCi
-QNryA5TZh88VF2ERi9h0/is3VhFCm7AbRDAB8Ff4ZInSe/+RETSf/oWxhymS33Et
-QvsNLWEpLW5IlkSEI0VtlgYOSTUDlnU1ImrGzW2KjNtefCZv0xy/POP/DvPDmeqr
-ZTzqalPGqa+5vbG2zUFroccldKXuNf7JP/MGR/Rrbcwh4x+JnCw90uVpyq+8aXtL
-77LJjYua7b8ktmsbSpcgVV3UohqENJV58sfRy/oHtb+AzgD6J6187dDBqzC2c/ak
-gjnYT6rGdC+7jtyM6iIOvOIdkNeTrA7NXckj/0DP9WzIhDrf1qL7Zy5SC2dLayFB
-aZ39TF5rC2enUAOLpKr37VVdvcm+/5Qg3VpKFFZLKZOw9FkGXiO03SPMJx3BRR8f
-RG0bPdYPkdWM7aMlrCLW3oMCXihmFyn62aFKJdsAW7xpdUTXvwPlCsEBV2oqQLzg
-lyE3VHetkEtjM5NUSB48NFMTJgDIFhv3yGlMS33j5VLOcGuGcbGuWQ2mV587dc3l
-k9xzTuY43KsoYTT5qhEKiHbUOdOBt4kwGzBErjZTh4bOC3bvLh36brXyfDYpesow
-OvqxhWmF/SOdTxJWcYul0wgtI4uZTiA7wJ0rnCe4cnT5feMx2GC0ISoHU4M70KM/
-Cy5KVEYjJ8Pevy/XcoTLYVvp
-=Yb/h
------END PGP SIGNATURE-----
-
---===============4013995756526702299==--
+  - ref: refs/heads/for-next
+    old: 8042cc870554e190fbadf61b0e6bc67c0dca4b50
+    new: 314665e67b3e27ff442d8e0879f1c1df8d63ccbd
+    log: |
+         8a7be65e7e9a95c7776f997b50a4893c9315e710 ALSA: hda/realtek: add quirk for Acer Nitro 16 AN16-41
+         93985110329d9a66101c3de37aa7232f8c0bc3c9 ALSA: hda/tas2781: Fix sound abnormal issue on some SPI device
+         8146cd333d235ed32d48bb803fdf743472d7c783 ALSA: core: Fix potential data race at fasync handling
+         4cc3ec3d8b3536f2293a5a984c28ba2a09e8b22d ALSA: als4000: Fix capture trigger chip->mode race
+         314665e67b3e27ff442d8e0879f1c1df8d63ccbd Revert "ALSA: usb-audio: Add quirk for SmartlinkTechnology M01"
+         
+  - ref: refs/heads/master
+    old: 3b084c0bd88976f059b0589f007ae5458dd8c567
+    new: 9d9e85468760b68ac3559e4d0674f3359f36fd3e
+    log: |
+         8a7be65e7e9a95c7776f997b50a4893c9315e710 ALSA: hda/realtek: add quirk for Acer Nitro 16 AN16-41
+         93985110329d9a66101c3de37aa7232f8c0bc3c9 ALSA: hda/tas2781: Fix sound abnormal issue on some SPI device
+         8146cd333d235ed32d48bb803fdf743472d7c783 ALSA: core: Fix potential data race at fasync handling
+         4cc3ec3d8b3536f2293a5a984c28ba2a09e8b22d ALSA: als4000: Fix capture trigger chip->mode race
+         314665e67b3e27ff442d8e0879f1c1df8d63ccbd Revert "ALSA: usb-audio: Add quirk for SmartlinkTechnology M01"
+         9d9e85468760b68ac3559e4d0674f3359f36fd3e Merge branch 'for-linus'
+         
