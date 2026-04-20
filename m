@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4603653818229111601=="
+Content-Type: multipart/mixed; boundary="===============8696930638305133855=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux-stable-rc
-Date: Mon, 20 Apr 2026 15:22:54 -0000
-Message-Id: <177669857427.1667444.16510190303410871936@gitolite.kernel.org>
+Date: Mon, 20 Apr 2026 15:22:55 -0000
+Message-Id: <177669857565.1667508.15588062473764841673@gitolite.kernel.org>
 
---===============4603653818229111601==
+--===============8696930638305133855==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,132 +16,139 @@ repo: pub/scm/linux/kernel/git/stable/linux-stable-rc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-5.10.y
-    old: 49e5d20074c20b20773c6dc0f8dce0635591093b
-    new: 274b8fa9c157f54cc49278eabcdcfba54b4ca0e9
-    log: revlist-49e5d20074c2-274b8fa9c157.txt
+  - ref: refs/heads/linux-5.15.y
+    old: b9d57c40a767db4d2ef905abb91f73cbe0a791e1
+    new: 888b96a35990fff103bb2389c518650febbc1c5f
+    log: revlist-b9d57c40a767-888b96a35990.txt
 
---===============4603653818229111601==
+--===============8696930638305133855==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1776698572 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1776698573 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux-stable-rc.git
-nonce 1776698571-d2112dc457a2b6c17cd6806128fde3ac792945f1
+nonce 1776698573-6ff7878740003d450630e4cc41fa2dd22e9397d0
 
-49e5d20074c20b20773c6dc0f8dce0635591093b 274b8fa9c157f54cc49278eabcdcfba54b4ca0e9 refs/heads/linux-5.10.y
+b9d57c40a767db4d2ef905abb91f73cbe0a791e1 888b96a35990fff103bb2389c518650febbc1c5f refs/heads/linux-5.15.y
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmnmRMwbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+UAYP/1Wp46khcey/XgPDJodG
-lb+F7krzK0xtHBz6q0S90MIWAolmJHO9PlR5gvDqc9La7Gth2D+LuM7RucOT5xm1
-/FL1AIMNDS415oXb+ZZ8a5itSrEjTdMrLFljQGkIJWNzC6ermzPdjb9ifp1ySUjZ
-dzC1KPgChrW5XXd9C/z+/PHJm/qZK8dkRLKg1mEHeIuM75cF2Ao98P58c5sAUc76
-sFWB7qyWpQqCWduUEsko0TQ/FuHavj+cPAiZr/0aIcTYlM56IUROyLZoPV1gqaYw
-/IDAw45LTjLZN83fnRiYFcOMjqyMrQ7anSOsvq+sCvm4XfPqiIcztHDd3V7ahevF
-+S6czf4eCtHMHJ3iOp5Z80Jui1Til0cTRbehwauec1zSXPRk65VojgV29X0PypzA
-CDpr+3XrjLpks6wYXDLjK/51xiaREDOVbpYuoOuXpnPAL4W34z8y0ZvReB7i7KVM
-Prm6h7N3aHae6+c+FcvGU3qcqEY8V3OAIXTcAZbOchU9bOHxrQCzfZrZ3qropEPr
-t2ih+tkZBEM4ce9eaTBLZ8RdKnBPGaRpQxsyyF/AykWS4xxrpIM+EBfdfbdnrs9B
-Vci61S9xnfRe9ErBsdIfY10P4Ki/SOsNzs2570VuA91KNgAR6+5DstAyDk8xd1Xh
-m/kN3hmWcLvnm9sLmjz9DJk/
-=bgfS
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmnmRM4bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+GwIQAJ+FC2osmUOQ2FBTA9SC
+yBwaIJATBAQed2QEXRTG2Q7TKjNGZOPRo1u3M1iTD2CFWoRaL8zxjVyIQ7pjltw2
+YVavSXWBddknYh7RLNz4CyC8wa45bBqGAfcj4/+PgNhuubGgJDsa9x8PtHX9yrbC
+9MyZPuKDBnig1yYj1QT6C/BKBGZM7uh4+IMYOXn345z4ODcvuLXqfkkMtkFg9RtD
+FvDgwrntY2ZrjRCJXzB+SaTUsgEcTFLBUW96evqvnBLO84hygXt/FjaR1xOpiFap
+BvsSeXISbl4AZA2p5Mceq3av43hDclLWkwAdN1wPow4J8dAEEltN3vHwG9EZezVB
+cm8GtvPQ1P5JfdEBcun/svLdkDv6VmMMFpQnzhVgPosALNrm1XuRDEwqm6xd1BMu
+sCT7U3szKTvyOmE9cMYXnHuvjSqSD1sOYs0XULfBG0Co24qOeTlAcc3FBNmskZFR
+wivBXzDSy9m7U73AwiLsqy+804UB6s25oiqGsG9QmAQvUVHmr7YSjloiG+LKT8no
+WRiYYtlmhFeogm0+4PVCbaOFqpJhLcZdi7wNeTIW44OVo2C20vAIqsdfzGyNcTtn
+5rfQWmqeLfr5Yhad9JAzBj+VGVq9j8lx/JXtMwzQ+czi9bL1a61n0/TFR6J8pzcE
+7D/Ox/lBPvop088dLgEvGVbW
+=YKDn
 -----END PGP SIGNATURE-----
 
---===============4603653818229111601==
+--===============8696930638305133855==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-49e5d20074c2-274b8fa9c157.txt
+Content-Disposition: attachment; filename=revlist-b9d57c40a767-888b96a35990.txt
 
-80145eb7ed6cd0eb9ed126fe9b421685b5f6cfd9 ALSA: asihpi: avoid write overflow check warning
-6fbb2a1220a0beb5ede98da2fb98740e91e44a9f ASoC: SOF: topology: reject invalid vendor array size in token parser
-24dc686ef4ec9bba8537b7a4b7bec16ef33ca7d2 can: mcp251x: add error handling for power enable in open and resume
-1b1f52622661dfa606a1175e6a3d7824f951bb68 btrfs: tracepoints: get correct superblock from dentry in event btrfs_sync_file()
-c2458509966c916d7c854a2a55cfe147d67a0855 ALSA: hda/realtek: Add mute LED quirk for HP Pavilion 15-eg0xxx
-f7ff380d6aaf7faa0213437d1e5a7ffb6f361f2b srcu: Use irq_work to start GP in tiny SRCU
-483b1b568bae2177e58051b1b8ca8a7b967eb29d netfilter: nft_set_pipapo_avx2: don't return non-matching entry on expiry
-d0eca2d8c276ec61f280191af7804e466378239e wifi: wl1251: validate packet IDs before indexing tx_frames
-3a19e1b6ca7491c22ada1fc1c29afd44026da8a6 ASoC: soc-core: call missing INIT_LIST_HEAD() for card_aux_list
-5746e1225cd57d13f15ee0d86f67e76152bdb91f HID: quirks: add HID_QUIRK_ALWAYS_POLL for 8BitDo Pro 3
-2f13625531241ca9a85f263e91c0683fdd7ed8bd HID: roccat: fix use-after-free in roccat_report_event
-2bf1b114af7a552711cfe7903e61e6604e53ec89 ata: ahci: force 32-bit DMA for JMicron JMB582/JMB585
-d403618dc1afb1ed96cd869983fe7bb5b7641757 wifi: brcmfmac: validate bsscfg indices in IF events
-beba4a8204e99ee06a51d69278ba0fa909892b5c ASoC: stm32_sai: fix incorrect BCLK polarity for DSP_A/B, LEFT_J
-3842fdc56f6c48a322b8b0a0730490529e9704f7 arm64: dts: imx8mq: Set the correct gpu_ahb clock frequency
-d01781968ff619f398b9e576aca8cc33e9ba4e86 PCI: hv: Set default NUMA node to 0 for devices without affinity info
-5ae6253b9c65739fc1a53d4f05a6dc3b528eb3d2 drm/vc4: Fix memory leak of BO array in hang state
-f4530a8da1ceaa81eca492084c2de101f109ad71 drm/vc4: Fix a memory leak in hang state error path
-fe2352271ebd18e5df2d79bf91b83604c2b4b8d7 drm/vc4: Protect madv read in vc4_gem_object_mmap() with madv_lock
-7b1b92c5151c8f9bfeab00db82c6b5633da6dc57 net: sched: act_csum: validate nested VLAN headers
-274373450bc4f016d9c043fd95471cc687422bbd net: lapbether: Close the LAPB device before its underlying Ethernet device closes
-dbd0372d1defe0433a334d78adcf28678b59391c net: lapbether: remove trailing whitespaces
-150dd4f35760b50b1227fb45752eabb227c0b159 net: lapbether: replace comparison to NULL with "lapbeth_get_x25_dev"
-2a44a79dda0a568add7636dbb7e7fad0f5ed1416 net: lapbether: handle NETDEV_PRE_TYPE_CHANGE
-3db5b1cfbb25118f04404f8b96ce6075a4548ae4 tracing/probe: reject non-closed empty immediate strings
-32ad7df7bc3c4a410bc511b5593d4b1d9202c0d7 e1000: check return value of e1000_read_eeprom
-b7ea0e9137dba0978fdd7854d51cef2dbcd4e07f xsk: tighten UMEM headroom validation to account for tailroom and min frame
-92741a113b77dbcfe08e9f643bfeb15b58c641ba xfrm: Wait for RCU readers during policy netns exit
-4c5c0d4fdf2cc3bc26fa17acbcb318596c56d5d6 xfrm_user: fix info leak in build_mapping()
-c4efacca6aaf1ede733f8722487ca22e162f0019 netfilter: nfnetlink_log: initialize nfgenmsg in NLMSG_DONE terminator
-8512477b885312e61c95d06322a3c70956a69569 netfilter: xt_multiport: validate range encoding in checkentry
-b9824d769f0ba395ef9f5af0ea71f1e3c1db0373 netfilter: ip6t_eui64: reject invalid MAC header for all packets
-6c16495f4c6317c727ef7f4de2d74b6b614858a3 af_unix: read UNIX_DIAG_VFS data under unix_state_lock
-30aa31200b3082820500af29a7981b72b1fdad0a l2tp: Drop large packets with UDP encap
-d19a7497b25260bfb5e7454bf7593eaf635be28e crypto: algif_aead - Fix minimum RX size check for decryption
-6cce7e194484391e0e037c05241d21321f238630 netfilter: conntrack: add missing netlink policy validations
-75d9c3e8bad6ab029ec53643ec31fb4393ac5d67 drm/i915/gt: fix refcount underflow in intel_engine_park_heartbeat
-88f2394a820920df4295b636879a6cd3b17c049f MIPS: mm: kmalloc tlb_vpn array to avoid stack overflow
-615c2ca0c952d576091683491a503245558c5617 mips: mm: Allocate tlb_vpn array atomically
-6eb7d45eab462054656abb6587ab94573ebd2354 MIPS: Always record SEGBITS in cpu_data.vmbits
-a072ac402b24c8c543c6f0cff155d25998a3255b MIPS: mm: Suppress TLB uniquification on EHINV hardware
-bacccd205889460ce6087d96acee394f513fd3d7 MIPS: mm: Rewrite TLB uniquification for the hidden bit feature
-2c2477a91303ebe1ee6fbb48a29aba01ea558d8e netfilter: nft_set_pipapo: do not rely on ZERO_SIZE_PTR
-90743a8a721ffdd366aa1aa07db4abb80971fcc3 batman-adv: hold claim backbone gateways by reference
-c7063c037bb1d596d5ece2f38fc226b7153ddf77 nfc: llcp: add missing return after LLCP_CLOSED checks
-a8dda0e7ee66077c0136666c816fe4e093c8d87a can: raw: fix ro->uniq use-after-free in raw_rcv()
-80aec90321a55c7a21b0883fe9acd44b1c15271a i2c: s3c24xx: check the size of the SMBUS message before using it
-1da260b68dc786f4afcde3cba3612486df7a013b staging: rtl8723bs: initialize le_tmp64 in rtw_BIP_verify()
-9602306c2def8698ad2f1e7d9040f954c5120c9a HID: alps: fix NULL pointer dereference in alps_raw_event()
-f90db5beefb932b0776dc4b87bc8e6fd0f696593 HID: core: clamp report_size in s32ton() to avoid undefined shift
-110f9de89ac646d92470a4c6b73f4eaacf5a4f7d net: usb: cdc-phonet: fix skb frags[] overflow in rx_complete()
-8c6524258e351cd699b029d1af00eab2c21db77d NFC: digital: Bounds check NFC-A cascade depth in SDD response handler
-0a8c9bac73c5e1e5695b3063509f7af474166ff4 ALSA: fireworks: bound device-supplied status before string array lookup
-0609f30e0f223754b1432b5dcfc7d2aa50e58da7 fbdev: tdfxfb: avoid divide-by-zero on FBIOPUT_VSCREENINFO
-370755771d6aeb99a5b6a8b5336cd2847ad875d0 usb: gadget: f_ncm: validate minimum block_len in ncm_unwrap_ntb()
-a36b17f2f5e93afc8dc3195dd43b845c3223f06b usb: gadget: f_phonet: fix skb frags[] overflow in pn_rx_complete()
-1debf812c54eccd4b36659d5d7353c7768dbe216 usb: gadget: renesas_usb3: validate endpoint index in standard request handlers
-407a2081a37dd70bcf3fb2581ab8297281fb6a61 usbip: validate number_of_packets in usbip_pack_ret_submit()
-bab830c8676bd66f072aa3b00face3ee00892240 usb: storage: Expand range of matched versions for VL817 quirks entry
-94907358a5c10e036d17813b01cac57bc2665d90 fbdev: udlfb: avoid divide-by-zero on FBIOPUT_VSCREENINFO
-57af90a82c42fde1f4fc8faa526afe9e4340f84c staging: sm750fb: fix division by zero in ps_to_hz()
-0ead79f02889d2da8715927d0beed4dbb9e240d2 USB: serial: option: add Telit Cinterion FN990A MBIM composition
-b69a44df91cca8408e7c106ffe9a1f8d56d0fd39 ALSA: ctxfi: Limit PTP to a single page
-75b4162c7a6a70b424ce6647ee7005ea923127a1 media: vidtv: fix NULL pointer dereference in vidtv_channel_pmt_match_sections
-56d6b85fdff8595b0820f9f41256c960d336ac2f ocfs2: fix use-after-free in ocfs2_fault() when VM_FAULT_RETRY
-6df103a771c89e17955bea687dc5dd6aa68e7dc1 ocfs2: handle invalid dinode in ocfs2_group_extend
-6b9c12b867771b8dda5c90773eadee5da79da21d KVM: SEV: Drop WARN on large size for KVM_MEMORY_ENCRYPT_REG_REGION
-fb0a4ee6ca4fa9b33f2c990b295495d06b4e1db5 ACPI: property: Constify stubs for CONFIG_ACPI=n case
-38cfaf3e22b4fdffaab29d9b8677fb709681d55c rxrpc: Fix call removal to use RCU safe deletion
-b7ac670e702413a2596403664f1ac2e91c369486 rxrpc: proc: size address buffers for %pISpc output
-56e40d7d7f2db3aea0bd759c3ae8a0686afe87d9 Revert "wifi: cfg80211: stop NAN and P2P in cfg80211_leave"
-ae1b7486d3ee886bccf36dbfc57da6b83a885c15 media: uvcvideo: Allow extra entities
-fcd2034e308f0668b05fffd403737d90e16da125 media: uvcvideo: Mark invalid entities with id UVC_INVALID_ENTITY_ID
-f7b727e45939fb6150081ab3eb9063a44503ffc3 media: uvcvideo: Use heuristic to find stream entity
-a27e3aceba297fdbcb273b9ee104cd196c6e53df checkpatch: add support for Assisted-by tag
-42d52c92a2c20765edad87510513ff9bd00101b1 KVM: x86: Use scratch field in MMIO fragment to hold small write values
-44db0a46858fccaa3ecf31b96f59ae177c6e7a77 mm/kasan: fix double free for kasan pXds
-543b85df7cae3971422f0b0b255f268b5058880c media: vidtv: fix nfeeds state corruption on start_streaming failure
-29fa75efe037ddd22281ea10a41e722eeb00818b media: em28xx: fix use-after-free in em28xx_v4l2_open()
-29ca400c3d0347b9054cbb853e6d917d67fb711d ALSA: 6fire: fix use-after-free on disconnect
-5bc02ef9f9aa1b197f34f0908f16cfcfb2cd5308 bcache: fix cached_dev.sb_bio use-after-free and crash
-816085b66c037d6d4f583e83c46d32f9243fa5b6 media: as102: fix to not free memory after the device is registered in as102_usb_probe()
-1e79cec0084ebfb246c7ac06b54988a5227b8296 nilfs2: fix NULL i_assoc_inode dereference in nilfs_mdt_save_to_shadow_map
-8017250db315fddc30fcbf7950a2bb23a9c2d504 media: vidtv: fix pass-by-value structs causing MSAN warnings
-4fac23bafb9390871713d4cfc9bbf9c2604cb7ad media: hackrf: fix to not free memory after the device is registered in hackrf_probe()
-274b8fa9c157f54cc49278eabcdcfba54b4ca0e9 Linux 5.10.254-rc1
+a2034c1095f41ecd007fe27de0c13a294a973067 ALSA: asihpi: avoid write overflow check warning
+097d876e726d2703df52f786aea83d09d8254e56 ASoC: SOF: topology: reject invalid vendor array size in token parser
+5574fbbe98ecac444206ad19bd40fea535d3c948 can: mcp251x: add error handling for power enable in open and resume
+9c102ded85e50cfad835d254191f88f8af223da2 btrfs: tracepoints: get correct superblock from dentry in event btrfs_sync_file()
+87774cb03833e0d41ee81892b9a261151bb84c95 ALSA: hda/realtek: Add mute LED quirk for HP Pavilion 15-eg0xxx
+43a115e517074c575d583ffc944f303aee69f39a srcu: Use irq_work to start GP in tiny SRCU
+21956cff58a3f78993df5127f28f990bfb30fd28 netfilter: nft_set_pipapo_avx2: don't return non-matching entry on expiry
+5979dadd14954a7ddaf3b5fb25bbe670a1f64d13 wifi: wl1251: validate packet IDs before indexing tx_frames
+62c491a7dc9706c7d70d590eb95f6d9a21c4dbe5 ASoC: soc-core: call missing INIT_LIST_HEAD() for card_aux_list
+a58d4502b67ba039f81669391cd0c51b14fb29be ALSA: usb-audio: Fix quirk flags for NeuralDSP Quad Cortex
+5c0379da2b65360387a03ba9ed703acad957c77a fs/smb/client: fix out-of-bounds read in cifs_sanitize_prepath
+db73761e71d99a3ff38015f6e0aa940340475396 pinctrl: intel: Fix the revision for new features (1kOhm PD, HW debouncer)
+ae270f19886e8af9032bbacf6a8781a3bf1bcabe HID: quirks: add HID_QUIRK_ALWAYS_POLL for 8BitDo Pro 3
+1cd266b5343c300abd0fd420d07345cac6cb9518 HID: roccat: fix use-after-free in roccat_report_event
+5d62f7699941a1a2c3cdcc136e3256551150417a ata: ahci: force 32-bit DMA for JMicron JMB582/JMB585
+6a9caecac04f46f94fc3327b8dcfdcc39173652c wifi: brcmfmac: validate bsscfg indices in IF events
+4592b38b847415cf59489314d88b8c8e1719d3cd ASoC: stm32_sai: fix incorrect BCLK polarity for DSP_A/B, LEFT_J
+901eec1839186b2fe49361e6219ef0a36370f61c soc: aspeed: socinfo: Mask table entries for accurate SoC ID matching
+08fb4e2032aa3f3e73202223411f909ca5337934 arm64: dts: imx8mq: Set the correct gpu_ahb clock frequency
+920c881d7c406c65362bed9578c1cc4b923b50df PCI: hv: Set default NUMA node to 0 for devices without affinity info
+99bfe47f89d0a30dc1ce37bf565788f1a46a2988 drm/vc4: Fix memory leak of BO array in hang state
+7ac42177c5c0fd6970c2af39f41353ff694e2e85 drm/vc4: Fix a memory leak in hang state error path
+991ab5936b6a287003fc74fa6c6c1aa602554fde drm/vc4: Protect madv read in vc4_gem_object_mmap() with madv_lock
+dc92a746480c8eb101319bea0a857e8bb474f397 epoll: use refcount to reduce ep_mutex contention
+346142b75be25d54d17d1f3938005162297df674 eventpoll: defer struct eventpoll free to RCU grace period
+3a223a2653ac6f49012e3a7d99348967cacb68b1 net: sched: act_csum: validate nested VLAN headers
+efc851890aeddcf845e76beb0c51cb9d1d62a170 net: lapbether: handle NETDEV_PRE_TYPE_CHANGE
+39e9e2cbf1ce500563f184ce34dcfb726f45e26f ipv4: icmp: fix null-ptr-deref in icmp_build_probe()
+faad1f13a7812762edeee962fffe68b742b24935 nfc: s3fwrn5: allocate rx skb before consuming bytes
+e8b9edcdbc3cb40c9081e2cfda610d1e945f3a06 tracing/probe: reject non-closed empty immediate strings
+204796df476840485100a41d4844c37aec3558d4 e1000: check return value of e1000_read_eeprom
+e3385703e197f277bb7c8f0396b457bb25e2b681 xsk: tighten UMEM headroom validation to account for tailroom and min frame
+69598291ddac6578d3f3747fa6804cda1c94b62e xfrm: Wait for RCU readers during policy netns exit
+1dd4523d93936ff60132d1a408e6b811608c94ea xfrm_user: fix info leak in build_mapping()
+032278cff9f0ddd658ce0f51b7f4c633d301c5b3 netfilter: nfnetlink_log: initialize nfgenmsg in NLMSG_DONE terminator
+47178db678d064ef9ac08cc83657bd68cf70b505 netfilter: xt_multiport: validate range encoding in checkentry
+e5829e5e002c49dab9c812f85d210d3364a65e69 netfilter: ip6t_eui64: reject invalid MAC header for all packets
+24984e97a7be98de030e8419b6e051848f16fa69 af_unix: read UNIX_DIAG_VFS data under unix_state_lock
+1c5d73f26f16a6ccb2962c56d3520c4fdd9a76f4 l2tp: Drop large packets with UDP encap
+c042bce04442fa3ec427fefc62510b351b7b80da gpio: tegra: fix irq_release_resources calling enable instead of disable
+4ce819b2134fa84db7e4eb2150f66fcfb7255cf2 perf/x86/intel/uncore: Skip discovery table for offline dies
+6eaaa5bd217ba5b7e45d2df09d40cd8400fd4397 clockevents: Prevent timer interrupt starvation
+8b8bc321fc3f87c1a0bc6ef34958b7b2ca8637ad crypto: algif_aead - Fix minimum RX size check for decryption
+fdd8963415d611b31cb2f42303a9d152a9836a92 i3c: fix uninitialized variable use in i2c setup
+b009802f85e15ba535fb80883cbdada35268777f netfilter: conntrack: add missing netlink policy validations
+2e4711438a69a28645f752c042eaa6c04d6af8a4 MIPS: mm: kmalloc tlb_vpn array to avoid stack overflow
+0c4a25d0c77e2b86381fb13525ecc2c52e02abcf mips: mm: Allocate tlb_vpn array atomically
+fadd34f0d241e9fb093372a45e7639ea60f94b8e MIPS: Always record SEGBITS in cpu_data.vmbits
+6f3cf9571fd59af88ba1a8523b0a467e57914bc7 MIPS: mm: Suppress TLB uniquification on EHINV hardware
+58eedb198971b4844bd8c01aa39999dca7bd52d8 MIPS: mm: Rewrite TLB uniquification for the hidden bit feature
+d4ca9b66bcbc7d310f4d90fbf76583929bc8a043 ALSA: usb-audio: Improve Focusrite sample rate filtering
+d49cc3fb572118884e659cc96b394061e7664bd8 ALSA: usb-audio: Update for native DSD support quirks
+e4d4c02658f8aafef84af2fcca112e004051d4f5 ALSA: usb-audio: Remove VALIDATE_RATES quirk for Focusrite devices
+e7f436e59ecdea945f2ada3c3f866d00063a8276 batman-adv: hold claim backbone gateways by reference
+684117b80e6447e0409bb8c50ab8a3bda224a021 nfc: llcp: add missing return after LLCP_CLOSED checks
+c9923236d92936e07d058eada1b4904762bd8b45 can: raw: fix ro->uniq use-after-free in raw_rcv()
+dd8dc739330d2e5c0cc67fcc9f437c01fd8372ab i2c: s3c24xx: check the size of the SMBUS message before using it
+e6a5cb6d65ada2042133512efce4597ac9f8c81f staging: rtl8723bs: initialize le_tmp64 in rtw_BIP_verify()
+6d2f276f7ddee110bd2ad026152840505baf576b HID: alps: fix NULL pointer dereference in alps_raw_event()
+d1e71d5997e6a59ee7b98c9904d8b91118d22738 HID: core: clamp report_size in s32ton() to avoid undefined shift
+7fe005f7e6c74c800095f32c5f75d5c8352fda70 net: usb: cdc-phonet: fix skb frags[] overflow in rx_complete()
+5dceb67fa74ee990fc6a37d2db6736724ce4bf61 NFC: digital: Bounds check NFC-A cascade depth in SDD response handler
+1266426f5ae1feac7bb8276e5ea4ddc26cb6a5f1 ALSA: fireworks: bound device-supplied status before string array lookup
+e4f63225525bbfeaf77daedcaad10f1739d846cd fbdev: tdfxfb: avoid divide-by-zero on FBIOPUT_VSCREENINFO
+0f11053d5ad620f9b4109b5a8c3d1e5ccce17556 usb: gadget: f_ncm: validate minimum block_len in ncm_unwrap_ntb()
+e7bbc5efffee37822a3755ae9177ae7fe72febf6 usb: gadget: f_phonet: fix skb frags[] overflow in pn_rx_complete()
+e60d1679aa977631623c615d4baa20349eedee19 usb: gadget: renesas_usb3: validate endpoint index in standard request handlers
+f94eac6178c25834ab2ff794e0dfc4ad4c08d64a usbip: validate number_of_packets in usbip_pack_ret_submit()
+8b9d328db0bd814dc216bd2a0052c78c19c91d23 usb: storage: Expand range of matched versions for VL817 quirks entry
+a3453ebdf286dded6cb83d6b0030c1cd059f0b96 fbdev: udlfb: avoid divide-by-zero on FBIOPUT_VSCREENINFO
+17cf44697ea3850dcb1bf8621c62f0509ea8b837 staging: sm750fb: fix division by zero in ps_to_hz()
+d345fde0a28bb850575084646084ce17ad90ebbf USB: serial: option: add Telit Cinterion FN990A MBIM composition
+8c61fbf29fac8dbdb0d110bbe34158cb35f811c7 ALSA: ctxfi: Limit PTP to a single page
+668f60ea1fffb13142381dbf3360353ef1d271bc media: vidtv: fix NULL pointer dereference in vidtv_channel_pmt_match_sections
+7d66e8f801d13d549d68e6e994b53f85178b6795 ocfs2: fix use-after-free in ocfs2_fault() when VM_FAULT_RETRY
+c3b1f5a8fb5a42193ce6fd73a3b53555199ed63f ocfs2: handle invalid dinode in ocfs2_group_extend
+b225b1dc6f8f5e1b8d7ea0bdc1ad4fff7b8564ad KVM: SEV: Drop WARN on large size for KVM_MEMORY_ENCRYPT_REG_REGION
+874b8aa2dc8c1cbef0c1bebd7c5e9e7ac7e60d39 fsl-mc: Use driver_set_override() instead of open-coding
+c3bba9ef78ab8b2813a18a19447e69aac2829224 smb: client: fix potential UAF in smb2_is_valid_oplock_break()
+8ed35b08ea97afea82a5ea2ada989bcc042221a6 nf_tables: nft_dynset: fix possible stateful expression memleak in error path
+5c40a81dff7483a857bd0b0c5bd1a1247be9c84d rxrpc: proc: size address buffers for %pISpc output
+3a6d1277213195b26ff6a69d5ecc1acb3a839a8f checkpatch: add support for Assisted-by tag
+9a3f76fe753c0dc5d8753d5eadaf39646559ed00 KVM: x86: Use scratch field in MMIO fragment to hold small write values
+62a193d9cf22ae7e3b4f20e04302fe5b0e34b118 mm/kasan: fix double free for kasan pXds
+914bdcfe64446f67b0950a5911c27b1c14cdedc9 media: vidtv: fix nfeeds state corruption on start_streaming failure
+4673947355731622f5415d3a5e728553d3e374f5 media: em28xx: fix use-after-free in em28xx_v4l2_open()
+323e7cf7457e25ad726275ef62e17c50f87db51d ALSA: 6fire: fix use-after-free on disconnect
+01c5b28fd0d172eb3fed28df8025fc0c0dbdb8c8 bcache: fix cached_dev.sb_bio use-after-free and crash
+3bac50da4203c8c8736ff578eab31886340cbfb8 media: as102: fix to not free memory after the device is registered in as102_usb_probe()
+96bb36edc3b4f607725045c54980b80b5ca7ecd6 nilfs2: fix NULL i_assoc_inode dereference in nilfs_mdt_save_to_shadow_map
+6c69b1143a4f5fedf5693a9e37de0d2155f92294 media: vidtv: fix pass-by-value structs causing MSAN warnings
+520b6a89df76ff4ce1280091ca22f3355054b7ad media: hackrf: fix to not free memory after the device is registered in hackrf_probe()
+888b96a35990fff103bb2389c518650febbc1c5f Linux 5.15.204-rc1
 
---===============4603653818229111601==--
+--===============8696930638305133855==--
