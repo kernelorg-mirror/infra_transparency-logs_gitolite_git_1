@@ -1,29 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tj/sched_ext
-Date: Mon, 20 Apr 2026 16:56:17 -0000
-Message-Id: <177670417735.1773516.7093755696648838455@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
+Date: Mon, 20 Apr 2026 16:56:35 -0000
+Message-Id: <177670419511.1773802.16443346797325359013@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tj/sched_ext
-user: tj
+repo: pub/scm/linux/kernel/git/ath/ath
+user: jjohnson
 changes:
-  - ref: refs/heads/for-7.2
-    old: 79321fad54941edb13f85b06c757634342b19907
-    new: 41e3312861eafba171d9620150aaf2e99165d044
+  - ref: refs/heads/pending
+    old: 90ef329e73c673e4e3ea66226bb1d8fe3acf45a5
+    new: 676116b0fde9b9017a8a4f98ac86eeceedc9fe55
     log: |
-         ce0fb14ea592eb84d6a01b948f2684ddfaac5832 tools/sched_ext: Remove dead -d option in scx_flatcg
-         ed859d4319863263665b239cd2c62c3aad1664ce Merge branch 'for-7.1-fixes' into for-7.2
-         41e3312861eafba171d9620150aaf2e99165d044 sched_ext: add p->scx.tid and SCX_OPS_TID_TO_TASK lookup
-         
-  - ref: refs/heads/for-next
-    old: 9496ff6fa7dff02065c170dde7b3f125e4ed2c50
-    new: 41e3312861eafba171d9620150aaf2e99165d044
-    log: |
-         ce0fb14ea592eb84d6a01b948f2684ddfaac5832 tools/sched_ext: Remove dead -d option in scx_flatcg
-         ed859d4319863263665b239cd2c62c3aad1664ce Merge branch 'for-7.1-fixes' into for-7.2
-         41e3312861eafba171d9620150aaf2e99165d044 sched_ext: add p->scx.tid and SCX_OPS_TID_TO_TASK lookup
+         676116b0fde9b9017a8a4f98ac86eeceedc9fe55 wifi: ath12k: Remove macro HAL_RX_EHT_SIG_OFDMA_EB2_MCS
          
