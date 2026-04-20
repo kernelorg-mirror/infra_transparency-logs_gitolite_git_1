@@ -1,22 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
-Date: Mon, 20 Apr 2026 03:22:05 -0000
-Message-Id: <177665532505.850963.12292730053310925854@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd-test
+Date: Mon, 20 Apr 2026 03:40:29 -0000
+Message-Id: <177665642950.868484.14687300084799103100@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/xiang/erofs-utils
-user: xiang
+repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd-test
+user: jarkko
 changes:
-  - ref: refs/heads/dev
-    old: 6e5bf04ce2cf63961299f191748051547aafd744
-    new: 8a579d4d692689eee0af40df91d91d4e632d4c0e
+  - ref: refs/heads/main
+    old: 6f77b2e14894767d6cb29ef002c87f1394a98cf0
+    new: bb7ebc4cd7a0c1f1aeb31ca6255430a77df8a887
     log: |
-         397db5ab0d867e9ff7ade7ac98c6cb7b442d4fc3 erofs-utils: mount: support mounting EROFS stored as an AWS S3 object
-         2693b2f9f0775018b3400cc89e2e9c237a789d4e erofs-utils: mount: add recovery support for S3 object mounts
-         88fc3faa57f711e3900db0692489552c4883212c erofs-utils: mkfs: add rebuild FULLDATA for combined EROFS images
-         8a579d4d692689eee0af40df91d91d4e632d4c0e erofs-utils: manpage: update to reflect fulldata support
+         bb7ebc4cd7a0c1f1aeb31ca6255430a77df8a887 linux-tools: tpm2 as exclusive kselftest target
          
