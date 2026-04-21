@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2471441942951030686=="
+Content-Type: multipart/mixed; boundary="===============1958182006662716968=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Tue, 21 Apr 2026 02:52:59 -0000
-Message-Id: <177673997991.2403506.2273138665579608682@gitolite.kernel.org>
+Date: Tue, 21 Apr 2026 02:53:24 -0000
+Message-Id: <177674000480.2404133.9086790722071113841@gitolite.kernel.org>
 
---===============2471441942951030686==
+--===============1958182006662716968==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,9 +16,9 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/tags/mkp-scsi-staging
-    old: 493829f7420eff3e7ffa4d86a9022016ad8bf75f
-    new: 0daa2db9a00d8937c30b01d81c6e81d6eea2d717
+  - ref: refs/heads/7.1/scsi-staging
+    old: 772a896a56e0e3ef9424a025cec9176f9d8f4552
+    new: 47e66bec3edaebd7c52d8ee981065a4c83b3072f
     log: |
          7b03c93d2beb91c6abae322a1f25447b5b3bb9e6 scsi: sg: Don't use GFP_ATOMIC in sg_start_req()
          04631f55afc543d5431a2bdee7f6cc0f2c0debe7 scsi: mpt3sas: Limit NVMe request size to 2 MiB
@@ -28,33 +28,33 @@ changes:
          47e66bec3edaebd7c52d8ee981065a4c83b3072f scsi: hisi_sas: Fix sparse warnings in prep_ata_v3_hw()
          
 
---===============2471441942951030686==
+--===============1958182006662716968==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1776739956 -0400
+pusher 75C5DE3D 1776739982 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1776739956-6846e26355d3ec06a326b9a069a4f7547bcb59b9
+nonce 1776739982-8a0de9268be11ed178a7362c7dd297b6efdf2cac
 
-493829f7420eff3e7ffa4d86a9022016ad8bf75f 0daa2db9a00d8937c30b01d81c6e81d6eea2d717 refs/tags/mkp-scsi-staging
+772a896a56e0e3ef9424a025cec9176f9d8f4552 47e66bec3edaebd7c52d8ee981065a4c83b3072f refs/heads/7.1/scsi-staging
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmnm5nQACgkQ7ulgGnXF
-3j2GLw/+P3rrdRBIWi+DkufteRxhiKQG3bflvYj+zb1hUcClSgaRw4S99Cn4im/q
-UvZWmt2B01CIkc57jk9AeNddtVjwbmFv2/Le8gsEEdeLEA4ah1ipeC6Pt75WwBND
-wxQnkABhTs7IPetCTrueaK902xSU+4HRLNaDZPrA7z6RK7xxcGtmWkSa2we4ysy2
-0GIQn5imxVEF0XyxsGs4RoZBQiIPLAy/2cowDQNqIsUPs68AnM8MmXRJ5AOcvdqC
-URftoeSABz4fhozTkCcrNCkYDPspiUXhyqsm26uj8W/6vraIqRS8RJh4Or6tImzI
-Jn5EWpQOxc0+F7n6RN7EFpl5F7CoCVCrcphQWDUUxf7s/GqKlXfqSJlsI9mKiYZ+
-CsNHWy+HlRw6EBxw5HNBdd6wkRkgtVdlpOIURIwrVkZqa2I9ZEd0kj0RNLYMEt9T
-kRZfclxg+luU/JsqHZRV8btjj8NiVg4Wvur2kOEN4qJgfaH2gS+/XtQ5SIGn1hO0
-jRGAIeD307Bi3bYfk03RpDDhRZF64MjxnEm7rBfQsbxLzJmzUZ3iqHHI6lq0j/Rk
-hFtIAna5pnN7DrDMMvzxahNsKpdjsWLnRgUocYOezhBJU0VA/pwT8twK9dFVs/uD
-/yjlVfQWDYVtY6D1i4vvF0VnLoc5DgiISDOZb+uVCiJRSODRwSM=
-=l1ZW
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmnm5o4ACgkQ7ulgGnXF
+3j2WZA/+OouCpgengRWCB9x3/cSRZUfTjtxKEWcz2uf3kys8gjR4eFKKpgxIxMS5
+3Z8VxzWVLCfhcORaczdkD7bASJetu642rHTAqZARiEoTcT+hY79PGyJ2YhXMGFkZ
+V1kHRoa/YwtxsicuD9Cai0vIjh/fX2nRo5CKzNcSuSRytiTnWEK8LlKFxTF9m+X/
+2Hq8d1ZaRpnzVTbbv/2w3JzOPz9GbmITlqYOTeyC85ZOmW0EzBm2EeiQpUtBAKaY
+/6yuXm02WtSweDBBc1uu9ye3v5cv0uldTNTJ7P7tALoiJtQQpT7d1tpIMK/x1YXx
++A4ZtyZX93LRZVNAGbuQmwQGQ/jgcUqdqYAnU7if26vdLdHnW9DjYkQ0b8B3SKOp
+09q5/epT9YW+PbxQp6LklBWTXS1Xf3g8NtiCAyD2MQqBT+xLh91RT0DUjXvWauGw
+8NzxpitdyYjLlVxSja2fah2GYMIFW0oF4iu0KD2SlOdi8i7RBI+54TJ49ORlVbQE
+/sJzOYVqT/0SOqUutMxSMemkcrCX0vzwdMlLTlu0rI82uyKOKxe+zBROYIjYgevO
+Tv1huDDf97hOdxU4TKNdZuGaVLj7a4kXBj74YoAoQye2bbOSwKqEsCa+sZhvPPqj
+XbF6IOtVLNpZryCDJu47KlNVedyIBAgtxeArEMru7NaB8Kd6a6M=
+=Plv7
 -----END PGP SIGNATURE-----
 
---===============2471441942951030686==--
+--===============1958182006662716968==--
