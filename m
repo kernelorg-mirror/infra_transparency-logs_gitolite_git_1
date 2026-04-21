@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5284227985461985552=="
+Content-Type: multipart/mixed; boundary="===============2755315681419574179=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Tue, 21 Apr 2026 08:36:57 -0000
-Message-Id: <177676061762.2735981.4829910248801957624@gitolite.kernel.org>
+Date: Tue, 21 Apr 2026 08:37:20 -0000
+Message-Id: <177676064014.2736587.8994821459349712675@gitolite.kernel.org>
 
---===============5284227985461985552==
+--===============2755315681419574179==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,15 +16,23 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: 21c8ca6dfb8d4a88ae3f711d3be9f91ca083b14c
-    new: b7667c3c83421604279d76c55894116622848ef0
-    log: revlist-21c8ca6dfb8d-b7667c3c8342.txt
+    old: b7667c3c83421604279d76c55894116622848ef0
+    new: 25f3bc8c7cd47e9f270a3050c91f58e6d3d1a677
+    log: |
+         229e5e58adeb5cb421792681e4860976dc1ae405 Merge branch into tip/master: 'locking/urgent'
+         184041ddb5997728c9d2b4951015cf06621f9b7b Merge branch into tip/master: 'x86/urgent'
+         25f3bc8c7cd47e9f270a3050c91f58e6d3d1a677 Merge branch into tip/master: 'timers/clocksource'
+         
+  - ref: refs/heads/tip/urgent
+    old: 3d02b74bdb753038546b96819c347bb965c4db17
+    new: 184041ddb5997728c9d2b4951015cf06621f9b7b
+    log: revlist-3d02b74bdb75-184041ddb599.txt
 
---===============5284227985461985552==
+--===============2755315681419574179==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-21c8ca6dfb8d-b7667c3c8342.txt
+Content-Disposition: attachment; filename=revlist-3d02b74bdb75-184041ddb599.txt
 
 f3f9825837dfdc90dd19251be1a8189038e0ff40 RDMA/rxe: Generate async error for r_key violations
 2ecd012774bc2342f28f47620100a7ad9046f586 IB/cache: avoid kernel-doc warnings
@@ -465,7 +473,9 @@ a5d1079c28a5bc6caa30ef4099ef04ed17d2c6aa Merge tag 'ntfs3_for_7.1' of https://gi
 d884efd3401e72d069b678e6353f27f0553615ab Merge tag 'leds-next-7.1' of git://git.kernel.org/pub/scm/linux/kernel/git/lee/leds
 b69e478512080f9bb03ed3e812b759bb73e2837b Merge tag 'backlight-next-7.1' of git://git.kernel.org/pub/scm/linux/kernel/git/lee/backlight
 da6b5aae84beb0917ecb0c9fbc71169d145397ff Merge tag 'platform-drivers-x86-v7.1-1' of git://git.kernel.org/pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
+9874b2917b9fbc30956fee209d3c4aa47201c64e x86/shstk: Prevent deadlock during shstk sigreturn
 65e9974ae2678c218804d30a1b5f7c60532705d2 Merge tag 'core-urgent-2026-04-20' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+3bfdc63936dd4773109b7b8c280c0f3b5ae7d349 rtmutex: Use waiter::task instead of current in remove_waiter()
 ccbc9fdb327d164f2a0f423e93499058e8add68c Merge tag 'timers-urgent-2026-04-20' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 b66cb4f156fe47f52065e70eb1b2f12ccd0c2884 Merge tag 'printk-for-7.1' of git://git.kernel.org/pub/scm/linux/kernel/git/printk/linux
 065c4e67cc2c40e6dd94649e8e720096fbabd4ee Merge tag 'uml-for-7.1-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/uml/linux
@@ -473,6 +483,7 @@ ce9e93383ad71da468dafb9944a539808bf91c06 Merge tag 'sh-for-v7.1-tag1' of git://g
 13f24586a292e35c9cc71e649dc4e4ea1895c5e5 Merge tag 'arm64-upstream' of git://git.kernel.org/pub/scm/linux/kernel/git/arm64/linux
 f154634e42f724a3444694273e396f0a62fef3f1 Merge tag 'linux_kselftest-next-7.1-next-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/shuah/linux-kselftest
 b4e07588e743c989499ca24d49e752c074924a9a tracing: tell git to ignore the generated 'undefsyms_base.c' file
-b7667c3c83421604279d76c55894116622848ef0 Merge branch 'linus'
+229e5e58adeb5cb421792681e4860976dc1ae405 Merge branch into tip/master: 'locking/urgent'
+184041ddb5997728c9d2b4951015cf06621f9b7b Merge branch into tip/master: 'x86/urgent'
 
---===============5284227985461985552==--
+--===============2755315681419574179==--
