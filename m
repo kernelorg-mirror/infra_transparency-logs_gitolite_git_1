@@ -1,13 +1,9 @@
-Content-Type: multipart/mixed; boundary="===============1713630093990537101=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Tue, 21 Apr 2026 00:37:19 -0000
-Message-Id: <177673183992.2259714.11202975619777791852@gitolite.kernel.org>
-
---===============1713630093990537101==
-Content-Type: text/plain; charset="us-ascii"
+Date: Tue, 21 Apr 2026 00:49:27 -0000
+Message-Id: <177673256768.2270433.3833055411749720776@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
@@ -15,31 +11,19 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/tags/v6.19.13-1
-    old: ccad91393a2dc80850952cc9118ec1bd54fe8331
-    new: b9d12ff91bdcedfd7153e665baa2adfde25eaf4a
-    log: revlist-ccad91393a2d-b9d12ff91bdc.txt
-
---===============1713630093990537101==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ccad91393a2d-b9d12ff91bdc.txt
-
-1baf118d7b843aaffe21907ed6ac34269ced4982 redhat/configs: remove all s390 config infra
-3a90c524332e2c93f005c74e8d118c17e8ca5f48 kernel.spec: remove all s390 files and enablement
-119a5eb46fb202cc3d7907bdd75f3e6cf6e73eae Merge branch 'kernel-6.19.13/nvme' into kernel-6.19.13/main
-133118fd318068d743472182b650b07bf9eeb775 Merge branch 'kernel-6.19.13/nfsd-7.0' into kernel-6.19.13/main
-b6052855faee1519c87d056dbb0a2fd1a0f9f4e5 Merge branch 'kernel-6.19.13/nfsd-7.0-2' into kernel-6.19.13/main
-5989a5f008814671418915fed308aa18b0b9cb01 Merge branch 'kernel-6.19.13/vfs-7.0-rc1.nonblocking_timestamps' into kernel-6.19.13/main
-a2504523b7395f260fd3cbf448a76c69bd82c040 Merge branch 'kernel-6.19.13/vfs-7.0-rc1.leases' into kernel-6.19.13/main
-5ee6fab5c31367068bd77850b8efa9a9e6d5826e Merge branch 'kernel-6.19.13/vfs-7.0-rc1.atomic_open' into kernel-6.19.13/main
-0cc903e00cd41a146c6e57e0800ab0c15376f4d0 Merge branch 'kernel-6.19.13/nfs-for-7.0-2' into kernel-6.19.13/main
-f860ec72fd6d7a25bd535b621be1746c9b5ea3bb Merge branch 'kernel-6.19.13/nfsd-7.1' into kernel-6.19.13/main
-7f8c87dc8ddac029ccc536cad6c815c0279ed598 Merge branch 'kernel-6.19.13/nfs-for-7.1' into kernel-6.19.13/main
-122ac592dd5d55e6f77873e0ab283fe97d17e5fe Merge branch 'kernel-6.19.13/nfs-testing-canary' into kernel-6.19.13/main
-59668891b83dd1f3bd6ada7229892343382b5a3e Merge branch 'kernel-6.19.13/nfsd-testing-canary' into kernel-6.19.13/main
-2024a6e5bc2326906187fbdf200cfc7b99fe7849 Merge branch 'kernel-6.19.13/nfs4_acl-passthru' into kernel-6.19.13/main
-b9d12ff91bdcedfd7153e665baa2adfde25eaf4a Merge branch 'kernel-6.19.13/changelog' into kernel-6.19.13/main
-
---===============1713630093990537101==--
+  - ref: refs/heads/kernel-6.19.13/configs
+    old: 3a90c524332e2c93f005c74e8d118c17e8ca5f48
+    new: e58119d427407daeff1adc8ba2446961e5776a6b
+    log: |
+         1917ddbb6072895780eb798fcd9400e09579846a redhat/kernel.spec: fix kernel_meta_package
+         da4ed4c8c04645e9cad4cd83fb327dfadf60e6a0 redhat/kernel.spec: for .el8 verify that gettid() is missing
+         bffac7cbf968cc4490415f777705564705826162 redhat/configs: enable CONFIG_MLX4 for x86_64 only
+         d97de42b0ec8ac425ebca4b5e06caf0d60806124 redhat/configs: turn off CONFIG_PSI_DEFAULT_DISABLED
+         e455d6df41d28d0d728a2a82c2d9398adaf4fe9f redhat/configs: enable CONFIG_LATENCYTOP
+         289005df6ed1d3acdcc860921808e3d3b45774d4 redhat/configs: switch THP default from always to madvise
+         6572b60fd6c8b8336fc48c0f9086c8f315f495f8 redhat/configs: disable CONFIG_NFS_FSCACHE
+         3eda817eca93dc287be50a87261f3653fa8658fb redhat/configs: disable CONFIG_NFS_V4_0
+         48ce012f6f75df530473989f6360a390e3f5d456 redhat/configs: disable CONFIG_NFSD_V4_POSIX_ACLS
+         e8bc890539759c1050889289ba1d162abcd8cd3a redhat/configs: remove all s390 config infra
+         e58119d427407daeff1adc8ba2446961e5776a6b kernel.spec: remove all s390 files and enablement
+         
