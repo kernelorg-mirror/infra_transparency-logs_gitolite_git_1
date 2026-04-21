@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6353405440715997312=="
+Content-Type: multipart/mixed; boundary="===============5769472083919586872=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Tue, 21 Apr 2026 03:54:12 -0000
-Message-Id: <177674365211.2463495.16433290783303517091@gitolite.kernel.org>
+Date: Tue, 21 Apr 2026 03:54:14 -0000
+Message-Id: <177674365475.2463611.8891176507617555827@gitolite.kernel.org>
 
---===============6353405440715997312==
+--===============5769472083919586872==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,18 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/mm-new
-    old: f4279f87cd6c82ebdaccdc56f38e7b80ca7fcc03
-    new: 90f88d13d60cb842cfb6290b6e80a1cd86f37915
-    log: revlist-f4279f87cd6c-90f88d13d60c.txt
+  - ref: refs/heads/mm-unstable
+    old: 4569c01e84d440f1f6c79df1e13e9c86a9fb80ca
+    new: f1541b40cd422d7e22273be9b7e9edfc9ea4f0d7
+    log: revlist-4569c01e84d4-f1541b40cd42.txt
 
---===============6353405440715997312==
+--===============5769472083919586872==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f4279f87cd6c-90f88d13d60c.txt
+Content-Disposition: attachment; filename=revlist-4569c01e84d4-f1541b40cd42.txt
 
+7c6c4ed80b874f721bc7c2c937e098c56e37d2f0 Merge tag 'vfs-7.0-rc8.fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
 48a428215782321b56956974f23593e40ce84b7a efi/capsule-loader: fix incorrect sizeof in phys array reallocation
 a345c1e3cd1b49ddf03331ee9c19ddebe149793e dt-bindings: hwmon: add support for MCP998X
 bc1a64d23641669b60d35dfaed77666a1983bad5 smb: client: add missing MODULE_DESCRIPTION() to smb1maperror_test
@@ -1049,6 +1050,5 @@ be78181f76bcbbf6e6a45c58e067c713dd5a97d5 mm: fix mmap errno value when MAP_DROPP
 a6885a2e8b18937ed448e117e8685e086c7ff383 selftests/mm: verify droppable mappings cannot be locked
 171095c206b1515871af9a721ea690d61a79698f mm/swap, PM: hibernate: fix swapoff race in uswsusp by pinning swap device
 f1541b40cd422d7e22273be9b7e9edfc9ea4f0d7 mm/swap: remove redundant swap device reference in alloc/free
-90f88d13d60cb842cfb6290b6e80a1cd86f37915 mm/vmstat: spread vmstat_update requeue across the stat interval
 
---===============6353405440715997312==--
+--===============5769472083919586872==--
