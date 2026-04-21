@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/viro/vfs
-Date: Tue, 21 Apr 2026 19:59:34 -0000
-Message-Id: <177680157410.3429925.17343965961148177855@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Tue, 21 Apr 2026 20:01:53 -0000
+Message-Id: <177680171391.3433785.5407814486866960724@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/viro/vfs
-user: viro
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/tags/pull-coda
-    old: 0000000000000000000000000000000000000000
-    new: c962ddf2240379cc9202d25a39df2dbc24e0cf79
+  - ref: refs/heads/asoc-7.1
+    old: cec9d64c09c505c818e9a8093a012234051c2d14
+    new: 3832ae2a547e8616c8e977a05cb19db605ce5357
+    log: |
+         3832ae2a547e8616c8e977a05cb19db605ce5357 ASoC: amd: acp: Add DMI quirk for Valve Steam Deck OLED
+         
