@@ -1,54 +1,25 @@
-Content-Type: multipart/mixed; boundary="===============2507149651022227935=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Tue, 21 Apr 2026 00:49:43 -0000
-Message-Id: <177673258307.2271168.1571317607083707875@gitolite.kernel.org>
-
---===============2507149651022227935==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Tue, 21 Apr 2026 00:53:00 -0000
+Message-Id: <177673278054.2275618.5542933472583391499@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/snitzer/linux
-user: snitzer
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: ast
 changes:
-  - ref: refs/tags/v6.19.13-1
-    old: b9d12ff91bdcedfd7153e665baa2adfde25eaf4a
-    new: a325aa1d4f041dd5964b7b6cb1ec941b6c5640ad
-    log: revlist-b9d12ff91bdc-a325aa1d4f04.txt
-
---===============2507149651022227935==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b9d12ff91bdc-a325aa1d4f04.txt
-
-1917ddbb6072895780eb798fcd9400e09579846a redhat/kernel.spec: fix kernel_meta_package
-da4ed4c8c04645e9cad4cd83fb327dfadf60e6a0 redhat/kernel.spec: for .el8 verify that gettid() is missing
-bffac7cbf968cc4490415f777705564705826162 redhat/configs: enable CONFIG_MLX4 for x86_64 only
-d97de42b0ec8ac425ebca4b5e06caf0d60806124 redhat/configs: turn off CONFIG_PSI_DEFAULT_DISABLED
-e455d6df41d28d0d728a2a82c2d9398adaf4fe9f redhat/configs: enable CONFIG_LATENCYTOP
-289005df6ed1d3acdcc860921808e3d3b45774d4 redhat/configs: switch THP default from always to madvise
-6572b60fd6c8b8336fc48c0f9086c8f315f495f8 redhat/configs: disable CONFIG_NFS_FSCACHE
-3eda817eca93dc287be50a87261f3653fa8658fb redhat/configs: disable CONFIG_NFS_V4_0
-48ce012f6f75df530473989f6360a390e3f5d456 redhat/configs: disable CONFIG_NFSD_V4_POSIX_ACLS
-e8bc890539759c1050889289ba1d162abcd8cd3a redhat/configs: remove all s390 config infra
-e58119d427407daeff1adc8ba2446961e5776a6b kernel.spec: remove all s390 files and enablement
-164c3eca1fbf6e57bc419600c16eb520ef25df20 Merge branch 'kernel-6.19.13/nvme' into kernel-6.19.13/main
-65b850c61dba8d6b2dcaf7ddeb3c8793a9b0af88 Merge branch 'kernel-6.19.13/nfsd-7.0' into kernel-6.19.13/main
-4ec34559006978a8b029a1dcb213c34df64d4d27 Merge branch 'kernel-6.19.13/nfsd-7.0-2' into kernel-6.19.13/main
-591772b8f51c2915ad96a977a91e0a7f7d62b2ef Merge branch 'kernel-6.19.13/vfs-7.0-rc1.nonblocking_timestamps' into kernel-6.19.13/main
-61d7faba917fe846fb9c1cadc9d744a16085bfa7 Merge branch 'kernel-6.19.13/vfs-7.0-rc1.leases' into kernel-6.19.13/main
-76cf8571d564bb53361580da4339482c667eb151 Merge branch 'kernel-6.19.13/vfs-7.0-rc1.atomic_open' into kernel-6.19.13/main
-32ad03e65c84bd9032a41702b8d638757946849a Merge branch 'kernel-6.19.13/nfs-for-7.0-2' into kernel-6.19.13/main
-c4bd56a6671d6b36a71388ca816d89d6a9fb104b Merge branch 'kernel-6.19.13/nfsd-7.1' into kernel-6.19.13/main
-bbea760881ed4f7bd35f609e4b1d9b6f0689f20a Merge branch 'kernel-6.19.13/nfs-for-7.1' into kernel-6.19.13/main
-d2bb0dab6359cbdba32c44e7bd7fd562c93ec45d Merge branch 'kernel-6.19.13/nfs-testing-canary' into kernel-6.19.13/main
-0dbcc5fb4df696b15432beeae1bc897332b52fa2 Merge branch 'kernel-6.19.13/nfsd-testing-canary' into kernel-6.19.13/main
-790dde871cae23cd75bc35d812ea385784eaf5c1 Merge branch 'kernel-6.19.13/nfs4_acl-passthru' into kernel-6.19.13/main
-a325aa1d4f041dd5964b7b6cb1ec941b6c5640ad Merge branch 'kernel-6.19.13/changelog' into kernel-6.19.13/main
-
---===============2507149651022227935==--
+  - ref: refs/heads/master
+    old: 0aa6378695b8c67146130812f635f07c4898f171
+    new: 552ad802cad94bd759f85c170d07cc53f7d5deb9
+    log: |
+         f7a6b9eaff3e6693ba3b19c5812e28538049bbf2 bpf: Extend BTF UAPI vlen, kinds to use unused bits
+         cacd6729c09236245d921464eb28e69a6d573412 libbpf: Adjust btf_vlen() to return a __u32
+         22b402457ee40f64ea220f4b60776a612f084636 bpftool: Support 24-bit vlen
+         855af3e775670fa0a2493f3e61f4da38f956ef47 selftests/bpf: Fix up btf/invalid test for extended kind
+         ad256554f1065feb17c094f7aab16d75ad41f60c selftests/bpf: Fix up __u16 vlen assumptions
+         65350a0ecd41db80b117f86d65c4d275e2e3a3a5 Documentation/bpf: Update btf doc with updated vlen, kind sizes
+         552ad802cad94bd759f85c170d07cc53f7d5deb9 Merge branch 'bpf-extend-btf-uapi-vlen-kinds-to-use-unused-bits'
+         
