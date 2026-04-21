@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
-Date: Tue, 21 Apr 2026 19:13:35 -0000
-Message-Id: <177679881506.3383753.4846787053691692445@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/liburing
+Date: Tue, 21 Apr 2026 19:38:31 -0000
+Message-Id: <177680031186.3408040.9055326481617130277@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ath/ath
-user: jjohnson
+repo: pub/scm/linux/kernel/git/axboe/liburing
+user: axboe
 changes:
-  - ref: refs/heads/pending
-    old: 590182b72213ef04977ab0b16b8dadfcfd25ff73
-    new: 012c7d7212725e3fe67d60e303037e7285936ae4
-    log: |
-         012c7d7212725e3fe67d60e303037e7285936ae4 wifi: ath9k: Obtain system GPIOS from descriptors
-         
+  - ref: refs/heads/poll-mshot-wake
+    old: 0000000000000000000000000000000000000000
+    new: 75af1551e4427630cb9ff788e3dca3251adb9ffc
