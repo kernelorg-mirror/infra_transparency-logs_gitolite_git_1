@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8900716407247151689=="
+Content-Type: multipart/mixed; boundary="===============6741388239748292635=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/vbabka/linux
-Date: Tue, 21 Apr 2026 14:43:03 -0000
-Message-Id: <177678258312.3105736.569568923705578027@gitolite.kernel.org>
+Date: Tue, 21 Apr 2026 14:49:18 -0000
+Message-Id: <177678295897.3111333.245723193543615978@gitolite.kernel.org>
 
---===============8900716407247151689==
+--===============6741388239748292635==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -17,32 +17,36 @@ user: vbabka
 git_push_cert_status: E
 changes:
   - ref: refs/heads/b4/refill-optimistic-return
-    old: 0000000000000000000000000000000000000000
-    new: 38f616c9ae50bc1903a4974c72fd3ecaad806f85
+    old: 38f616c9ae50bc1903a4974c72fd3ecaad806f85
+    new: c920e76379ee464ff514e7881bbb520784db5458
+    log: |
+         46020d6a1684103dfdbf9e445f0f6513df880dd8 EDITME: cover title for b4/refill-optimistic-return
+         c920e76379ee464ff514e7881bbb520784db5458 mm, slab: add an optimistic __slab_try_return_freelist()
+         
 
---===============8900716407247151689==
+--===============6741388239748292635==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher A940D434992C2E8E99103D50224FA7E7CC82A664 1776782556 +0200
+pusher A940D434992C2E8E99103D50224FA7E7CC82A664 1776782955 +0200
 pushee gitolite.kernel.org:pub/scm/linux/kernel/git/vbabka/linux.git
-nonce 1776782555-0fdcb5796792c91a7c18e3baddd24ef07e3816fd
+nonce 1776782954-990234122c081641d96faa0847e21b5bfa0d9b6c
 
-0000000000000000000000000000000000000000 38f616c9ae50bc1903a4974c72fd3ecaad806f85 refs/heads/b4/refill-optimistic-return
+38f616c9ae50bc1903a4974c72fd3ecaad806f85 c920e76379ee464ff514e7881bbb520784db5458 refs/heads/b4/refill-optimistic-return
 -----BEGIN PGP SIGNATURE-----
 
-iQFPBAABCAA5FiEEe7vIQRWZI0iWSE3xu+CwddJFiJoFAmnnjNwbFIAAAAAABAAO
-bWFudTIsMi41KzEuMTIsMiwyAAoJELvgsHXSRYia5fMH/Ar3bIyuyyz1g4yV36V1
-mRFuqvfNcfkKgAihv8yp1ppTxaF78BF0Xe9+stabMGYPosxnqQfhHZ8/YOQuTlPY
-2lEiYaxjVGC78bfM8L1SqNcGgFAd22YLgQFcPpOdQSFSFL6PYe90zuZkG0eVZmie
-OgEibxeHrPj7OHdgEnLUnzp/287uFNmbZych1qf9TI6v+mqrFLg8w7betrB/mpme
-/5y2Vej3Ux4FNN2B4ah70jKCaW+QYJatJ+4LCuLc9Yv22IQtO/5tNackP13ZRMqs
-3TxZ54KxLiKxQp8sei81+Nz8pNXHhC+jcuxqdmdrgoXst2/PAvjw6S6DxTkvzPOs
-5/w=
-=vu/0
+iQFPBAABCAA5FiEEe7vIQRWZI0iWSE3xu+CwddJFiJoFAmnnjmsbFIAAAAAABAAO
+bWFudTIsMi41KzEuMTIsMiwyAAoJELvgsHXSRYiaObUH/0eBBSplUjL5yc1zeiUo
+17gw28vsh/FbyfTG7Xs6yhEQ0fAqSgUB6JidyajGJ8xqweQCUQFEaYZbhCoUZz9u
+kM4ObvEyZVoypdKQ3oMTZ8N2MHI8nHd9nrq8zGPp6QWDTEqLmL1mdrQrCMJIPlEj
+7J6yEt9AQK7BbfMjajaN+nAWnO3PnQixMFTXMVShCKnl0s3nZEmvj3dcnrQD7ycA
+YZuTmZt60iwasZHiJ9Qd4nyl7S9/FR0K4rN1SrTfBOT8bM9dAEDx6KCRW4BfymWU
+g6F+AILUQGGlnXl4/1r2LrsukkwLKsHbatDn3QhGmGVCrXJ3cJpgcENkdnz+yroh
+/Lg=
+=HdBE
 -----END PGP SIGNATURE-----
 
---===============8900716407247151689==--
+--===============6741388239748292635==--
