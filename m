@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3149845888563250160=="
+Content-Type: multipart/mixed; boundary="===============5387035706867379744=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Tue, 21 Apr 2026 01:02:38 -0000
-Message-Id: <177673335865.2291163.13316652386031013071@gitolite.kernel.org>
+Date: Tue, 21 Apr 2026 01:02:42 -0000
+Message-Id: <177673336225.2291327.8277563847518820249@gitolite.kernel.org>
 
---===============3149845888563250160==
+--===============5387035706867379744==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,32 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
-    old: b688481f5abadb88df562bfda30bf94114859740
-    new: bfc437ce7d7fd31eab8e60517ecd4062fbcc52ae
-    log: revlist-b688481f5aba-bfc437ce7d7f.txt
+  - ref: refs/heads/10GbE
+    old: 35c2c39832e569449b9192fa1afbbc4c66227af7
+    new: 1f5ffc672165ff851063a5fd044b727ab2517ae3
+    log: revlist-35c2c39832e5-1f5ffc672165.txt
 
---===============3149845888563250160==
+--===============5387035706867379744==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b688481f5aba-bfc437ce7d7f.txt
+Content-Disposition: attachment; filename=revlist-35c2c39832e5-1f5ffc672165.txt
 
+a0877a3590013e65acaf4929485b524b76b4e60d selftests: harness: Detect illegal mixing of kselftest and harness functionality
+132618c5b69364b888b9cefc6c2ef6ee3f965ae6 selftests: harness: Validate intermixing of kselftest and harness functionality
+23308af722fefed00af5f238024c11710938fba3 blk-cgroup: fix disk reference leak in blkcg_maybe_throttle_current()
+f91ffe89b2016d280995a9c28d73288b02d83615 blk-iocost: fix busy_level reset when no IOs complete
+2964f6b816c25ee094df4a143eb5b8828910045f selftests: Use ktap helpers for runner.sh
+64fac99037689020ad97e472ae898e96ea3616dc selftests/mqueue: Fix incorrectly named file
+00247cbf173a9e1e2304db8e3f9172d36366b255 refcount: Remove unused __signed_wrap function annotations
+4ef6255cc56343bc90d82420b49dab1b11dee414 pstore: fix ftrace dump, when ECC is enabled
+80632e333b0bd3cf188cff4e7ff52114506f5612 pstore/ramoops: Remove useless memblock header
+b22462c79179f228327b98313b47369129114d6a pstore/ramoops: Fix ECC parameter help text
+2ddb69f686ef7a621645e97fc7329c50edf5d0e5 pstore/ram: fix resource leak when ioremap() fails
+421a41c485dde449cbf90ba610b805bd99e3ae78 pstore/ftrace: Keep ftrace module parameter and debugfs switch in sync
+9d2dbd3d59d8fb9cfd98bf857975fcd151fb3946 selftests/cpu-hotplug: Fix check for cpu hotplug not supported
+dbb6153c1395a0f310411f440330efe4ee3f4d82 selftests/run_kselftest.sh: Remove unused $ROOT
+f9a80c7ce49e2a77b769264712fe2f59479b5f5a bpf: Clarify BPF_RB_NO_WAKEUP behavior for bpf_ringbuf_discard()
 3e6475dc60853456e1aca2b85bd6603eadb3f6a1 selftests/bpf: Test access to ringbuf position with map pointer
 0eeb0094ba0321f0927806857b5f01c1577bc245 selftests/bpf: Suppress veristat error messages in non-verbose mode
 10a4eb5882ba16164ece86d99486084f02f148bb module: define ksym_flags enumeration to represent kernel symbol flags
@@ -1035,20 +1050,5 @@ f5ad4101009e7f5f5984ffea6923d4fcd470932a Merge tag 'bpf-next-7.1' of git://git.k
 7c8a4671dc3247a26a702e5f5996e9f453d7070d Merge tag 'vfs-7.1-rc1.mount.v2' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
 5c0f43e8535d619ff32400e2e916075109fc7a56 Merge tag 'kernel-7.1-rc1.misc' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
 1f5ffc672165ff851063a5fd044b727ab2517ae3 Fix mismerge of the arm64 / timer-core interrupt handling changes
-08bd7845101051dce2b66cb0a82c9466e179eb5d igc: Call netif_queue_set_napi() with rtnl locked
-964e48f124e062b256050a702a93c05b2d0d4d8e igc: Let the PCI core deal with the PM resume flow
-ba61cd5907739d2df5d643a8f9661b6de27536c8 igc: Don't reset the hardware on suspend path
-47c907aae0658dc136acd0b883cef21244cf2e7b igc: prepare for RSS key get/set support
-4e6ae736954dc018460011748bd331b5c22f0b74 igc: expose RSS key via ethtool get_rxfh
-1aa7db3f4f7ecc034e5588282953e24f1e88d4a5 igc: allow configuring RSS key via ethtool set_rxfh
-1b8b1539758cbb261edbedb25cbfb32faf2a127e igb: prepare for RSS key get/set support
-80665ea6bb194e72adc1e9c6dc3ace637c765f3c igb: expose RSS key via ethtool get_rxfh
-632dda188c41c32ff459f48ed78830eb6459911d igb: allow configuring RSS key via ethtool set_rxfh
-74492cace4568b1e6dc61c70321a8cbc1a8d1aae igb: set skb hash type from RSS_TYPE
-5a3565055f9b5f851c6f9a3957b144b144737d1b igb: fix typos in comments
-8a9532fb0170e6b4e4e0876e641a2df8935e3554 igc: fix typos in comments
-d224e5b4a9c9c371590f98f9dfebd885528229c8 ice: add support for unmanaged DPLL on E830 NIC
-6e9c7ff0fe4e1d7014dfa66c99d2978b8c262782 ice: mention fw_activate action along with devlink reload
-bfc437ce7d7fd31eab8e60517ecd4062fbcc52ae ice: dpll: Fix compilation warning
 
---===============3149845888563250160==--
+--===============5387035706867379744==--
