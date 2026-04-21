@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5769472083919586872=="
+Content-Type: multipart/mixed; boundary="===============2674587000682393227=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Tue, 21 Apr 2026 03:54:14 -0000
-Message-Id: <177674365475.2463611.8891176507617555827@gitolite.kernel.org>
+Date: Tue, 21 Apr 2026 03:54:17 -0000
+Message-Id: <177674365725.2463707.15547675048614390433@gitolite.kernel.org>
 
---===============5769472083919586872==
+--===============2674587000682393227==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,21 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/mm-unstable
-    old: 4569c01e84d440f1f6c79df1e13e9c86a9fb80ca
-    new: f1541b40cd422d7e22273be9b7e9edfc9ea4f0d7
-    log: revlist-4569c01e84d4-f1541b40cd42.txt
+  - ref: refs/heads/mm-stable
+    old: 0b5e8d7999076ac3c490fc18376a404e2626abff
+    new: a5d1079c28a5bc6caa30ef4099ef04ed17d2c6aa
+    log: revlist-0b5e8d799907-a5d1079c28a5.txt
 
---===============5769472083919586872==
+--===============2674587000682393227==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4569c01e84d4-f1541b40cd42.txt
+Content-Disposition: attachment; filename=revlist-0b5e8d799907-a5d1079c28a5.txt
 
+3624a22783b74ffebaa7d9f286e203604baa06c7 cxl/hdm: Add support for 32 switch decoders
+017102b40c34b5a67de46230bdfb06096dd11716 Merge tag 'gpio-fixes-for-v7.0' of git://git.kernel.org/pub/scm/linux/kernel/git/brgl/linux
+3023c050af3600bf451153335dea5e073c9a3088 hwmon: (powerz) Avoid cacheline sharing for DMA buffer
+96463e4e0268dddbdb60fd1b96800736aa2bade9 Merge tag 'turbostat-fixes-for-7.0' of git://git.kernel.org/pub/scm/linux/kernel/git/lenb/linux
 7c6c4ed80b874f721bc7c2c937e098c56e37d2f0 Merge tag 'vfs-7.0-rc8.fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
 48a428215782321b56956974f23593e40ce84b7a efi/capsule-loader: fix incorrect sizeof in phys array reallocation
 a345c1e3cd1b49ddf03331ee9c19ddebe149793e dt-bindings: hwmon: add support for MCP998X
@@ -1030,6 +1034,13 @@ fba676bd2919ceff5a678c0bd05ab3ac89affaeb Merge tag 'i2c-for-7.1-rc1-part1' of gi
 eb5249b12507246dc959945454cd1be8d7dc3795 Merge tag 'parisc-for-7.1-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/deller/parisc-linux
 401b0e0bc96543881924d623388a9472b3331b3f Merge tag 'i3c/for-7.1' of git://git.kernel.org/pub/scm/linux/kernel/git/i3c/linux
 faeab166167f5787719eb8683661fd41a3bb1514 Merge tag 'pinctrl-v7.1-1' of git://git.kernel.org/pub/scm/linux/kernel/git/linusw/linux-pinctrl
+8fedac321fb0fb368d4c14674e2a64852b4f225e mm/mempolicy: fix weighted interleave auto sysfs name
+8bbde987c2b84f80da0853f739f0a920386f8b99 mm/damon/core: disallow time-quota setting zero esz
+39928984956037cabd304321cb8f342e47421db5 mm/zone_device: do not touch device folio after calling ->folio_free()
+8f5857be99f1ed1fa80991c72449541f634626ee mm: blk-cgroup: fix use-after-free in cgwb_release_workfn()
+615d9bb2ccad42f9e21d837431e401db2e471195 mm: call ->free_folio() directly in folio_unmap_invalidate()
+ec05f51f1e65bce95528543eb73fda56fd201d94 mm/vmalloc: take vmap_purge_lock in shrinker
+95093e5cb4c5b50a5b1a4b79f2942b62744bd66a mm/damon/core: disallow non-power of two min_region_sz on damon_start()
 40735a683bf844a453d7a0f91e5e3daa0abc659b Merge tag 'mm-stable-2026-04-18-02-14' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
 73398c2772d04ee656a654c63db85851381cd147 Merge tag 'tty-7.1-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/tty
 99ef60d119f3b2621067dd5fc1ea4a37360709e4 Merge tag 'usb-7.1-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/gregkh/usb
@@ -1039,16 +1050,5 @@ c1f49dea2b8f335813d3b348fd39117fb8efb428 Merge tag 'mm-hotfixes-stable-2026-04-1
 36d179fd6bea35698d53444b7bd3025fa3788266 Merge tag 'nfsd-7.1' of git://git.kernel.org/pub/scm/linux/kernel/git/cel/linux
 a5e1c3b6093b13c3ae1c5517c694cad7e55e9ed1 Merge tag 'ecryptfs-7.1-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tyhicks/ecryptfs
 a5d1079c28a5bc6caa30ef4099ef04ed17d2c6aa Merge tag 'ntfs3_for_7.1' of https://github.com/Paragon-Software-Group/linux-ntfs3
-044864b5a9f61e5313efc19cdcd2c4f2aaf89189 vmalloc: fix buffer overflow in vrealloc_node_align()
-e5a3c84c90d62fde61a3f9db18b1929724426981 mailmap: update entry for Dan Carpenter
-92de54eeee0a6d52947eba70867dc74cef8cc15b liveupdate: fix return value on session allocation failure
-afcd61b8c144f34b31c17ffad87dd4dfc6072f11 kho: fix error handling in kho_add_subtree()
-ae6d5d1c45993f94cb06a48ee160dfb44977cf42 mm: start background writeback based on per-wb threshold for strictlimit BDIs
-6bbefa7769cd58fe54ec09bca519357a4d0d102b device-dax: fix refcount leak in __devm_create_dev_dax() error path
-61f1d4b9826339cd0441872426149527b7cb78fa mm/hugetlb: restore reservation on error in hugetlb_mfill_atomic_pte() resubmission path
-be78181f76bcbbf6e6a45c58e067c713dd5a97d5 mm: fix mmap errno value when MAP_DROPPABLE is not supported
-a6885a2e8b18937ed448e117e8685e086c7ff383 selftests/mm: verify droppable mappings cannot be locked
-171095c206b1515871af9a721ea690d61a79698f mm/swap, PM: hibernate: fix swapoff race in uswsusp by pinning swap device
-f1541b40cd422d7e22273be9b7e9edfc9ea4f0d7 mm/swap: remove redundant swap device reference in alloc/free
 
---===============5769472083919586872==--
+--===============2674587000682393227==--
