@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1766196157064486212=="
+Content-Type: multipart/mixed; boundary="===============4497383663437797096=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Tue, 21 Apr 2026 01:02:16 -0000
-Message-Id: <177673333668.2290619.17996604312248857093@gitolite.kernel.org>
+Date: Tue, 21 Apr 2026 01:02:19 -0000
+Message-Id: <177673333913.2290709.10263758496721318006@gitolite.kernel.org>
 
---===============1766196157064486212==
+--===============4497383663437797096==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/40GbE
+  - ref: refs/heads/100GbE
     old: 52bcb57a4e8a0865a76c587c2451906342ae1b2d
     new: a663bac71a2f0b3ac6c373168ca57b2a6e6381aa
     log: revlist-52bcb57a4e8a-a663bac71a2f.txt
 
---===============1766196157064486212==
+--===============4497383663437797096==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -88,4 +88,4 @@ f6315295899415f1ddcf39f7c9cb46d25e2c6c6a hv_sock: Report EOF instead of -EIO for
 5638504a2aa9e1b9d72af9060df1a160cce2d379 gtp: disable BH before calling udp_tunnel_xmit_skb()
 a663bac71a2f0b3ac6c373168ca57b2a6e6381aa net: mctp: fix don't require received header reserved bits to be zero
 
---===============1766196157064486212==--
+--===============4497383663437797096==--
