@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3488620612414799664=="
+Content-Type: multipart/mixed; boundary="===============4284751298604741797=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
-Date: Wed, 22 Apr 2026 17:40:26 -0000
-Message-Id: <177687962699.827963.4074163895823046093@gitolite.kernel.org>
+Date: Wed, 22 Apr 2026 17:40:30 -0000
+Message-Id: <177687963020.828076.864190938388089678@gitolite.kernel.org>
 
---===============3488620612414799664==
+--===============4284751298604741797==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/snitzer/linux
 user: snitzer
 changes:
-  - ref: refs/heads/kernel-6.12.76/nfs-testing
-    old: e1f2d0a5320811f0a3825fd8beecc3fe1bd3cc7d
-    new: efb14cf6d1d385e5758d2b98cf9610e8ecd8d6f2
-    log: revlist-e1f2d0a53208-efb14cf6d1d3.txt
+  - ref: refs/heads/kernel-6.12.76/nfs-testing-canary
+    old: 164131a578040f52f5716ef9668eabdfdc175f50
+    new: e33456fedd743293188beeca4b1f8b711c8edc95
+    log: revlist-164131a57804-e33456fedd74.txt
 
---===============3488620612414799664==
+--===============4284751298604741797==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e1f2d0a53208-efb14cf6d1d3.txt
+Content-Disposition: attachment; filename=revlist-164131a57804-e33456fedd74.txt
 
 7c27ec426b20f70570074d4a4a933cbd4d68ac11 NFSv4/pnfs: If the server is down, retry the layout returns on reboot
 0fb2b9d99e6d00b2ca2446c9a4dac860dfe7c373 NFS: improve "Server wrote zero bytes" error
@@ -45,5 +45,6 @@ fccbb8bafa0e679dcec9ec75a98e1669d30966c4 NFS: fix writeback in presence of error
 bb025a3344cae5965c9ba4cca5e6f11247dd22e2 NFSv4.2: fix CLONE/COPY attrs in presence of delegated attributes
 bc8fce147bf9b8739208c02db82d5687ea6c5c28 NFS: remove redundant __private attribute from nfs_page_class
 efb14cf6d1d385e5758d2b98cf9610e8ecd8d6f2 NFS: Fix RCU dereference of cl_xprt in nfs_compare_super_address
+e33456fedd743293188beeca4b1f8b711c8edc95 sunrpc: refactor TLS transport to remove rpc_clnt dependency
 
---===============3488620612414799664==--
+--===============4284751298604741797==--
