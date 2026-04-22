@@ -1,68 +1,46 @@
-Content-Type: multipart/mixed; boundary="===============0089847375186390726=="
+Content-Type: multipart/mixed; boundary="===============0474627762882323262=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Wed, 22 Apr 2026 19:57:23 -0000
-Message-Id: <177688784344.961957.17539448587944194100@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/zab/rpdfs-progs
+Date: Wed, 22 Apr 2026 19:57:33 -0000
+Message-Id: <177688785317.962294.10800374812262799775@gitolite.kernel.org>
 
---===============0089847375186390726==
+--===============0474627762882323262==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
-user: broonie
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/zab/rpdfs-progs
+user: zab
 changes:
-  - ref: refs/heads/spi-7.1
-    old: 922f8c28811f266fe5fc52a6d2852871e40ce098
-    new: 16ab65df5d867961a79cef366cdb33f09ebda603
-    log: revlist-922f8c28811f-16ab65df5d86.txt
+  - ref: refs/heads/main
+    old: 711cca32777e2f6c771516f4bde3a2619513d1f0
+    new: 49f834fc8db6855210a1b9372dc6824b5bc255f4
+    log: revlist-711cca32777e-49f834fc8db6.txt
 
---===============0089847375186390726==
+--===============0474627762882323262==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-711cca32777e-49f834fc8db6.txt
 
-certificate version 0.1
-pusher C3F436CA30F5D8EB 1776887841 +0100
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1776887841-8e00bb1154346e847e8974a7a5b64c101f0b3a09
+f6ddaff3ec900bcbd65d622d5f80b836c680f455 rpdfs-progs: use max uring entries
+b99ec81c6fc60cb1da7d7e05ae93485dc416e750 rpdfs-progs: refactor write zeros to add discard
+f455e3d2beea5df9fc2c45a3e1d0a9e67bd4fec2 rpdfs-progs: manually write zeroes when formatting
+8c93fd985506c5019c24afb8468c8eed10389b33 rpdfs-progs: add details.h helper
+38003f8d9f21e29a1188b0ef185a84b442b3dd95 rpdfs-progs: use details.h in devd bstore
+2e546e591fe629b869085169113678bf99a272ec rpdfs-progs: selectively dirty details and summary
+958a973aa22f53399cf28cf2c3f2dfba771d1f14 rpdfs-progs: have devd bstore track total inodes
+c78c6e06daf087d75469cfb9558404d1aadd6f0c rpdfs-progs: devd tracks total allocated blocks
+894a6c38857dd0fe39383174b0f41e637d2038dd rpdfs-progs: add BLOCK_COUNTS request processing
+3f0ccc3610701e0e35c2dc3489f8881421721d7f rpdfs-progs: add place.h from the kernel code
+a414652f95768d63785b669a810f94e082e76f4e fixup! rpdfs-progs: manually write zeroes when formatting
+0bdb1666db892cb6b5a82199dfd05839b3368ed3 rpdfs-progs: allow 0 ctl_size in message
+793a63e6545ab1a4704b07d31a879c70dbaac7ef rpdfs-progs: add bstore replay tracing
+c0193aa897138a7f4f30c759d6257fe85450b628 rpdfs-progs: add new client modes to end of lru
+a5dc4c1691d6aeb81bfb7751bd053d3c7369ad41 fixup! rpdfs-progs: devd tracks total allocated blocks
+49f834fc8db6855210a1b9372dc6824b5bc255f4 rpdfs-progs: free stripe details missed cblk put
 
-922f8c28811f266fe5fc52a6d2852871e40ce098 16ab65df5d867961a79cef366cdb33f09ebda603 refs/heads/spi-7.1
------BEGIN PGP SIGNATURE-----
-
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmnpKCEACgkQJNaLcl1U
-h9CcwQf/WmzH7hGJ9NSmq4o52Tf+TWG0hVQSt8l35RKQLd0vB0Tcr6qcwds1/59B
-OAwFIVmdHTB0RCipmX3pZd8fKsGyAx1XaH7/bkrn07cVPr4m4d/KSmJf9CK5bJcH
-8NscVGc6tQ9zYizREpndCtpKXR24hy5VzDmXT+NQ5bAdSRER7wc+j3otUOGK341n
-q5XK/fM1jlQ/koY2NObpNl1pRtmFJlEOqUn2l62UHSJmxQhJDqPlCmfdu/Ga1i7F
-nvbviDbXNIUOxtaFoJA5adILgqUFY+Iq2HhEo6xATRIFU3Qs57Q8oyMotKPMR6/k
-ieSq34yGlcZ1CemRH1r4Qm7p+27BLg==
-=p/pu
------END PGP SIGNATURE-----
-
---===============0089847375186390726==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-922f8c28811f-16ab65df5d86.txt
-
-f62c060272b9d7423b1650b844e8e4e7b8f9f925 spi: mpc52xx: fix use-after-free on registration failure
-a1d50a37d3b1df84f536a982f692371039df4a48 spi: imx: fix runtime pm leak on probe deferral
-97b17dd8266d2e26d9ee3c75a0fa34ecde6944f0 spi: orion: fix runtime pm leak on unbind
-443cde0dc59c5d154156ac9f27a7dadef8ebc0c2 spi: orion: fix clock imbalance on registration failure
-fa5061daffe841c2577c987c4f3515c45e53b775 spi: orion: clean up probe return value
-8370f1bd64d12a01a6c19e91d1dbe9bfbdb614f0 spi: orion: runtime PM fixes
-cde1a784e4d55068d8dd7ee9bf4794898a2ac410 spi: axiado: fix runtime pm imbalance on probe failure
-821f0951b20880bd5976f73e202c2fa637c812f6 spi: axiado: rename probe error labels
-2b20e674244248cdd3e33eee34eebd7408ff134f spi: axiado: clean up probe return value
-ad50f7bc5afefa3c2e013ae98511ead815b8f392 spi: axiado: spi: axiado: fix runtime pm imbalance on probe failure
-db357034f7e0cf23f233f414a8508312dfe8fbbe spi: fix resource leaks on device setup failure
-a6e23843e949081b417b6078f02074074a190499 spi: fix controller cleanup() documentation
-16ab65df5d867961a79cef366cdb33f09ebda603 spi: fix resource leaks on device setup failure
-
---===============0089847375186390726==--
+--===============0474627762882323262==--
