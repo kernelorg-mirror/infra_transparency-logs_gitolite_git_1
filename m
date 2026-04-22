@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Wed, 22 Apr 2026 15:00:49 -0000
-Message-Id: <177687004935.660483.5526934720759747888@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/deller/linux-fbdev
+Date: Wed, 22 Apr 2026 15:03:09 -0000
+Message-Id: <177687018959.662354.1180066499300589959@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/deller/linux-fbdev
+user: deller
 changes:
-  - ref: refs/heads/asoc-7.1
-    old: 5b0873e8faf54d65e67536a813fa13ab03ae7fc6
-    new: 87a3f5c8ac2096e9406ce2ed3bf5b9bc1589a92d
+  - ref: refs/heads/for-next
+    old: a40c0e815962b1f691d7ea12f7ddd42063c49f08
+    new: 448aaf54d3ae1b73dfcf723c9f8a02c2116f3358
     log: |
-         0a5ee0e520eff98ee2b4568194562870877b050f ASoC: qcom: x1e80100: limit speaker volumes
-         87a3f5c8ac2096e9406ce2ed3bf5b9bc1589a92d ASoC: sdw_utils: cs42l43: allow spk component names to be combined
+         448aaf54d3ae1b73dfcf723c9f8a02c2116f3358 fbdev: hgafb: Request memory region before ioremap
          
