@@ -1,21 +1,46 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Wed, 22 Apr 2026 20:16:11 -0000
-Message-Id: <177688897190.983030.3475725301677664173@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============2241537945785089686=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/docs/kernel/pgpkeys
+Date: Wed, 22 Apr 2026 20:34:48 -0000
+Message-Id: <177689008895.1000603.5049842899617010118@gitolite.kernel.org>
+
+--===============2241537945785089686==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/docs/kernel/pgpkeys
+user: mricon
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/asoc-7.1
-    old: 87a3f5c8ac2096e9406ce2ed3bf5b9bc1589a92d
-    new: 24fcdc81dd7e1560e57eff75b618e5b00054b714
+  - ref: refs/heads/master
+    old: 8b483ddc139528d2c41c361b7298faedd9dc6ea0
+    new: 073c01ed674d7d7972f270599ce11e608cd3dffb
     log: |
-         6d619f73970397e13d2d3f830b183fcd9f58e749 ASoC: dt-bindings: ti,tas2781: Add TAS5832 support
-         1f95fdef685ee76393981de062e6b26210d88a9c ASoC: tas2781: Add tas5832 support
-         24fcdc81dd7e1560e57eff75b618e5b00054b714 ASoC: dt-bindings: ti,tas2781: Add TAS5832 support
+         073c01ed674d7d7972f270599ce11e608cd3dffb Update 0B1F393F0D99ADC5 (Bjorn Andersson)
          
+
+--===============2241537945785089686==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher B6C41CE35664996C! 1776890088 -0400
+pushee gitolite.kernel.org:pub/scm/docs/kernel/pgpkeys
+nonce 1776890088-7009b1cc4c82b312451a398898fcbdb9136885d0
+
+8b483ddc139528d2c41c361b7298faedd9dc6ea0 073c01ed674d7d7972f270599ce11e608cd3dffb refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCaekw6AAKCRC2xBzjVmSZ
+bH2xAP0csl8QcAQTBWMsXsyJr9VmKe1ue2LzP1pjMVn2DfKAYwD+OrNp7EO4CakA
+3h8tGXiGa9XX1qqwWbQpRll85+1Kego=
+=rmPW
+-----END PGP SIGNATURE-----
+
+--===============2241537945785089686==--
