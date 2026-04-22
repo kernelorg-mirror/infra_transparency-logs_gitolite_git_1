@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8886336393777196893=="
+Content-Type: multipart/mixed; boundary="===============0835612706583399267=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Wed, 22 Apr 2026 03:28:12 -0000
-Message-Id: <177682849274.3878054.6677710508583876609@gitolite.kernel.org>
+Date: Wed, 22 Apr 2026 03:28:14 -0000
+Message-Id: <177682849499.3878186.14116925720245928301@gitolite.kernel.org>
 
---===============8886336393777196893==
+--===============0835612706583399267==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/mm-new
-    old: c42d1a51775f9e0fd3049ffd02b57c4977ebd1d8
-    new: c9183ec6e2e3bd26a017392d6c3eaa40c580f153
-    log: revlist-c42d1a51775f-c9183ec6e2e3.txt
+  - ref: refs/heads/mm-unstable
+    old: 4adae5800447d40f250acc917b85fd0899924f01
+    new: 2bcc13c29c711381d815c1ba5d5b25737400c71a
+    log: revlist-4adae5800447-2bcc13c29c71.txt
 
---===============8886336393777196893==
+--===============0835612706583399267==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c42d1a51775f-c9183ec6e2e3.txt
+Content-Disposition: attachment; filename=revlist-4adae5800447-2bcc13c29c71.txt
 
 f02bfe86dc5921597f7f31bb17d3f3ccb37f3c09 vmalloc: fix buffer overflow in vrealloc_node_align()
 77b37c599d48ccccf1c91363415a7efa9691e319 mailmap: update entry for Dan Carpenter
@@ -39,7 +39,5 @@ ccb52422c4f9b020df5746963fcfe46d5e140c14 lib: kunit_iov_iter: fix test fail on p
 c6451465c8fccaae9b8e73ee2976c68d79df0ad9 selftests/mm: verify droppable mappings cannot be locked
 11a3a1ca3bb791cb49bef1049023d22425affefc mm/swap, PM: hibernate: fix swapoff race in uswsusp by pinning swap device
 2bcc13c29c711381d815c1ba5d5b25737400c71a mm/swap: remove redundant swap device reference in alloc/free
-fb47616c61073af183a86f7f97a85c424d60483c mm/page_alloc: fix initialization of tags of the huge zero folio with init_on_free
-c9183ec6e2e3bd26a017392d6c3eaa40c580f153 mm/vmstat: spread vmstat_update requeue across the stat interval
 
---===============8886336393777196893==--
+--===============0835612706583399267==--
