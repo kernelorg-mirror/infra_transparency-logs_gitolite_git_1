@@ -1,57 +1,57 @@
-Content-Type: multipart/mixed; boundary="===============7392787463661487162=="
+Content-Type: multipart/mixed; boundary="===============2937309554292154110=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Wed, 22 Apr 2026 08:32:08 -0000
-Message-Id: <177684672849.35276.6669196996544076162@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/tty
+Date: Wed, 22 Apr 2026 08:32:10 -0000
+Message-Id: <177684673074.35386.1198879160901595989@gitolite.kernel.org>
 
---===============7392787463661487162==
+--===============2937309554292154110==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/usb
+repo: pub/scm/linux/kernel/git/gregkh/tty
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/usb-testing
+  - ref: refs/heads/tty-linus
     old: c1f49dea2b8f335813d3b348fd39117fb8efb428
     new: 6596a02b207886e9e00bb0161c7fd59fea53c081
     log: revlist-c1f49dea2b8f-6596a02b2078.txt
 
---===============7392787463661487162==
+--===============2937309554292154110==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1776846727 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1776846726-941023e4fe967443059f5e8101f189565dba7137
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1776846729 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/tty.git
+nonce 1776846729-90088c1e3290a81592ed242b5a906d2ee4cebfd2
 
-c1f49dea2b8f335813d3b348fd39117fb8efb428 6596a02b207886e9e00bb0161c7fd59fea53c081 refs/heads/usb-testing
+c1f49dea2b8f335813d3b348fd39117fb8efb428 6596a02b207886e9e00bb0161c7fd59fea53c081 refs/heads/tty-linus
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmnoh4cbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+xIUP/2wK0C20tPrm1wpQk9GK
-vmAKew1hSyN6W9cUOCf/x7PzSob3A6QUYbimZZ5C8A0CdASZAwDF4vqRmBLA5C1D
-OM4pzWo0KWTP6yORIauaNSxEtvcZdaxkmAG+ciVJajMJwDWWFPXZOrHZpmWm6vGV
-kdbWRTjKrW5uNowsmVR/r+IEQ4/YljMmdY2f+wd09ZgewThvZX6QYUixyVjYrmZR
-MrxbAg9VLbNCh6sgrJ0OycZ9lmKjzb56GtKx3RcKuwJX7yXvH+5lHYmU8dS+iJfh
-PDUy6pUsCNHxYIe4D3/PTrBVXDxhcDOYvKagKeCex/0UkT+uurxis+ynZdnvtEEb
-PJGCqqizEOGs6U97o9VbYbTOagX6fEuvAkOkDBVmBxFmjO1jn0Cx079+nWtqdb94
-07t+7gLssnDJnYqpYkF05g7XZWl+R8Fb367GQ/mOA6ZW38PyKqn+fqJcbxJkkJRp
-HH5w4LQVrMq/EUp51ndPW9Q6hLgoEqPTv06NX5Z6vz8O6BZb6zspZTO29XY3Uigb
-UuySTRbwt3xi3YXwnLvQ7ps1+ClqOcGiAUCCuuR1bUlNpev9zYZc1VMcXxGaWAlE
-qSLMf51l2OtnoP3Yy61r27eJlNZTKm8GFe6lMTHEV8+ZKttHHLowMmqs6t8O3C6A
-qs41H5aU1oZ20lmHokCAsJQR
-=z2uL
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmnoh4kbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+1FYP/1n5g4sUD242I5TcB5LJ
+xZ5UCPl4vGIYnxIr7iEtB4FLSYFNuyH4/B4xfxE9rJCLzgJG7fiSMrvsUTGfliqQ
+X3+v9jfkJnGZ3WYMa3ZGv92MxUQZzIYbLa8rTz7DvJhRHyejkH3lWZGJOiC7OOzz
+Tr0NDIUWqiXUIIA70TE8IMYSqWHwMli/dM9PB4zZlvn05SK/GRs4ghjZeYfjKYsi
+man2FCsXpQ64Kmr4uI1XM96L59YTs1C9N/TUKFhzLGyInw+jDqqX6FZk/X6DLGIZ
+DULxPAV8S8mC3S7M6qTfDa77zwAYxhoZL/fKkv1sUC3PFrfAiMas3ccptdJl2PvH
+waFzUum2Vo3D8Euwv6gf1mprThhzp6rsiyOBrHz1xJagjXwCwkrZ8MTikQ4OOKG4
+4oovGmU31qULjMgbG7axG7knPvyqKN6sjDXIvYEX8MUjdZdiYr5QQDGR8gB9ypiT
+/u5LDodJk9nGek/bIe1m3GOmcmDv9EBlfyoTGQQ929hxl/kwA25e+TrVipcCIQTC
+ECE5O3fSJdf9eniGS5TDptouJxVYXD+KG2poAZT/qhlLQyG6Jd4//XxAdP3+d7bD
+HMjfulotscXtsiQLN9gA1w+XnfmePKbpQY1/lhKONfSlaBG4ba8raqfaQykaJBlP
+6wwXl4Vf88Zj/yK9fH5QSqtG
+=wEwg
 -----END PGP SIGNATURE-----
 
---===============7392787463661487162==
+--===============2937309554292154110==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -911,4 +911,4 @@ bb0bc49a1cef574646eb25d74709c5ff200903a8 Merge tag 'libnvdimm-for-7.1' of git://
 d46dd0d88341e45f8e0226fdef5462f5270898fc Merge tag 'f2fs-for-7.1-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/jaegeuk/f2fs
 6596a02b207886e9e00bb0161c7fd59fea53c081 Merge tag 'drm-next-2026-04-22' of https://gitlab.freedesktop.org/drm/kernel
 
---===============7392787463661487162==--
+--===============2937309554292154110==--
