@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Wed, 22 Apr 2026 12:53:35 -0000
-Message-Id: <177686241539.529705.12583171748928981916@gitolite.kernel.org>
+Date: Wed, 22 Apr 2026 12:53:38 -0000
+Message-Id: <177686241841.529816.5256860281156862906@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,14 +11,10 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/broonie/ci
 user: broonie
 changes:
-  - ref: refs/heads/spi-7.1
-    old: 922f8c28811f266fe5fc52a6d2852871e40ce098
-    new: 8370f1bd64d12a01a6c19e91d1dbe9bfbdb614f0
+  - ref: refs/heads/asoc-limit-volume-error
+    old: c6b96b1384fc61e128752feec90a38661db2709c
+    new: 15d935796eebbf87b421ab950f0ff9ce08ee0a4a
     log: |
-         f62c060272b9d7423b1650b844e8e4e7b8f9f925 spi: mpc52xx: fix use-after-free on registration failure
-         a1d50a37d3b1df84f536a982f692371039df4a48 spi: imx: fix runtime pm leak on probe deferral
-         97b17dd8266d2e26d9ee3c75a0fa34ecde6944f0 spi: orion: fix runtime pm leak on unbind
-         443cde0dc59c5d154156ac9f27a7dadef8ebc0c2 spi: orion: fix clock imbalance on registration failure
-         fa5061daffe841c2577c987c4f3515c45e53b775 spi: orion: clean up probe return value
-         8370f1bd64d12a01a6c19e91d1dbe9bfbdb614f0 spi: orion: runtime PM fixes
+         425638555b09e387a76971a778b1ecfe58d12839 EDITME: cover title for asoc-limit-volume-error
+         15d935796eebbf87b421ab950f0ff9ce08ee0a4a ASoC: ops: Log unknown controls in snd_soc_limit_volume()
          
