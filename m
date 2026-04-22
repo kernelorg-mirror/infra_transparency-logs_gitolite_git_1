@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4970255780179723669=="
+Content-Type: multipart/mixed; boundary="===============6487748165426043200=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Wed, 22 Apr 2026 07:57:02 -0000
-Message-Id: <177684462213.4193117.8168261168969296983@gitolite.kernel.org>
+Date: Wed, 22 Apr 2026 07:57:19 -0000
+Message-Id: <177684463949.4193664.3781333914520080766@gitolite.kernel.org>
 
---===============4970255780179723669==
+--===============6487748165426043200==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,15 +16,23 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: 7b790505d1644d3b73e00afac3b0d8afd45cf818
-    new: d03450c6e188f7f746d00667df0a5a8afcbc6ee4
-    log: revlist-7b790505d164-d03450c6e188.txt
+    old: d03450c6e188f7f746d00667df0a5a8afcbc6ee4
+    new: 0d8c93a87c3cc8f2e430c81e02eb9beedde038d3
+    log: |
+         405085d8e95300c864af4024d8cb7106d7774c96 Merge branch into tip/master: 'locking/urgent'
+         f4c5986d8829f9e0a1da0788856a04bbfa655878 Merge branch into tip/master: 'x86/urgent'
+         0d8c93a87c3cc8f2e430c81e02eb9beedde038d3 Merge branch into tip/master: 'timers/clocksource'
+         
+  - ref: refs/heads/tip/urgent
+    old: 184041ddb5997728c9d2b4951015cf06621f9b7b
+    new: f4c5986d8829f9e0a1da0788856a04bbfa655878
+    log: revlist-184041ddb599-f4c5986d8829.txt
 
---===============4970255780179723669==
+--===============6487748165426043200==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7b790505d164-d03450c6e188.txt
+Content-Disposition: attachment; filename=revlist-184041ddb599-f4c5986d8829.txt
 
 e270dc63837f3f3439f37c556869444cdf1b536a clk: test: remove references to clk_ops.round_rate
 4ce1f19e529b16b0ec871e536e18a871cadb86cf clk: composite: convert from round_rate() to determine_rate()
@@ -429,7 +437,9 @@ e2683c8868d03382da7e1ce8453b543a043066d1 Merge tag 'libcrypto-for-linus' of git:
 c94faa7cc414698d7c32cd43b7d02f34709a71f6 Merge tag 'pull-coda' of git://git.kernel.org/pub/scm/linux/kernel/git/viro/vfs
 bb0bc49a1cef574646eb25d74709c5ff200903a8 Merge tag 'libnvdimm-for-7.1' of git://git.kernel.org/pub/scm/linux/kernel/git/nvdimm/nvdimm
 d46dd0d88341e45f8e0226fdef5462f5270898fc Merge tag 'f2fs-for-7.1-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/jaegeuk/f2fs
+932d922285ef4d0d655a6f5def2779ae86ca0d73 x86/cpu: Disable FRED when PTI is forced on
 6596a02b207886e9e00bb0161c7fd59fea53c081 Merge tag 'drm-next-2026-04-22' of https://gitlab.freedesktop.org/drm/kernel
-d03450c6e188f7f746d00667df0a5a8afcbc6ee4 Merge branch 'linus'
+405085d8e95300c864af4024d8cb7106d7774c96 Merge branch into tip/master: 'locking/urgent'
+f4c5986d8829f9e0a1da0788856a04bbfa655878 Merge branch into tip/master: 'x86/urgent'
 
---===============4970255780179723669==--
+--===============6487748165426043200==--
