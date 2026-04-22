@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
-Date: Wed, 22 Apr 2026 17:17:33 -0000
-Message-Id: <177687825382.804183.15072899975708580075@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
+Date: Wed, 22 Apr 2026 17:34:36 -0000
+Message-Id: <177687927673.819442.13168338562216343543@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bluetooth/bluetooth-next
-user: vudentz
+repo: pub/scm/linux/kernel/git/ath/ath
+user: jjohnson
 changes:
-  - ref: refs/heads/master
-    old: d677b827eea1c83e9748aeef88901f3b78acceed
-    new: 87151e363b7ef4c8b7e4e79ad5e718e69899ccb0
+  - ref: refs/heads/main
+    old: 4fc98c13e8f2f4fa87044f3b94ca4314737217d1
+    new: 2ddc2bb1044930a78722cf7f61cb7a4b2a93bc9a
     log: |
-         87151e363b7ef4c8b7e4e79ad5e718e69899ccb0 Bluetooth: 6lowpan: fix cyclic locking warning on netdev unregister
+         2ddc2bb1044930a78722cf7f61cb7a4b2a93bc9a arm64/hwcap: Include kernel-hwcap.h in list of generated files
          
