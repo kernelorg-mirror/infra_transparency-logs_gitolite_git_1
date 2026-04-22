@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/docs/man-pages/man-pages
-Date: Wed, 22 Apr 2026 13:43:48 -0000
-Message-Id: <177686542863.579888.1683094685456394154@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
+Date: Wed, 22 Apr 2026 13:43:51 -0000
+Message-Id: <177686543156.579970.16780563671545102293@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/docs/man-pages/man-pages
-user: alx
+repo: pub/scm/linux/kernel/git/ath/ath
+user: jjohnson
 changes:
-  - ref: refs/heads/master
-    old: 96e9789a064e79c98fe1da607df6dd62ae95a662
-    new: 517a835fe4b4dc6056a0892b4aefb03f765d7dfa
+  - ref: refs/heads/pending
+    old: 32f70ee38388bb9089b9cffa9791f5ef8d5d32cd
+    new: 9b2b143b6f8820890429b60d2b4928ee0e91868a
     log: |
-         0fa89f97ae15d57fe1d20b727eee9fdbb032c6bc man/: Refresh pages from tzdb-2026a
-         517a835fe4b4dc6056a0892b4aefb03f765d7dfa man/man7/bpf-helpers.7: Refresh page from Linux v7.0
+         9b2b143b6f8820890429b60d2b4928ee0e91868a wifi: ath10k: snoc: select POWER_SEQUENCING
          
