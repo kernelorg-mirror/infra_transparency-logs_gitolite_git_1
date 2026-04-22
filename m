@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/deller/linux-fbdev
-Date: Wed, 22 Apr 2026 14:47:11 -0000
-Message-Id: <177686923170.646778.9099550312747892091@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Wed, 22 Apr 2026 15:00:49 -0000
+Message-Id: <177687004935.660483.5526934720759747888@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/deller/linux-fbdev
-user: deller
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/for-next
-    old: b1aaf1110107dd17bee3618379cd35a816141c6c
-    new: a40c0e815962b1f691d7ea12f7ddd42063c49f08
+  - ref: refs/heads/asoc-7.1
+    old: 5b0873e8faf54d65e67536a813fa13ab03ae7fc6
+    new: 87a3f5c8ac2096e9406ce2ed3bf5b9bc1589a92d
     log: |
-         d2386d9e3eb4c12f55f6131ab69cc65f13b5af80 fbdev: cobalt_lcdfb: Request memory region
-         a40c0e815962b1f691d7ea12f7ddd42063c49f08 fbdev: clps711x-fb: Request memory region for MMIO
+         0a5ee0e520eff98ee2b4568194562870877b050f ASoC: qcom: x1e80100: limit speaker volumes
+         87a3f5c8ac2096e9406ce2ed3bf5b9bc1589a92d ASoC: sdw_utils: cs42l43: allow spk component names to be combined
          
