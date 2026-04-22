@@ -1,22 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Wed, 22 Apr 2026 14:06:27 -0000
-Message-Id: <177686678721.606173.5990387526839665586@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
+Date: Wed, 22 Apr 2026 14:23:27 -0000
+Message-Id: <177686780790.621448.6638831283006988709@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/ath/ath
+user: jjohnson
 changes:
-  - ref: refs/heads/spi-7.1
-    old: 8370f1bd64d12a01a6c19e91d1dbe9bfbdb614f0
-    new: ad50f7bc5afefa3c2e013ae98511ead815b8f392
+  - ref: refs/heads/main
+    old: 349f99accf3601d31edf1cee568870eb665530ab
+    new: 4fc98c13e8f2f4fa87044f3b94ca4314737217d1
     log: |
-         cde1a784e4d55068d8dd7ee9bf4794898a2ac410 spi: axiado: fix runtime pm imbalance on probe failure
-         821f0951b20880bd5976f73e202c2fa637c812f6 spi: axiado: rename probe error labels
-         2b20e674244248cdd3e33eee34eebd7408ff134f spi: axiado: clean up probe return value
-         ad50f7bc5afefa3c2e013ae98511ead815b8f392 spi: axiado: spi: axiado: fix runtime pm imbalance on probe failure
+         34a5329beee86a22a446e27eb37f06caa63479ca wifi: ath9k: Obtain system GPIOS from descriptors
+         2388eb0d5508baec987219e63c3e743c6d4cd03e Merge branch 'ath-next'
+         93ae096010a867e9424d71a692e6d725515955bd Merge branch 'ath-current'
+         3f36e48519f9262fb57aa230ee64b89008b74a9b Merge remote-tracking branch 'mhi/mhi-next'
+         4fc98c13e8f2f4fa87044f3b94ca4314737217d1 Add localversion-wireless-testing-ath
          
+  - ref: refs/tags/ath-202604221359
+    old: 0000000000000000000000000000000000000000
+    new: 4fc98c13e8f2f4fa87044f3b94ca4314737217d1
