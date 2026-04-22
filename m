@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Wed, 22 Apr 2026 12:55:38 -0000
-Message-Id: <177686253826.533492.5276338666420401284@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
+Date: Wed, 22 Apr 2026 13:07:14 -0000
+Message-Id: <177686323440.545082.17159745487501392984@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/ath/ath
+user: jjohnson
 changes:
-  - ref: refs/heads/regulator-7.1
-    old: 606c780b8843731c78c0f6fa0a1c3b99456ca263
-    new: 2af72ec297d1d4928d0522b45c8ee87cb0d5f5ff
+  - ref: refs/heads/pending
+    old: 012c7d7212725e3fe67d60e303037e7285936ae4
+    new: 3a69635e3bf4cead22b9b9df69bc7f6bdf1999e6
     log: |
-         2af72ec297d1d4928d0522b45c8ee87cb0d5f5ff regulator: qcom: Unify user-visible "Qualcomm" name
+         3a69635e3bf4cead22b9b9df69bc7f6bdf1999e6 wifi: ath12k: fix OF node refcount imbalance in WSI graph traversal
          
