@@ -1,20 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/kernel/kmod/kmod
-Date: Wed, 22 Apr 2026 13:52:31 -0000
-Message-Id: <177686595101.590392.17815647776097695505@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/bigeasy/linuxptp-hsr
+Date: Wed, 22 Apr 2026 13:54:41 -0000
+Message-Id: <177686608134.591572.2164184424381117865@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/kernel/kmod/kmod
-user: demarchi
+repo: pub/scm/linux/kernel/git/bigeasy/linuxptp-hsr
+user: bigeasy
 changes:
-  - ref: refs/heads/master
-    old: 5f60ea3d7fe2339561689b73e5a7d3804d402cbf
-    new: a404c6fc8704e6c7763fe72ce673b51de3c64d21
-    log: |
-         24a418b4f578255064122563bc549fd68fa7c73f testsuite: fold setenv() in single block(ish)
-         a404c6fc8704e6c7763fe72ce673b51de3c64d21 testsuite: reshuffle preload env. variable handling
-         
+  - ref: refs/heads/hsr_v4
+    old: 0000000000000000000000000000000000000000
+    new: d639847d90faefc51e81b40a6c2cf9cba716cc97
