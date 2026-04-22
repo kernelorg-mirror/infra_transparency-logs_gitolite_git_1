@@ -1,61 +1,61 @@
-Content-Type: multipart/mixed; boundary="===============1939018115420156571=="
+Content-Type: multipart/mixed; boundary="===============0849148858163755117=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
-Date: Wed, 22 Apr 2026 05:41:41 -0000
-Message-Id: <177683650187.4006921.1140565175244630326@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/gregkh
+Date: Wed, 22 Apr 2026 05:43:17 -0000
+Message-Id: <177683659722.4007934.9240189597843658964@gitolite.kernel.org>
 
---===============1939018115420156571==
+--===============0849148858163755117==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/linux
+repo: pub/scm/linux/kernel/git/gregkh/gregkh
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/master
-    old: c1f49dea2b8f335813d3b348fd39117fb8efb428
-    new: 6596a02b207886e9e00bb0161c7fd59fea53c081
-    log: revlist-c1f49dea2b8f-6596a02b2078.txt
+  - ref: refs/heads/clanker
+    old: 83a4700bd0d552928fa5eb7ea40807cfc1be5246
+    new: 0b555bb21117f4e09522d037840d4c01ff7b93a9
+    log: revlist-83a4700bd0d5-0b555bb21117.txt
 
---===============1939018115420156571==
+--===============0849148858163755117==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1776836500 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
-nonce 1776836499-ba108e951fd2170e2bbd73fb5894550295d8f5e0
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1776836570 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/gregkh.git
+nonce 1776836569-566c38d8457e25eca2b5dae1036e3359da36a4ad
 
-c1f49dea2b8f335813d3b348fd39117fb8efb428 6596a02b207886e9e00bb0161c7fd59fea53c081 refs/heads/master
+83a4700bd0d552928fa5eb7ea40807cfc1be5246 0b555bb21117f4e09522d037840d4c01ff7b93a9 refs/heads/clanker
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmnoX5QbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+Y5QP/j+4Hyd6rlG2vCltHJ+b
-AWBrPURB7Zb9zRfmPa3c9M/n10qp0Mz9I6qTR6/dpBKDBERMNL/8dJCNCgY4hHKi
-iAL43akCl12FVozcb1m2BXXV+vqpk2zzHBRJL5p1rp58ozBOc8PoIcQo9POmXSk3
-U0RpALh10eHSY6L1R87xb/oJAGjviOleX7JeoaBWc90aQ7e8wbkqml5dB8dB5ZKI
-K02ehr6JVsOGZh7fhEJyTwGFkQXzBmrhCKZjL18zfknzbqcP15hESpYWi02h5ZT9
-L7niX5aA98kRNTfffsxVOXeoW4Gtx893TP0GJVtfyCi2UtVcPuvnpddEUT2EolUA
-h5mlbfk5DCPjLeBLyBQOTmaynXOZXzBxZI+QqBOSfVdiq6kHx4bzRmZzb+CW6Zl/
-/dpuvvTo//asAKw4kx5gTbzrrzPRm+M6DVsKsIoduopCowT1VVeo+mNwAeH6Gr/j
-K+Z0/wPmUERH8WUFGXB+K9RF+mwkXtR2D5roOROhuogv8uTGC1KyT4ipk9znKUJY
-zS8LfXcY27ASQdP9o0AC0OhmF77KzyGF+OL2pzAzJ1YgFt3eN4us/2bB12zIjgwy
-TEEG01I8ZAfZbT2cvA5E7taBbogVP0YENflG5NI8/xaGZd0oOJpTHsHM3cfz71gL
-8LP9kxSqzJ6+bTGOELapvs6i
-=0zuS
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmnoX9obHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk++nwQAM9/TXwOYndiKzeGJdxE
+ZtRYu3sWw8c9lhnooqGjcbbkpfLXkNeUbosqec/piJWYsd4+wRy5IoWWXD7MOX1+
+5EjJq9m5kwiu4ajFxGZSpfdncW3iljDX4UGMOgFwbS8i6YvW5P5b3UG9qBcucffV
+a5E7efdeTYthRN+Oq3EaRSLcKNxzh+NMDBOUrydKPpETMYR5oFBO/Sew3FLgl0sE
+zeYOu4rInlS0P4tqOWqD4qr2shzV05a4Gkqp2APK2kh/RGbyxf/Xd3MSMn88i7VJ
+/q8cioyZ1XqN1SA/yAo4mmRhOdz4wbBLq8DfUsfMo8WAT4umCqUMVkp5WngD/F+w
+LMPmfkVq0ueAfHkPFipFsSvecqEJyz9u3fLqkaltzRpc4I3QMdsmG0fEjL2fUR//
+QO6w0G4/JHBW8D8C/gEYQFpTeefiAGgWfSJHM0OW5Rj/nSCO8+OX4pXQD7iD+ubN
+1Q3yGITuV2TvNmmC6d7efwo+gSbECnYMUn8rUMBWT5F6LWm9naD4nkF+rESgEgin
+EG2GVYSsUtdEPrtNz6GiZE81i26IoplgNO+4OYe/2TpvrxVgyJixoUkr9rFV53kt
+zL204i79vUAlVIdl5ppwwHh+3th5nImzkAdwdgAuoZEsa/T5lGHhN0T8Cce2Sjb/
+ZzrNb4azpb3+W/UPNH4sHh3i
+=Fss9
 -----END PGP SIGNATURE-----
 
---===============1939018115420156571==
+--===============0849148858163755117==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-c1f49dea2b8f-6596a02b2078.txt
+Content-Disposition: attachment; filename=revlist-83a4700bd0d5-0b555bb21117.txt
 
 e270dc63837f3f3439f37c556869444cdf1b536a clk: test: remove references to clk_ops.round_rate
 4ce1f19e529b16b0ec871e536e18a871cadb86cf clk: composite: convert from round_rate() to determine_rate()
@@ -910,5 +910,37 @@ c94faa7cc414698d7c32cd43b7d02f34709a71f6 Merge tag 'pull-coda' of git://git.kern
 bb0bc49a1cef574646eb25d74709c5ff200903a8 Merge tag 'libnvdimm-for-7.1' of git://git.kernel.org/pub/scm/linux/kernel/git/nvdimm/nvdimm
 d46dd0d88341e45f8e0226fdef5462f5270898fc Merge tag 'f2fs-for-7.1-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/jaegeuk/f2fs
 6596a02b207886e9e00bb0161c7fd59fea53c081 Merge tag 'drm-next-2026-04-22' of https://gitlab.freedesktop.org/drm/kernel
+24c265e040863878a82be03c51bce97e8ca5ddc4 net: mctp: usb: properly drop the usb interface on probe error
+586a9cf33c91576bca28ebc27ea48a8504721e45 wifi: rtw88: properly drop usb interface reference on error
+3725f5d16af2f5910cdfb953438aed9bf2ac4dd5 mmc: moxart: fix potential use-after-free on remove path.
+92db00742d45f219f5077100c0f4a24d256cac37 mmc: meson-gx: fix potential use-after-free on remove path.
+1d31ef9906510e62b26694d716d2e8bc9ebf418a f2fs: fix potential deadlock in f2fs_convert_inline_inode
+11564943b0583001fb00ec59922f637b694c7563 LoongArch: add spectre boundry for syscall dispatch table
+22cee05619f0961eee34b7a0c7e9e1e557587e9a drm/amdkfd: stop speculation on the kfd_ioctl path
+13f90a5c4f9feccf11c1f27a666b2ad28ba06fcf netrom: do some basic forms of validation on incoming frames
+55b4d508ded100e8906742c275bcc57c21571372 iio: pressure: bmp280: fix stack leak in bmp580 trigger handler
+0b4ae1e2e282449121fc50fd493a348279eb76bf iio: imu: st_lsm6dsx: fix stack leak in tagged FIFO buffer
+d2763c67713e065b0f8ba017d4c8646041157067 iio: imu: adis16550: fix stack leak in trigger handler
+e8980bbc7f4eb073d508cab6dbfa78fca2f70c41 media: adv7604: avoid negative array index in log_status when cp_read fails
+627df9b7c71e5b31734e98bdcc89ee722780e59a media: stv090x: bound DiSEqC reply length to msg[] size
+698007845e8667cb2e3266cd9adbb57c53d2dc8e media: stv0900: bound DiSEqC reply length to msg[] size
+f1581ebd67b3106ab0f6a6f863066dbab0c27e4e ice: fix double free in ice_sf_eth_activate() error path
+23e7388d1db4c20dbafca121d5177201a423917d NFC: digital: Bounds check Felica response before sensf_res memcpy
+52a8153772a7afc3ce810df42f40e0ff17975887 idpf: fix double free and use-after-free in aux device error paths
+3116c2055f69abe190ac94b6c10cb36c46d3b4bb net: usb: cdc_ncm: reject negative chained NDP offsets
+2b45e9224844c82ae8a86e7a679653746ee6da3f net: sched: em_text: require NUL-terminated algo name
+e50f0b3ef2d0374b0d101ce3df5d367b635919b3 scsi: target: configfs: bound snprintf return in tg_pt_gp_members_show
+1971134cc14ace34eb2aa26bc20c3759b819c2e1 staging: rtl8723bs: fix OOB write in HT_caps_handler()
+2efb6a097920f7b74bde158864e10999e9719adb Input: xpad - reject short Xbox One packets before len-relative share-button index
+46c07d7769dec952a853c505d9d8a1826ad249bb Input: usbtouchscreen - clamp NEXIO data_len/x_len to URB buffer size
+5a38f4da47cb12cde89d27f02d15951f1915ba96 usb: usblp: fix heap leak in IEEE 1284 device ID via short response
+b5ddcfd154f931b6e86c2dced5882024e1186f40 usb: usblp: fix uninitialized heap leak via LPGETSTATUS ioctl
+fede91003266e6005d435b845269abc040609f7b Input: synaptics-rmi4 - validate register descriptor structure against its declared size
+643e37ade8f652dc98508317dd33529140aafe3a Input: synaptics-rmi4 - use u32 for reg_size to avoid sign extension into item->reg_size
+29e6bf385287f47e24d1bb5acad0071cd82f0a48 Input: ims-pcu - bound frame parser write index against read_buf size
+3b184e6a38dac3ae252520e266dc2f8b9f10f9d8 ipv4: clamp MCAST_MSFILTER getsockopt to optlen, not gf_numsrc
+70777fac292fe7b9b8592a34463af08f9b1864a3 ipv6: rpl: reserve mac_len headroom when recompressed SRH grows
+ba0dfa536553e40d564776a614970a43c334aeb8 io_uring: depend on MMU
+0b555bb21117f4e09522d037840d4c01ff7b93a9 io_uring: take page references for NOMMU pbuf_ring mmaps
 
---===============1939018115420156571==--
+--===============0849148858163755117==--
