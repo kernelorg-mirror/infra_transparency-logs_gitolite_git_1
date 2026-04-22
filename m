@@ -1,16 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/trace/linux-trace
-Date: Wed, 22 Apr 2026 20:12:24 -0000
-Message-Id: <177688874482.978533.2334777133179976508@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Wed, 22 Apr 2026 20:16:11 -0000
+Message-Id: <177688897190.983030.3475725301677664173@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/trace/linux-trace
-user: rostedt
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/tags/tracefs-v7.1-2
-    old: 0000000000000000000000000000000000000000
-    new: b4cea69eb510485f63ba2b1253fd83e4fbccdd84
+  - ref: refs/heads/asoc-7.1
+    old: 87a3f5c8ac2096e9406ce2ed3bf5b9bc1589a92d
+    new: 24fcdc81dd7e1560e57eff75b618e5b00054b714
+    log: |
+         6d619f73970397e13d2d3f830b183fcd9f58e749 ASoC: dt-bindings: ti,tas2781: Add TAS5832 support
+         1f95fdef685ee76393981de062e6b26210d88a9c ASoC: tas2781: Add tas5832 support
+         24fcdc81dd7e1560e57eff75b618e5b00054b714 ASoC: dt-bindings: ti,tas2781: Add TAS5832 support
+         
