@@ -1,42 +1,50 @@
-Content-Type: multipart/mixed; boundary="===============4042577599949205696=="
+Content-Type: multipart/mixed; boundary="===============1041010582290780954=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mptcp/linux
-Date: Wed, 22 Apr 2026 17:06:59 -0000
-Message-Id: <177687761910.793238.1134313971747584989@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
+Date: Wed, 22 Apr 2026 17:14:45 -0000
+Message-Id: <177687808587.799669.4986435284408826723@gitolite.kernel.org>
 
---===============4042577599949205696==
+--===============1041010582290780954==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mptcp/linux
-user: matttbe
+repo: pub/scm/linux/kernel/git/broonie/regulator
+user: broonie
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/export-net
-    old: 80e71e5c02d2bef991025f62af4767c39d178a7d
-    new: 1acee4b422ad7ee72705775b633d8ae8fa75d508
-    log: revlist-80e71e5c02d2-1acee4b422ad.txt
+  - ref: refs/heads/for-7.1
+    old: 606c780b8843731c78c0f6fa0a1c3b99456ca263
+    new: 2af72ec297d1d4928d0522b45c8ee87cb0d5f5ff
+    log: |
+         2af72ec297d1d4928d0522b45c8ee87cb0d5f5ff regulator: qcom: Unify user-visible "Qualcomm" name
+         
 
---===============4042577599949205696==
+--===============1041010582290780954==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-80e71e5c02d2-1acee4b422ad.txt
+Content-Disposition: attachment; filename=git-push-certificate.txt
 
-96109b580270277cc77f389e4dd93492fa43f3f1 DO-NOT-MERGE: git markup: net
-299abafe21264bb6c84a059810840ef872bd9366 DO-NOT-MERGE: git markup: fixes other trees
-f2c612e7920e981d6f363e938163a0b0dfa9dadb mptcp: sync the msk->sndbuf at accept() time
-2d97b983d417bb234435bffb3168a39b132cecf5 selftests: mptcp: add a check for sndbuf of S/C
-f5d24e37868bc762db8193f4c75b9c62552b5a14 mptcp: sockopt: set timestamp flags on subflow socket, not msk
-bb300dd8ce1065240d2a8444e6c1b11f1338fee2 mptcp: fastclose msk when linger time is 0
-ed16de738699612eb99054136f4b7b60ba4bfdd2 DO-NOT-MERGE: git markup: fixes net
-850e5b04e564c26e6de8ce5100e85084ecd6655f DO-NOT-MERGE: mptcp: add CI support
-edbe89346a77ce0c928c19451413eb41ed4d0770 DO-NOT-MERGE: git markup: end common net net-next
-69ffde360123e9a9533e001b78ba8dee9d1fa8bd DO-NOT-MERGE: git markup: fixes net only
-7cbe35d8789547b182d65c21651a15ffbdb636de DO-NOT-MERGE: mptcp: improve code coverage for CI (net)
-1acee4b422ad7ee72705775b633d8ae8fa75d508 DO-NOT-MERGE: mptcp: enabled by default (net)
+certificate version 0.1
+pusher C3F436CA30F5D8EB 1776878084 +0100
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/regulator.git
+nonce 1776878083-b35addcda4650012a262f9785f3a2b054c781152
 
---===============4042577599949205696==--
+606c780b8843731c78c0f6fa0a1c3b99456ca263 2af72ec297d1d4928d0522b45c8ee87cb0d5f5ff refs/heads/for-7.1
+-----BEGIN PGP SIGNATURE-----
+
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmnpAgQACgkQJNaLcl1U
+h9D2ogf6AmCUyeoP3QmMc35NHIlicrsrbgs31+OTTNDgZGePb3lwHnl273Raxoab
+wL6ZQMm+t52tIrBYc6r/bGytJpjTEhHwUeD6FoeA11gbh3QDsTQiqhWFQPCOZYTJ
+Vi+FMItUwtQduljxNElBGxYZN6kanKT55iZ7rUcM4j5xLoiNcMpmwUI3XhkSb98I
+plsuVKbbQ1yq92IJtOgmuXsc/9bUT8KzwtuOqlqiM8Av731bYFNRgkHuCs7aCarD
+i2KVYB52gnaCJz58sewp4WtWnAjmSO45XxO63PpV+QWEasjO2c+o12Mvs5g3AWiS
+j8zW2N39HKOQujj15KSkUERMG9P7fQ==
+=aqYK
+-----END PGP SIGNATURE-----
+
+--===============1041010582290780954==--
