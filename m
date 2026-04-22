@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7785008393855212935=="
+Content-Type: multipart/mixed; boundary="===============4765942706895011423=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/gregkh
-Date: Wed, 22 Apr 2026 08:29:52 -0000
-Message-Id: <177684659265.30046.2417321464755021500@gitolite.kernel.org>
+Date: Wed, 22 Apr 2026 08:30:20 -0000
+Message-Id: <177684662040.33236.9613147769330293366@gitolite.kernel.org>
 
---===============7785008393855212935==
+--===============4765942706895011423==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/gregkh
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/readfile
-    old: 2fd02099d917f71803016e75c59ad5a556df677a
-    new: f9602ef44782b410a768bcba9c8e38df78cd6902
-    log: revlist-2fd02099d917-f9602ef44782.txt
+  - ref: refs/heads/rndis
+    old: 845c8914caa096a02d0afbe159ffd822cd29278b
+    new: 6b27bfe4f92f6188888ffb593d304aaac83bdd2a
+    log: revlist-845c8914caa0-6b27bfe4f92f.txt
 
---===============7785008393855212935==
+--===============4765942706895011423==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1776846566 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1776846594 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/gregkh.git
-nonce 1776846566-d5e1bfc02eb42bcaadcc0a44d28f189f8aa1cfb9
+nonce 1776846594-bcedd5557e6ac0b52fa934e0a67767a5112d76b6
 
-2fd02099d917f71803016e75c59ad5a556df677a f9602ef44782b410a768bcba9c8e38df78cd6902 refs/heads/readfile
+845c8914caa096a02d0afbe159ffd822cd29278b 6b27bfe4f92f6188888ffb593d304aaac83bdd2a refs/heads/rndis
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmnohuYbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+KmwP/1swyh8D8vLHCU9OThTO
-Sydgz00wi8fPBh1yFIulvnPwh+phEbikq30gjXFVhq1WAMUIpxVBm97I0Mr9f5OK
-CKFLTHXUyi4D+ui4eVhw0/zwJSzrbd63swFmnO2ZxiH18cqUDcl1FM16O0Vxe+xY
-Y8waJ+AeAlBf5/Rm/daJLIEUlql4QeHgV8wncCbRIa7DSgd5TSx36Tbhu3i3MiRI
-sedNM6cjjKNkX6Kln1BZEP8jvHGirbhjE6kjf3xBWJcImx1SLuO6AAzDNIAcb+iT
-4HO47qegNHH1UP1EqgmBNcqr6lRYG4dK0sWYw91ISmOmngnNZNOfNAFaNj4Zpoxj
-ebByMyFYyXE2Bi4NMndnBvbjWsnMD14kUac36h4A/IRfhKSLLU3Z/vJdrG/cPK4Q
-9GN6EToo4XsL5bbA93kyIwqZzdkGDUSkmpXKVy2ulmrHrJwmBmPVatUr6iXh0hL6
-WZDj/p+qlIcHh4vYEzL5Iy44+MU08BhUAEpXKktHgrPuxFHy8kYZXspKDHIGoUBJ
-78FhoHVPwSnwn/bdZSosAps3DMocQtWwbogWNjvAVZnloTHHaXbxTlb7Ox9Wmov7
-1CZ/KgAEOxfNoK+0leSFcnpDxhqPJqV1JCklKkd9AE5vS3sbOrA45RxtRsmkFhSr
-7PpJxzLfhSA9ugN3EVY2Uwlq
-=/WMj
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmnohwMbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+BrQQAJoaCHu+jQd+y9iSEV03
+ZoUQMa9Kfs7oZa6gwukHng7HaWoR4ZlPXnm+OoCPwyp8PCc2U0Q5MKy4BuSdp1Rv
+gICrsvE5EIr8Ws5effY5tspg88j8lz+BMlYfVbFQ9lHZdzCG45MnwpBePECPH18l
+LVwx0toLT4N80t8P82uL9yIpINFdhFifwQhntaHWAc8UgNaziHs3VkPEoph4ccVv
+VifDkASPo65dcc4BoGxYbcN0cM4B3aZsnKlbEE+aFHSSoz/zMOISD4yHlQVMF00g
+8Q6vv8Rkyzyixlpsk+2W4zYtxEHdMaAyvga0J8EvAn4yv476/jq6TPYk+UidBXg0
+qVCSSMHyXcsPVDBZ70EBl8HYoRFJzjOh+NfxakqPJIsW+2gFgjlokJl2CwmeSOxO
+Ac8N/k32wC2alA75d9gqi07kfOHAy2EAtLnWrpi585GUTkSxEXGUe5YSaXQKQ4JR
+3rd41StQwPhkhBdv0g0kwacqQ5vmT//MIiBaMrNsoAGx89KCi8Os3nhZClkHRtM2
+nq8KCkhylDg8kOr9SvJl3BgSXxGdOIabFl4O0RzmdbKd1Nhl2eRPNTqL254bJYM+
+b3vjIITXYtPJWKDAJJSsRPTVifb8M17ouJbtbxFxRfr4D0kgbl5tzB2slzXncc4X
+WG2QybGxOdIus10QCHNtM1FA
+=sY3c
 -----END PGP SIGNATURE-----
 
---===============7785008393855212935==
+--===============4765942706895011423==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
-Content-Disposition: attachment; filename=revlist-2fd02099d917-f9602ef44782.txt
+Content-Disposition: attachment; filename=revlist-845c8914caa0-6b27bfe4f92f.txt
 
 e270dc63837f3f3439f37c556869444cdf1b536a clk: test: remove references to clk_ops.round_rate
 4ce1f19e529b16b0ec871e536e18a871cadb86cf clk: composite: convert from round_rate() to determine_rate()
@@ -910,9 +910,7 @@ c94faa7cc414698d7c32cd43b7d02f34709a71f6 Merge tag 'pull-coda' of git://git.kern
 bb0bc49a1cef574646eb25d74709c5ff200903a8 Merge tag 'libnvdimm-for-7.1' of git://git.kernel.org/pub/scm/linux/kernel/git/nvdimm/nvdimm
 d46dd0d88341e45f8e0226fdef5462f5270898fc Merge tag 'f2fs-for-7.1-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/jaegeuk/f2fs
 6596a02b207886e9e00bb0161c7fd59fea53c081 Merge tag 'drm-next-2026-04-22' of https://gitlab.freedesktop.org/drm/kernel
-51d681f45c4ab954258cc2f88d7c7c8f2ff531aa readfile: implement readfile syscall
-545aab24b9509c6893c29680b7aeb45cbca8c411 arch: wire up the readfile syscall
-569ca6676dee41df6b169eaf23c4702d86e93e69 readfile.2: new page describing readfile(2)
-f9602ef44782b410a768bcba9c8e38df78cd6902 selftests: add readfile(2) selftests
+00c7f7d7358592bc53f4c78e919e7d556cd2516b USB: disable all RNDIS protocol drivers
+6b27bfe4f92f6188888ffb593d304aaac83bdd2a USB: potential rndis host fix
 
---===============7785008393855212935==--
+--===============4765942706895011423==--
