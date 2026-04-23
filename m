@@ -1,24 +1,36 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Thu, 23 Apr 2026 10:53:28 -0000
-Message-Id: <177694160810.1883394.605558023368781202@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux
+Date: Thu, 23 Apr 2026 10:55:04 -0000
+Message-Id: <177694170458.1886248.5372854763725849473@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: pabeni
+repo: pub/scm/linux/kernel/git/axboe/linux
+user: axboe
 changes:
-  - ref: refs/heads/main
-    old: 7079c8c13f2d33992bc846240517d88f4ab07781
-    new: 42ea37b07742dc2d70aba6da13e104b911db0c8a
+  - ref: refs/heads/block-7.1
+    old: b5129bda5bbcceea5b2589c8248d39f77660aa19
+    new: 309e02dccf64e1b7bd2067abedc270e33b0aadf3
     log: |
-         cb4a90744bcd1adf12f0d0c7c4f0dd2647444ec5 net: mana: Init link_change_work before potential error paths in probe
-         6e8bc03349fe4f09567fa76235abf52bdaf83082 net: mana: Init gf_stats_work before potential error paths in probe
-         50271d7ec95144d26808025b508f463780517d3c net: mana: Guard mana_remove against double invocation
-         a7fdaf069bd031fcc234581fa6a580be11bf2175 net: mana: Don't overwrite port probe error with add_adev result
-         65267c9c4f28199985505977bc2c628c82fc50ef net: mana: Fix EQ leak in mana_remove on NULL port
-         42ea37b07742dc2d70aba6da13e104b911db0c8a Merge branch 'net-mana-fix-probe-remove-error-path-bugs'
+         eac857a12a95de69daae7fb657108d048db9b46d selftests: ublk: remove unused argument to _cleanup
+         eb3d1922120605e8934c75fde06b6ab85fc8699d selftests: ublk: enable test_integrity_02.sh on fio 3.42
+         1cdf3b28f46dd82caca39d72e401250ee43130ba selftests: ublk: add ublk auto integrity test
+         47903faa5c6f814f1e79b5d03708e05ca7975f6b ublk: fix maple tree lockdep warning in ublk_buf_cleanup
+         ea1db795de5fe9ea6844f3152483c4d3a02c0480 ublk: refactor common helper ublk_shmem_remove_ranges()
+         309e02dccf64e1b7bd2067abedc270e33b0aadf3 ublk: avoid unpinning pages under maple tree spinlock
+         
+  - ref: refs/heads/for-next
+    old: f53ce512aa6b44e1ab0ae9853ef87848d541c593
+    new: c85af7275b700315a37f252aa61ad69a1b85a3c6
+    log: |
+         eac857a12a95de69daae7fb657108d048db9b46d selftests: ublk: remove unused argument to _cleanup
+         eb3d1922120605e8934c75fde06b6ab85fc8699d selftests: ublk: enable test_integrity_02.sh on fio 3.42
+         1cdf3b28f46dd82caca39d72e401250ee43130ba selftests: ublk: add ublk auto integrity test
+         47903faa5c6f814f1e79b5d03708e05ca7975f6b ublk: fix maple tree lockdep warning in ublk_buf_cleanup
+         ea1db795de5fe9ea6844f3152483c4d3a02c0480 ublk: refactor common helper ublk_shmem_remove_ranges()
+         309e02dccf64e1b7bd2067abedc270e33b0aadf3 ublk: avoid unpinning pages under maple tree spinlock
+         c85af7275b700315a37f252aa61ad69a1b85a3c6 Merge branch 'block-7.1' into for-next
          
