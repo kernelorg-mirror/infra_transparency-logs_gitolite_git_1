@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7734993250208257721=="
+Content-Type: multipart/mixed; boundary="===============5829219497506690715=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Thu, 23 Apr 2026 07:54:38 -0000
-Message-Id: <177693087845.1697960.5433071320076722751@gitolite.kernel.org>
+Date: Thu, 23 Apr 2026 07:54:56 -0000
+Message-Id: <177693089630.1698318.7636282702495391008@gitolite.kernel.org>
 
---===============7734993250208257721==
+--===============5829219497506690715==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,15 +16,23 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: 248960b2589fe685b18ec63ff503f46eb2d16226
-    new: a152d4167ba09302f0797393a50a2cecde5fc1ff
-    log: revlist-248960b2589f-a152d4167ba0.txt
+    old: a152d4167ba09302f0797393a50a2cecde5fc1ff
+    new: 5979afcf4684e8d17ec7587db9770dcbd0b916ae
+    log: |
+         1ec92b69e8cd6e0d493f1df709d147d2ed88bdac Merge branch into tip/master: 'locking/urgent'
+         d8fba3c8c4765e12d7fac8f9ccea6cddc2acfa08 Merge branch into tip/master: 'x86/urgent'
+         5979afcf4684e8d17ec7587db9770dcbd0b916ae Merge branch into tip/master: 'timers/clocksource'
+         
+  - ref: refs/heads/tip/urgent
+    old: f4c5986d8829f9e0a1da0788856a04bbfa655878
+    new: d8fba3c8c4765e12d7fac8f9ccea6cddc2acfa08
+    log: revlist-f4c5986d8829-d8fba3c8c476.txt
 
---===============7734993250208257721==
+--===============5829219497506690715==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-248960b2589f-a152d4167ba0.txt
+Content-Disposition: attachment; filename=revlist-f4c5986d8829-d8fba3c8c476.txt
 
 b4d3c33a3486c518298a7326ac3a3134ca7ee64c s390/setup: Drop stale ident_map_size declaration
 20216c126bd946248d28d875c4a82cd1a79ba794 s390/Kconfig: Make modules sanity test a module-only option
@@ -73,11 +81,13 @@ f7ce370b525a02127527b0f54ee877413705a709 x86/hyperv: move stimer cleanup to hv_m
 5335e318ad3cf12d905de27e3be4e7fd7b1c6746 tracing: Make undefsyms_base.c a first-class citizen
 8fd12b03c7c888303c3c45559d8c3e270a916f9f Merge tag 'hyperv-next-signed-20260421' of git://git.kernel.org/pub/scm/linux/kernel/git/hyperv/linux
 2a4c0c11c0193889446cdb6f1540cc2b9aff97dd Merge tag 's390-7.1-1' of git://git.kernel.org/pub/scm/linux/kernel/git/s390/linux
+8e3705911af255ac12af7bc73140e885b61c4666 x86/mm: Revert INVLPGB optimization for set_memory code
 87d03777eb5dff5ea03802933e9045e64ebf004d Merge tag 'tomoyo-pr-20260422' of git://git.code.sf.net/p/tomoyo/tomoyo
 38ee6e1fb6f66ca6c82ad638a3c622feeaa488f2 Merge tag 'kgdb-7.1-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/danielt/linux
 1e18ed5727e827d627e4897bfed9d001d5d51d65 Merge tag 'trace-ring-buffer-v7.1-2' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
 66a7974a395fe0ab8fb9f6acd013343bc6bad83a Merge tag 'ktest-v7.1-2' of git://git.kernel.org/pub/scm/linux/kernel/git/rostedt/linux-ktest
 2e68039281932e6dc37718a1ea7cbb8e2cda42e6 Merge tag 'tracefs-v7.1-2' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
-a152d4167ba09302f0797393a50a2cecde5fc1ff Merge branch 'linus'
+1ec92b69e8cd6e0d493f1df709d147d2ed88bdac Merge branch into tip/master: 'locking/urgent'
+d8fba3c8c4765e12d7fac8f9ccea6cddc2acfa08 Merge branch into tip/master: 'x86/urgent'
 
---===============7734993250208257721==--
+--===============5829219497506690715==--
