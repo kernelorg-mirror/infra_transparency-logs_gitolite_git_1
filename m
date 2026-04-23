@@ -1,27 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Thu, 23 Apr 2026 09:22:57 -0000
-Message-Id: <177693617728.1792471.16003798955786794819@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============7251517470772365737=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Thu, 23 Apr 2026 09:23:54 -0000
+Message-Id: <177693623429.1793158.13035277516703262070@gitolite.kernel.org>
+
+--===============7251517470772365737==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: pabeni
+repo: pub/scm/linux/kernel/git/stable/stable-queue
+user: gregkh
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: 0c078021d3861966614d5e594ee03587f0c9e74d
-    new: 5a5db99c344810d8b4612873a8a4153bebf5776f
+  - ref: refs/heads/master
+    old: 68bad48f17bea7bf4785d78eeb3ed0cbc8bf6678
+    new: 2c0da6b8eed26e2e2ec2c2d237dd9415f2588b82
     log: |
-         b336fdbb7103fb1484e1dcb6741151d4b5a41e35 netfilter: nft_osf: restrict it to ipv4
-         2195574dc6d9017d32ac346987e12659f931d932 netfilter: nfnetlink_osf: fix divide-by-zero in OSF_WSS_MODULO
-         6e7066bdb481a87fe88c4fa563e348c03b2d373d netfilter: conntrack: remove sprintf usage
-         b6fe26f86a1649f84e057f3f15605b08eda15497 netfilter: xtables: restrict several matches to inet family
-         6eda0d771f94267f73f57c94630aa47e90957915 netfilter: nat: use kfree_rcu to release ops
-         67bf42cae41d847fd6e5749eb68278ca5d748b25 ipvs: fix MTU check for GSO packets in tunnel mode
-         f5ca450087c3baf3651055e7a6de92600f827af3 netfilter: nfnetlink_osf: fix out-of-bounds read on option matching
-         711987ba281fd806322a7cd244e98e2a81903114 netfilter: nfnetlink_osf: fix potential NULL dereference in ttl check
-         5a5db99c344810d8b4612873a8a4153bebf5776f Merge tag 'nf-26-04-20' of git://git.kernel.org/pub/scm/linux/kernel/git/netfilter/nf
+         2c0da6b8eed26e2e2ec2c2d237dd9415f2588b82 6.12-stable patches
          
+
+--===============7251517470772365737==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1776936229 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1776936228-c4c2a34bd992180e7712ea858db7981d0ddb306c
+
+68bad48f17bea7bf4785d78eeb3ed0cbc8bf6678 2c0da6b8eed26e2e2ec2c2d237dd9415f2588b82 refs/heads/master
+-----BEGIN PGP SIGNATURE-----
+
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmnp5SUbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+bMEQAKanzSNaxdKNEGk9idDx
+/sRslZbxrQCu74Ym7Rp+hiOs/9hq1kkK4UqEHFZ2SC2qNp4c0eQLWDcOUhCUNAKL
+eBDe77jLENICEuFUyBQUnAB4FjzjdLmRBAPfV9U/THlkHQ/S20qTpYMHJ49WtyhN
+dcvsNEixhiLM+15qFIFawslHVuzMg32qq8wjursFp3q1fYek9FdJwkBcKDZVJufz
+Y9PjiQ097c8BTcO5lFSdHdOThewUbpOlJ/K0wIF12NI3GAbvi3F1i9ymDRJDsn7i
+N1bVvjKPfDNYaKgDNTwsjGi3ON+7Adsc8hTMHLSlgq3keeTXIjTW7I+5tANl3i0l
+vQZ2yFiWPNgDKU1FmeYsrPtIuj6ck2sz75sbWKP1YtN3txcIvB2id0bY22s/EyAw
+AXFDMZg7G8SHl05hRwn0YHTQVuVe31iizrooeT/MVl6o16SCeugMHcmyHOfsHkl0
+8h5GWROKz4E5+ArM0MkFr3xAX7gGk/HQ70V0/ly2HWeTlVoKU/0VXZfpXhC/Jgb9
+PA1EG08eFChW0c1Cn+hCHPwSEk7aSLjuwpoRErTjo7rG9Q+D46y9zuEqLWv9Rl0I
+3bo6XKiEKqgU0vTfUqIj/f08Urd0ZBAl2P6yKS9izwuogfhZbPcTeT/UN7znoZdm
+vsHlCX/ntMAdNxsk6intwrbd
+=eOsq
+-----END PGP SIGNATURE-----
+
+--===============7251517470772365737==--
