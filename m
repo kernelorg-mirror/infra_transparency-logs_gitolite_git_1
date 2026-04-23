@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============9012932890441033453=="
+Content-Type: multipart/mixed; boundary="===============1170235434462984983=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Thu, 23 Apr 2026 05:33:15 -0000
-Message-Id: <177692239505.1558385.17353408594516334995@gitolite.kernel.org>
+Date: Thu, 23 Apr 2026 05:33:18 -0000
+Message-Id: <177692239853.1558551.331295358175811541@gitolite.kernel.org>
 
---===============9012932890441033453==
+--===============1170235434462984983==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,42 @@ repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/usb-next
+  - ref: refs/heads/usb-testing
     old: 6596a02b207886e9e00bb0161c7fd59fea53c081
     new: 2e68039281932e6dc37718a1ea7cbb8e2cda42e6
     log: revlist-6596a02b2078-2e6803928193.txt
 
---===============9012932890441033453==
+--===============1170235434462984983==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1776922393 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1776922397 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1776922393-3b0bfc2e0dd7f3112e4085ccae57ca87c7cbbce5
+nonce 1776922396-8835caeba4ea7aeab6dcb1183b83049878f5f50c
 
-6596a02b207886e9e00bb0161c7fd59fea53c081 2e68039281932e6dc37718a1ea7cbb8e2cda42e6 refs/heads/usb-next
+6596a02b207886e9e00bb0161c7fd59fea53c081 2e68039281932e6dc37718a1ea7cbb8e2cda42e6 refs/heads/usb-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmnprxobHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+3lMQAKy1BCmlDfvLQvg/Gt0J
-m7HkJ8mk+LYYpleOaCQYZoVXoqiePGeS3fjPzFXlvM90jU/m0kMn1dp2Ji1kVs7D
-cEfOdPix85pan+TP/ZxHvuel6h9foeLRqHle2rDrU9TAYui4gWsKK5zdhAKmwexs
-IdilXchALCehmTlC9dRXEDuEqBk2xINqktffjGFBVr21EBV0RC2AQA484siKdsSU
-6dd93VDxJBkRE72o+RVN51jEv8sPjVtzSplAlJ48QrbltlmkbhdaWkIckxIWv7j6
-kdWhkd3/L5htA6US4fg3W6i2pj3eULtB840EezUx7k2EOW/KIyj5biOp+BYCUgeR
-c6n6B0jWJJnuchUAVb2Rl2ylylk1d35kRZYHUN8DsTyjgEZ/Ap/Gi3bpbo3hEQJr
-1EkCeMBu4V9ZQanrDgLr3bHE27SQOFfYERA3TfOq9BAHU6yMCg8rXtlnRtBbzSHw
-BqXk/fG3BrFxl3a4cYLGlXF0Z50KBqWAzp7TyDk4FCka8jp3emOIGc0O5FTknjXJ
-NWRK1+AfaNWqR1C4VOsV2YbGnoKeAUYrNMnGVLr1eijIV1wPmyBUctglf+t4zTyY
-1nCFIKE2R35NamNvZ0e9dho8Uk/B8dCinw+lc6rI/79q8acc+jecXc2TxNudASAN
-gGHuiA/AvEEzF0QEHkWWmREX
-=+YNf
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmnprx0bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+rGYP/iv9AR3ddpjISUVA/80d
+kRZ48AZqrlIg5hz74Hm+owWO664ClWCG92PuuJLquGTIwx/JLBn7BFTjvwYDPkWb
+q9DjXoW8cYgJGBBO6u8NwzXxgwWrlqasY/v9IMNuI/ndhR9jREOglk7IV8jHMMch
+F+RHNMddaFkz0nVaC4V1fJUgvvV9HM5C6af3HXYQmRj9C+nKLZ1giMIxUEiamdxm
+qGiaR/qMVR4NMNuD28qvBIEteSFS3ptvTzKiCl59yrxVZwt8lNPvm7WSKh6/BJ//
+pkvGPecQN/Y24dRWO3ejYErqac/2dKmOGcqsLTrK6EqbXHwMFwqH5xTrive1uKY+
+X2QO7a3hWfjJrttTalekgiJU/6nFTQx0ppR3elY+etFs5+vTbTvWVI3ssRYeh8tK
+oquvX20UtC6lT0gcbwuCHDGQTWamLqr2hLG9sDPcIP4GYS7XJdwAOfNl6bdGToWf
+X4gMjHnje5SNkI3k1wqgEucQrjs2+txiXQuuxHKdHFtv+NgPVY/O99HDF+FpNx92
+NFwPx4u7huXxeQs9aVtvKQVlGnFGXJnKP8dL5aiVQE/D4NmbPx5FjyH6jvAp4kS1
+U0HmZ7dqWl57FRPcpK1JKpEK92lK7zgvfcAVuOR9DaoN6mCU3sMXTzZq5htXjKc0
+e8/5X8ZYOPeUmXmxZ63gSmmw
+=oCT4
 -----END PGP SIGNATURE-----
 
---===============9012932890441033453==
+--===============1170235434462984983==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -110,4 +110,4 @@ f7ce370b525a02127527b0f54ee877413705a709 x86/hyperv: move stimer cleanup to hv_m
 66a7974a395fe0ab8fb9f6acd013343bc6bad83a Merge tag 'ktest-v7.1-2' of git://git.kernel.org/pub/scm/linux/kernel/git/rostedt/linux-ktest
 2e68039281932e6dc37718a1ea7cbb8e2cda42e6 Merge tag 'tracefs-v7.1-2' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
 
---===============9012932890441033453==--
+--===============1170235434462984983==--
