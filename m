@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Thu, 23 Apr 2026 19:23:16 -0000
-Message-Id: <177697219669.2417928.16320874031086248028@gitolite.kernel.org>
+Date: Thu, 23 Apr 2026 19:23:24 -0000
+Message-Id: <177697220416.2418146.6525821017025950691@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,11 +12,5 @@ repo: pub/scm/linux/kernel/git/netdev/net-next
 user: kuba
 changes:
   - ref: refs/heads/main
-    old: 1f5ffc672165ff851063a5fd044b727ab2517ae3
-    new: 6deb53595092b1426885f6503d93eedc1e3ece77
-    log: |
-         6d5431555de032f5ad9e08a7fb372f37bf493903 caif: remove CAIF NETWORK LAYER
-         4f10f1dfb235a28bd86cf0b00d86a59696ddbe5b net: remove ISDN subsystem and Bluetooth CMTP
-         dd8d4bc28ad7252610d8e79c1313a2d1e3499a51 net: remove ax25 and amateur radio (hamradio) subsystem
-         6deb53595092b1426885f6503d93eedc1e3ece77 net: remove unused ATM protocols and legacy ATM device drivers
-         
+    old: 6deb53595092b1426885f6503d93eedc1e3ece77
+    new: 1f5ffc672165ff851063a5fd044b727ab2517ae3
