@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0767199240623797264=="
+Content-Type: multipart/mixed; boundary="===============1696321027709558638=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mptcp/linux
-Date: Thu, 23 Apr 2026 15:15:47 -0000
-Message-Id: <177695734726.2160683.13411834597450219732@gitolite.kernel.org>
+Date: Thu, 23 Apr 2026 15:16:01 -0000
+Message-Id: <177695736129.2161252.13288321029438881790@gitolite.kernel.org>
 
---===============0767199240623797264==
+--===============1696321027709558638==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/mptcp/linux
 user: matttbe
 changes:
-  - ref: refs/heads/export
-    old: e676a2d67d616900b5d4be83471f12c5d7a1433e
-    new: 012785973b1d4094db1bb9f86a0941f0525e6ae2
-    log: revlist-e676a2d67d61-012785973b1d.txt
+  - ref: refs/heads/export-net
+    old: 1acee4b422ad7ee72705775b633d8ae8fa75d508
+    new: 6217104c39dc69bb212ba8b559b97a0ebb96c773
+    log: revlist-1acee4b422ad-6217104c39dc.txt
 
---===============0767199240623797264==
+--===============1696321027709558638==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e676a2d67d61-012785973b1d.txt
+Content-Disposition: attachment; filename=revlist-1acee4b422ad-6217104c39dc.txt
 
 3bfcf396081ace536733b454ff128d53116581e5 net: validate skb->napi_id in RX tracepoints
 2c054e17d9d41f1020376806c7f750834ced4dc5 net/packet: fix TOCTOU race on mmap'd vnet_hdr in tpacket_snd()
@@ -48,36 +48,17 @@ a8f5192809caf636d05ba47c144f282cfd0e3839 net/sched: sch_red: annotate data-races
 f329924bb49458c65297f1361f545816a5b90998 net: airoha: Move ndesc initialization at end of airoha_qdma_init_tx()
 3309965fe44c00fd65af7cef5016e9e782c021a7 net: airoha: Add missing bits in airoha_qdma_cleanup_tx_queue()
 084a39af974b137ff7cc4223285e2c144afc1ddc Merge branch 'net-airoha-fix-airoha_qdma_cleanup_tx_queue-processing'
-f08da343397004aa42e3a49cb0c2e58ad7bfc95f DO-NOT-MERGE: git markup: net
-e6569a2cc6860a4dda32cb9c0db1b3cab2512b94 DO-NOT-MERGE: git markup: fixes other trees
-65adea061eaa3de30d2cdb5f7232cc19f993ac2d mptcp: sync the msk->sndbuf at accept() time
-2e8f207178eded07593a6447266a096fed0b72fb selftests: mptcp: add a check for sndbuf of S/C
-cbc8aad3da6202c1a535737aab13c3f9941d4b9c mptcp: sockopt: set timestamp flags on subflow socket, not msk
-b9ec7388535bea711fb0e4758968442a477a4a28 mptcp: fastclose msk when linger time is 0
-32512644ae3f3fd71e29d9d642b71a70a2530b1e DO-NOT-MERGE: git markup: fixes net
-0242f4e070ae3c6ae37eacb5eafe23b2d6658726 DO-NOT-MERGE: mptcp: add CI support
-49b870ab1adc8d8cae8c1aff470eb55ce8ff87e4 DO-NOT-MERGE: git markup: end common net net-next
-03efce87eaea794ef8e8f5f547c9bcca5bc34916 TopGit-driven merge of branches:
-9c3b47b82efd1d8280dc843d265217737a670d85 DO-NOT-MERGE: git markup: net-next
-26a897e3bdf32e8bb9a07644b2eda89428e09d62 DO-NOT-MERGE: git markup: fixes net-next
-4f55aec834abe87b349e7aa3bd5e440590f3b6be mptcp: pm: init and release mptcp_pm_ops
-157886243705d1feb77ffc4228f33774e2f5cc44 mptcp: pm: add get_local_id() interface
-1906945c69699e4941650fc03bbbbaae1eb3334b mptcp: pm: add get_priority() interface
-0ac52558e3d41116c55340faae618dcd487ffdc8 DO-NOT-MERGE: git markup: features net-next
-15ced4f5ef9dab8c9bcd30306c377b1d9929628e DO-NOT-MERGE: git markup: features net-next-next
-ea8dc01a6e967e8010b8d9e05fdd4195c184b751 bpf: Add mptcp_subflow bpf_iter
-48c949d3e83697728eeccf2b17b8771828cd1046 selftests/bpf: More endpoints for endpoint_init
-2d32849e1cdc50159e198578cb19b2b85e7e2fec selftests/bpf: Drop cgroup_fd of run_mptcpify
-c3f65c8ecaad69a52a1b682bdce9218499b4f7c0 bpf: Add mptcp packet scheduler struct_ops
-0d70a9e1bcaa5c43702b9b9f0fcd5a5c4a0559f9 bpf: Export mptcp packet scheduler helpers
-b87f0f476e70fa9c44e426fd6b5854367e76813f selftests/bpf: Add bpf scheduler test
-f72d45742d3aa00a90739d451c6c1eb50edcc730 selftests/bpf: Add bpf_first scheduler & test
-e1087ee2c471bf8488b7cf6fddb97aa9adcf01d6 selftests/bpf: Add bpf_bkup scheduler & test
-58f9e610581c46a07612932353df3cb1e67fdc35 selftests/bpf: Add bpf_rr scheduler & test
-b36d917f9d944236ee5c605b0ecde01e131a6bb9 selftests/bpf: Add bpf_red scheduler & test
-eae836ffd109b74b3a0ac7018696327de6b07b63 selftests/bpf: Add bpf_burst scheduler & test
-fa5c3e008ba3ae1f32cb2363c54e5d4e53f201d4 DO-NOT-MERGE: git markup: features other trees
-2bf51d12b439c3bc4d46f08deb5b68cf8e16b5f9 DO-NOT-MERGE: mptcp: improve code coverage for CI
-012785973b1d4094db1bb9f86a0941f0525e6ae2 DO-NOT-MERGE: mptcp: enabled by default
+8de4e03b0680fe795a4630fe88ff76bc615455a4 DO-NOT-MERGE: git markup: net
+24cc4f9d1a13d9ec7715e6c0425e22ef0ad4dcd4 DO-NOT-MERGE: git markup: fixes other trees
+e9364757ca688004656b710078dc7ae9d4b49685 mptcp: sync the msk->sndbuf at accept() time
+bfdaa8cd661f9222fb76e4c88ed61b6d68372e14 selftests: mptcp: add a check for sndbuf of S/C
+1b7d6044d2520de1265da1b99e2bbc7bfa95b130 mptcp: sockopt: set timestamp flags on subflow socket, not msk
+7c658591ee4cfe1d88ea7e4b130cb84a62f10a95 mptcp: fastclose msk when linger time is 0
+8fa0d1b7cbd45d13ddf6f06fba36b69729f843aa DO-NOT-MERGE: git markup: fixes net
+9fe97fd4e5c97fada478b77510ee02ac686c86cb DO-NOT-MERGE: mptcp: add CI support
+7a977078db56686a8adb5972a61a3dfca69bb210 DO-NOT-MERGE: git markup: end common net net-next
+dcc99050b158425567c66efdc42017976a6ca275 DO-NOT-MERGE: git markup: fixes net only
+89d587b8ca8829dfe02ee95b6d16f7ec8544c6a5 DO-NOT-MERGE: mptcp: improve code coverage for CI (net)
+6217104c39dc69bb212ba8b559b97a0ebb96c773 DO-NOT-MERGE: mptcp: enabled by default (net)
 
---===============0767199240623797264==--
+--===============1696321027709558638==--
