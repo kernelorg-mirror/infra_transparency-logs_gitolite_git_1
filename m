@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2567567126232601200=="
+Content-Type: multipart/mixed; boundary="===============0692853465859365033=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Thu, 23 Apr 2026 05:34:25 -0000
-Message-Id: <177692246562.1560845.10940350903109078842@gitolite.kernel.org>
+Date: Thu, 23 Apr 2026 05:34:29 -0000
+Message-Id: <177692246931.1561032.15793487957562498630@gitolite.kernel.org>
 
---===============2567567126232601200==
+--===============0692853465859365033==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,42 @@ repo: pub/scm/linux/kernel/git/gregkh/staging
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/staging-linus
+  - ref: refs/heads/staging-next
     old: c1f49dea2b8f335813d3b348fd39117fb8efb428
     new: 2e68039281932e6dc37718a1ea7cbb8e2cda42e6
     log: revlist-c1f49dea2b8f-2e6803928193.txt
 
---===============2567567126232601200==
+--===============0692853465859365033==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1776922464 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1776922468 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1776922463-da13cc3a497bd899807a3265a4e801d22b1eefeb
+nonce 1776922467-85d29ced4e2a4f4d4a4e92a19b9eae904292b4c7
 
-c1f49dea2b8f335813d3b348fd39117fb8efb428 2e68039281932e6dc37718a1ea7cbb8e2cda42e6 refs/heads/staging-linus
+c1f49dea2b8f335813d3b348fd39117fb8efb428 2e68039281932e6dc37718a1ea7cbb8e2cda42e6 refs/heads/staging-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmnpr2AbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk++hcQALy6zQtTun/pwemAlVbl
-OggGb19yew/dG91yTKUPkxLk8YdFKhoetwWMptR/nIc6AgCu1vWNQwp1sL/prI1l
-0Tjgv6wEmvbOYM+l0yu8Y7wWl48kolvKKeEHwNIzVJoIsDe54d1CjOsctruU+Web
-Ier8ILcEsdfymBLcFKQdnRcCVFEuVZN3WpGKK1tnynmFlg9Lme4fOmDX6EK1Kl1c
-mkiaUs4vMiN1sVe3Bur1V8J2Nza1BBIrQ4Hri++ids3JBF73TgdOXyaL4WYKt0wa
-WR8g7zJrugCN87zzgzEDXYQNy3QhJXTJEKQ0ZW0TSAKv1n1GYXp7tqEcpn5t9ezR
-1Hb1rnJes1xM3u2A5+wH3IIDTC2G87l+CmnVwPImrmcr3nTlod6ep6A1WiKNMaDw
-QNbyfWYHShLGzieIpvmyTTIjc/3kXMjZ0ntSry0c6htfGLtF1ZcErN100xoetH4F
-ieDSz7TSX+P4lWO9mIzaBBUZ/J9BmGcnKo+IwrlFVBELQp5fFg8FdQ1bCCbn2zOU
-axqiRiRVEOtu51PGKkUg3jfyGImfKJ431sG68vM6BWmxzyW7/BuKc1X6Gf1+n/t8
-Z/N128+M15y9g4SL1CqnBrLdvx3HvjmZfNRIv0jV5EKFh6nQoTQgC70dXZRSD5IN
-ZWQuQsS9MENc4uE6r4jkrslj
-=1v0m
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmnpr2QbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+IG4QAJS9GxlO9mQt5T1j+73m
+iQWqWfwHvQktIQcF94odIf5jgU15sf1lfyGVibf/XPqy0lLDOxuO6SZOi3f67A5I
+KA6BbkkRNOumYyhCeGuUcUY83+xSvTXNaYLwRRnbWCQ0uHzRolrrBpG+ZziEu+mG
+xlMGRsr96PGY/zW1LkPH2CVl43muimVeIPGjmJzxZEuJQf9xKZtPLHyf3HkqHnq4
+DxyrIPu9Imt6AGCjnwvncesOyjXHVqrZVFGDjiWg/DO+RyIg+a/h7HS8jqF8mc2B
++D6uAKWhfN+NyA+4sGwrchMSIjnldd1RC8Ew7CpOn4KsqzBzKMtJLOKxYI2wl2Ox
+AfUeBFEnslqX6KMo08rRyxbseGZwTnkeQ4N6uswo3HBkMhMohRJ2A1vaDhiRD5VZ
+KJHIEvH4js0DZ8FqloNnHXKYtV924w0ejQpojiij3Ygkx+wKQyU7hhIJ0dLzdoI1
+bp7p4T+O5rhmcHPhrpYLlDt6fB4MtWsGamGOXCe51D/4bYe3iDK482Bh96NHUM6N
+HdN1jcCl1XN24ygTz6hSSqESqkT15rxfofyVADh3rHz4+z7IQtb9fsg0QSMyGDmu
+g0cuu9PplpM5xv6GvG7YG/LzzDRfnYaCexZ4IBOdPMOXUURFDNHasD6ln6hfUHr9
+XGnwWD6h8lHK8f4s6yTJNr34
+=Zq5b
 -----END PGP SIGNATURE-----
 
---===============2567567126232601200==
+--===============0692853465859365033==
 Content-Type: text/plain; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 8bit
@@ -963,4 +963,4 @@ f7ce370b525a02127527b0f54ee877413705a709 x86/hyperv: move stimer cleanup to hv_m
 66a7974a395fe0ab8fb9f6acd013343bc6bad83a Merge tag 'ktest-v7.1-2' of git://git.kernel.org/pub/scm/linux/kernel/git/rostedt/linux-ktest
 2e68039281932e6dc37718a1ea7cbb8e2cda42e6 Merge tag 'tracefs-v7.1-2' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
 
---===============2567567126232601200==--
+--===============0692853465859365033==--
