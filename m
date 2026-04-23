@@ -1,22 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Thu, 23 Apr 2026 18:33:18 -0000
-Message-Id: <177696919858.2364587.1351815566052451290@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
+Date: Thu, 23 Apr 2026 18:33:21 -0000
+Message-Id: <177696920177.2364771.12341854322181349569@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tnguy/net-queue
+repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/main
-    old: d40831b016b4986e70d20d0ad14e6a0c62318986
-    new: 4078c5611d7585548b249377ebd60c272e410490
+  - ref: refs/heads/dev-queue
+    old: 9cd8e8a7dfdd6853407e7a11cbc38bc417e1c973
+    new: 48846498c93591b77bcd70c03b06101e0aaa03d1
     log: |
-         3bc06da858ef17cfe94b49efc0d9713727012835 virtio_net: sync rss_trailer.max_tx_vq on queue_pairs change via VQ_PAIRS_SET
-         3d1f20727a635811f6b77801a7b57b8995268abd hv_sock: Return -EIO for malformed/short packets
-         5a8db80f721deee8e916c2cfdee78decda02ce4f net/smc: avoid early lgr access in smc_clc_wait_msg
-         4078c5611d7585548b249377ebd60c272e410490 nfp: fix swapped arguments in nfp_encode_basic_qdr() calls
+         ac3e9c7968a31bb2916c31d52804ad09ceb76db1 ixgbe: only access vfinfo and mv_list under RCU lock
+         b9847f84d85f1fc010b2b9f08aa2cd032a1a3cb1 iavf: iavf_virtchnl_completion: drop duplicate ether_addr_equal() test
+         289c73accc0e8da93d56fcbd1a18c249f8c25652 ice: ptp: serialize E825 PHY timer start with PTP lock
+         48846498c93591b77bcd70c03b06101e0aaa03d1 ice: ptp: use primary NAC semaphore on E825
          
