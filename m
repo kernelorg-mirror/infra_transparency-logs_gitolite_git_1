@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Thu, 23 Apr 2026 23:22:41 -0000
-Message-Id: <177698656125.2656559.372202685191237738@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jpoimboe/linux
+Date: Thu, 23 Apr 2026 23:53:39 -0000
+Message-Id: <177698841960.2685800.10244403077482654637@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
-user: kuba
+repo: pub/scm/linux/kernel/git/jpoimboe/linux
+user: jpoimboe
 changes:
-  - ref: refs/tags/net-deletions
+  - ref: refs/heads/klp-build-arm64-latest
     old: 0000000000000000000000000000000000000000
-    new: f15fdf3c62ca0f1764f07d33bcb8582af30d897f
+    new: cd1768373dbf66fcefbf2f62c168b8b0c8ea9202
