@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
-Date: Thu, 23 Apr 2026 20:52:34 -0000
-Message-Id: <177697755435.2507860.11101979769068865059@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/deller/linux-fbdev
+Date: Thu, 23 Apr 2026 21:02:13 -0000
+Message-Id: <177697813353.2517786.11297250495548741077@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/25-new
-user: akpm
+repo: pub/scm/linux/kernel/git/deller/linux-fbdev
+user: deller
 changes:
-  - ref: refs/heads/master
-    old: f39dd72c8be04c6e25ffa7fedabc531eee93628f
-    new: aedd349a13514623c69e23f20a7d6c3347ab531e
+  - ref: refs/heads/for-next
+    old: 448aaf54d3ae1b73dfcf723c9f8a02c2116f3358
+    new: 30dd9fb5ea1673554b27861ef0b3644a307f2be4
     log: |
-         aedd349a13514623c69e23f20a7d6c3347ab531e foo
+         30dd9fb5ea1673554b27861ef0b3644a307f2be4 drm/todo: Drop todo item to request memory regions in all fbdev drivers
          
