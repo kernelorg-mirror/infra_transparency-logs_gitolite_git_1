@@ -1,58 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============7675536767959240003=="
+Content-Type: multipart/mixed; boundary="===============6272434291974226800=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/driver-core
-Date: Thu, 23 Apr 2026 12:46:54 -0000
-Message-Id: <177694841494.2009615.14539582848054996032@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
+Date: Thu, 23 Apr 2026 12:50:58 -0000
+Message-Id: <177694865896.2014225.11620504101449404596@gitolite.kernel.org>
 
---===============7675536767959240003==
+--===============6272434291974226800==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/driver-core
+repo: pub/scm/linux/kernel/git/stable/stable-queue
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/t1000
-    old: 9d2edc595eca5088f4126e0b6c3910438280b614
-    new: 17d839a61564771db75cb718b398ea7c00c347d4
+  - ref: refs/heads/master
+    old: d38970c59e4462546f18fafd6b0465f47e284909
+    new: 3d138b6177a56afeccb114eb63a8438f1a203a99
     log: |
-         232ce6ee563d83dfdb98061e347574286b936aed ipv6: rpl: reserve mac_len headroom when recompressed SRH grows
-         ad83ee11c4508679025ad7c671511db57dd2c0a3 io_uring: take page references for NOMMU pbuf_ring mmaps
-         17d839a61564771db75cb718b398ea7c00c347d4 mm/gup: honour FOLL_PIN in NOMMU __get_user_pages_locked()
+         3d138b6177a56afeccb114eb63a8438f1a203a99 drop some 5.10 patches
          
 
---===============7675536767959240003==
+--===============6272434291974226800==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1776948412 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/driver-core.git
-nonce 1776948411-6be26775ca7e89db1cc3f322e20f44cbdd222815
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1776948658 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
+nonce 1776948657-35bf94b6de1ab7df325aa50f2b6eecac11a667a8
 
-9d2edc595eca5088f4126e0b6c3910438280b614 17d839a61564771db75cb718b398ea7c00c347d4 refs/heads/t1000
+d38970c59e4462546f18fafd6b0465f47e284909 3d138b6177a56afeccb114eb63a8438f1a203a99 refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmnqFLwbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+HxIP/33GYZybAMVrbLlihwye
-/w0Qor31pEnvbg7Jhg/T6SPepEjuGOuf+iefEeJqKPfgK+znkiM0jZyqwflh9jed
-jcIjRnNVLIJL69OeoJTQf0XTgEaNWoLFJVSF6upQKy5rYIU/ivYQzkCYh81F7dUh
-6Q1ZD0hD8D/ZJtsjOclf07m8xlfkW3lS8JjAS/HUTJQvjZi2xsL4pDFTkce3lgT8
-q3gXrv8ex8SpX/kIxTLROWWBO4gmgQIlG/ppzlN7s1ZRrF2Wpw/6im9khz5Lmcdv
-7hA8D4mxuiM42US9Mdz2k5JuwYWDQVbPVqXVSbFl1f5U+cckePMrRRqxwzvxqH0d
-8AZjVRZ8DaosER/ohnKqqnylHlpnVUt3DqKyHx2xMNcBqINX60ouwnSYXKa9/ER0
-zXxaUX/i49W0/8R8zW0fZGOyFHYbQ841hv0YqcHfVpgwisTI3eO6Kbj+3yMqSkG/
-RMUELW/yk3RmfWv8Jd7ld+39+0wof3B+Nc2zGSSdfAbFVdceCYE0bbm3vBBxMfkI
-iwHG48N0CphS4KLCvuWrvys4f9T0kh7vPk2YFYwV6OvnBE64+dGcdtIFICJdNY7h
-Bkqroxnh0h6O+C4973NPma0oKfrdwWK3T4eOXlcKofRsBCQ7KafMLYZqXlXeiGiR
-t6ji6CrZWsLa0nZb5YiWM28q
-=3eiY
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmnqFbIbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+hNYP/3nKveKz01wDQ7X/QnPE
+nkmN8Blz+v2o7OxjTZZBH0tdLwOi5TQRbFP/WCj2kYYMprpxY6pwvOw3dbXGrZjg
+slT+Q/xPl2qottqpAPkSob5wt+BWYW02BC4MCpSkk28EF4NiVhBRPxF4n5Xf5zj8
+XvSN9pPuf7F+A6v7t1lSnQ1Y9dNZc6ogPcHNXt9VpdFqpfPfQUPz7lhwuFsh8Bnw
+ZZHXnTgIBxBqJgxHCtd3STdZ70JC4HxBMnvYnJVCehjyxHloHJknr085uyQ2v2q9
+IjeedOFyShd/fIFsSAmgl7sv5g1oxSVR65hlSiqbKm5O0YjWHD07Gu5FypWks/4T
+i3VT0Gi2LoddoFnppb7sRhCmsMpALjHCbyYw2jeZZj6wGlr6oh4o1WO/NkDSUm8E
+LQgAwwZoDHnqRhwQTUivS1N6cSnt7MvOxeVZnuMhXYKd5IunKif0nff47Fr5R02b
+6Ns9Y/FZZgFnYJ3YEGR35yjhoLHrkSnjGHBAX0uYNepFh+x7f+IpeuEBUPw8ukxn
+NsE7Kjv9CneaWCqEyYNZL6kpkIS2B1zKFHn1nh0wXwz1Y4TMLBhjM4gqSYqqKgbz
+5yp5lgxLR5W2hLS6tKKirxgNCdk3pNJHLPfUZ/uVONspcS+xwjTVVnbkNLnY4tiO
+lv5P/WZiKZVMarLxlWyUnV4r
+=HR9L
 -----END PGP SIGNATURE-----
 
---===============7675536767959240003==--
+--===============6272434291974226800==--
