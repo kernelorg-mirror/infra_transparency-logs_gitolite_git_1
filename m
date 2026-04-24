@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
-Date: Fri, 24 Apr 2026 16:19:33 -0000
-Message-Id: <177704757362.3785808.13823170175878642134@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/mark/linux
+Date: Fri, 24 Apr 2026 16:39:52 -0000
+Message-Id: <177704879294.3805582.11678804509859636953@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pci/pci
-user: helgaas
+repo: pub/scm/linux/kernel/git/mark/linux
+user: mark
 changes:
-  - ref: refs/heads/pwrctrl
-    old: 0000000000000000000000000000000000000000
-    new: 82462189e63ef72b236295945b6e3b270b340e68
+  - ref: refs/heads/arm64/rseq
+    old: c157f41dd0a54e1c5b082b7c5b6c5cf3a76fc3a7
+    new: 79b65cbbfa20aa2cb0bc248591fab5459cdc101b
+    log: |
+         79b65cbbfa20aa2cb0bc248591fab5459cdc101b arm64/entry: Fix arm64-specific rseq brokenness
+         
