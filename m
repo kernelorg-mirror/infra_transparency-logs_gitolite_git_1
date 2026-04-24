@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1696363705153169148=="
+Content-Type: multipart/mixed; boundary="===============7073086277500138251=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/cip/linux-cip
-Date: Fri, 24 Apr 2026 08:33:21 -0000
-Message-Id: <177701960129.3213089.5463857291982095767@gitolite.kernel.org>
+Date: Fri, 24 Apr 2026 08:33:35 -0000
+Message-Id: <177701961538.3213357.2801342656705662231@gitolite.kernel.org>
 
---===============1696363705153169148==
+--===============7073086277500138251==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/cip/linux-cip
 user: uli
 changes:
-  - ref: refs/heads/linux-4.4.y-st
-    old: cb55fe78b69c039a25f2644a403e5845b841b815
-    new: 8484b920e8066bdc00306758a17076333ff03f28
-    log: revlist-cb55fe78b69c-8484b920e806.txt
+  - ref: refs/heads/linux-4.4.y-cip
+    old: 4f7b18c72006c50d045431830deba2f7600d3c03
+    new: fa2e18c9d916ae13d85c6a8bfd2aa9df2c63ef54
+    log: revlist-4f7b18c72006-fa2e18c9d916.txt
 
---===============1696363705153169148==
+--===============7073086277500138251==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-cb55fe78b69c-8484b920e806.txt
+Content-Disposition: attachment; filename=revlist-4f7b18c72006-fa2e18c9d916.txt
 
 fa29d462fd592c3651a141e7efac0882e2f3777f auxdisplay: arm-charlcd: fix release_mem_region() size
 43b88ebc498164c6f3b9e6f71fbef98099668499 hfsplus: return error when node already exists in hfs_bnode_create
@@ -135,5 +135,7 @@ bc88426b1d6d7fa89941a7570b92d4f647b50848 hrtimer: Fix trace oddity
 c9b6005ee5ff718d57377702829592c429a55ef9 ceph: supply snapshot context in ceph_zero_partial_object()
 669d98a4938de5aaa645102d2b3a3093e499585c net: usb: pegasus: enable basic endpoint checking
 8484b920e8066bdc00306758a17076333ff03f28 Update localversion-st, tree is up-to-date with 4.19-st15.
+d821b7b5f6952f95dfe0d24a309d04658ec82b4f Merge branch 'linux-4.4.y-st' into linux-4.4.y-cip
+fa2e18c9d916ae13d85c6a8bfd2aa9df2c63ef54 CIP: Bump version suffix to -cip110 after merge from cip/linux-4.4.y-st tree
 
---===============1696363705153169148==--
+--===============7073086277500138251==--
