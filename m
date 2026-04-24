@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6875263945625902610=="
+Content-Type: multipart/mixed; boundary="===============6169058521271698452=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mptcp/linux
-Date: Fri, 24 Apr 2026 09:37:03 -0000
-Message-Id: <177702342397.3319068.18166787342848729075@gitolite.kernel.org>
+Date: Fri, 24 Apr 2026 09:37:30 -0000
+Message-Id: <177702345054.3319659.8118635965571347222@gitolite.kernel.org>
 
---===============6875263945625902610==
+--===============6169058521271698452==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,36 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/mptcp/linux
 user: matttbe
 changes:
-  - ref: refs/heads/export
-    old: 012785973b1d4094db1bb9f86a0941f0525e6ae2
-    new: 15f55b598ad26daf4f07db2f4a6fb10f6cf9fa2c
-    log: revlist-012785973b1d-15f55b598ad2.txt
+  - ref: refs/heads/export-net
+    old: 6217104c39dc69bb212ba8b559b97a0ebb96c773
+    new: e59782dee9327899451cfbad3878384919b1050d
+    log: revlist-6217104c39dc-e59782dee932.txt
 
---===============6875263945625902610==
+--===============6169058521271698452==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-012785973b1d-15f55b598ad2.txt
+Content-Disposition: attachment; filename=revlist-6217104c39dc-e59782dee932.txt
 
+ab00febad191d7a4400aa1c3468279fb508258d4 spi: mtk-snfi: unregister ECC engine on probe failure and remove() callback
+606c780b8843731c78c0f6fa0a1c3b99456ca263 regulator: max77620: drop redundant OF node initialisation
+c5b6285aae050ff1c3ea824ca3d88ac4be1e69c8 ASoC: SOF: Don't allow pointer operations on unconfigured streams
+48bd344e1040b9f2eb512be73c13f5db83efc191 ALSA: usx2y: us144mkii: fix NULL deref on missing interface 0
+07704bbf36f57e4379e4cadf96410dab14621e3b ALSA: fireworks: bound device-supplied status before string array lookup
+b9c826916fdce6419b94eb0cd8810fdac18c2386 ALSA: 6fire: fix use-after-free on disconnect
+fb79bf127ac2577b4876132da6dba768018aad4c ALSA: sc6000: Keep the programmed board state in card-private data
+47f72d57ddb11222479c80bd07f5bc036d84c94d ALSA: sc6000: Restore board setup across suspend
+8c0ee19db81f0fa1ff25fd75b22b17c0cc2acde3 dm cache: fix missing return in invalidate_committed's error path
+4e0dc01bd55d5fbaf30d823655e05c038f88f34b dt-bindings: sram: Document qcom,milos-imem
+738dd185d3e447e1dfa65b5287730fef456089bf dt-bindings: sram: Allow multiple-word prefixes to sram subnode
+dc6d51959ec0c08366d5aaeb5b8fb02d814d1e4b dma-buf: fix htmldocs error for dma_buf_attach_revocable
+d6116d86e58a04a9522e349c4a27145521c01ad7 platform/x86: int3472: Use local variable for LED struct access
+39237e3208209d1bb35d939d6fee1f36b642f562 platform/x86: int3472: Rename pled to led in LED registration code
+218d3c44f5f0a3cc1647bc61a4e4eac663b37aa5 platform/x86: int3472: Parameterize LED con_id in registration
+a55f80233f384dc89ef3425b2e1dd0e6d44bcf29 fwctl: Fix class init ordering to avoid NULL pointer dereference on device removal
+52521e8398839105ef8eb22b3f0993f9b0d11a57 ALSA: usb-audio: Evaluate packsize caps at the right place
+b7feba842c0d5f6c5b01592f80d164e974767501 ALSA: interwave: guard PM-only restore helpers with CONFIG_PM
+8f98b81fe011e1879e6a7b1247e69e06a5e17af2 fbdev: tdfxfb: avoid divide-by-zero on FBIOPUT_VSCREENINFO
 a31e4518bec70333a0a98f2946a12b53b45fe5b9 fbdev: udlfb: avoid divide-by-zero on FBIOPUT_VSCREENINFO
 34fe4a9df2476f52a809d0cd9659ff73de605774 ALSA: usb-audio: Add quirk for PreSonus AudioBox USB
 8b9a097eb2fc37b486afd81388c693bf3ab44466 HID: logitech-dj: fix wrong detection of bad DJ_SHORT output report
@@ -1021,34 +1040,15 @@ ac33733b10b484d666f97688561670afd5861383 rxrpc: Fix missing validation of ticket
 5fb4fde3b287fdd9097c53fee7126c2f74698073 Merge tag 'xtensa-20260422' of https://github.com/jcmvbkbc/linux-xtensa
 e8df5a0c0d041588e7f02781822d637d226cdbe8 Merge tag 'i2c-for-7.1-rc1-part2' of git://git.kernel.org/pub/scm/linux/kernel/git/wsa/linux
 e728258debd553c95d2e70f9cd97c9fde27c7130 Merge tag 'net-7.1-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
-0050ef4766ff3c819759e0662724d8a4f5d76a9b DO-NOT-MERGE: git markup: net
-08f973e8aae887020d3029b85f1e2afa85f03236 DO-NOT-MERGE: git markup: fixes other trees
-facc7f42bc1478ea8eb8cfb8b9b96986fb995e72 mptcp: sockopt: set timestamp flags on subflow socket, not msk
-e76210ce01757e86374c480a62d83c7a730ee5c9 mptcp: fastclose msk when linger time is 0
-c533ba9126cb0e9227773824a6c4ed5d9f9b02af DO-NOT-MERGE: git markup: fixes net
-877d5d8a1c5ce14f0735e4458618533fdd083ea6 DO-NOT-MERGE: mptcp: add CI support
-71ba26247739af71ca9739101973f72aceec59a5 DO-NOT-MERGE: git markup: end common net net-next
-6718bacf015497f65d42829f5a37a12bea7ce337 TopGit-driven merge of branches:
-98eb0b9890641a19f43896672ca3789b1e82b0b0 DO-NOT-MERGE: git markup: net-next
-da10faeeed78d8570218ec6ec70eb524934d7af6 DO-NOT-MERGE: git markup: fixes net-next
-edc0273b4e60f6445d17afd3040c5db2d115e256 mptcp: pm: init and release mptcp_pm_ops
-f9e898b08b04cd72468fad00cc4fca184e31d36f mptcp: pm: add get_local_id() interface
-9d1e74d8c185b2e144d06601ca72af022e29bb29 mptcp: pm: add get_priority() interface
-4e79f52e1eeca140d7f7d5e35466344924157c17 DO-NOT-MERGE: git markup: features net-next
-2c8c31b5d00056ada716a0a4aae101f797b3cd1e DO-NOT-MERGE: git markup: features net-next-next
-0bbcf8f5489834ff9698b824bda764618c010427 bpf: Add mptcp_subflow bpf_iter
-8d9659e48fa74b3d9d7e9f1786d7fb53d7fb0a8d selftests/bpf: More endpoints for endpoint_init
-29119c339476263f8c0b87102d023f3d9486066c selftests/bpf: Drop cgroup_fd of run_mptcpify
-d0efa720c92c32a24de07c3e56aa6c5056aec626 bpf: Add mptcp packet scheduler struct_ops
-e9976154a67f43eb1646f68500ba63cc4436cfef bpf: Export mptcp packet scheduler helpers
-a5bf665d5e16fa1436f7b43a0c1ba03466ddf23a selftests/bpf: Add bpf scheduler test
-f21cddf2821a63f585af303557c5f2bf3667dc72 selftests/bpf: Add bpf_first scheduler & test
-67300329c17ab62517a64de99b63ff60f67cfea6 selftests/bpf: Add bpf_bkup scheduler & test
-1c797db03160754c3d14240febc1be07f9b8285b selftests/bpf: Add bpf_rr scheduler & test
-3c33c5a5f29f8c81ea856d4f412d0aab41941cb0 selftests/bpf: Add bpf_red scheduler & test
-6dbfa547b0591567171db1fcbae31c112393edf5 selftests/bpf: Add bpf_burst scheduler & test
-f14a7bacf064678cf0f7cc52d315a39fe6ccd68b DO-NOT-MERGE: git markup: features other trees
-f13f52c34d59a0dccaec21c978d28610a8285b8d DO-NOT-MERGE: mptcp: improve code coverage for CI
-15f55b598ad26daf4f07db2f4a6fb10f6cf9fa2c DO-NOT-MERGE: mptcp: enabled by default
+f7a0de68dcf5cda0973decb701dd2436b6a482b8 DO-NOT-MERGE: git markup: net
+e065bc27fe35404de4e50879cfdcc299f6926093 DO-NOT-MERGE: git markup: fixes other trees
+63a5b2fe03e95b35e3e32046aba7e6d53edbd974 mptcp: sockopt: set timestamp flags on subflow socket, not msk
+97469ed31ce5c112065454a894875aa769c92a32 mptcp: fastclose msk when linger time is 0
+460b7ddc4cbb8ee10e753f9491ee43e504cfd858 DO-NOT-MERGE: git markup: fixes net
+f76ffae4907fad9e124e841ac7bbcbbaac1a4d63 DO-NOT-MERGE: mptcp: add CI support
+d74458779c3909bfb4255694e31b91cac7ab5f8d DO-NOT-MERGE: git markup: end common net net-next
+5916733817e0af18328b3931f35b332974879f4d DO-NOT-MERGE: git markup: fixes net only
+d1b7bbd169a0f3b13b6fc94d3e4649e2c03c0519 DO-NOT-MERGE: mptcp: improve code coverage for CI (net)
+e59782dee9327899451cfbad3878384919b1050d DO-NOT-MERGE: mptcp: enabled by default (net)
 
---===============6875263945625902610==--
+--===============6169058521271698452==--
