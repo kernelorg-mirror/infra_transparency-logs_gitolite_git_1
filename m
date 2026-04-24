@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1982295136264257032=="
+Content-Type: multipart/mixed; boundary="===============3734756321638122965=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Fri, 24 Apr 2026 19:45:54 -0000
-Message-Id: <177705995494.3995816.17658806012097063391@gitolite.kernel.org>
+Date: Fri, 24 Apr 2026 19:46:22 -0000
+Message-Id: <177705998241.3996463.17305389470187032534@gitolite.kernel.org>
 
---===============1982295136264257032==
+--===============3734756321638122965==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,15 +16,21 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: 4b7de52ee7262b8ce67f2f08219a1823389e0ed8
-    new: e05a89cf4e7706ff6bd5a83eb1bf344aeb26ec3c
-    log: revlist-4b7de52ee726-e05a89cf4e77.txt
+    old: e05a89cf4e7706ff6bd5a83eb1bf344aeb26ec3c
+    new: 7b67e9ce5b43130f1b45ee38c4e2efb4b5745a51
+    log: |
+         7b67e9ce5b43130f1b45ee38c4e2efb4b5745a51 Merge branch into tip/master: 'timers/clocksource'
+         
+  - ref: refs/heads/tip/urgent
+    old: b355b1a5209805dea251cab2fb6d14dbf7ce128a
+    new: 892c894b4ba4e4eb835f99de6fe7c41871e6d4f8
+    log: revlist-b355b1a52098-892c894b4ba4.txt
 
---===============1982295136264257032==
+--===============3734756321638122965==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4b7de52ee726-e05a89cf4e77.txt
+Content-Disposition: attachment; filename=revlist-b355b1a52098-892c894b4ba4.txt
 
 4afc61702bdcc3b9b519749ef966cf762a6e7051 apparmor: use target task's context in apparmor_getprocattr()
 8813837aa7f5f5a262a5ebc1a1a2a3a5ec818c70 apparmor: return error on namespace mismatch in verify_header
@@ -118,6 +124,5 @@ ff57d59200baadfdb41f94a49fed7d161a9a8124 Merge tag 'loongarch-7.1' of git://git.
 feff82eb5f4075d541990d0ba60dad14ea83ea9b Merge tag 'riscv-for-linus-7.1-mw1' of git://git.kernel.org/pub/scm/linux/kernel/git/riscv/linux
 8f4e8687c8f9a3387f51cd534d80b383000d7776 Merge tag 'x86-urgent-2026-04-24' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
 892c894b4ba4e4eb835f99de6fe7c41871e6d4f8 Merge tag 'locking-urgent-2026-04-24' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-e05a89cf4e7706ff6bd5a83eb1bf344aeb26ec3c Merge branch 'linus'
 
---===============1982295136264257032==--
+--===============3734756321638122965==--
