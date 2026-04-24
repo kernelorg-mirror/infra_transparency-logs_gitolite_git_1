@@ -1,16 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/arnd/playground
-Date: Fri, 24 Apr 2026 20:17:14 -0000
-Message-Id: <177706183482.4027084.4194695125929614401@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/trace/linux-trace
+Date: Fri, 24 Apr 2026 20:21:57 -0000
+Message-Id: <177706211716.4031941.10329970319571213839@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/arnd/playground
-user: arnd
+repo: pub/scm/linux/kernel/git/trace/linux-trace
+user: rostedt
 changes:
-  - ref: refs/heads/config-gpio-legacy-7.1
-    old: 0000000000000000000000000000000000000000
-    new: bbb302c86fdfa7705d8511a74c4b6db205cd2683
+  - ref: refs/tags/trace-ring-buffer-v7.0-3
+    old: a732f6cbf77bb4b9f3a6f950b569c64d1f1d3882
+    new: 0000000000000000000000000000000000000000
