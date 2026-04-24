@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Fri, 24 Apr 2026 11:58:20 -0000
-Message-Id: <177703190047.3457396.3074787867149833445@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/security/vulns
+Date: Fri, 24 Apr 2026 12:10:08 -0000
+Message-Id: <177703260811.3523909.11446662557734808436@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/security/vulns
+user: sashal
 changes:
-  - ref: refs/heads/selftests-rseq-config-fragment
-    old: 1a5b72f367e7da8ac2761ebe688155f061491f44
-    new: 5decaf685b2ed7ff299f8228d8dbf90d3a43fd68
+  - ref: refs/heads/master
+    old: 095f166d5d2f389a2d89bf998d6710441c79c83b
+    new: 04e3db65e16f0d8e38d960f46f32311079578cb9
     log: |
-         6c768de8ebfc04c9095edb8fec0ec66dc9345f95 EDITME: cover title for selftests-rseq-config-fragment
-         5decaf685b2ed7ff299f8228d8dbf90d3a43fd68 selftests/rseq: Add config fragment
+         2c80a711931236e3aa5110e4599434585430a831 sasha: review v6.19.14
+         04e3db65e16f0d8e38d960f46f32311079578cb9 sasha: review v7.0.1
          
