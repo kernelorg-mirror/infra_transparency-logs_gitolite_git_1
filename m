@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rppt/memblock
-Date: Fri, 24 Apr 2026 07:30:14 -0000
-Message-Id: <177701581417.3154013.305891634979844060@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
+Date: Fri, 24 Apr 2026 07:55:17 -0000
+Message-Id: <177701731797.3177599.16582058667552996199@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rppt/memblock
-user: rppt
+repo: pub/scm/linux/kernel/git/brgl/linux
+user: brgl
 changes:
-  - ref: refs/heads/fixes
-    old: a34436ac05e76bd6634a89fc0a399ab3a48f509a
-    new: afd218bb1dd8b4d2ba99a84cfa71524da6dbab35
+  - ref: refs/heads/gpio/for-next
+    old: 2757a5b1bca76a1b6378496b669a2baf1faddec5
+    new: 6d22fcf85e3f089e5096812e89b742dd726aa7e6
     log: |
-         afd218bb1dd8b4d2ba99a84cfa71524da6dbab35 mm/fake-numa: fix under-allocation detection in uniform split
+         6d22fcf85e3f089e5096812e89b742dd726aa7e6 gpio: qcom: Unify user-visible "Qualcomm" name
          
