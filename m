@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6510904782548904754=="
+Content-Type: multipart/mixed; boundary="===============3122630818764227845=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/utils/ezpi/ezpi
-Date: Fri, 24 Apr 2026 14:24:07 -0000
-Message-Id: <177704064760.3666814.4427813182762604702@gitolite.kernel.org>
+Date: Fri, 24 Apr 2026 14:27:17 -0000
+Message-Id: <177704083737.3671153.3907341077599920135@gitolite.kernel.org>
 
---===============6510904782548904754==
+--===============3122630818764227845==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,32 +16,28 @@ repo: pub/scm/utils/ezpi/ezpi
 user: mricon
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/master
-    old: e8c1dd534c6e53a80450069a13beeb338204f1f4
-    new: b75c23fcfd1a597ea3f67128db73a4fce6853466
-    log: |
-         8d77c79bc049ca13536d2791f0d0e97353b39361 Update module docstring to cover reading support
-         b75c23fcfd1a597ea3f67128db73a4fce6853466 Migrate project hosting and contacts to kernel.org
-         
+  - ref: refs/tags/v0.6
+    old: 0000000000000000000000000000000000000000
+    new: 295014dae1e72ef483944b31fb38cf6a03e91602
 
---===============6510904782548904754==
+--===============3122630818764227845==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher B6C41CE35664996C! 1777040646 +0000
+pusher B6C41CE35664996C! 1777040836 +0000
 pushee gitolite.kernel.org:pub/scm/utils/ezpi/ezpi
-nonce 1777040646-089c39f6da68e9c40f9d1fa041a9dbd1cdf7cb96
+nonce 1777040836-e650d4d430bb4130480c703e333d2f2348292495
 
-e8c1dd534c6e53a80450069a13beeb338204f1f4 b75c23fcfd1a597ea3f67128db73a4fce6853466 refs/heads/master
+0000000000000000000000000000000000000000 295014dae1e72ef483944b31fb38cf6a03e91602 refs/tags/v0.6
 -----BEGIN PGP SIGNATURE-----
 
-iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCaet9BgAKCRC2xBzjVmSZ
-bLMLAP0aq3xX7o5ASIKO4bieJvJ2nPEpV/SQd0D4KR0qIVHkBgD/WbxDA+mYxy/G
-GAJwEf0ULMkyixUXZApc7OgvLr4fsA0=
-=bTO4
+iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCaet9xAAKCRC2xBzjVmSZ
+bMj1AQCe4F2cAK608eX6N5qM6tUra23v9LxbgL8x+5N2Ga1b5gD/R0Qqk3sC78Ba
+mJiy9nZSrI3ytOUL2hBL9igUrC+89A0=
+=yTy+
 -----END PGP SIGNATURE-----
 
---===============6510904782548904754==--
+--===============3122630818764227845==--
