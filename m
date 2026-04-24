@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf
-Date: Fri, 24 Apr 2026 01:24:31 -0000
-Message-Id: <177699387171.2781726.7014771921319076587@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tj/sched_ext
+Date: Fri, 24 Apr 2026 01:26:48 -0000
+Message-Id: <177699400887.2785875.1192075225439553432@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf
-user: martin.lau
+repo: pub/scm/linux/kernel/git/tj/sched_ext
+user: tj
 changes:
-  - ref: refs/heads/master
-    old: 375e4e33c18dfa05c5dfd5f3dfffeb29343dd4c7
-    new: 6451d58a355642b612f2bf948ad39108c998ac2a
-    log: |
-         6451d58a355642b612f2bf948ad39108c998ac2a sockmap: Fix sk_psock_drop() race vs sock_map_{unhash,close,destroy}().
-         
+  - ref: refs/heads/scx-cid-v2
+    old: 0000000000000000000000000000000000000000
+    new: fce220c84cfbd9e8626a199f60c9cd7122ef8e60
