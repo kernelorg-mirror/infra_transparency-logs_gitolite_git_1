@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0753947075086840289=="
+Content-Type: multipart/mixed; boundary="===============6933673131576190543=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/geert/renesas-devel
-Date: Fri, 24 Apr 2026 09:32:02 -0000
-Message-Id: <177702312273.3313018.8121543325311468122@gitolite.kernel.org>
+Date: Fri, 24 Apr 2026 09:32:24 -0000
+Message-Id: <177702314445.3313629.12041590077354392571@gitolite.kernel.org>
 
---===============0753947075086840289==
+--===============6933673131576190543==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,22 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/geert/renesas-devel
 user: geert
 changes:
-  - ref: refs/heads/master
-    old: b7cbee607562d6066c40d91298e9e5c54a21b025
-    new: f13e3ccc3b008cddadb246fb32469c7b7cce03c3
-    log: revlist-b7cbee607562-f13e3ccc3b00.txt
-  - ref: refs/heads/renesas-fixes-for-v7.1
-    old: 0000000000000000000000000000000000000000
+  - ref: refs/heads/renesas-dts-for-v7.2
+    old: e3b7f6ec749990c351354d09260ebe00a4edb028
     new: 6a03eacc951a572fdc480d485801fce2e9db3776
-  - ref: refs/tags/renesas-devel-2026-04-24-v7.0
-    old: 0000000000000000000000000000000000000000
-    new: c37077482dc87bff630eb9869aac9bd89dad997e
+    log: revlist-e3b7f6ec7499-6a03eacc951a.txt
 
---===============0753947075086840289==
+--===============6933673131576190543==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b7cbee607562-f13e3ccc3b00.txt
+Content-Disposition: attachment; filename=revlist-e3b7f6ec7499-6a03eacc951a.txt
 
 19a307303ec957f23f083b6a1b01e52963e07b7f arm64: dts: renesas: r8a78000: Fix SCIF brg_int clocks
 c27a5639de6d789acb39b60c3607bd196d0bdce5 arm64: dts: renesas: draak/ebisu-panel: Fix missing cells and reg in DTO
@@ -45,6 +39,5 @@ fd5b0fc4e6c2f3761f992e8b10f341b6321e62f0 ARM: dts: renesas: r8a7779: Add missing
 718d678d7d54820b671bb04ed87e09e68713fdd0 ARM: dts: renesas: rskrza1: Drop superfluous cells
 ad99d0436a74fd856f27bf96b547032f93eac197 arm64: dts: renesas: r9a09g057: Add #mux-state-cells to usb2{0,1}phyrst
 6a03eacc951a572fdc480d485801fce2e9db3776 arm64: dts: renesas: r9a09g056: Add #mux-state-cells to usb20phyrst
-f13e3ccc3b008cddadb246fb32469c7b7cce03c3 Merge branch 'renesas-dts-for-v7.2' into renesas-devel
 
---===============0753947075086840289==--
+--===============6933673131576190543==--
