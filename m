@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6745981518939592546=="
+Content-Type: multipart/mixed; boundary="===============0813147434232786155=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Fri, 24 Apr 2026 13:34:36 -0000
-Message-Id: <177703767680.3614680.7944280325584953086@gitolite.kernel.org>
+Date: Fri, 24 Apr 2026 13:34:54 -0000
+Message-Id: <177703769437.3614949.547148635020826419@gitolite.kernel.org>
 
---===============6745981518939592546==
+--===============0813147434232786155==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,15 +16,23 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: 59287e6ad4a9e5d13519b783d6bbc1015b94d63e
-    new: 86ba017f01b09bcfc039685eb40300a24b0c79bb
-    log: revlist-59287e6ad4a9-86ba017f01b0.txt
+    old: 86ba017f01b09bcfc039685eb40300a24b0c79bb
+    new: 41f342719155083ede5a24d3cb0a05d288a7642d
+    log: |
+         f429f91ae25301993e0bf1155142fdbf4809312f Merge branch into tip/master: 'locking/urgent'
+         a1d912e4f68b99f9c07498dbb027e5b89ff186a2 Merge branch into tip/master: 'x86/urgent'
+         41f342719155083ede5a24d3cb0a05d288a7642d Merge branch into tip/master: 'timers/clocksource'
+         
+  - ref: refs/heads/tip/urgent
+    old: 70f3b47da943f39a05bedb2b41cd3fd25d864c8a
+    new: a1d912e4f68b99f9c07498dbb027e5b89ff186a2
+    log: revlist-70f3b47da943-a1d912e4f68b.txt
 
---===============6745981518939592546==
+--===============0813147434232786155==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-59287e6ad4a9-86ba017f01b0.txt
+Content-Disposition: attachment; filename=revlist-70f3b47da943-a1d912e4f68b.txt
 
 6075dd69c57d203e6a5f97067860afe90c682e47 Input: libps2 - embed WARN_ON(1) macros into their enclosing if statements
 004703baa5a9352182307dd9a747e9411802df32 Input: st1232 - read firmware version and revision
@@ -435,6 +443,7 @@ e728258debd553c95d2e70f9cd97c9fde27c7130 Merge tag 'net-7.1-rc1' of git://git.ke
 d0ed69f3e380276e7ab36f1a3f19702c5e993915 Merge tag 'v7.1-rc1-part3-smb3-client-fixes' of git://git.samba.org/sfrench/cifs-2.6
 bd1886d6e4ca6b84041d17ba6e11d0f85f7ee1a4 Merge tag 'v7.1-rc-part2-ksmbd-fixes' of git://git.samba.org/ksmbd
 dd6c438c3e64a5ff0b5d7e78f7f9be547803ef1b Merge tag 'vfs-7.1-rc1.fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/vfs/vfs
-86ba017f01b09bcfc039685eb40300a24b0c79bb Merge branch 'linus'
+f429f91ae25301993e0bf1155142fdbf4809312f Merge branch into tip/master: 'locking/urgent'
+a1d912e4f68b99f9c07498dbb027e5b89ff186a2 Merge branch into tip/master: 'x86/urgent'
 
---===============6745981518939592546==--
+--===============0813147434232786155==--
