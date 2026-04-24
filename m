@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============7224150851745856220=="
+Content-Type: multipart/mixed; boundary="===============7357132895285368047=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Fri, 24 Apr 2026 23:04:23 -0000
-Message-Id: <177707186329.4191130.13522426462666734284@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Fri, 24 Apr 2026 23:14:59 -0000
+Message-Id: <177707249908.7103.722620452011324356@gitolite.kernel.org>
 
---===============7224150851745856220==
+--===============7357132895285368047==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/ci
 user: broonie
 changes:
   - ref: refs/heads/kvm-arm64-sme
-    old: e33fa9cd4e438a151b46ee0b792674e0e81b9e06
+    old: d981c1140f2fd19f88ca58abce06f06e3cb15af5
     new: 38616511e29f6415afbed61694c40fceb479f2ef
-    log: revlist-e33fa9cd4e43-38616511e29f.txt
+    log: revlist-d981c1140f2f-38616511e29f.txt
 
---===============7224150851745856220==
+--===============7357132895285368047==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e33fa9cd4e43-38616511e29f.txt
+Content-Disposition: attachment; filename=revlist-d981c1140f2f-38616511e29f.txt
 
 3aab1acf0ad2f97f7cfb0296c7bb3d333edddb4d KVM: arm64: Implement support for SME
 8e8f607fa2e1fffc5fb2c186a1bdbe14d6868dbc arm64/sysreg: Update SMIDR_EL1 to DDI0601 2025-06
@@ -59,4 +59,4 @@ dbc29f9a8700cd291b94a72a62a9e4cd3399aaa8 KVM: arm64: Provide interface for confi
 c92b69b6b07e4203fec11975db19627684d48902 KVM: arm64: selftests: Add SME system registers to get-reg-list
 38616511e29f6415afbed61694c40fceb479f2ef KVM: arm64: selftests: Add SME to set_id_regs test
 
---===============7224150851745856220==--
+--===============7357132895285368047==--
