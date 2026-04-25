@@ -1,56 +1,67 @@
-Content-Type: multipart/mixed; boundary="===============9049433222657323331=="
+Content-Type: multipart/mixed; boundary="===============2321921657023191874=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Sat, 25 Apr 2026 22:28:03 -0000
-Message-Id: <177715608321.1425202.16033410368495626914@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sj/damon-hack
+Date: Sat, 25 Apr 2026 22:29:05 -0000
+Message-Id: <177715614532.1425885.10266273488186672813@gitolite.kernel.org>
 
---===============9049433222657323331==
+--===============2321921657023191874==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/linux
+repo: pub/scm/linux/kernel/git/sj/damon-hack
 user: sj
 changes:
-  - ref: refs/heads/mm-unstable
-    old: 2bcc13c29c711381d815c1ba5d5b25737400c71a
-    new: 94039de91824f92a464fa3eae6aa1155caafc069
-    log: revlist-2bcc13c29c71-94039de91824.txt
+  - ref: refs/heads/master
+    old: 428582276ab9b0adf7d133d44f7f6918143d7309
+    new: 71ef34b3336b83e8fb759e11d6097863658e8fdd
+    log: revlist-428582276ab9-71ef34b3336b.txt
 
---===============9049433222657323331==
+--===============2321921657023191874==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2bcc13c29c71-94039de91824.txt
+Content-Disposition: attachment; filename=revlist-428582276ab9-71ef34b3336b.txt
 
-1c6b65b18fe517889f9624b633abff47d6ecf943 vmalloc: fix buffer overflow in vrealloc_node_align()
-6b952855148533e2bc89ee6cacd60bfc13a95bd4 mailmap: update entry for Dan Carpenter
-ce2f9a010c4045b2747ac1d5c51205b1f6767fd2 liveupdate: fix return value on session allocation failure
-a621260e4a414f3252d215e814bde4716eb7c5d3 kho: fix error handling in kho_add_subtree()
-f47fc45d9080d6a06fe1001a5e9798bb4c9c2361 mm: start background writeback based on per-wb threshold for strictlimit BDIs
-e65d4e5bf5885248e2993484fffc03c0be21f95a mm/vma: do not try to unmap a VMA if mmap_prepare() invoked from mmap()
-5a8c98692824eea9b7bdc542029b255dac668f6e MAINTAINERS: fix regex pattern in CORE MM category
-fc804eb0fa33357ca86660a0c068a330329fbc14 mm/hugetlb_cma: round up per_node before logging it
-730a2ac3dd1431134c65c102fa1396eb195e91a1 MAINTAINERS: update Liam's email address
-24b3d8053d84a7ac8266442e90d3cef67afd9112 MAINTAINERS, mailmap: update email address for Qi Zheng
-8b4ca1ef69c8d7e85b4864fa4ac44a40d383594c MAINTAINERS: update Li Wang's email address
-1c6973116bc8ed8816fae621fcd98242091f76e3 mm/damon/sysfs-schemes: protect memcg_path kfree() with damon_sysfs_lock
-24a2ead2f8b3eab7db08822b22a2a335e3e29a98 mm/damon/sysfs-schemes: protect path kfree() with damon_sysfs_lock
-d0aad55be346d1e040a9c213da384c0f359872aa selftests/mm: specify requirement for PROC_MEM_ALWAYS_FORCE=y
-cbb72b7ec9cb780923fa000f766e3f6001c9bc4e mm/damon/reclaim: detect and use fresh enabled and kdamond_pid values
-eef4eec41aaa5ef938c896c2eab69845bea20d80 mm/damon/lru_sort: detect and use fresh enabled and kdamond_pid values
-f233a3f916fc1449098997863e322a09a9f9628c mm/damon/stat: detect and use fresh enabled value
-d4698413b5d8339297e18ae7b73dadfff4d83b5a MAINTAINERS: remove stale kdump project URL
-af64972e6cc569781475a3608f6a363e4b02a904 mm/userfaultfd: detect VMA type change after copy retry in mfill_copy_folio_retry()
-8ad32f44dee40aefe305454fa86d8a5ff627dd4e mm/page_alloc: fix initialization of tags of the huge zero folio with init_on_free
-0b1149659d953c085d9e4a788bcbd2e2950d9fe6 mm-page_alloc-fix-initialization-of-tags-of-the-huge-zero-folio-with-init_on_free-fix
-d104bd4fd582efa5b689fdba169f010dfce6298e lib: kunit_iov_iter: fix test fail on powerpc
-193d952bb2058a4e847affa3b0b504abe5f51587 device-dax: fix refcount leak in __devm_create_dev_dax() error path
-fc50998a5b639d343d48db884e0728ce0fb0b3bd mm/hugetlb: restore reservation on error in hugetlb_mfill_atomic_pte() resubmission path
-5d002d0e49fe54233dcea12540c4285460f6826c mm/swap, PM: hibernate: fix swapoff race in uswsusp by pinning swap device
-94039de91824f92a464fa3eae6aa1155caafc069 mm/swap: remove redundant swap device reference in alloc/free
+0b8a105e332023df0ff3e355f60ecb68c46c597e patches/next: fix wrong usage indentation
+473d85d1724ecfc44c99e664c27c924b8251dffe patches/next: move damon data attr patches to the category
+4554335dc90ed8126b5d8e9885776e6b53e2fb71 patches/next: data attr monitoring: rename again
+f53c5c13ec035aa69b890ba9a15849f08364a0f9 patches/posted: add memcg_path race fix v1
+07bcf2a75ad189ed25e074316e0b5b6941d71316 todo: add yet another sashiko bug
+31874ad691231fef90f266ac757249b30cbc349b add msgids for memcg_path race fix
+e8d89b89cc5ffdd1047f680ce57ee72e8af95053 patches/next: wordsmith memcg_path race fix
+aa4979083891ab1e72917f031a731b15aa333852 patches/mm: update
+5811ec3abe7e52a15874cde3974391a6e20eacd4 patches/next: rebase to latest mm-new
+1269056c0b525d853a0c546afc893856f4f2e8d3 patches/mm: update
+e73f97a7a88e7de857acc0189da047efb25dae48 patches/next: rebase to latest mm-new
+c7eb02c62ee6fc3c372301171a6d6d0cc3b9291d patches/next: fixup probes renaming
+742ca7ba3d5ad4f72acbfd5b2cb10511a884df63 patches/next: data attrs monitoring: document design
+5d7588953da39c14fd8697ba941df83dbe3ddd9c patches/next: move sysfs-sample.c to sample patches category
+55fa9b1ea4724f0266d3d2db467a5f594c9af3c4 patches/next: squash data attrs monitoring into one big patch
+c4e200a363b59c6a1cf7943f63b6ed4a589c8054 patches/next: put data attrs monitoring before pgfault monitoring
+c756ef3223520bb6316adb7af2c50744f84595b8 todo: update
+b828f5a892520c3ad1080e54d620781a28a87b8f patches/next: data attrs monitoring: update cv commit
+d61a645f76196da177765f4f59c8bbf82efad0c2 patches/next: data attrs monitoring: misc cleanup
+defc7a72672476202a24dba3916597cf45ae2c9e patches/next: split data attrs monitoring patches
+b9575d23f9948b95e0658c4a1edfe321bdbba239 patches/next: data attrs monitoring: remove unnecessary implementation and reverts
+c2c4f0f85d21a1b20432edacc9bb20631b8d5762 patches/next: data attrs monitoring: squash fixup
+91b5bffd38f79a817489a7be3c4dba87b153a09a patches/next: data attrs monitoring: reword commit messages
+21fc5bf6c4cba7fdfca052ff5aab78cdb7809b84 patches/next: data attrs monitoring: reorder patches
+99f1ee18512366fbe830dc23a3e4299e033ed410 patches/next: add hotfix categories
+fb63d71be1c0214061e5aa18dfae993c12061a79 patches/next: add sashiko review category
+0934fc6e939567f63b1bce0122ca9c36048b9567 patches/next: pause_resume: move to ready-to-be-merged category
+12a1269859def957e5c2094644ed865949d39f8d patches/next: move action failed region charge rate to ready-to-merge category
+b892a583bace191cb4a24abb8785616234158c65 patches/next: remove obsolete cv commits
+754f85d2a3bdf3f30f0e5fec0b984eed6f6d9f08 patches/next: more category cleanups
+d7536eb622619bd38fc3e5fe45a8b19b56545c90 patches/next: add mem_cgroup_iter_break() fix Fixes
+0215de39bb14d8c57125bc98ec522d671ac0cc14 patches/posted: add memcg_iter_break() fix rfc v1
+2be8b402dd90b0e0cb6cbc367d1d6218ecd2b6f9 patches/posted: add msgid for mem_cgroup_iter_break() fix rfc v1
+fcc657ffe0a9e649e826941273154f967e7833cc patches/next: move mem_cgroup_iter_break() fix to posted category
+98929a2510b13cbb95840f528975c72fb7dc6ea3 patches/posted: add damon_stat kdamond pid rfc v2
+73336a1cceff1d9a2b335afb0fda7f48eb582e59 patches/posted: add msgids for damon_stat kdamond_pid rfc v2
+71ef34b3336b83e8fb759e11d6097863658e8fdd patches/next: update damon_stat kdamond_pid changelog
 
---===============9049433222657323331==--
+--===============2321921657023191874==--
