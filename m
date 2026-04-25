@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd-test
-Date: Sat, 25 Apr 2026 14:31:14 -0000
-Message-Id: <177712747481.965189.18087706389326464857@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
+Date: Sat, 25 Apr 2026 14:53:41 -0000
+Message-Id: <177712882103.985854.7122628039598721163@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd-test
+repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
 user: jarkko
 changes:
-  - ref: refs/heads/main
-    old: 34ed6ce458213152965e635bbf4390c16833117d
-    new: f3de94f102fe979361a57298f6ebc23877a3e877
-    log: |
-         f3de94f102fe979361a57298f6ebc23877a3e877 raspberrypi400_aarch64_efi: Add missing options and packages
-         
+  - ref: refs/tags/for-next-tpm-7.1-rc1
+    old: 0000000000000000000000000000000000000000
+    new: 6879652cf2dcf6a372f2f34436e3d96319670394
