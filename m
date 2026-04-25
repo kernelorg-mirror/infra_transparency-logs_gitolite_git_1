@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8977944480785048733=="
+Content-Type: multipart/mixed; boundary="===============7599062581667494871=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Sat, 25 Apr 2026 05:59:06 -0000
-Message-Id: <177709674685.466485.15531848471517512711@gitolite.kernel.org>
+Date: Sat, 25 Apr 2026 05:59:10 -0000
+Message-Id: <177709675045.466712.12615984963622268815@gitolite.kernel.org>
 
---===============8977944480785048733==
+--===============7599062581667494871==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,42 +16,42 @@ repo: pub/scm/linux/kernel/git/gregkh/staging
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/staging-linus
+  - ref: refs/heads/staging-next
     old: 2e68039281932e6dc37718a1ea7cbb8e2cda42e6
     new: 27d128c1cff64c3b8012cc56dd5a1391bb4f1821
     log: revlist-2e6803928193-27d128c1cff6.txt
 
---===============8977944480785048733==
+--===============7599062581667494871==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1777096745 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1777096749 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1777096745-94ebf56d917a37d577f951c157ef3c74e9b0242d
+nonce 1777096748-8ebcc193ba609696015ceb0b025208938d3d0671
 
-2e68039281932e6dc37718a1ea7cbb8e2cda42e6 27d128c1cff64c3b8012cc56dd5a1391bb4f1821 refs/heads/staging-linus
+2e68039281932e6dc37718a1ea7cbb8e2cda42e6 27d128c1cff64c3b8012cc56dd5a1391bb4f1821 refs/heads/staging-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmnsWCkbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+yqQP/R+rn51kVpA1/Kl93ND3
-WBPCbrt0mpR4fnwENTAVjCshJcm1w8nUaV1nZOAWaNUYpR8F+gxvFSwm16PY/SH9
-dS75Q9pm3XeYj6ey74zTrj+jixTdPfkF1EyBYfzoAQGOpinKdgKlpxH7JtPdaH2o
-iNz4FHbbsOaddJszs8dSnlgBeihdaVEtvlvGJVr5wwBYqhY+6o2HArbYBbyuSMQi
-FXjfLLRm1hHF1VFQxUQlvrGlQpHIYUC0diNW/KorENWG6+f59D7cZkzLJBiMg8bu
-TpcrEDy2YZmK9PGGsJGRw1O0xpOxnDijJuWyVGjIYkP4qvbl0F5EkpkO56mpgaX2
-U+SiUM913nUYCGi6p+pQpdHKVAD98AtCAAAZhSvQ6CTAVCMCxZ1pAfTmWbH8NPI7
-1U7t5g+BdcTSVMRzf3sjabpfxeprQFQwbUofQ2IXcoGeMPcgh9Z5KyvARv/Foozq
-fc3Yp0RBNmXSvn16fEiCyY11syyhKboeOuuHjQLXEsIImLefsh9+q6yWSfchkGlH
-2zZa5ZNSsT2cjStSstfwFKvhqGysG6WVYVAm1e6MT3pgjR/WXsMimcPSNwnW7qvJ
-dQFzZnh1JoVLp47U2uuE1430Es5LRYm6wglqzzaKuN7hX/qU8ZUN1skYh4dUq1Hl
-Mqt+lutaN8SqJNJUCv+7K6ZN
-=R2Ga
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmnsWC0bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+jHQP/0ioSiAPB20De4L/VUGa
+zL/s4AxmzoaG3FCzT+auA00KY6wh+JQ1/Y6fI8xl9CKnoAQqF6x3YwaNApOMK5ee
+I6EhPK9enOFChZjBY+42rCI4HaV3nze5ZoMPi7u81oz1kNx8aySZ6Hqf+kp1hNO5
+iSgyatW/jBHy2Mxw5oI5AoMFDya+6KdjMfmzii3CCvkSsOwoNyGtKTO8jpya6RpL
+QZO4D50NIleqcQoTQt0qn3JtFA7Lgr4gmns6JQy4s+wsVlok109rq7oAx7YrloPy
+e6YOWnv9GJEVLzfsovnE4EIgcKK4r6J1hCdyBftrrdZH19mF4rhxMAIT4HGfjm81
+uNpMAe3GOrzPhJq7Xr5QKA+7I//TyLMBDlspWYiUnB/HRFmSzJ+Qvh2QgY7MJG7e
+aPq1pQsr5sKeA95k2a9bQkC2TcqFfY2akyGkn4STVIi1Me6svHHfOOgbS5NIPQr7
+K0mX0pC1IGueNLHyv3JGFpNs7473KdNtEbg1EpK8twv5MHxkL4za9mYZeucTRYNf
+E7HjV8KQUxgtdvnfVqFra3dagfIa4FEqbxILgJ0g8IzDvPu0Ab/varJuaf4btvUV
+s8AvlA9u2qRe1gid93h2zL1rAKFFFHFuRV6lwuLxUdn9jxyIHb4fKVZKEVl0MGF/
+REn/fhEB5hrfCYG7qWwIDfb/
+=d+HX
 -----END PGP SIGNATURE-----
 
---===============8977944480785048733==
+--===============7599062581667494871==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1082,4 +1082,4 @@ fa58e6e9000c1cc76a7a0c06ea3e68d728cc4247 Merge tag 'io_uring-7.1-20260424' of gi
 f3e3dbcea15e20f7413afd8c791a496f0b80e80b Merge tag 'block-7.1-20260424' of git://git.kernel.org/pub/scm/linux/kernel/git/axboe/linux
 27d128c1cff64c3b8012cc56dd5a1391bb4f1821 Merge tag 'trace-ring-buffer-v7.1-3' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
 
---===============8977944480785048733==--
+--===============7599062581667494871==--
