@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1672575516416334424=="
+Content-Type: multipart/mixed; boundary="===============0679016888225983980=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/char-misc
-Date: Sat, 25 Apr 2026 05:54:50 -0000
-Message-Id: <177709649020.457984.16725723554285548204@gitolite.kernel.org>
+Date: Sat, 25 Apr 2026 05:54:53 -0000
+Message-Id: <177709649384.458170.9071725966315076122@gitolite.kernel.org>
 
---===============1672575516416334424==
+--===============0679016888225983980==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/char-misc
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/char-misc-linus
-    old: 591cd656a1bf5ea94a222af5ef2ee76df029c1d2
+  - ref: refs/heads/char-misc-next
+    old: 1c0220a61508d67a09a6e71eb09593a8aea61822
     new: 27d128c1cff64c3b8012cc56dd5a1391bb4f1821
-    log: revlist-591cd656a1bf-27d128c1cff6.txt
+    log: revlist-1c0220a61508-27d128c1cff6.txt
 
---===============1672575516416334424==
+--===============0679016888225983980==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1777096488 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1777096492 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/char-misc.git
-nonce 1777096488-2b9ce916b8b79365eea6e884d488be08df39f351
+nonce 1777096492-71798d32b08496158c423a0e41d601a585dc8d72
 
-591cd656a1bf5ea94a222af5ef2ee76df029c1d2 27d128c1cff64c3b8012cc56dd5a1391bb4f1821 refs/heads/char-misc-linus
+1c0220a61508d67a09a6e71eb09593a8aea61822 27d128c1cff64c3b8012cc56dd5a1391bb4f1821 refs/heads/char-misc-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmnsVykbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+mbYP/3xAH3YEZbZwwMFAD2nF
-sSTpkjnquQAVrwmKJ0HC1kGyq7L2dGDb6ozkXy7jr1qjZ8iVilprEOw5Q/6ZbjZV
-ofVytkhC3KBDCOSXHxWl3FyR0+rD19pABcoCOjAWD7IBFIY9A6vKlyDYnlmpxtqb
-qvgkiSC6EdfSmXM/3E1L1Q5bYxHTaRQVSuIQHiCibWYiZWO+CNN4lETcBQZbAkux
-/EERrgWchyV45YjD49ZtjWfGxchc97ETTsneS3GqOIENzgorcEgjoQcQL0qb30RY
-L6vF7hPl+0iVFMeRcW2iIVx5qgXnXta8FVjhLqLKRcovJbM6aIc3AF4qXH6jDO/K
-sotY/NOxEqHM2f/cHXLVBXMAn0ThR9UZFwDJE7TFPP+HHMQG1oruzlMHH+Jrw1fH
-l7nBJ5mhumdPkGSmGDnAEjcgXfz9aGj4jQHl9KrXPCxLxqu6XArOJ4HaXfxSIgsU
-OvMi2Okl9eHRlRv5ypvVdF7fAwE+wbSSAR1Snch/n53qZ3nhFl1AVR4DT6qcrRIg
-9XHRyWKCNOqRM5CMYu4g7zwV90y6nYZd3SYJqlTuzb8GqH60jrRuaa5g+lBdRGwG
-qiYl4ykJDEfVQN4Ze8NbAaRM80JiuRuMGM798pFcrtvnhug/wZVFbFjpzOCiHrzZ
-9GpZlGNLtjIeAKWeWxulpWCU
-=9+/e
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmnsVywbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+HQsQAKNFDITnlEWsFR1kYksO
+Do9PsGE9phA88hWyQvzJQjD97YHXWVuypey+wnQ/Ehd3d6Uas5ubyc9SVMJ96VTX
+43zlnrfzuZBQiDqP2ki2CUCClG+3nqq9diZ4WQW8FbR4z/BVez8b3nf6c9yZ/FMz
+Rdh/nDlmpXgL0TepVjKfWzjYe4XttnmSJlny5j6YYwl2ghq85k9IA21NLJad3YZF
+VRl2D/mA4VZ0RpNGyzmv7CYNw0lSpOfikrgjBgaxKnw4CzekG50WE1OnJtPAbjMg
+fbLZsvwoxYyasPz25EFPi0lP9bXLA7tvJp5C/YvnUSXp5M2d3J10O6+od6XNduw0
+TVkV5PR66Gj8KWILLxTHy9oNUCnY3wAH8fO+DKZ1M319Qc7kx3EC9R5xtbcoSoA9
+mKHv4bytzc0M2EYj4ruTdHn9Z300TFwR8N/WBGGNugnSjjI7NzGOIAn2rL8MFBaf
+GGp4lrAbM57XTZEXOXs3ADVmm160VrE8+XL/qQajYwHuYQUrmoizw+XI4x1W9Cgr
+G+W2nosIHfL6zSvyvbMvEwlPy5E0CQ4kdA4nQ/afZWFfTOJqiYgGvRm/pNmJGZtO
+PRx8lH2OLnHvjW6CN++WFMfp6V55B6UG1RMXUIMV52b8YnAQnl19T+UG0EpZcmgD
++HA72Vv5xuJO8HdjkEohhjVF
+=VwC7
 -----END PGP SIGNATURE-----
 
---===============1672575516416334424==
+--===============0679016888225983980==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-591cd656a1bf-27d128c1cff6.txt
+Content-Disposition: attachment; filename=revlist-1c0220a61508-27d128c1cff6.txt
 
 0a6428978df1c16971db0b0daae60b8fc0c4eb9b smb: smbdirect: introduce smbdirect_all_c_files.c
 86bca3df0fa0e6f9efd81165900de0af098f6bc2 smb: smbdirect: introduce smbdirect_internal.h
@@ -1082,4 +1082,4 @@ fa58e6e9000c1cc76a7a0c06ea3e68d728cc4247 Merge tag 'io_uring-7.1-20260424' of gi
 f3e3dbcea15e20f7413afd8c791a496f0b80e80b Merge tag 'block-7.1-20260424' of git://git.kernel.org/pub/scm/linux/kernel/git/axboe/linux
 27d128c1cff64c3b8012cc56dd5a1391bb4f1821 Merge tag 'trace-ring-buffer-v7.1-3' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
 
---===============1672575516416334424==--
+--===============0679016888225983980==--
