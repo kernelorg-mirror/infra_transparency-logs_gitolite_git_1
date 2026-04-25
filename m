@@ -1,62 +1,107 @@
-Content-Type: multipart/mixed; boundary="===============4479179703236825994=="
+Content-Type: multipart/mixed; boundary="===============3221814714564027494=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/gregkh
-Date: Sat, 25 Apr 2026 05:58:41 -0000
-Message-Id: <177709672186.465758.17621539376704240394@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
+Date: Sat, 25 Apr 2026 05:59:03 -0000
+Message-Id: <177709674330.466216.3693575825596506254@gitolite.kernel.org>
 
---===============4479179703236825994==
+--===============3221814714564027494==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/gregkh
+repo: pub/scm/linux/kernel/git/gregkh/staging
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/module_version_removal
-    old: 46d4a0dcd2ea1541782c554fb2317d3771a07162
-    new: fc2fe2a2e6d9238ecd9ed18c31fa3bad3d17359a
-    log: revlist-46d4a0dcd2ea-fc2fe2a2e6d9.txt
+  - ref: refs/heads/main
+    old: 2e68039281932e6dc37718a1ea7cbb8e2cda42e6
+    new: 27d128c1cff64c3b8012cc56dd5a1391bb4f1821
+    log: revlist-2e6803928193-27d128c1cff6.txt
 
---===============4479179703236825994==
+--===============3221814714564027494==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1777096695 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/gregkh.git
-nonce 1777096695-c5d0581a58e2e369eee8eae70469209b3e735288
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1777096741 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
+nonce 1777096741-0f474834582046a4cc1262e8ec6f795be1e9f33e
 
-46d4a0dcd2ea1541782c554fb2317d3771a07162 fc2fe2a2e6d9238ecd9ed18c31fa3bad3d17359a refs/heads/module_version_removal
+2e68039281932e6dc37718a1ea7cbb8e2cda42e6 27d128c1cff64c3b8012cc56dd5a1391bb4f1821 refs/heads/main
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmnsV/cbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+kFkP/2Cg3VyPYWfOxAIFEcAp
-Q+/x/UaEPUgILSlWrua0mjxX2rAxLuYKccYc7ZYVdPV9vtYYlslC1FM0MFNSfecw
-yc56u2Vi/IdJqemr5Ph9TwykGewgZnBcykQ4Hr19pB5M4QxwDpBWJxdcjpnG6Wq+
-xZakVrV4gsD7ROoH/9+cR94MX6KN/ZOU56ihK5gXe0J2YwHg8Xagt+M9jIeQEkOa
-raFv0rIglF/TRhAexSpFH0iUpkyTP3vOfjoCj3Brt8qaS+dcZWkIUsvG1h+e7ccg
-wxDTUbMnRpMJjvsWk6GVhEzGV4Vlq3Pv3zrmitBQVX1Y9msD/mdBGThR8JfJ1zJy
-2mo1Hj4L5/wH9GCSUT6FDgVu8blgyqwb5wTAymU9sWX+ebNAWICLS0NPrq2MMZ4w
-B4UP8/DMaUHbj+dKC/CnW5sMbH83Q8FLxTYlWvJvYdVnLBjZvEQZwlNaUFYBB/gy
-rdep1WDozSZTs5wZxuCdGmgRHc6uDglRqZircg7v3I8Deh3GvvlqZiGohXlBXv4c
-Dzm3TMUWYenguY5b07EWbmQIGiVA6/N9UNdPRejGFH4gK2HY4dhxdPZua3n5320B
-/uzjsmE62AYLCaSSAArLWXZLP8571Buut+JQxsiAny7pKJ7+RitStlF38DLnOLxv
-V29GtTPNL7RQsdd2G38ynfEb
-=m8++
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmnsWCYbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+77YQAISeCYUEyf3fNpggk7ZY
+FIK44YauM07vLY7ajwgxciKaE9xwkiUXp46bKSu8jUUrzLqGRQk+O/1XpOo13Ev5
+xsR39oTs1aoOdYN33ExFu7UvrVkYAZ1REgiOhOl2Z/6K5Q+DsFIfDzA99Pd6Y/n5
+RYowZRXEha6n1HsLDjU+eJQZ/45XPJ29bZ9EBFDksgKwCpe8MpDqr6PA+w/bu8u4
+Gomsta9RnZGC0HuxAko/2Fe8lZys5/JxwVbQGJnxHI8by0aeNTI9CAwZb2Di4PAg
+w8MbNvmV+staMUznBM3hMVoVhwTO3qrZxOjGzmXPEa2igd9Sdb/+2BdmWylm9XxW
+gnJtUxutDqI85UFLk/EEHdkiJgYH26fQoVjxcDb55oUEjr+thBNr7HzNJXO+leIQ
+/3J8y3+QnL/Ni7wCFLYR1OtpAM+4zn3Ur8q1wSt/f8x0qvnzb6hZjvKzciX8JLo/
+S4EIkut3yRCJ477CTYdmYpWcgfDPJtBceYKEGDXi5oz+Za3jC6L/gV/Y5WqFXeCB
+HLyQvf83O4o0FZ00oYuG7OU96Z8nBb4fsvGA8j/y6XNCvJZDcNeL3mx+6qEcvH3G
+hOUKCrilRZNUb3PdoIqeMm3D3rziAcHOddJZrCkCZguRysJv1V+oIwSXhBXFrBjt
+dyKP8XDlvlr0hVVNMOK5awDo
+=MOIT
 -----END PGP SIGNATURE-----
 
---===============4479179703236825994==
+--===============3221814714564027494==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-46d4a0dcd2ea-fc2fe2a2e6d9.txt
+Content-Disposition: attachment; filename=revlist-2e6803928193-27d128c1cff6.txt
 
+c1de86dab615b1b379ed856434c4fe9e71d32318 iio: adc: ad4080: remove unused dec_rate field
+1a993d5686ffe6f9b6addea22301ece733897765 iio: adc: ad7768-1: remove unused mclk_div field
+1062f21ce1052eacee2714b9078e237470bcb973 iio: adc: ad7793: remove unused int_vref_mv field
+8c0af74e250734ab91276f2cc53058a0b394758a iio: adc: ad9467: remove unused output_mode field
+d41114a74e7312991ed05fe051d2c6fd04685b96 iio: adc: max1363: remove unused requestedmask field
+726c1035ba1e6a09d75367d900525c77d654db27 iio: adc: nau7802: remove unused min_conversions field
+0555e56f4c4b4b78191de7abf0ff6f8ab133a7c1 iio: adc: ti-ads1015: remove unused enabled field
+3890d6a324960816df9e8cebd742b11ee7591186 iio: dac: adi-axi-dac: remove unused int_tone field
+18c1d078efee67c0d65f1725bb07f5d3be7c8025 iio: dac: ti-dac5571: remove unused id field
+5c9ba5d863add3423e7b7ccdf44c7fd646171dd1 iio: humidity: hdc2010: remove unused interrupt_config
+c1f9dea72c9e0ee764a8d823696da32abcb00900 iio: imu: bmi323: remove unused drdy_trigger_enabled
+9c21a850f0c7a4bb9a50487b918a858014835b65 iio: light: apds9306: remove unused nlux_per_count
+2ac8cd2bab30509cfada82546eee96f0aca38c20 iio: light: gp2ap020a00f: remove unused debug_reg_addr
+dd31b649ef002302331cbff137d8045885e49a11 dt-bindings: iio: adc: cpcap-adc: document Mot ADC
+18a1ae3e7350e1798ea9f492959d5000ae5d9bc4 iio: adc: cpcap-adc: add support for Mot ADC
+1ff6d25d691d1b10c977b61219206c3400a81606 iio: light: ltr501: return proper error code from ltr501_get_gain_index()
+8bd1254c92c92382114ff9b3b727d5cb81167df7 bus: mhi: host: pci_generic: Enable IP_SW and IP_ETH channels for Qcom QDU100 device
+54b022f162a7f9b7c4f2b3902e4873d74f8d0875 bus: mhi: host: pci_generic: Add NMEA channels to FN920C04 and FN990A
+cfdb41adf1c2822ad1b1791d4d11093edb5582b6 bus: mhi: host: pci_generic: Switch to async power up to avoid boot delays
+f227b246307e0cf3091e13e7fbae3974aaf38eb9 bus: mhi: host: pci_generic: Add pm_runtime_forbid() in remove callback
+43cb0a21a47577938735919a6effe9805414d40a dt-bindings: interconnect: document the RPMh Network-On-Chip interconnect in Mahua SoC
+dfff14a4a44d8bbf33bdd08535b30981e76230f1 interconnect: qcom: glymur: Add Mahua SoC support
+28a70e793977a606395550b3c0547c14b6441e98 dt-bindings: interconnect: qcom,qcs8300-rpmh: add clocks property to enable QoS
+bc888ba1d493d5c352365cc24de64f093343a7b1 interconnect: qcom: qcs8300: enable QoS configuration
+fee48405a027516e0cde9c2b04a2714f035f7157 dt-bindings: interconnect: OSM L3: Document sm8550 OSM L3 compatible
+7245b2ad0aee119f8edbb41b3f486af92e4f8baf dt-bindings: interconnect: qcom,glymur-rpmh: De-acronymize SoC name
+26078bbdad9704ba1567d6c79a8191f6184229bf interconnect: qcom: De-acronymize SoC names
+a39efc80ff507d91cdaa4d2d143143300330f599 interconnect: qcom: Add Eliza interconnect provider driver
+b6adc224b7ac7f31d53b379951cba1be7009a564 Merge branch 'icc-eliza' into icc-next
+086502e93524e797fe431c8f091faea523eca08c Merge branch 'icc-mahua' into icc-next
+3e90f5103a8b19c69ba98d841d4b6a924266b165 Merge branch 'icc-qcs8300' into icc-next
+37e89761380b5e65dccf3f0e5fa494f2514a08a2 dt-bindings: input: touchscreen: sitronix,st1232: Add wakeup-source
+6d4b67a2a76a4ff2393fe88119ae4332821b82b4 Input: mpr121 - drop redundant wakeup handling
+0421ccdfad0d92713a812a5aeb7d07b0ea7213c8 Merge tag 'v7.0-rc3' into next
+e732b2ac0a18b64369c0def65b6214f6748d0d73 Input: hgpk - remove protocol support
+3873f16d4936690ddd7b35231fa5c712a3c63a54 Input: psmouse - replace flush_workqueue() with disable_delayed_work_sync()
+d4904a3d7159b342d45de8495046d33d1c18998e Input: alps - use standard workqueue when registering supplemental device
+beb2b0a26c3a1021421e8db40154c3b6687b6621 Input: psmouse - remove dedicated kpsmoused workqueue
+a90863095f84f6d17c49716e4e2212d28a6b25b5 MAINTAINERS: coresight: Add Leo Yan as Reviewer
+edb7efa767da8bb82d724b85178be251ec4e060e dt-bindings: arm64: add Marvell 7k COMe boards
+af2f069b78950910ec7932a21544faad5ad8b13f iio: adc: max1363: Reformat enum and array initializers
+aac0a51b16700b403a55b67ba495de021db78763 iio: frequency: admv1013: fix NULL pointer dereference on str
+1653e0897f1526acfb6d041d4920ebc6a3c3b028 iio: light: acpi-als: Register ACPI notify handler directly
+d4243cb08a272b6cc0f7c8293f9c7e128b51795c iio: light: acpi-als: Convert ACPI driver to a platform one
+8d8613036491f1057b1eeca4e4b2c41d8d465a63 iio: adc: at91-sama5d2_adc: no devm for nvmem_cell_get
 d6f2eac6440329d8c1d981b907b9ecd325ee3d2f iio: adc: meson: no devm for nvmem_cell_get
 9a2e1233d38c460ad07f36901931f3674a32d1ed iio: buffer: hw-consumer: remove redundant scan_mask flexible array
 c4e73728626e9930ecbb14b9cb2418d36feeefe4 iio: accel: adxl313: convert to guard(mutex)
@@ -149,13 +194,6 @@ cfeae3ce3e5a5755aeada4930a84cf4cbac3ea10 iio: dac: ds4424: convert to regmap
 f789b8cc39f0dc46b1654aff84e420927bea4272 dt-bindings: iio: dac: maxim,ds4424: add maxim,rfs-ohms property
 af980a79bfed43c4a0be12cca786be46f1a0c5e8 iio: dac: ds4424: add Rfs-based scale and per-variant limits
 2ff6cc999a04bcb094b8cbba68a9251f03a5c876 arm64: dts: marvell: armada-37xx: drop 'marvell,usb-misc-reg' from USB host nodes
-fa8be59ce23df05d3e1190ce4238f6f875d3868d s390/percpu: Provide arch_raw_cpu_ptr()
-23a4757d6d699e602b358808359149d0e8be6db9 s390/zcrypt: Move inline function rng_type6cprb_msgx from header to code
-e2c6d91eb8b1533753755f07803e47eceed263d0 s390/zcrypt: Rework domain processing within zcrypt device driver
-ecd2fd113e89978ca750a81dea033a2e9f3347df s390/zcrypt: Make apfs a real unsigned int field
-227a9197bace4871c64ccd43b4946fc2886083b8 s390/zcrypt: Rework MKVP fields and handling
-0e72b785b60e2a33f7bfe1c492f0717e7835b9a4 s390/zcrypt: Explicitly use a card variable in _zcrypt_send_cprb
-2a0a1db5081df02d6753deb1826fd3932a1ab168 s390/zcrypt: Slight rework on the agent_id field
 117f8e71d61dab08b9be84b7dd0dd65916ed13c0 Merge tag 'v7.0-rc5' into next
 731c634ea95ebf2eb0162174f14c6f341c44f71e dt-bindings: input: touchscreen: edt-ft5x06: Add FocalTech FT3519
 824d679941c9bf098214e8fbacbce9b7213e07ce dt-bindings: input: matrix-keymap: fix key board wording
@@ -267,8 +305,6 @@ df53055c540fe8850f587a6ef0d6944bdd909483 Input: aw86927 - add support for Awinic
 f13b7800929df0df0ba2407226ba1b627b482c92 Input: usbtouchscreen - refactor endpoint lookup
 028f3d0168f83be903f34a8b52cd6254d9695a57 interconnect: debugfs: fix devm_kstrdup and kfree mismatch
 0436cd305d0be28cde59efb137d15d1bc6af4b12 MAINTAINERS: Add interconnect kunit test entry
-052abf9ac00b69da50342698679a67c3c0901f7f s390/hmcdrv: Remove commented out code
-e3d074b5e642ed40c31876816a2af0ddcf9b94a3 s390/pkey: Add comment about synchronize_rcu() to pkey base
 241cb8dee0f83856c728f4fe2c29e331386c92f2 comedi: add comedi_check_request_region()
 cb51837eeeddac2da41f4c202597c534bb9d8dc9 comedi: 8255: Add some I/O base address sanity checks
 a02b67b23e2f1839498b040675c9c8ad864b6aea comedi: adq12b: Add sanity checks for I/O base address
@@ -430,9 +466,6 @@ f7a78e84446e19c9de9adda85a064f947aefa336 Input: ct82c710 - remove driver
 90ac490364bd7e3c161037ce86b6a313cdb09ae7 Merge tag 'imx-fixes-7.0-2nd' of https://git.kernel.org/pub/scm/linux/kernel/git/frank.li/linux into arm/fixes
 1cc30cfc66a1db71cdd7a0f52b90f74091e8eb77 Merge tag 'reset-fixes-for-v7.0-3' of https://git.pengutronix.de/git/pza/linux into arm/fixes
 3e2444044d160e33ec2b139d1e4f9691bb9d9bac Merge tag 'mvebu-fixes-7.0-1' of https://git.kernel.org/pub/scm/linux/kernel/git/gclement/mvebu into arm/fixes
-737c4f4a241ca85c597ca2ef1a6f8446bf681ab5 docs: s390/pci: Improve and update PCI documentation
-e4f9ab031dc86c9987c3619e97c5c7d8ad7afda2 PCI: s390: Expose the UID as an arch specific PCI slot attribute
-8d7ea40011551c2ec915ee0260cae1c746c63156 s390/zcrypt: Fix warning about wrong kernel doc comment
 eecdd4bd6e47bf0c8ff1e049771fa5bab7074c7c drm/bridge: stm_lvds: Do not fail atomic_check on disabled connector
 2d76319c4cbb19eccfca71fa05d40a6b4ce7fc3d dma-buf: fix UAF in dma_buf_put() tracepoint
 8867262d993d249309a8d3ec28ce095378cf1720 drm/panthor: Extend VM locked region for remap case to be a superset
@@ -456,11 +489,6 @@ b0ed12538fdfeb39c844eba3fa4c269ddb4ebca7 NFS/blocklayout: print each device used
 4fa7ab8d292b1d4271fad397d98ea440e474cd7f NFS: fix RENAME attr in presence of directory delegations
 515af10044f1c0d6f4356fcfb313465f02f484e9 NFSv4: retry GETATTR if GET_DIR_DELEGATION failed
 8c787b286f39c7584440b97b92f87cbe934c13ff NFSv4.1: Apply session size limits on clone path
-1c80dd81cac1865bbd6049bb93068a41ffb19845 Drivers: hv: vmbus: Limit channel interrupt scan to relid high water mark
-80acc80ea25dad5f8f71bafcadca6258efec6236 mshv: Introduce tracing support
-0d5acba6331c326f394a677daf49a67f44a0416a Drivers: hv: vmbus: Export hv_vmbus_exists() and use it in pci-hyperv
-ca5ee0e918115fb5cf626d75461d9fca06e06caf tools: hv: Fix cross-compilation
-404cd6bffe17e25e0f94ed2775ffdd6cd10ac3fd mshv_vtl: Fix vmemmap_shift exceeding MAX_FOLIO_ORDER
 ad3ac32a3893a2bbcad545efc005a8e4e7ecf10c drm/arcpgu: fix device node leak
 be19b43f92fae4794f271ed9e338bdbcfa725aa2 drm/bridge: dw-mipi-dsi: Fix bridge leak when host attach fails
 cf162476f7e082662691e75f96bfc99c6a64810d ASoC: rt1320: fix the warning 'rae_fw' from request_firmware() not released
@@ -470,7 +498,6 @@ a158fe7b0c817eebcf2871fe1306347a376030e8 ASoC: SOF: Intel: NVL-S: add platform n
 ebeef57b7ba92ff5b4edcd14a34b30b9645871db spi: dt-bindings: fsl: Correct GPIO flags in the example
 9c53a0379e29b25dbfe043fca80fc784b00a62e3 MAINTAINERS: update Socionext SPI maintainer address
 978df761538ec60265a7a968204fd4a8f1548185 MAINTAINERS: update second Socionext SPI maintainer address
-8fc1ad90075f54797197827787ac691bf410b07b tomoyo: use u64 for holding inode->i_ino value
 b04a4f8ff704febfb1a7d052ef2ad8adac1d9cfa mailmap: Update Sasha Finkelstein's email address
 44d9ae042c58977e56459e0bc0db0af678214605 dt-bindings: Update Sasha Finkelstein's email address
 c7ff53ef45b2f879576f7bbeb163828d04f5f491 arm64: dts: apple: Fix spelling error
@@ -677,8 +704,6 @@ f996edd7615e686ada141b7f3395025729ff8ccb ipv6: fix possible UAF in icmpv6_rcv()
 5c9fcac3c872224316714d0d8914d9af16c76a6d net: ks8851: Reinstate disabling of BHs around IRQ handler
 22230e68b2cf1ab6b027be8cf1198164a949c4fa net: ks8851: Avoid excess softirq scheduling
 0cf004ffb61cd32d140531c3a84afe975f9fc7ea sctp: fix OOB write to userspace in sctp_getsockopt_peer_auth_chunks
-f67950b2887fa10df50c4317a1fe98a65bc6875b eventfs: Use list_add_tail_rcu() for SRCU-protected children list
-07004a8c4b572171934390148ee48c4175c77eed eventfs: Hold eventfs_mutex and SRCU when remount walks events
 a13e942a03feea211c67a97bc6a57f82aa56e4b6 smb: client: compress: fix bad encoding on last LZ77 flag
 90ea1d02f4031640dae6d6c18c45d9722c9b2243 cifs: update internal module version number
 d891635322fbb49559ce9da4cad8643331600519 Merge tag 'i2c-host-7.1-part2' of git://git.kernel.org/pub/scm/linux/kernel/git/andi.shyti/linux into i2c/for-mergewindow
@@ -726,8 +751,6 @@ b94769eb2f30e61e86cd8551c084c34134290d89 net: airoha: Fix possible TX queue stal
 f6315295899415f1ddcf39f7c9cb46d25e2c6c6a hv_sock: Report EOF instead of -EIO for FIN
 5638504a2aa9e1b9d72af9060df1a160cce2d379 gtp: disable BH before calling udp_tunnel_xmit_skb()
 a663bac71a2f0b3ac6c373168ca57b2a6e6381aa net: mctp: fix don't require received header reserved bits to be zero
-768059ede35f197575a38b10797b52402d9d4d2f ktest: Fix the month in the name of the failure directory
-932cdaf3e273a2727e77af97f79f12577174c5a0 ktest: Add logfile to failure directory
 2fc87d37be1b730a149b035f9375fdb8cc5333a5 drm/nouveau: fix u32 overflow in pushbuf reloc bounds check
 ee5417fd02cabb6235a89daf5142ffde9aa957fd io_uring/tctx: check for setup tctx->io_wq before teardown
 41859843f27dd5c8d3bc43489ad9196c96d39f2b io_uring/tctx: mark io_wq as exiting before error path teardown
@@ -770,13 +793,7 @@ d647f2545219754603b2064de948425cdfd93fba net: airoha: Fix PPE cpu port configura
 28e4a49a28b339b3d14564dd763d109799782687 arm64: dts: amlogic: t7: khadas-vim4: fix board model name
 918273be0885362a9a00615b46e03f15f8b55667 arm64: dts: amlogic: meson-axg: Add missing cache information to cpu0
 174a0ef3b33434f475c87e66f37980e39b73805a arm64: dts: meson-gxl-p230: fix ethernet PHY interrupt number
-6ad51ada17ed80c9a5f205b4c01c424cac8b0d46 tracing/fprobe: Reject registration of a registered fprobe before init
-1aec9e5c3e31ce1e28f914427fb7f90b91d310df tracing/fprobe: Unregister fprobe even if memory allocation fails
-845947aca6814f5723ed65e556eb5ee09493f05b tracing/fprobe: Remove fprobe from hash in failure path
 922f8c28811f266fe5fc52a6d2852871e40ce098 spi: Fix the error description in the `ptp_sts_word_post` comment
-aa72812b49104bb5a38272fc9541feb62ca6fd32 tracing/fprobe: Avoid kcalloc() in rcu_read_lock section
-0ac0058a74ac5765c7ce09ea630f4fdeaf4d80fa tracing/fprobe: Check the same type fprobe on table as the unregistered one
-256e5254efff48d6de97e314dc17d55504c55164 kgdb: update outdated references to kgdb_wait()
 d5d5f80416a3a749906c04d56575e2290792654b ALSA: pcmtest: Fix resource leaks in module init error paths
 eacda758e3c01db98b5c231f56cf9a6e05ced75c ALSA: hda/realtek - Add mute LED support for HP Victus 15-fa2xxx
 b5129bda5bbcceea5b2589c8248d39f77660aa19 block: only restrict bio allocation gfp mask asked to block
@@ -815,18 +832,10 @@ d1fef92e414433ca7b89abf85cb0df42b8d475eb rbd: fix null-ptr-deref when device_add
 e58103cafff2e3ee2196d6d3347fc47d6e0a047a ceph: handle InodeStat v8 versioned field in reply parsing
 4a1c5434792df72c4df6225fb697494a2405a137 ceph: parse subvolume_id from InodeStat v9 and store in inode
 b1137e0b3d4bad1cad73fa9bac763c74ddd1813d ceph: add subvolume metrics collection and reporting
-476c5bbae65c9ab60b61fca9abd72df75a077183 tracing/fprobe: Fix to unregister ftrace_ops if it is empty on module unloading
-132001e9f90e577d002e0ba613205340c579921f selftests/ftrace: Add a testcase for fprobe events on module
-453553e1ed53ca364454e155ba33e110d02c75cd selftests/ftrace: Add a testcase for multiple fprobe events
 0389aa700912ad14c43b8cfbabd707dfce22de6a Merge tag 'amd-drm-next-7.1-2026-04-17' of https://gitlab.freedesktop.org/agd5f/linux into drm-next
 1967f0b1cafdde37aa9e08e6021c14bcc484b7a5 io_uring/poll: ensure EPOLL_ONESHOT is propagated for EPOLL_URING_WAKE
-beaba8bfbb91e3bb3133eacacd62fd6fea515e34 Merge tag 'probes-v7.1-2' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
 d0be8884f56b0b800cd8966e37ce23417cd5044e io_uring: take page references for NOMMU pbuf_ring mmaps
 68637b68afcc3cb4d56aca14a3a1d1b47b879369 pwm: atmel-tcb: Cache clock rates and mark chip as atomic
-cfc42685e5700e33bb25911d556b2727479de97c mshv: Add tracepoint for GPA intercept handling
-3c42b33433796b73ddecd8f60bda419b1648d997 Drivers: hv: vmbus: fix hyperv_cpuhp_online variable shadowing
-f7ce370b525a02127527b0f54ee877413705a709 x86/hyperv: move stimer cleanup to hv_machine_shutdown()
-5170a82e89211d876af17bf3d94a511fb2bb4921 x86/hyperv: Skip LP/VP creation on kexec
 3d9aba6618d115750729bba2d1f8af180bd7d3bd LoongArch: Adjust build infrastructure for 32BIT/64BIT
 8b81576c16c0681b0c0148200a8c3ce33ad5f6fa LoongArch: Add HIGHMEM (PKMAP and FIX_KMAP) support
 1829419bc3b291ad9547abe70053c2620832ac41 LoongArch: Handle CONFIG_32BIT in syscall_get_arch()
@@ -892,22 +901,14 @@ fca46b0e68c5d4f37c1dffb854ab125f702fa9e9 smb: client: compress: increase LZ77_MA
 dd1c537beca3b60a66783377fd03d60a5a409efe smb: client: Make generate_key() return void
 a83307f34e0bd9b0e595b1074dc8fbcc1b7f3172 smb: client: Drop 'allocate_crypto' arg from smb*_calc_signature()
 87a3f5c8ac2096e9406ce2ed3bf5b9bc1589a92d ASoC: sdw_utils: cs42l43: allow spk component names to be combined
-5335e318ad3cf12d905de27e3be4e7fd7b1c6746 tracing: Make undefsyms_base.c a first-class citizen
 fca9c850042a7ab4828ce3a9caa8bc40ea09856a ALSA: usb-audio: Avoid false E-MU sample-rate notifications
 a9224f26b754b5034719248891ff3c2ea0d11144 ALSA: usb-audio: Fix Audio Advantage Micro II SPDIF switch
-8fd12b03c7c888303c3c45559d8c3e270a916f9f Merge tag 'hyperv-next-signed-20260421' of git://git.kernel.org/pub/scm/linux/kernel/git/hyperv/linux
 46401cc99c6237ba825cfd65ef023955ce2a6316 apparmor: Replace memcpy + NUL termination with kmemdup_nul in do_setattr
 e6a522c5b4803b8f5632d5ce8f27431a1ae73222 apparmor: Remove redundant if check in sk_peer_get_label
 497ad4be355b70a6786dd9344710d98b14b92848 apparmor: Use sysfs_emit in param_get_{audit,mode}
-2a4c0c11c0193889446cdb6f1540cc2b9aff97dd Merge tag 's390-7.1-1' of git://git.kernel.org/pub/scm/linux/kernel/git/s390/linux
 6d619f73970397e13d2d3f830b183fcd9f58e749 ASoC: dt-bindings: ti,tas2781: Add TAS5832 support
 1f95fdef685ee76393981de062e6b26210d88a9c ASoC: tas2781: Add tas5832 support
 24fcdc81dd7e1560e57eff75b618e5b00054b714 ASoC: dt-bindings: ti,tas2781: Add TAS5832 support
-87d03777eb5dff5ea03802933e9045e64ebf004d Merge tag 'tomoyo-pr-20260422' of git://git.code.sf.net/p/tomoyo/tomoyo
-38ee6e1fb6f66ca6c82ad638a3c622feeaa488f2 Merge tag 'kgdb-7.1-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/danielt/linux
-1e18ed5727e827d627e4897bfed9d001d5d51d65 Merge tag 'trace-ring-buffer-v7.1-2' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
-66a7974a395fe0ab8fb9f6acd013343bc6bad83a Merge tag 'ktest-v7.1-2' of git://git.kernel.org/pub/scm/linux/kernel/git/rostedt/linux-ktest
-2e68039281932e6dc37718a1ea7cbb8e2cda42e6 Merge tag 'tracefs-v7.1-2' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
 1249c01aa42160e40bc765ba5a3cde751491ff0a smb: smbdirect: move fs/smb/common/smbdirect/ to fs/smb/smbdirect/
 429e6c7f90d12a8551b3eaa9faca7cfaefd99b1d Merge tag 'input-for-v7.1-rc0' of git://git.kernel.org/pub/scm/linux/kernel/git/dtor/input
 df7bf834a135e1f5bcbeecbec07605fa5d92f0bd Merge tag 'vfio-v7.1-rc1-pt2' of https://github.com/awilliam/linux-vfio
@@ -1080,6 +1081,5 @@ b85900e91c8402bedc1db14e6d293e26f25d30d4 Merge tag 'nfs-for-7.1-1' of git://git.
 fa58e6e9000c1cc76a7a0c06ea3e68d728cc4247 Merge tag 'io_uring-7.1-20260424' of git://git.kernel.org/pub/scm/linux/kernel/git/axboe/linux
 f3e3dbcea15e20f7413afd8c791a496f0b80e80b Merge tag 'block-7.1-20260424' of git://git.kernel.org/pub/scm/linux/kernel/git/axboe/linux
 27d128c1cff64c3b8012cc56dd5a1391bb4f1821 Merge tag 'trace-ring-buffer-v7.1-3' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
-fc2fe2a2e6d9238ecd9ed18c31fa3bad3d17359a module: remove MODULE_VERSION()
 
---===============4479179703236825994==--
+--===============3221814714564027494==--
