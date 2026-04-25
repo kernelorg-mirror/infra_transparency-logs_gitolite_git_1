@@ -1,90 +1,62 @@
-Content-Type: multipart/mixed; boundary="===============7464599976946232777=="
+Content-Type: multipart/mixed; boundary="===============9024872880419935123=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Sat, 25 Apr 2026 05:57:04 -0000
-Message-Id: <177709662413.462975.7283729124712022915@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gregkh/gregkh
+Date: Sat, 25 Apr 2026 05:57:05 -0000
+Message-Id: <177709662515.463038.6954300652103462619@gitolite.kernel.org>
 
---===============7464599976946232777==
+--===============9024872880419935123==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/usb
+repo: pub/scm/linux/kernel/git/gregkh/gregkh
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/usb-next
-    old: 2e68039281932e6dc37718a1ea7cbb8e2cda42e6
-    new: 27d128c1cff64c3b8012cc56dd5a1391bb4f1821
-    log: revlist-2e6803928193-27d128c1cff6.txt
+  - ref: refs/heads/clanker
+    old: fe9d5677366a7d053a43f19d6c9217d254e6620c
+    new: 6b5e41dcc3583fa4db5c77da3fce72899ee715bb
+    log: revlist-fe9d5677366a-6b5e41dcc358.txt
 
---===============7464599976946232777==
+--===============9024872880419935123==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1777096622 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1777096622-ae653a95c6c4cf938348c91bbf88fc7451f43cb7
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1777096599 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/gregkh.git
+nonce 1777096598-2105f818577576577df2643630d6f32c20b939fb
 
-2e68039281932e6dc37718a1ea7cbb8e2cda42e6 27d128c1cff64c3b8012cc56dd5a1391bb4f1821 refs/heads/usb-next
+fe9d5677366a7d053a43f19d6c9217d254e6620c 6b5e41dcc3583fa4db5c77da3fce72899ee715bb refs/heads/clanker
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmnsV64bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+1H8P/A81RkeVfa/eQGiI6haJ
-Xo+aaIebc5myFYK7YNzmikxeehPvgN81bn3iEtxce3cK25V2cIRAwH+0b/qqx8L3
-uICRoxsFptCs1YiQVCNF1tNbxZZW0ATv8UULWlJBwmuay8tyBTI9FYewggMrHjwn
-qRSMfjhJbS+w9Vf/QbNVwJZBREMoKamAB9nm2rQqxBbR8Mzc2OKJN/r5mq3xTGmZ
-H6NF1w4fa0+gSWCvP1iKsouSg+qzQO+3rF8h7RE05LMnl+QcBhFAkq2S7ozobHaG
-HUhcpSBepigw/QVeHZx7kz+vMYqxhH5a++0KSKsg+k33D82EXsnGYwzNWjhW8s0M
-7BrJX/yfcPA7uOimuMsY/ByyjAsutFCNpAVv03Y6vpParGhVRjjtVdHzKuVgSFck
-Ivn6fpgo3XRKcVWUm30IuuqyhT75fU8+dsNtwb8ZhsyLVyQlqMV1Onmcx+KQAaNB
-nL1MQKhRL0HS8IKVcvIpRUe5R6ivjHZZWw8rf5IOGxRQ10RIUuePv+qunzWnOdcw
-NS/jJ5R8krHptRIm6GN3g4nkq7rVVAUql9+D83lCZ+lgv2DL4TqmuvCGs4WLDbPB
-Un4TSFGdDP70CPb6KOOhaGjShUgAMbUXMbhr8W5UjHizNkVo92iyLgPaOShOSMOj
-OkjY/QJzwcd1XaE0mvl3VXIu
-=2BHN
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmnsV5cbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+El8QAIS5Fusjb29gi3+lOUWc
+ksJcUoJj1Umq3NBgL4s/ELQ6LmgJS5hum5+RTrCx/Uur5PcyaEGAvvo0arHcNxFm
+5al0+B2+L0YfDcg1PdMfRBwt0Y0BlQG7h0hAa0ssFqZeWENvNaNIjO5RN1+iu6hH
+TfJWxQGmMJFC3YOWG/nQlBg8CrbZuWcTajwtXzJB5bfgX/ylOhD6kPkKcjlABWvb
+Omo6uVCOnbZOWKlPXy6z/okxELeay1iote8UgHxBr3KzfKQ7KClquchqV3pl+N6E
+JObdDQ79UXAKI6rTr5xw1kVkbQW1IQxURXwDaa4s2+BuRhqGx4/r4BfczdlAMl6u
+8LsX+/bcWy/PqqTEXmW77QNyZ4thJ91PNbfaj8ImFm1bRWIf6H7mcmmvhXXALzL/
+36+qudT9XiBD46W7Jmh2OY0JDHPK3FcPRmpI/0U5KjDCZQoGNdBdZwh2zm2x9con
+yCagtByPq6ljQE7IvQKJ/6JbyPtwW8cqsKy5O3Wy3LuvKpw2lZIe+7uH2KETaG3P
+wMYKV24ILxrFYMQApxJYHQW/0F0dFsYRQLyae4sxYtPt+UymM3UfmCeffXxC8NNw
+0RBDTNt1oCeSLBkVQOBbLze+sxBB4zUpvEno+k6ylTpvnKqqpl6Tgb4Y47r11N/j
+Cox1XE3UfF93NC96cmkRpIdb
+=WaHC
 -----END PGP SIGNATURE-----
 
---===============7464599976946232777==
+--===============9024872880419935123==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-2e6803928193-27d128c1cff6.txt
+Content-Disposition: attachment; filename=revlist-fe9d5677366a-6b5e41dcc358.txt
 
-c1de86dab615b1b379ed856434c4fe9e71d32318 iio: adc: ad4080: remove unused dec_rate field
-1a993d5686ffe6f9b6addea22301ece733897765 iio: adc: ad7768-1: remove unused mclk_div field
-1062f21ce1052eacee2714b9078e237470bcb973 iio: adc: ad7793: remove unused int_vref_mv field
-8c0af74e250734ab91276f2cc53058a0b394758a iio: adc: ad9467: remove unused output_mode field
-d41114a74e7312991ed05fe051d2c6fd04685b96 iio: adc: max1363: remove unused requestedmask field
-726c1035ba1e6a09d75367d900525c77d654db27 iio: adc: nau7802: remove unused min_conversions field
-0555e56f4c4b4b78191de7abf0ff6f8ab133a7c1 iio: adc: ti-ads1015: remove unused enabled field
-3890d6a324960816df9e8cebd742b11ee7591186 iio: dac: adi-axi-dac: remove unused int_tone field
-18c1d078efee67c0d65f1725bb07f5d3be7c8025 iio: dac: ti-dac5571: remove unused id field
-5c9ba5d863add3423e7b7ccdf44c7fd646171dd1 iio: humidity: hdc2010: remove unused interrupt_config
-c1f9dea72c9e0ee764a8d823696da32abcb00900 iio: imu: bmi323: remove unused drdy_trigger_enabled
-9c21a850f0c7a4bb9a50487b918a858014835b65 iio: light: apds9306: remove unused nlux_per_count
-2ac8cd2bab30509cfada82546eee96f0aca38c20 iio: light: gp2ap020a00f: remove unused debug_reg_addr
-dd31b649ef002302331cbff137d8045885e49a11 dt-bindings: iio: adc: cpcap-adc: document Mot ADC
-18a1ae3e7350e1798ea9f492959d5000ae5d9bc4 iio: adc: cpcap-adc: add support for Mot ADC
-1ff6d25d691d1b10c977b61219206c3400a81606 iio: light: ltr501: return proper error code from ltr501_get_gain_index()
-8bd1254c92c92382114ff9b3b727d5cb81167df7 bus: mhi: host: pci_generic: Enable IP_SW and IP_ETH channels for Qcom QDU100 device
-54b022f162a7f9b7c4f2b3902e4873d74f8d0875 bus: mhi: host: pci_generic: Add NMEA channels to FN920C04 and FN990A
-cfdb41adf1c2822ad1b1791d4d11093edb5582b6 bus: mhi: host: pci_generic: Switch to async power up to avoid boot delays
-f227b246307e0cf3091e13e7fbae3974aaf38eb9 bus: mhi: host: pci_generic: Add pm_runtime_forbid() in remove callback
-43cb0a21a47577938735919a6effe9805414d40a dt-bindings: interconnect: document the RPMh Network-On-Chip interconnect in Mahua SoC
-dfff14a4a44d8bbf33bdd08535b30981e76230f1 interconnect: qcom: glymur: Add Mahua SoC support
-28a70e793977a606395550b3c0547c14b6441e98 dt-bindings: interconnect: qcom,qcs8300-rpmh: add clocks property to enable QoS
-bc888ba1d493d5c352365cc24de64f093343a7b1 interconnect: qcom: qcs8300: enable QoS configuration
-fee48405a027516e0cde9c2b04a2714f035f7157 dt-bindings: interconnect: OSM L3: Document sm8550 OSM L3 compatible
-7245b2ad0aee119f8edbb41b3f486af92e4f8baf dt-bindings: interconnect: qcom,glymur-rpmh: De-acronymize SoC name
-26078bbdad9704ba1567d6c79a8191f6184229bf interconnect: qcom: De-acronymize SoC names
-a39efc80ff507d91cdaa4d2d143143300330f599 interconnect: qcom: Add Eliza interconnect provider driver
 b6adc224b7ac7f31d53b379951cba1be7009a564 Merge branch 'icc-eliza' into icc-next
 086502e93524e797fe431c8f091faea523eca08c Merge branch 'icc-mahua' into icc-next
 3e90f5103a8b19c69ba98d841d4b6a924266b165 Merge branch 'icc-qcs8300' into icc-next
@@ -1081,5 +1053,33 @@ b85900e91c8402bedc1db14e6d293e26f25d30d4 Merge tag 'nfs-for-7.1-1' of git://git.
 fa58e6e9000c1cc76a7a0c06ea3e68d728cc4247 Merge tag 'io_uring-7.1-20260424' of git://git.kernel.org/pub/scm/linux/kernel/git/axboe/linux
 f3e3dbcea15e20f7413afd8c791a496f0b80e80b Merge tag 'block-7.1-20260424' of git://git.kernel.org/pub/scm/linux/kernel/git/axboe/linux
 27d128c1cff64c3b8012cc56dd5a1391bb4f1821 Merge tag 'trace-ring-buffer-v7.1-3' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
+d132a0d31f46618d28eae954cb0f3c5dda3e9319 net: mctp: usb: properly drop the usb interface on probe error
+275fc5841f0e23f56bedccd5a2509ba1660ce0f9 wifi: rtw88: properly drop usb interface reference on error
+d93eaf6be51d43ddd2ebbb20d90705210858ff71 mmc: moxart: fix potential use-after-free on remove path.
+5eaf21f5dda557e684f2448e75a7ed17ba5f2c88 mmc: meson-gx: fix potential use-after-free on remove path.
+c912fbcd3052a4fc2cd61c45ade1f0e73b4f01bf f2fs: fix potential deadlock in f2fs_convert_inline_inode
+0fca0a2383ea2213c7642f7b1ea2c5ec792a2831 drm/amdkfd: stop speculation on the kfd_ioctl path
+b0a706aa3d3eb4aae7049eddbcb1536fb3e3a876 iio: pressure: bmp280: fix stack leak in bmp580 trigger handler
+6030a2f30abc67246f7d49fc9c2c6526b38d1a8d iio: imu: st_lsm6dsx: fix stack leak in tagged FIFO buffer
+951076acbac080ca394c87c1720bf6e66fbf286b iio: imu: adis16550: fix stack leak in trigger handler
+4a9dd51f5e1277559ca29080eddd43fe244a932d media: adv7604: avoid negative array index in log_status when cp_read fails
+0514b502ae1a51c9618cb345e7d05fbf4db32e2e media: stv090x: bound DiSEqC reply length to msg[] size
+7f57d1dbb8a49972703f61940868bc6b95915801 media: stv0900: bound DiSEqC reply length to msg[] size
+6f32d7935966da426a17b09b841d43cb33d62964 NFC: digital: Bounds check Felica response before sensf_res memcpy
+9529aaef39bacb5ea44d31b27f4105dafc51bd9f idpf: fix double free and use-after-free in aux device error paths
+9fe07585a2a0759a9714c0d0d6c382286d3b5a6d net: usb: cdc_ncm: reject negative chained NDP offsets
+640f82efea867afc0675750d7172d6123760d18c net: sched: em_text: require NUL-terminated algo name
+afc37e4bc32c130ef42ee672327fa135d958713f scsi: target: configfs: bound snprintf return in tg_pt_gp_members_show
+673058858dd01b9e731d12671e7a7e5693c50b74 staging: rtl8723bs: fix OOB write in HT_caps_handler()
+325cfa2ad8db47a73f8a9bf4ba209ece5af871a7 Input: xpad - reject short Xbox One packets before len-relative share-button index
+d8f9fbe6bb4b42fe063d19f6445e1082009ae4cd Input: usbtouchscreen - clamp NEXIO data_len/x_len to URB buffer size
+31d3070193d4646084acea2c89121ca1955144b9 usb: usblp: fix heap leak in IEEE 1284 device ID via short response
+8c09915e34df95eb3824def7ec920082ce6f0339 usb: usblp: fix uninitialized heap leak via LPGETSTATUS ioctl
+9567edb3682248af2c8c0d1b6d79d15fdfc52060 Input: synaptics-rmi4 - validate register descriptor structure against its declared size
+9074a311c8d934ef64b9a1602da69223a43af599 Input: synaptics-rmi4 - use u32 for reg_size to avoid sign extension into item->reg_size
+4895fa83dba68bcad63b49c605f1809ec56a541d ipv4: clamp MCAST_MSFILTER getsockopt to optlen, not gf_numsrc
+c80e0be82e20191a53de564d6e144f8fbf969d44 ipv6: rpl: reserve mac_len headroom when recompressed SRH grows
+d0a823071bc69739bdf7e19afe7aeb539c47b4d3 io_uring: depend on MMU
+6b5e41dcc3583fa4db5c77da3fce72899ee715bb mm/gup: honour FOLL_PIN in NOMMU __get_user_pages_locked()
 
---===============7464599976946232777==--
+--===============9024872880419935123==--
