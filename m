@@ -1,57 +1,57 @@
-Content-Type: multipart/mixed; boundary="===============1846278036752527788=="
+Content-Type: multipart/mixed; boundary="===============8403977284317081713=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/staging
-Date: Sat, 25 Apr 2026 05:59:13 -0000
-Message-Id: <177709675380.466948.13588179992711333313@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/driver-core/driver-core
+Date: Sat, 25 Apr 2026 05:59:19 -0000
+Message-Id: <177709675915.467065.7314615945360819212@gitolite.kernel.org>
 
---===============1846278036752527788==
+--===============8403977284317081713==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/staging
+repo: pub/scm/linux/kernel/git/driver-core/driver-core
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/staging-testing
+  - ref: refs/heads/main
     old: 2e68039281932e6dc37718a1ea7cbb8e2cda42e6
     new: 27d128c1cff64c3b8012cc56dd5a1391bb4f1821
     log: revlist-2e6803928193-27d128c1cff6.txt
 
---===============1846278036752527788==
+--===============8403977284317081713==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1777096752 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/staging.git
-nonce 1777096752-8b23079a39951286881df07a5fee62d7046620a2
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1777096757 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/driver-core/driver-core.git
+nonce 1777096757-c960d9d82363491fc90d93677bf4cb9029d1edc7
 
-2e68039281932e6dc37718a1ea7cbb8e2cda42e6 27d128c1cff64c3b8012cc56dd5a1391bb4f1821 refs/heads/staging-testing
+2e68039281932e6dc37718a1ea7cbb8e2cda42e6 27d128c1cff64c3b8012cc56dd5a1391bb4f1821 refs/heads/main
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmnsWDAbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+tSkQAJnvP6LSIO0EFzXjY7Ep
-k7EOWMlnV/4CEakt3folu4PI/XYnrvmnYusptDzio0MUbeQVU+6yo3n7wAtn+I/p
-MrRfFvsuPdmNKhirhBsHCAGHrDqhYb3gooBMwHrgG/jii64TfShlZr28+cnXrS5X
-Bh2O6dvEw4ilnABOyZh9C2Naerix4V6HqCpDrEe7aH2JFt1TKxFGgDIazBcpNAK1
-XW4xpSwUFD+aanZ20GpCyCq8gXwNuly7PJL7MHmHs4MVQGIf5/ZYWUMDgi0zBZOm
-ioGUoglysm7eBspnUl9iFK+7RnhSJLd62Jmklv/etQVjozFNEqvpFwozSZpqnD/h
-ZmEq51jNr8GLoBumZGKeT4qKZ6FvTMIjqQztqLxDW1ImT0E2ChQIpv3jgk78SHdw
-hw7mkoWKb/MAQbdaV5EUv67gFvQLkf6wGlhMUytOMYOJM6EngbNbrS0pgGCUEYiR
-9dBGgtWpJupywXnMDAU0BXDLegUgCZ1FNH0JI16WwFWoj4tWzgZvpH5LX2+g9nYI
-WS2O1rN8bTFeyBmfw9N+VRcfsQ4t3OHyZOAqh/XIF9PjMwEtcc+ETFCecfdinsKH
-MUJ3aL7ff+kgzj5C70FokqWXNnjzYeMaO20ZQf4oui5vki5g2J6oUEL/dkggzT+U
-PIeVqFvaLBdSriweEqdaB33+
-=Ula0
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmnsWDUbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+PA0P/3pPnWBxCViC7L7N1/nK
+/7hMYnmOi1SbwlIsckP5XuRSkh/sY6v5WBEw+sbsIZgN85wdhnw2F0tReKOBYW0y
+W9DJ7pl5/PJO6eWWsq3wHuxnH+FoJpHrFSrcxvqhWharBiEKqbmN5JzMVOD/bcP8
+ycn24bHg1GmK5UvdoHCTnH86wYV+6o4PK0+AIIraNRqQwfNrLz4/YwUQWIteSDL6
+XMfz/Fv4n7rQtrzZdtwmsZ0T3AK1mYzccAc/9H0IzSAJ4xmeXZMogOMrGqJLJkYE
+FjGSXN3Aew8tHkErqqZQNNPeRxWhcvRDL5mTSB4hubOzv/qJIFUGvyu2BdzLD2S8
+Fvg6hRHpQ50hQdG1D6AFIewLBcbzzqJ/Gm8KPnuGK2EgLFSjLvHKN6pqwbnWSESA
+178JWbT5BXiJM8ZXIJbL0d2xcSX6x0AA7ELEO1kVnJITEc//tYPEMLL/NJGTVj/o
+sEAsDu96tFdcfdahQHmLEjJoAChhsmEkCFnPLcI25o4/TYGaNXSicVktjDr2T869
+CXHyxKXKgdmqJbM5nB+vZ6UPebqBZlwh9B88u4+9LNBFFtxC3JGFEv87pAcg+yJh
+o02hjXCg4ba2k3mSQnbuBur7prpOWLBnFpO3+369Bedbp0o6sn+5dDOhEg5nNld/
+5ZRPb4azZlg7p5QmLOm8LiUV
+=ij08
 -----END PGP SIGNATURE-----
 
---===============1846278036752527788==
+--===============8403977284317081713==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1082,4 +1082,4 @@ fa58e6e9000c1cc76a7a0c06ea3e68d728cc4247 Merge tag 'io_uring-7.1-20260424' of gi
 f3e3dbcea15e20f7413afd8c791a496f0b80e80b Merge tag 'block-7.1-20260424' of git://git.kernel.org/pub/scm/linux/kernel/git/axboe/linux
 27d128c1cff64c3b8012cc56dd5a1391bb4f1821 Merge tag 'trace-ring-buffer-v7.1-3' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
 
---===============1846278036752527788==--
+--===============8403977284317081713==--
