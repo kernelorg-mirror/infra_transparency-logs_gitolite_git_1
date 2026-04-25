@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3372246039633378785=="
+Content-Type: multipart/mixed; boundary="===============1223712642283652989=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Sat, 25 Apr 2026 07:44:36 -0000
-Message-Id: <177710307649.570046.13621284159618599489@gitolite.kernel.org>
+Date: Sat, 25 Apr 2026 07:44:58 -0000
+Message-Id: <177710309809.570398.285107440473170206@gitolite.kernel.org>
 
---===============3372246039633378785==
+--===============1223712642283652989==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,15 +16,21 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: 7b67e9ce5b43130f1b45ee38c4e2efb4b5745a51
-    new: f45a1570b930a46e1f1610f74f5f2b5fe3509ae8
-    log: revlist-7b67e9ce5b43-f45a1570b930.txt
+    old: f45a1570b930a46e1f1610f74f5f2b5fe3509ae8
+    new: dffc5753ba4c8c58e8a0ce94ec8954e281a428b8
+    log: |
+         dffc5753ba4c8c58e8a0ce94ec8954e281a428b8 Merge branch into tip/master: 'timers/clocksource'
+         
+  - ref: refs/heads/tip/urgent
+    old: 892c894b4ba4e4eb835f99de6fe7c41871e6d4f8
+    new: 27d128c1cff64c3b8012cc56dd5a1391bb4f1821
+    log: revlist-892c894b4ba4-27d128c1cff6.txt
 
---===============3372246039633378785==
+--===============1223712642283652989==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7b67e9ce5b43-f45a1570b930.txt
+Content-Disposition: attachment; filename=revlist-892c894b4ba4-27d128c1cff6.txt
 
 88440208c6074e639a7ccc038c6a7ed4b6f8bb99 iio: industrialio-backend: support backend capabilities
 ed3be723b0ed3e8e35ee1b9ab14a94cc5630ff02 iio: adc: adi-axi-adc: define supported iio-backend capabilities
@@ -724,6 +730,5 @@ b85900e91c8402bedc1db14e6d293e26f25d30d4 Merge tag 'nfs-for-7.1-1' of git://git.
 fa58e6e9000c1cc76a7a0c06ea3e68d728cc4247 Merge tag 'io_uring-7.1-20260424' of git://git.kernel.org/pub/scm/linux/kernel/git/axboe/linux
 f3e3dbcea15e20f7413afd8c791a496f0b80e80b Merge tag 'block-7.1-20260424' of git://git.kernel.org/pub/scm/linux/kernel/git/axboe/linux
 27d128c1cff64c3b8012cc56dd5a1391bb4f1821 Merge tag 'trace-ring-buffer-v7.1-3' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
-f45a1570b930a46e1f1610f74f5f2b5fe3509ae8 Merge branch 'linus'
 
---===============3372246039633378785==--
+--===============1223712642283652989==--
