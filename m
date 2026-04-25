@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5485352914183274923=="
+Content-Type: multipart/mixed; boundary="===============7422613696690931330=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/gregkh
-Date: Sat, 25 Apr 2026 05:59:37 -0000
-Message-Id: <177709677777.467789.6627234244541255608@gitolite.kernel.org>
+Date: Sat, 25 Apr 2026 06:00:41 -0000
+Message-Id: <177709684194.471233.18050330938435164635@gitolite.kernel.org>
 
---===============5485352914183274923==
+--===============7422613696690931330==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,47 +16,49 @@ repo: pub/scm/linux/kernel/git/gregkh/gregkh
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/readfile
-    old: f9602ef44782b410a768bcba9c8e38df78cd6902
-    new: e9a71c16cf5d7a5087063a1f691f02a82ff5b386
-    log: revlist-f9602ef44782-e9a71c16cf5d.txt
+  - ref: refs/heads/rndis
+    old: 6b27bfe4f92f6188888ffb593d304aaac83bdd2a
+    new: 34a90530231c350cfad68b451cd33308121c7320
+    log: revlist-6b27bfe4f92f-34a90530231c.txt
 
---===============5485352914183274923==
+--===============7422613696690931330==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1777096751 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1777096816 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/gregkh.git
-nonce 1777096751-e6fa3456d31ac50acb65fdeab1f0d876479f8629
+nonce 1777096815-202f733cfaeb02fec018b4844922cb39e309f17b
 
-f9602ef44782b410a768bcba9c8e38df78cd6902 e9a71c16cf5d7a5087063a1f691f02a82ff5b386 refs/heads/readfile
+6b27bfe4f92f6188888ffb593d304aaac83bdd2a 34a90530231c350cfad68b451cd33308121c7320 refs/heads/rndis
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmnsWC8bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+bJsQAJZINLlULjbYYviBIL9B
-1m5PyUWSWvSLfFbu3nBouor2PtMGvx0ky1CcyXN8kFuUrZPeLJ3rB/EgnH25hPXi
-ht+66fLgwWaD4QGujpX87TZKureSOyGjaapKPj08wTek72HF/Ju3VhNGYSadV9u3
-udcExq2K5m0wi5/QXk7vMTYK8j1VPd8jcIotpI/QNyF0a0+WTkuXEEQ5D1xsnIHq
-M6pjfll3qOpj+A2djcJhwFkqrCyhZzyMf5rGvLofoUFAaloUshmjakJthaWoVypX
-7qiDL/1qJ9IK47FaKWa0zFa07A8WeoRmFRFfh6pf9HXtdhVBspy2CTvqqSunnNDU
-xk1rcGOss9Bac/rUKcb1sp+uh6waF0L+rdf8qkJGWzcH8FEeZsK391rmMQvFYZFO
-xGnHcI4k965bRA9CWHEL7vS5PGI1xZN6VXmyhjERdRMQzEU+iOpYEtcz5fWEivYw
-OXG9bKjM+wjP8F+YoMX2iMC2jLTxtoJKiLzOWpdhax5chMbxqUhfiFOFF2D0+yeG
-ormtswFt7GnFuj3fX5xO/ccOnVi4QYbZNhk8w2zCad7rTzJAlzJU1l7ELuA5hZCN
-TVl0uTm5uXTHAbY5XXtg6r/E0ZTIFQO/hYqnnDxEsUJRP9nloK/7aiBdhYrPvKf7
-9X+4lNKbvRoJ5/Umegp9JpBX
-=A19L
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmnsWHAbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+amwP/0pjnbs1dQaoJZBZiWXb
+BaUW5wTQcGo+n25+NBLrN12/e5WUoTBKoNo8Nb2GQ84gt9kiV9RMkziWY44M8dB9
+1bTb7blEA1DFpMerYyVR3spyTNzKPqOBd8Pcun1lmETJp6ilPUCXu/iXA53KvCHz
+GNUHdf1qfLfktvKVcN+c9JQN6qMH95H/7aR+2KmsBVC8SEPGJ/ZSxJPc19vtDhoh
+Ymrn/RH8/Y6w5g3+Y8/c9ZHjTxVS2ejvnciizdk+Y29wEMv2YSzpxkgDvLtHhM/6
+3aAaIo+u8XSpgwEQRUXmRM3TtyGPV4AHXYf3Y4VNYsop8uw0tVbt6j5+ht7Ni2Uq
+9NaTyNgN6opMQF3aWzDWjeYAYNdQWE9tIe+pNUljNzODjVbdgP00xn90Bcy+D1zT
+uqRQJ5SYcd2Kh/+LK99Gaj1oZ86Gb4U/7YwIFT8GPmANV8ZXb0PupNCkpaLpRMel
+u5D7jme8xP4CpwoIoSovJG9+pppGQzFDpMHFul+Qoc2bkTUpC/LjAkoj3sW5Vxh0
+lCN/PPYFGTT2xKMsWTQ8K8v+XHs/fKWQEZy3qrcEvgYNy5S+4XqIbEBFY4KRP2/a
+fFGXEd+jlV0SbaeICBvDPiC4bM4jAcyiptE1rHTo2VPBaNCMaG5ciTRjMeEkJoEz
+LJqTfqkl2L+LgkwTyvMqkcY4
+=86ER
 -----END PGP SIGNATURE-----
 
---===============5485352914183274923==
+--===============7422613696690931330==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f9602ef44782-e9a71c16cf5d.txt
+Content-Disposition: attachment; filename=revlist-6b27bfe4f92f-34a90530231c.txt
 
+9a2e1233d38c460ad07f36901931f3674a32d1ed iio: buffer: hw-consumer: remove redundant scan_mask flexible array
+c4e73728626e9930ecbb14b9cb2418d36feeefe4 iio: accel: adxl313: convert to guard(mutex)
 594ca8ced1b380309f3a23e2a77d8846ec5fd025 iio: accel: adxl372: convert to guard(mutex)
 c48012d519fe72fb82786d53930b2b907bf7c10c iio: adc: palmas_gpadc: Replace leading space indentation with tabs
 ff0843ceb1fb11a6b73e0e77b932ef7967aecd4b iio: adc: ti-ads7950: remove chip_info[]
@@ -1077,9 +1079,7 @@ b85900e91c8402bedc1db14e6d293e26f25d30d4 Merge tag 'nfs-for-7.1-1' of git://git.
 fa58e6e9000c1cc76a7a0c06ea3e68d728cc4247 Merge tag 'io_uring-7.1-20260424' of git://git.kernel.org/pub/scm/linux/kernel/git/axboe/linux
 f3e3dbcea15e20f7413afd8c791a496f0b80e80b Merge tag 'block-7.1-20260424' of git://git.kernel.org/pub/scm/linux/kernel/git/axboe/linux
 27d128c1cff64c3b8012cc56dd5a1391bb4f1821 Merge tag 'trace-ring-buffer-v7.1-3' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
-976ce03861333f22eb3d674a5ab8709b6cc28486 readfile: implement readfile syscall
-086b4ff989ed98b0f5d60f114830fbaea404d513 arch: wire up the readfile syscall
-1c89675ab6f5242428f3563824e264365b9d48c2 readfile.2: new page describing readfile(2)
-e9a71c16cf5d7a5087063a1f691f02a82ff5b386 selftests: add readfile(2) selftests
+40a674eb9259c697ef9bd2285033a8070c853f55 USB: disable all RNDIS protocol drivers
+34a90530231c350cfad68b451cd33308121c7320 USB: potential rndis host fix
 
---===============5485352914183274923==--
+--===============7422613696690931330==--
