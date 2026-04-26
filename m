@@ -1,33 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============0151455269181149599=="
+Content-Type: multipart/mixed; boundary="===============3205323492022630349=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/lenb/linux
-Date: Sun, 26 Apr 2026 21:59:11 -0000
-Message-Id: <177724075184.2839764.4926349120870536373@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Sun, 26 Apr 2026 21:59:20 -0000
+Message-Id: <177724076056.2840011.13925887365912887525@gitolite.kernel.org>
 
---===============0151455269181149599==
+--===============3205323492022630349==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/lenb/linux
-user: lenb
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/master
-    old: 028ef9c96e96197026887c0f092424679298aae8
-    new: 254f49634ee16a731174d2ae34bc50bd5f45e731
-    log: revlist-028ef9c96e96-254f49634ee1.txt
-  - ref: refs/tags/v7.1-rc1
-    old: 0000000000000000000000000000000000000000
-    new: 5e9b7d093f3f77cb0af4409559e3d139babfb443
+  - ref: refs/heads/regmap-7.1
+    old: 7e555fcae40ab2ba91fd5cd54a5a83096414957f
+    new: 4b7774eeab8d66c22f02f5c120602df154a87e12
+    log: revlist-7e555fcae40a-4b7774eeab8d.txt
 
---===============0151455269181149599==
+--===============3205323492022630349==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-028ef9c96e96-254f49634ee1.txt
+Content-Disposition: attachment; filename=revlist-7e555fcae40a-4b7774eeab8d.txt
 
 b183b7b9b51fc37cc8e1fbad3c0d84e0cb605266 smb: smbdirect: introduce smbdirect_mr_io_fill_buffer_descriptor()
 a93b68d46e1450ca6d395be0ca002f8bdf04d9a6 smb: smbdirect: introduce smbdirect_connection_legacy_debug_proc_show()
@@ -246,7 +243,6 @@ c409da0fe15e2b2aae7f93edbab977e23117ce4d selftests: ovpn: fail notification chec
 0b6c8e21157fb6dfa35163fdfe5c10387bcc6c41 parisc: update outdated comments for renamed ccio_alloc_consistent()
 3dd31a370c1dccb580f729af7c580ccb1ae3c0c9 parisc: Drop ip_fast_csum() inline assembly implementation
 da3680f564bd787ce974f9931e6e924d908b3b2a parisc: _llseek syscall is only available for 32-bit userspace
-7e555fcae40ab2ba91fd5cd54a5a83096414957f regmap: ram: fix memory leaks in __regmap_init_ram() on error
 75c486cb1bcaa1a3ec3a6438498176a3a4998ae4 ipmi:ssif: Clean up kthread on errors
 e55d98e7756135f32150b9b8f75d580d0d4b2dd3 x86/CPU: Fix FPDSS on Zen1
 97bfda452054ae0c20ab5318337e9b95ed32f616 parisc: Avoid compat syscalls when COMPAT=n
@@ -1053,5 +1049,6 @@ b935117fe6d1af576e39b1f18c9e875f44bd146f Merge tag 'kbuild-fixes-7.1-1' of git:/
 20b64cf8705a0f6268bb9a320eb6b4c425f3ec6c Merge tag 'tsm-for-7.1' of git://git.kernel.org/pub/scm/linux/kernel/git/devsec/tsm
 14479877c1ec9667edb4a7c20a8d7a704e7249ca Merge tag 'clk-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/clk/linux
 254f49634ee16a731174d2ae34bc50bd5f45e731 Linux 7.1-rc1
+4b7774eeab8d66c22f02f5c120602df154a87e12 regmap: sdw-mbq: Fix spelling mistake "undeferable" -> "undeferrable"
 
---===============0151455269181149599==--
+--===============3205323492022630349==--
