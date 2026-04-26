@@ -1,51 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============6958671891884951419=="
+Content-Type: multipart/mixed; boundary="===============7420964561059325204=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regmap
-Date: Sun, 26 Apr 2026 23:12:43 -0000
-Message-Id: <177724516351.2914367.1147557178105162888@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Sun, 26 Apr 2026 23:12:51 -0000
+Message-Id: <177724517119.2914592.15505487825613536809@gitolite.kernel.org>
 
---===============6958671891884951419==
+--===============7420964561059325204==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regmap
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-7.1
+  - ref: refs/heads/regmap-7.1
     old: 7e555fcae40ab2ba91fd5cd54a5a83096414957f
     new: 4b7774eeab8d66c22f02f5c120602df154a87e12
     log: revlist-7e555fcae40a-4b7774eeab8d.txt
 
---===============6958671891884951419==
+--===============7420964561059325204==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1777245161 +0900
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/regmap.git
-nonce 1777245160-2b2b48a7e4f1d2730001a349abb14f6cb0af71e4
+pusher C3F436CA30F5D8EB 1777245169 +0900
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1777245167-9adff47567aed7d4717f09cf8bd6f7cf61d650df
 
-7e555fcae40ab2ba91fd5cd54a5a83096414957f 4b7774eeab8d66c22f02f5c120602df154a87e12 refs/heads/for-7.1
+7e555fcae40ab2ba91fd5cd54a5a83096414957f 4b7774eeab8d66c22f02f5c120602df154a87e12 refs/heads/regmap-7.1
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmnum+kACgkQJNaLcl1U
-h9BGUwf/fN2WamqeACUxsJOEJ4xGm0QrbO3b00V27cL/Y4aWSe/mfgd6TRJ5KAeq
-ZNkZpzTts1dKj1yb8aRO5KQWUtmHitYmeNawT+vjeJHQ/TJHzOfAVu/bZS3bX46Z
-IUxfwEUNXfud2G4WnPYOkB8N9Z5TelXAiROBzq6nq3SkwYrK5l5Fixnq1Nj7cZdK
-WKkmKqMYtPizgKaypZ6YGc3l8YU4yZOjHleD8QgdhNEME3MmnTfkw9w2ZUYofQ2r
-QxshFuDjvdzB9OkWTubI9N1bZZ5fjoje0jjdaUxzG35/u7eLFcUPWYuuDmOT0r97
-vhPe6yv2A+KvkKtyYlr3YBsY2nVT5A==
-=KhUR
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmnum/EACgkQJNaLcl1U
+h9Ds2Af+L2rEy4JB+Tb5kaWaPCVrKCZxkD2l7Dw+jjiZ1Z8vyMr0p6NPblB50wT2
+/UnjbhWEcEMpmSrBzGizZ2iwYP1+5xZTCWZ4v9Ck7yXQw2O9d4Q5eFK0iNriw/tb
+uGb2i4tzaYgtSQDf3Lkhn9Wp5J8Hunqq8CJyCShq/DM5yYEx3opMV1sAMHjjGR2I
+w5aLA1Rme7ymnMadjenDxADmKjkbUKxhJu/creW+TQ1LTx+RH1BKxGadHKy5RVhq
+vijFnKEReNbd9caPvGBVV+ZgexR5XvedVwF+guGeeAU9xAqzieI4kLxECM/W5aoe
+vbMHMUaQsWdwVATyKWuu7yw8titXmA==
+=bStU
 -----END PGP SIGNATURE-----
 
---===============6958671891884951419==
+--===============7420964561059325204==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1076,4 +1076,4 @@ b935117fe6d1af576e39b1f18c9e875f44bd146f Merge tag 'kbuild-fixes-7.1-1' of git:/
 254f49634ee16a731174d2ae34bc50bd5f45e731 Linux 7.1-rc1
 4b7774eeab8d66c22f02f5c120602df154a87e12 regmap: sdw-mbq: Fix spelling mistake "undeferable" -> "undeferrable"
 
---===============6958671891884951419==--
+--===============7420964561059325204==--
