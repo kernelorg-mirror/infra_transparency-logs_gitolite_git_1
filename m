@@ -1,45 +1,21 @@
-Content-Type: multipart/mixed; boundary="===============5826338732884932688=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Sun, 26 Apr 2026 23:37:07 -0000
-Message-Id: <177724662723.2942382.11338028738987463463@gitolite.kernel.org>
-
---===============5826338732884932688==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf-next
+Date: Sun, 26 Apr 2026 23:46:32 -0000
+Message-Id: <177724719213.2952120.913688075812298309@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/bpf/bpf-next
+user: ast
 changes:
-  - ref: refs/heads/spi-7.2
-    old: 76645c1fd682c9df746c3f7c149b868ceff914fb
-    new: 43b0b44b31632d285327bbc9fa8d64ba8f328d48
-    log: revlist-76645c1fd682-43b0b44b3163.txt
-
---===============5826338732884932688==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-76645c1fd682-43b0b44b3163.txt
-
-5b1689a41f02955c5361944f748a4812a6ff9307 spi: cadence: fix unclocked access on unbind
-ecea4f0e9db2fb6ab4a68a59c5aba0d8f59a9566 spi: cadence: fix clock imbalance on probe failure
-63f34e35f87f32fb8e92525516e5eaf30cbf0973 spi: cadence: rename probe error labels
-bf7b648acd48ae5b9e265727c84b4e0a4a33727b spi: cadence: clean up probe return value
-a02f9b79152be4b91cac0ec5bba56bbcd642dd2e spi: cadence: runtime PM fixes
-5ff4d5d1af0c7517bd8db83c95c4247a9729a548 spi: cadence-quadspi: fix runtime pm disable imbalance on probe failure
-cba53fe20c18688c17ca668ad0e4ec05e31c70d3 spi: cadence-quadspi: fix clock imbalance on probe failure
-233db2cb14db8b1935dda52a6affd97276462b82 spi: cadence-quadspi: fix unclocked access on unbind
-5e8bb0cc72f1d52d8ac2a88f4c952e2e98056aed spi: cadence-quadspi: fix runtime pm and clock imbalance on unbind
-edbaae583ead2c06aea756b0fafd5fa7a1e89fc1 spi: cadence-quadspi: clean up disable runtime pm quirk
-37c9dfa385db995e2c8b369a40c72a53dd644df1 spi: cadence-quadspi: drop redundant match data lookup
-8ef578fd33d05b34739e5db01db9d950a546339e spi: cadence-quadspi: runtime PM fixes
-565bdf45125a05aa8f622f58f598283f46ba43f4 spi: atcspi200: fix use-after-free when driver unbind
-aaea50c3bd768d03ee791b7428ac9b264777b6d7 spi: atcspi200: switch to devm functions
-43b0b44b31632d285327bbc9fa8d64ba8f328d48 spi: atcspi200: two cleanup
-
---===============5826338732884932688==--
+  - ref: refs/heads/master
+    old: 6c60b2dd5a7889a583389e95e79689191206f86f
+    new: fbb5ba99e273843ae8d8bfcc6e2b700c8f5d933a
+    log: |
+         ac985e7bf840e34a8dafe0808cc571fd85896c30 selftests/bpf: Use local type for flow_offload_tuple_rhash in xdp_flowtable
+         afb0450be061907a0f5d36bd8b010ca30eda3d3b selftests/bpf: Use local type for bpf_fou_encap in test_tunnel_kern
+         fbb5ba99e273843ae8d8bfcc6e2b700c8f5d933a Merge branch 'selftests-bpf-use-local-types-for-kfunc-declarations'
+         
