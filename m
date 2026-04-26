@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7450939782956931281=="
+Content-Type: multipart/mixed; boundary="===============0882161625061775889=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Sun, 26 Apr 2026 00:24:58 -0000
-Message-Id: <177716309894.1536935.4945917754069175728@gitolite.kernel.org>
+Date: Sun, 26 Apr 2026 00:25:01 -0000
+Message-Id: <177716310107.1537150.7700998398812158003@gitolite.kernel.org>
 
---===============7450939782956931281==
+--===============0882161625061775889==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/mm-new
-    old: c656c6a0242712b537ee75208d431b210ab390c3
-    new: 80a5456b3cf475eea155b66d7a06ff266dc05647
-    log: revlist-c656c6a02427-80a5456b3cf4.txt
+  - ref: refs/heads/mm-unstable
+    old: 94039de91824f92a464fa3eae6aa1155caafc069
+    new: 761e9fad336afb6fe2cd488c7bd522e2783064fc
+    log: revlist-94039de91824-761e9fad336a.txt
 
---===============7450939782956931281==
+--===============0882161625061775889==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c656c6a02427-80a5456b3cf4.txt
+Content-Disposition: attachment; filename=revlist-94039de91824-761e9fad336a.txt
 
 8c3d4054af1ab330f9b83d2066a41298c7fb5bff vmalloc: fix buffer overflow in vrealloc_node_align()
 2242fe808bdc8638831318221582a59c51c6e10f mailmap: update entry for Dan Carpenter
@@ -54,105 +54,5 @@ cd15f410cff4d00c51375f381f33999d370c348b lib: kunit_iov_iter: fix test fail on p
 9d56e68f380cda4e60b92e25d639ba2ca38db4d1 mm/hugetlb: restore reservation on error in hugetlb_mfill_atomic_pte() resubmission path
 1035f3a45c2decfd4693f5b20ec7e7d124742e40 mm/swap, PM: hibernate: fix swapoff race in uswsusp by pinning swap device
 761e9fad336afb6fe2cd488c7bd522e2783064fc mm/swap: remove redundant swap device reference in alloc/free
-5cb2c5a54fecc1a5220b1e13ed8cf323e1e99fe5 selftests/mm: respect build verbosity settings for 32/64-bit targets
-1ae64d6a9d10faf13f823bddc2a3440bfb1da102 selftests/mm: suppress compiler error in liburing check
-8462a95d709ed092c55d50fea893e7e97a2de701 mm/page_alloc: replace kernel_init_pages() with batch page clearing
-9d782f5b34ad97b03c068e04bed9dedc8da8b956 Revert "tmpfs: don't enable large folios if not supported"
-97816939d5e54d085dc2321573afae7ee6754bdb mm/huge_memory: fix outdated comment about freeing subpages in __folio_split
-bf148a2f4652acee512e344fbf4874fd286a71f7 mm: convert vmemmap_p?d_populate() to static functions
-2db83fc9385860e27c05a12a537729352020a671 mm/vmscan: add balance_pgdat begin/end tracepoints
-c1a835df4fa1c2d1a65c8af2a92b7859853e2f20 mm/page_alloc: optimize free_contig_range()
-16d513b21af022102ebd68bc8eefaa55ac72fa14 vmalloc: optimize vfree with free_pages_bulk()
-7af4d67f90f5acf46838deba5a4b04d42cdfcdad mm/page_alloc: optimize __free_contig_frozen_range()
-6e00cf8735797117b90ad327dd2f42b28e0adece mm/gup: cleanup pgtable entry accessors
-93be87d1c4b8da29322e595ca54d7a15fca81803 mm/gup: honour FOLL_PIN in NOMMU __get_user_pages_locked()
-3fa58e7fd2d183635a9034abf59c108a2621ae24 asm-generic: barrier: add smp_cond_load_relaxed_timeout()
-11541af411207aef9f8a5d16656120af11b1fb89 arm64: barrier: support smp_cond_load_relaxed_timeout()
-366759e68b7669a3905920146029cd3dac6e5aca arm64/delay: move some constants out to a separate header
-35561409de5dd2f26876a02014a29ccb68cc14f8 arm64: support WFET in smp_cond_load_relaxed_timeout()
-0021b389d385ce41796091d0133fcbf8f46394fa arm64: rqspinlock: remove private copy of smp_cond_load_acquire_timewait()
-9fbc4ff6c90245a44ff88e7964fbd2c637473ac4 asm-generic: barrier: add smp_cond_load_acquire_timeout()
-97903d5dc762adfc606ce2f711aa341506df57f5 atomic: add atomic_cond_read_*_timeout()
-9f43a95158e98dc6d509d16ec5896d05d14cf7de locking/atomic: scripts: build atomic_long_cond_read_*_timeout()
-d04ec5248bbc93d93511b66c864a4afcd1b0af0b bpf/rqspinlock: switch check_timeout() to a clock interface
-0022080979b439c14add48dde123cfc6a5755200 bpf/rqspinlock: use smp_cond_load_acquire_timeout()
-e498a2c189efbd966b726d8c0b30a6a85c651710 sched: add need-resched timed wait interface
-0a4c25a5e140866688bca754b03065886d6bd6bf cpuidle/poll_state: wait for need-resched via tif_need_resched_relaxed_wait()
-7b7daeda79e6090f3e5f504db0745cd6b1fc5ae3 kunit: enable testing smp_cond_load_relaxed_timeout()
-b28031e790a75941756ea49ed1fc585da969f534 kunit: add tests for smp_cond_load_relaxed_timeout()
-fb8cdad4ef54a4c45b3898508ee91e3c9d64ccd6 mm/mglru: consolidate common code for retrieving evictable size
-64b3958e4ca777485e182f0c1ec15f6297232fdf mm/mglru: rename variables related to aging and rotation
-6cb8ac13c1c51d9b30d78a4c289d63b0bf41728c mm/mglru: relocate the LRU scan batch limit to callers
-22fd9a533d760ef32f8174bc93a5793cfe0685ca mm/mglru: restructure the reclaim loop
-4086f4aa930ec7b2e23ea40268d6135c3e3dfb4a mm/mglru: scan and count the exact number of folios
-ba3bdb60f31ffeee58f022a083d703a4b89822b4 mm/mglru: use a smaller batch for reclaim
-bd93ae8766b00c50c165a1de3a0e679da5c86755 mm/mglru: don't abort scan immediately right after aging
-eccbf1a6b56ffa4d745fe1a80df962a2a70b01b3 mm/mglru: remove redundant swap constrained check upon isolation
-0f437b01ec94f43d4c6e987e219caea21e4f251d mm/mglru: use the common routine for dirty/writeback reactivation
-52761b7395ca80c0d97bb5943c33daff0651fa58 mm/mglru: simplify and improve dirty writeback handling
-d9df13b16467a0f1ae3c3a00ee094de225f2245c mm/mglru: remove no longer used reclaim argument for folio protection
-2ced3c15b89722e68d8f2cf7285b6203973fb3ed mm/vmscan: remove sc->file_taken
-c0a71d417cac5ffeeb0b4ea57f94dcece537eada mm/vmscan: remove sc->unqueued_dirty
-f112491d5cd925523e9981dc898f51f04ea6bb6a mm/vmscan: unify writeback reclaim statistic and throttling
-7a87e663be6e624c6362923f2b87133881f36eae mm/khugepaged: generalize hugepage_vma_revalidate for mTHP support
-96ca52290d43897a71f361e1f42363e937b10f9e mm/khugepaged: generalize alloc_charge_folio()
-b8cc76e988138a6f8341312d92cc67eac9bc0327 mm/khugepaged: rework max_ptes_* handling with helper functions
-834cd8af6f29d435e2cbf7b629a1703748f289dc mm/khugepaged: generalize __collapse_huge_page_* for mTHP support
-aeab03cfaad3ec74d1d0bdd87d14527d797c020f mm/khugepaged: generalize collapse_huge_page for mTHP collapse
-26291d96f7b4d66c3df9e489863c5afbc2620901 mm/khugepaged: skip collapsing mTHP to smaller orders
-4a6f2f585d04f307630cb25534648e0edf45b10f mm/khugepaged: add per-order mTHP collapse failure statistics
-1b0b6aeac87f16cd20c3df4a9668e7c425b85d15 mm/khugepaged: improve tracepoints for mTHP orders
-17060a7e2c26402cbc52d5811c68ee0ef14c99a6 mm/khugepaged: introduce collapse_allowable_orders helper function
-a2b511b8ab2ea5bb3984e59deebf8f6ad9e66079 mm/khugepaged: introduce mTHP collapse support
-672494f2e1d3280baa70272452bdfe0b6f0066e2 mm/khugepaged: avoid unnecessary mTHP collapse attempts
-c915ed89e4d27a806a87ff70ddb1936ac0d9a0bf mm/khugepaged: run khugepaged for all orders
-baf7ea4c7a48ee658f69be90d8f3d6386b2c1df5 Documentation: mm: update the admin guide for mTHP collapse
-ece6f34bcc6ba4d58ddfa47da25548f2f0159865 mm/memory: update stale locking comments for fault handlers
-28a72d70ef0a758dd39adfeb9dc6feab2d615301 mm/mmu_gather: prepare to skip redundant sync IPIs
-88b410348ce1b27f3aafa83768b03a707149a91c x86/tlb: skip redundant sync IPIs for native TLB flush
-d58dac0596da7df24335d20a6c02e7e9b68d5219 selftests/cgroup: skip test_zswap if zswap is globally disabled
-fa142d41dc641a1c649cdbdabd954f0ad7202943 selftests/cgroup: avoid OOM in test_swapin_nozswap
-3b072138e9e8095fba3858255f59cb6c953f9729 selftests/cgroup: use runtime page size for zswpin check
-3f5e593e373aba559e397cd153c56426a1fd7c7a selftests/cgroup: rename PAGE_SIZE to BUF_SIZE in cgroup_util
-ce9ee1082301d325ef421e6593a8af039dca80cb selftests/cgroup: replace hardcoded page size values in test_zswap
-f45e4dbe8785ea514315e9512a17eefcaf4a5b59 selftest/cgroup: fix zswap test_no_invasive_cgroup_shrink on large pagesize system
-b4faa949df451d9e4d3842fb5699885be0089df2 selftest/cgroup: fix zswap attempt_writeback() on 64K pagesize system
-2feab9b113eab089939b2ba905d94a9f2b380fa0 selftests/cgroup: test_zswap: wait for asynchronous writeback
-7565dab2365c3035549e8e0588df13ebb2420217 mm/migrate_device: cleanup up PMD Checks and warnings
-a0ab98b367abb164cfd6fcf528bac54ad3118dbc mm/page_owner: add filter infrastructure
-4bdcb5efbdc50c42c7e2797bd1ff843aed7b6074 mm/page_owner: add print_mode filter
-0fad95f1987120f266e876bb8b23d6a23e49c9d9 mm/page_owner: add NUMA node filter with nodelist support
-7c755d6b682a94cde09381e4fd73ec96edc19202 mm-page_owner-add-numa-node-filter-with-nodelist-support-fix
-9969b737b969e673c20315beb062c33ece54d126 mm/sparse: remove unnecessary NULL check before allocating mem_section
-bf161587fe9960c2f55fb86c3f9d3cc1574d6cf8 mm/mglru: use folio_mark_accessed to replace folio_set_active in PF
-8a54b415e119fa926d1832e929c336f86c6a1af1 mm/memory-failure: report MF_MSG_KERNEL for reserved pages
-3a5eea5c30a8d1b744999a59bdf2cfbfc3f72cec mm/memory-failure: add panic option for unrecoverable pages
-5f80115ef945445963d62389fa6c8880074a18ce Documentation: document panic_on_unrecoverable_memory_failure sysctl
-17bbe6fe7f642eae397f4caa75a5ba2d325d3055 selftests/mm: regression test for panic_on_unrecoverable_memory_failure
-d651f4b8d8d39de28ce625bde7d0a28ed67624c5 mm/vmscan: fix typos in comments
-4382cc6d4fdf340727dec4f812856e7dabb90a02 mm: fix mmap errno value when MAP_DROPPABLE is not supported
-be4f3f0751adb25464f53fa12ccebe464f4e87e4 selftests/mm: verify droppable mappings cannot be locked
-12a7ccda487f998ad2162ad2be8c5aedd734fbe8 selftests/mm: run the MAP_DROPPABLE selftest
-76c3e407386e57eb3c660dc5452ecbdfe0caab0d mm/page_owner: fix %pGp format specifier argument type
-336b92749f596fa302831466d9340ea4370556c4 Docs/mm/damon/maintainer-profile: add AI review usage guideline
-25c9a21cf96dbbd07bbd489d1cf8956d67d88a59 mm/sparse: remove sparse buffer pre-allocation mechanism
-92d989772b0b1b471d0f06b64d31b6b4dbb42f79 mm/memory-failure: use bool for forcekill state
-2ec15cec5fbcd904d9815376a67da0f8da65fab4 mm/khugepaged: use ALIGN helpers for PMD alignment
-cfdb06c5179e51f73bdd98b59a3e7045b6900742 mm: huge_memory: use sysfs_match_string() in defrag_store()
-e42a7dc8b44457581eba9799da18ec75e968c313 mm: huge_memory: refactor defrag_show() to use defrag_flags[]
-0d500b0f64e0f08456ba15b0266f9169498487e8 mm/vmpressure: skip socket pressure for costly order reclaim
-9f93101cc144017bcb3eb41ff213e8c1837557e0 mm/page_io: rename swap_iocb fields for clarity
-ef372bcd51725a1edb2e708d44b63500665185e6 mm/memory-failure: replace magic number 3 with GET_PAGE_MAX_RETRY_NUM
-b1dd4bec8d535c30118b5ea929c4cfb517c70ede mm/page_alloc: cleanup flag vars in alloc_pages_bulk_noprof()
-900c57c398501519abbbdbf691b44176d23cc713 mm/thp: dead code cleanup in Kconfig
-5e89421040cfc8a7e52485a2d6156fc3cfb9bb88 mm, page_alloc: reintroduce page allocation stall warning
-42b893b2a62aef82ba197cc2e6f4f406267a2c65 mm/lruvec: preemptively free dead folios during lru_add drain
-70d1bb829e5c9bbb0f47a835aa2581162f894e26 mm/hugetlb: fix hugetlb cgroup rsvd charge/uncharge mismatch
-980e11d680b4e4164bbc79d7a2f7a45cf62e8769 drm/managed: use special gfp_t format specifier
-6a12e63c51218ed9e4eddf354798fcbcdedb85fb mm/kfence: use special gfp_t format specifier
-d8e1f6d7332424c49c0f6878ae660b7c4f7a7ee3 net/rds: use special gfp_t format specifier
-513f2fc976eb0666fc45b74b7938f211b8fbbf14 dax/kmem: account for partial discontiguous resource upon removal
-a94ab6f1b4218208f6292f6d3a6186b279ed043a include/asm-generic/fixmap.h: reimplement nasty macros in C
-80a5456b3cf475eea155b66d7a06ff266dc05647 mm/vmstat: spread vmstat_update requeue across the stat interval
 
---===============7450939782956931281==--
+--===============0882161625061775889==--
