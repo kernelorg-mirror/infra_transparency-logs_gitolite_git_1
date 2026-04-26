@@ -1,51 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============4782286486977146801=="
+Content-Type: multipart/mixed; boundary="===============2225051991307642910=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Sun, 26 Apr 2026 23:20:05 -0000
-Message-Id: <177724560518.2922708.3790584301375323986@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Sun, 26 Apr 2026 23:20:12 -0000
+Message-Id: <177724561205.2923183.14803483763007730110@gitolite.kernel.org>
 
---===============4782286486977146801==
+--===============2225051991307642910==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-7.1
+  - ref: refs/heads/asoc-7.1
     old: 24fcdc81dd7e1560e57eff75b618e5b00054b714
     new: c7ecb6a61908c2604dda6e42da66724d256de7b9
     log: revlist-24fcdc81dd7e-c7ecb6a61908.txt
 
---===============4782286486977146801==
+--===============2225051991307642910==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1777245603 +0900
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1777245601-6c6be41c8a06ab7646a2917dcd65ae9cefd81875
+pusher C3F436CA30F5D8EB 1777245610 +0900
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1777245609-a7af107aefec16fc695ecf18e623a6876e93b69e
 
-24fcdc81dd7e1560e57eff75b618e5b00054b714 c7ecb6a61908c2604dda6e42da66724d256de7b9 refs/heads/for-7.1
+24fcdc81dd7e1560e57eff75b618e5b00054b714 c7ecb6a61908c2604dda6e42da66724d256de7b9 refs/heads/asoc-7.1
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmnunaMACgkQJNaLcl1U
-h9D8hQf+JYos4X7tDt1qQXeDeFv562rsOcvmUQK1cYzFM1Fpq0kBlfwPt99NqeBx
-LMUy4YICXLb79fIgMfwunGcZDNGGhXED1nOypk1bcWJj30AcbZ2o760wYgeNf9GV
-VG3rP6KoTGZU7C+RU9FklNmGrM9fe2v6QW2PBZq9hBqpuxwlYxLilMOYgPsNgx/x
-LWzY5+lz5dTaT1dGTyzRxe9Ow74cIEIdKJbJvzVktypMjCXbjlpUEjp+vgq4A8PR
-YWgh5wxK8PPgVuyHEY8hcEt566rZPzQt6yc5kTCw9PBc2Z0obKNsE+vmLL7yOLN1
-eEUFdCgo/40Tt8Ao2yAhKlg89zateA==
-=jNh/
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmnunaoACgkQJNaLcl1U
+h9DphAf/ZuaYn3YVtWDN5hqeYt7/ESePmpVBAT7OTVpC2rE+dJinGfxhSyc9Zy/l
+vAJxsYkHEPnXxs5nL8O5FGrvATabEfegnQXytwJrZic5PSYduGvYJGIcrVz8QFfY
+BjPuG0Q3+T64EVTo3WsSVVs2b/7oVW6E6e4x1QhfdSqVxEmol9BFZx3X1W1EudXO
+yZfHXGim6i0rYVZOejphurnLvW7NzhwjOqC9tPUuiw/PeVX8dD/343OORVKwXeZt
+jDsECkK0m1f3aM3pOQKjH9zBU563FjHXet+7fjDfLmVRcJod8JDmCNMhvRrLyBsh
+0lpIO34WPYzCPS+BxsE1c9Z/p5Arig==
+=UECQ
 -----END PGP SIGNATURE-----
 
---===============4782286486977146801==
+--===============2225051991307642910==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1076,4 +1076,4 @@ b0f6f4ac7d5d04fe2adcdd63ed1cd1ad505b8958 ASoC: amd: acp: Add DMI quirk for Valve
 4cfb5971c2fbfac061c23fb4224a3a008199de81 ASoC: tas2764: Mark die temp register as volatile
 c7ecb6a61908c2604dda6e42da66724d256de7b9 ASoC: tas2770: Fix order of operations for temperature calculation
 
---===============4782286486977146801==--
+--===============2225051991307642910==--
