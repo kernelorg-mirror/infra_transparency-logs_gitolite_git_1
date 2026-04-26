@@ -1,36 +1,36 @@
-Content-Type: multipart/mixed; boundary="===============7027476920729640557=="
+Content-Type: multipart/mixed; boundary="===============5551575597164651269=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regmap
-Date: Sun, 26 Apr 2026 22:47:04 -0000
-Message-Id: <177724362485.2889947.8633774170734332269@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
+Date: Sun, 26 Apr 2026 22:47:19 -0000
+Message-Id: <177724363973.2890307.17480861101136460925@gitolite.kernel.org>
 
---===============7027476920729640557==
+--===============5551575597164651269==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regmap
+repo: pub/scm/linux/kernel/git/broonie/regulator
 user: broonie
 changes:
   - ref: refs/heads/for-linus
-    old: 90e7fb86a338402d70821b78cea1dd178177a814
-    new: 0973d151ec2d73391cacb41582d93d9ca6780ea8
+    old: 5471389840de9a9b06aa73eae0ad65bff400ee6b
+    new: 619300a9fc1ee1727ac08262f6311856de09d248
     log: |
-         0973d151ec2d73391cacb41582d93d9ca6780ea8 Merge remote-tracking branch 'regmap/for-7.0' into regmap-linus
+         619300a9fc1ee1727ac08262f6311856de09d248 Merge remote-tracking branch 'regulator/for-7.0' into regulator-linus
          
   - ref: refs/heads/for-next
-    old: 90e7fb86a338402d70821b78cea1dd178177a814
-    new: 6db2b199271a06f9b7308ce3ba771f923750537f
-    log: revlist-90e7fb86a338-6db2b199271a.txt
+    old: 5471389840de9a9b06aa73eae0ad65bff400ee6b
+    new: 10e2aec8e2a0eea8798c4d7ee55718f45e853832
+    log: revlist-5471389840de-10e2aec8e2a0.txt
 
---===============7027476920729640557==
+--===============5551575597164651269==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-90e7fb86a338-6db2b199271a.txt
+Content-Disposition: attachment; filename=revlist-5471389840de-10e2aec8e2a0.txt
 
 a93b68d46e1450ca6d395be0ca002f8bdf04d9a6 smb: smbdirect: introduce smbdirect_connection_legacy_debug_proc_show()
 09d617d3121e14309ad5e4287b0da3ec27d386a8 smb: smbdirect: introduce smbdirect_connection_wait_for_connected()
@@ -248,6 +248,7 @@ c409da0fe15e2b2aae7f93edbab977e23117ce4d selftests: ovpn: fail notification chec
 0b6c8e21157fb6dfa35163fdfe5c10387bcc6c41 parisc: update outdated comments for renamed ccio_alloc_consistent()
 3dd31a370c1dccb580f729af7c580ccb1ae3c0c9 parisc: Drop ip_fast_csum() inline assembly implementation
 da3680f564bd787ce974f9931e6e924d908b3b2a parisc: _llseek syscall is only available for 32-bit userspace
+7e555fcae40ab2ba91fd5cd54a5a83096414957f regmap: ram: fix memory leaks in __regmap_init_ram() on error
 75c486cb1bcaa1a3ec3a6438498176a3a4998ae4 ipmi:ssif: Clean up kthread on errors
 e55d98e7756135f32150b9b8f75d580d0d4b2dd3 x86/CPU: Fix FPDSS on Zen1
 97bfda452054ae0c20ab5318337e9b95ed32f616 parisc: Avoid compat syscalls when COMPAT=n
@@ -800,7 +801,6 @@ fa5061daffe841c2577c987c4f3515c45e53b775 spi: orion: clean up probe return value
 6e7daa3dad299080a9429522a98ac1ae1116ecc3 NFSv4.2: fix CLONE/COPY attrs in presence of delegated attributes
 e8a44ae87b553b0851a20bebf3d2634a45c5e316 NFS: remove redundant __private attribute from nfs_page_class
 e6614b88d59d110ee1a80ed0826e34f24dd35c96 NFS: Fix RCU dereference of cl_xprt in nfs_compare_super_address
-2af72ec297d1d4928d0522b45c8ee87cb0d5f5ff regulator: qcom: Unify user-visible "Qualcomm" name
 def036ef87f8641c1c525d5ae17438d7a1006491 ksmbd: reset rcount per connection in ksmbd_conn_wait_idle_sess_id()
 cc92b479b6ed1d7d1a6eb13aba472badb836a832 ksmbd: Use AES-CMAC library for SMB3 signature calculation
 c049ee14eb4343b69b6f7755563f961f5e153423 ksmbd: destroy tree_conn_ida in ksmbd_session_destroy()
@@ -1054,7 +1054,7 @@ b935117fe6d1af576e39b1f18c9e875f44bd146f Merge tag 'kbuild-fixes-7.1-1' of git:/
 20b64cf8705a0f6268bb9a320eb6b4c425f3ec6c Merge tag 'tsm-for-7.1' of git://git.kernel.org/pub/scm/linux/kernel/git/devsec/tsm
 14479877c1ec9667edb4a7c20a8d7a704e7249ca Merge tag 'clk-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/clk/linux
 254f49634ee16a731174d2ae34bc50bd5f45e731 Linux 7.1-rc1
-0973d151ec2d73391cacb41582d93d9ca6780ea8 Merge remote-tracking branch 'regmap/for-7.0' into regmap-linus
-6db2b199271a06f9b7308ce3ba771f923750537f Merge branch 'regmap-linus' into regmap-next
+619300a9fc1ee1727ac08262f6311856de09d248 Merge remote-tracking branch 'regulator/for-7.0' into regulator-linus
+10e2aec8e2a0eea8798c4d7ee55718f45e853832 Merge branch 'regulator-linus' into regulator-next
 
---===============7027476920729640557==--
+--===============5551575597164651269==--
