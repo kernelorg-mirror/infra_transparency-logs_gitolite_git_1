@@ -1,51 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============5822351413044884211=="
+Content-Type: multipart/mixed; boundary="===============6484838285010911488=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
-Date: Sun, 26 Apr 2026 23:21:10 -0000
-Message-Id: <177724567049.2925135.16168719169042044125@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Sun, 26 Apr 2026 23:21:17 -0000
+Message-Id: <177724567732.2925470.6237885937140778418@gitolite.kernel.org>
 
---===============5822351413044884211==
+--===============6484838285010911488==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/spi
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-7.1
+  - ref: refs/heads/spi-7.1
     old: 16ab65df5d867961a79cef366cdb33f09ebda603
     new: 7643978722aac3a012783ce12dc534eba7c51698
     log: revlist-16ab65df5d86-7643978722aa.txt
 
---===============5822351413044884211==
+--===============6484838285010911488==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1777245668 +0900
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
-nonce 1777245667-4bf59dd6db58c8495b31621548b4edbc59fecd73
+pusher C3F436CA30F5D8EB 1777245675 +0900
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1777245674-8722c874b5e6fb37b33b9318bfecd8691c5c6fd6
 
-16ab65df5d867961a79cef366cdb33f09ebda603 7643978722aac3a012783ce12dc534eba7c51698 refs/heads/for-7.1
+16ab65df5d867961a79cef366cdb33f09ebda603 7643978722aac3a012783ce12dc534eba7c51698 refs/heads/spi-7.1
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmnuneQACgkQJNaLcl1U
-h9Dlzgf/dqmuVLjZTdP6utuEyKMTu7Gi/5ICqh709flwxaEyS6DF8x32iOgOy4Y3
-6J79ulcPrFJ8JpGmnIeM8dwJyYGw+ausaEOySM1rscip2l4NzYVCmRyhpbFr7/kn
-SvxM6SYZc+epNn4PDxcOJokgmh9d3G9ac8FMusopb37PKVJnbHE3t47Z7TWfg4IM
-ev0791+nZKp7/8njalfl57WnaxH5ql3CnMk99sqyn2lfwXjweNQqtHtlH6CUzIFT
-2UvpbarBMVRbGJAaT0ae8G5Yjc+gA52OCItg8I535JI4lWYsUVPbC+OFgmS/0b4q
-5CPexy/vfgEaTHo0mZ90rx9QPwVwIA==
-=aX0I
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmnunesACgkQJNaLcl1U
+h9AxOwf/R7EKA+QYT/2qPitu/qZ4lwWfP3VTBifUmzMDMT+kxPNQTBjNUME6NtBm
+NUT39SBfI2NxOAnse+otNjxCvffT5WrDUUWF3Mbo+Rbv2pfB2WGUqCVeI+WyJuCm
+0MfUFAyCqZxrg4Bf2ZREHfScmDyyDfYbg1aTOomPW7Zv+VnJcFN1VovtCye/Zam1
+y0bCuN+3Eb/0k/SmaFNSIp28HRq6yNVGPoecF8gQL36H1x3GCLoG0jVxAsjx6o9K
+KQoE04rrpe8N+nZgFvklY/sjMsG+3AN+uWQJPQxFasoEFyrI4zwrBEApnKl9JIHl
+fMZBB24eqrrSUEWfdCSV/IIcEhXlEg==
+=X1Iy
 -----END PGP SIGNATURE-----
 
---===============5822351413044884211==
+--===============6484838285010911488==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1076,4 +1076,4 @@ b935117fe6d1af576e39b1f18c9e875f44bd146f Merge tag 'kbuild-fixes-7.1-1' of git:/
 b4683a239a409d65f88052f5630c748a8ba070cd spi: rockchip: Read ISR, not IMR, to detect cs-inactive IRQ
 7643978722aac3a012783ce12dc534eba7c51698 spi: rockchip: Drop unused and broken CR0 macros
 
---===============5822351413044884211==--
+--===============6484838285010911488==--
