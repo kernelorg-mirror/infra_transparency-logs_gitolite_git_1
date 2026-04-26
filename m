@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
-Date: Sun, 26 Apr 2026 15:17:30 -0000
-Message-Id: <177721665004.2446200.10891575490569686647@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd-test
+Date: Sun, 26 Apr 2026 15:47:07 -0000
+Message-Id: <177721842721.2476773.1090244391428398354@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/25-new
-user: akpm
+repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd-test
+user: jarkko
 changes:
-  - ref: refs/heads/master
-    old: 61edcd539350d44a65bc2d58ffbf1ecabea8db4b
-    new: 913f4c65b525ed6ef9ec4585c9802b78f4e35296
+  - ref: refs/heads/main
+    old: 552d29b893b53c81c4a5b574c0f7adcc81fae42f
+    new: 52b643ccd7449b0dde6f8d0bbbbac47f61b8440e
     log: |
-         913f4c65b525ed6ef9ec4585c9802b78f4e35296 foo
+         52b643ccd7449b0dde6f8d0bbbbac47f61b8440e Convert Makefile to Justfile
          
