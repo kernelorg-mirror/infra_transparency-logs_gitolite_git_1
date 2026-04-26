@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd-test
-Date: Sun, 26 Apr 2026 15:47:07 -0000
-Message-Id: <177721842721.2476773.1090244391428398354@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/devsec/tsm
+Date: Sun, 26 Apr 2026 15:58:29 -0000
+Message-Id: <177721910924.2487273.7285071091632604416@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd-test
-user: jarkko
+repo: pub/scm/linux/kernel/git/devsec/tsm
+user: djbw
 changes:
-  - ref: refs/heads/main
-    old: 552d29b893b53c81c4a5b574c0f7adcc81fae42f
-    new: 52b643ccd7449b0dde6f8d0bbbbac47f61b8440e
-    log: |
-         52b643ccd7449b0dde6f8d0bbbbac47f61b8440e Convert Makefile to Justfile
-         
+  - ref: refs/tags/tsm-for-7.1
+    old: 0000000000000000000000000000000000000000
+    new: 00403a28cbff7e3c4dadb6c5f7963fb5d46af3df
