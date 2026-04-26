@@ -1,55 +1,47 @@
-Content-Type: multipart/mixed; boundary="===============7275089209403640062=="
+Content-Type: multipart/mixed; boundary="===============6206906404984706851=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Sun, 26 Apr 2026 23:20:28 -0000
-Message-Id: <177724562856.2923795.1789309541178200409@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Sun, 26 Apr 2026 23:20:34 -0000
+Message-Id: <177724563477.2924015.10020004692611853409@gitolite.kernel.org>
 
---===============7275089209403640062==
+--===============6206906404984706851==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-7.2
-    old: 254f49634ee16a731174d2ae34bc50bd5f45e731
+  - ref: refs/heads/asoc-7.2
+    old: 0000000000000000000000000000000000000000
     new: ed05258250dc91bebd84bb8778217b0ce9992ff4
-    log: |
-         e9a6f077e4157795024d6076f1a9f6e2a5865bc6 ASoC: fsl_micfil: Add DC output remover control
-         0241d6192a11c8f8634ab10a3a26fbdec92a9b08 ASoC: mchp-spdifrx: Replace manual bitfield manipulations with macros and typo correction
-         0fa63c7ea9e1571f9da9fd4afda22361966b3236 ASoC: ops: Log unknown controls in snd_soc_limit_volume()
-         fc86d55e8b7869d8579b6613744887f00453e637 ASoC: apple: mca: Use guard() for mutex locks
-         ae93afff9818ae59e6434d1a202d3ed2540fa46d ASoC: atmel: Change manual bitfield manipulation to use FIELD_PREP()
-         ed05258250dc91bebd84bb8778217b0ce9992ff4 ASoC: tlv320aic3x: Add multi endpoint support
-         
 
---===============7275089209403640062==
+--===============6206906404984706851==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1777245627 +0900
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1777245626-a6cda558cc383499fba3ad8a260326119d25a4f0
+pusher C3F436CA30F5D8EB 1777245633 +0900
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1777245632-222ccb8f61adca862c7bf8c4cce660dca19ba3be
 
-254f49634ee16a731174d2ae34bc50bd5f45e731 ed05258250dc91bebd84bb8778217b0ce9992ff4 refs/heads/for-7.2
+0000000000000000000000000000000000000000 ed05258250dc91bebd84bb8778217b0ce9992ff4 refs/heads/asoc-7.2
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmnunbsACgkQJNaLcl1U
-h9DMuAf/aY3xcZFB8x6iNV47+ufRZ/t2WIWdWltYnvKUP61LI6HzYAQ5zn9TvzX5
-YijyVKeclSJJLKYoO/0v6EWLNUv5fbJie8q9XKIP0Qm6N/Ef4ZOM3oIJ1somA0/X
-bIFdh8H4fo5pgEo2BWIpm/R8UIfS2CzOPjGQrfueLUt8X/O++qi/+Yzl6qRCPblp
-S0TFGPJWrEflctWijBgyY6H0Qavf4c1gsKN8I3E/QyMIa//R+BcPZAoHmacbj3uT
-MrHCyLfAICxVQG5ryB+gjw7l8d6RtlukDrZkKUhz40H1Hi2nashi8RrnCICvbA+S
-9Cysh5O0ap06pWbEglcTYDph1ashbA==
-=6zj4
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmnuncEACgkQJNaLcl1U
+h9DpNwgAgOc87Zr8ik31WWidZS01aqNXpv2jMpehAY9SXuvDbt6scvDYv0rldkZ8
+cDHlFCBCSDZsZ8P1gZX/DDf6+rg9VrzjZRLaOonjXHCvZbKVNFyqgoftB1lXmaNB
+e5v/xxO5l8whm6q807HcCzGZdU/SmEx/N1oSvN0QHlbn/oi8sP4uDNZH7o9Hn44T
+1OxTpGVSiurglTcEbg0igUQDGOENdnYwql+KmZR9eAi9vBkf7iZ4HougMNuxq6Pk
+cvRelbk6ayeyX0ngai+fjYFvmgHSoYvuTYpAQ1Rrowypc/4BHMyWvzP4y0IsWC5I
+o552rHisGrKgJ5aBEPkcxk052ml6yw==
+=ck3w
 -----END PGP SIGNATURE-----
 
---===============7275089209403640062==--
+--===============6206906404984706851==--
