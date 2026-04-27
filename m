@@ -1,21 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/chrome-platform/linux
-Date: Mon, 27 Apr 2026 02:32:50 -0000
-Message-Id: <177725717069.3167238.5209830644640768914@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kbuild/linux
+Date: Mon, 27 Apr 2026 03:03:24 -0000
+Message-Id: <177725900433.3196869.17283790276444273585@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/chrome-platform/linux
-user: tzungbi
+repo: pub/scm/linux/kernel/git/kbuild/linux
+user: nathan
 changes:
-  - ref: refs/heads/for-next
-    old: 79b1c32a3faf9ceae365f56de7e962b81fa8167d
-    new: 0fd0fea2525d979c6de4ae546ac2ea1801849ae5
-    log: |
-         d572049e6f4c46868d4d98c459618ed32bd93b2d platform/chrome: cros_kbd_led_backlight: Drop max_brightness from driver data
-         094a473e5dd6e02da5c09bf2c184c59c10a7b70c platform/chrome: cros_kbd_led_backlight: Pass keyboard_led as parameter
-         0fd0fea2525d979c6de4ae546ac2ea1801849ae5 platform/chrome: cros_kbd_led_backlight: Drop CONFIG_MFD_CROS_EC_DEV ifdeffery
-         
+  - ref: refs/tags/v7.0-rc6
+    old: 0000000000000000000000000000000000000000
+    new: b6c7d19951061de1be08fb8f5714e630b24bcc1c
+  - ref: refs/tags/v7.0-rc7
+    old: 0000000000000000000000000000000000000000
+    new: 0e5d0a0b5ca6ea4e391d6786266405c5871e0151
+  - ref: refs/tags/v7.1-rc1
+    old: 0000000000000000000000000000000000000000
+    new: 5e9b7d093f3f77cb0af4409559e3d139babfb443
