@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/aalbersh/xfsprogs-dev
-Date: Mon, 27 Apr 2026 11:56:24 -0000
-Message-Id: <177729098488.3801732.10921792978563024735@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
+Date: Mon, 27 Apr 2026 11:59:52 -0000
+Message-Id: <177729119207.3803373.18188975521945492282@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/aalbersh/xfsprogs-dev
-user: aalbersh
+repo: pub/scm/linux/kernel/git/akpm/25-new
+user: akpm
 changes:
-  - ref: refs/tags/libxfs-v7.0-sync_2026-04-27
-    old: 0000000000000000000000000000000000000000
-    new: cbe77451e8e8266f13c76275a5934c32ffe15fb1
+  - ref: refs/heads/master
+    old: 7b0d1ceac75c8872bdd75b047a94aa4bb4ff0a5a
+    new: dd695206f0c5e80817b9b66c79e4e18c7bf3b16d
+    log: |
+         dd695206f0c5e80817b9b66c79e4e18c7bf3b16d foo
+         
