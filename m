@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8211249873094256641=="
+Content-Type: multipart/mixed; boundary="===============1932552812844235413=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mips/linux
-Date: Mon, 27 Apr 2026 07:19:57 -0000
-Message-Id: <177727439787.3500784.4071626410045149567@gitolite.kernel.org>
+Date: Mon, 27 Apr 2026 07:20:31 -0000
+Message-Id: <177727443123.3503689.10500021391469704468@gitolite.kernel.org>
 
---===============8211249873094256641==
+--===============1932552812844235413==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/mips/linux
 user: tsbogend
 changes:
-  - ref: refs/heads/mips-next
-    old: 15513eefac7ca68602e9de9853f5e671bf7b4eef
+  - ref: refs/heads/master
+    old: 591cd656a1bf5ea94a222af5ef2ee76df029c1d2
     new: 254f49634ee16a731174d2ae34bc50bd5f45e731
-    log: revlist-15513eefac7c-254f49634ee1.txt
+    log: revlist-591cd656a1bf-254f49634ee1.txt
 
---===============8211249873094256641==
+--===============1932552812844235413==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-15513eefac7c-254f49634ee1.txt
+Content-Disposition: attachment; filename=revlist-591cd656a1bf-254f49634ee1.txt
 
 b183b7b9b51fc37cc8e1fbad3c0d84e0cb605266 smb: smbdirect: introduce smbdirect_mr_io_fill_buffer_descriptor()
 a93b68d46e1450ca6d395be0ca002f8bdf04d9a6 smb: smbdirect: introduce smbdirect_connection_legacy_debug_proc_show()
@@ -1051,4 +1051,4 @@ b935117fe6d1af576e39b1f18c9e875f44bd146f Merge tag 'kbuild-fixes-7.1-1' of git:/
 14479877c1ec9667edb4a7c20a8d7a704e7249ca Merge tag 'clk-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/clk/linux
 254f49634ee16a731174d2ae34bc50bd5f45e731 Linux 7.1-rc1
 
---===============8211249873094256641==--
+--===============1932552812844235413==--
