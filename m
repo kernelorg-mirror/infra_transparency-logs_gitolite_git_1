@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3347282252414702431=="
+Content-Type: multipart/mixed; boundary="===============3290858806384095010=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/westeri/thunderbolt
-Date: Mon, 27 Apr 2026 05:12:06 -0000
-Message-Id: <177726672682.3377608.3611746968969888350@gitolite.kernel.org>
+Date: Mon, 27 Apr 2026 05:12:45 -0000
+Message-Id: <177726676512.3378017.16054904823036457024@gitolite.kernel.org>
 
---===============3347282252414702431==
+--===============3290858806384095010==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/westeri/thunderbolt
 user: westeri
 changes:
-  - ref: refs/heads/fixes
-    old: 028ef9c96e96197026887c0f092424679298aae8
+  - ref: refs/heads/next
+    old: 498c05821bb42f70e9bf6512c3dec4aa821815d0
     new: 254f49634ee16a731174d2ae34bc50bd5f45e731
-    log: revlist-028ef9c96e96-254f49634ee1.txt
+    log: revlist-498c05821bb4-254f49634ee1.txt
 
---===============3347282252414702431==
+--===============3290858806384095010==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-028ef9c96e96-254f49634ee1.txt
+Content-Disposition: attachment; filename=revlist-498c05821bb4-254f49634ee1.txt
 
 b183b7b9b51fc37cc8e1fbad3c0d84e0cb605266 smb: smbdirect: introduce smbdirect_mr_io_fill_buffer_descriptor()
 a93b68d46e1450ca6d395be0ca002f8bdf04d9a6 smb: smbdirect: introduce smbdirect_connection_legacy_debug_proc_show()
@@ -1051,4 +1051,4 @@ b935117fe6d1af576e39b1f18c9e875f44bd146f Merge tag 'kbuild-fixes-7.1-1' of git:/
 14479877c1ec9667edb4a7c20a8d7a704e7249ca Merge tag 'clk-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/clk/linux
 254f49634ee16a731174d2ae34bc50bd5f45e731 Linux 7.1-rc1
 
---===============3347282252414702431==--
+--===============3290858806384095010==--
