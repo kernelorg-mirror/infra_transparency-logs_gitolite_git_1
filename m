@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5245930103458024002=="
+Content-Type: multipart/mixed; boundary="===============2239540662533800924=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/s390/linux
-Date: Mon, 27 Apr 2026 10:38:17 -0000
-Message-Id: <177728629734.3712743.6654649332105313309@gitolite.kernel.org>
+Date: Mon, 27 Apr 2026 10:38:26 -0000
+Message-Id: <177728630634.3712981.5488585151981323478@gitolite.kernel.org>
 
---===============5245930103458024002==
+--===============2239540662533800924==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/s390/linux
 user: gor
 changes:
-  - ref: refs/heads/features
-    old: 8d7ea40011551c2ec915ee0260cae1c746c63156
+  - ref: refs/heads/for-next
+    old: c3e8a8ef58bd829ad31c8f49e2343c7e2acd9bc8
     new: 254f49634ee16a731174d2ae34bc50bd5f45e731
-    log: revlist-8d7ea4001155-254f49634ee1.txt
+    log: revlist-c3e8a8ef58bd-254f49634ee1.txt
 
---===============5245930103458024002==
+--===============2239540662533800924==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8d7ea4001155-254f49634ee1.txt
+Content-Disposition: attachment; filename=revlist-c3e8a8ef58bd-254f49634ee1.txt
 
 b183b7b9b51fc37cc8e1fbad3c0d84e0cb605266 smb: smbdirect: introduce smbdirect_mr_io_fill_buffer_descriptor()
 a93b68d46e1450ca6d395be0ca002f8bdf04d9a6 smb: smbdirect: introduce smbdirect_connection_legacy_debug_proc_show()
@@ -1051,4 +1051,4 @@ b935117fe6d1af576e39b1f18c9e875f44bd146f Merge tag 'kbuild-fixes-7.1-1' of git:/
 14479877c1ec9667edb4a7c20a8d7a704e7249ca Merge tag 'clk-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/clk/linux
 254f49634ee16a731174d2ae34bc50bd5f45e731 Linux 7.1-rc1
 
---===============5245930103458024002==--
+--===============2239540662533800924==--
