@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/util-linux/util-linux
-Date: Mon, 27 Apr 2026 08:12:18 -0000
-Message-Id: <177727753859.3556412.13907814736944402337@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/thomas.weissschuh/linux
+Date: Mon, 27 Apr 2026 08:15:07 -0000
+Message-Id: <177727770787.3560191.16449737225398068646@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/util-linux/util-linux
-user: kzak
+repo: pub/scm/linux/kernel/git/thomas.weissschuh/linux
+user: thomas.weissschuh
 changes:
-  - ref: refs/heads/stable/v2.42
-    old: 163580f997e33b8532b7fe88729cf02ea8c21ce4
-    new: 32dc36d5ed35c7b0d0460fdc9610e8c7694a2f15
+  - ref: refs/heads/b4/restricted-pointers-kunit-test
+    old: b64dcf6b67c195dcc2685cd443c743be13c7a60c
+    new: ea22667eee8a92c4ef393de28e691087c3621a47
     log: |
-         32dc36d5ed35c7b0d0460fdc9610e8c7694a2f15 copyfilerange: (man) fix swapped offsets in command example
+         ea22667eee8a92c4ef393de28e691087c3621a47 vsprintf: Add test for restricted kernel pointers
          
