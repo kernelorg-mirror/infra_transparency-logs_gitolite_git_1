@@ -1,76 +1,70 @@
-Content-Type: multipart/mixed; boundary="===============2260377702838133532=="
+Content-Type: multipart/mixed; boundary="===============0262603693438182586=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Mon, 27 Apr 2026 10:16:22 -0000
-Message-Id: <177728498232.3684494.17779782760090518356@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Mon, 27 Apr 2026 10:16:37 -0000
+Message-Id: <177728499773.3684724.10300722265164952993@gitolite.kernel.org>
 
---===============2260377702838133532==
+--===============0262603693438182586==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/spi
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/asoc-7.2
-    old: ed05258250dc91bebd84bb8778217b0ce9992ff4
-    new: a960faa424ae459a7843da2734fa51580814b89a
-    log: revlist-ed05258250dc-a960faa424ae.txt
+  - ref: refs/heads/for-7.2
+    old: 76645c1fd682c9df746c3f7c149b868ceff914fb
+    new: 43b0b44b31632d285327bbc9fa8d64ba8f328d48
+    log: revlist-76645c1fd682-43b0b44b3163.txt
 
---===============2260377702838133532==
+--===============0262603693438182586==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1777284980 +0900
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1777284980-a39634206423f0768b254d626cd400e835a6823f
+pusher C3F436CA30F5D8EB 1777284995 +0900
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/spi.git
+nonce 1777284995-2de902533055b1d740d872c91f7fce02315bf9dd
 
-ed05258250dc91bebd84bb8778217b0ce9992ff4 a960faa424ae459a7843da2734fa51580814b89a refs/heads/asoc-7.2
+76645c1fd682c9df746c3f7c149b868ceff914fb 43b0b44b31632d285327bbc9fa8d64ba8f328d48 refs/heads/for-7.2
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmnvN3QACgkQJNaLcl1U
-h9Cm6gf+LO4yu97/Guq0Ai1rh0OQHYoUjH+PgYSQiYQs0CJ+kbZhBepb+yW9bRzH
-AqfuH6o1IPWKUjAAlwI/mMgMnPw/PFzr8ocH75DD5Mkk+ezvnn8Cbu6dCCHF9uQZ
-OG3BUpuY9GU0HgYDpAXq2I1KdR63eQjs7L/23JAd+oONNDXHxGrBDfTr6a/jG9RE
-drVuM+ZI50eB9qfUlapaMztWqhORuRYST5lyeknNTK1+yBicpIPfoOxr7EaCgkMa
-oDgB8fSm92XfalnxkGV9OjlfvdWBNtOHlZCOjorbhFZSBF0Zro2OKPhnEOKcz61F
-lQwaIrAnRgFJz3xulIKkJl7youf9lA==
-=Jqq2
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmnvN4MACgkQJNaLcl1U
+h9CWCgf/cngyIhpPplZ/gxHBuGxarPvEVDoYZV23jXnyDUJhz8qMaIf07yv3BIm6
+2O29e9dnr9cCBwiUuCDLwuiWE3dy3vWJ72rpJYTzB5XTqOa3fBPnxKRuocI1fUcH
+TNTjgAXEYjOTZZFKOH1XKXk7kXAS7kUlb+nd08mAwb0IzskmvTJraEGaayAuh3Y8
+cTj492ktwIpX1P/8afyNqYJuR35PjwPxBaCX4kkG5vpOvkEGkzz6kG0f46367K/7
+GanLeXzqopD/CwWvlutlv5JA6EgV3bT6yI8RLr2hqXFXlzpA+XSyT3sSabz/so6z
+WsO6xfEZrCSgjBD7Yo9b8kZIGgeHiw==
+=KSAi
 -----END PGP SIGNATURE-----
 
---===============2260377702838133532==
+--===============0262603693438182586==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-ed05258250dc-a960faa424ae.txt
+Content-Disposition: attachment; filename=revlist-76645c1fd682-43b0b44b3163.txt
 
-bda41dd5e1dd35e06922a7c04799b49bbac26c0d ASoC: rt722-sdca: add FU06 Playback Switch for speaker mute control
-3d08517b5c67e1612e9320a6b2b74dbc576e85d7 ASoC: samsung: i2s: Use guard() for spin locks
-a54f20fe889737f8277abc957ff72b6cdd469f2a ASoC: samsung: idma: Use guard() for spin locks
-1d4dfb27554c4eb510f17580b0d5cc3225d99428 ASoC: samsung: odroid: Use guard() for spin locks
-02f43a0d0dc66fe13b22a745bbb6b810594cc70b ASoC: samsung: pcm: Use guard() for spin locks
-922fc982af98183f73599784ae5c207af3ca0c60 ASoC: samsung: spdif: Use guard() for spin locks
-a4debf0f2b409c5f98e5239070dd9ede6d2576b0 ASoC: samsung: Use guard() for spin locks
-0d0e98603f9f2870fdd6c8df8ed851cf975082f8 ASoC: sof-function-topology-lib: add virtual loop dai support
-d82bf6af621301971ac01b0f2919e87137c59774 ASoC: SOF: topology: allow user to add topologies
-0d132799926cb6d417ffa8748f66f3f8e4faca24 ASoC: SOF: topology: allow user to add topologies
-9897a977668121ff9f3e950d9e471011d81c0934 ASoC: dt-bindings: fsl-sai: Document RX/TX BCLK swap support
-dc06cf4268a4ad4192fb688ae81c8638df6c8810 ASoC: fsl_sai: Add RX/TX BCLK swap support
-82bc8bcfc494b383313b16982bd9479811c72990 ASoC: dt-bindings: fsl-sai: Document RX/TX BCLK swap support
-0c1f5e6e7b036e3cbb5961432a74050c3a02144b ASoC: tegra210_adx: simplify byte map get/put logic
-445af52d4caa41bd92c7ec9ad229542836ae9853 ASoC: tegra210_amx: simplify byte map get/put logic
-eb0d565514734383a3fbcb71e5c2c250d155d653 ASoC: tegra210: simplify ADX/AMX byte map get/put logic
-5067f61ccaa1b688e338e5d3fa464730b4159734 ASoC: dt-bindings: Add ti,tas67524
-133c81f84471f47dadf03d0505d4c308b227a736 ASoC: codecs: Add TAS67524 quad-channel audio amplifier driver
-ba46edca354e66d71d176bb88fe1c01594c45871 Documentation: sound: Add TAS675x codec mixer controls documentation
-3507e568d63486ebbc857a8e74e49a04e6311bc2 MAINTAINERS: add entry for TAS67524 audio amplifier
-a960faa424ae459a7843da2734fa51580814b89a ASoC: Add TAS67524 quad-channel Class-D amplifier driver
+5b1689a41f02955c5361944f748a4812a6ff9307 spi: cadence: fix unclocked access on unbind
+ecea4f0e9db2fb6ab4a68a59c5aba0d8f59a9566 spi: cadence: fix clock imbalance on probe failure
+63f34e35f87f32fb8e92525516e5eaf30cbf0973 spi: cadence: rename probe error labels
+bf7b648acd48ae5b9e265727c84b4e0a4a33727b spi: cadence: clean up probe return value
+a02f9b79152be4b91cac0ec5bba56bbcd642dd2e spi: cadence: runtime PM fixes
+5ff4d5d1af0c7517bd8db83c95c4247a9729a548 spi: cadence-quadspi: fix runtime pm disable imbalance on probe failure
+cba53fe20c18688c17ca668ad0e4ec05e31c70d3 spi: cadence-quadspi: fix clock imbalance on probe failure
+233db2cb14db8b1935dda52a6affd97276462b82 spi: cadence-quadspi: fix unclocked access on unbind
+5e8bb0cc72f1d52d8ac2a88f4c952e2e98056aed spi: cadence-quadspi: fix runtime pm and clock imbalance on unbind
+edbaae583ead2c06aea756b0fafd5fa7a1e89fc1 spi: cadence-quadspi: clean up disable runtime pm quirk
+37c9dfa385db995e2c8b369a40c72a53dd644df1 spi: cadence-quadspi: drop redundant match data lookup
+8ef578fd33d05b34739e5db01db9d950a546339e spi: cadence-quadspi: runtime PM fixes
+565bdf45125a05aa8f622f58f598283f46ba43f4 spi: atcspi200: fix use-after-free when driver unbind
+aaea50c3bd768d03ee791b7428ac9b264777b6d7 spi: atcspi200: switch to devm functions
+43b0b44b31632d285327bbc9fa8d64ba8f328d48 spi: atcspi200: two cleanup
 
---===============2260377702838133532==--
+--===============0262603693438182586==--
