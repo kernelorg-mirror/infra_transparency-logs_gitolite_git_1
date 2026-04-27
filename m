@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============8020828230364845225=="
+Content-Type: multipart/mixed; boundary="===============5493577384170256556=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Mon, 27 Apr 2026 18:25:38 -0000
-Message-Id: <177731433832.265409.15895646909240537775@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/device-mapper/linux-dm
+Date: Mon, 27 Apr 2026 18:28:47 -0000
+Message-Id: <177731452796.267362.12193548047184898894@gitolite.kernel.org>
 
---===============8020828230364845225==
+--===============5493577384170256556==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tip/tip
-user: daveh
+repo: pub/scm/linux/kernel/git/device-mapper/linux-dm
+user: mikulas
 changes:
-  - ref: refs/heads/x86/misc
-    old: b21cf01c29ea16cd016c5f0b96f49fd0e9e27591
+  - ref: refs/heads/for-next
+    old: 8c0ee19db81f0fa1ff25fd75b22b17c0cc2acde3
     new: 254f49634ee16a731174d2ae34bc50bd5f45e731
-    log: revlist-b21cf01c29ea-254f49634ee1.txt
+    log: revlist-8c0ee19db81f-254f49634ee1.txt
 
---===============8020828230364845225==
+--===============5493577384170256556==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b21cf01c29ea-254f49634ee1.txt
+Content-Disposition: attachment; filename=revlist-8c0ee19db81f-254f49634ee1.txt
 
 b183b7b9b51fc37cc8e1fbad3c0d84e0cb605266 smb: smbdirect: introduce smbdirect_mr_io_fill_buffer_descriptor()
 a93b68d46e1450ca6d395be0ca002f8bdf04d9a6 smb: smbdirect: introduce smbdirect_connection_legacy_debug_proc_show()
@@ -1051,4 +1051,4 @@ b935117fe6d1af576e39b1f18c9e875f44bd146f Merge tag 'kbuild-fixes-7.1-1' of git:/
 14479877c1ec9667edb4a7c20a8d7a704e7249ca Merge tag 'clk-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/clk/linux
 254f49634ee16a731174d2ae34bc50bd5f45e731 Linux 7.1-rc1
 
---===============8020828230364845225==--
+--===============5493577384170256556==--
