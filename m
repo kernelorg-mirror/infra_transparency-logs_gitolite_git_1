@@ -1,34 +1,34 @@
-Content-Type: multipart/mixed; boundary="===============4480369513333978214=="
+Content-Type: multipart/mixed; boundary="===============4924949805166573162=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jgg/iommufd
-Date: Mon, 27 Apr 2026 14:10:35 -0000
-Message-Id: <177729903568.4121200.1526492064431949571@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/fwctl/fwctl
+Date: Mon, 27 Apr 2026 14:10:50 -0000
+Message-Id: <177729905072.4121501.5655496576378516146@gitolite.kernel.org>
 
---===============4480369513333978214==
+--===============4924949805166573162==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jgg/iommufd
+repo: pub/scm/linux/kernel/git/fwctl/fwctl
 user: jgg
 changes:
   - ref: refs/heads/for-next
-    old: 8602018b1f17fbdaa5e5d79f4c8603ad20640c12
+    old: a55f80233f384dc89ef3425b2e1dd0e6d44bcf29
     new: 254f49634ee16a731174d2ae34bc50bd5f45e731
-    log: revlist-8602018b1f17-254f49634ee1.txt
+    log: revlist-a55f80233f38-254f49634ee1.txt
   - ref: refs/heads/for-rc
     old: 11439c4635edd669ae435eec308f4ab8a0804808
     new: 254f49634ee16a731174d2ae34bc50bd5f45e731
     log: revlist-11439c4635ed-254f49634ee1.txt
 
---===============4480369513333978214==
+--===============4924949805166573162==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8602018b1f17-254f49634ee1.txt
+Content-Disposition: attachment; filename=revlist-a55f80233f38-254f49634ee1.txt
 
 b183b7b9b51fc37cc8e1fbad3c0d84e0cb605266 smb: smbdirect: introduce smbdirect_mr_io_fill_buffer_descriptor()
 a93b68d46e1450ca6d395be0ca002f8bdf04d9a6 smb: smbdirect: introduce smbdirect_connection_legacy_debug_proc_show()
@@ -1055,7 +1055,7 @@ b935117fe6d1af576e39b1f18c9e875f44bd146f Merge tag 'kbuild-fixes-7.1-1' of git:/
 14479877c1ec9667edb4a7c20a8d7a704e7249ca Merge tag 'clk-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/clk/linux
 254f49634ee16a731174d2ae34bc50bd5f45e731 Linux 7.1-rc1
 
---===============4480369513333978214==
+--===============4924949805166573162==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -2086,4 +2086,4 @@ b935117fe6d1af576e39b1f18c9e875f44bd146f Merge tag 'kbuild-fixes-7.1-1' of git:/
 14479877c1ec9667edb4a7c20a8d7a704e7249ca Merge tag 'clk-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/clk/linux
 254f49634ee16a731174d2ae34bc50bd5f45e731 Linux 7.1-rc1
 
---===============4480369513333978214==--
+--===============4924949805166573162==--
