@@ -1,31 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============4331833962501258097=="
+Content-Type: multipart/mixed; boundary="===============0122190837574747857=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/thomas.weissschuh/linux
-Date: Mon, 27 Apr 2026 13:00:52 -0000
-Message-Id: <177729485209.3876550.14279120866903057027@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ulfh/linux-pm
+Date: Mon, 27 Apr 2026 13:08:32 -0000
+Message-Id: <177729531225.3884320.1834057607127082238@gitolite.kernel.org>
 
---===============4331833962501258097==
+--===============0122190837574747857==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/thomas.weissschuh/linux
-user: thomas.weissschuh
+repo: pub/scm/linux/kernel/git/ulfh/linux-pm
+user: ulfh
 changes:
-  - ref: refs/heads/b4/module-hashes
-    old: 16c074267acf86cc8eedcc9a60013da8c96e1b06
-    new: c3721dd4939df45c964a03cb82c6e6bcec9f0ec3
-    log: revlist-16c074267acf-c3721dd4939d.txt
+  - ref: refs/heads/fixes
+    old: c2812c0cb909211a1d2e7cec862406e32833b9de
+    new: ec1fcddb3117d9452210e838fd37389ee61e10e8
+    log: revlist-c2812c0cb909-ec1fcddb3117.txt
+  - ref: refs/tags/v7.1-rc1
+    old: 0000000000000000000000000000000000000000
+    new: 5e9b7d093f3f77cb0af4409559e3d139babfb443
 
---===============4331833962501258097==
+--===============0122190837574747857==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-16c074267acf-c3721dd4939d.txt
+Content-Disposition: attachment; filename=revlist-c2812c0cb909-ec1fcddb3117.txt
 
+09d617d3121e14309ad5e4287b0da3ec27d386a8 smb: smbdirect: introduce smbdirect_connection_wait_for_connected()
+dc24063813ea617394db153cf9203286770ed404 smb: smbdirect: introduce smbdirect_connection_is_connected()
+b3e78c651441eaf08e830e260d06fd8d33a8b7f9 smb: smbdirect: introduce smbdirect_socket_shutdown()
+dce268ffcddc96f29707c1967c52b036ad92e43d smb: smbdirect: introduce smbdirect_socket_init_{new,accepting}() and helpers
+ede2b44b0e62378cb8585dda20a4edadbc621bb0 smb: smbdirect: let smbdirect_socket_set_initial_parameters() call rdma_restrict_node_type()
+d1f187656797fc7434388c1795e05f8abe370d46 smb: smbdirect: introduce smbdirect_connect[_sync]()
+eb3ed1e9048cf7b2a38112f48e0f1b772bb7860d smb: smbdirect: introduce smbdirect_accept_connect_request()
+20cd3cc4420bdb9f63644cd140e2682f634e651e smb: smbdirect: introduce smbdirect_socket_create_{kern,accepting}() and smbdirect_socket_release()
+b1e6277bd1240c3a66aac537b1b43b4bfd2edcd8 smb: smbdirect: let smbdirect_socket.h include all headers for used structures
+5e4bf7fadd4a608cace7604b720483f051f8176f smb: smbdirect: let smbdirect_internal.h define pr_fmt without SMBDIRECT_USE_INLINE_C_FILES
+b2261ceedd4a4831957732ebae5ad33bf5c7fc80 smb: smbdirect: introduce smbdirect_public.h with prototypes
+89df0942907894a92dbece12bfa35e1647959b0c smb: smbdirect: provide explicit prototypes for cross .c file functions
+4c9e665cb1132b92812886d08ec784132eb66caf smb: smbdirect: introduce smbdirect_init_send_batch_storage()
+84df3cde16090d5d1de4df31623ef0433fdea041 smb: smbdirect: split out smbdirect_accept_negotiate_finish()
+03f9e2c15f8fa32b8056a3a59f98f652726f78b8 smb: smbdirect: introduce smbdirect_socket_bind()
+dc691b91ad1677def14582a279e56fd943b52f94 smb: smbdirect: introduce smbdirect_socket_{listen,accept}()
+f9a804da479cc41172f1039b4ffde06a09920506 smb: smbdirect: introduce the basic smbdirect.ko
 dd43c2227394472aa6e438ddffc2f58028de7531 smb: client: make use of smbdirect_socket_prepare_create()
 2459505596f57664f61a1be9b50065ebed9da660 smb: client: make use of smbdirect_socket_set_logging()
 5f6e338bbb78787933ffcf87959178c4f0a08757 smb: client: make use of smbdirect_socket_wake_up_all()
@@ -1031,24 +1051,7 @@ b935117fe6d1af576e39b1f18c9e875f44bd146f Merge tag 'kbuild-fixes-7.1-1' of git:/
 20b64cf8705a0f6268bb9a320eb6b4c425f3ec6c Merge tag 'tsm-for-7.1' of git://git.kernel.org/pub/scm/linux/kernel/git/devsec/tsm
 14479877c1ec9667edb4a7c20a8d7a704e7249ca Merge tag 'clk-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/clk/linux
 254f49634ee16a731174d2ae34bc50bd5f45e731 Linux 7.1-rc1
-bf092ad67415472f3e44c4160d1e5edb06129f11 deleteme
-f01303b94fd72b08d6d039186ca4b0c083093ef2 cleanup docs
-d961a27cb3f7cf580ce8fde9b3eddaad8399e388 libsubcmd: reduce headers install spam
-585c2e775b12ef45bdf9cef5f679dcb1220e0d65 DESCEND spam
-e9900aa8e5756ec4c345cabbb6c71158d879e3d0 module: Introduce hash-based integrity checking
-09541afb0183b12c0bfd5d0f9a1eaef2736c7b88 lockdown: Make the relationship to MODULE_SIG a dependency
-b4bf17bea523717829d8037e087254db0c47f59e kbuild: generate module BTF based on vmlinux.unstripped
-595f9a4aba4565ccad614868350110cc4fd9d0ec kbuild: rename the strip_relocs command
-aa57db1171564f2c33deed627a12b1a5e8d9dd8f module: Drop pointless debugging message
-87c93d45cca1bf25c3dad617b6f1dfb465e7724e module: Make mod_verify_sig() static
-942f263a20c94c9271ef221fc898460ad48137d6 module: Switch load_info::len to size_t
-9e136d3a6daa1d0f096a2758b65bed0a2253d7dd module: Make module authentication usable without MODULE_SIG
-b28c501352e1f2cd5c68dd090bffa5869f75b43b module: Move authentication logic into dedicated new file
-f4249f74b68eda649d3088024c9eb7d553051d46 module: Move signature type check out of mod_check_sig()
-226d4572c6e6fcfd4b2ec011712d2d8d099dae78 module: Prepare for additional module authentication mechanisms
-d22442f603163fa2f90065cf02a3ae94be7244ab module: update timestamp of modules.order after modules are built
-de6c879e6c187b1c261f1c36cf7502a2759c35a8 module: Introduce hash-based integrity checking
-c070103bc36b5d5651434e8359d76ad06137b8ed kbuild: move handling of module stripping to Makefile.lib
-c3721dd4939df45c964a03cb82c6e6bcec9f0ec3 kbuild: make CONFIG_MODULE_HASHES compatible with module stripping
+26735dfdd8930d9ef1fa92e590a9bf77726efdf6 pmdomain: core: Fix detach procedure for virtual devices in genpd
+ec1fcddb3117d9452210e838fd37389ee61e10e8 pmdomain: mediatek: fix use-after-free in scpsys_get_bus_protection_legacy()
 
---===============4331833962501258097==--
+--===============0122190837574747857==--
