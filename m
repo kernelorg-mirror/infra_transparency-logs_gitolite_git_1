@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
-Date: Mon, 27 Apr 2026 23:50:05 -0000
-Message-Id: <177733380561.596190.12280784195312352164@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Mon, 27 Apr 2026 23:50:40 -0000
+Message-Id: <177733384043.596881.909895461311853251@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net-next
+repo: pub/scm/linux/kernel/git/netdev/net
 user: kuba
 changes:
-  - ref: refs/heads/main
-    old: 254f49634ee16a731174d2ae34bc50bd5f45e731
-    new: 790ead9394860e7d70c5e0e50a35b243e909a618
-    log: |
-         790ead9394860e7d70c5e0e50a35b243e909a618 Documentation: net/smc: correct old value of smcr_max_recv_wr
-         
+  - ref: refs/tags/v7.1-rc1
+    old: 0000000000000000000000000000000000000000
+    new: 5e9b7d093f3f77cb0af4409559e3d139babfb443
