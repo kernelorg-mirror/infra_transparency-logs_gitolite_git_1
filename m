@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/util-linux/util-linux
-Date: Mon, 27 Apr 2026 10:49:21 -0000
-Message-Id: <177728696195.3723799.6351450777658511143@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/aalbersh/xfsprogs-dev
+Date: Mon, 27 Apr 2026 10:50:40 -0000
+Message-Id: <177728704039.3727022.11405966271059326992@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/util-linux/util-linux
-user: kzak
+repo: pub/scm/linux/kernel/git/aalbersh/xfsprogs-dev
+user: aalbersh
 changes:
-  - ref: refs/heads/master
-    old: 1dee29e40db06ff3722ffa8c6b4845edddc7b41e
-    new: a14738694ec36edc054b137c56bce135e5c41529
-    log: |
-         a14738694ec36edc054b137c56bce135e5c41529 tools/git-tp-sync: update po4a.cfg language list on sync
-         
+  - ref: refs/tags/libxfs-v7.0-sync_2026-04-27
+    old: 0000000000000000000000000000000000000000
+    new: 8343b2ef320ed4a32a98a3f01e878c00f01c838c
