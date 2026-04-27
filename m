@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2570208335582793333=="
+Content-Type: multipart/mixed; boundary="===============6038902248426921543=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Mon, 27 Apr 2026 11:15:21 -0000
-Message-Id: <177728852198.3755304.17397676146853020573@gitolite.kernel.org>
+Date: Mon, 27 Apr 2026 11:15:32 -0000
+Message-Id: <177728853210.3755932.17907655775250227753@gitolite.kernel.org>
 
---===============2570208335582793333==
+--===============6038902248426921543==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/usb
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/usb-next
+  - ref: refs/heads/usb-testing
     old: 27d128c1cff64c3b8012cc56dd5a1391bb4f1821
-    new: 254f49634ee16a731174d2ae34bc50bd5f45e731
-    log: revlist-27d128c1cff6-254f49634ee1.txt
+    new: e4d7362dc9cd50b0fc74c8649aa241376c48936c
+    log: revlist-27d128c1cff6-e4d7362dc9cd.txt
 
---===============2570208335582793333==
+--===============6038902248426921543==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1777288486 -0600
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1777288495 -0600
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1777288520-b2ef3a59175a3c4a8f7462c32f1a7e85f3c01eba
+nonce 1777288528-e2ea067a77237d093b109157f8347a9614a22a01
 
-27d128c1cff64c3b8012cc56dd5a1391bb4f1821 254f49634ee16a731174d2ae34bc50bd5f45e731 refs/heads/usb-next
+27d128c1cff64c3b8012cc56dd5a1391bb4f1821 e4d7362dc9cd50b0fc74c8649aa241376c48936c refs/heads/usb-testing
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmnvRSYbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+cwAP/09Tg8geBQL1RymTVoMt
-R9Mb2Zs4TZEEj9nQxj1l4idljKgu79ZbviSVpIRypMfc1OjVn0dgj6xJgpu097Ge
-PR+gEiMYwAdse2R9KFgFgy62XN2dxP2qL5iuQ0LhLgBnJpQGAEH37ARBZ+z0ZtEs
-NS5QIte7M7Ef0wIrroEizp9MK1rsJUEsEraQPaJHhHWjAlNhIbXQfhAI5blW+b/J
-ISPKR2w4kseUtdHPEljlB//yRC9qY+3GpX2gO46IYHQrPW2CEufvQBDKGeq6DQP1
-EeJIfqJGE6blVUtrBzn8qxlR/4jZGkiObW9Wqnlj1HpsTvh3oXk2oWCUqSSGclJH
-cWhRfLKrF7lB1232328FlMPMkRvlJgSpZr2o6JEKaA0dOP/qjQ2XeT6xzYmoIFPm
-LGo3HY9O02kPaXOpdQpQuchxHCemrAuevBGsra9zqqKdHO4bJed2iyvU6CkwQLQF
-8s59qkulYYA8a+Hp18Zoqq3O9v6XFkYcOuaa2V/tnKZ9ZV1MSK/TaSf5m+MdR4B+
-6YtToxXeAO5FZ26NOi4u8ThPBLY9OPh0qxo72izQMl9xyTq4ELhFKKEk3xLJTra7
-V6YFuTmvXqBSRC2SEZxpGKPNKu/ertv56MgNW38k2D2Vjuzeq2C7Nz2KZ6yPfcjx
-8+t1vXXoV5zq88RdgYRkIdmX
-=iq5/
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmnvRS8bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+1JsQAJ52hicR/3sbay9bXg95
+Odow1Gdq7GgffVpLeR+HR5YqUWwt9PLjtsFcQ4yIGhBrJ0eNNvtgmw9Qta7WJave
+S2/hj+tYZBRiYZ5lbj0znMZhIAKqoFHyx34M6ZRazWlMukw3rDx1ZAunYC2qm/j5
+mE1tb9eBHHxUEYVqVU87vf85AmuG7Z8iCHIrBddFUlUdYYSsjtTQNzPWo3DzxvnV
+fczr4f2l5pmsmi+Pfcog8Kxh7+qqnlIEyQNHo4cDeuAtxshAlAOUNsb0wEo5YhX2
+GR1jms8DBpe2jAbBWcMpdhQY868Beeh1V/+WNhS2OhP6woyrXJp+WDtooymuUyAf
+y1qIr8T/WYRIKJQGAK7NaGoH+MFZ5VYXzb1XtJhPGNQBq4FZA291GQVosyoIBjG7
+Q6/BHe729gFmi588RhrW/bf4jryHlMXM1C0lyouJqnz9lok/81NhARLVO6UpdxiF
+UBhMQ4Wzly3b9P5Ta9D4i6hq+rriPcSYsPWUlsp+T2MyuDi4fQjWg4nuD9PtmqJO
+S9JnmKHhEv+H7oVxrkNVRIv4C4uYmv2Un4OpiNBclwbc2HTPqj6QnA9qPSt5XY05
+tC76b0sTD5OwY5nr7wZiFcq41R8qOV1f4pU5NO8N4+lW5UC/hn3RUWNzyvdn4y3R
+hokxcfW3xiduMTT/Tvu3cOnX
+=B3rc
 -----END PGP SIGNATURE-----
 
---===============2570208335582793333==
+--===============6038902248426921543==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-27d128c1cff6-254f49634ee1.txt
+Content-Disposition: attachment; filename=revlist-27d128c1cff6-e4d7362dc9cd.txt
 
 59e4f3b45b96a24fc9b7a89e5f8a2168b30f95af ARM: ensure interrupts are enabled in __do_user_fault()
 78900204851708bbe761c3acf641ad60f15c922f ARM: move vmalloc() lazy-page table population
@@ -129,5 +129,11 @@ b935117fe6d1af576e39b1f18c9e875f44bd146f Merge tag 'kbuild-fixes-7.1-1' of git:/
 20b64cf8705a0f6268bb9a320eb6b4c425f3ec6c Merge tag 'tsm-for-7.1' of git://git.kernel.org/pub/scm/linux/kernel/git/devsec/tsm
 14479877c1ec9667edb4a7c20a8d7a704e7249ca Merge tag 'clk-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/clk/linux
 254f49634ee16a731174d2ae34bc50bd5f45e731 Linux 7.1-rc1
+8417e4cd6ce06f1f79a22091bc6cc82677490315 dt-bindings: usb: Add Genesys Logic GL3590 hub
+9a71ac508974d44d42d358f42e6a766ec67a73d1 usb: misc: onboard_usb_hub: Add Genesys Logic GL3590 hub support
+e68fddb47aad85ebd294a051243066f29da20d8d usb: cdnsp: add support for eUSB2v2 port
+62911bc82b0332aee7546156800d3516500fa1e1 usb: gadget: udc: skip pullup() if already connected
+b379998c8261d458dc3cc7e09ef8ccbfa9d2335f dt-bindings: usb: cdns,usb3: document USBSSP controller support
+e4d7362dc9cd50b0fc74c8649aa241376c48936c usb: cdns3: Add USBSSP platform driver support
 
---===============2570208335582793333==--
+--===============6038902248426921543==--
