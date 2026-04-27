@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2412662424612126249=="
+Content-Type: multipart/mixed; boundary="===============5757901173164455742=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/i3c/linux
-Date: Mon, 27 Apr 2026 15:20:52 -0000
-Message-Id: <177730325243.62110.1714325132328197422@gitolite.kernel.org>
+Date: Mon, 27 Apr 2026 15:21:00 -0000
+Message-Id: <177730326035.62325.14551209977730948071@gitolite.kernel.org>
 
---===============2412662424612126249==
+--===============5757901173164455742==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/i3c/linux
 user: abelloni
 changes:
-  - ref: refs/heads/i3c/fixes
-    old: f311a05784634febd299f03476b80f3f18489767
+  - ref: refs/heads/i3c/next
+    old: d35a6db887eeae7c57b719521e39d64f929c6dc3
     new: 254f49634ee16a731174d2ae34bc50bd5f45e731
-    log: revlist-f311a0578463-254f49634ee1.txt
+    log: revlist-d35a6db887ee-254f49634ee1.txt
 
---===============2412662424612126249==
+--===============5757901173164455742==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f311a0578463-254f49634ee1.txt
+Content-Disposition: attachment; filename=revlist-d35a6db887ee-254f49634ee1.txt
 
 b183b7b9b51fc37cc8e1fbad3c0d84e0cb605266 smb: smbdirect: introduce smbdirect_mr_io_fill_buffer_descriptor()
 a93b68d46e1450ca6d395be0ca002f8bdf04d9a6 smb: smbdirect: introduce smbdirect_connection_legacy_debug_proc_show()
@@ -1051,4 +1051,4 @@ b935117fe6d1af576e39b1f18c9e875f44bd146f Merge tag 'kbuild-fixes-7.1-1' of git:/
 14479877c1ec9667edb4a7c20a8d7a704e7249ca Merge tag 'clk-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/clk/linux
 254f49634ee16a731174d2ae34bc50bd5f45e731 Linux 7.1-rc1
 
---===============2412662424612126249==--
+--===============5757901173164455742==--
