@@ -1,51 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============3213939779575754919=="
+Content-Type: multipart/mixed; boundary="===============2260377702838133532=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Mon, 27 Apr 2026 10:16:16 -0000
-Message-Id: <177728497628.3684250.8330129016770001511@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Mon, 27 Apr 2026 10:16:22 -0000
+Message-Id: <177728498232.3684494.17779782760090518356@gitolite.kernel.org>
 
---===============3213939779575754919==
+--===============2260377702838133532==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-7.2
+  - ref: refs/heads/asoc-7.2
     old: ed05258250dc91bebd84bb8778217b0ce9992ff4
     new: a960faa424ae459a7843da2734fa51580814b89a
     log: revlist-ed05258250dc-a960faa424ae.txt
 
---===============3213939779575754919==
+--===============2260377702838133532==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1777284974 +0900
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1777284974-3f231ff502592dc2037a97b762f91f9da4ff275c
+pusher C3F436CA30F5D8EB 1777284980 +0900
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1777284980-a39634206423f0768b254d626cd400e835a6823f
 
-ed05258250dc91bebd84bb8778217b0ce9992ff4 a960faa424ae459a7843da2734fa51580814b89a refs/heads/for-7.2
+ed05258250dc91bebd84bb8778217b0ce9992ff4 a960faa424ae459a7843da2734fa51580814b89a refs/heads/asoc-7.2
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmnvN24ACgkQJNaLcl1U
-h9CpWQf/a+BbFsvshRPtxL+act7xx4cD++p90CvceNJQ7fbKHA15AZ6AOitUyKbD
-NgtILPbNA4PGe9qoVMRufLNgcrJ/zG9Ls26vV65Mgr1CDFV+1p1KHcw6shBJb0Tr
-hGB0D3ylzjm9+jC5JVcIThbJnjG30OGu7nwym70iCmwTK7dXtAjPHY8MqJRRbc4R
-w3Y2w5jLU6qDy7LEO7PIUuHN3l3QyMMqJyg7Z7UM355DdU8+MiucOwW+2ROMIDku
-MKv4rOfcrRa/i2QeXBeWOagYbrfq1/rO3SWdZcOL23/42DJl9ImiyI3RHcCWZdzR
-CAiAaJwZ9hsI+c/mQJImYQYLZUEVNQ==
-=YRm3
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmnvN3QACgkQJNaLcl1U
+h9Cm6gf+LO4yu97/Guq0Ai1rh0OQHYoUjH+PgYSQiYQs0CJ+kbZhBepb+yW9bRzH
+AqfuH6o1IPWKUjAAlwI/mMgMnPw/PFzr8ocH75DD5Mkk+ezvnn8Cbu6dCCHF9uQZ
+OG3BUpuY9GU0HgYDpAXq2I1KdR63eQjs7L/23JAd+oONNDXHxGrBDfTr6a/jG9RE
+drVuM+ZI50eB9qfUlapaMztWqhORuRYST5lyeknNTK1+yBicpIPfoOxr7EaCgkMa
+oDgB8fSm92XfalnxkGV9OjlfvdWBNtOHlZCOjorbhFZSBF0Zro2OKPhnEOKcz61F
+lQwaIrAnRgFJz3xulIKkJl7youf9lA==
+=Jqq2
 -----END PGP SIGNATURE-----
 
---===============3213939779575754919==
+--===============2260377702838133532==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -73,4 +73,4 @@ ba46edca354e66d71d176bb88fe1c01594c45871 Documentation: sound: Add TAS675x codec
 3507e568d63486ebbc857a8e74e49a04e6311bc2 MAINTAINERS: add entry for TAS67524 audio amplifier
 a960faa424ae459a7843da2734fa51580814b89a ASoC: Add TAS67524 quad-channel Class-D amplifier driver
 
---===============3213939779575754919==--
+--===============2260377702838133532==--
