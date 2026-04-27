@@ -1,21 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/security/vulns
-Date: Mon, 27 Apr 2026 12:28:55 -0000
-Message-Id: <177729293552.3838322.3512705988392502862@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/util-linux/util-linux
+Date: Mon, 27 Apr 2026 12:34:11 -0000
+Message-Id: <177729325191.3843845.14423573007115995675@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/security/vulns
-user: lee
+repo: pub/scm/utils/util-linux/util-linux
+user: kzak
 changes:
   - ref: refs/heads/master
-    old: 665e45dd7390b4df7449829854422b01d5b70498
-    new: 40295bf46fee8581c16632a74114b761acd2207a
+    old: 8c1829cb6e3fdf04c38ac2cd48ea1eb29beb6c4d
+    new: 26f529ad854c1a72edd8b725d22fb0fe70a4ccd1
     log: |
-         01a87a8f6c10e757502adbb9da45f77c68b2ef93 proposed: Add Lee's v6.18.11 results
-         ceee0601110d7f294070bfecd53ab416194bdefe proposed: Add Lee's v6.19.13 results
-         40295bf46fee8581c16632a74114b761acd2207a proposed: Add Lee's v7.0.1 results
+         07114372f963fe4dc388bf4f6d3d7cf498d2c27f mkfs.cramfs: Add -p padding only once
+         6e77a85bdb5db322ae29a2f3ac10379801684cf9 mkfs.cramfs: Consider -i only once
+         0e4774ff09576ba9c97142e926efca4600348a62 ci: update to latest OpenWrt release
+         ceae72fb5f9c892d525b3c5d73a3a47ff5ea4d56 Merge branch 'ci/openwrt-25.12' of https://github.com/t-8ch/util-linux
+         26f529ad854c1a72edd8b725d22fb0fe70a4ccd1 Merge branch 'mkfs_cramfs_args' of https://github.com/stoeckmann/util-linux
          
