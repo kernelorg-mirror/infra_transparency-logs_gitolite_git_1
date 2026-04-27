@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6580831602800720101=="
+Content-Type: multipart/mixed; boundary="===============1494870569273285697=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Mon, 27 Apr 2026 06:03:30 -0000
-Message-Id: <177726981048.3426361.378905822910246704@gitolite.kernel.org>
+Date: Mon, 27 Apr 2026 06:03:45 -0000
+Message-Id: <177726982575.3426710.17918356132612376332@gitolite.kernel.org>
 
---===============6580831602800720101==
+--===============1494870569273285697==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,15 +16,24 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: dffc5753ba4c8c58e8a0ce94ec8954e281a428b8
-    new: 6332678477743d1a0578f8fe89e605fd88c0be00
-    log: revlist-dffc5753ba4c-633267847774.txt
+    old: 6332678477743d1a0578f8fe89e605fd88c0be00
+    new: a2b8bd08310628439eaed108b7d2a635ce2cfef5
+    log: |
+         a2b8bd08310628439eaed108b7d2a635ce2cfef5 Merge branch into tip/master: 'timers/clocksource'
+         
+  - ref: refs/heads/tip/urgent
+    old: 27d128c1cff64c3b8012cc56dd5a1391bb4f1821
+    new: 254f49634ee16a731174d2ae34bc50bd5f45e731
+    log: revlist-27d128c1cff6-254f49634ee1.txt
+  - ref: refs/tags/v7.1-rc1
+    old: 0000000000000000000000000000000000000000
+    new: 5e9b7d093f3f77cb0af4409559e3d139babfb443
 
---===============6580831602800720101==
+--===============1494870569273285697==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-dffc5753ba4c-633267847774.txt
+Content-Disposition: attachment; filename=revlist-27d128c1cff6-254f49634ee1.txt
 
 59e4f3b45b96a24fc9b7a89e5f8a2168b30f95af ARM: ensure interrupts are enabled in __do_user_fault()
 78900204851708bbe761c3acf641ad60f15c922f ARM: move vmalloc() lazy-page table population
@@ -98,6 +107,5 @@ b935117fe6d1af576e39b1f18c9e875f44bd146f Merge tag 'kbuild-fixes-7.1-1' of git:/
 20b64cf8705a0f6268bb9a320eb6b4c425f3ec6c Merge tag 'tsm-for-7.1' of git://git.kernel.org/pub/scm/linux/kernel/git/devsec/tsm
 14479877c1ec9667edb4a7c20a8d7a704e7249ca Merge tag 'clk-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/clk/linux
 254f49634ee16a731174d2ae34bc50bd5f45e731 Linux 7.1-rc1
-6332678477743d1a0578f8fe89e605fd88c0be00 Merge branch 'linus'
 
---===============6580831602800720101==--
+--===============1494870569273285697==--
