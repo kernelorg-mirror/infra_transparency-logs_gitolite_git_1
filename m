@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2160834559437730066=="
+Content-Type: multipart/mixed; boundary="===============8535017659965340742=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/andi.shyti/linux
-Date: Mon, 27 Apr 2026 12:34:16 -0000
-Message-Id: <177729325661.3844200.3501065729448466058@gitolite.kernel.org>
+Date: Mon, 27 Apr 2026 12:34:19 -0000
+Message-Id: <177729325953.3844299.13704253415257523019@gitolite.kernel.org>
 
---===============2160834559437730066==
+--===============8535017659965340742==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/andi.shyti/linux
 user: andi.shyti
 changes:
-  - ref: refs/heads/i2c/i2c-host-fixes
-    old: 39ed7d89b973329cc5c764b65ba6302b17b1907e
+  - ref: refs/heads/i2c/i2c-host-2
+    old: faed986de5250e1cd1296e82d1fcb4c03997e02a
     new: 254f49634ee16a731174d2ae34bc50bd5f45e731
-    log: revlist-39ed7d89b973-254f49634ee1.txt
+    log: revlist-faed986de525-254f49634ee1.txt
 
---===============2160834559437730066==
+--===============8535017659965340742==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-39ed7d89b973-254f49634ee1.txt
+Content-Disposition: attachment; filename=revlist-faed986de525-254f49634ee1.txt
 
 b183b7b9b51fc37cc8e1fbad3c0d84e0cb605266 smb: smbdirect: introduce smbdirect_mr_io_fill_buffer_descriptor()
 a93b68d46e1450ca6d395be0ca002f8bdf04d9a6 smb: smbdirect: introduce smbdirect_connection_legacy_debug_proc_show()
@@ -1051,4 +1051,4 @@ b935117fe6d1af576e39b1f18c9e875f44bd146f Merge tag 'kbuild-fixes-7.1-1' of git:/
 14479877c1ec9667edb4a7c20a8d7a704e7249ca Merge tag 'clk-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/clk/linux
 254f49634ee16a731174d2ae34bc50bd5f45e731 Linux 7.1-rc1
 
---===============2160834559437730066==--
+--===============8535017659965340742==--
