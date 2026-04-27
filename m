@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4012934140468603800=="
+Content-Type: multipart/mixed; boundary="===============2160834559437730066=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/andi.shyti/linux
-Date: Mon, 27 Apr 2026 12:34:13 -0000
-Message-Id: <177729325337.3843926.13805792160642354009@gitolite.kernel.org>
+Date: Mon, 27 Apr 2026 12:34:16 -0000
+Message-Id: <177729325661.3844200.3501065729448466058@gitolite.kernel.org>
 
---===============4012934140468603800==
+--===============2160834559437730066==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,20 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/andi.shyti/linux
 user: andi.shyti
 changes:
-  - ref: refs/heads/i2c/i2c-host
-    old: e43f2df330a1b87c97235e4faade860d15787735
-    new: beec6b0a30da08f4d872736e1261f1213da82da6
-    log: revlist-e43f2df330a1-beec6b0a30da.txt
+  - ref: refs/heads/i2c/i2c-host-fixes
+    old: 39ed7d89b973329cc5c764b65ba6302b17b1907e
+    new: 254f49634ee16a731174d2ae34bc50bd5f45e731
+    log: revlist-39ed7d89b973-254f49634ee1.txt
 
---===============4012934140468603800==
+--===============2160834559437730066==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e43f2df330a1-beec6b0a30da.txt
+Content-Disposition: attachment; filename=revlist-39ed7d89b973-254f49634ee1.txt
 
+b183b7b9b51fc37cc8e1fbad3c0d84e0cb605266 smb: smbdirect: introduce smbdirect_mr_io_fill_buffer_descriptor()
+a93b68d46e1450ca6d395be0ca002f8bdf04d9a6 smb: smbdirect: introduce smbdirect_connection_legacy_debug_proc_show()
+09d617d3121e14309ad5e4287b0da3ec27d386a8 smb: smbdirect: introduce smbdirect_connection_wait_for_connected()
 dc24063813ea617394db153cf9203286770ed404 smb: smbdirect: introduce smbdirect_connection_is_connected()
 b3e78c651441eaf08e830e260d06fd8d33a8b7f9 smb: smbdirect: introduce smbdirect_socket_shutdown()
 dce268ffcddc96f29707c1967c52b036ad92e43d smb: smbdirect: introduce smbdirect_socket_init_{new,accepting}() and helpers
@@ -1047,8 +1050,5 @@ b935117fe6d1af576e39b1f18c9e875f44bd146f Merge tag 'kbuild-fixes-7.1-1' of git:/
 20b64cf8705a0f6268bb9a320eb6b4c425f3ec6c Merge tag 'tsm-for-7.1' of git://git.kernel.org/pub/scm/linux/kernel/git/devsec/tsm
 14479877c1ec9667edb4a7c20a8d7a704e7249ca Merge tag 'clk-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/clk/linux
 254f49634ee16a731174d2ae34bc50bd5f45e731 Linux 7.1-rc1
-22623d6df6e09e3d89044897a83156b46e0cc33e dt-bindings: i2c: loongson,ls2x: Add ls2k0300-i2c compatible
-6d1b0785f6d5e143a40be1dafa9e4e4d29fa7146 i2c: ls2x-v2: Add driver for Loongson-2K0300 I2C controller
-beec6b0a30da08f4d872736e1261f1213da82da6 i2c: designware: Use PM_RUNTIME_ACQUIRE()/PM_RUNTIME_ACQUIRE_ERR()
 
---===============4012934140468603800==--
+--===============2160834559437730066==--
