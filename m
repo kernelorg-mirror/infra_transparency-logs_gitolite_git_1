@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1658471500388015765=="
+Content-Type: multipart/mixed; boundary="===============5553951958227594675=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/gregkh
-Date: Mon, 27 Apr 2026 11:16:00 -0000
-Message-Id: <177728856073.3756656.4528720563512076619@gitolite.kernel.org>
+Date: Mon, 27 Apr 2026 11:16:16 -0000
+Message-Id: <177728857626.3757324.18076466975382819450@gitolite.kernel.org>
 
---===============1658471500388015765==
+--===============5553951958227594675==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/gregkh
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/readfile
-    old: e9a71c16cf5d7a5087063a1f691f02a82ff5b386
-    new: ef278deecd9b20f98ef9f30d6aabed945b75e1b8
-    log: revlist-e9a71c16cf5d-ef278deecd9b.txt
+  - ref: refs/heads/rndis
+    old: 34a90530231c350cfad68b451cd33308121c7320
+    new: 636889d103be2ca0950f8037972d6dff940178e2
+    log: revlist-34a90530231c-636889d103be.txt
 
---===============1658471500388015765==
+--===============5553951958227594675==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1777288512 -0600
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1777288527 -0600
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/gregkh.git
-nonce 1777288546-008f7b925546e80e6cc4bce27ff5da10c41a10c1
+nonce 1777288561-a5c0c4594bfe3e5dd9dc8a48456657513a68fced
 
-e9a71c16cf5d7a5087063a1f691f02a82ff5b386 ef278deecd9b20f98ef9f30d6aabed945b75e1b8 refs/heads/readfile
+34a90530231c350cfad68b451cd33308121c7320 636889d103be2ca0950f8037972d6dff940178e2 refs/heads/rndis
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmnvRUAbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+kl4QAKtj5vTYosnXBF4thlXE
-LUfejEqq0/+YaK1Y40yRoZ6lhqZtGyn9g1qoBadIiWLQsoakWlIu3XaBmlPZ48CS
-lNyPxpvJCCSu1zPUySfZEpDkVXjd6HLRD5t2A2KaWA915gSAGqsYamWKQyKBg1PX
-55XMpeDEmHzSrj3iT8ATA2NS3Px/Bx0wMuFBQ7+KLAcpwLYTN5nX7s59W7JxY2vY
-ryIFRqhKTUIimMGccQeX18oA4NXOTD4UwzK4KhTNVPMVIHgJteHXnvjkY5YLh4Oj
-DXLftNERU3YYVnCiWntphtgAGw2CBs4WGHnVBmSRQCsl6Aq345Vzn1uhjCgWpeUo
-nZLwt0CKqtGuj2ygoVebv7/Zpj+iFiqUpND18DRawuy25qsjFlR9Udv8jU7169nc
-Sq2W64dAVOOuVDdprcRAjVuzfZyErzBuqUcZjwMEr6TLfme+EPLjD/pDayTbF3QJ
-8jeOgZP4FmEmOIjvzKUgEs0vL/i63UDwvR6NkOZNbSMp6wV57w0VStlVIOmNpDPh
-G82ujBOVmJrH5untRnz/wNbHB5T8yQShcjqhTFN+u9eEUHKh5CIC4l+s+xp0yR+0
-OnM6uCQGhihNX06Zz/ad4KQdmz4PTeBsrOVwNgtUAYgynJzJ6azYV5Xg0UOD7tzj
-lDV4X9VxqQeiTFYDJQirSdLu
-=OqLK
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmnvRU8bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+5XIP/RMfm5v9nJXsDh/EtcmD
+ZO+hN50BeLusPDBarcI+i1Q4NyEou992gR9C2vFo/YhkuMYzhRnsXdQRV4Lmh+MX
+IuW5vDmd6hnUFtPo0wgOGzUcXX2V67czSU4YnorimLjohsbp97oiL6b82GKnkCyd
+zEIUe/l0GCvegJIkZnucOtsEIH+6U7Kuw83DY+0lQG7LNI36q1/5nWgS68/XWE/L
+/fXklNaPmtmOII/RbWUZ1Q3yc1llWKiCLRS1Jp8mK33csSlbIoQrVfwKcCTIEUXe
+4yczxJXtjzXLchNKHFxBJ0uykV72O5sTKkqRopcJKralw606NCYCVF78v8PS8Bge
+RITayoTKipPOrM04u8i55TBjTmDZjEFVwdgUbz7Nv/HJkr6We/YG7CbS3LT0qM8+
+fd8OkJBAzkwP5o/adJDcgiCB72CyG9oLX+qBKot/gzF5pzRIDU3CKkRjl+w2663m
+/8p8denrMxxBe284OIZOyq+E74RvJW9EbzVvBZ1heFdBpxw0zu+We3Qy0mNOnA6F
+jZXvhbhyOVvE11oHYufZmSd49wv8wt++ZfOJJ0z3RndVRe5vhlKgyX0RABOIAQb1
+DNZgp+DBM5MlAB0urY5eRInH2UaWLSWIYXNExWHPRW4UUgBXTPP4yuS/FONpXz/P
+xbDw4p62VY2W1yAUAHmeGidg
+=OSY+
 -----END PGP SIGNATURE-----
 
---===============1658471500388015765==
+--===============5553951958227594675==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e9a71c16cf5d-ef278deecd9b.txt
+Content-Disposition: attachment; filename=revlist-34a90530231c-636889d103be.txt
 
 59e4f3b45b96a24fc9b7a89e5f8a2168b30f95af ARM: ensure interrupts are enabled in __do_user_fault()
 78900204851708bbe761c3acf641ad60f15c922f ARM: move vmalloc() lazy-page table population
@@ -129,9 +129,7 @@ b935117fe6d1af576e39b1f18c9e875f44bd146f Merge tag 'kbuild-fixes-7.1-1' of git:/
 20b64cf8705a0f6268bb9a320eb6b4c425f3ec6c Merge tag 'tsm-for-7.1' of git://git.kernel.org/pub/scm/linux/kernel/git/devsec/tsm
 14479877c1ec9667edb4a7c20a8d7a704e7249ca Merge tag 'clk-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/clk/linux
 254f49634ee16a731174d2ae34bc50bd5f45e731 Linux 7.1-rc1
-3fb63d5ac18f67628e6515704fbf2d088030dfd3 readfile: implement readfile syscall
-da23f51031f18a07feb93d96516f53969f0e30dc arch: wire up the readfile syscall
-9ecaecb87ce87492674e53521b17dea68304077e readfile.2: new page describing readfile(2)
-ef278deecd9b20f98ef9f30d6aabed945b75e1b8 selftests: add readfile(2) selftests
+8873b95657b06358e716b510d848a6c3a2e42ec0 USB: disable all RNDIS protocol drivers
+636889d103be2ca0950f8037972d6dff940178e2 USB: potential rndis host fix
 
---===============1658471500388015765==--
+--===============5553951958227594675==--
