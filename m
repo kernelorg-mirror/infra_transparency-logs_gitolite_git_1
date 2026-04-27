@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============9110607226390710976=="
+Content-Type: multipart/mixed; boundary="===============5144215619261612064=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Mon, 27 Apr 2026 23:30:20 -0000
-Message-Id: <177733262052.574834.5243768404491439898@gitolite.kernel.org>
+Date: Mon, 27 Apr 2026 23:30:51 -0000
+Message-Id: <177733265138.575291.6804586318645163582@gitolite.kernel.org>
 
---===============9110607226390710976==
+--===============5144215619261612064==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,82 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/main
-    old: 4078c5611d7585548b249377ebd60c272e410490
-    new: 254f49634ee16a731174d2ae34bc50bd5f45e731
-    log: revlist-4078c5611d75-254f49634ee1.txt
+  - ref: refs/heads/dev-queue
+    old: 374ebf0f2f99ca53f8e83c623c191038b1e2332d
+    new: 1b7b8c9992e61eed299611481dba6bfcb483f7ea
+    log: revlist-374ebf0f2f99-1b7b8c9992e6.txt
 
---===============9110607226390710976==
+--===============5144215619261612064==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4078c5611d75-254f49634ee1.txt
+Content-Disposition: attachment; filename=revlist-374ebf0f2f99-1b7b8c9992e6.txt
 
-8f687eeed3da3012152b0f9473f578869de0cd7b ocfs2: validate bg_bits during freefrag scan
-70b672833f4025341c11b22c7f83778a5cd611bc ocfs2: validate group add input before caching
-2c683e9b419328da3433a49f7c467da71aaf0469 drm/i915/display: change pipe allocation order for discrete platforms
-7daff375fa4602934b3b385f83e7ad95d97d86d3 dma-fence: Silence sparse warning in dma_fence_describe
-28abd224db4a49560b452115bca3672a20e45b2f ALSA: caiaq: Handle probe errors properly
-f3c80e76a0e94c7c9771997de90f6a284b4f10d9 ALSA: 6fire: Cover the whole probe and disconnect calls with register_mutex
-4d5de85b6a9961130666070061a2466913a5c607 ALSA: 6fire: Fix leftover global pointers after probe failures
-14101a067012ee227b7c3e5ec877e79885961cff ALSA: 6fire: Reduce multi-level conditionals in usb6fire_chip_disconnect()
-02df59d0258cd97cc60b49e5570ebfcc95ea6030 ALSA: 6fire: Drop unnecessary NULL checks
-37a6b2d67b0a08e5c3d2156c9178c158c3c0225f ALSA: usb-audio: Tidy up error check for processing unit
-d9448dca423543c6c0a9890d3ff53a5d51895318 ALSA: hda/realtek: add quirk for HONOR MRB-XXX M1020
-d33db956c9618e7cb08c2520ce708437914214ec hv: Select CONFIG_SYSFB only for CONFIG_HYPERV_VMBUS
-9c0acc169ac71535477caedea8315f7041c5f07c ACPI: scan: Use acpi_dev_put() in object add error paths
-02c78abe1b373e141fb40bcf50dd5ae291161224 MAINTAINERS: adjust file entry in NVIDIA GHES HANDLER
-fbd5d52ebf49595975e24e14e57632d580738091 ACPI: add acpi_get_cpu_uid() stub helper
-ad7997f5a01af6f711fe6b6a2df578b964109d49 ACPI: video: Add backlight=native quirk for Dell OptiPlex 7770 AIO
-61b00c0ad209a712e0c8c83a6c998158155c9673 ACPI: video: Move Lenovo Legion S7 15ACH6 quirk to the right section
-dc989bb79380194917351284167f78c3aa084c94 MAINTAINERS: Update Jonathan Cameron's email address
-6c724ce0ec6ed8608917673bbb363b208ce2644c Merge branch 'for-7.1/cxl-misc' into cxl-for-next
-813f336269e629da5d9c86a8098d6bee3d84680e selftests/bpf: Fix timer_start_deadlock failure due to hrtimer change
-00c6649bafef628955569dd39a59e3170e48f7b5 Merge tag 'media/v7.1-1' of git://git.kernel.org/pub/scm/linux/kernel/git/mchehab/linux-media
-afac4c66d1aa6396ce44d94fe895d7b61e085fd4 Merge tag 'fbdev-for-7.1-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/deller/linux-fbdev
-ecdd4fd8a54ca4679ab8676674a2388ea37eee1a bpf: fix arg tracking for imprecise/multi-offset BPF_ST/STX
-d97cc8fc997c77234580c77b21466164ff71307a selftests/bpf: arg tracking for imprecise/multi-offset BPF_ST/STX
-2865c3f3f620fa78294522665f470e1bf0e64d47 Merge branch 'bpf-arg-tracking-for-imprecise-multi-offset-bpf_st-stx'
-4a57e0913e8c7fff407e97909f4ae48caa84d612 Merge tag 'drm-next-2026-04-15' of https://gitlab.freedesktop.org/drm/kernel
-a8e7ef3cec99ba2487110e01d77a8a278593b3e9 Merge tag 'sound-7.1-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tiwai/sound
-1583a7ded0d3d67fd6e7e4336600bc191d068a20 f2fs: do not support mmap write for large folio
-05cef13fa80de8cec481ae5a015e58bc6340ca2d Merge tag 'slab-for-7.1' of git://git.kernel.org/pub/scm/linux/kernel/git/vbabka/slab
-b71f0be2d23d876648758d57bc6761500e3b9c70 Merge tag 'cgroup-for-7.1' of git://git.kernel.org/pub/scm/linux/kernel/git/tj/cgroup
-7de6b4a246330fe29fa2fd144b4724ca35d60d6c Merge tag 'wq-for-7.1' of git://git.kernel.org/pub/scm/linux/kernel/git/tj/wq
-5bdb4078e1efba9650c03753616866192d680718 Merge tag 'sched_ext-for-7.1' of git://git.kernel.org/pub/scm/linux/kernel/git/tj/sched_ext
-48d83d94930eb4db4c93d2de44838b9455cff626 bpf, arm64: Reject out-of-range B.cond targets
-1dd8be4ec722ce54e4cace59f3a4ba658111b3ec bpf, arm64: Fix off-by-one in check_imm signed range check
-4fddde2a732de60bb97e3307d4eb69ac5f1d2b74 bpf: Fix use-after-free in arena_vm_close on fork
-42f18ae53011826cfd3c84d041817e7f07bc645b bpf, arm64: Remove redundant bpf_flush_icache() after pack allocator finalize
-46ee1342b887c9387a933397d846ff6c9584322c bpf, riscv: Remove redundant bpf_flush_icache() after pack allocator finalize
-b3dde701e73354eb1c5027adbf01a147b056954a Merge branch 'bpf-arm64-riscv-remove-redundant-icache-flush-after-pack-allocator-finalize'
-36bf7beb9d23bfe7feba6f376a0c13ed7b670cf8 selftests/bpf: Prevent allocating data larger than a page
-615e55a2418405b628921e0596ac50317fd04474 selftests/bpf: Fix tld_get_data() returning garbage data
-b4b0233730d5b2cdb170f6f5f183bfb1047b6dfa selftests/bpf: Test small task local data allocation
-d3fdb3db13a209dc8005b301130538c705fda579 Merge branch 'fix-garbage-data-in-task-local-data'
-feffac1874820d501e51cd8dcee697063b792c82 tools/power/x86: Add SOC slider and platform profile support
-32be3c01c3b8e948a4326ab7e76c1c63dd3e27bc zloop: fix write pointer calculation in zloop_forget_cache
-14e0077911e3d5e11e94417861e700cbb521a107 zloop: use vfs_truncate
-6466b211f797ae88073b5826dd764a6a98b67edb zloop: improve the unaligned write pointer warning
-5b680d7afc4a2fefa0b4f584462c7540de56e2e4 zloop: set RQF_QUIET when completing requests on deleted devices
-ec5c045f6cc879637cb52c9902d5fb7d419bdf47 zloop: factor out zloop_mark_{full,empty} helpers
-64b437c4a96ae088d46c7d9930c35e77ee1b5b21 zloop: remove irq-safe locking
-334fbe734e687404f346eba7d5d96ed2b44d35ab Merge tag 'mm-stable-2026-04-13-21-45' of git://git.kernel.org/pub/scm/linux/kernel/git/akpm/mm
-e9cd85a42638090181a2af38684656d1cbc574e5 dt-bindings: qcom,pdc: document the Hawi Power Domain Controller
-326941b22806cbf2df1fbfe902b7908b368cce42 io_uring/poll: fix signed comparison in io_poll_get_ownership()
-ca8639fbb3354629084c15e137e61fcb8528c4ec Merge tag 'amd-drm-next-7.1-2026-04-03' of https://gitlab.freedesktop.org/agd5f/linux into drm-next
-f82b61de0f5dc58930fdb773b9e843573fcc374b Merge tag 'locking_futex_for_v7.1_rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-5af6e08ae74ef4c9e59873c7265ca4894205c636 Merge tag 'chrome-platform-v7.1' of git://git.kernel.org/pub/scm/linux/kernel/git/chrome-platform/linux
-b9962335d4c6dee152e95dce9f0dd32048735a6d Merge tag 'pwm/for-7.1-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/ukleinek/linux
-4ddd4f0651a710f33dfbb9dadd94f2bb0aa31aa8 Merge tag 'mmc-v7.1' of git://git.kernel.org/pub/scm/linux/kernel/git/ulfh/mmc
-e41a25c53f96abe40edc5db1626d37a518852d84 Merge tag 'pmdomain-v7.1' of git://git.kernel.org/pub/scm/linux/kernel/git/ulfh/linux-pm
-8e258317dd01261331670877beafa3157bd61478 Merge tag 'regmap-v7.1' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/regmap
-44f7a3795395b54bf674002803e3e80c6312e210 Merge tag 'regulator-v7.1' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/regulator
-405f6584d7d0fc46534fd370e374630283dffe60 Merge tag 'spi-v7.1' of git://git.kernel.org/pub/scm/linux/kernel/git/broonie/spi
-46576fa32908043975471bd26fe833a7d8015b35 Merge tag 'hwmon-for-v7.1' of git://git.kernel.org/pub/scm/linux/kernel/git/groeck/linux-staging
-40286d6379aacfcc053253ef78dc78b09addffda Merge tag 'pci-v7.1-changes' of git://git.kernel.org/pub/scm/linux/kernel/git/pci/pci
-5a69195686d5b874ac5a4c7f809ecb75fbc535ef Merge tag 'ata-7.1-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/libata/linux
-f1d26d72f01556c787b1291729aa7a2ce37656a8 Merge tag 'iommu-updates-v7.1' of git://git.kernel.org/pub/scm/linux/kernel/git/iommu/linux
 6597ff1d8de3f583be169587efeafd8af134e138 drm/nouveau: fix nvkm_device leak on aperture removal failure
 a5f998094fa344cdd1342164948abb4d7c6101ce Merge tag 'for-7.1/dm-changes' of git://git.kernel.org/pub/scm/linux/kernel/git/device-mapper/linux-dm
 83964553e8a94217edf961994ea0ca722d297447 Merge tag 'for-linus-7.1-rc1-tag' of git://git.kernel.org/pub/scm/linux/kernel/git/xen/tip
@@ -1050,5 +985,70 @@ b935117fe6d1af576e39b1f18c9e875f44bd146f Merge tag 'kbuild-fixes-7.1-1' of git:/
 20b64cf8705a0f6268bb9a320eb6b4c425f3ec6c Merge tag 'tsm-for-7.1' of git://git.kernel.org/pub/scm/linux/kernel/git/devsec/tsm
 14479877c1ec9667edb4a7c20a8d7a704e7249ca Merge tag 'clk-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/clk/linux
 254f49634ee16a731174d2ae34bc50bd5f45e731 Linux 7.1-rc1
+522c6cffbee3a9bfaf8a9a901e7938dc0d345eb2 ice: fix fwlog after driver reinit
+a89126476bb67046d06dfe5a9c53133bdc788070 ice: Fix enable_cnt imbalance on resume
+62794acdd59d6a022dc991fae9e71b86958ec1b7 ice: Fix enable_cnt imbalance on PCIe error recovery
+4f88d8c961763494a33672e922d4e422f5d2ed4a i40e: Fix enable_cnt imbalance on PCIe error recovery
+1c9da286ca35325211cfe5e02398fcbcc4938b55 ice: fix setting RSS VSI hash for E830
+dc9a2acd7f8b2ac3eb3320479ea9df5a0c7fd350 ice: dpll: fix rclk pin state get and misplaced header macros
+04d2384f183e59d3442a70c2ce2293ee2ef13584 ice: fix missing SMA pin initialization in DPLL subsystem
+4c464c6276b4b5506128515cef72ee6df1071a30 idpf: fix xdp crash in soft reset error path
+fe5db696b67a86d2aff72339b2310a5d16ac9866 ice: fix locking in ice_dcb_rebuild()
+401793cccee45825a285bcb857f5c37a13f1c6e6 ice: fix FDB deletion
+563d9e41089f1d29d3b209844b081300897a9dba ice: init desired_dcbx_cfg in default DCB config
+8ccca08d6b6bc2f43b4b0f2fa4af2e9427c87360 ice: prevent integer overflow
+6e6560a05cbf7e3535a2abc62f993d792e390221 ice: fix LLDP AQ filter fallback not working on E82x and E830 hardware
+2512e76ea5cecdcd85be8d642ac7671588e1b49e ice: fix FDIR CTRL VSI resource leak in ice_reset_all_vfs()
+aa830cc41843de598ba1cac33ad2b5c83a28d281 ice: fix AQ error code comparison in ice_set_pauseparam()
+9505961ef95e7911cd065f3f9cfa3daf8d1b87bb ice: call netif_keep_dst() once when entering switchdev mode
+5ee2bdd6edfca9e22a5796a96ebfe5e201e145f5 ice: check cross-timestamp timeout bits
+ac1b6517f2e1138d2348724c95eaa239c3fef7d2 ice: fix locking around wait_event_interruptible_locked_irq
+0282e93db29fbc0d6444c36ef42328b2de9cb0c1 ice: fix PTP Call Trace during PTP release
+691c5f067558c69512f1a477e640efad88134468 ice: fix PTP hang for E825C devices
+49acf2b8f00dfd365978e411baf455018a307dcd ice: use READ_ONCE() to access cached PHC time
+55040b78fc51641f5c5469c880aa81a07caa116d ice: fix setting promisc mode while adding VID filter
+33eb3c6b64ac02400f6c6ab9cb321c7bdfc2fc9e i40e: fix memcmp of pointer in i40e_hw_set_dcb_config()
+5697e021f6eb8cf44c52c3f77b11467a25e43230 ice: fix null-ptr dereference on false-positive tx timeout
+f266873fa76e3cb4182f9842c77479eda5232ba6 ice: fix NULL pointer dereference in ice_reset_all_vfs()
+f7bf0c6b7798ce8222c1549b259b6372365d3050 idpf: fix read_dev_clk_lock spinlock init in idpf_ptp_init()
+0db718ea6833527b2b3e75016b87522ed677cbf7 i40e: Cleanup PTP registration on probe failure
+4e9a939aeb3124fe9625aded6bfd2ddcd41fc8e1 ice: fix VF queue configuration with low MTU values
+57481e0ea0c8797a4bdddcb650bc37c485bc8048 idpf: do not enable XDP if queue based scheduling is not supported
+0d1995b4d60c694c24d8afa94de6d5dc3939dc72 idpf: fix skb datapath queue based scheduling crashes and timeouts
+020cc356a974ad7854dad14e3344c9f17b6059dc i40e: Cleanup PTP pins on probe failure
+5fe4af1ef3eb2e4b7c0e236840a0ffd1fcfc77b7 ice: fix SMA and U.FL pin state changes affecting paired pin
+f5efe112ac8478969b8fe889c77ec74a45bf7409 ixgbevf: fix use-after-free in VEPA multicast source pruning
+ad06a43f6dc5f8a59c0e640c016ad9b28434216f e1000e: correct TIMINCA on ADP/TGP systems with wrong XTAL frequency
+77ea5a956d55229b47b5cfe557a57a6d0e47f33e ice: fix infinite recursion in ice_cfg_tx_topo via ice_init_dev_hw
+f9a338c7a1dafe7ed51529b0652e870afb82760b ice: Fix missing 1's complement negation in GCS raw checksum
+279464581d426d9d553b4490d00c1a6e17e866bc idpf: fix double free and use-after-free in aux device error paths
+afcbee2d1a24e86142b8969799f40b5afb20434d i40e: set supported_extts_flags for rising edge
+b848e2be7d6d03fb8e0efac99905fa1143547024 igc: fix potential skb leak in igc_fpe_xmit_smd_frame()
+1c1af9844462355704dfc3dd6c7125a6ba1336a2 i40e: keep q_vectors array in sync with channel count changes
+d672d47d34408a435ce05598ce7e8bb3e78338f4 ice: fix ice_init_link() error return preventing probe
+81fd1eb73308e9352e0834e405ce1f51446c06ca iavf: fix null pointer dereference in iavf_detect_recover_hung
+7a89aab89238fa7328b5eb799e6b10aa383a3028 iavf: fix error path in iavf_request_misc_irq
+99f47dfc4fcbbc6017d235c9f069bbbc4c286c53 iavf: prevent VSI corruption when ring params changed during reset
+a33ae93fa12e9be7bade7c90332e95f444fe772f iavf: fix TC boundary check in iavf_handle_tclass
+7946587ceef8653e634c7ca5703fdea440701f53 iavf: return 0 when TC flower filter not found after qdisc teardown
+f45d02602678f96ecd5d99286c771c49e8c32de3 igbvf: Fix leak in TX DMA error cleanup
+787d5cd704d96baf0adec39f9768c1f82b140b9f ice: fix asymmetric pause negotiation reporting in ethtool
+5abaace830da4266389f940a14fa7ec0c5dc4b64 ice: fix autoneg disable when link partner doesn't support AN
+9a7372f606585c8aa98128db7daf4eaf46efe656 ice: support RDMA on 4+-port E830 devices
+b81ef45e8dde4f01958519867e281ff87a7e8d6c ice: report EIPE checksum errors to the OS on E830
+11295e6537557f2ab526a88d368cdf8c1688d725 e1000e: Reconfigure PLL clock gate timeout and re-enable K1 on Meteor Lake
+45d9972da70c771639aabf51c9c01763b639fbec iavf: rename IAVF_VLAN_IS_NEW to IAVF_VLAN_ADDING
+dee26bf55377443e56f00a68b303587bf0a52502 iavf: stop removing VLAN filters from PF on interface down
+04ec5c6c78969a0fe4df13bdabd54232a949f289 iavf: wait for PF confirmation before removing VLAN filters
+4005f69b5fb43027272a11a4bf94c54a9b50136e iavf: add VIRTCHNL_OP_ADD_VLAN to success completion handler
+0df55da5f50e344c9f5089cf78184294cfc634a4 dpll: export __dpll_pin_change_ntf() for use under dpll_lock
+2d9c79fb40d29acadf5805a94ae856f3dc971832 ice: fix missing dpll notifications for SW pins
+62191473b3c0160c9f4802890b240162015511d2 ice: add dpll peer notification for paired SMA and U.FL pins
+75cff895c02c423299de7f8c4c36feda3d9da310 igc: set tx buffer type for SMD frames
+b81e8232d1d44ff287ba0401fb9be05824d935af ice: fix UAF/NULL deref when VSI rebuild and XDP attach race
+e3fd056bb47524711cd4b2c4273690b103bbce34 ixgbe: only access vfinfo and mv_list under RCU lock
+df1809fc351b3fb5a20d2f84c0031b65ba41c0b2 iavf: iavf_virtchnl_completion: drop duplicate ether_addr_equal() test
+21fec7f247ad9bb0e6da5a730287b734cd4a7f1b ice: ptp: serialize E825 PHY timer start with PTP lock
+1b7b8c9992e61eed299611481dba6bfcb483f7ea ice: ptp: use primary NAC semaphore on E825
 
---===============9110607226390710976==--
+--===============5144215619261612064==--
