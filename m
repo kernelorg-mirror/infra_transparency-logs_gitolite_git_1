@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============9013259784342943687=="
+Content-Type: multipart/mixed; boundary="===============5474208915073026056=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/andy/linux-gpio-intel
-Date: Mon, 27 Apr 2026 04:32:12 -0000
-Message-Id: <177726433276.3336530.7041099212661975028@gitolite.kernel.org>
+Date: Mon, 27 Apr 2026 04:32:19 -0000
+Message-Id: <177726433962.3336798.2366013721356244456@gitolite.kernel.org>
 
---===============9013259784342943687==
+--===============5474208915073026056==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/andy/linux-gpio-intel
 user: andy
 changes:
-  - ref: refs/heads/fixes
+  - ref: refs/heads/for-next
     old: 6de23f81a5e08be8fbf5e8d7e9febc72a5b5f27f
     new: 254f49634ee16a731174d2ae34bc50bd5f45e731
     log: revlist-6de23f81a5e0-254f49634ee1.txt
 
---===============9013259784342943687==
+--===============5474208915073026056==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ b935117fe6d1af576e39b1f18c9e875f44bd146f Merge tag 'kbuild-fixes-7.1-1' of git:/
 14479877c1ec9667edb4a7c20a8d7a704e7249ca Merge tag 'clk-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/clk/linux
 254f49634ee16a731174d2ae34bc50bd5f45e731 Linux 7.1-rc1
 
---===============9013259784342943687==--
+--===============5474208915073026056==--
