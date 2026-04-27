@@ -1,31 +1,33 @@
-Content-Type: multipart/mixed; boundary="===============9124708343411085631=="
+Content-Type: multipart/mixed; boundary="===============1928009105812369009=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/conor/linux
-Date: Mon, 27 Apr 2026 19:12:58 -0000
-Message-Id: <177731717869.315576.11348899432590252643@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Mon, 27 Apr 2026 19:18:47 -0000
+Message-Id: <177731752787.321431.15991040994648376496@gitolite.kernel.org>
 
---===============9124708343411085631==
+--===============1928009105812369009==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/conor/linux
-user: conor
+repo: pub/scm/linux/kernel/git/tip/tip
+user: daveh
 changes:
-  - ref: refs/heads/riscv-dt-fixes
-    old: 305f2865bd034146b2eebc77c27fc50d8d79778d
-    new: 0df8aa2b9aec5cd21e8c71d9cc1227e57bea43b3
-    log: revlist-305f2865bd03-0df8aa2b9aec.txt
+  - ref: refs/heads/x86/cpu
+    old: 124ad3034ec0029b65178f3ab8a6cdca5a0b0519
+    new: 254f49634ee16a731174d2ae34bc50bd5f45e731
+    log: revlist-124ad3034ec0-254f49634ee1.txt
 
---===============9124708343411085631==
+--===============1928009105812369009==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-305f2865bd03-0df8aa2b9aec.txt
+Content-Disposition: attachment; filename=revlist-124ad3034ec0-254f49634ee1.txt
 
+b183b7b9b51fc37cc8e1fbad3c0d84e0cb605266 smb: smbdirect: introduce smbdirect_mr_io_fill_buffer_descriptor()
+a93b68d46e1450ca6d395be0ca002f8bdf04d9a6 smb: smbdirect: introduce smbdirect_connection_legacy_debug_proc_show()
 09d617d3121e14309ad5e4287b0da3ec27d386a8 smb: smbdirect: introduce smbdirect_connection_wait_for_connected()
 dc24063813ea617394db153cf9203286770ed404 smb: smbdirect: introduce smbdirect_connection_is_connected()
 b3e78c651441eaf08e830e260d06fd8d33a8b7f9 smb: smbdirect: introduce smbdirect_socket_shutdown()
@@ -1048,7 +1050,5 @@ b935117fe6d1af576e39b1f18c9e875f44bd146f Merge tag 'kbuild-fixes-7.1-1' of git:/
 20b64cf8705a0f6268bb9a320eb6b4c425f3ec6c Merge tag 'tsm-for-7.1' of git://git.kernel.org/pub/scm/linux/kernel/git/devsec/tsm
 14479877c1ec9667edb4a7c20a8d7a704e7249ca Merge tag 'clk-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/clk/linux
 254f49634ee16a731174d2ae34bc50bd5f45e731 Linux 7.1-rc1
-3e256d4c40742e98132c0ef830b8cad4d50502d0 riscv: dts: starfive: jh7110: Drop CAMSS node
-0df8aa2b9aec5cd21e8c71d9cc1227e57bea43b3 riscv: dts: microchip: fix icicle i2c pinctrl configuration
 
---===============9124708343411085631==--
+--===============1928009105812369009==--
