@@ -1,42 +1,42 @@
-Content-Type: multipart/mixed; boundary="===============2096893975753697309=="
+Content-Type: multipart/mixed; boundary="===============4035278711031122724=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pcmoore/selinux
-Date: Mon, 27 Apr 2026 15:35:23 -0000
-Message-Id: <177730412302.81057.2318630316380995131@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pcmoore/lsm
+Date: Mon, 27 Apr 2026 15:35:25 -0000
+Message-Id: <177730412544.81128.16259688059926974319@gitolite.kernel.org>
 
---===============2096893975753697309==
+--===============4035278711031122724==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pcmoore/selinux
+repo: pub/scm/linux/kernel/git/pcmoore/lsm
 user: pcmoore
 changes:
   - ref: refs/heads/dev
-    old: 8dc51459ef702bcc0ef5fb26bb4d362b38aa56c2
+    old: 82544d36b1729153c8aeb179e84750f0c085d3b1
     new: 254f49634ee16a731174d2ae34bc50bd5f45e731
-    log: revlist-8dc51459ef70-254f49634ee1.txt
+    log: revlist-82544d36b172-254f49634ee1.txt
   - ref: refs/heads/dev-staging
     old: 6de23f81a5e08be8fbf5e8d7e9febc72a5b5f27f
     new: 254f49634ee16a731174d2ae34bc50bd5f45e731
     log: revlist-6de23f81a5e0-254f49634ee1.txt
   - ref: refs/heads/next
-    old: 8dc51459ef702bcc0ef5fb26bb4d362b38aa56c2
+    old: 82544d36b1729153c8aeb179e84750f0c085d3b1
     new: 254f49634ee16a731174d2ae34bc50bd5f45e731
-    log: revlist-8dc51459ef70-254f49634ee1.txt
+    log: revlist-82544d36b172-254f49634ee1.txt
   - ref: refs/heads/stable-7.1
-    old: 8dc51459ef702bcc0ef5fb26bb4d362b38aa56c2
+    old: 82544d36b1729153c8aeb179e84750f0c085d3b1
     new: 254f49634ee16a731174d2ae34bc50bd5f45e731
-    log: revlist-8dc51459ef70-254f49634ee1.txt
+    log: revlist-82544d36b172-254f49634ee1.txt
 
---===============2096893975753697309==
+--===============4035278711031122724==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8dc51459ef70-254f49634ee1.txt
+Content-Disposition: attachment; filename=revlist-82544d36b172-254f49634ee1.txt
 
 b183b7b9b51fc37cc8e1fbad3c0d84e0cb605266 smb: smbdirect: introduce smbdirect_mr_io_fill_buffer_descriptor()
 a93b68d46e1450ca6d395be0ca002f8bdf04d9a6 smb: smbdirect: introduce smbdirect_connection_legacy_debug_proc_show()
@@ -1063,7 +1063,7 @@ b935117fe6d1af576e39b1f18c9e875f44bd146f Merge tag 'kbuild-fixes-7.1-1' of git:/
 14479877c1ec9667edb4a7c20a8d7a704e7249ca Merge tag 'clk-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/clk/linux
 254f49634ee16a731174d2ae34bc50bd5f45e731 Linux 7.1-rc1
 
---===============2096893975753697309==
+--===============4035278711031122724==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -2094,4 +2094,4 @@ b935117fe6d1af576e39b1f18c9e875f44bd146f Merge tag 'kbuild-fixes-7.1-1' of git:/
 14479877c1ec9667edb4a7c20a8d7a704e7249ca Merge tag 'clk-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/clk/linux
 254f49634ee16a731174d2ae34bc50bd5f45e731 Linux 7.1-rc1
 
---===============2096893975753697309==--
+--===============4035278711031122724==--
