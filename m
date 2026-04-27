@@ -1,42 +1,31 @@
-Content-Type: multipart/mixed; boundary="===============1008608439407077642=="
+Content-Type: multipart/mixed; boundary="===============3597489019710300799=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pinctrl/intel
-Date: Mon, 27 Apr 2026 05:17:54 -0000
-Message-Id: <177726707483.3383601.7830463840907341858@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/chleroy/linux
+Date: Mon, 27 Apr 2026 05:22:51 -0000
+Message-Id: <177726737136.3388579.4333367343135881110@gitolite.kernel.org>
 
---===============1008608439407077642==
+--===============3597489019710300799==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pinctrl/intel
-user: westeri
+repo: pub/scm/linux/kernel/git/chleroy/linux
+user: chleroy
 changes:
-  - ref: refs/heads/review-mika
-    old: 6de23f81a5e08be8fbf5e8d7e9febc72a5b5f27f
-    new: 254f49634ee16a731174d2ae34bc50bd5f45e731
-    log: revlist-6de23f81a5e0-254f49634ee1.txt
+  - ref: refs/heads/soc_fsl
+    old: 208858b1b48eba83d073542372329cf8ed606526
+    new: c99d8ac7b355cbbdbb3f4d8b9a9b46de05a6fee9
+    log: revlist-208858b1b48e-c99d8ac7b355.txt
 
---===============1008608439407077642==
+--===============3597489019710300799==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6de23f81a5e0-254f49634ee1.txt
+Content-Disposition: attachment; filename=revlist-208858b1b48e-c99d8ac7b355.txt
 
-b183b7b9b51fc37cc8e1fbad3c0d84e0cb605266 smb: smbdirect: introduce smbdirect_mr_io_fill_buffer_descriptor()
-a93b68d46e1450ca6d395be0ca002f8bdf04d9a6 smb: smbdirect: introduce smbdirect_connection_legacy_debug_proc_show()
-09d617d3121e14309ad5e4287b0da3ec27d386a8 smb: smbdirect: introduce smbdirect_connection_wait_for_connected()
-dc24063813ea617394db153cf9203286770ed404 smb: smbdirect: introduce smbdirect_connection_is_connected()
-b3e78c651441eaf08e830e260d06fd8d33a8b7f9 smb: smbdirect: introduce smbdirect_socket_shutdown()
-dce268ffcddc96f29707c1967c52b036ad92e43d smb: smbdirect: introduce smbdirect_socket_init_{new,accepting}() and helpers
-ede2b44b0e62378cb8585dda20a4edadbc621bb0 smb: smbdirect: let smbdirect_socket_set_initial_parameters() call rdma_restrict_node_type()
-d1f187656797fc7434388c1795e05f8abe370d46 smb: smbdirect: introduce smbdirect_connect[_sync]()
-eb3ed1e9048cf7b2a38112f48e0f1b772bb7860d smb: smbdirect: introduce smbdirect_accept_connect_request()
-20cd3cc4420bdb9f63644cd140e2682f634e651e smb: smbdirect: introduce smbdirect_socket_create_{kern,accepting}() and smbdirect_socket_release()
-b1e6277bd1240c3a66aac537b1b43b4bfd2edcd8 smb: smbdirect: let smbdirect_socket.h include all headers for used structures
 5e4bf7fadd4a608cace7604b720483f051f8176f smb: smbdirect: let smbdirect_internal.h define pr_fmt without SMBDIRECT_USE_INLINE_C_FILES
 b2261ceedd4a4831957732ebae5ad33bf5c7fc80 smb: smbdirect: introduce smbdirect_public.h with prototypes
 89df0942907894a92dbece12bfa35e1647959b0c smb: smbdirect: provide explicit prototypes for cross .c file functions
@@ -1050,5 +1039,16 @@ b935117fe6d1af576e39b1f18c9e875f44bd146f Merge tag 'kbuild-fixes-7.1-1' of git:/
 20b64cf8705a0f6268bb9a320eb6b4c425f3ec6c Merge tag 'tsm-for-7.1' of git://git.kernel.org/pub/scm/linux/kernel/git/devsec/tsm
 14479877c1ec9667edb4a7c20a8d7a704e7249ca Merge tag 'clk-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/clk/linux
 254f49634ee16a731174d2ae34bc50bd5f45e731 Linux 7.1-rc1
+5fce563b639249bb5ed123421acb2bf62f3711fc fsl-mc: Remove MSI domain propagation to sub-devices
+55319767ac5be2647c628bf536d4e8a2e048648b fsl-mc: Add minimal infrastructure to use platform MSI
+9ff5d27c22d799d079674ffe91bf343c88bedea8 irqchip/gic-v3-its: Add fsl_mc device plumbing to the msi-parent handling
+838e857c6040f59fd586eb51262c31a71ac7d483 fsl-mc: Switch over to per-device platform MSI
+2c5b6443e6b6ad98ef29460c219b0a287bb3a554 fsl-mc: Remove legacy MSI implementation
+eb9f171bd8c9f597d5e6f834beaecc66bfedc431 platform-msi: Remove stale comment
+79ef8bf8e69ff605de292ff22475647d9eb92f43 virt: fsl_hypervisor: fix header kernel-doc warnings
+a128e2f3df2894eb2531ba7463b36f08cccce878 soc: fsl: qe_ports_ic: Add missing cleanup on device removal
+b5e9b6b37746c9de5ed8ac271bd6525abfe5d2eb soc: fsl: qe_ports_ic: switch to irq_domain_create_linear()
+ab8840460dbd706743ce14f5c1bbba2aa54a02bc soc: fsl: qe: panic on ioremap() failure in qe_reset()
+c99d8ac7b355cbbdbb3f4d8b9a9b46de05a6fee9 bus: fsl-mc: wait for the MC firmware to complete its boot
 
---===============1008608439407077642==--
+--===============3597489019710300799==--
