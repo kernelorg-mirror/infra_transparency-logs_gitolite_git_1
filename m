@@ -1,58 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============3154791679682221348=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Mon, 27 Apr 2026 15:50:35 -0000
-Message-Id: <177730503513.96941.5184294345094670729@gitolite.kernel.org>
-
---===============3154791679682221348==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/thomas.weissschuh/linux
+Date: Mon, 27 Apr 2026 15:52:50 -0000
+Message-Id: <177730517085.98829.1009533991513162598@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/usb
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/thomas.weissschuh/linux
+user: thomas.weissschuh
 changes:
-  - ref: refs/heads/usb-linus
-    old: 254f49634ee16a731174d2ae34bc50bd5f45e731
-    new: 2909f0d4994fb4306bf116df5ccee797791fce2c
+  - ref: refs/heads/b4/module-hashes
+    old: c3721dd4939df45c964a03cb82c6e6bcec9f0ec3
+    new: f56c593c574efb0f30bdb40e277ec041814f3885
     log: |
-         3f91484f6c13c434bd573ca6b6779c26adb0ddab USB: omap_udc: DMA: Don't enable burst 4 mode
-         0b9fcab1b8608d429e5f239afb197de928d4de7d usb: ulpi: fix memory leak on ulpi_register() error paths
-         2909f0d4994fb4306bf116df5ccee797791fce2c usb: typec: tcpm: reset internal port states on soft reset AMS
+         210ae7599b092191cf920e9b2f9863fc1d996c7d module: Make module authentication usable without MODULE_SIG
+         f3c6c4f4f9cdf78662bcbf510d2a46348cd71bd4 module: Move authentication logic into dedicated new file
+         9b3414f8957733ec0ceb1a4537d612454cfea8ce module: Move signature type check out of mod_check_sig()
+         46ad6cbf2568af85c4b6481fbe2fb2d18a859471 module: Prepare for additional module authentication mechanisms
+         a29c9e8c736bda090731f3fdacedea6030bc7d12 module: update timestamp of modules.order after modules are built
+         322943ac9eb8e42e437e709c068cd6e493ac7a6a module: Introduce hash-based integrity checking
+         226ecfbb41ae404201b3e2d29be13b6b2c0505c6 kbuild: move handling of module stripping to Makefile.lib
+         f56c593c574efb0f30bdb40e277ec041814f3885 kbuild: make CONFIG_MODULE_HASHES compatible with module stripping
          
-
---===============3154791679682221348==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1777304998 -0600
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1777305032-5fe2f1b30b82cb7c5210f48a4f046dbac6f98955
-
-254f49634ee16a731174d2ae34bc50bd5f45e731 2909f0d4994fb4306bf116df5ccee797791fce2c refs/heads/usb-linus
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmnvhaYbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+8A0P/3mlZd/62lrg+zL+PeBJ
-tA9atlpgya6kSX0LoiDzNvSPSVPDpDFpGgAVj0Q12xJG3gppISvI2TSU1WmTJc3Z
-wHVp6od5Z4kaQZegjdpgli3xhT+ZyzDoLRFT9NqtqIhG1O2m3Y2lQqQW452w6oQJ
-irXTgHg0+uGknnoTgCaIrLJF0JU2lNlsmPbQD58HyuFvvvRu7Nww8iAqM+J0eyam
-x+lopwPrE7ZDi+UC085QDtDcFzeSYet0ByjyJ61o2Q2Mls9xuOSFGpQW1qbq2ki5
-xBSAiuA+yNRpLJ2sV+1mhjuOVBnLdElDI5G+CQ+4V9U/EeuZMT12NoYZGottB17h
-egXOdlDLwj2Lq4UTlL10UeOeF1f/d2V484EffFNYGGW+pOF9Z4Mp/YeNI3+qG9/G
-5d8sregx243mv43pVKbvNK1mASwoWMrHa5FHZ4SnPGWsTrf0jz9rQQAjwbKSD0Gc
-hD4iXdaf/r9NF1gZ9OsZAfjjGLSQ4RNSOZsxdy3nyj/M166o3n7PZWk1JG2fbThY
-I8EArKf9RKMTXCdk0g18ydlziGsJjf9n2Z3jDuA0zCjfIaGOUNFvWHSw0bMZAXpa
-fc8C6W180n6p9ZWmZJ/3QbT2mT3woeYAqVWlnuRAl1QUnKY9JVfRRqCQZjCDkijM
-pfIS9fqYnaXeiffMSrdtsFG/
-=apOC
------END PGP SIGNATURE-----
-
---===============3154791679682221348==--
