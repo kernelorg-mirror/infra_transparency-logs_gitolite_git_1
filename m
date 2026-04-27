@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7715622877224128176=="
+Content-Type: multipart/mixed; boundary="===============4474533266004691939=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux
-Date: Mon, 27 Apr 2026 13:11:35 -0000
-Message-Id: <177729549519.3889984.10839162299123321500@gitolite.kernel.org>
+Date: Mon, 27 Apr 2026 13:11:38 -0000
+Message-Id: <177729549880.3890199.2948670714663953237@gitolite.kernel.org>
 
---===============7715622877224128176==
+--===============4474533266004691939==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/krzk/linux
 user: krzk
 git_push_cert_status: Y
 changes:
-  - ref: refs/heads/next/dt
-    old: 44ee52a030a6dd2f6e0ecb3632ecf8b263114619
+  - ref: refs/heads/next/dt64
+    old: 90f771a9745476a5e2b95b5efe225a943c090bb9
     new: 254f49634ee16a731174d2ae34bc50bd5f45e731
-    log: revlist-44ee52a030a6-254f49634ee1.txt
+    log: revlist-90f771a97454-254f49634ee1.txt
 
---===============7715622877224128176==
+--===============4474533266004691939==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher krzk@kernel.org 1777295493 +0200
+pusher krzk@kernel.org 1777295496 +0200
 pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux.git
-nonce 1777295492-2b58d6c325a9861bdfa6d0c201f49d19b3fba2d0
+nonce 1777295496-46463ff33e0c24ea63fe5f45090feae90ab1772d
 
-44ee52a030a6dd2f6e0ecb3632ecf8b263114619 254f49634ee16a731174d2ae34bc50bd5f45e731 refs/heads/next/dt
+90f771a9745476a5e2b95b5efe225a943c090bb9 254f49634ee16a731174d2ae34bc50bd5f45e731 refs/heads/next/dt64
 -----BEGIN PGP SIGNATURE-----
 
-iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmnvYIUQHGtyemtAa2Vy
-bmVsLm9yZwAKCRDBN2bmhouD12L0D/9rlV7MJlqMtsg0ORalrnTI9xrgC9F+3PpT
-PLGgkr/rPYAOdN/QKxrqm6N8U4bMaNPvF9QGrsLgDzzRAgR3sjEOMyz9kWAdXDPk
-Lb2jHBEHyQVN+NCGDDL0RsdnXd/LGT2y6MrPAEnSbJVrWSAxfag8TMq3tkce5olz
-pHE4PTEUv1I7iWQndqmZIgs/QhCKJPFjgjhyeMZQyHLNyxao+RCjXBpvpYLOyZzd
-edKf2f0FDDSPkrJkFaYz0JwYxy0Np4Dn8aX2yn5u5e05YHzy7fchd1Fm1zf9C3s/
-Xvra+KXFJmSKDA9lZcWtCbS5WKg4ZEdE4FG5k4skiE/B+UmP1LJbqnxwdHPwRmBQ
-Cc8j/l23jLtKNlqnl1ilFWnWf4KdN3SFxSnS2zy07ZoC19qxO8wCGhp+ZrXsjVJz
-IL3oaDmTMf2ScXRwHs831W3OsDGdx161ZhD2oDpvD797iP2TVAGnRPXLj5jU5VEZ
-iUjLHuBawKhHc2ahqMENKmSvFoUEqG0na0JO+ZK/xE6hSSjZSDsek23rOEKe3hQq
-WFqq9vFARAjbrMATolJjifmlER1q7e6867p8wK+P8lgNVffZxWeFGpwPED9BE7Qt
-x+tvBFP1HSiOREyBqxYd6l8ldKXhBpyxj6NQD61EO+UBBL153ndo7vzQz3Yw3OM6
-8Vy0KxycGw==
-=srln
+iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmnvYIgQHGtyemtAa2Vy
+bmVsLm9yZwAKCRDBN2bmhouD1wnlD/97TjxcNR3cUIrPQzxbXZFywfLlZEgc1GK6
+xF62adFqRsybyBirUnLHrtBRtTWBu395kRoxbSfxHPzYvoE7Se7kRXgU2jP5yw99
+L7zjCzKa7FHq4vCnpwkTPRQwfQWj1y85G2/kYBMzifVSREYtP/VQrMIQtDnbR8S2
+0EqmpC4LnvJPbH4Lt4pINJWugLsTRk0Q4Dnym8aaU52naeJOhwutaoYn+zBTg6xr
+QBt5eknRaamC0VfyXtbAj13J9wKS0dTgTS8kY0U0vQZ6RLyFNfnnmTwgd65ETMDo
+4b/Bs4NzdgrGjMOi0qwPYbnewG+rhaYq6dkdqtcjZzgqFW754TsyLZn3lrBi3CUl
+cFHmQw4fWYys0MjE0/MjiHcGJPFA4/eEGOOEUm+s6y+B8DwqMJq7hG/YMxgS7kv5
++JSEU+EiFYD+yRTc7wVuzCT+9raGuTp7lixd/aRv1OPiAAiLSLjZM1UUr8MZqzeU
+E7vkAHpoEhzhwmgE36lhoZ1KyeuxLEVdXT7Irj6Fhv6U/KOxoj0Xt8xRlJW36Di2
+jjnzn5KrQt8nyDWpl/Cjz7mbL/VTCoyniUs4SM51sbl8o+13x7Ym5Qi5eEVFy9To
+ooGWEfipgHapFfP/YnilhGUCpKofQAUrKwL8rQ3Ip9tDbCx5SOujKnP4Qu10dJwX
+IlFBofJEsg==
+=FYEw
 -----END PGP SIGNATURE-----
 
---===============7715622877224128176==
+--===============4474533266004691939==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-44ee52a030a6-254f49634ee1.txt
+Content-Disposition: attachment; filename=revlist-90f771a97454-254f49634ee1.txt
 
 b183b7b9b51fc37cc8e1fbad3c0d84e0cb605266 smb: smbdirect: introduce smbdirect_mr_io_fill_buffer_descriptor()
 a93b68d46e1450ca6d395be0ca002f8bdf04d9a6 smb: smbdirect: introduce smbdirect_connection_legacy_debug_proc_show()
@@ -1082,4 +1082,4 @@ b935117fe6d1af576e39b1f18c9e875f44bd146f Merge tag 'kbuild-fixes-7.1-1' of git:/
 14479877c1ec9667edb4a7c20a8d7a704e7249ca Merge tag 'clk-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/clk/linux
 254f49634ee16a731174d2ae34bc50bd5f45e731 Linux 7.1-rc1
 
---===============7715622877224128176==--
+--===============4474533266004691939==--
