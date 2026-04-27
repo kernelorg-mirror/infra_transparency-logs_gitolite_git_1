@@ -1,59 +1,47 @@
-Content-Type: multipart/mixed; boundary="===============4408052619286039835=="
+Content-Type: multipart/mixed; boundary="===============5493730823508713310=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gregkh/usb
-Date: Mon, 27 Apr 2026 16:19:13 -0000
-Message-Id: <177730675365.126919.1200714930934980086@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/maz/arm-platforms
+Date: Mon, 27 Apr 2026 16:28:23 -0000
+Message-Id: <177730730315.137085.3154362928962417536@gitolite.kernel.org>
 
---===============4408052619286039835==
+--===============5493730823508713310==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gregkh/usb
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/maz/arm-platforms
+user: maz
 changes:
-  - ref: refs/heads/usb-testing
-    old: e4d7362dc9cd50b0fc74c8649aa241376c48936c
-    new: 25bd55f46032656012eecdc6eabd62f2685a2ccc
-    log: |
-         b38fa168a848b8ddd3c3d767d7d1daaf8ccadcf8 usb: typec: mux: ps883x: Power the retimer off when not in use
-         8bdb0b3830eaf588fcd7c76c1893d05d871600d2 usb: typec: intel_pmc_mux: combine kzalloc + kcalloc
-         0677deacad502d11d86c1ba5c635aa733803ab9b USB: qcom: Unify user-visible "Qualcomm" name
-         25bd55f46032656012eecdc6eabd62f2685a2ccc usb: udc: pxa: remove unused platform_data
-         
+  - ref: refs/heads/kvm-arm64/no-lazy-vgic-init
+    old: 08abd6870f160e2364ab4e8163d76ac841a9c1ac
+    new: 3bba2d1179c5198c5788cd387feeeba2070e7cd9
+    log: revlist-08abd6870f16-3bba2d1179c5.txt
 
---===============4408052619286039835==
+--===============5493730823508713310==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-08abd6870f16-3bba2d1179c5.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1777306715 -0600
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/usb.git
-nonce 1777306750-3e5fea8f2dfb8903db6da52e340cd0ec6cc025af
+ccab51d69b1478b549ad0bbb38f556ab3bfb47ab KVM: arm64: Re-allow hyp tracing HVCs for [nh]VHE
+f05799491d6a2a29d8e15f4451e685c4a6e13d8f KVM: arm64: pkvm: Adopt MARKER() to define host hypercall ranges
+a0e6ae45af17e8b27958830595799c702ffbab8d KVM: arm64: vgic: Fix IIDR revision field extracted from wrong value
+480ea48cad873b49a1fabd07c0847c3cf1c32286 KVM: arm64: Reject non compliant SMCCC function calls in pKVM
+7fe2cd4e1a3ad230d8fcc00cc99c4bcce4412a75 KVM: arm64: Fix FEAT_Debugv8p9 to check DebugVer, not PMUVer
+2a623408112626d2625a6f00aed665861d59665c KVM: arm64: Fix typo in feature check comments
+08d715338287a1affb4c7ad5733decef4558a5c8 KVM: arm64: Fix FEAT_SPE_FnE to use PMSIDR_EL1.FnE, not PMSVer
+d89fdda7dd8a488f922e1175e6782f781ba8a23b KVM: arm64: Fix kvm_vcpu_initialized() macro parameter
+73b9c1e5da84cd69b1a86e374e450817cd051371 KVM: arm64: Fix pin leak and publication ordering in __pkvm_init_vcpu()
+5bb0aed57ba944f8c201e4e82ec066e0187e0f85 KVM: arm64: Fix initialisation order in __pkvm_init_finalise()
+4ce98bf0865c349e7026ad9c14f48da264920953 KVM: arm64: Wake-up from WFI when iqrchip is in userspace
+0c9bbf24e2c7cec83710aba7aad6f7edb36b99b5 KVM: arm64: timer: Repaint kvm_timer_{should,irq_can}_fire() to kvm_timer_{pending,enabled}()
+4c12b5742e18dbd00b0b59f3882478219d73b463 KVM: arm64: Simplify userspace notification of interrupt state
+7fd18c12eee41a6b2be8b49235510a5a042e6a82 KVM: arm64: timer: Kill the per-timer irq level cache
+2220498acbe007503d7a8c0120185dd91d85cf88 KVM: arm64: pmu: Kill the PMU interrupt level cache
+06eaa38e858b3d49339ab48cda7236c6c6547cda KVM: arm64: vgic-v2: Force vgic init on injection outside the run loop
+3bba2d1179c5198c5788cd387feeeba2070e7cd9 KVM: arm64: vgic-v2: Don't init the vgic on in-kernel interrupt injection
 
-e4d7362dc9cd50b0fc74c8649aa241376c48936c 25bd55f46032656012eecdc6eabd62f2685a2ccc refs/heads/usb-testing
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmnvjFsbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+86gP/1xj2naZTfyvpE56bY9W
-TmUKHwdInB3gfo1wrbfc5n5phSvwm/IP+wVos5ltXYHSDfpixuG3pQHqcbuAj+9u
-T0SI/GbjzxhwQ9D6kLE2SZdNNZgb70jmlTnnwRMgy42O6ZEYuHngODvM9NGPetbQ
-sBM25GzcXIin1t3DgrSTyLkZLMpq2huONw4xgdEPRW/zHn9+/8X5tC9/ogQx+gQ9
-bzhnXudgTP0hg4e08qNEvSolyPbxaFbFHTCKcU/6gXkmLpD/+BxycmXdM3VJpKXx
-0C0YOQjGmAyx0MVBjEkaJPKi8gE9Euo7oKXXaAU3CHIURrKGypQHeeLxoisw2wx0
-pZigBNcJYJBptQRVCNJPPv6tNQJL344P0Q0AK1KcJbAHeyR+9faq27SmAGEyGMag
-PXwD7nH6+2lx9C8agDPA7P8aMuEIIhP2CDJh3tfBoEJZoJGFOMrz2CfKDG9TpRuf
-QZa0VHneHEb9tvDBNVQiBEP/Ap7wcEcy729TEYzlJITT7TUG6LSP2xRvNNffAZKy
-464jBziusU1LUZA2Za+EHMjLpwUKOKqku+BvhzcYqM8BkfPSl4OSHLH86qOP8+kr
-83AamGCCqapOkIDD51TPrVFj1Q0qgVi7oXd+xR0gPKlB3skUwLwYyFpMX3XssETH
-gqDm1o850ztM44dWcYDRitFE
-=g4vZ
------END PGP SIGNATURE-----
-
---===============4408052619286039835==--
+--===============5493730823508713310==--
