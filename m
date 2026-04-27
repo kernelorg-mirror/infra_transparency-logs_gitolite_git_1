@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6589269661048781015=="
+Content-Type: multipart/mixed; boundary="===============1658471500388015765=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/gregkh
-Date: Mon, 27 Apr 2026 11:15:45 -0000
-Message-Id: <177728854559.3756393.8671451248019619919@gitolite.kernel.org>
+Date: Mon, 27 Apr 2026 11:16:00 -0000
+Message-Id: <177728856073.3756656.4528720563512076619@gitolite.kernel.org>
 
---===============6589269661048781015==
+--===============1658471500388015765==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/gregkh
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/module_version_removal
-    old: fc2fe2a2e6d9238ecd9ed18c31fa3bad3d17359a
-    new: dafba19e9a2f1e74efb88a128de491f72174e11b
-    log: revlist-fc2fe2a2e6d9-dafba19e9a2f.txt
+  - ref: refs/heads/readfile
+    old: e9a71c16cf5d7a5087063a1f691f02a82ff5b386
+    new: ef278deecd9b20f98ef9f30d6aabed945b75e1b8
+    log: revlist-e9a71c16cf5d-ef278deecd9b.txt
 
---===============6589269661048781015==
+--===============1658471500388015765==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1777288496 -0600
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1777288512 -0600
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/gregkh.git
-nonce 1777288530-845b545d5fcf3761954809990ecd1854e6b44a51
+nonce 1777288546-008f7b925546e80e6cc4bce27ff5da10c41a10c1
 
-fc2fe2a2e6d9238ecd9ed18c31fa3bad3d17359a dafba19e9a2f1e74efb88a128de491f72174e11b refs/heads/module_version_removal
+e9a71c16cf5d7a5087063a1f691f02a82ff5b386 ef278deecd9b20f98ef9f30d6aabed945b75e1b8 refs/heads/readfile
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmnvRTAbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+vqMQANZX/U6JmIpun8P6hf+5
-hwPg48h1iJJFc1C0euMJmsmv6l2EM0WmL93MfnsJ3C0Yd9wLoDH6BS8uBhoxXUw6
-m+/OFq3Kw/ZPMm45rRed6sc31KYYknboM5t36Ij3S4G5JJytGe3Km+eKLhmVaGTY
-5lqhCFuNUgzz3CNkKvvpDwUdPh3hgd52Se2/SG3q86sRcSHasKLlNYznRTFn87yA
-Oq7bL0iPdw4fsTsW0L/vynZdglATqD+gCoO2IvtL76FuFMfmSnc0m2zKxF+zih8P
-MYMknY+qO1OKrYhfeXgJNBvY2Dz/ZeXreR1W1siWY1gHsLVvU8LU9C113LIC6rIo
-T2Jo7UoKHi2xnv7gQOlUmu9WzqaQxfgqtQltlW8E1ETuY4eojMxXCHEdzOOWorlI
-toKzoBFLA8DiTWTbQSLrx8p8k3xR0pHliIOrqzKjhkHRj/Ek+TDPK347JoeV7DSR
-7jUgFPss8LOTdWTAxoK4KPssYF7TmZarX6KQezHLkbeqsyJrEbbLMbg8L1/PQjLZ
-Zq/2+ZOwCdEqdXFm1Un1IpbIQTydh1RkNE0RugR8j25UtyvgKgTmjeGOYCLQ6o3q
-mgD4nEfTpnlgHtLtMq/7cd9eIXSTmC3BUnctZYjLce+kBqtUusySuhP48wTR2Ymw
-SCEDvgCWVu03ChyB4qmwuUzr
-=5Z9H
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmnvRUAbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+kl4QAKtj5vTYosnXBF4thlXE
+LUfejEqq0/+YaK1Y40yRoZ6lhqZtGyn9g1qoBadIiWLQsoakWlIu3XaBmlPZ48CS
+lNyPxpvJCCSu1zPUySfZEpDkVXjd6HLRD5t2A2KaWA915gSAGqsYamWKQyKBg1PX
+55XMpeDEmHzSrj3iT8ATA2NS3Px/Bx0wMuFBQ7+KLAcpwLYTN5nX7s59W7JxY2vY
+ryIFRqhKTUIimMGccQeX18oA4NXOTD4UwzK4KhTNVPMVIHgJteHXnvjkY5YLh4Oj
+DXLftNERU3YYVnCiWntphtgAGw2CBs4WGHnVBmSRQCsl6Aq345Vzn1uhjCgWpeUo
+nZLwt0CKqtGuj2ygoVebv7/Zpj+iFiqUpND18DRawuy25qsjFlR9Udv8jU7169nc
+Sq2W64dAVOOuVDdprcRAjVuzfZyErzBuqUcZjwMEr6TLfme+EPLjD/pDayTbF3QJ
+8jeOgZP4FmEmOIjvzKUgEs0vL/i63UDwvR6NkOZNbSMp6wV57w0VStlVIOmNpDPh
+G82ujBOVmJrH5untRnz/wNbHB5T8yQShcjqhTFN+u9eEUHKh5CIC4l+s+xp0yR+0
+OnM6uCQGhihNX06Zz/ad4KQdmz4PTeBsrOVwNgtUAYgynJzJ6azYV5Xg0UOD7tzj
+lDV4X9VxqQeiTFYDJQirSdLu
+=OqLK
 -----END PGP SIGNATURE-----
 
---===============6589269661048781015==
+--===============1658471500388015765==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-fc2fe2a2e6d9-dafba19e9a2f.txt
+Content-Disposition: attachment; filename=revlist-e9a71c16cf5d-ef278deecd9b.txt
 
 59e4f3b45b96a24fc9b7a89e5f8a2168b30f95af ARM: ensure interrupts are enabled in __do_user_fault()
 78900204851708bbe761c3acf641ad60f15c922f ARM: move vmalloc() lazy-page table population
@@ -129,6 +129,9 @@ b935117fe6d1af576e39b1f18c9e875f44bd146f Merge tag 'kbuild-fixes-7.1-1' of git:/
 20b64cf8705a0f6268bb9a320eb6b4c425f3ec6c Merge tag 'tsm-for-7.1' of git://git.kernel.org/pub/scm/linux/kernel/git/devsec/tsm
 14479877c1ec9667edb4a7c20a8d7a704e7249ca Merge tag 'clk-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/clk/linux
 254f49634ee16a731174d2ae34bc50bd5f45e731 Linux 7.1-rc1
-dafba19e9a2f1e74efb88a128de491f72174e11b module: remove MODULE_VERSION()
+3fb63d5ac18f67628e6515704fbf2d088030dfd3 readfile: implement readfile syscall
+da23f51031f18a07feb93d96516f53969f0e30dc arch: wire up the readfile syscall
+9ecaecb87ce87492674e53521b17dea68304077e readfile.2: new page describing readfile(2)
+ef278deecd9b20f98ef9f30d6aabed945b75e1b8 selftests: add readfile(2) selftests
 
---===============6589269661048781015==--
+--===============1658471500388015765==--
