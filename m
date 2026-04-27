@@ -1,18 +1,18 @@
-Content-Type: multipart/mixed; boundary="===============0245542243226410554=="
+Content-Type: multipart/mixed; boundary="===============6619423843761907806=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux-mem-ctrl
-Date: Mon, 27 Apr 2026 12:03:09 -0000
-Message-Id: <177729138950.3808581.1048595795973765977@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pinctrl/samsung
+Date: Mon, 27 Apr 2026 12:03:14 -0000
+Message-Id: <177729139462.3808785.8418362881565270631@gitolite.kernel.org>
 
---===============0245542243226410554==
+--===============6619423843761907806==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/krzk/linux-mem-ctrl
+repo: pub/scm/linux/kernel/git/pinctrl/samsung
 user: krzk
 git_push_cert_status: Y
 changes:
@@ -24,38 +24,38 @@ changes:
     old: 0000000000000000000000000000000000000000
     new: 3131ff5a117498bb4b9db3a238bb311cbf8383ce
 
---===============0245542243226410554==
+--===============6619423843761907806==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher krzk@kernel.org 1777291387 +0200
-pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux-mem-ctrl.git
-nonce 1777291387-6ec0395652877c173667368164c0211a5921767a
+pusher krzk@kernel.org 1777291392 +0200
+pushee kernel.org:/pub/scm/linux/kernel/git/pinctrl/samsung.git
+nonce 1777291392-4ce5230d501dc00c0b673df5687c80d1f1120947
 
 6de23f81a5e08be8fbf5e8d7e9febc72a5b5f27f 028ef9c96e96197026887c0f092424679298aae8 refs/heads/master
 0000000000000000000000000000000000000000 3131ff5a117498bb4b9db3a238bb311cbf8383ce refs/tags/v7.0
 -----BEGIN PGP SIGNATURE-----
 
-iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmnvUHsQHGtyemtAa2Vy
-bmVsLm9yZwAKCRDBN2bmhouD11gED/9EU/tYo9YPuycFvyK0bZqBeEEwDwZv/f94
-A+PxTgbloY9OvfmsyoINXnHVQXH2/AzhwJboUJbvEovFFVY5vL9z0NYHG++xJ0cO
-On0eZ9sl3YUipk+AKJyNQnXNw7RHJjrw8rbR0ZiP4s0BW5BdpBeOqMuYQX8gGbwW
-+WonrYaIp0QzXIcxd4a6kBmzF6CIIivCQYGCNni9aBZkOGNsGGWqk81w3CMnQcuR
-RslTO/aqamdu93p3OobtQY0AZKa9Py3XUu7dDZYAR+Rar6ivaQ1eS9xQHKgWYyoZ
-/50rwkmICU6tG/NJxd4pYzufAE4B7tgoHRG3bQ5Hv80i5tfIY/KkFOkNw9nH5XbQ
-ECneapKr2+6xjmTdhp2qV1hacKMQ5x8MOJTsXe1dcVzcr0KdcVfc/wQnHBg3KaaI
-qnYOYDgdrE6kEHlyGPKHyjm6Cm4FdLTtZoEI5N/8SsAqU3v/fGhS7vp3z+2a3WRt
-ELfaN1YfF6SyhXwFaYCO2IWptkR+4tUNikDAPxnbLZOIU7dAY3C7v5FXD32WpVnk
-VkwgYUE4AjrmZwipWzaERKtdvbeiOMLhhOM7v/iwoeFKFDPygmJR29/BeteXw6Cq
-ro4ep1t8ybPigyBydSBzlDpF0MU6OfYonYDwWKeqIvs/hna1NN0jghB7kUIlviFn
-Qv2D/CHKJQ==
-=ze4X
+iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmnvUIAQHGtyemtAa2Vy
+bmVsLm9yZwAKCRDBN2bmhouD15aED/9iTAn0Q3j+gAgOit8OguFsvAOzoT6qULoz
+itOOg7ZqhFFpRWNcmnSYDItmAZSP474AwqJjiSVh15w0icu7Til2rTe58xLbvNGX
+X3gIOFYK3GkLbBre4obPck0bqisIP4mWQlzdWjuJ0UkoZaZhfmvHzw7w1sPiH2Op
+0Xwru4jaUFuzAWF3YwLNqFYs1PKO89gdWPcHgPK+DOFkb6xyK/Xu72o+yzNL2Foh
+Il/kVN/UFZNsSWERV71H2ZMkThsNwsMEYNjeUo3mZHjvUcDvgab6/Vfgw+eJkOz3
+ESkmtcbqSMOzrg1gS+x4eG7TSxaHdn5ZPTP3rLnrctt16JGfIX3FsrFP5nVEPIQ9
+CqmACz93TCLINcaEOlzZMmWW+pxFNmlYCcepGwfvoErnA9ghHjbRP+3sSzhtpiOb
+JCRRL/RIlXXbPNCqKXkM6OlUZBDXudFLp6N8UIdty3ef4bYlNbSWI/oSaXeKaqUM
+Rz44qnRjiZpYqPaxx7O1MI3xpU/yMd564zJZexAy079JQaoqgE6bgsq9QZvXL49V
+EFWh2tKOREPORQRfoadm8UthAtRlKd8YqlpNJXSL0npsqfiFcCuBAg0Tad1knRRm
+DBeLkIJK+vEMemEdZq9ar4zANnbZYiaYI5sqlD5H3tiWu24xssFZWmFsB1A8Afkj
+0f2G8Fpe+A==
+=iU7f
 -----END PGP SIGNATURE-----
 
---===============0245542243226410554==
+--===============6619423843761907806==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1086,4 +1086,4 @@ ab3dee26406be0ed0a26af70311dcdc760db3996 Merge tag 'timers-urgent-2026-04-12' of
 10d97b74e2eef787d823f9bc05cb044b47d25c41 Merge tag 'edac_urgent_for_7.0' of git://git.kernel.org/pub/scm/linux/kernel/git/ras/ras
 028ef9c96e96197026887c0f092424679298aae8 Linux 7.0
 
---===============0245542243226410554==--
+--===============6619423843761907806==--
