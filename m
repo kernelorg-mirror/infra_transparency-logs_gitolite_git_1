@@ -1,16 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/dakr/linux
-Date: Mon, 27 Apr 2026 22:18:10 -0000
-Message-Id: <177732829009.499654.14293069597426247214@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/daveh/devel
+Date: Mon, 27 Apr 2026 22:19:08 -0000
+Message-Id: <177732834856.500394.1207296514549585824@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/dakr/linux
-user: dakr
+repo: pub/scm/linux/kernel/git/daveh/devel
+user: daveh
 changes:
-  - ref: refs/for/driver-lifetime
-    old: becba7355d1c6a73c9476443b975d29e4818fb42
-    new: 0000000000000000000000000000000000000000
+  - ref: refs/heads/testme
+    old: dacceee40ac04527816fa540961bb171133575be
+    new: 5209e5bfe5cab593476c3e7754e42c5e47ce36de
+    log: |
+         53642715861e838f328a3fbef99a1d315955221a x86/tdx: Move TDX architectural error codes into <asm/shared/tdx_errno.h>
+         597bdf6e068e2c8f6e93f24bf39a34cdf017481f x86/virt/tdx: Pull kexec cache flush logic into arch/x86
+         b7d2173946efa20434aefd7421b46a90f1080fbe x86/virt/tdx: Add SEAMCALL wrapper for TDH.SYS.DISABLE
+         5b25f249be32c3f43ac1895e6560a1c8aa6f6110 x86/tdx: Disable the TDX module during kexec and kdump
+         5209e5bfe5cab593476c3e7754e42c5e47ce36de x86/virt/tdx: Remove kexec docs
+         
