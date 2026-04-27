@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6637885137549909242=="
+Content-Type: multipart/mixed; boundary="===============8825257040730013663=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/perf/perf-tools
-Date: Mon, 27 Apr 2026 22:21:17 -0000
-Message-Id: <177732847717.504318.5952493632636844250@gitolite.kernel.org>
+Date: Mon, 27 Apr 2026 22:21:36 -0000
+Message-Id: <177732849629.504752.15015646044484090498@gitolite.kernel.org>
 
---===============6637885137549909242==
+--===============8825257040730013663==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,18 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/perf/perf-tools
 user: namhyung
 changes:
-  - ref: refs/heads/master
-    old: c369299895a591d96745d6492d4888259b004a9e
+  - ref: refs/heads/tmp.perf-tools
+    old: 9a683fe0a00d2684ae874fd9eb58e6c1864fdf36
     new: 254f49634ee16a731174d2ae34bc50bd5f45e731
-    log: revlist-c369299895a5-254f49634ee1.txt
+    log: revlist-9a683fe0a00d-254f49634ee1.txt
 
---===============6637885137549909242==
+--===============8825257040730013663==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c369299895a5-254f49634ee1.txt
+Content-Disposition: attachment; filename=revlist-9a683fe0a00d-254f49634ee1.txt
 
+099db5093e4d894483163bd7e4b58c99319bc3f3 smb: smbdirect: introduce smbdirect_connection_negotiation_done()
 b183b7b9b51fc37cc8e1fbad3c0d84e0cb605266 smb: smbdirect: introduce smbdirect_mr_io_fill_buffer_descriptor()
 a93b68d46e1450ca6d395be0ca002f8bdf04d9a6 smb: smbdirect: introduce smbdirect_connection_legacy_debug_proc_show()
 09d617d3121e14309ad5e4287b0da3ec27d386a8 smb: smbdirect: introduce smbdirect_connection_wait_for_connected()
@@ -130,7 +131,6 @@ aa43bb2c0fc0d928bb120f853349c8affcfeb8b4 smb: smbdirect: remove unused SMBDIRECT
 25c2e34931c5f2a02baefd111a4eb7fa31158059 smb: smbdirect: fix the logic in smbdirect_socket_destroy_sync() without an error
 d09a040c186a2083b1cfa9c3c112782ce4b1f6d4 smb: smbdirect: let smbdirect_connection_deregister_mr_io unlock while waiting
 5d087c485b6ecf200a9ebb2a032bf8571d330250 pwm: stm32: Fix rounding issue for requests with inverted polarity
-9a683fe0a00d2684ae874fd9eb58e6c1864fdf36 Merge tag 'v7.0-rc6' into perf-tools
 0ca0485e4b2e837ebb6cbd4f2451aba665a03e4b fs/ntfs3: validate rec->used in journal-replay file record check
 819bd270abf9de3b7f306e233054b85a07c47820 fs/ntfs3: fix Smatch warnings
 eb90ae3cca783ebec65704597027811431465de4 ALSA: hda/intel: Move firmware loading into the probe work
@@ -1051,4 +1051,4 @@ b935117fe6d1af576e39b1f18c9e875f44bd146f Merge tag 'kbuild-fixes-7.1-1' of git:/
 14479877c1ec9667edb4a7c20a8d7a704e7249ca Merge tag 'clk-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/clk/linux
 254f49634ee16a731174d2ae34bc50bd5f45e731 Linux 7.1-rc1
 
---===============6637885137549909242==--
+--===============8825257040730013663==--
