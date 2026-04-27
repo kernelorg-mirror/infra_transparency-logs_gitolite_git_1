@@ -1,174 +1,31 @@
-Content-Type: multipart/mixed; boundary="===============6553368207102665178=="
+Content-Type: multipart/mixed; boundary="===============2916179604157853269=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/chunkuang.hu/linux
-Date: Mon, 27 Apr 2026 23:21:07 -0000
-Message-Id: <177733206794.565228.6401718348447208055@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
+Date: Mon, 27 Apr 2026 23:28:23 -0000
+Message-Id: <177733250334.571434.5017400031598296905@gitolite.kernel.org>
 
---===============6553368207102665178==
+--===============2916179604157853269==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/chunkuang.hu/linux
-user: chunkuang.hu
+repo: pub/scm/linux/kernel/git/tnguy/next-queue
+user: tnguy
 changes:
-  - ref: refs/heads/mediatek-drm-next
-    old: e1c3bc324407e82a616228ff70027408b2e26f91
-    new: 254f49634ee16a731174d2ae34bc50bd5f45e731
-    log: revlist-e1c3bc324407-254f49634ee1.txt
+  - ref: refs/heads/dev-queue
+    old: 48846498c93591b77bcd70c03b06101e0aaa03d1
+    new: 1014dfc0fe384193aebb151f6f9eafb06a2feec5
+    log: revlist-48846498c935-1014dfc0fe38.txt
 
---===============6553368207102665178==
+--===============2916179604157853269==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e1c3bc324407-254f49634ee1.txt
+Content-Disposition: attachment; filename=revlist-48846498c935-1014dfc0fe38.txt
 
-b183b7b9b51fc37cc8e1fbad3c0d84e0cb605266 smb: smbdirect: introduce smbdirect_mr_io_fill_buffer_descriptor()
-a93b68d46e1450ca6d395be0ca002f8bdf04d9a6 smb: smbdirect: introduce smbdirect_connection_legacy_debug_proc_show()
-09d617d3121e14309ad5e4287b0da3ec27d386a8 smb: smbdirect: introduce smbdirect_connection_wait_for_connected()
-dc24063813ea617394db153cf9203286770ed404 smb: smbdirect: introduce smbdirect_connection_is_connected()
-b3e78c651441eaf08e830e260d06fd8d33a8b7f9 smb: smbdirect: introduce smbdirect_socket_shutdown()
-dce268ffcddc96f29707c1967c52b036ad92e43d smb: smbdirect: introduce smbdirect_socket_init_{new,accepting}() and helpers
-ede2b44b0e62378cb8585dda20a4edadbc621bb0 smb: smbdirect: let smbdirect_socket_set_initial_parameters() call rdma_restrict_node_type()
-d1f187656797fc7434388c1795e05f8abe370d46 smb: smbdirect: introduce smbdirect_connect[_sync]()
-eb3ed1e9048cf7b2a38112f48e0f1b772bb7860d smb: smbdirect: introduce smbdirect_accept_connect_request()
-20cd3cc4420bdb9f63644cd140e2682f634e651e smb: smbdirect: introduce smbdirect_socket_create_{kern,accepting}() and smbdirect_socket_release()
-b1e6277bd1240c3a66aac537b1b43b4bfd2edcd8 smb: smbdirect: let smbdirect_socket.h include all headers for used structures
-5e4bf7fadd4a608cace7604b720483f051f8176f smb: smbdirect: let smbdirect_internal.h define pr_fmt without SMBDIRECT_USE_INLINE_C_FILES
-b2261ceedd4a4831957732ebae5ad33bf5c7fc80 smb: smbdirect: introduce smbdirect_public.h with prototypes
-89df0942907894a92dbece12bfa35e1647959b0c smb: smbdirect: provide explicit prototypes for cross .c file functions
-4c9e665cb1132b92812886d08ec784132eb66caf smb: smbdirect: introduce smbdirect_init_send_batch_storage()
-84df3cde16090d5d1de4df31623ef0433fdea041 smb: smbdirect: split out smbdirect_accept_negotiate_finish()
-03f9e2c15f8fa32b8056a3a59f98f652726f78b8 smb: smbdirect: introduce smbdirect_socket_bind()
-dc691b91ad1677def14582a279e56fd943b52f94 smb: smbdirect: introduce smbdirect_socket_{listen,accept}()
-f9a804da479cc41172f1039b4ffde06a09920506 smb: smbdirect: introduce the basic smbdirect.ko
-dd43c2227394472aa6e438ddffc2f58028de7531 smb: client: make use of smbdirect_socket_prepare_create()
-2459505596f57664f61a1be9b50065ebed9da660 smb: client: make use of smbdirect_socket_set_logging()
-5f6e338bbb78787933ffcf87959178c4f0a08757 smb: client: make use of smbdirect_socket_wake_up_all()
-872b23ab6d9495e5504ac0a43e9ec977e750052a smb: client: make use of smbdirect_socket_cleanup_work()
-43e1fed89e40346578a2f94ae0a87dfa05987fa5 smb: client: make use of smbdirect_socket_schedule_cleanup()
-927183cdbe4897f9a4bc0f64201fb0f192722d35 smb: client: make use of smbdirect_connection_{get,put}_recv_io()
-018ed87aa5ddc42f4437f6f9df4386e8e18e481d smb: client: make use of smbdirect_connection_reassembly_{append,first}_recv_io()
-c85814ca5f3d22f08f3513a6eb91162392f4fe4b smb: client: make use of smbdirect_connection_idle_timer_work()
-6f9055aa9c8c16c7a9e185e35257dbee3852d42f smb: client: make use of smbdirect_frwr_is_supported()
-f7a59fff0259592e138c702b3c22b5fbf3c8ea00 smb: client: make use of smbdirect_connection_{alloc,free}_send_io()
-958da403e1db2fad62d1b9398b486e34658396f8 smb: client: make use of smbdirect_connection_send_io_done()
-116f3eed365143dd8c31a50fe62726966d047577 smb: client: make use of smbdirect_connection_{create,destroy}_mem_pools()
-e5fd091663f82ee6c36cffd4bb93fcee9fc644c3 smb: client: make use of smbdirect_map_sges_from_iter()
-0b7da58fec9ae573263571d5574d6a44f52c8223 smb: client: make use of smbdirect_connection_qp_event_handler()
-6bcccfb0c0f214e2ee3f09125f0459c9fbfea766 smb: client: make use of smbdirect_connection_negotiate_rdma_resources()
-8de5571045902b5cadee117ec02c62c2f6cb0886 smb: client: make use of smbdirect_connection_{create,destroy}_qp()
-6a67fe6212028754d3b3b57871916309a16863a6 smb: client: initialize recv_io->cqe.done = recv_done just once
-26003faa7d477eed4ceb5b5b49e4eb4a77bf2f6f smb: client: make use of smbdirect_connection_post_recv_io()
-73ec624781cd7a43a2dbad8c7d40133703089224 smb: client: make use of smbdirect_connection_recv_io_refill_work()
-2a49b625189ebf43329299f47dd513840acd89ae smb: client: make use of functions from smbdirect_mr.c
-2cafcddbdada359f36a93bd014eef7ea2186435d smb: client: make use of smbdirect_socket_destroy_sync()
-edb9e514f0e058a924a169795fb0e34286da9572 smb: client: make use of smbdirect_connection_recvmsg()
-8b72c199a9626cc1b53c8d579e9e4c6f23af8908 smb: client: make use of smbdirect_connection_grant_recv_credits()
-b942f351c25051f971a39fac06ebed02da9a648e smb: client: make use of smbdirect_connection_request_keep_alive()
-15c7e492610f001e1ff6480c6b5d9d1653afaa3c smb: client: change smbd_post_send_empty() to void return
-b626ccd251ae9181dd716036718da7b7da042726 smb: client: let smbd_post_send_iter() get remaining_length and return data_length
-7c81e7bb1338b7c9a45f6f240aec3bc243abf0b6 smb: client: let smbd_post_send_full_iter() get remaining_length and return data_length
-63972da39f900b98c18b5283dcde74e3ce0909fb smb: client: make use of smbdirect_connection_send_{single_iter,immediate_work}()
-5bd752e7749e4abcae71d95e22b75272ac767b06 smb: client: introduce and use smbd_mr_fill_buffer_descriptor()
-0b0a1a3b2d25464ed65a89e2cfbdd41ea78b2502 smb: client: introduce and use smbd_debug_proc_show()
-7dbfc0d910e0364117e01b6c41fb641360852497 smb: client: make use of smbdirect_socket_init_new() and smbdirect_connect_sync()
-b8aef8c8808cc78992bec2ab2195c5e0903c0879 smb: client: make use of smbdirect_socket_create_kern()/smbdirect_socket_release()
-a8e98e392062a9575e41646621f238f3a35203ae smb: client: only use public smbdirect functions
-6acc747906c5b87657dc313ff6cb777d805a6ec4 smb: client: make use of smbdirect.ko
-4624f1bf1b79bd50ddbd1178aa741b8a7afba5b0 smb: server: make use of smbdirect_socket_prepare_create()
-bbf3559afe5ef7283eaa3112520ce06f73426ee1 smb: server: make use of smbdirect_socket_set_logging()
-33562021f4151c3d18be696c7c55e323716a0a39 smb: server: make use of smbdirect_socket_wake_up_all()
-1b1ee1e3ee32115492adc6c746177fca6fc8593b smb: server: make use of smbdirect_socket_cleanup_work()
-0ffbbfdf6a2698d31dc6b38b47fa04ef0cd075a1 smb: server: make use of smbdirect_socket_schedule_cleanup()
-01f26988c8728c5dd993f03b316c32d2cce3b4e3 smb: server: make use of smbdirect_connection_{get,put}_recv_io()
-aa1255e71ffac6868e9db10ac3b6c2c10711afd9 smb: server: make use of smbdirect_connection_reassembly_{append,first}_recv_io()
-84d7085e5f2343877e4b0e0a55569f59f7db92a1 smb: server: make use of smbdirect_connection_idle_timer_work()
-c81c66d3c09aa1dfab2137ac6b737a206d228b2f smb: server: make use of smbdirect_frwr_is_supported()
-8ecb32ada10e13d608a80f1112daf03c82fa3683 smb: server: make use of smbdirect_connection_{alloc,free}_send_io()
-bb1d5c49d6cdc0be77719123237ead835216f304 smb: server: make use of smbdirect_connection_send_io_done()
-07aec3a151b732cfa06bd00821a1ed99b8f87c89 smb: server: make use of smbdirect_connection_{create,destroy}_mem_pools()
-8688d7a8c712dc507bf4ae6ee07c1eed536e35a5 smb: server: make use of smbdirect_map_sges_from_iter()
-ab8e9249e735f8801039f7eef7ca556d65f64b2b smb: server: make use of smbdirect_connection_qp_event_handler()
-d5e2bdda493f10ccc8e7c3545f79e2505ee94dff smb: server: make use of smbdirect_connection_negotiate_rdma_resources()
-5a2999d7d9c550f265b04e1abf5774e97150d220 smb: server: make use of smbdirect_connection_{create,destroy}_qp()
-62782820e85250bc9919621aa242510d300e9093 smb: server: make use of smbdirect_connection_post_recv_io()
-8d55169a570944cf68c740ba723987ffcd762728 smb: server: make use of smbdirect_connection_recv_io_refill[_work]()
-be0ac9f59f4c7d3399388f8ec90137c5fed1fcd0 smb: server: make use of smbdirect_get_buf_page_count()
-0911d32ba20657c1ceafeab83442ef1f24cdff57 smb: server: make use of smbdirect_socket_wait_for_credits()
-21a72d0900733f19b8b1b846e8318bfe96795636 smb: server: make use of functions from smbdirect_rw.c
-a3bf9bfee8370d7a497276c26ee639d1d7e41677 smb: server: make use of smbdirect_socket_destroy_sync()
-73489efddadc53dbdd4270569c0c00492ace9801 smb: server: make use of smbdirect_connection_recvmsg()
-0a1702e9319f428e2e24a6f4b7109d212296f812 smb: server: make use of smbdirect_connection_grant_recv_credits()
-1421d50ea941c450d089d3b296d308f2b2728f6d smb: server: make use of smbdirect_connection_request_keep_alive()
-0184d2b386f836925ff2f9b4e6d4f9a8048cf58f smb: server: move iov_iter_kvec() out of smb_direct_post_send_data()
-0af87a0a31668d4a0dc8d8140fb51da594935eb4 smb: server: inline smb_direct_create_header() into smb_direct_post_send_data()
-da20536c508c0f511cf20ceef6757ea4861bf547 smb: server: let smbdirect_map_sges_from_iter() truncate the message boundary
-08ffdf0c416849615e8bc935839557429ec24194 smb: server: split out smb_direct_send_iter() out of smb_direct_writev()
-c6b077efbc39e0ad6c20733693671ab4a8dbba18 smb: server: let smb_direct_post_send_data() return data_length
-4b4c21a7d2204bda49aa9772d407ba1264727d6d smb: server: make use of smbdirect_connection_send_iter() and related functions
-94604164871e4c182d1305ab1e43971f41b6cf38 smb: server: make use of smbdirect_{socket_init_accepting,connection_wait_for_connected}()
-ff7673f6fde8a39d2a693c4ef431a7ce933397d2 smb: server: make use of smbdirect_socket_create_accepting()/smbdirect_socket_release()
-1b2d94a3c986473fbb05cd6c5a45d67e5f39f3c2 smb: server: only use public smbdirect functions
-2eff5e51f97663ad2371115260884396718b5e92 smb: server: make use of smbdirect_socket_{listen,accept}()
-98bdc5fda9cc425afe608342b372d25970071f96 smb: server: remove unused ksmbd_transport_ops.prepare()
-50bdab9ae45e6345eaa94adbaefaf1ce5a7e90a1 smb: server: make use of smbdirect.ko
-81a7a3a0faea7e8e64f83aa58e807a8ad329c97d smb: smbdirect: introduce smbdirect_netdev_rdma_capable_mode_type()
-33b2894e8df76f7faf7253d8784515415511968f smb: server: make use of smbdirect_netdev_rdma_capable_mode_type()
-a40e6f0166e6d5fef4dd7d3b71c333319a0964ab smb: smbdirect: wrap rdma_disconnect() in rdma_[un]lock_handler()
-00ac2a4fe04af50e65bbac010379d66d87547c0f smb: smbdirect: remove unused smbdirect_connection_mr_io_recovery_work()
-e4ce1fca0468eb4b6fc2f02667f599bb76df8848 smb: smbdirect: prepare use of dedicated workqueues for different steps
-1adde16a9e28446b5a73a8f0e05f6f977e520528 smb: smbdirect: introduce global workqueues
-73dc52d2942ccf4d4f680176c1e7f36aadba4ce8 smb: client: no longer use smbdirect_socket_set_custom_workqueue()
-649c47559a37fdefefc259ab580b537abbc79fbd smb: server: no longer use smbdirect_socket_set_custom_workqueue()
-aa43bb2c0fc0d928bb120f853349c8affcfeb8b4 smb: smbdirect: remove unused SMBDIRECT_USE_INLINE_C_FILES logic
-735610d0cefa9e44b28498b53706ed2ebac3be27 smb: smbdirect: change smbdirect_socket_parameters.{initiator_depth,responder_resources} to __u16
-3892007f2bbf8ae2df5374de708282d6895402e9 smb: smbdirect: fix copyright header of smbdirect.h
-25c2e34931c5f2a02baefd111a4eb7fa31158059 smb: smbdirect: fix the logic in smbdirect_socket_destroy_sync() without an error
-d09a040c186a2083b1cfa9c3c112782ce4b1f6d4 smb: smbdirect: let smbdirect_connection_deregister_mr_io unlock while waiting
-5d087c485b6ecf200a9ebb2a032bf8571d330250 pwm: stm32: Fix rounding issue for requests with inverted polarity
-9a683fe0a00d2684ae874fd9eb58e6c1864fdf36 Merge tag 'v7.0-rc6' into perf-tools
-0ca0485e4b2e837ebb6cbd4f2451aba665a03e4b fs/ntfs3: validate rec->used in journal-replay file record check
-819bd270abf9de3b7f306e233054b85a07c47820 fs/ntfs3: fix Smatch warnings
-eb90ae3cca783ebec65704597027811431465de4 ALSA: hda/intel: Move firmware loading into the probe work
-3c318f97dcc50b2e0556a1813bd6958678e881fd ALSA: usb-audio: stop parsing UAC2 rates at MAX_NR_RATES
-448c0f8cb7cdf2e6d6e9d1ed3bb8c7397bc71c66 Merge branch 'for-7.1/module-function-test' into for-linus
-4510d140524ca7d6e772db962e013f26f09a63b1 net/sched: act_mirred: fix wrong device for mac_header_xmit check in tcf_blockcast_redir
-3ba3b02f897b14e34977e1886d95ffe64d907204 crypto: eip93 - fix hmac setkey algo selection
-1f48ad3b19a9dfc947868edda0bb8e48e5b5a8fa crypto: authencesn - Fix src offset when decrypting in-place
-8451ab6ad686ffdcdf9ddadaa446a79ab48e5590 crypto: sa2ul - Fix AEAD fallback algorithm names
-915b692e6cb723aac658c25eb82c58fd81235110 crypto: pcrypt - Fix handling of MAY_BACKLOG requests
-abe4a6d6f606113251868c2c4a06ba904bb41eed crypto: ccp: Don't attempt to copy CSR to userspace if PSP command failed
-e76239fed3cffd6d304d8ca3ce23984fd24f57d3 crypto: ccp: Don't attempt to copy PDH cert to userspace if PSP command failed
-4f685dbfa87c546e51d9dc6cab379d20f275e114 crypto: ccp: Don't attempt to copy ID to userspace if PSP command failed
-a7a1f3cdd64d8a165d9b8c9e9ad7fb46ac19dfc4 crypto: ccp - copy IV using skcipher ivsize
-fa92a77b0ed4d5f11a71665a232ac5a54a4b055d macvlan: fix macvlan_get_size() not reserving space for IFLA_MACVLAN_BC_CUTOFF
-df4601653201de21b487c3e7fffd464790cab808 net: bridge: use a stable FDB dst snapshot in RCU readers
-f9e40664706927d7ae22a448a3383e23c38a4c0b net/sched: sch_cake: fix NAT destination port not being updated in cake_update_flowkeys
-29c95185ba32b621fbc3800fb86e7dc3edf5c2be nexthop: fix IPv6 route referencing IPv4 nexthop
-104f082f5ed6d19c5d85ca905ccd4e4d01aef66e selftests: fib_nexthops: test stale has_v4 on nexthop replace
-faecdd423c27f0d6090156a435ba9dbbac0eaddb of: unittest: fix use-after-free in of_unittest_changeset()
-07fd339b2c253205794bea5d9b4b7548a4546c56 of: unittest: fix use-after-free in testdrv_probe()
-5d0e969c4e6ab4c4693f7a4c381e30125106f73d dt-bindings: thermal: Fix false warning with 'phandle' in trips nodes
-bacf0b2bfa7a0532664e42aacf882a4a644f75d8 dt-bindings: display: simple: Move AUO 21.5" FHD to dual-link
-2a62dd135311f8865ecb9bf09d87da40f2ab3fdb dt-bindings: display: simple: Move Innolux G156HCE-L01 panel to dual-link
-9c469240997584449cfac51a75d1d3d71968c76f dt-bindings: display: ti, am65x-dss: Fix AM62L DSS reg and clock constraints
-37e9faf21670cf86d36eebc3b4d27afe6819983a ASoC: es8311: Check regcache_sync() error in resume
-c15bc1681045f158811643d6c990f87c590dd693 ASoC: es8311: Fix clock leak and check update_bits in set_bias_level()
-52bcb57a4e8a0865a76c587c2451906342ae1b2d vsock/virtio: fix accept queue count leak on transport mismatch
-a74c2e55ab66519ffa2069ac9ae83cd937bff4c4 dt-bindings: display: panel: panel-simple: Add lg,sw49410 compatible
-d3e945223e0158c85dbde23de4f89493a2a817f6 bpf: Move constants blinding out of arch-specific JITs
-d9ef13f72711f2dad64cd4445472ded98fb6c954 bpf: Pass bpf_verifier_env to JIT
-07ae6c130b46cf5e3e1a7dc5c1889fefe9adc2d3 bpf: Add helper to detect indirect jump targets
-9a0e89dcc9be8e0ba20aeb81c330a6352261667e bpf, x86: Emit ENDBR for indirect jump targets
-f6606a44bc438ec5f1d450d0153878e80e79ff80 bpf, arm64: Emit BTI for indirect jump target
-1cedfe17badeebdcc044855713597ac7db58414a Merge branch 'emit-endbr-bti-instructions-for-indirect'
-e5f635edd393aeaa7cad9e42831d397e6e2e1eed bpf: Fix precedence bug in convert_bpf_ld_abs alignment check
-4245bf4dc58f58b7042c29d7b04d4e403a0379bc tracing/osnoise: Add option to align tlat threads
-6bf7969a145e13a3390143038fe82c52025aeb93 drm/drm_atomic: duplicate colorop states if plane color pipeline in use
 51942b77f443ac3f1b4628c2f5f7dea8a7fe654f spi: mtk-snfi: fix memory leak in probe
 f0bf3eac92b2be5f34b944cb82f1c23db642c7f5 Merge tag 'vfio-v7.1-rc1' of https://github.com/awilliam/linux-vfio
 948ef73f7ec39622ebd27bba4e94d78a983109f6 Merge tag 'efi-next-for-v7.1' of git://git.kernel.org/pub/scm/linux/kernel/git/efi/efi
@@ -1050,5 +907,148 @@ b935117fe6d1af576e39b1f18c9e875f44bd146f Merge tag 'kbuild-fixes-7.1-1' of git:/
 20b64cf8705a0f6268bb9a320eb6b4c425f3ec6c Merge tag 'tsm-for-7.1' of git://git.kernel.org/pub/scm/linux/kernel/git/devsec/tsm
 14479877c1ec9667edb4a7c20a8d7a704e7249ca Merge tag 'clk-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/clk/linux
 254f49634ee16a731174d2ae34bc50bd5f45e731 Linux 7.1-rc1
+776197a481f3118f1ca7130330a865a9768124d9 ice: Fix enable_cnt imbalance on resume
+d9b5ec74942fb19fc0b16febc51a1326c38294ae ice: Fix enable_cnt imbalance on PCIe error recovery
+8e10744165ba6e2cd8c7892c81a55535bebb6d9c i40e: Fix enable_cnt imbalance on PCIe error recovery
+ed0e61bacc54edd88e5c49f74b77e42aba28ee05 virtchnl: create 'include/linux/intel' and move necessary header files
+6c3ea8f6566fa509c0a4c6d1ef3a8b2fd12e3b8a libie: add PCI device initialization helpers to libie
+277842a1c670ae29b14612f2117616f36ac5ee9c libeth: allow to create fill queues without NAPI
+88e24c79947acd394febcad26314e5a6d046207e libie: add control queue support
+ac13d4d21b15f27e73342a21ff4fc0532e2e58df libie: add bookkeeping support for control queue messages
+4c209d367157c73bd9f2cba3144058e19fc9277f idpf: remove 'vport_params_reqd' field
+8dc790bb8e7b8ad28e49bcb7fa945c26871021ea idpf: refactor idpf to use libie_pci APIs
+b0e1f98899df5acea79008deef37318433ea8ff4 idpf: refactor idpf to use libie control queues
+ea433d6e237dbda2b516caae5af9d2537ef1a908 idpf: make mbx_task queueing and cancelling more consistent
+3a2b0a7107d2a11b8727339c57866ac95432d532 idpf: print a debug message and bail in case of non-event ctlq message
+1ab6e8091b09d3e69b865f06f20fa32c0e462864 ixd: add basic driver framework for Intel(R) Control Plane Function
+4fc40de8d9c4e03ee613a393d0efacb9c27f440b ixd: add reset checks and initialize the mailbox
+bc68018453c36219fd9d65407d35b24052afffbb ixd: add the core initialization
+39ab6adc0d55ee219cc9d090741ba1fb66be6f38 ixd: add devlink support
+6e76f4f2bf51d4ad4cf331812e412b0867187e63 ice: fix setting RSS VSI hash for E830
+542e62f7885a4369248e96f63b5c589dbe97d1da libeth: pass Rx queue index to PP when creating a fill queue
+db167368392064b7be591e013d9572b8ef0e3e19 libeth: handle creating pools with unreadable buffers
+04fe45465d4481d2ee78870c3f4e0b3d285b6ec3 ice: migrate to netdev ops lock
+b69bb34b8860f7ed77f482af6a1f5078d7f1f274 ice: implement Rx queue management ops
+b50ebb1d5b7abea249f381ff57d68240acb2f216 ice: add support for transmitting unreadable frags
+3fcc44dd58d3d875cfc7817ada69ee4e493994f2 igb: set skb hash type from RSS_TYPE
+8a4bba944971f9a68fc0360dfc428d09f2721d2c ixgbe: E610: add discovering EEE capability
+eafb20fed72593a7e92c7f7afa3764074eba4a14 ixgbe: E610: use new version of 0x601 ACI command buffer
+ee492e06b8bb5e8132a9deca7d83c1a6ca24a23a ixgbe: E610: update EEE supported speeds
+465a8fd022834e82b9d7d10b43fe9b4bbbf8f5ce ixgbe: E610: update ACI command structs with EEE fields
+e8878cfcbb81c4427b9610cc854becd4d97585dc ixgbe: move EEE config validation out of ixgbe_set_eee()
+0fcb74a45569a61403f61bce1763b0ff3eaf4607 ixgbe: E610: add EEE support
+1d0f0867922836ad8f42fb96cf39cad1a7e267b9 i40e: only timestamp PTP event packets
+ac303ef88e1be8e2f30a85d7dc1fdef9178d1a31 igb: prepare for RSS key get/set support
+c8fda71031c6367e22ea92817b04d507c3b1ca8d igb: expose RSS key via ethtool get_rxfh
+bd2a16e31c769716bca0a8bbbf3c1d810e1491ec igb: allow configuring RSS key via ethtool set_rxfh
+c57ce475210a47018b5c282b767f023699bdf430 igc: prepare for RSS key get/set support
+801b1f1d4d6bffd3a3122d79e0d1eb1cc72f01ff igc: expose RSS key via ethtool get_rxfh
+b7d8755b95ebbf9621e1f3f4ee298d97b1ea13ba igc: allow configuring RSS key via ethtool set_rxfh
+d0bb7cb63668c04e62acd8237ecac01ba8f2ead6 ixgbe: e610: add ACI dynamic debug
+72ba98163c20699762d651a27bee1e01777736d6 ixgbe: e610: remove redundant assignment
+27e6a7c86de048510aedf411855f0144fbf2acc6 ice: in dvm, use outer VLAN in MAC, VLAN lookup
+7b7bac778a9c64195a0abfa0e09fe18b36058fc8 ice: allow creating mac, vlan filters along mac filters
+d96efc372142bfe51366dc9d4e053d8765bdfdd4 ice: allow overriding lan_en, lb_en in switch
+05ace39acce8deb1058eb2bf774db777009d5cac ice: update mac, vlan rules when toggling between VEB and VEPA
+5183958c732ad24ceb11b861f50019d9afa703c8 ice: add functions to query for vsi's pvids
+0585777d76e46d08400fdfedee82764e872c4f1c ice: add mac vlan to filter API
+18abcc7f66d8dacacf707b57bcaab0873c13bb0d ice: in VEB, prevent "cross-vlan" traffic from hitting loopback
+8b4c44d2cdbcf903bea63145af4b6445418bbf8c ice: dpll: fix rclk pin state get and misplaced header macros
+7ec58d9d6a7d628fdeb7d44c07bf084511745872 ixgbe: fix unaligned u32 access in ixgbe_update_flash_X550()
+fd4a54a3808bd220a31092a4454d40e2cb1a3b0a ice: add support for unmanaged DPLL on E830 NIC
+f43d37617895879078dbf3f26e3f9771134caf99 ice: mention fw_activate action along with devlink reload
+a8f6ffbb2403e935292691cc452282277737e380 ice: access @pp through netmem_desc instead of page
+180d47a05f3b023f37841c19208be751f53f5379 ice: fix missing SMA pin initialization in DPLL subsystem
+eacd09439fcaf03da7cb64287692f53a0d5162c3 ice: remove redundant checks from PTP init
+fdb69702c3a81e6c4fdd25a5539fc3c11e4b3b67 ice: dpll: Fix compilation warning
+4cd80807809d5b76f40ff27dee17d17ed4004812 igb: fix typos in comments
+1e7e1a0d3986cb1a9f7935dbb59b40abcfcb46a2 igc: fix typos in comments
+f8abdf306a2612d0d82dbfc3070ce2e548888af3 igb: Retrieve Tx timestamp from BH workqueue
+9185496069b6ecd32e838ea4eb243e369d6cb1c6 idpf: Replace use of system_unbound_wq with system_dfl_wq
+990aa17c7b0f523e8f674e051f41671b038d3af3 ethtool: treat RXH_GTP_TEID as intrinsically symmetric
+d61a0ec0c3173b6a95b76e192a08c5d6678f1393 ice: implement symmetric RSS hash configuration
+bf92da9956414da50931fc0f018f446a442cc259 igc: set RX hardware timestamps in igc_build_skb()
+edc143805912ee1408d6b588561895138a190e6b igc: enable build_skb on the non-XDP small-frame RX path
+d0c2766f568a4e4f064e9b2ac467e92fdbacfd41 ice: add ethtool reset support to safe mode ops
+36d6697da09663e35eef452d77c41bd41d06438b i40e: prepare for XDP metadata ops support
+a71b6dd399a5cf0d21477153ab351675a5327491 i40e: add support for bpf_xdp_metadata_rx_hash()
+2aa120c7e773cc371c2b3f5adea597eb26a97589 i40e: add support for bpf_xdp_metadata_rx_vlan_tag()
+3faeda954ce4815b92fba7ccc565725763203d98 idpf: fix xdp crash in soft reset error path
+93379b7a4605f293b8de440d7003393a3275aa31 virtchnl: add VIRTCHNL_VLAN_ETHERTYPE_88E7 support
+7a987641589c5ac53b02cd11d2945ceaac082831 ice: add 0x88E7 handling to SW validation paths
+2ddc243943af646641b0acf5038ca0cbfa9af424 ice: fix locking in ice_dcb_rebuild()
+8d92ad4d05bab7d061b144e1c69d1971c3dc96c4 ice: fix FDB deletion
+1538ad4938c3a63e9697beff8ee8d0a6cd6daa3f ice: init desired_dcbx_cfg in default DCB config
+3f34ef6722424f9a047977da8b54af236b6bcd1b ice: prevent integer overflow
+43bf8fa500ad4be3c6b7df190710dd44531607ff ice: fix LLDP AQ filter fallback not working on E82x and E830 hardware
+f8a7a19dc6061360f5ef4283625ca230d4d6c1c5 ice: reduce loglevel to debug for 'Can't delete DSCP' message
+c68c637c94214eb1c114503c038a06ac0f7264ec ice: use ice_fill_eth_hdr() in ice_fill_sw_rule()
+5bd5d63a2ccc94c79ab3bdcc0b4dc8c4c25daf12 ice: fix FDIR CTRL VSI resource leak in ice_reset_all_vfs()
+bd3b2f54d6d691bf7edf4f9f46f7dd5cee6384d8 ice: fix AQ error code comparison in ice_set_pauseparam()
+cb48b7e8485e949079a9da67be4167f3a71ce544 ice: call netif_keep_dst() once when entering switchdev mode
+40a60b3b91f68265f2350d0fb65f01aa5238d00b ice: remove excessive memory allocation in ice_create_lag_recipe()
+031bde768056ab97b88ad2ead50a2ed8aa140246 ice: check cross-timestamp timeout bits
+4a32b8f1bedc2d0ae52fa464d784ee66c59faca4 ice: fix locking around wait_event_interruptible_locked_irq
+e7059b35bf68328851f2235d46456cc068b8e376 ice: fix PTP Call Trace during PTP release
+8299fbc01427afff013f1ed04eab6a3286302ff1 ice: fix PTP hang for E825C devices
+c8c08e2d9e972db76346c6bbb0cfd30ced09bfc1 ice: use READ_ONCE() to access cached PHC time
+b7152d98d6465d687ddac84158e13176a8540e90 ice: fix setting promisc mode while adding VID filter
+092df090573c4aa86d6b0d1921204ad8a90aaeae i40e: fix memcmp of pointer in i40e_hw_set_dcb_config()
+99e82cfe96e94149883ad93a1d06d70430c73221 igb: use napi_schedule_irqoff() instead of napi_schedule()
+b4c418b9b5b9f3ad6fe5dc86ed54744540a7b771 igc: use napi_schedule_irqoff() instead of napi_schedule()
+feb7f24a6048578835989b9ff6a2fc547ac64383 ice: fix null-ptr dereference on false-positive tx timeout
+a7245384c1e259f2fff61618fc93072c30ce8ab8 ice: fix NULL pointer dereference in ice_reset_all_vfs()
+a2eb4e2fdda0fa17d8af0bd690de14cbeb77b215 e1000: limit endianness conversion to boundary words
+f4b4c8c82f9af814a5a6b477a5f147cca209a1d9 e1000e: limit endianness conversion to boundary words
+38c236657f3aa0c2b0c0e4353e5ddfd7986c80f5 idpf: fix read_dev_clk_lock spinlock init in idpf_ptp_init()
+e0f564bab9463a4762dab2fce8fffed494a06be4 i40e: Cleanup PTP registration on probe failure
+1072232e0622768e5254b941f8b2a413feb611ff ice: fix VF queue configuration with low MTU values
+3199ed0391a9da5ae764ea7b6c766f4bec696cc8 idpf: do not enable XDP if queue based scheduling is not supported
+a3eb36ee33ca937fd1c5cbdf776c2ac2f8b2b883 idpf: fix skb datapath queue based scheduling crashes and timeouts
+5207ae43f66c806728edb7b07e57efbb86740031 i40e: Cleanup PTP pins on probe failure
+d7b0db4ab5ef92bd6746aff8398e2ae12e193e58 ice: fix SMA and U.FL pin state changes affecting paired pin
+6736ec38c6831a2427e753238baa3e06ff6cb288 igb: use ktime_get_real helpers in igb_ptp_reset()
+fa33b4de689d3d583cda10d6c23413431cfeb958 e1000e: use ktime_get_real_ns() in e1000e_systim_reset()
+32b147f43b4c6f9e62fd5753a10edbda3f979994 ixgbevf: fix use-after-free in VEPA multicast source pruning
+e5726013e5bd39bcee9e86c56f7623bdc4a975a1 e1000e: correct TIMINCA on ADP/TGP systems with wrong XTAL frequency
+8d7df48741a7fd81b44e34e6607e41b8f7c0512b ice: fix infinite recursion in ice_cfg_tx_topo via ice_init_dev_hw
+6b318ee27cb06d397509c60a191ccabf44ee0905 ice: Fix missing 1's complement negation in GCS raw checksum
+e99f5cfb863ead86dcaa79dee3e7e50c9c6f90df idpf: fix double free and use-after-free in aux device error paths
+9f0cbbe6afc6c653b95e98c66990d550a05e12a1 i40e: set supported_extts_flags for rising edge
+5d6b4401a5e0beaaf82e00012ae205f05bb52638 igc: fix potential skb leak in igc_fpe_xmit_smd_frame()
+8aa8dac09eb55a5b928e26341e5296839efa5eed i40e: keep q_vectors array in sync with channel count changes
+025976b89f486a5afa9e5be279df1334b3046172 ice: fix ice_init_link() error return preventing probe
+17abc07bce01c0630ab8411c8c4e4ec891759ae5 iavf: fix null pointer dereference in iavf_detect_recover_hung
+25f4d857aa39c2a63ad7a990d2515f8ad555670b iavf: fix error path in iavf_request_misc_irq
+1f8a62bf9d83a923606cffa1aad00f68472bd794 iavf: prevent VSI corruption when ring params changed during reset
+7f6c32fb953d938956f981d3f12b8aba3da5b7ef iavf: fix TC boundary check in iavf_handle_tclass
+10b59ba792974a6b28966a2249138302bba1488e iavf: return 0 when TC flower filter not found after qdisc teardown
+1442cb9ca890ac3f1ce05078a15db86ed5420082 ixgbe: lower IXGBE_ITR_ADAPTIVE_MAX_USECS to prevent RX starvation
+729cc5502b95db682b70269f2f6614021501966d ixgbe: add ixgbe_container_is_rx() helper and refine RX adaptive ITR
+450244003cd51064bf6e1c9bdf5238cd18a430fe ixgbe: limit ITR decrease in latency mode to prevent ACK overdrive
+9671e43a220964c86e73a461fa2d827372a6b0e0 ixgbe: add IXGBE_ITR_ADAPTIVE_MASK_USECS constant
+9b1b727e78d6be9542051577d8299c9fab828419 ixgbe: remove ixgbe_ping_all_vfs() from link state change handlers
+91885361648a9647febd8f8da7648db9353f2aae ixgbe: use ktime_get_real_ns() in ixgbe_ptp_reset()
+6ae10ef518f7385c61dee0c1eab8f11c568860fc ixgbe: use GFP_KERNEL in ixgbe_fcoe_ddp_setup()
+28d502b421db7a861479fbd08f90848efb86caba ixgbe: use int instead of u32 for error code variables
+e7d3e641d17f1a3ff3145d64e5bb4c7764aa73a6 igbvf: Fix leak in TX DMA error cleanup
+1e1bbc2ff2c14c90b0dcb1435ed38c70acaad791 ice: fix asymmetric pause negotiation reporting in ethtool
+84d66551a1bf346742b96483ff2ebf5f2bf63cc7 ice: fix autoneg disable when link partner doesn't support AN
+1dfeea827191396ab7d34a2916d7dfd8b4fb87c2 ice: support RDMA on 4+-port E830 devices
+a2fcd1a9a2176e534554ee28d0cd890b0376ba4a ice: report EIPE checksum errors to the OS on E830
+63fc10da86b672b222f7993ccb981ad5a991a316 e1000e: Reconfigure PLL clock gate timeout and re-enable K1 on Meteor Lake
+693bbae4affac2dd46176e936ebbd69664cbc02f iavf: rename IAVF_VLAN_IS_NEW to IAVF_VLAN_ADDING
+4ef2248255d8b10ba9c626cd9a23c79f49170e3b iavf: stop removing VLAN filters from PF on interface down
+ff1f03dedff42136911834db9933add91a37f008 iavf: wait for PF confirmation before removing VLAN filters
+586379841f698a1b3ae14e5011a8ea938210ebc2 iavf: add VIRTCHNL_OP_ADD_VLAN to success completion handler
+2eba4c663d508fae74f08f8e7db2a63165e862b4 dpll: export __dpll_pin_change_ntf() for use under dpll_lock
+de2eaa3a75f728f97bb520cdbaa4abb3e8b1f325 ice: fix missing dpll notifications for SW pins
+69be990c474621dde6ec4b82c394129ee41b3919 ice: add dpll peer notification for paired SMA and U.FL pins
+3ce23060ec03e3e8bb028386c25ad8f2a08c4d16 igc: set tx buffer type for SMD frames
+08ccc374e7c3ca5c4b13513d17db678788428323 ice: fix UAF/NULL deref when VSI rebuild and XDP attach race
+cfb6ec4314e9432537f6f080f342b7569d1bb872 ixgbe: only access vfinfo and mv_list under RCU lock
+9b38069f29d900664dc8efa0d0c6f3eda128ca45 iavf: iavf_virtchnl_completion: drop duplicate ether_addr_equal() test
+32f99dc8bd30d2f7bb001daff2bd850124bd67f8 ice: ptp: serialize E825 PHY timer start with PTP lock
+1014dfc0fe384193aebb151f6f9eafb06a2feec5 ice: ptp: use primary NAC semaphore on E825
 
---===============6553368207102665178==--
+--===============2916179604157853269==--
