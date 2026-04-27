@@ -1,64 +1,31 @@
-Content-Type: multipart/mixed; boundary="===============0007340216727345428=="
+Content-Type: multipart/mixed; boundary="===============5695895647387783550=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux-w1
-Date: Mon, 27 Apr 2026 13:11:05 -0000
-Message-Id: <177729546552.3888788.18411688072000069142@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ulfh/linux-pm
+Date: Mon, 27 Apr 2026 13:11:09 -0000
+Message-Id: <177729546963.3888931.2058978604641899723@gitolite.kernel.org>
 
---===============0007340216727345428==
+--===============5695895647387783550==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/krzk/linux-w1
-user: krzk
-git_push_cert_status: Y
+repo: pub/scm/linux/kernel/git/ulfh/linux-pm
+user: ulfh
 changes:
-  - ref: refs/heads/w1-next
-    old: f2c1ae05fe82030537b36012551a5cac28d00254
-    new: 254f49634ee16a731174d2ae34bc50bd5f45e731
-    log: revlist-f2c1ae05fe82-254f49634ee1.txt
+  - ref: refs/heads/next
+    old: 596ca99cf04f339db2ed18a5bb230ee11a47b699
+    new: ec1fcddb3117d9452210e838fd37389ee61e10e8
+    log: revlist-596ca99cf04f-ec1fcddb3117.txt
 
---===============0007340216727345428==
+--===============5695895647387783550==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-596ca99cf04f-ec1fcddb3117.txt
 
-certificate version 0.1
-pusher krzk@kernel.org 1777295463 +0200
-pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux-w1.git
-nonce 1777295462-617e44a0fc69e90db61eed078b43c38ab37a5171
-
-f2c1ae05fe82030537b36012551a5cac28d00254 254f49634ee16a731174d2ae34bc50bd5f45e731 refs/heads/w1-next
------BEGIN PGP SIGNATURE-----
-
-iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmnvYGcQHGtyemtAa2Vy
-bmVsLm9yZwAKCRDBN2bmhouD13BVD/96G57FHchO6mDi1zlD2m+c23rAHgqQtfhn
-KWi78p3pbtRGF6ghsHXwWCpg2EoxbyxQMTSz4rvDEu5jdU/AlTGgdmy6IEeaHaZA
-ST56XQt7nmyMzD64YqQTKaxgHc7eCquzuoaqNtq0sTdI6ecnsBPrZqSgRkoDDyYr
-lPzHhlvLeXIZu/m6xppTA7chXCw/0K+OnIBenncV9BkbJsUq6jgTuv8eEUbDIrry
-AIwRJXOhPPKMzAmtbNdxyVW/6Iw/FQQodULwB6Do0GTqcPyus4BYW4PNoHZC4NcI
-klBJM/d3umTlDSApM3qP36Tg355ij7+1EuMIV/gdg6rPLlHW1dO5PEn9QBT6RQ0q
-uPTBOZfj9SHZc8QWI3wd0ytVpUT3OUiCmPPCNXRCoF7gE2EXInw2oc0ffB45E/QW
-WCc9KfbqeeSvwJLtMbkNOw6Xd705imSkc+Q7f+ZtzJWrmVvKSjKJNwOD4RHRgGon
-mX4ppBwe8ffPfPw+8Tcr3scDP8FQaKo2iUCMs60FF4zXf6DkeUqd45vclSUrz98G
-vIfS2qQroBhVilG66lbWQzk2Qi7kGoPoWmsYut9lVx9W7FJwWFx0HU02lzq3AGBT
-rrAUAPTiJ2q8Axgp0K2RJwm8YOyOxUD7YrENu/TAAwS8H0gJaU+0K3yDRG4QD+7V
-2SGKkp8h8g==
-=1/jP
------END PGP SIGNATURE-----
-
---===============0007340216727345428==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f2c1ae05fe82-254f49634ee1.txt
-
-b183b7b9b51fc37cc8e1fbad3c0d84e0cb605266 smb: smbdirect: introduce smbdirect_mr_io_fill_buffer_descriptor()
-a93b68d46e1450ca6d395be0ca002f8bdf04d9a6 smb: smbdirect: introduce smbdirect_connection_legacy_debug_proc_show()
 09d617d3121e14309ad5e4287b0da3ec27d386a8 smb: smbdirect: introduce smbdirect_connection_wait_for_connected()
 dc24063813ea617394db153cf9203286770ed404 smb: smbdirect: introduce smbdirect_connection_is_connected()
 b3e78c651441eaf08e830e260d06fd8d33a8b7f9 smb: smbdirect: introduce smbdirect_socket_shutdown()
@@ -1081,5 +1048,7 @@ b935117fe6d1af576e39b1f18c9e875f44bd146f Merge tag 'kbuild-fixes-7.1-1' of git:/
 20b64cf8705a0f6268bb9a320eb6b4c425f3ec6c Merge tag 'tsm-for-7.1' of git://git.kernel.org/pub/scm/linux/kernel/git/devsec/tsm
 14479877c1ec9667edb4a7c20a8d7a704e7249ca Merge tag 'clk-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/clk/linux
 254f49634ee16a731174d2ae34bc50bd5f45e731 Linux 7.1-rc1
+26735dfdd8930d9ef1fa92e590a9bf77726efdf6 pmdomain: core: Fix detach procedure for virtual devices in genpd
+ec1fcddb3117d9452210e838fd37389ee61e10e8 pmdomain: mediatek: fix use-after-free in scpsys_get_bus_protection_legacy()
 
---===============0007340216727345428==--
+--===============5695895647387783550==--
