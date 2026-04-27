@@ -1,31 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============5724982002009330975=="
+Content-Type: multipart/mixed; boundary="===============1503439931965990720=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sumit.garg/linux
-Date: Mon, 27 Apr 2026 07:38:13 -0000
-Message-Id: <177727549396.3519468.16991493335214697597@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
+Date: Mon, 27 Apr 2026 07:38:26 -0000
+Message-Id: <177727550619.3519725.1219265939426065387@gitolite.kernel.org>
 
---===============5724982002009330975==
+--===============1503439931965990720==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sumit.garg/linux
-user: sumit.garg
+repo: pub/scm/linux/kernel/git/brgl/linux
+user: brgl
 changes:
-  - ref: refs/heads/qcom-pas-v4
-    old: bf1e08d3dd13fb00b55db5cf7653ac81fd41b7c1
-    new: 65b96b949e6ae91ae5aa27974bba48ced65b7579
-    log: revlist-bf1e08d3dd13-65b96b949e6a.txt
+  - ref: refs/heads/master
+    old: 6de23f81a5e08be8fbf5e8d7e9febc72a5b5f27f
+    new: 254f49634ee16a731174d2ae34bc50bd5f45e731
+    log: revlist-6de23f81a5e0-254f49634ee1.txt
 
---===============5724982002009330975==
+--===============1503439931965990720==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-bf1e08d3dd13-65b96b949e6a.txt
+Content-Disposition: attachment; filename=revlist-6de23f81a5e0-254f49634ee1.txt
 
+b183b7b9b51fc37cc8e1fbad3c0d84e0cb605266 smb: smbdirect: introduce smbdirect_mr_io_fill_buffer_descriptor()
+a93b68d46e1450ca6d395be0ca002f8bdf04d9a6 smb: smbdirect: introduce smbdirect_connection_legacy_debug_proc_show()
+09d617d3121e14309ad5e4287b0da3ec27d386a8 smb: smbdirect: introduce smbdirect_connection_wait_for_connected()
+dc24063813ea617394db153cf9203286770ed404 smb: smbdirect: introduce smbdirect_connection_is_connected()
+b3e78c651441eaf08e830e260d06fd8d33a8b7f9 smb: smbdirect: introduce smbdirect_socket_shutdown()
+dce268ffcddc96f29707c1967c52b036ad92e43d smb: smbdirect: introduce smbdirect_socket_init_{new,accepting}() and helpers
+ede2b44b0e62378cb8585dda20a4edadbc621bb0 smb: smbdirect: let smbdirect_socket_set_initial_parameters() call rdma_restrict_node_type()
+d1f187656797fc7434388c1795e05f8abe370d46 smb: smbdirect: introduce smbdirect_connect[_sync]()
+eb3ed1e9048cf7b2a38112f48e0f1b772bb7860d smb: smbdirect: introduce smbdirect_accept_connect_request()
+20cd3cc4420bdb9f63644cd140e2682f634e651e smb: smbdirect: introduce smbdirect_socket_create_{kern,accepting}() and smbdirect_socket_release()
+b1e6277bd1240c3a66aac537b1b43b4bfd2edcd8 smb: smbdirect: let smbdirect_socket.h include all headers for used structures
+5e4bf7fadd4a608cace7604b720483f051f8176f smb: smbdirect: let smbdirect_internal.h define pr_fmt without SMBDIRECT_USE_INLINE_C_FILES
+b2261ceedd4a4831957732ebae5ad33bf5c7fc80 smb: smbdirect: introduce smbdirect_public.h with prototypes
+89df0942907894a92dbece12bfa35e1647959b0c smb: smbdirect: provide explicit prototypes for cross .c file functions
+4c9e665cb1132b92812886d08ec784132eb66caf smb: smbdirect: introduce smbdirect_init_send_batch_storage()
+84df3cde16090d5d1de4df31623ef0433fdea041 smb: smbdirect: split out smbdirect_accept_negotiate_finish()
+03f9e2c15f8fa32b8056a3a59f98f652726f78b8 smb: smbdirect: introduce smbdirect_socket_bind()
+dc691b91ad1677def14582a279e56fd943b52f94 smb: smbdirect: introduce smbdirect_socket_{listen,accept}()
+f9a804da479cc41172f1039b4ffde06a09920506 smb: smbdirect: introduce the basic smbdirect.ko
+dd43c2227394472aa6e438ddffc2f58028de7531 smb: client: make use of smbdirect_socket_prepare_create()
 2459505596f57664f61a1be9b50065ebed9da660 smb: client: make use of smbdirect_socket_set_logging()
 5f6e338bbb78787933ffcf87959178c4f0a08757 smb: client: make use of smbdirect_socket_wake_up_all()
 872b23ab6d9495e5504ac0a43e9ec977e750052a smb: client: make use of smbdirect_socket_cleanup_work()
@@ -1030,25 +1050,5 @@ b935117fe6d1af576e39b1f18c9e875f44bd146f Merge tag 'kbuild-fixes-7.1-1' of git:/
 20b64cf8705a0f6268bb9a320eb6b4c425f3ec6c Merge tag 'tsm-for-7.1' of git://git.kernel.org/pub/scm/linux/kernel/git/devsec/tsm
 14479877c1ec9667edb4a7c20a8d7a704e7249ca Merge tag 'clk-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/clk/linux
 254f49634ee16a731174d2ae34bc50bd5f45e731 Linux 7.1-rc1
-b5aff01f36b27d79b00361d514fac6c0174d5f1b soc: qcom: ice: Fix race between qcom_ice_probe() and of_qcom_ice_get()
-bfb96224c0592ab49d387db3d74a88b430c5db01 soc: qcom: ice: Return -ENODEV if the ICE platform device is not found
-d21c0bfb82357539d20edcb4517e8cfa1c76310f soc: qcom: ice: Return proper error codes from devm_of_qcom_ice_get() instead of NULL
-d782a365ce6d4bf144d192fdaaf4023ebe390764 mmc: sdhci-msm: Remove NULL check from devm_of_qcom_ice_get()
-8c28c30b8b0904dfb5b22c6da78314a4ca48ae5d scsi: ufs: ufs-qcom: Remove NULL check from devm_of_qcom_ice_get()
-6772cea9c69f52a67dcdd4d60ac7b1054d68414d arm64: dts: qcom: kodiak: Add EL2 overlay
-344eb37bf45ccdeca117a007f470a95aab154352 firmware: qcom: Add a generic PAS service
-f315a15b8d294ffc3d961f05ade993c4ceb38968 firmware: qcom_scm: Migrate to generic PAS service
-fefcac102c4aab6b9d282be8f9b745275d64e4ab firmware: qcom: Add a PAS TEE service
-5bbd1da0dd1d1b2fed8a9743f0a7a97406799d27 remoteproc: qcom_q6v5_pas: Switch over to generic PAS TZ APIs
-020be036436dbda4d09aefc25475dfe8fbb79d82 remoteproc: qcom_q6v5_mss: Switch to generic PAS TZ APIs
-a8bf1d16f54e8fcb7cf63a9e51cec66675916b68 soc: qcom: mdtloader: Switch to generic PAS TZ APIs
-a87c129fb86f16f64b4da485d034e1cc2e4c9b40 remoteproc: qcom_wcnss: Switch to generic PAS TZ APIs
-81202da612f42c4103c3c5ae02c316d6636e5b06 remoteproc: qcom: Select QCOM_PAS generic service
-070b2b4a1ecf7cf81fe9ef210268dc3b5b60a3b0 drm/msm: Switch to generic PAS TZ APIs
-878dfa5ad89a19ae83a1d001b266647a2ab965c2 media: qcom: Switch to generic PAS TZ APIs
-9a7bd2c68f05d9d85e5f10e9fcfea3058ba14717 net: ipa: Switch to generic PAS TZ APIs
-4e6b9cdcde5d52c1c7ce2c355fb96a2762bbcff6 wifi: ath12k: Switch to generic PAS TZ APIs
-29769fc559a1bd91ab131f4b8e93d4e8f49c49a3 firmware: qcom_scm: Remove SCM PAS wrappers
-65b96b949e6ae91ae5aa27974bba48ced65b7579 MAINTAINERS: Add maintainer entry for Qualcomm PAS TZ service
 
---===============5724982002009330975==--
+--===============1503439931965990720==--
