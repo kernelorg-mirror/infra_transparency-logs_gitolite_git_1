@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============9207153126981115226=="
+Content-Type: multipart/mixed; boundary="===============7063654476260822129=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
-Date: Mon, 27 Apr 2026 07:45:10 -0000
-Message-Id: <177727591089.3528038.16829203891870053840@gitolite.kernel.org>
+Date: Mon, 27 Apr 2026 07:45:47 -0000
+Message-Id: <177727594708.3528741.14611487517335626478@gitolite.kernel.org>
 
---===============9207153126981115226==
+--===============7063654476260822129==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,21 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/brgl/linux
 user: brgl
 changes:
-  - ref: refs/heads/gpio/for-next
-    old: 6d22fcf85e3f089e5096812e89b742dd726aa7e6
-    new: 42509588db15100732f236b6a007f384dde3833f
-    log: revlist-6d22fcf85e3f-42509588db15.txt
+  - ref: refs/heads/gpio/for-current
+    old: e31eee4a961077d60ef2362507240c6743c1c2ae
+    new: 254f49634ee16a731174d2ae34bc50bd5f45e731
+    log: revlist-e31eee4a9610-254f49634ee1.txt
 
---===============9207153126981115226==
+--===============7063654476260822129==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6d22fcf85e3f-42509588db15.txt
+Content-Disposition: attachment; filename=revlist-e31eee4a9610-254f49634ee1.txt
 
+db3092ed2f0bec27eb289755173134e46e3ae7a4 smb: smbdirect: introduce smbdirect_connection_send_immediate_work()
+099db5093e4d894483163bd7e4b58c99319bc3f3 smb: smbdirect: introduce smbdirect_connection_negotiation_done()
+b183b7b9b51fc37cc8e1fbad3c0d84e0cb605266 smb: smbdirect: introduce smbdirect_mr_io_fill_buffer_descriptor()
+a93b68d46e1450ca6d395be0ca002f8bdf04d9a6 smb: smbdirect: introduce smbdirect_connection_legacy_debug_proc_show()
 09d617d3121e14309ad5e4287b0da3ec27d386a8 smb: smbdirect: introduce smbdirect_connection_wait_for_connected()
 dc24063813ea617394db153cf9203286770ed404 smb: smbdirect: introduce smbdirect_connection_is_connected()
 b3e78c651441eaf08e830e260d06fd8d33a8b7f9 smb: smbdirect: introduce smbdirect_socket_shutdown()
@@ -584,8 +588,6 @@ cf1f976aee444af0143c3a2fa6cf0f8bf9bd938e dt-bindings: input: add debounce-delay-
 f4b369c6fe0ceaba2da2daff8c9eb415f85926dd Merge branch 'next' into for-linus
 5aa58c3a572b3e3b6c786953339f7978b845cc52 crypto: algif_aead - snapshot IV for async AEAD requests
 3bfbf5f0a99c991769ec562721285df7ab69240b crypto: krb5enc - fix async decrypt skipping hash verification
-5cd9c6d332f46d1de8b68117fe2a3f1b08ee80ff gpio: rockchip: Fix GPIO regression after conversion to dynamic base allocation
-e31eee4a961077d60ef2362507240c6743c1c2ae gpio: aspeed: fix AST2700 debounce selector bit definitions
 314f6179e370988ac00dadf373a4f6166eb3db15 drm/i915/psr: Init variable to avoid early exit from et alignment loop
 666fa7e9ca98e71c880086ca24147ae843f1ed6e spi: cadence: fix controller deregistration
 964ee9793760e825b5c011741b4e3cfe06c87efc spi: cadence-quadspi: fix controller deregistration
@@ -1048,7 +1050,5 @@ b935117fe6d1af576e39b1f18c9e875f44bd146f Merge tag 'kbuild-fixes-7.1-1' of git:/
 20b64cf8705a0f6268bb9a320eb6b4c425f3ec6c Merge tag 'tsm-for-7.1' of git://git.kernel.org/pub/scm/linux/kernel/git/devsec/tsm
 14479877c1ec9667edb4a7c20a8d7a704e7249ca Merge tag 'clk-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/clk/linux
 254f49634ee16a731174d2ae34bc50bd5f45e731 Linux 7.1-rc1
-9c9fe04e0fe3fdba7d4aafffa9b7bbb21f6fcbe1 Merge tag 'v7.1-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux into gpio/for-next
-42509588db15100732f236b6a007f384dde3833f gpio: ep93xx: use handle_bad_irq() as default IRQ handler
 
---===============9207153126981115226==--
+--===============7063654476260822129==--
