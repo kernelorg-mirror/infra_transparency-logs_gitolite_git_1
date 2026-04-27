@@ -1,57 +1,32 @@
-Content-Type: multipart/mixed; boundary="===============1240815789048159725=="
+Content-Type: multipart/mixed; boundary="===============5424324132063336076=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vbabka/slab
-Date: Mon, 27 Apr 2026 09:30:30 -0000
-Message-Id: <177728223047.3635762.18242349042388502197@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/docs/linux
+Date: Mon, 27 Apr 2026 09:31:15 -0000
+Message-Id: <177728227558.3636835.7302789177450330440@gitolite.kernel.org>
 
---===============1240815789048159725==
+--===============5424324132063336076==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vbabka/slab
-user: vbabka
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/docs/linux
+user: corbet
 changes:
-  - ref: refs/heads/slab/for-next
-    old: 44e0ebe4accd67c67134cf3b805917153041a300
-    new: 8952728641305ebcd03e80f79b8d31bb41d6d95f
-    log: revlist-44e0ebe4accd-895272864130.txt
+  - ref: refs/heads/docs-mw
+    old: 40a3f6c5e2604ff7c007da6628120529569e950c
+    new: 254f49634ee16a731174d2ae34bc50bd5f45e731
+    log: revlist-40a3f6c5e260-254f49634ee1.txt
 
---===============1240815789048159725==
+--===============5424324132063336076==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-40a3f6c5e260-254f49634ee1.txt
 
-certificate version 0.1
-pusher A940D434992C2E8E99103D50224FA7E7CC82A664 1777282226 +0200
-pushee gitolite.kernel.org:pub/scm/linux/kernel/git/vbabka/slab.git
-nonce 1777282225-f67f7ec71481d5e4e21a980ba32e55200c6c1285
-
-44e0ebe4accd67c67134cf3b805917153041a300 8952728641305ebcd03e80f79b8d31bb41d6d95f refs/heads/slab/for-next
------BEGIN PGP SIGNATURE-----
-
-iQFPBAABCAA5FiEEe7vIQRWZI0iWSE3xu+CwddJFiJoFAmnvLLIbFIAAAAAABAAO
-bWFudTIsMi41KzEuMTIsMiwyAAoJELvgsHXSRYia4ZUH/RP94fEWjuvL17VWpjd2
-rdCbk1Vgmi2g21Kry9bKLmHHEEpqVejYyS8XMAzOBbtsthGEhmUwHrzqyX6aebH6
-hvc2ltrfaVDGDSwCdPwY9AgGnI7VoXOclARSCxybHG/9JHuKohZc9f1/6WijwVtJ
-4YiLBvJDOVaVWnvHWoVgc9Y1T8PSyTnEnuJHb/UNNOlBzntE87aD7m6Kuuv5U3wx
-XOBq2iW/D83XEJtTXMLH55TbJOE28rHBwBfJ6YQEsfXrni0/DWwz15jVMTxi44ae
-1sp/gPt7G4gR7CpzHE3GFFhqQvSMlFLQCNYc5hZBCWlLAWFCkZRdhE1MdeoBN3Bn
-8pA=
-=i8ku
------END PGP SIGNATURE-----
-
---===============1240815789048159725==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-44e0ebe4accd-895272864130.txt
-
+b183b7b9b51fc37cc8e1fbad3c0d84e0cb605266 smb: smbdirect: introduce smbdirect_mr_io_fill_buffer_descriptor()
 a93b68d46e1450ca6d395be0ca002f8bdf04d9a6 smb: smbdirect: introduce smbdirect_connection_legacy_debug_proc_show()
 09d617d3121e14309ad5e4287b0da3ec27d386a8 smb: smbdirect: introduce smbdirect_connection_wait_for_connected()
 dc24063813ea617394db153cf9203286770ed404 smb: smbdirect: introduce smbdirect_connection_is_connected()
@@ -1075,6 +1050,5 @@ b935117fe6d1af576e39b1f18c9e875f44bd146f Merge tag 'kbuild-fixes-7.1-1' of git:/
 20b64cf8705a0f6268bb9a320eb6b4c425f3ec6c Merge tag 'tsm-for-7.1' of git://git.kernel.org/pub/scm/linux/kernel/git/devsec/tsm
 14479877c1ec9667edb4a7c20a8d7a704e7249ca Merge tag 'clk-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/clk/linux
 254f49634ee16a731174d2ae34bc50bd5f45e731 Linux 7.1-rc1
-8952728641305ebcd03e80f79b8d31bb41d6d95f mm/slub: defer freelist construction until after bulk allocation from a new slab
 
---===============1240815789048159725==--
+--===============5424324132063336076==--
