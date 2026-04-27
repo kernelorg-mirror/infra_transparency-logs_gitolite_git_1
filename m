@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vfs/vfs
-Date: Mon, 27 Apr 2026 15:04:52 -0000
-Message-Id: <177730229262.38530.671293994021004881@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kdave/linux
+Date: Mon, 27 Apr 2026 15:09:02 -0000
+Message-Id: <177730254256.43520.12755938193061746866@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vfs/vfs
-user: brauner
+repo: pub/scm/linux/kernel/git/kdave/linux
+user: kdave
 changes:
-  - ref: refs/heads/vfs-7.2.misc
-    old: 94607391f5ae6814420fae6233eed6f5132014ed
-    new: b34d597faae60a4c89235205478497b975e86bc5
-    log: |
-         b34d597faae60a4c89235205478497b975e86bc5 docs: add guidelines for submitting new filesystems
-         
+  - ref: refs/tags/affs-for-7.1-tag
+    old: 3f6b33d657496eea6407f392601ca425bb0f5260
+    new: 0000000000000000000000000000000000000000
