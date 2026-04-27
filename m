@@ -1,57 +1,57 @@
-Content-Type: multipart/mixed; boundary="===============8485980492147878592=="
+Content-Type: multipart/mixed; boundary="===============7000029436269947769=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux-dt
-Date: Mon, 27 Apr 2026 13:13:15 -0000
-Message-Id: <177729559529.3893100.3708188530599040418@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux-mem-ctrl
+Date: Mon, 27 Apr 2026 13:14:01 -0000
+Message-Id: <177729564163.3893440.13605494206506821408@gitolite.kernel.org>
 
---===============8485980492147878592==
+--===============7000029436269947769==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/krzk/linux-dt
+repo: pub/scm/linux/kernel/git/krzk/linux-mem-ctrl
 user: krzk
 git_push_cert_status: Y
 changes:
-  - ref: refs/heads/next/soc-drivers
+  - ref: refs/heads/fixes
     old: 6de23f81a5e08be8fbf5e8d7e9febc72a5b5f27f
     new: 254f49634ee16a731174d2ae34bc50bd5f45e731
     log: revlist-6de23f81a5e0-254f49634ee1.txt
 
---===============8485980492147878592==
+--===============7000029436269947769==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher krzk@kernel.org 1777295593 +0200
-pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux-dt.git
-nonce 1777295592-c26959c1f3f385e50835a616f7b498bf9614118d
+pusher krzk@kernel.org 1777295639 +0200
+pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux-mem-ctrl.git
+nonce 1777295638-2e20b7035b9a67c582d1bcd7e093e1f5fb892f9b
 
-6de23f81a5e08be8fbf5e8d7e9febc72a5b5f27f 254f49634ee16a731174d2ae34bc50bd5f45e731 refs/heads/next/soc-drivers
+6de23f81a5e08be8fbf5e8d7e9febc72a5b5f27f 254f49634ee16a731174d2ae34bc50bd5f45e731 refs/heads/fixes
 -----BEGIN PGP SIGNATURE-----
 
-iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmnvYOkQHGtyemtAa2Vy
-bmVsLm9yZwAKCRDBN2bmhouD19d6D/97a37SJ5jF1RyjNpYJT9Wn1lkRYtsgdcaM
-BXpI19APRocH9Bos+mHg7h1NYzzHGPJPyzKC/gDg1v3ueMkDIo9C4SE33HvHJFbt
-MyGU1y+i37Ohtri+CojYYh8dpHscByWziTkrxn1oe5BLGRt+iEomeSmZNEmChNIY
-4FogpSxeuM64r11emBY8yLVvXHVgW03sZfqU1fDZ3Pvn42NjjGtAJKIUWMkeiRX3
-e1tjqD+Pf1mpKLsVarjH0hD/BxkqEHeJ11WKT6X4OfjrNTf7toWzQa6O362BVY0H
-brYMNpHqBOPR27YOymE9nwE+kJKMC/zHXlB3LsjW3sOW/n+qlv9IsKrKGWncXiBq
-mSVJZP/x/Vssg6DFRIjySuR4ZPrbte80iPmnH9ey6mGHklxnzMNZzi3QuGLDF+vK
-wIg8ZeodG9HY8pL/G5PPxz4ENqDVQAeWCJcbS6gv1IXMmkPgDmS+qDWg5Ay4X9s0
-CQw7ykzkHzt8jQA0FhyxHYON6/AAlkoiw/WNKbXkCcb4Bt5g08lyTR46jyfKjbaf
-tR3HFuqouvI5rzbpTrrf3ZuHRBBZAA0PGgHSB9r7WIOzL4CKfoUTULqjpY/je9it
-0Jmgip6ntHj7N4rLMiycVmaij7Pc7LFITkpAzX11+RZdsekYpr1tCxas/XH++jJA
-1gP3B8q4Kg==
-=3E8F
+iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmnvYRcQHGtyemtAa2Vy
+bmVsLm9yZwAKCRDBN2bmhouD12tgD/0UAPd5tjsLrRZfN3nnqmSHZtaF4BrBAtX/
+j3lZwBwPKt7qhyyYEaS4Rdexsh52ogofucDbT5alYPIOjTsHaiNG1Or8qOhPRqvQ
+xsPqzROJFlc1MpldyquXGlHiG+918YzK2w9RuyRJthxdi8PsGOS/GhhxHRZE+BAw
+IUoehqm+ciQNtQdVXObauxjiJqvOy2Rn1m4gwxa8RrkzrNAiLLZCN1VtRF6Ymenq
+/QhAdiMd2puahJusA1wrV6iObQZD9skbOY4IwU/PSPPT4umX2nLM9pzI20U82UN0
+0Cav4AuTDNXskokhfI6ULp1W/NfQzq0nDhv1W3rgYiBhUHb5Klb6tahEAOtjMLCQ
+TShL8mzZp38NoIWzMgEO9pI/Q0LrGaiQFLG/fyEUxAxxgseihcg5jGBYFhsWNmqU
+UWnx120HAYKjP4SDUf7zZNeij4YkD3UW0xfWkFIisK1g4Vl4zNhZuAiDiYV31vpj
+hdVKWI6VGe4dtxmNFSynP4/xevQD5J+4GiWfS/BdENRgaTJG77zruXIJ6Glcw7ak
+U9qPDQmG9Piw8IFWVtqF1eOQfX9qdRs/Co5h6G5anmTNywuN7hqh7EIz2c8zwa0c
+/mcGxCZyfsudfxzwt+7S3Xg+fIkzfvh12P6Fux65x9/IUBOlOIm+muGIInpEs456
+t8XbfTO2Fg==
+=0PGJ
 -----END PGP SIGNATURE-----
 
---===============8485980492147878592==
+--===============7000029436269947769==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1082,4 +1082,4 @@ b935117fe6d1af576e39b1f18c9e875f44bd146f Merge tag 'kbuild-fixes-7.1-1' of git:/
 14479877c1ec9667edb4a7c20a8d7a704e7249ca Merge tag 'clk-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/clk/linux
 254f49634ee16a731174d2ae34bc50bd5f45e731 Linux 7.1-rc1
 
---===============8485980492147878592==--
+--===============7000029436269947769==--
