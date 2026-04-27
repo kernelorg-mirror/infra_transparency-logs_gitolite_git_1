@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4254772075640221287=="
+Content-Type: multipart/mixed; boundary="===============1683699235383637111=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/pinctrl/intel
-Date: Mon, 27 Apr 2026 04:31:40 -0000
-Message-Id: <177726430022.3335482.14808834274345026213@gitolite.kernel.org>
+Date: Mon, 27 Apr 2026 04:31:46 -0000
+Message-Id: <177726430660.3335695.3324067836574894370@gitolite.kernel.org>
 
---===============4254772075640221287==
+--===============1683699235383637111==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/pinctrl/intel
 user: andy
 changes:
-  - ref: refs/heads/for-next
-    old: 1ca468e78ea97c3365befdd408f71bda4b295134
+  - ref: refs/heads/fixes
+    old: 6de23f81a5e08be8fbf5e8d7e9febc72a5b5f27f
     new: 254f49634ee16a731174d2ae34bc50bd5f45e731
-    log: revlist-1ca468e78ea9-254f49634ee1.txt
+    log: revlist-6de23f81a5e0-254f49634ee1.txt
 
---===============4254772075640221287==
+--===============1683699235383637111==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1ca468e78ea9-254f49634ee1.txt
+Content-Disposition: attachment; filename=revlist-6de23f81a5e0-254f49634ee1.txt
 
 b183b7b9b51fc37cc8e1fbad3c0d84e0cb605266 smb: smbdirect: introduce smbdirect_mr_io_fill_buffer_descriptor()
 a93b68d46e1450ca6d395be0ca002f8bdf04d9a6 smb: smbdirect: introduce smbdirect_connection_legacy_debug_proc_show()
@@ -1051,4 +1051,4 @@ b935117fe6d1af576e39b1f18c9e875f44bd146f Merge tag 'kbuild-fixes-7.1-1' of git:/
 14479877c1ec9667edb4a7c20a8d7a704e7249ca Merge tag 'clk-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/clk/linux
 254f49634ee16a731174d2ae34bc50bd5f45e731 Linux 7.1-rc1
 
---===============4254772075640221287==--
+--===============1683699235383637111==--
