@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1461724784461019494=="
+Content-Type: multipart/mixed; boundary="===============7691046246845042695=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/kwilczynski/linux
-Date: Mon, 27 Apr 2026 16:00:12 -0000
-Message-Id: <177730561268.108470.11163752086939620039@gitolite.kernel.org>
+Date: Mon, 27 Apr 2026 16:00:19 -0000
+Message-Id: <177730561935.108745.8743524329484932509@gitolite.kernel.org>
 
---===============1461724784461019494==
+--===============7691046246845042695==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,40 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/kwilczynski/linux
 user: kwilczynski
 changes:
-  - ref: refs/heads/kwilczynski/procfs-attach-device-rescan-lock
-    old: 8e8a0fe192df7081aafc81bde02835a102f4231c
-    new: e34101002767e6b9c51aa53e757c45ab255b6697
-    log: revlist-8e8a0fe192df-e34101002767.txt
+  - ref: refs/heads/kwilczynski/static-sysfs-attributes-v6
+    old: 7e2ad92d9e27fe0bd848a0b97afe7a512accc1c3
+    new: d7d5ef2593b5324c676663f793a8b1a05c997926
+    log: revlist-7e2ad92d9e27-d7d5ef2593b5.txt
 
---===============1461724784461019494==
+--===============7691046246845042695==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-8e8a0fe192df-e34101002767.txt
+Content-Disposition: attachment; filename=revlist-7e2ad92d9e27-d7d5ef2593b5.txt
 
-a93b68d46e1450ca6d395be0ca002f8bdf04d9a6 smb: smbdirect: introduce smbdirect_connection_legacy_debug_proc_show()
-09d617d3121e14309ad5e4287b0da3ec27d386a8 smb: smbdirect: introduce smbdirect_connection_wait_for_connected()
-dc24063813ea617394db153cf9203286770ed404 smb: smbdirect: introduce smbdirect_connection_is_connected()
-b3e78c651441eaf08e830e260d06fd8d33a8b7f9 smb: smbdirect: introduce smbdirect_socket_shutdown()
-dce268ffcddc96f29707c1967c52b036ad92e43d smb: smbdirect: introduce smbdirect_socket_init_{new,accepting}() and helpers
-ede2b44b0e62378cb8585dda20a4edadbc621bb0 smb: smbdirect: let smbdirect_socket_set_initial_parameters() call rdma_restrict_node_type()
-d1f187656797fc7434388c1795e05f8abe370d46 smb: smbdirect: introduce smbdirect_connect[_sync]()
-eb3ed1e9048cf7b2a38112f48e0f1b772bb7860d smb: smbdirect: introduce smbdirect_accept_connect_request()
-20cd3cc4420bdb9f63644cd140e2682f634e651e smb: smbdirect: introduce smbdirect_socket_create_{kern,accepting}() and smbdirect_socket_release()
-b1e6277bd1240c3a66aac537b1b43b4bfd2edcd8 smb: smbdirect: let smbdirect_socket.h include all headers for used structures
-5e4bf7fadd4a608cace7604b720483f051f8176f smb: smbdirect: let smbdirect_internal.h define pr_fmt without SMBDIRECT_USE_INLINE_C_FILES
-b2261ceedd4a4831957732ebae5ad33bf5c7fc80 smb: smbdirect: introduce smbdirect_public.h with prototypes
-89df0942907894a92dbece12bfa35e1647959b0c smb: smbdirect: provide explicit prototypes for cross .c file functions
-4c9e665cb1132b92812886d08ec784132eb66caf smb: smbdirect: introduce smbdirect_init_send_batch_storage()
-84df3cde16090d5d1de4df31623ef0433fdea041 smb: smbdirect: split out smbdirect_accept_negotiate_finish()
-03f9e2c15f8fa32b8056a3a59f98f652726f78b8 smb: smbdirect: introduce smbdirect_socket_bind()
-dc691b91ad1677def14582a279e56fd943b52f94 smb: smbdirect: introduce smbdirect_socket_{listen,accept}()
-f9a804da479cc41172f1039b4ffde06a09920506 smb: smbdirect: introduce the basic smbdirect.ko
-dd43c2227394472aa6e438ddffc2f58028de7531 smb: client: make use of smbdirect_socket_prepare_create()
-2459505596f57664f61a1be9b50065ebed9da660 smb: client: make use of smbdirect_socket_set_logging()
-5f6e338bbb78787933ffcf87959178c4f0a08757 smb: client: make use of smbdirect_socket_wake_up_all()
-872b23ab6d9495e5504ac0a43e9ec977e750052a smb: client: make use of smbdirect_socket_cleanup_work()
-43e1fed89e40346578a2f94ae0a87dfa05987fa5 smb: client: make use of smbdirect_socket_schedule_cleanup()
 927183cdbe4897f9a4bc0f64201fb0f192722d35 smb: client: make use of smbdirect_connection_{get,put}_recv_io()
 018ed87aa5ddc42f4437f6f9df4386e8e18e481d smb: client: make use of smbdirect_connection_reassembly_{append,first}_recv_io()
 c85814ca5f3d22f08f3513a6eb91162392f4fe4b smb: client: make use of smbdirect_connection_idle_timer_work()
@@ -1049,6 +1026,29 @@ b935117fe6d1af576e39b1f18c9e875f44bd146f Merge tag 'kbuild-fixes-7.1-1' of git:/
 20b64cf8705a0f6268bb9a320eb6b4c425f3ec6c Merge tag 'tsm-for-7.1' of git://git.kernel.org/pub/scm/linux/kernel/git/devsec/tsm
 14479877c1ec9667edb4a7c20a8d7a704e7249ca Merge tag 'clk-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/clk/linux
 254f49634ee16a731174d2ae34bc50bd5f45e731 Linux 7.1-rc1
-e34101002767e6b9c51aa53e757c45ab255b6697 PCI/proc: Fix race between pci_proc_init() and pci_bus_add_device()
+142bc0c14ab0dd3dbc77b9cf480e67b6f1f4ac49 PCI/sysfs: Use PCI resource accessor macros
+2956ea026f26ddf7d1b0c69d3ddf13e3b7a143cb PCI: Add pci_resource_is_io() and pci_resource_is_mem() helpers
+43ead2efe963e11b53934cd5b18e70826cba561b PCI/sysfs: Only allow supported resource types in I/O and MMIO helpers
+f1dd5394d824f1acd6e1886fee9b1ba514681b8e PCI/sysfs: Use BAR length in pci_llseek_resource() when attr->size is zero
+6b653b27fa836cc50d80bbbb1630d9f8a08ed0aa PCI/sysfs: Add CAP_SYS_ADMIN check to __resource_resize_store()
+58bf4973dd7126248373391a664aa63e8f691ab5 PCI/sysfs: Add static PCI resource attribute macros
+cc7c3c4449634d2a9d1051c5352ae52abc5418b5 PCI/sysfs: Convert PCI resource files to static attributes
+ec8a6a0ae7f82273f4940c209bcc0943f2f18716 PCI/sysfs: Warn about BAR resize failure in __resource_resize_store()
+cdc9c4ed0012cccb6dc2af1f4baaa69bf5d5f39c PCI/sysfs: Add stubs for pci_{create,remove}_sysfs_dev_files()
+4ce7ac1e8df9f7e93f5e868d612d666415160e00 PCI/sysfs: Limit pci_sysfs_init() late_initcall compile scope
+f80851ca7f55f3af9828282b72b09f1aac6c2061 alpha/PCI: Add security_locked_down() check to pci_mmap_resource()
+3ac39f91007125111fc97350cc8c659e91f226dd alpha/PCI: Use BAR index in sysfs attr->private instead of resource pointer
+30502aa10b84281dd7498727e59de7a2c5b801fd alpha/PCI: Use PCI resource accessor macros
+023e179737f2ff98d25fc336d1216c824570b2ef alpha/PCI: Fix __pci_mmap_fits() overflow for zero-length BARs
+a833daf8471d5ebbca0e629d0717f26228e0551f alpha/PCI: Remove WARN from __pci_mmap_fits()
+213482f40d1bcf4f708d41ebec36f0f21826c171 alpha/PCI: Add static PCI resource attribute macros
+922f4786b65145b951d2ae046cab9496dbaff11b alpha/PCI: Convert resource files to static attributes
+183009a076ec1c20f3693bfdff27fdf3320be3e5 PCI/sysfs: Remove pci_{create,remove}_sysfs_dev_files()
+d810a632d7c9c3aa4ce0ee43fbcafbb15d625509 PCI: Add macros for legacy I/O and memory address space sizes
+78dd3aa28c0ae143e1ad730202c6dd35fdc8b1cd alpha/PCI: Compute legacy size in pci_mmap_legacy_page_range()
+27b757b14e0d502e7d29ef4360a2563cbc4b7cdf PCI/sysfs: Add __weak pci_legacy_has_sparse() helper
+4e25046db675c64ce1ad87d40f9c2b01f2e804cf PCI/sysfs: Convert legacy I/O and memory attributes to static definitions
+5fa23b19cdb5041f70b838e0017a34462b5c4594 PCI/sysfs: Remove pci_create_legacy_files() and pci_sysfs_init()
+d7d5ef2593b5324c676663f793a8b1a05c997926 PCI/sysfs: Limit BAR resize attribute scope to platforms with PCI mmap
 
---===============1461724784461019494==--
+--===============7691046246845042695==--
