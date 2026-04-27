@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4959569903087651739=="
+Content-Type: multipart/mixed; boundary="===============6889127845270653267=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
-Date: Mon, 27 Apr 2026 04:33:49 -0000
-Message-Id: <177726442992.3338838.7714312867792942462@gitolite.kernel.org>
+Date: Mon, 27 Apr 2026 04:33:55 -0000
+Message-Id: <177726443566.3339051.11740744664825936089@gitolite.kernel.org>
 
---===============4959569903087651739==
+--===============6889127845270653267==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/pdx86/platform-drivers-x86
 user: andy
 changes:
-  - ref: refs/heads/fixes
+  - ref: refs/heads/for-next
     old: da6b5aae84beb0917ecb0c9fbc71169d145397ff
     new: 254f49634ee16a731174d2ae34bc50bd5f45e731
     log: revlist-da6b5aae84be-254f49634ee1.txt
 
---===============4959569903087651739==
+--===============6889127845270653267==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ b935117fe6d1af576e39b1f18c9e875f44bd146f Merge tag 'kbuild-fixes-7.1-1' of git:/
 14479877c1ec9667edb4a7c20a8d7a704e7249ca Merge tag 'clk-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/clk/linux
 254f49634ee16a731174d2ae34bc50bd5f45e731 Linux 7.1-rc1
 
---===============4959569903087651739==--
+--===============6889127845270653267==--
