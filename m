@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1288237553127529475=="
+Content-Type: multipart/mixed; boundary="===============6687004325808934820=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/cel/linux
-Date: Mon, 27 Apr 2026 00:59:21 -0000
-Message-Id: <177725156193.3043075.6046370549744713041@gitolite.kernel.org>
+Date: Mon, 27 Apr 2026 01:00:40 -0000
+Message-Id: <177725164064.3049475.3619835115261574580@gitolite.kernel.org>
 
---===============1288237553127529475==
+--===============6687004325808934820==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,41 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/cel/linux
 user: cel
 changes:
-  - ref: refs/heads/nfsd-next
-    old: 5a116edf6be714e9f1bffde7cddbb9a614a808e6
-    new: f44763f1668f9441d47cdede383416784ef84067
-    log: revlist-5a116edf6be7-f44763f1668f.txt
+  - ref: refs/heads/nfsd-testing
+    old: 1bd2f0a2e84aa68ada4a4200d74840934484f92e
+    new: d56bbad4e919e5d2cd6ec3ac46ee051c49dab0aa
+    log: revlist-1bd2f0a2e84a-d56bbad4e919.txt
 
---===============1288237553127529475==
+--===============6687004325808934820==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5a116edf6be7-f44763f1668f.txt
+Content-Disposition: attachment; filename=revlist-1bd2f0a2e84a-d56bbad4e919.txt
 
-b5218a9897f5c381f513ea906a65655977a9c1b3 comedi: pcl730: Add sanity checks for I/O base address
-c24543463720ae8eb3aa1b35ff957fc96870cb94 comedi: pcl812: Add sanity checks for I/O base address
-55e39df167cbeaedc5744ba595514b7745454948 comedi: pcl816: Add sanity checks for I/O base address
-aaddeab27c324f2885f5b2ca9f64f6ebd60df688 comedi: pcl818: Add sanity checks for I/O base address
-ddd5b28744322f9434ab71661a1280f5069983fd comedi: pcm3724: Add sanity checks for I/O base address
-0ca9f8150ce5a41a3b4bb65f043f0335e7ef67b5 comedi: pcmad: Add sanity checks for I/O base address
-c375d40dc77c449ded79675b6ae00d82e67559bd comedi: pcmda12: Add sanity checks for I/O base address
-78ba300a999179d79f4b8f479e58345c05e17baa comedi: pcmmio: Add sanity checks for I/O base address
-3d4ab5484aa249f4950eba7f697cff6b3f024c7c comedi: pcmuio: Add sanity checks for I/O base address
-e2b311504acd03b5e720c763fcd41ccd928de3b3 comedi: rti800: Add sanity checks for I/O base address
-63c1983136d784d95054accd31d03006f518e71f comedi: rti802: Add sanity checks for I/O base address
-ae377d6afbd5618500edf0954edfc15aa28b162c comedi: s526: Add sanity checks for I/O base address
-b5720dabb04263c8fffc24983023a4e1f384049f comedi: Correct name of ACCES I/O Products
-b06e78190f6fa58a4b53651aa6e4f8dfaec7bdd9 comedi: remove unnecessary module_init/exit functions
-6c561848ee5246f083770aaf39b2666f940d60dd comedi: isadma: use kzalloc_flex
-41837c1deaa1c5f4adc02ecbd77fe6e3adb7150c comedi: ni_usb6501: refactor endpoint lookup
-8ca3d3b1c3383f5f23efe01c3fd9113ed06007bd greybus: svc: use kzalloc_flex
-cbc96a916b1a3be7039b0166c0fc56ec1632ba01 greybus: beagleplay: bound bootloader RX buffer copy
-6597a08dbd825fadf0da2e2552358dd95776c8dd greybus: es2: drop redundant device reference
-6b526dca0966f2370835765019a54319b78fca8d greybus: gb-beagleplay: fix sleep in atomic context in hdlc_tx_frames()
-58fa2357f5b5eb3a394571dd2fee6c6a1db242c3 greybus: gb-beagleplay: propagate hdlc_tx_frames() errors to callers
-21a8995cdbc7de4a57215a57095003d0e08ca1a3 dt-bindings: misc: qcom,fastrpc: Add compatible for Glymur
-1214bf28965ceaf584fb20d357731264dd2e10e1 greybus: gb-beagleplay: bound bootloader receive buffering
-58b140a67ae197b7cee4c768a05bc056dae74f36 dt-bindings: nvmem: qfprom: Add Kaanapali compatible
 4e012d4cb6d5bac43fc3e188b02dda42384ea89e nvmem: qnap-mcu-eeprom: Fix struct assignments using commas instead of semicolons
 63aad6176d644c733d77f390b87fafd4839e056b dt-bindings: nvmem: sl28cpld: Drop sa67mcu compatible
 18cd01d24fb21fc601f9f9102d28379630db716d dt-bindings: nvmem: rockchip,otp: Add support for RK3562 and RK3568
@@ -1050,5 +1026,29 @@ e118d2e5ff65b92f95505f1de6a0848475ff11e2 nfsd: add netlink upcall for the nfsd.f
 4031d020589eaab4aa471b7274f7de56ebd29ac8 sunrpc: add SUNRPC_CMD_CACHE_FLUSH netlink command
 c093135c0ffcf31dc99603cc9888e4b33f7fbef8 nfsd: add NFSD_CMD_CACHE_FLUSH netlink command
 f44763f1668f9441d47cdede383416784ef84067 NFSD: Put cache get-reqs dump attrs under reply
+6357e26c99332a8d28278e90fd4a451497c67d1f NFSD: Update my maintainer email addresses
+2bd8ca177f87e0239db94889abd42822fd42a228 nfsd/blocklayout: always ignore loca_time_modify
+13e6623c8783791da29ef36c6f71434cc533fd1b exportfs: split out the ops for layout-based block device access
+a17e6a9137b02606e3f137195b566f083092ac39 exportfs: don't pass struct iattr to ->commit_blocks
+d65489ea06e4b7141349fa2db9e9e2bc4af5d799 exportfs,nfsd: rework checking for layout-based block device access support
+38dc2d5597c27d6f90f65fb2d04602df226d1ed1 nfsd: fix GET_DIR_DELEGATION when VFS leases are disabled
+394343334a894cba36332a07ace1747e47168120 nfsd: fix file change detection in CB_GETATTR
+f286d34279869fa2a7c5d06035a7c0246704b25e nfsd: update mtime/ctime on CLONE in presense of delegated attributes
+388c4146c9d91dfe9564787ff39b2af10598172d nfsd: update mtime/ctime on COPY in presence of delegated attributes
+c635c217bfaf934731006890359e527534806841 sunrpc: start cache request seqno at 1 to fix netlink GET_REQS
+fafa834030238cfa7aa5a4c672f82ee1a3513d38 NFSD: Fix infinite loop in layout state revocation
+41bff71a234a5f50b857555938e22c165eb8d8e5 NFSD: Handle layout stid in nfsd4_drop_revoked_stid()
+b845f38acc9ef73d5b3da20384f1884424a2fbbc NFSD: Extract revoke_one_stid() utility function
+50320015a8de2befa306837f2b7048e01d310058 NFSD: Add NFSD_CMD_UNLOCK_IP netlink command
+62824f5d4e5e866ab73689ec2127cb38b6c18107 NFSD: Add NFSD_CMD_UNLOCK_FILESYSTEM netlink command
+d6bd3da005fc040af1764fac02378e1c94e27df4 NFSD: Replace idr_for_each_entry_ul in find_one_sb_stid()
+6d219798937548904700aa7eafcde19da32ade5c NFSD: Track svc_export in nfs4_stid
+cc4ccf39889b21ecec2fa851e70151837989d6eb NFSD: Add NFSD_CMD_UNLOCK_EXPORT netlink command
+a520546a86c4be9afc650f10c675523225231edc NFSD: Close cached file handles when revoking export state
+2260f65b24729159ded893f96d9814d0bdfea041 NFSD: Increase the default max_block_size to 4MB
+94e8e757a711ac79c6978157af9378b572bc262b sunrpc: prevent out-of-bounds read in __cache_seq_start()
+e0048c6971dd7ae123c3c549551459dc9d989d48 NFSD: Report whether fh_key was actually updated
+ab34a08b8d2f1798503e592d146e767a96a77d66 [DEBUG] Add instrumentation for nfsd_mutex contention debugging
+d56bbad4e919e5d2cd6ec3ac46ee051c49dab0aa siw: Enable try_gso
 
---===============1288237553127529475==--
+--===============6687004325808934820==--
