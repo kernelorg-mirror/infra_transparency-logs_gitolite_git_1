@@ -1,32 +1,31 @@
-Content-Type: multipart/mixed; boundary="===============1679675877477788760=="
+Content-Type: multipart/mixed; boundary="===============4467433546989625717=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/liveupdate/linux
-Date: Mon, 27 Apr 2026 16:13:15 -0000
-Message-Id: <177730639549.121269.4259899338193471276@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/efi/efi
+Date: Mon, 27 Apr 2026 16:13:43 -0000
+Message-Id: <177730642386.121653.8105452912126667482@gitolite.kernel.org>
 
---===============1679675877477788760==
+--===============4467433546989625717==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/liveupdate/linux
-user: rppt
+repo: pub/scm/linux/kernel/git/efi/efi
+user: ardb
 changes:
-  - ref: refs/heads/next
-    old: 028ef9c96e96197026887c0f092424679298aae8
-    new: eee13213401bafb7ffe3b447adffb1f570b9d813
-    log: revlist-028ef9c96e96-eee13213401b.txt
+  - ref: refs/heads/urgent
+    old: 5241c2ca33bb181bf7abb7cb4bba1cc67d1b6278
+    new: 4db2b7fdd6c9b8ed84dce9788da48796adc5f513
+    log: revlist-5241c2ca33bb-4db2b7fdd6c9.txt
 
---===============1679675877477788760==
+--===============4467433546989625717==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-028ef9c96e96-eee13213401b.txt
+Content-Disposition: attachment; filename=revlist-5241c2ca33bb-4db2b7fdd6c9.txt
 
-dc24063813ea617394db153cf9203286770ed404 smb: smbdirect: introduce smbdirect_connection_is_connected()
 b3e78c651441eaf08e830e260d06fd8d33a8b7f9 smb: smbdirect: introduce smbdirect_socket_shutdown()
 dce268ffcddc96f29707c1967c52b036ad92e43d smb: smbdirect: introduce smbdirect_socket_init_{new,accepting}() and helpers
 ede2b44b0e62378cb8585dda20a4edadbc621bb0 smb: smbdirect: let smbdirect_socket_set_initial_parameters() call rdma_restrict_node_type()
@@ -1047,8 +1046,9 @@ b935117fe6d1af576e39b1f18c9e875f44bd146f Merge tag 'kbuild-fixes-7.1-1' of git:/
 20b64cf8705a0f6268bb9a320eb6b4c425f3ec6c Merge tag 'tsm-for-7.1' of git://git.kernel.org/pub/scm/linux/kernel/git/devsec/tsm
 14479877c1ec9667edb4a7c20a8d7a704e7249ca Merge tag 'clk-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/clk/linux
 254f49634ee16a731174d2ae34bc50bd5f45e731 Linux 7.1-rc1
-fe60961059eee7a3a303454c827bb347c45612c1 kho: fix deferred initialization of scratch areas
-d4835433f4f6b5d618955a6a6eeb3e9f8b2b725e kho: make preserved pages compatible with deferred struct page init
-eee13213401bafb7ffe3b447adffb1f570b9d813 selftests: kho: test with deferred struct page init
+9c7c5eec5bcae9123423f9b6b601182de382eeac efivarfs: use QSTR() in efivarfs_alloc_dentry
+e22d54fa095e77f550c4cb012f53fd0e38e1122b efi: pstore: Drop efivar lock when efi_pstore_open() returns with an error
+311c5a55eff5991e2075108cf8d49443bbe867f9 efi/loongarch: Implement efi_cache_sync_image()
+4db2b7fdd6c9b8ed84dce9788da48796adc5f513 efi/libstub: Synchronize instruction cache after kernel relocation
 
---===============1679675877477788760==--
+--===============4467433546989625717==--
