@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8344981527826460061=="
+Content-Type: multipart/mixed; boundary="===============0329470836150970373=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mkp/scsi
-Date: Mon, 27 Apr 2026 01:46:55 -0000
-Message-Id: <177725441533.3118796.13237015013037915446@gitolite.kernel.org>
+Date: Mon, 27 Apr 2026 01:47:22 -0000
+Message-Id: <177725444298.3119475.10538119757683532605@gitolite.kernel.org>
 
---===============8344981527826460061==
+--===============0329470836150970373==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,55 @@ repo: pub/scm/linux/kernel/git/mkp/scsi
 user: mkp
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/fixes
-    old: 01f784fc9d0ab2a6dac45ee443620e517cb2a19b
-    new: 98f69975d4c0434ca2e6e8cfa1d8d51647a20593
-    log: revlist-01f784fc9d0a-98f69975d4c0.txt
+  - ref: refs/tags/mkp-scsi-queue
+    old: 1a97611445489cdcb8bd099a49a8a74c5810a9c1
+    new: ba3fbba1d40c71bd805a98d36f744e8709cb5f53
+    log: revlist-1a9761144548-ba3fbba1d40c.txt
 
---===============8344981527826460061==
+--===============0329470836150970373==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 75C5DE3D 1777254413 -0400
+pusher 75C5DE3D 1777254419 -0400
 pushee ra.kernel.org:/pub/scm/linux/kernel/git/mkp/scsi.git
-nonce 1777254409-d9dfdb6ec56dd23ccbd08904a1bcb873c962ec02
+nonce 1777254419-4fdc199ca72d31ab272ffb3840c62f74168bb7e7
 
-01f784fc9d0ab2a6dac45ee443620e517cb2a19b 98f69975d4c0434ca2e6e8cfa1d8d51647a20593 refs/heads/fixes
+1a97611445489cdcb8bd099a49a8a74c5810a9c1 ba3fbba1d40c71bd805a98d36f744e8709cb5f53 refs/tags/mkp-scsi-queue
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmnuwA0ACgkQ7ulgGnXF
-3j3q2g//cIa++t7k9f1LILFX9uxTeQnQUM7eHrMq8RYyADGeDZBGm5fNQNzqmCV7
-9pGyBuvLv/hS5+EwINWbIhODdSusrCK1mOkGXGO/KtMoHksYy4noGw8Dcdzk8U3M
-rhpiP8/60PM15jCA9Ln6+9ui6aKwO7P1tSpXgARqf6tizY9FvfBdE1YgiwCm9Ifc
-raQyV1sNTnmLYWRRx4xC+7/uHJ66N1gmQqgSPw/cj/HX+svxRABiySJyCanWel4W
-x9SvqSWFt2GkFVam/OrJngroL++M/HyEnbIr/OT1zLu6EC12kV9f4CCH9tTFucyZ
-Nv18narzkJ/gm5wpJUaxLZWo9l4SiT69d2bp48UECoiTzaiUHVuZAYooquCr/WX9
-w8ci/9ZnOvZM4DaZMVGWYYREGQ33wxm/YApY5CzPidHVyRTIvPu8BJVPuuHKF3mk
-J0uHG7LD43zBOYW0Syvj1P38gUhPXx+rwx+sC+39NuM/IGxQK23s+UeoW7S+Y7Wh
-sytypHPRYWWDqPw50IZbXE0U9wHVzL27npMKqvt1TFnYRJTLmaLART7kYC4ONwgw
-glu0Dysl7NxunPyt0F3fZn72XtO6v+nqHQkAts8Qt5IfsvfgjDC8Zm6QDN3A8AYj
-cZcKZgi9csBMsY2dF0UMctKwV70Da2IW4dLDjO8MYm0eor6G02c=
-=mq8m
+iQIzBAABCAAdFiEEZOpW2gUwxXeCmhkh7ulgGnXF3j0FAmnuwBMACgkQ7ulgGnXF
+3j1NZRAAnKEsTU0wHiXMUkE4GZN/Cy8tEpxwfnGsEXW4dZ+vCrSW/oxaBaPDMrGv
+zeeUP0llyU9vKGhfRBwYnr97/T2uDjkh0aPv6LpRcmo3fX1AnFyutc754kcVaul5
+oC37T8y1Vjdv9bFy/T6BPgd6zoE40TOvSU1Z1yopUzCFL+geET3XeRd+PS9HH/pk
+QuqYQmjiGfp5qlKGu5PSVUIZNmmZ17u1JW3LodVwXh7hKqqeAFXS+xQ+e3wCujwv
+nCUCdVv6UIkD1q24t2b8pHU3U41PhpzMZ9NDyvK1IX2a7or29JGXCl+iFrb5Q86H
+uIaESZfHX4AOQhOSh5W2y3qzQRxcLEmNVsmc4U4SA7q3a3xLY1LOJDvWihupwYlD
+S4Owsrc5p4faNj2YAqI/yOoAluZxFWzu2B3qiSfiMBr8XVyNyGPqWu+lmvo26n+l
+Nat5NJ/9BJ7lJptfDFinr4wJPCsVgrswVA9a8o/cQAg/8SXRAQhwYdYBUcYQgX8w
+TX6gHtkYkKMtyBZzxXvYA6/G4uEvJ6xt/2yD/mlI3ahVOeE50Y1gdoPLkAPSEe4B
+gfR/32UVlZ91kt7hDMnmMq2joPkHYFIHLF/GYQTqkJ4vb36oIk4zW7QOQTwhoE9n
+CFh3eQl/iVihqq0p/ZQ/MCnWC8Oh1ApGg14KlzH+AvajlXYAh14=
+=JEhj
 -----END PGP SIGNATURE-----
 
---===============8344981527826460061==
+--===============0329470836150970373==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-01f784fc9d0a-98f69975d4c0.txt
+Content-Disposition: attachment; filename=revlist-1a9761144548-ba3fbba1d40c.txt
 
+b183b7b9b51fc37cc8e1fbad3c0d84e0cb605266 smb: smbdirect: introduce smbdirect_mr_io_fill_buffer_descriptor()
+a93b68d46e1450ca6d395be0ca002f8bdf04d9a6 smb: smbdirect: introduce smbdirect_connection_legacy_debug_proc_show()
+09d617d3121e14309ad5e4287b0da3ec27d386a8 smb: smbdirect: introduce smbdirect_connection_wait_for_connected()
+dc24063813ea617394db153cf9203286770ed404 smb: smbdirect: introduce smbdirect_connection_is_connected()
+b3e78c651441eaf08e830e260d06fd8d33a8b7f9 smb: smbdirect: introduce smbdirect_socket_shutdown()
+dce268ffcddc96f29707c1967c52b036ad92e43d smb: smbdirect: introduce smbdirect_socket_init_{new,accepting}() and helpers
+ede2b44b0e62378cb8585dda20a4edadbc621bb0 smb: smbdirect: let smbdirect_socket_set_initial_parameters() call rdma_restrict_node_type()
+d1f187656797fc7434388c1795e05f8abe370d46 smb: smbdirect: introduce smbdirect_connect[_sync]()
+eb3ed1e9048cf7b2a38112f48e0f1b772bb7860d smb: smbdirect: introduce smbdirect_accept_connect_request()
 20cd3cc4420bdb9f63644cd140e2682f634e651e smb: smbdirect: introduce smbdirect_socket_create_{kern,accepting}() and smbdirect_socket_release()
 b1e6277bd1240c3a66aac537b1b43b4bfd2edcd8 smb: smbdirect: let smbdirect_socket.h include all headers for used structures
 5e4bf7fadd4a608cace7604b720483f051f8176f smb: smbdirect: let smbdirect_internal.h define pr_fmt without SMBDIRECT_USE_INLINE_C_FILES
@@ -678,12 +687,6 @@ ce9e93383ad71da468dafb9944a539808bf91c06 Merge tag 'sh-for-v7.1-tag1' of git://g
 13f24586a292e35c9cc71e649dc4e4ea1895c5e5 Merge tag 'arm64-upstream' of git://git.kernel.org/pub/scm/linux/kernel/git/arm64/linux
 f154634e42f724a3444694273e396f0a62fef3f1 Merge tag 'linux_kselftest-next-7.1-next-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/shuah/linux-kselftest
 b4e07588e743c989499ca24d49e752c074924a9a tracing: tell git to ignore the generated 'undefsyms_base.c' file
-7b03c93d2beb91c6abae322a1f25447b5b3bb9e6 scsi: sg: Don't use GFP_ATOMIC in sg_start_req()
-04631f55afc543d5431a2bdee7f6cc0f2c0debe7 scsi: mpt3sas: Limit NVMe request size to 2 MiB
-d65efdf467ff935e35dfe6aa9a7ab93f17ac07ee scsi: smartpqi: Silence a recursive lock warning
-68c3a65a5a8e85643745fdde02cb63904e165620 scsi: scsi_dh_alua: Increase default ALUA timeout to maximum spec value
-1dc39ed655750d6c679d3ada4adf4a937f2a63fc scsi: pmcraid: Fix typo in comments
-47e66bec3edaebd7c52d8ee981065a4c83b3072f scsi: hisi_sas: Fix sparse warnings in prep_ata_v3_hw()
 e76607442d5b73e1ba6768f501ef815bb58c2c0e slip: reject VJ receive packets on instances with no rstate array
 cb78517e60cf4829c7ddaae6a21a8bdf8c9da0e4 ALSA: hda/realtek: Add LED fixup for HP EliteBook 6 G2a Laptops
 12c1c672d46dba62bad1293977780c98e29315b4 ALSA: usb-audio/line6: Add support for POD HD PRO
@@ -783,8 +786,6 @@ b1137e0b3d4bad1cad73fa9bac763c74ddd1813d ceph: add subvolume metrics collection 
 132001e9f90e577d002e0ba613205340c579921f selftests/ftrace: Add a testcase for fprobe events on module
 453553e1ed53ca364454e155ba33e110d02c75cd selftests/ftrace: Add a testcase for multiple fprobe events
 6596a02b207886e9e00bb0161c7fd59fea53c081 Merge tag 'drm-next-2026-04-22' of https://gitlab.freedesktop.org/drm/kernel
-b06cf63d83d3b3744d3aefdd2f3ced25e99d7ec1 scsi: ufs: core: Fix bRefClkFreq write failure in HS-LSS mode
-2f3835771dff512750205aa5f5f61aec0f2b8cb7 scsi: target: iscsi: reject invalid size Extended CDB AHS
 0389aa700912ad14c43b8cfbabd707dfce22de6a Merge tag 'amd-drm-next-7.1-2026-04-17' of https://gitlab.freedesktop.org/agd5f/linux into drm-next
 1967f0b1cafdde37aa9e08e6021c14bcc484b7a5 io_uring/poll: ensure EPOLL_ONESHOT is propagated for EPOLL_URING_WAKE
 beaba8bfbb91e3bb3133eacacd62fd6fea515e34 Merge tag 'probes-v7.1-2' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
@@ -1079,6 +1080,5 @@ b935117fe6d1af576e39b1f18c9e875f44bd146f Merge tag 'kbuild-fixes-7.1-1' of git:/
 20b64cf8705a0f6268bb9a320eb6b4c425f3ec6c Merge tag 'tsm-for-7.1' of git://git.kernel.org/pub/scm/linux/kernel/git/devsec/tsm
 14479877c1ec9667edb4a7c20a8d7a704e7249ca Merge tag 'clk-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/clk/linux
 254f49634ee16a731174d2ae34bc50bd5f45e731 Linux 7.1-rc1
-98f69975d4c0434ca2e6e8cfa1d8d51647a20593 Merge branch '7.1/scsi-queue' into 7.1/scsi-fixes
 
---===============8344981527826460061==--
+--===============0329470836150970373==--
