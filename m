@@ -1,57 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============3929860164310908584=="
+Content-Type: multipart/mixed; boundary="===============1801712737467287870=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
-Date: Mon, 27 Apr 2026 13:58:12 -0000
-Message-Id: <177729829285.4054005.6058214052070025653@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/security/vulns
+Date: Mon, 27 Apr 2026 13:58:27 -0000
+Message-Id: <177729830785.4054367.16570916871788200467@gitolite.kernel.org>
 
---===============3929860164310908584==
+--===============1801712737467287870==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/linux
+repo: pub/scm/linux/security/vulns
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/notes/signatures/tar
-    old: 27b6d2c4012c87663be007035d76f67b960060ac
-    new: 677c49ee6c60be8781539514fb87159490f2a357
+  - ref: refs/heads/master
+    old: 40295bf46fee8581c16632a74114b761acd2207a
+    new: 88c2c9ef21e3cc471c5a6b11a86bb9b771b8afbb
     log: |
-         8c66756d3c034dff01772076214be0c5ff2bc4d6 Notes removed by 'git notes remove'
-         677c49ee6c60be8781539514fb87159490f2a357 Notes added by 'git notes add'
+         88c2c9ef21e3cc471c5a6b11a86bb9b771b8afbb updates based on new stable releases
          
 
---===============3929860164310908584==
+--===============1801712737467287870==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1777298258 -0600
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
-nonce 1777298291-ea007778cd2f133cf64587835107915ea15d8ae7
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1777298273 -0600
+pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
+nonce 1777298307-1517fbc6376a9beb4207317b0af98c50e7843f19
 
-27b6d2c4012c87663be007035d76f67b960060ac 677c49ee6c60be8781539514fb87159490f2a357 refs/notes/signatures/tar
+40295bf46fee8581c16632a74114b761acd2207a 88c2c9ef21e3cc471c5a6b11a86bb9b771b8afbb refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmnva1IbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+tjYQAK8VdXh6LKbu4DcSlHW9
-sqNcXaRpn1L+nekfeJLQ4c6fgQQd0UtQqnqDvDrJDT0dKhnGwg5dP3B3PHU39toU
-/Zto949NL7gmBlMtAWMT/jgds5szjKfxojGEsxhpRlqYmZKHQ9cNP5OfIsEUVWcT
-gPGf9HV/pF2pK3qM5/gVwxDRWavdW7i3LwIqj8BEsvn8VWAd3owV9MiytEE3MFAg
-UvXob4ekkfESKiybfVGKPixkjRhXjYc6rPvOBmUQ+CpMvK+jCmZgZBbMd984uta6
-wjM5myjhX4YMTONYHWW72mEF65CThJiyVOIe7fcazOH5tXdNmy02Wq8WE6Wlzgqj
-PdaT0xr9M9S+SdYtmyTaHywW2bFFOj6H86skgdzgnvy0jVKMCuCJnn0a1WC6Edt1
-2rGPKXE1NW+L7iTagZ2X1tRpk8uHUPbyP7qVoUy8u1REDAEr5P0JOi8SNsvyDWmn
-wU7W7HG0Hv772oeKskmTHH0wZyR+BJ62Gq+geQFJZTeLPDPODX/1Qxpv8GU211JB
-55DF8yLyDCORoUoiQp3miX9sjE2rjM7il/8tFi2NB9QPi5gbUXzsP4tmdaJ1T6F9
-d/kLGbwMSZSzEx8ji3bTGaVoq6juBhKX+rWwsaG+FtqQRuvAxVAZR2Y3RvP7E+B0
-DxxCjsqw3PrxugSAGVAUFrYS
-=gQfU
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmnva2EbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+qUEP/0otooz8oTuUXwsZXfbr
+/8vOzDcHWJHPBubtx5V0r1goZIyAndJmCYf2+gu+nbYxAfjMxhAxePagZIWO57le
+2GkFGG0n+Pv7YZr2HCCIVZcR8Ls+TQ0ATYYUEIjyOlLKB5rMPjz7VPgTyZuFHGO4
+KaaEZkAMhriXgXrpss2pT8sd9hpwy96OEIyKjQgtT+76HthR6XaDawXyq8iAQocd
+7Xi8xslz2ExpaatDVj3LFfBVIyxjAEa6OE22j2zvK2mNxcNVTwdB+GSYHjDPzZpN
+nJqEPTJTpTipxfufKlJSa8OJVjWr84k0R71TYJwrVjWZhEoyw4uhW4DvRapuzUV/
+HWoEFVpw7RkbVz3WLpUZtRLIHcJoEmg8LcCVUGgmoxoQnBEYEmxnGYrcWArTMRuI
+hWEVcCY1OqL9AV0keCSPyPCs1Du9jQVoQfYMiwm2x6qSTkxlNiPisu2hFhsgxEcV
+8z8d5n1oO9pxwbObLrWBH2j8U+Aw4QXIbHgLE+LsPJZDCMvtslPkCIn9RPLtrRud
+15BzdikMDT/6Uzpfr7TeeT1H+mWgZgFWftM+5mMWDaZOCUoV7ND/vGM1+9e3Q1Vy
+MA8StW4U7tIRTiEsAJOuJVrbUV3X28AYFG04bigsc7BYcbGB926MV7ceREJ278cb
+LauWL1aaRzhtOHqfY3gIB6oP
+=ksj6
 -----END PGP SIGNATURE-----
 
---===============3929860164310908584==--
+--===============1801712737467287870==--
