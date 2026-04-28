@@ -1,31 +1,33 @@
-Content-Type: multipart/mixed; boundary="===============1737315659858081599=="
+Content-Type: multipart/mixed; boundary="===============1104673017979158331=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/liveupdate/linux
-Date: Tue, 28 Apr 2026 12:33:53 -0000
-Message-Id: <177737963313.1379900.2231418532537037416@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs
+Date: Tue, 28 Apr 2026 12:38:16 -0000
+Message-Id: <177737989634.1384779.4013668431877523233@gitolite.kernel.org>
 
---===============1737315659858081599==
+--===============1104673017979158331==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/liveupdate/linux
-user: pratyush
+repo: pub/scm/linux/kernel/git/xiang/erofs
+user: xiang
 changes:
   - ref: refs/heads/fixes
-    old: 028ef9c96e96197026887c0f092424679298aae8
-    new: 254f49634ee16a731174d2ae34bc50bd5f45e731
-    log: revlist-028ef9c96e96-254f49634ee1.txt
+    old: 2d8c7edcb661812249469f4a5b62e9339118846f
+    new: 6e7188a8d725decabde50e86561a641b4600188b
+    log: revlist-2d8c7edcb661-6e7188a8d725.txt
 
---===============1737315659858081599==
+--===============1104673017979158331==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-028ef9c96e96-254f49634ee1.txt
+Content-Disposition: attachment; filename=revlist-2d8c7edcb661-6e7188a8d725.txt
 
+db3092ed2f0bec27eb289755173134e46e3ae7a4 smb: smbdirect: introduce smbdirect_connection_send_immediate_work()
+099db5093e4d894483163bd7e4b58c99319bc3f3 smb: smbdirect: introduce smbdirect_connection_negotiation_done()
 b183b7b9b51fc37cc8e1fbad3c0d84e0cb605266 smb: smbdirect: introduce smbdirect_mr_io_fill_buffer_descriptor()
 a93b68d46e1450ca6d395be0ca002f8bdf04d9a6 smb: smbdirect: introduce smbdirect_connection_legacy_debug_proc_show()
 09d617d3121e14309ad5e4287b0da3ec27d386a8 smb: smbdirect: introduce smbdirect_connection_wait_for_connected()
@@ -661,9 +663,6 @@ e76607442d5b73e1ba6768f501ef815bb58c2c0e slip: reject VJ receive packets on inst
 cb78517e60cf4829c7ddaae6a21a8bdf8c9da0e4 ALSA: hda/realtek: Add LED fixup for HP EliteBook 6 G2a Laptops
 12c1c672d46dba62bad1293977780c98e29315b4 ALSA: usb-audio/line6: Add support for POD HD PRO
 4c1367a2d7aad643a6f87c6931b13cc1a25e8ca7 slip: bound decode() reads against the compressed packet length
-d18a3b5d337fa412a38e776e6b4b857a58836575 erofs: fix the out-of-bounds nameoff handling for trailing dirents
-c99493ce409c3b98fec1616dbcf24c102e006deb erofs: fix offset truncation when shifting pgoff on 32-bit platforms
-2d8c7edcb661812249469f4a5b62e9339118846f erofs: unify lcn as u64 for 32-bit platforms
 db9e726525e45dbd713c07897a4d20bc18333ccc net: add address list snapshot and reconciliation infrastructure
 3554b4345d855089ab7af5e3557f5dc3262d14c9 net: introduce ndo_set_rx_mode_async and netdev_rx_mode_work
 a4c833278144917982510ca43a3438155756122a net: cache snapshot entries for ndo_set_rx_mode_async
@@ -1050,5 +1049,6 @@ b935117fe6d1af576e39b1f18c9e875f44bd146f Merge tag 'kbuild-fixes-7.1-1' of git:/
 20b64cf8705a0f6268bb9a320eb6b4c425f3ec6c Merge tag 'tsm-for-7.1' of git://git.kernel.org/pub/scm/linux/kernel/git/devsec/tsm
 14479877c1ec9667edb4a7c20a8d7a704e7249ca Merge tag 'clk-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/clk/linux
 254f49634ee16a731174d2ae34bc50bd5f45e731 Linux 7.1-rc1
+6e7188a8d725decabde50e86561a641b4600188b erofs: fix managed cache race for unaligned extents
 
---===============1737315659858081599==--
+--===============1104673017979158331==--
