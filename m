@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5709641237741126971=="
+Content-Type: multipart/mixed; boundary="===============8224288820553194019=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/klassert/ipsec-next
-Date: Tue, 28 Apr 2026 04:49:54 -0000
-Message-Id: <177735179425.908638.16446556572778981997@gitolite.kernel.org>
+Date: Tue, 28 Apr 2026 04:50:39 -0000
+Message-Id: <177735183900.911898.17308745611045423689@gitolite.kernel.org>
 
---===============5709641237741126971==
+--===============8224288820553194019==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/klassert/ipsec-next
 user: klassert
 changes:
-  - ref: refs/heads/testing
+  - ref: refs/heads/master
     old: 05d42dc8ab92aa54aaeb1c033927c88fd2accba4
     new: 790ead9394860e7d70c5e0e50a35b243e909a618
     log: revlist-05d42dc8ab92-790ead939486.txt
 
---===============5709641237741126971==
+--===============8224288820553194019==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ b935117fe6d1af576e39b1f18c9e875f44bd146f Merge tag 'kbuild-fixes-7.1-1' of git:/
 254f49634ee16a731174d2ae34bc50bd5f45e731 Linux 7.1-rc1
 790ead9394860e7d70c5e0e50a35b243e909a618 Documentation: net/smc: correct old value of smcr_max_recv_wr
 
---===============5709641237741126971==--
+--===============8224288820553194019==--
