@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2423324423541810121=="
+Content-Type: multipart/mixed; boundary="===============6431843129232312568=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mptcp/linux
-Date: Tue, 28 Apr 2026 11:03:48 -0000
-Message-Id: <177737422820.1287777.4599639558603701929@gitolite.kernel.org>
+Date: Tue, 28 Apr 2026 11:04:02 -0000
+Message-Id: <177737424272.1288169.8051666555057051347@gitolite.kernel.org>
 
---===============2423324423541810121==
+--===============6431843129232312568==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,19 +15,18 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/mptcp/linux
 user: matttbe
 changes:
-  - ref: refs/heads/export
-    old: 9b2ff7d1da660653ed4d10f0888aa499b7988b54
-    new: 7d0d9afd2ac1be2baf0960b834bbad963745001d
-    log: revlist-9b2ff7d1da66-7d0d9afd2ac1.txt
+  - ref: refs/heads/export-net
+    old: 42417392e5ff4cba41b6b585233d57bd9102f2da
+    new: c684f96491f0efc27bc81f842f0dc5934fdf218d
+    log: revlist-42417392e5ff-c684f96491f0.txt
 
---===============2423324423541810121==
+--===============6431843129232312568==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-9b2ff7d1da66-7d0d9afd2ac1.txt
+Content-Disposition: attachment; filename=revlist-42417392e5ff-c684f96491f0.txt
 
 3618442d54f366eeee8f6c83a47861ca22918dfe MAINTAINERS: add pcnet_cs to PCMCIA
-790ead9394860e7d70c5e0e50a35b243e909a618 Documentation: net/smc: correct old value of smcr_max_recv_wr
 35eaa6d8d6c2ee65e96f507add856e0eacf24591 netdevsim: zero initialize struct iphdr in dummy sk_buff
 732b463449fd0ef90acd13cda68eab1c91adb00c net/sched: netem: fix probability gaps in 4-state loss model
 4185701fcce6b426b6c3630b25330dddd9c47b0d net/sched: netem: fix queue limit check to include reordered packets
@@ -56,36 +55,17 @@ b3b6babf47517fde6b6de2493dea28e8831b9347 ipmr: Free mr_table after RCU grace per
 cc427d24ac6442ffdeafd157a63c7c5b73ed4de4 ibmveth: Disable GSO for packets with small MSS
 2b9f6f7065d4cfb65ba19126e0b35ac4544c3f3a tcp: make probe0 timer handle expired user timeout
 3bc179bc7146c26c9dff75d2943d10528274e301 netpoll: fix IPv6 local-address corruption
-a92e307c24043d4fbed2fbb437c9354429ff95a6 DO-NOT-MERGE: git markup: net
-3151197f878502ea1c97e92fbb7cce7943fd2c42 DO-NOT-MERGE: git markup: fixes other trees
-70540708507130f037b70b545e3e3b2c3f107e7f mptcp: sockopt: set timestamp flags on subflow socket, not msk
-a7d24daa8cf75af2f802b06d102350c7b466d6eb mptcp: fastclose msk when linger time is 0
-7be4ddfa2b54d3de91ff9a5460a7c44cbbf1e560 mptcp: pm: kernel: reset fullmesh counter after flush
-b945c135cda8b90d37e29cd3c349f64c920e542f mptcp: fix scheduling with atomic in timestamp sockopt
-b4eee7f1ecb246d86c08d16ead9edfe1f7f289d5 DO-NOT-MERGE: git markup: fixes net
-d6ff9c9faec82ae5cfa5fe80b0a5bc6e41eb415b DO-NOT-MERGE: mptcp: add CI support
-3e8e872bce665ec4e06a4671ebc6d9e8404cee46 DO-NOT-MERGE: git markup: end common net net-next
-4f48874aa6cb393a32809f034d39b4c97a40ba07 TopGit-driven merge of branches:
-752f79cf790dfa4bdba3ec6b03097b166868e5e2 DO-NOT-MERGE: git markup: net-next
-4d209d1a1f3888a1fcb85fd3c171eb476924f352 DO-NOT-MERGE: git markup: fixes net-next
-3ece362bee4b94b61ac645847a0e73bd758443ed mptcp: pm: init and release mptcp_pm_ops
-4ad9857d1adfbb7b9ce79d4be4e7b7a76562a205 mptcp: pm: add get_local_id() interface
-e64eab7ca4860c2db5d724268b00bd1fece118e7 mptcp: pm: add get_priority() interface
-3068986a1834135116039e86dc0174660213a276 DO-NOT-MERGE: git markup: features net-next
-aa361e0ada0915174c31dbb6a5eb3a7832a1b191 DO-NOT-MERGE: git markup: features net-next-next
-75f8ddf298e32a93202696cef567cc934824ce61 bpf: Add mptcp_subflow bpf_iter
-e53f6cf9c84e174ff63c602978a981a822475a96 selftests/bpf: More endpoints for endpoint_init
-ed1776bd0f8789505129490aa468614d71423b45 selftests/bpf: Drop cgroup_fd of run_mptcpify
-a1e2352e4a4f54fa92c05b6fe9a5bfe604822b9b bpf: Add mptcp packet scheduler struct_ops
-67162ba281e9697a1b55c39b0a64acf5b62e5c74 bpf: Export mptcp packet scheduler helpers
-d4dc4815266c9227026d79ff510c9117a30cfe4a selftests/bpf: Add bpf scheduler test
-3cb197025030ed99e5f62f1b7817a87ff45bc9de selftests/bpf: Add bpf_first scheduler & test
-ba61e745756b868720674539eee9f7b9f2968bda selftests/bpf: Add bpf_bkup scheduler & test
-cffe37e9047b83fc9c3311134dff7c38b148d0b8 selftests/bpf: Add bpf_rr scheduler & test
-1a4cd7da0bb11181945f05717f88cf109a52842c selftests/bpf: Add bpf_red scheduler & test
-cbbd214f370f780a1aa7282593f8d72ef3b6d07c selftests/bpf: Add bpf_burst scheduler & test
-e63e3bb1dd0151718e59af23a71b753f0ab9106e DO-NOT-MERGE: git markup: features other trees
-73a19f62e525a6de1cd4650ca3463a805e7ac6c1 DO-NOT-MERGE: mptcp: improve code coverage for CI
-7d0d9afd2ac1be2baf0960b834bbad963745001d DO-NOT-MERGE: mptcp: enabled by default
+844c6456756663f6a99ee49234db31fddf46d16d DO-NOT-MERGE: git markup: net
+031ee07f7fb5b0005da617fe9176204acb5446cd DO-NOT-MERGE: git markup: fixes other trees
+a37c5db9f270a21b86ce48a68902afb1086baa8b mptcp: sockopt: set timestamp flags on subflow socket, not msk
+d1196834b4262c89519f5690c03fa2e80a01505d mptcp: fastclose msk when linger time is 0
+6713ba252e472c344a1810a70639f97eb836e129 mptcp: pm: kernel: reset fullmesh counter after flush
+4dff4167fec15ccadee1bdc8e39ab85e437f0e3e mptcp: fix scheduling with atomic in timestamp sockopt
+2caa6720f6e4619f2f08d3d87f335360aec54848 DO-NOT-MERGE: git markup: fixes net
+a0ceb5459d42e1e0283998151de45fb598555c92 DO-NOT-MERGE: mptcp: add CI support
+b6f0be00c13b9fb5eaa5561719f44681f5c6815d DO-NOT-MERGE: git markup: end common net net-next
+f24c3de856202bb771325798532116f29dd04b6e DO-NOT-MERGE: git markup: fixes net only
+9771e45490e2ea133ce21c9d996af4e9f41f3699 DO-NOT-MERGE: mptcp: improve code coverage for CI (net)
+c684f96491f0efc27bc81f842f0dc5934fdf218d DO-NOT-MERGE: mptcp: enabled by default (net)
 
---===============2423324423541810121==--
+--===============6431843129232312568==--
