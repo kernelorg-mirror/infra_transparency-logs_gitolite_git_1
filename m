@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mark/linux
-Date: Tue, 28 Apr 2026 13:42:38 -0000
-Message-Id: <177738375851.1452419.11787776055938876941@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rppt/linux
+Date: Tue, 28 Apr 2026 13:45:01 -0000
+Message-Id: <177738390103.1453763.17351922906624419319@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mark/linux
-user: mark
+repo: pub/scm/linux/kernel/git/rppt/linux
+user: rppt
 changes:
-  - ref: refs/heads/arm64/rseq
-    old: 79b65cbbfa20aa2cb0bc248591fab5459cdc101b
-    new: 05bce437d4f2fd14a7be4706c684a618e2fcc82f
-    log: |
-         05bce437d4f2fd14a7be4706c684a618e2fcc82f arm64/entry: Fix arm64-specific rseq brokenness
-         
+  - ref: refs/heads/sh-numa/v2
+    old: 0000000000000000000000000000000000000000
+    new: 46a1be76ef6b6e3526c169f6d1efa6760a164cd4
