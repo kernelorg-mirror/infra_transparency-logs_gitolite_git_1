@@ -1,55 +1,60 @@
-Content-Type: multipart/mixed; boundary="===============0928309519931985444=="
+Content-Type: multipart/mixed; boundary="===============8285206606559139511=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/wireless/wireless-next
-Date: Tue, 28 Apr 2026 08:39:49 -0000
-Message-Id: <177736558964.1143118.13466044431599992106@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/wireless/wireless
+Date: Tue, 28 Apr 2026 08:42:52 -0000
+Message-Id: <177736577212.1147274.6292587754493403997@gitolite.kernel.org>
 
---===============0928309519931985444==
+--===============8285206606559139511==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/wireless/wireless-next
+repo: pub/scm/linux/kernel/git/wireless/wireless
 user: jberg
 git_push_cert_status: E
 changes:
   - ref: refs/heads/main
-    old: 95c6e433599178c57461e2c328e48564f908772c
-    new: 282d758c0aa7d58b679ae7b5fcddf22f460e6322
+    old: 7a5b81e0c87a075afd572f659d8eb68c9c4cd2ba
+    new: d997c32157d2ca06e9f3f00ba6c4bf06593b49e7
     log: |
-         282d758c0aa7d58b679ae7b5fcddf22f460e6322 wifi: brcmsmac: phy_lcn: Remove dead code in wlc_lcnphy_radio_2064_channel_tune_4313()
+         4a1b534177395627579c1fb9e7f9100ee88955dd wifi: ath12k: prepare REO update element only for primary link
+         f3ba9e05cc7b65f41f58bb4808f6c3a8f7894bb1 wifi: ath12k: fix OF node refcount imbalance in WSI graph traversal
+         c4b6ad0e14f5df942eed5ebadaff84b468bd2496 wifi: ath10k: snoc: select POWER_SEQUENCING
+         4498664e2d5888efabb96428196a926acdaa25ed wifi: ath12k: use lockdep_assert_in_rcu_read_lock() for RCU assertions
+         db57a1aa54ff68669781976e4edb045e09e2b65b wifi: rsi: fix kthread lifetime race between self-exit and external-stop
+         d997c32157d2ca06e9f3f00ba6c4bf06593b49e7 Merge tag 'ath-current-20260427' of git://git.kernel.org/pub/scm/linux/kernel/git/ath/ath
          
 
---===============0928309519931985444==
+--===============8285206606559139511==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher 7BF9099A 1777365536 +0200
-pushee ssh+git://korg/pub/scm/linux/kernel/git/wireless/wireless-next.git
-nonce 1777365536-275e0acbea6c3ee164981f5e9112d9477608ca82
+pusher 7BF9099A 1777365727 +0200
+pushee ssh+git://korg/pub/scm/linux/kernel/git/wireless/wireless.git
+nonce 1777365727-c9fd664ce3c9027b0795c3865b3eed5a5d5d6ff6
 
-95c6e433599178c57461e2c328e48564f908772c 282d758c0aa7d58b679ae7b5fcddf22f460e6322 refs/heads/main
+7a5b81e0c87a075afd572f659d8eb68c9c4cd2ba d997c32157d2ca06e9f3f00ba6c4bf06593b49e7 refs/heads/main
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAABCgAdFiEEpeA8sTs3M8SN2hR410qiO8sPaAAFAmnwciAACgkQ10qiO8sP
-aABWHw//eEDSR/vBKuEgylUBhO82cvQjVHzjXSRl9JkSuPN15uIbbvNCBuOMgFxK
-/hovNIXFBbNOW9qtTCUCAIsPDOu5aGET6NW3b/Ov0AgSm2L7f27o1CiPIFHim1Ak
-gbEfQrNNE280zWushLk4VPXOjkvz8dH/AOESVQJb9vqgc6pAIKfTarFGVUZZoQ4j
-Dao1KKY/K00eAAF8w0mzSQC28mI6OID5olbv1tTGPxLLJL4ghdYctviQK5/GQeJN
-hJz6mBu4PDJ0At/I8mtkZbME3V2QvO7zz8JQuUI1gc7CwDe2URqXGsQ/POU4GGrW
-bMNb0l1WOEbYDXg/awbHVDXXErtUFzD/GYE+0uM373CA+y7vEz6ZWctKcJXdNzky
-GLUnZPa4GAiGMeplTf+n2XSfKXuanVBHbQ6LbwAh+cph13wFb86Z29GR0tz+XJp1
-VDLLeEa3C1untgzrhJ3NvSL4aHUR2zV+/bHrzfSINTrSJxFwCeu7NCIuwZIiiohM
-sTjldeRCPVUD/OS+3pp3uWSMav7Sonw/47hSdipBet9GkTreQs0LReVjjXzJi2Vk
-uoziQ34F9eS27xquh88XTNnH/7h03asAdAudkpLzVs3f/FVAhvPNgk8o47B9rZld
-hBG1s8AAzMcia58ABSj21bek9hSLFYK1/rauQQzlaX9XKxqw7fA=
-=85/9
+iQIzBAABCgAdFiEEpeA8sTs3M8SN2hR410qiO8sPaAAFAmnwct8ACgkQ10qiO8sP
+aACmfA/+JMeP5nw8Cc+54C05+mvZxlmDq0JSsQmbrMHSMQSGzDMNvemR604eZFKw
+N8+u++0nMDr+2f2iXOy4s0RovNHCuXq8ggcPmUruQ/y8LUzQRsu9oFzmvL63xTIV
+c8hEmG1mU6HVcfYPwrlnIjS50Jo/rklqGZev3wfkE8tpD9ex1lFS68/53AqarvF5
+bFYKrnV9hBUfGCVHXoNqk/85h2QDH/PG7lnPyqCyJYyonxRTPazFHpUBxNMEZj5g
+B91FxVVr0/iRo0w8rbfU+HB3VI8Xj5I2GMI/fI1uodTxkz/6AQ5f6z2lzKJdADCO
+djuPGFMbjkQxi/IR2B9proz8l/REB4l6LW0VOeZ+ZSdVYODj3/oxg9kvCPU0uLxk
+TeyDWdqawICpWvl+Jr/x05P2GBHWNNIeYS+3jaFpito7Y322075FRIS12WXFFqi9
+DYBh0lkrUVDUiMMk/cr0ccmf+yyMhDqF84bzUktvwz4dF7b3RbiAvFuZTWcrgMAs
+qzx2+7VuSsxaJCRbJacNecDW3eCCkni8XY7z9VMQLm/mqUKhmrUnogIqrGk4EuYO
+QW2ICbCivEzuv2FeY5K67VY8XPlDlEsxqpWnwPanUYxjnQFKGu9P2V8roPTP3JaV
+nn94rbE8inBKjLCotBT3bBHnZkv/zieqqhrZn8Aisnicr2Tr8n4=
+=9ySO
 -----END PGP SIGNATURE-----
 
---===============0928309519931985444==--
+--===============8285206606559139511==--
