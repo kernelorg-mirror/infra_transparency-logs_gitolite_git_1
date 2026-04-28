@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/wens/wireless-regdb
-Date: Tue, 28 Apr 2026 06:26:14 -0000
-Message-Id: <177735757434.1007818.7729420784521555608@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/libata/linux
+Date: Tue, 28 Apr 2026 06:59:54 -0000
+Message-Id: <177735959455.1038418.9767951027965522534@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/wens/wireless-regdb
-user: wens
+repo: pub/scm/linux/kernel/git/libata/linux
+user: cassel
 changes:
-  - ref: refs/heads/master
-    old: 3ceaf3bc0a3d81acd0c1bc413a620ed18e41475f
-    new: d0781152c3349d64faffaaa28d1221eafe389346
+  - ref: refs/heads/for-7.2
+    old: d02c6e08bc01ce6da910cf56d1990ebc9fa34833
+    new: eb9c9a3a6d867f9ebaf223114fab22f9601dea5e
     log: |
-         756d784aa2ee2810ded0dd314d9764c80660a75b wireless-regdb: Update 6 GHz rules for Hong Kong (HK)
-         6873bfeb2ae677fd67578c93c11e8866ec3d7fff wireless-regdb: Update 5/6 GHz power rules for Russia (RU)
-         d0781152c3349d64faffaaa28d1221eafe389346 wireless-regdb: Fix 60 GHz power unit for Ukraine (UA)
+         eb9c9a3a6d867f9ebaf223114fab22f9601dea5e ata: ahci: fail probe if BAR too small for claimed ports
          
