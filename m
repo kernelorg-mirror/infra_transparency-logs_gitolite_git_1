@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7116268887952207355=="
+Content-Type: multipart/mixed; boundary="===============3016185964622058152=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Tue, 28 Apr 2026 00:00:09 -0000
-Message-Id: <177733440948.607145.4465599602766574750@gitolite.kernel.org>
+Date: Tue, 28 Apr 2026 00:00:11 -0000
+Message-Id: <177733441174.607311.8585830137035434694@gitolite.kernel.org>
 
---===============7116268887952207355==
+--===============3016185964622058152==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,118 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/mm-new
-    old: 4f7b2cc1ad8719d55a8de9675a0aca65cb17c364
-    new: a1316f1941695b84c9b9eff946bee67b8c8ff0d8
-    log: revlist-4f7b2cc1ad87-a1316f194169.txt
+  - ref: refs/heads/mm-unstable
+    old: a2ddbfd1af0f54ea84bf17f0400088815d012e8d
+    new: e9552db96ff65b44558fcee568f0d5f31a59c8f8
+    log: revlist-a2ddbfd1af0f-e9552db96ff6.txt
 
---===============7116268887952207355==
+--===============3016185964622058152==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4f7b2cc1ad87-a1316f194169.txt
+Content-Disposition: attachment; filename=revlist-a2ddbfd1af0f-e9552db96ff6.txt
 
+8d45d88e0b3d17c9f847cef8171c95c19d2cbdf5 drm/amd/ras: enable uniras via IP version check
+c9042a4dd6ac311281fc2d95d0d9f8e3278608c5 drm/amdgpu: Add reserved region ids
+9bb16dabb09116d3308772569e850477f2d803b5 drm/amdgpu: Add stolen vga reserve-region
+941c50330ec4ab07b67abd37749da0687aadab1e drm/amdgpu: Add extended stolen vga reserve-region
+272a9c8f6f711c283f18aa954e54ede7ed32bdd8 drm/amdgpu: Add stolen_reserved reserve-region
+b2155aaef0eae56ff1a3583dff38e7b92e99f8ed drm/amdgpu: Add fw_reserved reserve-region
+14a517e37a575da79681c9b5e3b39d3755cbd94d drm/amdgpu: Add firmware extended reserve-region
+daaf24d1fc538fc713ffc4a84949af0d92f06fb4 drm/amdgpu: Add fw vram usage reserve-region
+4c616e8446b916d8888415c76a91b36a00f94f79 drm/amdgpu: Add host driver reserved-region
+bb92be605290d11b5bab307f76ab85013beba847 drm/amdgpu: Add memory training reserve-region
+5dad4394229953cae4e040107a4fd1886dc01f30 drm/amdgpu: Group filling reserve region details
+2c7b0e37835cc4522debba57b31b491025e9728c drm/amdgpu: Add function to fill fw reserve region
+7b0af16044b7669685f923d2c83c20d3aba72e18 drm/amdgpu: Add function to fill training region
+6845355a08c2dc7e5af3c37b7d8f61afbfec1939 drm/amdgpu: Move validation of reserve region info
+f315099fd26ae8e9ab7718fbc8f66b157828313a drm/amdgpu: Consolidate reserve region allocations
+e0e9792ea2d4bc72634c0ba77472c3d4ef01fc8e drm/amdgpu: add an option to allow gpu partition allocate all available memory
+d290d6ee90b48b346978e8549b0bc0ba28c047fc drm/amd/display: Replace use of system_wq with system_percpu_wq
+1d0a26cf37c1b2e9928d2b61af6f282232b5daea drm/amdgpu: add CONFIG_GCOV_PROFILE_AMDGPU Kconfig option
+f2275ea90be581f599e7c88a9dbfc5dd4383087d drm/amd/pm: Add smu vram copy function
+3bec582562a17ff16c4e3b8ac5cac8a6713976f2 drm/amd/pm: Use smu vram copy in SMUv13
+3ecee2073cac99c629725f63a033c16ebac17e59 drm/amd/pm: Use smu vram copy in SMUv15
+7f0fc003688e22553c16a4740ce5c6297ef9c0e3 drm/amdgpu: replace use of system_unbound_wq with system_dfl_wq
+53140a0d591298adeb6758ca57ab3334cbe35d6e drm/amdgpu: replace use of system_wq with system_dfl_wq
+505b1c7342aed9cc3c35c8043fe6bc5ccbeb6b0b amd/amdkfd: add WQ_UNBOUND to alloc_workqueue users
+95a599c8a25a60a63b710ea863577ee51a8b62a2 drm/radeon: add WQ_PERCPU to alloc_workqueue users
+592713a8960ed661bd9fcb7c256921c53eadeb49 drm/amd/pm: correct mem_busy_percent display due to calculation errors
+95e21dff4717c0525f80c225884ddc391911b1c3 drm/amd/pm: fix null pointer dereference issue in smu_v15_0_8_get_power_limit()
+e4465c0464a3d1b8d66d84c440ab1d49c483c01a drm/amd/pm: optimize logic and remove unnecessary checks in smu v15.0.8
+48d1a5b33a5a946fca3e444c4f3df13ef847f40d drm/amd/pm: fix memleak issue in smu_v15_0_8_get_gpu_metrics()
+1d4ade3646eb063ecc82060b607329730cca100c drm/amdgpu/userq: dont need check for return values in amdgpu_userq_evict
+3c863ff920b45fa7a9b7d4cb932f466488a87a58 drm/amdgpu: replace PASID IDR with XArray
+d65bfb1782304b03862c8c725fac608015dffd36 drm/amd/display: Change dither policy for 10 bpc output back to dithering
+1e57e72ae3c34144ccecb0a0b77e5c397ec0668a drm/amdgpu/userq: fence wait for max time in amdgpu_userq_wait_for_signal
+4c86e12ab1be971ddb0748e373cf6d25d68bdc22 drm/amdgpu/userq: add the return code too in error condition
+38476bde59948fe85e20bb1e7f3f66525d0c10cd drm/amdgpu/userq: call dma_resv_wait_timeout without test for signalled
+05ce444171cf2ec89ce0f8c37700375b817454b0 drm/amdgpu/userq: use dma_fence_wait_timeout without test for signalled
+34f31fe40f3a19cd3427130ac7558ca2504853ae drm/amdgpu: rework userq fence driver alloc/destroy
+48c33af0b62d8bbc67e4897438573f59da8ebe17 drm/amdgpu: make userq fence_drv drop explicit in queue destroy
+eea85914d15bfe3bdf9f8f80a479f0dee0aa7d73 drm/amdgpu: save ring content before resetting the device
+2d23661764450fc37208c2888c91fa320e830d63 drm/amd/display: Replace inline NUM_ELEMENTS macro with ARRAY_SIZE
+a097dd7059cb1d4efb436092196885e3abd56518 drm/amd/display: Remove unused NUM_ELEMENTS macros
+d1f188b182c92b71d1bdd03436d7c6b08fbc86be drm/amdgpu: Use amdgpu by default for CIK APUs too
+1b135c6da061cdb3322dc0e92ca5a7c58825c77b drm/amdgpu: extract amdgpu_vm_lock_by_pasid from amdgpu_vm_handle_fault
+32ab301b89b30d71a2e68d86f564eca66f7c52c5 drm/amdgpu: store ib info for devcoredump
+7b15fc2d1f1a00fb99f0146e404ff2600999ec74 drm/amdgpu: dump job ibs in the devcoredump
+802b4c158cf57d615dae50000be4c6063a7db7ba Input: xpad - remove stale TODO and changelog header
+84e7a17d1813394b48b0641fce8217fc0bba1960 Input: xpad - add RedOctane Games vendor id
+14a51045e10d3087b8374deef02a9d3a694132d6 get rid of busy-waiting in shrink_dcache_tree()
+e9f850ba66cdf6b77fb4f005e46c4b605c4de434 rtc: cmos: Use platform_get_irq_optional() in cmos_platform_probe()
+7d7c2d1c48790799568d06d1d4b1ca9ac7c900fb riscv: fix various typos in comments and code
+fe0cf82fdeb318e8b2c78a4142385f42f467ff8c riscv: smp: Remove outdated comment about disabling preemption
+31454cb5f1a37eefe2465601418a978b7668424e riscv: smp: Clarify comment "cache" -> "instruction cache"
+ce3a360a6d0b3d2b2a23238ff1b7a4ac1280d196 riscv: move kaslr_offset() to page.h as a static inline function
+d8e99133eb4a8d09dcbf71f7277dc948d3413227 riscv: export kaslr offset and satp in VMCOREINFO ELF notes
+c8d0c36d852ccd7caf9d5a44f3090f80a060c28d riscv: Simplify assignment for UTS_MACHINE
+7eb2e2954687bae09ca1b813df5d338744e7e538 selftests: riscv: Add license to cfi selftest
+22a9c228afb609bb7413eb5d26e6a672c939aa59 riscv: remove redundant check for CONFIG_SMP
+e8c98b3f810d8f880dba2a682e63c53810d2eae3 riscv: remove redundant #ifdef check in cpu-hotplug
+ca1dd5c4a54b8aab9ea07680337c4c194f49861f riscv: Fix typo in purgatory end label
+580e626dd0304b4cafb2a5d21c6f0401b44f0ffb riscv: increase COMMAND_LINE_SIZE value to 2048
+5d5c5d0f2be9cf0351ad8e90516c519a8db22981 riscv: add hardware error trap handler support
+dd598449338212f9262424fa67e40b5643ab6c06 riscv: acpi: update FADT revision check to 6.6
+b0217d97eeeaca199eff23102b3fa72ea8c4ddea riscv: mm: WARN_ON() for bad addresses in vmemmap_populate()
+d1f014012571323f3857873d94c2abf9343ef62d riscv: enable HAVE_IOREMAP_PROT
+382cf7b75b05ee28b9ac2a27b6b8c7c4eb8910dc riscv: vdso_cfi: Add clean rule for copied sources
+d7df0505478a3e479e914f0554b6b774a07a1b88 riscv: vdso_cfi: Add .gitignore for build artifacts
+ae45f896a40a07449d9b45d0395fb7245fdd75fc lib/string_kunit: add correctness test for strlen()
+263dca234e5cc12aa8b434592ceb655538bf4ea4 lib/string_kunit: add correctness test for strnlen()
+27b2810a4a3dcd1545ec8bafc82f967eda591c47 lib/string_kunit: add correctness test for strrchr()
+0020240a431187628e2636284023e63b9b7a2aa1 lib/string_kunit: add performance benchmark for strlen()
+e73bcb3708a69369d506e5bc6a63d4fc13d8e28a lib/string_kunit: extend benchmarks to strnlen() and chr searches
+5ba15d419fab848a3813eb56bbcad00e291fbc49 riscv: lib: add strnlen() implementation
+adf542133960d402f63c976b00e46be4d986d4c3 riscv: lib: add strchr() implementation
+bef64bcb940269a503d12eb1bc180d1aa9adf74d riscv: lib: add strrchr() implementation
+6455c6c11827d3cd1b5f796047b562e51e4818e5 riscv: Clean up & optimize unaligned scalar access probe
+67bdd7b01387d1620247e0c02b3396b7ff516f19 riscv: Split out measure_cycles() for reuse
+c03ad15f7cf60999681a3e5784404a73a93e6506 riscv: Reuse measure_cycles() in check_vector_unaligned_access()
+4e062ef174929e2891ab5015d53fd5fdeaebd478 riscv: Split out compare_unaligned_access()
+74aefe1387bdf015c0814cc1617aa94318db5710 riscv: Reuse compare_unaligned_access() in check_vector_unaligned_access()
+9b3a2be84803cf18c4b4d1efc695991f0daa153c riscv: Remove support for XIP kernel
+6fa6e4e21afd9360c7cdc24b8c1bdf6df274940c coda: is_bad_inode() is always false there
+e6d683673167763ac364108b0b0eb10d0c605868 sanitize coda_dentry_delete()
+e252ed8988578f01da5a4f5aa4c2269f96f03951 coda_flag_children(): fix a UAF
+ae67f582398611b9f67c06961e292e3a2612346d tools/power/x86/intel-speed-select: Avoid current base freq as maximum
+df4a83543117c7fc27077fd7f4ffe870556b257b tools/power/x86/intel-speed-select: Fix cpu extended family ID decoding
+3e244dd513e26728577f1e4deca6fdf749b6f244 tools/power/x86/intel-speed-select: Fix some program return value
+93f5b44b416c7419a76a5e1311fb750fca585638 tools/power/x86/intel-speed-select: Print Version info when Incompatible API version is detected
+1b25f03f3daf7c26c37050a7b2b5858ad5f99cfc tools/power/x86/intel-speed-select: Fix output when running on unsupported CLX platforms
+ee69d9e32bdb0044b9444f1ae12107ff8b5ff95f tools/power/x86/intel-speed-select: v1.26 release
+03aa6ed7069f4872333d410303ae8dd341bb096d clk: qcom: videocc-glymur: Constify qcom_cc_desc
+573ddd0d22aa06f72ea7d4152d65c8bcb0eca24e clk: qcom: Constify qcom_cc_driver_data
+87df31ea43eef5f6b9e7be0fa2555e58a9455e05 clk: qcom: Constify list of critical CBCR registers
+05566ebcc0cd170bd4f50c907ee3ed8e106251e3 clk: qcom: gcc-x1e80100: Keep GCC USB QTB clock always ON
+a5210135489ae7bc1ef1cb4a8157361dd7b468cd Merge tag 'v7.0-rc7' into char-misc-next
+3031b76d65e14a946cfb5000d79b642f58ffac5c mei: bus: add mei_cldev_uuid
+773a43b8627f54dca56d08949497014b4ee8878a mei: lb: add late binding version 2
+a5a1804332afc7035d5c5b880548262e81d796bc mei: me: add nova lake point H DID
+bc561dc8ba5b9fe56ed1757bdad218c9a0f992f1 Input: gf2k - skip invalid hat lookup values
+95dffe32a66cbed07fbfa7afed39d56d5014e04f Input: aiptek - validate raw macro indices before updating state
+a0a316f7683988463fc9417498292538055acb8f Merge tag 'fpga-for-7.1-rc1' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/fpga/linux-fpga into char-misc-next
+8aeea2311a5f10451968a0707f23e554a29a6737 Merge tag 'extcon-next-for-7.1' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/chanwoo/extcon into char-misc-next
 0990a71f678aa0f045f2c126b39b6b581844d3b0 Merge tag 'icc-7.1-rc1' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/djakov/icc into char-misc-next
 378500dc1313e2c06a2f675bb00ab5d7880433ba platform/x86: asus-laptop: Register ACPI notify handler directly
 ba19eb10170b50cd613aa18cfb0e1b4693db7edf platform/x86: asus-laptop: Convert ACPI driver to a platform one
@@ -949,106 +1050,5 @@ d1622a1688c1ae00b8c138f42fb52e5136557c88 mm/page_alloc: optimize __free_contig_f
 8f02b6da6bdf3493396d1056911183505643a8a1 mm/gup: honour FOLL_PIN in NOMMU __get_user_pages_locked()
 f2d27227e399b3c7b916bb37f87b07a04c6634b9 mm/swap, PM: hibernate: fix swapoff race in uswsusp by pinning swap device
 e9552db96ff65b44558fcee568f0d5f31a59c8f8 mm/swap: remove redundant swap device reference in alloc/free
-de3bed25eaddc96b7e8f97baf5727a988fe479a1 mm/mglru: consolidate common code for retrieving evictable size
-04ad5bb125cafcc46304e5a2c23713a9647917e8 mm/mglru: rename variables related to aging and rotation
-439401e3131085cfceb5503116801be9a50ad43b mm/mglru: relocate the LRU scan batch limit to callers
-7ee16a007fb068dc68359c577822dc4033797e94 mm/mglru: restructure the reclaim loop
-ce1023f71c770705ba36fe65f909603f4a8225fe mm/mglru: scan and count the exact number of folios
-077ec860100a28aacecaa96a6bae56ed29db9137 mm/mglru: avoid reclaim type fall back when isolation makes no progress
-bc18e6479e7279d02c1b329b380d7ebe3312f93b mm/mglru: use a smaller batch for reclaim
-e0a42b5a8b84d20eb2cb4ab1f81fc01d7eaf986f mm/mglru: don't abort scan immediately right after aging
-cbece5131629bfbd44564ad861db8064921d3a29 mm/mglru: remove redundant swap constrained check upon isolation
-c8a8dc489a38e5d51d066f83d86296b2e195a5cc mm/mglru: use the common routine for dirty/writeback reactivation
-5f175f51e3c52eef709531d4b8fbab5da8068f93 mm/mglru: simplify and improve dirty writeback handling
-ad77aded6688fac5f70ffb5863a48f7757397848 mm/mglru: remove no longer used reclaim argument for folio protection
-dffb883a5e95ac8fc97cf099128eb2730dc86c47 mm/vmscan: remove sc->file_taken
-9e955ea1f234261af3fc58d7654fbebfbb1e1c4e mm/vmscan: remove sc->unqueued_dirty
-2dcddf79498640b40d60106a31703d1bd15d5c8a mm/vmscan: unify writeback reclaim statistic and throttling
-b5d0ec6a4cc23db29262f51c57bd8fafd59ae843 mm/khugepaged: generalize hugepage_vma_revalidate for mTHP support
-1cfc7472d1f470f4a71dc3757f6059b7f671dc01 mm/khugepaged: generalize alloc_charge_folio()
-b3840b9e17509eaef07c795de466af904a5acadd mm/khugepaged: rework max_ptes_* handling with helper functions
-5b77578e63bc10668a274acb16b6f3f4cad51022 mm/khugepaged: generalize __collapse_huge_page_* for mTHP support
-e275a67d9e4f5ed7a5434957b2ab5837b5c14851 mm/khugepaged: generalize collapse_huge_page for mTHP collapse
-a56e1b885cebfb0e7b01c6a3e3eee2c9076ed063 mm/khugepaged: skip collapsing mTHP to smaller orders
-8719a3aa9d9d51d797c72bfd976110867ce83640 mm/khugepaged: add per-order mTHP collapse failure statistics
-8c9024480fbf2315be7be94dd482021c6484d26e mm/khugepaged: improve tracepoints for mTHP orders
-b6841fda288048f5743339a7ad9f8804908cd74a mm/khugepaged: introduce collapse_allowable_orders helper function
-6a8be1cc2060ba7e7b7a4ca8df2f73a4336441ee mm/khugepaged: introduce mTHP collapse support
-298b486371829260aec97ef5edaa75d761e52eb1 mm/khugepaged: avoid unnecessary mTHP collapse attempts
-91048b3c069fe334bba070aba81961f72812b439 mm/khugepaged: run khugepaged for all orders
-2a6ae3571160de57ea126ba3a91cb429379e6014 Documentation: mm: update the admin guide for mTHP collapse
-265f30c043b0e5f8f2436e0f79b572c5eaaf20a1 mm/memory: update stale locking comments for fault handlers
-21c2161d341eacbd364651841c4bc91a7fa0eef1 mm/mmu_gather: prepare to skip redundant sync IPIs
-427e0fd20cb66011035547c05d48531ed33be27a x86/tlb: skip redundant sync IPIs for native TLB flush
-e3d891a5cefc8d1dcbe37da7184c8060f3a95521 selftests/cgroup: skip test_zswap if zswap is globally disabled
-1005fe882ac3fdf03dfdb7779ba6bfe9648b225d selftests/cgroup: avoid OOM in test_swapin_nozswap
-09cebdd03dd3e1428c179d778b9c0dd3eb18bc3d selftests/cgroup: use runtime page size for zswpin check
-f364f98405ab01dc723d873321fa0feb30571c74 selftests/cgroup: rename PAGE_SIZE to BUF_SIZE in cgroup_util
-fa38c3a35e76d65d1d226814b6475ea00857237e selftests/cgroup: replace hardcoded page size values in test_zswap
-70ffdd44501bc3a8f90923d0336926ea85a0f9d8 selftest/cgroup: fix zswap test_no_invasive_cgroup_shrink on large pagesize system
-2b3128494586d106c7b65b0a62a48788f846d713 selftest/cgroup: fix zswap attempt_writeback() on 64K pagesize system
-afec171045406450a6d32b798349aaa10c30e8e4 selftests/cgroup: test_zswap: wait for asynchronous writeback
-e0367ca4b78cefe13e05388675c037740338ca73 mm/migrate_device: cleanup up PMD Checks and warnings
-4f30b7c626e5589ab50a5e5568a181864bdd182f mm/page_owner: add filter infrastructure
-fdaa2fad3f21a39a996f467fc0612a77ba6cb10b mm/page_owner: add print_mode filter
-a08aba930351e06e576da307e527aecb0ca10394 mm/page_owner: add NUMA node filter with nodelist support
-4c91e569de8b5dbe86b99a9cc1af06224246d65c mm-page_owner-add-numa-node-filter-with-nodelist-support-fix
-02e09dfaec4d12c39f5f0bd37a78b1afbd625ce7 mm/sparse: remove unnecessary NULL check before allocating mem_section
-1e75af323e92083c4af02820d20a49eac881770d mm/mglru: use folio_mark_accessed to replace folio_set_active in PF
-0e4ebd02d571c406b5194953177664abd0e44067 mm/vmscan: fix typos in comments
-1b980a30f61c9efab738642a1e6cc6ce53ade2fe mm: fix mmap errno value when MAP_DROPPABLE is not supported
-446137e25c21f85b040fb490f5dc810986111f34 selftests/mm: verify droppable mappings cannot be locked
-f4d2962a16767a2bd75f93319858a905328f59a7 selftests/mm: run the MAP_DROPPABLE selftest
-62292921daa0878a99246ef0b91ff45571224462 mm/page_owner: fix %pGp format specifier argument type
-2ec0aa8dfcf8a2bd1a235719254e2863263560d6 Docs/mm/damon/maintainer-profile: add AI review usage guideline
-ee8c63bc140ec053147b69274df903afe3e02683 mm/sparse: remove sparse buffer pre-allocation mechanism
-a4fd6800748cae591f4dd8ae6f1f0f1f2e62bcb4 mm/memory-failure: use bool for forcekill state
-bc91498876bc11cea9e1cd2ce7e728ad634c9ffd mm/khugepaged: use ALIGN helpers for PMD alignment
-ed23b445f5a0fab3f9a4e4746fad1f710761c243 mm: huge_memory: use sysfs_match_string() in defrag_store()
-1dc0e3200149b0e06b8515e14916d8e71a652ef5 mm: huge_memory: refactor defrag_show() to use defrag_flags[]
-ee95c59a7a732b7d5c7d7c5398ca06437dbf2582 mm/vmpressure: skip socket pressure for costly order reclaim
-068b97036bd3a1833dec206eca035b078bc4c743 mm/page_io: rename swap_iocb fields for clarity
-b0a98f42b56fc6fa23528d3a6752765ab7b7d5c2 mm/memory-failure: replace magic number 3 with GET_PAGE_MAX_RETRY_NUM
-f4706093471d428ff98ad60e046fc95406e3608e mm/page_alloc: cleanup flag vars in alloc_pages_bulk_noprof()
-34de1e1b454a9e846cf15978a6b05953f30fc0e5 mm/thp: dead code cleanup in Kconfig
-76cce97345adff14258ef74b47f4ad21aae45ab3 mm, page_alloc: reintroduce page allocation stall warning
-0a87a298122d4a5416157dc940de681d2585a1a5 mm/lruvec: preemptively free dead folios during lru_add drain
-096b6db57f2bc6f69a1aae3c1c552b018423a548 mm/hugetlb: fix hugetlb cgroup rsvd charge/uncharge mismatch
-57c521a90dfd36dd3b76b470e64444e178adb3ef drm/managed: use special gfp_t format specifier
-206591cb1653af19741006a41341a2606eb70761 mm/kfence: use special gfp_t format specifier
-956510088adbaa964e2f3dbaa8e8173ade4556ce net/rds: use special gfp_t format specifier
-875b938426358ef1990df189521217416ac1b966 dax/kmem: account for partial discontiguous resource upon removal
-403362f764151583f79c92530690a07818e4bc23 include/asm-generic/fixmap.h: reimplement nasty macros in C
-eeb776b4c9b43ea0bca51cf1a6e3c837a2fb449a include-asm-generic-fixmaph-reimplement-nasty-macros-in-c-fix
-5a8b2a388748a34356a37e50485e6aefc7be131b include-asm-generic-fixmaph-reimplement-nasty-macros-in-c-fix-fix
-fc304766602187ec87c3bfff0261be1ef7ceaaa4 selftests/mm: simplify byte pattern checking in mremap_test
-4a7f6e2ce6cdce581b0049f3f9f66eb610c767a7 mm/sparse-vmemmap: fix vmemmap accounting underflow
-20ded21874855e07f2986d4cd9b663b1f103c596 mm/memory_hotplug: fix incorrect altmap passing in error path
-1baaa0b4b3849de1f1a598639c083abad622486b mm/sparse-vmemmap: pass @pgmap argument to memory deactivation paths
-2e212ac4b892177baad84eb5b1ab7e01d1fdac0f mm/sparse-vmemmap: fix DAX vmemmap accounting with optimization
-89b7de5eb2b00f23373ebe58202441388792910b mm/mm_init: fix pageblock migratetype for ZONE_DEVICE compound pages
-f540d22575be99d2ce8585760716e946b883842c mm/mm_init: fix uninitialized struct pages for ZONE_DEVICE
-4d6057559d9ddb63a23a91c59653cf4dc70bf901 fs/proc/task_mmu: read proc/pid/{smaps|numa_maps} under per-vma lock
-9235d2c4a27986966e39a51a83786b28faec4820 selftests/proc: ensure the test is performed at the right page boundary
-dadec5d1e8f14cfd425ad28dfbad32006bc77b5c selftests/proc: add /proc/pid/smaps tearing tests
-14ed2586aeae3e02906e6f815f4d0fb3b846fef9 mm/damon/ops-common: optimize damon_hot_score() using ilog2()
-870b1d1c11a477af4dd2748b4dafe601c85a9190 Docs/admin-guide/mm/damon: fix 'parametrs' typo
-327effe2533acb63eedd45f104bfe753ab11617f mm/damon: add synchronous commit for commit_inputs
-ce4a082b04d20dafdeca7254bf25c88ac96637cd mm/damon: support MADV_COLLAPSE via DAMOS_COLLAPSE scheme action
-2d285c615b04dfad6da206b194d815616acd6971 sh: use folio_mapped() instead of page_mapped() in sh4_flush_cache_page()
-2c6dd6321546089c455d56ffbe2800f06b752693 bpf: arena: use page_ref_count() instead of page_mapped() in arena_free_pages()
-cf2ce684e1f1a737041d3fc84306e68478ea7687 mm: remove page_mapped()
-88b3745659c308fef3ddf56c089ebeec4856c233 mm/madvise: reject invalid process_madvise() advice for zero-length vectors
-8cb21736f356156130b1f32ffe69c7b8733aa3b8 mm: limit filemap_fault readahead to VMA boundaries
-e9676b67ed0533b5686ff4fc969367c8f495bc2d mm/damon/core: introduce damon_ctx->paused
-cebcf17a2ee59437843ea04537467709d6d331b4 mm/damon/sysfs: add pause file under context dir
-9af957983ab2e862ec3df7bd55fe149d9140fe82 Docs/mm/damon/design: update for context pause/resume feature
-0f7a2d48ca8e94132439cb9f6ac26b7f340c1c2f Docs/admin-guide/mm/damon/usage: update for pause file
-cc0077b6375643dc858a1f9978c686d46a9e3988 Docs/ABI/damon: update for pause sysfs file
-b3d126b5907368620f63bbb20d98dc868fa678ce mm/damon/tests/core-kunit: test pause commitment
-f69df000c7b3286662e786158708ee8685e97be4 selftests/damon/_damon_sysfs: support pause file staging
-ab76f8b85559733abcc9656deab550f19c7394ab selftests/damon/drgn_dump_damon_status: dump pause
-7d61e66bb114bf60892b22dd592806a59b7eb6c3 selftests/damon/sysfs.py: check pause on assert_ctx_committed()
-a1316f1941695b84c9b9eff946bee67b8c8ff0d8 selftests/damon/sysfs.py: pause DAMON before dumping status
 
---===============7116268887952207355==--
+--===============3016185964622058152==--
