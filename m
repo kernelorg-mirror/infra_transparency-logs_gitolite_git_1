@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/xiang/erofs-utils
-Date: Tue, 28 Apr 2026 07:32:37 -0000
-Message-Id: <177736155765.1073027.4514786117930150286@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/firmware/linux-firmware
+Date: Tue, 28 Apr 2026 07:35:10 -0000
+Message-Id: <177736171080.1076908.7661021308604600473@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/xiang/erofs-utils
-user: xiang
+repo: pub/scm/linux/kernel/git/firmware/linux-firmware
+user: jwboyer
 changes:
-  - ref: refs/heads/experimental
-    old: 81d8cf45606ac9aa81a542d12ddb426667def2d2
-    new: d94880a945af9e7ab2f7b71387a2c7b0ad13f941
+  - ref: refs/heads/main
+    old: b64d7354df3a78e84772b454b19972d0843846a9
+    new: 40a3a8bc43b7f19bb22481947080bbdca304b4d1
     log: |
-         d94880a945af9e7ab2f7b71387a2c7b0ad13f941 erofs-utils: fix unchecked strdup() and harden erofs_fspath()
+         d85214426650b4627a693d326694b151af5c3cdf qcom: vpu: add Gen2 firmware binary for Agatti
+         40a3a8bc43b7f19bb22481947080bbdca304b4d1 Merge branch 'robot/pr-0-1777357217' into 'main'
          
