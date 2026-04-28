@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1066927775822993177=="
+Content-Type: multipart/mixed; boundary="===============0563835836155708633=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Tue, 28 Apr 2026 23:49:42 -0000
-Message-Id: <177742018289.2070624.16761961666495043935@gitolite.kernel.org>
+Date: Tue, 28 Apr 2026 23:51:58 -0000
+Message-Id: <177742031846.2074677.15810553505853255783@gitolite.kernel.org>
 
---===============1066927775822993177==
+--===============0563835836155708633==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,26 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/100GbE
-    old: b14ad0f65009b1a0c1a803f979ebdb70020b3170
-    new: 42c84c6ed4fc2e898e1c899f53f09bbd9a4d5e81
-    log: revlist-b14ad0f65009-42c84c6ed4fc.txt
+  - ref: refs/heads/200GbE
+    old: 3b37d318503d63eb3103c75358e656986cffad1b
+    new: 2971e2e5a6e043bc38e32290896a227fae7eb04f
+    log: revlist-3b37d318503d-2971e2e5a6e0.txt
 
---===============1066927775822993177==
+--===============0563835836155708633==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b14ad0f65009-42c84c6ed4fc.txt
+Content-Disposition: attachment; filename=revlist-3b37d318503d-2971e2e5a6e0.txt
 
-ede2b44b0e62378cb8585dda20a4edadbc621bb0 smb: smbdirect: let smbdirect_socket_set_initial_parameters() call rdma_restrict_node_type()
-d1f187656797fc7434388c1795e05f8abe370d46 smb: smbdirect: introduce smbdirect_connect[_sync]()
-eb3ed1e9048cf7b2a38112f48e0f1b772bb7860d smb: smbdirect: introduce smbdirect_accept_connect_request()
-20cd3cc4420bdb9f63644cd140e2682f634e651e smb: smbdirect: introduce smbdirect_socket_create_{kern,accepting}() and smbdirect_socket_release()
-b1e6277bd1240c3a66aac537b1b43b4bfd2edcd8 smb: smbdirect: let smbdirect_socket.h include all headers for used structures
-5e4bf7fadd4a608cace7604b720483f051f8176f smb: smbdirect: let smbdirect_internal.h define pr_fmt without SMBDIRECT_USE_INLINE_C_FILES
-b2261ceedd4a4831957732ebae5ad33bf5c7fc80 smb: smbdirect: introduce smbdirect_public.h with prototypes
-89df0942907894a92dbece12bfa35e1647959b0c smb: smbdirect: provide explicit prototypes for cross .c file functions
-4c9e665cb1132b92812886d08ec784132eb66caf smb: smbdirect: introduce smbdirect_init_send_batch_storage()
 84df3cde16090d5d1de4df31623ef0433fdea041 smb: smbdirect: split out smbdirect_accept_negotiate_finish()
 03f9e2c15f8fa32b8056a3a59f98f652726f78b8 smb: smbdirect: introduce smbdirect_socket_bind()
 dc691b91ad1677def14582a279e56fd943b52f94 smb: smbdirect: introduce smbdirect_socket_{listen,accept}()
@@ -1045,10 +1036,19 @@ b935117fe6d1af576e39b1f18c9e875f44bd146f Merge tag 'kbuild-fixes-7.1-1' of git:/
 14479877c1ec9667edb4a7c20a8d7a704e7249ca Merge tag 'clk-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/clk/linux
 254f49634ee16a731174d2ae34bc50bd5f45e731 Linux 7.1-rc1
 790ead9394860e7d70c5e0e50a35b243e909a618 Documentation: net/smc: correct old value of smcr_max_recv_wr
-16fc24261de2ad2adfb85054c178d31c52a68489 libeth: pass Rx queue index to PP when creating a fill queue
-a1cefbb394b2f1d6ace843e4650a226eeca2260b libeth: handle creating pools with unreadable buffers
-cc86e30f45ce4cef86b7d99366d0bc360d419861 ice: migrate to netdev ops lock
-bbcf8f8d8f2037140cb7b5c067aeec7fcf1ee55f ice: implement Rx queue management ops
-42c84c6ed4fc2e898e1c899f53f09bbd9a4d5e81 ice: add support for transmitting unreadable frags
+51f68534cb957e7c88c1617394e27296cec6a472 virtchnl: create 'include/linux/intel' and move necessary header files
+5fc00ba93ca1ef08c98b6ca45139b5fddc84e709 libie: add PCI device initialization helpers to libie
+c437b7152ad6b8de98c4e64d88cf906f40c81fbe libeth: allow to create fill queues without NAPI
+71cbacf1d8ffbd2fbd9188a0b186dd99aca19bb7 libie: add control queue support
+4fa69f11b7c7eb9f6b55a0e15dd8dbb5e3564957 libie: add bookkeeping support for control queue messages
+ef500f442e19a1886323e500b27ede29df4cadba idpf: remove 'vport_params_reqd' field
+58f6f218fd1564f5a7b1f2115ca87268a48e06b2 idpf: refactor idpf to use libie_pci APIs
+2c5e0594a79f92335a65417842bb4bc1fe8f141a idpf: refactor idpf to use libie control queues
+4203f27dd9feb40ec359af4f0381a4dc76428c6a idpf: make mbx_task queueing and cancelling more consistent
+b963bf7e5a3bd98aec99c36870c1758d99eac07e idpf: print a debug message and bail in case of non-event ctlq message
+9df41dbc22a05a19ee6c691bb08fe89b03842cfc ixd: add basic driver framework for Intel(R) Control Plane Function
+29bce02fe222d740c8f717f0460f8338b315b519 ixd: add reset checks and initialize the mailbox
+7a987fc6eae41f78ef29970863127b8bc2b033f5 ixd: add the core initialization
+2971e2e5a6e043bc38e32290896a227fae7eb04f ixd: add devlink support
 
---===============1066927775822993177==--
+--===============0563835836155708633==--
