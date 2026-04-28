@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/security/vulns
-Date: Tue, 28 Apr 2026 00:43:19 -0000
-Message-Id: <177733699917.649692.2017286096545008205@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Tue, 28 Apr 2026 00:47:02 -0000
+Message-Id: <177733722221.653970.16201839731080696149@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/security/vulns
-user: sashal
+repo: pub/scm/linux/kernel/git/netdev/net
+user: kuba
 changes:
-  - ref: refs/heads/master
-    old: abd3e22276c1d66c3fa96d4d14eeb9a82fce4363
-    new: 938135e7eb8b27754d97f2fe53574aa16e0302bc
+  - ref: refs/heads/main
+    old: bde34e84edc8b5571fbde7e941e175a4293ee1eb
+    new: 2674d603a9e6970463b2b9ebcf8e31e90beae169
     log: |
-         938135e7eb8b27754d97f2fe53574aa16e0302bc sasha: review v7.0.2
+         d3aeb889dcbd78e95f500d383799a23d949796e0 net/sched: sch_choke: annotate data-races in choke_dump_stats()
+         59b145771c7982cfe9020d4e9e22da92d6b5ae31 net/sched: sch_fq_pie: annotate data-races in fq_pie_dump_stats()
+         2674d603a9e6970463b2b9ebcf8e31e90beae169 vrf: Fix a potential NPD when removing a port from a VRF
          
