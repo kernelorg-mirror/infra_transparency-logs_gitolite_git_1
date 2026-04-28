@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3016185964622058152=="
+Content-Type: multipart/mixed; boundary="===============3003345781634732280=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Tue, 28 Apr 2026 00:00:11 -0000
-Message-Id: <177733441174.607311.8585830137035434694@gitolite.kernel.org>
+Date: Tue, 28 Apr 2026 00:00:13 -0000
+Message-Id: <177733441360.607395.3381884921903588289@gitolite.kernel.org>
 
---===============3016185964622058152==
+--===============3003345781634732280==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,63 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/mm-unstable
-    old: a2ddbfd1af0f54ea84bf17f0400088815d012e8d
-    new: e9552db96ff65b44558fcee568f0d5f31a59c8f8
-    log: revlist-a2ddbfd1af0f-e9552db96ff6.txt
+  - ref: refs/heads/mm-stable
+    old: a5d1079c28a5bc6caa30ef4099ef04ed17d2c6aa
+    new: 254f49634ee16a731174d2ae34bc50bd5f45e731
+    log: revlist-a5d1079c28a5-254f49634ee1.txt
 
---===============3016185964622058152==
+--===============3003345781634732280==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a2ddbfd1af0f-e9552db96ff6.txt
+Content-Disposition: attachment; filename=revlist-a5d1079c28a5-254f49634ee1.txt
 
+dccd324fa9bd1a2907a63fa4cc2651f687b2b5d0 f2fs: fix to skip empty sections in f2fs_get_victim
+238e14eb7226f883b72caccd2d37bf5707df066b f2fs: fix data loss caused by incorrect use of nat_entry flag
+6a5e3de9c2bb0b691d16789a5d19e9276a09b308 f2fs: fix false alarm of lockdep on cp_global_sem lock
+7b9161a605e91d0987e2596a245dc1f21621b23f f2fs: fix to avoid uninit-value access in f2fs_sanity_check_node_footer
+02d91398a602c394d72cd61a67c84e2730c5f79b f2fs: fix to freeze GC and discard threads quickly
+8979bc3d2a252940a277392b5eb6e52be7a3e1a5 f2fs: invalidate block device page cache on umount
+01968164d94762db2f703647c5acfa28613844f1 f2fs: fix to preserve previous reserve_{blocks,node} value when remount
+3177779ae17db4c66c851f799505fb95c7530c03 virt: coco: change tsm_class to a const struct
+fc0a1d05e494fd218a51e46f6664d1e14d4327ea Merge branch 7.0/scsi-fixes into 7.1/scsi-staging
+8e8cb6f39930e836144f51cdb6d409c9e4cb71fe scsi: hpsa: Enlarge controller and IRQ name buffers
+23c29ca113e3838e9c8473c65dbc147bd058d757 scsi: ufs: ufs-qcom: Fix spelling mistake "retore" -> "restore"
+1821f77fdaec87b31bea950ca465a96601d78ab7 scsi: aic7xxx: Fix compiler warnings triggered by user space code
+1373df88d53594a32534fd8960c51d1d09be8ecb scsi: ufs: core: Add a comment block above ufshcd_mcq_compl_all_cqes_lock()
+efa1f6a9d7ce9246cb98c85335bba6a797e17584 scsi: ufs: core: Remove an include directive from ufshcd-crypto.h
+6daa8dd037459a1d1b105bd1008fa2a32f8708e5 scsi: ufs: core: Make the header files self-contained
+e32b5e8f09503be680bed75da51bb584134a1390 scsi: lpfc: Break out of IRQ affinity assignment when mask reaches nr_cpu_ids
+35f22f84bed13e122e549ffae490487122f3c3a8 scsi: lpfc: Select mailbox rq_create cmd version based on SLI4 if_type
+f75754f2feaa3be2f07838ef53914d15a10fd587 scsi: lpfc: Log MCQE contents for mbox commands with no context
+5b402a8aceb15682457b7e65eef1a133d6dfe7e3 scsi: lpfc: Add REG_VFI mailbox cmd error handling
+384075eb19b2218cbece4a1a758577f1ee0a5e40 scsi: lpfc: Remove deprecated PBDE feature
+ba6dec7e703e84152f049a7a1b4d33f3c1051226 scsi: lpfc: Update construction of SGL when XPSGL is enabled
+a1421afa0ddb6e6dfc3639f11f1b8dd83c7f9759 scsi: lpfc: Check ASIC_ID register to aid diagnostics during failed fw updates
+39d1d94166da32d6aa4abb898ef7f3217c3a17d0 scsi: lpfc: Introduce 128G link speed selection and support
+49b9f31e52b2125125318cb60fe9f5e7fa9c6755 scsi: lpfc: Add PCI ID support for LPe42100 series adapters
+7f1e2c1cce1cad097d14f384c2461c1ff6cac0d0 scsi: lpfc: Update lpfc version to 15.0.0.0
+927722dcfe0a5294433bb087387cc52a46cbf675 Merge patch series "Update lpfc to revision 15.0.0.0"
+721dec3ee9ff5231d13a412ff87df63b966d137b arm64: dts: imx8mm-emtop-som: Correct PAD settings for PMIC_nINT
+0fb37990774113afd943eaa91323679388584b6d arm64: dts: imx8mn-tqma8mqnl: Correct PAD settings for PMIC_nINT
+42a9f5a16328ed78a88e0498556965b6c6ec515c arm64: dts: imx8mm-tqma8mqml: Correct PAD settings for PMIC_nINT
+ac12b852b4ead4a586299c8f68cdcbcaf1bf6cbc bus: mhi: host: pci_generic: Add Telit FE912C04 modem support
+a1ed2cbb79e67dc0e4b821b78b17fb4e82482ffa Merge tag 'counter-updates-for-7.1' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/wbg/counter into char-misc-next
+94e731cbe84533a37701b4089b685d39e584fbea w1: ds2490: drop redundant device reference
+68c6d134edbf085ce63038b630c63f056279225a Merge tag 'mhi-for-v7.1' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/mani/mhi into char-misc-next
+b2b0dcaa28d2d7389e5845285a50d0151dd6c017 dt-bindings: rtc: sc2731: Add compatible for SC2730
+d1b091aaba8c6a61950ac8bd15be61418f8dbf88 dt-bindings: rtc: add olpc,xo1-rtc to trivial-rtc
+fc0ed906f1eaf189eff76f586bb898eaa4193ba9 drm/amd/display: Wire up dcn10_dio_construct() for all pre-DCN401 generations
+57ce498faa1e4d358bf44b5df575874c22922786 drm/amd/display: Fix dc_is_fp_enabled name mismatch
+118362a96286367b04b31cebb25c6ca3601644a4 drm/edid: Parse AMD Vendor-Specific Data Block
+bf3fc94cd72abe6fc6cd88691fa98f817f4cd6db drm/amd/display: Use drm_display_info for AMD VSDB data
+f2483b3f39c8e20d2de0cc16e512a1b2aa14baf9 drm/amd/display: Fix parameter mismatch in panel self-refresh helper
+4e8197426f8f10a9afc9a50fc2970b733ed22d85 drm/amd/display: Fix missing parameter details in amdgpu_dm_ism
+66085e206431ef88ce36f53c1f53d570790ccc9e drm/amdgpu: Add bounds checking to ib_{get,set}_value
+de2a02cc28d6d5d37db07d00a9a684c754a5fd74 drm/amdgpu/vce: Prevent partial address patches
+b193019860d61e92da395eae2011f2f6716b182f drm/amdgpu/vcn3: Prevent OOB reads when parsing dec msg
+0a78f2bac1424deb7c9d5e09c6b8e849d8e8b648 drm/amdgpu/vcn4: Prevent OOB reads when parsing dec msg
+2444eb0ec8283f4a3845eb7febad378476e1ba3c drm/amdgpu/vcn4: Prevent OOB reads when parsing IB
 8d45d88e0b3d17c9f847cef8171c95c19d2cbdf5 drm/amd/ras: enable uniras via IP version check
 c9042a4dd6ac311281fc2d95d0d9f8e3278608c5 drm/amdgpu: Add reserved region ids
 9bb16dabb09116d3308772569e850477f2d803b5 drm/amdgpu: Add stolen vga reserve-region
@@ -1004,51 +1050,5 @@ b935117fe6d1af576e39b1f18c9e875f44bd146f Merge tag 'kbuild-fixes-7.1-1' of git:/
 20b64cf8705a0f6268bb9a320eb6b4c425f3ec6c Merge tag 'tsm-for-7.1' of git://git.kernel.org/pub/scm/linux/kernel/git/devsec/tsm
 14479877c1ec9667edb4a7c20a8d7a704e7249ca Merge tag 'clk-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/clk/linux
 254f49634ee16a731174d2ae34bc50bd5f45e731 Linux 7.1-rc1
-82d1f01292d3f09bf063f829f8ab8de12b4280a1 vmalloc: fix buffer overflow in vrealloc_node_align()
-602655067e25030cb68c32a355ba1007a76a0c5a mailmap: update entry for Dan Carpenter
-0562b572ce591858749fc2f9477567e7e5c5d99f liveupdate: fix return value on session allocation failure
-9ec95329894864170a1a7685b9a11b739393131a kho: fix error handling in kho_add_subtree()
-0437906841d0448121a7907b71b73c6cf2fc7afb mm: start background writeback based on per-wb threshold for strictlimit BDIs
-619eab23e1ce7c97e54bfc5a417306d94b3f6f13 mm/vma: do not try to unmap a VMA if mmap_prepare() invoked from mmap()
-69df7cda05bebbf790f6eb0f2fda5b89f596bd59 MAINTAINERS: fix regex pattern in CORE MM category
-8f5ce56b76303c55b78a87af996e2e0f8535f979 mm/hugetlb_cma: round up per_node before logging it
-77a50e9652ac3c669c6690088bce97d960f5fd17 MAINTAINERS: update Liam's email address
-adeeacf696b2b2e8e4a42089f09c76578b42d92f MAINTAINERS, mailmap: update email address for Qi Zheng
-2aeb64a2b90da8ed1bb71d1a6dce61a11f69f3cf MAINTAINERS: update Li Wang's email address
-1e68eb96e8beb1abefd12dd22c5637795d8a877e mm/damon/sysfs-schemes: protect memcg_path kfree() with damon_sysfs_lock
-cf3b71421ca00807328c6d9cd242f9de3b77a4bf mm/damon/sysfs-schemes: protect path kfree() with damon_sysfs_lock
-a3907a3169d09ebaeef9631ab6a4534314545ef7 selftests/mm: specify requirement for PROC_MEM_ALWAYS_FORCE=y
-64a140afa5ed1c6f5ba6d451512cbdbbab1ba339 mm/damon/reclaim: detect and use fresh enabled and kdamond_pid values
-b98b7ff6025ae82570d4915e083f0cbd8d48b3cf mm/damon/lru_sort: detect and use fresh enabled and kdamond_pid values
-f98590bc08d4aea435e1c2213e38bae0d9e9a7bb mm/damon/stat: detect and use fresh enabled value
-ba13b28decbb09ce5296a3303e85235e120147f2 MAINTAINERS: remove stale kdump project URL
-292411fda25bdcb8cd0cb513fa5583a36dd36354 mm/userfaultfd: detect VMA type change after copy retry in mfill_copy_folio_retry()
-fda706796e207b680ab1199ba5167f948c176e6b mm/migrate_device: fix spinlock leak in migrate_vma_insert_huge_pmd_page
-1d88fc8a6807aaad18893a2b0bf80c5b0953ea1b mm/memory_hotplug: fix memory block reference leak on remove
-7e5cd1be095d037c0d1db46ebad7cfd299cfe6d8 drivers/base/memory: fix memory block reference leak in poison accounting
-c0b0360b199e154eebb05a92a4790ccbb1e41dbd mm/damon/sysfs-schemes: call missing mem_cgroup_iter_break()
-6b8728faa0655099cfb88eae3bd23a7fd31fd5bd mm/damon: fix damos_stat tracepoint format for sz_applied
-46d22dbab29768f72c862c775fdd56f3db942235 scripts/gdb: mm: cast untyped symbols in x86_page_ops
-ad0c7ea3a838a0f36ba4ff87b11d1bfdf05a510e scripts/gdb: slab: update field names of struct kmem_cache
-c6874b6d229957bc7c53d5cac152124499e6a7ca selftests/mm: run_vmtests.sh: fix destructive tests invocation
-db60ce25493a58cdd5328edc35c968b148a92644 mm/page_alloc: fix initialization of tags of the huge zero folio with init_on_free
-67a53c8ccccd7d23bdfc7e4a9adfbe2be58606b1 mm-page_alloc-fix-initialization-of-tags-of-the-huge-zero-folio-with-init_on_free-fix
-c6272f1244b846801f56e699cb193f2e9157063e lib: kunit_iov_iter: fix test fail on powerpc
-1c4835204d4db0579416b8df16a5bbf7d46c508c device-dax: fix refcount leak in __devm_create_dev_dax() error path
-e73d1b44eefa6fd38ac647d82442eef7d2ea805c mm/hugetlb: restore reservation on error in hugetlb_mfill_atomic_pte() resubmission path
-87dee0d9f24ef9a0e1d242217ba4025e5f8b2c1d selftests/mm: respect build verbosity settings for 32/64-bit targets
-4076133d82a7eb31804843501fd4878148802fab selftests/mm: suppress compiler error in liburing check
-4fb7adf930bcbbe5b30ec052232f88b8054f8e88 mm/page_alloc: replace kernel_init_pages() with batch page clearing
-003022b7e2989534b94bd9e53957a86337dd61d7 Revert "tmpfs: don't enable large folios if not supported"
-40199b7febaf7def3f2eacb15bdf44ba699a2c7d mm/huge_memory: fix outdated comment about freeing subpages in __folio_split
-6df686b1f85a13c444686b3043e1c997b75bf992 mm: convert vmemmap_p?d_populate() to static functions
-5c71a93b2fb18d589e8d9c2d2760a4156fa02d27 mm/vmscan: add balance_pgdat begin/end tracepoints
-c67412e036994cf465b65e7ac7e298377155f520 mm/page_alloc: optimize free_contig_range()
-463fa362c6c56da152932033b530874f077705a4 vmalloc: optimize vfree with free_pages_bulk()
-d1622a1688c1ae00b8c138f42fb52e5136557c88 mm/page_alloc: optimize __free_contig_frozen_range()
-82ca9433019f57131df0aa906aac6305a5dd9c78 mm/gup: cleanup pgtable entry accessors
-8f02b6da6bdf3493396d1056911183505643a8a1 mm/gup: honour FOLL_PIN in NOMMU __get_user_pages_locked()
-f2d27227e399b3c7b916bb37f87b07a04c6634b9 mm/swap, PM: hibernate: fix swapoff race in uswsusp by pinning swap device
-e9552db96ff65b44558fcee568f0d5f31a59c8f8 mm/swap: remove redundant swap device reference in alloc/free
 
---===============3016185964622058152==--
+--===============3003345781634732280==--
