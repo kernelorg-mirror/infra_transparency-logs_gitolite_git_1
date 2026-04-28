@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7635689562881012881=="
+Content-Type: multipart/mixed; boundary="===============4069628823152119330=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ti/linux
-Date: Tue, 28 Apr 2026 03:57:27 -0000
-Message-Id: <177734864724.856334.3249418993252118313@gitolite.kernel.org>
+Date: Tue, 28 Apr 2026 03:57:35 -0000
+Message-Id: <177734865591.856600.924142557805475905@gitolite.kernel.org>
 
---===============7635689562881012881==
+--===============4069628823152119330==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ti/linux
 user: vigneshr
 changes:
-  - ref: refs/heads/ti-k3-maintainer-next
+  - ref: refs/heads/master
     old: 6de23f81a5e08be8fbf5e8d7e9febc72a5b5f27f
     new: 254f49634ee16a731174d2ae34bc50bd5f45e731
     log: revlist-6de23f81a5e0-254f49634ee1.txt
 
---===============7635689562881012881==
+--===============4069628823152119330==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ b935117fe6d1af576e39b1f18c9e875f44bd146f Merge tag 'kbuild-fixes-7.1-1' of git:/
 14479877c1ec9667edb4a7c20a8d7a704e7249ca Merge tag 'clk-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/clk/linux
 254f49634ee16a731174d2ae34bc50bd5f45e731 Linux 7.1-rc1
 
---===============7635689562881012881==--
+--===============4069628823152119330==--
