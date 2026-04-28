@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4215026869333151595=="
+Content-Type: multipart/mixed; boundary="===============1066927775822993177=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Tue, 28 Apr 2026 23:49:30 -0000
-Message-Id: <177742017011.2070287.9630847410524054930@gitolite.kernel.org>
+Date: Tue, 28 Apr 2026 23:49:42 -0000
+Message-Id: <177742018289.2070624.16761961666495043935@gitolite.kernel.org>
 
---===============4215026869333151595==
+--===============1066927775822993177==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,22 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/40GbE
-    old: 1f5ffc672165ff851063a5fd044b727ab2517ae3
-    new: 790ead9394860e7d70c5e0e50a35b243e909a618
-    log: revlist-1f5ffc672165-790ead939486.txt
+  - ref: refs/heads/100GbE
+    old: b14ad0f65009b1a0c1a803f979ebdb70020b3170
+    new: 42c84c6ed4fc2e898e1c899f53f09bbd9a4d5e81
+    log: revlist-b14ad0f65009-42c84c6ed4fc.txt
 
---===============4215026869333151595==
+--===============1066927775822993177==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1f5ffc672165-790ead939486.txt
+Content-Disposition: attachment; filename=revlist-b14ad0f65009-42c84c6ed4fc.txt
 
-a93b68d46e1450ca6d395be0ca002f8bdf04d9a6 smb: smbdirect: introduce smbdirect_connection_legacy_debug_proc_show()
-09d617d3121e14309ad5e4287b0da3ec27d386a8 smb: smbdirect: introduce smbdirect_connection_wait_for_connected()
-dc24063813ea617394db153cf9203286770ed404 smb: smbdirect: introduce smbdirect_connection_is_connected()
-b3e78c651441eaf08e830e260d06fd8d33a8b7f9 smb: smbdirect: introduce smbdirect_socket_shutdown()
-dce268ffcddc96f29707c1967c52b036ad92e43d smb: smbdirect: introduce smbdirect_socket_init_{new,accepting}() and helpers
 ede2b44b0e62378cb8585dda20a4edadbc621bb0 smb: smbdirect: let smbdirect_socket_set_initial_parameters() call rdma_restrict_node_type()
 d1f187656797fc7434388c1795e05f8abe370d46 smb: smbdirect: introduce smbdirect_connect[_sync]()
 eb3ed1e9048cf7b2a38112f48e0f1b772bb7860d smb: smbdirect: introduce smbdirect_accept_connect_request()
@@ -1050,5 +1045,10 @@ b935117fe6d1af576e39b1f18c9e875f44bd146f Merge tag 'kbuild-fixes-7.1-1' of git:/
 14479877c1ec9667edb4a7c20a8d7a704e7249ca Merge tag 'clk-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/clk/linux
 254f49634ee16a731174d2ae34bc50bd5f45e731 Linux 7.1-rc1
 790ead9394860e7d70c5e0e50a35b243e909a618 Documentation: net/smc: correct old value of smcr_max_recv_wr
+16fc24261de2ad2adfb85054c178d31c52a68489 libeth: pass Rx queue index to PP when creating a fill queue
+a1cefbb394b2f1d6ace843e4650a226eeca2260b libeth: handle creating pools with unreadable buffers
+cc86e30f45ce4cef86b7d99366d0bc360d419861 ice: migrate to netdev ops lock
+bbcf8f8d8f2037140cb7b5c067aeec7fcf1ee55f ice: implement Rx queue management ops
+42c84c6ed4fc2e898e1c899f53f09bbd9a4d5e81 ice: add support for transmitting unreadable frags
 
---===============4215026869333151595==--
+--===============1066927775822993177==--
