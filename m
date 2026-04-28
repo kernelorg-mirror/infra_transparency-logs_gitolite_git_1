@@ -1,52 +1,52 @@
-Content-Type: multipart/mixed; boundary="===============9138216380848197692=="
+Content-Type: multipart/mixed; boundary="===============0918401603389495776=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Tue, 28 Apr 2026 03:32:32 -0000
-Message-Id: <177734715270.827900.15156351530210955470@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
+Date: Tue, 28 Apr 2026 03:34:55 -0000
+Message-Id: <177734729591.829175.13403457534390768136@gitolite.kernel.org>
 
---===============9138216380848197692==
+--===============0918401603389495776==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/regulator
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/asoc-7.2
-    old: a960faa424ae459a7843da2734fa51580814b89a
-    new: cda1cf0526f1544e67283c019c3654c831cefc6c
+  - ref: refs/heads/for-7.2
+    old: a8fccc792f42bbaa1bec5d9e1e0a30ffa9654e2f
+    new: dfa2186f3f4da01c5867c8d0e388c2b221875af5
     log: |
-         bfa336cee3324f991e93e9e570e8b827273df97e ASoC: wsa881x: Move custom workaround to gpiolib-of
-         f4d00860e4a70aede0fb95173a5dc12bc89d7ee3 ASoC: wsa881x: Move custom workaround to gpiolib-of
-         cda1cf0526f1544e67283c019c3654c831cefc6c ASoC: Intel: cht_bsw_rt5672: Simplify probe() with local 'dev' pointer
+         1804b8a1b43698853cb254dc5750c627591f2c43 regulator: dt-bindings: qcom,rpmh: Add PMAU0102 support
+         bb6ea5ae0b278c3f6e28565965ef4c12b7447665 regulator: rpmh-regulator: Add RPMH regulator support for Nord
+         dfa2186f3f4da01c5867c8d0e388c2b221875af5 regulator: Add PMAU0102 RPMH regulator support
          
 
---===============9138216380848197692==
+--===============0918401603389495776==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1777347150 +0900
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1777347150-1c35452454a4b7526e7a72e16f97d9f85d76e7ea
+pusher C3F436CA30F5D8EB 1777347294 +0900
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/regulator.git
+nonce 1777347293-6f6512498ab7858ed52a801faac376be670db7fb
 
-a960faa424ae459a7843da2734fa51580814b89a cda1cf0526f1544e67283c019c3654c831cefc6c refs/heads/asoc-7.2
+a8fccc792f42bbaa1bec5d9e1e0a30ffa9654e2f dfa2186f3f4da01c5867c8d0e388c2b221875af5 refs/heads/for-7.2
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmnwKk4ACgkQJNaLcl1U
-h9AAvwf/VSXpH6YGxRwrxcthX5+k2xHlKHC7bbmJLAmm2eVfOqAJyCx1oFvgcmBK
-/e88jak8T5Pb6nxha/xc7bFCFYvNoGALfVpromkPUTA1CLeCdqaT0wEhzQleIgu5
-wL/PlYKUVOCMHRjtHhKWb6FIyxIQs8qyoBTqLK9n+uzt7D2wFzDp1oaYYsPVKpty
-+f79uOSaNLnc5eWpbcdt2O6RM+GoxGtOUXYHWPWHyuCp0Ds1hUSK1JqKVgEDH/sg
-Dgvs1S5trQ8isoF7JX2YB2MUBXPTFQ9aBsLhdk01b3mG8j8Kopysz+kGOuKJ1W7C
-HaZ8Hfm57SslZDnoatlCKj8fp300hA==
-=VMGx
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmnwKt4ACgkQJNaLcl1U
+h9AUrAf/ZbZr3aUCTEPNEFswJBBfIoJDbHoIRsnF27oncL11A8mLLj03Cr6ovhF9
+zN8C6uYSc5AieQyb9L9E4VrSXmL/cFJ1ODqEz6g8Wc4qGmhFyEbjK93+MwV4O9od
+9toqAGMeEbBKnFVZ/15y2KT6Va6A966OQBY9mJZ1caWQMCwL4TSmJdvHGAZTbcHG
+ACbKNW7cNRoQiLCwm7Q2Zu0xUL4frnfzaZwTy7W8lvNsWqm/YDHCgqKW0UevGr99
+IPL3i15LcAqr60tJFlMZongdSyAU0qY3IRnNfoBmck1vEJ7iuBsRm9Y/4HwDexG1
+C98LRj7UD1Mt+bdTVpR/E+IxhhkIcQ==
+=FXK/
 -----END PGP SIGNATURE-----
 
---===============9138216380848197692==--
+--===============0918401603389495776==--
