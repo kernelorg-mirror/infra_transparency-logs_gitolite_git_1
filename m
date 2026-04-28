@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4789678235100811077=="
+Content-Type: multipart/mixed; boundary="===============0183654204155698452=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Tue, 28 Apr 2026 23:49:18 -0000
-Message-Id: <177742015888.2069814.7549719026734638630@gitolite.kernel.org>
+Date: Tue, 28 Apr 2026 23:49:24 -0000
+Message-Id: <177742016439.2070068.11213140193636536237@gitolite.kernel.org>
 
---===============4789678235100811077==
+--===============0183654204155698452==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,32 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
-    old: bfc437ce7d7fd31eab8e60517ecd4062fbcc52ae
-    new: 26d3498d11d4db7795549d383c0160b1866f667b
-    log: revlist-bfc437ce7d7f-26d3498d11d4.txt
+  - ref: refs/heads/10GbE
+    old: 1f5ffc672165ff851063a5fd044b727ab2517ae3
+    new: 790ead9394860e7d70c5e0e50a35b243e909a618
+    log: revlist-1f5ffc672165-790ead939486.txt
 
---===============4789678235100811077==
+--===============0183654204155698452==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-bfc437ce7d7f-26d3498d11d4.txt
+Content-Disposition: attachment; filename=revlist-1f5ffc672165-790ead939486.txt
 
+a93b68d46e1450ca6d395be0ca002f8bdf04d9a6 smb: smbdirect: introduce smbdirect_connection_legacy_debug_proc_show()
+09d617d3121e14309ad5e4287b0da3ec27d386a8 smb: smbdirect: introduce smbdirect_connection_wait_for_connected()
+dc24063813ea617394db153cf9203286770ed404 smb: smbdirect: introduce smbdirect_connection_is_connected()
+b3e78c651441eaf08e830e260d06fd8d33a8b7f9 smb: smbdirect: introduce smbdirect_socket_shutdown()
+dce268ffcddc96f29707c1967c52b036ad92e43d smb: smbdirect: introduce smbdirect_socket_init_{new,accepting}() and helpers
+ede2b44b0e62378cb8585dda20a4edadbc621bb0 smb: smbdirect: let smbdirect_socket_set_initial_parameters() call rdma_restrict_node_type()
+d1f187656797fc7434388c1795e05f8abe370d46 smb: smbdirect: introduce smbdirect_connect[_sync]()
+eb3ed1e9048cf7b2a38112f48e0f1b772bb7860d smb: smbdirect: introduce smbdirect_accept_connect_request()
+20cd3cc4420bdb9f63644cd140e2682f634e651e smb: smbdirect: introduce smbdirect_socket_create_{kern,accepting}() and smbdirect_socket_release()
+b1e6277bd1240c3a66aac537b1b43b4bfd2edcd8 smb: smbdirect: let smbdirect_socket.h include all headers for used structures
+5e4bf7fadd4a608cace7604b720483f051f8176f smb: smbdirect: let smbdirect_internal.h define pr_fmt without SMBDIRECT_USE_INLINE_C_FILES
+b2261ceedd4a4831957732ebae5ad33bf5c7fc80 smb: smbdirect: introduce smbdirect_public.h with prototypes
+89df0942907894a92dbece12bfa35e1647959b0c smb: smbdirect: provide explicit prototypes for cross .c file functions
+4c9e665cb1132b92812886d08ec784132eb66caf smb: smbdirect: introduce smbdirect_init_send_batch_storage()
+84df3cde16090d5d1de4df31623ef0433fdea041 smb: smbdirect: split out smbdirect_accept_negotiate_finish()
 03f9e2c15f8fa32b8056a3a59f98f652726f78b8 smb: smbdirect: introduce smbdirect_socket_bind()
 dc691b91ad1677def14582a279e56fd943b52f94 smb: smbdirect: introduce smbdirect_socket_{listen,accept}()
 f9a804da479cc41172f1039b4ffde06a09920506 smb: smbdirect: introduce the basic smbdirect.ko
@@ -1035,20 +1050,5 @@ b935117fe6d1af576e39b1f18c9e875f44bd146f Merge tag 'kbuild-fixes-7.1-1' of git:/
 14479877c1ec9667edb4a7c20a8d7a704e7249ca Merge tag 'clk-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/clk/linux
 254f49634ee16a731174d2ae34bc50bd5f45e731 Linux 7.1-rc1
 790ead9394860e7d70c5e0e50a35b243e909a618 Documentation: net/smc: correct old value of smcr_max_recv_wr
-ceb74fe6069445534b28786e9611d8f6e08e557a igc: Call netif_queue_set_napi() with rtnl locked
-4989b9b0e69091880374605de56fcd6757ba85ec igc: Let the PCI core deal with the PM resume flow
-6370b738eb61ff97bbde1f5401dba0b84b8526b4 igc: Don't reset the hardware on suspend path
-87731b260e888e01d36b1636577dfbb6d32a9a5a igc: prepare for RSS key get/set support
-0ae385046c0b19376b2a83b549b2f2f46db6f535 igc: expose RSS key via ethtool get_rxfh
-9bfe9b43c80af30d9b32e0798557295eadad9080 igc: allow configuring RSS key via ethtool set_rxfh
-173948771b4c55af7197fe767d18318255d27085 igb: prepare for RSS key get/set support
-8a977022238f023d58a45841b8add3904c941c71 igb: expose RSS key via ethtool get_rxfh
-a96e7d3760353f8dd370984f2c7c830358fc97d3 igb: allow configuring RSS key via ethtool set_rxfh
-7f0631615e9e6759bbe47627c14f7176118d2dac igb: set skb hash type from RSS_TYPE
-dcfdcb7992ab881d7e9c2fe2f75e6db87a18814c igb: fix typos in comments
-c5f8eddc1563f23dbdb13ea3201bed5309a7d066 igc: fix typos in comments
-51a90b5be7b25f4fd634d70ab21d719639abb031 ice: add support for unmanaged DPLL on E830 NIC
-914a7e044427124150ccf3787a945bb956192f9f ice: mention fw_activate action along with devlink reload
-26d3498d11d4db7795549d383c0160b1866f667b ice: dpll: Fix compilation warning
 
---===============4789678235100811077==--
+--===============0183654204155698452==--
