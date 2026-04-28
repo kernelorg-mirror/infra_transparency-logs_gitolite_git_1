@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
-Date: Tue, 28 Apr 2026 18:29:27 -0000
-Message-Id: <177740096796.1750809.10582360396193627519@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/driver-core/driver-core
+Date: Tue, 28 Apr 2026 18:53:51 -0000
+Message-Id: <177740243135.1774855.8894023899737475111@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jic23/iio
-user: jic23
+repo: pub/scm/linux/kernel/git/driver-core/driver-core
+user: dakr
 changes:
-  - ref: refs/heads/fixes-togreg
-    old: b5e083bcf60d420029081ba41ab6dff92b96a49c
-    new: e1062abe4fbae497a464a4ee2956fb0d5039b278
+  - ref: refs/heads/driver-core-testing
+    old: a7cc262a11354ab104b8e55c21200d099d141bc7
+    new: 2690d071584ed8f488f2336f93272817b6999484
     log: |
-         e1062abe4fbae497a464a4ee2956fb0d5039b278 iio: adc: ad_sigma_delta: fix CS held asserted after single conversion
+         2690d071584ed8f488f2336f93272817b6999484 rust: ACPI: fix missing match data for PRP0001
          
