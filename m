@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mdraid/linux
-Date: Tue, 28 Apr 2026 12:56:55 -0000
-Message-Id: <177738101551.1405647.16786107920763079692@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/linkinjeon/ntfs
+Date: Tue, 28 Apr 2026 13:00:11 -0000
+Message-Id: <177738121192.1409817.16208109216105695905@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mdraid/linux
-user: yukuai
+repo: pub/scm/linux/kernel/git/linkinjeon/ntfs
+user: linkinjeon
 changes:
-  - ref: refs/tags/md-7.1-20260428
-    old: 0000000000000000000000000000000000000000
-    new: 3b2f70eab5a2cd15e27b1447e66e45302b28ff2c
+  - ref: refs/heads/ntfs-next
+    old: 785bc568161d96fdbd4326294d427a48e66fe60f
+    new: d986ba0329dcca102e227995371135c9bbcefb6b
+    log: |
+         d986ba0329dcca102e227995371135c9bbcefb6b ntfs: fix invalid PTR_ERR() usage in __ntfs_bitmap_set_bits_in_run()
+         
