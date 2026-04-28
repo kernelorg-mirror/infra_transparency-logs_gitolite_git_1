@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1819587077927491790=="
+Content-Type: multipart/mixed; boundary="===============7770203708059411450=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/peterz/queue
-Date: Tue, 28 Apr 2026 13:06:18 -0000
-Message-Id: <177738157881.1416359.1084428319484045898@gitolite.kernel.org>
+Date: Tue, 28 Apr 2026 13:07:05 -0000
+Message-Id: <177738162501.1416953.1894756645680355895@gitolite.kernel.org>
 
---===============1819587077927491790==
+--===============7770203708059411450==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,18 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/peterz/queue
 user: peterz
 changes:
-  - ref: refs/heads/perf/urgent
-    old: c7b0b3f00869d62e639ce205f159c3e14677a95c
-    new: e6855fc5055b2d307ac34cfa0d3d05e0f4823c6c
-    log: revlist-c7b0b3f00869-e6855fc5055b.txt
+  - ref: refs/heads/perf/core
+    old: d3c175fe0a567d0f6e0527ac72b67044998e2dde
+    new: 39e8020feaa36983eb1a138836845cbce535ba5a
+    log: revlist-d3c175fe0a56-39e8020feaa3.txt
 
---===============1819587077927491790==
+--===============7770203708059411450==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-c7b0b3f00869-e6855fc5055b.txt
+Content-Disposition: attachment; filename=revlist-d3c175fe0a56-39e8020feaa3.txt
 
-dc24063813ea617394db153cf9203286770ed404 smb: smbdirect: introduce smbdirect_connection_is_connected()
 b3e78c651441eaf08e830e260d06fd8d33a8b7f9 smb: smbdirect: introduce smbdirect_socket_shutdown()
 dce268ffcddc96f29707c1967c52b036ad92e43d smb: smbdirect: introduce smbdirect_socket_init_{new,accepting}() and helpers
 ede2b44b0e62378cb8585dda20a4edadbc621bb0 smb: smbdirect: let smbdirect_socket_set_initial_parameters() call rdma_restrict_node_type()
@@ -1050,5 +1049,6 @@ b935117fe6d1af576e39b1f18c9e875f44bd146f Merge tag 'kbuild-fixes-7.1-1' of git:/
 f500af2f2008c0809bd0267dd4b2dbf3825763a6 perf/x86/intel: Improve validation and configuration of ACR masks
 0fd4f656b9981fcd27a2687bb52cc5ce7d73740c perf/x86/intel: Disable PMI for self-reloaded ACR events
 e6855fc5055b2d307ac34cfa0d3d05e0f4823c6c perf/x86/intel: Enable auto counter reload for DMR
+39e8020feaa36983eb1a138836845cbce535ba5a perf/x86/intel: Consolidate MSR_IA32_PERF_CFG_C tracking
 
---===============1819587077927491790==--
+--===============7770203708059411450==--
