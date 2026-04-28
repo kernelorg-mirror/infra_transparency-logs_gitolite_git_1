@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8458796584488403902=="
+Content-Type: multipart/mixed; boundary="===============3942764602556869294=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bcain/linux
-Date: Tue, 28 Apr 2026 14:38:10 -0000
-Message-Id: <177738709020.1512129.1224955204631615864@gitolite.kernel.org>
+Date: Tue, 28 Apr 2026 14:38:29 -0000
+Message-Id: <177738710937.1512522.6129395918949803711@gitolite.kernel.org>
 
---===============8458796584488403902==
+--===============3942764602556869294==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,27 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bcain/linux
 user: bcain
 changes:
-  - ref: refs/heads/bcain/hmx
-    old: 1d0fb0b4cf1764f00775cff1c17c2b3494b6b94e
-    new: 90851a70c7b8ef32ddddd4e41de64b302845c786
-    log: revlist-1d0fb0b4cf17-90851a70c7b8.txt
+  - ref: refs/heads/bcain/boot_qemu
+    old: 7620f594f60eb28d50a914345a9a3e80ea74b5b6
+    new: 96b5b50af1a9c15eb6f848f6653baf34572a5c82
+    log: revlist-7620f594f60e-96b5b50af1a9.txt
 
---===============8458796584488403902==
+--===============3942764602556869294==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-1d0fb0b4cf17-90851a70c7b8.txt
+Content-Disposition: attachment; filename=revlist-7620f594f60e-96b5b50af1a9.txt
 
+1b1ee1e3ee32115492adc6c746177fca6fc8593b smb: server: make use of smbdirect_socket_cleanup_work()
+0ffbbfdf6a2698d31dc6b38b47fa04ef0cd075a1 smb: server: make use of smbdirect_socket_schedule_cleanup()
+01f26988c8728c5dd993f03b316c32d2cce3b4e3 smb: server: make use of smbdirect_connection_{get,put}_recv_io()
+aa1255e71ffac6868e9db10ac3b6c2c10711afd9 smb: server: make use of smbdirect_connection_reassembly_{append,first}_recv_io()
+84d7085e5f2343877e4b0e0a55569f59f7db92a1 smb: server: make use of smbdirect_connection_idle_timer_work()
+c81c66d3c09aa1dfab2137ac6b737a206d228b2f smb: server: make use of smbdirect_frwr_is_supported()
+8ecb32ada10e13d608a80f1112daf03c82fa3683 smb: server: make use of smbdirect_connection_{alloc,free}_send_io()
+bb1d5c49d6cdc0be77719123237ead835216f304 smb: server: make use of smbdirect_connection_send_io_done()
+07aec3a151b732cfa06bd00821a1ed99b8f87c89 smb: server: make use of smbdirect_connection_{create,destroy}_mem_pools()
+8688d7a8c712dc507bf4ae6ee07c1eed536e35a5 smb: server: make use of smbdirect_map_sges_from_iter()
 ab8e9249e735f8801039f7eef7ca556d65f64b2b smb: server: make use of smbdirect_connection_qp_event_handler()
 d5e2bdda493f10ccc8e7c3545f79e2505ee94dff smb: server: make use of smbdirect_connection_negotiate_rdma_resources()
 5a2999d7d9c550f265b04e1abf5774e97150d220 smb: server: make use of smbdirect_connection_{create,destroy}_qp()
@@ -1040,15 +1050,5 @@ c792749b9265aba9c25237a00494b7f438fc064a hexagon: use angel0 as persistent conso
 ee38a3fa60fbd06e38cf8e6d326f13bb3de03525 hexagon: flush SMP call-function queue before entering idle
 738064c183607e1c783242b8be372eb0417083d0 hexagon: use PL011 console with 4 SMP CPUs in qemu_defconfig
 96b5b50af1a9c15eb6f848f6653baf34572a5c82 hexagon: drop -mlong-calls when linker supports range-extension thunks
-5496e283a372fe0a564398d73897ecab29df8ff9 hexagon: add HVX coprocessor context management
-01f9f05ebb046d8711653bbbc8dc7c2af19513aa hexagon: add UIO TCM driver
-5dd41b69bfb9ace574653b0fd1d4899c77024307 hexagon: add UIO VTCM driver
-df89a395f411ad9014d5a2968305996e679364f4 hexagon: add UIO shared buffer driver
-e784d7b8db4c5f862b0f66cea60ed1660d6dc6c8 hexagon: add PMU debugfs control interface
-1183c5a05702202bcc22328821e655d31df05f60 hexagon: replace module relocation switch with full reloc engine
-69d3e898a787cf2236d4e192013cc1a5483782d7 hexagon: remove unused smp_vm_unmask_irq and duplicate declarations
-119bebbf0e51d9c720e9b6d30f626c677065428e hexagon: bypass cached IE path when DEBUG_PREEMPT is enabled
-6c0a0b93af7b276463ad0798abf7e5a7da8b925f hexagon: add HMX coprocessor context management
-90851a70c7b8ef32ddddd4e41de64b302845c786 hexagon: implement arch-specific HugeTLB page table operations
 
---===============8458796584488403902==--
+--===============3942764602556869294==--
