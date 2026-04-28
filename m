@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6525949122040145803=="
+Content-Type: multipart/mixed; boundary="===============7419181398977436250=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Tue, 28 Apr 2026 05:59:21 -0000
-Message-Id: <177735596112.979346.8289436440295858281@gitolite.kernel.org>
+Date: Tue, 28 Apr 2026 05:59:38 -0000
+Message-Id: <177735597874.979717.12927621038209136669@gitolite.kernel.org>
 
---===============6525949122040145803==
+--===============7419181398977436250==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,15 +16,23 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: 6f66f7c2199f62c493add06667347e9d0306353a
-    new: 2077014b724a2ba8d64d53cb52111c3ae366a8f8
-    log: revlist-6f66f7c2199f-2077014b724a.txt
+    old: 2077014b724a2ba8d64d53cb52111c3ae366a8f8
+    new: f3c37e52299c98ddf0fcdbf814a3a96229ca0867
+    log: |
+         21725bf2e3a67744787b480cd0ccd42aa6ef039c Merge branch into tip/master: 'timers/clocksource'
+         06718580942fd10bcbadb108e8586e30b7169237 Merge branch into tip/master: 'x86/misc'
+         f3c37e52299c98ddf0fcdbf814a3a96229ca0867 Merge branch into tip/master: 'x86/tdx'
+         
+  - ref: refs/heads/tip/urgent
+    old: 254f49634ee16a731174d2ae34bc50bd5f45e731
+    new: 3b3bea6d4b9c162f9e555905d96b8c1da67ecd5b
+    log: revlist-254f49634ee1-3b3bea6d4b9c.txt
 
---===============6525949122040145803==
+--===============7419181398977436250==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6f66f7c2199f-2077014b724a.txt
+Content-Disposition: attachment; filename=revlist-254f49634ee1-3b3bea6d4b9c.txt
 
 57df858a46f0a4cc104716e0ec88864e5c386ca4 mailbox: add API to query available TX queue slots
 f9f0df23193a8afee3bfb5fc34970c93792d7163 mailbox: rockchip: kzalloc + kcalloc to kzalloc
@@ -81,6 +89,5 @@ d762a96e3dc2c82b551f0cc3506e89c904880cf9 Merge tag 'for-7.1/dm-fixes' of git://g
 53b6156308e5ec9f4440e7cd3e84c6d1775167b1 Merge tag 'fsnotify_for_v7.1-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/jack/linux-fs
 a1a671092d29455a890af272f0702925adafdf59 Merge tag 'fs_for_v7.1-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/jack/linux-fs
 3b3bea6d4b9c162f9e555905d96b8c1da67ecd5b Merge tag 'cgroup-for-7.1-rc1-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/tj/cgroup
-2077014b724a2ba8d64d53cb52111c3ae366a8f8 Merge branch 'linus'
 
---===============6525949122040145803==--
+--===============7419181398977436250==--
