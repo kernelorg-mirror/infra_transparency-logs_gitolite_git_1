@@ -1,32 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
-Date: Tue, 28 Apr 2026 06:15:05 -0000
-Message-Id: <177735690545.997315.3489792182258746394@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/wens/wireless-regdb
+Date: Tue, 28 Apr 2026 06:26:14 -0000
+Message-Id: <177735757434.1007818.7729420784521555608@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tiwai/sound
-user: tiwai
+repo: pub/scm/linux/kernel/git/wens/wireless-regdb
+user: wens
 changes:
-  - ref: refs/heads/for-linus
-    old: 7a5f1cd22d47f8ca4b760b6334378ae42c1bd24b
-    new: 6e7247d8f5fefeceb0bb9cc80a5388a636b219cd
-    log: |
-         0a7b5221b5b51cc798fcfc3be00d02eade149d69 ALSA: caiaq: Fix potentially leftover ep1_in_urb at error path
-         b32ae47a2b0a1fb4bd4942242847966d9b178222 ALSA: caiaq: Don't abort when no input device is available
-         c39f0bc03f84ba64c9144c95714df1dc36150f6d ALSA: usb-audio: Fix potential leak of pd at parsing UAC3 streams
-         6e7247d8f5fefeceb0bb9cc80a5388a636b219cd ALSA: usb-audio: Avoid potential endless loop in convert_chmap_v3()
-         
   - ref: refs/heads/master
-    old: 702806986e6bd2b2b37186be47aa63774bd62198
-    new: 012d7a79978869479c7c6c62ef8757f996710461
+    old: 3ceaf3bc0a3d81acd0c1bc413a620ed18e41475f
+    new: d0781152c3349d64faffaaa28d1221eafe389346
     log: |
-         0a7b5221b5b51cc798fcfc3be00d02eade149d69 ALSA: caiaq: Fix potentially leftover ep1_in_urb at error path
-         b32ae47a2b0a1fb4bd4942242847966d9b178222 ALSA: caiaq: Don't abort when no input device is available
-         c39f0bc03f84ba64c9144c95714df1dc36150f6d ALSA: usb-audio: Fix potential leak of pd at parsing UAC3 streams
-         6e7247d8f5fefeceb0bb9cc80a5388a636b219cd ALSA: usb-audio: Avoid potential endless loop in convert_chmap_v3()
-         012d7a79978869479c7c6c62ef8757f996710461 Merge branch 'for-linus'
+         756d784aa2ee2810ded0dd314d9764c80660a75b wireless-regdb: Update 6 GHz rules for Hong Kong (HK)
+         6873bfeb2ae677fd67578c93c11e8866ec3d7fff wireless-regdb: Update 5/6 GHz power rules for Russia (RU)
+         d0781152c3349d64faffaaa28d1221eafe389346 wireless-regdb: Fix 60 GHz power unit for Ukraine (UA)
          
