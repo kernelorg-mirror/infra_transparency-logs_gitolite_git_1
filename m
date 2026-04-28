@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netfilter/nf
-Date: Tue, 28 Apr 2026 09:55:20 -0000
-Message-Id: <177737012005.1219840.6390738254681465889@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/firmware/linux-firmware
+Date: Tue, 28 Apr 2026 10:20:25 -0000
+Message-Id: <177737162541.1243947.559945763304372323@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netfilter/nf
-user: pablo
+repo: pub/scm/linux/kernel/git/firmware/linux-firmware
+user: jwboyer
 changes:
-  - ref: refs/tags/nf-26-04-28
-    old: 0000000000000000000000000000000000000000
-    new: fbc76041e4b0c20afe38a60b102e44fa6432c229
-  - ref: refs/tags/v7.1-rc1
-    old: 0000000000000000000000000000000000000000
-    new: 5e9b7d093f3f77cb0af4409559e3d139babfb443
+  - ref: refs/heads/main
+    old: 40a3a8bc43b7f19bb22481947080bbdca304b4d1
+    new: a4fc9f93abb522b03f5fd5fedd4769d4c3a9310e
+    log: |
+         0cbdd055b0890a7c928a1e02c615a650df38dc5f qcom: Update CDSP firmware for Kaanapali platform
+         a4fc9f93abb522b03f5fd5fedd4769d4c3a9310e Merge branch 'robot/pr-0-1777366230' into 'main'
+         
