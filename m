@@ -1,21 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
-Date: Tue, 28 Apr 2026 17:05:31 -0000
-Message-Id: <177739593145.1667648.12136737145967694356@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/firmware/linux-firmware
+Date: Tue, 28 Apr 2026 17:30:09 -0000
+Message-Id: <177739740946.1691319.4497505839135389430@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jic23/iio
-user: jic23
+repo: pub/scm/linux/kernel/git/firmware/linux-firmware
+user: jwboyer
 changes:
-  - ref: refs/heads/fixes-togreg
-    old: ac3778b6e8d21fbe694975278aa95530b015c496
-    new: b5e083bcf60d420029081ba41ab6dff92b96a49c
+  - ref: refs/heads/main
+    old: a4fc9f93abb522b03f5fd5fedd4769d4c3a9310e
+    new: 5b50ca02f586e0e44820d1b98d6c7fabc465b2d2
     log: |
-         55bf748e4e1e5cd7eb8fc0c08609bfad25c8868e iio: adc: mt6359: fix unchecked return value in mt6358_read_imp
-         c2454ef4f2a3d78c1d1f4ecd317a9da2c6fb2377 iio: dac: max5821: fix return value check in powerdown sync
-         b5e083bcf60d420029081ba41ab6dff92b96a49c iio: adc: meson-saradc: fix calibration buffer leak on error
+         92b146e268b1a6ccd6e4a2d405ccc0120b858923 qcom/x1e80100/dell: mark that qcom/NOTICE.txt is applicable too
+         5b50ca02f586e0e44820d1b98d6c7fabc465b2d2 Merge branch 'dell-notice' into 'main'
          
