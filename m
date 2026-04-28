@@ -1,63 +1,53 @@
-Content-Type: multipart/mixed; boundary="===============4197944597662411637=="
+Content-Type: multipart/mixed; boundary="===============0116989482260466360=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Tue, 28 Apr 2026 12:14:39 -0000
-Message-Id: <177737847943.1359117.1298480550052664328@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/util-linux/util-linux
+Date: Tue, 28 Apr 2026 12:18:54 -0000
+Message-Id: <177737873469.1363972.18320170481713142807@gitolite.kernel.org>
 
---===============4197944597662411637==
+--===============0116989482260466360==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/utils/util-linux/util-linux
+user: kzak
 changes:
   - ref: refs/heads/master
-    old: 8518a857460a79df17849e6df41f1583ac7a959f
-    new: 85d78b707f5cf850ea9f9b9c78c76d388c64136a
+    old: 8526abb7312b4ce56bb644434e1893dad03cdabf
+    new: f117d3ab27705aecadc04bbb925d9250e3a9b737
+    log: revlist-8526abb7312b-f117d3ab2770.txt
+  - ref: refs/heads/stable/v2.42
+    old: 03f695814180d705a2a08f6f779700cb75845361
+    new: de96f05b026d69df26ae166264ec35cd75e93442
     log: |
-         a0c2ea80dcd9e35e198d9951436467fd0aff5576 5.10-stable patches
-         1b4d0495256de33963bd5bb1ede502ba85d6694b 5.15-stable patches
-         8fa20200d4913b060bd56e5b766bc453028a7221 6.1-stable patches
-         4fbfd99a606bb34495e3c5ddb6fbbfaf02bac258 6.6-stable patches
-         65b7c7c8c8c8bc60442c67dffa598eceaa92572f 6.12-stable patches
-         77a49c2f82a50b5d1714e7fffd798cb22a105a82 6.18-stable patches
-         5e95391c2244a42e30370bb05734385838b5e2f7 7.0-stable patches
-         85d78b707f5cf850ea9f9b9c78c76d388c64136a Merge branch 'master' of gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue
+         de96f05b026d69df26ae166264ec35cd75e93442 dmesg: fix out-of-bounds read when parsing malformed kmsg file
          
 
---===============4197944597662411637==
+--===============0116989482260466360==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-8526abb7312b-f117d3ab2770.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1777378437 -0600
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1777378472-e4a6f4a71d03f04b26cc177c6c33d72504ad37b9
+ae4fdee23ca67f5342ca6b76579e2a4a5769f21d tests: show kernel type
+e84e13e4f54477e5b7c3c0c96d038fa52461cc51 setpgid: (tests) validate presence of /proc/self/stat
+31e5e272cf6bdbc886737914395e8bf8dd0d2300 hardlink: (tests) Ignore xattrs
+6fb5087559b762527cac85c7352700e31f120f5e treewide: avoid unused argument and missing return warnings in fallbacks
+d0bd649e1d01bda9a7a306532c5594e0c3a84035 autotools: use $(ECONF_LIBS) instead of -leconf
+a783a6c988ff1aa8f651e4d203bf88cacdb275d6 autotools: use $(SELINUX_LIBS) instead of -lselinux
+577065edaea848208388263a1b218a0fbd132385 autotools: use $(SQLITE3_LIBS) instead of -lsqlite3
+5779d9562d46ff4793e929e6cdde723513beea3a autotools: use $(MATH_LIBS) instead of -lm for hwclock
+660a5ed7dff9c55cab6107ec24e6223da207d657 autotools: use PKG_CHECK_MODULES for libudev
+176a4d608873eab7588b26b81feacfc6712a4deb autotools: use PKG_CHECK_MODULES for libaudit
+d67b2dfa213a907db461cc0f02bba17f08760292 autotools: use PKG_CHECK_MODULES for libcap-ng
+634f7fbd4ed46ac5d1d4c2e4949cfcef1390c230 autotools: use PKG_CHECK_MODULES for zlib
+69e95c8b775f90f58c69dd5ab1cebef406ffbba6 autotools: split MATH_LIBS and ISNAN_LIBS
+3c7daccacdb70826a1ed00af1913be18bc869891 autotools,meson: drop unnecessary libm from test_pty
+2e7edc63157db4761999bf310696b288cdec6d44 autotools: fix AM_CONDITIONAL for HAVE_UDEV and HAVE_AUDIT
+44c7ffd8db968a1120a78b1e506706ea518975c2 Merge branch 'cross-platform' of https://github.com/t-8ch/util-linux
+f117d3ab27705aecadc04bbb925d9250e3a9b737 Merge branch 'PR/autotools-pkg-config-libs' of https://github.com/karelzak/util-linux-work
 
-8518a857460a79df17849e6df41f1583ac7a959f 85d78b707f5cf850ea9f9b9c78c76d388c64136a refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmnwpIUbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+O1UQALyhGBRi3Mf+GgX6Gyyv
-wtaTiWW1rLO1fPk0KEtvkWjf3hI19hB97ov5IcmvRpN7uR94Kwawc+LT011uT4iN
-MdAh+/BM1h/LUJYZ1ObzQ5izJ+nH1gMFkR1fPYLUIZh8CgORcBJORHROQ7vLvlUI
-MVxZWoJWfPeRJKy+QDkmFjYbWcgIifGGb02asqwY+YZpgjaoP+CfghXUApMKQrol
-SKQ7gUsY5FWf+ON3cwfBX0yk6QTdlkm5Pndw9L8NRruZkJpgTQBQwMgA2JTcTRfV
-rpbLt6tIT2CsFJdRFlLSS6L0+NnHmRuJ2P9+icIspZ0zUWSx3FFcwSbI3luDdyvQ
-K1QxtfovNlUadmcTMcK9OHnSly+JHOnOqxjiLcwlDe7Pv5a8Qvbiqe5B/dv/1hON
-djzkMnTVHgEw7riZr05pujfYmNcvQZdD3MzIbIGxpAUqD9ml2Y6E+HfKQRn0xAp1
-b4pNr0qw6gfNbSy5gasjST7pgE6q8A7KB9+aJ8vigzyaN7QQqzyPmoQHuZWesXpM
-1FN38b2X3t5hpkBW73NqS/Ios5srashDPd0IyVvCHEIaz+zOhRYrcmVa6cTGrzvD
-vt//clHe+xC9Z9RyFlKgU+oXBvLl0ZRntgf3EUsEfpg8YoDkno0mgxlSzObGqczH
-HO9iIkfJjjqyBXtKlKPszZXr
-=Ne65
------END PGP SIGNATURE-----
-
---===============4197944597662411637==--
+--===============0116989482260466360==--
