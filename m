@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sj/damon-hack
-Date: Wed, 29 Apr 2026 00:17:00 -0000
-Message-Id: <177742182064.2101393.16859797346691332182@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Wed, 29 Apr 2026 00:21:01 -0000
+Message-Id: <177742206177.2106302.5789535428637523016@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sj/damon-hack
-user: sj
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/master
-    old: e594f2fc303b9466dd369cab878052940d40383b
-    new: f4f739665151d2f24a2936a7e68cb06b429d876d
+  - ref: refs/heads/asoc-7.1
+    old: 13d30682e8dee191ac04e93642f0372a723e8b0c
+    new: be102efb832ef7e30e4cd4c2edf22bbf64ddf35a
     log: |
-         f4f739665151d2f24a2936a7e68cb06b429d876d patches/next: add damon_aggregated_v2 fixup
+         be102efb832ef7e30e4cd4c2edf22bbf64ddf35a ASoC: cs35l56: Fix illegal writes to OTP_MEM registers
          
