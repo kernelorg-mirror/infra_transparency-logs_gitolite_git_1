@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/lpieralisi/linux
-Date: Wed, 29 Apr 2026 13:37:41 -0000
-Message-Id: <177746986185.2903188.6806271421393084716@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/gerg/m68knommu
+Date: Wed, 29 Apr 2026 13:44:14 -0000
+Message-Id: <177747025460.2909133.5331515107261368621@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/lpieralisi/linux
-user: lpieralisi
+repo: pub/scm/linux/kernel/git/gerg/m68knommu
+user: gerg
 changes:
-  - ref: refs/heads/dev/gic-v5-acpi-iwb-deferral
-    old: 3b08031d8c20efeca76e72a6b5c86171c8772bc3
-    new: 7b9e977f52261a65fa9aef5e7af4afbb09b18360
+  - ref: refs/heads/for-next
+    old: c94727deb10720a8d42947fc6cb64373dab80472
+    new: e1dc8af96bc4dd798d7376b7926ebce684b93dfa
     log: |
-         c02b571ae0f0827f1be5b7b3d7b3ab3e4656da73 drivers/acpi: Move interrupt controllers autodep to generic ACPI IRQ code
-         7b9e977f52261a65fa9aef5e7af4afbb09b18360 irqchip/gic-v5: Add IWB IC to ACPI probe dependency control
+         e1dc8af96bc4dd798d7376b7926ebce684b93dfa m68k: coldfire: select legacy gpiolib interface for mcfqspi
          
