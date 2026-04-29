@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2905756950382833671=="
+Content-Type: multipart/mixed; boundary="===============7117966372581029207=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bcain/linux
-Date: Wed, 29 Apr 2026 03:19:59 -0000
-Message-Id: <177743279966.2287949.10030874389060301572@gitolite.kernel.org>
+Date: Wed, 29 Apr 2026 03:20:09 -0000
+Message-Id: <177743280948.2290708.12102559498176815491@gitolite.kernel.org>
 
---===============2905756950382833671==
+--===============7117966372581029207==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bcain/linux
 user: bcain
 changes:
-  - ref: refs/heads/bcain/hmx
-    old: bc27602aa29184f01883a8351efb37e0c3ac7646
-    new: 702d39aaafd354863915b40f8167c4d998175f9c
-    log: revlist-bc27602aa291-702d39aaafd3.txt
+  - ref: refs/heads/bcain/boot_qemu
+    old: 96b5b50af1a9c15eb6f848f6653baf34572a5c82
+    new: 54691cddb60fde350cbb5b202eaafc4bd9891d4c
+    log: revlist-96b5b50af1a9-54691cddb60f.txt
 
---===============2905756950382833671==
+--===============7117966372581029207==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-bc27602aa291-702d39aaafd3.txt
+Content-Disposition: attachment; filename=revlist-96b5b50af1a9-54691cddb60f.txt
 
 8c5b6a95bfd52e3855c585aca6efe2b779a721d9 hexagon: update VM interface header
 ccb2d25ab2ec073ccc995b14ee61c0015a4b743d hexagon: update memory management headers
@@ -74,13 +74,5 @@ b02393e363dda6ed7f64059e9bb6331728732ff7 hexagon: use angel0 as persistent conso
 d6e1420a5c49270f9151f27e58363f73f6593ead hexagon: flush SMP call-function queue before entering idle
 fa8c13575a07403447c09deda3005c8943607d20 hexagon: use PL011 console with 4 SMP CPUs in qemu_defconfig
 54691cddb60fde350cbb5b202eaafc4bd9891d4c hexagon: drop -mlong-calls when linker supports range-extension thunks
-4ed8a0b40356823001481d1200c7205d618fa5d2 hexagon: add HVX coprocessor context management
-e7f7be3ae2a30e2cd78063be6a38d1ab0f80617e hexagon: add UIO TCM driver
-c77f7a1415b35228a78cfac2c0faf408305f2bf4 hexagon: add UIO VTCM driver
-39e95afa271d1fed6a40150cd166deb5ddaa4c05 hexagon: add UIO shared buffer driver
-1879c72127faa198cf1b5983024587f03d064a2a hexagon: add PMU debugfs control interface
-62a488e8ac9dbf2c50234ef64477b2be3ebe4293 hexagon: replace module relocation switch with full reloc engine
-138cc0c8da8f34a5ed0b20c2d8e1f6df02260258 hexagon: add HMX coprocessor context management
-702d39aaafd354863915b40f8167c4d998175f9c hexagon: enable HVX and HMX in qemu_defconfig
 
---===============2905756950382833671==--
+--===============7117966372581029207==--
