@@ -1,21 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/akpm/25-new
-Date: Wed, 29 Apr 2026 13:09:20 -0000
-Message-Id: <177746816077.2875091.11972794163287086238@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/lpieralisi/linux
+Date: Wed, 29 Apr 2026 13:37:41 -0000
+Message-Id: <177746986185.2903188.6806271421393084716@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/akpm/25-new
-user: akpm
+repo: pub/scm/linux/kernel/git/lpieralisi/linux
+user: lpieralisi
 changes:
-  - ref: refs/heads/master
-    old: a46eddb604fbe4c1760406d0deab5448cc989b99
-    new: 4007b24ab637bf013ecb6cef36616fed83f0f244
+  - ref: refs/heads/dev/gic-v5-acpi-iwb-deferral
+    old: 3b08031d8c20efeca76e72a6b5c86171c8772bc3
+    new: 7b9e977f52261a65fa9aef5e7af4afbb09b18360
     log: |
-         96408e09488adf48b5f061fd33d9f04065dc5194 foo
-         9faa958b6adff4db3da0e49d62e37bab9161ac62 foo
-         4007b24ab637bf013ecb6cef36616fed83f0f244 foo
+         c02b571ae0f0827f1be5b7b3d7b3ab3e4656da73 drivers/acpi: Move interrupt controllers autodep to generic ACPI IRQ code
+         7b9e977f52261a65fa9aef5e7af4afbb09b18360 irqchip/gic-v5: Add IWB IC to ACPI probe dependency control
          
