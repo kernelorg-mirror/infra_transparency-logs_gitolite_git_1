@@ -1,34 +1,31 @@
-Content-Type: multipart/mixed; boundary="===============2789499034447466054=="
+Content-Type: multipart/mixed; boundary="===============5050718844971563922=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/chanwoo/linux
-Date: Wed, 29 Apr 2026 20:15:22 -0000
-Message-Id: <177749372297.3309074.6091494569810767117@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/trace/linux-trace
+Date: Wed, 29 Apr 2026 20:15:46 -0000
+Message-Id: <177749374602.3309599.5336181109834623620@gitolite.kernel.org>
 
---===============2789499034447466054==
+--===============5050718844971563922==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/chanwoo/linux
-user: chanwoo
+repo: pub/scm/linux/kernel/git/trace/linux-trace
+user: rostedt
 changes:
-  - ref: refs/heads/devfreq-fixes
-    old: f338e77383789c0cae23ca3d48adcc5e9e137e3c
-    new: 254f49634ee16a731174d2ae34bc50bd5f45e731
-    log: revlist-f338e7738378-254f49634ee1.txt
+  - ref: refs/heads/trace/fixes
+    old: 250ab25391edeeab8462b68be42e4904506c409c
+    new: b2aa3b4d64e460ac606f386c24e7d8a873ce6f1a
+    log: revlist-250ab25391ed-b2aa3b4d64e4.txt
 
---===============2789499034447466054==
+--===============5050718844971563922==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f338e7738378-254f49634ee1.txt
+Content-Disposition: attachment; filename=revlist-250ab25391ed-b2aa3b4d64e4.txt
 
-b183b7b9b51fc37cc8e1fbad3c0d84e0cb605266 smb: smbdirect: introduce smbdirect_mr_io_fill_buffer_descriptor()
-a93b68d46e1450ca6d395be0ca002f8bdf04d9a6 smb: smbdirect: introduce smbdirect_connection_legacy_debug_proc_show()
-09d617d3121e14309ad5e4287b0da3ec27d386a8 smb: smbdirect: introduce smbdirect_connection_wait_for_connected()
 dc24063813ea617394db153cf9203286770ed404 smb: smbdirect: introduce smbdirect_connection_is_connected()
 b3e78c651441eaf08e830e260d06fd8d33a8b7f9 smb: smbdirect: introduce smbdirect_socket_shutdown()
 dce268ffcddc96f29707c1967c52b036ad92e43d smb: smbdirect: introduce smbdirect_socket_init_{new,accepting}() and helpers
@@ -1050,5 +1047,8 @@ b935117fe6d1af576e39b1f18c9e875f44bd146f Merge tag 'kbuild-fixes-7.1-1' of git:/
 20b64cf8705a0f6268bb9a320eb6b4c425f3ec6c Merge tag 'tsm-for-7.1' of git://git.kernel.org/pub/scm/linux/kernel/git/devsec/tsm
 14479877c1ec9667edb4a7c20a8d7a704e7249ca Merge tag 'clk-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/clk/linux
 254f49634ee16a731174d2ae34bc50bd5f45e731 Linux 7.1-rc1
+3b75dd76e64a04771861bb5647951c264919e563 tracing: branch: Fix inverted check on stat tracer registration
+5ec07d5204b4544271f32f6261ee097fe53cb081 tracepoint: Fix typo in tracepoint.h comment
+b2aa3b4d64e460ac606f386c24e7d8a873ce6f1a tracing/probes: Limit size of event probe to 3K
 
---===============2789499034447466054==--
+--===============5050718844971563922==--
