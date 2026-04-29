@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/hyperv/linux
-Date: Wed, 29 Apr 2026 22:16:02 -0000
-Message-Id: <177750096290.3428833.15441448343180646455@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kbuild/linux
+Date: Wed, 29 Apr 2026 22:22:36 -0000
+Message-Id: <177750135620.3434667.4408515902751360786@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/hyperv/linux
-user: wei.liu
+repo: pub/scm/linux/kernel/git/kbuild/linux
+user: nathan
 changes:
-  - ref: refs/heads/hyperv-fixes
+  - ref: refs/heads/kbuild-next-unstable
     old: 254f49634ee16a731174d2ae34bc50bd5f45e731
-    new: 3f8c8497b4fc249e27cb335c627114d8412e584d
+    new: a0d7be4ab3ece46919418c57d0de4b6fd4ce7590
     log: |
-         48fcc895403cc97aa6c776cb65e6aa11290c0b44 mshv: add a missing padding field
-         3fcf923302a8f5c0dc3af3d2ca2657cb5fae4297 hv: utils: handle and propagate errors in kvp_register
-         3f8c8497b4fc249e27cb335c627114d8412e584d hv: utils: replace deprecated strcpy with strscpy in kvp_register
+         a0d7be4ab3ece46919418c57d0de4b6fd4ce7590 kbuild: document generation of offset header files
          
