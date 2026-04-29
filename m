@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6018204276853786840=="
+Content-Type: multipart/mixed; boundary="===============3975553606484975102=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ardb/linux
-Date: Wed, 29 Apr 2026 08:05:45 -0000
-Message-Id: <177744994506.2576025.14807905958033397642@gitolite.kernel.org>
+Date: Wed, 29 Apr 2026 08:10:04 -0000
+Message-Id: <177745020433.2580445.4413717971585948803@gitolite.kernel.org>
 
---===============6018204276853786840==
+--===============3975553606484975102==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,30 +16,30 @@ repo: pub/scm/linux/kernel/git/ardb/linux
 user: ardb
 changes:
   - ref: refs/heads/arm64-remap-linear-data-alias-v5
-    old: 3a3639b3496ce6e8a603ad321af3487594190563
-    new: 67772970131dcc1cc6224211b28eea1d25114d8a
-    log: revlist-3a3639b3496c-67772970131d.txt
+    old: 67772970131dcc1cc6224211b28eea1d25114d8a
+    new: aa77b641fdc76fb1211bc3e3d5cff5cbff0021dd
+    log: revlist-67772970131d-aa77b641fdc7.txt
 
---===============6018204276853786840==
+--===============3975553606484975102==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3a3639b3496c-67772970131d.txt
+Content-Disposition: attachment; filename=revlist-67772970131d-aa77b641fdc7.txt
 
-14b9c132715c3af8d08593acc922050967ca9e50 arm64: mm: Map the linear alias of text/rodata as tagged
-f945a6b952275761b1cd6e53a7e41e68ed3bdf5b mm: Make empty_zero_page __ro_after_init
-1a71c06f094fd41ca10dcf96f7d4873f95e3dd0b arm64: mm: Preserve existing table mappings when mapping DRAM
-b188d2617618cf07b07da52f54995a9c73a95aaa arm64: mm: Preserve non-contiguous descriptors when mapping DRAM
-0e2f01226fd51054457afc7a1dde670fe05befc6 arm64: mm: Remove bogus stop condition from map_mem() loop
-d94dab9ba36d74765ff5497279b8537598f0010a arm64: mm: Drop redundant pgd_t* argument from map_mem()
-c604fa64dd45bfb1e7e741610d970164d53894aa arm64: mm: Permit contiguous descriptors to be rewritten
-74140d637c77d6c127f7d2efec8dbbfdce304f8c arm64: kfence: Avoid NOMAP tricks when mapping the early pool
-9b7df1f5a78aa24a4e801404137aff29c176062c arm64: mm: Permit contiguous attribute for preliminary mappings
-3534eca44f0464d861622b73662dcc675bf41970 arm64: Move fixmap page tables to end of kernel image
-16c5ea0626bc028087214e38919b42c57ef74343 arm64: mm: Don't abuse memblock NOMAP to check for overlaps
-ffdc7867cabe2f9b3e17169673f45c29e6310b95 arm64: mm: Map the kernel data/bss read-only in the linear map
-76ed0779777b5a8ec761bcc488563b04408b0e4b arm64: mm: Unmap kernel data/bss entirely from the linear map
-ec5e25a8d878415a568f6e26b9ba469b62f398b7 arm64: mm: Generalize manipulation code of read-only descriptors
-67772970131dcc1cc6224211b28eea1d25114d8a arm64: mm: Remap linear aliases of the fixmap page tables read-only
+2b37f46b930a62369561eb03f3262fd28101d7fa arm64: mm: Map the linear alias of text/rodata as tagged
+331218977239b2e4cdf6bf0be624b02093a7531e mm: Make empty_zero_page __ro_after_init
+4de6769291f7263a53bf7b2f06f2aa7478bda84f arm64: mm: Preserve existing table mappings when mapping DRAM
+82fe35d7995024983aa79c0a6a1e6142caa46007 arm64: mm: Preserve non-contiguous descriptors when mapping DRAM
+7aad81c483b094dac61f2d179065acfe6c351fcd arm64: mm: Remove bogus stop condition from map_mem() loop
+0f7e59be733625cc7ea642e1134a0e03d696959d arm64: mm: Drop redundant pgd_t* argument from map_mem()
+ea3e398e7824ccbf6c620f1aae07c570c9500863 arm64: mm: Permit contiguous descriptors to be rewritten
+c36c95ce7a95d6f13a504c6410032c4a99f6ba69 arm64: kfence: Avoid NOMAP tricks when mapping the early pool
+0f86d8b82d5907388fe45142f67bcd4be85a8c5a arm64: mm: Permit contiguous attribute for preliminary mappings
+7e508f9d9db8f69ff4e042f19780273e4baa9737 arm64: Move fixmap page tables to end of kernel image
+d89952056a5535789cd186a23871da1c566056a5 arm64: mm: Don't abuse memblock NOMAP to check for overlaps
+dc4443bbb6205f785dc8e9bd505ab61fe03c18fc arm64: mm: Map the kernel data/bss read-only in the linear map
+9a18036aa3a5498798bfc3840a7941c8d0e2375f arm64: mm: Unmap kernel data/bss entirely from the linear map
+6a296510978231f1b28ed7554dbb5d407969bac2 arm64: mm: Generalize manipulation code of read-only descriptors
+aa77b641fdc76fb1211bc3e3d5cff5cbff0021dd arm64: mm: Remap linear aliases of the fixmap page tables read-only
 
---===============6018204276853786840==--
+--===============3975553606484975102==--
