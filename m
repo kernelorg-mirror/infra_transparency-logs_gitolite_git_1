@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/bluetooth/bluez
-Date: Wed, 29 Apr 2026 13:47:30 -0000
-Message-Id: <177747045000.2913994.11106011604114265129@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/andy/linux-gpio-intel
+Date: Wed, 29 Apr 2026 13:47:44 -0000
+Message-Id: <177747046443.2914411.610446835421358609@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/bluetooth/bluez
-user: vudentz
+repo: pub/scm/linux/kernel/git/andy/linux-gpio-intel
+user: andy
 changes:
-  - ref: refs/heads/master
-    old: b3729e26cc42fb1477f325c994b2a51b34f929d7
-    new: 278f3439c45ffcb1309f9fe961be1b120bdde459
+  - ref: refs/heads/for-next
+    old: 9f414fd3b18cb8844ef62321151296a79b789bb3
+    new: 3bb62e3f99a557d257e5f5a803200051b7de3afa
     log: |
-         3171f7fd3685874a429556d23ef49f8504fa8c3c monitor: Add decoding support for Public Broadcast Announcements
-         5dc2d7e3334e4564f192f1b8c76217e114013066 client: add public-broadcast advertising command
-         278f3439c45ffcb1309f9fe961be1b120bdde459 client: make advertise.name use public broadcast name
+         3bb62e3f99a557d257e5f5a803200051b7de3afa gpiolib: acpi: Only trigger ActiveBoth interrupts on boot
          
