@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8628944996559264554=="
+Content-Type: multipart/mixed; boundary="===============8218592422637265772=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/johan/usb-serial
-Date: Wed, 29 Apr 2026 07:40:51 -0000
-Message-Id: <177744845194.2549717.14024666877503188155@gitolite.kernel.org>
+Date: Wed, 29 Apr 2026 07:41:03 -0000
+Message-Id: <177744846368.2550128.3348168946749798351@gitolite.kernel.org>
 
---===============8628944996559264554==
+--===============8218592422637265772==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/johan/usb-serial
 user: johan
 changes:
-  - ref: refs/heads/usb-linus
-    old: 591cd656a1bf5ea94a222af5ef2ee76df029c1d2
+  - ref: refs/heads/master
+    old: f338e77383789c0cae23ca3d48adcc5e9e137e3c
     new: 254f49634ee16a731174d2ae34bc50bd5f45e731
-    log: revlist-591cd656a1bf-254f49634ee1.txt
+    log: revlist-f338e7738378-254f49634ee1.txt
 
---===============8628944996559264554==
+--===============8218592422637265772==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-591cd656a1bf-254f49634ee1.txt
+Content-Disposition: attachment; filename=revlist-f338e7738378-254f49634ee1.txt
 
 b183b7b9b51fc37cc8e1fbad3c0d84e0cb605266 smb: smbdirect: introduce smbdirect_mr_io_fill_buffer_descriptor()
 a93b68d46e1450ca6d395be0ca002f8bdf04d9a6 smb: smbdirect: introduce smbdirect_connection_legacy_debug_proc_show()
@@ -1051,4 +1051,4 @@ b935117fe6d1af576e39b1f18c9e875f44bd146f Merge tag 'kbuild-fixes-7.1-1' of git:/
 14479877c1ec9667edb4a7c20a8d7a704e7249ca Merge tag 'clk-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/clk/linux
 254f49634ee16a731174d2ae34bc50bd5f45e731 Linux 7.1-rc1
 
---===============8628944996559264554==--
+--===============8218592422637265772==--
