@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7669642623980503993=="
+Content-Type: multipart/mixed; boundary="===============6303669112210681475=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sj/linux
-Date: Wed, 29 Apr 2026 14:58:17 -0000
-Message-Id: <177747469713.2985868.7416595996778035874@gitolite.kernel.org>
+Date: Wed, 29 Apr 2026 14:58:19 -0000
+Message-Id: <177747469947.2985961.82172259385116826@gitolite.kernel.org>
 
---===============7669642623980503993==
+--===============6303669112210681475==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sj/linux
 user: sj
 changes:
-  - ref: refs/heads/mm-new
-    old: 52dc268726a771d68839fb1e06e88b5157062a3f
-    new: 2a9da908816410b180ea24011821fd49a4d3f131
-    log: revlist-52dc268726a7-2a9da9088164.txt
+  - ref: refs/heads/mm-unstable
+    old: d94322006a51b522dd361128a450bf9e75aad889
+    new: d1682b5b78962e312f7b6e869846f71dbc38a40a
+    log: revlist-d94322006a51-d1682b5b7896.txt
 
---===============7669642623980503993==
+--===============6303669112210681475==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-52dc268726a7-2a9da9088164.txt
+Content-Disposition: attachment; filename=revlist-d94322006a51-d1682b5b7896.txt
 
 f946fa3bbcc72892c61abde94c1df3bbdff8c453 mm/migrate_device: fix spinlock leak in migrate_vma_insert_huge_pmd_page
 eccbd84f18a81e8da7f26ea91e319cace819a0b0 mm/damon/sysfs-schemes: call missing mem_cgroup_iter_break()
@@ -89,89 +89,5 @@ dbf80f9ad77a9a598d46690f234da37847f8d2d7 mm/mmu_gather: prepare to skip redundan
 67fceed5ef3c213a4fdcf57d57483daef3d82f93 x86/tlb: skip redundant sync IPIs for native TLB flush
 6a23126f05f4f9601412fc69861d7274d86bdee1 mm/swap, PM: hibernate: fix swapoff race in uswsusp by pinning swap device
 d1682b5b78962e312f7b6e869846f71dbc38a40a mm/swap: remove redundant swap device reference in alloc/free
-d7e8a1b612451ecd588fcfb8d45586a90c33e616 selftests/cgroup: skip test_zswap if zswap is globally disabled
-42d4dbc08ceafc80687743a1611f7c5b87711111 selftests/cgroup: avoid OOM in test_swapin_nozswap
-790cf6332a845934a43f996f0019dda83017ae6a selftests/cgroup: use runtime page size for zswpin check
-c1f3dc6788a45e0bcbbe0a0a4fac2337c36bfad5 selftests/cgroup: rename PAGE_SIZE to BUF_SIZE in cgroup_util
-2e20facb278df714f519f37f5d34ea51b9e062fa selftests/cgroup: replace hardcoded page size values in test_zswap
-d0950b10b36b88897e039f9d927b17cabfec7d3e selftest/cgroup: fix zswap test_no_invasive_cgroup_shrink on large pagesize system
-dd8dabc199c0a06b2edf89b7069d27134e053952 selftest/cgroup: fix zswap attempt_writeback() on 64K pagesize system
-395662500f063a6798251ade1e71339de7990ffb selftests/cgroup: test_zswap: wait for asynchronous writeback
-7fd51037e9459038795c796cb2b372e5c2652a7c mm/migrate_device: cleanup up PMD Checks and warnings
-638f73e96aed986a474ee5404da41003766cf144 mm/page_owner: add filter infrastructure
-19bf2fe2c4bc17cd9324287a81f42b1c89d38405 mm/page_owner: add print_mode filter
-6c5ae488b9db9becd01d7fdd22645db511f90ebe mm/page_owner: add NUMA node filter with nodelist support
-1690abe81d8eec94545c5a011b59dee9bef2588d mm/page_owner: document page_owner filter features
-396f513706fbb66b521e5824012264301f4fb871 mm/sparse: remove unnecessary NULL check before allocating mem_section
-36d83d393b39b472d37761d847144fcd6b1f82d5 mm/mglru: use folio_mark_accessed to replace folio_set_active in PF
-d1120be29346da80c9a257d855865a1aeeb23478 mm/vmscan: fix typos in comments
-337cae0469b66bce076444b7cc7f7d9f2447bc03 mm: fix mmap errno value when MAP_DROPPABLE is not supported
-b7ce4386a6798ae052e01e1fa67ec4ea894ce9af selftests/mm: verify droppable mappings cannot be locked
-bcc58810740d05cf08a1b4298cb3ad42379e4855 selftests/mm: run the MAP_DROPPABLE selftest
-bd21592dfc12a8ebb2f59a3947eef460000ac1d2 mm/page_owner: fix %pGp format specifier argument type
-7ecf13497ad3561a279805f02c6dff44d0300c55 Docs/mm/damon/maintainer-profile: add AI review usage guideline
-c1810c06531f899112e2481e70ca964d40437666 mm/sparse: remove sparse buffer pre-allocation mechanism
-0dbee47a37287901190c27c59ef2c7e39528171d mm/memory-failure: use bool for forcekill state
-51054c4a25982d53b65ce1d3c217d9f0161858b8 mm/khugepaged: use ALIGN helpers for PMD alignment
-bc56be464d3148d758562af33a07d03457501450 mm: huge_memory: use sysfs_match_string() in defrag_store()
-0d4a80ceba5b9c9491ea5f6e6136c33f371c5847 mm: huge_memory: refactor defrag_show() to use defrag_flags[]
-e4ab8f72215cd96266e27640a66bc4e8a250a08b mm/vmpressure: skip socket pressure for costly order reclaim
-3dd31586a47a617c9b9dbe60f11531c0827cec30 mm/page_io: rename swap_iocb fields for clarity
-166487eb82ff02f8527d54683a5669cdd580a811 mm/memory-failure: replace magic number 3 with GET_PAGE_MAX_RETRY_NUM
-f70ad603b6b09d3db3ddcc010be7b510c4f9cf1a mm/page_alloc: cleanup flag vars in alloc_pages_bulk_noprof()
-53baccb1ee348dbe48c7f5de1b9ef2be4da8030f mm/thp: dead code cleanup in Kconfig
-6df307af94ad15c1da18e659e39c460963e100da mm, page_alloc: reintroduce page allocation stall warning
-a57228cb8ad40f9cd1f83d256783cc3258ea8ef6 mm/lruvec: preemptively free dead folios during lru_add drain
-f5e320def142b64cbe9b04c876571a5df373c681 mm/hugetlb: fix hugetlb cgroup rsvd charge/uncharge mismatch
-9387834ea423ccba6ddc0e6f86c6b56cabe719f5 drm/managed: use special gfp_t format specifier
-49d62af8c260893bf1359c4f9f8ffc0a634d5a48 mm/kfence: use special gfp_t format specifier
-664330566f0dc52342cdf87ae7a99349c21052d9 net/rds: use special gfp_t format specifier
-17dad36acdb2da637213be0f923191b78b10742e dax/kmem: account for partial discontiguous resource upon removal
-fdf1e58cea17d3161eaf66b955ebc6eaccea389c selftests/mm: simplify byte pattern checking in mremap_test
-8fc162e74df426c4f7e2fdbcfbd4110668dc7a2f mm/sparse-vmemmap: fix vmemmap accounting underflow
-12a428dd3c0227c0ae642aca7715cfcbbd394282 mm/memory_hotplug: fix incorrect altmap passing in error path
-74d0ccfa150c69e6e9acd3c7d4a8d5e8bb55a979 mm/sparse-vmemmap: pass @pgmap argument to memory deactivation paths
-eea02bc1a78984969a33a22f3493f0a273f196a7 mm/sparse-vmemmap: fix DAX vmemmap accounting with optimization
-13f63e8f5c8e3e0184192cc940434124f6093623 mm/mm_init: fix pageblock migratetype for ZONE_DEVICE compound pages
-d028cda2b7dc6bbee8d08e196b988486e3aec5db mm/mm_init: fix uninitialized struct pages for ZONE_DEVICE
-3e9730103c49785316b7863484a600302ce1293f fs/proc/task_mmu: read proc/pid/{smaps|numa_maps} under per-vma lock
-0bc46f1cb94215c4030d10523a9e410f3cbd7010 selftests/proc: ensure the test is performed at the right page boundary
-2874d7110259e5146b486761de4eddeb531acfac selftests/proc: add /proc/pid/smaps tearing tests
-590ff6ba233cf82d291ceba79bcccf6cf703a4ab mm/damon/ops-common: optimize damon_hot_score() using ilog2()
-937e91922c39cfaa9fcededc1b0607ff416fc2e9 Docs/admin-guide/mm/damon: fix 'parametrs' typo
-4db9e3a8291ae3d97ff5273b15735201803b1a73 mm/damon: add synchronous commit for commit_inputs
-97b272fc5bdf5cbd903fdfc0f1400a3036efb24e mm/damon: support MADV_COLLAPSE via DAMOS_COLLAPSE scheme action
-ffe5234abbe610893d41d03f3b7e76004b0d7540 sh: use folio_mapped() instead of page_mapped() in sh4_flush_cache_page()
-604d21c70d7b8aaf6a625b36b69055f908420a91 bpf: arena: use page_ref_count() instead of page_mapped() in arena_free_pages()
-072f8c3ffaab7133f5ac4c6a8081453686f46b86 mm: remove page_mapped()
-ae8c920977192e31d047d99259dd828b21b967f4 mm/madvise: reject invalid process_madvise() advice for zero-length vectors
-e051efaf8c8bc8bdabcbd7f2b8eae4440b4a9f6d mm: limit filemap_fault readahead to VMA boundaries
-97385c5b9ffb54037b8dbd7d0a9195025873dc78 mm/damon/core: introduce damon_ctx->paused
-f4b0c9fc26b6dca31e870ccbe5af4b77f3b87806 mm/damon/sysfs: add pause file under context dir
-eedad18a84face12479681eb40bbb12f06f53160 Docs/mm/damon/design: update for context pause/resume feature
-b3468b1ec7a6eb6b9d2accc5066b303604c47b7a Docs/admin-guide/mm/damon/usage: update for pause file
-1fa1dd73f5f348487cc1aa30307b0c3483f535d6 Docs/ABI/damon: update for pause sysfs file
-c08b47a28dabab07089e8affafe2971c4c9a5cda mm/damon/tests/core-kunit: test pause commitment
-097f53402f90f2f6303003a19d5ed5f0732d28de selftests/damon/_damon_sysfs: support pause file staging
-c42985d904cdf4974d1f7e468114eb655331d5cf selftests/damon/drgn_dump_damon_status: dump pause
-6a1398bb27513c19835beb9eadf213dc60b8056b selftests/damon/sysfs.py: check pause on assert_ctx_committed()
-3aae1d875c3de8fd4e6ed840460e612221bf185b selftests/damon/sysfs.py: pause DAMON before dumping status
-41ece6f38c0e4dbc97bbb969f98beeaae5dc4d71 mm/migrate: rename PAGE_ migration flags to FOLIO_
-0937263c7a11accf50a6f9e747897ff541f8b9a9 mm/damon: add node_eligible_mem_bp goal metric
-b18247dfc40f28f8bfe0e453eb9a365d1562d7c5 mm/filemap: count only the faulting address as a mmap hit
-2f3e7e5fd93c2b555a878785950f8a7d7dc63cb9 mm/filemap: do not count FAULT_FLAG_TRIED retries as mmap hits
-4308acc0421fa1e454a7ab6720ef854df1d00a2d mm/damon/core: handle <min_region_sz remaining quota as empty
-40245c9db920668be9aa95468b8d6e5bdd8a45d0 mm/damon/core: merge regions after applying DAMOS schemes
-b90c7a4a597fee1015130ac6119ee294be0cbde8 mm/damon/core: introduce failed region quota charge ratio
-c38820f12b31edfe9d795b5810935b7c5dc3e351 mm/damon/sysfs-schemes: implement fail_charge_{num,denom} files
-0e49f8a81075059ff5cad2dd3427b7fe7cd25979 Docs/mm/damon/design: document fail_charge_{num,denom}
-3f9f7c69b369de1cce0e076fe762ed359e00d8a2 Docs/admin-guide/mm/damon/usage: document fail_charge_{num,denom} files
-c35731a7d167c537dc13fca6ff4be867bf7e4117 Docs/ABI/damon: document fail_charge_{num,denom}
-c702a963b897f563afc5799dd7d99a084d6ce966 mm/damon/tests/core-kunit: test fail_charge_{num,denom} committing
-ede1e25fa4dcca701e47567cec7282f9ed28f0b6 selftests/damon/_damon_sysfs: support failed region quota charge ratio
-2574290bbfc06e54afec484686d7c6b3f04b4a15 selftests/damon/drgn_dump_damon_status: support failed region quota charge ratio
-f17ca5bf2878f8d9c33266f67b72dc7ef1ea7a00 selftests/damon/sysfs.py: test failed region quota charge ratio
-1d0c9360edfe8042ddef2fe1cf4d835006af5a83 selftests/mm: khugepaged: initialize file contents via mmap
-2a9da908816410b180ea24011821fd49a4d3f131 flush dirty folio so that drop_caches can work
 
---===============7669642623980503993==--
+--===============6303669112210681475==--
