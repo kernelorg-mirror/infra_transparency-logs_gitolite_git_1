@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Wed, 29 Apr 2026 02:32:24 -0000
-Message-Id: <177742994457.2242337.727249424513404687@gitolite.kernel.org>
+Date: Wed, 29 Apr 2026 02:42:25 -0000
+Message-Id: <177743054589.2252385.14427771810620004022@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,10 +12,9 @@ repo: pub/scm/linux/kernel/git/broonie/ci
 user: broonie
 changes:
   - ref: refs/heads/asoc-7.1
-    old: a201aef1a88b675e9eb8487e27d14e2eef3cef80
-    new: 5add10d442defc9367cb1eb7e0c5ebc2f6976a8d
+    old: 5add10d442defc9367cb1eb7e0c5ebc2f6976a8d
+    new: 03dcb5b68a96b51157ec2d17042fa2f0106828ae
     log: |
-         f9944523a7ecfc84f53f28f8efb0a2d04361a0ea ASoC: spacemit: fix RX DMA params not set when TX is running
-         67a7638e68f090811a88445b3c6c29e78019aaa6 ASoC: spacemit: move hw constraints from hw_params to startup
-         5add10d442defc9367cb1eb7e0c5ebc2f6976a8d ASoC: spacemit: adjust FIFO trigger threshold to half FIFO size
+         6b4afbaaa342eaa52172e0be5ef8d1fcbf9ff460 ASoC: spacemit: move hw constraints from hw_params to startup
+         03dcb5b68a96b51157ec2d17042fa2f0106828ae ASoC: spacemit: adjust FIFO trigger threshold to half FIFO size
          
