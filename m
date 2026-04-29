@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1052726304391577218=="
+Content-Type: multipart/mixed; boundary="===============2789499034447466054=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/chanwoo/linux
-Date: Wed, 29 Apr 2026 20:15:06 -0000
-Message-Id: <177749370639.3308841.10297182798232238684@gitolite.kernel.org>
+Date: Wed, 29 Apr 2026 20:15:22 -0000
+Message-Id: <177749372297.3309074.6091494569810767117@gitolite.kernel.org>
 
---===============1052726304391577218==
+--===============2789499034447466054==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/chanwoo/linux
 user: chanwoo
 changes:
-  - ref: refs/heads/devfreq-next
-    old: cd905830ea6184d6678386ce2d652bec324034d1
+  - ref: refs/heads/devfreq-fixes
+    old: f338e77383789c0cae23ca3d48adcc5e9e137e3c
     new: 254f49634ee16a731174d2ae34bc50bd5f45e731
-    log: revlist-cd905830ea61-254f49634ee1.txt
+    log: revlist-f338e7738378-254f49634ee1.txt
 
---===============1052726304391577218==
+--===============2789499034447466054==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-cd905830ea61-254f49634ee1.txt
+Content-Disposition: attachment; filename=revlist-f338e7738378-254f49634ee1.txt
 
 b183b7b9b51fc37cc8e1fbad3c0d84e0cb605266 smb: smbdirect: introduce smbdirect_mr_io_fill_buffer_descriptor()
 a93b68d46e1450ca6d395be0ca002f8bdf04d9a6 smb: smbdirect: introduce smbdirect_connection_legacy_debug_proc_show()
@@ -1051,4 +1051,4 @@ b935117fe6d1af576e39b1f18c9e875f44bd146f Merge tag 'kbuild-fixes-7.1-1' of git:/
 14479877c1ec9667edb4a7c20a8d7a704e7249ca Merge tag 'clk-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/clk/linux
 254f49634ee16a731174d2ae34bc50bd5f45e731 Linux 7.1-rc1
 
---===============1052726304391577218==--
+--===============2789499034447466054==--
