@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/daveh/devel
-Date: Wed, 29 Apr 2026 22:54:39 -0000
-Message-Id: <177750327900.3465826.1545180828905697617@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
+Date: Wed, 29 Apr 2026 23:01:34 -0000
+Message-Id: <177750369456.3474570.10686666708688948351@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/daveh/devel
-user: daveh
+repo: pub/scm/linux/kernel/git/ath/ath
+user: jjohnson
 changes:
-  - ref: refs/heads/testme
-    old: 5209e5bfe5cab593476c3e7754e42c5e47ce36de
-    new: 00e05495c5727b0f7027ad6a2e235da62357d957
+  - ref: refs/heads/pending
+    old: 051b8571eb1ca1fe6cfb75fd67d6c89db6dd42ec
+    new: a9428bc7f3d168c89ac0c8e4b0db9af09e15b41e
     log: |
-         515c6b21602165b8c733d83bf3becdd777950d02 x86/microcode/intel: Refresh old_microcode defines with Nov 2025 release
-         00e05495c5727b0f7027ad6a2e235da62357d957 scripts/x86/intel: Add a script to update the old microcode list
+         a9428bc7f3d168c89ac0c8e4b0db9af09e15b41e wifi: ath12k: unify error handling in some ath12k_wmi_xxx() functions
          
