@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Wed, 29 Apr 2026 02:19:32 -0000
-Message-Id: <177742917220.2228589.1497264322613216685@gitolite.kernel.org>
+Date: Wed, 29 Apr 2026 02:32:24 -0000
+Message-Id: <177742994457.2242337.727249424513404687@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -11,11 +11,11 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/broonie/ci
 user: broonie
 changes:
-  - ref: refs/heads/spi-7.2
-    old: 43b0b44b31632d285327bbc9fa8d64ba8f328d48
-    new: 211ef7d627904834c9018f3f92b07569367cacf9
+  - ref: refs/heads/asoc-7.1
+    old: a201aef1a88b675e9eb8487e27d14e2eef3cef80
+    new: 5add10d442defc9367cb1eb7e0c5ebc2f6976a8d
     log: |
-         4cf8806a637e98c9d83f4254f56e922e9a8714fd spi: microchip-core-qspi: report device on which timeout occured instead of which controller
-         9c69bc6057a20642ee7db258b13f536c2e3214a2 spi: microchip-core-qspi: remove an unused define
-         211ef7d627904834c9018f3f92b07569367cacf9 spi: microchip core-qspi cleanup
+         f9944523a7ecfc84f53f28f8efb0a2d04361a0ea ASoC: spacemit: fix RX DMA params not set when TX is running
+         67a7638e68f090811a88445b3c6c29e78019aaa6 ASoC: spacemit: move hw constraints from hw_params to startup
+         5add10d442defc9367cb1eb7e0c5ebc2f6976a8d ASoC: spacemit: adjust FIFO trigger threshold to half FIFO size
          
