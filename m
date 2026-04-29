@@ -1,21 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Wed, 29 Apr 2026 04:18:37 -0000
-Message-Id: <177743631719.2348910.6908384363209552384@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/spi
+Date: Wed, 29 Apr 2026 04:18:59 -0000
+Message-Id: <177743633909.2349214.4597212062987283224@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/spi
 user: broonie
 changes:
   - ref: refs/heads/for-next
-    old: 1c50e427ef767a9c4b6e4f74b3d37a342fee80a5
-    new: ebba040bc6b0867900202b578967e9c59fef449a
+    old: 92547f54efc909b6299d15bc64e376efe7f04c9a
+    new: b42756a699f7d037cbd9b497cb9b9b51fd0ab8d5
     log: |
-         85db411913cbaf0ef4743cbcaffcdd6017df4274 ASoC: ti: j721e-evm: allocate dai_links with priv
-         116c535ea4770ee3af57c5d52d71c574009f93a7 ASoC: tegra: Add S8 PCM format support for MVC
-         ebba040bc6b0867900202b578967e9c59fef449a Merge remote-tracking branch 'asoc/for-7.2' into asoc-next
+         4cf8806a637e98c9d83f4254f56e922e9a8714fd spi: microchip-core-qspi: report device on which timeout occured instead of which controller
+         9c69bc6057a20642ee7db258b13f536c2e3214a2 spi: microchip-core-qspi: remove an unused define
+         211ef7d627904834c9018f3f92b07569367cacf9 spi: microchip core-qspi cleanup
+         b42756a699f7d037cbd9b497cb9b9b51fd0ab8d5 Merge remote-tracking branch 'spi/for-7.2' into spi-next
          
