@@ -1,30 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============2638340219499155180=="
+Content-Type: multipart/mixed; boundary="===============5364858740280223229=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/lee/mfd
-Date: Wed, 29 Apr 2026 11:31:23 -0000
-Message-Id: <177746228338.2779071.17005720790599424705@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/lee/leds
+Date: Wed, 29 Apr 2026 11:31:27 -0000
+Message-Id: <177746228761.2779254.16210356615783997282@gitolite.kernel.org>
 
---===============2638340219499155180==
+--===============5364858740280223229==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/lee/mfd
+repo: pub/scm/linux/kernel/git/lee/leds
 user: lee
 changes:
-  - ref: refs/heads/for-mfd-next
-    old: caa5a5d44d8ae4fd13b744857d66c9313b712d1f
-    new: 522d62d7aa11975873051c9c51e4bb8cd1828a9d
-    log: revlist-caa5a5d44d8a-522d62d7aa11.txt
+  - ref: refs/heads/for-leds-next
+    old: 7a43ccf85dfe06eef483c034e68b81ff326741aa
+    new: 863ba8705529004f998744964edc65d3e0cfe1a9
+    log: revlist-7a43ccf85dfe-863ba8705529.txt
 
---===============2638340219499155180==
+--===============5364858740280223229==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-caa5a5d44d8a-522d62d7aa11.txt
+Content-Disposition: attachment; filename=revlist-7a43ccf85dfe-863ba8705529.txt
 
 b3e78c651441eaf08e830e260d06fd8d33a8b7f9 smb: smbdirect: introduce smbdirect_socket_shutdown()
 dce268ffcddc96f29707c1967c52b036ad92e43d smb: smbdirect: introduce smbdirect_socket_init_{new,accepting}() and helpers
@@ -1046,9 +1046,9 @@ b935117fe6d1af576e39b1f18c9e875f44bd146f Merge tag 'kbuild-fixes-7.1-1' of git:/
 20b64cf8705a0f6268bb9a320eb6b4c425f3ec6c Merge tag 'tsm-for-7.1' of git://git.kernel.org/pub/scm/linux/kernel/git/devsec/tsm
 14479877c1ec9667edb4a7c20a8d7a704e7249ca Merge tag 'clk-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/clk/linux
 254f49634ee16a731174d2ae34bc50bd5f45e731 Linux 7.1-rc1
-18d54d7ee18aca667a066952503231829210ec98 mfd: tps65910: Add error handling for dummy I2C transfer in probe
-bdb08a5ddc898828f5d68b69e50380605123c71a mfd: tps65219: Make poweroff handler conditional on system-power-controller
-3c3b57a2c6dc20826ddfd80351549885f2c5173a mfd: sprd-sc27xx: Switch to devm_mfd_add_devices()
-522d62d7aa11975873051c9c51e4bb8cd1828a9d mfd: bd72720: Drop BUCK11 ID
+f2d55952e1de3fe590c04325fd1af6c5bbb559cc leds: st1202: Drop unused include
+f5574d3e7c89b9a5dcd03a25bf502ca75794110d dt-bindings: leds: irled: ir-spi-led: Add new duty-cycle value
+e5d39008af43c728d6275aafccecadaf6751d93f leds: pca9532: Don't stop blinking for non-zero brightness
+863ba8705529004f998744964edc65d3e0cfe1a9 dt-binding: leds: Publish common bindings under dual license
 
---===============2638340219499155180==--
+--===============5364858740280223229==--
