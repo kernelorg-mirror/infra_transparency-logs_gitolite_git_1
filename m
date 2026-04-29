@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0896984061781756526=="
+Content-Type: multipart/mixed; boundary="===============7586231927633292026=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mptcp/linux
-Date: Wed, 29 Apr 2026 10:53:17 -0000
-Message-Id: <177745999760.2740179.6050978697477207025@gitolite.kernel.org>
+Date: Wed, 29 Apr 2026 11:08:46 -0000
+Message-Id: <177746092697.2754817.12017037188204262351@gitolite.kernel.org>
 
---===============0896984061781756526==
+--===============7586231927633292026==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,71 +15,64 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/mptcp/linux
 user: matttbe
 changes:
-  - ref: refs/heads/export-net
-    old: 6f73a831d415e285b7e49565b9079495b7274a89
-    new: ac3739a88ee0922d301e86ec156652ea555700d9
-    log: revlist-6f73a831d415-ac3739a88ee0.txt
+  - ref: refs/heads/export
+    old: fc07aa405348c2653a06a790e1da34d708f21caf
+    new: 2f2a495d6dd05fffde5489f73dfd318f66c5d5a8
+    log: revlist-fc07aa405348-2f2a495d6dd0.txt
 
---===============0896984061781756526==
+--===============7586231927633292026==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-6f73a831d415-ac3739a88ee0.txt
+Content-Disposition: attachment; filename=revlist-fc07aa405348-2f2a495d6dd0.txt
 
-1e8e3f449b1e73b73a843257635b9c50f0cc0f0a netfilter: arp_tables: fix IEEE1394 ARP payload parsing
-f3224ee463f8f6f6ced7dcdf6081add4f8128527 netfilter: nf_tables: use list_del_rcu for netlink hooks
-f902877b635551513729bdf9a8d1422c4aab7741 rculist: add list_splice_rcu() for private lists
-a6134e62dba2ea4f760b29d5226907f447c92400 netfilter: nf_tables: join hook list via splice_list_rcu() in commit phase
-10f79dbd7719d1da9f5884d13060322d8729f091 netfilter: nf_tables: add hook transactions for device deletions
-4b2b4d7d4e203c92db8966b163edfacb1f0e1e29 netfilter: xt_policy: fix strict mode inbound policy matching
-fe11e5c40817b84abaa5d83bfb6586d8412bfd07 netfilter: reject zero shift in nft_bitwise
-8cf6809cddcbe301aedfc6b51bcd4944d45795f6 netfilter: nf_conntrack_sip: don't use simple_strtoul
-f9c52a6ba9780bd27e0bf4c044fd91c13c778b6e net: ipv6: fix NOREF dst use in seg6 and rpl lwtunnels
-0bb05e6adfa99a2ea1fee1125cc0953409f83ed8 net: stmmac: Prevent NULL deref when RX memory exhausted
-4ca07b9239bd0478ae586632a2ed72be37ed8407 net: mctp i2c: check length before marking flow active
-46f74a3f7d57d9cc0110b09cbc8163fa0a01afa2 net: phy: dp83869: fix setting CLK_O_SEL field.
-67d7ae3340cae0a18ec1d53a2fce198c31a211b8 Merge tag 'nf-26-04-28' of git://git.kernel.org/pub/scm/linux/kernel/git/netfilter/nf
-b89769f936a8fa9e66de72ddc1b71a9745a488e6 net: psp: check for device unregister when creating assoc
-b718342a7fbaa2dff5fefc31988c07af8c6cbc21 net: psp: require admin permission for dev-set and key-rotate
-576a5d2bad4814c881a829576b1261b9b8159d2b netfilter: skip recording stale or retransmitted INIT
-8a92cb475ca90d84db769e4d4383e631ace0d6e5 sctp: discard stale INIT after handshake completion
-dfb7e3b9a925262603867a4f1210717b347fb234 Merge branch 'sctp-fix-a-vtag-verification-failure-caused-by-stale-inits'
-aa6c6d9ee064aabfede4402fd1283424e649ca19 bareudp: fix NULL pointer dereference in bareudp_fill_metadata_dst()
-44967ac3785ebef6442377708925181d4a0eb1c8 net/sched: sch_cake: annotate data-races in cake_dump_stats() (I)
-91a96427b93b9ba27413077b7e825d2fefbfa134 net/sched: sch_cake: annotate data-races in cake_dump_stats() (II)
-276a98a434964088fccd4745db5b34d6e831e358 net/sched: sch_cake: annotate data-races in cake_dump_stats() (III)
-8fab48d87745a6ab1cec594b8d5865d9ae2db879 net/sched: sch_cake: annotate data-races in cake_dump_stats() (IV)
-a6c95b833dc17e84d16a8ac0f40fd0931616a52d net/sched: sch_cake: annotate data-races in cake_dump_stats() (V)
-403e7e34cc2ea75a2546c94176271591211b3334 Merge branch 'net-sched-sch_cake-annotate-data-races-in-cake_dump_stats-series'
-d62c6f2df5c0e1390b9a1f45b1b52689e3f234f0 netconsole: return count instead of strnlen(buf, count) from store callbacks
-e6dd94252b0fa7b4fcc00577c6898432c5d97a08 netconsole: avoid clobbering userdatum value on truncated write
-92ceb7bff62c2606f664c204750eca0b85d44112 netconsole: propagate device name truncation in dev_name_store()
-869cd6490fafe09c89a15d01610e8a03932d79f0 netconsole: restore userdatum value on update_userdata() failure
-21a7bb5cde5585aded53a47f21d6534d7da2ae48 Merge branch 'netconsole-configfs-store-callback-fixes'
-5f95c21fc23a7ef22b4d27d1ed9bb55557ffb926 mptcp: sockopt: set timestamp flags on subflow socket, not msk
-b5c52908d52c6c8eb8933264aa6087a0600fd892 mptcp: fix scheduling with atomic in timestamp sockopt
-f14d6e9c3678a067f304abba561e0c5446c7e845 mptcp: fastclose msk when linger time is 0
-1774d3cf3cf17baaf30c095606cda496268283b3 mptcp: pm: kernel: reset fullmesh counter after flush
-0c7a5ba011d336df4fcd1f667fcc16ea5549be12 Merge branch 'mptcp-misc-fixes-for-v7-1-rc2'
-6988489f82f87c051aeb139f7ebcd65f577cdc53 DO-NOT-MERGE: git markup: net
-f764798bc6be3722536229adb9a4aa7f5c4300bb DO-NOT-MERGE: git markup: fixes other trees
-00102f9a6ca51d5afa6bbb7b51a4197c3ee2d9a1 mptcp: use MPTCP_RST_EMPTCP for ACK HMAC validation failure
-38d875ad560e954d6c40d4d01be036c78eaef206 mptcp: pm: kernel: correctly retransmit ADD_ADDR ID 0
-4bffaa6bae306682030f61175ff351e17cc6206b mptcp: pm: ADD_ADDR rtx: fix potential data-race
-9c8182c508c2c8fdb7f41b4ed53bb66f6f072d8f mptcp: pm: ADD_ADDR rtx: allow ID 0
-6997a006d6e35bc843e565a9f1b23a84b87d16d8 mptcp: pm: ADD_ADDR rtx: always decrease sk refcount
-1788a0bcc58fc34934148dee65a6321c8b3e3b7b mptcp: pm: ADD_ADDR rtx: free sk if last
-d8dfef348ac5f455d9f1b034006a9a16176447e3 mptcp: pm: ADD_ADDR rtx: resched blocked ADD_ADDR quicker
-046ee6cff2cb400eb792160193041db6a9c51521 mptcp: pm: ADD_ADDR rtx: skip inactive subflows
-facd8fc8c16464e3a2ef73b9409fc8606240eb69 mptcp: pm: ADD_ADDR rtx: return early if no retrans
-6d7818c51391f7e6f3f5e3b17077f61051b60818 mptcp: pm: prio: skip closed subflows
-4c96a2fb81f00043fd10389f23b73fdf4d5ae723 selftests: mptcp: check output: catch cmd errors
-8d9bdd20646ae6122f2142148a6af8f678e79295 selftests: mptcp: pm: restrict 'unknown' check to pm_nl_ctl
-75efe3a9c2dc67f07dfad1dc4d7fc604c8c1042a DO-NOT-MERGE: git markup: fixes net
-edf7af0bfa2dc86ffc8243cf7a3d20b64fdecc62 DO-NOT-MERGE: mptcp: add CI support
-d57a90be02f68b7f6aaf4dc25ed3046f55c56083 DO-NOT-MERGE: git markup: end common net net-next
-f9fdb87cf3be19bc824e5ac3c3da43e0e7aceb27 DO-NOT-MERGE: git markup: fixes net only
-32eb9be2e6f1d44eefe1328cee0689d70545875d DO-NOT-MERGE: mptcp: improve code coverage for CI (net)
-ac3739a88ee0922d301e86ec156652ea555700d9 DO-NOT-MERGE: mptcp: enabled by default (net)
+256a5dab6dbfad5c234d19b04077c87b3b7a233b DO-NOT-MERGE: git markup: net
+52cf3f5ad3030ab14fd58a320021e59187046861 DO-NOT-MERGE: git markup: fixes other trees
+60a5d496de596fd18b28e649389e845fcd0c3afd mptcp: use MPTCP_RST_EMPTCP for ACK HMAC validation failure
+3798169fd6d90b78c947173840737761b46ab4a7 mptcp: pm: kernel: correctly retransmit ADD_ADDR ID 0
+ba6bde243ac419d1b53ac2c29b5ba6475538108f mptcp: pm: ADD_ADDR rtx: fix potential data-race
+5d2e726cde641f28a0c6f4383801f75a809e1d34 mptcp: pm: ADD_ADDR rtx: allow ID 0
+26d7f6dd224402768305692f2f79fbe03259936e mptcp: pm: ADD_ADDR rtx: always decrease sk refcount
+2e5df6c11287f236df00a40b73646636412111d7 mptcp: pm: ADD_ADDR rtx: free sk if last
+f4c1abd157e9a574aa2152cf3c7a5e73837085a3 mptcp: pm: ADD_ADDR rtx: resched blocked ADD_ADDR quicker
+fc9c2efe954f67c3a44cf9069ee1a012b016907a mptcp: pm: ADD_ADDR rtx: skip inactive subflows
+0da3bd3a56432247595dfab77457928c209487a3 mptcp: pm: ADD_ADDR rtx: return early if no retrans
+1486c30d3c376dda07b231d432c79cb3a23732f2 mptcp: pm: prio: skip closed subflows
+14c7b9d6b301dcd2da3bdd5ff28390d67203dbce selftests: mptcp: check output: catch cmd errors
+e166bdc2d223b8e92b93f645d8e7d90465ff07cf selftests: mptcp: pm: restrict 'unknown' check to pm_nl_ctl
+74e449fcbda608d8cc4a37c5dc0aa3d0a237cf05 mptcp: sockopt: increase seq in mptcp_setsockopt_all_sf
+6ec5fcd1899cc9910fcf209193792b8573aa4bd1 DO-NOT-MERGE: git markup: fixes net
+f5b781c24c349168ba18f1acefe18e764dc5553e DO-NOT-MERGE: mptcp: add CI support
+1b531163b5809320977286017b30f80907dc704c DO-NOT-MERGE: git markup: end common net net-next
+71d342d4190083e1890de7549d865cd871aa51be TopGit-driven merge of branches:
+ae713ebd757516a3d9522063fe665a38b800cf0f DO-NOT-MERGE: git markup: net-next
+d0971387a466a04f6af7c0659c958b6e240406e1 DO-NOT-MERGE: git markup: fixes net-next
+d2b8999e70e1f4adf0dc6ebefc6f0aa148218b79 mptcp: pm: init and release mptcp_pm_ops
+563ef40fe17b4ad466c065707e400074ef3355aa mptcp: pm: add get_local_id() interface
+61b12e9594370e45f4bf761920f9296ad0a5b2fd mptcp: pm: add get_priority() interface
+548b068226e008d0324888d7f94ddaba1652a74f mptcp: pm: in-kernel: explicitly limit batches to array size
+14539ee96d4987d02de9e09cd6a3a849df11e94a mptcp: pm: in-kernel: increase all limits to 64
+02959bce32ae7a92650ad8b36226fcfdaa8b6c51 mptcp: pm: kernel: allow flushing more than 8 endpoints
+7726d001dc6fb2918243585c3c32d3a7df367dc4 mptcp: pm: in-kernel: increase endpoints limit
+38a66839c8c589119516dfb3be9ab773197f6216 selftests: mptcp: join: allow changing ifaces nr per test
+7cfcb92da6349a5f75077dbc5d5281865f1a0cf6 selftests: mptcp: join: validate 8x8 subflows
+5081e0e0bd581590d6ba10a4265d6ae8005c5055 selftests: mptcp: pm: validate new limits
+605740893eb7fd3f709415e7f70bca78ba8adfad selftests: mptcp: pm: use simpler send/recv forms
+35f329ac79199681841db3390fc8c384bb1b5e52 DO-NOT-MERGE: git markup: features net-next
+b3614994bf49ce39e69d4e49aab6d2eb5718bb79 DO-NOT-MERGE: git markup: features net-next-next
+b7a00c55b3c461f00199bb953ab09d2a58c63ec1 bpf: Add mptcp_subflow bpf_iter
+3220bcbd2fbc8c083b38fed9166b772d468bd728 selftests/bpf: More endpoints for endpoint_init
+7f828f268b52ab6cc292f463e8ff995b02610e48 selftests/bpf: Drop cgroup_fd of run_mptcpify
+55fff1a2c20efaa26555ae96a1026cfa3514deae bpf: Add mptcp packet scheduler struct_ops
+23d06758a500b1283683d099546d063bc51d2d77 bpf: Export mptcp packet scheduler helpers
+42a3babda73c47e35b1d8827a99ec8d6025555b3 selftests/bpf: Add bpf scheduler test
+a28f061f193ed2c2a5fa87f0876903c418a2378e selftests/bpf: Add bpf_first scheduler & test
+63a9573b429ff6e8607a1072e3689c87c58f59c8 selftests/bpf: Add bpf_bkup scheduler & test
+76566bb289fcb24126bee186c761a2c9645d9b77 selftests/bpf: Add bpf_rr scheduler & test
+f8b3cef5f1cf4cf87750ea66ced747004ccdfe76 selftests/bpf: Add bpf_red scheduler & test
+db8728211560f0b2a40a11d6ba70501bd7977b02 selftests/bpf: Add bpf_burst scheduler & test
+5975fec7d5d5fdcfc35d21c5bd03321a829ceb94 DO-NOT-MERGE: git markup: features other trees
+1e15ee866cc9e1dc402e9981928cdf898a33a5d8 DO-NOT-MERGE: mptcp: improve code coverage for CI
+2f2a495d6dd05fffde5489f73dfd318f66c5d5a8 DO-NOT-MERGE: mptcp: enabled by default
 
---===============0896984061781756526==--
+--===============7586231927633292026==--
