@@ -1,31 +1,35 @@
-Content-Type: multipart/mixed; boundary="===============5364858740280223229=="
+Content-Type: multipart/mixed; boundary="===============1765287273144210139=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/lee/leds
-Date: Wed, 29 Apr 2026 11:31:27 -0000
-Message-Id: <177746228761.2779254.16210356615783997282@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/lee/backlight
+Date: Wed, 29 Apr 2026 11:31:39 -0000
+Message-Id: <177746229971.2779660.15422628370512911994@gitolite.kernel.org>
 
---===============5364858740280223229==
+--===============1765287273144210139==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/lee/leds
+repo: pub/scm/linux/kernel/git/lee/backlight
 user: lee
 changes:
-  - ref: refs/heads/for-leds-next
-    old: 7a43ccf85dfe06eef483c034e68b81ff326741aa
-    new: 863ba8705529004f998744964edc65d3e0cfe1a9
-    log: revlist-7a43ccf85dfe-863ba8705529.txt
+  - ref: refs/heads/for-backlight-next
+    old: 04d8f3fd0b52ead84eb722989afa094b8fca9129
+    new: 254f49634ee16a731174d2ae34bc50bd5f45e731
+    log: revlist-04d8f3fd0b52-254f49634ee1.txt
 
---===============5364858740280223229==
+--===============1765287273144210139==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7a43ccf85dfe-863ba8705529.txt
+Content-Disposition: attachment; filename=revlist-04d8f3fd0b52-254f49634ee1.txt
 
+b183b7b9b51fc37cc8e1fbad3c0d84e0cb605266 smb: smbdirect: introduce smbdirect_mr_io_fill_buffer_descriptor()
+a93b68d46e1450ca6d395be0ca002f8bdf04d9a6 smb: smbdirect: introduce smbdirect_connection_legacy_debug_proc_show()
+09d617d3121e14309ad5e4287b0da3ec27d386a8 smb: smbdirect: introduce smbdirect_connection_wait_for_connected()
+dc24063813ea617394db153cf9203286770ed404 smb: smbdirect: introduce smbdirect_connection_is_connected()
 b3e78c651441eaf08e830e260d06fd8d33a8b7f9 smb: smbdirect: introduce smbdirect_socket_shutdown()
 dce268ffcddc96f29707c1967c52b036ad92e43d smb: smbdirect: introduce smbdirect_socket_init_{new,accepting}() and helpers
 ede2b44b0e62378cb8585dda20a4edadbc621bb0 smb: smbdirect: let smbdirect_socket_set_initial_parameters() call rdma_restrict_node_type()
@@ -1046,9 +1050,5 @@ b935117fe6d1af576e39b1f18c9e875f44bd146f Merge tag 'kbuild-fixes-7.1-1' of git:/
 20b64cf8705a0f6268bb9a320eb6b4c425f3ec6c Merge tag 'tsm-for-7.1' of git://git.kernel.org/pub/scm/linux/kernel/git/devsec/tsm
 14479877c1ec9667edb4a7c20a8d7a704e7249ca Merge tag 'clk-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/clk/linux
 254f49634ee16a731174d2ae34bc50bd5f45e731 Linux 7.1-rc1
-f2d55952e1de3fe590c04325fd1af6c5bbb559cc leds: st1202: Drop unused include
-f5574d3e7c89b9a5dcd03a25bf502ca75794110d dt-bindings: leds: irled: ir-spi-led: Add new duty-cycle value
-e5d39008af43c728d6275aafccecadaf6751d93f leds: pca9532: Don't stop blinking for non-zero brightness
-863ba8705529004f998744964edc65d3e0cfe1a9 dt-binding: leds: Publish common bindings under dual license
 
---===============5364858740280223229==--
+--===============1765287273144210139==--
