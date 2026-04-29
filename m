@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/deller/parisc-linux
-Date: Wed, 29 Apr 2026 19:44:07 -0000
-Message-Id: <177749184770.3273218.1703697649438874492@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
+Date: Wed, 29 Apr 2026 19:46:11 -0000
+Message-Id: <177749197104.3276993.1183554162201061009@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/deller/parisc-linux
-user: deller
+repo: pub/scm/linux/kernel/git/ath/ath
+user: jjohnson
 changes:
-  - ref: refs/heads/for-next
-    old: b8425ceefee5df2b8490fa70a07e4e402c752492
-    new: ad02d4818f34b3cf4b784c31e2ea3cac0ffcc6c6
+  - ref: refs/heads/pending
+    old: 02c09f7b5a70a85f50e861d236cdb53fe79c2fd4
+    new: f8ae7c0b6fcdcff07d4fc0379ca2fb29ed297972
     log: |
-         ad02d4818f34b3cf4b784c31e2ea3cac0ffcc6c6 parisc: Fix build failure for 32-bit kernel with PA2.0 instruction set
+         f8ae7c0b6fcdcff07d4fc0379ca2fb29ed297972 wifi: ath: Unify user-visible "Qualcomm" name
          
