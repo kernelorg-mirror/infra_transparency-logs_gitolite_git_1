@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8238196672324387257=="
+Content-Type: multipart/mixed; boundary="===============7522243006902546651=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sudeep.holla/linux
-Date: Wed, 29 Apr 2026 15:48:39 -0000
-Message-Id: <177747771921.3037947.1910934308220751536@gitolite.kernel.org>
+Date: Wed, 29 Apr 2026 15:48:53 -0000
+Message-Id: <177747773357.3038301.6757446683781193277@gitolite.kernel.org>
 
---===============8238196672324387257==
+--===============7522243006902546651==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sudeep.holla/linux
 user: sudeep.holla
 changes:
-  - ref: refs/heads/for-next/smccc/updates
+  - ref: refs/heads/for-next/ffa/updates
     old: 6de23f81a5e08be8fbf5e8d7e9febc72a5b5f27f
     new: 254f49634ee16a731174d2ae34bc50bd5f45e731
     log: revlist-6de23f81a5e0-254f49634ee1.txt
 
---===============8238196672324387257==
+--===============7522243006902546651==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ b935117fe6d1af576e39b1f18c9e875f44bd146f Merge tag 'kbuild-fixes-7.1-1' of git:/
 14479877c1ec9667edb4a7c20a8d7a704e7249ca Merge tag 'clk-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/clk/linux
 254f49634ee16a731174d2ae34bc50bd5f45e731 Linux 7.1-rc1
 
---===============8238196672324387257==--
+--===============7522243006902546651==--
