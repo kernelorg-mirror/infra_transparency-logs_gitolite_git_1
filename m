@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/klassert/ipsec
-Date: Wed, 29 Apr 2026 07:11:15 -0000
-Message-Id: <177744667522.2519070.11976182404238268812@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/andy/linux-gpio-intel
+Date: Wed, 29 Apr 2026 07:20:58 -0000
+Message-Id: <177744725827.2528636.8713924389738312199@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/klassert/ipsec
-user: klassert
+repo: pub/scm/linux/kernel/git/andy/linux-gpio-intel
+user: andy
 changes:
-  - ref: refs/heads/testing
-    old: fa90a3145c0340c3f624206a81637c542254ea1d
-    new: 28465227c80fe417b4013c432be1f3737cb9f9a3
+  - ref: refs/heads/review-andy
+    old: 254f49634ee16a731174d2ae34bc50bd5f45e731
+    new: 9f414fd3b18cb8844ef62321151296a79b789bb3
     log: |
-         28465227c80fe417b4013c432be1f3737cb9f9a3 xfrm: provide message size for XFRM_MSG_MAPPING
+         9f414fd3b18cb8844ef62321151296a79b789bb3 gpiolib: acpi: Only trigger ActiveBoth interrupts on boot
          
