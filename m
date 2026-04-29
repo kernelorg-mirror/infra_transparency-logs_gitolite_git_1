@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2234473948342288300=="
+Content-Type: multipart/mixed; boundary="===============8619821086320402002=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sudeep.holla/linux
-Date: Wed, 29 Apr 2026 15:48:11 -0000
-Message-Id: <177747769135.3037290.2175501455410837441@gitolite.kernel.org>
+Date: Wed, 29 Apr 2026 15:48:19 -0000
+Message-Id: <177747769991.3037506.5469101677476914091@gitolite.kernel.org>
 
---===============2234473948342288300==
+--===============8619821086320402002==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sudeep.holla/linux
 user: sudeep.holla
 changes:
-  - ref: refs/heads/for-next/scmi/fixes
-    old: 4e701b47c3ba8f4eaf51d676732b11204bc75b35
+  - ref: refs/heads/for-next/ffa/fixes
+    old: 83210251fd70d5f96bcdc8911e15f7411a6b2463
     new: 254f49634ee16a731174d2ae34bc50bd5f45e731
-    log: revlist-4e701b47c3ba-254f49634ee1.txt
+    log: revlist-83210251fd70-254f49634ee1.txt
 
---===============2234473948342288300==
+--===============8619821086320402002==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4e701b47c3ba-254f49634ee1.txt
+Content-Disposition: attachment; filename=revlist-83210251fd70-254f49634ee1.txt
 
 b183b7b9b51fc37cc8e1fbad3c0d84e0cb605266 smb: smbdirect: introduce smbdirect_mr_io_fill_buffer_descriptor()
 a93b68d46e1450ca6d395be0ca002f8bdf04d9a6 smb: smbdirect: introduce smbdirect_connection_legacy_debug_proc_show()
@@ -1051,4 +1051,4 @@ b935117fe6d1af576e39b1f18c9e875f44bd146f Merge tag 'kbuild-fixes-7.1-1' of git:/
 14479877c1ec9667edb4a7c20a8d7a704e7249ca Merge tag 'clk-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/clk/linux
 254f49634ee16a731174d2ae34bc50bd5f45e731 Linux 7.1-rc1
 
---===============2234473948342288300==--
+--===============8619821086320402002==--
