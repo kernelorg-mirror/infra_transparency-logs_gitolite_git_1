@@ -1,36 +1,51 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/clk/linux
-Date: Wed, 29 Apr 2026 04:01:27 -0000
-Message-Id: <177743528742.2332130.7502928708974594548@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============5538093568342081158=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Wed, 29 Apr 2026 04:15:03 -0000
+Message-Id: <177743610322.2344577.5570014464857707858@gitolite.kernel.org>
+
+--===============5538093568342081158==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/clk/linux
-user: sboyd
+repo: pub/scm/linux/kernel/git/broonie/sound
+user: broonie
+git_push_cert_status: G
 changes:
-  - ref: refs/heads/clk-fixes
-    old: 254f49634ee16a731174d2ae34bc50bd5f45e731
-    new: de019f203b0d472c98ead4081ad4f05d92c9b826
+  - ref: refs/heads/for-7.2
+    old: f103e6c27fa2623ce90a50f9117b4076c02107f0
+    new: 116c535ea4770ee3af57c5d52d71c574009f93a7
     log: |
-         3e75021f615ceee8562e6455c335936b39929ffb clk: spacemit: k3: mark top_dclk as CLK_IS_CRITICAL
-         79a1886be1564a009cd2a003bada15ed6153f819 clk: eyeq: use the auxiliary device creation helper
-         a25ab518f355e1f0dcbea24ee26418dfcd6944b5 clk: eyeq: add EyeQ5 children auxiliary device for generic PHYs
-         4ac170432cf74b753cf59bcd0d449dced48585da reset: eyeq: drop device_set_of_node_from_dev() done by parent
-         69056753231f483cc1e40db52228aac42fd4c93d MAINTAINERS: add myself as a reviewer for the clk subsystem
-         de019f203b0d472c98ead4081ad4f05d92c9b826 clk: rk808: fix OF node reference imbalance
+         85db411913cbaf0ef4743cbcaffcdd6017df4274 ASoC: ti: j721e-evm: allocate dai_links with priv
+         116c535ea4770ee3af57c5d52d71c574009f93a7 ASoC: tegra: Add S8 PCM format support for MVC
          
-  - ref: refs/heads/clk-mediatek
-    old: 0000000000000000000000000000000000000000
-    new: 845a025a9436d40517b8fab0baea2d6157e0a552
-  - ref: refs/heads/clk-marvell
-    old: 0000000000000000000000000000000000000000
-    new: 8267609a380f3f0f47c1e0d13440cb87b3a65d6e
-  - ref: refs/heads/clk-versal
-    old: 0000000000000000000000000000000000000000
-    new: 0aef2f0db6db22c2a441e067d8e8458106fb0483
-  - ref: refs/heads/clk-cleanup
-    old: 0000000000000000000000000000000000000000
-    new: 7b03559044d20bb4cfa1a19df79dd1b52e27fb3a
+
+--===============5538093568342081158==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher C3F436CA30F5D8EB 1777436100 +0900
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
+nonce 1777436100-e907d12b3438daf17258852e3f554f3461e50d1d
+
+f103e6c27fa2623ce90a50f9117b4076c02107f0 116c535ea4770ee3af57c5d52d71c574009f93a7 refs/heads/for-7.2
+-----BEGIN PGP SIGNATURE-----
+
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmnxhcQACgkQJNaLcl1U
+h9ChQQf/SrGLfj/BNtdJUc8VDe7PESTAcTN7RykKJkQrpbttnFQwiUmQHiOPiBcp
+VpHORbXxoeaGSkvgmmbYAahH89440f8j9A4OH2iKXWNRkxVe+ZsDlPjHC/toZGrA
+PmEfJgASJ+rXPqah+UNECBri/inEmLHXDnPfj9fjR9ktUGni5p2DpWI1BQ2/bi8B
+s7ZG/aADmGdTgZuNIsTZxR7Opj6/9IaNYQSwOtW3jE+2jeF4YkUfR3a1uVb0+1Mb
+JwsfL9qxIFLS07acHJcM5usn0gsx5r2gRe+4lCRmIWi7IA9YnCd0gZWliMvCDaYM
+TytwErKWa8VRShuqMok0IiVl/Y2CEg==
+=iblQ
+-----END PGP SIGNATURE-----
+
+--===============5538093568342081158==--
