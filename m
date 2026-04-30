@@ -1,21 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/kbuild/linux
-Date: Thu, 30 Apr 2026 01:18:16 -0000
-Message-Id: <177751189659.3613370.3864188953025306095@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
+Date: Thu, 30 Apr 2026 01:27:21 -0000
+Message-Id: <177751244195.3624165.5059912242392443165@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/kbuild/linux
-user: nathan
+repo: pub/scm/linux/kernel/git/netdev/net-next
+user: kuba
 changes:
-  - ref: refs/heads/kbuild-for-next
-    old: 254f49634ee16a731174d2ae34bc50bd5f45e731
-    new: b9d21c32dca2167a614e66c9e27999b9e1c33d55
+  - ref: refs/heads/main
+    old: c06a2f2903f6fba0a3088ad05fc5cf61a66e5d89
+    new: c13581876f2c99f9139c10dcb2d880f3a9a5ed06
     log: |
-         a0d7be4ab3ece46919418c57d0de4b6fd4ce7590 kbuild: document generation of offset header files
-         7abef41afad05be1a4b2a3303b9ecf62403463a1 kbuild/btf: Remove broken module relinking exclusion
-         b9d21c32dca2167a614e66c9e27999b9e1c33d55 kconfig: fix potential NULL pointer dereference in conf_askvalue
+         c13581876f2c99f9139c10dcb2d880f3a9a5ed06 net: mdio: drop unneeded dependency on OF_GPIO
          
