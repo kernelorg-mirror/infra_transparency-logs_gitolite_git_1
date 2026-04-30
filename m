@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6016547539612553625=="
+Content-Type: multipart/mixed; boundary="===============7473445532120557670=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
-Date: Thu, 30 Apr 2026 21:25:42 -0000
-Message-Id: <177758434212.930620.13710979727041035455@gitolite.kernel.org>
+Date: Thu, 30 Apr 2026 21:25:53 -0000
+Message-Id: <177758435353.931228.263483927577867937@gitolite.kernel.org>
 
---===============6016547539612553625==
+--===============7473445532120557670==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/ath/ath
 user: jjohnson
 changes:
-  - ref: refs/heads/ath-next
-    old: 7baf5857e15d722776898510a10546d6b2f18645
+  - ref: refs/heads/pending
+    old: af0c130934fd48ac732d61f82c4dfd2241f76337
     new: e12d2d3983acb150fd987d19ec6a2a530da110df
-    log: revlist-7baf5857e15d-e12d2d3983ac.txt
+    log: revlist-af0c130934fd-e12d2d3983ac.txt
 
---===============6016547539612553625==
+--===============7473445532120557670==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-7baf5857e15d-e12d2d3983ac.txt
+Content-Disposition: attachment; filename=revlist-af0c130934fd-e12d2d3983ac.txt
 
 c4f518736472c8cfbf1d304e01c631babd2bbf34 wifi: ath9k: Remove redundant rcu_read_lock/unlock() in spin_lock
 22e8b91d18972f5e1de13af7f55555e550ad1818 wifi: ath9k: use non devm for nvmem_cell_get
@@ -43,4 +43,4 @@ cd93e8c23ebbd72e9aa799199b14c8433585f747 wifi: ath12k: refactor per-radio therma
 0ab4dc09b7819ddea698fe5a0cc711a64186f12d wifi: ath12k: reorder group start/stop for safe thermal sysfs cleanup
 e12d2d3983acb150fd987d19ec6a2a530da110df wifi: ath12k: add thermal cooling device support
 
---===============6016547539612553625==--
+--===============7473445532120557670==--
