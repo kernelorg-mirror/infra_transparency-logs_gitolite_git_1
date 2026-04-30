@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1887569798851101012=="
+Content-Type: multipart/mixed; boundary="===============2436032675905292370=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
-Date: Thu, 30 Apr 2026 09:18:56 -0000
-Message-Id: <177754073655.12899.3031921178626498756@gitolite.kernel.org>
+Date: Thu, 30 Apr 2026 09:19:02 -0000
+Message-Id: <177754074216.13260.11932822325750623731@gitolite.kernel.org>
 
---===============1887569798851101012==
+--===============2436032675905292370==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,57 +16,38 @@ repo: pub/scm/linux/kernel/git/stable/linux
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-6.6.y
-    old: 142cd8382222d9b135e0029da6830e5e30444d34
-    new: 258cf62a6dfde3c6a39d120a56a298f2ed6a8901
-    log: revlist-142cd8382222-258cf62a6dfd.txt
+  - ref: refs/tags/v6.6.137
+    old: 0000000000000000000000000000000000000000
+    new: cae5627a9111bb0634ef724e31460de925184d23
 
---===============1887569798851101012==
+--===============2436032675905292370==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1777540698 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1777540704 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
-nonce 1777540732-334d0368e47455df94972d5de5d9c322aa01b958
+nonce 1777540738-5b43367036060b38a553b46385ebdf12d913d602
 
-142cd8382222d9b135e0029da6830e5e30444d34 258cf62a6dfde3c6a39d120a56a298f2ed6a8901 refs/heads/linux-6.6.y
+0000000000000000000000000000000000000000 cae5627a9111bb0634ef724e31460de925184d23 refs/tags/v6.6.137
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmnzHlobHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+NvsQAItUb182nEmdG4vTUmuL
-eqwU9BrjD1HvkaIH+tgii6pUA1JMQ4yHaPp+ovncmuaVewcGqdmQdGp4HrZpfaZP
-g7Q5wDHaASedpP5vLaAbMPJxTVc1AI6m/sj97J+Nj/4F0koWyvjcJMgsc4NC+zVc
-+vZfB0xhtRpSEubwl2bIrqTM5A2ptgDs9yg2KlFRBzJhxnIppJN6H77Aln51SnPz
-iQecAV5lITjArlOowKqnGT3eI4oAlDIAhwnxXYkKMDiQOgqlfJdrJNl3h9QQt88z
-WTvgFc1SyIdIr+9SNuaKIjztFLyfPLCJ+OceAYQCJm/giIqMz+1Ft8bTt9fb6bMO
-a2t5j0ERtQoR3qm47lztQHXWW+tSw3x1bRJfLiWJqos/KA589h5aAWpo1ByO2tYD
-CDWlaG7/qFl3splZSrBZLi7gvhgwOXxTRS60c3nPTKwhvSiBA0oIO2dD+OpTiBnz
-Ug5QcRhEbRjd2aE9isWJiBAXZZ9mjfCKBatGzJ6kmukqCPJPP7/jlLQLK5ttmegi
-9LjO4qD+vcAReIwBgIluzpABAxQLNzpkvoE8vMuBpdwj5IlezgfVFVqKdnIWm7So
-QnYvCaybOTnLilllP7f0AnQzbhy/pz0z8gX9i/aQfvW/91OiYIz0ZVhFjY1fWb6Z
-YOh5LACiYqSCfY/gMFETnHvI
-=6Fu2
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmnzHmAbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+CIoP/RfzLXyWyd0uOnvQQLPR
+bKqkSRlxybdUyJ1e51VWeYaCsXsG/7fh4gc6gRrYQGABMPOcLom6LTDqbR53ofzy
+ARB5ckZ+F6utttyG4UQJ5+kqJNRyHI0lFDw+Ii3V+PYRaeVXZxPYWKs5138exxmy
+tD7gCsWXHjaRMjvOh9KYKBPWh8j4ohH07fXOVQgvlXO9X61kR4vrVD+PioLiAX8a
+kscnDQqGeEzcpG4q8o8ZBGwexP0EIGjjwR+oMf8XxSeKdVCRszzFExgXC12JC872
+skoo4TQHyLJ0/Jj8aWxJBW2jZzPVn5VRnItyDCNLxuuW3r0TAHRXMQzbpu+RxZkK
+pXFcpLAq5b/Elm3+MBK7x+CoAY8juEZ7u+ALfpAgd4i6vB8VpzBWn9kELAuvEIti
+jQMu1VT+vg/eiQ9QArtTVoVwn5bQJVpA6skCeJV+kntWK0KB2I2ywHhvkO9DwiMk
+gng/tqpBnG69MieovcfsvezbHPBzqvZsvB09pidhGAAvuCxA8LpHOSJOO0OcY4V4
+hS6cgfYVKYCdsQbWfTXwz/khx6F64OiwEJF0rIXh2QjvruDL03fMVkqLw/4R331f
+V6z29XqJQWiTK+BRGuQHeDPT6pGdp6KSB2gY/dxwAeuldLdWua/xd1Euxkuq4FJ5
+alu+drCr9U5eHMJ5eZ3XlPxo
+=kxXx
 -----END PGP SIGNATURE-----
 
---===============1887569798851101012==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-142cd8382222-258cf62a6dfd.txt
-
-9ec26b5d193c9550f547b83a81095a74003a1a30 crypto: scatterwalk - Backport memcpy_sglist()
-dbea57c08acfc9f92d30d5a2d20d6d2c4efd3d2e crypto: algif_aead - use memcpy_sglist() instead of null skcipher
-3115af9644c342b356f3f07a4dd1c8905cd9a6fc crypto: algif_aead - Revert to operating out-of-place
-c2138c9bd02af19e0b407376140cd5435b0d81da crypto: algif_aead - snapshot IV for async AEAD requests
-60c798725c9668a53f1c6faaaac6296a0bac44f9 crypto: authenc - use memcpy_sglist() instead of null skcipher
-d0c4ff6812386880f30bc64c2921299cc4d7b47f crypto: authencesn - Do not place hiseq at end of dst for out-of-place decryption
-3ef530ef5585fc0ef03274269202efe34900db11 crypto: authencesn - Fix src offset when decrypting in-place
-710a4ce5d7afd9fe082c75dec282ab4a11c0fe71 crypto: af_alg - Fix page reassignment overflow in af_alg_pull_tsgl
-402d84ad9e89bd4cbfd07ca8598532b7021daf95 xen/privcmd: fix double free via VMA splitting
-4b4defd2fce3f966c25adabf46644a85558f1169 Buffer overflow in drivers/xen/sys-hypervisor.c
-258cf62a6dfde3c6a39d120a56a298f2ed6a8901 Linux 6.6.137
-
---===============1887569798851101012==--
+--===============2436032675905292370==--
