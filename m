@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/util-linux/util-linux
-Date: Thu, 30 Apr 2026 08:27:11 -0000
-Message-Id: <177753763172.4099419.15084428660106966839@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/johan/usb-serial
+Date: Thu, 30 Apr 2026 08:56:46 -0000
+Message-Id: <177753940623.4128641.18164987328064589964@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/util-linux/util-linux
-user: kzak
+repo: pub/scm/linux/kernel/git/johan/usb-serial
+user: johan
 changes:
-  - ref: refs/heads/stable/v2.42
-    old: 2525f6c7ca812b266bfb5e77d55e864cf0ff47a9
-    new: 60a120becd02b79c0e346b5d1bcebf18e3b26a6a
+  - ref: refs/heads/usb-linus
+    old: 254f49634ee16a731174d2ae34bc50bd5f45e731
+    new: 100201d349edd226ca3470c894c92dccc67ee7a8
     log: |
-         60a120becd02b79c0e346b5d1bcebf18e3b26a6a column: fix missing out-of-bounds check in table reordering
+         100201d349edd226ca3470c894c92dccc67ee7a8 USB: serial: option: add Telit Cinterion LE910Cx compositions
          
