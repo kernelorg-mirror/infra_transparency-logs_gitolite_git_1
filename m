@@ -1,47 +1,21 @@
-Content-Type: multipart/mixed; boundary="===============4173825781565174398=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/utils/mail/kremail
-Date: Thu, 30 Apr 2026 20:42:00 -0000
-Message-Id: <177758172044.883712.3593549225305973778@gitolite.kernel.org>
-
---===============4173825781565174398==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Thu, 30 Apr 2026 20:59:41 -0000
+Message-Id: <177758278190.899570.8353856463115793347@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/utils/mail/kremail
-user: mricon
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/netdev/net
+user: kuba
 changes:
-  - ref: refs/heads/master
-    old: 726bb09906f97020cf9a5a074ceeab4cd919a79d
-    new: c3dec07c187574265592ad88628cb13dcfaaf81c
+  - ref: refs/heads/main
+    old: 08d0d3466664000ba0670e0ef0d447f23459e0d4
+    new: a54c9a13cfc17943afb46f74ccb412666e8967f5
     log: |
-         622fa4aaa527a2b3bd741f41feedffa74b84cd5b tools: drop kremail dependency from list-sanity-check.py
-         c3dec07c187574265592ad88628cb13dcfaaf81c tools: add rebind-modern-hash.py for SHA-1 binding sigs
+         18ed60e33e6c77d62409c1343dec1c61bae3d2e7 net: mctp: test: use a zeroed struct sockaddr_mctp
+         76872971064133474d9b891da05db8f7586fcc11 net: mctp: test: Use dev_direct_xmit for TX to our test device
+         a54c9a13cfc17943afb46f74ccb412666e8967f5 Merge branch 'net-mctp-test-minor-kunit-test-fixes'
          
-
---===============4173825781565174398==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher B6C41CE35664996C! 1777581719 -0400
-pushee gitolite.kernel.org:pub/scm/utils/mail/kremail
-nonce 1777581719-99b22bbafd8497b2a127b4bd2c52fb23edd74683
-
-726bb09906f97020cf9a5a074ceeab4cd919a79d c3dec07c187574265592ad88628cb13dcfaaf81c refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iHUEABYKAB0WIQR2vl2yUnHhSB5njDW2xBzjVmSZbAUCafO+lwAKCRC2xBzjVmSZ
-bN27AQCkkMnLL2LlOrepWxY2zsiitbnTk5SxgpZLuL1OusS19QD/fq+/7Zv6mfZp
-9D7CdtZA9+fANGz9vq8RgRxqQjaAZg4=
-=CRPU
------END PGP SIGNATURE-----
-
---===============4173825781565174398==--
