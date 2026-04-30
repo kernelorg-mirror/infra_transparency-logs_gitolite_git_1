@@ -1,49 +1,31 @@
-Content-Type: multipart/mixed; boundary="===============3564778425975342792=="
+Content-Type: multipart/mixed; boundary="===============1385898414882704660=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
-Date: Thu, 30 Apr 2026 10:45:50 -0000
-Message-Id: <177754595093.266840.2391454351833035052@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Thu, 30 Apr 2026 10:53:28 -0000
+Message-Id: <177754640879.273357.16042501570710169469@gitolite.kernel.org>
 
---===============3564778425975342792==
+--===============1385898414882704660==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regulator
-user: broonie
+repo: pub/scm/linux/kernel/git/tip/tip
+user: tglx
 changes:
-  - ref: refs/heads/for-linus
-    old: e4f06b825ddc996f7ed0b380f55923a12472d01b
-    new: 7dfc0063022078a80fe5774815723c185e4b7b57
-    log: revlist-e4f06b825ddc-7dfc00630220.txt
-  - ref: refs/heads/for-next
-    old: 53492c744e3996dadcfb210f3dd6567646d38b61
-    new: 8ba3c3199ef6aff6f334cbb4522718cd4bf8e129
-    log: |
-         7dfc0063022078a80fe5774815723c185e4b7b57 regulator: rpi-panel-attiny: add back GPIOLIB dependency
-         8ba3c3199ef6aff6f334cbb4522718cd4bf8e129 Merge remote-tracking branch 'regulator/for-7.2' into regulator-next
-         
+  - ref: refs/heads/irq/drivers
+    old: 1fac04a0a4737c4da3d55d7708931166a4a7136a
+    new: 76841b0ea8be9309f6f9d2f7cf0dbac3af9ec361
+    log: revlist-1fac04a0a473-76841b0ea8be.txt
 
---===============3564778425975342792==
+--===============1385898414882704660==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-e4f06b825ddc-7dfc00630220.txt
+Content-Disposition: attachment; filename=revlist-1fac04a0a473-76841b0ea8be.txt
 
-b183b7b9b51fc37cc8e1fbad3c0d84e0cb605266 smb: smbdirect: introduce smbdirect_mr_io_fill_buffer_descriptor()
-a93b68d46e1450ca6d395be0ca002f8bdf04d9a6 smb: smbdirect: introduce smbdirect_connection_legacy_debug_proc_show()
-09d617d3121e14309ad5e4287b0da3ec27d386a8 smb: smbdirect: introduce smbdirect_connection_wait_for_connected()
-dc24063813ea617394db153cf9203286770ed404 smb: smbdirect: introduce smbdirect_connection_is_connected()
-b3e78c651441eaf08e830e260d06fd8d33a8b7f9 smb: smbdirect: introduce smbdirect_socket_shutdown()
-dce268ffcddc96f29707c1967c52b036ad92e43d smb: smbdirect: introduce smbdirect_socket_init_{new,accepting}() and helpers
-ede2b44b0e62378cb8585dda20a4edadbc621bb0 smb: smbdirect: let smbdirect_socket_set_initial_parameters() call rdma_restrict_node_type()
-d1f187656797fc7434388c1795e05f8abe370d46 smb: smbdirect: introduce smbdirect_connect[_sync]()
-eb3ed1e9048cf7b2a38112f48e0f1b772bb7860d smb: smbdirect: introduce smbdirect_accept_connect_request()
-20cd3cc4420bdb9f63644cd140e2682f634e651e smb: smbdirect: introduce smbdirect_socket_create_{kern,accepting}() and smbdirect_socket_release()
-b1e6277bd1240c3a66aac537b1b43b4bfd2edcd8 smb: smbdirect: let smbdirect_socket.h include all headers for used structures
 5e4bf7fadd4a608cace7604b720483f051f8176f smb: smbdirect: let smbdirect_internal.h define pr_fmt without SMBDIRECT_USE_INLINE_C_FILES
 b2261ceedd4a4831957732ebae5ad33bf5c7fc80 smb: smbdirect: introduce smbdirect_public.h with prototypes
 89df0942907894a92dbece12bfa35e1647959b0c smb: smbdirect: provide explicit prototypes for cross .c file functions
@@ -803,6 +785,7 @@ fa5061daffe841c2577c987c4f3515c45e53b775 spi: orion: clean up probe return value
 6e7daa3dad299080a9429522a98ac1ae1116ecc3 NFSv4.2: fix CLONE/COPY attrs in presence of delegated attributes
 e8a44ae87b553b0851a20bebf3d2634a45c5e316 NFS: remove redundant __private attribute from nfs_page_class
 e6614b88d59d110ee1a80ed0826e34f24dd35c96 NFS: Fix RCU dereference of cl_xprt in nfs_compare_super_address
+2af72ec297d1d4928d0522b45c8ee87cb0d5f5ff regulator: qcom: Unify user-visible "Qualcomm" name
 def036ef87f8641c1c525d5ae17438d7a1006491 ksmbd: reset rcount per connection in ksmbd_conn_wait_idle_sess_id()
 cc92b479b6ed1d7d1a6eb13aba472badb836a832 ksmbd: Use AES-CMAC library for SMB3 signature calculation
 c049ee14eb4343b69b6f7755563f961f5e153423 ksmbd: destroy tree_conn_ida in ksmbd_session_destroy()
@@ -1056,6 +1039,16 @@ b935117fe6d1af576e39b1f18c9e875f44bd146f Merge tag 'kbuild-fixes-7.1-1' of git:/
 20b64cf8705a0f6268bb9a320eb6b4c425f3ec6c Merge tag 'tsm-for-7.1' of git://git.kernel.org/pub/scm/linux/kernel/git/devsec/tsm
 14479877c1ec9667edb4a7c20a8d7a704e7249ca Merge tag 'clk-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/clk/linux
 254f49634ee16a731174d2ae34bc50bd5f45e731 Linux 7.1-rc1
-7dfc0063022078a80fe5774815723c185e4b7b57 regulator: rpi-panel-attiny: add back GPIOLIB dependency
+51561ad8c89cfdd90314ce78c63553632d95bfd2 dt-bindings: interrupt-controller: Describe AST2700-A2 hardware instead of A0
+07825e41519abb8ac13d6d1c553af47f57775f6b irqchip/ast2700-intc: Add AST2700-A2 support
+46e39ee92d14bf2248d6404119b816047144de4e irqchip/ast2700-intc: Add KUnit tests for route resolution
+d3587cc4a5e691539c46f327f8d510c1bc482b7e irqchip/aspeed-intc: Remove AST2700-A0 support
+a540d544db1c37d4c138b67384f235a85f79f060 dt-bindings: interrupt-controller: Repurpose binding for unreleased jh8100 for jhb100
+ac2005bba8d938c03c3856a96f20afaa42002635 irqchip/starfive: Rename jh8100 to jhb100
+2f59ca1854975170c25e8c812405aa309ea4f9f7 irqchip/starfive: Use devm_ interfaces to simplify resource release
+5d1b12880fd878f315f41ac5dd19fd9fb476e7a0 irqchip/starfive: Increase the interrupt source number up to 64
+96c0c9b488502c89e91f32353b853422a45a1646 irqchip/starfive: Implement irq_set_type() and irq_ack() callbacks
+5a59e82f95d3521fa64f24b6450417ee098d8546 irqchip/gic: Replace __ASSEMBLY__ with __ASSEMBLER__
+76841b0ea8be9309f6f9d2f7cf0dbac3af9ec361 irqchip/qcom: Unify user-visible "Qualcomm" name
 
---===============3564778425975342792==--
+--===============1385898414882704660==--
