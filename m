@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6768683756237849180=="
+Content-Type: multipart/mixed; boundary="===============4940146800889540557=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/libata/linux
-Date: Thu, 30 Apr 2026 04:15:04 -0000
-Message-Id: <177752250443.3791631.1605341034732314709@gitolite.kernel.org>
+Date: Thu, 30 Apr 2026 04:19:35 -0000
+Message-Id: <177752277503.3794902.449569217380125650@gitolite.kernel.org>
 
---===============6768683756237849180==
+--===============4940146800889540557==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,19 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/libata/linux
 user: dlemoal
 changes:
-  - ref: refs/heads/master
-    old: 956b9cbd7f156c8672dac94a00de3c6a0939c692
-    new: 254f49634ee16a731174d2ae34bc50bd5f45e731
-    log: revlist-956b9cbd7f15-254f49634ee1.txt
+  - ref: refs/heads/for-next
+    old: 8ebf408e7d463eee02c348a3c8277b95587b710d
+    new: eb9c9a3a6d867f9ebaf223114fab22f9601dea5e
+    log: revlist-8ebf408e7d46-eb9c9a3a6d86.txt
 
---===============6768683756237849180==
+--===============4940146800889540557==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-956b9cbd7f15-254f49634ee1.txt
+Content-Disposition: attachment; filename=revlist-8ebf408e7d46-eb9c9a3a6d86.txt
 
-b183b7b9b51fc37cc8e1fbad3c0d84e0cb605266 smb: smbdirect: introduce smbdirect_mr_io_fill_buffer_descriptor()
-a93b68d46e1450ca6d395be0ca002f8bdf04d9a6 smb: smbdirect: introduce smbdirect_connection_legacy_debug_proc_show()
 09d617d3121e14309ad5e4287b0da3ec27d386a8 smb: smbdirect: introduce smbdirect_connection_wait_for_connected()
 dc24063813ea617394db153cf9203286770ed404 smb: smbdirect: introduce smbdirect_connection_is_connected()
 b3e78c651441eaf08e830e260d06fd8d33a8b7f9 smb: smbdirect: introduce smbdirect_socket_shutdown()
@@ -1050,5 +1048,7 @@ b935117fe6d1af576e39b1f18c9e875f44bd146f Merge tag 'kbuild-fixes-7.1-1' of git:/
 20b64cf8705a0f6268bb9a320eb6b4c425f3ec6c Merge tag 'tsm-for-7.1' of git://git.kernel.org/pub/scm/linux/kernel/git/devsec/tsm
 14479877c1ec9667edb4a7c20a8d7a704e7249ca Merge tag 'clk-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/clk/linux
 254f49634ee16a731174d2ae34bc50bd5f45e731 Linux 7.1-rc1
+d02c6e08bc01ce6da910cf56d1990ebc9fa34833 ata: libahci: use ahci_nr_ports() helper
+eb9c9a3a6d867f9ebaf223114fab22f9601dea5e ata: ahci: fail probe if BAR too small for claimed ports
 
---===============6768683756237849180==--
+--===============4940146800889540557==--
