@@ -1,51 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============3900573231718890432=="
+Content-Type: multipart/mixed; boundary="===============0379917048500641277=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/regulator
-Date: Thu, 30 Apr 2026 10:07:40 -0000
-Message-Id: <177754366012.170236.348849538747695710@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Thu, 30 Apr 2026 10:07:47 -0000
+Message-Id: <177754366741.170456.1516078612139591094@gitolite.kernel.org>
 
---===============3900573231718890432==
+--===============0379917048500641277==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/regulator
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-7.1
+  - ref: refs/heads/regulator-7.1
     old: 2af72ec297d1d4928d0522b45c8ee87cb0d5f5ff
     new: 7dfc0063022078a80fe5774815723c185e4b7b57
     log: revlist-2af72ec297d1-7dfc00630220.txt
 
---===============3900573231718890432==
+--===============0379917048500641277==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1777543657 +0900
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/regulator.git
-nonce 1777543656-fbf6447583df23d1d545b3c708e6d68a8d48e819
+pusher C3F436CA30F5D8EB 1777543665 +0900
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1777543664-5479e3e3a1bbc1258cea63bc403d381a9e7a4453
 
-2af72ec297d1d4928d0522b45c8ee87cb0d5f5ff 7dfc0063022078a80fe5774815723c185e4b7b57 refs/heads/for-7.1
+2af72ec297d1d4928d0522b45c8ee87cb0d5f5ff 7dfc0063022078a80fe5774815723c185e4b7b57 refs/heads/regulator-7.1
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmnzKekACgkQJNaLcl1U
-h9BLJwf/ajrxra6NhIKeTn7y6rmvjgjtHQvUi629nRM2NpIXxlJba8PvHrPNWCh2
-7jlMBoA0bjjjo9FkyHw1SJ/RuKd293tyTdFqhMkarx9bjIIWdhB27uPkB83PbnVb
-5CNjQO4gcNiACUeOJq30kXYLBB9Sv1If/Umcr6T+TXyHzaqh2irmQ7Qx5qrm1c5f
-RHzRRiBui7ru/5swR7Vf/dHHW4PpuVMxAhZRW2dj7LZg9oX2iJBFKBT1Kau+5MqT
-/N9CD7UdTwmHRmkHXhK4r72HmjBLnRwUFl21uW+SaAnwfiOWtRD/ZgLWcUc9Wj77
-9yMLB8O00oqMw//5NqorYheWh6OW1g==
-=/2zW
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmnzKfEACgkQJNaLcl1U
+h9Brewf/WWNNXKvlp9T/MIIn6KUJLWc79QnshgjlNiwirXXTxSuRahXiUpuprzD9
+sCEtyOMwTWIe6A03B0GUvY04hfu/ZVGO/plE8thhEVVcBhTH+2IY81fjA03c1g9V
+xGK/1rc7JdjmzTjUW8rI+64U7qT32Afyba2wWpPRMuWc6gWGEYthJcajoxVnKSnc
+8VRAEB0ajkI5p22Rnuw/aAsvbg/LCOzJoDDnRQaVrGttd5Ta/K/SwJOG3ibo4Gwt
+Nczwv86ZsqVVnz063PvFCLnps+hZTrzy4OJAa3PHvoBlpgSi6iHChot1eQgyNzBR
+JCwk3kRswvisqQBJskOSCSAsnQDnqA==
+=beMt
 -----END PGP SIGNATURE-----
 
---===============3900573231718890432==
+--===============0379917048500641277==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1076,4 +1076,4 @@ b935117fe6d1af576e39b1f18c9e875f44bd146f Merge tag 'kbuild-fixes-7.1-1' of git:/
 254f49634ee16a731174d2ae34bc50bd5f45e731 Linux 7.1-rc1
 7dfc0063022078a80fe5774815723c185e4b7b57 regulator: rpi-panel-attiny: add back GPIOLIB dependency
 
---===============3900573231718890432==--
+--===============0379917048500641277==--
