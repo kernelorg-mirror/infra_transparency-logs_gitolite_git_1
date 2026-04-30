@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8006583971882828211=="
+Content-Type: multipart/mixed; boundary="===============7068553099694931366=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sudeep.holla/linux
-Date: Thu, 30 Apr 2026 11:00:07 -0000
-Message-Id: <177754680727.281464.3376746958163895965@gitolite.kernel.org>
+Date: Thu, 30 Apr 2026 11:02:06 -0000
+Message-Id: <177754692622.283194.6202722206983574488@gitolite.kernel.org>
 
---===============8006583971882828211==
+--===============7068553099694931366==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sudeep.holla/linux
 user: sudeep.holla
 changes:
-  - ref: refs/heads/for-next/scmi/updates
-    old: 0d9ad7a151746ba40ff769effc8762df27800556
-    new: dde87db395c4af36cea22592fba9be87c4f0d775
-    log: revlist-0d9ad7a15174-dde87db395c4.txt
+  - ref: refs/heads/for-linux-next
+    old: 96cb72b688f4a5785108da09269b126ead1e5c57
+    new: 1cd8f768fc79d0f21bfe68156752b3e8a77f0a26
+    log: revlist-96cb72b688f4-1cd8f768fc79.txt
 
---===============8006583971882828211==
+--===============7068553099694931366==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-0d9ad7a15174-dde87db395c4.txt
+Content-Disposition: attachment; filename=revlist-96cb72b688f4-1cd8f768fc79.txt
 
 3affad54fddc92c7f081d54bb12c6a50c921d23e firmware: arm_scmi: quirk: Improve quirk range parsing
 0bd17cd08257971d83b555e401c2e156fb1d35bd firmware: arm_scmi: quirk: Simplify quirk table iteration
@@ -44,5 +44,6 @@ a8ea6b485ecd236955bfdc58e0b5f9caafb379a7 firmware: arm_scmi: Fix bound iterators
 87a16b6d87c0f5b0ca518dd758b7305fa0067666 firmware: arm_scmi: Use bound iterators to minimize discovered rates
 2416c69ab6fa835259e419c70f65d0442aa1dcdb firmware: arm_scmi: Fix OOB in scmi_clock_describe_rates_get_lazy()
 dde87db395c4af36cea22592fba9be87c4f0d775 firmware: arm_scmi: Introduce all_rates_get clock operation
+1cd8f768fc79d0f21bfe68156752b3e8a77f0a26 Merge branches 'for-next/scmi/updates' and 'for-next/ffa/fixes' of ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/sudeep.holla/linux into for-linux-next
 
---===============8006583971882828211==--
+--===============7068553099694931366==--
