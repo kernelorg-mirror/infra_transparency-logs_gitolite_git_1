@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Thu, 30 Apr 2026 02:00:32 -0000
-Message-Id: <177751443245.3658128.4180364820804971073@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
+Date: Thu, 30 Apr 2026 02:03:40 -0000
+Message-Id: <177751462005.3659815.11865715706833238499@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: kuba
+repo: pub/scm/linux/kernel/git/broonie/ci
+user: broonie
 changes:
-  - ref: refs/heads/main
-    old: 4ca01292ea2f2363660610a65ba0285d7c3309ed
-    new: c4f050ce06c56cfb5993268af4a5cb66ed1cd04e
+  - ref: refs/heads/spi-7.2
+    old: 211ef7d627904834c9018f3f92b07569367cacf9
+    new: 54dac8230d9cbc26391ca61b45e1d6c2407c4daf
     log: |
-         c4f050ce06c56cfb5993268af4a5cb66ed1cd04e bonding: 3ad: implement proper RCU rules for port->aggregator
+         54dac8230d9cbc26391ca61b45e1d6c2407c4daf spi: clean up controller registration return value
          
