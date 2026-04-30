@@ -1,27 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/network/iproute2/iproute2-next
-Date: Thu, 30 Apr 2026 15:45:59 -0000
-Message-Id: <177756395915.579009.13660621247193976496@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/snitzer/linux
+Date: Thu, 30 Apr 2026 15:52:14 -0000
+Message-Id: <177756433477.585248.10064574796873973996@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/network/iproute2/iproute2-next
-user: dsahern
+repo: pub/scm/linux/kernel/git/snitzer/linux
+user: snitzer
 changes:
-  - ref: refs/heads/main
-    old: 03b33c7550e911b04f8ad06a0f93447308079fcf
-    new: c99a85a7c8eb5cafbe0f4f681b108a58617c983b
-    log: |
-         fa2309a9e91ed0634da763aed664380663e6b090 man: remove libnetlink man page
-         c99a85a7c8eb5cafbe0f4f681b108a58617c983b lib: add input validation for time, rate, and size parsing functions
-         
-  - ref: refs/heads/master
-    old: 03b33c7550e911b04f8ad06a0f93447308079fcf
-    new: c99a85a7c8eb5cafbe0f4f681b108a58617c983b
-    log: |
-         fa2309a9e91ed0634da763aed664380663e6b090 man: remove libnetlink man page
-         c99a85a7c8eb5cafbe0f4f681b108a58617c983b lib: add input validation for time, rate, and size parsing functions
-         
+  - ref: refs/heads/kernel-6.19.14/changelog
+    old: 0000000000000000000000000000000000000000
+    new: 6c6b7cd6288db30c329d90da8fe541e4a19a994f
