@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2536064771471535691=="
+Content-Type: multipart/mixed; boundary="===============5250630580355514699=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/sre/linux-power-supply
-Date: Thu, 30 Apr 2026 10:41:53 -0000
-Message-Id: <177754571396.261328.14052402920611317482@gitolite.kernel.org>
+Date: Thu, 30 Apr 2026 10:42:38 -0000
+Message-Id: <177754575889.261990.12787271290282841676@gitolite.kernel.org>
 
---===============2536064771471535691==
+--===============5250630580355514699==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/sre/linux-power-supply
 user: sre
 changes:
-  - ref: refs/heads/fixes
+  - ref: refs/heads/master
     old: 8f0b4cce4481fb22653697cced8d0d04027cb1e8
     new: 254f49634ee16a731174d2ae34bc50bd5f45e731
     log: revlist-8f0b4cce4481-254f49634ee1.txt
 
---===============2536064771471535691==
+--===============5250630580355514699==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ b935117fe6d1af576e39b1f18c9e875f44bd146f Merge tag 'kbuild-fixes-7.1-1' of git:/
 14479877c1ec9667edb4a7c20a8d7a704e7249ca Merge tag 'clk-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/clk/linux
 254f49634ee16a731174d2ae34bc50bd5f45e731 Linux 7.1-rc1
 
---===============2536064771471535691==--
+--===============5250630580355514699==--
