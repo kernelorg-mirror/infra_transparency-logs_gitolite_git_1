@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2282668863748278649=="
+Content-Type: multipart/mixed; boundary="===============3635490996322125162=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/riscv/linux
-Date: Thu, 30 Apr 2026 02:38:34 -0000
-Message-Id: <177751671497.3696362.5269355356388985665@gitolite.kernel.org>
+Date: Thu, 30 Apr 2026 02:38:57 -0000
+Message-Id: <177751673701.3696784.15669994405760226980@gitolite.kernel.org>
 
---===============2282668863748278649==
+--===============3635490996322125162==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/riscv/linux
 user: pjw
 changes:
-  - ref: refs/heads/fixes
-    old: 70d39025809bc4e199086b51c59097be66fc764d
+  - ref: refs/heads/for-next
+    old: 9b3a2be84803cf18c4b4d1efc695991f0daa153c
     new: f2abc305aa93f5b12d5c929d7a9c1cf7d7fee8af
-    log: revlist-70d39025809b-f2abc305aa93.txt
+    log: revlist-9b3a2be84803-f2abc305aa93.txt
 
---===============2282668863748278649==
+--===============3635490996322125162==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-70d39025809b-f2abc305aa93.txt
+Content-Disposition: attachment; filename=revlist-9b3a2be84803-f2abc305aa93.txt
 
 a93b68d46e1450ca6d395be0ca002f8bdf04d9a6 smb: smbdirect: introduce smbdirect_connection_legacy_debug_proc_show()
 09d617d3121e14309ad5e4287b0da3ec27d386a8 smb: smbdirect: introduce smbdirect_connection_wait_for_connected()
@@ -1051,4 +1051,4 @@ b935117fe6d1af576e39b1f18c9e875f44bd146f Merge tag 'kbuild-fixes-7.1-1' of git:/
 254f49634ee16a731174d2ae34bc50bd5f45e731 Linux 7.1-rc1
 f2abc305aa93f5b12d5c929d7a9c1cf7d7fee8af riscv: Define __riscv_copy_{,vec_}{words,bytes}_unaligned() using SYM_TYPED_FUNC_START
 
---===============2282668863748278649==--
+--===============3635490996322125162==--
