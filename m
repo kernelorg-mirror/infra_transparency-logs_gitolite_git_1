@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jfern/linux
-Date: Thu, 30 Apr 2026 23:33:56 -0000
-Message-Id: <177759203611.1079158.10046839245846212640@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/kbuild/linux
+Date: Thu, 30 Apr 2026 23:34:28 -0000
+Message-Id: <177759206867.1079795.10879325135795052366@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jfern/linux
-user: jfern
+repo: pub/scm/linux/kernel/git/kbuild/linux
+user: nathan
 changes:
-  - ref: refs/heads/nova/mm
-    old: 56cd276ad9394379a6f47a2f57cfa6ed4fc2a1a3
-    new: 99ad868912b583cb49150ab74daa394435ef4f5f
+  - ref: refs/heads/kbuild-next-unstable
+    old: b9d21c32dca2167a614e66c9e27999b9e1c33d55
+    new: 1722cfb4845f06d8191ad31234f4380aefef248e
     log: |
-         6b957dbe5b1a18e8a7972df66b05d511cb25e8a4 drm/nova: Pass chipset to PRAMIN self-test
-         99ad868912b583cb49150ab74daa394435ef4f5f [REFEReNCE] gpu: nova-core: Store BAR1 long-lived in Gpu
+         1722cfb4845f06d8191ad31234f4380aefef248e modpost: prevent stack buffer overflow in do_input_entry() and do_dmi_entry()
          
