@@ -1,22 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux
-Date: Thu, 30 Apr 2026 16:30:25 -0000
-Message-Id: <177756662554.626556.7422938846637087464@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/i3c/linux
+Date: Thu, 30 Apr 2026 16:31:04 -0000
+Message-Id: <177756666479.627418.16306873404561076855@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux
-user: axboe
+repo: pub/scm/linux/kernel/git/i3c/linux
+user: abelloni
 changes:
-  - ref: refs/heads/master
-    old: 57b8e2d666a31fa201432d58f5fe3469a0dd83ba
-    new: e75a43c7cec459a07d91ed17de4de13ede2b7758
+  - ref: refs/heads/i3c/next
+    old: 254f49634ee16a731174d2ae34bc50bd5f45e731
+    new: 1d78a8fc97c133b8aee54993a83f86b68ed2fdb8
     log: |
-         3b75dd76e64a04771861bb5647951c264919e563 tracing: branch: Fix inverted check on stat tracer registration
-         5ec07d5204b4544271f32f6261ee097fe53cb081 tracepoint: Fix typo in tracepoint.h comment
-         b2aa3b4d64e460ac606f386c24e7d8a873ce6f1a tracing/probes: Limit size of event probe to 3K
-         e75a43c7cec459a07d91ed17de4de13ede2b7758 Merge tag 'trace-v7.1-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
+         fa1d4fa118f4229168e9ca88cea260c5e5a94652 i3c: master: svc: Fix missed IBI after false SLVSTART on NPCM845
+         1effa3adfe53cb2bb28bf5640a676b791d5ab405 i3c: master: svc: Prevent IRQ storm from false SLVSTART on NPCM845
+         14236919b0e68ac9be6b425d5149a3ad4fd85914 i3c: master: Replace sprintf() with sysfs_emit() family
+         1d78a8fc97c133b8aee54993a83f86b68ed2fdb8 i3c: dw-i3c-master: Fix IBI count register selection for versalnet
          
