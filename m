@@ -1,36 +1,24 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tegra/linux
-Date: Thu, 30 Apr 2026 08:07:27 -0000
-Message-Id: <177753644718.4079179.4247146597257781489@gitolite.kernel.org>
+Subject: post-receive: pub/scm/utils/util-linux/util-linux
+Date: Thu, 30 Apr 2026 08:25:03 -0000
+Message-Id: <177753750341.4096584.7668035481680132495@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tegra/linux
-user: thierry.reding
+repo: pub/scm/utils/util-linux/util-linux
+user: kzak
 changes:
-  - ref: refs/heads/for-7.2/arm64/dt
-    old: 254f49634ee16a731174d2ae34bc50bd5f45e731
-    new: d60ed99f1c9e0bdf1fcd713426f6213abe592c83
+  - ref: refs/heads/master
+    old: 6c746e2a12b10e5a8f75256922b4e78d8c293bf6
+    new: 2308d4c07f74d3149d9bb127afb85ce617ecad88
     log: |
-         8f0cc929a4bad534c5a860a53d88912cf16d9c9c arm64: tegra: Fix Tegra234 MGBE PTP clock
-         d60ed99f1c9e0bdf1fcd713426f6213abe592c83 arm64: tegra: Add aspm-l1-entry-delay-ns to PCIe nodes
-         
-  - ref: refs/heads/for-7.2/soc
-    old: 254f49634ee16a731174d2ae34bc50bd5f45e731
-    new: 36df0ef3b4187c69c271af7a1d56f7abb788655e
-    log: |
-         36df0ef3b4187c69c271af7a1d56f7abb788655e bus: tegra-aconnect: Use dev_err_probe for probe error paths
-         
-  - ref: refs/heads/for-next
-    old: 254f49634ee16a731174d2ae34bc50bd5f45e731
-    new: 20e4d2163a23dcac417671d8cb49e7eb49e67a95
-    log: |
-         8f0cc929a4bad534c5a860a53d88912cf16d9c9c arm64: tegra: Fix Tegra234 MGBE PTP clock
-         d60ed99f1c9e0bdf1fcd713426f6213abe592c83 arm64: tegra: Add aspm-l1-entry-delay-ns to PCIe nodes
-         36df0ef3b4187c69c271af7a1d56f7abb788655e bus: tegra-aconnect: Use dev_err_probe for probe error paths
-         07a5f91092a8582e5a2bace87e63dcf49c7893aa Merge branch for-7.2/soc into for-next
-         20e4d2163a23dcac417671d8cb49e7eb49e67a95 Merge branch for-7.2/arm64/dt into for-next
+         bc56132da072d372d8ccc1095038b0eb64c6e0ec tests: regression tests for chsh(1)
+         6f585e902be542fc36e4e7643d4fca39e4f2fbe9 column: fix missing out-of-bounds check in table reordering
+         f2bd5ffa2facb6b649389dcc572a8f3732fc5124 tests: (fallocate) test the --collapse-range option
+         d74f0cf23a6a1d6b606d48188d28bab070f7ed4c Merge branch 'chsh_tests' of https://github.com/cgoesche/util-linux-fork
+         c20b62ac4b1f15716868f8dedc2ea815960bb4e3 Merge branch 'column_heap_corruption' of https://github.com/cgoesche/util-linux-fork
+         2308d4c07f74d3149d9bb127afb85ce617ecad88 Merge branch 'fallocate_tests' of https://github.com/cgoesche/util-linux-fork
          
