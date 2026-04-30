@@ -1,56 +1,25 @@
-Content-Type: multipart/mixed; boundary="===============1540700181071188403=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/security/vulns
-Date: Thu, 30 Apr 2026 13:03:32 -0000
-Message-Id: <177755421250.408203.12982050702956024684@gitolite.kernel.org>
-
---===============1540700181071188403==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/ieee1394/linux1394
+Date: Thu, 30 Apr 2026 13:04:59 -0000
+Message-Id: <177755429989.409184.16206362954335751491@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/security/vulns
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/ieee1394/linux1394
+user: takaswie
 changes:
-  - ref: refs/heads/master
-    old: 4efb4ad0371657d3b65cb1073a249b9a885fb100
-    new: 52afdee966941eb079c39515566d7bbe8ef1fa03
+  - ref: refs/heads/for-next
+    old: 254f49634ee16a731174d2ae34bc50bd5f45e731
+    new: 6dbe7653fa01edeefc77b4d7c063562eb3debd48
     log: |
-         52afdee966941eb079c39515566d7bbe8ef1fa03 strip the new mbox file
+         e05a76ae1507d19d62eb0011592be9efb42e06cd firewire: core: code refactoring for early return at client resource allocation
+         38fb1154185dfdd8ac2162da1da688f16ed66b9b firewire: core: code refactoring to queue work item for iso_resource
+         e698cec3117fb26fc2550cd0858174484dd90cc2 firewire: core: code refactoring for helper function to fill iso_resource parameters
+         b3ac3b453b23423e2c713d9ac497ddb0aec9aa7c firewire: core: split functions for iso_resource once operation
+         cd5f1a1126eeb2f6bd53d45684233e95dff41d82 firewire: core: code cleanup to remove old implementations for once operation
+         48b68337bf6523f16b2afbb0d3e059eb211e3c85 firewire: core: append _auto suffix for non-once iso resource operations
+         6dbe7653fa01edeefc77b4d7c063562eb3debd48 firewire: core: code cleanup for iso resource auto creation
          
-
---===============1540700181071188403==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1777554206 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
-nonce 1777554206-69f15432e5e4e4d88c723f1872750b6022766a10
-
-4efb4ad0371657d3b65cb1073a249b9a885fb100 52afdee966941eb079c39515566d7bbe8ef1fa03 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmnzUx4bHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+6Y0P/A7SWv5kAwP9QtWSQoL2
-wVIwusIPxxVcsOJE2UWNpAnrLQfGdkFsVfTwj4PqvyjYhYRz7wNrURVAlyNM5mcW
-bICNYmKVjVGWwleDUPdYViSt7xzc8BToGFDg/EIGNpHWH4zF5GxbON93jHvToKaY
-MVmEjkJ2tC4tYY3kVylAth17C1uLQ1NxDBcC2zmGjU9w3urbdy62A/HU8Sg/fgFg
-jh9OJFLEYofCR2b7snjJmvN0MmS0E7VDeFikWvmWb2XvMsXDgILMKfXOzc5kZ/cJ
-CuFHiVxpJVph2Hfk18xhpHiddZvWvmKi8QY13lcmeYpf43b/Nm1XPkvO+4C1kmZi
-FMe1AuNSmYNAIBy5EPL5gFLuff4m81kLBzy3SnuAIYxN6fUsnasD+Q1XJxkhTgYA
-xtIQlSPUvxXHxfF/R7J+g1aUGOoTmYhZm0jSccd2PmUq3TPdZrnYWIGsx3rjolV8
-hReM6HU7FpkD3sk92LVFtNbH/ElIHc8weTeWtNv5vtV6LzuULCVkPUr5ybTfbrED
-23wsJozs7nOxNpfaSERM6pmNWEfNrnbFq+CfmlJ1V7DL2R8+kjbFb1+or6jaXdYk
-cNLC74u5BGbnEOB6jpQX9qUzxs1J/rY7BoMGkOmVK5vJncdQPJGy5v9Xe5bcnnmn
-wFM2UdZHeVRepJa7ILGf5sEC
-=jQDF
------END PGP SIGNATURE-----
-
---===============1540700181071188403==--
