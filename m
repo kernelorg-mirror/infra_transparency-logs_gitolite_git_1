@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8084518430111814129=="
+Content-Type: multipart/mixed; boundary="===============7285951159935998039=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
-Date: Thu, 30 Apr 2026 09:15:02 -0000
-Message-Id: <177754050246.4147304.14820105260269107902@gitolite.kernel.org>
+Date: Thu, 30 Apr 2026 09:15:07 -0000
+Message-Id: <177754050716.4150085.5722079428397758992@gitolite.kernel.org>
 
---===============8084518430111814129==
+--===============7285951159935998039==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,43 +16,38 @@ repo: pub/scm/linux/kernel/git/stable/linux
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/linux-6.18.y
-    old: a256b1e6892e7fe840f0f9746316fa938e9a421f
-    new: 1fe06068166d4fc16722201f267b1fe19efad639
-    log: |
-         446ee446d9ae66f36e95c3c90bbcc4e56b94cde0 xen/privcmd: fix double free via VMA splitting
-         d5f59216650c51e5e3fcb7517c825bc8047f60ef Buffer overflow in drivers/xen/sys-hypervisor.c
-         1fe06068166d4fc16722201f267b1fe19efad639 Linux 6.18.26
-         
+  - ref: refs/tags/v6.18.26
+    old: 0000000000000000000000000000000000000000
+    new: 0d7ab9b63556acccfb5e30d091b1e702b93725cc
 
---===============8084518430111814129==
+--===============7285951159935998039==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1777540465 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1777540469 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
-nonce 1777540497-f063e16ed9af37312d55110730c0a15b472a5933
+nonce 1777540504-9207eb32ec46ae4d3d18782aac419d8618b83ea3
 
-a256b1e6892e7fe840f0f9746316fa938e9a421f 1fe06068166d4fc16722201f267b1fe19efad639 refs/heads/linux-6.18.y
+0000000000000000000000000000000000000000 0d7ab9b63556acccfb5e30d091b1e702b93725cc refs/tags/v6.18.26
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmnzHXEbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+y9wQAMX32wVBJ9SN9QDMBn83
-y1GIvj24SClm3AhkJJXF1Ket5JoGf2/2AhvNfPrYWqMSVbBWhLWFk2gYPxcIEXtx
-Cj4PLsjeCBbn0Brd9SCseXtVB/3rNAW3DTq1Sx9GKIyfbzQ8xAB10az17eRxw2fA
-iEauTfRsl+1AtyG2vd9QWQ6jAtDKPW9nHRUzh3DKM8oUY6kgOM1TgiRc6/eCNaWj
-5SWyaYlj/4SDF3UVQQ39mVWAGRplmtl2DQ54GCSObPwlLlxa6v9cWbbB0riVKiUP
-pFkPNLZuGsA545z95iqojX5791I+fo4QKSQ1bksubKvDOb84exFGsGvht+CyJ89Q
-XEw492tbdoEy9VM+TbHjT+zhMxsf6YfpgZnEuRWUj1hY6eowHiWWk6R27wqkVN+G
-tzH03uesEBQejhU2/2IkcPBbZKeR59mETahJGQJF2iAZbpyMPCE7BpjdtXBdNVTG
-4BDtGIpSGpTr+sjSZhAgS9NVxmNm+r9+Em2+0mtXtSs3i5nwZdY3+qPNovcUiLJr
-D5CCtnOquEdpijvgLMrWZ4gTF3UlEpDJsxeKR3Bcljler+l/5xxYuAECwTdKpBMf
-Fn7WHv32S0iBzsK3EIWj7wEZUM5Tq4Qi0rH9OGSkmuKAGJzKaj+a301obk7c2p+p
-YAZmX9NhWttvfnjCw3hwimBq
-=XzY6
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmnzHXUbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+9dUQAJ1N3J05gccp2+rUcZkf
+UQAm7cj5BWY6IEa58A/xPPskQi9NFSCnQBIqTEvHKdaUIHQdmwPspZBp1/pi+NHL
+T/tokLOQ5HXupv+AgNWLbrLQtq2R5ltNHc8858K+7ekpmJOdAMb9cn1eJxneEX1n
+9NOAcio2pUVRXjVnJjXV6OZgjkpdLojdKUY2g/nSeCKmfeZJsyAW27JB49GxBSdH
+mQTRxSRahDI64KgHV0May1qQx1YmVWU/M11TshS8sl5PV72ZQ+5G9xpm9DMi0rt2
+Ox4FzlPNXVO5H7yKkghjvj4jcwsG0dKO6acnrgQeThiU4kOh6IKwax/64LSPjhdn
+0+TfPwsBpgPCt/Z3WMv0rmBbpkiPmwx68DxsVs9MiDt7CTYnci2LerNYEYcDhqRj
+Q1TO9RAo3U6V8GYw4RBXN7iqjGyWnpwokCfqe9eHYz3fQ8vUa+iLQDJLMqqkW/qh
+MDOX8DcxNWMPpWsXkEBiVcAmsFE8Ad/L0EsjeYSDeX/a3J7IY+MlWHCExjEONWle
+r0DnHWZUNDWfGJPyO0o4G+Z/MKgrIYuUOves4q3tUj2Qd+cJFI+0+4Ejpzw+eTX+
+Hj4GK88AxgqQBN5dkBokFVvYfA4EOXuuNBo8IJeBVIX5ICNORQIMkxtS7so7njgC
+iKP5SfQhOeu8pqGtXd3RjYTJ
+=iLNy
 -----END PGP SIGNATURE-----
 
---===============8084518430111814129==--
+--===============7285951159935998039==--
