@@ -1,46 +1,49 @@
-Content-Type: multipart/mixed; boundary="===============7473445532120557670=="
+Content-Type: multipart/mixed; boundary="===============2533606734124404647=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
-Date: Thu, 30 Apr 2026 21:25:53 -0000
-Message-Id: <177758435353.931228.263483927577867937@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/rt/linux-stable-rt
+Date: Thu, 30 Apr 2026 21:42:10 -0000
+Message-Id: <177758533010.946573.6972875540078968269@gitolite.kernel.org>
 
---===============7473445532120557670==
+--===============2533606734124404647==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ath/ath
-user: jjohnson
+repo: pub/scm/linux/kernel/git/rt/linux-stable-rt
+user: lclaudio
 changes:
-  - ref: refs/heads/pending
-    old: af0c130934fd48ac732d61f82c4dfd2241f76337
-    new: e12d2d3983acb150fd987d19ec6a2a530da110df
-    log: revlist-af0c130934fd-e12d2d3983ac.txt
+  - ref: refs/heads/v5.10-rt-next
+    old: 3a943eab32de29a489443c9e9880245cc6dd90a2
+    new: f5f9db4f1f46003faa3cae7887694a2fd5afd288
+    log: revlist-3a943eab32de-f5f9db4f1f46.txt
+  - ref: refs/tags/v5.10.254-rt150-rc1
+    old: 0000000000000000000000000000000000000000
+    new: beaea181840c57a32801bb093e7923435d90d91d
 
---===============7473445532120557670==
+--===============2533606734124404647==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-af0c130934fd-e12d2d3983ac.txt
+Content-Disposition: attachment; filename=revlist-3a943eab32de-f5f9db4f1f46.txt
 
-c4f518736472c8cfbf1d304e01c631babd2bbf34 wifi: ath9k: Remove redundant rcu_read_lock/unlock() in spin_lock
-22e8b91d18972f5e1de13af7f55555e550ad1818 wifi: ath9k: use non devm for nvmem_cell_get
-7b2338d5ec6fee29f92fae791219ab9fbd206567 wifi: ath9k: owl: move name into owl_nvmem_probe
-3042a9d403b9ead7c35b55e697eeae7974e04653 wifi: ath9k: use kmemdup and kcalloc
-7ce2f118a2389e8f0a64068c6fe7cc7d40639be0 wifi: ath9k: fix OOB access from firmware tx status queue ID
-0e39eea57626e545c596734c0d250c1735f1a7e5 wifi: ath: Use the unified QMI service ID instead of defining it locally
-2419d92ad387ff34376e7c3afc300cff651038da wifi: ath: Unify user-visible "Qualcomm" name
-c4aa897fe234a7bbfc0ba246df34137e3a88beb8 wifi: ath12k: Handle DP_RX_DECAP_TYPE_8023 type in Rx path
-d88c3a5117c58e1d93c20a7c723a6ad23136a430 wifi: ath12k: use kzalloc_flex
-8c79aac429b583301f387374ff37c59be671df87 wifi: ath11k: cancel SSR work items during PCI shutdown
-31d4f8d427f2b9e423d7e177fb15f934cf0e37dd wifi: ath12k: unify error handling in some ath12k_wmi_xxx() functions
-845b613b57c626ac85fdefd47196acfb3172fd49 wifi: ath12k: handle thermal throttle stats WMI event
-612556eb774f19f0ad64b5f72e890943b95a1339 wifi: ath12k: configure firmware thermal throttling via WMI
-cd93e8c23ebbd72e9aa799199b14c8433585f747 wifi: ath12k: refactor per-radio thermal hwmon setup and cleanup
-0ab4dc09b7819ddea698fe5a0cc711a64186f12d wifi: ath12k: reorder group start/stop for safe thermal sysfs cleanup
-e12d2d3983acb150fd987d19ec6a2a530da110df wifi: ath12k: add thermal cooling device support
+8b3843b1e3bc36f57d14d770fe0286a9cbeb38b1 crypto: doc - fix kernel-doc notation in chacha.c and af_alg.c
+534b7f208c6019df5aacc249c6667845b1cc1dd3 crypto: scatterwalk - Backport memcpy_sglist()
+488f9c3ab90e333ad5185d9236c1e10898acf041 crypto: algif_aead - use memcpy_sglist() instead of null skcipher
+893d22e0135fa394db81df88697fba6032747667 crypto: algif_aead - Revert to operating out-of-place
+08ea39a556ecd39b33c2b4888861001c6706a62e crypto: algif_aead - snapshot IV for async AEAD requests
+274857bb1fbef99ce4dba0f6e940115e17c48361 crypto: authenc - use memcpy_sglist() instead of null skcipher
+8c62f618576519dbed6816fafc623ce592953025 crypto: authencesn - Do not place hiseq at end of dst for out-of-place decryption
+88881da57e60ef796c59bf53bb34221c960ec707 crypto: authencesn - Fix src offset when decrypting in-place
+fa48d3ea9cdbfb28c1fd6756c6c5cd01351aa51e crypto: af_alg - Fix page reassignment overflow in af_alg_pull_tsgl
+74a66fdb5282d89e348b00c42cfca3a936946d94 crypto: algif_aead - Fix minimum RX size check for decryption
+dbf862ce9f009128ab86b234d91413a3e450beb4 xen/privcmd: fix double free via VMA splitting
+e3af585e1728c917682b6a3de9a69b41fb9194d4 Buffer overflow in drivers/xen/sys-hypervisor.c
+484bc8b8a0b5816ecc80375b1bc38382abf6bcf5 Linux 5.10.254
+f2444e2d1daf2759e224f07bea170c62b2deb66f Linux 5.10.253-rt149
+0ede56fb75aed96dcbb112c11c3e39da7f3b6086 Merge tag 'v5.10.254' into v5.10-rt
+f5f9db4f1f46003faa3cae7887694a2fd5afd288 Linux 5.10.254-rt150-rc1
 
---===============7473445532120557670==--
+--===============2533606734124404647==--
