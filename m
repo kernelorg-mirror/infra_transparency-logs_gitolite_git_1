@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8031265430401021585=="
+Content-Type: multipart/mixed; boundary="===============0463071275762347836=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/vbabka/slab
-Date: Thu, 30 Apr 2026 16:31:54 -0000
-Message-Id: <177756671494.627936.17643388179467126219@gitolite.kernel.org>
+Date: Thu, 30 Apr 2026 16:32:12 -0000
+Message-Id: <177756673225.628413.7104742229007119076@gitolite.kernel.org>
 
---===============8031265430401021585==
+--===============0463071275762347836==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,36 +16,37 @@ repo: pub/scm/linux/kernel/git/vbabka/slab
 user: vbabka
 git_push_cert_status: E
 changes:
-  - ref: refs/heads/slab/for-7.2/perf
-    old: 1f7c8e1d52428cbfa676081cb3008ebb245a47ee
+  - ref: refs/heads/slab/for-next
+    old: 8952728641305ebcd03e80f79b8d31bb41d6d95f
     new: 298cdbf5f7c9e19289f46710ed5ab3da4e711150
     log: |
+         1f7c8e1d52428cbfa676081cb3008ebb245a47ee mm/slub: defer freelist construction until after bulk allocation from a new slab
          298cdbf5f7c9e19289f46710ed5ab3da4e711150 mm, slab: add an optimistic __slab_try_return_freelist()
          
 
---===============8031265430401021585==
+--===============0463071275762347836==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher A940D434992C2E8E99103D50224FA7E7CC82A664 1777566710 +0200
+pusher A940D434992C2E8E99103D50224FA7E7CC82A664 1777566728 +0200
 pushee gitolite.kernel.org:pub/scm/linux/kernel/git/vbabka/slab.git
-nonce 1777566710-c54d27fba7089e8373d8bb3e14162c0a9e4b2e6e
+nonce 1777566727-fe515bbaf0f99decc73396beb328a656b3da3f06
 
-1f7c8e1d52428cbfa676081cb3008ebb245a47ee 298cdbf5f7c9e19289f46710ed5ab3da4e711150 refs/heads/slab/for-7.2/perf
+8952728641305ebcd03e80f79b8d31bb41d6d95f 298cdbf5f7c9e19289f46710ed5ab3da4e711150 refs/heads/slab/for-next
 -----BEGIN PGP SIGNATURE-----
 
-iQFPBAABCAA5FiEEe7vIQRWZI0iWSE3xu+CwddJFiJoFAmnzg/YbFIAAAAAABAAO
-bWFudTIsMi41KzEuMTIsMiwyAAoJELvgsHXSRYiamn0IAJKxz0AvIDs+Jz3d6YrD
-BId6ZFiEXDjGdHgpVhFKrCgEzMniu9cPboCvXABsVxySNd/2C9egX5MdQvUAthJy
-0xMDKr/Afn3/rHWwpk6OXesHkEV0xZkZCP9WdSG9eAge8jpAcwHd005pRneDzLQr
-FOBjcMVpQNv2tbf08GufRvgLmZg5Hy8KQkFJDSDimyYiiW7L8m0VUcA1tydZ209I
-FbP9wqU85XBtyZM9im1/zlnstqpojT43tpXZOdgAT0ho5xv5JXrcGw0M3imJfg1q
-Za4u5M0Nq7/sOLplgbW3/QiphJJvmPF2Gxc4rZ5vOskmXGW1pDdAjSAQr7wU6Sha
-nNQ=
-=sPdj
+iQFPBAABCAA5FiEEe7vIQRWZI0iWSE3xu+CwddJFiJoFAmnzhAgbFIAAAAAABAAO
+bWFudTIsMi41KzEuMTIsMiwyAAoJELvgsHXSRYia/54IAJc8QMZsLg08vBqt/TgA
+TOyH9Y1upZK28vHWHoDgwTz/OAqfMmVLMNEd32TqH8ymC7u+t44uktLXGgm+Yo4Z
+x7w2nuMBkGHnKwRfqE844JNatWP8gGrZ+3nb1U/Hc63+lbMdwm7DQvmufDu9Iz3S
+WMETRNblYm0D3Yd866hnM61hiVJgBDFrbYwPwGJ+V7wUA2Y/qVZpSsIlt5IHxV5i
+ntrI1rMSLUjhz5H47b1Zy3BjE0GR5/GK9HVhhGzC1bUe0Z9pMiuyWMHd5qe7xtDm
+6TJ2bbLlOFmXWe5JCDraMrvNL4aDL3fgAddFPCMLDppv0/YP/GIOceogmru8yWKL
+DUE=
+=Tewn
 -----END PGP SIGNATURE-----
 
---===============8031265430401021585==--
+--===============0463071275762347836==--
