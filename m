@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mszyprowski/linux
-Date: Thu, 30 Apr 2026 06:22:39 -0000
-Message-Id: <177753015952.3915667.13935368494646914236@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tiwai/sound
+Date: Thu, 30 Apr 2026 06:35:04 -0000
+Message-Id: <177753090473.3928671.7205146306187854167@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mszyprowski/linux
-user: mszyprowski
+repo: pub/scm/linux/kernel/git/tiwai/sound
+user: tiwai
 changes:
-  - ref: refs/heads/dma-mapping-fixes
-    old: 254f49634ee16a731174d2ae34bc50bd5f45e731
-    new: 22d0213e55fbb723c2c00dd5aa855a6eaad95b23
-    log: |
-         22d0213e55fbb723c2c00dd5aa855a6eaad95b23 dma-direct: fix use of max_pfn
-         
+  - ref: refs/tags/sound-7.1-rc2
+    old: 0000000000000000000000000000000000000000
+    new: 38af8b01fba9fa1992be0e4edc9679b269cdc992
