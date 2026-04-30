@@ -1,56 +1,49 @@
-Content-Type: multipart/mixed; boundary="===============5289648333380614675=="
+Content-Type: multipart/mixed; boundary="===============6371401154026173138=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/stable-queue
-Date: Thu, 30 Apr 2026 09:37:36 -0000
-Message-Id: <177754185611.86052.16858745704057407363@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sudeep.holla/linux
+Date: Thu, 30 Apr 2026 09:46:00 -0000
+Message-Id: <177754236037.144340.14521521098417001134@gitolite.kernel.org>
 
---===============5289648333380614675==
+--===============6371401154026173138==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/stable-queue
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/sudeep.holla/linux
+user: sudeep.holla
 changes:
-  - ref: refs/heads/master
-    old: c0a55c4d018c5dd5a39886da8772b6a6c04b85f1
-    new: 5f1cc1b140cd69eb09d8ab7de07154c57ee41852
-    log: |
-         5f1cc1b140cd69eb09d8ab7de07154c57ee41852 drop 6.1 xen patches that are already in a release
-         
+  - ref: refs/heads/for-next/scmi/updates
+    old: 4f19282d144c0cb403a2684f21b667026f49fa01
+    new: 40f735f917680e7fcd26cef39965964438db72ba
+    log: revlist-4f19282d144c-40f735f91768.txt
 
---===============5289648333380614675==
+--===============6371401154026173138==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-4f19282d144c-40f735f91768.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1777541818 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/stable-queue.git
-nonce 1777541853-2f9b83680bd3e3b23868cd11d852d829db64b0a9
+9074277f0f8f0444c2f987939d4db8bddc24a580 firmware: arm_scmi: Rename struct scmi_revision_info to scmi_base_info
+4377f6d89b28430ca985669d68386b25197bcfa3 firmware: arm_scmi: quirk: Improve quirk range parsing
+7a58c6253569b401111dea535ba005711dbf1490 firmware: arm_scmi: quirk: Simplify quirk table iteration
+fab5fc41f8260b4eab6ce6a0c80d6e4c3248a1d5 firmware: arm_scmi: Convert to list_for_each_entry()
+4e6310157de502475157ad7e7f8723aea277e5c5 clk: scmi: Fix clock rate rounding
+c152d8396ca7331fe9b8677b227068bc8f29c887 firmware: arm_scmi: Add clock determine_rate operation
+7513679e63488412c050116ffaccf5d51537c459 clk: scmi: Use new determine_rate clock operation
+16ea5231c99a80a37b75389ec0014585c0aabf7b firmware: arm_scmi: Simplify clock rates exposed interface
+35392381357549add361526be04913f75bd73ecb clk: scmi: Use new simplified per-clock rate properties
+e838090e93d07ade1ec97424103653f8a18c1ece firmware: arm_scmi: Drop unused clock rate interfaces
+dc330ca93f0590b21dd3ba78d41e643d92ac7fa8 firmware: arm_scmi: Make clock rates allocation dynamic
+85f167b23b161b4d3a1fa0cbb8ea6c35262b33bd firmware: arm_scmi: Harden clock parents discovery
+179919ed41b1374d454a02b7c249c19ae52cca65 firmware: arm_scmi: Refactor iterators internal allocation
+8da3b1b3eccb4ddd0b807bf8af7efd0ae58acd52 firmware: arm_scmi: Add bound iterators support
+52bf0be9b0eb6228bfeae2608ea8097547e7dc2d firmware: arm_scmi: Fix bound iterators returning too many items
+103cdc3ea0cfdc75737e2625618f7e93478182cb firmware: arm_scmi: Use proper iter_response_bound_cleanup() name
+b96d8cf3935ed6030c4b8c9732270d8323d2b984 firmware: arm_scmi: Use bound iterators to minimize discovered rates
+b94af443a88dca1b883e1409af2f68188a83af76 firmware: arm_scmi: Fix OOB in scmi_clock_describe_rates_get_lazy()
+40f735f917680e7fcd26cef39965964438db72ba firmware: arm_scmi: Introduce all_rates_get clock operation
 
-c0a55c4d018c5dd5a39886da8772b6a6c04b85f1 5f1cc1b140cd69eb09d8ab7de07154c57ee41852 refs/heads/master
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmnzIrobHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+uegP+wZUu1JH5E6Nq2n2dLqf
-1gLShwMWVInCQEyw2/GyJXNnsdxSh/KFRR0pyaCqfPXchwKeC4eByacvP1ut3iYD
-ZKkKLjqI5iCvTNSuTOv2JqUEjG6GdDmSXAalxvuL/2vtSWJFQieQ0yxLEHuN7lrF
-m34pQnhtsBwiSdsvneLYdIOED3U5P7ej/azIXO71EGF8+bJP39jR9AR1xguqFWbO
-zVRvpciYgwUy3OCBF0EDx1gGhXscvRawPzX8dIyuGi1g4NtaNT/zRRyZw63pHAMo
-zLVXSguvjygrd6qKq8W2FE0ORr1P/6vHomCfau/zfk/2uZi/vKTV884/AMwD2NbP
-1A96oJf1WDJ93uuN3SxycY/Kp2+urhTljYCm+WZUrCHvuk846RJuIt+vsQO+vtq/
-Cri6AjO5OjiWVrsvePmKPjEKyOYm9esiyFBuUlUc+xYj5/a155GuI1ESel+acUbr
-ItX1uZaZ/gYxsFhHUKyS2+pmcmBEf+ofgtzBfkwDULPv6slOK2ifzJObbxC73r0/
-+lbciVeLV301giB96Xp4RLb61N7Fc50lefTKzoArZJtzsChoc7iUVYupFYa2nYKG
-1p5XP+nx/WCziSrqTtMPdDoZge/V2hq1TNdg3Dd/kXCZMS7QPHZ9wbMbHg88Nq1L
-Wa30sq3xJ/dL95Y2Qul7hLir
-=SKUi
------END PGP SIGNATURE-----
-
---===============5289648333380614675==--
+--===============6371401154026173138==--
