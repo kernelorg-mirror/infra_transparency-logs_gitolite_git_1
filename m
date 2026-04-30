@@ -1,51 +1,22 @@
-Content-Type: multipart/mixed; boundary="===============5598502619635363236=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/vbabka/slab
-Date: Thu, 30 Apr 2026 16:29:40 -0000
-Message-Id: <177756658034.623636.10078878853697774572@gitolite.kernel.org>
-
---===============5598502619635363236==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux
+Date: Thu, 30 Apr 2026 16:30:25 -0000
+Message-Id: <177756662554.626556.7422938846637087464@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/vbabka/slab
-user: vbabka
-git_push_cert_status: E
+repo: pub/scm/linux/kernel/git/axboe/linux
+user: axboe
 changes:
-  - ref: refs/heads/slab/for-7.2/perf
-    old: 8952728641305ebcd03e80f79b8d31bb41d6d95f
-    new: 1f7c8e1d52428cbfa676081cb3008ebb245a47ee
+  - ref: refs/heads/master
+    old: 57b8e2d666a31fa201432d58f5fe3469a0dd83ba
+    new: e75a43c7cec459a07d91ed17de4de13ede2b7758
     log: |
-         1f7c8e1d52428cbfa676081cb3008ebb245a47ee mm/slub: defer freelist construction until after bulk allocation from a new slab
+         3b75dd76e64a04771861bb5647951c264919e563 tracing: branch: Fix inverted check on stat tracer registration
+         5ec07d5204b4544271f32f6261ee097fe53cb081 tracepoint: Fix typo in tracepoint.h comment
+         b2aa3b4d64e460ac606f386c24e7d8a873ce6f1a tracing/probes: Limit size of event probe to 3K
+         e75a43c7cec459a07d91ed17de4de13ede2b7758 Merge tag 'trace-v7.1-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
          
-
---===============5598502619635363236==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
-
-certificate version 0.1
-pusher A940D434992C2E8E99103D50224FA7E7CC82A664 1777566575 +0200
-pushee gitolite.kernel.org:pub/scm/linux/kernel/git/vbabka/slab.git
-nonce 1777566574-6a5bfda3df3705f303c5e4538085235e2dba9480
-
-8952728641305ebcd03e80f79b8d31bb41d6d95f 1f7c8e1d52428cbfa676081cb3008ebb245a47ee refs/heads/slab/for-7.2/perf
------BEGIN PGP SIGNATURE-----
-
-iQFPBAABCAA5FiEEe7vIQRWZI0iWSE3xu+CwddJFiJoFAmnzg28bFIAAAAAABAAO
-bWFudTIsMi41KzEuMTIsMiwyAAoJELvgsHXSRYiaBqUIAJ4730h0yiRQ44aP4srK
-k6rBkeeUN6UtAnlN5vv7CXVqq+Hwm5krAzrtDt8d6+80Tds4NbqcUxOSKF9/vyOg
-PFIob2JX+Y1ld+NompTP4kXJ82IHcXM02w5U/73OgdAt2iPRdr1iXSsOs1nLPwrH
-+ykDFdlOzc2ztbhh2+biIqZl5YLz3mvisHrKQnWjX7xRmu02joGVSgHIMGTINfd0
-H+PnjZkMaXxjiSfqOCuAWnQPCSMy1T/iKqwI5SDhS6RuKZY1iQ9PfK+fqcqQLtki
-s/Df8V5sWrz90eR8RoiUw1j1tyAvFz9V3U/ETuYQQDUKQlpthoRBopNmuZmlcFpr
-Ncc=
-=be8P
------END PGP SIGNATURE-----
-
---===============5598502619635363236==--
