@@ -1,23 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/rdma/rdma
-Date: Thu, 30 Apr 2026 01:50:50 -0000
-Message-Id: <177751385035.3647495.1825967322374782248@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/liveupdate/linux
+Date: Thu, 30 Apr 2026 01:53:12 -0000
+Message-Id: <177751399285.3649053.5736019257965821029@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/rdma/rdma
-user: jgg
+repo: pub/scm/linux/kernel/git/liveupdate/linux
+user: tatashin
 changes:
-  - ref: refs/heads/wip/jgg-for-rc
-    old: c488df06bd552bb8b6e14fa0cfd5ad986c6e9525
-    new: 6009cca96fcb01182cede725ad61e9e3810f3932
+  - ref: refs/heads/next
+    old: eee13213401bafb7ffe3b447adffb1f570b9d813
+    new: 7ac15eb18f91fe0796c3556f372c6b3ac752dcee
     log: |
-         38694f4639c45599161860e828dc4ac77abf8cea RDMA/mlx5: Fix UAF in SRQ destroy due to race with create
-         9bee81cc5e8811c8bbe67fbf5214a7998457324b RDMA/mlx5: Fix UAF in DCT destroy due to race with create
-         610771c62e2ac5bca851fc5a6f8af1cdd83f189a IB/core: Fix IPv6 netlink message size in ib_nl_ip_send_msg()
-         1f3b337af2231b1e83c9052f771b201f5cbb9997 RDMA/core: Fix rereg_mr use-after-free race
-         6009cca96fcb01182cede725ad61e9e3810f3932 RDMA/mlx5: Fix null-ptr-deref in Raw Packet QP creation
+         a0a79b4272161f587923cfe8484c3812196a457e liveupdate: reject LIVEUPDATE_IOCTL_CREATE_SESSION with invalid name length
+         5a42660ffc155baa4f5c574d052885ce59f33387 selftests/liveupdate: add test cases for LIVEUPDATE_IOCTL_CREATE_SESSION calls with invalid length
+         d6b3d47bdaf89f29682d9044d21ad1451384f7e4 liveupdate: add LIVEUPDATE_SESSION_GET_NAME ioctl
+         7ac15eb18f91fe0796c3556f372c6b3ac752dcee selftests/liveupdate: add test cases for LIVEUPDATE_SESSION_GET_NAME
          
