@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1064250607642711279=="
+Content-Type: multipart/mixed; boundary="===============7022406313915406868=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/melver/linux
-Date: Thu, 30 Apr 2026 13:47:26 -0000
-Message-Id: <177755684606.452720.14321601295297291077@gitolite.kernel.org>
+Date: Thu, 30 Apr 2026 13:47:48 -0000
+Message-Id: <177755686880.453104.18292775428828983349@gitolite.kernel.org>
 
---===============1064250607642711279==
+--===============7022406313915406868==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,19 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/melver/linux
 user: melver
 changes:
-  - ref: refs/heads/kcsan/dev
-    old: 81b28849b2f5067ff24165cc910f4f46241f3d26
-    new: 07a1a6562ce29e2e0c134a57882d6e52e8758492
-    log: revlist-81b28849b2f5-07a1a6562ce2.txt
+  - ref: refs/heads/alloc-token
+    old: d5990f45873bc944437cce4c9a33adfa5245f2c4
+    new: 3a674f33fa09193cbf94df7fa514768d77a09974
+    log: revlist-d5990f45873b-3a674f33fa09.txt
 
---===============1064250607642711279==
+--===============7022406313915406868==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-81b28849b2f5-07a1a6562ce2.txt
+Content-Disposition: attachment; filename=revlist-d5990f45873b-3a674f33fa09.txt
 
-a93b68d46e1450ca6d395be0ca002f8bdf04d9a6 smb: smbdirect: introduce smbdirect_connection_legacy_debug_proc_show()
-09d617d3121e14309ad5e4287b0da3ec27d386a8 smb: smbdirect: introduce smbdirect_connection_wait_for_connected()
 dc24063813ea617394db153cf9203286770ed404 smb: smbdirect: introduce smbdirect_connection_is_connected()
 b3e78c651441eaf08e830e260d06fd8d33a8b7f9 smb: smbdirect: introduce smbdirect_socket_shutdown()
 dce268ffcddc96f29707c1967c52b036ad92e43d smb: smbdirect: introduce smbdirect_socket_init_{new,accepting}() and helpers
@@ -1049,6 +1047,8 @@ b935117fe6d1af576e39b1f18c9e875f44bd146f Merge tag 'kbuild-fixes-7.1-1' of git:/
 20b64cf8705a0f6268bb9a320eb6b4c425f3ec6c Merge tag 'tsm-for-7.1' of git://git.kernel.org/pub/scm/linux/kernel/git/devsec/tsm
 14479877c1ec9667edb4a7c20a8d7a704e7249ca Merge tag 'clk-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/clk/linux
 254f49634ee16a731174d2ae34bc50bd5f45e731 Linux 7.1-rc1
-07a1a6562ce29e2e0c134a57882d6e52e8758492 kcsan: Silence -Wmaybe-uninitialized when calling __kcsan_check_access()
+8e542a16685bbbbd7f290532a651b060e1f3980b vmalloc: fix buffer overflow in vrealloc_node_align()
+07cfd394904b6b22aaf60faa3b3e9faca2df1ad6 slab: support for compiler-assisted type-based slab cache partitioning
+3a674f33fa09193cbf94df7fa514768d77a09974 slab: fix kernel-docs for mm-api
 
---===============1064250607642711279==--
+--===============7022406313915406868==--
