@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0842117616627593746=="
+Content-Type: multipart/mixed; boundary="===============0235530677715274913=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Thu, 30 Apr 2026 13:00:36 -0000
-Message-Id: <177755403675.406273.9876628943047224744@gitolite.kernel.org>
+Date: Thu, 30 Apr 2026 13:00:55 -0000
+Message-Id: <177755405585.406712.15746533075760554681@gitolite.kernel.org>
 
---===============0842117616627593746==
+--===============0235530677715274913==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,15 +16,27 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: 3130715ea3216a514681c5e52bdee491043b7775
-    new: e80f947c3ee5f1e4327b40bd3c492ed349e843c5
-    log: revlist-3130715ea321-e80f947c3ee5.txt
+    old: e80f947c3ee5f1e4327b40bd3c492ed349e843c5
+    new: 447e0b1b911eee605d42d71c89a99aa31638e9c7
+    log: |
+         15c0fc93c4f79884511362e1b482f95e7cc85c71 Merge branch into tip/master: 'locking/urgent'
+         eb13395a757a63ddbb180e7e3757f5cb58c79f6b Merge branch into tip/master: 'sched/urgent'
+         1012296475dc8557bc5b0f09bad1110fea646b3f Merge branch into tip/master: 'irq/drivers'
+         eed96dbc267ae537c4f20fb6eea7568d1b35e1ec Merge branch into tip/master: 'timers/clocksource'
+         0cba98d23ba14eb88fff182e2b05998c52ce6490 Merge branch into tip/master: 'x86/microcode'
+         427b91db0186be5ee29e6681ae6b0f4864d5c35d Merge branch into tip/master: 'x86/misc'
+         447e0b1b911eee605d42d71c89a99aa31638e9c7 Merge branch into tip/master: 'x86/tdx'
+         
+  - ref: refs/heads/tip/urgent
+    old: fef931b4effe1d00f7c33fa0c27a0ad83af212f7
+    new: eb13395a757a63ddbb180e7e3757f5cb58c79f6b
+    log: revlist-fef931b4effe-eb13395a757a.txt
 
---===============0842117616627593746==
+--===============0235530677715274913==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3130715ea321-e80f947c3ee5.txt
+Content-Disposition: attachment; filename=revlist-fef931b4effe-eb13395a757a.txt
 
 ccab51d69b1478b549ad0bbb38f556ab3bfb47ab KVM: arm64: Re-allow hyp tracing HVCs for [nh]VHE
 f05799491d6a2a29d8e15f4451e685c4a6e13d8f KVM: arm64: pkvm: Adopt MARKER() to define host hypercall ranges
@@ -88,9 +100,11 @@ d99f7a32f09dccbe396187370ec1a74a31b73d7e sched_ext: Fix scx_flush_disable_work()
 3b75dd76e64a04771861bb5647951c264919e563 tracing: branch: Fix inverted check on stat tracer registration
 5ec07d5204b4544271f32f6261ee097fe53cb081 tracepoint: Fix typo in tracepoint.h comment
 664f0f6be37ce4ef80992cf2ed74761cd5bbe207 Merge tag 'sched_ext-for-7.1-rc1-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/tj/sched_ext
+bc7304f3ae20972d11db6e0b1b541c63feda5f05 futex: Prevent lockup in requeue-PI during signal/ timeout wakeup
 57b8e2d666a31fa201432d58f5fe3469a0dd83ba Merge tag 'for-linus' of git://git.kernel.org/pub/scm/virt/kvm/kvm
 b2aa3b4d64e460ac606f386c24e7d8a873ce6f1a tracing/probes: Limit size of event probe to 3K
 e75a43c7cec459a07d91ed17de4de13ede2b7758 Merge tag 'trace-v7.1-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
-e80f947c3ee5f1e4327b40bd3c492ed349e843c5 Merge branch 'linus'
+15c0fc93c4f79884511362e1b482f95e7cc85c71 Merge branch into tip/master: 'locking/urgent'
+eb13395a757a63ddbb180e7e3757f5cb58c79f6b Merge branch into tip/master: 'sched/urgent'
 
---===============0842117616627593746==--
+--===============0235530677715274913==--
