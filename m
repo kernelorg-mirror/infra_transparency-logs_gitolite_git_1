@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
-Date: Fri, 01 May 2026 22:03:17 -0000
-Message-Id: <177767299766.2489898.5550052036034642290@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/axboe/liburing
+Date: Fri, 01 May 2026 22:10:13 -0000
+Message-Id: <177767341375.2498553.3494552158391562997@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pci/pci
-user: helgaas
+repo: pub/scm/linux/kernel/git/axboe/liburing
+user: axboe
 changes:
-  - ref: refs/heads/for-linus
-    old: ac744b29e5389996cc09a1e2374fa5994c52d024
-    new: 25869ed1fed345da375b1067e0dc625579efbc75
+  - ref: refs/heads/master
+    old: 8e87a9b092cf1af570b026cc49bd7e30e1752b9c
+    new: 3089bbbbe9676ad2a9627715dfc9109f8b29e8b8
     log: |
-         25869ed1fed345da375b1067e0dc625579efbc75 PCI: brcmstb: Assign pcie->gen from pcie_get_link_speed()
+         3891a21ffec618a160f026eeb15bb2ad4e2b9202 Add test case for minimum length left for incremental buffers
+         d473a0d60ca3a3fa8e8ae5b59098a071eba23707 man: update struct io_uring_buf_reg documentation
+         3089bbbbe9676ad2a9627715dfc9109f8b29e8b8 Merge branch 'buf-inc-left'
          
