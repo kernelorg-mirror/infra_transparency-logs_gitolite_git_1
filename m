@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7637956163377203568=="
+Content-Type: multipart/mixed; boundary="===============4969919069210284906=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/gregkh
-Date: Fri, 01 May 2026 09:01:30 -0000
-Message-Id: <177762609091.1691419.16143326358195541144@gitolite.kernel.org>
+Date: Fri, 01 May 2026 09:02:22 -0000
+Message-Id: <177762614250.1692102.14529743213054238184@gitolite.kernel.org>
 
---===============7637956163377203568==
+--===============4969919069210284906==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/gregkh
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/main
-    old: 254f49634ee16a731174d2ae34bc50bd5f45e731
-    new: 26fd6bff2c050196005312d1d306889220952a99
-    log: revlist-254f49634ee1-26fd6bff2c05.txt
+  - ref: refs/heads/clanker
+    old: c5ad22ac76ae391fb6bbafd85ab06a292508ef90
+    new: c4ff94a740ad39638f92b5e3b359ccf023518666
+    log: revlist-c5ad22ac76ae-c4ff94a740ad.txt
 
---===============7637956163377203568==
+--===============4969919069210284906==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1777626090 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1777626116 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/gregkh.git
-nonce 1777626089-a4b9a88189ceb799c61594c23c2e59554e3421d2
+nonce 1777626115-215141dfb15403cd92302f0cd65a67985e1b79a8
 
-254f49634ee16a731174d2ae34bc50bd5f45e731 26fd6bff2c050196005312d1d306889220952a99 refs/heads/main
+c5ad22ac76ae391fb6bbafd85ab06a292508ef90 c4ff94a740ad39638f92b5e3b359ccf023518666 refs/heads/clanker
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmn0a+obHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+zTYP/A+LDFisO/PYo3U3EvqI
-MIPopap3TlCjahO6au6dyEbTywvg0rmrAwNxLrxkgzog6MJHMo3BjH/hvH1smfNZ
-d2qS9+jgYrGl8pdlcDj/szerFpPBidK/X2M8eF29UwnWqgiYy0B99L4Df5Iksr09
-V72F8UR99tZQiQAD8N2Ct8SOQqYkfeNxtA6END9Ti3iVNdk6LY8q+kWCkxkWUOHV
-AXNXpMc+vzEoGhFFijEhgANSdwzR5coH9CzVU4XIU/oXbrLxLMNfK+fw9tWpF+yb
-P/ZWm1/TZCReC0ptiAyrVEDAZT3yrcbrUvR2mr7en0IGUOSQZK/6TdgVCEVRSnfZ
-7u3Jp6j2n8tjFVrK7FwqrFi21bN5W70Q/Nviw4rGfoBy4sbMpGBekTl2dJqiS6zC
-MStVBE8BdNX5jneCfL/9BrlqPRg43yV4lgYWgRaGytXRxkn5aC25r2SmBT1JEGyx
-H/NG9qtFFPy+ONrayg8cI1yr3SkLuhX6MHBfOHVjtHOX/drA8DE/PWAPUW0VmxH3
-jx9maxuwLb7/aPdMGyhqxx/OHOSHFP6R1EwnMsFRve/XSercjoounVvFgZsYNgCt
-s7C0M+T6+Sgyk/DpameffA75YnSv7DSIIMIy/ljs97p20BtGru3ktXSrWe6jBepN
-yifw0KrvAOdShmclrXTNeB/b
-=aEUS
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmn0bAQbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+gMEP/jOp1BNreC9TJAL7SHmN
+IjXWP8cMp2NVb8bA1FazARtauOmKFi3ZgA0XtZ4HOjd20+8iY4zKR3kH1oTsDm5f
+yuimi+Co4ZUM3OMfgloPHPhPumosHaZu4Zaf1cDx/0ovjAq0hTIdlzRDOmif5RMd
+dR5qE8jUA9QwEkRUnS5IW96pI3S6f63ZrRxzFiH2PCNnwBbWV8ScRz1k95pzAlDd
+Ao/21suWe8Dm6Ex2wkosWAW6vbLQYwpGv+F5JshmilcWhcoXUKZ7PV0HcVVBhRuV
+3fmlZxl94RpP3JQzheveSP7pYyY1SKyeGRlupymgPuZ0AIgeP9IxFwtrtcv18PTK
+x6ViQKId8g+rfv4k1MWPKsaNrczhfdqFlWQY37GBMVQMAJpyS9Mj3uFwkjmg74Mv
+Vp76pGk2S1YVmVFxysLhbecLFKJkfrUaYohJlf9pfp9qRWT7ZJdunu3tcVql4nI/
+lM5QASDnDLLrscOwAUaY/j7kozkEzZtftHN0PcyEaXHMTFPIR3NqzH9X1vyvacH2
+eF0B9dPHLRZNe1IDhOzR5KvbC17v2d9rmxydhKnylkcogBy5LAWobvPQiHDxn5Q0
+yYhA20Pmii8UpFsFI++Vltbaf/5gQASkwlFrvCqE0zlGNcnUYzgh4XXUcoZbziSJ
+QTG6Zq5i8uyebvSLW0afnogZ
+=yV09
 -----END PGP SIGNATURE-----
 
---===============7637956163377203568==
+--===============4969919069210284906==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-254f49634ee1-26fd6bff2c05.txt
+Content-Disposition: attachment; filename=revlist-c5ad22ac76ae-c4ff94a740ad.txt
 
 57df858a46f0a4cc104716e0ec88864e5c386ca4 mailbox: add API to query available TX queue slots
 f9f0df23193a8afee3bfb5fc34970c93792d7163 mailbox: rockchip: kzalloc + kcalloc to kzalloc
@@ -324,5 +324,32 @@ bbcbe4ed70dea948849549af7edf44bd42bbd695 iavf: wait for PF confirmation before r
 74b54e9b1084cc51e2b655500a174214d3c38c0e Merge tag 'v7.1-rc2-smb3-client-fixes' of git://git.samba.org/sfrench/cifs-2.6
 cae4ef6f9a3ac71094da2b1083f6e2db699a2c1e Merge tag 'acpi-7.1-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
 26fd6bff2c050196005312d1d306889220952a99 Merge tag 'mtd/fixes-for-7.1-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/mtd/linux
+f71d76a1fb3698a4391765973fce71da23144854 net: mctp: usb: properly drop the usb interface on probe error
+9018ddb9cfd0ecee484893c5451e74eed115b541 wifi: rtw88: properly drop usb interface reference on error
+a6f449b2f829c6c3674f3c3ec3a7b5d55603a9a3 mmc: moxart: fix potential use-after-free on remove path.
+8efd371f762ab725eb02a33ab3d96d4eb6ce63ad mmc: meson-gx: fix potential use-after-free on remove path.
+e3c6913eb7001159720d908fdcba3db568f412c9 f2fs: fix potential deadlock in f2fs_convert_inline_inode
+a37cd43c4edd0ac22fa6bf33dc10a12827b52a97 drm/amdkfd: stop speculation on the kfd_ioctl path
+e8204584755ae16f05bdad175ba70dc4c5650a64 iio: pressure: bmp280: fix stack leak in bmp580 trigger handler
+ebcbd8c9d0abf07dbc56cb5a93e2f8b4c8f4be23 iio: imu: st_lsm6dsx: fix stack leak in tagged FIFO buffer
+8ea94e320ebc533f8159517baf330aa8f9a9a1c8 iio: imu: adis16550: fix stack leak in trigger handler
+16d04d9cb34d742c93710633cd9f3441d9affe9d media: adv7604: avoid negative array index in log_status when cp_read fails
+ad3a81d75dbb6c727ac11512e3d64f5230536c3a media: stv090x: bound DiSEqC reply length to msg[] size
+8d69a9d33aa9455ecb9cf1252b73d310528781c2 media: stv0900: bound DiSEqC reply length to msg[] size
+dc1550b156cf687b17b97c32b32c5c367b6be618 NFC: digital: Bounds check Felica response before sensf_res memcpy
+7e448bcf83a06723b9fd9c7026989f485c015fbf idpf: fix double free and use-after-free in aux device error paths
+08d683281dbb4b190b33285f7770de59514e4160 net: usb: cdc_ncm: reject negative chained NDP offsets
+fded909c80e4004d3f113c23d6dfbd3f19ea036d net: sched: em_text: require NUL-terminated algo name
+67f921f1433ba572e4dfdfc1ad487c6198c785e7 scsi: target: configfs: bound snprintf return in tg_pt_gp_members_show
+bcb4793ace850128128c2b6a225560a0868168d8 staging: rtl8723bs: fix OOB write in HT_caps_handler()
+3c83f52472d619ed5160615a52a1e056dd76ccc3 Input: xpad - reject short Xbox One packets before len-relative share-button index
+4e30fcfa1006d539ad599919e1f5f70f2b636074 Input: usbtouchscreen - clamp NEXIO data_len/x_len to URB buffer size
+1bf7882e3a209efb06d389b86dd8d9ecc0bf0a81 usb: usblp: fix heap leak in IEEE 1284 device ID via short response
+fae883b2f93080b312ebd3915967a4e6768d717a usb: usblp: fix uninitialized heap leak via LPGETSTATUS ioctl
+2c57fa157ab2c429719eed126679659d1233578c Input: synaptics-rmi4 - validate register descriptor structure against its declared size
+53d020555a83f025cfc8b7fd58b79b4f5ca6ca3e Input: synaptics-rmi4 - use u32 for reg_size to avoid sign extension into item->reg_size
+97eb77d2b8de4494f6dc3d8da85fe2cd5f644231 ipv4: clamp MCAST_MSFILTER getsockopt to optlen, not gf_numsrc
+2ea98eca6c5ea6e094a6a455314ea49582ff3524 io_uring: depend on MMU
+c4ff94a740ad39638f92b5e3b359ccf023518666 mm/gup: honour FOLL_PIN in NOMMU __get_user_pages_locked()
 
---===============7637956163377203568==--
+--===============4969919069210284906==--
