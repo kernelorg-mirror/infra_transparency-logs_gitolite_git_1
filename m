@@ -1,25 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Fri, 01 May 2026 23:35:37 -0000
-Message-Id: <177767853765.80593.17725712223794580471@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/sj/damo
+Date: Fri, 01 May 2026 23:38:14 -0000
+Message-Id: <177767869483.82467.14907715140668593223@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/sj/damo
+user: sj
 changes:
-  - ref: refs/heads/master
-    old: ef5f46b630235b75beec43174348c3d01d6fc49a
-    new: cd546f7ae2fce8b695c834143b50e712d62ebed8
+  - ref: refs/heads/next
+    old: 5e49117e23d4246502dc5002771df2c574c29871
+    new: 6cc23c4d32c1733b53b2df1c14150295789267b6
     log: |
-         4023b7424ecd5d38cc75b650d6c1bf630ef8cb40 arm64/scs: Fix potential sign extension issue of advance_loc4
-         caecde119e341acd9819cbc1c54edf6caa6c6389 arm64/irqflags: __always_inline the arch_local_irq_*() helpers
-         3ea4415015d690a51a3fb1f98dfc9a02f88f7bc4 ACPI: arm64: cpuidle: Tolerate platforms with no deep PSCI idle states
-         bb7235e226888607e6aac1288062fcb1ac105589 kselftest/arm64: Include <asm/ptrace.h> for user_gcs definition
-         4d8e74ad4585672489da6145b3328d415f50db82 arm64: Reserve an extra page for early kernel mapping
-         030e8a40fff65ca6ac1c04a4d3c08afe72438922 arm64: signal: Preserve POR_EL0 if poe_context is missing
-         cd546f7ae2fce8b695c834143b50e712d62ebed8 Merge tag 'arm64-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/arm64/linux
+         23d728e49fdafc023abf51a35dd141da4e69ecde _damon_features: update for 7.1-rc1 release
+         67ec701605191862ba87c9a5650aee9441ba133c _damon_features: add sysfs/damos_action_collapse feature
+         2ad1887842b6187cbb9f21827eae5bee96d6ba52 _damon_features: add sysfs/damos_quota_goal_node_eligible_mem_bp feature
+         faa1dd290dcd592f45376a52113c5fc4a6a7e5e3 _damon_features: update ctx_pause upstream status
+         7d3bd8f227fbe1631f9a59e5f189c8eecd8225fa _damon_features: update failed regions charge ratio upstream status
+         0babb7b8d07e3664f79d6dbdcb50e195c6ecf11e _damon_sysfs: check damos_action_collapse and node_eligible_mem_bp supports
+         6cc23c4d32c1733b53b2df1c14150295789267b6 TODO: add items for supporting two newly mm-merged features
          
