@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============9078922945849314969=="
+Content-Type: multipart/mixed; boundary="===============4994437624882000775=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jaegeuk/f2fs
-Date: Fri, 01 May 2026 04:25:50 -0000
-Message-Id: <177760955040.1423128.10687371707451628120@gitolite.kernel.org>
+Date: Fri, 01 May 2026 04:26:09 -0000
+Message-Id: <177760956932.1423681.14860730521681278649@gitolite.kernel.org>
 
---===============9078922945849314969==
+--===============4994437624882000775==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,18 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jaegeuk/f2fs
 user: jaegeuk
 changes:
-  - ref: refs/heads/dev
-    old: cb8ff3ead9a3fc43727980be58c7099506f65261
+  - ref: refs/heads/dev-test
+    old: 326d83abbed3ef0c63d082673cdacdf6b112b1c9
     new: 5758375b0d32f46a3fc23a931acadf92c2b7cd02
-    log: revlist-cb8ff3ead9a3-5758375b0d32.txt
+    log: revlist-326d83abbed3-5758375b0d32.txt
 
---===============9078922945849314969==
+--===============4994437624882000775==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-cb8ff3ead9a3-5758375b0d32.txt
+Content-Disposition: attachment; filename=revlist-326d83abbed3-5758375b0d32.txt
 
-504f0098ebd074ac8c0ce3471795d79f68e3d265 drm/amd/pm: fix incorrect FeatureCtrlMask setting on smu v14.0.x
 a094bcf204cd86485624ac1a1fd3913337a89446 drm/amdgpu: Remove sys file compute_partition_mem_alloc_mode at module unload
 574b3b14f7d1b329fc6e67b79328f0e6f4d4b3d4 drm/amdgpu: Use SMUIO 15.0.0 offsets for TSC upper and lower count.
 ddda81c4d7e71e41b1be91d921fd85747eddbd12 drm/amdgpu: gate VM CPU HDP flush on reset lock
@@ -309,6 +308,7 @@ f996edd7615e686ada141b7f3395025729ff8ccb ipv6: fix possible UAF in icmpv6_rcv()
 5c9fcac3c872224316714d0d8914d9af16c76a6d net: ks8851: Reinstate disabling of BHs around IRQ handler
 22230e68b2cf1ab6b027be8cf1198164a949c4fa net: ks8851: Avoid excess softirq scheduling
 0cf004ffb61cd32d140531c3a84afe975f9fc7ea sctp: fix OOB write to userspace in sctp_getsockopt_peer_auth_chunks
+cb8ff3ead9a3fc43727980be58c7099506f65261 f2fs: add page-order information for large folio reads in iostat
 f67950b2887fa10df50c4317a1fe98a65bc6875b eventfs: Use list_add_tail_rcu() for SRCU-protected children list
 07004a8c4b572171934390148ee48c4175c77eed eventfs: Hold eventfs_mutex and SRCU when remount walks events
 401b0e0bc96543881924d623388a9472b3331b3f Merge tag 'i3c/for-7.1' of git://git.kernel.org/pub/scm/linux/kernel/git/i3c/linux
@@ -1051,4 +1051,4 @@ cae4ef6f9a3ac71094da2b1083f6e2db699a2c1e Merge tag 'acpi-7.1-rc2' of git://git.k
 b718ffb899fd1f5c9e561785b7d4106c20125311 f2fs: map data writes to FDP streams
 5758375b0d32f46a3fc23a931acadf92c2b7cd02 f2fs: support to report fserror
 
---===============9078922945849314969==--
+--===============4994437624882000775==--
