@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6525653505100492927=="
+Content-Type: multipart/mixed; boundary="===============4390833218794672101=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/mptcp/linux
-Date: Fri, 01 May 2026 14:51:26 -0000
-Message-Id: <177764708669.2045899.18103337436250666477@gitolite.kernel.org>
+Date: Fri, 01 May 2026 14:51:44 -0000
+Message-Id: <177764710409.2046251.4314125956063535657@gitolite.kernel.org>
 
---===============6525653505100492927==
+--===============4390833218794672101==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/mptcp/linux
 user: matttbe
 changes:
-  - ref: refs/heads/export
-    old: a9a1aa04308af2b72dae77e1cb6382a079e4776c
-    new: 45436c9975ade3b4539ea5ade7017da0b3d09285
-    log: revlist-a9a1aa04308a-45436c9975ad.txt
+  - ref: refs/heads/export-net
+    old: 19acdc9893d0404966344913456f96a33ee235ae
+    new: 3e87b83b41a5c4acabb0957bd459fc7f16e97c10
+    log: revlist-19acdc9893d0-3e87b83b41a5.txt
 
---===============6525653505100492927==
+--===============4390833218794672101==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a9a1aa04308a-45436c9975ad.txt
+Content-Disposition: attachment; filename=revlist-19acdc9893d0-3e87b83b41a5.txt
 
 57df858a46f0a4cc104716e0ec88864e5c386ca4 mailbox: add API to query available TX queue slots
 f9f0df23193a8afee3bfb5fc34970c93792d7163 mailbox: rockchip: kzalloc + kcalloc to kzalloc
@@ -38,7 +38,6 @@ d81e6703b8f12bbb885967933d1730600bce02c7 mailbox: correct kdoc title for mbox_bi
 c58e9456e30c7098cbcd9f04571992be8a2e4e63 mailbox: Fix NULL message support in mbox_send_message()
 80784b427970219ebc338a6fb4118cde67a6c317 mailbox: cix: Add IRQF_NO_SUSPEND to mailbox interrupt
 220045247712ddfda1fcedfa61e91dae24e63bcf dt-bindings: mailbox: qcom-ipcc: Document the Eliza Inter-Processor Communication Controller
-9a4f673eb08d2a7713b258d671b4a45f2a6e68b7 wifi: ath12k: avoid dynamic alloc when parsing wmi tb
 0bd75b7abafb3ed199df830c539c57ef9b62c2a2 mailbox: prefix new constants with MBOX_
 c02053a9055d5fdfd32432287cca8958db1d5bc5 mailbox: mailbox-test: free channels on probe error
 7746e3bd4cc19b5092e00d32d676e329bfcb6900 fanotify: fix false positive on permission events
@@ -58,8 +57,6 @@ bbcf9af68bfedb3d9cc3c7eae62f5c844d8b78b9 mailbox: mailbox-test: initialize struc
 ae974ca6f0f3138a835d0ed38bedc87dec85b3b2 fanotify: Fix spelling mistake "enforecement" -> "enforcement"
 a36d990f591320e9dd379ab30063ebfe91d47e1f isofs: validate Rock Ridge CE continuation extent against volume size
 24376458138387fb251e782e624c7776e9826796 isofs: validate block number from NFS file handle in isofs_export_iget
-a49300ad9796e59f2eb740c608ccaf6b1621a6bd wifi: ath12k: Fix HTC prototype ath12k_base parameters
-90ef329e73c673e4e3ea66226bb1d8fe3acf45a5 wifi: ath12k: Fix ath12k_dp_htt_tlv_iter()'s iter() signature
 cc85e337278001c325afecfbc9a739a3b1b205f2 isofs: use QSTR_LEN() in isofs_cmp
 4aca914ac152f5d055ddcb36704d1e539ac08977 fsnotify: fix inode reference leak in fsnotify_recalc_mask()
 09a65adc7d8bbfce06392cb6d375468e2728ead5 dm-thin: fix metadata refcount underflow
@@ -100,10 +97,7 @@ fe0cdfd7118d8b40a21bfac221bb4982c5e10e10 btrfs: handle -EAGAIN from btrfs_duplic
 a8d58a7c0200904ff24ca7f0d7c147017e25aa99 btrfs: check return value of btrfs_partially_delete_raid_extent()
 82323b1a7088b7a5c3e528a5d634bff447fa286f btrfs: fix double-decrement of bytes_may_use in submit_one_async_extent()
 4fe985292709eeb6a4653c71660f893e26c2f2dd rhashtable: Bounce deferred worker kick through irq_work
-5c2ab62af09f7394a538739a1b130f0c88ad15f1 wifi: ath12k: Remove macro HAL_RX_EHT_SIG_OFDMA_EB2_MCS
-590182b72213ef04977ab0b16b8dadfcfd25ff73 wifi: ath12k: Fix invalid IRQ requests during AHB probe
 05909810a946222aca5d0611d37be82d18f95228 tools/sched_ext: scx_qmap: Silence task_ctx lookup miss
-34a5329beee86a22a446e27eb37f06caa63479ca wifi: ath9k: Obtain system GPIOS from descriptors
 55d41b0a20128e86b9e960dd2e3f0a2d69a18df7 udf: reject descriptors with oversized CRC length
 27fdbab4221b375de54bf91919798d88520c6e28 Buffer overflow in drivers/xen/sys-hypervisor.c
 24daca4fc07f3ff8cd0e3f629cd982187f48436a xen/privcmd: fix double free via VMA splitting
@@ -170,40 +164,6 @@ dca922e019dd758b4c1b4bec8f1d509efddeaab4 Merge tag 'xsa48x-7.1-tag' of git://git
 b32ae47a2b0a1fb4bd4942242847966d9b178222 ALSA: caiaq: Don't abort when no input device is available
 c39f0bc03f84ba64c9144c95714df1dc36150f6d ALSA: usb-audio: Fix potential leak of pd at parsing UAC3 streams
 6e7247d8f5fefeceb0bb9cc80a5388a636b219cd ALSA: usb-audio: Avoid potential endless loop in convert_chmap_v3()
-ed02757f7c56bdd831d2244825400e33be776765 wifi: Remove invalid 128TU transition timeout constant
-53f24921d81c97152c086ab2765969fcaa6173cc wifi: Remove EMLMR Delay subfield definitions
-5858f5e1588fab66573d50c06dbcdd12830044ca wifi: Rename EMLSR delay constants and add EMLMR helpers and definitions
-37f3787636434593833a6d03de861af4ec09cb88 wifi: Update EML function documentation to remove EMLSR-specific references
-ed1e31d784cbb8db9082d553641cbb0cd2b49989 wifi: mac80211: add __packed to union members of struct ieee80211_rx_status
-7187d145d9042b037e4f10538f70cf95e380219f wifi: cfg80211: reject duplicate wiphy cipher suite entries
-9dcc1af3bbf5441f71a1e51b8d81bdf38a249607 wifi: cfg80211: fix grammar in MLO group key error message
-8b02fd2c6410516d0e93c07e08192137ec08c83a wifi: mac80211: remove NAN guards on ieee80211_sta_cur_vht_bw() calls
-ab806dcd85f0353361eef16559ade5d3eb47ca95 wifi: mac80211: set cur_max_bandwidth to maximum
-ad28808f3f5984f3751b7ae741ecfd568f2f30c7 wifi: mac80211: use max BW for HT channel width update
-e36b3322a41b7de0168ad6a37bdd1219cfe35077 wifi: mac80211: use chandef in ieee80211_get_sta_bw()
-0e5c735ef797c9b88bfa8ac817158cfe15db1f0b wifi: mac80211: use chandef in TDLS chanctx handling
-163ddfd3bbeb3bafc110675e55d0112692d2b2ea wifi: mac80211: remove ieee80211_sta_cap_chan_bw()
-032d1a3fc0e95ca804213df65ef57f5ced2a867b wifi: nl80211: document channel opmode change channel width
-ae24cf3b692f4458a33d4a6aa7934d89bb1aae8f wifi: mac80211: simplify ieee80211_sta_rx_bw_to_chan_width()
-e5ad38a9b2614d627bc5af7f9f522027aa26e890 wifi: mac80211: clean up STA NSS handling
-d879d4da45797a360992b451e25a9a8c0512b1ef wifi: mac80211: clean up initial STA NSS/bandwidth handling
-da000365b640c9ab8accc21b560fc0493c924663 wifi: mac80211: clean up ieee80211_sta_cap_rx_bw()
-9528f1a6821af3e0df47f4cb17faedaa51766dc6 wifi: mac80211: remove ieee80211_sta_cur_vht_bw()
-e12e20650f64d109971f27a30260f1012b7d26fe wifi: cfg80211: remove HE/SAE H2E required fields
-8b9a100e1a76c52988b31099b349fd95a58c8768 wifi: nl80211: reject beacons with bad HE operation
-a384ae96990250eaa676e3ff78e5ab2cd00565dd wifi: cfg80211: move AP HT/VHT/... operation to beacon info
-d642e759b73cbf4d9b8c40e55c44437465d31820 wifi: nl80211: reject too short HT/VHT/HE/EHT capability/operation
-0b8201bc23425104cf1ca4de9470bad2456bd2be wifi: cfg80211: provide HT/VHT operation for AP beacon
-3967fe47e1d1bb886d2dc5c7267ada7c1653a3a4 wifi: nl80211: always validate AP operation/PHY regulatory
-2abfda2ad2edf49a97bb93c608908b9130318efc wifi: mac80211: clarify per-STA bandwidth handling
-c9b62ab79133c74b10cb0b34599a294fd05e8d84 wifi: mac80211: fix per-station PHY capability bandwidth
-16a346ce2e8047c1ef3bf12428672fad73d7f66c wifi: mac80211: clarify an 802.11 VHT spec reference
-55308cee9c2196f39cd1ce8ee6c1fed9e12a00d4 wifi: nl80211: check link is beaconing for color change
-ab45ef0f6e1c2d32eaba5878ebb11793c7ebd5c7 wifi: cfg80211: validate cipher suite for NAN Data keys
-9fd003edab0216df681c98277d3723cc1d535948 wifi: mac80211: use kstrtobool_from_user() in debugfs callbacks
-51129a2ca0482b006d0e12a0aa025ff1e1cad2cb wifi: mac80211: always allow transmitting null-data on TXQs
-334a70c454e4be5bc1a835ab8415bce255320bce Merge tag 'ath-next-20260427' of git://git.kernel.org/pub/scm/linux/kernel/git/ath/ath
-7baf5857e15d722776898510a10546d6b2f18645 wifi: brcmsmac: phy_lcn: Remove dead code in wlc_lcnphy_radio_2064_channel_tune_4313()
 13d30682e8dee191ac04e93642f0372a723e8b0c ASoC: Intel: bytcr_wm5102: Fix MCLK leak on platform_clock_control error
 163f8b7f9a84086c67c76aeadc04e6d43e32df6e sched_ext: Call wakeup_preempt() in local_dsq_post_enq()
 d99f7a32f09dccbe396187370ec1a74a31b73d7e sched_ext: Fix scx_flush_disable_work() UAF race
@@ -222,17 +182,7 @@ b0e2333a231107adedd38c6fcfe1adc6162716fc ALSA: hda/conexant: Fix missing error c
 e052a1f7199260eda4d6ca08a59c3b98738f8491 ALSA: hda/tas2781: Fix incorrect bit update for non-book-zero or book 0 pages >1
 57b8e2d666a31fa201432d58f5fe3469a0dd83ba Merge tag 'for-linus' of git://git.kernel.org/pub/scm/virt/kvm/kvm
 b2aa3b4d64e460ac606f386c24e7d8a873ce6f1a tracing/probes: Limit size of event probe to 3K
-5ffd937ea4050e995bd1fabc54a2534bb7bfa0d9 mlx5: Rename the vport number enums for host PF and VF
-a750f4674a63382a57561257877754ff0b4b2ca6 net/mlx5: Add function_id_type for enable/disable_hca cmds
-e2337517e127b7064d1cb1d49fc2d1e0e134690c net/mlx5: Remove unused host_sf_enable field
-02c54621e81ccdc1907e2d735bcda751f2caade1 net/mlx5: Extend query_esw_functions output for multi-function support
 e75a43c7cec459a07d91ed17de4de13ede2b7758 Merge tag 'trace-v7.1-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/trace/linux-trace
-5eb0cfedb2588650b63f0a65963ad64272df938d net/tcp-ao: Drop support for most non-RFC-specified algorithms
-068f5a00955675f10348986d4809edc4dbc0cae0 net/tcp-ao: Use crypto library API instead of crypto_ahash
-48168799896c58d3132822ba8513b10f8d6fe039 net/tcp-ao: Use stack-allocated MAC and traffic_key buffers
-8e4f61e431634730af2244312c783f746575905d net/tcp-ao: Return void from functions that can no longer fail
-4baf2415992e3051cb39b831191d12cb7e85ab60 net/tcp: Remove tcp_sigpool
-fdd2c9a1d082c838ad8b66d7795c6dd450a8c9ee Merge branch 'reimplement-tcp-ao-using-crypto-library'
 70d62b669f1f9080a25278fc90b64309f4ae8959 iavf: rename IAVF_VLAN_IS_NEW to IAVF_VLAN_ADDING
 f2ce65b9b917474a1a6ce68d357e15fac2aca0f2 iavf: stop removing VLAN filters from PF on interface down
 bbcbe4ed70dea948849549af7edf44bd42bbd695 iavf: wait for PF confirmation before removing VLAN filters
@@ -248,24 +198,14 @@ bbcbe4ed70dea948849549af7edf44bd42bbd695 iavf: wait for PF confirmation before r
 58689498ca3384851145a754dbb1d8ed1cf9fb54 net: tls: fix strparser anchor skb leak on offload RX setup failure
 051ffb001b8a232cfa6e72f38bb5f51c4270a60b sfc: fix error code in efx_devlink_info_running_versions()
 1e01abec856593e02cd69fd95b784c10dd46880c net/sched: cls_flower: revert unintended changes
-781c8893a5da8522ae4ded93e5ef3adbe9559300 dpll: add pin operational state
-c53f8f8dce776e032b1a11fb4d9b6e12bb63d958 dpll: zl3073x: implement pin operational state reporting
-82968921d206abeef34bbfdb643d62a08dc7fe30 Merge branch 'dpll-add-pin-operational-state'
 2aa0a3691711257b888d6024a492eb9fd1e8f52a Merge tag 'sound-7.1-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/tiwai/sound
 6cd70263a6c6ceb677a679eba61a0a798d2338d5 Merge tag 'ata-7.1-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/libata/linux
 08d0d3466664000ba0670e0ef0d447f23459e0d4 Merge tag 'net-7.1-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
-7c04aa3b2f3751f3eb2370f280eeb8557962ad96 Merge git://git.kernel.org/pub/scm/linux/kernel/git/netdev/net
 18ed60e33e6c77d62409c1343dec1c61bae3d2e7 net: mctp: test: use a zeroed struct sockaddr_mctp
 76872971064133474d9b891da05db8f7586fcc11 net: mctp: test: Use dev_direct_xmit for TX to our test device
 a54c9a13cfc17943afb46f74ccb412666e8967f5 Merge branch 'net-mctp-test-minor-kunit-test-fixes'
-8ca4bff2ff3eb523154eb6bdc8e1efe47d6f9888 net: mctp: test: remove skb dumps from test output
 e027c218c482c6a0ae1948129ccda3b0a2033368 net: phy: micrel: fix LAN8814 QSGMII soft reset
-6855a52318b3a8c33031209e38bef497c971ef17 Merge tag 'wireless-next-2026-04-30' of https://git.kernel.org/pub/scm/linux/kernel/git/wireless/wireless-next
 3744b0964d5267c0b651bcd8f8c25db6bf4ccbac ipv6: Implement limits on extension header parsing
-4cc5130ee84adcc8904772df44d64e59727c72bd net/smc: cap allocation order for SMC-R physically contiguous buffers
-fee1fc1d5a5475f5516d406a03e443348cd0f06c bridge: Do not suppress ARP probes and DAD NS unconditionally
-a3f88d89f698743a8cd91fb43f997e2d292a168d selftests: net: Add tests for ARP probe and DAD NS handling
-4eb407d9da30681923c084dd4ce4af390ce76079 Merge branch 'bridge-do-not-suppress-arp-probes-and-dad-ns-unconditionally'
 26ebd12e67bfc3543d77ce586c33ef29fcafab20 net: enetc: fix VSI mailbox timeout handling and DMA lifecycle
 694de316f607fe2473d52ca0707e3918e72c1562 net: libwx: fix VF illegal register access
 7a33345153eeeda195c55f15be27074e4c3b5109 net: libwx: use request_irq for VF misc interrupt
@@ -281,62 +221,28 @@ afb474bd4ffc314de766afc295ac64b42856f48e octeontx2-af: npc: cn20k: Initialize de
 013717353c03b65f5b00a5cefa1515b6b45777b7 octeontx2-af: npc: cn20k: Tear down default MCAM rules explicitly on free
 bc968f61bf0ad4f085559e5e3d168105fdf88204 octeontx2-af: npc: cn20k: Reject missing default-rule MCAM indices
 85da3965df5e6f1e1c48d2c435e140c5b66625ef Merge branch 'octeontx2-af-npc-cn20k-mcam-fixes'
-4e37987362bcac8909f2d4b4458f3aa645e41641 Merge branch 'mlx5-next' of git://git.kernel.org/pub/scm/linux/kernel/git/mellanox/linux
-bc6a9b667f9ff66789c6c66b3bfe0ce5df972b67 selftests/net: packetdrill: add tcp_syncookies_ip[46]_9k
-db6ac77b0433d18248280592940849357d4f6dbd net/sched: propagate tc_fill_tclass() error
-304427709ab8b751d37a5157245d8ec6cd8b1c52 net/sched: tc_dump_qdisc_root() refactor
-748bbef5fc6a6f5931103b68b67d345c67d0850b net/sched: switch tc_dump_qdisc() to for_each_netdev_dump()
-6f63b829632cbb4e7c4b6c55c79f5bb6652c06a8 net/sched: speedup tc_dump_qdisc() when tcm_ifindex is provided
-edf4bee4215a173c0534d1851d7523d827149f9e Merge branch 'net-sched-tc_dump_qdisc-optimizations'
-e430613dc841e5e645e522e80d676a32f0a3b501 DO-NOT-MERGE: git markup: net
-f876ed423ad71f291e1a66be0dbc63ce9ef8fbf5 DO-NOT-MERGE: git markup: fixes other trees
-8115ab66e0ad9c02d4ee1880d774dc8a03e7514f mptcp: use MPTCP_RST_EMPTCP for ACK HMAC validation failure
-d2135b4159c9e2efe7ffbaae031dd6688cb5b81b mptcp: pm: kernel: correctly retransmit ADD_ADDR ID 0
-077e857ad524d84e6a49f9c47fe3b6ed6fa8741a mptcp: pm: ADD_ADDR rtx: fix potential data-race
-c23db4cf5aa70ef0eebe47daa66389fe1d83ade9 mptcp: pm: ADD_ADDR rtx: allow ID 0
-bc256e2509b71c6f621cbc7530fa9c91097375b1 mptcp: pm: ADD_ADDR rtx: always decrease sk refcount
-1dff90413caad7d3e29d89c9694e64a9af40e57f mptcp: pm: ADD_ADDR rtx: free sk if last
-5bade81b79d54e1189d6f94fe5910617869fe431 mptcp: pm: ADD_ADDR rtx: resched blocked ADD_ADDR quicker
-1c0b5f396bf40dce36c0579c81b32aab6cbe393a mptcp: pm: ADD_ADDR rtx: skip inactive subflows
-ef697f45d55c1a3d3baa88f4fe8e047b722618ad mptcp: pm: ADD_ADDR rtx: return early if no retrans
-ce26d949658c6b427f186fc3bc159c2245ddede0 mptcp: pm: prio: skip closed subflows
-2708d28db0e03e13ae8f32a40c8bfa949a448d7a selftests: mptcp: check output: catch cmd errors
-6384c3721378b28785ff7bdd3ad75855c3875d2c selftests: mptcp: pm: restrict 'unknown' check to pm_nl_ctl
-d048ede1f044755a1024b0002cfa93fd825bc686 mptcp: sockopt: increase seq in mptcp_setsockopt_all_sf
-053b90cf4d4dce70943b41cff74382946604d7ed mptcp: use MPJoinSynAckHMacFailure for SynAck HMAC failure
-0cc1325e8f37d6707b64412d0f4e0197aad0293d mptcp: fix rx timestamp corruption on fastopen
-ebf0d49b2b020311b7d6596302507d060c1599d8 DO-NOT-MERGE: git markup: fixes net
-64022e418f927959c38843cf6a396162889066d9 DO-NOT-MERGE: mptcp: add CI support
-72d896b9fc407baf1de8c532446babb44796f836 DO-NOT-MERGE: git markup: end common net net-next
-c0070fbf30287f987ef5074a13a0cb069c507f19 TopGit-driven merge of branches:
-d16f46c64e456222ae72612e7fa8708c59ffe262 DO-NOT-MERGE: git markup: net-next
-71faf6a43ab19ec6b9ea4910d5d0bfdd805ac01b DO-NOT-MERGE: git markup: fixes net-next
-8e7471dbd215a59d9c68c55e01467a4d69dea57e mptcp: pm: init and release mptcp_pm_ops
-db6c1ed37b4e9bc952c0cf2d3e7f335f38e73639 mptcp: pm: add get_local_id() interface
-3a997ed40d5a74a690c8841e360754dceeb0a387 mptcp: pm: add get_priority() interface
-e94bccfe76e2278f2d85fb43adaf494907dd199d mptcp: pm: in-kernel: explicitly limit batches to array size
-aa50db91ee9ca25e807e4a1419ca7a098ff44c70 mptcp: pm: in-kernel: increase all limits to 64
-dca94ad7c00c58b3ac0628c37d4909d2182536c4 mptcp: pm: kernel: allow flushing more than 8 endpoints
-b5cc818a93d6d1ebf6e764ae020560204f0c8677 mptcp: pm: in-kernel: increase endpoints limit
-21a87ac94f9a78f9acf041192d47332b362aecce selftests: mptcp: join: allow changing ifaces nr per test
-05c269ce826b40e9f109ec8ad275a201df8e4091 selftests: mptcp: join: validate 8x8 subflows
-79f3a0949ed446390c972b8bc0006679f08bb9e1 selftests: mptcp: pm: validate new limits
-c507d6c6938deadf17c0cd008f3995beaaa4de41 selftests: mptcp: pm: use simpler send/recv forms
-b6c233478d515947d672475079413caf3d812e80 DO-NOT-MERGE: git markup: features net-next
-ac30aae1649bd46fd2544997f2105cf2f3097a80 DO-NOT-MERGE: git markup: features net-next-next
-24d77942e5cb208f29ca7fb36be5411b65a2811f bpf: Add mptcp_subflow bpf_iter
-7a71f83127c1e3e5884e3666dcde3db645ea17dd selftests/bpf: More endpoints for endpoint_init
-102684b719f6d203bda75055069ab2fb2560342f selftests/bpf: Drop cgroup_fd of run_mptcpify
-fcaa815c895de434cd93b18a847a58eebf666fed bpf: Add mptcp packet scheduler struct_ops
-fb40912e6af2984c60a122410b1cab8c12fc4e16 bpf: Export mptcp packet scheduler helpers
-944d47b65a7dc6c55943aa801b8c6d740d1c6562 selftests/bpf: Add bpf scheduler test
-a44575aea536368a280775e29ef6ae17f8dec646 selftests/bpf: Add bpf_first scheduler & test
-ea3ab4e026ee9980b446342994fdecc4a31597fc selftests/bpf: Add bpf_bkup scheduler & test
-1bdd477a796471c7709733f1e62e88d22126ea81 selftests/bpf: Add bpf_rr scheduler & test
-35975fde601161df202b5f0ababcd1e9a413a2c2 selftests/bpf: Add bpf_red scheduler & test
-ca11f339cf835d9531e67d42192754d18bbe3b08 selftests/bpf: Add bpf_burst scheduler & test
-61278efd25da2e95a53b5082484c2a183101b9ea DO-NOT-MERGE: git markup: features other trees
-4fcaf10bc841777570809373be03e84069e6dac2 DO-NOT-MERGE: mptcp: improve code coverage for CI
-45436c9975ade3b4539ea5ade7017da0b3d09285 DO-NOT-MERGE: mptcp: enabled by default
+2dccb65383c80e65284884d400c76cfaedded08c DO-NOT-MERGE: git markup: net
+93638be56388b5c539df44e3e269b461bb1942c3 DO-NOT-MERGE: git markup: fixes other trees
+9cb979860dd29122d1ff19f0dfeae3fcec764823 mptcp: use MPTCP_RST_EMPTCP for ACK HMAC validation failure
+b83801fbe12507b7660e1c8a5f15abc4f381e66d mptcp: pm: kernel: correctly retransmit ADD_ADDR ID 0
+f25d4b294a3ff0567b008af17a6bf79e1c21ceee mptcp: pm: ADD_ADDR rtx: fix potential data-race
+bbd30afe7a9dc50889264954f8c55d0448003d0c mptcp: pm: ADD_ADDR rtx: allow ID 0
+212b11ac8fbb1a8ae757d1b1c1f6459be1bc3758 mptcp: pm: ADD_ADDR rtx: always decrease sk refcount
+af655e635f948f2ccb20572d712c8ced818f107f mptcp: pm: ADD_ADDR rtx: free sk if last
+d798a0574f1c0ad8088323b77785f7b0d5f0f3e8 mptcp: pm: ADD_ADDR rtx: resched blocked ADD_ADDR quicker
+bf688fb6492dcd6e940bcec6a1f1570e6f32e8c5 mptcp: pm: ADD_ADDR rtx: skip inactive subflows
+67757942b2d88d547d04ba13108cb6d7e1a81975 mptcp: pm: ADD_ADDR rtx: return early if no retrans
+542787e0cafa7b9690f64720d382f5ca489cc582 mptcp: pm: prio: skip closed subflows
+e2efc16ada2a2c0bbdd90d35c03846419dd360ee selftests: mptcp: check output: catch cmd errors
+bf017a34da7618f509107dc881c064af0a762be0 selftests: mptcp: pm: restrict 'unknown' check to pm_nl_ctl
+99d438b39ff78af03575a77819b5b0f2bf74f194 mptcp: sockopt: increase seq in mptcp_setsockopt_all_sf
+b3bdb8f704088d3deb46a7012fe7af8112a3f2f4 mptcp: use MPJoinSynAckHMacFailure for SynAck HMAC failure
+86b37c8b415b5d67f0cd9440d957ac5b28fb9111 mptcp: fix rx timestamp corruption on fastopen
+d3b6f90f3c8963cf63c6a811b3a7b7ba39b421da DO-NOT-MERGE: git markup: fixes net
+91c65bb8d1e80218c89b9d7fdac5dc5741efc14e DO-NOT-MERGE: mptcp: add CI support
+7406865a5a32f4d48953c728f088347ff35c182e DO-NOT-MERGE: git markup: end common net net-next
+07bc794d1d837702383a6320a3bcd08434332e8c DO-NOT-MERGE: git markup: fixes net only
+b531bd796928ea40f4b4569726e1bc6be1cd4ecc DO-NOT-MERGE: mptcp: improve code coverage for CI (net)
+3e87b83b41a5c4acabb0957bd459fc7f16e97c10 DO-NOT-MERGE: mptcp: enabled by default (net)
 
---===============6525653505100492927==--
+--===============4390833218794672101==--
