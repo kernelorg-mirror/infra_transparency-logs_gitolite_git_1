@@ -1,54 +1,41 @@
-Content-Type: multipart/mixed; boundary="===============9207730765332983548=="
+Content-Type: multipart/mixed; boundary="===============5423640282218538420=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/acme/linux
-Date: Fri, 01 May 2026 19:06:09 -0000
-Message-Id: <177766236968.2313344.8016565370366845272@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tglx/devel
+Date: Fri, 01 May 2026 19:09:08 -0000
+Message-Id: <177766254886.2315085.331034253918609256@gitolite.kernel.org>
 
---===============9207730765332983548==
+--===============5423640282218538420==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/acme/linux
-user: acme
+repo: pub/scm/linux/kernel/git/tglx/devel
+user: tglx
 changes:
-  - ref: refs/heads/tmp.perf-tools-next
-    old: 957bf9fbebd1f352769be26e00bab62fb22b62a8
-    new: 3aa2a53247c993320416c73eb8db59366e9916e6
-    log: revlist-957bf9fbebd1-3aa2a53247c9.txt
+  - ref: refs/heads/core/rseq
+    old: 37707e3f884fad4ef4f2072e56e8d5cad540d6e2
+    new: bbc05b02e318d98279dfee9f9e87df92dcd5e5ca
+    log: revlist-37707e3f884f-bbc05b02e318.txt
 
---===============9207730765332983548==
+--===============5423640282218538420==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-957bf9fbebd1-3aa2a53247c9.txt
+Content-Disposition: attachment; filename=revlist-37707e3f884f-bbc05b02e318.txt
 
-d36a75ce63cac1d7183cd1e826b4e8a36025188f perf sched: Register mmap2 handler in timehist mode
-59ae40521fe8a73ccbcb6e566c93578d72c8be79 perf header: Byte-swap build ID event pid for cross-endian files
-d8002825e4e7f0f28a5906db6ae7b7e05b110159 perf header: Bounds check build ID section entries
-5f5126ec24b5b868eca458d2257c7e5ec87c7717 perf session: Check and enforce null termination of string fields in events
-64f9b7c26a49488df8c8f55b6137feeb32c5ed25 perf session: Validate event type and minimum size before swap and processing
-c8b06d7d37ad3afc166ece2673259eca4530a6b0 perf session: Fix PERF_RECORD_READ swap and dump for variable-length events
-ebbf8777c5730ba465011a25a8110a2c47a7d955 perf session: Align auxtrace_info priv size before byte-swapping
-d63ad8a04116a44755e2d99d425ab1c916610ab3 perf session: Validate HEADER_ATTR alignment and attr.size before swapping
-d89a2b8a1728e7efc652996b5630cbe2ef938447 perf inject: Use attr->size for synthesized HEADER_ATTR event layout
-87e757c5e9e444c8add66c365c64d6bf6be084ad perf session: Validate nr fields against event size on both swap and common paths
-9cf497eab5de580b24dff4c4c49526a72027e7cb perf auxtrace: Harden auxtrace_error event handling
-0edcd53e76c1afde07a288e04125148c19c7744d perf tools: Harden compressed event processing
-c1f4e1b358054d9d632e320efbbb071bf7411156 perf header: Propagate feature section processing errors
-03d7288921df430bd46e1558cb0a519c17980e45 perf header: Validate feature section size and add read path bounds checking
-3f2d7a0878128bf3ed385aff6b3acd42d1dcc383 perf header: Sanity check HEADER_EVENT_DESC and fix bswap_safe()
-f8668a982b331b40c5c9163c0d841e02d41326ad perf header: Validate bitmap size before allocating in do_read_bitmap()
-9e5910996a23365dd23ba8c6397a4608245d22a1 perf session: Bound nr_cpus_avail and validate sample CPU
-46cea9f447ecbef1f03fe26cad102df2de148182 perf session: Add byte-swap for PERF_RECORD_COMPRESSED2 events
-1f09c5e364545ee2d89ee04aa4f88be023452876 perf session: Add byte-swap and bounds check for PERF_RECORD_BPF_METADATA events
-e61c104dcc91aaa0233aee81bff169d6464fa7e3 perf session: Check for decompression buffer size overflow
-9190b2dfb9afa5c13e5e550ddcf4fc9db35fa190 perf tools: Bounds check perf_event_attr fields against attr.size before printing
-3de5369d865c74798503ff6def5ca74a0b4cb6f0 perf header: Validate f_attr.ids section before use in perf_session__read_header()
-439f365f94a757daebf49fe969cb4e844fe056da perf timechart: Bounds check cpu_id and fix topology_map allocation
-3aa2a53247c993320416c73eb8db59366e9916e6 perf header: Validate null-termination in PERF_RECORD_EVENT_UPDATE string fields
+a3f7c951242d2093ae3fe6296cbceceeedf1232d selftests/rseq: Don't run tests with runner scripts outside of the scripts
+1959f05e61261b1bdcfe99418898b81025b80a11 rseq: Set rseq::cpu_id_start to 0 on unregistration
+d573c6865c662ee43e9380aad307025b2fd4ad02 rseq: Protect rseq_reset() against interrupts
+53ef2fccdf23d94d4008103038bb0f56f6cd24ef rseq: Don't advertise time slice extensions if disabled
+057837a4a537c0ccbe410068a1b713ccb6ef6692 rseq: Revert to historical performance killing behaviour
+ebbc43f4a9150ba568dbfbcb6e0cc21270f50a25 selftests/rseq: Skip tests if time slice extensions are not available
+6b54d14f2ed9676cf36ab495cecac41b807c944a selftests/rseq: Make registration flexible for legacy and optimized mode
+82b9d830b7e761f136f3167579b1ec9d74604f26 selftests/rseq: Validate legacy behavior
+cf21ad5266130e9403eac0152eeec4699bcd76ca rseq: Implement read only ABI enforcement for optimized RSEQ V2 mode
+c0a221513c2c5dce2b820f10fb17f5f066f03a55 rseq: Reenable performance optimizations conditionally
+bbc05b02e318d98279dfee9f9e87df92dcd5e5ca selftests/rseq: Expand for optimized RSEQ ABI v2
 
---===============9207730765332983548==--
+--===============5423640282218538420==--
