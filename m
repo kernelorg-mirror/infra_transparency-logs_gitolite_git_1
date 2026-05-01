@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8748411665638294475=="
+Content-Type: multipart/mixed; boundary="===============5100747348627047598=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Fri, 01 May 2026 06:08:05 -0000
-Message-Id: <177761568531.1521640.11689797181227169417@gitolite.kernel.org>
+Date: Fri, 01 May 2026 06:08:23 -0000
+Message-Id: <177761570371.1521954.12428412223291659020@gitolite.kernel.org>
 
---===============8748411665638294475==
+--===============5100747348627047598==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,15 +16,27 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: 447e0b1b911eee605d42d71c89a99aa31638e9c7
-    new: d48f3132933e9acc760e6dc90872fb3a463b282e
-    log: revlist-447e0b1b911e-d48f3132933e.txt
+    old: d48f3132933e9acc760e6dc90872fb3a463b282e
+    new: da94b14aa6b74c54189d78ade18f98466ee3b159
+    log: |
+         5388f8931da71181c2c58f444bcbebf94f5e5430 Merge branch into tip/master: 'locking/urgent'
+         765acbb372a9af1b595c761296c20519e580ebbf Merge branch into tip/master: 'sched/urgent'
+         93afb89838684e8b73b99d0f1b057db76cc2c623 Merge branch into tip/master: 'irq/drivers'
+         0f1b0bc091b899549fa5ecfa5b9eed32cddfd58f Merge branch into tip/master: 'timers/clocksource'
+         335db4cc9a88c6165663217358fb6150e612297e Merge branch into tip/master: 'x86/microcode'
+         5b92b7934ac816839827e876ee576cb685e40fd0 Merge branch into tip/master: 'x86/misc'
+         da94b14aa6b74c54189d78ade18f98466ee3b159 Merge branch into tip/master: 'x86/tdx'
+         
+  - ref: refs/heads/tip/urgent
+    old: eb13395a757a63ddbb180e7e3757f5cb58c79f6b
+    new: 765acbb372a9af1b595c761296c20519e580ebbf
+    log: revlist-eb13395a757a-765acbb372a9.txt
 
---===============8748411665638294475==
+--===============5100747348627047598==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-447e0b1b911e-d48f3132933e.txt
+Content-Disposition: attachment; filename=revlist-eb13395a757a-765acbb372a9.txt
 
 1e8e3f449b1e73b73a843257635b9c50f0cc0f0a netfilter: arp_tables: fix IEEE1394 ARP payload parsing
 f3224ee463f8f6f6ced7dcdf6081add4f8128527 netfilter: nf_tables: use list_del_rcu for netlink hooks
@@ -170,6 +182,7 @@ bbcbe4ed70dea948849549af7edf44bd42bbd695 iavf: wait for PF confirmation before r
 74b54e9b1084cc51e2b655500a174214d3c38c0e Merge tag 'v7.1-rc2-smb3-client-fixes' of git://git.samba.org/sfrench/cifs-2.6
 cae4ef6f9a3ac71094da2b1083f6e2db699a2c1e Merge tag 'acpi-7.1-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/rafael/linux-pm
 26fd6bff2c050196005312d1d306889220952a99 Merge tag 'mtd/fixes-for-7.1-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/mtd/linux
-d48f3132933e9acc760e6dc90872fb3a463b282e Merge branch 'linus'
+5388f8931da71181c2c58f444bcbebf94f5e5430 Merge branch into tip/master: 'locking/urgent'
+765acbb372a9af1b595c761296c20519e580ebbf Merge branch into tip/master: 'sched/urgent'
 
---===============8748411665638294475==--
+--===============5100747348627047598==--
