@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pci/pci
-Date: Fri, 01 May 2026 17:05:13 -0000
-Message-Id: <177765511328.2187883.13046225308824960018@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/deller/parisc-linux
+Date: Fri, 01 May 2026 17:10:10 -0000
+Message-Id: <177765541051.2193095.3706250365915977859@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pci/pci
-user: mani
+repo: pub/scm/linux/kernel/git/deller/parisc-linux
+user: deller
 changes:
-  - ref: refs/heads/endpoint
-    old: 2071d513cc9b68633138c9b8deab35e32e4c0fd3
-    new: 89b3c5044867c86e421a121481b1ca8cd00a3f6e
+  - ref: refs/heads/for-next
+    old: e6a650acbd991bba279f2580853aed9a8d166e6f
+    new: 41ca998fbe30755191342b58e4f642cf3052ef2b
     log: |
-         36b80ae4206ac382fa298286277c70be1d6989fe misc: pci_endpoint_test: validate BAR index in doorbell test
-         89b3c5044867c86e421a121481b1ca8cd00a3f6e misc: pci_endpoint_test: remove dead BAR read before doorbell trigger
+         41ca998fbe30755191342b58e4f642cf3052ef2b parisc: Fix 64-bit kernel build when CONFIG_COMPAT=n
          
