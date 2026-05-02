@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/bpf/bpf
-Date: Sat, 02 May 2026 16:39:14 -0000
-Message-Id: <177773995444.1065720.18399668205919461621@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Sat, 02 May 2026 17:07:22 -0000
+Message-Id: <177774164295.1092795.10359341489962088809@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/bpf/bpf
-user: ast
+repo: pub/scm/linux/kernel/git/netdev/net
+user: kuba
 changes:
-  - ref: refs/heads/master
-    old: b5c111f4967ba4fdecdd318923ec7b081e9ef95f
-    new: 0c7ae130698e70107430254e79fbe996b4d37ab5
+  - ref: refs/heads/main
+    old: ebb639024ebd47a13a511cce6ae630c15e4b3126
+    new: ddca6da148b8ced3e6d3d7fb3b2e5b4ed6359dc2
     log: |
-         0c7ae130698e70107430254e79fbe996b4d37ab5 tools/headers: Regenerate stddef.h to fix BPF selftests
+         ddca6da148b8ced3e6d3d7fb3b2e5b4ed6359dc2 MAINTAINERS: Add self for the DEC LANCE network driver
          
