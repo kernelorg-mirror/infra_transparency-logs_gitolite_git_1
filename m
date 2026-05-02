@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/liburing
-Date: Sat, 02 May 2026 03:00:56 -0000
-Message-Id: <177769085633.284410.18164788174026047276@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/herbert/crypto-2.6
+Date: Sat, 02 May 2026 04:38:45 -0000
+Message-Id: <177769672515.384383.2610117209492261139@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/liburing
-user: axboe
+repo: pub/scm/linux/kernel/git/herbert/crypto-2.6
+user: herbert
 changes:
-  - ref: refs/heads/master
-    old: 43cd35689130cb8547350cb299bde84d2623c09f
-    new: 5dfc30a27303af1185e65d10890fdb35117bb3eb
-    log: |
-         5dfc30a27303af1185e65d10890fdb35117bb3eb test/nop-flags: don't fail on kernels without IORING_SETUP_SUBMIT_ALL
-         
+  - ref: refs/tags/v7.1-p3
+    old: 0000000000000000000000000000000000000000
+    new: 8bec2ca38e265c320520bef459a6b6d30eae35d8
