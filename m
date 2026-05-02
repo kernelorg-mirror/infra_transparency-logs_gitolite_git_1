@@ -1,21 +1,40 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux
-Date: Sat, 02 May 2026 20:27:46 -0000
-Message-Id: <177775366622.1283760.1415824854936949583@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============6598034448075135680=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
+Date: Sat, 02 May 2026 20:28:00 -0000
+Message-Id: <177775368015.1284036.17082594436114776502@gitolite.kernel.org>
+
+--===============6598034448075135680==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux
-user: axboe
+repo: pub/scm/linux/kernel/git/torvalds/linux
+user: torvalds
 changes:
-  - ref: refs/heads/io_uring-net-sock
-    old: 47588e5ea6d506c7712743c4b48eea4ad3db006a
-    new: 2d451ba35f9cd65c3e1ac21cafeb4fb8adf5c471
-    log: |
-         aa9bec206ebd09ef3b64a48ae7dd7a6346cae5a2 net,tcp: add MSG_SOCK_LOCKSTATE for caller-managed socket locking
-         6a35471ac6cd531893700ee01e919fd4d4a30540 io_uring/net: hold lock_sock across multishot recv loop
-         2d451ba35f9cd65c3e1ac21cafeb4fb8adf5c471 io_uring/net: use MSG_SOCK_LOCKSTATE for io_recvmsg multishot
-         
+  - ref: refs/heads/master
+    old: f1a5e78a55ebf2b05777fd5eb738038ddae609d6
+    new: 66edb901bf874d9e0787326ba12d3548b2da8700
+    log: revlist-f1a5e78a55eb-66edb901bf87.txt
+
+--===============6598034448075135680==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-f1a5e78a55eb-66edb901bf87.txt
+
+5db6ef9847717329f12c5ea8aba7e9f588a980c0 crypto: authencesn - reject short ahash digests during instance creation
+b5198fcdc195fa531adff7bbfbe40dd27c8d0e89 ntfs: fix NULL dereference in ntfs_index_walk_down()
+2dd8c1662e38f7bb68a102f1acad9b518c09aeab ntfs: fix WSL symlink target leak on reparse failure
+cad7c6f0a5147680dd2081256cf8da54fb445d94 ntfs: fix VCN overflow in ntfs_mapping_pairs_decompress()
+785bc568161d96fdbd4326294d427a48e66fe60f ntfs: fix error handling in ntfs_write_iomap_end_resident()
+d986ba0329dcca102e227995371135c9bbcefb6b ntfs: fix invalid PTR_ERR() usage in __ntfs_bitmap_set_bits_in_run()
+4ebcf3f94924d54706de0d2492c80944d85410fd ntfs: drop nlink once for WIN32/DOS aliases
+9e9354075d5a15cfc0aba965f3d0d77b7d4303e9 ntfs: Use return instead of goto in ntfs_mapping_pairs_decompress()
+4c2ed2a3dbda5cad4d7b2f5f394c91522abbaa92 Merge tag 'ntfs-for-7.1-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/linkinjeon/ntfs
+66edb901bf874d9e0787326ba12d3548b2da8700 Merge tag 'v7.1-p3' of git://git.kernel.org/pub/scm/linux/kernel/git/herbert/crypto-2.6
+
+--===============6598034448075135680==--
