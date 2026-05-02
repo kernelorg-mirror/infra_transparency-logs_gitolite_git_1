@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/axboe/liburing
-Date: Sat, 02 May 2026 02:59:17 -0000
-Message-Id: <177769075704.280931.12700494547702637533@gitolite.kernel.org>
+Date: Sat, 02 May 2026 03:00:56 -0000
+Message-Id: <177769085633.284410.18164788174026047276@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,8 +12,8 @@ repo: pub/scm/linux/kernel/git/axboe/liburing
 user: axboe
 changes:
   - ref: refs/heads/master
-    old: 7a70403e7977bf94611c9dbe6621c48abd0652e6
-    new: 43cd35689130cb8547350cb299bde84d2623c09f
+    old: 43cd35689130cb8547350cb299bde84d2623c09f
+    new: 5dfc30a27303af1185e65d10890fdb35117bb3eb
     log: |
-         43cd35689130cb8547350cb299bde84d2623c09f test/io_uring_passthrough: fix incorrect ring setup code
+         5dfc30a27303af1185e65d10890fdb35117bb3eb test/nop-flags: don't fail on kernels without IORING_SETUP_SUBMIT_ALL
          
