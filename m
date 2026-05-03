@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2188411602050084252=="
+Content-Type: multipart/mixed; boundary="===============7287603122182545965=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Sun, 03 May 2026 07:28:31 -0000
-Message-Id: <177779331126.1919528.16028387738587505375@gitolite.kernel.org>
+Date: Sun, 03 May 2026 07:28:52 -0000
+Message-Id: <177779333238.1919809.13984070030900755471@gitolite.kernel.org>
 
---===============2188411602050084252==
+--===============7287603122182545965==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,15 +16,28 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: 983e709c03207c028a50adeab43112e7a1bc2891
-    new: a8217af70f6e5cacd5c8e6cf6492b3d014bafd32
-    log: revlist-983e709c0320-a8217af70f6e.txt
+    old: a8217af70f6e5cacd5c8e6cf6492b3d014bafd32
+    new: 32b8f4c4b8650a879d15ca10f2462d1072e49381
+    log: |
+         1d251ca276a5bdc157d67f38dde3f6231fa09c11 Merge branch into tip/master: 'locking/urgent'
+         d0e216e10b38e5d2f776e3352e6b3a719df29268 Merge branch into tip/master: 'sched/urgent'
+         c2afe391d5a24344a02771e2eb9f78634df57b04 Merge branch into tip/master: 'irq/drivers'
+         44105c3d58c8d4cca03ec2f18539badbf9fe3fbb Merge branch into tip/master: 'timers/clocksource'
+         f827f2ba305af3ebf98d9036d5a3e55e8fb10d1d Merge branch into tip/master: 'timers/core'
+         4f0c367bd3ffdcc67488bf5b7220400010672a69 Merge branch into tip/master: 'x86/microcode'
+         924309cc11d399e2d1151ac10e2f30a266b0d718 Merge branch into tip/master: 'x86/misc'
+         32b8f4c4b8650a879d15ca10f2462d1072e49381 Merge branch into tip/master: 'x86/tdx'
+         
+  - ref: refs/heads/tip/urgent
+    old: 765acbb372a9af1b595c761296c20519e580ebbf
+    new: d0e216e10b38e5d2f776e3352e6b3a719df29268
+    log: revlist-765acbb372a9-d0e216e10b38.txt
 
---===============2188411602050084252==
+--===============7287603122182545965==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-983e709c0320-a8217af70f6e.txt
+Content-Disposition: attachment; filename=revlist-765acbb372a9-d0e216e10b38.txt
 
 4606467a75cfc16721937272ed29462a750b60c8 nvmet-tcp: check INIT_FAILED before nvmet_req_uninit in digest error path
 723277b15ed97185ce6f75abbf19f06e00f0a6f5 nvme: add missing MODULE_ALIAS for fabrics transports
@@ -215,6 +228,17 @@ d8b0e2ef75076a706631a53a347e1944747de6f3 Merge tag 'regulator-fix-v7.1-rc1' of g
 9d88bb929aa1193f9c0b9595a0c46930d6699647 Merge tag 'io_uring-7.1-20260430' of git://git.kernel.org/pub/scm/linux/kernel/git/axboe/linux
 6fe0be6dc7faf984599b1e356ead1c49b64ed3ca Merge tag 'block-7.1-20260430' of git://git.kernel.org/pub/scm/linux/kernel/git/axboe/linux
 227c3d546e963874198aafc0cae8c3e8c24ae4ee Merge tag 'v7.1-rc2-ksmbd-server-fixes' of git://git.samba.org/ksmbd
+cb48828f06afa232cc330f0f4d6be101067810b3 selftests/rseq: Don't run tests with runner scripts outside of the scripts
+2cb68e45120dfc66404c7547d95b8ac6ff0b25ce rseq: Set rseq::cpu_id_start to 0 on unregistration
+e9766e6f7d330dce7530918d8c6e3ec96d6c6e24 rseq: Protect rseq_reset() against interrupts
+010b7723c0a3b9ad58f50b715dbe2e7781d29400 rseq: Don't advertise time slice extensions if disabled
+a510a7f3e9f3956dcb712b7806c11463f70de771 rseq: Revert to historical performance killing behaviour
+ca124bccc9b7aea3e355e8ab71003f78320de3b9 selftests/rseq: Skip tests if time slice extensions are not available
+cafe058ea0d4502cda60a6f139399b42280b3e2d selftests/rseq: Make registration flexible for legacy and optimized mode
+4ed271901f3152f2c6b998dcd47f7ca5a7e5d7c4 selftests/rseq: Validate legacy behavior
+52c60914e818ac3b1924d2056615ff6ede9b12a6 rseq: Implement read only ABI enforcement for optimized RSEQ V2 mode
+9e0fd9697636651c79c5d9615142e083ad45da52 rseq: Reenable performance optimizations conditionally
+b56096700f2c3db7ee9b7795791c76f3a8cab853 selftests/rseq: Expand for optimized RSEQ ABI v2
 bb1d73f2cddccf717307e88c24cae619a9a80295 Merge tag 's390-7.1-2' of git://git.kernel.org/pub/scm/linux/kernel/git/s390/linux
 ee9dce44362b2d8132c32964656ab6dff7dfbc6a futex: Drop CLONE_THREAD requirement for private default hash alloc
 ef5f46b630235b75beec43174348c3d01d6fc49a Merge tag 'selinux-pr-20260501' of git://git.kernel.org/pub/scm/linux/kernel/git/pcmoore/selinux
@@ -222,6 +246,7 @@ cd546f7ae2fce8b695c834143b50e712d62ebed8 Merge tag 'arm64-fixes' of git://git.ke
 f1a5e78a55ebf2b05777fd5eb738038ddae609d6 Merge tag 'drm-fixes-2026-05-02' of https://gitlab.freedesktop.org/drm/kernel
 4c2ed2a3dbda5cad4d7b2f5f394c91522abbaa92 Merge tag 'ntfs-for-7.1-rc2' of git://git.kernel.org/pub/scm/linux/kernel/git/linkinjeon/ntfs
 66edb901bf874d9e0787326ba12d3548b2da8700 Merge tag 'v7.1-p3' of git://git.kernel.org/pub/scm/linux/kernel/git/herbert/crypto-2.6
-a8217af70f6e5cacd5c8e6cf6492b3d014bafd32 Merge branch 'linus'
+1d251ca276a5bdc157d67f38dde3f6231fa09c11 Merge branch into tip/master: 'locking/urgent'
+d0e216e10b38e5d2f776e3352e6b3a719df29268 Merge branch into tip/master: 'sched/urgent'
 
---===============2188411602050084252==--
+--===============7287603122182545965==--
