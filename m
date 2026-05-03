@@ -1,41 +1,30 @@
-Content-Type: multipart/mixed; boundary="===============6007286934424468682=="
-MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/torvalds/linux
-Date: Sun, 03 May 2026 16:59:25 -0000
-Message-Id: <177782756576.2476463.9371772269594720312@gitolite.kernel.org>
-
---===============6007286934424468682==
-Content-Type: text/plain; charset="us-ascii"
+Subject: post-receive: pub/scm/linux/kernel/git/phy/linux-phy
+Date: Sun, 03 May 2026 17:17:06 -0000
+Message-Id: <177782862699.2495444.8566485224631392921@gitolite.kernel.org>
 MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/torvalds/linux
-user: torvalds
+repo: pub/scm/linux/kernel/git/phy/linux-phy
+user: vkoul
 changes:
-  - ref: refs/heads/master
-    old: 66edb901bf874d9e0787326ba12d3548b2da8700
-    new: f377d0025eb00c0590466f5be9f50decf9b9180e
-    log: revlist-66edb901bf87-f377d0025eb0.txt
-
---===============6007286934424468682==
-Content-Type: text/plain; charset="us-ascii"
-MIME-Version: 1.0
-Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-66edb901bf87-f377d0025eb0.txt
-
-620b46ed6ae17c8438d889c8c0cfddab36a1476c mm/page_alloc: return NULL early from alloc_frozen_pages_nolock() in NMI on UP
-5b31044e649e3e54c2caef135c09b371c2fbcd08 mm/slab: return NULL early from kmalloc_nolock() in NMI on UP
-c5cd6fd75b6a55761337c9e965dd5ad02485d00d sched/fair: Fix the negative lag increase fix
-ac8e69e693631689d74d8f1ebee6f84f737f797f sched/fair: Fix wakeup_preempt_fair() vs delayed dequeue
-3da56dc063cd77b9c0b40add930767fab4e389f3 sched/fair: Clear rel_deadline when initializing forked entities
-bc7304f3ae20972d11db6e0b1b541c63feda5f05 futex: Prevent lockup in requeue-PI during signal/ timeout wakeup
-b0aa5e4b087b686575f1b31ce54048b4d059b7b8 sh: Fix fallout from ZERO_PAGE consolidation
-c3cba36b394ba48b7920dcb99c46cee8ee59a116 Merge tag 'sched-urgent-2026-05-03' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-cffcf520fd69fe5a93b519cf0c7ccc5e467fcb1c Merge tag 'locking-urgent-2026-05-03' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
-811129272de4f91da34f869ae1a1dd1fe608f64f Merge tag 'slab-for-7.1-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/vbabka/slab
-f377d0025eb00c0590466f5be9f50decf9b9180e Merge tag 'sh-for-v7.1-tag2' of git://git.kernel.org/pub/scm/linux/kernel/git/glaubitz/sh-linux
-
---===============6007286934424468682==--
+  - ref: refs/heads/fixes
+    old: 254f49634ee16a731174d2ae34bc50bd5f45e731
+    new: 519a228ee40d1be3453d1da339b4577c3785e333
+    log: |
+         fd672888cccd6b855154efe0ac78e7ce3e8ab088 phy: qcom: edp: Unify generic DP/eDP swing and pre-emphasis tables
+         3011c365a329cf2db6d55e8d684550dc88350436 phy: qcom: edp: Add eDP/DP mode switch support
+         3d22594d6f842814b7718600486fe3ce9453abf0 phy: qcom: edp: Add SC7280/SC8180X swing/pre-emphasis tables
+         bf237a9fcbbf9d658522f7315ffc04bf2d49be42 phy: qcom: edp: Fix AUX_CFG8 programming for DP mode
+         519a228ee40d1be3453d1da339b4577c3785e333 phy: qcom: edp: Add PHY-specific LDO config for eDP low vdiff
+         
+  - ref: refs/heads/next
+    old: 254f49634ee16a731174d2ae34bc50bd5f45e731
+    new: f67ab4706ab72af29c331b21f431c463b00d447a
+    log: |
+         0bd448b5467b7ead268bc3a946c1deabbda70fe0 phy: airoha: use C-style SPDX comment for header file
+         f67ab4706ab72af29c331b21f431c463b00d447a phy: renesas: rcar-gen3-usb2: Simplify ID/VBUS detection logic
+         
