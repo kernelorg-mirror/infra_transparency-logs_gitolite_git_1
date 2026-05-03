@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7217802799240972980=="
+Content-Type: multipart/mixed; boundary="===============8369634787955367747=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/docs/linux
-Date: Sun, 03 May 2026 15:53:50 -0000
-Message-Id: <177782363077.2410870.4315176574419109214@gitolite.kernel.org>
+Date: Sun, 03 May 2026 15:53:52 -0000
+Message-Id: <177782363252.2410953.2862798468334613704@gitolite.kernel.org>
 
---===============7217802799240972980==
+--===============8369634787955367747==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/docs/linux
 user: corbet
 changes:
-  - ref: refs/heads/docs-mw
+  - ref: refs/heads/docs-next
     old: 713e899a683eb764b645eaeab79e7308cda497a7
     new: 709061c5d234851b7697b324829156d846cd5f35
     log: revlist-713e899a683e-709061c5d234.txt
 
---===============7217802799240972980==
+--===============8369634787955367747==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -56,4 +56,4 @@ bda185c3059332ed9d64209858292233b71df7e3 docs: maintainers_include: Only show ma
 a2a2faa66e0271ead9c0c429f4bea9ae3bf43ab1 docs: maintainers_include: parse MAINTAINERS just once
 709061c5d234851b7697b324829156d846cd5f35 Merge branch 'mauro' into docs-mw
 
---===============7217802799240972980==--
+--===============8369634787955367747==--
