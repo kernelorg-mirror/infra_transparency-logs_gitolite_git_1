@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6419624639857122943=="
+Content-Type: multipart/mixed; boundary="===============3349456711263061977=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/wbg/counter
-Date: Sun, 03 May 2026 04:34:39 -0000
-Message-Id: <177778287989.1750899.3421531617961427030@gitolite.kernel.org>
+Date: Sun, 03 May 2026 04:43:18 -0000
+Message-Id: <177778339898.1760216.10515633996884244215@gitolite.kernel.org>
 
---===============6419624639857122943==
+--===============3349456711263061977==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/wbg/counter
 user: wbg
 changes:
-  - ref: refs/heads/master
-    old: f338e77383789c0cae23ca3d48adcc5e9e137e3c
+  - ref: refs/heads/counter-current
+    old: 2932095c114b98cbb40ccf34fc00d613cb17cead
     new: 254f49634ee16a731174d2ae34bc50bd5f45e731
-    log: revlist-f338e7738378-254f49634ee1.txt
+    log: revlist-2932095c114b-254f49634ee1.txt
 
---===============6419624639857122943==
+--===============3349456711263061977==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-f338e7738378-254f49634ee1.txt
+Content-Disposition: attachment; filename=revlist-2932095c114b-254f49634ee1.txt
 
 b183b7b9b51fc37cc8e1fbad3c0d84e0cb605266 smb: smbdirect: introduce smbdirect_mr_io_fill_buffer_descriptor()
 a93b68d46e1450ca6d395be0ca002f8bdf04d9a6 smb: smbdirect: introduce smbdirect_connection_legacy_debug_proc_show()
@@ -1051,4 +1051,4 @@ b935117fe6d1af576e39b1f18c9e875f44bd146f Merge tag 'kbuild-fixes-7.1-1' of git:/
 14479877c1ec9667edb4a7c20a8d7a704e7249ca Merge tag 'clk-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/clk/linux
 254f49634ee16a731174d2ae34bc50bd5f45e731 Linux 7.1-rc1
 
---===============6419624639857122943==--
+--===============3349456711263061977==--
