@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============3349456711263061977=="
+Content-Type: multipart/mixed; boundary="===============7015999722087605956=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/wbg/counter
-Date: Sun, 03 May 2026 04:43:18 -0000
-Message-Id: <177778339898.1760216.10515633996884244215@gitolite.kernel.org>
+Date: Sun, 03 May 2026 04:44:13 -0000
+Message-Id: <177778345389.1760968.8840406977813015886@gitolite.kernel.org>
 
---===============3349456711263061977==
+--===============7015999722087605956==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/wbg/counter
 user: wbg
 changes:
-  - ref: refs/heads/counter-current
+  - ref: refs/heads/counter-fixes
     old: 2932095c114b98cbb40ccf34fc00d613cb17cead
     new: 254f49634ee16a731174d2ae34bc50bd5f45e731
     log: revlist-2932095c114b-254f49634ee1.txt
 
---===============3349456711263061977==
+--===============7015999722087605956==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ b935117fe6d1af576e39b1f18c9e875f44bd146f Merge tag 'kbuild-fixes-7.1-1' of git:/
 14479877c1ec9667edb4a7c20a8d7a704e7249ca Merge tag 'clk-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/clk/linux
 254f49634ee16a731174d2ae34bc50bd5f45e731 Linux 7.1-rc1
 
---===============3349456711263061977==--
+--===============7015999722087605956==--
