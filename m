@@ -1,43 +1,42 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/lenb/linux
-Date: Sun, 03 May 2026 20:41:58 -0000
-Message-Id: <177784091897.2694738.11898898631123113896@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============0203272719433468814=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/groeck/linux-staging
+Date: Sun, 03 May 2026 21:20:28 -0000
+Message-Id: <177784322884.2733536.2596598866898471536@gitolite.kernel.org>
+
+--===============0203272719433468814==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/lenb/linux
-user: lenb
+repo: pub/scm/linux/kernel/git/groeck/linux-staging
+user: groeck
 changes:
-  - ref: refs/heads/next
-    old: 860bf344cd9090f26df765db9641129673ebaab1
-    new: 4ea6e400143a838fe4cfd975ac313c03243dd9ff
-    log: |
-         3e800e60fc0cf11ba7bc4f01fa5b2c3f5aeda708 tools/power turbostat: Cleanup: Remove hard-coded 8192 CPU limit
-         23347b16d17385882aab8606403982a352ed0e4a tools/power turbostat: Cleanup: Use one cpu_setsize for all purposes
-         51b6b4641dfb6654ab6fbf64f120926e72db3495 tools/power turbostat: Allow mulitple --cpu on cmdline
-         2b7006f4400aece75f3d058f89a71ce3d43c42a0 tools/power turbostat: Cleanup: Delete duplicate table entry
-         86e4bb017a2fac705b871231057978ed93c619dd tools/power turbostat: Rename cpu_subset to cpuset_cmdline
-         39a708851c93b8ad926f9f1e38d82758ae937494 tools/power turbostat: Cleanup: Remove useless assert()
-         30a988e9489c8d616fbd89e7f6d5da47dbb87310 tools/power turbostat: Cleanup: Unify comparisons to max_cpu_num
-         da4d94759b8a79a3126fd5e6dfc1623973a3c673 tools/power turbostat: Cleanup counter sets debug code
-         41b4658b12e3102a36a9106dd15eacc9eae569fa tools/power turbostat: Cleanup add_counter declaration
-         4ea6e400143a838fe4cfd975ac313c03243dd9ff tools/power turbostat: Cleanup: consistently use warn/err, not perror
-         
-  - ref: refs/heads/turbostat
-    old: 860bf344cd9090f26df765db9641129673ebaab1
-    new: 4ea6e400143a838fe4cfd975ac313c03243dd9ff
-    log: |
-         3e800e60fc0cf11ba7bc4f01fa5b2c3f5aeda708 tools/power turbostat: Cleanup: Remove hard-coded 8192 CPU limit
-         23347b16d17385882aab8606403982a352ed0e4a tools/power turbostat: Cleanup: Use one cpu_setsize for all purposes
-         51b6b4641dfb6654ab6fbf64f120926e72db3495 tools/power turbostat: Allow mulitple --cpu on cmdline
-         2b7006f4400aece75f3d058f89a71ce3d43c42a0 tools/power turbostat: Cleanup: Delete duplicate table entry
-         86e4bb017a2fac705b871231057978ed93c619dd tools/power turbostat: Rename cpu_subset to cpuset_cmdline
-         39a708851c93b8ad926f9f1e38d82758ae937494 tools/power turbostat: Cleanup: Remove useless assert()
-         30a988e9489c8d616fbd89e7f6d5da47dbb87310 tools/power turbostat: Cleanup: Unify comparisons to max_cpu_num
-         da4d94759b8a79a3126fd5e6dfc1623973a3c673 tools/power turbostat: Cleanup counter sets debug code
-         41b4658b12e3102a36a9106dd15eacc9eae569fa tools/power turbostat: Cleanup add_counter declaration
-         4ea6e400143a838fe4cfd975ac313c03243dd9ff tools/power turbostat: Cleanup: consistently use warn/err, not perror
-         
+  - ref: refs/heads/watchdog-next
+    old: 587d5a3778e9fd25e327435b58b609487a692115
+    new: 2f0ef526fef402c74e154c2b2f972401ba249858
+    log: revlist-587d5a3778e9-2f0ef526fef4.txt
+
+--===============0203272719433468814==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=revlist-587d5a3778e9-2f0ef526fef4.txt
+
+bdd918c4e4516bd2eadac712b2d2e6d29445bd2e watchdog: bcm2835_wdt: Switch to new sys-off handler API
+96b3cfc3b8ad0524d12fed1e08bc5df3ff345f64 watchdog: sprd_wdt: Remove redundant sprd_wdt_disable() on register failure
+ef17fd095fead25e3721798513e070211047762d dt-bindings: watchdog: apple,wdt: Add t8122 compatible
+28363128fd2cdc30369fadbab3da44dab1feeec0 watchdog: pic32-wdt: allow driver to be compiled on all architectures with COMPILE_TEST
+808f32980ce613c4ecf696fdafeb655ceb9bb03b watchdog: pic32-dmt: allow driver to be compiled on all architectures with COMPILE_TEST
+25a9a9ae0ca4fbf9796a144f9d78b36b815349b1 dt-bindings: watchdog: ti,rti-wdt: Add ti,am62l-rti-wdt compatible
+ee46ce5f4884fff96a6474dcb04e6b0c8465cbb2 watchdog: rti_wdt: Add reaction control
+b9f733d3029a5c44b567a01e91326167bd3cc1cd watchdog: imx7ulp_wdt: Keep WDOG running until A55 enters WFI on i.MX94
+70c872e8042bfbee8a408e7a67f2c3b3b6f244fa watchdog: at91sam9_wdt.h: Document WDDIS bit position per SoC family
+6a3269500e8fe3d2668ad84bb9ac8494e5fbfabb dt-bindings: watchdog: Add support for Andes ATCWDT200
+aecc4a02583c9467af19a07c44eb193231655dd5 watchdog: atcwdt200: Add driver for Andes ATCWDT200
+2f0ef526fef402c74e154c2b2f972401ba249858 MAINTAINERS: Add entry for Andes ATCWDT200
+
+--===============0203272719433468814==--
