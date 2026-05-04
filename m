@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============9128824279760429554=="
+Content-Type: multipart/mixed; boundary="===============7588230381018008663=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Mon, 04 May 2026 22:04:05 -0000
-Message-Id: <177793224542.181124.10655949489855581704@gitolite.kernel.org>
+Date: Mon, 04 May 2026 22:04:12 -0000
+Message-Id: <177793225281.181371.520922771011700860@gitolite.kernel.org>
 
---===============9128824279760429554==
+--===============7588230381018008663==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/40GbE
-    old: 790ead9394860e7d70c5e0e50a35b243e909a618
-    new: 98878ed91b68a3150126fccef125ee7b1bb86ab2
-    log: revlist-790ead939486-98878ed91b68.txt
+  - ref: refs/heads/100GbE
+    old: 42c84c6ed4fc2e898e1c899f53f09bbd9a4d5e81
+    new: 2e6f4bb8608c9f66ccb8f815ac699b77a581a3b2
+    log: revlist-42c84c6ed4fc-2e6f4bb8608c.txt
 
---===============9128824279760429554==
+--===============7588230381018008663==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-790ead939486-98878ed91b68.txt
+Content-Disposition: attachment; filename=revlist-42c84c6ed4fc-2e6f4bb8608c.txt
 
 57df858a46f0a4cc104716e0ec88864e5c386ca4 mailbox: add API to query available TX queue slots
 f9f0df23193a8afee3bfb5fc34970c93792d7163 mailbox: rockchip: kzalloc + kcalloc to kzalloc
@@ -394,5 +394,10 @@ b71fcc5c0bb3347a7441393d6f3657b711efb968 i40e: only timestamp PTP event packets
 b9fa4b9e051bd888907b0366bbd3d88dd9281372 ice: access @pp through netmem_desc instead of page
 586483cb41f40eab03ca65ceedeae623b379783a ice: dpll: Fix compilation warning
 98878ed91b68a3150126fccef125ee7b1bb86ab2 Merge branch 'intel-wired-lan-updates-2024-04-30-ixgbe-i40e-ice'
+ec3764df881881df5491a5424134245b9a21f7e8 libeth: pass Rx queue index to PP when creating a fill queue
+bbdfac8275b0b720adcc5554ea7e1b39ac8952f0 libeth: handle creating pools with unreadable buffers
+d9040a64dd312baef01cb3d3db004bc59db0b095 ice: migrate to netdev ops lock
+1586cfe4c437f9b815eeb4a3e33d333f7a604bbc ice: implement Rx queue management ops
+2e6f4bb8608c9f66ccb8f815ac699b77a581a3b2 ice: add support for transmitting unreadable frags
 
---===============9128824279760429554==--
+--===============7588230381018008663==--
