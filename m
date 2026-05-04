@@ -1,51 +1,51 @@
-Content-Type: multipart/mixed; boundary="===============4557497221117474432=="
+Content-Type: multipart/mixed; boundary="===============6715697052401934461=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
-Date: Mon, 04 May 2026 23:51:46 -0000
-Message-Id: <177793870679.289219.15591753757379969337@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
+Date: Mon, 04 May 2026 23:51:53 -0000
+Message-Id: <177793871362.289436.18319666266734504686@gitolite.kernel.org>
 
---===============4557497221117474432==
+--===============6715697052401934461==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/sound
+repo: pub/scm/linux/kernel/git/broonie/misc
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/for-7.1
+  - ref: refs/heads/asoc-7.1
     old: 03dcb5b68a96b51157ec2d17042fa2f0106828ae
     new: e8446a4a574d19f0fb39c06af15dbc5165079474
     log: revlist-03dcb5b68a96-e8446a4a574d.txt
 
---===============4557497221117474432==
+--===============6715697052401934461==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1777938704 +0900
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
-nonce 1777938703-050b4d122773f516492d7ff852d2b8a77fa474aa
+pusher C3F436CA30F5D8EB 1777938711 +0900
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
+nonce 1777938710-81242f27aaa5f797a4026fb23d9f69ae15061e8c
 
-03dcb5b68a96b51157ec2d17042fa2f0106828ae e8446a4a574d19f0fb39c06af15dbc5165079474 refs/heads/for-7.1
+03dcb5b68a96b51157ec2d17042fa2f0106828ae e8446a4a574d19f0fb39c06af15dbc5165079474 refs/heads/asoc-7.1
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmn5MRAACgkQJNaLcl1U
-h9A8NQf/TN3Od59oZzx/85OtU14gmcOND3o7X55R3kZSBmOIRuNacAMtAdev9l6s
-JJuTVrC6tjSUo7X3vU6INquYMttxaqWGXiRKL7HfoDMgUafaDt7a0egC1bnuv0q+
-HquYGOa60SrI4sAEfxY+FsZZQDZDo5PLCZnrRg5OaQ1MWuiQp2D9MXVpU73ZAB1V
-6wuTQ+Otdu1y7DTOMHvfSMWTAaZ8iSGklmMikdfuOytBAtI9Keuy5GaSaecTV8bH
-hfREy6P17cFaPtWmqYR6oGwb7Yi3dJKCMo9isTQSXHmQzlgk44hdVxr8c6jT67NM
-0t5feNvdz6B+Xpfr0ZI16XYHIRUc/g==
-=ZLcO
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmn5MRcACgkQJNaLcl1U
+h9Addwf/ShecehYKpBU0tlkfOvCX2qpdqhl/CCmJT12eCwFWtXVucbmltWci8qPC
+c/vERtaHWdw/lyXny/Li2pgYvK/8sOrVgNlS3ORgUFKWXpW1uQtGEjfUOmoF7VMK
+Bckf1gG8JEofC5ws/uBtFYRSozbiiXQo+T+YA/dwdNyxfZNvXLVLRaFwwo04PtBy
+TdWJQLI/iwo2U+lfy38KfucQ5eiQ3Ynibe7aIAt1DiHQ/s/wSrrweNPs+xpnEzOj
+vyL7CgGQehdxJ+3ob3vcQKb3GdEUYRpyrzkehBYGrGGqUPm9Waw4LAbLwXv1pB/L
+zHC6l/Ovxy8CYVOLE1mLGFM+9v9tsg==
+=wkKB
 -----END PGP SIGNATURE-----
 
---===============4557497221117474432==
+--===============6715697052401934461==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -522,4 +522,4 @@ d63c219b7ff39f897da10c160a2edef76320f16c ASoC: amd: yc: Add HP OMEN Gaming Lapto
 56d5a9eaf60af5c824a33a83e1468aa143627a62 ASoC: sdw_utils: avoid the SDCA companion function not supported failure
 e8446a4a574d19f0fb39c06af15dbc5165079474 ASoC: fsl_xcvr: Fix event generation for cached controls
 
---===============4557497221117474432==--
+--===============6715697052401934461==--
