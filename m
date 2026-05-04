@@ -1,26 +1,28 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/zx2c4/cgit
-Date: Mon, 04 May 2026 16:28:50 -0000
-Message-Id: <177791213041.3996201.17114988835640453264@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
+Date: Mon, 04 May 2026 16:54:12 -0000
+Message-Id: <177791365253.4020697.5887181497700766774@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/zx2c4/cgit
-user: zx2c4
+repo: pub/scm/linux/kernel/git/ath/ath
+user: jjohnson
 changes:
-  - ref: refs/heads/jd/zx2c4-deployment
-    old: c7d7f29de40fb7075bbbf1b2a3ffc023fd44bb91
-    new: 7b8df292cae4a238149e09d17714099aae1dcdf3
+  - ref: refs/heads/main
+    old: 9b362bcf7b3aeb737089d4ae633141ba39079d09
+    new: 19d695cb264dcd67e31188d02d6852cb8dca5a51
     log: |
-         5b4e73c203f5f4484d66f043f1e9114daefeb632 cgit: devirtualize repo_config
-         e7e8cf1801b06a9f7f5092671b0413689a765fe7 cgit: use strchrnul instead of open coding
-         ed05b1054df10a2fbc68000cfdd429daec03a456 cgit: truncate all config values at the newline
-         76fc750563843c3866adae963ce637b23f493086 ZX2C4 specific patches.
-         fecd6e99e13d535e783122441497f185862d2756 Steal kernel.org's libravatar lua.
-         bee22c579bb16b7d770d3938f637b353c08eb15b css: switch monospace fonts
-         0210fb608bcc16df1cd735043360753d8a6f6c72 html: double escape literal + in URLs
-         7b8df292cae4a238149e09d17714099aae1dcdf3 css: Support for dark mode
+         05c5078de822148e7cb84968a8783ddfcb6c9ef1 wifi: ath12k: fix leak in some ath12k_wmi_xxx() functions
+         81594a12d5cecb3ab35b603a00037c7c3ee87ab2 wifi: ath12k: initialize RSSI dBm conversion event state
+         0e1308803d2c3fd365a6d21e6be355ec1e28eaaf wifi: ath12k: fix peer_id usage in normal RX path
+         d748603f12baff112caa3ab7d39f50100f010dbd wifi: ath5k: do not access array OOB
+         eb18fef11e4c621638a9e0b1160ab832ba9b3c0b Merge branch 'ath-next'
+         baabcd79a0cfee01be4af1638c0447bde331e982 Merge branch 'ath-current'
+         19d695cb264dcd67e31188d02d6852cb8dca5a51 Add localversion-wireless-testing-ath
          
+  - ref: refs/tags/ath-202605041646
+    old: 0000000000000000000000000000000000000000
+    new: 19d695cb264dcd67e31188d02d6852cb8dca5a51
