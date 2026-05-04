@@ -1,19 +1,21 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd-test
-Date: Mon, 04 May 2026 10:55:04 -0000
-Message-Id: <177789210415.3618589.18086965773569557279@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/linkinjeon/ntfs
+Date: Mon, 04 May 2026 10:57:06 -0000
+Message-Id: <177789222669.3621259.11258686883910468796@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd-test
-user: jarkko
+repo: pub/scm/linux/kernel/git/linkinjeon/ntfs
+user: linkinjeon
 changes:
-  - ref: refs/heads/main
-    old: 254d18971e1989c249c59789d1cd56ab12e0cfd7
-    new: bf694bbd87cded8696d63fcc268769cebbce36eb
+  - ref: refs/heads/ntfs-next
+    old: 22ce4408ff4223a5169c36c17c78de4eb6b189eb
+    new: 715484f50e669cf7ca8d4a21f74230d37ecdcb84
     log: |
-         bf694bbd87cded8696d63fcc268769cebbce36eb Rename prepare target as configure
+         eaad85835835ce5e5e433fbfc87600d672bbfc52 ntfs: use base mft_no when looking up base inode for extent record
+         e5f34f95782925c3dcee7c128004af546c999fe7 ntfs: redirty folio when ntfs_write_mft_block() runs out of memory
+         715484f50e669cf7ca8d4a21f74230d37ecdcb84 ntfs: capture mft mirror sync errors in ntfs_write_mft_block()
          
