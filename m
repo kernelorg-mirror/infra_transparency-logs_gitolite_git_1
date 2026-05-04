@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/klassert/ipsec-next
-Date: Mon, 04 May 2026 07:58:43 -0000
-Message-Id: <177788152349.3432446.11429770334107946684@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/brgl/linux
+Date: Mon, 04 May 2026 08:00:05 -0000
+Message-Id: <177788160549.3435707.17984424507925581484@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/klassert/ipsec-next
-user: klassert
+repo: pub/scm/linux/kernel/git/brgl/linux
+user: brgl
 changes:
-  - ref: refs/heads/master
-    old: 790ead9394860e7d70c5e0e50a35b243e909a618
-    new: a77d172177f3754ebd70123c78c75a6efa9eec2a
+  - ref: refs/heads/gpio/for-next
+    old: 6458c5db0d1515914a98eb1e833305a0b5b75175
+    new: bfdc854ba63bc815cf710701f889544a9d27df83
     log: |
-         a77d172177f3754ebd70123c78c75a6efa9eec2a xfrm: cleanup error path in xfrm_add_policy()
+         bfdc854ba63bc815cf710701f889544a9d27df83 gpiolib: move legacy interface into linux/gpio/legacy.h
          
