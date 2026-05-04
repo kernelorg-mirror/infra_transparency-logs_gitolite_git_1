@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5538690214366972412=="
+Content-Type: multipart/mixed; boundary="===============9128824279760429554=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Mon, 04 May 2026 22:04:02 -0000
-Message-Id: <177793224263.180877.15211004264345874520@gitolite.kernel.org>
+Date: Mon, 04 May 2026 22:04:05 -0000
+Message-Id: <177793224542.181124.10655949489855581704@gitolite.kernel.org>
 
---===============5538690214366972412==
+--===============9128824279760429554==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/10GbE
+  - ref: refs/heads/40GbE
     old: 790ead9394860e7d70c5e0e50a35b243e909a618
     new: 98878ed91b68a3150126fccef125ee7b1bb86ab2
     log: revlist-790ead939486-98878ed91b68.txt
 
---===============5538690214366972412==
+--===============9128824279760429554==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -395,4 +395,4 @@ b9fa4b9e051bd888907b0366bbd3d88dd9281372 ice: access @pp through netmem_desc ins
 586483cb41f40eab03ca65ceedeae623b379783a ice: dpll: Fix compilation warning
 98878ed91b68a3150126fccef125ee7b1bb86ab2 Merge branch 'intel-wired-lan-updates-2024-04-30-ixgbe-i40e-ice'
 
---===============5538690214366972412==--
+--===============9128824279760429554==--
