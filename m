@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5745427595216639905=="
+Content-Type: multipart/mixed; boundary="===============1193675384265508653=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/bcain/linux
-Date: Mon, 04 May 2026 14:01:35 -0000
-Message-Id: <177790329535.3824656.7122358086865261656@gitolite.kernel.org>
+Date: Mon, 04 May 2026 14:03:37 -0000
+Message-Id: <177790341782.3825864.15541236837988193899@gitolite.kernel.org>
 
---===============5745427595216639905==
+--===============1193675384265508653==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/bcain/linux
 user: bcain
 changes:
-  - ref: refs/heads/bcain/glink
-    old: 5d897d0f6b0bbd170ef332eeae9a8329ec812a5e
-    new: 56613ce42511aab2f9f2773fdb8fe54ed240fe8b
-    log: revlist-5d897d0f6b0b-56613ce42511.txt
+  - ref: refs/heads/bcain/boot_qemu
+    old: 5bc5de36ac3892ae317113600fed8d455c1c39cf
+    new: 95c16510e58897186c3f01a224293dfbddcc581c
+    log: revlist-5bc5de36ac38-95c16510e588.txt
 
---===============5745427595216639905==
+--===============1193675384265508653==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-5d897d0f6b0b-56613ce42511.txt
+Content-Disposition: attachment; filename=revlist-5bc5de36ac38-95c16510e588.txt
 
 57df858a46f0a4cc104716e0ec88864e5c386ca4 mailbox: add API to query available TX queue slots
 f9f0df23193a8afee3bfb5fc34970c93792d7163 mailbox: rockchip: kzalloc + kcalloc to kzalloc
@@ -136,19 +136,5 @@ aadc9dce59e60c6bfc7b2cc34768acd33839611c hexagon: pre-compute loops_per_jiffy fr
 37f94ec86e9abfe39840097add32c80e2e8ecde5 dt-bindings: hexagon: add H2 PIC, timer, and virt machine schemas
 db63dad4c31b9522600d955dfe2456924138a3b6 hexagon: use HWCONFIG to discover SMP threads at runtime
 95c16510e58897186c3f01a224293dfbddcc581c hexagon: increase maximum supported CPUs to 16
-74e52756405fa372fee9326b0df73ae5f700ba28 mailbox: add ivshmem doorbell mailbox controller
-b09ccff407057d49a8e870aef84d981961f670c5 rpmsg: add echo test service for GLINK testing
-1bdd03f997842c48ee66a0012065fd4226d5bb0a rpmsg: glink: add remote endpoint and platform driver support
-85e8209278a377ccfbafada0bc4408205bc57ed1 rpmsg: glink: auto-open channels listed in device tree
-6338e06aeafd77eafdb5a86b989bfe63ae6d2688 hexagon: add GLINK testing infrastructure for QEMU
-c23213e0591caac0f57a79881ff0bbb12054c6b0 hexagon: fix PL011 console support on QEMU virt machine
-05c40feab0b0bd91ff219b58ac94c735fe8cdb71 hexagon: add GLINK SMEM and PL011 nodes to QEMU virt device tree
-61dbda0524b99d3f1ed94ea1f90f11173f63184e hexagon: add arch-specific csum_ipv6_magic for unaligned access
-4063932395adfff5d833d3c1a1d85ad4ded3bf3a Documentation: hexagon: add GLINK dual-QEMU testing guide
-64c05216047b93e36ebd7b17c3f2812b860d0669 net: add rpmsg_net driver for IP over GLINK
-63da24322549edaeec02238058525204a8e88a3f misc: add fastrpc_device driver for DSP-side invoke handling
-0a8c74e846f46ee603a6f4226f3951f50378951e hexagon: add rpmsg_net and fastrpc_device to GLINK DTS and defconfig
-212e159f0f68d1e0b991005cbcff282a8093155d hexagon: enable QRTR IPC router over GLINK
-56613ce42511aab2f9f2773fdb8fe54ed240fe8b hexagon: add FastRPC userspace dispatcher daemon
 
---===============5745427595216639905==--
+--===============1193675384265508653==--
