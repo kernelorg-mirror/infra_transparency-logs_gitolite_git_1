@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd-test
-Date: Mon, 04 May 2026 12:50:09 -0000
-Message-Id: <177789900991.3743389.14076790091834936731@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/geert/renesas-devel
+Date: Mon, 04 May 2026 12:53:36 -0000
+Message-Id: <177789921698.3746411.6070312135355529707@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd-test
-user: jarkko
+repo: pub/scm/linux/kernel/git/geert/renesas-devel
+user: geert
 changes:
-  - ref: refs/heads/main
-    old: 014d9c285ed46945890e194b507e08cda78f6543
-    new: 3d262f0eeffe0f2aef6c7ec705eb3d09cc407a68
-    log: |
-         3d262f0eeffe0f2aef6c7ec705eb3d09cc407a68 Disable BR2_PACKAGE_TRACE_CMD
-         
+  - ref: refs/tags/renesas-fixes-for-v7.1-tag1
+    old: 0000000000000000000000000000000000000000
+    new: 68fd67b611759f1385f2b95b9724d2c051a05341
