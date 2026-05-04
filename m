@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1009067060326445140=="
+Content-Type: multipart/mixed; boundary="===============0688731303702520698=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Mon, 04 May 2026 13:25:32 -0000
-Message-Id: <177790113217.3785830.8307793784063389859@gitolite.kernel.org>
+Date: Mon, 04 May 2026 13:25:46 -0000
+Message-Id: <177790114672.3786373.789224252951555575@gitolite.kernel.org>
 
---===============1009067060326445140==
+--===============0688731303702520698==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/broonie/ci
 user: broonie
 changes:
-  - ref: refs/heads/asoc-7.2
-    old: b772d5b485553db60b7561fc9327bd69b4745bf6
-    new: 50c2f0f086641fb96d4eb67a559ee18d441355b6
-    log: revlist-b772d5b48555-50c2f0f08664.txt
+  - ref: refs/heads/regulator-7.2
+    old: dfa2186f3f4da01c5867c8d0e388c2b221875af5
+    new: cc88452476e571fb1212cb133c5af9f91f7b8e03
+    log: revlist-dfa2186f3f4d-cc88452476e5.txt
 
---===============1009067060326445140==
+--===============0688731303702520698==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-b772d5b48555-50c2f0f08664.txt
+Content-Disposition: attachment; filename=revlist-dfa2186f3f4d-cc88452476e5.txt
 
 57df858a46f0a4cc104716e0ec88864e5c386ca4 mailbox: add API to query available TX queue slots
 f9f0df23193a8afee3bfb5fc34970c93792d7163 mailbox: rockchip: kzalloc + kcalloc to kzalloc
@@ -501,15 +501,10 @@ cffcf520fd69fe5a93b519cf0c7ccc5e467fcb1c Merge tag 'locking-urgent-2026-05-03' o
 811129272de4f91da34f869ae1a1dd1fe608f64f Merge tag 'slab-for-7.1-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/vbabka/slab
 f377d0025eb00c0590466f5be9f50decf9b9180e Merge tag 'sh-for-v7.1-tag2' of git://git.kernel.org/pub/scm/linux/kernel/git/glaubitz/sh-linux
 7fd2df204f342fc17d1a0bfcd474b24232fb0f32 Linux 7.1-rc2
-7ff50c1f3183f00ad09fbee94d059fe6c88827f8 ASoC: tegra: ADMAIF: allocate with a single kzalloc
-fca2abdf1dd7b2aff0167faeed95f6e54385234a ASoC: ux500: Use guard() for mutex locks
-b5a1493d9479b60310ca0d33402ad7cef7ca358e ASoC: tegra: Use guard() for mutex locks
-55f8c382858d1d9abcaa99db2500f6ada9cddba2 ASoC: uniphier: aio-compress: Use guard() for spin locks
-8f7e9d3c0cca98f0d4a25bb7bec26051d72c2dcc ASoC: uniphier: aio-dma: Use guard() for spin locks
-0773ee1706036706be5330172d0ec4db563165d7 ASoC: uniphier: Use guard() for spin locks
-cb3c257e08248521b22c67259d50ebb18574d1a1 ASoC: SDCA: Add correct masks whilst reporting SDCA jack status
-df036250d7d5f751de04300a5600b2dadb927ae9 ASoC: SDCA: Remove sdca_function_data duplication
-250922577ed16c29b994197b84a231dcbe7798e8 ASoC: SDCA: Support devices with multiple functions of identical type
-50c2f0f086641fb96d4eb67a559ee18d441355b6 ASoC: Improve SDCA support for duplicated features
+636474fc30cd05cdc04621c276cc93ded080677b regulator: dt-bindings: qcom,rpmh: Add PMAU0102 support
+900815c936057f7c71eb08169f4aefbbc583a2ea regulator: rpmh-regulator: Add RPMH regulator support for Nord
+dc1f29ebeaa84a32d594eacb91d07d0f30f247ed regulator: dt-bindings: qcom,smd-rpm-regulator: Document PM8150 IC
+66337c7e4e0884d0a722afe5ee0a352045572c55 regulator: qcom_smd: Add PM8150 regulators
+cc88452476e571fb1212cb133c5af9f91f7b8e03 regulator: Add PM8150 PMIC support
 
---===============1009067060326445140==--
+--===============0688731303702520698==--
