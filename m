@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============8528261106562175740=="
+Content-Type: multipart/mixed; boundary="===============3994595855751986426=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/net-queue
-Date: Mon, 04 May 2026 22:43:07 -0000
-Message-Id: <177793458755.220092.17840471891777871068@gitolite.kernel.org>
+Date: Mon, 04 May 2026 22:43:30 -0000
+Message-Id: <177793461065.220456.164504200824022179@gitolite.kernel.org>
 
---===============8528261106562175740==
+--===============3994595855751986426==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/net-queue
 user: tnguy
 changes:
-  - ref: refs/heads/main
-    old: a54c9a13cfc17943afb46f74ccb412666e8967f5
-    new: bd3a4795d5744f59a1f485379f1303e5e606f377
-    log: revlist-a54c9a13cfc1-bd3a4795d574.txt
+  - ref: refs/heads/dev-queue
+    old: 4b36dff2d4d9373e7cbc36e38ab61e60a07e0f8c
+    new: f5ee96fe6091c7f0e79fc537bda2c17d0572db94
+    log: revlist-4b36dff2d4d9-f5ee96fe6091.txt
 
---===============8528261106562175740==
+--===============3994595855751986426==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-a54c9a13cfc1-bd3a4795d574.txt
+Content-Disposition: attachment; filename=revlist-4b36dff2d4d9-f5ee96fe6091.txt
 
 1049970d7583194eedc30e45a3c898b2cb1c30ba netfilter: replace skb_try_make_writable() by skb_ensure_writable()
 0a0b35f0bf10b4c2be607465f5c9c12c8681305b netfilter: nft_fwd_netdev: add device and headroom validate with neigh forwarding
@@ -81,5 +81,59 @@ ddca6da148b8ced3e6d3d7fb3b2e5b4ed6359dc2 MAINTAINERS: Add self for the DEC LANCE
 b42f68cf04260ae5b3e24cda7835d792ff35ac79 Merge branch 'net-sched-sch_cake-annotate-data-races-in-cake_dump_class_stats-series'
 7e7be31bfdb066c1c780dcd6b1224078fc54063f net: tls: fix silent data drop under pipe back-pressure
 bd3a4795d5744f59a1f485379f1303e5e606f377 selftests: tls: add test for data loss on small pipe
+ae945d6a3db17bb9ffdcc325f927b7b465c9d482 ice: fix fwlog after driver reinit
+4e88de148691448a9feb4a74a01912ebc02eb58a ice: Fix enable_cnt imbalance on resume
+ac1afdec959057a31c69e46c16ae7b2d34ee6620 ice: Fix enable_cnt imbalance on PCIe error recovery
+9ee6dec504d7c36561a31786b1fab19fdaeb0db9 i40e: Fix enable_cnt imbalance on PCIe error recovery
+0adcd0c39fff989984f11128065df6998ab5530b ice: fix setting RSS VSI hash for E830
+13bec4e3ef269c57f1018e88fca00e098bca91f7 ice: dpll: fix rclk pin state get and misplaced header macros
+c48b5d13e41a1518296b5c5c012322a6012a0a1a idpf: fix xdp crash in soft reset error path
+62bfe33173100a20acba6c8cebf1f010412b2e0c ice: fix locking in ice_dcb_rebuild()
+1ee2eb00173181781a6e498fb923a542eecced67 ice: fix FDB deletion
+edacf80c7e41b7e16b7618a5138736c1edaac6e2 ice: init desired_dcbx_cfg in default DCB config
+fbbba58a1e0f3ea7ce659f91a709412051a92da1 ice: prevent integer overflow
+17e95203581334a014b70cf094bc213004aea332 ice: fix LLDP AQ filter fallback not working on E82x and E830 hardware
+0abae2b0c9f7cad53c25056bd03de9962d91b6a9 ice: fix FDIR CTRL VSI resource leak in ice_reset_all_vfs()
+84aec1b904d7ab3502c38db65f8de7c7153b4849 ice: fix AQ error code comparison in ice_set_pauseparam()
+7e3b14e90eeb82cfc43c03a825d16f0a5b4bebc6 ice: call netif_keep_dst() once when entering switchdev mode
+6d5a272651a1846e9c3d9591a800b6a7b159f421 ice: check cross-timestamp timeout bits
+dbc8f60e7f6a2bb218f747699e390f19eef401ac ice: fix locking around wait_event_interruptible_locked_irq
+0af02afeccb93468032a3c131ee536438d139a2d ice: fix PTP Call Trace during PTP release
+4faaeec870bfca24e75bad6d1ce3a91e624a89c7 ice: fix PTP hang for E825C devices
+ac24e2a6272c9e282469b63e2fd7cd939047a980 ice: use READ_ONCE() to access cached PHC time
+5720975f4e42848094319ae40bdafdd45971fa95 ice: fix setting promisc mode while adding VID filter
+058d398f942a6f5fa5a69e0a6eb3f06876f9c449 i40e: fix memcmp of pointer in i40e_hw_set_dcb_config()
+790affcdcb8895afbea8e37ad6d9274ba51d9b37 ice: fix null-ptr dereference on false-positive tx timeout
+5302552a33e642746db762ae7157bd41a2800751 idpf: fix read_dev_clk_lock spinlock init in idpf_ptp_init()
+40f0e7ad437607b0574efc1737710f5a5fc31a9a i40e: Cleanup PTP registration on probe failure
+9c3fd79407a4b1b88fbfa429e47a316eedf9ea42 ice: fix VF queue configuration with low MTU values
+c013d763aa01f257ffbb921e31798f627db7b211 idpf: do not enable XDP if queue based scheduling is not supported
+b0ded0b3125b5e204adc3197abc3fe6c519951a3 idpf: fix skb datapath queue based scheduling crashes and timeouts
+e3489616c5e3d00727d6a42484c53bb78da826e5 i40e: Cleanup PTP pins on probe failure
+03e315741e5f22f74bd6bf3f8c66c3b528798969 ixgbevf: fix use-after-free in VEPA multicast source pruning
+0e8a735104fac1a7ab2375a48e913dd8d34c648d e1000e: correct TIMINCA on ADP/TGP systems with wrong XTAL frequency
+2f5e92fa0f3190ef853b2a85bb7e365900ab68ae ice: Fix missing 1's complement negation in GCS raw checksum
+75de5cf82a9b5657fbb8dc9f9ce06080f7b17f18 idpf: fix double free and use-after-free in aux device error paths
+653d48946ffb7d7093fed5361eb592f2ed1fc30a i40e: set supported_extts_flags for rising edge
+60c24cc56490d72673b72213328cc289c2fa438a igc: fix potential skb leak in igc_fpe_xmit_smd_frame()
+62a6023ae029d439318f9da51dd8f4aff190f7c8 i40e: keep q_vectors array in sync with channel count changes
+ce455591aebe1ea40fdc8b7238246b161358af06 ice: fix ice_init_link() error return preventing probe
+2d4a8abc5766b3bd3c19efa615ef5d45b5220d82 iavf: fix null pointer dereference in iavf_detect_recover_hung
+b9a67ddbb3a215a6225bf08f0c0d5f337b1e637d iavf: fix error path in iavf_request_misc_irq
+dd9225de023705ed90755475c6f0e45c6c63b4dd iavf: prevent VSI corruption when ring params changed during reset
+76c6eb04a2aadfb1a00448292bc7c1ee146477b0 iavf: fix TC boundary check in iavf_handle_tclass
+31ca448f19490678f5430ea93ca010d09f241ce1 iavf: return 0 when TC flower filter not found after qdisc teardown
+635524b5869b72187e1cf5ff03814a3c970b1ecf igbvf: Fix leak in TX DMA error cleanup
+fb6385befb4491a81ddb5bb75f4e1a81ebd02470 ice: fix asymmetric pause negotiation reporting in ethtool
+89b374d3c50b38a4ef040519c58da595218fc25e ice: fix autoneg disable when link partner doesn't support AN
+85b132e463329ddcc1409d7a4122865e3f7c09fd ice: support RDMA on 4+-port E830 devices
+d1cf3a8f4c902a576699eac6573a9d66079db665 ice: report EIPE checksum errors to the OS on E830
+664ef2002d6ad517796712012765f0b4755eb3cf e1000e: Reconfigure PLL clock gate timeout and re-enable K1 on Meteor Lake
+9ddffc20cf9a8c337fd1e5a3039900ad295d8162 igc: set tx buffer type for SMD frames
+a93275f81fcd5cf4c33e832bf96c62388654437c ice: fix UAF/NULL deref when VSI rebuild and XDP attach race
+536d3c271d16404a50766aad61dea48b85c11d5c ixgbe: only access vfinfo and mv_list under RCU lock
+fc7eec864468baf9109c70f90d7a844beab21748 iavf: iavf_virtchnl_completion: drop duplicate ether_addr_equal() test
+30f8fe69772f2fd3fdd9b4331a8a4e6f0681c0d3 ice: ptp: serialize E825 PHY timer start with PTP lock
+f5ee96fe6091c7f0e79fc537bda2c17d0572db94 ice: ptp: use primary NAC semaphore on E825
 
---===============8528261106562175740==--
+--===============3994595855751986426==--
