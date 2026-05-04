@@ -1,28 +1,26 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
-Date: Mon, 04 May 2026 16:54:12 -0000
-Message-Id: <177791365253.4020697.5887181497700766774@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
+Date: Mon, 04 May 2026 16:54:54 -0000
+Message-Id: <177791369468.4021158.15785834846242058276@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ath/ath
-user: jjohnson
+repo: pub/scm/linux/kernel/git/jic23/iio
+user: jic23
 changes:
-  - ref: refs/heads/main
-    old: 9b362bcf7b3aeb737089d4ae633141ba39079d09
-    new: 19d695cb264dcd67e31188d02d6852cb8dca5a51
+  - ref: refs/heads/testing
+    old: a5cac151239f019ab0e16432ec293c693e9a99c4
+    new: 440c14da1af1cc6cc9bb18841603711d845ed900
     log: |
-         05c5078de822148e7cb84968a8783ddfcb6c9ef1 wifi: ath12k: fix leak in some ath12k_wmi_xxx() functions
-         81594a12d5cecb3ab35b603a00037c7c3ee87ab2 wifi: ath12k: initialize RSSI dBm conversion event state
-         0e1308803d2c3fd365a6d21e6be355ec1e28eaaf wifi: ath12k: fix peer_id usage in normal RX path
-         d748603f12baff112caa3ab7d39f50100f010dbd wifi: ath5k: do not access array OOB
-         eb18fef11e4c621638a9e0b1160ab832ba9b3c0b Merge branch 'ath-next'
-         baabcd79a0cfee01be4af1638c0447bde331e982 Merge branch 'ath-current'
-         19d695cb264dcd67e31188d02d6852cb8dca5a51 Add localversion-wireless-testing-ath
+         d7415b3bbc5f30658b208f95f8c6f9d58e66858e iio: light: stk3310: Update includes to match IWYU
+         6412ca0011398eeda3358dd53897cd74ff660c9c iio: adc: rcar: Fix up Marek Vasut MAINTAINERS entry
+         f822c6549292889b8793b07b398029b258ef907a staging: iio: ad9834: simplify -ENOMEM return in probe
+         58b136041ff9847d4393fa3128ac72be5b0b27e5 staging: iio: ad9834: use dev_err_probe() in probe function
+         ef4932b6c6b69820ea41d994c5c8243d9f707d49 staging: iio: ad9834: fix chip name typo in comments
+         274ab9ad8de935f8198d93c35f01e55a0f28ad21 iio: light: stk3310: Deal with the ps interrupt issue in PM
+         34c307a17354581d70833d5942c2f1ff469be69d iio: light: stk3310: Replace uint32_t with u32 and reorder members to eliminate padding
+         440c14da1af1cc6cc9bb18841603711d845ed900 iio: light: stk3310: Use sizeof() for regmap_bulk_read/write count parameter
          
-  - ref: refs/tags/ath-202605041646
-    old: 0000000000000000000000000000000000000000
-    new: 19d695cb264dcd67e31188d02d6852cb8dca5a51
