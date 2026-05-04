@@ -1,7 +1,7 @@
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
-Date: Mon, 04 May 2026 17:20:48 -0000
-Message-Id: <177791524879.4051395.15703574456325680198@gitolite.kernel.org>
+Date: Mon, 04 May 2026 17:21:16 -0000
+Message-Id: <177791527608.4052043.12517806779233082016@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
@@ -12,12 +12,15 @@ repo: pub/scm/linux/kernel/git/tip/tip
 user: mingo
 changes:
   - ref: refs/heads/master
-    old: b9ad87e3ead930ed5d6dd2ebf047ce69308e00e3
-    new: a2dafda2c8e71934ebbec96dcdad170d7d7d2a34
+    old: a2dafda2c8e71934ebbec96dcdad170d7d7d2a34
+    new: a1dbefe393ebfb8ccb0b66255877a470cab7e433
     log: |
-         52705e72e265406255f83dbd0c725fddc5bd2c83 x86/entry: Zap the #VC entry user and kernel macros
-         7b894dac26e56eb1de7a8e198af4b994c5d6da82 x86/boot/compressed: Use boot_kstrtoul() for hugepages= parsing
-         0c37d7aca413619b213d4d998f03379e6cf1ef54 x86/boot: Get rid of kstrtoull()
-         f0eb80b831539f2adc8d50845a3120f5f9fb6049 Merge branch into tip/master: 'x86/cleanups'
-         a2dafda2c8e71934ebbec96dcdad170d7d7d2a34 Merge branch into tip/master: 'x86/sev'
+         4933d7431950971df301c36e90979ce67f2de8f5 Merge branch into tip/master: 'irq/drivers'
+         f16d32528fe574ce592d80c6af79e4d8bf0f636d Merge branch into tip/master: 'timers/clocksource'
+         68403e2a1ac3f8175db1e3493934e43df094c6cd Merge branch into tip/master: 'timers/core'
+         3f510faa7dd24a854fd93b333ae468273335e99d Merge branch into tip/master: 'x86/cleanups'
+         e384ba77a8b4ca1017f77152c3b218b3d6f12796 Merge branch into tip/master: 'x86/microcode'
+         0ebb222b2fdcb1bca839c7566229f6716d9a7ad4 Merge branch into tip/master: 'x86/misc'
+         8d68c8bb2789b17b1cd7dabf8f25f437fc0ea517 Merge branch into tip/master: 'x86/sev'
+         a1dbefe393ebfb8ccb0b66255877a470cab7e433 Merge branch into tip/master: 'x86/tdx'
          
