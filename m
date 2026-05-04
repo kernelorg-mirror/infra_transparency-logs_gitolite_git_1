@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/zx2c4/cgit
-Date: Mon, 04 May 2026 21:09:17 -0000
-Message-Id: <177792895711.125560.470179847127986932@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/vdubeyko/nilfs2
+Date: Mon, 04 May 2026 21:13:47 -0000
+Message-Id: <177792922743.130380.17946060080477130596@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/zx2c4/cgit
-user: zx2c4
+repo: pub/scm/linux/kernel/git/vdubeyko/nilfs2
+user: vdubeyko
 changes:
-  - ref: refs/tags/v1.3.1
-    old: 5e3aac3faba0749589caeff11c2c105241101938
-    new: 46b5e207765526cc220d4008f0303948482bf82d
+  - ref: refs/heads/for-next
+    old: 254f49634ee16a731174d2ae34bc50bd5f45e731
+    new: 0e7a690fe435f8d5ea3feb7c1d8d73ba7e8b8aa9
+    log: |
+         0e7a690fe435f8d5ea3feb7c1d8d73ba7e8b8aa9 nilfs2: reject CLEAN_SEGMENTS ioctl with out-of-range segment numbers
+         
