@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0272876326528966775=="
+Content-Type: multipart/mixed; boundary="===============5538690214366972412=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Mon, 04 May 2026 22:03:59 -0000
-Message-Id: <177793223988.180643.11036200146585075687@gitolite.kernel.org>
+Date: Mon, 04 May 2026 22:04:02 -0000
+Message-Id: <177793224263.180877.15211004264345874520@gitolite.kernel.org>
 
---===============0272876326528966775==
+--===============5538690214366972412==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
-    old: 26d3498d11d4db7795549d383c0160b1866f667b
-    new: 3db9cb1411750c575469a3418ad3c9faf2a81a1d
-    log: revlist-26d3498d11d4-3db9cb141175.txt
+  - ref: refs/heads/10GbE
+    old: 790ead9394860e7d70c5e0e50a35b243e909a618
+    new: 98878ed91b68a3150126fccef125ee7b1bb86ab2
+    log: revlist-790ead939486-98878ed91b68.txt
 
---===============0272876326528966775==
+--===============5538690214366972412==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-26d3498d11d4-3db9cb141175.txt
+Content-Disposition: attachment; filename=revlist-790ead939486-98878ed91b68.txt
 
 57df858a46f0a4cc104716e0ec88864e5c386ca4 mailbox: add API to query available TX queue slots
 f9f0df23193a8afee3bfb5fc34970c93792d7163 mailbox: rockchip: kzalloc + kcalloc to kzalloc
@@ -394,18 +394,5 @@ b71fcc5c0bb3347a7441393d6f3657b711efb968 i40e: only timestamp PTP event packets
 b9fa4b9e051bd888907b0366bbd3d88dd9281372 ice: access @pp through netmem_desc instead of page
 586483cb41f40eab03ca65ceedeae623b379783a ice: dpll: Fix compilation warning
 98878ed91b68a3150126fccef125ee7b1bb86ab2 Merge branch 'intel-wired-lan-updates-2024-04-30-ixgbe-i40e-ice'
-effece441d61dae385f7e137ee58ecf651245874 igc: Call netif_queue_set_napi() with rtnl locked
-374fab2946336ad0bf051256903752c7be52f11c igc: Let the PCI core deal with the PM resume flow
-3d4c53fe52790a236bd1a75a560ed479957fdff8 igc: Don't reset the hardware on suspend path
-7a7b8bb03264ad4661e26a4f8cdabc0ac6124fcd igc: prepare for RSS key get/set support
-8dfeca574195020fec5706879195b19338fd3cd3 igc: expose RSS key via ethtool get_rxfh
-8b8d828ee5e02a7edbaf98dfb8f2b58653c394ae igc: allow configuring RSS key via ethtool set_rxfh
-331e4dd823341dd38f4773960044cd352b889fd7 igb: prepare for RSS key get/set support
-2d8a823d89029a83259ef2977c28ca465d3d72e5 igb: expose RSS key via ethtool get_rxfh
-8883771ea439d44500cd89acc5f407041247dc07 igb: allow configuring RSS key via ethtool set_rxfh
-94cd55a9f1ba372fbc84a410473d29a89cd23a0b igb: set skb hash type from RSS_TYPE
-e8e1d659b3bb28d13002fe02c411760df5ee7c35 igb: fix typos in comments
-092bce3ad4f6848f7a383b791163402803a9127d igc: fix typos in comments
-3db9cb1411750c575469a3418ad3c9faf2a81a1d ice: add support for unmanaged DPLL on E830 NIC
 
---===============0272876326528966775==--
+--===============5538690214366972412==--
