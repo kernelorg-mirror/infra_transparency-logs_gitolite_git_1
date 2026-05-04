@@ -1,26 +1,26 @@
-Content-Type: multipart/mixed; boundary="===============1787513266588423070=="
+Content-Type: multipart/mixed; boundary="===============6363596331935479212=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/westeri/thunderbolt
-Date: Mon, 04 May 2026 10:35:40 -0000
-Message-Id: <177789094037.3596567.13865238107290188064@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/pinctrl/intel
+Date: Mon, 04 May 2026 10:35:55 -0000
+Message-Id: <177789095510.3596811.6248896091524565136@gitolite.kernel.org>
 
---===============1787513266588423070==
+--===============6363596331935479212==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/westeri/thunderbolt
+repo: pub/scm/linux/kernel/git/pinctrl/intel
 user: westeri
 changes:
-  - ref: refs/heads/fixes
+  - ref: refs/heads/master
     old: 254f49634ee16a731174d2ae34bc50bd5f45e731
     new: 7fd2df204f342fc17d1a0bfcd474b24232fb0f32
     log: revlist-254f49634ee1-7fd2df204f34.txt
 
---===============1787513266588423070==
+--===============6363596331935479212==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -502,4 +502,4 @@ cffcf520fd69fe5a93b519cf0c7ccc5e467fcb1c Merge tag 'locking-urgent-2026-05-03' o
 f377d0025eb00c0590466f5be9f50decf9b9180e Merge tag 'sh-for-v7.1-tag2' of git://git.kernel.org/pub/scm/linux/kernel/git/glaubitz/sh-linux
 7fd2df204f342fc17d1a0bfcd474b24232fb0f32 Linux 7.1-rc2
 
---===============1787513266588423070==--
+--===============6363596331935479212==--
