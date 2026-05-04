@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============6639096531279042605=="
+Content-Type: multipart/mixed; boundary="===============6351756179862263956=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux-mem-ctrl
-Date: Mon, 04 May 2026 18:46:41 -0000
-Message-Id: <177792040171.4136352.2758108444798725753@gitolite.kernel.org>
+Date: Mon, 04 May 2026 18:48:05 -0000
+Message-Id: <177792048528.4137444.15337307030553910734@gitolite.kernel.org>
 
---===============6639096531279042605==
+--===============6351756179862263956==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,38 +16,45 @@ repo: pub/scm/linux/kernel/git/krzk/linux-mem-ctrl
 user: krzk
 git_push_cert_status: Y
 changes:
-  - ref: refs/heads/for-v7.2/tegra114-mc-bindings
-    old: 0000000000000000000000000000000000000000
-    new: a4f97f9467661602bd6bf614bcee884502794d43
+  - ref: refs/heads/mem-ctrl-next
+    old: 907ef6a1baf0ad61f64d31a3f5040feb82f48929
+    new: dce208b5405f40c36320bb0ee07e9df8f7f2bea4
+    log: |
+         b0822a883408f32d494ce9cdc26f4266774cf3f1 dt-bindings: memory: Document Tegra114 Memory Controller
+         a4f97f9467661602bd6bf614bcee884502794d43 dt-bindings: memory: Document Tegra114 External Memory Controller
+         b42834da6f2ac9166974f7bca020c3d4a76e7b6a Merge branch 'for-v7.2/tegra114-mc-bindings' into mem-ctrl-next
+         750fed9230ede9e43e234fbbc0d9b23c524a6c6a memory: tegra: Implement EMEM regs and ICC ops for Tegra114
+         dce208b5405f40c36320bb0ee07e9df8f7f2bea4 memory: tegra: Add Tegra114 EMC driver
+         
 
---===============6639096531279042605==
+--===============6351756179862263956==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher krzk@kernel.org 1777920400 +0200
+pusher krzk@kernel.org 1777920483 +0200
 pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux-mem-ctrl.git
-nonce 1777920399-f2cb2b8bab5dc7b865b52b7d8be1842676bc8a63
+nonce 1777920482-827ed27ba96043f726a86e975a6bebc70430649a
 
-0000000000000000000000000000000000000000 a4f97f9467661602bd6bf614bcee884502794d43 refs/heads/for-v7.2/tegra114-mc-bindings
+907ef6a1baf0ad61f64d31a3f5040feb82f48929 dce208b5405f40c36320bb0ee07e9df8f7f2bea4 refs/heads/mem-ctrl-next
 -----BEGIN PGP SIGNATURE-----
 
-iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmn46ZAQHGtyemtAa2Vy
-bmVsLm9yZwAKCRDBN2bmhouD1wpDD/9jJchN9qfxYaRPmPum7crSVx/cPz02A6KB
-VGPxsBvMAPpY4rhIUp4yVsJtnoWxcEqJ9dN5vhTz29xfLqfg9SiNCrUp1v9GQZCP
-JfDX6dJMvWDxAaxEpB500koMG1eqTA5N7i9DQTGxID1tjrkG8Li7m0dNviNjwsDO
-/ymqiwUD9o3L7UpqF2hecSOndo8RsXKsJ1F3Ywn1z3N/4TfSWfWPmUWP4rakxJZH
-qca+XMIg7oYwpzm1hmROcQMURngCjQvZsz/SkiwWyTATIa1qVJuIYsCU1LesfNXC
-nc3B1iuAzaP4XY6JDIOiq1ZTGyDQxmJAWBcyVxy49gd7tRQZ7h7qKF0HB3Qa8lg3
-TvRYcvKfElQqvWhqcwQ5ekZV0e3n27Nnc7m/YdpBZxN0zN72wwPcn6IsjhwiYft2
-LUQ68TTu6cu7ZN2ZZtsEnHfIzvxtm2LJFMDAqqsuncS8Yn2hCeND3HRYMrwBc6Do
-04MLdHxmCVDT7GvEKnPkjbPGLR1Vp4WCj9GHsgp2a0NxcQF3FZPrPdj8Ydsg1xYc
-dKAxi4ydZPlTSK93K/+n7jSKiVcig6iZSiNANymHtpUtKDIpIc67DZkfpbGIw/pv
-h0hefJvZ28K0bPt/R14rhZpbNzHKBFA2YX4TeQGH3Nvp8QCIn8MHc2VPQoh3HT2X
-vx7B0CbgSg==
-=wTEc
+iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmn46eMQHGtyemtAa2Vy
+bmVsLm9yZwAKCRDBN2bmhouD14a8D/4wP0V1MO8MSbHojnQKbDjjKYwb036jYkW6
++yDuj+ddbH1O62qf8EMbgOLZwm3tPA+snqp+lxP+FYI6DNO4MS7Gs8P6gd6bMhq/
+DG3JjT7ayfsKjQAt52odVOHfJYO08oWgsiLR0/CuZ5QiYXgAzAdbmf3qiW+KdX1P
+gtIVXRGjfs3zJQSwMcsyk8UNAmfd1owv2/1SEdYBRdBCrz4We8OP0cUhmcKmhtVu
+n4/XtTwxZ/SIWswuQGdFKmspsv4T6qYLujIFUS/WDLUHXXArR/AcWqKm7OcgsLn4
+NnrOYHof0+MBgswKP571UYh8D+0D32BV2PcWG1FUJatl/gYPzQRB2vyWpqUuRoqS
+jeGk20EKwuAXMOvGW2tkmSoTUkhj87y61Yw1ONlykn6tycap4jdxU4n15y5lzM+g
+Kvo7Uus9rCbdN+c+qChfEz7xjBuaek4x3Th1qvfFuRciC643JMM/bIvgr6HcQjeQ
+R1+F/RIASjG/7vOPuqs4qq0mAGW4Ex5f4K5yXzeAQCg/dRVyaZjIpEVXzDn+PjOZ
+fMu28AulBweZOGJ4TqcL8C5karCNJA2RtEbUmWCCEK2jag77wokFjhfOt92t4gxk
+5LwZbL/X9JQitdYBaabaugciHz7DLGXyD+aP+nDXfMhroLxlsBxK5p6p2hDAMuza
+8q2eFWCexQ==
+=W32N
 -----END PGP SIGNATURE-----
 
---===============6639096531279042605==--
+--===============6351756179862263956==--
