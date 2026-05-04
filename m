@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/pcmoore/audit
-Date: Mon, 04 May 2026 19:55:15 -0000
-Message-Id: <177792451568.39984.15703178327977996736@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/driver-core/driver-core
+Date: Mon, 04 May 2026 20:01:30 -0000
+Message-Id: <177792489056.58441.5167968677546128754@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/pcmoore/audit
-user: pcmoore
+repo: pub/scm/linux/kernel/git/driver-core/driver-core
+user: dakr
 changes:
-  - ref: refs/tags/v7.1-rc1
-    old: 0000000000000000000000000000000000000000
-    new: 5e9b7d093f3f77cb0af4409559e3d139babfb443
-  - ref: refs/tags/v7.1-rc2
-    old: 0000000000000000000000000000000000000000
-    new: 9e0898f1c0f134c6bad146ca8578f73c3e40ac0a
+  - ref: refs/heads/driver-core-testing
+    old: 36f35b8df6972167102a1c3d4361e0afb6a84534
+    new: 627e28455578d2faef6552cd15d241b20e27e423
+    log: |
+         627e28455578d2faef6552cd15d241b20e27e423 driver core: class: fix typo in struct class documentation
+         
