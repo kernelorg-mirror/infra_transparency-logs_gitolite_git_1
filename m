@@ -1,55 +1,55 @@
-Content-Type: multipart/mixed; boundary="===============6715697052401934461=="
+Content-Type: multipart/mixed; boundary="===============5265564566965120916=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Mon, 04 May 2026 23:51:53 -0000
-Message-Id: <177793871362.289436.18319666266734504686@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/broonie/sound
+Date: Mon, 04 May 2026 23:54:16 -0000
+Message-Id: <177793885601.291059.16538084135189628847@gitolite.kernel.org>
 
---===============6715697052401934461==
+--===============5265564566965120916==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
+repo: pub/scm/linux/kernel/git/broonie/sound
 user: broonie
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/asoc-7.1
-    old: 03dcb5b68a96b51157ec2d17042fa2f0106828ae
-    new: e8446a4a574d19f0fb39c06af15dbc5165079474
-    log: revlist-03dcb5b68a96-e8446a4a574d.txt
+  - ref: refs/heads/for-7.2
+    old: b772d5b485553db60b7561fc9327bd69b4745bf6
+    new: 50c2f0f086641fb96d4eb67a559ee18d441355b6
+    log: revlist-b772d5b48555-50c2f0f08664.txt
 
---===============6715697052401934461==
+--===============5265564566965120916==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1777938711 +0900
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1777938710-81242f27aaa5f797a4026fb23d9f69ae15061e8c
+pusher C3F436CA30F5D8EB 1777938853 +0900
+pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/sound.git
+nonce 1777938853-61738be8253fed11b57ae3f281050ad6152262bf
 
-03dcb5b68a96b51157ec2d17042fa2f0106828ae e8446a4a574d19f0fb39c06af15dbc5165079474 refs/heads/asoc-7.1
+b772d5b485553db60b7561fc9327bd69b4745bf6 50c2f0f086641fb96d4eb67a559ee18d441355b6 refs/heads/for-7.2
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmn5MRcACgkQJNaLcl1U
-h9Addwf/ShecehYKpBU0tlkfOvCX2qpdqhl/CCmJT12eCwFWtXVucbmltWci8qPC
-c/vERtaHWdw/lyXny/Li2pgYvK/8sOrVgNlS3ORgUFKWXpW1uQtGEjfUOmoF7VMK
-Bckf1gG8JEofC5ws/uBtFYRSozbiiXQo+T+YA/dwdNyxfZNvXLVLRaFwwo04PtBy
-TdWJQLI/iwo2U+lfy38KfucQ5eiQ3Ynibe7aIAt1DiHQ/s/wSrrweNPs+xpnEzOj
-vyL7CgGQehdxJ+3ob3vcQKb3GdEUYRpyrzkehBYGrGGqUPm9Waw4LAbLwXv1pB/L
-zHC6l/Ovxy8CYVOLE1mLGFM+9v9tsg==
-=wkKB
+iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmn5MaUACgkQJNaLcl1U
+h9Bl9gf/fW2Es2nN0B8E8Uch4Np5xQ+Aoz0FHd61sCHbNztIeIoUDUFNTmVjWHpE
+kiO9iqnLqyVZOdjRL5GMRV0nra5/v+tR7R7tCwmRw2+8qNsinEQ85GSZOW0QkSU9
+mAjezi67z4G3pZEwCAF7myjgHQF15QoIScUQQxRoi9BxEUPlIxY21t1n2zb3YaSl
+PB1046sY9s+mThazjpLJ+2jfn7IDwzjoaftTH+y1xcjT+nQfBD1DV8eTr1UcS2/6
+fnja5CppSYkMmvEWTN1B5tpYF7JlGbAv9MPw4VfoknpF5WYHEVGMJdwnFDZmeFCZ
+xbbl/zhkhj+NloW8EvDsraVxKD5aAw==
+=wRP4
 -----END PGP SIGNATURE-----
 
---===============6715697052401934461==
+--===============5265564566965120916==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-03dcb5b68a96-e8446a4a574d.txt
+Content-Disposition: attachment; filename=revlist-b772d5b48555-50c2f0f08664.txt
 
 57df858a46f0a4cc104716e0ec88864e5c386ca4 mailbox: add API to query available TX queue slots
 f9f0df23193a8afee3bfb5fc34970c93792d7163 mailbox: rockchip: kzalloc + kcalloc to kzalloc
@@ -203,14 +203,21 @@ ea7c716a24aebe887e0990649ab697bd698cc325 sched_ext: Refuse cross-task select_cpu
 deb7b2f93d0129b79425f830a1e5e7e1bb2c4973 sched_ext: Release cpus_read_lock on scx_link_sched() failure in root enable
 54900126ae0a2671f8790a7f95706b9ea95fac4e spi: rzv2h-rspi: Fix silent failure in clock setup error path
 4b7774eeab8d66c22f02f5c120602df154a87e12 regmap: sdw-mbq: Fix spelling mistake "undeferable" -> "undeferrable"
+b0f6f4ac7d5d04fe2adcdd63ed1cd1ad505b8958 ASoC: amd: acp: Add DMI quirk for Valve Steam Deck OLED
+3c6f06a200796ae7b2b1065e8a6499b138e27a50 ASoC: SOF: Intel: add an empty adr_link
 b4683a239a409d65f88052f5630c748a8ba070cd spi: rockchip: Read ISR, not IMR, to detect cs-inactive IRQ
 7643978722aac3a012783ce12dc534eba7c51698 spi: rockchip: Drop unused and broken CR0 macros
+4cfb5971c2fbfac061c23fb4224a3a008199de81 ASoC: tas2764: Mark die temp register as volatile
+c7ecb6a61908c2604dda6e42da66724d256de7b9 ASoC: tas2770: Fix order of operations for temperature calculation
+dad701bdb74368e6da30177b1d9e5529e3381591 ASoC: tegra: Remove stale snd-soc-tegra-utils composite module definition
+74c876bfd71b1023029a483d7213015201f62b53 ASoC: codecs: wcd937x: fix AUX PA sequencing and mixer controls
 5b1689a41f02955c5361944f748a4812a6ff9307 spi: cadence: fix unclocked access on unbind
 ecea4f0e9db2fb6ab4a68a59c5aba0d8f59a9566 spi: cadence: fix clock imbalance on probe failure
 5ff4d5d1af0c7517bd8db83c95c4247a9729a548 spi: cadence-quadspi: fix runtime pm disable imbalance on probe failure
 cba53fe20c18688c17ca668ad0e4ec05e31c70d3 spi: cadence-quadspi: fix clock imbalance on probe failure
 233db2cb14db8b1935dda52a6affd97276462b82 spi: cadence-quadspi: fix unclocked access on unbind
 5e8bb0cc72f1d52d8ac2a88f4c952e2e98056aed spi: cadence-quadspi: fix runtime pm and clock imbalance on unbind
+8ed3311131077712cdd0b3afec6909b9388ad3e4 ASoC: ES8389: convert to devm_clk_get_optional() to get clock
 0cbc300257d9b399491909806777f504ec687c1d smb/client: remove unused smb3_parse_opt()
 620b46ed6ae17c8438d889c8c0cfddab36a1476c mm/page_alloc: return NULL early from alloc_frozen_pages_nolock() in NMI on UP
 5b31044e649e3e54c2caef135c09b371c2fbcd08 mm/slab: return NULL early from kmalloc_nolock() in NMI on UP
@@ -318,6 +325,7 @@ b3b6babf47517fde6b6de2493dea28e8831b9347 ipmr: Free mr_table after RCU grace per
 cc427d24ac6442ffdeafd157a63c7c5b73ed4de4 ibmveth: Disable GSO for packets with small MSS
 2b9f6f7065d4cfb65ba19126e0b35ac4544c3f3a tcp: make probe0 timer handle expired user timeout
 3bc179bc7146c26c9dff75d2943d10528274e301 netpoll: fix IPv6 local-address corruption
+241ee17ecb6be210f7b231b2a81bfb68871950d0 ASoC: aw88395: Fix kernel panic caused by invalid GPIO error pointer
 0a7b5221b5b51cc798fcfc3be00d02eade149d69 ALSA: caiaq: Fix potentially leftover ep1_in_urb at error path
 b32ae47a2b0a1fb4bd4942242847966d9b178222 ALSA: caiaq: Don't abort when no input device is available
 c39f0bc03f84ba64c9144c95714df1dc36150f6d ALSA: usb-audio: Fix potential leak of pd at parsing UAC3 streams
@@ -325,6 +333,7 @@ c39f0bc03f84ba64c9144c95714df1dc36150f6d ALSA: usb-audio: Fix potential leak of 
 c5cd6fd75b6a55761337c9e965dd5ad02485d00d sched/fair: Fix the negative lag increase fix
 ac8e69e693631689d74d8f1ebee6f84f737f797f sched/fair: Fix wakeup_preempt_fair() vs delayed dequeue
 3da56dc063cd77b9c0b40add930767fab4e389f3 sched/fair: Clear rel_deadline when initializing forked entities
+13d30682e8dee191ac04e93642f0372a723e8b0c ASoC: Intel: bytcr_wm5102: Fix MCLK leak on platform_clock_control error
 ac2c996675755c725a0065dbe3e2ebffded9080b drm/udl: Increase GET_URB_TIMEOUT
 f9c52a6ba9780bd27e0bf4c044fd91c13c778b6e net: ipv6: fix NOREF dst use in seg6 and rpl lwtunnels
 0bb05e6adfa99a2ea1fee1125cc0953409f83ed8 net: stmmac: Prevent NULL deref when RX memory exhausted
@@ -386,9 +395,11 @@ e6e9faba8100628990cccd13f0f044a648c303cf drm/amdgpu/vcn3: Avoid overflow on msg 
 df8599ee18c0e5fe343ffe0b4c379636b8bb839a io_uring/napi: cap busy_poll_to 10 msec
 f92d542577db878acfd21cc18dab23d03023b217 selinux: fix avdcache auditing
 664f0f6be37ce4ef80992cf2ed74761cd5bbe207 Merge tag 'sched_ext-for-7.1-rc1-fixes' of git://git.kernel.org/pub/scm/linux/kernel/git/tj/sched_ext
+be102efb832ef7e30e4cd4c2edf22bbf64ddf35a ASoC: cs35l56: Fix illegal writes to OTP_MEM registers
 67d7ae3340cae0a18ec1d53a2fce198c31a211b8 Merge tag 'nf-26-04-28' of git://git.kernel.org/pub/scm/linux/kernel/git/netfilter/nf
 b89769f936a8fa9e66de72ddc1b71a9745a488e6 net: psp: check for device unregister when creating assoc
 b718342a7fbaa2dff5fefc31988c07af8c6cbc21 net: psp: require admin permission for dev-set and key-rotate
+a201aef1a88b675e9eb8487e27d14e2eef3cef80 ASoC: codecs: ab8500: Fix casting of private data
 576a5d2bad4814c881a829576b1261b9b8159d2b netfilter: skip recording stale or retransmitted INIT
 8a92cb475ca90d84db769e4d4383e631ace0d6e5 sctp: discard stale INIT after handshake completion
 dfb7e3b9a925262603867a4f1210717b347fb234 Merge branch 'sctp-fix-a-vtag-verification-failure-caused-by-stale-inits'
@@ -409,6 +420,8 @@ b5c52908d52c6c8eb8933264aa6087a0600fd892 mptcp: fix scheduling with atomic in ti
 f14d6e9c3678a067f304abba561e0c5446c7e845 mptcp: fastclose msk when linger time is 0
 1774d3cf3cf17baaf30c095606cda496268283b3 mptcp: pm: kernel: reset fullmesh counter after flush
 0c7a5ba011d336df4fcd1f667fcc16ea5549be12 Merge branch 'mptcp-misc-fixes-for-v7-1-rc2'
+6b4afbaaa342eaa52172e0be5ef8d1fcbf9ff460 ASoC: spacemit: move hw constraints from hw_params to startup
+03dcb5b68a96b51157ec2d17042fa2f0106828ae ASoC: spacemit: adjust FIFO trigger threshold to half FIFO size
 a7b75a11c6f16c049a2ea17cf9d1aaaa57201cf3 Merge tag 'asoc-fix-v7.1-rc1' of https://git.kernel.org/pub/scm/linux/kernel/git/broonie/sound into for-linus
 2d80392a97cf205a766d75539b4c814a4f5e7490 ALSA: usb-audio: Fix quirk entry placement for PreSonus AudioBox USB
 077c593dacf7ee33511468e4f29417d795cf07a4 ALSA: hda: Avoid WARN_ON() for HDMI chmap slot checks
@@ -513,13 +526,15 @@ cffcf520fd69fe5a93b519cf0c7ccc5e467fcb1c Merge tag 'locking-urgent-2026-05-03' o
 811129272de4f91da34f869ae1a1dd1fe608f64f Merge tag 'slab-for-7.1-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/vbabka/slab
 f377d0025eb00c0590466f5be9f50decf9b9180e Merge tag 'sh-for-v7.1-tag2' of git://git.kernel.org/pub/scm/linux/kernel/git/glaubitz/sh-linux
 7fd2df204f342fc17d1a0bfcd474b24232fb0f32 Linux 7.1-rc2
-e366ce8b22ec68189ffea2bb8009f7b20d549b0f ASoC: codecs: ab8500: Remove suspicious code
-ec0611868f2fcf29e4c2bebdc6702d3e1f272fec ASoC: spacemit: fix RX DMA params not set when TX is running
-c64e77490b7e5d9dec738850f18878edb07e0f13 ASoC: cs35l56: Fix hibernate write in runtime resume error path
-0e60d96616640ffcf51b81a87c71e30d92385a93 ASoC: amd: yc: Add DMI quirk for MSI Bravo 15 C7VE
-0f9bfb84b3f0fe1406b2555fc11b45283ea21644 ASoC: cs35l56: Fix out-of-bounds in dev_err() in cs35l56_read_onchip_spkid()
-d63c219b7ff39f897da10c160a2edef76320f16c ASoC: amd: yc: Add HP OMEN Gaming Laptop 16-ap0xxx product line in quirk table
-56d5a9eaf60af5c824a33a83e1468aa143627a62 ASoC: sdw_utils: avoid the SDCA companion function not supported failure
-e8446a4a574d19f0fb39c06af15dbc5165079474 ASoC: fsl_xcvr: Fix event generation for cached controls
+7ff50c1f3183f00ad09fbee94d059fe6c88827f8 ASoC: tegra: ADMAIF: allocate with a single kzalloc
+fca2abdf1dd7b2aff0167faeed95f6e54385234a ASoC: ux500: Use guard() for mutex locks
+b5a1493d9479b60310ca0d33402ad7cef7ca358e ASoC: tegra: Use guard() for mutex locks
+55f8c382858d1d9abcaa99db2500f6ada9cddba2 ASoC: uniphier: aio-compress: Use guard() for spin locks
+8f7e9d3c0cca98f0d4a25bb7bec26051d72c2dcc ASoC: uniphier: aio-dma: Use guard() for spin locks
+0773ee1706036706be5330172d0ec4db563165d7 ASoC: uniphier: Use guard() for spin locks
+cb3c257e08248521b22c67259d50ebb18574d1a1 ASoC: SDCA: Add correct masks whilst reporting SDCA jack status
+df036250d7d5f751de04300a5600b2dadb927ae9 ASoC: SDCA: Remove sdca_function_data duplication
+250922577ed16c29b994197b84a231dcbe7798e8 ASoC: SDCA: Support devices with multiple functions of identical type
+50c2f0f086641fb96d4eb67a559ee18d441355b6 ASoC: Improve SDCA support for duplicated features
 
---===============6715697052401934461==--
+--===============5265564566965120916==--
