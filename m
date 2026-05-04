@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4256057789173312257=="
+Content-Type: multipart/mixed; boundary="===============9079013692674677113=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Mon, 04 May 2026 10:51:28 -0000
-Message-Id: <177789188854.3614470.16666665233577999106@gitolite.kernel.org>
+Date: Mon, 04 May 2026 10:52:15 -0000
+Message-Id: <177789193540.3615233.2045044137630787568@gitolite.kernel.org>
 
---===============4256057789173312257==
+--===============9079013692674677113==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
 user: jarkko
 changes:
-  - ref: refs/heads/for-next-keys
-    old: 75957d0f444daf847f16af71049ad2a6f8304af3
+  - ref: refs/heads/for-next-tpm
+    old: 949692da7211572fac419b2986b6abc0cd1aeb76
     new: 9ec4175a30eb5adb95e446af83ddf6cb3286a82a
-    log: revlist-75957d0f444d-9ec4175a30eb.txt
+    log: revlist-949692da7211-9ec4175a30eb.txt
 
---===============4256057789173312257==
+--===============9079013692674677113==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-75957d0f444d-9ec4175a30eb.txt
+Content-Disposition: attachment; filename=revlist-949692da7211-9ec4175a30eb.txt
 
 047a6d494033db26736b19e247851632cd74959d selftests/mm: skip hugetlb_dio tests when DIO alignment is incompatible
 744dd97752ef1076a8d8672bb0d8aa2c7abc1144 lib: test_hmm: evict device pages on file close to avoid use-after-free
@@ -1051,4 +1051,4 @@ f377d0025eb00c0590466f5be9f50decf9b9180e Merge tag 'sh-for-v7.1-tag2' of git://g
 3471647090e4645bf27f7abfea7a42f28bd5326a KEYS: encrypted: Remove unnecessary selection of CRYPTO_RNG
 9ec4175a30eb5adb95e446af83ddf6cb3286a82a KEYS: trusted: Debugging as a feature
 
---===============4256057789173312257==--
+--===============9079013692674677113==--
