@@ -1,22 +1,25 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/zx2c4/cgit
-Date: Mon, 04 May 2026 16:59:55 -0000
-Message-Id: <177791399569.4027259.4690059432699627141@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/dtor/input
+Date: Mon, 04 May 2026 17:00:15 -0000
+Message-Id: <177791401589.4029985.9997371319141230932@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/zx2c4/cgit
-user: zx2c4
+repo: pub/scm/linux/kernel/git/dtor/input
+user: dtor
 changes:
   - ref: refs/heads/master
-    old: ed05b1054df10a2fbc68000cfdd429daec03a456
-    new: 5a8e81345cee2f6214a36fd4a4fe94283b0e9083
+    old: cde5e7777f2e0b625d576b8725c65ec1f3b12b79
+    new: e7b91b21755924c2b26bd4f925c1b538a48b2370
     log: |
-         5a8e81345cee2f6214a36fd4a4fe94283b0e9083 Bump version
+         e7b91b21755924c2b26bd4f925c1b538a48b2370 Input: atmel_mxt_ts - set byte_offset as signed
          
-  - ref: refs/tags/v1.3.1
-    old: 0000000000000000000000000000000000000000
-    new: 3f64b1eb1391a9c117f11173d2819ac8b5cf68aa
+  - ref: refs/heads/next
+    old: cde5e7777f2e0b625d576b8725c65ec1f3b12b79
+    new: e7b91b21755924c2b26bd4f925c1b538a48b2370
+    log: |
+         e7b91b21755924c2b26bd4f925c1b538a48b2370 Input: atmel_mxt_ts - set byte_offset as signed
+         
