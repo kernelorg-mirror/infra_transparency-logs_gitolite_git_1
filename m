@@ -1,53 +1,44 @@
-Content-Type: multipart/mixed; boundary="===============4557551473100137091=="
+Content-Type: multipart/mixed; boundary="===============2629406659049278301=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/stable/linux
-Date: Mon, 04 May 2026 06:20:45 -0000
-Message-Id: <177787564537.3282145.10285098448796957093@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tip/tip
+Date: Mon, 04 May 2026 06:22:03 -0000
+Message-Id: <177787572321.3283232.6126204754304063379@gitolite.kernel.org>
 
---===============4557551473100137091==
+--===============2629406659049278301==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/stable/linux
-user: gregkh
-git_push_cert_status: G
+repo: pub/scm/linux/kernel/git/tip/tip
+user: mingo
 changes:
-  - ref: refs/tags/v7.1-rc2
-    old: 0000000000000000000000000000000000000000
-    new: 9e0898f1c0f134c6bad146ca8578f73c3e40ac0a
+  - ref: refs/heads/master
+    old: 32b8f4c4b8650a879d15ca10f2462d1072e49381
+    new: 47a7a2e14af61df2bb5964fe57f48b91e6f3473d
+    log: revlist-32b8f4c4b865-47a7a2e14af6.txt
 
---===============4557551473100137091==
+--===============2629406659049278301==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-32b8f4c4b865-47a7a2e14af6.txt
 
-certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1777875606 +0200
-pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/stable/linux
-nonce 1777875643-03426e39fbc3c9cd24242b1f330fd975ca3b5bb1
+620b46ed6ae17c8438d889c8c0cfddab36a1476c mm/page_alloc: return NULL early from alloc_frozen_pages_nolock() in NMI on UP
+5b31044e649e3e54c2caef135c09b371c2fbcd08 mm/slab: return NULL early from kmalloc_nolock() in NMI on UP
+b0aa5e4b087b686575f1b31ce54048b4d059b7b8 sh: Fix fallout from ZERO_PAGE consolidation
+c3cba36b394ba48b7920dcb99c46cee8ee59a116 Merge tag 'sched-urgent-2026-05-03' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+cffcf520fd69fe5a93b519cf0c7ccc5e467fcb1c Merge tag 'locking-urgent-2026-05-03' of git://git.kernel.org/pub/scm/linux/kernel/git/tip/tip
+811129272de4f91da34f869ae1a1dd1fe608f64f Merge tag 'slab-for-7.1-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/vbabka/slab
+f377d0025eb00c0590466f5be9f50decf9b9180e Merge tag 'sh-for-v7.1-tag2' of git://git.kernel.org/pub/scm/linux/kernel/git/glaubitz/sh-linux
+464af6fc2b1dcc74005b7f58ee3812b17777efee KVM: x86: check for nEPT/nNPT in slow flush hypercalls
+33fd0ccd2590b470b65adcca288615ad3b5e3e06 KVM: x86: Do IRR scan in __kvm_apic_update_irr even if PIR is empty
+0aec99f9bf0213f7910688472e1ccf517c0e8b5a KVM: x86: Fix misleading variable names and add more comments for PIR=>IRR flow
+0cb2af2ea66ad8ff195c156ea690f11216285bdf KVM: x86: Fix shadow paging use-after-free due to unexpected GFN
+7fd2df204f342fc17d1a0bfcd474b24232fb0f32 Linux 7.1-rc2
+6d35786de28116ecf78797a62b84e6bf3c45aa5a Merge tag 'for-linus' of git://git.kernel.org/pub/scm/virt/kvm/kvm
+47a7a2e14af61df2bb5964fe57f48b91e6f3473d Merge branch 'linus'
 
-0000000000000000000000000000000000000000 9e0898f1c0f134c6bad146ca8578f73c3e40ac0a refs/tags/v7.1-rc2
------BEGIN PGP SIGNATURE-----
-
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmn4OpYbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+MtQP/2/VQVpawyFUzx9iX/Cc
-TBZPe4KChLzw3NrVYUhYXrs6oDJesD1/oBQNVwAnDp/2Qs94FRztyi4u35L1sHwz
-yaoaOh0C0L1U1VAhs9Vl/TZXcvwCLrqw545uMK1+4QVbgvwPQrZfVFi7xiPVQp98
-AQetqp6bULyS6hdu+cMAZI7P0CmI+Q3JC7kWplXuZCKu7gpCAEWhG9zIOe4K3LID
-vxmejvev66/FUuM2tVUi28k7sKvzLiMDO5AQMcDD04UrqgXG086j/fVeJGEYzHQ8
-BLozBlL+RzTc1gl1TEcp1Fn0iDwwH23+8ym9U0Fl3GDJhNHJiDwJ+Jh4xkq38Qi9
-V2tBb9JfXrNMlNtg957oC34EEMH+Pmun2kPZ9La1yNK3avX0Jy1jeVShwt5Cvkdd
-SgJ8QgbTlvjkRM3PQlsHoIVnJLY7H3EX07GYPYKLMcGHOo19/dVlqgY8nh7Rr2eA
-PzWUd7TZ0FdGCrM8mHEkqd/zJgkjXvRyNtOuphIhfZt9wM8+hTI0472X0bO5JZnn
-kZZeTyCMWCD7diD+xkglQM5zI13WLIOTnbdc8gVJYQeZo3IbfIRsftpjgyGCYPjR
-ToqDQiWMPx8nXIRW+O0G3zJcSQ/HxwwStIMSlHMg5MU+03X6IpRM6+PhpJdUxNYi
-t/o1Xi4lzS0G8b0RyNPYsmQ+
-=h+Ku
------END PGP SIGNATURE-----
-
---===============4557551473100137091==--
+--===============2629406659049278301==--
