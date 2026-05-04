@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1810272540703868428=="
+Content-Type: multipart/mixed; boundary="===============4884096946519531739=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/chenhuacai/linux-loongson
-Date: Mon, 04 May 2026 01:21:07 -0000
-Message-Id: <177785766743.2990815.12709611691321173462@gitolite.kernel.org>
+Date: Mon, 04 May 2026 01:21:17 -0000
+Message-Id: <177785767723.2991156.11536131709906670989@gitolite.kernel.org>
 
---===============1810272540703868428==
+--===============4884096946519531739==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/chenhuacai/linux-loongson
 user: chenhuacai
 changes:
-  - ref: refs/heads/loongarch-fixes
+  - ref: refs/heads/loongarch-next
     old: 4adec1b84ae4ef416d0c50b46b2c8978d87a4ce3
     new: 5a873d77ba792410a796595a917be6a440f9b7d2
     log: revlist-4adec1b84ae4-5a873d77ba79.txt
 
---===============1810272540703868428==
+--===============4884096946519531739==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -458,4 +458,4 @@ f26faae96c411a70641e4d21b759475caa6122d5 LoongArch: KVM: Fix missing EMULATE_FAI
 2433f3f5724b3af569d9fb411ba728629524738b LoongArch: KVM: Fix HW timer interrupt lost when inject interrupt by software
 5a873d77ba792410a796595a917be6a440f9b7d2 LoongArch: KVM: Move unconditional delay into timer clear scenery
 
---===============1810272540703868428==--
+--===============4884096946519531739==--
