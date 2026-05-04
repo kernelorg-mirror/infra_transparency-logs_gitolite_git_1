@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2845768298787470255=="
+Content-Type: multipart/mixed; boundary="===============3060697619747530343=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/geert/linux-m68k
-Date: Mon, 04 May 2026 12:21:48 -0000
-Message-Id: <177789730815.3711645.2694884766340144628@gitolite.kernel.org>
+Date: Mon, 04 May 2026 12:21:52 -0000
+Message-Id: <177789731234.3711813.6324331478444479430@gitolite.kernel.org>
 
---===============2845768298787470255==
+--===============3060697619747530343==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,24 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/geert/linux-m68k
 user: geert
 changes:
-  - ref: refs/heads/for-next
-    old: 99a680bed60428175ff9c5c95d579826ca2ff3f8
-    new: 0ad7ed2f5a29cb5b23cbfeeb714768e5e043d33e
-    log: |
-         b276f78e86f31d2a398de11b20227db802075e9a nubus: switch to dynamic root device
-         371e5a0db4ab3d40671011cc073f41417bf5baab drivers: dio: replace deprecated strcpy with strscpy in dio_init
-         0ad7ed2f5a29cb5b23cbfeeb714768e5e043d33e drivers: dio: use tabs and avoid continuation logging in dio_init
-         
-  - ref: refs/heads/master
-    old: 4ff8e797fed0b018ffde6e942d467884b846ecd9
-    new: e3d3f289a4ebd4ede448b2fa63e11b6a28698269
-    log: revlist-4ff8e797fed0-e3d3f289a4eb.txt
+  - ref: refs/heads/m68k-queue
+    old: bdb89a150ac251fa2589cc1aa1636de327eeb2b3
+    new: c2034055f00e5577089ad087dfb7aa2614847e41
+    log: revlist-bdb89a150ac2-c2034055f00e.txt
 
---===============2845768298787470255==
+--===============3060697619747530343==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-4ff8e797fed0-e3d3f289a4eb.txt
+Content-Disposition: attachment; filename=revlist-bdb89a150ac2-c2034055f00e.txt
 
 57df858a46f0a4cc104716e0ec88864e5c386ca4 mailbox: add API to query available TX queue slots
 f9f0df23193a8afee3bfb5fc34970c93792d7163 mailbox: rockchip: kzalloc + kcalloc to kzalloc
@@ -509,9 +501,12 @@ cffcf520fd69fe5a93b519cf0c7ccc5e467fcb1c Merge tag 'locking-urgent-2026-05-03' o
 811129272de4f91da34f869ae1a1dd1fe608f64f Merge tag 'slab-for-7.1-rc1' of git://git.kernel.org/pub/scm/linux/kernel/git/vbabka/slab
 f377d0025eb00c0590466f5be9f50decf9b9180e Merge tag 'sh-for-v7.1-tag2' of git://git.kernel.org/pub/scm/linux/kernel/git/glaubitz/sh-linux
 7fd2df204f342fc17d1a0bfcd474b24232fb0f32 Linux 7.1-rc2
-e84e804f88d9af196943c7efb0980ed2a4b50032 Merge tag 'v7.1-rc2'
-28e19a62a3f657dde1553a1a5aacf57c12480afd nubus: switch to dynamic root device
-575f0567b05563d95a94270bdfc63ca55b27ad10 drivers: dio: replace deprecated strcpy with strscpy in dio_init
-e3d3f289a4ebd4ede448b2fa63e11b6a28698269 drivers: dio: use tabs and avoid continuation logging in dio_init
+f061c882f99b32031102f248089d85cd7532d385 zorro: sysfs: Replace sprintf() by sysfs_emit()
+b5d42a42b58ad6764f2d6cb86caa5f41618124b2 nubus: switch to dynamic root device
+95d85a3ed4da83cd554f2859929daa528387c4ba drivers: dio: replace deprecated strcpy with strscpy in dio_init
+76a8386539a3e142182aac76ac43ae3f72c2ade5 drivers: dio: use tabs and avoid continuation logging in dio_init
+1e6b0afece7a47a956425ad9243850d00b0e665f m68k: atari: usb: Add ISP1160 USB host controller support
+9b2c9740eecaadd5378107570ff97a205185587b m68k: atari: Update Kconfig.bus help text
+c2034055f00e5577089ad087dfb7aa2614847e41 m68k: defconfig: Enable Atari EtherNAT and NetUSBee USB support
 
---===============2845768298787470255==--
+--===============3060697619747530343==--
