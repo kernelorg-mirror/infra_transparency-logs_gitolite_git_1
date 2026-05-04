@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7588230381018008663=="
+Content-Type: multipart/mixed; boundary="===============0884265391584959987=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Mon, 04 May 2026 22:04:12 -0000
-Message-Id: <177793225281.181371.520922771011700860@gitolite.kernel.org>
+Date: Mon, 04 May 2026 22:04:20 -0000
+Message-Id: <177793226070.181745.10534666422193600694@gitolite.kernel.org>
 
---===============7588230381018008663==
+--===============0884265391584959987==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/100GbE
-    old: 42c84c6ed4fc2e898e1c899f53f09bbd9a4d5e81
-    new: 2e6f4bb8608c9f66ccb8f815ac699b77a581a3b2
-    log: revlist-42c84c6ed4fc-2e6f4bb8608c.txt
+  - ref: refs/heads/200GbE
+    old: a7347c4a60405a988bee5ef9d65d6d5a9e2de3a6
+    new: 16de9af7ca6ea424469aaabe15d66d1d809faad2
+    log: revlist-a7347c4a6040-16de9af7ca6e.txt
 
---===============7588230381018008663==
+--===============0884265391584959987==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-42c84c6ed4fc-2e6f4bb8608c.txt
+Content-Disposition: attachment; filename=revlist-a7347c4a6040-16de9af7ca6e.txt
 
 57df858a46f0a4cc104716e0ec88864e5c386ca4 mailbox: add API to query available TX queue slots
 f9f0df23193a8afee3bfb5fc34970c93792d7163 mailbox: rockchip: kzalloc + kcalloc to kzalloc
@@ -394,10 +394,19 @@ b71fcc5c0bb3347a7441393d6f3657b711efb968 i40e: only timestamp PTP event packets
 b9fa4b9e051bd888907b0366bbd3d88dd9281372 ice: access @pp through netmem_desc instead of page
 586483cb41f40eab03ca65ceedeae623b379783a ice: dpll: Fix compilation warning
 98878ed91b68a3150126fccef125ee7b1bb86ab2 Merge branch 'intel-wired-lan-updates-2024-04-30-ixgbe-i40e-ice'
-ec3764df881881df5491a5424134245b9a21f7e8 libeth: pass Rx queue index to PP when creating a fill queue
-bbdfac8275b0b720adcc5554ea7e1b39ac8952f0 libeth: handle creating pools with unreadable buffers
-d9040a64dd312baef01cb3d3db004bc59db0b095 ice: migrate to netdev ops lock
-1586cfe4c437f9b815eeb4a3e33d333f7a604bbc ice: implement Rx queue management ops
-2e6f4bb8608c9f66ccb8f815ac699b77a581a3b2 ice: add support for transmitting unreadable frags
+d08ce450724de670a6e628f3f893889c6657a9aa virtchnl: create 'include/linux/intel' and move necessary header files
+ce7d96be921dd5697fce14dfca20b899ccdfc870 libie: add PCI device initialization helpers to libie
+c2771d5658827f215c6d5138b649e93ca5a78358 libeth: allow to create fill queues without NAPI
+6f1d72b8d0cd51ace683cd8641af8441f1b03682 libie: add control queue support
+2220593a89b122030a9507540cd25ea243dd9f51 libie: add bookkeeping support for control queue messages
+2da4c62ac9399c36b964656fc5e90eef486c98f7 idpf: remove 'vport_params_reqd' field
+4c83da049e17e5b6f517f89dac3365cf859244fc idpf: refactor idpf to use libie_pci APIs
+c8fde11ba45ebfc625b75f88a931a43ce46f4a42 idpf: refactor idpf to use libie control queues
+195fb7ad9a45e3474238b710a91fc39470c2f10a idpf: make mbx_task queueing and cancelling more consistent
+fb7b1f44495bea4cbaa1259ac726b3567ca1dfd2 idpf: print a debug message and bail in case of non-event ctlq message
+8436c967d5d41177c66b829c58f1855756348a5e ixd: add basic driver framework for Intel(R) Control Plane Function
+59c73b402d43e949661919e0601dcbf5ef1f4f4a ixd: add reset checks and initialize the mailbox
+b8bb105112bbefb93683016ae400817383cd9fb4 ixd: add the core initialization
+16de9af7ca6ea424469aaabe15d66d1d809faad2 ixd: add devlink support
 
---===============7588230381018008663==--
+--===============0884265391584959987==--
