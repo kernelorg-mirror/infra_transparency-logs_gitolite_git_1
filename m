@@ -1,26 +1,36 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/tj/cgroup
-Date: Mon, 04 May 2026 21:03:51 -0000
-Message-Id: <177792863174.119178.14928701688898426912@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tj/sched_ext
+Date: Mon, 04 May 2026 21:03:57 -0000
+Message-Id: <177792863793.119412.14278743675699100878@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/tj/cgroup
+repo: pub/scm/linux/kernel/git/tj/sched_ext
 user: tj
 changes:
   - ref: refs/heads/for-7.1-fixes
-    old: 93618edf753838a727dbff63c7c291dee22d656b
-    new: d8769544bde51b0ac980d10f8fe9f9fed6c95995
+    old: ff9eda4ea906b1f02fc260ddc42d2d9bd736a49c
+    new: b34c82777a2c0648ee053595f4b290fd5249b093
     log: |
-         d8769544bde51b0ac980d10f8fe9f9fed6c95995 docs: cgroup-v1: Update charge-commit section
+         b34c82777a2c0648ee053595f4b290fd5249b093 sched_ext: idle: Recheck prev_cpu after narrowing allowed mask
+         
+  - ref: refs/heads/for-7.2
+    old: 97f86c38abe62c911ff20bc3e00b0937842f79c0
+    new: 4c81b2b2a293539674cc51e726bc7d3c13602a42
+    log: |
+         d757ac2ee7bfda90c64b60a6593a2139a06f79b2 sched_ext: Remove redundant rcu_read_lock/unlock() in sysrq_handle_sched_ext_reset()
+         4c81b2b2a293539674cc51e726bc7d3c13602a42 sched_ext: Normalize exit dump header to "on CPU N"
          
   - ref: refs/heads/for-next
-    old: 053ce765739e09de0d2ac0970770a3fd45453e85
-    new: 655ae569a21dc09368f5fdeca5d499c50c3d686a
+    old: 0a3a3fc5c376bc5e085576fe23e4a782d0f0f6c9
+    new: 47c1b0eaacb0cea9274d9ae20d9824fcbc8a2833
     log: |
-         d8769544bde51b0ac980d10f8fe9f9fed6c95995 docs: cgroup-v1: Update charge-commit section
-         655ae569a21dc09368f5fdeca5d499c50c3d686a Merge branch 'for-7.1-fixes' into for-next
+         d757ac2ee7bfda90c64b60a6593a2139a06f79b2 sched_ext: Remove redundant rcu_read_lock/unlock() in sysrq_handle_sched_ext_reset()
+         4c81b2b2a293539674cc51e726bc7d3c13602a42 sched_ext: Normalize exit dump header to "on CPU N"
+         b34c82777a2c0648ee053595f4b290fd5249b093 sched_ext: idle: Recheck prev_cpu after narrowing allowed mask
+         6d09f996e6daba12e5bc8fac6263eb85543df1d3 Merge branch 'for-7.1-fixes' into for-next
+         47c1b0eaacb0cea9274d9ae20d9824fcbc8a2833 Merge branch 'for-7.2' into for-next
          
