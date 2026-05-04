@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============7974507363926791252=="
+Content-Type: multipart/mixed; boundary="===============4256057789173312257=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
-Date: Mon, 04 May 2026 10:50:51 -0000
-Message-Id: <177789185153.3613505.10028353554721332348@gitolite.kernel.org>
+Date: Mon, 04 May 2026 10:51:28 -0000
+Message-Id: <177789188854.3614470.16666665233577999106@gitolite.kernel.org>
 
---===============7974507363926791252==
+--===============4256057789173312257==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd
 user: jarkko
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/for-next-keys
     old: 75957d0f444daf847f16af71049ad2a6f8304af3
     new: 9ec4175a30eb5adb95e446af83ddf6cb3286a82a
     log: revlist-75957d0f444d-9ec4175a30eb.txt
 
---===============7974507363926791252==
+--===============4256057789173312257==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -1051,4 +1051,4 @@ f377d0025eb00c0590466f5be9f50decf9b9180e Merge tag 'sh-for-v7.1-tag2' of git://g
 3471647090e4645bf27f7abfea7a42f28bd5326a KEYS: encrypted: Remove unnecessary selection of CRYPTO_RNG
 9ec4175a30eb5adb95e446af83ddf6cb3286a82a KEYS: trusted: Debugging as a feature
 
---===============7974507363926791252==--
+--===============4256057789173312257==--
