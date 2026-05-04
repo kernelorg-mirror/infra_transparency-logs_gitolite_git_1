@@ -1,19 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/mnyman/xhci
-Date: Mon, 04 May 2026 10:28:50 -0000
-Message-Id: <177789053081.3587153.94301172115117116@gitolite.kernel.org>
+Subject: post-receive: pub/scm/libs/libgpiod/libgpiod
+Date: Mon, 04 May 2026 10:34:55 -0000
+Message-Id: <177789089545.3593004.534236758226747582@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/mnyman/xhci
-user: mnyman
+repo: pub/scm/libs/libgpiod/libgpiod
+user: brgl
 changes:
-  - ref: refs/heads/for-usb-linus
-    old: 5a2eae179a9b34eddd47a25bdb48bfd93411cef9
-    new: 14f23c8ae73da178050e0aa7435d1426839a7776
+  - ref: refs/heads/master
+    old: 78bfc44f0d03c47c9cdbf8b342d5fe3fe895b0b0
+    new: b2b1267d1ce52fa3b335182360d16b43d72d3e5e
     log: |
-         14f23c8ae73da178050e0aa7435d1426839a7776 xhci: move dequeue to next valid td instead of past cancelled one
+         a7f3feb1a632b8810baba217b828a773f1fdb6df build: put the project URL in one place
+         b2b1267d1ce52fa3b335182360d16b43d72d3e5e docs: fix build with meson
          
