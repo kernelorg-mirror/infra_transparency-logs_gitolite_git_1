@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2690546304243465922=="
+Content-Type: multipart/mixed; boundary="===============7175688624432369037=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/device-mapper/linux-dm
-Date: Mon, 04 May 2026 12:56:58 -0000
-Message-Id: <177789941884.3751088.7237475512871146016@gitolite.kernel.org>
+Date: Mon, 04 May 2026 12:57:10 -0000
+Message-Id: <177789943024.3751504.14431493443891303906@gitolite.kernel.org>
 
---===============2690546304243465922==
+--===============7175688624432369037==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/device-mapper/linux-dm
 user: mikulas
 changes:
-  - ref: refs/heads/for-next
+  - ref: refs/heads/dm-7.2
     old: 0a2a383d2d449c87bc280c6a7d4c89e02cb7b8bf
     new: 2ac3de0bbf40ecf32875e0a28b592a5d97d0503e
     log: revlist-0a2a383d2d44-2ac3de0bbf40.txt
 
---===============2690546304243465922==
+--===============7175688624432369037==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -514,4 +514,4 @@ c90decb190bcae6a20b3aa8575f69eef543930e5 dm-ima: remove new_map from dm_ima_meas
 8710ef1fa0715a331f967565a4eb56c6d4b4c15b dm-ima: Fail more gracefully in dm_ima_measure_on_*
 2ac3de0bbf40ecf32875e0a28b592a5d97d0503e dm-ima: use active table's size if available
 
---===============2690546304243465922==--
+--===============7175688624432369037==--
