@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============1977951036797384770=="
+Content-Type: multipart/mixed; boundary="===============4286695172883985863=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/gregkh/gregkh
-Date: Mon, 04 May 2026 08:33:32 -0000
-Message-Id: <177788361217.3468321.8831135020052719357@gitolite.kernel.org>
+Date: Mon, 04 May 2026 08:34:00 -0000
+Message-Id: <177788364021.3468633.11545756365124817906@gitolite.kernel.org>
 
---===============1977951036797384770==
+--===============4286695172883985863==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -16,46 +16,46 @@ repo: pub/scm/linux/kernel/git/gregkh/gregkh
 user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/rndis
-    old: 636889d103be2ca0950f8037972d6dff940178e2
-    new: 3910ba4cd9ad7c17b32ac02447d07a90fc1c859e
-    log: revlist-636889d103be-3910ba4cd9ad.txt
+  - ref: refs/heads/readfile
+    old: ef278deecd9b20f98ef9f30d6aabed945b75e1b8
+    new: b923b51e4741d31b6008e048947dcdad15f8ca1b
+    log: revlist-ef278deecd9b-b923b51e4741.txt
 
---===============1977951036797384770==
+--===============4286695172883985863==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1777883583 +0200
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1777883614 +0200
 pushee gitolite.kernel.org:/pub/scm/linux/kernel/git/gregkh/gregkh.git
-nonce 1777883583-6f7d5e8392b3446f7f1b1123846b56a71537f8cf
+nonce 1777883613-42aa1f596e5dbfe515a159c841fa1b260e48ffcd
 
-636889d103be2ca0950f8037972d6dff940178e2 3910ba4cd9ad7c17b32ac02447d07a90fc1c859e refs/heads/rndis
+ef278deecd9b20f98ef9f30d6aabed945b75e1b8 b923b51e4741d31b6008e048947dcdad15f8ca1b refs/heads/readfile
 -----BEGIN PGP SIGNATURE-----
 
-iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmn4WcAbHGdyZWdraEBs
-aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+ve4QAJ33PEeHdB/ex8zSKf8v
-j3Z7azN4LQMlz2g1nM0La6q4nx0IpM3XGmI/S9SjnUk2ljYrSe83iF9Hv+9I1oCA
-8J9S5sFXhiH7oALMQW3AR1/nQkBX55zyWabuKdk3m6sIEG3HoUBf1UgMcYfcOFRD
-aEhBaC/G7ahZzySo1mpynFC7pEBYegYfZndgrjmc+OfmeGN3Lq3uEb3KMn3osfrC
-+X13xaXOfbB5gg0J81/lS7IpBt8EXkF3eTLL45cof5y11hKFdVNOQRsBTq+IXNAC
-57RWD4PQAgf10zt4uplBLKnhHbrQuZlYY/AUSjaZPBdMY1O1UbrlJwXvKT4ZIBZX
-QO3/cKYk76XaxE+hLsqBOChiX+riyRX3IcES91WhXSyZavqoQQcO78tpNePMNVUi
-uidsH4EicdqXhHPP8d/5BGJYpDqjGYdakb0hlmH0f1HkNfSXX9LyjHYShmPJJ9Fu
-V/nLSVtHV1Z+rAVSxpb2hzScXS7P8OJELC9M5ip+COuXD6dJX3KgGEpQfzuwkTER
-BwBE63PH3ZTO0L4+biVXl3ELoY47mh8y9688vx7ZUtgjciKBDrPOStHjwTKjcBJf
-ljrTAdfuHwPDN6Y8CTcJG2kLFRu1viIiUw0QMW9ZC1mxUA9qnTyWOlSiN6Uj9sJt
-w8ENY7LfB5G5ZTZ5HTT+202B
-=LAAA
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmn4Wd4bHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+fc8QANbeLd0KOrT/c3cdZeyk
+DcX8jiWKeft1rCcN0UknJqRmcoYzl3MgIDE7LEkNp4icQLJA/6ZqtpIMcXbTttMr
+bugz6W0g/ufBaiYrxv5mQqVqcOyYJC+lOmELb+Iti8jcyHmnJADOLOkfU6T5d7hM
+gD4YCrINTlM+IcfCZIHs22Ad2d3eUh89NGiMLaTqcOV2SIQgbsIPjqbQlVEWjJua
+ooFhLh7lcRG710SPIHbiSqKTQIrBsptB1ox2xfkPL2vLS1ucZpn1dqsFG8AR45UL
+cF9kM+Dmo2w4J86ode7hS/fnwJlfFXKEuyCpoiuA5LlJJpU1fBrVQv16mfLybX2/
+vyuuUCCymimWsVFYenUeCHj6RqVpi6/Z6ge+G5+UJ1dORVz+478/KCkEhrtxuN1U
+PCa/xUfhVi+T4wSDIJAc5/hbfucPjV3rwCuAb+h4kCMud8SwsATf2sNwWWc2qQVS
+qTnKvAcDk9BnAUR7CwNTAp9MoGbgJ0E3WIs+uLhwWPuIdwMZw5mLxqfrCUO7oU6K
+O1vxc4wzOO4xo2xJZTSWSF4fWb3GG3jI0BPjFBMYvYRyiyY6mRlH/TddpEnSHSpd
+KW2dHHOcCW2FLxhK0yxtPL8Ne/kjYShxz6w/b6iiMZIfh+POFTvPcRbdTG90kR1j
+7Ep5KVGyxGs1BNqj59f4i6sP
+=F/nT
 -----END PGP SIGNATURE-----
 
---===============1977951036797384770==
+--===============4286695172883985863==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-636889d103be-3910ba4cd9ad.txt
+Content-Disposition: attachment; filename=revlist-ef278deecd9b-b923b51e4741.txt
 
 57df858a46f0a4cc104716e0ec88864e5c386ca4 mailbox: add API to query available TX queue slots
 f9f0df23193a8afee3bfb5fc34970c93792d7163 mailbox: rockchip: kzalloc + kcalloc to kzalloc
@@ -537,7 +537,9 @@ f377d0025eb00c0590466f5be9f50decf9b9180e Merge tag 'sh-for-v7.1-tag2' of git://g
 0cb2af2ea66ad8ff195c156ea690f11216285bdf KVM: x86: Fix shadow paging use-after-free due to unexpected GFN
 7fd2df204f342fc17d1a0bfcd474b24232fb0f32 Linux 7.1-rc2
 6d35786de28116ecf78797a62b84e6bf3c45aa5a Merge tag 'for-linus' of git://git.kernel.org/pub/scm/virt/kvm/kvm
-42965e7ba6ede269e600e31e0de24ff1ee4297d8 USB: disable all RNDIS protocol drivers
-3910ba4cd9ad7c17b32ac02447d07a90fc1c859e USB: potential rndis host fix
+70147a3482e52b3043c7a3998fb26ca821884770 readfile: implement readfile syscall
+dbb23963ac71e0193598855962c1b14bd01fd51a arch: wire up the readfile syscall
+d4464a6343d12484676b739c925ba849dffebf53 readfile.2: new page describing readfile(2)
+b923b51e4741d31b6008e048947dcdad15f8ca1b selftests: add readfile(2) selftests
 
---===============1977951036797384770==--
+--===============4286695172883985863==--
