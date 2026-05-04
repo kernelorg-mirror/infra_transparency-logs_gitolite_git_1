@@ -1,19 +1,16 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/geert/renesas-devel
-Date: Mon, 04 May 2026 10:19:26 -0000
-Message-Id: <177788996606.3577209.8978351572661582224@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/chenhuacai/linux-loongson
+Date: Mon, 04 May 2026 10:21:30 -0000
+Message-Id: <177789009015.3581088.14651374863598924388@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/geert/renesas-devel
-user: geert
+repo: pub/scm/linux/kernel/git/chenhuacai/linux-loongson
+user: chenhuacai
 changes:
-  - ref: refs/heads/renesas-r8a78000-dt-binding-defs
+  - ref: refs/tags/loongarch-fixes-7.1-1
     old: 0000000000000000000000000000000000000000
-    new: 0f63ba15dde8748ed3818fa6553c81b5296318f1
-  - ref: refs/tags/renesas-r8a78000-dt-binding-defs-tag1
-    old: 0000000000000000000000000000000000000000
-    new: a73205831e3ddab08a2e3287b9ac930c42bb8f17
+    new: 69ba28c5aad3624d9df1f06b9f3b24b6a68dd7fb
