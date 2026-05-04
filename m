@@ -1,20 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/gfs2/linux-gfs2
-Date: Mon, 04 May 2026 11:19:22 -0000
-Message-Id: <177789356294.3642935.5461302718957596399@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jarkko/linux-tpmdd-test
+Date: Mon, 04 May 2026 11:21:17 -0000
+Message-Id: <177789367790.3646882.32755115415952625@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/gfs2/linux-gfs2
-user: agruen
+repo: pub/scm/linux/kernel/git/jarkko/linux-tpmdd-test
+user: jarkko
 changes:
-  - ref: refs/heads/for-next
-    old: 4da0dd95be3b0321bf9687fb1a3c2fed3319c032
-    new: 942202677f8f2ee448a6a2feb06aeeaf520342e3
+  - ref: refs/heads/main
+    old: bf694bbd87cded8696d63fcc268769cebbce36eb
+    new: 810686e78c2dd3624c869f233c53b114b4a947c2
     log: |
-         b99a1f0f18ee50445907f55069e88bcfd8947383 gfs2: fix quota init duplicate scan
-         942202677f8f2ee448a6a2feb06aeeaf520342e3 gfs2: move quota_init qc iterator increment
+         810686e78c2dd3624c869f233c53b114b4a947c2 Justfile: overhaul configure
          
