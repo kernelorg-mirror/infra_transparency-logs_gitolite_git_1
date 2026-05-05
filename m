@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/fs/fsverity/linux
-Date: Tue, 05 May 2026 22:47:17 -0000
-Message-Id: <177802123700.1728507.13896880518950148476@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
+Date: Tue, 05 May 2026 22:50:20 -0000
+Message-Id: <177802142004.1732616.18257878917772858313@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/fs/fsverity/linux
-user: ebiggers
+repo: pub/scm/linux/kernel/git/ath/ath
+user: jjohnson
 changes:
-  - ref: refs/heads/for-current
-    old: 254f49634ee16a731174d2ae34bc50bd5f45e731
-    new: 888cb92cba43178ebf0250e5eae3b4f136a78c22
+  - ref: refs/heads/pending
+    old: fb9fdaca39846882f04c2ff5a06f2cfaef696e31
+    new: ac3f97e665d233097801240644bd674e98cc1cea
     log: |
-         888cb92cba43178ebf0250e5eae3b4f136a78c22 ovl: fix verity lazy-load guard broken by fsverity_active() semantic change
+         ac3f97e665d233097801240644bd674e98cc1cea wifi: ath10k: drop gpio_led reference
          
