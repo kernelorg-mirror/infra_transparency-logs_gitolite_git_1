@@ -1,20 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net-next
 Date: Tue, 05 May 2026 01:52:50 -0000
-Message-Id: <177794597013.418432.3342202229892777198@gitolite.kernel.org>
+Message-Id: <177794597013.418426.1279406631083420479@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
+repo: pub/scm/linux/kernel/git/netdev/net-next
 user: kuba
 changes:
   - ref: refs/heads/main
-    old: bd3a4795d5744f59a1f485379f1303e5e606f377
-    new: 76b93a8107574006b25495664304ea9237494d70
+    old: 98878ed91b68a3150126fccef125ee7b1bb86ab2
+    new: d3aae4d954f92a273388439ab015763e0cdea1e0
     log: |
-         d82ba05263c69fa2437fe93e4e561cc40f4c03af af_unix: Set gc_in_progress to true in unix_gc().
-         76b93a8107574006b25495664304ea9237494d70 netpoll: pass buffer size to egress_dev() to avoid MAC truncation
+         c4994aee029294cf7ab460a4f7f71027e9ea64f2 net/sched: taprio: prepare taprio_dump() for RTNL removal
+         d3aae4d954f92a273388439ab015763e0cdea1e0 net: phy: realtek: Add support for PHY LEDs on RTL8221B
          
