@@ -1,45 +1,29 @@
-Content-Type: multipart/mixed; boundary="===============2120263015193972333=="
+Content-Type: multipart/mixed; boundary="===============7184817870310296744=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next
-Date: Tue, 05 May 2026 12:57:43 -0000
-Message-Id: <177798586351.1101682.3354280506772676891@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/next/linux-next-history
+Date: Tue, 05 May 2026 12:57:51 -0000
+Message-Id: <177798587128.1101989.5131790178051314711@gitolite.kernel.org>
 
---===============2120263015193972333==
+--===============7184817870310296744==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/next/linux-next
+repo: pub/scm/linux/kernel/git/next/linux-next-history
 user: thierry.reding
 changes:
   - ref: refs/heads/master
     old: 9d0d467c3572e93c5faa2e5906a8bbcd70b24efd
     new: 4cd074ae20bbcc293bbbce9163abe99d68ae6ae0
     log: revlist-9d0d467c3572-4cd074ae20bb.txt
-  - ref: refs/heads/stable
-    old: 6d35786de28116ecf78797a62b84e6bf3c45aa5a
-    new: a293ec25d59dd96309058c70df5a4dd0f889a1e4
-    log: |
-         36920f30e78e69df01f9691c470b6f3ba8aebf98 ipmi: Check event message buffer response for bad data
-         74f192205c48333de054620a79d7ce9f4515fb0b selftests: kselftest: fix wrong test number in ksft_exit_skip
-         465b05bae5ac553c13315681c1490dc565337771 selftests: harness: Restore order of test functions
-         c4cca236968683eb0d59abfb12d5c7e4d8514227 ipmi: Add limits to event and receive message requests
-         09dd798270ff582d7309f285d4aaf5dbebae01cb ipmi:si: Return state to normal if message allocation fails
-         a8aebe93a4938c0ca1941eeaae821738f869be3d ipmi:ssif: NULL thread on error
-         c7e4e4d5f7dc2daa439303d1b5bf6bdfaa249f49 Merge tag 'for-linus-7.1-2' of https://github.com/cminyard/linux-ipmi
-         a293ec25d59dd96309058c70df5a4dd0f889a1e4 Merge tag 'linux_kselftest-fixes-7.1-rc3' of git://git.kernel.org/pub/scm/linux/kernel/git/shuah/linux-kselftest
-         
-  - ref: refs/tags/next-20260205
-    old: cb56be93b988219ba91413c97726063189cfd55f
-    new: 0000000000000000000000000000000000000000
   - ref: refs/tags/next-20260505
     old: 0000000000000000000000000000000000000000
     new: a8f1a8e8729f6f867a91e18fe1a79cd7cbe694ae
 
---===============2120263015193972333==
+--===============7184817870310296744==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -447,4 +431,4 @@ c22fc8cdff23cad1d6f812bc4abd63ae75d273e6 Merge branch 'next' of https://git.kern
 18e74c3e8db608fc44c6b00fffe4c74fa6368b90 Merge branch 'for-next' of https://github.com/hisilicon/linux-hisi.git
 4cd074ae20bbcc293bbbce9163abe99d68ae6ae0 Add linux-next specific files for 20260505
 
---===============2120263015193972333==--
+--===============7184817870310296744==--
