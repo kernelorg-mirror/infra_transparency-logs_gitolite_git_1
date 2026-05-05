@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/axboe/linux
-Date: Tue, 05 May 2026 05:36:56 -0000
-Message-Id: <177795941642.643184.4648633134686085536@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/klassert/ipsec
+Date: Tue, 05 May 2026 05:39:53 -0000
+Message-Id: <177795959348.645003.10516170954069644392@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/axboe/linux
-user: axboe
+repo: pub/scm/linux/kernel/git/klassert/ipsec
+user: klassert
 changes:
-  - ref: refs/heads/io_uring-reg-buffers
-    old: 0000000000000000000000000000000000000000
-    new: 76cd0a94b24f131231e6c80a567077a76d9e730a
+  - ref: refs/heads/master
+    old: 14acf9652e5690de3c7486c6db5fb8dafd0a32a3
+    new: f4c50a4034e62ab75f1d5cdd191dd5f9c77fdff4
+    log: |
+         f4c50a4034e62ab75f1d5cdd191dd5f9c77fdff4 xfrm: esp: avoid in-place decrypt on shared skb frags
+         
