@@ -1,16 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/cris/linux
-Date: Tue, 05 May 2026 14:37:34 -0000
-Message-Id: <177799185483.1213946.3219814569983036012@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/driver-core/driver-core
+Date: Tue, 05 May 2026 14:39:30 -0000
+Message-Id: <177799197065.1215106.13562565643405456891@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/cris/linux
-user: cris
+repo: pub/scm/linux/kernel/git/driver-core/driver-core
+user: dakr
 changes:
-  - ref: refs/heads/scmi_transport_instance_handle_V1
-    old: 0000000000000000000000000000000000000000
-    new: 13190d4c752c9adc3184690ccf035795be170fb9
+  - ref: refs/heads/driver-core-next
+    old: 627e28455578d2faef6552cd15d241b20e27e423
+    new: 30c878ed169983190f77940594f8ba8948debe6b
+    log: |
+         30c878ed169983190f77940594f8ba8948debe6b isa: switch to dynamic root device
+         
