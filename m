@@ -1,20 +1,22 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/firmware/linux-firmware
-Date: Tue, 05 May 2026 02:25:11 -0000
-Message-Id: <177794791177.454381.15521920499733738758@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
+Date: Tue, 05 May 2026 02:32:23 -0000
+Message-Id: <177794834384.462257.8017015444868887261@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/firmware/linux-firmware
-user: jwboyer
+repo: pub/scm/linux/kernel/git/netdev/net
+user: kuba
 changes:
   - ref: refs/heads/main
-    old: 50f2c42a77957999d216c2a7da62c58577be7cd1
-    new: aee4fca0dd7983a19ee33a37646e0035942cb2df
+    old: 9d7ebff0c3d90ff7abdb7a77c5906b3c870f70cf
+    new: 07d99587396024932e02474c3a5bede71d108454
     log: |
-         b9a35af9f69b4222664bb9d1b629dd25323017cc amdgpu: DMCUB updates for various ASICs
-         aee4fca0dd7983a19ee33a37646e0035942cb2df Merge branch 'amd-staging' into 'main'
+         ac0841d7d202073415c808bda7848502163b87dd net: prevent possible UAF in rtnl_prop_list_size()
+         30cb24f97d44f6b81c14b85c5323de62eef1fb7f psp: strip variable-length PSP header in psp_dev_rcv()
+         a6039776c7994dd0b9a4acce23a3f897d1688cbf ipmr: Add __rcu to netns_ipv4.mrt.
+         07d99587396024932e02474c3a5bede71d108454 net: dsa: mt7530: fix .get_stats64 sleeping in atomic context
          
