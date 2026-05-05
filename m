@@ -1,21 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Tue, 05 May 2026 13:25:24 -0000
-Message-Id: <177798752462.1134821.4279091132852740300@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/melver/linux
+Date: Tue, 05 May 2026 13:26:48 -0000
+Message-Id: <177798760865.1135968.4195767888609886365@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: pabeni
+repo: pub/scm/linux/kernel/git/melver/linux
+user: melver
 changes:
-  - ref: refs/heads/main
-    old: 83861c48ba122f85cc8384780764b3a791341678
-    new: 0c21517ac8287678c6adc038882826d9a4b9c566
+  - ref: refs/heads/alloc-token
+    old: 3a674f33fa09193cbf94df7fa514768d77a09974
+    new: a242ca2a86d31e281042b6d394cd434a2381f9a9
     log: |
-         aa69918bd418e700309fdd08509dba324fb24296 openvswitch: vport: fix self-deadlock on release of tunnel ports
-         05416ada37aa4efe93f25b0532f551d424fb7b3d selftests: openvswitch: add tests for tunnel vport refcounting
-         0c21517ac8287678c6adc038882826d9a4b9c566 Merge branch 'openvswitch-fix-self-deadlock-on-release-of-tunnel-vports'
+         d228104290ad6a6f5f66c8ee5aa9a81e3c99615c slab: support for compiler-assisted type-based slab cache partitioning
+         a242ca2a86d31e281042b6d394cd434a2381f9a9 slab: fix kernel-docs for mm-api
          
