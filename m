@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0568165139652553258=="
+Content-Type: multipart/mixed; boundary="===============7276303609610338341=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/frank.li/linux
-Date: Tue, 05 May 2026 16:00:49 -0000
-Message-Id: <177799684935.1308232.6448408061447245531@gitolite.kernel.org>
+Date: Tue, 05 May 2026 16:00:52 -0000
+Message-Id: <177799685249.1308371.12130347192875529092@gitolite.kernel.org>
 
---===============0568165139652553258==
+--===============7276303609610338341==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,17 +15,39 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/frank.li/linux
 user: frank.li
 changes:
-  - ref: refs/heads/for-next
-    old: 06856fe108912c4988446e459c57d061ad9f0de7
-    new: 3d62024687db30341c9b92ad47d6b54c5e303fa4
-    log: revlist-06856fe10891-3d62024687db.txt
+  - ref: refs/heads/imx/drivers
+    old: 6de23f81a5e08be8fbf5e8d7e9febc72a5b5f27f
+    new: 254f49634ee16a731174d2ae34bc50bd5f45e731
+    log: revlist-6de23f81a5e0-254f49634ee1.txt
 
---===============0568165139652553258==
+--===============7276303609610338341==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-06856fe10891-3d62024687db.txt
+Content-Disposition: attachment; filename=revlist-6de23f81a5e0-254f49634ee1.txt
 
+b183b7b9b51fc37cc8e1fbad3c0d84e0cb605266 smb: smbdirect: introduce smbdirect_mr_io_fill_buffer_descriptor()
+a93b68d46e1450ca6d395be0ca002f8bdf04d9a6 smb: smbdirect: introduce smbdirect_connection_legacy_debug_proc_show()
+09d617d3121e14309ad5e4287b0da3ec27d386a8 smb: smbdirect: introduce smbdirect_connection_wait_for_connected()
+dc24063813ea617394db153cf9203286770ed404 smb: smbdirect: introduce smbdirect_connection_is_connected()
+b3e78c651441eaf08e830e260d06fd8d33a8b7f9 smb: smbdirect: introduce smbdirect_socket_shutdown()
+dce268ffcddc96f29707c1967c52b036ad92e43d smb: smbdirect: introduce smbdirect_socket_init_{new,accepting}() and helpers
+ede2b44b0e62378cb8585dda20a4edadbc621bb0 smb: smbdirect: let smbdirect_socket_set_initial_parameters() call rdma_restrict_node_type()
+d1f187656797fc7434388c1795e05f8abe370d46 smb: smbdirect: introduce smbdirect_connect[_sync]()
+eb3ed1e9048cf7b2a38112f48e0f1b772bb7860d smb: smbdirect: introduce smbdirect_accept_connect_request()
+20cd3cc4420bdb9f63644cd140e2682f634e651e smb: smbdirect: introduce smbdirect_socket_create_{kern,accepting}() and smbdirect_socket_release()
+b1e6277bd1240c3a66aac537b1b43b4bfd2edcd8 smb: smbdirect: let smbdirect_socket.h include all headers for used structures
+5e4bf7fadd4a608cace7604b720483f051f8176f smb: smbdirect: let smbdirect_internal.h define pr_fmt without SMBDIRECT_USE_INLINE_C_FILES
+b2261ceedd4a4831957732ebae5ad33bf5c7fc80 smb: smbdirect: introduce smbdirect_public.h with prototypes
+89df0942907894a92dbece12bfa35e1647959b0c smb: smbdirect: provide explicit prototypes for cross .c file functions
+4c9e665cb1132b92812886d08ec784132eb66caf smb: smbdirect: introduce smbdirect_init_send_batch_storage()
+84df3cde16090d5d1de4df31623ef0433fdea041 smb: smbdirect: split out smbdirect_accept_negotiate_finish()
+03f9e2c15f8fa32b8056a3a59f98f652726f78b8 smb: smbdirect: introduce smbdirect_socket_bind()
+dc691b91ad1677def14582a279e56fd943b52f94 smb: smbdirect: introduce smbdirect_socket_{listen,accept}()
+f9a804da479cc41172f1039b4ffde06a09920506 smb: smbdirect: introduce the basic smbdirect.ko
+dd43c2227394472aa6e438ddffc2f58028de7531 smb: client: make use of smbdirect_socket_prepare_create()
+2459505596f57664f61a1be9b50065ebed9da660 smb: client: make use of smbdirect_socket_set_logging()
+5f6e338bbb78787933ffcf87959178c4f0a08757 smb: client: make use of smbdirect_socket_wake_up_all()
 872b23ab6d9495e5504ac0a43e9ec977e750052a smb: client: make use of smbdirect_socket_cleanup_work()
 43e1fed89e40346578a2f94ae0a87dfa05987fa5 smb: client: make use of smbdirect_socket_schedule_cleanup()
 927183cdbe4897f9a4bc0f64201fb0f192722d35 smb: client: make use of smbdirect_connection_{get,put}_recv_io()
@@ -1028,27 +1050,5 @@ b935117fe6d1af576e39b1f18c9e875f44bd146f Merge tag 'kbuild-fixes-7.1-1' of git:/
 20b64cf8705a0f6268bb9a320eb6b4c425f3ec6c Merge tag 'tsm-for-7.1' of git://git.kernel.org/pub/scm/linux/kernel/git/devsec/tsm
 14479877c1ec9667edb4a7c20a8d7a704e7249ca Merge tag 'clk-for-linus' of git://git.kernel.org/pub/scm/linux/kernel/git/clk/linux
 254f49634ee16a731174d2ae34bc50bd5f45e731 Linux 7.1-rc1
-990c229608000831f435d5dbad982f710401fda1 dt-bindings: arm: fsl: Add compatible for i.MX95 15x15 audio board (version 2)
-7b5d318616888360a93cf0830705ce51b5452078 arm64: dts: add support for NXP i.MX95 15x15 audio board (version 2)
-0372cc5776e7fd5570884aed0c1e9a8a546cad66 ARM: dts: imx6ul-var-som: fix warning for non-existent dc-supply property
-f9abbeb3e674ff7ccee647e8dd9e43c1e1b16854 ARM: dts: imx6ul-var-som: fix warning for boolean property with a value
-8ce202ed73e037175dbd31c03bed446acff72cc0 ARM: dts: imx6ul-var-som: change incorrect VAR-SOM-MX6UL references
-cc04ee842ce82b02485f6bd6f68b1749c2518358 dt-bindings: arm: fsl: change incorrect VAR-SOM-MX6UL references
-116f95fc84c85bc7f7c6e5665a53d825f2439710 dt-bindings: arm: fsl: add variscite,var-som-imx6ull
-e3b21b337513bab93bebea4cc6ad226281ef7ae5 ARM: dts: imx6ul-var-som: Factor out common parts for all CPU variants
-19435b532a13122a795454f36a6688380e1b522c ARM: dts: imx6ul-var-som-concerto: Factor out common parts for all CPU variants
-0d2f2cd6f4c2449d2338c8ce76a7ed73bbf0fde0 ARM: dts: imx6ul-var-som-concerto: order DT properties
-f47685063daa995cbeeca871330c64e0b88442a4 ARM: dts: imx6ul-var-som: factor out SD card support
-235c070343eb69c1a1d1b4aafb876578eb6d2c45 ARM: dts: imx6ul-var-som: add proper Wifi and Bluetooth support
-04b897252c5828e4cd31d92880229e26a630f2ff ARM: dts: imx6ul-var-som: factor out ENET2 ethernet support
-38296261b071447a02eb3eb40efdb5da0a38876c ARM: dts: imx6ul-var-som: add support for EC configuration option (ENET1)
-5f1733077a1a382a22260379b9ca333860bd00a1 ARM: dts: imx6ul-var-som: factor out audio support
-fe886aec2ef0b05a2e31b3f184fbe85b6aa9743c ARM: dts: imx6ul-var-som: add support for LVDS display panel
-3b4531c6e0f4c8874f0266853a410438eda1fc24 Documentation/firmware: add imx/se to other_interfaces
-4d7bcf0869686d7d7fbf16244453b987e5ca6d14 dt-bindings: arm: fsl: add imx-se-fw binding doc
-338529a73c2bf2c277013b745cfe6f19b84b70af firmware: imx: add driver for NXP EdgeLock Enclave
-2d733ed67f608ee85abb854157011f88d7f280a8 firmware: imx: device context dedicated to priv
-4de71839142b5f43846e3593f4eb236e1d733885 firmware: drivers: imx: adds miscdev
-3d62024687db30341c9b92ad47d6b54c5e303fa4 Merge branches 'imx/dt', 'imx/dt64' and 'imx/firmware-ele' into for-next
 
---===============0568165139652553258==--
+--===============7276303609610338341==--
