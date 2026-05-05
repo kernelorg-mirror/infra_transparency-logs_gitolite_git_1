@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============2091374830642686760=="
+Content-Type: multipart/mixed; boundary="===============8639762526231210378=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/wsa/linux
-Date: Tue, 05 May 2026 12:08:25 -0000
-Message-Id: <177798290503.1047112.1207318943793348220@gitolite.kernel.org>
+Date: Tue, 05 May 2026 12:14:37 -0000
+Message-Id: <177798327798.1052741.16520068424707226166@gitolite.kernel.org>
 
---===============2091374830642686760==
+--===============8639762526231210378==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,18 +15,17 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/wsa/linux
 user: wsa
 changes:
-  - ref: refs/heads/renesas/x5h/mfis-single-driver
-    old: 867986a2832dcd2eabab183fe970967b8df5c682
-    new: ece237f5413ad3a6deaf8a7e7884f38d6a603635
-    log: revlist-867986a2832d-ece237f5413a.txt
+  - ref: refs/heads/renesas/v4h/mfis
+    old: fa4677a77057c585b6b184e410f84569d27ba4c3
+    new: 8d6d623191fc300b77b2637d9da3fcc995a48b4b
+    log: revlist-fa4677a77057-8d6d623191fc.txt
 
---===============2091374830642686760==
+--===============8639762526231210378==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-867986a2832d-ece237f5413a.txt
+Content-Disposition: attachment; filename=revlist-fa4677a77057-8d6d623191fc.txt
 
-07825e41519abb8ac13d6d1c553af47f57775f6b irqchip/ast2700-intc: Add AST2700-A2 support
 46e39ee92d14bf2248d6404119b816047144de4e irqchip/ast2700-intc: Add KUnit tests for route resolution
 d3587cc4a5e691539c46f327f8d510c1bc482b7e irqchip/aspeed-intc: Remove AST2700-A0 support
 a540d544db1c37d4c138b67384f235a85f79f060 dt-bindings: interrupt-controller: Repurpose binding for unreleased jh8100 for jhb100
@@ -1043,12 +1042,13 @@ bb43d5b335e17453fcf970f4d483a78c52663f74 Merge branch 'next' of https://git.kern
 4d90ed58e91488cbed718cb0d089eeb2d793ffcc Merge branch 'next' of https://git.kernel.org/pub/scm/linux/kernel/git/melver/linux.git
 b16fd49e409cd4b32d5ff563eeb0708cd6965db7 Merge branch 'for-next' of https://github.com/hisilicon/linux-hisi.git
 9d0d467c3572e93c5faa2e5906a8bbcd70b24efd Add linux-next specific files for 20260504
-7a5ff740701a0dbe543b126571e5a1575032abf7 REMOVE ME: add DEBUG to mailbox subsys
 733d43975aa6406cd19b4e213be12fae763abfa5 mailbox: don't free the channel if the startup callback failed
-5a1520b4a401573da5cba79e7514b61bb4135be3 mailbox: add list of used channels to debugfs
-94d6835b7eea023eac9e9b933d682988c1ce055a Merge branch 'mailbox/fixes' into HEAD
-74d684915531d360fd55719aeee5b4e385407e2b arm64: renesas: r8a78000: add MFIS, MFIS SCP and transport nodes
-728721baf3fa86d708ffecc31f026526e7040026 arm64: renesas: r8a78000-ironhide: enable to use SCMI
-ece237f5413ad3a6deaf8a7e7884f38d6a603635 TEST: DTS additions for mailbox-test
+3aae107940580e7850f3c714efba73e5bace2ad5 mailbox: add list of used channels to debugfs
+a259f4438b31660673da6fbc1a194bfb54da81bc Merge branch 'mailbox/fixes' into renesas/v4h/mfis
+986f565ae758eb647b694c87d26adc288ff2aec0 REMOVE ME: add DEBUG to mailbox subsys
+685997ab91860605a6edd59cd6201590fe5def60 dt-bindings: soc: renesas: mfis: add R-Car V4H/V4M support
+141a8db188306b177d53097746f50f5ac45d3ddc soc: renesas: mfis: add R-Car V4H/V4M support
+2a7337050ee1708886e4e5bced90a604c63a4adf arm64: renesas: r8a779g0: add MFIS node
+8d6d623191fc300b77b2637d9da3fcc995a48b4b TEST: arm64: renesas: sparrow-hawk: enable MFIS for testing
 
---===============2091374830642686760==--
+--===============8639762526231210378==--
