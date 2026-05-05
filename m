@@ -1,52 +1,56 @@
-Content-Type: multipart/mixed; boundary="===============0015800177880354377=="
+Content-Type: multipart/mixed; boundary="===============6935080389574496469=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/misc
-Date: Tue, 05 May 2026 13:15:31 -0000
-Message-Id: <177798693100.1122380.6652202940646083631@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/security/vulns
+Date: Tue, 05 May 2026 13:15:37 -0000
+Message-Id: <177798693740.1122595.15849662836824678706@gitolite.kernel.org>
 
---===============0015800177880354377==
+--===============6935080389574496469==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/misc
-user: broonie
+repo: pub/scm/linux/security/vulns
+user: gregkh
 git_push_cert_status: G
 changes:
-  - ref: refs/heads/asoc-7.1
-    old: d0771f4995d3285756bf496cf6e346df99481f83
-    new: 027ef9a9297c6ae8be11681e0fa485c1829d0572
+  - ref: refs/heads/master
+    old: 3374e61912ba9b766bf37537eb32613ce39136a8
+    new: ead97bda67a6a3154fd0c5fd14219f3bd141f1f3
     log: |
-         78538047717bdeabe8481ef611c9131e455e61df ASoC: wm_adsp_fw_find_test: Redirect wm_adsp_release_firmware_files()
-         af64f790969973b325efda7264d6860167623cdd ASoC: wm_adsp_fw_find_test: Clear searched_fw_files in find-by-index test
-         027ef9a9297c6ae8be11681e0fa485c1829d0572 ASoC: wm_adsp_fw_find_test: Fix a couple of bugs
+         ead97bda67a6a3154fd0c5fd14219f3bd141f1f3 remove the cvelistv5 git submodule
          
 
---===============0015800177880354377==
+--===============6935080389574496469==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 Content-Disposition: attachment; filename=git-push-certificate.txt
 
 certificate version 0.1
-pusher C3F436CA30F5D8EB 1777986929 +0900
-pushee ssh://gitolite.kernel.org/pub/scm/linux/kernel/git/broonie/misc.git
-nonce 1777986928-d1f9dc1da60b34b3c55d0078269701e4adf3605d
+pusher Greg Kroah-Hartman <gregkh@linuxfoundation.org> 1777986934 +0200
+pushee gitolite.kernel.org:/pub/scm/linux/security/vulns.git
+nonce 1777986934-f28702f3b2b3ad752d6eb09605f6424d16e0d3a0
 
-d0771f4995d3285756bf496cf6e346df99481f83 027ef9a9297c6ae8be11681e0fa485c1829d0572 refs/heads/asoc-7.1
+3374e61912ba9b766bf37537eb32613ce39136a8 ead97bda67a6a3154fd0c5fd14219f3bd141f1f3 refs/heads/master
 -----BEGIN PGP SIGNATURE-----
 
-iQEzBAABCgAdFiEEreZoqmdXGLWf4p/qJNaLcl1Uh9AFAmn57XEACgkQJNaLcl1U
-h9CTLQf/W9WWNg6GTi09NR2s6CHUdSNEgOlD/8blb/7rZH/ajwh1PYk4sBoQO+pH
-9dWoXEvDxz6+iM4LyENrkGf6LDJBOv5sJFoKpA+SPuoYlAcBdz12IecguPW1RxTw
-zzYPHDY+hTAPJRmakRFdiK6D447qmBLlJQhHEt3ue1yzAIjPx0W48cAcXoaVwrz3
-vdbl3l5i91elkH+RH0pzyqzkXEnhMNUquxJykYGJoleCO0q7f2cohcCIMB1/DFV8
-BZ2yJH5PpWFJvU6KsLAsLNrC4qNyyFPaIzEExMx/zEe+B/cZhhRJsdOH34e+HmeO
-CHgFVEXNS+Yq4EgbLn2+5BCCSTYAZw==
-=YFFb
+iQJPBAABCgA5FiEEZH8oZUiU471FcZm+ONu9yGCSaT4FAmn57XYbHGdyZWdraEBs
+aW51eGZvdW5kYXRpb24ub3JnAAoJEDjbvchgkmk+jeQP/1gBm8sYN+cSB5Ty7j6E
+nK+n7jd5iGEF7go05BKRMVsYghkRzr6ZegNAwfDMNiFPGP4x5CfWcmYt2+k9cdEm
+NZGcq90JWM9ZEYgda4K8OzNto/9Womrj16qxOj0o0U04BVjwNIuycjJ3GzfMYFY5
+9AIixHzRaWhw2lhIw9w3j/udxc17HT48NIrzWFg3Eo1lkFc+hSTZd56f4an8bwv5
+9e6wcHShAWX4zhhXNTEA/cTXDVxbtpHlHU56BG3WEVOoCCxKWgx3ULbbS4NdCta6
+P6Xj6eARQkaSSI/5uE26S9OH/fmUtjK0ggyUX5URmDwm0REu5YLfN9KEn4hrI0Eo
+vrAAgAXtFhTGR6KlC9zN4jzDRJ0fSn5kjK8Fj/C43XRiUGznxmFYUIsnSheMK1Ly
+gJB0A0NAXfLiqz473lmyU3QA2MvEIeXfsxs6A9AvK1pr98Berl2QJdJ8hfahJcIo
+1XGVtCX9GMslTr/r5Y4Cf7Lqz8tJkRExZ9yg4ZfiEfBVIp4n5QYJm1xXcHXtWNvp
+gkvjjxWNeh7tMgxg+wz480ZCTVoPSYOOg3EtESd0lteJZlxzfvrpbz1WFX0WLORW
+wF0oBa/TvErBPzoFGPPscdc+pYdhoErNm1HZRNGlIUDxCls5AchO78oWCXmjR2Mv
+Bpsjqh2K2xBqKSQIt+kjRIfT
+=o7nd
 -----END PGP SIGNATURE-----
 
---===============0015800177880354377==--
+--===============6935080389574496469==--
