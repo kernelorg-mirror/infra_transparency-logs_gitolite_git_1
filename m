@@ -1,21 +1,20 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/broonie/ci
-Date: Tue, 05 May 2026 12:19:08 -0000
-Message-Id: <177798354879.1057922.6660222975341891658@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jic23/iio
+Date: Tue, 05 May 2026 12:20:54 -0000
+Message-Id: <177798365484.1061660.6862946199225242534@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/broonie/ci
-user: broonie
+repo: pub/scm/linux/kernel/git/jic23/iio
+user: jic23
 changes:
-  - ref: refs/heads/asoc-7.2
-    old: 36c543cc51008fbc9ebfaf1e58c34425b7997c88
-    new: ce515bdcff73dc236cdd1b00f64b8b54d95a3688
+  - ref: refs/heads/testing
+    old: 05a216d7492a5b37a6f73ddf01cb4b8aac6b00e6
+    new: defda38d3d452550fcf98d90c784e254f70ede4e
     log: |
-         a28d17fdd3f766277c196a5078989bedd2a38e4f ASoC: tegra: Move MODULE_DEVICE_TABLE next to the table itself
-         7ed0e11bea0e37b16492d42c81c56540f0f0ab9a ASoC: rockchip: Move MODULE_DEVICE_TABLE next to the table itself
-         ce515bdcff73dc236cdd1b00f64b8b54d95a3688 ASoC: tegra: Move MODULE_DEVICE_TABLE next to the table itself
+         3b20d1e0fa8182fe4e2a04af0cb12617821ab83c iio: Move MODULE_DEVICE_TABLE next to the table itself
+         defda38d3d452550fcf98d90c784e254f70ede4e iio: gyro: adxrs290: Use guard(mutex) in lieu of manual lock+unlock
          
