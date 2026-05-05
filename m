@@ -1,22 +1,56 @@
-From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/netdev/net
-Date: Tue, 05 May 2026 10:19:33 -0000
-Message-Id: <177797637304.932549.834640997064338022@gitolite.kernel.org>
+Content-Type: multipart/mixed; boundary="===============1016641993123371127=="
 MIME-Version: 1.0
-Content-Type: text/plain; charset="utf-8"
+From: Gitolite <devnull@kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/jberg/iw
+Date: Tue, 05 May 2026 10:35:43 -0000
+Message-Id: <177797734367.950556.5650280072867894359@gitolite.kernel.org>
+
+--===============1016641993123371127==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/netdev/net
-user: pabeni
+repo: pub/scm/linux/kernel/git/jberg/iw
+user: jberg
+git_push_cert_status: E
 changes:
   - ref: refs/heads/main
-    old: 07d99587396024932e02474c3a5bede71d108454
-    new: 6bdcbd79ad12944ad46f42f0bdeb4e5b53d852d7
+    old: 16e8bca9f99ba054e152fa6c579c955013af4819
+    new: 38eb16d2a54cdc532a84a33966f02c1be88df03a
     log: |
-         e9e334f8063a991b4f648b8dbb8dac44cf810540 net: mana: check xdp_rxq registration before unreg in mana_destroy_rxq()
-         2a1c691182823a5c149d502ac153e249ee697b4a net: mana: Skip WQ object destruction for uninitialized RXQ
-         3985c9a56da49af8b2e45cb1fa55c03c89b1d471 net: mana: remove double CQ cleanup in mana_create_rxq error path
-         6bdcbd79ad12944ad46f42f0bdeb4e5b53d852d7 Merge branch 'net-mana-fix-mana_destroy_rxq-cleanup-for-partial-rxq-init'
+         f4f289c8b2ceab6b76d3622d0e6ad152272653de iw: declare 'key' section
+         38eb16d2a54cdc532a84a33966f02c1be88df03a build: disable implicit rules
          
+
+--===============1016641993123371127==
+Content-Type: text/plain; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Disposition: attachment; filename=git-push-certificate.txt
+
+certificate version 0.1
+pusher 7BF9099A 1777977338 +0200
+pushee ssh+git://korg/pub/scm/linux/kernel/git/jberg/iw.git
+nonce 1777977338-76e10aaabcbf78ed462d41789c2bc8a696d4f425
+
+16e8bca9f99ba054e152fa6c579c955013af4819 38eb16d2a54cdc532a84a33966f02c1be88df03a refs/heads/main
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAABCgAdFiEEpeA8sTs3M8SN2hR410qiO8sPaAAFAmn5x/oACgkQ10qiO8sP
+aAAlBg//b8QzpcAqxyDPtF+JfxEn4O3B3vPynbnHj9c2aPrkfz6QAUew7YO9qJYl
+dtaOtm37u+dXBPCGyCl7+RcKY9AS08+wkraub5pIwTYfNNZIhhobSoaCC1G7JR4L
+GUuwTgBYDXEuPSzNdBZGpHhszxUBPMFjxx1FuuYfLR/C0AdRAoZAnmeKG1LHjpwe
+2l53PlXi5f7tmAoPJUAPk0Pr0ieTQrhpqaHUEgWnjb1A8R2tfvSJJAu5hAo7mpUI
+jNZVQlXawOWTMyWw8qDjEnL5cwqnDy+lvztiHUS0OHGpzmCN+HgaHLxfXcgbHw6w
+naVbAzI97f4zU6ZNX3qiNn8a9ILcFhOxP+mrBVfV+R/mQNadCqJPAcDqrSVJ4oGF
+2Ko1UX7lK/5hSBHqhuAujP4FDQY2pa5uWZy2GKQE/bl/qqreF7/eOyUf8NIgbYBu
+6/A42NBrsoUOFqvMBgZIHHAXH57I5APYVm8OOaP9p5e+gXzhXihVmmg/AQFHZxA4
+Q2RH3uV21wyJUWr5XjloqYmwzXcQnJVB55D7IDh6kVEH0TuW0n8DAiHWIXh/Wh7S
+wlZ3RsDCN/CBPuodJ4L6OFjuOgxyK4wJMefRC1+4MeNVkwJE1d7fCrXP+kGM2egd
+mM4hOWGtdmNJjalgrcRqjyBzYw8ce4eWYBftlVD18cTn0Ujw8yc=
+=92KS
+-----END PGP SIGNATURE-----
+
+--===============1016641993123371127==--
