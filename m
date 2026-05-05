@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============4191407718126586307=="
+Content-Type: multipart/mixed; boundary="===============0942666030115126542=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Tue, 05 May 2026 22:56:20 -0000
-Message-Id: <177802178071.1740953.6227220646143779086@gitolite.kernel.org>
+Date: Tue, 05 May 2026 22:56:26 -0000
+Message-Id: <177802178608.1741144.13345118279801002572@gitolite.kernel.org>
 
---===============4191407718126586307==
+--===============0942666030115126542==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/40GbE
-    old: 98878ed91b68a3150126fccef125ee7b1bb86ab2
-    new: 8c699be3dad7bba87cdda485dc099226cfc2f706
-    log: revlist-98878ed91b68-8c699be3dad7.txt
+  - ref: refs/heads/100GbE
+    old: 2e6f4bb8608c9f66ccb8f815ac699b77a581a3b2
+    new: 382b8e58438ea5da3f11d63d7c036cd1e31dadf6
+    log: revlist-2e6f4bb8608c-382b8e58438e.txt
 
---===============4191407718126586307==
+--===============0942666030115126542==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-98878ed91b68-8c699be3dad7.txt
+Content-Disposition: attachment; filename=revlist-2e6f4bb8608c-382b8e58438e.txt
 
 c4994aee029294cf7ab460a4f7f71027e9ea64f2 net/sched: taprio: prepare taprio_dump() for RTNL removal
 d3aae4d954f92a273388439ab015763e0cdea1e0 net: phy: realtek: Add support for PHY LEDs on RTL8221B
@@ -48,5 +48,10 @@ ca283942e5b91894d3a9228eaf789837f66c986f net: mdio: Add support for RSFEC Contro
 d7dbf00b4a5503def75487ed803698042ba1965d net: eth: fbnic: Consolidate register reads for ids and devs
 3877097c3c9e0356ad5ed8411f417a100090be9c net: eth: fbnic: Add pma read and write access
 8c699be3dad7bba87cdda485dc099226cfc2f706 Merge branch 'first-series-for-xpcs-based-rsfec-configuration'
+c73f38b5fddcc7f9d2ebadc3a891ac0435064d11 libeth: pass Rx queue index to PP when creating a fill queue
+47211b54bdf10daaad2a9a1cb01fe4ab1a984717 libeth: handle creating pools with unreadable buffers
+837d4769a6e2f963fb93a62cb3d560053d82ff5e ice: migrate to netdev ops lock
+5462e8f5c70b19867a0d0c12aebf1c08699838f3 ice: implement Rx queue management ops
+382b8e58438ea5da3f11d63d7c036cd1e31dadf6 ice: add support for transmitting unreadable frags
 
---===============4191407718126586307==--
+--===============0942666030115126542==--
