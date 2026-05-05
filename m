@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============5250575924667965727=="
+Content-Type: multipart/mixed; boundary="===============3828744483850969301=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/s390/linux
-Date: Tue, 05 May 2026 08:12:06 -0000
-Message-Id: <177796872676.798322.6865443707762113740@gitolite.kernel.org>
+Date: Tue, 05 May 2026 08:12:15 -0000
+Message-Id: <177796873556.798619.7213478554173107553@gitolite.kernel.org>
 
---===============5250575924667965727==
+--===============3828744483850969301==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,12 +15,12 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/s390/linux
 user: agordeev
 changes:
-  - ref: refs/heads/master
+  - ref: refs/heads/features
     old: 254f49634ee16a731174d2ae34bc50bd5f45e731
     new: 7fd2df204f342fc17d1a0bfcd474b24232fb0f32
     log: revlist-254f49634ee1-7fd2df204f34.txt
 
---===============5250575924667965727==
+--===============3828744483850969301==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -502,4 +502,4 @@ cffcf520fd69fe5a93b519cf0c7ccc5e467fcb1c Merge tag 'locking-urgent-2026-05-03' o
 f377d0025eb00c0590466f5be9f50decf9b9180e Merge tag 'sh-for-v7.1-tag2' of git://git.kernel.org/pub/scm/linux/kernel/git/glaubitz/sh-linux
 7fd2df204f342fc17d1a0bfcd474b24232fb0f32 Linux 7.1-rc2
 
---===============5250575924667965727==--
+--===============3828744483850969301==--
