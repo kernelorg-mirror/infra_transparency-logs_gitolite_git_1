@@ -1,24 +1,23 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/sudeep.holla/linux
-Date: Tue, 05 May 2026 15:43:17 -0000
-Message-Id: <177799579714.1287886.9207621639197367525@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/boqun/linux
+Date: Tue, 05 May 2026 15:44:10 -0000
+Message-Id: <177799585008.1288401.6403991834576975385@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/sudeep.holla/linux
-user: sudeep.holla
+repo: pub/scm/linux/kernel/git/boqun/linux
+user: boqun
 changes:
-  - ref: refs/heads/for-next/ffa/fixes
-    old: 9cb594ce4e0bf955296467238972c8bec37813a5
-    new: a6848a50404eefb6f0b131c21881a2d8d21b31a9
+  - ref: refs/heads/rust-sync
+    old: 082cc4c201e4450ff9456c9bd093fd70d103595a
+    new: 5529e3c510be8f9dcb15d4fe821789d60cdd49d5
     log: |
-         3974ea1938406f9bfa7c1f48d4e43533f447bb08 firmware: arm_ffa: Bound PARTITION_INFO_GET_REGS copies
-         2af18f8e36b277730527cacc2256b1332f56aa28 firmware: arm_ffa: Keep framework RX release under lock
-         4a1cc9e96b311d2609a6f963a5e35bd4ae730d97 firmware: arm_ffa: Validate framework notification message layout
-         0399e3f872ca3d78044bb715a73ea645806d2c7b firmware: arm_ffa: Align RxTx buffer size before mapping
-         38290b180a4d5746baed796d49f88d56d2f336cd firmware: arm_ffa: Snapshot notifier callbacks under lock
-         a6848a50404eefb6f0b131c21881a2d8d21b31a9 firmware: arm_ffa: Fix sched-recv callback partition lookup
+         d80bb9cd4ed0388e0cc055da67644fb8562b9d40 sched: Remove the unused preempt_offset parameter of __cant_sleep()
+         455c55fbe658c53f8b782f1ab5283cb43c06b50d preempt: x86: Avoid tracking NMI separately when 64BIT=y
+         40eb42640883e2d551c8e480824ce45cfabc7242 locking/lockdep: Replace snprintf with strscpy in seq_stats
+         9aef66afe35f515944f8fe112507e8a6743c46bc rust: sync: completion: Mark inline complete_all and wait_for_completion
+         5529e3c510be8f9dcb15d4fe821789d60cdd49d5 MAINTAINERS: Add RUST [SYNC] entry
          
