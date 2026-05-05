@@ -1,53 +1,65 @@
-Content-Type: multipart/mixed; boundary="===============2408655288240060114=="
+Content-Type: multipart/mixed; boundary="===============1594392004757573545=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/krzk/linux-mem-ctrl
-Date: Tue, 05 May 2026 13:50:59 -0000
-Message-Id: <177798905950.1163462.11369263952188550311@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/ti/linux
+Date: Tue, 05 May 2026 13:59:01 -0000
+Message-Id: <177798954183.1170370.13367788785577860172@gitolite.kernel.org>
 
---===============2408655288240060114==
+--===============1594392004757573545==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/krzk/linux-mem-ctrl
-user: krzk
-git_push_cert_status: Y
+repo: pub/scm/linux/kernel/git/ti/linux
+user: nmenon
 changes:
-  - ref: refs/tags/memory-controller-drv-tegra-dt-bindings-7.2
-    old: 0000000000000000000000000000000000000000
-    new: cc07840751d130fa78825b5bae7117d31131ad7b
+  - ref: refs/heads/ti-drivers-soc-next
+    old: 254f49634ee16a731174d2ae34bc50bd5f45e731
+    new: af76cdcf02b7be9277af999f0e316943d94d7fd4
+    log: |
+         b0ea5175358f0872ffdc9c6073585637dc01815a dt-bindings: hwinfo: ti,k3-socinfo: Add nvmem-cells support
+         97cfbd30525ef0df3de0681a4ca04a80a06d4f16 soc: ti: k3-socinfo: Add support for AM62P variants via NVMEM
+         af76cdcf02b7be9277af999f0e316943d94d7fd4 soc: ti: knav_dma: fix all kernel-doc warnings in knav_dma.h
+         
+  - ref: refs/heads/ti-k3-dts-next
+    old: 254f49634ee16a731174d2ae34bc50bd5f45e731
+    new: 5b36d8c72c91d0f213c712472caf03192e373c0a
+    log: |
+         d8fe8442366ffd8306575028bda92389d0dfb674 arm64: dts: ti: k3-am62a7-sk: Add bootph-all tag to vqmmc
+         abbc2a8235944a78f0a0003fb95cdf6ec5a150a1 arm64: dts: ti: k3-am62-lp-sk: Add system-power-controller
+         92468e053476537250e750ecc9bc648b0b1aef09 arm64: dts: ti: k3-j722s: Use ti,j7200-padconf compatible
+         e6856de612ca8941b7435c91a0f2e770d1a981e0 arm64: dts: ti: k3-j722s: Add mcu domain peripherals specific to J722S
+         6c21336acd5b2adf33ec73f43f31bd389381da5f arm64: dts: ti: k3-j722s: Add wakeup domain peripherals specific to J722S
+         bd9fbe2781993259ea9241be7452e1355ceffb87 arm64: dts: ti: k3-j721s2-som-p0: add bootph-pre-ram property to PMIC-B
+         79c18f417a18c3211d815d6ec5b3239d74d951ea arm64: dts: ti: am62-phyboard-lyra: Add DT overlay for Lincoln LCD185-101CT panel
+         d8961140aecdd68a57ac1ca11327964a709d5ae5 dt-bindings: arm: ti: Add compatible for AM625-based TQMa62xx SOM family and carrier board
+         5b36d8c72c91d0f213c712472caf03192e373c0a arm64: dts: ti: Add TQ-Systems TQMa62xx SoM and MBa62xx carrier board Device Trees
+         
+  - ref: refs/heads/ti-next
+    old: 254f49634ee16a731174d2ae34bc50bd5f45e731
+    new: 8933283eb5ce63571fafc5fd70bb1e0b245c3a88
+    log: revlist-254f49634ee1-8933283eb5ce.txt
 
---===============2408655288240060114==
+--===============1594392004757573545==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=git-push-certificate.txt
+Content-Disposition: attachment; filename=revlist-254f49634ee1-8933283eb5ce.txt
 
-certificate version 0.1
-pusher krzk@kernel.org 1777989058 +0200
-pushee kernel.org:/pub/scm/linux/kernel/git/krzk/linux-mem-ctrl.git
-nonce 1777989057-478e6e75d6938807d011b0f7d9986a196b5e79fd
+b0ea5175358f0872ffdc9c6073585637dc01815a dt-bindings: hwinfo: ti,k3-socinfo: Add nvmem-cells support
+97cfbd30525ef0df3de0681a4ca04a80a06d4f16 soc: ti: k3-socinfo: Add support for AM62P variants via NVMEM
+af76cdcf02b7be9277af999f0e316943d94d7fd4 soc: ti: knav_dma: fix all kernel-doc warnings in knav_dma.h
+d8fe8442366ffd8306575028bda92389d0dfb674 arm64: dts: ti: k3-am62a7-sk: Add bootph-all tag to vqmmc
+abbc2a8235944a78f0a0003fb95cdf6ec5a150a1 arm64: dts: ti: k3-am62-lp-sk: Add system-power-controller
+92468e053476537250e750ecc9bc648b0b1aef09 arm64: dts: ti: k3-j722s: Use ti,j7200-padconf compatible
+e6856de612ca8941b7435c91a0f2e770d1a981e0 arm64: dts: ti: k3-j722s: Add mcu domain peripherals specific to J722S
+6c21336acd5b2adf33ec73f43f31bd389381da5f arm64: dts: ti: k3-j722s: Add wakeup domain peripherals specific to J722S
+bd9fbe2781993259ea9241be7452e1355ceffb87 arm64: dts: ti: k3-j721s2-som-p0: add bootph-pre-ram property to PMIC-B
+79c18f417a18c3211d815d6ec5b3239d74d951ea arm64: dts: ti: am62-phyboard-lyra: Add DT overlay for Lincoln LCD185-101CT panel
+d8961140aecdd68a57ac1ca11327964a709d5ae5 dt-bindings: arm: ti: Add compatible for AM625-based TQMa62xx SOM family and carrier board
+5b36d8c72c91d0f213c712472caf03192e373c0a arm64: dts: ti: Add TQ-Systems TQMa62xx SoM and MBa62xx carrier board Device Trees
+8933283eb5ce63571fafc5fd70bb1e0b245c3a88 Merge branches 'ti-k3-dts-next' and 'ti-drivers-soc-next' into ti-next
 
-0000000000000000000000000000000000000000 cc07840751d130fa78825b5bae7117d31131ad7b refs/tags/memory-controller-drv-tegra-dt-bindings-7.2
------BEGIN PGP SIGNATURE-----
-
-iQJEBAABCgAuFiEE3dJiKD0RGyM7briowTdm5oaLg9cFAmn59cIQHGtyemtAa2Vy
-bmVsLm9yZwAKCRDBN2bmhouD11R/D/9pg59fP9zAn4mDdggUVRDpl7elm2q7iKfC
-j+vWXsliu8yXbSbOucBYL+9sy6YJHt8Wl4OFVw7ybIRaKG5sAyKr8zt13Oa7Kodm
-n8VrXgBQsMryA9EvTzb2KUwJUjPVqqkOSqyA94kn+nvfRRIEI/VbF9Ol7oM6zG6b
-wEYo3ahsisiezN+FElJ3zirl0hHF1x9s+MD2Y/f4GbdFDcjifZFSsSF9WdXzmx8w
-ySik22e7F400X74ji5/Gb1G6bwr/IYuehZYgiQPK1i9x+LBnbxCJhlIWZh2EDjar
-VbrmfdcfLfkObYSvjpbrCjsrUICWh6q5tIVPQ3gEs3RHVU1U1J20EBc8/Zlh1nLz
-e9VtJnLK5/UXpD4y6Axh/KLitlcBbyuSXjU93uFO0VauHJ+zT6ssCsiAlsvsTXlm
-L3eZk1RQqjUJqkC5uP2ezhgk9vYxXjFvBWqfR4mYAqSrhuKu9vh3RmuuTZvp8Ufy
-16KlqZJdiyQ6hdMsM99qRRtFvrqA9jiWGaljPOiHo9t0h5GzCIA/Up9igUJ1eGIV
-1pqwEihh7KBl9GxJZXhpajkp8ZWzh3XzYKIEAJxSvXQbmHu0KvCkc0KIWmZBZGST
-VjesrWdQTbd49e6IpPC1XavUjhAMJnpRh3/fuK+g1AJKEeq5KJEf6lzygqH8gjpI
-W0wZJFK2ow==
-=S+Vg
------END PGP SIGNATURE-----
-
---===============2408655288240060114==--
+--===============1594392004757573545==--
