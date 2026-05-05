@@ -1,11 +1,11 @@
-Content-Type: multipart/mixed; boundary="===============0914501617530401707=="
+Content-Type: multipart/mixed; boundary="===============2399314056540642758=="
 MIME-Version: 1.0
 From: Gitolite <devnull@kernel.org>
 Subject: post-receive: pub/scm/linux/kernel/git/tnguy/next-queue
-Date: Tue, 05 May 2026 22:56:15 -0000
-Message-Id: <177802177597.1740553.8443168314658235361@gitolite.kernel.org>
+Date: Tue, 05 May 2026 22:56:18 -0000
+Message-Id: <177802177836.1740692.12661200661350750477@gitolite.kernel.org>
 
---===============0914501617530401707==
+--===============2399314056540642758==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
@@ -15,16 +15,16 @@ service: git-receive-pack
 repo: pub/scm/linux/kernel/git/tnguy/next-queue
 user: tnguy
 changes:
-  - ref: refs/heads/1GbE
-    old: 3db9cb1411750c575469a3418ad3c9faf2a81a1d
-    new: 12892726400694825f74e4555eabcc55f05d3797
-    log: revlist-3db9cb141175-128927264006.txt
+  - ref: refs/heads/10GbE
+    old: 98878ed91b68a3150126fccef125ee7b1bb86ab2
+    new: 8c699be3dad7bba87cdda485dc099226cfc2f706
+    log: revlist-98878ed91b68-8c699be3dad7.txt
 
---===============0914501617530401707==
+--===============2399314056540642758==
 Content-Type: text/plain; charset="us-ascii"
 MIME-Version: 1.0
 Content-Transfer-Encoding: 7bit
-Content-Disposition: attachment; filename=revlist-3db9cb141175-128927264006.txt
+Content-Disposition: attachment; filename=revlist-98878ed91b68-8c699be3dad7.txt
 
 c4994aee029294cf7ab460a4f7f71027e9ea64f2 net/sched: taprio: prepare taprio_dump() for RTNL removal
 d3aae4d954f92a273388439ab015763e0cdea1e0 net: phy: realtek: Add support for PHY LEDs on RTL8221B
@@ -48,18 +48,5 @@ ca283942e5b91894d3a9228eaf789837f66c986f net: mdio: Add support for RSFEC Contro
 d7dbf00b4a5503def75487ed803698042ba1965d net: eth: fbnic: Consolidate register reads for ids and devs
 3877097c3c9e0356ad5ed8411f417a100090be9c net: eth: fbnic: Add pma read and write access
 8c699be3dad7bba87cdda485dc099226cfc2f706 Merge branch 'first-series-for-xpcs-based-rsfec-configuration'
-4760729f47b36146cd36da172e3907779ab05147 igc: Call netif_queue_set_napi() with rtnl locked
-e6ab74ae21d30cb653d99af5e11de82d37ecc46a igc: Let the PCI core deal with the PM resume flow
-804201e70dc944f1960efe4abadfff6cd378f781 igc: Don't reset the hardware on suspend path
-831af163c11979de2aefd349b0ed3a631855e7a9 igc: prepare for RSS key get/set support
-8889e069b00c1209e4301bc3672ca6828f185641 igc: expose RSS key via ethtool get_rxfh
-1a63f09c3cde13f2a15f79a963c2aaaa74563680 igc: allow configuring RSS key via ethtool set_rxfh
-5628ecf2b791fe5968114643633cd0bfe6361999 igb: prepare for RSS key get/set support
-e815e925c14ae6ee787a12272370db32cc1f9108 igb: expose RSS key via ethtool get_rxfh
-4fe1889de7a65a8ae37c28739070b038022e568e igb: allow configuring RSS key via ethtool set_rxfh
-713d6f72a4452e1b5baefa986e1d1329a2001f4f igb: set skb hash type from RSS_TYPE
-d84004d4f82d33d949e326b8d91574c2fddbe2a0 igb: fix typos in comments
-9404352a9c6d2cd1e33d1a491eba4377c5e718c4 igc: fix typos in comments
-12892726400694825f74e4555eabcc55f05d3797 ice: add support for unmanaged DPLL on E830 NIC
 
---===============0914501617530401707==--
+--===============2399314056540642758==--
