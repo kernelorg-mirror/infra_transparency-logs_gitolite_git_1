@@ -1,19 +1,19 @@
 From: Gitolite <devnull@kernel.org>
-Subject: post-receive: pub/scm/linux/kernel/git/ath/ath
-Date: Tue, 05 May 2026 22:37:30 -0000
-Message-Id: <177802065078.1715914.9201520348487054592@gitolite.kernel.org>
+Subject: post-receive: pub/scm/linux/kernel/git/tatashin/linux
+Date: Tue, 05 May 2026 22:40:03 -0000
+Message-Id: <177802080388.1719482.11561419517823923939@gitolite.kernel.org>
 MIME-Version: 1.0
 Content-Type: text/plain; charset="utf-8"
 Content-Transfer-Encoding: 7bit
 
 ---
 service: git-receive-pack
-repo: pub/scm/linux/kernel/git/ath/ath
-user: jjohnson
+repo: pub/scm/linux/kernel/git/tatashin/linux
+user: tatashin
 changes:
-  - ref: refs/heads/pending
-    old: e12d2d3983acb150fd987d19ec6a2a530da110df
-    new: fb9fdaca39846882f04c2ff5a06f2cfaef696e31
+  - ref: refs/heads/luo-reboot-sync/v1
+    old: 3a101e2a8ee90f7661efa7f15a8aec669d6ff914
+    new: c562d42766f20acf95a4049eace157e5488c195b
     log: |
-         fb9fdaca39846882f04c2ff5a06f2cfaef696e31 wifi: ath12k: add channel 177 to the 5 GHz channel list
+         c562d42766f20acf95a4049eace157e5488c195b liveupdate: pin sessions and handle inactive ones during serialization
          
